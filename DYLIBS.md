@@ -23,6 +23,9 @@
 
 
 #### ⬆️ Updated
+<details>
+  <summary><i>View Updated</i></summary>
+
 
 ##### `ASMessagesProvider`
 > `/System/Library/AccessibilityBundles/ASMessagesProvider.axbundle/ASMessagesProvider`
@@ -106591,3 +106594,5 @@
    __AUTH_CONST.__auth_ptr: 0x20
 
 ```
+
+</details>
