@@ -1,0 +1,54 @@
+## NanoRegistry
+
+> `/System/Library/PrivateFrameworks/NanoRegistry.framework/NanoRegistry`
+
+```diff
+
+-972.0.0.0.0
+-  __TEXT.__text: 0x50bc8
++975.0.0.0.0
++  __TEXT.__text: 0x50f20
+   __TEXT.__auth_stubs: 0x940
+-  __TEXT.__objc_methlist: 0x41d8
+-  __TEXT.__cstring: 0x3e1c
+-  __TEXT.__const: 0xc0
+-  __TEXT.__gcc_except_tab: 0xe88
+-  __TEXT.__oslogstring: 0x1d61
++  __TEXT.__objc_methlist: 0x41e8
++  __TEXT.__cstring: 0x3e33
++  __TEXT.__const: 0xc8
++  __TEXT.__gcc_except_tab: 0xeac
++  __TEXT.__oslogstring: 0x1dc8
+   __TEXT.__ustring: 0xc
+-  __TEXT.__unwind_info: 0x1928
++  __TEXT.__unwind_info: 0x1940
+   __TEXT.__objc_classname: 0x8e3
+-  __TEXT.__objc_methname: 0x7299
++  __TEXT.__objc_methname: 0x72d0
+   __TEXT.__objc_methtype: 0x147a
+-  __TEXT.__objc_stubs: 0x5080
+-  __DATA_CONST.__got: 0x330
+-  __DATA_CONST.__const: 0x1d28
++  __TEXT.__objc_stubs: 0x50e0
++  __DATA_CONST.__got: 0x338
++  __DATA_CONST.__const: 0x1d50
+   __DATA_CONST.__objc_classlist: 0x280
+   __DATA_CONST.__objc_catlist: 0x28
+   __DATA_CONST.__objc_protolist: 0x98
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x1c88
++  __DATA_CONST.__objc_selrefs: 0x1ca0
+   __DATA_CONST.__objc_protorefs: 0x28
+   __DATA_CONST.__objc_superrefs: 0x1c0
+   __DATA_CONST.__objc_arraydata: 0xc0
+
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libcompression.dylib
+   - /usr/lib/libobjc.A.dylib
+-  Symbols:   2634
+-  Functions: 2034
++  Symbols:   2639
++  Functions: 2038
+ 
+
+```

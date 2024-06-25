@@ -1,0 +1,37 @@
+## libBasebandCommandDrivers.dylib
+
+> `/usr/lib/libBasebandCommandDrivers.dylib`
+
+```diff
+
+-1163.1.0.0.0
++1168.0.0.0.0
+   __TEXT.__text: 0x15e08
+   __TEXT.__auth_stubs: 0x700
+   __TEXT.__gcc_except_tab: 0x1bf4
+-  __TEXT.__cstring: 0x2532
++  __TEXT.__cstring: 0x250c
+   __TEXT.__const: 0x2ecc
+   __TEXT.__oslogstring: 0x192
+   __TEXT.__unwind_info: 0xc38
+   __DATA_CONST.__got: 0xc0
+-  __DATA_CONST.__const: 0xf90
++  __DATA_CONST.__const: 0xf80
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __AUTH_CONST.__auth_got: 0x388
+   __AUTH_CONST.__const: 0x2588
+-  __AUTH_CONST.__cfstring: 0x1da0
++  __AUTH_CONST.__cfstring: 0x1d60
+   __DATA.__data: 0x28
+   __DATA_DIRTY.__bss: 0x10
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+
+   - /usr/lib/libTelephonyCapabilities.dylib
+   - /usr/lib/libTelephonyUtilDynamic.dylib
+   - /usr/lib/libc++.1.dylib
+-  Symbols:   1148
++  Symbols:   1146
+   Functions: 588
+ 
+
+```

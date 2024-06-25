@@ -1,0 +1,19 @@
+## libcryptex_trampoline.dylib
+
+> `/usr/lib/libcryptex_trampoline.dylib`
+
+```diff
+
+-463.0.0.0.2
++473.0.0.0.0
+   __TEXT.__text: 0x6e0
+   __TEXT.__auth_stubs: 0x110
+-  __TEXT.__const: 0x78
+-  __TEXT.__cstring: 0x1e8
++  __TEXT.__const: 0x70
++  __TEXT.__cstring: 0x1ce
+   __TEXT.__oslogstring: 0x104
+   __TEXT.__info_plist: 0x4ff
+   __TEXT.__unwind_info: 0x80
+
+```

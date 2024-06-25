@@ -1,0 +1,49 @@
+## CoreRepairLite
+
+> `/System/Library/PrivateFrameworks/CoreRepairLite.framework/CoreRepairLite`
+
+```diff
+
+-552.0.0.0.4
+-  __TEXT.__text: 0x99b4
++587.0.0.0.0
++  __TEXT.__text: 0x9948
+   __TEXT.__auth_stubs: 0x680
+-  __TEXT.__objc_methlist: 0x23c
++  __TEXT.__objc_methlist: 0x22c
+   __TEXT.__const: 0xaf
+-  __TEXT.__oslogstring: 0x158c
++  __TEXT.__oslogstring: 0x159a
+   __TEXT.__gcc_except_tab: 0xf8
+-  __TEXT.__cstring: 0x4bf
++  __TEXT.__cstring: 0x450
+   __TEXT.__unwind_info: 0x138
+   __TEXT.__objc_classname: 0x33
+-  __TEXT.__objc_methname: 0x888
+-  __TEXT.__objc_methtype: 0x17d
++  __TEXT.__objc_methname: 0x87a
++  __TEXT.__objc_methtype: 0x176
+   __TEXT.__objc_stubs: 0xaa0
+   __DATA_CONST.__got: 0xd8
+   __DATA_CONST.__const: 0x50
+   __DATA_CONST.__objc_classlist: 0x18
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x308
++  __DATA_CONST.__objc_selrefs: 0x300
+   __DATA_CONST.__objc_arraydata: 0x10
+   __AUTH_CONST.__auth_got: 0x350
+   __AUTH_CONST.__const: 0x20
+-  __AUTH_CONST.__cfstring: 0x6a0
++  __AUTH_CONST.__cfstring: 0x5e0
+   __AUTH_CONST.__objc_const: 0x1d8
+   __AUTH_CONST.__objc_arrayobj: 0x18
+   __AUTH.__objc_data: 0xf0
+
+   - /usr/lib/libamsupport.dylib
+   - /usr/lib/libobjc.A.dylib
+   Symbols:   140
+-  Functions: 170
++  Functions: 169
+ 
+
+```

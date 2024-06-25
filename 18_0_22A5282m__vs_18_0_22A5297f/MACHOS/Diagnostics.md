@@ -1,0 +1,83 @@
+## Diagnostics
+
+> `/Applications/Diagnostics.app/Diagnostics`
+
+```diff
+
+-747.0.0.0.0
+-  __TEXT.__text: 0xc0b70
++766.0.0.0.0
++  __TEXT.__text: 0xc0ad4
+   __TEXT.__auth_stubs: 0x1e70
+-  __TEXT.__objc_stubs: 0x6900
+-  __TEXT.__objc_methlist: 0x4428
++  __TEXT.__objc_stubs: 0x68c0
++  __TEXT.__objc_methlist: 0x4378
+   __TEXT.__gcc_except_tab: 0xa98
+-  __TEXT.__objc_methname: 0xca7f
++  __TEXT.__objc_methname: 0xca42
+   __TEXT.__objc_classname: 0xa83
+-  __TEXT.__objc_methtype: 0x3421
+-  __TEXT.__const: 0x2d04
+-  __TEXT.__cstring: 0x8eeb
++  __TEXT.__objc_methtype: 0x3459
++  __TEXT.__const: 0x2cc4
++  __TEXT.__cstring: 0x8edb
+   __TEXT.__oslogstring: 0x2743
+   __TEXT.__dlopen_cstrs: 0xfc
+   __TEXT.__ustring: 0x64
+   __TEXT.__swift5_entry: 0x8
+-  __TEXT.__constg_swiftt: 0x36d8
+-  __TEXT.__swift5_typeref: 0x1480
+-  __TEXT.__swift5_builtin: 0x154
+-  __TEXT.__swift5_reflstr: 0x2947
+-  __TEXT.__swift5_fieldmd: 0x1efc
++  __TEXT.__constg_swiftt: 0x36d0
++  __TEXT.__swift5_typeref: 0x1474
++  __TEXT.__swift5_builtin: 0x140
++  __TEXT.__swift5_reflstr: 0x2957
++  __TEXT.__swift5_fieldmd: 0x1ef8
+   __TEXT.__swift5_assocty: 0x270
+   __TEXT.__swift5_proto: 0x1d0
+-  __TEXT.__swift5_types: 0x19c
+-  __TEXT.__swift5_capture: 0x1178
++  __TEXT.__swift5_types: 0x198
++  __TEXT.__swift5_capture: 0x117c
+   __TEXT.__swift5_protos: 0x34
+   __TEXT.__swift5_mpenum: 0x10
+-  __TEXT.__unwind_info: 0x2678
++  __TEXT.__unwind_info: 0x2630
+   __TEXT.__eh_frame: 0x318
+   __DATA_CONST.__auth_got: 0xf48
+   __DATA_CONST.__got: 0xa88
+   __DATA_CONST.__auth_ptr: 0xcd8
+-  __DATA_CONST.__const: 0x6c90
++  __DATA_CONST.__const: 0x6c68
+   __DATA_CONST.__cfstring: 0x1ca0
+   __DATA_CONST.__objc_classlist: 0x3b0
+   __DATA_CONST.__objc_catlist: 0x28
+
+   __DATA_CONST.__objc_arraydata: 0x278
+   __DATA_CONST.__objc_arrayobj: 0x78
+   __DATA_CONST.__objc_floatobj: 0x20
+-  __DATA.__objc_const: 0x1ab98
+-  __DATA.__objc_selrefs: 0x2ec0
++  __DATA.__objc_const: 0x1aa58
++  __DATA.__objc_selrefs: 0x2ea8
+   __DATA.__objc_ivar: 0x360
+-  __DATA.__objc_data: 0x68a0
++  __DATA.__objc_data: 0x68c8
+   __DATA.__data: 0x3ef8
+   __DATA.__bss: 0x2dd0
+   __DATA.__common: 0x108
+
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Symbols:   984
+-  Functions: 3991
++  Symbols:   983
++  Functions: 3971
+ 
+
+```

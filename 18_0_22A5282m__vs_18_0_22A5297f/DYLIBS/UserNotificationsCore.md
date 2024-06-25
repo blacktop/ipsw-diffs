@@ -1,0 +1,122 @@
+## UserNotificationsCore
+
+> `/System/Library/PrivateFrameworks/UserNotificationsCore.framework/UserNotificationsCore`
+
+```diff
+
+-555.2.0.0.0
+-  __TEXT.__text: 0x178bd0
+-  __TEXT.__auth_stubs: 0x2de0
+-  __TEXT.__objc_methlist: 0x606c
+-  __TEXT.__const: 0xa3b0
+-  __TEXT.__cstring: 0xb121
+-  __TEXT.__gcc_except_tab: 0x6b4
+-  __TEXT.__oslogstring: 0xa6e8
++563.100.0.0.0
++  __TEXT.__text: 0x192c08
++  __TEXT.__auth_stubs: 0x3040
++  __TEXT.__objc_methlist: 0x6198
++  __TEXT.__const: 0xb210
++  __TEXT.__cstring: 0xbda7
++  __TEXT.__gcc_except_tab: 0x6d4
++  __TEXT.__oslogstring: 0xb778
+   __TEXT.__dlopen_cstrs: 0xf4
+-  __TEXT.__constg_swiftt: 0x47a0
+-  __TEXT.__swift5_typeref: 0x4964
+-  __TEXT.__swift5_reflstr: 0x2859
+-  __TEXT.__swift5_fieldmd: 0x3118
+-  __TEXT.__swift5_builtin: 0xdc
+-  __TEXT.__swift5_assocty: 0x388
+-  __TEXT.__swift5_protos: 0xa4
+-  __TEXT.__swift5_proto: 0x85c
+-  __TEXT.__swift5_types: 0x3bc
+-  __TEXT.__swift5_capture: 0x147c
+-  __TEXT.__swift5_mpenum: 0x48
+-  __TEXT.__unwind_info: 0x4f60
+-  __TEXT.__eh_frame: 0x49a8
+-  __TEXT.__objc_classname: 0xdbb
+-  __TEXT.__objc_methname: 0x14eff
+-  __TEXT.__objc_methtype: 0x3280
+-  __TEXT.__objc_stubs: 0xc760
+-  __DATA_CONST.__got: 0xe68
+-  __DATA_CONST.__const: 0x14c0
+-  __DATA_CONST.__objc_classlist: 0x508
++  __TEXT.__constg_swiftt: 0x50b0
++  __TEXT.__swift5_typeref: 0x4ec2
++  __TEXT.__swift5_reflstr: 0x2c97
++  __TEXT.__swift5_fieldmd: 0x36e8
++  __TEXT.__swift5_builtin: 0xf0
++  __TEXT.__swift5_assocty: 0x390
++  __TEXT.__swift5_protos: 0xdc
++  __TEXT.__swift5_proto: 0x914
++  __TEXT.__swift5_types: 0x424
++  __TEXT.__swift5_capture: 0x1554
++  __TEXT.__swift5_mpenum: 0x50
++  __TEXT.__unwind_info: 0x5448
++  __TEXT.__eh_frame: 0x5080
++  __TEXT.__objc_classname: 0xe11
++  __TEXT.__objc_methname: 0x151a0
++  __TEXT.__objc_methtype: 0x2fe6
++  __TEXT.__objc_stubs: 0xc7a0
++  __DATA_CONST.__got: 0xf80
++  __DATA_CONST.__const: 0x14a8
++  __DATA_CONST.__objc_classlist: 0x5a0
+   __DATA_CONST.__objc_catlist: 0x80
+-  __DATA_CONST.__objc_protolist: 0x280
++  __DATA_CONST.__objc_protolist: 0x2a8
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x3e78
+-  __DATA_CONST.__objc_protorefs: 0x140
+-  __DATA_CONST.__objc_superrefs: 0x1d8
+-  __AUTH_CONST.__auth_got: 0x1700
+-  __AUTH_CONST.__auth_ptr: 0xd10
+-  __AUTH_CONST.__const: 0x8a38
+-  __AUTH_CONST.__cfstring: 0x5460
+-  __AUTH_CONST.__objc_const: 0x1f060
++  __DATA_CONST.__objc_selrefs: 0x3f18
++  __DATA_CONST.__objc_protorefs: 0x158
++  __DATA_CONST.__objc_superrefs: 0x1e8
++  __AUTH_CONST.__auth_got: 0x1830
++  __AUTH_CONST.__auth_ptr: 0xe60
++  __AUTH_CONST.__const: 0x93d8
++  __AUTH_CONST.__cfstring: 0x54a0
++  __AUTH_CONST.__objc_const: 0x216c0
+   __AUTH_CONST.__objc_intobj: 0x108
+-  __AUTH.__objc_data: 0x1060
+-  __AUTH.__data: 0x3030
+-  __DATA.__objc_ivar: 0x828
+-  __DATA.__data: 0x3b38
+-  __DATA.__bss: 0xdd90
+-  __DATA.__common: 0x1d0
+-  __DATA_DIRTY.__objc_data: 0x1f60
+-  __DATA_DIRTY.__data: 0x2ad8
++  __AUTH.__objc_data: 0x1428
++  __AUTH.__data: 0x3d08
++  __DATA.__objc_ivar: 0x830
++  __DATA.__data: 0x3ef0
++  __DATA.__bss: 0xec20
++  __DATA.__common: 0x1c0
++  __DATA_DIRTY.__objc_data: 0x1f68
++  __DATA_DIRTY.__data: 0x2a60
+   __DATA_DIRTY.__bss: 0x15d0
+   __DATA_DIRTY.__common: 0x178
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+
+   - /System/Library/PrivateFrameworks/IconServices.framework/IconServices
+   - /System/Library/PrivateFrameworks/ManagedConfiguration.framework/ManagedConfiguration
+   - /System/Library/PrivateFrameworks/MobileKeyBag.framework/MobileKeyBag
+-  - /System/Library/PrivateFrameworks/ModelManagerServices.framework/ModelManagerServices
+   - /System/Library/PrivateFrameworks/PersistentConnection.framework/PersistentConnection
+   - /System/Library/PrivateFrameworks/PowerLog.framework/PowerLog
+   - /System/Library/PrivateFrameworks/ReplicatorServices.framework/ReplicatorServices
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Symbols:   3444
+-  Functions: 7846
++  Symbols:   3505
++  Functions: 8295
+ 
+
+```
