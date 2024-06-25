@@ -5,4 +5,10 @@
 
 ## DIFFS
 
-[18.0 (22A5282m) .vs 18.0 (22A5297f)](18b1Vs18b2/18.0_(22A5282m)_vs_18.0_(22A5297f).md)
+Generated via [`ipsw diff`](https://github.com/blacktop/ipsw)
+
+### [18.0 (22A5282m) .vs 18.0 (22A5297f)](18_0_22A5282m__vs_18_0_22A5297f/TOC.md)
+
+## License
+
+MIT Copyright (c) 2024 **blacktop**
