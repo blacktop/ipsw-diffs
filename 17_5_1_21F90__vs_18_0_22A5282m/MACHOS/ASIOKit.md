@@ -1,0 +1,32 @@
+## ASIOKit
+
+> `/System/Library/Extensions/ASIOKit.kext/ASIOKit`
+
+```diff
+
+-11.77.0.0.0
+-  __TEXT.__cstring: 0x1e3
++12.22.0.0.0
++  __TEXT.__cstring: 0x239
+   __TEXT.__const: 0x7c40
+-  __TEXT_EXEC.__text: 0x33220
+-  __TEXT_EXEC.__auth_stubs: 0x1a0
++  __TEXT_EXEC.__text: 0x33624
++  __TEXT_EXEC.__auth_stubs: 0x1d0
+   __DATA.__data: 0xd8
+   __DATA.__common: 0x60
+-  __DATA_CONST.__auth_got: 0xd0
++  __DATA_CONST.__auth_got: 0xe8
+   __DATA_CONST.__got: 0x48
+   __DATA_CONST.__mod_init_func: 0x10
+   __DATA_CONST.__mod_term_func: 0x10
+-  __DATA_CONST.__const: 0x31d8
+-  Symbols:   599
+-  Functions: 0
++  __DATA_CONST.__const: 0x3278
++  __DATA_CONST.__kalloc_type: 0x80
++  Symbols:   626
++  Functions: 88
+ 
+
+```
