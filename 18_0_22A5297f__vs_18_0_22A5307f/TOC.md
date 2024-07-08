@@ -21,45 +21,34 @@
 <details>
   <summary><i>View Updated</i></summary>
 
->  `com.apple.iokit.IOMIPIFamily`
+>  `com.apple.driver.AppleSEPKeyStore`
 
 ```diff
 
--160.0.0.0.0
-+160.0.1.0.0
-   __TEXT.__const: 0x20
-   __TEXT.__cstring: 0x1f5
--  __TEXT_EXEC.__text: 0x112c
-+  __TEXT_EXEC.__text: 0x1148
+-1827.0.41.0.1
+-  __TEXT.__cstring: 0x3aba
++1827.0.50.0.0
++  __TEXT.__cstring: 0x3ab6
+   __TEXT.__const: 0x864
+   __TEXT_EXEC.__text: 0x3d4f4
    __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0xc8
-   __DATA.__common: 0x60
 
 ```
 
->  `com.apple.driver.ASIOKit`
+>  `com.apple.iokit.IOGPUFamily`
 
 ```diff
 
--12.26.0.0.0
-+12.28.0.0.0
-   __TEXT.__cstring: 0x239
--  __TEXT.__const: 0x7c40
--  __TEXT_EXEC.__text: 0x317e8
-+  __TEXT.__const: 0x7c30
-+  __TEXT_EXEC.__text: 0x30068
+-104.0.5.0.0
++104.0.6.0.0
+   __TEXT.__cstring: 0x4faf
+   __TEXT.__os_log: 0x387c
+   __TEXT.__const: 0x7c
+-  __TEXT_EXEC.__text: 0x379c0
++  __TEXT_EXEC.__text: 0x37b28
    __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0xd8
-   __DATA.__common: 0x60
-
-   __DATA_CONST.__got: 0x48
-   __DATA_CONST.__mod_init_func: 0x10
-   __DATA_CONST.__mod_term_func: 0x10
--  __DATA_CONST.__const: 0x3038
-+  __DATA_CONST.__const: 0x2a08
-   __DATA_CONST.__kalloc_type: 0x80
-   Symbols:   0
-   Functions: 88
+   __DATA.__data: 0x4b0
+   __DATA.__common: 0x780
 
 ```
 
@@ -104,102 +93,58 @@
 
 ```
 
->  `com.apple.driver.AppleConvergedIPCOLYBTControl`
+>  `com.apple.driver.AppleMobileFileIntegrity`
 
 ```diff
 
--106.0.0.0.0
--  __TEXT.__cstring: 0x7b2d
-+107.0.0.0.0
-+  __TEXT.__cstring: 0x7ba9
-   __TEXT.__const: 0x98
--  __TEXT_EXEC.__text: 0x47870
-+  __TEXT_EXEC.__text: 0x479d0
+-938.0.16.0.0
+-  __TEXT.__cstring: 0x99f9
++938.0.19.0.0
++  __TEXT.__cstring: 0x9a86
+   __TEXT.__const: 0x14b0
+   __TEXT.__os_log: 0x233
+-  __TEXT_EXEC.__text: 0x25f6c
++  __TEXT_EXEC.__text: 0x25f4c
    __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0xc8
-   __DATA.__common: 0x1f0
+   __DATA.__data: 0x412
+   __DATA.__common: 0xb0
+   __DATA.__bss: 0x79
+-  __DATA_CONST.__auth_got: 0x7c0
++  __DATA_CONST.__auth_got: 0x7b8
+   __DATA_CONST.__got: 0x150
+   __DATA_CONST.__auth_ptr: 0x10
+   __DATA_CONST.__mod_init_func: 0x18
 
-   __DATA_CONST.__got: 0xf8
-   __DATA_CONST.__mod_init_func: 0x58
-   __DATA_CONST.__mod_term_func: 0x58
--  __DATA_CONST.__const: 0x4c58
-+  __DATA_CONST.__const: 0x4c70
-   __DATA_CONST.__kalloc_type: 0xc40
-   __DATA_CONST.__kalloc_var: 0x500
+   __DATA_CONST.__kalloc_type: 0xec0
+   __DATA_CONST.__kalloc_var: 0x1310
    Symbols:   0
--  Functions: 969
-+  Functions: 971
+-  Functions: 790
++  Functions: 791
  
 
 ```
 
->  `com.apple.driver.AppleDCP`
+>  `com.apple.driver.AppleSEPCredentialManager`
 
 ```diff
 
--811.0.17.0.0
-+811.0.20.0.0
-   __TEXT.__cstring: 0x1664
-   __TEXT.__const: 0x18
-   __TEXT_EXEC.__text: 0x5e48
-
-   __DATA_CONST.__got: 0x80
-   __DATA_CONST.__mod_init_func: 0x20
-   __DATA_CONST.__mod_term_func: 0x20
--  __DATA_CONST.__const: 0x1438
-+  __DATA_CONST.__const: 0x1430
-   __DATA_CONST.__kalloc_type: 0x100
-   Symbols:   0
-   Functions: 175
-
-```
-
->  `com.apple.driver.AppleOLYHAL`
-
-```diff
-
--336.22.4.1.0
-+337.0.0.0.0
-   __TEXT.__const: 0x7a8
--  __TEXT.__cstring: 0x4826
--  __TEXT_EXEC.__text: 0x1c998
-+  __TEXT.__cstring: 0x473a
-+  __TEXT_EXEC.__text: 0x1ca58
+-758.0.14.0.0
+-  __TEXT.__cstring: 0x10491
++758.0.16.0.0
++  __TEXT.__cstring: 0x10503
+   __TEXT.__const: 0x320
+-  __TEXT_EXEC.__text: 0x47fc4
++  __TEXT_EXEC.__text: 0x48090
    __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0x18c
-   __DATA.__common: 0x170
+   __DATA.__data: 0x2bf1
+   __DATA.__common: 0x1d8
 
-   __DATA_CONST.__got: 0xe8
-   __DATA_CONST.__mod_init_func: 0x38
-   __DATA_CONST.__mod_term_func: 0x38
--  __DATA_CONST.__const: 0x1338
-+  __DATA_CONST.__const: 0x1378
-   __DATA_CONST.__kalloc_type: 0x640
+   __DATA_CONST.__kalloc_type: 0x600
+   __DATA_CONST.__kalloc_var: 0x1400
    Symbols:   0
--  Functions: 548
-+  Functions: 549
+-  Functions: 897
++  Functions: 899
  
-
-```
-
->  `com.apple.driver.AppleProxDriver`
-
-```diff
-
--41.0.0.0.0
-+43.0.0.0.0
-   __TEXT.__const: 0x48
--  __TEXT.__cstring: 0x826
-+  __TEXT.__cstring: 0x855
-   __TEXT.__os_log: 0x607
--  __TEXT_EXEC.__text: 0xa9c4
-+  __TEXT_EXEC.__text: 0xa9a4
-   __TEXT_EXEC.__auth_stubs: 0x0
--  __DATA.__data: 0xc8
-+  __DATA.__data: 0xe0
-   __DATA.__common: 0xd8
-   __DATA_CONST.__auth_got: 0x158
-   __DATA_CONST.__got: 0x78
 
 ```
 
@@ -246,293 +191,30 @@
 
 ```
 
->  `com.apple.driver.AppleHapticsSupportLEAP`
+>  `com.apple.driver.AppleOLYHAL`
 
 ```diff
 
--9.19.0.0.0
-+9.20.0.0.0
-   __TEXT.__const: 0x204
--  __TEXT.__cstring: 0x4405
--  __TEXT.__os_log: 0x82e
--  __TEXT_EXEC.__text: 0x324c0
-+  __TEXT.__cstring: 0x443a
-+  __TEXT.__os_log: 0x88e
-+  __TEXT_EXEC.__text: 0x33228
+-336.22.4.1.0
++337.0.0.0.0
+   __TEXT.__const: 0x7a8
+-  __TEXT.__cstring: 0x4826
+-  __TEXT_EXEC.__text: 0x1c998
++  __TEXT.__cstring: 0x473a
++  __TEXT_EXEC.__text: 0x1ca58
    __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0x810
--  __DATA.__common: 0x5f0
-+  __DATA.__common: 0x618
-   __DATA.__bss: 0x1
-   __DATA_CONST.__auth_got: 0x348
-   __DATA_CONST.__got: 0x148
--  __DATA_CONST.__mod_init_func: 0xb0
--  __DATA_CONST.__mod_term_func: 0xb8
--  __DATA_CONST.__const: 0x4778
--  __DATA_CONST.__kalloc_type: 0xac0
-+  __DATA_CONST.__mod_init_func: 0xb8
-+  __DATA_CONST.__mod_term_func: 0xc0
-+  __DATA_CONST.__const: 0x4900
-+  __DATA_CONST.__kalloc_type: 0xc00
-   __DATA_CONST.__kalloc_var: 0x50
-   Symbols:   0
--  Functions: 922
-+  Functions: 953
- 
+   __DATA.__data: 0x18c
+   __DATA.__common: 0x170
 
-```
-
->  `com.apple.driver.AppleT8110DART`
-
-```diff
-
--452.0.1.0.0
-+452.0.2.0.0
-   __TEXT.__const: 0x60
--  __TEXT.__cstring: 0x276b
--  __TEXT_EXEC.__text: 0xd390
-+  __TEXT.__cstring: 0x27b4
-+  __TEXT_EXEC.__text: 0xd458
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0xc8
-   __DATA.__common: 0x38
-
-   __DATA_CONST.__kalloc_type: 0x2c0
-   __DATA_CONST.__kalloc_var: 0x410
-   Symbols:   0
--  Functions: 148
-+  Functions: 149
- 
-
-```
-
->  `com.apple.iokit.IOSurface`
-
-```diff
-
--368.0.2.0.0
--  __TEXT.__cstring: 0x4f14
-+368.0.4.0.0
-+  __TEXT.__cstring: 0x4f28
-   __TEXT.__const: 0x48
--  __TEXT.__os_log: 0x530
--  __TEXT_EXEC.__text: 0x2d228
-+  __TEXT.__os_log: 0x4ff
-+  __TEXT_EXEC.__text: 0x2d340
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0x178
-   __DATA.__common: 0x3e8
--  __DATA.__bss: 0x28
--  __DATA_CONST.__auth_got: 0x468
-+  __DATA.__bss: 0x38
-+  __DATA_CONST.__auth_got: 0x478
-   __DATA_CONST.__got: 0xd0
-   __DATA_CONST.__mod_init_func: 0x78
-   __DATA_CONST.__mod_term_func: 0x78
-
-   __DATA_CONST.__kalloc_type: 0xb80
-   __DATA_CONST.__kalloc_var: 0x8c0
-   Symbols:   0
--  Functions: 1191
-+  Functions: 1193
- 
-
-```
-
->  `com.apple.kec.corecrypto`
-
-```diff
-
--1736.0.27.0.1
--  __TEXT.__cstring: 0x46c3
--  __TEXT.__const: 0x144b0
-+1736.0.36.0.0
-+  __TEXT.__cstring: 0x46e7
-+  __TEXT.__const: 0x14490
-   __TEXT.__fips_hmacs: 0x20
--  __TEXT_EXEC.__text: 0x54a48
-+  __TEXT_EXEC.__text: 0x58bfc
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0x2df0
--  __DATA.__bss: 0x2960
--  __DATA.__common: 0x138
-+  __DATA.__bss: 0x2980
-+  __DATA.__common: 0x140
-   __DATA_CONST.__auth_got: 0x120
-   __DATA_CONST.__got: 0x10
-   __DATA_CONST.__auth_ptr: 0x128
--  __DATA_CONST.__const: 0x2ba8
-+  __DATA_CONST.__const: 0x2c90
-   Symbols:   0
--  Functions: 1303
-+  Functions: 1313
- 
-
-```
-
->  `com.apple.driver.AppleH16CameraInterface`
-
-```diff
-
--3.25.1.0.0
--  __TEXT.__cstring: 0x190ab
--  __TEXT.__os_log: 0x153bf
-+3.28.1.0.0
-+  __TEXT.__cstring: 0x190b9
-+  __TEXT.__os_log: 0x153cb
-   __TEXT.__const: 0xa060
-   __TEXT_EXEC.__text: 0x95dfc
-   __TEXT_EXEC.__auth_stubs: 0x0
-
-```
-
->  `com.apple.driver.FairPlayIOKit`
-
-```diff
-
- 72.8.0.0.0
-   __TEXT.__cstring: 0x1c95
--  __TEXT.__const: 0x49a20
--  __TEXT_EXEC.__text: 0x1ad63c
-+  __TEXT.__const: 0x49c10
-+  __TEXT_EXEC.__text: 0x1b0660
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0x12e0
--  __DATA.__common: 0x5fd0
-+  __DATA.__common: 0x5fd8
-   __DATA.__bss: 0x38
-   __DATA_CONST.__auth_got: 0x218
-   __DATA_CONST.__got: 0x58
-   __DATA_CONST.__auth_ptr: 0x10
-   __DATA_CONST.__mod_init_func: 0x10
-   __DATA_CONST.__mod_term_func: 0x10
--  __DATA_CONST.__const: 0x139e0
-+  __DATA_CONST.__const: 0x13860
-   __DATA_CONST.__kalloc_type: 0x1b00
-   __DATA_CONST.__kalloc_var: 0x370
-   Symbols:   0
--  Functions: 438
-+  Functions: 461
- 
-
-```
-
->  `com.apple.kernel`
-
-```diff
-
--11215.0.115.502.1
--  __TEXT.__const: 0x33b90
-+11215.0.132.502.2
-+  __TEXT.__const: 0x33ba0
-   __TEXT.__copyio_vectors: 0xf0
--  __TEXT.__cstring: 0x6b9b9
-+  __TEXT.__cstring: 0x6b9cd
-   __TEXT.__os_log: 0x26bed
-   __TEXT.__eh_frame: 0x5a0
-   __DATA_CONST.__auth_ptr: 0x8
-
-   __DATA_CONST.__brk_desc: 0x78
-   __DATA_SPTM.__const: 0x3c000
-   __TEXT_EXEC.__hib_text: 0xc68
--  __TEXT_EXEC.__text: 0x7fa8f4
-+  __TEXT_EXEC.__text: 0x7fb518
-   __TEXT_BOOT_EXEC.__bootcode: 0x4cd8
-   __KLD.__text: 0x1644
-   __LASTDATA_CONST.__mod_init_func: 0x8
-
-   __PLK_DATA_CONST.__data: 0x0
-   __PLK_LLVM_COV.__llvm_covmap: 0x0
-   __PLK_LINKEDIT.__data: 0x0
--  __LINKINFO.__symbolsets: 0x45329
-+  __LINKINFO.__symbolsets: 0x453aa
-   __LATE_CONST.__late_const: 0xa8
-   Symbols:   0
--  Functions: 19818
-+  Functions: 19823
- 
-
-```
-
->  `com.apple.driver.AppleBasebandPCI`
-
-```diff
-
--809.0.0.0.0
--  __TEXT.__cstring: 0xc23c
-+810.0.0.0.0
-+  __TEXT.__cstring: 0xc286
-   __TEXT.__const: 0x5009
--  __TEXT_EXEC.__text: 0x88670
-+  __TEXT_EXEC.__text: 0x88dd0
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0x3f8
-   __DATA.__common: 0x648
-
-   __DATA_CONST.__auth_ptr: 0x8
-   __DATA_CONST.__mod_init_func: 0x1350
-   __DATA_CONST.__mod_term_func: 0xf0
--  __DATA_CONST.__const: 0xfe98
-+  __DATA_CONST.__const: 0xfeb8
-   __DATA_CONST.__kalloc_type: 0x1d80
-   __DATA_CONST.__kalloc_var: 0x690
-   Symbols:   0
--  Functions: 2397
-+  Functions: 2403
- 
-
-```
-
->  `com.apple.driver.AppleMobileDispH16P-DCP`
-
-```diff
-
--395.20.1.0.0
-+395.23.1.0.0
-   __TEXT.__cstring: 0x5565
-   __TEXT.__const: 0x1a78
--  __TEXT_EXEC.__text: 0x20644
-+  __TEXT_EXEC.__text: 0x2069c
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0x2b8
-   __DATA.__common: 0xf0
-
+   __DATA_CONST.__got: 0xe8
+   __DATA_CONST.__mod_init_func: 0x38
+   __DATA_CONST.__mod_term_func: 0x38
+-  __DATA_CONST.__const: 0x1338
++  __DATA_CONST.__const: 0x1378
    __DATA_CONST.__kalloc_type: 0x640
-   __DATA_CONST.__kalloc_var: 0xf0
    Symbols:   0
--  Functions: 1105
-+  Functions: 1108
- 
-
-```
-
->  `com.apple.driver.AppleMobileFileIntegrity`
-
-```diff
-
--938.0.16.0.0
--  __TEXT.__cstring: 0x99f9
-+938.0.19.0.0
-+  __TEXT.__cstring: 0x9a86
-   __TEXT.__const: 0x14b0
-   __TEXT.__os_log: 0x233
--  __TEXT_EXEC.__text: 0x25f6c
-+  __TEXT_EXEC.__text: 0x25f4c
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0x412
-   __DATA.__common: 0xb0
-   __DATA.__bss: 0x79
--  __DATA_CONST.__auth_got: 0x7c0
-+  __DATA_CONST.__auth_got: 0x7b8
-   __DATA_CONST.__got: 0x150
-   __DATA_CONST.__auth_ptr: 0x10
-   __DATA_CONST.__mod_init_func: 0x18
-
-   __DATA_CONST.__kalloc_type: 0xec0
-   __DATA_CONST.__kalloc_var: 0x1310
-   Symbols:   0
--  Functions: 790
-+  Functions: 791
+-  Functions: 548
++  Functions: 549
  
 
 ```
@@ -564,43 +246,82 @@
 
 ```
 
->  `com.apple.driver.AppleSmartBatteryManagerEmbedded`
+>  `com.apple.driver.ApplePMGR`
 
 ```diff
 
--1730.0.0.0.2
--  __TEXT.__cstring: 0x4456
--  __TEXT.__const: 0x15c0
-+1735.0.0.0.0
-+  __TEXT.__cstring: 0x447a
-+  __TEXT.__const: 0x15f0
-   __TEXT.__os_log: 0x25f9
--  __TEXT_EXEC.__text: 0x22824
-+  __TEXT_EXEC.__text: 0x228a0
+-1555.0.15.0.0
++1555.0.17.0.0
+   __TEXT.__const: 0x248
+   __TEXT.__cstring: 0xe858
+-  __TEXT_EXEC.__text: 0x527fc
++  __TEXT_EXEC.__text: 0x527f8
    __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0x208
-   __DATA.__common: 0x150
--  __DATA.__bss: 0x3170
-+  __DATA.__bss: 0x31d0
-   __DATA_CONST.__auth_got: 0x3a0
-   __DATA_CONST.__got: 0xf0
-   __DATA_CONST.__mod_init_func: 0x40
+   __DATA.__data: 0x100
+   __DATA.__common: 0x420
 
 ```
 
->  `com.apple.filesystems.hfs.kext`
+>  `com.apple.iokit.IOMIPIFamily`
 
 ```diff
 
--670.0.0.0.0
-+672.0.0.0.0
-   __TEXT.__const: 0x1a90
-   __TEXT.__cstring: 0xa072
--  __TEXT_EXEC.__text: 0x51aac
-+  __TEXT_EXEC.__text: 0x51b2c
+-160.0.0.0.0
++160.0.1.0.0
+   __TEXT.__const: 0x20
+   __TEXT.__cstring: 0x1f5
+-  __TEXT_EXEC.__text: 0x112c
++  __TEXT_EXEC.__text: 0x1148
    __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0x4d0
-   __DATA.__common: 0x10
+   __DATA.__data: 0xc8
+   __DATA.__common: 0x60
+
+```
+
+>  `com.apple.security.sandbox`
+
+```diff
+
+-2401.0.37.502.1
+-  __TEXT.__const: 0x18bd51
+-  __TEXT.__cstring: 0x6e51
++2401.0.48.0.0
++  __TEXT.__const: 0x18cfc1
++  __TEXT.__cstring: 0x6ec0
+   __TEXT.__os_log: 0x2029
+-  __TEXT_EXEC.__text: 0x30468
++  __TEXT_EXEC.__text: 0x30438
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0x1e0
+-  __DATA.__bss: 0x144c0
+-  __DATA_CONST.__auth_got: 0x828
++  __DATA.__bss: 0x144c8
++  __DATA_CONST.__auth_got: 0x830
+   __DATA_CONST.__got: 0xc8
+-  __DATA_CONST.__const: 0x3620
++  __DATA_CONST.__const: 0x3640
+   __DATA_CONST.__kalloc_var: 0x550
+   __DATA_CONST.__kalloc_type: 0xa80
+   Symbols:   0
+-  Functions: 648
++  Functions: 647
+ 
+
+```
+
+>  `com.apple.driver.AppleH16CameraInterface`
+
+```diff
+
+-3.25.1.0.0
+-  __TEXT.__cstring: 0x190ab
+-  __TEXT.__os_log: 0x153bf
++3.28.1.0.0
++  __TEXT.__cstring: 0x190b9
++  __TEXT.__os_log: 0x153cb
+   __TEXT.__const: 0xa060
+   __TEXT_EXEC.__text: 0x95dfc
+   __TEXT_EXEC.__auth_stubs: 0x0
 
 ```
 
@@ -649,102 +370,57 @@
 
 ```
 
->  `com.apple.driver.AppleSEPCredentialManager`
+>  `com.apple.iokit.IOMobileGraphicsFamily`
 
 ```diff
 
--758.0.14.0.0
--  __TEXT.__cstring: 0x10491
-+758.0.16.0.0
-+  __TEXT.__cstring: 0x10503
-   __TEXT.__const: 0x320
--  __TEXT_EXEC.__text: 0x47fc4
-+  __TEXT_EXEC.__text: 0x48090
+-395.20.1.0.0
+-  __TEXT.__cstring: 0x824b
++395.23.1.0.0
++  __TEXT.__cstring: 0x81b4
+   __TEXT.__const: 0x800
+-  __TEXT_EXEC.__text: 0x2256c
++  __TEXT_EXEC.__text: 0x2257c
    __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0x2bf1
-   __DATA.__common: 0x1d8
+   __DATA.__data: 0x2900
+   __DATA.__common: 0x1c924
 
-   __DATA_CONST.__kalloc_type: 0x600
-   __DATA_CONST.__kalloc_var: 0x1400
+   __DATA_CONST.__const: 0x5e00
+   __DATA_CONST.__kalloc_type: 0xac0
    Symbols:   0
--  Functions: 897
-+  Functions: 899
+-  Functions: 1134
++  Functions: 1133
  
 
 ```
 
->  `com.apple.driver.AppleT8130TypeCPhy`
+>  `com.apple.kec.corecrypto`
 
 ```diff
 
--239.0.0.0.0
-+239.0.1.0.0
-   __TEXT.__const: 0x48
-   __TEXT.__cstring: 0x81fb
-   __TEXT.__os_log: 0xe07d
--  __TEXT_EXEC.__text: 0x4bf6c
-+  __TEXT_EXEC.__text: 0x4bf80
+-1736.0.27.0.1
+-  __TEXT.__cstring: 0x46c3
+-  __TEXT.__const: 0x144b0
++1736.0.36.0.0
++  __TEXT.__cstring: 0x46e7
++  __TEXT.__const: 0x14490
+   __TEXT.__fips_hmacs: 0x20
+-  __TEXT_EXEC.__text: 0x54a48
++  __TEXT_EXEC.__text: 0x58bfc
    __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0x2c8
-   __DATA.__common: 0x58
-
-   __DATA_CONST.__got: 0x58
-   __DATA_CONST.__mod_init_func: 0x8
-   __DATA_CONST.__mod_term_func: 0x8
--  __DATA_CONST.__const: 0x838
-+  __DATA_CONST.__const: 0x848
-   __DATA_CONST.__kalloc_type: 0x40
+   __DATA.__data: 0x2df0
+-  __DATA.__bss: 0x2960
+-  __DATA.__common: 0x138
++  __DATA.__bss: 0x2980
++  __DATA.__common: 0x140
+   __DATA_CONST.__auth_got: 0x120
+   __DATA_CONST.__got: 0x10
+   __DATA_CONST.__auth_ptr: 0x128
+-  __DATA_CONST.__const: 0x2ba8
++  __DATA_CONST.__const: 0x2c90
    Symbols:   0
--  Functions: 120
-+  Functions: 122
- 
-
-```
-
->  `com.apple.iokit.IOGPUFamily`
-
-```diff
-
--104.0.5.0.0
-+104.0.6.0.0
-   __TEXT.__cstring: 0x4faf
-   __TEXT.__os_log: 0x387c
-   __TEXT.__const: 0x7c
--  __TEXT_EXEC.__text: 0x379c0
-+  __TEXT_EXEC.__text: 0x37b28
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0x4b0
-   __DATA.__common: 0x780
-
-```
-
->  `com.apple.security.sandbox`
-
-```diff
-
--2401.0.37.502.1
--  __TEXT.__const: 0x18bd51
--  __TEXT.__cstring: 0x6e51
-+2401.0.48.0.0
-+  __TEXT.__const: 0x18cfc1
-+  __TEXT.__cstring: 0x6ec0
-   __TEXT.__os_log: 0x2029
--  __TEXT_EXEC.__text: 0x30468
-+  __TEXT_EXEC.__text: 0x30438
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0x1e0
--  __DATA.__bss: 0x144c0
--  __DATA_CONST.__auth_got: 0x828
-+  __DATA.__bss: 0x144c8
-+  __DATA_CONST.__auth_got: 0x830
-   __DATA_CONST.__got: 0xc8
--  __DATA_CONST.__const: 0x3620
-+  __DATA_CONST.__const: 0x3640
-   __DATA_CONST.__kalloc_var: 0x550
-   __DATA_CONST.__kalloc_type: 0xa80
-   Symbols:   0
--  Functions: 648
-+  Functions: 647
+-  Functions: 1303
++  Functions: 1313
  
 
 ```
@@ -771,33 +447,6 @@
 
 ```
 
->  `com.apple.driver.AppleConvergedPCI`
-
-```diff
-
--106.0.0.0.0
-+107.0.0.0.0
-   __TEXT.__const: 0x1b0
-   __TEXT.__cstring: 0x6ba1
--  __TEXT_EXEC.__text: 0x3e558
-+  __TEXT_EXEC.__text: 0x3e594
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0x248
-   __DATA.__common: 0x2d0
-
-   __DATA_CONST.__got: 0x108
-   __DATA_CONST.__mod_init_func: 0x68
-   __DATA_CONST.__mod_term_func: 0x68
--  __DATA_CONST.__const: 0x4768
-+  __DATA_CONST.__const: 0x4778
-   __DATA_CONST.__kalloc_type: 0x1300
-   Symbols:   0
--  Functions: 1067
-+  Functions: 1069
- 
-
-```
-
 >  `com.apple.driver.AppleHIDTransport`
 
 ```diff
@@ -816,28 +465,123 @@
 
 ```
 
->  `com.apple.driver.AppleJPEGDriver`
+>  `com.apple.driver.AppleT8110DART`
 
 ```diff
 
--7.1.3.0.0
--  __TEXT.__os_log: 0xc16a
--  __TEXT.__cstring: 0x324f
-+7.1.4.0.0
-+  __TEXT.__os_log: 0xc20c
-+  __TEXT.__cstring: 0x3545
-   __TEXT.__const: 0x4534
--  __TEXT_EXEC.__text: 0x33b60
-+  __TEXT_EXEC.__text: 0x343bc
+-452.0.1.0.0
++452.0.2.0.0
+   __TEXT.__const: 0x60
+-  __TEXT.__cstring: 0x276b
+-  __TEXT_EXEC.__text: 0xd390
++  __TEXT.__cstring: 0x27b4
++  __TEXT_EXEC.__text: 0xd458
    __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0x8b08
-   __DATA.__common: 0x2b8
-   __DATA.__bss: 0x1
--  __DATA_CONST.__auth_got: 0x340
-+  __DATA_CONST.__auth_got: 0x348
-   __DATA_CONST.__got: 0x98
-   __DATA_CONST.__mod_init_func: 0x88
-   __DATA_CONST.__mod_term_func: 0x88
+   __DATA.__data: 0xc8
+   __DATA.__common: 0x38
+
+   __DATA_CONST.__kalloc_type: 0x2c0
+   __DATA_CONST.__kalloc_var: 0x410
+   Symbols:   0
+-  Functions: 148
++  Functions: 149
+ 
+
+```
+
+>  `com.apple.driver.AppleStockholmControl`
+
+```diff
+
+-350.26.1.0.0
+-  __TEXT.__cstring: 0x45c8
++350.28.0.0.0
++  __TEXT.__cstring: 0x46f8
+   __TEXT.__const: 0x30
+-  __TEXT_EXEC.__text: 0x14bf8
++  __TEXT_EXEC.__text: 0x14f0c
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0x219
+   __DATA.__common: 0x1a6
+
+```
+
+>  `com.apple.filesystems.apfs`
+
+```diff
+
+-2309.0.0.502.1
++2310.0.0.0.0
+   __TEXT.__const: 0x790
+-  __TEXT.__cstring: 0x48053
+-  __TEXT_EXEC.__text: 0x13983c
++  __TEXT.__cstring: 0x48034
++  __TEXT_EXEC.__text: 0x1397d8
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0x690
+   __DATA.__bss: 0xc60
+
+   __DATA_CONST.__kalloc_type: 0x4c80
+   __DATA_CONST.__kalloc_var: 0x2800
+   Symbols:   0
+-  Functions: 2261
++  Functions: 2262
+ 
+
+```
+
+>  `com.apple.driver.ASIOKit`
+
+```diff
+
+-12.26.0.0.0
++12.28.0.0.0
+   __TEXT.__cstring: 0x239
+-  __TEXT.__const: 0x7c40
+-  __TEXT_EXEC.__text: 0x317e8
++  __TEXT.__const: 0x7c30
++  __TEXT_EXEC.__text: 0x30068
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0xd8
+   __DATA.__common: 0x60
+
+   __DATA_CONST.__got: 0x48
+   __DATA_CONST.__mod_init_func: 0x10
+   __DATA_CONST.__mod_term_func: 0x10
+-  __DATA_CONST.__const: 0x3038
++  __DATA_CONST.__const: 0x2a08
+   __DATA_CONST.__kalloc_type: 0x80
+   Symbols:   0
+   Functions: 88
+
+```
+
+>  `com.apple.driver.AppleBasebandPCI`
+
+```diff
+
+-809.0.0.0.0
+-  __TEXT.__cstring: 0xc23c
++810.0.0.0.0
++  __TEXT.__cstring: 0xc286
+   __TEXT.__const: 0x5009
+-  __TEXT_EXEC.__text: 0x88670
++  __TEXT_EXEC.__text: 0x88dd0
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0x3f8
+   __DATA.__common: 0x648
+
+   __DATA_CONST.__auth_ptr: 0x8
+   __DATA_CONST.__mod_init_func: 0x1350
+   __DATA_CONST.__mod_term_func: 0xf0
+-  __DATA_CONST.__const: 0xfe98
++  __DATA_CONST.__const: 0xfeb8
+   __DATA_CONST.__kalloc_type: 0x1d80
+   __DATA_CONST.__kalloc_var: 0x690
+   Symbols:   0
+-  Functions: 2397
++  Functions: 2403
+ 
 
 ```
 
@@ -866,26 +610,141 @@
 
 ```
 
->  `com.apple.iokit.IOMobileGraphicsFamily`
+>  `com.apple.driver.AppleHPM`
+
+```diff
+
+-570.0.0.0.0
+-  __TEXT.__cstring: 0x1b286
++570.0.1.0.0
++  __TEXT.__cstring: 0x1b2a1
+   __TEXT.__const: 0xc0
+   __TEXT.__os_log: 0x1e8
+-  __TEXT_EXEC.__text: 0x5c3dc
++  __TEXT_EXEC.__text: 0x5c438
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0x6d0
+   __DATA.__common: 0x518
+   __DATA.__bss: 0x4
+-  __DATA_CONST.__auth_got: 0x498
++  __DATA_CONST.__auth_got: 0x4a0
+   __DATA_CONST.__got: 0x130
+   __DATA_CONST.__auth_ptr: 0x18
+   __DATA_CONST.__mod_init_func: 0xf8
+
+```
+
+>  `com.apple.driver.AppleHapticsSupportLEAP`
+
+```diff
+
+-9.19.0.0.0
++9.20.0.0.0
+   __TEXT.__const: 0x204
+-  __TEXT.__cstring: 0x4405
+-  __TEXT.__os_log: 0x82e
+-  __TEXT_EXEC.__text: 0x324c0
++  __TEXT.__cstring: 0x443a
++  __TEXT.__os_log: 0x88e
++  __TEXT_EXEC.__text: 0x33228
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0x810
+-  __DATA.__common: 0x5f0
++  __DATA.__common: 0x618
+   __DATA.__bss: 0x1
+   __DATA_CONST.__auth_got: 0x348
+   __DATA_CONST.__got: 0x148
+-  __DATA_CONST.__mod_init_func: 0xb0
+-  __DATA_CONST.__mod_term_func: 0xb8
+-  __DATA_CONST.__const: 0x4778
+-  __DATA_CONST.__kalloc_type: 0xac0
++  __DATA_CONST.__mod_init_func: 0xb8
++  __DATA_CONST.__mod_term_func: 0xc0
++  __DATA_CONST.__const: 0x4900
++  __DATA_CONST.__kalloc_type: 0xc00
+   __DATA_CONST.__kalloc_var: 0x50
+   Symbols:   0
+-  Functions: 922
++  Functions: 953
+ 
+
+```
+
+>  `com.apple.iokit.IOMobileGraphicsFamily-DCP`
 
 ```diff
 
 -395.20.1.0.0
--  __TEXT.__cstring: 0x824b
 +395.23.1.0.0
-+  __TEXT.__cstring: 0x81b4
-   __TEXT.__const: 0x800
--  __TEXT_EXEC.__text: 0x2256c
-+  __TEXT_EXEC.__text: 0x2257c
+   __TEXT.__cstring: 0x3ef5
+   __TEXT.__const: 0x2148
+-  __TEXT_EXEC.__text: 0x1faa8
++  __TEXT_EXEC.__text: 0x1fb60
    __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0x2900
-   __DATA.__common: 0x1c924
+   __DATA.__data: 0xe0
+   __DATA.__common: 0x26d0
 
-   __DATA_CONST.__const: 0x5e00
-   __DATA_CONST.__kalloc_type: 0xac0
+   __DATA_CONST.__const: 0x1628
+   __DATA_CONST.__kalloc_type: 0x7c0
    Symbols:   0
--  Functions: 1134
-+  Functions: 1133
+-  Functions: 690
++  Functions: 693
+ 
+
+```
+
+>  `com.apple.driver.AppleConvergedIPCOLYBTControl`
+
+```diff
+
+-106.0.0.0.0
+-  __TEXT.__cstring: 0x7b2d
++107.0.0.0.0
++  __TEXT.__cstring: 0x7ba9
+   __TEXT.__const: 0x98
+-  __TEXT_EXEC.__text: 0x47870
++  __TEXT_EXEC.__text: 0x479d0
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0xc8
+   __DATA.__common: 0x1f0
+
+   __DATA_CONST.__got: 0xf8
+   __DATA_CONST.__mod_init_func: 0x58
+   __DATA_CONST.__mod_term_func: 0x58
+-  __DATA_CONST.__const: 0x4c58
++  __DATA_CONST.__const: 0x4c70
+   __DATA_CONST.__kalloc_type: 0xc40
+   __DATA_CONST.__kalloc_var: 0x500
+   Symbols:   0
+-  Functions: 969
++  Functions: 971
+ 
+
+```
+
+>  `com.apple.driver.AppleConvergedPCI`
+
+```diff
+
+-106.0.0.0.0
++107.0.0.0.0
+   __TEXT.__const: 0x1b0
+   __TEXT.__cstring: 0x6ba1
+-  __TEXT_EXEC.__text: 0x3e558
++  __TEXT_EXEC.__text: 0x3e594
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0x248
+   __DATA.__common: 0x2d0
+
+   __DATA_CONST.__got: 0x108
+   __DATA_CONST.__mod_init_func: 0x68
+   __DATA_CONST.__mod_term_func: 0x68
+-  __DATA_CONST.__const: 0x4768
++  __DATA_CONST.__const: 0x4778
+   __DATA_CONST.__kalloc_type: 0x1300
+   Symbols:   0
+-  Functions: 1067
++  Functions: 1069
  
 
 ```
@@ -926,90 +785,140 @@
 
 ```
 
->  `com.apple.driver.AppleHPM`
-
-```diff
-
--570.0.0.0.0
--  __TEXT.__cstring: 0x1b286
-+570.0.1.0.0
-+  __TEXT.__cstring: 0x1b2a1
-   __TEXT.__const: 0xc0
-   __TEXT.__os_log: 0x1e8
--  __TEXT_EXEC.__text: 0x5c3dc
-+  __TEXT_EXEC.__text: 0x5c438
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0x6d0
-   __DATA.__common: 0x518
-   __DATA.__bss: 0x4
--  __DATA_CONST.__auth_got: 0x498
-+  __DATA_CONST.__auth_got: 0x4a0
-   __DATA_CONST.__got: 0x130
-   __DATA_CONST.__auth_ptr: 0x18
-   __DATA_CONST.__mod_init_func: 0xf8
-
-```
-
->  `com.apple.driver.ApplePMGR`
-
-```diff
-
--1555.0.15.0.0
-+1555.0.17.0.0
-   __TEXT.__const: 0x248
-   __TEXT.__cstring: 0xe858
--  __TEXT_EXEC.__text: 0x527fc
-+  __TEXT_EXEC.__text: 0x527f8
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0x100
-   __DATA.__common: 0x420
-
-```
-
->  `com.apple.filesystems.apfs`
-
-```diff
-
--2309.0.0.502.1
-+2310.0.0.0.0
-   __TEXT.__const: 0x790
--  __TEXT.__cstring: 0x48053
--  __TEXT_EXEC.__text: 0x13983c
-+  __TEXT.__cstring: 0x48034
-+  __TEXT_EXEC.__text: 0x1397d8
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0x690
-   __DATA.__bss: 0xc60
-
-   __DATA_CONST.__kalloc_type: 0x4c80
-   __DATA_CONST.__kalloc_var: 0x2800
-   Symbols:   0
--  Functions: 2261
-+  Functions: 2262
- 
-
-```
-
->  `com.apple.iokit.IOMobileGraphicsFamily-DCP`
+>  `com.apple.driver.AppleMobileDispH16P-DCP`
 
 ```diff
 
 -395.20.1.0.0
 +395.23.1.0.0
-   __TEXT.__cstring: 0x3ef5
-   __TEXT.__const: 0x2148
--  __TEXT_EXEC.__text: 0x1faa8
-+  __TEXT_EXEC.__text: 0x1fb60
+   __TEXT.__cstring: 0x5565
+   __TEXT.__const: 0x1a78
+-  __TEXT_EXEC.__text: 0x20644
++  __TEXT_EXEC.__text: 0x2069c
    __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0xe0
-   __DATA.__common: 0x26d0
+   __DATA.__data: 0x2b8
+   __DATA.__common: 0xf0
 
-   __DATA_CONST.__const: 0x1628
-   __DATA_CONST.__kalloc_type: 0x7c0
+   __DATA_CONST.__kalloc_type: 0x640
+   __DATA_CONST.__kalloc_var: 0xf0
    Symbols:   0
--  Functions: 690
-+  Functions: 693
+-  Functions: 1105
++  Functions: 1108
  
+
+```
+
+>  `com.apple.driver.AppleProxDriver`
+
+```diff
+
+-41.0.0.0.0
++43.0.0.0.0
+   __TEXT.__const: 0x48
+-  __TEXT.__cstring: 0x826
++  __TEXT.__cstring: 0x855
+   __TEXT.__os_log: 0x607
+-  __TEXT_EXEC.__text: 0xa9c4
++  __TEXT_EXEC.__text: 0xa9a4
+   __TEXT_EXEC.__auth_stubs: 0x0
+-  __DATA.__data: 0xc8
++  __DATA.__data: 0xe0
+   __DATA.__common: 0xd8
+   __DATA_CONST.__auth_got: 0x158
+   __DATA_CONST.__got: 0x78
+
+```
+
+>  `com.apple.driver.AppleT8130TypeCPhy`
+
+```diff
+
+-239.0.0.0.0
++239.0.1.0.0
+   __TEXT.__const: 0x48
+   __TEXT.__cstring: 0x81fb
+   __TEXT.__os_log: 0xe07d
+-  __TEXT_EXEC.__text: 0x4bf6c
++  __TEXT_EXEC.__text: 0x4bf80
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0x2c8
+   __DATA.__common: 0x58
+
+   __DATA_CONST.__got: 0x58
+   __DATA_CONST.__mod_init_func: 0x8
+   __DATA_CONST.__mod_term_func: 0x8
+-  __DATA_CONST.__const: 0x838
++  __DATA_CONST.__const: 0x848
+   __DATA_CONST.__kalloc_type: 0x40
+   Symbols:   0
+-  Functions: 120
++  Functions: 122
+ 
+
+```
+
+>  `com.apple.driver.AppleTypeCPhy`
+
+```diff
+
+-239.0.0.0.0
++239.0.1.0.0
+   __TEXT.__cstring: 0x1651
+   __TEXT.__const: 0x24
+   __TEXT.__os_log: 0x114c
+-  __TEXT_EXEC.__text: 0x12538
++  __TEXT_EXEC.__text: 0x12570
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0xc8
+   __DATA.__common: 0xd8
+
+   __DATA_CONST.__got: 0x78
+   __DATA_CONST.__mod_init_func: 0x28
+   __DATA_CONST.__mod_term_func: 0x28
+-  __DATA_CONST.__const: 0x1240
++  __DATA_CONST.__const: 0x1250
+   __DATA_CONST.__kalloc_type: 0x140
+   Symbols:   0
+-  Functions: 243
++  Functions: 245
+ 
+
+```
+
+>  `com.apple.filesystems.hfs.kext`
+
+```diff
+
+-670.0.0.0.0
++672.0.0.0.0
+   __TEXT.__const: 0x1a90
+   __TEXT.__cstring: 0xa072
+-  __TEXT_EXEC.__text: 0x51aac
++  __TEXT_EXEC.__text: 0x51b2c
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0x4d0
+   __DATA.__common: 0x10
+
+```
+
+>  `com.apple.driver.AppleDCP`
+
+```diff
+
+-811.0.17.0.0
++811.0.20.0.0
+   __TEXT.__cstring: 0x1664
+   __TEXT.__const: 0x18
+   __TEXT_EXEC.__text: 0x5e48
+
+   __DATA_CONST.__got: 0x80
+   __DATA_CONST.__mod_init_func: 0x20
+   __DATA_CONST.__mod_term_func: 0x20
+-  __DATA_CONST.__const: 0x1438
++  __DATA_CONST.__const: 0x1430
+   __DATA_CONST.__kalloc_type: 0x100
+   Symbols:   0
+   Functions: 175
 
 ```
 
@@ -1047,62 +956,28 @@
 
 ```
 
->  `com.apple.driver.AppleSEPKeyStore`
+>  `com.apple.driver.AppleJPEGDriver`
 
 ```diff
 
--1827.0.41.0.1
--  __TEXT.__cstring: 0x3aba
-+1827.0.50.0.0
-+  __TEXT.__cstring: 0x3ab6
-   __TEXT.__const: 0x864
-   __TEXT_EXEC.__text: 0x3d4f4
+-7.1.3.0.0
+-  __TEXT.__os_log: 0xc16a
+-  __TEXT.__cstring: 0x324f
++7.1.4.0.0
++  __TEXT.__os_log: 0xc20c
++  __TEXT.__cstring: 0x3545
+   __TEXT.__const: 0x4534
+-  __TEXT_EXEC.__text: 0x33b60
++  __TEXT_EXEC.__text: 0x343bc
    __TEXT_EXEC.__auth_stubs: 0x0
-
-```
-
->  `com.apple.driver.AppleStockholmControl`
-
-```diff
-
--350.26.1.0.0
--  __TEXT.__cstring: 0x45c8
-+350.28.0.0.0
-+  __TEXT.__cstring: 0x46f8
-   __TEXT.__const: 0x30
--  __TEXT_EXEC.__text: 0x14bf8
-+  __TEXT_EXEC.__text: 0x14f0c
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0x219
-   __DATA.__common: 0x1a6
-
-```
-
->  `com.apple.driver.AppleTypeCPhy`
-
-```diff
-
--239.0.0.0.0
-+239.0.1.0.0
-   __TEXT.__cstring: 0x1651
-   __TEXT.__const: 0x24
-   __TEXT.__os_log: 0x114c
--  __TEXT_EXEC.__text: 0x12538
-+  __TEXT_EXEC.__text: 0x12570
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0xc8
-   __DATA.__common: 0xd8
-
-   __DATA_CONST.__got: 0x78
-   __DATA_CONST.__mod_init_func: 0x28
-   __DATA_CONST.__mod_term_func: 0x28
--  __DATA_CONST.__const: 0x1240
-+  __DATA_CONST.__const: 0x1250
-   __DATA_CONST.__kalloc_type: 0x140
-   Symbols:   0
--  Functions: 243
-+  Functions: 245
- 
+   __DATA.__data: 0x8b08
+   __DATA.__common: 0x2b8
+   __DATA.__bss: 0x1
+-  __DATA_CONST.__auth_got: 0x340
++  __DATA_CONST.__auth_got: 0x348
+   __DATA_CONST.__got: 0x98
+   __DATA_CONST.__mod_init_func: 0x88
+   __DATA_CONST.__mod_term_func: 0x88
 
 ```
 
@@ -1136,17 +1011,141 @@
 
 ```
 
+>  `com.apple.kernel`
+
+```diff
+
+-11215.0.115.502.1
+-  __TEXT.__const: 0x33b90
++11215.0.132.502.2
++  __TEXT.__const: 0x33ba0
+   __TEXT.__copyio_vectors: 0xf0
+-  __TEXT.__cstring: 0x6b9b9
++  __TEXT.__cstring: 0x6b9cd
+   __TEXT.__os_log: 0x26bed
+   __TEXT.__eh_frame: 0x5a0
+   __DATA_CONST.__auth_ptr: 0x8
+
+   __DATA_CONST.__brk_desc: 0x78
+   __DATA_SPTM.__const: 0x3c000
+   __TEXT_EXEC.__hib_text: 0xc68
+-  __TEXT_EXEC.__text: 0x7fa8f4
++  __TEXT_EXEC.__text: 0x7fb518
+   __TEXT_BOOT_EXEC.__bootcode: 0x4cd8
+   __KLD.__text: 0x1644
+   __LASTDATA_CONST.__mod_init_func: 0x8
+
+   __PLK_DATA_CONST.__data: 0x0
+   __PLK_LLVM_COV.__llvm_covmap: 0x0
+   __PLK_LINKEDIT.__data: 0x0
+-  __LINKINFO.__symbolsets: 0x45329
++  __LINKINFO.__symbolsets: 0x453aa
+   __LATE_CONST.__late_const: 0xa8
+   Symbols:   0
+-  Functions: 19818
++  Functions: 19823
+ 
+
+```
+
+>  `com.apple.driver.AppleSmartBatteryManagerEmbedded`
+
+```diff
+
+-1730.0.0.0.2
+-  __TEXT.__cstring: 0x4456
+-  __TEXT.__const: 0x15c0
++1735.0.0.0.0
++  __TEXT.__cstring: 0x447a
++  __TEXT.__const: 0x15f0
+   __TEXT.__os_log: 0x25f9
+-  __TEXT_EXEC.__text: 0x22824
++  __TEXT_EXEC.__text: 0x228a0
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0x208
+   __DATA.__common: 0x150
+-  __DATA.__bss: 0x3170
++  __DATA.__bss: 0x31d0
+   __DATA_CONST.__auth_got: 0x3a0
+   __DATA_CONST.__got: 0xf0
+   __DATA_CONST.__mod_init_func: 0x40
+
+```
+
+>  `com.apple.driver.FairPlayIOKit`
+
+```diff
+
+ 72.8.0.0.0
+   __TEXT.__cstring: 0x1c95
+-  __TEXT.__const: 0x49a20
+-  __TEXT_EXEC.__text: 0x1ad63c
++  __TEXT.__const: 0x49c10
++  __TEXT_EXEC.__text: 0x1b0660
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0x12e0
+-  __DATA.__common: 0x5fd0
++  __DATA.__common: 0x5fd8
+   __DATA.__bss: 0x38
+   __DATA_CONST.__auth_got: 0x218
+   __DATA_CONST.__got: 0x58
+   __DATA_CONST.__auth_ptr: 0x10
+   __DATA_CONST.__mod_init_func: 0x10
+   __DATA_CONST.__mod_term_func: 0x10
+-  __DATA_CONST.__const: 0x139e0
++  __DATA_CONST.__const: 0x13860
+   __DATA_CONST.__kalloc_type: 0x1b00
+   __DATA_CONST.__kalloc_var: 0x370
+   Symbols:   0
+-  Functions: 438
++  Functions: 461
+ 
+
+```
+
+>  `com.apple.iokit.IOSurface`
+
+```diff
+
+-368.0.2.0.0
+-  __TEXT.__cstring: 0x4f14
++368.0.4.0.0
++  __TEXT.__cstring: 0x4f28
+   __TEXT.__const: 0x48
+-  __TEXT.__os_log: 0x530
+-  __TEXT_EXEC.__text: 0x2d228
++  __TEXT.__os_log: 0x4ff
++  __TEXT_EXEC.__text: 0x2d340
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0x178
+   __DATA.__common: 0x3e8
+-  __DATA.__bss: 0x28
+-  __DATA_CONST.__auth_got: 0x468
++  __DATA.__bss: 0x38
++  __DATA_CONST.__auth_got: 0x478
+   __DATA_CONST.__got: 0xd0
+   __DATA_CONST.__mod_init_func: 0x78
+   __DATA_CONST.__mod_term_func: 0x78
+
+   __DATA_CONST.__kalloc_type: 0xb80
+   __DATA_CONST.__kalloc_var: 0x8c0
+   Symbols:   0
+-  Functions: 1191
++  Functions: 1193
+ 
+
+```
+
 </details>
 
 ## MachO
 
-### 🆕 NEW (5)
+### 🆕 NEW (4)
 
 - `/Applications/CompanionSetup.app/CompanionSetup`
 - `/System/Library/ExtensionKit/Extensions/SettingsSOSAppIntentsExtension.appex/SettingsSOSAppIntentsExtension`
 - `/System/Library/PrivateFrameworks/ExchangeSync.framework/PlugIns/SyncDiagnostics.appex/SyncDiagnostics`
 - `/System/Library/PrivateFrameworks/ImagePlayground.framework/PlugIns/com.apple.ImagePlayground.DiagnosticExtension.appex/com.apple.ImagePlayground.DiagnosticExtension`
-- `/usr/lib/libglInterpose.dylib`
 
 ### ❌ Removed (3)
 
@@ -1154,7 +1153,7 @@
 - `/System/Library/PrivateFrameworks/ModelCatalogRuntime.framework/XPCServices/ModelCatalogCompilationService.xpc/ModelCatalogCompilationService`
 - `/usr/libexec/silhouette`
 
-### ⬆️ Updated (893)
+### ⬆️ Updated (894)
 
 <details>
   <summary><i>View Updated</i></summary>
@@ -1881,6 +1880,7 @@
 - [/usr/lib/libLogRedirect.dylib](MACHOS/libLogRedirect.dylib.md)
 - [/usr/lib/libMainThreadChecker.dylib](MACHOS/libMainThreadChecker.dylib.md)
 - [/usr/lib/libViewDebuggerSupport.dylib](MACHOS/libViewDebuggerSupport.dylib.md)
+- [/usr/lib/libmobileassetd.dylib](MACHOS/libmobileassetd.dylib.md)
 - [/usr/lib/swift/libswiftRemoteMirror.dylib](MACHOS/libswiftRemoteMirror.dylib.md)
 - [/usr/libexec/ASPCarryLog](MACHOS/ASPCarryLog.md)
 - [/usr/libexec/BackupAgent2](MACHOS/BackupAgent2.md)
