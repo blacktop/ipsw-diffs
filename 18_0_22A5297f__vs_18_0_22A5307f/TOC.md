@@ -21,86 +21,6 @@
 <details>
   <summary><i>View Updated</i></summary>
 
->  `com.apple.driver.AppleCallbackPowerSource`
-
-```diff
-
--1730.0.0.0.2
--  __TEXT.__cstring: 0xf76
-+1735.0.0.0.0
-+  __TEXT.__cstring: 0xf8f
-   __TEXT.__os_log: 0x76
--  __TEXT_EXEC.__text: 0x4b50
-+  __TEXT_EXEC.__text: 0x4b98
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0xd0
-   __DATA.__common: 0x190
--  __DATA.__bss: 0x1408
-+  __DATA.__bss: 0x1438
-   __DATA_CONST.__auth_got: 0x150
-   __DATA_CONST.__got: 0x60
-   __DATA_CONST.__mod_init_func: 0x10
-
-```
-
->  `com.apple.driver.AppleH16CameraInterface`
-
-```diff
-
--3.25.1.0.0
--  __TEXT.__cstring: 0x190ab
--  __TEXT.__os_log: 0x153bf
-+3.28.1.0.0
-+  __TEXT.__cstring: 0x190b9
-+  __TEXT.__os_log: 0x153cb
-   __TEXT.__const: 0xa060
-   __TEXT_EXEC.__text: 0x95dfc
-   __TEXT_EXEC.__auth_stubs: 0x0
-
-```
-
->  `com.apple.driver.AppleSARService`
-
-```diff
-
--1168.0.0.0.0
-+1172.0.0.0.0
-   __TEXT.__const: 0x750
-   __TEXT.__cstring: 0x9b1f
-   __TEXT.__os_log: 0xb8af
-   __TEXT.__ustring: 0x8
--  __TEXT_EXEC.__text: 0x53c84
-+  __TEXT_EXEC.__text: 0x53e40
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0xd8
-   __DATA.__common: 0x5f0
-
-   __DATA_CONST.__kalloc_type: 0x2940
-   __DATA_CONST.__kalloc_var: 0x140
-   Symbols:   0
--  Functions: 538
-+  Functions: 539
- 
-
-```
-
->  `com.apple.driver.AppleStockholmControl`
-
-```diff
-
--350.26.1.0.0
--  __TEXT.__cstring: 0x45c8
-+350.28.0.0.0
-+  __TEXT.__cstring: 0x46f8
-   __TEXT.__const: 0x30
--  __TEXT_EXEC.__text: 0x14bf8
-+  __TEXT_EXEC.__text: 0x14f0c
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0x219
-   __DATA.__common: 0x1a6
-
-```
-
 >  `com.apple.iokit.IOMIPIFamily`
 
 ```diff
@@ -114,227 +34,6 @@
    __TEXT_EXEC.__auth_stubs: 0x0
    __DATA.__data: 0xc8
    __DATA.__common: 0x60
-
-```
-
->  `com.apple.iokit.IOMobileGraphicsFamily-DCP`
-
-```diff
-
--395.20.1.0.0
-+395.23.1.0.0
-   __TEXT.__cstring: 0x3ef5
-   __TEXT.__const: 0x2148
--  __TEXT_EXEC.__text: 0x1faa8
-+  __TEXT_EXEC.__text: 0x1fb60
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0xe0
-   __DATA.__common: 0x26d0
-
-   __DATA_CONST.__const: 0x1628
-   __DATA_CONST.__kalloc_type: 0x7c0
-   Symbols:   0
--  Functions: 690
-+  Functions: 693
- 
-
-```
-
->  `com.apple.iokit.IOThunderboltFamily`
-
-```diff
-
--6767.0.0.0.0
--  __TEXT.__cstring: 0x32b44
-+6769.0.0.0.0
-+  __TEXT.__cstring: 0x32b45
-   __TEXT.__os_log: 0x2db0c
-   __TEXT.__const: 0x7f0
--  __TEXT_EXEC.__text: 0x18d158
-+  __TEXT_EXEC.__text: 0x18d2bc
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0xb1a
-   __DATA.__common: 0x1238
-
-   __DATA_CONST.__got: 0x150
-   __DATA_CONST.__mod_init_func: 0x3a0
-   __DATA_CONST.__mod_term_func: 0x3a0
--  __DATA_CONST.__const: 0x1d988
-+  __DATA_CONST.__const: 0x1d998
-   __DATA_CONST.__kalloc_type: 0x1d40
-   __DATA_CONST.__kalloc_var: 0xaf0
-   Symbols:   0
--  Functions: 4756
-+  Functions: 4758
- 
-
-```
-
->  `com.apple.AGXG16P`
-
-```diff
-
--320.18.0.0.0
-+320.23.0.0.0
-   __TEXT.__const: 0x4444
--  __TEXT.__cstring: 0xca1b
-+  __TEXT.__cstring: 0xca1f
-   __TEXT.__os_log: 0x2f7
--  __TEXT_EXEC.__text: 0xae40c
-+  __TEXT_EXEC.__text: 0xaea04
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0x13b8
-   __DATA.__common: 0x10
-
-```
-
->  `com.apple.driver.AppleM2ScalerCSCDriver`
-
-```diff
-
--148.0.45.0.0
--  __TEXT.__cstring: 0x1661b
--  __TEXT.__const: 0x4f518
--  __TEXT_EXEC.__text: 0xd6390
-+148.0.48.0.0
-+  __TEXT.__cstring: 0x165cd
-+  __TEXT.__const: 0x4ec98
-+  __TEXT_EXEC.__text: 0xd6080
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0x1fe40
-   __DATA.__common: 0x20a8
-
-   __DATA_CONST.__auth_ptr: 0x88
-   __DATA_CONST.__mod_init_func: 0x570
-   __DATA_CONST.__mod_term_func: 0x548
--  __DATA_CONST.__const: 0x21100
-+  __DATA_CONST.__const: 0x210b8
-   __DATA_CONST.__kalloc_type: 0x3c40
-   __DATA_CONST.__kalloc_var: 0x500
-   Symbols:   0
--  Functions: 6009
-+  Functions: 6008
- 
-
-```
-
->  `com.apple.driver.ApplePMGR`
-
-```diff
-
--1555.0.15.0.0
-+1555.0.17.0.0
-   __TEXT.__const: 0x248
-   __TEXT.__cstring: 0xe858
--  __TEXT_EXEC.__text: 0x527fc
-+  __TEXT_EXEC.__text: 0x527f8
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0x100
-   __DATA.__common: 0x420
-
-```
-
->  `com.apple.driver.AppleSMCWirelessCharger`
-
-```diff
-
--76.0.0.0.0
-+76.0.1.0.0
-   __TEXT.__const: 0x60
--  __TEXT.__cstring: 0x28d3
-+  __TEXT.__cstring: 0x2915
-   __TEXT.__os_log: 0x4b9
--  __TEXT_EXEC.__text: 0xecc8
-+  __TEXT_EXEC.__text: 0xef60
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0xc8
-   __DATA.__common: 0x68
-
-   __DATA_CONST.__kalloc_type: 0x80
-   __DATA_CONST.__kalloc_var: 0x1e0
-   Symbols:   0
--  Functions: 175
-+  Functions: 180
- 
-
-```
-
->  `com.apple.iokit.IOGPUFamily`
-
-```diff
-
--104.0.5.0.0
-+104.0.6.0.0
-   __TEXT.__cstring: 0x4faf
-   __TEXT.__os_log: 0x387c
-   __TEXT.__const: 0x7c
--  __TEXT_EXEC.__text: 0x379c0
-+  __TEXT_EXEC.__text: 0x37b28
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0x4b0
-   __DATA.__common: 0x780
-
-```
-
->  `com.apple.iokit.IOMobileGraphicsFamily`
-
-```diff
-
--395.20.1.0.0
--  __TEXT.__cstring: 0x824b
-+395.23.1.0.0
-+  __TEXT.__cstring: 0x81b4
-   __TEXT.__const: 0x800
--  __TEXT_EXEC.__text: 0x2256c
-+  __TEXT_EXEC.__text: 0x2257c
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0x2900
-   __DATA.__common: 0x1c924
-
-   __DATA_CONST.__const: 0x5e00
-   __DATA_CONST.__kalloc_type: 0xac0
-   Symbols:   0
--  Functions: 1134
-+  Functions: 1133
- 
-
-```
-
->  `com.apple.driver.AppleSEPKeyStore`
-
-```diff
-
--1827.0.41.0.1
--  __TEXT.__cstring: 0x3aba
-+1827.0.50.0.0
-+  __TEXT.__cstring: 0x3ab6
-   __TEXT.__const: 0x864
-   __TEXT_EXEC.__text: 0x3d4f4
-   __TEXT_EXEC.__auth_stubs: 0x0
-
-```
-
->  `com.apple.driver.AppleT8110DART`
-
-```diff
-
--452.0.1.0.0
-+452.0.2.0.0
-   __TEXT.__const: 0x60
--  __TEXT.__cstring: 0x276b
--  __TEXT_EXEC.__text: 0xd390
-+  __TEXT.__cstring: 0x27b4
-+  __TEXT_EXEC.__text: 0xd458
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0xc8
-   __DATA.__common: 0x38
-
-   __DATA_CONST.__kalloc_type: 0x2c0
-   __DATA_CONST.__kalloc_var: 0x410
-   Symbols:   0
--  Functions: 148
-+  Functions: 149
- 
 
 ```
 
@@ -361,264 +60,6 @@
    __DATA_CONST.__kalloc_type: 0x80
    Symbols:   0
    Functions: 88
-
-```
-
->  `com.apple.driver.AppleConvergedIPCOLYBTControl`
-
-```diff
-
--106.0.0.0.0
--  __TEXT.__cstring: 0x7b2d
-+107.0.0.0.0
-+  __TEXT.__cstring: 0x7ba9
-   __TEXT.__const: 0x98
--  __TEXT_EXEC.__text: 0x47870
-+  __TEXT_EXEC.__text: 0x479d0
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0xc8
-   __DATA.__common: 0x1f0
-
-   __DATA_CONST.__got: 0xf8
-   __DATA_CONST.__mod_init_func: 0x58
-   __DATA_CONST.__mod_term_func: 0x58
--  __DATA_CONST.__const: 0x4c58
-+  __DATA_CONST.__const: 0x4c70
-   __DATA_CONST.__kalloc_type: 0xc40
-   __DATA_CONST.__kalloc_var: 0x500
-   Symbols:   0
--  Functions: 969
-+  Functions: 971
- 
-
-```
-
->  `com.apple.driver.AppleHapticsSupportLEAP`
-
-```diff
-
--9.19.0.0.0
-+9.20.0.0.0
-   __TEXT.__const: 0x204
--  __TEXT.__cstring: 0x4405
--  __TEXT.__os_log: 0x82e
--  __TEXT_EXEC.__text: 0x324c0
-+  __TEXT.__cstring: 0x443a
-+  __TEXT.__os_log: 0x88e
-+  __TEXT_EXEC.__text: 0x33228
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0x810
--  __DATA.__common: 0x5f0
-+  __DATA.__common: 0x618
-   __DATA.__bss: 0x1
-   __DATA_CONST.__auth_got: 0x348
-   __DATA_CONST.__got: 0x148
--  __DATA_CONST.__mod_init_func: 0xb0
--  __DATA_CONST.__mod_term_func: 0xb8
--  __DATA_CONST.__const: 0x4778
--  __DATA_CONST.__kalloc_type: 0xac0
-+  __DATA_CONST.__mod_init_func: 0xb8
-+  __DATA_CONST.__mod_term_func: 0xc0
-+  __DATA_CONST.__const: 0x4900
-+  __DATA_CONST.__kalloc_type: 0xc00
-   __DATA_CONST.__kalloc_var: 0x50
-   Symbols:   0
--  Functions: 922
-+  Functions: 953
- 
-
-```
-
->  `com.apple.driver.AppleMobileFileIntegrity`
-
-```diff
-
--938.0.16.0.0
--  __TEXT.__cstring: 0x99f9
-+938.0.19.0.0
-+  __TEXT.__cstring: 0x9a86
-   __TEXT.__const: 0x14b0
-   __TEXT.__os_log: 0x233
--  __TEXT_EXEC.__text: 0x25f6c
-+  __TEXT_EXEC.__text: 0x25f4c
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0x412
-   __DATA.__common: 0xb0
-   __DATA.__bss: 0x79
--  __DATA_CONST.__auth_got: 0x7c0
-+  __DATA_CONST.__auth_got: 0x7b8
-   __DATA_CONST.__got: 0x150
-   __DATA_CONST.__auth_ptr: 0x10
-   __DATA_CONST.__mod_init_func: 0x18
-
-   __DATA_CONST.__kalloc_type: 0xec0
-   __DATA_CONST.__kalloc_var: 0x1310
-   Symbols:   0
--  Functions: 790
-+  Functions: 791
- 
-
-```
-
->  `com.apple.driver.AppleOLYHAL`
-
-```diff
-
--336.22.4.1.0
-+337.0.0.0.0
-   __TEXT.__const: 0x7a8
--  __TEXT.__cstring: 0x4826
--  __TEXT_EXEC.__text: 0x1c998
-+  __TEXT.__cstring: 0x473a
-+  __TEXT_EXEC.__text: 0x1ca58
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0x18c
-   __DATA.__common: 0x170
-
-   __DATA_CONST.__got: 0xe8
-   __DATA_CONST.__mod_init_func: 0x38
-   __DATA_CONST.__mod_term_func: 0x38
--  __DATA_CONST.__const: 0x1338
-+  __DATA_CONST.__const: 0x1378
-   __DATA_CONST.__kalloc_type: 0x640
-   Symbols:   0
--  Functions: 548
-+  Functions: 549
- 
-
-```
-
->  `com.apple.driver.AppleSEPCredentialManager`
-
-```diff
-
--758.0.14.0.0
--  __TEXT.__cstring: 0x10491
-+758.0.16.0.0
-+  __TEXT.__cstring: 0x10503
-   __TEXT.__const: 0x320
--  __TEXT_EXEC.__text: 0x47fc4
-+  __TEXT_EXEC.__text: 0x48090
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0x2bf1
-   __DATA.__common: 0x1d8
-
-   __DATA_CONST.__kalloc_type: 0x600
-   __DATA_CONST.__kalloc_var: 0x1400
-   Symbols:   0
--  Functions: 897
-+  Functions: 899
- 
-
-```
-
->  `com.apple.driver.AppleHIDTransport`
-
-```diff
-
--8100.31.0.0.0
-+8100.32.0.0.0
-   __TEXT.__const: 0x2d4
--  __TEXT.__cstring: 0xab57
-+  __TEXT.__cstring: 0xab70
-   __TEXT.__os_log: 0x283
--  __TEXT_EXEC.__text: 0x69af4
-+  __TEXT_EXEC.__text: 0x69dbc
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0xc8
-   __DATA.__common: 0x420
-
-```
-
->  `com.apple.driver.AppleProxDriver`
-
-```diff
-
--41.0.0.0.0
-+43.0.0.0.0
-   __TEXT.__const: 0x48
--  __TEXT.__cstring: 0x826
-+  __TEXT.__cstring: 0x855
-   __TEXT.__os_log: 0x607
--  __TEXT_EXEC.__text: 0xa9c4
-+  __TEXT_EXEC.__text: 0xa9a4
-   __TEXT_EXEC.__auth_stubs: 0x0
--  __DATA.__data: 0xc8
-+  __DATA.__data: 0xe0
-   __DATA.__common: 0xd8
-   __DATA_CONST.__auth_got: 0x158
-   __DATA_CONST.__got: 0x78
-
-```
-
->  `com.apple.filesystems.apfs`
-
-```diff
-
--2309.0.0.502.1
-+2310.0.0.0.0
-   __TEXT.__const: 0x790
--  __TEXT.__cstring: 0x48053
--  __TEXT_EXEC.__text: 0x13983c
-+  __TEXT.__cstring: 0x48034
-+  __TEXT_EXEC.__text: 0x1397d8
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0x690
-   __DATA.__bss: 0xc60
-
-   __DATA_CONST.__kalloc_type: 0x4c80
-   __DATA_CONST.__kalloc_var: 0x2800
-   Symbols:   0
--  Functions: 2261
-+  Functions: 2262
- 
-
-```
-
->  `com.apple.filesystems.hfs.kext`
-
-```diff
-
--670.0.0.0.0
-+672.0.0.0.0
-   __TEXT.__const: 0x1a90
-   __TEXT.__cstring: 0xa072
--  __TEXT_EXEC.__text: 0x51aac
-+  __TEXT_EXEC.__text: 0x51b2c
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0x4d0
-   __DATA.__common: 0x10
-
-```
-
->  `com.apple.security.sandbox`
-
-```diff
-
--2401.0.37.502.1
--  __TEXT.__const: 0x18bd51
--  __TEXT.__cstring: 0x6e51
-+2401.0.48.0.0
-+  __TEXT.__const: 0x18cfc1
-+  __TEXT.__cstring: 0x6ec0
-   __TEXT.__os_log: 0x2029
--  __TEXT_EXEC.__text: 0x30468
-+  __TEXT_EXEC.__text: 0x30438
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0x1e0
--  __DATA.__bss: 0x144c0
--  __DATA_CONST.__auth_got: 0x828
-+  __DATA.__bss: 0x144c8
-+  __DATA_CONST.__auth_got: 0x830
-   __DATA_CONST.__got: 0xc8
--  __DATA_CONST.__const: 0x3620
-+  __DATA_CONST.__const: 0x3640
-   __DATA_CONST.__kalloc_var: 0x550
-   __DATA_CONST.__kalloc_type: 0xa80
-   Symbols:   0
--  Functions: 648
-+  Functions: 647
- 
 
 ```
 
@@ -663,31 +104,31 @@
 
 ```
 
->  `com.apple.driver.AppleBasebandPCI`
+>  `com.apple.driver.AppleConvergedIPCOLYBTControl`
 
 ```diff
 
--809.0.0.0.0
--  __TEXT.__cstring: 0xc23c
-+810.0.0.0.0
-+  __TEXT.__cstring: 0xc286
-   __TEXT.__const: 0x5009
--  __TEXT_EXEC.__text: 0x88670
-+  __TEXT_EXEC.__text: 0x88dd0
+-106.0.0.0.0
+-  __TEXT.__cstring: 0x7b2d
++107.0.0.0.0
++  __TEXT.__cstring: 0x7ba9
+   __TEXT.__const: 0x98
+-  __TEXT_EXEC.__text: 0x47870
++  __TEXT_EXEC.__text: 0x479d0
    __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0x3f8
-   __DATA.__common: 0x648
+   __DATA.__data: 0xc8
+   __DATA.__common: 0x1f0
 
-   __DATA_CONST.__auth_ptr: 0x8
-   __DATA_CONST.__mod_init_func: 0x1350
-   __DATA_CONST.__mod_term_func: 0xf0
--  __DATA_CONST.__const: 0xfe98
-+  __DATA_CONST.__const: 0xfeb8
-   __DATA_CONST.__kalloc_type: 0x1d80
-   __DATA_CONST.__kalloc_var: 0x690
+   __DATA_CONST.__got: 0xf8
+   __DATA_CONST.__mod_init_func: 0x58
+   __DATA_CONST.__mod_term_func: 0x58
+-  __DATA_CONST.__const: 0x4c58
++  __DATA_CONST.__const: 0x4c70
+   __DATA_CONST.__kalloc_type: 0xc40
+   __DATA_CONST.__kalloc_var: 0x500
    Symbols:   0
--  Functions: 2397
-+  Functions: 2403
+-  Functions: 969
++  Functions: 971
  
 
 ```
@@ -713,134 +154,154 @@
 
 ```
 
->  `com.apple.driver.AppleHPM`
+>  `com.apple.driver.AppleOLYHAL`
 
 ```diff
 
--570.0.0.0.0
--  __TEXT.__cstring: 0x1b286
-+570.0.1.0.0
-+  __TEXT.__cstring: 0x1b2a1
-   __TEXT.__const: 0xc0
-   __TEXT.__os_log: 0x1e8
--  __TEXT_EXEC.__text: 0x5c3dc
-+  __TEXT_EXEC.__text: 0x5c438
+-336.22.4.1.0
++337.0.0.0.0
+   __TEXT.__const: 0x7a8
+-  __TEXT.__cstring: 0x4826
+-  __TEXT_EXEC.__text: 0x1c998
++  __TEXT.__cstring: 0x473a
++  __TEXT_EXEC.__text: 0x1ca58
    __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0x6d0
-   __DATA.__common: 0x518
-   __DATA.__bss: 0x4
--  __DATA_CONST.__auth_got: 0x498
-+  __DATA_CONST.__auth_got: 0x4a0
-   __DATA_CONST.__got: 0x130
-   __DATA_CONST.__auth_ptr: 0x18
-   __DATA_CONST.__mod_init_func: 0xf8
+   __DATA.__data: 0x18c
+   __DATA.__common: 0x170
 
-```
-
->  `com.apple.driver.AppleIDV`
-
-```diff
-
--7.34.0.0.0
-+7.36.1.0.0
-   __TEXT.__const: 0xf8
--  __TEXT.__cstring: 0x137b
-+  __TEXT.__cstring: 0x137d
-   __TEXT_EXEC.__text: 0x84b0
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0xc4
-
-```
-
->  `com.apple.kec.corecrypto`
-
-```diff
-
--1736.0.27.0.1
--  __TEXT.__cstring: 0x46c3
--  __TEXT.__const: 0x144b0
-+1736.0.36.0.0
-+  __TEXT.__cstring: 0x46e7
-+  __TEXT.__const: 0x14490
-   __TEXT.__fips_hmacs: 0x20
--  __TEXT_EXEC.__text: 0x54a48
-+  __TEXT_EXEC.__text: 0x58bfc
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0x2df0
--  __DATA.__bss: 0x2960
--  __DATA.__common: 0x138
-+  __DATA.__bss: 0x2980
-+  __DATA.__common: 0x140
-   __DATA_CONST.__auth_got: 0x120
-   __DATA_CONST.__got: 0x10
-   __DATA_CONST.__auth_ptr: 0x128
--  __DATA_CONST.__const: 0x2ba8
-+  __DATA_CONST.__const: 0x2c90
+   __DATA_CONST.__got: 0xe8
+   __DATA_CONST.__mod_init_func: 0x38
+   __DATA_CONST.__mod_term_func: 0x38
+-  __DATA_CONST.__const: 0x1338
++  __DATA_CONST.__const: 0x1378
+   __DATA_CONST.__kalloc_type: 0x640
    Symbols:   0
--  Functions: 1303
-+  Functions: 1313
+-  Functions: 548
++  Functions: 549
  
 
 ```
 
->  `com.apple.driver.AppleFirmwareKit`
+>  `com.apple.driver.AppleProxDriver`
 
 ```diff
 
--531.0.4.0.0
--  __TEXT.__cstring: 0x27af
-+531.0.7.0.0
-+  __TEXT.__cstring: 0x4064
-   __TEXT.__os_log: 0x1129
-   __TEXT.__const: 0xa8
--  __TEXT_EXEC.__text: 0x36c24
-+  __TEXT_EXEC.__text: 0x3acdc
+-41.0.0.0.0
++43.0.0.0.0
+   __TEXT.__const: 0x48
+-  __TEXT.__cstring: 0x826
++  __TEXT.__cstring: 0x855
+   __TEXT.__os_log: 0x607
+-  __TEXT_EXEC.__text: 0xa9c4
++  __TEXT_EXEC.__text: 0xa9a4
    __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0x3f8
-   __DATA.__common: 0x700
-   __DATA.__bss: 0xc8
--  __DATA_CONST.__auth_got: 0x428
--  __DATA_CONST.__got: 0x128
-+  __DATA_CONST.__auth_got: 0x420
-+  __DATA_CONST.__got: 0x120
-   __DATA_CONST.__auth_ptr: 0x10
-   __DATA_CONST.__mod_init_func: 0xf0
-   __DATA_CONST.__mod_term_func: 0xf0
--  __DATA_CONST.__const: 0xd348
-+  __DATA_CONST.__const: 0xd318
-   __DATA_CONST.__kalloc_type: 0x1880
-   __DATA_CONST.__kalloc_var: 0x50
-   Symbols:   0
--  Functions: 1625
-+  Functions: 1931
- 
+-  __DATA.__data: 0xc8
++  __DATA.__data: 0xe0
+   __DATA.__common: 0xd8
+   __DATA_CONST.__auth_got: 0x158
+   __DATA_CONST.__got: 0x78
 
 ```
 
->  `com.apple.driver.AppleTypeCPhy`
+>  `com.apple.driver.AppleSMCWirelessCharger`
 
 ```diff
 
--239.0.0.0.0
-+239.0.1.0.0
-   __TEXT.__cstring: 0x1651
-   __TEXT.__const: 0x24
-   __TEXT.__os_log: 0x114c
--  __TEXT_EXEC.__text: 0x12538
-+  __TEXT_EXEC.__text: 0x12570
+-76.0.0.0.0
++76.0.1.0.0
+   __TEXT.__const: 0x60
+-  __TEXT.__cstring: 0x28d3
++  __TEXT.__cstring: 0x2915
+   __TEXT.__os_log: 0x4b9
+-  __TEXT_EXEC.__text: 0xecc8
++  __TEXT_EXEC.__text: 0xef60
    __TEXT_EXEC.__auth_stubs: 0x0
    __DATA.__data: 0xc8
-   __DATA.__common: 0xd8
+   __DATA.__common: 0x68
 
-   __DATA_CONST.__got: 0x78
-   __DATA_CONST.__mod_init_func: 0x28
-   __DATA_CONST.__mod_term_func: 0x28
--  __DATA_CONST.__const: 0x1240
-+  __DATA_CONST.__const: 0x1250
-   __DATA_CONST.__kalloc_type: 0x140
+   __DATA_CONST.__kalloc_type: 0x80
+   __DATA_CONST.__kalloc_var: 0x1e0
    Symbols:   0
--  Functions: 243
-+  Functions: 245
+-  Functions: 175
++  Functions: 180
+ 
+
+```
+
+>  `com.apple.AGXG16P`
+
+```diff
+
+-320.18.0.0.0
++320.23.0.0.0
+   __TEXT.__const: 0x4444
+-  __TEXT.__cstring: 0xca1b
++  __TEXT.__cstring: 0xca1f
+   __TEXT.__os_log: 0x2f7
+-  __TEXT_EXEC.__text: 0xae40c
++  __TEXT_EXEC.__text: 0xaea04
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0x13b8
+   __DATA.__common: 0x10
+
+```
+
+>  `com.apple.driver.AppleHapticsSupportLEAP`
+
+```diff
+
+-9.19.0.0.0
++9.20.0.0.0
+   __TEXT.__const: 0x204
+-  __TEXT.__cstring: 0x4405
+-  __TEXT.__os_log: 0x82e
+-  __TEXT_EXEC.__text: 0x324c0
++  __TEXT.__cstring: 0x443a
++  __TEXT.__os_log: 0x88e
++  __TEXT_EXEC.__text: 0x33228
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0x810
+-  __DATA.__common: 0x5f0
++  __DATA.__common: 0x618
+   __DATA.__bss: 0x1
+   __DATA_CONST.__auth_got: 0x348
+   __DATA_CONST.__got: 0x148
+-  __DATA_CONST.__mod_init_func: 0xb0
+-  __DATA_CONST.__mod_term_func: 0xb8
+-  __DATA_CONST.__const: 0x4778
+-  __DATA_CONST.__kalloc_type: 0xac0
++  __DATA_CONST.__mod_init_func: 0xb8
++  __DATA_CONST.__mod_term_func: 0xc0
++  __DATA_CONST.__const: 0x4900
++  __DATA_CONST.__kalloc_type: 0xc00
+   __DATA_CONST.__kalloc_var: 0x50
+   Symbols:   0
+-  Functions: 922
++  Functions: 953
+ 
+
+```
+
+>  `com.apple.driver.AppleT8110DART`
+
+```diff
+
+-452.0.1.0.0
++452.0.2.0.0
+   __TEXT.__const: 0x60
+-  __TEXT.__cstring: 0x276b
+-  __TEXT_EXEC.__text: 0xd390
++  __TEXT.__cstring: 0x27b4
++  __TEXT_EXEC.__text: 0xd458
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0xc8
+   __DATA.__common: 0x38
+
+   __DATA_CONST.__kalloc_type: 0x2c0
+   __DATA_CONST.__kalloc_var: 0x410
+   Symbols:   0
+-  Functions: 148
++  Functions: 149
  
 
 ```
@@ -878,66 +339,50 @@
 
 ```
 
->  `com.apple.driver.AppleConvergedPCI`
+>  `com.apple.kec.corecrypto`
 
 ```diff
 
--106.0.0.0.0
-+107.0.0.0.0
-   __TEXT.__const: 0x1b0
-   __TEXT.__cstring: 0x6ba1
--  __TEXT_EXEC.__text: 0x3e558
-+  __TEXT_EXEC.__text: 0x3e594
+-1736.0.27.0.1
+-  __TEXT.__cstring: 0x46c3
+-  __TEXT.__const: 0x144b0
++1736.0.36.0.0
++  __TEXT.__cstring: 0x46e7
++  __TEXT.__const: 0x14490
+   __TEXT.__fips_hmacs: 0x20
+-  __TEXT_EXEC.__text: 0x54a48
++  __TEXT_EXEC.__text: 0x58bfc
    __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0x248
-   __DATA.__common: 0x2d0
-
-   __DATA_CONST.__got: 0x108
-   __DATA_CONST.__mod_init_func: 0x68
-   __DATA_CONST.__mod_term_func: 0x68
--  __DATA_CONST.__const: 0x4768
-+  __DATA_CONST.__const: 0x4778
-   __DATA_CONST.__kalloc_type: 0x1300
+   __DATA.__data: 0x2df0
+-  __DATA.__bss: 0x2960
+-  __DATA.__common: 0x138
++  __DATA.__bss: 0x2980
++  __DATA.__common: 0x140
+   __DATA_CONST.__auth_got: 0x120
+   __DATA_CONST.__got: 0x10
+   __DATA_CONST.__auth_ptr: 0x128
+-  __DATA_CONST.__const: 0x2ba8
++  __DATA_CONST.__const: 0x2c90
    Symbols:   0
--  Functions: 1067
-+  Functions: 1069
+-  Functions: 1303
++  Functions: 1313
  
 
 ```
 
->  `com.apple.driver.AppleH16ANEInterface`
+>  `com.apple.driver.AppleH16CameraInterface`
 
 ```diff
 
--8.13.2.0.0
--  __TEXT.__os_log: 0x30df1
--  __TEXT.__cstring: 0xaa49
--  __TEXT.__const: 0x5f0
--  __TEXT_EXEC.__text: 0xa0088
-+8.15.1.0.0
-+  __TEXT.__os_log: 0x31029
-+  __TEXT.__cstring: 0xab3f
-+  __TEXT.__const: 0x600
-+  __TEXT_EXEC.__text: 0xa0a78
+-3.25.1.0.0
+-  __TEXT.__cstring: 0x190ab
+-  __TEXT.__os_log: 0x153bf
++3.28.1.0.0
++  __TEXT.__cstring: 0x190b9
++  __TEXT.__os_log: 0x153cb
+   __TEXT.__const: 0xa060
+   __TEXT_EXEC.__text: 0x95dfc
    __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0x3058
-   __DATA.__common: 0x3c8
-   __DATA.__bss: 0x270
-   __DATA_CONST.__auth_got: 0x878
-   __DATA_CONST.__got: 0x118
--  __DATA_CONST.__auth_ptr: 0x8
-   __DATA_CONST.__mod_init_func: 0x98
-   __DATA_CONST.__mod_term_func: 0x20
--  __DATA_CONST.__const: 0x6078
--  __DATA_CONST.__kalloc_type: 0x2c80
--  __DATA_CONST.__kalloc_var: 0x28a0
-+  __DATA_CONST.__const: 0x6098
-+  __DATA_CONST.__kalloc_type: 0x2d00
-+  __DATA_CONST.__kalloc_var: 0x29e0
-   Symbols:   0
--  Functions: 1821
-+  Functions: 1824
- 
 
 ```
 
@@ -972,28 +417,69 @@
 
 ```
 
->  `com.apple.driver.AppleJPEGDriver`
+>  `com.apple.kernel`
 
 ```diff
 
--7.1.3.0.0
--  __TEXT.__os_log: 0xc16a
--  __TEXT.__cstring: 0x324f
-+7.1.4.0.0
-+  __TEXT.__os_log: 0xc20c
-+  __TEXT.__cstring: 0x3545
-   __TEXT.__const: 0x4534
--  __TEXT_EXEC.__text: 0x33b60
-+  __TEXT_EXEC.__text: 0x343bc
+-11215.0.115.502.1
+-  __TEXT.__const: 0x33b90
++11215.0.132.502.2
++  __TEXT.__const: 0x33ba0
+   __TEXT.__copyio_vectors: 0xf0
+-  __TEXT.__cstring: 0x6b9b9
++  __TEXT.__cstring: 0x6b9cd
+   __TEXT.__os_log: 0x26bed
+   __TEXT.__eh_frame: 0x5a0
+   __DATA_CONST.__auth_ptr: 0x8
+
+   __DATA_CONST.__brk_desc: 0x78
+   __DATA_SPTM.__const: 0x3c000
+   __TEXT_EXEC.__hib_text: 0xc68
+-  __TEXT_EXEC.__text: 0x7fa8f4
++  __TEXT_EXEC.__text: 0x7fb518
+   __TEXT_BOOT_EXEC.__bootcode: 0x4cd8
+   __KLD.__text: 0x1644
+   __LASTDATA_CONST.__mod_init_func: 0x8
+
+   __PLK_DATA_CONST.__data: 0x0
+   __PLK_LLVM_COV.__llvm_covmap: 0x0
+   __PLK_LINKEDIT.__data: 0x0
+-  __LINKINFO.__symbolsets: 0x45329
++  __LINKINFO.__symbolsets: 0x453aa
+   __LATE_CONST.__late_const: 0xa8
+   Symbols:   0
+-  Functions: 19818
++  Functions: 19823
+ 
+
+```
+
+>  `com.apple.driver.AppleBasebandPCI`
+
+```diff
+
+-809.0.0.0.0
+-  __TEXT.__cstring: 0xc23c
++810.0.0.0.0
++  __TEXT.__cstring: 0xc286
+   __TEXT.__const: 0x5009
+-  __TEXT_EXEC.__text: 0x88670
++  __TEXT_EXEC.__text: 0x88dd0
    __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0x8b08
-   __DATA.__common: 0x2b8
-   __DATA.__bss: 0x1
--  __DATA_CONST.__auth_got: 0x340
-+  __DATA_CONST.__auth_got: 0x348
-   __DATA_CONST.__got: 0x98
-   __DATA_CONST.__mod_init_func: 0x88
-   __DATA_CONST.__mod_term_func: 0x88
+   __DATA.__data: 0x3f8
+   __DATA.__common: 0x648
+
+   __DATA_CONST.__auth_ptr: 0x8
+   __DATA_CONST.__mod_init_func: 0x1350
+   __DATA_CONST.__mod_term_func: 0xf0
+-  __DATA_CONST.__const: 0xfe98
++  __DATA_CONST.__const: 0xfeb8
+   __DATA_CONST.__kalloc_type: 0x1d80
+   __DATA_CONST.__kalloc_var: 0x690
+   Symbols:   0
+-  Functions: 2397
++  Functions: 2403
+ 
 
 ```
 
@@ -1016,6 +502,37 @@
    Symbols:   0
 -  Functions: 1105
 +  Functions: 1108
+ 
+
+```
+
+>  `com.apple.driver.AppleMobileFileIntegrity`
+
+```diff
+
+-938.0.16.0.0
+-  __TEXT.__cstring: 0x99f9
++938.0.19.0.0
++  __TEXT.__cstring: 0x9a86
+   __TEXT.__const: 0x14b0
+   __TEXT.__os_log: 0x233
+-  __TEXT_EXEC.__text: 0x25f6c
++  __TEXT_EXEC.__text: 0x25f4c
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0x412
+   __DATA.__common: 0xb0
+   __DATA.__bss: 0x79
+-  __DATA_CONST.__auth_got: 0x7c0
++  __DATA_CONST.__auth_got: 0x7b8
+   __DATA_CONST.__got: 0x150
+   __DATA_CONST.__auth_ptr: 0x10
+   __DATA_CONST.__mod_init_func: 0x18
+
+   __DATA_CONST.__kalloc_type: 0xec0
+   __DATA_CONST.__kalloc_var: 0x1310
+   Symbols:   0
+-  Functions: 790
++  Functions: 791
  
 
 ```
@@ -1071,6 +588,91 @@
 
 ```
 
+>  `com.apple.filesystems.hfs.kext`
+
+```diff
+
+-670.0.0.0.0
++672.0.0.0.0
+   __TEXT.__const: 0x1a90
+   __TEXT.__cstring: 0xa072
+-  __TEXT_EXEC.__text: 0x51aac
++  __TEXT_EXEC.__text: 0x51b2c
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0x4d0
+   __DATA.__common: 0x10
+
+```
+
+>  `com.apple.driver.AppleIDV`
+
+```diff
+
+-7.34.0.0.0
++7.36.1.0.0
+   __TEXT.__const: 0xf8
+-  __TEXT.__cstring: 0x137b
++  __TEXT.__cstring: 0x137d
+   __TEXT_EXEC.__text: 0x84b0
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0xc4
+
+```
+
+>  `com.apple.driver.AppleM2ScalerCSCDriver`
+
+```diff
+
+-148.0.45.0.0
+-  __TEXT.__cstring: 0x1661b
+-  __TEXT.__const: 0x4f518
+-  __TEXT_EXEC.__text: 0xd6390
++148.0.48.0.0
++  __TEXT.__cstring: 0x165cd
++  __TEXT.__const: 0x4ec98
++  __TEXT_EXEC.__text: 0xd6080
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0x1fe40
+   __DATA.__common: 0x20a8
+
+   __DATA_CONST.__auth_ptr: 0x88
+   __DATA_CONST.__mod_init_func: 0x570
+   __DATA_CONST.__mod_term_func: 0x548
+-  __DATA_CONST.__const: 0x21100
++  __DATA_CONST.__const: 0x210b8
+   __DATA_CONST.__kalloc_type: 0x3c40
+   __DATA_CONST.__kalloc_var: 0x500
+   Symbols:   0
+-  Functions: 6009
++  Functions: 6008
+ 
+
+```
+
+>  `com.apple.driver.AppleSEPCredentialManager`
+
+```diff
+
+-758.0.14.0.0
+-  __TEXT.__cstring: 0x10491
++758.0.16.0.0
++  __TEXT.__cstring: 0x10503
+   __TEXT.__const: 0x320
+-  __TEXT_EXEC.__text: 0x47fc4
++  __TEXT_EXEC.__text: 0x48090
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0x2bf1
+   __DATA.__common: 0x1d8
+
+   __DATA_CONST.__kalloc_type: 0x600
+   __DATA_CONST.__kalloc_var: 0x1400
+   Symbols:   0
+-  Functions: 897
++  Functions: 899
+ 
+
+```
+
 >  `com.apple.driver.AppleT8130TypeCPhy`
 
 ```diff
@@ -1099,39 +701,437 @@
 
 ```
 
->  `com.apple.kernel`
+>  `com.apple.iokit.IOGPUFamily`
 
 ```diff
 
--11215.0.115.502.1
--  __TEXT.__const: 0x33b90
-+11215.0.132.502.2
-+  __TEXT.__const: 0x33ba0
-   __TEXT.__copyio_vectors: 0xf0
--  __TEXT.__cstring: 0x6b9b9
-+  __TEXT.__cstring: 0x6b9cd
-   __TEXT.__os_log: 0x26bed
-   __TEXT.__eh_frame: 0x5a0
-   __DATA_CONST.__auth_ptr: 0x8
+-104.0.5.0.0
++104.0.6.0.0
+   __TEXT.__cstring: 0x4faf
+   __TEXT.__os_log: 0x387c
+   __TEXT.__const: 0x7c
+-  __TEXT_EXEC.__text: 0x379c0
++  __TEXT_EXEC.__text: 0x37b28
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0x4b0
+   __DATA.__common: 0x780
 
-   __DATA_CONST.__brk_desc: 0x78
-   __DATA_SPTM.__const: 0x3c000
-   __TEXT_EXEC.__hib_text: 0xc68
--  __TEXT_EXEC.__text: 0x7fa8f4
-+  __TEXT_EXEC.__text: 0x7fb518
-   __TEXT_BOOT_EXEC.__bootcode: 0x4cd8
-   __KLD.__text: 0x1644
-   __LASTDATA_CONST.__mod_init_func: 0x8
+```
 
-   __PLK_DATA_CONST.__data: 0x0
-   __PLK_LLVM_COV.__llvm_covmap: 0x0
-   __PLK_LINKEDIT.__data: 0x0
--  __LINKINFO.__symbolsets: 0x45329
-+  __LINKINFO.__symbolsets: 0x453aa
-   __LATE_CONST.__late_const: 0xa8
+>  `com.apple.security.sandbox`
+
+```diff
+
+-2401.0.37.502.1
+-  __TEXT.__const: 0x18bd51
+-  __TEXT.__cstring: 0x6e51
++2401.0.48.0.0
++  __TEXT.__const: 0x18cfc1
++  __TEXT.__cstring: 0x6ec0
+   __TEXT.__os_log: 0x2029
+-  __TEXT_EXEC.__text: 0x30468
++  __TEXT_EXEC.__text: 0x30438
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0x1e0
+-  __DATA.__bss: 0x144c0
+-  __DATA_CONST.__auth_got: 0x828
++  __DATA.__bss: 0x144c8
++  __DATA_CONST.__auth_got: 0x830
+   __DATA_CONST.__got: 0xc8
+-  __DATA_CONST.__const: 0x3620
++  __DATA_CONST.__const: 0x3640
+   __DATA_CONST.__kalloc_var: 0x550
+   __DATA_CONST.__kalloc_type: 0xa80
    Symbols:   0
--  Functions: 19818
-+  Functions: 19823
+-  Functions: 648
++  Functions: 647
+ 
+
+```
+
+>  `com.apple.driver.AppleCallbackPowerSource`
+
+```diff
+
+-1730.0.0.0.2
+-  __TEXT.__cstring: 0xf76
++1735.0.0.0.0
++  __TEXT.__cstring: 0xf8f
+   __TEXT.__os_log: 0x76
+-  __TEXT_EXEC.__text: 0x4b50
++  __TEXT_EXEC.__text: 0x4b98
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0xd0
+   __DATA.__common: 0x190
+-  __DATA.__bss: 0x1408
++  __DATA.__bss: 0x1438
+   __DATA_CONST.__auth_got: 0x150
+   __DATA_CONST.__got: 0x60
+   __DATA_CONST.__mod_init_func: 0x10
+
+```
+
+>  `com.apple.driver.AppleConvergedPCI`
+
+```diff
+
+-106.0.0.0.0
++107.0.0.0.0
+   __TEXT.__const: 0x1b0
+   __TEXT.__cstring: 0x6ba1
+-  __TEXT_EXEC.__text: 0x3e558
++  __TEXT_EXEC.__text: 0x3e594
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0x248
+   __DATA.__common: 0x2d0
+
+   __DATA_CONST.__got: 0x108
+   __DATA_CONST.__mod_init_func: 0x68
+   __DATA_CONST.__mod_term_func: 0x68
+-  __DATA_CONST.__const: 0x4768
++  __DATA_CONST.__const: 0x4778
+   __DATA_CONST.__kalloc_type: 0x1300
+   Symbols:   0
+-  Functions: 1067
++  Functions: 1069
+ 
+
+```
+
+>  `com.apple.driver.AppleHIDTransport`
+
+```diff
+
+-8100.31.0.0.0
++8100.32.0.0.0
+   __TEXT.__const: 0x2d4
+-  __TEXT.__cstring: 0xab57
++  __TEXT.__cstring: 0xab70
+   __TEXT.__os_log: 0x283
+-  __TEXT_EXEC.__text: 0x69af4
++  __TEXT_EXEC.__text: 0x69dbc
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0xc8
+   __DATA.__common: 0x420
+
+```
+
+>  `com.apple.driver.AppleJPEGDriver`
+
+```diff
+
+-7.1.3.0.0
+-  __TEXT.__os_log: 0xc16a
+-  __TEXT.__cstring: 0x324f
++7.1.4.0.0
++  __TEXT.__os_log: 0xc20c
++  __TEXT.__cstring: 0x3545
+   __TEXT.__const: 0x4534
+-  __TEXT_EXEC.__text: 0x33b60
++  __TEXT_EXEC.__text: 0x343bc
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0x8b08
+   __DATA.__common: 0x2b8
+   __DATA.__bss: 0x1
+-  __DATA_CONST.__auth_got: 0x340
++  __DATA_CONST.__auth_got: 0x348
+   __DATA_CONST.__got: 0x98
+   __DATA_CONST.__mod_init_func: 0x88
+   __DATA_CONST.__mod_term_func: 0x88
+
+```
+
+>  `com.apple.driver.AppleSARService`
+
+```diff
+
+-1168.0.0.0.0
++1172.0.0.0.0
+   __TEXT.__const: 0x750
+   __TEXT.__cstring: 0x9b1f
+   __TEXT.__os_log: 0xb8af
+   __TEXT.__ustring: 0x8
+-  __TEXT_EXEC.__text: 0x53c84
++  __TEXT_EXEC.__text: 0x53e40
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0xd8
+   __DATA.__common: 0x5f0
+
+   __DATA_CONST.__kalloc_type: 0x2940
+   __DATA_CONST.__kalloc_var: 0x140
+   Symbols:   0
+-  Functions: 538
++  Functions: 539
+ 
+
+```
+
+>  `com.apple.iokit.IOMobileGraphicsFamily`
+
+```diff
+
+-395.20.1.0.0
+-  __TEXT.__cstring: 0x824b
++395.23.1.0.0
++  __TEXT.__cstring: 0x81b4
+   __TEXT.__const: 0x800
+-  __TEXT_EXEC.__text: 0x2256c
++  __TEXT_EXEC.__text: 0x2257c
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0x2900
+   __DATA.__common: 0x1c924
+
+   __DATA_CONST.__const: 0x5e00
+   __DATA_CONST.__kalloc_type: 0xac0
+   Symbols:   0
+-  Functions: 1134
++  Functions: 1133
+ 
+
+```
+
+>  `com.apple.driver.AppleH16ANEInterface`
+
+```diff
+
+-8.13.2.0.0
+-  __TEXT.__os_log: 0x30df1
+-  __TEXT.__cstring: 0xaa49
+-  __TEXT.__const: 0x5f0
+-  __TEXT_EXEC.__text: 0xa0088
++8.15.1.0.0
++  __TEXT.__os_log: 0x31029
++  __TEXT.__cstring: 0xab3f
++  __TEXT.__const: 0x600
++  __TEXT_EXEC.__text: 0xa0a78
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0x3058
+   __DATA.__common: 0x3c8
+   __DATA.__bss: 0x270
+   __DATA_CONST.__auth_got: 0x878
+   __DATA_CONST.__got: 0x118
+-  __DATA_CONST.__auth_ptr: 0x8
+   __DATA_CONST.__mod_init_func: 0x98
+   __DATA_CONST.__mod_term_func: 0x20
+-  __DATA_CONST.__const: 0x6078
+-  __DATA_CONST.__kalloc_type: 0x2c80
+-  __DATA_CONST.__kalloc_var: 0x28a0
++  __DATA_CONST.__const: 0x6098
++  __DATA_CONST.__kalloc_type: 0x2d00
++  __DATA_CONST.__kalloc_var: 0x29e0
+   Symbols:   0
+-  Functions: 1821
++  Functions: 1824
+ 
+
+```
+
+>  `com.apple.driver.AppleHPM`
+
+```diff
+
+-570.0.0.0.0
+-  __TEXT.__cstring: 0x1b286
++570.0.1.0.0
++  __TEXT.__cstring: 0x1b2a1
+   __TEXT.__const: 0xc0
+   __TEXT.__os_log: 0x1e8
+-  __TEXT_EXEC.__text: 0x5c3dc
++  __TEXT_EXEC.__text: 0x5c438
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0x6d0
+   __DATA.__common: 0x518
+   __DATA.__bss: 0x4
+-  __DATA_CONST.__auth_got: 0x498
++  __DATA_CONST.__auth_got: 0x4a0
+   __DATA_CONST.__got: 0x130
+   __DATA_CONST.__auth_ptr: 0x18
+   __DATA_CONST.__mod_init_func: 0xf8
+
+```
+
+>  `com.apple.driver.ApplePMGR`
+
+```diff
+
+-1555.0.15.0.0
++1555.0.17.0.0
+   __TEXT.__const: 0x248
+   __TEXT.__cstring: 0xe858
+-  __TEXT_EXEC.__text: 0x527fc
++  __TEXT_EXEC.__text: 0x527f8
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0x100
+   __DATA.__common: 0x420
+
+```
+
+>  `com.apple.filesystems.apfs`
+
+```diff
+
+-2309.0.0.502.1
++2310.0.0.0.0
+   __TEXT.__const: 0x790
+-  __TEXT.__cstring: 0x48053
+-  __TEXT_EXEC.__text: 0x13983c
++  __TEXT.__cstring: 0x48034
++  __TEXT_EXEC.__text: 0x1397d8
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0x690
+   __DATA.__bss: 0xc60
+
+   __DATA_CONST.__kalloc_type: 0x4c80
+   __DATA_CONST.__kalloc_var: 0x2800
+   Symbols:   0
+-  Functions: 2261
++  Functions: 2262
+ 
+
+```
+
+>  `com.apple.iokit.IOMobileGraphicsFamily-DCP`
+
+```diff
+
+-395.20.1.0.0
++395.23.1.0.0
+   __TEXT.__cstring: 0x3ef5
+   __TEXT.__const: 0x2148
+-  __TEXT_EXEC.__text: 0x1faa8
++  __TEXT_EXEC.__text: 0x1fb60
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0xe0
+   __DATA.__common: 0x26d0
+
+   __DATA_CONST.__const: 0x1628
+   __DATA_CONST.__kalloc_type: 0x7c0
+   Symbols:   0
+-  Functions: 690
++  Functions: 693
+ 
+
+```
+
+>  `com.apple.driver.AppleFirmwareKit`
+
+```diff
+
+-531.0.4.0.0
+-  __TEXT.__cstring: 0x27af
++531.0.7.0.0
++  __TEXT.__cstring: 0x4064
+   __TEXT.__os_log: 0x1129
+   __TEXT.__const: 0xa8
+-  __TEXT_EXEC.__text: 0x36c24
++  __TEXT_EXEC.__text: 0x3acdc
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0x3f8
+   __DATA.__common: 0x700
+   __DATA.__bss: 0xc8
+-  __DATA_CONST.__auth_got: 0x428
+-  __DATA_CONST.__got: 0x128
++  __DATA_CONST.__auth_got: 0x420
++  __DATA_CONST.__got: 0x120
+   __DATA_CONST.__auth_ptr: 0x10
+   __DATA_CONST.__mod_init_func: 0xf0
+   __DATA_CONST.__mod_term_func: 0xf0
+-  __DATA_CONST.__const: 0xd348
++  __DATA_CONST.__const: 0xd318
+   __DATA_CONST.__kalloc_type: 0x1880
+   __DATA_CONST.__kalloc_var: 0x50
+   Symbols:   0
+-  Functions: 1625
++  Functions: 1931
+ 
+
+```
+
+>  `com.apple.driver.AppleSEPKeyStore`
+
+```diff
+
+-1827.0.41.0.1
+-  __TEXT.__cstring: 0x3aba
++1827.0.50.0.0
++  __TEXT.__cstring: 0x3ab6
+   __TEXT.__const: 0x864
+   __TEXT_EXEC.__text: 0x3d4f4
+   __TEXT_EXEC.__auth_stubs: 0x0
+
+```
+
+>  `com.apple.driver.AppleStockholmControl`
+
+```diff
+
+-350.26.1.0.0
+-  __TEXT.__cstring: 0x45c8
++350.28.0.0.0
++  __TEXT.__cstring: 0x46f8
+   __TEXT.__const: 0x30
+-  __TEXT_EXEC.__text: 0x14bf8
++  __TEXT_EXEC.__text: 0x14f0c
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0x219
+   __DATA.__common: 0x1a6
+
+```
+
+>  `com.apple.driver.AppleTypeCPhy`
+
+```diff
+
+-239.0.0.0.0
++239.0.1.0.0
+   __TEXT.__cstring: 0x1651
+   __TEXT.__const: 0x24
+   __TEXT.__os_log: 0x114c
+-  __TEXT_EXEC.__text: 0x12538
++  __TEXT_EXEC.__text: 0x12570
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0xc8
+   __DATA.__common: 0xd8
+
+   __DATA_CONST.__got: 0x78
+   __DATA_CONST.__mod_init_func: 0x28
+   __DATA_CONST.__mod_term_func: 0x28
+-  __DATA_CONST.__const: 0x1240
++  __DATA_CONST.__const: 0x1250
+   __DATA_CONST.__kalloc_type: 0x140
+   Symbols:   0
+-  Functions: 243
++  Functions: 245
+ 
+
+```
+
+>  `com.apple.iokit.IOThunderboltFamily`
+
+```diff
+
+-6767.0.0.0.0
+-  __TEXT.__cstring: 0x32b44
++6769.0.0.0.0
++  __TEXT.__cstring: 0x32b45
+   __TEXT.__os_log: 0x2db0c
+   __TEXT.__const: 0x7f0
+-  __TEXT_EXEC.__text: 0x18d158
++  __TEXT_EXEC.__text: 0x18d2bc
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0xb1a
+   __DATA.__common: 0x1238
+
+   __DATA_CONST.__got: 0x150
+   __DATA_CONST.__mod_init_func: 0x3a0
+   __DATA_CONST.__mod_term_func: 0x3a0
+-  __DATA_CONST.__const: 0x1d988
++  __DATA_CONST.__const: 0x1d998
+   __DATA_CONST.__kalloc_type: 0x1d40
+   __DATA_CONST.__kalloc_var: 0xaf0
+   Symbols:   0
+-  Functions: 4756
++  Functions: 4758
  
 
 ```
@@ -1140,436 +1140,21 @@
 
 ## MachO
 
-### 🆕 NEW (207)
-
-<details>
-  <summary><i>View NEW</i></summary>
+### 🆕 NEW (5)
 
 - `/Applications/CompanionSetup.app/CompanionSetup`
 - `/System/Library/ExtensionKit/Extensions/SettingsSOSAppIntentsExtension.appex/SettingsSOSAppIntentsExtension`
 - `/System/Library/PrivateFrameworks/ExchangeSync.framework/PlugIns/SyncDiagnostics.appex/SyncDiagnostics`
 - `/System/Library/PrivateFrameworks/ImagePlayground.framework/PlugIns/com.apple.ImagePlayground.DiagnosticExtension.appex/com.apple.ImagePlayground.DiagnosticExtension`
-- `/private/tmp/090-27454-052.dmg.mount/System/Library/Frameworks/AVFAudio.framework/XPCServices/AVAudioDeviceTestService.xpc/AVAudioDeviceTestService`
-- `/private/tmp/090-27454-052.dmg.mount/System/Library/Frameworks/ClockKit.framework/XPCServices/CLKCompanionWatchFaceLibraryService.xpc/CLKCompanionWatchFaceLibraryService`
-- `/private/tmp/090-27454-052.dmg.mount/System/Library/Frameworks/ExtensionFoundation.framework/XPCServices/extensionkitservice.xpc/extensionkitservice`
-- `/private/tmp/090-27454-052.dmg.mount/System/Library/Frameworks/FileProvider.framework/OverrideBundles/CloudDocsFileProvider.bundle/CloudDocsFileProvider`
-- `/private/tmp/090-27454-052.dmg.mount/System/Library/Frameworks/FileProvider.framework/OverrideBundles/FileProviderOverride.bundle/FileProviderOverride`
-- `/private/tmp/090-27454-052.dmg.mount/System/Library/Frameworks/FileProvider.framework/OverrideBundles/iCloudDriveFileProviderOverride.bundle/iCloudDriveFileProviderOverride`
-- `/private/tmp/090-27454-052.dmg.mount/System/Library/Frameworks/FileProvider.framework/PlugIns/LocalStorageFileProvider.appex/LocalStorageFileProvider`
-- `/private/tmp/090-27454-052.dmg.mount/System/Library/Frameworks/FileProvider.framework/Support/fileproviderd`
-- `/private/tmp/090-27454-052.dmg.mount/System/Library/Frameworks/LinkPresentation.framework/PlugIns/YouTubePlayer.wkbundle/YouTubePlayer`
-- `/private/tmp/090-27454-052.dmg.mount/System/Library/Frameworks/LinkPresentation.framework/XPCServices/com.apple.LinkPresentation.LinkSnapshotGeneratorService.xpc/com.apple.LinkPresentation.LinkSnapshotGeneratorService`
-- `/private/tmp/090-27454-052.dmg.mount/System/Library/Frameworks/SensorKit.framework/PlugIns/SensorKitViewService.appex/SensorKitViewService`
-- `/private/tmp/090-27454-052.dmg.mount/System/Library/Frameworks/SensorKit.framework/Support/srsupporttool`
-- `/private/tmp/090-27454-052.dmg.mount/System/Library/Frameworks/SensorKit.framework/XPCServices/SensorKitDataExport.xpc/SensorKitDataExport`
-- `/private/tmp/090-27454-052.dmg.mount/System/Library/Frameworks/SensorKit.framework/XPCServices/SensorKitLongTermStorageHelper.xpc/SensorKitLongTermStorageHelper`
-- `/private/tmp/090-27454-052.dmg.mount/System/Library/Frameworks/SensorKit.framework/XPCServices/com.apple.SensorKit.CHSupportService.xpc/com.apple.SensorKit.CHSupportService`
-- `/private/tmp/090-27454-052.dmg.mount/System/Library/Frameworks/SensorKit.framework/XPCServices/com.apple.SensorKitAppHelper.xpc/com.apple.SensorKitAppHelper`
-- `/private/tmp/090-27454-052.dmg.mount/System/Library/PrivateFrameworks/ClockPoster.framework/PlugIns/ClockPosterExtension.appex/ClockPosterExtension`
-- `/private/tmp/090-27454-052.dmg.mount/System/Library/PrivateFrameworks/CoreParsec.framework/PlugIns/SearchPoirotExtension.appex/SearchPoirotExtension`
-- `/private/tmp/090-27454-052.dmg.mount/System/Library/PrivateFrameworks/CoreParsec.framework/parsec-fbf`
-- `/private/tmp/090-27454-052.dmg.mount/System/Library/PrivateFrameworks/CoreParsec.framework/parsecd`
-- `/private/tmp/090-27454-052.dmg.mount/System/Library/PrivateFrameworks/FMF.framework/XPCServices/FMFMapXPCService.xpc/FMFMapXPCService`
-- `/private/tmp/090-27454-052.dmg.mount/System/Library/PrivateFrameworks/SFSymbols.framework/CoreGlyphsPrivate.bundle/CoreGlyphsPrivate`
-- `/private/tmp/090-27454-052.dmg.mount/private/var/staged_system_apps/AppleTV.app/AppleTV`
-- `/private/tmp/090-27454-052.dmg.mount/private/var/staged_system_apps/AppleTV.app/PlugIns/TVCoreSpotlightExtension.appex/TVCoreSpotlightExtension`
-- `/private/tmp/090-27454-052.dmg.mount/private/var/staged_system_apps/AppleTV.app/PlugIns/TVIntentsExtension.appex/TVIntentsExtension`
-- `/private/tmp/090-27454-052.dmg.mount/private/var/staged_system_apps/AppleTV.app/PlugIns/TVNotificationContentExtension.appex/TVNotificationContentExtension`
-- `/private/tmp/090-27454-052.dmg.mount/private/var/staged_system_apps/AppleTV.app/PlugIns/TVWidgetExtension.appex/TVWidgetExtension`
-- `/private/tmp/090-27454-052.dmg.mount/private/var/staged_system_apps/Books.app/Books`
-- `/private/tmp/090-27454-052.dmg.mount/private/var/staged_system_apps/Books.app/Frameworks/AEBookPlugins.framework/AEBookPlugins`
-- `/private/tmp/090-27454-052.dmg.mount/private/var/staged_system_apps/Books.app/Frameworks/BKAudiobooks.framework/BKAudiobooks`
-- `/private/tmp/090-27454-052.dmg.mount/private/var/staged_system_apps/Books.app/Frameworks/BKLibrary.framework/BKLibrary`
-- `/private/tmp/090-27454-052.dmg.mount/private/var/staged_system_apps/Books.app/Frameworks/BlissReader.framework/BlissReader`
-- `/private/tmp/090-27454-052.dmg.mount/private/var/staged_system_apps/Books.app/Frameworks/BookAnalytics.framework/BookAnalytics`
-- `/private/tmp/090-27454-052.dmg.mount/private/var/staged_system_apps/Books.app/Frameworks/BookCore.framework/BookCore`
-- `/private/tmp/090-27454-052.dmg.mount/private/var/staged_system_apps/Books.app/Frameworks/BookEPUB.framework/BookEPUB`
-- `/private/tmp/090-27454-052.dmg.mount/private/var/staged_system_apps/Books.app/Frameworks/BookStoreUI.framework/BookStoreUI`
-- `/private/tmp/090-27454-052.dmg.mount/private/var/staged_system_apps/Books.app/Frameworks/BooksAll.framework/BooksAll`
-- `/private/tmp/090-27454-052.dmg.mount/private/var/staged_system_apps/Books.app/Frameworks/BooksPersonalization.framework/BooksPersonalization`
-- `/private/tmp/090-27454-052.dmg.mount/private/var/staged_system_apps/Books.app/Frameworks/BooksUI.framework/BooksUI`
-- `/private/tmp/090-27454-052.dmg.mount/private/var/staged_system_apps/Books.app/Frameworks/EngagementCollector.framework/EngagementCollector`
-- `/private/tmp/090-27454-052.dmg.mount/private/var/staged_system_apps/Books.app/Frameworks/JSApp.framework/JSApp`
-- `/private/tmp/090-27454-052.dmg.mount/private/var/staged_system_apps/Books.app/Frameworks/TemplateUI.framework/TemplateUI`
-- `/private/tmp/090-27454-052.dmg.mount/private/var/staged_system_apps/Books.app/PlugIns/BookEPUBWebProcessPlugin.bundle/BookEPUBWebProcessPlugin`
-- `/private/tmp/090-27454-052.dmg.mount/private/var/staged_system_apps/Books.app/PlugIns/BooksEngagementExtension.appex/BooksEngagementExtension`
-- `/private/tmp/090-27454-052.dmg.mount/private/var/staged_system_apps/Books.app/PlugIns/BooksIntentHandler.appex/BooksIntentHandler`
-- `/private/tmp/090-27454-052.dmg.mount/private/var/staged_system_apps/Books.app/PlugIns/BooksNotificationContentExtension.appex/BooksNotificationContentExtension`
-- `/private/tmp/090-27454-052.dmg.mount/private/var/staged_system_apps/Books.app/PlugIns/BooksProductPageExtension.appex/BooksProductPageExtension`
-- `/private/tmp/090-27454-052.dmg.mount/private/var/staged_system_apps/Books.app/PlugIns/BooksSpotlightExtension.appex/BooksSpotlightExtension`
-- `/private/tmp/090-27454-052.dmg.mount/private/var/staged_system_apps/Books.app/PlugIns/BooksThumbnail.appex/BooksThumbnail`
-- `/private/tmp/090-27454-052.dmg.mount/private/var/staged_system_apps/Books.app/PlugIns/BooksWidgetExtension.appex/BooksWidgetExtension`
-- `/private/tmp/090-27454-052.dmg.mount/private/var/staged_system_apps/Books.app/XPCServices/XPCUbiquityDisableService.xpc/XPCUbiquityDisableService`
-- `/private/tmp/090-27454-052.dmg.mount/private/var/staged_system_apps/Bridge.app/Bridge`
-- `/private/tmp/090-27454-052.dmg.mount/private/var/staged_system_apps/Bridge.app/PlugIns/BridgeWidgetExtension.appex/BridgeWidgetExtension`
-- `/private/tmp/090-27454-052.dmg.mount/private/var/staged_system_apps/Bridge.app/PlugIns/GreenfieldThumbnailExtension.appex/GreenfieldThumbnailExtension`
-- `/private/tmp/090-27454-052.dmg.mount/private/var/staged_system_apps/Calculator.app/Calculator`
-- `/private/tmp/090-27454-052.dmg.mount/private/var/staged_system_apps/Calculator.app/PlugIns/CalculatorWidget.appex/CalculatorWidget`
-- `/private/tmp/090-27454-052.dmg.mount/private/var/staged_system_apps/Compass.app/Compass`
-- `/private/tmp/090-27454-052.dmg.mount/private/var/staged_system_apps/Contacts.app/Contacts`
-- `/private/tmp/090-27454-052.dmg.mount/private/var/staged_system_apps/FaceTime.app/FaceTime`
-- `/private/tmp/090-27454-052.dmg.mount/private/var/staged_system_apps/Files.app/Files`
-- `/private/tmp/090-27454-052.dmg.mount/private/var/staged_system_apps/FindMy.app/FindMy`
-- `/private/tmp/090-27454-052.dmg.mount/private/var/staged_system_apps/FindMy.app/Frameworks/FindMyAppCore.framework/FindMyAppCore`
-- `/private/tmp/090-27454-052.dmg.mount/private/var/staged_system_apps/FindMy.app/PlugIns/FindMyNotificationsContent.appex/FindMyNotificationsContent`
-- `/private/tmp/090-27454-052.dmg.mount/private/var/staged_system_apps/FindMy.app/PlugIns/FindMyNotificationsService.appex/FindMyNotificationsService`
-- `/private/tmp/090-27454-052.dmg.mount/private/var/staged_system_apps/FindMy.app/PlugIns/FindMyWidgetIntentsItems.appex/FindMyWidgetIntentsItems`
-- `/private/tmp/090-27454-052.dmg.mount/private/var/staged_system_apps/FindMy.app/PlugIns/FindMyWidgetIntentsPeople.appex/FindMyWidgetIntentsPeople`
-- `/private/tmp/090-27454-052.dmg.mount/private/var/staged_system_apps/FindMy.app/PlugIns/FindMyWidgetItems.appex/FindMyWidgetItems`
-- `/private/tmp/090-27454-052.dmg.mount/private/var/staged_system_apps/FindMy.app/PlugIns/FindMyWidgetPeople.appex/FindMyWidgetPeople`
-- `/private/tmp/090-27454-052.dmg.mount/private/var/staged_system_apps/Fitness.app/Fitness`
-- `/private/tmp/090-27454-052.dmg.mount/private/var/staged_system_apps/Fitness.app/PlugIns/FitnessIntents.appex/FitnessIntents`
-- `/private/tmp/090-27454-052.dmg.mount/private/var/staged_system_apps/Fitness.app/PlugIns/FitnessWidget.appex/FitnessWidget`
-- `/private/tmp/090-27454-052.dmg.mount/private/var/staged_system_apps/Fitness.app/PlugIns/MirroredWidgetExtension.appex/MirroredWidgetExtension`
-- `/private/tmp/090-27454-052.dmg.mount/private/var/staged_system_apps/Freeform.app/Extensions/USDRendererExtension.appex/USDRendererExtension`
-- `/private/tmp/090-27454-052.dmg.mount/private/var/staged_system_apps/Freeform.app/Freeform`
-- `/private/tmp/090-27454-052.dmg.mount/private/var/staged_system_apps/Freeform.app/PlugIns/FreeformSharingExtension.appex/FreeformSharingExtension`
-- `/private/tmp/090-27454-052.dmg.mount/private/var/staged_system_apps/Freeform.app/PlugIns/FreeformWidgetKitExtension.appex/FreeformWidgetKitExtension`
-- `/private/tmp/090-27454-052.dmg.mount/private/var/staged_system_apps/Health.app/Health`
-- `/private/tmp/090-27454-052.dmg.mount/private/var/staged_system_apps/Health.app/PlugIns/HealthBalanceWidgetExtension.appex/HealthBalanceWidgetExtension`
-- `/private/tmp/090-27454-052.dmg.mount/private/var/staged_system_apps/Health.app/PlugIns/HealthCycleTrackingWidgetExtension.appex/HealthCycleTrackingWidgetExtension`
-- `/private/tmp/090-27454-052.dmg.mount/private/var/staged_system_apps/Health.app/PlugIns/HealthMedicationsWidgetExtension.appex/HealthMedicationsWidgetExtension`
-- `/private/tmp/090-27454-052.dmg.mount/private/var/staged_system_apps/Health.app/PlugIns/HealthMentalHealthWidgetExtension.appex/HealthMentalHealthWidgetExtension`
-- `/private/tmp/090-27454-052.dmg.mount/private/var/staged_system_apps/Health.app/PlugIns/ShareExtension.appex/ShareExtension`
-- `/private/tmp/090-27454-052.dmg.mount/private/var/staged_system_apps/Home.app/Home`
-- `/private/tmp/090-27454-052.dmg.mount/private/var/staged_system_apps/Home.app/PlugIns/HomeDiagnosticExtension.appex/HomeDiagnosticExtension`
-- `/private/tmp/090-27454-052.dmg.mount/private/var/staged_system_apps/Home.app/PlugIns/HomeEnergyWidgetsExtension.appex/HomeEnergyWidgetsExtension`
-- `/private/tmp/090-27454-052.dmg.mount/private/var/staged_system_apps/Home.app/PlugIns/HomeNotification.appex/HomeNotification`
-- `/private/tmp/090-27454-052.dmg.mount/private/var/staged_system_apps/Home.app/PlugIns/HomePersonalRequestNotification.appex/HomePersonalRequestNotification`
-- `/private/tmp/090-27454-052.dmg.mount/private/var/staged_system_apps/Home.app/PlugIns/HomeUtilNotification.appex/HomeUtilNotification`
-- `/private/tmp/090-27454-052.dmg.mount/private/var/staged_system_apps/Home.app/PlugIns/HomeWidget.appex/HomeWidget`
-- `/private/tmp/090-27454-052.dmg.mount/private/var/staged_system_apps/Home.app/PlugIns/HomeWidgetLockScreen.appex/HomeWidgetLockScreen`
-- `/private/tmp/090-27454-052.dmg.mount/private/var/staged_system_apps/Home.app/PlugIns/HomeWidgetSingleAccessoryIntent.appex/HomeWidgetSingleAccessoryIntent`
-- `/private/tmp/090-27454-052.dmg.mount/private/var/staged_system_apps/Image Playground.app/Extensions/GenerativePlaygroundAppIntents.appex/GenerativePlaygroundAppIntents`
-- `/private/tmp/090-27454-052.dmg.mount/private/var/staged_system_apps/Image Playground.app/Image Playground`
-- `/private/tmp/090-27454-052.dmg.mount/private/var/staged_system_apps/Image Playground.app/PlugIns/GenerativePlaygroundMessagesAppExtension.appex/GenerativePlaygroundMessagesAppExtension`
-- `/private/tmp/090-27454-052.dmg.mount/private/var/staged_system_apps/Journal.app/Journal`
-- `/private/tmp/090-27454-052.dmg.mount/private/var/staged_system_apps/Journal.app/PlugIns/JournalShareExtension.appex/JournalShareExtension`
-- `/private/tmp/090-27454-052.dmg.mount/private/var/staged_system_apps/Journal.app/PlugIns/JournalWidgets.appex/JournalWidgets`
-- `/private/tmp/090-27454-052.dmg.mount/private/var/staged_system_apps/Journal.app/PlugIns/JournalWidgetsSecure.appex/JournalWidgetsSecure`
-- `/private/tmp/090-27454-052.dmg.mount/private/var/staged_system_apps/Magnifier.app/Extensions/MagnifierExtension.appex/MagnifierExtension`
-- `/private/tmp/090-27454-052.dmg.mount/private/var/staged_system_apps/Magnifier.app/Magnifier`
-- `/private/tmp/090-27454-052.dmg.mount/private/var/staged_system_apps/Magnifier.app/PlugIns/MagnifierWidgetExtension.appex/MagnifierWidgetExtension`
-- `/private/tmp/090-27454-052.dmg.mount/private/var/staged_system_apps/Maps.app/Maps`
-- `/private/tmp/090-27454-052.dmg.mount/private/var/staged_system_apps/Maps.app/PlugIns/GeneralMapsWidget.appex/GeneralMapsWidget`
-- `/private/tmp/090-27454-052.dmg.mount/private/var/staged_system_apps/Maps.app/PlugIns/MapsSpotlightIndexExtension.appex/MapsSpotlightIndexExtension`
-- `/private/tmp/090-27454-052.dmg.mount/private/var/staged_system_apps/Maps.app/PlugIns/SiriTrafficIncidents.appex/SiriTrafficIncidents`
-- `/private/tmp/090-27454-052.dmg.mount/private/var/staged_system_apps/Measure.app/Measure`
-- `/private/tmp/090-27454-052.dmg.mount/private/var/staged_system_apps/MobileCal.app/Extensions/CalendarIntentsExtension.appex/CalendarIntentsExtension`
-- `/private/tmp/090-27454-052.dmg.mount/private/var/staged_system_apps/MobileCal.app/MobileCal`
-- `/private/tmp/090-27454-052.dmg.mount/private/var/staged_system_apps/MobileCal.app/PlugIns/CalendarWidgetExtension.appex/CalendarWidgetExtension`
-- `/private/tmp/090-27454-052.dmg.mount/private/var/staged_system_apps/MobileCal.app/PlugIns/FacetimeExtension.appex/FacetimeExtension`
-- `/private/tmp/090-27454-052.dmg.mount/private/var/staged_system_apps/MobileMail.app/Extensions/MailShortcutsExtension.appex/MailShortcutsExtension`
-- `/private/tmp/090-27454-052.dmg.mount/private/var/staged_system_apps/MobileMail.app/MobileMail`
-- `/private/tmp/090-27454-052.dmg.mount/private/var/staged_system_apps/MobileMail.app/PlugIns/DiagnosticExtension.appex/DiagnosticExtension`
-- `/private/tmp/090-27454-052.dmg.mount/private/var/staged_system_apps/MobileMail.app/PlugIns/MailIntentsExtension.appex/MailIntentsExtension`
-- `/private/tmp/090-27454-052.dmg.mount/private/var/staged_system_apps/MobileMail.app/PlugIns/MailNotificationContentExtension.appex/MailNotificationContentExtension`
-- `/private/tmp/090-27454-052.dmg.mount/private/var/staged_system_apps/MobileMail.app/PlugIns/MailQuickLookExtension.appex/MailQuickLookExtension`
-- `/private/tmp/090-27454-052.dmg.mount/private/var/staged_system_apps/MobileMail.app/PlugIns/MailWidgetExtension.appex/MailWidgetExtension`
-- `/private/tmp/090-27454-052.dmg.mount/private/var/staged_system_apps/MobileNotes.app/MobileNotes`
-- `/private/tmp/090-27454-052.dmg.mount/private/var/staged_system_apps/MobileNotes.app/PlugIns/com.apple.mobilenotes.EditorExtension.appex/com.apple.mobilenotes.EditorExtension`
-- `/private/tmp/090-27454-052.dmg.mount/private/var/staged_system_apps/MobileNotes.app/PlugIns/com.apple.mobilenotes.IntentsExtension.appex/com.apple.mobilenotes.IntentsExtension`
-- `/private/tmp/090-27454-052.dmg.mount/private/var/staged_system_apps/MobileNotes.app/PlugIns/com.apple.mobilenotes.QuickLookExtension.appex/com.apple.mobilenotes.QuickLookExtension`
-- `/private/tmp/090-27454-052.dmg.mount/private/var/staged_system_apps/MobileNotes.app/PlugIns/com.apple.mobilenotes.SharingExtension.appex/com.apple.mobilenotes.SharingExtension`
-- `/private/tmp/090-27454-052.dmg.mount/private/var/staged_system_apps/MobileNotes.app/PlugIns/com.apple.mobilenotes.SpotlightIndexExtension.appex/com.apple.mobilenotes.SpotlightIndexExtension`
-- `/private/tmp/090-27454-052.dmg.mount/private/var/staged_system_apps/MobileNotes.app/PlugIns/com.apple.mobilenotes.WidgetExtension.appex/com.apple.mobilenotes.WidgetExtension`
-- `/private/tmp/090-27454-052.dmg.mount/private/var/staged_system_apps/MobileStore.app/MobileStore`
-- `/private/tmp/090-27454-052.dmg.mount/private/var/staged_system_apps/MobileStore.app/PlugIns/MusicStoreNotificationContentPlugin.appex/MusicStoreNotificationContentPlugin`
-- `/private/tmp/090-27454-052.dmg.mount/private/var/staged_system_apps/MobileStore.app/XPCServices/com.apple.MobileStore.appremoval.xpc/com.apple.MobileStore.appremoval`
-- `/private/tmp/090-27454-052.dmg.mount/private/var/staged_system_apps/MobileTimer.app/MobileTimer`
-- `/private/tmp/090-27454-052.dmg.mount/private/var/staged_system_apps/MobileTimer.app/PlugIns/WorldClockWidget.appex/WorldClockWidget`
-- `/private/tmp/090-27454-052.dmg.mount/private/var/staged_system_apps/Music.app/Extensions/MusicFocusFilters.appex/MusicFocusFilters`
-- `/private/tmp/090-27454-052.dmg.mount/private/var/staged_system_apps/Music.app/Frameworks/MusicApplication.framework/MusicApplication`
-- `/private/tmp/090-27454-052.dmg.mount/private/var/staged_system_apps/Music.app/Frameworks/MusicApplication.framework/XPCServices/MusicScriptUpdateService.xpc/MusicScriptUpdateService`
-- `/private/tmp/090-27454-052.dmg.mount/private/var/staged_system_apps/Music.app/Music`
-- `/private/tmp/090-27454-052.dmg.mount/private/var/staged_system_apps/Music.app/PlugIns/MediaPicker.appex/MediaPicker`
-- `/private/tmp/090-27454-052.dmg.mount/private/var/staged_system_apps/Music.app/PlugIns/MusicCoreSpotlightExtension.appex/MusicCoreSpotlightExtension`
-- `/private/tmp/090-27454-052.dmg.mount/private/var/staged_system_apps/Music.app/PlugIns/MusicMessagesApp.appex/MusicMessagesApp`
-- `/private/tmp/090-27454-052.dmg.mount/private/var/staged_system_apps/Music.app/PlugIns/MusicNotificationContentExtension.appex/MusicNotificationContentExtension`
-- `/private/tmp/090-27454-052.dmg.mount/private/var/staged_system_apps/Music.app/PlugIns/MusicWidgets.appex/MusicWidgets`
-- `/private/tmp/090-27454-052.dmg.mount/private/var/staged_system_apps/Music.app/PlugIns/StoreFlowExtension.appex/StoreFlowExtension`
-- `/private/tmp/090-27454-052.dmg.mount/private/var/staged_system_apps/News.app/News`
-- `/private/tmp/090-27454-052.dmg.mount/private/var/staged_system_apps/News.app/PlugIns/ArticleNotificationExtension.appex/ArticleNotificationExtension`
-- `/private/tmp/090-27454-052.dmg.mount/private/var/staged_system_apps/News.app/PlugIns/MarketingNotificationExtension.appex/MarketingNotificationExtension`
-- `/private/tmp/090-27454-052.dmg.mount/private/var/staged_system_apps/News.app/PlugIns/NewsArticleQuickLook.appex/NewsArticleQuickLook`
-- `/private/tmp/090-27454-052.dmg.mount/private/var/staged_system_apps/News.app/PlugIns/NewsAudioExtension.appex/NewsAudioExtension`
-- `/private/tmp/090-27454-052.dmg.mount/private/var/staged_system_apps/News.app/PlugIns/NewsDiagnosticExtension.appex/NewsDiagnosticExtension`
-- `/private/tmp/090-27454-052.dmg.mount/private/var/staged_system_apps/News.app/PlugIns/NewsEngagementExtension.appex/NewsEngagementExtension`
-- `/private/tmp/090-27454-052.dmg.mount/private/var/staged_system_apps/News.app/PlugIns/NewsNotificationServiceExtension.appex/NewsNotificationServiceExtension`
-- `/private/tmp/090-27454-052.dmg.mount/private/var/staged_system_apps/News.app/PlugIns/NewsTag.appex/NewsTag`
-- `/private/tmp/090-27454-052.dmg.mount/private/var/staged_system_apps/News.app/PlugIns/NewsToday2.appex/NewsToday2`
-- `/private/tmp/090-27454-052.dmg.mount/private/var/staged_system_apps/News.app/PlugIns/NewsTodayIntents.appex/NewsTodayIntents`
-- `/private/tmp/090-27454-052.dmg.mount/private/var/staged_system_apps/News.app/PlugIns/OpenInNews.appex/OpenInNews`
-- `/private/tmp/090-27454-052.dmg.mount/private/var/staged_system_apps/Passbook.app/Passbook`
-- `/private/tmp/090-27454-052.dmg.mount/private/var/staged_system_apps/Passbook.app/PlugIns/PassbookLockedWidgetsExtension.appex/PassbookLockedWidgetsExtension`
-- `/private/tmp/090-27454-052.dmg.mount/private/var/staged_system_apps/Passbook.app/PlugIns/PassbookQuicklookPreviewExtension.appex/PassbookQuicklookPreviewExtension`
-- `/private/tmp/090-27454-052.dmg.mount/private/var/staged_system_apps/Passbook.app/PlugIns/PassbookTransactionNotificationContentExtension.appex/PassbookTransactionNotificationContentExtension`
-- `/private/tmp/090-27454-052.dmg.mount/private/var/staged_system_apps/Passbook.app/PlugIns/PassbookWidgetsExtension-iPhone.appex/PassbookWidgetsExtension-iPhone`
-- `/private/tmp/090-27454-052.dmg.mount/private/var/staged_system_apps/Passwords.app/Passwords`
-- `/private/tmp/090-27454-052.dmg.mount/private/var/staged_system_apps/Podcasts.app/Frameworks/IMDebug.framework/IMDebug`
-- `/private/tmp/090-27454-052.dmg.mount/private/var/staged_system_apps/Podcasts.app/Frameworks/NowPlayingUI.framework/NowPlayingUI`
-- `/private/tmp/090-27454-052.dmg.mount/private/var/staged_system_apps/Podcasts.app/Frameworks/ShelfKit.framework/ShelfKit`
-- `/private/tmp/090-27454-052.dmg.mount/private/var/staged_system_apps/Podcasts.app/Frameworks/ShelfKitCollectionViews.framework/ShelfKitCollectionViews`
-- `/private/tmp/090-27454-052.dmg.mount/private/var/staged_system_apps/Podcasts.app/PlugIns/PodcastsAnnouncementsNotificationExtension.appex/PodcastsAnnouncementsNotificationExtension`
-- `/private/tmp/090-27454-052.dmg.mount/private/var/staged_system_apps/Podcasts.app/PlugIns/PodcastsClassKitExtension.appex/PodcastsClassKitExtension`
-- `/private/tmp/090-27454-052.dmg.mount/private/var/staged_system_apps/Podcasts.app/PlugIns/PodcastsNotificationExtension.appex/PodcastsNotificationExtension`
-- `/private/tmp/090-27454-052.dmg.mount/private/var/staged_system_apps/Podcasts.app/PlugIns/PodcastsWidget.appex/PodcastsWidget`
-- `/private/tmp/090-27454-052.dmg.mount/private/var/staged_system_apps/Podcasts.app/PlugIns/com.apple.podcasts.DiagnosticExtension.appex/com.apple.podcasts.DiagnosticExtension`
-- `/private/tmp/090-27454-052.dmg.mount/private/var/staged_system_apps/Podcasts.app/PlugIns/com.apple.podcasts.SpotlightIndexExtension.appex/com.apple.podcasts.SpotlightIndexExtension`
-- `/private/tmp/090-27454-052.dmg.mount/private/var/staged_system_apps/Podcasts.app/Podcasts`
-- `/private/tmp/090-27454-052.dmg.mount/private/var/staged_system_apps/Reminders.app/PlugIns/RemindersIntentsExtension.appex/RemindersIntentsExtension`
-- `/private/tmp/090-27454-052.dmg.mount/private/var/staged_system_apps/Reminders.app/PlugIns/RemindersIntentsUIExtension.appex/RemindersIntentsUIExtension`
-- `/private/tmp/090-27454-052.dmg.mount/private/var/staged_system_apps/Reminders.app/PlugIns/RemindersSharingExtension.appex/RemindersSharingExtension`
-- `/private/tmp/090-27454-052.dmg.mount/private/var/staged_system_apps/Reminders.app/PlugIns/RemindersSpotlightIndexExtension.appex/RemindersSpotlightIndexExtension`
-- `/private/tmp/090-27454-052.dmg.mount/private/var/staged_system_apps/Reminders.app/PlugIns/RemindersWidgetExtension.appex/RemindersWidgetExtension`
-- `/private/tmp/090-27454-052.dmg.mount/private/var/staged_system_apps/Reminders.app/Reminders`
-- `/private/tmp/090-27454-052.dmg.mount/private/var/staged_system_apps/SequoiaTranslator.app/PlugIns/CacheDeleteExtension.appex/CacheDeleteExtension`
-- `/private/tmp/090-27454-052.dmg.mount/private/var/staged_system_apps/SequoiaTranslator.app/PlugIns/TranslationWidgetsExtension.appex/TranslationWidgetsExtension`
-- `/private/tmp/090-27454-052.dmg.mount/private/var/staged_system_apps/SequoiaTranslator.app/SequoiaTranslator`
-- `/private/tmp/090-27454-052.dmg.mount/private/var/staged_system_apps/Shortcuts.app/PlugIns/AutomationNotificationContent.appex/AutomationNotificationContent`
-- `/private/tmp/090-27454-052.dmg.mount/private/var/staged_system_apps/Shortcuts.app/PlugIns/QuickLookExtension.appex/QuickLookExtension`
-- `/private/tmp/090-27454-052.dmg.mount/private/var/staged_system_apps/Shortcuts.app/PlugIns/ShortcutsActionExtension.appex/ShortcutsActionExtension`
-- `/private/tmp/090-27454-052.dmg.mount/private/var/staged_system_apps/Shortcuts.app/PlugIns/ShortcutsWidgetExtension.appex/ShortcutsWidgetExtension`
-- `/private/tmp/090-27454-052.dmg.mount/private/var/staged_system_apps/Shortcuts.app/PlugIns/ThumbnailExtension.appex/ThumbnailExtension`
-- `/private/tmp/090-27454-052.dmg.mount/private/var/staged_system_apps/Shortcuts.app/Shortcuts`
-- `/private/tmp/090-27454-052.dmg.mount/private/var/staged_system_apps/Stocks.app/PlugIns/StocksDiagnosticExtension.appex/StocksDiagnosticExtension`
-- `/private/tmp/090-27454-052.dmg.mount/private/var/staged_system_apps/Stocks.app/PlugIns/StocksWidget.appex/StocksWidget`
-- `/private/tmp/090-27454-052.dmg.mount/private/var/staged_system_apps/Stocks.app/Stocks`
-- `/private/tmp/090-27454-052.dmg.mount/private/var/staged_system_apps/Tips.app/PlugIns/TipsNotification.appex/TipsNotification`
-- `/private/tmp/090-27454-052.dmg.mount/private/var/staged_system_apps/Tips.app/PlugIns/TipsQuicklook.appex/TipsQuicklook`
-- `/private/tmp/090-27454-052.dmg.mount/private/var/staged_system_apps/Tips.app/PlugIns/TipsSpotlightIndex.appex/TipsSpotlightIndex`
-- `/private/tmp/090-27454-052.dmg.mount/private/var/staged_system_apps/Tips.app/PlugIns/TipsWidget.appex/TipsWidget`
-- `/private/tmp/090-27454-052.dmg.mount/private/var/staged_system_apps/Tips.app/Tips`
-- `/private/tmp/090-27454-052.dmg.mount/private/var/staged_system_apps/VoiceMemos.app/PlugIns/RecordWidgetExtension.appex/RecordWidgetExtension`
-- `/private/tmp/090-27454-052.dmg.mount/private/var/staged_system_apps/VoiceMemos.app/PlugIns/VoiceMemosIntentsExtension.appex/VoiceMemosIntentsExtension`
-- `/private/tmp/090-27454-052.dmg.mount/private/var/staged_system_apps/VoiceMemos.app/PlugIns/VoiceMemosSettingsWidgetExtension.appex/VoiceMemosSettingsWidgetExtension`
-- `/private/tmp/090-27454-052.dmg.mount/private/var/staged_system_apps/VoiceMemos.app/PlugIns/VoiceMemosShareExtension.appex/VoiceMemosShareExtension`
-- `/private/tmp/090-27454-052.dmg.mount/private/var/staged_system_apps/VoiceMemos.app/PlugIns/com.apple.VoiceMemos.SpotlightIndexExtension.appex/com.apple.VoiceMemos.SpotlightIndexExtension`
-- `/private/tmp/090-27454-052.dmg.mount/private/var/staged_system_apps/VoiceMemos.app/VoiceMemos`
-- `/private/tmp/090-27454-052.dmg.mount/private/var/staged_system_apps/Weather.app/Extensions/WeatherAppIntents.appex/WeatherAppIntents`
-- `/private/tmp/090-27454-052.dmg.mount/private/var/staged_system_apps/Weather.app/PlugIns/WeatherDiagnosticExtension.appex/WeatherDiagnosticExtension`
-- `/private/tmp/090-27454-052.dmg.mount/private/var/staged_system_apps/Weather.app/PlugIns/WeatherIntents.appex/WeatherIntents`
-- `/private/tmp/090-27454-052.dmg.mount/private/var/staged_system_apps/Weather.app/PlugIns/WeatherPoster.appex/WeatherPoster`
-- `/private/tmp/090-27454-052.dmg.mount/private/var/staged_system_apps/Weather.app/PlugIns/WeatherWidget.appex/WeatherWidget`
-- `/private/tmp/090-27454-052.dmg.mount/private/var/staged_system_apps/Weather.app/Weather`
+- `/usr/lib/libglInterpose.dylib`
 
-</details>
-
-### ❌ Removed (206)
-
-<details>
-  <summary><i>View Removed</i></summary>
+### ❌ Removed (3)
 
 - `/System/Library/PrivateFrameworks/ImageGenerationUI.framework/PlugIns/com.apple.ImageGenerationUI.DiagnosticExtension.appex/com.apple.ImageGenerationUI.DiagnosticExtension`
 - `/System/Library/PrivateFrameworks/ModelCatalogRuntime.framework/XPCServices/ModelCatalogCompilationService.xpc/ModelCatalogCompilationService`
-- `/private/tmp/090-27454-044.dmg.mount/System/Library/Frameworks/AVFAudio.framework/XPCServices/AVAudioDeviceTestService.xpc/AVAudioDeviceTestService`
-- `/private/tmp/090-27454-044.dmg.mount/System/Library/Frameworks/ClockKit.framework/XPCServices/CLKCompanionWatchFaceLibraryService.xpc/CLKCompanionWatchFaceLibraryService`
-- `/private/tmp/090-27454-044.dmg.mount/System/Library/Frameworks/ExtensionFoundation.framework/XPCServices/extensionkitservice.xpc/extensionkitservice`
-- `/private/tmp/090-27454-044.dmg.mount/System/Library/Frameworks/FileProvider.framework/OverrideBundles/CloudDocsFileProvider.bundle/CloudDocsFileProvider`
-- `/private/tmp/090-27454-044.dmg.mount/System/Library/Frameworks/FileProvider.framework/OverrideBundles/FileProviderOverride.bundle/FileProviderOverride`
-- `/private/tmp/090-27454-044.dmg.mount/System/Library/Frameworks/FileProvider.framework/OverrideBundles/iCloudDriveFileProviderOverride.bundle/iCloudDriveFileProviderOverride`
-- `/private/tmp/090-27454-044.dmg.mount/System/Library/Frameworks/FileProvider.framework/PlugIns/LocalStorageFileProvider.appex/LocalStorageFileProvider`
-- `/private/tmp/090-27454-044.dmg.mount/System/Library/Frameworks/FileProvider.framework/Support/fileproviderd`
-- `/private/tmp/090-27454-044.dmg.mount/System/Library/Frameworks/LinkPresentation.framework/PlugIns/YouTubePlayer.wkbundle/YouTubePlayer`
-- `/private/tmp/090-27454-044.dmg.mount/System/Library/Frameworks/LinkPresentation.framework/XPCServices/com.apple.LinkPresentation.LinkSnapshotGeneratorService.xpc/com.apple.LinkPresentation.LinkSnapshotGeneratorService`
-- `/private/tmp/090-27454-044.dmg.mount/System/Library/Frameworks/SensorKit.framework/PlugIns/SensorKitViewService.appex/SensorKitViewService`
-- `/private/tmp/090-27454-044.dmg.mount/System/Library/Frameworks/SensorKit.framework/Support/srsupporttool`
-- `/private/tmp/090-27454-044.dmg.mount/System/Library/Frameworks/SensorKit.framework/XPCServices/SensorKitDataExport.xpc/SensorKitDataExport`
-- `/private/tmp/090-27454-044.dmg.mount/System/Library/Frameworks/SensorKit.framework/XPCServices/SensorKitLongTermStorageHelper.xpc/SensorKitLongTermStorageHelper`
-- `/private/tmp/090-27454-044.dmg.mount/System/Library/Frameworks/SensorKit.framework/XPCServices/com.apple.SensorKit.CHSupportService.xpc/com.apple.SensorKit.CHSupportService`
-- `/private/tmp/090-27454-044.dmg.mount/System/Library/Frameworks/SensorKit.framework/XPCServices/com.apple.SensorKitAppHelper.xpc/com.apple.SensorKitAppHelper`
-- `/private/tmp/090-27454-044.dmg.mount/System/Library/PrivateFrameworks/ClockPoster.framework/PlugIns/ClockPosterExtension.appex/ClockPosterExtension`
-- `/private/tmp/090-27454-044.dmg.mount/System/Library/PrivateFrameworks/CoreParsec.framework/PlugIns/SearchPoirotExtension.appex/SearchPoirotExtension`
-- `/private/tmp/090-27454-044.dmg.mount/System/Library/PrivateFrameworks/CoreParsec.framework/parsec-fbf`
-- `/private/tmp/090-27454-044.dmg.mount/System/Library/PrivateFrameworks/CoreParsec.framework/parsecd`
-- `/private/tmp/090-27454-044.dmg.mount/System/Library/PrivateFrameworks/FMF.framework/XPCServices/FMFMapXPCService.xpc/FMFMapXPCService`
-- `/private/tmp/090-27454-044.dmg.mount/System/Library/PrivateFrameworks/SFSymbols.framework/CoreGlyphsPrivate.bundle/CoreGlyphsPrivate`
-- `/private/tmp/090-27454-044.dmg.mount/private/var/staged_system_apps/AppleTV.app/AppleTV`
-- `/private/tmp/090-27454-044.dmg.mount/private/var/staged_system_apps/AppleTV.app/PlugIns/TVCoreSpotlightExtension.appex/TVCoreSpotlightExtension`
-- `/private/tmp/090-27454-044.dmg.mount/private/var/staged_system_apps/AppleTV.app/PlugIns/TVIntentsExtension.appex/TVIntentsExtension`
-- `/private/tmp/090-27454-044.dmg.mount/private/var/staged_system_apps/AppleTV.app/PlugIns/TVNotificationContentExtension.appex/TVNotificationContentExtension`
-- `/private/tmp/090-27454-044.dmg.mount/private/var/staged_system_apps/AppleTV.app/PlugIns/TVWidgetExtension.appex/TVWidgetExtension`
-- `/private/tmp/090-27454-044.dmg.mount/private/var/staged_system_apps/Books.app/Books`
-- `/private/tmp/090-27454-044.dmg.mount/private/var/staged_system_apps/Books.app/Frameworks/AEBookPlugins.framework/AEBookPlugins`
-- `/private/tmp/090-27454-044.dmg.mount/private/var/staged_system_apps/Books.app/Frameworks/BKAudiobooks.framework/BKAudiobooks`
-- `/private/tmp/090-27454-044.dmg.mount/private/var/staged_system_apps/Books.app/Frameworks/BKLibrary.framework/BKLibrary`
-- `/private/tmp/090-27454-044.dmg.mount/private/var/staged_system_apps/Books.app/Frameworks/BlissReader.framework/BlissReader`
-- `/private/tmp/090-27454-044.dmg.mount/private/var/staged_system_apps/Books.app/Frameworks/BookAnalytics.framework/BookAnalytics`
-- `/private/tmp/090-27454-044.dmg.mount/private/var/staged_system_apps/Books.app/Frameworks/BookCore.framework/BookCore`
-- `/private/tmp/090-27454-044.dmg.mount/private/var/staged_system_apps/Books.app/Frameworks/BookEPUB.framework/BookEPUB`
-- `/private/tmp/090-27454-044.dmg.mount/private/var/staged_system_apps/Books.app/Frameworks/BookStoreUI.framework/BookStoreUI`
-- `/private/tmp/090-27454-044.dmg.mount/private/var/staged_system_apps/Books.app/Frameworks/BooksAll.framework/BooksAll`
-- `/private/tmp/090-27454-044.dmg.mount/private/var/staged_system_apps/Books.app/Frameworks/BooksPersonalization.framework/BooksPersonalization`
-- `/private/tmp/090-27454-044.dmg.mount/private/var/staged_system_apps/Books.app/Frameworks/BooksUI.framework/BooksUI`
-- `/private/tmp/090-27454-044.dmg.mount/private/var/staged_system_apps/Books.app/Frameworks/EngagementCollector.framework/EngagementCollector`
-- `/private/tmp/090-27454-044.dmg.mount/private/var/staged_system_apps/Books.app/Frameworks/JSApp.framework/JSApp`
-- `/private/tmp/090-27454-044.dmg.mount/private/var/staged_system_apps/Books.app/Frameworks/TemplateUI.framework/TemplateUI`
-- `/private/tmp/090-27454-044.dmg.mount/private/var/staged_system_apps/Books.app/PlugIns/BookEPUBWebProcessPlugin.bundle/BookEPUBWebProcessPlugin`
-- `/private/tmp/090-27454-044.dmg.mount/private/var/staged_system_apps/Books.app/PlugIns/BooksEngagementExtension.appex/BooksEngagementExtension`
-- `/private/tmp/090-27454-044.dmg.mount/private/var/staged_system_apps/Books.app/PlugIns/BooksIntentHandler.appex/BooksIntentHandler`
-- `/private/tmp/090-27454-044.dmg.mount/private/var/staged_system_apps/Books.app/PlugIns/BooksNotificationContentExtension.appex/BooksNotificationContentExtension`
-- `/private/tmp/090-27454-044.dmg.mount/private/var/staged_system_apps/Books.app/PlugIns/BooksProductPageExtension.appex/BooksProductPageExtension`
-- `/private/tmp/090-27454-044.dmg.mount/private/var/staged_system_apps/Books.app/PlugIns/BooksSpotlightExtension.appex/BooksSpotlightExtension`
-- `/private/tmp/090-27454-044.dmg.mount/private/var/staged_system_apps/Books.app/PlugIns/BooksThumbnail.appex/BooksThumbnail`
-- `/private/tmp/090-27454-044.dmg.mount/private/var/staged_system_apps/Books.app/PlugIns/BooksWidgetExtension.appex/BooksWidgetExtension`
-- `/private/tmp/090-27454-044.dmg.mount/private/var/staged_system_apps/Books.app/XPCServices/XPCUbiquityDisableService.xpc/XPCUbiquityDisableService`
-- `/private/tmp/090-27454-044.dmg.mount/private/var/staged_system_apps/Bridge.app/Bridge`
-- `/private/tmp/090-27454-044.dmg.mount/private/var/staged_system_apps/Bridge.app/PlugIns/BridgeWidgetExtension.appex/BridgeWidgetExtension`
-- `/private/tmp/090-27454-044.dmg.mount/private/var/staged_system_apps/Bridge.app/PlugIns/GreenfieldThumbnailExtension.appex/GreenfieldThumbnailExtension`
-- `/private/tmp/090-27454-044.dmg.mount/private/var/staged_system_apps/Calculator.app/Calculator`
-- `/private/tmp/090-27454-044.dmg.mount/private/var/staged_system_apps/Calculator.app/PlugIns/CalculatorWidget.appex/CalculatorWidget`
-- `/private/tmp/090-27454-044.dmg.mount/private/var/staged_system_apps/Compass.app/Compass`
-- `/private/tmp/090-27454-044.dmg.mount/private/var/staged_system_apps/Contacts.app/Contacts`
-- `/private/tmp/090-27454-044.dmg.mount/private/var/staged_system_apps/FaceTime.app/FaceTime`
-- `/private/tmp/090-27454-044.dmg.mount/private/var/staged_system_apps/Files.app/Files`
-- `/private/tmp/090-27454-044.dmg.mount/private/var/staged_system_apps/FindMy.app/FindMy`
-- `/private/tmp/090-27454-044.dmg.mount/private/var/staged_system_apps/FindMy.app/Frameworks/FindMyAppCore.framework/FindMyAppCore`
-- `/private/tmp/090-27454-044.dmg.mount/private/var/staged_system_apps/FindMy.app/PlugIns/FindMyNotificationsContent.appex/FindMyNotificationsContent`
-- `/private/tmp/090-27454-044.dmg.mount/private/var/staged_system_apps/FindMy.app/PlugIns/FindMyNotificationsService.appex/FindMyNotificationsService`
-- `/private/tmp/090-27454-044.dmg.mount/private/var/staged_system_apps/FindMy.app/PlugIns/FindMyWidgetIntentsItems.appex/FindMyWidgetIntentsItems`
-- `/private/tmp/090-27454-044.dmg.mount/private/var/staged_system_apps/FindMy.app/PlugIns/FindMyWidgetIntentsPeople.appex/FindMyWidgetIntentsPeople`
-- `/private/tmp/090-27454-044.dmg.mount/private/var/staged_system_apps/FindMy.app/PlugIns/FindMyWidgetItems.appex/FindMyWidgetItems`
-- `/private/tmp/090-27454-044.dmg.mount/private/var/staged_system_apps/FindMy.app/PlugIns/FindMyWidgetPeople.appex/FindMyWidgetPeople`
-- `/private/tmp/090-27454-044.dmg.mount/private/var/staged_system_apps/Fitness.app/Fitness`
-- `/private/tmp/090-27454-044.dmg.mount/private/var/staged_system_apps/Fitness.app/PlugIns/FitnessIntents.appex/FitnessIntents`
-- `/private/tmp/090-27454-044.dmg.mount/private/var/staged_system_apps/Fitness.app/PlugIns/FitnessWidget.appex/FitnessWidget`
-- `/private/tmp/090-27454-044.dmg.mount/private/var/staged_system_apps/Fitness.app/PlugIns/MirroredWidgetExtension.appex/MirroredWidgetExtension`
-- `/private/tmp/090-27454-044.dmg.mount/private/var/staged_system_apps/Freeform.app/Extensions/USDRendererExtension.appex/USDRendererExtension`
-- `/private/tmp/090-27454-044.dmg.mount/private/var/staged_system_apps/Freeform.app/Freeform`
-- `/private/tmp/090-27454-044.dmg.mount/private/var/staged_system_apps/Freeform.app/PlugIns/FreeformSharingExtension.appex/FreeformSharingExtension`
-- `/private/tmp/090-27454-044.dmg.mount/private/var/staged_system_apps/Freeform.app/PlugIns/FreeformWidgetKitExtension.appex/FreeformWidgetKitExtension`
-- `/private/tmp/090-27454-044.dmg.mount/private/var/staged_system_apps/Health.app/Health`
-- `/private/tmp/090-27454-044.dmg.mount/private/var/staged_system_apps/Health.app/PlugIns/HealthBalanceWidgetExtension.appex/HealthBalanceWidgetExtension`
-- `/private/tmp/090-27454-044.dmg.mount/private/var/staged_system_apps/Health.app/PlugIns/HealthCycleTrackingWidgetExtension.appex/HealthCycleTrackingWidgetExtension`
-- `/private/tmp/090-27454-044.dmg.mount/private/var/staged_system_apps/Health.app/PlugIns/HealthMedicationsWidgetExtension.appex/HealthMedicationsWidgetExtension`
-- `/private/tmp/090-27454-044.dmg.mount/private/var/staged_system_apps/Health.app/PlugIns/HealthMentalHealthWidgetExtension.appex/HealthMentalHealthWidgetExtension`
-- `/private/tmp/090-27454-044.dmg.mount/private/var/staged_system_apps/Health.app/PlugIns/ShareExtension.appex/ShareExtension`
-- `/private/tmp/090-27454-044.dmg.mount/private/var/staged_system_apps/Home.app/Home`
-- `/private/tmp/090-27454-044.dmg.mount/private/var/staged_system_apps/Home.app/PlugIns/HomeDiagnosticExtension.appex/HomeDiagnosticExtension`
-- `/private/tmp/090-27454-044.dmg.mount/private/var/staged_system_apps/Home.app/PlugIns/HomeEnergyWidgetsExtension.appex/HomeEnergyWidgetsExtension`
-- `/private/tmp/090-27454-044.dmg.mount/private/var/staged_system_apps/Home.app/PlugIns/HomeNotification.appex/HomeNotification`
-- `/private/tmp/090-27454-044.dmg.mount/private/var/staged_system_apps/Home.app/PlugIns/HomePersonalRequestNotification.appex/HomePersonalRequestNotification`
-- `/private/tmp/090-27454-044.dmg.mount/private/var/staged_system_apps/Home.app/PlugIns/HomeUtilNotification.appex/HomeUtilNotification`
-- `/private/tmp/090-27454-044.dmg.mount/private/var/staged_system_apps/Home.app/PlugIns/HomeWidget.appex/HomeWidget`
-- `/private/tmp/090-27454-044.dmg.mount/private/var/staged_system_apps/Home.app/PlugIns/HomeWidgetLockScreen.appex/HomeWidgetLockScreen`
-- `/private/tmp/090-27454-044.dmg.mount/private/var/staged_system_apps/Home.app/PlugIns/HomeWidgetSingleAccessoryIntent.appex/HomeWidgetSingleAccessoryIntent`
-- `/private/tmp/090-27454-044.dmg.mount/private/var/staged_system_apps/Image Playground.app/Extensions/GenerativePlaygroundAppIntents.appex/GenerativePlaygroundAppIntents`
-- `/private/tmp/090-27454-044.dmg.mount/private/var/staged_system_apps/Image Playground.app/Image Playground`
-- `/private/tmp/090-27454-044.dmg.mount/private/var/staged_system_apps/Image Playground.app/PlugIns/GenerativePlaygroundMessagesAppExtension.appex/GenerativePlaygroundMessagesAppExtension`
-- `/private/tmp/090-27454-044.dmg.mount/private/var/staged_system_apps/Journal.app/Journal`
-- `/private/tmp/090-27454-044.dmg.mount/private/var/staged_system_apps/Journal.app/PlugIns/JournalShareExtension.appex/JournalShareExtension`
-- `/private/tmp/090-27454-044.dmg.mount/private/var/staged_system_apps/Journal.app/PlugIns/JournalWidgets.appex/JournalWidgets`
-- `/private/tmp/090-27454-044.dmg.mount/private/var/staged_system_apps/Journal.app/PlugIns/JournalWidgetsSecure.appex/JournalWidgetsSecure`
-- `/private/tmp/090-27454-044.dmg.mount/private/var/staged_system_apps/Magnifier.app/Extensions/MagnifierExtension.appex/MagnifierExtension`
-- `/private/tmp/090-27454-044.dmg.mount/private/var/staged_system_apps/Magnifier.app/Magnifier`
-- `/private/tmp/090-27454-044.dmg.mount/private/var/staged_system_apps/Magnifier.app/PlugIns/MagnifierWidgetExtension.appex/MagnifierWidgetExtension`
-- `/private/tmp/090-27454-044.dmg.mount/private/var/staged_system_apps/Maps.app/Maps`
-- `/private/tmp/090-27454-044.dmg.mount/private/var/staged_system_apps/Maps.app/PlugIns/GeneralMapsWidget.appex/GeneralMapsWidget`
-- `/private/tmp/090-27454-044.dmg.mount/private/var/staged_system_apps/Maps.app/PlugIns/MapsSpotlightIndexExtension.appex/MapsSpotlightIndexExtension`
-- `/private/tmp/090-27454-044.dmg.mount/private/var/staged_system_apps/Maps.app/PlugIns/SiriTrafficIncidents.appex/SiriTrafficIncidents`
-- `/private/tmp/090-27454-044.dmg.mount/private/var/staged_system_apps/Measure.app/Measure`
-- `/private/tmp/090-27454-044.dmg.mount/private/var/staged_system_apps/MobileCal.app/Extensions/CalendarIntentsExtension.appex/CalendarIntentsExtension`
-- `/private/tmp/090-27454-044.dmg.mount/private/var/staged_system_apps/MobileCal.app/MobileCal`
-- `/private/tmp/090-27454-044.dmg.mount/private/var/staged_system_apps/MobileCal.app/PlugIns/CalendarWidgetExtension.appex/CalendarWidgetExtension`
-- `/private/tmp/090-27454-044.dmg.mount/private/var/staged_system_apps/MobileCal.app/PlugIns/FacetimeExtension.appex/FacetimeExtension`
-- `/private/tmp/090-27454-044.dmg.mount/private/var/staged_system_apps/MobileMail.app/Extensions/MailShortcutsExtension.appex/MailShortcutsExtension`
-- `/private/tmp/090-27454-044.dmg.mount/private/var/staged_system_apps/MobileMail.app/MobileMail`
-- `/private/tmp/090-27454-044.dmg.mount/private/var/staged_system_apps/MobileMail.app/PlugIns/DiagnosticExtension.appex/DiagnosticExtension`
-- `/private/tmp/090-27454-044.dmg.mount/private/var/staged_system_apps/MobileMail.app/PlugIns/MailIntentsExtension.appex/MailIntentsExtension`
-- `/private/tmp/090-27454-044.dmg.mount/private/var/staged_system_apps/MobileMail.app/PlugIns/MailNotificationContentExtension.appex/MailNotificationContentExtension`
-- `/private/tmp/090-27454-044.dmg.mount/private/var/staged_system_apps/MobileMail.app/PlugIns/MailQuickLookExtension.appex/MailQuickLookExtension`
-- `/private/tmp/090-27454-044.dmg.mount/private/var/staged_system_apps/MobileMail.app/PlugIns/MailWidgetExtension.appex/MailWidgetExtension`
-- `/private/tmp/090-27454-044.dmg.mount/private/var/staged_system_apps/MobileNotes.app/MobileNotes`
-- `/private/tmp/090-27454-044.dmg.mount/private/var/staged_system_apps/MobileNotes.app/PlugIns/com.apple.mobilenotes.EditorExtension.appex/com.apple.mobilenotes.EditorExtension`
-- `/private/tmp/090-27454-044.dmg.mount/private/var/staged_system_apps/MobileNotes.app/PlugIns/com.apple.mobilenotes.IntentsExtension.appex/com.apple.mobilenotes.IntentsExtension`
-- `/private/tmp/090-27454-044.dmg.mount/private/var/staged_system_apps/MobileNotes.app/PlugIns/com.apple.mobilenotes.QuickLookExtension.appex/com.apple.mobilenotes.QuickLookExtension`
-- `/private/tmp/090-27454-044.dmg.mount/private/var/staged_system_apps/MobileNotes.app/PlugIns/com.apple.mobilenotes.SharingExtension.appex/com.apple.mobilenotes.SharingExtension`
-- `/private/tmp/090-27454-044.dmg.mount/private/var/staged_system_apps/MobileNotes.app/PlugIns/com.apple.mobilenotes.SpotlightIndexExtension.appex/com.apple.mobilenotes.SpotlightIndexExtension`
-- `/private/tmp/090-27454-044.dmg.mount/private/var/staged_system_apps/MobileNotes.app/PlugIns/com.apple.mobilenotes.WidgetExtension.appex/com.apple.mobilenotes.WidgetExtension`
-- `/private/tmp/090-27454-044.dmg.mount/private/var/staged_system_apps/MobileStore.app/MobileStore`
-- `/private/tmp/090-27454-044.dmg.mount/private/var/staged_system_apps/MobileStore.app/PlugIns/MusicStoreNotificationContentPlugin.appex/MusicStoreNotificationContentPlugin`
-- `/private/tmp/090-27454-044.dmg.mount/private/var/staged_system_apps/MobileStore.app/XPCServices/com.apple.MobileStore.appremoval.xpc/com.apple.MobileStore.appremoval`
-- `/private/tmp/090-27454-044.dmg.mount/private/var/staged_system_apps/MobileTimer.app/MobileTimer`
-- `/private/tmp/090-27454-044.dmg.mount/private/var/staged_system_apps/MobileTimer.app/PlugIns/WorldClockWidget.appex/WorldClockWidget`
-- `/private/tmp/090-27454-044.dmg.mount/private/var/staged_system_apps/Music.app/Extensions/MusicFocusFilters.appex/MusicFocusFilters`
-- `/private/tmp/090-27454-044.dmg.mount/private/var/staged_system_apps/Music.app/Frameworks/MusicApplication.framework/MusicApplication`
-- `/private/tmp/090-27454-044.dmg.mount/private/var/staged_system_apps/Music.app/Frameworks/MusicApplication.framework/XPCServices/MusicScriptUpdateService.xpc/MusicScriptUpdateService`
-- `/private/tmp/090-27454-044.dmg.mount/private/var/staged_system_apps/Music.app/Music`
-- `/private/tmp/090-27454-044.dmg.mount/private/var/staged_system_apps/Music.app/PlugIns/MediaPicker.appex/MediaPicker`
-- `/private/tmp/090-27454-044.dmg.mount/private/var/staged_system_apps/Music.app/PlugIns/MusicCoreSpotlightExtension.appex/MusicCoreSpotlightExtension`
-- `/private/tmp/090-27454-044.dmg.mount/private/var/staged_system_apps/Music.app/PlugIns/MusicMessagesApp.appex/MusicMessagesApp`
-- `/private/tmp/090-27454-044.dmg.mount/private/var/staged_system_apps/Music.app/PlugIns/MusicNotificationContentExtension.appex/MusicNotificationContentExtension`
-- `/private/tmp/090-27454-044.dmg.mount/private/var/staged_system_apps/Music.app/PlugIns/MusicWidgets.appex/MusicWidgets`
-- `/private/tmp/090-27454-044.dmg.mount/private/var/staged_system_apps/Music.app/PlugIns/StoreFlowExtension.appex/StoreFlowExtension`
-- `/private/tmp/090-27454-044.dmg.mount/private/var/staged_system_apps/News.app/News`
-- `/private/tmp/090-27454-044.dmg.mount/private/var/staged_system_apps/News.app/PlugIns/ArticleNotificationExtension.appex/ArticleNotificationExtension`
-- `/private/tmp/090-27454-044.dmg.mount/private/var/staged_system_apps/News.app/PlugIns/MarketingNotificationExtension.appex/MarketingNotificationExtension`
-- `/private/tmp/090-27454-044.dmg.mount/private/var/staged_system_apps/News.app/PlugIns/NewsArticleQuickLook.appex/NewsArticleQuickLook`
-- `/private/tmp/090-27454-044.dmg.mount/private/var/staged_system_apps/News.app/PlugIns/NewsAudioExtension.appex/NewsAudioExtension`
-- `/private/tmp/090-27454-044.dmg.mount/private/var/staged_system_apps/News.app/PlugIns/NewsDiagnosticExtension.appex/NewsDiagnosticExtension`
-- `/private/tmp/090-27454-044.dmg.mount/private/var/staged_system_apps/News.app/PlugIns/NewsEngagementExtension.appex/NewsEngagementExtension`
-- `/private/tmp/090-27454-044.dmg.mount/private/var/staged_system_apps/News.app/PlugIns/NewsNotificationServiceExtension.appex/NewsNotificationServiceExtension`
-- `/private/tmp/090-27454-044.dmg.mount/private/var/staged_system_apps/News.app/PlugIns/NewsTag.appex/NewsTag`
-- `/private/tmp/090-27454-044.dmg.mount/private/var/staged_system_apps/News.app/PlugIns/NewsToday2.appex/NewsToday2`
-- `/private/tmp/090-27454-044.dmg.mount/private/var/staged_system_apps/News.app/PlugIns/NewsTodayIntents.appex/NewsTodayIntents`
-- `/private/tmp/090-27454-044.dmg.mount/private/var/staged_system_apps/News.app/PlugIns/OpenInNews.appex/OpenInNews`
-- `/private/tmp/090-27454-044.dmg.mount/private/var/staged_system_apps/Passbook.app/Passbook`
-- `/private/tmp/090-27454-044.dmg.mount/private/var/staged_system_apps/Passbook.app/PlugIns/PassbookLockedWidgetsExtension.appex/PassbookLockedWidgetsExtension`
-- `/private/tmp/090-27454-044.dmg.mount/private/var/staged_system_apps/Passbook.app/PlugIns/PassbookQuicklookPreviewExtension.appex/PassbookQuicklookPreviewExtension`
-- `/private/tmp/090-27454-044.dmg.mount/private/var/staged_system_apps/Passbook.app/PlugIns/PassbookTransactionNotificationContentExtension.appex/PassbookTransactionNotificationContentExtension`
-- `/private/tmp/090-27454-044.dmg.mount/private/var/staged_system_apps/Passbook.app/PlugIns/PassbookWidgetsExtension-iPhone.appex/PassbookWidgetsExtension-iPhone`
-- `/private/tmp/090-27454-044.dmg.mount/private/var/staged_system_apps/Passwords.app/Passwords`
-- `/private/tmp/090-27454-044.dmg.mount/private/var/staged_system_apps/Podcasts.app/Frameworks/IMDebug.framework/IMDebug`
-- `/private/tmp/090-27454-044.dmg.mount/private/var/staged_system_apps/Podcasts.app/Frameworks/NowPlayingUI.framework/NowPlayingUI`
-- `/private/tmp/090-27454-044.dmg.mount/private/var/staged_system_apps/Podcasts.app/Frameworks/ShelfKit.framework/ShelfKit`
-- `/private/tmp/090-27454-044.dmg.mount/private/var/staged_system_apps/Podcasts.app/Frameworks/ShelfKitCollectionViews.framework/ShelfKitCollectionViews`
-- `/private/tmp/090-27454-044.dmg.mount/private/var/staged_system_apps/Podcasts.app/PlugIns/PodcastsAnnouncementsNotificationExtension.appex/PodcastsAnnouncementsNotificationExtension`
-- `/private/tmp/090-27454-044.dmg.mount/private/var/staged_system_apps/Podcasts.app/PlugIns/PodcastsClassKitExtension.appex/PodcastsClassKitExtension`
-- `/private/tmp/090-27454-044.dmg.mount/private/var/staged_system_apps/Podcasts.app/PlugIns/PodcastsNotificationExtension.appex/PodcastsNotificationExtension`
-- `/private/tmp/090-27454-044.dmg.mount/private/var/staged_system_apps/Podcasts.app/PlugIns/PodcastsWidget.appex/PodcastsWidget`
-- `/private/tmp/090-27454-044.dmg.mount/private/var/staged_system_apps/Podcasts.app/PlugIns/com.apple.podcasts.DiagnosticExtension.appex/com.apple.podcasts.DiagnosticExtension`
-- `/private/tmp/090-27454-044.dmg.mount/private/var/staged_system_apps/Podcasts.app/PlugIns/com.apple.podcasts.SpotlightIndexExtension.appex/com.apple.podcasts.SpotlightIndexExtension`
-- `/private/tmp/090-27454-044.dmg.mount/private/var/staged_system_apps/Podcasts.app/Podcasts`
-- `/private/tmp/090-27454-044.dmg.mount/private/var/staged_system_apps/Reminders.app/PlugIns/RemindersIntentsExtension.appex/RemindersIntentsExtension`
-- `/private/tmp/090-27454-044.dmg.mount/private/var/staged_system_apps/Reminders.app/PlugIns/RemindersIntentsUIExtension.appex/RemindersIntentsUIExtension`
-- `/private/tmp/090-27454-044.dmg.mount/private/var/staged_system_apps/Reminders.app/PlugIns/RemindersSharingExtension.appex/RemindersSharingExtension`
-- `/private/tmp/090-27454-044.dmg.mount/private/var/staged_system_apps/Reminders.app/PlugIns/RemindersSpotlightIndexExtension.appex/RemindersSpotlightIndexExtension`
-- `/private/tmp/090-27454-044.dmg.mount/private/var/staged_system_apps/Reminders.app/PlugIns/RemindersWidgetExtension.appex/RemindersWidgetExtension`
-- `/private/tmp/090-27454-044.dmg.mount/private/var/staged_system_apps/Reminders.app/Reminders`
-- `/private/tmp/090-27454-044.dmg.mount/private/var/staged_system_apps/SequoiaTranslator.app/PlugIns/CacheDeleteExtension.appex/CacheDeleteExtension`
-- `/private/tmp/090-27454-044.dmg.mount/private/var/staged_system_apps/SequoiaTranslator.app/PlugIns/TranslationWidgetsExtension.appex/TranslationWidgetsExtension`
-- `/private/tmp/090-27454-044.dmg.mount/private/var/staged_system_apps/SequoiaTranslator.app/SequoiaTranslator`
-- `/private/tmp/090-27454-044.dmg.mount/private/var/staged_system_apps/Shortcuts.app/PlugIns/AutomationNotificationContent.appex/AutomationNotificationContent`
-- `/private/tmp/090-27454-044.dmg.mount/private/var/staged_system_apps/Shortcuts.app/PlugIns/QuickLookExtension.appex/QuickLookExtension`
-- `/private/tmp/090-27454-044.dmg.mount/private/var/staged_system_apps/Shortcuts.app/PlugIns/ShortcutsActionExtension.appex/ShortcutsActionExtension`
-- `/private/tmp/090-27454-044.dmg.mount/private/var/staged_system_apps/Shortcuts.app/PlugIns/ShortcutsWidgetExtension.appex/ShortcutsWidgetExtension`
-- `/private/tmp/090-27454-044.dmg.mount/private/var/staged_system_apps/Shortcuts.app/PlugIns/ThumbnailExtension.appex/ThumbnailExtension`
-- `/private/tmp/090-27454-044.dmg.mount/private/var/staged_system_apps/Shortcuts.app/Shortcuts`
-- `/private/tmp/090-27454-044.dmg.mount/private/var/staged_system_apps/Stocks.app/PlugIns/StocksDiagnosticExtension.appex/StocksDiagnosticExtension`
-- `/private/tmp/090-27454-044.dmg.mount/private/var/staged_system_apps/Stocks.app/PlugIns/StocksWidget.appex/StocksWidget`
-- `/private/tmp/090-27454-044.dmg.mount/private/var/staged_system_apps/Stocks.app/Stocks`
-- `/private/tmp/090-27454-044.dmg.mount/private/var/staged_system_apps/Tips.app/PlugIns/TipsNotification.appex/TipsNotification`
-- `/private/tmp/090-27454-044.dmg.mount/private/var/staged_system_apps/Tips.app/PlugIns/TipsQuicklook.appex/TipsQuicklook`
-- `/private/tmp/090-27454-044.dmg.mount/private/var/staged_system_apps/Tips.app/PlugIns/TipsSpotlightIndex.appex/TipsSpotlightIndex`
-- `/private/tmp/090-27454-044.dmg.mount/private/var/staged_system_apps/Tips.app/PlugIns/TipsWidget.appex/TipsWidget`
-- `/private/tmp/090-27454-044.dmg.mount/private/var/staged_system_apps/Tips.app/Tips`
-- `/private/tmp/090-27454-044.dmg.mount/private/var/staged_system_apps/VoiceMemos.app/PlugIns/RecordWidgetExtension.appex/RecordWidgetExtension`
-- `/private/tmp/090-27454-044.dmg.mount/private/var/staged_system_apps/VoiceMemos.app/PlugIns/VoiceMemosIntentsExtension.appex/VoiceMemosIntentsExtension`
-- `/private/tmp/090-27454-044.dmg.mount/private/var/staged_system_apps/VoiceMemos.app/PlugIns/VoiceMemosSettingsWidgetExtension.appex/VoiceMemosSettingsWidgetExtension`
-- `/private/tmp/090-27454-044.dmg.mount/private/var/staged_system_apps/VoiceMemos.app/PlugIns/VoiceMemosShareExtension.appex/VoiceMemosShareExtension`
-- `/private/tmp/090-27454-044.dmg.mount/private/var/staged_system_apps/VoiceMemos.app/PlugIns/com.apple.VoiceMemos.SpotlightIndexExtension.appex/com.apple.VoiceMemos.SpotlightIndexExtension`
-- `/private/tmp/090-27454-044.dmg.mount/private/var/staged_system_apps/VoiceMemos.app/VoiceMemos`
-- `/private/tmp/090-27454-044.dmg.mount/private/var/staged_system_apps/Weather.app/Extensions/WeatherAppIntents.appex/WeatherAppIntents`
-- `/private/tmp/090-27454-044.dmg.mount/private/var/staged_system_apps/Weather.app/PlugIns/WeatherDiagnosticExtension.appex/WeatherDiagnosticExtension`
-- `/private/tmp/090-27454-044.dmg.mount/private/var/staged_system_apps/Weather.app/PlugIns/WeatherIntents.appex/WeatherIntents`
-- `/private/tmp/090-27454-044.dmg.mount/private/var/staged_system_apps/Weather.app/PlugIns/WeatherPoster.appex/WeatherPoster`
-- `/private/tmp/090-27454-044.dmg.mount/private/var/staged_system_apps/Weather.app/PlugIns/WeatherWidget.appex/WeatherWidget`
-- `/private/tmp/090-27454-044.dmg.mount/private/var/staged_system_apps/Weather.app/Weather`
 - `/usr/libexec/silhouette`
 
-</details>
-
-### ⬆️ Updated (894)
+### ⬆️ Updated (893)
 
 <details>
   <summary><i>View Updated</i></summary>
@@ -2296,7 +1881,6 @@
 - [/usr/lib/libLogRedirect.dylib](MACHOS/libLogRedirect.dylib.md)
 - [/usr/lib/libMainThreadChecker.dylib](MACHOS/libMainThreadChecker.dylib.md)
 - [/usr/lib/libViewDebuggerSupport.dylib](MACHOS/libViewDebuggerSupport.dylib.md)
-- [/usr/lib/libmobileassetd.dylib](MACHOS/libmobileassetd.dylib.md)
 - [/usr/lib/swift/libswiftRemoteMirror.dylib](MACHOS/libswiftRemoteMirror.dylib.md)
 - [/usr/libexec/ASPCarryLog](MACHOS/ASPCarryLog.md)
 - [/usr/libexec/BackupAgent2](MACHOS/BackupAgent2.md)
