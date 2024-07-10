@@ -1,0 +1,198 @@
+## ModelManagerServices
+
+> `/System/Library/PrivateFrameworks/ModelManagerServices.framework/Versions/A/ModelManagerServices`
+
+```diff
+
+-111.0.0.0.0
+-  __TEXT.__text: 0xf96a8
+-  __TEXT.__auth_stubs: 0x1650
++117.0.0.0.0
++  __TEXT.__text: 0x102b6c
++  __TEXT.__auth_stubs: 0x1690
+   __TEXT.__objc_methlist: 0x44
+-  __TEXT.__const: 0xe888
+-  __TEXT.__cstring: 0x2186
+-  __TEXT.__oslogstring: 0x14e4
+-  __TEXT.__swift5_typeref: 0x3ffe
+-  __TEXT.__swift5_capture: 0x73c
+-  __TEXT.__swift5_fieldmd: 0x311c
+-  __TEXT.__constg_swiftt: 0x3494
+-  __TEXT.__swift5_reflstr: 0x198c
++  __TEXT.__const: 0xf188
++  __TEXT.__cstring: 0x23e6
++  __TEXT.__oslogstring: 0x15c4
++  __TEXT.__swift5_typeref: 0x42dc
++  __TEXT.__swift5_capture: 0x76c
++  __TEXT.__swift5_fieldmd: 0x32f4
++  __TEXT.__constg_swiftt: 0x36f4
++  __TEXT.__swift5_reflstr: 0x1ac5
+   __TEXT.__swift5_builtin: 0x78
+-  __TEXT.__swift5_protos: 0x58
+-  __TEXT.__swift5_proto: 0xf8c
+-  __TEXT.__swift5_types: 0x43c
++  __TEXT.__swift5_protos: 0x5c
++  __TEXT.__swift5_proto: 0x101c
++  __TEXT.__swift5_types: 0x46c
+   __TEXT.__swift5_mpenum: 0x20
+-  __TEXT.__swift5_assocty: 0x6b8
+-  __TEXT.__unwind_info: 0x5778
+-  __TEXT.__eh_frame: 0xca48
++  __TEXT.__swift5_assocty: 0x6d8
++  __TEXT.__unwind_info: 0x5ad0
++  __TEXT.__eh_frame: 0xd3d8
+   __TEXT.__objc_classname: 0x18
+-  __TEXT.__objc_methname: 0x1ad
++  __TEXT.__objc_methname: 0x234
+   __TEXT.__objc_methtype: 0xad
+-  __DATA_CONST.__got: 0x3a8
+-  __DATA_CONST.__const: 0x198
+-  __DATA_CONST.__objc_classlist: 0x80
++  __DATA_CONST.__got: 0x3c8
++  __DATA_CONST.__const: 0x1b8
++  __DATA_CONST.__objc_classlist: 0x90
+   __DATA_CONST.__objc_protolist: 0x20
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x30
++  __DATA_CONST.__objc_selrefs: 0x68
+   __DATA_CONST.__objc_protorefs: 0x10
+-  __AUTH_CONST.__auth_got: 0xb28
+-  __AUTH_CONST.__auth_ptr: 0x800
+-  __AUTH_CONST.__const: 0x73e8
+-  __AUTH_CONST.__objc_const: 0x1480
++  __AUTH_CONST.__auth_got: 0xb48
++  __AUTH_CONST.__auth_ptr: 0x820
++  __AUTH_CONST.__const: 0x7778
++  __AUTH_CONST.__objc_const: 0x16b0
+   __AUTH.__objc_data: 0x250
+-  __AUTH.__data: 0x2a88
+-  __DATA.__data: 0x4710
++  __AUTH.__data: 0x2c88
++  __DATA.__data: 0x49e0
++  __DATA.__objc_clsrolist: 0x50
+   __DATA.__common: 0x60
+-  __DATA.__bss: 0x1e920
++  __DATA.__bss: 0x1faa0
+   - /System/Library/Frameworks/ExtensionFoundation.framework/Versions/A/ExtensionFoundation
+   - /System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+   - /System/Library/PrivateFrameworks/CollectionsInternal.framework/Versions/A/CollectionsInternal
++  - /System/Library/PrivateFrameworks/RunningBoardServices.framework/Versions/A/RunningBoardServices
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libbsm.0.dylib
+   - /usr/lib/libobjc.A.dylib
+
+   - /usr/lib/swift/libswiftMetal.dylib
+   - /usr/lib/swift/libswiftObjectiveC.dylib
+   - /usr/lib/swift/libswiftQuartzCore.dylib
++  - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+-  Functions: 7358
+-  Symbols:   3339
+-  CStrings:  254
++  Functions: 7613
++  Symbols:   3457
++  CStrings:  273
+ 
+Symbols:
++ _OBJC_CLASS_$_RBSAssertion
++ _OBJC_CLASS_$_RBSAttribute
++ _OBJC_CLASS_$_RBSDomainAttribute
++ _OBJC_CLASS_$_RBSTarget
++ __DATA__TtC20ModelManagerServices26RunningBoardSelfAssertions
++ __DATA__TtC20ModelManagerServices30RunningBoardSelfAssertionToken
++ __IVARS__TtC20ModelManagerServices26RunningBoardSelfAssertions
++ __IVARS__TtC20ModelManagerServices30RunningBoardSelfAssertionToken
++ __METACLASS_DATA__TtC20ModelManagerServices26RunningBoardSelfAssertions
++ __METACLASS_DATA__TtC20ModelManagerServices30RunningBoardSelfAssertionToken
++ __swift_FORCE_LOAD_$_swiftUniformTypeIdentifiers
++ __swift_FORCE_LOAD_$_swiftUniformTypeIdentifiers_$_ModelManagerServices
++ _associated conformance 20ModelManagerServices0A10XPCRequestO23ForceAssetVersionSwitchV10CodingKeys33_016BF6378B495E128CCC320027BA0973LLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 20ModelManagerServices0A10XPCRequestO23ForceAssetVersionSwitchV10CodingKeys33_016BF6378B495E128CCC320027BA0973LLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 20ModelManagerServices0A10XPCRequestO23ForceAssetVersionSwitchV8ResponseV10CodingKeys33_016BF6378B495E128CCC320027BA0973LLOs0J3KeyAAs23CustomStringConvertible
++ _associated conformance 20ModelManagerServices0A10XPCRequestO23ForceAssetVersionSwitchV8ResponseV10CodingKeys33_016BF6378B495E128CCC320027BA0973LLOs0J3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 20ModelManagerServices0A10XPCRequestO23ForceAssetVersionSwitchVAA0D8ProtocolAA7RequestAaFP_SE
++ _associated conformance 20ModelManagerServices0A10XPCRequestO23ForceAssetVersionSwitchVAA0D8ProtocolAA7RequestAaFP_Se
++ _associated conformance 20ModelManagerServices0A10XPCRequestO23ForceAssetVersionSwitchVAA0D8ProtocolAA8ResponseAaFP_SE
++ _associated conformance 20ModelManagerServices0A10XPCRequestO23ForceAssetVersionSwitchVAA0D8ProtocolAA8ResponseAaFP_Se
++ _associated conformance 20ModelManagerServices0A10XPCRequestO33ForceAssetVersionSwitchCodingKeys33_016BF6378B495E128CCC320027BA0973LLOSHAASQ
++ _associated conformance 20ModelManagerServices0A10XPCRequestO33ForceAssetVersionSwitchCodingKeys33_016BF6378B495E128CCC320027BA0973LLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 20ModelManagerServices0A10XPCRequestO33ForceAssetVersionSwitchCodingKeys33_016BF6378B495E128CCC320027BA0973LLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 20ModelManagerServices0aB5ErrorO41UnableToForceAssetVersionSwitchCodingKeys33_555C3DD685538EA2C8EE5CFF0ECC641FLLOs0K3KeyAAs23CustomStringConvertible
++ _associated conformance 20ModelManagerServices0aB5ErrorO41UnableToForceAssetVersionSwitchCodingKeys33_555C3DD685538EA2C8EE5CFF0ECC641FLLOs0K3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 20ModelManagerServices14InferenceErrorO021UnspecifiedUnderlyingE10CodingKeys33_D128A90BFFEDA97FF665077E8E94DA81LLOSHAASQ
++ _associated conformance 20ModelManagerServices14InferenceErrorO021UnspecifiedUnderlyingE10CodingKeys33_D128A90BFFEDA97FF665077E8E94DA81LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 20ModelManagerServices14InferenceErrorO021UnspecifiedUnderlyingE10CodingKeys33_D128A90BFFEDA97FF665077E8E94DA81LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 20ModelManagerServices14InferenceErrorO07NetworkE10CodingKeys33_D128A90BFFEDA97FF665077E8E94DA81LLOSHAASQ
++ _associated conformance 20ModelManagerServices14InferenceErrorO07NetworkE10CodingKeys33_D128A90BFFEDA97FF665077E8E94DA81LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 20ModelManagerServices14InferenceErrorO07NetworkE10CodingKeys33_D128A90BFFEDA97FF665077E8E94DA81LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 20ModelManagerServices25RequestCancellationReasonO27ClientTerminationCodingKeys33_1F02EC168DFBFE0A494F6949A748E9FALLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 20ModelManagerServices25RequestCancellationReasonO27ClientTerminationCodingKeys33_1F02EC168DFBFE0A494F6949A748E9FALLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 20ModelManagerServices29RunningBoardSelfAssertionTypeOSHAASQ
++ _generic_ro_datas
++ _generic_ro_datas
++ _generic_ro_datas
++ _generic_ro_datas
++ _symbolic $s20ModelManagerServices25RunningBoardSelfAssertingP
++ _symbolic SDy_____Si5count_So12RBSAssertionC9assertiontG 20ModelManagerServices29RunningBoardSelfAssertionTypeO
++ _symbolic ScCy_____y__________G______pG 20ModelManagerServices0A9XPCResultO AA0A10XPCRequestO23ForceAssetVersionSwitchV8ResponseV AA0aB5ErrorO s0K0P
++ _symbolic Si5count_So12RBSAssertionC9assertiont
++ _symbolic _____ 20ModelManagerServices0A10XPCRequestO23ForceAssetVersionSwitchV
++ _symbolic _____ 20ModelManagerServices0A10XPCRequestO23ForceAssetVersionSwitchV10CodingKeys33_016BF6378B495E128CCC320027BA0973LLO
++ _symbolic _____ 20ModelManagerServices0A10XPCRequestO23ForceAssetVersionSwitchV8ResponseV
++ _symbolic _____ 20ModelManagerServices0A10XPCRequestO23ForceAssetVersionSwitchV8ResponseV10CodingKeys33_016BF6378B495E128CCC320027BA0973LLO
++ _symbolic _____ 20ModelManagerServices0A10XPCRequestO33ForceAssetVersionSwitchCodingKeys33_016BF6378B495E128CCC320027BA0973LLO
++ _symbolic _____ 20ModelManagerServices0aB5ErrorO41UnableToForceAssetVersionSwitchCodingKeys33_555C3DD685538EA2C8EE5CFF0ECC641FLLO
++ _symbolic _____ 20ModelManagerServices14InferenceErrorO021UnspecifiedUnderlyingE10CodingKeys33_D128A90BFFEDA97FF665077E8E94DA81LLO
++ _symbolic _____ 20ModelManagerServices14InferenceErrorO07NetworkE10CodingKeys33_D128A90BFFEDA97FF665077E8E94DA81LLO
++ _symbolic _____ 20ModelManagerServices25RequestCancellationReasonO27ClientTerminationCodingKeys33_1F02EC168DFBFE0A494F6949A748E9FALLO
++ _symbolic _____ 20ModelManagerServices26RunningBoardSelfAssertionsC
++ _symbolic _____ 20ModelManagerServices29RunningBoardSelfAssertionTypeO
++ _symbolic _____ 20ModelManagerServices30RunningBoardSelfAssertionTokenC
++ _symbolic ______p 20ModelManagerServices25RunningBoardSelfAssertingP
++ _symbolic _____m 20ModelManagerServices0A10XPCRequestO23ForceAssetVersionSwitchV
++ _symbolic _____y_____G s22KeyedDecodingContainerV 20ModelManagerServices0D10XPCRequestO33ForceAssetVersionSwitchCodingKeys33_016BF6378B495E128CCC320027BA0973LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 20ModelManagerServices0dE5ErrorO41UnableToForceAssetVersionSwitchCodingKeys33_555C3DD685538EA2C8EE5CFF0ECC641FLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 20ModelManagerServices14InferenceErrorO021UnspecifiedUnderlyingH10CodingKeys33_D128A90BFFEDA97FF665077E8E94DA81LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 20ModelManagerServices14InferenceErrorO07NetworkH10CodingKeys33_D128A90BFFEDA97FF665077E8E94DA81LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 20ModelManagerServices25RequestCancellationReasonO27ClientTerminationCodingKeys33_1F02EC168DFBFE0A494F6949A748E9FALLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 20ModelManagerServices0D10XPCRequestO23ForceAssetVersionSwitchV10CodingKeys33_016BF6378B495E128CCC320027BA0973LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 20ModelManagerServices0D10XPCRequestO23ForceAssetVersionSwitchV8ResponseV10CodingKeys33_016BF6378B495E128CCC320027BA0973LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 20ModelManagerServices0D10XPCRequestO33ForceAssetVersionSwitchCodingKeys33_016BF6378B495E128CCC320027BA0973LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 20ModelManagerServices0dE5ErrorO41UnableToForceAssetVersionSwitchCodingKeys33_555C3DD685538EA2C8EE5CFF0ECC641FLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 20ModelManagerServices14InferenceErrorO021UnspecifiedUnderlyingH10CodingKeys33_D128A90BFFEDA97FF665077E8E94DA81LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 20ModelManagerServices14InferenceErrorO07NetworkH10CodingKeys33_D128A90BFFEDA97FF665077E8E94DA81LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 20ModelManagerServices25RequestCancellationReasonO27ClientTerminationCodingKeys33_1F02EC168DFBFE0A494F6949A748E9FALLO
++ _symbolic _____y_____Si5count_So12RBSAssertionC9assertiontG s17_NativeDictionaryV 20ModelManagerServices29RunningBoardSelfAssertionTypeO
++ _symbolic _____y__________G 20ModelManagerServices0A9XPCResultO AA0A10XPCRequestO23ForceAssetVersionSwitchV8ResponseV AA0aB5ErrorO
++ _symbolic _____y_____y__________G______pG s6ResultOsRi_zrlE 20ModelManagerServices0B9XPCResultO AC0B10XPCRequestO23ForceAssetVersionSwitchV8ResponseV AC0bC5ErrorO s0L0P
++ _symbolic _____yyXlG s23_ContiguousArrayStorageC
++ _symbolic ytIeghHr_
++ _symbolic yyYaYbcSg
++ objectdestroy.147Tm
+- _OUTLINED_FUNCTION_360
+- objectdestroy.139Tm
+- objectdestroy.47Tm
+CStrings:
++ "Client Termination"
++ "Finish Task Uninterruptable"
++ "FinishTaskUninterruptable"
++ "Forcing asset version switch"
++ "Unable to force an assets verson switch"
++ "_TtC20ModelManagerServices26RunningBoardSelfAssertions"
++ "_TtC20ModelManagerServices30RunningBoardSelfAssertionToken"
++ "assertionSource"
++ "assertions"
++ "clientTermination"
++ "com.apple.common"
++ "forceAssetVersionSwitch"
++ "invalidated"
++ "knownDirectConnectedRequests"
++ "onTermination"
++ "runningBoardAsserting"
++ "type"
++ "unableToForceAssetVersionSwitch"
++ "unspecifiedUnderlyingError"
+
+```

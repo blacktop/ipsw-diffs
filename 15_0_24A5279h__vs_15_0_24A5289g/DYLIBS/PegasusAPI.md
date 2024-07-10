@@ -1,0 +1,314 @@
+## PegasusAPI
+
+> `/System/Library/PrivateFrameworks/PegasusAPI.framework/Versions/A/PegasusAPI`
+
+```diff
+
+-3400.129.1.0.0
+-  __TEXT.__text: 0xac4e14
++3400.135.1.0.0
++  __TEXT.__text: 0xacd764
+   __TEXT.__auth_stubs: 0xcb0
+-  __TEXT.__const: 0x8e770
+-  __TEXT.__cstring: 0x39d21
+-  __TEXT.__swift5_typeref: 0x115e6
+-  __TEXT.__constg_swiftt: 0x1cebc
+-  __TEXT.__swift5_reflstr: 0x20b42
+-  __TEXT.__swift5_fieldmd: 0x236f8
+-  __TEXT.__swift5_proto: 0x7c50
+-  __TEXT.__swift5_types: 0x1794
+-  __TEXT.__swift5_assocty: 0x3c30
++  __TEXT.__const: 0x8f9d0
++  __TEXT.__cstring: 0x3a581
++  __TEXT.__swift5_typeref: 0x11802
++  __TEXT.__constg_swiftt: 0x1d2e0
++  __TEXT.__swift5_reflstr: 0x21362
++  __TEXT.__swift5_fieldmd: 0x23be8
++  __TEXT.__swift5_proto: 0x7d58
++  __TEXT.__swift5_types: 0x17c8
++  __TEXT.__swift5_assocty: 0x3d20
+   __TEXT.__swift5_builtin: 0xf0
+   __TEXT.__swift5_mpenum: 0x68
+   __TEXT.__swift5_protos: 0x4
+-  __TEXT.__unwind_info: 0x3cbe8
+-  __TEXT.__eh_frame: 0x41398
++  __TEXT.__unwind_info: 0x3d198
++  __TEXT.__eh_frame: 0x419e0
+   __TEXT.__objc_methname: 0x98
+   __DATA_CONST.__got: 0x2a8
+-  __DATA_CONST.__const: 0xc6a8
+-  __DATA_CONST.__objc_classlist: 0x3f0
++  __DATA_CONST.__const: 0xc7b8
++  __DATA_CONST.__objc_classlist: 0x400
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_selrefs: 0x40
+   __AUTH_CONST.__auth_got: 0x658
+-  __AUTH_CONST.__auth_ptr: 0x1258
+-  __AUTH_CONST.__const: 0x19820
+-  __AUTH_CONST.__objc_const: 0x14fa8
+-  __AUTH.__objc_data: 0x2350
+-  __AUTH.__data: 0x3ad70
+-  __DATA.__data: 0x24d88
+-  __DATA.__bss: 0xf8900
++  __AUTH_CONST.__auth_ptr: 0x1270
++  __AUTH_CONST.__const: 0x19e00
++  __AUTH_CONST.__objc_const: 0x152e8
++  __AUTH.__objc_data: 0x23f0
++  __AUTH.__data: 0x3b478
++  __DATA.__data: 0x25280
++  __DATA.__bss: 0xfaa00
+   - /System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+   - /System/Library/PrivateFrameworks/InternalSwiftProtobuf.framework/Versions/A/InternalSwiftProtobuf
+   - /usr/lib/libSystem.B.dylib
+
+   - /usr/lib/swift/libswiftIOKit.dylib
+   - /usr/lib/swift/libswiftObjectiveC.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+-  Functions: 88765
+-  Symbols:   22839
+-  CStrings:  8409
++  Functions: 89315
++  Symbols:   22938
++  CStrings:  8475
+ 
+Symbols:
++ __DATA__TtCV10PegasusAPI35Apple_Parsec_Siri_V2alpha_AppEntityP33_E86396049AA3E19DB448939A42AE999613_StorageClass
++ __DATA__TtCV10PegasusAPI48Apple_Parsec_Siri_V2alpha_DelayedActionComponentP33_E86396049AA3E19DB448939A42AE999613_StorageClass
++ __IVARS__TtCV10PegasusAPI35Apple_Parsec_Siri_V2alpha_AppEntityP33_E86396049AA3E19DB448939A42AE999613_StorageClass
++ __IVARS__TtCV10PegasusAPI48Apple_Parsec_Siri_V2alpha_DelayedActionComponentP33_E86396049AA3E19DB448939A42AE999613_StorageClass
++ __METACLASS_DATA__TtCV10PegasusAPI35Apple_Parsec_Siri_V2alpha_AppEntityP33_E86396049AA3E19DB448939A42AE999613_StorageClass
++ __METACLASS_DATA__TtCV10PegasusAPI48Apple_Parsec_Siri_V2alpha_DelayedActionComponentP33_E86396049AA3E19DB448939A42AE999613_StorageClass
++ __swift_get_extra_inhabitant_index.1394Tm
++ __swift_get_extra_inhabitant_index.1408Tm
++ __swift_get_extra_inhabitant_index.1414Tm
++ __swift_get_extra_inhabitant_index.1432Tm
++ __swift_get_extra_inhabitant_index.1435Tm
++ __swift_get_extra_inhabitant_index.1441Tm
++ __swift_get_extra_inhabitant_index.1444Tm
++ __swift_get_extra_inhabitant_index.1456Tm
++ __swift_get_extra_inhabitant_index.1474Tm
++ __swift_get_extra_inhabitant_index.1489Tm
++ __swift_get_extra_inhabitant_index.1508Tm
++ __swift_get_extra_inhabitant_index.1535Tm
++ __swift_get_extra_inhabitant_index.1562Tm
++ __swift_get_extra_inhabitant_index.339Tm
++ __swift_get_extra_inhabitant_index.354Tm
++ __swift_get_extra_inhabitant_index.373Tm
++ __swift_get_extra_inhabitant_index.376Tm
++ __swift_get_extra_inhabitant_index.379Tm
++ __swift_get_extra_inhabitant_index.382Tm
++ __swift_get_extra_inhabitant_index.443Tm
++ __swift_get_extra_inhabitant_index.452Tm
++ __swift_get_extra_inhabitant_index.455Tm
++ __swift_get_extra_inhabitant_index.488Tm
++ __swift_get_extra_inhabitant_index.491Tm
++ __swift_store_extra_inhabitant_index.1395Tm
++ __swift_store_extra_inhabitant_index.1409Tm
++ __swift_store_extra_inhabitant_index.1415Tm
++ __swift_store_extra_inhabitant_index.1433Tm
++ __swift_store_extra_inhabitant_index.1442Tm
++ __swift_store_extra_inhabitant_index.1445Tm
++ __swift_store_extra_inhabitant_index.1457Tm
++ __swift_store_extra_inhabitant_index.1475Tm
++ __swift_store_extra_inhabitant_index.1490Tm
++ __swift_store_extra_inhabitant_index.1536Tm
++ __swift_store_extra_inhabitant_index.1542Tm
++ __swift_store_extra_inhabitant_index.1563Tm
++ __swift_store_extra_inhabitant_index.340Tm
++ __swift_store_extra_inhabitant_index.355Tm
++ __swift_store_extra_inhabitant_index.374Tm
++ __swift_store_extra_inhabitant_index.377Tm
++ __swift_store_extra_inhabitant_index.380Tm
++ __swift_store_extra_inhabitant_index.383Tm
++ __swift_store_extra_inhabitant_index.444Tm
++ __swift_store_extra_inhabitant_index.453Tm
++ __swift_store_extra_inhabitant_index.456Tm
++ __swift_store_extra_inhabitant_index.489Tm
++ __swift_store_extra_inhabitant_index.492Tm
++ _associated conformance 10PegasusAPI27Searchfoundation_HideReasonO21InternalSwiftProtobuf4EnumAASH
++ _associated conformance 10PegasusAPI27Searchfoundation_HideReasonO21InternalSwiftProtobuf4EnumAASY
++ _associated conformance 10PegasusAPI27Searchfoundation_HideReasonOSHAASQ
++ _associated conformance 10PegasusAPI27Searchfoundation_HideReasonOs12CaseIterableAA8AllCasessADP_Sl
++ _associated conformance 10PegasusAPI33Searchfoundation_PhotosAttributesV21InternalSwiftProtobuf26_MessageImplementationBaseAASH
++ _associated conformance 10PegasusAPI33Searchfoundation_PhotosAttributesV21InternalSwiftProtobuf26_MessageImplementationBaseAaD0I0
++ _associated conformance 10PegasusAPI33Searchfoundation_PhotosAttributesV21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
++ _associated conformance 10PegasusAPI33Searchfoundation_PhotosAttributesVSHAASQ
++ _associated conformance 10PegasusAPI33Searchfoundation_SafariAttributesV21InternalSwiftProtobuf26_MessageImplementationBaseAASH
++ _associated conformance 10PegasusAPI33Searchfoundation_SafariAttributesV21InternalSwiftProtobuf26_MessageImplementationBaseAaD0I0
++ _associated conformance 10PegasusAPI33Searchfoundation_SafariAttributesV21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
++ _associated conformance 10PegasusAPI33Searchfoundation_SafariAttributesVSHAASQ
++ _associated conformance 10PegasusAPI35Apple_Parsec_Feedback_V2_HideReasonO21InternalSwiftProtobuf4EnumAASH
++ _associated conformance 10PegasusAPI35Apple_Parsec_Feedback_V2_HideReasonO21InternalSwiftProtobuf4EnumAASY
++ _associated conformance 10PegasusAPI35Apple_Parsec_Feedback_V2_HideReasonOSHAASQ
++ _associated conformance 10PegasusAPI35Apple_Parsec_Feedback_V2_HideReasonOs12CaseIterableAA8AllCasessADP_Sl
++ _associated conformance 10PegasusAPI37Searchfoundation_PhotosAggregatedInfoV21InternalSwiftProtobuf26_MessageImplementationBaseAASH
++ _associated conformance 10PegasusAPI37Searchfoundation_PhotosAggregatedInfoV21InternalSwiftProtobuf26_MessageImplementationBaseAaD0J0
++ _associated conformance 10PegasusAPI37Searchfoundation_PhotosAggregatedInfoV21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
++ _associated conformance 10PegasusAPI37Searchfoundation_PhotosAggregatedInfoVSHAASQ
++ _associated conformance 10PegasusAPI38Searchfoundation_PhotosRetrievalBucketO21InternalSwiftProtobuf4EnumAASH
++ _associated conformance 10PegasusAPI38Searchfoundation_PhotosRetrievalBucketO21InternalSwiftProtobuf4EnumAASY
++ _associated conformance 10PegasusAPI38Searchfoundation_PhotosRetrievalBucketOSHAASQ
++ _associated conformance 10PegasusAPI38Searchfoundation_PhotosRetrievalBucketOs12CaseIterableAA8AllCasessADP_Sl
++ _associated conformance 10PegasusAPI41Apple_Parsec_Feedback_V2_PhotosAttributesV21InternalSwiftProtobuf26_MessageImplementationBaseAASH
++ _associated conformance 10PegasusAPI41Apple_Parsec_Feedback_V2_PhotosAttributesV21InternalSwiftProtobuf26_MessageImplementationBaseAaD0L0
++ _associated conformance 10PegasusAPI41Apple_Parsec_Feedback_V2_PhotosAttributesV21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
++ _associated conformance 10PegasusAPI41Apple_Parsec_Feedback_V2_PhotosAttributesVSHAASQ
++ _associated conformance 10PegasusAPI41Apple_Parsec_Feedback_V2_SafariAttributesV21InternalSwiftProtobuf26_MessageImplementationBaseAASH
++ _associated conformance 10PegasusAPI41Apple_Parsec_Feedback_V2_SafariAttributesV21InternalSwiftProtobuf26_MessageImplementationBaseAaD0L0
++ _associated conformance 10PegasusAPI41Apple_Parsec_Feedback_V2_SafariAttributesV21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
++ _associated conformance 10PegasusAPI41Apple_Parsec_Feedback_V2_SafariAttributesVSHAASQ
++ _associated conformance 10PegasusAPI43Apple_Parsec_Siri_V2alpha_GeoExperienceTypeO21InternalSwiftProtobuf4EnumAASH
++ _associated conformance 10PegasusAPI43Apple_Parsec_Siri_V2alpha_GeoExperienceTypeO21InternalSwiftProtobuf4EnumAASY
++ _associated conformance 10PegasusAPI43Apple_Parsec_Siri_V2alpha_GeoExperienceTypeOSHAASQ
++ _associated conformance 10PegasusAPI43Apple_Parsec_Siri_V2alpha_GeoExperienceTypeOs12CaseIterableAA8AllCasessADP_Sl
++ _associated conformance 10PegasusAPI45Apple_Parsec_Feedback_V2_PhotosAggregatedInfoV21InternalSwiftProtobuf26_MessageImplementationBaseAASH
++ _associated conformance 10PegasusAPI45Apple_Parsec_Feedback_V2_PhotosAggregatedInfoV21InternalSwiftProtobuf26_MessageImplementationBaseAaD0M0
++ _associated conformance 10PegasusAPI45Apple_Parsec_Feedback_V2_PhotosAggregatedInfoV21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
++ _associated conformance 10PegasusAPI45Apple_Parsec_Feedback_V2_PhotosAggregatedInfoVSHAASQ
++ _associated conformance 10PegasusAPI46Apple_Parsec_Feedback_V2_PhotosRetrievalBucketO21InternalSwiftProtobuf4EnumAASH
++ _associated conformance 10PegasusAPI46Apple_Parsec_Feedback_V2_PhotosRetrievalBucketO21InternalSwiftProtobuf4EnumAASY
++ _associated conformance 10PegasusAPI46Apple_Parsec_Feedback_V2_PhotosRetrievalBucketOSHAASQ
++ _associated conformance 10PegasusAPI46Apple_Parsec_Feedback_V2_PhotosRetrievalBucketOs12CaseIterableAA8AllCasessADP_Sl
++ _symbolic Say_____G 10PegasusAPI27Searchfoundation_HideReasonO
++ _symbolic Say_____G 10PegasusAPI35Apple_Parsec_Feedback_V2_HideReasonO
++ _symbolic Say_____G 10PegasusAPI38Searchfoundation_PhotosRetrievalBucketO
++ _symbolic Say_____G 10PegasusAPI43Apple_Parsec_Siri_V2alpha_GeoExperienceTypeO
++ _symbolic Say_____G 10PegasusAPI46Apple_Parsec_Feedback_V2_PhotosRetrievalBucketO
++ _symbolic _____ 10PegasusAPI27Searchfoundation_HideReasonO
++ _symbolic _____ 10PegasusAPI33Searchfoundation_PhotosAttributesV
++ _symbolic _____ 10PegasusAPI33Searchfoundation_SafariAttributesV
++ _symbolic _____ 10PegasusAPI35Apple_Parsec_Feedback_V2_HideReasonO
++ _symbolic _____ 10PegasusAPI35Apple_Parsec_Siri_V2alpha_AppEntityV13_StorageClass33_E86396049AA3E19DB448939A42AE9996LLC
++ _symbolic _____ 10PegasusAPI37Searchfoundation_PhotosAggregatedInfoV
++ _symbolic _____ 10PegasusAPI38Searchfoundation_PhotosRetrievalBucketO
++ _symbolic _____ 10PegasusAPI41Apple_Parsec_Feedback_V2_PhotosAttributesV
++ _symbolic _____ 10PegasusAPI41Apple_Parsec_Feedback_V2_SafariAttributesV
++ _symbolic _____ 10PegasusAPI43Apple_Parsec_Siri_V2alpha_GeoExperienceTypeO
++ _symbolic _____ 10PegasusAPI45Apple_Parsec_Feedback_V2_PhotosAggregatedInfoV
++ _symbolic _____ 10PegasusAPI46Apple_Parsec_Feedback_V2_PhotosRetrievalBucketO
++ _symbolic _____ 10PegasusAPI48Apple_Parsec_Siri_V2alpha_DelayedActionComponentV13_StorageClass33_E86396049AA3E19DB448939A42AE9996LLC
++ _symbolic _____Sg 10PegasusAPI41Apple_Parsec_Feedback_V2_PhotosAttributesV
++ _symbolic _____Sg 10PegasusAPI41Apple_Parsec_Feedback_V2_SafariAttributesV
++ _symbolic _____Sg 10PegasusAPI45Apple_Parsec_Feedback_V2_PhotosAggregatedInfoV
++ _symbolic _____Sg_ABt 10PegasusAPI41Apple_Parsec_Feedback_V2_PhotosAttributesV
++ _symbolic _____Sg_ABt 10PegasusAPI41Apple_Parsec_Feedback_V2_SafariAttributesV
++ _symbolic _____Sg_ABt 10PegasusAPI45Apple_Parsec_Feedback_V2_PhotosAggregatedInfoV
+- _OUTLINED_FUNCTION_1008
+- _OUTLINED_FUNCTION_1009
+- __swift_get_extra_inhabitant_index.1360Tm
+- __swift_get_extra_inhabitant_index.1374Tm
+- __swift_get_extra_inhabitant_index.1383Tm
+- __swift_get_extra_inhabitant_index.1389Tm
+- __swift_get_extra_inhabitant_index.1392Tm
+- __swift_get_extra_inhabitant_index.1398Tm
+- __swift_get_extra_inhabitant_index.1401Tm
+- __swift_get_extra_inhabitant_index.1419Tm
+- __swift_get_extra_inhabitant_index.1431Tm
+- __swift_get_extra_inhabitant_index.1446Tm
+- __swift_get_extra_inhabitant_index.1465Tm
+- __swift_get_extra_inhabitant_index.1492Tm
+- __swift_get_extra_inhabitant_index.1519Tm
+- __swift_get_extra_inhabitant_index.334Tm
+- __swift_get_extra_inhabitant_index.346Tm
+- __swift_get_extra_inhabitant_index.349Tm
+- __swift_get_extra_inhabitant_index.355Tm
+- __swift_get_extra_inhabitant_index.358Tm
+- __swift_get_extra_inhabitant_index.361Tm
+- __swift_get_extra_inhabitant_index.425Tm
+- __swift_get_extra_inhabitant_index.434Tm
+- __swift_get_extra_inhabitant_index.437Tm
+- __swift_get_extra_inhabitant_index.470Tm
+- __swift_get_extra_inhabitant_index.473Tm
+- __swift_store_extra_inhabitant_index.1361Tm
+- __swift_store_extra_inhabitant_index.1375Tm
+- __swift_store_extra_inhabitant_index.1384Tm
+- __swift_store_extra_inhabitant_index.1390Tm
+- __swift_store_extra_inhabitant_index.1399Tm
+- __swift_store_extra_inhabitant_index.1402Tm
+- __swift_store_extra_inhabitant_index.1414Tm
+- __swift_store_extra_inhabitant_index.1420Tm
+- __swift_store_extra_inhabitant_index.1432Tm
+- __swift_store_extra_inhabitant_index.1447Tm
+- __swift_store_extra_inhabitant_index.1493Tm
+- __swift_store_extra_inhabitant_index.1499Tm
+- __swift_store_extra_inhabitant_index.1520Tm
+- __swift_store_extra_inhabitant_index.335Tm
+- __swift_store_extra_inhabitant_index.347Tm
+- __swift_store_extra_inhabitant_index.350Tm
+- __swift_store_extra_inhabitant_index.356Tm
+- __swift_store_extra_inhabitant_index.359Tm
+- __swift_store_extra_inhabitant_index.362Tm
+- __swift_store_extra_inhabitant_index.426Tm
+- __swift_store_extra_inhabitant_index.435Tm
+- __swift_store_extra_inhabitant_index.438Tm
+- __swift_store_extra_inhabitant_index.471Tm
+- __swift_store_extra_inhabitant_index.474Tm
+CStrings:
++ "GEO_EXPERIENCE_UNKNOWN"
++ "GEO_EXPERIENCE_WHERE_AM_I"
++ "HideReasonSafariDemoting"
++ "HideReasonUnknown"
++ "PhotosAllResults"
++ "PhotosRetrievalBucket100To250"
++ "PhotosRetrievalBucket10KTo20K"
++ "PhotosRetrievalBucket10OrLess"
++ "PhotosRetrievalBucket10To50"
++ "PhotosRetrievalBucket20KTo30K"
++ "PhotosRetrievalBucket250To500"
++ "PhotosRetrievalBucket2KTo5K"
++ "PhotosRetrievalBucket30KTo40K"
++ "PhotosRetrievalBucket40KTo50K"
++ "PhotosRetrievalBucket500To2K"
++ "PhotosRetrievalBucket50KTo100K"
++ "PhotosRetrievalBucket50To100"
++ "PhotosRetrievalBucket5KTo10K"
++ "PhotosRetrievalBucketMoreThan100K"
++ "PhotosRetrievalBucketUnknown"
++ "ProactiveCategoryApp"
++ "REWRITE_TYPE_BY_NL_ROUTER"
++ "_TtCV10PegasusAPI35Apple_Parsec_Siri_V2alpha_AppEntityP33_E86396049AA3E19DB448939A42AE999613_StorageClass"
++ "_TtCV10PegasusAPI48Apple_Parsec_Siri_V2alpha_DelayedActionComponentP33_E86396049AA3E19DB448939A42AE999613_StorageClass"
++ "_delayMilliseconds"
++ "_hasAppTopHitShortcut_p"
++ "_isBlocklistedQuery"
++ "_isUnsafeQuery"
++ "_keyboardIme"
++ "_layoutExperiences"
++ "_mathOperationContainsRandom"
++ "_photosAggregatedInfo"
++ "_photosAttributes"
++ "_preserveResultSpaceIfPossible"
++ "_referencedEntityOffsets"
++ "_renderedDialog"
++ "_safariAttributes"
++ "_siriCommandBuilder"
++ "_siriDialog"
++ "_uiView"
++ "apple.parsec.feedback.v2.PhotosAggregatedInfo"
++ "apple.parsec.feedback.v2.PhotosAttributes"
++ "apple.parsec.feedback.v2.SafariAttributes"
++ "experience_type"
++ "hasAppTopHitShortcut"
++ "hideReason"
++ "isBlocklistedQuery"
++ "isEmbeddingMatched"
++ "isFavorite"
++ "isMetadataMatched"
++ "isUnsafeQuery"
++ "isVideo"
++ "keyboard_ime"
++ "math_operation_contains_random"
++ "photosAggregatedInfo"
++ "photosAttributes"
++ "positionIndex"
++ "redacted_print"
++ "redacted_speak"
++ "safariAttributes"
++ "searchfoundation.PhotosAggregatedInfo"
++ "searchfoundation.PhotosAttributes"
++ "searchfoundation.SafariAttributes"
++ "totalNumberOfAssets"
++ "totalNumberOfEmbeddingMatchedAssets"
++ "totalNumberOfMetadataMatchedAssets"
+
+```

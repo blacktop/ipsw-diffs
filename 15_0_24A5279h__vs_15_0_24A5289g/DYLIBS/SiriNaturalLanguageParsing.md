@@ -1,0 +1,804 @@
+## SiriNaturalLanguageParsing
+
+> `/System/Library/PrivateFrameworks/SiriNaturalLanguageParsing.framework/Versions/A/SiriNaturalLanguageParsing`
+
+```diff
+
+-3400.118.1.0.0
+-  __TEXT.__text: 0x189b38
+-  __TEXT.__auth_stubs: 0x2be0
++3400.124.1.0.0
++  __TEXT.__text: 0x18a4f4
++  __TEXT.__auth_stubs: 0x2bf0
+   __TEXT.__init_offsets: 0x168
+-  __TEXT.__objc_methlist: 0x180c
++  __TEXT.__objc_methlist: 0x1814
+   __TEXT.__const: 0x96d7
+-  __TEXT.__cstring: 0xd5d7
+-  __TEXT.__gcc_except_tab: 0x169d4
++  __TEXT.__cstring: 0xd668
++  __TEXT.__gcc_except_tab: 0x16b0c
+   __TEXT.__oslogstring: 0xa223
+   __TEXT.__ustring: 0x110
+-  __TEXT.__unwind_info: 0x7d38
++  __TEXT.__unwind_info: 0x7d58
+   __TEXT.__objc_classname: 0x4c2
+-  __TEXT.__objc_methname: 0x5527
+-  __TEXT.__objc_methtype: 0x3414
+-  __TEXT.__objc_stubs: 0x40e0
++  __TEXT.__objc_methname: 0x5555
++  __TEXT.__objc_methtype: 0x3424
++  __TEXT.__objc_stubs: 0x4120
+   __DATA_CONST.__got: 0x11b0
+   __DATA_CONST.__const: 0x740
+   __DATA_CONST.__objc_classlist: 0x1c8
+   __DATA_CONST.__objc_protolist: 0x20
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x1230
++  __DATA_CONST.__objc_selrefs: 0x1240
+   __DATA_CONST.__objc_superrefs: 0x188
+-  __AUTH_CONST.__auth_got: 0x1608
++  __AUTH_CONST.__auth_got: 0x1610
+   __AUTH_CONST.__auth_ptr: 0x8
+-  __AUTH_CONST.__const: 0x75f0
+-  __AUTH_CONST.__cfstring: 0x1dc0
++  __AUTH_CONST.__const: 0x75f8
++  __AUTH_CONST.__cfstring: 0x1e20
+   __AUTH_CONST.__objc_const: 0x4358
+   __AUTH.__objc_data: 0x11d0
+   __AUTH.__data: 0x118
+
+   - /usr/lib/libicucore.A.dylib
+   - /usr/lib/libmorphun.dylib
+   - /usr/lib/libobjc.A.dylib
+-  Functions: 5553
+-  Symbols:   11365
+-  CStrings:  1649
++  Functions: 5555
++  Symbols:   11373
++  CStrings:  1651
+ 
+Symbols:
++ +[SNLPEmbedder getTokenCleanValueString:error:]
++ GCC_except_table170
++ GCC_except_table174
++ GCC_except_table176
++ GCC_except_table217
++ GCC_except_table220
++ GCC_except_table224
++ GCC_except_table233
++ GCC_except_table267
++ GCC_except_table2678
++ GCC_except_table2702
++ GCC_except_table2705
++ GCC_except_table272
++ GCC_except_table2721
++ GCC_except_table2723
++ GCC_except_table2726
++ GCC_except_table2728
++ GCC_except_table2731
++ GCC_except_table2738
++ GCC_except_table2741
++ GCC_except_table2743
++ GCC_except_table2745
++ GCC_except_table2747
++ GCC_except_table2752
++ GCC_except_table2755
++ GCC_except_table2758
++ GCC_except_table2763
++ GCC_except_table277
++ GCC_except_table2770
++ GCC_except_table2777
++ GCC_except_table2779
++ GCC_except_table2785
++ GCC_except_table2789
++ GCC_except_table2793
++ GCC_except_table2800
++ GCC_except_table2805
++ GCC_except_table2807
++ GCC_except_table2811
++ GCC_except_table2817
++ GCC_except_table2821
++ GCC_except_table2828
++ GCC_except_table283
++ GCC_except_table2832
++ GCC_except_table2834
++ GCC_except_table2849
++ GCC_except_table2852
++ GCC_except_table2860
++ GCC_except_table2869
++ GCC_except_table287
++ GCC_except_table2874
++ GCC_except_table2876
++ GCC_except_table2880
++ GCC_except_table2885
++ GCC_except_table289
++ GCC_except_table2891
++ GCC_except_table2896
++ GCC_except_table2903
++ GCC_except_table2911
++ GCC_except_table2915
++ GCC_except_table2919
++ GCC_except_table2927
++ GCC_except_table2932
++ GCC_except_table2936
++ GCC_except_table2938
++ GCC_except_table294
++ GCC_except_table2941
++ GCC_except_table2945
++ GCC_except_table2962
++ GCC_except_table2968
++ GCC_except_table2971
++ GCC_except_table2977
++ GCC_except_table298
++ GCC_except_table2986
++ GCC_except_table2988
++ GCC_except_table3007
++ GCC_except_table301
++ GCC_except_table3011
++ GCC_except_table3016
++ GCC_except_table3020
++ GCC_except_table3023
++ GCC_except_table3031
++ GCC_except_table3033
++ GCC_except_table3035
++ GCC_except_table3046
++ GCC_except_table3049
++ GCC_except_table3051
++ GCC_except_table3054
++ GCC_except_table3056
++ GCC_except_table3058
++ GCC_except_table3061
++ GCC_except_table3063
++ GCC_except_table3070
++ GCC_except_table3079
++ GCC_except_table3084
++ GCC_except_table3087
++ GCC_except_table3097
++ GCC_except_table3102
++ GCC_except_table3108
++ GCC_except_table3110
++ GCC_except_table312
++ GCC_except_table3122
++ GCC_except_table3133
++ GCC_except_table3137
++ GCC_except_table3139
++ GCC_except_table3142
++ GCC_except_table3148
++ GCC_except_table3167
++ GCC_except_table317
++ GCC_except_table3178
++ GCC_except_table3186
++ GCC_except_table3190
++ GCC_except_table3196
++ GCC_except_table3201
++ GCC_except_table3204
++ GCC_except_table3210
++ GCC_except_table3217
++ GCC_except_table3219
++ GCC_except_table3237
++ GCC_except_table3245
++ GCC_except_table3256
++ GCC_except_table3263
++ GCC_except_table3265
++ GCC_except_table3268
++ GCC_except_table3275
++ GCC_except_table3278
++ GCC_except_table3286
++ GCC_except_table3288
++ GCC_except_table3291
++ GCC_except_table3294
++ GCC_except_table3304
++ GCC_except_table3311
++ GCC_except_table3314
++ GCC_except_table3328
++ GCC_except_table3333
++ GCC_except_table3335
++ GCC_except_table3340
++ GCC_except_table3343
++ GCC_except_table3346
++ GCC_except_table3350
++ GCC_except_table3354
++ GCC_except_table3357
++ GCC_except_table3359
++ GCC_except_table3393
++ GCC_except_table3399
++ GCC_except_table3430
++ GCC_except_table3435
++ GCC_except_table3440
++ GCC_except_table3444
++ GCC_except_table3451
++ GCC_except_table3453
++ GCC_except_table3461
++ GCC_except_table3468
++ GCC_except_table3471
++ GCC_except_table3475
++ GCC_except_table3482
++ GCC_except_table3485
++ GCC_except_table3492
++ GCC_except_table3498
++ GCC_except_table3503
++ GCC_except_table3507
++ GCC_except_table3514
++ GCC_except_table3517
++ GCC_except_table3528
++ GCC_except_table3532
++ GCC_except_table3534
++ GCC_except_table3542
++ GCC_except_table3544
++ GCC_except_table3558
++ GCC_except_table3564
++ GCC_except_table3566
++ GCC_except_table3597
++ GCC_except_table3605
++ GCC_except_table3609
++ GCC_except_table3618
++ GCC_except_table3624
++ GCC_except_table3647
++ GCC_except_table3650
++ GCC_except_table3655
++ GCC_except_table3661
++ GCC_except_table3667
++ GCC_except_table3669
++ GCC_except_table3671
++ GCC_except_table3724
++ GCC_except_table3731
++ GCC_except_table3739
++ GCC_except_table3746
++ GCC_except_table3757
++ GCC_except_table3774
++ GCC_except_table3781
++ GCC_except_table3789
++ GCC_except_table3797
++ GCC_except_table3806
++ GCC_except_table3812
++ GCC_except_table3821
++ GCC_except_table3828
++ GCC_except_table3834
++ GCC_except_table3839
++ GCC_except_table3846
++ GCC_except_table3852
++ GCC_except_table3857
++ GCC_except_table3866
++ GCC_except_table3875
++ GCC_except_table3882
++ GCC_except_table3889
++ GCC_except_table3896
++ GCC_except_table3903
++ GCC_except_table3920
++ GCC_except_table3927
++ GCC_except_table3934
++ GCC_except_table3941
++ GCC_except_table3948
++ GCC_except_table3965
++ GCC_except_table3974
++ GCC_except_table3985
++ GCC_except_table4035
++ GCC_except_table4041
++ GCC_except_table4044
++ GCC_except_table4059
++ GCC_except_table4070
++ GCC_except_table4073
++ GCC_except_table4079
++ GCC_except_table4084
++ GCC_except_table4088
++ GCC_except_table4092
++ GCC_except_table4096
++ GCC_except_table4106
++ GCC_except_table4109
++ GCC_except_table4117
++ GCC_except_table4120
++ GCC_except_table4122
++ GCC_except_table4127
++ GCC_except_table4141
++ GCC_except_table4154
++ GCC_except_table4164
++ GCC_except_table4177
++ GCC_except_table4185
++ GCC_except_table4194
++ GCC_except_table4197
++ GCC_except_table4201
++ GCC_except_table4208
++ GCC_except_table4210
++ GCC_except_table4214
++ GCC_except_table4227
++ GCC_except_table4237
++ GCC_except_table4249
++ GCC_except_table4251
++ GCC_except_table4253
++ GCC_except_table4256
++ GCC_except_table4260
++ GCC_except_table4266
++ GCC_except_table4279
++ GCC_except_table4286
++ GCC_except_table4293
++ GCC_except_table4308
++ GCC_except_table4310
++ GCC_except_table4315
++ GCC_except_table4319
++ GCC_except_table4322
++ GCC_except_table4329
++ GCC_except_table4340
++ GCC_except_table4342
++ GCC_except_table4358
++ GCC_except_table4363
++ GCC_except_table4368
++ GCC_except_table4370
++ GCC_except_table4373
++ GCC_except_table4375
++ GCC_except_table4377
++ GCC_except_table4380
++ GCC_except_table4384
++ GCC_except_table4394
++ GCC_except_table4406
++ GCC_except_table4412
++ GCC_except_table4426
++ GCC_except_table4431
++ _ZN27nlv4_inference_orchestrator5treesL9printTreeERKNS0_8TreeNodeE.5211
++ _ZN4snlp6common6configL10loadConfigERKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEERKNS0_7logging13SNLPComponentE.4417
++ __ZN13sentencepiece22SentencePieceProcessor17MMapAuthenticatedENSt3__117basic_string_viewIcNS1_11char_traitsIcEEEE
++ __ZN13sentencepiece4MmapIcE4openERKNSt3__14__fs10filesystem4pathEb
++ __ZN4uaap33mapNowAndTimeOffsetToItemizedUsosEPNS_12UPDDTimeSpanERNSt3__16vectorINS2_10unique_ptrIN4siri8ontology8UsoGraphENS2_14default_deleteIS7_EEEENS2_9allocatorISA_EEEE
++ __block_literal_global.4871
++ __cxx_global_var_init.10.5506
++ __cxx_global_var_init.11.5507
++ __cxx_global_var_init.12.5508
++ __cxx_global_var_init.13.5509
++ __cxx_global_var_init.14.5510
++ __cxx_global_var_init.15.5511
++ __cxx_global_var_init.16.5512
++ __cxx_global_var_init.17.5513
++ __cxx_global_var_init.18.5514
++ __cxx_global_var_init.19.5515
++ __cxx_global_var_init.20.5516
++ __cxx_global_var_init.21.5517
++ __cxx_global_var_init.22.5518
++ __cxx_global_var_init.23.5519
++ __cxx_global_var_init.24.5520
++ __cxx_global_var_init.25.5521
++ __cxx_global_var_init.26.5522
++ __cxx_global_var_init.27.5523
++ __cxx_global_var_init.28.5524
++ __cxx_global_var_init.29.5525
++ __cxx_global_var_init.3.5499
++ __cxx_global_var_init.30.5526
++ __cxx_global_var_init.31.5527
++ __cxx_global_var_init.32.5528
++ __cxx_global_var_init.33.5529
++ __cxx_global_var_init.34.5530
++ __cxx_global_var_init.35.5531
++ __cxx_global_var_init.36.5532
++ __cxx_global_var_init.37.5533
++ __cxx_global_var_init.38.5534
++ __cxx_global_var_init.39.5535
++ __cxx_global_var_init.4.5500
++ __cxx_global_var_init.40.5536
++ __cxx_global_var_init.41.5537
++ __cxx_global_var_init.42.5538
++ __cxx_global_var_init.5.5501
++ __cxx_global_var_init.5498
++ __cxx_global_var_init.6.5502
++ __cxx_global_var_init.7.5503
++ __cxx_global_var_init.8.5504
++ __cxx_global_var_init.9.5505
++ _objc_msgSend$getTokenCleanValueString:error:
++ _objc_msgSend$hasCleanValue
++ _openat_authenticated_np
+- GCC_except_table120
+- GCC_except_table163
+- GCC_except_table173
+- GCC_except_table175
+- GCC_except_table190
+- GCC_except_table195
+- GCC_except_table207
+- GCC_except_table219
+- GCC_except_table232
+- GCC_except_table234
+- GCC_except_table266
+- GCC_except_table2694
+- GCC_except_table2704
+- GCC_except_table2710
+- GCC_except_table2722
+- GCC_except_table2725
+- GCC_except_table2727
+- GCC_except_table2730
+- GCC_except_table2736
+- GCC_except_table2739
+- GCC_except_table2742
+- GCC_except_table2744
+- GCC_except_table2746
+- GCC_except_table2751
+- GCC_except_table2754
+- GCC_except_table2757
+- GCC_except_table276
+- GCC_except_table2762
+- GCC_except_table2767
+- GCC_except_table2776
+- GCC_except_table2778
+- GCC_except_table2784
+- GCC_except_table2788
+- GCC_except_table2792
+- GCC_except_table2799
+- GCC_except_table280
+- GCC_except_table2804
+- GCC_except_table2806
+- GCC_except_table2810
+- GCC_except_table2816
+- GCC_except_table2820
+- GCC_except_table2826
+- GCC_except_table2831
+- GCC_except_table2833
+- GCC_except_table2846
+- GCC_except_table2850
+- GCC_except_table2854
+- GCC_except_table2865
+- GCC_except_table2872
+- GCC_except_table2875
+- GCC_except_table2878
+- GCC_except_table288
+- GCC_except_table2884
+- GCC_except_table2887
+- GCC_except_table2895
+- GCC_except_table2902
+- GCC_except_table2910
+- GCC_except_table2914
+- GCC_except_table2917
+- GCC_except_table292
+- GCC_except_table2926
+- GCC_except_table2931
+- GCC_except_table2934
+- GCC_except_table2937
+- GCC_except_table2940
+- GCC_except_table2942
+- GCC_except_table296
+- GCC_except_table2961
+- GCC_except_table2967
+- GCC_except_table2970
+- GCC_except_table2972
+- GCC_except_table2984
+- GCC_except_table2987
+- GCC_except_table2993
+- GCC_except_table300
+- GCC_except_table3008
+- GCC_except_table3015
+- GCC_except_table3019
+- GCC_except_table3022
+- GCC_except_table3030
+- GCC_except_table3032
+- GCC_except_table3034
+- GCC_except_table3044
+- GCC_except_table3048
+- GCC_except_table3050
+- GCC_except_table3053
+- GCC_except_table3055
+- GCC_except_table3057
+- GCC_except_table3059
+- GCC_except_table3062
+- GCC_except_table3068
+- GCC_except_table3076
+- GCC_except_table3082
+- GCC_except_table3085
+- GCC_except_table3088
+- GCC_except_table3100
+- GCC_except_table3104
+- GCC_except_table3109
+- GCC_except_table311
+- GCC_except_table3119
+- GCC_except_table3132
+- GCC_except_table3134
+- GCC_except_table3138
+- GCC_except_table3140
+- GCC_except_table3143
+- GCC_except_table3160
+- GCC_except_table3171
+- GCC_except_table3182
+- GCC_except_table3188
+- GCC_except_table3191
+- GCC_except_table3197
+- GCC_except_table3203
+- GCC_except_table3207
+- GCC_except_table3213
+- GCC_except_table3218
+- GCC_except_table3235
+- GCC_except_table3244
+- GCC_except_table3252
+- GCC_except_table3262
+- GCC_except_table3264
+- GCC_except_table3267
+- GCC_except_table3274
+- GCC_except_table3277
+- GCC_except_table3283
+- GCC_except_table3287
+- GCC_except_table3290
+- GCC_except_table3292
+- GCC_except_table3295
+- GCC_except_table3310
+- GCC_except_table3313
+- GCC_except_table3325
+- GCC_except_table3332
+- GCC_except_table3334
+- GCC_except_table3336
+- GCC_except_table3341
+- GCC_except_table3345
+- GCC_except_table3349
+- GCC_except_table3353
+- GCC_except_table3355
+- GCC_except_table3358
+- GCC_except_table3392
+- GCC_except_table3398
+- GCC_except_table3427
+- GCC_except_table3434
+- GCC_except_table3439
+- GCC_except_table3442
+- GCC_except_table3449
+- GCC_except_table3452
+- GCC_except_table3460
+- GCC_except_table3467
+- GCC_except_table3469
+- GCC_except_table3474
+- GCC_except_table3480
+- GCC_except_table3483
+- GCC_except_table3491
+- GCC_except_table3494
+- GCC_except_table3497
+- GCC_except_table3500
+- GCC_except_table3506
+- GCC_except_table3513
+- GCC_except_table3516
+- GCC_except_table3523
+- GCC_except_table3530
+- GCC_except_table3533
+- GCC_except_table3536
+- GCC_except_table3543
+- GCC_except_table3552
+- GCC_except_table3563
+- GCC_except_table3565
+- GCC_except_table3593
+- GCC_except_table3604
+- GCC_except_table3606
+- GCC_except_table3617
+- GCC_except_table3623
+- GCC_except_table3645
+- GCC_except_table3648
+- GCC_except_table3654
+- GCC_except_table3656
+- GCC_except_table3662
+- GCC_except_table3668
+- GCC_except_table3670
+- GCC_except_table3723
+- GCC_except_table3730
+- GCC_except_table3737
+- GCC_except_table3745
+- GCC_except_table3756
+- GCC_except_table3773
+- GCC_except_table3780
+- GCC_except_table3787
+- GCC_except_table3795
+- GCC_except_table3805
+- GCC_except_table3811
+- GCC_except_table3820
+- GCC_except_table3827
+- GCC_except_table3833
+- GCC_except_table3838
+- GCC_except_table3845
+- GCC_except_table3851
+- GCC_except_table3856
+- GCC_except_table3865
+- GCC_except_table3874
+- GCC_except_table3881
+- GCC_except_table3888
+- GCC_except_table3895
+- GCC_except_table3902
+- GCC_except_table3919
+- GCC_except_table3926
+- GCC_except_table3933
+- GCC_except_table3940
+- GCC_except_table3947
+- GCC_except_table3964
+- GCC_except_table3973
+- GCC_except_table3983
+- GCC_except_table4034
+- GCC_except_table4040
+- GCC_except_table4043
+- GCC_except_table4047
+- GCC_except_table4068
+- GCC_except_table4071
+- GCC_except_table4074
+- GCC_except_table4083
+- GCC_except_table4086
+- GCC_except_table4091
+- GCC_except_table4095
+- GCC_except_table4105
+- GCC_except_table4107
+- GCC_except_table4111
+- GCC_except_table4119
+- GCC_except_table4121
+- GCC_except_table4123
+- GCC_except_table4138
+- GCC_except_table4153
+- GCC_except_table4161
+- GCC_except_table4174
+- GCC_except_table4179
+- GCC_except_table4193
+- GCC_except_table4196
+- GCC_except_table4200
+- GCC_except_table4202
+- GCC_except_table4209
+- GCC_except_table4213
+- GCC_except_table4223
+- GCC_except_table4236
+- GCC_except_table4247
+- GCC_except_table4250
+- GCC_except_table4252
+- GCC_except_table4254
+- GCC_except_table4258
+- GCC_except_table4263
+- GCC_except_table4275
+- GCC_except_table4284
+- GCC_except_table4290
+- GCC_except_table4304
+- GCC_except_table4309
+- GCC_except_table4314
+- GCC_except_table4317
+- GCC_except_table4320
+- GCC_except_table4325
+- GCC_except_table4339
+- GCC_except_table4341
+- GCC_except_table4355
+- GCC_except_table4359
+- GCC_except_table4366
+- GCC_except_table4369
+- GCC_except_table4371
+- GCC_except_table4374
+- GCC_except_table4376
+- GCC_except_table4378
+- GCC_except_table4382
+- GCC_except_table4391
+- GCC_except_table4401
+- GCC_except_table4411
+- GCC_except_table4423
+- GCC_except_table4428
+- GCC_except_table937
+- _ZN27nlv4_inference_orchestrator5treesL9printTreeERKNS0_8TreeNodeE.5200
+- _ZN4snlp6common6configL10loadConfigERKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEERKNS0_7logging13SNLPComponentE.4406
+- __ZN13sentencepiece4MmapIcE4openEPKcS3_
+- __ZN4uaap27mapTimeOffsetToItemizedUsosEPNS_12UPDDTimeSpanERNSt3__16vectorINS2_10unique_ptrIN4siri8ontology8UsoGraphENS2_14default_deleteIS7_EEEENS2_9allocatorISA_EEEE
+- __block_literal_global.4860
+- __cxx_global_var_init.10.5495
+- __cxx_global_var_init.11.5496
+- __cxx_global_var_init.12.5497
+- __cxx_global_var_init.13.5498
+- __cxx_global_var_init.14.5499
+- __cxx_global_var_init.15.5500
+- __cxx_global_var_init.16.5501
+- __cxx_global_var_init.17.5502
+- __cxx_global_var_init.18.5503
+- __cxx_global_var_init.19.5504
+- __cxx_global_var_init.20.5505
+- __cxx_global_var_init.21.5506
+- __cxx_global_var_init.22.5507
+- __cxx_global_var_init.23.5508
+- __cxx_global_var_init.24.5509
+- __cxx_global_var_init.25.5510
+- __cxx_global_var_init.26.5511
+- __cxx_global_var_init.27.5512
+- __cxx_global_var_init.28.5513
+- __cxx_global_var_init.29.5514
+- __cxx_global_var_init.3.5488
+- __cxx_global_var_init.30.5515
+- __cxx_global_var_init.31.5516
+- __cxx_global_var_init.32.5517
+- __cxx_global_var_init.33.5518
+- __cxx_global_var_init.34.5519
+- __cxx_global_var_init.35.5520
+- __cxx_global_var_init.36.5521
+- __cxx_global_var_init.37.5522
+- __cxx_global_var_init.38.5523
+- __cxx_global_var_init.39.5524
+- __cxx_global_var_init.4.5489
+- __cxx_global_var_init.40.5525
+- __cxx_global_var_init.41.5526
+- __cxx_global_var_init.42.5527
+- __cxx_global_var_init.5.5490
+- __cxx_global_var_init.5487
+- __cxx_global_var_init.6.5491
+- __cxx_global_var_init.7.5492
+- __cxx_global_var_init.8.5493
+- __cxx_global_var_init.9.5494
+CStrings:
++ "(fd = ::open(filename.string().data(), mode)) >= 0"
++ "(p = reinterpret_cast<char*>( ::mmap(0, length, PROT_READ, MAP_SHARED, fd, 0))) != MAP_FAILED"
++ "/AppleInternal/Library/BuildRoots/72033bc0-34d0-11ef-b006-e2437461156c/Library/Caches/com.apple.xbs/Sources/SentencePiece/src/bpe_model.cc"
++ "/AppleInternal/Library/BuildRoots/72033bc0-34d0-11ef-b006-e2437461156c/Library/Caches/com.apple.xbs/Sources/SentencePiece/src/builtin_pb/sentencepiece.pb.cc"
++ "/AppleInternal/Library/BuildRoots/72033bc0-34d0-11ef-b006-e2437461156c/Library/Caches/com.apple.xbs/Sources/SentencePiece/src/builtin_pb/sentencepiece_model.pb.cc"
++ "/AppleInternal/Library/BuildRoots/72033bc0-34d0-11ef-b006-e2437461156c/Library/Caches/com.apple.xbs/Sources/SentencePiece/src/builtin_pb/sentencepiece_model.pb.h"
++ "/AppleInternal/Library/BuildRoots/72033bc0-34d0-11ef-b006-e2437461156c/Library/Caches/com.apple.xbs/Sources/SentencePiece/src/filesystem.cc"
++ "/AppleInternal/Library/BuildRoots/72033bc0-34d0-11ef-b006-e2437461156c/Library/Caches/com.apple.xbs/Sources/SentencePiece/src/mmap.h"
++ "/AppleInternal/Library/BuildRoots/72033bc0-34d0-11ef-b006-e2437461156c/Library/Caches/com.apple.xbs/Sources/SentencePiece/src/model_factory.cc"
++ "/AppleInternal/Library/BuildRoots/72033bc0-34d0-11ef-b006-e2437461156c/Library/Caches/com.apple.xbs/Sources/SentencePiece/src/model_interface.cc"
++ "/AppleInternal/Library/BuildRoots/72033bc0-34d0-11ef-b006-e2437461156c/Library/Caches/com.apple.xbs/Sources/SentencePiece/src/model_interface.h"
++ "/AppleInternal/Library/BuildRoots/72033bc0-34d0-11ef-b006-e2437461156c/Library/Caches/com.apple.xbs/Sources/SentencePiece/src/normalizer.cc"
++ "/AppleInternal/Library/BuildRoots/72033bc0-34d0-11ef-b006-e2437461156c/Library/Caches/com.apple.xbs/Sources/SentencePiece/src/sentencepiece_processor.cc"
++ "/AppleInternal/Library/BuildRoots/72033bc0-34d0-11ef-b006-e2437461156c/Library/Caches/com.apple.xbs/Sources/SentencePiece/src/unigram_model.cc"
++ "/AppleInternal/Library/BuildRoots/72033bc0-34d0-11ef-b006-e2437461156c/Library/Caches/com.apple.xbs/Sources/SentencePiece/src/util.cc"
++ "/AppleInternal/Library/BuildRoots/72033bc0-34d0-11ef-b006-e2437461156c/Library/Caches/com.apple.xbs/Sources/SentencePiece/src/util.h"
++ "/AppleInternal/Library/BuildRoots/72033bc0-34d0-11ef-b006-e2437461156c/Library/Caches/com.apple.xbs/Sources/SentencePiece/third_party/darts_clone/darts.h:1106: exception: failed to insert key: negative value"
++ "/AppleInternal/Library/BuildRoots/72033bc0-34d0-11ef-b006-e2437461156c/Library/Caches/com.apple.xbs/Sources/SentencePiece/third_party/darts_clone/darts.h:1108: exception: failed to insert key: zero-length key"
++ "/AppleInternal/Library/BuildRoots/72033bc0-34d0-11ef-b006-e2437461156c/Library/Caches/com.apple.xbs/Sources/SentencePiece/third_party/darts_clone/darts.h:1122: exception: failed to insert key: invalid null character"
++ "/AppleInternal/Library/BuildRoots/72033bc0-34d0-11ef-b006-e2437461156c/Library/Caches/com.apple.xbs/Sources/SentencePiece/third_party/darts_clone/darts.h:1127: exception: failed to insert key: wrong key order"
++ "/AppleInternal/Library/BuildRoots/72033bc0-34d0-11ef-b006-e2437461156c/Library/Caches/com.apple.xbs/Sources/SentencePiece/third_party/darts_clone/darts.h:1339: exception: failed to modify unit: too large offset"
++ "/AppleInternal/Library/BuildRoots/72033bc0-34d0-11ef-b006-e2437461156c/Library/Caches/com.apple.xbs/Sources/SentencePiece/third_party/darts_clone/darts.h:1675: exception: failed to build double-array: invalid null character"
++ "/AppleInternal/Library/BuildRoots/72033bc0-34d0-11ef-b006-e2437461156c/Library/Caches/com.apple.xbs/Sources/SentencePiece/third_party/darts_clone/darts.h:1677: exception: failed to build double-array: negative value"
++ "/AppleInternal/Library/BuildRoots/72033bc0-34d0-11ef-b006-e2437461156c/Library/Caches/com.apple.xbs/Sources/SentencePiece/third_party/darts_clone/darts.h:1692: exception: failed to build double-array: wrong key order"
++ "/AppleInternal/Library/BuildRoots/72033bc0-34d0-11ef-b006-e2437461156c/Library/Caches/com.apple.xbs/Sources/SentencePiece/third_party/darts_clone/darts.h:743: exception: failed to resize pool: std::bad_alloc"
++ "/AppleInternal/Library/BuildRoots/72033bc0-34d0-11ef-b006-e2437461156c/Library/Caches/com.apple.xbs/Sources/SentencePiece/third_party/darts_clone/darts.h:859: exception: failed to build rank index: std::bad_alloc"
++ "/AppleInternal/Library/BuildRoots/72033bc0-34d0-11ef-b006-e2437461156c/Library/Caches/com.apple.xbs/Sources/SentencePiece/third_party/protobuf-lite/arena.cc"
++ "/AppleInternal/Library/BuildRoots/72033bc0-34d0-11ef-b006-e2437461156c/Library/Caches/com.apple.xbs/Sources/SentencePiece/third_party/protobuf-lite/arenastring.cc"
++ "/AppleInternal/Library/BuildRoots/72033bc0-34d0-11ef-b006-e2437461156c/Library/Caches/com.apple.xbs/Sources/SentencePiece/third_party/protobuf-lite/coded_stream.cc"
++ "/AppleInternal/Library/BuildRoots/72033bc0-34d0-11ef-b006-e2437461156c/Library/Caches/com.apple.xbs/Sources/SentencePiece/third_party/protobuf-lite/common.cc"
++ "/AppleInternal/Library/BuildRoots/72033bc0-34d0-11ef-b006-e2437461156c/Library/Caches/com.apple.xbs/Sources/SentencePiece/third_party/protobuf-lite/extension_set.cc"
++ "/AppleInternal/Library/BuildRoots/72033bc0-34d0-11ef-b006-e2437461156c/Library/Caches/com.apple.xbs/Sources/SentencePiece/third_party/protobuf-lite/generated_message_util.cc"
++ "/AppleInternal/Library/BuildRoots/72033bc0-34d0-11ef-b006-e2437461156c/Library/Caches/com.apple.xbs/Sources/SentencePiece/third_party/protobuf-lite/google/protobuf/arena_impl.h"
++ "/AppleInternal/Library/BuildRoots/72033bc0-34d0-11ef-b006-e2437461156c/Library/Caches/com.apple.xbs/Sources/SentencePiece/third_party/protobuf-lite/google/protobuf/arenastring.h"
++ "/AppleInternal/Library/BuildRoots/72033bc0-34d0-11ef-b006-e2437461156c/Library/Caches/com.apple.xbs/Sources/SentencePiece/third_party/protobuf-lite/google/protobuf/extension_set_inl.h"
++ "/AppleInternal/Library/BuildRoots/72033bc0-34d0-11ef-b006-e2437461156c/Library/Caches/com.apple.xbs/Sources/SentencePiece/third_party/protobuf-lite/google/protobuf/io/coded_stream.h"
++ "/AppleInternal/Library/BuildRoots/72033bc0-34d0-11ef-b006-e2437461156c/Library/Caches/com.apple.xbs/Sources/SentencePiece/third_party/protobuf-lite/google/protobuf/parse_context.h"
++ "/AppleInternal/Library/BuildRoots/72033bc0-34d0-11ef-b006-e2437461156c/Library/Caches/com.apple.xbs/Sources/SentencePiece/third_party/protobuf-lite/google/protobuf/repeated_field.h"
++ "/AppleInternal/Library/BuildRoots/72033bc0-34d0-11ef-b006-e2437461156c/Library/Caches/com.apple.xbs/Sources/SentencePiece/third_party/protobuf-lite/message_lite.cc"
++ "/AppleInternal/Library/BuildRoots/72033bc0-34d0-11ef-b006-e2437461156c/Library/Caches/com.apple.xbs/Sources/SentencePiece/third_party/protobuf-lite/parse_context.cc"
++ "/AppleInternal/Library/BuildRoots/d8c9c115-356a-11ef-b3f4-e2437461156c/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.Internal.sdk/usr/local/include/boost/uuid/detail/random_provider_posix.ipp"
++ "Encountered a token without a clean value"
++ "Hit invalid token clean value: %!s(MISSING)"
++ "Trie blob is wrongly formatted."
++ "Trie data size exceeds the input blob size."
++ "[%!x(MISSING)]"
++ "fd >= 0"
++ "std::filesystem::is_directory(dir) && (dirfd = ::open(dir.string().data(), mode)) >= 0"
+- "(fd = ::open(filename, flag | O_BINARY)) >= 0"
+- "(p = reinterpret_cast<char*>(::mmap( 0, length, prot, MAP_SHARED, fd, 0))) != MAP_FAILED"
+- "(trie_blob.size() %!t(MISSING)rie_->unit_size()) == (0)"
+- "(trie_blob.size()) > (0)"
+- "/AppleInternal/Library/BuildRoots/7abfe40b-2884-11ef-836f-e2437461156c/Library/Caches/com.apple.xbs/Sources/SentencePiece/src/bpe_model.cc"
+- "/AppleInternal/Library/BuildRoots/7abfe40b-2884-11ef-836f-e2437461156c/Library/Caches/com.apple.xbs/Sources/SentencePiece/src/builtin_pb/sentencepiece.pb.cc"
+- "/AppleInternal/Library/BuildRoots/7abfe40b-2884-11ef-836f-e2437461156c/Library/Caches/com.apple.xbs/Sources/SentencePiece/src/builtin_pb/sentencepiece_model.pb.cc"
+- "/AppleInternal/Library/BuildRoots/7abfe40b-2884-11ef-836f-e2437461156c/Library/Caches/com.apple.xbs/Sources/SentencePiece/src/builtin_pb/sentencepiece_model.pb.h"
+- "/AppleInternal/Library/BuildRoots/7abfe40b-2884-11ef-836f-e2437461156c/Library/Caches/com.apple.xbs/Sources/SentencePiece/src/filesystem.cc"
+- "/AppleInternal/Library/BuildRoots/7abfe40b-2884-11ef-836f-e2437461156c/Library/Caches/com.apple.xbs/Sources/SentencePiece/src/mmap.h"
+- "/AppleInternal/Library/BuildRoots/7abfe40b-2884-11ef-836f-e2437461156c/Library/Caches/com.apple.xbs/Sources/SentencePiece/src/model_factory.cc"
+- "/AppleInternal/Library/BuildRoots/7abfe40b-2884-11ef-836f-e2437461156c/Library/Caches/com.apple.xbs/Sources/SentencePiece/src/model_interface.cc"
+- "/AppleInternal/Library/BuildRoots/7abfe40b-2884-11ef-836f-e2437461156c/Library/Caches/com.apple.xbs/Sources/SentencePiece/src/model_interface.h"
+- "/AppleInternal/Library/BuildRoots/7abfe40b-2884-11ef-836f-e2437461156c/Library/Caches/com.apple.xbs/Sources/SentencePiece/src/normalizer.cc"
+- "/AppleInternal/Library/BuildRoots/7abfe40b-2884-11ef-836f-e2437461156c/Library/Caches/com.apple.xbs/Sources/SentencePiece/src/sentencepiece_processor.cc"
+- "/AppleInternal/Library/BuildRoots/7abfe40b-2884-11ef-836f-e2437461156c/Library/Caches/com.apple.xbs/Sources/SentencePiece/src/unigram_model.cc"
+- "/AppleInternal/Library/BuildRoots/7abfe40b-2884-11ef-836f-e2437461156c/Library/Caches/com.apple.xbs/Sources/SentencePiece/src/util.cc"
+- "/AppleInternal/Library/BuildRoots/7abfe40b-2884-11ef-836f-e2437461156c/Library/Caches/com.apple.xbs/Sources/SentencePiece/src/util.h"
+- "/AppleInternal/Library/BuildRoots/7abfe40b-2884-11ef-836f-e2437461156c/Library/Caches/com.apple.xbs/Sources/SentencePiece/third_party/darts_clone/darts.h:1106: exception: failed to insert key: negative value"
+- "/AppleInternal/Library/BuildRoots/7abfe40b-2884-11ef-836f-e2437461156c/Library/Caches/com.apple.xbs/Sources/SentencePiece/third_party/darts_clone/darts.h:1108: exception: failed to insert key: zero-length key"
+- "/AppleInternal/Library/BuildRoots/7abfe40b-2884-11ef-836f-e2437461156c/Library/Caches/com.apple.xbs/Sources/SentencePiece/third_party/darts_clone/darts.h:1122: exception: failed to insert key: invalid null character"
+- "/AppleInternal/Library/BuildRoots/7abfe40b-2884-11ef-836f-e2437461156c/Library/Caches/com.apple.xbs/Sources/SentencePiece/third_party/darts_clone/darts.h:1127: exception: failed to insert key: wrong key order"
+- "/AppleInternal/Library/BuildRoots/7abfe40b-2884-11ef-836f-e2437461156c/Library/Caches/com.apple.xbs/Sources/SentencePiece/third_party/darts_clone/darts.h:1339: exception: failed to modify unit: too large offset"
+- "/AppleInternal/Library/BuildRoots/7abfe40b-2884-11ef-836f-e2437461156c/Library/Caches/com.apple.xbs/Sources/SentencePiece/third_party/darts_clone/darts.h:1675: exception: failed to build double-array: invalid null character"
+- "/AppleInternal/Library/BuildRoots/7abfe40b-2884-11ef-836f-e2437461156c/Library/Caches/com.apple.xbs/Sources/SentencePiece/third_party/darts_clone/darts.h:1677: exception: failed to build double-array: negative value"
+- "/AppleInternal/Library/BuildRoots/7abfe40b-2884-11ef-836f-e2437461156c/Library/Caches/com.apple.xbs/Sources/SentencePiece/third_party/darts_clone/darts.h:1692: exception: failed to build double-array: wrong key order"
+- "/AppleInternal/Library/BuildRoots/7abfe40b-2884-11ef-836f-e2437461156c/Library/Caches/com.apple.xbs/Sources/SentencePiece/third_party/darts_clone/darts.h:743: exception: failed to resize pool: std::bad_alloc"
+- "/AppleInternal/Library/BuildRoots/7abfe40b-2884-11ef-836f-e2437461156c/Library/Caches/com.apple.xbs/Sources/SentencePiece/third_party/darts_clone/darts.h:859: exception: failed to build rank index: std::bad_alloc"
+- "/AppleInternal/Library/BuildRoots/7abfe40b-2884-11ef-836f-e2437461156c/Library/Caches/com.apple.xbs/Sources/SentencePiece/third_party/protobuf-lite/arena.cc"
+- "/AppleInternal/Library/BuildRoots/7abfe40b-2884-11ef-836f-e2437461156c/Library/Caches/com.apple.xbs/Sources/SentencePiece/third_party/protobuf-lite/arenastring.cc"
+- "/AppleInternal/Library/BuildRoots/7abfe40b-2884-11ef-836f-e2437461156c/Library/Caches/com.apple.xbs/Sources/SentencePiece/third_party/protobuf-lite/coded_stream.cc"
+- "/AppleInternal/Library/BuildRoots/7abfe40b-2884-11ef-836f-e2437461156c/Library/Caches/com.apple.xbs/Sources/SentencePiece/third_party/protobuf-lite/common.cc"
+- "/AppleInternal/Library/BuildRoots/7abfe40b-2884-11ef-836f-e2437461156c/Library/Caches/com.apple.xbs/Sources/SentencePiece/third_party/protobuf-lite/extension_set.cc"
+- "/AppleInternal/Library/BuildRoots/7abfe40b-2884-11ef-836f-e2437461156c/Library/Caches/com.apple.xbs/Sources/SentencePiece/third_party/protobuf-lite/generated_message_util.cc"
+- "/AppleInternal/Library/BuildRoots/7abfe40b-2884-11ef-836f-e2437461156c/Library/Caches/com.apple.xbs/Sources/SentencePiece/third_party/protobuf-lite/google/protobuf/arena_impl.h"
+- "/AppleInternal/Library/BuildRoots/7abfe40b-2884-11ef-836f-e2437461156c/Library/Caches/com.apple.xbs/Sources/SentencePiece/third_party/protobuf-lite/google/protobuf/arenastring.h"
+- "/AppleInternal/Library/BuildRoots/7abfe40b-2884-11ef-836f-e2437461156c/Library/Caches/com.apple.xbs/Sources/SentencePiece/third_party/protobuf-lite/google/protobuf/extension_set_inl.h"
+- "/AppleInternal/Library/BuildRoots/7abfe40b-2884-11ef-836f-e2437461156c/Library/Caches/com.apple.xbs/Sources/SentencePiece/third_party/protobuf-lite/google/protobuf/io/coded_stream.h"
+- "/AppleInternal/Library/BuildRoots/7abfe40b-2884-11ef-836f-e2437461156c/Library/Caches/com.apple.xbs/Sources/SentencePiece/third_party/protobuf-lite/google/protobuf/parse_context.h"
+- "/AppleInternal/Library/BuildRoots/7abfe40b-2884-11ef-836f-e2437461156c/Library/Caches/com.apple.xbs/Sources/SentencePiece/third_party/protobuf-lite/google/protobuf/repeated_field.h"
+- "/AppleInternal/Library/BuildRoots/7abfe40b-2884-11ef-836f-e2437461156c/Library/Caches/com.apple.xbs/Sources/SentencePiece/third_party/protobuf-lite/message_lite.cc"
+- "/AppleInternal/Library/BuildRoots/7abfe40b-2884-11ef-836f-e2437461156c/Library/Caches/com.apple.xbs/Sources/SentencePiece/third_party/protobuf-lite/parse_context.cc"
+- "/AppleInternal/Library/BuildRoots/fd9f31ad-2a77-11ef-8189-a2cee5656455/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.Internal.sdk/usr/local/include/boost/uuid/detail/random_provider_posix.ipp"
+- "model_->status().ok()"
+- "r+"
+- "unknown open mode: "
+
+```

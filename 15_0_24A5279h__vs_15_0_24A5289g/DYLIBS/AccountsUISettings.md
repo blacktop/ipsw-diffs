@@ -1,0 +1,127 @@
+## AccountsUISettings
+
+> `/System/Library/PrivateFrameworks/AccountsUISettings.framework/Versions/A/AccountsUISettings`
+
+```diff
+
+-58.0.0.0.0
+-  __TEXT.__text: 0x511f8
++59.2.0.0.0
++  __TEXT.__text: 0x50478
+   __TEXT.__auth_stubs: 0x1610
+   __TEXT.__objc_methlist: 0xfc
+-  __TEXT.__const: 0x2784
++  __TEXT.__const: 0x2774
+   __TEXT.__gcc_except_tab: 0x50
+-  __TEXT.__cstring: 0x2162
++  __TEXT.__cstring: 0x2142
+   __TEXT.__dlopen_cstrs: 0x6c
+-  __TEXT.__swift5_typeref: 0x4258
+-  __TEXT.__swift5_capture: 0x868
++  __TEXT.__swift5_typeref: 0x405a
++  __TEXT.__swift5_capture: 0x808
+   __TEXT.__oslogstring: 0x305
+-  __TEXT.__swift5_reflstr: 0x861
++  __TEXT.__swift5_reflstr: 0x831
+   __TEXT.__swift5_assocty: 0x380
+-  __TEXT.__constg_swiftt: 0x1108
+-  __TEXT.__swift5_fieldmd: 0x948
+-  __TEXT.__swift5_builtin: 0x50
++  __TEXT.__constg_swiftt: 0x10e8
++  __TEXT.__swift5_fieldmd: 0x908
++  __TEXT.__swift5_builtin: 0x3c
+   __TEXT.__swift5_proto: 0xd0
+-  __TEXT.__swift5_types: 0xa8
++  __TEXT.__swift5_types: 0xa4
+   __TEXT.__swift5_mpenum: 0x8
+   __TEXT.__swift5_protos: 0x4
+-  __TEXT.__unwind_info: 0x1190
++  __TEXT.__unwind_info: 0x1180
+   __TEXT.__eh_frame: 0x668
+   __TEXT.__objc_classname: 0x74
+-  __TEXT.__objc_methname: 0xd57
++  __TEXT.__objc_methname: 0xd51
+   __TEXT.__objc_methtype: 0x25a
+   __TEXT.__objc_stubs: 0x160
+-  __DATA_CONST.__got: 0x5f8
++  __DATA_CONST.__got: 0x5f0
+   __DATA_CONST.__const: 0x328
+   __DATA_CONST.__objc_classlist: 0x50
+   __DATA_CONST.__objc_protolist: 0x58
+
+   __DATA_CONST.__objc_selrefs: 0x3d0
+   __DATA_CONST.__objc_protorefs: 0x40
+   __AUTH_CONST.__auth_got: 0xb18
+-  __AUTH_CONST.__auth_ptr: 0x750
+-  __AUTH_CONST.__const: 0x2588
++  __AUTH_CONST.__auth_ptr: 0x740
++  __AUTH_CONST.__const: 0x23c0
+   __AUTH_CONST.__cfstring: 0x40
+   __AUTH_CONST.__objc_const: 0x1198
+   __AUTH.__objc_data: 0xb28
+   __AUTH.__data: 0x898
+-  __DATA.__data: 0x1290
++  __DATA.__data: 0x1270
+   __DATA.__bss: 0x1d40
+   __DATA.__common: 0x50
+   - /System/Library/Frameworks/Accounts.framework/Versions/A/Accounts
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 1862
+-  Symbols:   901
+-  CStrings:  199
++  Functions: 1844
++  Symbols:   891
++  CStrings:  198
+ 
+Symbols:
++ _CGRectMake
++ ___swift_memcpy64_8
++ _symbolic _____y_____y_____y___________y_Qo______ADtGG_____G 7SwiftUI15ModifiedContentV AA6HStackV AA9TupleViewV AA6SpacerV AA5ImageV8SettingsE16settingsIconSizeyQrAL0jlG0V5StyleOFQO AA4TextV AA16_FlexFrameLayoutV
++ block_copy_helper.181
++ block_copy_helper.208
++ block_copy_helper.211
++ block_descriptor.183
++ block_descriptor.210
++ block_descriptor.213
++ block_destroy_helper.182
++ block_destroy_helper.209
++ block_destroy_helper.212
++ get_witness_table 7SwiftUI15ModifiedContentVyAA6HStackVyAA9TupleViewVyAA6SpacerV_AA5ImageV8SettingsE16settingsIconSizeyQrAL0jlG0V5StyleOFQOy_Qo_AA4TextVAItGGAA16_FlexFrameLayoutVGAA0G0HPAvaZHPyHC_AxA0G8ModifierHPyHCHC.58
++ get_witness_table 7SwiftUI6HStackVyAA9TupleViewVyAA6SpacerV_AA5ImageVAGtGGAA0E0HPyHC.59
++ get_witness_table qd0__7SwiftUI4ViewHD3_AaBPAAE7toolbar7contentQrqd__yXE_tAA14ToolbarContentRd__lFQOyAcAE9formStyleyQrqd__AA04FormI0Rd__lFQOyAcAE15navigationTitleyQrqd__SyRd__lFQOyAA0J0VyAA05TupleC0VyAA7SectionVyAA4TextVAA7ForEachVySay18AccountSuggestions0R10SuggestionVGAvcAE11contextMenu9menuItemsQrqd__yXE_tAaBRd__lFQOyAcAE0H9RowInsetsyQrAA04EdgeZ0VSgFQOy18AccountsUISettings13ShowAddButtonV_Qo__AA6ButtonVyAQGQo_GAA05EmptyC0VGSg_AOyA12_AMyASySaySSGSSA5_G_AA012_ConditionalG0VyAcAEAZyQrA1_FQOyAcAE06buttonI0yQrqd__AA015PrimitiveButtonI0Rd__lFQOyA7_yAA08ModifiedG0VyAA6HStackVyAMyAA6SpacerV_AQA26_tGGAA16_FlexFrameLayoutVGG_AA016BorderlessButtonI0VQo__Qo_A16_GtGA12_GtGG_SSQo__AA07GroupedjI0VQo__AA0mfG0VyAA0F4ItemVyytA8_G_A49_yytAA8HelpLinkVGtGQo_HO.8
++ get_witness_table qd0__7SwiftUI4ViewHD5_AaBPAAE5alert_11isPresented7actions7messageQrqd___AA7BindingVySbGqd_0_yXEqd_1_yXEtSyRd__AaBRd_0_AaBRd_1_r1_lFQOyAcAE11buttonStyleyQrqd__AA015PrimitiveButtonK0Rd__lFQOyAA0M0VyAA19_ConditionalContentVyAPy18AccountsUISettings014AccountIconAddmC0VAPyAA08ModifiedO0VyAsA16_FlexFrameLayoutVGAQ08BigImagetmC0VGGAA05EmptyC0VGG_AA010BorderlessmK0VQo__SSAA05TupleC0VyANyAA4TextVG_A12_tGA11_Qo_HO.57
++ objectdestroy.35Tm
+- ___swift_memcpy88_8
+- _symbolic _____ 12CoreGraphics7CGFloatV
+- _symbolic _____ So6CGSizeV
+- _symbolic _____y_____G 7SwiftUI5StateV So6CGSizeV
+- _symbolic _____y__________y_____y_____y_____y_____y_____y__________ySay_____GAH_____y_____y______Qo_______yAFGQo_GABGSg_AEyAbDyAGySaySSGSSAKG_AAy_____y_____yALy_____y_____yADy______AfVtGG_____GG______Qo__Qo_ASGtGABGtGG_SSQo_______Qo_______y_____yytAMG_A12_yyt_____GtGQo_G 7SwiftUI19_ConditionalContentV AA9EmptyViewV AA0F0PAAE7toolbar7contentQrqd__yXE_tAA07ToolbarD0Rd__lFQO AgAE9formStyleyQrqd__AA04FormK0Rd__lFQO AgAE15navigationTitleyQrqd__SyRd__lFQO AA0L0V AA05TupleF0V AA7SectionV AA4TextV AA7ForEachV 18AccountSuggestions0T10SuggestionV AgAE11contextMenu9menuItemsQrqd__yXE_tAaFRd__lFQO AgAE0J9RowInsetsyQrAA10EdgeInsetsVSgFQO 18AccountsUISettings13ShowAddButtonV AA6ButtonV AgAEA1_yQrA4_FQO AgAE06buttonK0yQrqd__AA015PrimitiveButtonK0Rd__lFQO AA08ModifiedD0V AA6HStackV AA6SpacerV AA16_FlexFrameLayoutV AA016BorderlessButtonK0V AA07GroupedlK0V AA0oiD0V AA0I4ItemV AA8HelpLinkV
+- _symbolic _____y__________y_____y_____y_____y_____y_____y__________ySay_____GAH_____y_____y______Qo_______yAFGQo_GABGSg_AEyAbDyAGySaySSGSSAKG______y_____y_____yALy_____y_____yADy______AfWtGG_____GG______Qo__Qo_ASGtGABGtGG_SSQo_______Qo_______y_____yytAMG_A13_yyt_____GtGQo__G 7SwiftUI19_ConditionalContentV7StorageO AA9EmptyViewV AA0G0PAAE7toolbar7contentQrqd__yXE_tAA07ToolbarD0Rd__lFQO AiAE9formStyleyQrqd__AA04FormL0Rd__lFQO AiAE15navigationTitleyQrqd__SyRd__lFQO AA0M0V AA05TupleG0V AA7SectionV AA4TextV AA7ForEachV 18AccountSuggestions0U10SuggestionV AiAE11contextMenu9menuItemsQrqd__yXE_tAaHRd__lFQO AiAE0K9RowInsetsyQrAA10EdgeInsetsVSgFQO 18AccountsUISettings13ShowAddButtonV AA6ButtonV AC AiAEA3_yQrA6_FQO AiAE06buttonL0yQrqd__AA015PrimitiveButtonL0Rd__lFQO AA08ModifiedD0V AA6HStackV AA6SpacerV AA16_FlexFrameLayoutV AA016BorderlessButtonL0V AA07GroupedmL0V AA0pjD0V AA0J4ItemV AA8HelpLinkV
+- _symbolic y_____c So6CGSizeV
+- block_copy_helper.205
+- block_copy_helper.214
+- block_copy_helper.22
+- block_copy_helper.229
+- block_copy_helper.34
+- block_descriptor.207
+- block_descriptor.216
+- block_descriptor.231
+- block_descriptor.24
+- block_descriptor.36
+- block_destroy_helper.206
+- block_destroy_helper.215
+- block_destroy_helper.23
+- block_destroy_helper.230
+- block_destroy_helper.35
+- get_witness_table 7SwiftUI19_ConditionalContentVyAA9EmptyViewVAA0F0PAAE7toolbar7contentQrqd__yXE_tAA07ToolbarD0Rd__lFQOyAgAE9formStyleyQrqd__AA04FormK0Rd__lFQOyAgAE15navigationTitleyQrqd__SyRd__lFQOyAA0L0VyAA05TupleF0VyAA7SectionVyAA4TextVAA7ForEachVySay18AccountSuggestions0T10SuggestionVGAzgAE11contextMenu9menuItemsQrqd__yXE_tAaFRd__lFQOyAgAE0J9RowInsetsyQrAA10EdgeInsetsVSgFQOy18AccountsUISettings13ShowAddButtonV_Qo__AA6ButtonVyAUGQo_GAEGSg_ASyAeQyAWySaySSGSSA9_G_ACyAgAEA2_yQrA5_FQOyAgAE06buttonK0yQrqd__AA015PrimitiveButtonK0Rd__lFQOyA11_yAA08ModifiedD0VyAA6HStackVyAQyAA6SpacerV_AUA26_tGGAA16_FlexFrameLayoutVGG_AA016BorderlessButtonK0VQo__Qo_A18_GtGAEGtGG_SSQo__AA07GroupedlK0VQo__AA0oiD0VyAA0I4ItemVyytA12_G_A49_yytAA8HelpLinkVGtGQo_GAaFHPAeaFHPyHC_qd0__AaFHD3_A55_HOHC.10
+- get_witness_table 7SwiftUI6HStackVyAA9TupleViewVyAA6SpacerV_AA5ImageV8SettingsE16settingsIconSizeyQrAJ0hjE0V5StyleOFQOy_Qo_AA4TextVAGtGGAA0E0HPyHC.82
+- get_witness_table 7SwiftUI6HStackVyAA9TupleViewVyAA6SpacerV_AA5ImageVAGtGGAA0E0HPyHC.83
+- get_witness_table qd0__7SwiftUI4ViewHD5_AaBPAAE5alert_11isPresented7actions7messageQrqd___AA7BindingVySbGqd_0_yXEqd_1_yXEtSyRd__AaBRd_0_AaBRd_1_r1_lFQOyAcAE11buttonStyleyQrqd__AA015PrimitiveButtonK0Rd__lFQOyAA0M0VyAA19_ConditionalContentVyAPy18AccountsUISettings014AccountIconAddmC0VAPyAA08ModifiedO0VyAsA16_FlexFrameLayoutVGAQ08BigImagetmC0VGGAA05EmptyC0VGG_AA010BorderlessmK0VQo__SSAA05TupleC0VyANyAA4TextVG_A12_tGA11_Qo_HO.81
+- objectdestroy.44Tm
+CStrings:
+- "v24@?0{CGSize=dd}8"
+
+```
