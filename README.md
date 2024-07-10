@@ -19,7 +19,7 @@
 
 ### macOS 15.0 beta
 
-- [15.0 beta 2 (24A5289g) .vs 15.0 beta 3 (24A5279h)](15_0_24A5289g__vs_15_0_24A5279h/TOC.md)
+- [15.0 beta 2 (24A5279h) .vs 15.0 beta 3 (24A5289g)](15_0_24A5279h__vs_15_0_24A5289g/TOC.md)
 
 ### Generating Diffs
 
