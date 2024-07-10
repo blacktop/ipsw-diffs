@@ -1,0 +1,159 @@
+## XOJIT
+
+> `/System/Library/PrivateFrameworks/XOJIT.framework/Versions/A/XOJIT`
+
+```diff
+
+-43.0.0.0.0
+-  __TEXT.__text: 0x257b78
+-  __TEXT.__auth_stubs: 0x1170
++42.0.0.0.0
++  __TEXT.__text: 0x256f40
++  __TEXT.__auth_stubs: 0x1180
+   __TEXT.__init_offsets: 0x118
+-  __TEXT.__const: 0x1dfac
+-  __TEXT.__swift5_typeref: 0x260
++  __TEXT.__const: 0x1df0c
++  __TEXT.__swift5_typeref: 0x248
+   __TEXT.__swift5_capture: 0x54
+-  __TEXT.__cstring: 0x7b105
+-  __TEXT.__swift5_reflstr: 0x1fb
++  __TEXT.__cstring: 0x7b0ce
++  __TEXT.__swift5_reflstr: 0x19b
+   __TEXT.__swift5_assocty: 0x28
+-  __TEXT.__constg_swiftt: 0x5a8
+-  __TEXT.__swift5_fieldmd: 0x4bc
++  __TEXT.__constg_swiftt: 0x574
++  __TEXT.__swift5_fieldmd: 0x47c
+   __TEXT.__swift5_builtin: 0x28
+-  __TEXT.__swift5_proto: 0x64
+-  __TEXT.__swift5_types: 0x84
++  __TEXT.__swift5_proto: 0x5c
++  __TEXT.__swift5_types: 0x80
+   __TEXT.__oslogstring: 0xe4
+   __TEXT.__orc_runtime: 0x9da1b0
+-  __TEXT.__unwind_info: 0x5338
+-  __TEXT.__eh_frame: 0x8e0
++  __TEXT.__unwind_info: 0x52e8
++  __TEXT.__eh_frame: 0x858
+   __TEXT.__objc_methname: 0x36
+   __DATA_CONST.__got: 0x100
+-  __DATA_CONST.__const: 0x1ec58
++  __DATA_CONST.__const: 0x1ec38
+   __DATA_CONST.__objc_classlist: 0x50
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_selrefs: 0x18
+-  __AUTH_CONST.__auth_got: 0x8b8
++  __AUTH_CONST.__auth_got: 0x8c0
+   __AUTH_CONST.__auth_ptr: 0x118
+-  __AUTH_CONST.__const: 0x8750
+-  __AUTH_CONST.__objc_const: 0x770
++  __AUTH_CONST.__const: 0x8780
++  __AUTH_CONST.__objc_const: 0x750
+   __AUTH.__objc_data: 0x50
+-  __AUTH.__data: 0xbd8
+-  __DATA.__data: 0xb00
+-  __DATA.__objc_clsrolist: 0x10
+-  __DATA.__bss: 0x82a8
++  __AUTH.__data: 0xba0
++  __DATA.__data: 0xaf8
++  __DATA.__bss: 0x81a8
+   __DATA.__common: 0x15c0
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+
+   - /usr/lib/swift/libswiftObjectiveC.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
+-  Functions: 8429
+-  Symbols:   22630
+-  CStrings:  19943
++  Functions: 8409
++  Symbols:   22629
++  CStrings:  19940
+ 
+Symbols:
++ __Block_object_assign
++ __Block_object_dispose
++ __ZN4llvm6detail18UniqueFunctionBaseINS_5ErrorEJRNS_3orc8JITDylibENS_8DenseMapINS3_15SymbolStringPtrENS3_17ExecutorSymbolDefENS_12DenseMapInfoIS7_vEENS0_12DenseMapPairIS7_S8_EEEEEE15CallbacksHolderIZN5xojit5XOJITC1ENSt3__110unique_ptrINS3_22ExecutorProcessControlENSI_14default_deleteISK_EEEENS_15unique_functionIFS2_RSH_EEERS2_E3$_1ST_vE9CallbacksE
++ __ZN4llvm6detail18UniqueFunctionBaseINS_5ErrorEJRNS_3orc8JITDylibENS_8DenseMapINS3_15SymbolStringPtrENS3_17ExecutorSymbolDefENS_12DenseMapInfoIS7_vEENS0_12DenseMapPairIS7_S8_EEEEEE8CallImplIZN5xojit5XOJITC1ENSt3__110unique_ptrINS3_22ExecutorProcessControlENSI_14default_deleteISK_EEEENS_15unique_functionIFS2_RSH_EEERS2_E3$_1EES2_PvS5_RSD_
++ __ZN5xojit5XOJIT6CreateENSt3__110unique_ptrIN4llvm3orc22ExecutorProcessControlENS1_14default_deleteIS5_EEEENS3_15unique_functionIFNS3_5ErrorERS0_EEE
++ __ZNKSt3__110__function6__funcIPFvN4llvm5ErrorEENS_9allocatorIS5_EES4_E7__cloneEPNS0_6__baseIS4_EE
++ __ZNKSt3__110__function6__funcIPFvN4llvm5ErrorEENS_9allocatorIS5_EES4_E7__cloneEv
++ __ZNKSt3__110__function6__funcIZN5xojit5XOJITC1ENS_10unique_ptrIN4llvm3orc22ExecutorProcessControlENS_14default_deleteIS7_EEEENS5_15unique_functionIFNS5_5ErrorERS3_EEERSC_E3$_0NS_9allocatorISH_EEFvSC_EE7__cloneEPNS0_6__baseISK_EE
++ __ZNKSt3__110__function6__funcIZN5xojit5XOJITC1ENS_10unique_ptrIN4llvm3orc22ExecutorProcessControlENS_14default_deleteIS7_EEEENS5_15unique_functionIFNS5_5ErrorERS3_EEERSC_E3$_0NS_9allocatorISH_EEFvSC_EE7__cloneEv
++ __ZNSt3__110__function12__value_funcIFvN4llvm5ErrorEEED2B8nn180100Ev
++ __ZNSt3__110__function12__value_funcIFvN4llvm5ErrorEEEaSB8nn180100EDn
++ __ZNSt3__110__function12__value_funcIFvN4llvm5ErrorEEEaSB8nn180100EOS5_
++ __ZNSt3__110__function6__funcIPFvN4llvm5ErrorEENS_9allocatorIS5_EES4_E18destroy_deallocateEv
++ __ZNSt3__110__function6__funcIPFvN4llvm5ErrorEENS_9allocatorIS5_EES4_E7destroyEv
++ __ZNSt3__110__function6__funcIPFvN4llvm5ErrorEENS_9allocatorIS5_EES4_ED0Ev
++ __ZNSt3__110__function6__funcIPFvN4llvm5ErrorEENS_9allocatorIS5_EES4_ED1Ev
++ __ZNSt3__110__function6__funcIPFvN4llvm5ErrorEENS_9allocatorIS5_EES4_EclEOS3_
++ __ZNSt3__110__function6__funcIZN5xojit5XOJITC1ENS_10unique_ptrIN4llvm3orc22ExecutorProcessControlENS_14default_deleteIS7_EEEENS5_15unique_functionIFNS5_5ErrorERS3_EEERSC_E3$_0NS_9allocatorISH_EEFvSC_EE18destroy_deallocateEv
++ __ZNSt3__110__function6__funcIZN5xojit5XOJITC1ENS_10unique_ptrIN4llvm3orc22ExecutorProcessControlENS_14default_deleteIS7_EEEENS5_15unique_functionIFNS5_5ErrorERS3_EEERSC_E3$_0NS_9allocatorISH_EEFvSC_EE7destroyEv
++ __ZNSt3__110__function6__funcIZN5xojit5XOJITC1ENS_10unique_ptrIN4llvm3orc22ExecutorProcessControlENS_14default_deleteIS7_EEEENS5_15unique_functionIFNS5_5ErrorERS3_EEERSC_E3$_0NS_9allocatorISH_EEFvSC_EED0Ev
++ __ZNSt3__110__function6__funcIZN5xojit5XOJITC1ENS_10unique_ptrIN4llvm3orc22ExecutorProcessControlENS_14default_deleteIS7_EEEENS5_15unique_functionIFNS5_5ErrorERS3_EEERSC_E3$_0NS_9allocatorISH_EEFvSC_EED1Ev
++ __ZNSt3__110__function6__funcIZN5xojit5XOJITC1ENS_10unique_ptrIN4llvm3orc22ExecutorProcessControlENS_14default_deleteIS7_EEEENS5_15unique_functionIFNS5_5ErrorERS3_EEERSC_E3$_0NS_9allocatorISH_EEFvSC_EEclEOSC_
++ __ZNSt3__117__call_once_proxyB8nn180100INS_5tupleIJOZN5xojit5XOJIT6CreateENS_10unique_ptrIN4llvm3orc22ExecutorProcessControlENS_14default_deleteIS7_EEEENS5_15unique_functionIFNS5_5ErrorERS3_EEEE3$_0EEEEEvPv
++ __ZTVNSt3__110__function6__funcIPFvN4llvm5ErrorEENS_9allocatorIS5_EES4_EE
++ __ZTVNSt3__110__function6__funcIZN5xojit5XOJITC1ENS_10unique_ptrIN4llvm3orc22ExecutorProcessControlENS_14default_deleteIS7_EEEENS5_15unique_functionIFNS5_5ErrorERS3_EEERSC_E3$_0NS_9allocatorISH_EEFvSC_EEE
++ ___copy_helper_block_8_32r
++ ___destroy_helper_block_8_32r
++ ___unnamed_33
++ _swift_deallocPartialClassInstance
++ block_copy_helper.107
++ block_descriptor.109
++ block_destroy_helper.108
+- _OUTLINED_FUNCTION_32
+- _XOJIT_Error_IsFailedToMaterialize
+- _XOJIT_Error_IsUnsatisfiedSymbolDependencies
+- __ZN4llvm6detail18UniqueFunctionBaseINS_5ErrorEJRNS_3orc8JITDylibENS_8DenseMapINS3_15SymbolStringPtrENS3_17ExecutorSymbolDefENS_12DenseMapInfoIS7_vEENS0_12DenseMapPairIS7_S8_EEEEEE15CallbacksHolderIZN5xojit5XOJITC1ENS_15unique_functionIFvS2_EEENSt3__110unique_ptrINS3_22ExecutorProcessControlENSL_14default_deleteISN_EEEENSI_IFS2_RSH_EEERS2_E3$_1SV_vE9CallbacksE
+- __ZN4llvm6detail18UniqueFunctionBaseINS_5ErrorEJRNS_3orc8JITDylibENS_8DenseMapINS3_15SymbolStringPtrENS3_17ExecutorSymbolDefENS_12DenseMapInfoIS7_vEENS0_12DenseMapPairIS7_S8_EEEEEE8CallImplIZN5xojit5XOJITC1ENS_15unique_functionIFvS2_EEENSt3__110unique_ptrINS3_22ExecutorProcessControlENSL_14default_deleteISN_EEEENSI_IFS2_RSH_EEERS2_E3$_1EES2_PvS5_RSD_
+- __ZN4llvm6detail18UniqueFunctionBaseIvJNS_5ErrorEEE15CallbacksHolderIPFvS2_ES6_vE9CallbacksE
+- __ZN4llvm6detail18UniqueFunctionBaseIvJNS_5ErrorEEE15CallbacksHolderIZL19createErrorReporter33XOJIT_XOJIT_ErrorReporterCallbackE3$_0S6_vE9CallbacksE
+- __ZN4llvm6detail18UniqueFunctionBaseIvJNS_5ErrorEEE15CallbacksHolderIZN5xojit5XOJITC1ENS_15unique_functionIFvS2_EEENSt3__110unique_ptrINS_3orc22ExecutorProcessControlENSA_14default_deleteISD_EEEENS7_IFS2_RS6_EEERS2_E3$_0SL_vE9CallbacksE
+- __ZN4llvm6detail18UniqueFunctionBaseIvJNS_5ErrorEEE8CallImplIPFvS2_EEEvPvRS2_
+- __ZN4llvm6detail18UniqueFunctionBaseIvJNS_5ErrorEEE8CallImplIZL19createErrorReporter33XOJIT_XOJIT_ErrorReporterCallbackE3$_0EEvPvRS2_
+- __ZN4llvm6detail18UniqueFunctionBaseIvJNS_5ErrorEEE8CallImplIZN5xojit5XOJITC1ENS_15unique_functionIFvS2_EEENSt3__110unique_ptrINS_3orc22ExecutorProcessControlENSA_14default_deleteISD_EEEENS7_IFS2_RS6_EEERS2_E3$_0EEvPvSK_
+- __ZN4llvm7jitlinkL17cStringFromSymbolERNS0_9LinkGraphERNS0_6SymbolE
+- __ZN5xojit5XOJIT6CreateEN4llvm15unique_functionIFvNS1_5ErrorEEEENSt3__110unique_ptrINS1_3orc22ExecutorProcessControlENS6_14default_deleteIS9_EEEENS2_IFS3_RS0_EEE
+- __ZNSt3__114__split_bufferIPNS_10unique_ptrIN4llvm3orc4TaskENS_14default_deleteIS4_EEEENS_9allocatorIS8_EEE10push_frontEOS8_
+- __ZNSt3__114__split_bufferIPNS_10unique_ptrIN4llvm3orc4TaskENS_14default_deleteIS4_EEEENS_9allocatorIS8_EEE9push_backEOS8_
+- __ZNSt3__114__split_bufferIPNS_10unique_ptrIN4llvm3orc4TaskENS_14default_deleteIS4_EEEENS_9allocatorIS8_EEED2Ev
+- __ZNSt3__114__split_bufferIPNS_10unique_ptrIN4llvm3orc4TaskENS_14default_deleteIS4_EEEERNS_9allocatorIS8_EEE10push_frontERKS8_
+- __ZNSt3__114__split_bufferIPNS_10unique_ptrIN4llvm3orc4TaskENS_14default_deleteIS4_EEEERNS_9allocatorIS8_EEE9push_backEOS8_
+- __ZNSt3__117__call_once_proxyB8nn180100INS_5tupleIJOZN5xojit5XOJIT6CreateEN4llvm15unique_functionIFvNS4_5ErrorEEEENS_10unique_ptrINS4_3orc22ExecutorProcessControlENS_14default_deleteISB_EEEENS5_IFS6_RS3_EEEE3$_0EEEEEvPv
+- __ZNSt3__15dequeINS_10unique_ptrIN4llvm3orc4TaskENS_14default_deleteIS4_EEEENS_9allocatorIS7_EEE19__add_back_capacityEv
+- __ZNSt3__15dequeINS_10unique_ptrIN4llvm3orc4TaskENS_14default_deleteIS4_EEEENS_9allocatorIS7_EEE26__maybe_remove_front_spareB8nn180100Eb
+- __ZNSt3__15dequeINS_10unique_ptrIN4llvm3orc4TaskENS_14default_deleteIS4_EEEENS_9allocatorIS7_EEE9pop_frontEv
+- __ZNSt3__15dequeINS_10unique_ptrIN4llvm3orc4TaskENS_14default_deleteIS4_EEEENS_9allocatorIS7_EEE9push_backEOS7_
+- __ZZN4llvm7jitlinkL17cStringFromSymbolERNS0_9LinkGraphERNS0_6SymbolEENK3$_0clENS_9StringRefE
+- ___unnamed_37
+- _associated conformance 5XOJIT10XOJITErrorC4KindOSHAASQ
+- _generic_ro_datas
+- _strnlen
+- _swift_unknownObjectRetain
+- _symbolic _____ 5XOJIT10XOJITErrorC4KindO
+- _symbolic y_____cSg 5XOJIT10XOJITErrorC
+- block_copy_helper.114
+- block_descriptor.116
+- block_destroy_helper.115
+CStrings:
++ " does not point to start of block"
++ " edges"
++ " has "
++ " is not pointer-sized"
++ ", symbol at "
++ "has non-zero offset"
+- " at "
+- " has no corresponding edge"
+- " selector symbol "
+- " string symbol "
+- "<unnamed>"
+- "is missing null terminator"
+- "reportError"
+- "was in an empty block"
+- "was not defined"
+
+```

@@ -17,6 +17,10 @@
 - [18.0 beta 1 (22A5282m) .vs 18.0 beta 2 (22A5297f)](18_0_22A5282m__vs_18_0_22A5297f/TOC.md)
 - [18.0 beta 2 (22A5297f) .vs 18.0 beta 3 (22A5307f)](18_0_22A5297f__vs_18_0_22A5307f/TOC.md)
 
+### macOS 15.0 beta
+
+- [15.0 beta 2 (24A5289g) .vs 15.0 beta 3 (24A5279h)](15_0_24A5289g__vs_15_0_24A5279h/TOC.md)
+
 ### Generating Diffs
 
 ```bash

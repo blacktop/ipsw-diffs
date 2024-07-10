@@ -1,0 +1,298 @@
+## MediaCoreUI
+
+> `/System/iOSSupport/System/Library/PrivateFrameworks/MediaCoreUI.framework/Versions/A/MediaCoreUI`
+
+```diff
+
+-4024.100.45.0.0
+-  __TEXT.__text: 0x220dbc
+-  __TEXT.__auth_stubs: 0x4da0
+-  __TEXT.__objc_methlist: 0xb18
+-  __TEXT.__const: 0x13f94
+-  __TEXT.__cstring: 0x7aab
+-  __TEXT.__swift5_typeref: 0x10ff4
+-  __TEXT.__constg_swiftt: 0xcb10
+-  __TEXT.__swift5_builtin: 0x3c0
+-  __TEXT.__swift5_reflstr: 0x583d
+-  __TEXT.__swift5_fieldmd: 0x6948
+-  __TEXT.__swift5_assocty: 0x1f88
+-  __TEXT.__swift5_proto: 0x90c
+-  __TEXT.__swift5_types: 0x82c
+-  __TEXT.__swift5_capture: 0x2ab4
+-  __TEXT.__oslogstring: 0x24c3
++4024.100.43.0.0
++  __TEXT.__text: 0x210cf8
++  __TEXT.__auth_stubs: 0x4d00
++  __TEXT.__objc_methlist: 0x770
++  __TEXT.__const: 0x138e4
++  __TEXT.__cstring: 0x776b
++  __TEXT.__swift5_typeref: 0x10e26
++  __TEXT.__constg_swiftt: 0xc918
++  __TEXT.__swift5_builtin: 0x370
++  __TEXT.__swift5_reflstr: 0x567d
++  __TEXT.__swift5_fieldmd: 0x6798
++  __TEXT.__swift5_assocty: 0x1f28
++  __TEXT.__swift5_proto: 0x8b0
++  __TEXT.__swift5_types: 0x808
++  __TEXT.__swift5_capture: 0x2a30
++  __TEXT.__oslogstring: 0x1f13
+   __TEXT.__swift5_protos: 0x4c
+-  __TEXT.__swift5_mpenum: 0x94
+-  __TEXT.__unwind_info: 0x7818
+-  __TEXT.__eh_frame: 0x4b24
++  __TEXT.__swift5_mpenum: 0x74
++  __TEXT.__unwind_info: 0x7588
++  __TEXT.__eh_frame: 0x4664
+   __TEXT.__objc_classname: 0x2fa
+-  __TEXT.__objc_methname: 0x6dd0
++  __TEXT.__objc_methname: 0x6d7e
+   __TEXT.__objc_methtype: 0x32e2
+   __TEXT.__objc_stubs: 0x40
+-  __DATA_CONST.__got: 0x1630
+-  __DATA_CONST.__const: 0x830
++  __DATA_CONST.__got: 0x1628
++  __DATA_CONST.__const: 0x820
+   __DATA_CONST.__objc_classlist: 0x2c8
+   __DATA_CONST.__objc_catlist: 0x10
+   __DATA_CONST.__objc_protolist: 0x1e0
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x12e8
++  __DATA_CONST.__objc_selrefs: 0x1250
+   __DATA_CONST.__objc_protorefs: 0xf0
+-  __AUTH_CONST.__auth_got: 0x26d8
+-  __AUTH_CONST.__auth_ptr: 0x2060
+-  __AUTH_CONST.__const: 0x13dd8
+-  __AUTH_CONST.__objc_const: 0xb528
+-  __AUTH.__objc_data: 0x28b8
+-  __AUTH.__data: 0x5e40
+-  __DATA.__data: 0xb2c0
+-  __DATA.__bss: 0x126d0
+-  __DATA.__common: 0x820
++  __AUTH_CONST.__auth_got: 0x2688
++  __AUTH_CONST.__auth_ptr: 0x2110
++  __AUTH_CONST.__const: 0x137a8
++  __AUTH_CONST.__objc_const: 0xb4e8
++  __AUTH.__objc_data: 0x2fb0
++  __AUTH.__data: 0x5df0
++  __DATA.__data: 0xb1b0
++  __DATA.__bss: 0x11b30
++  __DATA.__common: 0x810
+   - /System/Library/Frameworks/AVFAudio.framework/Versions/A/AVFAudio
+   - /System/Library/Frameworks/AVFoundation.framework/Versions/A/AVFoundation
+   - /System/Library/Frameworks/Accelerate.framework/Versions/A/Accelerate
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 11169
+-  Symbols:   4344
+-  CStrings:  950
++  Functions: 10946
++  Symbols:   4302
++  CStrings:  927
+ 
+Symbols:
++ _PROTOCOLS__TtC11MediaCoreUI24NowPlayingViewController.31
++ _symbolic Say_____G 11MediaCoreUI16MotionCacheEntryV
++ _symbolic _____ 11MediaCoreUI19MotionCacheCapacityO
++ _symbolic _____Xo 11MediaCoreUI11MotionCacheC
++ _symbolic _____y_____y_____y_____y_____y_____y_____y_____y_____y_____y_____yAAy_____y_____yAAy_____yx_G_____GSg_AAyAAy_____yx_GAFG_____y_____GGSg_____yACyAAyAAyAAyAAyAAy_____yx_G_____G_____G_____GAVG_____y11OverlayView_____QzGG______SgAAyAAyAAyAAyAAy_____yx_GATGAVGAXGAVGANGAAyAAy_____yx_G_____GANGSgtG_____GAAyAAyAAy_____yx_GAFGATGAVGAAyAJ_____y_____GGSgtGG_____yx_GG_Qo__Qo__Qo__Qo__Qo__Qo__Qo__Qo__Qo_A28_y_____SgGG______Qo_ 7SwiftUI4ViewPAAE8onChange2of7initial_Qrqd___SbyyctSQRd__lFQO AA15ModifiedContentV AcAE0D4Test_7handlerQrAA11PPTTestCaseV4NameV_yALctFQO AcAEAI_AJQrAN_yALctFQO AcAEAI_AJQrAN_yALctFQO AcAEAI_AJQrAN_yALctFQO AcAEAI_AJQrAN_yALctFQO AcAEAI_AJQrAN_yALctFQO AcAEAI_AJQrAN_yALctFQO AcAEAI_AJQrAN_yALctFQO AcAE20accessibilityElement8childrenQrAA26AccessibilityChildBehaviorV_tFQO AA6ZStackV AA05TupleC0V 09MediaCoreB0010NowPlayingC0V18ArtworkPlaceholderV AA30_SafeAreaRegionsIgnoringLayoutV AY07ArtworkC0V AA21_TraitWritingModifierV AA14ZIndexTraitKeyV AA012_ConditionalI0V AY010FullScreeniC0V AW15OpacityModifier33_DCEEEA71E3FB935C9DB379446A3F7952LLV AA0R18AttachmentModifierV AA01_r19IgnoresInvertColorsC8ModifierV AA16_OverlayModifierV AW0yZ10ControllerP AW15GradientTopMaskV AY19HeaderDismissButtonV AY05DebugC0V AA14_PaddingLayoutV AA5ColorV AY010MiniPlayeriC0V AA30_EnvironmentKeyWritingModifierV AA11ColorSchemeO AY25BackdropConditionObserverV AA9NamespaceV2IDV AW0yzC5ModelC11PlayerStyleO
++ block_copy_helper.100
++ block_copy_helper.104
++ block_copy_helper.107
++ block_copy_helper.116
++ block_copy_helper.126
++ block_copy_helper.150
++ block_copy_helper.157
++ block_copy_helper.163
++ block_copy_helper.206
++ block_copy_helper.218
++ block_copy_helper.224
++ block_copy_helper.62
++ block_copy_helper.74
++ block_copy_helper.86
++ block_copy_helper.88
++ block_descriptor.102
++ block_descriptor.106
++ block_descriptor.109
++ block_descriptor.118
++ block_descriptor.128
++ block_descriptor.152
++ block_descriptor.159
++ block_descriptor.165
++ block_descriptor.208
++ block_descriptor.220
++ block_descriptor.226
++ block_descriptor.64
++ block_descriptor.76
++ block_descriptor.88
++ block_descriptor.90
++ block_destroy_helper.101
++ block_destroy_helper.105
++ block_destroy_helper.108
++ block_destroy_helper.117
++ block_destroy_helper.127
++ block_destroy_helper.151
++ block_destroy_helper.158
++ block_destroy_helper.164
++ block_destroy_helper.207
++ block_destroy_helper.219
++ block_destroy_helper.225
++ block_destroy_helper.63
++ block_destroy_helper.75
++ block_destroy_helper.87
++ block_destroy_helper.89
++ get_witness_table 11MediaCoreUI20NowPlayingControllerRzl05SwiftC015ModifiedContentVyAEyAEyAEyAEyAEyAC6VStackVyAC9TupleViewVyAA0deL0V010MiniPlayeriL0Vyx_G_AC6SpacerVtGGAC16_OverlayModifierVyAK07ArtworkL0Vyx_GSgGGAC022_EnvironmentKeyWritingQ0VyAA0deL5ModelC0N5StyleOGGA0_yAA0deR0O9PlacementOGGAA0desQ033_992E328401D8FB7D45C341D7AB03F14ALLVyxGGA0_yAC9NamespaceV2IDVSgGGAC017_AllowsHitTestingQ0VGAC0L0HPA24_ACA28_HPA17_ACA28_HPA12_ACA28_HPA6_ACA28_HPAzCA28_HPArCA28_HPyHC_AyC0lQ0HPyHCHC_A5_ACA29_HPyHCHC_A11_ACA29_HPyHCHC_A16_ACA29_HPyHCHC_A23_ACA29_HPyHCHC_A26_ACA29_HPyHCHC.245
++ get_witness_table 11MediaCoreUI20NowPlayingControllerRzlqd0__05SwiftC04ViewHD3_AcDPACE8onChange2of7initial_Qrqd___SbyyctSQRd__lFQOyAC15ModifiedContentVyAeCE0I4Test_7handlerQrAC11PPTTestCaseV4NameV_yANctFQOyAeCEAK_ALQrAP_yANctFQOyAeCEAK_ALQrAP_yANctFQOyAeCEAK_ALQrAP_yANctFQOyAeCEAK_ALQrAP_yANctFQOyAeCEAK_ALQrAP_yANctFQOyAeCEAK_ALQrAP_yANctFQOyAeCEAK_ALQrAP_yANctFQOyAeCE20accessibilityElement8childrenQrAC26AccessibilityChildBehaviorV_tFQOyAJyAC6ZStackVyAC05TupleH0VyAJyAA0deH0V18ArtworkPlaceholderVyx_GAC30_SafeAreaRegionsIgnoringLayoutVGSg_AJyAJyAZ07ArtworkH0Vyx_GA3_GAC21_TraitWritingModifierVyAC14ZIndexTraitKeyVGGSgAC012_ConditionalN0VyAXyAJyAJyAJyAJyAJyAZ010FullScreennH0Vyx_GAA15OpacityModifier33_DCEEEA71E3FB935C9DB379446A3F7952LLVGAC0W18AttachmentModifierVGAC01_w19IgnoresInvertColorsH8ModifierVGA27_GAC16_OverlayModifierVy07OverlayH0QzGG_AA15GradientTopMaskVSgAJyAJyAJyAJyAJyAZ19HeaderDismissButtonVyx_GA24_GA27_GA30_GA27_GA14_GAJyAJyAZ05DebugH0Vyx_GAC14_PaddingLayoutVGA14_GSgtGAC5ColorVGAJyAJyAJyAZ010MiniPlayernH0Vyx_GA3_GA24_GA27_GAJyA8_AC30_EnvironmentKeyWritingModifierVyAC11ColorSchemeOGGSgtGGAZ25BackdropConditionObserverVyx_GG_Qo__Qo__Qo__Qo__Qo__Qo__Qo__Qo__Qo_A69_yAC9NamespaceV2IDVSgGG_AA0deH5ModelC11PlayerStyleOQo_HO.38
++ get_witness_table 7SwiftUI15ModifiedContentVyACyAA6HStackVyAA9TupleViewVyAA13_StrokedShapeVy09MediaCoreB018DebugDimensionTextV9ArrowLine33_45778ABE92DA7A6B15EB4CE102F23EDCLLVG_ACyACyACyACyACyACyACyACyAA0N0VAA16_FixedSizeLayoutVGAA30_EnvironmentKeyWritingModifierVySiSgGGAA14_PaddingLayoutVGA0_GAA24_ForegroundStyleModifierVyAA5ColorVGGAA24_BackgroundStyleModifierVyA6_GGAA11_ClipEffectVyAA16RoundedRectangleVGGAWyAA4FontVSgGGACyApA12_ScaleEffectVGtGGA7_GAA12_FrameLayoutVGAA0G0HPA29_AAA33_HPA28_AAA33_HPyHC_A7_AA0G8ModifierHPyHCHC_A31_AAA34_HPyHCHC.177
++ get_witness_table 7SwiftUI15ModifiedContentVyACyACyAA6IDViewVy09MediaCoreB029MotionPlayerViewRepresentable33_5C0FCAEC7E121FD01840555B36210BDCLLV10Foundation3URLVSgGAA25_AppearanceActionModifierVGAPGAF23HostedScenePhaseSupportVGSgAA0J0HpAuaWHPAraWHPAqaWHPAnaWHPyHC_ApA0jV0HPyHCHC_ApaXHPyHCHC_AtaXHPyHCHC_HC.198
++ get_witness_table 7SwiftUI4ViewRzlAA15ModifiedContentVyxAA30_EnvironmentKeyWritingModifierVyAA5ColorVGGAaBHPxAaBHD1__AiA0cI0HPyHCHC.52
++ objectdestroy.16Tm
++ objectdestroy.175Tm
++ objectdestroy.23Tm
++ objectdestroy.26Tm
+- _NSURLIsDirectoryKey
+- _NSURLNameKey
+- _PROTOCOLS__TtC11MediaCoreUI24NowPlayingViewController.30
+- ___unnamed_30
+- _associated conformance 11MediaCoreUI10ScrubStateOSHAASQ
+- _associated conformance 11MediaCoreUI21MotionCacheSetupError33_FD287A3A8DF599E196D8BEE9536ABE84LLOSHAASQ
+- _associated conformance 11MediaCoreUI31ClientDefinedMotionCacheIndicesV10CodingKeys33_FD287A3A8DF599E196D8BEE9536ABE84LLOSHAASQ
+- _associated conformance 11MediaCoreUI31ClientDefinedMotionCacheIndicesV10CodingKeys33_FD287A3A8DF599E196D8BEE9536ABE84LLOs0I3KeyAAs23CustomStringConvertible
+- _associated conformance 11MediaCoreUI31ClientDefinedMotionCacheIndicesV10CodingKeys33_FD287A3A8DF599E196D8BEE9536ABE84LLOs0I3KeyAAs28CustomDebugStringConvertible
+- _associated conformance So16NSURLResourceKeyaSHSCSQ
+- _associated conformance So16NSURLResourceKeyas20_SwiftNewtypeWrapperSCSY
+- _associated conformance So16NSURLResourceKeyas20_SwiftNewtypeWrapperSCs35_HasCustomAnyHashableRepresentation
+- _swift_unexpectedError
+- _symbolic SDySS_____ySS_____GG 11MediaCoreUI8LRUCacheC AA16MotionCacheEntryV
+- _symbolic SDySSypG6bucket_t
+- _symbolic SS8bucketID_t
+- _symbolic SaySDySSypGG
+- _symbolic _____ 11MediaCoreUI10ScrubStateO
+- _symbolic _____ 11MediaCoreUI20MotionCacheBucketKey33_150D033D1F10CE223D0962A78B6D0C57LLV
+- _symbolic _____ 11MediaCoreUI21MotionCacheSetupError33_FD287A3A8DF599E196D8BEE9536ABE84LLO
+- _symbolic _____ 11MediaCoreUI24MotionCacheInfoDictErrorO
+- _symbolic _____ 11MediaCoreUI27MotionCacheIndexDestinationO
+- _symbolic _____ 11MediaCoreUI28MotionCacheClientBucketErrorO
+- _symbolic _____ 11MediaCoreUI31ClientDefinedMotionCacheIndicesV
+- _symbolic _____ 11MediaCoreUI31ClientDefinedMotionCacheIndicesV10CodingKeys33_FD287A3A8DF599E196D8BEE9536ABE84LLO
+- _symbolic _____ 11MediaCoreUI31MotionCacheAssetsDirectoryError33_8E68C8EECF44100D3EEFEF8B6DDA556ELLO
+- _symbolic _____ So16NSURLResourceKeya
+- _symbolic _____7indices_t 11MediaCoreUI31ClientDefinedMotionCacheIndicesV
+- _symbolic _____SgXw 11MediaCoreUI11MotionCacheC
+- _symbolic _____SgXwz_Xx 11MediaCoreUI11MotionCacheC
+- _symbolic ______p17defaultIndexError_AA_p020clientDefinedIndicesC0t s5ErrorP
+- _symbolic _____ySSG s11_SetStorageC
+- _symbolic _____ySSSgG 7SwiftUI30_EnvironmentKeyWritingModifierV
+- _symbolic _____ySSSiG s18_DictionaryStorageC
+- _symbolic _____ySS_____G5index_t 11MediaCoreUI8LRUCacheC AA16MotionCacheEntryV
+- _symbolic _____ySS_____ySS_____GG s18_DictionaryStorageC 11MediaCoreUI8LRUCacheC AC16MotionCacheEntryV
+- _symbolic _____y_____G s11_SetStorageC So16NSURLResourceKeya
+- _symbolic _____y_____G s22KeyedDecodingContainerV 11MediaCoreUI31ClientDefinedMotionCacheIndicesV10CodingKeys33_FD287A3A8DF599E196D8BEE9536ABE84LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 11MediaCoreUI31ClientDefinedMotionCacheIndicesV10CodingKeys33_FD287A3A8DF599E196D8BEE9536ABE84LLO
+- _symbolic _____y_____G s23_ContiguousArrayStorageC So16NSURLResourceKeya
+- _symbolic _____y__________G 7Combine18PassthroughSubjectC 11MediaCoreUI10ScrubStateO s5NeverO
+- _symbolic _____y_____y_____y_____y_____y_____y_____y_____y_____y_____y_____y_____yAAy_____y_____yAAy_____yx_G_____GSg_AAyAAy_____yx_GAFG_____y_____GGSg_____yACyAAyAAyAAyAAyAAy_____yx_G_____G_____G_____GAVG_____y11OverlayView_____QzGG______SgAAyAAyAAyAAyAAy_____yx_GATGAVGAXGAVGANGAAyAAy_____yx_G_____GANGSgtG_____GAAyAAyAAy_____yx_GAFGATGAVGAAyAJ_____y_____GGSgtGG_____yx_GG_Qo__Qo__Qo__Qo__Qo__Qo__Qo__Qo__Qo__Qo_A28_y_____SgGG______Qo_ 7SwiftUI4ViewPAAE8onChange2of7initial_Qrqd___SbyyctSQRd__lFQO AA15ModifiedContentV AcAE0D4Test_7handlerQrAA11PPTTestCaseV4NameV_yALctFQO AcAEAI_AJQrAN_yALctFQO AcAEAI_AJQrAN_yALctFQO AcAEAI_AJQrAN_yALctFQO AcAEAI_AJQrAN_yALctFQO AcAEAI_AJQrAN_yALctFQO AcAEAI_AJQrAN_yALctFQO AcAEAI_AJQrAN_yALctFQO AcAEAI_AJQrAN_yALctFQO AcAE20accessibilityElement8childrenQrAA26AccessibilityChildBehaviorV_tFQO AA6ZStackV AA05TupleC0V 09MediaCoreB0010NowPlayingC0V18ArtworkPlaceholderV AA30_SafeAreaRegionsIgnoringLayoutV AY07ArtworkC0V AA21_TraitWritingModifierV AA14ZIndexTraitKeyV AA012_ConditionalI0V AY010FullScreeniC0V AW15OpacityModifier33_DCEEEA71E3FB935C9DB379446A3F7952LLV AA0R18AttachmentModifierV AA01_r19IgnoresInvertColorsC8ModifierV AA16_OverlayModifierV AW0yZ10ControllerP AW15GradientTopMaskV AY19HeaderDismissButtonV AY05DebugC0V AA14_PaddingLayoutV AA5ColorV AY010MiniPlayeriC0V AA30_EnvironmentKeyWritingModifierV AA11ColorSchemeO AY25BackdropConditionObserverV AA9NamespaceV2IDV AW0yzC5ModelC11PlayerStyleO
+- _symbolic _____yx_____ySSSgGG 7SwiftUI15ModifiedContentV AA30_EnvironmentKeyWritingModifierV
+- block_copy_helper.102
+- block_copy_helper.105
+- block_copy_helper.114
+- block_copy_helper.120
+- block_copy_helper.124
+- block_copy_helper.133
+- block_copy_helper.148
+- block_copy_helper.155
+- block_copy_helper.161
+- block_copy_helper.17
+- block_copy_helper.204
+- block_copy_helper.216
+- block_copy_helper.222
+- block_copy_helper.40
+- block_copy_helper.52
+- block_copy_helper.64
+- block_copy_helper.78
+- block_copy_helper.87
+- block_copy_helper.90
+- block_copy_helper.98
+- block_descriptor.100
+- block_descriptor.104
+- block_descriptor.107
+- block_descriptor.116
+- block_descriptor.122
+- block_descriptor.126
+- block_descriptor.135
+- block_descriptor.150
+- block_descriptor.157
+- block_descriptor.163
+- block_descriptor.19
+- block_descriptor.206
+- block_descriptor.218
+- block_descriptor.224
+- block_descriptor.42
+- block_descriptor.54
+- block_descriptor.66
+- block_descriptor.80
+- block_descriptor.89
+- block_descriptor.92
+- block_destroy_helper.103
+- block_destroy_helper.106
+- block_destroy_helper.115
+- block_destroy_helper.121
+- block_destroy_helper.125
+- block_destroy_helper.134
+- block_destroy_helper.149
+- block_destroy_helper.156
+- block_destroy_helper.162
+- block_destroy_helper.18
+- block_destroy_helper.205
+- block_destroy_helper.217
+- block_destroy_helper.223
+- block_destroy_helper.41
+- block_destroy_helper.53
+- block_destroy_helper.65
+- block_destroy_helper.79
+- block_destroy_helper.88
+- block_destroy_helper.91
+- block_destroy_helper.99
+- get_witness_table 11MediaCoreUI20NowPlayingControllerRzl05SwiftC015ModifiedContentVyAEyAEyAEyAEyAEyAC6VStackVyAC9TupleViewVyAA0deL0V010MiniPlayeriL0Vyx_G_AC6SpacerVtGGAC16_OverlayModifierVyAK07ArtworkL0Vyx_GSgGGAC022_EnvironmentKeyWritingQ0VyAA0deL5ModelC0N5StyleOGGA0_yAA0deR0O9PlacementOGGAA0desQ033_992E328401D8FB7D45C341D7AB03F14ALLVyxGGA0_yAC9NamespaceV2IDVSgGGAC017_AllowsHitTestingQ0VGAC0L0HPA24_ACA28_HPA17_ACA28_HPA12_ACA28_HPA6_ACA28_HPAzCA28_HPArCA28_HPyHC_AyC0lQ0HPyHCHC_A5_ACA29_HPyHCHC_A11_ACA29_HPyHCHC_A16_ACA29_HPyHCHC_A23_ACA29_HPyHCHC_A26_ACA29_HPyHCHC.244
+- get_witness_table 11MediaCoreUI20NowPlayingControllerRzlqd0__05SwiftC04ViewHD3_AcDPACE8onChange2of7initial_Qrqd___SbyyctSQRd__lFQOyAC15ModifiedContentVyAeCE0I4Test_7handlerQrAC11PPTTestCaseV4NameV_yANctFQOyAeCEAK_ALQrAP_yANctFQOyAeCEAK_ALQrAP_yANctFQOyAeCEAK_ALQrAP_yANctFQOyAeCEAK_ALQrAP_yANctFQOyAeCEAK_ALQrAP_yANctFQOyAeCEAK_ALQrAP_yANctFQOyAeCEAK_ALQrAP_yANctFQOyAeCEAK_ALQrAP_yANctFQOyAeCE20accessibilityElement8childrenQrAC26AccessibilityChildBehaviorV_tFQOyAJyAC6ZStackVyAC05TupleH0VyAJyAA0deH0V18ArtworkPlaceholderVyx_GAC30_SafeAreaRegionsIgnoringLayoutVGSg_AJyAJyAZ07ArtworkH0Vyx_GA3_GAC21_TraitWritingModifierVyAC14ZIndexTraitKeyVGGSgAC012_ConditionalN0VyAXyAJyAJyAJyAJyAJyAZ010FullScreennH0Vyx_GAA15OpacityModifier33_DCEEEA71E3FB935C9DB379446A3F7952LLVGAC0W18AttachmentModifierVGAC01_w19IgnoresInvertColorsH8ModifierVGA27_GAC16_OverlayModifierVy07OverlayH0QzGG_AA15GradientTopMaskVSgAJyAJyAJyAJyAJyAZ19HeaderDismissButtonVyx_GA24_GA27_GA30_GA27_GA14_GAJyAJyAZ05DebugH0Vyx_GAC14_PaddingLayoutVGA14_GSgtGAC5ColorVGAJyAJyAJyAZ010MiniPlayernH0Vyx_GA3_GA24_GA27_GAJyA8_AC30_EnvironmentKeyWritingModifierVyAC11ColorSchemeOGGSgtGGAZ25BackdropConditionObserverVyx_GG_Qo__Qo__Qo__Qo__Qo__Qo__Qo__Qo__Qo__Qo_A69_yAC9NamespaceV2IDVSgGG_AA0deH5ModelC11PlayerStyleOQo_HO.38
+- get_witness_table 7SwiftUI15ModifiedContentVyACyAA6HStackVyAA9TupleViewVyAA13_StrokedShapeVy09MediaCoreB018DebugDimensionTextV9ArrowLine33_45778ABE92DA7A6B15EB4CE102F23EDCLLVG_ACyACyACyACyACyACyACyACyAA0N0VAA16_FixedSizeLayoutVGAA30_EnvironmentKeyWritingModifierVySiSgGGAA14_PaddingLayoutVGA0_GAA24_ForegroundStyleModifierVyAA5ColorVGGAA24_BackgroundStyleModifierVyA6_GGAA11_ClipEffectVyAA16RoundedRectangleVGGAWyAA4FontVSgGGACyApA12_ScaleEffectVGtGGA7_GAA12_FrameLayoutVGAA0G0HPA29_AAA33_HPA28_AAA33_HPyHC_A7_AA0G8ModifierHPyHCHC_A31_AAA34_HPyHCHC.180
+- get_witness_table 7SwiftUI15ModifiedContentVyACyACyAA6IDViewVy09MediaCoreB029MotionPlayerViewRepresentable33_5C0FCAEC7E121FD01840555B36210BDCLLV10Foundation3URLVSgGAA25_AppearanceActionModifierVGAPGAF23HostedScenePhaseSupportVGSgAA0J0HpAuaWHPAraWHPAqaWHPAnaWHPyHC_ApA0jV0HPyHCHC_ApaXHPyHCHC_AtaXHPyHCHC_HC.201
+- get_witness_table 7SwiftUI4ViewRzlAA15ModifiedContentVyxAA30_EnvironmentKeyWritingModifierVyAA5ColorVGGAaBHPxAaBHD1__AiA0cI0HPyHCHC.54
+- get_witness_table 7SwiftUI4ViewRzlAA15ModifiedContentVyxAA30_EnvironmentKeyWritingModifierVySSSgGGAaBHPxAaBHD1__AhA0cI0HPyHCHC.1
+- objectdestroy.103Tm
+- objectdestroy.15Tm
+- objectdestroy.178Tm
+- objectdestroy.91Tm
+CStrings:
++ "cacheIndex"
++ "cachedAssetsFolder"
++ "com.apple.amp.MediaCoreUI.MotionCache.capacity"
+- " without previously defining any cache bucket."
+- "Attempting to retrieve MotionCache.cacheAsset for "
+- "Cache bucket with ID "
+- "Could not cancel download: "
+- "Default client-defined cache bucket with ID "
+- "Existing indices"
+- "MCUIDefaultCacheBucketID"
+- "MCUIMotionCacheBuckets"
+- "MediaCoreUI/PPT+Scrubber.swift"
+- "Motion.Cache.InfoDict"
+- "MotionCache.setUp complete"
+- "No longer referenced"
+- "NowPlayingScrubberTooltipPresentation"
+- "This is a very loooooooong title"
+- "Tried to access client-defined cache bucket with ID "
+- "Using client-defined cache bucket with ID: "
+- "Using client-defined default cache bucket with ID: "
+- "Using default cache bucket."
+- "appSpecificCacheAssetsFolder"
+- "cacheBucketID"
+- "cacheIndices"
+- "com.apple.MediaCoreUI.MotionCacheIsForceDisabled"
+- "decelerating"
+- "idle"
+- "pptScrubberInteractionState"
+- "tracking"
+
+```

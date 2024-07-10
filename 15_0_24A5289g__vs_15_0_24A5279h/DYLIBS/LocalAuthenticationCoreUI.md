@@ -1,0 +1,135 @@
+## LocalAuthenticationCoreUI
+
+> `/System/iOSSupport/System/Library/PrivateFrameworks/LocalAuthenticationCoreUI.framework/Versions/A/LocalAuthenticationCoreUI`
+
+```diff
+
+-1656.0.75.0.0
+-  __TEXT.__text: 0x35c4c
++1656.0.58.0.1
++  __TEXT.__text: 0x359bc
+   __TEXT.__auth_stubs: 0x15b0
+   __TEXT.__objc_methlist: 0x7d8
+-  __TEXT.__const: 0x15d4
+-  __TEXT.__cstring: 0x1239
++  __TEXT.__const: 0x15e4
++  __TEXT.__cstring: 0x11e9
+   __TEXT.__oslogstring: 0x2b5
+   __TEXT.__gcc_except_tab: 0x11c
+   __TEXT.__swift5_typeref: 0x2a1a
+   __TEXT.__swift5_capture: 0x2e8
+-  __TEXT.__swift5_reflstr: 0x4d3
++  __TEXT.__swift5_reflstr: 0x4c3
+   __TEXT.__swift5_assocty: 0x170
+-  __TEXT.__constg_swiftt: 0xad0
+-  __TEXT.__swift5_fieldmd: 0x5a4
++  __TEXT.__constg_swiftt: 0xab8
++  __TEXT.__swift5_fieldmd: 0x598
+   __TEXT.__swift5_builtin: 0x28
+   __TEXT.__swift5_proto: 0x7c
+   __TEXT.__swift5_types: 0x74
+   __TEXT.__swift5_protos: 0xc
+   __TEXT.__swift5_mpenum: 0x8
+-  __TEXT.__unwind_info: 0xeb0
+-  __TEXT.__eh_frame: 0xec8
++  __TEXT.__unwind_info: 0xea0
++  __TEXT.__eh_frame: 0xea0
+   __TEXT.__objc_classname: 0x249
+-  __TEXT.__objc_methname: 0x1a7d
++  __TEXT.__objc_methname: 0x1a62
+   __TEXT.__objc_methtype: 0x870
+   __TEXT.__objc_stubs: 0x14a0
+-  __DATA_CONST.__got: 0x568
++  __DATA_CONST.__got: 0x560
+   __DATA_CONST.__const: 0x3a8
+   __DATA_CONST.__objc_classlist: 0xa0
+   __DATA_CONST.__objc_protolist: 0x80
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x778
++  __DATA_CONST.__objc_selrefs: 0x770
+   __DATA_CONST.__objc_protorefs: 0x28
+   __DATA_CONST.__objc_superrefs: 0x50
+   __AUTH_CONST.__auth_got: 0xae8
+   __AUTH_CONST.__auth_ptr: 0x538
+   __AUTH_CONST.__const: 0xf28
+   __AUTH_CONST.__cfstring: 0x720
+-  __AUTH_CONST.__objc_const: 0x2d18
++  __AUTH_CONST.__objc_const: 0x2cf8
+   __AUTH_CONST.__objc_intobj: 0x30
+   __AUTH_CONST.__objc_doubleobj: 0x10
+-  __AUTH.__objc_data: 0x7f0
+-  __AUTH.__data: 0x870
++  __AUTH.__objc_data: 0x7d0
++  __AUTH.__data: 0x868
+   __DATA.__objc_ivar: 0xb0
+   __DATA.__data: 0xf18
+   __DATA.__bss: 0xf70
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 1247
+-  Symbols:   3333
+-  CStrings:  171
++  Functions: 1245
++  Symbols:   3329
++  CStrings:  169
+ 
+Symbols:
++ $s25LocalAuthenticationCoreUI21LACUIRatchetViewModelC3set33_149E4B8064CDB5BECE4AD0D18E10DC5BLL5stateyAC5StateO_tFyyYaYbcfU_TA.100
++ $s25LocalAuthenticationCoreUI21LACUIRatchetViewModelC3set33_149E4B8064CDB5BECE4AD0D18E10DC5BLL5stateyAC5StateO_tFyyYaYbcfU_TA.100TQ0_
++ $s25LocalAuthenticationCoreUI21LACUIRatchetViewModelC3set33_149E4B8064CDB5BECE4AD0D18E10DC5BLL5stateyAC5StateO_tFyyYaYbcfU_TA.100Tu
++ $s25LocalAuthenticationCoreUI21LACUIRatchetViewModelC3set33_149E4B8064CDB5BECE4AD0D18E10DC5BLL5stateyAC5StateO_tFyyYaYbcfU_TA.106
++ $s25LocalAuthenticationCoreUI21LACUIRatchetViewModelC3set33_149E4B8064CDB5BECE4AD0D18E10DC5BLL5stateyAC5StateO_tFyyYaYbcfU_TA.106TQ0_
++ $s25LocalAuthenticationCoreUI21LACUIRatchetViewModelC3set33_149E4B8064CDB5BECE4AD0D18E10DC5BLL5stateyAC5StateO_tFyyYaYbcfU_TA.106Tu
++ $s25LocalAuthenticationCoreUI21LACUIRatchetViewModelC3set33_149E4B8064CDB5BECE4AD0D18E10DC5BLL5stateyAC5StateO_tFyyYaYbcfU_TA.70
++ $s25LocalAuthenticationCoreUI21LACUIRatchetViewModelC3set33_149E4B8064CDB5BECE4AD0D18E10DC5BLL5stateyAC5StateO_tFyyYaYbcfU_TA.70TQ0_
++ $s25LocalAuthenticationCoreUI21LACUIRatchetViewModelC3set33_149E4B8064CDB5BECE4AD0D18E10DC5BLL5stateyAC5StateO_tFyyYaYbcfU_TA.70Tu
++ $s25LocalAuthenticationCoreUI21LACUIRatchetViewModelC3set33_149E4B8064CDB5BECE4AD0D18E10DC5BLL5stateyAC5StateO_tFyyYaYbcfU_TA.77
++ $s25LocalAuthenticationCoreUI21LACUIRatchetViewModelC3set33_149E4B8064CDB5BECE4AD0D18E10DC5BLL5stateyAC5StateO_tFyyYaYbcfU_TA.77TQ0_
++ $s25LocalAuthenticationCoreUI21LACUIRatchetViewModelC3set33_149E4B8064CDB5BECE4AD0D18E10DC5BLL5stateyAC5StateO_tFyyYaYbcfU_TA.77Tu
++ $s25LocalAuthenticationCoreUI21LACUIRatchetViewModelC3set33_149E4B8064CDB5BECE4AD0D18E10DC5BLL5stateyAC5StateO_tFyyYaYbcfU_TA.83
++ $s25LocalAuthenticationCoreUI21LACUIRatchetViewModelC3set33_149E4B8064CDB5BECE4AD0D18E10DC5BLL5stateyAC5StateO_tFyyYaYbcfU_TA.83TQ0_
++ $s25LocalAuthenticationCoreUI21LACUIRatchetViewModelC3set33_149E4B8064CDB5BECE4AD0D18E10DC5BLL5stateyAC5StateO_tFyyYaYbcfU_TA.83Tu
++ $s25LocalAuthenticationCoreUI21LACUIRatchetViewModelC3set33_149E4B8064CDB5BECE4AD0D18E10DC5BLL5stateyAC5StateO_tFyyYaYbcfU_TA.93
++ $s25LocalAuthenticationCoreUI21LACUIRatchetViewModelC3set33_149E4B8064CDB5BECE4AD0D18E10DC5BLL5stateyAC5StateO_tFyyYaYbcfU_TA.93TQ0_
++ $s25LocalAuthenticationCoreUI21LACUIRatchetViewModelC3set33_149E4B8064CDB5BECE4AD0D18E10DC5BLL5stateyAC5StateO_tFyyYaYbcfU_TA.93Tu
++ $s25LocalAuthenticationCoreUI21LACUIRatchetViewModelC4stop10withReason10invalidateySS_SbtFyyYaYbcfU_TA.56
++ $s25LocalAuthenticationCoreUI21LACUIRatchetViewModelC4stop10withReason10invalidateySS_SbtFyyYaYbcfU_TA.56TQ0_
++ $s25LocalAuthenticationCoreUI21LACUIRatchetViewModelC4stop10withReason10invalidateySS_SbtFyyYaYbcfU_TA.56Tu
++ _$s25LocalAuthenticationCoreUI31LACUIAuthCountdownConfigurationV5begin5title7message20showsLocationWarning17customCancelTitleACSSSg_AISbAItFZ
++ block_descriptor.110
++ block_descriptor.72
+- $s25LocalAuthenticationCoreUI21LACUIRatchetViewModelC3set33_149E4B8064CDB5BECE4AD0D18E10DC5BLL5stateyAC5StateO_tFyyYaYbcfU_TA.103
+- $s25LocalAuthenticationCoreUI21LACUIRatchetViewModelC3set33_149E4B8064CDB5BECE4AD0D18E10DC5BLL5stateyAC5StateO_tFyyYaYbcfU_TA.103TQ0_
+- $s25LocalAuthenticationCoreUI21LACUIRatchetViewModelC3set33_149E4B8064CDB5BECE4AD0D18E10DC5BLL5stateyAC5StateO_tFyyYaYbcfU_TA.103Tu
+- $s25LocalAuthenticationCoreUI21LACUIRatchetViewModelC3set33_149E4B8064CDB5BECE4AD0D18E10DC5BLL5stateyAC5StateO_tFyyYaYbcfU_TA.109
+- $s25LocalAuthenticationCoreUI21LACUIRatchetViewModelC3set33_149E4B8064CDB5BECE4AD0D18E10DC5BLL5stateyAC5StateO_tFyyYaYbcfU_TA.109TQ0_
+- $s25LocalAuthenticationCoreUI21LACUIRatchetViewModelC3set33_149E4B8064CDB5BECE4AD0D18E10DC5BLL5stateyAC5StateO_tFyyYaYbcfU_TA.109Tu
+- $s25LocalAuthenticationCoreUI21LACUIRatchetViewModelC3set33_149E4B8064CDB5BECE4AD0D18E10DC5BLL5stateyAC5StateO_tFyyYaYbcfU_TA.73
+- $s25LocalAuthenticationCoreUI21LACUIRatchetViewModelC3set33_149E4B8064CDB5BECE4AD0D18E10DC5BLL5stateyAC5StateO_tFyyYaYbcfU_TA.73TQ0_
+- $s25LocalAuthenticationCoreUI21LACUIRatchetViewModelC3set33_149E4B8064CDB5BECE4AD0D18E10DC5BLL5stateyAC5StateO_tFyyYaYbcfU_TA.73Tu
+- $s25LocalAuthenticationCoreUI21LACUIRatchetViewModelC3set33_149E4B8064CDB5BECE4AD0D18E10DC5BLL5stateyAC5StateO_tFyyYaYbcfU_TA.80
+- $s25LocalAuthenticationCoreUI21LACUIRatchetViewModelC3set33_149E4B8064CDB5BECE4AD0D18E10DC5BLL5stateyAC5StateO_tFyyYaYbcfU_TA.80TQ0_
+- $s25LocalAuthenticationCoreUI21LACUIRatchetViewModelC3set33_149E4B8064CDB5BECE4AD0D18E10DC5BLL5stateyAC5StateO_tFyyYaYbcfU_TA.80Tu
+- $s25LocalAuthenticationCoreUI21LACUIRatchetViewModelC3set33_149E4B8064CDB5BECE4AD0D18E10DC5BLL5stateyAC5StateO_tFyyYaYbcfU_TA.86
+- $s25LocalAuthenticationCoreUI21LACUIRatchetViewModelC3set33_149E4B8064CDB5BECE4AD0D18E10DC5BLL5stateyAC5StateO_tFyyYaYbcfU_TA.86TQ0_
+- $s25LocalAuthenticationCoreUI21LACUIRatchetViewModelC3set33_149E4B8064CDB5BECE4AD0D18E10DC5BLL5stateyAC5StateO_tFyyYaYbcfU_TA.86Tu
+- $s25LocalAuthenticationCoreUI21LACUIRatchetViewModelC3set33_149E4B8064CDB5BECE4AD0D18E10DC5BLL5stateyAC5StateO_tFyyYaYbcfU_TA.96
+- $s25LocalAuthenticationCoreUI21LACUIRatchetViewModelC3set33_149E4B8064CDB5BECE4AD0D18E10DC5BLL5stateyAC5StateO_tFyyYaYbcfU_TA.96TQ0_
+- $s25LocalAuthenticationCoreUI21LACUIRatchetViewModelC3set33_149E4B8064CDB5BECE4AD0D18E10DC5BLL5stateyAC5StateO_tFyyYaYbcfU_TA.96Tu
+- $s25LocalAuthenticationCoreUI21LACUIRatchetViewModelC4stop10withReason10invalidateySS_SbtFyyYaYbcfU_TA.59
+- $s25LocalAuthenticationCoreUI21LACUIRatchetViewModelC4stop10withReason10invalidateySS_SbtFyyYaYbcfU_TA.59TQ0_
+- $s25LocalAuthenticationCoreUI21LACUIRatchetViewModelC4stop10withReason10invalidateySS_SbtFyyYaYbcfU_TA.59Tu
+- _$s25LocalAuthenticationCoreUI16LocalizedStringsO36ratchetCoolOffMessageBeginStrictModeSSvgZ
+- _$s25LocalAuthenticationCoreUI21LACUIRatchetViewModelC14beginDelayText33_149E4B8064CDB5BECE4AD0D18E10DC5BLLSSSgvg
+- _$s25LocalAuthenticationCoreUI21LACUIRatchetViewModelC19isStrictModeEnabled33_149E4B8064CDB5BECE4AD0D18E10DC5BLLSbvpWvd
+- _$s25LocalAuthenticationCoreUI31LACUIAuthCountdownConfigurationV5begin5title7message17strictModeEnabled20showsLocationWarning17customCancelTitleACSSSg_AJS2bAJtFZ
+- _LACPolicyOptionBeginRatchetStrictModeLocalizedText
+- block_descriptor.113
+- block_descriptor.75
+CStrings:
+- "RATCHET_COOL_OFF_MESSAGE_BEGIN_STRICT_MODE"
+- "isStrictModeEnabled"
+
+```

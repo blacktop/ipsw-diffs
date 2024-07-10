@@ -1,0 +1,260 @@
+## ProactiveSummarization
+
+> `/System/Library/PrivateFrameworks/ProactiveSummarization.framework/Versions/A/ProactiveSummarization`
+
+```diff
+
+-1255.0.2.0.0
+-  __TEXT.__text: 0xe3de8
+-  __TEXT.__auth_stubs: 0x2a00
++1253.0.1.0.0
++  __TEXT.__text: 0xd68e0
++  __TEXT.__auth_stubs: 0x2880
+   __TEXT.__objc_methlist: 0x1d8
+-  __TEXT.__const: 0x8aa0
+-  __TEXT.__oslogstring: 0x51bd
+-  __TEXT.__cstring: 0x431c
+-  __TEXT.__swift5_typeref: 0x2898
+-  __TEXT.__swift5_proto: 0x7d8
+-  __TEXT.__constg_swiftt: 0x1f64
+-  __TEXT.__swift5_fieldmd: 0x2350
+-  __TEXT.__swift5_types: 0x314
+-  __TEXT.__swift5_reflstr: 0x1ebe
++  __TEXT.__const: 0x7f90
++  __TEXT.__oslogstring: 0x506d
++  __TEXT.__cstring: 0x401c
++  __TEXT.__swift5_typeref: 0x25fe
++  __TEXT.__swift5_proto: 0x738
++  __TEXT.__constg_swiftt: 0x1fa8
++  __TEXT.__swift5_fieldmd: 0x2138
++  __TEXT.__swift5_types: 0x2e0
++  __TEXT.__swift5_reflstr: 0x1ce9
+   __TEXT.__swift5_protos: 0x28
+   __TEXT.__swift5_builtin: 0xc8
+   __TEXT.__swift5_mpenum: 0x20
+-  __TEXT.__swift5_assocty: 0x1f8
+-  __TEXT.__swift5_capture: 0x774
++  __TEXT.__swift5_assocty: 0x1c8
++  __TEXT.__swift5_capture: 0x63c
+   __TEXT.__gcc_except_tab: 0xa4
+-  __TEXT.__unwind_info: 0x4230
+-  __TEXT.__eh_frame: 0xaee8
++  __TEXT.__unwind_info: 0x3e98
++  __TEXT.__eh_frame: 0xa110
+   __TEXT.__objc_classname: 0xe7
+-  __TEXT.__objc_methname: 0x1999
++  __TEXT.__objc_methname: 0x190e
+   __TEXT.__objc_methtype: 0x217
+   __TEXT.__objc_stubs: 0x4c0
+-  __DATA_CONST.__got: 0xcb0
+-  __DATA_CONST.__const: 0x368
+-  __DATA_CONST.__objc_classlist: 0xc0
++  __DATA_CONST.__got: 0xc40
++  __DATA_CONST.__const: 0x350
++  __DATA_CONST.__objc_classlist: 0xb8
+   __DATA_CONST.__objc_catlist: 0x8
+   __DATA_CONST.__objc_protolist: 0x80
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x7d0
++  __DATA_CONST.__objc_selrefs: 0x798
+   __DATA_CONST.__objc_protorefs: 0x40
+   __DATA_CONST.__objc_superrefs: 0x10
+-  __AUTH_CONST.__auth_got: 0x1510
+-  __AUTH_CONST.__auth_ptr: 0x768
+-  __AUTH_CONST.__const: 0x4798
++  __AUTH_CONST.__auth_got: 0x1450
++  __AUTH_CONST.__auth_ptr: 0x758
++  __AUTH_CONST.__const: 0x4160
+   __AUTH_CONST.__cfstring: 0x60
+-  __AUTH_CONST.__objc_const: 0x1d40
++  __AUTH_CONST.__objc_const: 0x1c80
+   __AUTH.__objc_data: 0x418
+-  __AUTH.__data: 0x11a8
++  __AUTH.__data: 0x1320
+   __DATA.__objc_ivar: 0x4
+-  __DATA.__data: 0x1f30
+-  __DATA.__bss: 0x100c0
+-  __DATA.__common: 0x250
++  __DATA.__data: 0x1db0
++  __DATA.__bss: 0xea80
++  __DATA.__common: 0x258
+   - /System/Library/Frameworks/Accounts.framework/Versions/A/Accounts
+   - /System/Library/Frameworks/Contacts.framework/Versions/A/Contacts
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+
+   - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
+-  - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 5504
+-  Symbols:   3947
+-  CStrings:  469
++  Functions: 5320
++  Symbols:   3829
++  CStrings:  455
+ 
+Symbols:
++ _OUTLINED_FUNCTION_373
++ _OUTLINED_FUNCTION_374
++ _OUTLINED_FUNCTION_375
++ _OUTLINED_FUNCTION_376
++ _OUTLINED_FUNCTION_377
++ _OUTLINED_FUNCTION_378
++ _OUTLINED_FUNCTION_379
++ _OUTLINED_FUNCTION_380
++ _associated conformance 22ProactiveSummarization0B12ManagerError33_22D12F23AB800CE4B11BC6C2C76FA402LLO10Foundation09LocalizedD0AAs0D0
++ _associated conformance 22ProactiveSummarization0B12ManagerError33_22D12F23AB800CE4B11BC6C2C76FA402LLOSHAASQ
++ _symbolic _____ 22ProactiveSummarization05EmptyB13FilterOptionsV
++ _symbolic _____ 22ProactiveSummarization0B12ManagerError33_22D12F23AB800CE4B11BC6C2C76FA402LLO
++ _symbolic _____ 22ProactiveSummarization11PowerBudgetV
++ _symbolic _____Sg 22ProactiveSummarization0B9AnalyticsC
++ block_copy_helper.45
++ block_copy_helper.48
++ block_descriptor.26
++ block_descriptor.30
++ block_descriptor.34
++ block_descriptor.35
++ block_descriptor.40
++ block_descriptor.47
++ block_descriptor.57
++ block_descriptor.58
++ block_destroy_helper.46
++ block_destroy_helper.49
++ objectdestroy.19Tm
++ objectdestroy.43Tm
+- _OBJC_CLASS_$_INFile
+- __DATA__TtCC22ProactiveSummarization22SummarizationAnalyticsP33_D79230A5D231979DEC02012E11A9965A11GuardedData
+- __IVARS__TtC22ProactiveSummarization28CodableOSAllocatedUnfairLock
+- __IVARS__TtCC22ProactiveSummarization22SummarizationAnalyticsP33_D79230A5D231979DEC02012E11A9965A11GuardedData
+- __METACLASS_DATA__TtCC22ProactiveSummarization22SummarizationAnalyticsP33_D79230A5D231979DEC02012E11A9965A11GuardedData
+- ___swift_instantiateGenericMetadata
+- _associated conformance 22ProactiveSummarization0B12ManagerErrorO10Foundation09LocalizedD0AAs0D0
+- _associated conformance 22ProactiveSummarization0B12ManagerErrorOSHAASQ
+- _associated conformance 22ProactiveSummarization0B9AnalyticsC11GuardedData33_D79230A5D231979DEC02012E11A9965ALLC10CodingKeysOSHAASQ
+- _associated conformance 22ProactiveSummarization0B9AnalyticsC11GuardedData33_D79230A5D231979DEC02012E11A9965ALLC10CodingKeysOs0L3KeyAAs23CustomStringConvertible
+- _associated conformance 22ProactiveSummarization0B9AnalyticsC11GuardedData33_D79230A5D231979DEC02012E11A9965ALLC10CodingKeysOs0L3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 22ProactiveSummarization0B9AnalyticsC16CaptioningResultOSHAASQ
+- _associated conformance 22ProactiveSummarization12FilterResultO6ReasonO07UrgencyC26_message_tapbackCodingKeys33_1C8455931BABA1D16BFA24DF6339273FLLOs0I3KeyAAs23CustomStringConvertible
+- _associated conformance 22ProactiveSummarization12FilterResultO6ReasonO07UrgencyC26_message_tapbackCodingKeys33_1C8455931BABA1D16BFA24DF6339273FLLOs0I3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 22ProactiveSummarization12FilterResultO6ReasonO07UrgencyC35_message_conversationOpenCodingKeys33_1C8455931BABA1D16BFA24DF6339273FLLOs0J3KeyAAs23CustomStringConvertible
+- _associated conformance 22ProactiveSummarization12FilterResultO6ReasonO07UrgencyC35_message_conversationOpenCodingKeys33_1C8455931BABA1D16BFA24DF6339273FLLOs0J3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 22ProactiveSummarization12FilterResultO6ReasonO0bC39_notification_featureDisabledCodingKeys33_1C8455931BABA1D16BFA24DF6339273FLLOs0I3KeyAAs23CustomStringConvertible
+- _associated conformance 22ProactiveSummarization12FilterResultO6ReasonO0bC39_notification_featureDisabledCodingKeys33_1C8455931BABA1D16BFA24DF6339273FLLOs0I3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 22ProactiveSummarization12FilterResultO6ReasonO0bC44_notificationStack_featureDisabledCodingKeys33_1C8455931BABA1D16BFA24DF6339273FLLOs0J3KeyAAs23CustomStringConvertible
+- _associated conformance 22ProactiveSummarization12FilterResultO6ReasonO0bC44_notificationStack_featureDisabledCodingKeys33_1C8455931BABA1D16BFA24DF6339273FLLOs0J3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 22ProactiveSummarization28CodableOSAllocatedUnfairLockC10CodingKeys33_72599942A47B27F61A62DAA555C0B6CFLLOyx_GSHAASQ
+- _associated conformance 22ProactiveSummarization28CodableOSAllocatedUnfairLockC10CodingKeys33_72599942A47B27F61A62DAA555C0B6CFLLOyx_Gs0G3KeyAAs23CustomStringConvertible
+- _associated conformance 22ProactiveSummarization28CodableOSAllocatedUnfairLockC10CodingKeys33_72599942A47B27F61A62DAA555C0B6CFLLOyx_Gs0G3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 22ProactiveSummarization8ValidityO6ReasonO22Mail_backlogCodingKeys33_58178C3A2F73C9EB6B01A699522A082BLLOs0G3KeyAAs23CustomStringConvertible
+- _associated conformance 22ProactiveSummarization8ValidityO6ReasonO22Mail_backlogCodingKeys33_58178C3A2F73C9EB6B01A699522A082BLLOs0G3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 22ProactiveSummarization8ValidityO6ReasonO25Message_backlogCodingKeys33_58178C3A2F73C9EB6B01A699522A082BLLOs0G3KeyAAs23CustomStringConvertible
+- _associated conformance 22ProactiveSummarization8ValidityO6ReasonO25Message_backlogCodingKeys33_58178C3A2F73C9EB6B01A699522A082BLLOs0G3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 22ProactiveSummarization8ValidityO6ReasonO53NotificationStack_handledByMessagesPipelineCodingKeys33_58178C3A2F73C9EB6B01A699522A082BLLOs0K3KeyAAs23CustomStringConvertible
+- _associated conformance 22ProactiveSummarization8ValidityO6ReasonO53NotificationStack_handledByMessagesPipelineCodingKeys33_58178C3A2F73C9EB6B01A699522A082BLLOs0K3KeyAAs28CustomDebugStringConvertible
+- _swift_getAssociatedConformanceWitness
+- _swift_getAssociatedTypeWitness
+- _swift_projectBox
+- _symbolic Say_____G 22ProactiveSummarization15SpotlightReaderC31latestUnreadSummarizedMessageId19forThreadIdentifier17messageIdsInStack9sinceDateS2S_SaySSG10Foundation0R0VtYaKF0h4WithR0L_V
+- _symbolic Say_____G 28ProactiveSummarizationClient23NotificationStackEntityV
+- _symbolic Say_____Gz_Xx 22ProactiveSummarization15SpotlightReaderC31latestUnreadSummarizedMessageId19forThreadIdentifier17messageIdsInStack9sinceDateS2S_SaySSG10Foundation0R0VtYaKF0h4WithR0L_V
+- _symbolic Say_____Gz_Xx 28ProactiveSummarizationClient23NotificationStackEntityV
+- _symbolic _____ 22ProactiveSummarization0B12ManagerErrorO
+- _symbolic _____ 22ProactiveSummarization0B9AnalyticsC11GuardedData33_D79230A5D231979DEC02012E11A9965ALLC
+- _symbolic _____ 22ProactiveSummarization0B9AnalyticsC11GuardedData33_D79230A5D231979DEC02012E11A9965ALLC10CodingKeysO
+- _symbolic _____ 22ProactiveSummarization0B9AnalyticsC16CaptioningResultO
+- _symbolic _____ 22ProactiveSummarization12FilterResultO6ReasonO07UrgencyC26_message_tapbackCodingKeys33_1C8455931BABA1D16BFA24DF6339273FLLO
+- _symbolic _____ 22ProactiveSummarization12FilterResultO6ReasonO07UrgencyC35_message_conversationOpenCodingKeys33_1C8455931BABA1D16BFA24DF6339273FLLO
+- _symbolic _____ 22ProactiveSummarization12FilterResultO6ReasonO0bC39_notification_featureDisabledCodingKeys33_1C8455931BABA1D16BFA24DF6339273FLLO
+- _symbolic _____ 22ProactiveSummarization12FilterResultO6ReasonO0bC44_notificationStack_featureDisabledCodingKeys33_1C8455931BABA1D16BFA24DF6339273FLLO
+- _symbolic _____ 22ProactiveSummarization15SpotlightReaderC31latestUnreadSummarizedMessageId19forThreadIdentifier17messageIdsInStack9sinceDateS2S_SaySSG10Foundation0R0VtYaKF0h4WithR0L_V
+- _symbolic _____ 22ProactiveSummarization28CodableOSAllocatedUnfairLockC
+- _symbolic _____ 22ProactiveSummarization28CodableOSAllocatedUnfairLockC10CodingKeys33_72599942A47B27F61A62DAA555C0B6CFLLO
+- _symbolic _____ 22ProactiveSummarization8ValidityO6ReasonO22Mail_backlogCodingKeys33_58178C3A2F73C9EB6B01A699522A082BLLO
+- _symbolic _____ 22ProactiveSummarization8ValidityO6ReasonO25Message_backlogCodingKeys33_58178C3A2F73C9EB6B01A699522A082BLLO
+- _symbolic _____ 22ProactiveSummarization8ValidityO6ReasonO53NotificationStack_handledByMessagesPipelineCodingKeys33_58178C3A2F73C9EB6B01A699522A082BLLO
+- _symbolic _____Sg 22ProactiveSummarization0B9AnalyticsC16CaptioningResultO
+- _symbolic _____Sg 22ProactiveSummarization15SpotlightReaderC31latestUnreadSummarizedMessageId19forThreadIdentifier17messageIdsInStack9sinceDateS2S_SaySSG10Foundation0R0VtYaKF0h4WithR0L_V
+- _symbolic _____ySSSiG s17_NativeDictionaryV
+- _symbolic _____ySsG 17_StringProcessing5RegexV
+- _symbolic _____y_____G 22ProactiveSummarization28CodableOSAllocatedUnfairLockC AA0B9AnalyticsC11GuardedData33_D79230A5D231979DEC02012E11A9965ALLC
+- _symbolic _____y_____G s11_SetStorageC 28ProactiveSummarizationClient15PipelineFeatureO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 22ProactiveSummarization0E9AnalyticsC11GuardedData33_D79230A5D231979DEC02012E11A9965ALLC10CodingKeysO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 22ProactiveSummarization12FilterResultO6ReasonO07UrgencyF26_message_tapbackCodingKeys33_1C8455931BABA1D16BFA24DF6339273FLLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 22ProactiveSummarization12FilterResultO6ReasonO07UrgencyF35_message_conversationOpenCodingKeys33_1C8455931BABA1D16BFA24DF6339273FLLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 22ProactiveSummarization12FilterResultO6ReasonO0eF39_notification_featureDisabledCodingKeys33_1C8455931BABA1D16BFA24DF6339273FLLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 22ProactiveSummarization12FilterResultO6ReasonO0eF44_notificationStack_featureDisabledCodingKeys33_1C8455931BABA1D16BFA24DF6339273FLLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 22ProactiveSummarization8ValidityO6ReasonO22Mail_backlogCodingKeys33_58178C3A2F73C9EB6B01A699522A082BLLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 22ProactiveSummarization8ValidityO6ReasonO25Message_backlogCodingKeys33_58178C3A2F73C9EB6B01A699522A082BLLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 22ProactiveSummarization8ValidityO6ReasonO53NotificationStack_handledByMessagesPipelineCodingKeys33_58178C3A2F73C9EB6B01A699522A082BLLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 22ProactiveSummarization0E9AnalyticsC11GuardedData33_D79230A5D231979DEC02012E11A9965ALLC10CodingKeysO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 22ProactiveSummarization12FilterResultO6ReasonO07UrgencyF26_message_tapbackCodingKeys33_1C8455931BABA1D16BFA24DF6339273FLLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 22ProactiveSummarization12FilterResultO6ReasonO07UrgencyF35_message_conversationOpenCodingKeys33_1C8455931BABA1D16BFA24DF6339273FLLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 22ProactiveSummarization12FilterResultO6ReasonO0eF39_notification_featureDisabledCodingKeys33_1C8455931BABA1D16BFA24DF6339273FLLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 22ProactiveSummarization12FilterResultO6ReasonO0eF44_notificationStack_featureDisabledCodingKeys33_1C8455931BABA1D16BFA24DF6339273FLLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 22ProactiveSummarization8ValidityO6ReasonO22Mail_backlogCodingKeys33_58178C3A2F73C9EB6B01A699522A082BLLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 22ProactiveSummarization8ValidityO6ReasonO25Message_backlogCodingKeys33_58178C3A2F73C9EB6B01A699522A082BLLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 22ProactiveSummarization8ValidityO6ReasonO53NotificationStack_handledByMessagesPipelineCodingKeys33_58178C3A2F73C9EB6B01A699522A082BLLO
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 22ProactiveSummarization15SpotlightReaderC31latestUnreadSummarizedMessageId19forThreadIdentifier17messageIdsInStack9sinceDateS2S_SaySSG10Foundation0U0VtYaKF0k4WithU0L_V
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 28ProactiveSummarizationClient15PipelineFeatureO
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 28ProactiveSummarizationClient23NotificationStackEntityV
+- _symbolic _____y_____Sg_____G s13ManagedBufferCsRi__rlE s5Int32V So16os_unfair_lock_sV
+- _symbolic _____yxG 2os21OSAllocatedUnfairLockV
+- _symbolic _____z_Xx 28ProactiveSummarizationClient10MailEntityV
+- _symbolic _____z_Xx 28ProactiveSummarizationClient13MessageEntityV
+- _symbolic _____z_Xx 28ProactiveSummarizationClient18NotificationEntityV
+- block_copy_helper.60
+- block_copy_helper.66
+- block_copy_helper.70
+- block_copy_helper.76
+- block_copy_helper.79
+- block_copy_helper.85
+- block_descriptor.32
+- block_descriptor.42
+- block_descriptor.44
+- block_descriptor.45
+- block_descriptor.62
+- block_descriptor.68
+- block_descriptor.69
+- block_descriptor.72
+- block_descriptor.78
+- block_descriptor.81
+- block_descriptor.87
+- block_descriptor.88
+- block_descriptor.89
+- block_destroy_helper.61
+- block_destroy_helper.67
+- block_destroy_helper.71
+- block_destroy_helper.77
+- block_destroy_helper.80
+- block_destroy_helper.86
+- objectdestroy.24Tm
+- objectdestroy.52Tm
+- objectdestroy.73Tm
+- objectdestroy.77Tm
+CStrings:
++ "\n Urgency Error: "
++ "\n Urgency Ineligible: "
++ "performWork(timeout:analytics:block:onTimeout:)"
++ "powerBudget"
+- "\n Priority Error: "
+- "\n Priority Ineligible: "
+- "Message is a tapback"
+- "Notification stack summarization is disabled"
+- "Notification summarization is disabled"
+- "_TtCC22ProactiveSummarization22SummarizationAnalyticsP33_D79230A5D231979DEC02012E11A9965A11GuardedData"
+- "asyncPerform(_:onImageURL:withIdentifier:)"
+- "captioningResult"
+- "latestMessageNotificationStack(forConversationUniqueIdentifier:)"
+- "latestUnreadSummarizedMessageId(forThreadIdentifier:messageIdsInStack:sinceDate:)"
+- "lock"
+- "notificationStack_handledByMessagesPipeline"
+- "summarizationFilter_notificationStack_featureDisabled"
+- "summarizationFilter_notification_featureDisabled"
+- "urgencyFilter_message_conversationOpen"
+- "urgencyFilter_message_tapback"
+- "v20@?0i8@\"NSError\"12"
+- "withTimeout(_:block:onTimeout:)"
+
+```

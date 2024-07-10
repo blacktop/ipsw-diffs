@@ -1,0 +1,672 @@
+## CMCapture
+
+> `/System/Library/PrivateFrameworks/CMCapture.framework/Versions/A/CMCapture`
+
+```diff
+
+-563.1.0.0.0
+-  __TEXT.__text: 0x46b094
+-  __TEXT.__auth_stubs: 0x3c10
+-  __TEXT.__objc_methlist: 0x1db4c
+-  __TEXT.__const: 0x141f70
+-  __TEXT.__gcc_except_tab: 0x19d8
+-  __TEXT.__cstring: 0x7045a
+-  __TEXT.__oslogstring: 0x8b486
++558.2.22.1.0
++  __TEXT.__text: 0x465378
++  __TEXT.__auth_stubs: 0x3bd0
++  __TEXT.__objc_methlist: 0x1da14
++  __TEXT.__const: 0x141f50
++  __TEXT.__gcc_except_tab: 0x1948
++  __TEXT.__cstring: 0x6fdbb
++  __TEXT.__oslogstring: 0x8aa9c
+   __TEXT.__dlopen_cstrs: 0xfa
+   __TEXT.__ustring: 0x10
+-  __TEXT.__unwind_info: 0x75f0
++  __TEXT.__unwind_info: 0x7530
+   __TEXT.__objc_classname: 0x4256
+-  __TEXT.__objc_methname: 0x6aadb
+-  __TEXT.__objc_methtype: 0xc1a3
+-  __TEXT.__objc_stubs: 0x2a720
+-  __DATA_CONST.__got: 0x4ce0
+-  __DATA_CONST.__const: 0x5190
++  __TEXT.__objc_methname: 0x6a4bb
++  __TEXT.__objc_methtype: 0xc07e
++  __TEXT.__objc_stubs: 0x2a540
++  __DATA_CONST.__got: 0x4cc0
++  __DATA_CONST.__const: 0x5170
+   __DATA_CONST.__objc_classlist: 0xf60
+   __DATA_CONST.__objc_catlist: 0x10
+   __DATA_CONST.__objc_protolist: 0x208
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0xd320
++  __DATA_CONST.__objc_selrefs: 0xd258
+   __DATA_CONST.__objc_protorefs: 0x8
+   __DATA_CONST.__objc_superrefs: 0xe88
+   __DATA_CONST.__objc_arraydata: 0x1160
+-  __AUTH_CONST.__auth_got: 0x1e18
++  __AUTH_CONST.__auth_got: 0x1df8
+   __AUTH_CONST.__auth_ptr: 0x50
+-  __AUTH_CONST.__const: 0x49b0
+-  __AUTH_CONST.__cfstring: 0x2f740
+-  __AUTH_CONST.__objc_const: 0x57fc8
+-  __AUTH_CONST.__objc_intobj: 0x2b68
++  __AUTH_CONST.__const: 0x48b0
++  __AUTH_CONST.__cfstring: 0x2f3c0
++  __AUTH_CONST.__objc_const: 0x57c28
++  __AUTH_CONST.__objc_intobj: 0x2b08
+   __AUTH_CONST.__objc_arrayobj: 0xde0
+   __AUTH_CONST.__objc_doubleobj: 0xc0
+   __AUTH_CONST.__objc_floatobj: 0x110
+   __AUTH_CONST.__objc_dictobj: 0xa0
+   __AUTH.__objc_data: 0x3430
+   __AUTH.__data: 0xe0
+-  __DATA.__objc_ivar: 0x6698
+-  __DATA.__data: 0x2704
+-  __DATA.__common: 0x1350
+-  __DATA.__bss: 0x1890
++  __DATA.__objc_ivar: 0x6638
++  __DATA.__data: 0x272c
++  __DATA.__common: 0x1340
++  __DATA.__bss: 0x1868
+   __DATA_DIRTY.__objc_data: 0x6590
+   __DATA_DIRTY.__data: 0x30
+   - /System/Library/Frameworks/Accelerate.framework/Versions/A/Accelerate
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libbsm.0.dylib
+   - /usr/lib/libobjc.A.dylib
+-  Functions: 13807
+-  Symbols:   36153
+-  CStrings:  12042
++  Functions: 13745
++  Symbols:   36029
++  CStrings:  11998
+ 
+Symbols:
++ -[BWBackgroundBlurNode initWithStillImageCaptureEnabled:maxLossyCompressionLevel:fastSwitchEnabled:availableEffects:activeEffect:isHighQualitySupported:upstreamDeviceOrientationCorrectionEnabled:]
++ -[BWBackgroundBlurNode setSuppressVideoEffects:]
++ -[BWBackgroundBlurNode suppressVideoEffects]
++ -[BWFigVideoCaptureDevice _ubResolveStillImageCaptureFlagsForCaptureType:sceneFlags:settings:frameStatisticsByPortType:hdrMode:speedOverQuality:speedOverQualityDowngrade:qualityPrioritization:highResolutionFlavor:canDefer:processingSupportProvider:zeroShutterLagFailureReasonOut:metadata:]
++ -[BWFigVideoCaptureStream serviceNondisruptiveSwitchingFormatForZoomFactor:frameStatistics:stillImageDigitalFlashMode:isStationary:binnedSIFROnSlaveAllowed:]
++ -[BWMultiStreamCameraSourceNode _setMLVNRConfiguration]
++ -[BWMultiStreamCameraSourceNode secureMetadataOutputConfigurationHasChanged:]
++ -[BWMultiStreamCameraSourceNodeConfiguration attentionDetectionEnabled]
++ -[BWMultiStreamCameraSourceNodeConfiguration eyeReliefStatusOutputEnabled]
++ -[BWMultiStreamCameraSourceNodeConfiguration secureMetadataEnabled]
++ -[BWMultiStreamCameraSourceNodeConfiguration secureObjectDetectionEnabled]
++ -[BWMultiStreamCameraSourceNodeConfiguration setAttentionDetectionEnabled:]
++ -[BWMultiStreamCameraSourceNodeConfiguration setEyeReliefStatusOutputEnabled:]
++ -[BWMultiStreamCameraSourceNodeConfiguration setSecureMetadataEnabled:]
++ -[BWMultiStreamCameraSourceNodeConfiguration setSecureObjectDetectionEnabled:]
++ -[BWMultiStreamCameraSourceNodeConfiguration setTrackedFacesOutputEnabled:]
++ -[BWMultiStreamCameraSourceNodeConfiguration trackedFacesOutputEnabled]
++ -[BWNondisruptiveSwitchingFormatSelector formatIndexForZoomFactor:frameStatistics:stillImageDigitalFlashMode:isStationary:isSlave:binnedSIFROnSlaveAllowed:]
++ -[BWPhotoEncoderController _addDepthForEncodingScheme:sampleBuffer:primaryOutputAspectRatio:processingFlags:parentImageHandle:]
++ -[BWPhotoEncoderController _addGainMapForEncodingScheme:sampleBuffer:outputWidth:outputHeight:primaryOutputAspectRatio:processingFlags:parentImageHandle:]
++ -[BWPhotoEncoderController _addOrPrewarmForAttachedMediaKey:encodingScheme:sampleBuffer:metadata:stillImageSettings:processingFlags:parentImageHandle:]
++ -[BWPhotoEncoderController _addPortraitEffectsMatteForEncodingScheme:sampleBuffer:primaryOutputAspectRatio:processingFlags:parentImageHandle:]
++ -[BWPhotoEncoderController _addSemanticMattesForEncodingScheme:attachedMediaKey:sampleBuffer:primaryOutputAspectRatio:settingsID:processingFlags:orientation:parentImageHandle:]
++ -[BWPhotoEncoderController _aspectRatioAdjustmentFactorForSettings:processingFlags:]
++ -[BWPhotoEncoderController _expectsAdjustedPhotoForOriginalPhoto:stillImageSettings:]
++ -[BWPhotoEncoderController _handlePrewarmForDepthForEncodingScheme:requestedStillImageCaptureSettings:prewarmingMetadata:prewarmingProcessingFlags:]
++ -[BWPhotoEncoderController _handlePrewarmForGainMapForEncodingScheme:requestedStillImageCaptureSettings:prewarmingMetadata:prewarmingProcessingFlags:]
++ -[BWPhotoEncoderController _handlePrewarmForMainImageForEncodingScheme:prewarmingMetadata:stillImageSettings:prewarmingProcessingFlags:]
++ -[BWPhotoEncoderController _prewarmAndReserveMainImageHandleForEncodingScheme:prewarmingMetadata:stillImageSettings:prewarmingProcessingFlags:]
++ -[BWPhotoEncoderController _primaryOutputAspectRatioForSettings:processingFlags:]
++ -[BWPhotoEncoderController _releaseResourcesAndWaitForPendingWorkItems:]
++ -[BWPhotoEncoderController _requiresPhotosAdjustment:]
++ -[BWPhotoEncoderController inputForStillImageSettings:portraitAdjustedImage:optionalSampleBuffer:forEarlyEncoding:]
++ -[BWPhotoEncoderController inputVideoFormat]
++ -[BWPhotoEncoderController mediaPropertiesByAttachedMediaKey]
++ -[BWPhotoEncoderController setInputVideoFormat:]
++ -[BWPhotoEncoderController setMediaPropertiesByAttachedMediaKey:]
++ -[BWPhotoEncoderControllerInput initWithStillImageSettings:]
++ -[BWSecureMetadataOutputConfigurator _updateSecureMetadataOutputConfiguration]
++ -[BWSecureMetadataOutputConfigurator secureMetadataOutputConfiguration]
++ -[BWSlaveFrameSynchronizerNode initWithDepthEnabled:numberOfInputs:syncSlaveForMasterPortTypes:separateDepthComponentsEnabled:preLTMThumbnailEnabled:postColorProcessingThumbnailEnabled:skipSecondaryFrames:]
++ -[BWVideoPIPOverlayNode initWithDelegate:secondaryCameraStreamingEnabled:secondaryCameraFrameRate:maxLossyCompressionLevel:isDeviceBravoVariant:baseZoomFactorsByPortType:]
++ -[FigCaptureCMIOExtensionStream initWithType:name:forDevice:]
++ -[FigCaptureCameraSourcePipeline _addOverCaptureSourcePipelineToGraph:upstreamVideoCaptureOutputsBySourceDeviceType:depthEnabled:depthFilterRenderingEnabled:preLTMThumbnailEnabled:postColorProcessingThumbnailEnabled:forPreview:maxLossyCompressionLevel:skipSecondaryFrames:outErr:]
++ -[FigCaptureCameraSourcePipeline _buildPreviewOutputNetwork:videoCaptureOutputsBySourceDeviceType:pipelineConfiguration:graph:skipSecondaryFrames:]
++ -[FigCaptureCameraSourcePipeline _buildVideoCaptureOutputNetwork:previewOutputsBySourceDeviceType:stillImageOutputsByPortType:lightSourceMaskOutputsBySourceDeviceType:keypointDescriptorDataOutputsBySourceDeviceType:pipelineConfiguration:graph:videoCaptureDimensions:skipSecondaryFrames:]
++ -[FigCaptureCameraSourcePipeline _insertCrossOverAndOverCaptureNodesOnOutputsBySourceDeviceType:connectionConfigurations:pipelineConfiguration:graph:outputNetworkType:skipSecondaryFrames:]
++ -[FigCaptureCameraSourcePipeline setWhileRunningBackgroundBlurEnabled:studioLightingEnabled:reactionEffectsEnabled:backgroundReplacementEnabled:suppressVideoEffects:]
++ -[FigCapturePreviewSinkPipeline _buildImageQueuePreviewSinkPipeline:previewPipelineStage:videoPreviewSinkConnectionConfiguration:previewScalerOutputBuffersAreShared:zoomPIPOverlayEnabled:zoomPIPSlaveStreamingEnabled:zoomPIPSlaveStreamingFrameRate:debugOverlayEnabled:deferredPrepareEnabled:parallelGraphRebuildEnabled:transform:remoteVideoPreview:maxLossyCompressionLevel:clientAuditToken:graph:captureDevice:previewTapDelegate:videoHDRImageStatisticsEnabled:zoomPIPOverlayDelegate:]
++ GCC_except_table10
++ GCC_except_table15
++ GCC_except_table19
++ GCC_except_table28
++ GCC_except_table328
++ GCC_except_table388
++ GCC_except_table471
++ GCC_except_table472
++ GCC_except_table70
++ OBJC_IVAR_$_BWBackgroundBlurNode._suppressVideoEffects
++ OBJC_IVAR_$_BWFigVideoCaptureStream._fastSwitchingPendingMaxFrameRate
++ OBJC_IVAR_$_BWFigVideoCaptureStream._fastSwitchingPendingMinFrameRate
++ OBJC_IVAR_$_BWFigVideoCaptureStream._pendingNondisruptiveSwitchingMaximumAllowedFrameRate
++ OBJC_IVAR_$_BWFigVideoCaptureStream._pendingNondisruptiveSwitchingMaximumFrameRate
++ OBJC_IVAR_$_BWFigVideoCaptureStream._pendingNondisruptiveSwitchingMinimumFrameRate
++ OBJC_IVAR_$_BWMultiStreamCameraSourceNodeConfiguration._attentionDetectionEnabled
++ OBJC_IVAR_$_BWMultiStreamCameraSourceNodeConfiguration._eyeReliefStatusOutputEnabled
++ OBJC_IVAR_$_BWMultiStreamCameraSourceNodeConfiguration._secureMetadataEnabled
++ OBJC_IVAR_$_BWMultiStreamCameraSourceNodeConfiguration._secureObjectDetectionEnabled
++ OBJC_IVAR_$_BWMultiStreamCameraSourceNodeConfiguration._trackedFacesOutputEnabled
++ OBJC_IVAR_$_BWPhotoEncoderController._inputVideoFormat
++ OBJC_IVAR_$_BWPhotoEncoderController._mediaPropertiesByAttachedMediaKey
++ OBJC_IVAR_$_BWSecureMetadataOutputConfigurator._secureMetadataOutputConfiguration
++ OBJC_IVAR_$_BWTemporalFilterNode._pipelineType
++ OBJC_IVAR_$_FigCaptureCMIOExtensionStream._name
++ __165-[FigCapturePreviewSinkPipeline _buildVideoPreviewSinkPipeline:sourcePreviewOutput:graph:inferenceScheduler:captureDevice:previewTapDelegate:zoomPIPOverlayDelegate:]_block_invoke.149
++ __17-[BWGraph start:]_block_invoke.75
++ __17-[BWGraph start:]_block_invoke.86
++ __270-[FigCapturePreviewSinkPipeline _buildPreviewTimeMachineSinkPipeline:upstreamPipelineStageForPreviewTimeMachine:upstreamTransform:previewTimeMachineConnectionConfiguration:videoPreviewEnabled:deferredPrepareEnabled:smartCameraMotionDetectionEnabled:graph:captureDevice:]_block_invoke.321
++ __40-[BWPhotoEncoderController _processSbuf]_block_invoke.175
++ __40-[BWPhotoEncoderController _processSbuf]_block_invoke.183
++ __40-[BWPhotoEncoderController _processSbuf]_block_invoke.184
++ __40-[BWPhotoEncoderController _processSbuf]_block_invoke.187
++ __40-[BWPhotoEncoderController _processSbuf]_block_invoke.188
++ __40-[BWPhotoEncoderController _processSbuf]_block_invoke.213
++ __410-[FigCaptureMovieFileSinkHeadPipeline _buildMovieFileSinkHeadPipeline:videoSourceCaptureOutput:audioSourceCaptureOutput:detectedObjectBoxedMetadataOutputs:objectDetectionSourceOutput:metadataSourcePipelineOutputs:graph:parentPipeline:debugOverlayNode:inferenceScheduler:captureDevice:audioSourceDelegate:fileCoordinatorStatusDelegate:irisRequestDelegate:masterClock:workgroup:videoGreenGhostMitigationEnabled:]_block_invoke.123
++ __56-[BWGraph _newDispatchGroupForSinksToTransitionToState:]_block_invoke.229
++ __62-[BWMultiStreamCameraSourceNode _registerStreamOutputHandlers]_block_invoke.1035
++ __69-[FigCaptureCameraSourcePipeline addMetadataProvidersToDebugOverlay:]_block_invoke.378
++ ___115-[BWPhotoEncoderController inputForStillImageSettings:portraitAdjustedImage:optionalSampleBuffer:forEarlyEncoding:]_block_invoke
++ ___196-[BWBackgroundBlurNode initWithStillImageCaptureEnabled:maxLossyCompressionLevel:fastSwitchEnabled:availableEffects:activeEffect:isHighQualitySupported:upstreamDeviceOrientationCorrectionEnabled:]_block_invoke
++ ___72-[BWPhotoEncoderController _releaseResourcesAndWaitForPendingWorkItems:]_block_invoke
++ ___72-[BWPhotoEncoderController _releaseResourcesAndWaitForPendingWorkItems:]_block_invoke_2
++ ___block_descriptor_65_e8_32o40o48r56r_e5_v8?0l
++ __block_literal_global.10
++ __block_literal_global.141
++ __block_literal_global.163
++ __block_literal_global.235
++ __block_literal_global.2371
++ __block_literal_global.2398
++ __block_literal_global.245
++ __block_literal_global.278
++ __block_literal_global.341
++ __block_literal_global.545
++ __block_literal_global.656
++ __block_literal_global.661
++ __block_literal_global.695
++ __block_literal_global.7
++ __block_literal_global.706
++ __block_literal_global.776
++ __block_literal_global.821
++ __block_literal_global.845
++ __block_literal_global.850
++ __block_literal_global.855
++ __block_literal_global.903
++ __block_literal_global.907
++ __block_literal_global.943
++ __captureSession_Invalidate_block_invoke.794
++ __captureSession_IrisStillImageSinkBeginMomentCapture_block_invoke.881
++ __captureSession_IrisStillImageSinkCancelMomentCapture_block_invoke.904
++ __captureSession_IrisStillImageSinkCommitMomentCaptureToMovieRecording_block_invoke.900
++ __captureSession_IrisStillImageSinkCommitMomentCaptureToStillImageCapture_block_invoke.894
++ __captureSession_IrisStillImageSinkEndMomentCapture_block_invoke.905
++ __captureSession_SetSectionProperty_block_invoke.812
++ __captureSession_SetSectionProperty_block_invoke.813
++ __captureSession_updatePrewarmedLaunchClientForStartRunning_block_invoke.837
++ __fvcd_logStillImageCaptureNowOptionsAndStreamProperties_block_invoke.2396
++ __multiStreamCameraSourceNode_dequeueAndRetainSampleBufferFromOutputQueue_block_invoke.1409
++ _kFigCaptureFlatDictionaryAppleMakerNote_GenAIImageType
++ _kFigCaptureFlatDictionaryAppleMakerNote_GenAIImageType_opaque
++ _kFigCaptureFlatDictionaryAppleMakerNote_GenAIImageType_string
++ _kFigCaptureStreamMetadata_AutoWhiteBalanceEnabled
++ _objc_msgSend$_addDepthForEncodingScheme:sampleBuffer:primaryOutputAspectRatio:processingFlags:parentImageHandle:
++ _objc_msgSend$_addGainMapForEncodingScheme:sampleBuffer:outputWidth:outputHeight:primaryOutputAspectRatio:processingFlags:parentImageHandle:
++ _objc_msgSend$_addOrPrewarmForAttachedMediaKey:encodingScheme:sampleBuffer:metadata:stillImageSettings:processingFlags:parentImageHandle:
++ _objc_msgSend$_addPortraitEffectsMatteForEncodingScheme:sampleBuffer:primaryOutputAspectRatio:processingFlags:parentImageHandle:
++ _objc_msgSend$_addSemanticMattesForEncodingScheme:attachedMediaKey:sampleBuffer:primaryOutputAspectRatio:settingsID:processingFlags:orientation:parentImageHandle:
++ _objc_msgSend$_aspectRatioAdjustmentFactorForSettings:processingFlags:
++ _objc_msgSend$_handlePrewarmForDepthForEncodingScheme:requestedStillImageCaptureSettings:prewarmingMetadata:prewarmingProcessingFlags:
++ _objc_msgSend$_handlePrewarmForGainMapForEncodingScheme:requestedStillImageCaptureSettings:prewarmingMetadata:prewarmingProcessingFlags:
++ _objc_msgSend$_handlePrewarmForMainImageForEncodingScheme:prewarmingMetadata:stillImageSettings:prewarmingProcessingFlags:
++ _objc_msgSend$_prewarmAndReserveMainImageHandleForEncodingScheme:prewarmingMetadata:stillImageSettings:prewarmingProcessingFlags:
++ _objc_msgSend$_primaryOutputAspectRatioForSettings:processingFlags:
++ _objc_msgSend$_releaseResourcesAndWaitForPendingWorkItems:
++ _objc_msgSend$_requiresPhotosAdjustment:
++ _objc_msgSend$_updateSecureMetadataOutputConfiguration
++ _objc_msgSend$eyeReliefStatusOutputEnabled
++ _objc_msgSend$formatIndexForZoomFactor:frameStatistics:stillImageDigitalFlashMode:isStationary:isSlave:binnedSIFROnSlaveAllowed:
++ _objc_msgSend$initWithDelegate:secondaryCameraStreamingEnabled:secondaryCameraFrameRate:maxLossyCompressionLevel:isDeviceBravoVariant:baseZoomFactorsByPortType:
++ _objc_msgSend$initWithDepthEnabled:numberOfInputs:syncSlaveForMasterPortTypes:separateDepthComponentsEnabled:preLTMThumbnailEnabled:postColorProcessingThumbnailEnabled:skipSecondaryFrames:
++ _objc_msgSend$initWithStillImageCaptureEnabled:maxLossyCompressionLevel:fastSwitchEnabled:availableEffects:activeEffect:isHighQualitySupported:upstreamDeviceOrientationCorrectionEnabled:
++ _objc_msgSend$initWithType:name:forDevice:
++ _objc_msgSend$inputForStillImageSettings:portraitAdjustedImage:optionalSampleBuffer:forEarlyEncoding:
++ _objc_msgSend$secureMetadataEnabled
++ _objc_msgSend$secureMetadataOutputConfigurationHasChanged:
++ _objc_msgSend$secureObjectDetectionEnabled
++ _objc_msgSend$serviceNondisruptiveSwitchingFormatForZoomFactor:frameStatistics:stillImageDigitalFlashMode:isStationary:binnedSIFROnSlaveAllowed:
++ _objc_msgSend$setEyeReliefStatusOutputEnabled:
++ _objc_msgSend$setInputVideoFormat:
++ _objc_msgSend$setMediaPropertiesByAttachedMediaKey:
++ _objc_msgSend$setSecureMetadataEnabled:
++ _objc_msgSend$setSecureObjectDetectionEnabled:
++ _objc_msgSend$setTrackedFacesOutputEnabled:
++ _objc_msgSend$trackedFacesOutput
++ _objc_msgSend$trackedFacesOutputEnabled
++ _su_computeRectificationRotation
+- +[FigCaptureCameraParameters temporalFilterSessionConfigurationForPortType:sensorIDString:]
+- -[BWBackgroundBlurNode continuityCameraClientDeviceClass]
+- -[BWBackgroundBlurNode initWithStillImageCaptureEnabled:maxLossyCompressionLevel:fastSwitchEnabled:availableEffects:activeEffect:isHighQualitySupported:upstreamDeviceOrientationCorrectionEnabled:deviceType:]
+- -[BWBackgroundBlurNode setContinuityCameraClientDeviceClass:]
+- -[BWCMPhotoEncoderManager addAuxImageMetadata:type:auxImageHandle:options:parentImageHandle:]
+- -[BWDNGEncoderManager addAuxImageMetadata:type:auxImageHandle:options:parentImageHandle:]
+- -[BWDeferredCaptureContainer waitForFlushWithTimeoutInSeconds:]
+- -[BWFigVideoCaptureDevice _ubResolveStillImageCaptureFlagsForCaptureType:sceneFlags:settings:frameStatisticsByPortType:hdrMode:speedOverQuality:speedOverQualityDowngrade:qualityPrioritization:highResolutionFlavor:ultraHighResolutionDowngrade:canDefer:processingSupportProvider:zeroShutterLagFailureReasonOut:metadata:]
+- -[BWFigVideoCaptureDevice setStreamingSessionAnalyticsClientIsVOIP:]
+- -[BWFigVideoCaptureDevice streamingSessionAnalyticsClientIsVOIP]
+- -[BWFigVideoCaptureStream serviceNondisruptiveSwitchingFormatForZoomFactor:frameStatistics:imageControlMode:stillImageDigitalFlashMode:isStationary:binnedSIFROnSecondaryStreamAllowed:]
+- -[BWFrameRateGovernorNode aeStabilityTuning]
+- -[BWFrameRateGovernorNode setAeStabilityTuning:]
+- -[BWGraph _graphStateTransitionTimeout]
+- -[BWGraph removeNode:]
+- -[BWMovieFileOutputAnalyticsPayload numberOfTimesRecordingWasPaused]
+- -[BWMovieFileOutputAnalyticsPayload setNumberOfTimesRecordingWasPaused:]
+- -[BWMultiStreamCameraSourceNode _updateOutputStorageWithSecureMetadataOutputConfiguration:propagateToNodeOutputs:]
+- -[BWMultiStreamCameraSourceNode secureMetadataOutputConfigurationDidChange:]
+- -[BWMultiStreamCameraSourceNodeConfiguration secureMetadataOutputConfiguration]
+- -[BWMultiStreamCameraSourceNodeConfiguration setSecureMetadataOutputConfiguration:]
+- -[BWNondisruptiveSwitchingFormatSelector formatIndexForZoomFactor:frameStatistics:imageControlMode:stillImageDigitalFlashMode:isStationary:isSecondaryStream:binnedSIFROnSecondaryStreamAllowed:]
+- -[BWPhotoEncoderController _addAlternateImageForEncodingScheme:flexGTCColorSpace:isP3primaries:tonemapItemMetadata:parentImageHandle:gainMapHandle:]
+- -[BWPhotoEncoderController _addDepthForEncodingScheme:sampleBuffer:primaryOutputAspectRatio:parentImageHandle:]
+- -[BWPhotoEncoderController _addGainMapForEncodingScheme:sampleBuffer:outputDimensions:primaryOutputAspectRatio:parentImageHandle:]
+- -[BWPhotoEncoderController _addGainMapMetadataForEncodingScheme:sampleBuffer:parentImageHandle:]
+- -[BWPhotoEncoderController _addOrPrewarmForAttachedMediaKey:encodingScheme:sampleBuffer:metadata:stillImageSettings:parentImageHandle:]
+- -[BWPhotoEncoderController _addPortraitEffectsMatteForEncodingScheme:sampleBuffer:primaryOutputAspectRatio:parentImageHandle:]
+- -[BWPhotoEncoderController _addSemanticMattesForEncodingScheme:attachedMediaKey:sampleBuffer:primaryOutputAspectRatio:settingsID:orientation:parentImageHandle:]
+- -[BWPhotoEncoderController _aspectRatioAdjustmentFactorForSettings:]
+- -[BWPhotoEncoderController _handlePrewarmForDepthForEncodingScheme:requestedStillImageCaptureSettings:prewarmingMetadata:]
+- -[BWPhotoEncoderController _handlePrewarmForGainMapForEncodingScheme:requestedStillImageCaptureSettings:prewarmingMetadata:]
+- -[BWPhotoEncoderController _handlePrewarmForMainImageForEncodingScheme:prewarmingMetadata:stillImageSettings:]
+- -[BWPhotoEncoderController _newGainMapAuxiliaryImagePropertiesForEncodingScheme:sampleBuffer:denormalizedCropRect:requiresPhotosAdjustment:encodingOptionsOut:flexGTCColorSpaceOut:tonemapItemMetadataOut:isP3PrimariesOut:]
+- -[BWPhotoEncoderController _prewarmAndReserveMainImageHandleForEncodingScheme:prewarmingMetadata:stillImageSettings:]
+- -[BWPhotoEncoderController _primaryOutputAspectRatioForSettings:]
+- -[BWPhotoEncoderController _releaseResources]
+- -[BWPhotoEncoderController _updateStillImageProcessingFlagsWithDepthMetadataForSbuf:stillImageSettings:]
+- -[BWPhotoEncoderController inputForStillImageSettings:portType:portraitAdjustedImage:requiresPhotosAdjustment:optionalSampleBuffer:forEarlyEncoding:]
+- -[BWPhotoEncoderController resolvedVideoFormatsByAttachedMediaKey]
+- -[BWPhotoEncoderController setResolvedVideoFormatsByAttachedMediaKey:]
+- -[BWPhotoEncoderControllerInput gainMapHandle]
+- -[BWPhotoEncoderControllerInput initWithStillImageSettings:portType:requiresPhotosAdjustment:]
+- -[BWPhotoEncoderControllerInput requiresPhotosAdjustment]
+- -[BWPhotoEncoderControllerInput setGainMapHandle:]
+- -[BWPhotoEncoderNode processorController:newOutputPixelBufferForProcessorInput:type:dimensions:]
+- -[BWReactionAnalyticsPayload clientApplicationID]
+- -[BWReactionAnalyticsPayload continuityCameraClientDeviceClass]
+- -[BWReactionAnalyticsPayload setClientApplicationID:]
+- -[BWReactionAnalyticsPayload setContinuityCameraClientDeviceClass:]
+- -[BWSecureMetadataOutputConfiguration isEmpty]
+- -[BWSecureMetadataOutputConfiguration isEqual:]
+- -[BWSecureMetadataOutputConfiguration metadataOutputConfigurationDictionary]
+- -[BWSecureMetadataOutputConfigurator _updateSecureMetadataOutputConfigurationForceDelegate:]
+- -[BWSecureMetadataOutputConfigurator coalescedSecureMetadataOutputConfiguration]
+- -[BWSlaveFrameSynchronizerNode initWithDepthEnabled:numberOfInputs:syncSlaveForMasterPortTypes:separateDepthComponentsEnabled:preLTMThumbnailEnabled:postColorProcessingThumbnailEnabled:numberOfSecondaryFramesToSkip:]
+- -[BWStreamingSessionAnalyticsPayload clientIsVOIP]
+- -[BWStreamingSessionAnalyticsPayload gesturesEnabledTime]
+- -[BWStreamingSessionAnalyticsPayload reactionEffectsEnabledTime]
+- -[BWStreamingSessionAnalyticsPayload setClientIsVOIP:]
+- -[BWStreamingSessionAnalyticsPayload setGesturesEnabledTime:]
+- -[BWStreamingSessionAnalyticsPayload setReactionEffectsEnabledTime:]
+- -[BWVideoPIPOverlayNode initWithDelegate:metalCommandQueue:secondaryCameraStreamingEnabled:secondaryCameraFrameRate:maxLossyCompressionLevel:isDeviceBravoVariant:baseZoomFactorsByPortType:]
+- -[FigCaptureCMIOExtensionStream initWithType:forDevice:]
+- -[FigCaptureCameraSourcePipeline _addOverCaptureSourcePipelineToGraph:upstreamVideoCaptureOutputsBySourceDeviceType:depthEnabled:depthFilterRenderingEnabled:preLTMThumbnailEnabled:postColorProcessingThumbnailEnabled:forPreview:maxLossyCompressionLevel:numberOfSecondaryFramesToSkip:outErr:]
+- -[FigCaptureCameraSourcePipeline _buildPreviewOutputNetwork:videoCaptureOutputsBySourceDeviceType:pipelineConfiguration:graph:numberOfSecondaryFramesToSkip:]
+- -[FigCaptureCameraSourcePipeline _buildVideoCaptureOutputNetwork:previewOutputsBySourceDeviceType:stillImageOutputsByPortType:lightSourceMaskOutputsBySourceDeviceType:keypointDescriptorDataOutputsBySourceDeviceType:pipelineConfiguration:graph:videoCaptureDimensions:numberOfSecondaryFramesToSkip:]
+- -[FigCaptureCameraSourcePipeline _insertCrossOverAndOverCaptureNodesOnOutputsBySourceDeviceType:connectionConfigurations:pipelineConfiguration:graph:outputNetworkType:numberOfSecondaryFramesToSkip:]
+- -[FigCaptureCameraSourcePipeline setWhileRunningBackgroundBlurEnabled:studioLightingEnabled:reactionEffectsEnabled:backgroundReplacementEnabled:]
+- -[FigCaptureCameraSourcePipelineConfiguration setClientIsVOIP:]
+- -[FigCaptureMovieFileSinkPipelineConfiguration setIspFastSwitchEnabled:]
+- -[FigCapturePipeline removeAllNodes]
+- -[FigCapturePreviewSinkPipeline _buildImageQueuePreviewSinkPipeline:previewPipelineStage:videoPreviewSinkConnectionConfiguration:previewScalerOutputBuffersAreShared:zoomPIPOverlayEnabled:zoomPIPSlaveStreamingEnabled:zoomPIPSlaveStreamingFrameRate:debugOverlayEnabled:deferredPrepareEnabled:parallelGraphRebuildEnabled:transform:remoteVideoPreview:maxLossyCompressionLevel:clientAuditToken:graph:captureDevice:previewTapDelegate:videoHDRImageStatisticsEnabled:zoomPIPOverlayDelegate:metalCommandQueue:]
+- -[FigCapturePreviewSinkPipelineConfiguration setIspFastSwitchEnabled:]
+- -[FigCaptureProprietaryDefaults objectsForWildcardKey:]
+- -[FigCaptureProprietaryDefaults setObject:forWildcardKey:]
+- -[FigCaptureSessionConfiguration clientIsVOIP]
+- -[FigCaptureSessionConfiguration setClientIsVOIP:]
+- -[FigCaptureSessionParsedConfiguration clientIsVOIP]
+- -[FigCaptureSessionPipelines cameraSourcePipelineCompatibleWithCameraConfiguration:]
+- GCC_except_table11
+- GCC_except_table20
+- GCC_except_table320
+- GCC_except_table379
+- GCC_except_table419
+- GCC_except_table468
+- GCC_except_table469
+- GCC_except_table59
+- GCC_except_table63
+- GCC_except_table98
+- OBJC_IVAR_$_BWBackgroundBlurNode._continuityCameraClientDeviceClass
+- OBJC_IVAR_$_BWBackgroundBlurNode._deviceType
+- OBJC_IVAR_$_BWFaceTrackingNode._decompressionLock
+- OBJC_IVAR_$_BWFigVideoCaptureDevice._gesturesEnabledStartTime
+- OBJC_IVAR_$_BWFigVideoCaptureDevice._gesturesEnabledTotalTime
+- OBJC_IVAR_$_BWFigVideoCaptureDevice._reactionEffectsEnabledStartTime
+- OBJC_IVAR_$_BWFigVideoCaptureDevice._reactionEffectsEnabledTotalTime
+- OBJC_IVAR_$_BWFigVideoCaptureDevice._streamingSessionAnalyticsClientIsVOIP
+- OBJC_IVAR_$_BWFrameRateGovernorNode._aeStabilityTuning
+- OBJC_IVAR_$_BWMovieFileOutputAnalyticsPayload._numberOfTimesRecordingWasPaused
+- OBJC_IVAR_$_BWMultiStreamCameraSourceNode._mlvnrDisabledDueToThermalPressure
+- OBJC_IVAR_$_BWMultiStreamCameraSourceNode._mlvnrThermalMonitor
+- OBJC_IVAR_$_BWMultiStreamCameraSourceNodeConfiguration._secureMetadataOutputConfiguration
+- OBJC_IVAR_$_BWNondisruptiveSwitchingFormatSelector._quadraSubPixelSceneBasedOnGain
+- OBJC_IVAR_$_BWNondisruptiveSwitchingFormatSelector._quadraSubPixelSceneMonitoringForVideoEnabled
+- OBJC_IVAR_$_BWPhotoEncoderController._encodingGroup
+- OBJC_IVAR_$_BWPhotoEncoderController._encodingQueue
+- OBJC_IVAR_$_BWPhotoEncoderController._resolvedVideoFormatsByAttachedMediaKey
+- OBJC_IVAR_$_BWPhotoEncoderControllerInput._gainMapHandle
+- OBJC_IVAR_$_BWPhotoEncoderControllerInput._requiresPhotosAdjustment
+- OBJC_IVAR_$_BWQuickTimeMovieFileSinkNode._currentRecordingStateSettingsID
+- OBJC_IVAR_$_BWQuickTimeMovieFileSinkNode._numberOfTimesRecordingWasPaused
+- OBJC_IVAR_$_BWReactionAnalyticsPayload._clientApplicationID
+- OBJC_IVAR_$_BWReactionAnalyticsPayload._continuityCameraClientDeviceClass
+- OBJC_IVAR_$_BWSecureMetadataOutputConfigurator._coalescedSecureMetadataOutputConfiguration
+- OBJC_IVAR_$_BWStreamingSessionAnalyticsPayload._clientIsVOIP
+- OBJC_IVAR_$_BWStreamingSessionAnalyticsPayload._gesturesEnabledTime
+- OBJC_IVAR_$_BWStreamingSessionAnalyticsPayload._reactionEffectsEnabledTime
+- OBJC_IVAR_$_BWStreamingSessionAnalyticsPayload._reactionsEffectsEnabledTime
+- OBJC_IVAR_$_BWTemporalFilterNode._filterSessionConfiguration
+- OBJC_IVAR_$_BWVideoPIPOverlayNode._metalCommandQueue
+- OBJC_IVAR_$_FigCaptureCameraSourcePipelineConfiguration._clientIsVOIP
+- OBJC_IVAR_$_FigCaptureClientApplicationStateMonitor._continuityDisplayLayoutMonitor
+- OBJC_IVAR_$_FigCaptureClientApplicationStateMonitor._continuityDisplayLayoutState
+- OBJC_IVAR_$_FigCaptureClientApplicationStateMonitor._isContinuityDisplayLayoutMonitoringRequiredForClient
+- OBJC_IVAR_$_FigCaptureClientApplicationStateMonitor._isContinuityDisplayLayoutStateInitialized
+- OBJC_IVAR_$_FigCaptureMovieFileSinkPipelineConfiguration._ispFastSwitchEnabled
+- OBJC_IVAR_$_FigCapturePreviewSinkPipelineConfiguration._ispFastSwitchEnabled
+- OBJC_IVAR_$_FigCaptureSessionConfiguration._clientIsVOIP
+- OBJC_IVAR_$_FigCaptureSessionParsedConfiguration._clientIsVOIP
+- _BSBundleIDForPID
+- _BWPhotoEncoderAttachedMediaEncodingStatusToShortString
+- _BWPhotoEncoderSupportsAddingAuxiliaryMetadataSeparately
+- _BWSampleBufferCreateAttachedMediaFromPixelBuffer
+- _BWSampleBufferGetPortType
+- _BWStillImageSetProcessingFlagsForSampleBuffer
+- _CMIOExtensionPropertyDeviceModel
+- _CMPhotoCompressionSessionAddAuxiliaryImageMetadata
+- _FigAssetReaderEnableOriginalSampleExtractionFromTrack
+- _FigAssetReaderEnableOriginalSampleReferenceExtractionFromTrack
+- _FigAssetReaderExtractAndRetainNextSampleBuffer
+- _FigAssetWriterAddNativeTrack
+- _FigAssetWriterIsTrackQueueAboveHighWaterLevel
+- _FigAssetWriterMarkEndOfDataForTrack
+- _FigAssetWriterSetFormatWriterProperty
+- _FigCaptureCMIOExtensionCreateDeviceUniqueID
+- _FigCaptureClientApplicationIdentifierCameracaptured
+- _FigCaptureCurrentProcessIsCameracaptured
+- _FigCaptureDisplayTypeName
+- _FigCaptureGetMacModelMajorVersion
+- _FigCaptureGetMacModelMinorVersion
+- _FigCaptureIsDebuggerOrSlowAllocationPathEnabled
+- _FigFormatReaderGetTrackCount
+- __165-[FigCapturePreviewSinkPipeline _buildVideoPreviewSinkPipeline:sourcePreviewOutput:graph:inferenceScheduler:captureDevice:previewTapDelegate:zoomPIPOverlayDelegate:]_block_invoke.150
+- __17-[BWGraph start:]_block_invoke.78
+- __17-[BWGraph start:]_block_invoke.89
+- __270-[FigCapturePreviewSinkPipeline _buildPreviewTimeMachineSinkPipeline:upstreamPipelineStageForPreviewTimeMachine:upstreamTransform:previewTimeMachineConnectionConfiguration:videoPreviewEnabled:deferredPrepareEnabled:smartCameraMotionDetectionEnabled:graph:captureDevice:]_block_invoke.322
+- __40-[BWPhotoEncoderController _processSbuf]_block_invoke.194
+- __40-[BWPhotoEncoderController _processSbuf]_block_invoke.205
+- __40-[BWPhotoEncoderController _processSbuf]_block_invoke.206
+- __40-[BWPhotoEncoderController _processSbuf]_block_invoke.209
+- __40-[BWPhotoEncoderController _processSbuf]_block_invoke.210
+- __40-[BWPhotoEncoderController _processSbuf]_block_invoke.235
+- __410-[FigCaptureMovieFileSinkHeadPipeline _buildMovieFileSinkHeadPipeline:videoSourceCaptureOutput:audioSourceCaptureOutput:detectedObjectBoxedMetadataOutputs:objectDetectionSourceOutput:metadataSourcePipelineOutputs:graph:parentPipeline:debugOverlayNode:inferenceScheduler:captureDevice:audioSourceDelegate:fileCoordinatorStatusDelegate:irisRequestDelegate:masterClock:workgroup:videoGreenGhostMitigationEnabled:]_block_invoke.124
+- __56-[BWGraph _newDispatchGroupForSinksToTransitionToState:]_block_invoke.235
+- __62-[BWMultiStreamCameraSourceNode _registerStreamOutputHandlers]_block_invoke.1020
+- __69-[FigCaptureCameraSourcePipeline addMetadataProvidersToDebugOverlay:]_block_invoke.376
+- ___114-[BWMultiStreamCameraSourceNode _updateOutputStorageWithSecureMetadataOutputConfiguration:propagateToNodeOutputs:]_block_invoke
+- ___115-[BWPhotoEncoderController inputReceivedNewAuxMedia:auxSbuf:attachedMediaKey:primaryImageMetadata:processingFlags:]_block_invoke
+- ___149-[BWPhotoEncoderController inputForStillImageSettings:portType:portraitAdjustedImage:requiresPhotosAdjustment:optionalSampleBuffer:forEarlyEncoding:]_block_invoke
+- ___207-[BWBackgroundBlurNode initWithStillImageCaptureEnabled:maxLossyCompressionLevel:fastSwitchEnabled:availableEffects:activeEffect:isHighQualitySupported:upstreamDeviceOrientationCorrectionEnabled:deviceType:]_block_invoke
+- ___33-[BWPhotoEncoderController reset]_block_invoke
+- ___33-[BWPhotoEncoderController reset]_block_invoke_2
+- ___48-[BWPhotoEncoderController _flushCurrentRequest]_block_invoke
+- ___48-[BWPhotoEncoderController _flushCurrentRequest]_block_invoke_2
+- ___53-[BWMultiStreamCameraSourceNode _bringStreamUpToDate]_block_invoke
+- ___55-[FigCaptureProprietaryDefaults objectsForWildcardKey:]_block_invoke
+- ___58-[FigCaptureProprietaryDefaults setObject:forWildcardKey:]_block_invoke
+- ___block_descriptor_48_e8_32o40w_e34_v16?0"FigCaptureThermalMonitor"8l
+- ___block_descriptor_60_e8_32o40o_e5_v8?0l
+- ___block_descriptor_64_e8_32o40o48o56o_e25_v32?0"NSString"816^B24l
+- ___block_descriptor_74_e8_32o40o48o56r64r_e5_v8?0l
+- ___copy_helper_block_e8_32o40o48o56r64r
+- ___destroy_helper_block_e8_32o40o48o56r64r
+- ___fcmss_extractMacModelMajorAndMinorVersions_block_invoke
+- __block_literal_global.128
+- __block_literal_global.14
+- __block_literal_global.144
+- __block_literal_global.166
+- __block_literal_global.17
+- __block_literal_global.23
+- __block_literal_global.237
+- __block_literal_global.2379
+- __block_literal_global.238
+- __block_literal_global.239
+- __block_literal_global.2406
+- __block_literal_global.281
+- __block_literal_global.380
+- __block_literal_global.546
+- __block_literal_global.659
+- __block_literal_global.664
+- __block_literal_global.698
+- __block_literal_global.709
+- __block_literal_global.782
+- __block_literal_global.824
+- __block_literal_global.848
+- __block_literal_global.853
+- __block_literal_global.858
+- __block_literal_global.884
+- __block_literal_global.910
+- __block_literal_global.923
+- __captureSession_Invalidate_block_invoke.797
+- __captureSession_IrisStillImageSinkBeginMomentCapture_block_invoke.884
+- __captureSession_IrisStillImageSinkCancelMomentCapture_block_invoke.907
+- __captureSession_IrisStillImageSinkCommitMomentCaptureToMovieRecording_block_invoke.903
+- __captureSession_IrisStillImageSinkCommitMomentCaptureToStillImageCapture_block_invoke.897
+- __captureSession_IrisStillImageSinkEndMomentCapture_block_invoke.908
+- __captureSession_SetSectionProperty_block_invoke.815
+- __captureSession_SetSectionProperty_block_invoke.816
+- __captureSession_updatePrewarmedLaunchClientForStartRunning_block_invoke.840
+- __fvcd_logStillImageCaptureNowOptionsAndStreamProperties_block_invoke.2404
+- __multiStreamCameraSourceNode_dequeueAndRetainSampleBufferFromOutputQueue_block_invoke.1402
+- _captureSource_CopyWildcardProprietaryDefault
+- _captureSource_SetWildcardProprietaryDefault
+- _fnmatch
+- _kFigCaptureSampleBufferMetadata_CropRectToBeAppliedToDepthMetadataWhenAvailable
+- _kFigCaptureSessionIrisStillImageSinkNotification_DidFinishRecordingMomentCaptureMovie
+- _kFigCaptureSessionIrisStillImageSinkNotification_DidStartRecordingIrisMovie
+- _kFigCaptureSessionPrewarmReason_LockScreenButton
+- _kFigCaptureSessionPrewarmReason_LockScreenSwipe
+- _kFigCaptureStreamPropertyMachineLearningVideoNoiseReductionConfigurationKey_FrameRateThreshold
+- _kFigCaptureStreamPropertyMachineLearningVideoNoiseReductionConfigurationKey_TotalGainThreshold
+- _mscsn_setMLVNRConfiguration
+- _objc_msgSend$_addAlternateImageForEncodingScheme:flexGTCColorSpace:isP3primaries:tonemapItemMetadata:parentImageHandle:gainMapHandle:
+- _objc_msgSend$_addDepthForEncodingScheme:sampleBuffer:primaryOutputAspectRatio:parentImageHandle:
+- _objc_msgSend$_addGainMapForEncodingScheme:sampleBuffer:outputDimensions:primaryOutputAspectRatio:parentImageHandle:
+- _objc_msgSend$_addGainMapMetadataForEncodingScheme:sampleBuffer:parentImageHandle:
+- _objc_msgSend$_addOrPrewarmForAttachedMediaKey:encodingScheme:sampleBuffer:metadata:stillImageSettings:parentImageHandle:
+- _objc_msgSend$_addPortraitEffectsMatteForEncodingScheme:sampleBuffer:primaryOutputAspectRatio:parentImageHandle:
+- _objc_msgSend$_addSemanticMattesForEncodingScheme:attachedMediaKey:sampleBuffer:primaryOutputAspectRatio:settingsID:orientation:parentImageHandle:
+- _objc_msgSend$_aspectRatioAdjustmentFactorForSettings:
+- _objc_msgSend$_handlePrewarmForDepthForEncodingScheme:requestedStillImageCaptureSettings:prewarmingMetadata:
+- _objc_msgSend$_handlePrewarmForGainMapForEncodingScheme:requestedStillImageCaptureSettings:prewarmingMetadata:
+- _objc_msgSend$_handlePrewarmForMainImageForEncodingScheme:prewarmingMetadata:stillImageSettings:
+- _objc_msgSend$_newGainMapAuxiliaryImagePropertiesForEncodingScheme:sampleBuffer:denormalizedCropRect:requiresPhotosAdjustment:encodingOptionsOut:flexGTCColorSpaceOut:tonemapItemMetadataOut:isP3PrimariesOut:
+- _objc_msgSend$_prewarmAndReserveMainImageHandleForEncodingScheme:prewarmingMetadata:stillImageSettings:
+- _objc_msgSend$_primaryOutputAspectRatioForSettings:
+- _objc_msgSend$_updateSecureMetadataOutputConfigurationForceDelegate:
+- _objc_msgSend$_updateStillImageProcessingFlagsWithDepthMetadataForSbuf:stillImageSettings:
+- _objc_msgSend$addAuxImageMetadata:type:auxImageHandle:options:parentImageHandle:
+- _objc_msgSend$characterAtIndex:
+- _objc_msgSend$clientIsVOIP
+- _objc_msgSend$contextWithMTLCommandQueue:options:
+- _objc_msgSend$dataUsingEncoding:allowLossyConversion:
+- _objc_msgSend$dictionaryRepresentation
+- _objc_msgSend$formatIndexForZoomFactor:frameStatistics:imageControlMode:stillImageDigitalFlashMode:isStationary:isSecondaryStream:binnedSIFROnSecondaryStreamAllowed:
+- _objc_msgSend$gainMapHandle
+- _objc_msgSend$initWithDelegate:metalCommandQueue:secondaryCameraStreamingEnabled:secondaryCameraFrameRate:maxLossyCompressionLevel:isDeviceBravoVariant:baseZoomFactorsByPortType:
+- _objc_msgSend$initWithDepthEnabled:numberOfInputs:syncSlaveForMasterPortTypes:separateDepthComponentsEnabled:preLTMThumbnailEnabled:postColorProcessingThumbnailEnabled:numberOfSecondaryFramesToSkip:
+- _objc_msgSend$initWithStillImageCaptureEnabled:maxLossyCompressionLevel:fastSwitchEnabled:availableEffects:activeEffect:isHighQualitySupported:upstreamDeviceOrientationCorrectionEnabled:deviceType:
+- _objc_msgSend$initWithType:forDevice:
+- _objc_msgSend$inputForStillImageSettings:portType:portraitAdjustedImage:requiresPhotosAdjustment:optionalSampleBuffer:forEarlyEncoding:
+- _objc_msgSend$localizedName
+- _objc_msgSend$metadataOutputConfigurationDictionary
+- _objc_msgSend$objectsForWildcardKey:
+- _objc_msgSend$removeNode:
+- _objc_msgSend$requiresPhotosAdjustment
+- _objc_msgSend$secureMetadataOutputConfigurationDidChange:
+- _objc_msgSend$serviceNondisruptiveSwitchingFormatForZoomFactor:frameStatistics:imageControlMode:stillImageDigitalFlashMode:isStationary:binnedSIFROnSecondaryStreamAllowed:
+- _objc_msgSend$setClientIsVOIP:
+- _objc_msgSend$setExternalCamera:
+- _objc_msgSend$setGainMapHandle:
+- _objc_msgSend$setGesturesEnabledTime:
+- _objc_msgSend$setNumberOfTimesRecordingWasPaused:
+- _objc_msgSend$setObject:forWildcardKey:
+- _objc_msgSend$setReactionEffectsEnabledTime:
+- _objc_msgSend$setResolvedVideoFormatsByAttachedMediaKey:
+- _objc_msgSend$setSecureMetadataOutputConfiguration:
+- _objc_msgSend$setStreamingSessionAnalyticsClientIsVOIP:
+- _objc_msgSend$waitForFlushWithTimeoutInSeconds:
+- _objc_msgSend$waitsForFencedUpdateBeforeFirstEmit
+- _os_unfair_lock_assert_not_owner
+- _pem_stringFromCMPhotoAuxImageType
+- _sMacModelMajorVersion
+- _sMacModelMinorVersion
+- _sNextSessionCount
+- _sSessionIDLock
+- fcmss_extractMacModelMajorAndMinorVersions.macModelSpecificOnceToken
+CStrings:
++ "-[BWBackgroundBlurNode initWithStillImageCaptureEnabled:maxLossyCompressionLevel:fastSwitchEnabled:availableEffects:activeEffect:isHighQualitySupported:upstreamDeviceOrientationCorrectionEnabled:]"
++ "-[BWBackgroundBlurNode initWithStillImageCaptureEnabled:maxLossyCompressionLevel:fastSwitchEnabled:availableEffects:activeEffect:isHighQualitySupported:upstreamDeviceOrientationCorrectionEnabled:]_block_invoke"
++ "-[BWDeferredCaptureContainer waitForFlush]"
++ "-[BWFigVideoCaptureDevice _ubResolveStillImageCaptureFlagsForCaptureType:sceneFlags:settings:frameStatisticsByPortType:hdrMode:speedOverQuality:speedOverQualityDowngrade:qualityPrioritization:highResolutionFlavor:canDefer:processingSupportProvider:zeroShutterLagFailureReasonOut:metadata:]"
++ "-[BWFigVideoCaptureStream setCompletedNondisruptiveSwitchingCommandID:]"
++ "-[BWFigVideoCaptureStream setMaximumFrameRate:]"
++ "-[BWMultiStreamCameraSourceNode _setMLVNRConfiguration]"
++ "-[BWNondisruptiveSwitchingFormatSelector formatIndexForZoomFactor:frameStatistics:stillImageDigitalFlashMode:isStationary:isSlave:binnedSIFROnSlaveAllowed:]"
++ "-[BWPhotoEncoderController _addDepthForEncodingScheme:sampleBuffer:primaryOutputAspectRatio:processingFlags:parentImageHandle:]"
++ "-[BWPhotoEncoderController _addGainMapForEncodingScheme:sampleBuffer:outputWidth:outputHeight:primaryOutputAspectRatio:processingFlags:parentImageHandle:]"
++ "-[BWPhotoEncoderController _addOrPrewarmForAttachedMediaKey:encodingScheme:sampleBuffer:metadata:stillImageSettings:processingFlags:parentImageHandle:]"
++ "-[BWPhotoEncoderController _addPortraitEffectsMatteForEncodingScheme:sampleBuffer:primaryOutputAspectRatio:processingFlags:parentImageHandle:]"
++ "-[BWPhotoEncoderController _addSemanticMattesForEncodingScheme:attachedMediaKey:sampleBuffer:primaryOutputAspectRatio:settingsID:processingFlags:orientation:parentImageHandle:]"
++ "-[BWPhotoEncoderController _handlePrewarmForDepthForEncodingScheme:requestedStillImageCaptureSettings:prewarmingMetadata:prewarmingProcessingFlags:]"
++ "-[BWPhotoEncoderController _handlePrewarmForGainMapForEncodingScheme:requestedStillImageCaptureSettings:prewarmingMetadata:prewarmingProcessingFlags:]"
++ "-[BWPhotoEncoderController _handlePrewarmForMainImageForEncodingScheme:prewarmingMetadata:stillImageSettings:prewarmingProcessingFlags:]"
++ "-[BWPhotoEncoderController _prewarmAndReserveMainImageHandleForEncodingScheme:prewarmingMetadata:stillImageSettings:prewarmingProcessingFlags:]"
++ "-[BWPhotoEncoderController inputForStillImageSettings:portraitAdjustedImage:optionalSampleBuffer:forEarlyEncoding:]"
++ "-[BWPhotoEncoderController inputForStillImageSettings:portraitAdjustedImage:optionalSampleBuffer:forEarlyEncoding:]_block_invoke"
++ "-[BWPhotoEncoderController inputReceivedNewAuxMedia:auxSbuf:attachedMediaKey:primaryImageMetadata:processingFlags:]"
++ "-[BWPhotoEncoderNode prepareForCurrentConfigurationToBecomeLive]"
++ "-[FigCaptureCMIOExtensionStream initWithType:name:forDevice:]"
++ "-[FigCaptureCameraSourcePipeline _addOverCaptureSourcePipelineToGraph:upstreamVideoCaptureOutputsBySourceDeviceType:depthEnabled:depthFilterRenderingEnabled:preLTMThumbnailEnabled:postColorProcessingThumbnailEnabled:forPreview:maxLossyCompressionLevel:skipSecondaryFrames:outErr:]"
++ "-[FigCaptureCameraSourcePipeline _buildVideoCaptureOutputNetwork:previewOutputsBySourceDeviceType:stillImageOutputsByPortType:lightSourceMaskOutputsBySourceDeviceType:keypointDescriptorDataOutputsBySourceDeviceType:pipelineConfiguration:graph:videoCaptureDimensions:skipSecondaryFrames:]"
++ "-[FigCapturePreviewSinkPipeline _buildImageQueuePreviewSinkPipeline:previewPipelineStage:videoPreviewSinkConnectionConfiguration:previewScalerOutputBuffersAreShared:zoomPIPOverlayEnabled:zoomPIPSlaveStreamingEnabled:zoomPIPSlaveStreamingFrameRate:debugOverlayEnabled:deferredPrepareEnabled:parallelGraphRebuildEnabled:transform:remoteVideoPreview:maxLossyCompressionLevel:clientAuditToken:graph:captureDevice:previewTapDelegate:videoHDRImageStatisticsEnabled:zoomPIPOverlayDelegate:]"
++ "/AppleInternal/Library/BuildRoots/0d0c1d4c-2d6d-11ef-bfc3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/CameraCapture/CMCapture/Sources/Common/CMCaptureUserNotification.m"
++ "/AppleInternal/Library/BuildRoots/0d0c1d4c-2d6d-11ef-bfc3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/CameraCapture/CMCapture/Sources/Common/FigCaptureCommon.m"
++ "/AppleInternal/Library/BuildRoots/0d0c1d4c-2d6d-11ef-bfc3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/CameraCapture/CMCapture/Sources/Common/FigRemoteQueue/FigRemoteQueue.c"
++ "/AppleInternal/Library/BuildRoots/0d0c1d4c-2d6d-11ef-bfc3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/CameraCapture/CMCapture/Sources/Graph/Base/BWGraph.m"
++ "/AppleInternal/Library/BuildRoots/0d0c1d4c-2d6d-11ef-bfc3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/CameraCapture/VideoProcessors/PreviewStabilization/BWPreviewGyroStabilization.m"
++ "Adding %!@(MISSING) aux images"
++ "BWSampleBufferSetAttachedMediaFromPixelBuffer"
++ "D57C93DA-B216-4C94-B139-3EF75FF3E07A"
++ "Parallel preview generation and photo encoding"
++ "Timed out waiting for flush"
++ "description=CameraCapture-558.2.22.1"
++ "deskcamDeviceStream"
++ "kFigFormatWriterTrackProperty_FormatDescriptionArray missing"
++ "mainDeviceStream"
++ "rectificationRotation is nil"
++ "secureDetectedObjectsSupported"
++ "secureEyeReliefSupported"
++ "su_computeRectificationRotation"
+- "%!x(MISSING)-%!x(MISSING)-%!x(MISSING)-%!x(MISSING)-%!x(MISSING)"
+- "%!@(MISSING) aux image {%!@(MISSING)}"
+- "*"
+- "-[BWAudioConverterNode setSettings:]"
+- "-[BWBackgroundBlurNode initWithStillImageCaptureEnabled:maxLossyCompressionLevel:fastSwitchEnabled:availableEffects:activeEffect:isHighQualitySupported:upstreamDeviceOrientationCorrectionEnabled:deviceType:]"
+- "-[BWBackgroundBlurNode initWithStillImageCaptureEnabled:maxLossyCompressionLevel:fastSwitchEnabled:availableEffects:activeEffect:isHighQualitySupported:upstreamDeviceOrientationCorrectionEnabled:deviceType:]_block_invoke"
+- "-[BWCMPhotoEncoderManager addAuxImageMetadata:type:auxImageHandle:options:parentImageHandle:]"
+- "-[BWDNGEncoderManager addAuxImageMetadata:type:auxImageHandle:options:parentImageHandle:]"
+- "-[BWDeferredCaptureContainer waitForFlushWithTimeoutInSeconds:]"
+- "-[BWFigVideoCaptureDevice _ubResolveStillImageCaptureFlagsForCaptureType:sceneFlags:settings:frameStatisticsByPortType:hdrMode:speedOverQuality:speedOverQualityDowngrade:qualityPrioritization:highResolutionFlavor:ultraHighResolutionDowngrade:canDefer:processingSupportProvider:zeroShutterLagFailureReasonOut:metadata:]"
+- "-[BWMultiStreamCameraSourceNode _bringStreamUpToDate]_block_invoke"
+- "-[BWMultiStreamCameraSourceNode dealloc]"
+- "-[BWNondisruptiveSwitchingFormatSelector formatIndexForZoomFactor:frameStatistics:imageControlMode:stillImageDigitalFlashMode:isStationary:isSecondaryStream:binnedSIFROnSecondaryStreamAllowed:]"
+- "-[BWPhotoEncoderController _addAlternateImageForEncodingScheme:flexGTCColorSpace:isP3primaries:tonemapItemMetadata:parentImageHandle:gainMapHandle:]"
+- "-[BWPhotoEncoderController _addDepthForEncodingScheme:sampleBuffer:primaryOutputAspectRatio:parentImageHandle:]"
+- "-[BWPhotoEncoderController _addGainMapForEncodingScheme:sampleBuffer:outputDimensions:primaryOutputAspectRatio:parentImageHandle:]"
+- "-[BWPhotoEncoderController _addGainMapMetadataForEncodingScheme:sampleBuffer:parentImageHandle:]"
+- "-[BWPhotoEncoderController _addOrPrewarmForAttachedMediaKey:encodingScheme:sampleBuffer:metadata:stillImageSettings:parentImageHandle:]"
+- "-[BWPhotoEncoderController _addPortraitEffectsMatteForEncodingScheme:sampleBuffer:primaryOutputAspectRatio:parentImageHandle:]"
+- "-[BWPhotoEncoderController _addSemanticMattesForEncodingScheme:attachedMediaKey:sampleBuffer:primaryOutputAspectRatio:settingsID:orientation:parentImageHandle:]"
+- "-[BWPhotoEncoderController _handlePrewarmForDepthForEncodingScheme:requestedStillImageCaptureSettings:prewarmingMetadata:]"
+- "-[BWPhotoEncoderController _handlePrewarmForGainMapForEncodingScheme:requestedStillImageCaptureSettings:prewarmingMetadata:]"
+- "-[BWPhotoEncoderController _handlePrewarmForMainImageForEncodingScheme:prewarmingMetadata:stillImageSettings:]"
+- "-[BWPhotoEncoderController _newGainMapAuxiliaryImagePropertiesForEncodingScheme:sampleBuffer:denormalizedCropRect:requiresPhotosAdjustment:encodingOptionsOut:flexGTCColorSpaceOut:tonemapItemMetadataOut:isP3PrimariesOut:]"
+- "-[BWPhotoEncoderController _prewarmAndReserveMainImageHandleForEncodingScheme:prewarmingMetadata:stillImageSettings:]"
+- "-[BWPhotoEncoderController _updateStillImageProcessingFlagsWithDepthMetadataForSbuf:stillImageSettings:]"
+- "-[BWPhotoEncoderController inputForStillImageSettings:portType:portraitAdjustedImage:requiresPhotosAdjustment:optionalSampleBuffer:forEarlyEncoding:]"
+- "-[BWPhotoEncoderController inputForStillImageSettings:portType:portraitAdjustedImage:requiresPhotosAdjustment:optionalSampleBuffer:forEarlyEncoding:]_block_invoke"
+- "-[BWPhotoEncoderController inputReceivedNewAuxMedia:auxSbuf:attachedMediaKey:primaryImageMetadata:processingFlags:]_block_invoke"
+- "-[BWPhotoEncoderNode processorController:newOutputPixelBufferForProcessorInput:type:dimensions:]"
+- "-[FigCaptureCMIOExtensionStream initWithType:forDevice:]"
+- "-[FigCaptureCameraSourcePipeline _addOverCaptureSourcePipelineToGraph:upstreamVideoCaptureOutputsBySourceDeviceType:depthEnabled:depthFilterRenderingEnabled:preLTMThumbnailEnabled:postColorProcessingThumbnailEnabled:forPreview:maxLossyCompressionLevel:numberOfSecondaryFramesToSkip:outErr:]"
+- "-[FigCaptureCameraSourcePipeline _buildVideoCaptureOutputNetwork:previewOutputsBySourceDeviceType:stillImageOutputsByPortType:lightSourceMaskOutputsBySourceDeviceType:keypointDescriptorDataOutputsBySourceDeviceType:pipelineConfiguration:graph:videoCaptureDimensions:numberOfSecondaryFramesToSkip:]"
+- "-[FigCapturePreviewSinkPipeline _buildImageQueuePreviewSinkPipeline:previewPipelineStage:videoPreviewSinkConnectionConfiguration:previewScalerOutputBuffersAreShared:zoomPIPOverlayEnabled:zoomPIPSlaveStreamingEnabled:zoomPIPSlaveStreamingFrameRate:debugOverlayEnabled:deferredPrepareEnabled:parallelGraphRebuildEnabled:transform:remoteVideoPreview:maxLossyCompressionLevel:clientAuditToken:graph:captureDevice:previewTapDelegate:videoHDRImageStatisticsEnabled:zoomPIPOverlayDelegate:metalCommandQueue:]"
+- "-[FigCaptureProprietaryDefaults objectsForWildcardKey:]"
+- "-[FigCaptureProprietaryDefaults setObject:forWildcardKey:]"
+- "/AppleInternal/Library/BuildRoots/d8c9c115-356a-11ef-b3f4-e2437461156c/Library/Caches/com.apple.xbs/Sources/CameraCapture/CMCapture/Sources/Common/CMCaptureUserNotification.m"
+- "/AppleInternal/Library/BuildRoots/d8c9c115-356a-11ef-b3f4-e2437461156c/Library/Caches/com.apple.xbs/Sources/CameraCapture/CMCapture/Sources/Common/FigCaptureCommon.m"
+- "/AppleInternal/Library/BuildRoots/d8c9c115-356a-11ef-b3f4-e2437461156c/Library/Caches/com.apple.xbs/Sources/CameraCapture/CMCapture/Sources/Common/FigRemoteQueue/FigRemoteQueue.c"
+- "/AppleInternal/Library/BuildRoots/d8c9c115-356a-11ef-b3f4-e2437461156c/Library/Caches/com.apple.xbs/Sources/CameraCapture/CMCapture/Sources/Graph/Base/BWGraph.m"
+- "/AppleInternal/Library/BuildRoots/d8c9c115-356a-11ef-b3f4-e2437461156c/Library/Caches/com.apple.xbs/Sources/CameraCapture/VideoProcessors/PreviewStabilization/BWPreviewGyroStabilization.m"
+- "<%!p(MISSING)[%!@(MISSING)][%!l(MISSING)lu]>"
+- "Adding Alternate Image"
+- "Adding GainMap Metadata"
+- "BWSampleBufferCreateAttachedMediaFromPixelBuffer"
+- "Can't remove a nil node"
+- "Cannot wildcard a signal"
+- "DOES"
+- "DeskcamDeviceStream"
+- "DidFinishRecordingMomentCaptureMovie"
+- "Encoding sample buffer"
+- "GainHysteresisLag"
+- "GainThreshold"
+- "Graph is not being configured, no configuration to commit"
+- "IrisDidStartRecordingIrisMovie"
+- "LockScreenButton"
+- "LockScreenSwipe"
+- "MainDeviceStream"
+- "MotionCompensatedTemporalFilterNoiseReductionConfiguration"
+- "NULL affectedKeysOut"
+- "NULL valueOut"
+- "Prewarmed"
+- "Processing sbuf"
+- "Quadra SubPixel - Scene ( Gain )"
+- "Receiving aux media {%!@(MISSING)}"
+- "Skipped"
+- "TemporalFilterPriority"
+- "UlHiResDg"
+- "Waiting for encoding group to be free"
+- "affectedKeysOut"
+- "captureSource_CopyWildcardProprietaryDefault"
+- "captureSource_SetWildcardProprietaryDefault"
+- "clientIsVOIP"
+- "com.apple.cameracaptured"
+- "com.apple.coremedia.photoencodercontroller.encodingqueue"
+- "cs_autoImageControlModeFromConfigurations"
+- "description=CameraCapture-563.1"
+- "does NOT"
+- "fcmss_extractMacModelMajorAndMinorVersions_block_invoke"
+- "gesturesEnabledTime"
+- "mscsn_setMLVNRConfiguration"
+- "numberOfTimesRecordingWasPaused"
+- "primarySbuf"
+- "quadraSubPixelScene.gain"
+- "reactionEffectsEnabledTime"
+- "valueOut"
+- "wildcardKey"
+
+```

@@ -1,0 +1,342 @@
+## libANGLE-shared.dylib
+
+> `/System/iOSSupport/System/Library/PrivateFrameworks/WebCore.framework/Versions/A/Frameworks/libANGLE-shared.dylib`
+
+```diff
+
+-619.1.20.11.1
+-  __TEXT.__text: 0x2f1288
++619.1.18.11.1
++  __TEXT.__text: 0x2f1b2c
+   __TEXT.__auth_stubs: 0xfb0
+   __TEXT.__objc_methlist: 0x64
+-  __TEXT.__const: 0x86de4
+-  __TEXT.__cstring: 0x5462a
+-  __TEXT.__gcc_except_tab: 0x30dc
++  __TEXT.__const: 0x86d74
++  __TEXT.__cstring: 0x5456e
++  __TEXT.__gcc_except_tab: 0x30d8
+   __TEXT.__oslogstring: 0xf
+-  __TEXT.__unwind_info: 0x1bf0
++  __TEXT.__unwind_info: 0x1bf8
+   __TEXT.__objc_classname: 0x1f
+   __TEXT.__objc_methname: 0x1a16
+   __TEXT.__objc_methtype: 0x2e6
+   __TEXT.__objc_stubs: 0x20a0
+   __DATA_CONST.__got: 0x168
+-  __DATA_CONST.__const: 0x17c78
++  __DATA_CONST.__const: 0x178d0
+   __DATA_CONST.__objc_classlist: 0x10
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_selrefs: 0x858
+   __DATA_CONST.__objc_superrefs: 0x10
+   __AUTH_CONST.__auth_got: 0x7e8
+   __AUTH_CONST.__auth_ptr: 0x8
+-  __AUTH_CONST.__const: 0x192c8
++  __AUTH_CONST.__const: 0x192b8
+   __AUTH_CONST.__cfstring: 0xa80
+   __AUTH_CONST.__objc_const: 0x270
+   __AUTH.__objc_data: 0xa0
+
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libz.1.dylib
+-  Functions: 10415
+-  Symbols:   18920
+-  CStrings:  9720
++  Functions: 10408
++  Symbols:   18913
++  CStrings:  9713
+ 
+Symbols:
++ GCC_except_table89
++ GCC_except_table95
++ __ZL44ES3_1_reserved_ES3_1_extension_ES3_2_keywordPN2sh13TParseContextENS_10TExtensionEi
++ __ZN2gl7Program18cacheProgramBinaryEPKNS_7ContextE
++ __ZN2gl7Program20waitForPostLinkTasksEPKNS_7ContextE
++ __ZN2rx3mtl7Texture21createShaderImageViewERKN2gl17LevelIndexWrapperIjEEi14MTLPixelFormat
++ __ZNSt3__119__allocate_at_leastB8sn180100INS_9allocatorI24_CGLPixelFormatAttributeEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m
++ __ZNSt3__119__allocate_at_leastB8sn180100INS_9allocatorIN12_GLOBAL__N_18PathItemEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
++ __ZNSt3__119__allocate_at_leastB8sn180100INS_9allocatorIN2gl11UsedUniformEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
++ __ZNSt3__119__allocate_at_leastB8sn180100INS_9allocatorIN2gl12ImageBindingEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
++ __ZNSt3__119__allocate_at_leastB8sn180100INS_9allocatorIN2gl12ProgramInputEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
++ __ZNSt3__119__allocate_at_leastB8sn180100INS_9allocatorIN2gl13LinkedUniformEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
++ __ZNSt3__119__allocate_at_leastB8sn180100INS_9allocatorIN2gl13PackedVaryingEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
++ __ZNSt3__119__allocate_at_leastB8sn180100INS_9allocatorIN2gl13ProgramOutputEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
++ __ZNSt3__119__allocate_at_leastB8sn180100INS_9allocatorIN2gl13UnusedUniformEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
++ __ZNSt3__119__allocate_at_leastB8sn180100INS_9allocatorIN2gl14BufferVariableEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
++ __ZNSt3__119__allocate_at_leastB8sn180100INS_9allocatorIN2gl14InterfaceBlockEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
++ __ZNSt3__119__allocate_at_leastB8sn180100INS_9allocatorIN2gl14SamplerBindingEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
++ __ZNSt3__119__allocate_at_leastB8sn180100INS_9allocatorIN2gl15HandleAllocator11HandleRangeEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS8_m
++ __ZNSt3__119__allocate_at_leastB8sn180100INS_9allocatorIN2gl16VariableLocationEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
++ __ZNSt3__119__allocate_at_leastB8sn180100INS_9allocatorIN2gl17ProgramVaryingRefEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
++ __ZNSt3__119__allocate_at_leastB8sn180100INS_9allocatorIN2gl19AtomicCounterBufferEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
++ __ZNSt3__119__allocate_at_leastB8sn180100INS_9allocatorIN2gl20OffsetBindingPointerINS2_6BufferEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS9_m
++ __ZNSt3__119__allocate_at_leastB8sn180100INS_9allocatorIN2gl21PackedVaryingRegisterEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
++ __ZNSt3__119__allocate_at_leastB8sn180100INS_9allocatorIN2gl24TransformFeedbackVaryingEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
++ __ZNSt3__119__allocate_at_leastB8sn180100INS_9allocatorIN2gl28VertexAttribCurrentValueDataEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
++ __ZNSt3__119__allocate_at_leastB8sn180100INS_9allocatorIN2gl5Debug5GroupEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS8_m
++ __ZNSt3__119__allocate_at_leastB8sn180100INS_9allocatorIN2gl5Debug7ControlEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS8_m
++ __ZNSt3__119__allocate_at_leastB8sn180100INS_9allocatorIN2gl9ImageUnitEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
++ __ZNSt3__119__allocate_at_leastB8sn180100INS_9allocatorIN2rx10IndexRangeEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
++ __ZNSt3__119__allocate_at_leastB8sn180100INS_9allocatorIN2rx16DrawCommandRangeEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
++ __ZNSt3__119__allocate_at_leastB8sn180100INS_9allocatorIN2rx24IndexConversionBufferMtlEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
++ __ZNSt3__119__allocate_at_leastB8sn180100INS_9allocatorIN2rx25VertexConversionBufferMtlEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
++ __ZNSt3__119__allocate_at_leastB8sn180100INS_9allocatorIN2rx26UniformConversionBufferMtlEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
++ __ZNSt3__119__allocate_at_leastB8sn180100INS_9allocatorIN2rx3mtl13CommandBuffer12PendingEventEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS9_m
++ __ZNSt3__119__allocate_at_leastB8sn180100INS_9allocatorIN2sh11TemplateArgEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
++ __ZNSt3__119__allocate_at_leastB8sn180100INS_9allocatorIN2sh14InterfaceBlockEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
++ __ZNSt3__119__allocate_at_leastB8sn180100INS_9allocatorIN2sh14ShaderVariableEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
++ __ZNSt3__119__allocate_at_leastB8sn180100INS_9allocatorIN2sh15BlockMemberInfoEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
++ __ZNSt3__119__allocate_at_leastB8sn180100INS_9allocatorIN2sh16TIntermTraverser15NodeUpdateEntryEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS8_m
++ __ZNSt3__119__allocate_at_leastB8sn180100INS_9allocatorIN2sh16TIntermTraverser28NodeReplaceWithMultipleEntryEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS8_m
++ __ZNSt3__119__allocate_at_leastB8sn180100INS_9allocatorIN2sh3RefIKNS2_5TTypeEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSA_m
++ __ZNSt3__119__allocate_at_leastB8sn180100INS_9allocatorIN5angle13GPUDeviceInfoEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
++ __ZNSt3__119__allocate_at_leastB8sn180100INS_9allocatorIN5angle13PoolAllocator10AllocStateEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS8_m
++ __ZNSt3__119__allocate_at_leastB8sn180100INS_9allocatorIN5angle13ScratchBufferEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
++ __ZNSt3__119__allocate_at_leastB8sn180100INS_9allocatorIN5angle15ObserverBindingEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
++ __ZNSt3__119__allocate_at_leastB8sn180100INS_9allocatorIN5angle2pp5TokenEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS8_m
++ __ZNSt3__119__allocate_at_leastB8sn180100INS_9allocatorINS_10shared_ptrIN2rx11LinkSubTaskEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS9_m
++ __ZNSt3__119__allocate_at_leastB8sn180100INS_9allocatorINS_10shared_ptrIN5angle13WaitableEventEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS9_m
++ __ZNSt3__119__allocate_at_leastB8sn180100INS_9allocatorINS_10unique_ptrIN2sh4TMapINS3_10TBasicTypeENS3_10TPrecisionENS_4lessIS5_EEEENS_14default_deleteIS9_EEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSG_m
++ __ZNSt3__119__allocate_at_leastB8sn180100INS_9allocatorINS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSA_m
++ __ZNSt3__119__allocate_at_leastB8sn180100INS_9allocatorINS_4pairIPKN2sh14InterfaceBlockEPKNS3_14ShaderVariableEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSE_m
++ __ZNSt3__119__allocate_at_leastB8sn180100INS_9allocatorINS_6vectorIN5angle2pp5TokenENS1_IS5_EEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSB_m
++ __ZNSt3__119__allocate_at_leastB8sn180100INS_9allocatorINS_6vectorINS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEENS1_IS7_EEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSD_m
++ __ZNSt3__119__allocate_at_leastB8sn180100INS_9allocatorINS_6vectorIiNS1_IiEEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS8_m
++ __ZNSt3__119__allocate_at_leastB8sn180100INS_9allocatorIPKN2sh10TStructureEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS9_m
++ __ZNSt3__119__allocate_at_leastB8sn180100INS_9allocatorIPKN2sh13TIntermSymbolEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS9_m
++ __ZNSt3__119__allocate_at_leastB8sn180100INS_9allocatorIPKN2sh9TVariableEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS9_m
++ __ZNSt3__119__allocate_at_leastB8sn180100INS_9allocatorIPKN3egl6ConfigEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS9_m
++ __ZNSt3__119__allocate_at_leastB8sn180100INS_9allocatorIPKN5angle11FeatureInfoEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS9_m
++ __ZNSt3__119__allocate_at_leastB8sn180100INS_9allocatorIPKcEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
++ __ZNSt3__119__allocate_at_leastB8sn180100INS_9allocatorIPN2gl5Debug7MessageEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS9_m
++ __ZNSt3__119__allocate_at_leastB8sn180100INS_9allocatorIPN2rx3mtl12CommandQueue19CmdBufferQueueEntryEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSA_m
++ __ZNSt3__119__allocate_at_leastB8sn180100INS_9allocatorIPN2rx8QueryMtlEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS8_m
++ __ZNSt3__119__allocate_at_leastB8sn180100INS_9allocatorIPN2sh11TIntermNodeEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS8_m
++ __ZNSt3__119__allocate_at_leastB8sn180100INS_9allocatorIPN2sh12TIntermTypedEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS8_m
++ __ZNSt3__119__allocate_at_leastB8sn180100INS_9allocatorIPN2sh13TIntermSymbolEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS8_m
++ __ZNSt3__119__allocate_at_leastB8sn180100INS_9allocatorIPN2sh18TIntermDeclarationEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS8_m
++ __ZNSt3__119__allocate_at_leastB8sn180100INS_9allocatorIPNS_10shared_ptrIN2rx3mtl6BufferEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSB_m
++ __ZNSt3__119__allocate_at_leastB8sn180100INS_9allocatorIPNS_4pairINS_10shared_ptrIN5angle18AsyncWaitableEventEEENS3_INS4_7ClosureEEEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSE_m
++ __ZNSt3__119__allocate_at_leastB8sn180100INS_9allocatorIPNS_6threadEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
++ __ZNSt3__119__allocate_at_leastB8sn180100INS_9allocatorIPcEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m
++ __ZNSt3__119__allocate_at_leastB8sn180100INS_9allocatorIPjEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m
++ __ZNSt3__119__allocate_at_leastB8sn180100INS_9allocatorIfEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS5_m
++ __ZNSt3__119__allocate_at_leastB8sn180100INS_9allocatorIiEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS5_m
++ __ZNSt3__119__allocate_at_leastB8sn180100INS_9allocatorIjEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS5_m
++ __ZNSt3__119__allocate_at_leastB8sn180100INS_9allocatorImEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS5_m
++ __ZNSt3__14pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN2rx17UBOConversionInfoEEC2B8sn180100ERKSA_
++ __ZNSt3__16__treeINS_12__value_typeI14MTLPixelFormatNS_5arrayINS_10shared_ptrIN2rx3mtl7TextureEEELm16EEEEENS_19__map_value_compareIS2_SA_NS_4lessIS2_EELb1EEENS_9allocatorISA_EEE16__insert_node_atEPNS_15__tree_end_nodeIPNS_16__tree_node_baseIPvEEEERSM_SM_
++ __ZNSt3__16__treeINS_12__value_typeI14MTLPixelFormatNS_5arrayINS_10shared_ptrIN2rx3mtl7TextureEEELm16EEEEENS_19__map_value_compareIS2_SA_NS_4lessIS2_EELb1EEENS_9allocatorISA_EEE25__emplace_unique_key_argsIS2_JRKNS_21piecewise_construct_tENS_5tupleIJRKS2_EEENSM_IJEEEEEENS_4pairINS_15__tree_iteratorISA_PNS_11__tree_nodeISA_PvEElEEbEERKT_DpOT0_
++ __ZNSt3__16__treeINS_12__value_typeI14MTLPixelFormatNS_5arrayINS_10shared_ptrIN2rx3mtl7TextureEEELm16EEEEENS_19__map_value_compareIS2_SA_NS_4lessIS2_EELb1EEENS_9allocatorISA_EEE7destroyEPNS_11__tree_nodeISA_PvEE
++ __ZZN2gl7Program18cacheProgramBinaryEPKNS_7ContextEE12sRepeatCount
+- GCC_except_table94
+- _GL_PatchParameteriOES
+- __ZL44ES3_reserved_ES3_1_extension_ES3_2_keyword_2PN2sh13TParseContextENS_10TExtensionES2_i
+- __ZN2gl11Framebuffer10invalidateEPKNS_7ContextEmPKj
+- __ZN2gl11Framebuffer27markDrawAttachmentsNeedInitEmPKj
+- __ZN2gl23ValidatePatchParameteriERKNS_12PrivateStateEPNS_8ErrorSetEN5angle10EntryPointEji
+- __ZN2gl26ValidateFramebufferTextureEPKNS_7ContextEN5angle10EntryPointEjjNS_9TextureIDEi
+- __ZN2gl26ValidatePatchParameteriOESERKNS_12PrivateStateEPNS_8ErrorSetEN5angle10EntryPointEji
+- __ZN2gl27ValidatePatchParameteriBaseERKNS_12PrivateStateEPNS_8ErrorSetEN5angle10EntryPointEji
+- __ZN2gl7Program30cacheProgramBinaryIfNotAlreadyEPKNS_7ContextE
+- __ZN2rx3mtl7Texture23createShaderImageView2DERKN2gl17LevelIndexWrapperIjEEi14MTLPixelFormat
+- __ZNK2gl7Context29supportsGeometryOrTesselationEv
+- __ZNSt3__119__allocate_at_leastB8sn180100INS_9allocatorIN12_GLOBAL__N_18PathItemEEEEEDaRT_m
+- __ZNSt3__16__treeINS_12__value_typeI14MTLPixelFormatNS_6vectorINS3_INS_10shared_ptrIN2rx3mtl7TextureEEENS_9allocatorIS8_EEEENS9_ISB_EEEEEENS_19__map_value_compareIS2_SE_NS_4lessIS2_EELb1EEENS9_ISE_EEE7destroyEPNS_11__tree_nodeISE_PvEE
+- __ZNSt3__16vectorINS_10shared_ptrIN2rx3mtl7TextureEEENS_9allocatorIS5_EEE16__destroy_vectorclB8sn180100Ev
+- __ZNSt3__19allocatorI24_CGLPixelFormatAttributeE17allocate_at_leastB8sn180100Em
+- __ZNSt3__19allocatorIN2gl11UsedUniformEE17allocate_at_leastB8sn180100Em
+- __ZNSt3__19allocatorIN2gl12ImageBindingEE17allocate_at_leastB8sn180100Em
+- __ZNSt3__19allocatorIN2gl12ProgramInputEE17allocate_at_leastB8sn180100Em
+- __ZNSt3__19allocatorIN2gl13LinkedUniformEE17allocate_at_leastB8sn180100Em
+- __ZNSt3__19allocatorIN2gl13PackedVaryingEE17allocate_at_leastB8sn180100Em
+- __ZNSt3__19allocatorIN2gl13ProgramOutputEE17allocate_at_leastB8sn180100Em
+- __ZNSt3__19allocatorIN2gl13UnusedUniformEE17allocate_at_leastB8sn180100Em
+- __ZNSt3__19allocatorIN2gl14BufferVariableEE17allocate_at_leastB8sn180100Em
+- __ZNSt3__19allocatorIN2gl14InterfaceBlockEE17allocate_at_leastB8sn180100Em
+- __ZNSt3__19allocatorIN2gl14SamplerBindingEE17allocate_at_leastB8sn180100Em
+- __ZNSt3__19allocatorIN2gl15HandleAllocator11HandleRangeEE17allocate_at_leastB8sn180100Em
+- __ZNSt3__19allocatorIN2gl16VariableLocationEE17allocate_at_leastB8sn180100Em
+- __ZNSt3__19allocatorIN2gl17ProgramVaryingRefEE17allocate_at_leastB8sn180100Em
+- __ZNSt3__19allocatorIN2gl19AtomicCounterBufferEE17allocate_at_leastB8sn180100Em
+- __ZNSt3__19allocatorIN2gl20OffsetBindingPointerINS1_6BufferEEEE17allocate_at_leastB8sn180100Em
+- __ZNSt3__19allocatorIN2gl21PackedVaryingRegisterEE17allocate_at_leastB8sn180100Em
+- __ZNSt3__19allocatorIN2gl24TransformFeedbackVaryingEE17allocate_at_leastB8sn180100Em
+- __ZNSt3__19allocatorIN2gl28VertexAttribCurrentValueDataEE17allocate_at_leastB8sn180100Em
+- __ZNSt3__19allocatorIN2gl5Debug5GroupEE17allocate_at_leastB8sn180100Em
+- __ZNSt3__19allocatorIN2gl5Debug7ControlEE17allocate_at_leastB8sn180100Em
+- __ZNSt3__19allocatorIN2gl9ImageUnitEE17allocate_at_leastB8sn180100Em
+- __ZNSt3__19allocatorIN2rx10IndexRangeEE17allocate_at_leastB8sn180100Em
+- __ZNSt3__19allocatorIN2rx16DrawCommandRangeEE17allocate_at_leastB8sn180100Em
+- __ZNSt3__19allocatorIN2rx24IndexConversionBufferMtlEE17allocate_at_leastB8sn180100Em
+- __ZNSt3__19allocatorIN2rx25VertexConversionBufferMtlEE17allocate_at_leastB8sn180100Em
+- __ZNSt3__19allocatorIN2rx26UniformConversionBufferMtlEE17allocate_at_leastB8sn180100Em
+- __ZNSt3__19allocatorIN2rx3mtl13CommandBuffer12PendingEventEE17allocate_at_leastB8sn180100Em
+- __ZNSt3__19allocatorIN2sh11TemplateArgEE17allocate_at_leastB8sn180100Em
+- __ZNSt3__19allocatorIN2sh14InterfaceBlockEE17allocate_at_leastB8sn180100Em
+- __ZNSt3__19allocatorIN2sh14ShaderVariableEE17allocate_at_leastB8sn180100Em
+- __ZNSt3__19allocatorIN2sh15BlockMemberInfoEE17allocate_at_leastB8sn180100Em
+- __ZNSt3__19allocatorIN2sh16TIntermTraverser15NodeUpdateEntryEE17allocate_at_leastB8sn180100Em
+- __ZNSt3__19allocatorIN2sh16TIntermTraverser28NodeReplaceWithMultipleEntryEE17allocate_at_leastB8sn180100Em
+- __ZNSt3__19allocatorIN2sh3RefIKNS1_5TTypeEEEE17allocate_at_leastB8sn180100Em
+- __ZNSt3__19allocatorIN5angle13GPUDeviceInfoEE17allocate_at_leastB8sn180100Em
+- __ZNSt3__19allocatorIN5angle13PoolAllocator10AllocStateEE17allocate_at_leastB8sn180100Em
+- __ZNSt3__19allocatorIN5angle13ScratchBufferEE17allocate_at_leastB8sn180100Em
+- __ZNSt3__19allocatorIN5angle15ObserverBindingEE17allocate_at_leastB8sn180100Em
+- __ZNSt3__19allocatorIN5angle2pp5TokenEE17allocate_at_leastB8sn180100Em
+- __ZNSt3__19allocatorINS_10shared_ptrIN2rx11LinkSubTaskEEEE17allocate_at_leastB8sn180100Em
+- __ZNSt3__19allocatorINS_10shared_ptrIN5angle13WaitableEventEEEE17allocate_at_leastB8sn180100Em
+- __ZNSt3__19allocatorINS_10unique_ptrIN2sh4TMapINS2_10TBasicTypeENS2_10TPrecisionENS_4lessIS4_EEEENS_14default_deleteIS8_EEEEE17allocate_at_leastB8sn180100Em
+- __ZNSt3__19allocatorINS_12basic_stringIcNS_11char_traitsIcEENS0_IcEEEEE17allocate_at_leastB8sn180100Em
+- __ZNSt3__19allocatorINS_4pairIPKN2sh14InterfaceBlockEPKNS2_14ShaderVariableEEEE17allocate_at_leastB8sn180100Em
+- __ZNSt3__19allocatorINS_6vectorIN5angle2pp5TokenENS0_IS4_EEEEE17allocate_at_leastB8sn180100Em
+- __ZNSt3__19allocatorINS_6vectorINS_12basic_stringIcNS_11char_traitsIcEENS0_IcEEEENS0_IS6_EEEEE17allocate_at_leastB8sn180100Em
+- __ZNSt3__19allocatorINS_6vectorIiNS0_IiEEEEE17allocate_at_leastB8sn180100Em
+- __ZNSt3__19allocatorIPKN2sh10TStructureEE17allocate_at_leastB8sn180100Em
+- __ZNSt3__19allocatorIPKN2sh13TIntermSymbolEE17allocate_at_leastB8sn180100Em
+- __ZNSt3__19allocatorIPKN2sh9TVariableEE17allocate_at_leastB8sn180100Em
+- __ZNSt3__19allocatorIPKN3egl6ConfigEE17allocate_at_leastB8sn180100Em
+- __ZNSt3__19allocatorIPKN5angle11FeatureInfoEE17allocate_at_leastB8sn180100Em
+- __ZNSt3__19allocatorIPKcE17allocate_at_leastB8sn180100Em
+- __ZNSt3__19allocatorIPN2gl5Debug7MessageEE17allocate_at_leastB8sn180100Em
+- __ZNSt3__19allocatorIPN2rx3mtl12CommandQueue19CmdBufferQueueEntryEE17allocate_at_leastB8sn180100Em
+- __ZNSt3__19allocatorIPN2rx8QueryMtlEE17allocate_at_leastB8sn180100Em
+- __ZNSt3__19allocatorIPN2sh11TIntermNodeEE17allocate_at_leastB8sn180100Em
+- __ZNSt3__19allocatorIPN2sh12TIntermTypedEE17allocate_at_leastB8sn180100Em
+- __ZNSt3__19allocatorIPN2sh13TIntermSymbolEE17allocate_at_leastB8sn180100Em
+- __ZNSt3__19allocatorIPN2sh18TIntermDeclarationEE17allocate_at_leastB8sn180100Em
+- __ZNSt3__19allocatorIPNS_10shared_ptrIN2rx3mtl6BufferEEEE17allocate_at_leastB8sn180100Em
+- __ZNSt3__19allocatorIPNS_4pairINS_10shared_ptrIN5angle18AsyncWaitableEventEEENS2_INS3_7ClosureEEEEEE17allocate_at_leastB8sn180100Em
+- __ZNSt3__19allocatorIPNS_6threadEE17allocate_at_leastB8sn180100Em
+- __ZNSt3__19allocatorIPcE17allocate_at_leastB8sn180100Em
+- __ZNSt3__19allocatorIPjE17allocate_at_leastB8sn180100Em
+- __ZNSt3__19allocatorIfE17allocate_at_leastB8sn180100Em
+- __ZNSt3__19allocatorIiE17allocate_at_leastB8sn180100Em
+- __ZNSt3__19allocatorIjE17allocate_at_leastB8sn180100Em
+- __ZNSt3__19allocatorImE17allocate_at_leastB8sn180100Em
+- __ZZN2gl27GetUniformElementComponentsENS_16UniformTypeIndexEE18kElementComponents
+- __ZZN2gl7Program30cacheProgramBinaryIfNotAlreadyEPKNS_7ContextEE12sRepeatCount
+CStrings:
++ "/AppleInternal/Library/BuildRoots/c9bccf69-2ccc-11ef-98ec-a2cee5656455/Library/Caches/com.apple.xbs/Sources/ANGLE_iosmac/Source/ThirdParty/ANGLE/src/common/android_util.cpp"
++ "/AppleInternal/Library/BuildRoots/c9bccf69-2ccc-11ef-98ec-a2cee5656455/Library/Caches/com.apple.xbs/Sources/ANGLE_iosmac/Source/ThirdParty/ANGLE/src/common/angleutils.cpp"
++ "/AppleInternal/Library/BuildRoots/c9bccf69-2ccc-11ef-98ec-a2cee5656455/Library/Caches/com.apple.xbs/Sources/ANGLE_iosmac/Source/ThirdParty/ANGLE/src/common/apple_platform_utils.mm"
++ "/AppleInternal/Library/BuildRoots/c9bccf69-2ccc-11ef-98ec-a2cee5656455/Library/Caches/com.apple.xbs/Sources/ANGLE_iosmac/Source/ThirdParty/ANGLE/src/image_util/loadimage_astc.cpp"
++ "/AppleInternal/Library/BuildRoots/c9bccf69-2ccc-11ef-98ec-a2cee5656455/Library/Caches/com.apple.xbs/Sources/ANGLE_iosmac/Source/ThirdParty/ANGLE/src/libANGLE/BlobCache.cpp"
++ "/AppleInternal/Library/BuildRoots/c9bccf69-2ccc-11ef-98ec-a2cee5656455/Library/Caches/com.apple.xbs/Sources/ANGLE_iosmac/Source/ThirdParty/ANGLE/src/libANGLE/Buffer.cpp"
++ "/AppleInternal/Library/BuildRoots/c9bccf69-2ccc-11ef-98ec-a2cee5656455/Library/Caches/com.apple.xbs/Sources/ANGLE_iosmac/Source/ThirdParty/ANGLE/src/libANGLE/Context.cpp"
++ "/AppleInternal/Library/BuildRoots/c9bccf69-2ccc-11ef-98ec-a2cee5656455/Library/Caches/com.apple.xbs/Sources/ANGLE_iosmac/Source/ThirdParty/ANGLE/src/libANGLE/Debug.cpp"
++ "/AppleInternal/Library/BuildRoots/c9bccf69-2ccc-11ef-98ec-a2cee5656455/Library/Caches/com.apple.xbs/Sources/ANGLE_iosmac/Source/ThirdParty/ANGLE/src/libANGLE/Display.cpp"
++ "/AppleInternal/Library/BuildRoots/c9bccf69-2ccc-11ef-98ec-a2cee5656455/Library/Caches/com.apple.xbs/Sources/ANGLE_iosmac/Source/ThirdParty/ANGLE/src/libANGLE/GLES1Renderer.cpp"
++ "/AppleInternal/Library/BuildRoots/c9bccf69-2ccc-11ef-98ec-a2cee5656455/Library/Caches/com.apple.xbs/Sources/ANGLE_iosmac/Source/ThirdParty/ANGLE/src/libANGLE/HandleAllocator.cpp"
++ "/AppleInternal/Library/BuildRoots/c9bccf69-2ccc-11ef-98ec-a2cee5656455/Library/Caches/com.apple.xbs/Sources/ANGLE_iosmac/Source/ThirdParty/ANGLE/src/libANGLE/Platform.cpp"
++ "/AppleInternal/Library/BuildRoots/c9bccf69-2ccc-11ef-98ec-a2cee5656455/Library/Caches/com.apple.xbs/Sources/ANGLE_iosmac/Source/ThirdParty/ANGLE/src/libANGLE/Program.cpp"
++ "/AppleInternal/Library/BuildRoots/c9bccf69-2ccc-11ef-98ec-a2cee5656455/Library/Caches/com.apple.xbs/Sources/ANGLE_iosmac/Source/ThirdParty/ANGLE/src/libANGLE/Shader.cpp"
++ "/AppleInternal/Library/BuildRoots/c9bccf69-2ccc-11ef-98ec-a2cee5656455/Library/Caches/com.apple.xbs/Sources/ANGLE_iosmac/Source/ThirdParty/ANGLE/src/libANGLE/State.cpp"
++ "/AppleInternal/Library/BuildRoots/c9bccf69-2ccc-11ef-98ec-a2cee5656455/Library/Caches/com.apple.xbs/Sources/ANGLE_iosmac/Source/ThirdParty/ANGLE/src/libANGLE/Surface.cpp"
++ "/AppleInternal/Library/BuildRoots/c9bccf69-2ccc-11ef-98ec-a2cee5656455/Library/Caches/com.apple.xbs/Sources/ANGLE_iosmac/Source/ThirdParty/ANGLE/src/libANGLE/Texture.cpp"
++ "/AppleInternal/Library/BuildRoots/c9bccf69-2ccc-11ef-98ec-a2cee5656455/Library/Caches/com.apple.xbs/Sources/ANGLE_iosmac/Source/ThirdParty/ANGLE/src/libANGLE/angletypes.cpp"
++ "/AppleInternal/Library/BuildRoots/c9bccf69-2ccc-11ef-98ec-a2cee5656455/Library/Caches/com.apple.xbs/Sources/ANGLE_iosmac/Source/ThirdParty/ANGLE/src/libANGLE/queryconversions.cpp"
++ "/AppleInternal/Library/BuildRoots/c9bccf69-2ccc-11ef-98ec-a2cee5656455/Library/Caches/com.apple.xbs/Sources/ANGLE_iosmac/Source/ThirdParty/ANGLE/src/libANGLE/renderer/gl/BlitGL.cpp"
++ "/AppleInternal/Library/BuildRoots/c9bccf69-2ccc-11ef-98ec-a2cee5656455/Library/Caches/com.apple.xbs/Sources/ANGLE_iosmac/Source/ThirdParty/ANGLE/src/libANGLE/renderer/gl/BufferGL.cpp"
++ "/AppleInternal/Library/BuildRoots/c9bccf69-2ccc-11ef-98ec-a2cee5656455/Library/Caches/com.apple.xbs/Sources/ANGLE_iosmac/Source/ThirdParty/ANGLE/src/libANGLE/renderer/gl/FenceNVGL.cpp"
++ "/AppleInternal/Library/BuildRoots/c9bccf69-2ccc-11ef-98ec-a2cee5656455/Library/Caches/com.apple.xbs/Sources/ANGLE_iosmac/Source/ThirdParty/ANGLE/src/libANGLE/renderer/gl/FramebufferGL.cpp"
++ "/AppleInternal/Library/BuildRoots/c9bccf69-2ccc-11ef-98ec-a2cee5656455/Library/Caches/com.apple.xbs/Sources/ANGLE_iosmac/Source/ThirdParty/ANGLE/src/libANGLE/renderer/gl/ProgramGL.cpp"
++ "/AppleInternal/Library/BuildRoots/c9bccf69-2ccc-11ef-98ec-a2cee5656455/Library/Caches/com.apple.xbs/Sources/ANGLE_iosmac/Source/ThirdParty/ANGLE/src/libANGLE/renderer/gl/QueryGL.cpp"
++ "/AppleInternal/Library/BuildRoots/c9bccf69-2ccc-11ef-98ec-a2cee5656455/Library/Caches/com.apple.xbs/Sources/ANGLE_iosmac/Source/ThirdParty/ANGLE/src/libANGLE/renderer/gl/RenderbufferGL.cpp"
++ "/AppleInternal/Library/BuildRoots/c9bccf69-2ccc-11ef-98ec-a2cee5656455/Library/Caches/com.apple.xbs/Sources/ANGLE_iosmac/Source/ThirdParty/ANGLE/src/libANGLE/renderer/gl/RendererGL.cpp"
++ "/AppleInternal/Library/BuildRoots/c9bccf69-2ccc-11ef-98ec-a2cee5656455/Library/Caches/com.apple.xbs/Sources/ANGLE_iosmac/Source/ThirdParty/ANGLE/src/libANGLE/renderer/gl/ShaderGL.cpp"
++ "/AppleInternal/Library/BuildRoots/c9bccf69-2ccc-11ef-98ec-a2cee5656455/Library/Caches/com.apple.xbs/Sources/ANGLE_iosmac/Source/ThirdParty/ANGLE/src/libANGLE/renderer/gl/SyncGL.cpp"
++ "/AppleInternal/Library/BuildRoots/c9bccf69-2ccc-11ef-98ec-a2cee5656455/Library/Caches/com.apple.xbs/Sources/ANGLE_iosmac/Source/ThirdParty/ANGLE/src/libANGLE/renderer/gl/TextureGL.cpp"
++ "/AppleInternal/Library/BuildRoots/c9bccf69-2ccc-11ef-98ec-a2cee5656455/Library/Caches/com.apple.xbs/Sources/ANGLE_iosmac/Source/ThirdParty/ANGLE/src/libANGLE/renderer/gl/VertexArrayGL.cpp"
++ "/AppleInternal/Library/BuildRoots/c9bccf69-2ccc-11ef-98ec-a2cee5656455/Library/Caches/com.apple.xbs/Sources/ANGLE_iosmac/Source/ThirdParty/ANGLE/src/libANGLE/renderer/gl/renderergl_utils.cpp"
++ "/AppleInternal/Library/BuildRoots/c9bccf69-2ccc-11ef-98ec-a2cee5656455/Library/Caches/com.apple.xbs/Sources/ANGLE_iosmac/Source/ThirdParty/ANGLE/src/libANGLE/renderer/metal/BufferMtl.mm"
++ "/AppleInternal/Library/BuildRoots/c9bccf69-2ccc-11ef-98ec-a2cee5656455/Library/Caches/com.apple.xbs/Sources/ANGLE_iosmac/Source/ThirdParty/ANGLE/src/libANGLE/renderer/metal/ContextMtl.mm"
++ "/AppleInternal/Library/BuildRoots/c9bccf69-2ccc-11ef-98ec-a2cee5656455/Library/Caches/com.apple.xbs/Sources/ANGLE_iosmac/Source/ThirdParty/ANGLE/src/libANGLE/renderer/metal/DisplayMtl.mm"
++ "/AppleInternal/Library/BuildRoots/c9bccf69-2ccc-11ef-98ec-a2cee5656455/Library/Caches/com.apple.xbs/Sources/ANGLE_iosmac/Source/ThirdParty/ANGLE/src/libANGLE/renderer/metal/FrameBufferMtl.mm"
++ "/AppleInternal/Library/BuildRoots/c9bccf69-2ccc-11ef-98ec-a2cee5656455/Library/Caches/com.apple.xbs/Sources/ANGLE_iosmac/Source/ThirdParty/ANGLE/src/libANGLE/renderer/metal/IOSurfaceSurfaceMtl.mm"
++ "/AppleInternal/Library/BuildRoots/c9bccf69-2ccc-11ef-98ec-a2cee5656455/Library/Caches/com.apple.xbs/Sources/ANGLE_iosmac/Source/ThirdParty/ANGLE/src/libANGLE/renderer/metal/ProgramExecutableMtl.mm"
++ "/AppleInternal/Library/BuildRoots/c9bccf69-2ccc-11ef-98ec-a2cee5656455/Library/Caches/com.apple.xbs/Sources/ANGLE_iosmac/Source/ThirdParty/ANGLE/src/libANGLE/renderer/metal/RenderBufferMtl.mm"
++ "/AppleInternal/Library/BuildRoots/c9bccf69-2ccc-11ef-98ec-a2cee5656455/Library/Caches/com.apple.xbs/Sources/ANGLE_iosmac/Source/ThirdParty/ANGLE/src/libANGLE/renderer/metal/SurfaceMtl.mm"
++ "/AppleInternal/Library/BuildRoots/c9bccf69-2ccc-11ef-98ec-a2cee5656455/Library/Caches/com.apple.xbs/Sources/ANGLE_iosmac/Source/ThirdParty/ANGLE/src/libANGLE/renderer/metal/TextureMtl.mm"
++ "/AppleInternal/Library/BuildRoots/c9bccf69-2ccc-11ef-98ec-a2cee5656455/Library/Caches/com.apple.xbs/Sources/ANGLE_iosmac/Source/ThirdParty/ANGLE/src/libANGLE/renderer/metal/TransformFeedbackMtl.mm"
++ "/AppleInternal/Library/BuildRoots/c9bccf69-2ccc-11ef-98ec-a2cee5656455/Library/Caches/com.apple.xbs/Sources/ANGLE_iosmac/Source/ThirdParty/ANGLE/src/libANGLE/renderer/metal/VertexArrayMtl.mm"
++ "/AppleInternal/Library/BuildRoots/c9bccf69-2ccc-11ef-98ec-a2cee5656455/Library/Caches/com.apple.xbs/Sources/ANGLE_iosmac/Source/ThirdParty/ANGLE/src/libANGLE/renderer/metal/mtl_command_buffer.mm"
++ "/AppleInternal/Library/BuildRoots/c9bccf69-2ccc-11ef-98ec-a2cee5656455/Library/Caches/com.apple.xbs/Sources/ANGLE_iosmac/Source/ThirdParty/ANGLE/src/libANGLE/renderer/metal/mtl_context_device.mm"
++ "/AppleInternal/Library/BuildRoots/c9bccf69-2ccc-11ef-98ec-a2cee5656455/Library/Caches/com.apple.xbs/Sources/ANGLE_iosmac/Source/ThirdParty/ANGLE/src/libANGLE/renderer/metal/mtl_library_cache.mm"
++ "/AppleInternal/Library/BuildRoots/c9bccf69-2ccc-11ef-98ec-a2cee5656455/Library/Caches/com.apple.xbs/Sources/ANGLE_iosmac/Source/ThirdParty/ANGLE/src/libANGLE/renderer/metal/mtl_pipeline_cache.mm"
++ "/AppleInternal/Library/BuildRoots/c9bccf69-2ccc-11ef-98ec-a2cee5656455/Library/Caches/com.apple.xbs/Sources/ANGLE_iosmac/Source/ThirdParty/ANGLE/src/libANGLE/renderer/metal/mtl_render_utils.mm"
++ "/AppleInternal/Library/BuildRoots/c9bccf69-2ccc-11ef-98ec-a2cee5656455/Library/Caches/com.apple.xbs/Sources/ANGLE_iosmac/Source/ThirdParty/ANGLE/src/libANGLE/renderer/metal/mtl_resources.mm"
++ "/AppleInternal/Library/BuildRoots/c9bccf69-2ccc-11ef-98ec-a2cee5656455/Library/Caches/com.apple.xbs/Sources/ANGLE_iosmac/Source/ThirdParty/ANGLE/src/libANGLE/renderer/metal/mtl_utils.mm"
++ "/AppleInternal/Library/BuildRoots/c9bccf69-2ccc-11ef-98ec-a2cee5656455/Library/Caches/com.apple.xbs/Sources/ANGLE_iosmac/Source/ThirdParty/ANGLE/src/libANGLE/renderer/metal/process.cpp"
++ "/AppleInternal/Library/BuildRoots/c9bccf69-2ccc-11ef-98ec-a2cee5656455/Library/Caches/com.apple.xbs/Sources/ANGLE_iosmac/Source/ThirdParty/ANGLE/src/libANGLE/renderer/renderer_utils.cpp"
++ "/AppleInternal/Library/BuildRoots/c9bccf69-2ccc-11ef-98ec-a2cee5656455/Library/Caches/com.apple.xbs/Sources/ANGLE_iosmac/Source/ThirdParty/ANGLE/src/libANGLE/validationES.cpp"
++ "/AppleInternal/Library/BuildRoots/c9bccf69-2ccc-11ef-98ec-a2cee5656455/Library/Caches/com.apple.xbs/Sources/ANGLE_iosmac/Source/ThirdParty/ANGLE/src/libANGLE/validationES2.cpp"
++ "2.1.23228 git hash: 42a61f6e70c9"
++ "be89ea6aa9afcf197fdc79507b0981cc"
+- "#extension GL_OES_gpu_shader5 : enable\n"
+- "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/ANGLE_iosmac/Source/ThirdParty/ANGLE/src/common/android_util.cpp"
+- "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/ANGLE_iosmac/Source/ThirdParty/ANGLE/src/common/angleutils.cpp"
+- "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/ANGLE_iosmac/Source/ThirdParty/ANGLE/src/common/apple_platform_utils.mm"
+- "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/ANGLE_iosmac/Source/ThirdParty/ANGLE/src/image_util/loadimage_astc.cpp"
+- "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/ANGLE_iosmac/Source/ThirdParty/ANGLE/src/libANGLE/BlobCache.cpp"
+- "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/ANGLE_iosmac/Source/ThirdParty/ANGLE/src/libANGLE/Buffer.cpp"
+- "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/ANGLE_iosmac/Source/ThirdParty/ANGLE/src/libANGLE/Context.cpp"
+- "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/ANGLE_iosmac/Source/ThirdParty/ANGLE/src/libANGLE/Debug.cpp"
+- "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/ANGLE_iosmac/Source/ThirdParty/ANGLE/src/libANGLE/Display.cpp"
+- "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/ANGLE_iosmac/Source/ThirdParty/ANGLE/src/libANGLE/GLES1Renderer.cpp"
+- "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/ANGLE_iosmac/Source/ThirdParty/ANGLE/src/libANGLE/HandleAllocator.cpp"
+- "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/ANGLE_iosmac/Source/ThirdParty/ANGLE/src/libANGLE/Platform.cpp"
+- "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/ANGLE_iosmac/Source/ThirdParty/ANGLE/src/libANGLE/Program.cpp"
+- "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/ANGLE_iosmac/Source/ThirdParty/ANGLE/src/libANGLE/Shader.cpp"
+- "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/ANGLE_iosmac/Source/ThirdParty/ANGLE/src/libANGLE/State.cpp"
+- "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/ANGLE_iosmac/Source/ThirdParty/ANGLE/src/libANGLE/Surface.cpp"
+- "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/ANGLE_iosmac/Source/ThirdParty/ANGLE/src/libANGLE/Texture.cpp"
+- "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/ANGLE_iosmac/Source/ThirdParty/ANGLE/src/libANGLE/angletypes.cpp"
+- "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/ANGLE_iosmac/Source/ThirdParty/ANGLE/src/libANGLE/queryconversions.cpp"
+- "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/ANGLE_iosmac/Source/ThirdParty/ANGLE/src/libANGLE/renderer/gl/BlitGL.cpp"
+- "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/ANGLE_iosmac/Source/ThirdParty/ANGLE/src/libANGLE/renderer/gl/BufferGL.cpp"
+- "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/ANGLE_iosmac/Source/ThirdParty/ANGLE/src/libANGLE/renderer/gl/FenceNVGL.cpp"
+- "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/ANGLE_iosmac/Source/ThirdParty/ANGLE/src/libANGLE/renderer/gl/FramebufferGL.cpp"
+- "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/ANGLE_iosmac/Source/ThirdParty/ANGLE/src/libANGLE/renderer/gl/ProgramGL.cpp"
+- "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/ANGLE_iosmac/Source/ThirdParty/ANGLE/src/libANGLE/renderer/gl/QueryGL.cpp"
+- "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/ANGLE_iosmac/Source/ThirdParty/ANGLE/src/libANGLE/renderer/gl/RenderbufferGL.cpp"
+- "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/ANGLE_iosmac/Source/ThirdParty/ANGLE/src/libANGLE/renderer/gl/RendererGL.cpp"
+- "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/ANGLE_iosmac/Source/ThirdParty/ANGLE/src/libANGLE/renderer/gl/ShaderGL.cpp"
+- "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/ANGLE_iosmac/Source/ThirdParty/ANGLE/src/libANGLE/renderer/gl/SyncGL.cpp"
+- "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/ANGLE_iosmac/Source/ThirdParty/ANGLE/src/libANGLE/renderer/gl/TextureGL.cpp"
+- "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/ANGLE_iosmac/Source/ThirdParty/ANGLE/src/libANGLE/renderer/gl/VertexArrayGL.cpp"
+- "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/ANGLE_iosmac/Source/ThirdParty/ANGLE/src/libANGLE/renderer/gl/renderergl_utils.cpp"
+- "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/ANGLE_iosmac/Source/ThirdParty/ANGLE/src/libANGLE/renderer/metal/BufferMtl.mm"
+- "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/ANGLE_iosmac/Source/ThirdParty/ANGLE/src/libANGLE/renderer/metal/ContextMtl.mm"
+- "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/ANGLE_iosmac/Source/ThirdParty/ANGLE/src/libANGLE/renderer/metal/DisplayMtl.mm"
+- "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/ANGLE_iosmac/Source/ThirdParty/ANGLE/src/libANGLE/renderer/metal/FrameBufferMtl.mm"
+- "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/ANGLE_iosmac/Source/ThirdParty/ANGLE/src/libANGLE/renderer/metal/IOSurfaceSurfaceMtl.mm"
+- "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/ANGLE_iosmac/Source/ThirdParty/ANGLE/src/libANGLE/renderer/metal/ProgramExecutableMtl.mm"
+- "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/ANGLE_iosmac/Source/ThirdParty/ANGLE/src/libANGLE/renderer/metal/RenderBufferMtl.mm"
+- "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/ANGLE_iosmac/Source/ThirdParty/ANGLE/src/libANGLE/renderer/metal/SurfaceMtl.mm"
+- "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/ANGLE_iosmac/Source/ThirdParty/ANGLE/src/libANGLE/renderer/metal/TextureMtl.mm"
+- "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/ANGLE_iosmac/Source/ThirdParty/ANGLE/src/libANGLE/renderer/metal/TransformFeedbackMtl.mm"
+- "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/ANGLE_iosmac/Source/ThirdParty/ANGLE/src/libANGLE/renderer/metal/VertexArrayMtl.mm"
+- "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/ANGLE_iosmac/Source/ThirdParty/ANGLE/src/libANGLE/renderer/metal/mtl_command_buffer.mm"
+- "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/ANGLE_iosmac/Source/ThirdParty/ANGLE/src/libANGLE/renderer/metal/mtl_context_device.mm"
+- "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/ANGLE_iosmac/Source/ThirdParty/ANGLE/src/libANGLE/renderer/metal/mtl_library_cache.mm"
+- "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/ANGLE_iosmac/Source/ThirdParty/ANGLE/src/libANGLE/renderer/metal/mtl_pipeline_cache.mm"
+- "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/ANGLE_iosmac/Source/ThirdParty/ANGLE/src/libANGLE/renderer/metal/mtl_render_utils.mm"
+- "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/ANGLE_iosmac/Source/ThirdParty/ANGLE/src/libANGLE/renderer/metal/mtl_resources.mm"
+- "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/ANGLE_iosmac/Source/ThirdParty/ANGLE/src/libANGLE/renderer/metal/mtl_utils.mm"
+- "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/ANGLE_iosmac/Source/ThirdParty/ANGLE/src/libANGLE/renderer/metal/process.cpp"
+- "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/ANGLE_iosmac/Source/ThirdParty/ANGLE/src/libANGLE/renderer/renderer_utils.cpp"
+- "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/ANGLE_iosmac/Source/ThirdParty/ANGLE/src/libANGLE/validationES.cpp"
+- "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/ANGLE_iosmac/Source/ThirdParty/ANGLE/src/libANGLE/validationES2.cpp"
+- "2.1.23319 git hash: b150bcb873b8"
+- ":OES_tessellation_shader:"
+- "GL_OES_gpu_shader5"
+- "GL_OES_gpu_shader5"
+- "GL_OES_tessellation_shader extension not enabled."
+- "OES_gpu_shader5"
+- "OES_tessellation_shader"
+- "c89520938e51841b8617e8ca68248640"
+
+```

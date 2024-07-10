@@ -1,0 +1,724 @@
+## AppleDepth
+
+> `/System/Library/PrivateFrameworks/AppleDepth.framework/Versions/A/AppleDepth`
+
+```diff
+
+-132.0.0.0.0
+-  __TEXT.__text: 0xacf58
++130.0.0.0.0
++  __TEXT.__text: 0xacc4c
+   __TEXT.__auth_stubs: 0x11a0
+-  __TEXT.__objc_methlist: 0x46cc
++  __TEXT.__objc_methlist: 0x4684
+   __TEXT.__const: 0x11c0
+-  __TEXT.__gcc_except_tab: 0xb3b8
+-  __TEXT.__oslogstring: 0x54a0
+-  __TEXT.__cstring: 0x45e3
+-  __TEXT.__unwind_info: 0x2590
++  __TEXT.__gcc_except_tab: 0xb368
++  __TEXT.__oslogstring: 0x5490
++  __TEXT.__cstring: 0x45a1
++  __TEXT.__unwind_info: 0x2588
+   __TEXT.__eh_frame: 0x98
+-  __TEXT.__objc_classname: 0x10e65
+-  __TEXT.__objc_methname: 0xdc48
++  __TEXT.__objc_classname: 0x10e63
++  __TEXT.__objc_methname: 0xdb48
+   __TEXT.__objc_methtype: 0x4680
+-  __TEXT.__objc_stubs: 0x7040
++  __TEXT.__objc_stubs: 0x7020
+   __DATA_CONST.__got: 0x628
+   __DATA_CONST.__const: 0x188
+   __DATA_CONST.__objc_classlist: 0x398
+   __DATA_CONST.__objc_catlist: 0x8
+   __DATA_CONST.__objc_protolist: 0x20
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x23e8
++  __DATA_CONST.__objc_selrefs: 0x23b0
+   __DATA_CONST.__objc_superrefs: 0x310
+   __DATA_CONST.__objc_arraydata: 0x150
+   __AUTH_CONST.__auth_got: 0x8e0
+   __AUTH_CONST.__auth_ptr: 0x8
+   __AUTH_CONST.__const: 0x550
+-  __AUTH_CONST.__cfstring: 0x4640
+-  __AUTH_CONST.__objc_const: 0xc318
++  __AUTH_CONST.__cfstring: 0x4600
++  __AUTH_CONST.__objc_const: 0xc288
+   __AUTH_CONST.__objc_intobj: 0x1f8
+   __AUTH_CONST.__objc_arrayobj: 0xc0
+   __AUTH_CONST.__objc_doubleobj: 0x10
+   __AUTH.__objc_data: 0x23f0
+-  __DATA.__objc_ivar: 0xbd4
+-  __DATA.__data: 0xe83e8
++  __DATA.__objc_ivar: 0xbc8
++  __DATA.__data: 0xe83e0
+   __DATA.__bss: 0x1b1
+   - /AppleInternal/Library/Frameworks/VisualLogger.framework/Versions/A/VisualLogger
+   - /System/Library/Frameworks/Accelerate.framework/Versions/A/Accelerate
+
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libz.1.dylib
+-  Functions: 1907
+-  Symbols:   5670
+-  CStrings:  838
++  Functions: 1901
++  Symbols:   5659
++  CStrings:  836
+ 
+Symbols:
++ GCC_except_table1004
++ GCC_except_table1005
++ GCC_except_table1006
++ GCC_except_table1007
++ GCC_except_table1008
++ GCC_except_table1009
++ GCC_except_table1023
++ GCC_except_table1024
++ GCC_except_table1032
++ GCC_except_table1037
++ GCC_except_table1039
++ GCC_except_table1041
++ GCC_except_table1046
++ GCC_except_table1048
++ GCC_except_table1050
++ GCC_except_table1051
++ GCC_except_table1055
++ GCC_except_table1064
++ GCC_except_table1065
++ GCC_except_table1066
++ GCC_except_table1067
++ GCC_except_table1074
++ GCC_except_table1075
++ GCC_except_table1076
++ GCC_except_table1079
++ GCC_except_table1092
++ GCC_except_table1102
++ GCC_except_table1107
++ GCC_except_table1112
++ GCC_except_table1116
++ GCC_except_table1117
++ GCC_except_table1119
++ GCC_except_table1120
++ GCC_except_table1121
++ GCC_except_table1143
++ GCC_except_table1144
++ GCC_except_table1147
++ GCC_except_table1152
++ GCC_except_table1157
++ GCC_except_table1177
++ GCC_except_table1178
++ GCC_except_table1186
++ GCC_except_table1187
++ GCC_except_table1252
++ GCC_except_table1253
++ GCC_except_table1272
++ GCC_except_table1287
++ GCC_except_table1300
++ GCC_except_table1301
++ GCC_except_table1302
++ GCC_except_table1303
++ GCC_except_table1304
++ GCC_except_table1329
++ GCC_except_table1334
++ GCC_except_table1339
++ GCC_except_table1341
++ GCC_except_table1343
++ GCC_except_table1346
++ GCC_except_table1348
++ GCC_except_table1356
++ GCC_except_table1358
++ GCC_except_table1360
++ GCC_except_table1363
++ GCC_except_table1368
++ GCC_except_table1378
++ GCC_except_table1379
++ GCC_except_table1395
++ GCC_except_table1400
++ GCC_except_table1402
++ GCC_except_table1403
++ GCC_except_table1411
++ GCC_except_table1414
++ GCC_except_table1423
++ GCC_except_table1427
++ GCC_except_table1428
++ GCC_except_table1430
++ GCC_except_table1437
++ GCC_except_table1438
++ GCC_except_table1439
++ GCC_except_table1441
++ GCC_except_table1448
++ GCC_except_table1468
++ GCC_except_table1470
++ GCC_except_table1471
++ GCC_except_table1480
++ GCC_except_table1488
++ GCC_except_table1489
++ GCC_except_table1490
++ GCC_except_table1491
++ GCC_except_table1492
++ GCC_except_table1493
++ GCC_except_table1504
++ GCC_except_table1505
++ GCC_except_table1507
++ GCC_except_table1536
++ GCC_except_table1544
++ GCC_except_table1548
++ GCC_except_table1549
++ GCC_except_table1551
++ GCC_except_table1552
++ GCC_except_table1553
++ GCC_except_table1564
++ GCC_except_table1566
++ GCC_except_table1573
++ GCC_except_table1580
++ GCC_except_table1582
++ GCC_except_table1583
++ GCC_except_table1590
++ GCC_except_table1592
++ GCC_except_table1593
++ GCC_except_table1614
++ GCC_except_table1615
++ GCC_except_table1616
++ GCC_except_table1617
++ GCC_except_table1618
++ GCC_except_table1619
++ GCC_except_table1631
++ GCC_except_table1632
++ GCC_except_table1633
++ GCC_except_table1634
++ GCC_except_table1635
++ GCC_except_table1636
++ GCC_except_table1651
++ GCC_except_table1659
++ GCC_except_table1660
++ GCC_except_table1681
++ GCC_except_table1682
++ GCC_except_table1683
++ GCC_except_table1684
++ GCC_except_table1685
++ GCC_except_table1693
++ GCC_except_table1702
++ GCC_except_table1703
++ GCC_except_table1704
++ GCC_except_table1715
++ GCC_except_table1717
++ GCC_except_table1718
++ GCC_except_table1720
++ GCC_except_table1730
++ GCC_except_table1735
++ GCC_except_table1737
++ GCC_except_table1738
++ GCC_except_table1740
++ GCC_except_table1745
++ GCC_except_table1758
++ GCC_except_table1763
++ GCC_except_table1765
++ GCC_except_table1768
++ GCC_except_table1786
++ GCC_except_table1793
++ GCC_except_table1794
++ GCC_except_table1808
++ GCC_except_table1809
++ GCC_except_table1810
++ GCC_except_table1822
++ GCC_except_table1823
++ GCC_except_table1824
++ GCC_except_table1827
++ GCC_except_table1831
++ GCC_except_table1835
++ GCC_except_table1842
++ GCC_except_table1846
++ GCC_except_table1851
++ GCC_except_table1853
++ GCC_except_table1854
++ GCC_except_table1862
++ GCC_except_table1863
++ GCC_except_table1866
++ GCC_except_table1876
++ GCC_except_table1877
++ GCC_except_table1879
++ GCC_except_table1880
++ GCC_except_table1881
++ GCC_except_table1890
++ GCC_except_table1891
++ GCC_except_table1892
++ GCC_except_table1899
++ GCC_except_table1910
++ GCC_except_table1913
++ GCC_except_table1915
++ GCC_except_table1924
++ GCC_except_table1925
++ GCC_except_table1937
++ GCC_except_table1940
++ GCC_except_table1941
++ GCC_except_table1949
++ GCC_except_table1952
++ GCC_except_table1961
++ GCC_except_table1962
++ GCC_except_table1966
++ GCC_except_table1979
++ GCC_except_table1980
++ GCC_except_table1987
++ GCC_except_table1989
++ GCC_except_table1990
++ GCC_except_table1994
++ GCC_except_table2005
++ GCC_except_table2006
++ GCC_except_table2007
++ GCC_except_table2008
++ GCC_except_table2021
++ GCC_except_table2029
++ GCC_except_table2030
++ GCC_except_table883
++ GCC_except_table906
++ GCC_except_table907
++ GCC_except_table914
++ GCC_except_table975
++ GCC_except_table976
++ GCC_except_table977
++ GCC_except_table997
++ _PromotedConst.5697
++ _PromotedConst.5698
++ _ZL15INSTRUMENTS_ENDjyyyy.1151
++ _ZL15INSTRUMENTS_ENDjyyyy.1214
++ _ZL15INSTRUMENTS_ENDjyyyy.1250
++ _ZL15INSTRUMENTS_ENDjyyyy.1280
++ _ZL15INSTRUMENTS_ENDjyyyy.1286
++ _ZL15INSTRUMENTS_ENDjyyyy.1376
++ _ZL15INSTRUMENTS_ENDjyyyy.1509
++ _ZL15INSTRUMENTS_ENDjyyyy.1515
++ _ZL15INSTRUMENTS_ENDjyyyy.1571
++ _ZL15INSTRUMENTS_ENDjyyyy.1713
++ _ZL15INSTRUMENTS_ENDjyyyy.1949
++ _ZL15INSTRUMENTS_ENDjyyyy.2184
++ _ZL15INSTRUMENTS_ENDjyyyy.2334
++ _ZL15INSTRUMENTS_ENDjyyyy.2486
++ _ZL15INSTRUMENTS_ENDjyyyy.2952
++ _ZL15INSTRUMENTS_ENDjyyyy.3008
++ _ZL15INSTRUMENTS_ENDjyyyy.3213
++ _ZL15INSTRUMENTS_ENDjyyyy.3349
++ _ZL15INSTRUMENTS_ENDjyyyy.3401
++ _ZL15INSTRUMENTS_ENDjyyyy.3562
++ _ZL15INSTRUMENTS_ENDjyyyy.3647
++ _ZL15INSTRUMENTS_ENDjyyyy.3813
++ _ZL15INSTRUMENTS_ENDjyyyy.3919
++ _ZL15INSTRUMENTS_ENDjyyyy.3942
++ _ZL15INSTRUMENTS_ENDjyyyy.4150
++ _ZL15INSTRUMENTS_ENDjyyyy.4198
++ _ZL15INSTRUMENTS_ENDjyyyy.4335
++ _ZL15INSTRUMENTS_ENDjyyyy.4514
++ _ZL15INSTRUMENTS_ENDjyyyy.4664
++ _ZL15INSTRUMENTS_ENDjyyyy.4776
++ _ZL15INSTRUMENTS_ENDjyyyy.4984
++ _ZL15INSTRUMENTS_ENDjyyyy.5458
++ _ZL15INSTRUMENTS_ENDjyyyy.5518
++ _ZL15INSTRUMENTS_ENDjyyyy.5683
++ _ZL17INSTRUMENTS_EVENTjyyyy.1152
++ _ZL17INSTRUMENTS_EVENTjyyyy.1215
++ _ZL17INSTRUMENTS_EVENTjyyyy.1251
++ _ZL17INSTRUMENTS_EVENTjyyyy.1281
++ _ZL17INSTRUMENTS_EVENTjyyyy.1287
++ _ZL17INSTRUMENTS_EVENTjyyyy.1377
++ _ZL17INSTRUMENTS_EVENTjyyyy.1510
++ _ZL17INSTRUMENTS_EVENTjyyyy.1516
++ _ZL17INSTRUMENTS_EVENTjyyyy.1572
++ _ZL17INSTRUMENTS_EVENTjyyyy.1714
++ _ZL17INSTRUMENTS_EVENTjyyyy.1950
++ _ZL17INSTRUMENTS_EVENTjyyyy.2185
++ _ZL17INSTRUMENTS_EVENTjyyyy.2335
++ _ZL17INSTRUMENTS_EVENTjyyyy.2487
++ _ZL17INSTRUMENTS_EVENTjyyyy.2953
++ _ZL17INSTRUMENTS_EVENTjyyyy.3009
++ _ZL17INSTRUMENTS_EVENTjyyyy.3214
++ _ZL17INSTRUMENTS_EVENTjyyyy.3350
++ _ZL17INSTRUMENTS_EVENTjyyyy.3402
++ _ZL17INSTRUMENTS_EVENTjyyyy.3563
++ _ZL17INSTRUMENTS_EVENTjyyyy.3648
++ _ZL17INSTRUMENTS_EVENTjyyyy.3814
++ _ZL17INSTRUMENTS_EVENTjyyyy.3920
++ _ZL17INSTRUMENTS_EVENTjyyyy.3943
++ _ZL17INSTRUMENTS_EVENTjyyyy.4151
++ _ZL17INSTRUMENTS_EVENTjyyyy.4199
++ _ZL17INSTRUMENTS_EVENTjyyyy.4336
++ _ZL17INSTRUMENTS_EVENTjyyyy.4515
++ _ZL17INSTRUMENTS_EVENTjyyyy.4665
++ _ZL17INSTRUMENTS_EVENTjyyyy.4777
++ _ZL17INSTRUMENTS_EVENTjyyyy.4985
++ _ZL17INSTRUMENTS_EVENTjyyyy.5459
++ _ZL17INSTRUMENTS_EVENTjyyyy.5519
++ _ZL17INSTRUMENTS_EVENTjyyyy.5684
++ _ZL17INSTRUMENTS_STARTjyyyy.1153
++ _ZL17INSTRUMENTS_STARTjyyyy.1216
++ _ZL17INSTRUMENTS_STARTjyyyy.1252
++ _ZL17INSTRUMENTS_STARTjyyyy.1282
++ _ZL17INSTRUMENTS_STARTjyyyy.1288
++ _ZL17INSTRUMENTS_STARTjyyyy.1378
++ _ZL17INSTRUMENTS_STARTjyyyy.1511
++ _ZL17INSTRUMENTS_STARTjyyyy.1517
++ _ZL17INSTRUMENTS_STARTjyyyy.1573
++ _ZL17INSTRUMENTS_STARTjyyyy.1715
++ _ZL17INSTRUMENTS_STARTjyyyy.1951
++ _ZL17INSTRUMENTS_STARTjyyyy.2186
++ _ZL17INSTRUMENTS_STARTjyyyy.2336
++ _ZL17INSTRUMENTS_STARTjyyyy.2488
++ _ZL17INSTRUMENTS_STARTjyyyy.2954
++ _ZL17INSTRUMENTS_STARTjyyyy.3010
++ _ZL17INSTRUMENTS_STARTjyyyy.3215
++ _ZL17INSTRUMENTS_STARTjyyyy.3351
++ _ZL17INSTRUMENTS_STARTjyyyy.3403
++ _ZL17INSTRUMENTS_STARTjyyyy.3564
++ _ZL17INSTRUMENTS_STARTjyyyy.3649
++ _ZL17INSTRUMENTS_STARTjyyyy.3815
++ _ZL17INSTRUMENTS_STARTjyyyy.3921
++ _ZL17INSTRUMENTS_STARTjyyyy.3944
++ _ZL17INSTRUMENTS_STARTjyyyy.4152
++ _ZL17INSTRUMENTS_STARTjyyyy.4200
++ _ZL17INSTRUMENTS_STARTjyyyy.4337
++ _ZL17INSTRUMENTS_STARTjyyyy.4516
++ _ZL17INSTRUMENTS_STARTjyyyy.4666
++ _ZL17INSTRUMENTS_STARTjyyyy.4778
++ _ZL17INSTRUMENTS_STARTjyyyy.4986
++ _ZL17INSTRUMENTS_STARTjyyyy.5460
++ _ZL17INSTRUMENTS_STARTjyyyy.5520
++ _ZL17INSTRUMENTS_STARTjyyyy.5685
++ __block_literal_global.5070
++ _objc_msgSend$blacken
+- -[ADFlowFrameOutput confidenceLevels]
+- -[ADFlowFrameOutput depthMask]
+- -[ADFlowFrameOutput setConfidenceLevels:]
+- -[ADFlowFrameOutput setDepthMask:]
+- -[ADFlowFrameOutput setUncertainty:]
+- -[ADFlowFrameOutput uncertainty]
+- GCC_except_table1003
+- GCC_except_table1010
+- GCC_except_table1012
+- GCC_except_table1013
+- GCC_except_table1014
+- GCC_except_table1017
+- GCC_except_table1021
+- GCC_except_table1029
+- GCC_except_table1030
+- GCC_except_table1038
+- GCC_except_table1043
+- GCC_except_table1045
+- GCC_except_table1052
+- GCC_except_table1059
+- GCC_except_table1060
+- GCC_except_table1061
+- GCC_except_table1062
+- GCC_except_table1069
+- GCC_except_table1070
+- GCC_except_table1073
+- GCC_except_table1081
+- GCC_except_table1084
+- GCC_except_table1085
+- GCC_except_table1086
+- GCC_except_table1088
+- GCC_except_table1089
+- GCC_except_table1098
+- GCC_except_table1108
+- GCC_except_table1113
+- GCC_except_table1123
+- GCC_except_table1124
+- GCC_except_table1125
+- GCC_except_table1126
+- GCC_except_table1133
+- GCC_except_table1134
+- GCC_except_table1150
+- GCC_except_table1158
+- GCC_except_table1159
+- GCC_except_table1161
+- GCC_except_table1163
+- GCC_except_table1183
+- GCC_except_table1184
+- GCC_except_table1192
+- GCC_except_table1193
+- GCC_except_table1258
+- GCC_except_table1259
+- GCC_except_table1284
+- GCC_except_table1293
+- GCC_except_table1307
+- GCC_except_table1309
+- GCC_except_table1310
+- GCC_except_table1314
+- GCC_except_table1318
+- GCC_except_table1335
+- GCC_except_table1340
+- GCC_except_table1352
+- GCC_except_table1354
+- GCC_except_table1357
+- GCC_except_table1362
+- GCC_except_table1367
+- GCC_except_table1369
+- GCC_except_table1370
+- GCC_except_table1371
+- GCC_except_table1372
+- GCC_except_table1374
+- GCC_except_table1384
+- GCC_except_table1385
+- GCC_except_table1406
+- GCC_except_table1408
+- GCC_except_table1409
+- GCC_except_table1417
+- GCC_except_table1419
+- GCC_except_table1420
+- GCC_except_table1429
+- GCC_except_table1433
+- GCC_except_table1442
+- GCC_except_table1443
+- GCC_except_table1445
+- GCC_except_table1446
+- GCC_except_table1450
+- GCC_except_table1453
+- GCC_except_table1454
+- GCC_except_table1474
+- GCC_except_table1476
+- GCC_except_table1477
+- GCC_except_table1486
+- GCC_except_table1494
+- GCC_except_table1498
+- GCC_except_table1499
+- GCC_except_table1501
+- GCC_except_table1509
+- GCC_except_table1511
+- GCC_except_table1514
+- GCC_except_table1516
+- GCC_except_table1519
+- GCC_except_table1542
+- GCC_except_table1554
+- GCC_except_table1557
+- GCC_except_table1558
+- GCC_except_table1561
+- GCC_except_table1562
+- GCC_except_table1570
+- GCC_except_table1571
+- GCC_except_table1584
+- GCC_except_table1586
+- GCC_except_table1588
+- GCC_except_table1589
+- GCC_except_table1596
+- GCC_except_table1597
+- GCC_except_table1598
+- GCC_except_table1599
+- GCC_except_table1623
+- GCC_except_table1625
+- GCC_except_table1626
+- GCC_except_table1627
+- GCC_except_table1628
+- GCC_except_table1630
+- GCC_except_table1642
+- GCC_except_table1645
+- GCC_except_table1646
+- GCC_except_table1647
+- GCC_except_table1661
+- GCC_except_table1675
+- GCC_except_table1677
+- GCC_except_table1678
+- GCC_except_table1686
+- GCC_except_table1687
+- GCC_except_table1694
+- GCC_except_table1696
+- GCC_except_table1697
+- GCC_except_table1699
+- GCC_except_table1707
+- GCC_except_table1708
+- GCC_except_table1709
+- GCC_except_table1721
+- GCC_except_table1723
+- GCC_except_table1724
+- GCC_except_table1726
+- GCC_except_table1728
+- GCC_except_table1741
+- GCC_except_table1743
+- GCC_except_table1748
+- GCC_except_table1750
+- GCC_except_table1751
+- GCC_except_table1752
+- GCC_except_table1770
+- GCC_except_table1774
+- GCC_except_table1775
+- GCC_except_table1777
+- GCC_except_table1792
+- GCC_except_table1799
+- GCC_except_table1800
+- GCC_except_table1814
+- GCC_except_table1815
+- GCC_except_table1816
+- GCC_except_table1829
+- GCC_except_table1836
+- GCC_except_table1837
+- GCC_except_table1839
+- GCC_except_table1840
+- GCC_except_table1841
+- GCC_except_table1848
+- GCC_except_table1857
+- GCC_except_table1859
+- GCC_except_table1860
+- GCC_except_table1869
+- GCC_except_table1870
+- GCC_except_table1874
+- GCC_except_table1884
+- GCC_except_table1885
+- GCC_except_table1886
+- GCC_except_table1887
+- GCC_except_table1888
+- GCC_except_table1889
+- GCC_except_table1898
+- GCC_except_table1902
+- GCC_except_table1909
+- GCC_except_table1919
+- GCC_except_table1922
+- GCC_except_table1927
+- GCC_except_table1929
+- GCC_except_table1931
+- GCC_except_table1936
+- GCC_except_table1943
+- GCC_except_table1946
+- GCC_except_table1947
+- GCC_except_table1955
+- GCC_except_table1958
+- GCC_except_table1967
+- GCC_except_table1968
+- GCC_except_table1972
+- GCC_except_table1991
+- GCC_except_table1992
+- GCC_except_table1995
+- GCC_except_table1999
+- GCC_except_table2000
+- GCC_except_table2002
+- GCC_except_table2011
+- GCC_except_table2012
+- GCC_except_table2013
+- GCC_except_table2014
+- GCC_except_table2027
+- GCC_except_table2035
+- GCC_except_table2036
+- GCC_except_table885
+- GCC_except_table912
+- GCC_except_table919
+- GCC_except_table920
+- GCC_except_table981
+- GCC_except_table983
+- GCC_except_table994
+- OBJC_IVAR_$_ADFlowFrameOutput._confidenceLevels
+- OBJC_IVAR_$_ADFlowFrameOutput._depthMask
+- OBJC_IVAR_$_ADFlowFrameOutput._uncertainty
+- _PromotedConst.5710
+- _PromotedConst.5711
+- _ZL15INSTRUMENTS_ENDjyyyy.1152
+- _ZL15INSTRUMENTS_ENDjyyyy.1215
+- _ZL15INSTRUMENTS_ENDjyyyy.1251
+- _ZL15INSTRUMENTS_ENDjyyyy.1281
+- _ZL15INSTRUMENTS_ENDjyyyy.1287
+- _ZL15INSTRUMENTS_ENDjyyyy.1377
+- _ZL15INSTRUMENTS_ENDjyyyy.1510
+- _ZL15INSTRUMENTS_ENDjyyyy.1516
+- _ZL15INSTRUMENTS_ENDjyyyy.1572
+- _ZL15INSTRUMENTS_ENDjyyyy.1714
+- _ZL15INSTRUMENTS_ENDjyyyy.1966
+- _ZL15INSTRUMENTS_ENDjyyyy.2196
+- _ZL15INSTRUMENTS_ENDjyyyy.2346
+- _ZL15INSTRUMENTS_ENDjyyyy.2498
+- _ZL15INSTRUMENTS_ENDjyyyy.2962
+- _ZL15INSTRUMENTS_ENDjyyyy.3018
+- _ZL15INSTRUMENTS_ENDjyyyy.3223
+- _ZL15INSTRUMENTS_ENDjyyyy.3359
+- _ZL15INSTRUMENTS_ENDjyyyy.3411
+- _ZL15INSTRUMENTS_ENDjyyyy.3572
+- _ZL15INSTRUMENTS_ENDjyyyy.3657
+- _ZL15INSTRUMENTS_ENDjyyyy.3823
+- _ZL15INSTRUMENTS_ENDjyyyy.3929
+- _ZL15INSTRUMENTS_ENDjyyyy.3952
+- _ZL15INSTRUMENTS_ENDjyyyy.4160
+- _ZL15INSTRUMENTS_ENDjyyyy.4208
+- _ZL15INSTRUMENTS_ENDjyyyy.4345
+- _ZL15INSTRUMENTS_ENDjyyyy.4523
+- _ZL15INSTRUMENTS_ENDjyyyy.4673
+- _ZL15INSTRUMENTS_ENDjyyyy.4789
+- _ZL15INSTRUMENTS_ENDjyyyy.4997
+- _ZL15INSTRUMENTS_ENDjyyyy.5471
+- _ZL15INSTRUMENTS_ENDjyyyy.5531
+- _ZL15INSTRUMENTS_ENDjyyyy.5696
+- _ZL17INSTRUMENTS_EVENTjyyyy.1153
+- _ZL17INSTRUMENTS_EVENTjyyyy.1216
+- _ZL17INSTRUMENTS_EVENTjyyyy.1252
+- _ZL17INSTRUMENTS_EVENTjyyyy.1282
+- _ZL17INSTRUMENTS_EVENTjyyyy.1288
+- _ZL17INSTRUMENTS_EVENTjyyyy.1378
+- _ZL17INSTRUMENTS_EVENTjyyyy.1511
+- _ZL17INSTRUMENTS_EVENTjyyyy.1517
+- _ZL17INSTRUMENTS_EVENTjyyyy.1573
+- _ZL17INSTRUMENTS_EVENTjyyyy.1715
+- _ZL17INSTRUMENTS_EVENTjyyyy.1967
+- _ZL17INSTRUMENTS_EVENTjyyyy.2197
+- _ZL17INSTRUMENTS_EVENTjyyyy.2347
+- _ZL17INSTRUMENTS_EVENTjyyyy.2499
+- _ZL17INSTRUMENTS_EVENTjyyyy.2963
+- _ZL17INSTRUMENTS_EVENTjyyyy.3019
+- _ZL17INSTRUMENTS_EVENTjyyyy.3224
+- _ZL17INSTRUMENTS_EVENTjyyyy.3360
+- _ZL17INSTRUMENTS_EVENTjyyyy.3412
+- _ZL17INSTRUMENTS_EVENTjyyyy.3573
+- _ZL17INSTRUMENTS_EVENTjyyyy.3658
+- _ZL17INSTRUMENTS_EVENTjyyyy.3824
+- _ZL17INSTRUMENTS_EVENTjyyyy.3930
+- _ZL17INSTRUMENTS_EVENTjyyyy.3953
+- _ZL17INSTRUMENTS_EVENTjyyyy.4161
+- _ZL17INSTRUMENTS_EVENTjyyyy.4209
+- _ZL17INSTRUMENTS_EVENTjyyyy.4346
+- _ZL17INSTRUMENTS_EVENTjyyyy.4524
+- _ZL17INSTRUMENTS_EVENTjyyyy.4674
+- _ZL17INSTRUMENTS_EVENTjyyyy.4790
+- _ZL17INSTRUMENTS_EVENTjyyyy.4998
+- _ZL17INSTRUMENTS_EVENTjyyyy.5472
+- _ZL17INSTRUMENTS_EVENTjyyyy.5532
+- _ZL17INSTRUMENTS_EVENTjyyyy.5697
+- _ZL17INSTRUMENTS_STARTjyyyy.1154
+- _ZL17INSTRUMENTS_STARTjyyyy.1217
+- _ZL17INSTRUMENTS_STARTjyyyy.1253
+- _ZL17INSTRUMENTS_STARTjyyyy.1283
+- _ZL17INSTRUMENTS_STARTjyyyy.1289
+- _ZL17INSTRUMENTS_STARTjyyyy.1379
+- _ZL17INSTRUMENTS_STARTjyyyy.1512
+- _ZL17INSTRUMENTS_STARTjyyyy.1518
+- _ZL17INSTRUMENTS_STARTjyyyy.1574
+- _ZL17INSTRUMENTS_STARTjyyyy.1716
+- _ZL17INSTRUMENTS_STARTjyyyy.1968
+- _ZL17INSTRUMENTS_STARTjyyyy.2198
+- _ZL17INSTRUMENTS_STARTjyyyy.2348
+- _ZL17INSTRUMENTS_STARTjyyyy.2500
+- _ZL17INSTRUMENTS_STARTjyyyy.2964
+- _ZL17INSTRUMENTS_STARTjyyyy.3020
+- _ZL17INSTRUMENTS_STARTjyyyy.3225
+- _ZL17INSTRUMENTS_STARTjyyyy.3361
+- _ZL17INSTRUMENTS_STARTjyyyy.3413
+- _ZL17INSTRUMENTS_STARTjyyyy.3574
+- _ZL17INSTRUMENTS_STARTjyyyy.3659
+- _ZL17INSTRUMENTS_STARTjyyyy.3825
+- _ZL17INSTRUMENTS_STARTjyyyy.3931
+- _ZL17INSTRUMENTS_STARTjyyyy.3954
+- _ZL17INSTRUMENTS_STARTjyyyy.4162
+- _ZL17INSTRUMENTS_STARTjyyyy.4210
+- _ZL17INSTRUMENTS_STARTjyyyy.4347
+- _ZL17INSTRUMENTS_STARTjyyyy.4525
+- _ZL17INSTRUMENTS_STARTjyyyy.4675
+- _ZL17INSTRUMENTS_STARTjyyyy.4791
+- _ZL17INSTRUMENTS_STARTjyyyy.4999
+- _ZL17INSTRUMENTS_STARTjyyyy.5473
+- _ZL17INSTRUMENTS_STARTjyyyy.5533
+- _ZL17INSTRUMENTS_STARTjyyyy.5698
+- __block_literal_global.5083
+- _kADDeviceConfigurationKeyJasperPerformanceEmulatedDevice
+- _objc_msgSend$resize:
+- _objc_msgSend$setEmulatedDevice:
+CStrings:
++ "/AppleInternal/Library/BuildRoots/fd9f31ad-2a77-11ef-8189-a2cee5656455/Library/Caches/com.apple.xbs/Sources/AppleDepth/AppleDepth/Utils/ADInFieldCalibrationInterSessionData.mm"
++ "130.0"
+- "/AppleInternal/Library/BuildRoots/72033bc0-34d0-11ef-b006-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleDepth/AppleDepth/Utils/ADInFieldCalibrationInterSessionData.mm"
+- "132.0"
+- "experimentalModelPlatformOverride"
+- "jasperPerformanceEmulatedDevice"
+
+```

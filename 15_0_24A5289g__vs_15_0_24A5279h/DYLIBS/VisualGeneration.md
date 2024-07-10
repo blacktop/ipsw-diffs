@@ -1,0 +1,318 @@
+## VisualGeneration
+
+> `/System/Library/PrivateFrameworks/VisualGeneration.framework/Versions/A/VisualGeneration`
+
+```diff
+
+-31.0.0.0.0
+-  __TEXT.__text: 0x1c9ca8
+-  __TEXT.__auth_stubs: 0x3390
++29.0.0.0.0
++  __TEXT.__text: 0x1aa444
++  __TEXT.__auth_stubs: 0x32a0
+   __TEXT.__objc_methlist: 0x4c
+-  __TEXT.__const: 0x11a2a
+-  __TEXT.__cstring: 0x6823
+-  __TEXT.__swift5_typeref: 0x5388
+-  __TEXT.__swift5_fieldmd: 0x571c
+-  __TEXT.__constg_swiftt: 0x57bc
+-  __TEXT.__swift5_builtin: 0x3d4
+-  __TEXT.__swift5_reflstr: 0x4bb1
++  __TEXT.__const: 0x108fa
++  __TEXT.__cstring: 0x6233
++  __TEXT.__swift5_typeref: 0x4f94
++  __TEXT.__swift5_fieldmd: 0x5360
++  __TEXT.__constg_swiftt: 0x546c
++  __TEXT.__swift5_builtin: 0x3fc
++  __TEXT.__swift5_reflstr: 0x4971
+   __TEXT.__swift5_assocty: 0x7f0
+-  __TEXT.__swift5_protos: 0x11c
+-  __TEXT.__swift5_proto: 0x1220
+-  __TEXT.__swift5_types: 0x6a8
+-  __TEXT.__swift5_capture: 0xb94
+-  __TEXT.__swift5_mpenum: 0x154
+-  __TEXT.__oslogstring: 0x227d
+-  __TEXT.__unwind_info: 0x71d0
+-  __TEXT.__eh_frame: 0xf988
++  __TEXT.__swift5_protos: 0x10c
++  __TEXT.__swift5_proto: 0x10c8
++  __TEXT.__swift5_types: 0x664
++  __TEXT.__swift5_capture: 0xb70
++  __TEXT.__swift5_mpenum: 0x184
++  __TEXT.__oslogstring: 0x201d
++  __TEXT.__unwind_info: 0x6d18
++  __TEXT.__eh_frame: 0xef50
+   __TEXT.__objc_classname: 0xc0
+-  __TEXT.__objc_methname: 0x2dc9
++  __TEXT.__objc_methname: 0x2dc0
+   __TEXT.__objc_methtype: 0x17d3
+-  __DATA_CONST.__got: 0x9d8
+-  __DATA_CONST.__const: 0x318
+-  __DATA_CONST.__objc_classlist: 0x1e8
++  __DATA_CONST.__got: 0x9a8
++  __DATA_CONST.__const: 0x300
++  __DATA_CONST.__objc_classlist: 0x1d8
+   __DATA_CONST.__objc_protolist: 0xc0
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x6c8
++  __DATA_CONST.__objc_selrefs: 0x6c0
+   __DATA_CONST.__objc_protorefs: 0x60
+-  __AUTH_CONST.__auth_got: 0x19c8
+-  __AUTH_CONST.__auth_ptr: 0x11f0
+-  __AUTH_CONST.__const: 0xe5d0
+-  __AUTH_CONST.__objc_const: 0x6058
+-  __AUTH.__objc_data: 0x9c0
+-  __AUTH.__data: 0x4928
+-  __DATA.__data: 0x4888
+-  __DATA.__bss: 0x1ec00
+-  __DATA.__common: 0x230
++  __AUTH_CONST.__auth_got: 0x1950
++  __AUTH_CONST.__auth_ptr: 0x1080
++  __AUTH_CONST.__const: 0xe010
++  __AUTH_CONST.__objc_const: 0x5df8
++  __AUTH.__objc_data: 0x920
++  __AUTH.__data: 0x4518
++  __DATA.__data: 0x44e8
++  __DATA.__bss: 0x1cb00
++  __DATA.__common: 0x1f8
+   - /System/Library/Frameworks/Accelerate.framework/Versions/A/Accelerate
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+   - /System/Library/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 8577
+-  Symbols:   2574
+-  CStrings:  785
++  Functions: 8230
++  Symbols:   2471
++  CStrings:  736
+ 
+Symbols:
++ _associated conformance 13DiffusionBase05AppleA15ResourceFactoryV9VersionerOSHAASQ
++ _associated conformance 13DiffusionBase05AppleA8PipelineV0cA5ErrorOSHAASQ
++ _associated conformance 16VisualGeneration13ResolvedImageV5EmptyV10CodingKeys33_3BA96CFBB3BA13EE0F4897F29A3EB673LLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 16VisualGeneration13ResolvedImageV5EmptyV10CodingKeys33_3BA96CFBB3BA13EE0F4897F29A3EB673LLOs0F3KeyAAs28CustomDebugStringConvertible
++ _symbolic SDy_____SDy_____SSGG 13DiffusionBase05AppleA7AdapterO AA0cA15ResourceFactoryV9VersionerO
++ _symbolic SDy_____SDy_____SSGG 13DiffusionBase05AppleA8PipelineV14ComponentModelO AA0cA15ResourceFactoryV9VersionerO
++ _symbolic _____ 13DiffusionBase05AppleA15ResourceFactoryV
++ _symbolic _____ 13DiffusionBase05AppleA15ResourceFactoryV9VersionerO
++ _symbolic _____ 16VisualGeneration13ResolvedImageV5EmptyV10CodingKeys33_3BA96CFBB3BA13EE0F4897F29A3EB673LLO
++ _symbolic _____Sg 13DiffusionBase05AppleA15ResourceFactoryV
++ _symbolic __________c 10Foundation3URLV 13DiffusionBase05AppleC8PipelineV14ComponentModelO
++ _symbolic _____m 16VisualGeneration28AppleDiffusionImageGeneratorC
++ _symbolic _____ySbG s23_ContiguousArrayStorageC
++ _symbolic _____y_____G s22KeyedEncodingContainerV 16VisualGeneration13ResolvedImageV5EmptyV10CodingKeys33_3BA96CFBB3BA13EE0F4897F29A3EB673LLO
++ _symbolic _____y_____SDy_____SSGG s18_DictionaryStorageC 13DiffusionBase05AppleC7AdapterO AC0eC15ResourceFactoryV9VersionerO
++ _symbolic _____y_____SDy_____SSGG s18_DictionaryStorageC 13DiffusionBase05AppleC8PipelineV14ComponentModelO AC0eC15ResourceFactoryV9VersionerO
++ _symbolic _____y_____SSG s18_DictionaryStorageC 13DiffusionBase05AppleC15ResourceFactoryV9VersionerO
++ _symbolic _____y_____SgG 16VisualGeneration28XPCReferenceShareableWrapperV AA13ResolvedImageV
++ block_copy_helper.18
++ block_copy_helper.30
++ block_descriptor.20
++ block_descriptor.32
++ block_destroy_helper.19
++ block_destroy_helper.31
++ objectdestroy.10Tm
++ objectdestroy.168Tm
+- __DATA__TtC13DiffusionBase29AppleDiffusionResourceFactory
+- __DATA__TtCC13DiffusionBase29AppleDiffusionResourceFactoryP33_1BA5B614FE3D8C820AF3340F6F619A5F13WeakContainer
+- __IVARS__TtC13DiffusionBase29AppleDiffusionResourceFactory
+- __IVARS__TtCC13DiffusionBase29AppleDiffusionResourceFactoryP33_1BA5B614FE3D8C820AF3340F6F619A5F13WeakContainer
+- __METACLASS_DATA__TtC13DiffusionBase29AppleDiffusionResourceFactory
+- __METACLASS_DATA__TtCC13DiffusionBase29AppleDiffusionResourceFactoryP33_1BA5B614FE3D8C820AF3340F6F619A5F13WeakContainer
+- __swift_FORCE_LOAD_$_swiftCoreAudio_$_DiffusionBase
+- __swift_FORCE_LOAD_$_swiftCoreMedia_$_DiffusionBase
+- __swift_FORCE_LOAD_$_swiftUniformTypeIdentifiers_$_DiffusionBase
+- _associated conformance 13DiffusionBase05AppleA15ResourceFactoryC9VersionerOSHAASQ
+- _associated conformance 13DiffusionBase05AppleA8PipelineV0cA5ErrorO10Foundation09LocalizedE0AAs0E0
+- _associated conformance 16VisualGeneration0B5StateV10CodingKeys33_A64DF487777B8928F72B9067626815CCLLOSHAASQ
+- _associated conformance 16VisualGeneration0B5StateV10CodingKeys33_A64DF487777B8928F72B9067626815CCLLOs0D3KeyAAs23CustomStringConvertible
+- _associated conformance 16VisualGeneration0B5StateV10CodingKeys33_A64DF487777B8928F72B9067626815CCLLOs0D3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 16VisualGeneration13ResolvedImageV5EmptyV10CodingKeys33_C62D5A6D8DBC26E79B8BC216DB93B62BLLOs0F3KeyAAs23CustomStringConvertible
+- _associated conformance 16VisualGeneration13ResolvedImageV5EmptyV10CodingKeys33_C62D5A6D8DBC26E79B8BC216DB93B62BLLOs0F3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 16VisualGeneration14GeneratorErrorO13VersionTripleV10CodingKeys33_E20E6380ED2F8D1B371D8488BB3C638ELLOSHAASQ
+- _associated conformance 16VisualGeneration14GeneratorErrorO13VersionTripleV10CodingKeys33_E20E6380ED2F8D1B371D8488BB3C638ELLOs0G3KeyAAs23CustomStringConvertible
+- _associated conformance 16VisualGeneration14GeneratorErrorO13VersionTripleV10CodingKeys33_E20E6380ED2F8D1B371D8488BB3C638ELLOs0G3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 16VisualGeneration14GeneratorErrorO38MismatchedModelCatalogAssetsCodingKeys33_E20E6380ED2F8D1B371D8488BB3C638ELLOSHAASQ
+- _associated conformance 16VisualGeneration14GeneratorErrorO38MismatchedModelCatalogAssetsCodingKeys33_E20E6380ED2F8D1B371D8488BB3C638ELLOs0I3KeyAAs23CustomStringConvertible
+- _associated conformance 16VisualGeneration14GeneratorErrorO38MismatchedModelCatalogAssetsCodingKeys33_E20E6380ED2F8D1B371D8488BB3C638ELLOs0I3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 16VisualGeneration17GenericEntityDataV17RejectionCategoryO22PublicFigureCodingKeys33_A7256A5F220918801D102ADC75596479LLOs0J3KeyAAs23CustomStringConvertible
+- _associated conformance 16VisualGeneration17GenericEntityDataV17RejectionCategoryO22PublicFigureCodingKeys33_A7256A5F220918801D102ADC75596479LLOs0J3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 16VisualGeneration17GenericEntityDataV17RejectionCategoryO28FictionalCharacterCodingKeys33_A7256A5F220918801D102ADC75596479LLOs0J3KeyAAs23CustomStringConvertible
+- _associated conformance 16VisualGeneration17GenericEntityDataV17RejectionCategoryO28FictionalCharacterCodingKeys33_A7256A5F220918801D102ADC75596479LLOs0J3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 16VisualGeneration17PersonIndicationsV10CodingKeys33_B3D7616CF6D15521973F8C429D4874B7LLOSHAASQ
+- _associated conformance 16VisualGeneration17PersonIndicationsV10CodingKeys33_B3D7616CF6D15521973F8C429D4874B7LLOs0E3KeyAAs23CustomStringConvertible
+- _associated conformance 16VisualGeneration17PersonIndicationsV10CodingKeys33_B3D7616CF6D15521973F8C429D4874B7LLOs0E3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 16VisualGeneration17PersonIndicationsV4SpanV09AttributeE0V10CodingKeys33_B3D7616CF6D15521973F8C429D4874B7LLOSHAASQ
+- _associated conformance 16VisualGeneration17PersonIndicationsV4SpanV09AttributeE0V10CodingKeys33_B3D7616CF6D15521973F8C429D4874B7LLOs0G3KeyAAs23CustomStringConvertible
+- _associated conformance 16VisualGeneration17PersonIndicationsV4SpanV09AttributeE0V10CodingKeys33_B3D7616CF6D15521973F8C429D4874B7LLOs0G3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 16VisualGeneration17PersonIndicationsV4SpanV10CodingKeys33_B3D7616CF6D15521973F8C429D4874B7LLOSHAASQ
+- _associated conformance 16VisualGeneration17PersonIndicationsV4SpanV10CodingKeys33_B3D7616CF6D15521973F8C429D4874B7LLOs0F3KeyAAs23CustomStringConvertible
+- _associated conformance 16VisualGeneration17PersonIndicationsV4SpanV10CodingKeys33_B3D7616CF6D15521973F8C429D4874B7LLOs0F3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 16VisualGeneration23CodableStringIndexRangeV10CodingKeysOSHAASQ
+- _associated conformance 16VisualGeneration23CodableStringIndexRangeV10CodingKeysOs0G3KeyAAs011CustomDebugD11Convertible
+- _associated conformance 16VisualGeneration23CodableStringIndexRangeV10CodingKeysOs0G3KeyAAs06CustomD11Convertible
+- _associated conformance 16VisualGeneration23CodableStringIndexRangeVSHAASQ
+- _associated conformance 16VisualGeneration29ModelManagerInferenceProviderC5ErrorO35InvalidImageGeneratorTypeCodingKeys33_0E3289186D022A77863B3F33E92270BBLLOSHAASQ
+- _associated conformance 16VisualGeneration29ModelManagerInferenceProviderC5ErrorO35InvalidImageGeneratorTypeCodingKeys33_0E3289186D022A77863B3F33E92270BBLLOs0L3KeyAAs23CustomStringConvertible
+- _associated conformance 16VisualGeneration29ModelManagerInferenceProviderC5ErrorO35InvalidImageGeneratorTypeCodingKeys33_0E3289186D022A77863B3F33E92270BBLLOs0L3KeyAAs28CustomDebugStringConvertible
+- _sendAneSessionSignal
+- _swift_weakAssign
+- _swift_weakDestroy
+- _swift_weakInit
+- _swift_weakLoadStrong
+- _symbolic $s13DiffusionBase23DynamicResourceManagingP
+- _symbolic $s16VisualGeneration0B13StateApplyingP
+- _symbolic $s16VisualGeneration0B14StateProvidingP
+- _symbolic $s16VisualGeneration27RadarDescriptionConvertibleP
+- _symbolic SDyS2SSgG
+- _symbolic SDy_____SDy_____SSGG 13DiffusionBase05AppleA7AdapterO AA0cA15ResourceFactoryC9VersionerO
+- _symbolic SDy_____SDy_____SSGG 13DiffusionBase05AppleA8PipelineV14ComponentModelO AA0cA15ResourceFactoryC9VersionerO
+- _symbolic SS13generatorType_t
+- _symbolic SS4path_t
+- _symbolic SaySSG5paths_t
+- _symbolic Say_____G 16VisualGeneration14GeneratorErrorO13VersionTripleV
+- _symbolic Say_____G So8_NSRangeV
+- _symbolic Say______pG 12ModelCatalog19AssetBackedResourceP
+- _symbolic _____ 12ModelCatalog9AssetLockV
+- _symbolic _____ 13DiffusionBase05AppleA15ResourceFactoryC
+- _symbolic _____ 13DiffusionBase05AppleA15ResourceFactoryC0cA9AssetLockV
+- _symbolic _____ 13DiffusionBase05AppleA15ResourceFactoryC13WeakContainer33_1BA5B614FE3D8C820AF3340F6F619A5FLLC
+- _symbolic _____ 13DiffusionBase05AppleA15ResourceFactoryC9VersionerO
+- _symbolic _____ 16VisualGeneration0B5StateV
+- _symbolic _____ 16VisualGeneration0B5StateV10CodingKeys33_A64DF487777B8928F72B9067626815CCLLO
+- _symbolic _____ 16VisualGeneration13ResolvedImageV5EmptyV10CodingKeys33_C62D5A6D8DBC26E79B8BC216DB93B62BLLO
+- _symbolic _____ 16VisualGeneration14GeneratorErrorO13VersionTripleV
+- _symbolic _____ 16VisualGeneration14GeneratorErrorO13VersionTripleV10CodingKeys33_E20E6380ED2F8D1B371D8488BB3C638ELLO
+- _symbolic _____ 16VisualGeneration14GeneratorErrorO38MismatchedModelCatalogAssetsCodingKeys33_E20E6380ED2F8D1B371D8488BB3C638ELLO
+- _symbolic _____ 16VisualGeneration17GenericEntityDataV17RejectionCategoryO22PublicFigureCodingKeys33_A7256A5F220918801D102ADC75596479LLO
+- _symbolic _____ 16VisualGeneration17GenericEntityDataV17RejectionCategoryO28FictionalCharacterCodingKeys33_A7256A5F220918801D102ADC75596479LLO
+- _symbolic _____ 16VisualGeneration17PersonIndicationsV10CodingKeys33_B3D7616CF6D15521973F8C429D4874B7LLO
+- _symbolic _____ 16VisualGeneration17PersonIndicationsV4SpanV09AttributeE0V10CodingKeys33_B3D7616CF6D15521973F8C429D4874B7LLO
+- _symbolic _____ 16VisualGeneration17PersonIndicationsV4SpanV10CodingKeys33_B3D7616CF6D15521973F8C429D4874B7LLO
+- _symbolic _____ 16VisualGeneration21PrewarmedDependenciesV
+- _symbolic _____ 16VisualGeneration23CodableStringIndexRangeV
+- _symbolic _____ 16VisualGeneration23CodableStringIndexRangeV10CodingKeysO
+- _symbolic _____ 16VisualGeneration29ModelManagerInferenceProviderC5ErrorO35InvalidImageGeneratorTypeCodingKeys33_0E3289186D022A77863B3F33E92270BBLLO
+- _symbolic _____Sg 13DiffusionBase05AppleA15ResourceFactoryC
+- _symbolic _____SgXw 13DiffusionBase05AppleA15ResourceFactoryC
+- _symbolic __________Ybc 10Foundation3URLV 13DiffusionBase05AppleC8PipelineV14ComponentModelO
+- _symbolic ______p 12ModelCatalog19AssetBackedResourceP
+- _symbolic ______p 12ModelCatalog22AssetBackedImageFilterP
+- _symbolic _____mSg 16VisualGeneration14ImageGeneratorC
+- _symbolic _____yS2SSgG s18_DictionaryStorageC
+- _symbolic _____ySS_SSSgtG s23_ContiguousArrayStorageC
+- _symbolic _____y_____G s22KeyedDecodingContainerV 16VisualGeneration0E5StateV10CodingKeys33_A64DF487777B8928F72B9067626815CCLLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 16VisualGeneration14GeneratorErrorO13VersionTripleV10CodingKeys33_E20E6380ED2F8D1B371D8488BB3C638ELLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 16VisualGeneration14GeneratorErrorO38MismatchedModelCatalogAssetsCodingKeys33_E20E6380ED2F8D1B371D8488BB3C638ELLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 16VisualGeneration17GenericEntityDataV17RejectionCategoryO22PublicFigureCodingKeys33_A7256A5F220918801D102ADC75596479LLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 16VisualGeneration17GenericEntityDataV17RejectionCategoryO28FictionalCharacterCodingKeys33_A7256A5F220918801D102ADC75596479LLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 16VisualGeneration17PersonIndicationsV10CodingKeys33_B3D7616CF6D15521973F8C429D4874B7LLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 16VisualGeneration17PersonIndicationsV4SpanV09AttributeH0V10CodingKeys33_B3D7616CF6D15521973F8C429D4874B7LLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 16VisualGeneration17PersonIndicationsV4SpanV10CodingKeys33_B3D7616CF6D15521973F8C429D4874B7LLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 16VisualGeneration23CodableStringIndexRangeV10CodingKeysO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 16VisualGeneration29ModelManagerInferenceProviderC5ErrorO35InvalidImageGeneratorTypeCodingKeys33_0E3289186D022A77863B3F33E92270BBLLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 16VisualGeneration0E5StateV10CodingKeys33_A64DF487777B8928F72B9067626815CCLLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 16VisualGeneration13ResolvedImageV5EmptyV10CodingKeys33_C62D5A6D8DBC26E79B8BC216DB93B62BLLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 16VisualGeneration14GeneratorErrorO13VersionTripleV10CodingKeys33_E20E6380ED2F8D1B371D8488BB3C638ELLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 16VisualGeneration14GeneratorErrorO38MismatchedModelCatalogAssetsCodingKeys33_E20E6380ED2F8D1B371D8488BB3C638ELLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 16VisualGeneration17GenericEntityDataV17RejectionCategoryO22PublicFigureCodingKeys33_A7256A5F220918801D102ADC75596479LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 16VisualGeneration17GenericEntityDataV17RejectionCategoryO28FictionalCharacterCodingKeys33_A7256A5F220918801D102ADC75596479LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 16VisualGeneration17PersonIndicationsV10CodingKeys33_B3D7616CF6D15521973F8C429D4874B7LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 16VisualGeneration17PersonIndicationsV4SpanV09AttributeH0V10CodingKeys33_B3D7616CF6D15521973F8C429D4874B7LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 16VisualGeneration17PersonIndicationsV4SpanV10CodingKeys33_B3D7616CF6D15521973F8C429D4874B7LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 16VisualGeneration23CodableStringIndexRangeV10CodingKeysO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 16VisualGeneration29ModelManagerInferenceProviderC5ErrorO35InvalidImageGeneratorTypeCodingKeys33_0E3289186D022A77863B3F33E92270BBLLO
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 16VisualGeneration14GeneratorErrorO13VersionTripleV
+- _symbolic _____y_____G s23_ContiguousArrayStorageC So8_NSRangeV
+- _symbolic _____y_____SDy_____SSGG s18_DictionaryStorageC 13DiffusionBase05AppleC7AdapterO AC0eC15ResourceFactoryC9VersionerO
+- _symbolic _____y_____SDy_____SSGG s18_DictionaryStorageC 13DiffusionBase05AppleC8PipelineV14ComponentModelO AC0eC15ResourceFactoryC9VersionerO
+- _symbolic _____y_____SSG s18_DictionaryStorageC 13DiffusionBase05AppleC15ResourceFactoryC9VersionerO
+- _symbolic _____y__________G 12ModelCatalog0B5AssetV AA011ImageFilterC8MetadataV AA0deC8ContentsV
+- _symbolic _____y__________G s13ManagedBufferCsRi__rlE 13DiffusionBase05AppleC15ResourceFactoryC13WeakContainer33_1BA5B614FE3D8C820AF3340F6F619A5FLLC So16os_unfair_lock_sV
+- _symbolic _____y__________GSg 12ModelCatalog0B5AssetV AA016DiffusionAdapterC8MetadataV AA0deC8ContentsV
+- _symbolic _____y______pG s23_ContiguousArrayStorageC 12ModelCatalog19AssetBackedResourceP
+- block_copy_helper.19
+- block_copy_helper.41
+- block_descriptor.21
+- block_descriptor.43
+- block_destroy_helper.20
+- block_destroy_helper.42
+- objectdestroy.167Tm
+- objectdestroy.17Tm
+CStrings:
++ "ModelCatalog is unable to find the location of HEDEdgeDetector"
++ "_generationRecipe"
++ "disabledEncoder"
++ "failedToFindMockFastComposerInfo"
++ "metadataDecodingFailure"
++ "missingImageConditioner"
++ "missingInputConditioning"
++ "missingRetoningConditioner"
++ "missingSketchConditioner"
++ "missingUnetModels"
++ "resolvedRecipe"
+- "\nDemographic Description: "
+- "\nDemographic Gender: "
+- "\nDemographic Skin Tone: "
+- "\nDraw On Image Blend: "
+- "\nDraw On Image Sketch Mask: "
+- "\nGeneration ID: "
+- "\nInput Conditioning: "
+- "\nPrompt Guidance Sketch: "
+- "\nRetoning Image: "
+- "\nScribble Edges Image: "
+- "\nStarting Image: "
+- ") must be >= lower bound offset ("
+- ") must be positive"
+- ", inference provider: "
+- "ANEClientResidentPages"
+- "ANEClientTotalPages"
+- "Demographic Age: "
+- "Draw On Image Base Image: "
+- "FICTIONAL_CHARACTER"
+- "Generation Seed: "
+- "Version mismatch between client and InferenceProvider: "
+- "_TtC13DiffusionBase29AppleDiffusionResourceFactory"
+- "_TtCC13DiffusionBase29AppleDiffusionResourceFactoryP33_1BA5B614FE3D8C820AF3340F6F619A5F13WeakContainer"
+- "_initialGenerationState"
+- "_shared"
+- "_sharedResourceFactory"
+- "adapterIdentifier"
+- "adapterMetadata"
+- "adapterVersions"
+- "ageAttributeSpans"
+- "baseModelComponentMetadata"
+- "baseModelComponentVersions"
+- "baseModelIdentifier"
+- "catalogIdentifier"
+- "clientAssetVersions"
+- "codableAttributeRange"
+- "codablePromptRange"
+- "definitionSessionID"
+- "detectPeople.SCMLPeopleDetector"
+- "ethnicityAttributeSpans"
+- "fetchFaceAttributes.photos"
+- "fetchFaceAttributes.vision"
+- "fictionalCharacter"
+- "genderAttributeSpans"
+- "generationState"
+- "hedModel"
+- "imageProvidedPersonalization = "
+- "inferenceProviderVersion"
+- "invalidImageGeneratorType"
+- "lockableAssetResources"
+- "lower bound offset ("
+- "lowerBoundOffset"
+- "mismatchedModelCatalogAssets"
+- "modelDescription"
+- "modelLock"
+- "personIndications"
+- "resourceURLs"
+- "upper bound offset ("
+- "upperBoundOffset"
+- "vgfClientVersion"
+
+```
