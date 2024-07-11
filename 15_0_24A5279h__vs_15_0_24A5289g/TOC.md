@@ -11,3842 +11,15 @@
 
 | iOS | Version | Build | Date |
 | :-- | :------ | :---- | :--- |
-| 15.0 *(24A5279h)* | 24.0.0 | 11215.0.115.501.3~1 | Thu, 20Jun2024 20:36:19 PDT |
-| 15.0 *(24A5289g)* | 24.0.0 | 11215.0.132.501.1~1 | Mon, 01Jul2024 21:55:30 PDT |
+| 15.0 *(24A5279h)* | 24.0.0 | 11215.0.115.501.3~1 | Thu, 20Jun2024 20:38:19 PDT |
+| 15.0 *(24A5289g)* | 24.0.0 | 11215.0.132.501.1~1 | Mon, 01Jul2024 21:55:53 PDT |
 
 ### Kexts
 
-#### ⬆️ Updated (45)
+#### ⬆️ Updated (47)
 
 <details>
   <summary><i>View Updated</i></summary>
-
->  `com.apple.driver.AppleOLYHAL`
-
-```diff
-
--326.24.0.0.0
-+326.26.0.0.0
-   __TEXT.__const: 0x7a8
--  __TEXT.__cstring: 0x495c
--  __TEXT_EXEC.__text: 0x1d78c
-+  __TEXT.__cstring: 0x486f
-+  __TEXT_EXEC.__text: 0x1d830
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0x18c
-   __DATA.__common: 0x170
-
-   __DATA_CONST.__got: 0xf0
-   __DATA_CONST.__mod_init_func: 0x38
-   __DATA_CONST.__mod_term_func: 0x38
--  __DATA_CONST.__const: 0x1fd8
-+  __DATA_CONST.__const: 0x2018
-   __DATA_CONST.__kalloc_type: 0x640
--  Functions: 549
--  Symbols:   1069
--  CStrings:  507
-+  Functions: 550
-+  Symbols:   1071
-+  CStrings:  506
- 
-Symbols:
-+ __ZN28AppleOLYHALPortInterfacePCIe19isFLRRecoveryFailedEv
-+ __ZN32AppleOLYHALPortInterfacePCIeAMFM19isFLRRecoveryFailedEv
-+ __ZZN32AppleOLYHALPortInterfacePCIeAMFM21triggerAsyncResetWorkE34AppleOLYHALPortInterfaceActionTypePvmE20kalloc_type_view_442
-+ __ZZN32AppleOLYHALPortInterfacePCIeAMFM21triggerAsyncResetWorkE34AppleOLYHALPortInterfaceActionTypePvmE20kalloc_type_view_475
-+ __ZZN32AppleOLYHALPortInterfacePCIeAMFM21triggerAsyncResetWorkE34AppleOLYHALPortInterfaceActionTypePvmE20kalloc_type_view_478
-+ __ZZN32AppleOLYHALPortInterfacePCIeAMFM23processAMFMMessageGatedEjPvmE21kalloc_type_view_1246
-+ __ZZN32AppleOLYHALPortInterfacePCIeAMFM9resetCallEPvS0_E20kalloc_type_view_499
-+ __ZZN32AppleOLYHALPortInterfacePCIeAMFM9resetCallEPvS0_E20kalloc_type_view_501
-+ ____ZN32AppleOLYHALPortInterfacePCIeAMFM19isFLRRecoveryFailedEv_block_invoke
-+ __block_descriptor_tmp.40
-- _ZN32AppleOLYHALPortInterfacePCIeAMFM23processAMFMMessageGatedEjPvm.cold.25
-- _ZN32AppleOLYHALPortInterfacePCIeAMFM23processAMFMMessageGatedEjPvm.cold.26
-- __ZZN32AppleOLYHALPortInterfacePCIeAMFM21triggerAsyncResetWorkE34AppleOLYHALPortInterfaceActionTypePvmE20kalloc_type_view_425
-- __ZZN32AppleOLYHALPortInterfacePCIeAMFM21triggerAsyncResetWorkE34AppleOLYHALPortInterfaceActionTypePvmE20kalloc_type_view_458
-- __ZZN32AppleOLYHALPortInterfacePCIeAMFM21triggerAsyncResetWorkE34AppleOLYHALPortInterfaceActionTypePvmE20kalloc_type_view_461
-- __ZZN32AppleOLYHALPortInterfacePCIeAMFM23processAMFMMessageGatedEjPvmE21kalloc_type_view_1235
-- __ZZN32AppleOLYHALPortInterfacePCIeAMFM9resetCallEPvS0_E20kalloc_type_view_482
-- __ZZN32AppleOLYHALPortInterfacePCIeAMFM9resetCallEPvS0_E20kalloc_type_view_484
-CStrings:
-+ "\"Dext relaunched with unexpected status %u\" @%s:%d"
-+ "\"WiFi Dext Crash Recovery during PowerCycle %u\" @%s:%d"
-- "\"%s:%u:\" \"(fClientStatus == kClientFLRRecoveryFailed || fClientStatus == kClientPowerCycleRecoveryComplete || fClientStatus == kClientFLRRecoverySuccessful)\" @%s:%d"
-- "\"%s:%u:\" \"(fClientStatus == kClientFLRRecoverySuccessful) || (fClientStatus == kClientPowerCycleRecoveryComplete)\" @%s:%d"
-- "\"%s:%u:\" \"fResetProgress == kResetStepRequested\" @%s:%d"
-
-```
-
->  `com.apple.driver.AppleSPU`
-
-```diff
-
--1014.0.1.0.0
-+1014.0.1.501.1
-   __TEXT.__cstring: 0x4b22
-   __TEXT.__os_log: 0x77f
-   __TEXT.__const: 0x248
--  __TEXT_EXEC.__text: 0x426cc
-+  __TEXT_EXEC.__text: 0x426d4
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0x788
-   __DATA.__common: 0x8a8
-   __DATA.__bss: 0x540
--  __DATA_CONST.__auth_got: 0x5b8
-+  __DATA_CONST.__auth_got: 0x5c0
-   __DATA_CONST.__got: 0x198
-   __DATA_CONST.__auth_ptr: 0x8
-   __DATA_CONST.__mod_init_func: 0x158
-
-   __DATA_CONST.__kalloc_type: 0xd80
-   __DATA_CONST.__kalloc_var: 0x320
-   Functions: 1875
--  Symbols:   3010
-+  Symbols:   3011
-   CStrings:  794
- 
-Symbols:
-+ _ml_get_conttime_offset
-
-```
-
->  `com.apple.driver.AppleT8122TypeCPhy`
-
-```diff
-
--239.0.0.0.0
-+239.0.1.0.0
-   __TEXT.__const: 0x48
-   __TEXT.__cstring: 0x83ef
-   __TEXT.__os_log: 0xefff
--  __TEXT_EXEC.__text: 0x4dacc
-+  __TEXT_EXEC.__text: 0x4dae0
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0x488
-   __DATA.__common: 0x38
-
-   __DATA_CONST.__got: 0x30
-   __DATA_CONST.__mod_init_func: 0x8
-   __DATA_CONST.__mod_term_func: 0x8
--  __DATA_CONST.__const: 0xbe8
-+  __DATA_CONST.__const: 0xbf8
-   __DATA_CONST.__kalloc_type: 0x40
--  Functions: 125
--  Symbols:   1213
-+  Functions: 127
-+  Symbols:   1215
-   CStrings:  432
- 
-Symbols:
-+ __ZN13AppleTypeCPhy15supportS2RtoOffEv
-+ __ZN13AppleTypeCPhy20shutdownACIOS2RtoOffENS_12tACIOPhyModeE
-
-```
-
->  `com.apple.iokit.EndpointSecurity`
-
-```diff
-
--511.0.14.0.0
--  __TEXT.__const: 0x228
--  __TEXT.__cstring: 0x843f
--  __TEXT.__os_log: 0x3c6e
--  __TEXT_EXEC.__text: 0x95750
-+511.0.18.0.0
-+  __TEXT.__const: 0x218
-+  __TEXT.__cstring: 0x83c1
-+  __TEXT.__os_log: 0x3cea
-+  __TEXT_EXEC.__text: 0x95884
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0x228
-   __DATA.__common: 0xc4
--  __DATA.__bss: 0x140
--  __DATA_CONST.__auth_got: 0x560
--  __DATA_CONST.__got: 0x90
-+  __DATA.__bss: 0x70
-+  __DATA_CONST.__auth_got: 0x568
-+  __DATA_CONST.__got: 0x98
-   __DATA_CONST.__mod_init_func: 0x30
-   __DATA_CONST.__mod_term_func: 0x40
-   __DATA_CONST.__const: 0x6940
-   __DATA_CONST.__kalloc_var: 0x19a0
-   __DATA_CONST.__kalloc_type: 0x1380
-   Functions: 2859
--  Symbols:   4436
--  CStrings:  576
-+  Symbols:   4437
-+  CStrings:  572
- 
-Symbols:
-+ __ZN22EndpointSecurityDriver17systemPowerChangeEPvS0_jP9IOServiceS0_m
-+ __ZN9IOService15getPMRootDomainEv
-+ __ZNK4spar14PowerStateGate4openEv
-+ __ZZN22EndpointSecurityDriver17systemPowerChangeEPvS0_jP9IOServiceS0_mE11_os_log_fmt
-+ __ZZN22EndpointSecurityDriver17systemPowerChangeEPvS0_jP9IOServiceS0_mE11_os_log_fmt_0
-+ __ZZN22EndpointSecurityDriver17systemPowerChangeEPvS0_jP9IOServiceS0_mE11_os_log_fmt_1
-+ __ZZN4spar10GatedTimer12unsafeDeleteEvE20kalloc_type_view_302
-+ __ZZN4spar10GatedTimer12unsafeDeleteEvE20kalloc_type_view_302
-+ __ZZN4spar10GatedTimer12unsafeDeleteEvE20kalloc_type_view_302
-+ __ZZN4spar10GatedTimer12unsafeDeleteEvE20kalloc_type_view_302
-+ _gIOPriorityPowerStateInterest
-- __ZN22EndpointSecurityDriver13setPowerStateEmP9IOService
-- __ZN22EndpointSecurityDriver18systemWillShutdownEj
-- __ZZN22EndpointSecurityDriver13setPowerStateEmP9IOServiceE11_os_log_fmt
-- __ZZN22EndpointSecurityDriver13setPowerStateEmP9IOServiceE11_os_log_fmt_0
-- __ZZN22EndpointSecurityDriver18systemWillShutdownEjE11_os_log_fmt
-- __ZZN22EndpointSecurityDriver5startEP9IOServiceE11powerStates
-- __ZZN4spar10GatedTimer12unsafeDeleteEvE20kalloc_type_view_299
-- __ZZN4spar10GatedTimer12unsafeDeleteEvE20kalloc_type_view_299
-- __ZZN4spar10GatedTimer12unsafeDeleteEvE20kalloc_type_view_299
-- __ZZN4spar10GatedTimer12unsafeDeleteEvE20kalloc_type_view_299
-CStrings:
-- "\"setPowerState: unknown power state %lu\" @%s:%d"
-- "\"systemWillShutdown: unknown shutdown specifier %llu\" @%s:%d"
-- "PowerOff"
-- "Restart"
-
-```
-
->  `com.apple.security.quarantine`
-
-```diff
-
--181.0.3.0.1
--  __TEXT.__const: 0x61
--  __TEXT.__cstring: 0x5e6
-+181.0.5.0.0
-+  __TEXT.__const: 0x71
-+  __TEXT.__cstring: 0x5e7
-   __TEXT.__os_log: 0x2a7
--  __TEXT_EXEC.__text: 0x9190
-+  __TEXT_EXEC.__text: 0x92a8
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0xcc3
-   __DATA.__common: 0x24
-   __DATA.__bss: 0x28
--  __DATA_CONST.__auth_got: 0x418
-+  __DATA_CONST.__auth_got: 0x420
-   __DATA_CONST.__got: 0x40
-   __DATA_CONST.__const: 0xc8
-   __DATA_CONST.__kalloc_type: 0x280
--  Functions: 181
--  Symbols:   375
-+  Functions: 182
-+  Symbols:   377
-   CStrings:  65
- 
-Symbols:
-+ _responsibility_identity_get_binary_vnode
-+ _vfs_getbyid
-+ cred_label_alloc.kalloc_type_view_876
-+ cred_label_destroy.kalloc_type_view_963
-+ responsibility_alloc.kalloc_type_view_767
-+ responsibility_destroy.kalloc_type_view_838
-- cred_label_alloc.kalloc_type_view_861
-- cred_label_destroy.kalloc_type_view_948
-- responsibility_alloc.kalloc_type_view_752
-- responsibility_destroy.kalloc_type_view_823
-CStrings:
-+ "2222221111122211222"
-- "111111122222222222"
-
-```
-
->  `com.apple.driver.AppleConvergedPCI`
-
-```diff
-
--106.0.0.0.0
-+107.0.0.0.0
-   __TEXT.__const: 0x1b0
-   __TEXT.__cstring: 0x6f75
--  __TEXT_EXEC.__text: 0x3f1a8
-+  __TEXT_EXEC.__text: 0x3f1e4
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0x248
-   __DATA.__common: 0x2d0
-
-   __DATA_CONST.__got: 0x108
-   __DATA_CONST.__mod_init_func: 0x68
-   __DATA_CONST.__mod_term_func: 0x68
--  __DATA_CONST.__const: 0x6da8
-+  __DATA_CONST.__const: 0x6db8
-   __DATA_CONST.__kalloc_type: 0x1300
--  Functions: 1067
--  Symbols:   1724
-+  Functions: 1069
-+  Symbols:   1726
-   CStrings:  891
- 
-Symbols:
-+ __ZN12ACIPCControl10deviceDeadEv
-+ __ZN15ACIPCNullDevice10deviceDeadEv
-+ __ZZN15ACIPCNullDevicedlEPvmE19kalloc_type_view_45
-+ __ZZN15ACIPCNullDevicenwEmE19kalloc_type_view_45
-- __ZZN15ACIPCNullDevicedlEPvmE19kalloc_type_view_44
-- __ZZN15ACIPCNullDevicenwEmE19kalloc_type_view_44
-CStrings:
-+ "/AppleInternal/Library/BuildRoots/81e2abef-3955-11ef-8e67-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleConvergedIPC/AppleConvergedIPCControl/AppleConvergedIPCControl.cpp"
-+ "/AppleInternal/Library/BuildRoots/81e2abef-3955-11ef-8e67-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleConvergedIPC/AppleConvergedIPCControl/AppleConvergedIPCInterface.cpp"
-+ "/AppleInternal/Library/BuildRoots/81e2abef-3955-11ef-8e67-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleConvergedIPC/AppleConvergedIPCControl/AppleConvergedIPCLogger.cpp"
-+ "/AppleInternal/Library/BuildRoots/81e2abef-3955-11ef-8e67-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleConvergedIPC/AppleConvergedIPCControl/Memory/AppleConvergedIPCIOCommand.cpp"
-+ "/AppleInternal/Library/BuildRoots/81e2abef-3955-11ef-8e67-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleConvergedIPC/AppleConvergedIPCControl/Memory/AppleConvergedIPCMemoryCommand.cpp"
-+ "/AppleInternal/Library/BuildRoots/81e2abef-3955-11ef-8e67-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleConvergedIPC/AppleConvergedIPCControl/Memory/AppleConvergedIPCMemoryPolicy.cpp"
-+ "/AppleInternal/Library/BuildRoots/81e2abef-3955-11ef-8e67-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleConvergedIPC/AppleConvergedIPCControl/Memory/AppleConvergedIPCRequest.cpp"
-+ "/AppleInternal/Library/BuildRoots/81e2abef-3955-11ef-8e67-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleConvergedIPC/AppleConvergedIPCControl/UserClient/AppleConvergedIPCControlUserClient.cpp"
-+ "/AppleInternal/Library/BuildRoots/81e2abef-3955-11ef-8e67-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleConvergedIPC/AppleConvergedIPCControl/UserClient/AppleConvergedIPCUserClient.cpp"
-+ "/AppleInternal/Library/BuildRoots/81e2abef-3955-11ef-8e67-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleConvergedIPC/AppleConvergedPCI/AppleConvergedPCI.cpp"
-+ "/AppleInternal/Library/BuildRoots/81e2abef-3955-11ef-8e67-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleConvergedIPC/Core/ACIPCChip.cpp"
-+ "/AppleInternal/Library/BuildRoots/81e2abef-3955-11ef-8e67-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleConvergedIPC/Core/ACIPCControl.cpp"
-+ "/AppleInternal/Library/BuildRoots/81e2abef-3955-11ef-8e67-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleConvergedIPC/Core/ACIPCPort.cpp"
-+ "/AppleInternal/Library/BuildRoots/81e2abef-3955-11ef-8e67-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleConvergedIPC/Core/OLYBT/Chips/ACIPCChip4388.cpp"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleConvergedIPC/AppleConvergedIPCControl/AppleConvergedIPCControl.cpp"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleConvergedIPC/AppleConvergedIPCControl/AppleConvergedIPCInterface.cpp"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleConvergedIPC/AppleConvergedIPCControl/AppleConvergedIPCLogger.cpp"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleConvergedIPC/AppleConvergedIPCControl/Memory/AppleConvergedIPCIOCommand.cpp"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleConvergedIPC/AppleConvergedIPCControl/Memory/AppleConvergedIPCMemoryCommand.cpp"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleConvergedIPC/AppleConvergedIPCControl/Memory/AppleConvergedIPCMemoryPolicy.cpp"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleConvergedIPC/AppleConvergedIPCControl/Memory/AppleConvergedIPCRequest.cpp"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleConvergedIPC/AppleConvergedIPCControl/UserClient/AppleConvergedIPCControlUserClient.cpp"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleConvergedIPC/AppleConvergedIPCControl/UserClient/AppleConvergedIPCUserClient.cpp"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleConvergedIPC/AppleConvergedPCI/AppleConvergedPCI.cpp"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleConvergedIPC/Core/ACIPCChip.cpp"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleConvergedIPC/Core/ACIPCControl.cpp"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleConvergedIPC/Core/ACIPCPort.cpp"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleConvergedIPC/Core/OLYBT/Chips/ACIPCChip4388.cpp"
-
-```
-
->  `com.apple.driver.AppleH13CameraInterface`
-
-```diff
-
--9.4.0.0.0
-+9.5.0.0.0
-   __TEXT.__const: 0x94c
--  __TEXT.__cstring: 0x7394
-+  __TEXT.__cstring: 0x74ed
-   __TEXT.__os_log: 0xd3df
-   __TEXT.__ustring: 0x40
--  __TEXT_EXEC.__text: 0x573bc
-+  __TEXT_EXEC.__text: 0x5743c
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0x188
-   __DATA.__common: 0x288
-
-   __DATA_CONST.__const: 0xfc38
-   __DATA_CONST.__kalloc_type: 0xc40
-   __DATA_CONST.__kalloc_var: 0xd70
--  Functions: 1107
--  Symbols:   2763
--  CStrings:  924
-+  Functions: 1108
-+  Symbols:   2764
-+  CStrings:  925
- 
-Symbols:
-+ _ZN13AppleH13CamIn23EnableISPClocksAndPowerEv.cold.2
-+ __ZZL10ffw_callocmmE22kalloc_type_view_24801
-+ __ZZL37H13CamInChannelSACParams_replaceListsP24H13CamInChannelSACParamsjE22kalloc_type_view_20792
-+ __ZZL37H13CamInChannelSACParams_replaceListsP24H13CamInChannelSACParamsjE22kalloc_type_view_20793
-+ __ZZL37H13CamInChannelSACParams_replaceListsP24H13CamInChannelSACParamsjE22kalloc_type_view_20794
-+ __ZZL37H13CamInChannelSACParams_replaceListsP24H13CamInChannelSACParamsjE22kalloc_type_view_20797
-+ __ZZL37H13CamInChannelSACParams_replaceListsP24H13CamInChannelSACParamsjE22kalloc_type_view_20798
-+ __ZZL37H13CamInChannelSACParams_replaceListsP24H13CamInChannelSACParamsjE22kalloc_type_view_20799
-+ __ZZL37H13CamInChannelSACParams_replaceListsP24H13CamInChannelSACParamsjE22kalloc_type_view_20805
-+ __ZZL37H13CamInChannelSACParams_replaceListsP24H13CamInChannelSACParamsjE22kalloc_type_view_20806
-+ __ZZL37H13CamInChannelSACParams_replaceListsP24H13CamInChannelSACParamsjE22kalloc_type_view_20807
-+ __ZZL8ffw_freePvE22kalloc_type_view_24806
-+ __ZZN13AppleH13CamIn22SendBCARDataToFirmwareEjE22kalloc_type_view_24916
-+ __ZZN13AppleH13CamIn22SendBCARDataToFirmwareEjE22kalloc_type_view_24926
-+ __ZZN13AppleH13CamIn22SendBCTRDataToFirmwareEjE22kalloc_type_view_24881
-+ __ZZN13AppleH13CamIn22SendBCTRDataToFirmwareEjE22kalloc_type_view_24890
-+ __ZZN13AppleH13CamIn26ISP_InitialSensorDetectionEvE22kalloc_type_view_21987
-+ __ZZN13AppleH13CamIn26ISP_InitialSensorDetectionEvE22kalloc_type_view_22205
-+ __ZZN13AppleH13CamIn26ISP_InitialSensorDetectionEvE22kalloc_type_view_22238
-+ __ZZN13AppleH13CamIn26ISP_InitialSensorDetectionEvE22kalloc_type_view_22358
-+ __ZZN13AppleH13CamIn26ISP_InitialSensorDetectionEvE22kalloc_type_view_22391
-+ __ZZN13AppleH13CamIn26ISP_InitialSensorDetectionEvE22kalloc_type_view_22415
-+ __ZZN13AppleH13CamIn26ISP_InitialSensorDetectionEvE22kalloc_type_view_22428
-+ __ZZN13AppleH13CamIn26ISP_InitialSensorDetectionEvE22kalloc_type_view_22444
-+ __ZZN13AppleH13CamIn26ISP_InitialSensorDetectionEvE22kalloc_type_view_22465
-+ __ZZN13AppleH13CamIn27SendStrobeCalDataToFirmwareEjE22kalloc_type_view_24845
-+ __ZZN13AppleH13CamIn27SendStrobeCalDataToFirmwareEjE22kalloc_type_view_24855
-+ __ZZN13AppleH13CamIn32SendLPDPRxPhyEfuseDataToFirmwareEjE22kalloc_type_view_24987
-+ __ZZN13AppleH13CamIn32SendLPDPRxPhyEfuseDataToFirmwareEjE22kalloc_type_view_25005
-+ __ZZN13AppleH13CamIn39SendSphereExtendedStrokeRangeToFirmwareEjE22kalloc_type_view_25039
-+ __ZZN13AppleH13CamIn39SendSphereExtendedStrokeRangeToFirmwareEjE22kalloc_type_view_25047
-+ __cxx_global_var_init.1278
-- __ZZL10ffw_callocmmE22kalloc_type_view_24769
-- __ZZL37H13CamInChannelSACParams_replaceListsP24H13CamInChannelSACParamsjE22kalloc_type_view_20760
-- __ZZL37H13CamInChannelSACParams_replaceListsP24H13CamInChannelSACParamsjE22kalloc_type_view_20761
-- __ZZL37H13CamInChannelSACParams_replaceListsP24H13CamInChannelSACParamsjE22kalloc_type_view_20762
-- __ZZL37H13CamInChannelSACParams_replaceListsP24H13CamInChannelSACParamsjE22kalloc_type_view_20765
-- __ZZL37H13CamInChannelSACParams_replaceListsP24H13CamInChannelSACParamsjE22kalloc_type_view_20766
-- __ZZL37H13CamInChannelSACParams_replaceListsP24H13CamInChannelSACParamsjE22kalloc_type_view_20767
-- __ZZL37H13CamInChannelSACParams_replaceListsP24H13CamInChannelSACParamsjE22kalloc_type_view_20773
-- __ZZL37H13CamInChannelSACParams_replaceListsP24H13CamInChannelSACParamsjE22kalloc_type_view_20774
-- __ZZL37H13CamInChannelSACParams_replaceListsP24H13CamInChannelSACParamsjE22kalloc_type_view_20775
-- __ZZL8ffw_freePvE22kalloc_type_view_24774
-- __ZZN13AppleH13CamIn22SendBCARDataToFirmwareEjE22kalloc_type_view_24884
-- __ZZN13AppleH13CamIn22SendBCARDataToFirmwareEjE22kalloc_type_view_24894
-- __ZZN13AppleH13CamIn22SendBCTRDataToFirmwareEjE22kalloc_type_view_24849
-- __ZZN13AppleH13CamIn22SendBCTRDataToFirmwareEjE22kalloc_type_view_24858
-- __ZZN13AppleH13CamIn26ISP_InitialSensorDetectionEvE22kalloc_type_view_21955
-- __ZZN13AppleH13CamIn26ISP_InitialSensorDetectionEvE22kalloc_type_view_22173
-- __ZZN13AppleH13CamIn26ISP_InitialSensorDetectionEvE22kalloc_type_view_22206
-- __ZZN13AppleH13CamIn26ISP_InitialSensorDetectionEvE22kalloc_type_view_22326
-- __ZZN13AppleH13CamIn26ISP_InitialSensorDetectionEvE22kalloc_type_view_22359
-- __ZZN13AppleH13CamIn26ISP_InitialSensorDetectionEvE22kalloc_type_view_22383
-- __ZZN13AppleH13CamIn26ISP_InitialSensorDetectionEvE22kalloc_type_view_22396
-- __ZZN13AppleH13CamIn26ISP_InitialSensorDetectionEvE22kalloc_type_view_22412
-- __ZZN13AppleH13CamIn26ISP_InitialSensorDetectionEvE22kalloc_type_view_22433
-- __ZZN13AppleH13CamIn27SendStrobeCalDataToFirmwareEjE22kalloc_type_view_24813
-- __ZZN13AppleH13CamIn27SendStrobeCalDataToFirmwareEjE22kalloc_type_view_24823
-- __ZZN13AppleH13CamIn32SendLPDPRxPhyEfuseDataToFirmwareEjE22kalloc_type_view_24955
-- __ZZN13AppleH13CamIn32SendLPDPRxPhyEfuseDataToFirmwareEjE22kalloc_type_view_24973
-- __ZZN13AppleH13CamIn39SendSphereExtendedStrokeRangeToFirmwareEjE22kalloc_type_view_25007
-- __ZZN13AppleH13CamIn39SendSphereExtendedStrokeRangeToFirmwareEjE22kalloc_type_view_25015
-- __cxx_global_var_init.1272
-CStrings:
-+ "\"Could not power up the ISP, PS regs: \" \" RMX_PS = 0x%x \" \" ISP_SYS_PS = 0x%x \" \" ISP_CPU_PS = 0x%x \" \" ISP_CPU_CORE0_PS = 0x%x \" \" ISP_CPU_CORE1_PS = 0x%x \" \" ISP_DPRX_PS = 0x%x \" \" ISP_STS0_PS = 0x%x \" \" ISP_STS1_PS = 0x%x \" \" ISP_VIS_PS = 0x%x \" \" ISP_BE_PS = 0x%x \" \" ISP_PEARL_PS = 0x%x \" \" ISP_CLR_PS = 0x%x \" \" ISP_RAW_PS = 0x%x \" @%s:%d"
-
-```
-
->  `com.apple.driver.AppleHPM`
-
-```diff
-
--570.0.0.0.0
--  __TEXT.__cstring: 0x10466
-+570.0.1.0.0
-+  __TEXT.__cstring: 0x10481
-   __TEXT.__const: 0xb0
-   __TEXT.__os_log: 0x1e8
--  __TEXT_EXEC.__text: 0x502e8
-+  __TEXT_EXEC.__text: 0x50344
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0x6c9
-   __DATA.__common: 0x540
-   __DATA.__bss: 0x4
--  __DATA_CONST.__auth_got: 0x450
-+  __DATA_CONST.__auth_got: 0x458
-   __DATA_CONST.__got: 0x108
-   __DATA_CONST.__auth_ptr: 0x20
-   __DATA_CONST.__mod_init_func: 0x100
-
-   __DATA_CONST.__const: 0x19e70
-   __DATA_CONST.__kalloc_type: 0xa40
-   Functions: 1392
--  Symbols:   2227
--  CStrings:  925
-+  Symbols:   2228
-+  CStrings:  926
- 
-Symbols:
-+ __ZN9OSBoolean11withBooleanEb
-CStrings:
-+ "AsymmetricModeSupportedBit"
-
-```
-
->  `com.apple.driver.AppleMesaSEPDriver`
-
-```diff
-
--10185.0.2.501.1
-+10185.0.6.0.0
-   __TEXT.__const: 0x140
--  __TEXT.__cstring: 0x58b0
--  __TEXT.__os_log: 0x2abe
--  __TEXT_EXEC.__text: 0x2df6c
-+  __TEXT.__cstring: 0x58ba
-+  __TEXT.__os_log: 0x2b06
-+  __TEXT_EXEC.__text: 0x2dea0
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0xcc
-   __DATA.__common: 0x278
-   __DATA.__bss: 0x18
--  __DATA_CONST.__auth_got: 0x370
-+  __DATA_CONST.__auth_got: 0x358
-   __DATA_CONST.__got: 0xc8
-   __DATA_CONST.__mod_init_func: 0x30
-   __DATA_CONST.__mod_term_func: 0x30
--  __DATA_CONST.__const: 0x4420
-+  __DATA_CONST.__const: 0x4428
-   __DATA_CONST.__kalloc_type: 0x580
-   __DATA_CONST.__kalloc_var: 0x140
-   Functions: 518
--  Symbols:   1458
--  CStrings:  728
-+  Symbols:   1456
-+  CStrings:  727
- 
-Symbols:
-+ __ZN18AppleMesaSEPDriver13sensorDisableEbb
-+ __ZZN18AppleMesaSEPDriver11handleMatchEbP17IOMesaCaptureDatabPbhE21kalloc_type_view_7893
-+ __ZZN18AppleMesaSEPDriver11handleMatchEbP17IOMesaCaptureDatabPbhE21kalloc_type_view_8222
-+ __ZZN18AppleMesaSEPDriver13sensorDisableEbbE11_os_log_fmt
-+ __ZZN18AppleMesaSEPDriver13sensorDisableEbbE11_os_log_fmt_0
-+ __ZZN18AppleMesaSEPDriver13sensorDisableEbbE11_os_log_fmt_1
-+ __ZZN18AppleMesaSEPDriver13sensorDisableEbbE11_os_log_fmt_2
-+ __ZZN18AppleMesaSEPDriver16sendEnrollResultEP16enroll_result_v2E21kalloc_type_view_6687
-+ __ZZN18AppleMesaSEPDriver16sendEnrollResultEP16enroll_result_v2E21kalloc_type_view_6696
-+ __ZZN18AppleMesaSEPDriver19applyPostponedMatchEP24postponed_match_result_tbE21kalloc_type_view_9868
-+ __ZZN18AppleMesaSEPDriver19applyPostponedMatchEP24postponed_match_result_tbE21kalloc_type_view_9920
-+ __ZZN18AppleMesaSEPDriver26sendTemplateListUpdatedMsgEP25template_update_info_v2_tE21kalloc_type_view_6757
-+ __ZZN18AppleMesaSEPDriver26sendTemplateListUpdatedMsgEP25template_update_info_v2_tE21kalloc_type_view_6766
-+ __ZZN18AppleMesaSEPDriver29sendTemplateListNotUpdatedMsgEP17bgops_result_v2_tE21kalloc_type_view_6789
-+ __ZZN18AppleMesaSEPDriver29sendTemplateListNotUpdatedMsgEP17bgops_result_v2_tE21kalloc_type_view_6798
-+ __ZZN18AppleMesaSEPDriver31sendEnrollProgresWithEnrollInfoEhP20enrollment_info_v2_tE21kalloc_type_view_6657
-+ __ZZN18AppleMesaSEPDriver31sendEnrollProgresWithEnrollInfoEhP20enrollment_info_v2_tE21kalloc_type_view_6666
-+ __block_descriptor_tmp.374
-+ __block_descriptor_tmp.385
-+ __block_descriptor_tmp.387
-- __ZN12OSDictionary12withCapacityEj
-- __ZN12OSDictionary9setObjectEPKcRK11OSSharedPtrIK15OSMetaClassBaseE
-- __ZN18AppleMesaSEPDriver13sensorDisableEb
-- __ZN8OSNumber10withNumberEyj
-- __ZZN18AppleMesaSEPDriver11handleMatchEbP17IOMesaCaptureDatabPbhE21kalloc_type_view_7889
-- __ZZN18AppleMesaSEPDriver11handleMatchEbP17IOMesaCaptureDatabPbhE21kalloc_type_view_8218
-- __ZZN18AppleMesaSEPDriver13sensorDisableEbE11_os_log_fmt
-- __ZZN18AppleMesaSEPDriver13sensorDisableEbE11_os_log_fmt_0
-- __ZZN18AppleMesaSEPDriver13sensorDisableEbE11_os_log_fmt_1
-- __ZZN18AppleMesaSEPDriver16sendEnrollResultEP16enroll_result_v2E21kalloc_type_view_6683
-- __ZZN18AppleMesaSEPDriver16sendEnrollResultEP16enroll_result_v2E21kalloc_type_view_6692
-- __ZZN18AppleMesaSEPDriver19applyPostponedMatchEP24postponed_match_result_tbE21kalloc_type_view_9864
-- __ZZN18AppleMesaSEPDriver19applyPostponedMatchEP24postponed_match_result_tbE21kalloc_type_view_9916
-- __ZZN18AppleMesaSEPDriver26sendTemplateListUpdatedMsgEP25template_update_info_v2_tE21kalloc_type_view_6753
-- __ZZN18AppleMesaSEPDriver26sendTemplateListUpdatedMsgEP25template_update_info_v2_tE21kalloc_type_view_6762
-- __ZZN18AppleMesaSEPDriver29sendTemplateListNotUpdatedMsgEP17bgops_result_v2_tE21kalloc_type_view_6785
-- __ZZN18AppleMesaSEPDriver29sendTemplateListNotUpdatedMsgEP17bgops_result_v2_tE21kalloc_type_view_6794
-- __ZZN18AppleMesaSEPDriver31sendEnrollProgresWithEnrollInfoEhP20enrollment_info_v2_tE21kalloc_type_view_6653
-- __ZZN18AppleMesaSEPDriver31sendEnrollProgresWithEnrollInfoEhP20enrollment_info_v2_tE21kalloc_type_view_6662
-- __block_descriptor_tmp.377
-- __block_descriptor_tmp.390
-- __block_descriptor_tmp.391
-CStrings:
-+ "!factoryOptionsOnly || _sensorType == kSensorTypeTritonA2"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/Mesa/AppleMesaSEPDriver/AppleMesaSEPDriver/AppleMesaAccessory/AppleMesaAccessory.cpp"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/Mesa/AppleMesaSEPDriver/AppleMesaSEPDriver/AppleMesaAccessory/MesaAccessoryIntReports.cpp"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/Mesa/AppleMesaSEPDriver/AppleMesaSEPDriver/AppleMesaAccessory/MesaAccessoryManager.cpp"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/Mesa/AppleMesaSEPDriver/AppleMesaSEPDriver/AppleMesaSEPDriver.cpp"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/Mesa/AppleMesaSEPDriver/AppleMesaSEPDriver/IOMesaCaptureDataQueue.cpp"
-+ "1211111212221212112121111111111111111111112112112222222212211122222222222222222222222222222222222222222222222222222221112222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222122221211212222211122222221221212121222222222222222222121222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222221111111111"
-+ "kSetSensorPowerCommand"
-- "/AppleInternal/Library/BuildRoots/c78ea4c7-2fc7-11ef-9487-e2437461156c/Library/Caches/com.apple.xbs/Sources/Mesa/AppleMesaSEPDriver/AppleMesaSEPDriver/AppleMesaAccessory/AppleMesaAccessory.cpp"
-- "/AppleInternal/Library/BuildRoots/c78ea4c7-2fc7-11ef-9487-e2437461156c/Library/Caches/com.apple.xbs/Sources/Mesa/AppleMesaSEPDriver/AppleMesaSEPDriver/AppleMesaAccessory/MesaAccessoryIntReports.cpp"
-- "/AppleInternal/Library/BuildRoots/c78ea4c7-2fc7-11ef-9487-e2437461156c/Library/Caches/com.apple.xbs/Sources/Mesa/AppleMesaSEPDriver/AppleMesaSEPDriver/AppleMesaAccessory/MesaAccessoryManager.cpp"
-- "/AppleInternal/Library/BuildRoots/c78ea4c7-2fc7-11ef-9487-e2437461156c/Library/Caches/com.apple.xbs/Sources/Mesa/AppleMesaSEPDriver/AppleMesaSEPDriver/AppleMesaSEPDriver.cpp"
-- "/AppleInternal/Library/BuildRoots/c78ea4c7-2fc7-11ef-9487-e2437461156c/Library/Caches/com.apple.xbs/Sources/Mesa/AppleMesaSEPDriver/AppleMesaSEPDriver/IOMesaCaptureDataQueue.cpp"
-- "121111121222121211212111111111111111111111211211222222221221112222222222222222222222222222222222222222222222222222222111222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222212222121121222221112222222122121212122222222222222222212122222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222221111111111"
-- "dictionary"
-- "dictionary->setObject(\"wakeOnMenuPin\", number)"
-- "wakeOnMenuPin"
-
-```
-
->  `com.apple.driver.AppleSEPKeyStore`
-
-```diff
-
--1827.0.41.0.1
--  __TEXT.__cstring: 0x3d0c
-+1827.0.50.0.0
-+  __TEXT.__cstring: 0x3d08
-   __TEXT.__const: 0x864
-   __TEXT_EXEC.__text: 0x3e984
-   __TEXT_EXEC.__auth_stubs: 0x0
-CStrings:
-+ "/AppleInternal/Library/BuildRoots/81e2abef-3955-11ef-8e67-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleKeyStore_SEP_kexts/AppleKeyStore.cpp"
-+ "/AppleInternal/Library/BuildRoots/81e2abef-3955-11ef-8e67-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleKeyStore_SEP_kexts/ipc.c"
-+ "/AppleInternal/Library/BuildRoots/81e2abef-3955-11ef-8e67-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleKeyStore_SEP_kexts/msg.c"
-+ "/AppleInternal/Library/BuildRoots/81e2abef-3955-11ef-8e67-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleKeyStore_SEP_kexts/platform/platform.c"
-+ "/AppleInternal/Library/BuildRoots/81e2abef-3955-11ef-8e67-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleKeyStore_SEP_kexts/platform/platform_kernel.c"
-+ "1827.0.50"
-+ "20:02:59"
-+ "Jul  3 2024"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleKeyStore_SEP_kexts/AppleKeyStore.cpp"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleKeyStore_SEP_kexts/ipc.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleKeyStore_SEP_kexts/msg.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleKeyStore_SEP_kexts/platform/platform.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleKeyStore_SEP_kexts/platform/platform_kernel.c"
-- "1827.0.41.0.1"
-- "20:29:54"
-- "Jun 20 2024"
-
-```
-
->  `com.apple.driver.AppleSmartBatteryManager`
-
-```diff
-
--1730.0.0.0.2
--  __TEXT.__const: 0x1558
--  __TEXT.__cstring: 0x290f
-+1735.0.0.0.0
-+  __TEXT.__const: 0x1588
-+  __TEXT.__cstring: 0x2933
-   __TEXT.__os_log: 0x232c
--  __TEXT_EXEC.__text: 0x1ae7c
-+  __TEXT_EXEC.__text: 0x1aef0
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0x208
-   __DATA.__common: 0xd8
--  __DATA.__bss: 0x3110
-+  __DATA.__bss: 0x3170
-   __DATA_CONST.__auth_got: 0x338
-   __DATA_CONST.__got: 0xd0
-   __DATA_CONST.__mod_init_func: 0x28
-
-   __DATA_CONST.__const: 0x2c00
-   __DATA_CONST.__kalloc_type: 0x200
-   Functions: 242
--  Symbols:   1493
--  CStrings:  550
-+  Symbols:   1496
-+  CStrings:  553
- 
-Symbols:
-+ __ZL15_kCommStatusSym
-+ __ZL24_kGGCalculatedMaxWRdcSym
-+ __ZL29_kGGCalculatedNccPFilteredSym
-+ __ZZN17AppleSmartBattery17removeClientGatedEP29AppleSmartBatteryHFDataClientP5OSSetE21kalloc_type_view_6557
-+ __ZZN17AppleSmartBattery18initializeCommandsEvE21kalloc_type_view_3003
-+ __ZZN17AppleSmartBattery20startCollectionGatedEP12OSDictionaryP29AppleSmartBatteryHFDataClientE21kalloc_type_view_6102
-- __ZZN17AppleSmartBattery17removeClientGatedEP29AppleSmartBatteryHFDataClientP5OSSetE21kalloc_type_view_6551
-- __ZZN17AppleSmartBattery18initializeCommandsEvE21kalloc_type_view_2998
-- __ZZN17AppleSmartBattery20startCollectionGatedEP12OSDictionaryP29AppleSmartBatteryHFDataClientE21kalloc_type_view_6096
-CStrings:
-+ "CommStatus"
-+ "MaximumWRdc"
-+ "NccpFiltered"
-
-```
-
->  `com.apple.driver.AppleStockholmControl`
-
-```diff
-
--350.26.1.0.0
--  __TEXT.__cstring: 0x3d2b
-+350.28.0.0.0
-+  __TEXT.__cstring: 0x3e5b
-   __TEXT.__const: 0x30
--  __TEXT_EXEC.__text: 0x12ae8
-+  __TEXT_EXEC.__text: 0x12dfc
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0x219
-   __DATA.__common: 0x17e
-
-   __DATA_CONST.__kalloc_type: 0x180
-   Functions: 231
-   Symbols:   735
--  CStrings:  409
-+  CStrings:  414
- 
-CStrings:
-+ "ERR: %s::%s:%d Error : Pending flag is false !\n"
-+ "ERR: %s::%s:%d data ready but unable to send to client - drop\n"
-+ "[%llu] %s::%s:%d data ready but unable to send to client - enqueuing."
-+ "[%llu] ERR: %s::%s:%d Error : Pending flag is false !"
-+ "[%llu] ERR: %s::%s:%d data ready but unable to send to client - drop"
-
-```
-
->  `com.apple.filesystems.smbfs`
-
-```diff
-
--484.0.0.0.0
-+488.0.0.0.0
-   __TEXT.__const: 0xb55
--  __TEXT.__cstring: 0x4567
--  __TEXT.__os_log: 0x1590d
--  __TEXT_EXEC.__text: 0x7d04c
-+  __TEXT.__cstring: 0x4555
-+  __TEXT.__os_log: 0x1588d
-+  __TEXT_EXEC.__text: 0x7ceec
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0xdf8
-   __DATA.__bss: 0x1194
-
-   __DATA_CONST.__const: 0x78
-   __DATA_CONST.__kalloc_type: 0x4d40
-   __DATA_CONST.__kalloc_var: 0x3c0
--  Functions: 812
--  Symbols:   3710
--  CStrings:  936
-+  Functions: 811
-+  Symbols:   3706
-+  CStrings:  935
- 
-Symbols:
-+ AddRemoveByteRangeLockEntry._os_log_fmt.131
-+ AddRemoveByteRangeLockEntry._os_log_fmt.134
-+ AddRemoveByteRangeLockEntry._os_log_fmt.135
-+ AddRemoveByteRangeLockEntry.kalloc_type_view_6159
-+ AddRemoveByteRangeLockEntry.kalloc_type_view_6197
-+ AddRemoveByteRangeLockEntry.kalloc_type_view_6208
-+ CheckByteRangeLockEntry._os_log_fmt.136
-+ CheckByteRangeLockEntry._os_log_fmt.137
-+ CloseDeferredFileRefs._os_log_fmt.58
-+ CloseDeferredFileRefs._os_log_fmt.59
-+ FindByteRangeLockEntry._os_log_fmt.139
-+ FindFileRef._os_log_fmt.140
-+ FindFileRef._os_log_fmt.141
-+ FindFileRef._os_log_fmt.144
-+ FindFileRef._os_log_fmt.145
-+ nsmb_dev_load.kalloc_type_view_1828
-+ nsmb_dev_load.kalloc_type_view_1836
-+ smb2_dur_handle_init._os_log_fmt.68
-+ smb2_lease_init._os_log_fmt.69
-+ smb2_lease_init._os_log_fmt.70
-+ smb2_mc_add_new_interface_info_to_list.kalloc_type_view_1466
-+ smb2_mc_query_info_response_event.kalloc_type_view_787
-+ smb2_mc_query_info_response_event.kalloc_type_view_862
-+ smb2_mc_release_connection_list.kalloc_type_view_1798
-+ smb2_mc_release_interface.kalloc_type_view_1812
-+ smb2_mc_release_interface.kalloc_type_view_1827
-+ smb2_mc_remove_nic_if_unused.kalloc_type_view_969
-+ smb2_mc_update_con_list.kalloc_type_view_1635
-+ smb2_mc_update_info_with_ip.kalloc_type_view_1974
-+ smb2_mc_update_info_with_ip.kalloc_type_view_1982
-+ smb2fs_reconnect._os_log_fmt.41
-+ smb2fs_reconnect._os_log_fmt.42
-+ smb2fs_reconnect._os_log_fmt.48
-+ smb2fs_reconnect._os_log_fmt.56
-+ smb2fs_reconnect.kalloc_type_view_3800
-+ smb2fs_reconnect.kalloc_type_view_4344
-+ smb2fs_reconnect_dur_handle._os_log_fmt.29
-+ smb2fs_reconnect_dur_handle._os_log_fmt.32
-+ smb2fs_reconnect_dur_handle._os_log_fmt.33
-+ smb2fs_reconnect_dur_handle._os_log_fmt.36
-+ smb2fs_reconnect_dur_handle._os_log_fmt.40
-+ smb2fs_reconnect_dur_handle.kalloc_type_view_3562
-+ smb2fs_reconnect_dur_handle.kalloc_type_view_3718
-+ smb2fs_smb_query_network_interface_info.kalloc_type_view_11027
-+ smb_check_for_windows_symlink._os_log_fmt.175
-+ smb_hashget._os_log_fmt.171
-+ smb_hashget._os_log_fmt.172
-+ smb_iod_create.kalloc_type_view_4167
-+ smb_iod_create.kalloc_type_view_4185
-+ smb_iod_create.kalloc_type_view_4213
-+ smb_iod_destroy.kalloc_type_view_4283
-+ smb_iod_destroy.kalloc_type_view_4287
-+ smb_iod_destroy.kalloc_type_view_4314
-+ smb_iod_lease_dequeue.kalloc_type_view_4763
-+ smb_iod_lease_enqueue.kalloc_type_view_4063
-+ smb_iod_main.kalloc_type_view_3866
-+ smb_iod_thread.kalloc_type_view_3969
-+ smb_session_lease_thread.kalloc_type_view_2234
-+ smb_share_create.kalloc_type_view_1493
-+ smb_share_create.kalloc_type_view_1499
-+ smb_share_free.kalloc_type_view_1454
-+ smbfs_CloseChildren._os_log_fmt.24
-+ smbfs_CloseChildren._os_log_fmt.25
-+ smbfs_CloseChildren._os_log_fmt.28
-+ smbfs_CloseChildren.kalloc_type_view_3353
-+ smbfs_add_update_lease._os_log_fmt.72
-+ smbfs_add_update_lease._os_log_fmt.73
-+ smbfs_build_path._os_log_fmt.187
-+ smbfs_clear_lockEntries.kalloc_type_view_6570
-+ smbfs_clear_lockEntries.kalloc_type_view_6600
-+ smbfs_close.kalloc_type_view_1257
-+ smbfs_close.kalloc_type_view_1607
-+ smbfs_close_fid.kalloc_type_view_877
-+ smbfs_create_open.kalloc_type_view_2223
-+ smbfs_create_open.kalloc_type_view_2242
-+ smbfs_do_strategy.kalloc_type_view_6689
-+ smbfs_do_strategy.kalloc_type_view_6828
-+ smbfs_find_lockEntry._os_log_fmt.151
-+ smbfs_free_locks_on_close._os_log_fmt.152
-+ smbfs_free_locks_on_close._os_log_fmt.153
-+ smbfs_free_locks_on_close._os_log_fmt.160
-+ smbfs_free_locks_on_close.kalloc_type_view_6752
-+ smbfs_get_lockEntry._os_log_fmt.165
-+ smbfs_get_lockEntry._os_log_fmt.166
-+ smbfs_get_lockEntry.kalloc_type_view_6959
-+ smbfs_get_lockEntry.kalloc_type_view_7048
-+ smbfs_getattr.kalloc_type_view_4926
-+ smbfs_handle_dir_lease_break._os_log_fmt.100
-+ smbfs_handle_dir_lease_break._os_log_fmt.99
-+ smbfs_handle_lease_break._os_log_fmt.104
-+ smbfs_handle_lease_break._os_log_fmt.105
-+ smbfs_handle_lease_break._os_log_fmt.114
-+ smbfs_lease_hash_add.kalloc_type_view_6011
-+ smbfs_lease_hash_remove.kalloc_type_view_6111
-+ smbfs_open.kalloc_type_view_2300
-+ smbfs_open.kalloc_type_view_2947
-+ smbfs_trigger_get_mount_args._os_log_fmt.181
-+ smbfs_trigger_get_mount_args._os_log_fmt.182
-+ smbfs_vnop_advlock.kalloc_type_view_10927
-+ smbfs_vnop_advlock.kalloc_type_view_11016
-+ smbfs_vnop_compound_open.kalloc_type_view_3331
-+ smbfs_vnop_compound_open.kalloc_type_view_3732
-+ smbfs_vnop_getxattr.kalloc_type_view_12680
-+ smbfs_vnop_getxattr.kalloc_type_view_12697
-+ smbfs_vnop_reclaim.kalloc_type_view_4347
-+ smbfs_vnop_reclaim.kalloc_type_view_4374
-+ smbfs_vnop_rename.kalloc_type_view_9086
-+ smbfs_vnop_strategy.kalloc_type_view_6872
-- AddRemoveByteRangeLockEntry._os_log_fmt.133
-- AddRemoveByteRangeLockEntry._os_log_fmt.136
-- AddRemoveByteRangeLockEntry._os_log_fmt.137
-- AddRemoveByteRangeLockEntry.kalloc_type_view_6237
-- AddRemoveByteRangeLockEntry.kalloc_type_view_6275
-- AddRemoveByteRangeLockEntry.kalloc_type_view_6286
-- CheckByteRangeLockEntry._os_log_fmt.139
-- CheckByteRangeLockEntry._os_log_fmt.140
-- CloseDeferredFileRefs._os_log_fmt.68
-- CloseDeferredFileRefs._os_log_fmt.69
-- FindByteRangeLockEntry._os_log_fmt.141
-- FindFileRef._os_log_fmt.142
-- FindFileRef._os_log_fmt.143
-- FindFileRef._os_log_fmt.151
-- FindFileRef._os_log_fmt.152
-- _smbfs_ClearChildren
-- nsmb_dev_load.kalloc_type_view_1827
-- nsmb_dev_load.kalloc_type_view_1835
-- smb2_dur_handle_init._os_log_fmt.70
-- smb2_lease_init._os_log_fmt.72
-- smb2_lease_init._os_log_fmt.73
-- smb2_mc_add_new_interface_info_to_list.kalloc_type_view_1460
-- smb2_mc_query_info_response_event.kalloc_type_view_784
-- smb2_mc_query_info_response_event.kalloc_type_view_859
-- smb2_mc_release_connection_list.kalloc_type_view_1792
-- smb2_mc_release_interface.kalloc_type_view_1806
-- smb2_mc_release_interface.kalloc_type_view_1821
-- smb2_mc_remove_nic_if_unused.kalloc_type_view_966
-- smb2_mc_update_con_list.kalloc_type_view_1629
-- smb2_mc_update_info_with_ip.kalloc_type_view_1968
-- smb2_mc_update_info_with_ip.kalloc_type_view_1976
-- smb2fs_reconnect._os_log_fmt.46
-- smb2fs_reconnect._os_log_fmt.54
-- smb2fs_reconnect._os_log_fmt.58
-- smb2fs_reconnect._os_log_fmt.59
-- smb2fs_reconnect.kalloc_type_view_3878
-- smb2fs_reconnect.kalloc_type_view_4422
-- smb2fs_reconnect_dur_handle._os_log_fmt.31
-- smb2fs_reconnect_dur_handle._os_log_fmt.34
-- smb2fs_reconnect_dur_handle._os_log_fmt.38
-- smb2fs_reconnect_dur_handle._os_log_fmt.41
-- smb2fs_reconnect_dur_handle._os_log_fmt.42
-- smb2fs_reconnect_dur_handle.kalloc_type_view_3640
-- smb2fs_reconnect_dur_handle.kalloc_type_view_3796
-- smb2fs_smb_query_network_interface_info.kalloc_type_view_11026
-- smb_check_for_windows_symlink._os_log_fmt.179
-- smb_hashget._os_log_fmt.173
-- smb_hashget._os_log_fmt.174
-- smb_iod_create.kalloc_type_view_4168
-- smb_iod_create.kalloc_type_view_4186
-- smb_iod_create.kalloc_type_view_4214
-- smb_iod_destroy.kalloc_type_view_4284
-- smb_iod_destroy.kalloc_type_view_4288
-- smb_iod_destroy.kalloc_type_view_4315
-- smb_iod_lease_dequeue.kalloc_type_view_4764
-- smb_iod_lease_enqueue.kalloc_type_view_4064
-- smb_iod_main.kalloc_type_view_3867
-- smb_iod_thread.kalloc_type_view_3970
-- smb_session_lease_thread.kalloc_type_view_2232
-- smb_share_create.kalloc_type_view_1491
-- smb_share_create.kalloc_type_view_1497
-- smb_share_free.kalloc_type_view_1452
-- smbfs_ClearChildren._os_log_fmt
-- smbfs_ClearChildren._os_log_fmt.24
-- smbfs_ClearChildren._os_log_fmt.25
-- smbfs_CloseChildren._os_log_fmt.26
-- smbfs_CloseChildren._os_log_fmt.27
-- smbfs_CloseChildren._os_log_fmt.30
-- smbfs_CloseChildren.kalloc_type_view_3431
-- smbfs_add_update_lease._os_log_fmt.100
-- smbfs_add_update_lease._os_log_fmt.99
-- smbfs_build_path._os_log_fmt.189
-- smbfs_clear_lockEntries.kalloc_type_view_6648
-- smbfs_clear_lockEntries.kalloc_type_view_6678
-- smbfs_close.kalloc_type_view_1254
-- smbfs_close.kalloc_type_view_1604
-- smbfs_close_fid.kalloc_type_view_874
-- smbfs_create_open.kalloc_type_view_2220
-- smbfs_create_open.kalloc_type_view_2239
-- smbfs_do_strategy.kalloc_type_view_6694
-- smbfs_do_strategy.kalloc_type_view_6833
-- smbfs_find_lockEntry._os_log_fmt.153
-- smbfs_free_locks_on_close._os_log_fmt.156
-- smbfs_free_locks_on_close._os_log_fmt.165
-- smbfs_free_locks_on_close._os_log_fmt.166
-- smbfs_free_locks_on_close.kalloc_type_view_6830
-- smbfs_get_lockEntry._os_log_fmt.169
-- smbfs_get_lockEntry._os_log_fmt.172
-- smbfs_get_lockEntry.kalloc_type_view_7037
-- smbfs_get_lockEntry.kalloc_type_view_7126
-- smbfs_getattr.kalloc_type_view_4931
-- smbfs_handle_dir_lease_break._os_log_fmt.104
-- smbfs_handle_dir_lease_break._os_log_fmt.105
-- smbfs_handle_lease_break._os_log_fmt.112
-- smbfs_handle_lease_break._os_log_fmt.126
-- smbfs_handle_lease_break._os_log_fmt.129
-- smbfs_lease_hash_add.kalloc_type_view_6089
-- smbfs_lease_hash_remove.kalloc_type_view_6189
-- smbfs_open.kalloc_type_view_2297
-- smbfs_open.kalloc_type_view_2944
-- smbfs_trigger_get_mount_args._os_log_fmt.184
-- smbfs_trigger_get_mount_args._os_log_fmt.185
-- smbfs_vnop_advlock.kalloc_type_view_10932
-- smbfs_vnop_advlock.kalloc_type_view_11021
-- smbfs_vnop_compound_open.kalloc_type_view_3328
-- smbfs_vnop_compound_open.kalloc_type_view_3729
-- smbfs_vnop_getxattr.kalloc_type_view_12685
-- smbfs_vnop_getxattr.kalloc_type_view_12702
-- smbfs_vnop_reclaim.kalloc_type_view_4352
-- smbfs_vnop_reclaim.kalloc_type_view_4379
-- smbfs_vnop_rename.kalloc_type_view_9091
-- smbfs_vnop_strategy.kalloc_type_view_6877
-CStrings:
-+ "2112222111111122222222111122222222222222222222211222121222222222222222222222222222222222222222222222222111222222222222222212222222222222222212222111222222222222222211211221222112112211222222222222222222222222222"
-- "21122221111111222222221111222222222222222222222112221212222222222222222222222222222222222222222222222221112222222222222222122222222222222222122221112222222222222221121121222112112211222222222222222222222222222"
-- "smbfs_ClearChildren"
-
-```
-
->  `com.apple.kec.corecrypto`
-
-```diff
-
--1736.0.27.0.1
--  __TEXT.__cstring: 0x46c7
--  __TEXT.__const: 0x144a0
-+1736.0.36.0.0
-+  __TEXT.__cstring: 0x46eb
-+  __TEXT.__const: 0x14480
-   __TEXT.__fips_hmacs: 0x20
--  __TEXT_EXEC.__text: 0x549f8
-+  __TEXT_EXEC.__text: 0x58bec
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0x2df0
--  __DATA.__bss: 0x2960
--  __DATA.__common: 0x138
-+  __DATA.__bss: 0x2980
-+  __DATA.__common: 0x140
-   __DATA_CONST.__auth_got: 0x120
-   __DATA_CONST.__got: 0x10
-   __DATA_CONST.__auth_ptr: 0x128
--  __DATA_CONST.__const: 0x2ba8
--  Functions: 1303
--  Symbols:   1744
--  CStrings:  543
-+  __DATA_CONST.__const: 0x2c90
-+  Functions: 1313
-+  Symbols:   1760
-+  CStrings:  545
- 
-Symbols:
-+ _cc_cpu_feat_initialized
-+ _cc_init_feature_bits
-+ _ccec_sign_composite_msg_ws
-+ _ccec_verify_composite_digest_ws
-+ _ccec_verify_composite_msg_ws
-+ _ccrsa_eme_pkcs1v15_decode_internal_ws
-+ _ccrsa_sign_pkcs1v15_msg_blinded_ws
-+ _ccrsa_verify_pkcs1v15_msg_ws
-+ _ccsha384_vng_arm_hw_compress
-+ _ccsha384_vng_arm_hw_di
-+ _ccsha512_256_vng_arm_hw_compress
-+ _ccsha512_256_vng_arm_hw_di
-+ _ccsha512_vng_arm_hw_compress
-+ _ccsha512_vng_arm_hw_di
-+ _cpu_feature_bits
-+ ccrsa_eme_pkcs1v15_decode.entropy
-+ ccrsa_eme_pkcs1v15_decode.entropy_init
-CStrings:
-+ "SHA384_VNG_ARM_HW"
-+ "SHA512_VNG_ARM_HW"
-
-```
-
->  `com.apple.driver.AppleCallbackPowerSource`
-
-```diff
-
--1730.0.0.0.2
--  __TEXT.__cstring: 0xf76
-+1735.0.0.0.0
-+  __TEXT.__cstring: 0xf8f
-   __TEXT.__os_log: 0x76
--  __TEXT_EXEC.__text: 0x4c7c
-+  __TEXT_EXEC.__text: 0x4cc4
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0xd0
-   __DATA.__common: 0x190
--  __DATA.__bss: 0x1408
-+  __DATA.__bss: 0x1438
-   __DATA_CONST.__auth_got: 0x150
-   __DATA_CONST.__got: 0x60
-   __DATA_CONST.__mod_init_func: 0x10
-
-   __DATA_CONST.__const: 0x1380
-   __DATA_CONST.__kalloc_type: 0x80
-   Functions: 63
--  Symbols:   670
--  CStrings:  235
-+  Symbols:   672
-+  CStrings:  237
- 
-Symbols:
-+ __ZL24_kGGCalculatedMaxWRdcSym
-+ __ZL29_kGGCalculatedNccPFilteredSym
-CStrings:
-+ "MaximumWRdc"
-+ "NccpFiltered"
-
-```
-
->  `com.apple.driver.ApplePMGR`
-
-```diff
-
--1555.0.15.0.0
-+1555.0.17.0.0
-   __TEXT.__const: 0x258
-   __TEXT.__cstring: 0xe858
--  __TEXT_EXEC.__text: 0x53bf0
-+  __TEXT_EXEC.__text: 0x53bec
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0x100
-   __DATA.__common: 0x420
-Symbols:
-+ __ZZN28ApplePMGRFunctionISPRefClock27initWithTargetDataAndSymbolEP9IOServicePK6OSDataPK8OSSymbolE22kalloc_type_view_15385
-+ __ZZN9ApplePMGR10_initPMPv2EvE21kalloc_type_view_9705
-+ __ZZN9ApplePMGR10_initPMPv2EvE21kalloc_type_view_9778
-+ __ZZN9ApplePMGR15_initGenericPTDEvE21kalloc_type_view_9659
-+ __ZZN9ApplePMGR19_initPerfCountersV1EP9IOServiceE22kalloc_type_view_16737
-+ __ZZN9ApplePMGR19_initPerfCountersV1EP9IOServiceE22kalloc_type_view_16765
-+ __ZZN9ApplePMGR19_initPerfCountersV1EP9IOServiceE22kalloc_type_view_16808
-+ __ZZN9ApplePMGR19_initPerfCountersV1EP9IOServiceE22kalloc_type_view_16872
-+ __ZZN9ApplePMGR19_initPerfCountersV2EP9IOServiceE22kalloc_type_view_17512
-+ __ZZN9ApplePMGR19_initPerfCountersV2EP9IOServiceE22kalloc_type_view_17529
-+ __ZZN9ApplePMGR32_pmpWriteDashBoardSetDeviceStateEtjjE22kalloc_type_view_10025
-- __ZZN28ApplePMGRFunctionISPRefClock27initWithTargetDataAndSymbolEP9IOServicePK6OSDataPK8OSSymbolE22kalloc_type_view_15386
-- __ZZN9ApplePMGR10_initPMPv2EvE21kalloc_type_view_9706
-- __ZZN9ApplePMGR10_initPMPv2EvE21kalloc_type_view_9779
-- __ZZN9ApplePMGR15_initGenericPTDEvE21kalloc_type_view_9660
-- __ZZN9ApplePMGR19_initPerfCountersV1EP9IOServiceE22kalloc_type_view_16738
-- __ZZN9ApplePMGR19_initPerfCountersV1EP9IOServiceE22kalloc_type_view_16766
-- __ZZN9ApplePMGR19_initPerfCountersV1EP9IOServiceE22kalloc_type_view_16809
-- __ZZN9ApplePMGR19_initPerfCountersV1EP9IOServiceE22kalloc_type_view_16873
-- __ZZN9ApplePMGR19_initPerfCountersV2EP9IOServiceE22kalloc_type_view_17513
-- __ZZN9ApplePMGR19_initPerfCountersV2EP9IOServiceE22kalloc_type_view_17530
-- __ZZN9ApplePMGR32_pmpWriteDashBoardSetDeviceStateEtjjE22kalloc_type_view_10026
-
-```
-
->  `com.apple.AGXG15G`
-
-```diff
-
--320.18.0.0.0
-+320.23.0.0.0
-   __TEXT.__const: 0x31fc
--  __TEXT.__cstring: 0xcd7f
-+  __TEXT.__cstring: 0xcd83
-   __TEXT.__os_log: 0x32f
--  __TEXT_EXEC.__text: 0xb35b8
-+  __TEXT_EXEC.__text: 0xb3bb8
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0x1408
-   __DATA.__common: 0x10
-Symbols:
-+ _GLOBAL__D_a.3607
-+ _GLOBAL__D_a.4023
-+ _GLOBAL__D_a.4441
-+ _GLOBAL__D_a.4859
-+ _GLOBAL__D_a.5184
-+ _GLOBAL__D_a.5268
-+ _GLOBAL__D_a.5354
-+ _GLOBAL__D_a.5510
-+ _ZL18gAGXSetGameModeKey.3226
-+ _ZL18gAGXSetGameModeKey.3287
-+ _ZL18gAGXSetGameModeKey.3604
-+ _ZL18gAGXSetGameModeKey.4020
-+ _ZL18gAGXSetGameModeKey.4438
-+ _ZL18gAGXSetGameModeKey.4856
-+ _ZL18gAGXSetGameModeKey.5181
-+ _ZL18gAGXSetGameModeKey.5265
-+ _ZL18gAGXSetGameModeKey.5351
-+ _ZL18gAGXSetGameModeKey.5375
-+ _ZL18gAGXSetGameModeKey.5390
-+ _ZL18gAGXSetGameModeKey.5505
-+ _ZL26gAGXGetCLPCStandbyCountKey.3218
-+ _ZL26gAGXGetCLPCStandbyCountKey.3279
-+ _ZL26gAGXGetCLPCStandbyCountKey.3567
-+ _ZL26gAGXGetCLPCStandbyCountKey.4012
-+ _ZL26gAGXGetCLPCStandbyCountKey.4430
-+ _ZL26gAGXGetCLPCStandbyCountKey.4848
-+ _ZL26gAGXGetCLPCStandbyCountKey.5173
-+ _ZL26gAGXGetCLPCStandbyCountKey.5257
-+ _ZL26gAGXGetCLPCStandbyCountKey.5343
-+ _ZL26gAGXGetCLPCStandbyCountKey.5367
-+ _ZL26gAGXGetCLPCStandbyCountKey.5382
-+ _ZL26gAGXGetCLPCStandbyCountKey.5497
-+ _ZL28gAGXGetCLPCPerfCtrlTargetKey.3224
-+ _ZL28gAGXGetCLPCPerfCtrlTargetKey.3285
-+ _ZL28gAGXGetCLPCPerfCtrlTargetKey.3570
-+ _ZL28gAGXGetCLPCPerfCtrlTargetKey.4018
-+ _ZL28gAGXGetCLPCPerfCtrlTargetKey.4436
-+ _ZL28gAGXGetCLPCPerfCtrlTargetKey.4854
-+ _ZL28gAGXGetCLPCPerfCtrlTargetKey.5179
-+ _ZL28gAGXGetCLPCPerfCtrlTargetKey.5263
-+ _ZL28gAGXGetCLPCPerfCtrlTargetKey.5349
-+ _ZL28gAGXGetCLPCPerfCtrlTargetKey.5373
-+ _ZL28gAGXGetCLPCPerfCtrlTargetKey.5388
-+ _ZL28gAGXGetCLPCPerfCtrlTargetKey.5503
-+ _ZL29gAGXGetCLPCStandbyDurationKey.3220
-+ _ZL29gAGXGetCLPCStandbyDurationKey.3281
-+ _ZL29gAGXGetCLPCStandbyDurationKey.3568
-+ _ZL29gAGXGetCLPCStandbyDurationKey.4014
-+ _ZL29gAGXGetCLPCStandbyDurationKey.4432
-+ _ZL29gAGXGetCLPCStandbyDurationKey.4850
-+ _ZL29gAGXGetCLPCStandbyDurationKey.5175
-+ _ZL29gAGXGetCLPCStandbyDurationKey.5259
-+ _ZL29gAGXGetCLPCStandbyDurationKey.5345
-+ _ZL29gAGXGetCLPCStandbyDurationKey.5369
-+ _ZL29gAGXGetCLPCStandbyDurationKey.5384
-+ _ZL29gAGXGetCLPCStandbyDurationKey.5499
-+ _ZL31gAGXGetCLPCPowerSamplePeriodKey.3222
-+ _ZL31gAGXGetCLPCPowerSamplePeriodKey.3283
-+ _ZL31gAGXGetCLPCPowerSamplePeriodKey.3569
-+ _ZL31gAGXGetCLPCPowerSamplePeriodKey.4016
-+ _ZL31gAGXGetCLPCPowerSamplePeriodKey.4434
-+ _ZL31gAGXGetCLPCPowerSamplePeriodKey.4852
-+ _ZL31gAGXGetCLPCPowerSamplePeriodKey.5177
-+ _ZL31gAGXGetCLPCPowerSamplePeriodKey.5261
-+ _ZL31gAGXGetCLPCPowerSamplePeriodKey.5347
-+ _ZL31gAGXGetCLPCPowerSamplePeriodKey.5371
-+ _ZL31gAGXGetCLPCPowerSamplePeriodKey.5386
-+ _ZL31gAGXGetCLPCPowerSamplePeriodKey.5501
-+ _ZL34gAGXGetFilteredGPUPowerFunctionKey.3214
-+ _ZL34gAGXGetFilteredGPUPowerFunctionKey.3275
-+ _ZL34gAGXGetFilteredGPUPowerFunctionKey.3597
-+ _ZL34gAGXGetFilteredGPUPowerFunctionKey.4008
-+ _ZL34gAGXGetFilteredGPUPowerFunctionKey.4426
-+ _ZL34gAGXGetFilteredGPUPowerFunctionKey.4844
-+ _ZL34gAGXGetFilteredGPUPowerFunctionKey.5169
-+ _ZL34gAGXGetFilteredGPUPowerFunctionKey.5253
-+ _ZL34gAGXGetFilteredGPUPowerFunctionKey.5339
-+ _ZL34gAGXGetFilteredGPUPowerFunctionKey.5363
-+ _ZL34gAGXGetFilteredGPUPowerFunctionKey.5378
-+ _ZL34gAGXGetFilteredGPUPowerFunctionKey.5493
-+ _ZL35gAGXGetCLPCDynamicSplitRatioDictKey.3216
-+ _ZL35gAGXGetCLPCDynamicSplitRatioDictKey.3277
-+ _ZL35gAGXGetCLPCDynamicSplitRatioDictKey.3427
-+ _ZL35gAGXGetCLPCDynamicSplitRatioDictKey.4010
-+ _ZL35gAGXGetCLPCDynamicSplitRatioDictKey.4428
-+ _ZL35gAGXGetCLPCDynamicSplitRatioDictKey.4846
-+ _ZL35gAGXGetCLPCDynamicSplitRatioDictKey.5171
-+ _ZL35gAGXGetCLPCDynamicSplitRatioDictKey.5255
-+ _ZL35gAGXGetCLPCDynamicSplitRatioDictKey.5341
-+ _ZL35gAGXGetCLPCDynamicSplitRatioDictKey.5365
-+ _ZL35gAGXGetCLPCDynamicSplitRatioDictKey.5380
-+ _ZL35gAGXGetCLPCDynamicSplitRatioDictKey.5495
-+ _ZN10AGXChannel24encodeInvalidatePDSCacheE19_AGFIDataMasterType.5459
-+ _ZN10AGXChannel28encodeInvalidateUSCInstCacheEv.5461
-+ _ZN10AGXChannel32markCommandsSubmittedToAccelRingEv.5458
-+ _ZN10AGXChannel34unmarkCommandsSubmittedToAccelRingEv.5457
-+ _ZN10AGXChannel36encodeInvalidateDynamicConstantCacheEv.5460
-+ _ZN11AGXFirmware14getGPUMaxPowerEv.3430
-+ _ZN11AGXFirmware14getGPUMaxPowerEv.3970
-+ _ZN11AGXFirmware14getGPUMaxPowerEv.4388
-+ _ZN11AGXFirmware14getGPUMaxPowerEv.4806
-+ _ZN11AGXFirmware17isWaitingForKicksEv.3432
-+ _ZN11AGXFirmware17isWaitingForKicksEv.3972
-+ _ZN11AGXFirmware17isWaitingForKicksEv.4390
-+ _ZN11AGXFirmware17isWaitingForKicksEv.4808
-+ _ZN11AGXFirmware18setPropertyQoSModeEyy.3410
-+ _ZN11AGXFirmware18setPropertyQoSModeEyy.3958
-+ _ZN11AGXFirmware18setPropertyQoSModeEyy.4375
-+ _ZN11AGXFirmware18setPropertyQoSModeEyy.4793
-+ _ZN11AGXFirmware21isFirmwareInitialisedEv.3433
-+ _ZN11AGXFirmware21isFirmwareInitialisedEv.3973
-+ _ZN11AGXFirmware21isFirmwareInitialisedEv.4391
-+ _ZN11AGXFirmware21isFirmwareInitialisedEv.4809
-+ _ZN11AGXFirmware22isFirmwareColdBootDoneEv.3566
-+ _ZN11AGXFirmware22isFirmwareColdBootDoneEv.3976
-+ _ZN11AGXFirmware22isFirmwareColdBootDoneEv.4394
-+ _ZN11AGXFirmware22isFirmwareColdBootDoneEv.4812
-+ _ZN11AGXFirmware24completeFirmwareColdBootE16AGFIFirmwareRole.3565
-+ _ZN11AGXFirmware24completeFirmwareColdBootE16AGFIFirmwareRole.3975
-+ _ZN11AGXFirmware24completeFirmwareColdBootE16AGFIFirmwareRole.4393
-+ _ZN11AGXFirmware24completeFirmwareColdBootE16AGFIFirmwareRole.4811
-+ _ZN11AGXFirmware24updateMRCConfigOverridesEP12OSDictionary.3367
-+ _ZN11AGXFirmware24updateMRCConfigOverridesEP12OSDictionary.3943
-+ _ZN11AGXFirmware24updateMRCConfigOverridesEP12OSDictionary.4360
-+ _ZN11AGXFirmware24updateMRCConfigOverridesEP12OSDictionary.4778
-+ _ZN11AGXFirmware26getUVWarnCounterDictionaryEv.3425
-+ _ZN11AGXFirmware26getUVWarnCounterDictionaryEv.3964
-+ _ZN11AGXFirmware26getUVWarnCounterDictionaryEv.4381
-+ _ZN11AGXFirmware26getUVWarnCounterDictionaryEv.4799
-+ _ZN11AGXFirmware26resetKSMDynamicPowerGatingEv.3400
-+ _ZN11AGXFirmware26resetKSMDynamicPowerGatingEv.3956
-+ _ZN11AGXFirmware26resetKSMDynamicPowerGatingEv.4373
-+ _ZN11AGXFirmware26resetKSMDynamicPowerGatingEv.4791
-+ _ZN11AGXFirmware31snapshotInspectionCriticalStateEv.3434
-+ _ZN11AGXFirmware31snapshotInspectionCriticalStateEv.3974
-+ _ZN11AGXFirmware31snapshotInspectionCriticalStateEv.4392
-+ _ZN11AGXFirmware31snapshotInspectionCriticalStateEv.4810
-+ _ZN11AGXFirmware33setKSMDynamicPowerGatingOverridesEP33AGFKSMDynamicPowerGatingOverrides.3401
-+ _ZN11AGXFirmware33setKSMDynamicPowerGatingOverridesEP33AGFKSMDynamicPowerGatingOverrides.3957
-+ _ZN11AGXFirmware33setKSMDynamicPowerGatingOverridesEP33AGFKSMDynamicPowerGatingOverrides.4374
-+ _ZN11AGXFirmware33setKSMDynamicPowerGatingOverridesEP33AGFKSMDynamicPowerGatingOverrides.4792
-+ _ZN11AGXFirmware37updateDeadlineAwareControllerOverrideEP12OSDictionary.3393
-+ _ZN11AGXFirmware37updateDeadlineAwareControllerOverrideEP12OSDictionary.3944
-+ _ZN11AGXFirmware37updateDeadlineAwareControllerOverrideEP12OSDictionary.4361
-+ _ZN11AGXFirmware37updateDeadlineAwareControllerOverrideEP12OSDictionary.4779
-+ _ZN14AGXAccelerator14enableGameModeEb.6038
-+ _ZN14AGXAccelerator14isPIOSupportedEv.6061
-+ _ZN14AGXAccelerator15forceIPPBarrierE12AGXWalkOrderj.6052
-+ _ZN14AGXAccelerator15getDPEACWinInfoEP13AGFDPEPPTInfoty.6027
-+ _ZN14AGXAccelerator15getSamplePeriodEv.5993
-+ _ZN14AGXAccelerator15updateG9GConfigEj.6043
-+ _ZN14AGXAccelerator16getDPEACDthrInfoEP13AGFDPEPPTInfoty.6028
-+ _ZN14AGXAccelerator16getDPEDCDthrInfoEP13AGFDPEPPTInfoty.6024
-+ _ZN14AGXAccelerator16getUMAesPageSizeER13AGXUMADescRecb.5997
-+ _ZN14AGXAccelerator16postBootFirmwareEv.6053
-+ _ZN14AGXAccelerator17getDPEACDshftInfoEP13AGFDPEPPTInfoty.6029
-+ _ZN14AGXAccelerator17getDPEDCDshftInfoEP13AGFDPEPPTInfoty.6025
-+ _ZN14AGXAccelerator17isHWDSIDAvailableEh.5988
-+ _ZN14AGXAccelerator18getDPEImaxDthrInfoEP13AGFDPEPPTInfoty.6022
-+ _ZN14AGXAccelerator18getDPEImaxWin1InfoEP13AGFDPEPPTInfoty.6020
-+ _ZN14AGXAccelerator18getDPEImaxWin2InfoEP13AGFDPEPPTInfoty.6019
-+ _ZN14AGXAccelerator18setPropertyQoSModeEP12OSDictionaryP8OSObject.5965
-+ _ZN14AGXAccelerator19computeDPEPPTValuesEP19AGFDPEPPTConfigDataf.6007
-+ _ZN14AGXAccelerator19getDPEImaxDshftInfoEP13AGFDPEPPTInfoty.6023
-+ _ZN14AGXAccelerator19getKernelGMMUTablesEv.5967
-+ _ZN14AGXAccelerator19handleSAPTInterruptEv.6039
-+ _ZN14AGXAccelerator19isPowerManagedInAGXEv.6060
-+ _ZN14AGXAccelerator19isQOSBillingEnabledEv.5996
-+ _ZN14AGXAccelerator19setKernelGMMUTablesEPv.5968
-+ _ZN14AGXAccelerator19supportsMTRSecurityEv.6058
-+ _ZN14AGXAccelerator20getDPEImaxBudgetInfoEP13AGFDPEPPTInfoty.6021
-+ _ZN14AGXAccelerator20isMTRScalerSupportedEv.6059
-+ _ZN14AGXAccelerator21getGPUMemoryThresholdEv.6037
-+ _ZN14AGXAccelerator21getGPUPhysicalAddressEv.6057
-+ _ZN14AGXAccelerator21populateCSCAllocationEv.5991
-+ _ZN14AGXAccelerator21use16kPageSizeDefaultEv.6044
-+ _ZN14AGXAccelerator22getDPEDCCompCondBudgetEP13AGFDPEPPTInfoty.6010
-+ _ZN14AGXAccelerator22getDPEDCCondBudgetInfoEP13AGFDPEPPTInfoty.6026
-+ _ZN14AGXAccelerator22getDPEImaxPredWin1InfoEP13AGFDPEPPTInfoty.6017
-+ _ZN14AGXAccelerator22getDPEImaxPredWin2InfoEP13AGFDPEPPTInfoty.6016
-+ _ZN14AGXAccelerator23getDPEImaxReactWin1InfoEP13AGFDPEPPTInfoty.6013
-+ _ZN14AGXAccelerator23getDPEImaxReactWin2InfoEP13AGFDPEPPTInfoty.6012
-+ _ZN14AGXAccelerator23getUMAMaxActiveGTPKicksEv.6002
-+ _ZN14AGXAccelerator23populateStaticPowerDataEv.6036
-+ _ZN14AGXAccelerator24getDPEDCCompDshiftThreshEP13AGFDPEPPTInfoty.6009
-+ _ZN14AGXAccelerator24getDPEImaxPredBudgetInfoEP13AGFDPEPPTInfoty.6018
-+ _ZN14AGXAccelerator24getFenceBufferGPUAddressEv.6003
-+ _ZN14AGXAccelerator24getFenderPhysicalAddressEv.6056
-+ _ZN14AGXAccelerator24getPMGRServiceDictionaryEv.6031
-+ _ZN14AGXAccelerator24getSamplePeriodAICClocksEv.5992
-+ _ZN14AGXAccelerator24getUVWarnPhysicalAddressEv.6055
-+ _ZN14AGXAccelerator24halNewSpillBufferManagerEv.6048
-+ _ZN14AGXAccelerator24updateImaxReactiveBudgetEv.6006
-+ _ZN14AGXAccelerator25getDPECurrentDefaultLimitEv.6008
-+ _ZN14AGXAccelerator25getDPEImaxReactBudgetInfoEP13AGFDPEPPTInfoty.6014
-+ _ZN14AGXAccelerator25halGetDefaultMcacheWritesEv.5987
-+ _ZN14AGXAccelerator25halWaitForFenderPowerGateEv.5969
-+ _ZN14AGXAccelerator26halGetSmallestUMABlockSizeEv.5999
-+ _ZN14AGXAccelerator26populateSRAMPowerScaleDataEv.6034
-+ _ZN14AGXAccelerator28getDPEImaxPredTrigThreshInfoEP13AGFDPEPPTInfoty.6015
-+ _ZN14AGXAccelerator28setPropertyDefaultQoSTargetsEP12OSDictionaryP8OSObject.5963
-+ _ZN14AGXAccelerator29getBorderColorTableGPUAddressEv.6004
-+ _ZN14AGXAccelerator29getDPEImaxReactTrigThreshInfoEP13AGFDPEPPTInfoty.6011
-+ _ZN14AGXAccelerator29supportsOptimizedUMASharedMinEv.5998
-+ _ZN14AGXAccelerator30getUMAMaxActiveCDMKicksPerMGPUEb.6000
-+ _ZN14AGXAccelerator30getUMAMaxActiveFRGKicksPerMGPUEb.6001
-+ _ZN14AGXAccelerator30populateDPEAdjustmentCoEffDataEv.6035
-+ _ZN14AGXAccelerator30populateDPELeakageUpdateConfigEP25AGXDPELeakageUpdateConfig.6032
-+ _ZN14AGXAccelerator30populateDefaultSRAMVoltageDataER13PerfStateInfoILj16ELj8EE.6033
-+ _ZN14AGXAccelerator33populateMaximumPerformancePowerCSEv.5989
-+ _ZN14AGXAccelerator34updateImaxReactiveTriggerThresholdEv.6005
-+ _ZN14AGXAccelerator47setPropertyNoiseSuppressionGPUIdlePowerOffStateEP12OSDictionaryP8OSObject.5964
-+ _ZN14AGXArmFirmware11isGFXBootedEPy.3953
-+ _ZN14AGXArmFirmware11isGFXBootedEPy.4370
-+ _ZN14AGXArmFirmware11isGFXBootedEPy.4788
-+ _ZN14AGXArmFirmware12setInitReg32Etjh.3968
-+ _ZN14AGXArmFirmware12setInitReg32Etjh.4386
-+ _ZN14AGXArmFirmware12setInitReg32Etjh.4804
-+ _ZN14AGXArmFirmware12setInitReg64Etyh.3967
-+ _ZN14AGXArmFirmware12setInitReg64Etyh.4385
-+ _ZN14AGXArmFirmware12setInitReg64Etyh.4803
-+ _ZN14AGXArmFirmware14setInitReg64PAEtyjh.3966
-+ _ZN14AGXArmFirmware14setInitReg64PAEtyjh.4384
-+ _ZN14AGXArmFirmware14setInitReg64PAEtyjh.4802
-+ _ZN14AGXArmFirmware19getFSTPOverrideMaskE19_AGFIDataMasterTypeb.3946
-+ _ZN14AGXArmFirmware19getFSTPOverrideMaskE19_AGFIDataMasterTypeb.4363
-+ _ZN14AGXArmFirmware19getFSTPOverrideMaskE19_AGFIDataMasterTypeb.4781
-+ _ZN14AGXArmFirmware21initSoftFaultSettingsEb.3949
-+ _ZN14AGXArmFirmware21initSoftFaultSettingsEb.4366
-+ _ZN14AGXArmFirmware21initSoftFaultSettingsEb.4784
-+ _ZN14AGXArmFirmware21isFSTPOverrideEnabledEv.3947
-+ _ZN14AGXArmFirmware21isFSTPOverrideEnabledEv.4364
-+ _ZN14AGXArmFirmware21isFSTPOverrideEnabledEv.4782
-+ _ZN14AGXArmFirmware22getDPEImaxCurrentLimitEv.3971
-+ _ZN14AGXArmFirmware22getDPEImaxCurrentLimitEv.4389
-+ _ZN14AGXArmFirmware22getDPEImaxCurrentLimitEv.4807
-+ _ZN14AGXArmFirmware23updateSoftFaultSettingsEb.3948
-+ _ZN14AGXArmFirmware23updateSoftFaultSettingsEb.4365
-+ _ZN14AGXArmFirmware23updateSoftFaultSettingsEb.4783
-+ _ZN14AGXArmFirmware24isForceGTPDiscardEnabledEv.3942
-+ _ZN14AGXArmFirmware24isForceGTPDiscardEnabledEv.4359
-+ _ZN14AGXArmFirmware24isForceGTPDiscardEnabledEv.4777
-+ _ZN14AGXArmFirmware24resetFirmwareForRecoveryEv.3963
-+ _ZN14AGXArmFirmware24resetFirmwareForRecoveryEv.4380
-+ _ZN14AGXArmFirmware24resetFirmwareForRecoveryEv.4798
-+ _ZN14AGXArmFirmware27setCommandSubmissionEnabledEb.3969
-+ _ZN14AGXArmFirmware27setCommandSubmissionEnabledEb.4387
-+ _ZN14AGXArmFirmware27setCommandSubmissionEnabledEb.4805
-+ _ZN14AGXArmFirmware28getDefaultCLKillTimeoutLimitEv.3960
-+ _ZN14AGXArmFirmware28getDefaultCLKillTimeoutLimitEv.4377
-+ _ZN14AGXArmFirmware28getDefaultCLKillTimeoutLimitEv.4795
-+ _ZN14AGXArmFirmware29getMCacheRegistersBaseAddressEv.3952
-+ _ZN14AGXArmFirmware29getMCacheRegistersBaseAddressEv.4369
-+ _ZN14AGXArmFirmware29getMCacheRegistersBaseAddressEv.4787
-+ _ZN14AGXArmFirmware32getDefaultCDMBackoffTimeoutLimitEv.3959
-+ _ZN14AGXArmFirmware32getDefaultCDMBackoffTimeoutLimitEv.4376
-+ _ZN14AGXArmFirmware32getDefaultCDMBackoffTimeoutLimitEv.4794
-+ _ZN14AGXArmFirmware34clearOutstandingFirmwareInterruptsEv.3945
-+ _ZN14AGXArmFirmware34clearOutstandingFirmwareInterruptsEv.4362
-+ _ZN14AGXArmFirmware34clearOutstandingFirmwareInterruptsEv.4780
-+ _ZN14AGXArmFirmware35isSystemSleepNotificationInProgressEv.3954
-+ _ZN14AGXArmFirmware35isSystemSleepNotificationInProgressEv.4371
-+ _ZN14AGXArmFirmware35isSystemSleepNotificationInProgressEv.4789
-+ _ZN14AGXArmFirmware36setSystemSleepNotificationInProgressEb.3955
-+ _ZN14AGXArmFirmware36setSystemSleepNotificationInProgressEb.4372
-+ _ZN14AGXArmFirmware36setSystemSleepNotificationInProgressEb.4790
-+ _ZN14AGXArmFirmware37getDefaultCLContextSwitchTimeoutLimitEv.3962
-+ _ZN14AGXArmFirmware37getDefaultCLContextSwitchTimeoutLimitEv.4379
-+ _ZN14AGXArmFirmware37getDefaultCLContextSwitchTimeoutLimitEv.4797
-+ _ZN14AGXArmFirmware39getDefaultRelaxedCLContextSwitchTimeoutEv.3961
-+ _ZN14AGXArmFirmware39getDefaultRelaxedCLContextSwitchTimeoutEv.4378
-+ _ZN14AGXArmFirmware39getDefaultRelaxedCLContextSwitchTimeoutEv.4796
-+ _ZN20AGXFamilyAccelerator21parsePerfStateMapRegsEv.5960
-+ _ZN9os_detail21panic_trapping_policy4trapEPKc.3051
-+ _ZN9os_detail21panic_trapping_policy4trapEPKc.3411
-+ _ZNK11AGXFirmware14getFWPageShiftEv.3428
-+ _ZNK12AGX3DChannel15getGuiltyDMTypeEv.5456
-+ _ZNK14AGXAccelerator20getChecksumRegistersER22_AGXSChecksumRegisters.6054
-+ _ZNK14AGXAccelerator22halMCacheApertureSetupEPvhiy18_AGXWriteRangeSizet.5990
-+ _ZNK14AGXAccelerator23halGetMaxFencesShiftMaxEv.5976
-+ _ZNK14AGXAccelerator23halGetMaxFencesShiftMinEv.5977
-+ _ZNK14AGXAccelerator23halGetSegmentIdRangeMaxEv.5982
-+ _ZNK14AGXAccelerator23halGetSegmentIdRangeMinEv.5983
-+ _ZNK14AGXAccelerator24halIsSmartidleOffEnabledEv.6047
-+ _ZNK14AGXAccelerator25halGetMaxFencesShiftResetEv.5978
-+ _ZNK14AGXAccelerator25halGetSegmentIdRangeResetEv.5984
-+ _ZNK14AGXAccelerator26halGetMergeLastCmdBufEventEv.6030
-+ _ZNK14AGXAccelerator32halGetDefaultSplHeuristicEnabledEv.5985
-+ _ZNK14AGXAccelerator33halGetComplexPrimThreshAlignShiftEv.5975
-+ _ZNK14AGXAccelerator34halGetComplexPrimThreshShiftCapMaxEv.5972
-+ _ZNK14AGXAccelerator34halGetComplexPrimThreshShiftCapMinEv.5973
-+ _ZNK14AGXAccelerator35halGetDefaultParameterBufferSizeMaxEy.5986
-+ _ZNK14AGXAccelerator36halGetComplexPrimThreshShiftCapResetEv.5974
-+ _ZNK14AGXAccelerator41halGetGtpScalingSegmentIdRangeMaxSegmentsEv.5981
-+ _ZNK14AGXAccelerator43halGetDefaultParameterBufferSizeMaxOverrideEv.5979
-+ _ZNK14AGXAccelerator43halGetDefaultParameterBufferSizeMinOverrideEv.5980
-+ _ZNK14AGXAccelerator47getPropertyNoiseSuppressionGPUIdlePowerOffStateEv.5966
-+ _ZNK14AGXArmFirmware30isFenderPowerManagementEnabledEv.3965
-+ _ZNK14AGXArmFirmware30isFenderPowerManagementEnabledEv.4382
-+ _ZNK14AGXArmFirmware30isFenderPowerManagementEnabledEv.4800
-+ _ZNK14AGXArmFirmware31getConsistentGPUPerfStatePStateEv.3950
-+ _ZNK14AGXArmFirmware31getConsistentGPUPerfStatePStateEv.4367
-+ _ZNK14AGXArmFirmware31getConsistentGPUPerfStatePStateEv.4785
-+ _ZNK14AGXArmFirmware31isConsistentGPUPerfStateEnabledEv.3951
-+ _ZNK14AGXArmFirmware31isConsistentGPUPerfStateEnabledEv.4368
-+ _ZNK14AGXArmFirmware31isConsistentGPUPerfStateEnabledEv.4786
-+ _ZNK27AGXArmFirmwareChinookCommon14getFWPageShiftEv.4383
-+ _ZNK27AGXArmFirmwareChinookCommon14getFWPageShiftEv.4801
-+ __ZZN10AGXChannel4freeEvE20kalloc_type_view_338
-+ __ZZN10AGXChannel4initEPK15AGXCommandQueueP12AGXWorkQueueiiy19_AGFIDataMasterTypeE20kalloc_type_view_104
-+ __ZZN10AGXChannel4initEPK15AGXCommandQueueP12AGXWorkQueueiiy19_AGFIDataMasterTypeE20kalloc_type_view_273
-+ __block_descriptor_tmp.3431
-+ __block_descriptor_tmp.5356
-- _GLOBAL__D_a.3609
-- _GLOBAL__D_a.4025
-- _GLOBAL__D_a.4443
-- _GLOBAL__D_a.4861
-- _GLOBAL__D_a.5186
-- _GLOBAL__D_a.5270
-- _GLOBAL__D_a.5356
-- _GLOBAL__D_a.5512
-- _ZL18gAGXSetGameModeKey.3227
-- _ZL18gAGXSetGameModeKey.3289
-- _ZL18gAGXSetGameModeKey.3606
-- _ZL18gAGXSetGameModeKey.4022
-- _ZL18gAGXSetGameModeKey.4440
-- _ZL18gAGXSetGameModeKey.4858
-- _ZL18gAGXSetGameModeKey.5183
-- _ZL18gAGXSetGameModeKey.5267
-- _ZL18gAGXSetGameModeKey.5353
-- _ZL18gAGXSetGameModeKey.5377
-- _ZL18gAGXSetGameModeKey.5392
-- _ZL18gAGXSetGameModeKey.5507
-- _ZL26gAGXGetCLPCStandbyCountKey.3219
-- _ZL26gAGXGetCLPCStandbyCountKey.3281
-- _ZL26gAGXGetCLPCStandbyCountKey.3569
-- _ZL26gAGXGetCLPCStandbyCountKey.4014
-- _ZL26gAGXGetCLPCStandbyCountKey.4432
-- _ZL26gAGXGetCLPCStandbyCountKey.4850
-- _ZL26gAGXGetCLPCStandbyCountKey.5175
-- _ZL26gAGXGetCLPCStandbyCountKey.5259
-- _ZL26gAGXGetCLPCStandbyCountKey.5345
-- _ZL26gAGXGetCLPCStandbyCountKey.5369
-- _ZL26gAGXGetCLPCStandbyCountKey.5384
-- _ZL26gAGXGetCLPCStandbyCountKey.5499
-- _ZL28gAGXGetCLPCPerfCtrlTargetKey.3225
-- _ZL28gAGXGetCLPCPerfCtrlTargetKey.3287
-- _ZL28gAGXGetCLPCPerfCtrlTargetKey.3572
-- _ZL28gAGXGetCLPCPerfCtrlTargetKey.4020
-- _ZL28gAGXGetCLPCPerfCtrlTargetKey.4438
-- _ZL28gAGXGetCLPCPerfCtrlTargetKey.4856
-- _ZL28gAGXGetCLPCPerfCtrlTargetKey.5181
-- _ZL28gAGXGetCLPCPerfCtrlTargetKey.5265
-- _ZL28gAGXGetCLPCPerfCtrlTargetKey.5351
-- _ZL28gAGXGetCLPCPerfCtrlTargetKey.5375
-- _ZL28gAGXGetCLPCPerfCtrlTargetKey.5390
-- _ZL28gAGXGetCLPCPerfCtrlTargetKey.5505
-- _ZL29gAGXGetCLPCStandbyDurationKey.3221
-- _ZL29gAGXGetCLPCStandbyDurationKey.3283
-- _ZL29gAGXGetCLPCStandbyDurationKey.3570
-- _ZL29gAGXGetCLPCStandbyDurationKey.4016
-- _ZL29gAGXGetCLPCStandbyDurationKey.4434
-- _ZL29gAGXGetCLPCStandbyDurationKey.4852
-- _ZL29gAGXGetCLPCStandbyDurationKey.5177
-- _ZL29gAGXGetCLPCStandbyDurationKey.5261
-- _ZL29gAGXGetCLPCStandbyDurationKey.5347
-- _ZL29gAGXGetCLPCStandbyDurationKey.5371
-- _ZL29gAGXGetCLPCStandbyDurationKey.5386
-- _ZL29gAGXGetCLPCStandbyDurationKey.5501
-- _ZL31gAGXGetCLPCPowerSamplePeriodKey.3223
-- _ZL31gAGXGetCLPCPowerSamplePeriodKey.3285
-- _ZL31gAGXGetCLPCPowerSamplePeriodKey.3571
-- _ZL31gAGXGetCLPCPowerSamplePeriodKey.4018
-- _ZL31gAGXGetCLPCPowerSamplePeriodKey.4436
-- _ZL31gAGXGetCLPCPowerSamplePeriodKey.4854
-- _ZL31gAGXGetCLPCPowerSamplePeriodKey.5179
-- _ZL31gAGXGetCLPCPowerSamplePeriodKey.5263
-- _ZL31gAGXGetCLPCPowerSamplePeriodKey.5349
-- _ZL31gAGXGetCLPCPowerSamplePeriodKey.5373
-- _ZL31gAGXGetCLPCPowerSamplePeriodKey.5388
-- _ZL31gAGXGetCLPCPowerSamplePeriodKey.5503
-- _ZL34gAGXGetFilteredGPUPowerFunctionKey.3215
-- _ZL34gAGXGetFilteredGPUPowerFunctionKey.3277
-- _ZL34gAGXGetFilteredGPUPowerFunctionKey.3599
-- _ZL34gAGXGetFilteredGPUPowerFunctionKey.4010
-- _ZL34gAGXGetFilteredGPUPowerFunctionKey.4428
-- _ZL34gAGXGetFilteredGPUPowerFunctionKey.4846
-- _ZL34gAGXGetFilteredGPUPowerFunctionKey.5171
-- _ZL34gAGXGetFilteredGPUPowerFunctionKey.5255
-- _ZL34gAGXGetFilteredGPUPowerFunctionKey.5341
-- _ZL34gAGXGetFilteredGPUPowerFunctionKey.5365
-- _ZL34gAGXGetFilteredGPUPowerFunctionKey.5380
-- _ZL34gAGXGetFilteredGPUPowerFunctionKey.5495
-- _ZL35gAGXGetCLPCDynamicSplitRatioDictKey.3217
-- _ZL35gAGXGetCLPCDynamicSplitRatioDictKey.3279
-- _ZL35gAGXGetCLPCDynamicSplitRatioDictKey.3429
-- _ZL35gAGXGetCLPCDynamicSplitRatioDictKey.4012
-- _ZL35gAGXGetCLPCDynamicSplitRatioDictKey.4430
-- _ZL35gAGXGetCLPCDynamicSplitRatioDictKey.4848
-- _ZL35gAGXGetCLPCDynamicSplitRatioDictKey.5173
-- _ZL35gAGXGetCLPCDynamicSplitRatioDictKey.5257
-- _ZL35gAGXGetCLPCDynamicSplitRatioDictKey.5343
-- _ZL35gAGXGetCLPCDynamicSplitRatioDictKey.5367
-- _ZL35gAGXGetCLPCDynamicSplitRatioDictKey.5382
-- _ZL35gAGXGetCLPCDynamicSplitRatioDictKey.5497
-- _ZN10AGXChannel24encodeInvalidatePDSCacheE19_AGFIDataMasterType.5461
-- _ZN10AGXChannel28encodeInvalidateUSCInstCacheEv.5463
-- _ZN10AGXChannel32markCommandsSubmittedToAccelRingEv.5460
-- _ZN10AGXChannel34unmarkCommandsSubmittedToAccelRingEv.5459
-- _ZN10AGXChannel36encodeInvalidateDynamicConstantCacheEv.5462
-- _ZN11AGXFirmware14getGPUMaxPowerEv.3432
-- _ZN11AGXFirmware14getGPUMaxPowerEv.3972
-- _ZN11AGXFirmware14getGPUMaxPowerEv.4390
-- _ZN11AGXFirmware14getGPUMaxPowerEv.4808
-- _ZN11AGXFirmware17isWaitingForKicksEv.3434
-- _ZN11AGXFirmware17isWaitingForKicksEv.3974
-- _ZN11AGXFirmware17isWaitingForKicksEv.4392
-- _ZN11AGXFirmware17isWaitingForKicksEv.4810
-- _ZN11AGXFirmware18setPropertyQoSModeEyy.3412
-- _ZN11AGXFirmware18setPropertyQoSModeEyy.3960
-- _ZN11AGXFirmware18setPropertyQoSModeEyy.4377
-- _ZN11AGXFirmware18setPropertyQoSModeEyy.4795
-- _ZN11AGXFirmware21isFirmwareInitialisedEv.3435
-- _ZN11AGXFirmware21isFirmwareInitialisedEv.3975
-- _ZN11AGXFirmware21isFirmwareInitialisedEv.4393
-- _ZN11AGXFirmware21isFirmwareInitialisedEv.4811
-- _ZN11AGXFirmware22isFirmwareColdBootDoneEv.3568
-- _ZN11AGXFirmware22isFirmwareColdBootDoneEv.3978
-- _ZN11AGXFirmware22isFirmwareColdBootDoneEv.4396
-- _ZN11AGXFirmware22isFirmwareColdBootDoneEv.4814
-- _ZN11AGXFirmware24completeFirmwareColdBootE16AGFIFirmwareRole.3567
-- _ZN11AGXFirmware24completeFirmwareColdBootE16AGFIFirmwareRole.3977
-- _ZN11AGXFirmware24completeFirmwareColdBootE16AGFIFirmwareRole.4395
-- _ZN11AGXFirmware24completeFirmwareColdBootE16AGFIFirmwareRole.4813
-- _ZN11AGXFirmware24updateMRCConfigOverridesEP12OSDictionary.3369
-- _ZN11AGXFirmware24updateMRCConfigOverridesEP12OSDictionary.3945
-- _ZN11AGXFirmware24updateMRCConfigOverridesEP12OSDictionary.4362
-- _ZN11AGXFirmware24updateMRCConfigOverridesEP12OSDictionary.4780
-- _ZN11AGXFirmware26getUVWarnCounterDictionaryEv.3427
-- _ZN11AGXFirmware26getUVWarnCounterDictionaryEv.3966
-- _ZN11AGXFirmware26getUVWarnCounterDictionaryEv.4383
-- _ZN11AGXFirmware26getUVWarnCounterDictionaryEv.4801
-- _ZN11AGXFirmware26resetKSMDynamicPowerGatingEv.3402
-- _ZN11AGXFirmware26resetKSMDynamicPowerGatingEv.3958
-- _ZN11AGXFirmware26resetKSMDynamicPowerGatingEv.4375
-- _ZN11AGXFirmware26resetKSMDynamicPowerGatingEv.4793
-- _ZN11AGXFirmware31snapshotInspectionCriticalStateEv.3436
-- _ZN11AGXFirmware31snapshotInspectionCriticalStateEv.3976
-- _ZN11AGXFirmware31snapshotInspectionCriticalStateEv.4394
-- _ZN11AGXFirmware31snapshotInspectionCriticalStateEv.4812
-- _ZN11AGXFirmware33setKSMDynamicPowerGatingOverridesEP33AGFKSMDynamicPowerGatingOverrides.3403
-- _ZN11AGXFirmware33setKSMDynamicPowerGatingOverridesEP33AGFKSMDynamicPowerGatingOverrides.3959
-- _ZN11AGXFirmware33setKSMDynamicPowerGatingOverridesEP33AGFKSMDynamicPowerGatingOverrides.4376
-- _ZN11AGXFirmware33setKSMDynamicPowerGatingOverridesEP33AGFKSMDynamicPowerGatingOverrides.4794
-- _ZN11AGXFirmware37updateDeadlineAwareControllerOverrideEP12OSDictionary.3395
-- _ZN11AGXFirmware37updateDeadlineAwareControllerOverrideEP12OSDictionary.3946
-- _ZN11AGXFirmware37updateDeadlineAwareControllerOverrideEP12OSDictionary.4363
-- _ZN11AGXFirmware37updateDeadlineAwareControllerOverrideEP12OSDictionary.4781
-- _ZN14AGXAccelerator14enableGameModeEb.6040
-- _ZN14AGXAccelerator14isPIOSupportedEv.6063
-- _ZN14AGXAccelerator15forceIPPBarrierE12AGXWalkOrderj.6054
-- _ZN14AGXAccelerator15getDPEACWinInfoEP13AGFDPEPPTInfoty.6029
-- _ZN14AGXAccelerator15getSamplePeriodEv.5995
-- _ZN14AGXAccelerator15updateG9GConfigEj.6045
-- _ZN14AGXAccelerator16getDPEACDthrInfoEP13AGFDPEPPTInfoty.6030
-- _ZN14AGXAccelerator16getDPEDCDthrInfoEP13AGFDPEPPTInfoty.6026
-- _ZN14AGXAccelerator16getUMAesPageSizeER13AGXUMADescRecb.5999
-- _ZN14AGXAccelerator16postBootFirmwareEv.6055
-- _ZN14AGXAccelerator17getDPEACDshftInfoEP13AGFDPEPPTInfoty.6031
-- _ZN14AGXAccelerator17getDPEDCDshftInfoEP13AGFDPEPPTInfoty.6027
-- _ZN14AGXAccelerator17isHWDSIDAvailableEh.5990
-- _ZN14AGXAccelerator18getDPEImaxDthrInfoEP13AGFDPEPPTInfoty.6024
-- _ZN14AGXAccelerator18getDPEImaxWin1InfoEP13AGFDPEPPTInfoty.6022
-- _ZN14AGXAccelerator18getDPEImaxWin2InfoEP13AGFDPEPPTInfoty.6021
-- _ZN14AGXAccelerator18setPropertyQoSModeEP12OSDictionaryP8OSObject.5967
-- _ZN14AGXAccelerator19computeDPEPPTValuesEP19AGFDPEPPTConfigDataf.6009
-- _ZN14AGXAccelerator19getDPEImaxDshftInfoEP13AGFDPEPPTInfoty.6025
-- _ZN14AGXAccelerator19getKernelGMMUTablesEv.5969
-- _ZN14AGXAccelerator19handleSAPTInterruptEv.6041
-- _ZN14AGXAccelerator19isPowerManagedInAGXEv.6062
-- _ZN14AGXAccelerator19isQOSBillingEnabledEv.5998
-- _ZN14AGXAccelerator19setKernelGMMUTablesEPv.5970
-- _ZN14AGXAccelerator19supportsMTRSecurityEv.6060
-- _ZN14AGXAccelerator20getDPEImaxBudgetInfoEP13AGFDPEPPTInfoty.6023
-- _ZN14AGXAccelerator20isMTRScalerSupportedEv.6061
-- _ZN14AGXAccelerator21getGPUMemoryThresholdEv.6039
-- _ZN14AGXAccelerator21getGPUPhysicalAddressEv.6059
-- _ZN14AGXAccelerator21populateCSCAllocationEv.5993
-- _ZN14AGXAccelerator21use16kPageSizeDefaultEv.6046
-- _ZN14AGXAccelerator22getDPEDCCompCondBudgetEP13AGFDPEPPTInfoty.6012
-- _ZN14AGXAccelerator22getDPEDCCondBudgetInfoEP13AGFDPEPPTInfoty.6028
-- _ZN14AGXAccelerator22getDPEImaxPredWin1InfoEP13AGFDPEPPTInfoty.6019
-- _ZN14AGXAccelerator22getDPEImaxPredWin2InfoEP13AGFDPEPPTInfoty.6018
-- _ZN14AGXAccelerator23getDPEImaxReactWin1InfoEP13AGFDPEPPTInfoty.6015
-- _ZN14AGXAccelerator23getDPEImaxReactWin2InfoEP13AGFDPEPPTInfoty.6014
-- _ZN14AGXAccelerator23getUMAMaxActiveGTPKicksEv.6004
-- _ZN14AGXAccelerator23populateStaticPowerDataEv.6038
-- _ZN14AGXAccelerator24getDPEDCCompDshiftThreshEP13AGFDPEPPTInfoty.6011
-- _ZN14AGXAccelerator24getDPEImaxPredBudgetInfoEP13AGFDPEPPTInfoty.6020
-- _ZN14AGXAccelerator24getFenceBufferGPUAddressEv.6005
-- _ZN14AGXAccelerator24getFenderPhysicalAddressEv.6058
-- _ZN14AGXAccelerator24getPMGRServiceDictionaryEv.6033
-- _ZN14AGXAccelerator24getSamplePeriodAICClocksEv.5994
-- _ZN14AGXAccelerator24getUVWarnPhysicalAddressEv.6057
-- _ZN14AGXAccelerator24halNewSpillBufferManagerEv.6050
-- _ZN14AGXAccelerator24updateImaxReactiveBudgetEv.6008
-- _ZN14AGXAccelerator25getDPECurrentDefaultLimitEv.6010
-- _ZN14AGXAccelerator25getDPEImaxReactBudgetInfoEP13AGFDPEPPTInfoty.6016
-- _ZN14AGXAccelerator25halGetDefaultMcacheWritesEv.5989
-- _ZN14AGXAccelerator25halWaitForFenderPowerGateEv.5971
-- _ZN14AGXAccelerator26halGetSmallestUMABlockSizeEv.6001
-- _ZN14AGXAccelerator26populateSRAMPowerScaleDataEv.6036
-- _ZN14AGXAccelerator28getDPEImaxPredTrigThreshInfoEP13AGFDPEPPTInfoty.6017
-- _ZN14AGXAccelerator28setPropertyDefaultQoSTargetsEP12OSDictionaryP8OSObject.5965
-- _ZN14AGXAccelerator29getBorderColorTableGPUAddressEv.6006
-- _ZN14AGXAccelerator29getDPEImaxReactTrigThreshInfoEP13AGFDPEPPTInfoty.6013
-- _ZN14AGXAccelerator29supportsOptimizedUMASharedMinEv.6000
-- _ZN14AGXAccelerator30getUMAMaxActiveCDMKicksPerMGPUEb.6002
-- _ZN14AGXAccelerator30getUMAMaxActiveFRGKicksPerMGPUEb.6003
-- _ZN14AGXAccelerator30populateDPEAdjustmentCoEffDataEv.6037
-- _ZN14AGXAccelerator30populateDPELeakageUpdateConfigEP25AGXDPELeakageUpdateConfig.6034
-- _ZN14AGXAccelerator30populateDefaultSRAMVoltageDataER13PerfStateInfoILj16ELj8EE.6035
-- _ZN14AGXAccelerator33populateMaximumPerformancePowerCSEv.5991
-- _ZN14AGXAccelerator34updateImaxReactiveTriggerThresholdEv.6007
-- _ZN14AGXAccelerator47setPropertyNoiseSuppressionGPUIdlePowerOffStateEP12OSDictionaryP8OSObject.5966
-- _ZN14AGXArmFirmware11isGFXBootedEPy.3955
-- _ZN14AGXArmFirmware11isGFXBootedEPy.4372
-- _ZN14AGXArmFirmware11isGFXBootedEPy.4790
-- _ZN14AGXArmFirmware12setInitReg32Etjh.3970
-- _ZN14AGXArmFirmware12setInitReg32Etjh.4388
-- _ZN14AGXArmFirmware12setInitReg32Etjh.4806
-- _ZN14AGXArmFirmware12setInitReg64Etyh.3969
-- _ZN14AGXArmFirmware12setInitReg64Etyh.4387
-- _ZN14AGXArmFirmware12setInitReg64Etyh.4805
-- _ZN14AGXArmFirmware14setInitReg64PAEtyjh.3968
-- _ZN14AGXArmFirmware14setInitReg64PAEtyjh.4386
-- _ZN14AGXArmFirmware14setInitReg64PAEtyjh.4804
-- _ZN14AGXArmFirmware19getFSTPOverrideMaskE19_AGFIDataMasterTypeb.3948
-- _ZN14AGXArmFirmware19getFSTPOverrideMaskE19_AGFIDataMasterTypeb.4365
-- _ZN14AGXArmFirmware19getFSTPOverrideMaskE19_AGFIDataMasterTypeb.4783
-- _ZN14AGXArmFirmware21initSoftFaultSettingsEb.3951
-- _ZN14AGXArmFirmware21initSoftFaultSettingsEb.4368
-- _ZN14AGXArmFirmware21initSoftFaultSettingsEb.4786
-- _ZN14AGXArmFirmware21isFSTPOverrideEnabledEv.3949
-- _ZN14AGXArmFirmware21isFSTPOverrideEnabledEv.4366
-- _ZN14AGXArmFirmware21isFSTPOverrideEnabledEv.4784
-- _ZN14AGXArmFirmware22getDPEImaxCurrentLimitEv.3973
-- _ZN14AGXArmFirmware22getDPEImaxCurrentLimitEv.4391
-- _ZN14AGXArmFirmware22getDPEImaxCurrentLimitEv.4809
-- _ZN14AGXArmFirmware23updateSoftFaultSettingsEb.3950
-- _ZN14AGXArmFirmware23updateSoftFaultSettingsEb.4367
-- _ZN14AGXArmFirmware23updateSoftFaultSettingsEb.4785
-- _ZN14AGXArmFirmware24isForceGTPDiscardEnabledEv.3944
-- _ZN14AGXArmFirmware24isForceGTPDiscardEnabledEv.4361
-- _ZN14AGXArmFirmware24isForceGTPDiscardEnabledEv.4779
-- _ZN14AGXArmFirmware24resetFirmwareForRecoveryEv.3965
-- _ZN14AGXArmFirmware24resetFirmwareForRecoveryEv.4382
-- _ZN14AGXArmFirmware24resetFirmwareForRecoveryEv.4800
-- _ZN14AGXArmFirmware27setCommandSubmissionEnabledEb.3971
-- _ZN14AGXArmFirmware27setCommandSubmissionEnabledEb.4389
-- _ZN14AGXArmFirmware27setCommandSubmissionEnabledEb.4807
-- _ZN14AGXArmFirmware28getDefaultCLKillTimeoutLimitEv.3962
-- _ZN14AGXArmFirmware28getDefaultCLKillTimeoutLimitEv.4379
-- _ZN14AGXArmFirmware28getDefaultCLKillTimeoutLimitEv.4797
-- _ZN14AGXArmFirmware29getMCacheRegistersBaseAddressEv.3954
-- _ZN14AGXArmFirmware29getMCacheRegistersBaseAddressEv.4371
-- _ZN14AGXArmFirmware29getMCacheRegistersBaseAddressEv.4789
-- _ZN14AGXArmFirmware32getDefaultCDMBackoffTimeoutLimitEv.3961
-- _ZN14AGXArmFirmware32getDefaultCDMBackoffTimeoutLimitEv.4378
-- _ZN14AGXArmFirmware32getDefaultCDMBackoffTimeoutLimitEv.4796
-- _ZN14AGXArmFirmware34clearOutstandingFirmwareInterruptsEv.3947
-- _ZN14AGXArmFirmware34clearOutstandingFirmwareInterruptsEv.4364
-- _ZN14AGXArmFirmware34clearOutstandingFirmwareInterruptsEv.4782
-- _ZN14AGXArmFirmware35isSystemSleepNotificationInProgressEv.3956
-- _ZN14AGXArmFirmware35isSystemSleepNotificationInProgressEv.4373
-- _ZN14AGXArmFirmware35isSystemSleepNotificationInProgressEv.4791
-- _ZN14AGXArmFirmware36setSystemSleepNotificationInProgressEb.3957
-- _ZN14AGXArmFirmware36setSystemSleepNotificationInProgressEb.4374
-- _ZN14AGXArmFirmware36setSystemSleepNotificationInProgressEb.4792
-- _ZN14AGXArmFirmware37getDefaultCLContextSwitchTimeoutLimitEv.3964
-- _ZN14AGXArmFirmware37getDefaultCLContextSwitchTimeoutLimitEv.4381
-- _ZN14AGXArmFirmware37getDefaultCLContextSwitchTimeoutLimitEv.4799
-- _ZN14AGXArmFirmware39getDefaultRelaxedCLContextSwitchTimeoutEv.3963
-- _ZN14AGXArmFirmware39getDefaultRelaxedCLContextSwitchTimeoutEv.4380
-- _ZN14AGXArmFirmware39getDefaultRelaxedCLContextSwitchTimeoutEv.4798
-- _ZN20AGXFamilyAccelerator21parsePerfStateMapRegsEv.5962
-- _ZN9os_detail21panic_trapping_policy4trapEPKc.3052
-- _ZN9os_detail21panic_trapping_policy4trapEPKc.3413
-- _ZNK11AGXFirmware14getFWPageShiftEv.3430
-- _ZNK12AGX3DChannel15getGuiltyDMTypeEv.5458
-- _ZNK14AGXAccelerator20getChecksumRegistersER22_AGXSChecksumRegisters.6056
-- _ZNK14AGXAccelerator22halMCacheApertureSetupEPvhiy18_AGXWriteRangeSizet.5992
-- _ZNK14AGXAccelerator23halGetMaxFencesShiftMaxEv.5978
-- _ZNK14AGXAccelerator23halGetMaxFencesShiftMinEv.5979
-- _ZNK14AGXAccelerator23halGetSegmentIdRangeMaxEv.5984
-- _ZNK14AGXAccelerator23halGetSegmentIdRangeMinEv.5985
-- _ZNK14AGXAccelerator24halIsSmartidleOffEnabledEv.6049
-- _ZNK14AGXAccelerator25halGetMaxFencesShiftResetEv.5980
-- _ZNK14AGXAccelerator25halGetSegmentIdRangeResetEv.5986
-- _ZNK14AGXAccelerator26halGetMergeLastCmdBufEventEv.6032
-- _ZNK14AGXAccelerator32halGetDefaultSplHeuristicEnabledEv.5987
-- _ZNK14AGXAccelerator33halGetComplexPrimThreshAlignShiftEv.5977
-- _ZNK14AGXAccelerator34halGetComplexPrimThreshShiftCapMaxEv.5974
-- _ZNK14AGXAccelerator34halGetComplexPrimThreshShiftCapMinEv.5975
-- _ZNK14AGXAccelerator35halGetDefaultParameterBufferSizeMaxEy.5988
-- _ZNK14AGXAccelerator36halGetComplexPrimThreshShiftCapResetEv.5976
-- _ZNK14AGXAccelerator41halGetGtpScalingSegmentIdRangeMaxSegmentsEv.5983
-- _ZNK14AGXAccelerator43halGetDefaultParameterBufferSizeMaxOverrideEv.5981
-- _ZNK14AGXAccelerator43halGetDefaultParameterBufferSizeMinOverrideEv.5982
-- _ZNK14AGXAccelerator47getPropertyNoiseSuppressionGPUIdlePowerOffStateEv.5968
-- _ZNK14AGXArmFirmware30isFenderPowerManagementEnabledEv.3967
-- _ZNK14AGXArmFirmware30isFenderPowerManagementEnabledEv.4384
-- _ZNK14AGXArmFirmware30isFenderPowerManagementEnabledEv.4802
-- _ZNK14AGXArmFirmware31getConsistentGPUPerfStatePStateEv.3952
-- _ZNK14AGXArmFirmware31getConsistentGPUPerfStatePStateEv.4369
-- _ZNK14AGXArmFirmware31getConsistentGPUPerfStatePStateEv.4787
-- _ZNK14AGXArmFirmware31isConsistentGPUPerfStateEnabledEv.3953
-- _ZNK14AGXArmFirmware31isConsistentGPUPerfStateEnabledEv.4370
-- _ZNK14AGXArmFirmware31isConsistentGPUPerfStateEnabledEv.4788
-- _ZNK27AGXArmFirmwareChinookCommon14getFWPageShiftEv.4385
-- _ZNK27AGXArmFirmwareChinookCommon14getFWPageShiftEv.4803
-- __ZZN10AGXChannel4freeEvE20kalloc_type_view_334
-- __ZZN10AGXChannel4initEPK15AGXCommandQueueP12AGXWorkQueueiiy19_AGFIDataMasterTypeE20kalloc_type_view_100
-- __ZZN10AGXChannel4initEPK15AGXCommandQueueP12AGXWorkQueueiiy19_AGFIDataMasterTypeE20kalloc_type_view_269
-- __block_descriptor_tmp.3433
-- __block_descriptor_tmp.5358
-CStrings:
-+ "121111112112222122111111211222212211111121122221221222222222221122111111112222222211111212112121121211212112121121211212112121121211212112121121211212111111111222111222111222111222111222111222111222111222111222111222111222222211112212112121111111122222222221211222222222222222222222222222222222222222222222222222222222222222222222222121121122222222222222222222222222222222222222222222222222222222222222222111111221212222222221222221111122121222222222122222111112212122222222212222211111221212222222221222221111122121222222222122222111112212122222222212222211111222111111222111111222111111222111111222111111222111111222111111222111111222112111112211111111221122111111111111111111111111111111111112222222222222222221111112212122222222212222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222211111112222222"
-+ "12112121112211222222222"
-+ "1212222222222222222222111222122122222222222"
-+ "Jul  1 2024 22:20:26"
-- "1211111121122221221111112112222122111111211222212212222222222211221111111122222222111112121121211212112121121211212112121121211212112121121211212112121111111112221112221112221112221112221112221112221112221112221112221112222222111122121121211111111222222222212112222222222222222222222222222222222222222222222222222222222222222222222221211211222222222222222222222222222222222222222222222222222222222222222221111112212122222222212222211111221212222222221222221111122121222222222122222111112212122222222212222211111221212222222221222221111122121222222222122222111112221111112221111112221111112221111112221111112221111112221111112221111112221121111122111111112211221111111111111111111111111111111111222222222222222221111112212122222222212222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222211111112222222"
-- "1211212111221122222222"
-- "121222222222222222222211122212212222222222"
-- "Jun 20 2024 20:41:37"
-
-```
-
->  `com.apple.driver.AppleCredentialManager`
-
-```diff
-
--758.0.14.0.0
--  __TEXT.__cstring: 0x168b9
-+758.0.16.0.0
-+  __TEXT.__cstring: 0x1692b
-   __TEXT.__const: 0x378
--  __TEXT_EXEC.__text: 0x67724
-+  __TEXT_EXEC.__text: 0x677e4
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0x34c1
-   __DATA.__common: 0x1d8
-
-   __DATA_CONST.__const: 0x2de8
-   __DATA_CONST.__kalloc_type: 0x780
-   __DATA_CONST.__kalloc_var: 0x1450
--  Functions: 1124
--  Symbols:   1849
--  CStrings:  2434
-+  Functions: 1126
-+  Symbols:   1851
-+  CStrings:  2439
- 
-Symbols:
-+ _ZN30ACMRestrictedModeKernelService19updateKeybagTrackerERNS_13KeybagTracker7TrackerEib.cold.1
-+ __ZN30ACMRestrictedModeKernelService19searchKeybagTrackerERNS_13KeybagTracker7TrackerEi
-+ __ZN30ACMRestrictedModeKernelService19updateKeybagTrackerERNS_13KeybagTracker7TrackerEib
-- __ZN30ACMRestrictedModeKernelService25searchUnlockedUserKeybagsEi
-CStrings:
-+ "\"ACM: %s keybag=%d cannot be added, no space!\" @%s:%d"
-+ "%s: %s: %s keybag=%d added.\n"
-+ "%s: %s: %s keybag=%d already added.\n"
-+ "%s: %s: %s keybag=%d cannot be added, no space!.\n"
-+ "%s: %s: %s keybag=%d not found.\n"
-+ "%s: %s: %s keybag=%d removed.\n"
-+ "%s: %s: keybag=%d kbLockState=%s(%u) | useUserKeybag=%s unlocked=%u locked=%u => deviceLockState=%s(%u) was=%s(%u).\n"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/AppleCredentialManager/AppleCredentialManager/ACMKernelUtils.cpp"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/AppleCredentialManager/AppleCredentialManager/AppleCredentialManager.cpp"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/AppleCredentialManager/AppleCredentialManager/AppleCredentialManagerShared.cpp"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/AppleCredentialManager/AppleCredentialManager/AppleCredentialManagerUserClient.cpp"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/AppleCredentialManager/AppleCredentialManager/Services/ACMAccessoryCacheKernelService.cpp"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/AppleCredentialManager/AppleCredentialManager/Services/ACMBridgeKernelService.cpp"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/AppleCredentialManager/AppleCredentialManager/Services/ACMFirstResponderKernelService.cpp"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/AppleCredentialManager/AppleCredentialManager/Services/ACMKernelService.cpp"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/AppleCredentialManager/AppleCredentialManager/Services/ACMKeybagKernelService.cpp"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/AppleCredentialManager/AppleCredentialManager/Services/ACMLockdownModeKernelService.cpp"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/AppleCredentialManager/AppleCredentialManager/Services/ACMPersistentStoreKernelService.cpp"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/AppleCredentialManager/AppleCredentialManager/Services/ACMRestrictedModeAnalyticsKernelService.cpp"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/AppleCredentialManager/AppleCredentialManager/Services/ACMRestrictedModeKernelService.cpp"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/AppleCredentialManager/common/CommonMem.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/AppleCredentialManager/common/CommonTRMLegacy.h"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/AppleCredentialManager/common/CommonUtil.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/AppleCredentialManager/common/CoreAuthMethod.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/AppleCredentialManager/common/CoreCmd.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/AppleCredentialManager/common/CoreCred.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/AppleCredentialManager/common/CoreCredSet.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/AppleCredentialManager/common/CoreDER.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/AppleCredentialManager/common/CoreEnv.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/AppleCredentialManager/common/CoreExec.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/AppleCredentialManager/common/CorePrague.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/AppleCredentialManager/common/CoreReqAlgo.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/AppleCredentialManager/common/CoreSEPControl.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/AppleCredentialManager/common/CoreStorage.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/AppleCredentialManager/common/CoreTRMAccCache.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/AppleCredentialManager/common/CoreTRMMultiState.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/AppleCredentialManager/common/CoreTimer.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/AppleCredentialManager/common/CoreUserIntent.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/AppleCredentialManager/common/CoreUtil.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/AppleCredentialManager/common/CredUtil.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/AppleCredentialManager/common/Credentials.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/AppleCredentialManager/common/LibSerialization.c"
-+ "/AppleInternal/Library/BuildRoots/d8c9c115-356a-11ef-b3f4-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleCredentialManager_KernelLibs/ACMKernelLib/ACMKernelLib.cpp"
-+ "/AppleInternal/Library/BuildRoots/d8c9c115-356a-11ef-b3f4-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleCredentialManager_KernelLibs/ACMKernelLib/ACMKernelTransport.cpp"
-+ "/AppleInternal/Library/BuildRoots/d8c9c115-356a-11ef-b3f4-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleCredentialManager_KernelLibs/common/LibCall.c"
-+ "12111111222212232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323231111111211111111112212222222222222222122222222222222222222222222222222222222"
-+ "ACMRestrictedModeKernelService.cpp"
-+ "Jul  1 2024, 22:03:18"
-+ "L"
-+ "U"
-+ "cmd = (acm_command_t *)({ size_t sizeVal = (cmdSize); void *ptr = acm_mem_alloc_data(sizeVal); acm_mem_alloc_info(\"<data>\", ptr, sizeVal, \"/AppleInternal/Library/BuildRoots/d8c9c115-356a-11ef-b3f4-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleCredentialManager_KernelLibs/common/LibCall.c\", 22, __func__); ptr; })"
-+ "updateKeybagTracker"
-- "%s: %s: keybag=%d added (%u).\n"
-- "%s: %s: keybag=%d already added (%u).\n"
-- "%s: %s: keybag=%d cannot be added, no space! (%u).\n"
-- "%s: %s: keybag=%d kbLockState=%s(%u) | users=%u(%u) lockingLastUser=%s | deviceLockState=%s(%u) was=%s(%u).\n"
-- "%s: %s: keybag=%d not found (%u).\n"
-- "%s: %s: keybag=%d removed (%u).\n"
-- "/AppleInternal/Library/BuildRoots/7abfe40b-2884-11ef-836f-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleCredentialManager_KernelLibs/ACMKernelLib/ACMKernelLib.cpp"
-- "/AppleInternal/Library/BuildRoots/7abfe40b-2884-11ef-836f-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleCredentialManager_KernelLibs/ACMKernelLib/ACMKernelTransport.cpp"
-- "/AppleInternal/Library/BuildRoots/7abfe40b-2884-11ef-836f-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleCredentialManager_KernelLibs/common/LibCall.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleCredentialManager/AppleCredentialManager/ACMKernelUtils.cpp"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleCredentialManager/AppleCredentialManager/AppleCredentialManager.cpp"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleCredentialManager/AppleCredentialManager/AppleCredentialManagerShared.cpp"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleCredentialManager/AppleCredentialManager/AppleCredentialManagerUserClient.cpp"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleCredentialManager/AppleCredentialManager/Services/ACMAccessoryCacheKernelService.cpp"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleCredentialManager/AppleCredentialManager/Services/ACMBridgeKernelService.cpp"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleCredentialManager/AppleCredentialManager/Services/ACMFirstResponderKernelService.cpp"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleCredentialManager/AppleCredentialManager/Services/ACMKernelService.cpp"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleCredentialManager/AppleCredentialManager/Services/ACMKeybagKernelService.cpp"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleCredentialManager/AppleCredentialManager/Services/ACMLockdownModeKernelService.cpp"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleCredentialManager/AppleCredentialManager/Services/ACMPersistentStoreKernelService.cpp"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleCredentialManager/AppleCredentialManager/Services/ACMRestrictedModeAnalyticsKernelService.cpp"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleCredentialManager/AppleCredentialManager/Services/ACMRestrictedModeKernelService.cpp"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleCredentialManager/common/CommonMem.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleCredentialManager/common/CommonTRMLegacy.h"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleCredentialManager/common/CommonUtil.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleCredentialManager/common/CoreAuthMethod.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleCredentialManager/common/CoreCmd.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleCredentialManager/common/CoreCred.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleCredentialManager/common/CoreCredSet.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleCredentialManager/common/CoreDER.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleCredentialManager/common/CoreEnv.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleCredentialManager/common/CoreExec.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleCredentialManager/common/CorePrague.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleCredentialManager/common/CoreReqAlgo.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleCredentialManager/common/CoreSEPControl.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleCredentialManager/common/CoreStorage.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleCredentialManager/common/CoreTRMAccCache.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleCredentialManager/common/CoreTRMMultiState.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleCredentialManager/common/CoreTimer.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleCredentialManager/common/CoreUserIntent.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleCredentialManager/common/CoreUtil.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleCredentialManager/common/CredUtil.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleCredentialManager/common/Credentials.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleCredentialManager/common/LibSerialization.c"
-- "12111111222212232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323231111111211111111112222222222222222222222222222222222222222222222222222222"
-- "Jun 20 2024, 20:39:09"
-- "cmd = (acm_command_t *)({ size_t sizeVal = (cmdSize); void *ptr = acm_mem_alloc_data(sizeVal); acm_mem_alloc_info(\"<data>\", ptr, sizeVal, \"/AppleInternal/Library/BuildRoots/7abfe40b-2884-11ef-836f-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleCredentialManager_KernelLibs/common/LibCall.c\", 22, __func__); ptr; })"
-
-```
-
->  `com.apple.driver.AppleJPEGDriver`
-
-```diff
-
--7.1.3.0.0
--  __TEXT.__os_log: 0xa0b6
--  __TEXT.__cstring: 0x2dc4
-+7.1.4.0.0
-+  __TEXT.__os_log: 0xa158
-+  __TEXT.__cstring: 0x30ba
-   __TEXT.__const: 0x3b26
--  __TEXT_EXEC.__text: 0x2be38
-+  __TEXT_EXEC.__text: 0x2c694
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0x6f88
-   __DATA.__common: 0x218
-   __DATA.__bss: 0x1
--  __DATA_CONST.__auth_got: 0x340
-+  __DATA_CONST.__auth_got: 0x348
-   __DATA_CONST.__got: 0x98
-   __DATA_CONST.__mod_init_func: 0x68
-   __DATA_CONST.__mod_term_func: 0x68
-   __DATA_CONST.__const: 0x35a0
-   __DATA_CONST.__kalloc_type: 0x900
-   Functions: 942
--  Symbols:   2096
--  CStrings:  244
-+  Symbols:   2099
-+  CStrings:  266
- 
-Symbols:
-+ __ZN15AppleJPEGDriver15showRequestInfoEP11JpegRequest
-+ __ZNK9IOSurface14getBytesPerRowEv
-+ __ZZN15AppleJPEGDriver13newUserClientEP4taskPvjP12OSDictionaryPP12IOUserClientE11_os_log_fmt_2
-+ __ZZN15AppleJPEGDriver15finish_io_gatedEP11JpegRequestijbE21kalloc_type_view_3502
-+ __ZZN15AppleJPEGDriver15showRequestInfoEP11JpegRequestE11_os_log_fmt
-+ __ZZN15AppleJPEGDriver15showRequestInfoEP11JpegRequestE11_os_log_fmt_0
-+ __ZZN15AppleJPEGDriver15showRequestInfoEP11JpegRequestE11_os_log_fmt_1
-+ __ZZN15AppleJPEGDriver17clientClosedGatedEP25AppleJPEGDriverUserClientE11_os_log_fmt
-+ __ZZN15AppleJPEGHalV1418finishEncode_gatedEP11JpegRequestE11_os_log_fmt_4
-- _ZN15AppleJPEGHalV1418finishEncode_gatedEP11JpegRequest.cold.5
-- __ZZN15AppleJPEGDriver11jpegProfileEP11JpegRequestE11_os_log_fmt_0
-- __ZZN15AppleJPEGDriver11jpegProfileEP11JpegRequestE11_os_log_fmt_1
-- __ZZN15AppleJPEGDriver11jpegProfileEP11JpegRequestE11_os_log_fmt_2
-- __ZZN15AppleJPEGDriver11jpegProfileEP11JpegRequestE11_os_log_fmt_3
-- __ZZN15AppleJPEGDriver15finish_io_gatedEP11JpegRequestijbE21kalloc_type_view_3498
-CStrings:
-+ "22222222222222222222222222222222222222222222222222222222222222222222222222222222222222222111"
-+ "format_400_10bit_linear_count"
-+ "format_400_10bit_packed_count"
-+ "format_400_10bit_tiled_count"
-+ "format_400_12bit_linear_count"
-+ "format_400_8bit_linear_count"
-+ "format_400_8bit_tiled_count"
-+ "format_420_10bit_linear_count"
-+ "format_420_10bit_packed_count"
-+ "format_420_10bit_tiled_count"
-+ "format_420_12bit_linear_count"
-+ "format_422_10bit_linear_count"
-+ "format_422_10bit_packed_count"
-+ "format_422_10bit_tiled_count"
-+ "format_422_12bit_linear_count"
-+ "format_444_10bit_linear_count"
-+ "format_444_10bit_packed_count"
-+ "format_444_10bit_tiled_count"
-+ "format_444_12bit_linear_count"
-+ "format_argb_10bit_linear_count"
-+ "format_argb_10bit_tiled_count"
-+ "format_argb_12bit_linear_count"
-+ "format_argb_12bit_tiled_count"
-+ "virtual void AppleJPEGDriver::clientClosedGated(AppleJPEGDriverUserClient *)"
-+ "void AppleJPEGDriver::showRequestInfo(JpegRequest *)"
-- "\"%s: codec=%d, encode AXI bus error triggered\\n\" @%s:%d"
-- "222222222222222222222222222222222222222222222111"
-- "Encode_V14.cpp"
-
-```
-
->  `com.apple.driver.AppleTypeCPhy`
-
-```diff
-
--239.0.0.0.0
-+239.0.1.0.0
-   __TEXT.__cstring: 0x1651
-   __TEXT.__const: 0x24
-   __TEXT.__os_log: 0x114c
--  __TEXT_EXEC.__text: 0x1296c
-+  __TEXT_EXEC.__text: 0x129a4
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0xc8
-   __DATA.__common: 0xd8
-
-   __DATA_CONST.__got: 0x78
-   __DATA_CONST.__mod_init_func: 0x28
-   __DATA_CONST.__mod_term_func: 0x28
--  __DATA_CONST.__const: 0x1b00
-+  __DATA_CONST.__const: 0x1b10
-   __DATA_CONST.__kalloc_type: 0x140
--  Functions: 243
--  Symbols:   727
-+  Functions: 245
-+  Symbols:   729
-   CStrings:  160
- 
-Symbols:
-+ __ZN13AppleTypeCPhy15supportS2RtoOffEv
-+ __ZN13AppleTypeCPhy20shutdownACIOS2RtoOffENS_12tACIOPhyModeE
-
-```
-
->  `com.apple.driver.AppleUIO`
-
-```diff
-
--65.0.0.0.0
--  __TEXT.__cstring: 0x92e
-+68.0.0.0.0
-+  __TEXT.__cstring: 0x948
-   __TEXT.__const: 0x10
--  __TEXT_EXEC.__text: 0x2ba0
-+  __TEXT_EXEC.__text: 0x2b84
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0xc8
--  __DATA.__common: 0xf8
--  __DATA.__bss: 0x8
--  __DATA_CONST.__auth_got: 0x140
-+  __DATA.__common: 0x100
-+  __DATA.__bss: 0x4
-+  __DATA_CONST.__auth_got: 0x150
-   __DATA_CONST.__got: 0x58
-   __DATA_CONST.__mod_init_func: 0x20
-   __DATA_CONST.__mod_term_func: 0x20
-   __DATA_CONST.__const: 0x2dd0
-   __DATA_CONST.__kalloc_type: 0x140
-   Functions: 121
--  Symbols:   542
-+  Symbols:   544
-   CStrings:  77
- 
-Symbols:
-+ __ZN11AppleUIOMem17allocateUIOMemoryEv
-+ __ZN11AppleUIOMem8fMemSizeE
-+ _sysctlbyname
-- __ZZL13getUIOMemSizevE7memSize
-CStrings:
-+ "22:05:08"
-+ "Jul  1 2024"
-+ "UIO: %-30s IOBufferMemoryDescriptor::withOptions(%d) failed\n"
-+ "UIO: %-30s vmm_present=1 requesting contiguous memory\n"
-+ "allocateUIOMemory"
-+ "kern.hv_vmm_present"
-- "20:38:40"
-- "Jun 20 2024"
-- "UIO: %-30s IOBufferMemoryDescriptor::inTaskWithPhysicalMask failed\n"
-- "UIO: %-30s UIO memory size: %u\n"
-- "copyUIOMemory"
-- "getUIOMemSize"
-
-```
-
->  `com.apple.filesystems.apfs`
-
-```diff
-
--2309.0.0.0.3
-+2310.0.0.0.0
-   __TEXT.__const: 0x918
--  __TEXT.__cstring: 0x55946
--  __TEXT_EXEC.__text: 0x16f08c
-+  __TEXT.__cstring: 0x5592b
-+  __TEXT_EXEC.__text: 0x16efb0
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0xd40
-   __DATA.__bss: 0xac0
-
-   __DATA_CONST.__const: 0x9190
-   __DATA_CONST.__kalloc_type: 0x5f40
-   __DATA_CONST.__kalloc_var: 0x30c0
--  Functions: 2631
--  Symbols:   4625
-+  Functions: 2632
-+  Symbols:   4626
-   CStrings:  7352
- 
-Symbols:
-+ _GLOBAL__D_a.1759
-+ _ZN18APFSOSNumberAtomic10withNumberEx.1711
-+ __ZZ21delta_teardown_threadPviE21kalloc_type_view_9999
-+ __ZZL23apfs_keycache_operationPKh13apfs_key_typeiPP3cpxbE22kalloc_type_view_13069
-+ __ZZL23apfs_keycache_operationPKh13apfs_key_typeiPP3cpxbE22kalloc_type_view_13079
-+ __ZZL23apfs_keycache_operationPKh13apfs_key_typeiPP3cpxbE22kalloc_type_view_13100
-+ __ZZN15AppleAPFSVolume15asyncCryptoReadEP18AppleAPFSContaineryyPyaybE21kalloc_type_view_8980
-+ __ZZN15AppleAPFSVolume15asyncCryptoReadEP18AppleAPFSContaineryyPyaybE21kalloc_type_view_9067
-+ __ZZN15AppleAPFSVolume27asyncCryptoReadFinishHelperEP24multikey_crypto_io_entryPyE21kalloc_type_view_9099
-+ __ZZN18AppleAPFSContainer16lockerDataGetSetEb9klckr_ctxPhyP4taskE22kalloc_type_view_14629
-+ __ZZN18AppleAPFSContainer16lockerDataGetSetEb9klckr_ctxPhyP4taskE22kalloc_type_view_14632
-+ __ZZN18AppleAPFSContainer19deltaCreateTeardownEP18delta_create_ctx_tE21kalloc_type_view_7998
-+ __ZZN18AppleAPFSContainer20deltaRestoreTeardownEP19delta_restore_ctx_tE21kalloc_type_view_8191
-+ __ZZN18AppleAPFSContainer27containerGetKeyLockerRangesEjj9klckr_ctxyPjP20vol_keylocker_rangesE22kalloc_type_view_14450
-+ __ZZN18AppleAPFSContainer27containerGetKeyLockerRangesEjj9klckr_ctxyPjP20vol_keylocker_rangesE22kalloc_type_view_14481
-+ __ZZN19AppleAPFSUserClient24methodDeltaCreatePrepareEPS_PvP25IOExternalMethodArgumentsE22kalloc_type_view_11270
-+ __ZZN19AppleAPFSUserClient24methodDeltaCreatePrepareEPS_PvP25IOExternalMethodArgumentsE22kalloc_type_view_11294
-+ __ZZN19AppleAPFSUserClient25methodDeltaRestorePrepareEPS_PvP25IOExternalMethodArgumentsE22kalloc_type_view_11396
-+ __ZZN19AppleAPFSUserClient25methodDeltaRestorePrepareEPS_PvP25IOExternalMethodArgumentsE22kalloc_type_view_11425
-+ __ZZN19AppleAPFSUserClient28methodVolumeAddUpdateRecordsEPS_PvP25IOExternalMethodArgumentsE22kalloc_type_view_10630
-+ __ZZN19AppleAPFSUserClient28methodVolumeAddUpdateRecordsEPS_PvP25IOExternalMethodArgumentsE22kalloc_type_view_10631
-+ __ZZN19AppleAPFSUserClient28methodVolumeAddUpdateRecordsEPS_PvP25IOExternalMethodArgumentsE22kalloc_type_view_10638
-+ __ZZN19AppleAPFSUserClient28methodVolumeAddUpdateRecordsEPS_PvP25IOExternalMethodArgumentsE22kalloc_type_view_10639
-+ __ZZN19AppleAPFSUserClient28methodVolumeAddUpdateRecordsEPS_PvP25IOExternalMethodArgumentsE22kalloc_type_view_10704
-+ __ZZN19AppleAPFSUserClient28methodVolumeAddUpdateRecordsEPS_PvP25IOExternalMethodArgumentsE22kalloc_type_view_10707
-+ __ZZN19AppleAPFSUserClient28methodVolumeAddUpdateRecordsEPS_PvP25IOExternalMethodArgumentsE22kalloc_type_view_10716
-+ __ZZN19AppleAPFSUserClient28methodVolumeAddUpdateRecordsEPS_PvP25IOExternalMethodArgumentsE22kalloc_type_view_10719
-+ __ZZN19AppleAPFSUserClient28methodVolumeAddUpdateRecordsEPS_PvP25IOExternalMethodArgumentsE22kalloc_type_view_10727
-+ __ZZN19AppleAPFSUserClient28methodVolumeAddUpdateRecordsEPS_PvP25IOExternalMethodArgumentsE22kalloc_type_view_10730
-+ __ZZN19AppleAPFSUserClient4stopEP9IOServiceE22kalloc_type_view_10013
-+ __ZZN19AppleAPFSUserClient4stopEP9IOServiceE22kalloc_type_view_10023
-+ _apfs_is_task_dataless_manipulator_internal
-+ _fs_add_xattr.kalloc_type_view_22578
-+ _fs_add_xattr.kalloc_type_view_22584
-+ _fs_add_xattr.kalloc_type_view_22587
-+ _fs_add_xattr.kalloc_type_view_22641
-+ _fs_add_xattr.kalloc_type_view_22642
-+ apfs_drop_allocated_unwritten_ranges.kalloc_type_view_15821
-+ apfs_drop_rangelist_entries.kalloc_type_view_8920
-+ apfs_drop_rangelist_entry.kalloc_type_view_8867
-+ apfs_find_gaps_in_rangelist.kalloc_type_view_11675
-+ apfs_flush_allocated_unwritten_ranges.kalloc_type_view_13249
-+ apfs_flush_allocated_unwritten_ranges.kalloc_type_view_13307
-+ apfs_io_common.kalloc_type_view_18009
-+ apfs_io_common.kalloc_type_view_18047
-+ apfs_io_common.kalloc_type_view_18058
-+ apfs_io_common.kalloc_type_view_18076
-+ apfs_io_common.kalloc_type_view_18094
-+ apfs_io_common.kalloc_type_view_18110
-+ apfs_io_common.kalloc_type_view_18134
-+ apfs_io_common.kalloc_type_view_18217
-+ apfs_io_common.kalloc_type_view_18238
-+ apfs_io_common.kalloc_type_view_18249
-+ apfs_io_common.kalloc_type_view_18267
-+ apfs_io_common.kalloc_type_view_18286
-+ apfs_io_common.kalloc_type_view_18299
-+ apfs_io_common.kalloc_type_view_18320
-+ apfs_io_common.kalloc_type_view_18339
-+ apfs_iodone.kalloc_type_view_17471
-+ apfs_iodone.kalloc_type_view_17510
-+ apfs_punch_out_ranges_in_fext.kalloc_type_view_20905
-+ apfs_punch_out_ranges_in_fext.kalloc_type_view_20912
-+ apfs_record_intention_to_allocate.kalloc_type_view_8802
-+ apfs_release_all_reserved_space.kalloc_type_view_4440
-+ apfs_release_io_context.kalloc_type_view_17709
-+ apfs_release_io_context.kalloc_type_view_17718
-+ apfs_trim_ranges_in_region.kalloc_type_view_16534
-+ apfs_update_ranges_on_allocation.kalloc_type_view_16625
-+ apfs_update_reserved_ranges.kalloc_type_view_21053
-+ apfs_update_reserved_ranges.kalloc_type_view_21058
-+ apfs_vnop_blockmap.kalloc_type_view_17045
-+ apfs_vnop_blockmap.kalloc_type_view_17393
-+ apfs_vnop_getattrlistbulk.kalloc_type_view_19082
-+ apfs_vnop_getattrlistbulk.kalloc_type_view_19089
-+ apfs_vnop_getattrlistbulk.kalloc_type_view_19156
-+ apfs_vnop_getattrlistbulk.kalloc_type_view_19180
-+ apfs_vnop_readdir.kalloc_type_view_15426
-+ apfs_vnop_readdir.kalloc_type_view_15442
-+ apfs_vnop_readdir.kalloc_type_view_15561
-+ apfs_vnop_readdir.kalloc_type_view_15571
-+ apfs_vnop_readdir.kalloc_type_view_15592
-+ arle_alloc_pending_entry.kalloc_type_view_20485
-+ change_crypto_id_prot_class.kalloc_type_view_9747
-+ change_crypto_id_prot_class.kalloc_type_view_9813
-+ clone_fexts_.kalloc_type_view_13851
-+ clone_fexts_.kalloc_type_view_13864
-+ clone_fexts_.kalloc_type_view_13922
-+ create_sibling_link.kalloc_type_view_11291
-+ create_sibling_link.kalloc_type_view_11307
-+ dir_rec_alloc_with_hash.kalloc_type_view_10951
-+ dir_rec_alloc_with_hash.kalloc_type_view_10957
-+ dir_rec_alloc_with_hash.kalloc_type_view_10981
-+ dump_extents_of_stream.kalloc_type_view_17929
-+ ek_to_crypto_state.kalloc_type_view_32380
-+ extent_evict_range.kalloc_type_view_25164
-+ extent_evict_range.kalloc_type_view_25257
-+ fext_collector.kalloc_type_view_13615
-+ fext_collector.kalloc_type_view_13615.216
-+ fext_collector.kalloc_type_view_13622
-+ fext_collector_cleanup.kalloc_type_view_13597
-+ fext_collector_reset.kalloc_type_view_13586
-+ free_linkids.kalloc_type_view_11483
-+ fs_get_xattr_in_snap.kalloc_type_view_22676
-+ fs_get_xattr_in_snap.kalloc_type_view_22695
-+ fs_init_bootcache_inodes_dstreams_info.kalloc_type_view_27074
-+ fs_init_bootcache_inodes_dstreams_info.kalloc_type_view_27074.334
-+ fs_iterate_snapshots.kalloc_type_view_26308
-+ fs_iterate_snapshots.kalloc_type_view_26355
-+ fs_map_file_offset_ext.kalloc_type_view_21465
-+ fs_map_file_offset_ext.kalloc_type_view_21497
-+ fs_map_file_offset_ext.kalloc_type_view_21535
-+ fs_map_file_offset_ext.kalloc_type_view_21558
-+ fs_remove_xattr_with_nstream_inode.kalloc_type_view_22790
-+ fs_remove_xattr_with_nstream_inode.kalloc_type_view_22806
-+ fs_remove_xattr_with_nstream_inode.kalloc_type_view_22827
-+ fs_remove_xattr_with_nstream_inode.kalloc_type_view_22944
-+ handle_fusion_debug.kalloc_type_view_10969
-+ handle_fusion_debug.kalloc_type_view_10988
-+ handle_snapshot_lookup.kalloc_type_view_12167
-+ handle_xdstream_obj_id.kalloc_type_view_15726
-+ handle_xdstream_obj_id.kalloc_type_view_15749
-+ ier_alloc_tls.kalloc_type_view_27742
-+ ier_alloc_tls.kalloc_type_view_27788
-+ ier_free_tls.kalloc_type_view_27821
-+ ier_ierso_free.kalloc_type_view_26910
-+ ier_ierso_load.kalloc_type_view_26924
-+ ier_ierso_new.kalloc_type_view_26619
-+ ier_ierso_new.kalloc_type_view_26652
-+ ier_ierto_free.kalloc_type_view_24514
-+ ier_ierto_new.kalloc_type_view_24500
-+ insert_linkid.kalloc_type_view_11431
-+ legacy_get_ek.kalloc_type_view_33825
-+ lookup_unfoldable_name_iterator.kalloc_type_view_17313
-+ lookup_unfoldable_name_iterator.kalloc_type_view_17319
-+ lookup_unfoldable_name_iterator.kalloc_type_view_17327
-+ nx_fusion_find_lba_owner_checkForNewEntry.kalloc_type_view_10461
-+ nx_fusion_find_lba_owner_cleanup.kalloc_type_view_10713
-+ nx_fusion_find_lba_owner_scanInodes.kalloc_type_view_10656
-+ nx_fusion_find_lba_owner_scanInodes.kalloc_type_view_10674
-+ pfkur_pfkurso_free.kalloc_type_view_35974
-+ pfkur_pfkurso_new.kalloc_type_view_34374
-+ simple_remove_xattr.kalloc_type_view_22714
-+ simple_remove_xattr.kalloc_type_view_22727
-+ update_parent_xattr.kalloc_type_view_20286
-+ update_parent_xattr.kalloc_type_view_20416
-+ xattr_cloner.kalloc_type_view_16080
-+ xattr_cloner.kalloc_type_view_16122
-+ xattr_ek_to_crypto_state.kalloc_type_view_33010
-- _GLOBAL__D_a.1760
-- _ZN18APFSOSNumberAtomic10withNumberEx.1712
-- __ZZ21delta_teardown_threadPviE21kalloc_type_view_9997
-- __ZZL23apfs_keycache_operationPKh13apfs_key_typeiPP3cpxbE22kalloc_type_view_13067
-- __ZZL23apfs_keycache_operationPKh13apfs_key_typeiPP3cpxbE22kalloc_type_view_13077
-- __ZZL23apfs_keycache_operationPKh13apfs_key_typeiPP3cpxbE22kalloc_type_view_13098
-- __ZZN15AppleAPFSVolume15asyncCryptoReadEP18AppleAPFSContaineryyPyaybE21kalloc_type_view_8978
-- __ZZN15AppleAPFSVolume15asyncCryptoReadEP18AppleAPFSContaineryyPyaybE21kalloc_type_view_9065
-- __ZZN15AppleAPFSVolume27asyncCryptoReadFinishHelperEP24multikey_crypto_io_entryPyE21kalloc_type_view_9097
-- __ZZN18AppleAPFSContainer16lockerDataGetSetEb9klckr_ctxPhyP4taskE22kalloc_type_view_14627
-- __ZZN18AppleAPFSContainer16lockerDataGetSetEb9klckr_ctxPhyP4taskE22kalloc_type_view_14630
-- __ZZN18AppleAPFSContainer19deltaCreateTeardownEP18delta_create_ctx_tE21kalloc_type_view_7996
-- __ZZN18AppleAPFSContainer20deltaRestoreTeardownEP19delta_restore_ctx_tE21kalloc_type_view_8189
-- __ZZN18AppleAPFSContainer27containerGetKeyLockerRangesEjj9klckr_ctxyPjP20vol_keylocker_rangesE22kalloc_type_view_14448
-- __ZZN18AppleAPFSContainer27containerGetKeyLockerRangesEjj9klckr_ctxyPjP20vol_keylocker_rangesE22kalloc_type_view_14479
-- __ZZN19AppleAPFSUserClient24methodDeltaCreatePrepareEPS_PvP25IOExternalMethodArgumentsE22kalloc_type_view_11268
-- __ZZN19AppleAPFSUserClient24methodDeltaCreatePrepareEPS_PvP25IOExternalMethodArgumentsE22kalloc_type_view_11292
-- __ZZN19AppleAPFSUserClient25methodDeltaRestorePrepareEPS_PvP25IOExternalMethodArgumentsE22kalloc_type_view_11394
-- __ZZN19AppleAPFSUserClient25methodDeltaRestorePrepareEPS_PvP25IOExternalMethodArgumentsE22kalloc_type_view_11423
-- __ZZN19AppleAPFSUserClient28methodVolumeAddUpdateRecordsEPS_PvP25IOExternalMethodArgumentsE22kalloc_type_view_10627
-- __ZZN19AppleAPFSUserClient28methodVolumeAddUpdateRecordsEPS_PvP25IOExternalMethodArgumentsE22kalloc_type_view_10628
-- __ZZN19AppleAPFSUserClient28methodVolumeAddUpdateRecordsEPS_PvP25IOExternalMethodArgumentsE22kalloc_type_view_10635
-- __ZZN19AppleAPFSUserClient28methodVolumeAddUpdateRecordsEPS_PvP25IOExternalMethodArgumentsE22kalloc_type_view_10636
-- __ZZN19AppleAPFSUserClient28methodVolumeAddUpdateRecordsEPS_PvP25IOExternalMethodArgumentsE22kalloc_type_view_10702
-- __ZZN19AppleAPFSUserClient28methodVolumeAddUpdateRecordsEPS_PvP25IOExternalMethodArgumentsE22kalloc_type_view_10705
-- __ZZN19AppleAPFSUserClient28methodVolumeAddUpdateRecordsEPS_PvP25IOExternalMethodArgumentsE22kalloc_type_view_10714
-- __ZZN19AppleAPFSUserClient28methodVolumeAddUpdateRecordsEPS_PvP25IOExternalMethodArgumentsE22kalloc_type_view_10717
-- __ZZN19AppleAPFSUserClient28methodVolumeAddUpdateRecordsEPS_PvP25IOExternalMethodArgumentsE22kalloc_type_view_10725
-- __ZZN19AppleAPFSUserClient28methodVolumeAddUpdateRecordsEPS_PvP25IOExternalMethodArgumentsE22kalloc_type_view_10728
-- __ZZN19AppleAPFSUserClient4stopEP9IOServiceE22kalloc_type_view_10011
-- __ZZN19AppleAPFSUserClient4stopEP9IOServiceE22kalloc_type_view_10021
-- _fs_add_xattr.kalloc_type_view_22596
-- _fs_add_xattr.kalloc_type_view_22602
-- _fs_add_xattr.kalloc_type_view_22605
-- _fs_add_xattr.kalloc_type_view_22659
-- _fs_add_xattr.kalloc_type_view_22660
-- apfs_drop_allocated_unwritten_ranges.kalloc_type_view_15833
-- apfs_drop_rangelist_entries.kalloc_type_view_8932
-- apfs_drop_rangelist_entry.kalloc_type_view_8879
-- apfs_find_gaps_in_rangelist.kalloc_type_view_11687
-- apfs_flush_allocated_unwritten_ranges.kalloc_type_view_13261
-- apfs_flush_allocated_unwritten_ranges.kalloc_type_view_13319
-- apfs_io_common.kalloc_type_view_18021
-- apfs_io_common.kalloc_type_view_18059
-- apfs_io_common.kalloc_type_view_18070
-- apfs_io_common.kalloc_type_view_18088
-- apfs_io_common.kalloc_type_view_18106
-- apfs_io_common.kalloc_type_view_18122
-- apfs_io_common.kalloc_type_view_18146
-- apfs_io_common.kalloc_type_view_18229
-- apfs_io_common.kalloc_type_view_18250
-- apfs_io_common.kalloc_type_view_18261
-- apfs_io_common.kalloc_type_view_18279
-- apfs_io_common.kalloc_type_view_18298
-- apfs_io_common.kalloc_type_view_18311
-- apfs_io_common.kalloc_type_view_18344
-- apfs_io_common.kalloc_type_view_18351
-- apfs_iodone.kalloc_type_view_17483
-- apfs_iodone.kalloc_type_view_17522
-- apfs_punch_out_ranges_in_fext.kalloc_type_view_20923
-- apfs_punch_out_ranges_in_fext.kalloc_type_view_20930
-- apfs_record_intention_to_allocate.kalloc_type_view_8814
-- apfs_release_all_reserved_space.kalloc_type_view_4448
-- apfs_release_io_context.kalloc_type_view_17721
-- apfs_release_io_context.kalloc_type_view_17730
-- apfs_trim_ranges_in_region.kalloc_type_view_16546
-- apfs_update_ranges_on_allocation.kalloc_type_view_16637
-- apfs_update_reserved_ranges.kalloc_type_view_21071
-- apfs_update_reserved_ranges.kalloc_type_view_21076
-- apfs_vnop_blockmap.kalloc_type_view_17057
-- apfs_vnop_blockmap.kalloc_type_view_17405
-- apfs_vnop_getattrlistbulk.kalloc_type_view_19094
-- apfs_vnop_getattrlistbulk.kalloc_type_view_19101
-- apfs_vnop_getattrlistbulk.kalloc_type_view_19168
-- apfs_vnop_getattrlistbulk.kalloc_type_view_19192
-- apfs_vnop_readdir.kalloc_type_view_15438
-- apfs_vnop_readdir.kalloc_type_view_15454
-- apfs_vnop_readdir.kalloc_type_view_15573
-- apfs_vnop_readdir.kalloc_type_view_15583
-- apfs_vnop_readdir.kalloc_type_view_15604
-- arle_alloc_pending_entry.kalloc_type_view_20503
-- change_crypto_id_prot_class.kalloc_type_view_9767
-- change_crypto_id_prot_class.kalloc_type_view_9833
-- clone_fexts_.kalloc_type_view_13871
-- clone_fexts_.kalloc_type_view_13884
-- clone_fexts_.kalloc_type_view_13942
-- create_sibling_link.kalloc_type_view_11311
-- create_sibling_link.kalloc_type_view_11327
-- dir_rec_alloc_with_hash.kalloc_type_view_10971
-- dir_rec_alloc_with_hash.kalloc_type_view_10977
-- dir_rec_alloc_with_hash.kalloc_type_view_11001
-- dump_extents_of_stream.kalloc_type_view_17947
-- ek_to_crypto_state.kalloc_type_view_32398
-- extent_evict_range.kalloc_type_view_25182
-- extent_evict_range.kalloc_type_view_25275
-- fext_collector.kalloc_type_view_13635
-- fext_collector.kalloc_type_view_13635.216
-- fext_collector.kalloc_type_view_13642
-- fext_collector_cleanup.kalloc_type_view_13617
-- fext_collector_reset.kalloc_type_view_13606
-- free_linkids.kalloc_type_view_11503
-- fs_get_xattr_in_snap.kalloc_type_view_22694
-- fs_get_xattr_in_snap.kalloc_type_view_22713
-- fs_init_bootcache_inodes_dstreams_info.kalloc_type_view_27092
-- fs_init_bootcache_inodes_dstreams_info.kalloc_type_view_27092.334
-- fs_iterate_snapshots.kalloc_type_view_26326
-- fs_iterate_snapshots.kalloc_type_view_26373
-- fs_map_file_offset_ext.kalloc_type_view_21483
-- fs_map_file_offset_ext.kalloc_type_view_21515
-- fs_map_file_offset_ext.kalloc_type_view_21553
-- fs_map_file_offset_ext.kalloc_type_view_21576
-- fs_remove_xattr_with_nstream_inode.kalloc_type_view_22808
-- fs_remove_xattr_with_nstream_inode.kalloc_type_view_22824
-- fs_remove_xattr_with_nstream_inode.kalloc_type_view_22845
-- fs_remove_xattr_with_nstream_inode.kalloc_type_view_22962
-- handle_fusion_debug.kalloc_type_view_10970
-- handle_fusion_debug.kalloc_type_view_10989
-- handle_snapshot_lookup.kalloc_type_view_12168
-- handle_xdstream_obj_id.kalloc_type_view_15731
-- handle_xdstream_obj_id.kalloc_type_view_15754
-- ier_alloc_tls.kalloc_type_view_27754
-- ier_alloc_tls.kalloc_type_view_27800
-- ier_free_tls.kalloc_type_view_27833
-- ier_ierso_free.kalloc_type_view_26922
-- ier_ierso_load.kalloc_type_view_26948
-- ier_ierso_new.kalloc_type_view_26631
-- ier_ierso_new.kalloc_type_view_26664
-- ier_ierto_free.kalloc_type_view_24526
-- ier_ierto_new.kalloc_type_view_24512
-- insert_linkid.kalloc_type_view_11451
-- legacy_get_ek.kalloc_type_view_33843
-- lookup_unfoldable_name_iterator.kalloc_type_view_17333
-- lookup_unfoldable_name_iterator.kalloc_type_view_17339
-- lookup_unfoldable_name_iterator.kalloc_type_view_17347
-- nx_fusion_find_lba_owner_checkForNewEntry.kalloc_type_view_10462
-- nx_fusion_find_lba_owner_cleanup.kalloc_type_view_10714
-- nx_fusion_find_lba_owner_scanInodes.kalloc_type_view_10657
-- nx_fusion_find_lba_owner_scanInodes.kalloc_type_view_10675
-- pfkur_pfkurso_free.kalloc_type_view_35986
-- pfkur_pfkurso_new.kalloc_type_view_34386
-- simple_remove_xattr.kalloc_type_view_22732
-- simple_remove_xattr.kalloc_type_view_22745
-- update_parent_xattr.kalloc_type_view_20298
-- update_parent_xattr.kalloc_type_view_20428
-- xattr_cloner.kalloc_type_view_16100
-- xattr_cloner.kalloc_type_view_16142
-- xattr_ek_to_crypto_state.kalloc_type_view_33028
-CStrings:
-+ "%s:%d: This operation needs dataless manipulation entitlement, detected in %s: %u\n"
-+ "/AppleInternal/Library/BuildRoots/81e2abef-3955-11ef-8e67-e2437461156c/Library/Caches/com.apple.xbs/Sources/apfs/kext/apfs_filter.cpp"
-+ "/AppleInternal/Library/BuildRoots/81e2abef-3955-11ef-8e67-e2437461156c/Library/Caches/com.apple.xbs/Sources/apfs/kext/apfs_ioctls.c"
-+ "/AppleInternal/Library/BuildRoots/81e2abef-3955-11ef-8e67-e2437461156c/Library/Caches/com.apple.xbs/Sources/apfs/kext/apfs_rangelist.c"
-+ "/AppleInternal/Library/BuildRoots/81e2abef-3955-11ef-8e67-e2437461156c/Library/Caches/com.apple.xbs/Sources/apfs/kext/apfs_vnops.c"
-+ "/AppleInternal/Library/BuildRoots/81e2abef-3955-11ef-8e67-e2437461156c/Library/Caches/com.apple.xbs/Sources/apfs/nx/jobj.c"
-+ "2024/07/03"
-+ "20:04:18"
-+ "20:04:19"
-+ "2310"
-+ "Jul  3 2024"
-+ "apfs-2310"
-+ "apfs_is_task_dataless_manipulator_internal"
-- "%s:%d: %s dst (ino %llu) is a dataless file, and the caller is unprivileged\n"
-- "%s:%d: %s file is dataless, and the caller is unprivileged\n"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/apfs/kext/apfs_filter.cpp"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/apfs/kext/apfs_ioctls.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/apfs/kext/apfs_rangelist.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/apfs/kext/apfs_vnops.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/apfs/nx/jobj.c"
-- "2024/06/20"
-- "20:32:41"
-- "20:32:42"
-- "2309.0.0.0.3"
-- "Jun 20 2024"
-- "apfs-2309.0.0.0.3"
-
-```
-
->  `com.apple.iokit.IO80211Family`
-
-```diff
-
--1302.61.0.0.0
--  __TEXT.__const: 0xf9f0
--  __TEXT.__cstring: 0x88c18
--  __TEXT.__os_log: 0x8c3d
--  __TEXT_EXEC.__text: 0x23950c
-+1302.63.0.0.0
-+  __TEXT.__const: 0xfa30
-+  __TEXT.__cstring: 0x88d74
-+  __TEXT.__os_log: 0x8d1b
-+  __TEXT_EXEC.__text: 0x23a074
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0x4f48
-   __DATA.__common: 0x2360
-
-   __DATA_CONST.__auth_ptr: 0x18
-   __DATA_CONST.__mod_init_func: 0x518
-   __DATA_CONST.__mod_term_func: 0x518
--  __DATA_CONST.__const: 0x36c50
-+  __DATA_CONST.__const: 0x36ce0
-   __DATA_CONST.__kalloc_type: 0x98c0
-   __DATA_CONST.__kalloc_var: 0x7d0
--  Functions: 11991
--  Symbols:   18645
--  CStrings:  13381
-+  Functions: 12004
-+  Symbols:   18667
-+  CStrings:  13394
- 
-Symbols:
-+ .str.1183
-+ .str.1184
-+ __FUNCTION__._ZN15IO80211AWDLPeer13isPeerTypeSetE11rtgPeerType
-+ __Z29apple80211getMANUFACTURE_DATEP23IO80211SkywalkInterfaceP27apple80211_manufacture_date
-+ __Z29apple80211setMANUFACTURE_DATEP23IO80211SkywalkInterfaceP27apple80211_manufacture_date
-+ __Z36apple80211getFIRST_BOOT_COUNTRY_CODEP23IO80211SkywalkInterfaceP28apple80211_country_code_data
-+ __Z36apple80211setFIRST_BOOT_COUNTRY_CODEP23IO80211SkywalkInterfaceP28apple80211_country_code_data
-+ __ZL19setMANUFACTURE_DATEP17IO80211ControllerP23IO80211SkywalkInterfaceP13apple80211req
-+ __ZL21_logTimeCommandHelperPKcS0_jjyyy
-+ __ZL26setFIRST_BOOT_COUNTRY_CODEP17IO80211ControllerP23IO80211SkywalkInterfaceP13apple80211req
-+ __ZL27_logTimeIfThresholdExceededPKcS0_jjyyy
-+ __ZN14WCLJoinRequest18addAssocCandidatesEP16WCLJoinCandidateP25apple80211AssocCandidates
-+ __ZN15IO80211AWDLPeer13isPeerTypeSetE11rtgPeerType
-+ __ZN16WCLJoinCandidate14updateTryCountEv
-+ __ZN16WCLJoinCandidate16isRetryExhaustedEv
-+ __ZN16WCLJoinCandidate18getCurrentTryCountEv
-+ __ZN18IO80211ScanRequest15getMinTimestampEv
-+ __ZN22IO80211AWDLPeerManager20getRemoteScreenStateEv
-+ __ZN22WCLDeviceConfiguration29isLinkRecommendationSupportedEv
-+ __ZNK16IO80211BSSBeacon12getTimestampEv
-+ __ZZL10setNAN_CTLP17IO80211ControllerP23IO80211SkywalkInterfaceP13apple80211reqE21kalloc_type_view_1861
-+ __ZZL10setNAN_CTLP17IO80211ControllerP23IO80211SkywalkInterfaceP13apple80211reqE21kalloc_type_view_1909
-+ __ZZL11setAWDL_CTLP17IO80211ControllerP23IO80211SkywalkInterfaceP13apple80211reqE21kalloc_type_view_1085
-+ __ZZL11setAWDL_CTLP17IO80211ControllerP23IO80211SkywalkInterfaceP13apple80211reqE21kalloc_type_view_1133
-+ __ZZL16setRANGING_STARTP17IO80211ControllerP23IO80211SkywalkInterfaceP13apple80211reqE21kalloc_type_view_1518
-+ __ZZL16setRANGING_STARTP17IO80211ControllerP23IO80211SkywalkInterfaceP13apple80211reqE21kalloc_type_view_1544
-+ __ZZL17setRANGING_ENABLEP17IO80211ControllerP23IO80211SkywalkInterfaceP13apple80211reqE21kalloc_type_view_1488
-+ __ZZL17setRANGING_ENABLEP17IO80211ControllerP23IO80211SkywalkInterfaceP13apple80211reqE21kalloc_type_view_1507
-+ __ZZL21_logTimeCommandHelperPKcS0_jjyyyE11_os_log_fmt
-+ __ZZL27_logTimeIfThresholdExceededPKcS0_jjyyyE11_os_log_fmt
-+ __ZZN14WCLJoinRequest18initWCLJoinRequestEP21apple80211_assoc_dataP11CCLogStreamE20kalloc_type_view_704
-+ __ZZN14WCLJoinRequest4freeEvE19kalloc_type_view_86
-+ __ZZN14WCLScanRequest18initWCLScanRequestEP20apple80211_scan_dataR17scanRequestParamsE20kalloc_type_view_325
-+ __ZZN16WCLBGScanManager15initWithOptionsEP13WCLControllerP16WCLBulletinBoardE20kalloc_type_view_121
-+ __ZZN16WCLBGScanManager4freeEvE20kalloc_type_view_100
-+ __ZZN16WCLJoinCandidate20initWCLJoinCandidateEP12WCLBSSBeaconE20kalloc_type_view_264
-+ __ZZN16WCLJoinCandidate4freeEvE19kalloc_type_view_84
-+ __ZZN18IO80211PeerManager17initWithInterfaceEP23IO80211VirtualInterfaceP23IO80211SkywalkInterfaceE21kalloc_type_view_1133
-+ __ZZN18IO80211PeerManager4freeEvE21kalloc_type_view_1806
-+ __ZZN18IO80211RoamProfile15initWithOptionsER25IO80211RoamProfileOptionsE20kalloc_type_view_115
-+ __ZZN18IO80211RoamProfile4freeEvE20kalloc_type_view_100
-+ __ZZN18IO80211ScanRequest22initIO80211ScanRequestEP20apple80211_scan_data8scanTypeE20kalloc_type_view_401
-+ __ZZN20IO80211APIUserClient12initWithTaskEP4taskPvjP12OSDictionaryE20kalloc_type_view_152
-+ __ZZN20IO80211APIUserClient4freeEvE20kalloc_type_view_479
-+ __ZZN22IO80211AWDLPeerManager28freeAwdlPacketDescriptorPoolEvE22kalloc_type_view_37793
-+ __ZZN22IO80211AWDLPeerManager28initAwdlPacketDescriptorPoolEjE22kalloc_type_view_37777
-+ __ZZN22IO80211AWDLPeerManager33realTimeStatsGetSkywalkStatisticsEvE22kalloc_type_view_29388
-+ __ZZN22IO80211AWDLPeerManager33realTimeStatsGetSkywalkStatisticsEvE22kalloc_type_view_29411
-+ ___ZN20IO80211APIUserClient23reportUnentitledProcessEP12OSDictionary_block_invoke.28
-+ ___ZN20IO80211APIUserClient23reportUnentitledProcessEP12OSDictionary_block_invoke_2.30
-+ __block_descriptor_tmp.27
-+ __block_descriptor_tmp.44
-+ __block_descriptor_tmp.49
-+ __block_descriptor_tmp.58
-- __ZN14WCLJoinRequest18addAssocCandidatesEP16WCLJoinCandidateP25apple80211AssocCandidatesb
-- __ZN16WCLJoinCandidate14updateTryCountEb
-- __ZN16WCLJoinCandidate16isRetryExhaustedEb
-- __ZN16WCLJoinCandidate18getCurrentTryCountEb
-- __ZZL10setNAN_CTLP17IO80211ControllerP23IO80211SkywalkInterfaceP13apple80211reqE21kalloc_type_view_1851
-- __ZZL10setNAN_CTLP17IO80211ControllerP23IO80211SkywalkInterfaceP13apple80211reqE21kalloc_type_view_1899
-- __ZZL11setAWDL_CTLP17IO80211ControllerP23IO80211SkywalkInterfaceP13apple80211reqE21kalloc_type_view_1075
-- __ZZL11setAWDL_CTLP17IO80211ControllerP23IO80211SkywalkInterfaceP13apple80211reqE21kalloc_type_view_1123
-- __ZZL16setRANGING_STARTP17IO80211ControllerP23IO80211SkywalkInterfaceP13apple80211reqE21kalloc_type_view_1508
-- __ZZL16setRANGING_STARTP17IO80211ControllerP23IO80211SkywalkInterfaceP13apple80211reqE21kalloc_type_view_1534
-- __ZZL17setRANGING_ENABLEP17IO80211ControllerP23IO80211SkywalkInterfaceP13apple80211reqE21kalloc_type_view_1478
-- __ZZL17setRANGING_ENABLEP17IO80211ControllerP23IO80211SkywalkInterfaceP13apple80211reqE21kalloc_type_view_1497
-- __ZZN14WCLJoinRequest18initWCLJoinRequestEP21apple80211_assoc_dataP11CCLogStreamE20kalloc_type_view_760
-- __ZZN14WCLJoinRequest4freeEvE19kalloc_type_view_87
-- __ZZN14WCLScanRequest18initWCLScanRequestEP20apple80211_scan_dataR17scanRequestParamsE20kalloc_type_view_317
-- __ZZN16WCLBGScanManager15initWithOptionsEP13WCLControllerP16WCLBulletinBoardE20kalloc_type_view_119
-- __ZZN16WCLBGScanManager4freeEvE19kalloc_type_view_98
-- __ZZN16WCLJoinCandidate20initWCLJoinCandidateEP12WCLBSSBeaconE20kalloc_type_view_292
-- __ZZN16WCLJoinCandidate4freeEvE19kalloc_type_view_88
-- __ZZN18IO80211PeerManager17initWithInterfaceEP23IO80211VirtualInterfaceP23IO80211SkywalkInterfaceE21kalloc_type_view_1127
-- __ZZN18IO80211PeerManager4freeEvE21kalloc_type_view_1800
-- __ZZN18IO80211RoamProfile15initWithOptionsER25IO80211RoamProfileOptionsE20kalloc_type_view_117
-- __ZZN18IO80211RoamProfile4freeEvE20kalloc_type_view_102
-- __ZZN18IO80211ScanRequest22initIO80211ScanRequestEP20apple80211_scan_data8scanTypeE20kalloc_type_view_395
-- __ZZN20IO80211APIUserClient12initWithTaskEP4taskPvjP12OSDictionaryE20kalloc_type_view_116
-- __ZZN20IO80211APIUserClient4freeEvE20kalloc_type_view_425
-- __ZZN22IO80211AWDLPeerManager28freeAwdlPacketDescriptorPoolEvE22kalloc_type_view_37782
-- __ZZN22IO80211AWDLPeerManager28initAwdlPacketDescriptorPoolEjE22kalloc_type_view_37766
-- __ZZN22IO80211AWDLPeerManager33realTimeStatsGetSkywalkStatisticsEvE22kalloc_type_view_29378
-- __ZZN22IO80211AWDLPeerManager33realTimeStatsGetSkywalkStatisticsEvE22kalloc_type_view_29401
-- ___ZN20IO80211APIUserClient23reportUnentitledProcessEP12OSDictionary_block_invoke.27
-- ___ZN20IO80211APIUserClient23reportUnentitledProcessEP12OSDictionary_block_invoke_2.29
-- __block_descriptor_tmp.45
-- __block_descriptor_tmp.55
-CStrings:
-+ " _runDriverCommandHelper"
-+ " _runLargeBufferCommandHelper"
-+ "\"IO80211_kexts-1302.63\""
-+ "%s[%d]: peer type of %02X:%02X:%02X:%02X:%02X:%02X (%d) %s set \n"
-+ "/AppleInternal/Library/BuildRoots/96985a0d-388b-11ef-a93f-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IO80211_kexts/IO80211Family/AWDL/IO80211AWDLMulticastPeer.cpp"
-+ "/AppleInternal/Library/BuildRoots/96985a0d-388b-11ef-a93f-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IO80211_kexts/IO80211Family/AWDL/IO80211AWDLPeer.cpp"
-+ "/AppleInternal/Library/BuildRoots/96985a0d-388b-11ef-a93f-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IO80211_kexts/IO80211Family/AWDL/IO80211AWDLPeerManager.cpp"
-+ "/AppleInternal/Library/BuildRoots/96985a0d-388b-11ef-a93f-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IO80211_kexts/IO80211Family/AWDL/IO80211P2PDataPathManager.cpp"
-+ "/AppleInternal/Library/BuildRoots/96985a0d-388b-11ef-a93f-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IO80211_kexts/IO80211Family/AWDL/IO80211P2PSteeringManager.cpp"
-+ "/AppleInternal/Library/BuildRoots/96985a0d-388b-11ef-a93f-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IO80211_kexts/IO80211Family/AWDL/IO80211P2PSupervisor.cpp"
-+ "/AppleInternal/Library/BuildRoots/96985a0d-388b-11ef-a93f-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IO80211_kexts/IO80211Family/AWDL/IO80211ServiceRequestDescriptor.cpp"
-+ "/AppleInternal/Library/BuildRoots/96985a0d-388b-11ef-a93f-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IO80211_kexts/IO80211Family/Buffers/IO80211DynamicBufferPool.cpp"
-+ "/AppleInternal/Library/BuildRoots/96985a0d-388b-11ef-a93f-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IO80211_kexts/IO80211Family/Buffers/IO80211StaticBufferPool.cpp"
-+ "/AppleInternal/Library/BuildRoots/96985a0d-388b-11ef-a93f-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IO80211_kexts/IO80211Family/IO80211Controller.cpp"
-+ "/AppleInternal/Library/BuildRoots/96985a0d-388b-11ef-a93f-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IO80211_kexts/IO80211Family/IO80211ControllerMonitor.cpp"
-+ "/AppleInternal/Library/BuildRoots/96985a0d-388b-11ef-a93f-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IO80211_kexts/IO80211Family/IO80211GASFsm.cpp"
-+ "/AppleInternal/Library/BuildRoots/96985a0d-388b-11ef-a93f-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IO80211_kexts/IO80211Family/IO80211InfraInterface.cpp"
-+ "/AppleInternal/Library/BuildRoots/96985a0d-388b-11ef-a93f-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IO80211_kexts/IO80211Family/IO80211InterfaceMonitor.cpp"
-+ "/AppleInternal/Library/BuildRoots/96985a0d-388b-11ef-a93f-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IO80211_kexts/IO80211Family/IO80211PacketDescriptor.cpp"
-+ "/AppleInternal/Library/BuildRoots/96985a0d-388b-11ef-a93f-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IO80211_kexts/IO80211Family/IO80211Peer.cpp"
-+ "/AppleInternal/Library/BuildRoots/96985a0d-388b-11ef-a93f-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IO80211_kexts/IO80211Family/IO80211PeerManager.cpp"
-+ "/AppleInternal/Library/BuildRoots/96985a0d-388b-11ef-a93f-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IO80211_kexts/IO80211Family/IO80211PeerMonitor.cpp"
-+ "/AppleInternal/Library/BuildRoots/96985a0d-388b-11ef-a93f-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IO80211_kexts/IO80211Family/IO80211SkywalkInterface.cpp"
-+ "/AppleInternal/Library/BuildRoots/96985a0d-388b-11ef-a93f-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IO80211_kexts/IO80211Family/IO80211VirtualInterface.cpp"
-+ "/AppleInternal/Library/BuildRoots/96985a0d-388b-11ef-a93f-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IO80211_kexts/IO80211Family/Infra/IO80211LinkRecovery.cpp"
-+ "/AppleInternal/Library/BuildRoots/96985a0d-388b-11ef-a93f-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IO80211_kexts/IO80211Family/Infra/IO80211ScanManager.cpp"
-+ "/AppleInternal/Library/BuildRoots/96985a0d-388b-11ef-a93f-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IO80211_kexts/IO80211Family/NAN/DataPathManager/IO80211NANDataPathInitiator.cpp"
-+ "/AppleInternal/Library/BuildRoots/96985a0d-388b-11ef-a93f-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IO80211_kexts/IO80211Family/NAN/DataPathManager/IO80211NANDataPathManager.cpp"
-+ "/AppleInternal/Library/BuildRoots/96985a0d-388b-11ef-a93f-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IO80211_kexts/IO80211Family/NAN/DiscoveryEngine/IO80211NANDiscoveryEngine.cpp"
-+ "/AppleInternal/Library/BuildRoots/96985a0d-388b-11ef-a93f-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IO80211_kexts/IO80211Family/NAN/Miscellaneous/IO80211NANUtils.c"
-+ "/AppleInternal/Library/BuildRoots/96985a0d-388b-11ef-a93f-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IO80211_kexts/IO80211Family/NAN/PeerManager/IO80211NANDataInterfacePeerManager.cpp"
-+ "/AppleInternal/Library/BuildRoots/96985a0d-388b-11ef-a93f-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IO80211_kexts/IO80211Family/NAN/PeerManager/IO80211NANPeer.cpp"
-+ "/AppleInternal/Library/BuildRoots/96985a0d-388b-11ef-a93f-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IO80211_kexts/IO80211Family/NAN/PeerManager/IO80211NANPeerManager.cpp"
-+ "/AppleInternal/Library/BuildRoots/96985a0d-388b-11ef-a93f-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IO80211_kexts/IO80211Family/NAN/ServiceManager/IO80211NANServiceDescriptor.cpp"
-+ "/AppleInternal/Library/BuildRoots/96985a0d-388b-11ef-a93f-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IO80211_kexts/IO80211Family/NAN/ServiceManager/IO80211NANServiceManager.cpp"
-+ "/AppleInternal/Library/BuildRoots/96985a0d-388b-11ef-a93f-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IO80211_kexts/IO80211Family/NAN/SynchronizationEngine/IO80211NANSyncEngine.cpp"
-+ "/AppleInternal/Library/BuildRoots/96985a0d-388b-11ef-a93f-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IO80211_kexts/IO80211Family/UserClients/IO80211AsyncUserClientParameters.cpp"
-+ "/AppleInternal/Library/BuildRoots/96985a0d-388b-11ef-a93f-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IO80211_kexts/IO80211Family/Utils/IO80211CommandQueue.cpp"
-+ "/AppleInternal/Library/BuildRoots/96985a0d-388b-11ef-a93f-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IO80211_kexts/IO80211Family/Utils/IO80211FlowQueueDatabase.cpp"
-+ "/AppleInternal/Library/BuildRoots/96985a0d-388b-11ef-a93f-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IO80211_kexts/IO80211Family/Utils/IO80211Util.cpp"
-+ "/AppleInternal/Library/BuildRoots/96985a0d-388b-11ef-a93f-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IO80211_kexts/IO80211Family/Utils/IO80211Util.h"
-+ "/AppleInternal/Library/BuildRoots/96985a0d-388b-11ef-a93f-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IO80211_kexts/IO80211Family/ioctls/apple80211_ioctl_get_handlersLegacy.cpp"
-+ "/AppleInternal/Library/BuildRoots/96985a0d-388b-11ef-a93f-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IO80211_kexts/IO80211Family/ioctls/apple80211_ioctl_set_handlers.cpp"
-+ "/AppleInternal/Library/BuildRoots/96985a0d-388b-11ef-a93f-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IO80211_kexts/IO80211Family/ioctls/apple80211_ioctl_set_handlersLegacy.cpp"
-+ "/AppleInternal/Library/BuildRoots/96985a0d-388b-11ef-a93f-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IO80211_kexts/IO80211WCL/WCLDeauthDisassoc.cpp"
-+ "/AppleInternal/Library/BuildRoots/96985a0d-388b-11ef-a93f-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IO80211_kexts/IO80211WCL/WCLNearbyDeviceDiscoveryManager.cpp"
-+ "/AppleInternal/Library/BuildRoots/96985a0d-388b-11ef-a93f-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IO80211_kexts/IO80211WCL/WCLNetManager.cpp"
-+ "1111112222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222"
-+ "1111222222222222222222222222222222222111111111212122"
-+ "11222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222211"
-+ "12222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222221111111111111111111111111111111112"
-+ "222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222121"
-+ "APPLE80211_IOC_FIRST_BOOT_COUNTRY_CODE"
-+ "APPLE80211_IOC_MANUFACTURE_DATE"
-+ "IO80211_kexts-1302.63"
-+ "Jul  2 2024 21:35:57"
-+ "WCLBGScanManager Failed to init BssManager\n"
-+ "[ik] %s@%d:Received BTM Request frame: Category Code = %d Action Code = %d dialogToken = %d Request Mode =(Pref Candidate List = %d Abridged = %d disassoc_Imminent = %d bss_term = %d ess_term = %d link_remove=%d) DisassocTimeout = %d Validity Interval = %d\n"
-+ "[wcl] %s@%d:Exhausted join candidate list: Current index %d\n"
-+ "[wcl] %s@%d:mode<%s>, allowSleepConnected<%d> ipv4<%d> ipv6<%d> assoc<%d> assocAdhoc<%d> AssociOS<%d> isSapUp<%d> lphs<%d> IPLeaseWakeEventScheduled<%d> denyListed<%d> lpasAllowed<%d> phInWoW<%d>\n"
-+ "_logTimeCommandHelper"
-+ "_logTimeIfThresholdExceeded"
-+ "iouc.logThresholdMS"
-+ "is"
-+ "is not"
-+ "isPeerTypeSet"
-- "\"IO80211_kexts-1302.61\""
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IO80211_kexts/IO80211Family/AWDL/IO80211AWDLMulticastPeer.cpp"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IO80211_kexts/IO80211Family/AWDL/IO80211AWDLPeer.cpp"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IO80211_kexts/IO80211Family/AWDL/IO80211AWDLPeerManager.cpp"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IO80211_kexts/IO80211Family/AWDL/IO80211P2PDataPathManager.cpp"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IO80211_kexts/IO80211Family/AWDL/IO80211P2PSteeringManager.cpp"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IO80211_kexts/IO80211Family/AWDL/IO80211P2PSupervisor.cpp"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IO80211_kexts/IO80211Family/AWDL/IO80211ServiceRequestDescriptor.cpp"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IO80211_kexts/IO80211Family/Buffers/IO80211DynamicBufferPool.cpp"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IO80211_kexts/IO80211Family/Buffers/IO80211StaticBufferPool.cpp"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IO80211_kexts/IO80211Family/IO80211Controller.cpp"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IO80211_kexts/IO80211Family/IO80211ControllerMonitor.cpp"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IO80211_kexts/IO80211Family/IO80211GASFsm.cpp"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IO80211_kexts/IO80211Family/IO80211InfraInterface.cpp"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IO80211_kexts/IO80211Family/IO80211InterfaceMonitor.cpp"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IO80211_kexts/IO80211Family/IO80211PacketDescriptor.cpp"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IO80211_kexts/IO80211Family/IO80211Peer.cpp"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IO80211_kexts/IO80211Family/IO80211PeerManager.cpp"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IO80211_kexts/IO80211Family/IO80211PeerMonitor.cpp"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IO80211_kexts/IO80211Family/IO80211SkywalkInterface.cpp"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IO80211_kexts/IO80211Family/IO80211VirtualInterface.cpp"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IO80211_kexts/IO80211Family/Infra/IO80211LinkRecovery.cpp"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IO80211_kexts/IO80211Family/Infra/IO80211ScanManager.cpp"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IO80211_kexts/IO80211Family/NAN/DataPathManager/IO80211NANDataPathInitiator.cpp"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IO80211_kexts/IO80211Family/NAN/DataPathManager/IO80211NANDataPathManager.cpp"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IO80211_kexts/IO80211Family/NAN/DiscoveryEngine/IO80211NANDiscoveryEngine.cpp"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IO80211_kexts/IO80211Family/NAN/Miscellaneous/IO80211NANUtils.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IO80211_kexts/IO80211Family/NAN/PeerManager/IO80211NANDataInterfacePeerManager.cpp"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IO80211_kexts/IO80211Family/NAN/PeerManager/IO80211NANPeer.cpp"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IO80211_kexts/IO80211Family/NAN/PeerManager/IO80211NANPeerManager.cpp"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IO80211_kexts/IO80211Family/NAN/ServiceManager/IO80211NANServiceDescriptor.cpp"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IO80211_kexts/IO80211Family/NAN/ServiceManager/IO80211NANServiceManager.cpp"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IO80211_kexts/IO80211Family/NAN/SynchronizationEngine/IO80211NANSyncEngine.cpp"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IO80211_kexts/IO80211Family/UserClients/IO80211AsyncUserClientParameters.cpp"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IO80211_kexts/IO80211Family/Utils/IO80211CommandQueue.cpp"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IO80211_kexts/IO80211Family/Utils/IO80211FlowQueueDatabase.cpp"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IO80211_kexts/IO80211Family/Utils/IO80211Util.cpp"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IO80211_kexts/IO80211Family/Utils/IO80211Util.h"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IO80211_kexts/IO80211Family/ioctls/apple80211_ioctl_get_handlersLegacy.cpp"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IO80211_kexts/IO80211Family/ioctls/apple80211_ioctl_set_handlers.cpp"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IO80211_kexts/IO80211Family/ioctls/apple80211_ioctl_set_handlersLegacy.cpp"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IO80211_kexts/IO80211WCL/WCLDeauthDisassoc.cpp"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IO80211_kexts/IO80211WCL/WCLNearbyDeviceDiscoveryManager.cpp"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IO80211_kexts/IO80211WCL/WCLNetManager.cpp"
-- "111112222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222"
-- "111122222222222222222222222222222222211111111121212"
-- "112222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222211"
-- "1222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222221111111111111111111111111111111112"
-- "22222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222121"
-- "IO80211_kexts-1302.61"
-- "Jun 20 2024 20:32:12"
-- "[ik] %s@%d:Received BTM Request frame: Category Code = %d Action Code = %d dialogToken = %d Request Mode =(Pref Candidate List = %d Abridged = %d disassoc_Imminent = %d bss_term = %d ess_term = %d) DisassocTimeout = %d Validity Interval = %d\n"
-- "[wcl] %s@%d:mode<%s>, allowSleepConnected<%d> ipv4<%d> ipv6<%d> assoc<%d> assocAdhoc<%d> AssociOS<%d> isSapUp<%d> assocLPHSiOSHotspot<%d> IPLeaseWakeEventScheduled<%d> denyListed<%d> lpasAllowed<%d>\n"
-
-```
-
->  `com.apple.iokit.IOGPUFamily`
-
-```diff
-
--104.0.5.0.0
-+104.0.6.0.0
-   __TEXT.__cstring: 0x5706
-   __TEXT.__os_log: 0x3c15
-   __TEXT.__const: 0xd4
--  __TEXT_EXEC.__text: 0x3dc30
-+  __TEXT_EXEC.__text: 0x3dd98
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0x4b0
-   __DATA.__common: 0x7d0
-
-```
-
->  `com.apple.kernel`
-
-```diff
-
--11215.0.115.501.3
--  __TEXT.__const: 0x35d50
-+11215.0.132.501.1
-+  __TEXT.__const: 0x35d60
-   __TEXT.__copyio_vectors: 0x120
--  __TEXT.__cstring: 0x99c78
-+  __TEXT.__cstring: 0x99c4b
-   __TEXT.__os_log: 0x26fe1
-   __TEXT.__thread_starts: 0x0
-   __TEXT.__eh_frame: 0x478
-
-   __DATA_CONST.__kalloc_var: 0x8110
-   __DATA_CONST.__brk_desc: 0x78
-   __TEXT_EXEC.__hib_text: 0x3ab4
--  __TEXT_EXEC.__text: 0x8f79ec
-+  __TEXT_EXEC.__text: 0x8f8e58
-   __TEXT_EXEC.__commpage_text: 0x2dc
-   __KLD.__text: 0x4ef0
-   __PPLTEXT.__text: 0x2b6cc
-
-   __LAST.__last: 0x0
-   __PPLDATA.__data: 0x4c98
-   __KLDDATA.__cstring: 0x71f
--  __KLDDATA.__const: 0x7f30
-+  __KLDDATA.__const: 0x7f60
-   __KLDDATA.__mod_init_func: 0x8
-   __KLDDATA.__mod_term_func: 0x8
-   __KLDDATA.__bss: 0x1
-   __DATA.__data: 0x203e1
-   __DATA.__lock_grp: 0x15f10
-   __DATA.__percpu: 0x30d8
--  __DATA.__common: 0x7b1a0
--  __DATA.__bss: 0x454b0
-+  __DATA.__common: 0x7b1c0
-+  __DATA.__bss: 0x455f0
-   __HIBDATA.__data: 0x31
-   __HIBDATA.__common: 0x120
--  __HIBDATA.__bss: 0x608
-+  __HIBDATA.__bss: 0x618
-   __BOOTDATA.__data: 0x18000
-   __BOOTDATA.__init: 0x5bad0
--  __BOOTDATA.__init_entry_set: 0x113e8
-+  __BOOTDATA.__init_entry_set: 0x11400
-   __PRELINK_TEXT.__text: 0x0
-   __PRELINK_INFO.__info: 0x0
-   __PLK_TEXT_EXEC.__text: 0x0
-
-   __PLK_DATA_CONST.__data: 0x0
-   __PLK_LLVM_COV.__llvm_covmap: 0x0
-   __PLK_LINKEDIT.__data: 0x0
--  __LINKINFO.__symbolsets: 0x4ce0b
-+  __LINKINFO.__symbolsets: 0x4ce8c
-   __CTF.__ctf: 0x0
--  Functions: 22033
--  Symbols:   6651
-+  Functions: 22040
-+  Symbols:   6655
-   CStrings:  19680
- 
-Symbols:
-+ __vfs_smr
-+ _apfs_smr
-+ _smr_hash_init_empty
-+ _smr_hash_is_empty_initialized
-CStrings:
-+ "%s : Number of retries for syncing first or last page reached %d\n"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Binaries/xnu/install/TempContent/Objects/EXPORT_HDRS/bsd/skywalk/nexus_common.h"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Binaries/xnu/install/TempContent/Objects/EXPORT_HDRS/bsd/skywalk/packet_common.h"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/dev/dtrace/dtrace.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/kern/kern_control.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/kern/kern_event.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/kern/kpi_mbuf.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/kern/kpi_socket.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/kern/kpi_socketfilter.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/kern/socket_flows.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/kern/subr_eventhandler.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/kern/sys_domain.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/kern/tracker.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/kern/uipc_domain.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/kern/uipc_mbuf.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/kern/uipc_mbuf2.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/kern/uipc_proto.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/kern/uipc_socket.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/kern/uipc_socket2.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/kern/uipc_syscalls.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/kern/uipc_usrreq.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/kern/vsock_domain.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/net/bpf.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/net/classq/classq.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/net/classq/classq_fq_codel.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/net/classq/classq_subr.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/net/content_filter.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/net/dlil.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/net/droptap.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/net/flowadv.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/net/if.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/net/if_bond.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/net/if_bridge.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/net/if_fake.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/net/if_ipsec.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/net/if_llreach.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/net/if_loop.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/net/if_ports_used.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/net/if_redirect.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/net/if_utun.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/net/if_vlan.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/net/iptap.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/net/kpi_interface.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/net/mblist.h"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/net/nat464_utils.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/net/ndrv.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/net/necp_client.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/net/network_agent.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/net/ntstat.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/net/nwk_wq.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/net/pf.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/net/pf_if.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/net/pf_ioctl.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/net/pf_norm.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/net/pf_pbuf.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/net/pf_table.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/net/pktap.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/net/pktsched/pktsched.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/net/pktsched/pktsched_fq_codel.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/net/pktsched/pktsched_netem.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/net/route.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/net/rtsock.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet/flow_divert.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet/igmp.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet/in.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet/in_arp.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet/in_mcast.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet/in_pcb.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet/in_proto.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet/in_rmx.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet/in_tclass.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet/ip_dummynet.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet/ip_encap.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet/ip_icmp.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet/ip_input.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet/ip_output.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet/kpi_ipfilter.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet/mp_pcb.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet/mp_pcb.h"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet/mp_proto.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet/mptcp.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet/mptcp_opt.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet/mptcp_subr.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet/mptcp_timer.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet/mptcp_usrreq.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet/mptcp_var.h"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet/raw_ip.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet/tcp_cache.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet/tcp_cubic.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet/tcp_input.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet/tcp_ledbat.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet/tcp_output.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet/tcp_prague.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet/tcp_sack.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet/tcp_subr.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet/tcp_timer.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet/tcp_usrreq.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet/udp_usrreq.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet6/ah_core.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet6/ah_input.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet6/ah_output.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet6/esp_chachapoly.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet6/esp_core.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet6/esp_input.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet6/esp_output.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet6/esp_rijndael.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet6/frag6.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet6/icmp6.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet6/in6.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet6/in6_cga.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet6/in6_ifattach.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet6/in6_mcast.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet6/in6_pcb.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet6/in6_proto.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet6/in6_rmx.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet6/in6_src.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet6/ip6_forward.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet6/ip6_id.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet6/ip6_input.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet6/ip6_output.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet6/ipsec.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet6/ipsec.h"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet6/mld6.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet6/nd6.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet6/nd6_nbr.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet6/nd6_prproxy.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet6/nd6_rti.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet6/nd6_rtr.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet6/nd6_send.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet6/scope6.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet6/udp6_output.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netkey/key.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netkey/keysock.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/channel/channel.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/channel/channel_kern.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/channel/channel_ring.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/channel/channel_syscalls.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/core/skywalk.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/lib/net_filter_event.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/mem/skmem.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/mem/skmem_arena.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/mem/skmem_cache.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/mem/skmem_cache_var.h"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/mem/skmem_region.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/mem/skmem_slab.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/namespace/flowidns.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/namespace/netns.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/namespace/protons.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/nexus/flowswitch/flow/flow.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/nexus/flowswitch/flow/flow_agg.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/nexus/flowswitch/flow/flow_classifier.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/nexus/flowswitch/flow/flow_entry.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/nexus/flowswitch/flow/flow_manager.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/nexus/flowswitch/flow/flow_owner.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/nexus/flowswitch/flow/flow_route.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/nexus/flowswitch/flow/flow_stats.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/nexus/flowswitch/flow/flow_track.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/nexus/flowswitch/flow/flow_var.h"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/nexus/flowswitch/fsw.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/nexus/flowswitch/fsw_classq.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/nexus/flowswitch/fsw_dp.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/nexus/flowswitch/fsw_ethernet.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/nexus/flowswitch/fsw_ip_frag.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/nexus/flowswitch/fsw_vp.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/nexus/flowswitch/nx_flowswitch.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/nexus/kpipe/nx_kernel_pipe.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/nexus/monitor/nx_monitor.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/nexus/netif/nx_netif.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/nexus/netif/nx_netif_compat.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/nexus/netif/nx_netif_filter_compat.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/nexus/netif/nx_netif_filter_native.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/nexus/netif/nx_netif_filter_vp.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/nexus/netif/nx_netif_flow.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/nexus/netif/nx_netif_gso.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/nexus/netif/nx_netif_host.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/nexus/netif/nx_netif_llink.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/nexus/netif/nx_netif_mit.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/nexus/netif/nx_netif_poll.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/nexus/netif/nx_netif_util.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/nexus/netif/nx_netif_vp.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/nexus/nexus.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/nexus/nexus_adapter.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/nexus/nexus_adapter.h"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/nexus/nexus_kern.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/nexus/nexus_mbq.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/nexus/nexus_mbq.h"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/nexus/nexus_pktq.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/nexus/nexus_pktq.h"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/nexus/nexus_traffic_rule.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/nexus/upipe/nx_user_pipe.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/packet/packet_copy.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/packet/packet_kern.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/packet/pbufpool.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/packet/pbufpool_kern.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/iokit/Kernel/IODeviceTreeSupport.cpp"
-+ "cluster_verify_thread"
-+ "verify_in_flight underflow @%s:%d"
-- "%s:%d pageout of unaligned first page offset = %lld, size = %d  returned %d,\n"
-- "%s:%d pageout of unaligned last page offset = %lld, size = %d  returned %d,\n"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Binaries/xnu/install/TempContent/Objects/EXPORT_HDRS/bsd/skywalk/nexus_common.h"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Binaries/xnu/install/TempContent/Objects/EXPORT_HDRS/bsd/skywalk/packet_common.h"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/dev/dtrace/dtrace.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/kern/kern_control.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/kern/kern_event.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/kern/kpi_mbuf.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/kern/kpi_socket.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/kern/kpi_socketfilter.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/kern/socket_flows.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/kern/subr_eventhandler.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/kern/sys_domain.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/kern/tracker.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/kern/uipc_domain.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/kern/uipc_mbuf.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/kern/uipc_mbuf2.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/kern/uipc_proto.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/kern/uipc_socket.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/kern/uipc_socket2.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/kern/uipc_syscalls.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/kern/uipc_usrreq.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/kern/vsock_domain.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/net/bpf.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/net/classq/classq.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/net/classq/classq_fq_codel.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/net/classq/classq_subr.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/net/content_filter.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/net/dlil.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/net/droptap.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/net/flowadv.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/net/if.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/net/if_bond.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/net/if_bridge.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/net/if_fake.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/net/if_ipsec.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/net/if_llreach.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/net/if_loop.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/net/if_ports_used.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/net/if_redirect.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/net/if_utun.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/net/if_vlan.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/net/iptap.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/net/kpi_interface.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/net/mblist.h"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/net/nat464_utils.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/net/ndrv.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/net/necp_client.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/net/network_agent.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/net/ntstat.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/net/nwk_wq.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/net/pf.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/net/pf_if.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/net/pf_ioctl.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/net/pf_norm.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/net/pf_pbuf.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/net/pf_table.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/net/pktap.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/net/pktsched/pktsched.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/net/pktsched/pktsched_fq_codel.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/net/pktsched/pktsched_netem.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/net/route.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/net/rtsock.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet/flow_divert.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet/igmp.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet/in.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet/in_arp.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet/in_mcast.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet/in_pcb.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet/in_proto.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet/in_rmx.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet/in_tclass.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet/ip_dummynet.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet/ip_encap.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet/ip_icmp.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet/ip_input.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet/ip_output.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet/kpi_ipfilter.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet/mp_pcb.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet/mp_pcb.h"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet/mp_proto.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet/mptcp.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet/mptcp_opt.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet/mptcp_subr.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet/mptcp_timer.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet/mptcp_usrreq.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet/mptcp_var.h"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet/raw_ip.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet/tcp_cache.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet/tcp_cubic.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet/tcp_input.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet/tcp_ledbat.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet/tcp_output.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet/tcp_prague.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet/tcp_sack.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet/tcp_subr.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet/tcp_timer.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet/tcp_usrreq.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet/udp_usrreq.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet6/ah_core.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet6/ah_input.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet6/ah_output.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet6/esp_chachapoly.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet6/esp_core.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet6/esp_input.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet6/esp_output.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet6/esp_rijndael.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet6/frag6.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet6/icmp6.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet6/in6.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet6/in6_cga.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet6/in6_ifattach.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet6/in6_mcast.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet6/in6_pcb.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet6/in6_proto.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet6/in6_rmx.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet6/in6_src.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet6/ip6_forward.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet6/ip6_id.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet6/ip6_input.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet6/ip6_output.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet6/ipsec.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet6/ipsec.h"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet6/mld6.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet6/nd6.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet6/nd6_nbr.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet6/nd6_prproxy.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet6/nd6_rti.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet6/nd6_rtr.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet6/nd6_send.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet6/scope6.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet6/udp6_output.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netkey/key.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netkey/keysock.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/channel/channel.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/channel/channel_kern.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/channel/channel_ring.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/channel/channel_syscalls.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/core/skywalk.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/lib/net_filter_event.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/mem/skmem.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/mem/skmem_arena.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/mem/skmem_cache.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/mem/skmem_cache_var.h"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/mem/skmem_region.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/mem/skmem_slab.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/namespace/flowidns.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/namespace/netns.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/namespace/protons.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/nexus/flowswitch/flow/flow.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/nexus/flowswitch/flow/flow_agg.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/nexus/flowswitch/flow/flow_classifier.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/nexus/flowswitch/flow/flow_entry.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/nexus/flowswitch/flow/flow_manager.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/nexus/flowswitch/flow/flow_owner.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/nexus/flowswitch/flow/flow_route.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/nexus/flowswitch/flow/flow_stats.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/nexus/flowswitch/flow/flow_track.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/nexus/flowswitch/flow/flow_var.h"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/nexus/flowswitch/fsw.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/nexus/flowswitch/fsw_classq.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/nexus/flowswitch/fsw_dp.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/nexus/flowswitch/fsw_ethernet.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/nexus/flowswitch/fsw_ip_frag.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/nexus/flowswitch/fsw_vp.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/nexus/flowswitch/nx_flowswitch.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/nexus/kpipe/nx_kernel_pipe.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/nexus/monitor/nx_monitor.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/nexus/netif/nx_netif.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/nexus/netif/nx_netif_compat.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/nexus/netif/nx_netif_filter_compat.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/nexus/netif/nx_netif_filter_native.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/nexus/netif/nx_netif_filter_vp.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/nexus/netif/nx_netif_flow.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/nexus/netif/nx_netif_gso.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/nexus/netif/nx_netif_host.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/nexus/netif/nx_netif_llink.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/nexus/netif/nx_netif_mit.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/nexus/netif/nx_netif_poll.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/nexus/netif/nx_netif_util.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/nexus/netif/nx_netif_vp.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/nexus/nexus.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/nexus/nexus_adapter.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/nexus/nexus_adapter.h"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/nexus/nexus_kern.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/nexus/nexus_mbq.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/nexus/nexus_mbq.h"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/nexus/nexus_pktq.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/nexus/nexus_pktq.h"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/nexus/nexus_traffic_rule.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/nexus/upipe/nx_user_pipe.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/packet/packet_copy.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/packet/packet_kern.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/packet/pbufpool.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/packet/pbufpool_kern.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/iokit/Kernel/IODeviceTreeSupport.cpp"
-- "darwin-init"
-
-```
-
->  `com.apple.driver.AppleConvergedIPCOLYBTControl`
-
-```diff
-
--106.0.0.0.0
--  __TEXT.__cstring: 0x7f01
-+107.0.0.0.0
-+  __TEXT.__cstring: 0x7f7d
-   __TEXT.__const: 0x98
--  __TEXT_EXEC.__text: 0x48410
-+  __TEXT_EXEC.__text: 0x48570
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0xc8
-   __DATA.__common: 0x1f0
-
-   __DATA_CONST.__got: 0xf8
-   __DATA_CONST.__mod_init_func: 0x58
-   __DATA_CONST.__mod_term_func: 0x58
--  __DATA_CONST.__const: 0x7230
-+  __DATA_CONST.__const: 0x7248
-   __DATA_CONST.__kalloc_type: 0xc40
-   __DATA_CONST.__kalloc_var: 0x500
--  Functions: 969
--  Symbols:   1717
--  CStrings:  993
-+  Functions: 971
-+  Symbols:   1720
-+  CStrings:  996
- 
-Symbols:
-+ __ZN12ACIPCControl10deviceDeadEv
-+ __ZN14ACIPCBTIDevice10deviceDeadEv
-+ __ZN14ACIPCRTIDevice10deviceDeadEv
-CStrings:
-+ "%s::%s: PMNI AON APB wrapper reg : offset : 0x%lx  0x%x\n"
-+ "%s::%s: PMNI BT APB wrapper reg : offset : 0x%lx  0x%x\n"
-+ "/AppleInternal/Library/BuildRoots/81e2abef-3955-11ef-8e67-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleConvergedIPC/AppleConvergedIPCControl/AppleConvergedIPCDevice.cpp"
-+ "/AppleInternal/Library/BuildRoots/81e2abef-3955-11ef-8e67-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleConvergedIPC/AppleConvergedIPCControl/OLYBT/AppleConvergedIPCBTIDevice.cpp"
-+ "/AppleInternal/Library/BuildRoots/81e2abef-3955-11ef-8e67-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleConvergedIPC/AppleConvergedIPCControl/OLYBT/AppleConvergedIPCBTIInterface.cpp"
-+ "/AppleInternal/Library/BuildRoots/81e2abef-3955-11ef-8e67-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleConvergedIPC/AppleConvergedIPCControl/OLYBT/AppleConvergedIPCOLYBTControl.cpp"
-+ "/AppleInternal/Library/BuildRoots/81e2abef-3955-11ef-8e67-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleConvergedIPC/AppleConvergedIPCControl/OLYBT/AppleConvergedIPCOLYBTControlReporter.cpp"
-+ "/AppleInternal/Library/BuildRoots/81e2abef-3955-11ef-8e67-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleConvergedIPC/AppleConvergedIPCControl/OLYBT/AppleConvergedIPCRTIDevice.cpp"
-+ "/AppleInternal/Library/BuildRoots/81e2abef-3955-11ef-8e67-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleConvergedIPC/AppleConvergedIPCControl/OLYBT/AppleConvergedIPCRTIInterface.cpp"
-+ "/AppleInternal/Library/BuildRoots/81e2abef-3955-11ef-8e67-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleConvergedIPC/AppleConvergedIPCOLYBTDebug/AppleConvergedIPCOLYBTCoreDumpProvider.cpp"
-+ "/AppleInternal/Library/BuildRoots/81e2abef-3955-11ef-8e67-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleConvergedIPC/AppleConvergedIPCOLYBTDebug/AppleConvergedIPCOLYBTLogProvider.cpp"
-+ "/AppleInternal/Library/BuildRoots/81e2abef-3955-11ef-8e67-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleConvergedIPC/Core/OLYBT/ACIPCBTIDevice.cpp"
-+ "/AppleInternal/Library/BuildRoots/81e2abef-3955-11ef-8e67-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleConvergedIPC/Core/OLYBT/ACIPCBTIPipe.cpp"
-+ "/AppleInternal/Library/BuildRoots/81e2abef-3955-11ef-8e67-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleConvergedIPC/Core/OLYBT/ACIPCOLYBTControl.cpp"
-+ "/AppleInternal/Library/BuildRoots/81e2abef-3955-11ef-8e67-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleConvergedIPC/Core/OLYBT/ACIPCRTIDevice.cpp"
-+ "/AppleInternal/Library/BuildRoots/81e2abef-3955-11ef-8e67-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleConvergedIPC/Core/OLYBT/ACIPCRTIPipe.cpp"
-+ "deviceDead"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleConvergedIPC/AppleConvergedIPCControl/AppleConvergedIPCDevice.cpp"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleConvergedIPC/AppleConvergedIPCControl/OLYBT/AppleConvergedIPCBTIDevice.cpp"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleConvergedIPC/AppleConvergedIPCControl/OLYBT/AppleConvergedIPCBTIInterface.cpp"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleConvergedIPC/AppleConvergedIPCControl/OLYBT/AppleConvergedIPCOLYBTControl.cpp"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleConvergedIPC/AppleConvergedIPCControl/OLYBT/AppleConvergedIPCOLYBTControlReporter.cpp"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleConvergedIPC/AppleConvergedIPCControl/OLYBT/AppleConvergedIPCRTIDevice.cpp"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleConvergedIPC/AppleConvergedIPCControl/OLYBT/AppleConvergedIPCRTIInterface.cpp"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleConvergedIPC/AppleConvergedIPCOLYBTDebug/AppleConvergedIPCOLYBTCoreDumpProvider.cpp"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleConvergedIPC/AppleConvergedIPCOLYBTDebug/AppleConvergedIPCOLYBTLogProvider.cpp"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleConvergedIPC/Core/OLYBT/ACIPCBTIDevice.cpp"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleConvergedIPC/Core/OLYBT/ACIPCBTIPipe.cpp"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleConvergedIPC/Core/OLYBT/ACIPCOLYBTControl.cpp"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleConvergedIPC/Core/OLYBT/ACIPCRTIDevice.cpp"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleConvergedIPC/Core/OLYBT/ACIPCRTIPipe.cpp"
-
-```
-
->  `com.apple.driver.AppleFirmwareKit`
-
-```diff
-
--531.0.4.0.0
--  __TEXT.__cstring: 0x20e6
-+531.0.7.0.0
-+  __TEXT.__cstring: 0x3650
-   __TEXT.__os_log: 0xc73
-   __TEXT.__const: 0xa8
--  __TEXT_EXEC.__text: 0x2dcb8
-+  __TEXT_EXEC.__text: 0x314d4
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0x3f8
-   __DATA.__common: 0x548
-   __DATA.__bss: 0xc8
--  __DATA_CONST.__auth_got: 0x3c0
--  __DATA_CONST.__got: 0x118
-+  __DATA_CONST.__auth_got: 0x3b8
-+  __DATA_CONST.__got: 0x110
-   __DATA_CONST.__auth_ptr: 0x10
-   __DATA_CONST.__mod_init_func: 0xb8
-   __DATA_CONST.__mod_term_func: 0xb8
--  __DATA_CONST.__const: 0xfa28
-+  __DATA_CONST.__const: 0xf9f8
-   __DATA_CONST.__kalloc_type: 0x15c0
--  Functions: 1337
--  Symbols:   2417
--  CStrings:  316
-+  Functions: 1598
-+  Symbols:   2675
-+  CStrings:  469
- 
-Symbols:
-+ _ZL19rtbuddy_free_memoryP9rtbuddy_sP23rtbuddy_memory_buffer_t12alloc_type_t.cold.1
-+ _ZL19rtbuddy_free_memoryP9rtbuddy_sP23rtbuddy_memory_buffer_t12alloc_type_t.cold.2
-+ _ZN11AFKEPKextV214powerStateDoneEPv.cold.1
-+ _ZN11AFKEPKextV215incrementClientEb.cold.1
-+ _ZN11AFKEPKextV215incrementClientEb.cold.2
-+ _ZN11AFKEPKextV215incrementClientEb.cold.3
-+ _ZN11AFKEPKextV218systemWillShutdownEj.cold.1
-+ _ZN11AFKEPKextV222initPowerConfigurationEv.cold.1
-+ _ZN11AFKEPKextV222initPowerConfigurationEv.cold.2
-+ _ZN11AFKEPKextV24stopEP9IOService.cold.1
-+ _ZN11AFKEPKextV25startEP9IOService.cold.1
-+ _ZN11AFKEPKextV25startEP9IOService.cold.2
-+ _ZN11AFKEPKextV25startEP9IOService.cold.3
-+ _ZN11AFKEPKextV25startEP9IOService.cold.4
-+ _ZN11AFKEPKextV25startEP9IOService.cold.5
-+ _ZN11AFKEPKextV25startEP9IOService.cold.6
-+ _ZN11AFKEPKextV28initIOPMEv.cold.1
-+ _ZN16AFKEPInterfaceV210handleOpenEv.cold.1
-+ _ZN16AFKEPInterfaceV210handleOpenEv.cold.2
-+ _ZN16AFKEPInterfaceV211findCommandEh.cold.1
-+ _ZN16AFKEPInterfaceV211handleCloseEv.cold.1
-+ _ZN16AFKEPInterfaceV212handlePacketEPKN5AFKEP11MessageInfoEPKNS0_7MessageEm.cold.1
-+ _ZN16AFKEPInterfaceV212handlePacketEPKN5AFKEP11MessageInfoEPKNS0_7MessageEm.cold.2
-+ _ZN16AFKEPInterfaceV212handlePacketEPKN5AFKEP11MessageInfoEPKNS0_7MessageEm.cold.3
-+ _ZN16AFKEPInterfaceV212handlePacketEPKN5AFKEP11MessageInfoEPKNS0_7MessageEm.cold.4
-+ _ZN16AFKEPInterfaceV213enqueueReportEhyPN5AFKEP7MessageEmPK16AFKEPSendOptions.cold.1
-+ _ZN16AFKEPInterfaceV213handleMessageEPKN5AFKEP11MessageInfoEPKNS0_7MessageEm.cold.1
-+ _ZN16AFKEPInterfaceV213handleMessageEPKN5AFKEP11MessageInfoEPKNS0_7MessageEm.cold.2
-+ _ZN16AFKEPInterfaceV213handleMessageEPKN5AFKEP11MessageInfoEPKNS0_7MessageEm.cold.3
-+ _ZN16AFKEPInterfaceV213handleMessageEPKN5AFKEP11MessageInfoEPKNS0_7MessageEm.cold.4
-+ _ZN16AFKEPInterfaceV213handleMessageEPKN5AFKEP11MessageInfoEPKNS0_7MessageEm.cold.5
-+ _ZN16AFKEPInterfaceV213handleUnknownEP23AFKEPInterfaceServiceV2PKN5AFKEP11MessageInfoEPKNS2_7MessageEm.cold.1
-+ _ZN16AFKEPInterfaceV213handleUnknownEP23AFKEPInterfaceServiceV2PKN5AFKEP11MessageInfoEPKNS2_7MessageEm.cold.2
-+ _ZN16AFKEPInterfaceV213handleUnknownEP23AFKEPInterfaceServiceV2PKN5AFKEP11MessageInfoEPKNS2_7MessageEm.cold.3
-+ _ZN16AFKEPInterfaceV214acquireCommandEv.cold.1
-+ _ZN16AFKEPInterfaceV214enqueueCommandEPvhyPN5AFKEP7MessageEmS0_jPK16AFKEPSendOptions.cold.1
-+ _ZN16AFKEPInterfaceV214enqueueCommandEPvhyPN5AFKEP7MessageEmS0_jPK16AFKEPSendOptions.cold.2
-+ _ZN16AFKEPInterfaceV214releaseCommandEv.cold.1
-+ _ZN16AFKEPInterfaceV215enqueueResponseEPviyPN5AFKEP7MessageEmPK16AFKEPSendOptions.cold.1
-+ _ZN16AFKEPInterfaceV218handleNotificationEN5AFKEP12NotificationEPU7_Atomich.cold.1
-+ _ZN16AFKEPInterfaceV219deliverNotificationEN5AFKEP12NotificationEPU7_Atomich.cold.1
-+ _ZN16AFKEPInterfaceV219deliverNotificationEN5AFKEP12NotificationEPU7_Atomich.cold.2
-+ _ZN16AFKEPInterfaceV219handleClientCommandEyhPvj.cold.1
-+ _ZN16AFKEPInterfaceV220cleanupRemoteContextEv.cold.1
-+ _ZN16AFKEPInterfaceV220createErrorResponsesEv.cold.1
-+ _ZN16AFKEPInterfaceV220handleClientResponseEyhPvj.cold.1
-+ _ZN16AFKEPInterfaceV220handleClientResponseEyhPvj.cold.2
-+ _ZN17AFKEPCommandLocal13getCmdHeadersEPN5AFKEP7MessageEjPm.cold.1
-+ _ZN17AFKEPCommandLocal13getCmdHeadersEPN5AFKEP7MessageEjPm.cold.2
-+ _ZN17AFKEPCommandLocal13getCmdHeadersEPN5AFKEP7MessageEjPm.cold.3
-+ _ZN17AFKEPCommandLocal13getCmdHeadersEPN5AFKEP7MessageEjPm.cold.4
-+ _ZN17AFKEPCommandLocal13parseResponseEPvj.cold.1
-+ _ZN17AFKEPCommandLocal13parseResponseEPvj.cold.2
-+ _ZN17AFKEPCommandLocal23createAFKEPCommandLocalEP9rtbuddy_sPvjjPK16AFKEPSendOptionsS2_hPN5AFKEP7MessageEm.cold.1
-+ _ZN17AFKEPCommandLocal23createAFKEPCommandLocalEP9rtbuddy_sPvjjPK16AFKEPSendOptionsS2_hPN5AFKEP7MessageEm.cold.2
-+ _ZN17AFKEPV2MessHelper7stateCBEPv14MessengerState.cold.1
-+ _ZN18AFKEPCommandRemote13getRspHeadersEPN5AFKEP7MessageES2_miPm.cold.1
-+ _ZN18AFKEPCommandRemote13getRspHeadersEPN5AFKEP7MessageES2_miPm.cold.2
-+ _ZN18AFKEPCommandRemote24createAFKEPCommandRemoteEP9rtbuddy_shPvj.cold.1
-+ _ZN18AFKEPCommandRemote24createAFKEPCommandRemoteEP9rtbuddy_shPvj.cold.2
-+ _ZN18AFKIOServiceClient13handleCommandEPN20AFKEndpointInterface14CommandContextEjyP9AFK_iovecmj.cold.1
-+ _ZN18AFKIOServiceClient4stopEP9IOService.cold.1
-+ _ZN18AFKIOServiceClient4stopEP9IOService.cold.2
-+ _ZN19AFKMemoryDescriptor10writeBytesEmPKvm.cold.1
-+ _ZN19AFKMemoryDescriptor11assertPowerEb.cold.1
-+ _ZN19AFKMemoryDescriptor13assumeControlEv.cold.1
-+ _ZN19AFKMemoryDescriptor14releaseControlEb.cold.1
-+ _ZN19AFKMemoryDescriptor14retainInternalEv.cold.1
-+ _ZN19AFKMemoryDescriptor15releaseInternalEv.cold.1
-+ _ZN19AFKMemoryDescriptor4freeEv.cold.1
-+ _ZN19AFKMemoryDescriptor8setInUseEb.cold.1
-+ _ZN19AFKMemoryDescriptor8setInUseEb.cold.2
-+ _ZN19AFKMemoryDescriptor9setLengthEm.cold.1
-+ _ZN20AFKEPInterfaceKextV211closeHelperEv.cold.1
-+ _ZN20AFKEPInterfaceKextV211handleCloseEP9IOServicej.cold.1
-+ _ZN20AFKEPInterfaceKextV213handleUnknownEP27AFKEPInterfaceServiceKextV2PKN5AFKEP11MessageInfoEPKNS2_7MessageEm.cold.1
-+ _ZN20AFKEPInterfaceKextV213handleUnknownEP27AFKEPInterfaceServiceKextV2PKN5AFKEP11MessageInfoEPKNS2_7MessageEm.cold.2
-+ _ZN20AFKEPInterfaceKextV213handleUnknownEP27AFKEPInterfaceServiceKextV2PKN5AFKEP11MessageInfoEPKNS2_7MessageEm.cold.3
-+ _ZN20AFKEPInterfaceKextV214sendOpenReportEv.cold.1
-+ _ZN20AFKEPInterfaceKextV216assertPowerStateEv.cold.1
-+ _ZN20AFKEPInterfaceKextV217enqueueDescriptorEjyP19AFKMemoryDescriptorjP9IOService.cold.1
-+ _ZN20AFKEPInterfaceKextV217enqueueDescriptorEjyP19AFKMemoryDescriptorjP9IOService.cold.2
-+ _ZN20AFKEPInterfaceKextV217enqueueDescriptorEjyP19AFKMemoryDescriptorjP9IOService.cold.3
-+ _ZN20AFKEPInterfaceKextV217withPublishReportEPK13PublishReportmP9IOServiceP9rtbuddy_st.cold.1
-+ _ZN20AFKEPInterfaceKextV218deassertPowerStateEv.cold.1
-+ _ZN20AFKEPInterfaceKextV218deassertPowerStateEv.cold.2
-+ _ZN20AFKEPInterfaceKextV223deliverDescriptorReportEPvj.cold.1
-+ _ZN20AFKEPInterfaceKextV24initEP12OSDictionaryP9IOService.cold.1
-+ _ZN20AFKEPInterfaceKextV24initEP12OSDictionaryP9IOService.cold.2
-+ _ZN20AFKEPInterfaceKextV24stopEP9IOService.cold.1
-+ _ZN20AFKEPInterfaceKextV24stopEP9IOService.cold.2
-+ _ZN20AFKEPInterfaceKextV24stopEP9IOService.cold.3
-+ _ZN20AFKEPInterfaceKextV24stopEP9IOService.cold.4
-+ _ZN20AFKEPInterfaceKextV24stopEP9IOService.cold.5
-+ _ZN20AFKEPInterfaceKextV25startEP9IOService.cold.1
-+ _ZN20AFKEPInterfaceKextV25startEP9IOService.cold.10
-+ _ZN20AFKEPInterfaceKextV25startEP9IOService.cold.2
-+ _ZN20AFKEPInterfaceKextV25startEP9IOService.cold.3
-+ _ZN20AFKEPInterfaceKextV25startEP9IOService.cold.4
-+ _ZN20AFKEPInterfaceKextV25startEP9IOService.cold.5
-+ _ZN20AFKEPInterfaceKextV25startEP9IOService.cold.6
-+ _ZN20AFKEPInterfaceKextV25startEP9IOService.cold.7
-+ _ZN20AFKEPInterfaceKextV25startEP9IOService.cold.8
-+ _ZN20AFKEPInterfaceKextV25startEP9IOService.cold.9
-+ _ZN20AFKEPInterfaceKextV28openImplEP9IOService.cold.1
-+ _ZN20AFKEndpointInterface4initEP12OSDictionary.cold.1
-+ _ZN20AFKTightbeamEndpoint10sendReportEPhm.cold.1
-+ _ZN20AFKTightbeamEndpoint11sendCommandEPhmPS0_Pm.cold.1
-+ _ZN20AFKTightbeamEndpoint11sendCommandEPhmPS0_Pm.cold.2
-+ _ZN20AFKTightbeamEndpoint12sendResponseEPviPhm.cold.1
-+ _ZN20AFKTightbeamEndpoint5startEP9IOService.cold.1
-+ _ZN22AFKIOServiceClientBase15enqueueResponseEPN20AFKEndpointInterface14CommandContextEiyP9AFK_iovecmj.cold.2
-+ _ZN23AFKMemoryDescriptorImpl11appendBytesEPKvm.cold.1
-+ _ZN23AFKMemoryDescriptorImpl11assertPowerEb.cold.1
-+ _ZN23AFKMemoryDescriptorImpl13assumeControlEmm.cold.1
-+ _ZN23AFKMemoryDescriptorImpl14releaseControlEmmb.cold.1
-+ _ZN23AFKMemoryDescriptorImpl4initEv.cold.1
-+ _ZN23AFKMemoryDescriptorImpl9initAcipcEy.cold.1
-+ _ZN23AFKMemoryDescriptorImpl9setLengthEm.cold.1
-+ _ZN23AFKMemoryDescriptorImplD1Ev.cold.1
-+ _ZN25AFKBufferMemoryDescriptor11appendBytesEPKvm.cold.1
-+ _ZN25AFKBufferMemoryDescriptor13assumeControlEmm.cold.1
-+ _ZN25AFKBufferMemoryDescriptor14releaseControlEmmb.cold.1
-+ _ZN25AFKEndpointInterfaceRelay11memDescCopyEP19AFKMemoryDescriptorS1_.cold.1
-+ _ZN25AFKEndpointInterfaceRelay13enqueueReportEP20AFKEndpointInterfacejyPKvmj.cold.1
-+ _ZN25AFKEndpointInterfaceRelay14enqueueCommandEP20AFKEndpointInterfacePNS0_14CommandContextEjyPKvmmj.cold.1
-+ _ZN25AFKEndpointInterfaceRelay15enqueueResponseEP20AFKEndpointInterfacePNS_19AsyncCommandContextEiyPKvmj.cold.1
-+ _ZN25AFKEndpointInterfaceRelay17enqueueDescriptorEP20AFKEndpointInterfacejyP19AFKMemoryDescriptorj.cold.1
-+ _ZN27AFKEPInterfaceEventSourceV214dispatchReportEjyPvj.cold.1
-+ _ZN27AFKEPInterfaceEventSourceV214dispatchReportEjyPvj.cold.2
-+ _ZN27AFKEPInterfaceEventSourceV215dispatchCommandEPvjyhS0_j.cold.1
-+ _ZN27AFKEPInterfaceEventSourceV215dispatchCommandEPvjyhS0_j.cold.2
-+ _ZN27AFKEPInterfaceEventSourceV216dispatchResponseEPviyS0_j.cold.1
-+ _ZN27AFKEPInterfaceEventSourceV216dispatchResponseEPviyS0_j.cold.2
-+ _ZN27AFKEPInterfaceEventSourceV217stateCompleteImplEv.cold.1
-+ _ZN27AFKEPInterfaceEventSourceV220dispatchNotificationEN5AFKEP12NotificationEPU7_Atomich.cold.1
-+ _ZN27AFKEPInterfaceEventSourceV24freeEv.cold.1
-+ _ZN27AFKEPInterfaceEventSourceV24freeEv.cold.2
-+ _ZN27AFKEPInterfaceEventSourceV24initEP16AFKEPInterfaceV2.cold.1
-+ _ZN27AFKEPInterfaceEventSourceV24initEP16AFKEPInterfaceV2.cold.2
-+ _ZN27AFKEPInterfaceEventSourceV26doTaskEv.cold.1
-+ _ZN27AFKEPInterfaceServiceKextV213handleMessageEPKN5AFKEP11MessageInfoEPKNS0_7MessageEm.cold.1
-+ _ZN27AFKEPInterfaceServiceKextV216eventQThreadCallEPS_.cold.1
-+ _ZN27AFKEPInterfaceServiceKextV218handleNotificationEN5AFKEP12NotificationE.cold.1
-+ _ZN27AFKEPInterfaceServiceKextV218handlePublishEventEPNS_12PublishEventE.cold.1
-+ _ZN27AFKEPInterfaceServiceKextV218handlePublishEventEPNS_12PublishEventE.cold.2
-+ _ZN27AFKEPInterfaceServiceKextV218handlePublishEventEPNS_12PublishEventE.cold.3
-+ _ZN27AFKEPInterfaceServiceKextV218handlePublishEventEPNS_12PublishEventE.cold.4
-+ _ZN27AFKEPInterfaceServiceKextV219enqueuePublishEventEPvmt.cold.1
-+ _ZN27AFKEPInterfaceServiceKextV221enqueueTerminateEventEt.cold.1
-+ _ZN27AFKEPInterfaceServiceKextV224enqueueTerminateAllEventEv.cold.1
-+ _ZN27AFKEPInterfaceServiceKextV25startEP9IOService.cold.1
-+ _ZN30AFKEndpointInterfaceUserClient10closeGatedEPvP25IOExternalMethodArguments.cold.1
-+ _ZN30AFKEndpointInterfaceUserClient12handleReportEP20AFKEndpointInterfacejyPKvmj.cold.1
-+ _ZN30AFKEndpointInterfaceUserClient16handleDescriptorEP20AFKEndpointInterfacejyP19AFKMemoryDescriptorj.cold.1
-+ _ZN30AFKEndpointInterfaceUserClient16handleDescriptorEP20AFKEndpointInterfacejyP19AFKMemoryDescriptorj.cold.2
-+ _ZN30AFKEndpointInterfaceUserClient19saveQueueToWaitListEP18AFKSharedDataQueue.cold.1
-+ _ZN30AFKEndpointInterfaceUserClient28dataQueueSpaceAvailableGatedEPvP25IOExternalMethodArguments.cold.1
-+ _ZN30AFKMemoryDescriptorManagerBase12handleReportEP20AFKEndpointInterfacejyPKvmj.cold.1
-+ _ZN30AFKMemoryDescriptorManagerBase17enqueueFreeReportEy.cold.1
-+ _ZN30AFKMemoryDescriptorManagerBase23handleDescriptorReleaseEPK19AFKMemoryDescriptor.cold.1
-+ _ZN30AFKMemoryDescriptorManagerBase5startEP9IOService.cold.1
-+ _ZN30AFKMemoryDescriptorManagerBase5startEP9IOService.cold.2
-+ _ZN30AFKMemoryDescriptorManagerBase5startEP9IOService.cold.3
-+ _ZN30AFKMemoryDescriptorManagerBase5startEP9IOService.cold.4
-+ _ZN30AFKMemoryDescriptorManagerBase5startEP9IOService.cold.5
-+ _ZN30AFKMemoryDescriptorManagerBase5startEP9IOService.cold.6
-+ _ZN31AFKACIPCMemoryDescriptorManager14handleResponseEP20AFKEndpointInterfacePviyPKvm.cold.1
-+ _ZN31AFKACIPCMemoryDescriptorManager14handleResponseEP20AFKEndpointInterfacePviyPKvm.cold.2
-+ _ZN31AFKACIPCMemoryDescriptorManager21createDescriptorGatedEmNS_6MDTypeE.cold.1
-+ _ZN31AFKACIPCMemoryDescriptorManager21createDescriptorGatedEmNS_6MDTypeE.cold.2
-+ _ZN31AFKLocalMemoryDescriptorManager13handleCommandEP20AFKEndpointInterfacePNS0_14CommandContextEjyPKvmj.cold.1
-+ _ZN31AFKLocalMemoryDescriptorManager13handleCommandEP20AFKEndpointInterfacePNS0_14CommandContextEjyPKvmj.cold.2
-+ _ZN31AFKLocalMemoryDescriptorManager13handleCommandEP20AFKEndpointInterfacePNS0_14CommandContextEjyPKvmj.cold.3
-+ _ZN5AFKEP10handleOpenEP12AFKEPServicej.cold.1
-+ _ZN5AFKEP11handleCloseEP12AFKEPService.cold.1
-+ _ZN5AFKEP11handleStartEv.cold.1
-+ _ZN7AFKEPV210handleOpenEP12AFKEPServicej.cold.1
-+ _ZN7AFKEPV211handleStartEv.cold.1
-+ _ZN7AFKEPV211handleStartEv.cold.2
-+ _ZN7AFKEPV211handleStartEv.cold.3
-+ _ZN7AFKEPV212handlePacketEPvj.cold.1
-+ _ZN7AFKEPV212handlePacketEPvj.cold.2
-+ _ZN7AFKEPV212handleQSpaceEPvj.cold.1
-+ _ZN7AFKEPV213sendPauseDoneEPv.cold.1
-+ _ZN7AFKEPV214handleSetStateEN5AFKEP5StateE.cold.1
-+ _ZN7AFKEPV215getDesiredStateEPN5AFKEP12NotificationEPb.cold.1
-+ _ZN7AFKEPV215runStateMachineEv.cold.1
-+ _ZN7AFKEPV215runStateMachineEv.cold.2
-+ _ZN7AFKEPV215runStateMachineEv.cold.3
-+ _ZN7AFKEPV215runStateMachineEv.cold.4
-+ _ZN7AFKEPV217handleSendMessageEPKN5AFKEP11MessageInfoEPKNS0_7MessageEmPK16AFKEPSendOptions.cold.1
-+ _ZN7AFKEPV217handleSendMessageEPKN5AFKEP11MessageInfoEPKNS0_7MessageEmPK16AFKEPSendOptions.cold.2
-+ _ZN7AFKEPV217handleSendMessageEPKN5AFKEP11MessageInfoEPKNS0_7MessageEmPK16AFKEPSendOptions.cold.3
-+ _ZN7AFKEPV218sendInternalPacketEj.cold.1
-+ _ZN7AFKEPV218sendInternalPacketEj.cold.2
-+ _ZN7AFKEPV220handleInternalPacketEPKN5AFKEP7MessageEm.cold.1
-+ _ZN7AFKEPV220handleInternalPacketEPKN5AFKEP7MessageEm.cold.2
-+ _ZN7AFKEPV220handleInternalPacketEPKN5AFKEP7MessageEm.cold.3
-+ _ZN7AFKEPV220handleInternalPacketEPKN5AFKEP7MessageEm.cold.4
-+ _ZN7AFKEPV221mailboxMessageHandlerEP21AFKMailboxEventSourceyPv.cold.1
-+ _ZN7AFKEPV222notificationCompletionEPv.cold.1
-+ _ZN7AFKEPV222notificationCompletionEPv.cold.2
-+ _ZN7AFKEPV229invokeNotificationCompletionsEv.cold.1
-+ _ZN7AFKEPV29reconnectEPv.cold.1
-+ _ZNK19AFKMemoryDescriptor5bytesEv.cold.1
-+ _ZNK19AFKMemoryDescriptor9getLengthEv.cold.1
-+ _ZNK19AFKMemoryDescriptor9readBytesEmPvm.cold.1
-+ _ZNK23AFKMemoryDescriptorImpl14getBytesNoCopyEmm.cold.1
-+ _ZNK23AFKMemoryDescriptorImpl14getBytesNoCopyEmm.cold.2
-+ _ZNK25AFKBufferMemoryDescriptor14getBytesNoCopyEmm.cold.1
-+ __ZN16AFKACIPCEndpoint4initEP12OSDictionary
-+ __ZNK11AFKEPKextV219useIOPMStateControlEv
-+ ___ZN11AFKEPKextV214handleSetStateEN5AFKEP5StateE_block_invoke.cold.1
-+ ___ZN11AFKEPKextV214handleSetStateEN5AFKEP5StateE_block_invoke.cold.2
-+ ___ZN11AFKEPKextV214handleSetStateEN5AFKEP5StateE_block_invoke.cold.3
-+ ___ZN11AFKEPKextV216stateMachineInitEv_block_invoke_2.cold.1
-+ ___ZN20AFKEPInterfaceKextV214enqueueCommandEPvjyPKvmmjP9IOService_block_invoke.57
-+ ___ZN20AFKEPInterfaceKextV214enqueueCommandEPvjyPKvmmjP9IOService_block_invoke.60
-+ ___ZN20AFKEPInterfaceKextV214enqueueCommandEPvjyPKvmmjP9IOService_block_invoke.60.cold.1
-+ ___ZN20AFKEPInterfaceKextV214enqueueCommandEPvjyPKvmmjP9IOService_block_invoke.60.cold.2
-+ ___ZN20AFKEPInterfaceKextV214enqueueCommandEPvjyPKvmmjP9IOService_block_invoke.60.cold.3
-+ ___ZN20AFKEPInterfaceKextV214enqueueCommandEPvjyPKvmmjP9IOService_block_invoke.66
-+ ___ZN20AFKEPInterfaceKextV215enqueueResponseEPN20AFKEndpointInterface14CommandContextEiyPKvmj_block_invoke.cold.1
-+ ___ZN20AFKEPInterfaceKextV219enqueueReportHelperEjyPKvmj_block_invoke.186
-+ ___ZN20AFKEPInterfaceKextV219enqueueReportHelperEjyPKvmj_block_invoke.186.cold.1
-+ ___ZN20AFKEPInterfaceKextV219enqueueReportHelperEjyPKvmj_block_invoke.190
-+ ___ZN20AFKEPInterfaceKextV25startEP9IOService_block_invoke_2.cold.1
-+ ___ZN22AFKIOServiceClientBase21handleServiceInternalEP9IOService_block_invoke.12
-+ ___ZN25AFKEndpointInterfaceRelay5startEP9IOService_block_invoke_2.cold.1
-+ ___ZN30AFKEndpointInterfaceUserClient12handleReportEP20AFKEndpointInterfacejyPKvmj_block_invoke.72
-+ ___ZN30AFKEndpointInterfaceUserClient16handleDescriptorEP20AFKEndpointInterfacejyP19AFKMemoryDescriptorj_block_invoke.79
-+ ___ZN30AFKEndpointInterfaceUserClient16handleDescriptorEP20AFKEndpointInterfacejyP19AFKMemoryDescriptorj_block_invoke.cold.1
-+ ___ZN30AFKEndpointInterfaceUserClient22enqueueDescriptorGatedEPvP25IOExternalMethodArguments_block_invoke.cold.1
-+ ___ZN30AFKMemoryDescriptorManagerBase22copyReceivedDescriptorEy_block_invoke.23
-+ ___ZN30AFKMemoryDescriptorManagerBase22copyReceivedDescriptorEy_block_invoke.23.cold.1
-+ ___ZN30AFKMemoryDescriptorManagerBase5startEP9IOService_block_invoke_2.cold.1
-+ ___ZN31AFKLocalMemoryDescriptorManager20createDescriptorImplEmNS_6MDTypeEbb_block_invoke.cold.1
-+ __block_descriptor_tmp.17
-+ __block_descriptor_tmp.185
-+ __block_descriptor_tmp.189
-+ __block_descriptor_tmp.191
-+ __block_descriptor_tmp.23
-+ __block_descriptor_tmp.26
-+ __block_descriptor_tmp.42
-+ __block_descriptor_tmp.51
-+ __block_descriptor_tmp.68
-+ __block_descriptor_tmp.68
-+ __block_descriptor_tmp.70
-+ __block_descriptor_tmp.70
-+ __block_descriptor_tmp.71
-+ __block_descriptor_tmp.71
-+ __block_descriptor_tmp.73
-+ __block_descriptor_tmp.73
-+ __block_descriptor_tmp.77
-+ __block_descriptor_tmp.78
-+ __block_descriptor_tmp.79
-+ __block_descriptor_tmp.80
-+ __block_descriptor_tmp.80
-+ __block_descriptor_tmp.83
-+ __block_descriptor_tmp.95
-+ __block_descriptor_tmp.96
-+ afk_msgr_after_ready_ack.cold.1
-+ afk_msgr_enqueue.cold.1
-+ afk_msgr_enqueue.cold.2
-+ afk_msgr_handle_command._os_log_fmt.5
-+ afk_msgr_handle_command._os_log_fmt.6
-+ afk_msgr_handle_command.cold.1
-+ afk_msgr_handle_here_buf_addr.cold.1
-+ afk_msgr_handle_q_full.cold.1
-+ afk_msgr_init.cold.1
-+ afk_msgr_init.cold.2
-+ afk_msgr_init.cold.3
-+ afk_msgr_msg_recv_cb.cold.1
-+ afk_msgr_msg_send.cold.1
-+ afk_msgr_ringbuffer_assume_subrange_cb.cold.1
-+ afk_msgr_ringbuffer_release_subrange_cb.cold.1
-+ handle_here_buf.cold.1
-+ handle_here_buf_acipc.cold.1
-+ handle_req_buf.cold.1
-+ handle_req_buf.cold.2
-+ handle_req_buf.cold.3
-+ handle_req_buf_acipc.cold.1
-+ handle_req_buf_acipc.cold.2
-+ handle_req_buf_acipc.cold.3
-+ handler_ready_acipc.cold.1
-+ handler_ready_ack_acipc.cold.1
-+ rtbuddy_allocate_shared_memory_buffer.cold.3
-+ rtbuddy_assume_control.cold.1
-+ rtbuddy_assume_control.cold.2
-+ rtbuddy_assume_control.cold.3
-+ rtbuddy_make_memory_visible.cold.3
-+ rtbuddy_make_memory_visible.cold.4
-+ rtbuddy_release_control.cold.1
-+ rtbuddy_release_control.cold.2
-+ rtbuddy_release_control.cold.3
-+ rtbuddy_release_free_visible_memory.cold.1
-+ rtbuddy_send_message.cold.1
-- _Assert
-- __ZNK11AFKEPKextV222useRTBuddyPowerActionsEv
-- __ZNK16AFKACIPCEndpoint22useRTBuddyPowerActionsEv
-- ___ZN20AFKEPInterfaceKextV214enqueueCommandEPvjyPKvmmjP9IOService_block_invoke.39
-- ___ZN20AFKEPInterfaceKextV214enqueueCommandEPvjyPKvmmjP9IOService_block_invoke.42
-- ___ZN20AFKEPInterfaceKextV214enqueueCommandEPvjyPKvmmjP9IOService_block_invoke.46
-- ___ZN20AFKEPInterfaceKextV219enqueueReportHelperEjyPKvmj_block_invoke.156
-- ___ZN20AFKEPInterfaceKextV219enqueueReportHelperEjyPKvmj_block_invoke.160
-- ___ZN22AFKIOServiceClientBase21handleServiceInternalEP9IOService_block_invoke.10
-- ___ZN30AFKEndpointInterfaceUserClient12handleReportEP20AFKEndpointInterfacejyPKvmj_block_invoke.68
-- ___ZN30AFKEndpointInterfaceUserClient16handleDescriptorEP20AFKEndpointInterfacejyP19AFKMemoryDescriptorj_block_invoke.73
-- ___ZN30AFKMemoryDescriptorManagerBase22copyReceivedDescriptorEy_block_invoke.15
-- __block_descriptor_tmp.1
-- __block_descriptor_tmp.155
-- __block_descriptor_tmp.159
-- __block_descriptor_tmp.161
-- __block_descriptor_tmp.32
-- __block_descriptor_tmp.35
-- __block_descriptor_tmp.4
-- __block_descriptor_tmp.53
-- __block_descriptor_tmp.54
-- __block_descriptor_tmp.54
-- __block_descriptor_tmp.54
-- __block_descriptor_tmp.55
-- __block_descriptor_tmp.55
-- __block_descriptor_tmp.57
-- __block_descriptor_tmp.60
-- __block_descriptor_tmp.61
-- __block_descriptor_tmp.63
-- __block_descriptor_tmp.74
-- __block_descriptor_tmp.8
-- __block_descriptor_tmp.8
-- _kext_assertions_enable
-- afk_msgr_handle_command._os_log_fmt.1
-- afk_msgr_handle_command._os_log_fmt.2
-CStrings:
-+ "\"!__os_warn_unused(__builtin_add_overflow((offset), (numBytes), (&endRange))) && endRange <= _length\" @%s:%d"
-+ "\"!__os_warn_unused(__builtin_add_overflow((offset), (numBytes), (&endRange)))\" @%s:%d"
-+ "\"!_inUse\" @%s:%d"
-+ "\"!_internalRetain\" @%s:%d"
-+ "\"!copyReceivedDescriptor(getMDImpl(md)->getToken())\" @%s:%d"
-+ "\"!descriptor->_impl->getAssertPower()\" @%s:%d"
-+ "\"!fail\" @%s:%d"
-+ "\"!iObject->isEqualTo(jObject)\" @%s:%d"
-+ "\"!isInactive()\" @%s:%d"
-+ "\"!overflow && newLength <= _capacity\" @%s:%d"
-+ "\"!overflow\" @%s:%d"
-+ "\"!pending\" @%s:%d"
-+ "\"!this->_config.size || this->_config.txQueueLen+this->_config.rxQueueLen == this->_config.size\" @%s:%d"
-+ "\"!this->_endpointWL->inGate()\" @%s:%d"
-+ "\"!this->_endpointWL->onThread()\" @%s:%d"
-+ "\"!this->_published && !this->_openSent\" @%s:%d"
-+ "\"(((signed)((((unsigned)(0x38))&0x3f)<<26))|(((0)&0xfff)<<14)|0x2c2) != rv\" @%s:%d"
-+ "\"((void*)0) != (void*)messenger->buffer.remote_addr\" @%s:%d"
-+ "\"(bool)this->_config.size == (bool)this->_config.buffer\" @%s:%d"
-+ "\"0 != messenger->buffer.size && ((void*)0) != (void*)messenger->buffer.remote_addr\" @%s:%d"
-+ "\"0 == _assertionCount && 0 == _assertionWaitCount\" @%s:%d"
-+ "\"0 == _sessionCount\" @%s:%d"
-+ "\"0 == platStatus\" @%s:%d"
-+ "\"0 == result && shmem_info->memory\" @%s:%d"
-+ "\"0 == result\" @%s:%d"
-+ "\"0 == ret\" @%s:%d"
-+ "\"0 == status || (((signed)((((unsigned)(0x38))&0x3f)<<26))|(((0)&0xfff)<<14)|0x2d7) == status || (((signed)((((unsigned)(0x38))&0x3f)<<26))|(((0)&0xfff)<<14)|0x2e3) == status\" @%s:%d"
-+ "\"0 == status || (((signed)((((unsigned)(0x38))&0x3f)<<26))|(((0)&0xfff)<<14)|0x2d7) == status\" @%s:%d"
-+ "\"0 == status\" @%s:%d"
-+ "\"1 == messageCount\" @%s:%d"
-+ "\"AFKEP::Message::TypeBuffer == messages[0].type\" @%s:%d"
-+ "\"NULL != mess\" @%s:%d"
-+ "\"RTBUDDY_STATUS_OK == status\" @%s:%d"
-+ "\"STAILQ_EMPTY(&this->_taskQ)\" @%s:%d"
-+ "\"__builtin_bswap32('IOP ') == magic\" @%s:%d"
-+ "\"_assertCnt\" @%s:%d"
-+ "\"_assertPowerTimer\" @%s:%d"
-+ "\"_assertionCount\" @%s:%d"
-+ "\"_asycRequestES\" @%s:%d"
-+ "\"_asyncES\" @%s:%d"
-+ "\"_clientCount < 4294967295U\" @%s:%d"
-+ "\"_clientCount > 0\" @%s:%d"
-+ "\"_commandGate\" @%s:%d"
-+ "\"_endpoint\" @%s:%d"
-+ "\"_endpointWL->inGate()\" @%s:%d"
-+ "\"_epi\" @%s:%d"
-+ "\"_epicArr\" @%s:%d"
-+ "\"_impl\" @%s:%d"
-+ "\"_impl->getUsable()\" @%s:%d"
-+ "\"_inUse != enable\" @%s:%d"
-+ "\"_interface\" @%s:%d"
-+ "\"_interfaces\" @%s:%d"
-+ "\"_internalRetain\" @%s:%d"
-+ "\"_lockAsyncRequests\" @%s:%d"
-+ "\"_mdMgr\" @%s:%d"
-+ "\"_mdMgrNotify\" @%s:%d"
-+ "\"_provider\" @%s:%d"
-+ "\"_secMemory\" @%s:%d"
-+ "\"_workloop->inGate()\" @%s:%d"
-+ "\"add <= shmem_info->memory->getBuffer()->getLength()\" @%s:%d"
-+ "\"availableSpace >= payload->size\" @%s:%d"
-+ "\"buffer->remote_addr == shmem_info->memory->getSlaveAddress()\" @%s:%d"
-+ "\"bufferLen >= capacity * AFK_TAGGED_BUFFER_SIZE_SCALE\" @%s:%d"
-+ "\"capacity\" @%s:%d"
-+ "\"client\" @%s:%d"
-+ "\"cmdCtx\" @%s:%d"
-+ "\"command && commandLength && respBuffer && respBufferLength\" @%s:%d"
-+ "\"command\" @%s:%d"
-+ "\"count >= 1 + this->_inMsgsCnt\" @%s:%d"
-+ "\"count >= 1\" @%s:%d"
-+ "\"count >= 2 + this->_inMsgsCnt\" @%s:%d"
-+ "\"count >= 2\" @%s:%d"
-+ "\"counterIdx < (sizeof(this->_counters)/sizeof(this->_counters[0]))\" @%s:%d"
-+ "\"d->notification != AFKEP::NotificationSendPossible\" @%s:%d"
-+ "\"d->self->_endpointWL->inGate()\" @%s:%d"
-+ "\"descriptor->_impl->getUsable()\" @%s:%d"
-+ "\"endRange <= _length\" @%s:%d"
-+ "\"endpointService\" @%s:%d"
-+ "\"entry\" @%s:%d"
-+ "\"epic\" @%s:%d"
-+ "\"event->packetSize >= sizeof(PublishReport)\" @%s:%d"
-+ "\"false\" @%s:%d"
-+ "\"found\" @%s:%d"
-+ "\"interface\" @%s:%d"
-+ "\"length <= _capacity\" @%s:%d"
-+ "\"lock\" @%s:%d"
-+ "\"managerRole->isEqualTo(thisRole.get())\" @%s:%d"
-+ "\"md\" @%s:%d"
-+ "\"md->getRetainCount() > 1\" @%s:%d"
-+ "\"messages[0].buffer.size >= sizeof(*header)\" @%s:%d"
-+ "\"messenger->config.allocator\" @%s:%d"
-+ "\"messenger->config.rxQueueLen && messenger->config.txQueueLen\" @%s:%d"
-+ "\"messenger->state == handlers[i].startState\" @%s:%d"
-+ "\"msgsIn[0].buffer.size - sizeof(*header) >= sizeof(*commHeader)\" @%s:%d"
-+ "\"msgsIn[0].buffer.size >= sizeof(*header)\" @%s:%d"
-+ "\"notification > AFKEP::NotificationInvalid && notification < AFKEP::NotificationCount\" @%s:%d"
-+ "\"nullptr != client\" @%s:%d"
-+ "\"nullptr != command\" @%s:%d"
-+ "\"nullptr != properties\" @%s:%d"
-+ "\"nullptr != task\" @%s:%d"
-+ "\"nullptr != task->pkt\" @%s:%d"
-+ "\"nullptr != this->_rles\" @%s:%d"
-+ "\"nullptr == this->_client\" @%s:%d"
-+ "\"nullptr == this->_out\" @%s:%d"
-+ "\"num\" @%s:%d"
-+ "\"numBytes <= dst->getCapacity()\" @%s:%d"
-+ "\"ok\" @%s:%d"
-+ "\"options & (1 << 13)\" @%s:%d"
-+ "\"payloadSize == sizeof(AFKMDManagerCreateCommand)\" @%s:%d"
-+ "\"payloadSize == sizeof(AFKMDManagerCreateResponse)\" @%s:%d"
-+ "\"pktLen >= sizeof(*header)\" @%s:%d"
-+ "\"pktLen >= sizeof(*respHeader)\" @%s:%d"
-+ "\"pktLen >= sizeof(rv->_commandHeader) + sizeof(rv->_oobHdr)\" @%s:%d"
-+ "\"pktLen >= sizeof(rv->_commandHeader)\" @%s:%d"
-+ "\"processor\" @%s:%d"
-+ "\"prop\" @%s:%d"
-+ "\"propStr\" @%s:%d"
-+ "\"queueDesc\" @%s:%d"
-+ "\"ret\" @%s:%d"
-+ "\"role\" @%s:%d"
-+ "\"rspSize <= this->_oobHdr.rspSize\" @%s:%d"
-+ "\"rtbuddy->platformParams->isACIPC\" @%s:%d"
-+ "\"self->_endpointWL->inGate()\" @%s:%d"
-+ "\"shmem_info\" @%s:%d"
-+ "\"shmem_info->memory\" @%s:%d"
-+ "\"shmem_info->memory->getBuffer()->getLength() >= size\" @%s:%d"
-+ "\"status\" @%s:%d"
-+ "\"this->_client == forClient\" @%s:%d"
-+ "\"this->_clientWL\" @%s:%d"
-+ "\"this->_clientWL->inGate()\" @%s:%d"
-+ "\"this->_endpointWL->inGate()\" @%s:%d"
-+ "\"this->_openSent\" @%s:%d"
-+ "\"this->_pendingOffset + pktLen <= this->_pendingSize\" @%s:%d"
-+ "\"this->_pendingStatesLock\" @%s:%d"
-+ "\"this->_queueLock\" @%s:%d"
-+ "\"this->_rspPayload.remote_addr == oobHdr->rspAddress\" @%s:%d"
-+ "\"threadCall\" @%s:%d"
-+ "\"token\" @%s:%d"
-+ "\"total_offset >= static_offset\" @%s:%d"
-+ "\"type == shmem_info->alloc_type\" @%s:%d"
-+ "\"uc\" @%s:%d"
-+ "\"valid && pktLen <= 4294967295U\" @%s:%d"
-+ "\"valid && size <= 4294967295U\" @%s:%d"
-+ "\"valid\" @%s:%d"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/AppleFirmwareKit_kext/src/Kext/AFKFirmwareService.cpp"
-+ "AFKACIPCMemoryDescriptorManager.cpp"
-+ "AFKEP.cpp"
-+ "AFKEPCommandContext.cpp"
-+ "AFKEPInterfaceEventSourceV2.cpp"
-+ "AFKEPInterfaceKextV2.cpp"
-+ "AFKEPInterfaceServiceKextV2.cpp"
-+ "AFKEPInterfaceV2.cpp"
-+ "AFKEPKextV2.cpp"
-+ "AFKEPV2.cpp"
-+ "AFKEndpointInterface.cpp"
-+ "AFKEndpointInterfaceRelay.cpp"
-+ "AFKEndpointInterfaceUserClient.cpp"
-+ "AFKIOServiceClient.cpp"
-+ "AFKIOServiceClientBase.cpp"
-+ "AFKLocalMemoryDescriptorManager.cpp"
-+ "AFKMemoryDescriptor.cpp"
-+ "AFKMemoryDescriptorImpl.cpp"
-+ "AFKMemoryDescriptorManagerBase.cpp"
-+ "AFKTightbeamEndpoint.cpp"
-+ "Messenger.c"
-+ "MessengerACIPC.c"
-+ "MessengerStandard.c"
-+ "UseIOPMStateControl"
-- "!fail"
-- "%s:%d Assertion failed: %s : 0x%lx 0x%lx "
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleFirmwareKit_kext/src/Kext/AFKFirmwareService.cpp"
-- "0 == result && shmem_info->memory"
-- "0 == ret"
-- "add <= shmem_info->memory->getBuffer()->getLength()"
-- "buffer->remote_addr == shmem_info->memory->getSlaveAddress()"
-- "found"
-- "lock"
-- "processor"
-- "rtbuddy->platformParams->isACIPC"
-- "shmem_info"
-- "shmem_info->memory"
-- "shmem_info->memory->getBuffer()->getLength() >= size"
-- "type == shmem_info->alloc_type"
-
-```
-
->  `com.apple.driver.AppleSCDriver`
-
-```diff
-
--20.139.0.0.0
--  __TEXT.__cstring: 0x3f9a
--  __TEXT.__os_log: 0x6188
-+20.140.0.0.0
-+  __TEXT.__cstring: 0x3f91
-+  __TEXT.__os_log: 0x61a2
-   __TEXT.__const: 0x190
--  __TEXT_EXEC.__text: 0x20f78
-+  __TEXT_EXEC.__text: 0x2103c
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0x22c8
-   __DATA.__common: 0x15a0
-
-   __DATA_CONST.__const: 0x3b60
-   __DATA_CONST.__kalloc_type: 0x340
-   __DATA_CONST.__kalloc_var: 0xf0
--  Functions: 516
--  Symbols:   1465
--  CStrings:  583
-+  Functions: 515
-+  Symbols:   1464
-+  CStrings:  582
- 
-Symbols:
-+ __ZZN10SCodecHost36handleSessionsDemandCountChangeGatedEvE11_os_log_fmt_1
-+ __ZZN10SCodecHost36handleSessionsDemandCountChangeGatedEvE11_os_log_fmt_2
-+ __ZZN6SCodec31waitForStreamPreconditionsGatedEPhPjE11_os_log_fmt_2
-- __ZN10SCodecHost11releaseCoreEv
-- __ZZN10SCodecHost11releaseCoreEvE11_os_log_fmt
-- __ZZN10SCodecHost11releaseCoreEvE11_os_log_fmt_0
-- __ZZN10SCodecHost11releaseCoreEvE11_os_log_fmt_1
-CStrings:
-+ "1211111212221212122111111111111111111111111111111111111111111111111111111111111111111111111111111112222222222222222222222222222222222222222211111122221122222222222222222222222222222222222222222222222222222222222222222122222211"
-+ "1211111212221212122111111111111111111111111111111111111111111111111111111111111111111111111111111112222222222222222222222222222222222222222211111122221122222222222222222222222222222222222222222222222222222222222222222122222211111211111111111111211211111111211112221212211222212"
-+ "20:03:05"
-+ "20:03:16"
-+ "Jul  3 2024"
-- "121111121222121212211111111111111111111111111111111111111111111111111111111111111111111111111111111222222222222222222222222222222222222222221111112222112222222222222222222222222222222222222222222222222222222222222222122222211"
-- "12111112122212121221111111111111111111111111111111111111111111111111111111111111111111111111111111122222222222222222222222222222222222222222111111222211222222222222222222222222222222222222222222222222222222222222222212222221111121111111111111121121111111121111222121221122221"
-- "20:39:42"
-- "20:39:53"
-- "Jun 20 2024"
-- "releaseCore"
-
-```
-
->  `com.apple.driver.AppleT8110DART`
-
-```diff
-
--452.0.1.0.0
-+452.0.2.0.0
-   __TEXT.__const: 0x60
--  __TEXT.__cstring: 0x27f7
--  __TEXT_EXEC.__text: 0xd71c
-+  __TEXT.__cstring: 0x2840
-+  __TEXT_EXEC.__text: 0xd7e4
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0xc8
-   __DATA.__common: 0x38
-
-   __DATA_CONST.__const: 0xb18
-   __DATA_CONST.__kalloc_type: 0x2c0
-   __DATA_CONST.__kalloc_var: 0x410
--  Functions: 148
--  Symbols:   535
--  CStrings:  215
-+  Functions: 149
-+  Symbols:   536
-+  CStrings:  217
- 
-Symbols:
-+ _ZN14AppleT8110DART6_setupER19t8110dart_init_data.cold.5
-+ __ZN14AppleT8110DART20_prepareForPowerDownEbb
-+ __ZZN14AppleT8110DART10_dartSetupER19t8110dart_init_dataE21kalloc_type_view_3605
-+ __ZZN14AppleT8110DART10_dartSetupER19t8110dart_init_dataE21kalloc_type_view_3650
-+ __ZZN14AppleT8110DART10_dartSetupER19t8110dart_init_dataE21kalloc_type_view_3726
-+ __ZZN14AppleT8110DART10_dartSetupER19t8110dart_init_dataE21kalloc_type_view_3836
-+ __ZZN14AppleT8110DART17_apfSetupInstanceEjjPKNS_10instance_tER19t8110dart_init_dataE21kalloc_type_view_4637
-+ __ZZN14AppleT8110DART17_apfSetupInstanceEjjPKNS_10instance_tER19t8110dart_init_dataE21kalloc_type_view_4641
-+ __ZZN14AppleT8110DART17_apfSetupInstanceEjjPKNS_10instance_tER19t8110dart_init_dataE21kalloc_type_view_4796
-+ __ZZN14AppleT8110DART21_dartAssignDynamicSIDEPjE21kalloc_type_view_4211
-+ __ZZN14AppleT8110DART22_dartReleaseDynamicSIDEjE21kalloc_type_view_4260
-+ __ZZN14AppleT8110DART26_apfInitializeStateCaptureEjE21kalloc_type_view_4841
-+ __ZZN14AppleT8110DART27_dartInitializeStateCaptureEjE21kalloc_type_view_4294
-+ __ZZN14AppleT8110DART27_dartInitializeStateCaptureEjE21kalloc_type_view_4303
-+ __ZZN14AppleT8110DART27_smmuInitializeStateCaptureEjE21kalloc_type_view_4957
-+ __ZZN14AppleT8110DART27_smmuInitializeStateCaptureEjE21kalloc_type_view_4975
-+ __ZZN14AppleT8110DART27_smmuInitializeStateCaptureEjE21kalloc_type_view_4978
-- __ZN14AppleT8110DART20_prepareForPowerDownEb
-- __ZZN14AppleT8110DART10_dartSetupER19t8110dart_init_dataE21kalloc_type_view_3600
-- __ZZN14AppleT8110DART10_dartSetupER19t8110dart_init_dataE21kalloc_type_view_3645
-- __ZZN14AppleT8110DART10_dartSetupER19t8110dart_init_dataE21kalloc_type_view_3721
-- __ZZN14AppleT8110DART10_dartSetupER19t8110dart_init_dataE21kalloc_type_view_3831
-- __ZZN14AppleT8110DART17_apfSetupInstanceEjjPKNS_10instance_tER19t8110dart_init_dataE21kalloc_type_view_4632
-- __ZZN14AppleT8110DART17_apfSetupInstanceEjjPKNS_10instance_tER19t8110dart_init_dataE21kalloc_type_view_4636
-- __ZZN14AppleT8110DART17_apfSetupInstanceEjjPKNS_10instance_tER19t8110dart_init_dataE21kalloc_type_view_4791
-- __ZZN14AppleT8110DART21_dartAssignDynamicSIDEPjE21kalloc_type_view_4206
-- __ZZN14AppleT8110DART22_dartReleaseDynamicSIDEjE21kalloc_type_view_4255
-- __ZZN14AppleT8110DART26_apfInitializeStateCaptureEjE21kalloc_type_view_4836
-- __ZZN14AppleT8110DART27_dartInitializeStateCaptureEjE21kalloc_type_view_4289
-- __ZZN14AppleT8110DART27_dartInitializeStateCaptureEjE21kalloc_type_view_4293
-- __ZZN14AppleT8110DART27_smmuInitializeStateCaptureEjE21kalloc_type_view_4952
-- __ZZN14AppleT8110DART27_smmuInitializeStateCaptureEjE21kalloc_type_view_4970
-- __ZZN14AppleT8110DART27_smmuInitializeStateCaptureEjE21kalloc_type_view_4973
-CStrings:
-+ "\"%s requires the SPTM and is mutually exclusive with %s\" @%s:%d"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/AppleHxDART/AppleT8110DART.cpp"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/AppleHxDART/AppleT8110DART.h"
-+ "no-sleep"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleHxDART/AppleT8110DART.cpp"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleHxDART/AppleT8110DART.h"
-
-```
-
->  `com.apple.driver.AppleThunderboltUTDM`
-
-```diff
-
--317.0.0.0.0
-+318.0.0.0.0
-   __TEXT.__cstring: 0xd48
-   __TEXT.__const: 0x20
--  __TEXT_EXEC.__text: 0x12c3c
-+  __TEXT_EXEC.__text: 0x12c38
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0x118
-   __DATA.__common: 0xe8
-
-```
-
->  `com.apple.iokit.IOMobileGraphicsFamily`
-
-```diff
-
--395.18.1.1.0
-+395.23.1.0.0
-   __TEXT.__cstring: 0x81dc
-   __TEXT.__const: 0x800
--  __TEXT_EXEC.__text: 0x22f4c
-+  __TEXT_EXEC.__text: 0x22f90
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0x2900
-   __DATA.__common: 0x1c924
-Symbols:
-+ __ZN25IOMobileFramebufferLegacy29get_programfifo_blocked_stateEv
-+ __ZN25IOMobileFramebufferLegacy29set_programfifo_blocked_stateEb
-+ __ZZN25IOMobileFramebufferLegacy22record_swap_info_gatedEP18IOMFBSwapIORequest24IOMFBSwapCompletionStateE21kalloc_type_view_6539
-- __ZN25IOMobileFramebufferLegacy27get_swap_wait_blocked_stateEv
-- __ZN25IOMobileFramebufferLegacy27set_swap_wait_blocked_stateEb
-- __ZZN25IOMobileFramebufferLegacy22record_swap_info_gatedEP18IOMFBSwapIORequest24IOMFBSwapCompletionStateE21kalloc_type_view_6533
-CStrings:
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IOMobileFramebuffer/Kernel/AppleDisplayPipe/DriverCommonFunctions.cpp"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IOMobileFramebuffer/Kernel/AppleDisplayPipe/DriverCommonFunctions.cpp"
-
-```
 
 >  `com.apple.iokit.IOThunderboltFamily`
 
@@ -3935,6 +108,1687 @@ CStrings:
 - "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IOAVBFamily_kexts/IOAVBDiscoveryPlugin/IOAVB17221Entity.cpp"
 - "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IOAVBFamily_kexts/IOAVBDiscoveryPlugin/IOAVB17221EntityDiscovery.cpp"
 - "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IOAVBFamily_kexts/IOAVBDiscoveryPlugin/IOAVB17221EntityDiscoveryUserClient.cpp"
+
+```
+
+>  `com.apple.AGXG15C`
+
+```diff
+
+-320.18.0.0.0
+-  __TEXT.__const: 0x4fc4
+-  __TEXT.__cstring: 0xd1d8
++320.23.0.0.0
++  __TEXT.__const: 0x4ff4
++  __TEXT.__cstring: 0xd1dc
+   __TEXT.__os_log: 0x32f
+-  __TEXT_EXEC.__text: 0xb5ac8
++  __TEXT_EXEC.__text: 0xb6044
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0x1780
+   __DATA.__common: 0x10
+Symbols:
++ _GLOBAL__D_a.10066
++ _GLOBAL__D_a.10174
++ _GLOBAL__D_a.10323
++ _GLOBAL__D_a.10445
++ _GLOBAL__D_a.10702
++ _GLOBAL__D_a.10837
++ _GLOBAL__D_a.10929
++ _GLOBAL__D_a.11067
++ _GLOBAL__D_a.11262
++ _GLOBAL__D_a.11504
++ _GLOBAL__D_a.11661
++ _GLOBAL__D_a.11789
++ _GLOBAL__D_a.11903
++ _GLOBAL__D_a.12046
++ _GLOBAL__D_a.12135
++ _GLOBAL__D_a.12228
++ _GLOBAL__D_a.12315
++ _GLOBAL__D_a.12398
++ _GLOBAL__D_a.12486
++ _GLOBAL__D_a.12587
++ _GLOBAL__D_a.12678
++ _GLOBAL__D_a.12776
++ _GLOBAL__D_a.13169
++ _GLOBAL__D_a.13464
++ _GLOBAL__D_a.3700
++ _GLOBAL__D_a.4121
++ _GLOBAL__D_a.4544
++ _GLOBAL__D_a.4967
++ _GLOBAL__D_a.5292
++ _GLOBAL__D_a.5376
++ _GLOBAL__D_a.5462
++ _GLOBAL__D_a.5618
++ _GLOBAL__D_a.6447
++ _GLOBAL__D_a.6569
++ _GLOBAL__D_a.6673
++ _GLOBAL__D_a.6789
++ _GLOBAL__D_a.6876
++ _GLOBAL__D_a.6998
++ _GLOBAL__D_a.7733
++ _GLOBAL__D_a.7860
++ _GLOBAL__D_a.8021
++ _GLOBAL__D_a.8102
++ _GLOBAL__D_a.8276
++ _GLOBAL__D_a.8402
++ _GLOBAL__D_a.8487
++ _GLOBAL__D_a.8700
++ _GLOBAL__D_a.8836
++ _GLOBAL__D_a.9027
++ _GLOBAL__D_a.9125
++ _GLOBAL__D_a.9270
++ _GLOBAL__D_a.9419
++ _GLOBAL__D_a.9497
++ _GLOBAL__D_a.9598
++ _GLOBAL__D_a.9723
++ _GLOBAL__D_a.9816
++ _GLOBAL__D_a.9915
++ _ZL11gart_ranges.10557
++ _ZL18gAGXSetGameModeKey.10062
++ _ZL18gAGXSetGameModeKey.10171
++ _ZL18gAGXSetGameModeKey.10198
++ _ZL18gAGXSetGameModeKey.10320
++ _ZL18gAGXSetGameModeKey.10442
++ _ZL18gAGXSetGameModeKey.10698
++ _ZL18gAGXSetGameModeKey.10834
++ _ZL18gAGXSetGameModeKey.10926
++ _ZL18gAGXSetGameModeKey.11064
++ _ZL18gAGXSetGameModeKey.11103
++ _ZL18gAGXSetGameModeKey.11118
++ _ZL18gAGXSetGameModeKey.11142
++ _ZL18gAGXSetGameModeKey.11259
++ _ZL18gAGXSetGameModeKey.11501
++ _ZL18gAGXSetGameModeKey.11658
++ _ZL18gAGXSetGameModeKey.11786
++ _ZL18gAGXSetGameModeKey.11900
++ _ZL18gAGXSetGameModeKey.12043
++ _ZL18gAGXSetGameModeKey.12132
++ _ZL18gAGXSetGameModeKey.12225
++ _ZL18gAGXSetGameModeKey.12312
++ _ZL18gAGXSetGameModeKey.12395
++ _ZL18gAGXSetGameModeKey.12483
++ _ZL18gAGXSetGameModeKey.12584
++ _ZL18gAGXSetGameModeKey.12675
++ _ZL18gAGXSetGameModeKey.12773
++ _ZL18gAGXSetGameModeKey.13163
++ _ZL18gAGXSetGameModeKey.13461
++ _ZL18gAGXSetGameModeKey.3697
++ _ZL18gAGXSetGameModeKey.4118
++ _ZL18gAGXSetGameModeKey.4541
++ _ZL18gAGXSetGameModeKey.4964
++ _ZL18gAGXSetGameModeKey.5289
++ _ZL18gAGXSetGameModeKey.5373
++ _ZL18gAGXSetGameModeKey.5459
++ _ZL18gAGXSetGameModeKey.5483
++ _ZL18gAGXSetGameModeKey.5498
++ _ZL18gAGXSetGameModeKey.5613
++ _ZL18gAGXSetGameModeKey.6440
++ _ZL18gAGXSetGameModeKey.6562
++ _ZL18gAGXSetGameModeKey.6667
++ _ZL18gAGXSetGameModeKey.6785
++ _ZL18gAGXSetGameModeKey.6873
++ _ZL18gAGXSetGameModeKey.6991
++ _ZL18gAGXSetGameModeKey.7686
++ _ZL18gAGXSetGameModeKey.7749
++ _ZL18gAGXSetGameModeKey.7782
++ _ZL18gAGXSetGameModeKey.7876
++ _ZL18gAGXSetGameModeKey.7902
++ _ZL18gAGXSetGameModeKey.8018
++ _ZL18gAGXSetGameModeKey.8099
++ _ZL18gAGXSetGameModeKey.8271
++ _ZL18gAGXSetGameModeKey.8398
++ _ZL18gAGXSetGameModeKey.8484
++ _ZL18gAGXSetGameModeKey.8696
++ _ZL18gAGXSetGameModeKey.8833
++ _ZL18gAGXSetGameModeKey.9023
++ _ZL18gAGXSetGameModeKey.9122
++ _ZL18gAGXSetGameModeKey.9264
++ _ZL18gAGXSetGameModeKey.9414
++ _ZL18gAGXSetGameModeKey.9490
++ _ZL18gAGXSetGameModeKey.9595
++ _ZL18gAGXSetGameModeKey.9720
++ _ZL18gAGXSetGameModeKey.9813
++ _ZL18gAGXSetGameModeKey.9912
++ _ZL18gAGXSetGameModeKey.9935
++ _ZL24gPPMSetBudgetFunctionKey.6444
++ _ZL24gPPMSetBudgetFunctionKey.6566
++ _ZL24gPPMSetBudgetFunctionKey.6995
++ _ZL24gPPMSetBudgetFunctionKey.7640
++ _ZL24gPPMSetBudgetFunctionKey.9494
++ _ZL26gAGXGetCLPCStandbyCountKey.10054
++ _ZL26gAGXGetCLPCStandbyCountKey.10163
++ _ZL26gAGXGetCLPCStandbyCountKey.10190
++ _ZL26gAGXGetCLPCStandbyCountKey.10312
++ _ZL26gAGXGetCLPCStandbyCountKey.10434
++ _ZL26gAGXGetCLPCStandbyCountKey.10690
++ _ZL26gAGXGetCLPCStandbyCountKey.10826
++ _ZL26gAGXGetCLPCStandbyCountKey.10918
++ _ZL26gAGXGetCLPCStandbyCountKey.11056
++ _ZL26gAGXGetCLPCStandbyCountKey.11095
++ _ZL26gAGXGetCLPCStandbyCountKey.11110
++ _ZL26gAGXGetCLPCStandbyCountKey.11134
++ _ZL26gAGXGetCLPCStandbyCountKey.11251
++ _ZL26gAGXGetCLPCStandbyCountKey.11493
++ _ZL26gAGXGetCLPCStandbyCountKey.11650
++ _ZL26gAGXGetCLPCStandbyCountKey.11778
++ _ZL26gAGXGetCLPCStandbyCountKey.11892
++ _ZL26gAGXGetCLPCStandbyCountKey.12035
++ _ZL26gAGXGetCLPCStandbyCountKey.12124
++ _ZL26gAGXGetCLPCStandbyCountKey.12217
++ _ZL26gAGXGetCLPCStandbyCountKey.12304
++ _ZL26gAGXGetCLPCStandbyCountKey.12387
++ _ZL26gAGXGetCLPCStandbyCountKey.12475
++ _ZL26gAGXGetCLPCStandbyCountKey.12576
++ _ZL26gAGXGetCLPCStandbyCountKey.12667
++ _ZL26gAGXGetCLPCStandbyCountKey.12765
++ _ZL26gAGXGetCLPCStandbyCountKey.13155
++ _ZL26gAGXGetCLPCStandbyCountKey.13453
++ _ZL26gAGXGetCLPCStandbyCountKey.3660
++ _ZL26gAGXGetCLPCStandbyCountKey.4110
++ _ZL26gAGXGetCLPCStandbyCountKey.4533
++ _ZL26gAGXGetCLPCStandbyCountKey.4956
++ _ZL26gAGXGetCLPCStandbyCountKey.5281
++ _ZL26gAGXGetCLPCStandbyCountKey.5365
++ _ZL26gAGXGetCLPCStandbyCountKey.5451
++ _ZL26gAGXGetCLPCStandbyCountKey.5475
++ _ZL26gAGXGetCLPCStandbyCountKey.5490
++ _ZL26gAGXGetCLPCStandbyCountKey.5605
++ _ZL26gAGXGetCLPCStandbyCountKey.6432
++ _ZL26gAGXGetCLPCStandbyCountKey.6554
++ _ZL26gAGXGetCLPCStandbyCountKey.6659
++ _ZL26gAGXGetCLPCStandbyCountKey.6777
++ _ZL26gAGXGetCLPCStandbyCountKey.6865
++ _ZL26gAGXGetCLPCStandbyCountKey.6983
++ _ZL26gAGXGetCLPCStandbyCountKey.7678
++ _ZL26gAGXGetCLPCStandbyCountKey.7741
++ _ZL26gAGXGetCLPCStandbyCountKey.7774
++ _ZL26gAGXGetCLPCStandbyCountKey.7868
++ _ZL26gAGXGetCLPCStandbyCountKey.7894
++ _ZL26gAGXGetCLPCStandbyCountKey.8010
++ _ZL26gAGXGetCLPCStandbyCountKey.8091
++ _ZL26gAGXGetCLPCStandbyCountKey.8263
++ _ZL26gAGXGetCLPCStandbyCountKey.8390
++ _ZL26gAGXGetCLPCStandbyCountKey.8476
++ _ZL26gAGXGetCLPCStandbyCountKey.8688
++ _ZL26gAGXGetCLPCStandbyCountKey.8825
++ _ZL26gAGXGetCLPCStandbyCountKey.9015
++ _ZL26gAGXGetCLPCStandbyCountKey.9114
++ _ZL26gAGXGetCLPCStandbyCountKey.9256
++ _ZL26gAGXGetCLPCStandbyCountKey.9406
++ _ZL26gAGXGetCLPCStandbyCountKey.9482
++ _ZL26gAGXGetCLPCStandbyCountKey.9587
++ _ZL26gAGXGetCLPCStandbyCountKey.9712
++ _ZL26gAGXGetCLPCStandbyCountKey.9805
++ _ZL26gAGXGetCLPCStandbyCountKey.9904
++ _ZL26gAGXGetCLPCStandbyCountKey.9927
++ _ZL28gAGXGetCLPCPerfCtrlTargetKey.10060
++ _ZL28gAGXGetCLPCPerfCtrlTargetKey.10169
++ _ZL28gAGXGetCLPCPerfCtrlTargetKey.10196
++ _ZL28gAGXGetCLPCPerfCtrlTargetKey.10318
++ _ZL28gAGXGetCLPCPerfCtrlTargetKey.10440
++ _ZL28gAGXGetCLPCPerfCtrlTargetKey.10696
++ _ZL28gAGXGetCLPCPerfCtrlTargetKey.10832
++ _ZL28gAGXGetCLPCPerfCtrlTargetKey.10924
++ _ZL28gAGXGetCLPCPerfCtrlTargetKey.11062
++ _ZL28gAGXGetCLPCPerfCtrlTargetKey.11101
++ _ZL28gAGXGetCLPCPerfCtrlTargetKey.11116
++ _ZL28gAGXGetCLPCPerfCtrlTargetKey.11140
++ _ZL28gAGXGetCLPCPerfCtrlTargetKey.11257
++ _ZL28gAGXGetCLPCPerfCtrlTargetKey.11499
++ _ZL28gAGXGetCLPCPerfCtrlTargetKey.11656
++ _ZL28gAGXGetCLPCPerfCtrlTargetKey.11784
++ _ZL28gAGXGetCLPCPerfCtrlTargetKey.11898
++ _ZL28gAGXGetCLPCPerfCtrlTargetKey.12041
++ _ZL28gAGXGetCLPCPerfCtrlTargetKey.12130
++ _ZL28gAGXGetCLPCPerfCtrlTargetKey.12223
++ _ZL28gAGXGetCLPCPerfCtrlTargetKey.12310
++ _ZL28gAGXGetCLPCPerfCtrlTargetKey.12393
++ _ZL28gAGXGetCLPCPerfCtrlTargetKey.12481
++ _ZL28gAGXGetCLPCPerfCtrlTargetKey.12582
++ _ZL28gAGXGetCLPCPerfCtrlTargetKey.12673
++ _ZL28gAGXGetCLPCPerfCtrlTargetKey.12771
++ _ZL28gAGXGetCLPCPerfCtrlTargetKey.13161
++ _ZL28gAGXGetCLPCPerfCtrlTargetKey.13459
++ _ZL28gAGXGetCLPCPerfCtrlTargetKey.3663
++ _ZL28gAGXGetCLPCPerfCtrlTargetKey.4116
++ _ZL28gAGXGetCLPCPerfCtrlTargetKey.4539
++ _ZL28gAGXGetCLPCPerfCtrlTargetKey.4962
++ _ZL28gAGXGetCLPCPerfCtrlTargetKey.5287
++ _ZL28gAGXGetCLPCPerfCtrlTargetKey.5371
++ _ZL28gAGXGetCLPCPerfCtrlTargetKey.5457
++ _ZL28gAGXGetCLPCPerfCtrlTargetKey.5481
++ _ZL28gAGXGetCLPCPerfCtrlTargetKey.5496
++ _ZL28gAGXGetCLPCPerfCtrlTargetKey.5611
++ _ZL28gAGXGetCLPCPerfCtrlTargetKey.6438
++ _ZL28gAGXGetCLPCPerfCtrlTargetKey.6560
++ _ZL28gAGXGetCLPCPerfCtrlTargetKey.6665
++ _ZL28gAGXGetCLPCPerfCtrlTargetKey.6783
++ _ZL28gAGXGetCLPCPerfCtrlTargetKey.6871
++ _ZL28gAGXGetCLPCPerfCtrlTargetKey.6989
++ _ZL28gAGXGetCLPCPerfCtrlTargetKey.7684
++ _ZL28gAGXGetCLPCPerfCtrlTargetKey.7747
++ _ZL28gAGXGetCLPCPerfCtrlTargetKey.7780
++ _ZL28gAGXGetCLPCPerfCtrlTargetKey.7874
++ _ZL28gAGXGetCLPCPerfCtrlTargetKey.7900
++ _ZL28gAGXGetCLPCPerfCtrlTargetKey.8016
++ _ZL28gAGXGetCLPCPerfCtrlTargetKey.8097
++ _ZL28gAGXGetCLPCPerfCtrlTargetKey.8269
++ _ZL28gAGXGetCLPCPerfCtrlTargetKey.8396
++ _ZL28gAGXGetCLPCPerfCtrlTargetKey.8482
++ _ZL28gAGXGetCLPCPerfCtrlTargetKey.8694
++ _ZL28gAGXGetCLPCPerfCtrlTargetKey.8831
++ _ZL28gAGXGetCLPCPerfCtrlTargetKey.9021
++ _ZL28gAGXGetCLPCPerfCtrlTargetKey.9120
++ _ZL28gAGXGetCLPCPerfCtrlTargetKey.9262
++ _ZL28gAGXGetCLPCPerfCtrlTargetKey.9412
++ _ZL28gAGXGetCLPCPerfCtrlTargetKey.9488
++ _ZL28gAGXGetCLPCPerfCtrlTargetKey.9593
++ _ZL28gAGXGetCLPCPerfCtrlTargetKey.9718
++ _ZL28gAGXGetCLPCPerfCtrlTargetKey.9811
++ _ZL28gAGXGetCLPCPerfCtrlTargetKey.9910
++ _ZL28gAGXGetCLPCPerfCtrlTargetKey.9933
++ _ZL29gAGXGetCLPCStandbyDurationKey.10056
++ _ZL29gAGXGetCLPCStandbyDurationKey.10165
++ _ZL29gAGXGetCLPCStandbyDurationKey.10192
++ _ZL29gAGXGetCLPCStandbyDurationKey.10314
++ _ZL29gAGXGetCLPCStandbyDurationKey.10436
++ _ZL29gAGXGetCLPCStandbyDurationKey.10692
++ _ZL29gAGXGetCLPCStandbyDurationKey.10828
++ _ZL29gAGXGetCLPCStandbyDurationKey.10920
++ _ZL29gAGXGetCLPCStandbyDurationKey.11058
++ _ZL29gAGXGetCLPCStandbyDurationKey.11097
++ _ZL29gAGXGetCLPCStandbyDurationKey.11112
++ _ZL29gAGXGetCLPCStandbyDurationKey.11136
++ _ZL29gAGXGetCLPCStandbyDurationKey.11253
++ _ZL29gAGXGetCLPCStandbyDurationKey.11495
++ _ZL29gAGXGetCLPCStandbyDurationKey.11652
++ _ZL29gAGXGetCLPCStandbyDurationKey.11780
++ _ZL29gAGXGetCLPCStandbyDurationKey.11894
++ _ZL29gAGXGetCLPCStandbyDurationKey.12037
++ _ZL29gAGXGetCLPCStandbyDurationKey.12126
++ _ZL29gAGXGetCLPCStandbyDurationKey.12219
++ _ZL29gAGXGetCLPCStandbyDurationKey.12306
++ _ZL29gAGXGetCLPCStandbyDurationKey.12389
++ _ZL29gAGXGetCLPCStandbyDurationKey.12477
++ _ZL29gAGXGetCLPCStandbyDurationKey.12578
++ _ZL29gAGXGetCLPCStandbyDurationKey.12669
++ _ZL29gAGXGetCLPCStandbyDurationKey.12767
++ _ZL29gAGXGetCLPCStandbyDurationKey.13157
++ _ZL29gAGXGetCLPCStandbyDurationKey.13455
++ _ZL29gAGXGetCLPCStandbyDurationKey.3661
++ _ZL29gAGXGetCLPCStandbyDurationKey.4112
++ _ZL29gAGXGetCLPCStandbyDurationKey.4535
++ _ZL29gAGXGetCLPCStandbyDurationKey.4958
++ _ZL29gAGXGetCLPCStandbyDurationKey.5283
++ _ZL29gAGXGetCLPCStandbyDurationKey.5367
++ _ZL29gAGXGetCLPCStandbyDurationKey.5453
++ _ZL29gAGXGetCLPCStandbyDurationKey.5477
++ _ZL29gAGXGetCLPCStandbyDurationKey.5492
++ _ZL29gAGXGetCLPCStandbyDurationKey.5607
++ _ZL29gAGXGetCLPCStandbyDurationKey.6434
++ _ZL29gAGXGetCLPCStandbyDurationKey.6556
++ _ZL29gAGXGetCLPCStandbyDurationKey.6661
++ _ZL29gAGXGetCLPCStandbyDurationKey.6779
++ _ZL29gAGXGetCLPCStandbyDurationKey.6867
++ _ZL29gAGXGetCLPCStandbyDurationKey.6985
++ _ZL29gAGXGetCLPCStandbyDurationKey.7680
++ _ZL29gAGXGetCLPCStandbyDurationKey.7743
++ _ZL29gAGXGetCLPCStandbyDurationKey.7776
++ _ZL29gAGXGetCLPCStandbyDurationKey.7870
++ _ZL29gAGXGetCLPCStandbyDurationKey.7896
++ _ZL29gAGXGetCLPCStandbyDurationKey.8012
++ _ZL29gAGXGetCLPCStandbyDurationKey.8093
++ _ZL29gAGXGetCLPCStandbyDurationKey.8265
++ _ZL29gAGXGetCLPCStandbyDurationKey.8392
++ _ZL29gAGXGetCLPCStandbyDurationKey.8478
++ _ZL29gAGXGetCLPCStandbyDurationKey.8690
++ _ZL29gAGXGetCLPCStandbyDurationKey.8827
++ _ZL29gAGXGetCLPCStandbyDurationKey.9017
++ _ZL29gAGXGetCLPCStandbyDurationKey.9116
++ _ZL29gAGXGetCLPCStandbyDurationKey.9258
++ _ZL29gAGXGetCLPCStandbyDurationKey.9408
++ _ZL29gAGXGetCLPCStandbyDurationKey.9484
++ _ZL29gAGXGetCLPCStandbyDurationKey.9589
++ _ZL29gAGXGetCLPCStandbyDurationKey.9714
++ _ZL29gAGXGetCLPCStandbyDurationKey.9807
++ _ZL29gAGXGetCLPCStandbyDurationKey.9906
++ _ZL29gAGXGetCLPCStandbyDurationKey.9929
++ _ZL29gPPMRegisterClientFunctionKey.6442
++ _ZL29gPPMRegisterClientFunctionKey.6564
++ _ZL29gPPMRegisterClientFunctionKey.6993
++ _ZL29gPPMRegisterClientFunctionKey.7688
++ _ZL29gPPMRegisterClientFunctionKey.9492
++ _ZL31gAGXGetCLPCPowerSamplePeriodKey.10058
++ _ZL31gAGXGetCLPCPowerSamplePeriodKey.10167
++ _ZL31gAGXGetCLPCPowerSamplePeriodKey.10194
++ _ZL31gAGXGetCLPCPowerSamplePeriodKey.10316
++ _ZL31gAGXGetCLPCPowerSamplePeriodKey.10438
++ _ZL31gAGXGetCLPCPowerSamplePeriodKey.10694
++ _ZL31gAGXGetCLPCPowerSamplePeriodKey.10830
++ _ZL31gAGXGetCLPCPowerSamplePeriodKey.10922
++ _ZL31gAGXGetCLPCPowerSamplePeriodKey.11060
++ _ZL31gAGXGetCLPCPowerSamplePeriodKey.11099
++ _ZL31gAGXGetCLPCPowerSamplePeriodKey.11114
++ _ZL31gAGXGetCLPCPowerSamplePeriodKey.11138
++ _ZL31gAGXGetCLPCPowerSamplePeriodKey.11255
++ _ZL31gAGXGetCLPCPowerSamplePeriodKey.11497
++ _ZL31gAGXGetCLPCPowerSamplePeriodKey.11654
++ _ZL31gAGXGetCLPCPowerSamplePeriodKey.11782
++ _ZL31gAGXGetCLPCPowerSamplePeriodKey.11896
++ _ZL31gAGXGetCLPCPowerSamplePeriodKey.12039
++ _ZL31gAGXGetCLPCPowerSamplePeriodKey.12128
++ _ZL31gAGXGetCLPCPowerSamplePeriodKey.12221
++ _ZL31gAGXGetCLPCPowerSamplePeriodKey.12308
++ _ZL31gAGXGetCLPCPowerSamplePeriodKey.12391
++ _ZL31gAGXGetCLPCPowerSamplePeriodKey.12479
++ _ZL31gAGXGetCLPCPowerSamplePeriodKey.12580
++ _ZL31gAGXGetCLPCPowerSamplePeriodKey.12671
++ _ZL31gAGXGetCLPCPowerSamplePeriodKey.12769
++ _ZL31gAGXGetCLPCPowerSamplePeriodKey.13159
++ _ZL31gAGXGetCLPCPowerSamplePeriodKey.13457
++ _ZL31gAGXGetCLPCPowerSamplePeriodKey.3662
++ _ZL31gAGXGetCLPCPowerSamplePeriodKey.4114
++ _ZL31gAGXGetCLPCPowerSamplePeriodKey.4537
++ _ZL31gAGXGetCLPCPowerSamplePeriodKey.4960
++ _ZL31gAGXGetCLPCPowerSamplePeriodKey.5285
++ _ZL31gAGXGetCLPCPowerSamplePeriodKey.5369
++ _ZL31gAGXGetCLPCPowerSamplePeriodKey.5455
++ _ZL31gAGXGetCLPCPowerSamplePeriodKey.5479
++ _ZL31gAGXGetCLPCPowerSamplePeriodKey.5494
++ _ZL31gAGXGetCLPCPowerSamplePeriodKey.5609
++ _ZL31gAGXGetCLPCPowerSamplePeriodKey.6436
++ _ZL31gAGXGetCLPCPowerSamplePeriodKey.6558
++ _ZL31gAGXGetCLPCPowerSamplePeriodKey.6663
++ _ZL31gAGXGetCLPCPowerSamplePeriodKey.6781
++ _ZL31gAGXGetCLPCPowerSamplePeriodKey.6869
++ _ZL31gAGXGetCLPCPowerSamplePeriodKey.6987
++ _ZL31gAGXGetCLPCPowerSamplePeriodKey.7682
++ _ZL31gAGXGetCLPCPowerSamplePeriodKey.7745
++ _ZL31gAGXGetCLPCPowerSamplePeriodKey.7778
++ _ZL31gAGXGetCLPCPowerSamplePeriodKey.7872
++ _ZL31gAGXGetCLPCPowerSamplePeriodKey.7898
++ _ZL31gAGXGetCLPCPowerSamplePeriodKey.8014
++ _ZL31gAGXGetCLPCPowerSamplePeriodKey.8095
++ _ZL31gAGXGetCLPCPowerSamplePeriodKey.8267
++ _ZL31gAGXGetCLPCPowerSamplePeriodKey.8394
++ _ZL31gAGXGetCLPCPowerSamplePeriodKey.8480
++ _ZL31gAGXGetCLPCPowerSamplePeriodKey.8692
++ _ZL31gAGXGetCLPCPowerSamplePeriodKey.8829
++ _ZL31gAGXGetCLPCPowerSamplePeriodKey.9019
++ _ZL31gAGXGetCLPCPowerSamplePeriodKey.9118
++ _ZL31gAGXGetCLPCPowerSamplePeriodKey.9260
++ _ZL31gAGXGetCLPCPowerSamplePeriodKey.9410
++ _ZL31gAGXGetCLPCPowerSamplePeriodKey.9486
++ _ZL31gAGXGetCLPCPowerSamplePeriodKey.9591
++ _ZL31gAGXGetCLPCPowerSamplePeriodKey.9716
++ _ZL31gAGXGetCLPCPowerSamplePeriodKey.9809
++ _ZL31gAGXGetCLPCPowerSamplePeriodKey.9908
++ _ZL31gAGXGetCLPCPowerSamplePeriodKey.9931
++ _ZL34gAGXGetFilteredGPUPowerFunctionKey.10050
++ _ZL34gAGXGetFilteredGPUPowerFunctionKey.10159
++ _ZL34gAGXGetFilteredGPUPowerFunctionKey.10186
++ _ZL34gAGXGetFilteredGPUPowerFunctionKey.10308
++ _ZL34gAGXGetFilteredGPUPowerFunctionKey.10430
++ _ZL34gAGXGetFilteredGPUPowerFunctionKey.10686
++ _ZL34gAGXGetFilteredGPUPowerFunctionKey.10822
++ _ZL34gAGXGetFilteredGPUPowerFunctionKey.10914
++ _ZL34gAGXGetFilteredGPUPowerFunctionKey.11052
++ _ZL34gAGXGetFilteredGPUPowerFunctionKey.11091
++ _ZL34gAGXGetFilteredGPUPowerFunctionKey.11106
++ _ZL34gAGXGetFilteredGPUPowerFunctionKey.11130
++ _ZL34gAGXGetFilteredGPUPowerFunctionKey.11247
++ _ZL34gAGXGetFilteredGPUPowerFunctionKey.11489
++ _ZL34gAGXGetFilteredGPUPowerFunctionKey.11646
++ _ZL34gAGXGetFilteredGPUPowerFunctionKey.11774
++ _ZL34gAGXGetFilteredGPUPowerFunctionKey.11888
++ _ZL34gAGXGetFilteredGPUPowerFunctionKey.12031
++ _ZL34gAGXGetFilteredGPUPowerFunctionKey.12120
++ _ZL34gAGXGetFilteredGPUPowerFunctionKey.12213
++ _ZL34gAGXGetFilteredGPUPowerFunctionKey.12300
++ _ZL34gAGXGetFilteredGPUPowerFunctionKey.12383
++ _ZL34gAGXGetFilteredGPUPowerFunctionKey.12471
++ _ZL34gAGXGetFilteredGPUPowerFunctionKey.12572
++ _ZL34gAGXGetFilteredGPUPowerFunctionKey.12663
++ _ZL34gAGXGetFilteredGPUPowerFunctionKey.12761
++ _ZL34gAGXGetFilteredGPUPowerFunctionKey.13151
++ _ZL34gAGXGetFilteredGPUPowerFunctionKey.13449
++ _ZL34gAGXGetFilteredGPUPowerFunctionKey.3690
++ _ZL34gAGXGetFilteredGPUPowerFunctionKey.4106
++ _ZL34gAGXGetFilteredGPUPowerFunctionKey.4529
++ _ZL34gAGXGetFilteredGPUPowerFunctionKey.4952
++ _ZL34gAGXGetFilteredGPUPowerFunctionKey.5277
++ _ZL34gAGXGetFilteredGPUPowerFunctionKey.5361
++ _ZL34gAGXGetFilteredGPUPowerFunctionKey.5447
++ _ZL34gAGXGetFilteredGPUPowerFunctionKey.5471
++ _ZL34gAGXGetFilteredGPUPowerFunctionKey.5486
++ _ZL34gAGXGetFilteredGPUPowerFunctionKey.5601
++ _ZL34gAGXGetFilteredGPUPowerFunctionKey.6428
++ _ZL34gAGXGetFilteredGPUPowerFunctionKey.6550
++ _ZL34gAGXGetFilteredGPUPowerFunctionKey.6655
++ _ZL34gAGXGetFilteredGPUPowerFunctionKey.6773
++ _ZL34gAGXGetFilteredGPUPowerFunctionKey.6861
++ _ZL34gAGXGetFilteredGPUPowerFunctionKey.6979
++ _ZL34gAGXGetFilteredGPUPowerFunctionKey.7674
++ _ZL34gAGXGetFilteredGPUPowerFunctionKey.7737
++ _ZL34gAGXGetFilteredGPUPowerFunctionKey.7770
++ _ZL34gAGXGetFilteredGPUPowerFunctionKey.7864
++ _ZL34gAGXGetFilteredGPUPowerFunctionKey.7890
++ _ZL34gAGXGetFilteredGPUPowerFunctionKey.8006
++ _ZL34gAGXGetFilteredGPUPowerFunctionKey.8087
++ _ZL34gAGXGetFilteredGPUPowerFunctionKey.8259
++ _ZL34gAGXGetFilteredGPUPowerFunctionKey.8386
++ _ZL34gAGXGetFilteredGPUPowerFunctionKey.8472
++ _ZL34gAGXGetFilteredGPUPowerFunctionKey.8684
++ _ZL34gAGXGetFilteredGPUPowerFunctionKey.8821
++ _ZL34gAGXGetFilteredGPUPowerFunctionKey.9011
++ _ZL34gAGXGetFilteredGPUPowerFunctionKey.9110
++ _ZL34gAGXGetFilteredGPUPowerFunctionKey.9252
++ _ZL34gAGXGetFilteredGPUPowerFunctionKey.9402
++ _ZL34gAGXGetFilteredGPUPowerFunctionKey.9478
++ _ZL34gAGXGetFilteredGPUPowerFunctionKey.9583
++ _ZL34gAGXGetFilteredGPUPowerFunctionKey.9708
++ _ZL34gAGXGetFilteredGPUPowerFunctionKey.9801
++ _ZL34gAGXGetFilteredGPUPowerFunctionKey.9900
++ _ZL34gAGXGetFilteredGPUPowerFunctionKey.9923
++ _ZL35gAGXGetCLPCDynamicSplitRatioDictKey.10052
++ _ZL35gAGXGetCLPCDynamicSplitRatioDictKey.10161
++ _ZL35gAGXGetCLPCDynamicSplitRatioDictKey.10188
++ _ZL35gAGXGetCLPCDynamicSplitRatioDictKey.10310
++ _ZL35gAGXGetCLPCDynamicSplitRatioDictKey.10432
++ _ZL35gAGXGetCLPCDynamicSplitRatioDictKey.10688
++ _ZL35gAGXGetCLPCDynamicSplitRatioDictKey.10824
++ _ZL35gAGXGetCLPCDynamicSplitRatioDictKey.10916
++ _ZL35gAGXGetCLPCDynamicSplitRatioDictKey.11054
++ _ZL35gAGXGetCLPCDynamicSplitRatioDictKey.11093
++ _ZL35gAGXGetCLPCDynamicSplitRatioDictKey.11108
++ _ZL35gAGXGetCLPCDynamicSplitRatioDictKey.11132
++ _ZL35gAGXGetCLPCDynamicSplitRatioDictKey.11249
++ _ZL35gAGXGetCLPCDynamicSplitRatioDictKey.11491
++ _ZL35gAGXGetCLPCDynamicSplitRatioDictKey.11648
++ _ZL35gAGXGetCLPCDynamicSplitRatioDictKey.11776
++ _ZL35gAGXGetCLPCDynamicSplitRatioDictKey.11890
++ _ZL35gAGXGetCLPCDynamicSplitRatioDictKey.12033
++ _ZL35gAGXGetCLPCDynamicSplitRatioDictKey.12122
++ _ZL35gAGXGetCLPCDynamicSplitRatioDictKey.12215
++ _ZL35gAGXGetCLPCDynamicSplitRatioDictKey.12302
++ _ZL35gAGXGetCLPCDynamicSplitRatioDictKey.12385
++ _ZL35gAGXGetCLPCDynamicSplitRatioDictKey.12473
++ _ZL35gAGXGetCLPCDynamicSplitRatioDictKey.12574
++ _ZL35gAGXGetCLPCDynamicSplitRatioDictKey.12665
++ _ZL35gAGXGetCLPCDynamicSplitRatioDictKey.12763
++ _ZL35gAGXGetCLPCDynamicSplitRatioDictKey.13153
++ _ZL35gAGXGetCLPCDynamicSplitRatioDictKey.13451
++ _ZL35gAGXGetCLPCDynamicSplitRatioDictKey.3510
++ _ZL35gAGXGetCLPCDynamicSplitRatioDictKey.4108
++ _ZL35gAGXGetCLPCDynamicSplitRatioDictKey.4531
++ _ZL35gAGXGetCLPCDynamicSplitRatioDictKey.4954
++ _ZL35gAGXGetCLPCDynamicSplitRatioDictKey.5279
++ _ZL35gAGXGetCLPCDynamicSplitRatioDictKey.5363
++ _ZL35gAGXGetCLPCDynamicSplitRatioDictKey.5449
++ _ZL35gAGXGetCLPCDynamicSplitRatioDictKey.5473
++ _ZL35gAGXGetCLPCDynamicSplitRatioDictKey.5488
++ _ZL35gAGXGetCLPCDynamicSplitRatioDictKey.5603
++ _ZL35gAGXGetCLPCDynamicSplitRatioDictKey.6430
++ _ZL35gAGXGetCLPCDynamicSplitRatioDictKey.6552
++ _ZL35gAGXGetCLPCDynamicSplitRatioDictKey.6657
++ _ZL35gAGXGetCLPCDynamicSplitRatioDictKey.6775
++ _ZL35gAGXGetCLPCDynamicSplitRatioDictKey.6863
++ _ZL35gAGXGetCLPCDynamicSplitRatioDictKey.6981
++ _ZL35gAGXGetCLPCDynamicSplitRatioDictKey.7676
++ _ZL35gAGXGetCLPCDynamicSplitRatioDictKey.7739
++ _ZL35gAGXGetCLPCDynamicSplitRatioDictKey.7772
++ _ZL35gAGXGetCLPCDynamicSplitRatioDictKey.7866
++ _ZL35gAGXGetCLPCDynamicSplitRatioDictKey.7892
++ _ZL35gAGXGetCLPCDynamicSplitRatioDictKey.8008
++ _ZL35gAGXGetCLPCDynamicSplitRatioDictKey.8089
++ _ZL35gAGXGetCLPCDynamicSplitRatioDictKey.8261
++ _ZL35gAGXGetCLPCDynamicSplitRatioDictKey.8388
++ _ZL35gAGXGetCLPCDynamicSplitRatioDictKey.8474
++ _ZL35gAGXGetCLPCDynamicSplitRatioDictKey.8686
++ _ZL35gAGXGetCLPCDynamicSplitRatioDictKey.8823
++ _ZL35gAGXGetCLPCDynamicSplitRatioDictKey.9013
++ _ZL35gAGXGetCLPCDynamicSplitRatioDictKey.9112
++ _ZL35gAGXGetCLPCDynamicSplitRatioDictKey.9254
++ _ZL35gAGXGetCLPCDynamicSplitRatioDictKey.9404
++ _ZL35gAGXGetCLPCDynamicSplitRatioDictKey.9480
++ _ZL35gAGXGetCLPCDynamicSplitRatioDictKey.9585
++ _ZL35gAGXGetCLPCDynamicSplitRatioDictKey.9710
++ _ZL35gAGXGetCLPCDynamicSplitRatioDictKey.9803
++ _ZL35gAGXGetCLPCDynamicSplitRatioDictKey.9902
++ _ZL35gAGXGetCLPCDynamicSplitRatioDictKey.9925
++ _ZN10AGXChannel24encodeInvalidatePDSCacheE19_AGFIDataMasterType.5567
++ _ZN10AGXChannel24encodeInvalidatePDSCacheE19_AGFIDataMasterType.6516
++ _ZN10AGXChannel24encodeInvalidatePDSCacheE19_AGFIDataMasterType.6945
++ _ZN10AGXChannel28encodeInvalidateUSCInstCacheEv.5569
++ _ZN10AGXChannel28encodeInvalidateUSCInstCacheEv.6518
++ _ZN10AGXChannel28encodeInvalidateUSCInstCacheEv.6947
++ _ZN10AGXChannel32markCommandsSubmittedToAccelRingEv.5566
++ _ZN10AGXChannel32markCommandsSubmittedToAccelRingEv.6515
++ _ZN10AGXChannel32markCommandsSubmittedToAccelRingEv.6944
++ _ZN10AGXChannel34unmarkCommandsSubmittedToAccelRingEv.5565
++ _ZN10AGXChannel34unmarkCommandsSubmittedToAccelRingEv.6514
++ _ZN10AGXChannel34unmarkCommandsSubmittedToAccelRingEv.6943
++ _ZN10AGXChannel36encodeInvalidateDynamicConstantCacheEv.5568
++ _ZN10AGXChannel36encodeInvalidateDynamicConstantCacheEv.6517
++ _ZN10AGXChannel36encodeInvalidateDynamicConstantCacheEv.6946
++ _ZN11AGXFirmware14getGPUMaxPowerEv.3519
++ _ZN11AGXFirmware14getGPUMaxPowerEv.4068
++ _ZN11AGXFirmware14getGPUMaxPowerEv.4491
++ _ZN11AGXFirmware14getGPUMaxPowerEv.4914
++ _ZN11AGXFirmware17isWaitingForKicksEv.3521
++ _ZN11AGXFirmware17isWaitingForKicksEv.4070
++ _ZN11AGXFirmware17isWaitingForKicksEv.4493
++ _ZN11AGXFirmware17isWaitingForKicksEv.4916
++ _ZN11AGXFirmware18setPropertyQoSModeEyy.3486
++ _ZN11AGXFirmware18setPropertyQoSModeEyy.4056
++ _ZN11AGXFirmware18setPropertyQoSModeEyy.4478
++ _ZN11AGXFirmware18setPropertyQoSModeEyy.4901
++ _ZN11AGXFirmware21isFirmwareInitialisedEv.3522
++ _ZN11AGXFirmware21isFirmwareInitialisedEv.4071
++ _ZN11AGXFirmware21isFirmwareInitialisedEv.4494
++ _ZN11AGXFirmware21isFirmwareInitialisedEv.4917
++ _ZN11AGXFirmware22isFirmwareColdBootDoneEv.3659
++ _ZN11AGXFirmware22isFirmwareColdBootDoneEv.4074
++ _ZN11AGXFirmware22isFirmwareColdBootDoneEv.4497
++ _ZN11AGXFirmware22isFirmwareColdBootDoneEv.4920
++ _ZN11AGXFirmware24completeFirmwareColdBootE16AGFIFirmwareRole.3658
++ _ZN11AGXFirmware24completeFirmwareColdBootE16AGFIFirmwareRole.4073
++ _ZN11AGXFirmware24completeFirmwareColdBootE16AGFIFirmwareRole.4496
++ _ZN11AGXFirmware24completeFirmwareColdBootE16AGFIFirmwareRole.4919
++ _ZN11AGXFirmware24updateMRCConfigOverridesEP12OSDictionary.4041
++ _ZN11AGXFirmware24updateMRCConfigOverridesEP12OSDictionary.4463
++ _ZN11AGXFirmware24updateMRCConfigOverridesEP12OSDictionary.4886
++ _ZN11AGXFirmware26getUVWarnCounterDictionaryEv.3507
++ _ZN11AGXFirmware26getUVWarnCounterDictionaryEv.4062
++ _ZN11AGXFirmware26getUVWarnCounterDictionaryEv.4484
++ _ZN11AGXFirmware26getUVWarnCounterDictionaryEv.4907
++ _ZN11AGXFirmware26resetKSMDynamicPowerGatingEv.3478
++ _ZN11AGXFirmware26resetKSMDynamicPowerGatingEv.4054
++ _ZN11AGXFirmware26resetKSMDynamicPowerGatingEv.4476
++ _ZN11AGXFirmware26resetKSMDynamicPowerGatingEv.4899
++ _ZN11AGXFirmware31snapshotInspectionCriticalStateEv.3523
++ _ZN11AGXFirmware31snapshotInspectionCriticalStateEv.4072
++ _ZN11AGXFirmware31snapshotInspectionCriticalStateEv.4495
++ _ZN11AGXFirmware31snapshotInspectionCriticalStateEv.4918
++ _ZN11AGXFirmware33setKSMDynamicPowerGatingOverridesEP33AGFKSMDynamicPowerGatingOverrides.3479
++ _ZN11AGXFirmware33setKSMDynamicPowerGatingOverridesEP33AGFKSMDynamicPowerGatingOverrides.4055
++ _ZN11AGXFirmware33setKSMDynamicPowerGatingOverridesEP33AGFKSMDynamicPowerGatingOverrides.4477
++ _ZN11AGXFirmware33setKSMDynamicPowerGatingOverridesEP33AGFKSMDynamicPowerGatingOverrides.4900
++ _ZN11AGXFirmware37updateDeadlineAwareControllerOverrideEP12OSDictionary.3475
++ _ZN11AGXFirmware37updateDeadlineAwareControllerOverrideEP12OSDictionary.4042
++ _ZN11AGXFirmware37updateDeadlineAwareControllerOverrideEP12OSDictionary.4464
++ _ZN11AGXFirmware37updateDeadlineAwareControllerOverrideEP12OSDictionary.4887
++ _ZN14AGXAccelerator14enableGameModeEb.7590
++ _ZN14AGXAccelerator14isPIOSupportedEv.7613
++ _ZN14AGXAccelerator15forceIPPBarrierE12AGXWalkOrderj.7605
++ _ZN14AGXAccelerator15getDPEACWinInfoEP13AGFDPEPPTInfoty.7576
++ _ZN14AGXAccelerator15getSamplePeriodEv.7527
++ _ZN14AGXAccelerator15updateG9GConfigEj.7594
++ _ZN14AGXAccelerator16getDPEACDthrInfoEP13AGFDPEPPTInfoty.7577
++ _ZN14AGXAccelerator16getDPEDCDthrInfoEP13AGFDPEPPTInfoty.7573
++ _ZN14AGXAccelerator16getUMAesPageSizeER13AGXUMADescRecb.7534
++ _ZN14AGXAccelerator16postBootFirmwareEv.7606
++ _ZN14AGXAccelerator17getDPEACDshftInfoEP13AGFDPEPPTInfoty.7578
++ _ZN14AGXAccelerator17getDPEDCDshftInfoEP13AGFDPEPPTInfoty.7574
++ _ZN14AGXAccelerator17isHWDSIDAvailableEh.7511
++ _ZN14AGXAccelerator18getDPEImaxDthrInfoEP13AGFDPEPPTInfoty.7571
++ _ZN14AGXAccelerator18getDPEImaxWin1InfoEP13AGFDPEPPTInfoty.7569
++ _ZN14AGXAccelerator18getDPEImaxWin2InfoEP13AGFDPEPPTInfoty.7568
++ _ZN14AGXAccelerator18setPropertyQoSModeEP12OSDictionaryP8OSObject.7493
++ _ZN14AGXAccelerator19computeDPEPPTValuesEP19AGFDPEPPTConfigDataf.7556
++ _ZN14AGXAccelerator19getDPEImaxDshftInfoEP13AGFDPEPPTInfoty.7572
++ _ZN14AGXAccelerator19getKernelGMMUTablesEv.7497
++ _ZN14AGXAccelerator19handleSAPTInterruptEv.7591
++ _ZN14AGXAccelerator19isPowerManagedInAGXEv.7612
++ _ZN14AGXAccelerator19isQOSBillingEnabledEv.7532
++ _ZN14AGXAccelerator19setKernelGMMUTablesEPv.7498
++ _ZN14AGXAccelerator19supportsMTRSecurityEv.7611
++ _ZN14AGXAccelerator20getDPEImaxBudgetInfoEP13AGFDPEPPTInfoty.7570
++ _ZN14AGXAccelerator21getGPUMemoryThresholdEv.7589
++ _ZN14AGXAccelerator21getGPUPhysicalAddressEv.7610
++ _ZN14AGXAccelerator21populateCSCAllocationEv.7520
++ _ZN14AGXAccelerator21use16kPageSizeDefaultEv.7595
++ _ZN14AGXAccelerator22getDPEDCCompCondBudgetEP13AGFDPEPPTInfoty.7559
++ _ZN14AGXAccelerator22getDPEDCCondBudgetInfoEP13AGFDPEPPTInfoty.7575
++ _ZN14AGXAccelerator22getDPEImaxPredWin1InfoEP13AGFDPEPPTInfoty.7566
++ _ZN14AGXAccelerator22getDPEImaxPredWin2InfoEP13AGFDPEPPTInfoty.7565
++ _ZN14AGXAccelerator22requiresPerDMContextIDEv.7614
++ _ZN14AGXAccelerator23getDPEImaxReactWin1InfoEP13AGFDPEPPTInfoty.7562
++ _ZN14AGXAccelerator23getDPEImaxReactWin2InfoEP13AGFDPEPPTInfoty.7561
++ _ZN14AGXAccelerator23populateStaticPowerDataEv.7586
++ _ZN14AGXAccelerator24getDPEDCCompDshiftThreshEP13AGFDPEPPTInfoty.7558
++ _ZN14AGXAccelerator24getDPEImaxPredBudgetInfoEP13AGFDPEPPTInfoty.7567
++ _ZN14AGXAccelerator24getFenceBufferGPUAddressEv.7545
++ _ZN14AGXAccelerator24getFenderPhysicalAddressEv.7609
++ _ZN14AGXAccelerator24getNumContextIDsOverrideEv.7615
++ _ZN14AGXAccelerator24getSamplePeriodAICClocksEv.7526
++ _ZN14AGXAccelerator24getUVWarnPhysicalAddressEv.7608
++ _ZN14AGXAccelerator24halNewSpillBufferManagerEv.7597
++ _ZN14AGXAccelerator24updateImaxReactiveBudgetEv.7555
++ _ZN14AGXAccelerator25brn55237EncodePollTPFIdleEP13AGXSKUEncoder.7620
++ _ZN14AGXAccelerator25getDPECurrentDefaultLimitEv.7557
++ _ZN14AGXAccelerator25getDPEImaxReactBudgetInfoEP13AGFDPEPPTInfoty.7563
++ _ZN14AGXAccelerator25halWaitForFenderPowerGateEv.7499
++ _ZN14AGXAccelerator26halGetSmallestUMABlockSizeEv.7536
++ _ZN14AGXAccelerator28getDPEImaxPredTrigThreshInfoEP13AGFDPEPPTInfoty.7564
++ _ZN14AGXAccelerator28populateInitSequenceFirmwareEh.7616
++ _ZN14AGXAccelerator28setPropertyDefaultQoSTargetsEP12OSDictionaryP8OSObject.7491
++ _ZN14AGXAccelerator29getBorderColorTableGPUAddressEv.7546
++ _ZN14AGXAccelerator29getDPEImaxReactTrigThreshInfoEP13AGFDPEPPTInfoty.7560
++ _ZN14AGXAccelerator29supportsOptimizedUMASharedMinEv.7535
++ _ZN14AGXAccelerator30getUMAMaxActiveCDMKicksPerMGPUEb.7537
++ _ZN14AGXAccelerator30getUMAMaxActiveFRGKicksPerMGPUEb.7538
++ _ZN14AGXAccelerator30populateDPEAdjustmentCoEffDataEv.7585
++ _ZN14AGXAccelerator30populateDPELeakageUpdateConfigEP25AGXDPELeakageUpdateConfig.7581
++ _ZN14AGXAccelerator34updateImaxReactiveTriggerThresholdEv.7554
++ _ZN14AGXAccelerator47setPropertyNoiseSuppressionGPUIdlePowerOffStateEP12OSDictionaryP8OSObject.7492
++ _ZN14AGXArmFirmware11isGFXBootedEPy.4051
++ _ZN14AGXArmFirmware11isGFXBootedEPy.4473
++ _ZN14AGXArmFirmware11isGFXBootedEPy.4896
++ _ZN14AGXArmFirmware12setInitReg32Etjh.4066
++ _ZN14AGXArmFirmware12setInitReg32Etjh.4489
++ _ZN14AGXArmFirmware12setInitReg32Etjh.4912
++ _ZN14AGXArmFirmware12setInitReg64Etyh.4065
++ _ZN14AGXArmFirmware12setInitReg64Etyh.4488
++ _ZN14AGXArmFirmware12setInitReg64Etyh.4911
++ _ZN14AGXArmFirmware14setInitReg64PAEtyjh.4064
++ _ZN14AGXArmFirmware14setInitReg64PAEtyjh.4487
++ _ZN14AGXArmFirmware14setInitReg64PAEtyjh.4910
++ _ZN14AGXArmFirmware19getFSTPOverrideMaskE19_AGFIDataMasterTypeb.4044
++ _ZN14AGXArmFirmware19getFSTPOverrideMaskE19_AGFIDataMasterTypeb.4466
++ _ZN14AGXArmFirmware19getFSTPOverrideMaskE19_AGFIDataMasterTypeb.4889
++ _ZN14AGXArmFirmware21initSoftFaultSettingsEb.4047
++ _ZN14AGXArmFirmware21initSoftFaultSettingsEb.4469
++ _ZN14AGXArmFirmware21initSoftFaultSettingsEb.4892
++ _ZN14AGXArmFirmware21isFSTPOverrideEnabledEv.4045
++ _ZN14AGXArmFirmware21isFSTPOverrideEnabledEv.4467
++ _ZN14AGXArmFirmware21isFSTPOverrideEnabledEv.4890
++ _ZN14AGXArmFirmware22getDPEImaxCurrentLimitEv.4069
++ _ZN14AGXArmFirmware22getDPEImaxCurrentLimitEv.4492
++ _ZN14AGXArmFirmware22getDPEImaxCurrentLimitEv.4915
++ _ZN14AGXArmFirmware23updateSoftFaultSettingsEb.4046
++ _ZN14AGXArmFirmware23updateSoftFaultSettingsEb.4468
++ _ZN14AGXArmFirmware23updateSoftFaultSettingsEb.4891
++ _ZN14AGXArmFirmware24isForceGTPDiscardEnabledEv.4040
++ _ZN14AGXArmFirmware24isForceGTPDiscardEnabledEv.4462
++ _ZN14AGXArmFirmware24isForceGTPDiscardEnabledEv.4885
++ _ZN14AGXArmFirmware24resetFirmwareForRecoveryEv.4061
++ _ZN14AGXArmFirmware24resetFirmwareForRecoveryEv.4483
++ _ZN14AGXArmFirmware24resetFirmwareForRecoveryEv.4906
++ _ZN14AGXArmFirmware27setCommandSubmissionEnabledEb.4067
++ _ZN14AGXArmFirmware27setCommandSubmissionEnabledEb.4490
++ _ZN14AGXArmFirmware27setCommandSubmissionEnabledEb.4913
++ _ZN14AGXArmFirmware28getDefaultCLKillTimeoutLimitEv.4058
++ _ZN14AGXArmFirmware28getDefaultCLKillTimeoutLimitEv.4480
++ _ZN14AGXArmFirmware28getDefaultCLKillTimeoutLimitEv.4903
++ _ZN14AGXArmFirmware29getMCacheRegistersBaseAddressEv.4050
++ _ZN14AGXArmFirmware29getMCacheRegistersBaseAddressEv.4472
++ _ZN14AGXArmFirmware29getMCacheRegistersBaseAddressEv.4895
++ _ZN14AGXArmFirmware32getDefaultCDMBackoffTimeoutLimitEv.4057
++ _ZN14AGXArmFirmware32getDefaultCDMBackoffTimeoutLimitEv.4479
++ _ZN14AGXArmFirmware32getDefaultCDMBackoffTimeoutLimitEv.4902
++ _ZN14AGXArmFirmware34clearOutstandingFirmwareInterruptsEv.4043
++ _ZN14AGXArmFirmware34clearOutstandingFirmwareInterruptsEv.4465
++ _ZN14AGXArmFirmware34clearOutstandingFirmwareInterruptsEv.4888
++ _ZN14AGXArmFirmware35isSystemSleepNotificationInProgressEv.4052
++ _ZN14AGXArmFirmware35isSystemSleepNotificationInProgressEv.4474
++ _ZN14AGXArmFirmware35isSystemSleepNotificationInProgressEv.4897
++ _ZN14AGXArmFirmware36setSystemSleepNotificationInProgressEb.4053
++ _ZN14AGXArmFirmware36setSystemSleepNotificationInProgressEb.4475
++ _ZN14AGXArmFirmware36setSystemSleepNotificationInProgressEb.4898
++ _ZN14AGXArmFirmware37getDefaultCLContextSwitchTimeoutLimitEv.4060
++ _ZN14AGXArmFirmware37getDefaultCLContextSwitchTimeoutLimitEv.4482
++ _ZN14AGXArmFirmware37getDefaultCLContextSwitchTimeoutLimitEv.4905
++ _ZN14AGXArmFirmware39getDefaultRelaxedCLContextSwitchTimeoutEv.4059
++ _ZN14AGXArmFirmware39getDefaultRelaxedCLContextSwitchTimeoutEv.4481
++ _ZN14AGXArmFirmware39getDefaultRelaxedCLContextSwitchTimeoutEv.4904
++ _ZN14IOGPUMemoryMap15matchOptionBitsEy.10395
++ _ZN14PerfCtrCommand4initEP16AGXPerfCtrConfigbj.9605
++ _ZN17AGXAcceleratorG1512new3DChannelEv.7603
++ _ZN17AGXAcceleratorG1512newCLChannelEv.7602
++ _ZN17AGXAcceleratorG1512newTAChannelEv.7604
++ _ZN17AGXAcceleratorG1513halNewUMAPoolEv.7553
++ _ZN17AGXAcceleratorG1514halNewFirmwareEv.7598
++ _ZN17AGXAcceleratorG1518freeBRNWorkaroundsEv.7524
++ _ZN17AGXAcceleratorG1518initBRNWorkaroundsEv.7525
++ _ZN17AGXAcceleratorG1518populateFWBRNTableEPv.7522
++ _ZN17AGXAcceleratorG1518setupCSCAllocationEv.7531
++ _ZN17AGXAcceleratorG1522halGetMappingAlignmentEv.7533
++ _ZN17AGXAcceleratorG1522halNewFastRenderTargetEv.7601
++ _ZN17AGXAcceleratorG1522halNewParameterManagerEv.7599
++ _ZN17AGXAcceleratorG1523getUMARingBufferSizeMaxEv.7540
++ _ZN17AGXAcceleratorG1524halNewRenderTargetMemoryEv.7600
++ _ZN17AGXAcceleratorG1525enumerateHardwareMappingsEPFvP14AGXAcceleratorP12AGXMemoryMapPKcPvES6_.7528
++ _ZN17AGXAcceleratorG1526populateBootTimeFWBRNTableEPvyj.7521
++ _ZN17AGXAcceleratorG1529getPBDescriptorTableFWAddressEv.7543
++ _ZN17AGXAcceleratorG1529getUMARingBufferSizeAlignmentEv.7539
++ _ZN17AGXAcceleratorG1530getPBDescriptorTableGPUAddressEv.7544
++ _ZN17AGXAcceleratorG1538getUMAPagePoolDescriptorTableFWAddressEv.7541
++ _ZN17AGXAcceleratorG1539getUMAPagePoolDescriptorTableGPUAddressEv.7542
++ _ZN17AGXPerfCtrSampler13handleGPUIdleEv.9670
++ _ZN17AGXPerfCtrSampler15isSourceEnabledEj.9659
++ _ZN17AGXPerfCtrSampler16handleFWSyncPollEb.9669
++ _ZN17AGXPerfCtrSampler29getUSCAPSGlobalProfileControlEP28AGXSPerfCtrSamplerControlRec.9667
++ _ZN17AGXPerfCtrSampler31resetUSCAPSGlobalProfileControlEv.9668
++ _ZN20AGXKRCEBufferEncoder6appendEjhy.6508
++ _ZN20AGXKRCEBufferEncoder6appendEjhy.6938
++ _ZN21AGXHardwareBufferBase22prepareBufferResourcesEb.9247
++ _ZN21AGXHardwareBufferBase23completeBufferResourcesEv.9246
++ _ZN21AGXRenderTargetMemory16setTileWalkOrderE12AGXWalkOrder.10036
++ _ZN22AGX3DCommandDescriptor21getEventBarrierStructEv.11846
++ _ZN22AGX3DCommandDescriptor21getEventCommandStructEv.11847
++ _ZN22AGXParameterManagement19commitStagedUpdatesER32AGXParameterManagerStagedUpdates.9356
++ _ZN28AGXAcceleratorRingScratchRAMI30AGFIAcceleratorDataMasterEntryE11getCFIIndexEv.3226
++ _ZN28AGXAcceleratorRingScratchRAMI30AGFIAcceleratorDataMasterEntryE11setCFIIndexEj.3224
++ _ZN28AGXAcceleratorRingScratchRAMI30AGFIAcceleratorDataMasterEntryE12getReadIndexEv.3233
++ _ZN28AGXAcceleratorRingScratchRAMI30AGFIAcceleratorDataMasterEntryE12setReadIndexEj.3231
++ _ZN28AGXAcceleratorRingScratchRAMI30AGFIAcceleratorDataMasterEntryE13getWriteIndexEv.3229
++ _ZN28AGXAcceleratorRingScratchRAMI30AGFIAcceleratorDataMasterEntryE13setWriteIndexEj.3228
++ _ZN28AGXAcceleratorRingScratchRAMI30AGFIAcceleratorDataMasterEntryE17getCFIIndexGPUPtrEv.3223
++ _ZN28AGXAcceleratorRingScratchRAMI30AGFIAcceleratorDataMasterEntryE18getReadIndexGPUPtrEv.3230
++ _ZN28AGXAcceleratorRingScratchRAMI30AGFIAcceleratorDataMasterEntryE19getWriteIndexGPUPtrEv.3227
++ _ZN28AGXAcceleratorRingScratchRAMI33AGFIAcceleratorDeviceControlEntryE11getCFIIndexEv.3215
++ _ZN28AGXAcceleratorRingScratchRAMI33AGFIAcceleratorDeviceControlEntryE11setCFIIndexEj.3213
++ _ZN28AGXAcceleratorRingScratchRAMI33AGFIAcceleratorDeviceControlEntryE12getReadIndexEv.3222
++ _ZN28AGXAcceleratorRingScratchRAMI33AGFIAcceleratorDeviceControlEntryE12setReadIndexEj.3220
++ _ZN28AGXAcceleratorRingScratchRAMI33AGFIAcceleratorDeviceControlEntryE13getWriteIndexEv.3218
++ _ZN28AGXAcceleratorRingScratchRAMI33AGFIAcceleratorDeviceControlEntryE13setWriteIndexEj.3217
++ _ZN28AGXAcceleratorRingScratchRAMI33AGFIAcceleratorDeviceControlEntryE17getCFIIndexGPUPtrEv.3212
++ _ZN28AGXAcceleratorRingScratchRAMI33AGFIAcceleratorDeviceControlEntryE18getReadIndexGPUPtrEv.3219
++ _ZN28AGXAcceleratorRingScratchRAMI33AGFIAcceleratorDeviceControlEntryE19getWriteIndexGPUPtrEv.3216
++ _ZN5IOGPU18totalTextureMemoryEv.7639
++ _ZN9os_detail21panic_trapping_policy4trapEPKc.10938
++ _ZN9os_detail21panic_trapping_policy4trapEPKc.11122
++ _ZN9os_detail21panic_trapping_policy4trapEPKc.11849
++ _ZN9os_detail21panic_trapping_policy4trapEPKc.3487
++ _ZN9os_detail21panic_trapping_policy4trapEPKc.7513
++ _ZN9os_detail21panic_trapping_policy4trapEPKc.9175
++ _ZN9os_detail21panic_trapping_policy4trapEPKc.9546
++ _ZN9os_detail21panic_trapping_policy4trapEPKc.9661
++ _ZN9os_detail21panic_trapping_policy4trapEPKc.9762
++ _ZNK11AGXFirmware14getFWPageShiftEv.3511
++ _ZNK12AGX3DChannel15getGuiltyDMTypeEv.5564
++ _ZNK12AGXCLChannel15getGuiltyDMTypeEv.6513
++ _ZNK12AGXMemoryMap19isStandardFWMappingEv.10392
++ _ZNK12AGXMemoryMap9getLengthEv.10394
++ _ZNK14AGXAccelerator20getChecksumRegistersER22_AGXSChecksumRegisters.7607
++ _ZNK14AGXAccelerator22halMCacheApertureSetupEPvhiy18_AGXWriteRangeSizet.7519
++ _ZNK14AGXAccelerator23halGetMaxFencesShiftMaxEv.7504
++ _ZNK14AGXAccelerator23halGetMaxFencesShiftMinEv.7505
++ _ZNK14AGXAccelerator24halIsSmartidleOffEnabledEv.7596
++ _ZNK14AGXAccelerator25halGetMaxFencesShiftResetEv.7506
++ _ZNK14AGXAccelerator26halGetMergeLastCmdBufEventEv.7579
++ _ZNK14AGXAccelerator27getFWKextMatchingDictionaryE16AGFIFirmwareRole.7618
++ _ZNK14AGXAccelerator32halGetDefaultSplHeuristicEnabledEv.7509
++ _ZNK14AGXAccelerator35halGetDefaultParameterBufferSizeMaxEy.7510
++ _ZNK14AGXAccelerator43halGetDefaultParameterBufferSizeMaxOverrideEv.7507
++ _ZNK14AGXAccelerator43halGetDefaultParameterBufferSizeMinOverrideEv.7508
++ _ZNK14AGXAccelerator47getPropertyNoiseSuppressionGPUIdlePowerOffStateEv.7494
++ _ZNK14AGXArmFirmware30isFenderPowerManagementEnabledEv.4063
++ _ZNK14AGXArmFirmware30isFenderPowerManagementEnabledEv.4485
++ _ZNK14AGXArmFirmware30isFenderPowerManagementEnabledEv.4908
++ _ZNK14AGXArmFirmware31getConsistentGPUPerfStatePStateEv.4048
++ _ZNK14AGXArmFirmware31getConsistentGPUPerfStatePStateEv.4470
++ _ZNK14AGXArmFirmware31getConsistentGPUPerfStatePStateEv.4893
++ _ZNK14AGXArmFirmware31isConsistentGPUPerfStateEnabledEv.4049
++ _ZNK14AGXArmFirmware31isConsistentGPUPerfStateEnabledEv.4471
++ _ZNK14AGXArmFirmware31isConsistentGPUPerfStateEnabledEv.4894
++ _ZNK17AGXAcceleratorG1513getFWKextNameEv.7619
++ _ZNK17AGXAcceleratorG1515probePowerUpGPUEv.7490
++ _ZNK17AGXAcceleratorG1519getSizeOfFWBRNTableEv.7523
++ _ZNK17AGXAcceleratorG1527getCompiledProgModelVersionEv.7489
++ _ZNK23AGXKRCEBufferEncoderG1511encodeEntryEPvjhy.6512
++ _ZNK23AGXKRCEBufferEncoderG1511encodeEntryEPvjhy.6942
++ _ZNK23AGXKRCEBufferEncoderG158getEntryEPvRjRhRy.6511
++ _ZNK23AGXKRCEBufferEncoderG158getEntryEPvRjRhRy.6941
++ _ZNK27AGXArmFirmwareChinookCommon14getFWPageShiftEv.4486
++ _ZNK27AGXArmFirmwareChinookCommon14getFWPageShiftEv.4909
++ _ZTV23AGXKRCEBufferEncoderG15.6507
++ _ZTV23AGXKRCEBufferEncoderG15.6937
++ _ZZN9os_detail21IOKit_typed_allocatorI16AGXPerfCtrSourceLb0EE7kt_viewEvE7kt_view.9674
++ __ZZN10AGXChannel4freeEvE20kalloc_type_view_338
++ __ZZN10AGXChannel4initEPK15AGXCommandQueueP12AGXWorkQueueiiy19_AGFIDataMasterTypeE20kalloc_type_view_104
++ __ZZN10AGXChannel4initEPK15AGXCommandQueueP12AGXWorkQueueiiy19_AGFIDataMasterTypeE20kalloc_type_view_273
++ __block_descriptor_tmp.11323
++ __block_descriptor_tmp.13051
++ __block_descriptor_tmp.3520
++ __block_descriptor_tmp.5464
+- _GLOBAL__D_a.10065
+- _GLOBAL__D_a.10173
+- _GLOBAL__D_a.10322
+- _GLOBAL__D_a.10444
+- _GLOBAL__D_a.10701
+- _GLOBAL__D_a.10836
+- _GLOBAL__D_a.10928
+- _GLOBAL__D_a.11066
+- _GLOBAL__D_a.11261
+- _GLOBAL__D_a.11503
+- _GLOBAL__D_a.11660
+- _GLOBAL__D_a.11788
+- _GLOBAL__D_a.11902
+- _GLOBAL__D_a.12045
+- _GLOBAL__D_a.12134
+- _GLOBAL__D_a.12227
+- _GLOBAL__D_a.12314
+- _GLOBAL__D_a.12397
+- _GLOBAL__D_a.12485
+- _GLOBAL__D_a.12586
+- _GLOBAL__D_a.12677
+- _GLOBAL__D_a.12775
+- _GLOBAL__D_a.13168
+- _GLOBAL__D_a.13463
+- _GLOBAL__D_a.3702
+- _GLOBAL__D_a.4123
+- _GLOBAL__D_a.4546
+- _GLOBAL__D_a.4969
+- _GLOBAL__D_a.5294
+- _GLOBAL__D_a.5378
+- _GLOBAL__D_a.5464
+- _GLOBAL__D_a.5620
+- _GLOBAL__D_a.6446
+- _GLOBAL__D_a.6568
+- _GLOBAL__D_a.6672
+- _GLOBAL__D_a.6788
+- _GLOBAL__D_a.6875
+- _GLOBAL__D_a.6997
+- _GLOBAL__D_a.7732
+- _GLOBAL__D_a.7859
+- _GLOBAL__D_a.8020
+- _GLOBAL__D_a.8101
+- _GLOBAL__D_a.8275
+- _GLOBAL__D_a.8401
+- _GLOBAL__D_a.8486
+- _GLOBAL__D_a.8699
+- _GLOBAL__D_a.8835
+- _GLOBAL__D_a.9026
+- _GLOBAL__D_a.9124
+- _GLOBAL__D_a.9269
+- _GLOBAL__D_a.9418
+- _GLOBAL__D_a.9496
+- _GLOBAL__D_a.9597
+- _GLOBAL__D_a.9722
+- _GLOBAL__D_a.9815
+- _GLOBAL__D_a.9914
+- _ZL11gart_ranges.10556
+- _ZL18gAGXSetGameModeKey.10061
+- _ZL18gAGXSetGameModeKey.10170
+- _ZL18gAGXSetGameModeKey.10197
+- _ZL18gAGXSetGameModeKey.10319
+- _ZL18gAGXSetGameModeKey.10441
+- _ZL18gAGXSetGameModeKey.10697
+- _ZL18gAGXSetGameModeKey.10833
+- _ZL18gAGXSetGameModeKey.10925
+- _ZL18gAGXSetGameModeKey.11063
+- _ZL18gAGXSetGameModeKey.11102
+- _ZL18gAGXSetGameModeKey.11117
+- _ZL18gAGXSetGameModeKey.11141
+- _ZL18gAGXSetGameModeKey.11258
+- _ZL18gAGXSetGameModeKey.11500
+- _ZL18gAGXSetGameModeKey.11657
+- _ZL18gAGXSetGameModeKey.11785
+- _ZL18gAGXSetGameModeKey.11899
+- _ZL18gAGXSetGameModeKey.12042
+- _ZL18gAGXSetGameModeKey.12131
+- _ZL18gAGXSetGameModeKey.12224
+- _ZL18gAGXSetGameModeKey.12311
+- _ZL18gAGXSetGameModeKey.12394
+- _ZL18gAGXSetGameModeKey.12482
+- _ZL18gAGXSetGameModeKey.12583
+- _ZL18gAGXSetGameModeKey.12674
+- _ZL18gAGXSetGameModeKey.12772
+- _ZL18gAGXSetGameModeKey.13162
+- _ZL18gAGXSetGameModeKey.13460
+- _ZL18gAGXSetGameModeKey.3699
+- _ZL18gAGXSetGameModeKey.4120
+- _ZL18gAGXSetGameModeKey.4543
+- _ZL18gAGXSetGameModeKey.4966
+- _ZL18gAGXSetGameModeKey.5291
+- _ZL18gAGXSetGameModeKey.5375
+- _ZL18gAGXSetGameModeKey.5461
+- _ZL18gAGXSetGameModeKey.5485
+- _ZL18gAGXSetGameModeKey.5500
+- _ZL18gAGXSetGameModeKey.5615
+- _ZL18gAGXSetGameModeKey.6439
+- _ZL18gAGXSetGameModeKey.6561
+- _ZL18gAGXSetGameModeKey.6666
+- _ZL18gAGXSetGameModeKey.6784
+- _ZL18gAGXSetGameModeKey.6872
+- _ZL18gAGXSetGameModeKey.6990
+- _ZL18gAGXSetGameModeKey.7685
+- _ZL18gAGXSetGameModeKey.7748
+- _ZL18gAGXSetGameModeKey.7781
+- _ZL18gAGXSetGameModeKey.7875
+- _ZL18gAGXSetGameModeKey.7901
+- _ZL18gAGXSetGameModeKey.8017
+- _ZL18gAGXSetGameModeKey.8098
+- _ZL18gAGXSetGameModeKey.8270
+- _ZL18gAGXSetGameModeKey.8397
+- _ZL18gAGXSetGameModeKey.8483
+- _ZL18gAGXSetGameModeKey.8695
+- _ZL18gAGXSetGameModeKey.8832
+- _ZL18gAGXSetGameModeKey.9022
+- _ZL18gAGXSetGameModeKey.9121
+- _ZL18gAGXSetGameModeKey.9263
+- _ZL18gAGXSetGameModeKey.9413
+- _ZL18gAGXSetGameModeKey.9489
+- _ZL18gAGXSetGameModeKey.9594
+- _ZL18gAGXSetGameModeKey.9719
+- _ZL18gAGXSetGameModeKey.9812
+- _ZL18gAGXSetGameModeKey.9911
+- _ZL18gAGXSetGameModeKey.9934
+- _ZL24gPPMSetBudgetFunctionKey.6443
+- _ZL24gPPMSetBudgetFunctionKey.6565
+- _ZL24gPPMSetBudgetFunctionKey.6994
+- _ZL24gPPMSetBudgetFunctionKey.7639
+- _ZL24gPPMSetBudgetFunctionKey.9493
+- _ZL26gAGXGetCLPCStandbyCountKey.10053
+- _ZL26gAGXGetCLPCStandbyCountKey.10162
+- _ZL26gAGXGetCLPCStandbyCountKey.10189
+- _ZL26gAGXGetCLPCStandbyCountKey.10311
+- _ZL26gAGXGetCLPCStandbyCountKey.10433
+- _ZL26gAGXGetCLPCStandbyCountKey.10689
+- _ZL26gAGXGetCLPCStandbyCountKey.10825
+- _ZL26gAGXGetCLPCStandbyCountKey.10917
+- _ZL26gAGXGetCLPCStandbyCountKey.11055
+- _ZL26gAGXGetCLPCStandbyCountKey.11094
+- _ZL26gAGXGetCLPCStandbyCountKey.11109
+- _ZL26gAGXGetCLPCStandbyCountKey.11133
+- _ZL26gAGXGetCLPCStandbyCountKey.11250
+- _ZL26gAGXGetCLPCStandbyCountKey.11492
+- _ZL26gAGXGetCLPCStandbyCountKey.11649
+- _ZL26gAGXGetCLPCStandbyCountKey.11777
+- _ZL26gAGXGetCLPCStandbyCountKey.11891
+- _ZL26gAGXGetCLPCStandbyCountKey.12034
+- _ZL26gAGXGetCLPCStandbyCountKey.12123
+- _ZL26gAGXGetCLPCStandbyCountKey.12216
+- _ZL26gAGXGetCLPCStandbyCountKey.12303
+- _ZL26gAGXGetCLPCStandbyCountKey.12386
+- _ZL26gAGXGetCLPCStandbyCountKey.12474
+- _ZL26gAGXGetCLPCStandbyCountKey.12575
+- _ZL26gAGXGetCLPCStandbyCountKey.12666
+- _ZL26gAGXGetCLPCStandbyCountKey.12764
+- _ZL26gAGXGetCLPCStandbyCountKey.13154
+- _ZL26gAGXGetCLPCStandbyCountKey.13452
+- _ZL26gAGXGetCLPCStandbyCountKey.3662
+- _ZL26gAGXGetCLPCStandbyCountKey.4112
+- _ZL26gAGXGetCLPCStandbyCountKey.4535
+- _ZL26gAGXGetCLPCStandbyCountKey.4958
+- _ZL26gAGXGetCLPCStandbyCountKey.5283
+- _ZL26gAGXGetCLPCStandbyCountKey.5367
+- _ZL26gAGXGetCLPCStandbyCountKey.5453
+- _ZL26gAGXGetCLPCStandbyCountKey.5477
+- _ZL26gAGXGetCLPCStandbyCountKey.5492
+- _ZL26gAGXGetCLPCStandbyCountKey.5607
+- _ZL26gAGXGetCLPCStandbyCountKey.6431
+- _ZL26gAGXGetCLPCStandbyCountKey.6553
+- _ZL26gAGXGetCLPCStandbyCountKey.6658
+- _ZL26gAGXGetCLPCStandbyCountKey.6776
+- _ZL26gAGXGetCLPCStandbyCountKey.6864
+- _ZL26gAGXGetCLPCStandbyCountKey.6982
+- _ZL26gAGXGetCLPCStandbyCountKey.7677
+- _ZL26gAGXGetCLPCStandbyCountKey.7740
+- _ZL26gAGXGetCLPCStandbyCountKey.7773
+- _ZL26gAGXGetCLPCStandbyCountKey.7867
+- _ZL26gAGXGetCLPCStandbyCountKey.7893
+- _ZL26gAGXGetCLPCStandbyCountKey.8009
+- _ZL26gAGXGetCLPCStandbyCountKey.8090
+- _ZL26gAGXGetCLPCStandbyCountKey.8262
+- _ZL26gAGXGetCLPCStandbyCountKey.8389
+- _ZL26gAGXGetCLPCStandbyCountKey.8475
+- _ZL26gAGXGetCLPCStandbyCountKey.8687
+- _ZL26gAGXGetCLPCStandbyCountKey.8824
+- _ZL26gAGXGetCLPCStandbyCountKey.9014
+- _ZL26gAGXGetCLPCStandbyCountKey.9113
+- _ZL26gAGXGetCLPCStandbyCountKey.9255
+- _ZL26gAGXGetCLPCStandbyCountKey.9405
+- _ZL26gAGXGetCLPCStandbyCountKey.9481
+- _ZL26gAGXGetCLPCStandbyCountKey.9586
+- _ZL26gAGXGetCLPCStandbyCountKey.9711
+- _ZL26gAGXGetCLPCStandbyCountKey.9804
+- _ZL26gAGXGetCLPCStandbyCountKey.9903
+- _ZL26gAGXGetCLPCStandbyCountKey.9926
+- _ZL28gAGXGetCLPCPerfCtrlTargetKey.10059
+- _ZL28gAGXGetCLPCPerfCtrlTargetKey.10168
+- _ZL28gAGXGetCLPCPerfCtrlTargetKey.10195
+- _ZL28gAGXGetCLPCPerfCtrlTargetKey.10317
+- _ZL28gAGXGetCLPCPerfCtrlTargetKey.10439
+- _ZL28gAGXGetCLPCPerfCtrlTargetKey.10695
+- _ZL28gAGXGetCLPCPerfCtrlTargetKey.10831
+- _ZL28gAGXGetCLPCPerfCtrlTargetKey.10923
+- _ZL28gAGXGetCLPCPerfCtrlTargetKey.11061
+- _ZL28gAGXGetCLPCPerfCtrlTargetKey.11100
+- _ZL28gAGXGetCLPCPerfCtrlTargetKey.11115
+- _ZL28gAGXGetCLPCPerfCtrlTargetKey.11139
+- _ZL28gAGXGetCLPCPerfCtrlTargetKey.11256
+- _ZL28gAGXGetCLPCPerfCtrlTargetKey.11498
+- _ZL28gAGXGetCLPCPerfCtrlTargetKey.11655
+- _ZL28gAGXGetCLPCPerfCtrlTargetKey.11783
+- _ZL28gAGXGetCLPCPerfCtrlTargetKey.11897
+- _ZL28gAGXGetCLPCPerfCtrlTargetKey.12040
+- _ZL28gAGXGetCLPCPerfCtrlTargetKey.12129
+- _ZL28gAGXGetCLPCPerfCtrlTargetKey.12222
+- _ZL28gAGXGetCLPCPerfCtrlTargetKey.12309
+- _ZL28gAGXGetCLPCPerfCtrlTargetKey.12392
+- _ZL28gAGXGetCLPCPerfCtrlTargetKey.12480
+- _ZL28gAGXGetCLPCPerfCtrlTargetKey.12581
+- _ZL28gAGXGetCLPCPerfCtrlTargetKey.12672
+- _ZL28gAGXGetCLPCPerfCtrlTargetKey.12770
+- _ZL28gAGXGetCLPCPerfCtrlTargetKey.13160
+- _ZL28gAGXGetCLPCPerfCtrlTargetKey.13458
+- _ZL28gAGXGetCLPCPerfCtrlTargetKey.3665
+- _ZL28gAGXGetCLPCPerfCtrlTargetKey.4118
+- _ZL28gAGXGetCLPCPerfCtrlTargetKey.4541
+- _ZL28gAGXGetCLPCPerfCtrlTargetKey.4964
+- _ZL28gAGXGetCLPCPerfCtrlTargetKey.5289
+- _ZL28gAGXGetCLPCPerfCtrlTargetKey.5373
+- _ZL28gAGXGetCLPCPerfCtrlTargetKey.5459
+- _ZL28gAGXGetCLPCPerfCtrlTargetKey.5483
+- _ZL28gAGXGetCLPCPerfCtrlTargetKey.5498
+- _ZL28gAGXGetCLPCPerfCtrlTargetKey.5613
+- _ZL28gAGXGetCLPCPerfCtrlTargetKey.6437
+- _ZL28gAGXGetCLPCPerfCtrlTargetKey.6559
+- _ZL28gAGXGetCLPCPerfCtrlTargetKey.6664
+- _ZL28gAGXGetCLPCPerfCtrlTargetKey.6782
+- _ZL28gAGXGetCLPCPerfCtrlTargetKey.6870
+- _ZL28gAGXGetCLPCPerfCtrlTargetKey.6988
+- _ZL28gAGXGetCLPCPerfCtrlTargetKey.7683
+- _ZL28gAGXGetCLPCPerfCtrlTargetKey.7746
+- _ZL28gAGXGetCLPCPerfCtrlTargetKey.7779
+- _ZL28gAGXGetCLPCPerfCtrlTargetKey.7873
+- _ZL28gAGXGetCLPCPerfCtrlTargetKey.7899
+- _ZL28gAGXGetCLPCPerfCtrlTargetKey.8015
+- _ZL28gAGXGetCLPCPerfCtrlTargetKey.8096
+- _ZL28gAGXGetCLPCPerfCtrlTargetKey.8268
+- _ZL28gAGXGetCLPCPerfCtrlTargetKey.8395
+- _ZL28gAGXGetCLPCPerfCtrlTargetKey.8481
+- _ZL28gAGXGetCLPCPerfCtrlTargetKey.8693
+- _ZL28gAGXGetCLPCPerfCtrlTargetKey.8830
+- _ZL28gAGXGetCLPCPerfCtrlTargetKey.9020
+- _ZL28gAGXGetCLPCPerfCtrlTargetKey.9119
+- _ZL28gAGXGetCLPCPerfCtrlTargetKey.9261
+- _ZL28gAGXGetCLPCPerfCtrlTargetKey.9411
+- _ZL28gAGXGetCLPCPerfCtrlTargetKey.9487
+- _ZL28gAGXGetCLPCPerfCtrlTargetKey.9592
+- _ZL28gAGXGetCLPCPerfCtrlTargetKey.9717
+- _ZL28gAGXGetCLPCPerfCtrlTargetKey.9810
+- _ZL28gAGXGetCLPCPerfCtrlTargetKey.9909
+- _ZL28gAGXGetCLPCPerfCtrlTargetKey.9932
+- _ZL29gAGXGetCLPCStandbyDurationKey.10055
+- _ZL29gAGXGetCLPCStandbyDurationKey.10164
+- _ZL29gAGXGetCLPCStandbyDurationKey.10191
+- _ZL29gAGXGetCLPCStandbyDurationKey.10313
+- _ZL29gAGXGetCLPCStandbyDurationKey.10435
+- _ZL29gAGXGetCLPCStandbyDurationKey.10691
+- _ZL29gAGXGetCLPCStandbyDurationKey.10827
+- _ZL29gAGXGetCLPCStandbyDurationKey.10919
+- _ZL29gAGXGetCLPCStandbyDurationKey.11057
+- _ZL29gAGXGetCLPCStandbyDurationKey.11096
+- _ZL29gAGXGetCLPCStandbyDurationKey.11111
+- _ZL29gAGXGetCLPCStandbyDurationKey.11135
+- _ZL29gAGXGetCLPCStandbyDurationKey.11252
+- _ZL29gAGXGetCLPCStandbyDurationKey.11494
+- _ZL29gAGXGetCLPCStandbyDurationKey.11651
+- _ZL29gAGXGetCLPCStandbyDurationKey.11779
+- _ZL29gAGXGetCLPCStandbyDurationKey.11893
+- _ZL29gAGXGetCLPCStandbyDurationKey.12036
+- _ZL29gAGXGetCLPCStandbyDurationKey.12125
+- _ZL29gAGXGetCLPCStandbyDurationKey.12218
+- _ZL29gAGXGetCLPCStandbyDurationKey.12305
+- _ZL29gAGXGetCLPCStandbyDurationKey.12388
+- _ZL29gAGXGetCLPCStandbyDurationKey.12476
+- _ZL29gAGXGetCLPCStandbyDurationKey.12577
+- _ZL29gAGXGetCLPCStandbyDurationKey.12668
+- _ZL29gAGXGetCLPCStandbyDurationKey.12766
+- _ZL29gAGXGetCLPCStandbyDurationKey.13156
+- _ZL29gAGXGetCLPCStandbyDurationKey.13454
+- _ZL29gAGXGetCLPCStandbyDurationKey.3663
+- _ZL29gAGXGetCLPCStandbyDurationKey.4114
+- _ZL29gAGXGetCLPCStandbyDurationKey.4537
+- _ZL29gAGXGetCLPCStandbyDurationKey.4960
+- _ZL29gAGXGetCLPCStandbyDurationKey.5285
+- _ZL29gAGXGetCLPCStandbyDurationKey.5369
+- _ZL29gAGXGetCLPCStandbyDurationKey.5455
+- _ZL29gAGXGetCLPCStandbyDurationKey.5479
+- _ZL29gAGXGetCLPCStandbyDurationKey.5494
+- _ZL29gAGXGetCLPCStandbyDurationKey.5609
+- _ZL29gAGXGetCLPCStandbyDurationKey.6433
+- _ZL29gAGXGetCLPCStandbyDurationKey.6555
+- _ZL29gAGXGetCLPCStandbyDurationKey.6660
+- _ZL29gAGXGetCLPCStandbyDurationKey.6778
+- _ZL29gAGXGetCLPCStandbyDurationKey.6866
+- _ZL29gAGXGetCLPCStandbyDurationKey.6984
+- _ZL29gAGXGetCLPCStandbyDurationKey.7679
+- _ZL29gAGXGetCLPCStandbyDurationKey.7742
+- _ZL29gAGXGetCLPCStandbyDurationKey.7775
+- _ZL29gAGXGetCLPCStandbyDurationKey.7869
+- _ZL29gAGXGetCLPCStandbyDurationKey.7895
+- _ZL29gAGXGetCLPCStandbyDurationKey.8011
+- _ZL29gAGXGetCLPCStandbyDurationKey.8092
+- _ZL29gAGXGetCLPCStandbyDurationKey.8264
+- _ZL29gAGXGetCLPCStandbyDurationKey.8391
+- _ZL29gAGXGetCLPCStandbyDurationKey.8477
+- _ZL29gAGXGetCLPCStandbyDurationKey.8689
+- _ZL29gAGXGetCLPCStandbyDurationKey.8826
+- _ZL29gAGXGetCLPCStandbyDurationKey.9016
+- _ZL29gAGXGetCLPCStandbyDurationKey.9115
+- _ZL29gAGXGetCLPCStandbyDurationKey.9257
+- _ZL29gAGXGetCLPCStandbyDurationKey.9407
+- _ZL29gAGXGetCLPCStandbyDurationKey.9483
+- _ZL29gAGXGetCLPCStandbyDurationKey.9588
+- _ZL29gAGXGetCLPCStandbyDurationKey.9713
+- _ZL29gAGXGetCLPCStandbyDurationKey.9806
+- _ZL29gAGXGetCLPCStandbyDurationKey.9905
+- _ZL29gAGXGetCLPCStandbyDurationKey.9928
+- _ZL29gPPMRegisterClientFunctionKey.6441
+- _ZL29gPPMRegisterClientFunctionKey.6563
+- _ZL29gPPMRegisterClientFunctionKey.6992
+- _ZL29gPPMRegisterClientFunctionKey.7687
+- _ZL29gPPMRegisterClientFunctionKey.9491
+- _ZL31gAGXGetCLPCPowerSamplePeriodKey.10057
+- _ZL31gAGXGetCLPCPowerSamplePeriodKey.10166
+- _ZL31gAGXGetCLPCPowerSamplePeriodKey.10193
+- _ZL31gAGXGetCLPCPowerSamplePeriodKey.10315
+- _ZL31gAGXGetCLPCPowerSamplePeriodKey.10437
+- _ZL31gAGXGetCLPCPowerSamplePeriodKey.10693
+- _ZL31gAGXGetCLPCPowerSamplePeriodKey.10829
+- _ZL31gAGXGetCLPCPowerSamplePeriodKey.10921
+- _ZL31gAGXGetCLPCPowerSamplePeriodKey.11059
+- _ZL31gAGXGetCLPCPowerSamplePeriodKey.11098
+- _ZL31gAGXGetCLPCPowerSamplePeriodKey.11113
+- _ZL31gAGXGetCLPCPowerSamplePeriodKey.11137
+- _ZL31gAGXGetCLPCPowerSamplePeriodKey.11254
+- _ZL31gAGXGetCLPCPowerSamplePeriodKey.11496
+- _ZL31gAGXGetCLPCPowerSamplePeriodKey.11653
+- _ZL31gAGXGetCLPCPowerSamplePeriodKey.11781
+- _ZL31gAGXGetCLPCPowerSamplePeriodKey.11895
+- _ZL31gAGXGetCLPCPowerSamplePeriodKey.12038
+- _ZL31gAGXGetCLPCPowerSamplePeriodKey.12127
+- _ZL31gAGXGetCLPCPowerSamplePeriodKey.12220
+- _ZL31gAGXGetCLPCPowerSamplePeriodKey.12307
+- _ZL31gAGXGetCLPCPowerSamplePeriodKey.12390
+- _ZL31gAGXGetCLPCPowerSamplePeriodKey.12478
+- _ZL31gAGXGetCLPCPowerSamplePeriodKey.12579
+- _ZL31gAGXGetCLPCPowerSamplePeriodKey.12670
+- _ZL31gAGXGetCLPCPowerSamplePeriodKey.12768
+- _ZL31gAGXGetCLPCPowerSamplePeriodKey.13158
+- _ZL31gAGXGetCLPCPowerSamplePeriodKey.13456
+- _ZL31gAGXGetCLPCPowerSamplePeriodKey.3664
+- _ZL31gAGXGetCLPCPowerSamplePeriodKey.4116
+- _ZL31gAGXGetCLPCPowerSamplePeriodKey.4539
+- _ZL31gAGXGetCLPCPowerSamplePeriodKey.4962
+- _ZL31gAGXGetCLPCPowerSamplePeriodKey.5287
+- _ZL31gAGXGetCLPCPowerSamplePeriodKey.5371
+- _ZL31gAGXGetCLPCPowerSamplePeriodKey.5457
+- _ZL31gAGXGetCLPCPowerSamplePeriodKey.5481
+- _ZL31gAGXGetCLPCPowerSamplePeriodKey.5496
+- _ZL31gAGXGetCLPCPowerSamplePeriodKey.5611
+- _ZL31gAGXGetCLPCPowerSamplePeriodKey.6435
+- _ZL31gAGXGetCLPCPowerSamplePeriodKey.6557
+- _ZL31gAGXGetCLPCPowerSamplePeriodKey.6662
+- _ZL31gAGXGetCLPCPowerSamplePeriodKey.6780
+- _ZL31gAGXGetCLPCPowerSamplePeriodKey.6868
+- _ZL31gAGXGetCLPCPowerSamplePeriodKey.6986
+- _ZL31gAGXGetCLPCPowerSamplePeriodKey.7681
+- _ZL31gAGXGetCLPCPowerSamplePeriodKey.7744
+- _ZL31gAGXGetCLPCPowerSamplePeriodKey.7777
+- _ZL31gAGXGetCLPCPowerSamplePeriodKey.7871
+- _ZL31gAGXGetCLPCPowerSamplePeriodKey.7897
+- _ZL31gAGXGetCLPCPowerSamplePeriodKey.8013
+- _ZL31gAGXGetCLPCPowerSamplePeriodKey.8094
+- _ZL31gAGXGetCLPCPowerSamplePeriodKey.8266
+- _ZL31gAGXGetCLPCPowerSamplePeriodKey.8393
+- _ZL31gAGXGetCLPCPowerSamplePeriodKey.8479
+- _ZL31gAGXGetCLPCPowerSamplePeriodKey.8691
+- _ZL31gAGXGetCLPCPowerSamplePeriodKey.8828
+- _ZL31gAGXGetCLPCPowerSamplePeriodKey.9018
+- _ZL31gAGXGetCLPCPowerSamplePeriodKey.9117
+- _ZL31gAGXGetCLPCPowerSamplePeriodKey.9259
+- _ZL31gAGXGetCLPCPowerSamplePeriodKey.9409
+- _ZL31gAGXGetCLPCPowerSamplePeriodKey.9485
+- _ZL31gAGXGetCLPCPowerSamplePeriodKey.9590
+- _ZL31gAGXGetCLPCPowerSamplePeriodKey.9715
+- _ZL31gAGXGetCLPCPowerSamplePeriodKey.9808
+- _ZL31gAGXGetCLPCPowerSamplePeriodKey.9907
+- _ZL31gAGXGetCLPCPowerSamplePeriodKey.9930
+- _ZL34gAGXGetFilteredGPUPowerFunctionKey.10049
+- _ZL34gAGXGetFilteredGPUPowerFunctionKey.10158
+- _ZL34gAGXGetFilteredGPUPowerFunctionKey.10185
+- _ZL34gAGXGetFilteredGPUPowerFunctionKey.10307
+- _ZL34gAGXGetFilteredGPUPowerFunctionKey.10429
+- _ZL34gAGXGetFilteredGPUPowerFunctionKey.10685
+- _ZL34gAGXGetFilteredGPUPowerFunctionKey.10821
+- _ZL34gAGXGetFilteredGPUPowerFunctionKey.10913
+- _ZL34gAGXGetFilteredGPUPowerFunctionKey.11051
+- _ZL34gAGXGetFilteredGPUPowerFunctionKey.11090
+- _ZL34gAGXGetFilteredGPUPowerFunctionKey.11105
+- _ZL34gAGXGetFilteredGPUPowerFunctionKey.11129
+- _ZL34gAGXGetFilteredGPUPowerFunctionKey.11246
+- _ZL34gAGXGetFilteredGPUPowerFunctionKey.11488
+- _ZL34gAGXGetFilteredGPUPowerFunctionKey.11645
+- _ZL34gAGXGetFilteredGPUPowerFunctionKey.11773
+- _ZL34gAGXGetFilteredGPUPowerFunctionKey.11887
+- _ZL34gAGXGetFilteredGPUPowerFunctionKey.12030
+- _ZL34gAGXGetFilteredGPUPowerFunctionKey.12119
+- _ZL34gAGXGetFilteredGPUPowerFunctionKey.12212
+- _ZL34gAGXGetFilteredGPUPowerFunctionKey.12299
+- _ZL34gAGXGetFilteredGPUPowerFunctionKey.12382
+- _ZL34gAGXGetFilteredGPUPowerFunctionKey.12470
+- _ZL34gAGXGetFilteredGPUPowerFunctionKey.12571
+- _ZL34gAGXGetFilteredGPUPowerFunctionKey.12662
+- _ZL34gAGXGetFilteredGPUPowerFunctionKey.12760
+- _ZL34gAGXGetFilteredGPUPowerFunctionKey.13150
+- _ZL34gAGXGetFilteredGPUPowerFunctionKey.13448
+- _ZL34gAGXGetFilteredGPUPowerFunctionKey.3692
+- _ZL34gAGXGetFilteredGPUPowerFunctionKey.4108
+- _ZL34gAGXGetFilteredGPUPowerFunctionKey.4531
+- _ZL34gAGXGetFilteredGPUPowerFunctionKey.4954
+- _ZL34gAGXGetFilteredGPUPowerFunctionKey.5279
+- _ZL34gAGXGetFilteredGPUPowerFunctionKey.5363
+- _ZL34gAGXGetFilteredGPUPowerFunctionKey.5449
+- _ZL34gAGXGetFilteredGPUPowerFunctionKey.5473
+- _ZL34gAGXGetFilteredGPUPowerFunctionKey.5488
+- _ZL34gAGXGetFilteredGPUPowerFunctionKey.5603
+- _ZL34gAGXGetFilteredGPUPowerFunctionKey.6427
+- _ZL34gAGXGetFilteredGPUPowerFunctionKey.6549
+- _ZL34gAGXGetFilteredGPUPowerFunctionKey.6654
+- _ZL34gAGXGetFilteredGPUPowerFunctionKey.6772
+- _ZL34gAGXGetFilteredGPUPowerFunctionKey.6860
+- _ZL34gAGXGetFilteredGPUPowerFunctionKey.6978
+- _ZL34gAGXGetFilteredGPUPowerFunctionKey.7673
+- _ZL34gAGXGetFilteredGPUPowerFunctionKey.7736
+- _ZL34gAGXGetFilteredGPUPowerFunctionKey.7769
+- _ZL34gAGXGetFilteredGPUPowerFunctionKey.7863
+- _ZL34gAGXGetFilteredGPUPowerFunctionKey.7889
+- _ZL34gAGXGetFilteredGPUPowerFunctionKey.8005
+- _ZL34gAGXGetFilteredGPUPowerFunctionKey.8086
+- _ZL34gAGXGetFilteredGPUPowerFunctionKey.8258
+- _ZL34gAGXGetFilteredGPUPowerFunctionKey.8385
+- _ZL34gAGXGetFilteredGPUPowerFunctionKey.8471
+- _ZL34gAGXGetFilteredGPUPowerFunctionKey.8683
+- _ZL34gAGXGetFilteredGPUPowerFunctionKey.8820
+- _ZL34gAGXGetFilteredGPUPowerFunctionKey.9010
+- _ZL34gAGXGetFilteredGPUPowerFunctionKey.9109
+- _ZL34gAGXGetFilteredGPUPowerFunctionKey.9251
+- _ZL34gAGXGetFilteredGPUPowerFunctionKey.9401
+- _ZL34gAGXGetFilteredGPUPowerFunctionKey.9477
+- _ZL34gAGXGetFilteredGPUPowerFunctionKey.9582
+- _ZL34gAGXGetFilteredGPUPowerFunctionKey.9707
+- _ZL34gAGXGetFilteredGPUPowerFunctionKey.9800
+- _ZL34gAGXGetFilteredGPUPowerFunctionKey.9899
+- _ZL34gAGXGetFilteredGPUPowerFunctionKey.9922
+- _ZL35gAGXGetCLPCDynamicSplitRatioDictKey.10051
+- _ZL35gAGXGetCLPCDynamicSplitRatioDictKey.10160
+- _ZL35gAGXGetCLPCDynamicSplitRatioDictKey.10187
+- _ZL35gAGXGetCLPCDynamicSplitRatioDictKey.10309
+- _ZL35gAGXGetCLPCDynamicSplitRatioDictKey.10431
+- _ZL35gAGXGetCLPCDynamicSplitRatioDictKey.10687
+- _ZL35gAGXGetCLPCDynamicSplitRatioDictKey.10823
+- _ZL35gAGXGetCLPCDynamicSplitRatioDictKey.10915
+- _ZL35gAGXGetCLPCDynamicSplitRatioDictKey.11053
+- _ZL35gAGXGetCLPCDynamicSplitRatioDictKey.11092
+- _ZL35gAGXGetCLPCDynamicSplitRatioDictKey.11107
+- _ZL35gAGXGetCLPCDynamicSplitRatioDictKey.11131
+- _ZL35gAGXGetCLPCDynamicSplitRatioDictKey.11248
+- _ZL35gAGXGetCLPCDynamicSplitRatioDictKey.11490
+- _ZL35gAGXGetCLPCDynamicSplitRatioDictKey.11647
+- _ZL35gAGXGetCLPCDynamicSplitRatioDictKey.11775
+- _ZL35gAGXGetCLPCDynamicSplitRatioDictKey.11889
+- _ZL35gAGXGetCLPCDynamicSplitRatioDictKey.12032
+- _ZL35gAGXGetCLPCDynamicSplitRatioDictKey.12121
+- _ZL35gAGXGetCLPCDynamicSplitRatioDictKey.12214
+- _ZL35gAGXGetCLPCDynamicSplitRatioDictKey.12301
+- _ZL35gAGXGetCLPCDynamicSplitRatioDictKey.12384
+- _ZL35gAGXGetCLPCDynamicSplitRatioDictKey.12472
+- _ZL35gAGXGetCLPCDynamicSplitRatioDictKey.12573
+- _ZL35gAGXGetCLPCDynamicSplitRatioDictKey.12664
+- _ZL35gAGXGetCLPCDynamicSplitRatioDictKey.12762
+- _ZL35gAGXGetCLPCDynamicSplitRatioDictKey.13152
+- _ZL35gAGXGetCLPCDynamicSplitRatioDictKey.13450
+- _ZL35gAGXGetCLPCDynamicSplitRatioDictKey.3512
+- _ZL35gAGXGetCLPCDynamicSplitRatioDictKey.4110
+- _ZL35gAGXGetCLPCDynamicSplitRatioDictKey.4533
+- _ZL35gAGXGetCLPCDynamicSplitRatioDictKey.4956
+- _ZL35gAGXGetCLPCDynamicSplitRatioDictKey.5281
+- _ZL35gAGXGetCLPCDynamicSplitRatioDictKey.5365
+- _ZL35gAGXGetCLPCDynamicSplitRatioDictKey.5451
+- _ZL35gAGXGetCLPCDynamicSplitRatioDictKey.5475
+- _ZL35gAGXGetCLPCDynamicSplitRatioDictKey.5490
+- _ZL35gAGXGetCLPCDynamicSplitRatioDictKey.5605
+- _ZL35gAGXGetCLPCDynamicSplitRatioDictKey.6429
+- _ZL35gAGXGetCLPCDynamicSplitRatioDictKey.6551
+- _ZL35gAGXGetCLPCDynamicSplitRatioDictKey.6656
+- _ZL35gAGXGetCLPCDynamicSplitRatioDictKey.6774
+- _ZL35gAGXGetCLPCDynamicSplitRatioDictKey.6862
+- _ZL35gAGXGetCLPCDynamicSplitRatioDictKey.6980
+- _ZL35gAGXGetCLPCDynamicSplitRatioDictKey.7675
+- _ZL35gAGXGetCLPCDynamicSplitRatioDictKey.7738
+- _ZL35gAGXGetCLPCDynamicSplitRatioDictKey.7771
+- _ZL35gAGXGetCLPCDynamicSplitRatioDictKey.7865
+- _ZL35gAGXGetCLPCDynamicSplitRatioDictKey.7891
+- _ZL35gAGXGetCLPCDynamicSplitRatioDictKey.8007
+- _ZL35gAGXGetCLPCDynamicSplitRatioDictKey.8088
+- _ZL35gAGXGetCLPCDynamicSplitRatioDictKey.8260
+- _ZL35gAGXGetCLPCDynamicSplitRatioDictKey.8387
+- _ZL35gAGXGetCLPCDynamicSplitRatioDictKey.8473
+- _ZL35gAGXGetCLPCDynamicSplitRatioDictKey.8685
+- _ZL35gAGXGetCLPCDynamicSplitRatioDictKey.8822
+- _ZL35gAGXGetCLPCDynamicSplitRatioDictKey.9012
+- _ZL35gAGXGetCLPCDynamicSplitRatioDictKey.9111
+- _ZL35gAGXGetCLPCDynamicSplitRatioDictKey.9253
+- _ZL35gAGXGetCLPCDynamicSplitRatioDictKey.9403
+- _ZL35gAGXGetCLPCDynamicSplitRatioDictKey.9479
+- _ZL35gAGXGetCLPCDynamicSplitRatioDictKey.9584
+- _ZL35gAGXGetCLPCDynamicSplitRatioDictKey.9709
+- _ZL35gAGXGetCLPCDynamicSplitRatioDictKey.9802
+- _ZL35gAGXGetCLPCDynamicSplitRatioDictKey.9901
+- _ZL35gAGXGetCLPCDynamicSplitRatioDictKey.9924
+- _ZN10AGXChannel24encodeInvalidatePDSCacheE19_AGFIDataMasterType.5569
+- _ZN10AGXChannel24encodeInvalidatePDSCacheE19_AGFIDataMasterType.6515
+- _ZN10AGXChannel24encodeInvalidatePDSCacheE19_AGFIDataMasterType.6944
+- _ZN10AGXChannel28encodeInvalidateUSCInstCacheEv.5571
+- _ZN10AGXChannel28encodeInvalidateUSCInstCacheEv.6517
+- _ZN10AGXChannel28encodeInvalidateUSCInstCacheEv.6946
+- _ZN10AGXChannel32markCommandsSubmittedToAccelRingEv.5568
+- _ZN10AGXChannel32markCommandsSubmittedToAccelRingEv.6514
+- _ZN10AGXChannel32markCommandsSubmittedToAccelRingEv.6943
+- _ZN10AGXChannel34unmarkCommandsSubmittedToAccelRingEv.5567
+- _ZN10AGXChannel34unmarkCommandsSubmittedToAccelRingEv.6513
+- _ZN10AGXChannel34unmarkCommandsSubmittedToAccelRingEv.6942
+- _ZN10AGXChannel36encodeInvalidateDynamicConstantCacheEv.5570
+- _ZN10AGXChannel36encodeInvalidateDynamicConstantCacheEv.6516
+- _ZN10AGXChannel36encodeInvalidateDynamicConstantCacheEv.6945
+- _ZN11AGXFirmware14getGPUMaxPowerEv.3521
+- _ZN11AGXFirmware14getGPUMaxPowerEv.4070
+- _ZN11AGXFirmware14getGPUMaxPowerEv.4493
+- _ZN11AGXFirmware14getGPUMaxPowerEv.4916
+- _ZN11AGXFirmware17isWaitingForKicksEv.3523
+- _ZN11AGXFirmware17isWaitingForKicksEv.4072
+- _ZN11AGXFirmware17isWaitingForKicksEv.4495
+- _ZN11AGXFirmware17isWaitingForKicksEv.4918
+- _ZN11AGXFirmware18setPropertyQoSModeEyy.3488
+- _ZN11AGXFirmware18setPropertyQoSModeEyy.4058
+- _ZN11AGXFirmware18setPropertyQoSModeEyy.4480
+- _ZN11AGXFirmware18setPropertyQoSModeEyy.4903
+- _ZN11AGXFirmware21isFirmwareInitialisedEv.3524
+- _ZN11AGXFirmware21isFirmwareInitialisedEv.4073
+- _ZN11AGXFirmware21isFirmwareInitialisedEv.4496
+- _ZN11AGXFirmware21isFirmwareInitialisedEv.4919
+- _ZN11AGXFirmware22isFirmwareColdBootDoneEv.3661
+- _ZN11AGXFirmware22isFirmwareColdBootDoneEv.4076
+- _ZN11AGXFirmware22isFirmwareColdBootDoneEv.4499
+- _ZN11AGXFirmware22isFirmwareColdBootDoneEv.4922
+- _ZN11AGXFirmware24completeFirmwareColdBootE16AGFIFirmwareRole.3660
+- _ZN11AGXFirmware24completeFirmwareColdBootE16AGFIFirmwareRole.4075
+- _ZN11AGXFirmware24completeFirmwareColdBootE16AGFIFirmwareRole.4498
+- _ZN11AGXFirmware24completeFirmwareColdBootE16AGFIFirmwareRole.4921
+- _ZN11AGXFirmware24updateMRCConfigOverridesEP12OSDictionary.4043
+- _ZN11AGXFirmware24updateMRCConfigOverridesEP12OSDictionary.4465
+- _ZN11AGXFirmware24updateMRCConfigOverridesEP12OSDictionary.4888
+- _ZN11AGXFirmware26getUVWarnCounterDictionaryEv.3509
+- _ZN11AGXFirmware26getUVWarnCounterDictionaryEv.4064
+- _ZN11AGXFirmware26getUVWarnCounterDictionaryEv.4486
+- _ZN11AGXFirmware26getUVWarnCounterDictionaryEv.4909
+- _ZN11AGXFirmware26resetKSMDynamicPowerGatingEv.3480
+- _ZN11AGXFirmware26resetKSMDynamicPowerGatingEv.4056
+- _ZN11AGXFirmware26resetKSMDynamicPowerGatingEv.4478
+- _ZN11AGXFirmware26resetKSMDynamicPowerGatingEv.4901
+- _ZN11AGXFirmware31snapshotInspectionCriticalStateEv.3525
+- _ZN11AGXFirmware31snapshotInspectionCriticalStateEv.4074
+- _ZN11AGXFirmware31snapshotInspectionCriticalStateEv.4497
+- _ZN11AGXFirmware31snapshotInspectionCriticalStateEv.4920
+- _ZN11AGXFirmware33setKSMDynamicPowerGatingOverridesEP33AGFKSMDynamicPowerGatingOverrides.3481
+- _ZN11AGXFirmware33setKSMDynamicPowerGatingOverridesEP33AGFKSMDynamicPowerGatingOverrides.4057
+- _ZN11AGXFirmware33setKSMDynamicPowerGatingOverridesEP33AGFKSMDynamicPowerGatingOverrides.4479
+- _ZN11AGXFirmware33setKSMDynamicPowerGatingOverridesEP33AGFKSMDynamicPowerGatingOverrides.4902
+- _ZN11AGXFirmware37updateDeadlineAwareControllerOverrideEP12OSDictionary.3476
+- _ZN11AGXFirmware37updateDeadlineAwareControllerOverrideEP12OSDictionary.4044
+- _ZN11AGXFirmware37updateDeadlineAwareControllerOverrideEP12OSDictionary.4466
+- _ZN11AGXFirmware37updateDeadlineAwareControllerOverrideEP12OSDictionary.4889
+- _ZN14AGXAccelerator14enableGameModeEb.7589
+- _ZN14AGXAccelerator14isPIOSupportedEv.7612
+- _ZN14AGXAccelerator15forceIPPBarrierE12AGXWalkOrderj.7604
+- _ZN14AGXAccelerator15getDPEACWinInfoEP13AGFDPEPPTInfoty.7575
+- _ZN14AGXAccelerator15getSamplePeriodEv.7526
+- _ZN14AGXAccelerator15updateG9GConfigEj.7593
+- _ZN14AGXAccelerator16getDPEACDthrInfoEP13AGFDPEPPTInfoty.7576
+- _ZN14AGXAccelerator16getDPEDCDthrInfoEP13AGFDPEPPTInfoty.7572
+- _ZN14AGXAccelerator16getUMAesPageSizeER13AGXUMADescRecb.7533
+- _ZN14AGXAccelerator16postBootFirmwareEv.7605
+- _ZN14AGXAccelerator17getDPEACDshftInfoEP13AGFDPEPPTInfoty.7577
+- _ZN14AGXAccelerator17getDPEDCDshftInfoEP13AGFDPEPPTInfoty.7573
+- _ZN14AGXAccelerator17isHWDSIDAvailableEh.7510
+- _ZN14AGXAccelerator18getDPEImaxDthrInfoEP13AGFDPEPPTInfoty.7570
+- _ZN14AGXAccelerator18getDPEImaxWin1InfoEP13AGFDPEPPTInfoty.7568
+- _ZN14AGXAccelerator18getDPEImaxWin2InfoEP13AGFDPEPPTInfoty.7567
+- _ZN14AGXAccelerator18setPropertyQoSModeEP12OSDictionaryP8OSObject.7492
+- _ZN14AGXAccelerator19computeDPEPPTValuesEP19AGFDPEPPTConfigDataf.7555
+- _ZN14AGXAccelerator19getDPEImaxDshftInfoEP13AGFDPEPPTInfoty.7571
+- _ZN14AGXAccelerator19getKernelGMMUTablesEv.7496
+- _ZN14AGXAccelerator19handleSAPTInterruptEv.7590
+- _ZN14AGXAccelerator19isPowerManagedInAGXEv.7611
+- _ZN14AGXAccelerator19isQOSBillingEnabledEv.7531
+- _ZN14AGXAccelerator19setKernelGMMUTablesEPv.7497
+- _ZN14AGXAccelerator19supportsMTRSecurityEv.7610
+- _ZN14AGXAccelerator20getDPEImaxBudgetInfoEP13AGFDPEPPTInfoty.7569
+- _ZN14AGXAccelerator21getGPUMemoryThresholdEv.7588
+- _ZN14AGXAccelerator21getGPUPhysicalAddressEv.7609
+- _ZN14AGXAccelerator21populateCSCAllocationEv.7519
+- _ZN14AGXAccelerator21use16kPageSizeDefaultEv.7594
+- _ZN14AGXAccelerator22getDPEDCCompCondBudgetEP13AGFDPEPPTInfoty.7558
+- _ZN14AGXAccelerator22getDPEDCCondBudgetInfoEP13AGFDPEPPTInfoty.7574
+- _ZN14AGXAccelerator22getDPEImaxPredWin1InfoEP13AGFDPEPPTInfoty.7565
+- _ZN14AGXAccelerator22getDPEImaxPredWin2InfoEP13AGFDPEPPTInfoty.7564
+- _ZN14AGXAccelerator22requiresPerDMContextIDEv.7613
+- _ZN14AGXAccelerator23getDPEImaxReactWin1InfoEP13AGFDPEPPTInfoty.7561
+- _ZN14AGXAccelerator23getDPEImaxReactWin2InfoEP13AGFDPEPPTInfoty.7560
+- _ZN14AGXAccelerator23populateStaticPowerDataEv.7585
+- _ZN14AGXAccelerator24getDPEDCCompDshiftThreshEP13AGFDPEPPTInfoty.7557
+- _ZN14AGXAccelerator24getDPEImaxPredBudgetInfoEP13AGFDPEPPTInfoty.7566
+- _ZN14AGXAccelerator24getFenceBufferGPUAddressEv.7544
+- _ZN14AGXAccelerator24getFenderPhysicalAddressEv.7608
+- _ZN14AGXAccelerator24getNumContextIDsOverrideEv.7614
+- _ZN14AGXAccelerator24getSamplePeriodAICClocksEv.7525
+- _ZN14AGXAccelerator24getUVWarnPhysicalAddressEv.7607
+- _ZN14AGXAccelerator24halNewSpillBufferManagerEv.7596
+- _ZN14AGXAccelerator24updateImaxReactiveBudgetEv.7554
+- _ZN14AGXAccelerator25brn55237EncodePollTPFIdleEP13AGXSKUEncoder.7619
+- _ZN14AGXAccelerator25getDPECurrentDefaultLimitEv.7556
+- _ZN14AGXAccelerator25getDPEImaxReactBudgetInfoEP13AGFDPEPPTInfoty.7562
+- _ZN14AGXAccelerator25halWaitForFenderPowerGateEv.7498
+- _ZN14AGXAccelerator26halGetSmallestUMABlockSizeEv.7535
+- _ZN14AGXAccelerator28getDPEImaxPredTrigThreshInfoEP13AGFDPEPPTInfoty.7563
+- _ZN14AGXAccelerator28populateInitSequenceFirmwareEh.7615
+- _ZN14AGXAccelerator28setPropertyDefaultQoSTargetsEP12OSDictionaryP8OSObject.7490
+- _ZN14AGXAccelerator29getBorderColorTableGPUAddressEv.7545
+- _ZN14AGXAccelerator29getDPEImaxReactTrigThreshInfoEP13AGFDPEPPTInfoty.7559
+- _ZN14AGXAccelerator29supportsOptimizedUMASharedMinEv.7534
+- _ZN14AGXAccelerator30getUMAMaxActiveCDMKicksPerMGPUEb.7536
+- _ZN14AGXAccelerator30getUMAMaxActiveFRGKicksPerMGPUEb.7537
+- _ZN14AGXAccelerator30populateDPEAdjustmentCoEffDataEv.7584
+- _ZN14AGXAccelerator30populateDPELeakageUpdateConfigEP25AGXDPELeakageUpdateConfig.7580
+- _ZN14AGXAccelerator34updateImaxReactiveTriggerThresholdEv.7553
+- _ZN14AGXAccelerator47setPropertyNoiseSuppressionGPUIdlePowerOffStateEP12OSDictionaryP8OSObject.7491
+- _ZN14AGXArmFirmware11isGFXBootedEPy.4053
+- _ZN14AGXArmFirmware11isGFXBootedEPy.4475
+- _ZN14AGXArmFirmware11isGFXBootedEPy.4898
+- _ZN14AGXArmFirmware12setInitReg32Etjh.4068
+- _ZN14AGXArmFirmware12setInitReg32Etjh.4491
+- _ZN14AGXArmFirmware12setInitReg32Etjh.4914
+- _ZN14AGXArmFirmware12setInitReg64Etyh.4067
+- _ZN14AGXArmFirmware12setInitReg64Etyh.4490
+- _ZN14AGXArmFirmware12setInitReg64Etyh.4913
+- _ZN14AGXArmFirmware14setInitReg64PAEtyjh.4066
+- _ZN14AGXArmFirmware14setInitReg64PAEtyjh.4489
+- _ZN14AGXArmFirmware14setInitReg64PAEtyjh.4912
+- _ZN14AGXArmFirmware19getFSTPOverrideMaskE19_AGFIDataMasterTypeb.4046
+- _ZN14AGXArmFirmware19getFSTPOverrideMaskE19_AGFIDataMasterTypeb.4468
+- _ZN14AGXArmFirmware19getFSTPOverrideMaskE19_AGFIDataMasterTypeb.4891
+- _ZN14AGXArmFirmware21initSoftFaultSettingsEb.4049
+- _ZN14AGXArmFirmware21initSoftFaultSettingsEb.4471
+- _ZN14AGXArmFirmware21initSoftFaultSettingsEb.4894
+- _ZN14AGXArmFirmware21isFSTPOverrideEnabledEv.4047
+- _ZN14AGXArmFirmware21isFSTPOverrideEnabledEv.4469
+- _ZN14AGXArmFirmware21isFSTPOverrideEnabledEv.4892
+- _ZN14AGXArmFirmware22getDPEImaxCurrentLimitEv.4071
+- _ZN14AGXArmFirmware22getDPEImaxCurrentLimitEv.4494
+- _ZN14AGXArmFirmware22getDPEImaxCurrentLimitEv.4917
+- _ZN14AGXArmFirmware23updateSoftFaultSettingsEb.4048
+- _ZN14AGXArmFirmware23updateSoftFaultSettingsEb.4470
+- _ZN14AGXArmFirmware23updateSoftFaultSettingsEb.4893
+- _ZN14AGXArmFirmware24isForceGTPDiscardEnabledEv.4042
+- _ZN14AGXArmFirmware24isForceGTPDiscardEnabledEv.4464
+- _ZN14AGXArmFirmware24isForceGTPDiscardEnabledEv.4887
+- _ZN14AGXArmFirmware24resetFirmwareForRecoveryEv.4063
+- _ZN14AGXArmFirmware24resetFirmwareForRecoveryEv.4485
+- _ZN14AGXArmFirmware24resetFirmwareForRecoveryEv.4908
+- _ZN14AGXArmFirmware27setCommandSubmissionEnabledEb.4069
+- _ZN14AGXArmFirmware27setCommandSubmissionEnabledEb.4492
+- _ZN14AGXArmFirmware27setCommandSubmissionEnabledEb.4915
+- _ZN14AGXArmFirmware28getDefaultCLKillTimeoutLimitEv.4060
+- _ZN14AGXArmFirmware28getDefaultCLKillTimeoutLimitEv.4482
+- _ZN14AGXArmFirmware28getDefaultCLKillTimeoutLimitEv.4905
+- _ZN14AGXArmFirmware29getMCacheRegistersBaseAddressEv.4052
+- _ZN14AGXArmFirmware29getMCacheRegistersBaseAddressEv.4474
+- _ZN14AGXArmFirmware29getMCacheRegistersBaseAddressEv.4897
+- _ZN14AGXArmFirmware32getDefaultCDMBackoffTimeoutLimitEv.4059
+- _ZN14AGXArmFirmware32getDefaultCDMBackoffTimeoutLimitEv.4481
+- _ZN14AGXArmFirmware32getDefaultCDMBackoffTimeoutLimitEv.4904
+- _ZN14AGXArmFirmware34clearOutstandingFirmwareInterruptsEv.4045
+- _ZN14AGXArmFirmware34clearOutstandingFirmwareInterruptsEv.4467
+- _ZN14AGXArmFirmware34clearOutstandingFirmwareInterruptsEv.4890
+- _ZN14AGXArmFirmware35isSystemSleepNotificationInProgressEv.4054
+- _ZN14AGXArmFirmware35isSystemSleepNotificationInProgressEv.4476
+- _ZN14AGXArmFirmware35isSystemSleepNotificationInProgressEv.4899
+- _ZN14AGXArmFirmware36setSystemSleepNotificationInProgressEb.4055
+- _ZN14AGXArmFirmware36setSystemSleepNotificationInProgressEb.4477
+- _ZN14AGXArmFirmware36setSystemSleepNotificationInProgressEb.4900
+- _ZN14AGXArmFirmware37getDefaultCLContextSwitchTimeoutLimitEv.4062
+- _ZN14AGXArmFirmware37getDefaultCLContextSwitchTimeoutLimitEv.4484
+- _ZN14AGXArmFirmware37getDefaultCLContextSwitchTimeoutLimitEv.4907
+- _ZN14AGXArmFirmware39getDefaultRelaxedCLContextSwitchTimeoutEv.4061
+- _ZN14AGXArmFirmware39getDefaultRelaxedCLContextSwitchTimeoutEv.4483
+- _ZN14AGXArmFirmware39getDefaultRelaxedCLContextSwitchTimeoutEv.4906
+- _ZN14IOGPUMemoryMap15matchOptionBitsEy.10394
+- _ZN14PerfCtrCommand4initEP16AGXPerfCtrConfigbj.9604
+- _ZN17AGXAcceleratorG1512new3DChannelEv.7602
+- _ZN17AGXAcceleratorG1512newCLChannelEv.7601
+- _ZN17AGXAcceleratorG1512newTAChannelEv.7603
+- _ZN17AGXAcceleratorG1513halNewUMAPoolEv.7552
+- _ZN17AGXAcceleratorG1514halNewFirmwareEv.7597
+- _ZN17AGXAcceleratorG1518freeBRNWorkaroundsEv.7523
+- _ZN17AGXAcceleratorG1518initBRNWorkaroundsEv.7524
+- _ZN17AGXAcceleratorG1518populateFWBRNTableEPv.7521
+- _ZN17AGXAcceleratorG1518setupCSCAllocationEv.7530
+- _ZN17AGXAcceleratorG1522halGetMappingAlignmentEv.7532
+- _ZN17AGXAcceleratorG1522halNewFastRenderTargetEv.7600
+- _ZN17AGXAcceleratorG1522halNewParameterManagerEv.7598
+- _ZN17AGXAcceleratorG1523getUMARingBufferSizeMaxEv.7539
+- _ZN17AGXAcceleratorG1524halNewRenderTargetMemoryEv.7599
+- _ZN17AGXAcceleratorG1525enumerateHardwareMappingsEPFvP14AGXAcceleratorP12AGXMemoryMapPKcPvES6_.7527
+- _ZN17AGXAcceleratorG1526populateBootTimeFWBRNTableEPvyj.7520
+- _ZN17AGXAcceleratorG1529getPBDescriptorTableFWAddressEv.7542
+- _ZN17AGXAcceleratorG1529getUMARingBufferSizeAlignmentEv.7538
+- _ZN17AGXAcceleratorG1530getPBDescriptorTableGPUAddressEv.7543
+- _ZN17AGXAcceleratorG1538getUMAPagePoolDescriptorTableFWAddressEv.7540
+- _ZN17AGXAcceleratorG1539getUMAPagePoolDescriptorTableGPUAddressEv.7541
+- _ZN17AGXPerfCtrSampler13handleGPUIdleEv.9669
+- _ZN17AGXPerfCtrSampler15isSourceEnabledEj.9658
+- _ZN17AGXPerfCtrSampler16handleFWSyncPollEb.9668
+- _ZN17AGXPerfCtrSampler29getUSCAPSGlobalProfileControlEP28AGXSPerfCtrSamplerControlRec.9666
+- _ZN17AGXPerfCtrSampler31resetUSCAPSGlobalProfileControlEv.9667
+- _ZN20AGXKRCEBufferEncoder6appendEjhy.6507
+- _ZN20AGXKRCEBufferEncoder6appendEjhy.6937
+- _ZN21AGXHardwareBufferBase22prepareBufferResourcesEb.9246
+- _ZN21AGXHardwareBufferBase23completeBufferResourcesEv.9245
+- _ZN21AGXRenderTargetMemory16setTileWalkOrderE12AGXWalkOrder.10035
+- _ZN22AGX3DCommandDescriptor21getEventBarrierStructEv.11845
+- _ZN22AGX3DCommandDescriptor21getEventCommandStructEv.11846
+- _ZN22AGXParameterManagement19commitStagedUpdatesER32AGXParameterManagerStagedUpdates.9355
+- _ZN28AGXAcceleratorRingScratchRAMI30AGFIAcceleratorDataMasterEntryE11getCFIIndexEv.3227
+- _ZN28AGXAcceleratorRingScratchRAMI30AGFIAcceleratorDataMasterEntryE11setCFIIndexEj.3225
+- _ZN28AGXAcceleratorRingScratchRAMI30AGFIAcceleratorDataMasterEntryE12getReadIndexEv.3234
+- _ZN28AGXAcceleratorRingScratchRAMI30AGFIAcceleratorDataMasterEntryE12setReadIndexEj.3232
+- _ZN28AGXAcceleratorRingScratchRAMI30AGFIAcceleratorDataMasterEntryE13getWriteIndexEv.3230
+- _ZN28AGXAcceleratorRingScratchRAMI30AGFIAcceleratorDataMasterEntryE13setWriteIndexEj.3229
+- _ZN28AGXAcceleratorRingScratchRAMI30AGFIAcceleratorDataMasterEntryE17getCFIIndexGPUPtrEv.3224
+- _ZN28AGXAcceleratorRingScratchRAMI30AGFIAcceleratorDataMasterEntryE18getReadIndexGPUPtrEv.3231
+- _ZN28AGXAcceleratorRingScratchRAMI30AGFIAcceleratorDataMasterEntryE19getWriteIndexGPUPtrEv.3228
+- _ZN28AGXAcceleratorRingScratchRAMI33AGFIAcceleratorDeviceControlEntryE11getCFIIndexEv.3216
+- _ZN28AGXAcceleratorRingScratchRAMI33AGFIAcceleratorDeviceControlEntryE11setCFIIndexEj.3214
+- _ZN28AGXAcceleratorRingScratchRAMI33AGFIAcceleratorDeviceControlEntryE12getReadIndexEv.3223
+- _ZN28AGXAcceleratorRingScratchRAMI33AGFIAcceleratorDeviceControlEntryE12setReadIndexEj.3221
+- _ZN28AGXAcceleratorRingScratchRAMI33AGFIAcceleratorDeviceControlEntryE13getWriteIndexEv.3219
+- _ZN28AGXAcceleratorRingScratchRAMI33AGFIAcceleratorDeviceControlEntryE13setWriteIndexEj.3218
+- _ZN28AGXAcceleratorRingScratchRAMI33AGFIAcceleratorDeviceControlEntryE17getCFIIndexGPUPtrEv.3213
+- _ZN28AGXAcceleratorRingScratchRAMI33AGFIAcceleratorDeviceControlEntryE18getReadIndexGPUPtrEv.3220
+- _ZN28AGXAcceleratorRingScratchRAMI33AGFIAcceleratorDeviceControlEntryE19getWriteIndexGPUPtrEv.3217
+- _ZN5IOGPU18totalTextureMemoryEv.7638
+- _ZN9os_detail21panic_trapping_policy4trapEPKc.10937
+- _ZN9os_detail21panic_trapping_policy4trapEPKc.11121
+- _ZN9os_detail21panic_trapping_policy4trapEPKc.11848
+- _ZN9os_detail21panic_trapping_policy4trapEPKc.3489
+- _ZN9os_detail21panic_trapping_policy4trapEPKc.7512
+- _ZN9os_detail21panic_trapping_policy4trapEPKc.9174
+- _ZN9os_detail21panic_trapping_policy4trapEPKc.9545
+- _ZN9os_detail21panic_trapping_policy4trapEPKc.9660
+- _ZN9os_detail21panic_trapping_policy4trapEPKc.9761
+- _ZNK11AGXFirmware14getFWPageShiftEv.3513
+- _ZNK12AGX3DChannel15getGuiltyDMTypeEv.5566
+- _ZNK12AGXCLChannel15getGuiltyDMTypeEv.6512
+- _ZNK12AGXMemoryMap19isStandardFWMappingEv.10391
+- _ZNK12AGXMemoryMap9getLengthEv.10393
+- _ZNK14AGXAccelerator20getChecksumRegistersER22_AGXSChecksumRegisters.7606
+- _ZNK14AGXAccelerator22halMCacheApertureSetupEPvhiy18_AGXWriteRangeSizet.7518
+- _ZNK14AGXAccelerator23halGetMaxFencesShiftMaxEv.7503
+- _ZNK14AGXAccelerator23halGetMaxFencesShiftMinEv.7504
+- _ZNK14AGXAccelerator24halIsSmartidleOffEnabledEv.7595
+- _ZNK14AGXAccelerator25halGetMaxFencesShiftResetEv.7505
+- _ZNK14AGXAccelerator26halGetMergeLastCmdBufEventEv.7578
+- _ZNK14AGXAccelerator27getFWKextMatchingDictionaryE16AGFIFirmwareRole.7617
+- _ZNK14AGXAccelerator32halGetDefaultSplHeuristicEnabledEv.7508
+- _ZNK14AGXAccelerator35halGetDefaultParameterBufferSizeMaxEy.7509
+- _ZNK14AGXAccelerator43halGetDefaultParameterBufferSizeMaxOverrideEv.7506
+- _ZNK14AGXAccelerator43halGetDefaultParameterBufferSizeMinOverrideEv.7507
+- _ZNK14AGXAccelerator47getPropertyNoiseSuppressionGPUIdlePowerOffStateEv.7493
+- _ZNK14AGXArmFirmware30isFenderPowerManagementEnabledEv.4065
+- _ZNK14AGXArmFirmware30isFenderPowerManagementEnabledEv.4487
+- _ZNK14AGXArmFirmware30isFenderPowerManagementEnabledEv.4910
+- _ZNK14AGXArmFirmware31getConsistentGPUPerfStatePStateEv.4050
+- _ZNK14AGXArmFirmware31getConsistentGPUPerfStatePStateEv.4472
+- _ZNK14AGXArmFirmware31getConsistentGPUPerfStatePStateEv.4895
+- _ZNK14AGXArmFirmware31isConsistentGPUPerfStateEnabledEv.4051
+- _ZNK14AGXArmFirmware31isConsistentGPUPerfStateEnabledEv.4473
+- _ZNK14AGXArmFirmware31isConsistentGPUPerfStateEnabledEv.4896
+- _ZNK17AGXAcceleratorG1513getFWKextNameEv.7618
+- _ZNK17AGXAcceleratorG1515probePowerUpGPUEv.7489
+- _ZNK17AGXAcceleratorG1519getSizeOfFWBRNTableEv.7522
+- _ZNK17AGXAcceleratorG1527getCompiledProgModelVersionEv.7488
+- _ZNK23AGXKRCEBufferEncoderG1511encodeEntryEPvjhy.6511
+- _ZNK23AGXKRCEBufferEncoderG1511encodeEntryEPvjhy.6941
+- _ZNK23AGXKRCEBufferEncoderG158getEntryEPvRjRhRy.6510
+- _ZNK23AGXKRCEBufferEncoderG158getEntryEPvRjRhRy.6940
+- _ZNK27AGXArmFirmwareChinookCommon14getFWPageShiftEv.4488
+- _ZNK27AGXArmFirmwareChinookCommon14getFWPageShiftEv.4911
+- _ZTV23AGXKRCEBufferEncoderG15.6506
+- _ZTV23AGXKRCEBufferEncoderG15.6936
+- _ZZN9os_detail21IOKit_typed_allocatorI16AGXPerfCtrSourceLb0EE7kt_viewEvE7kt_view.9673
+- __ZZN10AGXChannel4freeEvE20kalloc_type_view_334
+- __ZZN10AGXChannel4initEPK15AGXCommandQueueP12AGXWorkQueueiiy19_AGFIDataMasterTypeE20kalloc_type_view_100
+- __ZZN10AGXChannel4initEPK15AGXCommandQueueP12AGXWorkQueueiiy19_AGFIDataMasterTypeE20kalloc_type_view_269
+- __block_descriptor_tmp.11322
+- __block_descriptor_tmp.13050
+- __block_descriptor_tmp.3522
+- __block_descriptor_tmp.5466
+CStrings:
++ "121111112112222122111111211222212211111121122221221222222222221122111111112222222211111212112121111222112112121111222112112121111222112112121111222112112121111222112112121111222112112121111222112112121111222112112121111222112112121111222112112121111222112112121111222112111111111222111222111222111222111222111222111222111222111222111222111222222211112212112121111222112111111112222222222121122222222222222222222222222222222222222222222222222222222222222222222222212112112222222222222222222222222222222222222222222222222222222222222222211111122121222222222122222111112212122222222212222211111221212222222221222221111122121222222222122222111112212122222222212222211111221212222222221222221111122211111122211111122211111122211111122211111122211111122211111122211111122211211111221111111122112211111111111111111111111111111111111222222222222222222111111221212222222221222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222211111112222222"
++ "12112121112211222222222"
++ "1212222222222222222222111222122122222222222"
++ "Jul  1 2024 22:22:30"
+- "1211111121122221221111112112222122111111211222212212222222222211221111111122222222111112121121211112221121121211112221121121211112221121121211112221121121211112221121121211112221121121211112221121121211112221121121211112221121121211112221121121211112221121121211112221121111111112221112221112221112221112221112221112221112221112221112221112222222111122121121211112221121111111122222222221211222222222222222222222222222222222222222222222222222222222222222222222222121121122222222222222222222222222222222222222222222222222222222222222222111111221212222222221222221111122121222222222122222111112212122222222212222211111221212222222221222221111122121222222222122222111112212122222222212222211111222111111222111111222111111222111111222111111222111111222111111222111111222112111112211111111221122111111111111111111111111111111111122222222222222222111111221212222222221222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222211111112222222"
+- "1211212111221122222222"
+- "121222222222222222222211122212212222222222"
+- "Jun 20 2024 20:43:41"
 
 ```
 
@@ -6059,6 +3913,661 @@ CStrings:
 
 ```
 
+>  `com.apple.driver.AppleJPEGDriver`
+
+```diff
+
+-7.1.3.0.0
+-  __TEXT.__os_log: 0xa0b6
+-  __TEXT.__cstring: 0x2dc4
++7.1.4.0.0
++  __TEXT.__os_log: 0xa158
++  __TEXT.__cstring: 0x30ba
+   __TEXT.__const: 0x3b26
+-  __TEXT_EXEC.__text: 0x2be38
++  __TEXT_EXEC.__text: 0x2c694
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0x6f88
+   __DATA.__common: 0x218
+   __DATA.__bss: 0x1
+-  __DATA_CONST.__auth_got: 0x340
++  __DATA_CONST.__auth_got: 0x348
+   __DATA_CONST.__got: 0x98
+   __DATA_CONST.__mod_init_func: 0x68
+   __DATA_CONST.__mod_term_func: 0x68
+   __DATA_CONST.__const: 0x35a0
+   __DATA_CONST.__kalloc_type: 0x900
+   Functions: 942
+-  Symbols:   2096
+-  CStrings:  244
++  Symbols:   2099
++  CStrings:  266
+ 
+Symbols:
++ __ZN15AppleJPEGDriver15showRequestInfoEP11JpegRequest
++ __ZNK9IOSurface14getBytesPerRowEv
++ __ZZN15AppleJPEGDriver13newUserClientEP4taskPvjP12OSDictionaryPP12IOUserClientE11_os_log_fmt_2
++ __ZZN15AppleJPEGDriver15finish_io_gatedEP11JpegRequestijbE21kalloc_type_view_3502
++ __ZZN15AppleJPEGDriver15showRequestInfoEP11JpegRequestE11_os_log_fmt
++ __ZZN15AppleJPEGDriver15showRequestInfoEP11JpegRequestE11_os_log_fmt_0
++ __ZZN15AppleJPEGDriver15showRequestInfoEP11JpegRequestE11_os_log_fmt_1
++ __ZZN15AppleJPEGDriver17clientClosedGatedEP25AppleJPEGDriverUserClientE11_os_log_fmt
++ __ZZN15AppleJPEGHalV1418finishEncode_gatedEP11JpegRequestE11_os_log_fmt_4
+- _ZN15AppleJPEGHalV1418finishEncode_gatedEP11JpegRequest.cold.5
+- __ZZN15AppleJPEGDriver11jpegProfileEP11JpegRequestE11_os_log_fmt_0
+- __ZZN15AppleJPEGDriver11jpegProfileEP11JpegRequestE11_os_log_fmt_1
+- __ZZN15AppleJPEGDriver11jpegProfileEP11JpegRequestE11_os_log_fmt_2
+- __ZZN15AppleJPEGDriver11jpegProfileEP11JpegRequestE11_os_log_fmt_3
+- __ZZN15AppleJPEGDriver15finish_io_gatedEP11JpegRequestijbE21kalloc_type_view_3498
+CStrings:
++ "22222222222222222222222222222222222222222222222222222222222222222222222222222222222222222111"
++ "format_400_10bit_linear_count"
++ "format_400_10bit_packed_count"
++ "format_400_10bit_tiled_count"
++ "format_400_12bit_linear_count"
++ "format_400_8bit_linear_count"
++ "format_400_8bit_tiled_count"
++ "format_420_10bit_linear_count"
++ "format_420_10bit_packed_count"
++ "format_420_10bit_tiled_count"
++ "format_420_12bit_linear_count"
++ "format_422_10bit_linear_count"
++ "format_422_10bit_packed_count"
++ "format_422_10bit_tiled_count"
++ "format_422_12bit_linear_count"
++ "format_444_10bit_linear_count"
++ "format_444_10bit_packed_count"
++ "format_444_10bit_tiled_count"
++ "format_444_12bit_linear_count"
++ "format_argb_10bit_linear_count"
++ "format_argb_10bit_tiled_count"
++ "format_argb_12bit_linear_count"
++ "format_argb_12bit_tiled_count"
++ "virtual void AppleJPEGDriver::clientClosedGated(AppleJPEGDriverUserClient *)"
++ "void AppleJPEGDriver::showRequestInfo(JpegRequest *)"
+- "\"%s: codec=%d, encode AXI bus error triggered\\n\" @%s:%d"
+- "222222222222222222222222222222222222222222222111"
+- "Encode_V14.cpp"
+
+```
+
+>  `com.apple.driver.AppleThunderboltNHI`
+
+```diff
+
+-798.0.1.0.0
++798.0.2.0.0
+   __TEXT.__const: 0x28a08
+-  __TEXT.__cstring: 0xa6c0
++  __TEXT.__cstring: 0xa6db
+   __TEXT.__os_log: 0x6cea
+-  __TEXT_EXEC.__text: 0x394fc
++  __TEXT_EXEC.__text: 0x3962c
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0x280
+   __DATA.__common: 0x450
+-  __DATA_CONST.__auth_got: 0x398
++  __DATA_CONST.__auth_got: 0x3a0
+   __DATA_CONST.__got: 0x128
+   __DATA_CONST.__mod_init_func: 0xd8
+   __DATA_CONST.__mod_term_func: 0xd8
+
+   __DATA_CONST.__kalloc_type: 0x6c0
+   __DATA_CONST.__kalloc_var: 0x460
+   Functions: 897
+-  Symbols:   1987
+-  CStrings:  586
++  Symbols:   1988
++  CStrings:  587
+ 
+Symbols:
++ __ZN20IOPortTransportState12copyMetadataEPKc
+CStrings:
++ "20:01:17"
++ "AsymmetricModeSupportedBit"
++ "Jul  3 2024"
+- "20:30:07"
+- "Jun 20 2024"
+
+```
+
+>  `com.apple.driver.AppleUIO`
+
+```diff
+
+-65.0.0.0.0
+-  __TEXT.__cstring: 0x92e
++68.0.0.0.0
++  __TEXT.__cstring: 0x948
+   __TEXT.__const: 0x10
+-  __TEXT_EXEC.__text: 0x2ba0
++  __TEXT_EXEC.__text: 0x2b84
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0xc8
+-  __DATA.__common: 0xf8
+-  __DATA.__bss: 0x8
+-  __DATA_CONST.__auth_got: 0x140
++  __DATA.__common: 0x100
++  __DATA.__bss: 0x4
++  __DATA_CONST.__auth_got: 0x150
+   __DATA_CONST.__got: 0x58
+   __DATA_CONST.__mod_init_func: 0x20
+   __DATA_CONST.__mod_term_func: 0x20
+   __DATA_CONST.__const: 0x2dd0
+   __DATA_CONST.__kalloc_type: 0x140
+   Functions: 121
+-  Symbols:   542
++  Symbols:   544
+   CStrings:  77
+ 
+Symbols:
++ __ZN11AppleUIOMem17allocateUIOMemoryEv
++ __ZN11AppleUIOMem8fMemSizeE
++ _sysctlbyname
+- __ZZL13getUIOMemSizevE7memSize
+CStrings:
++ "22:05:08"
++ "Jul  1 2024"
++ "UIO: %-30s IOBufferMemoryDescriptor::withOptions(%d) failed\n"
++ "UIO: %-30s vmm_present=1 requesting contiguous memory\n"
++ "allocateUIOMemory"
++ "kern.hv_vmm_present"
+- "20:38:40"
+- "Jun 20 2024"
+- "UIO: %-30s IOBufferMemoryDescriptor::inTaskWithPhysicalMask failed\n"
+- "UIO: %-30s UIO memory size: %u\n"
+- "copyUIOMemory"
+- "getUIOMemSize"
+
+```
+
+>  `com.apple.filesystems.hfs.kext`
+
+```diff
+
+-670.0.0.0.0
++672.0.0.0.0
+   __TEXT.__const: 0x1a08
+   __TEXT.__cstring: 0xa724
+-  __TEXT_EXEC.__text: 0x4e01c
++  __TEXT_EXEC.__text: 0x4e0a0
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0x4d0
+   __DATA.__common: 0x10
+CStrings:
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/hfs/core/VolumeAllocation.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/hfs/core/hfs_attrlist.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/hfs/core/hfs_btreeio.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/hfs/core/hfs_cnode.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/hfs/core/hfs_hotfiles.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/hfs/core/hfs_journal.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/hfs/core/hfs_readwrite.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/hfs/core/hfs_search.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/hfs/core/hfs_vfsops.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/hfs/core/hfs_vfsutils.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/hfs/core/VolumeAllocation.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/hfs/core/hfs_attrlist.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/hfs/core/hfs_btreeio.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/hfs/core/hfs_cnode.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/hfs/core/hfs_hotfiles.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/hfs/core/hfs_journal.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/hfs/core/hfs_readwrite.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/hfs/core/hfs_search.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/hfs/core/hfs_vfsops.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/hfs/core/hfs_vfsutils.c"
+
+```
+
+>  `com.apple.driver.AppleConvergedPCI`
+
+```diff
+
+-106.0.0.0.0
++107.0.0.0.0
+   __TEXT.__const: 0x1b0
+   __TEXT.__cstring: 0x6f75
+-  __TEXT_EXEC.__text: 0x3f1a8
++  __TEXT_EXEC.__text: 0x3f1e4
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0x248
+   __DATA.__common: 0x2d0
+
+   __DATA_CONST.__got: 0x108
+   __DATA_CONST.__mod_init_func: 0x68
+   __DATA_CONST.__mod_term_func: 0x68
+-  __DATA_CONST.__const: 0x6da8
++  __DATA_CONST.__const: 0x6db8
+   __DATA_CONST.__kalloc_type: 0x1300
+-  Functions: 1067
+-  Symbols:   1724
++  Functions: 1069
++  Symbols:   1726
+   CStrings:  891
+ 
+Symbols:
++ __ZN12ACIPCControl10deviceDeadEv
++ __ZN15ACIPCNullDevice10deviceDeadEv
++ __ZZN15ACIPCNullDevicedlEPvmE19kalloc_type_view_45
++ __ZZN15ACIPCNullDevicenwEmE19kalloc_type_view_45
+- __ZZN15ACIPCNullDevicedlEPvmE19kalloc_type_view_44
+- __ZZN15ACIPCNullDevicenwEmE19kalloc_type_view_44
+CStrings:
++ "/AppleInternal/Library/BuildRoots/81e2abef-3955-11ef-8e67-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleConvergedIPC/AppleConvergedIPCControl/AppleConvergedIPCControl.cpp"
++ "/AppleInternal/Library/BuildRoots/81e2abef-3955-11ef-8e67-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleConvergedIPC/AppleConvergedIPCControl/AppleConvergedIPCInterface.cpp"
++ "/AppleInternal/Library/BuildRoots/81e2abef-3955-11ef-8e67-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleConvergedIPC/AppleConvergedIPCControl/AppleConvergedIPCLogger.cpp"
++ "/AppleInternal/Library/BuildRoots/81e2abef-3955-11ef-8e67-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleConvergedIPC/AppleConvergedIPCControl/Memory/AppleConvergedIPCIOCommand.cpp"
++ "/AppleInternal/Library/BuildRoots/81e2abef-3955-11ef-8e67-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleConvergedIPC/AppleConvergedIPCControl/Memory/AppleConvergedIPCMemoryCommand.cpp"
++ "/AppleInternal/Library/BuildRoots/81e2abef-3955-11ef-8e67-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleConvergedIPC/AppleConvergedIPCControl/Memory/AppleConvergedIPCMemoryPolicy.cpp"
++ "/AppleInternal/Library/BuildRoots/81e2abef-3955-11ef-8e67-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleConvergedIPC/AppleConvergedIPCControl/Memory/AppleConvergedIPCRequest.cpp"
++ "/AppleInternal/Library/BuildRoots/81e2abef-3955-11ef-8e67-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleConvergedIPC/AppleConvergedIPCControl/UserClient/AppleConvergedIPCControlUserClient.cpp"
++ "/AppleInternal/Library/BuildRoots/81e2abef-3955-11ef-8e67-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleConvergedIPC/AppleConvergedIPCControl/UserClient/AppleConvergedIPCUserClient.cpp"
++ "/AppleInternal/Library/BuildRoots/81e2abef-3955-11ef-8e67-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleConvergedIPC/AppleConvergedPCI/AppleConvergedPCI.cpp"
++ "/AppleInternal/Library/BuildRoots/81e2abef-3955-11ef-8e67-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleConvergedIPC/Core/ACIPCChip.cpp"
++ "/AppleInternal/Library/BuildRoots/81e2abef-3955-11ef-8e67-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleConvergedIPC/Core/ACIPCControl.cpp"
++ "/AppleInternal/Library/BuildRoots/81e2abef-3955-11ef-8e67-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleConvergedIPC/Core/ACIPCPort.cpp"
++ "/AppleInternal/Library/BuildRoots/81e2abef-3955-11ef-8e67-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleConvergedIPC/Core/OLYBT/Chips/ACIPCChip4388.cpp"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleConvergedIPC/AppleConvergedIPCControl/AppleConvergedIPCControl.cpp"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleConvergedIPC/AppleConvergedIPCControl/AppleConvergedIPCInterface.cpp"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleConvergedIPC/AppleConvergedIPCControl/AppleConvergedIPCLogger.cpp"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleConvergedIPC/AppleConvergedIPCControl/Memory/AppleConvergedIPCIOCommand.cpp"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleConvergedIPC/AppleConvergedIPCControl/Memory/AppleConvergedIPCMemoryCommand.cpp"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleConvergedIPC/AppleConvergedIPCControl/Memory/AppleConvergedIPCMemoryPolicy.cpp"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleConvergedIPC/AppleConvergedIPCControl/Memory/AppleConvergedIPCRequest.cpp"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleConvergedIPC/AppleConvergedIPCControl/UserClient/AppleConvergedIPCControlUserClient.cpp"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleConvergedIPC/AppleConvergedIPCControl/UserClient/AppleConvergedIPCUserClient.cpp"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleConvergedIPC/AppleConvergedPCI/AppleConvergedPCI.cpp"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleConvergedIPC/Core/ACIPCChip.cpp"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleConvergedIPC/Core/ACIPCControl.cpp"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleConvergedIPC/Core/ACIPCPort.cpp"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleConvergedIPC/Core/OLYBT/Chips/ACIPCChip4388.cpp"
+
+```
+
+>  `com.apple.driver.AppleT6031CLPC`
+
+```diff
+
+-1175.0.17.0.0
++1175.0.21.0.0
+   __TEXT.__cstring: 0x33dd
+   __TEXT.__const: 0xde8
+-  __TEXT_EXEC.__text: 0x56458
++  __TEXT_EXEC.__text: 0x564a0
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0xa830
+   __DATA.__common: 0xae80
+CStrings:
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/AppleCLPC/CLPC/source/ane_dvfm_table.cpp"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/AppleCLPC/CLPC/source/ane_perf_sampler_impl.hpp"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/AppleCLPC/CLPC/source/ane_topology.cpp"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/AppleCLPC/CLPC/source/apple_clpc.cpp"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/AppleCLPC/CLPC/source/clpc.cpp"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/AppleCLPC/CLPC/source/clpc.hpp"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/AppleCLPC/CLPC/source/cpu_cluster_perf_sampler.cpp"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/AppleCLPC/CLPC/source/cpu_core_memstall_sampler.cpp"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/AppleCLPC/CLPC/source/cpu_core_perf_sampler.cpp"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/AppleCLPC/CLPC/source/cpu_dvfm_table_impl.hpp"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/AppleCLPC/CLPC/source/cpu_sched_interface.cpp"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/AppleCLPC/CLPC/source/cpu_temperature_sampler.cpp"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/AppleCLPC/CLPC/source/cpu_timer.cpp"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/AppleCLPC/CLPC/source/cpu_topology.cpp"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/AppleCLPC/CLPC/source/cpu_uncore_perf_sampler.cpp"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/AppleCLPC/CLPC/source/dashboard_manager_impl.hpp"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/AppleCLPC/CLPC/source/fabric_dvfm_table.cpp"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/AppleCLPC/CLPC/source/gpu_dvfm_table.cpp"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/AppleCLPC/CLPC/source/perf_map_impl.hpp"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/AppleCLPC/CLPC/source/power_map.cpp"
++ "2024-07-01T23:04:44-07:00"
++ "AppleCLPC-1175.0.21"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleCLPC/CLPC/source/ane_dvfm_table.cpp"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleCLPC/CLPC/source/ane_perf_sampler_impl.hpp"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleCLPC/CLPC/source/ane_topology.cpp"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleCLPC/CLPC/source/apple_clpc.cpp"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleCLPC/CLPC/source/clpc.cpp"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleCLPC/CLPC/source/clpc.hpp"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleCLPC/CLPC/source/cpu_cluster_perf_sampler.cpp"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleCLPC/CLPC/source/cpu_core_memstall_sampler.cpp"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleCLPC/CLPC/source/cpu_core_perf_sampler.cpp"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleCLPC/CLPC/source/cpu_dvfm_table_impl.hpp"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleCLPC/CLPC/source/cpu_sched_interface.cpp"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleCLPC/CLPC/source/cpu_temperature_sampler.cpp"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleCLPC/CLPC/source/cpu_timer.cpp"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleCLPC/CLPC/source/cpu_topology.cpp"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleCLPC/CLPC/source/cpu_uncore_perf_sampler.cpp"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleCLPC/CLPC/source/dashboard_manager_impl.hpp"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleCLPC/CLPC/source/fabric_dvfm_table.cpp"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleCLPC/CLPC/source/gpu_dvfm_table.cpp"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleCLPC/CLPC/source/perf_map_impl.hpp"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleCLPC/CLPC/source/power_map.cpp"
+- "2024-06-20T21:08:44-07:00"
+- "AppleCLPC-1175.0.17"
+
+```
+
+>  `com.apple.driver.AppleT8110DART`
+
+```diff
+
+-452.0.1.0.0
++452.0.2.0.0
+   __TEXT.__const: 0x60
+-  __TEXT.__cstring: 0x27f7
+-  __TEXT_EXEC.__text: 0xd71c
++  __TEXT.__cstring: 0x2840
++  __TEXT_EXEC.__text: 0xd7e4
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0xc8
+   __DATA.__common: 0x38
+
+   __DATA_CONST.__const: 0xb18
+   __DATA_CONST.__kalloc_type: 0x2c0
+   __DATA_CONST.__kalloc_var: 0x410
+-  Functions: 148
+-  Symbols:   535
+-  CStrings:  215
++  Functions: 149
++  Symbols:   536
++  CStrings:  217
+ 
+Symbols:
++ _ZN14AppleT8110DART6_setupER19t8110dart_init_data.cold.5
++ __ZN14AppleT8110DART20_prepareForPowerDownEbb
++ __ZZN14AppleT8110DART10_dartSetupER19t8110dart_init_dataE21kalloc_type_view_3605
++ __ZZN14AppleT8110DART10_dartSetupER19t8110dart_init_dataE21kalloc_type_view_3650
++ __ZZN14AppleT8110DART10_dartSetupER19t8110dart_init_dataE21kalloc_type_view_3726
++ __ZZN14AppleT8110DART10_dartSetupER19t8110dart_init_dataE21kalloc_type_view_3836
++ __ZZN14AppleT8110DART17_apfSetupInstanceEjjPKNS_10instance_tER19t8110dart_init_dataE21kalloc_type_view_4637
++ __ZZN14AppleT8110DART17_apfSetupInstanceEjjPKNS_10instance_tER19t8110dart_init_dataE21kalloc_type_view_4641
++ __ZZN14AppleT8110DART17_apfSetupInstanceEjjPKNS_10instance_tER19t8110dart_init_dataE21kalloc_type_view_4796
++ __ZZN14AppleT8110DART21_dartAssignDynamicSIDEPjE21kalloc_type_view_4211
++ __ZZN14AppleT8110DART22_dartReleaseDynamicSIDEjE21kalloc_type_view_4260
++ __ZZN14AppleT8110DART26_apfInitializeStateCaptureEjE21kalloc_type_view_4841
++ __ZZN14AppleT8110DART27_dartInitializeStateCaptureEjE21kalloc_type_view_4294
++ __ZZN14AppleT8110DART27_dartInitializeStateCaptureEjE21kalloc_type_view_4303
++ __ZZN14AppleT8110DART27_smmuInitializeStateCaptureEjE21kalloc_type_view_4957
++ __ZZN14AppleT8110DART27_smmuInitializeStateCaptureEjE21kalloc_type_view_4975
++ __ZZN14AppleT8110DART27_smmuInitializeStateCaptureEjE21kalloc_type_view_4978
+- __ZN14AppleT8110DART20_prepareForPowerDownEb
+- __ZZN14AppleT8110DART10_dartSetupER19t8110dart_init_dataE21kalloc_type_view_3600
+- __ZZN14AppleT8110DART10_dartSetupER19t8110dart_init_dataE21kalloc_type_view_3645
+- __ZZN14AppleT8110DART10_dartSetupER19t8110dart_init_dataE21kalloc_type_view_3721
+- __ZZN14AppleT8110DART10_dartSetupER19t8110dart_init_dataE21kalloc_type_view_3831
+- __ZZN14AppleT8110DART17_apfSetupInstanceEjjPKNS_10instance_tER19t8110dart_init_dataE21kalloc_type_view_4632
+- __ZZN14AppleT8110DART17_apfSetupInstanceEjjPKNS_10instance_tER19t8110dart_init_dataE21kalloc_type_view_4636
+- __ZZN14AppleT8110DART17_apfSetupInstanceEjjPKNS_10instance_tER19t8110dart_init_dataE21kalloc_type_view_4791
+- __ZZN14AppleT8110DART21_dartAssignDynamicSIDEPjE21kalloc_type_view_4206
+- __ZZN14AppleT8110DART22_dartReleaseDynamicSIDEjE21kalloc_type_view_4255
+- __ZZN14AppleT8110DART26_apfInitializeStateCaptureEjE21kalloc_type_view_4836
+- __ZZN14AppleT8110DART27_dartInitializeStateCaptureEjE21kalloc_type_view_4289
+- __ZZN14AppleT8110DART27_dartInitializeStateCaptureEjE21kalloc_type_view_4293
+- __ZZN14AppleT8110DART27_smmuInitializeStateCaptureEjE21kalloc_type_view_4952
+- __ZZN14AppleT8110DART27_smmuInitializeStateCaptureEjE21kalloc_type_view_4970
+- __ZZN14AppleT8110DART27_smmuInitializeStateCaptureEjE21kalloc_type_view_4973
+CStrings:
++ "\"%s requires the SPTM and is mutually exclusive with %s\" @%s:%d"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/AppleHxDART/AppleT8110DART.cpp"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/AppleHxDART/AppleT8110DART.h"
++ "no-sleep"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleHxDART/AppleT8110DART.cpp"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleHxDART/AppleT8110DART.h"
+
+```
+
+>  `com.apple.filesystems.smbfs`
+
+```diff
+
+-484.0.0.0.0
++488.0.0.0.0
+   __TEXT.__const: 0xb55
+-  __TEXT.__cstring: 0x4567
+-  __TEXT.__os_log: 0x1590d
+-  __TEXT_EXEC.__text: 0x7d04c
++  __TEXT.__cstring: 0x4555
++  __TEXT.__os_log: 0x1588d
++  __TEXT_EXEC.__text: 0x7ceec
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0xdf8
+   __DATA.__bss: 0x1194
+
+   __DATA_CONST.__const: 0x78
+   __DATA_CONST.__kalloc_type: 0x4d40
+   __DATA_CONST.__kalloc_var: 0x3c0
+-  Functions: 812
+-  Symbols:   3710
+-  CStrings:  936
++  Functions: 811
++  Symbols:   3706
++  CStrings:  935
+ 
+Symbols:
++ AddRemoveByteRangeLockEntry._os_log_fmt.131
++ AddRemoveByteRangeLockEntry._os_log_fmt.134
++ AddRemoveByteRangeLockEntry._os_log_fmt.135
++ AddRemoveByteRangeLockEntry.kalloc_type_view_6159
++ AddRemoveByteRangeLockEntry.kalloc_type_view_6197
++ AddRemoveByteRangeLockEntry.kalloc_type_view_6208
++ CheckByteRangeLockEntry._os_log_fmt.136
++ CheckByteRangeLockEntry._os_log_fmt.137
++ CloseDeferredFileRefs._os_log_fmt.58
++ CloseDeferredFileRefs._os_log_fmt.59
++ FindByteRangeLockEntry._os_log_fmt.139
++ FindFileRef._os_log_fmt.140
++ FindFileRef._os_log_fmt.141
++ FindFileRef._os_log_fmt.144
++ FindFileRef._os_log_fmt.145
++ nsmb_dev_load.kalloc_type_view_1828
++ nsmb_dev_load.kalloc_type_view_1836
++ smb2_dur_handle_init._os_log_fmt.68
++ smb2_lease_init._os_log_fmt.69
++ smb2_lease_init._os_log_fmt.70
++ smb2_mc_add_new_interface_info_to_list.kalloc_type_view_1466
++ smb2_mc_query_info_response_event.kalloc_type_view_787
++ smb2_mc_query_info_response_event.kalloc_type_view_862
++ smb2_mc_release_connection_list.kalloc_type_view_1798
++ smb2_mc_release_interface.kalloc_type_view_1812
++ smb2_mc_release_interface.kalloc_type_view_1827
++ smb2_mc_remove_nic_if_unused.kalloc_type_view_969
++ smb2_mc_update_con_list.kalloc_type_view_1635
++ smb2_mc_update_info_with_ip.kalloc_type_view_1974
++ smb2_mc_update_info_with_ip.kalloc_type_view_1982
++ smb2fs_reconnect._os_log_fmt.41
++ smb2fs_reconnect._os_log_fmt.42
++ smb2fs_reconnect._os_log_fmt.48
++ smb2fs_reconnect._os_log_fmt.56
++ smb2fs_reconnect.kalloc_type_view_3800
++ smb2fs_reconnect.kalloc_type_view_4344
++ smb2fs_reconnect_dur_handle._os_log_fmt.29
++ smb2fs_reconnect_dur_handle._os_log_fmt.32
++ smb2fs_reconnect_dur_handle._os_log_fmt.33
++ smb2fs_reconnect_dur_handle._os_log_fmt.36
++ smb2fs_reconnect_dur_handle._os_log_fmt.40
++ smb2fs_reconnect_dur_handle.kalloc_type_view_3562
++ smb2fs_reconnect_dur_handle.kalloc_type_view_3718
++ smb2fs_smb_query_network_interface_info.kalloc_type_view_11027
++ smb_check_for_windows_symlink._os_log_fmt.175
++ smb_hashget._os_log_fmt.171
++ smb_hashget._os_log_fmt.172
++ smb_iod_create.kalloc_type_view_4167
++ smb_iod_create.kalloc_type_view_4185
++ smb_iod_create.kalloc_type_view_4213
++ smb_iod_destroy.kalloc_type_view_4283
++ smb_iod_destroy.kalloc_type_view_4287
++ smb_iod_destroy.kalloc_type_view_4314
++ smb_iod_lease_dequeue.kalloc_type_view_4763
++ smb_iod_lease_enqueue.kalloc_type_view_4063
++ smb_iod_main.kalloc_type_view_3866
++ smb_iod_thread.kalloc_type_view_3969
++ smb_session_lease_thread.kalloc_type_view_2234
++ smb_share_create.kalloc_type_view_1493
++ smb_share_create.kalloc_type_view_1499
++ smb_share_free.kalloc_type_view_1454
++ smbfs_CloseChildren._os_log_fmt.24
++ smbfs_CloseChildren._os_log_fmt.25
++ smbfs_CloseChildren._os_log_fmt.28
++ smbfs_CloseChildren.kalloc_type_view_3353
++ smbfs_add_update_lease._os_log_fmt.72
++ smbfs_add_update_lease._os_log_fmt.73
++ smbfs_build_path._os_log_fmt.187
++ smbfs_clear_lockEntries.kalloc_type_view_6570
++ smbfs_clear_lockEntries.kalloc_type_view_6600
++ smbfs_close.kalloc_type_view_1257
++ smbfs_close.kalloc_type_view_1607
++ smbfs_close_fid.kalloc_type_view_877
++ smbfs_create_open.kalloc_type_view_2223
++ smbfs_create_open.kalloc_type_view_2242
++ smbfs_do_strategy.kalloc_type_view_6689
++ smbfs_do_strategy.kalloc_type_view_6828
++ smbfs_find_lockEntry._os_log_fmt.151
++ smbfs_free_locks_on_close._os_log_fmt.152
++ smbfs_free_locks_on_close._os_log_fmt.153
++ smbfs_free_locks_on_close._os_log_fmt.160
++ smbfs_free_locks_on_close.kalloc_type_view_6752
++ smbfs_get_lockEntry._os_log_fmt.165
++ smbfs_get_lockEntry._os_log_fmt.166
++ smbfs_get_lockEntry.kalloc_type_view_6959
++ smbfs_get_lockEntry.kalloc_type_view_7048
++ smbfs_getattr.kalloc_type_view_4926
++ smbfs_handle_dir_lease_break._os_log_fmt.100
++ smbfs_handle_dir_lease_break._os_log_fmt.99
++ smbfs_handle_lease_break._os_log_fmt.104
++ smbfs_handle_lease_break._os_log_fmt.105
++ smbfs_handle_lease_break._os_log_fmt.114
++ smbfs_lease_hash_add.kalloc_type_view_6011
++ smbfs_lease_hash_remove.kalloc_type_view_6111
++ smbfs_open.kalloc_type_view_2300
++ smbfs_open.kalloc_type_view_2947
++ smbfs_trigger_get_mount_args._os_log_fmt.181
++ smbfs_trigger_get_mount_args._os_log_fmt.182
++ smbfs_vnop_advlock.kalloc_type_view_10927
++ smbfs_vnop_advlock.kalloc_type_view_11016
++ smbfs_vnop_compound_open.kalloc_type_view_3331
++ smbfs_vnop_compound_open.kalloc_type_view_3732
++ smbfs_vnop_getxattr.kalloc_type_view_12680
++ smbfs_vnop_getxattr.kalloc_type_view_12697
++ smbfs_vnop_reclaim.kalloc_type_view_4347
++ smbfs_vnop_reclaim.kalloc_type_view_4374
++ smbfs_vnop_rename.kalloc_type_view_9086
++ smbfs_vnop_strategy.kalloc_type_view_6872
+- AddRemoveByteRangeLockEntry._os_log_fmt.133
+- AddRemoveByteRangeLockEntry._os_log_fmt.136
+- AddRemoveByteRangeLockEntry._os_log_fmt.137
+- AddRemoveByteRangeLockEntry.kalloc_type_view_6237
+- AddRemoveByteRangeLockEntry.kalloc_type_view_6275
+- AddRemoveByteRangeLockEntry.kalloc_type_view_6286
+- CheckByteRangeLockEntry._os_log_fmt.139
+- CheckByteRangeLockEntry._os_log_fmt.140
+- CloseDeferredFileRefs._os_log_fmt.68
+- CloseDeferredFileRefs._os_log_fmt.69
+- FindByteRangeLockEntry._os_log_fmt.141
+- FindFileRef._os_log_fmt.142
+- FindFileRef._os_log_fmt.143
+- FindFileRef._os_log_fmt.151
+- FindFileRef._os_log_fmt.152
+- _smbfs_ClearChildren
+- nsmb_dev_load.kalloc_type_view_1827
+- nsmb_dev_load.kalloc_type_view_1835
+- smb2_dur_handle_init._os_log_fmt.70
+- smb2_lease_init._os_log_fmt.72
+- smb2_lease_init._os_log_fmt.73
+- smb2_mc_add_new_interface_info_to_list.kalloc_type_view_1460
+- smb2_mc_query_info_response_event.kalloc_type_view_784
+- smb2_mc_query_info_response_event.kalloc_type_view_859
+- smb2_mc_release_connection_list.kalloc_type_view_1792
+- smb2_mc_release_interface.kalloc_type_view_1806
+- smb2_mc_release_interface.kalloc_type_view_1821
+- smb2_mc_remove_nic_if_unused.kalloc_type_view_966
+- smb2_mc_update_con_list.kalloc_type_view_1629
+- smb2_mc_update_info_with_ip.kalloc_type_view_1968
+- smb2_mc_update_info_with_ip.kalloc_type_view_1976
+- smb2fs_reconnect._os_log_fmt.46
+- smb2fs_reconnect._os_log_fmt.54
+- smb2fs_reconnect._os_log_fmt.58
+- smb2fs_reconnect._os_log_fmt.59
+- smb2fs_reconnect.kalloc_type_view_3878
+- smb2fs_reconnect.kalloc_type_view_4422
+- smb2fs_reconnect_dur_handle._os_log_fmt.31
+- smb2fs_reconnect_dur_handle._os_log_fmt.34
+- smb2fs_reconnect_dur_handle._os_log_fmt.38
+- smb2fs_reconnect_dur_handle._os_log_fmt.41
+- smb2fs_reconnect_dur_handle._os_log_fmt.42
+- smb2fs_reconnect_dur_handle.kalloc_type_view_3640
+- smb2fs_reconnect_dur_handle.kalloc_type_view_3796
+- smb2fs_smb_query_network_interface_info.kalloc_type_view_11026
+- smb_check_for_windows_symlink._os_log_fmt.179
+- smb_hashget._os_log_fmt.173
+- smb_hashget._os_log_fmt.174
+- smb_iod_create.kalloc_type_view_4168
+- smb_iod_create.kalloc_type_view_4186
+- smb_iod_create.kalloc_type_view_4214
+- smb_iod_destroy.kalloc_type_view_4284
+- smb_iod_destroy.kalloc_type_view_4288
+- smb_iod_destroy.kalloc_type_view_4315
+- smb_iod_lease_dequeue.kalloc_type_view_4764
+- smb_iod_lease_enqueue.kalloc_type_view_4064
+- smb_iod_main.kalloc_type_view_3867
+- smb_iod_thread.kalloc_type_view_3970
+- smb_session_lease_thread.kalloc_type_view_2232
+- smb_share_create.kalloc_type_view_1491
+- smb_share_create.kalloc_type_view_1497
+- smb_share_free.kalloc_type_view_1452
+- smbfs_ClearChildren._os_log_fmt
+- smbfs_ClearChildren._os_log_fmt.24
+- smbfs_ClearChildren._os_log_fmt.25
+- smbfs_CloseChildren._os_log_fmt.26
+- smbfs_CloseChildren._os_log_fmt.27
+- smbfs_CloseChildren._os_log_fmt.30
+- smbfs_CloseChildren.kalloc_type_view_3431
+- smbfs_add_update_lease._os_log_fmt.100
+- smbfs_add_update_lease._os_log_fmt.99
+- smbfs_build_path._os_log_fmt.189
+- smbfs_clear_lockEntries.kalloc_type_view_6648
+- smbfs_clear_lockEntries.kalloc_type_view_6678
+- smbfs_close.kalloc_type_view_1254
+- smbfs_close.kalloc_type_view_1604
+- smbfs_close_fid.kalloc_type_view_874
+- smbfs_create_open.kalloc_type_view_2220
+- smbfs_create_open.kalloc_type_view_2239
+- smbfs_do_strategy.kalloc_type_view_6694
+- smbfs_do_strategy.kalloc_type_view_6833
+- smbfs_find_lockEntry._os_log_fmt.153
+- smbfs_free_locks_on_close._os_log_fmt.156
+- smbfs_free_locks_on_close._os_log_fmt.165
+- smbfs_free_locks_on_close._os_log_fmt.166
+- smbfs_free_locks_on_close.kalloc_type_view_6830
+- smbfs_get_lockEntry._os_log_fmt.169
+- smbfs_get_lockEntry._os_log_fmt.172
+- smbfs_get_lockEntry.kalloc_type_view_7037
+- smbfs_get_lockEntry.kalloc_type_view_7126
+- smbfs_getattr.kalloc_type_view_4931
+- smbfs_handle_dir_lease_break._os_log_fmt.104
+- smbfs_handle_dir_lease_break._os_log_fmt.105
+- smbfs_handle_lease_break._os_log_fmt.112
+- smbfs_handle_lease_break._os_log_fmt.126
+- smbfs_handle_lease_break._os_log_fmt.129
+- smbfs_lease_hash_add.kalloc_type_view_6089
+- smbfs_lease_hash_remove.kalloc_type_view_6189
+- smbfs_open.kalloc_type_view_2297
+- smbfs_open.kalloc_type_view_2944
+- smbfs_trigger_get_mount_args._os_log_fmt.184
+- smbfs_trigger_get_mount_args._os_log_fmt.185
+- smbfs_vnop_advlock.kalloc_type_view_10932
+- smbfs_vnop_advlock.kalloc_type_view_11021
+- smbfs_vnop_compound_open.kalloc_type_view_3328
+- smbfs_vnop_compound_open.kalloc_type_view_3729
+- smbfs_vnop_getxattr.kalloc_type_view_12685
+- smbfs_vnop_getxattr.kalloc_type_view_12702
+- smbfs_vnop_reclaim.kalloc_type_view_4352
+- smbfs_vnop_reclaim.kalloc_type_view_4379
+- smbfs_vnop_rename.kalloc_type_view_9091
+- smbfs_vnop_strategy.kalloc_type_view_6877
+CStrings:
++ "2112222111111122222222111122222222222222222222211222121222222222222222222222222222222222222222222222222111222222222222222212222222222222222212222111222222222222222211211221222112112211222222222222222222222222222"
+- "21122221111111222222221111222222222222222222222112221212222222222222222222222222222222222222222222222221112222222222222222122222222222222222122221112222222222222221121121222112112211222222222222222222222222222"
+- "smbfs_ClearChildren"
+
+```
+
 >  `com.apple.driver.AppleBCMWLANCore`
 
 ```diff
@@ -6360,634 +4869,6 @@ CStrings:
 - "[ik] %s@%d: fw query for chanspecs SUCCEEDED during init : %s\n"
 - "[ik] %s@%d: fw query for chanspecs failed after watchdog complete\n "
 - "wlan.debug.isNewDevice"
-
-```
-
->  `com.apple.driver.AppleBiometricSensor`
-
-```diff
-
--259.0.0.0.0
--  __TEXT.__cstring: 0x283a
--  __TEXT.__os_log: 0x80ff
-+259.0.1.0.0
-+  __TEXT.__cstring: 0x28bf
-+  __TEXT.__os_log: 0x8307
-   __TEXT.__const: 0x360
--  __TEXT_EXEC.__text: 0x1ff00
-+  __TEXT_EXEC.__text: 0x20150
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0x188
-   __DATA.__common: 0x1c8
-
-   __DATA_CONST.__const: 0x5f90
-   __DATA_CONST.__kalloc_type: 0x3c0
-   Functions: 422
--  Symbols:   1860
--  CStrings:  411
-+  Symbols:   1868
-+  CStrings:  413
- 
-Symbols:
-+ __ZN15AppleSandDollar17enableSensorGatedEN20AppleBiometricSensor23eSensorPowerControlTypeEb
-+ __ZN15AppleSandDollar18disableSensorGatedEN20AppleBiometricSensor23eSensorPowerControlTypeEb
-+ __ZN9AppleMesa12enableSensorEN20AppleBiometricSensor23eSensorPowerControlTypeEb
-+ __ZN9AppleMesa13disableSensorEN20AppleBiometricSensor23eSensorPowerControlTypeEb
-+ __ZN9AppleMesa17enableSensorGatedEN20AppleBiometricSensor23eSensorPowerControlTypeEb
-+ __ZN9AppleMesa17enableSensorGatedEN20AppleBiometricSensor23eSensorPowerControlTypeEb_vfpthunk_
-+ __ZN9AppleMesa18disableSensorGatedEN20AppleBiometricSensor23eSensorPowerControlTypeEb
-+ __ZN9AppleMesa18disableSensorGatedEN20AppleBiometricSensor23eSensorPowerControlTypeEb_vfpthunk_
-+ __ZZN15AppleSandDollar17enableSensorGatedEN20AppleBiometricSensor23eSensorPowerControlTypeEbE11_os_log_fmt
-+ __ZZN15AppleSandDollar17enableSensorGatedEN20AppleBiometricSensor23eSensorPowerControlTypeEbE11_os_log_fmt_0
-+ __ZZN15AppleSandDollar18disableSensorGatedEN20AppleBiometricSensor23eSensorPowerControlTypeEbE11_os_log_fmt
-+ __ZZN15AppleSandDollar18disableSensorGatedEN20AppleBiometricSensor23eSensorPowerControlTypeEbE11_os_log_fmt_0
-+ __ZZN15AppleSandDollar18disableSensorGatedEN20AppleBiometricSensor23eSensorPowerControlTypeEbE11_os_log_fmt_1
-+ __ZZN15AppleSandDollar18disableSensorGatedEN20AppleBiometricSensor23eSensorPowerControlTypeEbE11_os_log_fmt_2
-+ __ZZN9AppleMesa13SetPowerGatedEjE11_os_log_fmt__15_
-+ __ZZN9AppleMesa13handleCMDSyncEjmmmE11_os_log_fmt__10_
-+ __ZZN9AppleMesa15setCurrentStateEjE11_os_log_fmt_1
-+ __ZZN9AppleMesa17ESDRecoveryActionEP13IOEventSourceE11_os_log_fmt__13_
-+ __ZZN9AppleMesa17enableSensorGatedEN20AppleBiometricSensor23eSensorPowerControlTypeEbE11_os_log_fmt
-+ __ZZN9AppleMesa17enableSensorGatedEN20AppleBiometricSensor23eSensorPowerControlTypeEbE11_os_log_fmt_0
-+ __ZZN9AppleMesa17enableSensorGatedEN20AppleBiometricSensor23eSensorPowerControlTypeEbE11_os_log_fmt_1
-+ __ZZN9AppleMesa17enableSensorGatedEN20AppleBiometricSensor23eSensorPowerControlTypeEbE11_os_log_fmt_2
-+ __ZZN9AppleMesa17enableSensorGatedEN20AppleBiometricSensor23eSensorPowerControlTypeEbE11_os_log_fmt_3
-+ __ZZN9AppleMesa17enableSensorGatedEN20AppleBiometricSensor23eSensorPowerControlTypeEbE11_os_log_fmt_4
-+ __ZZN9AppleMesa18disableSensorGatedEN20AppleBiometricSensor23eSensorPowerControlTypeEbE11_os_log_fmt
-+ __ZZN9AppleMesa18disableSensorGatedEN20AppleBiometricSensor23eSensorPowerControlTypeEbE11_os_log_fmt_0
-+ __ZZN9AppleMesa18disableSensorGatedEN20AppleBiometricSensor23eSensorPowerControlTypeEbE11_os_log_fmt_1
-+ __ZZN9AppleMesa18disableSensorGatedEN20AppleBiometricSensor23eSensorPowerControlTypeEbE11_os_log_fmt_2
-+ __ZZN9AppleMesa18disableSensorGatedEN20AppleBiometricSensor23eSensorPowerControlTypeEbE11_os_log_fmt_3
-+ __ZZN9AppleMesa20dispatchCaptureReadyEP18IOMemoryDescriptoryyE21kalloc_type_view_6827
-+ __ZZN9AppleMesa20dispatchCaptureReadyEP18IOMemoryDescriptoryyE21kalloc_type_view_6843
-- __ZN15AppleSandDollar18disableSensorGatedEv
-- __ZN15AppleSandDollar18setPropertiesGatedEP8OSObject
-- __ZN9AppleMesa12enableSensorEv
-- __ZN9AppleMesa13disableSensorEv
-- __ZN9AppleMesa17enableSensorGatedEv
-- __ZN9AppleMesa17enableSensorGatedEv_vfpthunk_
-- __ZN9AppleMesa18disableSensorGatedEv
-- __ZN9AppleMesa18disableSensorGatedEv_vfpthunk_
-- __ZZN15AppleSandDollar18disableSensorGatedEvE11_os_log_fmt
-- __ZZN15AppleSandDollar18disableSensorGatedEvE11_os_log_fmt_0
-- __ZZN15AppleSandDollar18disableSensorGatedEvE11_os_log_fmt_1
-- __ZZN15AppleSandDollar18setPropertiesGatedEP8OSObjectE11_os_log_fmt
-- __ZZN9AppleMesa17enableSensorGatedEvE11_os_log_fmt
-- __ZZN9AppleMesa17enableSensorGatedEvE11_os_log_fmt_0
-- __ZZN9AppleMesa17enableSensorGatedEvE11_os_log_fmt_1
-- __ZZN9AppleMesa17enableSensorGatedEvE11_os_log_fmt_2
-- __ZZN9AppleMesa17enableSensorGatedEvE11_os_log_fmt_3
-- __ZZN9AppleMesa18disableSensorGatedEvE11_os_log_fmt
-- __ZZN9AppleMesa18disableSensorGatedEvE11_os_log_fmt_0
-- __ZZN9AppleMesa18disableSensorGatedEvE11_os_log_fmt_1
-- __ZZN9AppleMesa18disableSensorGatedEvE11_os_log_fmt_2
-- __ZZN9AppleMesa20dispatchCaptureReadyEP18IOMemoryDescriptoryyE21kalloc_type_view_6786
-- __ZZN9AppleMesa20dispatchCaptureReadyEP18IOMemoryDescriptoryyE21kalloc_type_view_6802
-CStrings:
-+ "!powerState || _currentState != kDeviceDisabled"
-+ "(_currentState != kDeviceDisabled)"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/AppleBiometricSensor/ABSLogging.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/AppleBiometricSensor/AppleMesa.cpp"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/AppleBiometricSensor/AppleMesaResources.cpp"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/AppleBiometricSensor/AppleSPIBiometricSensor.cpp"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/AppleBiometricSensor/AppleSandDollar.cpp"
-+ "_currentState != kDeviceDisabled || _setSensorPowerUserOverride"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleBiometricSensor/ABSLogging.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleBiometricSensor/AppleMesa.cpp"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleBiometricSensor/AppleMesaResources.cpp"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleBiometricSensor/AppleSPIBiometricSensor.cpp"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleBiometricSensor/AppleSandDollar.cpp"
-- "wakeOnMenuPin"
-
-```
-
->  `com.apple.driver.AppleM2ScalerCSCDriver`
-
-```diff
-
--148.0.45.0.0
--  __TEXT.__cstring: 0x17d57
--  __TEXT.__const: 0x4f518
--  __TEXT_EXEC.__text: 0xe0b5c
-+148.0.46.0.0
-+  __TEXT.__cstring: 0x17d09
-+  __TEXT.__const: 0x4ec98
-+  __TEXT_EXEC.__text: 0xe084c
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0x1fe40
-   __DATA.__common: 0x20a8
-
-   __DATA_CONST.__auth_ptr: 0x88
-   __DATA_CONST.__mod_init_func: 0x570
-   __DATA_CONST.__mod_term_func: 0x548
--  __DATA_CONST.__const: 0x31080
-+  __DATA_CONST.__const: 0x31038
-   __DATA_CONST.__kalloc_type: 0x3c40
-   __DATA_CONST.__kalloc_var: 0x500
--  Functions: 6009
-+  Functions: 6008
-   Symbols:   9228
--  CStrings:  2386
-+  CStrings:  2384
- 
-CStrings:
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/AXI2AFControl/IosaAxi2AfControl.cpp"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/AppleM2ScalerCSCDriver.cpp"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/AppleM2ScalerCSCDriverFilters.cpp"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/AppleM2ScalerCSCHal.cpp"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/AppleM2ScalerCSCHalMSR.cpp"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/AppleM2ScalerCSCHalMSR10.cpp"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/AppleM2ScalerCSCHalMSR10j.cpp"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/AppleM2ScalerCSCHalMSR11.cpp"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/AppleM2ScalerCSCHalMSR15.cpp"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/AppleM2ScalerCSCHalMSR16.cpp"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/AppleM2ScalerCSCHalMSR2.cpp"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/AppleM2ScalerCSCHalMSR20.cpp"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/AppleM2ScalerCSCHalMSR21.cpp"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/AppleM2ScalerCSCHalMSR22.cpp"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/AppleM2ScalerCSCHalMSR23.cpp"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/AppleM2ScalerCSCHalMSR4.cpp"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/AppleM2ScalerCSCHalMSR6.cpp"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/AppleM2ScalerCSCHalMSR7.cpp"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/AppleM2ScalerCSCHalMSR8.cpp"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/AppleM2ScalerCSCHalMSR9.cpp"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/DPEControl/IosaDPEControlMSR16.cpp"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/DPEControl/IosaDPEControlMSR17.cpp"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/DPEControl/IosaDPEControlMSR20.cpp"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/DPEControl/IosaDPEControlMSR21.cpp"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/DPEControl/IosaDPEControlMSR22.cpp"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/DisplayScalerFilter.cpp"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/DriverCommonFunctions.h"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/FirmwareControl/IosaFirmwareControlMSR23.cpp"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/FirmwareControl/IosaFirmwareControlMSR23Dv.cpp"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/FirmwareControl/IosaFirmwareControlMSR23Rtk.cpp"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/FirmwareControl/IosaFirmwareControlMSR25RTK.cpp"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/FrameDescriptorRing.cpp"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/FrameDescriptorRingMSR23.cpp"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/IOAsynchronousScheduler.cpp"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/IOSurfaceAcceleratorClient.cpp"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/IOSurfaceAcceleratorPreparator.cpp"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/IosaColorManagerMSR10.cpp"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/IosaColorManagerMSR15.cpp"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/IosaColorManagerMSR18.cpp"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/IosaColorManagerMSR20.cpp"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/IosaColorManagerMSR23.cpp"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/IosaColorManagerMSR4.cpp"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/IosaColorManagerMSR8.cpp"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/IosaFilmGrainControlMSR16.cpp"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/IosaFilmGrainControlMSR23.cpp"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/IosaPowerManager.cpp"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/IosaPowerManagerMSR.cpp"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/IosaPowerManagerMSR20.cpp"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/IosaRdmaControl.cpp"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/IosaRdmaControlMSR10.cpp"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/IosaRdmaControlMSR18.cpp"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/IosaRdmaControlMSR23.cpp"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/IosaTiledCompressedMemMSR8.cpp"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/IosaWdmaControlMSR23.cpp"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/K2KTests.cpp"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/M2ScalerCSCColorConversionControl.cpp"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/M2ScalerCSCColorConversionControlMSR.cpp"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/M2ScalerCSCColorConversionControlMSR23.cpp"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/M2ScalerCSCColorConversionControlMSR4.cpp"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/M2ScalerCSCColorConversionControlMSR8.cpp"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/M2ScalerScalingASEControl.cpp"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/M2ScalerScalingASEControlMSR10.cpp"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/M2ScalerScalingASEControlMSR20.cpp"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/M2ScalerScalingASEControlMSR23.cpp"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/M2ScalerScalingControl.cpp"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/M2ScalerScalingControlMSR.cpp"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/M2ScalerScalingControlMSR23.cpp"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/M2ScalerScalingControlMSR6.cpp"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/M2ScalerScalingControlMSR8.cpp"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/M2ScalerSrcDestCfgControl.cpp"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/M2ScalerSrcDestCfgControlMSR.cpp"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/M2ScalerSrcDestCfgControlMSR10.cpp"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/M2ScalerSrcDestCfgControlMSR22.cpp"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/M2ScalerSrcDestCfgControlMSR23.cpp"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/M2ScalerSrcDestCfgControlMSR4.cpp"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/M2ScalerSrcDestCfgControlMSR8.cpp"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/MSR23ChromaDownsampleFilter.cpp"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/MSR23DefaultFilter.cpp"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/MailBox.cpp"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/MailBoxMSR23.cpp"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/ModularDefaultFilter.cpp"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/MsrApiodmaRegisterStream.cpp"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/MsrApiodmaRegisterStreamMSR15.cpp"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/MsrApiodmaRegisterStreamMSR19.cpp"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/MsrBlockDescriptorRegisterStream.cpp"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/MsrBlockDescriptorRegisterStreamMSR23.cpp"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/MsrRegisterStream.cpp"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/Request.cpp"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/RingBuffer.cpp"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/Shared/Utility/IOFBSAGammaLUT.cpp"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/SpillBuffer.cpp"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/StatusDescriptorRing.cpp"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/StatusDescriptorRingMSR23.cpp"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/AXI2AFControl/IosaAxi2AfControl.cpp"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/AppleM2ScalerCSCDriver.cpp"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/AppleM2ScalerCSCDriverFilters.cpp"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/AppleM2ScalerCSCHal.cpp"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/AppleM2ScalerCSCHalMSR.cpp"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/AppleM2ScalerCSCHalMSR10.cpp"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/AppleM2ScalerCSCHalMSR10j.cpp"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/AppleM2ScalerCSCHalMSR11.cpp"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/AppleM2ScalerCSCHalMSR15.cpp"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/AppleM2ScalerCSCHalMSR16.cpp"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/AppleM2ScalerCSCHalMSR2.cpp"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/AppleM2ScalerCSCHalMSR20.cpp"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/AppleM2ScalerCSCHalMSR21.cpp"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/AppleM2ScalerCSCHalMSR22.cpp"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/AppleM2ScalerCSCHalMSR23.cpp"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/AppleM2ScalerCSCHalMSR4.cpp"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/AppleM2ScalerCSCHalMSR6.cpp"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/AppleM2ScalerCSCHalMSR7.cpp"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/AppleM2ScalerCSCHalMSR8.cpp"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/AppleM2ScalerCSCHalMSR9.cpp"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/DPEControl/IosaDPEControlMSR16.cpp"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/DPEControl/IosaDPEControlMSR17.cpp"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/DPEControl/IosaDPEControlMSR20.cpp"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/DPEControl/IosaDPEControlMSR21.cpp"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/DPEControl/IosaDPEControlMSR22.cpp"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/DisplayScalerFilter.cpp"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/DriverCommonFunctions.h"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/FirmwareControl/IosaFirmwareControlMSR23.cpp"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/FirmwareControl/IosaFirmwareControlMSR23Dv.cpp"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/FirmwareControl/IosaFirmwareControlMSR23Rtk.cpp"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/FirmwareControl/IosaFirmwareControlMSR25RTK.cpp"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/FrameDescriptorRing.cpp"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/FrameDescriptorRingMSR23.cpp"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/IOAsynchronousScheduler.cpp"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/IOSurfaceAcceleratorClient.cpp"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/IOSurfaceAcceleratorPreparator.cpp"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/IosaColorManagerMSR10.cpp"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/IosaColorManagerMSR15.cpp"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/IosaColorManagerMSR18.cpp"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/IosaColorManagerMSR20.cpp"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/IosaColorManagerMSR23.cpp"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/IosaColorManagerMSR4.cpp"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/IosaColorManagerMSR8.cpp"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/IosaFilmGrainControlMSR16.cpp"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/IosaFilmGrainControlMSR23.cpp"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/IosaPowerManager.cpp"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/IosaPowerManagerMSR.cpp"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/IosaPowerManagerMSR20.cpp"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/IosaRdmaControl.cpp"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/IosaRdmaControlMSR10.cpp"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/IosaRdmaControlMSR18.cpp"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/IosaRdmaControlMSR23.cpp"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/IosaTiledCompressedMemMSR8.cpp"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/IosaWdmaControlMSR23.cpp"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/K2KTests.cpp"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/M2ScalerCSCColorConversionControl.cpp"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/M2ScalerCSCColorConversionControlMSR.cpp"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/M2ScalerCSCColorConversionControlMSR23.cpp"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/M2ScalerCSCColorConversionControlMSR4.cpp"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/M2ScalerCSCColorConversionControlMSR8.cpp"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/M2ScalerScalingASEControl.cpp"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/M2ScalerScalingASEControlMSR10.cpp"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/M2ScalerScalingASEControlMSR20.cpp"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/M2ScalerScalingASEControlMSR23.cpp"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/M2ScalerScalingControl.cpp"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/M2ScalerScalingControlMSR.cpp"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/M2ScalerScalingControlMSR23.cpp"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/M2ScalerScalingControlMSR6.cpp"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/M2ScalerScalingControlMSR8.cpp"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/M2ScalerSrcDestCfgControl.cpp"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/M2ScalerSrcDestCfgControlMSR.cpp"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/M2ScalerSrcDestCfgControlMSR10.cpp"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/M2ScalerSrcDestCfgControlMSR22.cpp"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/M2ScalerSrcDestCfgControlMSR23.cpp"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/M2ScalerSrcDestCfgControlMSR4.cpp"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/M2ScalerSrcDestCfgControlMSR8.cpp"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/MSR23ChromaDownsampleFilter.cpp"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/MSR23DefaultFilter.cpp"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/MailBox.cpp"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/MailBoxMSR23.cpp"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/ModularDefaultFilter.cpp"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/MsrApiodmaRegisterStream.cpp"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/MsrApiodmaRegisterStreamMSR15.cpp"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/MsrApiodmaRegisterStreamMSR19.cpp"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/MsrBlockDescriptorRegisterStream.cpp"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/MsrBlockDescriptorRegisterStreamMSR23.cpp"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/MsrRegisterStream.cpp"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/Request.cpp"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/RingBuffer.cpp"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/Shared/Utility/IOFBSAGammaLUT.cpp"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/SpillBuffer.cpp"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/StatusDescriptorRing.cpp"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/StatusDescriptorRingMSR23.cpp"
-- "[IOSA][Boot ] Allocating BlockDescriptorRegStreamMSR23\n"
-- "[IOSA][Boot ] obj=%p\n"
-
-```
-
->  `com.apple.driver.AppleMobileFileIntegrity`
-
-```diff
-
--938.0.16.0.0
-+938.0.19.0.0
-   __TEXT.__const: 0x1610
--  __TEXT.__cstring: 0x18cfd
-+  __TEXT.__cstring: 0x18c81
-   __TEXT.__os_log: 0x380
--  __TEXT_EXEC.__text: 0x31c1c
-+  __TEXT_EXEC.__text: 0x31b44
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0x81a
-   __DATA.__common: 0xb0
-   __DATA.__bss: 0x129
--  __DATA_CONST.__auth_got: 0x908
-+  __DATA_CONST.__auth_got: 0x900
-   __DATA_CONST.__got: 0x158
-   __DATA_CONST.__auth_ptr: 0x20
-   __DATA_CONST.__mod_init_func: 0x20
-
-   __DATA_CONST.__const: 0xb130
-   __DATA_CONST.__kalloc_type: 0x1200
-   __DATA_CONST.__kalloc_var: 0x11d0
--  Functions: 899
-+  Functions: 900
-   Symbols:   1964
--  CStrings:  3068
-+  CStrings:  3065
- 
-Symbols:
-+ _AMFIUsingResearchVariant
-+ __ZN20StaticPlatformPolicyILb1ELb1ELb1ELb1ELb1ELb1ELb1ELb0ELb1ELb0ELb1ELb0ELb1ELb1ELb0ELb0ELj1ELb1ELb0EE29loadEntitlementsFromSignatureEPP14OSEntitlementsP7cs_blobP8LazyPathPPKc
-+ __ZZL27_process_matches_constraintP4procyE21kalloc_type_view_5024
-+ __ZZL27_process_matches_constraintP4procyE21kalloc_type_view_5047
-+ __ZZN20StaticPlatformPolicyILb1ELb1ELb0ELb1ELb0ELb1ELb1ELb0ELb0ELb1ELb0ELb1ELb0ELb0ELb1ELb0ELj2ELb1ELb0EE15check_signatureEP8LazyPathiP7cs_blobPjS5_ibbbjPPcPmE21kalloc_type_view_2857
-+ __ZZN20StaticPlatformPolicyILb1ELb1ELb0ELb1ELb0ELb1ELb1ELb0ELb0ELb1ELb0ELb1ELb0ELb0ELb1ELb0ELj2ELb1ELb0EE15check_signatureEP8LazyPathiP7cs_blobPjS5_ibbbjPPcPmE21kalloc_type_view_3067
-+ __ZZN20StaticPlatformPolicyILb1ELb1ELb1ELb1ELb1ELb1ELb1ELb0ELb1ELb0ELb1ELb0ELb1ELb1ELb0ELb0ELj1ELb1ELb0EE15check_signatureEP8LazyPathiP7cs_blobPjS5_ibbbjPPcPmE21kalloc_type_view_2857
-+ __ZZN20StaticPlatformPolicyILb1ELb1ELb1ELb1ELb1ELb1ELb1ELb0ELb1ELb0ELb1ELb0ELb1ELb1ELb0ELb0ELj1ELb1ELb0EE15check_signatureEP8LazyPathiP7cs_blobPjS5_ibbbjPPcPmE21kalloc_type_view_3067
-- __ZN20StaticPlatformPolicyILb1ELb1ELb1ELb1ELb1ELb1ELb1ELb0ELb1ELb0ELb1ELb0ELb1ELb1ELb0ELb0ELj1ELb0ELb1ELb0EE29loadEntitlementsFromSignatureEPP14OSEntitlementsP7cs_blobP8LazyPathPPKc
-- __ZZL27_process_matches_constraintP4procyE21kalloc_type_view_5041
-- __ZZL27_process_matches_constraintP4procyE21kalloc_type_view_5064
-- __ZZN20StaticPlatformPolicyILb1ELb1ELb0ELb1ELb0ELb1ELb1ELb0ELb0ELb1ELb0ELb1ELb0ELb0ELb1ELb0ELj2ELb0ELb1ELb0EE15check_signatureEP8LazyPathiP7cs_blobPjS5_ibbbjPPcPmE21kalloc_type_view_2857
-- __ZZN20StaticPlatformPolicyILb1ELb1ELb0ELb1ELb0ELb1ELb1ELb0ELb0ELb1ELb0ELb1ELb0ELb0ELb1ELb0ELj2ELb0ELb1ELb0EE15check_signatureEP8LazyPathiP7cs_blobPjS5_ibbbjPPcPmE21kalloc_type_view_3067
-- __ZZN20StaticPlatformPolicyILb1ELb1ELb1ELb1ELb1ELb1ELb1ELb0ELb1ELb0ELb1ELb0ELb1ELb1ELb0ELb0ELj1ELb0ELb1ELb0EE15check_signatureEP8LazyPathiP7cs_blobPjS5_ibbbjPPcPmE21kalloc_type_view_2857
-- __ZZN20StaticPlatformPolicyILb1ELb1ELb1ELb1ELb1ELb1ELb1ELb0ELb1ELb0ELb1ELb0ELb1ELb1ELb0ELb0ELj1ELb0ELb1ELb0EE15check_signatureEP8LazyPathiP7cs_blobPjS5_ibbbjPPcPmE21kalloc_type_view_3067
-- _img4_chip_instantiate
-CStrings:
-+ "/AppleInternal/Library/BuildRoots/d8c9c115-356a-11ef-b3f4-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleCredentialManager_KernelLibs/ACMKernelLib/ACMKernelTransport.cpp"
-+ "/AppleInternal/Library/BuildRoots/d8c9c115-356a-11ef-b3f4-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleCredentialManager_KernelLibs/common/CommonMem.c"
-+ "/AppleInternal/Library/BuildRoots/d8c9c115-356a-11ef-b3f4-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleCredentialManager_KernelLibs/common/LibCall.c"
-+ "21:43:16"
-+ "Jul  1 2024"
-+ "cmd = (acm_command_t *)({ size_t sizeVal = (cmdSize); void *ptr = acm_mem_alloc_data(sizeVal); acm_mem_alloc_info(\"<data>\", ptr, sizeVal, \"/AppleInternal/Library/BuildRoots/d8c9c115-356a-11ef-b3f4-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleCredentialManager_KernelLibs/common/LibCall.c\", 22, __func__); ptr; })"
-- "\"AMFI: No chip from IMG4? errno: %d\" @%s:%d"
-- "/AppleInternal/Library/BuildRoots/7abfe40b-2884-11ef-836f-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleCredentialManager_KernelLibs/ACMKernelLib/ACMKernelTransport.cpp"
-- "/AppleInternal/Library/BuildRoots/7abfe40b-2884-11ef-836f-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleCredentialManager_KernelLibs/common/CommonMem.c"
-- "/AppleInternal/Library/BuildRoots/7abfe40b-2884-11ef-836f-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleCredentialManager_KernelLibs/common/LibCall.c"
-- "20:29:49"
-- "AMFI: Allowing research due to amfi_allow_research boot arg"
-- "Jun 20 2024"
-- "amfi_allow_research"
-- "cmd = (acm_command_t *)({ size_t sizeVal = (cmdSize); void *ptr = acm_mem_alloc_data(sizeVal); acm_mem_alloc_info(\"<data>\", ptr, sizeVal, \"/AppleInternal/Library/BuildRoots/7abfe40b-2884-11ef-836f-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleCredentialManager_KernelLibs/common/LibCall.c\", 22, __func__); ptr; })"
-
-```
-
->  `com.apple.filesystems.hfs.kext`
-
-```diff
-
--670.0.0.0.0
-+672.0.0.0.0
-   __TEXT.__const: 0x1a08
-   __TEXT.__cstring: 0xa724
--  __TEXT_EXEC.__text: 0x4e01c
-+  __TEXT_EXEC.__text: 0x4e0a0
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0x4d0
-   __DATA.__common: 0x10
-CStrings:
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/hfs/core/VolumeAllocation.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/hfs/core/hfs_attrlist.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/hfs/core/hfs_btreeio.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/hfs/core/hfs_cnode.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/hfs/core/hfs_hotfiles.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/hfs/core/hfs_journal.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/hfs/core/hfs_readwrite.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/hfs/core/hfs_search.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/hfs/core/hfs_vfsops.c"
-+ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/hfs/core/hfs_vfsutils.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/hfs/core/VolumeAllocation.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/hfs/core/hfs_attrlist.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/hfs/core/hfs_btreeio.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/hfs/core/hfs_cnode.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/hfs/core/hfs_hotfiles.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/hfs/core/hfs_journal.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/hfs/core/hfs_readwrite.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/hfs/core/hfs_search.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/hfs/core/hfs_vfsops.c"
-- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/hfs/core/hfs_vfsutils.c"
-
-```
-
->  `com.apple.security.sandbox`
-
-```diff
-
--2401.0.37.0.2
--  __TEXT.__const: 0x1df5b
--  __TEXT.__cstring: 0x70c0
-+2401.0.48.0.0
-+  __TEXT.__const: 0x1e02b
-+  __TEXT.__cstring: 0x70ff
-   __TEXT.__os_log: 0x1b6e
--  __TEXT_EXEC.__text: 0x424a4
-+  __TEXT_EXEC.__text: 0x42550
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0x2b8
--  __DATA.__bss: 0x164f0
--  __DATA_CONST.__auth_got: 0x9b8
-+  __DATA.__bss: 0x7e1b8
-+  __DATA_CONST.__auth_got: 0x9c0
-   __DATA_CONST.__got: 0x100
-   __DATA_CONST.__const: 0x3a68
-   __DATA_CONST.__kalloc_var: 0x550
-   __DATA_CONST.__kalloc_type: 0x1200
-   Functions: 846
--  Symbols:   1819
--  CStrings:  1240
-+  Symbols:   1820
-+  CStrings:  1242
- 
-Symbols:
-+ _AMFIUsingResearchVariant
-+ __block_descriptor_tmp.1.2976
-+ __block_descriptor_tmp.1.3622
-+ __block_descriptor_tmp.12.2529
-+ __block_descriptor_tmp.12.3160
-+ __block_descriptor_tmp.13.3174
-+ __block_descriptor_tmp.13.811
-+ __block_descriptor_tmp.14.2605
-+ __block_descriptor_tmp.14.2762
-+ __block_descriptor_tmp.14.3561
-+ __block_descriptor_tmp.16.974
-+ __block_descriptor_tmp.20.3175
-+ __block_descriptor_tmp.23.2390
-+ __block_descriptor_tmp.2383
-+ __block_descriptor_tmp.2437
-+ __block_descriptor_tmp.2498
-+ __block_descriptor_tmp.25.2504
-+ __block_descriptor_tmp.2604
-+ __block_descriptor_tmp.2744
-+ __block_descriptor_tmp.2984
-+ __block_descriptor_tmp.3056
-+ __block_descriptor_tmp.3157
-+ __block_descriptor_tmp.317
-+ __block_descriptor_tmp.3187
-+ __block_descriptor_tmp.320
-+ __block_descriptor_tmp.3240
-+ __block_descriptor_tmp.3556
-+ __block_descriptor_tmp.3618
-+ __block_descriptor_tmp.4.3567
-+ __block_descriptor_tmp.4.3625
-+ __block_descriptor_tmp.5.3201
-+ __block_descriptor_tmp.7.3630
-+ __block_descriptor_tmp.805
-+ __block_descriptor_tmp.849
-+ __block_descriptor_tmp.9.2745
-+ __block_descriptor_tmp.9.3076
-+ __block_descriptor_tmp.973
-+ __block_literal_global.2381
-+ __block_literal_global.2975
-+ __block_literal_global.3158
-+ __block_literal_global.3198
-+ __block_literal_global.3216
-+ __block_literal_global.3615
-+ _proc_matches_signing_id
-+ check_data_volume_mounted.done_data_volume_mount
-+ macl_lock_group.2445
-+ operation_names.3310
-+ pending_approval_entry_create.kalloc_type_view_1386
-+ pending_approval_entry_create.kalloc_type_view_1394
-+ pending_approval_entry_release.kalloc_type_view_1365
-+ sandbox_lock_grp.2503
-+ syscall_set_userland_profile._os_log_fmt.304
-- __block_descriptor_tmp.1.2975
-- __block_descriptor_tmp.1.3621
-- __block_descriptor_tmp.12.2528
-- __block_descriptor_tmp.12.3159
-- __block_descriptor_tmp.13.3173
-- __block_descriptor_tmp.13.812
-- __block_descriptor_tmp.14.2604
-- __block_descriptor_tmp.14.2761
-- __block_descriptor_tmp.14.3560
-- __block_descriptor_tmp.16.975
-- __block_descriptor_tmp.20.3174
-- __block_descriptor_tmp.23.2389
-- __block_descriptor_tmp.2382
-- __block_descriptor_tmp.2436
-- __block_descriptor_tmp.2497
-- __block_descriptor_tmp.25.2503
-- __block_descriptor_tmp.2603
-- __block_descriptor_tmp.2743
-- __block_descriptor_tmp.2983
-- __block_descriptor_tmp.3055
-- __block_descriptor_tmp.315
-- __block_descriptor_tmp.3156
-- __block_descriptor_tmp.318
-- __block_descriptor_tmp.3186
-- __block_descriptor_tmp.3239
-- __block_descriptor_tmp.3555
-- __block_descriptor_tmp.3617
-- __block_descriptor_tmp.4.3566
-- __block_descriptor_tmp.4.3624
-- __block_descriptor_tmp.5.3200
-- __block_descriptor_tmp.7.3629
-- __block_descriptor_tmp.806
-- __block_descriptor_tmp.850
-- __block_descriptor_tmp.9.2744
-- __block_descriptor_tmp.9.3075
-- __block_descriptor_tmp.974
-- __block_literal_global.2380
-- __block_literal_global.2974
-- __block_literal_global.3157
-- __block_literal_global.3197
-- __block_literal_global.3215
-- __block_literal_global.3614
-- _check_data_volume_mounted
-- _done_data_volume_mount
-- macl_lock_group.2444
-- operation_names.3309
-- pending_approval_entry_create.kalloc_type_view_1388
-- pending_approval_entry_create.kalloc_type_view_1396
-- pending_approval_entry_release.kalloc_type_view_1367
-- sandbox_lock_grp.2502
-- syscall_set_userland_profile._os_log_fmt.306
-CStrings:
-+ "59GAB85EFG.com.apple.dt.Xcode"
-+ "com.apple.application-identifier"
-
-```
-
->  `com.apple.driver.AppleThunderboltNHI`
-
-```diff
-
--798.0.1.0.0
-+798.0.2.0.0
-   __TEXT.__const: 0x28a08
--  __TEXT.__cstring: 0xa6c0
-+  __TEXT.__cstring: 0xa6db
-   __TEXT.__os_log: 0x6cea
--  __TEXT_EXEC.__text: 0x394fc
-+  __TEXT_EXEC.__text: 0x3962c
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0x280
-   __DATA.__common: 0x450
--  __DATA_CONST.__auth_got: 0x398
-+  __DATA_CONST.__auth_got: 0x3a0
-   __DATA_CONST.__got: 0x128
-   __DATA_CONST.__mod_init_func: 0xd8
-   __DATA_CONST.__mod_term_func: 0xd8
-
-   __DATA_CONST.__kalloc_type: 0x6c0
-   __DATA_CONST.__kalloc_var: 0x460
-   Functions: 897
--  Symbols:   1987
--  CStrings:  586
-+  Symbols:   1988
-+  CStrings:  587
- 
-Symbols:
-+ __ZN20IOPortTransportState12copyMetadataEPKc
-CStrings:
-+ "20:01:17"
-+ "AsymmetricModeSupportedBit"
-+ "Jul  3 2024"
-- "20:30:07"
-- "Jun 20 2024"
-
-```
-
->  `com.apple.driver.AppleDCP`
-
-```diff
-
--811.0.17.0.0
-+811.0.20.0.0
-   __TEXT.__cstring: 0x1664
-   __TEXT.__const: 0x18
-   __TEXT_EXEC.__text: 0x61f0
-
-   __DATA_CONST.__got: 0x80
-   __DATA_CONST.__mod_init_func: 0x20
-   __DATA_CONST.__mod_term_func: 0x20
--  __DATA_CONST.__const: 0x20b8
-+  __DATA_CONST.__const: 0x20b0
-   __DATA_CONST.__kalloc_type: 0x100
-   Functions: 175
--  Symbols:   577
-+  Symbols:   576
-   CStrings:  115
- 
-Symbols:
-- __ZNK11AFKEPKextV222useRTBuddyPowerActionsEv
 
 ```
 
@@ -7594,87 +5475,66 @@ CStrings:
 
 ```
 
->  `com.apple.driver.AppleProResHW`
+>  `com.apple.driver.AppleSmartBatteryManager`
 
 ```diff
 
--400.59.1.0.0
--  __TEXT.__const: 0x1ae8
--  __TEXT.__os_log: 0x71db
--  __TEXT.__cstring: 0xde4
--  __TEXT_EXEC.__text: 0x187a4
-+400.73.0.0.0
-+  __TEXT.__const: 0x1b40
-+  __TEXT.__os_log: 0x7363
-+  __TEXT.__cstring: 0xdf9
-+  __TEXT_EXEC.__text: 0x18d20
+-1730.0.0.0.2
+-  __TEXT.__const: 0x1558
+-  __TEXT.__cstring: 0x290f
++1735.0.0.0.0
++  __TEXT.__const: 0x1588
++  __TEXT.__cstring: 0x2933
+   __TEXT.__os_log: 0x232c
+-  __TEXT_EXEC.__text: 0x1ae7c
++  __TEXT_EXEC.__text: 0x1aef0
    __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0x358
-   __DATA.__common: 0x70
+   __DATA.__data: 0x208
+   __DATA.__common: 0xd8
+-  __DATA.__bss: 0x3110
++  __DATA.__bss: 0x3170
+   __DATA_CONST.__auth_got: 0x338
+   __DATA_CONST.__got: 0xd0
+   __DATA_CONST.__mod_init_func: 0x28
 
-   __DATA_CONST.__const: 0x62c8
-   __DATA_CONST.__kalloc_type: 0x380
-   __DATA_CONST.__kalloc_var: 0xa0
--  Functions: 418
--  Symbols:   2264
--  CStrings:  163
-+  Functions: 425
-+  Symbols:   2278
-+  CStrings:  164
+   __DATA_CONST.__const: 0x2c00
+   __DATA_CONST.__kalloc_type: 0x200
+   Functions: 242
+-  Symbols:   1493
+-  CStrings:  550
++  Symbols:   1496
++  CStrings:  553
  
 Symbols:
-+ __ZL24ProResPerfStateInfoTable
-+ __ZN13AppleProResHW10addElementEP13SlidingWindowd
-+ __ZN13AppleProResHW10freeWindowEP13SlidingWindow
-+ __ZN13AppleProResHW10getAverageEP13SlidingWindow
-+ __ZN13AppleProResHW10initWindowEy
-+ __ZN13AppleProResHW16releaseCoreGatedEv
-+ __ZN13AppleProResHW17deletePrevElementEP13SlidingWindow
-+ __ZN13AppleProResHW19getDynamicPerfStateEP16UserClientInfo_sddj
-+ __ZN13AppleProResHW8getTotalEP13SlidingWindow
-+ __ZZN13AppleProResHW11EncodeFrameEP9IOServicePvE11_os_log_fmt__13_
-+ __ZZN13AppleProResHW12attachClientEP9IOServicePvP4taskE21kalloc_type_view_5462
-+ __ZZN13AppleProResHW12attachClientEP9IOServicePvP4taskE21kalloc_type_view_5595
-+ __ZZN13AppleProResHW12detachClientEP9IOServiceE21kalloc_type_view_5856
-+ __ZZN13AppleProResHW12timerHandlerEP18IOTimerEventSourceE11_os_log_fmt__12_
-+ __ZZN13AppleProResHW12timerHandlerEP18IOTimerEventSourceE11_os_log_fmt__13_
-+ __ZZN13AppleProResHW16acquireCoreGatedEvE11_os_log_fmt_4
-+ __ZZN13AppleProResHW16acquireCoreGatedEvE11_os_log_fmt_5
-+ __ZZN13AppleProResHW16attachTestClientEP9IOServicePvP4taskE21kalloc_type_view_5399
-+ __ZZN13AppleProResHW16attachTestClientEP9IOServicePvP4taskE21kalloc_type_view_5436
-+ __ZZN13AppleProResHW16detachTestClientEP9IOServiceE21kalloc_type_view_5761
-+ __ZZN13AppleProResHW16releaseCoreGatedEvE11_os_log_fmt
-+ __ZZN13AppleProResHW19delayListClearGatedEjjE21kalloc_type_view_6101
-+ __ZZN13AppleProResHW19delayListClearGatedEjjE21kalloc_type_view_6102
-+ __ZZN13AppleProResHW19getDynamicPerfStateEP16UserClientInfo_sddjE11_os_log_fmt
-+ __ZZN13AppleProResHW19getDynamicPerfStateEP16UserClientInfo_sddjE11_os_log_fmt_0
-+ __ZZN13AppleProResHW19getDynamicPerfStateEP16UserClientInfo_sddjE11_os_log_fmt_1
-+ __ZZN13AppleProResHW19getDynamicPerfStateEP16UserClientInfo_sddjE11_os_log_fmt_2
-+ __ZZN13AppleProResHW19getDynamicPerfStateEP16UserClientInfo_sddjE11_os_log_fmt_3
-+ __ZZN13AppleProResHW24unMapBufferWithDARTGatedEP15ProResBufInfo_sjjE21kalloc_type_view_5072
-+ __ZZN13AppleProResHW24unMapBufferWithDARTGatedEP15ProResBufInfo_sjjE21kalloc_type_view_5075
-- __ZN13AppleProResHW19getDynamicPerfStateEP16UserClientInfo_s15ProResPerfStateS2_ff
-- __ZZN13AppleProResHW12attachClientEP9IOServicePvP4taskE21kalloc_type_view_5420
-- __ZZN13AppleProResHW12attachClientEP9IOServicePvP4taskE21kalloc_type_view_5553
-- __ZZN13AppleProResHW12detachClientEP9IOServiceE21kalloc_type_view_5804
-- __ZZN13AppleProResHW16attachTestClientEP9IOServicePvP4taskE21kalloc_type_view_5357
-- __ZZN13AppleProResHW16attachTestClientEP9IOServicePvP4taskE21kalloc_type_view_5394
-- __ZZN13AppleProResHW16detachTestClientEP9IOServiceE21kalloc_type_view_5714
-- __ZZN13AppleProResHW19delayListClearGatedEjjE21kalloc_type_view_6049
-- __ZZN13AppleProResHW19delayListClearGatedEjjE21kalloc_type_view_6050
-- __ZZN13AppleProResHW19getDynamicPerfStateEP16UserClientInfo_s15ProResPerfStateS2_ffE11_os_log_fmt
-- __ZZN13AppleProResHW19getDynamicPerfStateEP16UserClientInfo_s15ProResPerfStateS2_ffE11_os_log_fmt_0
-- __ZZN13AppleProResHW19getDynamicPerfStateEP16UserClientInfo_s15ProResPerfStateS2_ffE11_os_log_fmt_1
-- __ZZN13AppleProResHW19getDynamicPerfStateEP16UserClientInfo_s15ProResPerfStateS2_ffE11_os_log_fmt_2
-- __ZZN13AppleProResHW19getDynamicPerfStateEP16UserClientInfo_s15ProResPerfStateS2_ffE11_os_log_fmt_3
-- __ZZN13AppleProResHW24unMapBufferWithDARTGatedEP15ProResBufInfo_sjjE21kalloc_type_view_5030
-- __ZZN13AppleProResHW24unMapBufferWithDARTGatedEP15ProResBufInfo_sjjE21kalloc_type_view_5033
++ __ZL15_kCommStatusSym
++ __ZL24_kGGCalculatedMaxWRdcSym
++ __ZL29_kGGCalculatedNccPFilteredSym
++ __ZZN17AppleSmartBattery17removeClientGatedEP29AppleSmartBatteryHFDataClientP5OSSetE21kalloc_type_view_6557
++ __ZZN17AppleSmartBattery18initializeCommandsEvE21kalloc_type_view_3003
++ __ZZN17AppleSmartBattery20startCollectionGatedEP12OSDictionaryP29AppleSmartBatteryHFDataClientE21kalloc_type_view_6102
+- __ZZN17AppleSmartBattery17removeClientGatedEP29AppleSmartBatteryHFDataClientP5OSSetE21kalloc_type_view_6551
+- __ZZN17AppleSmartBattery18initializeCommandsEvE21kalloc_type_view_2998
+- __ZZN17AppleSmartBattery20startCollectionGatedEP12OSDictionaryP29AppleSmartBatteryHFDataClientE21kalloc_type_view_6096
 CStrings:
-+ "1211111212221212112211112111111211111121111112112222111122222111121111112111111211111121111111111111111111111121121121121111111111111111111111111111111111111111122222222222222222111111122221111111111112122"
-+ "211111121121112222222122"
-+ "releaseCoreGated"
-- "121111121222121211221111211111121111112111111211222211112222211112111111211111121111112111111111111111111111112112112112111111111111111111111111111111111111111112222222222222222111111122221111111111112122"
-- "211111121121112222222"
++ "CommStatus"
++ "MaximumWRdc"
++ "NccpFiltered"
+
+```
+
+>  `com.apple.driver.AppleThunderboltUTDM`
+
+```diff
+
+-317.0.0.0.0
++318.0.0.0.0
+   __TEXT.__cstring: 0xd48
+   __TEXT.__const: 0x20
+-  __TEXT_EXEC.__text: 0x12c3c
++  __TEXT_EXEC.__text: 0x12c38
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0x118
+   __DATA.__common: 0xe8
 
 ```
 
@@ -7795,16 +5655,3284 @@ CStrings:
 
 ```
 
+>  `com.apple.driver.AppleFirmwareKit`
+
+```diff
+
+-531.0.4.0.0
+-  __TEXT.__cstring: 0x20e6
++531.0.7.0.0
++  __TEXT.__cstring: 0x3650
+   __TEXT.__os_log: 0xc73
+   __TEXT.__const: 0xa8
+-  __TEXT_EXEC.__text: 0x2dcb8
++  __TEXT_EXEC.__text: 0x314d4
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0x3f8
+   __DATA.__common: 0x548
+   __DATA.__bss: 0xc8
+-  __DATA_CONST.__auth_got: 0x3c0
+-  __DATA_CONST.__got: 0x118
++  __DATA_CONST.__auth_got: 0x3b8
++  __DATA_CONST.__got: 0x110
+   __DATA_CONST.__auth_ptr: 0x10
+   __DATA_CONST.__mod_init_func: 0xb8
+   __DATA_CONST.__mod_term_func: 0xb8
+-  __DATA_CONST.__const: 0xfa28
++  __DATA_CONST.__const: 0xf9f8
+   __DATA_CONST.__kalloc_type: 0x15c0
+-  Functions: 1337
+-  Symbols:   2417
+-  CStrings:  316
++  Functions: 1598
++  Symbols:   2675
++  CStrings:  469
+ 
+Symbols:
++ _ZL19rtbuddy_free_memoryP9rtbuddy_sP23rtbuddy_memory_buffer_t12alloc_type_t.cold.1
++ _ZL19rtbuddy_free_memoryP9rtbuddy_sP23rtbuddy_memory_buffer_t12alloc_type_t.cold.2
++ _ZN11AFKEPKextV214powerStateDoneEPv.cold.1
++ _ZN11AFKEPKextV215incrementClientEb.cold.1
++ _ZN11AFKEPKextV215incrementClientEb.cold.2
++ _ZN11AFKEPKextV215incrementClientEb.cold.3
++ _ZN11AFKEPKextV218systemWillShutdownEj.cold.1
++ _ZN11AFKEPKextV222initPowerConfigurationEv.cold.1
++ _ZN11AFKEPKextV222initPowerConfigurationEv.cold.2
++ _ZN11AFKEPKextV24stopEP9IOService.cold.1
++ _ZN11AFKEPKextV25startEP9IOService.cold.1
++ _ZN11AFKEPKextV25startEP9IOService.cold.2
++ _ZN11AFKEPKextV25startEP9IOService.cold.3
++ _ZN11AFKEPKextV25startEP9IOService.cold.4
++ _ZN11AFKEPKextV25startEP9IOService.cold.5
++ _ZN11AFKEPKextV25startEP9IOService.cold.6
++ _ZN11AFKEPKextV28initIOPMEv.cold.1
++ _ZN16AFKEPInterfaceV210handleOpenEv.cold.1
++ _ZN16AFKEPInterfaceV210handleOpenEv.cold.2
++ _ZN16AFKEPInterfaceV211findCommandEh.cold.1
++ _ZN16AFKEPInterfaceV211handleCloseEv.cold.1
++ _ZN16AFKEPInterfaceV212handlePacketEPKN5AFKEP11MessageInfoEPKNS0_7MessageEm.cold.1
++ _ZN16AFKEPInterfaceV212handlePacketEPKN5AFKEP11MessageInfoEPKNS0_7MessageEm.cold.2
++ _ZN16AFKEPInterfaceV212handlePacketEPKN5AFKEP11MessageInfoEPKNS0_7MessageEm.cold.3
++ _ZN16AFKEPInterfaceV212handlePacketEPKN5AFKEP11MessageInfoEPKNS0_7MessageEm.cold.4
++ _ZN16AFKEPInterfaceV213enqueueReportEhyPN5AFKEP7MessageEmPK16AFKEPSendOptions.cold.1
++ _ZN16AFKEPInterfaceV213handleMessageEPKN5AFKEP11MessageInfoEPKNS0_7MessageEm.cold.1
++ _ZN16AFKEPInterfaceV213handleMessageEPKN5AFKEP11MessageInfoEPKNS0_7MessageEm.cold.2
++ _ZN16AFKEPInterfaceV213handleMessageEPKN5AFKEP11MessageInfoEPKNS0_7MessageEm.cold.3
++ _ZN16AFKEPInterfaceV213handleMessageEPKN5AFKEP11MessageInfoEPKNS0_7MessageEm.cold.4
++ _ZN16AFKEPInterfaceV213handleMessageEPKN5AFKEP11MessageInfoEPKNS0_7MessageEm.cold.5
++ _ZN16AFKEPInterfaceV213handleUnknownEP23AFKEPInterfaceServiceV2PKN5AFKEP11MessageInfoEPKNS2_7MessageEm.cold.1
++ _ZN16AFKEPInterfaceV213handleUnknownEP23AFKEPInterfaceServiceV2PKN5AFKEP11MessageInfoEPKNS2_7MessageEm.cold.2
++ _ZN16AFKEPInterfaceV213handleUnknownEP23AFKEPInterfaceServiceV2PKN5AFKEP11MessageInfoEPKNS2_7MessageEm.cold.3
++ _ZN16AFKEPInterfaceV214acquireCommandEv.cold.1
++ _ZN16AFKEPInterfaceV214enqueueCommandEPvhyPN5AFKEP7MessageEmS0_jPK16AFKEPSendOptions.cold.1
++ _ZN16AFKEPInterfaceV214enqueueCommandEPvhyPN5AFKEP7MessageEmS0_jPK16AFKEPSendOptions.cold.2
++ _ZN16AFKEPInterfaceV214releaseCommandEv.cold.1
++ _ZN16AFKEPInterfaceV215enqueueResponseEPviyPN5AFKEP7MessageEmPK16AFKEPSendOptions.cold.1
++ _ZN16AFKEPInterfaceV218handleNotificationEN5AFKEP12NotificationEPU7_Atomich.cold.1
++ _ZN16AFKEPInterfaceV219deliverNotificationEN5AFKEP12NotificationEPU7_Atomich.cold.1
++ _ZN16AFKEPInterfaceV219deliverNotificationEN5AFKEP12NotificationEPU7_Atomich.cold.2
++ _ZN16AFKEPInterfaceV219handleClientCommandEyhPvj.cold.1
++ _ZN16AFKEPInterfaceV220cleanupRemoteContextEv.cold.1
++ _ZN16AFKEPInterfaceV220createErrorResponsesEv.cold.1
++ _ZN16AFKEPInterfaceV220handleClientResponseEyhPvj.cold.1
++ _ZN16AFKEPInterfaceV220handleClientResponseEyhPvj.cold.2
++ _ZN17AFKEPCommandLocal13getCmdHeadersEPN5AFKEP7MessageEjPm.cold.1
++ _ZN17AFKEPCommandLocal13getCmdHeadersEPN5AFKEP7MessageEjPm.cold.2
++ _ZN17AFKEPCommandLocal13getCmdHeadersEPN5AFKEP7MessageEjPm.cold.3
++ _ZN17AFKEPCommandLocal13getCmdHeadersEPN5AFKEP7MessageEjPm.cold.4
++ _ZN17AFKEPCommandLocal13parseResponseEPvj.cold.1
++ _ZN17AFKEPCommandLocal13parseResponseEPvj.cold.2
++ _ZN17AFKEPCommandLocal23createAFKEPCommandLocalEP9rtbuddy_sPvjjPK16AFKEPSendOptionsS2_hPN5AFKEP7MessageEm.cold.1
++ _ZN17AFKEPCommandLocal23createAFKEPCommandLocalEP9rtbuddy_sPvjjPK16AFKEPSendOptionsS2_hPN5AFKEP7MessageEm.cold.2
++ _ZN17AFKEPV2MessHelper7stateCBEPv14MessengerState.cold.1
++ _ZN18AFKEPCommandRemote13getRspHeadersEPN5AFKEP7MessageES2_miPm.cold.1
++ _ZN18AFKEPCommandRemote13getRspHeadersEPN5AFKEP7MessageES2_miPm.cold.2
++ _ZN18AFKEPCommandRemote24createAFKEPCommandRemoteEP9rtbuddy_shPvj.cold.1
++ _ZN18AFKEPCommandRemote24createAFKEPCommandRemoteEP9rtbuddy_shPvj.cold.2
++ _ZN18AFKIOServiceClient13handleCommandEPN20AFKEndpointInterface14CommandContextEjyP9AFK_iovecmj.cold.1
++ _ZN18AFKIOServiceClient4stopEP9IOService.cold.1
++ _ZN18AFKIOServiceClient4stopEP9IOService.cold.2
++ _ZN19AFKMemoryDescriptor10writeBytesEmPKvm.cold.1
++ _ZN19AFKMemoryDescriptor11assertPowerEb.cold.1
++ _ZN19AFKMemoryDescriptor13assumeControlEv.cold.1
++ _ZN19AFKMemoryDescriptor14releaseControlEb.cold.1
++ _ZN19AFKMemoryDescriptor14retainInternalEv.cold.1
++ _ZN19AFKMemoryDescriptor15releaseInternalEv.cold.1
++ _ZN19AFKMemoryDescriptor4freeEv.cold.1
++ _ZN19AFKMemoryDescriptor8setInUseEb.cold.1
++ _ZN19AFKMemoryDescriptor8setInUseEb.cold.2
++ _ZN19AFKMemoryDescriptor9setLengthEm.cold.1
++ _ZN20AFKEPInterfaceKextV211closeHelperEv.cold.1
++ _ZN20AFKEPInterfaceKextV211handleCloseEP9IOServicej.cold.1
++ _ZN20AFKEPInterfaceKextV213handleUnknownEP27AFKEPInterfaceServiceKextV2PKN5AFKEP11MessageInfoEPKNS2_7MessageEm.cold.1
++ _ZN20AFKEPInterfaceKextV213handleUnknownEP27AFKEPInterfaceServiceKextV2PKN5AFKEP11MessageInfoEPKNS2_7MessageEm.cold.2
++ _ZN20AFKEPInterfaceKextV213handleUnknownEP27AFKEPInterfaceServiceKextV2PKN5AFKEP11MessageInfoEPKNS2_7MessageEm.cold.3
++ _ZN20AFKEPInterfaceKextV214sendOpenReportEv.cold.1
++ _ZN20AFKEPInterfaceKextV216assertPowerStateEv.cold.1
++ _ZN20AFKEPInterfaceKextV217enqueueDescriptorEjyP19AFKMemoryDescriptorjP9IOService.cold.1
++ _ZN20AFKEPInterfaceKextV217enqueueDescriptorEjyP19AFKMemoryDescriptorjP9IOService.cold.2
++ _ZN20AFKEPInterfaceKextV217enqueueDescriptorEjyP19AFKMemoryDescriptorjP9IOService.cold.3
++ _ZN20AFKEPInterfaceKextV217withPublishReportEPK13PublishReportmP9IOServiceP9rtbuddy_st.cold.1
++ _ZN20AFKEPInterfaceKextV218deassertPowerStateEv.cold.1
++ _ZN20AFKEPInterfaceKextV218deassertPowerStateEv.cold.2
++ _ZN20AFKEPInterfaceKextV223deliverDescriptorReportEPvj.cold.1
++ _ZN20AFKEPInterfaceKextV24initEP12OSDictionaryP9IOService.cold.1
++ _ZN20AFKEPInterfaceKextV24initEP12OSDictionaryP9IOService.cold.2
++ _ZN20AFKEPInterfaceKextV24stopEP9IOService.cold.1
++ _ZN20AFKEPInterfaceKextV24stopEP9IOService.cold.2
++ _ZN20AFKEPInterfaceKextV24stopEP9IOService.cold.3
++ _ZN20AFKEPInterfaceKextV24stopEP9IOService.cold.4
++ _ZN20AFKEPInterfaceKextV24stopEP9IOService.cold.5
++ _ZN20AFKEPInterfaceKextV25startEP9IOService.cold.1
++ _ZN20AFKEPInterfaceKextV25startEP9IOService.cold.10
++ _ZN20AFKEPInterfaceKextV25startEP9IOService.cold.2
++ _ZN20AFKEPInterfaceKextV25startEP9IOService.cold.3
++ _ZN20AFKEPInterfaceKextV25startEP9IOService.cold.4
++ _ZN20AFKEPInterfaceKextV25startEP9IOService.cold.5
++ _ZN20AFKEPInterfaceKextV25startEP9IOService.cold.6
++ _ZN20AFKEPInterfaceKextV25startEP9IOService.cold.7
++ _ZN20AFKEPInterfaceKextV25startEP9IOService.cold.8
++ _ZN20AFKEPInterfaceKextV25startEP9IOService.cold.9
++ _ZN20AFKEPInterfaceKextV28openImplEP9IOService.cold.1
++ _ZN20AFKEndpointInterface4initEP12OSDictionary.cold.1
++ _ZN20AFKTightbeamEndpoint10sendReportEPhm.cold.1
++ _ZN20AFKTightbeamEndpoint11sendCommandEPhmPS0_Pm.cold.1
++ _ZN20AFKTightbeamEndpoint11sendCommandEPhmPS0_Pm.cold.2
++ _ZN20AFKTightbeamEndpoint12sendResponseEPviPhm.cold.1
++ _ZN20AFKTightbeamEndpoint5startEP9IOService.cold.1
++ _ZN22AFKIOServiceClientBase15enqueueResponseEPN20AFKEndpointInterface14CommandContextEiyP9AFK_iovecmj.cold.2
++ _ZN23AFKMemoryDescriptorImpl11appendBytesEPKvm.cold.1
++ _ZN23AFKMemoryDescriptorImpl11assertPowerEb.cold.1
++ _ZN23AFKMemoryDescriptorImpl13assumeControlEmm.cold.1
++ _ZN23AFKMemoryDescriptorImpl14releaseControlEmmb.cold.1
++ _ZN23AFKMemoryDescriptorImpl4initEv.cold.1
++ _ZN23AFKMemoryDescriptorImpl9initAcipcEy.cold.1
++ _ZN23AFKMemoryDescriptorImpl9setLengthEm.cold.1
++ _ZN23AFKMemoryDescriptorImplD1Ev.cold.1
++ _ZN25AFKBufferMemoryDescriptor11appendBytesEPKvm.cold.1
++ _ZN25AFKBufferMemoryDescriptor13assumeControlEmm.cold.1
++ _ZN25AFKBufferMemoryDescriptor14releaseControlEmmb.cold.1
++ _ZN25AFKEndpointInterfaceRelay11memDescCopyEP19AFKMemoryDescriptorS1_.cold.1
++ _ZN25AFKEndpointInterfaceRelay13enqueueReportEP20AFKEndpointInterfacejyPKvmj.cold.1
++ _ZN25AFKEndpointInterfaceRelay14enqueueCommandEP20AFKEndpointInterfacePNS0_14CommandContextEjyPKvmmj.cold.1
++ _ZN25AFKEndpointInterfaceRelay15enqueueResponseEP20AFKEndpointInterfacePNS_19AsyncCommandContextEiyPKvmj.cold.1
++ _ZN25AFKEndpointInterfaceRelay17enqueueDescriptorEP20AFKEndpointInterfacejyP19AFKMemoryDescriptorj.cold.1
++ _ZN27AFKEPInterfaceEventSourceV214dispatchReportEjyPvj.cold.1
++ _ZN27AFKEPInterfaceEventSourceV214dispatchReportEjyPvj.cold.2
++ _ZN27AFKEPInterfaceEventSourceV215dispatchCommandEPvjyhS0_j.cold.1
++ _ZN27AFKEPInterfaceEventSourceV215dispatchCommandEPvjyhS0_j.cold.2
++ _ZN27AFKEPInterfaceEventSourceV216dispatchResponseEPviyS0_j.cold.1
++ _ZN27AFKEPInterfaceEventSourceV216dispatchResponseEPviyS0_j.cold.2
++ _ZN27AFKEPInterfaceEventSourceV217stateCompleteImplEv.cold.1
++ _ZN27AFKEPInterfaceEventSourceV220dispatchNotificationEN5AFKEP12NotificationEPU7_Atomich.cold.1
++ _ZN27AFKEPInterfaceEventSourceV24freeEv.cold.1
++ _ZN27AFKEPInterfaceEventSourceV24freeEv.cold.2
++ _ZN27AFKEPInterfaceEventSourceV24initEP16AFKEPInterfaceV2.cold.1
++ _ZN27AFKEPInterfaceEventSourceV24initEP16AFKEPInterfaceV2.cold.2
++ _ZN27AFKEPInterfaceEventSourceV26doTaskEv.cold.1
++ _ZN27AFKEPInterfaceServiceKextV213handleMessageEPKN5AFKEP11MessageInfoEPKNS0_7MessageEm.cold.1
++ _ZN27AFKEPInterfaceServiceKextV216eventQThreadCallEPS_.cold.1
++ _ZN27AFKEPInterfaceServiceKextV218handleNotificationEN5AFKEP12NotificationE.cold.1
++ _ZN27AFKEPInterfaceServiceKextV218handlePublishEventEPNS_12PublishEventE.cold.1
++ _ZN27AFKEPInterfaceServiceKextV218handlePublishEventEPNS_12PublishEventE.cold.2
++ _ZN27AFKEPInterfaceServiceKextV218handlePublishEventEPNS_12PublishEventE.cold.3
++ _ZN27AFKEPInterfaceServiceKextV218handlePublishEventEPNS_12PublishEventE.cold.4
++ _ZN27AFKEPInterfaceServiceKextV219enqueuePublishEventEPvmt.cold.1
++ _ZN27AFKEPInterfaceServiceKextV221enqueueTerminateEventEt.cold.1
++ _ZN27AFKEPInterfaceServiceKextV224enqueueTerminateAllEventEv.cold.1
++ _ZN27AFKEPInterfaceServiceKextV25startEP9IOService.cold.1
++ _ZN30AFKEndpointInterfaceUserClient10closeGatedEPvP25IOExternalMethodArguments.cold.1
++ _ZN30AFKEndpointInterfaceUserClient12handleReportEP20AFKEndpointInterfacejyPKvmj.cold.1
++ _ZN30AFKEndpointInterfaceUserClient16handleDescriptorEP20AFKEndpointInterfacejyP19AFKMemoryDescriptorj.cold.1
++ _ZN30AFKEndpointInterfaceUserClient16handleDescriptorEP20AFKEndpointInterfacejyP19AFKMemoryDescriptorj.cold.2
++ _ZN30AFKEndpointInterfaceUserClient19saveQueueToWaitListEP18AFKSharedDataQueue.cold.1
++ _ZN30AFKEndpointInterfaceUserClient28dataQueueSpaceAvailableGatedEPvP25IOExternalMethodArguments.cold.1
++ _ZN30AFKMemoryDescriptorManagerBase12handleReportEP20AFKEndpointInterfacejyPKvmj.cold.1
++ _ZN30AFKMemoryDescriptorManagerBase17enqueueFreeReportEy.cold.1
++ _ZN30AFKMemoryDescriptorManagerBase23handleDescriptorReleaseEPK19AFKMemoryDescriptor.cold.1
++ _ZN30AFKMemoryDescriptorManagerBase5startEP9IOService.cold.1
++ _ZN30AFKMemoryDescriptorManagerBase5startEP9IOService.cold.2
++ _ZN30AFKMemoryDescriptorManagerBase5startEP9IOService.cold.3
++ _ZN30AFKMemoryDescriptorManagerBase5startEP9IOService.cold.4
++ _ZN30AFKMemoryDescriptorManagerBase5startEP9IOService.cold.5
++ _ZN30AFKMemoryDescriptorManagerBase5startEP9IOService.cold.6
++ _ZN31AFKACIPCMemoryDescriptorManager14handleResponseEP20AFKEndpointInterfacePviyPKvm.cold.1
++ _ZN31AFKACIPCMemoryDescriptorManager14handleResponseEP20AFKEndpointInterfacePviyPKvm.cold.2
++ _ZN31AFKACIPCMemoryDescriptorManager21createDescriptorGatedEmNS_6MDTypeE.cold.1
++ _ZN31AFKACIPCMemoryDescriptorManager21createDescriptorGatedEmNS_6MDTypeE.cold.2
++ _ZN31AFKLocalMemoryDescriptorManager13handleCommandEP20AFKEndpointInterfacePNS0_14CommandContextEjyPKvmj.cold.1
++ _ZN31AFKLocalMemoryDescriptorManager13handleCommandEP20AFKEndpointInterfacePNS0_14CommandContextEjyPKvmj.cold.2
++ _ZN31AFKLocalMemoryDescriptorManager13handleCommandEP20AFKEndpointInterfacePNS0_14CommandContextEjyPKvmj.cold.3
++ _ZN5AFKEP10handleOpenEP12AFKEPServicej.cold.1
++ _ZN5AFKEP11handleCloseEP12AFKEPService.cold.1
++ _ZN5AFKEP11handleStartEv.cold.1
++ _ZN7AFKEPV210handleOpenEP12AFKEPServicej.cold.1
++ _ZN7AFKEPV211handleStartEv.cold.1
++ _ZN7AFKEPV211handleStartEv.cold.2
++ _ZN7AFKEPV211handleStartEv.cold.3
++ _ZN7AFKEPV212handlePacketEPvj.cold.1
++ _ZN7AFKEPV212handlePacketEPvj.cold.2
++ _ZN7AFKEPV212handleQSpaceEPvj.cold.1
++ _ZN7AFKEPV213sendPauseDoneEPv.cold.1
++ _ZN7AFKEPV214handleSetStateEN5AFKEP5StateE.cold.1
++ _ZN7AFKEPV215getDesiredStateEPN5AFKEP12NotificationEPb.cold.1
++ _ZN7AFKEPV215runStateMachineEv.cold.1
++ _ZN7AFKEPV215runStateMachineEv.cold.2
++ _ZN7AFKEPV215runStateMachineEv.cold.3
++ _ZN7AFKEPV215runStateMachineEv.cold.4
++ _ZN7AFKEPV217handleSendMessageEPKN5AFKEP11MessageInfoEPKNS0_7MessageEmPK16AFKEPSendOptions.cold.1
++ _ZN7AFKEPV217handleSendMessageEPKN5AFKEP11MessageInfoEPKNS0_7MessageEmPK16AFKEPSendOptions.cold.2
++ _ZN7AFKEPV217handleSendMessageEPKN5AFKEP11MessageInfoEPKNS0_7MessageEmPK16AFKEPSendOptions.cold.3
++ _ZN7AFKEPV218sendInternalPacketEj.cold.1
++ _ZN7AFKEPV218sendInternalPacketEj.cold.2
++ _ZN7AFKEPV220handleInternalPacketEPKN5AFKEP7MessageEm.cold.1
++ _ZN7AFKEPV220handleInternalPacketEPKN5AFKEP7MessageEm.cold.2
++ _ZN7AFKEPV220handleInternalPacketEPKN5AFKEP7MessageEm.cold.3
++ _ZN7AFKEPV220handleInternalPacketEPKN5AFKEP7MessageEm.cold.4
++ _ZN7AFKEPV221mailboxMessageHandlerEP21AFKMailboxEventSourceyPv.cold.1
++ _ZN7AFKEPV222notificationCompletionEPv.cold.1
++ _ZN7AFKEPV222notificationCompletionEPv.cold.2
++ _ZN7AFKEPV229invokeNotificationCompletionsEv.cold.1
++ _ZN7AFKEPV29reconnectEPv.cold.1
++ _ZNK19AFKMemoryDescriptor5bytesEv.cold.1
++ _ZNK19AFKMemoryDescriptor9getLengthEv.cold.1
++ _ZNK19AFKMemoryDescriptor9readBytesEmPvm.cold.1
++ _ZNK23AFKMemoryDescriptorImpl14getBytesNoCopyEmm.cold.1
++ _ZNK23AFKMemoryDescriptorImpl14getBytesNoCopyEmm.cold.2
++ _ZNK25AFKBufferMemoryDescriptor14getBytesNoCopyEmm.cold.1
++ __ZN16AFKACIPCEndpoint4initEP12OSDictionary
++ __ZNK11AFKEPKextV219useIOPMStateControlEv
++ ___ZN11AFKEPKextV214handleSetStateEN5AFKEP5StateE_block_invoke.cold.1
++ ___ZN11AFKEPKextV214handleSetStateEN5AFKEP5StateE_block_invoke.cold.2
++ ___ZN11AFKEPKextV214handleSetStateEN5AFKEP5StateE_block_invoke.cold.3
++ ___ZN11AFKEPKextV216stateMachineInitEv_block_invoke_2.cold.1
++ ___ZN20AFKEPInterfaceKextV214enqueueCommandEPvjyPKvmmjP9IOService_block_invoke.57
++ ___ZN20AFKEPInterfaceKextV214enqueueCommandEPvjyPKvmmjP9IOService_block_invoke.60
++ ___ZN20AFKEPInterfaceKextV214enqueueCommandEPvjyPKvmmjP9IOService_block_invoke.60.cold.1
++ ___ZN20AFKEPInterfaceKextV214enqueueCommandEPvjyPKvmmjP9IOService_block_invoke.60.cold.2
++ ___ZN20AFKEPInterfaceKextV214enqueueCommandEPvjyPKvmmjP9IOService_block_invoke.60.cold.3
++ ___ZN20AFKEPInterfaceKextV214enqueueCommandEPvjyPKvmmjP9IOService_block_invoke.66
++ ___ZN20AFKEPInterfaceKextV215enqueueResponseEPN20AFKEndpointInterface14CommandContextEiyPKvmj_block_invoke.cold.1
++ ___ZN20AFKEPInterfaceKextV219enqueueReportHelperEjyPKvmj_block_invoke.186
++ ___ZN20AFKEPInterfaceKextV219enqueueReportHelperEjyPKvmj_block_invoke.186.cold.1
++ ___ZN20AFKEPInterfaceKextV219enqueueReportHelperEjyPKvmj_block_invoke.190
++ ___ZN20AFKEPInterfaceKextV25startEP9IOService_block_invoke_2.cold.1
++ ___ZN22AFKIOServiceClientBase21handleServiceInternalEP9IOService_block_invoke.12
++ ___ZN25AFKEndpointInterfaceRelay5startEP9IOService_block_invoke_2.cold.1
++ ___ZN30AFKEndpointInterfaceUserClient12handleReportEP20AFKEndpointInterfacejyPKvmj_block_invoke.72
++ ___ZN30AFKEndpointInterfaceUserClient16handleDescriptorEP20AFKEndpointInterfacejyP19AFKMemoryDescriptorj_block_invoke.79
++ ___ZN30AFKEndpointInterfaceUserClient16handleDescriptorEP20AFKEndpointInterfacejyP19AFKMemoryDescriptorj_block_invoke.cold.1
++ ___ZN30AFKEndpointInterfaceUserClient22enqueueDescriptorGatedEPvP25IOExternalMethodArguments_block_invoke.cold.1
++ ___ZN30AFKMemoryDescriptorManagerBase22copyReceivedDescriptorEy_block_invoke.23
++ ___ZN30AFKMemoryDescriptorManagerBase22copyReceivedDescriptorEy_block_invoke.23.cold.1
++ ___ZN30AFKMemoryDescriptorManagerBase5startEP9IOService_block_invoke_2.cold.1
++ ___ZN31AFKLocalMemoryDescriptorManager20createDescriptorImplEmNS_6MDTypeEbb_block_invoke.cold.1
++ __block_descriptor_tmp.17
++ __block_descriptor_tmp.185
++ __block_descriptor_tmp.189
++ __block_descriptor_tmp.191
++ __block_descriptor_tmp.23
++ __block_descriptor_tmp.26
++ __block_descriptor_tmp.42
++ __block_descriptor_tmp.51
++ __block_descriptor_tmp.68
++ __block_descriptor_tmp.68
++ __block_descriptor_tmp.70
++ __block_descriptor_tmp.70
++ __block_descriptor_tmp.71
++ __block_descriptor_tmp.71
++ __block_descriptor_tmp.73
++ __block_descriptor_tmp.73
++ __block_descriptor_tmp.77
++ __block_descriptor_tmp.78
++ __block_descriptor_tmp.79
++ __block_descriptor_tmp.80
++ __block_descriptor_tmp.80
++ __block_descriptor_tmp.83
++ __block_descriptor_tmp.95
++ __block_descriptor_tmp.96
++ afk_msgr_after_ready_ack.cold.1
++ afk_msgr_enqueue.cold.1
++ afk_msgr_enqueue.cold.2
++ afk_msgr_handle_command._os_log_fmt.5
++ afk_msgr_handle_command._os_log_fmt.6
++ afk_msgr_handle_command.cold.1
++ afk_msgr_handle_here_buf_addr.cold.1
++ afk_msgr_handle_q_full.cold.1
++ afk_msgr_init.cold.1
++ afk_msgr_init.cold.2
++ afk_msgr_init.cold.3
++ afk_msgr_msg_recv_cb.cold.1
++ afk_msgr_msg_send.cold.1
++ afk_msgr_ringbuffer_assume_subrange_cb.cold.1
++ afk_msgr_ringbuffer_release_subrange_cb.cold.1
++ handle_here_buf.cold.1
++ handle_here_buf_acipc.cold.1
++ handle_req_buf.cold.1
++ handle_req_buf.cold.2
++ handle_req_buf.cold.3
++ handle_req_buf_acipc.cold.1
++ handle_req_buf_acipc.cold.2
++ handle_req_buf_acipc.cold.3
++ handler_ready_acipc.cold.1
++ handler_ready_ack_acipc.cold.1
++ rtbuddy_allocate_shared_memory_buffer.cold.3
++ rtbuddy_assume_control.cold.1
++ rtbuddy_assume_control.cold.2
++ rtbuddy_assume_control.cold.3
++ rtbuddy_make_memory_visible.cold.3
++ rtbuddy_make_memory_visible.cold.4
++ rtbuddy_release_control.cold.1
++ rtbuddy_release_control.cold.2
++ rtbuddy_release_control.cold.3
++ rtbuddy_release_free_visible_memory.cold.1
++ rtbuddy_send_message.cold.1
+- _Assert
+- __ZNK11AFKEPKextV222useRTBuddyPowerActionsEv
+- __ZNK16AFKACIPCEndpoint22useRTBuddyPowerActionsEv
+- ___ZN20AFKEPInterfaceKextV214enqueueCommandEPvjyPKvmmjP9IOService_block_invoke.39
+- ___ZN20AFKEPInterfaceKextV214enqueueCommandEPvjyPKvmmjP9IOService_block_invoke.42
+- ___ZN20AFKEPInterfaceKextV214enqueueCommandEPvjyPKvmmjP9IOService_block_invoke.46
+- ___ZN20AFKEPInterfaceKextV219enqueueReportHelperEjyPKvmj_block_invoke.156
+- ___ZN20AFKEPInterfaceKextV219enqueueReportHelperEjyPKvmj_block_invoke.160
+- ___ZN22AFKIOServiceClientBase21handleServiceInternalEP9IOService_block_invoke.10
+- ___ZN30AFKEndpointInterfaceUserClient12handleReportEP20AFKEndpointInterfacejyPKvmj_block_invoke.68
+- ___ZN30AFKEndpointInterfaceUserClient16handleDescriptorEP20AFKEndpointInterfacejyP19AFKMemoryDescriptorj_block_invoke.73
+- ___ZN30AFKMemoryDescriptorManagerBase22copyReceivedDescriptorEy_block_invoke.15
+- __block_descriptor_tmp.1
+- __block_descriptor_tmp.155
+- __block_descriptor_tmp.159
+- __block_descriptor_tmp.161
+- __block_descriptor_tmp.32
+- __block_descriptor_tmp.35
+- __block_descriptor_tmp.4
+- __block_descriptor_tmp.53
+- __block_descriptor_tmp.54
+- __block_descriptor_tmp.54
+- __block_descriptor_tmp.54
+- __block_descriptor_tmp.55
+- __block_descriptor_tmp.55
+- __block_descriptor_tmp.57
+- __block_descriptor_tmp.60
+- __block_descriptor_tmp.61
+- __block_descriptor_tmp.63
+- __block_descriptor_tmp.74
+- __block_descriptor_tmp.8
+- __block_descriptor_tmp.8
+- _kext_assertions_enable
+- afk_msgr_handle_command._os_log_fmt.1
+- afk_msgr_handle_command._os_log_fmt.2
+CStrings:
++ "\"!__os_warn_unused(__builtin_add_overflow((offset), (numBytes), (&endRange))) && endRange <= _length\" @%s:%d"
++ "\"!__os_warn_unused(__builtin_add_overflow((offset), (numBytes), (&endRange)))\" @%s:%d"
++ "\"!_inUse\" @%s:%d"
++ "\"!_internalRetain\" @%s:%d"
++ "\"!copyReceivedDescriptor(getMDImpl(md)->getToken())\" @%s:%d"
++ "\"!descriptor->_impl->getAssertPower()\" @%s:%d"
++ "\"!fail\" @%s:%d"
++ "\"!iObject->isEqualTo(jObject)\" @%s:%d"
++ "\"!isInactive()\" @%s:%d"
++ "\"!overflow && newLength <= _capacity\" @%s:%d"
++ "\"!overflow\" @%s:%d"
++ "\"!pending\" @%s:%d"
++ "\"!this->_config.size || this->_config.txQueueLen+this->_config.rxQueueLen == this->_config.size\" @%s:%d"
++ "\"!this->_endpointWL->inGate()\" @%s:%d"
++ "\"!this->_endpointWL->onThread()\" @%s:%d"
++ "\"!this->_published && !this->_openSent\" @%s:%d"
++ "\"(((signed)((((unsigned)(0x38))&0x3f)<<26))|(((0)&0xfff)<<14)|0x2c2) != rv\" @%s:%d"
++ "\"((void*)0) != (void*)messenger->buffer.remote_addr\" @%s:%d"
++ "\"(bool)this->_config.size == (bool)this->_config.buffer\" @%s:%d"
++ "\"0 != messenger->buffer.size && ((void*)0) != (void*)messenger->buffer.remote_addr\" @%s:%d"
++ "\"0 == _assertionCount && 0 == _assertionWaitCount\" @%s:%d"
++ "\"0 == _sessionCount\" @%s:%d"
++ "\"0 == platStatus\" @%s:%d"
++ "\"0 == result && shmem_info->memory\" @%s:%d"
++ "\"0 == result\" @%s:%d"
++ "\"0 == ret\" @%s:%d"
++ "\"0 == status || (((signed)((((unsigned)(0x38))&0x3f)<<26))|(((0)&0xfff)<<14)|0x2d7) == status || (((signed)((((unsigned)(0x38))&0x3f)<<26))|(((0)&0xfff)<<14)|0x2e3) == status\" @%s:%d"
++ "\"0 == status || (((signed)((((unsigned)(0x38))&0x3f)<<26))|(((0)&0xfff)<<14)|0x2d7) == status\" @%s:%d"
++ "\"0 == status\" @%s:%d"
++ "\"1 == messageCount\" @%s:%d"
++ "\"AFKEP::Message::TypeBuffer == messages[0].type\" @%s:%d"
++ "\"NULL != mess\" @%s:%d"
++ "\"RTBUDDY_STATUS_OK == status\" @%s:%d"
++ "\"STAILQ_EMPTY(&this->_taskQ)\" @%s:%d"
++ "\"__builtin_bswap32('IOP ') == magic\" @%s:%d"
++ "\"_assertCnt\" @%s:%d"
++ "\"_assertPowerTimer\" @%s:%d"
++ "\"_assertionCount\" @%s:%d"
++ "\"_asycRequestES\" @%s:%d"
++ "\"_asyncES\" @%s:%d"
++ "\"_clientCount < 4294967295U\" @%s:%d"
++ "\"_clientCount > 0\" @%s:%d"
++ "\"_commandGate\" @%s:%d"
++ "\"_endpoint\" @%s:%d"
++ "\"_endpointWL->inGate()\" @%s:%d"
++ "\"_epi\" @%s:%d"
++ "\"_epicArr\" @%s:%d"
++ "\"_impl\" @%s:%d"
++ "\"_impl->getUsable()\" @%s:%d"
++ "\"_inUse != enable\" @%s:%d"
++ "\"_interface\" @%s:%d"
++ "\"_interfaces\" @%s:%d"
++ "\"_internalRetain\" @%s:%d"
++ "\"_lockAsyncRequests\" @%s:%d"
++ "\"_mdMgr\" @%s:%d"
++ "\"_mdMgrNotify\" @%s:%d"
++ "\"_provider\" @%s:%d"
++ "\"_secMemory\" @%s:%d"
++ "\"_workloop->inGate()\" @%s:%d"
++ "\"add <= shmem_info->memory->getBuffer()->getLength()\" @%s:%d"
++ "\"availableSpace >= payload->size\" @%s:%d"
++ "\"buffer->remote_addr == shmem_info->memory->getSlaveAddress()\" @%s:%d"
++ "\"bufferLen >= capacity * AFK_TAGGED_BUFFER_SIZE_SCALE\" @%s:%d"
++ "\"capacity\" @%s:%d"
++ "\"client\" @%s:%d"
++ "\"cmdCtx\" @%s:%d"
++ "\"command && commandLength && respBuffer && respBufferLength\" @%s:%d"
++ "\"command\" @%s:%d"
++ "\"count >= 1 + this->_inMsgsCnt\" @%s:%d"
++ "\"count >= 1\" @%s:%d"
++ "\"count >= 2 + this->_inMsgsCnt\" @%s:%d"
++ "\"count >= 2\" @%s:%d"
++ "\"counterIdx < (sizeof(this->_counters)/sizeof(this->_counters[0]))\" @%s:%d"
++ "\"d->notification != AFKEP::NotificationSendPossible\" @%s:%d"
++ "\"d->self->_endpointWL->inGate()\" @%s:%d"
++ "\"descriptor->_impl->getUsable()\" @%s:%d"
++ "\"endRange <= _length\" @%s:%d"
++ "\"endpointService\" @%s:%d"
++ "\"entry\" @%s:%d"
++ "\"epic\" @%s:%d"
++ "\"event->packetSize >= sizeof(PublishReport)\" @%s:%d"
++ "\"false\" @%s:%d"
++ "\"found\" @%s:%d"
++ "\"interface\" @%s:%d"
++ "\"length <= _capacity\" @%s:%d"
++ "\"lock\" @%s:%d"
++ "\"managerRole->isEqualTo(thisRole.get())\" @%s:%d"
++ "\"md\" @%s:%d"
++ "\"md->getRetainCount() > 1\" @%s:%d"
++ "\"messages[0].buffer.size >= sizeof(*header)\" @%s:%d"
++ "\"messenger->config.allocator\" @%s:%d"
++ "\"messenger->config.rxQueueLen && messenger->config.txQueueLen\" @%s:%d"
++ "\"messenger->state == handlers[i].startState\" @%s:%d"
++ "\"msgsIn[0].buffer.size - sizeof(*header) >= sizeof(*commHeader)\" @%s:%d"
++ "\"msgsIn[0].buffer.size >= sizeof(*header)\" @%s:%d"
++ "\"notification > AFKEP::NotificationInvalid && notification < AFKEP::NotificationCount\" @%s:%d"
++ "\"nullptr != client\" @%s:%d"
++ "\"nullptr != command\" @%s:%d"
++ "\"nullptr != properties\" @%s:%d"
++ "\"nullptr != task\" @%s:%d"
++ "\"nullptr != task->pkt\" @%s:%d"
++ "\"nullptr != this->_rles\" @%s:%d"
++ "\"nullptr == this->_client\" @%s:%d"
++ "\"nullptr == this->_out\" @%s:%d"
++ "\"num\" @%s:%d"
++ "\"numBytes <= dst->getCapacity()\" @%s:%d"
++ "\"ok\" @%s:%d"
++ "\"options & (1 << 13)\" @%s:%d"
++ "\"payloadSize == sizeof(AFKMDManagerCreateCommand)\" @%s:%d"
++ "\"payloadSize == sizeof(AFKMDManagerCreateResponse)\" @%s:%d"
++ "\"pktLen >= sizeof(*header)\" @%s:%d"
++ "\"pktLen >= sizeof(*respHeader)\" @%s:%d"
++ "\"pktLen >= sizeof(rv->_commandHeader) + sizeof(rv->_oobHdr)\" @%s:%d"
++ "\"pktLen >= sizeof(rv->_commandHeader)\" @%s:%d"
++ "\"processor\" @%s:%d"
++ "\"prop\" @%s:%d"
++ "\"propStr\" @%s:%d"
++ "\"queueDesc\" @%s:%d"
++ "\"ret\" @%s:%d"
++ "\"role\" @%s:%d"
++ "\"rspSize <= this->_oobHdr.rspSize\" @%s:%d"
++ "\"rtbuddy->platformParams->isACIPC\" @%s:%d"
++ "\"self->_endpointWL->inGate()\" @%s:%d"
++ "\"shmem_info\" @%s:%d"
++ "\"shmem_info->memory\" @%s:%d"
++ "\"shmem_info->memory->getBuffer()->getLength() >= size\" @%s:%d"
++ "\"status\" @%s:%d"
++ "\"this->_client == forClient\" @%s:%d"
++ "\"this->_clientWL\" @%s:%d"
++ "\"this->_clientWL->inGate()\" @%s:%d"
++ "\"this->_endpointWL->inGate()\" @%s:%d"
++ "\"this->_openSent\" @%s:%d"
++ "\"this->_pendingOffset + pktLen <= this->_pendingSize\" @%s:%d"
++ "\"this->_pendingStatesLock\" @%s:%d"
++ "\"this->_queueLock\" @%s:%d"
++ "\"this->_rspPayload.remote_addr == oobHdr->rspAddress\" @%s:%d"
++ "\"threadCall\" @%s:%d"
++ "\"token\" @%s:%d"
++ "\"total_offset >= static_offset\" @%s:%d"
++ "\"type == shmem_info->alloc_type\" @%s:%d"
++ "\"uc\" @%s:%d"
++ "\"valid && pktLen <= 4294967295U\" @%s:%d"
++ "\"valid && size <= 4294967295U\" @%s:%d"
++ "\"valid\" @%s:%d"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/AppleFirmwareKit_kext/src/Kext/AFKFirmwareService.cpp"
++ "AFKACIPCMemoryDescriptorManager.cpp"
++ "AFKEP.cpp"
++ "AFKEPCommandContext.cpp"
++ "AFKEPInterfaceEventSourceV2.cpp"
++ "AFKEPInterfaceKextV2.cpp"
++ "AFKEPInterfaceServiceKextV2.cpp"
++ "AFKEPInterfaceV2.cpp"
++ "AFKEPKextV2.cpp"
++ "AFKEPV2.cpp"
++ "AFKEndpointInterface.cpp"
++ "AFKEndpointInterfaceRelay.cpp"
++ "AFKEndpointInterfaceUserClient.cpp"
++ "AFKIOServiceClient.cpp"
++ "AFKIOServiceClientBase.cpp"
++ "AFKLocalMemoryDescriptorManager.cpp"
++ "AFKMemoryDescriptor.cpp"
++ "AFKMemoryDescriptorImpl.cpp"
++ "AFKMemoryDescriptorManagerBase.cpp"
++ "AFKTightbeamEndpoint.cpp"
++ "Messenger.c"
++ "MessengerACIPC.c"
++ "MessengerStandard.c"
++ "UseIOPMStateControl"
+- "!fail"
+- "%s:%d Assertion failed: %s : 0x%lx 0x%lx "
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleFirmwareKit_kext/src/Kext/AFKFirmwareService.cpp"
+- "0 == result && shmem_info->memory"
+- "0 == ret"
+- "add <= shmem_info->memory->getBuffer()->getLength()"
+- "buffer->remote_addr == shmem_info->memory->getSlaveAddress()"
+- "found"
+- "lock"
+- "processor"
+- "rtbuddy->platformParams->isACIPC"
+- "shmem_info"
+- "shmem_info->memory"
+- "shmem_info->memory->getBuffer()->getLength() >= size"
+- "type == shmem_info->alloc_type"
+
+```
+
+>  `com.apple.driver.AppleTypeCPhy`
+
+```diff
+
+-239.0.0.0.0
++239.0.1.0.0
+   __TEXT.__cstring: 0x1651
+   __TEXT.__const: 0x24
+   __TEXT.__os_log: 0x114c
+-  __TEXT_EXEC.__text: 0x1296c
++  __TEXT_EXEC.__text: 0x129a4
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0xc8
+   __DATA.__common: 0xd8
+
+   __DATA_CONST.__got: 0x78
+   __DATA_CONST.__mod_init_func: 0x28
+   __DATA_CONST.__mod_term_func: 0x28
+-  __DATA_CONST.__const: 0x1b00
++  __DATA_CONST.__const: 0x1b10
+   __DATA_CONST.__kalloc_type: 0x140
+-  Functions: 243
+-  Symbols:   727
++  Functions: 245
++  Symbols:   729
+   CStrings:  160
+ 
+Symbols:
++ __ZN13AppleTypeCPhy15supportS2RtoOffEv
++ __ZN13AppleTypeCPhy20shutdownACIOS2RtoOffENS_12tACIOPhyModeE
+
+```
+
+>  `com.apple.driver.AppleH13CameraInterface`
+
+```diff
+
+-9.4.0.0.0
++9.5.0.0.0
+   __TEXT.__const: 0x94c
+-  __TEXT.__cstring: 0x7394
++  __TEXT.__cstring: 0x74ed
+   __TEXT.__os_log: 0xd3df
+   __TEXT.__ustring: 0x40
+-  __TEXT_EXEC.__text: 0x573bc
++  __TEXT_EXEC.__text: 0x5743c
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0x188
+   __DATA.__common: 0x288
+
+   __DATA_CONST.__const: 0xfc38
+   __DATA_CONST.__kalloc_type: 0xc40
+   __DATA_CONST.__kalloc_var: 0xd70
+-  Functions: 1107
+-  Symbols:   2763
+-  CStrings:  924
++  Functions: 1108
++  Symbols:   2764
++  CStrings:  925
+ 
+Symbols:
++ _ZN13AppleH13CamIn23EnableISPClocksAndPowerEv.cold.2
++ __ZZL10ffw_callocmmE22kalloc_type_view_24801
++ __ZZL37H13CamInChannelSACParams_replaceListsP24H13CamInChannelSACParamsjE22kalloc_type_view_20792
++ __ZZL37H13CamInChannelSACParams_replaceListsP24H13CamInChannelSACParamsjE22kalloc_type_view_20793
++ __ZZL37H13CamInChannelSACParams_replaceListsP24H13CamInChannelSACParamsjE22kalloc_type_view_20794
++ __ZZL37H13CamInChannelSACParams_replaceListsP24H13CamInChannelSACParamsjE22kalloc_type_view_20797
++ __ZZL37H13CamInChannelSACParams_replaceListsP24H13CamInChannelSACParamsjE22kalloc_type_view_20798
++ __ZZL37H13CamInChannelSACParams_replaceListsP24H13CamInChannelSACParamsjE22kalloc_type_view_20799
++ __ZZL37H13CamInChannelSACParams_replaceListsP24H13CamInChannelSACParamsjE22kalloc_type_view_20805
++ __ZZL37H13CamInChannelSACParams_replaceListsP24H13CamInChannelSACParamsjE22kalloc_type_view_20806
++ __ZZL37H13CamInChannelSACParams_replaceListsP24H13CamInChannelSACParamsjE22kalloc_type_view_20807
++ __ZZL8ffw_freePvE22kalloc_type_view_24806
++ __ZZN13AppleH13CamIn22SendBCARDataToFirmwareEjE22kalloc_type_view_24916
++ __ZZN13AppleH13CamIn22SendBCARDataToFirmwareEjE22kalloc_type_view_24926
++ __ZZN13AppleH13CamIn22SendBCTRDataToFirmwareEjE22kalloc_type_view_24881
++ __ZZN13AppleH13CamIn22SendBCTRDataToFirmwareEjE22kalloc_type_view_24890
++ __ZZN13AppleH13CamIn26ISP_InitialSensorDetectionEvE22kalloc_type_view_21987
++ __ZZN13AppleH13CamIn26ISP_InitialSensorDetectionEvE22kalloc_type_view_22205
++ __ZZN13AppleH13CamIn26ISP_InitialSensorDetectionEvE22kalloc_type_view_22238
++ __ZZN13AppleH13CamIn26ISP_InitialSensorDetectionEvE22kalloc_type_view_22358
++ __ZZN13AppleH13CamIn26ISP_InitialSensorDetectionEvE22kalloc_type_view_22391
++ __ZZN13AppleH13CamIn26ISP_InitialSensorDetectionEvE22kalloc_type_view_22415
++ __ZZN13AppleH13CamIn26ISP_InitialSensorDetectionEvE22kalloc_type_view_22428
++ __ZZN13AppleH13CamIn26ISP_InitialSensorDetectionEvE22kalloc_type_view_22444
++ __ZZN13AppleH13CamIn26ISP_InitialSensorDetectionEvE22kalloc_type_view_22465
++ __ZZN13AppleH13CamIn27SendStrobeCalDataToFirmwareEjE22kalloc_type_view_24845
++ __ZZN13AppleH13CamIn27SendStrobeCalDataToFirmwareEjE22kalloc_type_view_24855
++ __ZZN13AppleH13CamIn32SendLPDPRxPhyEfuseDataToFirmwareEjE22kalloc_type_view_24987
++ __ZZN13AppleH13CamIn32SendLPDPRxPhyEfuseDataToFirmwareEjE22kalloc_type_view_25005
++ __ZZN13AppleH13CamIn39SendSphereExtendedStrokeRangeToFirmwareEjE22kalloc_type_view_25039
++ __ZZN13AppleH13CamIn39SendSphereExtendedStrokeRangeToFirmwareEjE22kalloc_type_view_25047
++ __cxx_global_var_init.1278
+- __ZZL10ffw_callocmmE22kalloc_type_view_24769
+- __ZZL37H13CamInChannelSACParams_replaceListsP24H13CamInChannelSACParamsjE22kalloc_type_view_20760
+- __ZZL37H13CamInChannelSACParams_replaceListsP24H13CamInChannelSACParamsjE22kalloc_type_view_20761
+- __ZZL37H13CamInChannelSACParams_replaceListsP24H13CamInChannelSACParamsjE22kalloc_type_view_20762
+- __ZZL37H13CamInChannelSACParams_replaceListsP24H13CamInChannelSACParamsjE22kalloc_type_view_20765
+- __ZZL37H13CamInChannelSACParams_replaceListsP24H13CamInChannelSACParamsjE22kalloc_type_view_20766
+- __ZZL37H13CamInChannelSACParams_replaceListsP24H13CamInChannelSACParamsjE22kalloc_type_view_20767
+- __ZZL37H13CamInChannelSACParams_replaceListsP24H13CamInChannelSACParamsjE22kalloc_type_view_20773
+- __ZZL37H13CamInChannelSACParams_replaceListsP24H13CamInChannelSACParamsjE22kalloc_type_view_20774
+- __ZZL37H13CamInChannelSACParams_replaceListsP24H13CamInChannelSACParamsjE22kalloc_type_view_20775
+- __ZZL8ffw_freePvE22kalloc_type_view_24774
+- __ZZN13AppleH13CamIn22SendBCARDataToFirmwareEjE22kalloc_type_view_24884
+- __ZZN13AppleH13CamIn22SendBCARDataToFirmwareEjE22kalloc_type_view_24894
+- __ZZN13AppleH13CamIn22SendBCTRDataToFirmwareEjE22kalloc_type_view_24849
+- __ZZN13AppleH13CamIn22SendBCTRDataToFirmwareEjE22kalloc_type_view_24858
+- __ZZN13AppleH13CamIn26ISP_InitialSensorDetectionEvE22kalloc_type_view_21955
+- __ZZN13AppleH13CamIn26ISP_InitialSensorDetectionEvE22kalloc_type_view_22173
+- __ZZN13AppleH13CamIn26ISP_InitialSensorDetectionEvE22kalloc_type_view_22206
+- __ZZN13AppleH13CamIn26ISP_InitialSensorDetectionEvE22kalloc_type_view_22326
+- __ZZN13AppleH13CamIn26ISP_InitialSensorDetectionEvE22kalloc_type_view_22359
+- __ZZN13AppleH13CamIn26ISP_InitialSensorDetectionEvE22kalloc_type_view_22383
+- __ZZN13AppleH13CamIn26ISP_InitialSensorDetectionEvE22kalloc_type_view_22396
+- __ZZN13AppleH13CamIn26ISP_InitialSensorDetectionEvE22kalloc_type_view_22412
+- __ZZN13AppleH13CamIn26ISP_InitialSensorDetectionEvE22kalloc_type_view_22433
+- __ZZN13AppleH13CamIn27SendStrobeCalDataToFirmwareEjE22kalloc_type_view_24813
+- __ZZN13AppleH13CamIn27SendStrobeCalDataToFirmwareEjE22kalloc_type_view_24823
+- __ZZN13AppleH13CamIn32SendLPDPRxPhyEfuseDataToFirmwareEjE22kalloc_type_view_24955
+- __ZZN13AppleH13CamIn32SendLPDPRxPhyEfuseDataToFirmwareEjE22kalloc_type_view_24973
+- __ZZN13AppleH13CamIn39SendSphereExtendedStrokeRangeToFirmwareEjE22kalloc_type_view_25007
+- __ZZN13AppleH13CamIn39SendSphereExtendedStrokeRangeToFirmwareEjE22kalloc_type_view_25015
+- __cxx_global_var_init.1272
+CStrings:
++ "\"Could not power up the ISP, PS regs: \" \" RMX_PS = 0x%x \" \" ISP_SYS_PS = 0x%x \" \" ISP_CPU_PS = 0x%x \" \" ISP_CPU_CORE0_PS = 0x%x \" \" ISP_CPU_CORE1_PS = 0x%x \" \" ISP_DPRX_PS = 0x%x \" \" ISP_STS0_PS = 0x%x \" \" ISP_STS1_PS = 0x%x \" \" ISP_VIS_PS = 0x%x \" \" ISP_BE_PS = 0x%x \" \" ISP_PEARL_PS = 0x%x \" \" ISP_CLR_PS = 0x%x \" \" ISP_RAW_PS = 0x%x \" @%s:%d"
+
+```
+
+>  `com.apple.driver.AppleMobileFileIntegrity`
+
+```diff
+
+-938.0.16.0.0
++938.0.19.0.0
+   __TEXT.__const: 0x1610
+-  __TEXT.__cstring: 0x18cfd
++  __TEXT.__cstring: 0x18c81
+   __TEXT.__os_log: 0x380
+-  __TEXT_EXEC.__text: 0x31c1c
++  __TEXT_EXEC.__text: 0x31b44
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0x81a
+   __DATA.__common: 0xb0
+   __DATA.__bss: 0x129
+-  __DATA_CONST.__auth_got: 0x908
++  __DATA_CONST.__auth_got: 0x900
+   __DATA_CONST.__got: 0x158
+   __DATA_CONST.__auth_ptr: 0x20
+   __DATA_CONST.__mod_init_func: 0x20
+
+   __DATA_CONST.__const: 0xb130
+   __DATA_CONST.__kalloc_type: 0x1200
+   __DATA_CONST.__kalloc_var: 0x11d0
+-  Functions: 899
++  Functions: 900
+   Symbols:   1964
+-  CStrings:  3068
++  CStrings:  3065
+ 
+Symbols:
++ _AMFIUsingResearchVariant
++ __ZN20StaticPlatformPolicyILb1ELb1ELb1ELb1ELb1ELb1ELb1ELb0ELb1ELb0ELb1ELb0ELb1ELb1ELb0ELb0ELj1ELb1ELb0EE29loadEntitlementsFromSignatureEPP14OSEntitlementsP7cs_blobP8LazyPathPPKc
++ __ZZL27_process_matches_constraintP4procyE21kalloc_type_view_5024
++ __ZZL27_process_matches_constraintP4procyE21kalloc_type_view_5047
++ __ZZN20StaticPlatformPolicyILb1ELb1ELb0ELb1ELb0ELb1ELb1ELb0ELb0ELb1ELb0ELb1ELb0ELb0ELb1ELb0ELj2ELb1ELb0EE15check_signatureEP8LazyPathiP7cs_blobPjS5_ibbbjPPcPmE21kalloc_type_view_2857
++ __ZZN20StaticPlatformPolicyILb1ELb1ELb0ELb1ELb0ELb1ELb1ELb0ELb0ELb1ELb0ELb1ELb0ELb0ELb1ELb0ELj2ELb1ELb0EE15check_signatureEP8LazyPathiP7cs_blobPjS5_ibbbjPPcPmE21kalloc_type_view_3067
++ __ZZN20StaticPlatformPolicyILb1ELb1ELb1ELb1ELb1ELb1ELb1ELb0ELb1ELb0ELb1ELb0ELb1ELb1ELb0ELb0ELj1ELb1ELb0EE15check_signatureEP8LazyPathiP7cs_blobPjS5_ibbbjPPcPmE21kalloc_type_view_2857
++ __ZZN20StaticPlatformPolicyILb1ELb1ELb1ELb1ELb1ELb1ELb1ELb0ELb1ELb0ELb1ELb0ELb1ELb1ELb0ELb0ELj1ELb1ELb0EE15check_signatureEP8LazyPathiP7cs_blobPjS5_ibbbjPPcPmE21kalloc_type_view_3067
+- __ZN20StaticPlatformPolicyILb1ELb1ELb1ELb1ELb1ELb1ELb1ELb0ELb1ELb0ELb1ELb0ELb1ELb1ELb0ELb0ELj1ELb0ELb1ELb0EE29loadEntitlementsFromSignatureEPP14OSEntitlementsP7cs_blobP8LazyPathPPKc
+- __ZZL27_process_matches_constraintP4procyE21kalloc_type_view_5041
+- __ZZL27_process_matches_constraintP4procyE21kalloc_type_view_5064
+- __ZZN20StaticPlatformPolicyILb1ELb1ELb0ELb1ELb0ELb1ELb1ELb0ELb0ELb1ELb0ELb1ELb0ELb0ELb1ELb0ELj2ELb0ELb1ELb0EE15check_signatureEP8LazyPathiP7cs_blobPjS5_ibbbjPPcPmE21kalloc_type_view_2857
+- __ZZN20StaticPlatformPolicyILb1ELb1ELb0ELb1ELb0ELb1ELb1ELb0ELb0ELb1ELb0ELb1ELb0ELb0ELb1ELb0ELj2ELb0ELb1ELb0EE15check_signatureEP8LazyPathiP7cs_blobPjS5_ibbbjPPcPmE21kalloc_type_view_3067
+- __ZZN20StaticPlatformPolicyILb1ELb1ELb1ELb1ELb1ELb1ELb1ELb0ELb1ELb0ELb1ELb0ELb1ELb1ELb0ELb0ELj1ELb0ELb1ELb0EE15check_signatureEP8LazyPathiP7cs_blobPjS5_ibbbjPPcPmE21kalloc_type_view_2857
+- __ZZN20StaticPlatformPolicyILb1ELb1ELb1ELb1ELb1ELb1ELb1ELb0ELb1ELb0ELb1ELb0ELb1ELb1ELb0ELb0ELj1ELb0ELb1ELb0EE15check_signatureEP8LazyPathiP7cs_blobPjS5_ibbbjPPcPmE21kalloc_type_view_3067
+- _img4_chip_instantiate
+CStrings:
++ "/AppleInternal/Library/BuildRoots/d8c9c115-356a-11ef-b3f4-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleCredentialManager_KernelLibs/ACMKernelLib/ACMKernelTransport.cpp"
++ "/AppleInternal/Library/BuildRoots/d8c9c115-356a-11ef-b3f4-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleCredentialManager_KernelLibs/common/CommonMem.c"
++ "/AppleInternal/Library/BuildRoots/d8c9c115-356a-11ef-b3f4-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleCredentialManager_KernelLibs/common/LibCall.c"
++ "21:43:16"
++ "Jul  1 2024"
++ "cmd = (acm_command_t *)({ size_t sizeVal = (cmdSize); void *ptr = acm_mem_alloc_data(sizeVal); acm_mem_alloc_info(\"<data>\", ptr, sizeVal, \"/AppleInternal/Library/BuildRoots/d8c9c115-356a-11ef-b3f4-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleCredentialManager_KernelLibs/common/LibCall.c\", 22, __func__); ptr; })"
+- "\"AMFI: No chip from IMG4? errno: %d\" @%s:%d"
+- "/AppleInternal/Library/BuildRoots/7abfe40b-2884-11ef-836f-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleCredentialManager_KernelLibs/ACMKernelLib/ACMKernelTransport.cpp"
+- "/AppleInternal/Library/BuildRoots/7abfe40b-2884-11ef-836f-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleCredentialManager_KernelLibs/common/CommonMem.c"
+- "/AppleInternal/Library/BuildRoots/7abfe40b-2884-11ef-836f-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleCredentialManager_KernelLibs/common/LibCall.c"
+- "20:29:49"
+- "AMFI: Allowing research due to amfi_allow_research boot arg"
+- "Jun 20 2024"
+- "amfi_allow_research"
+- "cmd = (acm_command_t *)({ size_t sizeVal = (cmdSize); void *ptr = acm_mem_alloc_data(sizeVal); acm_mem_alloc_info(\"<data>\", ptr, sizeVal, \"/AppleInternal/Library/BuildRoots/7abfe40b-2884-11ef-836f-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleCredentialManager_KernelLibs/common/LibCall.c\", 22, __func__); ptr; })"
+
+```
+
+>  `com.apple.driver.AppleSEPKeyStore`
+
+```diff
+
+-1827.0.41.0.1
+-  __TEXT.__cstring: 0x3d0c
++1827.0.50.0.0
++  __TEXT.__cstring: 0x3d08
+   __TEXT.__const: 0x864
+   __TEXT_EXEC.__text: 0x3e984
+   __TEXT_EXEC.__auth_stubs: 0x0
+CStrings:
++ "/AppleInternal/Library/BuildRoots/81e2abef-3955-11ef-8e67-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleKeyStore_SEP_kexts/AppleKeyStore.cpp"
++ "/AppleInternal/Library/BuildRoots/81e2abef-3955-11ef-8e67-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleKeyStore_SEP_kexts/ipc.c"
++ "/AppleInternal/Library/BuildRoots/81e2abef-3955-11ef-8e67-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleKeyStore_SEP_kexts/msg.c"
++ "/AppleInternal/Library/BuildRoots/81e2abef-3955-11ef-8e67-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleKeyStore_SEP_kexts/platform/platform.c"
++ "/AppleInternal/Library/BuildRoots/81e2abef-3955-11ef-8e67-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleKeyStore_SEP_kexts/platform/platform_kernel.c"
++ "1827.0.50"
++ "20:02:59"
++ "Jul  3 2024"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleKeyStore_SEP_kexts/AppleKeyStore.cpp"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleKeyStore_SEP_kexts/ipc.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleKeyStore_SEP_kexts/msg.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleKeyStore_SEP_kexts/platform/platform.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleKeyStore_SEP_kexts/platform/platform_kernel.c"
+- "1827.0.41.0.1"
+- "20:29:54"
+- "Jun 20 2024"
+
+```
+
+>  `com.apple.iokit.IOGPUFamily`
+
+```diff
+
+-104.0.5.0.0
++104.0.6.0.0
+   __TEXT.__cstring: 0x5706
+   __TEXT.__os_log: 0x3c15
+   __TEXT.__const: 0xd4
+-  __TEXT_EXEC.__text: 0x3dc30
++  __TEXT_EXEC.__text: 0x3dd98
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0x4b0
+   __DATA.__common: 0x7d0
+
+```
+
+>  `com.apple.kec.corecrypto`
+
+```diff
+
+-1736.0.27.0.1
+-  __TEXT.__cstring: 0x46c7
+-  __TEXT.__const: 0x144a0
++1736.0.36.0.0
++  __TEXT.__cstring: 0x46eb
++  __TEXT.__const: 0x14480
+   __TEXT.__fips_hmacs: 0x20
+-  __TEXT_EXEC.__text: 0x549f8
++  __TEXT_EXEC.__text: 0x58bec
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0x2df0
+-  __DATA.__bss: 0x2960
+-  __DATA.__common: 0x138
++  __DATA.__bss: 0x2980
++  __DATA.__common: 0x140
+   __DATA_CONST.__auth_got: 0x120
+   __DATA_CONST.__got: 0x10
+   __DATA_CONST.__auth_ptr: 0x128
+-  __DATA_CONST.__const: 0x2ba8
+-  Functions: 1303
+-  Symbols:   1744
+-  CStrings:  543
++  __DATA_CONST.__const: 0x2c90
++  Functions: 1313
++  Symbols:   1760
++  CStrings:  545
+ 
+Symbols:
++ _cc_cpu_feat_initialized
++ _cc_init_feature_bits
++ _ccec_sign_composite_msg_ws
++ _ccec_verify_composite_digest_ws
++ _ccec_verify_composite_msg_ws
++ _ccrsa_eme_pkcs1v15_decode_internal_ws
++ _ccrsa_sign_pkcs1v15_msg_blinded_ws
++ _ccrsa_verify_pkcs1v15_msg_ws
++ _ccsha384_vng_arm_hw_compress
++ _ccsha384_vng_arm_hw_di
++ _ccsha512_256_vng_arm_hw_compress
++ _ccsha512_256_vng_arm_hw_di
++ _ccsha512_vng_arm_hw_compress
++ _ccsha512_vng_arm_hw_di
++ _cpu_feature_bits
++ ccrsa_eme_pkcs1v15_decode.entropy
++ ccrsa_eme_pkcs1v15_decode.entropy_init
+CStrings:
++ "SHA384_VNG_ARM_HW"
++ "SHA512_VNG_ARM_HW"
+
+```
+
+>  `com.apple.security.quarantine`
+
+```diff
+
+-181.0.3.0.1
+-  __TEXT.__const: 0x61
+-  __TEXT.__cstring: 0x5e6
++181.0.5.0.0
++  __TEXT.__const: 0x71
++  __TEXT.__cstring: 0x5e7
+   __TEXT.__os_log: 0x2a7
+-  __TEXT_EXEC.__text: 0x9190
++  __TEXT_EXEC.__text: 0x92a8
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0xcc3
+   __DATA.__common: 0x24
+   __DATA.__bss: 0x28
+-  __DATA_CONST.__auth_got: 0x418
++  __DATA_CONST.__auth_got: 0x420
+   __DATA_CONST.__got: 0x40
+   __DATA_CONST.__const: 0xc8
+   __DATA_CONST.__kalloc_type: 0x280
+-  Functions: 181
+-  Symbols:   375
++  Functions: 182
++  Symbols:   377
+   CStrings:  65
+ 
+Symbols:
++ _responsibility_identity_get_binary_vnode
++ _vfs_getbyid
++ cred_label_alloc.kalloc_type_view_876
++ cred_label_destroy.kalloc_type_view_963
++ responsibility_alloc.kalloc_type_view_767
++ responsibility_destroy.kalloc_type_view_838
+- cred_label_alloc.kalloc_type_view_861
+- cred_label_destroy.kalloc_type_view_948
+- responsibility_alloc.kalloc_type_view_752
+- responsibility_destroy.kalloc_type_view_823
+CStrings:
++ "2222221111122211222"
+- "111111122222222222"
+
+```
+
+>  `com.apple.driver.AppleANELoadBalancer`
+
+```diff
+
+-8.13.2.0.0
++8.15.1.0.0
+   __TEXT.__const: 0x5d
+-  __TEXT.__cstring: 0x81b
+-  __TEXT.__os_log: 0x21c8
+-  __TEXT_EXEC.__text: 0x9520
++  __TEXT.__cstring: 0x819
++  __TEXT.__os_log: 0x2381
++  __TEXT_EXEC.__text: 0x95e4
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0xc8
+   __DATA.__common: 0xb8
+
+   __DATA_CONST.__const: 0x2d70
+   __DATA_CONST.__kalloc_type: 0x280
+   Functions: 225
+-  Symbols:   844
++  Symbols:   847
+   CStrings:  84
+ 
+Symbols:
++ __ZZN18H1xANELoadBalancer17findBestANE_gatedEP30H11ANEProgramRequestArgsStructPjPPvE11_os_log_fmt_7
++ __ZZN18H1xANELoadBalancer17findBestANE_gatedEP30H11ANEProgramRequestArgsStructPjPPvE11_os_log_fmt_8
++ __ZZN18H1xANELoadBalancer17findBestANE_gatedEP30H11ANEProgramRequestArgsStructPjPPvE11_os_log_fmt_9
+CStrings:
++ "12111112122212121211111111111111222222222222222222222222222"
+- "1211111212221212121111111111111122222222222222222222222222222"
+
+```
+
+>  `com.apple.driver.AppleCredentialManager`
+
+```diff
+
+-758.0.14.0.0
+-  __TEXT.__cstring: 0x168b9
++758.0.16.0.0
++  __TEXT.__cstring: 0x1692b
+   __TEXT.__const: 0x378
+-  __TEXT_EXEC.__text: 0x67724
++  __TEXT_EXEC.__text: 0x677e4
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0x34c1
+   __DATA.__common: 0x1d8
+
+   __DATA_CONST.__const: 0x2de8
+   __DATA_CONST.__kalloc_type: 0x780
+   __DATA_CONST.__kalloc_var: 0x1450
+-  Functions: 1124
+-  Symbols:   1849
+-  CStrings:  2434
++  Functions: 1126
++  Symbols:   1851
++  CStrings:  2439
+ 
+Symbols:
++ _ZN30ACMRestrictedModeKernelService19updateKeybagTrackerERNS_13KeybagTracker7TrackerEib.cold.1
++ __ZN30ACMRestrictedModeKernelService19searchKeybagTrackerERNS_13KeybagTracker7TrackerEi
++ __ZN30ACMRestrictedModeKernelService19updateKeybagTrackerERNS_13KeybagTracker7TrackerEib
+- __ZN30ACMRestrictedModeKernelService25searchUnlockedUserKeybagsEi
+CStrings:
++ "\"ACM: %s keybag=%d cannot be added, no space!\" @%s:%d"
++ "%s: %s: %s keybag=%d added.\n"
++ "%s: %s: %s keybag=%d already added.\n"
++ "%s: %s: %s keybag=%d cannot be added, no space!.\n"
++ "%s: %s: %s keybag=%d not found.\n"
++ "%s: %s: %s keybag=%d removed.\n"
++ "%s: %s: keybag=%d kbLockState=%s(%u) | useUserKeybag=%s unlocked=%u locked=%u => deviceLockState=%s(%u) was=%s(%u).\n"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/AppleCredentialManager/AppleCredentialManager/ACMKernelUtils.cpp"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/AppleCredentialManager/AppleCredentialManager/AppleCredentialManager.cpp"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/AppleCredentialManager/AppleCredentialManager/AppleCredentialManagerShared.cpp"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/AppleCredentialManager/AppleCredentialManager/AppleCredentialManagerUserClient.cpp"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/AppleCredentialManager/AppleCredentialManager/Services/ACMAccessoryCacheKernelService.cpp"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/AppleCredentialManager/AppleCredentialManager/Services/ACMBridgeKernelService.cpp"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/AppleCredentialManager/AppleCredentialManager/Services/ACMFirstResponderKernelService.cpp"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/AppleCredentialManager/AppleCredentialManager/Services/ACMKernelService.cpp"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/AppleCredentialManager/AppleCredentialManager/Services/ACMKeybagKernelService.cpp"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/AppleCredentialManager/AppleCredentialManager/Services/ACMLockdownModeKernelService.cpp"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/AppleCredentialManager/AppleCredentialManager/Services/ACMPersistentStoreKernelService.cpp"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/AppleCredentialManager/AppleCredentialManager/Services/ACMRestrictedModeAnalyticsKernelService.cpp"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/AppleCredentialManager/AppleCredentialManager/Services/ACMRestrictedModeKernelService.cpp"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/AppleCredentialManager/common/CommonMem.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/AppleCredentialManager/common/CommonTRMLegacy.h"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/AppleCredentialManager/common/CommonUtil.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/AppleCredentialManager/common/CoreAuthMethod.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/AppleCredentialManager/common/CoreCmd.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/AppleCredentialManager/common/CoreCred.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/AppleCredentialManager/common/CoreCredSet.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/AppleCredentialManager/common/CoreDER.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/AppleCredentialManager/common/CoreEnv.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/AppleCredentialManager/common/CoreExec.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/AppleCredentialManager/common/CorePrague.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/AppleCredentialManager/common/CoreReqAlgo.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/AppleCredentialManager/common/CoreSEPControl.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/AppleCredentialManager/common/CoreStorage.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/AppleCredentialManager/common/CoreTRMAccCache.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/AppleCredentialManager/common/CoreTRMMultiState.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/AppleCredentialManager/common/CoreTimer.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/AppleCredentialManager/common/CoreUserIntent.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/AppleCredentialManager/common/CoreUtil.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/AppleCredentialManager/common/CredUtil.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/AppleCredentialManager/common/Credentials.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/AppleCredentialManager/common/LibSerialization.c"
++ "/AppleInternal/Library/BuildRoots/d8c9c115-356a-11ef-b3f4-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleCredentialManager_KernelLibs/ACMKernelLib/ACMKernelLib.cpp"
++ "/AppleInternal/Library/BuildRoots/d8c9c115-356a-11ef-b3f4-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleCredentialManager_KernelLibs/ACMKernelLib/ACMKernelTransport.cpp"
++ "/AppleInternal/Library/BuildRoots/d8c9c115-356a-11ef-b3f4-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleCredentialManager_KernelLibs/common/LibCall.c"
++ "12111111222212232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323231111111211111111112212222222222222222122222222222222222222222222222222222222"
++ "ACMRestrictedModeKernelService.cpp"
++ "Jul  1 2024, 22:03:18"
++ "L"
++ "U"
++ "cmd = (acm_command_t *)({ size_t sizeVal = (cmdSize); void *ptr = acm_mem_alloc_data(sizeVal); acm_mem_alloc_info(\"<data>\", ptr, sizeVal, \"/AppleInternal/Library/BuildRoots/d8c9c115-356a-11ef-b3f4-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleCredentialManager_KernelLibs/common/LibCall.c\", 22, __func__); ptr; })"
++ "updateKeybagTracker"
+- "%s: %s: keybag=%d added (%u).\n"
+- "%s: %s: keybag=%d already added (%u).\n"
+- "%s: %s: keybag=%d cannot be added, no space! (%u).\n"
+- "%s: %s: keybag=%d kbLockState=%s(%u) | users=%u(%u) lockingLastUser=%s | deviceLockState=%s(%u) was=%s(%u).\n"
+- "%s: %s: keybag=%d not found (%u).\n"
+- "%s: %s: keybag=%d removed (%u).\n"
+- "/AppleInternal/Library/BuildRoots/7abfe40b-2884-11ef-836f-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleCredentialManager_KernelLibs/ACMKernelLib/ACMKernelLib.cpp"
+- "/AppleInternal/Library/BuildRoots/7abfe40b-2884-11ef-836f-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleCredentialManager_KernelLibs/ACMKernelLib/ACMKernelTransport.cpp"
+- "/AppleInternal/Library/BuildRoots/7abfe40b-2884-11ef-836f-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleCredentialManager_KernelLibs/common/LibCall.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleCredentialManager/AppleCredentialManager/ACMKernelUtils.cpp"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleCredentialManager/AppleCredentialManager/AppleCredentialManager.cpp"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleCredentialManager/AppleCredentialManager/AppleCredentialManagerShared.cpp"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleCredentialManager/AppleCredentialManager/AppleCredentialManagerUserClient.cpp"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleCredentialManager/AppleCredentialManager/Services/ACMAccessoryCacheKernelService.cpp"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleCredentialManager/AppleCredentialManager/Services/ACMBridgeKernelService.cpp"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleCredentialManager/AppleCredentialManager/Services/ACMFirstResponderKernelService.cpp"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleCredentialManager/AppleCredentialManager/Services/ACMKernelService.cpp"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleCredentialManager/AppleCredentialManager/Services/ACMKeybagKernelService.cpp"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleCredentialManager/AppleCredentialManager/Services/ACMLockdownModeKernelService.cpp"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleCredentialManager/AppleCredentialManager/Services/ACMPersistentStoreKernelService.cpp"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleCredentialManager/AppleCredentialManager/Services/ACMRestrictedModeAnalyticsKernelService.cpp"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleCredentialManager/AppleCredentialManager/Services/ACMRestrictedModeKernelService.cpp"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleCredentialManager/common/CommonMem.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleCredentialManager/common/CommonTRMLegacy.h"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleCredentialManager/common/CommonUtil.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleCredentialManager/common/CoreAuthMethod.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleCredentialManager/common/CoreCmd.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleCredentialManager/common/CoreCred.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleCredentialManager/common/CoreCredSet.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleCredentialManager/common/CoreDER.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleCredentialManager/common/CoreEnv.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleCredentialManager/common/CoreExec.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleCredentialManager/common/CorePrague.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleCredentialManager/common/CoreReqAlgo.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleCredentialManager/common/CoreSEPControl.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleCredentialManager/common/CoreStorage.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleCredentialManager/common/CoreTRMAccCache.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleCredentialManager/common/CoreTRMMultiState.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleCredentialManager/common/CoreTimer.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleCredentialManager/common/CoreUserIntent.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleCredentialManager/common/CoreUtil.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleCredentialManager/common/CredUtil.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleCredentialManager/common/Credentials.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleCredentialManager/common/LibSerialization.c"
+- "12111111222212232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323231111111211111111112222222222222222222222222222222222222222222222222222222"
+- "Jun 20 2024, 20:39:09"
+- "cmd = (acm_command_t *)({ size_t sizeVal = (cmdSize); void *ptr = acm_mem_alloc_data(sizeVal); acm_mem_alloc_info(\"<data>\", ptr, sizeVal, \"/AppleInternal/Library/BuildRoots/7abfe40b-2884-11ef-836f-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleCredentialManager_KernelLibs/common/LibCall.c\", 22, __func__); ptr; })"
+
+```
+
+>  `com.apple.driver.AppleDCP`
+
+```diff
+
+-811.0.17.0.0
++811.0.20.0.0
+   __TEXT.__cstring: 0x1664
+   __TEXT.__const: 0x18
+   __TEXT_EXEC.__text: 0x61f0
+
+   __DATA_CONST.__got: 0x80
+   __DATA_CONST.__mod_init_func: 0x20
+   __DATA_CONST.__mod_term_func: 0x20
+-  __DATA_CONST.__const: 0x20b8
++  __DATA_CONST.__const: 0x20b0
+   __DATA_CONST.__kalloc_type: 0x100
+   Functions: 175
+-  Symbols:   577
++  Symbols:   576
+   CStrings:  115
+ 
+Symbols:
+- __ZNK11AFKEPKextV222useRTBuddyPowerActionsEv
+
+```
+
+>  `com.apple.driver.AppleHPM`
+
+```diff
+
+-570.0.0.0.0
+-  __TEXT.__cstring: 0x10466
++570.0.1.0.0
++  __TEXT.__cstring: 0x10481
+   __TEXT.__const: 0xb0
+   __TEXT.__os_log: 0x1e8
+-  __TEXT_EXEC.__text: 0x502e8
++  __TEXT_EXEC.__text: 0x50344
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0x6c9
+   __DATA.__common: 0x540
+   __DATA.__bss: 0x4
+-  __DATA_CONST.__auth_got: 0x450
++  __DATA_CONST.__auth_got: 0x458
+   __DATA_CONST.__got: 0x108
+   __DATA_CONST.__auth_ptr: 0x20
+   __DATA_CONST.__mod_init_func: 0x100
+
+   __DATA_CONST.__const: 0x19e70
+   __DATA_CONST.__kalloc_type: 0xa40
+   Functions: 1392
+-  Symbols:   2227
+-  CStrings:  925
++  Symbols:   2228
++  CStrings:  926
+ 
+Symbols:
++ __ZN9OSBoolean11withBooleanEb
+CStrings:
++ "AsymmetricModeSupportedBit"
+
+```
+
+>  `com.apple.security.sandbox`
+
+```diff
+
+-2401.0.37.0.2
+-  __TEXT.__const: 0x1df5b
+-  __TEXT.__cstring: 0x70c0
++2401.0.48.0.0
++  __TEXT.__const: 0x1e02b
++  __TEXT.__cstring: 0x70ff
+   __TEXT.__os_log: 0x1b6e
+-  __TEXT_EXEC.__text: 0x424a4
++  __TEXT_EXEC.__text: 0x42550
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0x2b8
+-  __DATA.__bss: 0x164f0
+-  __DATA_CONST.__auth_got: 0x9b8
++  __DATA.__bss: 0x7e1b8
++  __DATA_CONST.__auth_got: 0x9c0
+   __DATA_CONST.__got: 0x100
+   __DATA_CONST.__const: 0x3a68
+   __DATA_CONST.__kalloc_var: 0x550
+   __DATA_CONST.__kalloc_type: 0x1200
+   Functions: 846
+-  Symbols:   1819
+-  CStrings:  1240
++  Symbols:   1820
++  CStrings:  1242
+ 
+Symbols:
++ _AMFIUsingResearchVariant
++ __block_descriptor_tmp.1.2976
++ __block_descriptor_tmp.1.3622
++ __block_descriptor_tmp.12.2529
++ __block_descriptor_tmp.12.3160
++ __block_descriptor_tmp.13.3174
++ __block_descriptor_tmp.13.811
++ __block_descriptor_tmp.14.2605
++ __block_descriptor_tmp.14.2762
++ __block_descriptor_tmp.14.3561
++ __block_descriptor_tmp.16.974
++ __block_descriptor_tmp.20.3175
++ __block_descriptor_tmp.23.2390
++ __block_descriptor_tmp.2383
++ __block_descriptor_tmp.2437
++ __block_descriptor_tmp.2498
++ __block_descriptor_tmp.25.2504
++ __block_descriptor_tmp.2604
++ __block_descriptor_tmp.2744
++ __block_descriptor_tmp.2984
++ __block_descriptor_tmp.3056
++ __block_descriptor_tmp.3157
++ __block_descriptor_tmp.317
++ __block_descriptor_tmp.3187
++ __block_descriptor_tmp.320
++ __block_descriptor_tmp.3240
++ __block_descriptor_tmp.3556
++ __block_descriptor_tmp.3618
++ __block_descriptor_tmp.4.3567
++ __block_descriptor_tmp.4.3625
++ __block_descriptor_tmp.5.3201
++ __block_descriptor_tmp.7.3630
++ __block_descriptor_tmp.805
++ __block_descriptor_tmp.849
++ __block_descriptor_tmp.9.2745
++ __block_descriptor_tmp.9.3076
++ __block_descriptor_tmp.973
++ __block_literal_global.2381
++ __block_literal_global.2975
++ __block_literal_global.3158
++ __block_literal_global.3198
++ __block_literal_global.3216
++ __block_literal_global.3615
++ _proc_matches_signing_id
++ check_data_volume_mounted.done_data_volume_mount
++ macl_lock_group.2445
++ operation_names.3310
++ pending_approval_entry_create.kalloc_type_view_1386
++ pending_approval_entry_create.kalloc_type_view_1394
++ pending_approval_entry_release.kalloc_type_view_1365
++ sandbox_lock_grp.2503
++ syscall_set_userland_profile._os_log_fmt.304
+- __block_descriptor_tmp.1.2975
+- __block_descriptor_tmp.1.3621
+- __block_descriptor_tmp.12.2528
+- __block_descriptor_tmp.12.3159
+- __block_descriptor_tmp.13.3173
+- __block_descriptor_tmp.13.812
+- __block_descriptor_tmp.14.2604
+- __block_descriptor_tmp.14.2761
+- __block_descriptor_tmp.14.3560
+- __block_descriptor_tmp.16.975
+- __block_descriptor_tmp.20.3174
+- __block_descriptor_tmp.23.2389
+- __block_descriptor_tmp.2382
+- __block_descriptor_tmp.2436
+- __block_descriptor_tmp.2497
+- __block_descriptor_tmp.25.2503
+- __block_descriptor_tmp.2603
+- __block_descriptor_tmp.2743
+- __block_descriptor_tmp.2983
+- __block_descriptor_tmp.3055
+- __block_descriptor_tmp.315
+- __block_descriptor_tmp.3156
+- __block_descriptor_tmp.318
+- __block_descriptor_tmp.3186
+- __block_descriptor_tmp.3239
+- __block_descriptor_tmp.3555
+- __block_descriptor_tmp.3617
+- __block_descriptor_tmp.4.3566
+- __block_descriptor_tmp.4.3624
+- __block_descriptor_tmp.5.3200
+- __block_descriptor_tmp.7.3629
+- __block_descriptor_tmp.806
+- __block_descriptor_tmp.850
+- __block_descriptor_tmp.9.2744
+- __block_descriptor_tmp.9.3075
+- __block_descriptor_tmp.974
+- __block_literal_global.2380
+- __block_literal_global.2974
+- __block_literal_global.3157
+- __block_literal_global.3197
+- __block_literal_global.3215
+- __block_literal_global.3614
+- _check_data_volume_mounted
+- _done_data_volume_mount
+- macl_lock_group.2444
+- operation_names.3309
+- pending_approval_entry_create.kalloc_type_view_1388
+- pending_approval_entry_create.kalloc_type_view_1396
+- pending_approval_entry_release.kalloc_type_view_1367
+- sandbox_lock_grp.2502
+- syscall_set_userland_profile._os_log_fmt.306
+CStrings:
++ "59GAB85EFG.com.apple.dt.Xcode"
++ "com.apple.application-identifier"
+
+```
+
+>  `com.apple.kernel`
+
+```diff
+
+-11215.0.115.501.3
+-  __TEXT.__const: 0x35d90
++11215.0.132.501.1
++  __TEXT.__const: 0x35da0
+   __TEXT.__copyio_vectors: 0x120
+-  __TEXT.__cstring: 0x9b81c
++  __TEXT.__cstring: 0x9b7ef
+   __TEXT.__os_log: 0x2703b
+   __TEXT.__thread_starts: 0x0
+   __TEXT.__eh_frame: 0x478
+
+   __DATA_CONST.__kalloc_var: 0x82f0
+   __DATA_CONST.__brk_desc: 0x78
+   __TEXT_EXEC.__hib_text: 0x3b78
+-  __TEXT_EXEC.__text: 0x8fc2f0
++  __TEXT_EXEC.__text: 0x8fd75c
+   __TEXT_EXEC.__commpage_text: 0x2dc
+   __KLD.__text: 0x4ef0
+   __PPLTEXT.__text: 0x2f478
+
+   __LAST.__last: 0x0
+   __PPLDATA.__data: 0x7ca0
+   __KLDDATA.__cstring: 0x71f
+-  __KLDDATA.__const: 0x7fb8
++  __KLDDATA.__const: 0x7fe8
+   __KLDDATA.__mod_init_func: 0x8
+   __KLDDATA.__mod_term_func: 0x8
+   __KLDDATA.__bss: 0x1
+   __DATA.__data: 0x203e1
+   __DATA.__lock_grp: 0x16058
+   __DATA.__percpu: 0x30d8
+-  __DATA.__common: 0x7b600
+-  __DATA.__bss: 0x52750
++  __DATA.__common: 0x7b620
++  __DATA.__bss: 0x52890
+   __HIBDATA.__data: 0x41
+   __HIBDATA.__common: 0x120
+-  __HIBDATA.__bss: 0x608
++  __HIBDATA.__bss: 0x618
+   __BOOTDATA.__data: 0x18000
+   __BOOTDATA.__init: 0x5bb40
+-  __BOOTDATA.__init_entry_set: 0x115b0
++  __BOOTDATA.__init_entry_set: 0x115c8
+   __PRELINK_TEXT.__text: 0x0
+   __PRELINK_INFO.__info: 0x0
+   __PLK_TEXT_EXEC.__text: 0x0
+
+   __PLK_DATA_CONST.__data: 0x0
+   __PLK_LLVM_COV.__llvm_covmap: 0x0
+   __PLK_LINKEDIT.__data: 0x0
+-  __LINKINFO.__symbolsets: 0x4ce0b
++  __LINKINFO.__symbolsets: 0x4ce8c
+   __CTF.__ctf: 0x0
+-  Functions: 22104
+-  Symbols:   6651
++  Functions: 22111
++  Symbols:   6655
+   CStrings:  19823
+ 
+Symbols:
++ __vfs_smr
++ _apfs_smr
++ _smr_hash_init_empty
++ _smr_hash_is_empty_initialized
+CStrings:
++ "%s : Number of retries for syncing first or last page reached %d\n"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Binaries/xnu/install/TempContent/Objects/EXPORT_HDRS/bsd/skywalk/nexus_common.h"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Binaries/xnu/install/TempContent/Objects/EXPORT_HDRS/bsd/skywalk/packet_common.h"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/dev/dtrace/dtrace.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/kern/kern_control.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/kern/kern_event.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/kern/kpi_mbuf.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/kern/kpi_socket.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/kern/kpi_socketfilter.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/kern/socket_flows.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/kern/subr_eventhandler.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/kern/sys_domain.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/kern/tracker.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/kern/uipc_domain.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/kern/uipc_mbuf.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/kern/uipc_mbuf2.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/kern/uipc_proto.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/kern/uipc_socket.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/kern/uipc_socket2.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/kern/uipc_syscalls.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/kern/uipc_usrreq.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/kern/vsock_domain.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/net/bpf.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/net/classq/classq.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/net/classq/classq_fq_codel.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/net/classq/classq_subr.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/net/content_filter.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/net/dlil.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/net/droptap.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/net/flowadv.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/net/if.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/net/if_bond.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/net/if_bridge.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/net/if_fake.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/net/if_ipsec.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/net/if_llreach.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/net/if_loop.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/net/if_ports_used.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/net/if_redirect.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/net/if_utun.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/net/if_vlan.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/net/iptap.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/net/kpi_interface.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/net/mblist.h"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/net/nat464_utils.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/net/ndrv.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/net/necp_client.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/net/network_agent.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/net/ntstat.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/net/nwk_wq.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/net/pf.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/net/pf_if.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/net/pf_ioctl.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/net/pf_norm.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/net/pf_pbuf.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/net/pf_table.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/net/pktap.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/net/pktsched/pktsched.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/net/pktsched/pktsched_fq_codel.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/net/pktsched/pktsched_netem.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/net/route.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/net/rtsock.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet/flow_divert.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet/igmp.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet/in.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet/in_arp.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet/in_mcast.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet/in_pcb.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet/in_proto.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet/in_rmx.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet/in_tclass.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet/ip_dummynet.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet/ip_encap.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet/ip_icmp.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet/ip_input.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet/ip_output.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet/kpi_ipfilter.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet/mp_pcb.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet/mp_pcb.h"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet/mp_proto.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet/mptcp.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet/mptcp_opt.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet/mptcp_subr.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet/mptcp_timer.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet/mptcp_usrreq.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet/mptcp_var.h"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet/raw_ip.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet/tcp_cache.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet/tcp_cubic.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet/tcp_input.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet/tcp_ledbat.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet/tcp_output.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet/tcp_prague.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet/tcp_sack.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet/tcp_subr.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet/tcp_timer.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet/tcp_usrreq.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet/udp_usrreq.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet6/ah_core.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet6/ah_input.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet6/ah_output.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet6/esp_chachapoly.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet6/esp_core.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet6/esp_input.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet6/esp_output.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet6/esp_rijndael.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet6/frag6.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet6/icmp6.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet6/in6.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet6/in6_cga.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet6/in6_ifattach.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet6/in6_mcast.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet6/in6_pcb.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet6/in6_proto.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet6/in6_rmx.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet6/in6_src.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet6/ip6_forward.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet6/ip6_id.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet6/ip6_input.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet6/ip6_output.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet6/ipsec.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet6/ipsec.h"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet6/mld6.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet6/nd6.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet6/nd6_nbr.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet6/nd6_prproxy.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet6/nd6_rti.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet6/nd6_rtr.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet6/nd6_send.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet6/scope6.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet6/udp6_output.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netkey/key.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netkey/keysock.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/channel/channel.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/channel/channel_kern.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/channel/channel_ring.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/channel/channel_syscalls.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/core/skywalk.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/lib/net_filter_event.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/mem/skmem.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/mem/skmem_arena.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/mem/skmem_cache.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/mem/skmem_cache_var.h"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/mem/skmem_region.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/mem/skmem_slab.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/namespace/flowidns.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/namespace/netns.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/namespace/protons.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/nexus/flowswitch/flow/flow.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/nexus/flowswitch/flow/flow_agg.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/nexus/flowswitch/flow/flow_classifier.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/nexus/flowswitch/flow/flow_entry.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/nexus/flowswitch/flow/flow_manager.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/nexus/flowswitch/flow/flow_owner.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/nexus/flowswitch/flow/flow_route.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/nexus/flowswitch/flow/flow_stats.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/nexus/flowswitch/flow/flow_track.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/nexus/flowswitch/flow/flow_var.h"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/nexus/flowswitch/fsw.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/nexus/flowswitch/fsw_classq.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/nexus/flowswitch/fsw_dp.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/nexus/flowswitch/fsw_ethernet.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/nexus/flowswitch/fsw_ip_frag.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/nexus/flowswitch/fsw_vp.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/nexus/flowswitch/nx_flowswitch.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/nexus/kpipe/nx_kernel_pipe.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/nexus/monitor/nx_monitor.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/nexus/netif/nx_netif.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/nexus/netif/nx_netif_compat.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/nexus/netif/nx_netif_filter_compat.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/nexus/netif/nx_netif_filter_native.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/nexus/netif/nx_netif_filter_vp.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/nexus/netif/nx_netif_flow.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/nexus/netif/nx_netif_gso.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/nexus/netif/nx_netif_host.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/nexus/netif/nx_netif_llink.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/nexus/netif/nx_netif_mit.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/nexus/netif/nx_netif_poll.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/nexus/netif/nx_netif_util.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/nexus/netif/nx_netif_vp.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/nexus/nexus.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/nexus/nexus_adapter.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/nexus/nexus_adapter.h"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/nexus/nexus_kern.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/nexus/nexus_mbq.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/nexus/nexus_mbq.h"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/nexus/nexus_pktq.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/nexus/nexus_pktq.h"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/nexus/nexus_traffic_rule.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/nexus/upipe/nx_user_pipe.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/packet/packet_copy.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/packet/packet_kern.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/packet/pbufpool.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/packet/pbufpool_kern.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/xnu/iokit/Kernel/IODeviceTreeSupport.cpp"
++ "cluster_verify_thread"
++ "verify_in_flight underflow @%s:%d"
+- "%s:%d pageout of unaligned first page offset = %lld, size = %d  returned %d,\n"
+- "%s:%d pageout of unaligned last page offset = %lld, size = %d  returned %d,\n"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Binaries/xnu/install/TempContent/Objects/EXPORT_HDRS/bsd/skywalk/nexus_common.h"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Binaries/xnu/install/TempContent/Objects/EXPORT_HDRS/bsd/skywalk/packet_common.h"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/dev/dtrace/dtrace.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/kern/kern_control.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/kern/kern_event.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/kern/kpi_mbuf.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/kern/kpi_socket.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/kern/kpi_socketfilter.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/kern/socket_flows.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/kern/subr_eventhandler.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/kern/sys_domain.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/kern/tracker.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/kern/uipc_domain.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/kern/uipc_mbuf.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/kern/uipc_mbuf2.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/kern/uipc_proto.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/kern/uipc_socket.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/kern/uipc_socket2.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/kern/uipc_syscalls.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/kern/uipc_usrreq.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/kern/vsock_domain.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/net/bpf.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/net/classq/classq.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/net/classq/classq_fq_codel.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/net/classq/classq_subr.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/net/content_filter.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/net/dlil.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/net/droptap.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/net/flowadv.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/net/if.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/net/if_bond.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/net/if_bridge.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/net/if_fake.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/net/if_ipsec.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/net/if_llreach.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/net/if_loop.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/net/if_ports_used.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/net/if_redirect.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/net/if_utun.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/net/if_vlan.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/net/iptap.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/net/kpi_interface.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/net/mblist.h"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/net/nat464_utils.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/net/ndrv.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/net/necp_client.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/net/network_agent.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/net/ntstat.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/net/nwk_wq.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/net/pf.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/net/pf_if.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/net/pf_ioctl.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/net/pf_norm.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/net/pf_pbuf.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/net/pf_table.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/net/pktap.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/net/pktsched/pktsched.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/net/pktsched/pktsched_fq_codel.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/net/pktsched/pktsched_netem.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/net/route.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/net/rtsock.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet/flow_divert.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet/igmp.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet/in.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet/in_arp.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet/in_mcast.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet/in_pcb.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet/in_proto.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet/in_rmx.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet/in_tclass.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet/ip_dummynet.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet/ip_encap.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet/ip_icmp.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet/ip_input.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet/ip_output.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet/kpi_ipfilter.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet/mp_pcb.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet/mp_pcb.h"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet/mp_proto.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet/mptcp.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet/mptcp_opt.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet/mptcp_subr.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet/mptcp_timer.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet/mptcp_usrreq.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet/mptcp_var.h"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet/raw_ip.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet/tcp_cache.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet/tcp_cubic.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet/tcp_input.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet/tcp_ledbat.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet/tcp_output.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet/tcp_prague.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet/tcp_sack.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet/tcp_subr.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet/tcp_timer.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet/tcp_usrreq.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet/udp_usrreq.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet6/ah_core.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet6/ah_input.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet6/ah_output.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet6/esp_chachapoly.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet6/esp_core.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet6/esp_input.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet6/esp_output.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet6/esp_rijndael.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet6/frag6.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet6/icmp6.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet6/in6.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet6/in6_cga.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet6/in6_ifattach.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet6/in6_mcast.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet6/in6_pcb.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet6/in6_proto.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet6/in6_rmx.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet6/in6_src.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet6/ip6_forward.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet6/ip6_id.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet6/ip6_input.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet6/ip6_output.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet6/ipsec.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet6/ipsec.h"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet6/mld6.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet6/nd6.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet6/nd6_nbr.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet6/nd6_prproxy.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet6/nd6_rti.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet6/nd6_rtr.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet6/nd6_send.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet6/scope6.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netinet6/udp6_output.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netkey/key.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/netkey/keysock.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/channel/channel.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/channel/channel_kern.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/channel/channel_ring.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/channel/channel_syscalls.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/core/skywalk.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/lib/net_filter_event.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/mem/skmem.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/mem/skmem_arena.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/mem/skmem_cache.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/mem/skmem_cache_var.h"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/mem/skmem_region.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/mem/skmem_slab.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/namespace/flowidns.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/namespace/netns.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/namespace/protons.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/nexus/flowswitch/flow/flow.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/nexus/flowswitch/flow/flow_agg.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/nexus/flowswitch/flow/flow_classifier.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/nexus/flowswitch/flow/flow_entry.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/nexus/flowswitch/flow/flow_manager.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/nexus/flowswitch/flow/flow_owner.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/nexus/flowswitch/flow/flow_route.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/nexus/flowswitch/flow/flow_stats.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/nexus/flowswitch/flow/flow_track.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/nexus/flowswitch/flow/flow_var.h"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/nexus/flowswitch/fsw.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/nexus/flowswitch/fsw_classq.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/nexus/flowswitch/fsw_dp.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/nexus/flowswitch/fsw_ethernet.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/nexus/flowswitch/fsw_ip_frag.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/nexus/flowswitch/fsw_vp.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/nexus/flowswitch/nx_flowswitch.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/nexus/kpipe/nx_kernel_pipe.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/nexus/monitor/nx_monitor.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/nexus/netif/nx_netif.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/nexus/netif/nx_netif_compat.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/nexus/netif/nx_netif_filter_compat.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/nexus/netif/nx_netif_filter_native.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/nexus/netif/nx_netif_filter_vp.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/nexus/netif/nx_netif_flow.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/nexus/netif/nx_netif_gso.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/nexus/netif/nx_netif_host.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/nexus/netif/nx_netif_llink.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/nexus/netif/nx_netif_mit.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/nexus/netif/nx_netif_poll.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/nexus/netif/nx_netif_util.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/nexus/netif/nx_netif_vp.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/nexus/nexus.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/nexus/nexus_adapter.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/nexus/nexus_adapter.h"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/nexus/nexus_kern.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/nexus/nexus_mbq.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/nexus/nexus_mbq.h"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/nexus/nexus_pktq.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/nexus/nexus_pktq.h"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/nexus/nexus_traffic_rule.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/nexus/upipe/nx_user_pipe.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/packet/packet_copy.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/packet/packet_kern.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/packet/pbufpool.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/bsd/skywalk/packet/pbufpool_kern.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/xnu/iokit/Kernel/IODeviceTreeSupport.cpp"
+- "darwin-init"
+
+```
+
+>  `com.apple.driver.AppleMesaSEPDriver`
+
+```diff
+
+-10185.0.2.501.1
++10185.0.6.0.0
+   __TEXT.__const: 0x140
+-  __TEXT.__cstring: 0x58b0
+-  __TEXT.__os_log: 0x2abe
+-  __TEXT_EXEC.__text: 0x2df6c
++  __TEXT.__cstring: 0x58ba
++  __TEXT.__os_log: 0x2b06
++  __TEXT_EXEC.__text: 0x2dea0
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0xcc
+   __DATA.__common: 0x278
+   __DATA.__bss: 0x18
+-  __DATA_CONST.__auth_got: 0x370
++  __DATA_CONST.__auth_got: 0x358
+   __DATA_CONST.__got: 0xc8
+   __DATA_CONST.__mod_init_func: 0x30
+   __DATA_CONST.__mod_term_func: 0x30
+-  __DATA_CONST.__const: 0x4420
++  __DATA_CONST.__const: 0x4428
+   __DATA_CONST.__kalloc_type: 0x580
+   __DATA_CONST.__kalloc_var: 0x140
+   Functions: 518
+-  Symbols:   1458
+-  CStrings:  728
++  Symbols:   1456
++  CStrings:  727
+ 
+Symbols:
++ __ZN18AppleMesaSEPDriver13sensorDisableEbb
++ __ZZN18AppleMesaSEPDriver11handleMatchEbP17IOMesaCaptureDatabPbhE21kalloc_type_view_7893
++ __ZZN18AppleMesaSEPDriver11handleMatchEbP17IOMesaCaptureDatabPbhE21kalloc_type_view_8222
++ __ZZN18AppleMesaSEPDriver13sensorDisableEbbE11_os_log_fmt
++ __ZZN18AppleMesaSEPDriver13sensorDisableEbbE11_os_log_fmt_0
++ __ZZN18AppleMesaSEPDriver13sensorDisableEbbE11_os_log_fmt_1
++ __ZZN18AppleMesaSEPDriver13sensorDisableEbbE11_os_log_fmt_2
++ __ZZN18AppleMesaSEPDriver16sendEnrollResultEP16enroll_result_v2E21kalloc_type_view_6687
++ __ZZN18AppleMesaSEPDriver16sendEnrollResultEP16enroll_result_v2E21kalloc_type_view_6696
++ __ZZN18AppleMesaSEPDriver19applyPostponedMatchEP24postponed_match_result_tbE21kalloc_type_view_9868
++ __ZZN18AppleMesaSEPDriver19applyPostponedMatchEP24postponed_match_result_tbE21kalloc_type_view_9920
++ __ZZN18AppleMesaSEPDriver26sendTemplateListUpdatedMsgEP25template_update_info_v2_tE21kalloc_type_view_6757
++ __ZZN18AppleMesaSEPDriver26sendTemplateListUpdatedMsgEP25template_update_info_v2_tE21kalloc_type_view_6766
++ __ZZN18AppleMesaSEPDriver29sendTemplateListNotUpdatedMsgEP17bgops_result_v2_tE21kalloc_type_view_6789
++ __ZZN18AppleMesaSEPDriver29sendTemplateListNotUpdatedMsgEP17bgops_result_v2_tE21kalloc_type_view_6798
++ __ZZN18AppleMesaSEPDriver31sendEnrollProgresWithEnrollInfoEhP20enrollment_info_v2_tE21kalloc_type_view_6657
++ __ZZN18AppleMesaSEPDriver31sendEnrollProgresWithEnrollInfoEhP20enrollment_info_v2_tE21kalloc_type_view_6666
++ __block_descriptor_tmp.374
++ __block_descriptor_tmp.385
++ __block_descriptor_tmp.387
+- __ZN12OSDictionary12withCapacityEj
+- __ZN12OSDictionary9setObjectEPKcRK11OSSharedPtrIK15OSMetaClassBaseE
+- __ZN18AppleMesaSEPDriver13sensorDisableEb
+- __ZN8OSNumber10withNumberEyj
+- __ZZN18AppleMesaSEPDriver11handleMatchEbP17IOMesaCaptureDatabPbhE21kalloc_type_view_7889
+- __ZZN18AppleMesaSEPDriver11handleMatchEbP17IOMesaCaptureDatabPbhE21kalloc_type_view_8218
+- __ZZN18AppleMesaSEPDriver13sensorDisableEbE11_os_log_fmt
+- __ZZN18AppleMesaSEPDriver13sensorDisableEbE11_os_log_fmt_0
+- __ZZN18AppleMesaSEPDriver13sensorDisableEbE11_os_log_fmt_1
+- __ZZN18AppleMesaSEPDriver16sendEnrollResultEP16enroll_result_v2E21kalloc_type_view_6683
+- __ZZN18AppleMesaSEPDriver16sendEnrollResultEP16enroll_result_v2E21kalloc_type_view_6692
+- __ZZN18AppleMesaSEPDriver19applyPostponedMatchEP24postponed_match_result_tbE21kalloc_type_view_9864
+- __ZZN18AppleMesaSEPDriver19applyPostponedMatchEP24postponed_match_result_tbE21kalloc_type_view_9916
+- __ZZN18AppleMesaSEPDriver26sendTemplateListUpdatedMsgEP25template_update_info_v2_tE21kalloc_type_view_6753
+- __ZZN18AppleMesaSEPDriver26sendTemplateListUpdatedMsgEP25template_update_info_v2_tE21kalloc_type_view_6762
+- __ZZN18AppleMesaSEPDriver29sendTemplateListNotUpdatedMsgEP17bgops_result_v2_tE21kalloc_type_view_6785
+- __ZZN18AppleMesaSEPDriver29sendTemplateListNotUpdatedMsgEP17bgops_result_v2_tE21kalloc_type_view_6794
+- __ZZN18AppleMesaSEPDriver31sendEnrollProgresWithEnrollInfoEhP20enrollment_info_v2_tE21kalloc_type_view_6653
+- __ZZN18AppleMesaSEPDriver31sendEnrollProgresWithEnrollInfoEhP20enrollment_info_v2_tE21kalloc_type_view_6662
+- __block_descriptor_tmp.377
+- __block_descriptor_tmp.390
+- __block_descriptor_tmp.391
+CStrings:
++ "!factoryOptionsOnly || _sensorType == kSensorTypeTritonA2"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/Mesa/AppleMesaSEPDriver/AppleMesaSEPDriver/AppleMesaAccessory/AppleMesaAccessory.cpp"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/Mesa/AppleMesaSEPDriver/AppleMesaSEPDriver/AppleMesaAccessory/MesaAccessoryIntReports.cpp"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/Mesa/AppleMesaSEPDriver/AppleMesaSEPDriver/AppleMesaAccessory/MesaAccessoryManager.cpp"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/Mesa/AppleMesaSEPDriver/AppleMesaSEPDriver/AppleMesaSEPDriver.cpp"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/Mesa/AppleMesaSEPDriver/AppleMesaSEPDriver/IOMesaCaptureDataQueue.cpp"
++ "1211111212221212112121111111111111111111112112112222222212211122222222222222222222222222222222222222222222222222222221112222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222122221211212222211122222221221212121222222222222222222121222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222221111111111"
++ "kSetSensorPowerCommand"
+- "/AppleInternal/Library/BuildRoots/c78ea4c7-2fc7-11ef-9487-e2437461156c/Library/Caches/com.apple.xbs/Sources/Mesa/AppleMesaSEPDriver/AppleMesaSEPDriver/AppleMesaAccessory/AppleMesaAccessory.cpp"
+- "/AppleInternal/Library/BuildRoots/c78ea4c7-2fc7-11ef-9487-e2437461156c/Library/Caches/com.apple.xbs/Sources/Mesa/AppleMesaSEPDriver/AppleMesaSEPDriver/AppleMesaAccessory/MesaAccessoryIntReports.cpp"
+- "/AppleInternal/Library/BuildRoots/c78ea4c7-2fc7-11ef-9487-e2437461156c/Library/Caches/com.apple.xbs/Sources/Mesa/AppleMesaSEPDriver/AppleMesaSEPDriver/AppleMesaAccessory/MesaAccessoryManager.cpp"
+- "/AppleInternal/Library/BuildRoots/c78ea4c7-2fc7-11ef-9487-e2437461156c/Library/Caches/com.apple.xbs/Sources/Mesa/AppleMesaSEPDriver/AppleMesaSEPDriver/AppleMesaSEPDriver.cpp"
+- "/AppleInternal/Library/BuildRoots/c78ea4c7-2fc7-11ef-9487-e2437461156c/Library/Caches/com.apple.xbs/Sources/Mesa/AppleMesaSEPDriver/AppleMesaSEPDriver/IOMesaCaptureDataQueue.cpp"
+- "121111121222121211212111111111111111111111211211222222221221112222222222222222222222222222222222222222222222222222222111222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222212222121121222221112222222122121212122222222222222222212122222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222221111111111"
+- "dictionary"
+- "dictionary->setObject(\"wakeOnMenuPin\", number)"
+- "wakeOnMenuPin"
+
+```
+
+>  `com.apple.driver.AppleOLYHAL`
+
+```diff
+
+-326.24.0.0.0
++326.26.0.0.0
+   __TEXT.__const: 0x7a8
+-  __TEXT.__cstring: 0x495c
+-  __TEXT_EXEC.__text: 0x1d78c
++  __TEXT.__cstring: 0x486f
++  __TEXT_EXEC.__text: 0x1d830
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0x18c
+   __DATA.__common: 0x170
+
+   __DATA_CONST.__got: 0xf0
+   __DATA_CONST.__mod_init_func: 0x38
+   __DATA_CONST.__mod_term_func: 0x38
+-  __DATA_CONST.__const: 0x1fd8
++  __DATA_CONST.__const: 0x2018
+   __DATA_CONST.__kalloc_type: 0x640
+-  Functions: 549
+-  Symbols:   1069
+-  CStrings:  507
++  Functions: 550
++  Symbols:   1071
++  CStrings:  506
+ 
+Symbols:
++ __ZN28AppleOLYHALPortInterfacePCIe19isFLRRecoveryFailedEv
++ __ZN32AppleOLYHALPortInterfacePCIeAMFM19isFLRRecoveryFailedEv
++ __ZZN32AppleOLYHALPortInterfacePCIeAMFM21triggerAsyncResetWorkE34AppleOLYHALPortInterfaceActionTypePvmE20kalloc_type_view_442
++ __ZZN32AppleOLYHALPortInterfacePCIeAMFM21triggerAsyncResetWorkE34AppleOLYHALPortInterfaceActionTypePvmE20kalloc_type_view_475
++ __ZZN32AppleOLYHALPortInterfacePCIeAMFM21triggerAsyncResetWorkE34AppleOLYHALPortInterfaceActionTypePvmE20kalloc_type_view_478
++ __ZZN32AppleOLYHALPortInterfacePCIeAMFM23processAMFMMessageGatedEjPvmE21kalloc_type_view_1246
++ __ZZN32AppleOLYHALPortInterfacePCIeAMFM9resetCallEPvS0_E20kalloc_type_view_499
++ __ZZN32AppleOLYHALPortInterfacePCIeAMFM9resetCallEPvS0_E20kalloc_type_view_501
++ ____ZN32AppleOLYHALPortInterfacePCIeAMFM19isFLRRecoveryFailedEv_block_invoke
++ __block_descriptor_tmp.40
+- _ZN32AppleOLYHALPortInterfacePCIeAMFM23processAMFMMessageGatedEjPvm.cold.25
+- _ZN32AppleOLYHALPortInterfacePCIeAMFM23processAMFMMessageGatedEjPvm.cold.26
+- __ZZN32AppleOLYHALPortInterfacePCIeAMFM21triggerAsyncResetWorkE34AppleOLYHALPortInterfaceActionTypePvmE20kalloc_type_view_425
+- __ZZN32AppleOLYHALPortInterfacePCIeAMFM21triggerAsyncResetWorkE34AppleOLYHALPortInterfaceActionTypePvmE20kalloc_type_view_458
+- __ZZN32AppleOLYHALPortInterfacePCIeAMFM21triggerAsyncResetWorkE34AppleOLYHALPortInterfaceActionTypePvmE20kalloc_type_view_461
+- __ZZN32AppleOLYHALPortInterfacePCIeAMFM23processAMFMMessageGatedEjPvmE21kalloc_type_view_1235
+- __ZZN32AppleOLYHALPortInterfacePCIeAMFM9resetCallEPvS0_E20kalloc_type_view_482
+- __ZZN32AppleOLYHALPortInterfacePCIeAMFM9resetCallEPvS0_E20kalloc_type_view_484
+CStrings:
++ "\"Dext relaunched with unexpected status %u\" @%s:%d"
++ "\"WiFi Dext Crash Recovery during PowerCycle %u\" @%s:%d"
+- "\"%s:%u:\" \"(fClientStatus == kClientFLRRecoveryFailed || fClientStatus == kClientPowerCycleRecoveryComplete || fClientStatus == kClientFLRRecoverySuccessful)\" @%s:%d"
+- "\"%s:%u:\" \"(fClientStatus == kClientFLRRecoverySuccessful) || (fClientStatus == kClientPowerCycleRecoveryComplete)\" @%s:%d"
+- "\"%s:%u:\" \"fResetProgress == kResetStepRequested\" @%s:%d"
+
+```
+
+>  `com.apple.driver.ApplePMGR`
+
+```diff
+
+-1555.0.15.0.0
++1555.0.17.0.0
+   __TEXT.__const: 0x258
+   __TEXT.__cstring: 0xe858
+-  __TEXT_EXEC.__text: 0x53bf0
++  __TEXT_EXEC.__text: 0x53bec
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0x100
+   __DATA.__common: 0x420
+Symbols:
++ __ZZN28ApplePMGRFunctionISPRefClock27initWithTargetDataAndSymbolEP9IOServicePK6OSDataPK8OSSymbolE22kalloc_type_view_15385
++ __ZZN9ApplePMGR10_initPMPv2EvE21kalloc_type_view_9705
++ __ZZN9ApplePMGR10_initPMPv2EvE21kalloc_type_view_9778
++ __ZZN9ApplePMGR15_initGenericPTDEvE21kalloc_type_view_9659
++ __ZZN9ApplePMGR19_initPerfCountersV1EP9IOServiceE22kalloc_type_view_16737
++ __ZZN9ApplePMGR19_initPerfCountersV1EP9IOServiceE22kalloc_type_view_16765
++ __ZZN9ApplePMGR19_initPerfCountersV1EP9IOServiceE22kalloc_type_view_16808
++ __ZZN9ApplePMGR19_initPerfCountersV1EP9IOServiceE22kalloc_type_view_16872
++ __ZZN9ApplePMGR19_initPerfCountersV2EP9IOServiceE22kalloc_type_view_17512
++ __ZZN9ApplePMGR19_initPerfCountersV2EP9IOServiceE22kalloc_type_view_17529
++ __ZZN9ApplePMGR32_pmpWriteDashBoardSetDeviceStateEtjjE22kalloc_type_view_10025
+- __ZZN28ApplePMGRFunctionISPRefClock27initWithTargetDataAndSymbolEP9IOServicePK6OSDataPK8OSSymbolE22kalloc_type_view_15386
+- __ZZN9ApplePMGR10_initPMPv2EvE21kalloc_type_view_9706
+- __ZZN9ApplePMGR10_initPMPv2EvE21kalloc_type_view_9779
+- __ZZN9ApplePMGR15_initGenericPTDEvE21kalloc_type_view_9660
+- __ZZN9ApplePMGR19_initPerfCountersV1EP9IOServiceE22kalloc_type_view_16738
+- __ZZN9ApplePMGR19_initPerfCountersV1EP9IOServiceE22kalloc_type_view_16766
+- __ZZN9ApplePMGR19_initPerfCountersV1EP9IOServiceE22kalloc_type_view_16809
+- __ZZN9ApplePMGR19_initPerfCountersV1EP9IOServiceE22kalloc_type_view_16873
+- __ZZN9ApplePMGR19_initPerfCountersV2EP9IOServiceE22kalloc_type_view_17513
+- __ZZN9ApplePMGR19_initPerfCountersV2EP9IOServiceE22kalloc_type_view_17530
+- __ZZN9ApplePMGR32_pmpWriteDashBoardSetDeviceStateEtjjE22kalloc_type_view_10026
+
+```
+
+>  `com.apple.driver.AppleSPU`
+
+```diff
+
+-1014.0.1.0.0
++1014.0.1.501.1
+   __TEXT.__cstring: 0x4b22
+   __TEXT.__os_log: 0x77f
+   __TEXT.__const: 0x248
+-  __TEXT_EXEC.__text: 0x426cc
++  __TEXT_EXEC.__text: 0x426d4
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0x788
+   __DATA.__common: 0x8a8
+   __DATA.__bss: 0x540
+-  __DATA_CONST.__auth_got: 0x5b8
++  __DATA_CONST.__auth_got: 0x5c0
+   __DATA_CONST.__got: 0x198
+   __DATA_CONST.__auth_ptr: 0x8
+   __DATA_CONST.__mod_init_func: 0x158
+
+   __DATA_CONST.__kalloc_type: 0xd80
+   __DATA_CONST.__kalloc_var: 0x320
+   Functions: 1875
+-  Symbols:   3010
++  Symbols:   3011
+   CStrings:  794
+ 
+Symbols:
++ _ml_get_conttime_offset
+
+```
+
+>  `com.apple.iokit.EndpointSecurity`
+
+```diff
+
+-511.0.14.0.0
+-  __TEXT.__const: 0x228
+-  __TEXT.__cstring: 0x843f
+-  __TEXT.__os_log: 0x3c6e
+-  __TEXT_EXEC.__text: 0x95750
++511.0.18.0.0
++  __TEXT.__const: 0x218
++  __TEXT.__cstring: 0x83c1
++  __TEXT.__os_log: 0x3cea
++  __TEXT_EXEC.__text: 0x95884
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0x228
+   __DATA.__common: 0xc4
+-  __DATA.__bss: 0x140
+-  __DATA_CONST.__auth_got: 0x560
+-  __DATA_CONST.__got: 0x90
++  __DATA.__bss: 0x70
++  __DATA_CONST.__auth_got: 0x568
++  __DATA_CONST.__got: 0x98
+   __DATA_CONST.__mod_init_func: 0x30
+   __DATA_CONST.__mod_term_func: 0x40
+   __DATA_CONST.__const: 0x6940
+   __DATA_CONST.__kalloc_var: 0x19a0
+   __DATA_CONST.__kalloc_type: 0x1380
+   Functions: 2859
+-  Symbols:   4436
+-  CStrings:  576
++  Symbols:   4437
++  CStrings:  572
+ 
+Symbols:
++ __ZN22EndpointSecurityDriver17systemPowerChangeEPvS0_jP9IOServiceS0_m
++ __ZN9IOService15getPMRootDomainEv
++ __ZNK4spar14PowerStateGate4openEv
++ __ZZN22EndpointSecurityDriver17systemPowerChangeEPvS0_jP9IOServiceS0_mE11_os_log_fmt
++ __ZZN22EndpointSecurityDriver17systemPowerChangeEPvS0_jP9IOServiceS0_mE11_os_log_fmt_0
++ __ZZN22EndpointSecurityDriver17systemPowerChangeEPvS0_jP9IOServiceS0_mE11_os_log_fmt_1
++ __ZZN4spar10GatedTimer12unsafeDeleteEvE20kalloc_type_view_302
++ __ZZN4spar10GatedTimer12unsafeDeleteEvE20kalloc_type_view_302
++ __ZZN4spar10GatedTimer12unsafeDeleteEvE20kalloc_type_view_302
++ __ZZN4spar10GatedTimer12unsafeDeleteEvE20kalloc_type_view_302
++ _gIOPriorityPowerStateInterest
+- __ZN22EndpointSecurityDriver13setPowerStateEmP9IOService
+- __ZN22EndpointSecurityDriver18systemWillShutdownEj
+- __ZZN22EndpointSecurityDriver13setPowerStateEmP9IOServiceE11_os_log_fmt
+- __ZZN22EndpointSecurityDriver13setPowerStateEmP9IOServiceE11_os_log_fmt_0
+- __ZZN22EndpointSecurityDriver18systemWillShutdownEjE11_os_log_fmt
+- __ZZN22EndpointSecurityDriver5startEP9IOServiceE11powerStates
+- __ZZN4spar10GatedTimer12unsafeDeleteEvE20kalloc_type_view_299
+- __ZZN4spar10GatedTimer12unsafeDeleteEvE20kalloc_type_view_299
+- __ZZN4spar10GatedTimer12unsafeDeleteEvE20kalloc_type_view_299
+- __ZZN4spar10GatedTimer12unsafeDeleteEvE20kalloc_type_view_299
+CStrings:
+- "\"setPowerState: unknown power state %lu\" @%s:%d"
+- "\"systemWillShutdown: unknown shutdown specifier %llu\" @%s:%d"
+- "PowerOff"
+- "Restart"
+
+```
+
+>  `com.apple.iokit.IOMobileGraphicsFamily`
+
+```diff
+
+-395.18.1.1.0
++395.23.1.0.0
+   __TEXT.__cstring: 0x81dc
+   __TEXT.__const: 0x800
+-  __TEXT_EXEC.__text: 0x22f4c
++  __TEXT_EXEC.__text: 0x22f90
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0x2900
+   __DATA.__common: 0x1c924
+Symbols:
++ __ZN25IOMobileFramebufferLegacy29get_programfifo_blocked_stateEv
++ __ZN25IOMobileFramebufferLegacy29set_programfifo_blocked_stateEb
++ __ZZN25IOMobileFramebufferLegacy22record_swap_info_gatedEP18IOMFBSwapIORequest24IOMFBSwapCompletionStateE21kalloc_type_view_6539
+- __ZN25IOMobileFramebufferLegacy27get_swap_wait_blocked_stateEv
+- __ZN25IOMobileFramebufferLegacy27set_swap_wait_blocked_stateEb
+- __ZZN25IOMobileFramebufferLegacy22record_swap_info_gatedEP18IOMFBSwapIORequest24IOMFBSwapCompletionStateE21kalloc_type_view_6533
+CStrings:
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IOMobileFramebuffer/Kernel/AppleDisplayPipe/DriverCommonFunctions.cpp"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IOMobileFramebuffer/Kernel/AppleDisplayPipe/DriverCommonFunctions.cpp"
+
+```
+
+>  `com.apple.driver.AppleStockholmControl`
+
+```diff
+
+-350.26.1.0.0
+-  __TEXT.__cstring: 0x3d2b
++350.28.0.0.0
++  __TEXT.__cstring: 0x3e5b
+   __TEXT.__const: 0x30
+-  __TEXT_EXEC.__text: 0x12ae8
++  __TEXT_EXEC.__text: 0x12dfc
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0x219
+   __DATA.__common: 0x17e
+
+   __DATA_CONST.__kalloc_type: 0x180
+   Functions: 231
+   Symbols:   735
+-  CStrings:  409
++  CStrings:  414
+ 
+CStrings:
++ "ERR: %s::%s:%d Error : Pending flag is false !\n"
++ "ERR: %s::%s:%d data ready but unable to send to client - drop\n"
++ "[%llu] %s::%s:%d data ready but unable to send to client - enqueuing."
++ "[%llu] ERR: %s::%s:%d Error : Pending flag is false !"
++ "[%llu] ERR: %s::%s:%d data ready but unable to send to client - drop"
+
+```
+
+>  `com.apple.driver.AppleT8122TypeCPhy`
+
+```diff
+
+-239.0.0.0.0
++239.0.1.0.0
+   __TEXT.__const: 0x48
+   __TEXT.__cstring: 0x83ef
+   __TEXT.__os_log: 0xefff
+-  __TEXT_EXEC.__text: 0x4dacc
++  __TEXT_EXEC.__text: 0x4dae0
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0x488
+   __DATA.__common: 0x38
+
+   __DATA_CONST.__got: 0x30
+   __DATA_CONST.__mod_init_func: 0x8
+   __DATA_CONST.__mod_term_func: 0x8
+-  __DATA_CONST.__const: 0xbe8
++  __DATA_CONST.__const: 0xbf8
+   __DATA_CONST.__kalloc_type: 0x40
+-  Functions: 125
+-  Symbols:   1213
++  Functions: 127
++  Symbols:   1215
+   CStrings:  432
+ 
+Symbols:
++ __ZN13AppleTypeCPhy15supportS2RtoOffEv
++ __ZN13AppleTypeCPhy20shutdownACIOS2RtoOffENS_12tACIOPhyModeE
+
+```
+
+>  `com.apple.driver.AppleBiometricSensor`
+
+```diff
+
+-259.0.0.0.0
+-  __TEXT.__cstring: 0x283a
+-  __TEXT.__os_log: 0x80ff
++259.0.1.0.0
++  __TEXT.__cstring: 0x28bf
++  __TEXT.__os_log: 0x8307
+   __TEXT.__const: 0x360
+-  __TEXT_EXEC.__text: 0x1ff00
++  __TEXT_EXEC.__text: 0x20150
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0x188
+   __DATA.__common: 0x1c8
+
+   __DATA_CONST.__const: 0x5f90
+   __DATA_CONST.__kalloc_type: 0x3c0
+   Functions: 422
+-  Symbols:   1860
+-  CStrings:  411
++  Symbols:   1868
++  CStrings:  413
+ 
+Symbols:
++ __ZN15AppleSandDollar17enableSensorGatedEN20AppleBiometricSensor23eSensorPowerControlTypeEb
++ __ZN15AppleSandDollar18disableSensorGatedEN20AppleBiometricSensor23eSensorPowerControlTypeEb
++ __ZN9AppleMesa12enableSensorEN20AppleBiometricSensor23eSensorPowerControlTypeEb
++ __ZN9AppleMesa13disableSensorEN20AppleBiometricSensor23eSensorPowerControlTypeEb
++ __ZN9AppleMesa17enableSensorGatedEN20AppleBiometricSensor23eSensorPowerControlTypeEb
++ __ZN9AppleMesa17enableSensorGatedEN20AppleBiometricSensor23eSensorPowerControlTypeEb_vfpthunk_
++ __ZN9AppleMesa18disableSensorGatedEN20AppleBiometricSensor23eSensorPowerControlTypeEb
++ __ZN9AppleMesa18disableSensorGatedEN20AppleBiometricSensor23eSensorPowerControlTypeEb_vfpthunk_
++ __ZZN15AppleSandDollar17enableSensorGatedEN20AppleBiometricSensor23eSensorPowerControlTypeEbE11_os_log_fmt
++ __ZZN15AppleSandDollar17enableSensorGatedEN20AppleBiometricSensor23eSensorPowerControlTypeEbE11_os_log_fmt_0
++ __ZZN15AppleSandDollar18disableSensorGatedEN20AppleBiometricSensor23eSensorPowerControlTypeEbE11_os_log_fmt
++ __ZZN15AppleSandDollar18disableSensorGatedEN20AppleBiometricSensor23eSensorPowerControlTypeEbE11_os_log_fmt_0
++ __ZZN15AppleSandDollar18disableSensorGatedEN20AppleBiometricSensor23eSensorPowerControlTypeEbE11_os_log_fmt_1
++ __ZZN15AppleSandDollar18disableSensorGatedEN20AppleBiometricSensor23eSensorPowerControlTypeEbE11_os_log_fmt_2
++ __ZZN9AppleMesa13SetPowerGatedEjE11_os_log_fmt__15_
++ __ZZN9AppleMesa13handleCMDSyncEjmmmE11_os_log_fmt__10_
++ __ZZN9AppleMesa15setCurrentStateEjE11_os_log_fmt_1
++ __ZZN9AppleMesa17ESDRecoveryActionEP13IOEventSourceE11_os_log_fmt__13_
++ __ZZN9AppleMesa17enableSensorGatedEN20AppleBiometricSensor23eSensorPowerControlTypeEbE11_os_log_fmt
++ __ZZN9AppleMesa17enableSensorGatedEN20AppleBiometricSensor23eSensorPowerControlTypeEbE11_os_log_fmt_0
++ __ZZN9AppleMesa17enableSensorGatedEN20AppleBiometricSensor23eSensorPowerControlTypeEbE11_os_log_fmt_1
++ __ZZN9AppleMesa17enableSensorGatedEN20AppleBiometricSensor23eSensorPowerControlTypeEbE11_os_log_fmt_2
++ __ZZN9AppleMesa17enableSensorGatedEN20AppleBiometricSensor23eSensorPowerControlTypeEbE11_os_log_fmt_3
++ __ZZN9AppleMesa17enableSensorGatedEN20AppleBiometricSensor23eSensorPowerControlTypeEbE11_os_log_fmt_4
++ __ZZN9AppleMesa18disableSensorGatedEN20AppleBiometricSensor23eSensorPowerControlTypeEbE11_os_log_fmt
++ __ZZN9AppleMesa18disableSensorGatedEN20AppleBiometricSensor23eSensorPowerControlTypeEbE11_os_log_fmt_0
++ __ZZN9AppleMesa18disableSensorGatedEN20AppleBiometricSensor23eSensorPowerControlTypeEbE11_os_log_fmt_1
++ __ZZN9AppleMesa18disableSensorGatedEN20AppleBiometricSensor23eSensorPowerControlTypeEbE11_os_log_fmt_2
++ __ZZN9AppleMesa18disableSensorGatedEN20AppleBiometricSensor23eSensorPowerControlTypeEbE11_os_log_fmt_3
++ __ZZN9AppleMesa20dispatchCaptureReadyEP18IOMemoryDescriptoryyE21kalloc_type_view_6827
++ __ZZN9AppleMesa20dispatchCaptureReadyEP18IOMemoryDescriptoryyE21kalloc_type_view_6843
+- __ZN15AppleSandDollar18disableSensorGatedEv
+- __ZN15AppleSandDollar18setPropertiesGatedEP8OSObject
+- __ZN9AppleMesa12enableSensorEv
+- __ZN9AppleMesa13disableSensorEv
+- __ZN9AppleMesa17enableSensorGatedEv
+- __ZN9AppleMesa17enableSensorGatedEv_vfpthunk_
+- __ZN9AppleMesa18disableSensorGatedEv
+- __ZN9AppleMesa18disableSensorGatedEv_vfpthunk_
+- __ZZN15AppleSandDollar18disableSensorGatedEvE11_os_log_fmt
+- __ZZN15AppleSandDollar18disableSensorGatedEvE11_os_log_fmt_0
+- __ZZN15AppleSandDollar18disableSensorGatedEvE11_os_log_fmt_1
+- __ZZN15AppleSandDollar18setPropertiesGatedEP8OSObjectE11_os_log_fmt
+- __ZZN9AppleMesa17enableSensorGatedEvE11_os_log_fmt
+- __ZZN9AppleMesa17enableSensorGatedEvE11_os_log_fmt_0
+- __ZZN9AppleMesa17enableSensorGatedEvE11_os_log_fmt_1
+- __ZZN9AppleMesa17enableSensorGatedEvE11_os_log_fmt_2
+- __ZZN9AppleMesa17enableSensorGatedEvE11_os_log_fmt_3
+- __ZZN9AppleMesa18disableSensorGatedEvE11_os_log_fmt
+- __ZZN9AppleMesa18disableSensorGatedEvE11_os_log_fmt_0
+- __ZZN9AppleMesa18disableSensorGatedEvE11_os_log_fmt_1
+- __ZZN9AppleMesa18disableSensorGatedEvE11_os_log_fmt_2
+- __ZZN9AppleMesa20dispatchCaptureReadyEP18IOMemoryDescriptoryyE21kalloc_type_view_6786
+- __ZZN9AppleMesa20dispatchCaptureReadyEP18IOMemoryDescriptoryyE21kalloc_type_view_6802
+CStrings:
++ "!powerState || _currentState != kDeviceDisabled"
++ "(_currentState != kDeviceDisabled)"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/AppleBiometricSensor/ABSLogging.c"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/AppleBiometricSensor/AppleMesa.cpp"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/AppleBiometricSensor/AppleMesaResources.cpp"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/AppleBiometricSensor/AppleSPIBiometricSensor.cpp"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/AppleBiometricSensor/AppleSandDollar.cpp"
++ "_currentState != kDeviceDisabled || _setSensorPowerUserOverride"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleBiometricSensor/ABSLogging.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleBiometricSensor/AppleMesa.cpp"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleBiometricSensor/AppleMesaResources.cpp"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleBiometricSensor/AppleSPIBiometricSensor.cpp"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleBiometricSensor/AppleSandDollar.cpp"
+- "wakeOnMenuPin"
+
+```
+
+>  `com.apple.driver.AppleCallbackPowerSource`
+
+```diff
+
+-1730.0.0.0.2
+-  __TEXT.__cstring: 0xf76
++1735.0.0.0.0
++  __TEXT.__cstring: 0xf8f
+   __TEXT.__os_log: 0x76
+-  __TEXT_EXEC.__text: 0x4c7c
++  __TEXT_EXEC.__text: 0x4cc4
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0xd0
+   __DATA.__common: 0x190
+-  __DATA.__bss: 0x1408
++  __DATA.__bss: 0x1438
+   __DATA_CONST.__auth_got: 0x150
+   __DATA_CONST.__got: 0x60
+   __DATA_CONST.__mod_init_func: 0x10
+
+   __DATA_CONST.__const: 0x1380
+   __DATA_CONST.__kalloc_type: 0x80
+   Functions: 63
+-  Symbols:   670
+-  CStrings:  235
++  Symbols:   672
++  CStrings:  237
+ 
+Symbols:
++ __ZL24_kGGCalculatedMaxWRdcSym
++ __ZL29_kGGCalculatedNccPFilteredSym
+CStrings:
++ "MaximumWRdc"
++ "NccpFiltered"
+
+```
+
+>  `com.apple.driver.AppleConvergedIPCOLYBTControl`
+
+```diff
+
+-106.0.0.0.0
+-  __TEXT.__cstring: 0x7f01
++107.0.0.0.0
++  __TEXT.__cstring: 0x7f7d
+   __TEXT.__const: 0x98
+-  __TEXT_EXEC.__text: 0x48410
++  __TEXT_EXEC.__text: 0x48570
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0xc8
+   __DATA.__common: 0x1f0
+
+   __DATA_CONST.__got: 0xf8
+   __DATA_CONST.__mod_init_func: 0x58
+   __DATA_CONST.__mod_term_func: 0x58
+-  __DATA_CONST.__const: 0x7230
++  __DATA_CONST.__const: 0x7248
+   __DATA_CONST.__kalloc_type: 0xc40
+   __DATA_CONST.__kalloc_var: 0x500
+-  Functions: 969
+-  Symbols:   1717
+-  CStrings:  993
++  Functions: 971
++  Symbols:   1720
++  CStrings:  996
+ 
+Symbols:
++ __ZN12ACIPCControl10deviceDeadEv
++ __ZN14ACIPCBTIDevice10deviceDeadEv
++ __ZN14ACIPCRTIDevice10deviceDeadEv
+CStrings:
++ "%s::%s: PMNI AON APB wrapper reg : offset : 0x%lx  0x%x\n"
++ "%s::%s: PMNI BT APB wrapper reg : offset : 0x%lx  0x%x\n"
++ "/AppleInternal/Library/BuildRoots/81e2abef-3955-11ef-8e67-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleConvergedIPC/AppleConvergedIPCControl/AppleConvergedIPCDevice.cpp"
++ "/AppleInternal/Library/BuildRoots/81e2abef-3955-11ef-8e67-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleConvergedIPC/AppleConvergedIPCControl/OLYBT/AppleConvergedIPCBTIDevice.cpp"
++ "/AppleInternal/Library/BuildRoots/81e2abef-3955-11ef-8e67-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleConvergedIPC/AppleConvergedIPCControl/OLYBT/AppleConvergedIPCBTIInterface.cpp"
++ "/AppleInternal/Library/BuildRoots/81e2abef-3955-11ef-8e67-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleConvergedIPC/AppleConvergedIPCControl/OLYBT/AppleConvergedIPCOLYBTControl.cpp"
++ "/AppleInternal/Library/BuildRoots/81e2abef-3955-11ef-8e67-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleConvergedIPC/AppleConvergedIPCControl/OLYBT/AppleConvergedIPCOLYBTControlReporter.cpp"
++ "/AppleInternal/Library/BuildRoots/81e2abef-3955-11ef-8e67-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleConvergedIPC/AppleConvergedIPCControl/OLYBT/AppleConvergedIPCRTIDevice.cpp"
++ "/AppleInternal/Library/BuildRoots/81e2abef-3955-11ef-8e67-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleConvergedIPC/AppleConvergedIPCControl/OLYBT/AppleConvergedIPCRTIInterface.cpp"
++ "/AppleInternal/Library/BuildRoots/81e2abef-3955-11ef-8e67-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleConvergedIPC/AppleConvergedIPCOLYBTDebug/AppleConvergedIPCOLYBTCoreDumpProvider.cpp"
++ "/AppleInternal/Library/BuildRoots/81e2abef-3955-11ef-8e67-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleConvergedIPC/AppleConvergedIPCOLYBTDebug/AppleConvergedIPCOLYBTLogProvider.cpp"
++ "/AppleInternal/Library/BuildRoots/81e2abef-3955-11ef-8e67-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleConvergedIPC/Core/OLYBT/ACIPCBTIDevice.cpp"
++ "/AppleInternal/Library/BuildRoots/81e2abef-3955-11ef-8e67-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleConvergedIPC/Core/OLYBT/ACIPCBTIPipe.cpp"
++ "/AppleInternal/Library/BuildRoots/81e2abef-3955-11ef-8e67-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleConvergedIPC/Core/OLYBT/ACIPCOLYBTControl.cpp"
++ "/AppleInternal/Library/BuildRoots/81e2abef-3955-11ef-8e67-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleConvergedIPC/Core/OLYBT/ACIPCRTIDevice.cpp"
++ "/AppleInternal/Library/BuildRoots/81e2abef-3955-11ef-8e67-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleConvergedIPC/Core/OLYBT/ACIPCRTIPipe.cpp"
++ "deviceDead"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleConvergedIPC/AppleConvergedIPCControl/AppleConvergedIPCDevice.cpp"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleConvergedIPC/AppleConvergedIPCControl/OLYBT/AppleConvergedIPCBTIDevice.cpp"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleConvergedIPC/AppleConvergedIPCControl/OLYBT/AppleConvergedIPCBTIInterface.cpp"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleConvergedIPC/AppleConvergedIPCControl/OLYBT/AppleConvergedIPCOLYBTControl.cpp"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleConvergedIPC/AppleConvergedIPCControl/OLYBT/AppleConvergedIPCOLYBTControlReporter.cpp"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleConvergedIPC/AppleConvergedIPCControl/OLYBT/AppleConvergedIPCRTIDevice.cpp"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleConvergedIPC/AppleConvergedIPCControl/OLYBT/AppleConvergedIPCRTIInterface.cpp"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleConvergedIPC/AppleConvergedIPCOLYBTDebug/AppleConvergedIPCOLYBTCoreDumpProvider.cpp"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleConvergedIPC/AppleConvergedIPCOLYBTDebug/AppleConvergedIPCOLYBTLogProvider.cpp"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleConvergedIPC/Core/OLYBT/ACIPCBTIDevice.cpp"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleConvergedIPC/Core/OLYBT/ACIPCBTIPipe.cpp"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleConvergedIPC/Core/OLYBT/ACIPCOLYBTControl.cpp"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleConvergedIPC/Core/OLYBT/ACIPCRTIDevice.cpp"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/AppleConvergedIPC/Core/OLYBT/ACIPCRTIPipe.cpp"
+
+```
+
+>  `com.apple.driver.AppleM2ScalerCSCDriver`
+
+```diff
+
+-148.0.45.0.0
+-  __TEXT.__cstring: 0x17d57
+-  __TEXT.__const: 0x4f518
+-  __TEXT_EXEC.__text: 0xe0b5c
++148.0.46.0.0
++  __TEXT.__cstring: 0x17d09
++  __TEXT.__const: 0x4ec98
++  __TEXT_EXEC.__text: 0xe084c
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0x1fe40
+   __DATA.__common: 0x20a8
+
+   __DATA_CONST.__auth_ptr: 0x88
+   __DATA_CONST.__mod_init_func: 0x570
+   __DATA_CONST.__mod_term_func: 0x548
+-  __DATA_CONST.__const: 0x31080
++  __DATA_CONST.__const: 0x31038
+   __DATA_CONST.__kalloc_type: 0x3c40
+   __DATA_CONST.__kalloc_var: 0x500
+-  Functions: 6009
++  Functions: 6008
+   Symbols:   9228
+-  CStrings:  2386
++  CStrings:  2384
+ 
+CStrings:
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/AXI2AFControl/IosaAxi2AfControl.cpp"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/AppleM2ScalerCSCDriver.cpp"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/AppleM2ScalerCSCDriverFilters.cpp"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/AppleM2ScalerCSCHal.cpp"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/AppleM2ScalerCSCHalMSR.cpp"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/AppleM2ScalerCSCHalMSR10.cpp"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/AppleM2ScalerCSCHalMSR10j.cpp"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/AppleM2ScalerCSCHalMSR11.cpp"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/AppleM2ScalerCSCHalMSR15.cpp"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/AppleM2ScalerCSCHalMSR16.cpp"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/AppleM2ScalerCSCHalMSR2.cpp"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/AppleM2ScalerCSCHalMSR20.cpp"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/AppleM2ScalerCSCHalMSR21.cpp"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/AppleM2ScalerCSCHalMSR22.cpp"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/AppleM2ScalerCSCHalMSR23.cpp"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/AppleM2ScalerCSCHalMSR4.cpp"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/AppleM2ScalerCSCHalMSR6.cpp"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/AppleM2ScalerCSCHalMSR7.cpp"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/AppleM2ScalerCSCHalMSR8.cpp"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/AppleM2ScalerCSCHalMSR9.cpp"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/DPEControl/IosaDPEControlMSR16.cpp"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/DPEControl/IosaDPEControlMSR17.cpp"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/DPEControl/IosaDPEControlMSR20.cpp"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/DPEControl/IosaDPEControlMSR21.cpp"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/DPEControl/IosaDPEControlMSR22.cpp"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/DisplayScalerFilter.cpp"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/DriverCommonFunctions.h"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/FirmwareControl/IosaFirmwareControlMSR23.cpp"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/FirmwareControl/IosaFirmwareControlMSR23Dv.cpp"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/FirmwareControl/IosaFirmwareControlMSR23Rtk.cpp"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/FirmwareControl/IosaFirmwareControlMSR25RTK.cpp"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/FrameDescriptorRing.cpp"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/FrameDescriptorRingMSR23.cpp"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/IOAsynchronousScheduler.cpp"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/IOSurfaceAcceleratorClient.cpp"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/IOSurfaceAcceleratorPreparator.cpp"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/IosaColorManagerMSR10.cpp"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/IosaColorManagerMSR15.cpp"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/IosaColorManagerMSR18.cpp"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/IosaColorManagerMSR20.cpp"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/IosaColorManagerMSR23.cpp"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/IosaColorManagerMSR4.cpp"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/IosaColorManagerMSR8.cpp"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/IosaFilmGrainControlMSR16.cpp"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/IosaFilmGrainControlMSR23.cpp"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/IosaPowerManager.cpp"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/IosaPowerManagerMSR.cpp"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/IosaPowerManagerMSR20.cpp"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/IosaRdmaControl.cpp"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/IosaRdmaControlMSR10.cpp"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/IosaRdmaControlMSR18.cpp"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/IosaRdmaControlMSR23.cpp"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/IosaTiledCompressedMemMSR8.cpp"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/IosaWdmaControlMSR23.cpp"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/K2KTests.cpp"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/M2ScalerCSCColorConversionControl.cpp"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/M2ScalerCSCColorConversionControlMSR.cpp"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/M2ScalerCSCColorConversionControlMSR23.cpp"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/M2ScalerCSCColorConversionControlMSR4.cpp"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/M2ScalerCSCColorConversionControlMSR8.cpp"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/M2ScalerScalingASEControl.cpp"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/M2ScalerScalingASEControlMSR10.cpp"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/M2ScalerScalingASEControlMSR20.cpp"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/M2ScalerScalingASEControlMSR23.cpp"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/M2ScalerScalingControl.cpp"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/M2ScalerScalingControlMSR.cpp"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/M2ScalerScalingControlMSR23.cpp"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/M2ScalerScalingControlMSR6.cpp"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/M2ScalerScalingControlMSR8.cpp"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/M2ScalerSrcDestCfgControl.cpp"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/M2ScalerSrcDestCfgControlMSR.cpp"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/M2ScalerSrcDestCfgControlMSR10.cpp"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/M2ScalerSrcDestCfgControlMSR22.cpp"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/M2ScalerSrcDestCfgControlMSR23.cpp"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/M2ScalerSrcDestCfgControlMSR4.cpp"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/M2ScalerSrcDestCfgControlMSR8.cpp"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/MSR23ChromaDownsampleFilter.cpp"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/MSR23DefaultFilter.cpp"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/MailBox.cpp"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/MailBoxMSR23.cpp"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/ModularDefaultFilter.cpp"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/MsrApiodmaRegisterStream.cpp"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/MsrApiodmaRegisterStreamMSR15.cpp"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/MsrApiodmaRegisterStreamMSR19.cpp"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/MsrBlockDescriptorRegisterStream.cpp"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/MsrBlockDescriptorRegisterStreamMSR23.cpp"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/MsrRegisterStream.cpp"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/Request.cpp"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/RingBuffer.cpp"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/Shared/Utility/IOFBSAGammaLUT.cpp"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/SpillBuffer.cpp"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/StatusDescriptorRing.cpp"
++ "/AppleInternal/Library/BuildRoots/23fe9468-3783-11ef-b7e3-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/StatusDescriptorRingMSR23.cpp"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/AXI2AFControl/IosaAxi2AfControl.cpp"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/AppleM2ScalerCSCDriver.cpp"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/AppleM2ScalerCSCDriverFilters.cpp"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/AppleM2ScalerCSCHal.cpp"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/AppleM2ScalerCSCHalMSR.cpp"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/AppleM2ScalerCSCHalMSR10.cpp"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/AppleM2ScalerCSCHalMSR10j.cpp"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/AppleM2ScalerCSCHalMSR11.cpp"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/AppleM2ScalerCSCHalMSR15.cpp"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/AppleM2ScalerCSCHalMSR16.cpp"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/AppleM2ScalerCSCHalMSR2.cpp"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/AppleM2ScalerCSCHalMSR20.cpp"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/AppleM2ScalerCSCHalMSR21.cpp"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/AppleM2ScalerCSCHalMSR22.cpp"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/AppleM2ScalerCSCHalMSR23.cpp"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/AppleM2ScalerCSCHalMSR4.cpp"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/AppleM2ScalerCSCHalMSR6.cpp"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/AppleM2ScalerCSCHalMSR7.cpp"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/AppleM2ScalerCSCHalMSR8.cpp"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/AppleM2ScalerCSCHalMSR9.cpp"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/DPEControl/IosaDPEControlMSR16.cpp"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/DPEControl/IosaDPEControlMSR17.cpp"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/DPEControl/IosaDPEControlMSR20.cpp"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/DPEControl/IosaDPEControlMSR21.cpp"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/DPEControl/IosaDPEControlMSR22.cpp"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/DisplayScalerFilter.cpp"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/DriverCommonFunctions.h"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/FirmwareControl/IosaFirmwareControlMSR23.cpp"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/FirmwareControl/IosaFirmwareControlMSR23Dv.cpp"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/FirmwareControl/IosaFirmwareControlMSR23Rtk.cpp"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/FirmwareControl/IosaFirmwareControlMSR25RTK.cpp"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/FrameDescriptorRing.cpp"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/FrameDescriptorRingMSR23.cpp"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/IOAsynchronousScheduler.cpp"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/IOSurfaceAcceleratorClient.cpp"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/IOSurfaceAcceleratorPreparator.cpp"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/IosaColorManagerMSR10.cpp"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/IosaColorManagerMSR15.cpp"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/IosaColorManagerMSR18.cpp"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/IosaColorManagerMSR20.cpp"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/IosaColorManagerMSR23.cpp"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/IosaColorManagerMSR4.cpp"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/IosaColorManagerMSR8.cpp"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/IosaFilmGrainControlMSR16.cpp"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/IosaFilmGrainControlMSR23.cpp"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/IosaPowerManager.cpp"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/IosaPowerManagerMSR.cpp"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/IosaPowerManagerMSR20.cpp"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/IosaRdmaControl.cpp"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/IosaRdmaControlMSR10.cpp"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/IosaRdmaControlMSR18.cpp"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/IosaRdmaControlMSR23.cpp"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/IosaTiledCompressedMemMSR8.cpp"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/IosaWdmaControlMSR23.cpp"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/K2KTests.cpp"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/M2ScalerCSCColorConversionControl.cpp"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/M2ScalerCSCColorConversionControlMSR.cpp"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/M2ScalerCSCColorConversionControlMSR23.cpp"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/M2ScalerCSCColorConversionControlMSR4.cpp"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/M2ScalerCSCColorConversionControlMSR8.cpp"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/M2ScalerScalingASEControl.cpp"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/M2ScalerScalingASEControlMSR10.cpp"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/M2ScalerScalingASEControlMSR20.cpp"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/M2ScalerScalingASEControlMSR23.cpp"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/M2ScalerScalingControl.cpp"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/M2ScalerScalingControlMSR.cpp"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/M2ScalerScalingControlMSR23.cpp"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/M2ScalerScalingControlMSR6.cpp"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/M2ScalerScalingControlMSR8.cpp"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/M2ScalerSrcDestCfgControl.cpp"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/M2ScalerSrcDestCfgControlMSR.cpp"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/M2ScalerSrcDestCfgControlMSR10.cpp"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/M2ScalerSrcDestCfgControlMSR22.cpp"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/M2ScalerSrcDestCfgControlMSR23.cpp"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/M2ScalerSrcDestCfgControlMSR4.cpp"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/M2ScalerSrcDestCfgControlMSR8.cpp"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/MSR23ChromaDownsampleFilter.cpp"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/MSR23DefaultFilter.cpp"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/MailBox.cpp"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/MailBoxMSR23.cpp"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/ModularDefaultFilter.cpp"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/MsrApiodmaRegisterStream.cpp"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/MsrApiodmaRegisterStreamMSR15.cpp"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/MsrApiodmaRegisterStreamMSR19.cpp"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/MsrBlockDescriptorRegisterStream.cpp"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/MsrBlockDescriptorRegisterStreamMSR23.cpp"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/MsrRegisterStream.cpp"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/Request.cpp"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/RingBuffer.cpp"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/Shared/Utility/IOFBSAGammaLUT.cpp"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/SpillBuffer.cpp"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/StatusDescriptorRing.cpp"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IOSurfaceAccelerator/StatusDescriptorRingMSR23.cpp"
+- "[IOSA][Boot ] Allocating BlockDescriptorRegStreamMSR23\n"
+- "[IOSA][Boot ] obj=%p\n"
+
+```
+
+>  `com.apple.driver.AppleProResHW`
+
+```diff
+
+-400.59.1.0.0
+-  __TEXT.__const: 0x1ae8
+-  __TEXT.__os_log: 0x71db
+-  __TEXT.__cstring: 0xde4
+-  __TEXT_EXEC.__text: 0x187a4
++400.73.0.0.0
++  __TEXT.__const: 0x1b40
++  __TEXT.__os_log: 0x7363
++  __TEXT.__cstring: 0xdf9
++  __TEXT_EXEC.__text: 0x18d20
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0x358
+   __DATA.__common: 0x70
+
+   __DATA_CONST.__const: 0x62c8
+   __DATA_CONST.__kalloc_type: 0x380
+   __DATA_CONST.__kalloc_var: 0xa0
+-  Functions: 418
+-  Symbols:   2264
+-  CStrings:  163
++  Functions: 425
++  Symbols:   2278
++  CStrings:  164
+ 
+Symbols:
++ __ZL24ProResPerfStateInfoTable
++ __ZN13AppleProResHW10addElementEP13SlidingWindowd
++ __ZN13AppleProResHW10freeWindowEP13SlidingWindow
++ __ZN13AppleProResHW10getAverageEP13SlidingWindow
++ __ZN13AppleProResHW10initWindowEy
++ __ZN13AppleProResHW16releaseCoreGatedEv
++ __ZN13AppleProResHW17deletePrevElementEP13SlidingWindow
++ __ZN13AppleProResHW19getDynamicPerfStateEP16UserClientInfo_sddj
++ __ZN13AppleProResHW8getTotalEP13SlidingWindow
++ __ZZN13AppleProResHW11EncodeFrameEP9IOServicePvE11_os_log_fmt__13_
++ __ZZN13AppleProResHW12attachClientEP9IOServicePvP4taskE21kalloc_type_view_5462
++ __ZZN13AppleProResHW12attachClientEP9IOServicePvP4taskE21kalloc_type_view_5595
++ __ZZN13AppleProResHW12detachClientEP9IOServiceE21kalloc_type_view_5856
++ __ZZN13AppleProResHW12timerHandlerEP18IOTimerEventSourceE11_os_log_fmt__12_
++ __ZZN13AppleProResHW12timerHandlerEP18IOTimerEventSourceE11_os_log_fmt__13_
++ __ZZN13AppleProResHW16acquireCoreGatedEvE11_os_log_fmt_4
++ __ZZN13AppleProResHW16acquireCoreGatedEvE11_os_log_fmt_5
++ __ZZN13AppleProResHW16attachTestClientEP9IOServicePvP4taskE21kalloc_type_view_5399
++ __ZZN13AppleProResHW16attachTestClientEP9IOServicePvP4taskE21kalloc_type_view_5436
++ __ZZN13AppleProResHW16detachTestClientEP9IOServiceE21kalloc_type_view_5761
++ __ZZN13AppleProResHW16releaseCoreGatedEvE11_os_log_fmt
++ __ZZN13AppleProResHW19delayListClearGatedEjjE21kalloc_type_view_6101
++ __ZZN13AppleProResHW19delayListClearGatedEjjE21kalloc_type_view_6102
++ __ZZN13AppleProResHW19getDynamicPerfStateEP16UserClientInfo_sddjE11_os_log_fmt
++ __ZZN13AppleProResHW19getDynamicPerfStateEP16UserClientInfo_sddjE11_os_log_fmt_0
++ __ZZN13AppleProResHW19getDynamicPerfStateEP16UserClientInfo_sddjE11_os_log_fmt_1
++ __ZZN13AppleProResHW19getDynamicPerfStateEP16UserClientInfo_sddjE11_os_log_fmt_2
++ __ZZN13AppleProResHW19getDynamicPerfStateEP16UserClientInfo_sddjE11_os_log_fmt_3
++ __ZZN13AppleProResHW24unMapBufferWithDARTGatedEP15ProResBufInfo_sjjE21kalloc_type_view_5072
++ __ZZN13AppleProResHW24unMapBufferWithDARTGatedEP15ProResBufInfo_sjjE21kalloc_type_view_5075
+- __ZN13AppleProResHW19getDynamicPerfStateEP16UserClientInfo_s15ProResPerfStateS2_ff
+- __ZZN13AppleProResHW12attachClientEP9IOServicePvP4taskE21kalloc_type_view_5420
+- __ZZN13AppleProResHW12attachClientEP9IOServicePvP4taskE21kalloc_type_view_5553
+- __ZZN13AppleProResHW12detachClientEP9IOServiceE21kalloc_type_view_5804
+- __ZZN13AppleProResHW16attachTestClientEP9IOServicePvP4taskE21kalloc_type_view_5357
+- __ZZN13AppleProResHW16attachTestClientEP9IOServicePvP4taskE21kalloc_type_view_5394
+- __ZZN13AppleProResHW16detachTestClientEP9IOServiceE21kalloc_type_view_5714
+- __ZZN13AppleProResHW19delayListClearGatedEjjE21kalloc_type_view_6049
+- __ZZN13AppleProResHW19delayListClearGatedEjjE21kalloc_type_view_6050
+- __ZZN13AppleProResHW19getDynamicPerfStateEP16UserClientInfo_s15ProResPerfStateS2_ffE11_os_log_fmt
+- __ZZN13AppleProResHW19getDynamicPerfStateEP16UserClientInfo_s15ProResPerfStateS2_ffE11_os_log_fmt_0
+- __ZZN13AppleProResHW19getDynamicPerfStateEP16UserClientInfo_s15ProResPerfStateS2_ffE11_os_log_fmt_1
+- __ZZN13AppleProResHW19getDynamicPerfStateEP16UserClientInfo_s15ProResPerfStateS2_ffE11_os_log_fmt_2
+- __ZZN13AppleProResHW19getDynamicPerfStateEP16UserClientInfo_s15ProResPerfStateS2_ffE11_os_log_fmt_3
+- __ZZN13AppleProResHW24unMapBufferWithDARTGatedEP15ProResBufInfo_sjjE21kalloc_type_view_5030
+- __ZZN13AppleProResHW24unMapBufferWithDARTGatedEP15ProResBufInfo_sjjE21kalloc_type_view_5033
+CStrings:
++ "1211111212221212112211112111111211111121111112112222111122222111121111112111111211111121111111111111111111111121121121121111111111111111111111111111111111111111122222222222222222111111122221111111111112122"
++ "211111121121112222222122"
++ "releaseCoreGated"
+- "121111121222121211221111211111121111112111111211222211112222211112111111211111121111112111111111111111111111112112112112111111111111111111111111111111111111111112222222222222222111111122221111111111112122"
+- "211111121121112222222"
+
+```
+
+>  `com.apple.driver.AppleSCDriver`
+
+```diff
+
+-20.139.0.0.0
+-  __TEXT.__cstring: 0x3f9a
+-  __TEXT.__os_log: 0x6188
++20.140.0.0.0
++  __TEXT.__cstring: 0x3f91
++  __TEXT.__os_log: 0x61a2
+   __TEXT.__const: 0x190
+-  __TEXT_EXEC.__text: 0x20f78
++  __TEXT_EXEC.__text: 0x2103c
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0x22c8
+   __DATA.__common: 0x15a0
+
+   __DATA_CONST.__const: 0x3b60
+   __DATA_CONST.__kalloc_type: 0x340
+   __DATA_CONST.__kalloc_var: 0xf0
+-  Functions: 516
+-  Symbols:   1465
+-  CStrings:  583
++  Functions: 515
++  Symbols:   1464
++  CStrings:  582
+ 
+Symbols:
++ __ZZN10SCodecHost36handleSessionsDemandCountChangeGatedEvE11_os_log_fmt_1
++ __ZZN10SCodecHost36handleSessionsDemandCountChangeGatedEvE11_os_log_fmt_2
++ __ZZN6SCodec31waitForStreamPreconditionsGatedEPhPjE11_os_log_fmt_2
+- __ZN10SCodecHost11releaseCoreEv
+- __ZZN10SCodecHost11releaseCoreEvE11_os_log_fmt
+- __ZZN10SCodecHost11releaseCoreEvE11_os_log_fmt_0
+- __ZZN10SCodecHost11releaseCoreEvE11_os_log_fmt_1
+CStrings:
++ "1211111212221212122111111111111111111111111111111111111111111111111111111111111111111111111111111112222222222222222222222222222222222222222211111122221122222222222222222222222222222222222222222222222222222222222222222122222211"
++ "1211111212221212122111111111111111111111111111111111111111111111111111111111111111111111111111111112222222222222222222222222222222222222222211111122221122222222222222222222222222222222222222222222222222222222222222222122222211111211111111111111211211111111211112221212211222212"
++ "20:03:05"
++ "20:03:16"
++ "Jul  3 2024"
+- "121111121222121212211111111111111111111111111111111111111111111111111111111111111111111111111111111222222222222222222222222222222222222222221111112222112222222222222222222222222222222222222222222222222222222222222222122222211"
+- "12111112122212121221111111111111111111111111111111111111111111111111111111111111111111111111111111122222222222222222222222222222222222222222111111222211222222222222222222222222222222222222222222222222222222222222222212222221111121111111111111121121111111121111222121221122221"
+- "20:39:42"
+- "20:39:53"
+- "Jun 20 2024"
+- "releaseCore"
+
+```
+
+>  `com.apple.filesystems.apfs`
+
+```diff
+
+-2309.0.0.0.3
++2310.0.0.0.0
+   __TEXT.__const: 0x918
+-  __TEXT.__cstring: 0x55946
+-  __TEXT_EXEC.__text: 0x16f08c
++  __TEXT.__cstring: 0x5592b
++  __TEXT_EXEC.__text: 0x16efb0
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0xd40
+   __DATA.__bss: 0xac0
+
+   __DATA_CONST.__const: 0x9190
+   __DATA_CONST.__kalloc_type: 0x5f40
+   __DATA_CONST.__kalloc_var: 0x30c0
+-  Functions: 2631
+-  Symbols:   4625
++  Functions: 2632
++  Symbols:   4626
+   CStrings:  7352
+ 
+Symbols:
++ _GLOBAL__D_a.1759
++ _ZN18APFSOSNumberAtomic10withNumberEx.1711
++ __ZZ21delta_teardown_threadPviE21kalloc_type_view_9999
++ __ZZL23apfs_keycache_operationPKh13apfs_key_typeiPP3cpxbE22kalloc_type_view_13069
++ __ZZL23apfs_keycache_operationPKh13apfs_key_typeiPP3cpxbE22kalloc_type_view_13079
++ __ZZL23apfs_keycache_operationPKh13apfs_key_typeiPP3cpxbE22kalloc_type_view_13100
++ __ZZN15AppleAPFSVolume15asyncCryptoReadEP18AppleAPFSContaineryyPyaybE21kalloc_type_view_8980
++ __ZZN15AppleAPFSVolume15asyncCryptoReadEP18AppleAPFSContaineryyPyaybE21kalloc_type_view_9067
++ __ZZN15AppleAPFSVolume27asyncCryptoReadFinishHelperEP24multikey_crypto_io_entryPyE21kalloc_type_view_9099
++ __ZZN18AppleAPFSContainer16lockerDataGetSetEb9klckr_ctxPhyP4taskE22kalloc_type_view_14629
++ __ZZN18AppleAPFSContainer16lockerDataGetSetEb9klckr_ctxPhyP4taskE22kalloc_type_view_14632
++ __ZZN18AppleAPFSContainer19deltaCreateTeardownEP18delta_create_ctx_tE21kalloc_type_view_7998
++ __ZZN18AppleAPFSContainer20deltaRestoreTeardownEP19delta_restore_ctx_tE21kalloc_type_view_8191
++ __ZZN18AppleAPFSContainer27containerGetKeyLockerRangesEjj9klckr_ctxyPjP20vol_keylocker_rangesE22kalloc_type_view_14450
++ __ZZN18AppleAPFSContainer27containerGetKeyLockerRangesEjj9klckr_ctxyPjP20vol_keylocker_rangesE22kalloc_type_view_14481
++ __ZZN19AppleAPFSUserClient24methodDeltaCreatePrepareEPS_PvP25IOExternalMethodArgumentsE22kalloc_type_view_11270
++ __ZZN19AppleAPFSUserClient24methodDeltaCreatePrepareEPS_PvP25IOExternalMethodArgumentsE22kalloc_type_view_11294
++ __ZZN19AppleAPFSUserClient25methodDeltaRestorePrepareEPS_PvP25IOExternalMethodArgumentsE22kalloc_type_view_11396
++ __ZZN19AppleAPFSUserClient25methodDeltaRestorePrepareEPS_PvP25IOExternalMethodArgumentsE22kalloc_type_view_11425
++ __ZZN19AppleAPFSUserClient28methodVolumeAddUpdateRecordsEPS_PvP25IOExternalMethodArgumentsE22kalloc_type_view_10630
++ __ZZN19AppleAPFSUserClient28methodVolumeAddUpdateRecordsEPS_PvP25IOExternalMethodArgumentsE22kalloc_type_view_10631
++ __ZZN19AppleAPFSUserClient28methodVolumeAddUpdateRecordsEPS_PvP25IOExternalMethodArgumentsE22kalloc_type_view_10638
++ __ZZN19AppleAPFSUserClient28methodVolumeAddUpdateRecordsEPS_PvP25IOExternalMethodArgumentsE22kalloc_type_view_10639
++ __ZZN19AppleAPFSUserClient28methodVolumeAddUpdateRecordsEPS_PvP25IOExternalMethodArgumentsE22kalloc_type_view_10704
++ __ZZN19AppleAPFSUserClient28methodVolumeAddUpdateRecordsEPS_PvP25IOExternalMethodArgumentsE22kalloc_type_view_10707
++ __ZZN19AppleAPFSUserClient28methodVolumeAddUpdateRecordsEPS_PvP25IOExternalMethodArgumentsE22kalloc_type_view_10716
++ __ZZN19AppleAPFSUserClient28methodVolumeAddUpdateRecordsEPS_PvP25IOExternalMethodArgumentsE22kalloc_type_view_10719
++ __ZZN19AppleAPFSUserClient28methodVolumeAddUpdateRecordsEPS_PvP25IOExternalMethodArgumentsE22kalloc_type_view_10727
++ __ZZN19AppleAPFSUserClient28methodVolumeAddUpdateRecordsEPS_PvP25IOExternalMethodArgumentsE22kalloc_type_view_10730
++ __ZZN19AppleAPFSUserClient4stopEP9IOServiceE22kalloc_type_view_10013
++ __ZZN19AppleAPFSUserClient4stopEP9IOServiceE22kalloc_type_view_10023
++ _apfs_is_task_dataless_manipulator_internal
++ _fs_add_xattr.kalloc_type_view_22578
++ _fs_add_xattr.kalloc_type_view_22584
++ _fs_add_xattr.kalloc_type_view_22587
++ _fs_add_xattr.kalloc_type_view_22641
++ _fs_add_xattr.kalloc_type_view_22642
++ apfs_drop_allocated_unwritten_ranges.kalloc_type_view_15821
++ apfs_drop_rangelist_entries.kalloc_type_view_8920
++ apfs_drop_rangelist_entry.kalloc_type_view_8867
++ apfs_find_gaps_in_rangelist.kalloc_type_view_11675
++ apfs_flush_allocated_unwritten_ranges.kalloc_type_view_13249
++ apfs_flush_allocated_unwritten_ranges.kalloc_type_view_13307
++ apfs_io_common.kalloc_type_view_18009
++ apfs_io_common.kalloc_type_view_18047
++ apfs_io_common.kalloc_type_view_18058
++ apfs_io_common.kalloc_type_view_18076
++ apfs_io_common.kalloc_type_view_18094
++ apfs_io_common.kalloc_type_view_18110
++ apfs_io_common.kalloc_type_view_18134
++ apfs_io_common.kalloc_type_view_18217
++ apfs_io_common.kalloc_type_view_18238
++ apfs_io_common.kalloc_type_view_18249
++ apfs_io_common.kalloc_type_view_18267
++ apfs_io_common.kalloc_type_view_18286
++ apfs_io_common.kalloc_type_view_18299
++ apfs_io_common.kalloc_type_view_18320
++ apfs_io_common.kalloc_type_view_18339
++ apfs_iodone.kalloc_type_view_17471
++ apfs_iodone.kalloc_type_view_17510
++ apfs_punch_out_ranges_in_fext.kalloc_type_view_20905
++ apfs_punch_out_ranges_in_fext.kalloc_type_view_20912
++ apfs_record_intention_to_allocate.kalloc_type_view_8802
++ apfs_release_all_reserved_space.kalloc_type_view_4440
++ apfs_release_io_context.kalloc_type_view_17709
++ apfs_release_io_context.kalloc_type_view_17718
++ apfs_trim_ranges_in_region.kalloc_type_view_16534
++ apfs_update_ranges_on_allocation.kalloc_type_view_16625
++ apfs_update_reserved_ranges.kalloc_type_view_21053
++ apfs_update_reserved_ranges.kalloc_type_view_21058
++ apfs_vnop_blockmap.kalloc_type_view_17045
++ apfs_vnop_blockmap.kalloc_type_view_17393
++ apfs_vnop_getattrlistbulk.kalloc_type_view_19082
++ apfs_vnop_getattrlistbulk.kalloc_type_view_19089
++ apfs_vnop_getattrlistbulk.kalloc_type_view_19156
++ apfs_vnop_getattrlistbulk.kalloc_type_view_19180
++ apfs_vnop_readdir.kalloc_type_view_15426
++ apfs_vnop_readdir.kalloc_type_view_15442
++ apfs_vnop_readdir.kalloc_type_view_15561
++ apfs_vnop_readdir.kalloc_type_view_15571
++ apfs_vnop_readdir.kalloc_type_view_15592
++ arle_alloc_pending_entry.kalloc_type_view_20485
++ change_crypto_id_prot_class.kalloc_type_view_9747
++ change_crypto_id_prot_class.kalloc_type_view_9813
++ clone_fexts_.kalloc_type_view_13851
++ clone_fexts_.kalloc_type_view_13864
++ clone_fexts_.kalloc_type_view_13922
++ create_sibling_link.kalloc_type_view_11291
++ create_sibling_link.kalloc_type_view_11307
++ dir_rec_alloc_with_hash.kalloc_type_view_10951
++ dir_rec_alloc_with_hash.kalloc_type_view_10957
++ dir_rec_alloc_with_hash.kalloc_type_view_10981
++ dump_extents_of_stream.kalloc_type_view_17929
++ ek_to_crypto_state.kalloc_type_view_32380
++ extent_evict_range.kalloc_type_view_25164
++ extent_evict_range.kalloc_type_view_25257
++ fext_collector.kalloc_type_view_13615
++ fext_collector.kalloc_type_view_13615.216
++ fext_collector.kalloc_type_view_13622
++ fext_collector_cleanup.kalloc_type_view_13597
++ fext_collector_reset.kalloc_type_view_13586
++ free_linkids.kalloc_type_view_11483
++ fs_get_xattr_in_snap.kalloc_type_view_22676
++ fs_get_xattr_in_snap.kalloc_type_view_22695
++ fs_init_bootcache_inodes_dstreams_info.kalloc_type_view_27074
++ fs_init_bootcache_inodes_dstreams_info.kalloc_type_view_27074.334
++ fs_iterate_snapshots.kalloc_type_view_26308
++ fs_iterate_snapshots.kalloc_type_view_26355
++ fs_map_file_offset_ext.kalloc_type_view_21465
++ fs_map_file_offset_ext.kalloc_type_view_21497
++ fs_map_file_offset_ext.kalloc_type_view_21535
++ fs_map_file_offset_ext.kalloc_type_view_21558
++ fs_remove_xattr_with_nstream_inode.kalloc_type_view_22790
++ fs_remove_xattr_with_nstream_inode.kalloc_type_view_22806
++ fs_remove_xattr_with_nstream_inode.kalloc_type_view_22827
++ fs_remove_xattr_with_nstream_inode.kalloc_type_view_22944
++ handle_fusion_debug.kalloc_type_view_10969
++ handle_fusion_debug.kalloc_type_view_10988
++ handle_snapshot_lookup.kalloc_type_view_12167
++ handle_xdstream_obj_id.kalloc_type_view_15726
++ handle_xdstream_obj_id.kalloc_type_view_15749
++ ier_alloc_tls.kalloc_type_view_27742
++ ier_alloc_tls.kalloc_type_view_27788
++ ier_free_tls.kalloc_type_view_27821
++ ier_ierso_free.kalloc_type_view_26910
++ ier_ierso_load.kalloc_type_view_26924
++ ier_ierso_new.kalloc_type_view_26619
++ ier_ierso_new.kalloc_type_view_26652
++ ier_ierto_free.kalloc_type_view_24514
++ ier_ierto_new.kalloc_type_view_24500
++ insert_linkid.kalloc_type_view_11431
++ legacy_get_ek.kalloc_type_view_33825
++ lookup_unfoldable_name_iterator.kalloc_type_view_17313
++ lookup_unfoldable_name_iterator.kalloc_type_view_17319
++ lookup_unfoldable_name_iterator.kalloc_type_view_17327
++ nx_fusion_find_lba_owner_checkForNewEntry.kalloc_type_view_10461
++ nx_fusion_find_lba_owner_cleanup.kalloc_type_view_10713
++ nx_fusion_find_lba_owner_scanInodes.kalloc_type_view_10656
++ nx_fusion_find_lba_owner_scanInodes.kalloc_type_view_10674
++ pfkur_pfkurso_free.kalloc_type_view_35974
++ pfkur_pfkurso_new.kalloc_type_view_34374
++ simple_remove_xattr.kalloc_type_view_22714
++ simple_remove_xattr.kalloc_type_view_22727
++ update_parent_xattr.kalloc_type_view_20286
++ update_parent_xattr.kalloc_type_view_20416
++ xattr_cloner.kalloc_type_view_16080
++ xattr_cloner.kalloc_type_view_16122
++ xattr_ek_to_crypto_state.kalloc_type_view_33010
+- _GLOBAL__D_a.1760
+- _ZN18APFSOSNumberAtomic10withNumberEx.1712
+- __ZZ21delta_teardown_threadPviE21kalloc_type_view_9997
+- __ZZL23apfs_keycache_operationPKh13apfs_key_typeiPP3cpxbE22kalloc_type_view_13067
+- __ZZL23apfs_keycache_operationPKh13apfs_key_typeiPP3cpxbE22kalloc_type_view_13077
+- __ZZL23apfs_keycache_operationPKh13apfs_key_typeiPP3cpxbE22kalloc_type_view_13098
+- __ZZN15AppleAPFSVolume15asyncCryptoReadEP18AppleAPFSContaineryyPyaybE21kalloc_type_view_8978
+- __ZZN15AppleAPFSVolume15asyncCryptoReadEP18AppleAPFSContaineryyPyaybE21kalloc_type_view_9065
+- __ZZN15AppleAPFSVolume27asyncCryptoReadFinishHelperEP24multikey_crypto_io_entryPyE21kalloc_type_view_9097
+- __ZZN18AppleAPFSContainer16lockerDataGetSetEb9klckr_ctxPhyP4taskE22kalloc_type_view_14627
+- __ZZN18AppleAPFSContainer16lockerDataGetSetEb9klckr_ctxPhyP4taskE22kalloc_type_view_14630
+- __ZZN18AppleAPFSContainer19deltaCreateTeardownEP18delta_create_ctx_tE21kalloc_type_view_7996
+- __ZZN18AppleAPFSContainer20deltaRestoreTeardownEP19delta_restore_ctx_tE21kalloc_type_view_8189
+- __ZZN18AppleAPFSContainer27containerGetKeyLockerRangesEjj9klckr_ctxyPjP20vol_keylocker_rangesE22kalloc_type_view_14448
+- __ZZN18AppleAPFSContainer27containerGetKeyLockerRangesEjj9klckr_ctxyPjP20vol_keylocker_rangesE22kalloc_type_view_14479
+- __ZZN19AppleAPFSUserClient24methodDeltaCreatePrepareEPS_PvP25IOExternalMethodArgumentsE22kalloc_type_view_11268
+- __ZZN19AppleAPFSUserClient24methodDeltaCreatePrepareEPS_PvP25IOExternalMethodArgumentsE22kalloc_type_view_11292
+- __ZZN19AppleAPFSUserClient25methodDeltaRestorePrepareEPS_PvP25IOExternalMethodArgumentsE22kalloc_type_view_11394
+- __ZZN19AppleAPFSUserClient25methodDeltaRestorePrepareEPS_PvP25IOExternalMethodArgumentsE22kalloc_type_view_11423
+- __ZZN19AppleAPFSUserClient28methodVolumeAddUpdateRecordsEPS_PvP25IOExternalMethodArgumentsE22kalloc_type_view_10627
+- __ZZN19AppleAPFSUserClient28methodVolumeAddUpdateRecordsEPS_PvP25IOExternalMethodArgumentsE22kalloc_type_view_10628
+- __ZZN19AppleAPFSUserClient28methodVolumeAddUpdateRecordsEPS_PvP25IOExternalMethodArgumentsE22kalloc_type_view_10635
+- __ZZN19AppleAPFSUserClient28methodVolumeAddUpdateRecordsEPS_PvP25IOExternalMethodArgumentsE22kalloc_type_view_10636
+- __ZZN19AppleAPFSUserClient28methodVolumeAddUpdateRecordsEPS_PvP25IOExternalMethodArgumentsE22kalloc_type_view_10702
+- __ZZN19AppleAPFSUserClient28methodVolumeAddUpdateRecordsEPS_PvP25IOExternalMethodArgumentsE22kalloc_type_view_10705
+- __ZZN19AppleAPFSUserClient28methodVolumeAddUpdateRecordsEPS_PvP25IOExternalMethodArgumentsE22kalloc_type_view_10714
+- __ZZN19AppleAPFSUserClient28methodVolumeAddUpdateRecordsEPS_PvP25IOExternalMethodArgumentsE22kalloc_type_view_10717
+- __ZZN19AppleAPFSUserClient28methodVolumeAddUpdateRecordsEPS_PvP25IOExternalMethodArgumentsE22kalloc_type_view_10725
+- __ZZN19AppleAPFSUserClient28methodVolumeAddUpdateRecordsEPS_PvP25IOExternalMethodArgumentsE22kalloc_type_view_10728
+- __ZZN19AppleAPFSUserClient4stopEP9IOServiceE22kalloc_type_view_10011
+- __ZZN19AppleAPFSUserClient4stopEP9IOServiceE22kalloc_type_view_10021
+- _fs_add_xattr.kalloc_type_view_22596
+- _fs_add_xattr.kalloc_type_view_22602
+- _fs_add_xattr.kalloc_type_view_22605
+- _fs_add_xattr.kalloc_type_view_22659
+- _fs_add_xattr.kalloc_type_view_22660
+- apfs_drop_allocated_unwritten_ranges.kalloc_type_view_15833
+- apfs_drop_rangelist_entries.kalloc_type_view_8932
+- apfs_drop_rangelist_entry.kalloc_type_view_8879
+- apfs_find_gaps_in_rangelist.kalloc_type_view_11687
+- apfs_flush_allocated_unwritten_ranges.kalloc_type_view_13261
+- apfs_flush_allocated_unwritten_ranges.kalloc_type_view_13319
+- apfs_io_common.kalloc_type_view_18021
+- apfs_io_common.kalloc_type_view_18059
+- apfs_io_common.kalloc_type_view_18070
+- apfs_io_common.kalloc_type_view_18088
+- apfs_io_common.kalloc_type_view_18106
+- apfs_io_common.kalloc_type_view_18122
+- apfs_io_common.kalloc_type_view_18146
+- apfs_io_common.kalloc_type_view_18229
+- apfs_io_common.kalloc_type_view_18250
+- apfs_io_common.kalloc_type_view_18261
+- apfs_io_common.kalloc_type_view_18279
+- apfs_io_common.kalloc_type_view_18298
+- apfs_io_common.kalloc_type_view_18311
+- apfs_io_common.kalloc_type_view_18344
+- apfs_io_common.kalloc_type_view_18351
+- apfs_iodone.kalloc_type_view_17483
+- apfs_iodone.kalloc_type_view_17522
+- apfs_punch_out_ranges_in_fext.kalloc_type_view_20923
+- apfs_punch_out_ranges_in_fext.kalloc_type_view_20930
+- apfs_record_intention_to_allocate.kalloc_type_view_8814
+- apfs_release_all_reserved_space.kalloc_type_view_4448
+- apfs_release_io_context.kalloc_type_view_17721
+- apfs_release_io_context.kalloc_type_view_17730
+- apfs_trim_ranges_in_region.kalloc_type_view_16546
+- apfs_update_ranges_on_allocation.kalloc_type_view_16637
+- apfs_update_reserved_ranges.kalloc_type_view_21071
+- apfs_update_reserved_ranges.kalloc_type_view_21076
+- apfs_vnop_blockmap.kalloc_type_view_17057
+- apfs_vnop_blockmap.kalloc_type_view_17405
+- apfs_vnop_getattrlistbulk.kalloc_type_view_19094
+- apfs_vnop_getattrlistbulk.kalloc_type_view_19101
+- apfs_vnop_getattrlistbulk.kalloc_type_view_19168
+- apfs_vnop_getattrlistbulk.kalloc_type_view_19192
+- apfs_vnop_readdir.kalloc_type_view_15438
+- apfs_vnop_readdir.kalloc_type_view_15454
+- apfs_vnop_readdir.kalloc_type_view_15573
+- apfs_vnop_readdir.kalloc_type_view_15583
+- apfs_vnop_readdir.kalloc_type_view_15604
+- arle_alloc_pending_entry.kalloc_type_view_20503
+- change_crypto_id_prot_class.kalloc_type_view_9767
+- change_crypto_id_prot_class.kalloc_type_view_9833
+- clone_fexts_.kalloc_type_view_13871
+- clone_fexts_.kalloc_type_view_13884
+- clone_fexts_.kalloc_type_view_13942
+- create_sibling_link.kalloc_type_view_11311
+- create_sibling_link.kalloc_type_view_11327
+- dir_rec_alloc_with_hash.kalloc_type_view_10971
+- dir_rec_alloc_with_hash.kalloc_type_view_10977
+- dir_rec_alloc_with_hash.kalloc_type_view_11001
+- dump_extents_of_stream.kalloc_type_view_17947
+- ek_to_crypto_state.kalloc_type_view_32398
+- extent_evict_range.kalloc_type_view_25182
+- extent_evict_range.kalloc_type_view_25275
+- fext_collector.kalloc_type_view_13635
+- fext_collector.kalloc_type_view_13635.216
+- fext_collector.kalloc_type_view_13642
+- fext_collector_cleanup.kalloc_type_view_13617
+- fext_collector_reset.kalloc_type_view_13606
+- free_linkids.kalloc_type_view_11503
+- fs_get_xattr_in_snap.kalloc_type_view_22694
+- fs_get_xattr_in_snap.kalloc_type_view_22713
+- fs_init_bootcache_inodes_dstreams_info.kalloc_type_view_27092
+- fs_init_bootcache_inodes_dstreams_info.kalloc_type_view_27092.334
+- fs_iterate_snapshots.kalloc_type_view_26326
+- fs_iterate_snapshots.kalloc_type_view_26373
+- fs_map_file_offset_ext.kalloc_type_view_21483
+- fs_map_file_offset_ext.kalloc_type_view_21515
+- fs_map_file_offset_ext.kalloc_type_view_21553
+- fs_map_file_offset_ext.kalloc_type_view_21576
+- fs_remove_xattr_with_nstream_inode.kalloc_type_view_22808
+- fs_remove_xattr_with_nstream_inode.kalloc_type_view_22824
+- fs_remove_xattr_with_nstream_inode.kalloc_type_view_22845
+- fs_remove_xattr_with_nstream_inode.kalloc_type_view_22962
+- handle_fusion_debug.kalloc_type_view_10970
+- handle_fusion_debug.kalloc_type_view_10989
+- handle_snapshot_lookup.kalloc_type_view_12168
+- handle_xdstream_obj_id.kalloc_type_view_15731
+- handle_xdstream_obj_id.kalloc_type_view_15754
+- ier_alloc_tls.kalloc_type_view_27754
+- ier_alloc_tls.kalloc_type_view_27800
+- ier_free_tls.kalloc_type_view_27833
+- ier_ierso_free.kalloc_type_view_26922
+- ier_ierso_load.kalloc_type_view_26948
+- ier_ierso_new.kalloc_type_view_26631
+- ier_ierso_new.kalloc_type_view_26664
+- ier_ierto_free.kalloc_type_view_24526
+- ier_ierto_new.kalloc_type_view_24512
+- insert_linkid.kalloc_type_view_11451
+- legacy_get_ek.kalloc_type_view_33843
+- lookup_unfoldable_name_iterator.kalloc_type_view_17333
+- lookup_unfoldable_name_iterator.kalloc_type_view_17339
+- lookup_unfoldable_name_iterator.kalloc_type_view_17347
+- nx_fusion_find_lba_owner_checkForNewEntry.kalloc_type_view_10462
+- nx_fusion_find_lba_owner_cleanup.kalloc_type_view_10714
+- nx_fusion_find_lba_owner_scanInodes.kalloc_type_view_10657
+- nx_fusion_find_lba_owner_scanInodes.kalloc_type_view_10675
+- pfkur_pfkurso_free.kalloc_type_view_35986
+- pfkur_pfkurso_new.kalloc_type_view_34386
+- simple_remove_xattr.kalloc_type_view_22732
+- simple_remove_xattr.kalloc_type_view_22745
+- update_parent_xattr.kalloc_type_view_20298
+- update_parent_xattr.kalloc_type_view_20428
+- xattr_cloner.kalloc_type_view_16100
+- xattr_cloner.kalloc_type_view_16142
+- xattr_ek_to_crypto_state.kalloc_type_view_33028
+CStrings:
++ "%s:%d: This operation needs dataless manipulation entitlement, detected in %s: %u\n"
++ "/AppleInternal/Library/BuildRoots/81e2abef-3955-11ef-8e67-e2437461156c/Library/Caches/com.apple.xbs/Sources/apfs/kext/apfs_filter.cpp"
++ "/AppleInternal/Library/BuildRoots/81e2abef-3955-11ef-8e67-e2437461156c/Library/Caches/com.apple.xbs/Sources/apfs/kext/apfs_ioctls.c"
++ "/AppleInternal/Library/BuildRoots/81e2abef-3955-11ef-8e67-e2437461156c/Library/Caches/com.apple.xbs/Sources/apfs/kext/apfs_rangelist.c"
++ "/AppleInternal/Library/BuildRoots/81e2abef-3955-11ef-8e67-e2437461156c/Library/Caches/com.apple.xbs/Sources/apfs/kext/apfs_vnops.c"
++ "/AppleInternal/Library/BuildRoots/81e2abef-3955-11ef-8e67-e2437461156c/Library/Caches/com.apple.xbs/Sources/apfs/nx/jobj.c"
++ "2024/07/03"
++ "20:04:18"
++ "20:04:19"
++ "2310"
++ "Jul  3 2024"
++ "apfs-2310"
++ "apfs_is_task_dataless_manipulator_internal"
+- "%s:%d: %s dst (ino %llu) is a dataless file, and the caller is unprivileged\n"
+- "%s:%d: %s file is dataless, and the caller is unprivileged\n"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/apfs/kext/apfs_filter.cpp"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/apfs/kext/apfs_ioctls.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/apfs/kext/apfs_rangelist.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/apfs/kext/apfs_vnops.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/apfs/nx/jobj.c"
+- "2024/06/20"
+- "20:32:41"
+- "20:32:42"
+- "2309.0.0.0.3"
+- "Jun 20 2024"
+- "apfs-2309.0.0.0.3"
+
+```
+
+>  `com.apple.iokit.IO80211Family`
+
+```diff
+
+-1302.61.0.0.0
+-  __TEXT.__const: 0xf9f0
+-  __TEXT.__cstring: 0x88c18
+-  __TEXT.__os_log: 0x8c3d
+-  __TEXT_EXEC.__text: 0x23950c
++1302.63.0.0.0
++  __TEXT.__const: 0xfa30
++  __TEXT.__cstring: 0x88d74
++  __TEXT.__os_log: 0x8d1b
++  __TEXT_EXEC.__text: 0x23a074
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0x4f48
+   __DATA.__common: 0x2360
+
+   __DATA_CONST.__auth_ptr: 0x18
+   __DATA_CONST.__mod_init_func: 0x518
+   __DATA_CONST.__mod_term_func: 0x518
+-  __DATA_CONST.__const: 0x36c50
++  __DATA_CONST.__const: 0x36ce0
+   __DATA_CONST.__kalloc_type: 0x98c0
+   __DATA_CONST.__kalloc_var: 0x7d0
+-  Functions: 11991
+-  Symbols:   18645
+-  CStrings:  13381
++  Functions: 12004
++  Symbols:   18667
++  CStrings:  13394
+ 
+Symbols:
++ .str.1183
++ .str.1184
++ __FUNCTION__._ZN15IO80211AWDLPeer13isPeerTypeSetE11rtgPeerType
++ __Z29apple80211getMANUFACTURE_DATEP23IO80211SkywalkInterfaceP27apple80211_manufacture_date
++ __Z29apple80211setMANUFACTURE_DATEP23IO80211SkywalkInterfaceP27apple80211_manufacture_date
++ __Z36apple80211getFIRST_BOOT_COUNTRY_CODEP23IO80211SkywalkInterfaceP28apple80211_country_code_data
++ __Z36apple80211setFIRST_BOOT_COUNTRY_CODEP23IO80211SkywalkInterfaceP28apple80211_country_code_data
++ __ZL19setMANUFACTURE_DATEP17IO80211ControllerP23IO80211SkywalkInterfaceP13apple80211req
++ __ZL21_logTimeCommandHelperPKcS0_jjyyy
++ __ZL26setFIRST_BOOT_COUNTRY_CODEP17IO80211ControllerP23IO80211SkywalkInterfaceP13apple80211req
++ __ZL27_logTimeIfThresholdExceededPKcS0_jjyyy
++ __ZN14WCLJoinRequest18addAssocCandidatesEP16WCLJoinCandidateP25apple80211AssocCandidates
++ __ZN15IO80211AWDLPeer13isPeerTypeSetE11rtgPeerType
++ __ZN16WCLJoinCandidate14updateTryCountEv
++ __ZN16WCLJoinCandidate16isRetryExhaustedEv
++ __ZN16WCLJoinCandidate18getCurrentTryCountEv
++ __ZN18IO80211ScanRequest15getMinTimestampEv
++ __ZN22IO80211AWDLPeerManager20getRemoteScreenStateEv
++ __ZN22WCLDeviceConfiguration29isLinkRecommendationSupportedEv
++ __ZNK16IO80211BSSBeacon12getTimestampEv
++ __ZZL10setNAN_CTLP17IO80211ControllerP23IO80211SkywalkInterfaceP13apple80211reqE21kalloc_type_view_1861
++ __ZZL10setNAN_CTLP17IO80211ControllerP23IO80211SkywalkInterfaceP13apple80211reqE21kalloc_type_view_1909
++ __ZZL11setAWDL_CTLP17IO80211ControllerP23IO80211SkywalkInterfaceP13apple80211reqE21kalloc_type_view_1085
++ __ZZL11setAWDL_CTLP17IO80211ControllerP23IO80211SkywalkInterfaceP13apple80211reqE21kalloc_type_view_1133
++ __ZZL16setRANGING_STARTP17IO80211ControllerP23IO80211SkywalkInterfaceP13apple80211reqE21kalloc_type_view_1518
++ __ZZL16setRANGING_STARTP17IO80211ControllerP23IO80211SkywalkInterfaceP13apple80211reqE21kalloc_type_view_1544
++ __ZZL17setRANGING_ENABLEP17IO80211ControllerP23IO80211SkywalkInterfaceP13apple80211reqE21kalloc_type_view_1488
++ __ZZL17setRANGING_ENABLEP17IO80211ControllerP23IO80211SkywalkInterfaceP13apple80211reqE21kalloc_type_view_1507
++ __ZZL21_logTimeCommandHelperPKcS0_jjyyyE11_os_log_fmt
++ __ZZL27_logTimeIfThresholdExceededPKcS0_jjyyyE11_os_log_fmt
++ __ZZN14WCLJoinRequest18initWCLJoinRequestEP21apple80211_assoc_dataP11CCLogStreamE20kalloc_type_view_704
++ __ZZN14WCLJoinRequest4freeEvE19kalloc_type_view_86
++ __ZZN14WCLScanRequest18initWCLScanRequestEP20apple80211_scan_dataR17scanRequestParamsE20kalloc_type_view_325
++ __ZZN16WCLBGScanManager15initWithOptionsEP13WCLControllerP16WCLBulletinBoardE20kalloc_type_view_121
++ __ZZN16WCLBGScanManager4freeEvE20kalloc_type_view_100
++ __ZZN16WCLJoinCandidate20initWCLJoinCandidateEP12WCLBSSBeaconE20kalloc_type_view_264
++ __ZZN16WCLJoinCandidate4freeEvE19kalloc_type_view_84
++ __ZZN18IO80211PeerManager17initWithInterfaceEP23IO80211VirtualInterfaceP23IO80211SkywalkInterfaceE21kalloc_type_view_1133
++ __ZZN18IO80211PeerManager4freeEvE21kalloc_type_view_1806
++ __ZZN18IO80211RoamProfile15initWithOptionsER25IO80211RoamProfileOptionsE20kalloc_type_view_115
++ __ZZN18IO80211RoamProfile4freeEvE20kalloc_type_view_100
++ __ZZN18IO80211ScanRequest22initIO80211ScanRequestEP20apple80211_scan_data8scanTypeE20kalloc_type_view_401
++ __ZZN20IO80211APIUserClient12initWithTaskEP4taskPvjP12OSDictionaryE20kalloc_type_view_152
++ __ZZN20IO80211APIUserClient4freeEvE20kalloc_type_view_479
++ __ZZN22IO80211AWDLPeerManager28freeAwdlPacketDescriptorPoolEvE22kalloc_type_view_37793
++ __ZZN22IO80211AWDLPeerManager28initAwdlPacketDescriptorPoolEjE22kalloc_type_view_37777
++ __ZZN22IO80211AWDLPeerManager33realTimeStatsGetSkywalkStatisticsEvE22kalloc_type_view_29388
++ __ZZN22IO80211AWDLPeerManager33realTimeStatsGetSkywalkStatisticsEvE22kalloc_type_view_29411
++ ___ZN20IO80211APIUserClient23reportUnentitledProcessEP12OSDictionary_block_invoke.28
++ ___ZN20IO80211APIUserClient23reportUnentitledProcessEP12OSDictionary_block_invoke_2.30
++ __block_descriptor_tmp.27
++ __block_descriptor_tmp.44
++ __block_descriptor_tmp.49
++ __block_descriptor_tmp.58
+- __ZN14WCLJoinRequest18addAssocCandidatesEP16WCLJoinCandidateP25apple80211AssocCandidatesb
+- __ZN16WCLJoinCandidate14updateTryCountEb
+- __ZN16WCLJoinCandidate16isRetryExhaustedEb
+- __ZN16WCLJoinCandidate18getCurrentTryCountEb
+- __ZZL10setNAN_CTLP17IO80211ControllerP23IO80211SkywalkInterfaceP13apple80211reqE21kalloc_type_view_1851
+- __ZZL10setNAN_CTLP17IO80211ControllerP23IO80211SkywalkInterfaceP13apple80211reqE21kalloc_type_view_1899
+- __ZZL11setAWDL_CTLP17IO80211ControllerP23IO80211SkywalkInterfaceP13apple80211reqE21kalloc_type_view_1075
+- __ZZL11setAWDL_CTLP17IO80211ControllerP23IO80211SkywalkInterfaceP13apple80211reqE21kalloc_type_view_1123
+- __ZZL16setRANGING_STARTP17IO80211ControllerP23IO80211SkywalkInterfaceP13apple80211reqE21kalloc_type_view_1508
+- __ZZL16setRANGING_STARTP17IO80211ControllerP23IO80211SkywalkInterfaceP13apple80211reqE21kalloc_type_view_1534
+- __ZZL17setRANGING_ENABLEP17IO80211ControllerP23IO80211SkywalkInterfaceP13apple80211reqE21kalloc_type_view_1478
+- __ZZL17setRANGING_ENABLEP17IO80211ControllerP23IO80211SkywalkInterfaceP13apple80211reqE21kalloc_type_view_1497
+- __ZZN14WCLJoinRequest18initWCLJoinRequestEP21apple80211_assoc_dataP11CCLogStreamE20kalloc_type_view_760
+- __ZZN14WCLJoinRequest4freeEvE19kalloc_type_view_87
+- __ZZN14WCLScanRequest18initWCLScanRequestEP20apple80211_scan_dataR17scanRequestParamsE20kalloc_type_view_317
+- __ZZN16WCLBGScanManager15initWithOptionsEP13WCLControllerP16WCLBulletinBoardE20kalloc_type_view_119
+- __ZZN16WCLBGScanManager4freeEvE19kalloc_type_view_98
+- __ZZN16WCLJoinCandidate20initWCLJoinCandidateEP12WCLBSSBeaconE20kalloc_type_view_292
+- __ZZN16WCLJoinCandidate4freeEvE19kalloc_type_view_88
+- __ZZN18IO80211PeerManager17initWithInterfaceEP23IO80211VirtualInterfaceP23IO80211SkywalkInterfaceE21kalloc_type_view_1127
+- __ZZN18IO80211PeerManager4freeEvE21kalloc_type_view_1800
+- __ZZN18IO80211RoamProfile15initWithOptionsER25IO80211RoamProfileOptionsE20kalloc_type_view_117
+- __ZZN18IO80211RoamProfile4freeEvE20kalloc_type_view_102
+- __ZZN18IO80211ScanRequest22initIO80211ScanRequestEP20apple80211_scan_data8scanTypeE20kalloc_type_view_395
+- __ZZN20IO80211APIUserClient12initWithTaskEP4taskPvjP12OSDictionaryE20kalloc_type_view_116
+- __ZZN20IO80211APIUserClient4freeEvE20kalloc_type_view_425
+- __ZZN22IO80211AWDLPeerManager28freeAwdlPacketDescriptorPoolEvE22kalloc_type_view_37782
+- __ZZN22IO80211AWDLPeerManager28initAwdlPacketDescriptorPoolEjE22kalloc_type_view_37766
+- __ZZN22IO80211AWDLPeerManager33realTimeStatsGetSkywalkStatisticsEvE22kalloc_type_view_29378
+- __ZZN22IO80211AWDLPeerManager33realTimeStatsGetSkywalkStatisticsEvE22kalloc_type_view_29401
+- ___ZN20IO80211APIUserClient23reportUnentitledProcessEP12OSDictionary_block_invoke.27
+- ___ZN20IO80211APIUserClient23reportUnentitledProcessEP12OSDictionary_block_invoke_2.29
+- __block_descriptor_tmp.45
+- __block_descriptor_tmp.55
+CStrings:
++ " _runDriverCommandHelper"
++ " _runLargeBufferCommandHelper"
++ "\"IO80211_kexts-1302.63\""
++ "%s[%d]: peer type of %02X:%02X:%02X:%02X:%02X:%02X (%d) %s set \n"
++ "/AppleInternal/Library/BuildRoots/96985a0d-388b-11ef-a93f-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IO80211_kexts/IO80211Family/AWDL/IO80211AWDLMulticastPeer.cpp"
++ "/AppleInternal/Library/BuildRoots/96985a0d-388b-11ef-a93f-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IO80211_kexts/IO80211Family/AWDL/IO80211AWDLPeer.cpp"
++ "/AppleInternal/Library/BuildRoots/96985a0d-388b-11ef-a93f-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IO80211_kexts/IO80211Family/AWDL/IO80211AWDLPeerManager.cpp"
++ "/AppleInternal/Library/BuildRoots/96985a0d-388b-11ef-a93f-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IO80211_kexts/IO80211Family/AWDL/IO80211P2PDataPathManager.cpp"
++ "/AppleInternal/Library/BuildRoots/96985a0d-388b-11ef-a93f-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IO80211_kexts/IO80211Family/AWDL/IO80211P2PSteeringManager.cpp"
++ "/AppleInternal/Library/BuildRoots/96985a0d-388b-11ef-a93f-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IO80211_kexts/IO80211Family/AWDL/IO80211P2PSupervisor.cpp"
++ "/AppleInternal/Library/BuildRoots/96985a0d-388b-11ef-a93f-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IO80211_kexts/IO80211Family/AWDL/IO80211ServiceRequestDescriptor.cpp"
++ "/AppleInternal/Library/BuildRoots/96985a0d-388b-11ef-a93f-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IO80211_kexts/IO80211Family/Buffers/IO80211DynamicBufferPool.cpp"
++ "/AppleInternal/Library/BuildRoots/96985a0d-388b-11ef-a93f-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IO80211_kexts/IO80211Family/Buffers/IO80211StaticBufferPool.cpp"
++ "/AppleInternal/Library/BuildRoots/96985a0d-388b-11ef-a93f-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IO80211_kexts/IO80211Family/IO80211Controller.cpp"
++ "/AppleInternal/Library/BuildRoots/96985a0d-388b-11ef-a93f-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IO80211_kexts/IO80211Family/IO80211ControllerMonitor.cpp"
++ "/AppleInternal/Library/BuildRoots/96985a0d-388b-11ef-a93f-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IO80211_kexts/IO80211Family/IO80211GASFsm.cpp"
++ "/AppleInternal/Library/BuildRoots/96985a0d-388b-11ef-a93f-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IO80211_kexts/IO80211Family/IO80211InfraInterface.cpp"
++ "/AppleInternal/Library/BuildRoots/96985a0d-388b-11ef-a93f-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IO80211_kexts/IO80211Family/IO80211InterfaceMonitor.cpp"
++ "/AppleInternal/Library/BuildRoots/96985a0d-388b-11ef-a93f-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IO80211_kexts/IO80211Family/IO80211PacketDescriptor.cpp"
++ "/AppleInternal/Library/BuildRoots/96985a0d-388b-11ef-a93f-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IO80211_kexts/IO80211Family/IO80211Peer.cpp"
++ "/AppleInternal/Library/BuildRoots/96985a0d-388b-11ef-a93f-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IO80211_kexts/IO80211Family/IO80211PeerManager.cpp"
++ "/AppleInternal/Library/BuildRoots/96985a0d-388b-11ef-a93f-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IO80211_kexts/IO80211Family/IO80211PeerMonitor.cpp"
++ "/AppleInternal/Library/BuildRoots/96985a0d-388b-11ef-a93f-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IO80211_kexts/IO80211Family/IO80211SkywalkInterface.cpp"
++ "/AppleInternal/Library/BuildRoots/96985a0d-388b-11ef-a93f-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IO80211_kexts/IO80211Family/IO80211VirtualInterface.cpp"
++ "/AppleInternal/Library/BuildRoots/96985a0d-388b-11ef-a93f-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IO80211_kexts/IO80211Family/Infra/IO80211LinkRecovery.cpp"
++ "/AppleInternal/Library/BuildRoots/96985a0d-388b-11ef-a93f-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IO80211_kexts/IO80211Family/Infra/IO80211ScanManager.cpp"
++ "/AppleInternal/Library/BuildRoots/96985a0d-388b-11ef-a93f-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IO80211_kexts/IO80211Family/NAN/DataPathManager/IO80211NANDataPathInitiator.cpp"
++ "/AppleInternal/Library/BuildRoots/96985a0d-388b-11ef-a93f-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IO80211_kexts/IO80211Family/NAN/DataPathManager/IO80211NANDataPathManager.cpp"
++ "/AppleInternal/Library/BuildRoots/96985a0d-388b-11ef-a93f-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IO80211_kexts/IO80211Family/NAN/DiscoveryEngine/IO80211NANDiscoveryEngine.cpp"
++ "/AppleInternal/Library/BuildRoots/96985a0d-388b-11ef-a93f-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IO80211_kexts/IO80211Family/NAN/Miscellaneous/IO80211NANUtils.c"
++ "/AppleInternal/Library/BuildRoots/96985a0d-388b-11ef-a93f-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IO80211_kexts/IO80211Family/NAN/PeerManager/IO80211NANDataInterfacePeerManager.cpp"
++ "/AppleInternal/Library/BuildRoots/96985a0d-388b-11ef-a93f-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IO80211_kexts/IO80211Family/NAN/PeerManager/IO80211NANPeer.cpp"
++ "/AppleInternal/Library/BuildRoots/96985a0d-388b-11ef-a93f-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IO80211_kexts/IO80211Family/NAN/PeerManager/IO80211NANPeerManager.cpp"
++ "/AppleInternal/Library/BuildRoots/96985a0d-388b-11ef-a93f-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IO80211_kexts/IO80211Family/NAN/ServiceManager/IO80211NANServiceDescriptor.cpp"
++ "/AppleInternal/Library/BuildRoots/96985a0d-388b-11ef-a93f-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IO80211_kexts/IO80211Family/NAN/ServiceManager/IO80211NANServiceManager.cpp"
++ "/AppleInternal/Library/BuildRoots/96985a0d-388b-11ef-a93f-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IO80211_kexts/IO80211Family/NAN/SynchronizationEngine/IO80211NANSyncEngine.cpp"
++ "/AppleInternal/Library/BuildRoots/96985a0d-388b-11ef-a93f-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IO80211_kexts/IO80211Family/UserClients/IO80211AsyncUserClientParameters.cpp"
++ "/AppleInternal/Library/BuildRoots/96985a0d-388b-11ef-a93f-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IO80211_kexts/IO80211Family/Utils/IO80211CommandQueue.cpp"
++ "/AppleInternal/Library/BuildRoots/96985a0d-388b-11ef-a93f-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IO80211_kexts/IO80211Family/Utils/IO80211FlowQueueDatabase.cpp"
++ "/AppleInternal/Library/BuildRoots/96985a0d-388b-11ef-a93f-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IO80211_kexts/IO80211Family/Utils/IO80211Util.cpp"
++ "/AppleInternal/Library/BuildRoots/96985a0d-388b-11ef-a93f-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IO80211_kexts/IO80211Family/Utils/IO80211Util.h"
++ "/AppleInternal/Library/BuildRoots/96985a0d-388b-11ef-a93f-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IO80211_kexts/IO80211Family/ioctls/apple80211_ioctl_get_handlersLegacy.cpp"
++ "/AppleInternal/Library/BuildRoots/96985a0d-388b-11ef-a93f-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IO80211_kexts/IO80211Family/ioctls/apple80211_ioctl_set_handlers.cpp"
++ "/AppleInternal/Library/BuildRoots/96985a0d-388b-11ef-a93f-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IO80211_kexts/IO80211Family/ioctls/apple80211_ioctl_set_handlersLegacy.cpp"
++ "/AppleInternal/Library/BuildRoots/96985a0d-388b-11ef-a93f-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IO80211_kexts/IO80211WCL/WCLDeauthDisassoc.cpp"
++ "/AppleInternal/Library/BuildRoots/96985a0d-388b-11ef-a93f-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IO80211_kexts/IO80211WCL/WCLNearbyDeviceDiscoveryManager.cpp"
++ "/AppleInternal/Library/BuildRoots/96985a0d-388b-11ef-a93f-a2cee5656455/Library/Caches/com.apple.xbs/Sources/IO80211_kexts/IO80211WCL/WCLNetManager.cpp"
++ "1111112222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222"
++ "1111222222222222222222222222222222222111111111212122"
++ "11222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222211"
++ "12222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222221111111111111111111111111111111112"
++ "222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222121"
++ "APPLE80211_IOC_FIRST_BOOT_COUNTRY_CODE"
++ "APPLE80211_IOC_MANUFACTURE_DATE"
++ "IO80211_kexts-1302.63"
++ "Jul  2 2024 21:35:57"
++ "WCLBGScanManager Failed to init BssManager\n"
++ "[ik] %s@%d:Received BTM Request frame: Category Code = %d Action Code = %d dialogToken = %d Request Mode =(Pref Candidate List = %d Abridged = %d disassoc_Imminent = %d bss_term = %d ess_term = %d link_remove=%d) DisassocTimeout = %d Validity Interval = %d\n"
++ "[wcl] %s@%d:Exhausted join candidate list: Current index %d\n"
++ "[wcl] %s@%d:mode<%s>, allowSleepConnected<%d> ipv4<%d> ipv6<%d> assoc<%d> assocAdhoc<%d> AssociOS<%d> isSapUp<%d> lphs<%d> IPLeaseWakeEventScheduled<%d> denyListed<%d> lpasAllowed<%d> phInWoW<%d>\n"
++ "_logTimeCommandHelper"
++ "_logTimeIfThresholdExceeded"
++ "iouc.logThresholdMS"
++ "is"
++ "is not"
++ "isPeerTypeSet"
+- "\"IO80211_kexts-1302.61\""
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IO80211_kexts/IO80211Family/AWDL/IO80211AWDLMulticastPeer.cpp"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IO80211_kexts/IO80211Family/AWDL/IO80211AWDLPeer.cpp"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IO80211_kexts/IO80211Family/AWDL/IO80211AWDLPeerManager.cpp"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IO80211_kexts/IO80211Family/AWDL/IO80211P2PDataPathManager.cpp"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IO80211_kexts/IO80211Family/AWDL/IO80211P2PSteeringManager.cpp"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IO80211_kexts/IO80211Family/AWDL/IO80211P2PSupervisor.cpp"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IO80211_kexts/IO80211Family/AWDL/IO80211ServiceRequestDescriptor.cpp"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IO80211_kexts/IO80211Family/Buffers/IO80211DynamicBufferPool.cpp"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IO80211_kexts/IO80211Family/Buffers/IO80211StaticBufferPool.cpp"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IO80211_kexts/IO80211Family/IO80211Controller.cpp"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IO80211_kexts/IO80211Family/IO80211ControllerMonitor.cpp"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IO80211_kexts/IO80211Family/IO80211GASFsm.cpp"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IO80211_kexts/IO80211Family/IO80211InfraInterface.cpp"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IO80211_kexts/IO80211Family/IO80211InterfaceMonitor.cpp"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IO80211_kexts/IO80211Family/IO80211PacketDescriptor.cpp"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IO80211_kexts/IO80211Family/IO80211Peer.cpp"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IO80211_kexts/IO80211Family/IO80211PeerManager.cpp"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IO80211_kexts/IO80211Family/IO80211PeerMonitor.cpp"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IO80211_kexts/IO80211Family/IO80211SkywalkInterface.cpp"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IO80211_kexts/IO80211Family/IO80211VirtualInterface.cpp"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IO80211_kexts/IO80211Family/Infra/IO80211LinkRecovery.cpp"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IO80211_kexts/IO80211Family/Infra/IO80211ScanManager.cpp"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IO80211_kexts/IO80211Family/NAN/DataPathManager/IO80211NANDataPathInitiator.cpp"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IO80211_kexts/IO80211Family/NAN/DataPathManager/IO80211NANDataPathManager.cpp"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IO80211_kexts/IO80211Family/NAN/DiscoveryEngine/IO80211NANDiscoveryEngine.cpp"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IO80211_kexts/IO80211Family/NAN/Miscellaneous/IO80211NANUtils.c"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IO80211_kexts/IO80211Family/NAN/PeerManager/IO80211NANDataInterfacePeerManager.cpp"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IO80211_kexts/IO80211Family/NAN/PeerManager/IO80211NANPeer.cpp"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IO80211_kexts/IO80211Family/NAN/PeerManager/IO80211NANPeerManager.cpp"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IO80211_kexts/IO80211Family/NAN/ServiceManager/IO80211NANServiceDescriptor.cpp"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IO80211_kexts/IO80211Family/NAN/ServiceManager/IO80211NANServiceManager.cpp"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IO80211_kexts/IO80211Family/NAN/SynchronizationEngine/IO80211NANSyncEngine.cpp"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IO80211_kexts/IO80211Family/UserClients/IO80211AsyncUserClientParameters.cpp"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IO80211_kexts/IO80211Family/Utils/IO80211CommandQueue.cpp"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IO80211_kexts/IO80211Family/Utils/IO80211FlowQueueDatabase.cpp"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IO80211_kexts/IO80211Family/Utils/IO80211Util.cpp"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IO80211_kexts/IO80211Family/Utils/IO80211Util.h"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IO80211_kexts/IO80211Family/ioctls/apple80211_ioctl_get_handlersLegacy.cpp"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IO80211_kexts/IO80211Family/ioctls/apple80211_ioctl_set_handlers.cpp"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IO80211_kexts/IO80211Family/ioctls/apple80211_ioctl_set_handlersLegacy.cpp"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IO80211_kexts/IO80211WCL/WCLDeauthDisassoc.cpp"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IO80211_kexts/IO80211WCL/WCLNearbyDeviceDiscoveryManager.cpp"
+- "/AppleInternal/Library/BuildRoots/d3a62b52-2ef5-11ef-9ecd-e2437461156c/Library/Caches/com.apple.xbs/Sources/IO80211_kexts/IO80211WCL/WCLNetManager.cpp"
+- "111112222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222"
+- "111122222222222222222222222222222222211111111121212"
+- "112222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222211"
+- "1222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222221111111111111111111111111111111112"
+- "22222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222121"
+- "IO80211_kexts-1302.61"
+- "Jun 20 2024 20:32:12"
+- "[ik] %s@%d:Received BTM Request frame: Category Code = %d Action Code = %d dialogToken = %d Request Mode =(Pref Candidate List = %d Abridged = %d disassoc_Imminent = %d bss_term = %d ess_term = %d) DisassocTimeout = %d Validity Interval = %d\n"
+- "[wcl] %s@%d:mode<%s>, allowSleepConnected<%d> ipv4<%d> ipv6<%d> assoc<%d> assocAdhoc<%d> AssociOS<%d> isSapUp<%d> assocLPHSiOSHotspot<%d> IPLeaseWakeEventScheduled<%d> denyListed<%d> lpasAllowed<%d>\n"
+
+```
+
 </details>
 
 ## MachO
 
-### 🆕 NEW (32)
-
-<details>
-  <summary><i>View NEW</i></summary>
+### 🆕 NEW (25)
 
 - `/System/Library/Extensions/AMDShared.bundle/Contents/MacOS/AMDShared`
+- `/System/Library/Frameworks/WebKit.framework/Versions/A/XPCServices/com.apple.WebKit.GPU.xpc/Contents/MacOS/com.apple.WebKit.GPU`
+- `/System/Library/Frameworks/WebKit.framework/Versions/A/XPCServices/com.apple.WebKit.GPU.xpc/Contents/PlugIns/MediaFormatReader.bundle/Contents/MacOS/MediaFormatReader`
+- `/System/Library/Frameworks/WebKit.framework/Versions/A/XPCServices/com.apple.WebKit.Networking.xpc/Contents/MacOS/com.apple.WebKit.Networking`
+- `/System/Library/Frameworks/WebKit.framework/Versions/A/XPCServices/com.apple.WebKit.WebContent.CaptivePortal.xpc/Contents/MacOS/com.apple.WebKit.WebContent.CaptivePortal`
+- `/System/Library/Frameworks/WebKit.framework/Versions/A/XPCServices/com.apple.WebKit.WebContent.CaptivePortal.xpc/Contents/PlugIns/MediaFormatReader.bundle/Contents/MacOS/MediaFormatReader`
+- `/System/Library/Frameworks/WebKit.framework/Versions/A/XPCServices/com.apple.WebKit.WebContent.Development.xpc/Contents/MacOS/com.apple.WebKit.WebContent.Development`
+- `/System/Library/Frameworks/WebKit.framework/Versions/A/XPCServices/com.apple.WebKit.WebContent.Development.xpc/Contents/PlugIns/MediaFormatReader.bundle/Contents/MacOS/MediaFormatReader`
+- `/System/Library/Frameworks/WebKit.framework/Versions/A/XPCServices/com.apple.WebKit.WebContent.xpc/Contents/MacOS/com.apple.WebKit.WebContent`
+- `/System/Library/Frameworks/WebKit.framework/Versions/A/XPCServices/com.apple.WebKit.WebContent.xpc/Contents/PlugIns/MediaFormatReader.bundle/Contents/MacOS/MediaFormatReader`
 - `/System/Library/PrivateFrameworks/AppleMediaServicesUI.framework/PlugIns/UtilityExtension.appex/Contents/MacOS/UtilityExtension`
 - `/System/Library/PrivateFrameworks/ApplePDPHelper.framework/Versions/A/ApplePDPHelper`
 - `/System/Library/PrivateFrameworks/FeedbackService.framework/Versions/A/Support/FeedbackRemoteView.app/Contents/MacOS/FeedbackRemoteView`
@@ -7819,56 +8947,17 @@ CStrings:
 - `/System/Library/PrivateFrameworks/VisualIntelligenceStream.framework/Versions/A/VisualIntelligenceStream`
 - `/System/Library/PrivateFrameworks/WebDriver.framework/Versions/A/XPCServices/com.apple.WebDriver.HTTPService.xpc/Contents/MacOS/com.apple.WebDriver.HTTPService`
 - `/System/iOSSupport/System/Library/PrivateFrameworks/AppleMediaServicesUI.framework/PlugIns/UtilityExtension.appex/Contents/MacOS/UtilityExtension`
-- `/tmp/090-49769-068.dmg.mount/System/Library/PrivateFrameworks/SafariFoundation.framework/Versions/A/XPCServices/CredentialProviderExtensionHelper.xpc/Contents/MacOS/CredentialProviderExtensionHelper`
-- `/tmp/090-49769-068.dmg.mount/System/Library/PrivateFrameworks/SafariFoundation.framework/Versions/A/XPCServices/SafariConfigurationSubscriber.xpc/Contents/MacOS/SafariConfigurationSubscriber`
-- `/tmp/090-49769-068.dmg.mount/System/Library/PrivateFrameworks/SafariPlatformSupport.framework/Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/MacOS/com.apple.SafariPlatformSupport.Helper`
-- `/tmp/090-49769-068.dmg.mount/System/Library/PrivateFrameworks/SafariShared.framework/Versions/A/XPCServices/com.apple.Safari.CredentialExtractionHelper.xpc/Contents/MacOS/com.apple.Safari.CredentialExtractionHelper`
-- `/tmp/090-49769-068.dmg.mount/System/Library/PrivateFrameworks/SafariShared.framework/Versions/A/XPCServices/com.apple.Safari.SearchHelper.xpc/Contents/MacOS/com.apple.Safari.SearchHelper`
-- `/tmp/090-49769-068.dmg.mount/System/Library/PrivateFrameworks/WebDriver.framework/Versions/A/XPCServices/com.apple.WebDriver.HTTPService.xpc/Contents/MacOS/com.apple.WebDriver.HTTPService`
-- `/tmp/090-49769-068.dmg.mount/System/iOSSupport/System/Library/Frameworks/JavaScriptCore.framework/Versions/A/Helpers/jsc`
-- `/tmp/090-49769-068.dmg.mount/System/iOSSupport/System/Library/Frameworks/WebKit.framework/Versions/A/XPCServices/com.apple.WebKit.GPU.xpc/Contents/MacOS/com.apple.WebKit.GPU`
-- `/tmp/090-49769-068.dmg.mount/System/iOSSupport/System/Library/Frameworks/WebKit.framework/Versions/A/XPCServices/com.apple.WebKit.GPU.xpc/Contents/PlugIns/MediaFormatReader.bundle/Contents/MacOS/MediaFormatReader`
-- `/tmp/090-49769-068.dmg.mount/System/iOSSupport/System/Library/Frameworks/WebKit.framework/Versions/A/XPCServices/com.apple.WebKit.Networking.xpc/Contents/MacOS/com.apple.WebKit.Networking`
-- `/tmp/090-49769-068.dmg.mount/System/iOSSupport/System/Library/Frameworks/WebKit.framework/Versions/A/XPCServices/com.apple.WebKit.WebContent.CaptivePortal.xpc/Contents/MacOS/com.apple.WebKit.WebContent.CaptivePortal`
-- `/tmp/090-49769-068.dmg.mount/System/iOSSupport/System/Library/Frameworks/WebKit.framework/Versions/A/XPCServices/com.apple.WebKit.WebContent.CaptivePortal.xpc/Contents/PlugIns/MediaFormatReader.bundle/Contents/MacOS/MediaFormatReader`
-- `/tmp/090-49769-068.dmg.mount/System/iOSSupport/System/Library/Frameworks/WebKit.framework/Versions/A/XPCServices/com.apple.WebKit.WebContent.Development.xpc/Contents/MacOS/com.apple.WebKit.WebContent.Development`
-- `/tmp/090-49769-068.dmg.mount/System/iOSSupport/System/Library/Frameworks/WebKit.framework/Versions/A/XPCServices/com.apple.WebKit.WebContent.Development.xpc/Contents/PlugIns/MediaFormatReader.bundle/Contents/MacOS/MediaFormatReader`
-- `/tmp/090-49769-068.dmg.mount/System/iOSSupport/System/Library/Frameworks/WebKit.framework/Versions/A/XPCServices/com.apple.WebKit.WebContent.xpc/Contents/MacOS/com.apple.WebKit.WebContent`
-- `/tmp/090-49769-068.dmg.mount/System/iOSSupport/System/Library/Frameworks/WebKit.framework/Versions/A/XPCServices/com.apple.WebKit.WebContent.xpc/Contents/PlugIns/MediaFormatReader.bundle/Contents/MacOS/MediaFormatReader`
 - `/usr/sbin/shareddspd`
 
-</details>
+### ❌ Removed (5)
 
-### ❌ Removed (26)
-
-- `/System/Library/Extensions/AppleIntelKBLGraphicsMTLDriver.bundle/Contents/MacOS/AppleIntelKBLGraphicsMTLDriver`
-- `/System/Library/Frameworks/AuthenticationServices.framework/Versions/A/XPCServices/com.apple.AuthenticationServices.Helper.xpc/Contents/MacOS/com.apple.AuthenticationServices.Helper`
-- `/System/Library/Frameworks/JavaScriptCore.framework/Versions/A/Helpers/jsc`
-- `/System/Library/Frameworks/OpenCL.framework/Versions/A/Libraries/3425AMD/libcl2module.dylib`
-- `/System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/3425AMD/libLLVMContainer.dylib`
-- `/System/Library/Frameworks/SafariServices.framework/Versions/A/XPCServices/com.apple.SafariServices.ExtensionHelper.xpc/Contents/MacOS/com.apple.SafariServices.ExtensionHelper`
-- `/System/Library/Frameworks/SafariServices.framework/Versions/A/XPCServices/com.apple.SafariServices.xpc/Contents/MacOS/com.apple.SafariServices`
 - `/System/Library/PrivateFrameworks/AppleMediaServicesUI.framework/PlugIns/UtilityExtension_macOS.appex/Contents/MacOS/UtilityExtension_macOS`
 - `/System/Library/PrivateFrameworks/ImageGenerationUI.framework/Versions/A/PlugIns/com.apple.ImageGenerationUI.DiagnosticExtension.appex/Contents/MacOS/com.apple.ImageGenerationUI.DiagnosticExtension`
 - `/System/Library/PrivateFrameworks/ModelCatalogRuntime.framework/Versions/A/XPCServices/ModelCatalogCompilationService.xpc/Contents/MacOS/ModelCatalogCompilationService`
 - `/System/iOSSupport/System/Library/PrivateFrameworks/AppleMediaServicesUI.framework/PlugIns/UtilityExtension_catalyst.appex/Contents/MacOS/UtilityExtension_catalyst`
-- `/tmp/090-49769-058.dmg.mount/System/Library/Frameworks/AuthenticationServices.framework/Versions/A/XPCServices/com.apple.AuthenticationServices.Helper.xpc/Contents/MacOS/com.apple.AuthenticationServices.Helper`
-- `/tmp/090-49769-058.dmg.mount/System/Library/Frameworks/JavaScriptCore.framework/Versions/A/Helpers/jsc`
-- `/tmp/090-49769-058.dmg.mount/System/Library/Frameworks/SafariServices.framework/Versions/A/XPCServices/com.apple.SafariServices.ExtensionHelper.xpc/Contents/MacOS/com.apple.SafariServices.ExtensionHelper`
-- `/tmp/090-49769-058.dmg.mount/System/Library/Frameworks/SafariServices.framework/Versions/A/XPCServices/com.apple.SafariServices.xpc/Contents/MacOS/com.apple.SafariServices`
-- `/tmp/090-49769-058.dmg.mount/System/iOSSupport/System/Library/Frameworks/JavaScriptCore.framework/Versions/A/Helpers/jsc`
-- `/tmp/090-49769-058.dmg.mount/System/iOSSupport/System/Library/Frameworks/WebKit.framework/Versions/A/XPCServices/com.apple.WebKit.GPU.xpc/Contents/MacOS/com.apple.WebKit.GPU`
-- `/tmp/090-49769-058.dmg.mount/System/iOSSupport/System/Library/Frameworks/WebKit.framework/Versions/A/XPCServices/com.apple.WebKit.GPU.xpc/Contents/PlugIns/MediaFormatReader.bundle/Contents/MacOS/MediaFormatReader`
-- `/tmp/090-49769-058.dmg.mount/System/iOSSupport/System/Library/Frameworks/WebKit.framework/Versions/A/XPCServices/com.apple.WebKit.Networking.xpc/Contents/MacOS/com.apple.WebKit.Networking`
-- `/tmp/090-49769-058.dmg.mount/System/iOSSupport/System/Library/Frameworks/WebKit.framework/Versions/A/XPCServices/com.apple.WebKit.WebContent.CaptivePortal.xpc/Contents/MacOS/com.apple.WebKit.WebContent.CaptivePortal`
-- `/tmp/090-49769-058.dmg.mount/System/iOSSupport/System/Library/Frameworks/WebKit.framework/Versions/A/XPCServices/com.apple.WebKit.WebContent.CaptivePortal.xpc/Contents/PlugIns/MediaFormatReader.bundle/Contents/MacOS/MediaFormatReader`
-- `/tmp/090-49769-058.dmg.mount/System/iOSSupport/System/Library/Frameworks/WebKit.framework/Versions/A/XPCServices/com.apple.WebKit.WebContent.Development.xpc/Contents/MacOS/com.apple.WebKit.WebContent.Development`
-- `/tmp/090-49769-058.dmg.mount/System/iOSSupport/System/Library/Frameworks/WebKit.framework/Versions/A/XPCServices/com.apple.WebKit.WebContent.Development.xpc/Contents/PlugIns/MediaFormatReader.bundle/Contents/MacOS/MediaFormatReader`
-- `/tmp/090-49769-058.dmg.mount/System/iOSSupport/System/Library/Frameworks/WebKit.framework/Versions/A/XPCServices/com.apple.WebKit.WebContent.xpc/Contents/MacOS/com.apple.WebKit.WebContent`
-- `/tmp/090-49769-058.dmg.mount/System/iOSSupport/System/Library/Frameworks/WebKit.framework/Versions/A/XPCServices/com.apple.WebKit.WebContent.xpc/Contents/PlugIns/MediaFormatReader.bundle/Contents/MacOS/MediaFormatReader`
 - `/usr/libexec/silhouette`
 
-### ⬆️ Updated (980)
+### ⬆️ Updated (981)
 
 <details>
   <summary><i>View Updated</i></summary>
@@ -8208,6 +9297,7 @@ CStrings:
 - [/System/Library/Frameworks/FileProvider.framework/OverrideBundles/FinderSyncCollaborationFileProviderOverride.bundle/Contents/MacOS/FinderSyncCollaborationFileProviderOverride](MACHOS/FinderSyncCollaborationFileProviderOverride.md)
 - [/System/Library/Frameworks/FileProvider.framework/Support/fileproviderd](MACHOS/fileproviderd.md)
 - [/System/Library/Frameworks/ImageCaptureCore.framework/Versions/A/XPCServices/mscamerad-xpc.xpc/Contents/MacOS/mscamerad-xpc](MACHOS/mscamerad-xpc.md)
+- [/System/Library/Frameworks/JavaScriptCore.framework/Versions/A/Helpers/jsc](MACHOS/jsc.md)
 - [/System/Library/Frameworks/LocalAuthentication.framework/Support/MechanismPlugins/MechPasscode.bundle/Contents/MacOS/MechPasscode](MACHOS/MechPasscode.md)
 - [/System/Library/Frameworks/LocalAuthentication.framework/Support/MechanismPlugins/MechTouchId.bundle/Contents/MacOS/MechTouchId](MACHOS/MechTouchId.md)
 - [/System/Library/Frameworks/LocalAuthentication.framework/Support/MechanismPlugins/MechWatch.bundle/Contents/MacOS/MechWatch](MACHOS/MechWatch.md)
