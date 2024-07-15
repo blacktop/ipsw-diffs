@@ -16,40 +16,10 @@
 
 ## MachO
 
-### 🆕 NEW (4)
-
-- `/usr/lib/libmobileassetd.dylib`
-- `/usr/lib/libobjc-trampolines.dylib`
-- `/usr/lib/libstdc++.6.0.9.dylib`
-- `/usr/libexec/BatteryAlgorithms.framework/BatteryAlgorithms`
-
 ### ⬆️ Updated (8)
 
 <details>
   <summary><i>View Updated</i></summary>
-
-#### MobileSlideShow
-
->  `/Applications/MobileSlideShow.app/MobileSlideShow`
-
-```diff
-
--700.26.103.0.0
-+700.26.104.0.0
-   __TEXT.__text: 0x4b408
-   __TEXT.__auth_stubs: 0x1b00
-   __TEXT.__objc_stubs: 0x7dc0
-
-   __TEXT.__eh_frame: 0xbc8
-   __DATA_CONST.__auth_got: 0xd90
-   __DATA_CONST.__got: 0xb70
--  __DATA_CONST.__auth_ptr: 0x5c8
-+  __DATA_CONST.__auth_ptr: 0x5c0
-   __DATA_CONST.__const: 0x31a0
-   __DATA_CONST.__cfstring: 0x41a0
-   __DATA_CONST.__objc_classlist: 0x78
-
-```
 
 #### com.apple.UIKit.ColorPicker
 
@@ -241,6 +211,29 @@ Symbols:
 +  __DATA_CONST.__auth_ptr: 0xa10
    __DATA_CONST.__const: 0x2f68
    __DATA_CONST.__cfstring: 0x360
+   __DATA_CONST.__objc_classlist: 0x78
+
+```
+
+#### MobileSlideShow
+
+>  `/Applications/MobileSlideShow.app/MobileSlideShow`
+
+```diff
+
+-700.26.103.0.0
++700.26.104.0.0
+   __TEXT.__text: 0x4b408
+   __TEXT.__auth_stubs: 0x1b00
+   __TEXT.__objc_stubs: 0x7dc0
+
+   __TEXT.__eh_frame: 0xbc8
+   __DATA_CONST.__auth_got: 0xd90
+   __DATA_CONST.__got: 0xb70
+-  __DATA_CONST.__auth_ptr: 0x5c8
++  __DATA_CONST.__auth_ptr: 0x5c0
+   __DATA_CONST.__const: 0x31a0
+   __DATA_CONST.__cfstring: 0x41a0
    __DATA_CONST.__objc_classlist: 0x78
 
 ```
