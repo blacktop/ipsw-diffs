@@ -1,3 +1,0 @@
-## 🔑 Entitlements
-
-- No differences found
