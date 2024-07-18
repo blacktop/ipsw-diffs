@@ -18,7 +18,7 @@ jobs:
   # This workflow contains a single job called "build"
   build:
     # The type of runner that the job will run on
-    runs-on: ubuntu-latest
+    runs-on: macos-latest
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
@@ -26,10 +26,23 @@ jobs:
       - uses: actions/checkout@v4
 
       # Runs a diff
+      - name: Download `ipsw`
+        run: |
+          brew install blacktop/tap/ipsw 
+
+      # Runs a diff
       - name: Create report file
         run: |
-          date +%s > report.txt
-          git add report.txt
+          ipsw dl appledb --os macOS --version '${{ env.PREV_MACOS_VERSION }}' --device iPhone16,2 --output /tmp/IPSW1
+          ipsw dl appledb --os macOS --version '${{ env.NEXT_MACOS_VERSION }}' --device iPhone16,2 --output /tmp/IPSW2
+          ipsw diff --output . \
+                    --markdown \
+                    --fw \
+                    --launchd \
+                    --feat \
+                    --strs \
+                    /tmp/IPSW1/*.ipsw \
+                    /tmp/IPSW2/*.ipsw
   
       - name: Commit report
         run: |
