@@ -59,10 +59,7 @@ jobs:
                     --strs \
                     /tmp/IPSW1/*.ipsw \
                     /tmp/IPSW2/*.ipsw
-
-      - name: Commit report
-        run: |
           git config --global user.name 'blacktop'
           git config --global user.email 'blacktop@users.noreply.github.com'
-          git commit -am "Automated Diff"
+          git commit -am "Automated Diff of ${{ inputs.osType }} ${{ inputs.prev_build }} -> ${{ inputs.next_build }}"
           git push
