@@ -33,8 +33,8 @@ jobs:
       # Runs a diff
       - name: Create report file
         run: |
-          ipsw dl appledb --os macOS --version '${{ env.PREV_MACOS_VERSION }}' --device iPhone16,2 --output /tmp/IPSW1
-          ipsw dl appledb --os macOS --version '${{ env.NEXT_MACOS_VERSION }}' --device iPhone16,2 --output /tmp/IPSW2
+          ipsw dl appledb --os macOS --version '${{ env.PREV_MACOS_VERSION }}' --device iPhone16,2 --output /tmp/IPSW1 --confirm
+          ipsw dl appledb --os macOS --version '${{ env.NEXT_MACOS_VERSION }}' --device iPhone16,2 --output /tmp/IPSW2 --confirm
           ipsw diff --output . \
                     --markdown \
                     --fw \
