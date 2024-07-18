@@ -15,12 +15,12 @@ on:
         options:
         - macOS
         - iOS
-      prev_version:
-        description: Previous version
+      prev_build:
+        description: Previous build
         type: string
         required: true
-      next_version:
-        description: Next version
+      next_build:
+        description: Next build
         type: string
         required: true
 
@@ -49,8 +49,8 @@ jobs:
       - name: Create Diff
         run: |
           mkdir /tmp/IPSW1 /tmp/IPSW2
-          ipsw dl appledb --os ${{ inputs.osType }} --version '${{ inputs.prev_version }}' --output /tmp/IPSW1 --confirm
-          ipsw dl appledb --os ${{ inputs.osType }} --version '${{ inputs.next_version }}' --output /tmp/IPSW2 --confirm
+          ipsw dl appledb --os ${{ inputs.osType }} --build '${{ inputs.prev_build }}' --output /tmp/IPSW1 --confirm
+          ipsw dl appledb --os ${{ inputs.osType }} --build '${{ inputs.next_build }}' --output /tmp/IPSW2 --confirm
           ipsw diff --output . \
                     --markdown \
                     --fw \
