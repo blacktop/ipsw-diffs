@@ -51,14 +51,14 @@ jobs:
           mkdir /tmp/IPSW1 /tmp/IPSW2
           ipsw dl appledb --os ${{ inputs.osType }} --build '${{ inputs.prev_build }}' --output /tmp/IPSW1 --confirm
           ipsw dl appledb --os ${{ inputs.osType }} --build '${{ inputs.next_build }}' --output /tmp/IPSW2 --confirm
-          ipsw diff --output . \
-                    --markdown \
-                    --fw \
-                    --launchd \
-                    --feat \
-                    --strs \
-                    /tmp/IPSW1/*.ipsw \
-                    /tmp/IPSW2/*.ipsw
+          ipsw diff -V --output . \
+                       --markdown \
+                       --fw \
+                       --launchd \
+                       --feat \
+                       --strs \
+                       /tmp/IPSW1/*.ipsw \
+                       /tmp/IPSW2/*.ipsw
           git config --global user.name 'blacktop'
           git config --global user.email 'blacktop@users.noreply.github.com'
           git commit -am "Automated Diff of ${{ inputs.osType }} ${{ inputs.prev_build }} -> ${{ inputs.next_build }}"
