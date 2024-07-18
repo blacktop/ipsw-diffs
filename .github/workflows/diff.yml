@@ -6,6 +6,7 @@ name: Diff
 on:
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
+    inputs:
       osType:
         description: 'OS Type'
         required: true
@@ -14,7 +15,6 @@ on:
         options:
         - macOS
         - iOS
-    inputs:
       prev_version:
         description: Previous version
         type: string
