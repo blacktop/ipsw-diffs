@@ -33,6 +33,7 @@ jobs:
       # Runs a diff
       - name: Create report file
         run: |
+          mkdir -p /tmp/{IPSW1, IPSW2}
           ipsw dl appledb --os macOS --version '${{ vars.PREV_MACOS_VERSION }}' --output /tmp/IPSW1 --confirm
           ipsw dl appledb --os macOS --version '${{ vars.NEXT_MACOS_VERSION }}' --output /tmp/IPSW2 --confirm
           ipsw diff --output . \
