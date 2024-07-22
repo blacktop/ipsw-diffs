@@ -15,6 +15,14 @@ on:
         options:
         - macOS
         - iOS
+      device:
+        description: 'Device'
+        required: true
+        default: 'Mac14,3'
+        type: choice
+        options:
+        - Mac14,3
+        - iPhone16,2
       prev_build:
         description: Previous build
         type: string
@@ -49,8 +57,8 @@ jobs:
       - name: Create Diff
         run: |
           mkdir /tmp/IPSW1 /tmp/IPSW2
-          ipsw dl appledb --os ${{ inputs.osType }} --build '${{ inputs.prev_build }}' --output /tmp/IPSW1 --confirm
-          ipsw dl appledb --os ${{ inputs.osType }} --build '${{ inputs.next_build }}' --output /tmp/IPSW2 --confirm
+          ipsw dl appledb --os ${{ inputs.osType }} --device '${{ inputs.device }}' --build '${{ inputs.prev_build }}' --output /tmp/IPSW1 --confirm
+          ipsw dl appledb --os ${{ inputs.osType }} --device '${{ inputs.device }}' --build '${{ inputs.next_build }}' --output /tmp/IPSW2 --confirm
           ipsw diff -V --output . \
                        --markdown \
                        --fw \
