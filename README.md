@@ -11,6 +11,7 @@
 - [17.6 beta 1 (21G5052e) .vs 17.6 beta 2 (21G5061c)](17_6_21G5052e__vs_17_6_21G5061c/TOC.md)
 - [17.6 beta 2 (21G5061c) .vs 17.6 beta 3 (21G5066d)](17_6_21G5061c__vs_17_6_21G5066d/TOC.md)
 - [17.6 beta 3 (21G5066d) .vs 17.6 beta 4 (21G5075a)](17_6_21G5066d__vs_17_6_21G5075a/TOC.md)
+- [17.6 beta 4 (21G5075a) .vs 17.6 RC (21G79)](17_6_21G5075a__vs_17_6_21G79/TOC.md)
 
 ### iOS 18.0 beta
 
@@ -18,6 +19,7 @@
 - [18.0 beta 1 (22A5282m) .vs 18.0 beta 2 (22A5297f)](18_0_22A5282m__vs_18_0_22A5297f/TOC.md)
 - [18.0 beta 2 (22A5297f) .vs 18.0 beta 3 (22A5307f)](18_0_22A5297f__vs_18_0_22A5307f/TOC.md)
 - [18.0 beta 3 (22A5307f) .vs 18.0 beta 3 *(revision)* (22A5307i)](18_0_22A5307f__vs_18_0_22A5307i/TOC.md)
+- [18.0 beta 3 *(revision)* (22A5307i) .vs 18.0 beta 4 (22A5316j)](18_0_22A5307i__vs_18_0_22A5316j/TOC.md)
 
 ### macOS 15.0 beta
 
