@@ -1,0 +1,453 @@
+## CarPlayAssetUI
+
+> `/System/Library/PrivateFrameworks/CarPlayAssetUI.framework/CarPlayAssetUI`
+
+```diff
+
+-286.1.0.0.0
+-  __TEXT.__text: 0x275b1c
+-  __TEXT.__auth_stubs: 0x3d10
++288.2.0.0.0
++  __TEXT.__text: 0x26dc68
++  __TEXT.__auth_stubs: 0x3cf0
+   __TEXT.__objc_methlist: 0x94
+-  __TEXT.__const: 0x24b74
+-  __TEXT.__cstring: 0x49ee
+-  __TEXT.__swift5_typeref: 0xfd80
+-  __TEXT.__constg_swiftt: 0x6e94
+-  __TEXT.__swift5_reflstr: 0x5434
+-  __TEXT.__swift5_fieldmd: 0x8930
+-  __TEXT.__swift5_builtin: 0x280
+-  __TEXT.__swift5_assocty: 0x19b8
+-  __TEXT.__swift5_capture: 0x175c
+-  __TEXT.__swift5_proto: 0x2490
+-  __TEXT.__swift5_types: 0xa10
++  __TEXT.__const: 0x24154
++  __TEXT.__cstring: 0x49de
++  __TEXT.__swift5_typeref: 0xf88a
++  __TEXT.__constg_swiftt: 0x6d68
++  __TEXT.__swift5_reflstr: 0x5444
++  __TEXT.__swift5_fieldmd: 0x8798
++  __TEXT.__swift5_builtin: 0x294
++  __TEXT.__swift5_assocty: 0x1988
++  __TEXT.__swift5_capture: 0x165c
++  __TEXT.__swift5_proto: 0x23dc
++  __TEXT.__swift5_types: 0x9ec
+   __TEXT.__swift5_protos: 0x38
+-  __TEXT.__swift5_mpenum: 0x54c
+-  __TEXT.__oslogstring: 0x491
+-  __TEXT.__unwind_info: 0xa4e0
+-  __TEXT.__eh_frame: 0x9a78
++  __TEXT.__swift5_mpenum: 0x554
++  __TEXT.__oslogstring: 0x741
++  __TEXT.__unwind_info: 0xa250
++  __TEXT.__eh_frame: 0x9750
+   __TEXT.__objc_classname: 0x4f
+-  __TEXT.__objc_methname: 0xe82
++  __TEXT.__objc_methname: 0xe76
+   __TEXT.__objc_methtype: 0x1ec
+   __DATA_CONST.__got: 0xef0
+-  __DATA_CONST.__const: 0x758
++  __DATA_CONST.__const: 0x778
+   __DATA_CONST.__objc_classlist: 0x98
+   __DATA_CONST.__objc_protolist: 0x40
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x488
++  __DATA_CONST.__objc_selrefs: 0x480
+   __DATA_CONST.__objc_protorefs: 0x20
+-  __AUTH_CONST.__auth_got: 0x1e88
+-  __AUTH_CONST.__auth_ptr: 0x1d38
+-  __AUTH_CONST.__const: 0x164e0
++  __AUTH_CONST.__auth_got: 0x1e78
++  __AUTH_CONST.__auth_ptr: 0x1d18
++  __AUTH_CONST.__const: 0x15ef8
+   __AUTH_CONST.__objc_const: 0x19c8
+   __AUTH.__objc_data: 0x368
+   __AUTH.__data: 0x3160
+-  __DATA.__data: 0x9a98
+-  __DATA.__bss: 0x47070
+-  __DATA.__common: 0x108
++  __DATA.__data: 0x9870
++  __DATA.__bss: 0x459e0
++  __DATA.__common: 0x128
+   - /System/Library/Frameworks/Combine.framework/Combine
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 15578
+-  Symbols:   441
+-  CStrings:  361
++  Functions: 15349
++  Symbols:   436
++  CStrings:  0
+ 
+Symbols:
+- _swift_task_isCurrentExecutor
+- _swift_unknownObjectRetain_n
+CStrings:
+- "LoggerCMm"
+- "PAAE23actionUndoingDifference4from6Type_1_14MutatingActionQZSg_0G2_2_AGQZSg0G2_3_AGQZSg0G2_4_AGQZSgtSgx_tF"
+- "_$s16SiriDialogEngine0B6LengthCMn"
+- "_$s16SiriDialogEngine10CATWrapperC07executeB05catId10parametersSaySo016PatternExecutionB0CGSS_s13KeyValuePairsVySSypSgGtYaKFTjTu"
+- "_$s16SiriDialogEngine10CATWrapperC14executePattern9patternId10parametersSo0F15ExecutionResultCSS_s13KeyValuePairsVySSypSgGtYaKFTjTu"
+- "_$s16SiriDialogEngine10CATWrapperC7execute5catId10parameters0A7KitFlow16TemplatingResultVSS_s13KeyValuePairsVySSypSgGtYaKFTjTu"
+- "_$s16SiriDialogEngine11CatCallableMp"
+- "_$s16SiriDialogEngine11PhonemeDataVMn"
+- "_$s16SiriDialogEngine15SpeakableStringVMn"
+- "_$s16SiriDialogEngine7CATTypeMp"
+- "_$s16SiriDialogEngine7CATTypeP02isB4TypeSbvgZTq"
+- "_$s16SiriDialogEngine7CATTypeP11catTypeNameSSvgZTq"
+- "_$s16SiriDialogEngine7CATTypeP11getPropertyyypSgSSFTq"
+- "_$s16SiriDialogEngine7CATTypeP11mockGlobalsAA10CATGlobalsCSgvMTq"
+- "_$s16SiriDialogEngine7CATTypeP11mockGlobalsAA10CATGlobalsCSgvgTq"
+- "_$s16SiriDialogEngine7CATTypeP11mockGlobalsAA10CATGlobalsCSgvsTq"
+- "_$s16SiriDialogEngine7CATTypeP12toDictionarySDySSypGvgTq"
+- "_$s16SiriDialogEngine7CATTypePSETb"
+- "_$s16SiriDialogEngine7CATTypePSeTb"
+- "_$s16SiriDialogEngine8CATValueOMn"
+- "_$s16SiriDialogEngine9CATOptionVMn"
+- "_$s18SiriSuggestionsKit08InternalB10RepositoryP014getAsyncPooledB0SayAA17SuggestionDetailsVGyYaFTjTu"
+- "_$s18SiriSuggestionsKit0B18ServiceRefreshableP12refreshAsyncyyYaFTjTu"
+- "_$s18SiriSuggestionsKit11DestroyableP7destroyyyYaFTjTu"
+- "_$s18SiriSuggestionsKit15AsyncAwaitUtilsO14runStableOrder8elements16timeoutBehaviour7executeSayq_GSayxG_AA07TimeoutL0Vyxq_GSgAHxYaYbctYas8SendableRzsANR_r0_lFZTu"
+- "_$s18SiriSuggestionsKit15AsyncAwaitUtilsO3run8elements16timeoutBehaviour7executeSayq_GSayxG_AA07TimeoutJ0Vyxq_GSgAHxYaYbKctYaKs8SendableRzsANR_r0_lFZTu"
+- "_$s18SiriSuggestionsKit15SignalExtractorP7extract11interaction11environmentSayAA0D0CGAA11Interaction_p_AA19EnvironmentSnapshot_ptYaFTjTu"
+- "_$s18SiriSuggestionsKit16SignalSubscriberP21getAsyncSubscriptionsSDyAA0D0CSayAA31CandidateSuggestionConfigurator_pGGyYaFTjTu"
+- "_$s18SiriSuggestionsKit16SignalSubscriberP27getAsyncLookupSubscriptionsSDyAA0dH3KeyVSayAA31CandidateSuggestionConfigurator_pGGyYaFTjTu"
+- "_$s18SiriSuggestionsKit17AppDetailsBuilderP5buildAA0dE0_pSgyYaFTjTu"
+- "_$s18SiriSuggestionsKit17InternalFinalizerP8finalise10suggestion11environmentAA19CandidateSuggestion_pSgAaG_p_AA19EnvironmentSnapshot_ptYaFTjTu"
+- "_$s18SiriSuggestionsKit19CandidateSuggestionP15suggestionGroupAA0eG0_pvgTjTu"
+- "_$s18SiriSuggestionsKit19CandidateSuggestionPAAE15suggestionGroupAA0eG0_pvgTu"
+- "_$s18SiriSuggestionsKit19OwnerConfigProviderP19getAllOwnersConfigsAA0hdJ0CyYaFTjTu"
+- "_$s18SiriSuggestionsKit19OwnerConfigProviderPAAE12bundleLoaded24globalLifecyclecontaineryAA24GlobalLifeCycleContainer_p_tYaKFTu"
+- "_$s18SiriSuggestionsKit19PerSuggestionFilterCAA0eF0AAWP"
+- "_$s18SiriSuggestionsKit20NoOpSuggestionFilterCAA0fG0AAWP"
+- "_$s18SiriSuggestionsKit21OSFeatureFlagProviderCAA07FeatureeF0AAWP"
+- "_$s18SiriSuggestionsKit22BaseLifeCycleContainerP11allEntitiesSayypGvgTjTu"
+- "_$s18SiriSuggestionsKit23CascadingDialogCallbackCAA0eF0AAWP"
+- "_$s18SiriSuggestionsKit23DefaultDialogPropertiesVAA0eF0AAWP"
+- "_$s18SiriSuggestionsKit23LocalLifeCycleContainerC11globalStoreAcA06GlobalefG0_p_tYacfCTu"
+- "_$s18SiriSuggestionsKit24AppUsageTimestampFetcherP03getdE10Timestamps7optionsSDySSSdGSo18BMPublisherOptionsCSg_tYaFTjTu"
+- "_$s18SiriSuggestionsKit24GlobalLifeCycleContainerP05addToeF04type6entityyqd__m_qd__tYas8SendableRd__lFTjTu"
+- "_$s18SiriSuggestionsKit24GlobalLifeCycleContainerP05addToeF05owner13localEntitiesyAA5Owner_p_SDySSSayypGGtYaFTjTu"
+- "_$s18SiriSuggestionsKit24GlobalLifeCycleContainerP05addToeF06entityys8Sendable_p_tYaFTjTu"
+- "_$s18SiriSuggestionsKit24GlobalLifeCycleContainerP7destroy5owneryAA5Owner_p_tYaFTjTu"
+- "_$s18SiriSuggestionsKit24GlobalLifeCycleContainerP8entitiesSDySSSayypGGvgTjTu"
+- "_$s18SiriSuggestionsKit24GlobalLifeCycleContainerP9getEntity10entityTypeSayqd__GSgqd__m_tYas8SendableRd__lFTjTu"
+- "_$s18SiriSuggestionsKit24GlobalLifeCycleContainerPAAE05addToeF04type6entityyqd__m_qd__tYas8SendableRd__lFTu"
+- "_$s18SiriSuggestionsKit24GlobalLifeCycleContainerPAAE05addToeF06entityys8Sendable_p_tYaFTu"
+- "_$s18SiriSuggestionsKit24GlobalLifeCycleContainerPAAE05addToeF08typeName6entityySS_s8Sendable_ptYaFTu"
+- "_$s18SiriSuggestionsKit24GlobalLifeCycleContainerPAAE12bundleLoadedyyYaFTu"
+- "_$s18SiriSuggestionsKit24GlobalLifeCycleContainerPAAE5startyyYaFTu"
+- "_$s18SiriSuggestionsKit26DefaultCoreAnalyticsClientCAA0efabG0AAWP"
+- "_$s18SiriSuggestionsKit29AppUsageTimestampBiomeFetcherCAA0defH0AAWP"
+- "_$s18SiriSuggestionsKit31CandidateSuggestionConfiguratorP13updateContext7context6signalyAA0H0_pz_AA22EnvironmentAwareSignalVtYaFTjTu"
+- "_$s18SiriSuggestionsKit31CandidateSuggestionConfiguratorP7isValid6signalSbAA22EnvironmentAwareSignalV_tYaFTjTu"
+- "_$s18SiriSuggestionsKit31PlatformSignalExtractorProviderP3get11interaction11environmentAA0eF0_pSgAA11Interaction_p_AA19EnvironmentSnapshot_ptYaFTjTu"
+- "_$s18SiriSuggestionsKit7ContextPAAE13setWindowSeedyySdYaFTu"
+- "_$s18SiriSuggestionsKit7ContextPAAE14getSourceOwnerAA0G0_pyYaFTu"
+- "_$s18SiriSuggestionsKit7ContextPAAE17getInvocationTypeAA0fG0OyYaFTu"
+- "_$s18SiriSuggestionsKit7ContextPAAE18getWindowPartitionAA0fG0_pSgyYaFTu"
+- "_$s18SiriSuggestionsKit7ContextPAAE18setWindowPartition06windowG0yAA0fG0_p_tYaFTu"
+- "_$s18SiriSuggestionsKit7ContextPAAE32getSourceDialogCallbacksProviderAA0ghI0_pSgyYaFTu"
+- "_$s9Coherence10AnyCRValueV15visitReferencesyyAA16ReferenceVisitor_pF"
+- "_$s9Coherence10AnyCRValueV4copy18renamingReferencesACSDyAA9CRKeyPathVAGGSg_tF"
+- "_$s9Coherence10AnyCRValueVSeAAMc"
+- "_$s9Coherence10CRSequenceV12makeIteratorAC0D0Vyx_GyF"
+- "_$s9Coherence10CRSequenceV5countSivg"
+- "_$s9Coherence10CRSequenceV6filteryACyxGSbxKXEKF"
+- "_$s9Coherence10CRSequenceV8IteratorV4nextxSgyF"
+- "_$s9Coherence10CRSequenceV8hasDelta4fromSbACyxG_tF"
+- "_$s9Coherence10CRSequenceVMa"
+- "_$s9Coherence10CRSequenceVyACyxGqd__c7ElementQyd__RszSTRd__lufC"
+- "_$s9Coherence10CRStruct_1PAAE5delta_4fromAA0B16MergeableDelta_1VyxGSgAA9CRContextC_xtF"
+- "_$s9Coherence10CRStruct_1PAAE5merge5deltaSbAA0B16MergeableDelta_1VyxG_tF"
+- "_$s9Coherence10CRStruct_1PAAE8canMerge5deltaSbAA0B16MergeableDelta_1VyxG_tF"
+- "_$s9Coherence10CRStruct_2PAAE5delta_4fromAA0B16MergeableDelta_2VyxGSgAA9CRContextC_xtF"
+- "_$s9Coherence10CRStruct_2PAAE5merge5deltaSbAA0B16MergeableDelta_2VyxG_tF"
+- "_$s9Coherence10CRStruct_2PAAE8canMerge5deltaSbAA0B16MergeableDelta_2VyxG_tF"
+- "_$s9Coherence10CRStruct_3PAAE5delta_4fromAA0B16MergeableDelta_3VyxGSgAA9CRContextC_xtF"
+- "_$s9Coherence10CRStruct_3PAAE5merge5deltaSbAA0B16MergeableDelta_3VyxG_tF"
+- "_$s9Coherence10CRStruct_3PAAE8canMerge5deltaSbAA0B16MergeableDelta_3VyxG_tF"
+- "_$s9Coherence10CRStruct_4PAAE15visitReferencesyyAA16ReferenceVisitor_pF"
+- "_$s9Coherence10CRStruct_4PAAE18finalizeTimestampsyyAA9CRContextCF"
+- "_$s9Coherence10CRStruct_4PAAE18minEncodingVersionAA09CRCodableE0Ovg"
+- "_$s9Coherence10CRStruct_4PAAE24needToFinalizeTimestampsSbyF"
+- "_$s9Coherence10CRStruct_4PAAE5applyyy6Type_1_14MutatingActionQZSg_0D2_2_AFQZSg0D2_3_AFQZSg0D2_4_AFQZSgtSgF"
+- "_$s9Coherence10CRStruct_4PAAE5delta_4fromAA0B16MergeableDelta_4VyxGSgAA9CRContextC_xtF"
+- "_$s9Coherence10CRStruct_4PAAE5merge5deltaSbAA0B16MergeableDelta_4VyxG_tF"
+- "_$s9Coherence10CRStruct_4PAAE8canMerge5deltaSbAA0B16MergeableDelta_4VyxG_tF"
+- "_$s9Coherence10CRStruct_5PAAE15visitReferencesyyAA16ReferenceVisitor_pF"
+- "_$s9Coherence10CRStruct_5PAAE18finalizeTimestampsyyAA9CRContextCF"
+- "_$s9Coherence10CRStruct_5PAAE18minEncodingVersionAA09CRCodableE0Ovg"
+- "_$s9Coherence10CRStruct_5PAAE20observableDifference4from4with010ObservableD0QzSgx_AA20ReferenceDifferencer_pSgtF"
+- "_$s9Coherence10CRStruct_5PAAE23actionUndoingDifference4from6Type_1_14MutatingActionQZSg_0G2_2_AGQZSg0G2_3_AGQZSg0G2_4_AGQZSg0G2_5_AGQZSgtSgx_tF"
+- "_$s9Coherence10CRStruct_5PAAE24needToFinalizeTimestampsSbyF"
+- "_$s9Coherence10CRStruct_5PAAE4copy18renamingReferencesxSDyAA9CRKeyPathVAGGSg_tF"
+- "_$s9Coherence10CRStruct_5PAAE5applyyy6Type_1_14MutatingActionQZSg_0D2_2_AFQZSg0D2_3_AFQZSg0D2_4_AFQZSg0D2_5_AFQZSgtSgF"
+- "_$s9Coherence10CRStruct_5PAAE5delta_4fromAA0B16MergeableDelta_5VyxGSgAA9CRContextC_xtF"
+- "_$s9Coherence10CRStruct_5PAAE5merge5deltaSbAA0B16MergeableDelta_5VyxG_tF"
+- "_$s9Coherence10CRStruct_5PAAE5mergeyyxF"
+- "_$s9Coherence10CRStruct_5PAAE8canMerge5deltaSbAA0B16MergeableDelta_5VyxG_tF"
+- "_$s9Coherence10CRStruct_5PAAE8hasDelta4fromSbx_tF"
+- "_$s9Coherence10CRStruct_5PAAE9fieldKeysSaySSGvgZ"
+- "_$s9Coherence10CRStruct_6PAAE15visitReferencesyyAA16ReferenceVisitor_pF"
+- "_$s9Coherence10CRStruct_6PAAE18finalizeTimestampsyyAA9CRContextCF"
+- "_$s9Coherence10CRStruct_6PAAE18minEncodingVersionAA09CRCodableE0Ovg"
+- "_$s9Coherence10CRStruct_6PAAE20observableDifference4from4with010ObservableD0QzSgx_AA20ReferenceDifferencer_pSgtF"
+- "_$s9Coherence10CRStruct_6PAAE23actionUndoingDifference4from6Type_1_14MutatingActionQZSg_0G2_2_AGQZSg0G2_3_AGQZSg0G2_4_AGQZSg0G2_5_AGQZSg0G2_6_AGQZSgtSgx_tF"
+- "_$s9Coherence10CRStruct_6PAAE24needToFinalizeTimestampsSbyF"
+- "_$s9Coherence10CRStruct_6PAAE4copy18renamingReferencesxSDyAA9CRKeyPathVAGGSg_tF"
+- "_$s9Coherence10CRStruct_6PAAE5applyyy6Type_1_14MutatingActionQZSg_0D2_2_AFQZSg0D2_3_AFQZSg0D2_4_AFQZSg0D2_5_AFQZSg0D2_6_AFQZSgtSgF"
+- "_$s9Coherence10CRStruct_6PAAE5delta_4fromAA0B16MergeableDelta_6VyxGSgAA9CRContextC_xtF"
+- "_$s9Coherence10CRStruct_6PAAE5merge5deltaSbAA0B16MergeableDelta_6VyxG_tF"
+- "_$s9Coherence10CRStruct_6PAAE5mergeyyxF"
+- "_$s9Coherence10CRStruct_6PAAE8canMerge5deltaSbAA0B16MergeableDelta_6VyxG_tF"
+- "_$s9Coherence10CRStruct_6PAAE8hasDelta4fromSbx_tF"
+- "_$s9Coherence10CRStruct_6PAAE9fieldKeysSaySSGvgZ"
+- "_$s9Coherence10CRStruct_7PAAE15visitReferencesyyAA16ReferenceVisitor_pF"
+- "_$s9Coherence10CRStruct_7PAAE18finalizeTimestampsyyAA9CRContextCF"
+- "_$s9Coherence10CRStruct_7PAAE18minEncodingVersionAA09CRCodableE0Ovg"
+- "_$s9Coherence10CRStruct_7PAAE20observableDifference4from4with010ObservableD0QzSgx_AA20ReferenceDifferencer_pSgtF"
+- "_$s9Coherence10CRStruct_7PAAE23actionUndoingDifference4from6Type_1_14MutatingActionQZSg_0G2_2_AGQZSg0G2_3_AGQZSg0G2_4_AGQZSg0G2_5_AGQZSg0G2_6_AGQZSg0G2_7_AGQZSgtSgx_tF"
+- "_$s9Coherence10CRStruct_7PAAE24needToFinalizeTimestampsSbyF"
+- "_$s9Coherence10CRStruct_7PAAE4copy18renamingReferencesxSDyAA9CRKeyPathVAGGSg_tF"
+- "_$s9Coherence10CRStruct_7PAAE5applyyy6Type_1_14MutatingActionQZSg_0D2_2_AFQZSg0D2_3_AFQZSg0D2_4_AFQZSg0D2_5_AFQZSg0D2_6_AFQZSg0D2_7_AFQZSgtSgF"
+- "_$s9Coherence10CRStruct_7PAAE5delta_4fromAA0B16MergeableDelta_7VyxGSgAA9CRContextC_xtF"
+- "_$s9Coherence10CRStruct_7PAAE5merge5deltaSbAA0B16MergeableDelta_7VyxG_tF"
+- "_$s9Coherence10CRStruct_7PAAE5mergeyyxF"
+- "_$s9Coherence10CRStruct_7PAAE8canMerge5deltaSbAA0B16MergeableDelta_7VyxG_tF"
+- "_$s9Coherence10CRStruct_7PAAE8hasDelta4fromSbx_tF"
+- "_$s9Coherence10CRStruct_7PAAE9fieldKeysSaySSGvgZ"
+- "_$s9Coherence10CRStruct_8PAAE15visitReferencesyyAA16ReferenceVisitor_pF"
+- "_$s9Coherence10CRStruct_8PAAE18finalizeTimestampsyyAA9CRContextCF"
+- "_$s9Coherence10CRStruct_8PAAE18minEncodingVersionAA09CRCodableE0Ovg"
+- "_$s9Coherence10CRStruct_8PAAE20observableDifference4from4with010ObservableD0QzSgx_AA20ReferenceDifferencer_pSgtF"
+- "_$s9Coherence10CRStruct_8PAAE23actionUndoingDifference4from6Type_1_14MutatingActionQZSg_0G2_2_AGQZSg0G2_3_AGQZSg0G2_4_AGQZSg0G2_5_AGQZSg0G2_6_AGQZSg0G2_7_AGQZSg0G2_8_AGQZSgtSgx_tF"
+- "_$s9Coherence10CRStruct_8PAAE24needToFinalizeTimestampsSbyF"
+- "_$s9Coherence10CRStruct_8PAAE4copy18renamingReferencesxSDyAA9CRKeyPathVAGGSg_tF"
+- "_$s9Coherence10CRStruct_8PAAE5applyyy6Type_1_14MutatingActionQZSg_0D2_2_AFQZSg0D2_3_AFQZSg0D2_4_AFQZSg0D2_5_AFQZSg0D2_6_AFQZSg0D2_7_AFQZSg0D2_8_AFQZSgtSgF"
+- "_$s9Coherence10CRStruct_8PAAE5delta_4fromAA0B16MergeableDelta_8VyxGSgAA9CRContextC_xtF"
+- "_$s9Coherence10CRStruct_8PAAE5merge5deltaSbAA0B16MergeableDelta_8VyxG_tF"
+- "_$s9Coherence10CRStruct_8PAAE5mergeyyxF"
+- "_$s9Coherence10CRStruct_8PAAE8canMerge5deltaSbAA0B16MergeableDelta_8VyxG_tF"
+- "_$s9Coherence10CRStruct_8PAAE8hasDelta4fromSbx_tF"
+- "_$s9Coherence10CRStruct_8PAAE9fieldKeysSaySSGvgZ"
+- "_$s9Coherence10CRStruct_9PAAE15visitReferencesyyAA16ReferenceVisitor_pF"
+- "_$s9Coherence10CRStruct_9PAAE18finalizeTimestampsyyAA9CRContextCF"
+- "_$s9Coherence10CRStruct_9PAAE18minEncodingVersionAA09CRCodableE0Ovg"
+- "_$s9Coherence10CRStruct_9PAAE20observableDifference4from4with010ObservableD0QzSgx_AA20ReferenceDifferencer_pSgtF"
+- "_$s9Coherence10CRStruct_9PAAE23actionUndoingDifference4from6Type_1_14MutatingActionQZSg_0G2_2_AGQZSg0G2_3_AGQZSg0G2_4_AGQZSg0G2_5_AGQZSg0G2_6_AGQZSg0G2_7_AGQZSg0G2_8_AGQZSg0G2_9_AGQZSgtSgx_tF"
+- "_$s9Coherence10CRStruct_9PAAE24needToFinalizeTimestampsSbyF"
+- "_$s9Coherence10CRStruct_9PAAE5applyyy6Type_1_14MutatingActionQZSg_0D2_2_AFQZSg0D2_3_AFQZSg0D2_4_AFQZSg0D2_5_AFQZSg0D2_6_AFQZSg0D2_7_AFQZSg0D2_8_AFQZSg0D2_9_AFQZSgtSgF"
+- "_$s9Coherence10CRStruct_9PAAE5delta_4fromAA0B16MergeableDelta_9VyxGSgAA9CRContextC_xtF"
+- "_$s9Coherence10CRStruct_9PAAE5merge5deltaSbAA0B16MergeableDelta_9VyxG_tF"
+- "_$s9Coherence10CRStruct_9PAAE5mergeyyxF"
+- "_$s9Coherence10CRStruct_9PAAE8canMerge5deltaSbAA0B16MergeableDelta_9VyxG_tF"
+- "_$s9Coherence10CRStruct_9PAAE8hasDelta4fromSbx_tF"
+- "_$s9Coherence10CRStruct_9PAAE9fieldKeysSaySSGvgZ"
+- "_$s9Coherence12CRDictionaryV5IndexVyxq__GSQAAMc"
+- "_$s9Coherence12CRDictionaryV8IteratorVyxq__GStAAMc"
+- "_$s9Coherence12CRDictionaryVyxq_GAA4CRDTAAMc"
+- "_$s9Coherence12CRDictionaryVyxq_GSlAAMc"
+- "_$s9Coherence12CRExtensibleOyxGAA7CRValueAAMc"
+- "_$s9Coherence12CRExtensibleOyxGSEAASe8RawValueRpzSEAFRQrlMc"
+- "_$s9Coherence12CRExtensibleOyxGSQAAMc"
+- "_$s9Coherence12CRExtensibleOyxGSeAASe8RawValueRpzSEAFRQrlMc"
+- "_$s9Coherence12CROrderedSetV12makeIteratorAC0E0Vyx_GyF"
+- "_$s9Coherence12CROrderedSetV2eeoiySbACyxG_AEtFZ"
+- "_$s9Coherence12CROrderedSetV3mapySayqd__Gqd__xKXEKlF"
+- "_$s9Coherence12CROrderedSetV4copy18renamingReferencesACyxGSDyAA9CRKeyPathVAHGSg_tF"
+- "_$s9Coherence12CROrderedSetV4move4from2toySi_SitF"
+- "_$s9Coherence12CROrderedSetV5countSivg"
+- "_$s9Coherence12CROrderedSetV5index5whereSiSgSbxKXE_tKF"
+- "_$s9Coherence12CROrderedSetV6append10contentsOfyqd___t7ElementQyd__RszSTRd__lF"
+- "_$s9Coherence12CROrderedSetV6appendyyxF"
+- "_$s9Coherence12CROrderedSetV6filteryACyxGSbxKXEKF"
+- "_$s9Coherence12CROrderedSetV6insert10contentsOf2atyqd___Sit7ElementQyd__RszSTRd__lF"
+- "_$s9Coherence12CROrderedSetV6insert_2atyx_SitF"
+- "_$s9Coherence12CROrderedSetV6remove2atySi_tF"
+- "_$s9Coherence12CROrderedSetV6removeyxSgxF"
+- "_$s9Coherence12CROrderedSetV6swapAtyySi_SitF"
+- "_$s9Coherence12CROrderedSetV8IteratorV4nextxSgyF"
+- "_$s9Coherence12CROrderedSetV8IteratorVMa"
+- "_$s9Coherence12CROrderedSetV8containsySbxF"
+- "_$s9Coherence12CROrderedSetV8endIndexSivg"
+- "_$s9Coherence12CROrderedSetV9removeAll5whereySbxKXE_tKF"
+- "_$s9Coherence12CROrderedSetV9removeAllyyF"
+- "_$s9Coherence12CROrderedSetVACyxGycfC"
+- "_$s9Coherence12CROrderedSetVMa"
+- "_$s9Coherence12CROrderedSetVyACyxGqd__c7ElementQyd__RszSTRd__lufC"
+- "_$s9Coherence12CROrderedSetVyxSicig"
+- "_$s9Coherence12CROrderedSetVyxSicis"
+- "_$s9Coherence12WeakTagged_3VyxGSHAAMc"
+- "_$s9Coherence12WeakTagged_3VyxGSQAAMc"
+- "_$s9Coherence12WeakTagged_9VyxGSHAAMc"
+- "_$s9Coherence12WeakTagged_9VyxGSQAAMc"
+- "_$s9Coherence13CRCodingErrorO012incompatibleA12FormatTooNewyA2CmFWC"
+- "_$s9Coherence13CRCodingErrorO13malformedDatayACSScACmFWC"
+- "_$s9Coherence13CRCodingErrorO22incompatibleUserFormatyACSicACmFWC"
+- "_$s9Coherence13CRCodingErrorOs0C0AAMc"
+- "_$s9Coherence13CRMaxRegisterVyxGAA4CRDTAAMc"
+- "_$s9Coherence13CROrderedTreeV6removeyyxF"
+- "_$s9Coherence13CROrderedTreeVACyxGycfC"
+- "_$s9Coherence13CROrderedTreeVyxGAA4CRDTAAMc"
+- "_$s9Coherence13CRStableAssetV3url10Foundation3URLVvg"
+- "_$s9Coherence13CRStableAssetV3url9extensionAC10Foundation3URLV_SSSgtcfC"
+- "_$s9Coherence13CRStableAssetVMa"
+- "_$s9Coherence13TaggedValue_1VyxGAA7CRValueAAMc"
+- "_$s9Coherence13TaggedValue_1VyxGSQAASQRzrlMc"
+- "_$s9Coherence13TaggedValue_2Vyxq_GAA7CRValueAAMc"
+- "_$s9Coherence13TaggedValue_2Vyxq_GSQAASQRzSQR_rlMc"
+- "_$s9Coherence13TaggedValue_9Vyxq_q0_q1_q2_q3_q4_q5_q6_GAA7CRValueAAMc"
+- "_$s9Coherence14CRAssetManagerC18encryptionDelegateAA010EncryptionE0_pSgvg"
+- "_$s9Coherence14CRDTDictionaryV11removeValue6forKeyq_Sgx_tF"
+- "_$s9Coherence14CRDTDictionaryV12makeIteratorAC0D0Vyxq__GyF"
+- "_$s9Coherence14CRDTDictionaryV2eeoiySbACyxq_G_AEtFZ"
+- "_$s9Coherence14CRDTDictionaryV5countSivg"
+- "_$s9Coherence14CRDTDictionaryV8IteratorV4nextx3key_q_5valuetSgyF"
+- "_$s9Coherence14CRDTDictionaryVACyxq_GycfC"
+- "_$s9Coherence14CRDTDictionaryVMa"
+- "_$s9Coherence14CRDTDictionaryVyq_SgxciM"
+- "_$s9Coherence14CRDTDictionaryVyq_Sgxcig"
+- "_$s9Coherence14CRDTDictionaryVyq_Sgxcis"
+- "_$s9Coherence14SharedTagged_2VyxGAA7CRValueAAMc"
+- "_$s9Coherence14SharedTagged_2VyxGSHAAMc"
+- "_$s9Coherence14SharedTagged_2VyxGSQAAMc"
+- "_$s9Coherence14SharedTagged_3V2idAA9CRKeyPathVvpMV"
+- "_$s9Coherence14SharedTagged_3VyxGAA7CRValueAAMc"
+- "_$s9Coherence14SharedTagged_3VyxGSHAAMc"
+- "_$s9Coherence14SharedTagged_3VyxGSQAAMc"
+- "_$s9Coherence14SharedTagged_9VyxGAA7CRValueAAMc"
+- "_$s9Coherence14SharedTagged_9VyxGSHAAMc"
+- "_$s9Coherence14SharedTagged_9VyxGSQAAMc"
+- "_$s9Coherence15CRDictionary_v1Vyxq_GAA4CRDTAAMc"
+- "_$s9Coherence15CRDictionary_v1Vyxq_GAA6CRTypeAAMc"
+- "_$s9Coherence15CRDictionary_v1Vyxq_GSTAAMc"
+- "_$s9Coherence15CRDictionary_v1Vyxq_GSlAAMc"
+- "_$s9Coherence16CRCodableVersionO8version1yA2CmFWC"
+- "_$s9Coherence16CRCodableVersionO8version2yA2CmFWC"
+- "_$s9Coherence16CRCodableVersionO8version3yA2CmFWC"
+- "_$s9Coherence17CRDataStoreBundleCMo"
+- "_$s9Coherence17CRStruct_10_FinalPAAE15visitReferencesyyAA16ReferenceVisitor_pF"
+- "_$s9Coherence17CRStruct_10_FinalPAAE18finalizeTimestampsyyAA9CRContextCF"
+- "_$s9Coherence17CRStruct_10_FinalPAAE18minEncodingVersionAA09CRCodableF0Ovg"
+- "_$s9Coherence17CRStruct_10_FinalPAAE20observableDifference4from4with010ObservableE0QzSgx_AA20ReferenceDifferencer_pSgtF"
+- "_$s9Coherence17CRStruct_10_FinalPAAE23actionUndoingDifference4from6Type_1_14MutatingActionQZSg_0H2_2_AGQZSg0H2_3_AGQZSg0H2_4_AGQZSg0H2_5_AGQZSg0H2_6_AGQZSg0H2_7_AGQZSg0H2_8_AGQZSg0H2_9_AGQZSg0H3_10_AGQZSgtSgx_tF"
+- "_$s9Coherence17CRStruct_10_FinalPAAE24needToFinalizeTimestampsSbyF"
+- "_$s9Coherence17CRStruct_10_FinalPAAE4copy18renamingReferencesxSDyAA9CRKeyPathVAGGSg_tF"
+- "_$s9Coherence17CRStruct_10_FinalPAAE5applyyy6Type_1_14MutatingActionQZSg_0E2_2_AFQZSg0E2_3_AFQZSg0E2_4_AFQZSg0E2_5_AFQZSg0E2_6_AFQZSg0E2_7_AFQZSg0E2_8_AFQZSg0E2_9_AFQZSg0E3_10_AFQZSgtSgF"
+- "_$s9Coherence17CRStruct_10_FinalPAAE5delta_4fromAA0B17MergeableDelta_10VyxGSgAA9CRContextC_xtF"
+- "_$s9Coherence17CRStruct_10_FinalPAAE5merge5deltaSbAA0B17MergeableDelta_10VyxG_tF"
+- "_$s9Coherence17CRStruct_10_FinalPAAE5mergeyyxF"
+- "_$s9Coherence17CRStruct_10_FinalPAAE8canMerge5deltaSbAA0B17MergeableDelta_10VyxG_tF"
+- "_$s9Coherence17CRStruct_10_FinalPAAE8hasDelta4fromSbx_tF"
+- "_$s9Coherence17CRStruct_10_FinalPAAE9fieldKeysSaySSGvgZ"
+- "_$s9Coherence17CapsuleUndoActionVMa"
+- "_$s9Coherence18CRAttributedStringV010attributedC0So012NSAttributedC0Cvg"
+- "_$s9Coherence18CRAttributedStringV10AttributesV13dynamicMember5ValueQyd__Sgs15WritableKeyPathCyxqd__G_tcAA011CRAttributecI0Rd__luig"
+- "_$s9Coherence18CRAttributedStringV10AttributesV13dynamicMember5ValueQyd__Sgs15WritableKeyPathCyxqd__G_tcAA011CRAttributecI0Rd__luis"
+- "_$s9Coherence18CRAttributedStringV10AttributesVAEyx_GycfC"
+- "_$s9Coherence18CRAttributedStringV10attributes2at14effectiveRangeAC10AttributesVyx_GSi_SpySo8_NSRangeVGSgtF"
+- "_$s9Coherence18CRAttributedStringV13setAttributes_5rangeyAC0E0Vyx_GSg_So8_NSRangeVtF"
+- "_$s9Coherence18CRAttributedStringV15replaceSubrange_4withySnySiG_SStF"
+- "_$s9Coherence18CRAttributedStringV20ObservableDifferenceV5editsSayAE4EditOyx__GGvg"
+- "_$s9Coherence18CRAttributedStringV4RunsV3RunV10attributesAC10AttributesVyx_Gvg"
+- "_$s9Coherence18CRAttributedStringV4RunsV3RunV13dynamicMember5ValueQyd__Sgs15WritableKeyPathCyxqd__G_tcAA011CRAttributecJ0Rd__luig"
+- "_$s9Coherence18CRAttributedStringV4RunsV3RunV5rangeSnySiGvg"
+- "_$s9Coherence18CRAttributedStringV4RunsV4nextAE3RunVyx__GSgyF"
+- "_$s9Coherence18CRAttributedStringV4runsAC4RunsVyx_Gvg"
+- "_$s9Coherence18CRAttributedStringV5countSivg"
+- "_$s9Coherence18CRAttributedStringV5mergeyyACyxGF"
+- "_$s9Coherence18CRAttributedStringV5range2ofSnySiGSgAA11CursorRangeVyAC0F0Vyx_GG_tF"
+- "_$s9Coherence18CRAttributedStringV6cursor5rangeAA11CursorRangeVyAC0F0Vyx_GGSnySiG_tF"
+- "_$s9Coherence18CRAttributedStringV9SubstringV13dynamicMember5ValueQyd__Sgs15WritableKeyPathCyxqd__G_tcAA011CRAttributecI0Rd__luis"
+- "_$s9Coherence18CRAttributedStringV9SubstringV4runsAC4RunsVyx_Gvg"
+- "_$s9Coherence18CRAttributedStringVACyxGycfC"
+- "_$s9Coherence18CRAttributedStringVMa"
+- "_$s9Coherence18CRAttributedStringVyAC9SubstringVyx_GSnySiGciM"
+- "_$s9Coherence18CRAttributedStringVyAC9SubstringVyx_GSnySiGcig"
+- "_$s9Coherence18CRAttributedStringVyACyxGSScfC"
+- "_$s9Coherence18FinalizedTimestampV2eeoiySbAC_ACtFZ"
+- "_$s9Coherence18FinalizedTimestampV7counterSivg"
+- "_$s9Coherence18FinalizedTimestampV7replica10Foundation4UUIDVvg"
+- "_$s9Coherence18FinalizedTimestampV7replica7counterAC10Foundation4UUIDV_SitcfC"
+- "_$s9Coherence20CRAttributeStringKeyPAAE13loadAttribute4fromAA10AnyCRValueVAA9CRDecoderC_tKFZ"
+- "_$s9Coherence22CRMulticastSyncManagerCMo"
+- "_$s9Coherence24CRStructMergeableDelta_1VMa"
+- "_$s9Coherence24CRStructMergeableDelta_2VMa"
+- "_$s9Coherence24CRStructMergeableDelta_6VMa"
+- "_$s9Coherence37CRMulticastSyncManagerCatchupBehaviorO15onConnectOrFailyA2CmFWC"
+- "_$s9Coherence37CRMulticastSyncManagerCatchupBehaviorO5neveryA2CmFWC"
+- "_$s9Coherence38CRDataStoreBundleReadFileVersionPolicyO3allyA2CmFWC"
+- "_$s9Coherence5CRSetV2eeoiySbACyxG_AEtFZ"
+- "_$s9Coherence5CRSetV5IndexVMa"
+- "_$s9Coherence5CRSetVACyxGycfC"
+- "_$s9Coherence5CRSetVMa"
+- "_$s9Coherence5CRSetVyACyxGqd__c7ElementQyd__RszSTRd__lufC"
+- "_$s9Coherence7CRArrayV8IteratorVyx_GStAAMc"
+- "_$s9Coherence7CRArrayVyxGAA4CRDTAAMc"
+- "_$s9Coherence7CRArrayVyxGSTAAMc"
+- "_$s9Coherence7CRAssetV12assetManagerAA0bD0Cvg"
+- "_$s9Coherence7CRAssetV15visitReferencesyyAA16ReferenceVisitor_pF"
+- "_$s9Coherence7CRAssetV16debugDescriptionSSvg"
+- "_$s9Coherence7CRAssetV2eeoiySbAC_ACtFZ"
+- "_$s9Coherence7CRAssetV3url11coordinated12assetManagerAC10Foundation3URLV_SbAA0bF0CtcfC"
+- "_$s9Coherence7CRAssetV4data12assetManagerAC10Foundation4DataV_AA0bE0CtcfC"
+- "_$s9Coherence7CRAssetV4fromAcA9CRDecoderC_tKcfC"
+- "_$s9Coherence7CRAssetV4read12withAccessor7Combine14AnyCancellableCy10Foundation3URLVc_tF"
+- "_$s9Coherence7CRAssetV4read17waitIfUnavailable12withAccessor7Combine14AnyCancellableCSbyc_y10Foundation3URLVctF"
+- "_$s9Coherence7CRAssetV4read17waitIfUnavailable17withAsyncAccessorxSgSb_x10Foundation3URLVYaYbKXEtYaKs8SendableRzlF"
+- "_$s9Coherence7CRAssetV6digest10Foundation4DataVvg"
+- "_$s9Coherence7CRAssetV6encode2toyAA9CREncoderC_tKF"
+- "_$s9Coherence7CapsuleV11encapsulateyACy7ElementQyd__Gqd__AA9ReferenceRd__lF"
+- "_$s9Coherence7CapsuleV11versionUUID10Foundation0D0Vvg"
+- "_$s9Coherence7CapsuleV14callAsFunctionyqd__qd__AC3RefCyx_GKXEKlF"
+- "_$s9Coherence7CapsuleV14copyAssetsSync2toyAA14CRAssetManagerC_tKF"
+- "_$s9Coherence7CapsuleV14getCachedValue6forKey9recomputeqd__AA9CRKeyPathV_qd__yXEtlF"
+- "_$s9Coherence7CapsuleV14getCachedValue6forKeyqd__SgAA9CRKeyPathV_tlF"
+- "_$s9Coherence7CapsuleV14setCachedValue_6forKeyyqd___AA9CRKeyPathVtlF"
+- "_$s9Coherence7CapsuleV16clearCachedValue6forKeyyAA9CRKeyPathV_tF"
+- "_$s9Coherence7CapsuleV20encapsulateTransientyACy7ElementQyd__Gqd__AA9ReferenceRd__lF"
+- "_$s9Coherence7CapsuleV23actionUndoingDifference4fromAA0B10UndoActionVSgACyxG_tF"
+- "_$s9Coherence7CapsuleV4copyACyxGyF"
+- "_$s9Coherence7CapsuleV5applyyyAA0B10UndoActionVSgF"
+- "_$s9Coherence7CapsuleV6mutateyqd__qd__AC3RefCyx_GKXEKlF"
+- "_$s9Coherence7CapsuleVA2A4CRDTRzrlE13dynamicMemberqd__s15WritableKeyPathCyxqd__G_tcluig"
+- "_$s9Coherence7CapsuleVA2A4CRDTRzrlE2id11initClosureACyxGAA9CRKeyPathV_xAC3RefCyx_GKXEtKcfC"
+- "_$s9Coherence7CapsuleVA2A4CRDTRzrlE2id11initClosureACyxGAA9CRKeyPathV_xAC3RefCyx_GXEtcfC"
+- "_$s9Coherence7CapsuleVyqd__AA3RefVyqd__GcAA4CRDTRd__luig"
+- "_$s9Coherence7CapsuleVyqd__SgAA7WeakRefVyqd__GcAA4CRDTRd__luig"
+- "_$s9Coherence7WeakRefV2idAA9CRKeyPathVvg"
+- "_$s9Coherence7WeakRefV2idACyxG10Foundation4UUIDV_tcfC"
+- "_$s9Coherence7WeakRefV2idACyxGAA9CRKeyPathV_tcfC"
+- "_$s9Coherence7WeakRefVMa"
+- "_$s9Coherence7WeakRefVyACyxGqd__c7ElementQyd__RszAA9ReferenceRd__lufC"
+- "_$s9Coherence7WeakRefVyxSgAA7CapsuleV0C0Cyqd___GcAA6CRTypeRd__luiM"
+- "_$s9Coherence7WeakRefVyxSgAA7CapsuleV0C0Cyqd___GcAA6CRTypeRd__luig"
+- "_$s9Coherence7WeakRefVyxSgAA7CapsuleVyqd__GcAA6CRTypeRd__luig"
+- "_$s9Coherence7WeakRefVyxSgqd__cAA0C9ContainerRd__luig"
+- "_$s9Coherence9AnonymousV3getxvg"
+- "_$s9Coherence9AnonymousV6mutatexvM"
+- "_$s9Coherence9AnonymousV6mutatexvg"
+- "_$s9Coherence9AnonymousVyACyxGxcfC"
+- "_$s9Coherence9CRCounterV5valueSivg"
+- "_$s9Coherence9CRCounterV9increment2byySi_tF"
+- "_$s9Coherence9CRCounterVACycfC"
+- "_$s9Coherence9CRCounterVyACSicfC"
+- "_$s9Coherence9CRKeyPathVSEAAMc"
+- "_$s9Coherence9CRKeyPathVSHAAMc"
+- "_$s9Coherence9CRKeyPathVSQAAMc"
+- "_$s9Coherence9CRKeyPathVSeAAMc"
+- "_$s9Coherence9CRKeyPathVs23CustomStringConvertibleAAMc"
+- "_$s9Coherence9CRVersionVSHAAMc"
+- "_$sSayxG9Coherence7CRValueA2bCRzlMc"
+- "_$sxSg9Coherence7CRValueA2bCRzlMc"
+- "sponseMode7optionsACSb_AA9CATOptionVtcfCTq"
+- "uilderCAA0D0_pYaXE_tYaFZTjTu"
+- "ventyAA0D0_p_tYaFTjTu"
+
+```

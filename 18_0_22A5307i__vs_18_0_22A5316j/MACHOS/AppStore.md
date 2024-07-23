@@ -1,0 +1,211 @@
+## AppStore
+
+> `/Applications/AppStore.app/AppStore`
+
+```diff
+
+-10.0.80.2.1
+-  __TEXT.__text: 0x78910c
+-  __TEXT.__auth_stubs: 0x14eb0
++10.0.87.0.0
++  __TEXT.__text: 0x7957e0
++  __TEXT.__auth_stubs: 0x14f90
+   __TEXT.__objc_stubs: 0x2580
+-  __TEXT.__objc_methlist: 0xc204
+-  __TEXT.__const: 0x2e7f4
+-  __TEXT.__objc_methname: 0x11b89
++  __TEXT.__objc_methlist: 0xc274
++  __TEXT.__const: 0x2e8d4
++  __TEXT.__objc_methname: 0x11bc9
+   __TEXT.__objc_classname: 0x8d7
+   __TEXT.__objc_methtype: 0x4e1d
+   __TEXT.__gcc_except_tab: 0xf0
+-  __TEXT.__cstring: 0x2a027
+-  __TEXT.__swift5_typeref: 0xee6a
++  __TEXT.__cstring: 0x2a1f7
++  __TEXT.__swift5_typeref: 0xeee0
+   __TEXT.__swift5_entry: 0x8
+-  __TEXT.__constg_swiftt: 0x19f70
+-  __TEXT.__swift5_builtin: 0x3d4
+-  __TEXT.__swift5_reflstr: 0x16b01
+-  __TEXT.__swift5_fieldmd: 0x11800
+-  __TEXT.__swift5_assocty: 0x20b8
+-  __TEXT.__swift5_proto: 0x1f28
+-  __TEXT.__swift5_types: 0x10d8
+-  __TEXT.__swift5_capture: 0x7f48
++  __TEXT.__constg_swiftt: 0x1a0f8
++  __TEXT.__swift5_builtin: 0x3e8
++  __TEXT.__swift5_reflstr: 0x16b71
++  __TEXT.__swift5_fieldmd: 0x11968
++  __TEXT.__swift5_assocty: 0x20d0
++  __TEXT.__swift5_proto: 0x1f2c
++  __TEXT.__swift5_types: 0x10f4
++  __TEXT.__swift5_capture: 0x7ff4
+   __TEXT.__swift5_protos: 0x1c8
+   __TEXT.__oslogstring: 0x87
+   __TEXT.__swift5_mpenum: 0x1c
+-  __TEXT.__unwind_info: 0x12f80
+-  __TEXT.__eh_frame: 0x2964
+-  __DATA_CONST.__auth_got: 0xa768
+-  __DATA_CONST.__got: 0x47f0
+-  __DATA_CONST.__auth_ptr: 0xa6f0
+-  __DATA_CONST.__const: 0x234b8
++  __TEXT.__unwind_info: 0x130b0
++  __TEXT.__eh_frame: 0x2984
++  __DATA_CONST.__auth_got: 0xa7d8
++  __DATA_CONST.__got: 0x4860
++  __DATA_CONST.__auth_ptr: 0xa540
++  __DATA_CONST.__const: 0x23648
+   __DATA_CONST.__cfstring: 0xae0
+-  __DATA_CONST.__objc_classlist: 0x1358
++  __DATA_CONST.__objc_classlist: 0x1368
+   __DATA_CONST.__objc_catlist: 0x20
+-  __DATA_CONST.__objc_protolist: 0x428
++  __DATA_CONST.__objc_protolist: 0x430
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_protorefs: 0x210
++  __DATA_CONST.__objc_protorefs: 0x218
+   __DATA_CONST.__objc_superrefs: 0x58
+   __DATA_CONST.__objc_arraydata: 0xb0
+   __DATA_CONST.__objc_arrayobj: 0x48
+-  __DATA.__objc_const: 0x70580
+-  __DATA.__objc_selrefs: 0x40c0
++  __DATA.__objc_const: 0x70f48
++  __DATA.__objc_selrefs: 0x40d0
+   __DATA.__objc_ivar: 0xd4
+-  __DATA.__objc_data: 0x292d0
+-  __DATA.__data: 0x2d130
+-  __DATA.__objc_stublist: 0x200
+-  __DATA.__bss: 0x35a28
+-  __DATA.__common: 0x71c8
++  __DATA.__objc_data: 0x29538
++  __DATA.__data: 0x2d5f0
++  __DATA.__objc_stublist: 0x208
++  __DATA.__bss: 0x35ab8
++  __DATA.__common: 0x7248
+   - /System/Library/Frameworks/AVFAudio.framework/AVFAudio
+   - /System/Library/Frameworks/AVFoundation.framework/AVFoundation
+   - /System/Library/Frameworks/AVKit.framework/AVKit
+
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 28379
+-  Symbols:   8938
+-  CStrings:  7464
++  Functions: 28497
++  Symbols:   8966
++  CStrings:  7484
+ 
+Symbols:
++ _$s11AppStoreKit11CornerStyleOMn
++ _$s12GameCenterUI19SmallPlayerCardDataV23shouldShowMessagesBadgeSbvg
++ _$s12GameCenterUI19SmallPlayerCardDataV2id5title8subtitle10buttonText25avatarArtworkLoaderConfig0M5Image23shouldShowMessagesBadge0K6Action012removeButtonV09isEnabled5segue23messagesGroupIdentifier15groupRecipientsACs11AnyHashableV_S2SSgSSAA06AvatarnoP0OSgSo7UIImageCSgSb9JetEngine0V5Model_pSgA0_SbA0_ASSaySo8GKPlayerCGSgtcfC
++ _$s19AppStoreKitInternal12LinkableTextC05plainF0SSvg
++ _$s19AppStoreKitInternal12ProductMediaC016hasPortraitPhoneF0Sbvg
++ _$s19AppStoreKitInternal12ProductMediaC20DescriptionPlacementO3topyA2EmFWC
++ _$s19AppStoreKitInternal12ProductMediaC20DescriptionPlacementO6bottomyA2EmFWC
++ _$s19AppStoreKitInternal12ProductMediaC20DescriptionPlacementOMa
++ _$s19AppStoreKitInternal12ProductMediaC20DescriptionPlacementOSYAAMc
++ _$s19AppStoreKitInternal12ProductMediaC20descriptionPlacement4whenAC011DescriptionH0OSb_tF
++ _$s19AppStoreKitInternal20ComponentHeightCacheC10invalidate5itemsySl_ps11AnyHashableV7ElementSlRts_XPSg_tF
++ _$s19AppStoreKitInternal20ComponentHeightCacheCACycfc
++ _$s19AppStoreKitInternal20ComponentHeightCacheCMa
++ _$s19AppStoreKitInternal20ComponentHeightCacheCMn
++ _$s19AppStoreKitInternal20ProductMediaMetadataV20descriptionPlacement4whenAA0eF0C011DescriptionI0OSb_tF
++ _$s19AppStoreKitInternal22MetadataRibbonItemTypeO9developeryA2CmFWC
++ _$s19AppStoreKitInternal22MetadataRibbonItemTypeOSQAAMc
++ _$s19AppStoreKitInternal24SearchResultsContextCardC7messageAA12LinkableTextCvg
++ _$s19AppStoreKitInternal29BasePageLayoutSectionProviderC020componentTypeMappingI029visibleItemsObserverProviders0J11HeightCache012useEstimatedG6SizingAcA014ShelfComponentklI0_p_SayAA021CollectionViewVisiblenoI0_pGAA0wqR0CSbtcfCTq
++ _$s19AppStoreKitInternal29BasePageLayoutSectionProviderC020componentTypeMappingI029visibleItemsObserverProviders0J11HeightCache012useEstimatedG6SizingAcA014ShelfComponentklI0_p_SayAA021CollectionViewVisiblenoI0_pGAA0wqR0CSbtcfc
++ _$s19AppStoreKitInternal29BasePageLayoutSectionProviderC06layoutH03for4with2in05shelfg7SpacingI00n13SupplementaryI004itempI08asPartOfSo012NSCollectiongH0CAA05ShelfG7ContextV_SayAA04ItemgW0VGyXKSo16UICollectionViewCAA0vgoI0_pAA0vpI0_pAA0xpI0_p9JetEngine0E11ObjectGraphCtFTq
++ _$s19AppStoreKitInternal30SearchResultsContextCardLayoutV5JetUI9PlaceableAAMc
++ _$s19AppStoreKitInternal30SearchResultsContextCardLayoutV7MetricsV03maxH5Width12CoreGraphics7CGFloatVvg
++ _$s19AppStoreKitInternal30SearchResultsContextCardLayoutV7MetricsVMn
++ _$s19AppStoreKitInternal30SearchResultsContextCardLayoutV7metrics7message6buttonA2C7MetricsV_5JetUI9Placeable_pAiJ_pSgtcfC
++ _$s19AppStoreKitInternal30SearchResultsUnavailableReasonV11contextCardAA0ef7ContextJ0CSgvg
++ _$s19AppStoreKitInternal32SearchFocusDiffablePagePresenterC34fetchAndSubscribeToUnifiedMessagesyyF
++ _$s19AppStoreKitInternal35ShelfHorizontalScrollTargetBehaviorO11viewAlignedyA2CmFWC
++ _$s19AppStoreKitInternal35ShelfHorizontalScrollTargetBehaviorOMa
++ _$s19AppStoreKitInternal37MetadataRibbonIconWithLabelViewLayoutV7MetricsV9developerAEvgZ
++ _$s19AppStoreKitInternal42SelectionHandlerCollectionElementsObserverC9presenter20componentHeightCacheAcA27ReloadableItemPagePresenter_AA010SelectablepQ0p_AA09ComponentlM0CtcfCTq
++ _$s19AppStoreKitInternal42SelectionHandlerCollectionElementsObserverC9presenter20componentHeightCacheAcA27ReloadableItemPagePresenter_AA010SelectablepQ0p_AA09ComponentlM0Ctcfc
++ _$s19AppStoreKitInternal44ModelMappedDiffableDataSourceContentSnapshotV13reloadedItemsShys11AnyHashableVGvg
++ _$s19AppStoreKitInternal5ShelfC2id11contentType018placeholderContentH06marker5items6header3url16mergeWhenFetched10batchGroup13fetchStrategy11footerTitle0V6Action8isHidden0Y10Horizontal30horizontalScrollTargetBehavior0Y12Personalized13rowsPerColumn10background19onShouldRemoveModel17removeModelEvents17presentationHints16contentsMetadata013nextPreferredJ11RefreshDate17impressionMetrics10refreshUrl17pageChangeMetrics11adIncidentsACs11AnyHashableVSg_AC0jH0OA7_SgAA0E6MarkerOSgSay9JetEngine14ComponentModel_pGAA0E6HeaderCSg10Foundation3URLVSgSbSSSgAA010Incompletee5FetchU0OA22_AA0X0CSgS2bAA0E30HorizontalScrollTargetBehaviorOSbSiAA0E10BackgroundOA12_10AsyncEventCyAA32RemovableComponentModelContainer_p9container_AA23RemovableComponentModel_p5modeltGSgSayA33_yA4_GGAC17PresentationHintsVAC16ContentsMetadataOA18_4DateVSgA12_17ImpressionMetricsVSgA21_AA17PageChangeMetricsCSgSayAA10AdIncidentCGSgtcfc
++ _$s19AppStoreKitInternal6ActionC2ids11AnyHashableVvg
++ _$s19AppStoreKitInternal6LockupC17impressionMetrics9JetEngine010ImpressionG0VSgvpMV
++ _$s5JetUI16LabelPlaceholderV7OptionsV13languageAwareAEvgZ
++ _$s9JetEngine12DiffableLensV13dynamicMemberqd__s7KeyPathCyxqd__G_tcluig
++ _$s9JetEngine20MetricsEventRecorderP12_recordAsync_2onAA7PromiseCyytGAA06LintedcD0V_SSSgtFTq
++ _$s9JetEngine20MetricsEventRecorderPAAE12_recordAsync_2onAA7PromiseCyytGAA06LintedcD0V_SSSgtF
++ _$sSS5JetUIE20languageAwareOutsets12whenUsedWithSo12UIEdgeInsetsVSo6UIFontC_tF
++ _$sShyxGSlsMc
++ _$sSo10UITextItemC5UIKitE7ContentO4linkyAE10Foundation3URLVcAEmFWC
++ _$sSo10UITextItemC5UIKitE7ContentOMa
++ _$sSo10UITextItemC5UIKitE7contentAbCE7ContentOvg
++ _$sSo18NSAttributedStringC5JetUIE010attributedB017defaultAttributesA2B_SDySo0aB3KeyaypGtcfC
++ _$sSo41UIPopoverPresentationControllerSourceItemP5UIKitE5frame2inSo6CGRectVSgSo6UIViewC_tF
++ _NSLinkAttributeName
+- _$s12GameCenterUI19SmallPlayerCardDataV2id5title8subtitle10buttonText25avatarArtworkLoaderConfig0M5Image0K6Action012removeButtonR09isEnabled5segueACs11AnyHashableV_S2SSgSSAA06AvatarnoP0OSgSo7UIImageCSg9JetEngine0R5Model_pSgAYSbAYtcfC
+- _$s19AppStoreKitInternal12LinkableTextC05plainF0SSvgTj
+- _$s19AppStoreKitInternal12ProductMediaC016hasPortraitPhoneF0SbvgTj
+- _$s19AppStoreKitInternal13MediaPlatformC5isIOSSbvgTj
+- _$s19AppStoreKitInternal24SearchResultsContextCardC4textSSvg
+- _$s19AppStoreKitInternal29BasePageLayoutSectionProviderC020componentTypeMappingI029visibleItemsObserverProviders012useEstimatedG6SizingAcA014ShelfComponentklI0_p_SayAA021CollectionViewVisiblenoI0_pGSbtcfCTq
+- _$s19AppStoreKitInternal29BasePageLayoutSectionProviderC020componentTypeMappingI029visibleItemsObserverProviders012useEstimatedG6SizingAcA014ShelfComponentklI0_p_SayAA021CollectionViewVisiblenoI0_pGSbtcfc
+- _$s19AppStoreKitInternal29BasePageLayoutSectionProviderC06layoutH03for4with2in05shelfg7SpacingI00n13SupplementaryI004itempI08asPartOfSo012NSCollectiongH0CAA05ShelfG7ContextV_SayAA04ItemgW0VGSo16UICollectionViewCAA0vgoI0_pAA0vpI0_pAA0xpI0_p9JetEngine0E11ObjectGraphCtFTq
+- _$s19AppStoreKitInternal30SearchResultsContextCardLayoutV7metrics4text6buttonA2C7MetricsV_5JetUI9Placeable_pAiJ_pSgtcfC
+- _$s19AppStoreKitInternal36AnyReusableSupplementaryRegistrationP11elementKindSSvgTj
+- _$s19AppStoreKitInternal42SelectionHandlerCollectionElementsObserverC9presenterAcA27ReloadableItemPagePresenter_AA010SelectablemN0p_tcfCTq
+- _$s19AppStoreKitInternal42SelectionHandlerCollectionElementsObserverC9presenterAcA27ReloadableItemPagePresenter_AA010SelectablemN0p_tcfc
+- _$s19AppStoreKitInternal5ShelfC2id11contentType018placeholderContentH06marker5items6header3url16mergeWhenFetched10batchGroup13fetchStrategy11footerTitle0V6Action8isHidden0Y10Horizontal0Y12Personalized13rowsPerColumn10background19onShouldRemoveModel17removeModelEvents17presentationHints16contentsMetadata013nextPreferredJ11RefreshDate17impressionMetrics10refreshUrl17pageChangeMetrics11adIncidentsACs11AnyHashableVSg_AC0jH0OA6_SgAA0E6MarkerOSgSay9JetEngine14ComponentModel_pGAA0E6HeaderCSg10Foundation3URLVSgSbSSSgAA010Incompletee5FetchU0OA21_AA0X0CSgS3bSiAA0E10BackgroundOA11_10AsyncEventCyAA32RemovableComponentModelContainer_p9container_AA23RemovableComponentModel_p5modeltGSgSayA30_yA3_GGAC17PresentationHintsVAC16ContentsMetadataOA17_4DateVSgA11_17ImpressionMetricsVSgA20_AA17PageChangeMetricsCSgSayAA10AdIncidentCGSgtcfc
+- _$sSo7CGPointV19AppStoreKitInternalE8distance2to12CoreGraphics7CGFloatVSo6CGRectV_tF
+- _$sSo7UIColorC19AppStoreKitInternalE14RGBAComponentsV12interpolator9fromValue02toI05curveAC12InterpolatorVyAEGAESg_AmC11TimingCurveOtFZ
+- _$sSo7UIColorC19AppStoreKitInternalE14RGBAComponentsV5colorABvg
+- _$sSo7UIColorC19AppStoreKitInternalE14RGBAComponentsVMa
+- _$sSo7UIColorC19AppStoreKitInternalE14RGBAComponentsVMn
+- _$sSo7UIColorC19AppStoreKitInternalE14rgbaComponentsAbCE14RGBAComponentsVSgvg
+- _NSIntersectionRange
+CStrings:
++ "AppStore.ContextualContentUnavailableView"
++ "AppStore.SearchResultsContextCardView"
++ "AppStore/ContextualContentUnavailableView.swift"
++ "AppStore/SearchResultsContextCardView.swift"
++ "Must be on a product page"
++ "Show Ask To Buy Banner"
++ "_TtC8AppStore19NavigationAccessory"
++ "_TtC8AppStore19ProductPageSettings"
++ "_TtC8AppStore28SearchResultsContextCardView"
++ "_TtC8AppStore32ContextualContentUnavailableView"
++ "_setDisallowsVideoLayerDisplayCompositing:"
++ "_setInteractiveTextSelectionDisabled:"
++ "accessories"
++ "componentHeightCache"
++ "condensedAdLockup"
++ "emptyReason"
++ "fullRange"
++ "indexPathsForVisibleItems"
++ "init(componentTypeMappingProvider:visibleItemsObserverProviders:componentHeightCache:useEstimatedLayoutSizing:)"
++ "init(presenter:componentHeightCache:)"
++ "linkItems"
++ "location"
++ "navigationBarMargins"
++ "primaryShadow"
++ "queryContext"
++ "queryContextTopPadding"
++ "secondaryShadow"
++ "secondarySystemGroupedBackgroundColor"
++ "storeTab"
++ "views"
+- "_TtC8AppStore25ProductUberScrollObserver"
+- "adTransparencyLabel"
+- "enumerateLineFragmentsForGlyphRange:usingBlock:"
+- "init(componentTypeMappingProvider:visibleItemsObserverProviders:useEstimatedLayoutSizing:)"
+- "init(presenter:)"
+- "quaternaryLabelColor"
+- "shouldAnimateNavigationBarTintColor"
+- "supportsDynamicSize"
+- "tapGestureRecognized:"
+- "v104@?0{CGRect={CGPoint=dd}{CGSize=dd}}8{CGRect={CGPoint=dd}{CGSize=dd}}40@\"NSTextContainer\"72{_NSRange=QQ}80^B96"
+
+```

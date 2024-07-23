@@ -1,0 +1,139 @@
+## com.apple.DocumentManager.Service-AppExtension
+
+> `/System/Library/AccessibilityBundles/com.apple.DocumentManager.Service-AppExtension.axbundle/com.apple.DocumentManager.Service-AppExtension`
+
+```diff
+
+-2950.3.1.0.0
+-  __TEXT.__text: 0x4748
++2952.1.0.0.0
++  __TEXT.__text: 0x4754
+   __TEXT.__auth_stubs: 0x360
+-  __TEXT.__objc_methlist: 0x6f4
++  __TEXT.__objc_methlist: 0x704
+   __TEXT.__cstring: 0xebb
+   __TEXT.__const: 0x18
+   __TEXT.__gcc_except_tab: 0x12c
+
+   - /usr/lib/libAccessibility.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  Functions: 143
+-  Symbols:   306
+-  CStrings:  109
++  Functions: 144
++  Symbols:   307
++  CStrings:  0
+ 
+CStrings:
+- "4REMHashtagLabelSpecifierO11descriptionSSvg"
+- "REMStoreC_SayAA18REMSearchCriterionOGSo08REMFetchN5TokenCSgtKFZ"
+- "_$s10Foundation14DateComponentsV19ReminderKitInternalE28dayOfWeekWithCurrentCalendarSiSgvg"
+- "_$s10Foundation14DateComponentsV19ReminderKitInternalE8applying5otherA2C_tF"
+- "_$s10Foundation8CalendarV19ReminderKitInternalE16isDateComponents_11inSameDayAsSbAA0gH0V_AHtF"
+- "_$s19ReminderKitInternal10UnfairLockC7optionsA2C7OptionsV_tcfc"
+- "_$s19ReminderKitInternal10UnfairLockCMa"
+- "_$s19ReminderKitInternal12ExtendedDiffV5patch4from2to4sortSayAA0D5PatchOy7ElementQzGGx_xSbAcJO_ANtcSgtSlRzlF"
+- "_$s19ReminderKitInternal12throwingCast_2as14failureMessagexypSg_xmSSSgtKlF"
+- "_$s19ReminderKitInternal13ExtendedPatchO16debugDescriptionSSvg"
+- "_$s19ReminderKitInternal13ExtendedPatchOMa"
+- "_$s19ReminderKitInternal14AsyncOperationC5state33_5FB9BC279D4627567E7F3DD15BBB4662LLAC5StateAELLOyx_GvM"
+- "_$s19ReminderKitInternal15REMCacheContextC6object6forKeyq_Sgx_tF"
+- "_$s19ReminderKitInternal15REMCacheContextC9setObject_6forKeyyq_Sg_xtF"
+- "_$s19ReminderKitInternal17REMAnalyticsEventOMa"
+- "_$s19ReminderKitInternal18REMSearchCriterionOMa"
+- "_$s19ReminderKitInternal18measureTimeElapsed_5level5blockSdSS_So13os_log_type_tayyKXEtKF"
+- "_$s19ReminderKitInternal19URLQueryItemDecoderC15decodeIfPresent_4fromxSgxm_Say10Foundation0dE0VGtKSeRzlF"
+- "_$s19ReminderKitInternal19URLQueryItemDecoderCMa"
+- "_$s19ReminderKitInternal19URLQueryItemEncoderC6encodeySay10Foundation0dE0VGxKSERzlF"
+- "_$s19ReminderKitInternal19URLQueryItemEncoderCMa"
+- "_$s19ReminderKitInternal21REMSiriSearchDataViewC11ListsResultV5lists05smartH0AESaySo7REMListCG_SaySo12REMSmartListCGtcfC"
+- "_$s19ReminderKitInternal21REMSiriSearchDataViewC14fetchReminders5store17inCustomSmartList14diffingAgainstSaySo11REMReminderCGSo8REMStoreC_So08REMSmartN0CSo19REMFetchResultTokenCSgtKFZ"
+- "_$s19ReminderKitInternal21REMSiriSearchDataViewC14fetchReminders5store8criteria14diffingAgainstSaySo11REMReminderCGSo8REMStoreC_SayAA18REMSearchCriterionOGSo19REMFetchResultTokenCSgtKFZ"
+- "_$s19ReminderKitInternal21REMSiriSearchDataViewCMa"
+- "_$s19ReminderKitInternal22PromiseDisposableTokenCMa"
+- "_$s19ReminderKitInternal22RDUserNotificationTypeO19notificationContentACSgSo014UNNotificationH0C_tcfC"
+- "_$s19ReminderKitInternal22REMAnchoredBubbleModelC019loadOnDeviceTrainedF07baseURLACSg10Foundation0L0V_tFZ"
+- "_$s19ReminderKitInternal22REMAnchoredBubbleModelCMa"
+- "_$s19ReminderKitInternal24REMHashtagLabelSpecifierO06addingE0yACSSF"
+- "_$s19ReminderKitInternal24REMHashtagLabelSpecifierO21__derived_enum_equalsySbAC_ACtFZ"
+- "_$s19ReminderKitInternal24REMHashtagLabelSpecifierO4hash4intoys6HasherVz_tF"
+- "_$s19ReminderKitInternal24REMHashtagLabelSpecifierO5emptyACvau"
+- "_$s19ReminderKitInternal24REMHashtagLabelSpecifierO6labelsyACShySSGFZ"
+- "_$s19ReminderKitInternal24REMHashtagLabelSpecifierO8adjusted18toBeCompatibleWith21allowsLenientFallbackAcA0dE10CollectionV_SbtF"
+- "_$s19ReminderKitInternal24REMRemindersListDataViewO13ShowCompletedOMa"
+- "_$s19ReminderKitInternal25REMHashtagLabelCollectionV10isDisjoint4withSbAC_tF"
+- "_$s19ReminderKitInternal25REMHashtagLabelCollectionV15suggestedLabels20forHashtagNamePrefixSaySSGSS_tF"
+- "_$s19ReminderKitInternal25REMHashtagLabelCollectionV5label19matchingHashtagNameSSSgSS_tF"
+- "_$s19ReminderKitInternal25REMHashtagLabelCollectionV6labels20matchingHashtagNamesShySSGSaySSG_tF"
+- "_$s19ReminderKitInternal25REMHashtagLabelCollectionV6labelsACSaySSG_tcfC"
+- "_$s19ReminderKitInternal25REMHashtagLabelCollectionV7isEmptySbvg"
+- "_$s19ReminderKitInternal25REMHashtagLabelCollectionV8contains18matchOfHashtagNameSbSS_tF"
+- "_$s19ReminderKitInternal25REMHashtagLabelCollectionVACycfC"
+- "_$s19ReminderKitInternal25REMNotificationIdentifierO07requestE0ACSgSS_tcfC"
+- "_$s19ReminderKitInternal28REMListStableSortingDataViewC10fetchLists5store9objectIDsSDySo11REMObjectIDCSo0D0CGSo8REMStoreC_ShyAHGtKFZ"
+- "_$s19ReminderKitInternal28REMListStableSortingDataViewCMa"
+- "_$s19ReminderKitInternal30REMRemindersInCalendarDataViewC014fetchReminderseF05store14diffingAgainstAC0jeF6ResultVSo8REMStoreC_AC05FetchN5TokenVSgtKFZ"
+- "_$s19ReminderKitInternal30REMRemindersInCalendarDataViewC16FetchResultTokenV18dataRepresentation10Foundation0G0VyKF"
+- "_$s19ReminderKitInternal30REMRemindersInCalendarDataViewC16FetchResultTokenV18dataRepresentationAE10Foundation0G0V_tKcfC"
+- "_$s19ReminderKitInternal30REMRemindersInCalendarDataViewCMa"
+- "_$s19ReminderKitInternal4LockPAAE4syncyqd__qd__yXElF"
+- "_$s19ReminderKitInternal56REMChangeItemWithUnsavedMembershipsOfRemindersInSectionsPAAE06updatehiJ004withA3IDs20destinationSectionID10modifiedOnyShySo09REMObjectR0CG_AISg10Foundation4DateVtF"
+- "_$s19ReminderKitInternal7PromiseC10errorAsNilACyxSgGyF"
+- "_$s19ReminderKitInternal7PromiseC11firstNonNilyACyxSgGqd__SKRd__AFyc7ElementRtd__lFZ"
+- "_$s19ReminderKitInternal7PromiseC3allyACySayxGGqd__SlRd__ACyxG7ElementRtd__lFZ"
+- "_$s19ReminderKitInternal7PromiseC3getxyYaKF"
+- "_$s19ReminderKitInternal7PromiseC3zipyACyqd___qd_0_qd_1_tGACyqd__G_ACyqd_0_GACyqd_1_Gtqd___qd_0_qd_1_tRszr1_lFZ"
+- "_$s19ReminderKitInternal7PromiseC3zipyACyqd___qd_0_tGACyqd__G_ACyqd_0_Gtqd___qd_0_tRszr0_lFZ"
+- "_$s19ReminderKitInternal7PromiseC5errorACyxGs5Error_p_tcfc"
+- "_$s19ReminderKitInternal7PromiseC5valueACyxGx_tcfc"
+- "_$s19ReminderKitInternal7PromiseC8resolverACyxGyyxc_ys5Error_pctXE_tcfC"
+- "_$s19ReminderKitInternal7PromiseC8resolverACyxGyyxc_ys5Error_pctXE_tcfc"
+- "_$s19ReminderKitInternal7PromiseC8resolverACyxGyyxc_ys5Error_pcyyctXE_tcfc"
+- "_$s19ReminderKitInternal7PromiseCMa"
+- "_$s19ReminderKitInternal7PromiseC_10scheduleOnACyxGAA14AsyncOperationCyxG_ySo11NSOperationCXEtcfC"
+- "_$s19ReminderKitInternal7firstly2on7closureAA7PromiseCyxGSo17OS_dispatch_queueC_AGyctlF"
+- "_$s19ReminderKitInternal7firstly2on7closureAA7PromiseCyxGSo17OS_dispatch_queueC_xyKctlF"
+- "_$s19ReminderKitInternal7firstly7closureAA7PromiseCyxGAFyKXE_tlF"
+- "_$s19ReminderKitInternal8REMCacheC10cacheQueue10countLimitACyxq_GSo17OS_dispatch_queueC_Sitcfc"
+- "_$s19ReminderKitInternal8REMCacheC15performReadOnly_10operationsyAC13ExecutionModeOyxq__G_yAA0D7ContextCyxq_GctF"
+- "_$s19ReminderKitInternal8REMCacheC19performReadAndWrite_10operationsyAC13ExecutionModeOyxq__G_yAA0D7ContextCyxq_GctF"
+- "_$s19ReminderKitInternal8REMCacheC5clearyyAC13ExecutionModeOyxq__GF"
+- "_$s19ReminderKitInternal8REMCacheCfd"
+- "_$sST19ReminderKitInternalE6unique2bySay7ElementQzGqd__AEKXE_tKSHRd__lF"
+- "_$sST19ReminderKitInternalSH7ElementRpzrlE6uniqueSayACGyF"
+- "_$sSl19ReminderKitInternalE4diff_15identitiesEqual08contentsF0AA4DiffVx_Sb7ElementQz_AHtXESbAH_AHtcSgtF"
+- "_$sSo14ACAccountStoreC19ReminderKitInternalE12MigrationSetV8contains9accountIDSbSo09REMObjectJ0C_tF"
+- "_$sSo14ACAccountStoreC19ReminderKitInternalE17rem_migrationSetsSayAbCE12MigrationSetVGyF"
+- "_$sSo19REMSmartListSectionC19ReminderKitInternalE010PredefinedC4TypeO5TodayO11remObjectIDSo09REMObjectL0Cvg"
+- "_$sSo19REMSmartListSectionC19ReminderKitInternalE010PredefinedC4TypeO5TodayO21__derived_enum_equalsySbAG_AGtFZ"
+- "_$sSo20NSFileProtectionTypea19ReminderKitInternalE022rem_spotlightIndexFileB0ABSgvau"
+- "_$sSo21CLAuthorizationStatusV19ReminderKitInternalE11descriptionSSvg"
+- "_$sSo8REMStoreC19ReminderKitInternalE14fetchReminders23notificationIdentifiersSaySo11REMReminderCGSayAC25REMNotificationIdentifierOG_tKF"
+- "_OBJC_CLASS_$_MapsSuggestionsBlockDeduper"
+- "_OBJC_CLASS_$_MapsSuggestionsLocationOfInterest"
+- "_OBJC_CLASS_$_MapsSuggestionsLowVisitsImprover"
+- "_OBJC_CLASS_$_MapsSuggestionsNotification"
+- "_OBJC_CLASS_$_MapsSuggestionsNotificationReceiver"
+- "_OBJC_CLASS_$_MapsSuggestionsNotificationSender"
+- "_OBJC_CLASS_$_MapsSuggestionsOfflineCondition"
+- "_OBJC_CLASS_$_MapsSuggestionsRangeTrigger"
+- "_OBJC_CLASS_$_MapsSuggestionsRouteGeniusEntry"
+- "_OBJC_CLASS_$_MapsSuggestionsTrip"
+- "_OBJC_CLASS_$_MapsSuggestionsVisitTrackingLocationUpdater"
+- "_OBJC_METACLASS_$_MapsSuggestionsBlockDeduper"
+- "_OBJC_METACLASS_$_MapsSuggestionsLocationOfInterest"
+- "_OBJC_METACLASS_$_MapsSuggestionsLowVisitsImprover"
+- "_OBJC_METACLASS_$_MapsSuggestionsNotification"
+- "_OBJC_METACLASS_$_MapsSuggestionsNotificationReceiver"
+- "_OBJC_METACLASS_$_MapsSuggestionsNotificationSender"
+- "_OBJC_METACLASS_$_MapsSuggestionsOfflineCondition"
+- "_OBJC_METACLASS_$_MapsSuggestionsRangeTrigger"
+- "_OBJC_METACLASS_$_MapsSuggestionsRouteGeniusEntry"
+- "_OBJC_METACLASS_$_MapsSuggestionsTrip"
+- "_OBJC_METACLASS_$_MapsSuggestionsVisitTrackingLocationUpdater"
+- "_rdi_os_crash"
+- "ernal12throwingCast_2as14failureMessagexyp_xmSSSgtKlF"
+- "ormatter"
+
+```

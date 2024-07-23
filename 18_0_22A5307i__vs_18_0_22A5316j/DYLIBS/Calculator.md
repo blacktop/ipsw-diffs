@@ -1,0 +1,438 @@
+## Calculator
+
+> `/System/Library/AccessibilityBundles/Calculator.axbundle/Calculator`
+
+```diff
+
+-2950.3.1.0.0
+-  __TEXT.__text: 0x1c4c
+-  __TEXT.__auth_stubs: 0x240
+-  __TEXT.__objc_methlist: 0x2f0
+-  __TEXT.__cstring: 0x6f6
+-  __TEXT.__const: 0x208
+-  __TEXT.__gcc_except_tab: 0x18
+-  __TEXT.__unwind_info: 0x120
+-  __TEXT.__objc_classname: 0x224
+-  __TEXT.__objc_methname: 0x785
+-  __TEXT.__objc_methtype: 0xa1
+-  __TEXT.__objc_stubs: 0x620
+-  __DATA_CONST.__got: 0xf8
+-  __DATA_CONST.__const: 0xa0
+-  __DATA_CONST.__objc_classlist: 0x78
++2952.1.0.0.0
++  __TEXT.__text: 0x210
++  __TEXT.__auth_stubs: 0xa0
++  __TEXT.__objc_methlist: 0x5c
++  __TEXT.__cstring: 0xd2
++  __TEXT.__unwind_info: 0x70
++  __TEXT.__objc_classname: 0x72
++  __TEXT.__objc_methname: 0x1d6
++  __TEXT.__objc_methtype: 0x23
++  __TEXT.__objc_stubs: 0x140
++  __DATA_CONST.__got: 0x20
++  __DATA_CONST.__const: 0x40
++  __DATA_CONST.__objc_classlist: 0x18
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x230
+-  __DATA_CONST.__objc_superrefs: 0x38
+-  __AUTH_CONST.__auth_got: 0x130
++  __DATA_CONST.__objc_selrefs: 0x78
++  __AUTH_CONST.__auth_got: 0x58
+   __AUTH_CONST.__const: 0x60
+-  __AUTH_CONST.__cfstring: 0xc60
+-  __AUTH_CONST.__objc_const: 0x870
+-  __AUTH_CONST.__objc_intobj: 0xf0
+-  __DATA.__bss: 0x1
+-  __DATA_DIRTY.__objc_data: 0x4b0
++  __AUTH_CONST.__cfstring: 0x100
++  __AUTH_CONST.__objc_const: 0x1b0
++  __DATA_DIRTY.__objc_data: 0xf0
+   __DATA_DIRTY.__common: 0x8
+   __DATA_DIRTY.__bss: 0x8
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+
+   - /usr/lib/libAXSafeCategoryBundle.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  Functions: 61
+-  Symbols:   168
+-  CStrings:  285
++  Functions: 9
++  Symbols:   36
++  CStrings:  0
+ 
+Symbols:
+- _AXAlternateButtonKey
+- _AXCalculatorDisplayViewKey
+- _AXFormatNumber
+- _AXPerformSafeBlock
+- _OBJC_CLASS_$_AXAttributedString
+- _OBJC_CLASS_$_AXDispatchTimer
+- _OBJC_CLASS_$_CalculatorControllerAccessibility
+- _OBJC_CLASS_$_CalculatorKeypadButtonAccessibility
+- _OBJC_CLASS_$_CalculatorKeypadViewAccessibility
+- _OBJC_CLASS_$_CalculatorModelAccessibility
+- _OBJC_CLASS_$_DisplayViewAccessibility
+- _OBJC_CLASS_$_DisplayViewControllerAccessibility
+- _OBJC_CLASS_$_NSArray
+- _OBJC_CLASS_$_NSConstantIntegerNumber
+- _OBJC_CLASS_$_NSDictionary
+- _OBJC_CLASS_$_NSMutableArray
+- _OBJC_CLASS_$_NSNumber
+- _OBJC_CLASS_$_NSString
+- _OBJC_CLASS_$_UIAccessibilityCustomAction
+- _OBJC_CLASS_$_UIBezierPath
+- _OBJC_CLASS_$_UILongPressGestureRecognizer
+- _OBJC_CLASS_$_UIView
+- _OBJC_CLASS_$___CalculatorControllerAccessibility_super
+- _OBJC_CLASS_$___CalculatorKeypadButtonAccessibility_super
+- _OBJC_CLASS_$___CalculatorKeypadViewAccessibility_super
+- _OBJC_CLASS_$___CalculatorModelAccessibility_super
+- _OBJC_CLASS_$___DisplayViewAccessibility_super
+- _OBJC_CLASS_$___DisplayViewControllerAccessibility_super
+- _OBJC_METACLASS_$_CalculatorControllerAccessibility
+- _OBJC_METACLASS_$_CalculatorKeypadButtonAccessibility
+- _OBJC_METACLASS_$_CalculatorKeypadViewAccessibility
+- _OBJC_METACLASS_$_CalculatorModelAccessibility
+- _OBJC_METACLASS_$_DisplayViewAccessibility
+- _OBJC_METACLASS_$_DisplayViewControllerAccessibility
+- _OBJC_METACLASS_$___CalculatorControllerAccessibility_super
+- _OBJC_METACLASS_$___CalculatorKeypadButtonAccessibility_super
+- _OBJC_METACLASS_$___CalculatorKeypadViewAccessibility_super
+- _OBJC_METACLASS_$___CalculatorModelAccessibility_super
+- _OBJC_METACLASS_$___DisplayViewAccessibility_super
+- _OBJC_METACLASS_$___DisplayViewControllerAccessibility_super
+- _UIAccessibilityAnnouncementNotification
+- _UIAccessibilityLayoutChangedNotification
+- _UIAccessibilityPostNotification
+- _UIAccessibilityScreenChangedNotification
+- _UIAccessibilitySpeakOrQueueIfNeeded
+- _UIAccessibilityTokenAnnouncementPriority
+- _UIAccessibilityTokenHighPitch
+- _UIAccessibilityTokenTextInsertion
+- _UIAccessibilityTraitButton
+- _UIAccessibilityTraitKeyboardKey
+- _UIAccessibilityTraitPlaysSound
+- _UIAccessibilityTraitStaticText
+- _UIAccessibilityTraitSummaryElement
+- _UIAccessibilityTraitTextOperationsAvailable
+- __AXAssert
+- __Block_object_dispose
+- __NSConcreteStackBlock
+- __Unwind_Resume
+- ___UIAccessibilityCastAsClass
+- ___UIAccessibilityGetAssociatedObject
+- ___UIAccessibilitySetAssociatedObject
+- ___objc_personality_v0
+- ___stack_chk_fail
+- ___stack_chk_guard
+- __dispatch_main_q
+- _abort
+- _accessibilityAlternateButtonForButton
+- _accessibilityCalculatorKeyIsBasic
+- _accessibilityHintLocalizedStringForCalculatorButton
+- _accessibilityLabelLocalizedStringForCalculatorButton
+- _accessibilityShouldEchoButtonWhenPressed
+- _kCFBooleanTrue
+- _objc_alloc
+- _objc_alloc_init
+- _objc_enumerationMutation
+- _objc_msgSendSuper2
+- _objc_release
+- _objc_release_x20
+- _objc_release_x21
+- _objc_release_x22
+- _objc_release_x23
+- _objc_release_x26
+- _objc_retain_x2
+- _objc_retain_x20
+- _objc_retain_x21
+- _objc_retain_x23
+CStrings:
+- "\x01"
+- "\x01@"
+- "\x01@"
+- "\x01@"
+- "\x01A"
+- "\x01\xc0L}"
+- "\x01\xc0\x86\xae"
+- "\x01\xc0\x86\xae"
+- "\b"
+- "\b\x1f*\xe9"
+- "\bI'\xe9"
+- "\bJ'\xe9"
+- "\bw$\xe9"
+- "\bz$\xe9"
+- "\b{$\xe9"
+- "\b|$\xe9"
+- "\b\xb3&\xe9"
+- "\b\xffT\xdc"
+- "\x10\x1f*\xe9"
+- "\x10I'\xe9"
+- "\x10J'\xe9"
+- "\x10lP\xdc"
+- "\x10w$\xe9"
+- "\x10z$\xe9"
+- "\x10|$\xe9"
+- "\x10\xb3&\xe9"
+- "\x10\xffT\xdc"
+- "\x18\x1f*\xe9"
+- "\x18I'\xe9"
+- "\x18J'\xe9"
+- "\x18y$\xe9"
+- "\x18z$\xe9"
+- "\x18|$\xe9"
+- "\x18\xb3&\xe9"
+- "\x18ܭ`"
+- "\x18\xffT\xdc"
+- "\x1f*\xe9"
+- " \x1f*\xe9"
+- " I'\xe9"
+- " J'\xe9"
+- " y$\xe9"
+- " z$\xe9"
+- " {$\xe9"
+- " |$\xe9"
+- " \xb3&\xe9"
+- " ܭ`"
+- " \xffT\xdc"
+- "("
+- "(\x1f*\xe9"
+- "(I'\xe9"
+- "(J'\xe9"
+- "(w$\xe9"
+- "(|$\xe9"
+- "(\xb3&\xe9"
+- "(ܭ`"
+- "(\xffT\xdc"
+- "0\r\x1f\xe9"
+- "0\x1f*\xe9"
+- "0I'\xe9"
+- "0J'\xe9"
+- "0y$\xe9"
+- "0|$\xe9"
+- "0\xb3&\xe9"
+- "0\xfeT\xdc"
+- "0\xffT\xdc"
+- "8\x1f*\xe9"
+- "8I'\xe9"
+- "8J'\xe9"
+- "8w$\xe9"
+- "8z$\xe9"
+- "8|$\xe9"
+- "8\xb3&\xe9"
+- "8\xfeT\xdc"
+- "8\xffT\xdc"
+- "@"
+- "@\x1f*\xe9"
+- "@I'\xe9"
+- "@J'\xe9"
+- "@w$\xe9"
+- "@y$\xe9"
+- "@z$\xe9"
+- "@{$\xe9"
+- "@\xfeT\xdc"
+- "@\xffT\xdc"
+- "H"
+- "H\x1f*\xe9"
+- "HI'\xe9"
+- "HJ'\xe9"
+- "Hw$\xe9"
+- "Hx$\xe9"
+- "H{$\xe9"
+- "H|$\xe9"
+- "H\xfeT\xdc"
+- "I'\xe9"
+- "J'\xe9"
+- "P"
+- "P\x1f*\xe9"
+- "PI'\xe9"
+- "PJ'\xe9"
+- "Pw$\xe9"
+- "Px$\xe9"
+- "Py$\xe9"
+- "Pz$\xe9"
+- "P{$\xe9"
+- "P\xfeT\xdc"
+- "U\xdc"
+- "U\xdc"
+- "U\xdc"
+- "X"
+- "X\x1f*\xe9"
+- "XI'\xe9"
+- "XJ'\xe9"
+- "Xw$\xe9"
+- "Xx$\xe9"
+- "X|$\xe9"
+- "X\xfeT\xdc"
+- "X\xffT\xdc"
+- "`"
+- "`\x1f*\xe9"
+- "`I'\xe9"
+- "`J'\xe9"
+- "`x$\xe9"
+- "`{$\xe9"
+- "`\xfeT\xdc"
+- "`\xffT\xdc"
+- "h"
+- "h\x1f*\xe9"
+- "hI'\xe9"
+- "hJ'\xe9"
+- "hw$\xe9"
+- "hx$\xe9"
+- "h{$\xe9"
+- "h|$\xe9"
+- "h\xfeT\xdc"
+- "h\xffT\xdc"
+- "p"
+- "p\x1f*\xe9"
+- "pI'\xe9"
+- "pJ'\xe9"
+- "pw$\xe9"
+- "px$\xe9"
+- "pz$\xe9"
+- "p|$\xe9"
+- "p\xfeT\xdc"
+- "p\xffT\xdc"
+- "x"
+- "x\x1f*\xe9"
+- "xI'\xe9"
+- "xJ'\xe9"
+- "xx$\xe9"
+- "xz$\xe9"
+- "x{$\xe9"
+- "x|$\xe9"
+- "x\xd1V\xdc"
+- "x\xfeT\xdc"
+- "x\xffT\xdc"
+- "y$\xe9"
+- "z$\xe9"
+- "{$\xe9"
+- "|$\xe9"
+- "\x80\x1f*\xe9"
+- "\x80I'\xe9"
+- "\x80J'\xe9"
+- "\x80w$\xe9"
+- "\x80x$\xe9"
+- "\x80y$\xe9"
+- "\x80{$\xe9"
+- "\x80\xd1V\xdc"
+- "\x80\xfeT\xdc"
+- "\x80\xffT\xdc"
+- "\x88\x1f*\xe9"
+- "\x88I'\xe9"
+- "\x88x$\xe9"
+- "\x88y$\xe9"
+- "\x88z$\xe9"
+- "\x88{$\xe9"
+- "\x88\xd1V\xdc"
+- "\x88\xffT\xdc"
+- "\x90\x1f*\xe9"
+- "\x90I'\xe9"
+- "\x90w$\xe9"
+- "\x90x$\xe9"
+- "\x90z$\xe9"
+- "\x90\xd1V\xdc"
+- "\x90\xfeT\xdc"
+- "\x98\x1f*\xe9"
+- "\x98I'\xe9"
+- "\x98w$\xe9"
+- "\x98x$\xe9"
+- "\x98\xd1V\xdc"
+- "\xa0\x1f*\xe9"
+- "\xa0I'\xe9"
+- "\xa0x$\xe9"
+- "\xa0\xd1V\xdc"
+- "\xa8\x1f*\xe9"
+- "\xa8I'\xe9"
+- "\xa8v$\xe9"
+- "\xa8w$\xe9"
+- "\xa8z$\xe9"
+- "\xa8{$\xe9"
+- "\xa8\xd1V\xdc"
+- "\xa8\xfeT\xdc"
+- "\xb0\x1f*\xe9"
+- "\xb0I'\xe9"
+- "\xb0w$\xe9"
+- "\xb0x$\xe9"
+- "\xb0z$\xe9"
+- "\xb0{$\xe9"
+- "\xb0\xfeT\xdc"
+- "\xb0\xffT\xdc"
+- "\xb3&\xe9"
+- "\xb8\x1e*\xe9"
+- "\xb8I'\xe9"
+- "\xb8x$\xe9"
+- "\xb8y$\xe9"
+- "\xb8z$\xe9"
+- "\xb8{$\xe9"
+- "\xb8\xfeT\xdc"
+- "\xc0\x1e*\xe9"
+- "\xc0I'\xe9"
+- "\xc0b\x0fo"
+- "\xc0v$\xe9"
+- "\xc0w$\xe9"
+- "\xc0x$\xe9"
+- "\xc0{$\xe9"
+- "\xc0\xfeT\xdc"
+- "\xc0\xff(\xe9"
+- "\xc8\x1e*\xe9"
+- "\xc8I'\xe9"
+- "\xc8b\x0fo"
+- "\xc8w$\xe9"
+- "\xc8x$\xe9"
+- "\xc8{$\xe9"
+- "\xc8\xfeT\xdc"
+- "\xc8\xffT\xdc"
+- "\xd0\x1e*\xe9"
+- "\xd0I'\xe9"
+- "\xd0b\x0fo"
+- "\xd0x$\xe9"
+- "\xd0y$\xe9"
+- "\xd0z$\xe9"
+- "\xd0{$\xe9"
+- "\xd0\xfeT\xdc"
+- "\xd0\xffT\xdc"
+- "\xd8\x1e*\xe9"
+- "\xd8H'\xe9"
+- "\xd8I'\xe9"
+- "\xd8b\x0fo"
+- "\xd8x$\xe9"
+- "\xd8y$\xe9"
+- "\xd8z$\xe9"
+- "\xd8{$\xe9"
+- "\xd8\xffT\xdc"
+- "\xe0\x1e*\xe9"
+- "\xe0H'\xe9"
+- "\xe0I'\xe9"
+- "\xe0b\x0fo"
+- "\xe0x$\xe9"
+- "\xe0{$\xe9"
+- "\xe0\xffT\xdc"
+- "\xe8\x1e*\xe9"
+- "\xe8H'\xe9"
+- "\xe8I'\xe9"
+- "\xe8x$\xe9"
+- "\xe8z$\xe9"
+- "\xe8{$\xe9"
+- "\xe8\xffT\xdc"
+- "\xf0\x1e*\xe9"
+- "\xf0H'\xe9"
+- "\xf0I'\xe9"
+- "\xf0x$\xe9"
+- "\xf0z$\xe9"
+- "\xf0{$\xe9"
+- "\xf0\xfeT\xdc"
+- "\xf0\xffT\xdc"
+- "\xf8\x1e*\xe9"
+- "\xf8H'\xe9"
+- "\xf8I'\xe9"
+- "\xf8x$\xe9"
+- "\xf8y$\xe9"
+- "\xf8z$\xe9"
+- "\xf8\xb2&\xe9"
+- "\xf8\xfeT\xdc"
+- "\xf8\xffT\xdc"
+- "\xffT\xdc"
+
+```

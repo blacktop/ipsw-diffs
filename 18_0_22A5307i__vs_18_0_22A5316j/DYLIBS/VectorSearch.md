@@ -1,0 +1,452 @@
+## VectorSearch
+
+> `/System/Library/PrivateFrameworks/VectorSearch.framework/VectorSearch`
+
+```diff
+
+-24.0.0.0.0
+-  __TEXT.__text: 0x62894
++25.0.0.0.0
++  __TEXT.__text: 0x632f0
+   __TEXT.__auth_stubs: 0x1ab0
+-  __TEXT.__objc_methlist: 0x7bc
+-  __TEXT.__const: 0x1e90
+-  __TEXT.__cstring: 0x3d43
+-  __TEXT.__constg_swiftt: 0xec0
+-  __TEXT.__swift5_typeref: 0x10b1
+-  __TEXT.__swift5_fieldmd: 0xc54
++  __TEXT.__objc_methlist: 0x81c
++  __TEXT.__const: 0x1eb8
++  __TEXT.__cstring: 0x3db3
++  __TEXT.__constg_swiftt: 0xefc
++  __TEXT.__swift5_typeref: 0x10b8
++  __TEXT.__swift5_fieldmd: 0xc7c
+   __TEXT.__swift5_builtin: 0x8c
+-  __TEXT.__swift5_reflstr: 0xa7c
+-  __TEXT.__swift5_capture: 0x4d4
++  __TEXT.__swift5_reflstr: 0xa97
++  __TEXT.__swift5_capture: 0x4e4
+   __TEXT.__swift5_proto: 0x184
+-  __TEXT.__swift5_types: 0xe0
+-  __TEXT.__oslogstring: 0xdb8
++  __TEXT.__swift5_types: 0xe4
++  __TEXT.__oslogstring: 0xdd8
+   __TEXT.__swift5_protos: 0x1c
+   __TEXT.__swift5_assocty: 0x68
+   __TEXT.__swift5_mpenum: 0x34
+-  __TEXT.__unwind_info: 0x1520
+-  __TEXT.__eh_frame: 0x36c8
+-  __TEXT.__objc_classname: 0x98
+-  __TEXT.__objc_methname: 0x1451
++  __TEXT.__unwind_info: 0x1558
++  __TEXT.__eh_frame: 0x3788
++  __TEXT.__objc_classname: 0xa6
++  __TEXT.__objc_methname: 0x152b
+   __TEXT.__objc_methtype: 0x4a6
+-  __TEXT.__objc_stubs: 0x6c0
+-  __DATA_CONST.__got: 0x2b8
++  __TEXT.__objc_stubs: 0x720
++  __DATA_CONST.__got: 0x2c0
+   __DATA_CONST.__const: 0x80
+-  __DATA_CONST.__objc_classlist: 0xe8
++  __DATA_CONST.__objc_classlist: 0xf0
+   __DATA_CONST.__objc_protolist: 0x8
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x370
+-  __DATA_CONST.__objc_superrefs: 0x50
++  __DATA_CONST.__objc_selrefs: 0x3a8
++  __DATA_CONST.__objc_superrefs: 0x58
+   __AUTH_CONST.__auth_got: 0xd60
+-  __AUTH_CONST.__auth_ptr: 0x468
+-  __AUTH_CONST.__const: 0x1d48
++  __AUTH_CONST.__auth_ptr: 0x490
++  __AUTH_CONST.__const: 0x1dd0
+   __AUTH_CONST.__cfstring: 0x20
+-  __AUTH_CONST.__objc_const: 0x18a0
++  __AUTH_CONST.__objc_const: 0x19a0
+   __AUTH_CONST.__objc_intobj: 0x90
+   __AUTH_CONST.__objc_floatobj: 0x10
+-  __AUTH.__objc_data: 0x668
++  __AUTH.__objc_data: 0x6b8
+   __AUTH.__data: 0x2c0
+-  __DATA.__objc_ivar: 0x50
+-  __DATA.__data: 0x7d8
++  __DATA.__objc_ivar: 0x58
++  __DATA.__data: 0x7f0
+   __DATA.__bss: 0x1700
+   __DATA.__common: 0x8
+-  __DATA_DIRTY.__objc_data: 0x478
+-  __DATA_DIRTY.__data: 0xfc8
++  __DATA_DIRTY.__objc_data: 0x480
++  __DATA_DIRTY.__data: 0xfd8
+   __DATA_DIRTY.__bss: 0x1300
+   __DATA_DIRTY.__common: 0x68
+   - /System/Library/Frameworks/Accelerate.framework/Accelerate
+
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 1690
+-  Symbols:   227
+-  CStrings:  351
++  Functions: 1707
++  Symbols:   229
++  CStrings:  0
+ 
+Symbols:
++ _OBJC_CLASS_$_VSKStatistics
++ _OBJC_METACLASS_$_VSKStatistics
+CStrings:
+- "CyAD04OpengH7ContextVGvgZ"
+- "Selectors0efH7Options0efH11Auxiliaries0eJ00eI0ACSS_ShySSGSDySSAKGSDySSSayAA12FormatOptionVGGSDySSAA0l7ContentcF9AuxiliaryV8ResolvedVGAoKtcfC"
+- "_$s11TeaSettings0B0C8NewsFeedE0cD6ModuleV15PersonalizationV25disableTabiArticleScoringAA7SettingCySbGvgZ"
+- "_$s11TeaSettings0B0C8NewsFeedE0cD6ModuleV6LayoutV18enableLogDebuggingAA7SettingCySbGvgZ"
+- "_$s11TeaSettings0B0C8NewsFeedE0cD6ModuleV8FeaturesV014featureVideoInD0AA7SettingCyAA12FeatureStateOGvgZ"
+- "_$s11TeaSettings0B0C8NewsFeedE0cD6ModuleV8FeaturesV08enableInD9DebuggingAA7SettingCyAA12FeatureStateOGvgZ"
+- "_$s11TeaSettings0B0C8NewsFeedE0cD6ModuleV8FeaturesV10usePuzzlesAA7SettingCyAA12FeatureStateOGvgZ"
+- "_$s11TeaSettings0B0C8NewsFeedE0cD6ModuleV8FeaturesV14useOfflineModeAA7SettingCyAA12FeatureStateOGvgZ"
+- "_$s11TeaSettings0B0C8NewsFeedE0cD6ModuleV8FeaturesV17useLiveActivitiesAA7SettingCyAA12FeatureStateOGvgZ"
+- "_$s11TeaSettings0B0C8NewsFeedE0cD6ModuleV8FeaturesV18useSportsSyncingV2AA7SettingCyAA12FeatureStateOGvgZ"
+- "_$s11TeaSettings0B0C8NewsFeedE0cD6ModuleV8FeaturesV19enableAIAttributionAA7SettingCyAA12FeatureStateOGvgZ"
+- "_$s11TeaSettings0B0C8NewsFeedE7PuzzlesV17puzzlesBadgeCountAA7SettingCySiGvgZ"
+- "_$s11TeaSettings0B0C8NewsFeedE7PuzzlesV18BadgeCountOverrideCMa"
+- "_$s11TeaSettings0B0C8NewsFeedE7PuzzlesV19badgeCountOverridesAF05BadgeG8OverrideCvgZ"
+- "_$s11TeaSettings0B0C8NewsFeedE7PuzzlesV19prewarmTimeIntervalAA7SettingCySdGvgZ"
+- "_$s13TeaFoundation14PromiseDeduperC8NewsFeedSSRszrlE7promise11createBlockAA0C0Cyq_GAIyXE_tF"
+- "_$s16NewsSubscription06BundleB20DetectionManagerTypeMp"
+- "_$s16NewsSubscription0B15AccessMeterTypeMp"
+- "_$s16NewsSubscription0B16OffersRouteModelVMn"
+- "_$s16NewsSubscription0B22StatusCheckBlockerTypeMp"
+- "_$s16NewsSubscription0B22StatusCheckBlockerTypeP02isD7AllowedSbvgTq"
+- "_$s16NewsSubscription0B23FeatureAvailabilityTypeMp"
+- "_$s16NewsSubscription0B23FeatureAvailabilityTypeP14allowSIWAOnMacSbvgTq"
+- "_$s16NewsSubscription0B23FeatureAvailabilityTypeP16allowStatusCheckSbvgTq"
+- "_$s16NewsSubscription0B23FeatureAvailabilityTypeP17allowCIPBestOfferSbvgTq"
+- "_$s16NewsSubscription0B23FeatureAvailabilityTypeP18allowInAppMessagesSbvgTq"
+- "_$s16NewsSubscription0B23FeatureAvailabilityTypeP23allowPaidBundleViaOfferSbvgTq"
+- "_$s16NewsSubscription13ArticleAccessOMn"
+- "_$s16NewsSubscription15PurchaseContextVMn"
+- "_$s16NewsSubscription16ArticleAccessMapVMn"
+- "_$s16NewsSubscription16PurchaseObserverMp"
+- "_$s16NewsSubscription17PaywallInteractorCAA0cD4TypeAAWP"
+- "_$s16NewsSubscription17PaywallRouterTypeMp"
+- "_$s16NewsSubscription17PaywallRouterTypeP07routeToB6Offers4withyAA0bH10RouteModelV_tFTq"
+- "_$s16NewsSubscription17PaywallRouterTypeP14routeToWebLink4withy10Foundation3URLV_tFTq"
+- "_$s16NewsSubscription17PaywallRouterTypeP17routeToPreBuyFlow4with9placement15purchaseContextySo16AMSMarketingItemC_AA14OfferPlacementOAA08PurchaseN0VtFTq"
+- "_$s16NewsSubscription17PaywallRouterTypeP18routeToDynamicLink4with9placement15purchaseContexty10Foundation3URLV_AA14OfferPlacementOSgAA08PurchaseM0VtFTq"
+- "_$s16NewsSubscription17PaywallRouterTypeP24routeToPreBuyEmailSignup4withyAA06HideMyjK9DataModelV_tFTq"
+- "_$s16NewsSubscription17PaywallRouterTypeP26routeToCampaignLandingPage4with15sourceChannelID0l7ArticleN0015purchaseSessionN007paywallE015postPurchaseURLySS_S2SSgAKSo09FCPaywallE0V10Foundation0U0VSgtFTq"
+- "_$s16NewsSubscription17PaywallRouterTypeP26routeToCampaignLandingPage4with15sourceChannelID0l7ArticleN0015purchaseSessionN007paywallE023postPurchaseDestinationySS_S2SSgAKSo09FCPaywallE0VAA04PosttU0OSgtFTq"
+- "_$s16NewsSubscription18PaywallContentTypeOMn"
+- "_$s16NewsSubscription18PaywallDataManagerCAA0cdE4TypeAAWP"
+- "_$s16NewsSubscription18PaywallFactoryTypeMp"
+- "_$s16NewsSubscription19PaywallEventHandlerCAA0cdE4TypeAAWP"
+- "_$s16NewsSubscription21ArticlePrefetcherTypeMp"
+- "_$s16NewsSubscription21ArticlePrefetcherTypeP8prefetch9articleID13TeaFoundation7PromiseCyytGSS_tFTq"
+- "_$s16NewsSubscription22LandingPageDeciderTypeMp"
+- "_$s16NewsSubscription23OffersButtonDestinationOMn"
+- "_$s16NewsSubscription23PaywallEventHandlerTypeMp"
+- "_$s16NewsSubscription23PostPurchaseDestinationOMn"
+- "_$s16NewsSubscription25OfferOverrideProviderTypeMp"
+- "_$s16NewsSubscription25OfferOverrideProviderTypeP11description3for20paywallConfigurationSSSgAA0C9PlacementOSg_So09FCPaywallJ0CSgtFTq"
+- "_$s16NewsSubscription25OfferOverrideProviderTypeP12hasBuyAction3for20paywallConfigurationSbAA0C9PlacementOSg_So09FCPaywallL0CSgtFTq"
+- "_$s16NewsSubscription25OfferOverrideProviderTypeP17callToActionLabel3for20paywallConfigurationSSSgAA0C9PlacementOSg_So09FCPaywallM0CSgtFTq"
+- "_$s16NewsSubscription25OfferOverrideProviderTypeP19servicesBundlePrice3forSSSgAA0C9PlacementOSg_tFTq"
+- "_$s16NewsSubscription25OfferOverrideProviderTypeP21activationEligibility3for0A4Feed0b10ActivationH0OSgAA0C9PlacementOSg_tFTq"
+- "_$s16NewsSubscription25OfferOverrideProviderTypeP23offersButtonDestination3for20paywallConfigurationAA06OffershI0OSgAA0C9PlacementOSg_So09FCPaywallL0CSgtFTq"
+- "_$s16NewsSubscription25OfferOverrideProviderTypeP24servicesBundlePriceDelta3forSSSgAA0C9PlacementOSg_tFTq"
+- "_$s16NewsSubscription25OfferOverrideProviderTypeP26subscribeButtonDestination3for20paywallConfiguration012subscriptionh6TargetF015postPurchaseURLAA09SubscribehI0OSgAA0C9PlacementOSg_So09FCPaywallL0CSgSo014FCSubscriptionhnF0V10Foundation0Q0VSgtFTq"
+- "_$s16NewsSubscription25OfferOverrideProviderTypeP27servicesBundleTrialEligible3forSbAA0C9PlacementOSg_tFTq"
+- "_$s16NewsSubscription25OfferOverrideProviderTypeP28servicesBundleUpsellScenario3forSSAA0C9PlacementOSg_tFTq"
+- "_$s16NewsSubscription25OfferOverrideProviderTypeP5title3for20paywallConfigurationSSSgAA0C9PlacementOSg_So09FCPaywallJ0CSgtFTq"
+- "_$s16NewsSubscription25PublisherLogoProviderTypeMp"
+- "_$s16NewsSubscription25PublisherLogoProviderTypeP09publisherD03tag9imageSize18userInterfaceStyle13TeaFoundation7PromiseCySo7UIImageCGSo14FCTagProviding_p_So6CGSizeVSo06UIUserlM0VtFTq"
+- "_$s16NewsSubscription25SubscribeButtonTargetTypeOMn"
+- "_$s16NewsSubscription26AppLaunchMethodCheckerTypeMp"
+- "_$s16NewsSubscription26AppLaunchUpsellTrackerTypeMp"
+- "_$s16NewsSubscription26AppLaunchUpsellTrackerTypeP05trackcdE9Triggered6result9articleIdyAA0cdE13TriggerResultO_SSSgtFTq"
+- "_$s16NewsSubscription26PaidBundleViaOfferSettingsCMn"
+- "_$s16NewsSubscription26PurchaseConversionLocationOMn"
+- "_$s16NewsSubscription26SubscribeButtonDestinationOMn"
+- "_$s16NewsSubscription27HideMyEmailSignupModuleTypeMp"
+- "_$s16NewsSubscription28AppLaunchUpsellDataStoreTypeMp"
+- "_$s16NewsSubscription28AppLaunchUpsellDataStoreTypeP03appdE12LastSeenDate10Foundation0L0VSgvMTq"
+- "_$s16NewsSubscription28AppLaunchUpsellDataStoreTypeP03appdE12LastSeenDate10Foundation0L0VSgvgTq"
+- "_$s16NewsSubscription28AppLaunchUpsellDataStoreTypeP03appdE12LastSeenDate10Foundation0L0VSgvsTq"
+- "_$s16NewsSubscription28AppLaunchUpsellDataStoreTypeP03appdE19LastShownCampaignIDSSSgvMTq"
+- "_$s16NewsSubscription28AppLaunchUpsellDataStoreTypeP03appdE19LastShownCampaignIDSSSgvgTq"
+- "_$s16NewsSubscription28AppLaunchUpsellDataStoreTypeP03appdE19LastShownCampaignIDSSSgvsTq"
+- "_$s16NewsSubscription28AppLaunchUpsellDataStoreTypeP03appdE21LastPresenterBundleIDSSSgvMTq"
+- "_$s16NewsSubscription28AppLaunchUpsellDataStoreTypeP03appdE21LastPresenterBundleIDSSSgvgTq"
+- "_$s16NewsSubscription28AppLaunchUpsellDataStoreTypeP03appdE21LastPresenterBundleIDSSSgvsTq"
+- "_$s16NewsSubscription28AppLaunchUpsellDataStoreTypeP04lastcdE10InstanceIDSSSgvMTq"
+- "_$s16NewsSubscription28AppLaunchUpsellDataStoreTypeP04lastcdE10InstanceIDSSSgvgTq"
+- "_$s16NewsSubscription28AppLaunchUpsellDataStoreTypeP04lastcdE10InstanceIDSSSgvsTq"
+- "_$s16NewsSubscription28AppLaunchUpsellDataStoreTypeP06upsellcD5Counts5Int64VvMTq"
+- "_$s16NewsSubscription28AppLaunchUpsellDataStoreTypeP06upsellcD5Counts5Int64VvgTq"
+- "_$s16NewsSubscription28AppLaunchUpsellDataStoreTypeP06upsellcD5Counts5Int64VvsTq"
+- "_$s16NewsSubscription28AppLaunchUpsellDataStoreTypeP07refreshF010completionyyAA0cdeF13RefreshResultOc_tFTq"
+- "_$s16NewsSubscription30ManageSubscriptionsURLProviderCAA0cdE4TypeAAWP"
+- "_$s16NewsSubscription31PaywallEventHandlerTypeDelegateMp"
+- "_$s16NewsSubscription31PaywallEventHandlerTypeDelegateP05eventE0_032webAccessAuthenticationDidObtainJ5TokenyAA0cdeF0_p_SStFTq"
+- "_$s16NewsSubscription31PaywallEventHandlerTypeDelegateP05eventE0_15presentPurchase07paywallF008purchaseF07optionsyAA0cdeF0_p_AA0J7ContextVAA0cF0OAA0jF0OAA0J16PresenterOptionsVtFTq"
+- "_$s16NewsSubscription31PaywallEventHandlerTypeDelegateP05eventE0_30webAccessAuthenticationDidFailyAA0cdeF0_p_s5Error_ptFTq"
+- "_$s16NewsSubscription31PaywallEventHandlerTypeDelegateP05eventE0_34webAccessAuthenticationDidComplete4fromyAA0cdeF0_p_AA03WebjB6StatusOAA0cF0OtFTq"
+- "_$s16NewsSubscription31PaywallEventHandlerTypeDelegateP05eventE23DidFinishLoadingHMEDatay13TeaFoundation7PromiseCyytGAA0cdeF0_pFTq"
+- "_$s16NewsSubscription31PaywallEventHandlerTypeDelegateP05eventE23WillBeginLoadingHMEDatay13TeaFoundation7PromiseCyytGAA0cdeF0_pFTq"
+- "_$s16NewsSubscription31PaywallEventHandlerTypeDelegateP05evente6BundleB12DidSubscribeyyAA0cdeF0_pFTq"
+- "_$s16NewsSubscription32AppLaunchUpsellDataRefreshResultOMn"
+- "_$s16NewsSubscription32WeakPaywallLayoutOptionsProviderCAA0defG4TypeAAWP"
+- "_$s16NewsSubscription33ArticlePurchaseOffersProviderTypeMp"
+- "_$s16NewsSubscription41PaidBundleViaOfferFeatureAvailabilityTypeMp"
+- "_$s16NewsSubscription41PaidBundleViaOfferFeatureAvailabilityTypeP02iscdeF8EligibleSbvgTq"
+- "_$s16NewsSubscription41PaidBundleViaOfferFeatureAvailabilityTypeP07refreshcdeF11Eligibility13TeaFoundation7PromiseCySbGyFTq"
+- "_$s16NewsSubscription41PaidBundleViaOfferFeatureAvailabilityTypeP07refreshcdeF9Activated13TeaFoundation7PromiseCySbGyFTq"
+- "_$s16NewsSubscription41PaidBundleViaOfferFeatureAvailabilityTypeP13upsellEnabledSbvgTq"
+- "_$s16NewsSubscription41PaidBundleViaOfferFeatureAvailabilityTypeP15paywallsEnabledSbvgTq"
+- "_$s16NewsSubscription41PaidBundleViaOfferFeatureAvailabilityTypeP16iconBadgeEnabledSbvgTq"
+- "_$s16NewsSubscription41PaidBundleViaOfferFeatureAvailabilityTypeP21mastheadBannerEnabledSbvgTq"
+- "_$s16NewsSubscription41PaidBundleViaOfferFeatureAvailabilityTypeP22appLaunchUpsellEnabledSbvgTq"
+- "_$s16NewsSubscription41PaidBundleViaOfferFeatureAvailabilityTypeP23iconBadgeMercuryEnabledSbvgTq"
+- "_$s16NewsSubscription41PaidBundleViaOfferFeatureAvailabilityTypeP24localNotificationEnabledSbvgTq"
+- "_$s16NewsSubscription41PaidBundleViaOfferFeatureAvailabilityTypeP28subscriptionsDeeplinkEnabledSbvgTq"
+- "_$s16NewsSubscription7PaywallO04SoftC6ModuleVMn"
+- "_$s16NewsSubscription7PaywallOMn"
+- "_$s5TeaUI16BlueprintSectionV8NewsFeedAD0F15GroupDescribingRzAD0F17ItemRepresentableR_rlE12mapToRegions7content010additionalG5Items0oG7Options14feedDescriptor0rg7BindingQ00rG17ContextIdentifier0rG8Revision08nativeAdU012pluginModelsSayAD0fG6RegionCGAD13FormatContentV8ResolvedV_ShyAD0fgI0OGAD0F10OptionListVSgSo06FCFeedS0CSgAD0fgtQ0VSgSSSgSiAD0f6NativeyU0VSgSayAA11PluginModelCGtF"
+- "_$s5TeaUI8CommandsC8NewsFeedE0E5AudioV13trackPlaybackAA12StateCommandCyAD0e8HeadlinefJ7ContextVAD0efhI0OGvgZ"
+- "_$s5TeaUI8CommandsC8NewsFeedE0E5AudioV13trackProgressAA12StateCommandCyAD0E8HeadlineVAD0e9ListeningH0OGvgZ"
+- "_$s5TeaUI8CommandsC8NewsFeedE0E7PuzzlesV11puzzleStateAA0H7CommandCyAD0E6PuzzleVAD0ej8ProgressH0OGvgZ"
+- "_$s5TeaUI8CommandsC8NewsFeedE0E7PuzzlesV14puzzleProgressAA12StateCommandCyAD0E6PuzzleVAD0ekH0OGvgZ"
+- "_$s5TeaUI8CommandsC8NewsFeedE0E7PuzzlesV15puzzleRankStateAA0I7CommandCyAD0E6PuzzleVAD0ekhI0OGvgZ"
+- "_$s5TeaUI8CommandsC8NewsFeedE0E7PuzzlesV18puzzleRankProgressAA12StateCommandCyAD0E6PuzzleVAD0elhI0OGvgZ"
+- "_$s5TeaUI8CommandsC8NewsFeedE11SuggestionsV6ignoreAA12StateCommandCySo14FCTagProviding_pAD08IgnoringiH0OGvgZ"
+- "_$s5TeaUI8CommandsC8NewsFeedE11copyArticleAA7CommandCySo19FCHeadlineProviding_pGvgZ"
+- "_$s5TeaUI8CommandsC8NewsFeedE12RemoveIssuesV6PromptCMa"
+- "_$s5TeaUI8CommandsC8NewsFeedE12openInNewTabAA7CommandCyAD04OpenJ7ContextOGvgZ"
+- "_$s5TeaUI9BlueprintV8NewsFeedE21storedCursorContainer4typeAD0egH0Oyqd__GSgAIm_tAD0E17ServiceConfigTypeRd__lF"
+- "_$s8NewsFeed02AdB5GroupVMa"
+- "_$s8NewsFeed06FormatB5GroupV14kindIdentifierSSSgvg"
+- "_$s8NewsFeed06FormatB5GroupV18personalizingItemsSaySo23FCFeedPersonalizingItem_pGvg"
+- "_$s8NewsFeed0B10ItemTraitsVMa"
+- "_$s8NewsFeed0B10PuzzleTypeVMa"
+- "_$s8NewsFeed0B10ScoredItemV12scoreProfileSo018FCFeedPersonalizedd5ScoreF0Cvg"
+- "_$s8NewsFeed0B10ScoredItemVMa"
+- "_$s8NewsFeed0B11CursorGroupV4tags4from9excludingSaySo14FCTagProviding_pGSayACyxGG_Shy0B4Pool_0bD04KindQZGtFZ"
+- "_$s8NewsFeed0B11GroupConfigV4dataxvg"
+- "_$s8NewsFeed0B11GroupConfigV4type10identifier14kindIdentifier5slots14paidVisibility03minA7Version03maxaM020allowedSegmentSetIds07blockedpqR00O9Platforms0sT08priority4dataACyxGSS_S2SSgAA0bC5SlotsOAA0bc4PaidK0O13TeaFoundation0M0VSgAZShys5Int32VGA1_ShyAA0B8PlatformOGA4_AA0bC15EmitterPriorityOxtcfC"
+- "_$s8NewsFeed0B11GroupConfigV5slotsAA0bC5SlotsOvg"
+- "_$s8NewsFeed0B11LayoutCacheC8databaseAcA0bC12DatabaseType_pSg_tcfc"
+- "_$s8NewsFeed0B11LayoutCacheCMa"
+- "_$s8NewsFeed0B11LayoutOrderOMa"
+- "_$s8NewsFeed0B11LoadingGateC10dateLifted10Foundation4DateVSgvg"
+- "_$s8NewsFeed0B12JournalEntryVMa"
+- "_$s8NewsFeed0B12LayoutResultV08feedItemC10AttributesSayAA0bfcG0OGvg"
+- "_$s8NewsFeed0B12LayoutResultV0C4PathOMa"
+- "_$s8NewsFeed0B12LayoutResultVMa"
+- "_$s8NewsFeed0B12ModelFactoryCMa"
+- "_$s8NewsFeed0B13CursorTrackerC8markSeen5group17sessionIdentifiery0B4Pool_0B5GroupQZ_SStF"
+- "_$s8NewsFeed0B13CursorTrackerC8snapshotAA0bcD8SnapshotVyxGyF"
+- "_$s8NewsFeed0B13HeadlineTrackVMa"
+- "_$s8NewsFeed0B13ModifierStoreC21applyPendingModifiers2toy5TeaUI17BlueprintPipelineCyqd__qd_0_G_t10DescriptorQyd__Rsz5ModelQyd__Rs_AF0K12ProviderTypeRd__AF0k9IntegatorP0Rd_0_AJQyd_0_AKRSALQyd_0_AMRSr0_lF"
+- "_$s8NewsFeed0B13ModifierStoreCACyxq_Gycfc"
+- "_$s8NewsFeed0B13PluginManagerC25pluginContainerController5TeaUI0cF13ViewProviding_So06UIViewG0CXcSgvs"
+- "_$s8NewsFeed0B13PluginManagerC3add7factoryyqd___t0B13ServiceConfigQyd__RszAA0bC11FactoryTypeRd__lF"
+- "_$s8NewsFeed0B13PluginManagerC4feed0E4Kind06formatC7FactoryACyxGAA0B0V_AA0bF0OAA06FormatcH4Type_ptcfC"
+- "_$s8NewsFeed0B13PluginManagerC8delegateAA0bcD8Delegate_pSgvs"
+- "_$s8NewsFeed0B13RebuildPolicyV10groupLimitSivg"
+- "_$s8NewsFeed0B14ItemPrefetcherCMa"
+- "_$s8NewsFeed0B14ScalingManagerC07currentB9ScaleSize11TeaTemplate013LayoutContentF0Ovg"
+- "_$s8NewsFeed0B14ScalingManagerC6sharedACvgZ"
+- "_$s8NewsFeed0B14ScalingManagerCMa"
+- "_$s8NewsFeed0B14ScoringContextO11descriptionSSvg"
+- "_$s8NewsFeed0B14ServiceOptionsV16RootCursorSourceOMa"
+- "_$s8NewsFeed0B14ServiceOptionsV8feedMode16rootCursorSource0gH9Freshness8databaseAcA0bF0O_AC04RoothI0OAC0lhJ0OAC8DatabaseOSgtcfC"
+- "_$s8NewsFeed0B15GroupDebuggableP11debugFormatAA0bc5DebugF0CSgvgTj"
+- "_$s8NewsFeed0B15GroupDebuggableP9debugNameSSvgTj"
+- "_$s8NewsFeed0B15GroupDecorationOMa"
+- "_$s8NewsFeed0B15GroupKnobsRulesVMa"
+- "_$s8NewsFeed0B15NativeAdContextVMa"
+- "_$s8NewsFeed0B15PoolCachePolicyOMa"
+- "_$s8NewsFeed0B16AdGroupAdjacencyV7leadingACvgZ"
+- "_$s8NewsFeed0B16AdGroupAdjacencyV8trailingACvgZ"
+- "_$s8NewsFeed0B16AdGroupAdjacencyVMa"
+- "_$s8NewsFeed0B16GroupDebugFormatC6themesSayAA0E16PackageInventoryCGvg"
+- "_$s8NewsFeed0B16JournalFormatterCMa"
+- "_$s8NewsFeed0B16OfflineProvidingPAAE02isC0Sbvg"
+- "_$s8NewsFeed0B17ClusteringServiceCMa"
+- "_$s8NewsFeed0B17ListeningProgressO8progressSdvg"
+- "_$s8NewsFeed0B18BannerAdIntegratorC8pipeline17blueprintProvider15policyValidator016layoutCollectionH07journalACyxq_G5TeaUI17BlueprintPipelineCyxq_G_x0A3Ads0d15PlacementPolicyJ4Type_pAJ0p6LayoutlhU0_pAN7JournalCyAN0bcD7ContextVAN0bcdS0VGtcfc"
+- "_$s8NewsFeed0B18CursorStoreManagerC6sharedACvgZ"
+- "_$s8NewsFeed0B18CursorStoreManagerCMa"
+- "_$s8NewsFeed0B18GroupConfigSidecarVMa"
+- "_$s8NewsFeed0B18GroupEmitterCursorC05unboxE0y13TeaFoundation7PromiseCyqd__Gqd__mlF"
+- "_$s8NewsFeed0B18GroupGroupingRulesV02noE0ACvgZ"
+- "_$s8NewsFeed0B18GroupGroupingRulesVMa"
+- "_$s8NewsFeed0B18GroupRepresentableP04feedC5DebugAA0bC10Debuggable_pSgvgTj"
+- "_$s8NewsFeed0B18NativeAdIntegratorC6objectAA0bcD11Integrating_pSgvs"
+- "_$s8NewsFeed0B18NativeAdIntegratorCMa"
+- "_$s8NewsFeed0B18PrerollAdRequesterCMa"
+- "_$s8NewsFeed0B19AdPipelineProcessorCMa"
+- "_$s8NewsFeed0B19GroupPaidVisibilityOMa"
+- "_$s8NewsFeed0B19LayoutSolverOptionsV010IssueStripE0V10SeparatorsOMa"
+- "_$s8NewsFeed0B19LayoutSolverOptionsV010IssueStripE0V10separatorsA2E10SeparatorsO_tcfC"
+- "_$s8NewsFeed0B19LayoutSolverOptionsV010IssueStripE0VMa"
+- "_$s8NewsFeed0B19LayoutSolverOptionsV05CoverE0V15alwaysShowTitle0G18IncludeBottomInsetAESb_SbtcfC"
+- "_$s8NewsFeed0B19LayoutSolverOptionsV05CoverE0VMa"
+- "_$s8NewsFeed0B19LayoutSolverOptionsV08CategoryE0V15alwaysInsetIcon0G10UseColumnsAESb_SbtcfC"
+- "_$s8NewsFeed0B19LayoutSolverOptionsV08CategoryE0VMa"
+- "_$s8NewsFeed0B19LayoutSolverOptionsV08HeadlineE0V21alwaysFillWithExcerpt0G10ShowAuthor0G17HidePublisherLogoAESb_S2btcfC"
+- "_$s8NewsFeed0B19LayoutSolverOptionsV08HeadlineE0VMa"
+- "_$s8NewsFeed0B19LayoutSolverOptionsV14CursorTrackingOMa"
+- "_$s8NewsFeed0B19LayoutSolverOptionsV6TraitsV7defaultAEvgZ"
+- "_$s8NewsFeed0B19LayoutSolverOptionsV6TraitsVMa"
+- "_$s8NewsFeed0B19LayoutSolverOptionsVMa"
+- "_$s8NewsFeed0B19PluginManagerResultC05fetchE0AA0b12ServiceFetchE0OyxGvg"
+- "_$s8NewsFeed0B19PluginManagerResultCMa"
+- "_$s8NewsFeed0B20GroupClusteringKnobsV13groupingRulesAA0bc8GroupingG0VSgvg"
+- "_$s8NewsFeed0B20GroupClusteringKnobsV16maxNumberOfItemsAA0bcE9RuleValueCySiGvg"
+- "_$s8NewsFeed0B20GroupClusteringKnobsV16minNumberOfItemsAA0bcE9RuleValueCySiGvg"
+- "_$s8NewsFeed0B20GroupClusteringKnobsV19bundleArticleQuotasAA0bcE9RuleValueCyAA0bc6BundlegH0VGvg"
+- "_$s8NewsFeed0B20GroupClusteringKnobsV22splittingConfigurationAA0bcE9RuleValueCy06XavierA07ClassicV0G0V0dG0V09SplittingG0VGSgvg"
+- "_$s8NewsFeed0B20GroupClusteringKnobsV30maxNumberOfItemsDepthTransformAA0bcE9RuleValueCy06XavierA07ClassicV13ConfigurationV0dP0V0jK0VGvg"
+- "_$s8NewsFeed0B20GroupClusteringKnobsV30minNumberOfItemsDepthTransformAA0bcE9RuleValueCy06XavierA07ClassicV13ConfigurationV0dP0V0jK0VGvg"
+- "_$s8NewsFeed0B20GroupClusteringKnobsV31explicitSlotBundleArticleQuotasAA0bcE9RuleValueCySayAA0bc8ExplicitghI5QuotaVGGSgvg"
+- "_$s8NewsFeed0B20GroupClusteringKnobsV5merge4withAcA0bcdE9OverridesV_tF"
+- "_$s8NewsFeed0B20GroupClusteringKnobsV5rules3forAA0b15PersonalizationD5RulesVAA0B7ContextV_tF"
+- "_$s8NewsFeed0B20GroupClusteringKnobsV9overridesACSgAA0bcdE9OverridesV_tcfC"
+- "_$s8NewsFeed0B20GroupClusteringKnobsVMa"
+- "_$s8NewsFeed0B20ItemLayoutAttributesO20canRestoreInViewportSbvg"
+- "_$s8NewsFeed0B20ItemLayoutAttributesOMa"
+- "_$s8NewsFeed0B21RefreshBasicAnimationCMa"
+- "_$s8NewsFeed0B22GroupEmitterRuleResultOMa"
+- "_$s8NewsFeed0B22PersonalizationServiceCMa"
+- "_$s8NewsFeed0B30GroupNativeAdInsertionLocationOMa"
+- "_$s8NewsFeed0B3GapV10identifierACSS_tcfC"
+- "_$s8NewsFeed0B3TagVMa"
+- "_$s8NewsFeed0B4ItemO12PremiumBadgeOMa"
+- "_$s8NewsFeed0B4KindOMa"
+- "_$s8NewsFeed0B4SlotVMa"
+- "_$s8NewsFeed0B5IssueVMa"
+- "_$s8NewsFeed0B5ModelV5modelxvg"
+- "_$s8NewsFeed0B5ModelV8metadataq_vg"
+- "_$s8NewsFeed0B6PuzzleVMa"
+- "_$s8NewsFeed0B7ContextV12isSubscribedSbvg"
+- "_$s8NewsFeed0B7ContextVMa"
+- "_$s8NewsFeed0B7EditionV4date10Foundation4DateVvg"
+- "_$s8NewsFeed0B7ManagerC12readAndFetch7context13TeaFoundation7PromiseCyAA0b7ServiceF6ResultOy0bK6ConfigQzGG0bK7ContextQz_tF"
+- "_$s8NewsFeed0B8BannerAdV2eeoiySbAC_ACtFZ"
+- "_$s8NewsFeed0B8HeadlineV10audioTrackAA0bcE0VSgvg"
+- "_$s8NewsFeed0B8HeadlineV10identifierSSvg"
+- "_$s8NewsFeed0B8HeadlineV12nativeAdInfo0A3Ads06NativeeF0OSgvg"
+- "_$s8NewsFeed0B8HeadlineV4copy12nativeAdInfoAC0A3Ads06NativefG0O_tF"
+- "_$s8NewsFeed0B8HeadlineV5StateV07deletedD0AA0B4ItemO07DeletedD0Ovg"
+- "_$s8NewsFeed0B8HeadlineV5StateV09offensiveD0AA0B4ItemO09OffensiveD0Ovg"
+- "_$s8NewsFeed0B8HeadlineV5StateV11accessLevelAA0B4ItemO06AccessF0Ovg"
+- "_$s8NewsFeed0B8HeadlineV5stateAC5StateVvg"
+- "_$s8NewsFeed0B8HeadlineV8dragItem5TeaUI04DragE0VSgvg"
+- "_$s8NewsFeed0B8HeadlineV8headlineSo19FCHeadlineProviding_pvg"
+- "_$s8NewsFeed0B8HeadlineV8metadatayXlSgvg"
+- "_$s8NewsFeed0B8HeadlineV9hasAccessSbvg"
+- "_$s8NewsFeed0B8LocationO05topOfB0yACyxGxFZ"
+- "_$s8NewsFeed0B9GroupKindOMa"
+- "_$s8NewsFeed0B9ModeStateO11descriptionSSvg"
+- "_$s8NewsFeed11ConcernTypeOMa"
+- "_$s8NewsFeed12CategoryViewCMa"
+- "_$s8NewsFeed12FormatConfigVMa"
+- "_$s8NewsFeed12OfflineModelVMa"
+- "_$s8NewsFeed13FormatArticleC10identifierSSvg"
+- "_$s8NewsFeed13FormatContentV8ResolvedV11iAdKeywordsSaySSGvg"
+- "_$s8NewsFeed13FormatContentV8ResolvedV6themesSayAA0C16PackageInventoryCGvg"
+- "_$s8NewsFeed13FormatContentV8ResolvedV9subgroupsSayAA0cD8SubgroupV0E9ContainerOGvg"
+- "_$s8NewsFeed14CellAutomationV4dataACyxGx_tcfC"
+- "_$s8NewsFeed14FormatResourceO8imageURL2in10Foundation0F0VSgAA0C15PrefetchContextV_tKF"
+- "_$s8NewsFeed14GroupLayoutKeyCMa"
+- "_$s8NewsFeed14OfflineManagerC13onStateChangeyACyxGyAC0F0Oyx_GcF"
+- "_$s8NewsFeed15GapColorPaletteV04tintD004textD0ACSo7UIColorC_AGtcfC"
+- "_$s8NewsFeed15WebEmbedManagerCMa"
+- "_$s8NewsFeed16FormatTagBindingV5AssetO11assetHandle3tagSo07FCAssetH0CSgSo14FCTagProviding_p_tF"
+- "_$s8NewsFeed16FormatTagBindingV5AssetOMa"
+- "_$s8NewsFeed17FormatContentSlotV8ResolvedV15itemAuxiliariesSDySSAA0cdE13ItemAuxiliaryVADVGvg"
+- "_$s8NewsFeed17FormatServiceTypeP13resolveResult7content4pool7options13TeaFoundation7PromiseCyAA0cdG0CGAA0C7ContentV_AA0cN4PoolVAA0cD7OptionsVtKFTj"
+- "_$s8NewsFeed17FormatServiceTypePAAE7resolve7content4pool7options13TeaFoundation7PromiseCyAA0C7ContentV8ResolvedVGAL_AA0cM4PoolVAA0cD7OptionsVtKF"
+- "_$s8NewsFeed17ShareLinkProviderCMa"
+- "_$s8NewsFeed17SharedItemManagerCMa"
+- "_$s8NewsFeed18FormatContentThemeCMa"
+- "_$s8NewsFeed18OpenCommandContextOMa"
+- "_$s8NewsFeed19FormatPropertyValueOMa"
+- "_$s8NewsFeed19IssueCoverViewStyleV21parentBackgroundColorACSo7UIColorC_tcfC"
+- "_$s8NewsFeed19IssueCoverViewStyleVMa"
+- "_$s8NewsFeed19SportsTaxonomyGraphCMa"
+- "_$s8NewsFeed19StubOfflineProviderCMa"
+- "_$s8NewsFeed20FormatServiceOptionsV8prefetch7purpose3logACSo18FCOperationPurposea_So06OS_os_H0CtFZ"
+- "_$s8NewsFeed21ColorPaletteProvidingPAAE010issueCovercD0AA05IssuegcD0Vvg"
+- "_$s8NewsFeed21FormatContentSubgroupV17ResolvedContainerO9headlinesSaySo19FCHeadlineProviding_pGvg"
+- "_$s8NewsFeed21FormatContentSubgroupV17ResolvedContainerOMa"
+- "_$s8NewsFeed21FormatContentSubgroupV8ResolvedV6layoutAA0C16PackageInventoryCvg"
+- "_$s8NewsFeed21FormatContentSubgroupV8ResolvedVMa"
+- "_$s8NewsFeed21FormatPrefetchContextVMa"
+- "_$s8NewsFeed21sportsOnboardingState8userInfoSo08FCSportsdE0VSo06FCUserG0C_tF"
+- "_$s8NewsFeed22PublisherLogoProcessorCMa"
+- "_$s8NewsFeed23FormatPrefetchResourcesVMa"
+- "_$s8NewsFeed24FormatLayoutViewDebuggerCMa"
+- "_$s8NewsFeed24IssueCoverImageProcessorCMa"
+- "_$s8NewsFeed24LocationDetectionManagerCMa"
+- "_$s8NewsFeed25MailShareLinkTextProviderCMa"
+- "_$s8NewsFeed26IssueCoverViewRendererTypeP6render_2on4with6traits05coverE5StyleyAA0cD0O_AA0cdE0CAA0cdE16LayoutAttributesVSayAA0cD6TraitsOGAA0cdeM0VtFTj"
+- "_$s8NewsFeed26IssueCoverViewRendererTypePAAE6render_2on4with6traits05coverE5StyleyAA0cD0O_AA0cdE0CAA0cdE16LayoutAttributesVSayAA0cD6TraitsOGAA0cdeM0VtF"
+- "_$s8NewsFeed26SharingActivityItemFactoryC13commandCenter17shareLinkProvider0ij4TextK0AC5TeaUI07CommandH4Type_p_AA05SharejkP0_pAA04MailqjlkP0_ptcfc"
+- "_$s8NewsFeed26SharingActivityItemFactoryCMa"
+- "_$s8NewsFeed27SharingActivityTypeProviderCMa"
+- "_$s8NewsFeed28FormatLayoutResizingProviderCMa"
+- "_$s8NewsFeed28SportsEmbedConfigurationKindO08responseD4TypeAA0c25DataVisualizationResponsedH0Ovg"
+- "_$s8NewsFeed28SportsEmbedConfigurationKindO14umcCanonicalIdSSvg"
+- "_$s8NewsFeed28SportsEmbedConfigurationKindO15championshipTagSo17FCSportsProviding_pSgvg"
+- "_$s8NewsFeed28SportsEmbedConfigurationKindO9leagueTagSo17FCSportsProviding_pSgvg"
+- "_$s8NewsFeed30IssueCoverViewLayoutAttributesV5frameSo6CGRectVvg"
+- "_$s8NewsFeed30IssueCoverViewLayoutAttributesV6boundsSo6CGRectVvg"
+- "_$s8NewsFeed30IssueCoverViewLayoutAttributesVMa"
+- "_$s8NewsFeed30SetPuzzleStreakEligibleHandlerCMa"
+- "_$s8NewsFeed30SharingActivityProviderFactoryCMa"
+- "_$s8NewsFeed30SportsTaxonomyGraphManagerTypeP06sportsdE013TeaFoundation7PromiseCyAA0cdE0CGyFTj"
+- "_$s8NewsFeed30TagImageShareAttributeProviderCMa"
+- "_$s8NewsFeed31FormatDecorationProviderFactoryCMa"
+- "_$s8NewsFeed32ShareAttributionViewReuseFactoryCMa"
+- "_$s8NewsFeed32SharingIssueActivityTypeProviderCMa"
+- "_$s8NewsFeed33ResetPuzzleProgressCommandHandlerCMa"
+- "_$s8NewsFeed33SharingPuzzleActivityTypeProviderCMa"
+- "_$s8NewsFeed35CategoryViewLayoutAttributesFactoryCMa"
+- "_$s8NewsFeed37HeadlineViewRendererPipelineProcessorCMa"
+- "_$s8NewsFeed37IssueCoverViewLayoutAttributesFactoryCMa"
+- "_$s8NewsFeed38EmptyViewSupplementaryLayoutAttributesC4kind5frameAC5TeaUI010CollectiondE4KindO_So6CGRectVtcfc"
+- "_$s8NewsFeed38EmptyViewSupplementaryLayoutAttributesCMa"
+- "_$s8NewsFeed40PuzzleEmbedAccessoryConfigMessageHandlerC28puzzleComponentsViewProvider14scriptsManagerAcA0cjkL4Type_p_So09SWScriptsN0_ptcfc"
+- "_$s8NewsFeed40PuzzleEmbedAccessoryConfigMessageHandlerCMa"
+- "_$s8NewsFeed44PuzzleEmbedAccessoryConfigMessageHandlerTypeP09accessoryF10DataSourceAA0cdefkL0_pSgvsTj"
+- "_$s8NewsFeed44PuzzleEmbedAccessoryConfigMessageHandlerTypeP8delegateAA0cdefgH8Delegate_pSgvsTj"
+- "_$s8NewsFeed6FormatO7prepareyyFZ"
+- "_$s8NewsFeed8AssemblyCMa"
+- "_$s8NewsFeed9EmptyViewCMa"
+- "_$sSd8NewsFeedE33millisecondsUntilCurrentMediaTimeSdyF"
+- "_$sSo11FCDateRangeC8NewsFeedE018expandingEditionedD06configAbC0D13EditionConfigV_tF"
+- "_$sSo11FCDateRangeC8NewsFeedE019refreshingEditionedD04from15refreshStrategy6configAB10Foundation4DateV_AC0d7RefreshI0OAC0D13EditionConfigVtKF"
+- "_$sSo11FCDateRangeC8NewsFeedE021infiniteChronologicalD0ABvgZ"
+- "_$sSo11FCDateRangeC8NewsFeedE027refreshingExtendedEditionedD0013refreshedDateB015refreshStrategy6configA2B_AC0d7RefreshK0OAC0D13EditionConfigVtKF"
+- "_$sSo11FCDateRangeC8NewsFeedE12firstEdition4date6configAB10Foundation4DateV_AC0dF6ConfigVtFZ"
+- "_$sSo22FCNewsAppConfigurationP8NewsFeedE05todayE13EditionConfigAC0egH0Vvg"
+- "_$sSo29FCNewsAppConfigurationManagerP8NewsFeedE05fetchC010cachedOnly13TeaFoundation7PromiseCySo0abC0_pGSb_tF"
+- "_$sSo29FCNewsAppConfigurationManagerP8NewsFeedE05todayF13EditionConfigAC0fhI0Vvg"
+- "_OBJC_CLASS_$_BridgedAccountPageViewControllerFactory"
+- "_OBJC_CLASS_$_BridgedCampaignClickRecorder"
+- "_OBJC_CLASS_$_BridgedWebAuthenticationSession"
+- "_OBJC_CLASS_$_NPFamilyEligibilityProvider"
+- "_OBJC_CLASS_$_NPFamilySharingSetupPresenter"
+- "_OBJC_METACLASS_$_BridgedAccountPageViewControllerFactory"
+- "_OBJC_METACLASS_$_BridgedCampaignClickRecorder"
+- "_OBJC_METACLASS_$_BridgedWebAuthenticationSession"
+- "_OBJC_METACLASS_$_NPFamilyEligibilityProvider"
+- "_OBJC_METACLASS_$_NPFamilySharingSetupPresenter"
+- "hStatusProviderTypeP012appLaunchingC9ActionIDsSaySSGvgTq"
+- "tContentV8ResolvedV7puzzlesSaySo17FCPuzzleProviding_pGvg"
+- "wsFeedE0E7PuzzlesV17puzzleRevealStateAA0I7CommandCyAD0E6PuzzleVSbGvgZ"
+
+```

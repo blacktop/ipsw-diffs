@@ -1,0 +1,70 @@
+## ScreenshotServicesService
+
+> `/System/Library/AccessibilityBundles/ScreenshotServicesService.axbundle/ScreenshotServicesService`
+
+```diff
+
+-2950.3.1.0.0
+-  __TEXT.__text: 0x1568
++2952.1.0.0.0
++  __TEXT.__text: 0x1564
+   __TEXT.__auth_stubs: 0x230
+   __TEXT.__objc_methlist: 0x318
+   __TEXT.__cstring: 0x63e
+
+   - /usr/lib/libobjc.A.dylib
+   Functions: 62
+   Symbols:   154
+-  CStrings:  47
++  CStrings:  0
+ 
+CStrings:
+- "_12CachedScriptEb"
+- "__ZN7WebCore12GCController17garbageCollectNowEv"
+- "__ZN7WebCore12GCController41setJavaScriptGarbageCollectorTimerEnabledEb"
+- "__ZN7WebCore12GCController43garbageCollectOnAlternateThreadForDebuggingEb"
+- "__ZN7WebCore12GCController9singletonEv"
+- "__ZN7WebCore13AXObjectCache10rootObjectEv"
+- "__ZN7WebCore13AXObjectCache18rootObjectForFrameEPNS_10LocalFrameE"
+- "__ZN7WebCore13AXObjectCache8announceERKN3WTF6StringE"
+- "__ZN7WebCore13JSWindowProxy9toWrappedERN3JSC2VMENS1_7JSValueE"
+- "__ZN7WebCore13createWrapperEPN3JSC14JSGlobalObjectEPNS_17JSDOMGlobalObjectEON3WTF3RefINS_4NodeENS5_12RawPtrTraitsIS7_EENS5_21DefaultRefDerefTraitsIS7_EEEE"
+- "__ZN7WebCore14WebSocketFrame10parseFrameEPhmRS0_RPKhRN3WTF6StringE"
+- "__ZN7WebCore14WebSocketFrame13makeFrameDataERN3WTF6VectorIhLm0ENS1_15CrashOnOverflowELm16ENS1_10FastMallocEEE"
+- "__ZN7WebCore14WebSocketFrame24needsExtendedLengthFieldEm"
+- "__ZN7WebCore15DOMWrapperWorld13clearWrappersEv"
+- "__ZN7WebCore15DOMWrapperWorldD1Ev"
+- "__ZN7WebCore15DeferredPromise6rejectENS_9ExceptionENS_15RejectAsHandledE"
+- "__ZN7WebCore16ScriptController11createWorldERKN3WTF6StringENS0_9WorldTypeE"
+- "__ZN7WebCore16ScriptController17bindingRootObjectEv"
+- "__ZN7WebCore16ScriptController30executeScriptIgnoringExceptionERKN3WTF6StringEN3JSC19SourceTaintedOriginEb"
+- "__ZN7WebCore16ScriptController46executeUserAgentScriptInWorldIgnoringExceptionERNS_15DOMWrapperWorldERKN3WTF6StringEb"
+- "__ZN7WebCore18WebSocketHandshake19readServerHandshakeENSt3__14spanIKhLm18446744073709551615EEE"
+- "__ZN7WebCore18WebSocketHandshake21addExtensionProcessorENSt3__110unique_ptrINS_27WebSocketExtensionProcessorENS1_14default_deleteIS3_EEEE"
+- "__ZN7WebCore18WebSocketHandshake5resetEv"
+- "__ZN7WebCore18WebSocketHandshakeC1ERKN3WTF3URLERKNS1_6StringES7_S7_bb"
+- "__ZN7WebCore18WebSocketHandshakeD1Ev"
+- "__ZN7WebCore19AccessibilityObject13computedLabelEv"
+- "__ZN7WebCore19AccessibilityObject13isARIAControlENS_17AccessibilityRoleE"
+- "__ZN7WebCore19AccessibilityObject21ariaRoleToWebCoreRoleERKN3WTF6StringE"
+- "__ZN7WebCore25getOutOfLineCachedWrapperEPNS_17JSDOMGlobalObjectERNS_4NodeE"
+- "__ZN7WebCore28reportExceptionIfJSDOMWindowEPN3JSC14JSGlobalObjectENS0_7JSValueE"
+- "__ZN7WebCore31ReadableStreamDefaultController7enqueueEON3WTF6RefPtrIN3JSC11ArrayBufferENS1_12RawPtrTraitsIS4_EENS1_21DefaultRefDerefTraitsIS4_EEEE"
+- "__ZN7WebCore53WebTransportBidirectionalStreamConstructionParametersC1EON3WTF3RefINS_20ReadableStreamSourceENS1_12RawPtrTraitsIS3_EENS1_21DefaultRefDerefTraitsIS3_EEEEONS2_INS_18WritableStreamSinkENS4_ISA_EENS6_ISA_EEEE"
+- "__ZN7WebCore53WebTransportBidirectionalStreamConstructionParametersC1EOS0_"
+- "__ZN7WebCore53WebTransportBidirectionalStreamConstructionParametersD1Ev"
+- "__ZNK7WebCore15JSDOMWindowBase7wrappedEv"
+- "__ZNK7WebCore18WebSocketHandshake13failureReasonEv"
+- "__ZNK7WebCore18WebSocketHandshake15serverSetCookieEv"
+- "__ZNK7WebCore18WebSocketHandshake18acceptedExtensionsEv"
+- "__ZNK7WebCore18WebSocketHandshake22clientHandshakeMessageEv"
+- "__ZNK7WebCore18WebSocketHandshake22clientHandshakeRequestERKN3WTF8FunctionIFNS1_6StringERKNS1_3URLEEEE"
+- "__ZNK7WebCore18WebSocketHandshake23serverHandshakeResponseEv"
+- "__ZNK7WebCore18WebSocketHandshake23serverWebSocketProtocolEv"
+- "__ZNK7WebCore18WebSocketHandshake34httpURLForAuthenticationAndCookiesEv"
+- "__ZNK7WebCore18WebSocketHandshake3urlEv"
+- "__ZNK7WebCore18WebSocketHandshake4modeEv"
+- "geE"
+- "ocketInflaterD1Ev"
+
+```
