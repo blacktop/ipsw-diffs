@@ -21,960 +21,6 @@
 <details>
   <summary><i>View Updated</i></summary>
 
->  `com.apple.iokit.IOMobileGraphicsFamily-DCP`
-
-```diff
-
--395.23.1.0.0
-+395.25.0.0.0
-   __TEXT.__cstring: 0x3ef5
-   __TEXT.__const: 0x2148
--  __TEXT_EXEC.__text: 0x1fb60
-+  __TEXT_EXEC.__text: 0x1f8fc
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0xe0
-   __DATA.__common: 0x26d0
-
-   __DATA_CONST.__mod_term_func: 0x20
-   __DATA_CONST.__const: 0x1628
-   __DATA_CONST.__kalloc_type: 0x7c0
--  Functions: 693
-+  Functions: 690
-   Symbols:   0
-   CStrings:  364
- 
-CStrings:
-+ "D588_callback__"
-+ "D589_callback__"
-- "D590_callback__"
-- "D591_callback__"
-
-```
-
->  `com.apple.security.sandbox`
-
-```diff
-
--2401.0.48.0.0
--  __TEXT.__const: 0x18cfc1
-+2401.0.56.0.0
-+  __TEXT.__const: 0x18cad9
-   __TEXT.__cstring: 0x6ec0
-   __TEXT.__os_log: 0x2029
-   __TEXT_EXEC.__text: 0x30438
-
-```
-
->  `com.apple.driver.AppleDiskImages2`
-
-```diff
-
--379.0.0.0.0
--  __TEXT.__cstring: 0x2000
-+379.0.2.0.0
-+  __TEXT.__cstring: 0x2004
-   __TEXT.__os_log: 0x11a2
-   __TEXT.__const: 0x10
-   __TEXT_EXEC.__text: 0xd3e8
-CStrings:
-+ "379.0.2"
-- "379"
-
-```
-
->  `com.apple.driver.AppleH16CameraInterface`
-
-```diff
-
--3.28.1.0.0
--  __TEXT.__cstring: 0x190b9
--  __TEXT.__os_log: 0x153cb
--  __TEXT.__const: 0xa060
--  __TEXT_EXEC.__text: 0x95dfc
-+3.33.50.0.0
-+  __TEXT.__const: 0xa078
-+  __TEXT.__cstring: 0x19332
-+  __TEXT.__os_log: 0x1543b
-+  __TEXT_EXEC.__text: 0x9b574
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0x2a0
-   __DATA.__common: 0x4a0
--  __DATA.__bss: 0x200
--  __DATA_CONST.__auth_got: 0x890
-+  __DATA.__bss: 0x208
-+  __DATA_CONST.__auth_got: 0x898
-   __DATA_CONST.__got: 0x1c8
-   __DATA_CONST.__auth_ptr: 0x10
-   __DATA_CONST.__mod_init_func: 0x90
-   __DATA_CONST.__mod_term_func: 0x50
--  __DATA_CONST.__const: 0xacb8
-+  __DATA_CONST.__const: 0xad78
-   __DATA_CONST.__kalloc_type: 0x1300
-   __DATA_CONST.__kalloc_var: 0xd70
--  Functions: 1860
-+  Functions: 1899
-   Symbols:   0
--  CStrings:  3257
-+  CStrings:  3273
- 
-CStrings:
-+ "12122222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212"
-+ "AppleH16CamIn:%s - %s low memory mode - res:0x%08X\n"
-+ "AppleH16CamIn:%s - %s low memory mode - res:0x%08X\n"
-+ "AppleH16CamIn:%s - fEnableDisplayBrightnessUpdates = %d\n"
-+ "AppleH16CamIn:%s - fEnableDisplayBrightnessUpdates = %d\n"
-+ "AppleH16PearlCam:%s - Sending %u:%d (%s) error to client\n"
-+ "Entering"
-+ "Exiting"
-+ "ISP_CPU_CORE0_PS On Time (ms)"
-+ "ISP_CPU_CORE1_PS On Time (ms)"
-+ "ISP_CPU_PS On Time (ms)"
-+ "ISP_DPRX_PS On Time (ms)"
-+ "ISP_FE_PS On Time (ms)"
-+ "ISP_SECURE_PS On Time (ms)"
-+ "ISP_STS0_PS On Time (ms)"
-+ "ISP_STS1_PS On Time (ms)"
-+ "ISP_SetLowMemoryMode_gated"
-+ "camDisplayUpdates"
-- "1212222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212"
-- "AppleH16PearlCam:%s - Sending %d (%s) error to client\n"
-
-```
-
->  `com.apple.driver.AppleIDV`
-
-```diff
-
--7.36.1.0.0
-+7.37.0.0.0
-   __TEXT.__const: 0xf8
--  __TEXT.__cstring: 0x137d
-+  __TEXT.__cstring: 0x137b
-   __TEXT_EXEC.__text: 0x84b0
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0xc4
-CStrings:
-+ "7.37"
-- "7.36.1"
-
-```
-
->  `com.apple.driver.AppleSPU`
-
-```diff
-
--1014.0.1.0.0
-+1014.0.3.0.0
-   __TEXT.__cstring: 0x5aae
--  __TEXT.__os_log: 0x85b
-+  __TEXT.__os_log: 0x955
-   __TEXT.__const: 0x358
--  __TEXT_EXEC.__text: 0x49668
-+  __TEXT_EXEC.__text: 0x496e8
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0x7b8
-   __DATA.__common: 0x970
--  __DATA.__bss: 0x590
-+  __DATA.__bss: 0x5b0
-   __DATA_CONST.__auth_got: 0x5e0
-   __DATA_CONST.__got: 0x1a8
-   __DATA_CONST.__auth_ptr: 0x8
-
-   __DATA_CONST.__kalloc_var: 0x320
-   Functions: 2065
-   Symbols:   0
--  CStrings:  915
-+  CStrings:  920
- 
-CStrings:
-+ "Dropped gnss data report due to missing data queue %zu"
-+ "Dropped gnss data report for queue error: %#x (%zu)"
-+ "Dropped gnss event due to missing data queue %zu"
-+ "Dropped gnss event due to oversized packet: %zu"
-+ "Dropped gnss event for queue error: %#x (%zu)"
-
-```
-
->  `com.apple.driver.FairPlayIOKit`
-
-```diff
-
- 72.8.0.0.0
-   __TEXT.__cstring: 0x1c95
--  __TEXT.__const: 0x49c10
--  __TEXT_EXEC.__text: 0x1b0660
-+  __TEXT.__const: 0x49c30
-+  __TEXT_EXEC.__text: 0x1bb260
-   __TEXT_EXEC.__auth_stubs: 0x0
--  __DATA.__data: 0x12e0
-+  __DATA.__data: 0x12d0
-   __DATA.__common: 0x5fd8
-   __DATA.__bss: 0x38
-   __DATA_CONST.__auth_got: 0x218
-
-   __DATA_CONST.__auth_ptr: 0x10
-   __DATA_CONST.__mod_init_func: 0x10
-   __DATA_CONST.__mod_term_func: 0x10
--  __DATA_CONST.__const: 0x13860
-+  __DATA_CONST.__const: 0x13ae0
-   __DATA_CONST.__kalloc_type: 0x1b00
-   __DATA_CONST.__kalloc_var: 0x370
--  Functions: 461
-+  Functions: 486
-   Symbols:   0
-   CStrings:  87
- 
-
-```
-
->  `com.apple.driver.usb.AppleUSBHostiOSDevice`
-
-```diff
-
--1402.0.2.0.0
-+1402.0.7.0.0
-   __TEXT.__const: 0x8
-   __TEXT.__cstring: 0x3ef
-   __TEXT.__os_log: 0x2e0
--  __TEXT_EXEC.__text: 0x1964
-+  __TEXT_EXEC.__text: 0x1958
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0xc8
-   __DATA.__common: 0x38
-
-```
-
->  `com.apple.driver.AppleFirmwareKit`
-
-```diff
-
--531.0.7.0.0
--  __TEXT.__cstring: 0x4064
--  __TEXT.__os_log: 0x1129
-+531.0.11.0.0
-+  __TEXT.__cstring: 0x404f
-+  __TEXT.__os_log: 0x1148
-   __TEXT.__const: 0xa8
--  __TEXT_EXEC.__text: 0x3acdc
-+  __TEXT_EXEC.__text: 0x3ae8c
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0x3f8
-   __DATA.__common: 0x700
-
-   __DATA_CONST.__auth_ptr: 0x10
-   __DATA_CONST.__mod_init_func: 0xf0
-   __DATA_CONST.__mod_term_func: 0xf0
--  __DATA_CONST.__const: 0xd318
-+  __DATA_CONST.__const: 0xd348
-   __DATA_CONST.__kalloc_type: 0x1880
-   __DATA_CONST.__kalloc_var: 0x50
-   Functions: 1931
-   Symbols:   0
--  CStrings:  651
-+  CStrings:  652
- 
-CStrings:
-+ "%s(%s:%#llx): %s failed: 0x%x\n"
-+ "1111111121211211112221111222122"
-+ "createDescriptorGated"
-- "\"availableSpace >= payload->size\" @%s:%d"
-- "111111112122112111122211112221222"
-
-```
-
->  `com.apple.driver.AppleM2ScalerCSCDriver`
-
-```diff
-
--148.0.48.0.0
--  __TEXT.__cstring: 0x165cd
--  __TEXT.__const: 0x4ec98
--  __TEXT_EXEC.__text: 0xd6080
-+148.0.50.0.0
-+  __TEXT.__cstring: 0x165e9
-+  __TEXT.__const: 0x4ecb8
-+  __TEXT_EXEC.__text: 0xd6130
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0x1fe40
-   __DATA.__common: 0x20a8
-CStrings:
-+ " Client closed with requests not notified! ( %d / %d)!"
-+ "121111121222121211111111111221121121122122222"
-+ "clientClose"
-- "12111112122212121111111111121121121122122222"
-- "IRQSTS is zeroes\n"
-- "sampleInterruptStatus"
-
-```
-
->  `com.apple.driver.AppleUSBAudio`
-
-```diff
-
--701.65.0.0.0
-+701.71.0.0.0
-   __TEXT.__cstring: 0x2dad
--  __TEXT.__const: 0x5b0
--  __TEXT_EXEC.__text: 0x7682c
-+  __TEXT.__const: 0x5c0
-+  __TEXT_EXEC.__text: 0x76918
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0xc4
-   __DATA.__common: 0x628
-
-```
-
->  `com.apple.iokit.IOThunderboltFamily`
-
-```diff
-
--6769.0.0.0.0
--  __TEXT.__cstring: 0x32b45
--  __TEXT.__os_log: 0x2db0c
-+6769.0.4.0.0
-+  __TEXT.__cstring: 0x331d4
-+  __TEXT.__os_log: 0x2dd91
-   __TEXT.__const: 0x7f0
--  __TEXT_EXEC.__text: 0x18d2bc
-+  __TEXT_EXEC.__text: 0x18ef54
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0xb1a
-   __DATA.__common: 0x1238
-
-   __DATA_CONST.__got: 0x150
-   __DATA_CONST.__mod_init_func: 0x3a0
-   __DATA_CONST.__mod_term_func: 0x3a0
--  __DATA_CONST.__const: 0x1d998
-+  __DATA_CONST.__const: 0x1da00
-   __DATA_CONST.__kalloc_type: 0x1d40
-   __DATA_CONST.__kalloc_var: 0xaf0
--  Functions: 4758
-+  Functions: 4763
-   Symbols:   0
--  CStrings:  4749
-+  CStrings:  4770
- 
-CStrings:
-+ "\"bootarg acio=0x40 is deprecated (bit 6), please use new boot-arg acio_fw_panic=0x3. (bit 0 for assert on retrain, bit 1 for assert on training timeout)\\n\" @%s:%d"
-+ "\"dfp\\n\" @%s:%d"
-+ "%lldus IOThunderboltSwitchDelegateACIO(%x@%llx)::initWithController acio_fw_panic: 0x%08x\n"
-+ "%lldus IOThunderboltSwitchDelegateACIO(%x@%llx)::initWithController acio_fw_panic: 0x%08x\n"
-+ "%lldus IOThunderboltSwitchDelegateACIO(%x@%llx)::preConfigureRouter - writing acio_fw_panic 0x%08x\n"
-+ "%lldus IOThunderboltSwitchDelegateACIO(%x@%llx)::preConfigureRouter - writing acio_fw_panic 0x%08x\n"
-+ "%lldus IOThunderboltSwitchOS(%x@%llx)::setupTMU - Time Synchronization Protocol Not Supported (TSNS) bit is set.\n"
-+ "%lldus IOThunderboltSwitchOS(%x@%llx)::setupTMU - Time Synchronization Protocol Not Supported (TSNS) bit is set.\n"
-+ "%lldus IOThunderboltSwitchOS2(%x@%llx)::configureUpstreamAsymmetricMode - 0 status=0x%08x).\n"
-+ "%lldus IOThunderboltSwitchOS2(%x@%llx)::configureUpstreamAsymmetricMode - 1 status=0x%08x).\n"
-+ "%lldus IOThunderboltSwitchOS2(%x@%llx)::configureUpstreamAsymmetricMode - 2 status=0x%08x).\n"
-+ "%lldus IOThunderboltSwitchOS2(%x@%llx)::configureUpstreamAsymmetricMode - 3 status=0x%08x).\n"
-+ "%lldus IOThunderboltSwitchOS2(%x@%llx)::configureUpstreamAsymmetricMode - 4 status=0x%08x).\n"
-+ "%lldus IOThunderboltSwitchOS2(%x@%llx)::configureUpstreamAsymmetricMode - 5 status=0x%08x).\n"
-+ "%lldus IOThunderboltSwitchOS2(%x@%llx)::configureUpstreamAsymmetricMode - 6 status=0x%08x).\n"
-+ "%lldus IOThunderboltSwitchOS2(%x@%llx)::configureUpstreamAsymmetricMode - 7 status=0x%08x).\n"
-+ "%lldus IOThunderboltSwitchOS2(%x@%llx)::configureUpstreamAsymmetricMode - Failed to get expected negotiated width (Expected=0x%llx dfp_negotiated_width=0x%llx status=0x%08x).\n"
-+ "%lldus IOThunderboltSwitchOS2(%x@%llx)::configureUpstreamAsymmetricMode - Failed to get expected negotiated width (Expected=0x%llx ufp_negotiated_width=0x%llx status=0x%08x).\n"
-+ "%lldus IOThunderboltSwitchOS2(%x@%llx)::getRequiredTMUMode - fTimeSyncNotSupported = true, disabling TMU\n"
-+ "%lldus IOThunderboltSwitchOS2(%x@%llx)::getRequiredTMUMode - fTimeSyncNotSupported = true, disabling TMU\n"
-+ "%lldus IOThunderboltSwitchOS2(%x@%llx)::resetChild - requestPowerDown of child=(%x@%llx)\n"
-+ "21:17:53"
-+ "IOThunderboltSwitchDelegateACIO.cpp"
-+ "Jul 15 2024"
-+ "acio_fw_panic"
-- "%lldus IOThunderboltSwitchDelegateACIO(%x@%llx)::postConfigureRouter - write assert on retraining, offset = 0x%x data = 0x%08x - status = 0x%08x\n"
-- "%lldus IOThunderboltSwitchDelegateACIO(%x@%llx)::postConfigureRouter - write assert on retraining, offset = 0x%x data = 0x%08x - status = 0x%08x\n"
-- "20:29:14"
-- "Jul  3 2024"
-
-```
-
->  `com.apple.kec.corecrypto`
-
-```diff
-
--1736.0.36.0.0
--  __TEXT.__cstring: 0x46e7
-+1736.0.41.0.0
-+  __TEXT.__cstring: 0x4866
-   __TEXT.__const: 0x14490
-   __TEXT.__fips_hmacs: 0x20
--  __TEXT_EXEC.__text: 0x58bfc
-+  __TEXT_EXEC.__text: 0x58d3c
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0x2df0
-   __DATA.__bss: 0x2980
-
-   __DATA_CONST.__const: 0x2c90
-   Functions: 1313
-   Symbols:   0
--  CStrings:  545
-+  CStrings:  550
- 
-CStrings:
-+ "FIPSPOST_KEXT [%llu] %s:%d: FAILED: [PCT] CCEC_PAIRWISE_CONSISTENCY: unexpected FAILURE\n"
-+ "FIPSPOST_KEXT [%llu] %s:%d: FAILED: [PCT] CCEC_PAIRWISE_CONSISTENCY: unexpected SUCCESS\n"
-+ "FIPSPOST_KEXT [%llu] %s:%d: FAILED: failed ccec_x963_import_priv\n"
-+ "FIPSPOST_KEXT [%llu] %s:%d: [PCT] CCEC_PAIRWISE_CONSISTENCY: FORCEFAIL\n"
-+ "FIPSPOST_KEXT [%llu] %s:%d: [PCT] CCEC_PAIRWISE_CONSISTENCY: expected SUCCESS\n"
-+ "fipspost_post_ecdsa_pairwise_ws"
-- "FIPSPOST_KEXT [%llu] %s:%d: FAILED: import\n"
-
-```
-
->  `com.apple.plugin.IOgPTPPlugin`
-
-```diff
-
--1300.49.0.0.0
-+1300.50.1.0.0
-   __TEXT.__cstring: 0x6179
--  __TEXT.__os_log: 0x1a456
-+  __TEXT.__os_log: 0x1a4a8
-   __TEXT.__const: 0x278
--  __TEXT_EXEC.__text: 0x709f4
-+  __TEXT_EXEC.__text: 0x70acc
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0xc8
-   __DATA.__common: 0x5d8
-
-   __DATA_CONST.__kalloc_var: 0x280
-   Functions: 1416
-   Symbols:   0
--  CStrings:  1425
-+  CStrings:  1426
- 
-CStrings:
-+ "  %s(%s): Receive announce with pathTrace[%lu]: 0x%016llx\n"
-+ "  %s(%s): Transmit announce with pathTrace[%lu]: 0x%016llx\n"
-- "  %s(%s): pathTrace[%lu]: 0x%016llx\n"
-
-```
-
->  `com.apple.AGXG16P`
-
-```diff
-
--320.23.0.0.0
-+320.23.3.0.0
-   __TEXT.__const: 0x4444
-   __TEXT.__cstring: 0xca1f
-   __TEXT.__os_log: 0x2f7
--  __TEXT_EXEC.__text: 0xaea04
-+  __TEXT_EXEC.__text: 0xaeaac
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0x13b8
-   __DATA.__common: 0x10
-
-   __DATA_CONST.__auth_ptr: 0x8
-   __DATA_CONST.__mod_init_func: 0x320
-   __DATA_CONST.__mod_term_func: 0x280
--  __DATA_CONST.__const: 0x10bb0
-+  __DATA_CONST.__const: 0x10bd8
-   __DATA_CONST.__kalloc_type: 0x2140
-   __DATA_CONST.__kalloc_var: 0x3160
--  Functions: 3069
-+  Functions: 3070
-   Symbols:   0
-   CStrings:  1715
- 
-CStrings:
-+ "121111112112222122111111211222212211111121122221221222222222221122111111112222222211111212121121211212112121121211212112121121211212112121121211212112121111111112221112221112221112221112221112221112221112221112221112221112222222111122121121211111111222222222212112222222222222222222222222222222222222222222222222222222222222222222222221211211222222222222222222111111221212222222221222221111122121222222222122222111112212122222222212222211111221212222222221222221111122121222222222122222111112212122222222212222211111222111111222111111222111111222111111222111111222111111222111111222111111222112111112211111111221122111111111111111111111111111111111112222222222222222221111112212122222222212222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222211111112222222"
-+ "1211112222211111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111112222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222221111222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222"
-+ "Jul 15 2024 21:27:11"
-- "1211111121122221221111112112222122111111211222212212222222222211221111111122222222111112121121211212112121121211212112121121211212112121121211212112121111111112221112221112221112221112221112221112221112221112221112221112222222111122121121211111111222222222212112222222222222222222222222222222222222222222222222222222222222222222222221211211222222222222222222111111221212222222221222221111122121222222222122222111112212122222222212222211111221212222222221222221111122121222222222122222111112212122222222212222211111222111111222111111222111111222111111222111111222111111222111111222111111222112111112211111111221122111111111111111111111111111111111112222222222222222221111112212122222222212222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222211111112222222"
-- "121111222221111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222221111222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222"
-- "Jul  3 2024 20:40:36"
-
-```
-
->  `com.apple.driver.ApplePearlSEPDriver`
-
-```diff
-
--733.0.5.0.0
-+733.0.9.0.0
-   __TEXT.__const: 0x298
--  __TEXT.__cstring: 0x8861
-+  __TEXT.__cstring: 0x887e
-   __TEXT.__os_log: 0x3e3b
--  __TEXT_EXEC.__text: 0x36500
-+  __TEXT_EXEC.__text: 0x36504
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0xc6
-   __DATA.__common: 0x1d8
-CStrings:
-+ "!_secureStreamingCheckInProgress && (_brunorKeyUnwrappingState == kBrunorKeyUnwrappingStateNone)"
-- "!_secureStreamingCheckInProgress && !_brunorKeyUnwrappingInProgress"
-
-```
-
->  `com.apple.driver.AppleProResHW`
-
-```diff
-
--400.73.0.0.0
-+400.78.0.0.0
-   __TEXT.__const: 0x1b40
--  __TEXT.__os_log: 0x7318
-+  __TEXT.__os_log: 0x7409
-   __TEXT.__cstring: 0xdcc
--  __TEXT_EXEC.__text: 0x18950
-+  __TEXT_EXEC.__text: 0x189ec
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0x358
-   __DATA.__common: 0x70
-CStrings:
-+ "ERROR AppleProResHW (0x%x): %d: %s(): AppleProRes ERROR: Failed to map decoder output buffer with DART. ret = 0x%x.\n"
-+ "ERROR AppleProResHW (0x%x): %d: %s(): AppleProRes ERROR: Plane count is not 4 or 0 or 1!\n"
-+ "ERROR AppleProResHW (0x%x): %d: %s(): AppleProRes ERROR: Plane count is not 4!\n"
-+ "ERROR AppleProResHW (0x%x): %d: %s(): AppleProRes ERROR: Two Pic mode not supported\n"
-+ "ERROR AppleProResHW (0x%x): %d: %s(): AppleProRes RAW ERROR: Plane count is not 0 or 4!\n"
-+ "ERROR AppleProResHW (0x%x): %d: %s(): AppleProRes YCbCr ERROR: Plane count is not 2 or 3!\n"
-+ "ERROR AppleProResHW (0x%x): %d: %s(): AppleProRes-Dec ERROR: sendAsyncResult64 failed.\n"
-+ "ERROR AppleProResHW (0x%x): %d: %s(): AppleProRes-Enc ERROR: sendAsyncResult64 failed.\n"
-+ "ERROR AppleProResHW (0x%x): %d: %s(): AppleProResCommand ERROR: Enqueue called when CommandQueue is full NULL\n"
-+ "ERROR AppleProResHW (0x%x): %d: %s(): AppleProResCommand new failed\n"
-+ "ERROR AppleProResHW (0x%x): %d: %s(): AppleProResCommandQueue ERROR: Dequeue called for empty queue\n"
-+ "ERROR AppleProResHW (0x%x): %d: %s(): AppleProResHW ERROR: Could not set power state to %lu\n"
-+ "ERROR AppleProResHW (0x%x): %d: %s(): AppleProResHW ERROR: Could not wait long enough for PowerOn\n"
-+ "ERROR AppleProResHW (0x%x): %d: %s(): AppleProResHW ERROR: No provider attached\n"
-+ "ERROR AppleProResHW (0x%x): %d: %s(): AppleProResHW Warning: setPerfState skipped for PowerOffPending\n"
-+ "ERROR AppleProResHW (0x%x): %d: %s(): Cannot acquire IOFence for encInputIOSurface\n"
-+ "ERROR AppleProResHW (0x%x): %d: %s(): Cannot allocate user client info\n"
-+ "ERROR AppleProResHW (0x%x): %d: %s(): Cannot clear DelayList\n"
-+ "ERROR AppleProResHW (0x%x): %d: %s(): Cannot generate segments\n"
-+ "ERROR AppleProResHW (0x%x): %d: %s(): Cannot get DMA command\n"
-+ "ERROR AppleProResHW (0x%x): %d: %s(): Could not allocate memory for local descriptor.\n"
-+ "ERROR AppleProResHW (0x%x): %d: %s(): Could not attach user client.\n"
-+ "ERROR AppleProResHW (0x%x): %d: %s(): Could not disable power.\n"
-+ "ERROR AppleProResHW (0x%x): %d: %s(): Could not enable power.\n"
-+ "ERROR AppleProResHW (0x%x): %d: %s(): Could not map bitstream buffer with DART for Ring Descriptor Memory. mapRet = 0x%x.\n"
-+ "ERROR AppleProResHW (0x%x): %d: %s(): Could not map bitstream buffer with DART for Statistics buffer. mapRet = 0x%x.\n"
-+ "ERROR AppleProResHW (0x%x): %d: %s(): Could not wait for %u frames\n"
-+ "ERROR AppleProResHW (0x%x): %d: %s(): Device not available\n"
-+ "ERROR AppleProResHW (0x%x): %d: %s(): Failed calling start on provider\n"
-+ "ERROR AppleProResHW (0x%x): %d: %s(): Failed to map decoder input buffer with DART. ret = 0x%x.\n"
-+ "ERROR AppleProResHW (0x%x): %d: %s(): Failed to map encoder input buffer with DART. ret = 0x%x.\n"
-+ "ERROR AppleProResHW (0x%x): %d: %s(): Failed to map encoder output buffer with DART. ret = 0x%x.\n"
-+ "ERROR AppleProResHW (0x%x): %d: %s(): Failed to map encoder statistics buffer with DART. ret = 0x%x.\n"
-+ "ERROR AppleProResHW (0x%x): %d: %s(): InInfo->decInputIOSurface NULL.\n"
-+ "ERROR AppleProResHW (0x%x): %d: %s(): InInfo->decOutputIOSurface NULL.\n"
-+ "ERROR AppleProResHW (0x%x): %d: %s(): InInfo->encInputIOSurface CSID(%d) NULL.\n"
-+ "ERROR AppleProResHW (0x%x): %d: %s(): InInfo->encOutputIOSurface CSID(%d) NULL.\n"
-+ "ERROR AppleProResHW (0x%x): %d: %s(): InInfo->statsBufOffs.statsIOSurf statsCSID(%d) is NULL.\n"
-+ "ERROR AppleProResHW (0x%x): %d: %s(): Incorrect arguments for openUserClient\n"
-+ "ERROR AppleProResHW (0x%x): %d: %s(): Invalid coreIdx %d\n"
-+ "ERROR AppleProResHW (0x%x): %d: %s(): Invalid method selector\n"
-+ "ERROR AppleProResHW (0x%x): %d: %s(): Memory Descriptor is NULL\n"
-+ "ERROR AppleProResHW (0x%x): %d: %s(): NULL parameter\n"
-+ "ERROR AppleProResHW (0x%x): %d: %s(): No callback registered for this client\n"
-+ "ERROR AppleProResHW (0x%x): %d: %s(): No notification port set for this client\n"
-+ "ERROR AppleProResHW (0x%x): %d: %s(): No provider for UserClient\n"
-+ "ERROR AppleProResHW (0x%x): %d: %s(): No refcon registered for callback for this client\n"
-+ "ERROR AppleProResHW (0x%x): %d: %s(): No resources to allocate Descriptor ring memory\n"
-+ "ERROR AppleProResHW (0x%x): %d: %s(): No resources to allocate Statistics buffer\n"
-+ "ERROR AppleProResHW (0x%x): %d: %s(): Power Not On, m_ePowerState[%u]=%d\n"
-+ "ERROR AppleProResHW (0x%x): %d: %s(): Power Off on any core or ProRes doesn't own any core\n"
-+ "ERROR AppleProResHW (0x%x): %d: %s(): Power Off on any core or ProRes doesn't own any core. NumClients %d\n"
-+ "ERROR AppleProResHW (0x%x): %d: %s(): Power is Off or ProRes doesn't own core %d\n"
-+ "ERROR AppleProResHW (0x%x): %d: %s(): Power is Off or ProRes doesn't own core %d. Will not clear DelayList\n"
-+ "ERROR AppleProResHW (0x%x): %d: %s(): ProRes doesn't own any core\n"
-+ "ERROR AppleProResHW (0x%x): %d: %s(): ProRes_DecodeFrame_UserKernel_In_Info NULL\n"
-+ "ERROR AppleProResHW (0x%x): %d: %s(): ProRes_EncodeFrame_UserKernel_In_Info NULL\n"
-+ "ERROR AppleProResHW (0x%x): %d: %s(): Unsupported eClientType ...\n"
-+ "ERROR AppleProResHW (0x%x): %d: %s(): Zero NumClients\n"
-+ "ERROR AppleProResHW (0x%x): %d: %s(): [%d] DecodeFrame ERROR: Out of desc ring, pending %d\n"
-+ "ERROR AppleProResHW (0x%x): %d: %s(): [%d] EncodeFrame ERROR: Out of desc ring, pending %d\n"
-+ "ERROR AppleProResHW (0x%x): %d: %s(): encOutputBufInfo IOSurface is NULL.\n"
-+ "ERROR AppleProResHW (0x%x): %d: %s(): encStatisticsBufInfo IOSurface is NULL.\n"
-+ "ERROR AppleProResHW (0x%x): %d: %s(): m_DRTail[%d]=0x%x < m_DRHead[%d]=0x%x Wraped\n"
-+ "ERROR AppleProResHW (0x%x): %d: %s(): m_DRTail[%d]=0x%x > m_DRHead[%d]=0x%x\n"
-+ "ERROR AppleProResHW (0x%x): %d: %s(): m_ProviderDriver NULL.\n"
-+ "ERROR AppleProResHW (0x%x): %d: %s(): pBuf = NULL\n"
-+ "ERROR AppleProResHW (0x%x): %d: %s(): pCurr = NULL\n"
-+ "ERROR AppleProResHW (0x%x): %d: %s(): pFront = NULL\n"
-+ "ERROR AppleProResHW (0x%x): %d: %s(): pIOSurface NULL\n"
-+ "ERROR AppleProResHW (0x%x): %d: %s(): pMemDesc->prepare() failed\n"
-+ "ERROR AppleProResHW: %d: %s(): AppleProRes ERROR: Cannot Start IOService\n"
-+ "ERROR AppleProResHW: %d: %s(): AppleProRes ERROR: Cannot allocate m_pInitLock\n"
-+ "ERROR AppleProResHW: %d: %s(): AppleProRes ERROR: Could not extract HW device info\n"
-+ "ERROR AppleProResHW: %d: %s(): AppleProRes ERROR: Could not extract string from device info\n"
-+ "ERROR AppleProResHW: %d: %s(): AppleProRes ERROR: cannot allocate m_pAcceleratorLock\n"
-+ "ERROR AppleProResHW: %d: %s(): AppleProRes ERROR: cannot allocate m_pClientListLock\n"
-+ "ERROR AppleProResHW: %d: %s(): AppleProRes ERROR: cannot cast mPowerProvider\n"
-+ "ERROR AppleProResHW: %d: %s(): AppleProRes ERROR: cannot create copy of mapper\n"
-+ "ERROR AppleProResHW: %d: %s(): AppleProRes ERROR: cannot create interrupt event source\n"
-+ "ERROR AppleProResHW: %d: %s(): AppleProRes ERROR: cannot create new command gate\n"
-+ "ERROR AppleProResHW: %d: %s(): AppleProRes ERROR: cannot create new workloop\n"
-+ "ERROR AppleProResHW: %d: %s(): AppleProRes ERROR: cannot create timer event source\n"
-+ "ERROR AppleProResHW: %d: %s(): AppleProRes ERROR: cannot find matching provider\n"
-+ "ERROR AppleProResHW: %d: %s(): AppleProRes ERROR: cannot get the core surface root\n"
-+ "ERROR AppleProResHW: %d: %s(): AppleProRes ERROR: cannot initiate device reset function\n"
-+ "ERROR AppleProResHW: %d: %s(): AppleProRes ERROR: cannot map registers memory object 0\n"
-+ "ERROR AppleProResHW: %d: %s(): AppleProRes ERROR: cannot map registers memory object 1\n"
-+ "ERROR AppleProResHW: %d: %s(): AppleProRes ERROR: cannot retrieve registers memory object 0\n"
-+ "ERROR AppleProResHW: %d: %s(): AppleProRes ERROR: cannot retrieve registers memory object 1\n"
-+ "ERROR AppleProResHW: %d: %s(): AppleProRes ERROR: cannot support more devices\n"
-+ "ERROR AppleProResHW: %d: %s(): AppleProRes ERROR: invalid error type %s\n"
-+ "ERROR AppleProResHW: %d: %s(): AppleProRes ERROR: invalid parameters %p %p\n"
-+ "ERROR AppleProResHW: %d: %s(): AppleProRes ERROR: super::init failed\n"
-+ "ERROR AppleProResHW: %d: %s(): AppleProRes Error: Insufficient arguments from client\n"
-+ "ERROR AppleProResHW: %d: %s(): AppleProResHW ERROR: Client not entitled for ProResHW task\n"
-+ "ERROR AppleProResHW: %d: %s(): AppleProResHW ERROR: Could not disable power.\n"
-+ "ERROR AppleProResHW: %d: %s(): AppleProResHW ERROR: Could not get Instance info\n"
-+ "ERROR AppleProResHW: %d: %s(): AppleProResHW ERROR: Could not get get the actual coreIdx from InstanceStr\n"
-+ "ERROR AppleProResHW: %d: %s(): Cannot allocate user client info\n"
-+ "ERROR AppleProResHW: %d: %s(): Cannot find decode user client info\n"
-+ "ERROR AppleProResHW: %d: %s(): Cannot find encode user client info\n"
-+ "ERROR AppleProResHW: %d: %s(): Cannot find user client info\n"
-+ "ERROR AppleProResHW: %d: %s(): Closing with invalid m_pClientList or m_NumClients\n"
-+ "ERROR AppleProResHW: %d: %s(): Descriptor size for clientType not as expected in DecodeFrame()\n"
-+ "ERROR AppleProResHW: %d: %s(): Descriptor size for clientType not as expected in EncodeFrame()\n"
-+ "ERROR AppleProResHW: %d: %s(): Invalid CoreIdx\n"
-+ "ERROR AppleProResHW: %d: %s(): attachClient ERROR: Power Off on any core or ProRes doesn't own any core\n"
-+ "ERROR AppleProResHW: %d: %s(): kIODARTFunctionRegisterErrorHandler failed 0x%x\n"
-+ "ERROR AppleProResHW: %d: %s(): kIODARTMapperEarlyReclaimKey failed 0x%x\n"
-+ "ERROR AppleProResHW: %d: %s(): registerPowerDriver() failed 0x%x\n"
-+ "ERROR: AppleProResHW (0x%x): %d: %s(): HW error decSatus=%d status0=0x%x statusCode=%d status2=0x%x\n\n"
-+ "ERROR: AppleProResHW (0x%x): %d: %s(): HW error encSatus=%d status0=0x%x statusCode=%d status2=0x%x \n\n"
-+ "ERROR: AppleProResHW: %d: %s(): Disable DART with Dirty Shutdown\n"
-+ "ERROR: AppleProResHW: %d: %s(): Invalid DevID %d, no AXI values have been set\n"
-+ "ERROR: AppleProResHW: %d: %s(): Invalid DevVer %d, no AXI values have been set\n"
-+ "ERROR: AppleProResHW: %d: %s(): Invalid DevVer (0x%x), no AXI values have been set\n"
-+ "ERROR: AppleProResHW: %d: %s(): Invalid coreIdx %d, maxNumCores=%d\n"
-+ "ERROR: AppleProResHW: %d: %s(): Invalid requested core ownership - fatal error\n"
-+ "ERROR: AppleProResHW: %d: %s(): LLT AR %d\n"
-+ "ERROR: AppleProResHW: %d: %s(): LLT AW %d\n"
-+ "ERROR: AppleProResHW: %d: %s(): TLimit reports back %d outstanding\n"
-+ "ERROR: AppleProResHW: %d: %s(): [%d] DMA sts %d %d %d %d %d %d %d %d %d %d %d %d %d %d %d %d %d %d\n"
-+ "ERROR: AppleProResHW: %d: %s(): [%d] commandQ=%d IRQ=0x%x IRQ-En=0x%x st0=0x%x st1=0x%x st2=0x%x m_pTimerEventSource %p\n\n"
-+ "ERROR: AppleProResHW: %d: %s(): abort q'd cmds %d\n"
-+ "ERROR: AppleProResHW: %d: %s(): eventSource %p this %p\n"
-+ "ERROR: AppleProResHW: %d: %s(): kIODARTFunctionCacheFlushInactive Failed ret=0x%x\n"
-+ "ERROR: AppleProResHW: %d: %s(): kIODARTFunctionSetActive with Dirty Shutdown Failed ret=0x%x\n"
-- "ERROR AppleProResHW (0x%x): %d:%s(): AppleProRes ERROR: Failed to map decoder output buffer with DART. ret = 0x%x.\n"
-- "ERROR AppleProResHW (0x%x): %d:%s(): AppleProRes ERROR: Plane count is not 4 or 0 or 1!\n"
-- "ERROR AppleProResHW (0x%x): %d:%s(): AppleProRes ERROR: Plane count is not 4!\n"
-- "ERROR AppleProResHW (0x%x): %d:%s(): AppleProRes ERROR: Two Pic mode not supported\n"
-- "ERROR AppleProResHW (0x%x): %d:%s(): AppleProRes RAW ERROR: Plane count is not 0 or 4!\n"
-- "ERROR AppleProResHW (0x%x): %d:%s(): AppleProRes YCbCr ERROR: Plane count is not 2 or 3!\n"
-- "ERROR AppleProResHW (0x%x): %d:%s(): AppleProRes-Dec ERROR: sendAsyncResult64 failed.\n"
-- "ERROR AppleProResHW (0x%x): %d:%s(): AppleProRes-Enc ERROR: sendAsyncResult64 failed.\n"
-- "ERROR AppleProResHW (0x%x): %d:%s(): AppleProResCommand ERROR: Enqueue called when CommandQueue is full NULL\n"
-- "ERROR AppleProResHW (0x%x): %d:%s(): AppleProResCommand new failed\n"
-- "ERROR AppleProResHW (0x%x): %d:%s(): AppleProResCommandQueue ERROR: Dequeue called for empty queue\n"
-- "ERROR AppleProResHW (0x%x): %d:%s(): AppleProResHW ERROR: Could not set power state to %lu\n"
-- "ERROR AppleProResHW (0x%x): %d:%s(): AppleProResHW ERROR: Could not wait long enough for PowerOn\n"
-- "ERROR AppleProResHW (0x%x): %d:%s(): AppleProResHW ERROR: No provider attached\n"
-- "ERROR AppleProResHW (0x%x): %d:%s(): AppleProResHW Warning: setPerfState skipped for PowerOffPending\n"
-- "ERROR AppleProResHW (0x%x): %d:%s(): Cannot acquire IOFence for encInputIOSurface\n"
-- "ERROR AppleProResHW (0x%x): %d:%s(): Cannot allocate user client info\n"
-- "ERROR AppleProResHW (0x%x): %d:%s(): Cannot clear DelayList\n"
-- "ERROR AppleProResHW (0x%x): %d:%s(): Cannot generate segments\n"
-- "ERROR AppleProResHW (0x%x): %d:%s(): Cannot get DMA command\n"
-- "ERROR AppleProResHW (0x%x): %d:%s(): Could not allocate memory for local descriptor.\n"
-- "ERROR AppleProResHW (0x%x): %d:%s(): Could not attach user client.\n"
-- "ERROR AppleProResHW (0x%x): %d:%s(): Could not disable power.\n"
-- "ERROR AppleProResHW (0x%x): %d:%s(): Could not enable power.\n"
-- "ERROR AppleProResHW (0x%x): %d:%s(): Could not map bitstream buffer with DART for Ring Descriptor Memory. mapRet = 0x%x.\n"
-- "ERROR AppleProResHW (0x%x): %d:%s(): Could not map bitstream buffer with DART for Statistics buffer. mapRet = 0x%x.\n"
-- "ERROR AppleProResHW (0x%x): %d:%s(): Could not wait for %u frames\n"
-- "ERROR AppleProResHW (0x%x): %d:%s(): Device not available\n"
-- "ERROR AppleProResHW (0x%x): %d:%s(): Failed calling start on provider\n"
-- "ERROR AppleProResHW (0x%x): %d:%s(): Failed to map decoder input buffer with DART. ret = 0x%x.\n"
-- "ERROR AppleProResHW (0x%x): %d:%s(): Failed to map encoder input buffer with DART. ret = 0x%x.\n"
-- "ERROR AppleProResHW (0x%x): %d:%s(): Failed to map encoder output buffer with DART. ret = 0x%x.\n"
-- "ERROR AppleProResHW (0x%x): %d:%s(): Failed to map encoder statistics buffer with DART. ret = 0x%x.\n"
-- "ERROR AppleProResHW (0x%x): %d:%s(): InInfo->decInputIOSurface NULL.\n"
-- "ERROR AppleProResHW (0x%x): %d:%s(): InInfo->decOutputIOSurface NULL.\n"
-- "ERROR AppleProResHW (0x%x): %d:%s(): InInfo->encInputIOSurface CSID(%d) NULL.\n"
-- "ERROR AppleProResHW (0x%x): %d:%s(): InInfo->encOutputIOSurface CSID(%d) NULL.\n"
-- "ERROR AppleProResHW (0x%x): %d:%s(): InInfo->statsBufOffs.statsIOSurf statsCSID(%d) is NULL.\n"
-- "ERROR AppleProResHW (0x%x): %d:%s(): Incorrect arguments for openUserClient\n"
-- "ERROR AppleProResHW (0x%x): %d:%s(): Invalid coreIdx %d\n"
-- "ERROR AppleProResHW (0x%x): %d:%s(): Invalid method selector\n"
-- "ERROR AppleProResHW (0x%x): %d:%s(): Memory Descriptor is NULL\n"
-- "ERROR AppleProResHW (0x%x): %d:%s(): NULL parameter\n"
-- "ERROR AppleProResHW (0x%x): %d:%s(): No callback registered for this client\n"
-- "ERROR AppleProResHW (0x%x): %d:%s(): No notification port set for this client\n"
-- "ERROR AppleProResHW (0x%x): %d:%s(): No provider for UserClient\n"
-- "ERROR AppleProResHW (0x%x): %d:%s(): No refcon registered for callback for this client\n"
-- "ERROR AppleProResHW (0x%x): %d:%s(): No resources to allocate Descriptor ring memory\n"
-- "ERROR AppleProResHW (0x%x): %d:%s(): No resources to allocate Statistics buffer\n"
-- "ERROR AppleProResHW (0x%x): %d:%s(): Power Not On, m_ePowerState[%u]=%d\n"
-- "ERROR AppleProResHW (0x%x): %d:%s(): Power Off on any core or ProRes doesn't own any core\n"
-- "ERROR AppleProResHW (0x%x): %d:%s(): Power Off on any core or ProRes doesn't own any core. NumClients %d\n"
-- "ERROR AppleProResHW (0x%x): %d:%s(): Power is Off or ProRes doesn't own core %d\n"
-- "ERROR AppleProResHW (0x%x): %d:%s(): Power is Off or ProRes doesn't own core %d. Will not clear DelayList\n"
-- "ERROR AppleProResHW (0x%x): %d:%s(): ProRes doesn't own any core\n"
-- "ERROR AppleProResHW (0x%x): %d:%s(): ProRes_DecodeFrame_UserKernel_In_Info NULL\n"
-- "ERROR AppleProResHW (0x%x): %d:%s(): ProRes_EncodeFrame_UserKernel_In_Info NULL\n"
-- "ERROR AppleProResHW (0x%x): %d:%s(): Unsupported eClientType ...\n"
-- "ERROR AppleProResHW (0x%x): %d:%s(): Zero NumClients\n"
-- "ERROR AppleProResHW (0x%x): %d:%s(): [%d] DecodeFrame ERROR: Out of desc ring, pending %d\n"
-- "ERROR AppleProResHW (0x%x): %d:%s(): [%d] EncodeFrame ERROR: Out of desc ring, pending %d\n"
-- "ERROR AppleProResHW (0x%x): %d:%s(): encOutputBufInfo IOSurface is NULL.\n"
-- "ERROR AppleProResHW (0x%x): %d:%s(): encStatisticsBufInfo IOSurface is NULL.\n"
-- "ERROR AppleProResHW (0x%x): %d:%s(): m_DRTail[%d]=0x%x < m_DRHead[%d]=0x%x Wraped\n"
-- "ERROR AppleProResHW (0x%x): %d:%s(): m_DRTail[%d]=0x%x > m_DRHead[%d]=0x%x\n"
-- "ERROR AppleProResHW (0x%x): %d:%s(): m_ProviderDriver NULL.\n"
-- "ERROR AppleProResHW (0x%x): %d:%s(): pBuf = NULL\n"
-- "ERROR AppleProResHW (0x%x): %d:%s(): pCurr = NULL\n"
-- "ERROR AppleProResHW (0x%x): %d:%s(): pFront = NULL\n"
-- "ERROR AppleProResHW (0x%x): %d:%s(): pIOSurface NULL\n"
-- "ERROR AppleProResHW (0x%x): %d:%s(): pMemDesc->prepare() failed\n"
-- "ERROR AppleProResHW: %d:%s(): AppleProRes ERROR: Cannot Start IOService\n"
-- "ERROR AppleProResHW: %d:%s(): AppleProRes ERROR: Cannot allocate m_pInitLock\n"
-- "ERROR AppleProResHW: %d:%s(): AppleProRes ERROR: Could not extract HW device info\n"
-- "ERROR AppleProResHW: %d:%s(): AppleProRes ERROR: Could not extract string from device info\n"
-- "ERROR AppleProResHW: %d:%s(): AppleProRes ERROR: cannot allocate m_pAcceleratorLock\n"
-- "ERROR AppleProResHW: %d:%s(): AppleProRes ERROR: cannot allocate m_pClientListLock\n"
-- "ERROR AppleProResHW: %d:%s(): AppleProRes ERROR: cannot cast mPowerProvider\n"
-- "ERROR AppleProResHW: %d:%s(): AppleProRes ERROR: cannot create copy of mapper\n"
-- "ERROR AppleProResHW: %d:%s(): AppleProRes ERROR: cannot create interrupt event source\n"
-- "ERROR AppleProResHW: %d:%s(): AppleProRes ERROR: cannot create new command gate\n"
-- "ERROR AppleProResHW: %d:%s(): AppleProRes ERROR: cannot create new workloop\n"
-- "ERROR AppleProResHW: %d:%s(): AppleProRes ERROR: cannot create timer event source\n"
-- "ERROR AppleProResHW: %d:%s(): AppleProRes ERROR: cannot find matching provider\n"
-- "ERROR AppleProResHW: %d:%s(): AppleProRes ERROR: cannot get the core surface root\n"
-- "ERROR AppleProResHW: %d:%s(): AppleProRes ERROR: cannot initiate device reset function\n"
-- "ERROR AppleProResHW: %d:%s(): AppleProRes ERROR: cannot map registers memory object 0\n"
-- "ERROR AppleProResHW: %d:%s(): AppleProRes ERROR: cannot map registers memory object 1\n"
-- "ERROR AppleProResHW: %d:%s(): AppleProRes ERROR: cannot retrieve registers memory object 0\n"
-- "ERROR AppleProResHW: %d:%s(): AppleProRes ERROR: cannot retrieve registers memory object 1\n"
-- "ERROR AppleProResHW: %d:%s(): AppleProRes ERROR: cannot support more devices\n"
-- "ERROR AppleProResHW: %d:%s(): AppleProRes ERROR: invalid error type %s\n"
-- "ERROR AppleProResHW: %d:%s(): AppleProRes ERROR: invalid parameters %p %p\n"
-- "ERROR AppleProResHW: %d:%s(): AppleProRes ERROR: super::init failed\n"
-- "ERROR AppleProResHW: %d:%s(): AppleProRes Error: Insufficient arguments from client\n"
-- "ERROR AppleProResHW: %d:%s(): AppleProResHW ERROR: Client not entitled for ProResHW task\n"
-- "ERROR AppleProResHW: %d:%s(): AppleProResHW ERROR: Could not disable power.\n"
-- "ERROR AppleProResHW: %d:%s(): AppleProResHW ERROR: Could not get Instance info\n"
-- "ERROR AppleProResHW: %d:%s(): AppleProResHW ERROR: Could not get get the actual coreIdx from InstanceStr\n"
-- "ERROR AppleProResHW: %d:%s(): Cannot allocate user client info\n"
-- "ERROR AppleProResHW: %d:%s(): Cannot find decode user client info\n"
-- "ERROR AppleProResHW: %d:%s(): Cannot find encode user client info\n"
-- "ERROR AppleProResHW: %d:%s(): Cannot find user client info\n"
-- "ERROR AppleProResHW: %d:%s(): Closing with invalid m_pClientList or m_NumClients\n"
-- "ERROR AppleProResHW: %d:%s(): Descriptor size for clientType not as expected in DecodeFrame()\n"
-- "ERROR AppleProResHW: %d:%s(): Descriptor size for clientType not as expected in EncodeFrame()\n"
-- "ERROR AppleProResHW: %d:%s(): Invalid CoreIdx\n"
-- "ERROR AppleProResHW: %d:%s(): attachClient ERROR: Power Off on any core or ProRes doesn't own any core\n"
-- "ERROR AppleProResHW: %d:%s(): kIODARTFunctionRegisterErrorHandler failed 0x%x\n"
-- "ERROR AppleProResHW: %d:%s(): kIODARTMapperEarlyReclaimKey failed 0x%x\n"
-- "ERROR AppleProResHW: %d:%s(): registerPowerDriver() failed 0x%x\n"
-- "ERROR: AppleProResHW %s(): Disable DART with Dirty Shutdown\n"
-- "ERROR: AppleProResHW %s(): Invalid DevID %d, no AXI values have been set\n"
-- "ERROR: AppleProResHW %s(): Invalid DevVer %d, no AXI values have been set\n"
-- "ERROR: AppleProResHW %s(): Invalid DevVer (0x%x), no AXI values have been set\n"
-- "ERROR: AppleProResHW %s(): Invalid coreIdx %d, maxNumCores=%d\n"
-- "ERROR: AppleProResHW %s(): Invalid requested core ownership - fatal error\n"
-- "ERROR: AppleProResHW %s(): LLT AR %d\n"
-- "ERROR: AppleProResHW %s(): LLT AW %d\n"
-- "ERROR: AppleProResHW %s(): TLimit reports back %d outstanding\n"
-- "ERROR: AppleProResHW %s(): [%d] DMA sts %d %d %d %d %d %d %d %d %d %d %d %d %d %d %d %d %d %d\n"
-- "ERROR: AppleProResHW %s(): [%d] commandQ=%d IRQ=0x%x IRQ-En=0x%x st0=0x%x st1=0x%x st2=0x%x m_pTimerEventSource %p\n\n"
-- "ERROR: AppleProResHW %s(): abort q'd cmds %d\n"
-- "ERROR: AppleProResHW %s(): eventSource %p this %p\n"
-- "ERROR: AppleProResHW %s(): kIODARTFunctionCacheFlushInactive Failed ret=0x%x\n"
-- "ERROR: AppleProResHW %s(): kIODARTFunctionSetActive with Dirty Shutdown Failed ret=0x%x\n"
-- "ERROR: AppleProResHW (0x%x): %s(): HW error decSatus=%d status0=0x%x statusCode=%d status2=0x%x\n\n"
-- "ERROR: AppleProResHW (0x%x): %s(): HW error encSatus=%d status0=0x%x statusCode=%d status2=0x%x \n\n"
-
-```
-
->  `com.apple.driver.AppleSmartBatteryManagerEmbedded`
-
-```diff
-
--1735.0.0.0.0
-+1739.0.0.0.0
-   __TEXT.__cstring: 0x447a
-   __TEXT.__const: 0x15f0
--  __TEXT.__os_log: 0x25f9
--  __TEXT_EXEC.__text: 0x228a0
-+  __TEXT.__os_log: 0x2616
-+  __TEXT_EXEC.__text: 0x228ec
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0x208
-   __DATA.__common: 0x150
-
-   __DATA_CONST.__kalloc_type: 0x340
-   Functions: 385
-   Symbols:   0
--  CStrings:  910
-+  CStrings:  911
- 
-CStrings:
-+ "failed to read shutdownData\n"
-
-```
-
->  `com.apple.driver.AppleT8110DART`
-
-```diff
-
--452.0.2.0.0
-+452.0.4.0.0
-   __TEXT.__const: 0x60
-   __TEXT.__cstring: 0x27b4
--  __TEXT_EXEC.__text: 0xd458
-+  __TEXT_EXEC.__text: 0xd4a8
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0xc8
-   __DATA.__common: 0x38
-
-```
-
->  `com.apple.iokit.IOSurface`
-
-```diff
-
--368.0.4.0.0
-+368.0.6.0.0
-   __TEXT.__cstring: 0x4f28
-   __TEXT.__const: 0x48
-   __TEXT.__os_log: 0x4ff
--  __TEXT_EXEC.__text: 0x2d340
-+  __TEXT_EXEC.__text: 0x2d364
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0x178
-   __DATA.__common: 0x3e8
-
-```
-
->  `com.apple.driver.AppleAuthCP`
-
-```diff
-
--157.0.0.0.0
-+157.0.0.502.1
-   __TEXT.__const: 0x4c
--  __TEXT.__cstring: 0x280a
-+  __TEXT.__cstring: 0x2877
-   __TEXT.__os_log: 0x12c7
--  __TEXT_EXEC.__text: 0x186e8
-+  __TEXT_EXEC.__text: 0x18a1c
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0x188
-   __DATA.__common: 0x218
-
-   __DATA_CONST.__mod_term_func: 0x48
-   __DATA_CONST.__const: 0x5840
-   __DATA_CONST.__kalloc_type: 0x6c0
--  Functions: 470
-+  Functions: 471
-   Symbols:   0
--  CStrings:  404
-+  CStrings:  407
- 
-CStrings:
-+ "%s:%s _getDeviceIDSN() failed (status = 0x%x)\n"
-+ "AppleAuthCPRelay::start: provider has no IDSN\n"
-+ "_getDeviceIDSN"
-
-```
-
->  `com.apple.driver.ApplePMGR`
-
-```diff
-
--1555.0.17.0.0
-+1555.0.22.0.0
-   __TEXT.__const: 0x248
--  __TEXT.__cstring: 0xe858
--  __TEXT_EXEC.__text: 0x527f8
-+  __TEXT.__cstring: 0xe8ef
-+  __TEXT_EXEC.__text: 0x5299c
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0x100
-   __DATA.__common: 0x420
-
-   __DATA_CONST.__const: 0x7788
-   __DATA_CONST.__kalloc_type: 0x680
-   __DATA_CONST.__kalloc_var: 0xe10
--  Functions: 2163
-+  Functions: 2165
-   Symbols:   0
--  CStrings:  1587
-+  CStrings:  1590
- 
-CStrings:
-+ "ApplePMGR:  perfCounterID = 0x%x activeTime = 0x%llx\n"
-+ "_wakeTimeCounterCount <= kWakeTimeCounterMaxCount"
-+ "virtual bool ApplePMGR::setWakeTimeFromSleep()"
-
-```
-
->  `com.apple.driver.AppleSART`
-
-```diff
-
--22.0.0.0.0
--  __TEXT.__cstring: 0xc94
--  __TEXT_EXEC.__text: 0x29e8
-+23.0.0.0.0
-+  __TEXT.__cstring: 0xcb3
-+  __TEXT_EXEC.__text: 0x2ae0
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0xc8
-   __DATA.__common: 0x88
-
-   __DATA_CONST.__mod_term_func: 0x18
-   __DATA_CONST.__const: 0x1238
-   __DATA_CONST.__kalloc_type: 0xc0
--  Functions: 114
-+  Functions: 115
-   Symbols:   0
--  CStrings:  66
-+  CStrings:  67
- 
-CStrings:
-+ "121111121222121212222222221121211112"
-+ "_sartPowerRegisterMap != NULL"
-+ "sart-power-reg-offset"
-- "1211111212221212122222222211121211"
-- "function-enable_autopm"
-
-```
-
->  `com.apple.driver.DCPDPFamilyProxy`
-
-```diff
-
--200.0.8.0.0
--  __TEXT.__const: 0x98
--  __TEXT.__cstring: 0x3ac
-+200.0.10.0.0
-+  __TEXT.__const: 0x90
-+  __TEXT.__cstring: 0x410
-   __TEXT.__os_log: 0x232
--  __TEXT_EXEC.__text: 0x4488
-+  __TEXT_EXEC.__text: 0x4610
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0xc8
-   __DATA.__common: 0x100
--  __DATA_CONST.__auth_got: 0x110
--  __DATA_CONST.__got: 0x68
-+  __DATA_CONST.__auth_got: 0x108
-+  __DATA_CONST.__got: 0x80
-   __DATA_CONST.__mod_init_func: 0x30
-   __DATA_CONST.__mod_term_func: 0x30
-   __DATA_CONST.__const: 0x28c0
-   __DATA_CONST.__kalloc_type: 0x180
--  Functions: 192
-+  Functions: 193
-   Symbols:   0
--  CStrings:  31
-+  CStrings:  35
- 
-CStrings:
-+ "color-accuracy-index"
-+ "color-accuracy-index-key"
-+ "coverglass-serial-number"
-+ "coverglass-serial-number-key"
-
-```
-
 >  `com.apple.kernel`
 
 ```diff
@@ -1077,46 +123,212 @@ CStrings:
 
 ```
 
->  `com.apple.driver.AppleAVD`
+>  `com.apple.driver.AppleAuthCP`
 
 ```diff
 
--795.2.0.0.0
-+796.1.0.0.0
-   __TEXT.__const: 0x86e6e
--  __TEXT.__cstring: 0x5135
--  __TEXT.__os_log: 0x116ce
--  __TEXT_EXEC.__text: 0x40f34
-+  __TEXT.__cstring: 0x5156
-+  __TEXT.__os_log: 0x11944
-+  __TEXT_EXEC.__text: 0x41274
+-157.0.0.0.0
++157.0.0.502.1
+   __TEXT.__const: 0x4c
+-  __TEXT.__cstring: 0x280a
++  __TEXT.__cstring: 0x2877
+   __TEXT.__os_log: 0x12c7
+-  __TEXT_EXEC.__text: 0x186e8
++  __TEXT_EXEC.__text: 0x18a1c
    __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0x12dc
-   __DATA.__common: 0x78
+   __DATA.__data: 0x188
+   __DATA.__common: 0x218
 
-   __DATA_CONST.__kalloc_type: 0x2400
-   Functions: 1339
+   __DATA_CONST.__mod_term_func: 0x48
+   __DATA_CONST.__const: 0x5840
+   __DATA_CONST.__kalloc_type: 0x6c0
+-  Functions: 470
++  Functions: 471
    Symbols:   0
--  CStrings:  1410
-+  CStrings:  1420
+-  CStrings:  404
++  CStrings:  407
  
 CStrings:
-+ "1211111212221212111111111111111111111111222222222222222222222222222222222222222222222222222112212212222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222212121221222222222222222222212212222222222222222222222122222112122122222222222222222222211112112112112212222222222212212212222222222222222222222222222222222222222222222222222222222222222222221221221222222222222222222222222222222222222222222222222221111"
-+ "AppleAVD: %s(): ERROR - invalid arguments! status 0x%x"
-+ "AppleAVD: ERROR: %s(): Attempt to deallocate NULL kern_mem_info"
-+ "AppleAVD: ERROR: %s(): NULL pAVDDart or invalid SID"
-+ "AppleAVD: ERROR: %s(): addMemoryDescToGart failed."
-+ "AppleAVD: ERROR: %s(): codecType=%u is invalid\n"
-+ "AppleAVD: ERROR: %s(): deallocateKernelMemoryInternal failed"
-+ "AppleAVD: ERROR: %s(): failed to grab PQ! hwDeviceType: %d"
-+ "AppleAVD: ERROR: %s(): failed to grab WrapCtrl! hwDeviceType: %d"
-+ "AppleAVD: ERROR: %s(): setMemoryDescriptor failed 0x%x"
-+ "AppleAVD: ERROR: %s():%u: invalid command patcher!"
-+ "AppleAVD: ERROR: :%u: too many reference frames [%u, %u]\n"
-+ "DeallocKernelMem"
-- "121111121222121211111111111111111111111122222222222222222222222222222222222222222222222222211221221222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222212121221222222222222222222212212222222222222222222222122222112122122222222222222222222211112112112112212222222222212212212222222222222222222222222222222222222222222222222222222222222222222221221221222222222222222222222222222222222222222222222222221111"
-- "AppleAVD: %s(): ERROR: addMemoryDescToGart failed.\n"
-- "AppleAVD: %s(): set memory descriptor ERROR 0x%x"
++ "%s:%s _getDeviceIDSN() failed (status = 0x%x)\n"
++ "AppleAuthCPRelay::start: provider has no IDSN\n"
++ "_getDeviceIDSN"
+
+```
+
+>  `com.apple.driver.AppleFirmwareKit`
+
+```diff
+
+-531.0.7.0.0
+-  __TEXT.__cstring: 0x4064
+-  __TEXT.__os_log: 0x1129
++531.0.11.0.0
++  __TEXT.__cstring: 0x404f
++  __TEXT.__os_log: 0x1148
+   __TEXT.__const: 0xa8
+-  __TEXT_EXEC.__text: 0x3acdc
++  __TEXT_EXEC.__text: 0x3ae8c
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0x3f8
+   __DATA.__common: 0x700
+
+   __DATA_CONST.__auth_ptr: 0x10
+   __DATA_CONST.__mod_init_func: 0xf0
+   __DATA_CONST.__mod_term_func: 0xf0
+-  __DATA_CONST.__const: 0xd318
++  __DATA_CONST.__const: 0xd348
+   __DATA_CONST.__kalloc_type: 0x1880
+   __DATA_CONST.__kalloc_var: 0x50
+   Functions: 1931
+   Symbols:   0
+-  CStrings:  651
++  CStrings:  652
+ 
+CStrings:
++ "%s(%s:%#llx): %s failed: 0x%x\n"
++ "1111111121211211112221111222122"
++ "createDescriptorGated"
+- "\"availableSpace >= payload->size\" @%s:%d"
+- "111111112122112111122211112221222"
+
+```
+
+>  `com.apple.driver.AppleH16CameraInterface`
+
+```diff
+
+-3.28.1.0.0
+-  __TEXT.__cstring: 0x190b9
+-  __TEXT.__os_log: 0x153cb
+-  __TEXT.__const: 0xa060
+-  __TEXT_EXEC.__text: 0x95dfc
++3.33.50.0.0
++  __TEXT.__const: 0xa078
++  __TEXT.__cstring: 0x19332
++  __TEXT.__os_log: 0x1543b
++  __TEXT_EXEC.__text: 0x9b574
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0x2a0
+   __DATA.__common: 0x4a0
+-  __DATA.__bss: 0x200
+-  __DATA_CONST.__auth_got: 0x890
++  __DATA.__bss: 0x208
++  __DATA_CONST.__auth_got: 0x898
+   __DATA_CONST.__got: 0x1c8
+   __DATA_CONST.__auth_ptr: 0x10
+   __DATA_CONST.__mod_init_func: 0x90
+   __DATA_CONST.__mod_term_func: 0x50
+-  __DATA_CONST.__const: 0xacb8
++  __DATA_CONST.__const: 0xad78
+   __DATA_CONST.__kalloc_type: 0x1300
+   __DATA_CONST.__kalloc_var: 0xd70
+-  Functions: 1860
++  Functions: 1899
+   Symbols:   0
+-  CStrings:  3257
++  CStrings:  3273
+ 
+CStrings:
++ "12122222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212"
++ "AppleH16CamIn:%s - %s low memory mode - res:0x%08X\n"
++ "AppleH16CamIn:%s - %s low memory mode - res:0x%08X\n"
++ "AppleH16CamIn:%s - fEnableDisplayBrightnessUpdates = %d\n"
++ "AppleH16CamIn:%s - fEnableDisplayBrightnessUpdates = %d\n"
++ "AppleH16PearlCam:%s - Sending %u:%d (%s) error to client\n"
++ "Entering"
++ "Exiting"
++ "ISP_CPU_CORE0_PS On Time (ms)"
++ "ISP_CPU_CORE1_PS On Time (ms)"
++ "ISP_CPU_PS On Time (ms)"
++ "ISP_DPRX_PS On Time (ms)"
++ "ISP_FE_PS On Time (ms)"
++ "ISP_SECURE_PS On Time (ms)"
++ "ISP_STS0_PS On Time (ms)"
++ "ISP_STS1_PS On Time (ms)"
++ "ISP_SetLowMemoryMode_gated"
++ "camDisplayUpdates"
+- "1212222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212"
+- "AppleH16PearlCam:%s - Sending %d (%s) error to client\n"
+
+```
+
+>  `com.apple.driver.AppleM2ScalerCSCDriver`
+
+```diff
+
+-148.0.48.0.0
+-  __TEXT.__cstring: 0x165cd
+-  __TEXT.__const: 0x4ec98
+-  __TEXT_EXEC.__text: 0xd6080
++148.0.50.0.0
++  __TEXT.__cstring: 0x165e9
++  __TEXT.__const: 0x4ecb8
++  __TEXT_EXEC.__text: 0xd6130
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0x1fe40
+   __DATA.__common: 0x20a8
+CStrings:
++ " Client closed with requests not notified! ( %d / %d)!"
++ "121111121222121211111111111221121121122122222"
++ "clientClose"
+- "12111112122212121111111111121121121122122222"
+- "IRQSTS is zeroes\n"
+- "sampleInterruptStatus"
+
+```
+
+>  `com.apple.driver.DCPDPFamilyProxy`
+
+```diff
+
+-200.0.8.0.0
+-  __TEXT.__const: 0x98
+-  __TEXT.__cstring: 0x3ac
++200.0.10.0.0
++  __TEXT.__const: 0x90
++  __TEXT.__cstring: 0x410
+   __TEXT.__os_log: 0x232
+-  __TEXT_EXEC.__text: 0x4488
++  __TEXT_EXEC.__text: 0x4610
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0xc8
+   __DATA.__common: 0x100
+-  __DATA_CONST.__auth_got: 0x110
+-  __DATA_CONST.__got: 0x68
++  __DATA_CONST.__auth_got: 0x108
++  __DATA_CONST.__got: 0x80
+   __DATA_CONST.__mod_init_func: 0x30
+   __DATA_CONST.__mod_term_func: 0x30
+   __DATA_CONST.__const: 0x28c0
+   __DATA_CONST.__kalloc_type: 0x180
+-  Functions: 192
++  Functions: 193
+   Symbols:   0
+-  CStrings:  31
++  CStrings:  35
+ 
+CStrings:
++ "color-accuracy-index"
++ "color-accuracy-index-key"
++ "coverglass-serial-number"
++ "coverglass-serial-number-key"
+
+```
+
+>  `com.apple.driver.AppleH16ANEInterface`
+
+```diff
+
+-8.15.1.0.0
++8.16.1.0.0
+   __TEXT.__os_log: 0x31029
+   __TEXT.__cstring: 0xab3f
+   __TEXT.__const: 0x600
+-  __TEXT_EXEC.__text: 0xa0a78
++  __TEXT_EXEC.__text: 0xa0b20
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0x3058
+   __DATA.__common: 0x3c8
 
 ```
 
@@ -1167,6 +379,95 @@ CStrings:
 
 ```
 
+>  `com.apple.driver.usb.AppleUSBHostiOSDevice`
+
+```diff
+
+-1402.0.2.0.0
++1402.0.7.0.0
+   __TEXT.__const: 0x8
+   __TEXT.__cstring: 0x3ef
+   __TEXT.__os_log: 0x2e0
+-  __TEXT_EXEC.__text: 0x1964
++  __TEXT_EXEC.__text: 0x1958
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0xc8
+   __DATA.__common: 0x38
+
+```
+
+>  `com.apple.driver.AppleSEPKeyStore`
+
+```diff
+
+-1827.0.50.0.0
++1827.0.52.0.0
+   __TEXT.__cstring: 0x3ab6
+   __TEXT.__const: 0x864
+-  __TEXT_EXEC.__text: 0x3d4f4
++  __TEXT_EXEC.__text: 0x3d590
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0x39c
+   __DATA.__common: 0xe8
+
+   __DATA_CONST.__auth_ptr: 0x18
+   __DATA_CONST.__mod_init_func: 0x10
+   __DATA_CONST.__mod_term_func: 0x10
+-  __DATA_CONST.__const: 0x3a68
++  __DATA_CONST.__const: 0x3a88
+   __DATA_CONST.__kalloc_type: 0xd40
+   __DATA_CONST.__kalloc_var: 0xa0
+-  Functions: 671
++  Functions: 672
+   Symbols:   0
+   CStrings:  342
+ 
+CStrings:
++ "1827.0.52"
++ "21:31:22"
++ "Jul 15 2024"
+- "1827.0.50"
+- "20:43:58"
+- "Jul  3 2024"
+
+```
+
+>  `com.apple.driver.AppleSPU`
+
+```diff
+
+-1014.0.1.0.0
++1014.0.3.0.0
+   __TEXT.__cstring: 0x5aae
+-  __TEXT.__os_log: 0x85b
++  __TEXT.__os_log: 0x955
+   __TEXT.__const: 0x358
+-  __TEXT_EXEC.__text: 0x49668
++  __TEXT_EXEC.__text: 0x496e8
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0x7b8
+   __DATA.__common: 0x970
+-  __DATA.__bss: 0x590
++  __DATA.__bss: 0x5b0
+   __DATA_CONST.__auth_got: 0x5e0
+   __DATA_CONST.__got: 0x1a8
+   __DATA_CONST.__auth_ptr: 0x8
+
+   __DATA_CONST.__kalloc_var: 0x320
+   Functions: 2065
+   Symbols:   0
+-  CStrings:  915
++  CStrings:  920
+ 
+CStrings:
++ "Dropped gnss data report due to missing data queue %zu"
++ "Dropped gnss data report for queue error: %#x (%zu)"
++ "Dropped gnss event due to missing data queue %zu"
++ "Dropped gnss event due to oversized packet: %zu"
++ "Dropped gnss event for queue error: %#x (%zu)"
+
+```
+
 >  `com.apple.filesystems.apfs`
 
 ```diff
@@ -1205,6 +506,187 @@ CStrings:
 - "2310"
 - "Jul  3 2024"
 - "apfs-2310"
+
+```
+
+>  `com.apple.driver.AppleIDV`
+
+```diff
+
+-7.36.1.0.0
++7.37.0.0.0
+   __TEXT.__const: 0xf8
+-  __TEXT.__cstring: 0x137d
++  __TEXT.__cstring: 0x137b
+   __TEXT_EXEC.__text: 0x84b0
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0xc4
+CStrings:
++ "7.37"
+- "7.36.1"
+
+```
+
+>  `com.apple.driver.ApplePMGR`
+
+```diff
+
+-1555.0.17.0.0
++1555.0.22.0.0
+   __TEXT.__const: 0x248
+-  __TEXT.__cstring: 0xe858
+-  __TEXT_EXEC.__text: 0x527f8
++  __TEXT.__cstring: 0xe8ef
++  __TEXT_EXEC.__text: 0x5299c
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0x100
+   __DATA.__common: 0x420
+
+   __DATA_CONST.__const: 0x7788
+   __DATA_CONST.__kalloc_type: 0x680
+   __DATA_CONST.__kalloc_var: 0xe10
+-  Functions: 2163
++  Functions: 2165
+   Symbols:   0
+-  CStrings:  1587
++  CStrings:  1590
+ 
+CStrings:
++ "ApplePMGR:  perfCounterID = 0x%x activeTime = 0x%llx\n"
++ "_wakeTimeCounterCount <= kWakeTimeCounterMaxCount"
++ "virtual bool ApplePMGR::setWakeTimeFromSleep()"
+
+```
+
+>  `com.apple.driver.ApplePearlSEPDriver`
+
+```diff
+
+-733.0.5.0.0
++733.0.9.0.0
+   __TEXT.__const: 0x298
+-  __TEXT.__cstring: 0x8861
++  __TEXT.__cstring: 0x887e
+   __TEXT.__os_log: 0x3e3b
+-  __TEXT_EXEC.__text: 0x36500
++  __TEXT_EXEC.__text: 0x36504
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0xc6
+   __DATA.__common: 0x1d8
+CStrings:
++ "!_secureStreamingCheckInProgress && (_brunorKeyUnwrappingState == kBrunorKeyUnwrappingStateNone)"
+- "!_secureStreamingCheckInProgress && !_brunorKeyUnwrappingInProgress"
+
+```
+
+>  `com.apple.driver.AppleSARService`
+
+```diff
+
+-1172.0.0.0.0
++1175.0.0.0.0
+   __TEXT.__const: 0x750
+-  __TEXT.__cstring: 0x9b1f
++  __TEXT.__cstring: 0x9b40
+   __TEXT.__os_log: 0xb8af
+   __TEXT.__ustring: 0x8
+-  __TEXT_EXEC.__text: 0x53e40
++  __TEXT_EXEC.__text: 0x53e78
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0xd8
+   __DATA.__common: 0x5f0
+
+   __DATA_CONST.__got: 0x98
+   __DATA_CONST.__mod_init_func: 0x58
+   __DATA_CONST.__mod_term_func: 0x60
+-  __DATA_CONST.__const: 0x4d28
++  __DATA_CONST.__const: 0x4d58
+   __DATA_CONST.__kalloc_type: 0x2940
+   __DATA_CONST.__kalloc_var: 0x140
+   Functions: 539
+   Symbols:   0
+-  CStrings:  1309
++  CStrings:  1310
+ 
+CStrings:
++ "Rest Of World Region (0mm)"
++ "Rest Of World Region (5mm)"
+- "Rest Of World Region"
+
+```
+
+>  `com.apple.driver.AppleSART`
+
+```diff
+
+-22.0.0.0.0
+-  __TEXT.__cstring: 0xc94
+-  __TEXT_EXEC.__text: 0x29e8
++23.0.0.0.0
++  __TEXT.__cstring: 0xcb3
++  __TEXT_EXEC.__text: 0x2ae0
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0xc8
+   __DATA.__common: 0x88
+
+   __DATA_CONST.__mod_term_func: 0x18
+   __DATA_CONST.__const: 0x1238
+   __DATA_CONST.__kalloc_type: 0xc0
+-  Functions: 114
++  Functions: 115
+   Symbols:   0
+-  CStrings:  66
++  CStrings:  67
+ 
+CStrings:
++ "121111121222121212222222221121211112"
++ "_sartPowerRegisterMap != NULL"
++ "sart-power-reg-offset"
+- "1211111212221212122222222211121211"
+- "function-enable_autopm"
+
+```
+
+>  `com.apple.driver.AppleAVD`
+
+```diff
+
+-795.2.0.0.0
++796.1.0.0.0
+   __TEXT.__const: 0x86e6e
+-  __TEXT.__cstring: 0x5135
+-  __TEXT.__os_log: 0x116ce
+-  __TEXT_EXEC.__text: 0x40f34
++  __TEXT.__cstring: 0x5156
++  __TEXT.__os_log: 0x11944
++  __TEXT_EXEC.__text: 0x41274
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0x12dc
+   __DATA.__common: 0x78
+
+   __DATA_CONST.__kalloc_type: 0x2400
+   Functions: 1339
+   Symbols:   0
+-  CStrings:  1410
++  CStrings:  1420
+ 
+CStrings:
++ "1211111212221212111111111111111111111111222222222222222222222222222222222222222222222222222112212212222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222212121221222222222222222222212212222222222222222222222122222112122122222222222222222222211112112112112212222222222212212212222222222222222222222222222222222222222222222222222222222222222222221221221222222222222222222222222222222222222222222222222221111"
++ "AppleAVD: %s(): ERROR - invalid arguments! status 0x%x"
++ "AppleAVD: ERROR: %s(): Attempt to deallocate NULL kern_mem_info"
++ "AppleAVD: ERROR: %s(): NULL pAVDDart or invalid SID"
++ "AppleAVD: ERROR: %s(): addMemoryDescToGart failed."
++ "AppleAVD: ERROR: %s(): codecType=%u is invalid\n"
++ "AppleAVD: ERROR: %s(): deallocateKernelMemoryInternal failed"
++ "AppleAVD: ERROR: %s(): failed to grab PQ! hwDeviceType: %d"
++ "AppleAVD: ERROR: %s(): failed to grab WrapCtrl! hwDeviceType: %d"
++ "AppleAVD: ERROR: %s(): setMemoryDescriptor failed 0x%x"
++ "AppleAVD: ERROR: %s():%u: invalid command patcher!"
++ "AppleAVD: ERROR: :%u: too many reference frames [%u, %u]\n"
++ "DeallocKernelMem"
+- "121111121222121211111111111111111111111122222222222222222222222222222222222222222222222222211221221222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222212121221222222222222222222212212222222222222222222222122222112122122222222222222222222211112112112112212222222222212212212222222222222222222222222222222222222222222222222222222222222222222221221221222222222222222222222222222222222222222222222222221111"
+- "AppleAVD: %s(): ERROR: addMemoryDescToGart failed.\n"
+- "AppleAVD: %s(): set memory descriptor ERROR 0x%x"
 
 ```
 
@@ -1735,111 +1217,352 @@ CStrings:
 
 ```
 
->  `com.apple.driver.AppleHPM`
+>  `com.apple.driver.AppleT8130CLPC`
 
 ```diff
 
--570.0.1.0.0
--  __TEXT.__cstring: 0x1b2a1
-+570.0.3.0.0
-+  __TEXT.__cstring: 0x1b5eb
-   __TEXT.__const: 0xc0
-   __TEXT.__os_log: 0x1e8
--  __TEXT_EXEC.__text: 0x5c438
-+  __TEXT_EXEC.__text: 0x5cef8
+-1175.0.21.0.0
+-  __TEXT.__cstring: 0x2c2f
++1175.0.25.0.0
++  __TEXT.__cstring: 0x2c4a
+   __TEXT.__const: 0xb34
+-  __TEXT_EXEC.__text: 0x4c260
++  __TEXT_EXEC.__text: 0x4c884
    __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0x6d0
-   __DATA.__common: 0x518
-   __DATA.__bss: 0x4
--  __DATA_CONST.__auth_got: 0x4a0
--  __DATA_CONST.__got: 0x130
-+  __DATA_CONST.__auth_got: 0x4a8
-+  __DATA_CONST.__got: 0x138
-   __DATA_CONST.__auth_ptr: 0x18
-   __DATA_CONST.__mod_init_func: 0xf8
-   __DATA_CONST.__mod_term_func: 0xf8
--  __DATA_CONST.__const: 0x111b0
-+  __DATA_CONST.__const: 0x11290
-   __DATA_CONST.__kalloc_type: 0xb00
--  Functions: 1394
-+  Functions: 1399
+-  __DATA.__data: 0xa2b8
+-  __DATA.__common: 0x7b19
++  __DATA.__data: 0xa2f8
++  __DATA.__common: 0x7b21
+   __DATA.__bss: 0x278
+   __DATA_CONST.__auth_got: 0x4a0
+   __DATA_CONST.__got: 0xd8
+   __DATA_CONST.__mod_init_func: 0x118
+   __DATA_CONST.__mod_term_func: 0x18
+-  __DATA_CONST.__const: 0x4fb0
++  __DATA_CONST.__const: 0x4fc8
+   __DATA_CONST.__kalloc_type: 0x380
+   __DATA_CONST.__kalloc_var: 0x370
+-  Functions: 1262
++  Functions: 1263
    Symbols:   0
--  CStrings:  1552
-+  CStrings:  1562
+-  CStrings:  463
++  CStrings:  464
  
 CStrings:
-+ "%s::%s(0x%x@0x%x): AppleHPMInterface::initInterruptManager - LDCM not started, setting up matcher\n\n"
-+ "%s::%s(0x%x@0x%x): AppleHPMInterface::initSingleHPM - LDCM not started, setting up matcher\n\n"
-+ "%s::%s(0x%x@0x%x): AppleHPMInterface::setupMatchingForLDCM - Failed to allocate callback, LDCM wont' work properly\n\n"
-+ "%s::%s(0x%x@0x%x): AppleHPMInterface::setupMatchingForLDCM - matcher failed to setup, no LDCM\n\n"
-+ "%s::%s(0x%x@0x%x): AppleTCController::initInterruptManager - LDCM not started, setting up matcher\n\n"
-+ "%s::%s(0x%x@0x%x): AppleTCController::initSingleHPM - LDCM not started, setting up matcher\n\n"
-+ "%s::%s(0x%x@0x%x): AppleTCController::setupMatchingForLDCM - Failed to allocate callback, LDCM wont' work properly\n\n"
-+ "%s::%s(0x%x@0x%x): AppleTCController::setupMatchingForLDCM - matcher failed to setup, no LDCM\n\n"
-+ "%s::%s(0x%x@0x%x): LDCM not started, service not of AppleHPMLDCMType2\n\n"
-+ "%s::%s(0x%x@0x%x): service and provider did NOT match, belongs to different node\n\n"
-+ "%s::%s(0x%x@0x%x): service and provider matched\n\n"
-+ "%s::%s(0x%x@0x%x): service did NOT match, belongs to different node\n\n"
-+ "1211111212221212111111211111212222222211221111111212211112222221222212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112222211111111111111111111111111111112222222222222222111111111211111121211121"
-+ "1211111212221212111111211111212222222211221111111212211112222221222212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112222211111111111111111111111111111112222222222222222111111111211111121211122"
-+ "12111112122212121111112111112122222222112211111112122111122222212222121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122222111111111111111111111111111111122222222222222221111111112111111212121"
-+ "1211111212221212111111211111212222222211221111111212211112222221222212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112222211111111111111111111111111111112222222222222222111111111211111121212211111111111111111111111111111122222222222221111111112111111222222222222121"
-+ "1211111212221212111111211111212222222211221111111212211112222221222212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112222211111111111111111111111111111112222222222222222111111111211111121212211111111111111111111111111111122222222222221111111112111111222222222222121112"
-+ "12111112122212121111112111112122222222112211111112122111122222212222121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122222111111111111111111111111111111122222222222222221111111112111111212122111111111111111111111111111111222222222222211111111121111112222222222221211121"
-+ "1211111212221212111111211111212222222211221111111212211112222221222212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112222211111111111111111111111111111112222222222222222111111111211111121212211111111111111111111111111111122222222222221111111112111111222222222222121112112"
-+ "12111112122212121111112111112122222222112211111112122111122222212222121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122222111111111111111111111111111111122222222222222221111111112111111212122111111111111111111111111111111222222222222211111111121111112222222222221211122"
-+ "1211111212221212111111211111212222222211221111111212211112222221222212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112222211111111111111111111111111111112222222222222222111111111211111121212211111111111111111111111111111122222222222221111111112111111222222222222121112212"
-+ "assignLDCMHandle"
-+ "setupMatchingForLDCM"
-- "%s::%s(0x%x@0x%x): AppleHPMInterface::initInterruptManager - LDCM not started\n\n"
-- "%s::%s(0x%x@0x%x): AppleHPMInterface::initSingleHPM - LDCM not started\n\n"
-- "%s::%s(0x%x@0x%x): AppleTCController::initInterruptManager - LDCM not started\n\n"
-- "%s::%s(0x%x@0x%x): AppleTCController::initSingleHPM - LDCM not started\n\n"
-- "12111112122212121111112111112122222222112211111112122111122222212222121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122222111111111111111111111111111111122222222222222221111111112111111212"
-- "121111121222121211111121111121222222221122111111121221111222222122221211221211221211221211221211221211221211221211221211221211221211221211221211221211221211221211221211221211221211221211221211221211221211221211221211221211221211221211221211221211221211221211221211221211221211221211221211221211221211221211221211221211221211221211221211221211221211221211221211221211221211221211221211221211221211221211221211221211221211221211221211221211221211221211222221111111111111111111111111111111222222222222222211111111121111112121121"
-- "121111121222121211111121111121222222221122111111121221111222222122221211221211221211221211221211221211221211221211221211221211221211221211221211221211221211221211221211221211221211221211221211221211221211221211221211221211221211221211221211221211221211221211221211221211221211221211221211221211221211221211221211221211221211221211221211221211221211221211221211221211221211221211221211221211221211221211221211221211221211221211221211221211221211221211222221111111111111111111111111111111222222222222222211111111121111112121122"
-- "1211111212221212111111211111212222222211221111111212211112222221222212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112222211111111111111111111111111111112222222222222222111111111211111121221111111111111111111111111111112222222222222111111111211111122222222222212"
-- "1211111212221212111111211111212222222211221111111212211112222221222212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112222211111111111111111111111111111112222222222222222111111111211111121221111111111111111111111111111112222222222222111111111211111122222222222212112"
-- "12111112122212121111112111112122222222112211111112122111122222212222121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122222111111111111111111111111111111122222222222222221111111112111111212211111111111111111111111111111122222222222221111111112111111222222222222121121"
-- "1211111212221212111111211111212222222211221111111212211112222221222212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112222211111111111111111111111111111112222222222222222111111111211111121221111111111111111111111111111112222222222222111111111211111122222222222212112112"
-- "12111112122212121111112111112122222222112211111112122111122222212222121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122222111111111111111111111111111111122222222222222221111111112111111212211111111111111111111111111111122222222222221111111112111111222222222222121122"
-- "1211111212221212111111211111212222222211221111111212211112222221222212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112222211111111111111111111111111111112222222222222222111111111211111121221111111111111111111111111111112222222222222111111111211111122222222222212112212"
++ "2024-07-15T21:28:14-07:00"
++ "AppleCLPC-1175.0.25"
++ "clpc-disable-perf-map-warp"
+- "2024-07-03T20:40:03-07:00"
+- "AppleCLPC-1175.0.21"
 
 ```
 
->  `com.apple.driver.AppleSEPKeyStore`
+>  `com.apple.driver.AppleUSBAudio`
 
 ```diff
 
--1827.0.50.0.0
-+1827.0.52.0.0
-   __TEXT.__cstring: 0x3ab6
-   __TEXT.__const: 0x864
--  __TEXT_EXEC.__text: 0x3d4f4
-+  __TEXT_EXEC.__text: 0x3d590
+-701.65.0.0.0
++701.71.0.0.0
+   __TEXT.__cstring: 0x2dad
+-  __TEXT.__const: 0x5b0
+-  __TEXT_EXEC.__text: 0x7682c
++  __TEXT.__const: 0x5c0
++  __TEXT_EXEC.__text: 0x76918
    __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0x39c
-   __DATA.__common: 0xe8
+   __DATA.__data: 0xc4
+   __DATA.__common: 0x628
 
-   __DATA_CONST.__auth_ptr: 0x18
-   __DATA_CONST.__mod_init_func: 0x10
-   __DATA_CONST.__mod_term_func: 0x10
--  __DATA_CONST.__const: 0x3a68
-+  __DATA_CONST.__const: 0x3a88
-   __DATA_CONST.__kalloc_type: 0xd40
-   __DATA_CONST.__kalloc_var: 0xa0
--  Functions: 671
-+  Functions: 672
-   Symbols:   0
-   CStrings:  342
- 
+```
+
+>  `com.apple.iokit.IOSurface`
+
+```diff
+
+-368.0.4.0.0
++368.0.6.0.0
+   __TEXT.__cstring: 0x4f28
+   __TEXT.__const: 0x48
+   __TEXT.__os_log: 0x4ff
+-  __TEXT_EXEC.__text: 0x2d340
++  __TEXT_EXEC.__text: 0x2d364
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0x178
+   __DATA.__common: 0x3e8
+
+```
+
+>  `com.apple.driver.AppleProResHW`
+
+```diff
+
+-400.73.0.0.0
++400.78.0.0.0
+   __TEXT.__const: 0x1b40
+-  __TEXT.__os_log: 0x7318
++  __TEXT.__os_log: 0x7409
+   __TEXT.__cstring: 0xdcc
+-  __TEXT_EXEC.__text: 0x18950
++  __TEXT_EXEC.__text: 0x189ec
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0x358
+   __DATA.__common: 0x70
 CStrings:
-+ "1827.0.52"
-+ "21:31:22"
-+ "Jul 15 2024"
-- "1827.0.50"
-- "20:43:58"
-- "Jul  3 2024"
++ "ERROR AppleProResHW (0x%x): %d: %s(): AppleProRes ERROR: Failed to map decoder output buffer with DART. ret = 0x%x.\n"
++ "ERROR AppleProResHW (0x%x): %d: %s(): AppleProRes ERROR: Plane count is not 4 or 0 or 1!\n"
++ "ERROR AppleProResHW (0x%x): %d: %s(): AppleProRes ERROR: Plane count is not 4!\n"
++ "ERROR AppleProResHW (0x%x): %d: %s(): AppleProRes ERROR: Two Pic mode not supported\n"
++ "ERROR AppleProResHW (0x%x): %d: %s(): AppleProRes RAW ERROR: Plane count is not 0 or 4!\n"
++ "ERROR AppleProResHW (0x%x): %d: %s(): AppleProRes YCbCr ERROR: Plane count is not 2 or 3!\n"
++ "ERROR AppleProResHW (0x%x): %d: %s(): AppleProRes-Dec ERROR: sendAsyncResult64 failed.\n"
++ "ERROR AppleProResHW (0x%x): %d: %s(): AppleProRes-Enc ERROR: sendAsyncResult64 failed.\n"
++ "ERROR AppleProResHW (0x%x): %d: %s(): AppleProResCommand ERROR: Enqueue called when CommandQueue is full NULL\n"
++ "ERROR AppleProResHW (0x%x): %d: %s(): AppleProResCommand new failed\n"
++ "ERROR AppleProResHW (0x%x): %d: %s(): AppleProResCommandQueue ERROR: Dequeue called for empty queue\n"
++ "ERROR AppleProResHW (0x%x): %d: %s(): AppleProResHW ERROR: Could not set power state to %lu\n"
++ "ERROR AppleProResHW (0x%x): %d: %s(): AppleProResHW ERROR: Could not wait long enough for PowerOn\n"
++ "ERROR AppleProResHW (0x%x): %d: %s(): AppleProResHW ERROR: No provider attached\n"
++ "ERROR AppleProResHW (0x%x): %d: %s(): AppleProResHW Warning: setPerfState skipped for PowerOffPending\n"
++ "ERROR AppleProResHW (0x%x): %d: %s(): Cannot acquire IOFence for encInputIOSurface\n"
++ "ERROR AppleProResHW (0x%x): %d: %s(): Cannot allocate user client info\n"
++ "ERROR AppleProResHW (0x%x): %d: %s(): Cannot clear DelayList\n"
++ "ERROR AppleProResHW (0x%x): %d: %s(): Cannot generate segments\n"
++ "ERROR AppleProResHW (0x%x): %d: %s(): Cannot get DMA command\n"
++ "ERROR AppleProResHW (0x%x): %d: %s(): Could not allocate memory for local descriptor.\n"
++ "ERROR AppleProResHW (0x%x): %d: %s(): Could not attach user client.\n"
++ "ERROR AppleProResHW (0x%x): %d: %s(): Could not disable power.\n"
++ "ERROR AppleProResHW (0x%x): %d: %s(): Could not enable power.\n"
++ "ERROR AppleProResHW (0x%x): %d: %s(): Could not map bitstream buffer with DART for Ring Descriptor Memory. mapRet = 0x%x.\n"
++ "ERROR AppleProResHW (0x%x): %d: %s(): Could not map bitstream buffer with DART for Statistics buffer. mapRet = 0x%x.\n"
++ "ERROR AppleProResHW (0x%x): %d: %s(): Could not wait for %u frames\n"
++ "ERROR AppleProResHW (0x%x): %d: %s(): Device not available\n"
++ "ERROR AppleProResHW (0x%x): %d: %s(): Failed calling start on provider\n"
++ "ERROR AppleProResHW (0x%x): %d: %s(): Failed to map decoder input buffer with DART. ret = 0x%x.\n"
++ "ERROR AppleProResHW (0x%x): %d: %s(): Failed to map encoder input buffer with DART. ret = 0x%x.\n"
++ "ERROR AppleProResHW (0x%x): %d: %s(): Failed to map encoder output buffer with DART. ret = 0x%x.\n"
++ "ERROR AppleProResHW (0x%x): %d: %s(): Failed to map encoder statistics buffer with DART. ret = 0x%x.\n"
++ "ERROR AppleProResHW (0x%x): %d: %s(): InInfo->decInputIOSurface NULL.\n"
++ "ERROR AppleProResHW (0x%x): %d: %s(): InInfo->decOutputIOSurface NULL.\n"
++ "ERROR AppleProResHW (0x%x): %d: %s(): InInfo->encInputIOSurface CSID(%d) NULL.\n"
++ "ERROR AppleProResHW (0x%x): %d: %s(): InInfo->encOutputIOSurface CSID(%d) NULL.\n"
++ "ERROR AppleProResHW (0x%x): %d: %s(): InInfo->statsBufOffs.statsIOSurf statsCSID(%d) is NULL.\n"
++ "ERROR AppleProResHW (0x%x): %d: %s(): Incorrect arguments for openUserClient\n"
++ "ERROR AppleProResHW (0x%x): %d: %s(): Invalid coreIdx %d\n"
++ "ERROR AppleProResHW (0x%x): %d: %s(): Invalid method selector\n"
++ "ERROR AppleProResHW (0x%x): %d: %s(): Memory Descriptor is NULL\n"
++ "ERROR AppleProResHW (0x%x): %d: %s(): NULL parameter\n"
++ "ERROR AppleProResHW (0x%x): %d: %s(): No callback registered for this client\n"
++ "ERROR AppleProResHW (0x%x): %d: %s(): No notification port set for this client\n"
++ "ERROR AppleProResHW (0x%x): %d: %s(): No provider for UserClient\n"
++ "ERROR AppleProResHW (0x%x): %d: %s(): No refcon registered for callback for this client\n"
++ "ERROR AppleProResHW (0x%x): %d: %s(): No resources to allocate Descriptor ring memory\n"
++ "ERROR AppleProResHW (0x%x): %d: %s(): No resources to allocate Statistics buffer\n"
++ "ERROR AppleProResHW (0x%x): %d: %s(): Power Not On, m_ePowerState[%u]=%d\n"
++ "ERROR AppleProResHW (0x%x): %d: %s(): Power Off on any core or ProRes doesn't own any core\n"
++ "ERROR AppleProResHW (0x%x): %d: %s(): Power Off on any core or ProRes doesn't own any core. NumClients %d\n"
++ "ERROR AppleProResHW (0x%x): %d: %s(): Power is Off or ProRes doesn't own core %d\n"
++ "ERROR AppleProResHW (0x%x): %d: %s(): Power is Off or ProRes doesn't own core %d. Will not clear DelayList\n"
++ "ERROR AppleProResHW (0x%x): %d: %s(): ProRes doesn't own any core\n"
++ "ERROR AppleProResHW (0x%x): %d: %s(): ProRes_DecodeFrame_UserKernel_In_Info NULL\n"
++ "ERROR AppleProResHW (0x%x): %d: %s(): ProRes_EncodeFrame_UserKernel_In_Info NULL\n"
++ "ERROR AppleProResHW (0x%x): %d: %s(): Unsupported eClientType ...\n"
++ "ERROR AppleProResHW (0x%x): %d: %s(): Zero NumClients\n"
++ "ERROR AppleProResHW (0x%x): %d: %s(): [%d] DecodeFrame ERROR: Out of desc ring, pending %d\n"
++ "ERROR AppleProResHW (0x%x): %d: %s(): [%d] EncodeFrame ERROR: Out of desc ring, pending %d\n"
++ "ERROR AppleProResHW (0x%x): %d: %s(): encOutputBufInfo IOSurface is NULL.\n"
++ "ERROR AppleProResHW (0x%x): %d: %s(): encStatisticsBufInfo IOSurface is NULL.\n"
++ "ERROR AppleProResHW (0x%x): %d: %s(): m_DRTail[%d]=0x%x < m_DRHead[%d]=0x%x Wraped\n"
++ "ERROR AppleProResHW (0x%x): %d: %s(): m_DRTail[%d]=0x%x > m_DRHead[%d]=0x%x\n"
++ "ERROR AppleProResHW (0x%x): %d: %s(): m_ProviderDriver NULL.\n"
++ "ERROR AppleProResHW (0x%x): %d: %s(): pBuf = NULL\n"
++ "ERROR AppleProResHW (0x%x): %d: %s(): pCurr = NULL\n"
++ "ERROR AppleProResHW (0x%x): %d: %s(): pFront = NULL\n"
++ "ERROR AppleProResHW (0x%x): %d: %s(): pIOSurface NULL\n"
++ "ERROR AppleProResHW (0x%x): %d: %s(): pMemDesc->prepare() failed\n"
++ "ERROR AppleProResHW: %d: %s(): AppleProRes ERROR: Cannot Start IOService\n"
++ "ERROR AppleProResHW: %d: %s(): AppleProRes ERROR: Cannot allocate m_pInitLock\n"
++ "ERROR AppleProResHW: %d: %s(): AppleProRes ERROR: Could not extract HW device info\n"
++ "ERROR AppleProResHW: %d: %s(): AppleProRes ERROR: Could not extract string from device info\n"
++ "ERROR AppleProResHW: %d: %s(): AppleProRes ERROR: cannot allocate m_pAcceleratorLock\n"
++ "ERROR AppleProResHW: %d: %s(): AppleProRes ERROR: cannot allocate m_pClientListLock\n"
++ "ERROR AppleProResHW: %d: %s(): AppleProRes ERROR: cannot cast mPowerProvider\n"
++ "ERROR AppleProResHW: %d: %s(): AppleProRes ERROR: cannot create copy of mapper\n"
++ "ERROR AppleProResHW: %d: %s(): AppleProRes ERROR: cannot create interrupt event source\n"
++ "ERROR AppleProResHW: %d: %s(): AppleProRes ERROR: cannot create new command gate\n"
++ "ERROR AppleProResHW: %d: %s(): AppleProRes ERROR: cannot create new workloop\n"
++ "ERROR AppleProResHW: %d: %s(): AppleProRes ERROR: cannot create timer event source\n"
++ "ERROR AppleProResHW: %d: %s(): AppleProRes ERROR: cannot find matching provider\n"
++ "ERROR AppleProResHW: %d: %s(): AppleProRes ERROR: cannot get the core surface root\n"
++ "ERROR AppleProResHW: %d: %s(): AppleProRes ERROR: cannot initiate device reset function\n"
++ "ERROR AppleProResHW: %d: %s(): AppleProRes ERROR: cannot map registers memory object 0\n"
++ "ERROR AppleProResHW: %d: %s(): AppleProRes ERROR: cannot map registers memory object 1\n"
++ "ERROR AppleProResHW: %d: %s(): AppleProRes ERROR: cannot retrieve registers memory object 0\n"
++ "ERROR AppleProResHW: %d: %s(): AppleProRes ERROR: cannot retrieve registers memory object 1\n"
++ "ERROR AppleProResHW: %d: %s(): AppleProRes ERROR: cannot support more devices\n"
++ "ERROR AppleProResHW: %d: %s(): AppleProRes ERROR: invalid error type %s\n"
++ "ERROR AppleProResHW: %d: %s(): AppleProRes ERROR: invalid parameters %p %p\n"
++ "ERROR AppleProResHW: %d: %s(): AppleProRes ERROR: super::init failed\n"
++ "ERROR AppleProResHW: %d: %s(): AppleProRes Error: Insufficient arguments from client\n"
++ "ERROR AppleProResHW: %d: %s(): AppleProResHW ERROR: Client not entitled for ProResHW task\n"
++ "ERROR AppleProResHW: %d: %s(): AppleProResHW ERROR: Could not disable power.\n"
++ "ERROR AppleProResHW: %d: %s(): AppleProResHW ERROR: Could not get Instance info\n"
++ "ERROR AppleProResHW: %d: %s(): AppleProResHW ERROR: Could not get get the actual coreIdx from InstanceStr\n"
++ "ERROR AppleProResHW: %d: %s(): Cannot allocate user client info\n"
++ "ERROR AppleProResHW: %d: %s(): Cannot find decode user client info\n"
++ "ERROR AppleProResHW: %d: %s(): Cannot find encode user client info\n"
++ "ERROR AppleProResHW: %d: %s(): Cannot find user client info\n"
++ "ERROR AppleProResHW: %d: %s(): Closing with invalid m_pClientList or m_NumClients\n"
++ "ERROR AppleProResHW: %d: %s(): Descriptor size for clientType not as expected in DecodeFrame()\n"
++ "ERROR AppleProResHW: %d: %s(): Descriptor size for clientType not as expected in EncodeFrame()\n"
++ "ERROR AppleProResHW: %d: %s(): Invalid CoreIdx\n"
++ "ERROR AppleProResHW: %d: %s(): attachClient ERROR: Power Off on any core or ProRes doesn't own any core\n"
++ "ERROR AppleProResHW: %d: %s(): kIODARTFunctionRegisterErrorHandler failed 0x%x\n"
++ "ERROR AppleProResHW: %d: %s(): kIODARTMapperEarlyReclaimKey failed 0x%x\n"
++ "ERROR AppleProResHW: %d: %s(): registerPowerDriver() failed 0x%x\n"
++ "ERROR: AppleProResHW (0x%x): %d: %s(): HW error decSatus=%d status0=0x%x statusCode=%d status2=0x%x\n\n"
++ "ERROR: AppleProResHW (0x%x): %d: %s(): HW error encSatus=%d status0=0x%x statusCode=%d status2=0x%x \n\n"
++ "ERROR: AppleProResHW: %d: %s(): Disable DART with Dirty Shutdown\n"
++ "ERROR: AppleProResHW: %d: %s(): Invalid DevID %d, no AXI values have been set\n"
++ "ERROR: AppleProResHW: %d: %s(): Invalid DevVer %d, no AXI values have been set\n"
++ "ERROR: AppleProResHW: %d: %s(): Invalid DevVer (0x%x), no AXI values have been set\n"
++ "ERROR: AppleProResHW: %d: %s(): Invalid coreIdx %d, maxNumCores=%d\n"
++ "ERROR: AppleProResHW: %d: %s(): Invalid requested core ownership - fatal error\n"
++ "ERROR: AppleProResHW: %d: %s(): LLT AR %d\n"
++ "ERROR: AppleProResHW: %d: %s(): LLT AW %d\n"
++ "ERROR: AppleProResHW: %d: %s(): TLimit reports back %d outstanding\n"
++ "ERROR: AppleProResHW: %d: %s(): [%d] DMA sts %d %d %d %d %d %d %d %d %d %d %d %d %d %d %d %d %d %d\n"
++ "ERROR: AppleProResHW: %d: %s(): [%d] commandQ=%d IRQ=0x%x IRQ-En=0x%x st0=0x%x st1=0x%x st2=0x%x m_pTimerEventSource %p\n\n"
++ "ERROR: AppleProResHW: %d: %s(): abort q'd cmds %d\n"
++ "ERROR: AppleProResHW: %d: %s(): eventSource %p this %p\n"
++ "ERROR: AppleProResHW: %d: %s(): kIODARTFunctionCacheFlushInactive Failed ret=0x%x\n"
++ "ERROR: AppleProResHW: %d: %s(): kIODARTFunctionSetActive with Dirty Shutdown Failed ret=0x%x\n"
+- "ERROR AppleProResHW (0x%x): %d:%s(): AppleProRes ERROR: Failed to map decoder output buffer with DART. ret = 0x%x.\n"
+- "ERROR AppleProResHW (0x%x): %d:%s(): AppleProRes ERROR: Plane count is not 4 or 0 or 1!\n"
+- "ERROR AppleProResHW (0x%x): %d:%s(): AppleProRes ERROR: Plane count is not 4!\n"
+- "ERROR AppleProResHW (0x%x): %d:%s(): AppleProRes ERROR: Two Pic mode not supported\n"
+- "ERROR AppleProResHW (0x%x): %d:%s(): AppleProRes RAW ERROR: Plane count is not 0 or 4!\n"
+- "ERROR AppleProResHW (0x%x): %d:%s(): AppleProRes YCbCr ERROR: Plane count is not 2 or 3!\n"
+- "ERROR AppleProResHW (0x%x): %d:%s(): AppleProRes-Dec ERROR: sendAsyncResult64 failed.\n"
+- "ERROR AppleProResHW (0x%x): %d:%s(): AppleProRes-Enc ERROR: sendAsyncResult64 failed.\n"
+- "ERROR AppleProResHW (0x%x): %d:%s(): AppleProResCommand ERROR: Enqueue called when CommandQueue is full NULL\n"
+- "ERROR AppleProResHW (0x%x): %d:%s(): AppleProResCommand new failed\n"
+- "ERROR AppleProResHW (0x%x): %d:%s(): AppleProResCommandQueue ERROR: Dequeue called for empty queue\n"
+- "ERROR AppleProResHW (0x%x): %d:%s(): AppleProResHW ERROR: Could not set power state to %lu\n"
+- "ERROR AppleProResHW (0x%x): %d:%s(): AppleProResHW ERROR: Could not wait long enough for PowerOn\n"
+- "ERROR AppleProResHW (0x%x): %d:%s(): AppleProResHW ERROR: No provider attached\n"
+- "ERROR AppleProResHW (0x%x): %d:%s(): AppleProResHW Warning: setPerfState skipped for PowerOffPending\n"
+- "ERROR AppleProResHW (0x%x): %d:%s(): Cannot acquire IOFence for encInputIOSurface\n"
+- "ERROR AppleProResHW (0x%x): %d:%s(): Cannot allocate user client info\n"
+- "ERROR AppleProResHW (0x%x): %d:%s(): Cannot clear DelayList\n"
+- "ERROR AppleProResHW (0x%x): %d:%s(): Cannot generate segments\n"
+- "ERROR AppleProResHW (0x%x): %d:%s(): Cannot get DMA command\n"
+- "ERROR AppleProResHW (0x%x): %d:%s(): Could not allocate memory for local descriptor.\n"
+- "ERROR AppleProResHW (0x%x): %d:%s(): Could not attach user client.\n"
+- "ERROR AppleProResHW (0x%x): %d:%s(): Could not disable power.\n"
+- "ERROR AppleProResHW (0x%x): %d:%s(): Could not enable power.\n"
+- "ERROR AppleProResHW (0x%x): %d:%s(): Could not map bitstream buffer with DART for Ring Descriptor Memory. mapRet = 0x%x.\n"
+- "ERROR AppleProResHW (0x%x): %d:%s(): Could not map bitstream buffer with DART for Statistics buffer. mapRet = 0x%x.\n"
+- "ERROR AppleProResHW (0x%x): %d:%s(): Could not wait for %u frames\n"
+- "ERROR AppleProResHW (0x%x): %d:%s(): Device not available\n"
+- "ERROR AppleProResHW (0x%x): %d:%s(): Failed calling start on provider\n"
+- "ERROR AppleProResHW (0x%x): %d:%s(): Failed to map decoder input buffer with DART. ret = 0x%x.\n"
+- "ERROR AppleProResHW (0x%x): %d:%s(): Failed to map encoder input buffer with DART. ret = 0x%x.\n"
+- "ERROR AppleProResHW (0x%x): %d:%s(): Failed to map encoder output buffer with DART. ret = 0x%x.\n"
+- "ERROR AppleProResHW (0x%x): %d:%s(): Failed to map encoder statistics buffer with DART. ret = 0x%x.\n"
+- "ERROR AppleProResHW (0x%x): %d:%s(): InInfo->decInputIOSurface NULL.\n"
+- "ERROR AppleProResHW (0x%x): %d:%s(): InInfo->decOutputIOSurface NULL.\n"
+- "ERROR AppleProResHW (0x%x): %d:%s(): InInfo->encInputIOSurface CSID(%d) NULL.\n"
+- "ERROR AppleProResHW (0x%x): %d:%s(): InInfo->encOutputIOSurface CSID(%d) NULL.\n"
+- "ERROR AppleProResHW (0x%x): %d:%s(): InInfo->statsBufOffs.statsIOSurf statsCSID(%d) is NULL.\n"
+- "ERROR AppleProResHW (0x%x): %d:%s(): Incorrect arguments for openUserClient\n"
+- "ERROR AppleProResHW (0x%x): %d:%s(): Invalid coreIdx %d\n"
+- "ERROR AppleProResHW (0x%x): %d:%s(): Invalid method selector\n"
+- "ERROR AppleProResHW (0x%x): %d:%s(): Memory Descriptor is NULL\n"
+- "ERROR AppleProResHW (0x%x): %d:%s(): NULL parameter\n"
+- "ERROR AppleProResHW (0x%x): %d:%s(): No callback registered for this client\n"
+- "ERROR AppleProResHW (0x%x): %d:%s(): No notification port set for this client\n"
+- "ERROR AppleProResHW (0x%x): %d:%s(): No provider for UserClient\n"
+- "ERROR AppleProResHW (0x%x): %d:%s(): No refcon registered for callback for this client\n"
+- "ERROR AppleProResHW (0x%x): %d:%s(): No resources to allocate Descriptor ring memory\n"
+- "ERROR AppleProResHW (0x%x): %d:%s(): No resources to allocate Statistics buffer\n"
+- "ERROR AppleProResHW (0x%x): %d:%s(): Power Not On, m_ePowerState[%u]=%d\n"
+- "ERROR AppleProResHW (0x%x): %d:%s(): Power Off on any core or ProRes doesn't own any core\n"
+- "ERROR AppleProResHW (0x%x): %d:%s(): Power Off on any core or ProRes doesn't own any core. NumClients %d\n"
+- "ERROR AppleProResHW (0x%x): %d:%s(): Power is Off or ProRes doesn't own core %d\n"
+- "ERROR AppleProResHW (0x%x): %d:%s(): Power is Off or ProRes doesn't own core %d. Will not clear DelayList\n"
+- "ERROR AppleProResHW (0x%x): %d:%s(): ProRes doesn't own any core\n"
+- "ERROR AppleProResHW (0x%x): %d:%s(): ProRes_DecodeFrame_UserKernel_In_Info NULL\n"
+- "ERROR AppleProResHW (0x%x): %d:%s(): ProRes_EncodeFrame_UserKernel_In_Info NULL\n"
+- "ERROR AppleProResHW (0x%x): %d:%s(): Unsupported eClientType ...\n"
+- "ERROR AppleProResHW (0x%x): %d:%s(): Zero NumClients\n"
+- "ERROR AppleProResHW (0x%x): %d:%s(): [%d] DecodeFrame ERROR: Out of desc ring, pending %d\n"
+- "ERROR AppleProResHW (0x%x): %d:%s(): [%d] EncodeFrame ERROR: Out of desc ring, pending %d\n"
+- "ERROR AppleProResHW (0x%x): %d:%s(): encOutputBufInfo IOSurface is NULL.\n"
+- "ERROR AppleProResHW (0x%x): %d:%s(): encStatisticsBufInfo IOSurface is NULL.\n"
+- "ERROR AppleProResHW (0x%x): %d:%s(): m_DRTail[%d]=0x%x < m_DRHead[%d]=0x%x Wraped\n"
+- "ERROR AppleProResHW (0x%x): %d:%s(): m_DRTail[%d]=0x%x > m_DRHead[%d]=0x%x\n"
+- "ERROR AppleProResHW (0x%x): %d:%s(): m_ProviderDriver NULL.\n"
+- "ERROR AppleProResHW (0x%x): %d:%s(): pBuf = NULL\n"
+- "ERROR AppleProResHW (0x%x): %d:%s(): pCurr = NULL\n"
+- "ERROR AppleProResHW (0x%x): %d:%s(): pFront = NULL\n"
+- "ERROR AppleProResHW (0x%x): %d:%s(): pIOSurface NULL\n"
+- "ERROR AppleProResHW (0x%x): %d:%s(): pMemDesc->prepare() failed\n"
+- "ERROR AppleProResHW: %d:%s(): AppleProRes ERROR: Cannot Start IOService\n"
+- "ERROR AppleProResHW: %d:%s(): AppleProRes ERROR: Cannot allocate m_pInitLock\n"
+- "ERROR AppleProResHW: %d:%s(): AppleProRes ERROR: Could not extract HW device info\n"
+- "ERROR AppleProResHW: %d:%s(): AppleProRes ERROR: Could not extract string from device info\n"
+- "ERROR AppleProResHW: %d:%s(): AppleProRes ERROR: cannot allocate m_pAcceleratorLock\n"
+- "ERROR AppleProResHW: %d:%s(): AppleProRes ERROR: cannot allocate m_pClientListLock\n"
+- "ERROR AppleProResHW: %d:%s(): AppleProRes ERROR: cannot cast mPowerProvider\n"
+- "ERROR AppleProResHW: %d:%s(): AppleProRes ERROR: cannot create copy of mapper\n"
+- "ERROR AppleProResHW: %d:%s(): AppleProRes ERROR: cannot create interrupt event source\n"
+- "ERROR AppleProResHW: %d:%s(): AppleProRes ERROR: cannot create new command gate\n"
+- "ERROR AppleProResHW: %d:%s(): AppleProRes ERROR: cannot create new workloop\n"
+- "ERROR AppleProResHW: %d:%s(): AppleProRes ERROR: cannot create timer event source\n"
+- "ERROR AppleProResHW: %d:%s(): AppleProRes ERROR: cannot find matching provider\n"
+- "ERROR AppleProResHW: %d:%s(): AppleProRes ERROR: cannot get the core surface root\n"
+- "ERROR AppleProResHW: %d:%s(): AppleProRes ERROR: cannot initiate device reset function\n"
+- "ERROR AppleProResHW: %d:%s(): AppleProRes ERROR: cannot map registers memory object 0\n"
+- "ERROR AppleProResHW: %d:%s(): AppleProRes ERROR: cannot map registers memory object 1\n"
+- "ERROR AppleProResHW: %d:%s(): AppleProRes ERROR: cannot retrieve registers memory object 0\n"
+- "ERROR AppleProResHW: %d:%s(): AppleProRes ERROR: cannot retrieve registers memory object 1\n"
+- "ERROR AppleProResHW: %d:%s(): AppleProRes ERROR: cannot support more devices\n"
+- "ERROR AppleProResHW: %d:%s(): AppleProRes ERROR: invalid error type %s\n"
+- "ERROR AppleProResHW: %d:%s(): AppleProRes ERROR: invalid parameters %p %p\n"
+- "ERROR AppleProResHW: %d:%s(): AppleProRes ERROR: super::init failed\n"
+- "ERROR AppleProResHW: %d:%s(): AppleProRes Error: Insufficient arguments from client\n"
+- "ERROR AppleProResHW: %d:%s(): AppleProResHW ERROR: Client not entitled for ProResHW task\n"
+- "ERROR AppleProResHW: %d:%s(): AppleProResHW ERROR: Could not disable power.\n"
+- "ERROR AppleProResHW: %d:%s(): AppleProResHW ERROR: Could not get Instance info\n"
+- "ERROR AppleProResHW: %d:%s(): AppleProResHW ERROR: Could not get get the actual coreIdx from InstanceStr\n"
+- "ERROR AppleProResHW: %d:%s(): Cannot allocate user client info\n"
+- "ERROR AppleProResHW: %d:%s(): Cannot find decode user client info\n"
+- "ERROR AppleProResHW: %d:%s(): Cannot find encode user client info\n"
+- "ERROR AppleProResHW: %d:%s(): Cannot find user client info\n"
+- "ERROR AppleProResHW: %d:%s(): Closing with invalid m_pClientList or m_NumClients\n"
+- "ERROR AppleProResHW: %d:%s(): Descriptor size for clientType not as expected in DecodeFrame()\n"
+- "ERROR AppleProResHW: %d:%s(): Descriptor size for clientType not as expected in EncodeFrame()\n"
+- "ERROR AppleProResHW: %d:%s(): Invalid CoreIdx\n"
+- "ERROR AppleProResHW: %d:%s(): attachClient ERROR: Power Off on any core or ProRes doesn't own any core\n"
+- "ERROR AppleProResHW: %d:%s(): kIODARTFunctionRegisterErrorHandler failed 0x%x\n"
+- "ERROR AppleProResHW: %d:%s(): kIODARTMapperEarlyReclaimKey failed 0x%x\n"
+- "ERROR AppleProResHW: %d:%s(): registerPowerDriver() failed 0x%x\n"
+- "ERROR: AppleProResHW %s(): Disable DART with Dirty Shutdown\n"
+- "ERROR: AppleProResHW %s(): Invalid DevID %d, no AXI values have been set\n"
+- "ERROR: AppleProResHW %s(): Invalid DevVer %d, no AXI values have been set\n"
+- "ERROR: AppleProResHW %s(): Invalid DevVer (0x%x), no AXI values have been set\n"
+- "ERROR: AppleProResHW %s(): Invalid coreIdx %d, maxNumCores=%d\n"
+- "ERROR: AppleProResHW %s(): Invalid requested core ownership - fatal error\n"
+- "ERROR: AppleProResHW %s(): LLT AR %d\n"
+- "ERROR: AppleProResHW %s(): LLT AW %d\n"
+- "ERROR: AppleProResHW %s(): TLimit reports back %d outstanding\n"
+- "ERROR: AppleProResHW %s(): [%d] DMA sts %d %d %d %d %d %d %d %d %d %d %d %d %d %d %d %d %d %d\n"
+- "ERROR: AppleProResHW %s(): [%d] commandQ=%d IRQ=0x%x IRQ-En=0x%x st0=0x%x st1=0x%x st2=0x%x m_pTimerEventSource %p\n\n"
+- "ERROR: AppleProResHW %s(): abort q'd cmds %d\n"
+- "ERROR: AppleProResHW %s(): eventSource %p this %p\n"
+- "ERROR: AppleProResHW %s(): kIODARTFunctionCacheFlushInactive Failed ret=0x%x\n"
+- "ERROR: AppleProResHW %s(): kIODARTFunctionSetActive with Dirty Shutdown Failed ret=0x%x\n"
+- "ERROR: AppleProResHW (0x%x): %s(): HW error decSatus=%d status0=0x%x statusCode=%d status2=0x%x\n\n"
+- "ERROR: AppleProResHW (0x%x): %s(): HW error encSatus=%d status0=0x%x statusCode=%d status2=0x%x \n\n"
 
 ```
 
@@ -1916,6 +1639,43 @@ CStrings:
 
 ```
 
+>  `com.apple.AGXG16P`
+
+```diff
+
+-320.23.0.0.0
++320.23.3.0.0
+   __TEXT.__const: 0x4444
+   __TEXT.__cstring: 0xca1f
+   __TEXT.__os_log: 0x2f7
+-  __TEXT_EXEC.__text: 0xaea04
++  __TEXT_EXEC.__text: 0xaeaac
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0x13b8
+   __DATA.__common: 0x10
+
+   __DATA_CONST.__auth_ptr: 0x8
+   __DATA_CONST.__mod_init_func: 0x320
+   __DATA_CONST.__mod_term_func: 0x280
+-  __DATA_CONST.__const: 0x10bb0
++  __DATA_CONST.__const: 0x10bd8
+   __DATA_CONST.__kalloc_type: 0x2140
+   __DATA_CONST.__kalloc_var: 0x3160
+-  Functions: 3069
++  Functions: 3070
+   Symbols:   0
+   CStrings:  1715
+ 
+CStrings:
++ "121111112112222122111111211222212211111121122221221222222222221122111111112222222211111212121121211212112121121211212112121121211212112121121211212112121111111112221112221112221112221112221112221112221112221112221112221112222222111122121121211111111222222222212112222222222222222222222222222222222222222222222222222222222222222222222221211211222222222222222222111111221212222222221222221111122121222222222122222111112212122222222212222211111221212222222221222221111122121222222222122222111112212122222222212222211111222111111222111111222111111222111111222111111222111111222111111222111111222112111112211111111221122111111111111111111111111111111111112222222222222222221111112212122222222212222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222211111112222222"
++ "1211112222211111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111112222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222221111222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222"
++ "Jul 15 2024 21:27:11"
+- "1211111121122221221111112112222122111111211222212212222222222211221111111122222222111112121121211212112121121211212112121121211212112121121211212112121111111112221112221112221112221112221112221112221112221112221112221112222222111122121121211111111222222222212112222222222222222222222222222222222222222222222222222222222222222222222221211211222222222222222222111111221212222222221222221111122121222222222122222111112212122222222212222211111221212222222221222221111122121222222222122222111112212122222222212222211111222111111222111111222111111222111111222111111222111111222111111222111111222112111112211111111221122111111111111111111111111111111111112222222222222222221111112212122222222212222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222211111112222222"
+- "121111222221111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222221111222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222"
+- "Jul  3 2024 20:40:36"
+
+```
+
 >  `com.apple.driver.AppleARMWatchdogTimer`
 
 ```diff
@@ -1928,6 +1688,217 @@ CStrings:
    __TEXT_EXEC.__auth_stubs: 0x0
    __DATA.__data: 0x118
    __DATA.__common: 0xc0
+
+```
+
+>  `com.apple.driver.AppleHPM`
+
+```diff
+
+-570.0.1.0.0
+-  __TEXT.__cstring: 0x1b2a1
++570.0.3.0.0
++  __TEXT.__cstring: 0x1b5eb
+   __TEXT.__const: 0xc0
+   __TEXT.__os_log: 0x1e8
+-  __TEXT_EXEC.__text: 0x5c438
++  __TEXT_EXEC.__text: 0x5cef8
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0x6d0
+   __DATA.__common: 0x518
+   __DATA.__bss: 0x4
+-  __DATA_CONST.__auth_got: 0x4a0
+-  __DATA_CONST.__got: 0x130
++  __DATA_CONST.__auth_got: 0x4a8
++  __DATA_CONST.__got: 0x138
+   __DATA_CONST.__auth_ptr: 0x18
+   __DATA_CONST.__mod_init_func: 0xf8
+   __DATA_CONST.__mod_term_func: 0xf8
+-  __DATA_CONST.__const: 0x111b0
++  __DATA_CONST.__const: 0x11290
+   __DATA_CONST.__kalloc_type: 0xb00
+-  Functions: 1394
++  Functions: 1399
+   Symbols:   0
+-  CStrings:  1552
++  CStrings:  1562
+ 
+CStrings:
++ "%s::%s(0x%x@0x%x): AppleHPMInterface::initInterruptManager - LDCM not started, setting up matcher\n\n"
++ "%s::%s(0x%x@0x%x): AppleHPMInterface::initSingleHPM - LDCM not started, setting up matcher\n\n"
++ "%s::%s(0x%x@0x%x): AppleHPMInterface::setupMatchingForLDCM - Failed to allocate callback, LDCM wont' work properly\n\n"
++ "%s::%s(0x%x@0x%x): AppleHPMInterface::setupMatchingForLDCM - matcher failed to setup, no LDCM\n\n"
++ "%s::%s(0x%x@0x%x): AppleTCController::initInterruptManager - LDCM not started, setting up matcher\n\n"
++ "%s::%s(0x%x@0x%x): AppleTCController::initSingleHPM - LDCM not started, setting up matcher\n\n"
++ "%s::%s(0x%x@0x%x): AppleTCController::setupMatchingForLDCM - Failed to allocate callback, LDCM wont' work properly\n\n"
++ "%s::%s(0x%x@0x%x): AppleTCController::setupMatchingForLDCM - matcher failed to setup, no LDCM\n\n"
++ "%s::%s(0x%x@0x%x): LDCM not started, service not of AppleHPMLDCMType2\n\n"
++ "%s::%s(0x%x@0x%x): service and provider did NOT match, belongs to different node\n\n"
++ "%s::%s(0x%x@0x%x): service and provider matched\n\n"
++ "%s::%s(0x%x@0x%x): service did NOT match, belongs to different node\n\n"
++ "1211111212221212111111211111212222222211221111111212211112222221222212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112222211111111111111111111111111111112222222222222222111111111211111121211121"
++ "1211111212221212111111211111212222222211221111111212211112222221222212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112222211111111111111111111111111111112222222222222222111111111211111121211122"
++ "12111112122212121111112111112122222222112211111112122111122222212222121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122222111111111111111111111111111111122222222222222221111111112111111212121"
++ "1211111212221212111111211111212222222211221111111212211112222221222212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112222211111111111111111111111111111112222222222222222111111111211111121212211111111111111111111111111111122222222222221111111112111111222222222222121"
++ "1211111212221212111111211111212222222211221111111212211112222221222212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112222211111111111111111111111111111112222222222222222111111111211111121212211111111111111111111111111111122222222222221111111112111111222222222222121112"
++ "12111112122212121111112111112122222222112211111112122111122222212222121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122222111111111111111111111111111111122222222222222221111111112111111212122111111111111111111111111111111222222222222211111111121111112222222222221211121"
++ "1211111212221212111111211111212222222211221111111212211112222221222212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112222211111111111111111111111111111112222222222222222111111111211111121212211111111111111111111111111111122222222222221111111112111111222222222222121112112"
++ "12111112122212121111112111112122222222112211111112122111122222212222121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122222111111111111111111111111111111122222222222222221111111112111111212122111111111111111111111111111111222222222222211111111121111112222222222221211122"
++ "1211111212221212111111211111212222222211221111111212211112222221222212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112222211111111111111111111111111111112222222222222222111111111211111121212211111111111111111111111111111122222222222221111111112111111222222222222121112212"
++ "assignLDCMHandle"
++ "setupMatchingForLDCM"
+- "%s::%s(0x%x@0x%x): AppleHPMInterface::initInterruptManager - LDCM not started\n\n"
+- "%s::%s(0x%x@0x%x): AppleHPMInterface::initSingleHPM - LDCM not started\n\n"
+- "%s::%s(0x%x@0x%x): AppleTCController::initInterruptManager - LDCM not started\n\n"
+- "%s::%s(0x%x@0x%x): AppleTCController::initSingleHPM - LDCM not started\n\n"
+- "12111112122212121111112111112122222222112211111112122111122222212222121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122222111111111111111111111111111111122222222222222221111111112111111212"
+- "121111121222121211111121111121222222221122111111121221111222222122221211221211221211221211221211221211221211221211221211221211221211221211221211221211221211221211221211221211221211221211221211221211221211221211221211221211221211221211221211221211221211221211221211221211221211221211221211221211221211221211221211221211221211221211221211221211221211221211221211221211221211221211221211221211221211221211221211221211221211221211221211221211221211221211222221111111111111111111111111111111222222222222222211111111121111112121121"
+- "121111121222121211111121111121222222221122111111121221111222222122221211221211221211221211221211221211221211221211221211221211221211221211221211221211221211221211221211221211221211221211221211221211221211221211221211221211221211221211221211221211221211221211221211221211221211221211221211221211221211221211221211221211221211221211221211221211221211221211221211221211221211221211221211221211221211221211221211221211221211221211221211221211221211221211222221111111111111111111111111111111222222222222222211111111121111112121122"
+- "1211111212221212111111211111212222222211221111111212211112222221222212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112222211111111111111111111111111111112222222222222222111111111211111121221111111111111111111111111111112222222222222111111111211111122222222222212"
+- "1211111212221212111111211111212222222211221111111212211112222221222212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112222211111111111111111111111111111112222222222222222111111111211111121221111111111111111111111111111112222222222222111111111211111122222222222212112"
+- "12111112122212121111112111112122222222112211111112122111122222212222121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122222111111111111111111111111111111122222222222222221111111112111111212211111111111111111111111111111122222222222221111111112111111222222222222121121"
+- "1211111212221212111111211111212222222211221111111212211112222221222212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112222211111111111111111111111111111112222222222222222111111111211111121221111111111111111111111111111112222222222222111111111211111122222222222212112112"
+- "12111112122212121111112111112122222222112211111112122111122222212222121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122121122222111111111111111111111111111111122222222222222221111111112111111212211111111111111111111111111111122222222222221111111112111111222222222222121122"
+- "1211111212221212111111211111212222222211221111111212211112222221222212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112212112222211111111111111111111111111111112222222222222222111111111211111121221111111111111111111111111111112222222222222111111111211111122222222222212112212"
+
+```
+
+>  `com.apple.driver.usb.AppleUSBHub`
+
+```diff
+
+-1402.0.2.0.0
++1402.0.7.0.0
+   __TEXT.__const: 0x38
+   __TEXT.__cstring: 0x227e
+   __TEXT.__os_log: 0x2465
+-  __TEXT_EXEC.__text: 0x224dc
++  __TEXT_EXEC.__text: 0x22618
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0xc8
+   __DATA.__common: 0x1a0
+
+```
+
+>  `com.apple.security.sandbox`
+
+```diff
+
+-2401.0.48.0.0
+-  __TEXT.__const: 0x18cfc1
++2401.0.56.0.0
++  __TEXT.__const: 0x18cad9
+   __TEXT.__cstring: 0x6ec0
+   __TEXT.__os_log: 0x2029
+   __TEXT_EXEC.__text: 0x30438
+
+```
+
+>  `com.apple.driver.AppleT8110DART`
+
+```diff
+
+-452.0.2.0.0
++452.0.4.0.0
+   __TEXT.__const: 0x60
+   __TEXT.__cstring: 0x27b4
+-  __TEXT_EXEC.__text: 0xd458
++  __TEXT_EXEC.__text: 0xd4a8
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0xc8
+   __DATA.__common: 0x38
+
+```
+
+>  `com.apple.iokit.IOMobileGraphicsFamily-DCP`
+
+```diff
+
+-395.23.1.0.0
++395.25.0.0.0
+   __TEXT.__cstring: 0x3ef5
+   __TEXT.__const: 0x2148
+-  __TEXT_EXEC.__text: 0x1fb60
++  __TEXT_EXEC.__text: 0x1f8fc
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0xe0
+   __DATA.__common: 0x26d0
+
+   __DATA_CONST.__mod_term_func: 0x20
+   __DATA_CONST.__const: 0x1628
+   __DATA_CONST.__kalloc_type: 0x7c0
+-  Functions: 693
++  Functions: 690
+   Symbols:   0
+   CStrings:  364
+ 
+CStrings:
++ "D588_callback__"
++ "D589_callback__"
+- "D590_callback__"
+- "D591_callback__"
+
+```
+
+>  `com.apple.kec.corecrypto`
+
+```diff
+
+-1736.0.36.0.0
+-  __TEXT.__cstring: 0x46e7
++1736.0.41.0.0
++  __TEXT.__cstring: 0x4866
+   __TEXT.__const: 0x14490
+   __TEXT.__fips_hmacs: 0x20
+-  __TEXT_EXEC.__text: 0x58bfc
++  __TEXT_EXEC.__text: 0x58d3c
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0x2df0
+   __DATA.__bss: 0x2980
+
+   __DATA_CONST.__const: 0x2c90
+   Functions: 1313
+   Symbols:   0
+-  CStrings:  545
++  CStrings:  550
+ 
+CStrings:
++ "FIPSPOST_KEXT [%llu] %s:%d: FAILED: [PCT] CCEC_PAIRWISE_CONSISTENCY: unexpected FAILURE\n"
++ "FIPSPOST_KEXT [%llu] %s:%d: FAILED: [PCT] CCEC_PAIRWISE_CONSISTENCY: unexpected SUCCESS\n"
++ "FIPSPOST_KEXT [%llu] %s:%d: FAILED: failed ccec_x963_import_priv\n"
++ "FIPSPOST_KEXT [%llu] %s:%d: [PCT] CCEC_PAIRWISE_CONSISTENCY: FORCEFAIL\n"
++ "FIPSPOST_KEXT [%llu] %s:%d: [PCT] CCEC_PAIRWISE_CONSISTENCY: expected SUCCESS\n"
++ "fipspost_post_ecdsa_pairwise_ws"
+- "FIPSPOST_KEXT [%llu] %s:%d: FAILED: import\n"
+
+```
+
+>  `com.apple.plugin.IOgPTPPlugin`
+
+```diff
+
+-1300.49.0.0.0
++1300.50.1.0.0
+   __TEXT.__cstring: 0x6179
+-  __TEXT.__os_log: 0x1a456
++  __TEXT.__os_log: 0x1a4a8
+   __TEXT.__const: 0x278
+-  __TEXT_EXEC.__text: 0x709f4
++  __TEXT_EXEC.__text: 0x70acc
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0xc8
+   __DATA.__common: 0x5d8
+
+   __DATA_CONST.__kalloc_var: 0x280
+   Functions: 1416
+   Symbols:   0
+-  CStrings:  1425
++  CStrings:  1426
+ 
+CStrings:
++ "  %s(%s): Receive announce with pathTrace[%lu]: 0x%016llx\n"
++ "  %s(%s): Transmit announce with pathTrace[%lu]: 0x%016llx\n"
+- "  %s(%s): pathTrace[%lu]: 0x%016llx\n"
 
 ```
 
@@ -1990,113 +1961,142 @@ CStrings:
 
 ```
 
->  `com.apple.driver.AppleH16ANEInterface`
+>  `com.apple.driver.AppleDiskImages2`
 
 ```diff
 
--8.15.1.0.0
-+8.16.1.0.0
-   __TEXT.__os_log: 0x31029
-   __TEXT.__cstring: 0xab3f
-   __TEXT.__const: 0x600
--  __TEXT_EXEC.__text: 0xa0a78
-+  __TEXT_EXEC.__text: 0xa0b20
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0x3058
-   __DATA.__common: 0x3c8
+-379.0.0.0.0
+-  __TEXT.__cstring: 0x2000
++379.0.2.0.0
++  __TEXT.__cstring: 0x2004
+   __TEXT.__os_log: 0x11a2
+   __TEXT.__const: 0x10
+   __TEXT_EXEC.__text: 0xd3e8
+CStrings:
++ "379.0.2"
+- "379"
 
 ```
 
->  `com.apple.driver.AppleSARService`
+>  `com.apple.driver.AppleSmartBatteryManagerEmbedded`
 
 ```diff
 
--1172.0.0.0.0
-+1175.0.0.0.0
-   __TEXT.__const: 0x750
--  __TEXT.__cstring: 0x9b1f
-+  __TEXT.__cstring: 0x9b40
-   __TEXT.__os_log: 0xb8af
-   __TEXT.__ustring: 0x8
--  __TEXT_EXEC.__text: 0x53e40
-+  __TEXT_EXEC.__text: 0x53e78
+-1735.0.0.0.0
++1739.0.0.0.0
+   __TEXT.__cstring: 0x447a
+   __TEXT.__const: 0x15f0
+-  __TEXT.__os_log: 0x25f9
+-  __TEXT_EXEC.__text: 0x228a0
++  __TEXT.__os_log: 0x2616
++  __TEXT_EXEC.__text: 0x228ec
    __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0xd8
-   __DATA.__common: 0x5f0
+   __DATA.__data: 0x208
+   __DATA.__common: 0x150
 
-   __DATA_CONST.__got: 0x98
-   __DATA_CONST.__mod_init_func: 0x58
-   __DATA_CONST.__mod_term_func: 0x60
--  __DATA_CONST.__const: 0x4d28
-+  __DATA_CONST.__const: 0x4d58
-   __DATA_CONST.__kalloc_type: 0x2940
-   __DATA_CONST.__kalloc_var: 0x140
-   Functions: 539
+   __DATA_CONST.__kalloc_type: 0x340
+   Functions: 385
    Symbols:   0
--  CStrings:  1309
-+  CStrings:  1310
+-  CStrings:  910
++  CStrings:  911
  
 CStrings:
-+ "Rest Of World Region (0mm)"
-+ "Rest Of World Region (5mm)"
-- "Rest Of World Region"
++ "failed to read shutdownData\n"
 
 ```
 
->  `com.apple.driver.AppleT8130CLPC`
+>  `com.apple.driver.FairPlayIOKit`
 
 ```diff
 
--1175.0.21.0.0
--  __TEXT.__cstring: 0x2c2f
-+1175.0.25.0.0
-+  __TEXT.__cstring: 0x2c4a
-   __TEXT.__const: 0xb34
--  __TEXT_EXEC.__text: 0x4c260
-+  __TEXT_EXEC.__text: 0x4c884
+ 72.8.0.0.0
+   __TEXT.__cstring: 0x1c95
+-  __TEXT.__const: 0x49c10
+-  __TEXT_EXEC.__text: 0x1b0660
++  __TEXT.__const: 0x49c30
++  __TEXT_EXEC.__text: 0x1bb260
    __TEXT_EXEC.__auth_stubs: 0x0
--  __DATA.__data: 0xa2b8
--  __DATA.__common: 0x7b19
-+  __DATA.__data: 0xa2f8
-+  __DATA.__common: 0x7b21
-   __DATA.__bss: 0x278
-   __DATA_CONST.__auth_got: 0x4a0
-   __DATA_CONST.__got: 0xd8
-   __DATA_CONST.__mod_init_func: 0x118
-   __DATA_CONST.__mod_term_func: 0x18
--  __DATA_CONST.__const: 0x4fb0
-+  __DATA_CONST.__const: 0x4fc8
-   __DATA_CONST.__kalloc_type: 0x380
+-  __DATA.__data: 0x12e0
++  __DATA.__data: 0x12d0
+   __DATA.__common: 0x5fd8
+   __DATA.__bss: 0x38
+   __DATA_CONST.__auth_got: 0x218
+
+   __DATA_CONST.__auth_ptr: 0x10
+   __DATA_CONST.__mod_init_func: 0x10
+   __DATA_CONST.__mod_term_func: 0x10
+-  __DATA_CONST.__const: 0x13860
++  __DATA_CONST.__const: 0x13ae0
+   __DATA_CONST.__kalloc_type: 0x1b00
    __DATA_CONST.__kalloc_var: 0x370
--  Functions: 1262
-+  Functions: 1263
+-  Functions: 461
++  Functions: 486
    Symbols:   0
--  CStrings:  463
-+  CStrings:  464
+   CStrings:  87
  
-CStrings:
-+ "2024-07-15T21:28:14-07:00"
-+ "AppleCLPC-1175.0.25"
-+ "clpc-disable-perf-map-warp"
-- "2024-07-03T20:40:03-07:00"
-- "AppleCLPC-1175.0.21"
 
 ```
 
->  `com.apple.driver.usb.AppleUSBHub`
+>  `com.apple.iokit.IOThunderboltFamily`
 
 ```diff
 
--1402.0.2.0.0
-+1402.0.7.0.0
-   __TEXT.__const: 0x38
-   __TEXT.__cstring: 0x227e
-   __TEXT.__os_log: 0x2465
--  __TEXT_EXEC.__text: 0x224dc
-+  __TEXT_EXEC.__text: 0x22618
+-6769.0.0.0.0
+-  __TEXT.__cstring: 0x32b45
+-  __TEXT.__os_log: 0x2db0c
++6769.0.4.0.0
++  __TEXT.__cstring: 0x331d4
++  __TEXT.__os_log: 0x2dd91
+   __TEXT.__const: 0x7f0
+-  __TEXT_EXEC.__text: 0x18d2bc
++  __TEXT_EXEC.__text: 0x18ef54
    __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0xc8
-   __DATA.__common: 0x1a0
+   __DATA.__data: 0xb1a
+   __DATA.__common: 0x1238
+
+   __DATA_CONST.__got: 0x150
+   __DATA_CONST.__mod_init_func: 0x3a0
+   __DATA_CONST.__mod_term_func: 0x3a0
+-  __DATA_CONST.__const: 0x1d998
++  __DATA_CONST.__const: 0x1da00
+   __DATA_CONST.__kalloc_type: 0x1d40
+   __DATA_CONST.__kalloc_var: 0xaf0
+-  Functions: 4758
++  Functions: 4763
+   Symbols:   0
+-  CStrings:  4749
++  CStrings:  4770
+ 
+CStrings:
++ "\"bootarg acio=0x40 is deprecated (bit 6), please use new boot-arg acio_fw_panic=0x3. (bit 0 for assert on retrain, bit 1 for assert on training timeout)\\n\" @%s:%d"
++ "\"dfp\\n\" @%s:%d"
++ "%lldus IOThunderboltSwitchDelegateACIO(%x@%llx)::initWithController acio_fw_panic: 0x%08x\n"
++ "%lldus IOThunderboltSwitchDelegateACIO(%x@%llx)::initWithController acio_fw_panic: 0x%08x\n"
++ "%lldus IOThunderboltSwitchDelegateACIO(%x@%llx)::preConfigureRouter - writing acio_fw_panic 0x%08x\n"
++ "%lldus IOThunderboltSwitchDelegateACIO(%x@%llx)::preConfigureRouter - writing acio_fw_panic 0x%08x\n"
++ "%lldus IOThunderboltSwitchOS(%x@%llx)::setupTMU - Time Synchronization Protocol Not Supported (TSNS) bit is set.\n"
++ "%lldus IOThunderboltSwitchOS(%x@%llx)::setupTMU - Time Synchronization Protocol Not Supported (TSNS) bit is set.\n"
++ "%lldus IOThunderboltSwitchOS2(%x@%llx)::configureUpstreamAsymmetricMode - 0 status=0x%08x).\n"
++ "%lldus IOThunderboltSwitchOS2(%x@%llx)::configureUpstreamAsymmetricMode - 1 status=0x%08x).\n"
++ "%lldus IOThunderboltSwitchOS2(%x@%llx)::configureUpstreamAsymmetricMode - 2 status=0x%08x).\n"
++ "%lldus IOThunderboltSwitchOS2(%x@%llx)::configureUpstreamAsymmetricMode - 3 status=0x%08x).\n"
++ "%lldus IOThunderboltSwitchOS2(%x@%llx)::configureUpstreamAsymmetricMode - 4 status=0x%08x).\n"
++ "%lldus IOThunderboltSwitchOS2(%x@%llx)::configureUpstreamAsymmetricMode - 5 status=0x%08x).\n"
++ "%lldus IOThunderboltSwitchOS2(%x@%llx)::configureUpstreamAsymmetricMode - 6 status=0x%08x).\n"
++ "%lldus IOThunderboltSwitchOS2(%x@%llx)::configureUpstreamAsymmetricMode - 7 status=0x%08x).\n"
++ "%lldus IOThunderboltSwitchOS2(%x@%llx)::configureUpstreamAsymmetricMode - Failed to get expected negotiated width (Expected=0x%llx dfp_negotiated_width=0x%llx status=0x%08x).\n"
++ "%lldus IOThunderboltSwitchOS2(%x@%llx)::configureUpstreamAsymmetricMode - Failed to get expected negotiated width (Expected=0x%llx ufp_negotiated_width=0x%llx status=0x%08x).\n"
++ "%lldus IOThunderboltSwitchOS2(%x@%llx)::getRequiredTMUMode - fTimeSyncNotSupported = true, disabling TMU\n"
++ "%lldus IOThunderboltSwitchOS2(%x@%llx)::getRequiredTMUMode - fTimeSyncNotSupported = true, disabling TMU\n"
++ "%lldus IOThunderboltSwitchOS2(%x@%llx)::resetChild - requestPowerDown of child=(%x@%llx)\n"
++ "21:17:53"
++ "IOThunderboltSwitchDelegateACIO.cpp"
++ "Jul 15 2024"
++ "acio_fw_panic"
+- "%lldus IOThunderboltSwitchDelegateACIO(%x@%llx)::postConfigureRouter - write assert on retraining, offset = 0x%x data = 0x%08x - status = 0x%08x\n"
+- "%lldus IOThunderboltSwitchDelegateACIO(%x@%llx)::postConfigureRouter - write assert on retraining, offset = 0x%x data = 0x%08x - status = 0x%08x\n"
+- "20:29:14"
+- "Jul  3 2024"
 
 ```
 
@@ -2111,23 +2111,9 @@ CStrings:
 - `/System/Library/ExtensionKit/Extensions/NLPLearnerExtension.appex/NLPLearnerExtension`
 - `/System/Library/ExtensionKit/Extensions/SoundAndHapticsControls.appex/SoundAndHapticsControls`
 
-### ❌ Removed (21)
+### ❌ Removed (7)
 
-- `/System/Library/Accounts/DataclassOwners/Bookmarks.bundle/Bookmarks`
-- `/System/Library/ExtensionKit/Extensions/GPUExtension.appex/com.apple.WebKit.GPU`
 - `/System/Library/ExtensionKit/Extensions/GPUIExtension.appex/GPUIExtension`
-- `/System/Library/ExtensionKit/Extensions/NetworkingExtension.appex/com.apple.WebKit.Networking`
-- `/System/Library/ExtensionKit/Extensions/WebContentCaptivePortalExtension.appex/com.apple.WebKit.WebContent.CaptivePortal`
-- `/System/Library/ExtensionKit/Extensions/WebContentExtension.appex/com.apple.WebKit.WebContent`
-- `/System/Library/Frameworks/SafariServices.framework/PlugIns/SafariServices.wkbundle/SafariServices`
-- `/System/Library/Frameworks/SafariServices.framework/XPCServices/com.apple.SafariServices.ContentBlockerLoader.xpc/com.apple.SafariServices.ContentBlockerLoader`
-- `/System/Library/Frameworks/WebKit.framework/Daemons/adattributiond`
-- `/System/Library/PrivateFrameworks/PlugInKitDaemon.framework/PlugInKitDaemon`
-- `/System/Library/PrivateFrameworks/SafariFoundation.framework/XPCServices/AutoFillHelper.xpc/AutoFillHelper`
-- `/System/Library/PrivateFrameworks/SafariFoundation.framework/XPCServices/CredentialProviderExtensionHelper.xpc/CredentialProviderExtensionHelper`
-- `/System/Library/PrivateFrameworks/SafariFoundation.framework/XPCServices/SafariConfigurationSubscriber.xpc/SafariConfigurationSubscriber`
-- `/System/Library/PrivateFrameworks/SafariShared.framework/XPCServices/com.apple.Safari.SearchHelper.xpc/com.apple.Safari.SearchHelper`
-- `/System/Library/PrivateFrameworks/VisualTestKit.framework/VisualTestKit`
 - `/private/var/staged_system_apps/Image Playground.app/Extensions/GenerativePlaygroundAppIntents.appex/GenerativePlaygroundAppIntents`
 - `/private/var/staged_system_apps/Image Playground.app/Image Playground`
 - `/private/var/staged_system_apps/Image Playground.app/PlugIns/GenerativePlaygroundMessagesAppExtension.appex/GenerativePlaygroundMessagesAppExtension`
