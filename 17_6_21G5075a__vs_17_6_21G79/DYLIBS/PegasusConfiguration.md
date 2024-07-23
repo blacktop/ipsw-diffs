@@ -1,0 +1,83 @@
+## PegasusConfiguration
+
+> `/System/Library/PrivateFrameworks/PegasusConfiguration.framework/PegasusConfiguration`
+
+```diff
+
+ 3306.7.1.0.0
+-  __TEXT.__text: 0x42858
++  __TEXT.__text: 0x4284c
+   __TEXT.__auth_stubs: 0x18c0
+   __TEXT.__objc_methlist: 0x10c
+   __TEXT.__const: 0x313c
+
+   - /usr/lib/swift/libswiftos.dylib
+   Functions: 2022
+   Symbols:   546
+-  CStrings:  2022
++  CStrings:  2043
+ 
+CStrings:
++ "\x1f\b"
++ "#\xe57"
++ "B\xe57"
++ "I5\x14"
++ "J\xb4\x18"
++ "O\xe57"
++ "p\x84\x1f"
++ "|s7"
++ "\x80\x17\x7f\v"
++ "\x80$G\x14"
++ "\x80(\xdc\x11"
++ "\x80,B\b"
++ "\x806c\x18"
++ "\x80=p\x1d"
++ "\x80B\xd6\x11"
++ "\x80H2\x14"
++ "\x80JT\x05"
++ "\x80c\x8f\x16"
++ "\x80d\xed\x19"
++ "\x80fu\x0e"
++ "\x80hN\x04"
++ "\x80}\xf9\x06"
++ "\x80\x82\x1f\r"
++ "\x80\x8c4\v"
++ "\x80\x9b\f\x02"
++ "\x80\xa3P\x1f"
++ "\x80\xa7\xba\f"
++ "\x80\xbb\x1d\t"
++ "\x80\xbc\x9f\n"
++ "\x80\xbe\x8a\x18"
++ "\x80\xbe\xe8\x1d"
++ "\x80\xc4l\x18"
++ "\x80ֵ\x04"
++ "\x80\xdbH\x19"
++ "\x80\u06dd\x19"
++ "\x80\xe6\x1c\x13"
++ "\x80\xfb\xeb\x17"
++ "\x8c\xe57"
++ "\x9aA\x19"
++ "\xba\xe57"
++ "\xd0\xe57"
++ "\xdb\xf8\x04"
+- "\x10\x06"
+- "@D\x01"
+- "H\x92\x01"
+- "`\x03\x02"
+- "pK"
+- "x\x05\x01"
+- "\x80\x02"
+- "\x80\x18\x87\x05"
+- "\x80\x1a\xb1\x04"
+- "\x80\x1b\x1f\x18"
+- "\x80f\xe2\x1f"
+- "\x80\x8e\xd1\f"
+- "\x80\xa12\x0e"
+- "\x80\xa8\xab\x1e"
+- "\x80\xac\xb0\x05"
+- "\x80\xd8\x19\x1f"
+- "\x8c4\v"
+- "\x90\x06"
+- "\xff\xff"
+
+```
