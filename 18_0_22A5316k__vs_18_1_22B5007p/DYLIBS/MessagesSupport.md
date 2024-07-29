@@ -1,0 +1,148 @@
+## MessagesSupport
+
+> `/System/Library/PrivateFrameworks/MessagesSupport.framework/MessagesSupport`
+
+```diff
+
+-1301.100.8.2.5
++1301.200.8.2.1
+   __TEXT.__text: 0xaef0
+   __TEXT.__auth_stubs: 0xa20
+   __TEXT.__objc_methlist: 0x5c4
+
+   __DATA_CONST.__objc_protorefs: 0x20
+   __DATA_CONST.__objc_superrefs: 0x30
+   __AUTH_CONST.__auth_got: 0x518
+-  __AUTH_CONST.__auth_ptr: 0x280
++  __AUTH_CONST.__auth_ptr: 0x278
+   __AUTH_CONST.__const: 0x388
+   __AUTH_CONST.__cfstring: 0x20
+   __AUTH_CONST.__objc_const: 0x1218
+
+   - /usr/lib/swift/libswiftsimd.dylib
+   Functions: 379
+   Symbols:   246
+-  CStrings:  82
++  CStrings:  98
+ 
+CStrings:
++ "BRd_1_r2_lF"
++ "VySSGAESgtcfC"
++ "_$s7SwiftUI11LabeledViewV7content5labelACyxq_Gq_yXE_xyXEtcfC"
++ "_$s7SwiftUI11SecureFieldVA2A4TextVRszrlE_4text8onCommitACyAEGAA18LocalizedStringKeyV_AA7BindingVySSGyyctcfC"
++ "_$s7SwiftUI11SecureFieldVA2A4TextVRszrlE_4text8onCommitACyAEGqd___AA7BindingVySSGyyctcSyRd__lufC"
++ "_$s7SwiftUI12ControlGroupV7content5labelACyAA07LabeledcD7ContentVyqd__qd_0_GGqd__yXE_qd_0_yXEtcAHRszAA4ViewRd__AaJRd_0_r0_lufC"
++ "_$s7SwiftUI12ControlGroupV7contentACyxGxyXE_tcfC"
++ "_$s7SwiftUI12ControlGroupVMa"
++ "_$s7SwiftUI13AnyTransitionV4blur6radiusAC12CoreGraphics7CGFloatV_tFZ"
++ "_$s7SwiftUI14DialogSeverityV13informationalACvgZ"
++ "_$s7SwiftUI14DialogSeverityV8criticalACvgZ"
++ "_$s7SwiftUI14DialogSeverityV9automaticACvgZ"
++ "_$s7SwiftUI14DialogSeverityVMa"
++ "_$s7SwiftUI15ModifiedContentVA2A31AccessibilityAttachmentModifierVRs_rlE23accessibilityIdentifieryACyxAEGSSF"
++ "_$s7SwiftUI16ClarityUIMetricsV33stackWidthAsPercentageOfScreenPad12CoreGraphics7CGFloatVvgZ"
++ "_$s7SwiftUI17ButtonBorderShapeV16roundedRectangle6radiusAC12CoreGraphics7CGFloatV_tFZ"
++ "_$s7SwiftUI17ButtonBorderShapeV16roundedRectangleACvgZ"
++ "_$s7SwiftUI17ButtonBorderShapeV6circleACvgZ"
++ "_$s7SwiftUI17ButtonBorderShapeV7capsuleACvgZ"
++ "_$s7SwiftUI17ButtonBorderShapeV9automaticACvgZ"
++ "_$s7SwiftUI17EnvironmentValuesV11undoManagerSo06NSUndoF0CSgvg"
++ "_$s7SwiftUI17EnvironmentValuesV12_undoManagerSo06NSUndoF0CSgvg"
++ "_$s7SwiftUI17EnvironmentValuesV12_undoManagerSo06NSUndoF0CSgvs"
++ "_$s7SwiftUI17EnvironmentValuesV14listRowSpacing12CoreGraphics7CGFloatVSgvs"
++ "_$s7SwiftUI17EnvironmentValuesV18_buttonBorderShapeAA06ButtonfG0Vvg"
++ "_$s7SwiftUI17EnvironmentValuesV18_buttonBorderShapeAA06ButtonfG0Vvs"
++ "_$s7SwiftUI17EnvironmentValuesV8editModeAA7BindingVyAA04EditF0OGSgvs"
++ "_$s7SwiftUI19BorderedButtonStyleVACycfC"
++ "_$s7SwiftUI19HostingViewProtocolP13convertAnchoryqd__AA0G0Vyqd__GlFTj"
++ "_$s7SwiftUI19HostingViewProtocolP15preferenceValuey0G0Qyd__qd__mAA17HostPreferenceKeyRd__lFTj"
++ "_$s7SwiftUI19HostingViewRegistryC6sharedACvgZ"
++ "_$s7SwiftUI19HostingViewRegistryC7forEachyyyAA0cD8Protocol_pKXEKFTj"
++ "_$s7SwiftUI19PlainTextFieldStyleVACycfC"
++ "_$s7SwiftUI19PlainTextFieldStyleVMa"
++ "_$s7SwiftUI19TupleToolbarContentVyACyxGxcfC"
++ "_$s7SwiftUI19WidgetConfigurationPAAE05_makecD06widget6inputsAA01_C7OutputsVAA11_GraphValueVyxG_AA01_C6InputsVtFZ"
++ "_$s7SwiftUI20WheelDatePickerStyleVACycfC"
++ "_$s7SwiftUI20WheelDatePickerStyleVMa"
++ "_$s7SwiftUI21BlurReplaceTransitionV13ConfigurationV4upUpAEvgZ"
++ "_$s7SwiftUI21BlurReplaceTransitionV13ConfigurationV6downUpAEvgZ"
++ "_$s7SwiftUI21BlurReplaceTransitionV13ConfigurationVMa"
++ "_$s7SwiftUI21BlurReplaceTransitionV13configurationA2C13ConfigurationV_tcfC"
++ "_$s7SwiftUI21BlurReplaceTransitionVMa"
++ "_$s7SwiftUI21ControlWidgetTemplateP5_kindSuvgZTj"
++ "_$s7SwiftUI21ControlWidgetTemplatePAAE05_makecdE07control6inputsAA01_D7OutputsVAA11_GraphValueVyxG_AA01_D6InputsVtFZ"
++ "_$s7SwiftUI21ControlWidgetTemplatePAAE12_controlTypeypXpvgZ"
++ "_$s7SwiftUI21ControlWidgetTemplatePAAE5_kindSuvgZ"
++ "_$s7SwiftUI25BorderlessButtonMenuStyleVACycfC"
++ "_$s7SwiftUI25BorderlessButtonMenuStyleVMa"
++ "_$s7SwiftUI27WidgetAuxiliaryViewMetadataV4TextV0F0V4KindOMa"
++ "_$s7SwiftUI27WidgetAuxiliaryViewMetadataV4TextV0F0V4kindAG4KindOvg"
++ "_$s7SwiftUI27WidgetAuxiliaryViewMetadataV4TextV0F0V5colorAA5ColorVSgvg"
++ "_$s7SwiftUI27WidgetAuxiliaryViewMetadataV4TextV0F0V8featuresSaySo15CFDictionaryRefaGSgvg"
++ "_$s7SwiftUI27WidgetAuxiliaryViewMetadataV4TextV0F0V9textScaleAaDV0I0VSgvg"
++ "_$s7SwiftUI27WidgetAuxiliaryViewMetadataV4TextV0F0VMa"
++ "_$s7SwiftUI27WidgetAuxiliaryViewMetadataV4TextV4textSo18NSAttributedStringCvg"
++ "_$s7SwiftUI27WidgetAuxiliaryViewMetadataV7GraphicOMa"
++ "_$s7SwiftUI27WidgetAuxiliaryViewMetadataVMa"
++ "_$s7SwiftUI36MultimodalNavigationChromeScrollInfoV10scrollView011representedI0ACSo08UIScrollI0C_So6UIViewCtcfC"
++ "_$s7SwiftUI4ViewPAAE14dialogSeverityyQrAA06DialogE0VF"
++ "_$s7SwiftUI4ViewPAAE15coordinateSpace4nameQrqd___tSHRd__lF"
++ "_$s7SwiftUI4ViewPAAE17buttonBorderShapeyQrAA06ButtoneF0VF"
++ "_$s7SwiftUI4ViewPAAE23accessibilityIdentifier_9isEnabledAA15ModifiedContentVyxAA31AccessibilityAttachmentModifierVGSS_SbtF"
++ "_$s7SwiftUI5ShapePA2A012ButtonBorderC0VRszrlE06buttonE0AEvgZ"
++ "_$s7SwiftUI8EditModeO9isEditingSbvg"
++ "gZ"
++ "roupedFormStyleVMa"
+- "OneVyqd__Gq_q0_q1_Gqd___AA4TextVSgAoA0C7PreviewVyq_q0_Gq1_yXEtcAKRsz16CoreTransferable0P0Rd__lufC"
+- "UI27WidgetAuxiliaryViewMetadataV7GraphicO5NamedV19symbolRenderingModeAA06SymboljK0VSgvg"
+- "_$s7SwiftUI12_PreviewHostC04makeD012providerTypeACSgypXp_tFZ"
+- "_$s7SwiftUI12_PreviewHostC11environmentAA17EnvironmentValuesVvsTj"
+- "_$s7SwiftUI12_PreviewHostC18invalidatePreviewsyyFTj"
+- "_$s7SwiftUI12_PreviewHostC20invalidateEverythingyyFTj"
+- "_$s7SwiftUI12_PreviewHostC8previewsSayAA01_C0VGvgTj"
+- "_$s7SwiftUI12_PreviewHostCMa"
+- "_$s7SwiftUI16_EventDirectionsV3allACvgZ"
+- "_$s7SwiftUI17EnvironmentObjectV12wrappedValuexvg"
+- "_$s7SwiftUI17EnvironmentObjectV14projectedValueAC7WrapperVyx_Gvg"
+- "_$s7SwiftUI17EnvironmentObjectV5errors5NeverOyF"
+- "_$s7SwiftUI17EnvironmentObjectV7WrapperV13dynamicMemberAA7BindingVyqd__Gs24ReferenceWritableKeyPathCyxqd__G_tcluig"
+- "_$s7SwiftUI27WidgetAuxiliaryViewMetadataV12metadataTextAC0H0VSgvg"
+- "_$s7SwiftUI27WidgetAuxiliaryViewMetadataV13AccessibilityV10identifierSSSgvg"
+- "_$s7SwiftUI27WidgetAuxiliaryViewMetadataV13AccessibilityV5labelSSSgvg"
+- "_$s7SwiftUI27WidgetAuxiliaryViewMetadataV13AccessibilityV5valueSSSgvg"
+- "_$s7SwiftUI27WidgetAuxiliaryViewMetadataV13AccessibilityVMa"
+- "_$s7SwiftUI27WidgetAuxiliaryViewMetadataV13accessibilityAC13AccessibilityVSgvg"
+- "_$s7SwiftUI27WidgetAuxiliaryViewMetadataV21metadataSecondaryTextAC0I0VSgvg"
+- "_$s7SwiftUI27WidgetAuxiliaryViewMetadataV3KeyVMa"
+- "_$s7SwiftUI27WidgetAuxiliaryViewMetadataV3url10Foundation3URLVSgvg"
+- "_$s7SwiftUI27WidgetAuxiliaryViewMetadataV4TextVMa"
+- "_$s7SwiftUI27WidgetAuxiliaryViewMetadataV7GraphicO16debugDescriptionSSvg"
+- "_$s7SwiftUI27WidgetAuxiliaryViewMetadataV7GraphicO5NamedV13symbolEffectsSayAA12SymbolEffectVGvg"
+- "_$s7SwiftUI27WidgetAuxiliaryViewMetadataV7GraphicO5NamedV17contentTransitionAA07ContentJ0Vvg"
+- "_$s7SwiftUI27WidgetAuxiliaryViewMetadataV7graphicAC7GraphicOSgvg"
+- "_$s7SwiftUI27WidgetAuxiliaryViewMetadataV9fallbacksSayACGSgvg"
+- "_$s7SwiftUI35WidgetAuxiliaryViewMetadataModifierV7contentACyxGxyXE_tcfC"
+- "_$s7SwiftUI35WidgetAuxiliaryViewMetadataModifierVMa"
+- "_$s7SwiftUI4GridV9alignment17horizontalSpacing08verticalF07contentACyxGAA9AlignmentV_12CoreGraphics7CGFloatVSgANxyXEtcfC"
+- "_$s7SwiftUI4GridVMa"
+- "_$s7SwiftUI4ViewPAAE010makeMapKitC06inputs_ypAA01_C6InputsV_ypAA0ef5GraphH0V_AGtXEtFZ"
+- "_$s7SwiftUI4ViewPAAE15gridCellColumnsyQrSiF"
+- "_$s7SwiftUI4ViewPAAE18confirmationDialog_11isPresented15titleVisibility10presenting7actions7messageQrqd___AA7BindingVySbGAA0I0Oqd_2_Sgqd_0_qd_2_XEqd_1_qd_2_XEtSyRd__AaBRd_0_AaBRd_1_r2_lF"
+- "_$s7SwiftUI4ViewPAAE25accessibilityIntentAction_02lnF07performAA15ModifiedContentVyxAA31AccessibilityAttachmentModifierVGAA0kF4KindV_So8NSObjectCyyctF"
+- "_$s7SwiftUI4ViewPAAE27accessibilityAutomationTypeyAA15ModifiedContentVyxAA31AccessibilityAttachmentModifierVGs6UInt64VF"
+- "_$s7SwiftUI4ViewPAAE7toolbar7contentQrqd__yXE_tAA14ToolbarContentRd__lF"
+- "_$s7SwiftUI4ViewPAAE7toolbar7contentQrqd__yXE_tAaBRd__lF"
+- "_$s7SwiftUI7GridRowV9alignment7contentACyxGAA17VerticalAlignmentVSg_xyXEtcfC"
+- "_$s7SwiftUI7GridRowVMa"
+- "_$s7SwiftUI9ShareLinkVA2A07DefaultcD5LabelVRs1_rlE4item7subject7message7preview21onPresentationChangedACys15CollectionOfOneVyqd__Gq_q0_AEGqd___AA4TextVSgAqA0C7PreviewVyq_q0_GySbcSgtcAMRsz16CoreTransferable0T0Rd__lufC"
+- "_$s7SwiftUI9ShareLinkVA2A07DefaultcD5LabelVRs1_rlE4item7subject7message7previewACys15CollectionOfOneVyqd__Gq_q0_AEGqd___AA4TextVSgApA0C7PreviewVyq_q0_GtcALRsz16CoreTransferable0Q0Rd__lufC"
+- "_$s7SwiftUI9ShareLinkVA2A07DefaultcD5LabelVRs1_rlE5items7subject7message7preview21onPresentationChangedACyxq_q0_AEGx_AA4TextVSgAnA0C7PreviewVyq_q0_G7ElementQzcySbcSgtcfC"
+- "_$s7SwiftUI9ShareLinkVAAs5NeverORs_AERs0_AA07DefaultcD5LabelVRs1_rlE4item7subject7messageACys15CollectionOfOneVySSGA2eGGSS_AA4TextVSgAQtcAMRszrlufC"
+- "_$s7SwiftUI9ShareLinkVAAs5NeverORs_AERs0_rlE4item7subject7message5labelACys15CollectionOfOneVy10Foundation3URLVGA2Eq1_GAN_AA4TextVSgASq1_yXEtcAORszrlufC"
+- "_$s7SwiftUI9ShareLinkVAAs5NeverORs_AERs0_rlE4item7subject7message5labelACys15CollectionOfOneVySSGA2Eq1_GSS_AA4TextVSgAPq1_yXEtcALRszrlufC"
+- "_$s7SwiftUI9ShareLinkVMa"
+- "_$sSq7SwiftUISHRzlE5countSivg"
+- "romeScrollInfoV10scrollView011representedI0ACSo08UIScrollI0C_So6UIViewCtcfC"
+- "tVSgvs"
+
+```
