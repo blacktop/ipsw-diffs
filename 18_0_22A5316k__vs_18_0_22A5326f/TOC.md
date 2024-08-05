@@ -21,134 +21,168 @@
 <details>
   <summary><i>View Updated</i></summary>
 
->  `com.apple.iokit.IODisplayPortFamily`
+>  `com.apple.driver.AppleDisplayCrossbar`
 
 ```diff
 
--730.0.1.0.0
--  __TEXT.__cstring: 0x7c3b
-+730.0.4.0.0
-+  __TEXT.__cstring: 0x7c47
-   __TEXT.__os_log: 0x9571
-   __TEXT.__const: 0x310
--  __TEXT_EXEC.__text: 0x5cfe4
-+  __TEXT_EXEC.__text: 0x5d094
+-355.0.0.0.0
++355.0.2.0.0
+   __TEXT.__cstring: 0x4413
+   __TEXT.__const: 0x160
+   __TEXT.__os_log: 0x5d14
+-  __TEXT_EXEC.__text: 0x32084
++  __TEXT_EXEC.__text: 0x3214c
    __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0xc8
-   __DATA.__common: 0x550
+   __DATA.__data: 0xc4
+   __DATA.__common: 0x3d0
 
-   __DATA_CONST.__kalloc_var: 0x280
-   Functions: 1961
+   __DATA_CONST.__got: 0xd0
+   __DATA_CONST.__mod_init_func: 0xc0
+   __DATA_CONST.__mod_term_func: 0xc0
+-  __DATA_CONST.__const: 0xd1e0
++  __DATA_CONST.__const: 0xd1f8
+   __DATA_CONST.__kalloc_type: 0x600
+-  Functions: 1475
++  Functions: 1477
    Symbols:   0
--  CStrings:  1525
-+  CStrings:  1526
+   CStrings:  707
+ 
+
+```
+
+>  `com.apple.driver.AppleH16CameraInterface`
+
+```diff
+
+-3.33.50.0.0
+-  __TEXT.__const: 0xa078
+-  __TEXT.__cstring: 0x19332
+-  __TEXT.__os_log: 0x1543b
+-  __TEXT_EXEC.__text: 0x9b574
++3.39.2.0.0
++  __TEXT.__const: 0xa058
++  __TEXT.__cstring: 0x19384
++  __TEXT.__os_log: 0x15451
++  __TEXT_EXEC.__text: 0x9b894
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0x2a0
+   __DATA.__common: 0x4a0
+
+   __DATA_CONST.__auth_ptr: 0x10
+   __DATA_CONST.__mod_init_func: 0x90
+   __DATA_CONST.__mod_term_func: 0x50
+-  __DATA_CONST.__const: 0xad78
++  __DATA_CONST.__const: 0xa0e8
+   __DATA_CONST.__kalloc_type: 0x1300
+   __DATA_CONST.__kalloc_var: 0xd70
+-  Functions: 1899
++  Functions: 1907
+   Symbols:   0
+-  CStrings:  3273
++  CStrings:  3276
  
 CStrings:
-+ "ProductName"
++ "AppleH16CamIn:%s - camCalLoadOptions : %d\n"
++ "AppleH16CamIn:%s - camCalLoadOptions : %d\n"
++ "ISP_SavageAuth_gated"
++ "PearlCamFrameReceived - frameCount=0x%08X, timeStamp=0x%016llX, currentISPTime=0x%016llX, currentSysTime=0x%016llX, rawAddr=%#llx, metaAddr=%#llx, totDescriptors=%u\n"
++ "camCalLoadOptions"
+- "AppleH16PearlCam:%s - DART Addresses - raw:%#llx meta:%#llx ref:%#llx\n"
+- "PearlCamFrameReceived - frameCount=0x%08X, timeStamp=0x%016llX, currentISPTime=0x%016llX, currentSysTime=0x%016llX\n"
 
 ```
 
->  `com.apple.iokit.IOUSBHostFamily`
+>  `com.apple.driver.ApplePMGR`
 
 ```diff
 
--1402.0.7.0.0
-+1402.0.10.0.1
-   __TEXT.__cstring: 0x9afc
-   __TEXT.__os_log: 0x81a1
-   __TEXT.__const: 0xa90
--  __TEXT_EXEC.__text: 0x99214
-+  __TEXT_EXEC.__text: 0x99220
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0x310
-   __DATA.__common: 0x930
+-1555.0.22.0.0
++1555.0.27.0.0
+   __TEXT.__const: 0x248
+   __TEXT.__cstring: 0xe8ef
+   __TEXT_EXEC.__text: 0x5299c
+
+   __DATA_CONST.__got: 0xd0
+   __DATA_CONST.__mod_init_func: 0x18
+   __DATA_CONST.__mod_term_func: 0x18
+-  __DATA_CONST.__const: 0x7788
++  __DATA_CONST.__const: 0x7790
+   __DATA_CONST.__kalloc_type: 0x680
+   __DATA_CONST.__kalloc_var: 0xe10
+   Functions: 2165
 
 ```
 
->  `com.apple.plugin.IOgPTPPlugin`
+>  `com.apple.driver.ApplePTD`
 
 ```diff
 
--1300.50.1.0.0
--  __TEXT.__cstring: 0x6179
--  __TEXT.__os_log: 0x1a4a8
-+1300.51.0.0.0
-+  __TEXT.__cstring: 0x6162
-+  __TEXT.__os_log: 0x1a477
-   __TEXT.__const: 0x278
--  __TEXT_EXEC.__text: 0x70acc
-+  __TEXT_EXEC.__text: 0x70a60
+-21.0.0.0.0
+-  __TEXT.__cstring: 0x1a2e
++22.0.0.0.0
++  __TEXT.__cstring: 0x1a77
+   __TEXT.__const: 0x20
+-  __TEXT_EXEC.__text: 0x9074
++  __TEXT_EXEC.__text: 0x9254
    __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0xc8
-   __DATA.__common: 0x5d8
+   __DATA.__data: 0xc4
+   __DATA.__common: 0xf0
 
-   __DATA_CONST.__kalloc_var: 0x280
-   Functions: 1416
+   __DATA_CONST.__mod_term_func: 0x18
+   __DATA_CONST.__const: 0xf68
+   __DATA_CONST.__kalloc_type: 0x100
+-  __DATA_CONST.__kalloc_var: 0x190
++  __DATA_CONST.__kalloc_var: 0x1e0
+   Functions: 225
    Symbols:   0
--  CStrings:  1426
-+  CStrings:  1424
+-  CStrings:  192
++  CStrings:  196
  
 CStrings:
-- "  %s(%s): %s Failed to transmit timesync packet\n"
-- "transmitTimeSyncPacket"
++ "%s: cannot alloc array\n"
++ "%s: cannot alloc register lock\n"
++ "1"
++ "1211111212221212111111111111122222222111112112"
++ "site.IOLock *"
+- "121111121222121211111111111112222222211111212"
 
 ```
 
->  `com.apple.security.sandbox`
+>  `com.apple.driver.AppleT8130CLPC`
 
 ```diff
 
--2401.0.56.0.0
--  __TEXT.__const: 0x18cad9
--  __TEXT.__cstring: 0x6ec0
-+2401.0.60.0.0
-+  __TEXT.__const: 0x1893f9
-+  __TEXT.__cstring: 0x6edf
-   __TEXT.__os_log: 0x2029
--  __TEXT_EXEC.__text: 0x30438
-+  __TEXT_EXEC.__text: 0x30494
+-1175.0.25.0.0
+-  __TEXT.__cstring: 0x2c4a
++1175.0.34.0.0
++  __TEXT.__cstring: 0x2c4e
+   __TEXT.__const: 0xb34
+-  __TEXT_EXEC.__text: 0x4c884
++  __TEXT_EXEC.__text: 0x4c934
    __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0x1e0
-   __DATA.__bss: 0x144c8
--  __DATA_CONST.__auth_got: 0x830
-+  __DATA_CONST.__auth_got: 0x838
-   __DATA_CONST.__got: 0xc8
-   __DATA_CONST.__const: 0x3640
-   __DATA_CONST.__kalloc_var: 0x550
-   __DATA_CONST.__kalloc_type: 0xa80
--  Functions: 647
-+  Functions: 648
+-  __DATA.__data: 0xa2f8
++  __DATA.__data: 0xa3f8
+   __DATA.__common: 0x7b21
+   __DATA.__bss: 0x278
+   __DATA_CONST.__auth_got: 0x4a0
+   __DATA_CONST.__got: 0xd8
+   __DATA_CONST.__mod_init_func: 0x118
+   __DATA_CONST.__mod_term_func: 0x18
+-  __DATA_CONST.__const: 0x4fc8
++  __DATA_CONST.__const: 0x4fe0
+   __DATA_CONST.__kalloc_type: 0x380
+   __DATA_CONST.__kalloc_var: 0x370
+   Functions: 1263
    Symbols:   0
--  CStrings:  1294
-+  CStrings:  1295
+-  CStrings:  464
++  CStrings:  465
  
 CStrings:
-+ "\"invalid hex digit: %c\" @%s:%d"
-
-```
-
->  `com.apple.driver.AppleSPMIPMU`
-
-```diff
-
--1350.0.0.0.0
-+1350.0.1.0.0
-   __TEXT.__cstring: 0x24d1
-   __TEXT.__const: 0x26
--  __TEXT_EXEC.__text: 0xbd60
-+  __TEXT_EXEC.__text: 0xbd80
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0x320
-   __DATA.__common: 0xc0
-CStrings:
-+ "%s::handleStart: %s _pmuNub: %p ** configuration not found ** built 20:34:28 Jul 30 2024\n"
-+ "%s::handleStart: ro=%d nvram=%d helper=%d %s _pmuNub: %p 0x%04x:0x%04x-0x%04x built 20:34:28 Jul 30 2024\n"
-+ "%s::start: %s _pmuNub: %p ** configuration not found ** built 20:34:28 Jul 30 2024\n"
-+ "%s::start: %s _pmuNub: %p built 20:34:28 Jul 30 2024\n"
-- "%s::handleStart: %s _pmuNub: %p ** configuration not found ** built 21:19:04 Jul 15 2024\n"
-- "%s::handleStart: ro=%d nvram=%d helper=%d %s _pmuNub: %p 0x%04x:0x%04x-0x%04x built 21:19:04 Jul 15 2024\n"
-- "%s::start: %s _pmuNub: %p ** configuration not found ** built 21:19:04 Jul 15 2024\n"
-- "%s::start: %s _pmuNub: %p built 21:19:04 Jul 15 2024\n"
++ "2024-07-30T20:49:26-07:00"
++ "AFR"
++ "AppleCLPC-1175.0.34"
+- "2024-07-15T21:28:14-07:00"
+- "AppleCLPC-1175.0.25"
 
 ```
 
@@ -201,6 +235,45 @@ CStrings:
 
 ```
 
+>  `com.apple.filesystems.lifs`
+
+```diff
+
+-445.0.0.0.0
+-  __TEXT.__os_log: 0x1278
+-  __TEXT.__cstring: 0x21bd
++465.0.0.0.1
++  __TEXT.__os_log: 0x129b
++  __TEXT.__cstring: 0x21fb
+   __TEXT.__const: 0x2d0
+-  __TEXT_EXEC.__text: 0x1a8b4
++  __TEXT_EXEC.__text: 0x1ab94
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0x5d0
+   __DATA.__common: 0x138
+-  __DATA.__bss: 0x50
++  __DATA.__bss: 0x90
+   __DATA_CONST.__auth_got: 0x7c0
+   __DATA_CONST.__got: 0x88
+   __DATA_CONST.__mod_init_func: 0x18
+   __DATA_CONST.__mod_term_func: 0x18
+   __DATA_CONST.__const: 0x16a0
+-  __DATA_CONST.__kalloc_type: 0xb40
+-  Functions: 400
++  __DATA_CONST.__kalloc_type: 0xbc0
++  Functions: 404
+   Symbols:   0
+-  CStrings:  394
++  CStrings:  396
+ 
+CStrings:
++ "11111222222222"
++ "lifs_setfsattr_request_async"
++ "site.lifs_setfsattr_context_t"
+- "11111222222"
+
+```
+
 >  `com.apple.iokit.IOAccessoryManager`
 
 ```diff
@@ -243,184 +316,49 @@ CStrings:
 
 ```
 
->  `com.apple.driver.AppleSPU`
+>  `com.apple.driver.AppleIDV`
 
 ```diff
 
--1014.0.3.0.0
-+1014.0.4.0.0
-   __TEXT.__cstring: 0x5aae
-   __TEXT.__os_log: 0x955
-   __TEXT.__const: 0x358
--  __TEXT_EXEC.__text: 0x496e8
-+  __TEXT_EXEC.__text: 0x498e8
-   __TEXT_EXEC.__auth_stubs: 0x0
--  __DATA.__data: 0x7b8
-+  __DATA.__data: 0x878
-   __DATA.__common: 0x970
-   __DATA.__bss: 0x5b0
-   __DATA_CONST.__auth_got: 0x5e0
-
-   __DATA_CONST.__const: 0x16440
-   __DATA_CONST.__kalloc_type: 0xec0
-   __DATA_CONST.__kalloc_var: 0x320
--  Functions: 2065
-+  Functions: 2068
-   Symbols:   0
-   CStrings:  920
- 
-
-```
-
->  `com.apple.driver.AppleStockholmControl`
-
-```diff
-
--350.30.1.0.0
-+350.33.1.0.0
-   __TEXT.__cstring: 0x46f8
-   __TEXT.__const: 0x30
--  __TEXT_EXEC.__text: 0x14f0c
-+  __TEXT_EXEC.__text: 0x14f40
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0x219
-   __DATA.__common: 0x1a6
-
-```
-
->  `com.apple.driver.DCPDPFamilyProxy`
-
-```diff
-
--200.0.10.0.0
-+200.0.13.0.0
-   __TEXT.__const: 0x90
--  __TEXT.__cstring: 0x410
--  __TEXT.__os_log: 0x232
--  __TEXT_EXEC.__text: 0x4610
-+  __TEXT.__cstring: 0x3b8
-+  __TEXT.__os_log: 0x118
-+  __TEXT_EXEC.__text: 0x401c
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0xc8
-   __DATA.__common: 0x100
-
-   __DATA_CONST.__got: 0x80
-   __DATA_CONST.__mod_init_func: 0x30
-   __DATA_CONST.__mod_term_func: 0x30
--  __DATA_CONST.__const: 0x28c0
-+  __DATA_CONST.__const: 0x28d8
-   __DATA_CONST.__kalloc_type: 0x180
-   Functions: 193
-   Symbols:   0
--  CStrings:  35
-+  CStrings:  32
- 
-CStrings:
-+ "121111121222121211222221122122111121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212221"
-- "\"%s\", waitForFunction=%d, param1=%p, param2=%p param3=%p, param4=%p\n"
-- "1211111212221212112222211222111121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212221"
-- "IOAV[%d] %s<0x%llx>::%s: \"%s\", waitForFunction=%d, param1=%p, param2=%p param3=%p, param4=%p\n"
-- "callPlatformFunction"
-
-```
-
->  `com.apple.driver.usb.AppleUSBXHCI`
-
-```diff
-
--1402.0.7.0.0
-+1402.0.10.0.1
-   __TEXT.__const: 0xb4
--  __TEXT.__cstring: 0x5dda
-+  __TEXT.__cstring: 0x5de7
-   __TEXT.__os_log: 0x5da8
--  __TEXT_EXEC.__text: 0x57848
-+  __TEXT_EXEC.__text: 0x5789c
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0xc8
-   __DATA.__common: 0x428
-
-   __DATA_CONST.__const: 0x5e10
-   __DATA_CONST.__kalloc_type: 0x8c0
-   __DATA_CONST.__kalloc_var: 0xa0
--  Functions: 900
-+  Functions: 899
-   Symbols:   0
-   CStrings:  908
- 
-CStrings:
-+ "hardwareExceptionThreadCall_block_invoke"
-- "didTerminateThreadCallGated"
-
-```
-
->  `com.apple.driver.ApplePTD`
-
-```diff
-
--21.0.0.0.0
--  __TEXT.__cstring: 0x1a2e
-+22.0.0.0.0
-+  __TEXT.__cstring: 0x1a77
-   __TEXT.__const: 0x20
--  __TEXT_EXEC.__text: 0x9074
-+  __TEXT_EXEC.__text: 0x9254
+-7.37.0.0.0
++7.40.1.0.0
+   __TEXT.__const: 0xf8
+-  __TEXT.__cstring: 0x137b
++  __TEXT.__cstring: 0x137d
+   __TEXT_EXEC.__text: 0x84b0
    __TEXT_EXEC.__auth_stubs: 0x0
    __DATA.__data: 0xc4
-   __DATA.__common: 0xf0
-
-   __DATA_CONST.__mod_term_func: 0x18
-   __DATA_CONST.__const: 0xf68
-   __DATA_CONST.__kalloc_type: 0x100
--  __DATA_CONST.__kalloc_var: 0x190
-+  __DATA_CONST.__kalloc_var: 0x1e0
-   Functions: 225
-   Symbols:   0
--  CStrings:  192
-+  CStrings:  196
- 
 CStrings:
-+ "%s: cannot alloc array\n"
-+ "%s: cannot alloc register lock\n"
-+ "1"
-+ "1211111212221212111111111111122222222111112112"
-+ "site.IOLock *"
-- "121111121222121211111111111112222222211111212"
++ "7.40.1"
+- "7.37"
 
 ```
 
->  `com.apple.driver.ApplePhotonDetector`
+>  `com.apple.driver.AppleOLYHAL`
 
 ```diff
 
--9.6.1.0.0
-+9.7.0.0.0
-   __TEXT.__cstring: 0x1d7
-   __TEXT.__os_log: 0x56e
--  __TEXT_EXEC.__text: 0x27c8
-+  __TEXT_EXEC.__text: 0x27d0
+-337.0.0.0.0
++338.0.0.0.0
+   __TEXT.__const: 0x7a8
+   __TEXT.__cstring: 0x473a
+-  __TEXT_EXEC.__text: 0x1ca58
++  __TEXT_EXEC.__text: 0x1cbc4
    __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0xc8
-   __DATA.__common: 0x60
+   __DATA.__data: 0x18c
+   __DATA.__common: 0x170
 
-```
-
->  `com.apple.driver.AppleSARService`
-
-```diff
-
--1175.0.0.0.0
-+1179.0.0.0.0
-   __TEXT.__const: 0x750
-   __TEXT.__cstring: 0x9b40
-   __TEXT.__os_log: 0xb8af
-   __TEXT.__ustring: 0x8
--  __TEXT_EXEC.__text: 0x53e78
-+  __TEXT_EXEC.__text: 0x53e80
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0xd8
-   __DATA.__common: 0x5f0
+   __DATA_CONST.__got: 0xe8
+   __DATA_CONST.__mod_init_func: 0x38
+   __DATA_CONST.__mod_term_func: 0x38
+-  __DATA_CONST.__const: 0x1378
++  __DATA_CONST.__const: 0x13b8
+   __DATA_CONST.__kalloc_type: 0x640
+-  Functions: 549
++  Functions: 552
+   Symbols:   0
+   CStrings:  498
+ 
 
 ```
 
@@ -465,201 +403,32 @@ CStrings:
 
 ```
 
->  `com.apple.iokit.IOHIDFamily`
+>  `com.apple.driver.AppleT8110DART`
 
 ```diff
 
--2102.0.1.0.0
-+2102.0.6.0.0
-   __TEXT.__cstring: 0x24b3
-   __TEXT.__const: 0x6c8
-   __TEXT.__os_log: 0x2a2f
--  __TEXT_EXEC.__text: 0x629a0
-+  __TEXT_EXEC.__text: 0x629ac
+-452.0.4.0.0
++452.0.6.0.0
+   __TEXT.__const: 0x60
+-  __TEXT.__cstring: 0x27b4
+-  __TEXT_EXEC.__text: 0xd4a8
++  __TEXT.__cstring: 0x2774
++  __TEXT_EXEC.__text: 0xd460
    __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0xbcc
-   __DATA.__common: 0x748
+   __DATA.__data: 0xc8
+   __DATA.__common: 0x38
 
-```
-
->  `com.apple.driver.AppleAuthCP`
-
-```diff
-
--157.0.0.502.1
-+159.0.0.0.0
-   __TEXT.__const: 0x4c
-   __TEXT.__cstring: 0x2877
-   __TEXT.__os_log: 0x12c7
--  __TEXT_EXEC.__text: 0x18a1c
-+  __TEXT_EXEC.__text: 0x18cec
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0x188
-   __DATA.__common: 0x218
-
-   __DATA_CONST.__auth_ptr: 0x18
-   __DATA_CONST.__mod_init_func: 0x48
-   __DATA_CONST.__mod_term_func: 0x48
--  __DATA_CONST.__const: 0x5840
-+  __DATA_CONST.__const: 0x5860
-   __DATA_CONST.__kalloc_type: 0x6c0
--  Functions: 471
-+  Functions: 472
+   __DATA_CONST.__const: 0x758
+   __DATA_CONST.__kalloc_type: 0x2c0
+   __DATA_CONST.__kalloc_var: 0x410
+-  Functions: 149
++  Functions: 148
    Symbols:   0
-   CStrings:  407
- 
-
-```
-
->  `com.apple.driver.AppleHPM`
-
-```diff
-
--570.0.3.0.0
--  __TEXT.__cstring: 0x1b5eb
-+570.0.4.0.0
-+  __TEXT.__cstring: 0x1b600
-   __TEXT.__const: 0xc0
-   __TEXT.__os_log: 0x1e8
--  __TEXT_EXEC.__text: 0x5cef8
-+  __TEXT_EXEC.__text: 0x5d3f4
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0x6d0
-   __DATA.__common: 0x518
-
-   __DATA_CONST.__mod_term_func: 0xf8
-   __DATA_CONST.__const: 0x11290
-   __DATA_CONST.__kalloc_type: 0xb00
--  Functions: 1399
-+  Functions: 1403
-   Symbols:   0
--  CStrings:  1562
-+  CStrings:  1564
+-  CStrings:  217
++  CStrings:  216
  
 CStrings:
-+ "1211111212221212111121121222221211211111112"
-+ "Boot Flags"
-+ "FW Version"
-- "12111112122212121111211212222212112111111122"
-
-```
-
->  `com.apple.driver.AppleIDV`
-
-```diff
-
--7.37.0.0.0
-+7.40.1.0.0
-   __TEXT.__const: 0xf8
--  __TEXT.__cstring: 0x137b
-+  __TEXT.__cstring: 0x137d
-   __TEXT_EXEC.__text: 0x84b0
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0xc4
-CStrings:
-+ "7.40.1"
-- "7.37"
-
-```
-
->  `com.apple.driver.AppleSEPManager`
-
-```diff
-
--841.0.0.0.0
--  __TEXT.__cstring: 0xfaf3
-+842.0.0.0.0
-+  __TEXT.__cstring: 0xff2b
-   __TEXT.__const: 0x7094
--  __TEXT_EXEC.__text: 0x4692c
-+  __TEXT_EXEC.__text: 0x47238
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0x168
-   __DATA.__common: 0xc48
-
-   __DATA_CONST.__auth_ptr: 0x18
-   __DATA_CONST.__mod_init_func: 0xc0
-   __DATA_CONST.__mod_term_func: 0xc0
--  __DATA_CONST.__const: 0x9708
--  __DATA_CONST.__kalloc_type: 0xdc0
-+  __DATA_CONST.__const: 0x9728
-+  __DATA_CONST.__kalloc_type: 0xe00
-   __DATA_CONST.__kalloc_var: 0x50
--  Functions: 2319
-+  Functions: 2341
-   Symbols:   0
--  CStrings:  1368
-+  CStrings:  1393
- 
-CStrings:
-+ "\"Number of xART disable log entries unexpected too small at %lu\" @%s:%d"
-+ "\"xART shutdown failed: 0x%lx, acks %s\" @%s:%d"
-+ "%c%c%c%c:%c"
-+ "%s: %c%c%c%c acknowledges xART disable\n"
-+ "%s: %c%c%c%c registered for xART disable\n"
-+ "%s: Unexpected duplicate xART disable register for %c%c%c%c\n"
-+ "%s: Unexpected xART disable ack from unregistered %c%c%c%c\n"
-+ "%s: Unexpected xART duplicate disable ack from %c%c%c%c\n"
-+ "%s: xART disable begin\n"
-+ "/Library/Caches/com.apple.xbs/Sources/AppleSEPManager/xART/DisableLog.cpp"
-+ "12111211111121111111222121121"
-+ "DisableLog.cpp"
-+ "_disable_log != nullptr"
-+ "_num_entries <= sizeof(_entries) / sizeof(_entries[0])"
-+ "buf != nullptr"
-+ "kIOReturnSuccess == getCommandGate()->runActionBlock(^IOReturn { REQUIRE(_disable_log != nullptr); _disable_log->format_acks(buf, len); return kIOReturnSuccess; })"
-+ "len != 0"
-+ "len >= ACK_ENTRY_LEN"
-+ "len >= get_max_ack_len()"
-+ "nullptr != in_msg_p"
-+ "site.T"
-+ "void AppleSEPXART::format_acks(char *, size_t)"
-+ "void AppleSEPXART::format_acks(char *, size_t)_block_invoke"
-+ "void XARTDisableLog::format_acks(char *, size_t)"
-+ "void XARTDisableLog::log_disable_acknowledge(uint32_t)"
-+ "void XARTDisableLog::log_disable_begin()"
-+ "void XARTDisableLog::register_disable(uint32_t)"
-- "1211121111112111111122212112"
-- "kIOReturnSuccess == xartSEPSlaveEP()->xart_shtdwn_vol_unmount()"
-
-```
-
->  `com.apple.filesystems.lifs`
-
-```diff
-
--445.0.0.0.0
--  __TEXT.__os_log: 0x1278
--  __TEXT.__cstring: 0x21bd
-+465.0.0.0.1
-+  __TEXT.__os_log: 0x129b
-+  __TEXT.__cstring: 0x21fb
-   __TEXT.__const: 0x2d0
--  __TEXT_EXEC.__text: 0x1a8b4
-+  __TEXT_EXEC.__text: 0x1ab94
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0x5d0
-   __DATA.__common: 0x138
--  __DATA.__bss: 0x50
-+  __DATA.__bss: 0x90
-   __DATA_CONST.__auth_got: 0x7c0
-   __DATA_CONST.__got: 0x88
-   __DATA_CONST.__mod_init_func: 0x18
-   __DATA_CONST.__mod_term_func: 0x18
-   __DATA_CONST.__const: 0x16a0
--  __DATA_CONST.__kalloc_type: 0xb40
--  Functions: 400
-+  __DATA_CONST.__kalloc_type: 0xbc0
-+  Functions: 404
-   Symbols:   0
--  CStrings:  394
-+  CStrings:  396
- 
-CStrings:
-+ "11111222222222"
-+ "lifs_setfsattr_request_async"
-+ "site.lifs_setfsattr_context_t"
-- "11111222222"
+- "\"%s requires the SPTM and is mutually exclusive with %s\" @%s:%d"
 
 ```
 
@@ -823,61 +592,483 @@ CStrings:
 
 ```
 
->  `com.apple.driver.AppleH16CameraInterface`
+>  `com.apple.driver.AppleAuthCP`
 
 ```diff
 
--3.33.50.0.0
--  __TEXT.__const: 0xa078
--  __TEXT.__cstring: 0x19332
--  __TEXT.__os_log: 0x1543b
--  __TEXT_EXEC.__text: 0x9b574
-+3.39.2.0.0
-+  __TEXT.__const: 0xa058
-+  __TEXT.__cstring: 0x19384
-+  __TEXT.__os_log: 0x15451
-+  __TEXT_EXEC.__text: 0x9b894
+-157.0.0.502.1
++159.0.0.0.0
+   __TEXT.__const: 0x4c
+   __TEXT.__cstring: 0x2877
+   __TEXT.__os_log: 0x12c7
+-  __TEXT_EXEC.__text: 0x18a1c
++  __TEXT_EXEC.__text: 0x18cec
    __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0x2a0
-   __DATA.__common: 0x4a0
+   __DATA.__data: 0x188
+   __DATA.__common: 0x218
 
-   __DATA_CONST.__auth_ptr: 0x10
-   __DATA_CONST.__mod_init_func: 0x90
-   __DATA_CONST.__mod_term_func: 0x50
--  __DATA_CONST.__const: 0xad78
-+  __DATA_CONST.__const: 0xa0e8
-   __DATA_CONST.__kalloc_type: 0x1300
-   __DATA_CONST.__kalloc_var: 0xd70
--  Functions: 1899
-+  Functions: 1907
+   __DATA_CONST.__auth_ptr: 0x18
+   __DATA_CONST.__mod_init_func: 0x48
+   __DATA_CONST.__mod_term_func: 0x48
+-  __DATA_CONST.__const: 0x5840
++  __DATA_CONST.__const: 0x5860
+   __DATA_CONST.__kalloc_type: 0x6c0
+-  Functions: 471
++  Functions: 472
    Symbols:   0
--  CStrings:  3273
-+  CStrings:  3276
+   CStrings:  407
  
-CStrings:
-+ "AppleH16CamIn:%s - camCalLoadOptions : %d\n"
-+ "AppleH16CamIn:%s - camCalLoadOptions : %d\n"
-+ "ISP_SavageAuth_gated"
-+ "PearlCamFrameReceived - frameCount=0x%08X, timeStamp=0x%016llX, currentISPTime=0x%016llX, currentSysTime=0x%016llX, rawAddr=%#llx, metaAddr=%#llx, totDescriptors=%u\n"
-+ "camCalLoadOptions"
-- "AppleH16PearlCam:%s - DART Addresses - raw:%#llx meta:%#llx ref:%#llx\n"
-- "PearlCamFrameReceived - frameCount=0x%08X, timeStamp=0x%016llX, currentISPTime=0x%016llX, currentSysTime=0x%016llX\n"
 
 ```
 
->  `com.apple.driver.AppleH16PhotonDetector`
+>  `com.apple.driver.ApplePhotonDetector`
 
 ```diff
 
--3.33.50.0.0
-+3.39.2.0.0
-   __TEXT.__cstring: 0x1fd
-   __TEXT.__os_log: 0x606
--  __TEXT_EXEC.__text: 0x2c90
-+  __TEXT_EXEC.__text: 0x2c98
+-9.6.1.0.0
++9.7.0.0.0
+   __TEXT.__cstring: 0x1d7
+   __TEXT.__os_log: 0x56e
+-  __TEXT_EXEC.__text: 0x27c8
++  __TEXT_EXEC.__text: 0x27d0
    __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0xd8
+   __DATA.__data: 0xc8
    __DATA.__common: 0x60
+
+```
+
+>  `com.apple.driver.AppleProResHW`
+
+```diff
+
+-400.78.0.0.0
+-  __TEXT.__const: 0x1b40
+-  __TEXT.__os_log: 0x7409
+-  __TEXT.__cstring: 0xdcc
+-  __TEXT_EXEC.__text: 0x189ec
++400.81.0.0.0
++  __TEXT.__const: 0x1d70
++  __TEXT.__os_log: 0x7687
++  __TEXT.__cstring: 0xe1f
++  __TEXT_EXEC.__text: 0x225a0
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0x358
+   __DATA.__common: 0x70
+-  __DATA.__bss: 0xea0
++  __DATA.__bss: 0x2bb0
+   __DATA_CONST.__auth_got: 0x278
+   __DATA_CONST.__got: 0x58
+   __DATA_CONST.__mod_init_func: 0x10
+   __DATA_CONST.__mod_term_func: 0x10
+-  __DATA_CONST.__const: 0x5ac8
++  __DATA_CONST.__const: 0x78c0
+   __DATA_CONST.__kalloc_type: 0x380
+   __DATA_CONST.__kalloc_var: 0xa0
+-  Functions: 425
++  Functions: 923
+   Symbols:   0
+-  CStrings:  443
++  CStrings:  450
+ 
+CStrings:
++ "1211111212221212112211112111111211111121111112112222111122222111121111112111111211111121111111111111111111111121121121121111111111111111111111111111111111111111111111111111111111111111122222222222222222111111122221111111111112122"
++ "AppleProResHW (0x%x): %s(): Setting SCODEC_PS(scodec_{sys, ced, ssw}) tunables for DevID %d\n"
++ "AppleProResHW (0x%x): %s(): m_RegisterMemMapScodecPS[%d].pIOMemoryMap[%d] = (%p): v addr = %p ph adr = %p \n"
++ "ERROR AppleProResHW: %d: %s(): AppleProRes ERROR: cannot map registers memory object %d\n"
++ "ERROR AppleProResHW: %d: %s(): AppleProRes ERROR: cannot retrieve or map registers memory object for scodec_ps\n"
++ "ERROR AppleProResHW: %d: %s(): AppleProRes ERROR: cannot retrieve registers memory object %d\n"
++ "MapScodecPSRegistersMemoryIndex"
++ "SetScodecPSTunablesByDevID"
+- "1211111212221212112211112111111211111121111112112222111122222111121111112111111211111121111111111111111111111121121121121111111111111111111111111111111111111111122222222222222222111111122221111111111112122"
+
+```
+
+>  `com.apple.driver.AppleSmartBatteryManagerEmbedded`
+
+```diff
+
+-1739.0.0.0.0
+-  __TEXT.__cstring: 0x447a
++1740.0.6.0.1
++  __TEXT.__cstring: 0x4514
+   __TEXT.__const: 0x15f0
+-  __TEXT.__os_log: 0x2616
+-  __TEXT_EXEC.__text: 0x228ec
++  __TEXT.__os_log: 0x270b
++  __TEXT_EXEC.__text: 0x22bf0
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0x208
+   __DATA.__common: 0x150
+
+   __DATA_CONST.__mod_term_func: 0x40
+   __DATA_CONST.__const: 0x2dc0
+   __DATA_CONST.__kalloc_type: 0x340
+-  Functions: 385
++  Functions: 386
+   Symbols:   0
+-  CStrings:  911
++  CStrings:  923
+ 
+CStrings:
++ "AppleBatteryAuth: Force publishing of data due to boot arg\n"
++ "carrier-max-limit"
++ "carrier-min-limit"
++ "carrier-mode"
++ "failed to enable Carrier Mode(%d) %x=%s\n"
++ "failed to set Carrier Mode lower limit(%d) %x=%s\n"
++ "failed to set Carrier Mode lower voltage(%d) %x=%s\n"
++ "failed to set Carrier Mode upper limit(%d) %x=%s\n"
++ "failed to set Carrier Mode upper voltage(%d) %x=%s\n"
++ "hagrid"
++ "max-charge-voltage"
++ "min-charge-voltage"
+
+```
+
+>  `com.apple.iokit.IOHIDFamily`
+
+```diff
+
+-2102.0.1.0.0
++2102.0.6.0.0
+   __TEXT.__cstring: 0x24b3
+   __TEXT.__const: 0x6c8
+   __TEXT.__os_log: 0x2a2f
+-  __TEXT_EXEC.__text: 0x629a0
++  __TEXT_EXEC.__text: 0x629ac
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0xbcc
+   __DATA.__common: 0x748
+
+```
+
+>  `com.apple.driver.AppleHPM`
+
+```diff
+
+-570.0.3.0.0
+-  __TEXT.__cstring: 0x1b5eb
++570.0.4.0.0
++  __TEXT.__cstring: 0x1b600
+   __TEXT.__const: 0xc0
+   __TEXT.__os_log: 0x1e8
+-  __TEXT_EXEC.__text: 0x5cef8
++  __TEXT_EXEC.__text: 0x5d3f4
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0x6d0
+   __DATA.__common: 0x518
+
+   __DATA_CONST.__mod_term_func: 0xf8
+   __DATA_CONST.__const: 0x11290
+   __DATA_CONST.__kalloc_type: 0xb00
+-  Functions: 1399
++  Functions: 1403
+   Symbols:   0
+-  CStrings:  1562
++  CStrings:  1564
+ 
+CStrings:
++ "1211111212221212111121121222221211211111112"
++ "Boot Flags"
++ "FW Version"
+- "12111112122212121111211212222212112111111122"
+
+```
+
+>  `com.apple.driver.AppleJPEGDriver`
+
+```diff
+
+-7.1.4.0.0
+-  __TEXT.__os_log: 0xc20c
+-  __TEXT.__cstring: 0x3545
++7.1.5.0.0
++  __TEXT.__os_log: 0xc678
++  __TEXT.__cstring: 0x3556
+   __TEXT.__const: 0x4534
+-  __TEXT_EXEC.__text: 0x343bc
++  __TEXT_EXEC.__text: 0x3470c
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0x8b08
+   __DATA.__common: 0x2b8
+   __DATA.__bss: 0x1
+-  __DATA_CONST.__auth_got: 0x348
++  __DATA_CONST.__auth_got: 0x350
+   __DATA_CONST.__got: 0x98
+   __DATA_CONST.__mod_init_func: 0x88
+   __DATA_CONST.__mod_term_func: 0x88
+   __DATA_CONST.__const: 0x2610
+-  __DATA_CONST.__kalloc_type: 0xa40
++  __DATA_CONST.__kalloc_type: 0xb80
+   Functions: 1165
+   Symbols:   0
+-  CStrings:  518
++  CStrings:  525
+ 
+CStrings:
++ "AppleJPEGDriver: %s : codec=%d, Compressed jpeg size %d > output buffer size %d, input [%dw x% dh], encoding quality setting %u\n"
++ "AppleJPEGDriver: %s(): TIMEOUT %dms"
++ "AppleJPEGDriver: %s(): unknown %dms - status: 0x%x"
++ "AppleJPEGDriver: %s, ERROR: failed to wait request successfully return 0x%x !\n"
++ "AppleJPEGDriver: ** %s : failed, returns %x\n"
++ "AppleJPEGDriver: ** %s : failed, returns %x\n\n"
++ "sleepCommandGate"
+
+```
+
+>  `com.apple.driver.ApplePPMCPMS`
+
+```diff
+
+-931.0.7.0.1
++931.0.9.0.0
+   __TEXT.__const: 0xe80
+   __TEXT.__cstring: 0xd087
+-  __TEXT.__os_log: 0x1fad
+-  __TEXT_EXEC.__text: 0x45fe0
++  __TEXT.__os_log: 0x2005
++  __TEXT_EXEC.__text: 0x460d0
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0x156
+   __DATA.__common: 0x4a8
+
+   __DATA_CONST.__kalloc_type: 0x900
+   Functions: 1651
+   Symbols:   0
+-  CStrings:  1368
++  CStrings:  1369
+ 
+CStrings:
++ "%s::%s:Invalid Data: Voltage should be > 0\n"
+
+```
+
+>  `com.apple.driver.AppleSEPManager`
+
+```diff
+
+-841.0.0.0.0
+-  __TEXT.__cstring: 0xfaf3
++842.0.0.0.0
++  __TEXT.__cstring: 0xff2b
+   __TEXT.__const: 0x7094
+-  __TEXT_EXEC.__text: 0x4692c
++  __TEXT_EXEC.__text: 0x47238
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0x168
+   __DATA.__common: 0xc48
+
+   __DATA_CONST.__auth_ptr: 0x18
+   __DATA_CONST.__mod_init_func: 0xc0
+   __DATA_CONST.__mod_term_func: 0xc0
+-  __DATA_CONST.__const: 0x9708
+-  __DATA_CONST.__kalloc_type: 0xdc0
++  __DATA_CONST.__const: 0x9728
++  __DATA_CONST.__kalloc_type: 0xe00
+   __DATA_CONST.__kalloc_var: 0x50
+-  Functions: 2319
++  Functions: 2341
+   Symbols:   0
+-  CStrings:  1368
++  CStrings:  1393
+ 
+CStrings:
++ "\"Number of xART disable log entries unexpected too small at %lu\" @%s:%d"
++ "\"xART shutdown failed: 0x%lx, acks %s\" @%s:%d"
++ "%c%c%c%c:%c"
++ "%s: %c%c%c%c acknowledges xART disable\n"
++ "%s: %c%c%c%c registered for xART disable\n"
++ "%s: Unexpected duplicate xART disable register for %c%c%c%c\n"
++ "%s: Unexpected xART disable ack from unregistered %c%c%c%c\n"
++ "%s: Unexpected xART duplicate disable ack from %c%c%c%c\n"
++ "%s: xART disable begin\n"
++ "/Library/Caches/com.apple.xbs/Sources/AppleSEPManager/xART/DisableLog.cpp"
++ "12111211111121111111222121121"
++ "DisableLog.cpp"
++ "_disable_log != nullptr"
++ "_num_entries <= sizeof(_entries) / sizeof(_entries[0])"
++ "buf != nullptr"
++ "kIOReturnSuccess == getCommandGate()->runActionBlock(^IOReturn { REQUIRE(_disable_log != nullptr); _disable_log->format_acks(buf, len); return kIOReturnSuccess; })"
++ "len != 0"
++ "len >= ACK_ENTRY_LEN"
++ "len >= get_max_ack_len()"
++ "nullptr != in_msg_p"
++ "site.T"
++ "void AppleSEPXART::format_acks(char *, size_t)"
++ "void AppleSEPXART::format_acks(char *, size_t)_block_invoke"
++ "void XARTDisableLog::format_acks(char *, size_t)"
++ "void XARTDisableLog::log_disable_acknowledge(uint32_t)"
++ "void XARTDisableLog::log_disable_begin()"
++ "void XARTDisableLog::register_disable(uint32_t)"
+- "1211121111112111111122212112"
+- "kIOReturnSuccess == xartSEPSlaveEP()->xart_shtdwn_vol_unmount()"
+
+```
+
+>  `com.apple.iokit.IODisplayPortFamily`
+
+```diff
+
+-730.0.1.0.0
+-  __TEXT.__cstring: 0x7c3b
++730.0.4.0.0
++  __TEXT.__cstring: 0x7c47
+   __TEXT.__os_log: 0x9571
+   __TEXT.__const: 0x310
+-  __TEXT_EXEC.__text: 0x5cfe4
++  __TEXT_EXEC.__text: 0x5d094
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0xc8
+   __DATA.__common: 0x550
+
+   __DATA_CONST.__kalloc_var: 0x280
+   Functions: 1961
+   Symbols:   0
+-  CStrings:  1525
++  CStrings:  1526
+ 
+CStrings:
++ "ProductName"
+
+```
+
+>  `com.apple.iokit.IOSkywalkFamily`
+
+```diff
+
+-508.0.3.502.1
++508.0.5.0.0
+   __TEXT.__cstring: 0x1ade
+   __TEXT.__const: 0xd40
+-  __TEXT_EXEC.__text: 0x35e10
++  __TEXT_EXEC.__text: 0x35e38
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0xe8
+   __DATA.__common: 0x6b0
+
+```
+
+>  `com.apple.driver.AppleAVD`
+
+```diff
+
+-796.1.0.0.0
++798.1.0.0.0
+   __TEXT.__const: 0x86e6e
+-  __TEXT.__cstring: 0x5156
+-  __TEXT.__os_log: 0x11944
+-  __TEXT_EXEC.__text: 0x41274
++  __TEXT.__cstring: 0x515e
++  __TEXT.__os_log: 0x11ed0
++  __TEXT_EXEC.__text: 0x417b8
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0x12dc
+   __DATA.__common: 0x78
+   __DATA.__bss: 0x14
+-  __DATA_CONST.__auth_got: 0x388
+-  __DATA_CONST.__got: 0xd8
++  __DATA_CONST.__auth_got: 0x380
++  __DATA_CONST.__got: 0xd0
+   __DATA_CONST.__auth_ptr: 0x8
+   __DATA_CONST.__mod_init_func: 0x10
+   __DATA_CONST.__mod_term_func: 0x10
+
+   __DATA_CONST.__kalloc_type: 0x2400
+   Functions: 1339
+   Symbols:   0
+-  CStrings:  1420
++  CStrings:  1422
+ 
+CStrings:
++ "121111121222121211111111111111111111111122222222222222222222222222222222222222222222222222211221221222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222221212122122222222222222222221221222222222222222222222212222211212212222222222222222222221111211211211222222222222212212212222222222222222222222222222222222222222222222222222222222222222222221221221222222222222222222222222222222222222222222222222221111"
++ "AppleAVD: %s(): Invoking destroyDecoder for client %4d.%d"
++ "AppleAVD: %s(): illegal LK usage: %x"
++ "AppleAVD: ERROR: %s(): No numWorks specified! initVPIdx = %d, mult_vp_cnt = %u\n"
++ "AppleAVD: ERROR: %s(): Unsupported numWorks = %u > %u\n"
++ "AppleAVD: ERROR: %s(): numWorks[%u] (%u) exceeds maximum number of work units per VP (%u)\n"
++ "withTask"
+- "1211111212221212111111111111111111111111222222222222222222222222222222222222222222222222222112212212222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222212121221222222222222222222212212222222222222222222222122222112122122222222222222222222211112112112112212222222222212212212222222222222222222222222222222222222222222222222222222222222222222221221221222222222222222222222222222222222222222222222222221111"
+- "AppleAVD: %s reached max try count for client %d"
+- "AppleAVD: %s(): ERROR! FrameNum (%d) < 0"
+- "AppleAVD: ERROR: %s(): No numWorks specified"
+- "AppleAVD: Invoking destroyDecoder. %s reached try count %d for client %4d.%d"
+
+```
+
+>  `com.apple.driver.AppleMobileFileIntegrity`
+
+```diff
+
+-938.0.23.0.0
+-  __TEXT.__cstring: 0x9a86
++938.0.27.0.1
++  __TEXT.__cstring: 0x9aae
+   __TEXT.__const: 0x14b0
+   __TEXT.__os_log: 0x233
+-  __TEXT_EXEC.__text: 0x25f4c
++  __TEXT_EXEC.__text: 0x25fec
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0x412
+   __DATA.__common: 0xb0
+   __DATA.__bss: 0x79
+-  __DATA_CONST.__auth_got: 0x7b8
++  __DATA_CONST.__auth_got: 0x7c0
+   __DATA_CONST.__got: 0x150
+   __DATA_CONST.__auth_ptr: 0x10
+   __DATA_CONST.__mod_init_func: 0x18
+
+   __DATA_CONST.__const: 0x3750
+   __DATA_CONST.__kalloc_type: 0xec0
+   __DATA_CONST.__kalloc_var: 0x1310
+-  Functions: 791
++  Functions: 792
+   Symbols:   0
+-  CStrings:  976
++  CStrings:  977
+ 
+CStrings:
++ "20:35:18"
++ "Jul 30 2024"
++ "platform-identifier-for-current-process"
+- "21:19:16"
+- "Jul 15 2024"
+
+```
+
+>  `com.apple.driver.DCPDPFamilyProxy`
+
+```diff
+
+-200.0.10.0.0
++200.0.13.0.0
+   __TEXT.__const: 0x90
+-  __TEXT.__cstring: 0x410
+-  __TEXT.__os_log: 0x232
+-  __TEXT_EXEC.__text: 0x4610
++  __TEXT.__cstring: 0x3b8
++  __TEXT.__os_log: 0x118
++  __TEXT_EXEC.__text: 0x401c
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0xc8
+   __DATA.__common: 0x100
+
+   __DATA_CONST.__got: 0x80
+   __DATA_CONST.__mod_init_func: 0x30
+   __DATA_CONST.__mod_term_func: 0x30
+-  __DATA_CONST.__const: 0x28c0
++  __DATA_CONST.__const: 0x28d8
+   __DATA_CONST.__kalloc_type: 0x180
+   Functions: 193
+   Symbols:   0
+-  CStrings:  35
++  CStrings:  32
+ 
+CStrings:
++ "121111121222121211222221122122111121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212221"
+- "\"%s\", waitForFunction=%d, param1=%p, param2=%p param3=%p, param4=%p\n"
+- "1211111212221212112222211222111121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212221"
+- "IOAV[%d] %s<0x%llx>::%s: \"%s\", waitForFunction=%d, param1=%p, param2=%p param3=%p, param4=%p\n"
+- "callPlatformFunction"
 
 ```
 
@@ -984,223 +1175,36 @@ CStrings:
 
 ```
 
->  `com.apple.driver.AppleMobileFileIntegrity`
+>  `com.apple.security.sandbox`
 
 ```diff
 
--938.0.23.0.0
--  __TEXT.__cstring: 0x9a86
-+938.0.27.0.1
-+  __TEXT.__cstring: 0x9aae
-   __TEXT.__const: 0x14b0
-   __TEXT.__os_log: 0x233
--  __TEXT_EXEC.__text: 0x25f4c
-+  __TEXT_EXEC.__text: 0x25fec
+-2401.0.56.0.0
+-  __TEXT.__const: 0x18cad9
+-  __TEXT.__cstring: 0x6ec0
++2401.0.60.0.0
++  __TEXT.__const: 0x1893f9
++  __TEXT.__cstring: 0x6edf
+   __TEXT.__os_log: 0x2029
+-  __TEXT_EXEC.__text: 0x30438
++  __TEXT_EXEC.__text: 0x30494
    __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0x412
-   __DATA.__common: 0xb0
-   __DATA.__bss: 0x79
--  __DATA_CONST.__auth_got: 0x7b8
-+  __DATA_CONST.__auth_got: 0x7c0
-   __DATA_CONST.__got: 0x150
-   __DATA_CONST.__auth_ptr: 0x10
-   __DATA_CONST.__mod_init_func: 0x18
-
-   __DATA_CONST.__const: 0x3750
-   __DATA_CONST.__kalloc_type: 0xec0
-   __DATA_CONST.__kalloc_var: 0x1310
--  Functions: 791
-+  Functions: 792
+   __DATA.__data: 0x1e0
+   __DATA.__bss: 0x144c8
+-  __DATA_CONST.__auth_got: 0x830
++  __DATA_CONST.__auth_got: 0x838
+   __DATA_CONST.__got: 0xc8
+   __DATA_CONST.__const: 0x3640
+   __DATA_CONST.__kalloc_var: 0x550
+   __DATA_CONST.__kalloc_type: 0xa80
+-  Functions: 647
++  Functions: 648
    Symbols:   0
--  CStrings:  976
-+  CStrings:  977
+-  CStrings:  1294
++  CStrings:  1295
  
 CStrings:
-+ "20:35:18"
-+ "Jul 30 2024"
-+ "platform-identifier-for-current-process"
-- "21:19:16"
-- "Jul 15 2024"
-
-```
-
->  `com.apple.driver.ApplePMGR`
-
-```diff
-
--1555.0.22.0.0
-+1555.0.27.0.0
-   __TEXT.__const: 0x248
-   __TEXT.__cstring: 0xe8ef
-   __TEXT_EXEC.__text: 0x5299c
-
-   __DATA_CONST.__got: 0xd0
-   __DATA_CONST.__mod_init_func: 0x18
-   __DATA_CONST.__mod_term_func: 0x18
--  __DATA_CONST.__const: 0x7788
-+  __DATA_CONST.__const: 0x7790
-   __DATA_CONST.__kalloc_type: 0x680
-   __DATA_CONST.__kalloc_var: 0xe10
-   Functions: 2165
-
-```
-
->  `com.apple.driver.AppleSmartBatteryManagerEmbedded`
-
-```diff
-
--1739.0.0.0.0
--  __TEXT.__cstring: 0x447a
-+1740.0.6.0.1
-+  __TEXT.__cstring: 0x4514
-   __TEXT.__const: 0x15f0
--  __TEXT.__os_log: 0x2616
--  __TEXT_EXEC.__text: 0x228ec
-+  __TEXT.__os_log: 0x270b
-+  __TEXT_EXEC.__text: 0x22bf0
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0x208
-   __DATA.__common: 0x150
-
-   __DATA_CONST.__mod_term_func: 0x40
-   __DATA_CONST.__const: 0x2dc0
-   __DATA_CONST.__kalloc_type: 0x340
--  Functions: 385
-+  Functions: 386
-   Symbols:   0
--  CStrings:  911
-+  CStrings:  923
- 
-CStrings:
-+ "AppleBatteryAuth: Force publishing of data due to boot arg\n"
-+ "carrier-max-limit"
-+ "carrier-min-limit"
-+ "carrier-mode"
-+ "failed to enable Carrier Mode(%d) %x=%s\n"
-+ "failed to set Carrier Mode lower limit(%d) %x=%s\n"
-+ "failed to set Carrier Mode lower voltage(%d) %x=%s\n"
-+ "failed to set Carrier Mode upper limit(%d) %x=%s\n"
-+ "failed to set Carrier Mode upper voltage(%d) %x=%s\n"
-+ "hagrid"
-+ "max-charge-voltage"
-+ "min-charge-voltage"
-
-```
-
->  `com.apple.driver.AppleT8110DART`
-
-```diff
-
--452.0.4.0.0
-+452.0.6.0.0
-   __TEXT.__const: 0x60
--  __TEXT.__cstring: 0x27b4
--  __TEXT_EXEC.__text: 0xd4a8
-+  __TEXT.__cstring: 0x2774
-+  __TEXT_EXEC.__text: 0xd460
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0xc8
-   __DATA.__common: 0x38
-
-   __DATA_CONST.__const: 0x758
-   __DATA_CONST.__kalloc_type: 0x2c0
-   __DATA_CONST.__kalloc_var: 0x410
--  Functions: 149
-+  Functions: 148
-   Symbols:   0
--  CStrings:  217
-+  CStrings:  216
- 
-CStrings:
-- "\"%s requires the SPTM and is mutually exclusive with %s\" @%s:%d"
-
-```
-
->  `com.apple.driver.AppleAVD`
-
-```diff
-
--796.1.0.0.0
-+798.1.0.0.0
-   __TEXT.__const: 0x86e6e
--  __TEXT.__cstring: 0x5156
--  __TEXT.__os_log: 0x11944
--  __TEXT_EXEC.__text: 0x41274
-+  __TEXT.__cstring: 0x515e
-+  __TEXT.__os_log: 0x11ed0
-+  __TEXT_EXEC.__text: 0x417b8
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0x12dc
-   __DATA.__common: 0x78
-   __DATA.__bss: 0x14
--  __DATA_CONST.__auth_got: 0x388
--  __DATA_CONST.__got: 0xd8
-+  __DATA_CONST.__auth_got: 0x380
-+  __DATA_CONST.__got: 0xd0
-   __DATA_CONST.__auth_ptr: 0x8
-   __DATA_CONST.__mod_init_func: 0x10
-   __DATA_CONST.__mod_term_func: 0x10
-
-   __DATA_CONST.__kalloc_type: 0x2400
-   Functions: 1339
-   Symbols:   0
--  CStrings:  1420
-+  CStrings:  1422
- 
-CStrings:
-+ "121111121222121211111111111111111111111122222222222222222222222222222222222222222222222222211221221222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222221212122122222222222222222221221222222222222222222222212222211212212222222222222222222221111211211211222222222222212212212222222222222222222222222222222222222222222222222222222222222222222221221221222222222222222222222222222222222222222222222222221111"
-+ "AppleAVD: %s(): Invoking destroyDecoder for client %4d.%d"
-+ "AppleAVD: %s(): illegal LK usage: %x"
-+ "AppleAVD: ERROR: %s(): No numWorks specified! initVPIdx = %d, mult_vp_cnt = %u\n"
-+ "AppleAVD: ERROR: %s(): Unsupported numWorks = %u > %u\n"
-+ "AppleAVD: ERROR: %s(): numWorks[%u] (%u) exceeds maximum number of work units per VP (%u)\n"
-+ "withTask"
-- "1211111212221212111111111111111111111111222222222222222222222222222222222222222222222222222112212212222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222212121221222222222222222222212212222222222222222222222122222112122122222222222222222222211112112112112212222222222212212212222222222222222222222222222222222222222222222222222222222222222222221221221222222222222222222222222222222222222222222222222221111"
-- "AppleAVD: %s reached max try count for client %d"
-- "AppleAVD: %s(): ERROR! FrameNum (%d) < 0"
-- "AppleAVD: ERROR: %s(): No numWorks specified"
-- "AppleAVD: Invoking destroyDecoder. %s reached try count %d for client %4d.%d"
-
-```
-
->  `com.apple.driver.AppleDCPDPTXProxy`
-
-```diff
-
--311.0.13.0.0
--  __TEXT.__cstring: 0x1027
-+311.0.16.0.0
-   __TEXT.__const: 0x48
-+  __TEXT.__cstring: 0x1007
-   __TEXT.__os_log: 0xa0c
--  __TEXT_EXEC.__text: 0x859c
-+  __TEXT_EXEC.__text: 0x84c0
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0xc8
-   __DATA.__common: 0xd8
-
-   __DATA_CONST.__got: 0x88
-   __DATA_CONST.__mod_init_func: 0x28
-   __DATA_CONST.__mod_term_func: 0x28
--  __DATA_CONST.__const: 0x2b18
-+  __DATA_CONST.__const: 0x2b38
-   __DATA_CONST.__kalloc_type: 0x140
--  Functions: 282
-+  Functions: 281
-   Symbols:   0
--  CStrings:  199
-+  CStrings:  198
- 
-CStrings:
-+ "12111112122212121122222112212211112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121222"
-+ "121111121222121211222221122122111121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212221111"
-+ "1211111212221212112222211221221111212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112122211111"
-+ "1211111212221212112222211221221111212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112122211122"
-- "121111121222121211222221122211112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121222"
-- "1211111212221212112222211222111121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212221111"
-- "12111112122212121122222112221111212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112122211111"
-- "12111112122212121122222112221111212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112122211122"
-- "RemoteHDCPAuthSession processed %s<%d>\n"
++ "\"invalid hex digit: %c\" @%s:%d"
 
 ```
 
@@ -1218,310 +1222,6 @@ CStrings:
 CStrings:
 + "379.0.11"
 - "379.0.2"
-
-```
-
->  `com.apple.driver.AppleJPEGDriver`
-
-```diff
-
--7.1.4.0.0
--  __TEXT.__os_log: 0xc20c
--  __TEXT.__cstring: 0x3545
-+7.1.5.0.0
-+  __TEXT.__os_log: 0xc678
-+  __TEXT.__cstring: 0x3556
-   __TEXT.__const: 0x4534
--  __TEXT_EXEC.__text: 0x343bc
-+  __TEXT_EXEC.__text: 0x3470c
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0x8b08
-   __DATA.__common: 0x2b8
-   __DATA.__bss: 0x1
--  __DATA_CONST.__auth_got: 0x348
-+  __DATA_CONST.__auth_got: 0x350
-   __DATA_CONST.__got: 0x98
-   __DATA_CONST.__mod_init_func: 0x88
-   __DATA_CONST.__mod_term_func: 0x88
-   __DATA_CONST.__const: 0x2610
--  __DATA_CONST.__kalloc_type: 0xa40
-+  __DATA_CONST.__kalloc_type: 0xb80
-   Functions: 1165
-   Symbols:   0
--  CStrings:  518
-+  CStrings:  525
- 
-CStrings:
-+ "AppleJPEGDriver: %s : codec=%d, Compressed jpeg size %d > output buffer size %d, input [%dw x% dh], encoding quality setting %u\n"
-+ "AppleJPEGDriver: %s(): TIMEOUT %dms"
-+ "AppleJPEGDriver: %s(): unknown %dms - status: 0x%x"
-+ "AppleJPEGDriver: %s, ERROR: failed to wait request successfully return 0x%x !\n"
-+ "AppleJPEGDriver: ** %s : failed, returns %x\n"
-+ "AppleJPEGDriver: ** %s : failed, returns %x\n\n"
-+ "sleepCommandGate"
-
-```
-
->  `com.apple.driver.AppleT8130CLPC`
-
-```diff
-
--1175.0.25.0.0
--  __TEXT.__cstring: 0x2c4a
-+1175.0.34.0.0
-+  __TEXT.__cstring: 0x2c4e
-   __TEXT.__const: 0xb34
--  __TEXT_EXEC.__text: 0x4c884
-+  __TEXT_EXEC.__text: 0x4c934
-   __TEXT_EXEC.__auth_stubs: 0x0
--  __DATA.__data: 0xa2f8
-+  __DATA.__data: 0xa3f8
-   __DATA.__common: 0x7b21
-   __DATA.__bss: 0x278
-   __DATA_CONST.__auth_got: 0x4a0
-   __DATA_CONST.__got: 0xd8
-   __DATA_CONST.__mod_init_func: 0x118
-   __DATA_CONST.__mod_term_func: 0x18
--  __DATA_CONST.__const: 0x4fc8
-+  __DATA_CONST.__const: 0x4fe0
-   __DATA_CONST.__kalloc_type: 0x380
-   __DATA_CONST.__kalloc_var: 0x370
-   Functions: 1263
-   Symbols:   0
--  CStrings:  464
-+  CStrings:  465
- 
-CStrings:
-+ "2024-07-30T20:49:26-07:00"
-+ "AFR"
-+ "AppleCLPC-1175.0.34"
-- "2024-07-15T21:28:14-07:00"
-- "AppleCLPC-1175.0.25"
-
-```
-
->  `com.apple.driver.AppleAVE2`
-
-```diff
-
--802.88.0.0.0
-+802.97.1.0.0
-   __TEXT.__const: 0x2e8e0
--  __TEXT.__cstring: 0x34f37
--  __TEXT.__os_log: 0x3ffb1
--  __TEXT_EXEC.__text: 0x142160
-+  __TEXT.__cstring: 0x350f8
-+  __TEXT.__os_log: 0x40038
-+  __TEXT_EXEC.__text: 0x142720
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0x290
-   __DATA.__common: 0x130
-
-   __DATA_CONST.__mod_term_func: 0x38
-   __DATA_CONST.__const: 0x62c8
-   __DATA_CONST.__kalloc_type: 0x1fc0
--  __DATA_CONST.__kalloc_var: 0x1090
-+  __DATA_CONST.__kalloc_var: 0x1040
-   Functions: 2472
-   Symbols:   0
--  CStrings:  6920
-+  CStrings:  6936
- 
-CStrings:
-+ "%lld %d AVE %s: %s::%s Enter %p %p %d %d %d %lld %p"
-+ "%lld %d AVE %s: %s::%s Enter %p %p %d %d %d %lld %p\n"
-+ "%lld %d AVE %s: %s::%s Enter %p %p %d %d %d %lld %p %d"
-+ "%lld %d AVE %s: %s::%s Enter %p %p %d %d %d %lld %p %d\n"
-+ "%lld %d AVE %s: %s::%s:%d %p %d %d %d | %lld %d"
-+ "%lld %d AVE %s: %s::%s:%d %p %d %d %d | %lld %d\n"
-+ "%lld %d AVE %s: %s::%s:%d %p %d %d | %lld %d - %lld"
-+ "%lld %d AVE %s: %s::%s:%d %p %d %d | %lld %d - %lld\n"
-+ "%lld %d AVE %s: %s::%s:%d %p %d %p | %d %d | %d %d %d | %d %d %d | %d %d | %d %d"
-+ "%lld %d AVE %s: %s::%s:%d %p %d %p | %d %d | %d %d %d | %d %d %d | %d %d | %d %d\n"
-+ "%lld %d AVE %s: %s::%s:%d %p %d task %p %lld priority %d %d"
-+ "%lld %d AVE %s: %s::%s:%d %p %d task %p %lld priority %d %d\n"
-+ "%lld %d AVE %s: %s::%s:%d %p %s"
-+ "%lld %d AVE %s: %s::%s:%d %p %s\n"
-+ "%lld %d AVE %s: %s::%s:%d %s | wrong parameters %p %p %d %d %d %lld %p"
-+ "%lld %d AVE %s: %s::%s:%d %s | wrong parameters %p %p %d %d %d %lld %p\n"
-+ "20:53:07"
-+ "802.97.1"
-+ "CalcPerfThreshold"
-+ "CalcStats"
-+ "FindTask"
-+ "Jul 30 2024"
-+ "pClientList != nullptr && iThreshold != nullptr && iNum == 2"
-+ "schedMode == 0 && euNum == 1 && iPrevCoreID != nullptr"
-+ "| %d %lld %d - %lld"
-- "%lld %d AVE %s: %s::%s:%d %p %d %lld %d %p | %d %d | %d %d %d | %d %d %d | %d %d | %d %d"
-- "%lld %d AVE %s: %s::%s:%d %p %d %lld %d %p | %d %d | %d %d %d | %d %d %d | %d %d | %d %d\n"
-- "%lld %d AVE %s: %s::%s:%d %s | invalid task ID %p %d %lld %d"
-- "%lld %d AVE %s: %s::%s:%d %s | invalid task ID %p %d %lld %d\n"
-- "21:30:14"
-- "802.88.0"
-- "Jul 15 2024"
-- "WaitCloseTaskDone"
-- "iTaskID != 0"
-
-```
-
->  `com.apple.driver.AppleProResHW`
-
-```diff
-
--400.78.0.0.0
--  __TEXT.__const: 0x1b40
--  __TEXT.__os_log: 0x7409
--  __TEXT.__cstring: 0xdcc
--  __TEXT_EXEC.__text: 0x189ec
-+400.81.0.0.0
-+  __TEXT.__const: 0x1d70
-+  __TEXT.__os_log: 0x7687
-+  __TEXT.__cstring: 0xe1f
-+  __TEXT_EXEC.__text: 0x225a0
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0x358
-   __DATA.__common: 0x70
--  __DATA.__bss: 0xea0
-+  __DATA.__bss: 0x2bb0
-   __DATA_CONST.__auth_got: 0x278
-   __DATA_CONST.__got: 0x58
-   __DATA_CONST.__mod_init_func: 0x10
-   __DATA_CONST.__mod_term_func: 0x10
--  __DATA_CONST.__const: 0x5ac8
-+  __DATA_CONST.__const: 0x78c0
-   __DATA_CONST.__kalloc_type: 0x380
-   __DATA_CONST.__kalloc_var: 0xa0
--  Functions: 425
-+  Functions: 923
-   Symbols:   0
--  CStrings:  443
-+  CStrings:  450
- 
-CStrings:
-+ "1211111212221212112211112111111211111121111112112222111122222111121111112111111211111121111111111111111111111121121121121111111111111111111111111111111111111111111111111111111111111111122222222222222222111111122221111111111112122"
-+ "AppleProResHW (0x%x): %s(): Setting SCODEC_PS(scodec_{sys, ced, ssw}) tunables for DevID %d\n"
-+ "AppleProResHW (0x%x): %s(): m_RegisterMemMapScodecPS[%d].pIOMemoryMap[%d] = (%p): v addr = %p ph adr = %p \n"
-+ "ERROR AppleProResHW: %d: %s(): AppleProRes ERROR: cannot map registers memory object %d\n"
-+ "ERROR AppleProResHW: %d: %s(): AppleProRes ERROR: cannot retrieve or map registers memory object for scodec_ps\n"
-+ "ERROR AppleProResHW: %d: %s(): AppleProRes ERROR: cannot retrieve registers memory object %d\n"
-+ "MapScodecPSRegistersMemoryIndex"
-+ "SetScodecPSTunablesByDevID"
-- "1211111212221212112211112111111211111121111112112222111122222111121111112111111211111121111111111111111111111121121121121111111111111111111111111111111111111111122222222222222222111111122221111111111112122"
-
-```
-
->  `com.apple.driver.DCPAVFamilyProxy`
-
-```diff
-
--349.0.7.0.0
-+349.0.12.0.0
-   __TEXT.__const: 0x278
--  __TEXT.__cstring: 0x2399
--  __TEXT.__os_log: 0x12b0
--  __TEXT_EXEC.__text: 0x16cd0
-+  __TEXT.__cstring: 0x246c
-+  __TEXT.__os_log: 0x12fd
-+  __TEXT_EXEC.__text: 0x16e44
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0xc8
-   __DATA.__common: 0x308
-
-   __DATA_CONST.__got: 0x118
-   __DATA_CONST.__mod_init_func: 0x98
-   __DATA_CONST.__mod_term_func: 0x98
--  __DATA_CONST.__const: 0x85d0
-+  __DATA_CONST.__const: 0x8630
-   __DATA_CONST.__kalloc_type: 0x4c0
-   __DATA_CONST.__kalloc_var: 0x3c0
--  Functions: 809
-+  Functions: 808
-   Symbols:   0
--  CStrings:  269
-+  CStrings:  284
- 
-CStrings:
-+ "%s Processed %s<%x>\n"
-+ "12111112122212121122222112212211112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121222"
-+ "121111121222121211222221122122111121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212221"
-+ "1211111212221212112222211221221111212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112122211"
-+ "12111112122212121122222112212211112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121222111111211112"
-+ "12111112122212121122222112212211112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121222111121111"
-+ "12111112122212121122222112212211112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121222112"
-+ "Command range verification failed!"
-+ "DCPAVRemoteSACControllerProxy.cpp"
-+ "Fixed payload verification failed!"
-+ "Handler verification failed!"
-+ "IOAV[%d] %s<0x%llx>::%s: %s Processed %s<%x>\n"
-+ "IOAV[%d] %s<0x%llx>::%s: Command range verification failed!"
-+ "IOAV[%d] %s<0x%llx>::%s: Fixed payload verification failed!"
-+ "IOAV[%d] %s<0x%llx>::%s: Handler verification failed!"
-+ "IOAV[%d] %s<0x%llx>::%s: Magic verification failed!"
-+ "IOAV[%d] %s<0x%llx>::%s: Message size verification failed!"
-+ "IOAV[%d] %s<0x%llx>::%s: Variable payload verification failed!"
-+ "Magic verification failed!"
-+ "Message size verification failed!"
-+ "RegisterSACAggressor"
-+ "Variable payload verification failed!"
-+ "handleMessage"
-+ "recvMessageThreadCallFunc"
-+ "validateMessage"
-- "\"%s\", waitForFunction=%d, param1=%p, param2=%p param3=%p, param4=%p\n"
-- "121111121222121211222221122211112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121222"
-- "1211111212221212112222211222111121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212221"
-- "12111112122212121122222112221111212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112122211"
-- "121111121222121211222221122211112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121222111111211112"
-- "121111121222121211222221122211112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121222111121111"
-- "121111121222121211222221122211112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121222112"
-- "DCPAVRemoteSACControllerProxy_DCP2AP.cpp"
-- "IOAV[%d] %s<0x%llx>::%s: \"%s\", waitForFunction=%d, param1=%p, param2=%p param3=%p, param4=%p\n"
-- "callPlatformFunction"
-
-```
-
->  `com.apple.iokit.IOSkywalkFamily`
-
-```diff
-
--508.0.3.502.1
-+508.0.5.0.0
-   __TEXT.__cstring: 0x1ade
-   __TEXT.__const: 0xd40
--  __TEXT_EXEC.__text: 0x35e10
-+  __TEXT_EXEC.__text: 0x35e38
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0xe8
-   __DATA.__common: 0x6b0
-
-```
-
->  `com.apple.driver.AppleDisplayCrossbar`
-
-```diff
-
--355.0.0.0.0
-+355.0.2.0.0
-   __TEXT.__cstring: 0x4413
-   __TEXT.__const: 0x160
-   __TEXT.__os_log: 0x5d14
--  __TEXT_EXEC.__text: 0x32084
-+  __TEXT_EXEC.__text: 0x3214c
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0xc4
-   __DATA.__common: 0x3d0
-
-   __DATA_CONST.__got: 0xd0
-   __DATA_CONST.__mod_init_func: 0xc0
-   __DATA_CONST.__mod_term_func: 0xc0
--  __DATA_CONST.__const: 0xd1e0
-+  __DATA_CONST.__const: 0xd1f8
-   __DATA_CONST.__kalloc_type: 0x600
--  Functions: 1475
-+  Functions: 1477
-   Symbols:   0
-   CStrings:  707
- 
 
 ```
 
@@ -1611,56 +1311,66 @@ CStrings:
 
 ```
 
->  `com.apple.driver.ApplePPMCPMS`
+>  `com.apple.driver.AppleH16PhotonDetector`
 
 ```diff
 
--931.0.7.0.1
-+931.0.9.0.0
-   __TEXT.__const: 0xe80
-   __TEXT.__cstring: 0xd087
--  __TEXT.__os_log: 0x1fad
--  __TEXT_EXEC.__text: 0x45fe0
-+  __TEXT.__os_log: 0x2005
-+  __TEXT_EXEC.__text: 0x460d0
+-3.33.50.0.0
++3.39.2.0.0
+   __TEXT.__cstring: 0x1fd
+   __TEXT.__os_log: 0x606
+-  __TEXT_EXEC.__text: 0x2c90
++  __TEXT_EXEC.__text: 0x2c98
    __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0x156
-   __DATA.__common: 0x4a8
-
-   __DATA_CONST.__kalloc_type: 0x900
-   Functions: 1651
-   Symbols:   0
--  CStrings:  1368
-+  CStrings:  1369
- 
-CStrings:
-+ "%s::%s:Invalid Data: Voltage should be > 0\n"
+   __DATA.__data: 0xd8
+   __DATA.__common: 0x60
 
 ```
 
->  `com.apple.iokit.IOMIPIFamily`
+>  `com.apple.driver.usb.AppleUSBXHCI`
 
 ```diff
 
- 160.0.1.0.0
-   __TEXT.__const: 0x20
--  __TEXT.__cstring: 0x1f5
-+  __TEXT.__cstring: 0x1f7
-   __TEXT_EXEC.__text: 0x1148
+-1402.0.7.0.0
++1402.0.10.0.1
+   __TEXT.__const: 0xb4
+-  __TEXT.__cstring: 0x5dda
++  __TEXT.__cstring: 0x5de7
+   __TEXT.__os_log: 0x5da8
+-  __TEXT_EXEC.__text: 0x57848
++  __TEXT_EXEC.__text: 0x5789c
    __TEXT_EXEC.__auth_stubs: 0x0
    __DATA.__data: 0xc8
+   __DATA.__common: 0x428
 
-   __DATA_CONST.__got: 0x40
-   __DATA_CONST.__mod_init_func: 0x10
-   __DATA_CONST.__mod_term_func: 0x10
--  __DATA_CONST.__const: 0xc70
-+  __DATA_CONST.__const: 0xc78
-   __DATA_CONST.__kalloc_type: 0x80
-   Functions: 58
+   __DATA_CONST.__const: 0x5e10
+   __DATA_CONST.__kalloc_type: 0x8c0
+   __DATA_CONST.__kalloc_var: 0xa0
+-  Functions: 900
++  Functions: 899
    Symbols:   0
+   CStrings:  908
+ 
 CStrings:
-+ "12111112122212121122222112212211112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121222"
-- "121111121222121211222221122211112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121222"
++ "hardwareExceptionThreadCall_block_invoke"
+- "didTerminateThreadCallGated"
+
+```
+
+>  `com.apple.iokit.IOUSBHostFamily`
+
+```diff
+
+-1402.0.7.0.0
++1402.0.10.0.1
+   __TEXT.__cstring: 0x9afc
+   __TEXT.__os_log: 0x81a1
+   __TEXT.__const: 0xa90
+-  __TEXT_EXEC.__text: 0x99214
++  __TEXT_EXEC.__text: 0x99220
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0x310
+   __DATA.__common: 0x930
 
 ```
 
@@ -1703,6 +1413,324 @@ CStrings:
 
 ```
 
+>  `com.apple.driver.AppleSARService`
+
+```diff
+
+-1175.0.0.0.0
++1179.0.0.0.0
+   __TEXT.__const: 0x750
+   __TEXT.__cstring: 0x9b40
+   __TEXT.__os_log: 0xb8af
+   __TEXT.__ustring: 0x8
+-  __TEXT_EXEC.__text: 0x53e78
++  __TEXT_EXEC.__text: 0x53e80
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0xd8
+   __DATA.__common: 0x5f0
+
+```
+
+>  `com.apple.driver.AppleSPMIPMU`
+
+```diff
+
+-1350.0.0.0.0
++1350.0.1.0.0
+   __TEXT.__cstring: 0x24d1
+   __TEXT.__const: 0x26
+-  __TEXT_EXEC.__text: 0xbd60
++  __TEXT_EXEC.__text: 0xbd80
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0x320
+   __DATA.__common: 0xc0
+CStrings:
++ "%s::handleStart: %s _pmuNub: %p ** configuration not found ** built 20:34:28 Jul 30 2024\n"
++ "%s::handleStart: ro=%d nvram=%d helper=%d %s _pmuNub: %p 0x%04x:0x%04x-0x%04x built 20:34:28 Jul 30 2024\n"
++ "%s::start: %s _pmuNub: %p ** configuration not found ** built 20:34:28 Jul 30 2024\n"
++ "%s::start: %s _pmuNub: %p built 20:34:28 Jul 30 2024\n"
+- "%s::handleStart: %s _pmuNub: %p ** configuration not found ** built 21:19:04 Jul 15 2024\n"
+- "%s::handleStart: ro=%d nvram=%d helper=%d %s _pmuNub: %p 0x%04x:0x%04x-0x%04x built 21:19:04 Jul 15 2024\n"
+- "%s::start: %s _pmuNub: %p ** configuration not found ** built 21:19:04 Jul 15 2024\n"
+- "%s::start: %s _pmuNub: %p built 21:19:04 Jul 15 2024\n"
+
+```
+
+>  `com.apple.driver.AppleSPU`
+
+```diff
+
+-1014.0.3.0.0
++1014.0.4.0.0
+   __TEXT.__cstring: 0x5aae
+   __TEXT.__os_log: 0x955
+   __TEXT.__const: 0x358
+-  __TEXT_EXEC.__text: 0x496e8
++  __TEXT_EXEC.__text: 0x498e8
+   __TEXT_EXEC.__auth_stubs: 0x0
+-  __DATA.__data: 0x7b8
++  __DATA.__data: 0x878
+   __DATA.__common: 0x970
+   __DATA.__bss: 0x5b0
+   __DATA_CONST.__auth_got: 0x5e0
+
+   __DATA_CONST.__const: 0x16440
+   __DATA_CONST.__kalloc_type: 0xec0
+   __DATA_CONST.__kalloc_var: 0x320
+-  Functions: 2065
++  Functions: 2068
+   Symbols:   0
+   CStrings:  920
+ 
+
+```
+
+>  `com.apple.driver.AppleStockholmControl`
+
+```diff
+
+-350.30.1.0.0
++350.33.1.0.0
+   __TEXT.__cstring: 0x46f8
+   __TEXT.__const: 0x30
+-  __TEXT_EXEC.__text: 0x14f0c
++  __TEXT_EXEC.__text: 0x14f40
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0x219
+   __DATA.__common: 0x1a6
+
+```
+
+>  `com.apple.driver.DCPAVFamilyProxy`
+
+```diff
+
+-349.0.7.0.0
++349.0.12.0.0
+   __TEXT.__const: 0x278
+-  __TEXT.__cstring: 0x2399
+-  __TEXT.__os_log: 0x12b0
+-  __TEXT_EXEC.__text: 0x16cd0
++  __TEXT.__cstring: 0x246c
++  __TEXT.__os_log: 0x12fd
++  __TEXT_EXEC.__text: 0x16e44
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0xc8
+   __DATA.__common: 0x308
+
+   __DATA_CONST.__got: 0x118
+   __DATA_CONST.__mod_init_func: 0x98
+   __DATA_CONST.__mod_term_func: 0x98
+-  __DATA_CONST.__const: 0x85d0
++  __DATA_CONST.__const: 0x8630
+   __DATA_CONST.__kalloc_type: 0x4c0
+   __DATA_CONST.__kalloc_var: 0x3c0
+-  Functions: 809
++  Functions: 808
+   Symbols:   0
+-  CStrings:  269
++  CStrings:  284
+ 
+CStrings:
++ "%s Processed %s<%x>\n"
++ "12111112122212121122222112212211112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121222"
++ "121111121222121211222221122122111121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212221"
++ "1211111212221212112222211221221111212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112122211"
++ "12111112122212121122222112212211112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121222111111211112"
++ "12111112122212121122222112212211112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121222111121111"
++ "12111112122212121122222112212211112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121222112"
++ "Command range verification failed!"
++ "DCPAVRemoteSACControllerProxy.cpp"
++ "Fixed payload verification failed!"
++ "Handler verification failed!"
++ "IOAV[%d] %s<0x%llx>::%s: %s Processed %s<%x>\n"
++ "IOAV[%d] %s<0x%llx>::%s: Command range verification failed!"
++ "IOAV[%d] %s<0x%llx>::%s: Fixed payload verification failed!"
++ "IOAV[%d] %s<0x%llx>::%s: Handler verification failed!"
++ "IOAV[%d] %s<0x%llx>::%s: Magic verification failed!"
++ "IOAV[%d] %s<0x%llx>::%s: Message size verification failed!"
++ "IOAV[%d] %s<0x%llx>::%s: Variable payload verification failed!"
++ "Magic verification failed!"
++ "Message size verification failed!"
++ "RegisterSACAggressor"
++ "Variable payload verification failed!"
++ "handleMessage"
++ "recvMessageThreadCallFunc"
++ "validateMessage"
+- "\"%s\", waitForFunction=%d, param1=%p, param2=%p param3=%p, param4=%p\n"
+- "121111121222121211222221122211112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121222"
+- "1211111212221212112222211222111121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212221"
+- "12111112122212121122222112221111212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112122211"
+- "121111121222121211222221122211112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121222111111211112"
+- "121111121222121211222221122211112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121222111121111"
+- "121111121222121211222221122211112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121222112"
+- "DCPAVRemoteSACControllerProxy_DCP2AP.cpp"
+- "IOAV[%d] %s<0x%llx>::%s: \"%s\", waitForFunction=%d, param1=%p, param2=%p param3=%p, param4=%p\n"
+- "callPlatformFunction"
+
+```
+
+>  `com.apple.iokit.IOMIPIFamily`
+
+```diff
+
+ 160.0.1.0.0
+   __TEXT.__const: 0x20
+-  __TEXT.__cstring: 0x1f5
++  __TEXT.__cstring: 0x1f7
+   __TEXT_EXEC.__text: 0x1148
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0xc8
+
+   __DATA_CONST.__got: 0x40
+   __DATA_CONST.__mod_init_func: 0x10
+   __DATA_CONST.__mod_term_func: 0x10
+-  __DATA_CONST.__const: 0xc70
++  __DATA_CONST.__const: 0xc78
+   __DATA_CONST.__kalloc_type: 0x80
+   Functions: 58
+   Symbols:   0
+CStrings:
++ "12111112122212121122222112212211112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121222"
+- "121111121222121211222221122211112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121222"
+
+```
+
+>  `com.apple.plugin.IOgPTPPlugin`
+
+```diff
+
+-1300.50.1.0.0
+-  __TEXT.__cstring: 0x6179
+-  __TEXT.__os_log: 0x1a4a8
++1300.51.0.0.0
++  __TEXT.__cstring: 0x6162
++  __TEXT.__os_log: 0x1a477
+   __TEXT.__const: 0x278
+-  __TEXT_EXEC.__text: 0x70acc
++  __TEXT_EXEC.__text: 0x70a60
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0xc8
+   __DATA.__common: 0x5d8
+
+   __DATA_CONST.__kalloc_var: 0x280
+   Functions: 1416
+   Symbols:   0
+-  CStrings:  1426
++  CStrings:  1424
+ 
+CStrings:
+- "  %s(%s): %s Failed to transmit timesync packet\n"
+- "transmitTimeSyncPacket"
+
+```
+
+>  `com.apple.driver.AppleAVE2`
+
+```diff
+
+-802.88.0.0.0
++802.97.1.0.0
+   __TEXT.__const: 0x2e8e0
+-  __TEXT.__cstring: 0x34f37
+-  __TEXT.__os_log: 0x3ffb1
+-  __TEXT_EXEC.__text: 0x142160
++  __TEXT.__cstring: 0x350f8
++  __TEXT.__os_log: 0x40038
++  __TEXT_EXEC.__text: 0x142720
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0x290
+   __DATA.__common: 0x130
+
+   __DATA_CONST.__mod_term_func: 0x38
+   __DATA_CONST.__const: 0x62c8
+   __DATA_CONST.__kalloc_type: 0x1fc0
+-  __DATA_CONST.__kalloc_var: 0x1090
++  __DATA_CONST.__kalloc_var: 0x1040
+   Functions: 2472
+   Symbols:   0
+-  CStrings:  6920
++  CStrings:  6936
+ 
+CStrings:
++ "%lld %d AVE %s: %s::%s Enter %p %p %d %d %d %lld %p"
++ "%lld %d AVE %s: %s::%s Enter %p %p %d %d %d %lld %p\n"
++ "%lld %d AVE %s: %s::%s Enter %p %p %d %d %d %lld %p %d"
++ "%lld %d AVE %s: %s::%s Enter %p %p %d %d %d %lld %p %d\n"
++ "%lld %d AVE %s: %s::%s:%d %p %d %d %d | %lld %d"
++ "%lld %d AVE %s: %s::%s:%d %p %d %d %d | %lld %d\n"
++ "%lld %d AVE %s: %s::%s:%d %p %d %d | %lld %d - %lld"
++ "%lld %d AVE %s: %s::%s:%d %p %d %d | %lld %d - %lld\n"
++ "%lld %d AVE %s: %s::%s:%d %p %d %p | %d %d | %d %d %d | %d %d %d | %d %d | %d %d"
++ "%lld %d AVE %s: %s::%s:%d %p %d %p | %d %d | %d %d %d | %d %d %d | %d %d | %d %d\n"
++ "%lld %d AVE %s: %s::%s:%d %p %d task %p %lld priority %d %d"
++ "%lld %d AVE %s: %s::%s:%d %p %d task %p %lld priority %d %d\n"
++ "%lld %d AVE %s: %s::%s:%d %p %s"
++ "%lld %d AVE %s: %s::%s:%d %p %s\n"
++ "%lld %d AVE %s: %s::%s:%d %s | wrong parameters %p %p %d %d %d %lld %p"
++ "%lld %d AVE %s: %s::%s:%d %s | wrong parameters %p %p %d %d %d %lld %p\n"
++ "20:53:07"
++ "802.97.1"
++ "CalcPerfThreshold"
++ "CalcStats"
++ "FindTask"
++ "Jul 30 2024"
++ "pClientList != nullptr && iThreshold != nullptr && iNum == 2"
++ "schedMode == 0 && euNum == 1 && iPrevCoreID != nullptr"
++ "| %d %lld %d - %lld"
+- "%lld %d AVE %s: %s::%s:%d %p %d %lld %d %p | %d %d | %d %d %d | %d %d %d | %d %d | %d %d"
+- "%lld %d AVE %s: %s::%s:%d %p %d %lld %d %p | %d %d | %d %d %d | %d %d %d | %d %d | %d %d\n"
+- "%lld %d AVE %s: %s::%s:%d %s | invalid task ID %p %d %lld %d"
+- "%lld %d AVE %s: %s::%s:%d %s | invalid task ID %p %d %lld %d\n"
+- "21:30:14"
+- "802.88.0"
+- "Jul 15 2024"
+- "WaitCloseTaskDone"
+- "iTaskID != 0"
+
+```
+
+>  `com.apple.driver.AppleDCPDPTXProxy`
+
+```diff
+
+-311.0.13.0.0
+-  __TEXT.__cstring: 0x1027
++311.0.16.0.0
+   __TEXT.__const: 0x48
++  __TEXT.__cstring: 0x1007
+   __TEXT.__os_log: 0xa0c
+-  __TEXT_EXEC.__text: 0x859c
++  __TEXT_EXEC.__text: 0x84c0
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0xc8
+   __DATA.__common: 0xd8
+
+   __DATA_CONST.__got: 0x88
+   __DATA_CONST.__mod_init_func: 0x28
+   __DATA_CONST.__mod_term_func: 0x28
+-  __DATA_CONST.__const: 0x2b18
++  __DATA_CONST.__const: 0x2b38
+   __DATA_CONST.__kalloc_type: 0x140
+-  Functions: 282
++  Functions: 281
+   Symbols:   0
+-  CStrings:  199
++  CStrings:  198
+ 
+CStrings:
++ "12111112122212121122222112212211112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121222"
++ "121111121222121211222221122122111121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212221111"
++ "1211111212221212112222211221221111212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112122211111"
++ "1211111212221212112222211221221111212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112122211122"
+- "121111121222121211222221122211112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121222"
+- "1211111212221212112222211222111121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212221111"
+- "12111112122212121122222112221111212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112122211111"
+- "12111112122212121122222112221111212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112122211122"
+- "RemoteHDCPAuthSession processed %s<%d>\n"
+
+```
+
 >  `com.apple.driver.AppleFirmwareKit`
 
 ```diff
@@ -1737,34 +1765,6 @@ CStrings:
 
 ```
 
->  `com.apple.driver.AppleOLYHAL`
-
-```diff
-
--337.0.0.0.0
-+338.0.0.0.0
-   __TEXT.__const: 0x7a8
-   __TEXT.__cstring: 0x473a
--  __TEXT_EXEC.__text: 0x1ca58
-+  __TEXT_EXEC.__text: 0x1cbc4
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0x18c
-   __DATA.__common: 0x170
-
-   __DATA_CONST.__got: 0xe8
-   __DATA_CONST.__mod_init_func: 0x38
-   __DATA_CONST.__mod_term_func: 0x38
--  __DATA_CONST.__const: 0x1378
-+  __DATA_CONST.__const: 0x13b8
-   __DATA_CONST.__kalloc_type: 0x640
--  Functions: 549
-+  Functions: 552
-   Symbols:   0
-   CStrings:  498
- 
-
-```
-
 >  `com.apple.driver.usb.AppleUSBHostiOSDevice`
 
 ```diff
@@ -1795,6 +1795,10 @@ CStrings:
 ```
 
 </details>
+
+### KDKs
+
+- [KDK DIFF](KDK.md)
 
 ## MachO
 
