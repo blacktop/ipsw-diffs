@@ -20,6 +20,7 @@
 - [18.0 beta 2 (22A5297f) .vs 18.0 beta 3 (22A5307f)](18_0_22A5297f__vs_18_0_22A5307f/TOC.md)
 - [18.0 beta 3 (22A5307f) .vs 18.0 beta 3 *(revision)* (22A5307i)](18_0_22A5307f__vs_18_0_22A5307i/TOC.md)
 - [18.0 beta 3 *(revision)* (22A5307i) .vs 18.0 beta 4 (22A5316j)](18_0_22A5307i__vs_18_0_22A5316j/TOC.md)
+- [18.0 beta 4 (22A5316k) .vs 18.0 beta 5 (22A5326f)](18_0_22A5316k__vs_18_0_22A5326f/TOC.md)
 
 ### iOS 18.1 beta
 
