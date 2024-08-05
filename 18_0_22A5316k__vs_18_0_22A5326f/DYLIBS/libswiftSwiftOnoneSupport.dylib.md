@@ -1,0 +1,283 @@
+## libswiftSwiftOnoneSupport.dylib
+
+> `/usr/lib/swift/libswiftSwiftOnoneSupport.dylib`
+
+```diff
+
+-6.0.0.5.20
+-  __TEXT.__text: 0x1cafc
+-  __TEXT.__auth_stubs: 0x190
+-  __TEXT.__cstring: 0x668
++6.0.0.7.10
++  __TEXT.__text: 0x1e510
++  __TEXT.__auth_stubs: 0x1e0
++  __TEXT.__cstring: 0x6a7
+   __TEXT.__swift5_typeref: 0xfc
+   __TEXT.__swift5_types: 0xe8
+   __TEXT.__const: 0x18
+   __TEXT.__info_plist: 0x24d
+-  __TEXT.__unwind_info: 0x718
++  __TEXT.__unwind_info: 0x730
+   __TEXT.__eh_frame: 0x1228
+-  __DATA_CONST.__got: 0xa8
++  __DATA_CONST.__got: 0xf0
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __AUTH_CONST.__auth_got: 0xc8
+-  __AUTH_CONST.__auth_ptr: 0x88
+-  __DATA.__data: 0x90
++  __AUTH_CONST.__auth_got: 0xf0
++  __AUTH_CONST.__auth_ptr: 0x90
++  __AUTH_CONST.__const: 0x1300
++  __DATA.__data: 0x680
+   __DATA_DIRTY.__data: 0x10
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/swift/libswiftCore.dylib
+   - /usr/lib/swift/libswiftObjectiveC.dylib
+-  Functions: 1627
+-  Symbols:   1831
+-  CStrings:  7
++  Functions: 1636
++  Symbols:   1857
++  CStrings:  210
+ 
+Symbols:
++ _$sBbWV
++ _$sBoWV
++ _$sSa22_allocateUninitializedySayxG_SpyxGtSiFZ
++ _$sSayxGSMsMc
++ _$sSayxGSksMc
++ _$sSiSLsWP
++ _$sSryxGSKsMc
++ _$sSryxGSMsMc
++ _$sSryxGSksMc
++ _$ss15ContiguousArrayVyxGSMsMc
++ _$ss15ContiguousArrayVyxGSksMc
++ _$sytN
++ ___chkstk_darwin
++ _swift_getCanonicalSpecializedMetadata
++ _swift_getTupleTypeMetadata2
++ _swift_getWitnessTable
++ _swift_slowAlloc
+CStrings:
++ "\x01"
++ "\x02"
++ "\x03"
++ "\x04"
++ "\x05"
++ "\x06"
++ "\r"
++ "\x0e"
++ "\x0ek("
++ "\x0f"
++ "\x0fN"
++ "\x10"
++ "\x10N"
++ "\x11"
++ "\x1bj("
++ "\x1d"
++ "\x1ek("
++ "\x1fk("
++ " k("
++ "!k("
++ "\"k("
++ "("
++ "(k("
++ ")"
++ ".k("
++ "/k("
++ "0k("
++ "1k("
++ "2k("
++ "3k("
++ "4k("
++ "5k("
++ "6k("
++ "7k("
++ "8k("
++ "9k("
++ ":k("
++ ";k("
++ "<k("
++ "=k("
++ ">k("
++ "?k("
++ "@k("
++ "Ak("
++ "BX"
++ "Bk("
++ "Ck("
++ "DX"
++ "Dj("
++ "Dk("
++ "Ek("
++ "Fj("
++ "Fk("
++ "Hj("
++ "Jk("
++ "Kj("
++ "Nj("
++ "Nk("
++ "Ok("
++ "Pj("
++ "Pk("
++ "Qk("
++ "R"
++ "Rj("
++ "Rk("
++ "SQ"
++ "Uj("
++ "Uk("
++ "Xk("
++ "Yj("
++ "Yk("
++ "Zj("
++ "Zk("
++ "[P"
++ "[j("
++ "[k("
++ "\\j("
++ "\\k("
++ "]j("
++ "]k("
++ "^j("
++ "^k("
++ "_k("
++ "`j("
++ "`k("
++ "ak("
++ "bj("
++ "bk("
++ "ck("
++ "eQ"
++ "gj("
++ "ik("
++ "jk("
++ "lQ"
++ "lj("
++ "oj("
++ "pk("
++ "qk("
++ "rj("
++ "tj("
++ "uj("
++ "vj("
++ "wj("
++ "wk("
++ "xk("
++ "zj("
++ "}j("
++ "}k("
++ "\x7fj("
++ "\x81j("
++ "\x83P"
++ "\x83k("
++ "\x84j("
++ "\x84k("
++ "\x87j("
++ "\x88j("
++ "\x89k("
++ "\x8ak("
++ "\x8bj("
++ "\x8bk("
++ "\x8cj("
++ "\x8ck("
++ "\x8ej("
++ "\x91j("
++ "\x93j("
++ "\xa1Q"
++ "\xa2j("
++ "\xa8Q"
++ "\xa9k("
++ "\xaaQ"
++ "\xb2Q"
++ "\xb2j("
++ "\xb3j("
++ "\xb8Q"
++ "\xbaQ"
++ "\xbeM"
++ "\xbfM"
++ "\xbfQ"
++ "\xc0i("
++ "\xc0j("
++ "\xc1i("
++ "\xc3i("
++ "\xc6Q"
++ "\xc6i("
++ "\xc7i("
++ "\xc8i("
++ "\xc9Q"
++ "\xc9i("
++ "\xcaV"
++ "\xcbV"
++ "\xcbi("
++ "\xccQ"
++ "\xcci("
++ "\xcdj("
++ "\xceQ"
++ "\xcei("
++ "\xcej("
++ "\xcfj("
++ "\xd0j("
++ "\xd1i("
++ "\xd1j("
++ "\xd2Q"
++ "\xd2j("
++ "\xd3Q"
++ "\xd3i("
++ "\xd3j("
++ "\xd4Q"
++ "\xd4j("
++ "\xd5Q"
++ "\xd5i("
++ "\xd5j("
++ "\xd6Q"
++ "\xd6j("
++ "\xd7Q"
++ "\xd7j("
++ "\xd8j("
++ "\xd9Q"
++ "\xd9j("
++ "\xdaj("
++ "\xdbj("
++ "\xdcQ"
++ "\xdcj("
++ "\xddQ"
++ "\xdeQ"
++ "\xdfP"
++ "\xdfQ"
++ "\xe0Q"
++ "\xe2Q"
++ "\xe3Q"
++ "\xe3i("
++ "\xe4Q"
++ "\xe5Q"
++ "\xe7Q"
++ "\xe9Q"
++ "\xeaQ"
++ "\xecP"
++ "\xecj("
++ "\xf1Q"
++ "\xf2Q"
++ "\xf2i("
++ "\xf3Q"
++ "\xf3i("
++ "\xf6Q"
++ "\xf7Q"
++ "\xf8Q"
++ "\xfaO"
++ "\xfaQ"
++ "\xfdj("
++ "\xfej("
++ "\xffQ"
+- "0I*2\x01@\xb6o@I*2\x01@ӔXI*2\x01@\x0eo`J*2\x01@X\x04HN*2\x01@\xe6WXN*2\x01@\xbb\xfb0Q*2\x01@X\x04\xd0Q*2\x01@X\x04(T*2\x01@X\x04@U*2\x01@\xf3\x01xU*2\x01@໐U*2\x01@R\xea\x98U*2\x01@BРU*2\x01@(\\\xa8U*2\x01@\x90\u07b8U*2\x01@\xb5\xcd\xe0U*2\x01@{\xb4\xf0U*2\x01@\x9b\x87"
+- "V*2\x01@\x87\x8a\x18V*2\x01@\x83\x170V*2\x01@\xef\x1a@V*2\x01@\x8fxHV*2\x01@\x8b\xb7XX*2\x01@{\xeexY*2\x01@\xff$\x88Y*2\x01@\xef%!\(MISSING)x98Y*2\x01@\xf9\x11\xa0Y*2\x01@\x15u\xb0Y*2\x01@VF\xb8Y*2\x01@y\\\xc0Y*2\x01@\xa1\xf4\xc8Y*2\x01@{B\x10Z*2\x01@\xb6o Z*2\x01@Ӕ8Z*2\x01@\x0eo\xd0[*2\x01@\xb6o\xe0[*2\x01@Ӕ\xf8[*2\x01@\x0eo\x88j*2\x01@X\x04@k*2\x01@\xa5wPk*2\x01@`\x9ehk*2\x01@\a\xa3xk*2\x01@\xf0\"\x80k*2\x01@\xfc\n\x98k*2\x01@\xaf\x9a\xa0k*2\x01@硨k*2\x01@\xc2\xe7\xb0k*2\x01@ɳ\xb8k*2\x01@\xc6^\xc0k*2\x01@\xe4$\xd0k*2\x01@\xaf\x9a\xd8k*2\x01@\xe7\xa1\xe0k*2\x01@\xc2\xe7\xe8k*2\x01@ɳ\xf0k*2\x01@\xc6^\xf8k*2\x01@\xe4$\x10l*2\x01@\xa5w l*2\x01@`\x9e8l*2\x01@\a\xa3Hl*2\x01@\xf0\"Pl*2\x01@\xfc\npm*2\x01@\\{xm*2\x01@\x88\xb6\xf8p*2\x01@Zl"
+- "q*2\x01@\x14^\bq*2\x01@\xa7\xe0\bs*2\x01@^s s*2\x01@\xb5]@s*2\x01@\x8d\xa8\x10t*2\x01@M?\x18t*2\x01@\x94\xd3@t*2\x01@\x13\x88`t*2\x01@@\x92 x*2\x01@\x9e\x11(x*2\x01@\x1b\xdf0x*2\x01@\xcd\xca"
+- "~*2\x01@\xb6o\x10~*2\x01@Ӕ(~*2\x01@\x0eo\xa8~*2\x01@\xb6o\xb8~*2\x01@Ӕ\xd0~*2\x01@\x0eoP\x7f*2\x01@X\x048\x82*2\x01@\xb6oH\x82*2\x01@Ӕ`\x82*2\x01@\x0eop\x89*2\x01@\x94\u2009*2\x01@\x83\a\xa8\x8e*2\x01@\xb6o\xb8\x8e*2\x01@ӔЎ*2\x01@\x0eoȐ*2\x01@ZlА*2\x01@\x14^ؐ*2\x01@\xa7ࠓ*2\x01@\x92\x82\b\x94*2\x01@\xb6o\x18\x94*2\x01@Ӕ0\x94*2\x01@\x0eo\xb8\x9b*2\x01@H\xed؛*2\x01@ߎ\xf8\x9b*2\x01@A\x82\x10\x9c*2\x01@)\xba\x18\x9c*2\x01@sv(\x9c*2\x01@\x95\t0\x9c*2\x01@\x8c\x018\x9c*2\x01@O\x90@\x9c*2\x01@~gH\x9c*2\x01@\xef\xb2X\x9c*2\x01@\x88\xbe`\x9c*2\x01@&\xaep\x9c*2\x01@\x91Tx\x9c*2\x01@\xd3\x01\x88\x9c*2\x01@z\xbb\x90\x9c*2\x01@\xf2İ\x9c*2\x01@ל\x18\x9d*2\x01@\xcdi \x9d*2\x01@\xbb\x81(\x9d*2\x01@\xfb\xce0\x9d*2\x01@\x94EX\x9d*2\x01@QUH\xa0*2\x01@\x1c\xe4P\xa0*2\x01@z[X\xa0*2\x01@\xc8wh\xa0*2\x01@\xd34p\xa0*2\x01@/\xe6x\xa0*2\x01@\xfau\x80\xa0*2\x01@#E\x88\xa0*2\x01@\u07bd\x90\xa0*2\x01@ܕ\x98\xa0*2\x01@\ue360\xa0*2\x01@\xa9l\xa8\xa0*2\x01@\x9aA\xb0\xa0*2\x01@\xfbr\xb8\xa0*2\x01@\xb1\xd2\xc0\xa0*2\x01@uwȠ*2\x01@\xa9\x1dР*2\x01@d\x9cؠ*2\x01@N\x03\xe0\xa0*2\x01@\xfc\xf6\xe8\xa0*2\x01@\x8f\xb2\xf0\xa0*2\x01@\xbe\xc4\xf8\xa0*2\x01@\x82b"
+- "\xa1*2\x01@\xaf\xbe\b\xa1*2\x01@|V\x10\xa1*2\x01@դ\x18\xa1*2\x01@.\x80 \xa1*2\x01@\xa3F(\xa1*2\x01@\xbe8P\xa1*2\x01@X\x04ȣ*2\x01@\x8eCУ*2\x01@\x81\x7fأ*2\x01@\xf4\x92\xe0\xa3*2\x01@\x0f\xa8\xe8\xa3*2\x01@\x90y\xf0\xa3*2\x01@\x8e\xed\xf8\xa3*2\x01@:\x7f"
+- "\xa4*2\x01@\x04$\b\xa4*2\x01@\xe6\x89\x10\xa4*2\x01@@J\x18\xa4*2\x01@\xa6\x9b \xa4*2\x01@F3(\xa4*2\x01@\x9d]0\xa4*2\x01@\xe7\x028\xa4*2\x01@\x06\xaf@\xa4*2\x01@\xfc1H\xa4*2\x01@\x8d@P\xa4*2\x01@\xb4#X\xa4*2\x01@)\x8f`\xa4*2\x01@\x9e\xa5h\xa4*2\x01@E+p\xa4*2\x01@\xb55x\xa4*2\x01@\xf7\xb9\x80\xa4*2\x01@\xdeV\x88\xa4*2\x01@M\xb5\x98\xa4*2\x01@\\s\xa0\xa4*2\x01@\f\x9a\xa8\xa4*2\x01@\xaf\xf0\xb0\xa4*2\x01@\x16\x03\x80\xa5*2\x01@X\x04Ц*2\x01@\xd4\xdf\xe0\xa6*2\x01@\xff$\xf8\xa6*2\x01@VF"
+- "\xa7*2\x01@y\\\b\xa7*2\x01@\xa1\xf4\x10\xa7*2\x01@{BX\xa7*2\x01@\xb6oh\xa7*2\x01@Ӕ\x80\xa7*2\x01@\x0eo(\xa8*2\x01@\x93\x0e0\xa8*2\x01@\xf8\xd08\xa8*2\x01@8q@\xa8*2\x01@/\xf1H\xa8*2\x01@3\xcaP\xa8*2\x01@\xdafX\xa8*2\x01@k\xcc`\xa8*2\x01@F[h\xa8*2\x01@\xb6\xfcH\xaa*2\x01@\xb6oX\xaa*2\x01@Ӕp\xaa*2\x01@\x0eo\xa0\xaa*2\x01@H\xed\xc0\xaa*2\x01@ߎ\xe0\xaa*2\x01@A\x82\xf8\xaa*2\x01@)\xba"
+
+```

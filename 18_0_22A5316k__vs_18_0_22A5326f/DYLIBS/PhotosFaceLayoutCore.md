@@ -1,0 +1,45 @@
+## PhotosFaceLayoutCore
+
+> `/System/Library/PrivateFrameworks/PhotosFaceLayoutCore.framework/PhotosFaceLayoutCore`
+
+```diff
+
+-58.0.1.0.0
++65.0.0.0.0
+   __TEXT.__text: 0x60ec
+   __TEXT.__auth_stubs: 0x380
+   __TEXT.__objc_methlist: 0x154
+-  __TEXT.__const: 0x228
+-  __TEXT.__cstring: 0x134
++  __TEXT.__const: 0x220
+   __TEXT.__oslogstring: 0x187
++  __TEXT.__cstring: 0x134
+   __TEXT.__unwind_info: 0x160
+   __TEXT.__objc_classname: 0x4f
+   __TEXT.__objc_methname: 0x5b2
+
+   - /usr/lib/libobjc.A.dylib
+   Functions: 70
+   Symbols:   150
+-  CStrings:  0
++  CStrings:  16
+ 
+CStrings:
++ "__ZN32pxrInternal__aapl__pxrReserved__8UsdStage9_SetValueINS_17SdfPathExpressionEEENSt3__19enable_ifIXsr21_IsEditTargetMappableIT_EE5valueEbE4typeENS_11UsdTimeCodeERKNS_12UsdAttributeERKS5_"
++ "__ZN32pxrInternal__aapl__pxrReserved__8UsdStage9_SetValueINS_7VtArrayINS_12SdfAssetPathEEEEENSt3__19enable_ifIXntsr21_IsEditTargetMappableIT_EE5valueEbE4typeENS_11UsdTimeCodeERKNS_12UsdAttributeERKS7_"
++ "__ZN32pxrInternal__aapl__pxrReserved__8UsdStage9_SetValueINS_7VtArrayINS_17SdfPathExpressionEEEEENSt3__19enable_ifIXsr21_IsEditTargetMappableIT_EE5valueEbE4typeENS_11UsdTimeCodeERKNS_12UsdAttributeERKS7_"
++ "__ZNK32pxrInternal__aapl__pxrReserved__8UsdStage24_GetValueFromResolveInfoINS_17SdfPathExpressionEEEbRKNS_14UsdResolveInfoENS_11UsdTimeCodeERKNS_12UsdAttributeEPT_"
++ "__ZNK32pxrInternal__aapl__pxrReserved__8UsdStage24_GetValueFromResolveInfoINS_7VtArrayINS_10GfMatrix2dEEEEEbRKNS_14UsdResolveInfoENS_11UsdTimeCodeERKNS_12UsdAttributeEPT_"
++ "__ZNK32pxrInternal__aapl__pxrReserved__8UsdStage24_GetValueFromResolveInfoINS_7VtArrayINS_17SdfPathExpressionEEEEEbRKNS_14UsdResolveInfoENS_11UsdTimeCodeERKNS_12UsdAttributeEPT_"
++ "__ZNK32pxrInternal__aapl__pxrReserved__8UsdStage9_GetValueINS_10GfMatrix2dEEEbNS_11UsdTimeCodeERKNS_12UsdAttributeEPT_"
++ "__ZNK32pxrInternal__aapl__pxrReserved__8UsdStage9_GetValueINS_17SdfPathExpressionEEEbNS_11UsdTimeCodeERKNS_12UsdAttributeEPT_"
++ "__ZNK32pxrInternal__aapl__pxrReserved__8UsdStage9_GetValueINS_7VtArrayINS_10GfMatrix2dEEEEEbNS_11UsdTimeCodeERKNS_12UsdAttributeEPT_"
++ "__ZNK32pxrInternal__aapl__pxrReserved__8UsdStage9_GetValueINS_7VtArrayINS_14SdfOpaqueValueEEEEEbNS_11UsdTimeCodeERKNS_12UsdAttributeEPT_"
++ "__ZNK32pxrInternal__aapl__pxrReserved__8UsdStage9_GetValueINS_7VtArrayINS_17SdfPathExpressionEEEEEbNS_11UsdTimeCodeERKNS_12UsdAttributeEPT_"
++ "able_ifIXntsr21_IsEditTargetMappableIT_EE5valueEbE4typeENS_11UsdTimeCodeERKNS_12UsdAttributeERKS5_"
++ "e24_GetValueFromResolveInfoINS_10GfMatrix2dEEEbRKNS_14UsdResolveInfoENS_11UsdTimeCodeERKNS_12UsdAttributeEPT_"
++ "e9_SetValueINS_7VtArrayINS_14SdfOpaqueValueEEEEENSt3__19enable_ifIXntsr21_IsEditTargetMappableIT_EE5valueEbE4typeENS_11UsdTimeCodeERKNS_12UsdAttributeERKS7_"
++ "imeCodeERKNS_12UsdAttributeEPT_"
++ "meCodeERKNS_12UsdAttributeERKS5_"
+
+```

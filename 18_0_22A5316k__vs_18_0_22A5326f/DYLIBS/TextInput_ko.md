@@ -1,0 +1,300 @@
+## TextInput_ko
+
+> `/System/Library/TextInput/TextInput_ko.bundle/TextInput_ko`
+
+```diff
+
+-3475.0.0.0.0
+-  __TEXT.__text: 0x516c
+-  __TEXT.__auth_stubs: 0x4a0
++3479.1.0.0.0
++  __TEXT.__text: 0x5b28
++  __TEXT.__auth_stubs: 0x4e0
+   __TEXT.__init_offsets: 0xc
+-  __TEXT.__objc_methlist: 0x3bc
+-  __TEXT.__cstring: 0x9f
++  __TEXT.__objc_methlist: 0x3f4
++  __TEXT.__cstring: 0xe0
+   __TEXT.__ustring: 0x8e
+-  __TEXT.__const: 0x4d0
++  __TEXT.__const: 0x4e0
+   __TEXT.__unwind_info: 0x78
+   __TEXT.__objc_classname: 0x51
+-  __TEXT.__objc_methname: 0xa74
+-  __TEXT.__objc_methtype: 0x198
+-  __TEXT.__objc_stubs: 0x960
+-  __DATA_CONST.__got: 0x68
+-  __DATA_CONST.__const: 0x48
++  __TEXT.__objc_methname: 0xe17
++  __TEXT.__objc_methtype: 0x1b7
++  __TEXT.__objc_stubs: 0xd20
++  __DATA_CONST.__got: 0x88
++  __DATA_CONST.__const: 0x70
+   __DATA_CONST.__objc_classlist: 0x18
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x388
++  __DATA_CONST.__objc_selrefs: 0x478
+   __DATA_CONST.__objc_superrefs: 0x18
+-  __DATA_CONST.__objc_arraydata: 0x210
+-  __AUTH_CONST.__auth_got: 0x258
++  __DATA_CONST.__objc_arraydata: 0x550
++  __AUTH_CONST.__auth_got: 0x278
+   __AUTH_CONST.__auth_ptr: 0x10
+-  __AUTH_CONST.__const: 0xb0
+-  __AUTH_CONST.__cfstring: 0x880
+-  __AUTH_CONST.__objc_const: 0x330
+-  __AUTH_CONST.__objc_dictobj: 0x28
++  __AUTH_CONST.__const: 0xd0
++  __AUTH_CONST.__cfstring: 0xbc0
++  __AUTH_CONST.__objc_const: 0x360
++  __AUTH_CONST.__objc_dictobj: 0x50
+   __AUTH.__objc_data: 0xf0
+-  __DATA.__objc_ivar: 0x20
++  __DATA.__objc_ivar: 0x24
+   __DATA.__data: 0x78
+-  __DATA.__bss: 0x20
++  __DATA.__bss: 0x30
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+
+   - /usr/lib/libicucore.A.dylib
+   - /usr/lib/libmecabra.dylib
+   - /usr/lib/libobjc.A.dylib
+-  Functions: 163
+-  Symbols:   275
+-  CStrings:  0
++  Functions: 170
++  Symbols:   290
++  CStrings:  216
+ 
+Symbols:
++ _OBJC_CLASS_$_NSLocale
++ _OBJC_CLASS_$_TIAutocorrectionList
++ _OBJC_CLASS_$_TICorrectionCandidates
++ _OBJC_CLASS_$_TIKeyboardFeatureSpecialization
++ __ZN14TIInputManager25or_input_flags_from_inputERKN2KB6StringE
++ __ZN2KB11utf8_stringEP8NSString
++ _objc_alloc
++ _objc_release_x28
++ _objc_retain_x26
+- _objc_retain_x25
+CStrings:
++ "\x01@"
++ "\x01@"
++ "\x01@"
++ "\x01\xc0L}"
++ "\x01\xc0\x86\xae"
++ "\x01\xc0\x86\xae"
++ "\x02\xd5\xdc"
++ "\b\x02\xd5\xdc"
++ "\b*\xc4\xe9"
++ "\b.\xbc\xe9"
++ "\b\xa0\xbc\xe9"
++ "\b\xa2\xbc\xe9"
++ "\b\xa7\xbc\xe9"
++ "\b\xaa\xbc\xe9"
++ "\b\xf9\xd4n"
++ "\x10\x02\xd5\xdc"
++ "\x10\xa0\xbc\xe9"
++ "\x10\xa2\xbc\xe9"
++ "\x10\xa4\xbc\xe9"
++ "\x10\xa7\xbc\xe9"
++ "\x10\xf9\xd4n"
++ "\x18\x02\xd5\xdc"
++ "\x18G\xd5\xdc"
++ "\x18\xa0\xbc\xe9"
++ "\x18\xa4\xbc\xe9"
++ "\x18\xa8\xbc\xe9"
++ " \x02\xd5\xdc"
++ " .\xbc\xe9"
++ " \xa0\xbc\xe9"
++ " \xa2\xbc\xe9"
++ " \xa4\xbc\xe9"
++ " \xaa\xbc\xe9"
++ "'\xc4\xe9"
++ "(\x02\xd5\xdc"
++ "(\xa0\xbc\xe9"
++ "(\xa2\xbc\xe9"
++ "(\xa4\xbc\xe9"
++ "(\xaa\xbc\xe9"
++ ".\xbc\xe9"
++ "0\x02\xd5\xdc"
++ "0\xa2\xbc\xe9"
++ "0\xa4\xbc\xe9"
++ "0\xaa\xbc\xe9"
++ "8\x02\xd5\xdc"
++ "8G\xd5\xdc"
++ "8\xa0\xbc\xe9"
++ "8\xa4\xbc\xe9"
++ "8\xa5\xbc\xe9"
++ "8\xa7\xbc\xe9"
++ "8\xa8\xbc\xe9"
++ "8\xaa\xbc\xe9"
++ "8\xab\xbc\xe9"
++ "@\x02\xd5\xdc"
++ "@&\xc4\xe9"
++ "@\xa0\xbc\xe9"
++ "@\xa4\xbc\xe9"
++ "@\xa5\xbc\xe9"
++ "@\xa7\xbc\xe9"
++ "@\xa8\xbc\xe9"
++ "@\xaa\xbc\xe9"
++ "@\xab\xbc\xe9"
++ "H\x02\xd5\xdc"
++ "H&\xc4\xe9"
++ "H\xa0\xbc\xe9"
++ "H\xa8\xbc\xe9"
++ "H\xab\xbc\xe9"
++ "P\x02\xd5\xdc"
++ "P&\xc4\xe9"
++ "P\xa0\xbc\xe9"
++ "P\xa8\xbc\xe9"
++ "X&\xc4\xe9"
++ "X@\xd5\xdc"
++ "XB\xd5\xdc"
++ "X\xa0\xbc\xe9"
++ "X\xa8\xbc\xe9"
++ "`\x02\xd5\xdc"
++ "`&\xc4\xe9"
++ "`.\xbc\xe9"
++ "`\xa0\xbc\xe9"
++ "`\xa8\xbc\xe9"
++ "`\xa9\xbc\xe9"
++ "h\x02\xd5\xdc"
++ "h&\xc4\xe9"
++ "h.\xbc\xe9"
++ "h\x9f\xbc\xe9"
++ "h\xa0\xbc\xe9"
++ "h\xa8\xbc\xe9"
++ "h\xa9\xbc\xe9"
++ "p\x02\xd5\xdc"
++ "p&\xc4\xe9"
++ "p.\xbc\xe9"
++ "pE\xd5\xdc"
++ "p\xa8\xbc\xe9"
++ "p\xa9\xbc\xe9"
++ "p\xdd\xcdn"
++ "x\x02\xd5\xdc"
++ "x&\xc4\xe9"
++ "x.\xbc\xe9"
++ "xG\xd5\xdc"
++ "\x80&\xc4\xe9"
++ "\x80.\xbc\xe9"
++ "\x80F\xd5\xdc"
++ "\x80\x9f\xbc\xe9"
++ "\x88&\xc4\xe9"
++ "\x88.\xbc\xe9"
++ "\x88\xab\xbc\xe9"
++ "\x88\xdd\xcdn"
++ "\x90&\xc4\xe9"
++ "\x90.\xbc\xe9"
++ "\x90@\xd5\xdc"
++ "\x90\xa1\xbc\xe9"
++ "\x90\xab\xbc\xe9"
++ "\x90\xdd\xcdn"
++ "\x98&\xc4\xe9"
++ "\x98.\xbc\xe9"
++ "\x98A\xd5\xdc"
++ "\x98\xa1\xbc\xe9"
++ "\x98\xdd\xcdn"
++ "\xa0&\xc4\xe9"
++ "\xa0.\xbc\xe9"
++ "\xa0E\xd5\xdc"
++ "\xa0\xa0\xbc\xe9"
++ "\xa0\xa1\xbc\xe9"
++ "\xa0\xdd\xcdn"
++ "\xa0\xdeu`"
++ "\xa7\xbc\xe9"
++ "\xa8&\xc4\xe9"
++ "\xa8.\xbc\xe9"
++ "\xa8@\xd5\xdc"
++ "\xa8\xa0\xbc\xe9"
++ "\xa8\xa1\xbc\xe9"
++ "\xa8\xdd\xcdn"
++ "\xa8\xdeu`"
++ "\xaa\xbc\xe9"
++ "\xb0\x01\xd5\xdc"
++ "\xb0&\xc4\xe9"
++ "\xb0.\xbc\xe9"
++ "\xb0E\xd5\xdc"
++ "\xb0\xa7\xbc\xe9"
++ "\xb0\xab\xbc\xe9"
++ "\xb0\xdd\xcdn"
++ "\xb0\xdeu`"
++ "\xb8\x01\xd5\xdc"
++ "\xb8&\xc4\xe9"
++ "\xb8.\xbc\xe9"
++ "\xb8@\xd5\xdc"
++ "\xb8\xa0\xbc\xe9"
++ "\xb8\xa6\xbc\xe9"
++ "\xb8\xa7\xbc\xe9"
++ "\xb8\xa9\xbc\xe9"
++ "\xb8\xab\xbc\xe9"
++ "\xb8\xdd\xcdn"
++ "\xb8\xdeu`"
++ "\xc0\x01\xd5\xdc"
++ "\xc0&\xc4\xe9"
++ "\xc0.\xbc\xe9"
++ "\xc0\xa0\xbc\xe9"
++ "\xc0\xa6\xbc\xe9"
++ "\xc0\xa7\xbc\xe9"
++ "\xc0\xa9\xbc\xe9"
++ "\xc0\xdd\xcdn"
++ "\xc8\x01\xd5\xdc"
++ "\xc8&\xc4\xe9"
++ "Ƞ\xbc\xe9"
++ "ȥ\xbc\xe9"
++ "Ȧ\xbc\xe9"
++ "ȧ\xbc\xe9"
++ "ȩ\xbc\xe9"
++ "\xc8\xdd\xcdn"
++ "\xd0\x01\xd5\xdc"
++ "\xd0&\xc4\xe9"
++ "Р\xbc\xe9"
++ "Х\xbc\xe9"
++ "Щ\xbc\xe9"
++ "Ъ\xbc\xe9"
++ "\xd0\xdd\xcdn"
++ "\xd8\x01\xd5\xdc"
++ "\xd8&\xc4\xe9"
++ "ؠ\xbc\xe9"
++ "إ\xbc\xe9"
++ "ة\xbc\xe9"
++ "ت\xbc\xe9"
++ "\xd8\xdd\xcdn"
++ "\xe0\x01\xd5\xdc"
++ "\xe0&\xc4\xe9"
++ "࠼\xe9"
++ "ࡼ\xe9"
++ "\u0a7c\xe9"
++ "઼\xe9"
++ "\xe0\xdd\xcdn"
++ "\xe8\x01\xd5\xdc"
++ "\xe8&\xc4\xe9"
++ "蠼\xe9"
++ "衼\xe9"
++ "覼\xe9"
++ "詼\xe9"
++ "誼\xe9"
++ "\xe8\xdd\xcdn"
++ "\xf0\x01\xd5\xdc"
++ "\xf0&\xc4\xe9"
++ "\xf0E\xd5\xdc"
++ "\xf0\xa1\xbc\xe9"
++ "\xf0\xa6\xbc\xe9"
++ "\xf0\xa9\xbc\xe9"
++ "\xf0\xaa\xbc\xe9"
++ "\xf0\xdd\xcdn"
++ "\xf8\x01\xd5\xdc"
++ "\xf8\x0e\xd5\xdc"
++ "\xf8&\xc4\xe9"
++ "\xf8\xa1\xbc\xe9"
++ "\xf8\xa4\xbc\xe9"
++ "\xf8\xa5\xbc\xe9"
++ "\xf8\xa6\xbc\xe9"
++ "\xf8\xa9\xbc\xe9"
++ "\xf8\xaa\xbc\xe9"
++ "\xf9\xd4n"
+
+```

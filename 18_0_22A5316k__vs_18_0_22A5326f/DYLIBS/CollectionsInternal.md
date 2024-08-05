@@ -1,0 +1,168 @@
+## CollectionsInternal
+
+> `/System/Library/PrivateFrameworks/CollectionsInternal.framework/CollectionsInternal`
+
+```diff
+
+-40.0.0.0.0
+-  __TEXT.__text: 0x135540
++42.0.0.0.0
++  __TEXT.__text: 0x1351f8
+   __TEXT.__auth_stubs: 0x18c0
+   __TEXT.__const: 0x72e4
+   __TEXT.__cstring: 0x661
+
+   __TEXT.__swift5_protos: 0x1c
+   __TEXT.__swift5_builtin: 0x14
+   __TEXT.__swift5_mpenum: 0x10
+-  __TEXT.__unwind_info: 0x4058
++  __TEXT.__unwind_info: 0x4040
+   __TEXT.__eh_frame: 0x5268
+   __DATA_CONST.__got: 0x458
+   __DATA_CONST.__const: 0x90
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __AUTH_CONST.__auth_got: 0xc60
+-  __AUTH_CONST.__auth_ptr: 0xd80
++  __AUTH_CONST.__auth_ptr: 0xd88
+   __AUTH_CONST.__const: 0x2b48
+   __AUTH_CONST.__objc_const: 0x90
+-  __DATA.__data: 0x1b90
+-  __DATA.__objc_clsrolist: 0x30
++  __DATA.__data: 0x1b10
+   __DATA.__bss: 0xa700
+   __DATA.__common: 0x18
+-  __DATA_DIRTY.__data: 0x640
++  __DATA_DIRTY.__data: 0x6c0
+   __DATA_DIRTY.__bss: 0x180
+   __DATA_DIRTY.__common: 0x38
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/swift/libswiftCore.dylib
+-  Functions: 5944
++  Functions: 5941
+   Symbols:   108
+-  CStrings:  91
++  CStrings:  28
+ 
+CStrings:
++ "VtcfC"
++ "_$s13FitnessCoreUI12MarqueeLabelVMa"
++ "_$s13FitnessCoreUI12MarqueeLabelVyAC10Foundation16AttributedStringVcfC"
++ "_$s13FitnessCoreUI12MarqueeLabelVyACSScfC"
++ "_$s13FitnessCoreUI13GridSizeClassO8rawValue0B8Graphics7CGFloatVvg"
++ "_$s13FitnessCoreUI15ColorDescriptorV02uiD0So7UIColorCvg"
++ "_$s13FitnessCoreUI15ColorDescriptorV5clearACvgZ"
++ "_$s13FitnessCoreUI15ColorDescriptorVMa"
++ "_$s13FitnessCoreUI15DynamicTypeSizeO2eeoiySbAC_ACtFZ"
++ "_$s13FitnessCoreUI15DynamicTypeSizeO4hash4intoys6HasherVz_tF"
++ "_$s13FitnessCoreUI15DynamicTypeSizeOyAC05SwiftC0ABOcfC"
++ "_$s13FitnessCoreUI16ArtworkCandidateV19predicateDescriptor0A9Utilities016DynamicPredicateG0Ovg"
++ "_$s13FitnessCoreUI16ArtworkCandidateV7artwork8cropCode19predicateDescriptorACyxGx_SSSg0A9Utilities016DynamicPredicateJ0OtcfC"
++ "_$s13FitnessCoreUI16ArtworkCandidateV7artworkxvg"
++ "_$s13FitnessCoreUI16ArtworkCandidateV8cropCodeSSSgvg"
++ "_$s13FitnessCoreUI18DelayedLoadingViewVMa"
++ "_$s13FitnessCoreUI24DynamicArtworkDescriptorV08fallbackeF0AA08StandardeF0VyxGvg"
++ "_$s13FitnessCoreUI24DynamicArtworkDescriptorV10candidates08fallbackeF0ACyxGSayAA0E9CandidateVyxGG_AA08StandardeF0VyxGtcfC"
++ "_$s13FitnessCoreUI24DynamicArtworkDescriptorV10candidatesSayAA0E9CandidateVyxGGvg"
++ "_$s13FitnessCoreUI24DynamicArtworkDescriptorV2eeoiySbACyxG_AEtFZ"
++ "_$s13FitnessCoreUI24DynamicArtworkDescriptorVMa"
++ "_$s13FitnessCoreUI8CropCodeO8rawValueSSvg"
++ "_$s13FitnessCoreUI8CropCodeOMa"
++ "_$s13FitnessCoreUI9SizeClassO8rawValueSSvg"
++ "_$s13FitnessCoreUI9SizeClassOMa"
++ "_$s7SwiftUI4ViewP011FitnessCoreB0E14focusedSectionQryF"
++ "_$sSo6CGSizeV13FitnessCoreUIE7roundedAByF"
++ "_$sSo6CGSizeV13FitnessCoreUIE9isNonZeroSbvg"
+- "\x01"
+- "\x01\x01\x01+\x80\x80\x1e\x01\v\x82\x02\x01"
+- "\x01\x01\x01+\x80\x80\x1f\x01\f\x82$\x01"
+- "\x01\x01\x01T\x80\x81%!\(MISSING)x01\v\x82\x02\x01\x04\x04b\x04\x01"
+- "\x01\x01P"
+- "\x01\x03&\x03&\x01"
+- "\x01%!"(MISSING)
+- "\x01'\x80\x81%!\(MISSING)x02\x1f\x81\xff"
+- "\x01+\x80\x81\a\x02\x1f\x81\xff"
+- "\x01+\x80\x81%!\(MISSING)x01\v\x82\x02\x01"
+- "\x01,\x86\x81"
+- "\x01,\x86\x81\x02@\x02\x04\x01\n\x82\t\x01\a\x01sampler\x01\x04"
+- "\x01,\x86\x81\x02@\x02\x04\x01\v\x82\x02\x01\a\x01sampler\x01\x04"
+- "\x01,\x86\x81\x02@\x02\x04\x01\f\x82$\x01\a\x01sampler\x01\x04"
+- "\x01,\x86\x82\x01\xc0\x02\a\x01\f\x82$\x01\x01\x01o\x01\a"
+- "\x01,\x86\x82\x02@\x02\x05\x01\n\x82\t\x01\x01\x01P\x01\x05"
+- "\x01,\x86\x82\x02@\x02\x05\x01\v\x82\x02\x01\x01\x01P\x01\x05"
+- "\x01,\x86\x82\x02@\x02\x05\x01\f\x82$\x01\x01\x01P\x01\x05"
+- "\x01,\x86\x82\x02@\x02\x06\x01\v\x82\x02\x01\x01\x01x\x01\x06"
+- "\x01,\x86\x82\x02@\x02\x06\x01\v\x82\x02\x01\x01\x01y\x01\x06"
+- "\x01,\x86\x82\x02@\x02\x06\x01\f\x82$\x01\x01\x01x\x01\x06"
+- "\x013\x80\x80\x03\x01\x010\x82\x02\x01\x02\x01-\x82\x81 \x03\x01\v\x82\x02\x01\v\b\x02\x04\x06"
+- "\x013\x80\x80\x03\x01\x010\x82\t\x01\x02\x01-\x82\x81 \x03\x01\n\x82\t\x01\x0f\a\x02\x04\x06"
+- "\x013\x80\x80\x03\x01\x010\x82$\x01\x02\x01-\x82\x81 \x03\x01\f\x82$\x01\x14\t\x02\x04\x06"
+- "\x01B\x80\x80\x01"
+- "\x01K"
+- "\x01Q\x80\x81\a\x02\x1f\x81\xff\x03&'"
+- "\x01Q\x80\x81\b\x02#\x81\xff\x03)*"
+- "\x01Q\x82\x81\x02\x04\x01\v\x82\x02\x01\a\x12\x13"
+- "\x01Q\x82\x81\x02\x04\x01\f\x82$\x01\a\x13\x14"
+- "\x01Q\x82\x81\x02\x04\x01\f\x824\x01\a\x13\x14"
+- "\x01Q\x82\x82\x01\a\x01\f\x82$\x01\x01\x1c\x1d"
+- "\x01Q\x82\x82\x02\x06\x01\v\x82\x02\x01\x01\x18\x19"
+- "\x01Q\x82\x82\x02\x06\x01\v\x82\x02\x01\x01\x1b\x1c"
+- "\x01Q\x82\x82\x02\x06\x01\f\x82$\x01\x01\x19\x1a"
+- "\x01T\x80\x81\b\x01\f\x82$\x01\x04\bG\b\x01\x01\x04\x01Q\x82\x82\x02\x01"
+- "\x01\x82\x01 \v\x01textureGrad+\x01#textureGrad@sampler2DShadow@vec3@vec2@vec2"
+- "\x01\x86\x82\x02@\x02"
+- "\x02"
+- "\x02\x01-1\x81\xff"
+- "\x02\x01Q\x01\a\x01\v\x82\x02\x01\r\x0e\x0f"
+- "\x02\x01Q\x01\b\x01\f\x82$\x01\r\x0f\x10"
+- "\x02\x01Q\x80\x81%!\(MISSING)x02\x1f\x81\xff\x03&'"
+- "\x02\x02\x01'\x80\x81\a\x01\v\x82\x02\x01"
+- "\x02\x02\x01'\x80\x81\b\x01\f\x82$\x01"
+- "\x02\x02\x01.\x80\x81\x01"
+- "\x02\x86\x82\x02@\x02"
+- "\x03\x86\x82\x02@\x02"
+- "\x04\x01\f\x82$\x01\x01\x16\x17"
+- "\x04\x01Q\x82\x82\x02%!\(MISSING)x01\v\x82\x02\x01\x01\x15\x16"
+- "\x04\x02\x1f\x81\xff\x03\x01$48"
+- "\x04\x0f\x13\x16\x19\x1c"
+- "\x04\x10\x14\x17\x1a\x1d"
+- "\x04\x86\x82\x02@\x02"
+- "\x05\x01\x01\x04\x04\x01"
+- "\x05\x10\x14\x17\x1a\x1d "
+- "\x05\x82\x01 \x0f\x01textureProjGrad)\x01#textureProjGrad@sampler3D@vec4@vec3@vec3"
+- "\x06\x86\x82\x01\xc0\x02"
+- "\x06\x86\x82\x02@\x02"
+- "\b\x82\x01 \x14\x01textureProjLodOffset1\x01#textureProjLodOffset@isampler2D@vec3@float@ivec2"
+- "\x12\x02"
+- "\x12\x86\x81\x02@\x02"
+- "\x15\x86\x81\x02@\x02"
+- "\x1e\x01\v\x82\x02\x01\x01\x82$\x05\x03\x81\xff\x03"
+- "\x1e\x01\v\x82\x02\x01\x02\x01"
+- "\x1e\x02\x1f\x81\xff\x01\x01\x04\x81\xff\x03"
+- "\x1f\x01\f\x82$\x01\x01\x82$\x05\x03\x81\xff\x03"
+- "\x1f\x01\f\x82$\x01\x02\x01"
+- "\"\x01\f\x824\x01\x02\x01"
+- "\"\x02#\x81\xff\x01\x01\x04\x81\xff\x03"
+- ")\x86\x81\x02@\x02"
+- "4\x01\x01\x1f "
+- "8\x02"
+- "@\x04\x05\x01\n\x82\t\x01\r\x01$return_value\x01\x05"
+- "@\x04\a\x01\v\x82\x02\x01\r\x01$return_value\x01\a"
+- "@\x04\b\x01\f\x82$\x01\r\x01$return_value\x01\b"
+- "@\x04\r\r\"\x01<Compiler Temporary $return_value>"
+- "@\x04\r\x0e\"\x01<Compiler Temporary $return_value>"
+- "@\x04\r\x0f\"\x01<Compiler Temporary $return_value>"
+- "\x86\x81"
+- "\x86\x81\x02@\x02\a\x11\a\x11"
+- "\x86\x81\x02@\x02\a\x12\a\x12"
+- "\x86\x81\x02@\x02\a\x13\a\x13"
+- "\x86\x82\x01\xc0\x02\x01\x1c\x01\x1c"
+- "\x86\x82\x02@\x02\x01\x14\x01\x14"
+- "\x86\x82\x02@\x02\x01\x15\x01\x15"
+- "\x86\x82\x02@\x02\x01\x16\x01\x16"
+- "\x86\x82\x02@\x02\x01\x18\x01\x18"
+- "\x86\x82\x02@\x02\x01\x19\x01\x19"
+- "\x86\x82\x02@\x02\x01\x1b\x01\x1b"
+- "\x99\x02"
+
+```

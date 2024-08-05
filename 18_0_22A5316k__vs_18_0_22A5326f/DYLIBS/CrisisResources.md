@@ -1,0 +1,150 @@
+## CrisisResources
+
+> `/System/Library/PrivateFrameworks/CrisisResources.framework/CrisisResources`
+
+```diff
+
+-3400.58.1.0.0
++3400.61.4.0.0
+   __TEXT.__text: 0x5618
+   __TEXT.__auth_stubs: 0x680
+   __TEXT.__const: 0x544
+
+   __TEXT.__eh_frame: 0x170
+   __TEXT.__objc_methname: 0x34
+   __DATA_CONST.__got: 0x58
+-  __DATA_CONST.__const: 0x38
++  __DATA_CONST.__const: 0x78
+   __DATA_CONST.__objc_classlist: 0x8
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_selrefs: 0x10
+
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftObjectiveC.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
++  - /usr/lib/swift/libswift_Builtin_float.dylib
++  - /usr/lib/swift/libswift_errno.dylib
++  - /usr/lib/swift/libswift_math.dylib
++  - /usr/lib/swift/libswift_signal.dylib
++  - /usr/lib/swift/libswift_stdio.dylib
++  - /usr/lib/swift/libswift_time.dylib
+   - /usr/lib/swift/libswiftos.dylib
++  - /usr/lib/swift/libswiftsys_time.dylib
++  - /usr/lib/swift/libswiftunistd.dylib
+   Functions: 146
+-  Symbols:   74
+-  CStrings:  99
++  Symbols:   82
++  CStrings:  0
+ 
+Symbols:
++ __swift_FORCE_LOAD_$_swift_Builtin_float
++ __swift_FORCE_LOAD_$_swift_errno
++ __swift_FORCE_LOAD_$_swift_math
++ __swift_FORCE_LOAD_$_swift_signal
++ __swift_FORCE_LOAD_$_swift_stdio
++ __swift_FORCE_LOAD_$_swift_time
++ __swift_FORCE_LOAD_$_swiftsys_time
++ __swift_FORCE_LOAD_$_swiftunistd
+CStrings:
+- "\bO\r^\x01\xc0\xab\xb5 P\r^\x01\xc0\xab\xb5`|\x0f^\x01\xc0\xab\xb5\xf8J\x98W"
+- "\bQ\x98W"
+- "\ba\x9eW"
+- "\x10a\x9eW"
+- "\x10s\x9eW"
+- "\x10\x95\x9eW"
+- "\x10ʚW"
+- "\x18*G]\x01\xc0\xe1j\x18^\x98W"
+- "\x18K\x98W"
+- "\x18^\x9eW"
+- "\x18\x87\x9eW"
+- "\x18\xed\x9aW"
+- " ÚW"
+- "(^\x9eW"
+- "0F\x98W"
+- "0O\r^\x01\xc0\xab\xb5\xe0b\r^\x01\xc0\xab\xb5\xa8\x7f\x0f^\x01\xc0\xab\xb5\x18/G]\x01\xc0\xe1j@/G]\x01\xc0\xe1jh/G]\x01\xc0\xe1j\x90/G]\x01\xc0\xe1j\xf0P\x98W"
+- "0}\x9eW"
+- "0\xb1\x9aW"
+- "0ɚW"
+- "8F\x98W"
+- "8|\x9eW"
+- "8}\x9eW"
+- "8\x88\x9eW"
+- "8\x9b\x9aW"
+- "8ӚW"
+- "@l\x9eW"
+- "@\x88\x9eW"
+- "@\xb3\x9aW"
+- "H\x94\x9eW"
+- "H\xb6\x9aW"
+- "Pm\x98W"
+- "XI\x98W"
+- "Xt\x9eW"
+- "X\xf1\x9aW"
+- "`m\x98W"
+- "`ԚW"
+- "h*G]\x01\xc0\xe1j\x90*G]\x01\xc0\xe1j\xb0j\x98W"
+- "hCG]\x01\xc0\xe1j\x80ךW"
+- "hZ\x9eW"
+- "hԚW"
+- "h\xe9\x9aW"
+- "h\xee\x9aW"
+- "m\x9eW"
+- "pY\x0e^\x01\xc0\xab\xb5Xv\x0e^\x01\xc0\xab\xb5 \xf4\x0e^\x01\xc0\xab\xb50W\x0f^\x01\xc0\xab\xb5P'\x10^\x01\xc0\xab\xb5\xb8CG]\x01\xc0\xe1j\xe8CG]\x01\xc0\xab\xb5\xc8BG]\x01\xc0\xe1j\x90c\x98W"
+- "p\x86\x9eW"
+- "x\x1e\x0f^\x01\xc0\xab\xb5\x90\xfb\x0f^\x01\xc0\xab\xb5\xb8\xfb\x0f^\x01\xc0\xab\xb5\xf8$G]\x01\xc0\xab\xb5\b/\x0f^\x01\xc0\xab\xb5 \xfd\x0f^\x01\xc0\xab\xb5H\xfd\x0f^\x01\xc0\xab\xb5p%!G(MISSING)]\x01\xc0\xab\xb5\xa8&G]\x01\xc0\xe1j\xf8I\x98W"
+- "xq\x98W"
+- "\x80+G]\x01\xc0\xe1j\xa8+G]\x01\xc0\xe1j\xd0+G]\x01\xc0\xe1j\xf8+G]\x01\xc0\xe1jXM\x98W"
+- "\x800G]\x01\xc0\xe1j\xa80G]\x01\xc0\xe1j\xd00G]\x01\xc0\xe1j\xb8\xea\x9aW"
+- "\x80\\\x9eW"
+- "\x80\x86\x9eW"
+- "\x88AG]\x01\xc0\xe1j\xd8AG]\x01\xc0\xe1jPY\x98W"
+- "\x88_\x9eW"
+- "\x88c\x98W"
+- "\x88\x90\x9eW"
+- "\x88\x98\x9eW"
+- "\x89\x9eW"
+- "\x90\xbd\x9aW"
+- "\x90\xe1\x9aW"
+- "\x90\xe5\x9aW"
+- "\x98v\x98W"
+- "\x98\x95\x9eW"
+- "\xa0.G]\x01\xc0\xe1j([\x98W"
+- "\xa0\x8c\x9eW"
+- "\xa0ߚW"
+- "\xa0\xe5\x9aW"
+- "\xa8v\x98W"
+- "\xa8\x82\x9eW"
+- "\xa8\x90\x9eW"
+- "\xa8\xb1\x9aW"
+- "\xb0-G]\x01\xc0\xe1jX+G]\x01\xc0\xe1j\xb8Z\x98W"
+- "\xb0\x8c\x9eW"
+- "\xb8ښW"
+- "\xc0,G]\x01\xc0\xe1j\xe8,G]\x01\xc0\xe1j\x10-G]\x01\xc0\xe1j\x98Q\x98W"
+- "\xc0C\x9eW"
+- "\xc0U\x98W"
+- "\xc0f\x9eW"
+- "\xc8T\x98W"
+- "\xc8_\x98W"
+- "\xc8b\x98W"
+- "Ș\x9aW"
+- "\xd8E\x9eW"
+- "ؘ\x9aW"
+- "ش\x9aW"
+- "\xe0K\x98W"
+- "\xe0WG]\x01\xc0\xe1j\xb8WG]\x01\xc0\xe1j\xd8X\x98W"
+- "\xe0Z\x9eW"
+- "ේW"
+- "\xe0ÚW"
+- "\xe0ޚW"
+- "\xe0\xed\x9aW"
+- "\xe8@G]\x01\xc0\xe1j\x18q\x98W"
+- "\xe8\x7f\x9eW"
+- "贚W"
+- "跚W"
+- "\xf0\x91\x9eW"
+- "\xf0ޚW"
+- "\xf8&G]\x01\xc0\xe1j\x10Y\x98W"
+- "\xf8\x7f\x9eW"
+
+```

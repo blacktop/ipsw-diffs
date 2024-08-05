@@ -1,0 +1,203 @@
+## TVRemoteUIService
+
+> `/Applications/TVRemoteUIService.app/TVRemoteUIService`
+
+```diff
+
+-443.0.31.0.0
+-  __TEXT.__text: 0xa748
++443.0.40.0.0
++  __TEXT.__text: 0xa81c
+   __TEXT.__auth_stubs: 0xaa0
+-  __TEXT.__objc_stubs: 0x1500
++  __TEXT.__objc_stubs: 0x1520
+   __TEXT.__objc_methlist: 0x7b4
+   __TEXT.__const: 0x614
+-  __TEXT.__oslogstring: 0xb74
+-  __TEXT.__cstring: 0x721
++  __TEXT.__oslogstring: 0xc24
++  __TEXT.__cstring: 0x741
+   __TEXT.__objc_classname: 0x1d0
+   __TEXT.__objc_methname: 0x28aa
+   __TEXT.__objc_methtype: 0x1000
+   __TEXT.__gcc_except_tab: 0x14
+-  __TEXT.__swift5_typeref: 0x344
++  __TEXT.__swift5_typeref: 0x342
+   __TEXT.__swift5_reflstr: 0x114
+   __TEXT.__swift5_assocty: 0xa8
+   __TEXT.__constg_swiftt: 0x1f4
+
+   __TEXT.__unwind_info: 0x428
+   __TEXT.__eh_frame: 0x230
+   __DATA_CONST.__auth_got: 0x560
+-  __DATA_CONST.__got: 0x1f8
++  __DATA_CONST.__got: 0x208
+   __DATA_CONST.__auth_ptr: 0x340
+-  __DATA_CONST.__const: 0x578
++  __DATA_CONST.__const: 0x5b8
+   __DATA_CONST.__cfstring: 0x40
+   __DATA_CONST.__objc_classlist: 0x58
+   __DATA_CONST.__objc_protolist: 0x70
+
+   __DATA.__objc_selrefs: 0x7a0
+   __DATA.__objc_ivar: 0x70
+   __DATA.__objc_data: 0x4f8
+-  __DATA.__data: 0x678
++  __DATA.__data: 0x688
+   __DATA.__bss: 0x9a0
+-  __DATA.__common: 0x58
++  __DATA.__common: 0x70
+   - /System/Library/Frameworks/AppIntents.framework/AppIntents
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+
+   - /usr/lib/swift/libswiftSpriteKit.dylib
+   - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
++  - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
++  - /usr/lib/swift/libswift_errno.dylib
++  - /usr/lib/swift/libswift_math.dylib
++  - /usr/lib/swift/libswift_signal.dylib
++  - /usr/lib/swift/libswift_stdio.dylib
++  - /usr/lib/swift/libswift_time.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 342
+-  Symbols:   3079
+-  CStrings:  654
++  - /usr/lib/swift/libswiftsys_time.dylib
++  - /usr/lib/swift/libswiftunistd.dylib
++  Functions: 343
++  Symbols:   3114
++  CStrings:  657
+ 
+Symbols:
++ -[TVDefaultSceneDelegate scene:willConnectToSession:options:].cold.1
++ -[TVDefaultSceneDelegate scene:willConnectToSession:options:].cold.1
++ _$s10AppIntents26IntentAuthenticationPolicyO13alwaysAllowedyA2CmFWC
++ _$s10AppIntents26IntentAuthenticationPolicyOMa
++ _$s17TVRemoteUIService11TipsManagerC05setupC8Observer33_7F9C04984B82067EE39136EE9C324E5DLLyyFyyYacfU_
++ _$s17TVRemoteUIService11TipsManagerC05setupC8Observer33_7F9C04984B82067EE39136EE9C324E5DLLyyFyyYacfU_
++ _$s17TVRemoteUIService11TipsManagerC05setupC8Observer33_7F9C04984B82067EE39136EE9C324E5DLLyyFyyYacfU_TA
++ _$s17TVRemoteUIService11TipsManagerC05setupC8Observer33_7F9C04984B82067EE39136EE9C324E5DLLyyFyyYacfU_TA
++ _$s17TVRemoteUIService11TipsManagerC05setupC8Observer33_7F9C04984B82067EE39136EE9C324E5DLLyyFyyYacfU_TATQ0_
++ _$s17TVRemoteUIService11TipsManagerC05setupC8Observer33_7F9C04984B82067EE39136EE9C324E5DLLyyFyyYacfU_TATu
++ _$s17TVRemoteUIService11TipsManagerC05setupC8Observer33_7F9C04984B82067EE39136EE9C324E5DLLyyFyyYacfU_TATu
++ _$s17TVRemoteUIService11TipsManagerC05setupC8Observer33_7F9C04984B82067EE39136EE9C324E5DLLyyFyyYacfU_TQ2_
++ _$s17TVRemoteUIService11TipsManagerC05setupC8Observer33_7F9C04984B82067EE39136EE9C324E5DLLyyFyyYacfU_TQ2_
++ _$s17TVRemoteUIService11TipsManagerC05setupC8Observer33_7F9C04984B82067EE39136EE9C324E5DLLyyFyyYacfU_TQ5_
++ _$s17TVRemoteUIService11TipsManagerC05setupC8Observer33_7F9C04984B82067EE39136EE9C324E5DLLyyFyyYacfU_TQ5_
++ _$s17TVRemoteUIService11TipsManagerC05setupC8Observer33_7F9C04984B82067EE39136EE9C324E5DLLyyFyyYacfU_TY0_
++ _$s17TVRemoteUIService11TipsManagerC05setupC8Observer33_7F9C04984B82067EE39136EE9C324E5DLLyyFyyYacfU_TY0_
++ _$s17TVRemoteUIService11TipsManagerC05setupC8Observer33_7F9C04984B82067EE39136EE9C324E5DLLyyFyyYacfU_TY1_
++ _$s17TVRemoteUIService11TipsManagerC05setupC8Observer33_7F9C04984B82067EE39136EE9C324E5DLLyyFyyYacfU_TY1_
++ _$s17TVRemoteUIService11TipsManagerC05setupC8Observer33_7F9C04984B82067EE39136EE9C324E5DLLyyFyyYacfU_TY3_
++ _$s17TVRemoteUIService11TipsManagerC05setupC8Observer33_7F9C04984B82067EE39136EE9C324E5DLLyyFyyYacfU_TY3_
++ _$s17TVRemoteUIService11TipsManagerC05setupC8Observer33_7F9C04984B82067EE39136EE9C324E5DLLyyFyyYacfU_TY4_
++ _$s17TVRemoteUIService11TipsManagerC05setupC8Observer33_7F9C04984B82067EE39136EE9C324E5DLLyyFyyYacfU_TY4_
++ _$s17TVRemoteUIService11TipsManagerC05setupC8Observer33_7F9C04984B82067EE39136EE9C324E5DLLyyFyyYacfU_TY6_
++ _$s17TVRemoteUIService11TipsManagerC05setupC8Observer33_7F9C04984B82067EE39136EE9C324E5DLLyyFyyYacfU_TY6_
++ _$s17TVRemoteUIService11TipsManagerC05setupC8Observer33_7F9C04984B82067EE39136EE9C324E5DLLyyFyyYacfU_TY7_
++ _$s17TVRemoteUIService11TipsManagerC05setupC8Observer33_7F9C04984B82067EE39136EE9C324E5DLLyyFyyYacfU_TY7_
++ _$s17TVRemoteUIService11TipsManagerC05setupC8Observer33_7F9C04984B82067EE39136EE9C324E5DLLyyFyyYacfU_TY8_
++ _$s17TVRemoteUIService11TipsManagerC05setupC8Observer33_7F9C04984B82067EE39136EE9C324E5DLLyyFyyYacfU_TY8_
++ _$s17TVRemoteUIService11TipsManagerC05setupC8Observer33_7F9C04984B82067EE39136EE9C324E5DLLyyFyyYacfU_Tu
++ _$s17TVRemoteUIService11TipsManagerC05setupC8Observer33_7F9C04984B82067EE39136EE9C324E5DLLyyFyyYacfU_Tu
++ _$s17TVRemoteUIService15LaunchAppIntentV20authenticationPolicy0D7Intents0e14AuthenticationG0OvpZ
++ _$s17TVRemoteUIService15LaunchAppIntentV20authenticationPolicy0D7Intents0e14AuthenticationG0OvpZ
++ _$s17TVRemoteUIService15LaunchAppIntentV20authenticationPolicy_WZ
++ _$s17TVRemoteUIService15LaunchAppIntentV20authenticationPolicy_WZ
++ _$s17TVRemoteUIService15LaunchAppIntentV20authenticationPolicy_Wz
++ _$s17TVRemoteUIService15LaunchAppIntentV20authenticationPolicy_Wz
++ _$sScTss5NeverORs_rlE8priority9operationScTyxABGScPSg_xyYaYAcntcfCyt_Tgm5
++ _$sScTss5NeverORs_rlE8priority9operationScTyxABGScPSg_xyYaYAcntcfCyt_Tgm5
++ _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5
++ _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5
++ _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA
++ _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA
++ _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TATQ0_
++ _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TATu
++ _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TATu
++ _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TQ0_
++ _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TQ0_
++ _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5Tu
++ _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5Tu
++ __swift_FORCE_LOAD_$_swift_Builtin_float
++ __swift_FORCE_LOAD_$_swift_Builtin_float_$_TVRemoteUIService
++ __swift_FORCE_LOAD_$_swift_Builtin_float_$_TVRemoteUIService
++ __swift_FORCE_LOAD_$_swift_errno
++ __swift_FORCE_LOAD_$_swift_errno_$_TVRemoteUIService
++ __swift_FORCE_LOAD_$_swift_errno_$_TVRemoteUIService
++ __swift_FORCE_LOAD_$_swift_math
++ __swift_FORCE_LOAD_$_swift_math_$_TVRemoteUIService
++ __swift_FORCE_LOAD_$_swift_math_$_TVRemoteUIService
++ __swift_FORCE_LOAD_$_swift_signal
++ __swift_FORCE_LOAD_$_swift_signal_$_TVRemoteUIService
++ __swift_FORCE_LOAD_$_swift_signal_$_TVRemoteUIService
++ __swift_FORCE_LOAD_$_swift_stdio
++ __swift_FORCE_LOAD_$_swift_stdio_$_TVRemoteUIService
++ __swift_FORCE_LOAD_$_swift_stdio_$_TVRemoteUIService
++ __swift_FORCE_LOAD_$_swift_time
++ __swift_FORCE_LOAD_$_swift_time_$_TVRemoteUIService
++ __swift_FORCE_LOAD_$_swift_time_$_TVRemoteUIService
++ __swift_FORCE_LOAD_$_swiftsys_time
++ __swift_FORCE_LOAD_$_swiftsys_time_$_TVRemoteUIService
++ __swift_FORCE_LOAD_$_swiftsys_time_$_TVRemoteUIService
++ __swift_FORCE_LOAD_$_swiftunistd
++ __swift_FORCE_LOAD_$_swiftunistd_$_TVRemoteUIService
++ __swift_FORCE_LOAD_$_swiftunistd_$_TVRemoteUIService
++ _objc_msgSend$setMainViewController:
++ _symbolic ytIeAgHr_
++ _symbolic ytIeAgHr_
+- _$s10AppIntents0A6IntentPAAE20authenticationPolicyAA0c14AuthenticationE0OvgZ
+- _$s17TVRemoteUIService11TipsManagerC05setupC8Observer33_7F9C04984B82067EE39136EE9C324E5DLLyyFyyYaYbcfU_
+- _$s17TVRemoteUIService11TipsManagerC05setupC8Observer33_7F9C04984B82067EE39136EE9C324E5DLLyyFyyYaYbcfU_
+- _$s17TVRemoteUIService11TipsManagerC05setupC8Observer33_7F9C04984B82067EE39136EE9C324E5DLLyyFyyYaYbcfU_TA
+- _$s17TVRemoteUIService11TipsManagerC05setupC8Observer33_7F9C04984B82067EE39136EE9C324E5DLLyyFyyYaYbcfU_TA
+- _$s17TVRemoteUIService11TipsManagerC05setupC8Observer33_7F9C04984B82067EE39136EE9C324E5DLLyyFyyYaYbcfU_TATQ0_
+- _$s17TVRemoteUIService11TipsManagerC05setupC8Observer33_7F9C04984B82067EE39136EE9C324E5DLLyyFyyYaYbcfU_TATu
+- _$s17TVRemoteUIService11TipsManagerC05setupC8Observer33_7F9C04984B82067EE39136EE9C324E5DLLyyFyyYaYbcfU_TATu
+- _$s17TVRemoteUIService11TipsManagerC05setupC8Observer33_7F9C04984B82067EE39136EE9C324E5DLLyyFyyYaYbcfU_TQ2_
+- _$s17TVRemoteUIService11TipsManagerC05setupC8Observer33_7F9C04984B82067EE39136EE9C324E5DLLyyFyyYaYbcfU_TQ2_
+- _$s17TVRemoteUIService11TipsManagerC05setupC8Observer33_7F9C04984B82067EE39136EE9C324E5DLLyyFyyYaYbcfU_TQ5_
+- _$s17TVRemoteUIService11TipsManagerC05setupC8Observer33_7F9C04984B82067EE39136EE9C324E5DLLyyFyyYaYbcfU_TQ5_
+- _$s17TVRemoteUIService11TipsManagerC05setupC8Observer33_7F9C04984B82067EE39136EE9C324E5DLLyyFyyYaYbcfU_TY0_
+- _$s17TVRemoteUIService11TipsManagerC05setupC8Observer33_7F9C04984B82067EE39136EE9C324E5DLLyyFyyYaYbcfU_TY0_
+- _$s17TVRemoteUIService11TipsManagerC05setupC8Observer33_7F9C04984B82067EE39136EE9C324E5DLLyyFyyYaYbcfU_TY1_
+- _$s17TVRemoteUIService11TipsManagerC05setupC8Observer33_7F9C04984B82067EE39136EE9C324E5DLLyyFyyYaYbcfU_TY1_
+- _$s17TVRemoteUIService11TipsManagerC05setupC8Observer33_7F9C04984B82067EE39136EE9C324E5DLLyyFyyYaYbcfU_TY3_
+- _$s17TVRemoteUIService11TipsManagerC05setupC8Observer33_7F9C04984B82067EE39136EE9C324E5DLLyyFyyYaYbcfU_TY3_
+- _$s17TVRemoteUIService11TipsManagerC05setupC8Observer33_7F9C04984B82067EE39136EE9C324E5DLLyyFyyYaYbcfU_TY4_
+- _$s17TVRemoteUIService11TipsManagerC05setupC8Observer33_7F9C04984B82067EE39136EE9C324E5DLLyyFyyYaYbcfU_TY4_
+- _$s17TVRemoteUIService11TipsManagerC05setupC8Observer33_7F9C04984B82067EE39136EE9C324E5DLLyyFyyYaYbcfU_TY6_
+- _$s17TVRemoteUIService11TipsManagerC05setupC8Observer33_7F9C04984B82067EE39136EE9C324E5DLLyyFyyYaYbcfU_TY6_
+- _$s17TVRemoteUIService11TipsManagerC05setupC8Observer33_7F9C04984B82067EE39136EE9C324E5DLLyyFyyYaYbcfU_TY7_
+- _$s17TVRemoteUIService11TipsManagerC05setupC8Observer33_7F9C04984B82067EE39136EE9C324E5DLLyyFyyYaYbcfU_TY7_
+- _$s17TVRemoteUIService11TipsManagerC05setupC8Observer33_7F9C04984B82067EE39136EE9C324E5DLLyyFyyYaYbcfU_TY8_
+- _$s17TVRemoteUIService11TipsManagerC05setupC8Observer33_7F9C04984B82067EE39136EE9C324E5DLLyyFyyYaYbcfU_TY8_
+- _$s17TVRemoteUIService11TipsManagerC05setupC8Observer33_7F9C04984B82067EE39136EE9C324E5DLLyyFyyYaYbcfU_Tu
+- _$s17TVRemoteUIService11TipsManagerC05setupC8Observer33_7F9C04984B82067EE39136EE9C324E5DLLyyFyyYaYbcfU_Tu
+- _$sScPSgWOc
+- _$sScPSgWOc
+- _$sScTss5NeverORs_rlE8priority9operationScTyxABGScPSg_xyYaYbYAcntcfCyt_Tgm5
+- _$sScTss5NeverORs_rlE8priority9operationScTyxABGScPSg_xyYaYbYAcntcfCyt_Tgm5
+- _$sxIeAghHr_xs5Error_pIeghHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5
+- _$sxIeAghHr_xs5Error_pIeghHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5
+- _$sxIeAghHr_xs5Error_pIeghHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA
+- _$sxIeAghHr_xs5Error_pIeghHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA
+- _$sxIeAghHr_xs5Error_pIeghHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TATQ0_
+- _$sxIeAghHr_xs5Error_pIeghHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TATu
+- _$sxIeAghHr_xs5Error_pIeghHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TATu
+- _$sxIeAghHr_xs5Error_pIeghHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TQ0_
+- _$sxIeAghHr_xs5Error_pIeghHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TQ0_
+- _$sxIeAghHr_xs5Error_pIeghHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5Tu
+- _$sxIeAghHr_xs5Error_pIeghHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5Tu
+- _symbolic ytIeAghHr_
+- _symbolic ytIeAghHr_
+CStrings:
++ "Entering lock screen but device is not connected. Dismissing remote view."
++ "SpringBoard is attempting to launch the app instead of the view service. Ignoring setting up the scene"
++ "Target description"
+
+```

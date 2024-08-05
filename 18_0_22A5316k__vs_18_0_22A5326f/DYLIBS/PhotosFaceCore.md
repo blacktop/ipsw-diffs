@@ -1,0 +1,126 @@
+## PhotosFaceCore
+
+> `/System/Library/PrivateFrameworks/PhotosFaceCore.framework/PhotosFaceCore`
+
+```diff
+
+-58.0.1.0.0
+-  __TEXT.__text: 0x2488
++65.0.0.0.0
++  __TEXT.__text: 0x2a20
+   __TEXT.__auth_stubs: 0x2c0
+-  __TEXT.__objc_methlist: 0x378
++  __TEXT.__objc_methlist: 0x3f8
+   __TEXT.__const: 0x266
+-  __TEXT.__cstring: 0x293
+-  __TEXT.__oslogstring: 0x2d4
++  __TEXT.__cstring: 0x2ac
++  __TEXT.__oslogstring: 0x2da
+   __TEXT.__swift5_typeref: 0x17
+   __TEXT.__constg_swiftt: 0x38
+   __TEXT.__swift5_builtin: 0x14
+
+   __TEXT.__swift5_assocty: 0x18
+   __TEXT.__swift5_proto: 0xc
+   __TEXT.__swift5_types: 0x4
+-  __TEXT.__unwind_info: 0x108
++  __TEXT.__unwind_info: 0x118
+   __TEXT.__objc_classname: 0x96
+-  __TEXT.__objc_methname: 0xb85
+-  __TEXT.__objc_methtype: 0x1ef
+-  __TEXT.__objc_stubs: 0x980
+-  __DATA_CONST.__got: 0xa8
+-  __DATA_CONST.__const: 0x90
++  __TEXT.__objc_methname: 0xd07
++  __TEXT.__objc_methtype: 0x20b
++  __TEXT.__objc_stubs: 0xa60
++  __DATA_CONST.__got: 0xb0
++  __DATA_CONST.__const: 0xd0
+   __DATA_CONST.__objc_classlist: 0x30
+   __DATA_CONST.__objc_protolist: 0x18
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x328
++  __DATA_CONST.__objc_selrefs: 0x378
+   __DATA_CONST.__objc_superrefs: 0x28
+   __AUTH_CONST.__auth_got: 0x168
+   __AUTH_CONST.__auth_ptr: 0x58
+   __AUTH_CONST.__const: 0x60
+-  __AUTH_CONST.__cfstring: 0x380
+-  __AUTH_CONST.__objc_const: 0x9e0
+-  __AUTH.__objc_data: 0x1e0
+-  __DATA.__objc_ivar: 0x70
++  __AUTH_CONST.__cfstring: 0x3a0
++  __AUTH_CONST.__objc_const: 0xac0
++  __AUTH.__objc_data: 0xf0
++  __DATA.__objc_ivar: 0x80
+   __DATA.__data: 0x130
+-  __DATA.__bss: 0x190
++  __DATA.__bss: 0x180
++  __DATA_DIRTY.__objc_data: 0xf0
++  __DATA_DIRTY.__bss: 0x10
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftObjectiveC.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+-  Functions: 82
+-  Symbols:   162
+-  CStrings:  0
++  - /usr/lib/swift/libswift_Builtin_float.dylib
++  - /usr/lib/swift/libswift_errno.dylib
++  - /usr/lib/swift/libswift_math.dylib
++  - /usr/lib/swift/libswift_signal.dylib
++  - /usr/lib/swift/libswift_stdio.dylib
++  - /usr/lib/swift/libswift_time.dylib
++  - /usr/lib/swift/libswiftsys_time.dylib
++  - /usr/lib/swift/libswiftunistd.dylib
++  Functions: 94
++  Symbols:   184
++  CStrings:  30
+ 
+Symbols:
++ _OBJC_CLASS_$_PFCShuffleDataSource
++ _OBJC_METACLASS_$_PFCShuffleDataSource
++ __swift_FORCE_LOAD_$_swift_Builtin_float
++ __swift_FORCE_LOAD_$_swift_errno
++ __swift_FORCE_LOAD_$_swift_math
++ __swift_FORCE_LOAD_$_swift_signal
++ __swift_FORCE_LOAD_$_swift_stdio
++ __swift_FORCE_LOAD_$_swift_time
++ __swift_FORCE_LOAD_$_swiftsys_time
++ __swift_FORCE_LOAD_$_swiftunistd
+CStrings:
++ "ENS_13SdfListOpTypeERKNSt3__18functionIFNS3_8optionalIyEES2_RKyEEEPNS3_4listIyNS3_9allocatorIyEEEEPNS3_3mapIyNS3_15__list_iteratorIyPvEENS3_4lessIyEENSE_INS3_4pairIS7_SL_EEEEEE"
++ "_EEEERKNS1_8functionIFNS1_8optionalIS7_EENS_13SdfListOpTypeERKS7_EEE"
++ "__ZN32pxrInternal__aapl__pxrReserved__9SdfListOpINS_7TfTokenEE16SetExplicitItemsERKNSt3__16vectorIS1_NS3_9allocatorIS1_EEEE"
++ "__ZN32pxrInternal__aapl__pxrReserved__9SdfListOpINS_7TfTokenEE17SetPrependedItemsERKNSt3__16vectorIS1_NS3_9allocatorIS1_EEEE"
++ "__ZN32pxrInternal__aapl__pxrReserved__9SdfListOpINS_7TfTokenEEC1Ev"
++ "__ZN32pxrInternal__aapl__pxrReserved__9SdfListOpINSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEEE12_SetExplicitEb"
++ "__ZN32pxrInternal__aapl__pxrReserved__9SdfListOpINSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEEE13SetAddedItemsERKNS1_6vectorIS7_NS5_IS7_EEEE"
++ "__ZN32pxrInternal__aapl__pxrReserved__9SdfListOpINSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEEE15SetOrderedItemsERKNS1_6vectorIS7_NS5_IS7_EEEE"
++ "__ZN32pxrInternal__aapl__pxrReserved__9SdfListOpINSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEEE16ModifyOperationsERKNS1_8functionIFNS1_8optionalIS7_EERKS7_EEEb"
++ "__ZN32pxrInternal__aapl__pxrReserved__9SdfListOpINSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEEE16SetAppendedItemsERKNS1_6vectorIS7_NS5_IS7_EEEE"
++ "__ZN32pxrInternal__aapl__pxrReserved__9SdfListOpINSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEEE16SetExplicitItemsERKNS1_6vectorIS7_NS5_IS7_EEEE"
++ "__ZN32pxrInternal__aapl__pxrReserved__9SdfListOpINSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEEE17ComposeOperationsERKS8_NS_13SdfListOpTypeE"
++ "__ZN32pxrInternal__aapl__pxrReserved__9SdfListOpINSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEEE17ReplaceOperationsENS_13SdfListOpTypeEmmRKNS1_6vectorIS7_NS5_IS7_EEEE"
++ "__ZN32pxrInternal__aapl__pxrReserved__9SdfListOpINSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEEE17SetPrependedItemsERKNS1_6vectorIS7_NS5_IS7_EEEE"
++ "__ZN32pxrInternal__aapl__pxrReserved__9SdfListOpINSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEEE20ClearAndMakeExplicitEv"
++ "__ZN32pxrInternal__aapl__pxrReserved__9SdfListOpINSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEEE8SetItemsERKNS1_6vectorIS7_NS5_IS7_EEEENS_13SdfListOpTypeE"
++ "__ZN32pxrInternal__aapl__pxrReserved__lsINSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEEEERNS1_13basic_ostreamIcS4_EESA_RKNS_9SdfListOpIT_EE"
++ "__ZN32pxrInternal__aapl__pxrReserved__lsIyEERNSt3__113basic_ostreamIcNS1_11char_traitsIcEEEES6_RKNS_9SdfListOpIT_EE"
++ "__ZNK32pxrInternal__aapl__pxrReserved__9SdfListOpINSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEEE11_AppendKeysENS_13SdfListOpTypeERKNS1_8functionIFNS1_8optionalIS7_EES9_RKS7_EEEPNS1_4listIS7_NS5_IS7_EEEEPNS1_3mapIS7_NS1_15__list_iteratorIS7_PvEENS1_4lessIS7_EENS5_INS1_4pairISD_SQ_EEEEEE"
++ "__ZNK32pxrInternal__aapl__pxrReserved__9SdfListOpINSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEEE11_DeleteKeysENS_13SdfListOpTypeERKNS1_8functionIFNS1_8optionalIS7_EES9_RKS7_EEEPNS1_4listIS7_NS5_IS7_EEEEPNS1_3mapIS7_NS1_15__list_iteratorIS7_PvEENS1_4lessIS7_EENS5_INS1_4pairISD_SQ_EEEEEE"
++ "__ZNK32pxrInternal__aapl__pxrReserved__9SdfListOpINSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEEE12_PrependKeysENS_13SdfListOpTypeERKNS1_8functionIFNS1_8optionalIS7_EES9_RKS7_EEEPNS1_4listIS7_NS5_IS7_EEEEPNS1_3mapIS7_NS1_15__list_iteratorIS7_PvEENS1_4lessIS7_EENS5_INS1_4pairISD_SQ_EEEEEE"
++ "__ZNK32pxrInternal__aapl__pxrReserved__9SdfListOpINSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEEE12_ReorderKeysENS_13SdfListOpTypeERKNS1_8functionIFNS1_8optionalIS7_EES9_RKS7_EEEPNS1_4listIS7_NS5_IS7_EEEEPNS1_3mapIS7_NS1_15__list_iteratorIS7_PvEENS1_4lessIS7_EENS5_INS1_4pairISD_SQ_EEEEEE"
++ "__ZNK32pxrInternal__aapl__pxrReserved__9SdfListOpINSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEEE15ApplyOperationsERKS8_"
++ "__ZNK32pxrInternal__aapl__pxrReserved__9SdfListOpINSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEEE8_AddKeysENS_13SdfListOpTypeERKNS1_8functionIFNS1_8optionalIS7_EES9_RKS7_EEEPNS1_4listIS7_NS5_IS7_EEEEPNS1_3mapIS7_NS1_15__list_iteratorIS7_PvEENS1_4lessIS7_EENS5_INS1_4pairISD_SQ_EEEEEE"
++ "__ZNK32pxrInternal__aapl__pxrReserved__9SdfListOpINSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEEEeqERKS8_"
++ "__ZNK32pxrInternal__aapl__pxrReserved__9SdfListOpIyE12_ReorderKeysENS_13SdfListOpTypeERKNSt3__18functionIFNS3_8optionalIyEES2_RKyEEEPNS3_4listIyNS3_9allocatorIyEEEEPNS3_3mapIyNS3_15__list_iteratorIyPvEENS3_4lessIyEENSE_INS3_4pairIS7_SL_EEEEEE"
++ "__ZNK32pxrInternal__aapl__pxrReserved__9SdfListOpIyE15ApplyOperationsERKS1_"
++ "__ZNK32pxrInternal__aapl__pxrReserved__9SdfListOpIyEeqERKS1_"
++ "eserved__9SdfListOpINS_7TfTokenEE14CreateExplicitERKNSt3__16vectorIS1_NS3_9allocatorIS1_EEEE"
++ "ternal__aapl__pxrReserved__9SdfListOpINSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEEEC1Ev"
+
+```

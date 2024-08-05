@@ -1,0 +1,278 @@
+## HealthKitAdditions
+
+> `/System/Library/PrivateFrameworks/HealthKitAdditions.framework/HealthKitAdditions`
+
+```diff
+
+-5132.0.0.0.0
+-  __TEXT.__text: 0x6843c
+-  __TEXT.__auth_stubs: 0x1fe0
++5138.0.1.1.0
++  __TEXT.__text: 0x68764
++  __TEXT.__auth_stubs: 0x2010
+   __TEXT.__objc_methlist: 0xf4
+   __TEXT.__const: 0x43a0
+   __TEXT.__cstring: 0x1a99
+
+   __TEXT.__swift5_types: 0x1ec
+   __TEXT.__swift5_mpenum: 0x20
+   __TEXT.__swift5_protos: 0x20
+-  __TEXT.__oslogstring: 0x3b1
+-  __TEXT.__unwind_info: 0x1f28
+-  __TEXT.__eh_frame: 0x16f8
++  __TEXT.__oslogstring: 0x3b3
++  __TEXT.__unwind_info: 0x1f00
++  __TEXT.__eh_frame: 0x1700
+   __TEXT.__objc_classname: 0xba
+   __TEXT.__objc_methname: 0x145a
+   __TEXT.__objc_methtype: 0x75a
+-  __DATA_CONST.__got: 0x8e8
+-  __DATA_CONST.__const: 0x150
++  __DATA_CONST.__got: 0x900
++  __DATA_CONST.__const: 0x190
+   __DATA_CONST.__objc_classlist: 0x18
+   __DATA_CONST.__objc_catlist: 0x8
+   __DATA_CONST.__objc_protolist: 0x78
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_selrefs: 0x4c0
+   __DATA_CONST.__objc_protorefs: 0x40
+-  __AUTH_CONST.__auth_got: 0xff0
++  __AUTH_CONST.__auth_got: 0x1008
+   __AUTH_CONST.__auth_ptr: 0x6f0
+   __AUTH_CONST.__const: 0x4d68
+   __AUTH_CONST.__objc_const: 0x13c0
+   __AUTH.__objc_data: 0x38
+-  __AUTH.__data: 0x930
+-  __DATA.__data: 0x1378
+-  __DATA.__bss: 0x4d90
++  __AUTH.__data: 0x880
++  __DATA.__data: 0x10e8
++  __DATA.__bss: 0x4b10
+   __DATA.__common: 0x40
+-  __DATA_DIRTY.__data: 0x1820
+-  __DATA_DIRTY.__bss: 0x1980
++  __DATA_DIRTY.__data: 0x1bc0
++  __DATA_DIRTY.__bss: 0x1c00
+   __DATA_DIRTY.__common: 0x28
+   - /System/Library/Frameworks/Combine.framework/Combine
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+
+   - /usr/lib/swift/libswiftRegexBuilder.dylib
+   - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
++  - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswift_StringProcessing.dylib
++  - /usr/lib/swift/libswift_errno.dylib
++  - /usr/lib/swift/libswift_math.dylib
++  - /usr/lib/swift/libswift_signal.dylib
++  - /usr/lib/swift/libswift_stdio.dylib
++  - /usr/lib/swift/libswift_time.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 2895
+-  Symbols:   435
+-  CStrings:  0
++  - /usr/lib/swift/libswiftsys_time.dylib
++  - /usr/lib/swift/libswiftunistd.dylib
++  Functions: 2881
++  Symbols:   443
++  CStrings:  185
+ 
+Symbols:
++ __swift_FORCE_LOAD_$_swift_Builtin_float
++ __swift_FORCE_LOAD_$_swift_errno
++ __swift_FORCE_LOAD_$_swift_math
++ __swift_FORCE_LOAD_$_swift_signal
++ __swift_FORCE_LOAD_$_swift_stdio
++ __swift_FORCE_LOAD_$_swift_time
++ __swift_FORCE_LOAD_$_swiftsys_time
++ __swift_FORCE_LOAD_$_swiftunistd
+CStrings:
++ "SharableModelQueryPredicateVMn"
++ "Svg"
++ "_$s10Foundation12DateIntervalV16HealthExperienceE07allTimeC0ACvgZ"
++ "_$s10Foundation12DateIntervalV16HealthExperienceE09entireDayC03forAcA0B0V_tFZ"
++ "_$s10Foundation12DateIntervalV16HealthExperienceE12halfYearBack4from8calendarAcA0B0V_AA8CalendarVtFZ"
++ "_$s10Foundation4DateV16HealthExperienceE10adjustedBy5years6months4days5hours7minutes7secondsACSi_S5itF"
++ "_$s10Foundation4DateV16HealthExperienceE10oneWeekAgoACvg"
++ "_$s10Foundation4DateV16HealthExperienceE10oneYearAgoACvg"
++ "_$s10Foundation4DateV16HealthExperienceE11oneMonthAgoACvg"
++ "_$s10Foundation4DateV16HealthExperienceE11startOfWeek3forACSgAA8CalendarV_tF"
++ "_$s10Foundation4DateV16HealthExperienceE12fiveYearsAgoACvg"
++ "_$s10Foundation4DateV16HealthExperienceE12oneYearAfterACvg"
++ "_$s10Foundation4DateV16HealthExperienceE13isInSameMonth4dateSbAC_tF"
++ "_$s10Foundation4DateV16HealthExperienceE17twentySixWeeksAgo3forACSgAA8CalendarV_tF"
++ "_$s10Foundation4DateV16HealthExperienceE8tomorrowACvg"
++ "_$s14HealthPlatform0A12StoreContextMp"
++ "_$s14HealthPlatform0A15ExperienceStoreP010persistentD11CoordinatorSo012NSPersistentdF0CvgTj"
++ "_$s14HealthPlatform0A15ExperienceStoreP010persistentD11DescriptionSo012NSPersistentdF0CvgTj"
++ "_$s14HealthPlatform0A15ExperienceStoreP11viewContextSo015NSManagedObjectF0CvgTj"
++ "_$s14HealthPlatform0A15ExperienceStoreP19persistentContainerSo012NSPersistentF0CvgTj"
++ "_$s14HealthPlatform0A15ExperienceStoreP23sharedBackgroundContextSo015NSManagedObjectG0CvgTj"
++ "_$s14HealthPlatform0A15ExperienceStorePAAE15managedObjectID3forSo09NSManagedfG0CSg10Foundation3URLV_tF"
++ "_$s14HealthPlatform0A15ExperienceStorePAAE6object4from2inqd__Sg10Foundation3URLV_So22NSManagedObjectContextCtSo0jK0CRbd__lF"
++ "_$s14HealthPlatform11FeedSectionC19eligibleIdentifiersShySSGvgZ"
++ "_$s14HealthPlatform14PluginFeedItemV10hasChanged4fromSbAC_tF"
++ "_$s14HealthPlatform14PluginFeedItemV22NotificationIdentifierVMa"
++ "_$s14HealthPlatform14PreservedValueO012executeIfSetD0yyyxXEF"
++ "_$s14HealthPlatform14PreservedValueOMa"
++ "_$s14HealthPlatform15FeedItemStoragePAAE14updateOrCreateyySayAA06PlugincD0VGYaKFTu"
++ "_$s14HealthPlatform15FeedItemStoragePAAE15replaceExisting4withySayAA06PlugincD0VG_tYaKFTu"
++ "_$s14HealthPlatform15FeedItemStoragePAAE5fetch8matchingSayAA06PlugincD0VGAA0cD9PredicateOSg_tYaKFTu"
++ "_$s14HealthPlatform16StorageLocationsC0A10ExperienceE28relevenceEngineLogsDirectory10Foundation3URLVvgZ"
++ "_$s14HealthPlatform16StorageLocationsC0A10ExperienceE33notificationProfileImageDirectory10Foundation3URLVSgvgZ"
++ "_$s14HealthPlatform17FeedItemTimeScopeOMn"
++ "_$s14HealthPlatform17ForYouSectionKindO7section3forACSgAA07ContentF0O_tFZ"
++ "_$s14HealthPlatform17ForYouSectionKindO8rawValueACSgSS_tcfC"
++ "_$s14HealthPlatform17ForYouSectionKindO8rawValueSSvg"
++ "_$s14HealthPlatform17KeywordFeatureTagV09SummariesA17RecordsIdentifierV13pastFiveYearsSSvgZ"
++ "_$s14HealthPlatform17KeywordFeatureTagV09SummariesA17RecordsIdentifierV14pastThirtyDaysSSvgZ"
++ "_$s14HealthPlatform17KeywordFeatureTagV09SummariesA17RecordsIdentifierV14sharingAccountSSvgZ"
++ "_$s14HealthPlatform17KeywordFeatureTagV09SummariesA17RecordsIdentifierV8pastYearSSvgZ"
++ "_$s14HealthPlatform17KeywordFeatureTagV09SummariesA17RecordsIdentifierV9pinnedLabSSvgZ"
++ "_$s14HealthPlatform17KeywordFeatureTagV0A10ExperienceE10identifier3forSSAD20AppStoreDataProviderC15SleepCategoriesO_tFZ"
++ "_$s14HealthPlatform17KeywordFeatureTagV0A10ExperienceE11identifiers3forSaySSGSo12HKObjectTypeC_tFZ"
++ "_$s14HealthPlatform17KeywordFeatureTagV16commonIdentifierSSSgvg"
++ "_$s14HealthPlatform17KeywordFeatureTagV19TimeScopeIdentifierV3daySSvgZ"
++ "_$s14HealthPlatform17KeywordFeatureTagV19TimeScopeIdentifierV4hourSSvgZ"
++ "_$s14HealthPlatform17KeywordFeatureTagV19TimeScopeIdentifierV4nextSSvgZ"
++ "_$s14HealthPlatform17KeywordFeatureTagV19TimeScopeIdentifierV4weekSSvgZ"
++ "_$s14HealthPlatform17KeywordFeatureTagV19TimeScopeIdentifierV4yearSSvgZ"
++ "_$s14HealthPlatform17KeywordFeatureTagV19TimeScopeIdentifierV5monthSSvgZ"
++ "_$s14HealthPlatform17KeywordFeatureTagV21ProfileTypeIdentifierV13familySharingSSvgZ"
++ "_$s14HealthPlatform17KeywordFeatureTagV21ProfileTypeIdentifierV14summarySharingSSvgZ"
++ "_$s14HealthPlatform17KeywordFeatureTagV21SidebarTypeIdentifierV13healthRecordsSSvgZ"
++ "_$s14HealthPlatform17KeywordFeatureTagV21SidebarTypeIdentifierV14healthCategorySSvgZ"
++ "_$s14HealthPlatform17KeywordFeatureTagV27VisibilityOptionsIdentifierV18hideInCategoryRoomSSvgZ"
++ "_$s14HealthPlatform17KeywordFeatureTagV27VisibilityOptionsIdentifierV23hideInSharedProfileViewSSvgZ"
++ "_$s14HealthPlatform17KeywordFeatureTagV27VisibilityOptionsIdentifierV25displayInSharingDashboardSSvgZ"
++ "_$s14HealthPlatform17KeywordFeatureTagV28SharingProfileTypeIdentifierV7inboundSSvgZ"
++ "_$s14HealthPlatform17KeywordFeatureTagV28SharingProfileTypeIdentifierV7pendingSSvgZ"
++ "_$s14HealthPlatform17KeywordFeatureTagV28SharingProfileTypeIdentifierV8acceptedSSvgZ"
++ "_$s14HealthPlatform17KeywordFeatureTagV28SharingProfileTypeIdentifierV8outboundSSvgZ"
++ "_$s14HealthPlatform17KeywordFeatureTagV29SummariesDataStatusIdentifierV02noG0SSvgZ"
++ "_$s14HealthPlatform17KeywordFeatureTagV29SummariesDataStatusIdentifierV03hasG0SSvgZ"
++ "_$s14HealthPlatform17KeywordFeatureTagV30AppInstallationStateIdentifierV22isInstalledApplicationSSvgZ"
++ "_$s14HealthPlatform17KeywordFeatureTagV30AppInstallationStateIdentifierV24isUninstalledApplicationSSvgZ"
++ "_$s14HealthPlatform17KeywordFeatureTagV30NotificationSettingsIdentifierV8defaultsSSvgZ"
++ "_$s14HealthPlatform17KeywordFeatureTagV30NotificationSettingsIdentifierV8featuresSSvgZ"
++ "_$s14HealthPlatform17KeywordFeatureTagV30SummariesMedicationsIdentifierV18archivedMedicationSSvgZ"
++ "_$s14HealthPlatform17KeywordFeatureTagV30SummariesMedicationsIdentifierV19scheduledMedicationSSvgZ"
++ "_$s14HealthPlatform17KeywordFeatureTagV30SummariesMedicationsIdentifierV22nonScheduledMedicationSSvgZ"
++ "_$s14HealthPlatform17KeywordFeatureTagV32SummariesAuthorizationIdentifierV18onboardingFeedItemSSvgZ"
++ "_$s14HealthPlatform17KeywordFeatureTagV38SummariesTrendClassificationIdentifierV10decreasingSSvgZ"
++ "_$s14HealthPlatform17KeywordFeatureTagV38SummariesTrendClassificationIdentifierV10increasingSSvgZ"
++ "_$s14HealthPlatform17KeywordFeatureTagV38SummariesTrendClassificationIdentifierV12inconclusiveSSvgZ"
++ "_$s14HealthPlatform17KeywordFeatureTagV47SharingAuthorizationSuggestedCategoryIdentifierV06mentalA0SSvgZ"
++ "_$s14HealthPlatform17KeywordFeatureTagV47SharingAuthorizationSuggestedCategoryIdentifierV11respiratorySSvgZ"
++ "_$s14HealthPlatform17KeywordFeatureTagV47SharingAuthorizationSuggestedCategoryIdentifierV13cycleTrackingSSvgZ"
++ "_$s14HealthPlatform17KeywordFeatureTagV47SharingAuthorizationSuggestedCategoryIdentifierV19activityAndMobilitySSvgZ"
++ "_$s14HealthPlatform17KeywordFeatureTagV47SharingAuthorizationSuggestedCategoryIdentifierV5heartSSvgZ"
++ "_$s14HealthPlatform17KeywordFeatureTagV47SharingAuthorizationSuggestedCategoryIdentifierV5otherSSvgZ"
++ "_$s14HealthPlatform17KeywordFeatureTagV47SharingAuthorizationSuggestedCategoryIdentifierV9nutritionSSvgZ"
++ "_$s14HealthPlatform17KeywordFeatureTagVMa"
++ "_$s14HealthPlatform17NoveltyFeatureTagVMn"
++ "_$s14HealthPlatform18ProfileDisplayNameV0A10ExperienceE12sharingEntry7contactAcD07SharinghC11InformationV_So9CNContactCSgtcfC"
++ "_$s14HealthPlatform19DateRangeFeatureTagVAA09RelevanceeF0AAWP"
++ "_$s14HealthPlatform19DateRangeFeatureTagVMn"
++ "_$s14HealthPlatform19TimeScopeFeatureTagVMn"
++ "_$s14HealthPlatform20FeedItemChangeDomainV12contentKinds14sourceProfilesACSayAA11ContentKindOG_SayAA13SourceProfileOGtcfC"
++ "_$s14HealthPlatform20FeedItemChangeDomainV12contentKindsShyAA11ContentKindOGvM"
++ "_$s14HealthPlatform20FeedItemChangeDomainV12contentKindsShyAA11ContentKindOGvg"
++ "_$s14HealthPlatform20FeedItemChangeDomainV14sourceProfilesShyAA13SourceProfileOGvM"
++ "_$s14HealthPlatform20FeedItemChangeDomainV14sourceProfilesShyAA13SourceProfileOGvg"
++ "_$s14HealthPlatform20FeedItemChangeDomainV5merge4withyAC_tF"
++ "_$s14HealthPlatform20FeedItemChangeDomainV7isEmptySbvg"
++ "_$s14HealthPlatform20FeedItemChangeDomainV8overlaps4withSbAC_tF"
++ "_$s14HealthPlatform20FeedItemChangeDomainVMa"
++ "_$s14HealthPlatform20RelevantDateIntervalVMn"
++ "_$s14HealthPlatform21ContentKindFeatureTagVAA09RelevanceeF0AAWP"
++ "_$s14HealthPlatform26ContentMagnitudeFeatureTagVAA09RelevanceeF0AAWP"
++ "_$s14HealthPlatform29ContentCompletenessFeatureTagVAA09RelevanceeF0AAWP"
++ "_$s14HealthPlatform31NotificationContentStateManagerMp"
++ "_$s14HealthPlatform31NotificationContentStateManagerPAAE24createMigrationPublisher4with10identifier14keyValueDomain13dispatchQueue12migrationKey7Combine03AnyI0Vyyts5Error_pGALySSSgsAM_pG_SSSo05HKKeymN0CSo03OS_O6_queueCSStF"
++ "_$s14HealthPlatform43SummarySharingProfileDisplayNameInputSignalC21identityConfiguration0A13Orchestration08IdentityK0VvgZ"
++ "_$s14HealthPlatform43SummarySharingProfileDisplayNameInputSignalCMa"
++ "_$s14HealthPlatform4FeedCMa"
++ "_$s16HealthExperience017DataTypesHaveSomeC9PublisherC05$havefC07Combine9PublishedV0G0VyAC0C0O_GvgTj"
++ "_$s16HealthExperience017DataTypesHaveSomeC9PublisherC0C0O9isUnknownSbvg"
++ "_$s16HealthExperience017DataTypesHaveSomeC9PublisherC0C0OMa"
++ "_$s16HealthExperience017DataTypesHaveSomeC9PublisherC11healthStore5types6anchorACSo08HKHealthI0C_SaySo12HKObjectTypeCGSo13HKQueryAnchorCSgtcfC"
++ "_$s16HealthExperience017DataTypesHaveSomeC9PublisherC6cancelyyFTj"
++ "_$s16HealthExperience017DataTypesHaveSomeC9PublisherC8activateyyFTj"
++ "_$s16HealthExperience017DataTypesHaveSomeC9PublisherCMa"
++ "_$s16HealthExperience10AtomicLazyC18_enclosingInstance7wrapped7storageq_x_s24ReferenceWritableKeyPathCyxq_GAHyxACyxq_GGtciMZ"
++ "_$s16HealthExperience10AtomicLazyC18_enclosingInstance7wrapped7storageq_x_s24ReferenceWritableKeyPathCyxq_GAHyxACyxq_GGtcigZ"
++ "_$s16HealthExperience10AtomicLazyC18_enclosingInstance7wrapped7storageq_x_s24ReferenceWritableKeyPathCyxq_GAHyxACyxq_GGtcisZ"
++ "_$s16HealthExperience10AtomicLazyCMa"
++ "_$s16HealthExperience10AtomicLazyCyACyxq_Gq_xYbccfc"
++ "_$s16HealthExperience11CachedAsyncC12dataProviderACyxGxyYaYbKc_tcfC"
++ "_$s16HealthExperience11CachedAsyncCMa"
++ "_$s16HealthExperience13ReplaySubjectCMa"
++ "_$s16HealthExperience14CloudSyncErrorO5errorACs0E0_p_tcfC"
++ "_$s16HealthExperience14CloudSyncErrorO8rawValueSSvg"
++ "_$s16HealthExperience14CloudSyncStateO2eeoiySbAC_ACtFZ"
++ "_$s16HealthExperience14CloudSyncStateO35alertPluginFeedItemUniqueIdentifier3forSSSo09HKProfileK0C_tFZ"
++ "_$s16HealthExperience14CloudSyncStateO6statusACSo07HKCloudD14ObserverStatusC_tcfC"
++ "_$s16HealthExperience14CloudSyncStateOMa"
++ "_$s16HealthExperience15OrderedSortHintP04sortE5ValueSivgTj"
++ "_$s16HealthExperience16RGBColorProviderV3red5green4blue5alphaACSd_S3dtcfC"
++ "_$s16HealthExperience16RGBColorProviderV7uiColorACSo7UIColorC_tcfC"
++ "_$s16HealthExperience16RGBColorProviderVMa"
++ "_$s16HealthExperience19AdvertisableFeatureO10IdentifierO8rawValueSSvg"
++ "_$s16HealthExperience19AdvertisableFeatureO10IdentifierOMa"
++ "_$s16HealthExperience19AdvertisableFeatureO8LocationOMa"
++ "_$s16HealthExperience19ColorRepresentationO02uiC03forSo7UIColorCAA0C15ProviderContextV_tF"
++ "_$s16HealthExperience19ColorRepresentationO2eeoiySbAC_ACtFZ"
++ "_$s16HealthExperience19ColorRepresentationO5color3for7SwiftUI0C0VAA0C15ProviderContextV_tF"
++ "_$s16HealthExperience19ColorRepresentationOMa"
++ "_$s16HealthExperience20AppStoreDataProviderC19fetchEditorialItems3for7Combine8DeferredVyAF12AnyPublisherVyAC0hI4ListVs5Error_pGGSaySiG_tFTj"
++ "_$s16HealthExperience20AppStoreDataProviderC20editorialItemMappingSDySiSSGvgTj"
++ "_$s16HealthExperience20AppStoreDataProviderCACycfc"
++ "_$s16HealthExperience20AppStoreDataProviderCMa"
++ "_$s16HealthExperience20ColorProviderContextV11healthStoreACSo08HKHealthG0C_tcfC"
++ "_$s16HealthExperience21CloudSyncRestoreStateO8rawValueACSgSS_tcfC"
++ "_$s16HealthExperience21CloudSyncRestoreStateO8rawValueSSvg"
++ "_$s16HealthExperience21CloudSyncRestoreStateO9isOngoingSbvg"
++ "_$s16HealthExperience21CloudSyncRestoreStateOMa"
++ "_$s16HealthExperience24AdvertisableFeatureErrorV19internalDescriptionACSS_tcfC"
++ "_$s16HealthExperience24AdvertisableFeatureErrorVMa"
++ "_$s16HealthExperience25HKObjectTypeColorProviderVMa"
++ "_$s16HealthExperience25HKObjectTypeColorProviderVyACSo0cD0CcfC"
++ "_$s16HealthExperience26CameraAuthorizationSupportV010shouldShowC6OptionSbyFZ"
++ "_$s16HealthExperience26CameraAuthorizationSupportV014checkOrRequestC14AccessIfNeededyyySo21AVAuthorizationStatusVcFZ"
++ "_$s16HealthExperience26CameraAuthorizationSupportV07presentC17AccessDeniedAlert2onySo16UIViewControllerCSg_tFZ"
++ "_$s16HealthExperience28DisplayCategoryColorProviderVMa"
++ "_$s16HealthExperience28DisplayCategoryColorProviderVyACSo09HKDisplayD0CcfC"
++ "_$s16HealthExperience31CloudSyncEventPublisherObserverC07defaultcdG11ConstructorySo07HKClouddG0CSo13HKHealthStoreC_So0jdG8Delegate_ptcvgZ"
++ "_$s16HealthExperience31CloudSyncEventPublisherObserverC0cdE0OMa"
++ "_$s16HealthExperience31CloudSyncEventPublisherObserverC11healthStore04makecdG0ACSo08HKHealthI0C_So07HKClouddG0CAG_So0ldG8Delegate_ptXEtcfc"
++ "_$s16HealthExperience31CloudSyncEventPublisherObserverC9publisher7Combine03AnyF0VyAC0cdE0Os5NeverOGvg"
++ "_$s16HealthExperience31CloudSyncEventPublisherObserverCMa"
++ "_$s16HealthExperience32AdvertisableFeatureConfigurationVMa"
++ "_$s16HealthExperience37AdvertisableFeaturePostCommitWorkItemOMa"
++ "_$s19HealthOrchestration14InputSignalSetV9LookupKeyV0A8PlatformE32summarySharingProfileDisplayNameAEy_AF07SummaryjklmcD0CGvgZ"
++ "_$s7Combine10PublishersO16HealthExperienceE19IgnoreFailureResultVMa"
++ "_$s7Combine9PublisherP14HealthPlatformE25asPrependedPreservedValueAA10PublishersO11ConcatenateVy_AG8SequenceVy_SayAD0gH0Oy6OutputQzGG7FailureQzGAG3MapVy_xAPGGyF"
++ "_$s7Combine9PublisherP16HealthExperienceE19ignoreFailureResultAA10PublishersOADE06IgnorefG0Vy_xqd__qd_0_Gys5ErrorRd_0_s5NeverO0F0Rtzs0G0Oyqd__qd_0_G6OutputRtzr0_lF"
++ "_$s7Combine9PublisherP16HealthExperienceE5share6replayAA10PublishersO11AutoconnectCy_AH9MulticastCy_xAD13ReplaySubjectCy6OutputQz7FailureQzGGGSi_tF"
++ "_$sSM16HealthExperienceE10mutateEachyyy7ElementQzzKXEKF"
++ "_$sSa14HealthPlatformAA14PluginFeedItemVRszlE10difference4fromSayAA0dE13ContextChangeOGSayACG_tKF"
++ "_$sSi14HealthPlatformE20alphabeticalSortHintSivgZ"
++ "_$sSi14HealthPlatformE8moveDownyyF"
++ "_$sSo18HKActivityMoveModeV16HealthExperienceE11descriptionSSvg"
++ "_$sSo19HKCloudSyncObserverC16HealthExperienceE13AccountStatusOMa"
++ "_$sSo19HKCloudSyncObserverC16HealthExperienceE22AccountStatusPublisherVMa"
++ "_$sSo19HKCloudSyncObserverC16HealthExperienceE22accountStatusPublisher3for0F5StoreAbCE07AccountgH0VSo08HKHealthJ0C_So09ACAccountJ0CtFZ"
++ "_$sSo7HKQueryC16HealthExperienceE27optionalPredicateForSamples6within7optionsSo11NSPredicateCSg10Foundation12DateIntervalVSg_So0A7OptionsVtFZ"
++ "_$sSo9CNContactC16HealthExperienceE15photoOrMonogram4sizeSo7UIImageCSo6CGSizeV_tF"
++ "_$sSo9CNContactC16HealthExperienceE17localizedFullNameSSvg"
++ "_$sSo9CNContactC16HealthExperienceE18localizedShortNameSSvg"
++ "_$sSo9CNContactC16HealthExperienceE21termsOfAddressOptions10Foundation16AttributedStringV012LocalizationG0Vvg"
++ "_$sSo9CNContactC16HealthExperienceE41contactPhotoPublisherIfExistsElseMonogram7Combine03AnyF0VySo7UIImageCs5NeverOGyF"
++ "ence20ColorProviderContextVMa"
++ "ifierO28healthWelcomeFlowIdentifiersSayAEGvgZ"
++ "tifierV4noneSSvgZ"
+
+```

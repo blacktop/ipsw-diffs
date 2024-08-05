@@ -1,0 +1,258 @@
+## HealthBalanceAppPlugin
+
+> `/System/Library/PrivateFrameworks/HealthBalanceAppPlugin.framework/HealthBalanceAppPlugin`
+
+```diff
+
+-5132.0.0.0.0
+-  __TEXT.__text: 0x3eb90
++5138.0.1.1.0
++  __TEXT.__text: 0x3e588
+   __TEXT.__auth_stubs: 0x2140
+   __TEXT.__objc_methlist: 0x1d8
+   __TEXT.__const: 0x2834
+   __TEXT.__cstring: 0x1e36
+-  __TEXT.__swift5_typeref: 0x9f0
++  __TEXT.__swift5_typeref: 0x9ee
+   __TEXT.__swift5_capture: 0x184
+   __TEXT.__oslogstring: 0xbde
+   __TEXT.__swift5_reflstr: 0x865
+
+   __TEXT.__objc_methname: 0xc63
+   __TEXT.__objc_methtype: 0x29d
+   __DATA_CONST.__got: 0x718
+-  __DATA_CONST.__const: 0x190
++  __DATA_CONST.__const: 0x1d0
+   __DATA_CONST.__objc_classlist: 0x58
+   __DATA_CONST.__objc_protolist: 0x40
+   __DATA_CONST.__objc_imageinfo: 0x8
+
+   __AUTH_CONST.__auth_ptr: 0x9d8
+   __AUTH_CONST.__const: 0xe40
+   __AUTH_CONST.__objc_const: 0xee0
+-  __AUTH.__objc_data: 0x850
+-  __AUTH.__data: 0xb78
+-  __DATA.__data: 0xe30
++  __AUTH.__objc_data: 0x7c0
++  __AUTH.__data: 0x4a8
++  __DATA.__data: 0x920
+   __DATA.__objc_stublist: 0x28
+-  __DATA.__common: 0xf0
+-  __DATA.__bss: 0x4080
+-  __DATA_DIRTY.__data: 0xd8
+-  __DATA_DIRTY.__bss: 0x80
++  __DATA.__common: 0xd0
++  __DATA.__bss: 0x3400
++  __DATA_DIRTY.__objc_data: 0x90
++  __DATA_DIRTY.__data: 0xcf8
++  __DATA_DIRTY.__bss: 0xd00
++  __DATA_DIRTY.__common: 0x20
+   - /System/Library/Frameworks/Combine.framework/Combine
+   - /System/Library/Frameworks/CoreServices.framework/CoreServices
+   - /System/Library/Frameworks/DeveloperToolsSupport.framework/DeveloperToolsSupport
+
+   - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
+   - /usr/lib/swift/libswiftWebKit.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
++  - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
++  - /usr/lib/swift/libswift_errno.dylib
++  - /usr/lib/swift/libswift_math.dylib
++  - /usr/lib/swift/libswift_signal.dylib
++  - /usr/lib/swift/libswift_stdio.dylib
++  - /usr/lib/swift/libswift_time.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 1254
+-  Symbols:   262
+-  CStrings:  0
++  - /usr/lib/swift/libswiftsys_time.dylib
++  - /usr/lib/swift/libswiftunistd.dylib
++  Functions: 1252
++  Symbols:   270
++  CStrings:  172
+ 
+Symbols:
++ __swift_FORCE_LOAD_$_swift_Builtin_float
++ __swift_FORCE_LOAD_$_swift_errno
++ __swift_FORCE_LOAD_$_swift_math
++ __swift_FORCE_LOAD_$_swift_signal
++ __swift_FORCE_LOAD_$_swift_stdio
++ __swift_FORCE_LOAD_$_swift_time
++ __swift_FORCE_LOAD_$_swiftsys_time
++ __swift_FORCE_LOAD_$_swiftunistd
+CStrings:
++ "11donorStreamSo06BMSirifgG6SourceVvg"
++ "_$s12GRDBInternal12RecordCursorC20IntelligencePlatformE8peekableAD08PeekablebC0CyxGvg"
++ "_$s20IntelligencePlatform10IndexQueryV07TriplescD0V5queryAA0eD0Vvg"
++ "_$s20IntelligencePlatform10IndexQueryV07TriplescD0VMa"
++ "_$s20IntelligencePlatform10IndexQueryV0cD4ImplOMa"
++ "_$s20IntelligencePlatform10IndexQueryV4implAC0cD4ImplOvg"
++ "_$s20IntelligencePlatform10ModelErrorOMa"
++ "_$s20IntelligencePlatform11EntityClassV12GRDBInternal14SQLExpressibleAAMc"
++ "_$s20IntelligencePlatform11EntityClassVSEAAMc"
++ "_$s20IntelligencePlatform11EntityClassVSHAAMc"
++ "_$s20IntelligencePlatform11EntityClassVSQAAMc"
++ "_$s20IntelligencePlatform11EntityClassVSYAAMc"
++ "_$s20IntelligencePlatform11EntityClassVSeAAMc"
++ "_$s20IntelligencePlatform11EntityClassVs23CustomStringConvertibleAAMc"
++ "_$s20IntelligencePlatform11TerrainTypeOMa"
++ "_$s20IntelligencePlatform11ViewServiceC013SiriRemembersC0V0efC5ErrorOMa"
++ "_$s20IntelligencePlatform11ViewServiceC013SiriRemembersC0V11InteractionV06deviceB0So022BMDeviceMetadataDeviceB0Vvg"
++ "_$s20IntelligencePlatform11ViewServiceC013SiriRemembersC0V11InteractionV11contentHashSivg"
++ "_$s20IntelligencePlatform11ViewServiceC013SiriRemembersC0V11InteractionV13sourceStreamsAE06SourceI0Vvg"
++ "_$s20IntelligencePlatform11ViewServiceC013SiriRemembersC0V11InteractionV14handlingStatusSo06BMSirifggI0Vvg"
++ "_$s20IntelligencePlatform11ViewServiceC013SiriRemembersC0V11InteractionV15durationSecondsSdvg"
++ "_$s20IntelligencePlatform11ViewServiceC013SiriRemembersC0V11InteractionV15userDonatorTypeSo06BMSirifg4UseriJ0Vvg"
++ "_$s20IntelligencePlatform11ViewServiceC013SiriRemembersC0V11InteractionV19biomeEventTimestampSdvg"
++ "_$s20IntelligencePlatform11ViewServiceC013SiriRemembersC0V11InteractionV6fieldsSSSgvg"
++ "_$s20IntelligencePlatform11ViewServiceC013SiriRemembersC0V11InteractionV7isLocalSbvg"
++ "_$s20IntelligencePlatform11ViewServiceC013SiriRemembersC0V11InteractionV9directionSo06BMSirifgG9DirectionVvg"
++ "_$s20IntelligencePlatform11ViewServiceC013SiriRemembersC0V11InteractionV9startDate10Foundation0I0Vvg"
++ "_$s20IntelligencePlatform11ViewServiceC013SiriRemembersC0V13SourceStreamsVMa"
++ "_$s20IntelligencePlatform11ViewServiceC013SiriRemembersC0V17InteractionEntityV16interactionRowid06entityJ09parameterAGs5Int64V_ALSStcfC"
++ "_$s20IntelligencePlatform11ViewServiceC013SiriRemembersC0V17InteractionEntityV6entity12GRDBInternal20BelongsToAssociationVyAgE0H0VGvgZ"
++ "_$s20IntelligencePlatform11ViewServiceC013SiriRemembersC0V17InteractionEntityVMa"
++ "_$s20IntelligencePlatform11ViewServiceC013SiriRemembersC0V6EntityV12fieldsTokensSSvg"
++ "_$s20IntelligencePlatform11ViewServiceC013SiriRemembersC0V6EntityV17databaseTableNameSSvgZ"
++ "_$s20IntelligencePlatform11ViewServiceC013SiriRemembersC0V6EntityV2idSSvg"
++ "_$s20IntelligencePlatform11ViewServiceC013SiriRemembersC0V6EntityV4typeSSvg"
++ "_$s20IntelligencePlatform11ViewServiceC013SiriRemembersC0V6EntityV5rowids5Int64VSgvg"
++ "_$s20IntelligencePlatform11ViewServiceC013SiriRemembersC0V6EntityV5rowids5Int64VSgvs"
++ "_$s20IntelligencePlatform11ViewServiceC013SiriRemembersC0V6EntityV6fieldsSSvg"
++ "_$s20IntelligencePlatform11ViewServiceC013SiriRemembersC0V6EntityV9createdAt10Foundation4DateVvg"
++ "_$s20IntelligencePlatform11ViewServiceC013SiriRemembersC0V6EntityV9updatedAt10Foundation4DateVvg"
++ "_$s20IntelligencePlatform11ViewServiceC013SiriRemembersC0VMa"
++ "_$s20IntelligencePlatform11ViewServiceC016SourceConfidenceC0V13confidenceMap6sourceSDyAA0eF10IdentifierVSdGSS_tKF"
++ "_$s20IntelligencePlatform11ViewServiceC016SourceConfidenceC0VMa"
++ "_$s20IntelligencePlatform11ViewServiceC016sourceConfidenceC0AC06SourcefC0Vvg"
++ "_$s20IntelligencePlatform11ViewServiceC027DefaultResolverInteractionsC0V03NonA17EngineEventSourceO13sirikitIntentyA2GmFWC"
++ "_$s20IntelligencePlatform11ViewServiceC027DefaultResolverInteractionsC0V03NonA17EngineEventSourceO19appIntentInvocationyA2GmFWC"
++ "_$s20IntelligencePlatform11ViewServiceC027DefaultResolverInteractionsC0V0efgC5ErrorO7unknownyAGSScAGmFWC"
++ "_$s20IntelligencePlatform11ViewServiceC027DefaultResolverInteractionsC0V0efgC5ErrorOs0H0AAMc"
++ "_$s20IntelligencePlatform11ViewServiceC027DefaultResolverInteractionsC0V13SourceStreamsV12GRDBInternal24DatabaseValueConvertibleAAMc"
++ "_$s20IntelligencePlatform11ViewServiceC027DefaultResolverInteractionsC0V13UserAlignmentO11notSelectedyA2GmFWC"
++ "_$s20IntelligencePlatform11ViewServiceC027DefaultResolverInteractionsC0V13UserAlignmentO18explicitlyAcceptedyA2GmFWC"
++ "_$s20IntelligencePlatform11ViewServiceC027DefaultResolverInteractionsC0V13UserAlignmentO18explicitlyRejectedyA2GmFWC"
++ "_$s20IntelligencePlatform11ViewServiceC027DefaultResolverInteractionsC0V13UserAlignmentO18implicitlyAcceptedyA2GmFWC"
++ "_$s20IntelligencePlatform11ViewServiceC027DefaultResolverInteractionsC0V13UserAlignmentO18implicitlyRejectedyA2GmFWC"
++ "_$s20IntelligencePlatform11ViewServiceC027DefaultResolverInteractionsC0V13UserAlignmentO35transientDeviceConfigurationFailureyA2GmFWC"
++ "_$s20IntelligencePlatform11ViewServiceC027DefaultResolverInteractionsC0V13UserAlignmentO7unknownyA2GmFWC"
++ "_$s20IntelligencePlatform11ViewServiceC027DefaultResolverInteractionsC0V13UserAlignmentO8executedyA2GmFWC"
++ "_$s20IntelligencePlatform11ViewServiceC027DefaultResolverInteractionsC0V5EventV12GRDBInternal15FetchableRecordAAMc"
++ "_$s20IntelligencePlatform11ViewServiceC027DefaultResolverInteractionsC0V9CandidateV12GRDBInternal15FetchableRecordAAMc"
++ "_$s20IntelligencePlatform11ViewServiceC027DefaultResolverInteractionsC0V9CandidateVSHAAMc"
++ "_$s20IntelligencePlatform11ViewServiceC027DefaultResolverInteractionsC0V9CandidateVSQAAMc"
++ "_$s20IntelligencePlatform11WeatherTypeOMa"
++ "_$s20IntelligencePlatform12KTSSliceDataV10identifierSSvg"
++ "_$s20IntelligencePlatform12KTSSliceDataV4dataAA30KTSDataAggregateRepresentationCvg"
++ "_$s20IntelligencePlatform12KTSSliceDataV7contextAA33KTSContextAggregateRepresentationCvg"
++ "_$s20IntelligencePlatform12KTSSliceDataVMa"
++ "_$s20IntelligencePlatform13KTSRecordTypeO7combine10ktsRecords13intoRowWithId04withD012graphContextAA15KTSDataProtocol_pSgSayAaI_pG_SSAcA015CustomLifeEventN0CyAA011GraphObjectN0CyAA12SubgraphViewCAA0U26SynthesisDictionaryMappingVGGSgtKFZ"
++ "_$s20IntelligencePlatform13KTSRecordTypeOMa"
++ "_$s20IntelligencePlatform13PriorityQueueV11descriptionSSvg"
++ "_$s20IntelligencePlatform13PriorityQueueV5countSivg"
++ "_$s20IntelligencePlatform13PriorityQueueVMa"
++ "_$s20IntelligencePlatform14DistanceBucketOMa"
++ "_$s20IntelligencePlatform14KTSDataRequestV10parameters7cadenceAcA14KTSQueryParamsV_AC7CadenceOSgtcfC"
++ "_$s20IntelligencePlatform14KTSDataRequestV7CadenceOMa"
++ "_$s20IntelligencePlatform14KTSDataRequestV9requestIdSSvg"
++ "_$s20IntelligencePlatform14KTSDataRequestVMa"
++ "_$s20IntelligencePlatform15CodableLocationVMa"
++ "_$s20IntelligencePlatform15EntityPredicateV12GRDBInternal14SQLExpressibleAAMc"
++ "_$s20IntelligencePlatform15EntityPredicateV12GRDBInternal24DatabaseValueConvertibleAAMc"
++ "_$s20IntelligencePlatform15EntityPredicateVSEAAMc"
++ "_$s20IntelligencePlatform15EntityPredicateVSHAAMc"
++ "_$s20IntelligencePlatform15EntityPredicateVSLAAMc"
++ "_$s20IntelligencePlatform15EntityPredicateVSQAAMc"
++ "_$s20IntelligencePlatform15EntityPredicateVSYAAMc"
++ "_$s20IntelligencePlatform15EntityPredicateVSeAAMc"
++ "_$s20IntelligencePlatform15EntityPredicateVs23CustomStringConvertibleAAMc"
++ "_$s20IntelligencePlatform15UnfairLockedBoxC8contentsACyxGx_tcfc"
++ "_$s20IntelligencePlatform16EntityIdentifierV12GRDBInternal14SQLExpressibleAAMc"
++ "_$s20IntelligencePlatform16EntityIdentifierV12GRDBInternal24DatabaseValueConvertibleAAMc"
++ "_$s20IntelligencePlatform16EntityIdentifierVSEAAMc"
++ "_$s20IntelligencePlatform16EntityIdentifierVSHAAMc"
++ "_$s20IntelligencePlatform16EntityIdentifierVSLAAMc"
++ "_$s20IntelligencePlatform16EntityIdentifierVSQAAMc"
++ "_$s20IntelligencePlatform16EntityIdentifierVSeAAMc"
++ "_$s20IntelligencePlatform16KTSSegmentRecordVMa"
++ "_$s20IntelligencePlatform16MorphunTokenizerV16defaultSeparatorSSvgZ"
++ "_$s20IntelligencePlatform16MorphunTokenizerV31processAndCheckNonNormalization5input9separatorSaySSGSS_SStKF"
++ "_$s20IntelligencePlatform16MorphunTokenizerV6locale21overrideConfigOptionsAC10Foundation6LocaleVSg_Say0C5Swift20ConfigurationFeatureOGSgtKcfC"
++ "_$s20IntelligencePlatform16MorphunTokenizerV7process_9separator19noWordNormalizationS2S_SSSbtKF"
++ "_$s20IntelligencePlatform16MorphunTokenizerVMa"
++ "_$s20IntelligencePlatform17KTSDatabaseEngineV12executeQuery6params8entitiesSayAA21KTSRecordDataProtocol_AA0iK0pGSgAA14KTSQueryParamsV_SayAA16EntityIdentifierVGSgtKF"
++ "_$s20IntelligencePlatform17KTSDatabaseEngineV2db5tableACyxG12GRDBInternal14DatabaseReader_p_SStcfC"
++ "_$s20IntelligencePlatform17KTSRecordProtocolPAAE6toDataAA07KTSDataD0_pyKF"
++ "_$s20IntelligencePlatform19LiveGlobalKnowledgeO15IdSearchRequestV11subRequests16clientIdentifier0K0AESDyAC08ExternalL0VShyAA15EntityPredicateVGG_AA013ClientProcessL0OAC0P0OtcfC"
++ "_$s20IntelligencePlatform19LiveGlobalKnowledgeO15IdSearchRequestV11subRequestsSDyAC18ExternalIdentifierVShyAA15EntityPredicateVGGvg"
++ "_$s20IntelligencePlatform19LiveGlobalKnowledgeO15IdSearchRequestV16clientIdentifierAA013ClientProcessJ0Ovg"
++ "_$s20IntelligencePlatform19LiveGlobalKnowledgeO15IdSearchRequestV6clientAC6ClientOvg"
++ "_$s20IntelligencePlatform19LiveGlobalKnowledgeO15IdSearchRequestVMa"
++ "_$s20IntelligencePlatform19LiveGlobalKnowledgeO18ExternalIdentifierV11stringValueAESgSS_tcfC"
++ "_$s20IntelligencePlatform19LiveGlobalKnowledgeO18ExternalIdentifierV11stringValueSSvg"
++ "_$s20IntelligencePlatform19LiveGlobalKnowledgeO18ExternalIdentifierV2id0H4TypeAESS_AC0fgI0OtcfC"
++ "_$s20IntelligencePlatform19LiveGlobalKnowledgeO18ExternalIdentifierV2id0H9TypeValueAESgSS_SStcfC"
++ "_$s20IntelligencePlatform19LiveGlobalKnowledgeO18ExternalIdentifierV2idSSvg"
++ "_$s20IntelligencePlatform19LiveGlobalKnowledgeO18ExternalIdentifierV6idTypeAC0fgI0Ovg"
++ "_$s20IntelligencePlatform19LiveGlobalKnowledgeO18ExternalIdentifierVMa"
++ "_$s20IntelligencePlatform19LiveGlobalKnowledgeO22ExternalIdentifierTypeO8rawValueSSvg"
++ "_$s20IntelligencePlatform19LiveGlobalKnowledgeO22ExternalIdentifierTypeOMa"
++ "_$s20IntelligencePlatform19LiveGlobalKnowledgeO6ClientOMa"
++ "_$s20IntelligencePlatform20PeekableRecordCursorC4nextxSgyKF"
++ "_$s20IntelligencePlatform20PeekableRecordCursorC4peekxSgyF"
++ "_$s20IntelligencePlatform22CustomLifeEventContextC11viewServiceACyAA011GraphObjectF0CyAA12SubgraphViewCAA0J26SynthesisDictionaryMappingVGGAA0lH0C_tKcAKRszrlufc"
++ "_$s20IntelligencePlatform22CustomLifeEventContextC14activityEvents2of5whose2in5orderQrqd__m_AA0E12ViewDateTypeOSNy10Foundation0N0VGAK9SortOrderOtKAA0de15AllowedActivityE11GraphObjectRd__lF"
++ "_$s20IntelligencePlatform22CustomLifeEventContextC14activityEvents5whose2in5orderQrAA0E12ViewDateTypeO_SNy10Foundation0M0VGAJ9SortOrderOtKF"
++ "_$s20IntelligencePlatform22CustomLifeEventContextC14activityEvents5whose2in5orderQrAA0E12ViewDateTypeO_s16PartialRangeFromVy10Foundation0M0VGAL9SortOrderOtKF"
++ "_$s20IntelligencePlatform22CustomLifeEventContextC14activityEvents5whose2in5orderQrAA0E12ViewDateTypeO_s19PartialRangeThroughVy10Foundation0M0VGAL9SortOrderOtKF"
++ "_$s20IntelligencePlatform22CustomLifeEventContextC23enumerateActivityEvents11overlapping5order5usingySNy10Foundation4DateVG_AH9SortOrderOyAA0c5GraphhE0V_SbztKXEtKAA24TripleEnumeratorProtocol0R8ProviderRpzrlF"
++ "_$s20IntelligencePlatform22CustomLifeEventContextC23enumerateActivityEvents5whose2in5order5usingyAA0E12ViewDateTypeO_SNy10Foundation0O0VGAK9SortOrderOyAA0c5GraphhE0V_SbztKXEtKAA24TripleEnumeratorProtocol0U8ProviderRpzrlF"
++ "_$s20IntelligencePlatform22CustomLifeEventContextCACyAA011GraphObjectF0CyAA12SubgraphViewCAA0H26SynthesisDictionaryMappingVGGyKcAJRszrlufC"
++ "_$s20IntelligencePlatform22CustomLifeEventContextCMa"
++ "_$s20IntelligencePlatform22RelationshipIdentifierV11entityClass4hashAcA06EntityF0V_9CryptoKit12SHA256DigestVtcfC"
++ "_$s20IntelligencePlatform22RelationshipIdentifierV11entityClassAA06EntityF0VSgvg"
++ "_$s20IntelligencePlatform22RelationshipIdentifierV11entityClassAcA06EntityF0V_tcfC"
++ "_$s20IntelligencePlatform22RelationshipIdentifierV11stringValueSSvg"
++ "_$s20IntelligencePlatform22RelationshipIdentifierV13databaseValue12GRDBInternal08DatabaseF0Vvg"
++ "_$s20IntelligencePlatform22RelationshipIdentifierV1loiySbAC_ACtFZ"
++ "_$s20IntelligencePlatform22RelationshipIdentifierV2eeoiySbAC_ACtFZ"
++ "_$s20IntelligencePlatform22RelationshipIdentifierV4nullACvgZ"
++ "_$s20IntelligencePlatform22RelationshipIdentifierV8intValueACs5Int64V_tcfC"
++ "_$s20IntelligencePlatform22RelationshipIdentifierVMa"
++ "_$s20IntelligencePlatform22RelationshipIdentifierVyACSgSScfC"
++ "_$s20IntelligencePlatform24ConfidenceLinkDependencyO11independentyA2CmFWC"
++ "_$s20IntelligencePlatform24ConfidenceNodeDependencyO11independentyACSayAA0C4LinkVGcACmFWC"
++ "_$s20IntelligencePlatform24UnfairRecursiveLockedBoxC6accessyqd__qd__xKXEKlF"
++ "_$s20IntelligencePlatform24UnfairRecursiveLockedBoxC8contentsACyxGx_tcfc"
++ "_$s20IntelligencePlatform25PHPersonIdentifierMapViewV10identifier3forAA06EntityD0VSgSS_tKF"
++ "_$s20IntelligencePlatform25PHPersonIdentifierMapViewVMa"
++ "_$s20IntelligencePlatform26PersonalKnowledgeToolErrorOMa"
++ "_$s20IntelligencePlatform26SourceConfidenceIdentifierV10signalTypeSSSgvg"
++ "_$s20IntelligencePlatform26SourceConfidenceIdentifierV6sourceSSSgvg"
++ "_$s20IntelligencePlatform26SourceConfidenceIdentifierVMa"
++ "_$s20IntelligencePlatform26SourceConfidenceIdentifierVyACSSSg_ADtcfC"
++ "_$s20IntelligencePlatform30PersonalKnowledgeToolExecutionV12knosisServer03ecrH0AcA06KnosisH0C_AA34EntityResolutionXPCServiceProtocol_ptcfC"
++ "_$s20IntelligencePlatform30PersonalKnowledgeToolExecutionV7execute9kgqStringAA12KnosisResultV06knosisK0_AA0cdeK9AttributeVSg06answerM0tSS_tYaKF"
++ "_$s20IntelligencePlatform30PersonalKnowledgeToolExecutionVMa"
++ "_$s20IntelligencePlatform31PersonMatcherInferenceInterfaceOMa"
++ "_$s20IntelligencePlatform33EntityRelevanceInferenceInterfaceOAA0eF0AAMc"
++ "_$s20IntelligencePlatform36PersonalKnowledgeToolResultAttributeV12semanticTypeAA0cdefg8SemanticI0Ovg"
++ "_$s20IntelligencePlatform36PersonalKnowledgeToolResultAttributeV8dataTypeAA0cdefg4DataI0Ovg"
++ "_$s20IntelligencePlatform36PersonalKnowledgeToolResultAttributeVMa"
++ "_$s20IntelligencePlatform44PersonalKnowledgeToolResultAttributeDataTypeO8rawValueSSvg"
++ "_$s20IntelligencePlatform44PersonalKnowledgeToolResultAttributeDataTypeOMa"
++ "_$s20IntelligencePlatform48PersonalKnowledgeToolResultAttributeSemanticTypeO8rawValueSSvg"
++ "_$s20IntelligencePlatform48PersonalKnowledgeToolResultAttributeSemanticTypeOMa"
++ "_$s20IntelligencePlatform8KTSErrorOMa"
++ "_$s20IntelligencePlatform8LRUCacheC8capacityACyxq_GSi_tcfc"
++ "_$s20IntelligencePlatform8RoadTypeOMa"
++ "_$sSDyxq_G20IntelligencePlatform22TripleProviderProtocolA2B16EntityIdentifierVRszSTR_AB08ExtendedcE07ElementRp_rlMc"
++ "_$sSDyxq_G20IntelligencePlatform25AllTripleProviderProtocolA2B16EntityIdentifierVRszSTR_AB08ExtendeddF07ElementRp_rlMc"
++ "_$sSa20IntelligencePlatformSiRszlE7padding9totalSize8padValueSaySiGSi_SitF"
++ "entProcessIdentifierO02inD0yA2CmFWC"
++ "form16EntityIdentifierVs23CustomStringConvertibleAAMc"
++ "ligencePlatform23ClientProcessIdentifierO011applicationE0yACSScACmFWC"
+
+```

@@ -1,0 +1,203 @@
+## MMCSServices
+
+> `/System/Library/PrivateFrameworks/MMCSServices.framework/MMCSServices`
+
+```diff
+
+-1301.100.8.2.5
+-  __TEXT.__text: 0x8ae0
+-  __TEXT.__auth_stubs: 0x520
++1303.100.13.0.0
++  __TEXT.__text: 0x8a9c
++  __TEXT.__auth_stubs: 0x500
+   __TEXT.__objc_methlist: 0x50c
+   __TEXT.__const: 0xd0
+   __TEXT.__gcc_except_tab: 0xae0
+
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_selrefs: 0x548
+   __DATA_CONST.__objc_superrefs: 0x28
+-  __AUTH_CONST.__auth_got: 0x2a0
++  __AUTH_CONST.__auth_got: 0x290
+   __AUTH_CONST.__const: 0x60
+   __AUTH_CONST.__cfstring: 0x3c0
+   __AUTH_CONST.__objc_const: 0x990
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+   Functions: 149
+-  Symbols:   150
+-  CStrings:  0
++  Symbols:   148
++  CStrings:  164
+ 
+Symbols:
+- _objc_release
+- _objc_release_x26
+CStrings:
++ "VSeAAMc"
++ "_$s10Foundation4DateV04BookA0E7nextDay8calendarAcA8CalendarV_tF"
++ "_$s10Foundation8CalendarV04BookA0E9gregorianACvgZ"
++ "_$s14BookFoundation16NotificationablePAAE4NameSo014NSNotificationD0avgZ"
++ "_$s15ProximityReader04CardB13ErrorInternalCMn"
++ "_$s15ProximityReader04CardB13ErrorInternalCs0D0AAMc"
++ "_$s15ProximityReader08IdentityB13ErrorInternalV4CodeO016readerConnectionD0yA2EmFWC"
++ "_$s15ProximityReader08IdentityB13ErrorInternalV4CodeO07networkD0yA2EmFWC"
++ "_$s15ProximityReader08IdentityB13ErrorInternalV4CodeO10notAllowedyA2EmFWC"
++ "_$s15ProximityReader08IdentityB13ErrorInternalV4CodeO10systemBusyyA2EmFWC"
++ "_$s15ProximityReader08IdentityB13ErrorInternalV4CodeO11nfcDisabledyA2EmFWC"
++ "_$s15ProximityReader08IdentityB13ErrorInternalV4CodeO11nfcOverheatyA2EmFWC"
++ "_$s15ProximityReader08IdentityB13ErrorInternalV4CodeO12invalidTokenyA2EmFWC"
++ "_$s15ProximityReader08IdentityB13ErrorInternalV4CodeO12notSupportedyA2EmFWC"
++ "_$s15ProximityReader08IdentityB13ErrorInternalV4CodeO13readerTimeoutyA2EmFWC"
++ "_$s15ProximityReader08IdentityB13ErrorInternalV4CodeO14invalidRequestyA2EmFWC"
++ "_$s15ProximityReader08IdentityB13ErrorInternalV4CodeO14sessionExpiredyA2EmFWC"
++ "_$s15ProximityReader08IdentityB13ErrorInternalV4CodeO15invalidResponseyA2EmFWC"
++ "_$s15ProximityReader08IdentityB13ErrorInternalV4CodeO16accountSignedOutyA2EmFWC"
++ "_$s15ProximityReader08IdentityB13ErrorInternalV4CodeO16passcodeDisabledyA2EmFWC"
++ "_$s15ProximityReader08IdentityB13ErrorInternalV4CodeO17bluetoothDisabledyA2EmFWC"
++ "_$s15ProximityReader08IdentityB13ErrorInternalV4CodeO18serviceUnavailableyA2EmFWC"
++ "_$s15ProximityReader08IdentityB13ErrorInternalV4CodeO21osVersionNotSupportedyA2EmFWC"
++ "_$s15ProximityReader08IdentityB13ErrorInternalV4CodeO27continuityDisplayNotAllowedyA2EmFWC"
++ "_$s15ProximityReader08IdentityB13ErrorInternalV4CodeO27nfcNegotiatedHandoverFailedyA2EmFWC"
++ "_$s15ProximityReader08IdentityB13ErrorInternalV4CodeO28accountTwoFactorAuthRequiredyA2EmFWC"
++ "_$s15ProximityReader08IdentityB13ErrorInternalV4CodeO36termsAndConditionsAcceptanceRequiredyAESS_tcAEmFWC"
++ "_$s15ProximityReader08IdentityB13ErrorInternalV4CodeO7unknownyA2EmFWC"
++ "_$s15ProximityReader08IdentityB13ErrorInternalV4CodeO9cancelledyA2EmFWC"
++ "_$s15ProximityReader08IdentityB13ErrorInternalVMn"
++ "_$s15ProximityReader08IdentityB13ErrorInternalVs0D0AAMc"
++ "_$s15ProximityReader10CRSignpostVMn"
++ "_$s15ProximityReader10ReadResultCMn"
++ "_$s15ProximityReader11AccountAuthCMn"
++ "_$s15ProximityReader11CurrencyDefVMn"
++ "_$s15ProximityReader12VASReadEntryCMn"
++ "_$s15ProximityReader13SecureStorageVAA0D0AAWP"
++ "_$s15ProximityReader13SessionStatusOMn"
++ "_$s15ProximityReader14TaskSerializerCMn"
++ "_$s15ProximityReader14TaskSerializerCyxGScAAAMc"
++ "_$s15ProximityReader14XPCUserInfoKeyO11transactionyA2CmFWC"
++ "_$s15ProximityReader14XPCUserInfoKeyO12registrationyA2CmFWC"
++ "_$s15ProximityReader14XPCUserInfoKeyO15alwaysPlaySoundyA2CmFWC"
++ "_$s15ProximityReader14XPCUserInfoKeyO18allowScreenCaptureyA2CmFWC"
++ "_$s15ProximityReader14XPCUserInfoKeyO21qrScannerSleepTimeoutyA2CmFWC"
++ "_$s15ProximityReader14XPCUserInfoKeyO6uiModeyA2CmFWC"
++ "_$s15ProximityReader14XPCUserInfoKeyO7requestyA2CmFWC"
++ "_$s15ProximityReader14XPCUserInfoKeyO8merchantyA2CmFWC"
++ "_$s15ProximityReader14XPCUserInfoKeyO8pinTokenyA2CmFWC"
++ "_$s15ProximityReader14XPCUserInfoKeyO9pinConfigyA2CmFWC"
++ "_$s15ProximityReader15ContentInternalVMn"
++ "_$s15ProximityReader15ContentInternalVSEAAMc"
++ "_$s15ProximityReader15IdentityUIEventOMn"
++ "_$s15ProximityReader15IdentityUIEventON"
++ "_$s15ProximityReader15InternalOptionsCMn"
++ "_$s15ProximityReader15MerchantDetailsVMn"
++ "_$s15ProximityReader15PINSessionEventOMn"
++ "_$s15ProximityReader16AnalyticsManagerV13createSession11serviceName14hierarchyTokenSSSgSS_AGtYaFTu"
++ "_$s15ProximityReader16AnalyticsManagerV14loadSubSession8fileNameSSSgSS_tYaFTu"
++ "_$s15ProximityReader16AnalyticsManagerV14releaseSession9sessionIDySS_tYaFTu"
++ "_$s15ProximityReader16AnalyticsManagerV15storeSubSession9sessionID8fileNameySS_SStYaFTu"
++ "_$s15ProximityReader16AnalyticsManagerV16createSubSession11serviceName06parentG2IDSSSgSS_SStYaFTu"
++ "_$s15ProximityReader16AnalyticsManagerV16sendSessionEvent9sessionID7message07releaseF0ySS_SDySSs8Sendable_pGSbtYaFTu"
++ "_$s15ProximityReader16AnalyticsManagerV18releaseAllSessions3forySS_tYaFTu"
++ "_$s15ProximityReader16AnalyticsManagerV20deleteAllSubSessionsyyYaFTu"
++ "_$s15ProximityReader16AnalyticsManagerVMn"
++ "_$s15ProximityReader16IdentityUIButtonON"
++ "_$s15ProximityReader16PINConfigurationCMn"
++ "_$s15ProximityReader16RegistrationTypeO8identityyACSS_tcACmFWC"
++ "_$s15ProximityReader16RegistrationTypeO8tapToPayyACSS_SbtcACmFWC"
++ "_$s15ProximityReader16RegistrationTypeOMn"
++ "_$s15ProximityReader16RegistrationTypeOSEAAMc"
++ "_$s15ProximityReader16RegistrationTypeOSeAAMc"
++ "_$s15ProximityReader16UnknownErrorCodeO08unexpectD0yA2CmFWC"
++ "_$s15ProximityReader16UnknownErrorCodeO8noBootIdyA2CmFWC"
++ "_$s15ProximityReader17ReadErrorInternalOMn"
++ "_$s15ProximityReader17ReadErrorInternalON"
++ "_$s15ProximityReader17ReadErrorInternalOs0D0AAMc"
++ "_$s15ProximityReader18AutoBugCaptureTypeO9assertionyA2CmFWC"
++ "_$s15ProximityReader18TransactionUIEventOMn"
++ "_$s15ProximityReader19FeatureFlagProviderVAA0cD9ProvidingAAWP"
++ "_$s15ProximityReader19IdentityInformationCMn"
++ "_$s15ProximityReader19TransactionInternalCMn"
++ "_$s15ProximityReader20FeatureFlagProvidingMp"
++ "_$s15ProximityReader20IdentityDocumentTypeOMn"
++ "_$s15ProximityReader20PaymentCycleInternalO6weeklyyA2CmFWC"
++ "_$s15ProximityReader20PaymentCycleInternalO6yearlyyA2CmFWC"
++ "_$s15ProximityReader20PaymentCycleInternalO7monthlyyA2CmFWC"
++ "_$s15ProximityReader20PaymentCycleInternalOMn"
++ "_$s15ProximityReader20ReadFeedbackInternalOMn"
++ "_$s15ProximityReader21AutoBugCaptureSubTypeO13emptyDeviceIDyA2CmFWC"
++ "_$s15ProximityReader21AutoBugCaptureSubTypeO16emptyInstallerIDyA2CmFWC"
++ "_$s15ProximityReader21AutoBugCaptureSubTypeO18invalidEnvironmentyA2CmFWC"
++ "_$s15ProximityReader21AutoBugCaptureSubTypeO9noContextyA2CmFWC"
++ "_$s15ProximityReader22DiscoveryAnalyticsDataV9EventTypeO16contentDismissedyA2EmFWC"
++ "_$s15ProximityReader22DiscoveryAnalyticsDataV9EventTypeO5erroryA2EmFWC"
++ "_$s15ProximityReader22DiscoveryAnalyticsDataVMn"
++ "_$s15ProximityReader22DiscoveryErrorInternalON"
++ "_$s15ProximityReader22DiscoveryErrorInternalOs0D0AAMc"
++ "_$s15ProximityReader23IdentityInternalRequestVMn"
++ "_$s15ProximityReader23IdentityMerchantDetailsVMn"
++ "_$s15ProximityReader23TransactionTypeInternalOMn"
++ "_$s15ProximityReader23TransactionTypeInternalON"
++ "_$s15ProximityReader26CardEffectiveStateInternalOMn"
++ "_$s15ProximityReader27CardExpirationStateInternalOMn"
++ "_$s15ProximityReader27IdentityDocumentRequestTypeOMn"
++ "_$s15ProximityReader27IdentityEntitlementVerifierVMn"
++ "_$s15ProximityReader29IdentityConfigurationInternalCMn"
++ "_$s15ProximityReader29MobileDocumentElementInternalO10ageAtLeastyACSicACmFWC"
++ "_$s15ProximityReader29MobileDocumentElementInternalO10familyNameyA2CmFWC"
++ "_$s15ProximityReader29MobileDocumentElementInternalO9givenNameyA2CmFWC"
++ "_$s15ProximityReader32MobileDriversLicenseTransferTypeO11displayOnlyyA2CmFWC"
++ "_$s15ProximityReader32MobileDriversLicenseTransferTypeO4datayA2CmFWC"
++ "_$s15ProximityReader32MobileDriversLicenseTransferTypeO7rawDatayA2CmFWC"
++ "_$s15ProximityReader32MobileDriversLicenseTransferTypeOMn"
++ "_$s15ProximityReader32MobileDriversLicenseTransferTypeOs23CustomStringConvertibleAAMc"
++ "_$s15ProximityReader36TransactionAmountDescriptionInternalO09surchargeD0yACSo9NSDecimalacACmFWC"
++ "_$s15ProximityReader36TransactionAmountDescriptionInternalO10membershipyAcA012PaymentCycleF0OcACmFWC"
++ "_$s15ProximityReader36TransactionAmountDescriptionInternalO11installmentyAcA012PaymentCycleF0O_So9NSDecimalaSitcACmFWC"
++ "_$s15ProximityReader36TransactionAmountDescriptionInternalO16preauthorizationyA2CmFWC"
++ "_$s15ProximityReader36TransactionAmountDescriptionInternalO16surchargePercentyACSdcACmFWC"
++ "_$s15ProximityReader36TransactionAmountDescriptionInternalO23preauthorizationReleaseyA2CmFWC"
++ "_$s15ProximityReader36TransactionAmountDescriptionInternalOMn"
++ "_$s15ProximityReader38MobileDriversLicenseRequestInformationMp"
++ "_$s15ProximityReader39MobileDriversLicenseDataRequestInternalCAA0cdeG11InformationAAWP"
++ "_$s15ProximityReader39MobileDriversLicenseDataRequestInternalCMn"
++ "_$s15ProximityReader39MobileDriversLicenseReadRequestInternalCAA0cdeG11InformationAAWP"
++ "_$s15ProximityReader39MobileDriversLicenseReadRequestInternalCMn"
++ "_$s15ProximityReader39MobileDriversLicenseViewOptionsInternalC14ValidationModeO13checkMultipleyA2EmFWC"
++ "_$s15ProximityReader39MobileDriversLicenseViewOptionsInternalC14ValidationModeO5checkyA2EmFWC"
++ "_$s15ProximityReader39MobileDriversLicenseViewOptionsInternalC14ValidationModeO7confirmyA2EmFWC"
++ "_$s15ProximityReader39MobileDriversLicenseViewOptionsInternalC14ValidationModeOMn"
++ "_$s15ProximityReader39MobileDriversLicenseViewOptionsInternalC14ValidationModeOSQAAMc"
++ "_$s15ProximityReader39MobileDriversLicenseViewOptionsInternalC14ValidationModeOSYAAMc"
++ "_$s15ProximityReader39MobileDriversLicenseViewRequestInternalCAA0cdeG11InformationAAWP"
++ "_$s15ProximityReader39MobileDriversLicenseViewRequestInternalCMn"
++ "_$s15ProximityReader40MobileDriversLicenseDataResponseInternalC16DocumentElementsV16DrivingPrivilegeV4CodeVMn"
++ "_$s15ProximityReader40MobileDriversLicenseDataResponseInternalC16DocumentElementsV16DrivingPrivilegeVMn"
++ "_$s15ProximityReader40MobileDriversLicenseDataResponseInternalC16DocumentElementsV16IssuingAuthorityVMn"
++ "_$s15ProximityReader40MobileDriversLicenseDataResponseInternalC16DocumentElementsV19DHSComplianceStatusOMn"
++ "_$s15ProximityReader40MobileDriversLicenseDataResponseInternalC16DocumentElementsV21AAMVADrivingPrivilegeV12VehicleClassVMn"
++ "_$s15ProximityReader40MobileDriversLicenseDataResponseInternalC16DocumentElementsV21AAMVADrivingPrivilegeV18VehicleEndorsementVMn"
++ "_$s15ProximityReader40MobileDriversLicenseDataResponseInternalC16DocumentElementsV21AAMVADrivingPrivilegeV18VehicleRestrictionVMn"
++ "_$s15ProximityReader40MobileDriversLicenseDataResponseInternalC16DocumentElementsV21AAMVADrivingPrivilegeVMn"
++ "_$s15ProximityReader40MobileDriversLicenseDataResponseInternalC16DocumentElementsV3SexOMn"
++ "_$s15ProximityReader40MobileDriversLicenseDataResponseInternalC16DocumentElementsV7AddressVMn"
++ "_$s15ProximityReader40MobileDriversLicenseDataResponseInternalCMn"
++ "_$s15ProximityReader40MobileDriversLicenseReadResponseInternalCMn"
++ "_$s15ProximityReader40MobileDriversLicenseViewResponseInternalC17ValidationOutcomeO8approvedyA2EmFWC"
++ "_$s15ProximityReader40MobileDriversLicenseViewResponseInternalC17ValidationOutcomeO8rejectedyA2EmFWC"
++ "_$s15ProximityReader40MobileDriversLicenseViewResponseInternalC17ValidationOutcomeO9dismissedyA2EmFWC"
++ "_$s15ProximityReader40MobileDriversLicenseViewResponseInternalCMn"
++ "_$s15ProximityReader6UIModeON"
++ "_$s15ProximityReader7PINDataCMn"
++ "_$s15ProximityReader7VASModeOMn"
++ "_$sSl14BookFoundationE10isNotEmptySbvg"
++ "_OBJC_CLASS_$_PRNotifyEvents"
++ "_OBJC_CLASS_$_PRSettingsProvider"
++ "_OBJC_METACLASS_$_PRNotifyEvents"
++ "_OBJC_METACLASS_$_PRSettingsProvider"
++ "imityReader36TransactionAmountDescriptionInternalO016preauthorizationD0yACSo9NSDecimalacACmFWC"
++ "mityReader18TransactionUIEventON"
++ "sentedyA2EmFWC"
++ "tionInternalOs23CustomStringConvertibleAAMc"
+
+```
