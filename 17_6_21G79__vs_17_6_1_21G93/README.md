@@ -566,10 +566,6 @@ Symbols:
 
 </details>
 
-### 🔑 Entitlements
-
-- [Entitlements DIFF](Entitlements.md)
-
 ## DSC
 
 ### WebKit
