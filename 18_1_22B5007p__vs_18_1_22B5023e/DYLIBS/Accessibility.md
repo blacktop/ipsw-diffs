@@ -85,11 +85,12 @@
    - /usr/lib/swift/libswiftos.dylib
 -  Functions: 731
 -  Symbols:   563
+-  CStrings:  607
 +  - /usr/lib/swift/libswiftsys_time.dylib
 +  - /usr/lib/swift/libswiftunistd.dylib
 +  Functions: 748
 +  Symbols:   600
-   CStrings:  0
++  CStrings:  618
  
 Symbols:
 + _AXTextContentSizeCategoryDidChangeNotification
@@ -132,5 +133,17 @@ Symbols:
 - _swift_continuation_await
 - _swift_continuation_init
 - _swift_willThrow
+CStrings:
++ "NSFont"
++ "UIContentSizeCategoryDidChangeNotification"
++ "UIContentSizeIsCustom"
++ "boolForKey:"
++ "defaultCenter"
++ "fontWithDescriptor:size:"
++ "postNotificationName:object:"
++ "removeObjectForKey:"
++ "setBool:forKey:"
++ "softlink:r:path:/System/Library/Frameworks/AppKit.framework/AppKit"
++ "standardUserDefaults"
 
 ```

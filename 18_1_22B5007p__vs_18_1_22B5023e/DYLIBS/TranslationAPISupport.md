@@ -49,12 +49,11 @@
    - /usr/lib/swift/libswiftsimd.dylib
 -  Functions: 193
 -  Symbols:   121
--  CStrings:  0
 +  - /usr/lib/swift/libswiftsys_time.dylib
 +  - /usr/lib/swift/libswiftunistd.dylib
 +  Functions: 191
 +  Symbols:   128
-+  CStrings:  67
+   CStrings:  103
  
 Symbols:
 + __swift_FORCE_LOAD_$_swift_Builtin_float
@@ -66,73 +65,5 @@ Symbols:
 + __swift_FORCE_LOAD_$_swiftsys_time
 + __swift_FORCE_LOAD_$_swiftunistd
 - _objc_retain_x1
-CStrings:
-+ "ACLASS_$_MSPSharedTripService"
-+ "ASS_$_MSPSharedTripSharingIdentity"
-+ "C_CLASS_$_MSPTransitStorageIcon"
-+ "SS_$_BMBFSDeletePropagator"
-+ "_$_PVMatrix44Double"
-+ "_OBJC_CLASS_$_BMRegistrar"
-+ "_OBJC_CLASS_$_BMSQLStore"
-+ "_OBJC_CLASS_$_MSPCollectionItemStorage"
-+ "_OBJC_CLASS_$_MSPLowFuelDetails"
-+ "_OBJC_CLASS_$_MSPMapsInstallState"
-+ "_OBJC_CLASS_$_MSPMapsPaths"
-+ "_OBJC_CLASS_$_MSPMapsPushDaemonRemoteProxy"
-+ "_OBJC_CLASS_$_MSPPlaceDisplay"
-+ "_OBJC_CLASS_$_MSPSerializer"
-+ "_OBJC_CLASS_$_MSPSharedTripServer"
-+ "_OBJC_CLASS_$_MSPTransitStorageLineItem"
-+ "_OBJC_CLASS_$_MSPWalletBankTransactionInformation"
-+ "_OBJC_CLASS_$_MSPWalletRAPReport"
-+ "_OBJC_CLASS_$_PVARMetadata"
-+ "_OBJC_CLASS_$_PVImageBuffer"
-+ "_OBJC_CLASS_$_PVInstructionGraphImageBufferSourceNode"
-+ "_OBJC_CLASS_$_PVInstructionGraphRectangleMaskNode"
-+ "_OBJC_CLASS_$_PVInstructionGraphSourceTrackNode"
-+ "_OBJC_CLASS_$_PVLivePlayerAVAssetSource"
-+ "_OBJC_CLASS_$_PVLivePlayerCARenderLink"
-+ "_OBJC_CLASS_$_PVLivePlayerCameraRenderLink"
-+ "_OBJC_CLASS_$_PVLivePlayerCameraSource"
-+ "_OBJC_CLASS_$_PVLivePlayerImageSource"
-+ "_OBJC_CLASS_$_PVLivePlayerRenderLink"
-+ "_OBJC_CLASS_$_PVThermalMonitor"
-+ "_OBJC_CLASS_$_PVTimelineMarker"
-+ "_OBJC_METACLASS_$_BMRegistrar"
-+ "_OBJC_METACLASS_$_BMSQLStore"
-+ "_OBJC_METACLASS_$_MSPCollectionItemStorage"
-+ "_OBJC_METACLASS_$_MSPLowFuelDetails"
-+ "_OBJC_METACLASS_$_MSPMapsInstallState"
-+ "_OBJC_METACLASS_$_MSPMapsPaths"
-+ "_OBJC_METACLASS_$_MSPMapsPushDaemonRemoteProxy"
-+ "_OBJC_METACLASS_$_MSPPlaceDisplay"
-+ "_OBJC_METACLASS_$_MSPSerializer"
-+ "_OBJC_METACLASS_$_MSPSharedTripServer"
-+ "_OBJC_METACLASS_$_MSPSharedTripSharingIdentity"
-+ "_OBJC_METACLASS_$_MSPTransitStorageIcon"
-+ "_OBJC_METACLASS_$_MSPTransitStorageLineItem"
-+ "_OBJC_METACLASS_$_MSPWalletBankTransactionInformation"
-+ "_OBJC_METACLASS_$_MSPWalletRAPReport"
-+ "_OBJC_METACLASS_$_PVARMetadata"
-+ "_OBJC_METACLASS_$_PVImageBuffer"
-+ "_OBJC_METACLASS_$_PVInstructionGraphImageBufferSourceNode"
-+ "_OBJC_METACLASS_$_PVInstructionGraphSourceTrackNode"
-+ "_OBJC_METACLASS_$_PVLivePlayerAVAssetSource"
-+ "_OBJC_METACLASS_$_PVLivePlayerCARenderLink"
-+ "_OBJC_METACLASS_$_PVLivePlayerCameraRenderLink"
-+ "_OBJC_METACLASS_$_PVLivePlayerCameraSource"
-+ "_OBJC_METACLASS_$_PVLivePlayerImageSource"
-+ "_OBJC_METACLASS_$_PVLivePlayerRenderLink"
-+ "_OBJC_METACLASS_$_PVMatrix44Double"
-+ "_OBJC_METACLASS_$_PVThermalMonitor"
-+ "_OBJC_METACLASS_$_PVTimelineMarker"
-+ "_TMConvertTicksToSeconds"
-+ "_TMGetKernelMonotonicClock"
-+ "_TMGetReferenceTime"
-+ "_TMGetTrustedInterval"
-+ "_TMIsAutomaticTimeEnabled"
-+ "_TMSetAutomaticTimeEnabled"
-+ "_TMSetManualTime"
-+ "_TMSetSourceTimeZone"
 
 ```

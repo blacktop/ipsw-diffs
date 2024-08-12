@@ -60,7 +60,6 @@
    - /usr/lib/swift/libswiftObjectiveC.dylib
 -  Functions: 163
 -  Symbols:   446
--  CStrings:  1
 +  - /usr/lib/swift/libswift_Builtin_float.dylib
 +  - /usr/lib/swift/libswift_errno.dylib
 +  - /usr/lib/swift/libswift_math.dylib
@@ -71,7 +70,7 @@
 +  - /usr/lib/swift/libswiftunistd.dylib
 +  Functions: 193
 +  Symbols:   490
-+  CStrings:  22
+   CStrings:  6
  
 Symbols:
 + _$s15Synchronization12_MutexHandleV5valueAA5_CellVySo16os_unfair_lock_sVGvr
@@ -96,29 +95,5 @@ Symbols:
 + _swift_checkMetadataState
 + _swift_getForeignTypeMetadata
 + _swift_getTypeByMangledNameInContext2
-CStrings:
-+ "\x10\xe84L\x12\xf36"
-+ "\x18\xe84L2\xf36"
-+ "0\xe84LX\xf36"
-+ "`\xe84L\x81\xf36"
-+ "x\xe74Le\xf26"
-+ "x\xe84L\xa1\xf36"
-+ "\x80\xe74L\x8c\xf26"
-+ "\x80\xe84L\xc5\xf36"
-+ "\x88\xe84L\xec\xf36"
-+ "\x90\xe84L\r\xf46"
-+ "\x98\xe84L1\xf46"
-+ "\xa0\xe74L\xab\xf26"
-+ "\xa0\xe84LU\xf46"
-+ "\xa8\xe84L|\xf46"
-+ "\xb0\xe84L\x9f\xf46"
-+ "\xb8\xe74L\xce\xf26"
-+ "\xc0\xe84L\xd0\xf46"
-+ "\xc8\xe74L\xe9\xf26"
-+ "\xd0\xe84L\xec\xf46"
-+ "\xd8\xe84L\v\xf56"
-+ "\xe0\xe84L.\xf56"
-+ "\xe8\xe84LR\xf56"
-- "X"
 
 ```

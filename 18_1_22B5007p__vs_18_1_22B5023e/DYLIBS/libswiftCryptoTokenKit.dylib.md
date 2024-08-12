@@ -32,9 +32,8 @@
 +  - /usr/lib/swift/libswiftunistd.dylib
    Functions: 16
 -  Symbols:   60
--  CStrings:  0
 +  Symbols:   68
-+  CStrings:  1
+   CStrings:  6
  
 Symbols:
 + __swift_FORCE_LOAD_$_swift_Builtin_float
@@ -45,7 +44,5 @@ Symbols:
 + __swift_FORCE_LOAD_$_swift_time
 + __swift_FORCE_LOAD_$_swiftsys_time
 + __swift_FORCE_LOAD_$_swiftunistd
-CStrings:
-+ "sSo6CGRectV11NotesSharedE5unionABSgSayABG_tcfC"
 
 ```

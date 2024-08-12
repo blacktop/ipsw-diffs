@@ -62,11 +62,12 @@
    - /usr/lib/swift/libswiftsimd.dylib
 -  Functions: 565
 -  Symbols:   111
+-  CStrings:  158
 +  - /usr/lib/swift/libswiftsys_time.dylib
 +  - /usr/lib/swift/libswiftunistd.dylib
 +  Functions: 591
 +  Symbols:   121
-   CStrings:  0
++  CStrings:  160
  
 Symbols:
 + __swift_FORCE_LOAD_$_swift_Builtin_float
@@ -79,5 +80,8 @@ Symbols:
 + __swift_FORCE_LOAD_$_swiftunistd
 + _swift_initStackObject
 + _swift_setDeallocating
+CStrings:
++ "Can't construct Array with count < 0"
++ "Swift/Array.swift"
 
 ```

@@ -28,9 +28,8 @@
 +  - /usr/lib/swift/libswiftunistd.dylib
    Functions: 116
 -  Symbols:   131
--  CStrings:  0
 +  Symbols:   139
-+  CStrings:  59
+   CStrings:  53
  
 Symbols:
 + __swift_FORCE_LOAD_$_swift_Builtin_float
@@ -41,65 +40,5 @@ Symbols:
 + __swift_FORCE_LOAD_$_swift_time
 + __swift_FORCE_LOAD_$_swiftsys_time
 + __swift_FORCE_LOAD_$_swiftunistd
-CStrings:
-+ "_OBJC_CLASS_$_BLTDebugObserverHolder"
-+ "_OBJC_CLASS_$_BLTPBAddBulletinSummaryRequest"
-+ "_OBJC_CLASS_$_BLTPBBulletinAttachment"
-+ "_OBJC_CLASS_$_BLTPBBulletinSummaryKey"
-+ "_OBJC_CLASS_$_BLTPBHandleAcknowledgeActionRequest"
-+ "_OBJC_CLASS_$_BLTPBIntelligentSummaryBulletinRequest"
-+ "_OBJC_CLASS_$_BLTPBSectionInfoSettings"
-+ "_OBJC_CLASS_$_BLTPBSetNotificationsAlertLevelRequest"
-+ "_OBJC_CLASS_$_BLTPBSetRemoteGlobalSettingsRequest"
-+ "_OBJC_CLASS_$_BLTPBUpdateBulletinListRequest"
-+ "_OBJC_CLASS_$_BLTPingSubscriberManager"
-+ "_OBJC_CLASS_$_BLTRemoteGizmoClient"
-+ "_OBJC_CLASS_$_BLTRemoteGlobalSettingsChangeset"
-+ "_OBJC_CLASS_$_BLTRemoteGlobalSettingsSyncServer"
-+ "_OBJC_CLASS_$_BLTSectionConfigurationCMASItem"
-+ "_OBJC_CLASS_$_BLTSectionConfigurationInternal"
-+ "_OBJC_CLASS_$_BLTSectionConfigurationItem"
-+ "_OBJC_CLASS_$_BLTSectionConfigurationItemFactory"
-+ "_OBJC_CLASS_$_BLTSectionConfigurationMessagesItem"
-+ "_OBJC_CLASS_$_BLTSectionInfoListBBProvider"
-+ "_OBJC_CLASS_$_BLTSectionInfoOverride"
-+ "_OBJC_CLASS_$_BLTSectionInfoOverrideApplier"
-+ "_OBJC_CLASS_$_BLTSendQueueSerializer"
-+ "_OBJC_CLASS_$_BLTSettingSyncSendQueue"
-+ "_OBJC_CLASS_$_BLTSubscriberRemoteClient"
-+ "_OBJC_CLASS_$_BLTWatchKitAppDefinition"
-+ "_OBJC_CLASS_$_BLTWatchKitAppList"
-+ "_OBJC_CLASS_$_BLTWristStateObserver"
-+ "_OBJC_METACLASS_$_BLTDebugObserverHolder"
-+ "_OBJC_METACLASS_$_BLTPBAddBulletinSummaryRequest"
-+ "_OBJC_METACLASS_$_BLTPBBulletinAttachment"
-+ "_OBJC_METACLASS_$_BLTPBBulletinSummaryKey"
-+ "_OBJC_METACLASS_$_BLTPBDateComponents"
-+ "_OBJC_METACLASS_$_BLTPBHandleAcknowledgeActionRequest"
-+ "_OBJC_METACLASS_$_BLTPBIntelligentSummaryBulletinRequest"
-+ "_OBJC_METACLASS_$_BLTPBSectionInfoSettings"
-+ "_OBJC_METACLASS_$_BLTPBSetNotificationsAlertLevelRequest"
-+ "_OBJC_METACLASS_$_BLTPBSetRemoteGlobalSettingsRequest"
-+ "_OBJC_METACLASS_$_BLTPBUpdateBulletinListRequest"
-+ "_OBJC_METACLASS_$_BLTPingSubscriberManager"
-+ "_OBJC_METACLASS_$_BLTRemoteGizmoClient"
-+ "_OBJC_METACLASS_$_BLTRemoteGlobalSettingsChangeset"
-+ "_OBJC_METACLASS_$_BLTRemoteGlobalSettingsSyncServer"
-+ "_OBJC_METACLASS_$_BLTSectionConfigurationCMASItem"
-+ "_OBJC_METACLASS_$_BLTSectionConfigurationInternal"
-+ "_OBJC_METACLASS_$_BLTSectionConfigurationItem"
-+ "_OBJC_METACLASS_$_BLTSectionConfigurationItemFactory"
-+ "_OBJC_METACLASS_$_BLTSectionConfigurationMessagesItem"
-+ "_OBJC_METACLASS_$_BLTSectionInfoListBBProvider"
-+ "_OBJC_METACLASS_$_BLTSectionInfoObserver"
-+ "_OBJC_METACLASS_$_BLTSectionInfoOverride"
-+ "_OBJC_METACLASS_$_BLTSectionInfoOverrideApplier"
-+ "_OBJC_METACLASS_$_BLTSettingSyncSendQueue"
-+ "_OBJC_METACLASS_$_BLTSubscriberRemoteClient"
-+ "_OBJC_METACLASS_$_BLTWatchKitAppDefinition"
-+ "_OBJC_METACLASS_$_BLTWatchKitAppList"
-+ "_OBJC_METACLASS_$_BLTWristStateObserver"
-+ "nts"
-+ "tionInfoObserver"
 
 ```

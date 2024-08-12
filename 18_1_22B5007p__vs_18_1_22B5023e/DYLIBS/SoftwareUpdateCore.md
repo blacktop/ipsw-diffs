@@ -53,9 +53,10 @@
    - /usr/lib/libobjc.A.dylib
 -  Functions: 2861
 -  Symbols:   3800
+-  CStrings:  6190
 +  Functions: 2875
 +  Symbols:   3821
-   CStrings:  0
++  CStrings:  6204
  
 Symbols:
 + _SUCorePolicyDDMStatusKeyDeviceID
@@ -65,5 +66,28 @@ Symbols:
 + _kSUCoreEventSUCoreOTAPreSUStagingDetermineStarted
 + _kSUCoreEventSUCoreOTAPreSUStagingFinished
 + _kSUCoreEventSUCoreOTAPreSUStagingStarted
+CStrings:
++ "%!l(MISSING)u"
++ "%!s(MISSING): %!{(MISSING)public}@ is not in the valid declarations %!{(MISSING)public}@"
++ "%!s(MISSING): Failed to create persisted path; fall back to '%!{(MISSING)public}@'"
++ "%!s(MISSING): Successfully set %!{(MISSING)public}@ as active"
++ "%!s(MISSING): Unable to read corrupted software update state file.  Exception: %!{(MISSING)public}@"
++ "_createEvent:"
++ "_reportPSUSDetermineFinishedEvent:duration:"
++ "_reportPSUSDetermineStartedEvent"
++ "_reportPSUSFinishedEvent:"
++ "_reportPSUSStartedEvent"
++ "augmentEvent:withError:"
++ "miscellaneousTaksQueue"
++ "refreshPrepareSize"
++ "refreshTotalRequiredFreeSpace"
++ "softwareupdate.device-id"
++ "timeIntervalSinceDate:"
++ "unable to determine refreshed prepare size, using preexisting value"
++ "v32@0:8@16d24"
+- "%!s(MISSING): %!@(MISSING) is not in the valid declarations %!@(MISSING)"
+- "%!s(MISSING): Failed to create persisted path; fall back to '%!@(MISSING)'"
+- "%!s(MISSING): Successfully set %!@(MISSING) as active"
+- "%!s(MISSING): Unable to read corrupted software update state file.  Exception: %!@(MISSING)"
 
 ```

@@ -32,9 +32,8 @@
 +  - /usr/lib/swift/libswiftunistd.dylib
    Functions: 1937
 -  Symbols:   63
--  CStrings:  0
 +  Symbols:   71
-+  CStrings:  26
+   CStrings:  26
  
 Symbols:
 + __swift_FORCE_LOAD_$_swift_Builtin_float
@@ -45,32 +44,5 @@ Symbols:
 + __swift_FORCE_LOAD_$_swift_time
 + __swift_FORCE_LOAD_$_swiftsys_time
 + __swift_FORCE_LOAD_$_swiftunistd
-CStrings:
-+ "_OBJC_CLASS_$_PXGView"
-+ "_OBJC_CLASS_$_PXTileStatePool"
-+ "_OBJC_CLASS_$_PXTilingChange"
-+ "_OBJC_CLASS_$_PXTilingChangeEvent"
-+ "_OBJC_CLASS_$_PXTilingControllerComposition"
-+ "_OBJC_CLASS_$_PXTilingControllerCompositionInvalidationContext"
-+ "_OBJC_CLASS_$_PXTilingControllerDefaultComposition"
-+ "_OBJC_CLASS_$_PXTilingCoordinateSpace"
-+ "_OBJC_CLASS_$_PXTilingCoordinateSpaceConverter"
-+ "_OBJC_CLASS_$_PXTilingLayout"
-+ "_OBJC_CLASS_$_PXTilingLayoutInvalidationContext"
-+ "_OBJC_METACLASS_$_PXBasicTileAnimationOptions"
-+ "_OBJC_METACLASS_$_PXBasicTileAnimator"
-+ "_OBJC_METACLASS_$_PXBasicUIViewTileAnimator"
-+ "_OBJC_METACLASS_$_PXGView"
-+ "_OBJC_METACLASS_$_PXTileStatePool"
-+ "_OBJC_METACLASS_$_PXTilingChange"
-+ "_OBJC_METACLASS_$_PXTilingChangeEvent"
-+ "_OBJC_METACLASS_$_PXTilingControllerComposition"
-+ "_OBJC_METACLASS_$_PXTilingControllerCompositionInvalidationContext"
-+ "_OBJC_METACLASS_$_PXTilingControllerDefaultComposition"
-+ "_OBJC_METACLASS_$_PXTilingCoordinateSpace"
-+ "_OBJC_METACLASS_$_PXTilingCoordinateSpaceConverter"
-+ "_OBJC_METACLASS_$_PXTilingLayout"
-+ "_OBJC_METACLASS_$_PXTilingLayoutInvalidationContext"
-+ "tor"
 
 ```

@@ -47,12 +47,11 @@
    - /usr/lib/swift/libswiftsimd.dylib
 -  Functions: 56
 -  Symbols:   93
--  CStrings:  0
 +  - /usr/lib/swift/libswiftsys_time.dylib
 +  - /usr/lib/swift/libswiftunistd.dylib
 +  Functions: 55
 +  Symbols:   101
-+  CStrings:  66
+   CStrings:  102
  
 Symbols:
 + __swift_FORCE_LOAD_$_swift_Builtin_float
@@ -63,72 +62,5 @@ Symbols:
 + __swift_FORCE_LOAD_$_swift_time
 + __swift_FORCE_LOAD_$_swiftsys_time
 + __swift_FORCE_LOAD_$_swiftunistd
-CStrings:
-+ "BufferPlaneAlignmentKey"
-+ "_FigCaptureCompressedPixelFormatForPixelFormat"
-+ "_FigCapturePixelFormatBytesPerPixel"
-+ "_FigCapturePixelFormatIs422"
-+ "_FigCapturePixelFormatIsTenBit"
-+ "_FigCapturePlatformChipRevisionIdentifier"
-+ "_FigCapturePlatformIOSurfaceWiringAssertionEnabled"
-+ "_FigCapturePlatformIdentifier"
-+ "_FigCapturePlatformSupportsHTPC16x8Compression"
-+ "_FigCapturePlatformSupportsUniversalCompression"
-+ "_FigCapturePlatformSupportsUniversalLossyCompression"
-+ "_FigCaptureStreamGetClassID"
-+ "_FigCaptureStreamGetFigBaseObject"
-+ "_FigCaptureUncompressedPixelFormatForPixelFormat"
-+ "_FigCaptureVideoStabilizationStrengthToString"
-+ "_kCVDataBufferIOSurfaceWiringAssertionKey"
-+ "_kCVDataBufferPoolAllocationThresholdKey"
-+ "_kCVDataBufferPoolMaximumBufferAgeKey"
-+ "_kCVDataBufferPoolNameKey"
-+ "_kCVPixelBufferCacheModeKey"
-+ "_kCVPixelBufferCustomMemoryLayoutCallbacksKey"
-+ "_kCVPixelBufferExactBytesPerRowKey"
-+ "_kCVPixelBufferExtendedPixelsFilledKey"
-+ "_kCVPixelBufferFixedPointInvalidValueKey"
-+ "_kCVPixelBufferFixedPointOffsetKey"
-+ "_kCVPixelBufferIOSurfaceCoreAnimationCompatibilityHTPCOKKey"
-+ "_kCVPixelBufferIOSurfaceCoreAnimationCompatibilityKey"
-+ "_kCVPixelBufferIOSurfacePropertiesKey"
-+ "_kCVPixelBufferMetalCompatibilityKey"
-+ "_kCVPixelBufferOpenGLESCompatibilityKey"
-+ "_kCVPixelBufferOpenGLESTextureCacheCompatibilityKey"
-+ "_kCVPixelBufferPixelFormatDescriptionKey"
-+ "_kCVPixelBufferPoolAllocationThresholdKey"
-+ "_kCVPixelBufferPoolNameKey"
-+ "_kCVPixelBufferPoolRequireIOSurfaceWithoutWiringAssertionYetKey"
-+ "_kCVPixelBufferPreferRealTimeCacheModeIfEveryoneDoesKey"
-+ "_kCVPixelBufferProResRAWKey_BlackLevel"
-+ "_kCVPixelBufferProResRAWKey_ColorMatrix"
-+ "_kCVPixelBufferProResRAWKey_GainFactor"
-+ "_kCVPixelBufferProResRAWKey_MetadataExtension"
-+ "_kCVPixelBufferProResRAWKey_RecommendedCrop"
-+ "_kCVPixelBufferProResRAWKey_SenselSitingOffsets"
-+ "_kCVPixelBufferProResRAWKey_WhiteBalanceBlueFactor"
-+ "_kCVPixelBufferProResRAWKey_WhiteBalanceCCT"
-+ "_kCVPixelBufferProResRAWKey_WhiteBalanceRedFactor"
-+ "_kCVPixelBufferProResRAWKey_WhiteLevel"
-+ "_kCVPixelBufferQDCompatibilityKey"
-+ "_kCVPixelBufferRotationKey"
-+ "_kCVPixelBufferVersatileBayerKey_BayerPattern"
-+ "_kCVPixelFormatBitsPerComponent"
-+ "_kCVPixelFormatBytesPerCompressedTileHeader"
-+ "_kCVPixelFormatComponentRange"
-+ "_kCVPixelFormatComponentRange_FullRange"
-+ "_kCVPixelFormatComponentRange_VideoRange"
-+ "_kCVPixelFormatComponentRange_WideRange"
-+ "_kCVPixelFormatCompressedTileHeight"
-+ "_kCVPixelFormatCompressedTileWidth"
-+ "_kCVPixelFormatCompressionType"
-+ "_kCVPixelFormatContainsBayer"
-+ "_kCVPixelFormatContainsGrayscale"
-+ "_kCVPixelFormatContainsRGB"
-+ "_kCVPixelFormatContainsSenselArray"
-+ "_kCVPixelFormatContainsYCbCr"
-+ "_kCVPixelFormatOpenGLESCompatibility"
-+ "elFormatVerticalSubsampling"
-+ "iceGetNotificationCenter"
 
 ```

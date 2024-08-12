@@ -94,6 +94,7 @@
    - /usr/lib/swift/libswiftXPC.dylib
 -  Functions: 12845
 -  Symbols:   12216
+-  CStrings:  12735
 +  - /usr/lib/swift/libswift_Builtin_float.dylib
 +  - /usr/lib/swift/libswift_errno.dylib
 +  - /usr/lib/swift/libswift_math.dylib
@@ -104,7 +105,7 @@
 +  - /usr/lib/swift/libswiftunistd.dylib
 +  Functions: 12592
 +  Symbols:   12212
-   CStrings:  0
++  CStrings:  12736
  
 Symbols:
 + _CGPDFDocumentIsLayoutWithCTLDEnabled
@@ -123,5 +124,13 @@ Symbols:
 - _CGPDFDocumentEnableSimpleSelection
 - _swift_getOpaqueTypeConformance2
 - _swift_unknownObjectRelease_n
+CStrings:
++ "/AppleInternal/Library/BuildRoots/18d7d782-50ae-11ef-bff7-1aec23608739/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.1.Internal.sdk/usr/local/include/boost/graph/topological_sort.hpp"
++ "Bad height value in JBIG2 symbol dictionary"
++ "Bad width value in JBIG2 symbol dictionary"
++ "CGLayoutWithCTLD"
+- "/AppleInternal/Library/BuildRoots/8808857c-3f9c-11ef-8de3-b60714381f84/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.1.Internal.sdk/usr/local/include/boost/graph/topological_sort.hpp"
+- "key group "
+- "lower upper "
 
 ```

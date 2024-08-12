@@ -26,9 +26,8 @@
 +  - /usr/lib/swift/libswiftunistd.dylib
    Functions: 34
 -  Symbols:   65
--  CStrings:  0
 +  Symbols:   73
-+  CStrings:  1
+   CStrings:  4
  
 Symbols:
 + __swift_FORCE_LOAD_$_swift_Builtin_float
@@ -39,7 +38,5 @@ Symbols:
 + __swift_FORCE_LOAD_$_swift_time
 + __swift_FORCE_LOAD_$_swiftsys_time
 + __swift_FORCE_LOAD_$_swiftunistd
-CStrings:
-+ "_CLASS_$_POPodcastSyncHandler"
 
 ```

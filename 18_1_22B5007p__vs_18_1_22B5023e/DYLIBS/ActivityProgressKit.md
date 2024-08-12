@@ -27,9 +27,8 @@
 +  - /usr/lib/swift/libswiftunistd.dylib
    Functions: 118
 -  Symbols:   99
--  CStrings:  20
 +  Symbols:   107
-+  CStrings:  0
+   CStrings:  76
  
 Symbols:
 + __swift_FORCE_LOAD_$_swift_Builtin_float
@@ -40,26 +39,5 @@ Symbols:
 + __swift_FORCE_LOAD_$_swift_time
 + __swift_FORCE_LOAD_$_swiftsys_time
 + __swift_FORCE_LOAD_$_swiftunistd
-CStrings:
-- "MaterialV5color9roughness10isMetallicACSo7UIColorC_AA0D15ScalarParameterOSbtcfC"
-- "_$s10RealityKit23EntityGestureRecognizerMp"
-- "_$s10RealityKit23__ARViewDelegatePrivateMp"
-- "_$s10RealityKit23__ARViewDelegatePrivateP29viewWillProcessTapInteractionyyAA0C0CFTq"
-- "_$s10RealityKit23__ARViewDelegatePrivateP4view_23performedTapInteraction3foryAA0C0C_SbAA6EntityCSgtFTq"
-- "_$s10RealityKit23__ARViewDelegatePrivateP6update_9deltaTimeyAA0C0C_SftFTq"
-- "_$s10RealityKit34EntityTranslationGestureRecognizerCMn"
-- "_$s10RealityKit6ARViewC10CameraModeO2aryA2EmFWC"
-- "_$s10RealityKit6ARViewC10CameraModeO5nonARyA2EmFWC"
-- "_$s10RealityKit6ARViewC11EnvironmentV18SceneUnderstandingV7OptionsVMn"
-- "_$s10RealityKit6ARViewC13RenderOptionsVMn"
-- "_$s10RealityKit6ARViewC14EntityGesturesVs10SetAlgebraAAMc"
-- "_$s10RealityKit6ARViewC17EDRHeadroomPolicyO11constrainedyAESfcAEmFWC"
-- "_$s10RealityKit6ARViewC17EDRHeadroomPolicyO19matchPrimaryDisplayyA2EmFWC"
-- "_$s10RealityKit6ARViewCMn"
-- "_$s17RealityFoundation23PhysicallyBasedMaterialV13EmissiveColorV0A3KitE5color7textureAESo7UIColorC_AA0E10ParametersV7TextureVSgtcfC"
-- "_$s17RealityFoundation23PhysicallyBasedMaterialV9BaseColorV0A3KitE4tint7textureAESo7UIColorC_AA0E10ParametersV7TextureVSgtcfC"
-- "ionsVSQAAMc"
-- "ityKit6ARViewC12DebugOptionsVs10SetAlgebraAAMc"
-- "syAA0C0C_SayAA6EntityCGtFTq"
 
 ```

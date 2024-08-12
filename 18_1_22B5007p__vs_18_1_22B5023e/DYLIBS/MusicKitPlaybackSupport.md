@@ -40,9 +40,8 @@
 +  - /usr/lib/swift/libswiftunistd.dylib
    Functions: 5
 -  Symbols:   15
--  CStrings:  0
 +  Symbols:   27
-+  CStrings:  22
+   CStrings:  4
  
 Symbols:
 + __swift_FORCE_LOAD_$_swiftFileProvider
@@ -57,28 +56,5 @@ Symbols:
 + __swift_FORCE_LOAD_$_swift_time
 + __swift_FORCE_LOAD_$_swiftsys_time
 + __swift_FORCE_LOAD_$_swiftunistd
-CStrings:
-+ "\x01"
-+ "\x02"
-+ "\x03v\x06"
-+ "\x94q\a"
-+ "\x95q\a"
-+ "\x96q\a"
-+ "\x97q\a"
-+ "\x98q\a"
-+ "\x99q\a"
-+ "\x9aq\a"
-+ "\x9bq\a"
-+ "\x9cq\a"
-+ "\xb0q\a"
-+ "\xe2u\x06"
-+ "\xe3u\x06"
-+ "\xe4u\x06"
-+ "\xe5u\x06"
-+ "\xe6u\x06"
-+ "\xe7u\x06"
-+ "\xe8u\x06"
-+ "\xe9u\x06"
-+ "\xeau\x06"
 
 ```

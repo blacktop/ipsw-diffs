@@ -54,12 +54,11 @@
    - /usr/lib/swift/libswiftsimd.dylib
 -  Functions: 397
 -  Symbols:   163
--  CStrings:  0
 +  - /usr/lib/swift/libswiftsys_time.dylib
 +  - /usr/lib/swift/libswiftunistd.dylib
 +  Functions: 396
 +  Symbols:   171
-+  CStrings:  79
+   CStrings:  144
  
 Symbols:
 + __swift_FORCE_LOAD_$_swift_Builtin_float
@@ -70,85 +69,5 @@ Symbols:
 + __swift_FORCE_LOAD_$_swift_time
 + __swift_FORCE_LOAD_$_swiftsys_time
 + __swift_FORCE_LOAD_$_swiftunistd
-CStrings:
-+ "$__CDContact"
-+ "BJC_METACLASS_$__CDRateLimiter"
-+ "LASS_$__DKSearchFeedbackMetadataKey"
-+ "_OBJC_CLASS_$_BMComputeSourceClient"
-+ "_OBJC_CLASS_$_BMComputeTombstonePropagator"
-+ "_OBJC_CLASS_$_BMComputeXPCPublisherStorage"
-+ "_OBJC_CLASS_$_BMDaemon"
-+ "_OBJC_CLASS_$_BMSQLColumn"
-+ "_OBJC_CLASS_$_BMSQLProtoColumn"
-+ "_OBJC_CLASS_$_BMSQLSchema"
-+ "_OBJC_CLASS_$_BMSource"
-+ "_OBJC_CLASS_$_BMStorePublisherManagerProtectedState"
-+ "_OBJC_CLASS_$_BMStoreSource"
-+ "_OBJC_CLASS_$_BMStoreStreamPruningBridge"
-+ "_OBJC_CLASS_$_BMStreamConfiguration"
-+ "_OBJC_CLASS_$_BPSBiomeStorePublisher"
-+ "_OBJC_CLASS_$__BMLibraryAndInternalLibraryNode"
-+ "_OBJC_CLASS_$__CDEntityMetadataKey"
-+ "_OBJC_CLASS_$__CDInteraction"
-+ "_OBJC_CLASS_$__CDPortraitMetadataKey"
-+ "_OBJC_CLASS_$__DKAirPlayPredictionMetadataKey"
-+ "_OBJC_CLASS_$__DKAppClipUsageMetadataKey"
-+ "_OBJC_CLASS_$__DKAppInstallMetadataKey"
-+ "_OBJC_CLASS_$__DKAppIntentsStreamTombstoneRequirement"
-+ "_OBJC_CLASS_$__DKAppMediaUsageMetadataKey"
-+ "_OBJC_CLASS_$__DKAppUsageTombstoneRequirement"
-+ "_OBJC_CLASS_$__DKApplicationActivityMetadataKey"
-+ "_OBJC_CLASS_$__DKAudioMetadataKey"
-+ "_OBJC_CLASS_$__DKBatterySaverMetadataKey"
-+ "_OBJC_CLASS_$__DKBehavioralRuleFeaturesMetadataKey"
-+ "_OBJC_CLASS_$__DKBluetoothMetadataKey"
-+ "_OBJC_CLASS_$__DKBulletinBoardMetadataKey"
-+ "_OBJC_CLASS_$__DKBundleIdentifier"
-+ "_OBJC_CLASS_$__DKCalendarMetadataKey"
-+ "_OBJC_CLASS_$__DKCallMetadataKey"
-+ "_OBJC_CLASS_$__DKDeviceBatteryPercentageMetadataKey"
-+ "_OBJC_CLASS_$__DKDeviceIdMetadataKey"
-+ "_OBJC_CLASS_$__DKDeviceIsPluggedInMetadataKey"
-+ "_OBJC_CLASS_$__DKDeviceStandbyTimerMetadataKey"
-+ "_OBJC_CLASS_$__DKDiscoverabilityUsageMetadataKey"
-+ "_OBJC_CLASS_$__DKFamilyPredictionMetadataKey"
-+ "_OBJC_CLASS_$__DKLocationApplicationActivityMetadataKey"
-+ "_OBJC_CLASS_$__DKLocationMetadataKey"
-+ "_OBJC_CLASS_$__DKMapsShareEtaFeedbackMetadataKey"
-+ "_OBJC_CLASS_$__DKMetadataHomeAppView"
-+ "_OBJC_CLASS_$__DKMetadataHomeKitAccessoryControl"
-+ "_OBJC_CLASS_$__DKMetadataHomeKitScene"
-+ "_OBJC_CLASS_$__DKMetadataPersistenceLookupTable"
-+ "_OBJC_CLASS_$__DKMicroLocationMetadataKey"
-+ "_OBJC_CLASS_$__DKNotificationUsageMetadataKey"
-+ "_OBJC_CLASS_$__DKNowPlayingMetadataKey"
-+ "_OBJC_CLASS_$__DKPeopleSuggesterOutputForSiriNLMetadataKey"
-+ "_OBJC_CLASS_$__DKPeriodMetadataKey"
-+ "_OBJC_CLASS_$__DKPhotosMetadataKeys"
-+ "_OBJC_CLASS_$__DKRelevantShortcutMetadataKey"
-+ "_OBJC_CLASS_$__DKSafariHistoryMetadataKey"
-+ "_OBJC_CLASS_$__DKShareSheetSuggestLessFeedbackMetadataKey"
-+ "_OBJC_CLASS_$__DKSiriServiceMetadataKey"
-+ "_OBJC_CLASS_$__DKTimerMetadataKey"
-+ "_OBJC_METACLASS_$_BMComputeSourceClient"
-+ "_OBJC_METACLASS_$_BMComputeTombstonePropagator"
-+ "_OBJC_METACLASS_$_BMComputeXPCPublisherStorage"
-+ "_OBJC_METACLASS_$_BMDaemon"
-+ "_OBJC_METACLASS_$_BMPublisherOptions"
-+ "_OBJC_METACLASS_$_BMSQLProtoColumn"
-+ "_OBJC_METACLASS_$_BMSQLSchema"
-+ "_OBJC_METACLASS_$_BMSource"
-+ "_OBJC_METACLASS_$_BMStorePublisherManagerProtectedState"
-+ "_OBJC_METACLASS_$_BMStoreSource"
-+ "_OBJC_METACLASS_$_BMStoreStreamPruningBridge"
-+ "_OBJC_METACLASS_$_BMStream"
-+ "_OBJC_METACLASS_$_BMStreamBase"
-+ "_OBJC_METACLASS_$_BPSBiomeStorePublisher"
-+ "_OBJC_METACLASS_$__BMLibraryAndInternalLibraryNode"
-+ "_OBJC_METACLASS_$__CDContact"
-+ "_OBJC_METACLASS_$__CDInteraction"
-+ "_OBJC_METACLASS_$__DKBundleIdentifier"
-+ "ement"
-+ "lisherOptions"
 
 ```

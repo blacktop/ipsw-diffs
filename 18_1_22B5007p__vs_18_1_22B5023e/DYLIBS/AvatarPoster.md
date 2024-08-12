@@ -92,12 +92,12 @@
    - /usr/lib/swift/libswiftsimd.dylib
 -  Functions: 195
 -  Symbols:   72
--  CStrings:  0
+-  CStrings:  13
 +  - /usr/lib/swift/libswiftsys_time.dylib
 +  - /usr/lib/swift/libswiftunistd.dylib
 +  Functions: 50
 +  Symbols:   76
-+  CStrings:  18
++  CStrings:  7
  
 Symbols:
 + _OBJC_CLASS_$_AVTAvatarRecordSerializer
@@ -129,23 +129,13 @@ Symbols:
 - _swift_initStackObject
 - _swift_retain
 CStrings:
-+ "\x01@"
-+ "\x01@"
-+ "\x18\xfa\xc1\xe9"
-+ "Hk\xe2\xdc"
-+ "x\xf5\xc1\xe9"
-+ "\x88\x96Oo"
-+ "\x90"
-+ "\x90\xf9\xc1\xe9"
-+ "\x98\xf5\xc1\xe9"
-+ "\x98\xf9\xc1\xe9"
-+ "\xb0\xf9\xc1\xe9"
-+ "\xb0\xfc\xc1\xe9"
-+ "\xb8\x0e\xc2\xe9"
-+ "\xc2\xe9"
-+ "\xc8\x0e\xc2\xe9"
-+ "\xe0\xf6\xc1\xe9"
-+ "\xe8\xde\xc1\xe9"
-+ "\xf0\xf6\xc1\xe9"
++ "avatarRecordFromData:"
+- "alpha"
+- "avatarRecordData"
+- "backgroundColorDescription"
+- "blue"
+- "dataRepresentation"
+- "green"
+- "red"
 
 ```

@@ -32,9 +32,8 @@
 +  - /usr/lib/swift/libswiftunistd.dylib
    Functions: 7
 -  Symbols:   20
--  CStrings:  22
 +  Symbols:   28
-+  CStrings:  0
+   CStrings:  3
  
 Symbols:
 + __swift_FORCE_LOAD_$_swift_Builtin_float
@@ -45,28 +44,5 @@ Symbols:
 + __swift_FORCE_LOAD_$_swift_time
 + __swift_FORCE_LOAD_$_swiftsys_time
 + __swift_FORCE_LOAD_$_swiftunistd
-CStrings:
-- "\x01"
-- "\x01"
-- "\x02"
-- "\x03"
-- "P74"
-- "R74"
-- "S74"
-- "U74"
-- "V74"
-- "i74"
-- "l74"
-- "m74"
-- "p74"
-- "\x87\xc2\x05"
-- "\x88\xc2\x05"
-- "\x89\xc2\x05"
-- "\x8a\xc2\x05"
-- "\x8b\xc2\x05"
-- "\x95\xc2\x05"
-- "\x96\xc2\x05"
-- "\x97\xc2\x05"
-- "\x98\xc2\x05"
 
 ```

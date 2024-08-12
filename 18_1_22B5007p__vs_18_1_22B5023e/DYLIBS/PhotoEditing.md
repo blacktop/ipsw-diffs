@@ -34,9 +34,8 @@
 +  - /usr/lib/swift/libswiftunistd.dylib
    Functions: 110
 -  Symbols:   64
--  CStrings:  0
 +  Symbols:   72
-+  CStrings:  10
+   CStrings:  32
  
 Symbols:
 + __swift_FORCE_LOAD_$_swift_Builtin_float
@@ -47,16 +46,5 @@ Symbols:
 + __swift_FORCE_LOAD_$_swift_time
 + __swift_FORCE_LOAD_$_swiftsys_time
 + __swift_FORCE_LOAD_$_swiftunistd
-CStrings:
-+ "_$s4Home19HFHomeEnergyManagerC17temporaryLocationSo10CLLocationCSgvgTj"
-+ "_$s4Home19HFHomeEnergyManagerC17temporaryLocationSo10CLLocationCSgvsTj"
-+ "_$s4Home21ItemSelectionBehaviorO7disableyA2CmFWC"
-+ "_$s4Home28AccessoryElementCapabilitiesVSYAAMc"
-+ "_$s4Home28AccessoryElementCapabilitiesVs10SetAlgebraAAMc"
-+ "_$s4Home34DashboardStaticSectionListItemTypeO5sceneyA2CmFWC"
-+ "_$s4Home34DashboardStaticSectionListItemTypeO6camerayA2CmFWC"
-+ "_$sSo18NSNotificationNamea4HomeE31hasUtilitySubscriptionDidChangeABvgZ"
-+ "ome21ItemSelectionBehaviorO5allowyA2CmFWC"
-+ "recastEnabledDidChangeABvgZ"
 
 ```

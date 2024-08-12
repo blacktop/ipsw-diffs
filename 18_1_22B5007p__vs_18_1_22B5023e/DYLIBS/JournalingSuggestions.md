@@ -61,7 +61,7 @@
 +  - /usr/lib/swift/libswiftunistd.dylib
 +  Functions: 1364
 +  Symbols:   2233
-   CStrings:  0
+   CStrings:  195
  
 Symbols:
 + _$ss13withTaskGroup2of9returning9isolation4bodyq_xm_q_mScA_pSgYiq_ScGyxGzYaXEtYas8SendableRzr0_lF

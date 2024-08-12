@@ -34,7 +34,7 @@
    Functions: 1
 -  Symbols:   32
 +  Symbols:   40
-   CStrings:  0
+   CStrings:  2
  
 Symbols:
 + __swift_FORCE_LOAD_$_swift_Builtin_float

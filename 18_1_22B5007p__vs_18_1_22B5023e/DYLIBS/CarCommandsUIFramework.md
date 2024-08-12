@@ -48,9 +48,8 @@
 +  - /usr/lib/swift/libswiftunistd.dylib
    Functions: 1154
 -  Symbols:   145
--  CStrings:  0
 +  Symbols:   153
-+  CStrings:  45
+   CStrings:  74
  
 Symbols:
 + __swift_FORCE_LOAD_$_swift_Builtin_float
@@ -62,50 +61,7 @@ Symbols:
 + __swift_FORCE_LOAD_$_swiftsys_time
 + __swift_FORCE_LOAD_$_swiftunistd
 CStrings:
-+ "_$s11TeaSettings0B0C7NewsAdsE0D0V7enabledAA7SettingCySbGvgZ"
-+ "_$s11TeaSettings0B0C7NewsAdsE0D0V9DebuggingV06visualE0AH06VisualE0CvgZ"
-+ "_$s11TeaSettings0B0C7NewsAdsE0D0V9DebuggingV13AutoPlacementC10BannerTypeO8rawValueSSvg"
-+ "_$s11TeaSettings0B0C7NewsAdsE0D0V9DebuggingV13AutoPlacementC10bannerTypeAA7SettingCyAJ06BannerI0OGvg"
-+ "_$s11TeaSettings0B0C7NewsAdsE0D0V9DebuggingV13AutoPlacementC17distanceFromMediaAA7SettingCySSGvg"
-+ "_$s11TeaSettings0B0C7NewsAdsE0D0V9DebuggingV13AutoPlacementC6marginAA7SettingCySSGvg"
-+ "_$s11TeaSettings0B0C7NewsAdsE0D0V9DebuggingV13AutoPlacementC9frequencyAA7SettingCySiGvg"
-+ "_$s11TeaSettings0B0C7NewsAdsE0D0V9DebuggingV13autoPlacementAH04AutoG0CvgZ"
-+ "_$s11TeaSettings0B0C7NewsAdsE0D0V9DebuggingV14NativeOverrideC14advertiserNameAA7SettingCySSGvg"
-+ "_$s11TeaSettings0B0C7NewsAdsE0D0V9DebuggingV14NativeOverrideC15DesiredPositionO8rawValueSSvg"
-+ "_$s11TeaSettings0B0C7NewsAdsE0D0V9DebuggingV14NativeOverrideC15desiredPositionAA7SettingCyAJ07DesiredI0OGvg"
-+ "_$s11TeaSettings0B0C7NewsAdsE0D0V9DebuggingV14NativeOverrideC5titleAA7SettingCySSGvg"
-+ "_$s11TeaSettings0B0C7NewsAdsE0D0V9DebuggingV14NativeOverrideC9articleIDAA7SettingCySSGvg"
-+ "_$s11TeaSettings0B0C7NewsAdsE0D0V9DebuggingV14nativeOverrideAH06NativeG0CvgZ"
-+ "_$s11TeaSettings0B0C7NewsAdsE0D0V9DebuggingV22requestPoliciesEnabledAA7SettingCyAA12FeatureStateOGvgZ"
-+ "_$s11TeaSettings0B0C7NewsAdsE0D0V9DebuggingV36EOANativeAdInsertionLocationOverrideC09eoaNativegI0AA7SettingCyAJ0fgI0OGvg"
-+ "_$s11TeaSettings0B0C7NewsAdsE0D0V9DebuggingV36eoaNativeAdInsertionLocationOverrideAH09EOANativehijK0CvgZ"
-+ "_$s7NewsAds0B0C11sponsorshipAA2AdCyAA011SponsorshipD7ContextVAA0eD8ProviderCAA0eD9PlacementVGvgZ"
-+ "_$s7NewsAds0B0C12InterstitialV7articleAA2AdCyAA07ArticlecE7ContextVAA0cE8ProviderCAA0cE9PlacementVGvgZ"
-+ "_$s7NewsAds0B0C12InterstitialV7previewAA2AdCyAA07PreviewcE7ContextVAA0cE8ProviderCAA0cE9PlacementVGvgZ"
-+ "_$s7NewsAds0B0C4FeedV7prerollAA2AdCyAA0c7PrerollE7ContextVAA0fE8ProviderCAA0fE9PlacementVGvgZ"
-+ "_$s7NewsAds0B0C6nativeAA2AdCyAA06NativeD7ContextVAA0eD8ProviderCAA0eD9PlacementVGvgZ"
-+ "_$s7NewsAds0B0C7ArticleV6bannerAA2AdCyAA0c6BannerE7ContextVAA0cfE8ProviderCAA0cfE9PlacementVGvgZ"
-+ "_$s7NewsAds0B0C7ArticleV7prerollAA2AdCyAA0c7PrerollE7ContextVAA0fE8ProviderCAA0fE9PlacementVGvgZ"
-+ "_$s7NewsAds14ReferralAdDataV6OriginOMa"
-+ "_$s7NewsAds14ReferralAdDataV6originA2C6OriginO_tcfC"
-+ "_$s7NewsAds14ReferralAdDataVMa"
-+ "_$s7NewsAds15FeedGroupAdDataV4KindO13sportsBracketyA2EmFWC"
-+ "_$s7NewsAds15FeedGroupAdDataV4KindO15sportsStandingsyA2EmFWC"
-+ "_$s7NewsAds15NativeAdContextV11articleDataAA07ArticledG0VSgvg"
-+ "_$s7NewsAds15NativeAdContextV8feedDataAA04FeeddG0VSgvg"
-+ "_$s7NewsAds17NativeAdPlacementV19placementIdentifier13insertionTypeACSS_AA0d9InsertionI0OtcfC"
-+ "_$s7NewsAds19AdPolicyContentTypeO0C5StateO06bannerG0AeA06BannercG0O_tcfC"
-+ "_$s7NewsAds22ArticleBannerAdContextV11articleDataAA0ceH0Vvg"
-+ "_$s7NewsAds25AdPolicyLayoutEnvironmentV10addContent_5frameyAA0cdH4TypeO_So6CGRectVtF"
-+ "_$s7NewsAds35DebugJournalSummaryViewRendererTypeP6render3for4with2inyAA0cD0V_AA0cdeF16LayoutAttributesOAA0cdeF0CtFTj"
-+ "_$s7NewsAds7PPTTypeP014enableCarouselB0SbvgTq"
-+ "_$s7NewsAds7PPTTypeP11mockTagFeedSbvgTq"
-+ "_$s7NewsAds8AdLayoutV4sizeSo6CGSizeVvg"
-+ "_$s7NewsAds8AdLayoutV8position4sizeACSo7CGPointV_So6CGSizeVtcfC"
-+ "_$s7NewsAds8AdLayoutV8positionSo7CGPointVvg"
-+ "_$s7NewsAds9AdSegmentC3key5scopeACyxGSS_AA0cD5ScopeOtcfc"
-+ "_$s7NewsAds9AdSegmentCMa"
-+ "ightsyA2EmFWC"
-+ "ryqd_0__AA0cD0Cyqd__Gt0D5ValueQyd_0_Rsd__AA0cdhF0Rd_0_r0_lFTj"
++ "updatableSnippetIsPresented"
+- "shouldRefreshSnippetKey"
 
 ```

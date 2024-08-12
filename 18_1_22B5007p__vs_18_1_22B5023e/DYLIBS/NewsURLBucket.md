@@ -34,9 +34,8 @@
 +  - /usr/lib/swift/libswiftunistd.dylib
    Functions: 164
 -  Symbols:   100
--  CStrings:  25
 +  Symbols:   108
-+  CStrings:  34
+   CStrings:  67
  
 Symbols:
 + __swift_FORCE_LOAD_$_swift_Builtin_float
@@ -47,65 +46,5 @@ Symbols:
 + __swift_FORCE_LOAD_$_swift_time
 + __swift_FORCE_LOAD_$_swiftsys_time
 + __swift_FORCE_LOAD_$_swiftunistd
-CStrings:
-+ "T@\"NSAttributedString\",&,N,V_satelliteNoNotificationTitleLabelAttributedText"
-+ "T@\"NSAttributedString\",&,N,V_tightenedAttributedText"
-+ "T@\"NSAttributedString\",&,N,V_unavailableTitleLabelAttributedTextWhenNotDisplayingNotifyAnywayButton"
-+ "T@\"NSAttributedString\",C,N,V_SMSFallbackStatusTitleLabelAttributedText"
-+ "T@\"NSAttributedString\",C,N,V_drawerText"
-+ "T@\"NSAttributedString\",C,N,V_pendingMessageCountAttributedText"
-+ "T@\"NSAttributedString\",C,N,V_satelliteAvailabilityTitleLabelAttributedText"
-+ "T@\"NSDate\",&,N,V_messageDate"
-+ "T@\"NSDate\",&,N,V_timeOfLastScrollingDecelerationEnded"
-+ "T@\"NSDate\",&,N,V_transcriptBecameVisibleTimestamp"
-+ "T@\"NSDate\",R,N,V__startTime"
-+ "T@\"NSDateFormatter\",R,N"
-+ "T@\"NSDictionary\",&,N,V_blockedSnapshotInfo"
-+ "T@\"NSDictionary\",&,N,V_combinedStickersAppsIndexPathMap"
-+ "T@\"NSDictionary\",&,N,V_contactMediaInfo"
-+ "V_cellDataForFilterMode"
-+ "didRequestGenerativeContentForImageURL:"
-+ "eText"
-+ "geEditingAnimateOutDamping"
-+ "isSpeakerHidden"
-+ "isTopVCChatNavigationController"
-+ "isTypingMessage"
-+ "isUpdatingMentionAttributedText"
-+ "isUserInitiatedEditNameAndPhoto"
-+ "joinButtonStyle"
-+ "messageForGUID:"
-+ "messagePartBody"
-+ "metadataWithDataRepresentation:"
-+ "modernScreenSharingCapabilities"
-+ "muteButtonImage"
-+ "navBarGlyphFont"
-+ "navBarHeaderChevronImageDefault"
-+ "navBarSubtitleAttributedStringAttributesForContentSizeCategory:"
-+ "navbarManagerDidReceiveMessage:"
-- ":bulletin:observer:"
-- "ficationListInteractiveTransitionCoordinatorRequestsIsCurrentDigestVisible:"
-- "ficationListInteractiveTransitionCoordinatorRequestsIsHiddenListRevealed:"
-- "ificationListRevealCoordinatorShouldAllowReveal:"
-- "notificationActionForFollowActivityAction:bulletin:observer:"
-- "notificationActionForSilenceAction:bulletin:observer:"
-- "notificationActionForUNNotificationAction:bulletin:observer:"
-- "notificationAlertDestination"
-- "notificationContentView:willInteractWithURL:"
-- "notificationContentViewHidden"
-- "notificationCountForNotificationGroupLists:"
-- "notificationForBulletin:"
-- "notificationHistoryRevealed"
-- "notificationListCacheNotificationViewControllerClass:"
-- "notificationListCell:didMoveToNewXPosition:"
-- "notificationListCellDidSignificantUserInteraction:"
-- "notificationListCoalescingControlsHandler:didTransitionToClearState:"
-- "notificationListInteractiveTransitionCoordinatorRequestsIsScrollingListContent:"
-- "notificationListInteractiveTransitionCoordinatorRequestsMigratingProminentNotificationsForHiddenSetting:"
-- "notificationListMigrationScheduler:requestsMigratingNotificationRequests:"
-- "notificationListMigrationSchedulerRequestsMigratingNotificationDigest:"
-- "notificationListPresentableGroupDidChangeGroupedState:"
-- "notificationListRevealCoordinator:updatedRevealState:"
-- "notificationListRevealCoordinatorShouldAllowRevealTransition:"
-- "notificationListSections"
 
 ```

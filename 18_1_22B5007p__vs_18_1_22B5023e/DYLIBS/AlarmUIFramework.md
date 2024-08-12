@@ -54,12 +54,11 @@
    - /usr/lib/swift/libswiftsimd.dylib
 -  Functions: 292
 -  Symbols:   93
--  CStrings:  26
 +  - /usr/lib/swift/libswiftsys_time.dylib
 +  - /usr/lib/swift/libswiftunistd.dylib
 +  Functions: 291
 +  Symbols:   98
-+  CStrings:  0
+   CStrings:  22
  
 Symbols:
 + __swift_FORCE_LOAD_$_swift_Builtin_float
@@ -72,32 +71,5 @@ Symbols:
 + __swift_FORCE_LOAD_$_swiftunistd
 - _objc_retain_x19
 - _swift_allocBox
-CStrings:
-- "_MPULayoutLinearRelationEvaluate"
-- "_MPULayoutLinearRelationMake"
-- "_OBJC_CLASS_$_MPUFontDescriptor"
-- "_OBJC_CLASS_$_MPUFontDescriptorCache"
-- "_OBJC_CLASS_$_MPUHTMLParser"
-- "_OBJC_CLASS_$_MPUHalfTintedTransportButton"
-- "_OBJC_CLASS_$_MPULayoutInterpolator"
-- "_OBJC_CLASS_$_MPUMutableFontDescriptor"
-- "_OBJC_CLASS_$_MPUNowPlayingIndicatorView"
-- "_OBJC_CLASS_$_MPUTransportButton"
-- "_OBJC_CLASS_$__MPUHTMLDefaultDelegate"
-- "_OBJC_CLASS_$__MPUHTMLParserState"
-- "_OBJC_CLASS_$__MPUMarqueeContentView"
-- "_OBJC_METACLASS_$_MPUEmphasizedText"
-- "_OBJC_METACLASS_$_MPUFontDescriptor"
-- "_OBJC_METACLASS_$_MPUFontDescriptorCache"
-- "_OBJC_METACLASS_$_MPUHTMLParser"
-- "_OBJC_METACLASS_$_MPUHalfTintedTransportButton"
-- "_OBJC_METACLASS_$_MPULayoutInterpolator"
-- "_OBJC_METACLASS_$_MPUMarqueeView"
-- "_OBJC_METACLASS_$_MPUMutableFontDescriptor"
-- "_OBJC_METACLASS_$_MPUTransportButton"
-- "_OBJC_METACLASS_$__MPUHTMLDefaultDelegate"
-- "_OBJC_METACLASS_$__MPUHTMLParserState"
-- "iew"
-- "yingUserInterfaceLayoutDirectionInRect"
 
 ```

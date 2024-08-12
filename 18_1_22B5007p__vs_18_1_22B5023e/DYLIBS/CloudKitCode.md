@@ -69,7 +69,7 @@
 +  - /usr/lib/swift/libswiftunistd.dylib
 +  Functions: 1796
 +  Symbols:   1062
-   CStrings:  0
+   CStrings:  326
  
 Symbols:
 + _$ss31withCheckedThrowingContinuation9isolation8function_xScA_pSgYi_SSyScCyxs5Error_pGXEtYaKlF

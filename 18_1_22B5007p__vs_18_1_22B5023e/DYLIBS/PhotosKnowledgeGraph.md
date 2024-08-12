@@ -35,9 +35,8 @@
 +  - /usr/lib/swift/libswiftunistd.dylib
    Functions: 460
 -  Symbols:   107
--  CStrings:  0
 +  Symbols:   115
-+  CStrings:  13
+   CStrings:  30
  
 Symbols:
 + __swift_FORCE_LOAD_$_swift_Builtin_float
@@ -48,19 +47,5 @@ Symbols:
 + __swift_FORCE_LOAD_$_swift_time
 + __swift_FORCE_LOAD_$_swiftsys_time
 + __swift_FORCE_LOAD_$_swiftunistd
-CStrings:
-+ "_OBJC_METACLASS_$_SBUIImageViewAccessibility"
-+ "_OBJC_METACLASS_$_SBUILabelAccessibility"
-+ "_OBJC_METACLASS_$_SBUIRemoteKeyboardWindowAccessibility"
-+ "_OBJC_METACLASS_$_SBUISegmentedControlAccessibility"
-+ "_OBJC_METACLASS_$_SBUITableViewAccessibility"
-+ "_OBJC_METACLASS_$_SBUITableViewCellAccessibilityElementAccessibility"
-+ "_OBJC_METACLASS_$_SBUITextEffectsRemoteViewAccessibility"
-+ "_OBJC_METACLASS_$_SBUIViewAccessibility"
-+ "_OBJC_METACLASS_$_SBUIViewControllerWrapperViewAccessibility"
-+ "_OBJC_METACLASS_$_SBUIWindowAccessibility"
-+ "_OBJC_METACLASS_$_SBWallpaperControllerAccessibility"
-+ "_OBJC_METACLASS_$_SBWindowSceneAccessibility"
-+ "trollerAccessibility"
 
 ```

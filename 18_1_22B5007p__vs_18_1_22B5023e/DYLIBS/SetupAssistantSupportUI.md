@@ -81,11 +81,12 @@
    - /usr/lib/swift/libswiftsimd.dylib
 -  Functions: 427
 -  Symbols:   146
+-  CStrings:  69
 +  - /usr/lib/swift/libswiftsys_time.dylib
 +  - /usr/lib/swift/libswiftunistd.dylib
 +  Functions: 443
 +  Symbols:   157
-   CStrings:  0
++  CStrings:  76
  
 Symbols:
 + _OBJC_CLASS_$_OS_dispatch_queue
@@ -101,5 +102,13 @@ Symbols:
 + __swift_FORCE_LOAD_$_swiftunistd
 - _CGAffineTransformMakeTranslation
 - _CGPointApplyAffineTransform
+CStrings:
++ "brightness"
++ "currentTraitCollection"
++ "didNotify"
++ "mainScreen"
++ "potentialEDRHeadroom"
++ "setBrightness:"
++ "userInterfaceStyle"
 
 ```

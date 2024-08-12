@@ -62,7 +62,12 @@
 -  Symbols:   299
 +  Functions: 159
 +  Symbols:   297
-   CStrings:  0
+   CStrings:  681
  
+CStrings:
++ "_equivalentBundleIDsWithSchemesRemovedMapping"
++ "initWithCapacity:"
+- "_schemeRemovedEquivalentBundleIDsMapping:"
+- "v24@?0@\"NSArray\"8^B16"
 
 ```

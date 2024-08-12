@@ -34,9 +34,8 @@
 +  - /usr/lib/swift/libswiftunistd.dylib
    Functions: 82
 -  Symbols:   61
--  CStrings:  50
 +  Symbols:   69
-+  CStrings:  0
+   CStrings:  21
  
 Symbols:
 + __swift_FORCE_LOAD_$_swift_Builtin_float
@@ -51,56 +50,5 @@ Symbols:
 + _objc_release_x28
 - _objc_release_x19
 - _objc_release_x23
-CStrings:
-- "\x10r\xe8\r"
-- "\x10x\xe8\r"
-- "\x10\x7f\xe8\r"
-- "\x18\x83\xe8\r"
-- " \x8a\xe8\r"
-- "(y\xe8\r"
-- "0z\xe8\r"
-- "0\x81\xe8\r"
-- "8t\xd0\r"
-- "8u\xd0\r"
-- "8\x7f\xe8\r"
-- "@\x83\xe8\r"
-- "Hw\xe8\r"
-- "H\x80\xe8\r"
-- "Pm\xe8\r"
-- "Px\xe8\r"
-- "P\x8b\xe8\r"
-- "`g\xe8\r"
-- "`\x7f\xe8\r"
-- "hy\xe8\r"
-- "h\x83\xe8\r"
-- "ps\xe8\r"
-- "xm\xe8\r"
-- "xu\xd0\r"
-- "xv\xd0\r"
-- "\x80\x84\xe8\r"
-- "\x88w\xe8\r"
-- "\x88\x80\xe8\r"
-- "\x90v\xe8\r"
-- "\x90\x83\xe8\r"
-- "\x90\x8b\xe8\r"
-- "\xa0m\xe8\r"
-- "\xa0r\xe8\r"
-- "\xa0\x7f\xe8\r"
-- "\xb0s\xe8\r"
-- "\xb8v\xd0\r"
-- "\xb8\x83\xe8\r"
-- "\xb8\x89\xe8\r"
-- "\xc0\x84\xe8\r"
-- "\xc8y\xe8\r"
-- "\xd0q\xe8\r"
-- "\xe0m\xe8\r"
-- "\xe0r\xe8\r"
-- "\xe0\x89\xe8\r"
-- "\xe8w\xe8\r"
-- "\xf0w\xd0\r"
-- "\xf0y\xe8\r"
-- "\xf0\x80\xe8\r"
-- "\xf8s\xd0\r"
-- "\xf8\x83\xe8\r"
 
 ```

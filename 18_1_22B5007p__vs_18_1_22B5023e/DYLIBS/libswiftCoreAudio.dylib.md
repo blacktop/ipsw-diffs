@@ -32,9 +32,8 @@
 +  - /usr/lib/swift/libswiftunistd.dylib
    Functions: 345
 -  Symbols:   616
--  CStrings:  2
 +  Symbols:   624
-+  CStrings:  11
+   CStrings:  3
  
 Symbols:
 + __swift_FORCE_LOAD_$_swift_Builtin_float
@@ -45,19 +44,5 @@ Symbols:
 + __swift_FORCE_LOAD_$_swift_time
 + __swift_FORCE_LOAD_$_swiftsys_time
 + __swift_FORCE_LOAD_$_swiftunistd
-CStrings:
-+ "\x01@"
-+ "\x01A"
-+ "X\xbcOo"
-+ "`\xbcOo"
-+ "p\xbcOo"
-+ "x\xbcOo"
-+ "\x88\xbcOo"
-+ "\x90\xbcOo"
-+ "\xe0\xbcOo"
-+ "\xe8\xbcOo"
-+ "\xf0\xbcOo"
-- "__ZN32pxrInternal__aapl__pxrReserved__9SdfListOpINS_7TfTokenEE4SwapERS2_"
-- "sERKNSt3__16vectorIS1_NS3_9allocatorIS1_EEEE"
 
 ```

@@ -97,7 +97,7 @@
 +  - /usr/lib/swift/libswiftunistd.dylib
 +  Functions: 2099
 +  Symbols:   2761
-   CStrings:  0
+   CStrings:  2985
  
 Symbols:
 + __swift_FORCE_LOAD_$_swift_Builtin_float
@@ -111,5 +111,8 @@ Symbols:
 - _swift_taskGroup_destroy
 - _swift_taskGroup_initializeWithFlags
 - _swift_unexpectedError
+CStrings:
++ "ic_isDeallocating"
+- "_Concurrency/DiscardingTaskGroup.swift"
 
 ```

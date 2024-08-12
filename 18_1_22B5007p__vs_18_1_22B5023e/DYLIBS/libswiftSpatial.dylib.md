@@ -28,7 +28,7 @@
    Functions: 1791
 -  Symbols:   2482
 +  Symbols:   2490
-   CStrings:  0
+   CStrings:  27
  
 Symbols:
 + __swift_FORCE_LOAD_$_swift_Builtin_float

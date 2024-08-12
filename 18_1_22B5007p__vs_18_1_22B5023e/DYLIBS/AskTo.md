@@ -72,12 +72,12 @@
    - /usr/lib/swift/libswiftos.dylib
 -  Functions: 114
 -  Symbols:   106
--  CStrings:  0
+-  CStrings:  53
 +  - /usr/lib/swift/libswiftsys_time.dylib
 +  - /usr/lib/swift/libswiftunistd.dylib
 +  Functions: 105
 +  Symbols:   104
-+  CStrings:  66
++  CStrings:  46
  
 Symbols:
 + __swift_FORCE_LOAD_$_swift_Builtin_float
@@ -102,71 +102,16 @@ Symbols:
 - _swift_beginAccess
 - _swift_bridgeObjectRetain_n
 CStrings:
-+ "\a\xe6`"
-+ "\b\xa5\xec`"
-+ "\x10\x9f\xec`"
-+ "\x10\xa3\xec`"
-+ "\x10\xa5\xec`"
-+ "\x18\xa1\xec`"
-+ "\x18\xa5\xec`"
-+ " s\xe3\xdc"
-+ "6\xdd\xdc"
-+ "88\xdd\xdc"
-+ "@\xa2\xec`"
-+ "H\v\xe6`"
-+ "H\x12\xe6`"
-+ "H\x9f\xec`"
-+ "H\xa7\xec`"
-+ "P\v\xe6`"
-+ "P\x12\xe6`"
-+ "Pr\xe3\xdc"
-+ "P\x9f\xec`"
-+ "P\xa1\xec`"
-+ "X\v\xe6`"
-+ "X5\xdd\xdc"
-+ "X7\xdd\xdc"
-+ "X\x9f\xec`"
-+ "X\xa4\xec`"
-+ "`7\xdd\xdc"
-+ "`\x9f\xec`"
-+ "`\xa0\xec`"
-+ "`\xa4\xec`"
-+ "`\xa7\xec`"
-+ "h\v\xe6`"
-+ "h6\xdd\xdc"
-+ "hs\xe3\xdc"
-+ "p7\xdd\xdc"
-+ "pr\xe3\xdc"
-+ "p\x9f\xec`"
-+ "p\xa0\xec`"
-+ "p\xa2\xec`"
-+ "t\xe3\xdc"
-+ "x\v\xe6`"
-+ "xr\xe3\xdc"
-+ "\x80\r\xe6`"
-+ "\x807\xdd\xdc"
-+ "\x80\x9f\xec`"
-+ "\x80\xa7\xec`"
-+ "\xa0\r\xe6`"
-+ "\xa8;\xdd\xdc"
-+ "\xa8t\xe3\xdc"
-+ "\xa8\x9d\xec`"
-+ "\xb0;\xdd\xdc"
-+ "\xb0t\xe3\xdc"
-+ "\xb0u\xe3\xdc"
-+ "\xb8t\xe3\xdc"
-+ "\xb8\x9c\xec`"
-+ "\xc0\r\xe6`"
-+ "\xc0t\xe3\xdc"
-+ "\xc0\x9c\xec`"
-+ "Ȟ\xec`"
-+ "\xd0t\xe3\xdc"
-+ "\xd8\t\xe6`"
-+ "\xe0t\xe3\xdc"
-+ "\xe0v\xe3\xdc"
-+ "\xf0\v\xe6`"
-+ "\xf89\xdd\xdc"
-+ "\xf8\xa1\xec`"
-+ "\xf8\xa2\xec`"
++ "Sending question to daemon: %!@(MISSING)"
++ "_send(_:to:destinationsNotSupportingLegacyAskViaMessages:)"
+- "Error retrieving LSApplicationRecord for client with bundle ID %!s(MISSING): %!@(MISSING)"
+- "ScreenTime question ID was not a valid UUID. Failing send. question.id: %!s(MISSING)"
+- "Sending payload to daemon: %!@(MISSING)"
+- "_send(_:to:destinationsNotSupportingLegacyAskViaMessages:canSendWithValidDestinations:)"
+- "adamIdentifier for client with bundle ID %!s(MISSING) is %!s(MISSING)"
+- "com.apple.ScreenTimeAgent"
+- "iTunesMetadata"
+- "initWithBundleIdentifier:allowPlaceholder:error:"
+- "storeItemIdentifier"
 
 ```

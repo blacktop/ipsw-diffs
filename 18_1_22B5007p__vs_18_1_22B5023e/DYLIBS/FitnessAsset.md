@@ -85,12 +85,12 @@
    - /usr/lib/swift/libswiftsimd.dylib
 -  Functions: 2235
 -  Symbols:   184
--  CStrings:  52
+-  CStrings:  100
 +  - /usr/lib/swift/libswiftsys_time.dylib
 +  - /usr/lib/swift/libswiftunistd.dylib
 +  Functions: 2121
 +  Symbols:   188
-+  CStrings:  0
++  CStrings:  95
  
 Symbols:
 + __swift_FORCE_LOAD_$_swift_Builtin_float
@@ -109,57 +109,16 @@ Symbols:
 - _swift_getTupleTypeMetadata
 - _swift_retain_n
 CStrings:
-- "ShortLookView"
-- "_$s13CoreIDVShared20IdentityImageQualityC10blurWindowSiSgvg"
-- "_$s13CoreIDVShared20IdentityImageQualityC10bufferSizeSiSgvg"
-- "_$s13CoreIDVShared20IdentityImageQualityC11explorationSbvg"
-- "_$s13CoreIDVShared20IdentityImageQualityC14videoFrameRateSiSgvg"
-- "_$s13CoreIDVShared20IdentityImageQualityC15idScanFrameRateSiSgvg"
-- "_$s13CoreIDVShared20IdentityImageQualityC16resizeDimensionsAA0c8ProofingdG0CSgvg"
-- "_$s13CoreIDVShared22IdentityProofingIDTypeO08proofingE4From16identityPassTypeACSS_tFZ"
-- "_$s13CoreIDVShared22IdentityProofingIDTypeO8rawValueACSgSS_tcfC"
-- "_$s13CoreIDVShared22IdentityProofingIDTypeO8rawValueSSvg"
-- "_$s13CoreIDVShared22IdentityProofingIDTypeOMa"
-- "_$s13CoreIDVShared24ISO18013SessionErrorCodeO8rawValueACSgSi_tcfC"
-- "_$s13CoreIDVShared24ISO18013SessionErrorCodeOMa"
-- "_$s13CoreIDVShared26iso18013SessionErrorDomainSSvg"
-- "_$s13CoreIDVShared27IdentityProofingDisplayInfoC016lowDataModeAlertH16ThresholdInBytesSiSgvg"
-- "_$s13CoreIDVShared27IdentityProofingDisplayInfoC10proofingUISayAA0cD8UIConfigCGSgvg"
-- "_$s13CoreIDVShared27IdentityProofingDisplayInfoC12learnMoreURLSSSgvg"
-- "_$s13CoreIDVShared27IdentityProofingDisplayInfoC15attributeConfig10Foundation4DataVSgvg"
-- "_$s13CoreIDVShared27IdentityProofingDisplayInfoC39waitingForWiFiAlertDataThresholdInBytesSiSgvg"
-- "_$s13CoreIDVShared27IdentityProofingDisplayInfoC7docScanAA0c3DocH6ConfigCSgvg"
-- "_$s13CoreIDVShared32IdentityProofingLivenessVideoURLC3url9auxiliaryAC10Foundation0G0V_AHSgtKcfc"
-- "_$s13CoreIDVShared32IdentityProofingLivenessVideoURLCMa"
-- "_$s13CoreIDVShared37IdentityProofingTextReplacementHelperC07replaceE0ySSSgSSFTj"
-- "_$s13CoreIDVShared37IdentityProofingTextReplacementHelperC17attributeMessages19messageReplacements5state7country6idTypeACSDyS2SG_AIS3StcfC"
-- "_$s13CoreIDVShared37IdentityProofingTextReplacementHelperCMa"
-- "_$s13CoreIDVShared39IdentityProofingFeatureEnablementConfigC22isFedStatsOptinEnabledSbvg"
-- "_$sSo19SecAccessControlRefa13CoreIDVSharedE8fromDatayAB10Foundation0H0VKFZ"
-- "_OBJC_CLASS_$_NCSpringAnimationSettings"
-- "_OBJC_CLASS_$_NCSupplementaryViewPrototypeRecipe"
-- "_OBJC_CLASS_$_NCToggleControlPair"
-- "_OBJC_CLASS_$_STUIStatusBarActionGestureRecognizer"
-- "_OBJC_CLASS_$_STUIStatusBarCellularFlatSignalView"
-- "_OBJC_CLASS_$_STUIStatusBarDataAggregatorUpdateDelayToken"
-- "_OBJC_CLASS_$_STUIStatusBarStyleRequest"
-- "_OBJC_METACLASS_$_NCBannerTransitionBlockingPrototypeRecipe"
-- "_OBJC_METACLASS_$_NCCreateContactNavigationViewController"
-- "_OBJC_METACLASS_$_NCInternalSettingsButtonView"
-- "_OBJC_METACLASS_$_NCMaterialDisplayingCaptureOnlyViewController"
-- "_OBJC_METACLASS_$_NCMaterialDisplayingCaptureOnlyViewControllerView"
-- "_OBJC_METACLASS_$_NCNotificationListHighlights"
-- "_OBJC_METACLASS_$_NCPlatformEligibility"
-- "_OBJC_METACLASS_$_NCSummaryServiceGateway"
-- "_STUIBackgroundActivityIdentiferRepresentsStyleOverride"
-- "_STUIBackgroundActivityIdentifierForStyleOverride"
-- "_STUIBackgroundActivityIdentifiersForStyleOverrides"
-- "_STUIStatusBarCarPlayHorizontalLayoutKey"
-- "_STUIStatusBarCellularSmallSignalView"
-- "_STUIStyleOverrideForBackgroundActivityIdentifier"
-- "_STUIStyleOverridesForBackgroundActivityIdentifiers"
-- "ageQualityC21livenessBlockingCodes10Foundation4DataVSgvg"
-- "bugView"
-- "nList"
++ "Contradictory frame constraints specified."
++ "aa_altDSID"
++ "noProfilePicture"
+- "aa_primaryAppleAccountWithCompletion:"
+- "alternateDirectoryServicesIdentifierQueryFailed"
+- "ams_sharedAccountStore"
+- "deviceSystemImage"
+- "familyMemberFetchFailed"
+- "imageFetchFailed"
+- "person.crop.circle"
+- "v24@?0@\"ACAccount\"8@\"NSError\"16"
 
 ```

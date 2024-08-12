@@ -49,9 +49,18 @@
 -  Functions: 75
 +  Functions: 76
    Symbols:   201
-   CStrings:  0
+-  CStrings:  211
++  CStrings:  214
  
 Symbols:
 - _objc_retain_x24
+CStrings:
++ "_SpotlightDaemonClientHandleCommand_block_invoke_5"
++ "reindexAllItemsForBundleID:protectionClass:reason:acknowledgementHandler:"
++ "rire"
++ "v32@?0{?=*Q{?=IC}}8"
++ "v48@0:8@\"NSString\"16@\"NSString\"24@\"NSString\"32@?<v@?>40"
+- "_SpotlightDaemonClientHandleCommand_block_invoke_4"
+- "v24@?0{?=*{?=IC}}8"
 
 ```

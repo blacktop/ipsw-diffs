@@ -62,7 +62,7 @@
 -  Symbols:   1084
 +  Functions: 879
 +  Symbols:   1087
-   CStrings:  0
+   CStrings:  555
  
 Symbols:
 + _memset_s

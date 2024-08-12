@@ -29,7 +29,7 @@
    Functions: 10
 -  Symbols:   21
 +  Symbols:   29
-   CStrings:  0
+   CStrings:  2
  
 Symbols:
 + __swift_FORCE_LOAD_$_swift_Builtin_float

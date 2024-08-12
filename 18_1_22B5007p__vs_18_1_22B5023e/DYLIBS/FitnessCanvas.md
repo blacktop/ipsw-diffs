@@ -80,12 +80,11 @@
    - /usr/lib/swift/libswiftsimd.dylib
 -  Functions: 613
 -  Symbols:   110
--  CStrings:  38
 +  - /usr/lib/swift/libswiftsys_time.dylib
 +  - /usr/lib/swift/libswiftunistd.dylib
 +  Functions: 647
 +  Symbols:   118
-+  CStrings:  0
+   CStrings:  33
  
 Symbols:
 + __swift_FORCE_LOAD_$_swift_Builtin_float
@@ -96,44 +95,5 @@ Symbols:
 + __swift_FORCE_LOAD_$_swift_time
 + __swift_FORCE_LOAD_$_swiftsys_time
 + __swift_FORCE_LOAD_$_swiftunistd
-CStrings:
-- "ETACLASS_$_AMDCoreDataPersistentContainer"
-- "_OBJC_CLASS_$_AMDAppEvent"
-- "_OBJC_CLASS_$_AMDAppSegment"
-- "_OBJC_CLASS_$_AMDAppStoreEvent"
-- "_OBJC_CLASS_$_AMDAppTabInfo"
-- "_OBJC_CLASS_$_AMDBaseRecoModel"
-- "_OBJC_CLASS_$_AMDByteBuffer"
-- "_OBJC_CLASS_$_AMDCoreDataPersistentContainer"
-- "_OBJC_CLASS_$_AMDDescriptor"
-- "_OBJC_CLASS_$_AMDDomains"
-- "_OBJC_CLASS_$_AMDError"
-- "_OBJC_CLASS_$_AMDFeature"
-- "_OBJC_CLASS_$_AMDFeatureDescriptor"
-- "_OBJC_CLASS_$_AMDInputBuilder"
-- "_OBJC_CLASS_$_AMDJSAppStoreEventHandler"
-- "_OBJC_CLASS_$_AMDJSConfigProcessor"
-- "_OBJC_CLASS_$_AMDJSCustomAggregator"
-- "_OBJC_CLASS_$_AMDJSEngagementEventHandler"
-- "_OBJC_CLASS_$_AMDJSGetSegments"
-- "_OBJC_CLASS_$_AMDJSInference"
-- "_OBJC_CLASS_$_AMDJSRequestHandler"
-- "_OBJC_CLASS_$_AMDJSSync"
-- "_OBJC_CLASS_$_AMDMapFeature"
-- "_OBJC_CLASS_$_AMDMinHeap"
-- "_OBJC_CLASS_$_AMDMiscHelpers"
-- "_OBJC_CLASS_$_AMDModel"
-- "_OBJC_CLASS_$_AMDModelAssetsMetadata"
-- "_OBJC_CLASS_$_AMDModelInputMetadata"
-- "_OBJC_CLASS_$_AMDModelMetadata"
-- "_OBJC_CLASS_$_AMDModelOutputMetadata"
-- "_OBJC_METACLASS_$_AMDDescriptor"
-- "_OBJC_METACLASS_$_AMDDomains"
-- "_OBJC_METACLASS_$_AMDFeature"
-- "_OBJC_METACLASS_$_AMDFeatureDescriptor"
-- "_OBJC_METACLASS_$_AMDInputBuilder"
-- "_OBJC_METACLASS_$_AMDJSConfigProcessor"
-- "_OBJC_METACLASS_$_AMDJSCustomAggregator"
-- "ofile"
 
 ```

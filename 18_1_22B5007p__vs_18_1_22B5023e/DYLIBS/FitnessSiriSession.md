@@ -35,9 +35,8 @@
 +  - /usr/lib/swift/libswiftunistd.dylib
    Functions: 350
 -  Symbols:   60
--  CStrings:  3
 +  Symbols:   68
-+  CStrings:  21
+   CStrings:  10
  
 Symbols:
 + __swift_FORCE_LOAD_$_swift_Builtin_float
@@ -48,30 +47,5 @@ Symbols:
 + __swift_FORCE_LOAD_$_swift_time
 + __swift_FORCE_LOAD_$_swiftsys_time
 + __swift_FORCE_LOAD_$_swiftunistd
-CStrings:
-+ "\bҞ8"
-+ "\x18Ҟ8"
-+ "0\xb5\x9e8"
-+ "@\xb5\x9b8"
-+ "@\xbf\x9b8"
-+ "H\xfc\xa38"
-+ "P\xf0\xa38"
-+ "h͞8"
-+ "p\xbf\x9b8"
-+ "\x80\a\xa48"
-+ "\x80\xbf\x9b8"
-+ "\x88\a\xa48"
-+ "\x98\xb6\x9e8"
-+ "\xb0\t\xa48"
-+ "\xb0\xaf\x9b8"
-+ "\xb0ͣ8"
-+ "\xc0Þ8"
-+ "\xe8Ԟ8"
-+ "\xf0\x88\xb8>\x01\xc0\xab\xb5\xb8K\xbb>\x01\xc0\xab\xb58\xb5\x9b8"
-+ "\xf8\x03\xa48"
-+ "\xf8\x88\x9e8"
-- "_$s11ActivityKit04PushA13ContentSourceV7RequestO09broadcastC0yAESS_tcAEmFWC"
-- "_$s11ActivityKit04PushA13ContentSourceV7RequestO4pushyA2EmFWC"
-- "ceO4syncyA2CmFWC"
 
 ```

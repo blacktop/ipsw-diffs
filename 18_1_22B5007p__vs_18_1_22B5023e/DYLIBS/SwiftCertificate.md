@@ -32,9 +32,8 @@
 +  - /usr/lib/swift/libswiftunistd.dylib
    Functions: 70
 -  Symbols:   54
--  CStrings:  9
 +  Symbols:   62
-+  CStrings:  24
+   CStrings:  7
  
 Symbols:
 + __swift_FORCE_LOAD_$_swift_Builtin_float
@@ -45,39 +44,5 @@ Symbols:
 + __swift_FORCE_LOAD_$_swift_time
 + __swift_FORCE_LOAD_$_swiftsys_time
 + __swift_FORCE_LOAD_$_swiftunistd
-CStrings:
-+ "(E\xb8;"
-+ "0#\xb8;"
-+ "0E\xb8;"
-+ "8#\xb8;"
-+ "8E\xb8;"
-+ "8F\xb8;"
-+ "@E\xb8;"
-+ "H#\xb8;"
-+ "P#\xb8;"
-+ "X#\xb8;"
-+ "`#\xb8;"
-+ "h#\xb8;"
-+ "x|\xb8;"
-+ "\x90{\xb8;"
-+ "\x98E\xb8;"
-+ "\xb8#\xb8;"
-+ "\xc0#\xb8;"
-+ "\xc0D\xb8;"
-+ "\xc8#\xb8;"
-+ "\xc8D\xb8;"
-+ "\xd0D\xb8;"
-+ "\xd0{\xb8;"
-+ "\xd8D\xb8;"
-+ "\xd8{\xb8;"
-- "_RBColorFromCGColor"
-- "_RBColorToLinear"
-- "_RBImageCopyCGImage"
-- "_RBPathMakeRect"
-- "_RBPathMakeWithCGPath"
-- "_RBSymbolUpdateLayerClip"
-- "_RBSymbolUpdateLayerDefaultColor"
-- "_RBSymbolUpdateStyleMask"
-- "ilter"
 
 ```

@@ -45,9 +45,8 @@
 +  - /usr/lib/swift/libswiftunistd.dylib
    Functions: 90
 -  Symbols:   36
--  CStrings:  1
 +  Symbols:   42
-+  CStrings:  13
+   CStrings:  3
  
 Symbols:
 + __swift_FORCE_LOAD_$_swift_Builtin_float
@@ -60,20 +59,5 @@ Symbols:
 + __swift_FORCE_LOAD_$_swiftunistd
 - _objc_release
 - _objc_retain
-CStrings:
-+ "\x10vDZ"
-+ " uDZ"
-+ "8vDZ"
-+ "HuDZ"
-+ "`vDZ"
-+ "puDZ"
-+ "wDZ"
-+ "\x88vDZ"
-+ "\x98uDZ"
-+ "\xb0vDZ"
-+ "\xc0uDZ"
-+ "\xd8vDZ"
-+ "\xe8uDZ"
-- "derACyxGs7KeyPathCyxSSG_SSAAE18StandardComparatorVAA0B5OrderOtcfC"
 
 ```

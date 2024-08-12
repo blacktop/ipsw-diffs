@@ -60,12 +60,11 @@
    - /usr/lib/swift/libswiftsimd.dylib
 -  Functions: 94
 -  Symbols:   70
--  CStrings:  0
 +  - /usr/lib/swift/libswiftsys_time.dylib
 +  - /usr/lib/swift/libswiftunistd.dylib
 +  Functions: 92
 +  Symbols:   78
-+  CStrings:  5
+   CStrings:  3
  
 Symbols:
 + __swift_FORCE_LOAD_$_swift_Builtin_float
@@ -78,11 +77,5 @@ Symbols:
 + __swift_FORCE_LOAD_$_swiftunistd
 + _objc_release_x23
 - _objc_release_x19
-CStrings:
-+ "SetCallback"
-+ "_NFDriverClose"
-+ "_NFDriverIsSecureElementPresent"
-+ "_NFDriverUpdateFirmware"
-+ "riverGetStackBreadcrumb"
 
 ```

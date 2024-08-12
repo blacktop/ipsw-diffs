@@ -51,7 +51,7 @@
 +  - /usr/lib/swift/libswiftunistd.dylib
 +  Functions: 1692
 +  Symbols:   362
-   CStrings:  0
+   CStrings:  120
  
 Symbols:
 + __swift_FORCE_LOAD_$_swiftCompression

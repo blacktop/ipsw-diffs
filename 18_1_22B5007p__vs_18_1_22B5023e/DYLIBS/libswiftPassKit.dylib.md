@@ -44,9 +44,8 @@
 +  - /usr/lib/swift/libswiftunistd.dylib
    Functions: 286
 -  Symbols:   98
--  CStrings:  0
 +  Symbols:   105
-+  CStrings:  18
+   CStrings:  34
  
 Symbols:
 + __swift_FORCE_LOAD_$_swift_Builtin_float
@@ -58,24 +57,5 @@ Symbols:
 + __swift_FORCE_LOAD_$_swiftsys_time
 + __swift_FORCE_LOAD_$_swiftunistd
 - _objc_release_x23
-CStrings:
-+ "_OBJC_METACLASS_$_MRRemoteArtwork"
-+ "_OBJC_METACLASS_$_MRRemoteTextInputMessage"
-+ "_OBJC_METACLASS_$_MRRemoveClientMessage"
-+ "_OBJC_METACLASS_$__MRAudioFormatSettingsProtobuf"
-+ "_OBJC_METACLASS_$__MRAudioStreamPacketDescriptionProtobuf"
-+ "_OBJC_METACLASS_$__MRAudioTimeProtobuf"
-+ "_OBJC_METACLASS_$__MRColorProtobuf"
-+ "_OBJC_METACLASS_$__MRCommandOptionsProtobuf"
-+ "_OBJC_METACLASS_$__MRCreateHostedEndpointRequestProtobuf"
-+ "_OBJC_METACLASS_$__MRCreateHostedEndpointResponseProtobuf"
-+ "_OBJC_METACLASS_$__MRCryptoPairingMessageProtobuf"
-+ "_OBJC_METACLASS_$__MRDataArtworkProtobuf"
-+ "_OBJC_METACLASS_$__MRDestinationProtobuf"
-+ "_OBJC_METACLASS_$__MRDiscoveryUpdateEndpointsProtobufMessage"
-+ "_OBJC_METACLASS_$__MRDiscoveryUpdateOutputDevicesProtobufMessage"
-+ "_OBJC_METACLASS_$__MRErrorProtobuf"
-+ "iceResponseMessage"
-+ "nseMessageProtobuf"
 
 ```

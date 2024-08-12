@@ -54,12 +54,11 @@
    - /usr/lib/swift/libswiftsimd.dylib
 -  Functions: 218
 -  Symbols:   116
--  CStrings:  0
 +  - /usr/lib/swift/libswiftsys_time.dylib
 +  - /usr/lib/swift/libswiftunistd.dylib
 +  Functions: 219
 +  Symbols:   121
-+  CStrings:  10
+   CStrings:  26
  
 Symbols:
 + __swift_FORCE_LOAD_$_swift_Builtin_float
@@ -73,16 +72,5 @@ Symbols:
 - _objc_release_x24
 - _swift_continuation_await
 - _swift_continuation_init
-CStrings:
-+ "_AVCapturePhotoPrivateClientMetadataInferenceAttachmentKeySmartCam"
-+ "_AVCapturePhotoPrivateClientMetadataInferenceAttachmentKeySmartCamInferences"
-+ "_AVCapturePhotoPrivateClientMetadataInferenceAttachmentKeySmartCamIsPreviewInferences"
-+ "_AVCapturePhotoPrivateClientMetadataInferenceAttachmentKeyVisionImageSaliencyObservation"
-+ "_AVCapturePhotoPrivateClientMetadataInferenceAttachmentKeyVisionJunkImageClassificationObservation"
-+ "_AVCapturePhotoPrivateClientMetadataInferenceAttachmentKeyVisionScenePrintObservation"
-+ "_AVGQFrontFacingCameraPortraitModeCapability"
-+ "_AVGQFrontFacingCameraSingleCameraPortrait"
-+ "aHFRCapability"
-+ "yVisionAestheticsObservation"
 
 ```

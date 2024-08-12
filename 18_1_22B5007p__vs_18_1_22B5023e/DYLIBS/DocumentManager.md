@@ -68,9 +68,10 @@
    - /usr/lib/libsqlite3.dylib
 -  Functions: 1145
 -  Symbols:   1649
+-  CStrings:  2594
 +  Functions: 1154
 +  Symbols:   1664
-   CStrings:  0
++  CStrings:  2607
  
 Symbols:
 + _OBJC_CLASS_$_DOCResilientRemoteContainerViewController
@@ -78,5 +79,29 @@ Symbols:
 + _OBJC_CLASS_$_UIVisualEffectView
 + _OBJC_METACLASS_$_DOCResilientRemoteContainerViewController
 + _OBJC_METACLASS_$__UIResilientRemoteViewContainerViewController
+CStrings:
++ "DOCResilientRemoteContainerViewController"
++ "DOCViewServiceResetRecoveryThreshold"
++ "DisableWorkaroundFor132033602"
++ "Failed to coordinate on bookmark item with URL: %!@(MISSING). %!@(MISSING)"
++ "TB,V_shouldStopObservingProgress"
++ "Try Again"
++ "_displayError:"
++ "_shouldStopObservingProgress"
++ "background"
++ "disableWorkaroundFor132033602"
++ "doubleForKey:"
++ "effectWithStyle:"
++ "initWithEffect:"
++ "isFinished"
++ "remoteViewControllerDidTerminateViewServiceWithError:"
++ "setCustomView:"
++ "setShouldStopObservingProgress:"
++ "shouldStopObservingProgress"
+- "Try again"
+- "remoteViewController:didTerminateViewServiceWithError:"
+- "setWritingToolsAllowedInputOptions:"
+- "v32@0:8@\"DOCRemoteViewController\"16@\"NSError\"24"
+- "writingToolsAllowedInputOptions"
 
 ```

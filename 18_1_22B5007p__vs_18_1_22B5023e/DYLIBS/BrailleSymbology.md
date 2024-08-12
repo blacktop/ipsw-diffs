@@ -50,12 +50,11 @@
    - /usr/lib/swift/libswiftsimd.dylib
 -  Functions: 411
 -  Symbols:   143
--  CStrings:  0
 +  - /usr/lib/swift/libswiftsys_time.dylib
 +  - /usr/lib/swift/libswiftunistd.dylib
 +  Functions: 412
 +  Symbols:   151
-+  CStrings:  53
+   CStrings:  82
  
 Symbols:
 + __swift_FORCE_LOAD_$_swift_Builtin_float
@@ -66,59 +65,5 @@ Symbols:
 + __swift_FORCE_LOAD_$_swift_time
 + __swift_FORCE_LOAD_$_swiftsys_time
 + __swift_FORCE_LOAD_$_swiftunistd
-CStrings:
-+ "_IMAccountInfoBuddyPropertiesKey"
-+ "_IMAccountInfoCapabilitiesKey"
-+ "_IMAccountInfoDefaultsKey"
-+ "_IMAccountInfoGroupsKey"
-+ "_IMAccountInfoIDKey"
-+ "_IMAccountInfoServiceLoginStatusKey"
-+ "_IMAccountInfoServiceLoginStatusMessageKey"
-+ "_IMAccountInfoStatusKey"
-+ "_IMServiceCapabilityFaceTime"
-+ "_IMServiceCapabilityFocusMode"
-+ "_IMServiceCapabilityInlineAdaptiveImageGlyphs"
-+ "_IMServiceCapabilityRelay"
-+ "_IMServiceCapabilityRelayedReachability"
-+ "_IMServiceCapabilityReportsJunkViaSMS"
-+ "_IMServiceCapabilitySendAsTextMessage"
-+ "_IMServiceCapabilitySendLater"
-+ "_IMServiceCapabilityTextEffects"
-+ "_IMServiceInfoAccountInfoKey"
-+ "_IMServiceInfoAccountsKey"
-+ "_IMServiceInfoActiveAccountsKey"
-+ "_IMServiceInfoDefaultAccountSettingsKey"
-+ "_IMServiceInfoDefaultsKey"
-+ "_IMServiceInfoInternalNameKey"
-+ "_IMServiceInfoPropertiesKey"
-+ "_IMSetupInfoFileTransfersKey"
-+ "_IMSetupInfoFileTransfersStampKey"
-+ "_IMSetupInfoGroupPhotoFileTransfersKey"
-+ "_IMSetupInfoPersistentPropertiesKey"
-+ "_IMSetupInfoPropertiesKey"
-+ "_IMSetupInfoServiceNamesKey"
-+ "_IMSetupInfoServicesKey"
-+ "_IMSetupInfoUnreadMessageCountKey"
-+ "_OBJC_CLASS_$_IMAvailabilityInvitationManager"
-+ "_OBJC_CLASS_$_IMFocusStateManager"
-+ "_OBJC_CLASS_$_IMImageUtilities"
-+ "_OBJC_CLASS_$_IMSenderContext"
-+ "_OBJC_CLASS_$_IMSharedWithYouManager"
-+ "_OBJC_CLASS_$_IMSyncErrorAnalyzer"
-+ "_OBJC_CLASS_$_IMSyndicationUtilities"
-+ "_OBJC_CLASS_$_IMTipKitEventReporter"
-+ "_OBJC_METACLASS_$_IMAssistiveAccessCommunicationLimitManager"
-+ "_OBJC_METACLASS_$_IMAvailabilityInvitationManager"
-+ "_OBJC_METACLASS_$_IMBaseCommandHandlerRegistry"
-+ "_OBJC_METACLASS_$_IMINInteractionUtilities"
-+ "_OBJC_METACLASS_$_IMImageUtilities"
-+ "_OBJC_METACLASS_$_IMSMSFilterCapabilitiesSyncHelper"
-+ "_OBJC_METACLASS_$_IMSharedWithYouManager"
-+ "_OBJC_METACLASS_$_IMSyndicationUtilities"
-+ "_OBJC_METACLASS_$_IMTipKitEventReporter"
-+ "er"
-+ "ilityGroupServer"
-+ "nfoVCCapabilitiesKey"
-+ "terCapabilitiesSyncHelper"
 
 ```

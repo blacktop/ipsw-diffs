@@ -26,9 +26,8 @@
 +  - /usr/lib/swift/libswiftunistd.dylib
    Functions: 454
 -  Symbols:   863
--  CStrings:  0
 +  Symbols:   871
-+  CStrings:  2
+   CStrings:  8
  
 Symbols:
 + __swift_FORCE_LOAD_$_swift_Builtin_float
@@ -39,8 +38,5 @@ Symbols:
 + __swift_FORCE_LOAD_$_swift_time
 + __swift_FORCE_LOAD_$_swiftsys_time
 + __swift_FORCE_LOAD_$_swiftunistd
-CStrings:
-+ "_ZN20DesenseCommandDriverD2Ev"
-+ "__ZN20DesenseCommandDriver9bootstrapENSt3__110shared_ptrI37DesenseCommandDriverDelegateInterfaceEEN3xpc8endpointEN8dispatch13group_sessionE"
 
 ```

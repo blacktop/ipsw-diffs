@@ -65,14 +65,89 @@
    - /usr/lib/libobjc.A.dylib
 -  Functions: 2554
 -  Symbols:   3120
+-  CStrings:  4380
 +  Functions: 2560
 +  Symbols:   3124
-   CStrings:  0
++  CStrings:  4385
  
 Symbols:
 + _AXLogTemp
 - _OBJC_CLASS_$_AVAudioPCMBuffer
 - _VOTLogCommon
 - _log2
+CStrings:
++ "\x05\x11"
++ "\x1a"
++ "%!s(MISSING): session active: %!@(MISSING)"
++ "-[AXHeardController updateAnalytics]_block_invoke_2"
++ "-[HUAccessoryHearingSyncManager _sendIDSMessageIfNeededForListeningModes:addresses:force:]"
++ "-[HUAccessoryHearingSyncManager shouldUpdateWatchesWithListeningModes:]"
++ "-[HUAccessoryHearingSyncManager shouldUpdateWatchesWithListeningModes:]_block_invoke"
++ "-[HUComfortSoundsController _handleContinuitySessionCheck]"
++ "Changed listening mode %!@(MISSING), for device: %!@(MISSING)"
++ "Found identifiers for %!@(MISSING) = %!@(MISSING)"
++ "HUAccessoryHearingSyncManager Characteristic %!@(MISSING), addresses %!@(MISSING)"
++ "Headphone Selected %!d(MISSING), Listening modes sent to Watches: %!@(MISSING), new: %!@(MISSING)"
++ "Listening modes for Watch changed: %!d(MISSING)"
++ "Routes and isHeadphoneStreamSelected are updated, deviceListeningState: %!@(MISSING)"
++ "T@\"AXDispatchTimer\",&,N,V_messageTimer"
++ "TB,N,V_isHeadphoneStreamSelected"
++ "TB,N,V_isInContinuitySession"
++ "Updated listening modes for Watch: %!@(MISSING)"
++ "_handleContinuitySessionCheck"
++ "_isHeadphoneStreamSelected"
++ "_isInContinuitySession"
++ "_messageTimer"
++ "_sendIDSMessageIfNeededForListeningModes:addresses:force:"
++ "clearEngine"
++ "isHeadphoneStreamSelected"
++ "isInContinuitySession"
++ "messageTimer"
++ "paCurrentBluetoothDeviceSupportingTransparencyAccommodationsAsync"
++ "routesDidChange isHeadphoneStreamSelected %!d(MISSING)"
++ "scheduleFile:atTime:completionCallbackType:completionHandler:"
++ "sendIDSMessageIfNeededForNewListeningModes:addresses:force:"
++ "sendListeningModesIDSMessageIfNeeded"
++ "setIsHeadphoneStreamSelected:"
++ "setIsInContinuitySession:"
++ "setMessageTimer:"
++ "shouldUpdateWatchesWithListeningModes:"
++ "softlink:r:path:/System/Library/PrivateFrameworks/UserManagement.framework/UserManagement"
++ "v16@?0@\"BluetoothDevice\"8"
++ "v16@?0q8"
+- "\x06"
+- "-[HUAccessoryHearingSyncManager _registerForAccessoryManagerUpdate]_block_invoke_2"
+- "-[HUAccessoryHearingSyncManager listeningModesChangedState:]"
+- "-[HUAccessoryHearingSyncManager listeningModesChangedState:]_block_invoke"
+- "Error reading audio file into buffer: %!@(MISSING)"
+- "Headphone Selected %!d(MISSING), Listening modes Watch saved: %!@(MISSING), new: %!@(MISSING)"
+- "Listening modes added AccessoryChangeWatch"
+- "Listening modes changed AccessoryChangeAll"
+- "Listening modes no changes AccessoryChangeNone"
+- "Listening modes persistent: %!@(MISSING) new: %!@(MISSING)"
+- "Listening modes removed AccessoryChangeWatch"
+- "Oneness active: %!@(MISSING)"
+- "Set listening mode %!@(MISSING), for device: %!@(MISSING)"
+- "Skipping tipi update. Address is nil %!@(MISSING) - %!@(MISSING)"
+- "T@\"NSMutableDictionary\",&,N,V_tipiStateByIdentifier"
+- "Tipi updated for %!@(MISSING) - %!@(MISSING)"
+- "_handleOnenessCheck"
+- "_tipiStateByIdentifier"
+- "_watchListeningState"
+- "checkIdentifier:forOwnershipWithCompletion:"
+- "initWithPCMFormat:frameCapacity:"
+- "listeningModesChangedState:"
+- "paCurrentBluetoothDeviceSupportingTransparencyAccommodations"
+- "readIntoBuffer:error:"
+- "scheduleBuffer:atTime:options:completionHandler:"
+- "setTipiChangedHandler:"
+- "setTipiStateByIdentifier:"
+- "setWatchListeningState:"
+- "softlink:r:path:/System/Library/PrivateFrameworks//UserManagement.framework/UserManagement"
+- "tipiDevices"
+- "tipiState"
+- "tipiStateByIdentifier"
+- "v16@?0@\"CBDevice\"8"
+- "watchListeningState"
 
 ```

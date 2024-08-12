@@ -49,9 +49,8 @@
 +  - /usr/lib/swift/libswiftunistd.dylib
    Functions: 481
 -  Symbols:   920
--  CStrings:  0
 +  Symbols:   928
-+  CStrings:  54
+   CStrings:  84
  
 Symbols:
 + __swift_FORCE_LOAD_$_swift_Builtin_float
@@ -62,60 +61,5 @@ Symbols:
 + __swift_FORCE_LOAD_$_swift_time
 + __swift_FORCE_LOAD_$_swiftsys_time
 + __swift_FORCE_LOAD_$_swiftunistd
-CStrings:
-+ "_OBJC_CLASS_$_SXSubscriptionButtonComponentTextProvider"
-+ "_OBJC_CLASS_$_SXSubscriptionStatusConditionValidator"
-+ "_OBJC_CLASS_$_SXSystemFontFamilyProvider"
-+ "_OBJC_CLASS_$_SXTangierAssembly"
-+ "_OBJC_CLASS_$_SXTangierController"
-+ "_OBJC_CLASS_$_SXTangierDragItemProvider"
-+ "_OBJC_CLASS_$_SXTestingConditionValidator"
-+ "_OBJC_CLASS_$_SXTextComponentAssembly"
-+ "_OBJC_CLASS_$_SXTextComponentSizerFactory"
-+ "_OBJC_CLASS_$_SXTextComponentViewFactory"
-+ "_OBJC_CLASS_$_SXTextContrastDarkModePolicyException"
-+ "_OBJC_CLASS_$_SXVideoComponentAssembly"
-+ "_OBJC_CLASS_$_SXVideoComponentSizerFactory"
-+ "_OBJC_CLASS_$_SXVideoComponentViewFactory"
-+ "_OBJC_CLASS_$_SXVideoPlayerViewControllerManager"
-+ "_OBJC_METACLASS_$_SXFontIndex"
-+ "_OBJC_METACLASS_$_SXFormatAssembly"
-+ "_OBJC_METACLASS_$_SXForwardCompatibleConditionValidator"
-+ "_OBJC_METACLASS_$_SXFrameworkAssembly"
-+ "_OBJC_METACLASS_$_SXFullscreenAssembly"
-+ "_OBJC_METACLASS_$_SXFullscreenCaptionDarkModePolicyException"
-+ "_OBJC_METACLASS_$_SXGradientFillDarkModePolicyException"
-+ "_OBJC_METACLASS_$_SXGradientFillToBackgroundColorModifier"
-+ "_OBJC_METACLASS_$_SXHiddenComponentRemovalModifier"
-+ "_OBJC_METACLASS_$_SXImageComponentAssembly"
-+ "_OBJC_METACLASS_$_SXImageComponentSizerFactory"
-+ "_OBJC_METACLASS_$_SXImageComponentViewFactory"
-+ "_OBJC_METACLASS_$_SXIssueCoverComponentAssembly"
-+ "_OBJC_METACLASS_$_SXIssueCoverComponentSizerFactory"
-+ "_OBJC_METACLASS_$_SXIssueCoverComponentViewFactory"
-+ "_OBJC_METACLASS_$_SXJSONObjectMerger"
-+ "_OBJC_METACLASS_$_SXLayoutAssembly"
-+ "_OBJC_METACLASS_$_SXLayoutBlueprintProvider"
-+ "_OBJC_METACLASS_$_SXLayoutFinalizationProcessor"
-+ "_OBJC_METACLASS_$_SXLayoutParametersManager"
-+ "_OBJC_METACLASS_$_SXLegacyPrerollAdFactory"
-+ "_OBJC_METACLASS_$_SXLineBalancingComponentTextStyleModifier"
-+ "_OBJC_METACLASS_$_SXLineBalancingSettings"
-+ "_OBJC_METACLASS_$_SXLineComponentAssembly"
-+ "_OBJC_METACLASS_$_SXLineComponentSizerFactory"
-+ "_OBJC_METACLASS_$_SXLineComponentViewFactory"
-+ "_OBJC_METACLASS_$_SXLinkActionActivityProvider"
-+ "_OBJC_METACLASS_$_SXLinkActionFactory"
-+ "_OBJC_METACLASS_$_SXLinkActionSerializer"
-+ "_OBJC_METACLASS_$_SXManagerAssembly"
-+ "_OBJC_METACLASS_$_SXMapComponentAssembly"
-+ "_OBJC_METACLASS_$_SXMapComponentSizerFactory"
-+ "_OBJC_METACLASS_$_SXMapComponentViewFactory"
-+ "_OBJC_METACLASS_$_SXMosaicGalleryComponentAssembly"
-+ "_OBJC_METACLASS_$_SXMosaicGalleryComponentSizerFactory"
-+ "_OBJC_METACLASS_$_SXMosaicGalleryComponentViewFactory"
-+ "_OBJC_METACLASS_$_SXNewsletterAssembly"
-+ "ntSizerFactory"
-+ "tory"
 
 ```

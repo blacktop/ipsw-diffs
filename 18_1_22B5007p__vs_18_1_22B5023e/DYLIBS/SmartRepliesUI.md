@@ -28,9 +28,8 @@
 +  - /usr/lib/swift/libswiftunistd.dylib
    Functions: 142
 -  Symbols:   336
--  CStrings:  2
 +  Symbols:   344
-+  CStrings:  1
+   CStrings:  2
  
 Symbols:
 + __swift_FORCE_LOAD_$_swift_Builtin_float
@@ -41,9 +40,5 @@ Symbols:
 + __swift_FORCE_LOAD_$_swift_time
 + __swift_FORCE_LOAD_$_swiftsys_time
 + __swift_FORCE_LOAD_$_swiftunistd
-CStrings:
-+ "9\x03\x14\x01\xc0\xe1j 9\x03\x14\x01\xc0\xe1j@9\x03\x14\x01\xc0\xe1j`9\x03\x14\x01\xc0\xe1j\x809\x03\x14\x01\xc0\xe1j\xa09\x03\x14\x01\xc0\xe1j\xc09\x03\x14\x01\xc0\xe1j\xe09\x03\x14\x01\xc0\xe1j"
-- "Z"
-- "nagerTypeP3set09listeningE03forySd_SStFTj"
 
 ```

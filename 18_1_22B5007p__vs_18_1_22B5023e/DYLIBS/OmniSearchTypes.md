@@ -44,9 +44,8 @@
 +  - /usr/lib/swift/libswiftunistd.dylib
    Functions: 1301
 -  Symbols:   2275
--  CStrings:  0
 +  Symbols:   2283
-+  CStrings:  66
+   CStrings:  86
  
 Symbols:
 + __swift_FORCE_LOAD_$_swift_Builtin_float
@@ -58,72 +57,5 @@ Symbols:
 + __swift_FORCE_LOAD_$_swiftsys_time
 + __swift_FORCE_LOAD_$_swiftunistd
 - _objc_release_x21
-CStrings:
-+ "Bind"
-+ "_OBJC_CLASS_$_IDSCertifiedDeliveryContext"
-+ "_OBJC_CLASS_$_IDSKTOptInResult"
-+ "_OBJC_CLASS_$_IDSKTVerificationResult"
-+ "_OBJC_CLASS_$_IDSLogFormatter"
-+ "_OBJC_CLASS_$_IDSMessageContext"
-+ "_OBJC_CLASS_$_IDSQRProtoDiagnosticDiagnostic"
-+ "_OBJC_CLASS_$_TRICCommandRunner"
-+ "_OBJC_CLASS_$_TRIClient"
-+ "_OBJC_CLASS_$_TRIClientGuardedData"
-+ "_OBJC_CLASS_$_TRIDefaultFactorProvider"
-+ "_OBJC_CLASS_$_TRIDefaultFactorProviderGuardedData"
-+ "_OBJC_CLASS_$_TRIEntitlement"
-+ "_OBJC_CLASS_$_TRILevelChecked"
-+ "_OBJC_CLASS_$_TRILogTreatmentReader"
-+ "_OBJC_CLASS_$_TRILogger"
-+ "_OBJC_CLASS_$_TRINaiveFactorLevelCache"
-+ "_OBJC_CLASS_$_TRINamespaceDescriptor"
-+ "_OBJC_CLASS_$_TRINamespaceFactorProvider"
-+ "_OBJC_CLASS_$_TRINamespaceFactorProviderChain"
-+ "_OBJC_CLASS_$_TRINamespaceOptionalParams"
-+ "_OBJC_CLASS_$_TRINamespaceResolver"
-+ "_OBJC_CLASS_$_TRINamespaceResolverGuardedData"
-+ "_OBJC_CLASS_$_TRINamespaceUpdateNotification"
-+ "_OBJC_CLASS_$_TRINotificationState"
-+ "_OBJC_CLASS_$_TRIPETLogHandler"
-+ "_OBJC_CLASS_$_TRIProcessInfo"
-+ "_OBJC_CLASS_$_TRIPruningFactorLevelCache"
-+ "_OBJC_CLASS_$_TRIPruningFactorLevelCacheGuardedData"
-+ "_OBJC_CLASS_$_TRIStandardPaths"
-+ "_OBJC_CLASS_$_TRISubjectProvider"
-+ "_OBJC_CLASS_$_TRISubjectProviderGuardedData"
-+ "_OBJC_CLASS_$_TRITrackingId"
-+ "_OBJC_CLASS_$_TRITypedFactorProvider"
-+ "_OBJC_METACLASS_$_IDSCertifiedDeliveryContext"
-+ "_OBJC_METACLASS_$_IDSKTRegistrationStatusProvider"
-+ "_OBJC_METACLASS_$_IDSLogFormatter"
-+ "_OBJC_METACLASS_$_IDSMessageContext"
-+ "_OBJC_METACLASS_$_TRIClient"
-+ "_OBJC_METACLASS_$_TRIClientGuardedData"
-+ "_OBJC_METACLASS_$_TRIDefaultFactorProvider"
-+ "_OBJC_METACLASS_$_TRIDefaultFactorProviderGuardedData"
-+ "_OBJC_METACLASS_$_TRIEntitlement"
-+ "_OBJC_METACLASS_$_TRILevelChecked"
-+ "_OBJC_METACLASS_$_TRILogTreatmentReader"
-+ "_OBJC_METACLASS_$_TRILogger"
-+ "_OBJC_METACLASS_$_TRINaiveFactorLevelCache"
-+ "_OBJC_METACLASS_$_TRINamespaceDescriptor"
-+ "_OBJC_METACLASS_$_TRINamespaceFactorProvider"
-+ "_OBJC_METACLASS_$_TRINamespaceFactorProviderChain"
-+ "_OBJC_METACLASS_$_TRINamespaceOptionalParams"
-+ "_OBJC_METACLASS_$_TRINamespaceResolver"
-+ "_OBJC_METACLASS_$_TRINamespaceResolverGuardedData"
-+ "_OBJC_METACLASS_$_TRINamespaceUpdateNotification"
-+ "_OBJC_METACLASS_$_TRINotificationState"
-+ "_OBJC_METACLASS_$_TRIPETLogHandler"
-+ "_OBJC_METACLASS_$_TRIProcessInfo"
-+ "_OBJC_METACLASS_$_TRIPruningFactorLevelCache"
-+ "_OBJC_METACLASS_$_TRIPruningFactorLevelCacheGuardedData"
-+ "_OBJC_METACLASS_$_TRIStandardPaths"
-+ "_OBJC_METACLASS_$_TRISubjectProvider"
-+ "_OBJC_METACLASS_$_TRISubjectProviderGuardedData"
-+ "_OBJC_METACLASS_$_TRITrackingId"
-+ "_OBJC_METACLASS_$_TRITypedFactorProvider"
-+ "llback"
-+ "nStatusProvider"
 
 ```

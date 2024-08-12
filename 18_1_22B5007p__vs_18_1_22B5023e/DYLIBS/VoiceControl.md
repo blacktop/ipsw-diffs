@@ -89,12 +89,12 @@
    - /usr/lib/swift/libswiftos.dylib
 -  Functions: 179
 -  Symbols:   127
--  CStrings:  0
+-  CStrings:  61
 +  - /usr/lib/swift/libswiftsys_time.dylib
 +  - /usr/lib/swift/libswiftunistd.dylib
 +  Functions: 228
 +  Symbols:   152
-+  CStrings:  28
++  CStrings:  87
  
 Symbols:
 + _OBJC_CLASS_$_NSArray
@@ -134,33 +134,42 @@ Symbols:
 - _dlsym
 - _swift_bridgeObjectRelease_n
 CStrings:
-+ "IdSSSgvs"
-+ "V9requestIdSSSgvs"
-+ "_$s16SiriMessageTypes022TRPCandidateForPlannerB0C7BuilderV16tcuToContextListSaySo13SMTTCUPackageC_AA33ImmutableConversationSessionState_ptGSgvs"
-+ "_$s16SiriMessageTypes024TextBasedResultCandidateB0C5buildACSgyAC7BuilderVzXE_tcfc"
-+ "_$s16SiriMessageTypes024TextBasedResultCandidateB0C7BuilderV06resultG2IdSSSgvs"
-+ "_$s16SiriMessageTypes024TextBasedResultCandidateB0C7BuilderV11assistantIdSSSgvs"
-+ "_$s16SiriMessageTypes024TextBasedResultCandidateB0C7BuilderV6sourceAA0B6SourceOSgvs"
-+ "_$s16SiriMessageTypes024TextBasedResultCandidateB0C7BuilderV9requestIdSSSgvs"
-+ "_$s16SiriMessageTypes024TextBasedResultCandidateB0C7BuilderV9sessionId10Foundation4UUIDVSgvs"
-+ "_$s16SiriMessageTypes024TextBasedResultCandidateB0C7BuilderV9utteranceSSSgvs"
-+ "_$s16SiriMessageTypes024TextBasedResultCandidateB0C9utteranceSSvg"
-+ "_$s16SiriMessageTypes024TextBasedResultCandidateB0CMa"
-+ "_$s16SiriMessageTypes029TRPCandidateReadyForExecutionB0C5buildACSgyAC7BuilderVzXE_tcfc"
-+ "_$s16SiriMessageTypes029TRPCandidateReadyForExecutionB0C5trpIdSSvg"
-+ "_$s16SiriMessageTypes029TRPCandidateReadyForExecutionB0C7BuilderV6sourceAA0B6SourceOSgvs"
-+ "_$s16SiriMessageTypes029TRPCandidateReadyForExecutionB0CMa"
-+ "_$s16SiriMessageTypes035StoppedListeningForTextContinuationB0C5buildACSgyAC7BuilderVzXE_tcfc"
-+ "_$s16SiriMessageTypes035StoppedListeningForTextContinuationB0C7BuilderV11assistantIdSSSgvs"
-+ "_$s16SiriMessageTypes035StoppedListeningForTextContinuationB0C7BuilderV6sourceAA0B6SourceOSgvs"
-+ "_$s16SiriMessageTypes035StoppedListeningForTextContinuationB0C7BuilderV9lastTRPIdSSSgvs"
-+ "_$s16SiriMessageTypes035StoppedListeningForTextContinuationB0C7BuilderV9requestIdSSSgvs"
-+ "_$s16SiriMessageTypes035StoppedListeningForTextContinuationB0C7BuilderV9sessionId10Foundation4UUIDVSgvs"
-+ "_$s16SiriMessageTypes035StoppedListeningForTextContinuationB0C9lastTRPIdSSvg"
-+ "_$s16SiriMessageTypes035StoppedListeningForTextContinuationB0CMa"
-+ "_$s16SiriMessageTypes035StoppedListeningForTextContinuationf7PlannerB0C7BuilderV9lastTRPIdSSSgvs"
-+ "didateB0C7BuilderV6userIdAA6UserIDVSgvs"
-+ "ndidateForPlannerB0C7BuilderV6userIdAA6UserIDVSgvs"
-+ "s16SiriMessageTypes022TRPCandidateForPlannerB0C7BuilderV14trpCandidateIdSSSgvs"
++ "/System/Library/PrivateFrameworks/SpeechRecognitionCore.framework"
++ "CACAlwaysShowOverlay"
++ "NSLocale"
++ "NamedElements"
++ "None"
++ "NotificationAlwaysShowOverlayTypeSettingsChanged"
++ "NumberedCharacters"
++ "NumberedElements"
++ "NumberedGrid"
++ "NumberedLines"
++ "NumberedParagraphs"
++ "NumberedSentences"
++ "NumberedWords"
++ "SL_IntlPreferences"
++ "SupportedQuasarLocaleIdentifiers"
++ "VCMergeExtras"
++ "addLikelySubtagsForLocaleIdentifier:"
++ "addObject:"
++ "addObjectsFromArray:"
++ "allKeys"
++ "containsObject:"
++ "countByEnumeratingWithState:objects:count:"
++ "dictionaryByMergingEntriesFromDictionary:"
++ "initWithPath:"
++ "mutableCopy"
++ "objectForInfoDictionaryKey:"
++ "objectForKeyedSubscript:"
++ "setByAddingObjectsFromSet:"
++ "setObject:forKeyedSubscript:"
++ "softlink:r:path:/System/Library/PrivateFrameworks/IntlPreferences.framework/IntlPreferences"
++ "unionOrderedSet:"
+- "RXGetSupportedNashvilleLocaleIdentifiers"
+- "RXGetSupportedQuasarLocaleIdentifiers"
+- "bundleWithIdentifier:"
+- "com.apple.Foundation"
+- "localizations"
+- "softlink:r:path:/System/Library/PrivateFrameworks/SpeechRecognitionCore.framework/SpeechRecognitionCore"
 
 ```

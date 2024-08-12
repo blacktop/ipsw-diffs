@@ -35,9 +35,8 @@
 +  - /usr/lib/swift/libswiftunistd.dylib
    Functions: 28
 -  Symbols:   27
--  CStrings:  3
 +  Symbols:   35
-+  CStrings:  1
+   CStrings:  4
  
 Symbols:
 + __swift_FORCE_LOAD_$_swift_Builtin_float
@@ -48,10 +47,5 @@ Symbols:
 + __swift_FORCE_LOAD_$_swift_time
 + __swift_FORCE_LOAD_$_swiftsys_time
 + __swift_FORCE_LOAD_$_swiftunistd
-CStrings:
-+ "\xe0\xdeu_\x01@\xf8\x96\xe8\xdeu_\x01@\x03\x9e\x98\x13v_\x01@\xbf\xbe\xa0\x13v_\x01@\xad\xe2\xa8\x13v_\x01@\x02\xeb\xb0\x13v_\x01@\x15.\xb8\x13v_\x01@\xdf\xd4\xc0\x13v_\x01@\xf4\n"
-- "Controller"
-- "_OBJC_CLASS_$_PKPaymentSetupAddToWatchOfferViewController"
-- "yValueCell"
 
 ```

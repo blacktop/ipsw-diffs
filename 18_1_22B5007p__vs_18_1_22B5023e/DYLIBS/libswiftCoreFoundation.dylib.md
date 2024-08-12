@@ -33,9 +33,8 @@
 +  - /usr/lib/swift/libswiftunistd.dylib
    Functions: 236
 -  Symbols:   516
--  CStrings:  0
 +  Symbols:   524
-+  CStrings:  1
+   CStrings:  2
  
 Symbols:
 + __swift_FORCE_LOAD_$_swift_Builtin_float
@@ -46,7 +45,5 @@ Symbols:
 + __swift_FORCE_LOAD_$_swift_time
 + __swift_FORCE_LOAD_$_swiftsys_time
 + __swift_FORCE_LOAD_$_swiftunistd
-CStrings:
-+ "dLocationArr"
 
 ```

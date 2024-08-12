@@ -58,14 +58,29 @@
    - /usr/lib/libobjc.A.dylib
 -  Functions: 548
 -  Symbols:   735
+-  CStrings:  392
 +  Functions: 479
 +  Symbols:   625
-   CStrings:  0
++  CStrings:  389
  
 Symbols:
 + _MGGetBoolAnswer
 + __ZSt9terminatev
 + ___cxa_begin_catch
 - _os_eligibility_get_domain_answer
+CStrings:
++ "16.0.0 (clang-1600.0.25.3) [+internal-os]"
++ "22B19a"
++ "DeviceSupportsGenerativeModelSystems"
++ "GreyMatter eligibility: %!b(MISSING)"
++ "SensingAlgsService-52~12"
+- "16.0.0 (clang-1600.0.22.7) [+internal-os]"
+- "22B4"
+- "Algorithms"
+- "Error getting GreyMatter eligibility"
+- "GreyMatter eligibility: %!l(MISSING)lu"
+- "IO"
+- "Profiling"
+- "SensingAlgsService-50.1~1275"
 
 ```

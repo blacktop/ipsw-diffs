@@ -43,41 +43,11 @@
    - /usr/lib/libobjc.A.dylib
 -  Functions: 178
 -  Symbols:   117
--  CStrings:  28
 +  Functions: 194
 +  Symbols:   118
-+  CStrings:  0
+   CStrings:  6
  
 Symbols:
 + _memset_pattern16
-CStrings:
-- "\b\x86b="
-- "\x10\x88b="
-- "\x10\x97b="
-- "\x18\x85b="
-- " \x87b="
-- "0\x86b="
-- "8\x88b="
-- "8\x97b="
-- "@\x85b="
-- "H\x87b="
-- "X\x86b="
-- "`\x88b="
-- "h\x85b="
-- "p\x87b="
-- "\x80\x86b="
-- "\x88\x88b="
-- "\x90\x85b="
-- "\x98\x87b="
-- "\xa8\x86b="
-- "\xb0\x88b="
-- "\xb8\x85b="
-- "\xc0\x87b="
-- "Іb="
-- "\xe0\x85b="
-- "\xe8\x87b="
-- "\xe8\x96b="
-- "\xf0\x84b="
-- "\xf8\x86b="
 
 ```

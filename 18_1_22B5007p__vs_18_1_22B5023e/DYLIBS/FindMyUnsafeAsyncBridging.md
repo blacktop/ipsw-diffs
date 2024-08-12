@@ -39,12 +39,11 @@
    - /usr/lib/swift/libswiftos.dylib
 -  Functions: 68
 -  Symbols:   57
--  CStrings:  1
 +  - /usr/lib/swift/libswiftsys_time.dylib
 +  - /usr/lib/swift/libswiftunistd.dylib
 +  Functions: 67
 +  Symbols:   65
-+  CStrings:  0
+   CStrings:  5
  
 Symbols:
 + __swift_FORCE_LOAD_$_swift_Builtin_float
@@ -55,7 +54,5 @@ Symbols:
 + __swift_FORCE_LOAD_$_swift_time
 + __swift_FORCE_LOAD_$_swiftsys_time
 + __swift_FORCE_LOAD_$_swiftunistd
-CStrings:
-- "makeC17CancelledResponse3app6intent13parameterNameAA6Output_p0a3AppE00O0C_10IntentTypeQzSStYaKFTq"
 
 ```

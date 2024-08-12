@@ -23,11 +23,14 @@
    - /usr/lib/libc++.1.dylib
 -  Functions: 17
 -  Symbols:   69
+-  CStrings:  50
 +  Functions: 18
 +  Symbols:   70
-   CStrings:  0
++  CStrings:  51
  
 Symbols:
 + _SavageCamInterfaceSensorAuth
+CStrings:
++ "SavageCamInterfaceSensorAuth"
 
 ```

@@ -63,12 +63,11 @@
    - /usr/lib/swift/libswiftos.dylib
 -  Functions: 245
 -  Symbols:   122
--  CStrings:  0
 +  - /usr/lib/swift/libswiftsys_time.dylib
 +  - /usr/lib/swift/libswiftunistd.dylib
 +  Functions: 247
 +  Symbols:   129
-+  CStrings:  66
+   CStrings:  107
  
 Symbols:
 + __swift_FORCE_LOAD_$_swift_Builtin_float
@@ -80,72 +79,5 @@ Symbols:
 + __swift_FORCE_LOAD_$_swiftsys_time
 + __swift_FORCE_LOAD_$_swiftunistd
 - _objc_retain_x23
-CStrings:
-+ "\x01@"
-+ "\x01@"
-+ "\x01@"
-+ "\x01@"
-+ "\x01@"
-+ "\b\x16\xc5\xe9"
-+ "\b|Ro"
-+ "\x10<\xe4\xdc"
-+ "\x10C\xed`"
-+ "\x10}Ro"
-+ "\x18<\xe4\xdc"
-+ "\x18C\xed`"
-+ "\x18yRo"
-+ "\x18zRo"
-+ "\x18}Ro"
-+ " C\xed`"
-+ " yRo"
-+ " |Ro"
-+ " }Ro"
-+ "0yRo"
-+ "0}Ro"
-+ "8yRo"
-+ "@yRo"
-+ "@zRo"
-+ "@}Ro"
-+ "H}Ro"
-+ "P\x17\xc5\xe9"
-+ "P}Ro"
-+ "X}Ro"
-+ "h}Ro"
-+ "pC\xed`"
-+ "pxRo"
-+ "x\x19\xc5\xe9"
-+ "xC\xed`"
-+ "|Ro"
-+ "\x80C\xed`"
-+ "\x88C\xed`"
-+ "\x90\x1a\xc5\xe9"
-+ "\x98\x1a\xc5\xe9"
-+ "\xa0\x16\xc5\xe9"
-+ "\xa0\x19\xc5\xe9"
-+ "\xa0\x1a\xc5\xe9"
-+ "\xa8\x16\xc5\xe9"
-+ "\xa8\x19\xc5\xe9"
-+ "\xb0\x19\xc5\xe9"
-+ "\xb0\x1a\xc5\xe9"
-+ "\xb8\x16\xc5\xe9"
-+ "\xb8\x19\xc5\xe9"
-+ "\xc0\x16\xc5\xe9"
-+ "\xc0\x1a\xc5\xe9"
-+ "\xc0;\xe4\xdc"
-+ "\xc0yRo"
-+ "\xc0yRo"
-+ "\xc0{Ro"
-+ "\xc8\x16\xc5\xe9"
-+ "\xc8\x17\xc5\xe9"
-+ "\xc8\x1a\xc5\xe9"
-+ "\xc8yRo"
-+ "\xd0\x19\xc5\xe9"
-+ "\xd0\x1a\xc5\xe9"
-+ "\xd8\x1a\xc5\xe9"
-+ "\xe0B\xed`"
-+ "\xe0B\xed`"
-+ "\xe8\x1a\xc5\xe9"
-+ "\xf0B\xed`"
-+ "\xf0{Ro"
 
 ```

@@ -110,11 +110,12 @@
    - /usr/lib/swift/libswiftsimd.dylib
 -  Functions: 21528
 -  Symbols:   29161
+-  CStrings:  6174
 +  - /usr/lib/swift/libswiftsys_time.dylib
 +  - /usr/lib/swift/libswiftunistd.dylib
 +  Functions: 21691
 +  Symbols:   29413
-   CStrings:  0
++  CStrings:  6217
  
 Symbols:
 + _$s10Foundation16AttributedStringV10charactersAC13CharacterViewVvg
@@ -205,5 +206,80 @@ Symbols:
 - _$ss27withTaskCancellationHandler9operation8onCancelxxyYaKXE_yyYbXEtYaKlF
 - _$ss27withTaskCancellationHandler9operation8onCancelxxyYaKXE_yyYbXEtYaKlFTu
 - _kCGImageDestinationImageMaxPixelSize
+CStrings:
++ "%!s(MISSING) %!s(MISSING): gestureRecognizer = %!@(MISSING)"
++ "%!s(MISSING) %!s(MISSING): returning (canvas is not PaperTextAttachmentView)"
++ "%!s(MISSING) %!s(MISSING): returning (clearing canvas selection)"
++ "%!s(MISSING) %!s(MISSING): returning (forwarding gestureRecognizer to %!s(MISSING))"
++ "%!s(MISSING) %!s(MISSING): returning (gesture recognizer has been ignored in composing state)"
++ "%!s(MISSING) %!s(MISSING): returning (gesture recognizer has been tracked already)"
++ "@\"NSString\"40@0:8@\"PKMathRecognitionViewController\"16@\"NSLocale\"24@\"NSUUID\"32"
++ "Accessibility label for a graph equation"
++ "Accessibility label for a graph equation's visibility"
++ "Accessibility label for an expression's curve color"
++ "Accessibility label for expression color opacity"
++ "Accessibility label for graphable expression"
++ "Accessibility label for the graph settings"
++ "Accessibility label for the hidden state"
++ "Accessibility label for the visible state"
++ "Accessibility label to delete an object"
++ "Changing selection to have %!l(MISSING)d elements"
++ "Mini Menu being hidden"
++ "Mini Menu being shown"
++ "PKGenerationModelAvailabilityStatusKey"
++ "PaperKit.KeyPathWrapper"
++ "Something Isn't Right"
++ "_TtC8PaperKit33CalculateResultAttributionHandler"
++ "_TtC8PaperKit36GraphCanvasElementRenderedImageCache"
++ "_TtC8PaperKitP33_F808299E7C487FAE28308AED5F0A446914KeyPathWrapper"
++ "_cachedToolPicker"
++ "activeToolPickerItem"
++ "addOperationWithBlock:"
++ "addTracking(for:)"
++ "addTrackingFor:"
++ "adjustedSelectedStrokes:selectionPath:"
++ "apple.image.playground"
++ "beginWandPathFromGesture(_:)"
++ "cachedDarkModeImage"
++ "cachedLightModeImage"
++ "cancelAllOperations"
++ "canvasGenerationToolFor:"
++ "finishReplace(reflowTextbox:in:newElements:delete:apply:hasShownStrokes:)"
++ "generationModelAvailabilityStatusDidChange:"
++ "imageDynamicRange"
++ "loadContentOperationQueue"
++ "mathResultAttributionImage:darkModeImage:string:date:itemUUID:"
++ "mathViewController:resultForLocale:itemUUID:"
++ "removeTracking(for:)"
++ "removeTrackingFor:"
++ "selectedToolItem"
++ "setAccessibilityElementsHidden:"
++ "setCountLimit:"
++ "setLocales:"
++ "setMaxConcurrentOperationCount:"
++ "setSuspended:"
++ "setUnderlyingQueue:"
++ "strokeDataUUID"
++ "subjectFrame"
++ "undoableMergeWithDrawing:"
++ "unitType"
++ "updateCachedImage"
++ "visibleBounds"
+- "%!s(MISSING) - %!s(MISSING): (blobFrame = %!s(MISSING)"
+- "%!s(MISSING) clearing canvas selection"
+- "%!s(MISSING) returning (gesture is not tracked)"
+- "%!s(MISSING) returning (gestureToTrack != gestureRecognizer)"
+- "Default name for image file"
+- "addMagicBlob(for:)"
+- "disableGestureRecognizer"
+- "disableGestureRecognizer()"
+- "gestureToTrack"
+- "globalVisibleBounds"
+- "menuInsideObject"
+- "pinnedToTop"
+- "registerObject:visibility:"
+- "replaceStrokesAfterAddingTextbox(_:with:reflowTextbox:in:duration:showNewElements:hasShownStrokes:)"
+- "setPreferredPresentationSize:"
+- "setSuggestedName:"
 
 ```

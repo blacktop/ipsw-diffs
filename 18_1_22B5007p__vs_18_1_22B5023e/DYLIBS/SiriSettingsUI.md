@@ -76,12 +76,12 @@
    - /usr/lib/swift/libswiftsimd.dylib
 -  Functions: 406
 -  Symbols:   158
--  CStrings:  56
+-  CStrings:  55
 +  - /usr/lib/swift/libswiftsys_time.dylib
 +  - /usr/lib/swift/libswiftunistd.dylib
 +  Functions: 386
 +  Symbols:   159
-+  CStrings:  0
++  CStrings:  53
  
 Symbols:
 + __swift_FORCE_LOAD_$_swift_Builtin_float
@@ -93,61 +93,7 @@ Symbols:
 + __swift_FORCE_LOAD_$_swiftsys_time
 + __swift_FORCE_LOAD_$_swiftunistd
 CStrings:
-- "HMAccessorySupportsIdentifyCodingKey"
-- "MHomeManagerCheckIsUsingProductionObjectModelMessage"
-- "_HMAccessoryAddControlTargetsMessageKey"
-- "_HMAccessoryConfigureControlTargetsMessage"
-- "_HMAccessoryHasOnboardedForNaturalLightingKey"
-- "_HMAccessoryListControlTargetsMessageKey"
-- "_HMAccessoryRemoveControlTargetsMessageKey"
-- "_HMAccessorySettingsRootGroupKeyPath"
-- "_HMHomeManagerAdaptiveMessageKey"
-- "_HMHomeManagerAppleTVAccessoryAddedNotification"
-- "_HMHomeManagerConnectivityInfoRequestMessage"
-- "_HMHomeManagerConvertFirewallRulesMessageKey"
-- "_HMHomeManagerDataSyncStateMessageKey"
-- "_HMHomeManagerDestinationMessageKey"
-- "_HMHomeManagerDumpStateMessage"
-- "_HMHomeManagerFetchCurrentUserPairingIdentityForHomeContainingAccessoryRequestMessage"
-- "_HMHomeManagerGenerationCounterUpdatedNotification"
-- "_HMHomeManagerHomePodMiniConfiguredChangedNotification"
-- "_HMHomeManagerHomePodsConfiguredChangedNotification"
-- "_HMHomeManagerJSONDataRequestMessageKey"
-- "_HMHomeManagerJSONToTLVFileDataMessageKey"
-- "_HMHomeManagerLargeHomePodConfiguredChangedNotification"
-- "_HMHomeManagerLocalNetworkPingMessageKey"
-- "_HMHomeManagerMonitorDeviceMessageKey"
-- "_HMHomeManagerMultiUserStatusMessageKey"
-- "_HMHomeManagerNameValidationOptionsMessageKey"
-- "_HMHomeManagerPairingIdentityRequestMessage"
-- "_HMHomeManagerPreferencesChangedNotification"
-- "_HMHomeManagerQueryHomeNamespaceMessage"
-- "_HMHomeManagerQueryMetadataMessage"
-- "_HMHomeManagerQueryNameMessageKey"
-- "_HMHomeManagerQueryVersionMessage"
-- "_HMHomeManagerRemoveAccountRequestMessage"
-- "_HMHomeManagerResolveAccountRequestMessage"
-- "_HMHomeManagerRuntimeStateUpdateNotificationMessage"
-- "_HMHomeManagerRuntimeStateUpdateRequestMessage"
-- "_HMHomeManagerRuntimeStateUpdateRequestMessageKey"
-- "_HMHomeManagerSecurePingMessageKey"
-- "_HMHomeManagerSetMetadataMessage"
-- "_HMHomeManagerSpeakersConfiguredChangedNotification"
-- "_HMHomeManagerStatusMessageKey"
-- "_HMHomeManagerStatusUpdatedMessage"
-- "_HMHomeManagerTelevisionAccessoryAddedNotification"
-- "_HMHomeManagerUpdateMobileAssetsRequestMessage"
-- "_HMHomeManagerUsingProductionObjectModelKey"
-- "_HMHomePodVariantCodingKey"
-- "_HMMMOptionsKeyOneWay"
-- "_HMMMOptionsKeyTimeout"
-- "_HMMMOptionsKeyTransportRestriction"
-- "_HMMMPayloadKeyUser"
-- "_HMMMRegisterRequestHandlerMessage"
-- "_HMMMSendRequestMessage"
-- "_HMMMUnregisterRequestHandlerMessage"
-- "_HMSupportedStereoPairVersionsCodingKey"
-- "_kRenameServiceRequestKey"
-- "ons"
+- "com.apple.graphic-icon.focus"
+- "com.apple.graphic-icon.text-size"
 
 ```

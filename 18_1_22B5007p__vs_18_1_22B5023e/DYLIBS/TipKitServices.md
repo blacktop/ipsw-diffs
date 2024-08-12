@@ -49,7 +49,6 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
 -  Functions: 133
 -  Symbols:   62
--  CStrings:  0
 +  - /usr/lib/swift/libswift_errno.dylib
 +  - /usr/lib/swift/libswift_math.dylib
 +  - /usr/lib/swift/libswift_signal.dylib
@@ -59,7 +58,7 @@
 +  - /usr/lib/swift/libswiftunistd.dylib
 +  Functions: 132
 +  Symbols:   70
-+  CStrings:  3
+   CStrings:  16
  
 Symbols:
 + __swift_FORCE_LOAD_$_swift_Builtin_float
@@ -70,9 +69,5 @@ Symbols:
 + __swift_FORCE_LOAD_$_swift_time
 + __swift_FORCE_LOAD_$_swiftsys_time
 + __swift_FORCE_LOAD_$_swiftunistd
-CStrings:
-+ "IKitE13ConfigurationV5titleSSSgvs"
-+ "_$sSo8UIButtonC5UIKitE13ConfigurationV11CornerStyleOMa"
-+ "subtitle5image10identifier7options20preferredElementSize8childrenABSS_SSSgSo7UIImageCSgSo0A10IdentifieraSgSo0A7OptionsVSo0aiJ0VSaySo0aI0CGtcfC"
 
 ```

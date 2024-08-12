@@ -55,7 +55,7 @@
 +  - /usr/lib/swift/libswiftunistd.dylib
 +  Functions: 3740
 +  Symbols:   1379
-   CStrings:  0
+   CStrings:  2196
  
 Symbols:
 + __swift_FORCE_LOAD_$_swift_Builtin_float

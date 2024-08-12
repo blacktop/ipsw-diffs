@@ -46,12 +46,11 @@
    - /usr/lib/swift/libswiftsimd.dylib
 -  Functions: 673
 -  Symbols:   94
--  CStrings:  0
 +  - /usr/lib/swift/libswiftsys_time.dylib
 +  - /usr/lib/swift/libswiftunistd.dylib
 +  Functions: 672
 +  Symbols:   103
-+  CStrings:  38
+   CStrings:  34
  
 Symbols:
 + _CGRectStandardize
@@ -63,44 +62,5 @@ Symbols:
 + __swift_FORCE_LOAD_$_swift_time
 + __swift_FORCE_LOAD_$_swiftsys_time
 + __swift_FORCE_LOAD_$_swiftunistd
-CStrings:
-+ "InviteCompletionInfo"
-+ "_AAGrandSlamAppTokenIDAppleIDSettings"
-+ "_AAGrandSlamAppTokenIDFamilySharing"
-+ "_AAGrandSlamAppTokenIDiCloudSettings"
-+ "_AATermsEntryDevice"
-+ "_AATermsEntryPrivacy"
-+ "_AATermsEntryWarranty"
-+ "_OBJC_CLASS_$_OSActivityCreateEvent"
-+ "_OBJC_CLASS_$_OSActivityEvent"
-+ "_OBJC_CLASS_$_OSActivityEventMessage"
-+ "_OBJC_CLASS_$_OSLogStatistics"
-+ "_OBJC_CLASS_$_OSLogStatisticsAggregation"
-+ "_OBJC_METACLASS_$_OSLogStatistics"
-+ "_OBJC_METACLASS_$_OSLogStatisticsAggregation"
-+ "_OSLogCreateArchiveWithDictionary"
-+ "_OSLogErrorDomain"
-+ "_OSLogEventSerializerVersion"
-+ "_OSLogFlushBuffers"
-+ "_OSLogInstallProfilePayload"
-+ "_OSLogLookupPathWithUUID"
-+ "_OSLogRemoveProfilePayload"
-+ "__ZGVN3ctu9SingletonI26ATCSExceptionHandlerGlobalS1_NS_23PthreadMutexGuardPolicyIS1_EEE9sInstanceE"
-+ "__ZGVN3ctu9SingletonINS_7GestaltES1_NS_23PthreadMutexGuardPolicyIS1_EEE9sInstanceE"
-+ "__ZN3ctu9SingletonI26ATCSExceptionHandlerGlobalS1_NS_23PthreadMutexGuardPolicyIS1_EEE9sInstanceE"
-+ "__ZN3ctu9SingletonINS_7GestaltES1_NS_23PthreadMutexGuardPolicyIS1_EEE9sInstanceE"
-+ "__ZN3qmi10kClientSimE"
-+ "__ZN3qmi11kClientNameE"
-+ "__ZN3qmi14kClientSvcTypeE"
-+ "__ZN3qmi21kClientRemoteLogLevelE"
-+ "_logarchive_key_base_size"
-+ "_logarchive_key_base_time"
-+ "_logarchive_key_eventlog"
-+ "_logarchive_key_fe_time"
-+ "_logarchive_key_hv_size"
-+ "_logarchive_key_path"
-+ "_logarchive_key_ttl_size"
-+ "_logarchive_key_ttl_time"
-+ "sEntryiCloud"
 
 ```

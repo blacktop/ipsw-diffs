@@ -15,15 +15,4 @@
    __TEXT.__swift5_reflstr: 0x128
    __TEXT.__swift5_assocty: 0x498
 
-   - /usr/lib/swift/libswiftCore.dylib
-   Functions: 632
-   Symbols:   32
--  CStrings:  0
-+  CStrings:  3
- 
-CStrings:
-+ "\x01@"
-+ "\xe0\x1d\xc5\xe9"
-+ "\xf8<\xe4\xdc"
-
 ```

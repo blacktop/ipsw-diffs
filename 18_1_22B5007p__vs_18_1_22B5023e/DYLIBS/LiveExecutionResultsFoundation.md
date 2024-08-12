@@ -27,9 +27,8 @@
 +  - /usr/lib/swift/libswiftunistd.dylib
    Functions: 251
 -  Symbols:   51
--  CStrings:  0
 +  Symbols:   59
-+  CStrings:  7
+   CStrings:  6
  
 Symbols:
 + __swift_FORCE_LOAD_$_swift_Builtin_float
@@ -40,13 +39,5 @@ Symbols:
 + __swift_FORCE_LOAD_$_swift_time
 + __swift_FORCE_LOAD_$_swiftsys_time
 + __swift_FORCE_LOAD_$_swiftunistd
-CStrings:
-+ "PBQuickLookThumbnailImage"
-+ "_OBJC_METACLASS_$__SFPBSearchInAppCommand"
-+ "_OBJC_METACLASS_$__SFPBSearchWebCommand"
-+ "_OBJC_METACLASS_$__SFPBShareCommand"
-+ "_OBJC_METACLASS_$__SFPBShareItem"
-+ "_OBJC_METACLASS_$__SFPBShowContactCardCommand"
-+ "_OBJC_METACLASS_$__SFPBShowPhotosOneUpViewCommand"
 
 ```

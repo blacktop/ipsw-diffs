@@ -51,7 +51,7 @@
    - /usr/lib/swift/libswiftCore.dylib
 -  Functions: 296
 -  Symbols:   463
--  CStrings:  13
+-  CStrings:  4
 +  - /usr/lib/swift/libswift_Builtin_float.dylib
 +  - /usr/lib/swift/libswift_errno.dylib
 +  - /usr/lib/swift/libswift_math.dylib
@@ -304,18 +304,9 @@ Symbols:
 - _vsnprintf
 - _yn
 CStrings:
-- "\x10\xba\bR"
-- " \xb9\bR"
-- "8\xba\bR"
-- "H\xb9\bR"
-- "`\xba\bR"
-- "p\xb9\bR"
-- "\x88\xba\bR"
-- "\x98\xb9\bR"
-- "\xb0\xba\bR"
-- "\xc0\xb9\bR"
-- "и\bR"
-- "\xe8\xb9\bR"
-- "\xf8\xb8\bR"
+- "Darwin/tgmath.swift"
+- "Darwin/unistd.swift"
+- "Fatal error"
+- "unavailable function can't be called"
 
 ```

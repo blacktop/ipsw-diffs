@@ -28,9 +28,8 @@
 +  - /usr/lib/swift/libswiftunistd.dylib
    Functions: 530
 -  Symbols:   105
--  CStrings:  0
 +  Symbols:   113
-+  CStrings:  37
+   CStrings:  35
  
 Symbols:
 + __swift_FORCE_LOAD_$_swift_Builtin_float
@@ -41,43 +40,5 @@ Symbols:
 + __swift_FORCE_LOAD_$_swift_time
 + __swift_FORCE_LOAD_$_swiftsys_time
 + __swift_FORCE_LOAD_$_swiftunistd
-CStrings:
-+ "METACLASS_$_AWDPowerBluetoothMetrics"
-+ "_OBJC_CLASS_$_AWDPowerCameraMetrics"
-+ "_OBJC_CLASS_$_AWDPowerDisplayBacklightMetrics"
-+ "_OBJC_CLASS_$_AWDPowerNetworkUsageMetrics"
-+ "_OBJC_CLASS_$_AWDPowerPerProcessCPULoadMetrics"
-+ "_OBJC_CLASS_$_AWDPowerStateResidencyAndWeight"
-+ "_OBJC_CLASS_$_AWDPowerTouchMetrics"
-+ "_OBJC_CLASS_$_AWDPowerWifiMetrics"
-+ "_OBJC_CLASS_$_AWDPushConnectionConnected"
-+ "_OBJC_CLASS_$_AWDPushConnectionDisconnected"
-+ "_OBJC_CLASS_$_AWDPushFilterChanged"
-+ "_OBJC_CLASS_$_AWDPushFilterSent"
-+ "_OBJC_CLASS_$_AWDPushKeepAliveFailed"
-+ "_OBJC_CLASS_$_AWDPushKeepAliveSent"
-+ "_OBJC_CLASS_$_AWDPushProxyManagerReceive"
-+ "_OBJC_CLASS_$_AWDPushProxyManagerSend"
-+ "_OBJC_CLASS_$_AWDRATConnectedPower"
-+ "_OBJC_CLASS_$_AWDSafariAutoFillAuthenticationPreferenceEvent"
-+ "_OBJC_CLASS_$_AWDSafariCKBookmarksMigrationFinishedEvent"
-+ "_OBJC_METACLASS_$_AWDPowerCameraMetrics"
-+ "_OBJC_METACLASS_$_AWDPowerDisplayBacklightMetrics"
-+ "_OBJC_METACLASS_$_AWDPowerNetworkUsageMetrics"
-+ "_OBJC_METACLASS_$_AWDPowerPerProcessCPULoadMetrics"
-+ "_OBJC_METACLASS_$_AWDPowerStateResidencyAndWeight"
-+ "_OBJC_METACLASS_$_AWDPowerTouchMetrics"
-+ "_OBJC_METACLASS_$_AWDPowerWifiMetrics"
-+ "_OBJC_METACLASS_$_AWDPushConnectionConnected"
-+ "_OBJC_METACLASS_$_AWDPushConnectionDisconnected"
-+ "_OBJC_METACLASS_$_AWDPushFilterChanged"
-+ "_OBJC_METACLASS_$_AWDPushFilterSent"
-+ "_OBJC_METACLASS_$_AWDPushKeepAliveFailed"
-+ "_OBJC_METACLASS_$_AWDPushKeepAliveSent"
-+ "_OBJC_METACLASS_$_AWDPushProxyManagerReceive"
-+ "_OBJC_METACLASS_$_AWDRATConnectedPower"
-+ "_OBJC_METACLASS_$_AWDSafariAutoFillAuthenticationPreferenceEvent"
-+ "_OBJC_METACLASS_$_AWDSafariCKBookmarksMigrationFinishedEvent"
-+ "ionEvent"
 
 ```

@@ -50,9 +50,8 @@
 +  - /usr/lib/swift/libswiftunistd.dylib
    Functions: 2
 -  Symbols:   38
--  CStrings:  0
 +  Symbols:   45
-+  CStrings:  3
+   CStrings:  1
  
 Symbols:
 + __swift_FORCE_LOAD_$_swift_Builtin_float
@@ -64,9 +63,5 @@ Symbols:
 + __swift_FORCE_LOAD_$_swiftsys_time
 + __swift_FORCE_LOAD_$_swiftunistd
 - __swift_FORCE_LOAD_$_swiftIntents
-CStrings:
-+ "\x01@"
-+ "\x80F\xba\xe9"
-+ "\xd8\xde\xdb\xdc"
 
 ```

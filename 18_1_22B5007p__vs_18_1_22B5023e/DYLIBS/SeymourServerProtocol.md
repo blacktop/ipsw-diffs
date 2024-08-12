@@ -68,12 +68,12 @@
    - /usr/lib/swift/libswiftsimd.dylib
 -  Functions: 1288
 -  Symbols:   79
--  CStrings:  0
+-  CStrings:  57
 +  - /usr/lib/swift/libswiftsys_time.dylib
 +  - /usr/lib/swift/libswiftunistd.dylib
 +  Functions: 1359
 +  Symbols:   90
-+  CStrings:  5
++  CStrings:  58
  
 Symbols:
 + __swiftEmptyDictionarySingleton
@@ -86,10 +86,6 @@ Symbols:
 + __swift_FORCE_LOAD_$_swiftsys_time
 + __swift_FORCE_LOAD_$_swiftunistd
 CStrings:
-+ "StateENS0_13StrokeEllipseENS0_10StrokeLineENS0_17StrokePathSegmentENS0_10StrokePathENS0_10StrokeRectENS0_9TranslateENS0_8FillLineENS0_7FillArcENS0_13FillClosedArcENS0_13FillQuadCurveENS0_15FillBezierCurveENS0_9StrokeArcENS0_15StrokeClosedArcENS0_15StrokeQuadCurveENS0_17StrokeBezierCurveENS0_18PaintFrameForMediaENS0_16ApplyFillPatternENS0_18ApplyStrokePatternEEEELm0ENS2_15CrashOnOverflowELm16ENS2_10FastMallocEEERKNS0_12ResourceHeapERNS_14ControlFactoryERKNS_10FloatPointE"
-+ "__ZN7WebCore11DisplayList8Recorder11drawPatternERNS_11NativeImageERKNS_9FloatRectES6_RKNS_15AffineTransformERKNS_10FloatPointERKNS_9FloatSizeENS_20ImagePaintingOptionsE"
-+ "__ZN7WebCore11DisplayList8Recorder15drawImageBufferERNS_11ImageBufferERKNS_9FloatRectES6_NS_20ImagePaintingOptionsE"
-+ "__ZN7WebCore11DisplayList8Recorder15drawSystemImageERNS_11SystemImageERKNS_9FloatRectE"
-+ "__ZN7WebCore11DisplayList8Recorder24drawConsumingImageBufferEN3WTF6RefPtrINS_11ImageBufferENS2_12RawPtrTraitsIS4_EENS2_21DefaultRefDerefTraitsIS4_EEEERKNS_9FloatRectESC_NS_20ImagePaintingOptionsE"
++ "countsByZone"
 
 ```

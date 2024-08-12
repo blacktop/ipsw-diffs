@@ -38,9 +38,8 @@
 +  - /usr/lib/swift/libswiftunistd.dylib
    Functions: 18
 -  Symbols:   75
--  CStrings:  14
 +  Symbols:   83
-+  CStrings:  0
+   CStrings:  22
  
 Symbols:
 + __swift_FORCE_LOAD_$_swift_Builtin_float
@@ -51,20 +50,5 @@ Symbols:
 + __swift_FORCE_LOAD_$_swift_time
 + __swift_FORCE_LOAD_$_swiftsys_time
 + __swift_FORCE_LOAD_$_swiftunistd
-CStrings:
-- "_$s11SeymourCore16MultiUserSessionVMa"
-- "_$s11SeymourCore16ResumableSessionVMa"
-- "_$s11SeymourCore17BookmarkChangesetVMa"
-- "_$s11SeymourCore17PlaylistChangesetVMa"
-- "_$s11SeymourCore17PrivacyIdentifierO8rawValueSSvg"
-- "_$s11SeymourCore17PrivacyIdentifierOMa"
-- "_$s11SeymourCore17WorkoutPlanOffsetVMa"
-- "_$s11SeymourCore18GalleryDestinationO8rawValueSSvg"
-- "_$s11SeymourCore18MetricPageCategoryO11metricValueSSvg"
-- "_$s11SeymourCore19AssetBundleProgressVMa"
-- "_$s11SeymourCore19EngagementConstantsV23notificationOffersTopicSSvgZ"
-- "_$s11SeymourCore19EngagementConstantsV28notificationNewFeaturesTopicSSvgZ"
-- "h10storefrontACSSSg_A2KSiSgA2lKtcfC"
-- "viceSubscriptionV14beginTimestampSdSgvg"
 
 ```

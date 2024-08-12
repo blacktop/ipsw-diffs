@@ -43,9 +43,8 @@
 +  - /usr/lib/swift/libswiftunistd.dylib
    Functions: 566
 -  Symbols:   99
--  CStrings:  0
 +  Symbols:   107
-+  CStrings:  56
+   CStrings:  57
  
 Symbols:
 + __swift_FORCE_LOAD_$_swift_Builtin_float
@@ -56,62 +55,5 @@ Symbols:
 + __swift_FORCE_LOAD_$_swift_time
 + __swift_FORCE_LOAD_$_swiftsys_time
 + __swift_FORCE_LOAD_$_swiftunistd
-CStrings:
-+ "Ms"
-+ "_APBrowserCarSessionCreate"
-+ "_APBrowserGetStartEventForBrowserDeviceEvent"
-+ "_APConnectivityHelperDeregisterForEvent"
-+ "_APConnectivityHelperGetEventString"
-+ "_APConnectivityHelperGetSharedHelper"
-+ "_APConnectivityHelperRegisterEventHandler"
-+ "_APConnectivityHelperRegisterForEvent"
-+ "_APConnectivityHelperRemoveAllRegistrations"
-+ "_APSAudioLatencyAdjustForScreenMs"
-+ "_APSAudioLatencyOffsetForAVMs"
-+ "_APSAudioLatencyOffsetForScreenMs"
-+ "_APSAudioLatencyOffsetForSystemAudioMs"
-+ "_APTNANDataSessionCreateStatisticsReport"
-+ "_APTNANDataSessionIssueReportCreate"
-+ "_APTNANDataSessionPreWarm"
-+ "_APTNANDataSessionStatisticsReportCopyDictionary"
-+ "_APTransportConnectionTCPUnbufferedNWCreate"
-+ "_APTransportDeviceCopyAssistedInfo"
-+ "_APTransportDeviceCopyBrokeredReceiverInfo"
-+ "_APTransportDeviceCopyCUDNSNames"
-+ "_APTransportDeviceCopyProximityData"
-+ "_APTransportDeviceCreate"
-+ "_APTransportDeviceCreateWithNetworkAddress"
-+ "_APTransportDeviceGetAddress"
-+ "_APTransportDeviceGetAdvertiserInfo"
-+ "_APTransportDeviceGetDiscoveryID"
-+ "_APTransportDeviceGetEventRecorder"
-+ "_APTransportDeviceGetInfraReachability"
-+ "_APTransportDeviceGetTransportsRequiringBroker"
-+ "_APTransportDeviceHasMinimumRelationship"
-+ "_APTransportDeviceIsAssistedDevice"
-+ "_APTransportDeviceIsConnectedOverUSB"
-+ "_APTransportDeviceIsLegacyPresent"
-+ "_APTransportDeviceIsModernPresent"
-+ "_APTransportDeviceIsModernPresentOnInfra"
-+ "_APTransportDeviceIsPresentOnInfra"
-+ "_APTransportDeviceIsReachable"
-+ "_APTransportDeviceIsSameDevice"
-+ "_APTransportDeviceIsSelf"
-+ "_APTransportDeviceReconfirm"
-+ "_APTransportDeviceShouldPerformTrafficRegistration"
-+ "_APTransportDeviceStartTracking"
-+ "_APTransportDeviceStopTracking"
-+ "_APTransportDeviceTriggerWoLCachingIfNeeded"
-+ "_APTransportGetSharedTransport"
-+ "_APTransportStreamAggregateAddSubStream"
-+ "_APTransportStreamAggregateCreate"
-+ "_APTransportStreamAggregateRemoveSubStream"
-+ "_APTransportStreamIDMakeWithPort"
-+ "_APTransportStreamSendBackingProviderAcquireBBuf"
-+ "_APTransportStreamSendBackingProviderCopyPackageForAcquiredBBuf"
-+ "_APTransportStreamSendBackingProviderCreateWithStreamID"
-+ "_APTransportStreamSendBackingProviderRelinquishBBuf"
-+ "_APTransportStreamSendBackingProviderUpdateAcquiredBBuf"
-+ "ate"
 
 ```

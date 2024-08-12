@@ -36,9 +36,8 @@
 +  - /usr/lib/swift/libswiftunistd.dylib
    Functions: 21
 -  Symbols:   48
--  CStrings:  0
 +  Symbols:   56
-+  CStrings:  12
+   CStrings:  18
  
 Symbols:
 + __swift_FORCE_LOAD_$_swift_Builtin_float
@@ -49,18 +48,5 @@ Symbols:
 + __swift_FORCE_LOAD_$_swift_time
 + __swift_FORCE_LOAD_$_swiftsys_time
 + __swift_FORCE_LOAD_$_swiftunistd
-CStrings:
-+ "_$s13SiriUtilities11AudioSourceV03carC0ACvgZ"
-+ "_$s13SiriUtilities11AudioSourceV03usbC0ACvgZ"
-+ "_$s13SiriUtilities11AudioSourceV10builtInMicACvgZ"
-+ "_$s13SiriUtilities11AudioSourceV15carJarvisDeviceACvgZ"
-+ "_$s13SiriUtilities11AudioSourceV15wiredHeadsetMicACvgZ"
-+ "_$s13SiriUtilities11AudioSourceV19bluetoothDoAPDeviceACvgZ"
-+ "_$s13SiriUtilities11AudioSourceV24bluetoothHandsFreeDeviceACvgZ"
-+ "_$s13SiriUtilities11AudioSourceV6lineInACvgZ"
-+ "_$s13SiriUtilities14TransformationO18defaultLengthLimitSivgZ"
-+ "_$s13SiriUtilities14TransformationO7resolveyAA12Transforming_pSgAA0C10IdentifierVFZ"
-+ "_$s13SiriUtilities14TransformationO8register14transformationyAA12Transforming_p_tFZ"
-+ "gthLimit11tryAllPathsxyp_AA14TypeIdentifierVSiSbtKlFZ"
 
 ```

@@ -47,12 +47,11 @@
    - /usr/lib/swift/libswiftsimd.dylib
 -  Functions: 72
 -  Symbols:   119
--  CStrings:  0
 +  - /usr/lib/swift/libswiftsys_time.dylib
 +  - /usr/lib/swift/libswiftunistd.dylib
 +  Functions: 70
 +  Symbols:   127
-+  CStrings:  38
+   CStrings:  84
  
 Symbols:
 + __swift_FORCE_LOAD_$_swift_Builtin_float
@@ -63,44 +62,5 @@ Symbols:
 + __swift_FORCE_LOAD_$_swift_time
 + __swift_FORCE_LOAD_$_swiftsys_time
 + __swift_FORCE_LOAD_$_swiftunistd
-CStrings:
-+ "1SeymourCore17CatalogSyncAnchorVAA25TransportDataSerializableAAWP"
-+ "_$s11SeymourCore10MusicGenreVAA9CanonicalAAWP"
-+ "_$s11SeymourCore11AssetBundleVAA9CanonicalAAWP"
-+ "_$s11SeymourCore12AssetRequestVAA25TransportDataSerializableAAWP"
-+ "_$s11SeymourCore12AssetRequestVAA25TransportJsonSerializableAAWP"
-+ "_$s11SeymourCore13SessionScoresVAA25TransportDataSerializableAAWP"
-+ "_$s11SeymourCore13SessionScoresVAA25TransportJsonSerializableAAWP"
-+ "_$s11SeymourCore14CatalogProgramVAA25TransportJsonSerializableAAWP"
-+ "_$s11SeymourCore14FontDescriptorON"
-+ "_$s11SeymourCore16HealthKitWorkoutVAA25TransportDataSerializableAAWP"
-+ "_$s11SeymourCore16HealthKitWorkoutVAA25TransportJsonSerializableAAWP"
-+ "_$s11SeymourCore16OnboardingDetailVAA25TransportDataSerializableAAWP"
-+ "_$s11SeymourCore16OnboardingDetailVAA25TransportJsonSerializableAAWP"
-+ "_$s11SeymourCore16TrainerReferenceVAA9CanonicalAAWP"
-+ "_$s11SeymourCore17CatalogFilterRootVAA25TransportJsonSerializableAAWP"
-+ "_$s11SeymourCore20CatalogReferenceTypeON"
-+ "_$s11SeymourCore24EngagementBannerRuleInfoVAA25TransportDataSerializableAAWP"
-+ "_$s11SeymourCore24EngagementBannerRuleInfoVAA25TransportJsonSerializableAAWP"
-+ "_$s11SeymourCore24SearchSuggestionsRequestVAA25TransportJsonSerializableAAWP"
-+ "_$s11SeymourCore26SessionBurnBarPackPositionON"
-+ "_$s11SeymourCore26WorkoutPlanScheduleRequestVAA25TransportDataSerializableAAWP"
-+ "_$s11SeymourCore26WorkoutPlanScheduleRequestVAA25TransportJsonSerializableAAWP"
-+ "_$s11SeymourCore27AchievementEnvironmentCacheVAA25TransportDataSerializableAAWP"
-+ "_$s11SeymourCore27AchievementEnvironmentCacheVAA25TransportJsonSerializableAAWP"
-+ "_$s11SeymourCore30RemoteBrowsingConnectionRecordVAA25TransportDataSerializableAAWP"
-+ "_$s11SeymourCore30RemoteBrowsingConnectionRecordVAA25TransportJsonSerializableAAWP"
-+ "_$s11SeymourCore30RemoteBrowsingGuestEnvironmentVAA25TransportDataSerializableAAWP"
-+ "_$s11SeymourCore30RemoteBrowsingGuestEnvironmentVAA25TransportJsonSerializableAAWP"
-+ "_$s11SeymourCore32PersonalizationPrivacyPreferenceVAA25TransportDataSerializableAAWP"
-+ "_$s11SeymourCore32PersonalizationPrivacyPreferenceVAA25TransportJsonSerializableAAWP"
-+ "_$s11SeymourCore34RemoteParticipantHandshakeResponseVAA25TransportDataSerializableAAWP"
-+ "_$s11SeymourCore34RemoteParticipantHandshakeResponseVAA25TransportJsonSerializableAAWP"
-+ "_$s11SeymourCore42RefreshRemoteCatalogWorkoutMetadataRequestVAA25TransportJsonSerializableAAWP"
-+ "_$s11SeymourCore8ZoneNameOAA25TransportDataSerializableAAWP"
-+ "_$s11SeymourCore8ZoneNameOAA25TransportJsonSerializableAAWP"
-+ "ableAAWP"
-+ "atalogEditorialCollectionDetailVAA25TransportJsonSerializableAAWP"
-+ "ransportDataSerializableAAWP"
 
 ```

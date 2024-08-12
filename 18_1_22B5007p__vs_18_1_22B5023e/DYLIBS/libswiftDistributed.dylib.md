@@ -44,9 +44,8 @@
 +  - /usr/lib/swift/libswiftunistd.dylib
    Functions: 338
 -  Symbols:   710
--  CStrings:  0
 +  Symbols:   718
-+  CStrings:  68
+   CStrings:  68
  
 Symbols:
 + __swift_FORCE_LOAD_$_swift_Builtin_float
@@ -57,74 +56,5 @@ Symbols:
 + __swift_FORCE_LOAD_$_swift_time
 + __swift_FORCE_LOAD_$_swiftsys_time
 + __swift_FORCE_LOAD_$_swiftunistd
-CStrings:
-+ "_$_FCCurrentIssuesCheckerResult"
-+ "_OBJC_METACLASS_$_FCCurrentIssuesPromiseChainingData"
-+ "_OBJC_METACLASS_$_FCCurrentMagazineContentFetchOperation"
-+ "_OBJC_METACLASS_$_FCEditorialOperation"
-+ "_OBJC_METACLASS_$_FCFeedDescriptor"
-+ "_OBJC_METACLASS_$_FCFeedItemFeature"
-+ "_OBJC_METACLASS_$_FCFeedItemsWithIDLookupResult"
-+ "_OBJC_METACLASS_$_FCFeedTransformationClamp"
-+ "_OBJC_METACLASS_$_FCFeedTransformationFeedThrottle"
-+ "_OBJC_METACLASS_$_FCFeedTransformationHideInAutoFavorites"
-+ "_OBJC_METACLASS_$_FCFeedTransformationLowQualityContentFilter"
-+ "_OBJC_METACLASS_$_FCFeedTransformationNoneSurfacedBy"
-+ "_OBJC_METACLASS_$_FCFeedTransformationPersonalizedLimit"
-+ "_OBJC_METACLASS_$_FCFeedTransformationUnreadOnly"
-+ "_OBJC_METACLASS_$_FCFetchedValueDescriptor"
-+ "_OBJC_METACLASS_$_FCFetchedValueManager"
-+ "_OBJC_METACLASS_$_FCFetchedValueObservable"
-+ "_OBJC_METACLASS_$_FCForYouConfig"
-+ "_OBJC_METACLASS_$_FCForYouConfigHeadlinesOperation"
-+ "_OBJC_METACLASS_$_FCGetNewsletterSubscriptionOperation"
-+ "_OBJC_METACLASS_$_FCGroupConfig"
-+ "_OBJC_METACLASS_$_FCHeadlineClusterOrderingPersonalizedTopical"
-+ "_OBJC_METACLASS_$_FCHeadlineClusteringRules"
-+ "_OBJC_METACLASS_$_FCHeadlinesUpdateOperation"
-+ "_OBJC_METACLASS_$_FCHeldPBCodableFetchedValueDescriptor"
-+ "_OBJC_METACLASS_$_FCImageOnTopPremiumHeadlineTemplate"
-+ "_OBJC_METACLASS_$_FCIssueOverrides"
-+ "_OBJC_METACLASS_$_FCIssuesFetchOperation"
-+ "_OBJC_METACLASS_$_FCLocalRegion"
-+ "_OBJC_METACLASS_$_FCManagedResourceConfiguration"
-+ "_OBJC_METACLASS_$_FCModifyIssueHistoryCommand"
-+ "_OBJC_METACLASS_$_FCModifySubscriptionsCommand"
-+ "_OBJC_METACLASS_$_FCMutableShallowCopyPair"
-+ "_OBJC_METACLASS_$_FCMyArticlesOperation"
-+ "_OBJC_METACLASS_$_FCNetworkEventGroupKey"
-+ "_OBJC_METACLASS_$_FCOfflineArticleFetchOperation"
-+ "_OBJC_METACLASS_$_FCOfflineIssueList"
-+ "_OBJC_METACLASS_$_FCPersonalizationBundleIDMapping"
-+ "_OBJC_METACLASS_$_FCPersonalizationDecomposedURL"
-+ "_OBJC_METACLASS_$_FCPersonalizationFavorabilityScores"
-+ "_OBJC_METACLASS_$_FCPersonalizationMappingUtilities"
-+ "_OBJC_METACLASS_$_FCPersonalizationURLDomainMapping"
-+ "_OBJC_METACLASS_$_FCPersonalizationURLMapping"
-+ "_OBJC_METACLASS_$_FCPersonalizationWhitelist"
-+ "_OBJC_METACLASS_$_FCPrivateZoneFeedDescriptor"
-+ "_OBJC_METACLASS_$_FCProxyOperation"
-+ "_OBJC_METACLASS_$_FCReadingHistoryFeedDescriptor"
-+ "_OBJC_METACLASS_$_FCReadingListFeedDescriptor"
-+ "_OBJC_METACLASS_$_FCRegisterDeviceTokenCommand"
-+ "_OBJC_METACLASS_$_FCRemoteDefaults"
-+ "_OBJC_METACLASS_$_FCSetValueMapTable"
-+ "_OBJC_METACLASS_$_FCShallowCopyPair"
-+ "_OBJC_METACLASS_$_FCSingleTagFeedDescriptor"
-+ "_OBJC_METACLASS_$_FCSpotlightGroupConfig"
-+ "_OBJC_METACLASS_$_FCSpotlightOperationResult"
-+ "_OBJC_METACLASS_$_FCStreamingResults"
-+ "_OBJC_METACLASS_$_FCSubscribedTags"
-+ "_OBJC_METACLASS_$_FCSubscription"
-+ "_OBJC_METACLASS_$_FCTagSubscriptionOrderAssigner"
-+ "_OBJC_METACLASS_$_FCTagSubscriptionSorter"
-+ "_OBJC_METACLASS_$_FCTopStoriesGroupConfig"
-+ "_OBJC_METACLASS_$_FCTopicalEdge"
-+ "_OBJC_METACLASS_$_FCTopicalLeafNode"
-+ "_OBJC_METACLASS_$_FCTopicalNode"
-+ "_OBJC_METACLASS_$_FCTopicalNodeElement"
-+ "_OBJC_METACLASS_$_FCTransformedResultsStream"
-+ "_OBJC_METACLASS_$_FCVanityURLConfigurationFetchedValueDescriptor"
-+ "_OBJC_METACLASS_$_FCVanityURLRedirectService"
 
 ```

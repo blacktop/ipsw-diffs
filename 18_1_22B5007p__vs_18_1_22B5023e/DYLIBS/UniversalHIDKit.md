@@ -41,9 +41,8 @@
 +  - /usr/lib/swift/libswiftunistd.dylib
    Functions: 437
 -  Symbols:   145
--  CStrings:  0
 +  Symbols:   153
-+  CStrings:  9
+   CStrings:  24
  
 Symbols:
 + __swift_FORCE_LOAD_$_swift_Builtin_float
@@ -54,15 +53,5 @@ Symbols:
 + __swift_FORCE_LOAD_$_swift_time
 + __swift_FORCE_LOAD_$_swiftsys_time
 + __swift_FORCE_LOAD_$_swiftunistd
-CStrings:
-+ "_$_AAUIProfileSummaryCell"
-+ "_OBJC_CLASS_$_AAUIAppleIDSignInConfigForSplitAccounts"
-+ "_OBJC_CLASS_$_AAUIFamilySetupPrompter"
-+ "_OBJC_CLASS_$_AAUISuggestedContactCell"
-+ "_OBJC_METACLASS_$_AAUIAppleIDSignInConfigForSplitAccounts"
-+ "_OBJC_METACLASS_$_AAUIFamilySetupPrompter"
-+ "_OBJC_METACLASS_$_AAUIProfileSummaryCell"
-+ "_OBJC_METACLASS_$_AAUISuggestedContactCell"
-+ "udStorageOffersManager"
 
 ```

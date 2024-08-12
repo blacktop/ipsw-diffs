@@ -44,12 +44,23 @@
    - /usr/lib/libobjc.A.dylib
 -  Functions: 361
 -  Symbols:   540
+-  CStrings:  837
 +  Functions: 366
 +  Symbols:   545
-   CStrings:  0
++  CStrings:  838
  
 Symbols:
 + _paCurrentRouteSupportingAudioAccommodationsAsync
 + _paCurrentRouteSupportsAudioAccommodationsAsync
+CStrings:
++ "-[PAAccessoryManager routesDidChange:]"
++ "AXHearingAidAudioRoutesChangedNotification"
++ "Routes changes: %!@(MISSING)"
++ "routesDidChange:"
++ "v16@?0@\"NSDictionary\"8"
+- "-[PAHMSManager sendConfigUpdate:forIdentifier:withCompletion:]_block_invoke"
+- "Skipping update. Identifier owned by another device %!@(MISSING)"
+- "checkIdentifier:forOwnershipWithCompletion:"
+- "v12@?0B8"
 
 ```

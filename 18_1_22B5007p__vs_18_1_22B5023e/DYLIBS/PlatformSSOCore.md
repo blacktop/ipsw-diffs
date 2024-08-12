@@ -75,11 +75,12 @@
    - /usr/lib/swift/libswiftos.dylib
 -  Functions: 3427
 -  Symbols:   4521
+-  CStrings:  4159
 +  - /usr/lib/swift/libswiftsys_time.dylib
 +  - /usr/lib/swift/libswiftunistd.dylib
 +  Functions: 3432
 +  Symbols:   4537
-   CStrings:  0
++  CStrings:  4170
  
 Symbols:
 + _CFErrorGetCode
@@ -91,5 +92,19 @@ Symbols:
 + __swift_FORCE_LOAD_$_swift_time
 + __swift_FORCE_LOAD_$_swiftsys_time
 + __swift_FORCE_LOAD_$_swiftunistd
+CStrings:
++ "@\"NSData\"40@0:8@\"NSData\"16^{__SecKey={__CFRuntimeBase=QAQ}^{__SecKeyDescriptor}^v}24^@32"
++ "@\"NSString\"48@0:8@\"POMutableJWT\"16^{__SecKey={__CFRuntimeBase=QAQ}^{__SecKeyDescriptor}^v}24^{__SecCertificate=}32^@40"
++ "@48@0:8@16^{__SecKey={__CFRuntimeBase=QAQ}^{__SecKeyDescriptor}^v}24^{__SecCertificate=}32^@40"
++ "@56@0:8@16@24^{__SecKey={__CFRuntimeBase=QAQ}^{__SecKeyDescriptor}^v}32^{__SecCertificate=}40^@48"
++ "Failed to create key data"
++ "Failed to sign embedded SmartCard assertion."
++ "Key error creating signature"
++ "createEncryptionKeyForAlgorithm:"
++ "encodeAndSignJWT:algorithm:key:certificate:error:"
++ "encodeAndSignJWT:key:certificate:error:"
++ "encodeAndSignJWT:signingAlgorithm:key:certificate:error:"
++ "signData:usingKey:error:"
+- "Failed to sign embedded SmartCardassertion."
 
 ```

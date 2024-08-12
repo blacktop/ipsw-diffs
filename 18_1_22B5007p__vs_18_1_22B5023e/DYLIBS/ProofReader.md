@@ -48,4 +48,26 @@
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/Foundation.framework/Foundation
 
+   - /usr/lib/libobjc.A.dylib
+   Functions: 1758
+   Symbols:   2061
+-  CStrings:  6019
++  CStrings:  6025
+ 
+CStrings:
++ "_languageModelSerialQueue"
++ "_lexiconSerialQueue"
++ "_nerTaggerDict"
++ "_nerTaggerSerialQueue"
++ "_taggerSerialQueue"
++ "com.apple.ProofReader.languageModelSerialQueue"
++ "com.apple.ProofReader.lexiconSerialQueue"
++ "com.apple.ProofReader.nerTaggerCreationSerialQueue"
++ "com.apple.ProofReader.nerTaggerSerialQueue"
++ "com.apple.ProofReader.taggerSerialQueue"
+- "_serialQueue"
+- "_specialTaggerDict"
+- "com.apple.ProofReader.mainSerialQueue"
+- "com.apple.ProofReader.taggerCreationSerialQueue"
+
 ```

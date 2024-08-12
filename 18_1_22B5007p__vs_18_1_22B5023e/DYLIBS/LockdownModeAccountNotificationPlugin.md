@@ -33,9 +33,8 @@
 +  - /usr/lib/swift/libswiftunistd.dylib
    Functions: 8
 -  Symbols:   40
--  CStrings:  0
 +  Symbols:   48
-+  CStrings:  25
+   CStrings:  72
  
 Symbols:
 + __swift_FORCE_LOAD_$_swift_Builtin_float
@@ -46,31 +45,5 @@ Symbols:
 + __swift_FORCE_LOAD_$_swift_time
 + __swift_FORCE_LOAD_$_swiftsys_time
 + __swift_FORCE_LOAD_$_swiftunistd
-CStrings:
-+ "DebugMetadataSidecarFilePath"
-+ "PhotoProxyCodec"
-+ "_kFigCaptureSessionNotificationPayloadKey_DeferredPhotoProxyFileType"
-+ "_kFigCaptureSessionNotificationPayloadKey_GlassesSegmentationMatteMetadata"
-+ "_kFigCaptureSessionNotification_ConfigurationCommitted"
-+ "_kFigCaptureSessionNotification_ConfigurationDidBecomeLive"
-+ "_kFigCaptureSessionNotification_DidStartRunning"
-+ "_kFigCaptureSessionNotification_DidStopRunning"
-+ "_kFigCaptureSessionNotification_ServerConnectionDied"
-+ "_kFigCaptureSessionPreviewSinkPrimaryCaptureRectKey_AspectRatio"
-+ "_kFigCaptureSessionPreviewSinkPrimaryCaptureRectKey_CenterX"
-+ "_kFigCaptureSessionPreviewSinkPrimaryCaptureRectKey_CenterY"
-+ "_kFigCaptureSessionPreviewSinkProperty_Filters"
-+ "_kFigCaptureSessionPreviewSinkProperty_PortraitLightingEffectStrength"
-+ "_kFigCaptureSessionPreviewSinkProperty_PrimaryCaptureRect"
-+ "_kFigCaptureSessionPreviewSinkProperty_SemanticStyles"
-+ "_kFigCaptureSessionPreviewSinkProperty_SimulatedAperture"
-+ "_kFigCaptureSessionPreviewSinkSemanticStylesKey_Animated"
-+ "_kFigCaptureSessionPreviewSinkSemanticStylesKey_SemanticStyle"
-+ "_kFigCaptureSessionPreviewSinkSemanticStylesKey_SemanticStyleSet"
-+ "_kFigCaptureSessionRemoteQueueUpdatedNotificationPayloadKey_RemoteQueueReceiver"
-+ "_kFigCaptureSessionSinkNotification_RemoteQueueUpdated"
-+ "_kFigCaptureSessionSourceNotification_SourceFormatDidChange"
-+ "igCaptureSessionNotificationPayloadKey_GlassesSegmentationMatteSurface"
-+ "ureSessionNotificationPayloadKey_RecordingSucceeded"
 
 ```

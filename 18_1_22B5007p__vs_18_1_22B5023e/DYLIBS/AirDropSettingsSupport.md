@@ -50,9 +50,8 @@
 +  - /usr/lib/swift/libswiftunistd.dylib
    Functions: 52
 -  Symbols:   52
--  CStrings:  12
 +  Symbols:   60
-+  CStrings:  8
+   CStrings:  68
  
 Symbols:
 + __swift_FORCE_LOAD_$_swift_Builtin_float
@@ -63,26 +62,5 @@ Symbols:
 + __swift_FORCE_LOAD_$_swift_time
 + __swift_FORCE_LOAD_$_swiftsys_time
 + __swift_FORCE_LOAD_$_swiftunistd
-CStrings:
-+ " \x12\xa43"
-+ "`\x13\xa43"
-+ "`sL0\x01\xc0\xab\xb5\x10\x11\xa43"
-+ "h\x80\xa53\x01\xc0\xe1j\x80\x80\xa53\x01\xc0\xe1j\x98\x80\xa53\x01\xc0\xe1j\xb0\x80\xa53\x01\xc0\xe1jȀ\xa53\x01\xc0\xe1j\xe0\x80\xa53\x01\xc0\xe1j\xf8\x80\xa53\x01\xc0\xe1j\x10\x81\xa53\x01\xc0\xe1j(\x81\xa53\x01\xc0\xe1j@\x81\xa53\x01\xc0\xe1jX\x81\xa53\x01\xc0\xe1jp\x81\xa53\x01\xc0\xe1j\x88\x81\xa53\x01\xc0\xe1j\xa0\x81\xa53\x01\xc0\xe1j\xb8\x81\xa53\x01\xc0\xe1jЁ\xa53\x01\xc0\xe1j聥3\x01\xc0\xe1j\xb0u\xa43"
-+ "pu\xa43"
-+ "x\x02\xa53"
-+ "\x88sL0\x01\xc0\xab\xb5HhL0\x01\xc0\xab\xb5\xd8xL0\x01\xc0\xab\xb5،L0\x01\xc0\xab\xb5`\x12\xa43"
-+ "\xb0(\xa43"
-- "1_c6Systemj1_kL0VcAGmFWC"
-- "2horizontalListStandardyAgA01_c10Horizontalj1_K0VcAGmFWC"
-- "_$s10SnippetKit14_ProtoResponseV9ComponentV11OneOf_ValueO10heroHeaderyAgA01_c4HeroJ0VcAGmFWC"
-- "_$s10SnippetKit14_ProtoResponseV9ComponentV11OneOf_ValueO12sashStandardyAgA01_c5Sash_J0VcAGmFWC"
-- "_$s10SnippetKit14_ProtoResponseV9ComponentV11OneOf_ValueO15buttonContaineryAgA01_c7Button_J0VcAGmFWC"
-- "_$s10SnippetKit14_ProtoResponseV9ComponentV11OneOf_ValueO16visualizationMapyAgA01_c14Visualization_J0VcAGmFWC"
-- "_$s10SnippetKit14_ProtoResponseV9ComponentV11OneOf_ValueO17intentsUiStandardyAgA01_c10IntentsUI_K0VcAGmFWC"
-- "_$s10SnippetKit14_ProtoResponseV9ComponentV11OneOf_ValueO17referenceFootnoteyAgA01_c10Reference_J0VcAGmFWC"
-- "_$s10SnippetKit14_ProtoResponseV9ComponentV11OneOf_ValueO18visualizationImageyAgA01_c14Visualization_J0VcAGmFWC"
-- "_$s10SnippetKit14_ProtoResponseV9ComponentV11OneOf_ValueO21sectionHeaderStandardyAgA01_c7Sectionj1_K0VcAGmFWC"
-- "_$s10SnippetKit14_ProtoResponseV9ComponentV11OneOf_ValueO5tableyAgA01_C5TableVcAGmFWC"
-- "gA01_c4Factj1_K0VcAGmFWC"
 
 ```

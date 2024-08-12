@@ -33,12 +33,11 @@
    - /usr/lib/swift/libswiftos.dylib
 -  Functions: 332
 -  Symbols:   690
--  CStrings:  16
 +  - /usr/lib/swift/libswiftsys_time.dylib
 +  - /usr/lib/swift/libswiftunistd.dylib
 +  Functions: 333
 +  Symbols:   698
-+  CStrings:  0
+   CStrings:  3
  
 Symbols:
 + __swift_FORCE_LOAD_$_swift_Builtin_float
@@ -49,22 +48,5 @@ Symbols:
 + __swift_FORCE_LOAD_$_swift_time
 + __swift_FORCE_LOAD_$_swiftsys_time
 + __swift_FORCE_LOAD_$_swiftunistd
-CStrings:
-- "\x01"
-- "\x03"
-- "#\xde\x05"
-- "$\xde\x05"
-- "%!\(MISSING)xde\x05"
-- "&\xde\x05"
-- "'\xde\x05"
-- "(\xde\x05"
-- ")\xde\x05"
-- ":k4"
-- "=k4"
-- "@k4"
-- "Ck4"
-- "Fk4"
-- "Gk4"
-- "Hk4"
 
 ```

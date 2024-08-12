@@ -56,11 +56,17 @@
    - /usr/lib/libobjc.A.dylib
 -  Functions: 374
 -  Symbols:   832
+-  CStrings:  1270
 +  Functions: 375
 +  Symbols:   834
-   CStrings:  0
++  CStrings:  1274
  
 Symbols:
 + _kHTPrefsThirdPartyIncludeNonDevelopmentApps
+CStrings:
++ "HangTracerThirdPartyIncludeNonDevelopmentApps"
++ "TB,R,V_thirdPartyIncludeNonDevelopmentApps"
++ "_thirdPartyIncludeNonDevelopmentApps"
++ "thirdPartyIncludeNonDevelopmentApps"
 
 ```

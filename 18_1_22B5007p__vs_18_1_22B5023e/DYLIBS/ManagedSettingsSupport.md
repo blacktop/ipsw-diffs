@@ -33,9 +33,8 @@
 +  - /usr/lib/swift/libswiftunistd.dylib
    Functions: 287
 -  Symbols:   72
--  CStrings:  0
 +  Symbols:   80
-+  CStrings:  13
+   CStrings:  21
  
 Symbols:
 + __swift_FORCE_LOAD_$_swift_Builtin_float
@@ -46,19 +45,5 @@ Symbols:
 + __swift_FORCE_LOAD_$_swift_time
 + __swift_FORCE_LOAD_$_swiftsys_time
 + __swift_FORCE_LOAD_$_swiftunistd
-CStrings:
-+ "S_$_NEInternetNexus"
-+ "_OBJC_CLASS_$_NEKeychainItem"
-+ "_OBJC_CLASS_$_NELoopbackConnection"
-+ "_OBJC_CLASS_$_NENexus"
-+ "_OBJC_CLASS_$_NENexusAgent"
-+ "_OBJC_CLASS_$_NENexusBrowse"
-+ "_OBJC_CLASS_$_NENexusFlow"
-+ "_OBJC_CLASS_$_NENexusFlowAssignedProperties"
-+ "_OBJC_CLASS_$_NENexusFlowDivertFlow"
-+ "_OBJC_CLASS_$_NENexusFlowManager"
-+ "_OBJC_METACLASS_$_NEIKEv2InitiatorTransportIPv6Address"
-+ "_OBJC_METACLASS_$_NEIKEv2Listener"
-+ "alContext"
 
 ```

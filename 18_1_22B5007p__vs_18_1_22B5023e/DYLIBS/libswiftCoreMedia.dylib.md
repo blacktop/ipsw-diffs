@@ -31,7 +31,6 @@
    - /usr/lib/swift/libswiftXPC.dylib
 -  Functions: 2228
 -  Symbols:   3860
--  CStrings:  31
 +  - /usr/lib/swift/libswift_Builtin_float.dylib
 +  - /usr/lib/swift/libswift_errno.dylib
 +  - /usr/lib/swift/libswift_math.dylib
@@ -42,7 +41,7 @@
 +  - /usr/lib/swift/libswiftunistd.dylib
 +  Functions: 2225
 +  Symbols:   3867
-+  CStrings:  32
+   CStrings:  32
  
 Symbols:
 + __swift_FORCE_LOAD_$_swift_Builtin_float
@@ -53,69 +52,5 @@ Symbols:
 + __swift_FORCE_LOAD_$_swift_time
 + __swift_FORCE_LOAD_$_swiftsys_time
 + __swift_FORCE_LOAD_$_swiftunistd
-CStrings:
-+ "ResultCache"
-+ "_officialAppSectionControllerForAvailability:"
-+ "_officialAppView"
-+ "_offlineFeatureDiscoveryView"
-+ "_offlineMapProvider"
-+ "_offlineViewModel"
-+ "_openAttributionURLStrings:usingAttribution:"
-+ "_openMapsExtensionUsingExtensionParams:handlingOptions:"
-+ "_openNavigationBarButton"
-+ "_openStateText"
-+ "_openWebURL:forcePunchout:"
-+ "_operatingSystemName"
-+ "_operatingSystemVersion"
-+ "_optionsFromKey:route:"
-+ "_originalContactCopy"
-+ "_originalIndex"
-+ "_overlayColor"
-+ "_pageResizedArgument"
-+ "_pagingContainerView"
-+ "_pagingScrollView"
-+ "_panAndSwipeToDismissGestureEnabled"
-+ "_panGestureStartingDirection"
-+ "_partnerActionMenuElements"
-+ "_partnerActionViewModelWithPartnerActionIndex:"
-+ "_partnerIconsByURLs"
-+ "_partnerId"
-+ "_passcodeProvider"
-+ "_passiveCallToActionSectionControllerForAvailability:"
-+ "_pendingCallbackHandlers"
-+ "_pendingSnapshotters"
-+ "_percentageStringComponentsFromCurrentViewModel"
-+ "_performExpansion"
-- "Identifier:seasonIdentifier:"
-- "_sectionIndexIsDescriptionSection:"
-- "_sectionInfoWidth"
-- "_sectionInsetsForSection:"
-- "_sectionStyle"
-- "_secureInvalidationDSID"
-- "_secureInvalidationNonceURL"
-- "_seeMoreHorizontalMargin"
-- "_seeMoreTextColor"
-- "_selectActionHandler"
-- "_selectButtonAction:"
-- "_selectEventDataSource"
-- "_selectLibraryCellType:"
-- "_selectedMainMenuIndex"
-- "_sendInvalidationRequestsForDeletionInfoArrays:completion:"
-- "_sendInvalidationRequestsForFirstArray:completion:"
-- "_sendKeyRequestsToServer:isStopRequest:isSecureInvalidationRequest:completion:"
-- "_sendPlaybackStartDatesToServerIfNecessary"
-- "_sendSettingsValuesToJS:"
-- "_sendsLocationToPlaybackKeyServerWhenOptedIn"
-- "_sendsLocationWhenOptedIn"
-- "_sendsMescalHeader"
-- "_sendsMescalHeaderToPlaybackKeyServer"
-- "_separatorBlendMode"
-- "_serialFetchOperationQueue"
-- "_serialProcessingDispatchQueue"
-- "_seriesManagedObject"
-- "_sessionForPlayer:"
-- "_setAlphaImageProxy:"
-- "_setAppLaunchFieldWithData:"
-- "ionHeaderVerticalBump"
 
 ```

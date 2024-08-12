@@ -36,9 +36,8 @@
 +  - /usr/lib/swift/libswiftunistd.dylib
    Functions: 21
 -  Symbols:   48
--  CStrings:  0
 +  Symbols:   56
-+  CStrings:  13
+   CStrings:  17
  
 Symbols:
 + __swift_FORCE_LOAD_$_swift_Builtin_float
@@ -49,19 +48,5 @@ Symbols:
 + __swift_FORCE_LOAD_$_swift_time
 + __swift_FORCE_LOAD_$_swiftsys_time
 + __swift_FORCE_LOAD_$_swiftunistd
-CStrings:
-+ "_OBJC_CLASS_$___STUIStatusBarRoundedCornerViewAccessibility_super"
-+ "_OBJC_CLASS_$___STUIStatusBarThermalItemAccessibility_super"
-+ "_OBJC_CLASS_$___STUIStatusBarTimeItemAccessibility_super"
-+ "_OBJC_CLASS_$___STUIStatusBarWifiItemAccessibility_super"
-+ "_OBJC_CLASS_$___STUIStatusBarWifiSignalViewAccessibility_super"
-+ "_OBJC_CLASS_$___STUIStatusBar_WrapperAccessibility_super"
-+ "_OBJC_METACLASS_$_AXSystemStatusUIGlue"
-+ "_OBJC_METACLASS_$_STUIStatusBarAccessibility"
-+ "_OBJC_METACLASS_$_STUIStatusBarActivityViewAccessibility"
-+ "_OBJC_METACLASS_$_STUIStatusBarBackgroundActivityItemAccessibility"
-+ "_OBJC_METACLASS_$_STUIStatusBarBatteryItemAccessibility"
-+ "sBarPillViewAccessibility_super"
-+ "ssibility_super"
 
 ```

@@ -69,12 +69,12 @@
    - /usr/lib/swift/libswiftos.dylib
 -  Functions: 2648
 -  Symbols:   1010
--  CStrings:  0
+-  CStrings:  132
 +  - /usr/lib/swift/libswiftsys_time.dylib
 +  - /usr/lib/swift/libswiftunistd.dylib
 +  Functions: 2637
 +  Symbols:   1004
-+  CStrings:  47
++  CStrings:  133
  
 Symbols:
 + _$ss31withCheckedThrowingContinuation9isolation8function_xScA_pSgYi_SSyScCyxs5Error_pGXEtYaKlF
@@ -104,52 +104,10 @@ Symbols:
 - _$ss31withCheckedThrowingContinuation8function_xSS_yScCyxs5Error_pGXEtYaKlF
 - _$ss31withCheckedThrowingContinuation8function_xSS_yScCyxs5Error_pGXEtYaKlFTu
 CStrings:
-+ "SuccessyAgA01_c6Statusj1_K0VcAGmFWC"
-+ "V11OneOf_ValueO15buttonContaineryAgA01_c7Button_J0VcAGmFWC"
-+ "_$s10SnippetKit14ActionPropertyVSEAAMc"
-+ "_$s10SnippetKit14ActionPropertyVSHAAMc"
-+ "_$s10SnippetKit14ActionPropertyVSeAAMc"
-+ "_$s10SnippetKit14_ProtoResponseV9ComponentV11OneOf_ValueO03keyH8StandardyAgA01_c3Keyh1_J0VcAGmFWC"
-+ "_$s10SnippetKit14_ProtoResponseV9ComponentV11OneOf_ValueO10heroHeaderyAgA01_c4HeroJ0VcAGmFWC"
-+ "_$s10SnippetKit14_ProtoResponseV9ComponentV11OneOf_ValueO12longItemTextyAgA01_c4Longj1_K0VcAGmFWC"
-+ "_$s10SnippetKit14_ProtoResponseV9ComponentV11OneOf_ValueO12sashStandardyAgA01_c5Sash_J0VcAGmFWC"
-+ "_$s10SnippetKit14_ProtoResponseV9ComponentV11OneOf_ValueO13controlSlideryAgA01_c8Control_J0VcAGmFWC"
-+ "_$s10SnippetKit14_ProtoResponseV9ComponentV11OneOf_ValueO13controlSwitchyAgA01_c8Control_J0VcAGmFWC"
-+ "_$s10SnippetKit14_ProtoResponseV9ComponentV11OneOf_ValueO13referenceLogoyAgA01_c10Reference_J0VcAGmFWC"
-+ "_$s10SnippetKit14_ProtoResponseV9ComponentV11OneOf_ValueO13referenceRichyAgA01_c10Reference_J0VcAGmFWC"
-+ "_$s10SnippetKit14_ProtoResponseV9ComponentV11OneOf_ValueO14factItemButtonyAgA01_c4Factj1_K0VcAGmFWC"
-+ "_$s10SnippetKit14_ProtoResponseV9ComponentV11OneOf_ValueO15referenceButtonyAgA01_c10Reference_J0VcAGmFWC"
-+ "_$s10SnippetKit14_ProtoResponseV9ComponentV11OneOf_ValueO15summaryItemPairyAgA01_c7Summaryj1_K0VcAGmFWC"
-+ "_$s10SnippetKit14_ProtoResponseV9ComponentV11OneOf_ValueO16simpleItemPlayeryAgA01_c6Simplej1_K0VcAGmFWC"
-+ "_$s10SnippetKit14_ProtoResponseV9ComponentV11OneOf_ValueO17intentsUiStandardyAgA01_c10IntentsUI_K0VcAGmFWC"
-+ "_$s10SnippetKit14_ProtoResponseV9ComponentV11OneOf_ValueO17referenceFootnoteyAgA01_c10Reference_J0VcAGmFWC"
-+ "_$s10SnippetKit14_ProtoResponseV9ComponentV11OneOf_ValueO17referenceStandardyAgA01_c10Reference_J0VcAGmFWC"
-+ "_$s10SnippetKit14_ProtoResponseV9ComponentV11OneOf_ValueO17sectionHeaderRichyAgA01_c7Sectionj1_K0VcAGmFWC"
-+ "_$s10SnippetKit14_ProtoResponseV9ComponentV11OneOf_ValueO17summaryItemButtonyAgA01_c7Summaryj1_K0VcAGmFWC"
-+ "_$s10SnippetKit14_ProtoResponseV9ComponentV11OneOf_ValueO17summaryItemPairV2yAgA01_c7Summaryj1_kL0VcAGmFWC"
-+ "_$s10SnippetKit14_ProtoResponseV9ComponentV11OneOf_ValueO17summaryItemPlayeryAgA01_c7Summaryj1_K0VcAGmFWC"
-+ "_$s10SnippetKit14_ProtoResponseV9ComponentV11OneOf_ValueO17summaryItemSwitchyAgA01_c7Summaryj1_K0VcAGmFWC"
-+ "_$s10SnippetKit14_ProtoResponseV9ComponentV11OneOf_ValueO18visualizationChartyAgA01_c14Visualization_J0VcAGmFWC"
-+ "_$s10SnippetKit14_ProtoResponseV9ComponentV11OneOf_ValueO18visualizationImageyAgA01_c14Visualization_J0VcAGmFWC"
-+ "_$s10SnippetKit14_ProtoResponseV9ComponentV11OneOf_ValueO19controlPlayerButtonyAgA01_c8Control_jK0VcAGmFWC"
-+ "_$s10SnippetKit14_ProtoResponseV9ComponentV11OneOf_ValueO19summaryItemSwitchV2yAgA01_c7Summaryj1_kL0VcAGmFWC"
-+ "_$s10SnippetKit14_ProtoResponseV9ComponentV11OneOf_ValueO20statusIndicatorErroryAgA01_c6Statusj1_K0VcAGmFWC"
-+ "_$s10SnippetKit14_ProtoResponseV9ComponentV11OneOf_ValueO21sectionHeaderStandardyAgA01_c7Sectionj1_K0VcAGmFWC"
-+ "_$s10SnippetKit14_ProtoResponseV9ComponentV11OneOf_ValueO21simpleItemReverseRichyAgA01_c6Simplej1_kL0VcAGmFWC"
-+ "_$s10SnippetKit14_ProtoResponseV9ComponentV11OneOf_ValueO21summaryItemPairNumberyAgA01_c7Summaryj1_kL0VcAGmFWC"
-+ "_$s10SnippetKit14_ProtoResponseV9ComponentV11OneOf_ValueO22horizontalListStandardyAgA01_c10Horizontalj1_K0VcAGmFWC"
-+ "_$s10SnippetKit14_ProtoResponseV9ComponentV11OneOf_ValueO22tertiaryHeaderStandardyAgA01_c8Tertiaryj1_K0VcAGmFWC"
-+ "_$s10SnippetKit14_ProtoResponseV9ComponentV11OneOf_ValueO23summaryItemPairNumberV2yAgA01_c7Summaryj1_klM0VcAGmFWC"
-+ "_$s10SnippetKit14_ProtoResponseV9ComponentV11OneOf_ValueO24statusIndicatorCancelledyAgA01_c6Statusj1_K0VcAGmFWC"
-+ "_$s10SnippetKit14_ProtoResponseV9ComponentV11OneOf_ValueO25secondaryHeaderEmphasizedyAgA01_c9Secondaryj1_K0VcAGmFWC"
-+ "_$s10SnippetKit14_ProtoResponseV9ComponentV11OneOf_ValueO25statusIndicatorInProgressyAgA01_c6Statusj1_kL0VcAGmFWC"
-+ "_$s10SnippetKit14_ProtoResponseV9ComponentV11OneOf_ValueO26simpleItemRichSearchResultyAgA01_c6Simplej1_klM0VcAGmFWC"
-+ "_$s10SnippetKit14_ProtoResponseV9ComponentV11OneOf_ValueO28systemTextClarificationTitleyAgA01_c6Systemj1_kL0VcAGmFWC"
-+ "_$s10SnippetKit14_ProtoResponseV9ComponentV11OneOf_ValueO5tableyAgA01_C5TableVcAGmFWC"
-+ "_$s10SnippetKit14_ProtoResponseV9ComponentV11OneOf_ValueO7groupIDyAGSScAGmFWC"
-+ "_$s10SnippetKit14_ProtoResponseV9ComponentV11OneOf_ValueO9textInputyAgA01_c4TextJ0VcAGmFWC"
-+ "_$s10SnippetKit18SimpleItemStandardVAA15ProtobufBuilderAAMc"
-+ "_OBJC_METACLASS_$_APRequestExtension"
-+ "vent"
++ "ephemeral asset not received due to error %!@(MISSING) for request %!s(MISSING)"
++ "ephemeral asset not received for request %!s(MISSING)"
++ "process(requests:)"
+- "expect ephemeral asset but get %!s(MISSING)"
+- "shouldn't receive skeleton here"
 
 ```

@@ -21,67 +21,10 @@
    __TEXT.__objc_methtype: 0x2ff
    __TEXT.__objc_stubs: 0x3a0
    __DATA_CONST.__got: 0x40
-
-   - /usr/lib/libobjc.A.dylib
-   Functions: 19
-   Symbols:   48
--  CStrings:  0
-+  CStrings:  54
- 
 CStrings:
-+ "_kFigCaptureISPProcessingSessionOutputParameterKey_InputCropRect"
-+ "_kFigCaptureISPProcessingSessionParameterKey_MetadataDictionary"
-+ "_kFigCaptureISPProcessingSessionProperty_InputPixelBufferAttributes"
-+ "_kFigCaptureISPProcessingSessionProperty_OutputHandler"
-+ "_kFigCaptureISPProcessingSessionProperty_SupportedOutputs"
-+ "_kFigCaptureNotification_SpeakerInterferenceMitigationRequiredChanged"
-+ "_kFigCaptureSourceAttributeKey_AppliesSessionPresetMaxIntegrationTimeOverrideToActiveFormat"
-+ "_kFigCaptureSourceAttributeKey_AutoFocusRangeRestriction"
-+ "_kFigCaptureSourceAttributeKey_DefaultAutoExposureCenterWindowSize"
-+ "_kFigCaptureSourceAttributeKey_DefaultAutoExposureTapWindowSize"
-+ "_kFigCaptureSourceAttributeKey_DefaultAutoFocusCenterWindowSize"
-+ "_kFigCaptureSourceAttributeKey_DefaultAutoFocusTapWindowSize"
-+ "_kFigCaptureSourceAttributeKey_DefaultContinuousAutoFocusWindowSize"
-+ "_kFigCaptureSourceAttributeKey_DeviceType"
-+ "_kFigCaptureSourceAttributeKey_Exposure"
-+ "_kFigCaptureSourceAttributeKey_ExposurePointOfInterest"
-+ "_kFigCaptureSourceAttributeKey_Flash"
-+ "_kFigCaptureSourceAttributeKey_FocalLength"
-+ "_kFigCaptureSourceAttributeKey_FocalLengthCharacterization"
-+ "_kFigCaptureSourceAttributeKey_Focus"
-+ "_kFigCaptureSourceAttributeKey_FocusPointOfInterest"
-+ "_kFigCaptureSourceAttributeKey_GlobalToneMapping"
-+ "_kFigCaptureSourceAttributeKey_HEIF"
-+ "_kFigCaptureSourceAttributeKey_HEVC"
-+ "_kFigCaptureSourceAttributeKey_ISPMotionData"
-+ "_kFigCaptureSourceAttributeKey_LensAperture"
-+ "_kFigCaptureSourceAttributeKey_LocalizedName"
-+ "_kFigCaptureSourceAttributeKey_ManualExposure"
-+ "_kFigCaptureSourceAttributeKey_ManualFocus"
-+ "_kFigCaptureSourceAttributeKey_ManualWhiteBalance"
-+ "_kFigCaptureSourceAttributeKey_Manufacturer"
-+ "_kFigCaptureSourceAttributeKey_MinimumFocusDistance"
-+ "_kFigCaptureSourceAttributeKey_ModelID"
-+ "_kFigCaptureSourceAttributeKey_NonLocalizedName"
-+ "_kFigCaptureSourceAttributeKey_ObjectsDetection"
-+ "_kFigCaptureSourceAttributeKey_Position"
-+ "_kFigCaptureSourceAttributeKey_PrefersHEVC"
-+ "_kFigCaptureSourceAttributeKey_ProResSupported"
-+ "_kFigCaptureSourceAttributeKey_RedEyeReduction"
-+ "_kFigCaptureSourceAttributeKey_SIS"
-+ "_kFigCaptureSourceAttributeKey_SmoothFocus"
-+ "_kFigCaptureSourceAttributeKey_Sphere"
-+ "_kFigCaptureSourceAttributeKey_Torch"
-+ "_kFigCaptureSourceAttributeKey_UniqueID"
-+ "_kFigCaptureSourceAttributeKey_VideoStabilization"
-+ "_kFigCaptureSourceAttributeKey_VideoStabilizationAutoSelectionCinematicExtendedEnhancedDisabled"
-+ "_kFigCaptureSourceAttributeKey_WhiteBalance"
-+ "_kFigCaptureSourceAttributeKey_WideColor"
-+ "_kFigCaptureSourceProperty_AttributesDictionary"
-+ "eAttributeKey_BravoSwitchOverVideoZoomFactors"
-+ "icParameters"
-+ "lerLowRes"
-+ "tParameters"
-+ "ttributes"
++ "_systemImageNamed:"
++ "slider.horizontal.below.waveform"
+- "systemImageNamed:"
+- "waveform"
 
 ```

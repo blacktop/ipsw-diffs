@@ -36,9 +36,8 @@
 +  - /usr/lib/swift/libswiftunistd.dylib
    Functions: 1899
 -  Symbols:   2089
--  CStrings:  0
 +  Symbols:   2097
-+  CStrings:  8
+   CStrings:  11
  
 Symbols:
 + __swift_FORCE_LOAD_$_swift_Builtin_float
@@ -49,14 +48,5 @@ Symbols:
 + __swift_FORCE_LOAD_$_swift_time
 + __swift_FORCE_LOAD_$_swiftsys_time
 + __swift_FORCE_LOAD_$_swiftunistd
-CStrings:
-+ "_OBJC_CLASS_$_TSTTableDataCustomFormat"
-+ "_OBJC_CLASS_$_TSTTableDataFormulaError"
-+ "_OBJC_CLASS_$_TSTTableDataMultipleChoiceList"
-+ "_OBJC_METACLASS_$_TSTTableDataConditionalStyleSet"
-+ "_OBJC_METACLASS_$_TSTTableDataCustomFormat"
-+ "_OBJC_METACLASS_$_TSTTableDataFormulaError"
-+ "_OBJC_METACLASS_$_TSTTableDataMultipleChoiceList"
-+ "t"
 
 ```

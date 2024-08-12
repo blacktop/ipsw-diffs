@@ -37,9 +37,8 @@
 +  - /usr/lib/swift/libswiftunistd.dylib
    Functions: 334
 -  Symbols:   122
--  CStrings:  0
 +  Symbols:   130
-+  CStrings:  9
+   CStrings:  18
  
 Symbols:
 + __swift_FORCE_LOAD_$_swift_Builtin_float
@@ -50,15 +49,5 @@ Symbols:
 + __swift_FORCE_LOAD_$_swift_time
 + __swift_FORCE_LOAD_$_swiftsys_time
 + __swift_FORCE_LOAD_$_swiftunistd
-CStrings:
-+ "MessageAAMc"
-+ "_$s12SiriNLUTypes0A23_Nlu_External_UserParseV21InternalSwiftProtobuf7MessageAAMc"
-+ "_$s12SiriNLUTypes0A40_Nlu_Internal_NlRouter_NLRouterOverridesV0D13SwiftProtobuf7MessageAAMc"
-+ "_$s12SiriNLUTypes0A40_Nlu_Internal_NlRouter_OverrideMatchRuleV11OneOf_ValueO13siriResponsesyAeC0aN0VcAEmFWC"
-+ "_$s12SiriNLUTypes0A40_Nlu_Internal_NlRouter_OverrideMatchRuleV11OneOf_ValueO14utteranceRegexyAeC09UtteranceN0VcAEmFWC"
-+ "_$s12SiriNLUTypes0A40_Nlu_Internal_NlRouter_OverrideMatchRuleV11OneOf_ValueO18previousUtterancesyAeC08PreviousN0VcAEmFWC"
-+ "_$s12SiriNLUTypes0A40_Nlu_Internal_NlRouter_OverrideMatchRuleV11OneOf_ValueO23previousUtterancesRegexyAeC08PreviousnO0VcAEmFWC"
-+ "_$s12SiriNLUTypes0A40_Nlu_Internal_NlRouter_OverrideMatchRuleV11OneOf_ValueO9utteranceyAeC9UtteranceVcAEmFWC"
-+ "mFWC"
 
 ```

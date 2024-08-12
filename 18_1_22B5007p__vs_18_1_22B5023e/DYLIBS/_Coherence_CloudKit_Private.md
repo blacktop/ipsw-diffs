@@ -34,9 +34,8 @@
 +  - /usr/lib/swift/libswiftunistd.dylib
    Functions: 57
 -  Symbols:   53
--  CStrings:  0
 +  Symbols:   61
-+  CStrings:  1
+   CStrings:  3
  
 Symbols:
 + __swift_FORCE_LOAD_$_swift_Builtin_float
@@ -47,7 +46,5 @@ Symbols:
 + __swift_FORCE_LOAD_$_swift_time
 + __swift_FORCE_LOAD_$_swiftsys_time
 + __swift_FORCE_LOAD_$_swiftunistd
-CStrings:
-+ "pabilityVibration"
 
 ```

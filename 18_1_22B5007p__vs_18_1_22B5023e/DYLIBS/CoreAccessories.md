@@ -62,13 +62,50 @@
    - /usr/lib/libobjc.A.dylib
 -  Functions: 702
 -  Symbols:   1951
+-  CStrings:  1521
 +  Functions: 715
 +  Symbols:   1978
-   CStrings:  0
++  CStrings:  1546
  
 Symbols:
 + _ACCUserDefaultsKey_IdentityCertIsClassD
 + ___kCFBooleanTrue
 + _kCFACCUserDefaultsKey_IdentityCertIsClassD
+CStrings:
++ "\x028"
++ "#"
++ "ACCConnectionInfo registerDelegate %!@(MISSING) -> %!@(MISSING) withIdentifier %!@(MISSING)"
++ "CarPlay Connection Event: %!l(MISSING)d, %!l(MISSING)d, %!f(MISSING), %!@(MISSING)"
++ "IdentityCertIsClassD"
++ "Legacy"
++ "T@\"<ACCConnectionInfoPrivateDelegateProtocol>\",W,N,V_delegateForIdentifier"
++ "T@\"NSString\",&,N,V_identifier"
++ "_delegateForIdentifier"
++ "_identifier"
++ "accessoryConnectionFiltered:withFilter:"
++ "accessoryEndpointFiltered:withFilter:forConnection:"
++ "authenticateVeridianWithChallenge:completionHandler:updateRegistry:updateUIProperty:logToAnalytics:"
++ "carPlaySendConnectionTimeEvent:connectionType:eventTime:"
++ "carPlaySendConnectionTimeEvent:connectionType:eventTime:withReply:"
++ "delegateForIdentifier"
++ "failed to send CarPlay Connect event %!@(MISSING)"
++ "identifier"
++ "notifyOfClient:bundleID:withFilter:forIdentifier:"
++ "registerDelegate:withIdentifier:"
++ "setDelegateForIdentifier:"
++ "setIdentifier:"
++ "timeIntervalSinceReferenceDate"
++ "unsignedIntValue"
++ "v40@0:8q16q24@32"
++ "v44@0:8@\"NSData\"16@?<v@?B@\"NSData\"@\"NSData\"Bi>24B32B36B40"
++ "v44@0:8@16@?24B32B36B40"
++ "v48@0:8@\"NSString\"16@\"NSString\"24@\"NSDictionary\"32@\"NSString\"40"
++ "v48@0:8Q16Q24@\"NSDate\"32@?<v@?B@\"NSError\">40"
++ "v48@0:8Q16Q24@32@?40"
+- "\x02'"
+- "\""
+- "authenticateVeridianWithChallenge:completionHandler:updateRegistry:updateUIProperty:"
+- "v40@0:8@\"NSData\"16@?<v@?B@\"NSData\"@\"NSData\"Bi>24B32B36"
+- "v40@0:8@16@?24B32B36"
 
 ```

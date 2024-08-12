@@ -85,12 +85,12 @@
    - /usr/lib/swift/libswiftos.dylib
 -  Functions: 645
 -  Symbols:   243
--  CStrings:  0
+-  CStrings:  144
 +  - /usr/lib/swift/libswiftsys_time.dylib
 +  - /usr/lib/swift/libswiftunistd.dylib
 +  Functions: 654
 +  Symbols:   247
-+  CStrings:  74
++  CStrings:  147
  
 Symbols:
 + __swift_FORCE_LOAD_$_swift_Builtin_float
@@ -105,79 +105,12 @@ Symbols:
 - _swift_continuation_await
 - _swift_continuation_init
 CStrings:
-+ "$_SFPrivacyReportBannerCellAccessibility"
-+ "FStepperAccessibility_super"
-+ "_MediaPlaybackButtonAccessibility"
-+ "_OBJC_CLASS_$_AXMobilePhoneGlue"
-+ "_OBJC_CLASS_$_CapsuleTabGroupViewAccessibility"
-+ "_OBJC_CLASS_$_DialerControllerAccessibility"
-+ "_OBJC_CLASS_$_MPLegacyRecentsTableViewCellAccessibility"
-+ "_OBJC_CLASS_$_MPRecentsTableViewControllerAccessibility"
-+ "_OBJC_CLASS_$_MPVoicemailMessageViewModelAccessibility"
-+ "_OBJC_CLASS_$_MPVoicemailTableViewControllerAccessibility"
-+ "_OBJC_CLASS_$_MainButtonAccessibility"
-+ "_OBJC_CLASS_$_MobilePhoneUIButtonAccessibility"
-+ "_OBJC_CLASS_$_MobilePhoneUILabelAccessibility"
-+ "_OBJC_CLASS_$_PHAbstractDialerViewAccessibility"
-+ "_OBJC_CLASS_$_PHHandsetDialerDeleteButtonAccessibility"
-+ "_OBJC_CLASS_$_PHHandsetDialerLCDViewAccessibility"
-+ "_OBJC_CLASS_$_PHHandsetDialerViewAccessibility"
-+ "_OBJC_CLASS_$_PHLCDViewTextFieldAccessibility"
-+ "_OBJC_CLASS_$_PHRecentCallDetailsItemViewAccessibility"
-+ "_OBJC_CLASS_$_PHTextCycleLabelAccessibility"
-+ "_OBJC_CLASS_$_PHVoicemailGreetingViewControllerAccessibility"
-+ "_OBJC_CLASS_$_PHVoicemailInboxListViewControllerAccessibility"
-+ "_OBJC_CLASS_$_PHVoicemailMessageTableViewCellAccessibility"
-+ "_OBJC_CLASS_$_PHVoicemailMessageTableViewCellScrollViewAccessibility"
-+ "_OBJC_CLASS_$_PHVoicemailPlayerControllerAccessibility"
-+ "_OBJC_CLASS_$_PhoneApplicationAccesssibility"
-+ "_OBJC_CLASS_$_PhoneRootViewAccessibility"
-+ "_OBJC_CLASS_$_SFScreenTimeOverlayViewControllerAccessibility"
-+ "_OBJC_CLASS_$_SFSectionDisclosureButtonAccessibility"
-+ "_OBJC_CLASS_$_SFSiteCardCellAccessibility"
-+ "_OBJC_CLASS_$_SFSiteIconCellAccessibility"
-+ "_OBJC_CLASS_$_SFSiteRowCellAccessibility"
-+ "_OBJC_CLASS_$_SFStartPageBackgroundImageCellAccessibility"
-+ "_OBJC_CLASS_$_SFStartPageBackgroundImageModelAccessibility"
-+ "_OBJC_CLASS_$_SFStartPageCustomizationCellAccessibility"
-+ "_OBJC_CLASS_$_SFStartPageSectionHeaderTitleViewAccessibility"
-+ "_OBJC_CLASS_$_SFStepperAccessibility"
-+ "_OBJC_CLASS_$_SFUnifiedBarAccessibility"
-+ "_OBJC_CLASS_$_SFUnifiedBarButtonAccessibility"
-+ "_OBJC_CLASS_$_SFUnifiedBarItemAccessibility"
-+ "_OBJC_CLASS_$_SFUnifiedBarItemViewAccessibility"
-+ "_OBJC_CLASS_$_SFUnifiedTabBarItemTitleContainerViewAccessibility"
-+ "_OBJC_CLASS_$_TabOverviewNavigationBarTitleViewAccessibility"
-+ "_OBJC_CLASS_$_VMMessageMetadataViewAccessibility"
-+ "_OBJC_CLASS_$_VMPlayerControlButtonAccessibility"
-+ "_OBJC_CLASS_$_VMPlayerTimelineSliderAccessibility"
-+ "_OBJC_CLASS_$_VMRoundButtonAccessibility"
-+ "_OBJC_CLASS_$___CapsuleTabGroupViewAccessibility_super"
-+ "_OBJC_CLASS_$___MPLegacyRecentsTableViewCellAccessibility_super"
-+ "_OBJC_CLASS_$___MPRecentsTableViewControllerAccessibility_super"
-+ "_OBJC_CLASS_$___MPVoicemailMessageViewModelAccessibility_super"
-+ "_OBJC_CLASS_$___MPVoicemailTableViewControllerAccessibility_super"
-+ "_OBJC_CLASS_$___MainButtonAccessibility_super"
-+ "_OBJC_CLASS_$___MobilePhoneUIButtonAccessibility_super"
-+ "_OBJC_CLASS_$___MobilePhoneUILabelAccessibility_super"
-+ "_OBJC_CLASS_$___PHAbstractDialerViewAccessibility_super"
-+ "_OBJC_CLASS_$___PHHandsetDialerDeleteButtonAccessibility_super"
-+ "_OBJC_CLASS_$___PHHandsetDialerLCDViewAccessibility_super"
-+ "_OBJC_CLASS_$___PHHandsetDialerViewAccessibility_super"
-+ "_OBJC_CLASS_$___PHLCDViewTextFieldAccessibility_super"
-+ "_OBJC_CLASS_$___PHRecentCallDetailsItemViewAccessibility_super"
-+ "_OBJC_CLASS_$___PHTextCycleLabelAccessibility_super"
-+ "_OBJC_CLASS_$___PHVoicemailGreetingViewControllerAccessibility_super"
-+ "_OBJC_CLASS_$___SFStepperAccessibility_super"
-+ "_OBJC_CLASS_$___TabOverviewNavigationBarTitleViewAccessibility_super"
-+ "_OBJC_METACLASS_$_CapsuleTabGroupViewAccessibility"
-+ "_OBJC_METACLASS_$_MainButtonAccessibility"
-+ "_OBJC_METACLASS_$_SFStepperAccessibility"
-+ "_OBJC_METACLASS_$_TabOverviewNavigationBarTitleViewAccessibility"
-+ "_OBJC_METACLASS_$___CapsuleTabGroupViewAccessibility_super"
-+ "_OBJC_METACLASS_$___MainButtonAccessibility_super"
-+ "_OBJC_METACLASS_$___TabOverviewNavigationBarTitleViewAccessibility_super"
-+ "ialerControllerAccessibility_super"
-+ "ility"
++ "Legacy task count decremented, now %!l(MISSING)d."
++ "Legacy task count incremented, now %!l(MISSING)d."
++ "Over legacy task count limit."
++ "Report, failed with error: %!s(MISSING)"
++ "unable to register: %!s(MISSING), nil bundleIdentifier"
+- "sendOneMessageCountLock"
+- "xpcServiceXpcActivityStartupLock"
 
 ```

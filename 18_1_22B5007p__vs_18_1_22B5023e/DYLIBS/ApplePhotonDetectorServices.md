@@ -28,20 +28,10 @@
    - /usr/lib/libc++.1.dylib
    Functions: 28
 -  Symbols:   80
--  CStrings:  0
 +  Symbols:   81
-+  CStrings:  8
+   CStrings:  69
  
 Symbols:
 + _dispatch_async
-CStrings:
-+ "\x01@"
-+ "\x01@"
-+ "8&\xe4\xdc"
-+ "8&\xe4\xdc"
-+ "`\xf8\xc4\xe9"
-+ "`\xf8\xc4\xe9"
-+ "\xa81\xed`"
-+ "\xb8[Ro"
 
 ```

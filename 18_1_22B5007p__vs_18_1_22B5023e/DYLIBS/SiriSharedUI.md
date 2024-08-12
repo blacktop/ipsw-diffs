@@ -118,11 +118,12 @@
    - /usr/lib/swift/libswiftsimd.dylib
 -  Functions: 3106
 -  Symbols:   1993
+-  CStrings:  2844
 +  - /usr/lib/swift/libswiftsys_time.dylib
 +  - /usr/lib/swift/libswiftunistd.dylib
 +  Functions: 3189
 +  Symbols:   2028
-   CStrings:  0
++  CStrings:  2898
  
 Symbols:
 + _OBJC_CLASS_$_AFSystemAssistantExperienceStatusManager
@@ -148,5 +149,86 @@ Symbols:
 - _OBJC_CLASS_$_CABackdropLayer
 - _kCAFilterInputNormalizeEdges
 - _kCAFilterPlusL
+CStrings:
++ "\x024"
++ "Copy"
++ "SuggestionEmptyIcon"
++ "T@\"<SiriSharedUISystemAssistantExperienceContainerViewDelegate>\",N,W,Vdelegate"
++ "Td,N,V_maxWidth"
++ "_TtC12SiriSharedUI46SiriSharedUIResultViewPanFluidDismissalManager"
++ "_UIHyperGestureDelegate"
++ "_UIHyperInteractorDelegate"
++ "_copyUnconstrainedPoint:"
++ "_hyperGestureInteractionDidBegin:"
++ "_hyperGestureInteractionDidEnd:"
++ "_hyperGestureUpdateStateForInteractionChanged:"
++ "_hyperGestureUpdateStateForInteractionEnded:"
++ "_hyperInteractorApplyPresentationPoint:"
++ "_interactor"
++ "_isInteractive"
++ "_maxSnippetWidth"
++ "_maxWidth"
++ "_mutateExtentBeyondMaximum:"
++ "_mutateExtentBeyondMinimum:"
++ "_mutateMaximumPoint:"
++ "_mutateMinimumPoint:"
++ "_mutateValue:"
++ "_panGestureRecognizer"
++ "_presentationPoint"
++ "_setAnimator:"
++ "_setDelegate:"
++ "_setExtender:"
++ "_setNonTrackingSpringParameters:"
++ "_setRegion:"
++ "_setTrackingSpringParameters:"
++ "_value"
++ "cleanupResponseElementsByIds:"
++ "com.apple.siri.internal"
++ "containerView:requestsDismissalWithReason:"
++ "dismissedAnimationSuggestionsViews"
++ "firstSnippetMaterialAnimation"
++ "fluidDismissalGesture"
++ "fluidDismissalManager"
++ "id"
++ "init(effect:)"
++ "initWithAxes:"
++ "initWithDimensions:"
++ "initWithPerceptualDuration:bounce:"
++ "interactiveRegion"
++ "isDismissing"
++ "isPresented"
++ "isSAEEnabled"
++ "makeDropletContainerShadowView"
++ "maxWidth"
++ "parametersWithDampingRatio:response:"
++ "performAnimatedBlur:usingSpringWithMass:stiffness:damping:"
++ "performAnimatedBlur:withDuration:"
++ "presentedResponseElements"
++ "removeLightEffectsView"
++ "reportConcernButtonEnabled"
++ "reportConcernButtonEnabled"
++ "restoreSubviewsFromDrillIn"
++ "resultViewStablePoint"
++ "setMaxWidth:"
++ "v16@?0^d8"
++ "v24@0:8@\"_UIHyperGesture\"16"
++ "v24@0:8@\"_UIHyperInteractor\"16"
++ "v32@0:8q16d24"
++ "v48@0:8q16d24d32d40"
++ "willDismissSheetView"
++ "willPresentSheetView"
+- "\x02$"
+- "SiriSharedUISystemAssistantExperienceContainerView"
+- "backdropBlurFilter"
+- "cleanupResponseElements:"
+- "darkModeColorMatrix"
+- "darkModeColorMatrixFilter"
+- "isSuggestionEqualToSuggestion::"
+- "kDropletMaterialGroupName"
+- "lightModeColorMatrix"
+- "lightModeColorMatrixFilter"
+- "setGroupName:"
+- "setScale:"
+- "shadowOpacity"
 
 ```

@@ -40,9 +40,8 @@
 +  - /usr/lib/swift/libswiftunistd.dylib
    Functions: 647
 -  Symbols:   143
--  CStrings:  16
 +  Symbols:   151
-+  CStrings:  0
+   CStrings:  26
  
 Symbols:
 + __swift_FORCE_LOAD_$_swift_Builtin_float
@@ -53,22 +52,5 @@ Symbols:
 + __swift_FORCE_LOAD_$_swift_time
 + __swift_FORCE_LOAD_$_swiftsys_time
 + __swift_FORCE_LOAD_$_swiftunistd
-CStrings:
-- "Oy0abC9DataModel8RRResultOs5Error_pGAH12ResolveQueryC_tFTj"
-- "_$s23SiriReferenceResolution27RRReferenceResolverProtocolP03hasB09usoEntitySb0A8Ontology03UsoI0C_tFTj"
-- "_OBJC_CLASS_$_COMAPPLEFELDSPARPROTOCOLScoredTagID"
-- "_OBJC_CLASS_$_NTPBForYouTodaySectionSpecificConfig"
-- "_OBJC_METACLASS_$_COMAPPLEFELDSPARPROTOCOLLIVERPOOLTopicCohortScore"
-- "_OBJC_METACLASS_$_COMAPPLEFELDSPARPROTOCOLScoredTagID"
-- "_OBJC_METACLASS_$_NTPBTodayConfig"
-- "_OBJC_METACLASS_$_NTPBTodayModuleContentDescriptor"
-- "_OBJC_METACLASS_$_NTPBTodayModuleDescriptor"
-- "_OBJC_METACLASS_$_NTPBTodayQueueConfig"
-- "_OBJC_METACLASS_$_NTPBTodaySectionConfig"
-- "_OBJC_METACLASS_$_NTPBTodaySectionConfigArticle"
-- "_OBJC_METACLASS_$_NTPBTodaySectionConfigItem"
-- "_OBJC_METACLASS_$_NTPBTodayWidgetConfig"
-- "_OBJC_METACLASS_$_NTPBWidgetEngagement"
-- "daySectionSpecificConfig"
 
 ```

@@ -61,12 +61,71 @@
    - /usr/lib/libobjc.A.dylib
 -  Functions: 3187
 -  Symbols:   3692
+-  CStrings:  5952
 +  Functions: 3192
 +  Symbols:   3699
-   CStrings:  0
++  CStrings:  5969
  
 Symbols:
 + _OBJC_CLASS_$_NSMutableString
 + _os_variant_has_internal_content
+CStrings:
++ "%!s(MISSING)ID "
++ "%!s(MISSING)IDS "
++ "%!s(MISSING)PI "
++ "'%!@(MISSING)'"
++ "'%!~(MISSING)@'"
++ ", ADSID "
++ ", AID "
++ ", ATag <%!(BADPREC)%!@(MISSING)>"
++ ", AccountAltDSID "
++ ", AltDSID "
++ ", CID "
++ ", CNID "
++ ", Cl "
++ ", HKI "
++ ", HKUID "
++ ", ID "
++ ", IDP "
++ ", IDS "
++ ", MRI "
++ ", MRtI "
++ ", Md "
++ ", Nm "
++ ", OSV "
++ ", PI "
++ ", Rm "
++ ", SKA "
++ ", SV "
++ ", UDID "
++ ", Used SKAs "
++ "-[RPConnection _identityProofsAddWithHomeKitUUID:]_block_invoke_3"
++ "602.1"
++ "appendString:"
++ "degradeOnAnyTrafficUnavailable"
++ "degradeOnAnyTrafficUnavailable"
++ "missingFlag.RPStatusFlagsAWDLPairingMode"
++ "privateLoggingEnabled"
++ "updateTrustStatusFlagsWithIdentity:"
+- "%!s(MISSING)ID %!@(MISSING)"
+- "%!s(MISSING)IDS %!(BADPREC)%!@(MISSING)"
+- "%!s(MISSING)PI %!@(MISSING)"
+- ", AID '%!{(MISSING)mask}'"
+- ", ATag <%!@(MISSING)>"
+- ", AccountAltDSID '%!@(MISSING)'"
+- ", AccountAltDSID '%!{(MISSING)mask}'"
+- ", AltDSID %!(BADPREC)%!@(MISSING)'"
+- ", CID '%!@(MISSING)`"
+- ", HKI '%!(BADPREC)%!@(MISSING)'"
+- ", ID '%!@(MISSING)'"
+- ", ID '%!{(MISSING)mask}'"
+- ", IDP '%!(BADPREC)%!@(MISSING)'"
+- ", IDS '%!{(MISSING)mask}'"
+- ", Nm '%!{(MISSING)mask}'"
+- ", PI '%!@(MISSING)'"
+- ", SKA '%!(BADPREC)%!@(MISSING)'"
+- ", UDID '%!@(MISSING)'"
+- ", Used SKAs %!@(MISSING)"
+- "600.51.2"
 
 ```

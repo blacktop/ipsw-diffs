@@ -61,12 +61,11 @@
    - /usr/lib/swift/libswiftsimd.dylib
 -  Functions: 557
 -  Symbols:   188
--  CStrings:  19
 +  - /usr/lib/swift/libswiftsys_time.dylib
 +  - /usr/lib/swift/libswiftunistd.dylib
 +  Functions: 546
 +  Symbols:   195
-+  CStrings:  2
+   CStrings:  40
  
 Symbols:
 + __swift_FORCE_LOAD_$_swift_Builtin_float
@@ -77,27 +76,5 @@ Symbols:
 + __swift_FORCE_LOAD_$_swift_time
 + __swift_FORCE_LOAD_$_swiftsys_time
 + __swift_FORCE_LOAD_$_swiftunistd
-CStrings:
-+ "v=D\x01\xc0\xe1j v=D\x01\xc0\xe1j@v=D\x01\xc0\xe1j`v=D\x01\xc0\xe1j\x80v=D\x01\xc0\xe1j\xa0v=D\x01\xc0\xe1j\xc0v=D\x01\xc0\xe1j\xe0v=D\x01\xc0\xe1j"
-+ "w=D\x01\xc0\xe1j w=D\x01\xc0\xe1j@w=D\x01\xc0\xe1j`w=D\x01\xc0\xe1j\x80w=D\x01\xc0\xe1j\xa0w=D\x01\xc0\xe1j\xc0w=D\x01\xc0\xe1j\xe0w=D\x01\xc0\xe1j"
-- "_$s10PegasusAPI43Apple_Parsec_Siri_V2alpha_ProfileSliceLabelOMa"
-- "_$s10PegasusAPI48Apple_Parsec_Visualsearch_V2_VisualSearchRequestV11debugTweaksSDyS2SGvM"
-- "_$s10PegasusAPI48Apple_Parsec_Visualsearch_V2_VisualSearchRequestV12queryContextAA0c1_d1_h1_a5QueryK0VvM"
-- "_$s10PegasusAPI48Apple_Parsec_Visualsearch_V2_VisualSearchRequestV12queryContextAA0c1_d1_h1_a5QueryK0Vvg"
-- "_$s10PegasusAPI48Apple_Parsec_Visualsearch_V2_VisualSearchRequestV12queryContextAA0c1_d1_h1_a5QueryK0Vvs"
-- "_$s10PegasusAPI48Apple_Parsec_Visualsearch_V2_VisualSearchRequestV15visualQueryLiteAA0c1_d1_e1_f1_gkL0VvM"
-- "_$s10PegasusAPI48Apple_Parsec_Visualsearch_V2_VisualSearchRequestV15visualQueryLiteAA0c1_d1_e1_f1_gkL0Vvs"
-- "_$s10PegasusAPI48Apple_Parsec_Visualsearch_V2_VisualSearchRequestV16thirdPartyTeamIDSSvs"
-- "_$s10PegasusAPI48Apple_Parsec_Visualsearch_V2_VisualSearchRequestV20thirdPartyCatalogIdsSaySSGvs"
-- "_$s10PegasusAPI48Apple_Parsec_Visualsearch_V2_VisualSearchRequestV7queryIDs6UInt64Vvg"
-- "_$s10PegasusAPI48Apple_Parsec_Visualsearch_V2_VisualSearchRequestV7queryIDs6UInt64Vvs"
-- "_$s10PegasusAPI48Apple_Parsec_Visualsearch_V2_VisualSearchRequestVACycfC"
-- "_$s10PegasusAPI48Apple_Parsec_Visualsearch_V2_VisualSearchRequestVMa"
-- "_$s10PegasusAPI49Apple_Parsec_Visualsearch_V2_VisualSearchResponseV25regionOfInterestResponsesSayAA0c1_d1_e1_f7_RegionklI0VGvg"
-- "_$s10PegasusAPI51Apple_Parsec_Siri_V2alpha_AppIntentProtocolMetadataV09PlayVideohJ0VMa"
-- "_$s10PegasusAPI53Apple_Parsec_Visualsearch_V2_RegionOfInterestResponseV11boundingBoxAA0c1_d1_e1_f9_BoundingL0Vvg"
-- "_$s10PegasusAPI53Apple_Parsec_Visualsearch_V2_RegionOfInterestResponseV17sectionRenderingsSayAA0c1_d1_e1_F17_SectionRenderingVGvg"
-- "deohJ0VAEycfC"
-- "sec_Visualsearch_V2_VisualSearchRequestV15visualQueryLiteAA0c1_d1_e1_f1_gkL0Vvg"
 
 ```

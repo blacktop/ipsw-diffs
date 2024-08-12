@@ -36,9 +36,8 @@
 +  - /usr/lib/swift/libswiftunistd.dylib
    Functions: 106
 -  Symbols:   60
--  CStrings:  0
 +  Symbols:   68
-+  CStrings:  4
+   CStrings:  19
  
 Symbols:
 + __swift_FORCE_LOAD_$_swift_Builtin_float
@@ -49,10 +48,5 @@ Symbols:
 + __swift_FORCE_LOAD_$_swift_time
 + __swift_FORCE_LOAD_$_swiftsys_time
 + __swift_FORCE_LOAD_$_swiftunistd
-CStrings:
-+ "Queryflow_ParseFlowIntermediateResultsV12OntologyNodeV21InternalSwiftProtobuf7MessageAAMc"
-+ "_$s10PegasusAPI51Argos_Protos_Queryflow_ParseFlowIntermediateResultsV25DomainPredictionNetResultV0jM0V21InternalSwiftProtobuf7MessageAAMc"
-+ "_$s10PegasusAPI51Argos_Protos_Queryflow_ParseFlowIntermediateResultsV25ObjectDetectorImageRegionV14DetectedResultV21InternalSwiftProtobuf7MessageAAMc"
-+ "mFWC"
 
 ```

@@ -37,9 +37,8 @@
 +  - /usr/lib/swift/libswiftunistd.dylib
    Functions: 549
 -  Symbols:   74
--  CStrings:  0
 +  Symbols:   82
-+  CStrings:  5
+   CStrings:  16
  
 Symbols:
 + __swift_FORCE_LOAD_$_swift_Builtin_float
@@ -50,11 +49,5 @@ Symbols:
 + __swift_FORCE_LOAD_$_swift_time
 + __swift_FORCE_LOAD_$_swiftsys_time
 + __swift_FORCE_LOAD_$_swiftunistd
-CStrings:
-+ "__ZN4llvm30AbstractDependenceGraphBuilderINS_19DataDependenceGraphEE14createPiBlocksEv"
-+ "__ZN4llvm30AbstractDependenceGraphBuilderINS_19DataDependenceGraphEE22sortNodesTopologicallyEv"
-+ "__ZN4llvm30AbstractDependenceGraphBuilderINS_19DataDependenceGraphEE24createAndConnectRootNodeEv"
-+ "__ZN4llvm30AbstractDependenceGraphBuilderINS_19DataDependenceGraphEE8simplifyEv"
-+ "ncyEdgesEv"
 
 ```

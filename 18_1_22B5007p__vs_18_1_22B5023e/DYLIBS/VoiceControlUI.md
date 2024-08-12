@@ -34,9 +34,8 @@
 +  - /usr/lib/swift/libswiftunistd.dylib
    Functions: 423
 -  Symbols:   163
--  CStrings:  0
 +  Symbols:   171
-+  CStrings:  37
+   CStrings:  141
  
 Symbols:
 + __swift_FORCE_LOAD_$_swift_Builtin_float
@@ -47,43 +46,5 @@ Symbols:
 + __swift_FORCE_LOAD_$_swift_time
 + __swift_FORCE_LOAD_$_swiftsys_time
 + __swift_FORCE_LOAD_$_swiftunistd
-CStrings:
-+ "I18WindowParamsConfigV16windowPeriodMinsSdvg"
-+ "_$s18SiriSuggestionsAPI09AssistantB12PolicyConfigVMa"
-+ "_$s18SiriSuggestionsAPI0A15RemembersLoggerC29EntityTypeForSuggestionActionSSvgZ"
-+ "_$s18SiriSuggestionsAPI0A17HintsPolicyConfigVMa"
-+ "_$s18SiriSuggestionsAPI0aB13RuntimeConfigV012IntelligenceE0VMa"
-+ "_$s18SiriSuggestionsAPI0aB13RuntimeConfigV013BeforeTheFoldE0V03maxB0Sivg"
-+ "_$s18SiriSuggestionsAPI0aB13RuntimeConfigV013BeforeTheFoldE0V12addFallbacksSbvg"
-+ "_$s18SiriSuggestionsAPI0aB13RuntimeConfigV013BeforeTheFoldE0V26distinctSuggestionIdOwnersSaySSGvg"
-+ "_$s18SiriSuggestionsAPI0aB13RuntimeConfigV017FeatureExtractionE0VMa"
-+ "_$s18SiriSuggestionsAPI0aB13RuntimeConfigV0a13HelpSelectionE0V03maxB0Sivg"
-+ "_$s18SiriSuggestionsAPI0aB13RuntimeConfigV0a13HelpSelectionE0V13beforeTheFoldAC06BeforeijE0Vvg"
-+ "_$s18SiriSuggestionsAPI0aB13RuntimeConfigV0a13HelpSelectionE0V13sessionLengthSdvg"
-+ "_$s18SiriSuggestionsAPI0aB13RuntimeConfigV0a13HelpSelectionE0V17appLastSeenPeriodSdvg"
-+ "_$s18SiriSuggestionsAPI0aB13RuntimeConfigV0a13HelpSelectionE0V21maxGroupPriorToFilterSivg"
-+ "_$s18SiriSuggestionsAPI0aB13RuntimeConfigV0ab10EngagementE0V07minimumF14EstimatorScoreSdvg"
-+ "_$s18SiriSuggestionsAPI0aB13RuntimeConfigV0ab10EngagementE0V20relevanceScoreWeightSdvg"
-+ "_$s18SiriSuggestionsAPI0aB13RuntimeConfigV0ab10EngagementE0V24smartSupressionModelNameSSvg"
-+ "_$s18SiriSuggestionsAPI0aB13RuntimeConfigV0ab10EngagementE0V25engagementScorerModelNameSSvg"
-+ "_$s18SiriSuggestionsAPI0aB13RuntimeConfigV0ab10EngagementE0V29interactionHistoryScoreWeightSdvg"
-+ "_$s18SiriSuggestionsAPI0aB13RuntimeConfigV0ab15DiscoverabilityE0V15amountOfShuffleSdvg"
-+ "_$s18SiriSuggestionsAPI0aB13RuntimeConfigV0ab6WindowE0VMa"
-+ "_$s18SiriSuggestionsAPI10SELFLoggerP10instrument9perfBlock12generationId5blockqd__AA08SELFPerfG0O_10Foundation4UUIDVqd__yYaKXEtYaKlFTj"
-+ "_$s18SiriSuggestionsAPI12PolicyResultV05childD7ResultsSayACGvg"
-+ "_$s18SiriSuggestionsAPI12PolicyResultV07getLeafD7ResultsSayACGvg"
-+ "_$s18SiriSuggestionsAPI12PolicyResultV6result8policyId05childD7Results5scoreACSb_SSSayACGSdSgtcfC"
-+ "_$s18SiriSuggestionsAPI12PolicyResultV6resultSbvg"
-+ "_$s18SiriSuggestionsAPI12PolicyResultV8policyIdSSvg"
-+ "_$s18SiriSuggestionsAPI12PolicyResultVMa"
-+ "_$s18SiriSuggestionsAPI13SELFPerfBlockOMa"
-+ "_$s18SiriSuggestionsAPI17DefaultSELFLoggerCACycfC"
-+ "_$s18SiriSuggestionsAPI17DefaultSELFLoggerCMa"
-+ "_$s18SiriSuggestionsAPI18WindowParamsConfigV11maxRequestsSivg"
-+ "_$s18SiriSuggestionsAPI18WindowParamsConfigVMa"
-+ "_$s18SiriSuggestionsAPI40AssistantInitiatedSuggestionPolicyConfigVMa"
-+ "electionE0VMa"
-+ "figV013BeforeTheFoldE0VMa"
-+ "igV0ab10EngagementE0V30engagementEstimatorScoreWeightSdvg"
 
 ```

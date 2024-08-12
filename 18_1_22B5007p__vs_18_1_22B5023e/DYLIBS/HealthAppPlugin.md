@@ -18,13 +18,4 @@
    - /System/Library/PrivateFrameworks/HealthDaemon.framework/HealthDaemon
    - /System/Library/PrivateFrameworks/MobileInstallation.framework/MobileInstallation
 
-   - /usr/lib/libobjc.A.dylib
-   Functions: 0
-   Symbols:   6
--  CStrings:  0
-+  CStrings:  1
- 
-CStrings:
-+ "\x18\x89\xdd\xdc"
-
 ```

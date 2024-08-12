@@ -57,9 +57,8 @@
 +  - /usr/lib/swift/libswiftunistd.dylib
    Functions: 314
 -  Symbols:   536
--  CStrings:  0
 +  Symbols:   545
-+  CStrings:  3
+   CStrings:  7
  
 Symbols:
 + __swift_FORCE_LOAD_$_swiftCompression
@@ -77,9 +76,5 @@ Symbols:
 - _objc_retain_x20
 - _objc_retain_x24
 - _objc_retain_x25
-CStrings:
-+ "`\xad\xb5Mʉ2"
-+ "h\xad\xb5M\xfd\x892"
-+ "\xc8ZVT!,2\x80H]VT>,2\x80"
 
 ```

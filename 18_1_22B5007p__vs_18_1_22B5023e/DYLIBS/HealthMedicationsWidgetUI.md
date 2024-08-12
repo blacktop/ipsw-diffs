@@ -58,12 +58,11 @@
    - /usr/lib/swift/libswiftsimd.dylib
 -  Functions: 481
 -  Symbols:   123
--  CStrings:  0
 +  - /usr/lib/swift/libswiftsys_time.dylib
 +  - /usr/lib/swift/libswiftunistd.dylib
 +  Functions: 483
 +  Symbols:   131
-+  CStrings:  32
+   CStrings:  63
  
 Symbols:
 + __swift_FORCE_LOAD_$_swift_Builtin_float
@@ -74,38 +73,5 @@ Symbols:
 + __swift_FORCE_LOAD_$_swift_time
 + __swift_FORCE_LOAD_$_swiftsys_time
 + __swift_FORCE_LOAD_$_swiftunistd
-CStrings:
-+ "_$s11SiriKitFlow011YesNoPromptC8StrategyPAAE04makeF15ForConfirmation13itemToConfirmAA6Output_pyt_tYaKF"
-+ "_$s11SiriKitFlow011YesNoPromptC8StrategyPAAE24makeRepromptOnEmptyParse13itemToConfirmAA6Output_pyt_tYaKF"
-+ "_$s11SiriKitFlow011YesNoPromptC8StrategyPAAE27makeRepromptOnLowConfidence13itemToConfirmAA6Output_pyt_tYaKF"
-+ "_$s11SiriKitFlow029MultipleChoicePromptWindowingC8ProviderPAAE014makeConclusionC020paginationParametersAA03AnyC0CSgAA018WindowedPaginationL0V_tYaKF"
-+ "_$s11SiriKitFlow0C10TraceEventO11encoreFoundyAcA06ActingC0_p_tcACmFWC"
-+ "_$s11SiriKitFlow0C10TraceEventO9completedyAcA03AnyC0C_yptcACmFWC"
-+ "_$s11SiriKitFlow15WindowingActionV12repeatWindowACyxGyFZ"
-+ "_$s11SiriKitFlow15WindowingActionV21proceedWithNextWindowACyxGyFZ"
-+ "_$s11SiriKitFlow15WindowingActionV5error_7handledACyxGs5Error_p_SbtFZ"
-+ "_$s11SiriKitFlow15WindowingActionV8completeyACyxGxSgFZ"
-+ "_$s11SiriKitFlow15WindowingActionV9cancelledACyxGyFZ"
-+ "_$s11SiriKitFlow15WindowingActionVMa"
-+ "_$s11SiriKitFlow18InterruptionPolicyO4stayyA2CmFWC"
-+ "_$s11SiriKitFlow18InterruptionPolicyO5clearyA2CmFWC"
-+ "_$s11SiriKitFlow18InterruptionPolicyO6notifyyA2CmFWC"
-+ "_$s11SiriKitFlow18SubmitCommandErrorOs0F0AAMc"
-+ "_$s11SiriKitFlow18SubmitCommandErrorOs23CustomStringConvertibleAAMc"
-+ "_$s11SiriKitFlow20DisambiguationPromptC8ResponseO19chosenItemWithIndexyAEyxq_q0__Gx_SitcAGm0A8Ontology14USODynamicTaskR_r1_lFWC"
-+ "_$s11SiriKitFlow20DisambiguationPromptC8ResponseO9cancelledyAEyxq_q0__GAGm0A8Ontology14USODynamicTaskR_r1_lFWC"
-+ "_$s11SiriKitFlow20DisambiguationPromptC8ResponseO9rawEntityyAEyxq_q0__Gq0_cAGm0A8Ontology14USODynamicTaskR_r1_lFWC"
-+ "_$s11SiriKitFlow20DisambiguationPromptCyxq_q0_GAA06ActingC0AAMc"
-+ "_$s11SiriKitFlow22WindowingConfigurationV06promptC12ProviderType7padding18windowSizeOverrideACyxq_GAA06PromptcgH0Vyxq_G_S2iSgtcfC"
-+ "_$s11SiriKitFlow25AceServiceContextProviderC0A9Utilities0a11EnvironmentG0AAMc"
-+ "_$s11SiriKitFlow28WindowedPaginationParametersV016isNextWindowLastI0Sbvg"
-+ "_$s11SiriKitFlow28WindowedPaginationParametersV12isConclusionSbvg"
-+ "_$s11SiriKitFlow28WindowedPaginationParametersV14makeLastWindow10windowSize07isFirstI0ACSi_SbtFZ"
-+ "_$s11SiriKitFlow28WindowedPaginationParametersV15asCATParametersSDySSypGyF"
-+ "_$s11SiriKitFlow28WindowedPaginationParametersV19nextWindowItemCountSiSgvg"
-+ "_$s11SiriKitFlow28WindowedPaginationParametersVMa"
-+ "cA03AnyC0C_AA15PrepareResponseVtcACmFWC"
-+ "rCyxGAA0eF10ContainingAAMc"
-+ "stWindowSbvg"
 
 ```

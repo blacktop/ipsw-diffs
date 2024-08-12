@@ -60,9 +60,18 @@
    - /usr/lib/libz.1.dylib
 -  Functions: 3012
 -  Symbols:   4228
+-  CStrings:  5553
 +  Functions: 3014
 +  Symbols:   4230
-   CStrings:  0
++  CStrings:  5556
  
+CStrings:
++ "+[BRAccountDescriptor refreshCache:]_block_invoke"
++ "+[BRAccountDescriptor refreshCache:]_block_invoke_2"
++ "3097.0.245"
++ "account-refresh-queue"
++ "refreshCache:"
+- "+[BRAccountDescriptor allEligibleAccountDescriptors]"
+- "3097.0.216.0.1"
 
 ```

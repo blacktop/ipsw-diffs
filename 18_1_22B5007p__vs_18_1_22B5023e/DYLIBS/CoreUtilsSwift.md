@@ -81,12 +81,11 @@
    - /usr/lib/swift/libswiftos.dylib
 -  Functions: 957
 -  Symbols:   212
--  CStrings:  0
 +  - /usr/lib/swift/libswiftsys_time.dylib
 +  - /usr/lib/swift/libswiftunistd.dylib
 +  Functions: 1069
 +  Symbols:   223
-+  CStrings:  73
+   CStrings:  136
  
 Symbols:
 + _CUIsGreenTeaDevice
@@ -102,79 +101,5 @@ Symbols:
 + _objc_retain
 - _swift_continuation_await
 - _swift_continuation_init
-CStrings:
-+ "KContactChange"
-+ "_OBJC_CLASS_$_EKCredentials"
-+ "_OBJC_CLASS_$_EKDefaultSerializerFactory"
-+ "_OBJC_CLASS_$_EKDiagnosticsCollector"
-+ "_OBJC_CLASS_$_EKDirectoryGroup"
-+ "_OBJC_CLASS_$_EKDirectoryLocation"
-+ "_OBJC_CLASS_$_EKDirectoryPerson"
-+ "_OBJC_CLASS_$_EKDirectoryRecord"
-+ "_OBJC_CLASS_$_EKDirectoryResource"
-+ "_OBJC_CLASS_$_EKDirectorySearchQuery"
-+ "_OBJC_CLASS_$_EKDirectorySearchResultSet"
-+ "_OBJC_CLASS_$_EKEventAction"
-+ "_OBJC_CLASS_$_EKEventActionChange"
-+ "_OBJC_CLASS_$_EKEventOccurrenceInfo"
-+ "_OBJC_CLASS_$_EKFamilyCircleManager"
-+ "_OBJC_CLASS_$_EKICSImporter"
-+ "_OBJC_CLASS_$_EKImage"
-+ "_OBJC_CLASS_$_EKInviteReplyNotification"
-+ "_OBJC_CLASS_$_EKInviteReplyNotificationChange"
-+ "_OBJC_CLASS_$_EKInviteeAlternativeTime"
-+ "_OBJC_CLASS_$_EKInviteeAlternativeTimeSearcher"
-+ "_OBJC_CLASS_$_EKMutableTravelEngineHypothesis"
-+ "_OBJC_CLASS_$_EKNotification"
-+ "_OBJC_CLASS_$_EKNotificationChange"
-+ "_OBJC_CLASS_$_EKNotificationCollection"
-+ "_OBJC_CLASS_$_EKNotificationCollectionOptions"
-+ "_OBJC_CLASS_$_EKObjectChangeSummarizer"
-+ "_OBJC_CLASS_$_EKOccurrenceCacheLocationSearch"
-+ "_OBJC_CLASS_$_EKOccurrenceCacheSearch"
-+ "_OBJC_CLASS_$_EKOfficeHour"
-+ "_OBJC_CLASS_$_EKPredictedLocationOfInterest"
-+ "_OBJC_CLASS_$_EKRecents"
-+ "_OBJC_CLASS_$_EKRecurrenceDayOfWeek"
-+ "_OBJC_CLASS_$_EKRequestAvailabilityOperation"
-+ "_OBJC_CLASS_$_EKResourceChange"
-+ "_OBJC_CLASS_$_EKResourceChangeNotification"
-+ "_OBJC_CLASS_$_EKResourceChangeNotificationChange"
-+ "_OBJC_CLASS_$_EKSecureKeyedArchiverSerializer"
-+ "_OBJC_CLASS_$_EKSerializableEvent"
-+ "_OBJC_CLASS_$_EKSerializableObject"
-+ "_OBJC_CLASS_$_EKSharedEventStoreProvider"
-+ "_OBJC_CLASS_$_EKShareeChange"
-+ "_OBJC_CLASS_$_EKSourceChange"
-+ "_OBJC_CLASS_$_EKSpotlightSearch"
-+ "_OBJC_CLASS_$_EKSuggestedEventInfo"
-+ "_OBJC_CLASS_$_EKSuggestionNotificationChange"
-+ "_OBJC_CLASS_$_EKSyncError"
-+ "_OBJC_CLASS_$_EKSyncStatusChangeListener"
-+ "_OBJC_CLASS_$_EKTravelLookupManager"
-+ "_OBJC_CLASS_$_EKVirtualConference"
-+ "_SSDownloadPropertyArtistName"
-+ "_SSDownloadPropertyArtworkIsPrerendered"
-+ "_SSDownloadPropertyBundleIdentifier"
-+ "_SSDownloadPropertyCanPrioritize"
-+ "_SSDownloadPropertyCollectionName"
-+ "_SSDownloadPropertyDocumentTargetIdentifier"
-+ "_SSDownloadPropertyEnableExtensions"
-+ "_SSDownloadPropertyIsHLS"
-+ "_SSDownloadPropertyIsRedownload"
-+ "_SSDownloadPropertyIsRental"
-+ "_SSDownloadPropertyIsSample"
-+ "_SSDownloadPropertyPodcastEpisodeGUID"
-+ "_SSDownloadPropertyReferrerAppName"
-+ "_SSDownloadPropertyReferrerURL"
-+ "_SSDownloadPropertySeasonNumber"
-+ "_SSDownloadPropertySeriesName"
-+ "_SSDownloadPropertySoftwareType"
-+ "_SSDownloadPropertyStoreAccountAppleID"
-+ "_SSDownloadPropertyStoreSoftwareVersionIdentifier"
-+ "_SSDownloadPropertyStoreXID"
-+ "n"
-+ "tus"
-+ "wnloadPropertyStoreSagaIdentifier"
 
 ```

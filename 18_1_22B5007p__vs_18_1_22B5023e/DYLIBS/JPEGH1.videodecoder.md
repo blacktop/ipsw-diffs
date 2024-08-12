@@ -33,9 +33,9 @@
    - /usr/lib/libSystem.B.dylib
    Functions: 30
 -  Symbols:   183
--  CStrings:  1
+-  CStrings:  77
 +  Symbols:   177
-+  CStrings:  0
++  CStrings:  8
  
 Symbols:
 + _FigSignalErrorAt
@@ -47,6 +47,74 @@ Symbols:
 - _fig_note_initialize_category_with_default_work_cf
 - _os_log_type_enabled
 CStrings:
-- "\x01\xc0\xe1j\xe8\x03Ne\x01\xc0\xe1j\b\x04Ne\x01\xc0\xe1j(\x04Ne\x01\xc0\xe1jH\x04Ne\x01\xc0\xe1jh\x04Ne\x01\xc0\xe1j\x88\x04Ne\x01\xc0\xe1j\xa8\x04Ne\x01\xc0\xe1j\xc8\x04Ne\x01\xc0\xe1j\xe8\x04Ne\x01\xc0\xe1j\b\x05Ne\x01\xc0\xe1j(\x05Ne\x01\xc0\xe1jH\x05Ne\x01\xc0\xe1jh\x05Ne\x01\xc0\xe1j\x88\x05Ne\x01\xc0\xe1j\xa8\x05Ne\x01\xc0\xe1j\xc8\x05Ne\x01\xc0\xe1j\xe8\x05Ne\x01\xc0\xe1j\b\x06Ne\x01\xc0\xe1j(\x06Ne\x01\xc0\xe1jH\x06Ne\x01\xc0\xe1jh\x06Ne\x01\xc0\xe1j\x88\x06Ne\x01\xc0\xe1j\xa8\x06Ne\x01\xc0\xe1j\xc8\x06Ne\x01\xc0\xe1j\xe8\x06Ne\x01\xc0\xe1j\b\aNe\x01\xc0\xe1j(\aNe\x01\xc0\xe1jH\aNe\x01\xc0\xe1jh\aNe\x01\xc0\xe1j\x88\aNe\x01\xc0\xe1j\xa8\aNe\x01\xc0\xe1j\xc8\aNe\x01\xc0\xe1j\xe8\aNe\x01\xc0\xe1j\b\bNe\x01\xc0\xe1j(\bNe\x01\xc0\xe1jH\bNe\x01\xc0\xe1jh\bNe\x01\xc0\xe1j\x88\bNe\x01\xc0\xe1j\xa8\bNe\x01\xc0\xe1j\xc8\bNe\x01\xc0\xe1j\xe8\bNe\x01\xc0\xe1j\b\tNe\x01\xc0\xe1j(\tNe\x01\xc0\xe1jH\tNe\x01\xc0\xe1jh\tNe\x01\xc0\xe1j\x88\tNe\x01\xc0\xe1j\xa8\tNe\x01\xc0\xe1j\xc8\tNe\x01\xc0\xe1j\xe8\tNe\x01\xc0\xe1j\b\nNe\x01\xc0\xe1j(\nNe\x01\xc0\xe1jH\nNe\x01\xc0\xe1jh\nNe\x01\xc0\xe1j\x88\nNe\x01\xc0\xe1j\xa8\nNe\x01\xc0\xe1j\xc8\nNe\x01\xc0\xe1j\xe8\nNe\x01\xc0\xe1j\b\vNe\x01\xc0\xe1j(\vNe\x01\xc0\xe1jH\vNe\x01\xc0\xe1jh\vNe\x01\xc0\xe1j\x88\vNe\x01\xc0\xe1j\xa8\vNe\x01\xc0\xe1j\xc8\vNe\x01\xc0\xe1j\xe8\vNe\x01\xc0\xe1j\b\fNe\x01\xc0\xe1j(\fNe\x01\xc0\xe1jH\fNe\x01\xc0\xe1jh\fNe\x01\xc0\xe1j\x88\fNe\x01\xc0\xe1j\xa8\fNe\x01\xc0\xe1j\xc8\fNe\x01\xc0\xe1j\xe8\fNe\x01\xc0\xe1j\b\rNe\x01\xc0\xe1j(\rNe\x01\xc0\xe1jH\rNe\x01\xc0\xe1jh\rNe\x01\xc0\xe1j\x88\rNe\x01\xc0\xe1j\xa8\rNe\x01\xc0\xe1j\xc8\rNe\x01\xc0\xe1j\xe8\rNe\x01\xc0\xe1j\b\x0eNe\x01\xc0\xe1j(\x0eNe\x01\xc0\xe1jH\x0eNe\x01\xc0\xe1jh\x0eNe\x01\xc0\xe1j\x88\x0eNe\x01\xc0\xe1j\xa8\x0eNe\x01\xc0\xe1j\xc8\x0eNe\x01\xc0\xe1j\xe8\x0eNe\x01\xc0\xe1j\b\x0fNe\x01\xc0\xe1j(\x0fNe\x01\xc0\xe1jH\x0fNe\x01\xc0\xe1jh\x0fNe\x01\xc0\xe1j\x88\x0fNe\x01\xc0\xe1j\xa8\x0fNe\x01\xc0\xe1j\xc8\x0fNe\x01\xc0\xe1j\xe8\x0fNe\x01\xc0\xe1j\b\x10Ne\x01\xc0\xe1j(\x10Ne\x01\xc0\xe1jH\x10Ne\x01\xc0\xe1jh\x10Ne\x01\xc0\xe1j\x88\x10Ne\x01\xc0\xe1j\xa8\x10Ne\x01\xc0\xe1j\xc8\x10Ne\x01\xc0\xe1j\xe8\x10Ne\x01\xc0\xe1j\b\x11Ne\x01\xc0\xe1j(\x11Ne\x01\xc0\xe1jH\x11Ne\x01\xc0\xe1jh\x11Ne\x01\xc0\xe1j\x88\x11Ne\x01\xc0\xe1j\xa8\x11Ne\x01\xc0\xe1j\xc8\x11Ne\x01\xc0\xe1j\xe8\x11Ne\x01\xc0\xe1j\b\x12Ne\x01\xc0\xe1j(\x12Ne\x01\xc0\xe1jH\x12Ne\x01\xc0\xe1jh\x12Ne\x01\xc0\xe1j\x88\x12Ne\x01\xc0\xe1j\xa8\x12Ne\x01\xc0\xe1j\xc8\x12Ne\x01\xc0\xe1j\xe8\x12Ne\x01\xc0\xe1j\b\x13Ne\x01\xc0\xe1j(\x13Ne\x01\xc0\xe1jH\x13Ne\x01\xc0\xe1jh\x13Ne\x01\xc0\xe1j\x88\x13Ne\x01\xc0\xe1j\xa8\x13Ne\x01\xc0\xe1j\xc8\x13Ne\x01\xc0\xe1j\xe8\x13Ne\x01\xc0\xe1j\b\x14Ne\x01\xc0\xe1j(\x14Ne\x01\xc0\xe1jH\x14Ne\x01\xc0\xe1jh\x14Ne\x01\xc0\xe1j\x88\x14Ne\x01\xc0\xe1j\xa8\x14Ne\x01\xc0\xe1j\xc8\x14Ne\x01\xc0\xe1j\xe8\x14Ne\x01\xc0\xe1j\b\x15Ne\x01\xc0\xe1j(\x15Ne\x01\xc0\xe1jH\x15Ne\x01\xc0\xe1jh\x15Ne\x01\xc0\xe1j\x88\x15Ne\x01\xc0\xe1j\xa8\x15Ne\x01\xc0\xe1j\xc8\x15Ne\x01\xc0\xe1j\xe8\x15Ne\x01\xc0\xe1j\b\x16Ne\x01\xc0\xe1j(\x16Ne\x01\xc0\xe1jH\x16Ne\x01\xc0\xe1jh\x16Ne\x01\xc0\xe1j\x88\x16Ne\x01\xc0\xe1j\xa8\x16Ne\x01\xc0\xe1j\xc8\x16Ne\x01\xc0\xe1j\xe8\x16Ne\x01\xc0\xe1j\b\x17Ne\x01\xc0\xe1j(\x17Ne\x01\xc0\xe1jH\x17Ne\x01\xc0\xe1jh\x17Ne\x01\xc0\xe1j\x88\x17Ne\x01\xc0\xe1j\xa8\x17Ne\x01\xc0\xe1j\xc8\x17Ne\x01\xc0\xe1j\xe8\x17Ne\x01\xc0\xe1j\b\x18Ne\x01\xc0\xe1j(\x18Ne\x01\xc0\xe1jH\x18Ne\x01\xc0\xe1jh\x18Ne\x01\xc0\xe1j\x88\x18Ne\x01\xc0\xe1j\xa8\x18Ne\x01\xc0\xe1j\xc8\x18Ne\x01\xc0\xe1j\xe8\x18Ne\x01\xc0\xe1j\b\x19Ne\x01\xc0\xe1j(\x19Ne\x01\xc0\xe1jH\x19Ne\x01\xc0\xe1jh\x19Ne\x01\xc0\xe1j\x88\x19Ne\x01\xc0\xe1j\xa8\x19Ne\x01\xc0\xe1j\xc8\x19Ne\x01\xc0\xe1j\xe8\x19Ne\x01\xc0\xe1j\b\x1aNe\x01\xc0\xe1j(\x1aNe\x01\xc0\xe1jH\x1aNe\x01\xc0\xe1jh\x1aNe\x01\xc0\xe1j\x88\x1aNe\x01\xc0\xe1j\xa8\x1aNe\x01\xc0\xe1j\xc8\x1aNe\x01\xc0\xe1j\xe8\x1aNe\x01\xc0\xe1j\b\x1bNe\x01\xc0\xe1j\b\x06,e\x01"
+- "%!s(MISSING)%!s(MISSING)%!s(MISSING) signalled err=%!d(MISSING) (%!s(MISSING)) (%!s(MISSING)) at %!s(MISSING):%!d(MISSING)"
+- "<-<<< JPEGVTDecoder >>>->"
+- "<-<<< JPEGVTDecoder >>>-> %!s(MISSING): Could not create H1JPEG software fallback session"
+- "<-<<< JPEGVTDecoder >>>-> %!s(MISSING): Decode complete for frame %!d(MISSING), total decode time: %!f(MISSING) ms"
+- "<-<<< JPEGVTDecoder >>>-> %!s(MISSING): Frame %!d(MISSING)"
+- "<-<<< JPEGVTDecoder >>>-> %!s(MISSING): Hardware decoder failed"
+- "<-<<< JPEGVTDecoder >>>-> %!s(MISSING): Postprocessing complete for frame %!d(MISSING) (took %!f(MISSING) ms)"
+- "<-<<< JPEGVTDecoder >>>-> %!s(MISSING): Received decoded frame from SW!"
+- "<-<<< JPEGVTDecoder >>>-> %!s(MISSING): Requested frame delivery rate of %!f(MISSING)"
+- "<-<<< JPEGVTDecoder >>>-> %!s(MISSING): Software decode looks good, giving up on hardware decode"
+- "<-<<< JPEGVTDecoder >>>-> %!s(MISSING): Software decoder failed, status = %!d(MISSING)"
+- "<-<<< JPEGVTDecoder >>>-> %!s(MISSING): VTSessionSetProperty(%!@(MISSING)) returned err = %!d(MISSING)"
+- "<-<<< JPEGVTDecoder >>>-> %!s(MISSING): Waiting on pending frames to complete"
+- "<-<<< JPEGVTDecoder >>>-> %!s(MISSING): We gave up on the hardware decoder; going straight to software"
+- "<-<<< JPEGVTDecoder >>>-> %!s(MISSING): called async for frame %!d(MISSING)"
+- "<-<<< JPEGVTDecoder >>>-> %!s(MISSING): creating cached input surface %!d(MISSING) of size %!d(MISSING) bytes"
+- "<-<<< JPEGVTDecoder >>>-> %!s(MISSING): performing hardware decode"
+- "<-<<< JPEGVTDecoder >>>-> %!s(MISSING): performing software decode"
+- "<-<<< JPEGVTDecoder >>>-> %!s(MISSING): waiting for temp422Int surface to become available"
+- "<<<< H2JPEGDeviceInterface >>>> %!s(MISSING): WARNING: Got error code %!d(MISSING) (0x%!X(MISSING)) when opening JPEG HW codec service. May fall back to using SW codec."
+- "<<<< H2JPEGDeviceInterface >>>> %!s(MISSING): WARNING: Got error code kIOReturnNotPermitted when opening JPEG HW codec service. You may need to add AppleJPEGDriverUserClient to your entitlements. See 60229261 for more information. May fall back to using SW codec."
+- "CFArrayCreate failed"
+- "CFDictionaryCreate failed"
+- "CFDictionaryCreate failed (once)"
+- "CFNumberCreate failed"
+- "CVPixelBufferPoolCreatePixelBuffer failed"
+- "Couldn't open driver connection"
+- "Failed allocating attributes dictionary"
+- "FigDerivedObjectCreate failed"
+- "H1JPEG decode failed"
+- "H1JPEGVideoDecoder_CopyProperty"
+- "H1JPEGVideoDecoder_CopySupportedPropertyDictionary"
+- "H1JPEGVideoDecoder_CreateInstance"
+- "H1JPEGVideoDecoder_DecodeFrame"
+- "H1JPEGVideoDecoder_Invalidate"
+- "H1JPEGVideoDecoder_SetProperty"
+- "H1JPEGVideoDecoder_StartSession"
+- "JPEGH1Decoder.c"
+- "ReducedFrameDelivery out of range 0.0...1.0"
+- "Stevenote mode not supported on this platform (must not require strict MCU)"
+- "_openDriverConnection"
+- "bad property value - should be CFNumber"
+- "com.apple.coremedia"
+- "createJPEGInputSurface"
+- "createPixelBufferAttributesDictionary"
+- "decode failed"
+- "err"
+- "height must be >16"
+- "jpeg_DecodeFrameAsynchronously"
+- "jpeg_DecodeFrameSynchronously"
+- "jpeg_DecodeFrameSynchronously_block_invoke"
+- "jpeg_asyncDecodeComplete"
+- "jpeg_createQualityOfServiceTier"
+- "jpeg_createSuggestedQualityOfServiceTiers"
+- "jpeg_createSupportedPropertyDictionary"
+- "jpeg_initializeStevenote444fMode"
+- "jpeg_vtdecoder_trace"
+- "kVTAllocationFailedErr"
+- "kVTParameterErr"
+- "kVTPropertyNotSupportedErr"
+- "kVTPropertyReadOnlyErr"
+- "kVTVideoDecoderNotAvailableNowErr"
+- "kVTVideoDecoderUnsupportedDataFormatErr"
+- "property is read-only"
+- "result"
+- "special444fMode requires async decompression!"
+- "temp422IntSurface creation failed"
+- "unrecognised property key"
+- "width must be >32"
 
 ```

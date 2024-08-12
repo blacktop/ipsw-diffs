@@ -73,11 +73,12 @@
    - /usr/lib/swift/libswiftos.dylib
 -  Functions: 1312
 -  Symbols:   1682
+-  CStrings:  2254
 +  - /usr/lib/swift/libswiftsys_time.dylib
 +  - /usr/lib/swift/libswiftunistd.dylib
 +  Functions: 1314
 +  Symbols:   1691
-   CStrings:  0
++  CStrings:  2257
  
 Symbols:
 + __swift_FORCE_LOAD_$_swift_Builtin_float
@@ -89,5 +90,11 @@ Symbols:
 + __swift_FORCE_LOAD_$_swiftsys_time
 + __swift_FORCE_LOAD_$_swiftunistd
 - _OBJC_CLASS_$_NSURL
+CStrings:
++ "TB,R,N,GisCopying"
++ "copying"
++ "isCopying"
++ "isFinished"
+- "fiNodeFromURL:"
 
 ```

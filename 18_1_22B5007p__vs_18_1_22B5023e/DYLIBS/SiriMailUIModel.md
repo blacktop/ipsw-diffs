@@ -34,9 +34,8 @@
 +  - /usr/lib/swift/libswiftunistd.dylib
    Functions: 559
 -  Symbols:   100
--  CStrings:  5
 +  Symbols:   108
-+  CStrings:  28
+   CStrings:  14
  
 Symbols:
 + __swift_FORCE_LOAD_$_swift_Builtin_float
@@ -47,39 +46,5 @@ Symbols:
 + __swift_FORCE_LOAD_$_swift_time
 + __swift_FORCE_LOAD_$_swiftsys_time
 + __swift_FORCE_LOAD_$_swiftunistd
-CStrings:
-+ "\x01"
-+ "\x02"
-+ "\f\xbc\x06"
-+ "\r\xbc\x06"
-+ "\x0e\xbc\x06"
-+ "\x0f\xbc\x06"
-+ "\x10\xbc\x06"
-+ "\x11\xbc\x06"
-+ "\x12\xbc\x06"
-+ "\x13\xbc\x06"
-+ "\x14\xbc\x06"
-+ "\x15\xbc\x06"
-+ "\x16\xbc\x06"
-+ "\x17\xbc\x06"
-+ "\x18\xbc\x06"
-+ "\x82\x925"
-+ "\x84\x925"
-+ "\x86\x925"
-+ "\x87\x925"
-+ "\x89\x925"
-+ "\x8b\x925"
-+ "\x8d\x925"
-+ "\x8e\x925"
-+ "\x90\x925"
-+ "\x92\x925"
-+ "\x93\x925"
-+ "\x94\x925"
-+ "\x96\x925"
-- "\x01@"
-- "HC;\xea"
-- "p\xd2B\xea"
-- "\xb0\xbb\xefn"
-- "\xd0\x05\xean"
 
 ```

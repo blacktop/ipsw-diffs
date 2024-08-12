@@ -29,9 +29,8 @@
 +  - /usr/lib/swift/libswiftunistd.dylib
    Functions: 138
 -  Symbols:   78
--  CStrings:  0
 +  Symbols:   86
-+  CStrings:  7
+   CStrings:  22
  
 Symbols:
 + __swift_FORCE_LOAD_$_swift_Builtin_float
@@ -42,13 +41,5 @@ Symbols:
 + __swift_FORCE_LOAD_$_swift_time
 + __swift_FORCE_LOAD_$_swiftsys_time
 + __swift_FORCE_LOAD_$_swiftunistd
-CStrings:
-+ "KFTjTu"
-+ "PAAE20activityRingsUpdated_5statey0A4Core08ActivityF0V_5StateQztYaKFTu"
-+ "_$s13SeymourClient011WorkoutPlanB8ProtocolP012queryPendingcD7Summary0A4Core0cdH0VyYaKFTjTu"
-+ "_$s13SeymourClient14SessionMonitorPAAE06handleC11Deactivatedyy0A4Core0C0VYaKFTu"
-+ "_$s13SeymourClient14SessionMonitorPAAE06handleC7Updatedyy0A4Core0C6UpdateVYaKFTu"
-+ "_$s13SeymourClient14SessionMonitorPAAE06handleC9Activatedyy0A4Core0C0VYaKFTu"
-+ "_$s13SeymourClient14SessionMonitorPAAE30workoutDeviceConnectionUpdated_5statey0A4Core07WorkoutfG0V_5StateQztYaKFTu"
 
 ```

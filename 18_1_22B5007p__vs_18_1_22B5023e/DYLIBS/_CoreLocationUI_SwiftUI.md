@@ -38,12 +38,11 @@
    - /usr/lib/swift/libswiftsimd.dylib
 -  Functions: 123
 -  Symbols:   69
--  CStrings:  1
 +  - /usr/lib/swift/libswiftsys_time.dylib
 +  - /usr/lib/swift/libswiftunistd.dylib
 +  Functions: 121
 +  Symbols:   77
-+  CStrings:  0
+   CStrings:  21
  
 Symbols:
 + __swift_FORCE_LOAD_$_swift_Builtin_float
@@ -54,7 +53,5 @@ Symbols:
 + __swift_FORCE_LOAD_$_swift_time
 + __swift_FORCE_LOAD_$_swiftsys_time
 + __swift_FORCE_LOAD_$_swiftunistd
-CStrings:
-- "\b\r\f*\x01\xc0\xe1j\x10\r\f*\x01\xc0\xab\xb50\r\f*\x01\xc0\xe1j8\r\f*\x01\xc0\xab\xb5X\r\f*\x01\xc0\xe1j\x80\r\f*\x01\xc0\xe1j\x88\r\f*\x01\xc0\xab\xb5\xa8\r\f*\x01\xc0\xe1j\xb0\r\f*\x01\xc0\xab\xb5\xd0\r\f*\x01\xc0\xe1j8\x0f\f*\x01\xc0\xe1j@\x0f\f*\x01\xc0\xab\xb5`\x0f\f*\x01\xc0\xe1jh\x0f\f*\x01\xc0\xab\xb5\x88\x0f\f*\x01\xc0\xe1j\x90\x0f\f*\x01\xc0\xab\xb5\xb0\x0f\f*\x01\xc0\xe1j\xb8\x0f\f*\x01\xc0\xab\xb5\xd8\x0f\f*\x01\xc0\xe1j"
 
 ```

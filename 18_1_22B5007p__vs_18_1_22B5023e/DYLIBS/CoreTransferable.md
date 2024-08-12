@@ -71,12 +71,11 @@
    - /usr/lib/swift/libswiftos.dylib
 -  Functions: 972
 -  Symbols:   1514
--  CStrings:  0
 +  - /usr/lib/swift/libswiftsys_time.dylib
 +  - /usr/lib/swift/libswiftunistd.dylib
 +  Functions: 974
 +  Symbols:   1523
-+  CStrings:  69
+   CStrings:  97
  
 Symbols:
 + _$ss31withCheckedThrowingContinuation9isolation8function_xScA_pSgYi_SSyScCyxs5Error_pGXEtYaKlF
@@ -92,75 +91,5 @@ Symbols:
 - _$sScC12continuation8functionScCyxq_GSccyxq_G_SStcfC
 - _swift_continuation_await
 - _swift_continuation_init
-CStrings:
-+ "ASDCustomProperty"
-+ "JC_METACLASS_$_ASDDSPDevice"
-+ "_$s18SiriTaskEngagement0A17UIEventDataIssuesO09malformedaD0yA2CmFWC"
-+ "_$s18SiriTaskEngagement0A24ExecutionEventDataIssuesO07missingB4NameyA2CmFWC"
-+ "_$s18SiriTaskEngagement0A24ExecutionEventDataIssuesO09malformedadE0yA2CmFWC"
-+ "_$s18SiriTaskEngagement0C21SignalCollectionErrorO017jsonSerializationF25ForCollectorConfigurationyA2CmFWC"
-+ "_$s18SiriTaskEngagement0C21SignalCollectionErrorO018dispatchCollactionbF0yA2CmFWC"
-+ "_$s18SiriTaskEngagement0C21SignalCollectionErrorO07generalcdeF0yA2CmFWC"
-+ "_$s18SiriTaskEngagement0C21SignalCollectionErrorO07missingB16IdForSELFLoggingyA2CmFWC"
-+ "_$s18SiriTaskEngagement0C21SignalCollectionErrorO18missingCollectorIdyA2CmFWC"
-+ "_$s18SiriTaskEngagement0C21SignalCollectionErrorO23missingRawDataDonationsyA2CmFWC"
-+ "_$s18SiriTaskEngagement0C21SignalCollectionErrorO30missingRequestIdForSELFLoggingyA2CmFWC"
-+ "_$s18SiriTaskEngagement0C21SignalCollectionErrorO31malformedCollectorConfigurationyA2CmFWC"
-+ "_$s18SiriTaskEngagement19MapsEventDataIssuesO012missingValiddE8DonationyA2CmFWC"
-+ "_$s18SiriTaskEngagement19MapsEventDataIssuesO07missingdE8DonationyA2CmFWC"
-+ "_$s18SiriTaskEngagement20AlarmEventDataIssuesO34biomeEventsToSignalConversionErroryA2CmFWC"
-+ "_$s18SiriTaskEngagement24AppIntentEventDataIssuesO03appE21EventsExtractionErroryA2CmFWC"
-+ "_$s18SiriTaskEngagement24AppIntentEventDataIssuesO07missingdeF8DonationyA2CmFWC"
-+ "_$s18SiriTaskEngagement24AppIntentEventDataIssuesO22unsupportedDomainErroryA2CmFWC"
-+ "_$s18SiriTaskEngagement24AppLaunchEventDataIssuesO022activityUnsupportedFordE0yA2CmFWC"
-+ "_$s18SiriTaskEngagement25NowPlayingEventDataIssuesO011missingPlayF8DonationyA2CmFWC"
-+ "_$s18SiriTaskEngagement25NowPlayingEventDataIssuesO016missingValidPlayF8DonationyA2CmFWC"
-+ "_$s18SiriTaskEngagement25NowPlayingEventDataIssuesO20invalidMediaMetadatayA2CmFWC"
-+ "_$s18SiriTaskEngagement44HomeKitClientAccessoryControlEventDataIssuesO07missingdeI8DonationyA2CmFWC"
-+ "_OBJC_CLASS_$_ASDClockDevice"
-+ "_OBJC_CLASS_$_ASDCustomProperty"
-+ "_OBJC_CLASS_$_ASDPlugin"
-+ "_OBJC_CLASS_$_ASDPropertyAddress"
-+ "_OBJC_CLASS_$_ASDStream"
-+ "_OBJC_CLASS_$_ASDStreamFormat"
-+ "_OBJC_CLASS_$_STShowMapsSearchResultsRequest"
-+ "_OBJC_CLASS_$_STShowStockOverviewRequest"
-+ "_OBJC_CLASS_$_STShowWeatherConditionsRequest"
-+ "_OBJC_METACLASS_$_ASDClockDevice"
-+ "_OBJC_METACLASS_$_ASDDSPGraphBox"
-+ "_OBJC_METACLASS_$_ASDDSPGraphInfo"
-+ "_OBJC_METACLASS_$_ASDDSPGraphInterpreter"
-+ "_OBJC_METACLASS_$_ASDDSPGraphLoader"
-+ "_OBJC_METACLASS_$_ASDDSPGraphUtilities"
-+ "_OBJC_METACLASS_$_ASDDSPItemInfo"
-+ "_OBJC_METACLASS_$_ASDDSPStream"
-+ "_OBJC_METACLASS_$_ASDDevice"
-+ "_OBJC_METACLASS_$_ASDLevelControl"
-+ "_OBJC_METACLASS_$_ASDManagedRingBuffer"
-+ "_OBJC_METACLASS_$_ASDNullStream"
-+ "_OBJC_METACLASS_$_ASDPlugin"
-+ "_OBJC_METACLASS_$_ASDPluginDSPDatabase"
-+ "_OBJC_METACLASS_$_ASDProperty"
-+ "_OBJC_METACLASS_$_ASDPropertyAddress"
-+ "_OBJC_METACLASS_$_ASDPropertyStripInfo"
-+ "_OBJC_METACLASS_$_ASDRingBuffer"
-+ "_OBJC_METACLASS_$_ASDRingBufferInputStream"
-+ "_OBJC_METACLASS_$_ASDRingBufferOutputStream"
-+ "_OBJC_METACLASS_$_ASDRingBufferStreamPair"
-+ "_OBJC_METACLASS_$_ASDSRCAudioDevice"
-+ "_OBJC_METACLASS_$_ASDSRCStream"
-+ "_OBJC_METACLASS_$_ASDSelectorControl"
-+ "_OBJC_METACLASS_$_ASDSelectorValue"
-+ "_OBJC_METACLASS_$_ASDSliderControl"
-+ "_OBJC_METACLASS_$_ASDStereoPanControl"
-+ "_OBJC_METACLASS_$_ASDStream"
-+ "_OBJC_METACLASS_$_ASDStreamDSPConfiguration"
-+ "_OBJC_METACLASS_$_STShowDailyWeatherForecastRequest"
-+ "_OBJC_METACLASS_$_STShowMapsSearchResultsRequest"
-+ "_OBJC_METACLASS_$_STShowWeatherConditionsRequest"
-+ "aph"
-+ "ecastRequest"
-+ "iriTaskEngagement0A17UIEventDataIssuesO19malformedUIEndEventyA2CmFWC"
-+ "onF0yA2CmFWC"
 
 ```

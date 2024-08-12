@@ -51,10 +51,10 @@
    - /usr/lib/libobjc.A.dylib
 -  Functions: 20
 -  Symbols:   69
--  CStrings:  0
+-  CStrings:  56
 +  Functions: 27
 +  Symbols:   83
-+  CStrings:  35
++  CStrings:  71
  
 Symbols:
 + _OBJC_CLASS_$_PUICListBodyPlatterCellAccessibility__ToneKit__PepperUICore
@@ -65,40 +65,20 @@ Symbols:
 + __UIImageIdentityName
 + _objc_release_x22
 CStrings:
-+ "EventEmitterP16defaultSchedulerAA04TaskF0_pvgZTj"
-+ "ViewModelP17impressionMetricsAA010ImpressionF0VSgvgTj"
-+ "_$s9JetEngine10DependencyVMa"
-+ "_$s9JetEngine10JSCallableVMa"
-+ "_$s9JetEngine10JSONObjectV5int64s5Int64VSgvg"
-+ "_$s9JetEngine10LogMessageV18traceableSensitiveyACypSgFZ"
-+ "_$s9JetEngine10LogMessageV9sensitiveyACypSgFZ"
-+ "_$s9JetEngine12PipelineTaskPAAE7andThenyAA03MapcD0Cy6OutputQzqd__GAA0C5PhaseVyAHqd__GlF"
-+ "_$s9JetEngine12ReadOnlyLensV5valuexvg"
-+ "_$s9JetEngine13CoarselyTimedV9containedxvg"
-+ "_$s9JetEngine13_AutomationIDVMa"
-+ "_$s9JetEngine15BaseObjectGraphC01_aB8_SwiftUIE6injectyxxmlF"
-+ "_$s9JetEngine15BaseObjectGraphC4name12dependenciesACSS_AA20DependencyDictionaryVtcfc"
-+ "_$s9JetEngine15BaseObjectGraphC6adding10dependencyACXDAA10DependencyV_tFTj"
-+ "_$s9JetEngine15MetricsPipelineVMa"
-+ "_$s9JetEngine16LocalizerContextOMa"
-+ "_$s9JetEngine17SyncTaskSchedulerVACycfC"
-+ "_$s9JetEngine17SyncTaskSchedulerVMa"
-+ "_$s9JetEngine19AutomationSemanticsV21shelfItemSubComponent8itemKind2id8parentIdACSS_ypSgAHtFZ"
-+ "_$s9JetEngine19AutomationSemanticsVMa"
-+ "_$s9JetEngine20DependencyDictionaryVMa"
-+ "_$s9JetEngine20MetricsFieldsBuilderP8addValue_8forFieldyyp_SStKFTj"
-+ "_$s9JetEngine22FlowActionPresentationV9stackPushACvgZ"
-+ "_$s9JetEngine26PageRenderMetricsPresenterC11ActivityEndOMa"
-+ "_$s9JetEngine26PageRenderMetricsPresenterC13ActivityStartOMa"
-+ "_$s9JetEngine29MetricsFieldsProviderCategoryOMa"
-+ "_$s9JetEngine3BagVMa"
-+ "_$s9JetEngine7JSRouteVMa"
-+ "_$s9JetEngine8UnstableO13AccountHandleVMa"
-+ "_$s9JetEngine9JSONErrorOMa"
-+ "_$s9JetEngine9JSRequestVMa"
-+ "_$s9JetEngine9LocalizerP14formattedCountySSSiFTj"
-+ "_$s9JetEngine9LocalizerP6string9withCount6forKey0E05usingSSSi_SSSDyS2SGSgAA0C14LookupStrategyOtFTj"
-+ "_$s9JetEngine9LocalizerP7decimal9forNumber21minimumFractionDigits07maximumhI02inSSSo8NSNumberC_SiSgAkA0C7ContextOtFTj"
-+ "eyypSg_tF"
++ "B16@0:8"
++ "PUICListBodyPlatterCell"
++ "PUICListBodyPlatterCellAccessibility__ToneKit__PepperUICore"
++ "PUICListPlatterCell"
++ "PUICPlatterCell"
++ "__PUICListBodyPlatterCellAccessibility__ToneKit__PepperUICore_super"
++ "accessibilityLabel"
++ "accessibilityValue"
++ "bodyLabel"
++ "checkmark"
++ "isAccessibilityElement"
++ "isEqualToString:"
++ "isHidden"
++ "safeValueForKey:"
++ "trailingAccessoryView"
 
 ```

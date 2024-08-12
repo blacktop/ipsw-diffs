@@ -70,14 +70,30 @@
    - /usr/lib/libobjc.A.dylib
 -  Functions: 2705
 -  Symbols:   3440
+-  CStrings:  4081
 +  Functions: 2713
 +  Symbols:   3448
-   CStrings:  0
++  CStrings:  4088
  
 Symbols:
 + _BKSDisplayServicesGetSystemIdentifiers
 + _BKSDisplayServicesSetSystemIdentifiers
 + __BKSDisplayGetSystemIdentifiers
 + __BKSDisplaySetSystemIdentifiers
+CStrings:
++ "@36@0:8@16@24i32"
++ "Error encoding system identifiers: %!{(MISSING)public}@"
++ "Error sending system identifiers: 0x%!x(MISSING)"
++ "T@\"BKSHIDEventDeferringToken\",R,C,N,V_deferringToken"
++ "_deferringToken"
++ "_initWithEnvironment:token:pid:"
++ "backboardd-attr-cache-16000025"
++ "keyboardFocusTargetWithDeferringToken:"
++ "systemTargetWithDeferringToken:"
++ "targetForDeferringEnvironment:deferringToken:"
+- "%!@(MISSING):%!i(MISSING)"
+- "@28@0:8@16i24"
+- "_initWithEnvironment:pid:"
+- "backboardd-attr-cache-16000022"
 
 ```

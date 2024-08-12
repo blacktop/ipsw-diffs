@@ -28,9 +28,8 @@
 +  - /usr/lib/swift/libswiftunistd.dylib
    Functions: 18
 -  Symbols:   70
--  CStrings:  7
 +  Symbols:   78
-+  CStrings:  1
+   CStrings:  10
  
 Symbols:
 + __swift_FORCE_LOAD_$_swift_Builtin_float
@@ -41,14 +40,5 @@ Symbols:
 + __swift_FORCE_LOAD_$_swift_time
 + __swift_FORCE_LOAD_$_swiftsys_time
 + __swift_FORCE_LOAD_$_swiftunistd
-CStrings:
-+ "\xff`\xb9\x80س\x9f Qa\xb9\x80"
-- "\x01\xc0L}"
-- "\x01\xc0L}"
-- "BG\xea"
-- "BG\xea"
-- "\x88\xeaM\xdd"
-- "\x88\xeaM\xdd"
-- "\xc8U\xab`"
 
 ```

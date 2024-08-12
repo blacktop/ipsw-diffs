@@ -57,12 +57,11 @@
    - /usr/lib/swift/libswiftsimd.dylib
 -  Functions: 131
 -  Symbols:   82
--  CStrings:  0
 +  - /usr/lib/swift/libswiftsys_time.dylib
 +  - /usr/lib/swift/libswiftunistd.dylib
 +  Functions: 127
 +  Symbols:   90
-+  CStrings:  34
+   CStrings:  106
  
 Symbols:
 + __swift_FORCE_LOAD_$_swift_Builtin_float
@@ -73,40 +72,5 @@ Symbols:
 + __swift_FORCE_LOAD_$_swift_time
 + __swift_FORCE_LOAD_$_swiftsys_time
 + __swift_FORCE_LOAD_$_swiftunistd
-CStrings:
-+ "11PASServicesC6sharedACvau"
-+ "_$s21ProximityAppleIDSetup11PASServicesC21unregisterAllServicesyyF"
-+ "_$s21ProximityAppleIDSetup11PASServicesC22registerSourceServicesyyF"
-+ "_$s21ProximityAppleIDSetup11PASServicesC22registerTargetServicesyyF"
-+ "_$s21ProximityAppleIDSetup11PASServicesC8register7service2as9overwriteyyXl_ypSgSbtF"
-+ "_$s21ProximityAppleIDSetup15PASFamilyMemberC9firstNameSSSgvg"
-+ "_$s21ProximityAppleIDSetup21PASSourceFlowStepBaseC06cancelE0yyYaF"
-+ "_$s21ProximityAppleIDSetup21PASSourceFlowStepBaseC15promptForCancelyyF"
-+ "_$s21ProximityAppleIDSetup21PASSourceFlowStepBaseC18dismissCancelAlertyyF"
-+ "_$s21ProximityAppleIDSetup21PASSourceFlowStepBaseC18presentCancelAlertSbvg"
-+ "_$s21ProximityAppleIDSetup21PASSourceFlowStepBaseC18presentCancelAlertSbvs"
-+ "_$s21ProximityAppleIDSetup21PASSourceFlowStepBaseCMa"
-+ "_$s21ProximityAppleIDSetup23PASSourceFlowControllerCACycfc"
-+ "_$s21ProximityAppleIDSetup23PASSourceFlowControllerCMa"
-+ "_$s21ProximityAppleIDSetup23PASSourceFlowResultObjcC011accountTypeG0AA07PASFlowf7AccountiG0Ovg"
-+ "_$s21ProximityAppleIDSetup23PASSourceFlowResultObjcC6resultACs0F0OyAA0deF7SuccessVs5Error_pG_tcfc"
-+ "_$s21ProximityAppleIDSetup23PASSourceFlowResultObjcCMa"
-+ "_$s21ProximityAppleIDSetup23PASTargetFlowControllerCACycfc"
-+ "_$s21ProximityAppleIDSetup23PASTargetFlowControllerCMa"
-+ "_$s21ProximityAppleIDSetup23PASTargetFlowResultObjcC011accountTypeG0AA07PASFlowf7AccountiG0Ovg"
-+ "_$s21ProximityAppleIDSetup23PASTargetFlowResultObjcC6resultACs0F0OyAA0deF7SuccessVs5Error_pG_tcfc"
-+ "_$s21ProximityAppleIDSetup23PASTargetFlowResultObjcCMa"
-+ "_$s21ProximityAppleIDSetup25PASAnalyticsEventProtocolPAAE4dataSDySSAA22AllowedMetricValueType_pGvg"
-+ "_$s21ProximityAppleIDSetup25PASAnalyticsEventProtocolPAASYRzrlE4nameSSvg"
-+ "_$s21ProximityAppleIDSetup26PASFamilyMemberPresentableC7altDSIDSSSgvg"
-+ "_$s21ProximityAppleIDSetup36PASExtensionInfoProviderXPCInterfaceSo14NSXPCInterfaceCvg"
-+ "_$s21ProximityAppleIDSetup36PASFlowStepPasscodeBiometricsRequestC12requestSetupyyYaF"
-+ "_$s21ProximityAppleIDSetup36PASFlowStepPasscodeBiometricsRequestC21familyMemberFirstNameSSSgvg"
-+ "_$s21ProximityAppleIDSetup36PASFlowStepPasscodeBiometricsRequestCMa"
-+ "_$s21ProximityAppleIDSetup50PASExtensionAuthenticateExtrasProtocolXPCInterfaceSo14NSXPCInterfaceCvg"
-+ "_$s21ProximityAppleIDSetup9PASLoggerO6common2os6LoggerVvau"
-+ "enticationI0CKF"
-+ "ltsyyAA07PASAuthI0VF"
-+ "xAFtF"
 
 ```

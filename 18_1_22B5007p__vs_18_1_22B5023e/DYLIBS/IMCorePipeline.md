@@ -34,9 +34,8 @@
 +  - /usr/lib/swift/libswiftunistd.dylib
    Functions: 46
 -  Symbols:   82
--  CStrings:  0
 +  Symbols:   90
-+  CStrings:  20
+   CStrings:  80
  
 Symbols:
 + __swift_FORCE_LOAD_$_swift_Builtin_float
@@ -47,26 +46,5 @@ Symbols:
 + __swift_FORCE_LOAD_$_swift_time
 + __swift_FORCE_LOAD_$_swiftsys_time
 + __swift_FORCE_LOAD_$_swiftunistd
-CStrings:
-+ "TeaUI24ModernPageViewControllerCMn"
-+ "UI25PageBlueprintModifierTypeMp"
-+ "_$s4Page5TeaUI0A21BlueprintModifierTypePTl"
-+ "_$s5TeaUI22CardSplitViewFocusableMp"
-+ "_$s5TeaUI25PageBlueprintModifierTypeP0C0AC_AA0cF0Tn"
-+ "_$s5TeaUI29BlueprintViewCellProviderTypeMp"
-+ "_$s5TeaUI33TabBarSplitViewControllerDelegateMp"
-+ "_$s5TeaUI33TabBarSplitViewControllerDelegateP03tabdefG0_10didPresent4withyAA0cdefG0C_So06UIViewG0CAA0cdeF12PresentationOtFTq"
-+ "_$s5TeaUI5AlertCMn"
-+ "_$s5TeaUI9AlertableP011onTextFieldE6Change4text12acceptAction07neutralJ006rejectJ0ySS_So07UIAlertJ0CSgA2KtFTq"
-+ "_$s5TeaUI9AlertableP12acceptButtonSS_So18UIAlertActionStyleVtSgvgTq"
-+ "_$s5TeaUI9AlertableP12rejectButtonSS_So18UIAlertActionStyleVtSgvgTq"
-+ "_$s5TeaUI9AlertableP13neutralButtonSS_So18UIAlertActionStyleVtSgvgTq"
-+ "_$s5TeaUI9AlertableP14buttonOrderingySo13UIAlertActionCSg_A2GtAG_A2GtcvgTq"
-+ "_$s5TeaUI9AlertableP21preferredActionButtonAA09PreferredeF0OvgTq"
-+ "_$s5TeaUI9AlertableP25accessibilityWhenAcceptedyyFTq"
-+ "_$s5TeaUI9AlertableP25accessibilityWhenRejectedyyFTq"
-+ "_$s5TeaUI9AlertableP5styleSo22UIAlertControllerStyleVvgTq"
-+ "eldEnablesReturnKeyAutomaticallySbvgTq"
-+ "zationTypeSo024UITextAutocapitalizationH0VvgTq"
 
 ```

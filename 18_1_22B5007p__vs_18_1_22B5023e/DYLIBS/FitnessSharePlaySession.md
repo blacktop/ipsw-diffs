@@ -35,9 +35,8 @@
 +  - /usr/lib/swift/libswiftunistd.dylib
    Functions: 277
 -  Symbols:   60
--  CStrings:  3
 +  Symbols:   68
-+  CStrings:  17
+   CStrings:  4
  
 Symbols:
 + __swift_FORCE_LOAD_$_swift_Builtin_float
@@ -48,26 +47,5 @@ Symbols:
 + __swift_FORCE_LOAD_$_swift_time
 + __swift_FORCE_LOAD_$_swiftsys_time
 + __swift_FORCE_LOAD_$_swiftunistd
-CStrings:
-+ "\bv\x9b8"
-+ "\x10v\x9b8"
-+ "\x18\xe3\xa38"
-+ "0v\x9b8"
-+ "8\xa5\x9e8"
-+ "8\xfe\xa38"
-+ "Pv\x9b8"
-+ "X\xe8\xa38"
-+ "h\x93\x9e8"
-+ "h\xe8\xa38"
-+ "v\x9b8"
-+ "\xc0\xad\x9e8"
-+ "Ы\x9e8"
-+ "֣8"
-+ "\xe8\xe9\xa38"
-+ "\xf0\xab\x9e8"
-+ "\xf8u\x9b8"
-- "_OBJC_CLASS_$_WFAutomationListViewControllerAccessibility"
-- "_OBJC_CLASS_$_WFAutomationTypeExplanationPlatterViewAccessibility"
-- "ibility"
 
 ```

@@ -37,9 +37,8 @@
 +  - /usr/lib/swift/libswiftunistd.dylib
    Functions: 40
 -  Symbols:   56
--  CStrings:  3
 +  Symbols:   64
-+  CStrings:  29
+   CStrings:  7
  
 Symbols:
 + __swift_FORCE_LOAD_$_swift_Builtin_float
@@ -50,38 +49,5 @@ Symbols:
 + __swift_FORCE_LOAD_$_swift_time
 + __swift_FORCE_LOAD_$_swiftsys_time
 + __swift_FORCE_LOAD_$_swiftunistd
-CStrings:
-+ "\b\xaetZ"
-+ "\x10T\x9cY"
-+ "\x10\xabtZ"
-+ " S\x9cY"
-+ "0\xaetZ"
-+ "8T\x9cY"
-+ "8\xabtZ"
-+ "HS\x9cY"
-+ "H\xaatZ"
-+ "`\xabtZ"
-+ "h\xadtZ"
-+ "pS\x9cY"
-+ "p\xaatZ"
-+ "\x80R\x9cY"
-+ "\x88\xabtZ"
-+ "\x90\xadtZ"
-+ "\x98S\x9cY"
-+ "\x98\xaatZ"
-+ "\xa8R\x9cY"
-+ "\xb0\xabtZ"
-+ "\xb8\xadtZ"
-+ "\xc0S\x9cY"
-+ "\xc0\xaatZ"
-+ "\xd0R\x9cY"
-+ "ثtZ"
-+ "\xe0\xadtZ"
-+ "\xe8S\x9cY"
-+ "\xe8\xaatZ"
-+ "\xf8R\x9cY"
-- "3URLV16desktopDirectoryACvgZ"
-- "LResourceKeyaGSgACSgtKF"
-- "NSURLResourceKeyaG_tKF"
 
 ```

@@ -38,28 +38,11 @@
 -  Functions: 18
 +  Functions: 17
    Symbols:   40
--  CStrings:  19
-+  CStrings:  0
+-  CStrings:  73
++  CStrings:  71
  
 CStrings:
-- "5FitnessCoaching28AchievementNotificationErrorON"
-- "_$s10Foundation4DateV15FitnessCoaching16DefaultsStorableADWP"
-- "_$s15FitnessCoaching0A17PlusPlanLocalizerCAA0acD10LocalizingAAWP"
-- "_$s15FitnessCoaching11XPCListenerCAA20TransportDispatchingAAWP"
-- "_$s15FitnessCoaching12WorkoutQueryVAA0C8QueryingAAWP"
-- "_$s15FitnessCoaching14WalkSuggestionOAA16DataSerializableAAWP"
-- "_$s15FitnessCoaching14WalkSuggestionON"
-- "_$s15FitnessCoaching18FirstGlanceContentVAA16DataSerializableAAWP"
-- "_$s15FitnessCoaching19PauseRingsLocalizerCAA0cD10LocalizingAAWP"
-- "_$s15FitnessCoaching20FirstGlanceLocalizerVAA0cD10LocalizingAAWP"
-- "_$s15FitnessCoaching24GoalProgressPluginClientVAA0cdeF8ProtocolAAWP"
-- "_$s15FitnessCoaching25WeeklySummaryInfoProviderVAA0cdE9ProvidingAAWP"
-- "_$s15FitnessCoaching30AchievementNotificationContentVAA16DataSerializableAAWP"
-- "_$sSb15FitnessCoaching16DefaultsStorableAAWP"
-- "_$sSo22FCCGoalProgressContentC15FitnessCoaching16DataSerializableACWP"
-- "_$sSo23FCCFitnessPlusPlanStateC15FitnessCoaching16DataSerializableACWP"
-- "_$sSo24FCCGoalCompletionContentC15FitnessCoaching16DataSerializableACWP"
-- "leAAWP"
-- "rableAAWP"
+- "d16@0:8"
+- "glyphScale"
 
 ```

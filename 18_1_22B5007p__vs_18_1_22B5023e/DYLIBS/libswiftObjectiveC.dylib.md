@@ -26,9 +26,8 @@
 +  - /usr/lib/swift/libswiftunistd.dylib
    Functions: 115
 -  Symbols:   284
--  CStrings:  7
 +  Symbols:   292
-+  CStrings:  4
+   CStrings:  8
  
 Symbols:
 + __swift_FORCE_LOAD_$_swift_Builtin_float
@@ -39,17 +38,5 @@ Symbols:
 + __swift_FORCE_LOAD_$_swift_time
 + __swift_FORCE_LOAD_$_swiftsys_time
 + __swift_FORCE_LOAD_$_swiftunistd
-CStrings:
-+ "ements:"
-+ "initWithEnumeratedShapes:"
-+ "setPillIconPlacement:"
-+ "tivation"
-- "Ts,R,N,V_screenTimeDeviceImageSensitivity"
-- "Ts,R,N,V_socialGroupVerifiedType"
-- "Ts,R,N,V_spatialMediaType"
-- "Ts,R,N,V_state"
-- "Ts,R,N,V_type"
-- "Ts,R,N,V_value"
-- "ingState"
 
 ```
