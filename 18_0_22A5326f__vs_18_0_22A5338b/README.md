@@ -21,70 +21,89 @@
 <details>
   <summary><i>View Updated</i></summary>
 
->  `com.apple.driver.AppleM2ScalerCSCDriver`
+>  `com.apple.driver.AppleDisplayCrossbar`
 
 ```diff
 
--148.0.50.0.0
--  __TEXT.__cstring: 0x165e9
--  __TEXT.__const: 0x4ecb8
--  __TEXT_EXEC.__text: 0xd6130
-+148.0.53.0.0
-+  __TEXT.__cstring: 0x1673a
-+  __TEXT.__const: 0x4ecc8
-+  __TEXT_EXEC.__text: 0xd5ff8
+-355.0.2.0.0
++355.0.3.0.0
+   __TEXT.__cstring: 0x4413
+   __TEXT.__const: 0x160
+   __TEXT.__os_log: 0x5d14
+-  __TEXT_EXEC.__text: 0x3214c
++  __TEXT_EXEC.__text: 0x32128
    __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0x1fe40
-   __DATA.__common: 0x20a8
+   __DATA.__data: 0xc4
+   __DATA.__common: 0x3d0
 
-   __DATA_CONST.__const: 0x210b8
-   __DATA_CONST.__kalloc_type: 0x3c40
-   __DATA_CONST.__kalloc_var: 0x500
--  Functions: 6008
-+  Functions: 6012
+   __DATA_CONST.__got: 0xd0
+   __DATA_CONST.__mod_init_func: 0xc0
+   __DATA_CONST.__mod_term_func: 0xc0
+-  __DATA_CONST.__const: 0xd1f8
++  __DATA_CONST.__const: 0xd1e0
+   __DATA_CONST.__kalloc_type: 0x600
+-  Functions: 1477
++  Functions: 1474
    Symbols:   0
--  CStrings:  2384
-+  CStrings:  2392
+   CStrings:  707
  
-CStrings:
-+ "1222222222212111111112111111111111111111122122112212"
-+ "1222222222212111111112111111111111111111122122112212112222222"
-+ "12222222222121111111121111111111111111111221221122121122222221111111221111111111111111111122222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222000020000000"
-+ "Awake"
-+ "SleepAcked"
-+ "SleepRequested"
-+ "[IOSA][Boot ] Req 0x%x Resumption on MSR%d\n"
-+ "[IOSA][Boot ] Req 0x%x Waiting for MSR%d wake\n"
-+ "[IOSA][Boot ] [MSR%u] SleepState transition from %s to %s\n"
-+ "[IOSA][Boot ] kConfigKeyIsShippedDevice=%d\n"
-+ "activateForMapping_gated"
-+ "commandSleep failed with %d\n"
-+ "powerRefCount cannot be zero with kSPSSleepAcked. [MSR%d] partition %d newState %d oldState %d refCount %d"
-- "     req %d prio %d ctx_sw_cnt %d\n"
-- "122222222221211111111211111111111111111112212211221"
-- "122222222221211111111211111111111111111112212211221112222222"
-- "12222222222121111111121111111111111111111221221122111222222211111112211111111111111111111222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222220000020000000"
-- "canContextSwitch"
 
 ```
 
->  `com.apple.driver.RTBuddy`
+>  `com.apple.driver.AppleMobileDispH16P-DCP`
 
 ```diff
 
--618.0.5.0.0
-+618.0.7.0.0
-   __TEXT.__cstring: 0x947e
-   __TEXT.__const: 0x278
--  __TEXT_EXEC.__text: 0x3f918
-+  __TEXT_EXEC.__text: 0x3f970
+-395.30.0.0.0
+-  __TEXT.__cstring: 0x5658
++395.33.3.0.0
++  __TEXT.__cstring: 0x56a0
+   __TEXT.__const: 0x1a78
+-  __TEXT_EXEC.__text: 0x20970
++  __TEXT_EXEC.__text: 0x20b6c
    __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0x128
-   __DATA.__common: 0xb20
+   __DATA.__data: 0x2b8
+   __DATA.__common: 0xf0
+   __DATA.__bss: 0x170
+   __DATA_CONST.__auth_got: 0x708
+-  __DATA_CONST.__got: 0xe0
++  __DATA_CONST.__got: 0xe8
+   __DATA_CONST.__mod_init_func: 0x18
+   __DATA_CONST.__mod_term_func: 0x18
+-  __DATA_CONST.__const: 0x3e40
++  __DATA_CONST.__const: 0x3e88
+   __DATA_CONST.__kalloc_type: 0x640
+   __DATA_CONST.__kalloc_var: 0xf0
+-  Functions: 1109
++  Functions: 1111
+   Symbols:   0
+-  CStrings:  510
++  CStrings:  512
+ 
 CStrings:
-+ "03:08:48"
++ "IOMFBWindowedVsyncOffDisableDetachingKey"
++ "iomfb_swap_submit_split_enable"
+
+```
+
+>  `com.apple.driver.AppleMobileFileIntegrity`
+
+```diff
+
+-938.0.27.0.1
++938.0.31.0.0
+   __TEXT.__cstring: 0x9aae
+   __TEXT.__const: 0x14b0
+   __TEXT.__os_log: 0x233
+-  __TEXT_EXEC.__text: 0x25fec
++  __TEXT_EXEC.__text: 0x25fd4
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0x412
+   __DATA.__common: 0xb0
+CStrings:
++ "01:10:33"
 + "Aug  8 2024"
-- "20:48:46"
+- "20:35:18"
 - "Jul 30 2024"
 
 ```
@@ -120,1096 +139,6 @@ CStrings:
 + "site.A440_in_args__"
 - "site.A436_in_args__"
 - "site.A437_out_args__"
-
-```
-
->  `com.apple.driver.AppleBasebandPCIMAVControl`
-
-```diff
-
- 810.0.0.0.0
-   __TEXT.__const: 0x262a
--  __TEXT.__cstring: 0x67ee
--  __TEXT_EXEC.__text: 0x511fc
-+  __TEXT.__cstring: 0x11c5
-+  __TEXT_EXEC.__text: 0x283ac
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0x140
--  __DATA.__common: 0x100
-+  __DATA.__common: 0xd8
-   __DATA.__bss: 0x1760
--  __DATA_CONST.__auth_got: 0x298
--  __DATA_CONST.__got: 0xd8
--  __DATA_CONST.__mod_init_func: 0xaf8
--  __DATA_CONST.__mod_term_func: 0x38
--  __DATA_CONST.__const: 0x7dc0
--  __DATA_CONST.__kalloc_type: 0xc80
-+  __DATA_CONST.__auth_got: 0x258
-+  __DATA_CONST.__got: 0xc8
-+  __DATA_CONST.__mod_init_func: 0xaf0
-+  __DATA_CONST.__mod_term_func: 0x30
-+  __DATA_CONST.__const: 0x7c38
-+  __DATA_CONST.__kalloc_type: 0xc40
-   __DATA_CONST.__kalloc_var: 0x5a0
--  Functions: 1079
-+  Functions: 1053
-   Symbols:   0
--  CStrings:  720
-+  CStrings:  177
- 
-CStrings:
-+ "121111121222121212111111111111111111111122122122221111111112222"
-- "%06ld.%06d %s::%s: \n"
-- "%06ld.%06d %s::%s:  --done\n"
-- "%06ld.%06d %s::%s: %d. \n"
-- "%06ld.%06d %s::%s: %d.  --done\n"
-- "%06ld.%06d %s::%s: %d. %p [0x%llx]\n"
-- "%06ld.%06d %s::%s: %d. %p [0x%llx], queued IOs: %lu\n"
-- "%06ld.%06d %s::%s: %d. %s -> %s\n"
-- "%06ld.%06d %s::%s: %d. (async) failed to prepare memory command\n"
-- "%06ld.%06d %s::%s: %d. (async) returned 0x%x\n"
-- "%06ld.%06d %s::%s: %d. -- done\n"
-- "%06ld.%06d %s::%s: %d. -- done %u\n"
-- "%06ld.%06d %s::%s: %d. --done\n"
-- "%06ld.%06d %s::%s: %d. Copy memory command\n"
-- "%06ld.%06d %s::%s: %d. Device is IN RESET state, bailing\n"
-- "%06ld.%06d %s::%s: %d. Exclusive workloop interface, failed to create a control commandGate!\n"
-- "%06ld.%06d %s::%s: %d. Getting BB reset state failed\n"
-- "%06ld.%06d %s::%s: %d. Unmap shared memory failed\n"
-- "%06ld.%06d %s::%s: %d. Virtual timesync interface\n"
-- "%06ld.%06d %s::%s: %d. _asyncMode 0x%08x, asyncMode 0x%08x, arg1 %p\n"
-- "%06ld.%06d %s::%s: %d. asyncMode 0x%08x\n"
-- "%06ld.%06d %s::%s: %d. buffer: 0x%llx, size: %llu, seqNum: %u\n"
-- "%06ld.%06d %s::%s: %d. calling completion, ret: 0x%llx\n"
-- "%06ld.%06d %s::%s: %d. cf %p, arg0 %p, arg1 %p\n"
-- "%06ld.%06d %s::%s: %d. chunk too large\n"
-- "%06ld.%06d %s::%s: %d. commandSleep (THREAD_INTERRUPTIBLE) woke with reason 0x%x\n"
-- "%06ld.%06d %s::%s: %d. current asyncMode 0x%08x\n"
-- "%06ld.%06d %s::%s: %d. direction %s\n"
-- "%06ld.%06d %s::%s: %d. direction %u\n"
-- "%06ld.%06d %s::%s: %d. direction: %u, workloop: %p\n"
-- "%06ld.%06d %s::%s: %d. do not support no copy for mbuf\n"
-- "%06ld.%06d %s::%s: %d. error %u\n"
-- "%06ld.%06d %s::%s: %d. error type %u, arg0 %p, arg1 %p\n"
-- "%06ld.%06d %s::%s: %d. eventIndex %u\n"
-- "%06ld.%06d %s::%s: %d. exclusive workloop: %p, msi index: %u\n"
-- "%06ld.%06d %s::%s: %d. failed to allocate async interrupt source\n"
-- "%06ld.%06d %s::%s: %d. failed to allocate commandGate\n"
-- "%06ld.%06d %s::%s: %d. failed to allocate io pool\n"
-- "%06ld.%06d %s::%s: %d. failed to allocate memory\n"
-- "%06ld.%06d %s::%s: %d. failed to allocate memory command\n"
-- "%06ld.%06d %s::%s: %d. failed to create async call lock\n"
-- "%06ld.%06d %s::%s: %d. failed to create pools\n"
-- "%06ld.%06d %s::%s: %d. failed to prepare memory 0x%x\n"
-- "%06ld.%06d %s::%s: %d. failed to prepare memory command\n"
-- "%06ld.%06d %s::%s: %d. failed to register channel\n"
-- "%06ld.%06d %s::%s: %d. failed to retrieve channel direction\n"
-- "%06ld.%06d %s::%s: %d. failed to setup channel\n"
-- "%06ld.%06d %s::%s: %d. failed to setup interface _outChannel %p, _inChannel %p\n"
-- "%06ld.%06d %s::%s: %d. failed to setup transfer ring\n"
-- "%06ld.%06d %s::%s: %d. forClient %p, options 0x%08x\n"
-- "%06ld.%06d %s::%s: %d. forClient %p, options 0x%08x, arg %p\n"
-- "%06ld.%06d %s::%s: %d. forClient %p, options 0x%08x, arg %p, inGate %u\n"
-- "%06ld.%06d %s::%s: %d. forClient %p, options 0x%08x, inGate %u\n"
-- "%06ld.%06d %s::%s: %d. incomplete io\n"
-- "%06ld.%06d %s::%s: %d. index %u\n"
-- "%06ld.%06d %s::%s: %d. interface is inactive\n"
-- "%06ld.%06d %s::%s: %d. invalid channel direction\n"
-- "%06ld.%06d %s::%s: %d. invalid channel protocol\n"
-- "%06ld.%06d %s::%s: %d. invalid direction: %u for the interface\n"
-- "%06ld.%06d %s::%s: %d. io %p, pa: 0x%llx, tre %p\n"
-- "%06ld.%06d %s::%s: %d. io %p, size %u, pa 0x%llx\n"
-- "%06ld.%06d %s::%s: %d. io %p, tre %p, io->_pa %p, cookie 0x%lx\n"
-- "%06ld.%06d %s::%s: %d. io: %p, pa 0x%llx\n"
-- "%06ld.%06d %s::%s: %d. io: %p, status 0x%x\n"
-- "%06ld.%06d %s::%s: %d. io: %p, type: %u, status 0x%x, last: %u\n"
-- "%06ld.%06d %s::%s: %d. malformed count, count: %u\n"
-- "%06ld.%06d %s::%s: %d. map buffer ack failed: 0x%llx\n"
-- "%06ld.%06d %s::%s: %d. map buffer ack timed out: 0x%llx\n"
-- "%06ld.%06d %s::%s: %d. map completion failed\n"
-- "%06ld.%06d %s::%s: %d. map completion failed, mem is NULL\n"
-- "%06ld.%06d %s::%s: %d. map completion success\n"
-- "%06ld.%06d %s::%s: %d. memCmd %p, size %llu\n"
-- "%06ld.%06d %s::%s: %d. mem[%llu] %p, direction %u\n"
-- "%06ld.%06d %s::%s: %d. mhiDevice %p\n"
-- "%06ld.%06d %s::%s: %d. no in channel\n"
-- "%06ld.%06d %s::%s: %d. no out channel\n"
-- "%06ld.%06d %s::%s: %d. num of chunks in io too large\n"
-- "%06ld.%06d %s::%s: %d. openGated failed, result: 0x%08x\n"
-- "%06ld.%06d %s::%s: %d. options 0x%08x\n"
-- "%06ld.%06d %s::%s: %d. pa 0x%llx, size %u, code %u\n"
-- "%06ld.%06d %s::%s: %d. pa 0x%llx, size %u, code %u, ccid %u, queued IOs: %lu\n"
-- "%06ld.%06d %s::%s: %d. packetChain %p\n"
-- "%06ld.%06d %s::%s: %d. part1 subDescSize %llu, offset %llu\n"
-- "%06ld.%06d %s::%s: %d. part1 subDesc[%llu] physical address 0x%llx\n"
-- "%06ld.%06d %s::%s: %d. part2 subDescSize %llu, offset %llu\n"
-- "%06ld.%06d %s::%s: %d. part2 subDesc[%llu] physical address 0x%llx\n"
-- "%06ld.%06d %s::%s: %d. part3 subDescSize %llu, offset %llu\n"
-- "%06ld.%06d %s::%s: %d. part3 subDesc[%llu] physical address 0x%llx\n"
-- "%06ld.%06d %s::%s: %d. prop %p\n"
-- "%06ld.%06d %s::%s: %d. provider %p, options 0x%08x\n"
-- "%06ld.%06d %s::%s: %d. provider %p, options 0x%08x, defer %p\n"
-- "%06ld.%06d %s::%s: %d. queued IOs: %u\n"
-- "%06ld.%06d %s::%s: %d. reap elements\n"
-- "%06ld.%06d %s::%s: %d. reliable %u\n"
-- "%06ld.%06d %s::%s: %d. res = 0x%x, size = %llu, cookie %p\n"
-- "%06ld.%06d %s::%s: %d. reset the channels\n"
-- "%06ld.%06d %s::%s: %d. result: %u, seqNum: %u, bytes read: %u\n"
-- "%06ld.%06d %s::%s: %d. ring - va: 0x%llx, pa: 0x%llx\\n"
-- "%06ld.%06d %s::%s: %d. ring not aligned to %u\n"
-- "%06ld.%06d %s::%s: %d. ring not large enough %u\n"
-- "%06ld.%06d %s::%s: %d. ring va 0x%llx, pa 0x%llx, size %u\n"
-- "%06ld.%06d %s::%s: %d. sending map message failed: 0x%llx\n"
-- "%06ld.%06d %s::%s: %d. sending unmap message failed: 0x%llx\n"
-- "%06ld.%06d %s::%s: %d. service is terminating\n"
-- "%06ld.%06d %s::%s: %d. setting defaultInt %d, defaultIEOT %d, defaultIEOB %d\n"
-- "%06ld.%06d %s::%s: %d. setting doorbellSetting time %llu, threshold %u\n"
-- "%06ld.%06d %s::%s: %d. setting threshold intThreshold %d, ieotThreshold %d, ieobThreshold %d\n"
-- "%06ld.%06d %s::%s: %d. setting up map message completion failed: 0x%llx\n"
-- "%06ld.%06d %s::%s: %d. setting up unmap message completion failed: 0x%llx\n"
-- "%06ld.%06d %s::%s: %d. sharedER %u\n"
-- "%06ld.%06d %s::%s: %d. skipping channel setup for channel protocol: %s\n"
-- "%06ld.%06d %s::%s: %d. status 0x%x\n"
-- "%06ld.%06d %s::%s: %d. status: %u, size: %u\n"
-- "%06ld.%06d %s::%s: %d. status: 0x%llx, size: %llu\n"
-- "%06ld.%06d %s::%s: %d. super::start failed\n"
-- "%06ld.%06d %s::%s: %d. sync %u\n"
-- "%06ld.%06d %s::%s: %d. tre %p, size %u, code %u, last %u, io %p\n"
-- "%06ld.%06d %s::%s: %d. trigger %u, index %u\n"
-- "%06ld.%06d %s::%s: %d. type %u\n"
-- "%06ld.%06d %s::%s: %d. type %u, completion code %u, asyncMode %u\n"
-- "%06ld.%06d %s::%s: %d. unmap buffer ack timed out: 0x%llx\n"
-- "%06ld.%06d %s::%s: %d. unmap completion failed\n"
-- "%06ld.%06d %s::%s: %d. unmap completion failed, mem is NULL\n"
-- "%06ld.%06d %s::%s: %d. unmap completion success\n"
-- "%06ld.%06d %s::%s: %d. waiting for map completion\n"
-- "%06ld.%06d %s::%s: %d. waiting for unmap completion\n"
-- "%06ld.%06d %s::%s: %s -> %s\n"
-- "%06ld.%06d %s::%s: %u\n"
-- "%06ld.%06d %s::%s: (async) failed to create memory decriptor for shared memory region\n"
-- "%06ld.%06d %s::%s: -- done\n"
-- "%06ld.%06d %s::%s: -- done %u\n"
-- "%06ld.%06d %s::%s: --done\n"
-- "%06ld.%06d %s::%s: ABPDevice %p, type %u\n"
-- "%06ld.%06d %s::%s: Bailing, device not alive\n!"
-- "%06ld.%06d %s::%s: Both channels should have same msi_index values, (%u, %u)\n"
-- "%06ld.%06d %s::%s: CHDBOFF (0x%x) invalid\n"
-- "%06ld.%06d %s::%s: Could not find %s dictionary for time_sync!\n"
-- "%06ld.%06d %s::%s: Could not find time_sync dictionary!\n"
-- "%06ld.%06d %s::%s: Cur expiry: %llu\n"
-- "%06ld.%06d %s::%s: Cur expiry: %llu < timeout: %llu\n"
-- "%06ld.%06d %s::%s: Desired link speed: %u, boot stage: %u\n"
-- "%06ld.%06d %s::%s: Device in Reset state! Skip sending unmap message!\n"
-- "%06ld.%06d %s::%s: Device in low power, cannot immediately initiate time sync\n"
-- "%06ld.%06d %s::%s: Device in low power, cannot initiate time sync\n"
-- "%06ld.%06d %s::%s: ERDBOFF (0x%x) invalid\n"
-- "%06ld.%06d %s::%s: ERE: res: 0x%lx, cookie: 0x%lx, code %u, ccid: %u, len: %u, allFields: 0x%lx\n"
-- "%06ld.%06d %s::%s: Error 0x%x\n"
-- "%06ld.%06d %s::%s: Error getting channel doorbell number for time_sync property!\n"
-- "%06ld.%06d %s::%s: Event Ring Index %u: shared channel: %u\n"
-- "%06ld.%06d %s::%s: Failed to allocate pending event queue for shared ER index: %u\n"
-- "%06ld.%06d %s::%s: Failed to find time sync capability register\n"
-- "%06ld.%06d %s::%s: Failed to get device properties dictionary\n"
-- "%06ld.%06d %s::%s: Found time sync capability register\n"
-- "%06ld.%06d %s::%s: Host sleep Deferred\n"
-- "%06ld.%06d %s::%s: Inserting shared mem region with ID: %u\n"
-- "%06ld.%06d %s::%s: Invalid domain: %u\n"
-- "%06ld.%06d %s::%s: MHI Status: 0x%x\n"
-- "%06ld.%06d %s::%s: MHI in error state! MHI Status: 0x%x\n"
-- "%06ld.%06d %s::%s: MHI reset complete, MHICTRL: 0x%x\n"
-- "%06ld.%06d %s::%s: MHI reset procedure failed!\n"
-- "%06ld.%06d %s::%s: MSI registration failed, index: %u\n"
-- "%06ld.%06d %s::%s: Map / Prepare shared memory failed: 0x%llx\n"
-- "%06ld.%06d %s::%s: No MHI capability regiter found!\n"
-- "%06ld.%06d %s::%s: No MHIChannel\n"
-- "%06ld.%06d %s::%s: Registration for domain %u already exists\n"
-- "%06ld.%06d %s::%s: Shared mem pa: 0x%llx, mem desc pa: %p\n"
-- "%06ld.%06d %s::%s: Starting timer: New expiry: %llu, timeout: %llu\n"
-- "%06ld.%06d %s::%s: Time capability addr: %p\n"
-- "%06ld.%06d %s::%s: Time capability not present\n"
-- "%06ld.%06d %s::%s: Time event call back registration is NULL\n"
-- "%06ld.%06d %s::%s: Time sync completion unit: %u, time: %llu, domain: %u, seq: %u\n"
-- "%06ld.%06d %s::%s: Time sync is not supported\n"
-- "%06ld.%06d %s::%s: Time sync not supported\n"
-- "%06ld.%06d %s::%s: Total shared ER count: %u\n"
-- "%06ld.%06d %s::%s: Triggering MSI index: %u, failed ret: 0x%llx\n"
-- "%06ld.%06d %s::%s: Unexpected Time sync completion unit, unit: %u\n"
-- "%06ld.%06d %s::%s: Unmapping region Id: %u, buffer addr: %p\n"
-- "%06ld.%06d %s::%s: Unsupported time domain for device wake assertion\n"
-- "%06ld.%06d %s::%s: Using exclusive timer workloop\n"
-- "%06ld.%06d %s::%s: _commandContext %p, _commandContextPa 0x%llx\n"
-- "%06ld.%06d %s::%s: _commandRing va 0x%llx, pa 0x%llx, size %u\n"
-- "%06ld.%06d %s::%s: _commandSetting._doorbellSetting time %llu, threshold %u\n"
-- "%06ld.%06d %s::%s: _eventRing[%d] va 0x%llx, pa 0x%llx, size %u\n"
-- "%06ld.%06d %s::%s: _eventSetting[%d] _intmod %d, _doorbellSetting time %llu, threshold %u, sync %u\n"
-- "%06ld.%06d %s::%s: _mapBase 0x%llx, _mapLimit 0x%llx\n"
-- "%06ld.%06d %s::%s: _msiRange[%d]: low %d, high %d\n"
-- "%06ld.%06d %s::%s: _numChannelContext %u, _channelContext %p, _channelContextPa 0x%llx\n"
-- "%06ld.%06d %s::%s: _numEventContext %u, _eventContext %p, _eventContextPa 0x%llx\n"
-- "%06ld.%06d %s::%s: _numEvents %d\n"
-- "%06ld.%06d %s::%s: _numHWEvents: %u, NUMHWER (from device): %d\n"
-- "%06ld.%06d %s::%s: _numMSI %d\n"
-- "%06ld.%06d %s::%s: _shadowChannelDoorbell[%u] 0x%llx\n"
-- "%06ld.%06d %s::%s: _shadowCommandDoorbell 0x%llx\n"
-- "%06ld.%06d %s::%s: _shadowEventDoorbell[%u] 0x%llx\n"
-- "%06ld.%06d %s::%s: abort client io completion\n"
-- "%06ld.%06d %s::%s: adjusted memSize %llu\n"
-- "%06ld.%06d %s::%s: alignment %u\n"
-- "%06ld.%06d %s::%s: allocate memory pool for %u\n"
-- "%06ld.%06d %s::%s: applying device wake 0x%x\n"
-- "%06ld.%06d %s::%s: assert %d, vote 0x%x, deviceWakeCurrent 0x%x _deviceWake 0x%x\n"
-- "%06ld.%06d %s::%s: assert: %u, vote: 0x%08x\n"
-- "%06ld.%06d %s::%s: bar0 0x%llx (+0x%x)\n"
-- "%06ld.%06d %s::%s: bar1 0x%llx (+0x%x)\n"
-- "%06ld.%06d %s::%s: bhi attach/start device failed %p\n"
-- "%06ld.%06d %s::%s: bhi attach/start interface failed %p\n"
-- "%06ld.%06d %s::%s: can't access device wake -- the doorbell is unavailable\n"
-- "%06ld.%06d %s::%s: can't access device wake -- the link is not up\n"
-- "%06ld.%06d %s::%s: capability count: %u, next cap: 0x%p\n"
-- "%06ld.%06d %s::%s: cf %p, intervalUs %llu, arg0 %p, arg1 %p\n"
-- "%06ld.%06d %s::%s: chID: %u, type: 0x%x, res2: 0x%x, allFlags: 0x%lx\n"
-- "%06ld.%06d %s::%s: change M-state %d -> %d\n"
-- "%06ld.%06d %s::%s: channel %u, instance %p, ring physical address 0x%llx\n"
-- "%06ld.%06d %s::%s: channel count %d\n"
-- "%06ld.%06d %s::%s: channelMemoryAllocInfo._pa 0x%llx\n"
-- "%06ld.%06d %s::%s: channelMemoryAllocInfo._size %llu\n"
-- "%06ld.%06d %s::%s: channelMemoryAllocInfo._va 0x%llx\n"
-- "%06ld.%06d %s::%s: chipset_name: %s\n"
-- "%06ld.%06d %s::%s: commandSleep (THREAD_INTERRUPTIBLE) woke with reason 0x%x\n"
-- "%06ld.%06d %s::%s: control %p\n"
-- "%06ld.%06d %s::%s: could not allocate _memoryPoolArray\n"
-- "%06ld.%06d %s::%s: cre %p\n"
-- "%06ld.%06d %s::%s: create %u, type %u\n"
-- "%06ld.%06d %s::%s: direction invalid\n"
-- "%06ld.%06d %s::%s: dmaCmd %p\n"
-- "%06ld.%06d %s::%s: domain: %u, seq: %u, fullSeq: 0x%lx, mach continuous_begin: %llu\n"
-- "%06ld.%06d %s::%s: done processing event rings\n"
-- "%06ld.%06d %s::%s: duplicate send image\n"
-- "%06ld.%06d %s::%s: error type %u, arg0 %p, arg1 %p\n"
-- "%06ld.%06d %s::%s: event index out of range\n"
-- "%06ld.%06d %s::%s: execution environment for current interfaces is %d. BB is changing to %d\n"
-- "%06ld.%06d %s::%s: failed readBytes %llu, size %llu\n"
-- "%06ld.%06d %s::%s: failed to alloc dma command\n"
-- "%06ld.%06d %s::%s: failed to allocate _interface\n"
-- "%06ld.%06d %s::%s: failed to allocate async call lock\n"
-- "%06ld.%06d %s::%s: failed to allocate commandGate\n"
-- "%06ld.%06d %s::%s: failed to allocate io pool\n"
-- "%06ld.%06d %s::%s: failed to allocate lock\n"
-- "%06ld.%06d %s::%s: failed to allocate memory\n"
-- "%06ld.%06d %s::%s: failed to allocate memory for channels\n"
-- "%06ld.%06d %s::%s: failed to allocate memory pool of size %d\n"
-- "%06ld.%06d %s::%s: failed to allocate request pool\n"
-- "%06ld.%06d %s::%s: failed to allocate resources for async completion\n"
-- "%06ld.%06d %s::%s: failed to allocate timer\n"
-- "%06ld.%06d %s::%s: failed to allocate timer commandGate\n"
-- "%06ld.%06d %s::%s: failed to allocate timer workloop\n"
-- "%06ld.%06d %s::%s: failed to allocate timesync event source\n"
-- "%06ld.%06d %s::%s: failed to create bhi device\n"
-- "%06ld.%06d %s::%s: failed to create bhi interface\n"
-- "%06ld.%06d %s::%s: failed to create mhi device\n"
-- "%06ld.%06d %s::%s: failed to create mhi interface\n"
-- "%06ld.%06d %s::%s: failed to create pools\n"
-- "%06ld.%06d %s::%s: failed to gen DMA address: 0x%x, numSeg %u, len %llu\n"
-- "%06ld.%06d %s::%s: failed to get bhi offset\n"
-- "%06ld.%06d %s::%s: failed to map memory in dart\n"
-- "%06ld.%06d %s::%s: failed to map result buffer\n"
-- "%06ld.%06d %s::%s: failed to prepare for DMA: 0x%x\n"
-- "%06ld.%06d %s::%s: failed to prepare image 0x%x\n"
-- "%06ld.%06d %s::%s: failed to prepare memory: 0x%x\n"
-- "%06ld.%06d %s::%s: failed to read CHDBOFF\n"
-- "%06ld.%06d %s::%s: failed to read ERDBOFF\n"
-- "%06ld.%06d %s::%s: failed to read MHICFG\n"
-- "%06ld.%06d %s::%s: failed to read MHISTATUS\n"
-- "%06ld.%06d %s::%s: failed to read MHIVER\n"
-- "%06ld.%06d %s::%s: failed to read capability register\n"
-- "%06ld.%06d %s::%s: failed to read capability register offset\n"
-- "%06ld.%06d %s::%s: failed to read execution environment\n"
-- "%06ld.%06d %s::%s: failed to read getMHICTRL\n"
-- "%06ld.%06d %s::%s: failed to read memory pool array object\n"
-- "%06ld.%06d %s::%s: failed to setup channel %p\n"
-- "%06ld.%06d %s::%s: failed to setup command ring\n"
-- "%06ld.%06d %s::%s: failed to setup context\n"
-- "%06ld.%06d %s::%s: failed to setup device\n"
-- "%06ld.%06d %s::%s: failed to setup device %p\n"
-- "%06ld.%06d %s::%s: failed to setup event ring\n"
-- "%06ld.%06d %s::%s: forClient %p, options 0x%08x, inGate %u\n"
-- "%06ld.%06d %s::%s: force: %u\n"
-- "%06ld.%06d %s::%s: from %s -> %s\n"
-- "%06ld.%06d %s::%s: fullSeq: 0x%lx\n"
-- "%06ld.%06d %s::%s: got completion for deregistered channel %u\n"
-- "%06ld.%06d %s::%s: hit %u, doorbell: %u\n"
-- "%06ld.%06d %s::%s: ignore m1 entry\n"
-- "%06ld.%06d %s::%s: imageSize = %llu\n"
-- "%06ld.%06d %s::%s: image[%u] pa 0x%llx\n"
-- "%06ld.%06d %s::%s: img %p\n"
-- "%06ld.%06d %s::%s: in sleep, ignore\n"
-- "%06ld.%06d %s::%s: incorrect alignment\n"
-- "%06ld.%06d %s::%s: index %u\n"
-- "%06ld.%06d %s::%s: index %u, ccid %u, cookie: 0x%lx, size %u, code %u, last %u\n"
-- "%06ld.%06d %s::%s: index %u, command %u, seq %u, reliable %u\n"
-- "%06ld.%06d %s::%s: index %u, ere %p, type %u\n"
-- "%06ld.%06d %s::%s: index %u, pa 0x%llx, size %u, code %u\n"
-- "%06ld.%06d %s::%s: index %u, write physical address 0x%llx\n"
-- "%06ld.%06d %s::%s: index out of range\n"
-- "%06ld.%06d %s::%s: initializing device wake to %s\n"
-- "%06ld.%06d %s::%s: interface is inactive\n"
-- "%06ld.%06d %s::%s: interval %llu\n"
-- "%06ld.%06d %s::%s: interval in us %llu, time mode %u\n"
-- "%06ld.%06d %s::%s: intfIdx %lu\n"
-- "%06ld.%06d %s::%s: link state already up\n"
-- "%06ld.%06d %s::%s: link state: %u, bailing!\n"
-- "%06ld.%06d %s::%s: linkState %u\n"
-- "%06ld.%06d %s::%s: looking for next cap at: 0x%p, offset (from bar0): %u\n"
-- "%06ld.%06d %s::%s: memSize %llu\n"
-- "%06ld.%06d %s::%s: memSize = %llu\n"
-- "%06ld.%06d %s::%s: memory is not page aligned\n"
-- "%06ld.%06d %s::%s: memory size is not page aligned\n"
-- "%06ld.%06d %s::%s: mhi attach/start device failed %p\n"
-- "%06ld.%06d %s::%s: mhi attach/start interface failed %p\n"
-- "%06ld.%06d %s::%s: mhi state: %u\n"
-- "%06ld.%06d %s::%s: msi in unexpected state %u\n"
-- "%06ld.%06d %s::%s: msi index out of range\n"
-- "%06ld.%06d %s::%s: msi index range overrun\n"
-- "%06ld.%06d %s::%s: msi index: %u\n"
-- "%06ld.%06d %s::%s: msi range malformed\n"
-- "%06ld.%06d %s::%s: nothing to do here... bailing.\n"
-- "%06ld.%06d %s::%s: numChannelContext (%u) greater than supported by device %d\n"
-- "%06ld.%06d %s::%s: numEvents (%u) greater than supported by device %d\n"
-- "%06ld.%06d %s::%s: numHWChannelContext (%u) greater than supported by device %d\n"
-- "%06ld.%06d %s::%s: numHWEvents (%u) greater than supported by device %d\n"
-- "%06ld.%06d %s::%s: options 0x%08x\n"
-- "%06ld.%06d %s::%s: pa 0x%llx\n"
-- "%06ld.%06d %s::%s: pa 0x%llx, completion code %u\n"
-- "%06ld.%06d %s::%s: pcie reset seperation workaround needed in ROM!\n"
-- "%06ld.%06d %s::%s: polling for MHICTRL.RESET to be 0, MHICTRL: 0x%x\n"
-- "%06ld.%06d %s::%s: pool needs to be atleast of dart page size %u\n"
-- "%06ld.%06d %s::%s: provider %p, options 0x%08x\n"
-- "%06ld.%06d %s::%s: provider %p, options 0x%08x, defer %p\n"
-- "%06ld.%06d %s::%s: read %u, buffer %p, size %u\n"
-- "%06ld.%06d %s::%s: region %u does not exist\n"
-- "%06ld.%06d %s::%s: region Id: %u\n"
-- "%06ld.%06d %s::%s: register %u, buff %p, size %u\n"
-- "%06ld.%06d %s::%s: register time event callback failed, ret: 0x%08x\n"
-- "%06ld.%06d %s::%s: res = 0x%x, code %u, size = %u\n"
-- "%06ld.%06d %s::%s: res = 0x%x, size = %llu, cookie %p\n"
-- "%06ld.%06d %s::%s: ring %d, 0x%llx\n"
-- "%06ld.%06d %s::%s: ring %d, not aligned to %u\n"
-- "%06ld.%06d %s::%s: ring %d, not large enough %u\n"
-- "%06ld.%06d %s::%s: ring 0x%llx\n"
-- "%06ld.%06d %s::%s: ring not aligned to %u\n"
-- "%06ld.%06d %s::%s: ring not large enough %u\n"
-- "%06ld.%06d %s::%s: shared mem region Id: %u, already present, client needs to it unmap first!\n"
-- "%06ld.%06d %s::%s: size %u\n"
-- "%06ld.%06d %s::%s: skip doorbell flush %u, pa 0x%llx\n"
-- "%06ld.%06d %s::%s: status %u, dbg1 0x%x, dbg2 0x%x, dbg3 0x%x, errCode %u\n"
-- "%06ld.%06d %s::%s: stopping memory pool for %llu\n"
-- "%06ld.%06d %s::%s: super::start failed\n"
-- "%06ld.%06d %s::%s: t %u, arg0 %p, arg1 %p\n"
-- "%06ld.%06d %s::%s: there are more event rings than context array can hold\n"
-- "%06ld.%06d %s::%s: time config: addr: 0x%p, 0x%lx\n"
-- "%06ld.%06d %s::%s: time sync -> doorbell num: %u, event num: %u\n"
-- "%06ld.%06d %s::%s: timerMode %u, arg1 %p\n"
-- "%06ld.%06d %s::%s: to %s\n"
-- "%06ld.%06d %s::%s: unable to allocate _cacheChannelRP array\n"
-- "%06ld.%06d %s::%s: unable to allocate _channel instance array\n"
-- "%06ld.%06d %s::%s: unable to allocate _msiRange\n"
-- "%06ld.%06d %s::%s: unable to allocate _shadowChannelDoorbell array\n"
-- "%06ld.%06d %s::%s: unable to allocate _shadowEventDoorbell array\n"
-- "%06ld.%06d %s::%s: unexpected memory pool array object entry %u\n"
-- "%06ld.%06d %s::%s: unexpected msi %d\n"
-- "%06ld.%06d %s::%s: unexpected register read request\n"
-- "%06ld.%06d %s::%s: unexpected size\n"
-- "%06ld.%06d %s::%s: va 0x%llx\n"
-- "%06ld.%06d %s::%s: version 0x%08x, expected 0x%08x\n"
-- "%06ld.%06d %s::%s: will process event rings %d to %d\n"
-- "1211111212221212121111111111111111111111221221222211111111112222"
-- "12111122111"
-- "AppleBasebandPCIMAVControl::%s: failed to create/init a reporter\n"
-- "AppleBasebandPCIMAVControl::%s: failed to start reporting\n"
-- "AppleBasebandPCIMAVControlReporter"
-- "AppleBasebandPCIMAVControlReporter::%s: Failed to retrieve Device Descriptor\n"
-- "abortChannel"
-- "abortChannelGated"
-- "abortChannels"
-- "allocateChannelMemory"
-- "allocateDeviceMemory"
-- "asserted"
-- "assignChannelMemory"
-- "asyncCallCountUpdate"
-- "asyncCompletion"
-- "asyncFunction"
-- "attach"
-- "callAsync"
-- "cancelAsync"
-- "cancelImage"
-- "cancelTimer"
-- "changeState"
-- "changeToM1"
-- "checkCompletedIO"
-- "checkIndexMSIRange"
-- "checkPendingCommand"
-- "checkPendingIO"
-- "close"
-- "closeGated"
-- "coalescedTransferCompletion"
-- "commandCompletion"
-- "completeIO"
-- "completeSharedEventIO"
-- "computeChannelMemory"
-- "computeDeviceMemory"
-- "createDeviceFunction"
-- "createPools"
-- "createSetupChannel"
-- "createSetupControl"
-- "createSetupDevice"
-- "createSetupInterface"
-- "createSetupInterfaces"
-- "deRegisterChannel"
-- "deasserted"
-- "deregisterTimeEventCallback"
-- "detach"
-- "deviceAlive"
-- "deviceWake"
-- "deviceWakeAsync"
-- "device_wake assert vote"
-- "device_wake deassert vote"
-- "device_wake off"
-- "device_wake on"
-- "didTerminate"
-- "engage"
-- "enterError"
-- "enterErrorCompletion"
-- "enterLowPower"
-- "errorFunction"
-- "execEnvChangeFunction"
-- "execEnvironmentChange"
-- "exitLowPower"
-- "findTimeCapability"
-- "finishImageCommand"
-- "finishMemoryCommand"
-- "free"
-- "getChannelMSIConfig"
-- "getChannelProperties"
-- "getDesiredLinkSpeed"
-- "getReporterInterfaceNames"
-- "initWithInfo"
-- "initialize"
-- "initializeDeviceWakeDoorbell"
-- "invokeAsync"
-- "ioCompletion"
-- "ioTransfer"
-- "linkDown"
-- "linkRecovery"
-- "linkUp"
-- "mStateChangeFunction"
-- "mapAckComplete_block_invoke"
-- "mapSharedMemory"
-- "mapSharedMemory_block_invoke"
-- "mapUnmapMessageComplete"
-- "mhiReset"
-- "mhiResetDone"
-- "msiInterrupt"
-- "notifyError"
-- "open"
-- "openGated"
-- "performTimeSync"
-- "prepareImageCommand"
-- "prepareMemoryCommand"
-- "prepareTimeSync"
-- "printChannelParams"
-- "printDeviceParams"
-- "processCurrentCommand"
-- "processERE"
-- "processTRE"
-- "queueCommand"
-- "queueTransfer"
-- "read"
-- "readExecutionEnvironment"
-- "readGated"
-- "readRegister"
-- "readRegisterGated"
-- "recoveryCheck"
-- "registerChannel"
-- "registerTimeEventCallback"
-- "resetChannel"
-- "resetChannelComplete"
-- "rscIOCompletion"
-- "scanCheck"
-- "sendCommand"
-- "sendImage"
-- "sendImageCompletion"
-- "sendImageCompletionGated"
-- "sendImageGated"
-- "sendMapUnmapMessage"
-- "sendTransfer"
-- "setDevice"
-- "setUpTimeConfig"
-- "setupChannel"
-- "setupCommandRing"
-- "setupContext"
-- "setupController"
-- "setupDevice"
-- "setupDeviceParams"
-- "setupEventRing"
-- "setupMapUnmapCompletion"
-- "setupTransferRing"
-- "shadowDBCheckFunction_block_invoke"
-- "shadowDBFunction_block_invoke"
-- "shadowDoorbell"
-- "shadowDoorbellCheck"
-- "shadowDoorbellFlush"
-- "shadowDoorbellProcess"
-- "site.AppleBasebandPCIMAVControlReporter"
-- "start"
-- "startChannel"
-- "startChannelComplete"
-- "startChannelGated"
-- "startChannels"
-- "startCheck"
-- "startTimer"
-- "stateTransition"
-- "stop"
-- "stopChannel"
-- "stopChannelComplete"
-- "synchronousFunction"
-- "teardownChannel"
-- "teardownController"
-- "teardownDevice"
-- "teardownPools"
-- "terminate"
-- "terminateDevice"
-- "terminateInterface"
-- "terminateInterfaces"
-- "terminate_block_invoke"
-- "timeDomainToDeviceWakeVote"
-- "timeSync"
-- "timeSyncCompletion"
-- "timeSyncEventCallback"
-- "timeSync_block_invoke"
-- "timer"
-- "timerCompletion"
-- "timerFunction_block_invoke"
-- "transferCompletion"
-- "triggerAsync"
-- "triggerMSIFunction"
-- "triggerRecovery"
-- "unmapAckComplete_block_invoke"
-- "unmapSharedMemory"
-- "unmapSharedMemory_block_invoke"
-- "willTerminate"
-- "write"
-- "writeGated"
-- "~ABPBHIChannel"
-- "~ABPBHIDevice"
-- "~ABPMHIChannel"
-- "~ABPMHIDevice"
-
-```
-
->  `com.apple.driver.AppleBasebandPCIMAVPDP`
-
-```diff
-
- 810.0.0.0.0
-   __TEXT.__const: 0x128
--  __TEXT.__cstring: 0x4bd1
--  __TEXT_EXEC.__text: 0x2456c
-+  __TEXT.__cstring: 0xcf4
-+  __TEXT_EXEC.__text: 0xbf90
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0xc8
-   __DATA.__common: 0x128
-   __DATA.__bss: 0xb0
--  __DATA_CONST.__auth_got: 0x2d8
--  __DATA_CONST.__got: 0x80
-+  __DATA_CONST.__auth_got: 0x2b8
-+  __DATA_CONST.__got: 0x70
-   __DATA_CONST.__mod_init_func: 0x70
-   __DATA_CONST.__mod_term_func: 0x38
--  __DATA_CONST.__const: 0x3818
-+  __DATA_CONST.__const: 0x3810
-   __DATA_CONST.__kalloc_type: 0x400
--  Functions: 363
-+  Functions: 364
-   Symbols:   0
--  CStrings:  362
-+  CStrings:  52
- 
-CStrings:
-+ "1211111212221212111111112111112111111111111121121121121111211211111212222"
-+ "12111112122212121111211122222221211111222221212"
-+ "12111112122212121212111111111111111111111222222222222222222222222222222222221111111111111111111111111111111111111111111111111111111111111111111111222222222222222221111121122222222221111111111111111222122222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222111111111111111111111111111111112222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222211111111111111112222"
-+ "12111112122212121212111111111111111111111222222222222222222222222222222222221111111111111111111111111111111111111111111111111111111111111111111111222222222222222221111121122222222222222222222222212212112"
-+ "121111121222121212121111111111111111111112222222222222222222222222222222222211111111111111111111111111111111111111111111111111111111111111111111112222222222222222211111211222222222222222222222222122121121"
-- "%06ld.%06d %s::%s: \n"
-- "%06ld.%06d %s::%s: %s: --> \n"
-- "%06ld.%06d %s::%s: %u commands, pdp:packets: 0:%u 1:%u 2:%u 3:%u 4:%u 5:%u 6:%u 7:%u\n"
-- "%06ld.%06d %s::%s: -- Done.\n"
-- "%06ld.%06d %s::%s: -- done!\n"
-- "%06ld.%06d %s::%s: --done\n"
-- "%06ld.%06d %s::%s: Adding Tx pkt meta data failed with 0x%08x\n"
-- "%06ld.%06d %s::%s: Avail data indication -- qmap hdr 0x%08x\n"
-- "%06ld.%06d %s::%s: Avail data indication raw data 0x%08x %08x %08x %08x\n"
-- "%06ld.%06d %s::%s: Avail data timer expired, but interface was closed\n"
-- "%06ld.%06d %s::%s: Available data is non-zero, bytes: %u\n"
-- "%06ld.%06d %s::%s: Bad DL dump (offset=%llu, remain=%llu)\n"
-- "%06ld.%06d %s::%s: Bad RSC header\n"
-- "%06ld.%06d %s::%s: Bearer already mapped to Default Service\n"
-- "%06ld.%06d %s::%s: Bearer already mapped to Low Latency Service\n"
-- "%06ld.%06d %s::%s: Bearer switch already pending, ownerID: %u, bearerID: %u\n"
-- "%06ld.%06d %s::%s: Bearer switch complete !\n"
-- "%06ld.%06d %s::%s: Bearer switch in progress\n"
-- "%06ld.%06d %s::%s: Bearer switch notify!\n"
-- "%06ld.%06d %s::%s: Bearer switch request for ownerID: %u, bearer ID: %u, req type: %u\n"
-- "%06ld.%06d %s::%s: BearerID: %u not present for OwnerID: %u"
-- "%06ld.%06d %s::%s: Blocking outgoing traffic due to IP appender (unit number %u)\n"
-- "%06ld.%06d %s::%s: Cmd header: name 0x%02x: type 0x%02x: reserved 0x%04x: trans_id 0x%08x\n"
-- "%06ld.%06d %s::%s: Command response raw data 0x%08x %08x %08x %08x %08x\n"
-- "%06ld.%06d %s::%s: Creating interface: pdp_qctun\n"
-- "%06ld.%06d %s::%s: DFC End Marker Ack already pending for ownerID: %u\n"
-- "%06ld.%06d %s::%s: DFC End Marker command invalid length %u\n"
-- "%06ld.%06d %s::%s: DFC End Marker command raw data 0x%08x %08x %08x\n"
-- "%06ld.%06d %s::%s: DFC Info Query response raw data 0x%08x %08x\n"
-- "%06ld.%06d %s::%s: DFC Info query -- qmap hdr 0x%08x\n"
-- "%06ld.%06d %s::%s: DFC Info query -- qmap hdr 0x%08x %08x\n"
-- "%06ld.%06d %s::%s: DFC Info query for bearer ID: %u, ownerID: %u\n"
-- "%06ld.%06d %s::%s: DFC Info query raw data 0x%08x\n"
-- "%06ld.%06d %s::%s: DFC Query info response invalid length %u\n"
-- "%06ld.%06d %s::%s: DFC notify command invalid length %u\n"
-- "%06ld.%06d %s::%s: DFC notify command raw data 0x%08x %08x %08x\n"
-- "%06ld.%06d %s::%s: DFC power save mode ack not received!\n"
-- "%06ld.%06d %s::%s: DFC_INFO_QUERY response, ignore query response for inactive bearer ownerID: %u, bearer ID: %u, credits: %u\n"
-- "%06ld.%06d %s::%s: DFC_INFO_QUERY response, ignore query response for unmapped bearer ownerID: %u, bearer ID: %u, credits: %u\n"
-- "%06ld.%06d %s::%s: DL packet dump\n"
-- "%06ld.%06d %s::%s: DL packet dump (offset=%llu, length=%u, remain=%llu)\n"
-- "%06ld.%06d %s::%s: Data powersave mode command -- qmap hdr 0x%08x\n"
-- "%06ld.%06d %s::%s: Data powersave mode command raw data 0x%08x %08x %08x %08x %08x\n"
-- "%06ld.%06d %s::%s: Deferring Ack for DFC End Marker\n"
-- "%06ld.%06d %s::%s: Delete _CreditsQueue entries for intf: %u\n"
-- "%06ld.%06d %s::%s: Duplicate / redundant bearer removed notification for bearerID: %u, ownerID: %u, seq num: %u\n"
-- "%06ld.%06d %s::%s: Duplicate DFC_NOTIFY command for bearerID: %u, ownerID: %u, seq num: %u\n"
-- "%06ld.%06d %s::%s: Error detected on Modem - removing bearerID: %u\n"
-- "%06ld.%06d %s::%s: Failed to create matching dictionary\n"
-- "%06ld.%06d %s::%s: Flushing pci service's stage queue pkts to queue set, packetCnt: %u\n"
-- "%06ld.%06d %s::%s: Got reset bearers marker: %u for this interface\n"
-- "%06ld.%06d %s::%s: Hdr Size:%u interface %u, pkt size %u, padding %u\n"
-- "%06ld.%06d %s::%s: IP Appender failed with 0x%08x\n"
-- "%06ld.%06d %s::%s: Incorrect bearer mapping state, ownerID: %u, bearerID: %u, current mapped owner: %u\n"
-- "%06ld.%06d %s::%s: Inserting at HEAD\n"
-- "%06ld.%06d %s::%s: Inserting at Tail\n"
-- "%06ld.%06d %s::%s: Inserting before ownerID: %u, bearer ID: %u, credits: %u,\n"
-- "%06ld.%06d %s::%s: Interface advisory report: owner %u: payload bytes %u\n"
-- "%06ld.%06d %s::%s: Invalid NL pair data length, expected: %u, actual: %u\n"
-- "%06ld.%06d %s::%s: Invalid bearer status : %u\n"
-- "%06ld.%06d %s::%s: Invalid bearer status: %u, for bearer ID: %u\n"
-- "%06ld.%06d %s::%s: Invalid bearer switch request type, req type: %u\n"
-- "%06ld.%06d %s::%s: Invalid chksm\n"
-- "%06ld.%06d %s::%s: Invalid intf number: %u!\n"
-- "%06ld.%06d %s::%s: Invalid number of NLs, received: %u, max: %u\n"
-- "%06ld.%06d %s::%s: Invalid number of bearers: %u\n"
-- "%06ld.%06d %s::%s: Invalid ownerID : %u\n"
-- "%06ld.%06d %s::%s: Invalid ownerID: %u\n"
-- "%06ld.%06d %s::%s: Invalid ownerID: %u, bearerID: %u already mapped to ownerID: %u\n"
-- "%06ld.%06d %s::%s: Invalid request type: %u\n"
-- "%06ld.%06d %s::%s: LL Bearer Switch Ack raw data 0x%08x %08x\n"
-- "%06ld.%06d %s::%s: LL Bearer Switch Request Ack invalid length %u != (Header + Payload) size: %u\n"
-- "%06ld.%06d %s::%s: LL Bearer Switch Request Ack invalid length %u < Header Size: %u\n"
-- "%06ld.%06d %s::%s: LL Bearer Switch Status command, invalid length %u != (Header + Payload) size: %u\n"
-- "%06ld.%06d %s::%s: LL Bearer Switch Status raw data 0x%08x %08x\n"
-- "%06ld.%06d %s::%s: LQM report: owner %u: payload bytes %u\n"
-- "%06ld.%06d %s::%s: NL pair data len (%u), exceeded max len\n"
-- "%06ld.%06d %s::%s: NL[%u](Length: %u, chksum map: 0x%x, NumPkts: %u)\n"
-- "%06ld.%06d %s::%s: NULL owner!\n"
-- "%06ld.%06d %s::%s: No UL pkts queued for ownerID: %u\n"
-- "%06ld.%06d %s::%s: No bearer present for this OwnerID: %u\n"
-- "%06ld.%06d %s::%s: No bearer present for this ownerID: %u\n"
-- "%06ld.%06d %s::%s: No credit update for owner: %u\n"
-- "%06ld.%06d %s::%s: PCIe link is down or is going down\n"
-- "%06ld.%06d %s::%s: Packet txid: %u, Expected txid: %u\n"
-- "%06ld.%06d %s::%s: Packet type is not QMAP control! \n"
-- "%06ld.%06d %s::%s: Packet: %p, Txid: %u\n"
-- "%06ld.%06d %s::%s: Preparing response: %s\n"
-- "%06ld.%06d %s::%s: Previous tail entry - ownerID: %u, bearer ID: %u, credits: %u,\n"
-- "%06ld.%06d %s::%s: RSC service: %u\n"
-- "%06ld.%06d %s::%s: Received DFC_END_MARKER for ownerID: %u, bearer ID: %u, seqNum: %u\n"
-- "%06ld.%06d %s::%s: Received DFC_INFO_QUERY response for ownerID: %u, bearer ID: %u, credits: %u\n"
-- "%06ld.%06d %s::%s: Received DFC_NOTIFY for ownerID: %u, bearer ID: %u, credits: %u, seq num: %u, bearer status: %u\n"
-- "%06ld.%06d %s::%s: Redundant bearer removed notificaiton, bearer ID: %u already removed\n"
-- "%06ld.%06d %s::%s: Removing bearer failed!\n"
-- "%06ld.%06d %s::%s: Request Bearer Switch -- qmap cmd hdr 0x%08x %08x\n"
-- "%06ld.%06d %s::%s: Request Bearer Switch -- qmap hdr 0x%08x\n"
-- "%06ld.%06d %s::%s: Request Bearer Switch raw data 0x%08x %08x\n"
-- "%06ld.%06d %s::%s: Sending DFC End Marker Ack for ownerID: %u\n"
-- "%06ld.%06d %s::%s: Setting packet buffer base / limit failed: 0x%llx\n"
-- "%06ld.%06d %s::%s: Start --\n"
-- "%06ld.%06d %s::%s: Start, options 0x%08x --\n"
-- "%06ld.%06d %s::%s: Stop queueing pkts - DFC end marker / UL flow switched!\n"
-- "%06ld.%06d %s::%s: Tcp Ack Allowed: %u\n"
-- "%06ld.%06d %s::%s: Temp failure in switching bearer ID: %u\n"
-- "%06ld.%06d %s::%s: Trigger DFC End Marker Ack\n"
-- "%06ld.%06d %s::%s: UL packet dump\n"
-- "%06ld.%06d %s::%s: Unexpected - bearer info entry is NULL!\n"
-- "%06ld.%06d %s::%s: Unexpected Tx\n"
-- "%06ld.%06d %s::%s: Unexpected command in RSC channel\n"
-- "%06ld.%06d %s::%s: Unexpected control packet for out of band Qmap control service\n"
-- "%06ld.%06d %s::%s: Unexpected next header for RSC\n"
-- "%06ld.%06d %s::%s: Unexpected pci service ID: %u\n"
-- "%06ld.%06d %s::%s: Unknown or unhandled command, name: %u\n"
-- "%06ld.%06d %s::%s: Unmapping bearerID: %u from OwnerID: %u\n"
-- "%06ld.%06d %s::%s: Unsupported status\n"
-- "%06ld.%06d %s::%s: Updated credits for ownerID: %u, credits remaining: %u\n"
-- "%06ld.%06d %s::%s: [%u] bearerID: %u, credits: %u\n"
-- "%06ld.%06d %s::%s: _rxHEAD: %p, _rxTail: %p\n"
-- "%06ld.%06d %s::%s: allowed Tx bytes: %u\n"
-- "%06ld.%06d %s::%s: bad command packet size: %u\n"
-- "%06ld.%06d %s::%s: bad length %u for link status report payload\n"
-- "%06ld.%06d %s::%s: bearer switch ack, bearer ID: %u, status: %u\n"
-- "%06ld.%06d %s::%s: bearer switch status, bearer ID: %u, status: %u\n"
-- "%06ld.%06d %s::%s: bearer switch was not pending! bearer ID: %u, \n"
-- "%06ld.%06d %s::%s: bearer switch was not successful! bearer ID: %u, \n"
-- "%06ld.%06d %s::%s: bearer switch was not successful! bearer ID: %u, status: %u \n"
-- "%06ld.%06d %s::%s: bytesRead (%llu) != header (%lu) + body (%u)\n"
-- "%06ld.%06d %s::%s: cache max reached, dropping packet\n"
-- "%06ld.%06d %s::%s: cannot receive interface advisory report for nonexisting owner %u\n"
-- "%06ld.%06d %s::%s: cannot receive link status report for nonexisting owner %u\n"
-- "%06ld.%06d %s::%s: chain length = %u\n"
-- "%06ld.%06d %s::%s: chain length = %u, txid 0x%u --> 0x%u, total DL data %u bytes\n"
-- "%06ld.%06d %s::%s: cksmValid: %u, numNLs: %u, incIPID: %u\n"
-- "%06ld.%06d %s::%s: close called on an unopened client %p\n"
-- "%06ld.%06d %s::%s: closeVal: %u, closeType: %u, contextID: %u\n"
-- "%06ld.%06d %s::%s: cmd header: name 0x%02x: type 0x%02x: reserved 0x%04x: trans_id 0x%08x\n"
-- "%06ld.%06d %s::%s: cmd version: %u\n"
-- "%06ld.%06d %s::%s: command header raw data: 0x%08x 0x%08x\n"
-- "%06ld.%06d %s::%s: command name: %u\n"
-- "%06ld.%06d %s::%s: consumed:%u\n"
-- "%06ld.%06d %s::%s: count %u\n"
-- "%06ld.%06d %s::%s: count %u, telescoping limit %u\n"
-- "%06ld.%06d %s::%s: count: %u\n"
-- "%06ld.%06d %s::%s: dealloc packet %p directly\n"
-- "%06ld.%06d %s::%s: device: %p, stateNumber: %lu\n"
-- "%06ld.%06d %s::%s: disable soft flow control for pdp_ip%u due to %u pending write bytes\n"
-- "%06ld.%06d %s::%s: disabling flow control due to QMAP command\n"
-- "%06ld.%06d %s::%s: draining pci service's stage queue pkts to queue set, packetCnt: %u\n"
-- "%06ld.%06d %s::%s: duplicate QMAP extension header type (%u)\n"
-- "%06ld.%06d %s::%s: enabling flow control due to QMAP command\n"
-- "%06ld.%06d %s::%s: enabling flow control for pdp_ip%u due to %u pending Tx bytes\n"
-- "%06ld.%06d %s::%s: error 0x%08x\n"
-- "%06ld.%06d %s::%s: failed to clone packet\n"
-- "%06ld.%06d %s::%s: failed to create Available data zero indication timer\n"
-- "%06ld.%06d %s::%s: failed to create Rx queue\n"
-- "%06ld.%06d %s::%s: failed to create Tx completion queue\n"
-- "%06ld.%06d %s::%s: failed to create Tx queue\n"
-- "%06ld.%06d %s::%s: failed to create power save mode timer\n"
-- "%06ld.%06d %s::%s: failed to open provider\n"
-- "%06ld.%06d %s::%s: failed to set packet limits: 0x%08x\n"
-- "%06ld.%06d %s::%s: flow control %s: owner %u: ipFamily %u: sequence 0x%04x: QoS 0x%08x\n"
-- "%06ld.%06d %s::%s: flow control command invalid IP family %u\n"
-- "%06ld.%06d %s::%s: flow control command invalid length %u\n"
-- "%06ld.%06d %s::%s: flow control command raw data 0x%08x %08x\n"
-- "%06ld.%06d %s::%s: flow control disable sequence number mismatch (got %u, expected %u)\n"
-- "%06ld.%06d %s::%s: flow controlling bearerID: %u, ownerID: %u\n"
-- "%06ld.%06d %s::%s: found client, unit %u\n"
-- "%06ld.%06d %s::%s: free count: %u\n"
-- "%06ld.%06d %s::%s: interface %u not opened yet, packet will be queued\n"
-- "%06ld.%06d %s::%s: interface %u, size %u, padding %u, command %u\n"
-- "%06ld.%06d %s::%s: interface 0x%p not found\n"
-- "%06ld.%06d %s::%s: interface down\n"
-- "%06ld.%06d %s::%s: intf %p, count %u\n"
-- "%06ld.%06d %s::%s: intf number: %u, open: %u, owner = %p\n"
-- "%06ld.%06d %s::%s: invalid interface %d\n"
-- "%06ld.%06d %s::%s: invalid length for LQM command, length: %u\n"
-- "%06ld.%06d %s::%s: invalid null header\n"
-- "%06ld.%06d %s::%s: invoked with packetCount = 0\n"
-- "%06ld.%06d %s::%s: kOffPowerState\n"
-- "%06ld.%06d %s::%s: kOffPowerState, enable data powersave mode, allow notification: %u\n"
-- "%06ld.%06d %s::%s: kOnPowerState, disable data powersave mode\n"
-- "%06ld.%06d %s::%s: konPowerState\n"
-- "%06ld.%06d %s::%s: last queued pkt completed, trigger DFC end marker Ack for %u\n"
-- "%06ld.%06d %s::%s: link status report: owner %u: payload bytes %u\n"
-- "%06ld.%06d %s::%s: low latency service: %u\n"
-- "%06ld.%06d %s::%s: null header\n"
-- "%06ld.%06d %s::%s: out of band QMAP control: %u\n"
-- "%06ld.%06d %s::%s: oversize header (%u < %u)\n"
-- "%06ld.%06d %s::%s: oversize header (%u < %zu)\n"
-- "%06ld.%06d %s::%s: owner %u does not exist, processing command anyway\n"
-- "%06ld.%06d %s::%s: owner: %u is inactive\n"
-- "%06ld.%06d %s::%s: owner: %u is not active\n"
-- "%06ld.%06d %s::%s: owner: %u is not opened yet\n"
-- "%06ld.%06d %s::%s: ownerID: %u\n"
-- "%06ld.%06d %s::%s: ownerID: %u has no bearer info entry for bearerID: %u\n"
-- "%06ld.%06d %s::%s: ownerID: %u was previously flow controlled, updated credits: %u\n"
-- "%06ld.%06d %s::%s: ownerID: %u, avail data bytes: %u\n"
-- "%06ld.%06d %s::%s: ownerID: %u, bearerID: %u, Active -> Removed\n"
-- "%06ld.%06d %s::%s: ownerID: %u, bearerID: %u, Inactive -> Active\n"
-- "%06ld.%06d %s::%s: ownerID: %u, bearerID: %u, curr bearer state: %u, new status: %u\n"
-- "%06ld.%06d %s::%s: ownerID: %u, bearerID: %u, switchStatus: %u\n"
-- "%06ld.%06d %s::%s: ownerID: %u, credits queue...\n"
-- "%06ld.%06d %s::%s: packet 0x%p, count: %u\n"
-- "%06ld.%06d %s::%s: packet: %p, TxID: %u\n"
-- "%06ld.%06d %s::%s: packet: %p, TxID: %u, next TxID: %u, count: %u\n"
-- "%06ld.%06d %s::%s: pad bytes (%u) is >= total length (%u)\n"
-- "%06ld.%06d %s::%s: pci service not available\n"
-- "%06ld.%06d %s::%s: pciService not available\n"
-- "%06ld.%06d %s::%s: pdp:packets: 0:%u 1:%u 2:%u 3:%u 4:%u 5:%u 6:%u 7:%u\n"
-- "%06ld.%06d %s::%s: pdp_ip%u flow controlled, but continue until soft flow control is enabled\n"
-- "%06ld.%06d %s::%s: qmap_control_service not present in plist\n"
-- "%06ld.%06d %s::%s: read size too small: %llu\n"
-- "%06ld.%06d %s::%s: received ack for Data Powersave Mode Control command\n"
-- "%06ld.%06d %s::%s: redundant flow control disable command for owner %u\n"
-- "%06ld.%06d %s::%s: redundant flow control enable command for owner %u\n"
-- "%06ld.%06d %s::%s: refCon 0x%p, status 0x%x\n"
-- "%06ld.%06d %s::%s: refcon: %p, status 0x%x\n"
-- "%06ld.%06d %s::%s: refcon: %p, status 0x%x, enqueue: %u\n"
-- "%06ld.%06d %s::%s: registering callback for ownerID: %u\n"
-- "%06ld.%06d %s::%s: requesting upto: %llu usecs to PM\n"
-- "%06ld.%06d %s::%s: residue (%llu) < header (%lu) + body (%u)\n"
-- "%06ld.%06d %s::%s: returning free space: %u, service id: %u\n"
-- "%06ld.%06d %s::%s: sending data powersave mode, ownerID: %u, enable: %u\n"
-- "%06ld.%06d %s::%s: sending response...\n"
-- "%06ld.%06d %s::%s: sending response: %s\n"
-- "%06ld.%06d %s::%s: sent bytes: %u\n"
-- "%06ld.%06d %s::%s: sent bytes: %u, pkt cnt: %u\n"
-- "%06ld.%06d %s::%s: setting %u msecs timer\n"
-- "%06ld.%06d %s::%s: skipping disable powersave mode, first power on\n"
-- "%06ld.%06d %s::%s: soft flow control active on pdp_ip%u\n"
-- "%06ld.%06d %s::%s: staged: %u\n"
-- "%06ld.%06d %s::%s: super::handleOpen() failed\n!"
-- "%06ld.%06d %s::%s: super::open failed\n"
-- "%06ld.%06d %s::%s: too many packets in transfer (limit %u), dropping packet\n"
-- "%06ld.%06d %s::%s: transfer size %u, interface %u, txid %u\n"
-- "%06ld.%06d %s::%s: txid 0x%08x: status 0x%x, packet 0x%p\n"
-- "%06ld.%06d %s::%s: txid 0x%x\n"
-- "%06ld.%06d %s::%s: unable to get unsent bytes: 0x%x\n"
-- "%06ld.%06d %s::%s: unexpected command type %u\n"
-- "%06ld.%06d %s::%s: unexpected command type: %u\n"
-- "%06ld.%06d %s::%s: unit number %u invalid or nonexistent\n"
-- "%06ld.%06d %s::%s: unrecognized QMAP extension header type (%u)\n"
-- "%06ld.%06d %s::%s: unsupported command: name 0x%02x: type %u: transactionID 0x%08x\n"
-- "%06ld.%06d %s::%s: unsupported flow control QoS 0x%08x\n"
-- "%06ld.%06d %s::%s: updating bearer credits failed!\n"
-- "%06ld.%06d %s::%s: updating owners in QMAP control intf failed\n"
-- "%06ld.%06d %s::%s: waiting for Low Latency service\n"
-- "%06ld.%06d %s::%s: waiting for QMAP control service\n"
-- "%06ld.%06d %s::%s: waiting for RSC service\n"
-- "12111112122212121111111121111121111111111111121121121121111211211111212222"
-- "121111121222121211112111222222212111112222212121"
-- "121111121222121212121111111111111111111111222222222222222222222222222222222221111111111111111111111111111111111111111111111111111111111111111111111222222222222222221111121122222222221111111111111111222122222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222111111111111111111111111111111112222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222211111111111111112222"
-- "121111121222121212121111111111111111111111222222222222222222222222222222222221111111111111111111111111111111111111111111111111111111111111111111111222222222222222221111121122222222222222222222222212212112"
-- "1211111212221212121211111111111111111111112222222222222222222222222222222222211111111111111111111111111111111111111111111111111111111111111111111112222222222222222211111211222222222222222222222222122121121"
-- "addTxPktMetaData"
-- "allocQueues"
-- "availDataZeroTimerCompletion"
-- "bearerSwitchComplete_block_invoke"
-- "closeGated"
-- "commandResponse"
-- "commandResponse_block_invoke"
-- "createRxSubmissionQueue"
-- "decodeQMAPHeader"
-- "decodeQMAPRSCHeader"
-- "disable"
-- "discardRxPacket"
-- "dumpOwnerCreditsQueue"
-- "enable"
-- "flowControlAllBearers"
-- "free"
-- "getAvailData"
-- "getOwnerCredits_block_invoke"
-- "handleOpen"
-- "initWithOptions"
-- "openGated"
-- "outputComplete"
-- "powerSaveModeTimerCompletion"
-- "powerStateWillChangeTo"
-- "powerStateWillChangeTo_block_invoke"
-- "processBearerCreditsGated"
-- "processCtrlPacket"
-- "processDFCEndMarker"
-- "processDFCInfoQuery"
-- "processDFCLLSwitchRequest"
-- "processDFCLLSwitchStatus"
-- "processDFCNotify"
-- "processDFCPowerSaveMode"
-- "processMavExtCmdAdvisoryReport"
-- "processMavExtCmdLQM"
-- "queryFlowControlCredits_block_invoke"
-- "queryFreeULSpace"
-- "queueRxBuffersGated"
-- "readComplete"
-- "registerBearerSwitchCallback"
-- "requestBearerSwitchGated"
-- "requestTxGated"
-- "resetOwnerCreditsQueue"
-- "rxQueueCallbackGated"
-- "sendAvailDataIndication_block_invoke"
-- "sendDFCEndMarkerAck_block_invoke"
-- "sendDataPowerSaveMode_block_invoke"
-- "setBearerSwitchPending_block_invoke"
-- "setInterfaceOwnerGated"
-- "setPowerStateGated"
-- "start"
-- "terminate"
-- "triggerBearerSwitch_block_invoke"
-- "triggerRxDequeue_block_invoke"
-- "txCompletionCallbackGated"
-- "txQueueCallbackGated"
-- "updateOwnerCreditsGated_block_invoke"
-- "usesQmapControlService"
-- "willTerminate"
-- "willTerminate_block_invoke"
-
-```
-
->  `com.apple.driver.AppleDisplayCrossbar`
-
-```diff
-
--355.0.2.0.0
-+355.0.3.0.0
-   __TEXT.__cstring: 0x4413
-   __TEXT.__const: 0x160
-   __TEXT.__os_log: 0x5d14
--  __TEXT_EXEC.__text: 0x3214c
-+  __TEXT_EXEC.__text: 0x32128
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0xc4
-   __DATA.__common: 0x3d0
-
-   __DATA_CONST.__got: 0xd0
-   __DATA_CONST.__mod_init_func: 0xc0
-   __DATA_CONST.__mod_term_func: 0xc0
--  __DATA_CONST.__const: 0xd1f8
-+  __DATA_CONST.__const: 0xd1e0
-   __DATA_CONST.__kalloc_type: 0x600
--  Functions: 1477
-+  Functions: 1474
-   Symbols:   0
-   CStrings:  707
- 
-
-```
-
->  `com.apple.driver.AppleMobileFileIntegrity`
-
-```diff
-
--938.0.27.0.1
-+938.0.31.0.0
-   __TEXT.__cstring: 0x9aae
-   __TEXT.__const: 0x14b0
-   __TEXT.__os_log: 0x233
--  __TEXT_EXEC.__text: 0x25fec
-+  __TEXT_EXEC.__text: 0x25fd4
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0x412
-   __DATA.__common: 0xb0
-CStrings:
-+ "01:10:33"
-+ "Aug  8 2024"
-- "20:35:18"
-- "Jul 30 2024"
-
-```
-
->  `com.apple.iokit.IODisplayPortFamily`
-
-```diff
-
--730.0.4.0.0
-+730.0.5.0.0
-   __TEXT.__cstring: 0x7c47
-   __TEXT.__os_log: 0x9571
-   __TEXT.__const: 0x310
--  __TEXT_EXEC.__text: 0x5d094
-+  __TEXT_EXEC.__text: 0x5d118
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0xc8
-   __DATA.__common: 0x550
-
-   __DATA_CONST.__got: 0x170
-   __DATA_CONST.__mod_init_func: 0x110
-   __DATA_CONST.__mod_term_func: 0x108
--  __DATA_CONST.__const: 0xf880
-+  __DATA_CONST.__const: 0xf888
-   __DATA_CONST.__kalloc_type: 0x840
-   __DATA_CONST.__kalloc_var: 0x280
-   Functions: 1961
-
-```
-
->  `com.apple.kernel`
-
-```diff
-
--11215.0.199.502.1
--  __TEXT.__const: 0x33b60
-+11215.2.5.0.0
-+  __TEXT.__const: 0x33ba0
-   __TEXT.__copyio_vectors: 0xf0
--  __TEXT.__cstring: 0x6bbc8
--  __TEXT.__os_log: 0x26d59
-+  __TEXT.__cstring: 0x6bab4
-+  __TEXT.__os_log: 0x26c98
-   __TEXT.__eh_frame: 0x610
-   __DATA_CONST.__auth_ptr: 0x8
-   __DATA_CONST.__mod_init_func: 0x2c0
--  __DATA_CONST.__const: 0xa2328
-+  __DATA_CONST.__const: 0xa2378
-   __DATA_CONST.__hib_const: 0x120
-   __DATA_CONST.__kalloc_type: 0x13340
-   __DATA_CONST.__kalloc_var: 0x78f0
-   __DATA_CONST.__brk_desc: 0x78
-   __DATA_SPTM.__const: 0x3c000
-   __TEXT_EXEC.__hib_text: 0xc68
--  __TEXT_EXEC.__text: 0x7fdf60
-+  __TEXT_EXEC.__text: 0x7bccfc
-   __TEXT_BOOT_EXEC.__bootcode: 0x4cd8
-   __KLD.__text: 0x1644
-   __LASTDATA_CONST.__mod_init_func: 0x8
-
-   __DATA.__lock_grp: 0x57a8
-   __DATA.__percpu: 0x6e48
-   __DATA.__common: 0x58508
--  __DATA.__bss: 0x3f7c0
-+  __DATA.__bss: 0x3f778
-   __BOOTDATA.__data: 0x18000
--  __BOOTDATA.__init_entry_set: 0x10788
-+  __BOOTDATA.__init_entry_set: 0x107b8
-   __BOOTDATA.__init: 0x5b058
-   __PRELINK_TEXT.__text: 0x0
-   __PRELINK_INFO.__info: 0x0
-
-   __PLK_DATA_CONST.__data: 0x0
-   __PLK_LLVM_COV.__llvm_covmap: 0x0
-   __PLK_LINKEDIT.__data: 0x0
--  __LINKINFO.__symbolsets: 0x4537a
-+  __LINKINFO.__symbolsets: 0x45532
-   __LATE_CONST.__late_const: 0xa8
--  Functions: 19841
-+  Functions: 19804
-   Symbols:   0
--  CStrings:  16812
-+  CStrings:  16803
- 
-CStrings:
-+ "B16@?0^{task={lck_mtx_s=b24b8I(lck_mtx_state={?=b28b1b1b1b1SS}IQ)}{os_refcnt=AI}BBBBIIQ^{_vm_map}{queue_entry=^{queue_entry}^{queue_entry}}^{task_watchports}^v{queue_entry=^{queue_entry}^{queue_entry}}^{restartable_ranges}^{processor_set}^{affinity_space}iIiiissiQ{recount_task=^{recount_track}^{recount_usage}}{lck_mtx_s=b24b8I(lck_mtx_state={?=b28b1b1b1b1SS}IQ)}[4^{ipc_port}]^{ipc_port}[14{exception_action=^{ipc_port}iiii^{label}}]{hardened_exception_action={exception_action=^{ipc_port}iiii^{label}}II}^{ipc_port}^{ipc_port}^{ipc_port}^{ipc_port}^{ipc_port}[3^{ipc_port}]^^{ipc_port}^{ipc_space}^{ledger}{queue_entry=^{queue_entry}^{queue_entry}}iI^vQQCACQQiBBB^Q^Q^Q^Q^QIIIIII^{proc_ro}^{kcdata_descriptor}Q{queue_entry=^{queue_entry}^{queue_entry}}^{label}IIQQIBBBBb4b4b4b4CCCCB*^{vm_shared_region}QQQ^{thread_call}{queue_entry=^{queue_entry}^{queue_entry}}ii^{bank_task}^{ipc_importance_task}{vm_extmod_statistics=qqqqqq}{task_requested_policy=b1b1b2b2b1b1b2b1b3b3b3b1b5b3b3b1b3b1b1b3b1b3b1b1b17}{task_effective_policy=b1b1b2b1b1b1b2b1b1b3b3b1b1b1b4b1b1b1b3b3b1b1b29}{task_pend_token=(?={?=b1b1b1b1b1b1b1b1b1b1b1b1b1}I)}b1b1b1b1b1b27b1b1b1b1b28^{io_stat_info}{task_writes_counters=QQQQ}{task_writes_counters=QQQQ}{_cpu_time_qos_stats=QQQQQQQ}{_cpu_time_qos_stats=QQQQQQQ}IIQCCCiii{queue_entry=^{queue_entry}^{queue_entry}}{lck_mtx_s=b24b8I(lck_mtx_state={?=b28b1b1b1b1SS}IQ)}b16b1b1b1b1b1b1b1[2^{coalition}][2{queue_entry=^{queue_entry}^{queue_entry}}]QCCCCIQ{queue_entry=^{queue_entry}^{queue_entry}}{queue_entry=^{queue_entry}^{queue_entry}}iIQ[16C]Q^{_vmobject_list_output_}Q^{vm_deferred_reclamation_metadata_s}}8"
-+ "com.apple.developer.media-device-discovery-extension"
-+ "drop_loopback_count"
-+ "site.u_int8_t *"
-+ "task_apt_token"
-- "!IN6_IS_ADDR_MULTICAST(&ip6->ip6_dst)"
-- "%s: %s (process %s:%u) priority %u entry_count 0\n"
-- "%s:%d esp kpipe input, ipversion %u, SPI=%x"
-- "%s:%d esp kpipe input, output buffer is short(%u), compared to input buffer(%u) SPI=%x\n"
-- "(sb->sb_flags & SB_LOCK) == 0"
-- "B16@?0^{task={lck_mtx_s=b24b8I(lck_mtx_state={?=b28b1b1b1b1SS}IQ)}{os_refcnt=AI}BBBBIIQ^{_vm_map}{queue_entry=^{queue_entry}^{queue_entry}}^{task_watchports}^v{queue_entry=^{queue_entry}^{queue_entry}}^{restartable_ranges}^{processor_set}^{affinity_space}iIiiissiQ{recount_task=^{recount_track}^{recount_usage}}{lck_mtx_s=b24b8I(lck_mtx_state={?=b28b1b1b1b1SS}IQ)}[4^{ipc_port}]^{ipc_port}[14{exception_action=^{ipc_port}iiii^{label}}]{hardened_exception_action={exception_action=^{ipc_port}iiii^{label}}II}^{ipc_port}^{ipc_port}^{ipc_port}^{ipc_port}^{ipc_port}[3^{ipc_port}]^^{ipc_port}^{ipc_space}^{ledger}{queue_entry=^{queue_entry}^{queue_entry}}iI^vQQCACQQiBB^Q^Q^Q^Q^QIIIIII^{proc_ro}^{kcdata_descriptor}Q{queue_entry=^{queue_entry}^{queue_entry}}^{label}IIQQIBBBBb4b4b4b4CCCCB*^{vm_shared_region}QQQ^{thread_call}{queue_entry=^{queue_entry}^{queue_entry}}ii^{bank_task}^{ipc_importance_task}{vm_extmod_statistics=qqqqqq}{task_requested_policy=b1b1b2b2b1b1b2b1b3b3b3b1b5b3b3b1b3b1b1b3b1b3b1b1b17}{task_effective_policy=b1b1b2b1b1b1b2b1b1b3b3b1b1b1b4b1b1b1b3b3b1b1b29}{task_pend_token=(?={?=b1b1b1b1b1b1b1b1b1b1b1b1b1}I)}b1b1b1b1b1b27b1b1b1b1b28^{io_stat_info}{task_writes_counters=QQQQ}{task_writes_counters=QQQQ}{_cpu_time_qos_stats=QQQQQQQ}{_cpu_time_qos_stats=QQQQQQQ}IIQCCCiii{queue_entry=^{queue_entry}^{queue_entry}}{lck_mtx_s=b24b8I(lck_mtx_state={?=b28b1b1b1b1SS}IQ)}b16b1b1b1b1b1b1b1[2^{coalition}][2{queue_entry=^{queue_entry}^{queue_entry}}]QCCCCIQ{queue_entry=^{queue_entry}^{queue_entry}}{queue_entry=^{queue_entry}^{queue_entry}}iIQ[16C]Q^{_vmobject_list_output_}Q^{vm_deferred_reclamation_metadata_s}}8"
-- "IS_P2ALIGNED(ccp, CHANNEL_CACHE_ALIGN_MAX)"
-- "authentication failed in IPv6 AH input: %s %s\n"
-- "ndopts == NULL in nd6_option @%s:%d"
-- "ndopts->nd_opts_last >= ndopts->nd_opts_search"
-- "necp_get_tlv_at_offset buffer is NULL"
-- "rt_key(rt)->sa_family == AF_INET"
-- "site.u_int8_t * __attribute__((__indexable__))"
-- "src.s_addr != INADDR_ANY"
 
 ```
 
@@ -2191,6 +1120,589 @@ CStrings:
 
 ```
 
+>  `com.apple.driver.AppleBasebandPCIMAVControl`
+
+```diff
+
+ 810.0.0.0.0
+   __TEXT.__const: 0x262a
+-  __TEXT.__cstring: 0x67ee
+-  __TEXT_EXEC.__text: 0x511fc
++  __TEXT.__cstring: 0x11c5
++  __TEXT_EXEC.__text: 0x283ac
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0x140
+-  __DATA.__common: 0x100
++  __DATA.__common: 0xd8
+   __DATA.__bss: 0x1760
+-  __DATA_CONST.__auth_got: 0x298
+-  __DATA_CONST.__got: 0xd8
+-  __DATA_CONST.__mod_init_func: 0xaf8
+-  __DATA_CONST.__mod_term_func: 0x38
+-  __DATA_CONST.__const: 0x7dc0
+-  __DATA_CONST.__kalloc_type: 0xc80
++  __DATA_CONST.__auth_got: 0x258
++  __DATA_CONST.__got: 0xc8
++  __DATA_CONST.__mod_init_func: 0xaf0
++  __DATA_CONST.__mod_term_func: 0x30
++  __DATA_CONST.__const: 0x7c38
++  __DATA_CONST.__kalloc_type: 0xc40
+   __DATA_CONST.__kalloc_var: 0x5a0
+-  Functions: 1079
++  Functions: 1053
+   Symbols:   0
+-  CStrings:  720
++  CStrings:  177
+ 
+CStrings:
++ "121111121222121212111111111111111111111122122122221111111112222"
+- "%06ld.%06d %s::%s: \n"
+- "%06ld.%06d %s::%s:  --done\n"
+- "%06ld.%06d %s::%s: %d. \n"
+- "%06ld.%06d %s::%s: %d.  --done\n"
+- "%06ld.%06d %s::%s: %d. %p [0x%llx]\n"
+- "%06ld.%06d %s::%s: %d. %p [0x%llx], queued IOs: %lu\n"
+- "%06ld.%06d %s::%s: %d. %s -> %s\n"
+- "%06ld.%06d %s::%s: %d. (async) failed to prepare memory command\n"
+- "%06ld.%06d %s::%s: %d. (async) returned 0x%x\n"
+- "%06ld.%06d %s::%s: %d. -- done\n"
+- "%06ld.%06d %s::%s: %d. -- done %u\n"
+- "%06ld.%06d %s::%s: %d. --done\n"
+- "%06ld.%06d %s::%s: %d. Copy memory command\n"
+- "%06ld.%06d %s::%s: %d. Device is IN RESET state, bailing\n"
+- "%06ld.%06d %s::%s: %d. Exclusive workloop interface, failed to create a control commandGate!\n"
+- "%06ld.%06d %s::%s: %d. Getting BB reset state failed\n"
+- "%06ld.%06d %s::%s: %d. Unmap shared memory failed\n"
+- "%06ld.%06d %s::%s: %d. Virtual timesync interface\n"
+- "%06ld.%06d %s::%s: %d. _asyncMode 0x%08x, asyncMode 0x%08x, arg1 %p\n"
+- "%06ld.%06d %s::%s: %d. asyncMode 0x%08x\n"
+- "%06ld.%06d %s::%s: %d. buffer: 0x%llx, size: %llu, seqNum: %u\n"
+- "%06ld.%06d %s::%s: %d. calling completion, ret: 0x%llx\n"
+- "%06ld.%06d %s::%s: %d. cf %p, arg0 %p, arg1 %p\n"
+- "%06ld.%06d %s::%s: %d. chunk too large\n"
+- "%06ld.%06d %s::%s: %d. commandSleep (THREAD_INTERRUPTIBLE) woke with reason 0x%x\n"
+- "%06ld.%06d %s::%s: %d. current asyncMode 0x%08x\n"
+- "%06ld.%06d %s::%s: %d. direction %s\n"
+- "%06ld.%06d %s::%s: %d. direction %u\n"
+- "%06ld.%06d %s::%s: %d. direction: %u, workloop: %p\n"
+- "%06ld.%06d %s::%s: %d. do not support no copy for mbuf\n"
+- "%06ld.%06d %s::%s: %d. error %u\n"
+- "%06ld.%06d %s::%s: %d. error type %u, arg0 %p, arg1 %p\n"
+- "%06ld.%06d %s::%s: %d. eventIndex %u\n"
+- "%06ld.%06d %s::%s: %d. exclusive workloop: %p, msi index: %u\n"
+- "%06ld.%06d %s::%s: %d. failed to allocate async interrupt source\n"
+- "%06ld.%06d %s::%s: %d. failed to allocate commandGate\n"
+- "%06ld.%06d %s::%s: %d. failed to allocate io pool\n"
+- "%06ld.%06d %s::%s: %d. failed to allocate memory\n"
+- "%06ld.%06d %s::%s: %d. failed to allocate memory command\n"
+- "%06ld.%06d %s::%s: %d. failed to create async call lock\n"
+- "%06ld.%06d %s::%s: %d. failed to create pools\n"
+- "%06ld.%06d %s::%s: %d. failed to prepare memory 0x%x\n"
+- "%06ld.%06d %s::%s: %d. failed to prepare memory command\n"
+- "%06ld.%06d %s::%s: %d. failed to register channel\n"
+- "%06ld.%06d %s::%s: %d. failed to retrieve channel direction\n"
+- "%06ld.%06d %s::%s: %d. failed to setup channel\n"
+- "%06ld.%06d %s::%s: %d. failed to setup interface _outChannel %p, _inChannel %p\n"
+- "%06ld.%06d %s::%s: %d. failed to setup transfer ring\n"
+- "%06ld.%06d %s::%s: %d. forClient %p, options 0x%08x\n"
+- "%06ld.%06d %s::%s: %d. forClient %p, options 0x%08x, arg %p\n"
+- "%06ld.%06d %s::%s: %d. forClient %p, options 0x%08x, arg %p, inGate %u\n"
+- "%06ld.%06d %s::%s: %d. forClient %p, options 0x%08x, inGate %u\n"
+- "%06ld.%06d %s::%s: %d. incomplete io\n"
+- "%06ld.%06d %s::%s: %d. index %u\n"
+- "%06ld.%06d %s::%s: %d. interface is inactive\n"
+- "%06ld.%06d %s::%s: %d. invalid channel direction\n"
+- "%06ld.%06d %s::%s: %d. invalid channel protocol\n"
+- "%06ld.%06d %s::%s: %d. invalid direction: %u for the interface\n"
+- "%06ld.%06d %s::%s: %d. io %p, pa: 0x%llx, tre %p\n"
+- "%06ld.%06d %s::%s: %d. io %p, size %u, pa 0x%llx\n"
+- "%06ld.%06d %s::%s: %d. io %p, tre %p, io->_pa %p, cookie 0x%lx\n"
+- "%06ld.%06d %s::%s: %d. io: %p, pa 0x%llx\n"
+- "%06ld.%06d %s::%s: %d. io: %p, status 0x%x\n"
+- "%06ld.%06d %s::%s: %d. io: %p, type: %u, status 0x%x, last: %u\n"
+- "%06ld.%06d %s::%s: %d. malformed count, count: %u\n"
+- "%06ld.%06d %s::%s: %d. map buffer ack failed: 0x%llx\n"
+- "%06ld.%06d %s::%s: %d. map buffer ack timed out: 0x%llx\n"
+- "%06ld.%06d %s::%s: %d. map completion failed\n"
+- "%06ld.%06d %s::%s: %d. map completion failed, mem is NULL\n"
+- "%06ld.%06d %s::%s: %d. map completion success\n"
+- "%06ld.%06d %s::%s: %d. memCmd %p, size %llu\n"
+- "%06ld.%06d %s::%s: %d. mem[%llu] %p, direction %u\n"
+- "%06ld.%06d %s::%s: %d. mhiDevice %p\n"
+- "%06ld.%06d %s::%s: %d. no in channel\n"
+- "%06ld.%06d %s::%s: %d. no out channel\n"
+- "%06ld.%06d %s::%s: %d. num of chunks in io too large\n"
+- "%06ld.%06d %s::%s: %d. openGated failed, result: 0x%08x\n"
+- "%06ld.%06d %s::%s: %d. options 0x%08x\n"
+- "%06ld.%06d %s::%s: %d. pa 0x%llx, size %u, code %u\n"
+- "%06ld.%06d %s::%s: %d. pa 0x%llx, size %u, code %u, ccid %u, queued IOs: %lu\n"
+- "%06ld.%06d %s::%s: %d. packetChain %p\n"
+- "%06ld.%06d %s::%s: %d. part1 subDescSize %llu, offset %llu\n"
+- "%06ld.%06d %s::%s: %d. part1 subDesc[%llu] physical address 0x%llx\n"
+- "%06ld.%06d %s::%s: %d. part2 subDescSize %llu, offset %llu\n"
+- "%06ld.%06d %s::%s: %d. part2 subDesc[%llu] physical address 0x%llx\n"
+- "%06ld.%06d %s::%s: %d. part3 subDescSize %llu, offset %llu\n"
+- "%06ld.%06d %s::%s: %d. part3 subDesc[%llu] physical address 0x%llx\n"
+- "%06ld.%06d %s::%s: %d. prop %p\n"
+- "%06ld.%06d %s::%s: %d. provider %p, options 0x%08x\n"
+- "%06ld.%06d %s::%s: %d. provider %p, options 0x%08x, defer %p\n"
+- "%06ld.%06d %s::%s: %d. queued IOs: %u\n"
+- "%06ld.%06d %s::%s: %d. reap elements\n"
+- "%06ld.%06d %s::%s: %d. reliable %u\n"
+- "%06ld.%06d %s::%s: %d. res = 0x%x, size = %llu, cookie %p\n"
+- "%06ld.%06d %s::%s: %d. reset the channels\n"
+- "%06ld.%06d %s::%s: %d. result: %u, seqNum: %u, bytes read: %u\n"
+- "%06ld.%06d %s::%s: %d. ring - va: 0x%llx, pa: 0x%llx\\n"
+- "%06ld.%06d %s::%s: %d. ring not aligned to %u\n"
+- "%06ld.%06d %s::%s: %d. ring not large enough %u\n"
+- "%06ld.%06d %s::%s: %d. ring va 0x%llx, pa 0x%llx, size %u\n"
+- "%06ld.%06d %s::%s: %d. sending map message failed: 0x%llx\n"
+- "%06ld.%06d %s::%s: %d. sending unmap message failed: 0x%llx\n"
+- "%06ld.%06d %s::%s: %d. service is terminating\n"
+- "%06ld.%06d %s::%s: %d. setting defaultInt %d, defaultIEOT %d, defaultIEOB %d\n"
+- "%06ld.%06d %s::%s: %d. setting doorbellSetting time %llu, threshold %u\n"
+- "%06ld.%06d %s::%s: %d. setting threshold intThreshold %d, ieotThreshold %d, ieobThreshold %d\n"
+- "%06ld.%06d %s::%s: %d. setting up map message completion failed: 0x%llx\n"
+- "%06ld.%06d %s::%s: %d. setting up unmap message completion failed: 0x%llx\n"
+- "%06ld.%06d %s::%s: %d. sharedER %u\n"
+- "%06ld.%06d %s::%s: %d. skipping channel setup for channel protocol: %s\n"
+- "%06ld.%06d %s::%s: %d. status 0x%x\n"
+- "%06ld.%06d %s::%s: %d. status: %u, size: %u\n"
+- "%06ld.%06d %s::%s: %d. status: 0x%llx, size: %llu\n"
+- "%06ld.%06d %s::%s: %d. super::start failed\n"
+- "%06ld.%06d %s::%s: %d. sync %u\n"
+- "%06ld.%06d %s::%s: %d. tre %p, size %u, code %u, last %u, io %p\n"
+- "%06ld.%06d %s::%s: %d. trigger %u, index %u\n"
+- "%06ld.%06d %s::%s: %d. type %u\n"
+- "%06ld.%06d %s::%s: %d. type %u, completion code %u, asyncMode %u\n"
+- "%06ld.%06d %s::%s: %d. unmap buffer ack timed out: 0x%llx\n"
+- "%06ld.%06d %s::%s: %d. unmap completion failed\n"
+- "%06ld.%06d %s::%s: %d. unmap completion failed, mem is NULL\n"
+- "%06ld.%06d %s::%s: %d. unmap completion success\n"
+- "%06ld.%06d %s::%s: %d. waiting for map completion\n"
+- "%06ld.%06d %s::%s: %d. waiting for unmap completion\n"
+- "%06ld.%06d %s::%s: %s -> %s\n"
+- "%06ld.%06d %s::%s: %u\n"
+- "%06ld.%06d %s::%s: (async) failed to create memory decriptor for shared memory region\n"
+- "%06ld.%06d %s::%s: -- done\n"
+- "%06ld.%06d %s::%s: -- done %u\n"
+- "%06ld.%06d %s::%s: --done\n"
+- "%06ld.%06d %s::%s: ABPDevice %p, type %u\n"
+- "%06ld.%06d %s::%s: Bailing, device not alive\n!"
+- "%06ld.%06d %s::%s: Both channels should have same msi_index values, (%u, %u)\n"
+- "%06ld.%06d %s::%s: CHDBOFF (0x%x) invalid\n"
+- "%06ld.%06d %s::%s: Could not find %s dictionary for time_sync!\n"
+- "%06ld.%06d %s::%s: Could not find time_sync dictionary!\n"
+- "%06ld.%06d %s::%s: Cur expiry: %llu\n"
+- "%06ld.%06d %s::%s: Cur expiry: %llu < timeout: %llu\n"
+- "%06ld.%06d %s::%s: Desired link speed: %u, boot stage: %u\n"
+- "%06ld.%06d %s::%s: Device in Reset state! Skip sending unmap message!\n"
+- "%06ld.%06d %s::%s: Device in low power, cannot immediately initiate time sync\n"
+- "%06ld.%06d %s::%s: Device in low power, cannot initiate time sync\n"
+- "%06ld.%06d %s::%s: ERDBOFF (0x%x) invalid\n"
+- "%06ld.%06d %s::%s: ERE: res: 0x%lx, cookie: 0x%lx, code %u, ccid: %u, len: %u, allFields: 0x%lx\n"
+- "%06ld.%06d %s::%s: Error 0x%x\n"
+- "%06ld.%06d %s::%s: Error getting channel doorbell number for time_sync property!\n"
+- "%06ld.%06d %s::%s: Event Ring Index %u: shared channel: %u\n"
+- "%06ld.%06d %s::%s: Failed to allocate pending event queue for shared ER index: %u\n"
+- "%06ld.%06d %s::%s: Failed to find time sync capability register\n"
+- "%06ld.%06d %s::%s: Failed to get device properties dictionary\n"
+- "%06ld.%06d %s::%s: Found time sync capability register\n"
+- "%06ld.%06d %s::%s: Host sleep Deferred\n"
+- "%06ld.%06d %s::%s: Inserting shared mem region with ID: %u\n"
+- "%06ld.%06d %s::%s: Invalid domain: %u\n"
+- "%06ld.%06d %s::%s: MHI Status: 0x%x\n"
+- "%06ld.%06d %s::%s: MHI in error state! MHI Status: 0x%x\n"
+- "%06ld.%06d %s::%s: MHI reset complete, MHICTRL: 0x%x\n"
+- "%06ld.%06d %s::%s: MHI reset procedure failed!\n"
+- "%06ld.%06d %s::%s: MSI registration failed, index: %u\n"
+- "%06ld.%06d %s::%s: Map / Prepare shared memory failed: 0x%llx\n"
+- "%06ld.%06d %s::%s: No MHI capability regiter found!\n"
+- "%06ld.%06d %s::%s: No MHIChannel\n"
+- "%06ld.%06d %s::%s: Registration for domain %u already exists\n"
+- "%06ld.%06d %s::%s: Shared mem pa: 0x%llx, mem desc pa: %p\n"
+- "%06ld.%06d %s::%s: Starting timer: New expiry: %llu, timeout: %llu\n"
+- "%06ld.%06d %s::%s: Time capability addr: %p\n"
+- "%06ld.%06d %s::%s: Time capability not present\n"
+- "%06ld.%06d %s::%s: Time event call back registration is NULL\n"
+- "%06ld.%06d %s::%s: Time sync completion unit: %u, time: %llu, domain: %u, seq: %u\n"
+- "%06ld.%06d %s::%s: Time sync is not supported\n"
+- "%06ld.%06d %s::%s: Time sync not supported\n"
+- "%06ld.%06d %s::%s: Total shared ER count: %u\n"
+- "%06ld.%06d %s::%s: Triggering MSI index: %u, failed ret: 0x%llx\n"
+- "%06ld.%06d %s::%s: Unexpected Time sync completion unit, unit: %u\n"
+- "%06ld.%06d %s::%s: Unmapping region Id: %u, buffer addr: %p\n"
+- "%06ld.%06d %s::%s: Unsupported time domain for device wake assertion\n"
+- "%06ld.%06d %s::%s: Using exclusive timer workloop\n"
+- "%06ld.%06d %s::%s: _commandContext %p, _commandContextPa 0x%llx\n"
+- "%06ld.%06d %s::%s: _commandRing va 0x%llx, pa 0x%llx, size %u\n"
+- "%06ld.%06d %s::%s: _commandSetting._doorbellSetting time %llu, threshold %u\n"
+- "%06ld.%06d %s::%s: _eventRing[%d] va 0x%llx, pa 0x%llx, size %u\n"
+- "%06ld.%06d %s::%s: _eventSetting[%d] _intmod %d, _doorbellSetting time %llu, threshold %u, sync %u\n"
+- "%06ld.%06d %s::%s: _mapBase 0x%llx, _mapLimit 0x%llx\n"
+- "%06ld.%06d %s::%s: _msiRange[%d]: low %d, high %d\n"
+- "%06ld.%06d %s::%s: _numChannelContext %u, _channelContext %p, _channelContextPa 0x%llx\n"
+- "%06ld.%06d %s::%s: _numEventContext %u, _eventContext %p, _eventContextPa 0x%llx\n"
+- "%06ld.%06d %s::%s: _numEvents %d\n"
+- "%06ld.%06d %s::%s: _numHWEvents: %u, NUMHWER (from device): %d\n"
+- "%06ld.%06d %s::%s: _numMSI %d\n"
+- "%06ld.%06d %s::%s: _shadowChannelDoorbell[%u] 0x%llx\n"
+- "%06ld.%06d %s::%s: _shadowCommandDoorbell 0x%llx\n"
+- "%06ld.%06d %s::%s: _shadowEventDoorbell[%u] 0x%llx\n"
+- "%06ld.%06d %s::%s: abort client io completion\n"
+- "%06ld.%06d %s::%s: adjusted memSize %llu\n"
+- "%06ld.%06d %s::%s: alignment %u\n"
+- "%06ld.%06d %s::%s: allocate memory pool for %u\n"
+- "%06ld.%06d %s::%s: applying device wake 0x%x\n"
+- "%06ld.%06d %s::%s: assert %d, vote 0x%x, deviceWakeCurrent 0x%x _deviceWake 0x%x\n"
+- "%06ld.%06d %s::%s: assert: %u, vote: 0x%08x\n"
+- "%06ld.%06d %s::%s: bar0 0x%llx (+0x%x)\n"
+- "%06ld.%06d %s::%s: bar1 0x%llx (+0x%x)\n"
+- "%06ld.%06d %s::%s: bhi attach/start device failed %p\n"
+- "%06ld.%06d %s::%s: bhi attach/start interface failed %p\n"
+- "%06ld.%06d %s::%s: can't access device wake -- the doorbell is unavailable\n"
+- "%06ld.%06d %s::%s: can't access device wake -- the link is not up\n"
+- "%06ld.%06d %s::%s: capability count: %u, next cap: 0x%p\n"
+- "%06ld.%06d %s::%s: cf %p, intervalUs %llu, arg0 %p, arg1 %p\n"
+- "%06ld.%06d %s::%s: chID: %u, type: 0x%x, res2: 0x%x, allFlags: 0x%lx\n"
+- "%06ld.%06d %s::%s: change M-state %d -> %d\n"
+- "%06ld.%06d %s::%s: channel %u, instance %p, ring physical address 0x%llx\n"
+- "%06ld.%06d %s::%s: channel count %d\n"
+- "%06ld.%06d %s::%s: channelMemoryAllocInfo._pa 0x%llx\n"
+- "%06ld.%06d %s::%s: channelMemoryAllocInfo._size %llu\n"
+- "%06ld.%06d %s::%s: channelMemoryAllocInfo._va 0x%llx\n"
+- "%06ld.%06d %s::%s: chipset_name: %s\n"
+- "%06ld.%06d %s::%s: commandSleep (THREAD_INTERRUPTIBLE) woke with reason 0x%x\n"
+- "%06ld.%06d %s::%s: control %p\n"
+- "%06ld.%06d %s::%s: could not allocate _memoryPoolArray\n"
+- "%06ld.%06d %s::%s: cre %p\n"
+- "%06ld.%06d %s::%s: create %u, type %u\n"
+- "%06ld.%06d %s::%s: direction invalid\n"
+- "%06ld.%06d %s::%s: dmaCmd %p\n"
+- "%06ld.%06d %s::%s: domain: %u, seq: %u, fullSeq: 0x%lx, mach continuous_begin: %llu\n"
+- "%06ld.%06d %s::%s: done processing event rings\n"
+- "%06ld.%06d %s::%s: duplicate send image\n"
+- "%06ld.%06d %s::%s: error type %u, arg0 %p, arg1 %p\n"
+- "%06ld.%06d %s::%s: event index out of range\n"
+- "%06ld.%06d %s::%s: execution environment for current interfaces is %d. BB is changing to %d\n"
+- "%06ld.%06d %s::%s: failed readBytes %llu, size %llu\n"
+- "%06ld.%06d %s::%s: failed to alloc dma command\n"
+- "%06ld.%06d %s::%s: failed to allocate _interface\n"
+- "%06ld.%06d %s::%s: failed to allocate async call lock\n"
+- "%06ld.%06d %s::%s: failed to allocate commandGate\n"
+- "%06ld.%06d %s::%s: failed to allocate io pool\n"
+- "%06ld.%06d %s::%s: failed to allocate lock\n"
+- "%06ld.%06d %s::%s: failed to allocate memory\n"
+- "%06ld.%06d %s::%s: failed to allocate memory for channels\n"
+- "%06ld.%06d %s::%s: failed to allocate memory pool of size %d\n"
+- "%06ld.%06d %s::%s: failed to allocate request pool\n"
+- "%06ld.%06d %s::%s: failed to allocate resources for async completion\n"
+- "%06ld.%06d %s::%s: failed to allocate timer\n"
+- "%06ld.%06d %s::%s: failed to allocate timer commandGate\n"
+- "%06ld.%06d %s::%s: failed to allocate timer workloop\n"
+- "%06ld.%06d %s::%s: failed to allocate timesync event source\n"
+- "%06ld.%06d %s::%s: failed to create bhi device\n"
+- "%06ld.%06d %s::%s: failed to create bhi interface\n"
+- "%06ld.%06d %s::%s: failed to create mhi device\n"
+- "%06ld.%06d %s::%s: failed to create mhi interface\n"
+- "%06ld.%06d %s::%s: failed to create pools\n"
+- "%06ld.%06d %s::%s: failed to gen DMA address: 0x%x, numSeg %u, len %llu\n"
+- "%06ld.%06d %s::%s: failed to get bhi offset\n"
+- "%06ld.%06d %s::%s: failed to map memory in dart\n"
+- "%06ld.%06d %s::%s: failed to map result buffer\n"
+- "%06ld.%06d %s::%s: failed to prepare for DMA: 0x%x\n"
+- "%06ld.%06d %s::%s: failed to prepare image 0x%x\n"
+- "%06ld.%06d %s::%s: failed to prepare memory: 0x%x\n"
+- "%06ld.%06d %s::%s: failed to read CHDBOFF\n"
+- "%06ld.%06d %s::%s: failed to read ERDBOFF\n"
+- "%06ld.%06d %s::%s: failed to read MHICFG\n"
+- "%06ld.%06d %s::%s: failed to read MHISTATUS\n"
+- "%06ld.%06d %s::%s: failed to read MHIVER\n"
+- "%06ld.%06d %s::%s: failed to read capability register\n"
+- "%06ld.%06d %s::%s: failed to read capability register offset\n"
+- "%06ld.%06d %s::%s: failed to read execution environment\n"
+- "%06ld.%06d %s::%s: failed to read getMHICTRL\n"
+- "%06ld.%06d %s::%s: failed to read memory pool array object\n"
+- "%06ld.%06d %s::%s: failed to setup channel %p\n"
+- "%06ld.%06d %s::%s: failed to setup command ring\n"
+- "%06ld.%06d %s::%s: failed to setup context\n"
+- "%06ld.%06d %s::%s: failed to setup device\n"
+- "%06ld.%06d %s::%s: failed to setup device %p\n"
+- "%06ld.%06d %s::%s: failed to setup event ring\n"
+- "%06ld.%06d %s::%s: forClient %p, options 0x%08x, inGate %u\n"
+- "%06ld.%06d %s::%s: force: %u\n"
+- "%06ld.%06d %s::%s: from %s -> %s\n"
+- "%06ld.%06d %s::%s: fullSeq: 0x%lx\n"
+- "%06ld.%06d %s::%s: got completion for deregistered channel %u\n"
+- "%06ld.%06d %s::%s: hit %u, doorbell: %u\n"
+- "%06ld.%06d %s::%s: ignore m1 entry\n"
+- "%06ld.%06d %s::%s: imageSize = %llu\n"
+- "%06ld.%06d %s::%s: image[%u] pa 0x%llx\n"
+- "%06ld.%06d %s::%s: img %p\n"
+- "%06ld.%06d %s::%s: in sleep, ignore\n"
+- "%06ld.%06d %s::%s: incorrect alignment\n"
+- "%06ld.%06d %s::%s: index %u\n"
+- "%06ld.%06d %s::%s: index %u, ccid %u, cookie: 0x%lx, size %u, code %u, last %u\n"
+- "%06ld.%06d %s::%s: index %u, command %u, seq %u, reliable %u\n"
+- "%06ld.%06d %s::%s: index %u, ere %p, type %u\n"
+- "%06ld.%06d %s::%s: index %u, pa 0x%llx, size %u, code %u\n"
+- "%06ld.%06d %s::%s: index %u, write physical address 0x%llx\n"
+- "%06ld.%06d %s::%s: index out of range\n"
+- "%06ld.%06d %s::%s: initializing device wake to %s\n"
+- "%06ld.%06d %s::%s: interface is inactive\n"
+- "%06ld.%06d %s::%s: interval %llu\n"
+- "%06ld.%06d %s::%s: interval in us %llu, time mode %u\n"
+- "%06ld.%06d %s::%s: intfIdx %lu\n"
+- "%06ld.%06d %s::%s: link state already up\n"
+- "%06ld.%06d %s::%s: link state: %u, bailing!\n"
+- "%06ld.%06d %s::%s: linkState %u\n"
+- "%06ld.%06d %s::%s: looking for next cap at: 0x%p, offset (from bar0): %u\n"
+- "%06ld.%06d %s::%s: memSize %llu\n"
+- "%06ld.%06d %s::%s: memSize = %llu\n"
+- "%06ld.%06d %s::%s: memory is not page aligned\n"
+- "%06ld.%06d %s::%s: memory size is not page aligned\n"
+- "%06ld.%06d %s::%s: mhi attach/start device failed %p\n"
+- "%06ld.%06d %s::%s: mhi attach/start interface failed %p\n"
+- "%06ld.%06d %s::%s: mhi state: %u\n"
+- "%06ld.%06d %s::%s: msi in unexpected state %u\n"
+- "%06ld.%06d %s::%s: msi index out of range\n"
+- "%06ld.%06d %s::%s: msi index range overrun\n"
+- "%06ld.%06d %s::%s: msi index: %u\n"
+- "%06ld.%06d %s::%s: msi range malformed\n"
+- "%06ld.%06d %s::%s: nothing to do here... bailing.\n"
+- "%06ld.%06d %s::%s: numChannelContext (%u) greater than supported by device %d\n"
+- "%06ld.%06d %s::%s: numEvents (%u) greater than supported by device %d\n"
+- "%06ld.%06d %s::%s: numHWChannelContext (%u) greater than supported by device %d\n"
+- "%06ld.%06d %s::%s: numHWEvents (%u) greater than supported by device %d\n"
+- "%06ld.%06d %s::%s: options 0x%08x\n"
+- "%06ld.%06d %s::%s: pa 0x%llx\n"
+- "%06ld.%06d %s::%s: pa 0x%llx, completion code %u\n"
+- "%06ld.%06d %s::%s: pcie reset seperation workaround needed in ROM!\n"
+- "%06ld.%06d %s::%s: polling for MHICTRL.RESET to be 0, MHICTRL: 0x%x\n"
+- "%06ld.%06d %s::%s: pool needs to be atleast of dart page size %u\n"
+- "%06ld.%06d %s::%s: provider %p, options 0x%08x\n"
+- "%06ld.%06d %s::%s: provider %p, options 0x%08x, defer %p\n"
+- "%06ld.%06d %s::%s: read %u, buffer %p, size %u\n"
+- "%06ld.%06d %s::%s: region %u does not exist\n"
+- "%06ld.%06d %s::%s: region Id: %u\n"
+- "%06ld.%06d %s::%s: register %u, buff %p, size %u\n"
+- "%06ld.%06d %s::%s: register time event callback failed, ret: 0x%08x\n"
+- "%06ld.%06d %s::%s: res = 0x%x, code %u, size = %u\n"
+- "%06ld.%06d %s::%s: res = 0x%x, size = %llu, cookie %p\n"
+- "%06ld.%06d %s::%s: ring %d, 0x%llx\n"
+- "%06ld.%06d %s::%s: ring %d, not aligned to %u\n"
+- "%06ld.%06d %s::%s: ring %d, not large enough %u\n"
+- "%06ld.%06d %s::%s: ring 0x%llx\n"
+- "%06ld.%06d %s::%s: ring not aligned to %u\n"
+- "%06ld.%06d %s::%s: ring not large enough %u\n"
+- "%06ld.%06d %s::%s: shared mem region Id: %u, already present, client needs to it unmap first!\n"
+- "%06ld.%06d %s::%s: size %u\n"
+- "%06ld.%06d %s::%s: skip doorbell flush %u, pa 0x%llx\n"
+- "%06ld.%06d %s::%s: status %u, dbg1 0x%x, dbg2 0x%x, dbg3 0x%x, errCode %u\n"
+- "%06ld.%06d %s::%s: stopping memory pool for %llu\n"
+- "%06ld.%06d %s::%s: super::start failed\n"
+- "%06ld.%06d %s::%s: t %u, arg0 %p, arg1 %p\n"
+- "%06ld.%06d %s::%s: there are more event rings than context array can hold\n"
+- "%06ld.%06d %s::%s: time config: addr: 0x%p, 0x%lx\n"
+- "%06ld.%06d %s::%s: time sync -> doorbell num: %u, event num: %u\n"
+- "%06ld.%06d %s::%s: timerMode %u, arg1 %p\n"
+- "%06ld.%06d %s::%s: to %s\n"
+- "%06ld.%06d %s::%s: unable to allocate _cacheChannelRP array\n"
+- "%06ld.%06d %s::%s: unable to allocate _channel instance array\n"
+- "%06ld.%06d %s::%s: unable to allocate _msiRange\n"
+- "%06ld.%06d %s::%s: unable to allocate _shadowChannelDoorbell array\n"
+- "%06ld.%06d %s::%s: unable to allocate _shadowEventDoorbell array\n"
+- "%06ld.%06d %s::%s: unexpected memory pool array object entry %u\n"
+- "%06ld.%06d %s::%s: unexpected msi %d\n"
+- "%06ld.%06d %s::%s: unexpected register read request\n"
+- "%06ld.%06d %s::%s: unexpected size\n"
+- "%06ld.%06d %s::%s: va 0x%llx\n"
+- "%06ld.%06d %s::%s: version 0x%08x, expected 0x%08x\n"
+- "%06ld.%06d %s::%s: will process event rings %d to %d\n"
+- "1211111212221212121111111111111111111111221221222211111111112222"
+- "12111122111"
+- "AppleBasebandPCIMAVControl::%s: failed to create/init a reporter\n"
+- "AppleBasebandPCIMAVControl::%s: failed to start reporting\n"
+- "AppleBasebandPCIMAVControlReporter"
+- "AppleBasebandPCIMAVControlReporter::%s: Failed to retrieve Device Descriptor\n"
+- "abortChannel"
+- "abortChannelGated"
+- "abortChannels"
+- "allocateChannelMemory"
+- "allocateDeviceMemory"
+- "asserted"
+- "assignChannelMemory"
+- "asyncCallCountUpdate"
+- "asyncCompletion"
+- "asyncFunction"
+- "attach"
+- "callAsync"
+- "cancelAsync"
+- "cancelImage"
+- "cancelTimer"
+- "changeState"
+- "changeToM1"
+- "checkCompletedIO"
+- "checkIndexMSIRange"
+- "checkPendingCommand"
+- "checkPendingIO"
+- "close"
+- "closeGated"
+- "coalescedTransferCompletion"
+- "commandCompletion"
+- "completeIO"
+- "completeSharedEventIO"
+- "computeChannelMemory"
+- "computeDeviceMemory"
+- "createDeviceFunction"
+- "createPools"
+- "createSetupChannel"
+- "createSetupControl"
+- "createSetupDevice"
+- "createSetupInterface"
+- "createSetupInterfaces"
+- "deRegisterChannel"
+- "deasserted"
+- "deregisterTimeEventCallback"
+- "detach"
+- "deviceAlive"
+- "deviceWake"
+- "deviceWakeAsync"
+- "device_wake assert vote"
+- "device_wake deassert vote"
+- "device_wake off"
+- "device_wake on"
+- "didTerminate"
+- "engage"
+- "enterError"
+- "enterErrorCompletion"
+- "enterLowPower"
+- "errorFunction"
+- "execEnvChangeFunction"
+- "execEnvironmentChange"
+- "exitLowPower"
+- "findTimeCapability"
+- "finishImageCommand"
+- "finishMemoryCommand"
+- "free"
+- "getChannelMSIConfig"
+- "getChannelProperties"
+- "getDesiredLinkSpeed"
+- "getReporterInterfaceNames"
+- "initWithInfo"
+- "initialize"
+- "initializeDeviceWakeDoorbell"
+- "invokeAsync"
+- "ioCompletion"
+- "ioTransfer"
+- "linkDown"
+- "linkRecovery"
+- "linkUp"
+- "mStateChangeFunction"
+- "mapAckComplete_block_invoke"
+- "mapSharedMemory"
+- "mapSharedMemory_block_invoke"
+- "mapUnmapMessageComplete"
+- "mhiReset"
+- "mhiResetDone"
+- "msiInterrupt"
+- "notifyError"
+- "open"
+- "openGated"
+- "performTimeSync"
+- "prepareImageCommand"
+- "prepareMemoryCommand"
+- "prepareTimeSync"
+- "printChannelParams"
+- "printDeviceParams"
+- "processCurrentCommand"
+- "processERE"
+- "processTRE"
+- "queueCommand"
+- "queueTransfer"
+- "read"
+- "readExecutionEnvironment"
+- "readGated"
+- "readRegister"
+- "readRegisterGated"
+- "recoveryCheck"
+- "registerChannel"
+- "registerTimeEventCallback"
+- "resetChannel"
+- "resetChannelComplete"
+- "rscIOCompletion"
+- "scanCheck"
+- "sendCommand"
+- "sendImage"
+- "sendImageCompletion"
+- "sendImageCompletionGated"
+- "sendImageGated"
+- "sendMapUnmapMessage"
+- "sendTransfer"
+- "setDevice"
+- "setUpTimeConfig"
+- "setupChannel"
+- "setupCommandRing"
+- "setupContext"
+- "setupController"
+- "setupDevice"
+- "setupDeviceParams"
+- "setupEventRing"
+- "setupMapUnmapCompletion"
+- "setupTransferRing"
+- "shadowDBCheckFunction_block_invoke"
+- "shadowDBFunction_block_invoke"
+- "shadowDoorbell"
+- "shadowDoorbellCheck"
+- "shadowDoorbellFlush"
+- "shadowDoorbellProcess"
+- "site.AppleBasebandPCIMAVControlReporter"
+- "start"
+- "startChannel"
+- "startChannelComplete"
+- "startChannelGated"
+- "startChannels"
+- "startCheck"
+- "startTimer"
+- "stateTransition"
+- "stop"
+- "stopChannel"
+- "stopChannelComplete"
+- "synchronousFunction"
+- "teardownChannel"
+- "teardownController"
+- "teardownDevice"
+- "teardownPools"
+- "terminate"
+- "terminateDevice"
+- "terminateInterface"
+- "terminateInterfaces"
+- "terminate_block_invoke"
+- "timeDomainToDeviceWakeVote"
+- "timeSync"
+- "timeSyncCompletion"
+- "timeSyncEventCallback"
+- "timeSync_block_invoke"
+- "timer"
+- "timerCompletion"
+- "timerFunction_block_invoke"
+- "transferCompletion"
+- "triggerAsync"
+- "triggerMSIFunction"
+- "triggerRecovery"
+- "unmapAckComplete_block_invoke"
+- "unmapSharedMemory"
+- "unmapSharedMemory_block_invoke"
+- "willTerminate"
+- "write"
+- "writeGated"
+- "~ABPBHIChannel"
+- "~ABPBHIDevice"
+- "~ABPMHIChannel"
+- "~ABPMHIDevice"
+
+```
+
 >  `com.apple.driver.AppleSPU`
 
 ```diff
@@ -2205,6 +1717,109 @@ CStrings:
    __TEXT_EXEC.__auth_stubs: 0x0
    __DATA.__data: 0x878
    __DATA.__common: 0x970
+
+```
+
+>  `com.apple.iokit.IODisplayPortFamily`
+
+```diff
+
+-730.0.4.0.0
++730.0.5.0.0
+   __TEXT.__cstring: 0x7c47
+   __TEXT.__os_log: 0x9571
+   __TEXT.__const: 0x310
+-  __TEXT_EXEC.__text: 0x5d094
++  __TEXT_EXEC.__text: 0x5d118
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0xc8
+   __DATA.__common: 0x550
+
+   __DATA_CONST.__got: 0x170
+   __DATA_CONST.__mod_init_func: 0x110
+   __DATA_CONST.__mod_term_func: 0x108
+-  __DATA_CONST.__const: 0xf880
++  __DATA_CONST.__const: 0xf888
+   __DATA_CONST.__kalloc_type: 0x840
+   __DATA_CONST.__kalloc_var: 0x280
+   Functions: 1961
+
+```
+
+>  `com.apple.kernel`
+
+```diff
+
+-11215.0.199.502.1
+-  __TEXT.__const: 0x33b60
++11215.2.5.0.0
++  __TEXT.__const: 0x33ba0
+   __TEXT.__copyio_vectors: 0xf0
+-  __TEXT.__cstring: 0x6bbc8
+-  __TEXT.__os_log: 0x26d59
++  __TEXT.__cstring: 0x6bab4
++  __TEXT.__os_log: 0x26c98
+   __TEXT.__eh_frame: 0x610
+   __DATA_CONST.__auth_ptr: 0x8
+   __DATA_CONST.__mod_init_func: 0x2c0
+-  __DATA_CONST.__const: 0xa2328
++  __DATA_CONST.__const: 0xa2378
+   __DATA_CONST.__hib_const: 0x120
+   __DATA_CONST.__kalloc_type: 0x13340
+   __DATA_CONST.__kalloc_var: 0x78f0
+   __DATA_CONST.__brk_desc: 0x78
+   __DATA_SPTM.__const: 0x3c000
+   __TEXT_EXEC.__hib_text: 0xc68
+-  __TEXT_EXEC.__text: 0x7fdf60
++  __TEXT_EXEC.__text: 0x7bccfc
+   __TEXT_BOOT_EXEC.__bootcode: 0x4cd8
+   __KLD.__text: 0x1644
+   __LASTDATA_CONST.__mod_init_func: 0x8
+
+   __DATA.__lock_grp: 0x57a8
+   __DATA.__percpu: 0x6e48
+   __DATA.__common: 0x58508
+-  __DATA.__bss: 0x3f7c0
++  __DATA.__bss: 0x3f778
+   __BOOTDATA.__data: 0x18000
+-  __BOOTDATA.__init_entry_set: 0x10788
++  __BOOTDATA.__init_entry_set: 0x107b8
+   __BOOTDATA.__init: 0x5b058
+   __PRELINK_TEXT.__text: 0x0
+   __PRELINK_INFO.__info: 0x0
+
+   __PLK_DATA_CONST.__data: 0x0
+   __PLK_LLVM_COV.__llvm_covmap: 0x0
+   __PLK_LINKEDIT.__data: 0x0
+-  __LINKINFO.__symbolsets: 0x4537a
++  __LINKINFO.__symbolsets: 0x45532
+   __LATE_CONST.__late_const: 0xa8
+-  Functions: 19841
++  Functions: 19804
+   Symbols:   0
+-  CStrings:  16812
++  CStrings:  16803
+ 
+CStrings:
++ "B16@?0^{task={lck_mtx_s=b24b8I(lck_mtx_state={?=b28b1b1b1b1SS}IQ)}{os_refcnt=AI}BBBBIIQ^{_vm_map}{queue_entry=^{queue_entry}^{queue_entry}}^{task_watchports}^v{queue_entry=^{queue_entry}^{queue_entry}}^{restartable_ranges}^{processor_set}^{affinity_space}iIiiissiQ{recount_task=^{recount_track}^{recount_usage}}{lck_mtx_s=b24b8I(lck_mtx_state={?=b28b1b1b1b1SS}IQ)}[4^{ipc_port}]^{ipc_port}[14{exception_action=^{ipc_port}iiii^{label}}]{hardened_exception_action={exception_action=^{ipc_port}iiii^{label}}II}^{ipc_port}^{ipc_port}^{ipc_port}^{ipc_port}^{ipc_port}[3^{ipc_port}]^^{ipc_port}^{ipc_space}^{ledger}{queue_entry=^{queue_entry}^{queue_entry}}iI^vQQCACQQiBBB^Q^Q^Q^Q^QIIIIII^{proc_ro}^{kcdata_descriptor}Q{queue_entry=^{queue_entry}^{queue_entry}}^{label}IIQQIBBBBb4b4b4b4CCCCB*^{vm_shared_region}QQQ^{thread_call}{queue_entry=^{queue_entry}^{queue_entry}}ii^{bank_task}^{ipc_importance_task}{vm_extmod_statistics=qqqqqq}{task_requested_policy=b1b1b2b2b1b1b2b1b3b3b3b1b5b3b3b1b3b1b1b3b1b3b1b1b17}{task_effective_policy=b1b1b2b1b1b1b2b1b1b3b3b1b1b1b4b1b1b1b3b3b1b1b29}{task_pend_token=(?={?=b1b1b1b1b1b1b1b1b1b1b1b1b1}I)}b1b1b1b1b1b27b1b1b1b1b28^{io_stat_info}{task_writes_counters=QQQQ}{task_writes_counters=QQQQ}{_cpu_time_qos_stats=QQQQQQQ}{_cpu_time_qos_stats=QQQQQQQ}IIQCCCiii{queue_entry=^{queue_entry}^{queue_entry}}{lck_mtx_s=b24b8I(lck_mtx_state={?=b28b1b1b1b1SS}IQ)}b16b1b1b1b1b1b1b1[2^{coalition}][2{queue_entry=^{queue_entry}^{queue_entry}}]QCCCCIQ{queue_entry=^{queue_entry}^{queue_entry}}{queue_entry=^{queue_entry}^{queue_entry}}iIQ[16C]Q^{_vmobject_list_output_}Q^{vm_deferred_reclamation_metadata_s}}8"
++ "com.apple.developer.media-device-discovery-extension"
++ "drop_loopback_count"
++ "site.u_int8_t *"
++ "task_apt_token"
+- "!IN6_IS_ADDR_MULTICAST(&ip6->ip6_dst)"
+- "%s: %s (process %s:%u) priority %u entry_count 0\n"
+- "%s:%d esp kpipe input, ipversion %u, SPI=%x"
+- "%s:%d esp kpipe input, output buffer is short(%u), compared to input buffer(%u) SPI=%x\n"
+- "(sb->sb_flags & SB_LOCK) == 0"
+- "B16@?0^{task={lck_mtx_s=b24b8I(lck_mtx_state={?=b28b1b1b1b1SS}IQ)}{os_refcnt=AI}BBBBIIQ^{_vm_map}{queue_entry=^{queue_entry}^{queue_entry}}^{task_watchports}^v{queue_entry=^{queue_entry}^{queue_entry}}^{restartable_ranges}^{processor_set}^{affinity_space}iIiiissiQ{recount_task=^{recount_track}^{recount_usage}}{lck_mtx_s=b24b8I(lck_mtx_state={?=b28b1b1b1b1SS}IQ)}[4^{ipc_port}]^{ipc_port}[14{exception_action=^{ipc_port}iiii^{label}}]{hardened_exception_action={exception_action=^{ipc_port}iiii^{label}}II}^{ipc_port}^{ipc_port}^{ipc_port}^{ipc_port}^{ipc_port}[3^{ipc_port}]^^{ipc_port}^{ipc_space}^{ledger}{queue_entry=^{queue_entry}^{queue_entry}}iI^vQQCACQQiBB^Q^Q^Q^Q^QIIIIII^{proc_ro}^{kcdata_descriptor}Q{queue_entry=^{queue_entry}^{queue_entry}}^{label}IIQQIBBBBb4b4b4b4CCCCB*^{vm_shared_region}QQQ^{thread_call}{queue_entry=^{queue_entry}^{queue_entry}}ii^{bank_task}^{ipc_importance_task}{vm_extmod_statistics=qqqqqq}{task_requested_policy=b1b1b2b2b1b1b2b1b3b3b3b1b5b3b3b1b3b1b1b3b1b3b1b1b17}{task_effective_policy=b1b1b2b1b1b1b2b1b1b3b3b1b1b1b4b1b1b1b3b3b1b1b29}{task_pend_token=(?={?=b1b1b1b1b1b1b1b1b1b1b1b1b1}I)}b1b1b1b1b1b27b1b1b1b1b28^{io_stat_info}{task_writes_counters=QQQQ}{task_writes_counters=QQQQ}{_cpu_time_qos_stats=QQQQQQQ}{_cpu_time_qos_stats=QQQQQQQ}IIQCCCiii{queue_entry=^{queue_entry}^{queue_entry}}{lck_mtx_s=b24b8I(lck_mtx_state={?=b28b1b1b1b1SS}IQ)}b16b1b1b1b1b1b1b1[2^{coalition}][2{queue_entry=^{queue_entry}^{queue_entry}}]QCCCCIQ{queue_entry=^{queue_entry}^{queue_entry}}{queue_entry=^{queue_entry}^{queue_entry}}iIQ[16C]Q^{_vmobject_list_output_}Q^{vm_deferred_reclamation_metadata_s}}8"
+- "IS_P2ALIGNED(ccp, CHANNEL_CACHE_ALIGN_MAX)"
+- "authentication failed in IPv6 AH input: %s %s\n"
+- "ndopts == NULL in nd6_option @%s:%d"
+- "ndopts->nd_opts_last >= ndopts->nd_opts_search"
+- "necp_get_tlv_at_offset buffer is NULL"
+- "rt_key(rt)->sa_family == AF_INET"
+- "site.u_int8_t * __attribute__((__indexable__))"
+- "src.s_addr != INADDR_ANY"
 
 ```
 
@@ -2236,6 +1851,132 @@ CStrings:
  
 CStrings:
 + "/private/var/db/darwindaemon"
+
+```
+
+>  `com.apple.driver.AppleDCPDPTXProxy`
+
+```diff
+
+-311.0.16.0.0
++311.0.17.0.0
+   __TEXT.__const: 0x48
+   __TEXT.__cstring: 0x1007
+   __TEXT.__os_log: 0xa0c
+-  __TEXT_EXEC.__text: 0x84c0
++  __TEXT_EXEC.__text: 0x8518
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0xc8
+   __DATA.__common: 0xd8
+-  __DATA_CONST.__auth_got: 0x1b0
++  __DATA_CONST.__auth_got: 0x1b8
+   __DATA_CONST.__got: 0x88
+   __DATA_CONST.__mod_init_func: 0x28
+   __DATA_CONST.__mod_term_func: 0x28
+-  __DATA_CONST.__const: 0x2b38
++  __DATA_CONST.__const: 0x2b50
+   __DATA_CONST.__kalloc_type: 0x140
+-  Functions: 281
++  Functions: 282
+   Symbols:   0
+   CStrings:  198
+ 
+
+```
+
+>  `com.apple.driver.AppleM2ScalerCSCDriver`
+
+```diff
+
+-148.0.50.0.0
+-  __TEXT.__cstring: 0x165e9
+-  __TEXT.__const: 0x4ecb8
+-  __TEXT_EXEC.__text: 0xd6130
++148.0.53.0.0
++  __TEXT.__cstring: 0x1673a
++  __TEXT.__const: 0x4ecc8
++  __TEXT_EXEC.__text: 0xd5ff8
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0x1fe40
+   __DATA.__common: 0x20a8
+
+   __DATA_CONST.__const: 0x210b8
+   __DATA_CONST.__kalloc_type: 0x3c40
+   __DATA_CONST.__kalloc_var: 0x500
+-  Functions: 6008
++  Functions: 6012
+   Symbols:   0
+-  CStrings:  2384
++  CStrings:  2392
+ 
+CStrings:
++ "1222222222212111111112111111111111111111122122112212"
++ "1222222222212111111112111111111111111111122122112212112222222"
++ "12222222222121111111121111111111111111111221221122121122222221111111221111111111111111111122222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222000020000000"
++ "Awake"
++ "SleepAcked"
++ "SleepRequested"
++ "[IOSA][Boot ] Req 0x%x Resumption on MSR%d\n"
++ "[IOSA][Boot ] Req 0x%x Waiting for MSR%d wake\n"
++ "[IOSA][Boot ] [MSR%u] SleepState transition from %s to %s\n"
++ "[IOSA][Boot ] kConfigKeyIsShippedDevice=%d\n"
++ "activateForMapping_gated"
++ "commandSleep failed with %d\n"
++ "powerRefCount cannot be zero with kSPSSleepAcked. [MSR%d] partition %d newState %d oldState %d refCount %d"
+- "     req %d prio %d ctx_sw_cnt %d\n"
+- "122222222221211111111211111111111111111112212211221"
+- "122222222221211111111211111111111111111112212211221112222222"
+- "12222222222121111111121111111111111111111221221122111222222211111112211111111111111111111222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222220000020000000"
+- "canContextSwitch"
+
+```
+
+>  `com.apple.driver.RTBuddy`
+
+```diff
+
+-618.0.5.0.0
++618.0.7.0.0
+   __TEXT.__cstring: 0x947e
+   __TEXT.__const: 0x278
+-  __TEXT_EXEC.__text: 0x3f918
++  __TEXT_EXEC.__text: 0x3f970
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0x128
+   __DATA.__common: 0xb20
+CStrings:
++ "03:08:48"
++ "Aug  8 2024"
+- "20:48:46"
+- "Jul 30 2024"
+
+```
+
+>  `com.apple.filesystems.apfs`
+
+```diff
+
+-2313.0.4.0.7
++2313.2.1.0.0
+   __TEXT.__const: 0x790
+-  __TEXT.__cstring: 0x4854d
+-  __TEXT_EXEC.__text: 0x139de0
++  __TEXT.__cstring: 0x48545
++  __TEXT_EXEC.__text: 0x139de4
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0x690
+   __DATA.__bss: 0xc60
+CStrings:
++ "00:56:37"
++ "2024/08/08"
++ "2313.2.1"
++ "Aug  8 2024"
++ "apfs-2313.2.1"
+- "2024/07/30"
+- "20:38:21"
+- "2313.0.4.0.7"
+- "Jul 30 2024"
+- "apfs-2313.0.4.0.7"
 
 ```
 
@@ -2357,97 +2098,356 @@ CStrings:
 
 ```
 
->  `com.apple.driver.AppleDCPDPTXProxy`
+>  `com.apple.driver.AppleBasebandPCIMAVPDP`
 
 ```diff
 
--311.0.16.0.0
-+311.0.17.0.0
-   __TEXT.__const: 0x48
-   __TEXT.__cstring: 0x1007
-   __TEXT.__os_log: 0xa0c
--  __TEXT_EXEC.__text: 0x84c0
-+  __TEXT_EXEC.__text: 0x8518
+ 810.0.0.0.0
+   __TEXT.__const: 0x128
+-  __TEXT.__cstring: 0x4bd1
+-  __TEXT_EXEC.__text: 0x2456c
++  __TEXT.__cstring: 0xcf4
++  __TEXT_EXEC.__text: 0xbf90
    __TEXT_EXEC.__auth_stubs: 0x0
    __DATA.__data: 0xc8
-   __DATA.__common: 0xd8
--  __DATA_CONST.__auth_got: 0x1b0
-+  __DATA_CONST.__auth_got: 0x1b8
-   __DATA_CONST.__got: 0x88
-   __DATA_CONST.__mod_init_func: 0x28
-   __DATA_CONST.__mod_term_func: 0x28
--  __DATA_CONST.__const: 0x2b38
-+  __DATA_CONST.__const: 0x2b50
-   __DATA_CONST.__kalloc_type: 0x140
--  Functions: 281
-+  Functions: 282
+   __DATA.__common: 0x128
+   __DATA.__bss: 0xb0
+-  __DATA_CONST.__auth_got: 0x2d8
+-  __DATA_CONST.__got: 0x80
++  __DATA_CONST.__auth_got: 0x2b8
++  __DATA_CONST.__got: 0x70
+   __DATA_CONST.__mod_init_func: 0x70
+   __DATA_CONST.__mod_term_func: 0x38
+-  __DATA_CONST.__const: 0x3818
++  __DATA_CONST.__const: 0x3810
+   __DATA_CONST.__kalloc_type: 0x400
+-  Functions: 363
++  Functions: 364
    Symbols:   0
-   CStrings:  198
- 
-
-```
-
->  `com.apple.driver.AppleMobileDispH16P-DCP`
-
-```diff
-
--395.30.0.0.0
--  __TEXT.__cstring: 0x5658
-+395.33.3.0.0
-+  __TEXT.__cstring: 0x56a0
-   __TEXT.__const: 0x1a78
--  __TEXT_EXEC.__text: 0x20970
-+  __TEXT_EXEC.__text: 0x20b6c
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0x2b8
-   __DATA.__common: 0xf0
-   __DATA.__bss: 0x170
-   __DATA_CONST.__auth_got: 0x708
--  __DATA_CONST.__got: 0xe0
-+  __DATA_CONST.__got: 0xe8
-   __DATA_CONST.__mod_init_func: 0x18
-   __DATA_CONST.__mod_term_func: 0x18
--  __DATA_CONST.__const: 0x3e40
-+  __DATA_CONST.__const: 0x3e88
-   __DATA_CONST.__kalloc_type: 0x640
-   __DATA_CONST.__kalloc_var: 0xf0
--  Functions: 1109
-+  Functions: 1111
-   Symbols:   0
--  CStrings:  510
-+  CStrings:  512
+-  CStrings:  362
++  CStrings:  52
  
 CStrings:
-+ "IOMFBWindowedVsyncOffDisableDetachingKey"
-+ "iomfb_swap_submit_split_enable"
-
-```
-
->  `com.apple.filesystems.apfs`
-
-```diff
-
--2313.0.4.0.7
-+2313.2.1.0.0
-   __TEXT.__const: 0x790
--  __TEXT.__cstring: 0x4854d
--  __TEXT_EXEC.__text: 0x139de0
-+  __TEXT.__cstring: 0x48545
-+  __TEXT_EXEC.__text: 0x139de4
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0x690
-   __DATA.__bss: 0xc60
-CStrings:
-+ "00:56:37"
-+ "2024/08/08"
-+ "2313.2.1"
-+ "Aug  8 2024"
-+ "apfs-2313.2.1"
-- "2024/07/30"
-- "20:38:21"
-- "2313.0.4.0.7"
-- "Jul 30 2024"
-- "apfs-2313.0.4.0.7"
++ "1211111212221212111111112111112111111111111121121121121111211211111212222"
++ "12111112122212121111211122222221211111222221212"
++ "12111112122212121212111111111111111111111222222222222222222222222222222222221111111111111111111111111111111111111111111111111111111111111111111111222222222222222221111121122222222221111111111111111222122222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222111111111111111111111111111111112222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222211111111111111112222"
++ "12111112122212121212111111111111111111111222222222222222222222222222222222221111111111111111111111111111111111111111111111111111111111111111111111222222222222222221111121122222222222222222222222212212112"
++ "121111121222121212121111111111111111111112222222222222222222222222222222222211111111111111111111111111111111111111111111111111111111111111111111112222222222222222211111211222222222222222222222222122121121"
+- "%06ld.%06d %s::%s: \n"
+- "%06ld.%06d %s::%s: %s: --> \n"
+- "%06ld.%06d %s::%s: %u commands, pdp:packets: 0:%u 1:%u 2:%u 3:%u 4:%u 5:%u 6:%u 7:%u\n"
+- "%06ld.%06d %s::%s: -- Done.\n"
+- "%06ld.%06d %s::%s: -- done!\n"
+- "%06ld.%06d %s::%s: --done\n"
+- "%06ld.%06d %s::%s: Adding Tx pkt meta data failed with 0x%08x\n"
+- "%06ld.%06d %s::%s: Avail data indication -- qmap hdr 0x%08x\n"
+- "%06ld.%06d %s::%s: Avail data indication raw data 0x%08x %08x %08x %08x\n"
+- "%06ld.%06d %s::%s: Avail data timer expired, but interface was closed\n"
+- "%06ld.%06d %s::%s: Available data is non-zero, bytes: %u\n"
+- "%06ld.%06d %s::%s: Bad DL dump (offset=%llu, remain=%llu)\n"
+- "%06ld.%06d %s::%s: Bad RSC header\n"
+- "%06ld.%06d %s::%s: Bearer already mapped to Default Service\n"
+- "%06ld.%06d %s::%s: Bearer already mapped to Low Latency Service\n"
+- "%06ld.%06d %s::%s: Bearer switch already pending, ownerID: %u, bearerID: %u\n"
+- "%06ld.%06d %s::%s: Bearer switch complete !\n"
+- "%06ld.%06d %s::%s: Bearer switch in progress\n"
+- "%06ld.%06d %s::%s: Bearer switch notify!\n"
+- "%06ld.%06d %s::%s: Bearer switch request for ownerID: %u, bearer ID: %u, req type: %u\n"
+- "%06ld.%06d %s::%s: BearerID: %u not present for OwnerID: %u"
+- "%06ld.%06d %s::%s: Blocking outgoing traffic due to IP appender (unit number %u)\n"
+- "%06ld.%06d %s::%s: Cmd header: name 0x%02x: type 0x%02x: reserved 0x%04x: trans_id 0x%08x\n"
+- "%06ld.%06d %s::%s: Command response raw data 0x%08x %08x %08x %08x %08x\n"
+- "%06ld.%06d %s::%s: Creating interface: pdp_qctun\n"
+- "%06ld.%06d %s::%s: DFC End Marker Ack already pending for ownerID: %u\n"
+- "%06ld.%06d %s::%s: DFC End Marker command invalid length %u\n"
+- "%06ld.%06d %s::%s: DFC End Marker command raw data 0x%08x %08x %08x\n"
+- "%06ld.%06d %s::%s: DFC Info Query response raw data 0x%08x %08x\n"
+- "%06ld.%06d %s::%s: DFC Info query -- qmap hdr 0x%08x\n"
+- "%06ld.%06d %s::%s: DFC Info query -- qmap hdr 0x%08x %08x\n"
+- "%06ld.%06d %s::%s: DFC Info query for bearer ID: %u, ownerID: %u\n"
+- "%06ld.%06d %s::%s: DFC Info query raw data 0x%08x\n"
+- "%06ld.%06d %s::%s: DFC Query info response invalid length %u\n"
+- "%06ld.%06d %s::%s: DFC notify command invalid length %u\n"
+- "%06ld.%06d %s::%s: DFC notify command raw data 0x%08x %08x %08x\n"
+- "%06ld.%06d %s::%s: DFC power save mode ack not received!\n"
+- "%06ld.%06d %s::%s: DFC_INFO_QUERY response, ignore query response for inactive bearer ownerID: %u, bearer ID: %u, credits: %u\n"
+- "%06ld.%06d %s::%s: DFC_INFO_QUERY response, ignore query response for unmapped bearer ownerID: %u, bearer ID: %u, credits: %u\n"
+- "%06ld.%06d %s::%s: DL packet dump\n"
+- "%06ld.%06d %s::%s: DL packet dump (offset=%llu, length=%u, remain=%llu)\n"
+- "%06ld.%06d %s::%s: Data powersave mode command -- qmap hdr 0x%08x\n"
+- "%06ld.%06d %s::%s: Data powersave mode command raw data 0x%08x %08x %08x %08x %08x\n"
+- "%06ld.%06d %s::%s: Deferring Ack for DFC End Marker\n"
+- "%06ld.%06d %s::%s: Delete _CreditsQueue entries for intf: %u\n"
+- "%06ld.%06d %s::%s: Duplicate / redundant bearer removed notification for bearerID: %u, ownerID: %u, seq num: %u\n"
+- "%06ld.%06d %s::%s: Duplicate DFC_NOTIFY command for bearerID: %u, ownerID: %u, seq num: %u\n"
+- "%06ld.%06d %s::%s: Error detected on Modem - removing bearerID: %u\n"
+- "%06ld.%06d %s::%s: Failed to create matching dictionary\n"
+- "%06ld.%06d %s::%s: Flushing pci service's stage queue pkts to queue set, packetCnt: %u\n"
+- "%06ld.%06d %s::%s: Got reset bearers marker: %u for this interface\n"
+- "%06ld.%06d %s::%s: Hdr Size:%u interface %u, pkt size %u, padding %u\n"
+- "%06ld.%06d %s::%s: IP Appender failed with 0x%08x\n"
+- "%06ld.%06d %s::%s: Incorrect bearer mapping state, ownerID: %u, bearerID: %u, current mapped owner: %u\n"
+- "%06ld.%06d %s::%s: Inserting at HEAD\n"
+- "%06ld.%06d %s::%s: Inserting at Tail\n"
+- "%06ld.%06d %s::%s: Inserting before ownerID: %u, bearer ID: %u, credits: %u,\n"
+- "%06ld.%06d %s::%s: Interface advisory report: owner %u: payload bytes %u\n"
+- "%06ld.%06d %s::%s: Invalid NL pair data length, expected: %u, actual: %u\n"
+- "%06ld.%06d %s::%s: Invalid bearer status : %u\n"
+- "%06ld.%06d %s::%s: Invalid bearer status: %u, for bearer ID: %u\n"
+- "%06ld.%06d %s::%s: Invalid bearer switch request type, req type: %u\n"
+- "%06ld.%06d %s::%s: Invalid chksm\n"
+- "%06ld.%06d %s::%s: Invalid intf number: %u!\n"
+- "%06ld.%06d %s::%s: Invalid number of NLs, received: %u, max: %u\n"
+- "%06ld.%06d %s::%s: Invalid number of bearers: %u\n"
+- "%06ld.%06d %s::%s: Invalid ownerID : %u\n"
+- "%06ld.%06d %s::%s: Invalid ownerID: %u\n"
+- "%06ld.%06d %s::%s: Invalid ownerID: %u, bearerID: %u already mapped to ownerID: %u\n"
+- "%06ld.%06d %s::%s: Invalid request type: %u\n"
+- "%06ld.%06d %s::%s: LL Bearer Switch Ack raw data 0x%08x %08x\n"
+- "%06ld.%06d %s::%s: LL Bearer Switch Request Ack invalid length %u != (Header + Payload) size: %u\n"
+- "%06ld.%06d %s::%s: LL Bearer Switch Request Ack invalid length %u < Header Size: %u\n"
+- "%06ld.%06d %s::%s: LL Bearer Switch Status command, invalid length %u != (Header + Payload) size: %u\n"
+- "%06ld.%06d %s::%s: LL Bearer Switch Status raw data 0x%08x %08x\n"
+- "%06ld.%06d %s::%s: LQM report: owner %u: payload bytes %u\n"
+- "%06ld.%06d %s::%s: NL pair data len (%u), exceeded max len\n"
+- "%06ld.%06d %s::%s: NL[%u](Length: %u, chksum map: 0x%x, NumPkts: %u)\n"
+- "%06ld.%06d %s::%s: NULL owner!\n"
+- "%06ld.%06d %s::%s: No UL pkts queued for ownerID: %u\n"
+- "%06ld.%06d %s::%s: No bearer present for this OwnerID: %u\n"
+- "%06ld.%06d %s::%s: No bearer present for this ownerID: %u\n"
+- "%06ld.%06d %s::%s: No credit update for owner: %u\n"
+- "%06ld.%06d %s::%s: PCIe link is down or is going down\n"
+- "%06ld.%06d %s::%s: Packet txid: %u, Expected txid: %u\n"
+- "%06ld.%06d %s::%s: Packet type is not QMAP control! \n"
+- "%06ld.%06d %s::%s: Packet: %p, Txid: %u\n"
+- "%06ld.%06d %s::%s: Preparing response: %s\n"
+- "%06ld.%06d %s::%s: Previous tail entry - ownerID: %u, bearer ID: %u, credits: %u,\n"
+- "%06ld.%06d %s::%s: RSC service: %u\n"
+- "%06ld.%06d %s::%s: Received DFC_END_MARKER for ownerID: %u, bearer ID: %u, seqNum: %u\n"
+- "%06ld.%06d %s::%s: Received DFC_INFO_QUERY response for ownerID: %u, bearer ID: %u, credits: %u\n"
+- "%06ld.%06d %s::%s: Received DFC_NOTIFY for ownerID: %u, bearer ID: %u, credits: %u, seq num: %u, bearer status: %u\n"
+- "%06ld.%06d %s::%s: Redundant bearer removed notificaiton, bearer ID: %u already removed\n"
+- "%06ld.%06d %s::%s: Removing bearer failed!\n"
+- "%06ld.%06d %s::%s: Request Bearer Switch -- qmap cmd hdr 0x%08x %08x\n"
+- "%06ld.%06d %s::%s: Request Bearer Switch -- qmap hdr 0x%08x\n"
+- "%06ld.%06d %s::%s: Request Bearer Switch raw data 0x%08x %08x\n"
+- "%06ld.%06d %s::%s: Sending DFC End Marker Ack for ownerID: %u\n"
+- "%06ld.%06d %s::%s: Setting packet buffer base / limit failed: 0x%llx\n"
+- "%06ld.%06d %s::%s: Start --\n"
+- "%06ld.%06d %s::%s: Start, options 0x%08x --\n"
+- "%06ld.%06d %s::%s: Stop queueing pkts - DFC end marker / UL flow switched!\n"
+- "%06ld.%06d %s::%s: Tcp Ack Allowed: %u\n"
+- "%06ld.%06d %s::%s: Temp failure in switching bearer ID: %u\n"
+- "%06ld.%06d %s::%s: Trigger DFC End Marker Ack\n"
+- "%06ld.%06d %s::%s: UL packet dump\n"
+- "%06ld.%06d %s::%s: Unexpected - bearer info entry is NULL!\n"
+- "%06ld.%06d %s::%s: Unexpected Tx\n"
+- "%06ld.%06d %s::%s: Unexpected command in RSC channel\n"
+- "%06ld.%06d %s::%s: Unexpected control packet for out of band Qmap control service\n"
+- "%06ld.%06d %s::%s: Unexpected next header for RSC\n"
+- "%06ld.%06d %s::%s: Unexpected pci service ID: %u\n"
+- "%06ld.%06d %s::%s: Unknown or unhandled command, name: %u\n"
+- "%06ld.%06d %s::%s: Unmapping bearerID: %u from OwnerID: %u\n"
+- "%06ld.%06d %s::%s: Unsupported status\n"
+- "%06ld.%06d %s::%s: Updated credits for ownerID: %u, credits remaining: %u\n"
+- "%06ld.%06d %s::%s: [%u] bearerID: %u, credits: %u\n"
+- "%06ld.%06d %s::%s: _rxHEAD: %p, _rxTail: %p\n"
+- "%06ld.%06d %s::%s: allowed Tx bytes: %u\n"
+- "%06ld.%06d %s::%s: bad command packet size: %u\n"
+- "%06ld.%06d %s::%s: bad length %u for link status report payload\n"
+- "%06ld.%06d %s::%s: bearer switch ack, bearer ID: %u, status: %u\n"
+- "%06ld.%06d %s::%s: bearer switch status, bearer ID: %u, status: %u\n"
+- "%06ld.%06d %s::%s: bearer switch was not pending! bearer ID: %u, \n"
+- "%06ld.%06d %s::%s: bearer switch was not successful! bearer ID: %u, \n"
+- "%06ld.%06d %s::%s: bearer switch was not successful! bearer ID: %u, status: %u \n"
+- "%06ld.%06d %s::%s: bytesRead (%llu) != header (%lu) + body (%u)\n"
+- "%06ld.%06d %s::%s: cache max reached, dropping packet\n"
+- "%06ld.%06d %s::%s: cannot receive interface advisory report for nonexisting owner %u\n"
+- "%06ld.%06d %s::%s: cannot receive link status report for nonexisting owner %u\n"
+- "%06ld.%06d %s::%s: chain length = %u\n"
+- "%06ld.%06d %s::%s: chain length = %u, txid 0x%u --> 0x%u, total DL data %u bytes\n"
+- "%06ld.%06d %s::%s: cksmValid: %u, numNLs: %u, incIPID: %u\n"
+- "%06ld.%06d %s::%s: close called on an unopened client %p\n"
+- "%06ld.%06d %s::%s: closeVal: %u, closeType: %u, contextID: %u\n"
+- "%06ld.%06d %s::%s: cmd header: name 0x%02x: type 0x%02x: reserved 0x%04x: trans_id 0x%08x\n"
+- "%06ld.%06d %s::%s: cmd version: %u\n"
+- "%06ld.%06d %s::%s: command header raw data: 0x%08x 0x%08x\n"
+- "%06ld.%06d %s::%s: command name: %u\n"
+- "%06ld.%06d %s::%s: consumed:%u\n"
+- "%06ld.%06d %s::%s: count %u\n"
+- "%06ld.%06d %s::%s: count %u, telescoping limit %u\n"
+- "%06ld.%06d %s::%s: count: %u\n"
+- "%06ld.%06d %s::%s: dealloc packet %p directly\n"
+- "%06ld.%06d %s::%s: device: %p, stateNumber: %lu\n"
+- "%06ld.%06d %s::%s: disable soft flow control for pdp_ip%u due to %u pending write bytes\n"
+- "%06ld.%06d %s::%s: disabling flow control due to QMAP command\n"
+- "%06ld.%06d %s::%s: draining pci service's stage queue pkts to queue set, packetCnt: %u\n"
+- "%06ld.%06d %s::%s: duplicate QMAP extension header type (%u)\n"
+- "%06ld.%06d %s::%s: enabling flow control due to QMAP command\n"
+- "%06ld.%06d %s::%s: enabling flow control for pdp_ip%u due to %u pending Tx bytes\n"
+- "%06ld.%06d %s::%s: error 0x%08x\n"
+- "%06ld.%06d %s::%s: failed to clone packet\n"
+- "%06ld.%06d %s::%s: failed to create Available data zero indication timer\n"
+- "%06ld.%06d %s::%s: failed to create Rx queue\n"
+- "%06ld.%06d %s::%s: failed to create Tx completion queue\n"
+- "%06ld.%06d %s::%s: failed to create Tx queue\n"
+- "%06ld.%06d %s::%s: failed to create power save mode timer\n"
+- "%06ld.%06d %s::%s: failed to open provider\n"
+- "%06ld.%06d %s::%s: failed to set packet limits: 0x%08x\n"
+- "%06ld.%06d %s::%s: flow control %s: owner %u: ipFamily %u: sequence 0x%04x: QoS 0x%08x\n"
+- "%06ld.%06d %s::%s: flow control command invalid IP family %u\n"
+- "%06ld.%06d %s::%s: flow control command invalid length %u\n"
+- "%06ld.%06d %s::%s: flow control command raw data 0x%08x %08x\n"
+- "%06ld.%06d %s::%s: flow control disable sequence number mismatch (got %u, expected %u)\n"
+- "%06ld.%06d %s::%s: flow controlling bearerID: %u, ownerID: %u\n"
+- "%06ld.%06d %s::%s: found client, unit %u\n"
+- "%06ld.%06d %s::%s: free count: %u\n"
+- "%06ld.%06d %s::%s: interface %u not opened yet, packet will be queued\n"
+- "%06ld.%06d %s::%s: interface %u, size %u, padding %u, command %u\n"
+- "%06ld.%06d %s::%s: interface 0x%p not found\n"
+- "%06ld.%06d %s::%s: interface down\n"
+- "%06ld.%06d %s::%s: intf %p, count %u\n"
+- "%06ld.%06d %s::%s: intf number: %u, open: %u, owner = %p\n"
+- "%06ld.%06d %s::%s: invalid interface %d\n"
+- "%06ld.%06d %s::%s: invalid length for LQM command, length: %u\n"
+- "%06ld.%06d %s::%s: invalid null header\n"
+- "%06ld.%06d %s::%s: invoked with packetCount = 0\n"
+- "%06ld.%06d %s::%s: kOffPowerState\n"
+- "%06ld.%06d %s::%s: kOffPowerState, enable data powersave mode, allow notification: %u\n"
+- "%06ld.%06d %s::%s: kOnPowerState, disable data powersave mode\n"
+- "%06ld.%06d %s::%s: konPowerState\n"
+- "%06ld.%06d %s::%s: last queued pkt completed, trigger DFC end marker Ack for %u\n"
+- "%06ld.%06d %s::%s: link status report: owner %u: payload bytes %u\n"
+- "%06ld.%06d %s::%s: low latency service: %u\n"
+- "%06ld.%06d %s::%s: null header\n"
+- "%06ld.%06d %s::%s: out of band QMAP control: %u\n"
+- "%06ld.%06d %s::%s: oversize header (%u < %u)\n"
+- "%06ld.%06d %s::%s: oversize header (%u < %zu)\n"
+- "%06ld.%06d %s::%s: owner %u does not exist, processing command anyway\n"
+- "%06ld.%06d %s::%s: owner: %u is inactive\n"
+- "%06ld.%06d %s::%s: owner: %u is not active\n"
+- "%06ld.%06d %s::%s: owner: %u is not opened yet\n"
+- "%06ld.%06d %s::%s: ownerID: %u\n"
+- "%06ld.%06d %s::%s: ownerID: %u has no bearer info entry for bearerID: %u\n"
+- "%06ld.%06d %s::%s: ownerID: %u was previously flow controlled, updated credits: %u\n"
+- "%06ld.%06d %s::%s: ownerID: %u, avail data bytes: %u\n"
+- "%06ld.%06d %s::%s: ownerID: %u, bearerID: %u, Active -> Removed\n"
+- "%06ld.%06d %s::%s: ownerID: %u, bearerID: %u, Inactive -> Active\n"
+- "%06ld.%06d %s::%s: ownerID: %u, bearerID: %u, curr bearer state: %u, new status: %u\n"
+- "%06ld.%06d %s::%s: ownerID: %u, bearerID: %u, switchStatus: %u\n"
+- "%06ld.%06d %s::%s: ownerID: %u, credits queue...\n"
+- "%06ld.%06d %s::%s: packet 0x%p, count: %u\n"
+- "%06ld.%06d %s::%s: packet: %p, TxID: %u\n"
+- "%06ld.%06d %s::%s: packet: %p, TxID: %u, next TxID: %u, count: %u\n"
+- "%06ld.%06d %s::%s: pad bytes (%u) is >= total length (%u)\n"
+- "%06ld.%06d %s::%s: pci service not available\n"
+- "%06ld.%06d %s::%s: pciService not available\n"
+- "%06ld.%06d %s::%s: pdp:packets: 0:%u 1:%u 2:%u 3:%u 4:%u 5:%u 6:%u 7:%u\n"
+- "%06ld.%06d %s::%s: pdp_ip%u flow controlled, but continue until soft flow control is enabled\n"
+- "%06ld.%06d %s::%s: qmap_control_service not present in plist\n"
+- "%06ld.%06d %s::%s: read size too small: %llu\n"
+- "%06ld.%06d %s::%s: received ack for Data Powersave Mode Control command\n"
+- "%06ld.%06d %s::%s: redundant flow control disable command for owner %u\n"
+- "%06ld.%06d %s::%s: redundant flow control enable command for owner %u\n"
+- "%06ld.%06d %s::%s: refCon 0x%p, status 0x%x\n"
+- "%06ld.%06d %s::%s: refcon: %p, status 0x%x\n"
+- "%06ld.%06d %s::%s: refcon: %p, status 0x%x, enqueue: %u\n"
+- "%06ld.%06d %s::%s: registering callback for ownerID: %u\n"
+- "%06ld.%06d %s::%s: requesting upto: %llu usecs to PM\n"
+- "%06ld.%06d %s::%s: residue (%llu) < header (%lu) + body (%u)\n"
+- "%06ld.%06d %s::%s: returning free space: %u, service id: %u\n"
+- "%06ld.%06d %s::%s: sending data powersave mode, ownerID: %u, enable: %u\n"
+- "%06ld.%06d %s::%s: sending response...\n"
+- "%06ld.%06d %s::%s: sending response: %s\n"
+- "%06ld.%06d %s::%s: sent bytes: %u\n"
+- "%06ld.%06d %s::%s: sent bytes: %u, pkt cnt: %u\n"
+- "%06ld.%06d %s::%s: setting %u msecs timer\n"
+- "%06ld.%06d %s::%s: skipping disable powersave mode, first power on\n"
+- "%06ld.%06d %s::%s: soft flow control active on pdp_ip%u\n"
+- "%06ld.%06d %s::%s: staged: %u\n"
+- "%06ld.%06d %s::%s: super::handleOpen() failed\n!"
+- "%06ld.%06d %s::%s: super::open failed\n"
+- "%06ld.%06d %s::%s: too many packets in transfer (limit %u), dropping packet\n"
+- "%06ld.%06d %s::%s: transfer size %u, interface %u, txid %u\n"
+- "%06ld.%06d %s::%s: txid 0x%08x: status 0x%x, packet 0x%p\n"
+- "%06ld.%06d %s::%s: txid 0x%x\n"
+- "%06ld.%06d %s::%s: unable to get unsent bytes: 0x%x\n"
+- "%06ld.%06d %s::%s: unexpected command type %u\n"
+- "%06ld.%06d %s::%s: unexpected command type: %u\n"
+- "%06ld.%06d %s::%s: unit number %u invalid or nonexistent\n"
+- "%06ld.%06d %s::%s: unrecognized QMAP extension header type (%u)\n"
+- "%06ld.%06d %s::%s: unsupported command: name 0x%02x: type %u: transactionID 0x%08x\n"
+- "%06ld.%06d %s::%s: unsupported flow control QoS 0x%08x\n"
+- "%06ld.%06d %s::%s: updating bearer credits failed!\n"
+- "%06ld.%06d %s::%s: updating owners in QMAP control intf failed\n"
+- "%06ld.%06d %s::%s: waiting for Low Latency service\n"
+- "%06ld.%06d %s::%s: waiting for QMAP control service\n"
+- "%06ld.%06d %s::%s: waiting for RSC service\n"
+- "12111112122212121111111121111121111111111111121121121121111211211111212222"
+- "121111121222121211112111222222212111112222212121"
+- "121111121222121212121111111111111111111111222222222222222222222222222222222221111111111111111111111111111111111111111111111111111111111111111111111222222222222222221111121122222222221111111111111111222122222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222111111111111111111111111111111112222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222211111111111111112222"
+- "121111121222121212121111111111111111111111222222222222222222222222222222222221111111111111111111111111111111111111111111111111111111111111111111111222222222222222221111121122222222222222222222222212212112"
+- "1211111212221212121211111111111111111111112222222222222222222222222222222222211111111111111111111111111111111111111111111111111111111111111111111112222222222222222211111211222222222222222222222222122121121"
+- "addTxPktMetaData"
+- "allocQueues"
+- "availDataZeroTimerCompletion"
+- "bearerSwitchComplete_block_invoke"
+- "closeGated"
+- "commandResponse"
+- "commandResponse_block_invoke"
+- "createRxSubmissionQueue"
+- "decodeQMAPHeader"
+- "decodeQMAPRSCHeader"
+- "disable"
+- "discardRxPacket"
+- "dumpOwnerCreditsQueue"
+- "enable"
+- "flowControlAllBearers"
+- "free"
+- "getAvailData"
+- "getOwnerCredits_block_invoke"
+- "handleOpen"
+- "initWithOptions"
+- "openGated"
+- "outputComplete"
+- "powerSaveModeTimerCompletion"
+- "powerStateWillChangeTo"
+- "powerStateWillChangeTo_block_invoke"
+- "processBearerCreditsGated"
+- "processCtrlPacket"
+- "processDFCEndMarker"
+- "processDFCInfoQuery"
+- "processDFCLLSwitchRequest"
+- "processDFCLLSwitchStatus"
+- "processDFCNotify"
+- "processDFCPowerSaveMode"
+- "processMavExtCmdAdvisoryReport"
+- "processMavExtCmdLQM"
+- "queryFlowControlCredits_block_invoke"
+- "queryFreeULSpace"
+- "queueRxBuffersGated"
+- "readComplete"
+- "registerBearerSwitchCallback"
+- "requestBearerSwitchGated"
+- "requestTxGated"
+- "resetOwnerCreditsQueue"
+- "rxQueueCallbackGated"
+- "sendAvailDataIndication_block_invoke"
+- "sendDFCEndMarkerAck_block_invoke"
+- "sendDataPowerSaveMode_block_invoke"
+- "setBearerSwitchPending_block_invoke"
+- "setInterfaceOwnerGated"
+- "setPowerStateGated"
+- "start"
+- "terminate"
+- "triggerBearerSwitch_block_invoke"
+- "triggerRxDequeue_block_invoke"
+- "txCompletionCallbackGated"
+- "txQueueCallbackGated"
+- "updateOwnerCreditsGated_block_invoke"
+- "usesQmapControlService"
+- "willTerminate"
+- "willTerminate_block_invoke"
 
 ```
 
@@ -2459,25 +2459,32 @@ CStrings:
 
 ## MachO
 
-### 🆕 NEW (4)
+### 🆕 NEW (18)
 
+- `/System/Library/Accounts/DataclassOwners/Bookmarks.bundle/Bookmarks`
 - `/System/Library/ControlCenter/Bundles/BluetoothModule.bundle/BluetoothModule`
+- `/System/Library/ExtensionKit/Extensions/GPUExtension.appex/com.apple.WebKit.GPU`
+- `/System/Library/ExtensionKit/Extensions/NetworkingExtension.appex/com.apple.WebKit.Networking`
+- `/System/Library/ExtensionKit/Extensions/WebContentCaptivePortalExtension.appex/com.apple.WebKit.WebContent.CaptivePortal`
+- `/System/Library/ExtensionKit/Extensions/WebContentExtension.appex/com.apple.WebKit.WebContent`
 - `/System/Library/Frameworks/CoreSpotlight.framework/PlugIns/CoreSpotlightTestImporter.appex/CoreSpotlightTestImporter`
 - `/System/Library/Frameworks/CoreSpotlight.framework/PlugIns/CoreSpotlightTextImporter.appex/CoreSpotlightTextImporter`
 - `/System/Library/Frameworks/FinanceKit.framework/XPCServices/FinanceImageProcessingService.xpc/FinanceImageProcessingService`
+- `/System/Library/Frameworks/SafariServices.framework/PlugIns/SafariServices.wkbundle/SafariServices`
+- `/System/Library/Frameworks/SafariServices.framework/XPCServices/com.apple.SafariServices.ContentBlockerLoader.xpc/com.apple.SafariServices.ContentBlockerLoader`
+- `/System/Library/Frameworks/WebKit.framework/Daemons/adattributiond`
+- `/System/Library/PrivateFrameworks/PlugInKitDaemon.framework/PlugInKitDaemon`
+- `/System/Library/PrivateFrameworks/SafariFoundation.framework/XPCServices/AutoFillHelper.xpc/AutoFillHelper`
+- `/System/Library/PrivateFrameworks/SafariFoundation.framework/XPCServices/CredentialProviderExtensionHelper.xpc/CredentialProviderExtensionHelper`
+- `/System/Library/PrivateFrameworks/SafariFoundation.framework/XPCServices/SafariConfigurationSubscriber.xpc/SafariConfigurationSubscriber`
+- `/System/Library/PrivateFrameworks/SafariShared.framework/XPCServices/com.apple.Safari.SearchHelper.xpc/com.apple.Safari.SearchHelper`
+- `/System/Library/PrivateFrameworks/VisualTestKit.framework/VisualTestKit`
 
-### ❌ Removed (10)
+### ❌ Removed (3)
 
 - `/System/Library/ExtensionKit/Extensions/FinanceImageProcessingExtension.appex/FinanceImageProcessingExtension`
 - `/System/Library/Frameworks/CoreSpotlight.framework/PlugIns/CoreSpotlightImportExtension1_iOS.appex/CoreSpotlightImportExtension1_iOS`
 - `/System/Library/Frameworks/CoreSpotlight.framework/PlugIns/CoreSpotlightImportExtension2_iOS.appex/CoreSpotlightImportExtension2_iOS`
-- `/usr/lib/libLogRedirect.dylib`
-- `/usr/lib/libffi-trampolines.dylib`
-- `/usr/lib/libglInterpose.dylib`
-- `/usr/lib/libmobileassetd.dylib`
-- `/usr/lib/libobjc-trampolines.dylib`
-- `/usr/lib/libstdc++.6.0.9.dylib`
-- `/usr/libexec/BatteryAlgorithms.framework/BatteryAlgorithms`
 
 ### ⬆️ Updated (499)
 
@@ -4655,58 +4662,105 @@ CStrings:
 <details>
   <summary><i>View Updated</i></summary>
 
-#### Podcasts.plist
+#### Contacts.plist
 
->  `Domain/Podcasts.plist`
+>  `Domain/Contacts.plist`
 
 ```diff
 
- 		<key>DevelopmentPhase</key>
- 		<string>FeatureComplete</string>
+ 		<key>Enabled</key>
+ 		<true/>
  	</dict>
-+	<key>BatchFeedFetchOnPushWatch</key>
++	<key>second_stage_autoreprompt</key>
 +	<dict>
-+		<key>DevelopmentPhase</key>
-+		<string>FeatureComplete</string>
++		<key>Enabled</key>
++		<true/>
 +	</dict>
- 	<key>BlueMoonHomepod</key>
+ 	<key>snap_allow_multiple_phone_numbers</key>
  	<dict>
  		<key>DevelopmentPhase</key>
 
 ```
 
-#### Safari.plist
+#### DocumentManager.plist
 
->  `Domain/Safari.plist`
+>  `Domain/DocumentManager.plist`
 
 ```diff
 
- 	<dict>
  		<key>DevelopmentPhase</key>
  		<string>FeatureComplete</string>
--		<key>DisclosureRequired</key>
--		<string>03d84bad-ad3c-e422-c11e-4033a5bfdd94</string>
  	</dict>
- </dict>
- </plist>
+-	<key>SemanticSearch</key>
+-	<dict>
+-		<key>DevelopmentPhase</key>
+-		<string>FeatureComplete</string>
+-	</dict>
+ 	<key>ShowTips</key>
+ 	<dict>
+ 		<key>DevelopmentPhase</key>
 
 ```
 
-#### ScreenTime.plist
+#### MachineReadableCode.plist
 
->  `Domain/ScreenTime.plist`
+>  `Domain/MachineReadableCode.plist`
 
 ```diff
 
  		<key>DevelopmentPhase</key>
  		<string>FeatureComplete</string>
  	</dict>
-+	<key>data_validation</key>
++	<key>ANMDPreprocessingUsingVideoToolbox_visionOS</key>
 +	<dict>
 +		<key>DevelopmentPhase</key>
 +		<string>FeatureComplete</string>
 +	</dict>
- 	<key>feature_decoupling</key>
+ 	<key>IIE</key>
+ 	<dict>
+ 		<key>DevelopmentPhase</key>
+
+ 		<key>DevelopmentPhase</key>
+ 		<string>FeatureComplete</string>
+ 	</dict>
++	<key>PyramidGenerationOnDemandWithoutCropping_visionOS</key>
++	<dict>
++		<key>DevelopmentPhase</key>
++		<string>FeatureComplete</string>
++	</dict>
+ 	<key>PyramidGenerationUsingMSR</key>
+ 	<dict>
+ 		<key>DevelopmentPhase</key>
+
+```
+
+#### SpringBoard.plist
+
+>  `Domain/SpringBoard.plist`
+
+```diff
+
+ 		<key>DevelopmentPhase</key>
+ 		<string>FeatureComplete</string>
+ 	</dict>
++	<key>ButtonInteractionNonJindo</key>
++	<dict>
++		<key>DevelopmentPhase</key>
++		<string>FeatureComplete</string>
++	</dict>
+ 	<key>CSC</key>
+ 	<dict>
+ 		<key>DevelopmentPhase</key>
+
+ 		<key>DevelopmentPhase</key>
+ 		<string>FeatureComplete</string>
+ 	</dict>
++	<key>OnenessHomeScreenEditing</key>
++	<dict>
++		<key>DevelopmentPhase</key>
++		<string>FeatureComplete</string>
++	</dict>
+ 	<key>PAUOcclusion</key>
  	<dict>
  		<key>DevelopmentPhase</key>
 
@@ -4766,35 +4820,23 @@ CStrings:
 
 ```
 
-#### MachineReadableCode.plist
+#### MediaControls.plist
 
->  `Domain/MachineReadableCode.plist`
+>  `Domain/MediaControls.plist`
 
 ```diff
 
- 		<key>DevelopmentPhase</key>
- 		<string>FeatureComplete</string>
+ 		<key>Enabled</key>
+ 		<true/>
  	</dict>
-+	<key>ANMDPreprocessingUsingVideoToolbox_visionOS</key>
++	<key>RouteExpandAllLayouts</key>
 +	<dict>
-+		<key>DevelopmentPhase</key>
-+		<string>FeatureComplete</string>
++		<key>Enabled</key>
++		<true/>
 +	</dict>
- 	<key>IIE</key>
+ 	<key>RoutePickerNotCollapseGroupsAutomatically</key>
  	<dict>
- 		<key>DevelopmentPhase</key>
-
- 		<key>DevelopmentPhase</key>
- 		<string>FeatureComplete</string>
- 	</dict>
-+	<key>PyramidGenerationOnDemandWithoutCropping_visionOS</key>
-+	<dict>
-+		<key>DevelopmentPhase</key>
-+		<string>FeatureComplete</string>
-+	</dict>
- 	<key>PyramidGenerationUsingMSR</key>
- 	<dict>
- 		<key>DevelopmentPhase</key>
+ 		<key>Enabled</key>
 
 ```
 
@@ -4818,53 +4860,58 @@ CStrings:
 
 ```
 
-#### MediaControls.plist
+#### Podcasts.plist
 
->  `Domain/MediaControls.plist`
+>  `Domain/Podcasts.plist`
 
 ```diff
 
- 		<key>Enabled</key>
- 		<true/>
+ 		<key>DevelopmentPhase</key>
+ 		<string>FeatureComplete</string>
  	</dict>
-+	<key>RouteExpandAllLayouts</key>
++	<key>BatchFeedFetchOnPushWatch</key>
 +	<dict>
-+		<key>Enabled</key>
-+		<true/>
++		<key>DevelopmentPhase</key>
++		<string>FeatureComplete</string>
 +	</dict>
- 	<key>RoutePickerNotCollapseGroupsAutomatically</key>
+ 	<key>BlueMoonHomepod</key>
  	<dict>
- 		<key>Enabled</key>
+ 		<key>DevelopmentPhase</key>
 
 ```
 
-#### SpringBoard.plist
+#### Safari.plist
 
->  `Domain/SpringBoard.plist`
+>  `Domain/Safari.plist`
+
+```diff
+
+ 	<dict>
+ 		<key>DevelopmentPhase</key>
+ 		<string>FeatureComplete</string>
+-		<key>DisclosureRequired</key>
+-		<string>03d84bad-ad3c-e422-c11e-4033a5bfdd94</string>
+ 	</dict>
+ </dict>
+ </plist>
+
+```
+
+#### ScreenTime.plist
+
+>  `Domain/ScreenTime.plist`
 
 ```diff
 
  		<key>DevelopmentPhase</key>
  		<string>FeatureComplete</string>
  	</dict>
-+	<key>ButtonInteractionNonJindo</key>
++	<key>data_validation</key>
 +	<dict>
 +		<key>DevelopmentPhase</key>
 +		<string>FeatureComplete</string>
 +	</dict>
- 	<key>CSC</key>
- 	<dict>
- 		<key>DevelopmentPhase</key>
-
- 		<key>DevelopmentPhase</key>
- 		<string>FeatureComplete</string>
- 	</dict>
-+	<key>OnenessHomeScreenEditing</key>
-+	<dict>
-+		<key>DevelopmentPhase</key>
-+		<string>FeatureComplete</string>
-+	</dict>
- 	<key>PAUOcclusion</key>
+ 	<key>feature_decoupling</key>
  	<dict>
  		<key>DevelopmentPhase</key>
 
@@ -4889,46 +4936,6 @@ CStrings:
 +</dict>
  </plist>
  
-
-```
-
-#### Contacts.plist
-
->  `Domain/Contacts.plist`
-
-```diff
-
- 		<key>Enabled</key>
- 		<true/>
- 	</dict>
-+	<key>second_stage_autoreprompt</key>
-+	<dict>
-+		<key>Enabled</key>
-+		<true/>
-+	</dict>
- 	<key>snap_allow_multiple_phone_numbers</key>
- 	<dict>
- 		<key>DevelopmentPhase</key>
-
-```
-
-#### DocumentManager.plist
-
->  `Domain/DocumentManager.plist`
-
-```diff
-
- 		<key>DevelopmentPhase</key>
- 		<string>FeatureComplete</string>
- 	</dict>
--	<key>SemanticSearch</key>
--	<dict>
--		<key>DevelopmentPhase</key>
--		<string>FeatureComplete</string>
--	</dict>
- 	<key>ShowTips</key>
- 	<dict>
- 		<key>DevelopmentPhase</key>
 
 ```
 
