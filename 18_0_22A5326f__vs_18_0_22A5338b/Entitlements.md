@@ -175,56 +175,6 @@
  		<string>com.apple.VoiceOverTouch.activities</string>
 
 ```
-### com.apple.WebKit.WebContent.CaptivePortal
-
-> `/System/Library/ExtensionKit/Extensions/WebContentCaptivePortalExtension.appex/com.apple.WebKit.WebContent.CaptivePortal`
-
-```diff
-
- 		<string>com.apple.coreservices.launchservices.session.*</string>
- 		<string>user.uid.501.syslog.*</string>
- 		<string>com.apple.ManagedConfiguration.profileListChanged</string>
-+		<string>com.apple.MobileAsset.AutoAssetNotification^com.apple.MobileAsset.LinguisticDataAuto^ASSET_VERSION_DOWNLOADED</string>
-+		<string>com.apple.MobileAsset.LinguisticData.dds.assets-updated</string>
-+		<string>com.apple.MobileAsset.LinguisticData.new-asset-installed</string>
- 		<string>com.apple.UIKit.InternalPreferences</string>
- 		<string>com.apple.managedconfiguration.appwhitelistdidchange</string>
- 		<string>com.apple.managedconfiguration.clientrestrictionschanged</string>
-
- 		<string>com.apple.webinspectord.automatic_inspection_enabled</string>
- 		<string>com.apple.webinspectord.available</string>
- 		<string>com.apple.zoomwindow</string>
-+		<string>kAFPreferencesDidChangeDarwinNotification</string>
- 		<string>org.WebKit.lowMemory</string>
- 		<string>org.WebKit.lowMemory.begin</string>
- 		<string>org.WebKit.lowMemory.end</string>
-
-```
-### com.apple.WebKit.WebContent
-
-> `/System/Library/ExtensionKit/Extensions/WebContentExtension.appex/com.apple.WebKit.WebContent`
-
-```diff
-
- 		<string>com.apple.coreservices.launchservices.session.*</string>
- 		<string>user.uid.501.syslog.*</string>
- 		<string>com.apple.ManagedConfiguration.profileListChanged</string>
-+		<string>com.apple.MobileAsset.AutoAssetNotification^com.apple.MobileAsset.LinguisticDataAuto^ASSET_VERSION_DOWNLOADED</string>
-+		<string>com.apple.MobileAsset.LinguisticData.dds.assets-updated</string>
-+		<string>com.apple.MobileAsset.LinguisticData.new-asset-installed</string>
- 		<string>com.apple.UIKit.InternalPreferences</string>
- 		<string>com.apple.managedconfiguration.appwhitelistdidchange</string>
- 		<string>com.apple.managedconfiguration.clientrestrictionschanged</string>
-
- 		<string>com.apple.webinspectord.automatic_inspection_enabled</string>
- 		<string>com.apple.webinspectord.available</string>
- 		<string>com.apple.zoomwindow</string>
-+		<string>kAFPreferencesDidChangeDarwinNotification</string>
- 		<string>org.WebKit.lowMemory</string>
- 		<string>org.WebKit.lowMemory.begin</string>
- 		<string>org.WebKit.lowMemory.end</string>
-
-```
 ### ContactViewViewService
 
 > `/System/Library/Frameworks/ContactsUI.framework/PlugIns/ContactViewViewService.appex/ContactViewViewService`

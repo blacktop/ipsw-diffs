@@ -21,39 +21,168 @@
 <details>
   <summary><i>View Updated</i></summary>
 
->  `com.apple.driver.AppleMobileDispH16P-DCP`
+>  `com.apple.filesystems.apfs`
+
+```diff
+
+-2313.0.4.0.7
++2313.2.1.0.0
+   __TEXT.__const: 0x790
+-  __TEXT.__cstring: 0x4854d
+-  __TEXT_EXEC.__text: 0x139de0
++  __TEXT.__cstring: 0x48545
++  __TEXT_EXEC.__text: 0x139de4
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0x690
+   __DATA.__bss: 0xc60
+CStrings:
++ "00:56:37"
++ "2024/08/08"
++ "2313.2.1"
++ "Aug  8 2024"
++ "apfs-2313.2.1"
+- "2024/07/30"
+- "20:38:21"
+- "2313.0.4.0.7"
+- "Jul 30 2024"
+- "apfs-2313.0.4.0.7"
+
+```
+
+>  `com.apple.iokit.IODisplayPortFamily`
+
+```diff
+
+-730.0.4.0.0
++730.0.5.0.0
+   __TEXT.__cstring: 0x7c47
+   __TEXT.__os_log: 0x9571
+   __TEXT.__const: 0x310
+-  __TEXT_EXEC.__text: 0x5d094
++  __TEXT_EXEC.__text: 0x5d118
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0xc8
+   __DATA.__common: 0x550
+
+   __DATA_CONST.__got: 0x170
+   __DATA_CONST.__mod_init_func: 0x110
+   __DATA_CONST.__mod_term_func: 0x108
+-  __DATA_CONST.__const: 0xf880
++  __DATA_CONST.__const: 0xf888
+   __DATA_CONST.__kalloc_type: 0x840
+   __DATA_CONST.__kalloc_var: 0x280
+   Functions: 1961
+
+```
+
+>  `com.apple.iokit.IOMobileGraphicsFamily-DCP`
 
 ```diff
 
 -395.30.0.0.0
--  __TEXT.__cstring: 0x5658
 +395.33.3.0.0
-+  __TEXT.__cstring: 0x56a0
-   __TEXT.__const: 0x1a78
--  __TEXT_EXEC.__text: 0x20970
-+  __TEXT_EXEC.__text: 0x20b6c
+   __TEXT.__cstring: 0x3ef5
+-  __TEXT.__const: 0x2148
+-  __TEXT_EXEC.__text: 0x1f8fc
++  __TEXT.__const: 0x2f68
++  __TEXT_EXEC.__text: 0x1fe34
    __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0x2b8
-   __DATA.__common: 0xf0
-   __DATA.__bss: 0x170
-   __DATA_CONST.__auth_got: 0x708
--  __DATA_CONST.__got: 0xe0
-+  __DATA_CONST.__got: 0xe8
-   __DATA_CONST.__mod_init_func: 0x18
-   __DATA_CONST.__mod_term_func: 0x18
--  __DATA_CONST.__const: 0x3e40
-+  __DATA_CONST.__const: 0x3e88
-   __DATA_CONST.__kalloc_type: 0x640
-   __DATA_CONST.__kalloc_var: 0xf0
--  Functions: 1109
-+  Functions: 1111
+   __DATA.__data: 0xe0
+   __DATA.__common: 0x26d0
+
+   __DATA_CONST.__auth_ptr: 0x8
+   __DATA_CONST.__mod_init_func: 0x20
+   __DATA_CONST.__mod_term_func: 0x20
+-  __DATA_CONST.__const: 0x1628
++  __DATA_CONST.__const: 0x1638
+   __DATA_CONST.__kalloc_type: 0x7c0
+-  Functions: 690
++  Functions: 692
    Symbols:   0
--  CStrings:  510
-+  CStrings:  512
+   CStrings:  364
  
 CStrings:
-+ "IOMFBWindowedVsyncOffDisableDetachingKey"
-+ "iomfb_swap_submit_split_enable"
++ "site.A439_out_args__"
++ "site.A440_in_args__"
+- "site.A436_in_args__"
+- "site.A437_out_args__"
+
+```
+
+>  `com.apple.kernel`
+
+```diff
+
+-11215.0.199.502.1
+-  __TEXT.__const: 0x33b60
++11215.2.5.0.0
++  __TEXT.__const: 0x33ba0
+   __TEXT.__copyio_vectors: 0xf0
+-  __TEXT.__cstring: 0x6bbc8
+-  __TEXT.__os_log: 0x26d59
++  __TEXT.__cstring: 0x6bab4
++  __TEXT.__os_log: 0x26c98
+   __TEXT.__eh_frame: 0x610
+   __DATA_CONST.__auth_ptr: 0x8
+   __DATA_CONST.__mod_init_func: 0x2c0
+-  __DATA_CONST.__const: 0xa2328
++  __DATA_CONST.__const: 0xa2378
+   __DATA_CONST.__hib_const: 0x120
+   __DATA_CONST.__kalloc_type: 0x13340
+   __DATA_CONST.__kalloc_var: 0x78f0
+   __DATA_CONST.__brk_desc: 0x78
+   __DATA_SPTM.__const: 0x3c000
+   __TEXT_EXEC.__hib_text: 0xc68
+-  __TEXT_EXEC.__text: 0x7fdf60
++  __TEXT_EXEC.__text: 0x7bccfc
+   __TEXT_BOOT_EXEC.__bootcode: 0x4cd8
+   __KLD.__text: 0x1644
+   __LASTDATA_CONST.__mod_init_func: 0x8
+
+   __DATA.__lock_grp: 0x57a8
+   __DATA.__percpu: 0x6e48
+   __DATA.__common: 0x58508
+-  __DATA.__bss: 0x3f7c0
++  __DATA.__bss: 0x3f778
+   __BOOTDATA.__data: 0x18000
+-  __BOOTDATA.__init_entry_set: 0x10788
++  __BOOTDATA.__init_entry_set: 0x107b8
+   __BOOTDATA.__init: 0x5b058
+   __PRELINK_TEXT.__text: 0x0
+   __PRELINK_INFO.__info: 0x0
+
+   __PLK_DATA_CONST.__data: 0x0
+   __PLK_LLVM_COV.__llvm_covmap: 0x0
+   __PLK_LINKEDIT.__data: 0x0
+-  __LINKINFO.__symbolsets: 0x4537a
++  __LINKINFO.__symbolsets: 0x45532
+   __LATE_CONST.__late_const: 0xa8
+-  Functions: 19841
++  Functions: 19804
+   Symbols:   0
+-  CStrings:  16812
++  CStrings:  16803
+ 
+CStrings:
++ "B16@?0^{task={lck_mtx_s=b24b8I(lck_mtx_state={?=b28b1b1b1b1SS}IQ)}{os_refcnt=AI}BBBBIIQ^{_vm_map}{queue_entry=^{queue_entry}^{queue_entry}}^{task_watchports}^v{queue_entry=^{queue_entry}^{queue_entry}}^{restartable_ranges}^{processor_set}^{affinity_space}iIiiissiQ{recount_task=^{recount_track}^{recount_usage}}{lck_mtx_s=b24b8I(lck_mtx_state={?=b28b1b1b1b1SS}IQ)}[4^{ipc_port}]^{ipc_port}[14{exception_action=^{ipc_port}iiii^{label}}]{hardened_exception_action={exception_action=^{ipc_port}iiii^{label}}II}^{ipc_port}^{ipc_port}^{ipc_port}^{ipc_port}^{ipc_port}[3^{ipc_port}]^^{ipc_port}^{ipc_space}^{ledger}{queue_entry=^{queue_entry}^{queue_entry}}iI^vQQCACQQiBBB^Q^Q^Q^Q^QIIIIII^{proc_ro}^{kcdata_descriptor}Q{queue_entry=^{queue_entry}^{queue_entry}}^{label}IIQQIBBBBb4b4b4b4CCCCB*^{vm_shared_region}QQQ^{thread_call}{queue_entry=^{queue_entry}^{queue_entry}}ii^{bank_task}^{ipc_importance_task}{vm_extmod_statistics=qqqqqq}{task_requested_policy=b1b1b2b2b1b1b2b1b3b3b3b1b5b3b3b1b3b1b1b3b1b3b1b1b17}{task_effective_policy=b1b1b2b1b1b1b2b1b1b3b3b1b1b1b4b1b1b1b3b3b1b1b29}{task_pend_token=(?={?=b1b1b1b1b1b1b1b1b1b1b1b1b1}I)}b1b1b1b1b1b27b1b1b1b1b28^{io_stat_info}{task_writes_counters=QQQQ}{task_writes_counters=QQQQ}{_cpu_time_qos_stats=QQQQQQQ}{_cpu_time_qos_stats=QQQQQQQ}IIQCCCiii{queue_entry=^{queue_entry}^{queue_entry}}{lck_mtx_s=b24b8I(lck_mtx_state={?=b28b1b1b1b1SS}IQ)}b16b1b1b1b1b1b1b1[2^{coalition}][2{queue_entry=^{queue_entry}^{queue_entry}}]QCCCCIQ{queue_entry=^{queue_entry}^{queue_entry}}{queue_entry=^{queue_entry}^{queue_entry}}iIQ[16C]Q^{_vmobject_list_output_}Q^{vm_deferred_reclamation_metadata_s}}8"
++ "com.apple.developer.media-device-discovery-extension"
++ "drop_loopback_count"
++ "site.u_int8_t *"
++ "task_apt_token"
+- "!IN6_IS_ADDR_MULTICAST(&ip6->ip6_dst)"
+- "%s: %s (process %s:%u) priority %u entry_count 0\n"
+- "%s:%d esp kpipe input, ipversion %u, SPI=%x"
+- "%s:%d esp kpipe input, output buffer is short(%u), compared to input buffer(%u) SPI=%x\n"
+- "(sb->sb_flags & SB_LOCK) == 0"
+- "B16@?0^{task={lck_mtx_s=b24b8I(lck_mtx_state={?=b28b1b1b1b1SS}IQ)}{os_refcnt=AI}BBBBIIQ^{_vm_map}{queue_entry=^{queue_entry}^{queue_entry}}^{task_watchports}^v{queue_entry=^{queue_entry}^{queue_entry}}^{restartable_ranges}^{processor_set}^{affinity_space}iIiiissiQ{recount_task=^{recount_track}^{recount_usage}}{lck_mtx_s=b24b8I(lck_mtx_state={?=b28b1b1b1b1SS}IQ)}[4^{ipc_port}]^{ipc_port}[14{exception_action=^{ipc_port}iiii^{label}}]{hardened_exception_action={exception_action=^{ipc_port}iiii^{label}}II}^{ipc_port}^{ipc_port}^{ipc_port}^{ipc_port}^{ipc_port}[3^{ipc_port}]^^{ipc_port}^{ipc_space}^{ledger}{queue_entry=^{queue_entry}^{queue_entry}}iI^vQQCACQQiBB^Q^Q^Q^Q^QIIIIII^{proc_ro}^{kcdata_descriptor}Q{queue_entry=^{queue_entry}^{queue_entry}}^{label}IIQQIBBBBb4b4b4b4CCCCB*^{vm_shared_region}QQQ^{thread_call}{queue_entry=^{queue_entry}^{queue_entry}}ii^{bank_task}^{ipc_importance_task}{vm_extmod_statistics=qqqqqq}{task_requested_policy=b1b1b2b2b1b1b2b1b3b3b3b1b5b3b3b1b3b1b1b3b1b3b1b1b17}{task_effective_policy=b1b1b2b1b1b1b2b1b1b3b3b1b1b1b4b1b1b1b3b3b1b1b29}{task_pend_token=(?={?=b1b1b1b1b1b1b1b1b1b1b1b1b1}I)}b1b1b1b1b1b27b1b1b1b1b28^{io_stat_info}{task_writes_counters=QQQQ}{task_writes_counters=QQQQ}{_cpu_time_qos_stats=QQQQQQQ}{_cpu_time_qos_stats=QQQQQQQ}IIQCCCiii{queue_entry=^{queue_entry}^{queue_entry}}{lck_mtx_s=b24b8I(lck_mtx_state={?=b28b1b1b1b1SS}IQ)}b16b1b1b1b1b1b1b1[2^{coalition}][2{queue_entry=^{queue_entry}^{queue_entry}}]QCCCCIQ{queue_entry=^{queue_entry}^{queue_entry}}{queue_entry=^{queue_entry}^{queue_entry}}iIQ[16C]Q^{_vmobject_list_output_}Q^{vm_deferred_reclamation_metadata_s}}8"
+- "IS_P2ALIGNED(ccp, CHANNEL_CACHE_ALIGN_MAX)"
+- "authentication failed in IPv6 AH input: %s %s\n"
+- "ndopts == NULL in nd6_option @%s:%d"
+- "ndopts->nd_opts_last >= ndopts->nd_opts_search"
+- "necp_get_tlv_at_offset buffer is NULL"
+- "rt_key(rt)->sa_family == AF_INET"
+- "site.u_int8_t * __attribute__((__indexable__))"
+- "src.s_addr != INADDR_ANY"
 
 ```
 
@@ -85,557 +214,6 @@ CStrings:
  
 CStrings:
 + "/private/var/db/darwindaemon"
-
-```
-
->  `com.apple.driver.AppleBasebandPCIMAVPDP`
-
-```diff
-
- 810.0.0.0.0
-   __TEXT.__const: 0x128
--  __TEXT.__cstring: 0x4bd1
--  __TEXT_EXEC.__text: 0x2456c
-+  __TEXT.__cstring: 0xcf4
-+  __TEXT_EXEC.__text: 0xbf90
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0xc8
-   __DATA.__common: 0x128
-   __DATA.__bss: 0xb0
--  __DATA_CONST.__auth_got: 0x2d8
--  __DATA_CONST.__got: 0x80
-+  __DATA_CONST.__auth_got: 0x2b8
-+  __DATA_CONST.__got: 0x70
-   __DATA_CONST.__mod_init_func: 0x70
-   __DATA_CONST.__mod_term_func: 0x38
--  __DATA_CONST.__const: 0x3818
-+  __DATA_CONST.__const: 0x3810
-   __DATA_CONST.__kalloc_type: 0x400
--  Functions: 363
-+  Functions: 364
-   Symbols:   0
--  CStrings:  362
-+  CStrings:  52
- 
-CStrings:
-+ "1211111212221212111111112111112111111111111121121121121111211211111212222"
-+ "12111112122212121111211122222221211111222221212"
-+ "12111112122212121212111111111111111111111222222222222222222222222222222222221111111111111111111111111111111111111111111111111111111111111111111111222222222222222221111121122222222221111111111111111222122222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222111111111111111111111111111111112222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222211111111111111112222"
-+ "12111112122212121212111111111111111111111222222222222222222222222222222222221111111111111111111111111111111111111111111111111111111111111111111111222222222222222221111121122222222222222222222222212212112"
-+ "121111121222121212121111111111111111111112222222222222222222222222222222222211111111111111111111111111111111111111111111111111111111111111111111112222222222222222211111211222222222222222222222222122121121"
-- "%06ld.%06d %s::%s: \n"
-- "%06ld.%06d %s::%s: %s: --> \n"
-- "%06ld.%06d %s::%s: %u commands, pdp:packets: 0:%u 1:%u 2:%u 3:%u 4:%u 5:%u 6:%u 7:%u\n"
-- "%06ld.%06d %s::%s: -- Done.\n"
-- "%06ld.%06d %s::%s: -- done!\n"
-- "%06ld.%06d %s::%s: --done\n"
-- "%06ld.%06d %s::%s: Adding Tx pkt meta data failed with 0x%08x\n"
-- "%06ld.%06d %s::%s: Avail data indication -- qmap hdr 0x%08x\n"
-- "%06ld.%06d %s::%s: Avail data indication raw data 0x%08x %08x %08x %08x\n"
-- "%06ld.%06d %s::%s: Avail data timer expired, but interface was closed\n"
-- "%06ld.%06d %s::%s: Available data is non-zero, bytes: %u\n"
-- "%06ld.%06d %s::%s: Bad DL dump (offset=%llu, remain=%llu)\n"
-- "%06ld.%06d %s::%s: Bad RSC header\n"
-- "%06ld.%06d %s::%s: Bearer already mapped to Default Service\n"
-- "%06ld.%06d %s::%s: Bearer already mapped to Low Latency Service\n"
-- "%06ld.%06d %s::%s: Bearer switch already pending, ownerID: %u, bearerID: %u\n"
-- "%06ld.%06d %s::%s: Bearer switch complete !\n"
-- "%06ld.%06d %s::%s: Bearer switch in progress\n"
-- "%06ld.%06d %s::%s: Bearer switch notify!\n"
-- "%06ld.%06d %s::%s: Bearer switch request for ownerID: %u, bearer ID: %u, req type: %u\n"
-- "%06ld.%06d %s::%s: BearerID: %u not present for OwnerID: %u"
-- "%06ld.%06d %s::%s: Blocking outgoing traffic due to IP appender (unit number %u)\n"
-- "%06ld.%06d %s::%s: Cmd header: name 0x%02x: type 0x%02x: reserved 0x%04x: trans_id 0x%08x\n"
-- "%06ld.%06d %s::%s: Command response raw data 0x%08x %08x %08x %08x %08x\n"
-- "%06ld.%06d %s::%s: Creating interface: pdp_qctun\n"
-- "%06ld.%06d %s::%s: DFC End Marker Ack already pending for ownerID: %u\n"
-- "%06ld.%06d %s::%s: DFC End Marker command invalid length %u\n"
-- "%06ld.%06d %s::%s: DFC End Marker command raw data 0x%08x %08x %08x\n"
-- "%06ld.%06d %s::%s: DFC Info Query response raw data 0x%08x %08x\n"
-- "%06ld.%06d %s::%s: DFC Info query -- qmap hdr 0x%08x\n"
-- "%06ld.%06d %s::%s: DFC Info query -- qmap hdr 0x%08x %08x\n"
-- "%06ld.%06d %s::%s: DFC Info query for bearer ID: %u, ownerID: %u\n"
-- "%06ld.%06d %s::%s: DFC Info query raw data 0x%08x\n"
-- "%06ld.%06d %s::%s: DFC Query info response invalid length %u\n"
-- "%06ld.%06d %s::%s: DFC notify command invalid length %u\n"
-- "%06ld.%06d %s::%s: DFC notify command raw data 0x%08x %08x %08x\n"
-- "%06ld.%06d %s::%s: DFC power save mode ack not received!\n"
-- "%06ld.%06d %s::%s: DFC_INFO_QUERY response, ignore query response for inactive bearer ownerID: %u, bearer ID: %u, credits: %u\n"
-- "%06ld.%06d %s::%s: DFC_INFO_QUERY response, ignore query response for unmapped bearer ownerID: %u, bearer ID: %u, credits: %u\n"
-- "%06ld.%06d %s::%s: DL packet dump\n"
-- "%06ld.%06d %s::%s: DL packet dump (offset=%llu, length=%u, remain=%llu)\n"
-- "%06ld.%06d %s::%s: Data powersave mode command -- qmap hdr 0x%08x\n"
-- "%06ld.%06d %s::%s: Data powersave mode command raw data 0x%08x %08x %08x %08x %08x\n"
-- "%06ld.%06d %s::%s: Deferring Ack for DFC End Marker\n"
-- "%06ld.%06d %s::%s: Delete _CreditsQueue entries for intf: %u\n"
-- "%06ld.%06d %s::%s: Duplicate / redundant bearer removed notification for bearerID: %u, ownerID: %u, seq num: %u\n"
-- "%06ld.%06d %s::%s: Duplicate DFC_NOTIFY command for bearerID: %u, ownerID: %u, seq num: %u\n"
-- "%06ld.%06d %s::%s: Error detected on Modem - removing bearerID: %u\n"
-- "%06ld.%06d %s::%s: Failed to create matching dictionary\n"
-- "%06ld.%06d %s::%s: Flushing pci service's stage queue pkts to queue set, packetCnt: %u\n"
-- "%06ld.%06d %s::%s: Got reset bearers marker: %u for this interface\n"
-- "%06ld.%06d %s::%s: Hdr Size:%u interface %u, pkt size %u, padding %u\n"
-- "%06ld.%06d %s::%s: IP Appender failed with 0x%08x\n"
-- "%06ld.%06d %s::%s: Incorrect bearer mapping state, ownerID: %u, bearerID: %u, current mapped owner: %u\n"
-- "%06ld.%06d %s::%s: Inserting at HEAD\n"
-- "%06ld.%06d %s::%s: Inserting at Tail\n"
-- "%06ld.%06d %s::%s: Inserting before ownerID: %u, bearer ID: %u, credits: %u,\n"
-- "%06ld.%06d %s::%s: Interface advisory report: owner %u: payload bytes %u\n"
-- "%06ld.%06d %s::%s: Invalid NL pair data length, expected: %u, actual: %u\n"
-- "%06ld.%06d %s::%s: Invalid bearer status : %u\n"
-- "%06ld.%06d %s::%s: Invalid bearer status: %u, for bearer ID: %u\n"
-- "%06ld.%06d %s::%s: Invalid bearer switch request type, req type: %u\n"
-- "%06ld.%06d %s::%s: Invalid chksm\n"
-- "%06ld.%06d %s::%s: Invalid intf number: %u!\n"
-- "%06ld.%06d %s::%s: Invalid number of NLs, received: %u, max: %u\n"
-- "%06ld.%06d %s::%s: Invalid number of bearers: %u\n"
-- "%06ld.%06d %s::%s: Invalid ownerID : %u\n"
-- "%06ld.%06d %s::%s: Invalid ownerID: %u\n"
-- "%06ld.%06d %s::%s: Invalid ownerID: %u, bearerID: %u already mapped to ownerID: %u\n"
-- "%06ld.%06d %s::%s: Invalid request type: %u\n"
-- "%06ld.%06d %s::%s: LL Bearer Switch Ack raw data 0x%08x %08x\n"
-- "%06ld.%06d %s::%s: LL Bearer Switch Request Ack invalid length %u != (Header + Payload) size: %u\n"
-- "%06ld.%06d %s::%s: LL Bearer Switch Request Ack invalid length %u < Header Size: %u\n"
-- "%06ld.%06d %s::%s: LL Bearer Switch Status command, invalid length %u != (Header + Payload) size: %u\n"
-- "%06ld.%06d %s::%s: LL Bearer Switch Status raw data 0x%08x %08x\n"
-- "%06ld.%06d %s::%s: LQM report: owner %u: payload bytes %u\n"
-- "%06ld.%06d %s::%s: NL pair data len (%u), exceeded max len\n"
-- "%06ld.%06d %s::%s: NL[%u](Length: %u, chksum map: 0x%x, NumPkts: %u)\n"
-- "%06ld.%06d %s::%s: NULL owner!\n"
-- "%06ld.%06d %s::%s: No UL pkts queued for ownerID: %u\n"
-- "%06ld.%06d %s::%s: No bearer present for this OwnerID: %u\n"
-- "%06ld.%06d %s::%s: No bearer present for this ownerID: %u\n"
-- "%06ld.%06d %s::%s: No credit update for owner: %u\n"
-- "%06ld.%06d %s::%s: PCIe link is down or is going down\n"
-- "%06ld.%06d %s::%s: Packet txid: %u, Expected txid: %u\n"
-- "%06ld.%06d %s::%s: Packet type is not QMAP control! \n"
-- "%06ld.%06d %s::%s: Packet: %p, Txid: %u\n"
-- "%06ld.%06d %s::%s: Preparing response: %s\n"
-- "%06ld.%06d %s::%s: Previous tail entry - ownerID: %u, bearer ID: %u, credits: %u,\n"
-- "%06ld.%06d %s::%s: RSC service: %u\n"
-- "%06ld.%06d %s::%s: Received DFC_END_MARKER for ownerID: %u, bearer ID: %u, seqNum: %u\n"
-- "%06ld.%06d %s::%s: Received DFC_INFO_QUERY response for ownerID: %u, bearer ID: %u, credits: %u\n"
-- "%06ld.%06d %s::%s: Received DFC_NOTIFY for ownerID: %u, bearer ID: %u, credits: %u, seq num: %u, bearer status: %u\n"
-- "%06ld.%06d %s::%s: Redundant bearer removed notificaiton, bearer ID: %u already removed\n"
-- "%06ld.%06d %s::%s: Removing bearer failed!\n"
-- "%06ld.%06d %s::%s: Request Bearer Switch -- qmap cmd hdr 0x%08x %08x\n"
-- "%06ld.%06d %s::%s: Request Bearer Switch -- qmap hdr 0x%08x\n"
-- "%06ld.%06d %s::%s: Request Bearer Switch raw data 0x%08x %08x\n"
-- "%06ld.%06d %s::%s: Sending DFC End Marker Ack for ownerID: %u\n"
-- "%06ld.%06d %s::%s: Setting packet buffer base / limit failed: 0x%llx\n"
-- "%06ld.%06d %s::%s: Start --\n"
-- "%06ld.%06d %s::%s: Start, options 0x%08x --\n"
-- "%06ld.%06d %s::%s: Stop queueing pkts - DFC end marker / UL flow switched!\n"
-- "%06ld.%06d %s::%s: Tcp Ack Allowed: %u\n"
-- "%06ld.%06d %s::%s: Temp failure in switching bearer ID: %u\n"
-- "%06ld.%06d %s::%s: Trigger DFC End Marker Ack\n"
-- "%06ld.%06d %s::%s: UL packet dump\n"
-- "%06ld.%06d %s::%s: Unexpected - bearer info entry is NULL!\n"
-- "%06ld.%06d %s::%s: Unexpected Tx\n"
-- "%06ld.%06d %s::%s: Unexpected command in RSC channel\n"
-- "%06ld.%06d %s::%s: Unexpected control packet for out of band Qmap control service\n"
-- "%06ld.%06d %s::%s: Unexpected next header for RSC\n"
-- "%06ld.%06d %s::%s: Unexpected pci service ID: %u\n"
-- "%06ld.%06d %s::%s: Unknown or unhandled command, name: %u\n"
-- "%06ld.%06d %s::%s: Unmapping bearerID: %u from OwnerID: %u\n"
-- "%06ld.%06d %s::%s: Unsupported status\n"
-- "%06ld.%06d %s::%s: Updated credits for ownerID: %u, credits remaining: %u\n"
-- "%06ld.%06d %s::%s: [%u] bearerID: %u, credits: %u\n"
-- "%06ld.%06d %s::%s: _rxHEAD: %p, _rxTail: %p\n"
-- "%06ld.%06d %s::%s: allowed Tx bytes: %u\n"
-- "%06ld.%06d %s::%s: bad command packet size: %u\n"
-- "%06ld.%06d %s::%s: bad length %u for link status report payload\n"
-- "%06ld.%06d %s::%s: bearer switch ack, bearer ID: %u, status: %u\n"
-- "%06ld.%06d %s::%s: bearer switch status, bearer ID: %u, status: %u\n"
-- "%06ld.%06d %s::%s: bearer switch was not pending! bearer ID: %u, \n"
-- "%06ld.%06d %s::%s: bearer switch was not successful! bearer ID: %u, \n"
-- "%06ld.%06d %s::%s: bearer switch was not successful! bearer ID: %u, status: %u \n"
-- "%06ld.%06d %s::%s: bytesRead (%llu) != header (%lu) + body (%u)\n"
-- "%06ld.%06d %s::%s: cache max reached, dropping packet\n"
-- "%06ld.%06d %s::%s: cannot receive interface advisory report for nonexisting owner %u\n"
-- "%06ld.%06d %s::%s: cannot receive link status report for nonexisting owner %u\n"
-- "%06ld.%06d %s::%s: chain length = %u\n"
-- "%06ld.%06d %s::%s: chain length = %u, txid 0x%u --> 0x%u, total DL data %u bytes\n"
-- "%06ld.%06d %s::%s: cksmValid: %u, numNLs: %u, incIPID: %u\n"
-- "%06ld.%06d %s::%s: close called on an unopened client %p\n"
-- "%06ld.%06d %s::%s: closeVal: %u, closeType: %u, contextID: %u\n"
-- "%06ld.%06d %s::%s: cmd header: name 0x%02x: type 0x%02x: reserved 0x%04x: trans_id 0x%08x\n"
-- "%06ld.%06d %s::%s: cmd version: %u\n"
-- "%06ld.%06d %s::%s: command header raw data: 0x%08x 0x%08x\n"
-- "%06ld.%06d %s::%s: command name: %u\n"
-- "%06ld.%06d %s::%s: consumed:%u\n"
-- "%06ld.%06d %s::%s: count %u\n"
-- "%06ld.%06d %s::%s: count %u, telescoping limit %u\n"
-- "%06ld.%06d %s::%s: count: %u\n"
-- "%06ld.%06d %s::%s: dealloc packet %p directly\n"
-- "%06ld.%06d %s::%s: device: %p, stateNumber: %lu\n"
-- "%06ld.%06d %s::%s: disable soft flow control for pdp_ip%u due to %u pending write bytes\n"
-- "%06ld.%06d %s::%s: disabling flow control due to QMAP command\n"
-- "%06ld.%06d %s::%s: draining pci service's stage queue pkts to queue set, packetCnt: %u\n"
-- "%06ld.%06d %s::%s: duplicate QMAP extension header type (%u)\n"
-- "%06ld.%06d %s::%s: enabling flow control due to QMAP command\n"
-- "%06ld.%06d %s::%s: enabling flow control for pdp_ip%u due to %u pending Tx bytes\n"
-- "%06ld.%06d %s::%s: error 0x%08x\n"
-- "%06ld.%06d %s::%s: failed to clone packet\n"
-- "%06ld.%06d %s::%s: failed to create Available data zero indication timer\n"
-- "%06ld.%06d %s::%s: failed to create Rx queue\n"
-- "%06ld.%06d %s::%s: failed to create Tx completion queue\n"
-- "%06ld.%06d %s::%s: failed to create Tx queue\n"
-- "%06ld.%06d %s::%s: failed to create power save mode timer\n"
-- "%06ld.%06d %s::%s: failed to open provider\n"
-- "%06ld.%06d %s::%s: failed to set packet limits: 0x%08x\n"
-- "%06ld.%06d %s::%s: flow control %s: owner %u: ipFamily %u: sequence 0x%04x: QoS 0x%08x\n"
-- "%06ld.%06d %s::%s: flow control command invalid IP family %u\n"
-- "%06ld.%06d %s::%s: flow control command invalid length %u\n"
-- "%06ld.%06d %s::%s: flow control command raw data 0x%08x %08x\n"
-- "%06ld.%06d %s::%s: flow control disable sequence number mismatch (got %u, expected %u)\n"
-- "%06ld.%06d %s::%s: flow controlling bearerID: %u, ownerID: %u\n"
-- "%06ld.%06d %s::%s: found client, unit %u\n"
-- "%06ld.%06d %s::%s: free count: %u\n"
-- "%06ld.%06d %s::%s: interface %u not opened yet, packet will be queued\n"
-- "%06ld.%06d %s::%s: interface %u, size %u, padding %u, command %u\n"
-- "%06ld.%06d %s::%s: interface 0x%p not found\n"
-- "%06ld.%06d %s::%s: interface down\n"
-- "%06ld.%06d %s::%s: intf %p, count %u\n"
-- "%06ld.%06d %s::%s: intf number: %u, open: %u, owner = %p\n"
-- "%06ld.%06d %s::%s: invalid interface %d\n"
-- "%06ld.%06d %s::%s: invalid length for LQM command, length: %u\n"
-- "%06ld.%06d %s::%s: invalid null header\n"
-- "%06ld.%06d %s::%s: invoked with packetCount = 0\n"
-- "%06ld.%06d %s::%s: kOffPowerState\n"
-- "%06ld.%06d %s::%s: kOffPowerState, enable data powersave mode, allow notification: %u\n"
-- "%06ld.%06d %s::%s: kOnPowerState, disable data powersave mode\n"
-- "%06ld.%06d %s::%s: konPowerState\n"
-- "%06ld.%06d %s::%s: last queued pkt completed, trigger DFC end marker Ack for %u\n"
-- "%06ld.%06d %s::%s: link status report: owner %u: payload bytes %u\n"
-- "%06ld.%06d %s::%s: low latency service: %u\n"
-- "%06ld.%06d %s::%s: null header\n"
-- "%06ld.%06d %s::%s: out of band QMAP control: %u\n"
-- "%06ld.%06d %s::%s: oversize header (%u < %u)\n"
-- "%06ld.%06d %s::%s: oversize header (%u < %zu)\n"
-- "%06ld.%06d %s::%s: owner %u does not exist, processing command anyway\n"
-- "%06ld.%06d %s::%s: owner: %u is inactive\n"
-- "%06ld.%06d %s::%s: owner: %u is not active\n"
-- "%06ld.%06d %s::%s: owner: %u is not opened yet\n"
-- "%06ld.%06d %s::%s: ownerID: %u\n"
-- "%06ld.%06d %s::%s: ownerID: %u has no bearer info entry for bearerID: %u\n"
-- "%06ld.%06d %s::%s: ownerID: %u was previously flow controlled, updated credits: %u\n"
-- "%06ld.%06d %s::%s: ownerID: %u, avail data bytes: %u\n"
-- "%06ld.%06d %s::%s: ownerID: %u, bearerID: %u, Active -> Removed\n"
-- "%06ld.%06d %s::%s: ownerID: %u, bearerID: %u, Inactive -> Active\n"
-- "%06ld.%06d %s::%s: ownerID: %u, bearerID: %u, curr bearer state: %u, new status: %u\n"
-- "%06ld.%06d %s::%s: ownerID: %u, bearerID: %u, switchStatus: %u\n"
-- "%06ld.%06d %s::%s: ownerID: %u, credits queue...\n"
-- "%06ld.%06d %s::%s: packet 0x%p, count: %u\n"
-- "%06ld.%06d %s::%s: packet: %p, TxID: %u\n"
-- "%06ld.%06d %s::%s: packet: %p, TxID: %u, next TxID: %u, count: %u\n"
-- "%06ld.%06d %s::%s: pad bytes (%u) is >= total length (%u)\n"
-- "%06ld.%06d %s::%s: pci service not available\n"
-- "%06ld.%06d %s::%s: pciService not available\n"
-- "%06ld.%06d %s::%s: pdp:packets: 0:%u 1:%u 2:%u 3:%u 4:%u 5:%u 6:%u 7:%u\n"
-- "%06ld.%06d %s::%s: pdp_ip%u flow controlled, but continue until soft flow control is enabled\n"
-- "%06ld.%06d %s::%s: qmap_control_service not present in plist\n"
-- "%06ld.%06d %s::%s: read size too small: %llu\n"
-- "%06ld.%06d %s::%s: received ack for Data Powersave Mode Control command\n"
-- "%06ld.%06d %s::%s: redundant flow control disable command for owner %u\n"
-- "%06ld.%06d %s::%s: redundant flow control enable command for owner %u\n"
-- "%06ld.%06d %s::%s: refCon 0x%p, status 0x%x\n"
-- "%06ld.%06d %s::%s: refcon: %p, status 0x%x\n"
-- "%06ld.%06d %s::%s: refcon: %p, status 0x%x, enqueue: %u\n"
-- "%06ld.%06d %s::%s: registering callback for ownerID: %u\n"
-- "%06ld.%06d %s::%s: requesting upto: %llu usecs to PM\n"
-- "%06ld.%06d %s::%s: residue (%llu) < header (%lu) + body (%u)\n"
-- "%06ld.%06d %s::%s: returning free space: %u, service id: %u\n"
-- "%06ld.%06d %s::%s: sending data powersave mode, ownerID: %u, enable: %u\n"
-- "%06ld.%06d %s::%s: sending response...\n"
-- "%06ld.%06d %s::%s: sending response: %s\n"
-- "%06ld.%06d %s::%s: sent bytes: %u\n"
-- "%06ld.%06d %s::%s: sent bytes: %u, pkt cnt: %u\n"
-- "%06ld.%06d %s::%s: setting %u msecs timer\n"
-- "%06ld.%06d %s::%s: skipping disable powersave mode, first power on\n"
-- "%06ld.%06d %s::%s: soft flow control active on pdp_ip%u\n"
-- "%06ld.%06d %s::%s: staged: %u\n"
-- "%06ld.%06d %s::%s: super::handleOpen() failed\n!"
-- "%06ld.%06d %s::%s: super::open failed\n"
-- "%06ld.%06d %s::%s: too many packets in transfer (limit %u), dropping packet\n"
-- "%06ld.%06d %s::%s: transfer size %u, interface %u, txid %u\n"
-- "%06ld.%06d %s::%s: txid 0x%08x: status 0x%x, packet 0x%p\n"
-- "%06ld.%06d %s::%s: txid 0x%x\n"
-- "%06ld.%06d %s::%s: unable to get unsent bytes: 0x%x\n"
-- "%06ld.%06d %s::%s: unexpected command type %u\n"
-- "%06ld.%06d %s::%s: unexpected command type: %u\n"
-- "%06ld.%06d %s::%s: unit number %u invalid or nonexistent\n"
-- "%06ld.%06d %s::%s: unrecognized QMAP extension header type (%u)\n"
-- "%06ld.%06d %s::%s: unsupported command: name 0x%02x: type %u: transactionID 0x%08x\n"
-- "%06ld.%06d %s::%s: unsupported flow control QoS 0x%08x\n"
-- "%06ld.%06d %s::%s: updating bearer credits failed!\n"
-- "%06ld.%06d %s::%s: updating owners in QMAP control intf failed\n"
-- "%06ld.%06d %s::%s: waiting for Low Latency service\n"
-- "%06ld.%06d %s::%s: waiting for QMAP control service\n"
-- "%06ld.%06d %s::%s: waiting for RSC service\n"
-- "12111112122212121111111121111121111111111111121121121121111211211111212222"
-- "121111121222121211112111222222212111112222212121"
-- "121111121222121212121111111111111111111111222222222222222222222222222222222221111111111111111111111111111111111111111111111111111111111111111111111222222222222222221111121122222222221111111111111111222122222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222111111111111111111111111111111112222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222211111111111111112222"
-- "121111121222121212121111111111111111111111222222222222222222222222222222222221111111111111111111111111111111111111111111111111111111111111111111111222222222222222221111121122222222222222222222222212212112"
-- "1211111212221212121211111111111111111111112222222222222222222222222222222222211111111111111111111111111111111111111111111111111111111111111111111112222222222222222211111211222222222222222222222222122121121"
-- "addTxPktMetaData"
-- "allocQueues"
-- "availDataZeroTimerCompletion"
-- "bearerSwitchComplete_block_invoke"
-- "closeGated"
-- "commandResponse"
-- "commandResponse_block_invoke"
-- "createRxSubmissionQueue"
-- "decodeQMAPHeader"
-- "decodeQMAPRSCHeader"
-- "disable"
-- "discardRxPacket"
-- "dumpOwnerCreditsQueue"
-- "enable"
-- "flowControlAllBearers"
-- "free"
-- "getAvailData"
-- "getOwnerCredits_block_invoke"
-- "handleOpen"
-- "initWithOptions"
-- "openGated"
-- "outputComplete"
-- "powerSaveModeTimerCompletion"
-- "powerStateWillChangeTo"
-- "powerStateWillChangeTo_block_invoke"
-- "processBearerCreditsGated"
-- "processCtrlPacket"
-- "processDFCEndMarker"
-- "processDFCInfoQuery"
-- "processDFCLLSwitchRequest"
-- "processDFCLLSwitchStatus"
-- "processDFCNotify"
-- "processDFCPowerSaveMode"
-- "processMavExtCmdAdvisoryReport"
-- "processMavExtCmdLQM"
-- "queryFlowControlCredits_block_invoke"
-- "queryFreeULSpace"
-- "queueRxBuffersGated"
-- "readComplete"
-- "registerBearerSwitchCallback"
-- "requestBearerSwitchGated"
-- "requestTxGated"
-- "resetOwnerCreditsQueue"
-- "rxQueueCallbackGated"
-- "sendAvailDataIndication_block_invoke"
-- "sendDFCEndMarkerAck_block_invoke"
-- "sendDataPowerSaveMode_block_invoke"
-- "setBearerSwitchPending_block_invoke"
-- "setInterfaceOwnerGated"
-- "setPowerStateGated"
-- "start"
-- "terminate"
-- "triggerBearerSwitch_block_invoke"
-- "triggerRxDequeue_block_invoke"
-- "txCompletionCallbackGated"
-- "txQueueCallbackGated"
-- "updateOwnerCreditsGated_block_invoke"
-- "usesQmapControlService"
-- "willTerminate"
-- "willTerminate_block_invoke"
-
-```
-
->  `com.apple.driver.AppleDCPDPTXProxy`
-
-```diff
-
--311.0.16.0.0
-+311.0.17.0.0
-   __TEXT.__const: 0x48
-   __TEXT.__cstring: 0x1007
-   __TEXT.__os_log: 0xa0c
--  __TEXT_EXEC.__text: 0x84c0
-+  __TEXT_EXEC.__text: 0x8518
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0xc8
-   __DATA.__common: 0xd8
--  __DATA_CONST.__auth_got: 0x1b0
-+  __DATA_CONST.__auth_got: 0x1b8
-   __DATA_CONST.__got: 0x88
-   __DATA_CONST.__mod_init_func: 0x28
-   __DATA_CONST.__mod_term_func: 0x28
--  __DATA_CONST.__const: 0x2b38
-+  __DATA_CONST.__const: 0x2b50
-   __DATA_CONST.__kalloc_type: 0x140
--  Functions: 281
-+  Functions: 282
-   Symbols:   0
-   CStrings:  198
- 
-
-```
-
->  `com.apple.driver.AppleMobileFileIntegrity`
-
-```diff
-
--938.0.27.0.1
-+938.0.31.0.0
-   __TEXT.__cstring: 0x9aae
-   __TEXT.__const: 0x14b0
-   __TEXT.__os_log: 0x233
--  __TEXT_EXEC.__text: 0x25fec
-+  __TEXT_EXEC.__text: 0x25fd4
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0x412
-   __DATA.__common: 0xb0
-CStrings:
-+ "01:10:33"
-+ "Aug  8 2024"
-- "20:35:18"
-- "Jul 30 2024"
-
-```
-
->  `com.apple.filesystems.apfs`
-
-```diff
-
--2313.0.4.0.7
-+2313.2.1.0.0
-   __TEXT.__const: 0x790
--  __TEXT.__cstring: 0x4854d
--  __TEXT_EXEC.__text: 0x139de0
-+  __TEXT.__cstring: 0x48545
-+  __TEXT_EXEC.__text: 0x139de4
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0x690
-   __DATA.__bss: 0xc60
-CStrings:
-+ "00:56:37"
-+ "2024/08/08"
-+ "2313.2.1"
-+ "Aug  8 2024"
-+ "apfs-2313.2.1"
-- "2024/07/30"
-- "20:38:21"
-- "2313.0.4.0.7"
-- "Jul 30 2024"
-- "apfs-2313.0.4.0.7"
-
-```
-
->  `com.apple.driver.AppleAVE2`
-
-```diff
-
--802.97.1.0.0
-+803.16.2.0.0
-   __TEXT.__const: 0x2e8e0
--  __TEXT.__cstring: 0x350f8
--  __TEXT.__os_log: 0x40038
--  __TEXT_EXEC.__text: 0x142720
-+  __TEXT.__cstring: 0x35356
-+  __TEXT.__os_log: 0x4029b
-+  __TEXT_EXEC.__text: 0x143a50
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0x290
-   __DATA.__common: 0x130
-
-   __DATA_CONST.__mod_term_func: 0x38
-   __DATA_CONST.__const: 0x62c8
-   __DATA_CONST.__kalloc_type: 0x1fc0
--  __DATA_CONST.__kalloc_var: 0x1040
--  Functions: 2472
-+  __DATA_CONST.__kalloc_var: 0xfa0
-+  Functions: 2481
-   Symbols:   0
--  CStrings:  6936
-+  CStrings:  6958
- 
-CStrings:
-+ "%lld %d AVE %s: %s total commands in client stages %p | %d %d | %d | %d"
-+ "%lld %d AVE %s: %s total commands in client stages %p | %d %d | %d | %d\n"
-+ "%lld %d AVE %s: %s:%d SKIP %p %d %lld | %p %d %lld 0x%x %lld | %p %d %lld 0x%x %lld"
-+ "%lld %d AVE %s: %s:%d SKIP %p %d %lld | %p %d %lld 0x%x %lld | %p %d %lld 0x%x %lld\n"
-+ "%lld %d AVE %s: %s::%s:%d %p %d | <Info> %p %d"
-+ "%lld %d AVE %s: %s::%s:%d %p %d | <Info> %p %d\n"
-+ "%lld %d AVE %s: %s::%s:%d %p %lld %p %d | %p %d %lld 0x%x %lld"
-+ "%lld %d AVE %s: %s::%s:%d %p %lld %p %d | %p %d %lld 0x%x %lld\n"
-+ "%lld %d AVE %s: %s::%s:%d %p %lld | %p %d %lld %d %lld | RefCnt %d pNewCmd %p"
-+ "%lld %d AVE %s: %s::%s:%d %p %lld | %p %d %lld %d %lld | RefCnt %d pNewCmd %p\n"
-+ "%lld %d AVE %s: %s::%s:%d %s | fail to initialize FPS %p %d %d %d.%03d %d.%03d %d %d %d %d"
-+ "%lld %d AVE %s: %s::%s:%d %s | fail to initialize FPS %p %d %d %d.%03d %d.%03d %d %d %d %d\n"
-+ "%lld %d AVE %s: %s::%s:%d %s | fail to update FPS %p %d %d %d.%03d %d.%03d %d %d %d %d"
-+ "%lld %d AVE %s: %s::%s:%d %s | fail to update FPS %p %d %d %d.%03d %d.%03d %d %d %d %d\n"
-+ "%lld %d AVE %s: %s::%s:%d %s | failed to create external timer %p %p"
-+ "%lld %d AVE %s: %s::%s:%d %s | failed to create external timer %p %p\n"
-+ "%lld %d AVE %s: %s::%s:%d %s | failed to create mutex for external timer %p"
-+ "%lld %d AVE %s: %s::%s:%d %s | failed to create mutex for external timer %p\n"
-+ "%lld %d AVE %s: %s::%s:%d %s | failed to get External Timer %p %p"
-+ "%lld %d AVE %s: %s::%s:%d %s | failed to get External Timer %p %p\n"
-+ "%lld %d AVE %s: %s::%s:%d SKIP %p %d %lld | %p %d %lld 0x%x %lld"
-+ "%lld %d AVE %s: %s::%s:%d SKIP %p %d %lld | %p %d %lld 0x%x %lld\n"
-+ "%lld %d AVE %s: %s::%s:%d WP buffer pool abnormal %p %d %d"
-+ "%lld %d AVE %s: %s::%s:%d WP buffer pool abnormal %p %d %d\n"
-+ "%lld %d AVE %s: %s::%s:%d frame drop %p %d %p %d"
-+ "%lld %d AVE %s: %s::%s:%d frame drop %p %d %p %d\n"
-+ "%lld %d AVE %s: %s::%s:%d invalid command %p %d | %p %d %p %d | %d"
-+ "%lld %d AVE %s: %s::%s:%d invalid command %p %d | %p %d %p %d | %d\n"
-+ "%lld %d AVE %s: %s::%s:%d unpaired frame %p %d | %p %d %p %d | %p %lld | %p %d %d"
-+ "%lld %d AVE %s: %s::%s:%d unpaired frame %p %d | %p %d %p %d | %p %lld | %p %d %d\n"
-+ "%lld %d AVE %s: HierMode: %d"
-+ "%lld %d AVE %s: HierMode: %d\n"
-+ "%s total commands in client stages %p | %d %d | %d | %d"
-+ "%s total commands in client stages %p | %d %d | %d | %d\n"
-+ "03:55:38"
-+ "1211111111111222212112222211111111111111111111111121222221"
-+ "1211111212221212112111211122"
-+ "803.16.2"
-+ "AVE_LookAhead_GOPDecision_Flush"
-+ "Aug  8 2024"
-+ "HandleCmd"
-+ "HierMode: %d"
-+ "HierMode: %d\n"
-+ "HwC DrainAll"
-+ "HwC DrainData"
-+ "ProcExtTimerHandler"
-+ "ProcessReadyCmd"
-+ "SwC DrainAll"
-+ "SwC DrainData"
-+ "m_pExtTimerMutex != nullptr"
-+ "m_pcExtTimer != nullptr"
-+ "m_psExtTimer != nullptr"
-+ "pClientList != nullptr && piaThreshold != nullptr && iNum == 2"
-+ "schedMode == 0 && euNum == 1 && piPrevEUID != nullptr"
-- "%lld %d AVE %s: %s total commands in client stages %p | %d %d | %d"
-- "%lld %d AVE %s: %s total commands in client stages %p | %d %d | %d\n"
-- "%lld %d AVE %s: %s:%d frame drop"
-- "%lld %d AVE %s: %s:%d frame drop\n"
-- "%lld %d AVE %s: %s::%s:%d %p %d | <WPParam> %p | <Info> %p %d"
-- "%lld %d AVE %s: %s::%s:%d %p %d | <WPParam> %p | <Info> %p %d\n"
-- "%lld %d AVE %s: %s::%s:%d %p %lld | %p %d %lld %d %lld| RefCnt %d pNewCmd %p"
-- "%lld %d AVE %s: %s::%s:%d %p %lld | %p %d %lld %d %lld| RefCnt %d pNewCmd %p\n"
-- "%lld %d AVE %s: %s::%s:%d %s | fail to initialize FPS %p %d %d %d.%03d %d.%03d %d %d %d"
-- "%lld %d AVE %s: %s::%s:%d %s | fail to initialize FPS %p %d %d %d.%03d %d.%03d %d %d %d\n"
-- "%lld %d AVE %s: %s::%s:%d %s | fail to update FPS %p %d %d %d.%03d %d.%03d %d %d %d"
-- "%lld %d AVE %s: %s::%s:%d %s | fail to update FPS %p %d %d %d.%03d %d.%03d %d %d %d\n"
-- "%lld %d AVE %s: %s::%s:%d %s | failed to get buffer from buffer pool %p %d %p %d %d %d"
-- "%lld %d AVE %s: %s::%s:%d %s | failed to get buffer from buffer pool %p %d %p %d %d %d\n"
-- "%lld %d AVE %s: %s::%s:%d %s | failed to handle commands %p %lld %p %d 0x%x 0x%x %d %d"
-- "%lld %d AVE %s: %s::%s:%d %s | failed to handle commands %p %lld %p %d 0x%x 0x%x %d %d\n"
-- "%lld %d AVE %s: %s::%s:%d receive command done %p %d"
-- "%lld %d AVE %s: %s::%s:%d receive command done %p %d\n"
-- "%s total commands in client stages %p | %d %d | %d"
-- "%s total commands in client stages %p | %d %d | %d\n"
-- "%s::%s"
-- "12111111111112222112222211111111111111111111111121222221"
-- "12111112122212121121211122"
-- "20:53:07"
-- "802.97.1"
-- "Jul 30 2024"
-- "ProcesOutputCmd_Done"
-- "ProcesOutputCmd_Drop"
-- "ProcesOutputCmd_Skip"
-- "pClientList != nullptr && iThreshold != nullptr && iNum == 2"
-- "ret >= 0"
-- "schedMode == 0 && euNum == 1 && iPrevCoreID != nullptr"
 
 ```
 
@@ -1617,70 +1195,6 @@ CStrings:
 
 ```
 
->  `com.apple.driver.AppleM2ScalerCSCDriver`
-
-```diff
-
--148.0.50.0.0
--  __TEXT.__cstring: 0x165e9
--  __TEXT.__const: 0x4ecb8
--  __TEXT_EXEC.__text: 0xd6130
-+148.0.53.0.0
-+  __TEXT.__cstring: 0x1673a
-+  __TEXT.__const: 0x4ecc8
-+  __TEXT_EXEC.__text: 0xd5ff8
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0x1fe40
-   __DATA.__common: 0x20a8
-
-   __DATA_CONST.__const: 0x210b8
-   __DATA_CONST.__kalloc_type: 0x3c40
-   __DATA_CONST.__kalloc_var: 0x500
--  Functions: 6008
-+  Functions: 6012
-   Symbols:   0
--  CStrings:  2384
-+  CStrings:  2392
- 
-CStrings:
-+ "1222222222212111111112111111111111111111122122112212"
-+ "1222222222212111111112111111111111111111122122112212112222222"
-+ "12222222222121111111121111111111111111111221221122121122222221111111221111111111111111111122222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222000020000000"
-+ "Awake"
-+ "SleepAcked"
-+ "SleepRequested"
-+ "[IOSA][Boot ] Req 0x%x Resumption on MSR%d\n"
-+ "[IOSA][Boot ] Req 0x%x Waiting for MSR%d wake\n"
-+ "[IOSA][Boot ] [MSR%u] SleepState transition from %s to %s\n"
-+ "[IOSA][Boot ] kConfigKeyIsShippedDevice=%d\n"
-+ "activateForMapping_gated"
-+ "commandSleep failed with %d\n"
-+ "powerRefCount cannot be zero with kSPSSleepAcked. [MSR%d] partition %d newState %d oldState %d refCount %d"
-- "     req %d prio %d ctx_sw_cnt %d\n"
-- "122222222221211111111211111111111111111112212211221"
-- "122222222221211111111211111111111111111112212211221112222222"
-- "12222222222121111111121111111111111111111221221122111222222211111112211111111111111111111222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222220000020000000"
-- "canContextSwitch"
-
-```
-
->  `com.apple.driver.AppleSPU`
-
-```diff
-
--1014.0.4.0.0
-+1014.0.5.0.0
-   __TEXT.__cstring: 0x5aae
-   __TEXT.__os_log: 0x955
-   __TEXT.__const: 0x358
--  __TEXT_EXEC.__text: 0x498e8
-+  __TEXT_EXEC.__text: 0x498dc
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0x878
-   __DATA.__common: 0x970
-
-```
-
 >  `com.apple.driver.AppleBasebandPCIMAVControl`
 
 ```diff
@@ -2264,6 +1778,359 @@ CStrings:
 
 ```
 
+>  `com.apple.driver.AppleBasebandPCIMAVPDP`
+
+```diff
+
+ 810.0.0.0.0
+   __TEXT.__const: 0x128
+-  __TEXT.__cstring: 0x4bd1
+-  __TEXT_EXEC.__text: 0x2456c
++  __TEXT.__cstring: 0xcf4
++  __TEXT_EXEC.__text: 0xbf90
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0xc8
+   __DATA.__common: 0x128
+   __DATA.__bss: 0xb0
+-  __DATA_CONST.__auth_got: 0x2d8
+-  __DATA_CONST.__got: 0x80
++  __DATA_CONST.__auth_got: 0x2b8
++  __DATA_CONST.__got: 0x70
+   __DATA_CONST.__mod_init_func: 0x70
+   __DATA_CONST.__mod_term_func: 0x38
+-  __DATA_CONST.__const: 0x3818
++  __DATA_CONST.__const: 0x3810
+   __DATA_CONST.__kalloc_type: 0x400
+-  Functions: 363
++  Functions: 364
+   Symbols:   0
+-  CStrings:  362
++  CStrings:  52
+ 
+CStrings:
++ "1211111212221212111111112111112111111111111121121121121111211211111212222"
++ "12111112122212121111211122222221211111222221212"
++ "12111112122212121212111111111111111111111222222222222222222222222222222222221111111111111111111111111111111111111111111111111111111111111111111111222222222222222221111121122222222221111111111111111222122222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222111111111111111111111111111111112222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222211111111111111112222"
++ "12111112122212121212111111111111111111111222222222222222222222222222222222221111111111111111111111111111111111111111111111111111111111111111111111222222222222222221111121122222222222222222222222212212112"
++ "121111121222121212121111111111111111111112222222222222222222222222222222222211111111111111111111111111111111111111111111111111111111111111111111112222222222222222211111211222222222222222222222222122121121"
+- "%06ld.%06d %s::%s: \n"
+- "%06ld.%06d %s::%s: %s: --> \n"
+- "%06ld.%06d %s::%s: %u commands, pdp:packets: 0:%u 1:%u 2:%u 3:%u 4:%u 5:%u 6:%u 7:%u\n"
+- "%06ld.%06d %s::%s: -- Done.\n"
+- "%06ld.%06d %s::%s: -- done!\n"
+- "%06ld.%06d %s::%s: --done\n"
+- "%06ld.%06d %s::%s: Adding Tx pkt meta data failed with 0x%08x\n"
+- "%06ld.%06d %s::%s: Avail data indication -- qmap hdr 0x%08x\n"
+- "%06ld.%06d %s::%s: Avail data indication raw data 0x%08x %08x %08x %08x\n"
+- "%06ld.%06d %s::%s: Avail data timer expired, but interface was closed\n"
+- "%06ld.%06d %s::%s: Available data is non-zero, bytes: %u\n"
+- "%06ld.%06d %s::%s: Bad DL dump (offset=%llu, remain=%llu)\n"
+- "%06ld.%06d %s::%s: Bad RSC header\n"
+- "%06ld.%06d %s::%s: Bearer already mapped to Default Service\n"
+- "%06ld.%06d %s::%s: Bearer already mapped to Low Latency Service\n"
+- "%06ld.%06d %s::%s: Bearer switch already pending, ownerID: %u, bearerID: %u\n"
+- "%06ld.%06d %s::%s: Bearer switch complete !\n"
+- "%06ld.%06d %s::%s: Bearer switch in progress\n"
+- "%06ld.%06d %s::%s: Bearer switch notify!\n"
+- "%06ld.%06d %s::%s: Bearer switch request for ownerID: %u, bearer ID: %u, req type: %u\n"
+- "%06ld.%06d %s::%s: BearerID: %u not present for OwnerID: %u"
+- "%06ld.%06d %s::%s: Blocking outgoing traffic due to IP appender (unit number %u)\n"
+- "%06ld.%06d %s::%s: Cmd header: name 0x%02x: type 0x%02x: reserved 0x%04x: trans_id 0x%08x\n"
+- "%06ld.%06d %s::%s: Command response raw data 0x%08x %08x %08x %08x %08x\n"
+- "%06ld.%06d %s::%s: Creating interface: pdp_qctun\n"
+- "%06ld.%06d %s::%s: DFC End Marker Ack already pending for ownerID: %u\n"
+- "%06ld.%06d %s::%s: DFC End Marker command invalid length %u\n"
+- "%06ld.%06d %s::%s: DFC End Marker command raw data 0x%08x %08x %08x\n"
+- "%06ld.%06d %s::%s: DFC Info Query response raw data 0x%08x %08x\n"
+- "%06ld.%06d %s::%s: DFC Info query -- qmap hdr 0x%08x\n"
+- "%06ld.%06d %s::%s: DFC Info query -- qmap hdr 0x%08x %08x\n"
+- "%06ld.%06d %s::%s: DFC Info query for bearer ID: %u, ownerID: %u\n"
+- "%06ld.%06d %s::%s: DFC Info query raw data 0x%08x\n"
+- "%06ld.%06d %s::%s: DFC Query info response invalid length %u\n"
+- "%06ld.%06d %s::%s: DFC notify command invalid length %u\n"
+- "%06ld.%06d %s::%s: DFC notify command raw data 0x%08x %08x %08x\n"
+- "%06ld.%06d %s::%s: DFC power save mode ack not received!\n"
+- "%06ld.%06d %s::%s: DFC_INFO_QUERY response, ignore query response for inactive bearer ownerID: %u, bearer ID: %u, credits: %u\n"
+- "%06ld.%06d %s::%s: DFC_INFO_QUERY response, ignore query response for unmapped bearer ownerID: %u, bearer ID: %u, credits: %u\n"
+- "%06ld.%06d %s::%s: DL packet dump\n"
+- "%06ld.%06d %s::%s: DL packet dump (offset=%llu, length=%u, remain=%llu)\n"
+- "%06ld.%06d %s::%s: Data powersave mode command -- qmap hdr 0x%08x\n"
+- "%06ld.%06d %s::%s: Data powersave mode command raw data 0x%08x %08x %08x %08x %08x\n"
+- "%06ld.%06d %s::%s: Deferring Ack for DFC End Marker\n"
+- "%06ld.%06d %s::%s: Delete _CreditsQueue entries for intf: %u\n"
+- "%06ld.%06d %s::%s: Duplicate / redundant bearer removed notification for bearerID: %u, ownerID: %u, seq num: %u\n"
+- "%06ld.%06d %s::%s: Duplicate DFC_NOTIFY command for bearerID: %u, ownerID: %u, seq num: %u\n"
+- "%06ld.%06d %s::%s: Error detected on Modem - removing bearerID: %u\n"
+- "%06ld.%06d %s::%s: Failed to create matching dictionary\n"
+- "%06ld.%06d %s::%s: Flushing pci service's stage queue pkts to queue set, packetCnt: %u\n"
+- "%06ld.%06d %s::%s: Got reset bearers marker: %u for this interface\n"
+- "%06ld.%06d %s::%s: Hdr Size:%u interface %u, pkt size %u, padding %u\n"
+- "%06ld.%06d %s::%s: IP Appender failed with 0x%08x\n"
+- "%06ld.%06d %s::%s: Incorrect bearer mapping state, ownerID: %u, bearerID: %u, current mapped owner: %u\n"
+- "%06ld.%06d %s::%s: Inserting at HEAD\n"
+- "%06ld.%06d %s::%s: Inserting at Tail\n"
+- "%06ld.%06d %s::%s: Inserting before ownerID: %u, bearer ID: %u, credits: %u,\n"
+- "%06ld.%06d %s::%s: Interface advisory report: owner %u: payload bytes %u\n"
+- "%06ld.%06d %s::%s: Invalid NL pair data length, expected: %u, actual: %u\n"
+- "%06ld.%06d %s::%s: Invalid bearer status : %u\n"
+- "%06ld.%06d %s::%s: Invalid bearer status: %u, for bearer ID: %u\n"
+- "%06ld.%06d %s::%s: Invalid bearer switch request type, req type: %u\n"
+- "%06ld.%06d %s::%s: Invalid chksm\n"
+- "%06ld.%06d %s::%s: Invalid intf number: %u!\n"
+- "%06ld.%06d %s::%s: Invalid number of NLs, received: %u, max: %u\n"
+- "%06ld.%06d %s::%s: Invalid number of bearers: %u\n"
+- "%06ld.%06d %s::%s: Invalid ownerID : %u\n"
+- "%06ld.%06d %s::%s: Invalid ownerID: %u\n"
+- "%06ld.%06d %s::%s: Invalid ownerID: %u, bearerID: %u already mapped to ownerID: %u\n"
+- "%06ld.%06d %s::%s: Invalid request type: %u\n"
+- "%06ld.%06d %s::%s: LL Bearer Switch Ack raw data 0x%08x %08x\n"
+- "%06ld.%06d %s::%s: LL Bearer Switch Request Ack invalid length %u != (Header + Payload) size: %u\n"
+- "%06ld.%06d %s::%s: LL Bearer Switch Request Ack invalid length %u < Header Size: %u\n"
+- "%06ld.%06d %s::%s: LL Bearer Switch Status command, invalid length %u != (Header + Payload) size: %u\n"
+- "%06ld.%06d %s::%s: LL Bearer Switch Status raw data 0x%08x %08x\n"
+- "%06ld.%06d %s::%s: LQM report: owner %u: payload bytes %u\n"
+- "%06ld.%06d %s::%s: NL pair data len (%u), exceeded max len\n"
+- "%06ld.%06d %s::%s: NL[%u](Length: %u, chksum map: 0x%x, NumPkts: %u)\n"
+- "%06ld.%06d %s::%s: NULL owner!\n"
+- "%06ld.%06d %s::%s: No UL pkts queued for ownerID: %u\n"
+- "%06ld.%06d %s::%s: No bearer present for this OwnerID: %u\n"
+- "%06ld.%06d %s::%s: No bearer present for this ownerID: %u\n"
+- "%06ld.%06d %s::%s: No credit update for owner: %u\n"
+- "%06ld.%06d %s::%s: PCIe link is down or is going down\n"
+- "%06ld.%06d %s::%s: Packet txid: %u, Expected txid: %u\n"
+- "%06ld.%06d %s::%s: Packet type is not QMAP control! \n"
+- "%06ld.%06d %s::%s: Packet: %p, Txid: %u\n"
+- "%06ld.%06d %s::%s: Preparing response: %s\n"
+- "%06ld.%06d %s::%s: Previous tail entry - ownerID: %u, bearer ID: %u, credits: %u,\n"
+- "%06ld.%06d %s::%s: RSC service: %u\n"
+- "%06ld.%06d %s::%s: Received DFC_END_MARKER for ownerID: %u, bearer ID: %u, seqNum: %u\n"
+- "%06ld.%06d %s::%s: Received DFC_INFO_QUERY response for ownerID: %u, bearer ID: %u, credits: %u\n"
+- "%06ld.%06d %s::%s: Received DFC_NOTIFY for ownerID: %u, bearer ID: %u, credits: %u, seq num: %u, bearer status: %u\n"
+- "%06ld.%06d %s::%s: Redundant bearer removed notificaiton, bearer ID: %u already removed\n"
+- "%06ld.%06d %s::%s: Removing bearer failed!\n"
+- "%06ld.%06d %s::%s: Request Bearer Switch -- qmap cmd hdr 0x%08x %08x\n"
+- "%06ld.%06d %s::%s: Request Bearer Switch -- qmap hdr 0x%08x\n"
+- "%06ld.%06d %s::%s: Request Bearer Switch raw data 0x%08x %08x\n"
+- "%06ld.%06d %s::%s: Sending DFC End Marker Ack for ownerID: %u\n"
+- "%06ld.%06d %s::%s: Setting packet buffer base / limit failed: 0x%llx\n"
+- "%06ld.%06d %s::%s: Start --\n"
+- "%06ld.%06d %s::%s: Start, options 0x%08x --\n"
+- "%06ld.%06d %s::%s: Stop queueing pkts - DFC end marker / UL flow switched!\n"
+- "%06ld.%06d %s::%s: Tcp Ack Allowed: %u\n"
+- "%06ld.%06d %s::%s: Temp failure in switching bearer ID: %u\n"
+- "%06ld.%06d %s::%s: Trigger DFC End Marker Ack\n"
+- "%06ld.%06d %s::%s: UL packet dump\n"
+- "%06ld.%06d %s::%s: Unexpected - bearer info entry is NULL!\n"
+- "%06ld.%06d %s::%s: Unexpected Tx\n"
+- "%06ld.%06d %s::%s: Unexpected command in RSC channel\n"
+- "%06ld.%06d %s::%s: Unexpected control packet for out of band Qmap control service\n"
+- "%06ld.%06d %s::%s: Unexpected next header for RSC\n"
+- "%06ld.%06d %s::%s: Unexpected pci service ID: %u\n"
+- "%06ld.%06d %s::%s: Unknown or unhandled command, name: %u\n"
+- "%06ld.%06d %s::%s: Unmapping bearerID: %u from OwnerID: %u\n"
+- "%06ld.%06d %s::%s: Unsupported status\n"
+- "%06ld.%06d %s::%s: Updated credits for ownerID: %u, credits remaining: %u\n"
+- "%06ld.%06d %s::%s: [%u] bearerID: %u, credits: %u\n"
+- "%06ld.%06d %s::%s: _rxHEAD: %p, _rxTail: %p\n"
+- "%06ld.%06d %s::%s: allowed Tx bytes: %u\n"
+- "%06ld.%06d %s::%s: bad command packet size: %u\n"
+- "%06ld.%06d %s::%s: bad length %u for link status report payload\n"
+- "%06ld.%06d %s::%s: bearer switch ack, bearer ID: %u, status: %u\n"
+- "%06ld.%06d %s::%s: bearer switch status, bearer ID: %u, status: %u\n"
+- "%06ld.%06d %s::%s: bearer switch was not pending! bearer ID: %u, \n"
+- "%06ld.%06d %s::%s: bearer switch was not successful! bearer ID: %u, \n"
+- "%06ld.%06d %s::%s: bearer switch was not successful! bearer ID: %u, status: %u \n"
+- "%06ld.%06d %s::%s: bytesRead (%llu) != header (%lu) + body (%u)\n"
+- "%06ld.%06d %s::%s: cache max reached, dropping packet\n"
+- "%06ld.%06d %s::%s: cannot receive interface advisory report for nonexisting owner %u\n"
+- "%06ld.%06d %s::%s: cannot receive link status report for nonexisting owner %u\n"
+- "%06ld.%06d %s::%s: chain length = %u\n"
+- "%06ld.%06d %s::%s: chain length = %u, txid 0x%u --> 0x%u, total DL data %u bytes\n"
+- "%06ld.%06d %s::%s: cksmValid: %u, numNLs: %u, incIPID: %u\n"
+- "%06ld.%06d %s::%s: close called on an unopened client %p\n"
+- "%06ld.%06d %s::%s: closeVal: %u, closeType: %u, contextID: %u\n"
+- "%06ld.%06d %s::%s: cmd header: name 0x%02x: type 0x%02x: reserved 0x%04x: trans_id 0x%08x\n"
+- "%06ld.%06d %s::%s: cmd version: %u\n"
+- "%06ld.%06d %s::%s: command header raw data: 0x%08x 0x%08x\n"
+- "%06ld.%06d %s::%s: command name: %u\n"
+- "%06ld.%06d %s::%s: consumed:%u\n"
+- "%06ld.%06d %s::%s: count %u\n"
+- "%06ld.%06d %s::%s: count %u, telescoping limit %u\n"
+- "%06ld.%06d %s::%s: count: %u\n"
+- "%06ld.%06d %s::%s: dealloc packet %p directly\n"
+- "%06ld.%06d %s::%s: device: %p, stateNumber: %lu\n"
+- "%06ld.%06d %s::%s: disable soft flow control for pdp_ip%u due to %u pending write bytes\n"
+- "%06ld.%06d %s::%s: disabling flow control due to QMAP command\n"
+- "%06ld.%06d %s::%s: draining pci service's stage queue pkts to queue set, packetCnt: %u\n"
+- "%06ld.%06d %s::%s: duplicate QMAP extension header type (%u)\n"
+- "%06ld.%06d %s::%s: enabling flow control due to QMAP command\n"
+- "%06ld.%06d %s::%s: enabling flow control for pdp_ip%u due to %u pending Tx bytes\n"
+- "%06ld.%06d %s::%s: error 0x%08x\n"
+- "%06ld.%06d %s::%s: failed to clone packet\n"
+- "%06ld.%06d %s::%s: failed to create Available data zero indication timer\n"
+- "%06ld.%06d %s::%s: failed to create Rx queue\n"
+- "%06ld.%06d %s::%s: failed to create Tx completion queue\n"
+- "%06ld.%06d %s::%s: failed to create Tx queue\n"
+- "%06ld.%06d %s::%s: failed to create power save mode timer\n"
+- "%06ld.%06d %s::%s: failed to open provider\n"
+- "%06ld.%06d %s::%s: failed to set packet limits: 0x%08x\n"
+- "%06ld.%06d %s::%s: flow control %s: owner %u: ipFamily %u: sequence 0x%04x: QoS 0x%08x\n"
+- "%06ld.%06d %s::%s: flow control command invalid IP family %u\n"
+- "%06ld.%06d %s::%s: flow control command invalid length %u\n"
+- "%06ld.%06d %s::%s: flow control command raw data 0x%08x %08x\n"
+- "%06ld.%06d %s::%s: flow control disable sequence number mismatch (got %u, expected %u)\n"
+- "%06ld.%06d %s::%s: flow controlling bearerID: %u, ownerID: %u\n"
+- "%06ld.%06d %s::%s: found client, unit %u\n"
+- "%06ld.%06d %s::%s: free count: %u\n"
+- "%06ld.%06d %s::%s: interface %u not opened yet, packet will be queued\n"
+- "%06ld.%06d %s::%s: interface %u, size %u, padding %u, command %u\n"
+- "%06ld.%06d %s::%s: interface 0x%p not found\n"
+- "%06ld.%06d %s::%s: interface down\n"
+- "%06ld.%06d %s::%s: intf %p, count %u\n"
+- "%06ld.%06d %s::%s: intf number: %u, open: %u, owner = %p\n"
+- "%06ld.%06d %s::%s: invalid interface %d\n"
+- "%06ld.%06d %s::%s: invalid length for LQM command, length: %u\n"
+- "%06ld.%06d %s::%s: invalid null header\n"
+- "%06ld.%06d %s::%s: invoked with packetCount = 0\n"
+- "%06ld.%06d %s::%s: kOffPowerState\n"
+- "%06ld.%06d %s::%s: kOffPowerState, enable data powersave mode, allow notification: %u\n"
+- "%06ld.%06d %s::%s: kOnPowerState, disable data powersave mode\n"
+- "%06ld.%06d %s::%s: konPowerState\n"
+- "%06ld.%06d %s::%s: last queued pkt completed, trigger DFC end marker Ack for %u\n"
+- "%06ld.%06d %s::%s: link status report: owner %u: payload bytes %u\n"
+- "%06ld.%06d %s::%s: low latency service: %u\n"
+- "%06ld.%06d %s::%s: null header\n"
+- "%06ld.%06d %s::%s: out of band QMAP control: %u\n"
+- "%06ld.%06d %s::%s: oversize header (%u < %u)\n"
+- "%06ld.%06d %s::%s: oversize header (%u < %zu)\n"
+- "%06ld.%06d %s::%s: owner %u does not exist, processing command anyway\n"
+- "%06ld.%06d %s::%s: owner: %u is inactive\n"
+- "%06ld.%06d %s::%s: owner: %u is not active\n"
+- "%06ld.%06d %s::%s: owner: %u is not opened yet\n"
+- "%06ld.%06d %s::%s: ownerID: %u\n"
+- "%06ld.%06d %s::%s: ownerID: %u has no bearer info entry for bearerID: %u\n"
+- "%06ld.%06d %s::%s: ownerID: %u was previously flow controlled, updated credits: %u\n"
+- "%06ld.%06d %s::%s: ownerID: %u, avail data bytes: %u\n"
+- "%06ld.%06d %s::%s: ownerID: %u, bearerID: %u, Active -> Removed\n"
+- "%06ld.%06d %s::%s: ownerID: %u, bearerID: %u, Inactive -> Active\n"
+- "%06ld.%06d %s::%s: ownerID: %u, bearerID: %u, curr bearer state: %u, new status: %u\n"
+- "%06ld.%06d %s::%s: ownerID: %u, bearerID: %u, switchStatus: %u\n"
+- "%06ld.%06d %s::%s: ownerID: %u, credits queue...\n"
+- "%06ld.%06d %s::%s: packet 0x%p, count: %u\n"
+- "%06ld.%06d %s::%s: packet: %p, TxID: %u\n"
+- "%06ld.%06d %s::%s: packet: %p, TxID: %u, next TxID: %u, count: %u\n"
+- "%06ld.%06d %s::%s: pad bytes (%u) is >= total length (%u)\n"
+- "%06ld.%06d %s::%s: pci service not available\n"
+- "%06ld.%06d %s::%s: pciService not available\n"
+- "%06ld.%06d %s::%s: pdp:packets: 0:%u 1:%u 2:%u 3:%u 4:%u 5:%u 6:%u 7:%u\n"
+- "%06ld.%06d %s::%s: pdp_ip%u flow controlled, but continue until soft flow control is enabled\n"
+- "%06ld.%06d %s::%s: qmap_control_service not present in plist\n"
+- "%06ld.%06d %s::%s: read size too small: %llu\n"
+- "%06ld.%06d %s::%s: received ack for Data Powersave Mode Control command\n"
+- "%06ld.%06d %s::%s: redundant flow control disable command for owner %u\n"
+- "%06ld.%06d %s::%s: redundant flow control enable command for owner %u\n"
+- "%06ld.%06d %s::%s: refCon 0x%p, status 0x%x\n"
+- "%06ld.%06d %s::%s: refcon: %p, status 0x%x\n"
+- "%06ld.%06d %s::%s: refcon: %p, status 0x%x, enqueue: %u\n"
+- "%06ld.%06d %s::%s: registering callback for ownerID: %u\n"
+- "%06ld.%06d %s::%s: requesting upto: %llu usecs to PM\n"
+- "%06ld.%06d %s::%s: residue (%llu) < header (%lu) + body (%u)\n"
+- "%06ld.%06d %s::%s: returning free space: %u, service id: %u\n"
+- "%06ld.%06d %s::%s: sending data powersave mode, ownerID: %u, enable: %u\n"
+- "%06ld.%06d %s::%s: sending response...\n"
+- "%06ld.%06d %s::%s: sending response: %s\n"
+- "%06ld.%06d %s::%s: sent bytes: %u\n"
+- "%06ld.%06d %s::%s: sent bytes: %u, pkt cnt: %u\n"
+- "%06ld.%06d %s::%s: setting %u msecs timer\n"
+- "%06ld.%06d %s::%s: skipping disable powersave mode, first power on\n"
+- "%06ld.%06d %s::%s: soft flow control active on pdp_ip%u\n"
+- "%06ld.%06d %s::%s: staged: %u\n"
+- "%06ld.%06d %s::%s: super::handleOpen() failed\n!"
+- "%06ld.%06d %s::%s: super::open failed\n"
+- "%06ld.%06d %s::%s: too many packets in transfer (limit %u), dropping packet\n"
+- "%06ld.%06d %s::%s: transfer size %u, interface %u, txid %u\n"
+- "%06ld.%06d %s::%s: txid 0x%08x: status 0x%x, packet 0x%p\n"
+- "%06ld.%06d %s::%s: txid 0x%x\n"
+- "%06ld.%06d %s::%s: unable to get unsent bytes: 0x%x\n"
+- "%06ld.%06d %s::%s: unexpected command type %u\n"
+- "%06ld.%06d %s::%s: unexpected command type: %u\n"
+- "%06ld.%06d %s::%s: unit number %u invalid or nonexistent\n"
+- "%06ld.%06d %s::%s: unrecognized QMAP extension header type (%u)\n"
+- "%06ld.%06d %s::%s: unsupported command: name 0x%02x: type %u: transactionID 0x%08x\n"
+- "%06ld.%06d %s::%s: unsupported flow control QoS 0x%08x\n"
+- "%06ld.%06d %s::%s: updating bearer credits failed!\n"
+- "%06ld.%06d %s::%s: updating owners in QMAP control intf failed\n"
+- "%06ld.%06d %s::%s: waiting for Low Latency service\n"
+- "%06ld.%06d %s::%s: waiting for QMAP control service\n"
+- "%06ld.%06d %s::%s: waiting for RSC service\n"
+- "12111112122212121111111121111121111111111111121121121121111211211111212222"
+- "121111121222121211112111222222212111112222212121"
+- "121111121222121212121111111111111111111111222222222222222222222222222222222221111111111111111111111111111111111111111111111111111111111111111111111222222222222222221111121122222222221111111111111111222122222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222111111111111111111111111111111112222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222211111111111111112222"
+- "121111121222121212121111111111111111111111222222222222222222222222222222222221111111111111111111111111111111111111111111111111111111111111111111111222222222222222221111121122222222222222222222222212212112"
+- "1211111212221212121211111111111111111111112222222222222222222222222222222222211111111111111111111111111111111111111111111111111111111111111111111112222222222222222211111211222222222222222222222222122121121"
+- "addTxPktMetaData"
+- "allocQueues"
+- "availDataZeroTimerCompletion"
+- "bearerSwitchComplete_block_invoke"
+- "closeGated"
+- "commandResponse"
+- "commandResponse_block_invoke"
+- "createRxSubmissionQueue"
+- "decodeQMAPHeader"
+- "decodeQMAPRSCHeader"
+- "disable"
+- "discardRxPacket"
+- "dumpOwnerCreditsQueue"
+- "enable"
+- "flowControlAllBearers"
+- "free"
+- "getAvailData"
+- "getOwnerCredits_block_invoke"
+- "handleOpen"
+- "initWithOptions"
+- "openGated"
+- "outputComplete"
+- "powerSaveModeTimerCompletion"
+- "powerStateWillChangeTo"
+- "powerStateWillChangeTo_block_invoke"
+- "processBearerCreditsGated"
+- "processCtrlPacket"
+- "processDFCEndMarker"
+- "processDFCInfoQuery"
+- "processDFCLLSwitchRequest"
+- "processDFCLLSwitchStatus"
+- "processDFCNotify"
+- "processDFCPowerSaveMode"
+- "processMavExtCmdAdvisoryReport"
+- "processMavExtCmdLQM"
+- "queryFlowControlCredits_block_invoke"
+- "queryFreeULSpace"
+- "queueRxBuffersGated"
+- "readComplete"
+- "registerBearerSwitchCallback"
+- "requestBearerSwitchGated"
+- "requestTxGated"
+- "resetOwnerCreditsQueue"
+- "rxQueueCallbackGated"
+- "sendAvailDataIndication_block_invoke"
+- "sendDFCEndMarkerAck_block_invoke"
+- "sendDataPowerSaveMode_block_invoke"
+- "setBearerSwitchPending_block_invoke"
+- "setInterfaceOwnerGated"
+- "setPowerStateGated"
+- "start"
+- "terminate"
+- "triggerBearerSwitch_block_invoke"
+- "triggerRxDequeue_block_invoke"
+- "txCompletionCallbackGated"
+- "txQueueCallbackGated"
+- "updateOwnerCreditsGated_block_invoke"
+- "usesQmapControlService"
+- "willTerminate"
+- "willTerminate_block_invoke"
+
+```
+
 >  `com.apple.driver.AppleDisplayCrossbar`
 
 ```diff
@@ -2293,114 +2160,78 @@ CStrings:
 
 ```
 
->  `com.apple.iokit.IOMobileGraphicsFamily-DCP`
+>  `com.apple.driver.AppleMobileDispH16P-DCP`
 
 ```diff
 
 -395.30.0.0.0
+-  __TEXT.__cstring: 0x5658
 +395.33.3.0.0
-   __TEXT.__cstring: 0x3ef5
--  __TEXT.__const: 0x2148
--  __TEXT_EXEC.__text: 0x1f8fc
-+  __TEXT.__const: 0x2f68
-+  __TEXT_EXEC.__text: 0x1fe34
++  __TEXT.__cstring: 0x56a0
+   __TEXT.__const: 0x1a78
+-  __TEXT_EXEC.__text: 0x20970
++  __TEXT_EXEC.__text: 0x20b6c
    __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0xe0
-   __DATA.__common: 0x26d0
-
-   __DATA_CONST.__auth_ptr: 0x8
-   __DATA_CONST.__mod_init_func: 0x20
-   __DATA_CONST.__mod_term_func: 0x20
--  __DATA_CONST.__const: 0x1628
-+  __DATA_CONST.__const: 0x1638
-   __DATA_CONST.__kalloc_type: 0x7c0
--  Functions: 690
-+  Functions: 692
+   __DATA.__data: 0x2b8
+   __DATA.__common: 0xf0
+   __DATA.__bss: 0x170
+   __DATA_CONST.__auth_got: 0x708
+-  __DATA_CONST.__got: 0xe0
++  __DATA_CONST.__got: 0xe8
+   __DATA_CONST.__mod_init_func: 0x18
+   __DATA_CONST.__mod_term_func: 0x18
+-  __DATA_CONST.__const: 0x3e40
++  __DATA_CONST.__const: 0x3e88
+   __DATA_CONST.__kalloc_type: 0x640
+   __DATA_CONST.__kalloc_var: 0xf0
+-  Functions: 1109
++  Functions: 1111
    Symbols:   0
-   CStrings:  364
+-  CStrings:  510
++  CStrings:  512
  
 CStrings:
-+ "site.A439_out_args__"
-+ "site.A440_in_args__"
-- "site.A436_in_args__"
-- "site.A437_out_args__"
++ "IOMFBWindowedVsyncOffDisableDetachingKey"
++ "iomfb_swap_submit_split_enable"
 
 ```
 
->  `com.apple.kernel`
+>  `com.apple.driver.AppleMobileFileIntegrity`
 
 ```diff
 
--11215.0.199.502.1
--  __TEXT.__const: 0x33b60
-+11215.2.5.0.0
-+  __TEXT.__const: 0x33ba0
-   __TEXT.__copyio_vectors: 0xf0
--  __TEXT.__cstring: 0x6bbc8
--  __TEXT.__os_log: 0x26d59
-+  __TEXT.__cstring: 0x6bab4
-+  __TEXT.__os_log: 0x26c98
-   __TEXT.__eh_frame: 0x610
-   __DATA_CONST.__auth_ptr: 0x8
-   __DATA_CONST.__mod_init_func: 0x2c0
--  __DATA_CONST.__const: 0xa2328
-+  __DATA_CONST.__const: 0xa2378
-   __DATA_CONST.__hib_const: 0x120
-   __DATA_CONST.__kalloc_type: 0x13340
-   __DATA_CONST.__kalloc_var: 0x78f0
-   __DATA_CONST.__brk_desc: 0x78
-   __DATA_SPTM.__const: 0x3c000
-   __TEXT_EXEC.__hib_text: 0xc68
--  __TEXT_EXEC.__text: 0x7fdf60
-+  __TEXT_EXEC.__text: 0x7bccfc
-   __TEXT_BOOT_EXEC.__bootcode: 0x4cd8
-   __KLD.__text: 0x1644
-   __LASTDATA_CONST.__mod_init_func: 0x8
-
-   __DATA.__lock_grp: 0x57a8
-   __DATA.__percpu: 0x6e48
-   __DATA.__common: 0x58508
--  __DATA.__bss: 0x3f7c0
-+  __DATA.__bss: 0x3f778
-   __BOOTDATA.__data: 0x18000
--  __BOOTDATA.__init_entry_set: 0x10788
-+  __BOOTDATA.__init_entry_set: 0x107b8
-   __BOOTDATA.__init: 0x5b058
-   __PRELINK_TEXT.__text: 0x0
-   __PRELINK_INFO.__info: 0x0
-
-   __PLK_DATA_CONST.__data: 0x0
-   __PLK_LLVM_COV.__llvm_covmap: 0x0
-   __PLK_LINKEDIT.__data: 0x0
--  __LINKINFO.__symbolsets: 0x4537a
-+  __LINKINFO.__symbolsets: 0x45532
-   __LATE_CONST.__late_const: 0xa8
--  Functions: 19841
-+  Functions: 19804
-   Symbols:   0
--  CStrings:  16812
-+  CStrings:  16803
- 
+-938.0.27.0.1
++938.0.31.0.0
+   __TEXT.__cstring: 0x9aae
+   __TEXT.__const: 0x14b0
+   __TEXT.__os_log: 0x233
+-  __TEXT_EXEC.__text: 0x25fec
++  __TEXT_EXEC.__text: 0x25fd4
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0x412
+   __DATA.__common: 0xb0
 CStrings:
-+ "B16@?0^{task={lck_mtx_s=b24b8I(lck_mtx_state={?=b28b1b1b1b1SS}IQ)}{os_refcnt=AI}BBBBIIQ^{_vm_map}{queue_entry=^{queue_entry}^{queue_entry}}^{task_watchports}^v{queue_entry=^{queue_entry}^{queue_entry}}^{restartable_ranges}^{processor_set}^{affinity_space}iIiiissiQ{recount_task=^{recount_track}^{recount_usage}}{lck_mtx_s=b24b8I(lck_mtx_state={?=b28b1b1b1b1SS}IQ)}[4^{ipc_port}]^{ipc_port}[14{exception_action=^{ipc_port}iiii^{label}}]{hardened_exception_action={exception_action=^{ipc_port}iiii^{label}}II}^{ipc_port}^{ipc_port}^{ipc_port}^{ipc_port}^{ipc_port}[3^{ipc_port}]^^{ipc_port}^{ipc_space}^{ledger}{queue_entry=^{queue_entry}^{queue_entry}}iI^vQQCACQQiBBB^Q^Q^Q^Q^QIIIIII^{proc_ro}^{kcdata_descriptor}Q{queue_entry=^{queue_entry}^{queue_entry}}^{label}IIQQIBBBBb4b4b4b4CCCCB*^{vm_shared_region}QQQ^{thread_call}{queue_entry=^{queue_entry}^{queue_entry}}ii^{bank_task}^{ipc_importance_task}{vm_extmod_statistics=qqqqqq}{task_requested_policy=b1b1b2b2b1b1b2b1b3b3b3b1b5b3b3b1b3b1b1b3b1b3b1b1b17}{task_effective_policy=b1b1b2b1b1b1b2b1b1b3b3b1b1b1b4b1b1b1b3b3b1b1b29}{task_pend_token=(?={?=b1b1b1b1b1b1b1b1b1b1b1b1b1}I)}b1b1b1b1b1b27b1b1b1b1b28^{io_stat_info}{task_writes_counters=QQQQ}{task_writes_counters=QQQQ}{_cpu_time_qos_stats=QQQQQQQ}{_cpu_time_qos_stats=QQQQQQQ}IIQCCCiii{queue_entry=^{queue_entry}^{queue_entry}}{lck_mtx_s=b24b8I(lck_mtx_state={?=b28b1b1b1b1SS}IQ)}b16b1b1b1b1b1b1b1[2^{coalition}][2{queue_entry=^{queue_entry}^{queue_entry}}]QCCCCIQ{queue_entry=^{queue_entry}^{queue_entry}}{queue_entry=^{queue_entry}^{queue_entry}}iIQ[16C]Q^{_vmobject_list_output_}Q^{vm_deferred_reclamation_metadata_s}}8"
-+ "com.apple.developer.media-device-discovery-extension"
-+ "drop_loopback_count"
-+ "site.u_int8_t *"
-+ "task_apt_token"
-- "!IN6_IS_ADDR_MULTICAST(&ip6->ip6_dst)"
-- "%s: %s (process %s:%u) priority %u entry_count 0\n"
-- "%s:%d esp kpipe input, ipversion %u, SPI=%x"
-- "%s:%d esp kpipe input, output buffer is short(%u), compared to input buffer(%u) SPI=%x\n"
-- "(sb->sb_flags & SB_LOCK) == 0"
-- "B16@?0^{task={lck_mtx_s=b24b8I(lck_mtx_state={?=b28b1b1b1b1SS}IQ)}{os_refcnt=AI}BBBBIIQ^{_vm_map}{queue_entry=^{queue_entry}^{queue_entry}}^{task_watchports}^v{queue_entry=^{queue_entry}^{queue_entry}}^{restartable_ranges}^{processor_set}^{affinity_space}iIiiissiQ{recount_task=^{recount_track}^{recount_usage}}{lck_mtx_s=b24b8I(lck_mtx_state={?=b28b1b1b1b1SS}IQ)}[4^{ipc_port}]^{ipc_port}[14{exception_action=^{ipc_port}iiii^{label}}]{hardened_exception_action={exception_action=^{ipc_port}iiii^{label}}II}^{ipc_port}^{ipc_port}^{ipc_port}^{ipc_port}^{ipc_port}[3^{ipc_port}]^^{ipc_port}^{ipc_space}^{ledger}{queue_entry=^{queue_entry}^{queue_entry}}iI^vQQCACQQiBB^Q^Q^Q^Q^QIIIIII^{proc_ro}^{kcdata_descriptor}Q{queue_entry=^{queue_entry}^{queue_entry}}^{label}IIQQIBBBBb4b4b4b4CCCCB*^{vm_shared_region}QQQ^{thread_call}{queue_entry=^{queue_entry}^{queue_entry}}ii^{bank_task}^{ipc_importance_task}{vm_extmod_statistics=qqqqqq}{task_requested_policy=b1b1b2b2b1b1b2b1b3b3b3b1b5b3b3b1b3b1b1b3b1b3b1b1b17}{task_effective_policy=b1b1b2b1b1b1b2b1b1b3b3b1b1b1b4b1b1b1b3b3b1b1b29}{task_pend_token=(?={?=b1b1b1b1b1b1b1b1b1b1b1b1b1}I)}b1b1b1b1b1b27b1b1b1b1b28^{io_stat_info}{task_writes_counters=QQQQ}{task_writes_counters=QQQQ}{_cpu_time_qos_stats=QQQQQQQ}{_cpu_time_qos_stats=QQQQQQQ}IIQCCCiii{queue_entry=^{queue_entry}^{queue_entry}}{lck_mtx_s=b24b8I(lck_mtx_state={?=b28b1b1b1b1SS}IQ)}b16b1b1b1b1b1b1b1[2^{coalition}][2{queue_entry=^{queue_entry}^{queue_entry}}]QCCCCIQ{queue_entry=^{queue_entry}^{queue_entry}}{queue_entry=^{queue_entry}^{queue_entry}}iIQ[16C]Q^{_vmobject_list_output_}Q^{vm_deferred_reclamation_metadata_s}}8"
-- "IS_P2ALIGNED(ccp, CHANNEL_CACHE_ALIGN_MAX)"
-- "authentication failed in IPv6 AH input: %s %s\n"
-- "ndopts == NULL in nd6_option @%s:%d"
-- "ndopts->nd_opts_last >= ndopts->nd_opts_search"
-- "necp_get_tlv_at_offset buffer is NULL"
-- "rt_key(rt)->sa_family == AF_INET"
-- "site.u_int8_t * __attribute__((__indexable__))"
-- "src.s_addr != INADDR_ANY"
++ "01:10:33"
++ "Aug  8 2024"
+- "20:35:18"
+- "Jul 30 2024"
+
+```
+
+>  `com.apple.driver.AppleSPU`
+
+```diff
+
+-1014.0.4.0.0
++1014.0.5.0.0
+   __TEXT.__cstring: 0x5aae
+   __TEXT.__os_log: 0x955
+   __TEXT.__const: 0x358
+-  __TEXT_EXEC.__text: 0x498e8
++  __TEXT_EXEC.__text: 0x498dc
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0x878
+   __DATA.__common: 0x970
 
 ```
 
@@ -2425,33 +2256,206 @@ CStrings:
 
 ```
 
->  `com.apple.iokit.IODisplayPortFamily`
+>  `com.apple.driver.AppleAVE2`
 
 ```diff
 
--730.0.4.0.0
-+730.0.5.0.0
-   __TEXT.__cstring: 0x7c47
-   __TEXT.__os_log: 0x9571
-   __TEXT.__const: 0x310
--  __TEXT_EXEC.__text: 0x5d094
-+  __TEXT_EXEC.__text: 0x5d118
+-802.97.1.0.0
++803.16.2.0.0
+   __TEXT.__const: 0x2e8e0
+-  __TEXT.__cstring: 0x350f8
+-  __TEXT.__os_log: 0x40038
+-  __TEXT_EXEC.__text: 0x142720
++  __TEXT.__cstring: 0x35356
++  __TEXT.__os_log: 0x4029b
++  __TEXT_EXEC.__text: 0x143a50
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0x290
+   __DATA.__common: 0x130
+
+   __DATA_CONST.__mod_term_func: 0x38
+   __DATA_CONST.__const: 0x62c8
+   __DATA_CONST.__kalloc_type: 0x1fc0
+-  __DATA_CONST.__kalloc_var: 0x1040
+-  Functions: 2472
++  __DATA_CONST.__kalloc_var: 0xfa0
++  Functions: 2481
+   Symbols:   0
+-  CStrings:  6936
++  CStrings:  6958
+ 
+CStrings:
++ "%lld %d AVE %s: %s total commands in client stages %p | %d %d | %d | %d"
++ "%lld %d AVE %s: %s total commands in client stages %p | %d %d | %d | %d\n"
++ "%lld %d AVE %s: %s:%d SKIP %p %d %lld | %p %d %lld 0x%x %lld | %p %d %lld 0x%x %lld"
++ "%lld %d AVE %s: %s:%d SKIP %p %d %lld | %p %d %lld 0x%x %lld | %p %d %lld 0x%x %lld\n"
++ "%lld %d AVE %s: %s::%s:%d %p %d | <Info> %p %d"
++ "%lld %d AVE %s: %s::%s:%d %p %d | <Info> %p %d\n"
++ "%lld %d AVE %s: %s::%s:%d %p %lld %p %d | %p %d %lld 0x%x %lld"
++ "%lld %d AVE %s: %s::%s:%d %p %lld %p %d | %p %d %lld 0x%x %lld\n"
++ "%lld %d AVE %s: %s::%s:%d %p %lld | %p %d %lld %d %lld | RefCnt %d pNewCmd %p"
++ "%lld %d AVE %s: %s::%s:%d %p %lld | %p %d %lld %d %lld | RefCnt %d pNewCmd %p\n"
++ "%lld %d AVE %s: %s::%s:%d %s | fail to initialize FPS %p %d %d %d.%03d %d.%03d %d %d %d %d"
++ "%lld %d AVE %s: %s::%s:%d %s | fail to initialize FPS %p %d %d %d.%03d %d.%03d %d %d %d %d\n"
++ "%lld %d AVE %s: %s::%s:%d %s | fail to update FPS %p %d %d %d.%03d %d.%03d %d %d %d %d"
++ "%lld %d AVE %s: %s::%s:%d %s | fail to update FPS %p %d %d %d.%03d %d.%03d %d %d %d %d\n"
++ "%lld %d AVE %s: %s::%s:%d %s | failed to create external timer %p %p"
++ "%lld %d AVE %s: %s::%s:%d %s | failed to create external timer %p %p\n"
++ "%lld %d AVE %s: %s::%s:%d %s | failed to create mutex for external timer %p"
++ "%lld %d AVE %s: %s::%s:%d %s | failed to create mutex for external timer %p\n"
++ "%lld %d AVE %s: %s::%s:%d %s | failed to get External Timer %p %p"
++ "%lld %d AVE %s: %s::%s:%d %s | failed to get External Timer %p %p\n"
++ "%lld %d AVE %s: %s::%s:%d SKIP %p %d %lld | %p %d %lld 0x%x %lld"
++ "%lld %d AVE %s: %s::%s:%d SKIP %p %d %lld | %p %d %lld 0x%x %lld\n"
++ "%lld %d AVE %s: %s::%s:%d WP buffer pool abnormal %p %d %d"
++ "%lld %d AVE %s: %s::%s:%d WP buffer pool abnormal %p %d %d\n"
++ "%lld %d AVE %s: %s::%s:%d frame drop %p %d %p %d"
++ "%lld %d AVE %s: %s::%s:%d frame drop %p %d %p %d\n"
++ "%lld %d AVE %s: %s::%s:%d invalid command %p %d | %p %d %p %d | %d"
++ "%lld %d AVE %s: %s::%s:%d invalid command %p %d | %p %d %p %d | %d\n"
++ "%lld %d AVE %s: %s::%s:%d unpaired frame %p %d | %p %d %p %d | %p %lld | %p %d %d"
++ "%lld %d AVE %s: %s::%s:%d unpaired frame %p %d | %p %d %p %d | %p %lld | %p %d %d\n"
++ "%lld %d AVE %s: HierMode: %d"
++ "%lld %d AVE %s: HierMode: %d\n"
++ "%s total commands in client stages %p | %d %d | %d | %d"
++ "%s total commands in client stages %p | %d %d | %d | %d\n"
++ "03:55:38"
++ "1211111111111222212112222211111111111111111111111121222221"
++ "1211111212221212112111211122"
++ "803.16.2"
++ "AVE_LookAhead_GOPDecision_Flush"
++ "Aug  8 2024"
++ "HandleCmd"
++ "HierMode: %d"
++ "HierMode: %d\n"
++ "HwC DrainAll"
++ "HwC DrainData"
++ "ProcExtTimerHandler"
++ "ProcessReadyCmd"
++ "SwC DrainAll"
++ "SwC DrainData"
++ "m_pExtTimerMutex != nullptr"
++ "m_pcExtTimer != nullptr"
++ "m_psExtTimer != nullptr"
++ "pClientList != nullptr && piaThreshold != nullptr && iNum == 2"
++ "schedMode == 0 && euNum == 1 && piPrevEUID != nullptr"
+- "%lld %d AVE %s: %s total commands in client stages %p | %d %d | %d"
+- "%lld %d AVE %s: %s total commands in client stages %p | %d %d | %d\n"
+- "%lld %d AVE %s: %s:%d frame drop"
+- "%lld %d AVE %s: %s:%d frame drop\n"
+- "%lld %d AVE %s: %s::%s:%d %p %d | <WPParam> %p | <Info> %p %d"
+- "%lld %d AVE %s: %s::%s:%d %p %d | <WPParam> %p | <Info> %p %d\n"
+- "%lld %d AVE %s: %s::%s:%d %p %lld | %p %d %lld %d %lld| RefCnt %d pNewCmd %p"
+- "%lld %d AVE %s: %s::%s:%d %p %lld | %p %d %lld %d %lld| RefCnt %d pNewCmd %p\n"
+- "%lld %d AVE %s: %s::%s:%d %s | fail to initialize FPS %p %d %d %d.%03d %d.%03d %d %d %d"
+- "%lld %d AVE %s: %s::%s:%d %s | fail to initialize FPS %p %d %d %d.%03d %d.%03d %d %d %d\n"
+- "%lld %d AVE %s: %s::%s:%d %s | fail to update FPS %p %d %d %d.%03d %d.%03d %d %d %d"
+- "%lld %d AVE %s: %s::%s:%d %s | fail to update FPS %p %d %d %d.%03d %d.%03d %d %d %d\n"
+- "%lld %d AVE %s: %s::%s:%d %s | failed to get buffer from buffer pool %p %d %p %d %d %d"
+- "%lld %d AVE %s: %s::%s:%d %s | failed to get buffer from buffer pool %p %d %p %d %d %d\n"
+- "%lld %d AVE %s: %s::%s:%d %s | failed to handle commands %p %lld %p %d 0x%x 0x%x %d %d"
+- "%lld %d AVE %s: %s::%s:%d %s | failed to handle commands %p %lld %p %d 0x%x 0x%x %d %d\n"
+- "%lld %d AVE %s: %s::%s:%d receive command done %p %d"
+- "%lld %d AVE %s: %s::%s:%d receive command done %p %d\n"
+- "%s total commands in client stages %p | %d %d | %d"
+- "%s total commands in client stages %p | %d %d | %d\n"
+- "%s::%s"
+- "12111111111112222112222211111111111111111111111121222221"
+- "12111112122212121121211122"
+- "20:53:07"
+- "802.97.1"
+- "Jul 30 2024"
+- "ProcesOutputCmd_Done"
+- "ProcesOutputCmd_Drop"
+- "ProcesOutputCmd_Skip"
+- "pClientList != nullptr && iThreshold != nullptr && iNum == 2"
+- "ret >= 0"
+- "schedMode == 0 && euNum == 1 && iPrevCoreID != nullptr"
+
+```
+
+>  `com.apple.driver.AppleM2ScalerCSCDriver`
+
+```diff
+
+-148.0.50.0.0
+-  __TEXT.__cstring: 0x165e9
+-  __TEXT.__const: 0x4ecb8
+-  __TEXT_EXEC.__text: 0xd6130
++148.0.53.0.0
++  __TEXT.__cstring: 0x1673a
++  __TEXT.__const: 0x4ecc8
++  __TEXT_EXEC.__text: 0xd5ff8
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0x1fe40
+   __DATA.__common: 0x20a8
+
+   __DATA_CONST.__const: 0x210b8
+   __DATA_CONST.__kalloc_type: 0x3c40
+   __DATA_CONST.__kalloc_var: 0x500
+-  Functions: 6008
++  Functions: 6012
+   Symbols:   0
+-  CStrings:  2384
++  CStrings:  2392
+ 
+CStrings:
++ "1222222222212111111112111111111111111111122122112212"
++ "1222222222212111111112111111111111111111122122112212112222222"
++ "12222222222121111111121111111111111111111221221122121122222221111111221111111111111111111122222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222000020000000"
++ "Awake"
++ "SleepAcked"
++ "SleepRequested"
++ "[IOSA][Boot ] Req 0x%x Resumption on MSR%d\n"
++ "[IOSA][Boot ] Req 0x%x Waiting for MSR%d wake\n"
++ "[IOSA][Boot ] [MSR%u] SleepState transition from %s to %s\n"
++ "[IOSA][Boot ] kConfigKeyIsShippedDevice=%d\n"
++ "activateForMapping_gated"
++ "commandSleep failed with %d\n"
++ "powerRefCount cannot be zero with kSPSSleepAcked. [MSR%d] partition %d newState %d oldState %d refCount %d"
+- "     req %d prio %d ctx_sw_cnt %d\n"
+- "122222222221211111111211111111111111111112212211221"
+- "122222222221211111111211111111111111111112212211221112222222"
+- "12222222222121111111121111111111111111111221221122111222222211111112211111111111111111111222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222220000020000000"
+- "canContextSwitch"
+
+```
+
+>  `com.apple.driver.AppleDCPDPTXProxy`
+
+```diff
+
+-311.0.16.0.0
++311.0.17.0.0
+   __TEXT.__const: 0x48
+   __TEXT.__cstring: 0x1007
+   __TEXT.__os_log: 0xa0c
+-  __TEXT_EXEC.__text: 0x84c0
++  __TEXT_EXEC.__text: 0x8518
    __TEXT_EXEC.__auth_stubs: 0x0
    __DATA.__data: 0xc8
-   __DATA.__common: 0x550
-
-   __DATA_CONST.__got: 0x170
-   __DATA_CONST.__mod_init_func: 0x110
-   __DATA_CONST.__mod_term_func: 0x108
--  __DATA_CONST.__const: 0xf880
-+  __DATA_CONST.__const: 0xf888
-   __DATA_CONST.__kalloc_type: 0x840
-   __DATA_CONST.__kalloc_var: 0x280
-   Functions: 1961
+   __DATA.__common: 0xd8
+-  __DATA_CONST.__auth_got: 0x1b0
++  __DATA_CONST.__auth_got: 0x1b8
+   __DATA_CONST.__got: 0x88
+   __DATA_CONST.__mod_init_func: 0x28
+   __DATA_CONST.__mod_term_func: 0x28
+-  __DATA_CONST.__const: 0x2b38
++  __DATA_CONST.__const: 0x2b50
+   __DATA_CONST.__kalloc_type: 0x140
+-  Functions: 281
++  Functions: 282
+   Symbols:   0
+   CStrings:  198
+ 
 
 ```
 
 </details>
+
+### KDKs
+
+- [KDK DIFF](KDK.md)
 
 ## MachO
 
@@ -2468,7 +2472,7 @@ CStrings:
 - `/System/Library/Frameworks/CoreSpotlight.framework/PlugIns/CoreSpotlightImportExtension1_iOS.appex/CoreSpotlightImportExtension1_iOS`
 - `/System/Library/Frameworks/CoreSpotlight.framework/PlugIns/CoreSpotlightImportExtension2_iOS.appex/CoreSpotlightImportExtension2_iOS`
 
-### ⬆️ Updated (697)
+### ⬆️ Updated (695)
 
 <details>
   <summary><i>View Updated</i></summary>
@@ -2998,9 +3002,7 @@ CStrings:
 - [/usr/bin/footprint](MACHOS/footprint.md)
 - [/usr/bin/powerlogHelperd](MACHOS/powerlogHelperd.md)
 - [/usr/lib/dyld](MACHOS/dyld.md)
-- [/usr/lib/libmobileassetd.dylib](MACHOS/libmobileassetd.dylib.md)
 - [/usr/libexec/ASPCarryLog](MACHOS/ASPCarryLog.md)
-- [/usr/libexec/BatteryAlgorithms.framework/BatteryAlgorithms](MACHOS/BatteryAlgorithms.md)
 - [/usr/libexec/DataDetectorsSourceAccess](MACHOS/DataDetectorsSourceAccess.md)
 - [/usr/libexec/NANDTaskScheduler](MACHOS/NANDTaskScheduler.md)
 - [/usr/libexec/NRDUpdated](MACHOS/NRDUpdated.md)
@@ -4843,6 +4845,83 @@ CStrings:
 <details>
   <summary><i>View Updated</i></summary>
 
+#### DocumentManager.plist
+
+>  `Domain/DocumentManager.plist`
+
+```diff
+
+ 		<key>DevelopmentPhase</key>
+ 		<string>FeatureComplete</string>
+ 	</dict>
+-	<key>SemanticSearch</key>
+-	<dict>
+-		<key>DevelopmentPhase</key>
+-		<string>FeatureComplete</string>
+-	</dict>
+ 	<key>ShowTips</key>
+ 	<dict>
+ 		<key>DevelopmentPhase</key>
+
+```
+
+#### MediaControls.plist
+
+>  `Domain/MediaControls.plist`
+
+```diff
+
+ 		<key>Enabled</key>
+ 		<true/>
+ 	</dict>
++	<key>RouteExpandAllLayouts</key>
++	<dict>
++		<key>Enabled</key>
++		<true/>
++	</dict>
+ 	<key>RoutePickerNotCollapseGroupsAutomatically</key>
+ 	<dict>
+ 		<key>Enabled</key>
+
+```
+
+#### Music.plist
+
+>  `Domain/Music.plist`
+
+```diff
+
+ 		<key>DevelopmentPhase</key>
+ 		<string>FeatureComplete</string>
+ 	</dict>
++	<key>in_with_the_new</key>
++	<dict>
++		<key>DevelopmentPhase</key>
++		<string>FeatureComplete</string>
++	</dict>
+ 	<key>mantis</key>
+ 	<dict>
+ 		<key>DevelopmentPhase</key>
+
+```
+
+#### Safari.plist
+
+>  `Domain/Safari.plist`
+
+```diff
+
+ 	<dict>
+ 		<key>DevelopmentPhase</key>
+ 		<string>FeatureComplete</string>
+-		<key>DisclosureRequired</key>
+-		<string>03d84bad-ad3c-e422-c11e-4033a5bfdd94</string>
+ 	</dict>
+ </dict>
+ </plist>
+
+```
+
 #### ScreenTime.plist
 
 >  `Domain/ScreenTime.plist`
@@ -4915,6 +4994,28 @@ CStrings:
 
 ```
 
+#### Cascade.plist
+
+>  `Domain/Cascade.plist`
+
+```diff
+
+ <?xml version="1.0" encoding="UTF-8"?>
+ <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+ <plist version="1.0">
+-<dict/>
++<dict>
++	<key>enableSetDeletion</key>
++	<dict>
++		<key>Enabled</key>
++		<true/>
++	</dict>
++</dict>
+ </plist>
+ 
+
+```
+
 #### Contacts.plist
 
 >  `Domain/Contacts.plist`
@@ -4930,26 +5031,6 @@ CStrings:
 +		<true/>
 +	</dict>
  	<key>snap_allow_multiple_phone_numbers</key>
- 	<dict>
- 		<key>DevelopmentPhase</key>
-
-```
-
-#### DocumentManager.plist
-
->  `Domain/DocumentManager.plist`
-
-```diff
-
- 		<key>DevelopmentPhase</key>
- 		<string>FeatureComplete</string>
- 	</dict>
--	<key>SemanticSearch</key>
--	<dict>
--		<key>DevelopmentPhase</key>
--		<string>FeatureComplete</string>
--	</dict>
- 	<key>ShowTips</key>
  	<dict>
  		<key>DevelopmentPhase</key>
 
@@ -4987,40 +5068,23 @@ CStrings:
 
 ```
 
-#### MediaControls.plist
+#### Podcasts.plist
 
->  `Domain/MediaControls.plist`
-
-```diff
-
- 		<key>Enabled</key>
- 		<true/>
- 	</dict>
-+	<key>RouteExpandAllLayouts</key>
-+	<dict>
-+		<key>Enabled</key>
-+		<true/>
-+	</dict>
- 	<key>RoutePickerNotCollapseGroupsAutomatically</key>
- 	<dict>
- 		<key>Enabled</key>
-
-```
-
-#### Safari.plist
-
->  `Domain/Safari.plist`
+>  `Domain/Podcasts.plist`
 
 ```diff
 
- 	<dict>
  		<key>DevelopmentPhase</key>
  		<string>FeatureComplete</string>
--		<key>DisclosureRequired</key>
--		<string>03d84bad-ad3c-e422-c11e-4033a5bfdd94</string>
  	</dict>
- </dict>
- </plist>
++	<key>BatchFeedFetchOnPushWatch</key>
++	<dict>
++		<key>DevelopmentPhase</key>
++		<string>FeatureComplete</string>
++	</dict>
+ 	<key>BlueMoonHomepod</key>
+ 	<dict>
+ 		<key>DevelopmentPhase</key>
 
 ```
 
@@ -5053,68 +5117,6 @@ CStrings:
 -		<string>FeatureComplete</string>
 -	</dict>
  	<key>remoteControlClientSideCursor</key>
- 	<dict>
- 		<key>DevelopmentPhase</key>
-
-```
-
-#### Cascade.plist
-
->  `Domain/Cascade.plist`
-
-```diff
-
- <?xml version="1.0" encoding="UTF-8"?>
- <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
- <plist version="1.0">
--<dict/>
-+<dict>
-+	<key>enableSetDeletion</key>
-+	<dict>
-+		<key>Enabled</key>
-+		<true/>
-+	</dict>
-+</dict>
- </plist>
- 
-
-```
-
-#### Music.plist
-
->  `Domain/Music.plist`
-
-```diff
-
- 		<key>DevelopmentPhase</key>
- 		<string>FeatureComplete</string>
- 	</dict>
-+	<key>in_with_the_new</key>
-+	<dict>
-+		<key>DevelopmentPhase</key>
-+		<string>FeatureComplete</string>
-+	</dict>
- 	<key>mantis</key>
- 	<dict>
- 		<key>DevelopmentPhase</key>
-
-```
-
-#### Podcasts.plist
-
->  `Domain/Podcasts.plist`
-
-```diff
-
- 		<key>DevelopmentPhase</key>
- 		<string>FeatureComplete</string>
- 	</dict>
-+	<key>BatchFeedFetchOnPushWatch</key>
-+	<dict>
-+		<key>DevelopmentPhase</key>
-+		<string>FeatureComplete</string>
-+	</dict>
- 	<key>BlueMoonHomepod</key>
  	<dict>
  		<key>DevelopmentPhase</key>
 
