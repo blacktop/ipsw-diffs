@@ -29,14 +29,12 @@
 +  __TEXT.__objc_classname: 0x353
 +  __TEXT.__objc_methtype: 0x10d0
    __TEXT.__dlopen_cstrs: 0x17a
--  __TEXT.__info_plist: 0x32e
 -  __TEXT.__unwind_info: 0xd38
 -  __DATA_CONST.__auth_got: 0x7a8
 -  __DATA_CONST.__got: 0x370
 -  __DATA_CONST.__const: 0x1198
 -  __DATA_CONST.__cfstring: 0xfca0
 -  __DATA_CONST.__objc_classlist: 0xb8
-+  __TEXT.__info_plist: 0x329
 +  __TEXT.__unwind_info: 0xda0
 +  __DATA_CONST.__auth_got: 0x7c8
 +  __DATA_CONST.__got: 0x378

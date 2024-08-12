@@ -16,6 +16,12 @@
 -  __TEXT.__oslogstring: 0x292a
 -  __TEXT.__objc_methname: 0x2b50
 -  __TEXT.__gcc_except_tab: 0x1b0
+-  __TEXT.__unwind_info: 0x4b8
+-  __DATA_CONST.__auth_got: 0x370
+-  __DATA_CONST.__got: 0x198
+-  __DATA_CONST.__const: 0x688
+-  __DATA_CONST.__cfstring: 0x1d80
+-  __DATA_CONST.__objc_classlist: 0xd8
 +94.0.0.0.0
 +  __TEXT.__text: 0x1d9b4
 +  __TEXT.__auth_stubs: 0x760
@@ -28,13 +34,6 @@
 +  __TEXT.__oslogstring: 0x2baa
 +  __TEXT.__objc_methname: 0x2c83
 +  __TEXT.__gcc_except_tab: 0x18c
-   __TEXT.__info_plist: 0x48f
--  __TEXT.__unwind_info: 0x4b8
--  __DATA_CONST.__auth_got: 0x370
--  __DATA_CONST.__got: 0x198
--  __DATA_CONST.__const: 0x688
--  __DATA_CONST.__cfstring: 0x1d80
--  __DATA_CONST.__objc_classlist: 0xd8
 +  __TEXT.__unwind_info: 0x4c8
 +  __DATA_CONST.__auth_got: 0x3c0
 +  __DATA_CONST.__got: 0x1a0

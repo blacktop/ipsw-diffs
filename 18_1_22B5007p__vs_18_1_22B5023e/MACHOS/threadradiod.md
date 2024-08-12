@@ -21,13 +21,12 @@
 -  __TEXT.__cstring: 0x2c723
 -  __TEXT.__oslogstring: 0x209e2
 -  __TEXT.__objc_methtype: 0x44e4
+-  __TEXT.__unwind_info: 0x7660
 +  __TEXT.__gcc_except_tab: 0x28b7c
 +  __TEXT.__objc_methname: 0xe6b0
 +  __TEXT.__cstring: 0x2c8be
 +  __TEXT.__oslogstring: 0x20a63
 +  __TEXT.__objc_methtype: 0x44f1
-   __TEXT.__info_plist: 0x426
--  __TEXT.__unwind_info: 0x7660
 +  __TEXT.__unwind_info: 0x7670
    __DATA_CONST.__auth_got: 0x88b8
    __DATA_CONST.__got: 0x900

@@ -29,12 +29,10 @@
    __TEXT.__oslogstring: 0x86a
    __TEXT.__swift5_proto: 0x20
    __TEXT.__swift5_entry: 0x8
--  __TEXT.__info_plist: 0x534
 -  __TEXT.__unwind_info: 0x600
 -  __TEXT.__eh_frame: 0xdf8
 -  __DATA_CONST.__auth_got: 0x6d0
 -  __DATA_CONST.__got: 0x1c8
-+  __TEXT.__info_plist: 0x539
 +  __TEXT.__unwind_info: 0x608
 +  __TEXT.__eh_frame: 0xd88
 +  __DATA_CONST.__auth_got: 0x6b0

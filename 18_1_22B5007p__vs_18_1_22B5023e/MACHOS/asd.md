@@ -35,7 +35,6 @@
 +  __TEXT.__swift5_capture: 0x878
    __TEXT.__swift5_protos: 0x58
    __TEXT.__swift5_proto: 0x3d8
--  __TEXT.__info_plist: 0x253
 -  __TEXT.__unwind_info: 0x3d40
 -  __TEXT.__eh_frame: 0x5ef0
 -  __TEXT.__oslogstring: 0x3967
@@ -44,7 +43,6 @@
 -  __DATA_CONST.__auth_ptr: 0x658
 -  __DATA_CONST.__const: 0x27128
 -  __DATA_CONST.__cfstring: 0x1dc0
-+  __TEXT.__info_plist: 0x252
 +  __TEXT.__unwind_info: 0x3d70
 +  __TEXT.__eh_frame: 0x5f68
 +  __TEXT.__oslogstring: 0x3997

@@ -16,11 +16,8 @@
 -  __TEXT.__cstring: 0x1b
 +  __TEXT.__cstring: 0x19
    __TEXT.__oslogstring: 0x81
--  __TEXT.__info_plist: 0x51a
-+  __TEXT.__info_plist: 0x526
    __TEXT.__unwind_info: 0x70
    __DATA_CONST.__auth_got: 0x90
-   __DATA_CONST.__got: 0x20
 CStrings:
 + "11"
 + "SiriVOX-3401.2.1"

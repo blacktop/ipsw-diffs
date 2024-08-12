@@ -27,10 +27,8 @@
 -  __TEXT.__swift5_capture: 0x13f0
 +  __TEXT.__swift5_capture: 0x1c84
    __TEXT.__swift5_protos: 0x34
--  __TEXT.__info_plist: 0x60f
 -  __TEXT.__unwind_info: 0x5070
 -  __TEXT.__eh_frame: 0x111e8
-+  __TEXT.__info_plist: 0x615
 +  __TEXT.__unwind_info: 0x4c08
 +  __TEXT.__eh_frame: 0x11170
    __DATA_CONST.__auth_got: 0x1a78

@@ -18,8 +18,6 @@
 +  __TEXT.__cstring: 0x16a4
 +  __TEXT.__oslogstring: 0x286a
    __TEXT.__gcc_except_tab: 0x264
--  __TEXT.__info_plist: 0x505
-+  __TEXT.__info_plist: 0x502
    __TEXT.__unwind_info: 0x470
    __TEXT.__objc_classname: 0xcd
    __TEXT.__objc_methname: 0xaa0

@@ -20,7 +20,6 @@
    __TEXT.__gcc_except_tab: 0x2d4
 -  __TEXT.__oslogstring: 0x68d
 +  __TEXT.__oslogstring: 0x6d9
-   __TEXT.__info_plist: 0x54b
    __TEXT.__unwind_info: 0x270
    __DATA_CONST.__auth_got: 0x318
    __DATA_CONST.__got: 0x2d0

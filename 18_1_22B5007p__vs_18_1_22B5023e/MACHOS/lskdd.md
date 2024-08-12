@@ -17,7 +17,6 @@
    __TEXT.__objc_methname: 0x345
    __TEXT.__objc_classname: 0x1b
    __TEXT.__objc_methtype: 0x97
-   __TEXT.__info_plist: 0x603
    __TEXT.__unwind_info: 0xb68
 -  __TEXT.__eh_frame: 0x23b8
 +  __TEXT.__eh_frame: 0x23c0

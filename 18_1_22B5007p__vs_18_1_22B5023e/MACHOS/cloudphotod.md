@@ -30,9 +30,9 @@
    __TEXT.__swift5_reflstr: 0x1ef7
    __TEXT.__swift5_assocty: 0x378
 
+   __TEXT.__swift5_types: 0x158
    __TEXT.__swift5_capture: 0x348
    __TEXT.__swift5_protos: 0x10
-   __TEXT.__info_plist: 0x4f0
 -  __TEXT.__unwind_info: 0x65f0
 -  __TEXT.__eh_frame: 0x1738
 +  __TEXT.__unwind_info: 0x6628

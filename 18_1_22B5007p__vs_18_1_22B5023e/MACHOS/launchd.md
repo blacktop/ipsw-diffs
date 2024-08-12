@@ -19,8 +19,6 @@
    __TEXT.__objc_methname: 0x8
    __TEXT.__objc_classname: 0x1ba
    __TEXT.__objc_methtype: 0x8
--  __TEXT.__info_plist: 0x4d9
-+  __TEXT.__info_plist: 0x4d6
    __TEXT.__config: 0x2544
    __TEXT.__dof_launchd: 0x67c
 -  __TEXT.__unwind_info: 0x1148

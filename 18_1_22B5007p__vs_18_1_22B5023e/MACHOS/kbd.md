@@ -21,6 +21,10 @@
 +  __TEXT.__cstring: 0x1438
    __TEXT.__oslogstring: 0xa93
    __TEXT.__dlopen_cstrs: 0x112
+-  __TEXT.__unwind_info: 0x370
+-  __DATA_CONST.__auth_got: 0x3b8
+-  __DATA_CONST.__got: 0x368
+-  __DATA_CONST.__const: 0x5c0
 +  __TEXT.__swift5_typeref: 0xb9
 +  __TEXT.__swift5_reflstr: 0xd
 +  __TEXT.__swift5_assocty: 0x18
@@ -28,11 +32,6 @@
 +  __TEXT.__swift5_fieldmd: 0x2c
 +  __TEXT.__swift5_proto: 0x28
 +  __TEXT.__swift5_types: 0x8
-   __TEXT.__info_plist: 0x15d
--  __TEXT.__unwind_info: 0x370
--  __DATA_CONST.__auth_got: 0x3b8
--  __DATA_CONST.__got: 0x368
--  __DATA_CONST.__const: 0x5c0
 +  __TEXT.__unwind_info: 0x3d0
 +  __DATA_CONST.__auth_got: 0x4f8
 +  __DATA_CONST.__got: 0x388

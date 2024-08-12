@@ -13,7 +13,6 @@
 +  __TEXT.__const: 0x475970
    __TEXT.__cstring: 0x42
    __TEXT.__oslogstring: 0x6d
-   __TEXT.__info_plist: 0x46a
    __TEXT.__objc_methname: 0x77
 -  __TEXT.__unwind_info: 0x1490
 -  __TEXT.__eh_frame: 0x67a0

@@ -21,10 +21,9 @@
    __TEXT.__objc_classname: 0x15d
 -  __TEXT.__objc_methname: 0x3bcb
 -  __TEXT.__objc_methtype: 0x9d6
+-  __TEXT.__unwind_info: 0x630
 +  __TEXT.__objc_methname: 0x3d22
 +  __TEXT.__objc_methtype: 0xa07
-   __TEXT.__info_plist: 0x549
--  __TEXT.__unwind_info: 0x630
 +  __TEXT.__unwind_info: 0x658
    __DATA_CONST.__auth_got: 0x660
 -  __DATA_CONST.__got: 0x290

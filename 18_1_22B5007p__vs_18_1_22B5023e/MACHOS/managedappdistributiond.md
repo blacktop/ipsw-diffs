@@ -35,14 +35,12 @@
 +  __TEXT.__swift5_proto: 0x1338
 +  __TEXT.__swift5_types: 0x7e4
    __TEXT.__swift5_protos: 0x6c
--  __TEXT.__info_plist: 0x766
 -  __TEXT.__unwind_info: 0xed30
 -  __TEXT.__eh_frame: 0x2c910
 -  __DATA_CONST.__auth_got: 0x2a70
 -  __DATA_CONST.__got: 0x16c0
 -  __DATA_CONST.__auth_ptr: 0x1958
 -  __DATA_CONST.__const: 0x28498
-+  __TEXT.__info_plist: 0x75c
 +  __TEXT.__unwind_info: 0xf078
 +  __TEXT.__eh_frame: 0x2cef0
 +  __DATA_CONST.__auth_got: 0x2a60

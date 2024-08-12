@@ -40,7 +40,6 @@
 +  __TEXT.__swift5_capture: 0x384c
    __TEXT.__swift5_protos: 0x80
    __TEXT.__swift5_mpenum: 0x28
-   __TEXT.__info_plist: 0x57e
 -  __TEXT.__unwind_info: 0x5fa0
 -  __TEXT.__eh_frame: 0xa18c
 -  __DATA_CONST.__auth_got: 0x1990

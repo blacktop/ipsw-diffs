@@ -31,7 +31,6 @@
 +  __TEXT.__oslogstring: 0xefb
    __TEXT.__swift5_typeref: 0x54
    __TEXT.__swift5_fieldmd: 0x20
-   __TEXT.__info_plist: 0x415
 -  __TEXT.__unwind_info: 0x590
 -  __DATA_CONST.__auth_got: 0x368
 -  __DATA_CONST.__got: 0x288

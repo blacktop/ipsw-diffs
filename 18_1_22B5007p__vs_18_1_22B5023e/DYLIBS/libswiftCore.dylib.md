@@ -23,9 +23,9 @@
    __TEXT.__swift5_capture: 0x3ac
    __TEXT.__swift5_reflstr: 0x1251
 
+   __TEXT.__swift5_types: 0x8e4
    __TEXT.__oslogstring: 0xb7
    __TEXT.__gcc_except_tab: 0xd8
-   __TEXT.__info_plist: 0x233
 -  __TEXT.__unwind_info: 0xacd0
 +  __TEXT.__unwind_info: 0xac88
    __TEXT.__eh_frame: 0x88b4

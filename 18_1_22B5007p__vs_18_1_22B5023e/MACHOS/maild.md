@@ -25,9 +25,7 @@
 -  __TEXT.__oslogstring: 0x8fe6
 +  __TEXT.__oslogstring: 0x9060
    __TEXT.__ustring: 0x72
--  __TEXT.__info_plist: 0x586
 -  __TEXT.__unwind_info: 0x6788
-+  __TEXT.__info_plist: 0x588
 +  __TEXT.__unwind_info: 0x6810
    __DATA_CONST.__auth_got: 0x918
 -  __DATA_CONST.__got: 0x11c8

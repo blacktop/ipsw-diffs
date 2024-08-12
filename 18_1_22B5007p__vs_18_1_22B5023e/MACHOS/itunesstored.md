@@ -17,9 +17,9 @@
    __TEXT.__cstring: 0x10e32
    __TEXT.__objc_methname: 0x2bd7d
 
+   __TEXT.__oslogstring: 0x175e6
    __TEXT.__objc_methtype: 0x42ea
    __TEXT.__ustring: 0x92
-   __TEXT.__info_plist: 0x1f7
 -  __TEXT.__unwind_info: 0x51d8
 -  __TEXT.__eh_frame: 0x1e58
 +  __TEXT.__unwind_info: 0x51c8

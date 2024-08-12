@@ -35,10 +35,9 @@
    __TEXT.__swift5_assocty: 0x198
    __TEXT.__swift5_proto: 0x338
    __TEXT.__swift5_types: 0xe8
-
+   __TEXT.__swift5_capture: 0x22d0
    __TEXT.__swift5_protos: 0x14
    __TEXT.__swift5_mpenum: 0x14
-   __TEXT.__info_plist: 0x599
 -  __TEXT.__unwind_info: 0x3678
 +  __TEXT.__unwind_info: 0x3680
    __TEXT.__eh_frame: 0x1ea0

@@ -30,11 +30,10 @@
    __TEXT.__swift5_protos: 0x4c
 -  __TEXT.__swift5_proto: 0x244
 -  __TEXT.__swift5_types: 0x1e0
-+  __TEXT.__swift5_proto: 0x250
-+  __TEXT.__swift5_types: 0x1e8
-   __TEXT.__info_plist: 0x24c
 -  __TEXT.__unwind_info: 0x1558
 -  __TEXT.__eh_frame: 0xd50
++  __TEXT.__swift5_proto: 0x250
++  __TEXT.__swift5_types: 0x1e8
 +  __TEXT.__unwind_info: 0x15a8
 +  __TEXT.__eh_frame: 0xd18
    __DATA_CONST.__got: 0xd78

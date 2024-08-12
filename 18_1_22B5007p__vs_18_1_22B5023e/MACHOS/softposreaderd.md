@@ -30,11 +30,9 @@
    __TEXT.__objc_classname: 0x186
    __TEXT.__objc_methtype: 0xb0c
    __TEXT.__swift5_protos: 0xa8
--  __TEXT.__info_plist: 0x510
 -  __TEXT.__unwind_info: 0x3cc8
 -  __TEXT.__eh_frame: 0x7c74
 -  __DATA_CONST.__auth_got: 0x14a8
-+  __TEXT.__info_plist: 0x50f
 +  __TEXT.__unwind_info: 0x3d88
 +  __TEXT.__eh_frame: 0x7e1c
 +  __DATA_CONST.__auth_got: 0x1498

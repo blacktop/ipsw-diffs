@@ -22,13 +22,11 @@
 +  __TEXT.__objc_methname: 0x2446
    __TEXT.__objc_classname: 0x17e
    __TEXT.__objc_methtype: 0x72f
--  __TEXT.__info_plist: 0x449
 -  __TEXT.__unwind_info: 0x330
 -  __DATA_CONST.__auth_got: 0x3e0
 -  __DATA_CONST.__got: 0x210
 -  __DATA_CONST.__const: 0xaa8
 -  __DATA_CONST.__cfstring: 0x1160
-+  __TEXT.__info_plist: 0x43f
 +  __TEXT.__unwind_info: 0x338
 +  __DATA_CONST.__auth_got: 0x3f0
 +  __DATA_CONST.__got: 0x228

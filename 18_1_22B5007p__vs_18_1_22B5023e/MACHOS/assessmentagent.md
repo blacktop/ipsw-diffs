@@ -45,14 +45,12 @@
 -  __TEXT.__oslogstring: 0xdc4
 +  __TEXT.__oslogstring: 0xe74
    __TEXT.__swift5_mpenum: 0x38
--  __TEXT.__info_plist: 0x459
 -  __TEXT.__unwind_info: 0x1eb0
 -  __TEXT.__eh_frame: 0x2718
 -  __DATA_CONST.__auth_got: 0xe58
 -  __DATA_CONST.__got: 0x6c0
 -  __DATA_CONST.__auth_ptr: 0xa80
 -  __DATA_CONST.__const: 0x5580
-+  __TEXT.__info_plist: 0x465
 +  __TEXT.__unwind_info: 0x1c98
 +  __TEXT.__eh_frame: 0x2298
 +  __DATA_CONST.__auth_got: 0xd98

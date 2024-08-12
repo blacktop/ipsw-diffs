@@ -22,8 +22,8 @@
 -  __TEXT.__cstring: 0xf447
 +  __TEXT.__cstring: 0xf4f7
    __TEXT.__dlopen_cstrs: 0x6b8
-   __TEXT.__info_plist: 0x5e4
    __TEXT.__unwind_info: 0x36e0
+   __TEXT.__eh_frame: 0x48
 
    __DATA_CONST.__got: 0x1048
    __DATA_CONST.__auth_ptr: 0x8

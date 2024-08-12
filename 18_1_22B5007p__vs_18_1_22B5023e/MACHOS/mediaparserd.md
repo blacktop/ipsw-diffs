@@ -14,7 +14,6 @@
 -  __TEXT.__cstring: 0x44
 +  __TEXT.__cstring: 0x1c
    __TEXT.__oslogstring: 0x3f
-   __TEXT.__info_plist: 0x41b
    __TEXT.__unwind_info: 0x58
 -  __DATA_CONST.__auth_got: 0x58
 +  __DATA_CONST.__auth_got: 0x50

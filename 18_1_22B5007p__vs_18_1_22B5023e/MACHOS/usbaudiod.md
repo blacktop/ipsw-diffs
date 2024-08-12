@@ -14,9 +14,9 @@
    __TEXT.__init_offsets: 0x8
    __TEXT.__objc_methlist: 0x5c8
 
+   __TEXT.__swift5_types: 0x460
    __TEXT.__swift5_protos: 0x40
    __TEXT.__swift5_mpenum: 0x4c
-   __TEXT.__info_plist: 0x448
 -  __TEXT.__unwind_info: 0x34d0
 -  __TEXT.__eh_frame: 0x5d78
 -  __DATA_CONST.__auth_got: 0xc48

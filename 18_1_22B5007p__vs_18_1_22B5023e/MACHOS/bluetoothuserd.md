@@ -26,7 +26,6 @@
    __TEXT.__objc_classname: 0xdc
    __TEXT.__objc_methtype: 0x65a
    __TEXT.__swift5_entry: 0x8
-   __TEXT.__info_plist: 0x545
 -  __TEXT.__unwind_info: 0x1540
 +  __TEXT.__unwind_info: 0x1538
    __TEXT.__eh_frame: 0x1aa0

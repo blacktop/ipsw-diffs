@@ -27,9 +27,9 @@
    __TEXT.__swift5_typeref: 0xe34
    __TEXT.__swift5_capture: 0x7e0
 
+   __TEXT.__swift5_proto: 0x168
    __TEXT.__swift5_types: 0xd8
    __TEXT.__swift5_protos: 0x8
-   __TEXT.__info_plist: 0x599
 -  __TEXT.__unwind_info: 0x6c50
 +  __TEXT.__unwind_info: 0x6c58
    __TEXT.__eh_frame: 0x10f0

@@ -10,7 +10,7 @@
 +  __TEXT.__text: 0x7223c
    __TEXT.__const: 0x1c70
    __TEXT.__cstring: 0xdead
-   __TEXT.__info_plist: 0x4ee
+   __TEXT.__unwind_info: 0x488
 
    __DATA_DIRTY.__bss: 0x1bc0
    __DATA_DIRTY.__common: 0x1120

@@ -21,32 +21,688 @@
 <details>
   <summary><i>View Updated</i></summary>
 
->  `com.apple.driver.usb.AppleUSBHostiOSDevice`
+>  `com.apple.driver.ApplePhotonDetector`
 
 ```diff
 
--1402.0.7.0.0
-+1402.40.1.0.0
-   __TEXT.__const: 0x8
--  __TEXT.__cstring: 0x3ef
--  __TEXT.__os_log: 0x2e0
--  __TEXT_EXEC.__text: 0x1958
-+  __TEXT.__cstring: 0x445
-+  __TEXT.__os_log: 0x336
-+  __TEXT_EXEC.__text: 0x1b20
+-9.6.1.0.0
++9.7.0.0.0
+   __TEXT.__cstring: 0x1d7
+   __TEXT.__os_log: 0x56e
+-  __TEXT_EXEC.__text: 0x27c8
++  __TEXT_EXEC.__text: 0x27d0
    __TEXT_EXEC.__auth_stubs: 0x0
    __DATA.__data: 0xc8
-   __DATA.__common: 0x38
+   __DATA.__common: 0x60
 
-   __DATA_CONST.__kalloc_type: 0x40
-   Functions: 29
+```
+
+>  `com.apple.driver.AppleDiskImages2`
+
+```diff
+
+-379.0.2.0.0
+-  __TEXT.__cstring: 0x2004
++379.0.11.0.0
++  __TEXT.__cstring: 0x2005
+   __TEXT.__os_log: 0x11a2
+   __TEXT.__const: 0x10
+   __TEXT_EXEC.__text: 0xd3e8
+CStrings:
++ "379.0.11"
+- "379.0.2"
+
+```
+
+>  `com.apple.driver.AppleIDV`
+
+```diff
+
+-7.37.0.0.0
++7.100.1.0.0
+   __TEXT.__const: 0xf8
+-  __TEXT.__cstring: 0x137b
++  __TEXT.__cstring: 0x137e
+   __TEXT_EXEC.__text: 0x84b0
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0xc4
+CStrings:
++ "7.100.1"
+- "7.37"
+
+```
+
+>  `com.apple.driver.AppleSMCWirelessCharger`
+
+```diff
+
+-76.0.3.0.0
++76.0.6.0.0
+   __TEXT.__const: 0x60
+-  __TEXT.__cstring: 0x2915
++  __TEXT.__cstring: 0x291b
+   __TEXT.__os_log: 0x4b9
+-  __TEXT_EXEC.__text: 0xef60
++  __TEXT_EXEC.__text: 0xf0a8
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0xc8
+   __DATA.__common: 0x68
+-  __DATA.__bss: 0x68
++  __DATA.__bss: 0x6c
+   __DATA_CONST.__auth_got: 0x298
+   __DATA_CONST.__got: 0xa8
+   __DATA_CONST.__auth_ptr: 0x8
+
+   __DATA_CONST.__const: 0xed8
+   __DATA_CONST.__kalloc_type: 0x80
+   __DATA_CONST.__kalloc_var: 0x1e0
+-  Functions: 180
++  Functions: 182
    Symbols:   0
--  CStrings:  35
-+  CStrings:  37
+-  CStrings:  366
++  CStrings:  367
  
 CStrings:
-+ "%s: %s::%s: device doesn't support the kAppleUSBVendorRequestPreferredConfig request\n"
-+ "%s: %s::%s: device doesn't support the kAppleUSBVendorRequestPreferredConfig request\n"
++ "%s::%s:audio coex: %d, 0x%x\n"
++ "121111121222121212121112212211112121211121111111111111111111111111222222222222222222222222112211111211121111111111111111121"
++ "checkDockFeatures"
++ "hd-mic-coex"
+- "%s::%s:audio coex: %d\n"
+- "12111112122212121212111221221111212121112111111111111111111111111122222222222222222222222112211111211121111111111111111121"
+- "handleWirelessDockNotification"
+
+```
+
+>  `com.apple.driver.AppleARMPlatform`
+
+```diff
+
+-1066.0.0.0.0
+-  __TEXT.__const: 0x16f8
++1066.40.2.0.0
++  __TEXT.__const: 0x1708
+   __TEXT.__os_log: 0x13fe
+   __TEXT.__cstring: 0xcadd
+-  __TEXT_EXEC.__text: 0x52a4c
++  __TEXT_EXEC.__text: 0x52a84
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0x6c8
+   __DATA.__common: 0xca0
+
+```
+
+>  `com.apple.driver.AppleOLYHAL`
+
+```diff
+
+-337.0.0.0.0
++338.0.0.0.0
+   __TEXT.__const: 0x7a8
+   __TEXT.__cstring: 0x473a
+-  __TEXT_EXEC.__text: 0x1ca58
++  __TEXT_EXEC.__text: 0x1cbc4
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0x18c
+   __DATA.__common: 0x170
+
+   __DATA_CONST.__got: 0xe8
+   __DATA_CONST.__mod_init_func: 0x38
+   __DATA_CONST.__mod_term_func: 0x38
+-  __DATA_CONST.__const: 0x1378
++  __DATA_CONST.__const: 0x13b8
+   __DATA_CONST.__kalloc_type: 0x640
+-  Functions: 549
++  Functions: 552
+   Symbols:   0
+   CStrings:  498
+ 
+
+```
+
+>  `com.apple.driver.ApplePMP`
+
+```diff
+
+-1173.0.29.0.0
++1173.40.12.0.0
+   __TEXT.__const: 0x3c
+-  __TEXT.__cstring: 0x14f0
+-  __TEXT_EXEC.__text: 0xd7e4
++  __TEXT.__cstring: 0x1484
++  __TEXT_EXEC.__text: 0xd9b8
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0xc8
+   __DATA.__common: 0x178
+   __DATA.__bss: 0x208
+-  __DATA_CONST.__auth_got: 0x218
++  __DATA_CONST.__auth_got: 0x220
+   __DATA_CONST.__got: 0xe8
+   __DATA_CONST.__mod_init_func: 0x38
+   __DATA_CONST.__mod_term_func: 0x38
+   __DATA_CONST.__const: 0x3330
+   __DATA_CONST.__kalloc_type: 0x240
+   __DATA_CONST.__kalloc_var: 0x140
+-  Functions: 394
++  Functions: 395
+   Symbols:   0
+-  CStrings:  154
++  CStrings:  152
+ 
+CStrings:
++ "*watchdog.timer"
++ "12111112122212121211211121121221112111111212121212122111121111111211"
++ "void ApplePMP::_createWatchdogTimers()"
+- "1211111212221212121121112112122111211111121212121212211112111111121"
+- "IOReturn ApplePMP::_setDVFSStates(UInt64, UInt64, UInt64, UInt64, UInt64)"
+- "IOTimerEventSource *ApplePMP::_createDVFSWatchdogTimer()"
+- "_setDVFSStateWatchdogTimer"
+- "timer"
+
+```
+
+>  `com.apple.driver.AppleSPU`
+
+```diff
+
+-1014.0.3.0.0
++1014.40.2.0.0
+   __TEXT.__cstring: 0x5aae
+   __TEXT.__os_log: 0x955
+   __TEXT.__const: 0x358
+-  __TEXT_EXEC.__text: 0x496e8
++  __TEXT_EXEC.__text: 0x498dc
+   __TEXT_EXEC.__auth_stubs: 0x0
+-  __DATA.__data: 0x7b8
++  __DATA.__data: 0x878
+   __DATA.__common: 0x970
+   __DATA.__bss: 0x5b0
+   __DATA_CONST.__auth_got: 0x5e0
+
+   __DATA_CONST.__const: 0x16440
+   __DATA_CONST.__kalloc_type: 0xec0
+   __DATA_CONST.__kalloc_var: 0x320
+-  Functions: 2065
++  Functions: 2068
+   Symbols:   0
+   CStrings:  920
+ 
+
+```
+
+>  `com.apple.driver.ApplePPMCPMS`
+
+```diff
+
+-931.0.7.0.1
++931.40.1.0.0
+   __TEXT.__const: 0xe80
+   __TEXT.__cstring: 0xd087
+-  __TEXT.__os_log: 0x1fad
+-  __TEXT_EXEC.__text: 0x45fe0
++  __TEXT.__os_log: 0x2005
++  __TEXT_EXEC.__text: 0x460d0
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0x156
+   __DATA.__common: 0x4a8
+
+   __DATA_CONST.__kalloc_type: 0x900
+   Functions: 1651
+   Symbols:   0
+-  CStrings:  1368
++  CStrings:  1369
+ 
+CStrings:
++ "%s::%s:Invalid Data: Voltage should be > 0\n"
+
+```
+
+>  `com.apple.driver.AppleSARService`
+
+```diff
+
+-1175.0.0.0.0
++1180.0.0.0.0
+   __TEXT.__const: 0x750
+   __TEXT.__cstring: 0x9b40
+   __TEXT.__os_log: 0xb8af
+   __TEXT.__ustring: 0x8
+-  __TEXT_EXEC.__text: 0x53e78
++  __TEXT_EXEC.__text: 0x53e80
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0xd8
+   __DATA.__common: 0x5f0
+
+```
+
+>  `com.apple.driver.AppleT8130CLPC`
+
+```diff
+
+-1175.0.25.0.0
+-  __TEXT.__cstring: 0x2c4a
++1175.40.1.0.0
++  __TEXT.__cstring: 0x2c4e
+   __TEXT.__const: 0xb34
+-  __TEXT_EXEC.__text: 0x4c884
++  __TEXT_EXEC.__text: 0x4c934
+   __TEXT_EXEC.__auth_stubs: 0x0
+-  __DATA.__data: 0xa2f8
++  __DATA.__data: 0xa3f8
+   __DATA.__common: 0x7b21
+   __DATA.__bss: 0x278
+   __DATA_CONST.__auth_got: 0x4a0
+   __DATA_CONST.__got: 0xd8
+   __DATA_CONST.__mod_init_func: 0x118
+   __DATA_CONST.__mod_term_func: 0x18
+-  __DATA_CONST.__const: 0x4fc8
++  __DATA_CONST.__const: 0x4fe0
+   __DATA_CONST.__kalloc_type: 0x380
+   __DATA_CONST.__kalloc_var: 0x370
+   Functions: 1263
+   Symbols:   0
+-  CStrings:  464
++  CStrings:  465
+ 
+CStrings:
++ "2024-08-05T21:24:28-07:00"
++ "AFR"
++ "AppleCLPC-1175.40.1"
+- "2024-07-15T21:10:21-07:00"
+- "AppleCLPC-1175.0.25"
+
+```
+
+>  `com.apple.driver.DCPDPFamilyProxy`
+
+```diff
+
+-200.0.10.0.0
++200.40.4.0.0
+   __TEXT.__const: 0x90
+-  __TEXT.__cstring: 0x410
+-  __TEXT.__os_log: 0x232
+-  __TEXT_EXEC.__text: 0x4610
++  __TEXT.__cstring: 0x3b8
++  __TEXT.__os_log: 0x118
++  __TEXT_EXEC.__text: 0x401c
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0xc8
+   __DATA.__common: 0x100
+
+   __DATA_CONST.__got: 0x80
+   __DATA_CONST.__mod_init_func: 0x30
+   __DATA_CONST.__mod_term_func: 0x30
+-  __DATA_CONST.__const: 0x28c0
++  __DATA_CONST.__const: 0x28d8
+   __DATA_CONST.__kalloc_type: 0x180
+   Functions: 193
+   Symbols:   0
+-  CStrings:  35
++  CStrings:  32
+ 
+CStrings:
++ "121111121222121211222221122122111121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212221"
+- "\"%s\", waitForFunction=%d, param1=%p, param2=%p param3=%p, param4=%p\n"
+- "1211111212221212112222211222111121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212221"
+- "IOAV[%d] %s<0x%llx>::%s: \"%s\", waitForFunction=%d, param1=%p, param2=%p param3=%p, param4=%p\n"
+- "callPlatformFunction"
+
+```
+
+>  `com.apple.iokit.IOHIDFamily`
+
+```diff
+
+-2102.0.1.0.0
++2102.40.2.0.0
+   __TEXT.__cstring: 0x24b3
+   __TEXT.__const: 0x6c8
+   __TEXT.__os_log: 0x2a2f
+-  __TEXT_EXEC.__text: 0x629a0
++  __TEXT_EXEC.__text: 0x629ac
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0xbcc
+   __DATA.__common: 0x748
+
+```
+
+>  `com.apple.driver.AppleFirmwareKit`
+
+```diff
+
+-531.0.11.0.0
+-  __TEXT.__cstring: 0x404f
++531.40.2.0.0
++  __TEXT.__cstring: 0x40af
+   __TEXT.__os_log: 0x1148
+   __TEXT.__const: 0xa8
+-  __TEXT_EXEC.__text: 0x3ae8c
++  __TEXT_EXEC.__text: 0x3af54
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0x3f8
+   __DATA.__common: 0x700
+
+   __DATA_CONST.__auth_ptr: 0x10
+   __DATA_CONST.__mod_init_func: 0xf0
+   __DATA_CONST.__mod_term_func: 0xf0
+-  __DATA_CONST.__const: 0xd348
++  __DATA_CONST.__const: 0xd378
+   __DATA_CONST.__kalloc_type: 0x1880
+   __DATA_CONST.__kalloc_var: 0x50
+-  Functions: 1931
++  Functions: 1932
+   Symbols:   0
+-  CStrings:  652
++  CStrings:  653
+ 
+CStrings:
++ "\"0 == ret || (((signed)((((unsigned)(0x38))&0x3f)<<26))|(((0)&0xfff)<<14)|0x2d7) == ret\" @%s:%d"
+
+```
+
+>  `com.apple.driver.AppleJPEGDriver`
+
+```diff
+
+-7.1.4.0.0
+-  __TEXT.__os_log: 0xc20c
+-  __TEXT.__cstring: 0x3545
++7.1.5.0.0
++  __TEXT.__os_log: 0xc678
++  __TEXT.__cstring: 0x3556
+   __TEXT.__const: 0x4534
+-  __TEXT_EXEC.__text: 0x343bc
++  __TEXT_EXEC.__text: 0x3470c
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0x8b08
+   __DATA.__common: 0x2b8
+   __DATA.__bss: 0x1
+-  __DATA_CONST.__auth_got: 0x348
++  __DATA_CONST.__auth_got: 0x350
+   __DATA_CONST.__got: 0x98
+   __DATA_CONST.__mod_init_func: 0x88
+   __DATA_CONST.__mod_term_func: 0x88
+   __DATA_CONST.__const: 0x2610
+-  __DATA_CONST.__kalloc_type: 0xa40
++  __DATA_CONST.__kalloc_type: 0xb80
+   Functions: 1165
+   Symbols:   0
+-  CStrings:  518
++  CStrings:  525
+ 
+CStrings:
++ "AppleJPEGDriver: %s : codec=%d, Compressed jpeg size %d > output buffer size %d, input [%dw x% dh], encoding quality setting %u\n"
++ "AppleJPEGDriver: %s(): TIMEOUT %dms"
++ "AppleJPEGDriver: %s(): unknown %dms - status: 0x%x"
++ "AppleJPEGDriver: %s, ERROR: failed to wait request successfully return 0x%x !\n"
++ "AppleJPEGDriver: ** %s : failed, returns %x\n"
++ "AppleJPEGDriver: ** %s : failed, returns %x\n\n"
++ "sleepCommandGate"
+
+```
+
+>  `com.apple.iokit.IOSkywalkFamily`
+
+```diff
+
+-508.0.3.502.1
++508.40.2.0.0
+   __TEXT.__cstring: 0x1ade
+-  __TEXT.__const: 0xd40
+-  __TEXT_EXEC.__text: 0x35e10
++  __TEXT.__const: 0xd20
++  __TEXT_EXEC.__text: 0x35d98
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0xe8
+   __DATA.__common: 0x6b0
+
+```
+
+>  `com.apple.AGXG16P`
+
+```diff
+
+-320.23.3.0.0
+-  __TEXT.__const: 0x4444
+-  __TEXT.__cstring: 0xca1f
++320.31.1.0.0
++  __TEXT.__const: 0x446c
++  __TEXT.__cstring: 0xca44
+   __TEXT.__os_log: 0x2f7
+-  __TEXT_EXEC.__text: 0xaeaac
++  __TEXT_EXEC.__text: 0xaf38c
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0x13b8
+   __DATA.__common: 0x10
+
+   __DATA_CONST.__auth_ptr: 0x8
+   __DATA_CONST.__mod_init_func: 0x320
+   __DATA_CONST.__mod_term_func: 0x280
+-  __DATA_CONST.__const: 0x10bd8
++  __DATA_CONST.__const: 0x10c00
+   __DATA_CONST.__kalloc_type: 0x2140
+   __DATA_CONST.__kalloc_var: 0x3160
+-  Functions: 3070
++  Functions: 3072
+   Symbols:   0
+-  CStrings:  1715
++  CStrings:  1718
+ 
+CStrings:
++ "1211111121122221221111112112222122111111211222212212222222222211221111111122222222111112121211212112121121211212112121121211212112121121211212112121121211111111122211122211122211122211122211122211122211122211122211122211122222221111221211212111111112222222222121122222222222222222222222222222222222222222222222222222222222222222222222212112112222222222222222221111112212122222222212222211111221212222222221222221111122121222222222122222111112212122222222212222211111221212222222221222221111122121222222222122222111112221111112221111112221111112221111112221111112221111112221111112221111112221121111122111111112211221111111111111111111111111111111111122222222222222222211111122121222222222122222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222211111112222222"
++ "12111122222111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111122222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222221111222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222"
++ "Aug  6 2024 23:35:21"
++ "CoreEfficiency"
++ "MMU interrupt"
++ "Turbo"
+- "121111112112222122111111211222212211111121122221221222222222221122111111112222222211111212121121211212112121121211212112121121211212112121121211212112121111111112221112221112221112221112221112221112221112221112221112221112222222111122121121211111111222222222212112222222222222222222222222222222222222222222222222222222222222222222222221211211222222222222222222111111221212222222221222221111122121222222222122222111112212122222222212222211111221212222222221222221111122121222222222122222111112212122222222212222211111222111111222111111222111111222111111222111111222111111222111111222111111222112111112211111111221122111111111111111111111111111111111112222222222222222221111112212122222222212222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222211111112222222"
+- "1211112222211111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111112222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222221111222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222"
+- "Jul 15 2024 21:17:32"
+
+```
+
+>  `com.apple.iokit.IONVMeFamily`
+
+```diff
+
+-769.0.1.0.0
++769.40.2.0.0
+   __TEXT.__const: 0x6f8
+   __TEXT.__cstring: 0xf7d5
+-  __TEXT_EXEC.__text: 0x59824
++  __TEXT_EXEC.__text: 0x59860
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0x4e4
+   __DATA.__common: 0x528
+
+```
+
+>  `com.apple.driver.AppleSEPCredentialManager`
+
+```diff
+
+-758.0.17.0.0
+-  __TEXT.__cstring: 0x10503
++758.40.3.0.0
++  __TEXT.__cstring: 0x10500
+   __TEXT.__const: 0x320
+-  __TEXT_EXEC.__text: 0x48090
++  __TEXT_EXEC.__text: 0x47b84
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0x2bf1
+   __DATA.__common: 0x1d8
+
+   __DATA_CONST.__const: 0x1a98
+   __DATA_CONST.__kalloc_type: 0x600
+   __DATA_CONST.__kalloc_var: 0x1400
+-  Functions: 899
++  Functions: 898
+   Symbols:   0
+-  CStrings:  1810
++  CStrings:  1808
+ 
+CStrings:
++ "%s: %s: %s: ver=%u smTm=%llu poRsn=%u gpTm=%llu smExp=%s gpBlk=%s suTm=%llu svTm=%llu gpRsn=%u cMs=%s upTm=%llu disBy=%x rpTm=%llu crTm=%llu pFlg=%x.\n"
++ "%s: %s: EDT profile has changed - updating *current* profile: %s -> %s.\n"
++ "%s: %s: EDT profile has changed - updating *default* profile: %s -> %s.\n"
++ "%s: %s: caller=%s ver=%u gSw=%u GP=%u Pro=%u iPro=%u.\n"
++ "%s: %s: enabled: %s (boot-arg=%s edt-prop=%s).\n"
++ "%s: %s: profile: %u (default=%u %sboot-arg=%d %sedt-prop=%d).\n"
++ "-"
++ "121111112222122323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232311111112111111111122122222222222222221222222222222222222222222222222222222222222"
++ "121111212211122122211122122211122122211122122211122122222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222"
++ "?"
++ "_queryConfigProfile"
++ "_queryEnabledByDeviceTree"
+- "%s: %s: %s: ver=%u smTm=%llu poRsn=%u gpTm=%llu smExp=%s gpBlk=%s suTm=%llu svTm=%llu gpRsn=%u cMs=%s upTm=%llu disBy=%x rpTm=%llu.\n"
+- "%s: %s: caller=%s ver=%u gSw=%u GP=%u Pro=%u.\n"
+- "%s: %s: config profile: %u (boot-arg=%u%s edt-prop=%u%s).\n"
+- "%s: %s: enabled by device type: %s (boot-arg=%s%s edt-prop=%s%s).\n"
+- "%s: %s: isUpgrading=%s (loadedVersion=%u).\n"
+- "1211111122221223232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323111111121111111111221222222222222222212222222222222222222222222222222222222222"
+- "1211112122111221222111221222111221222111221222111221222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222"
+- "_getDefaultConfigProfile"
+- "_isUpgradingToAllPolicyModes"
+- "_loadEnabledByDeviceType"
+- "config profile"
+- "dtDefaults"
+- "enabled by device type"
+- "propData->getLength() == sizeof(uint32_t)"
+
+```
+
+>  `com.apple.filesystems.apfs`
+
+```diff
+
+-2311.0.0.0.3
++2313.40.1.0.1
+   __TEXT.__const: 0x790
+-  __TEXT.__cstring: 0x480ee
+-  __TEXT_EXEC.__text: 0x139894
++  __TEXT.__cstring: 0x484c7
++  __TEXT_EXEC.__text: 0x139d48
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0x690
+   __DATA.__bss: 0xc60
+-  __DATA_CONST.__auth_got: 0x1050
+-  __DATA_CONST.__got: 0x1a8
++  __DATA_CONST.__auth_got: 0x10c0
++  __DATA_CONST.__got: 0x1b0
+   __DATA_CONST.__auth_ptr: 0x8
+   __DATA_CONST.__mod_init_func: 0x10
+   __DATA_CONST.__mod_term_func: 0x10
+-  __DATA_CONST.__const: 0x6058
++  __DATA_CONST.__const: 0x6090
+   __DATA_CONST.__kalloc_type: 0x4c80
+-  __DATA_CONST.__kalloc_var: 0x2800
+-  Functions: 2265
++  __DATA_CONST.__kalloc_var: 0x2a30
++  Functions: 2276
+   Symbols:   0
+-  CStrings:  6263
++  CStrings:  6282
+ 
+CStrings:
++ "\"can't have a negative refcnt on crypto state %llu refcnt %d\\n\" @%s:%d"
++ "\"stream-id is zero\\n\" @%s:%d"
++ "\"unlocking dir_stats_id %llu, which is not locked\\n\" @%s:%d"
++ "\"unlocking stream_id %llu, which is not locked\\n\" @%s:%d"
++ "%s:%d: %s Can't get extra usecount on graft dir vnode: %d\n"
++ "%s:%d: %s Graft dir %llu not found in jhash\n"
++ "%s:%d: %s VNODE_CREATE_EMPTY_CALL returned %d for %s\n"
++ "%s:%d: %s apfs_check_and_alloc_alt_name returned %d for %s\n"
++ "%s:%d: %s apfs_lookup_name_with_alt_name returned %d for %s\n"
++ "%s:%d: %s dir %s got deleted behind our feet\n"
++ "%s:%d: %s dstream id %llu had refcount == 0\n"
++ "%s:%d: %s dstream id %llu refcnt %u (delta: %d) would overflow\n"
++ "%s:%d: %s failed to decrement refcnt from cloned dstream id %llu, err: %d\n"
++ "%s:%d: %s failed to get graft infos: error %d\n"
++ "%s:%d: %s failed to increment refcnt on dstream id %llu, err: %d\n"
++ "%s:%d: %s failed to lock graft host vp, error %d\n"
++ "%s:%d: %s failed to restore refcnt on cloned dstream id %llu, err: %d\n"
++ "%s:%d: %s failed to restore refcnt on dstream id %llu, err: %d\n"
++ "%s:%d: %s failed to update snap_meta. err: %d (%s), new extentref_tree_oid: %lld, snap_meta oid:%llu, snap xid:%llu, snap name:%s\n"
++ "%s:%d: %s fs_obj_create_do returned %d for %s\n"
++ "%s:%d: %s fs_obj_create_prepare_and_lock returned %d for %s\n"
++ "%s:%d: %s fs_tx_enter for %s failed with %d\n"
++ "%s:%d: %s gi_count %d <= gi_index %d\n"
++ "%s:%d: %s graft jobj_id range %llu+%llu overlaps existing graft range %llu+%llu, graft_dir_id %llu\n"
++ "%s:%d: %s ino %llu is mapped writable, report no holes\n"
++ "%s:%d: %s proposed crypto id %llu already in use, making a new one\n"
++ "%s:%d: %s setup_prot_class returned %d for %s\n"
++ "%s:%d: %s tried to increment refcount of a dead dstream id %llu\n"
++ "%s:%d: %s trying to restore refcnt on dstream id %llu\n"
++ "112122211111112222222222111122222222211122222111122112221111221122211112211222111122112221111221121221221222221111111222221112221111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111122122222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222221111121121112222222111112121222222222222222222222222221222212222222222212211111111111122112212222221122221212222222222222212222222222222112122222221"
++ "2024/08/05"
++ "212122222118"
++ "21:19:50"
++ "2313.40.1.0.1"
++ "Aug  5 2024"
++ "apfs-2313.40.1.0.1"
++ "apfs_find_graft_state_by_graft_private_id"
++ "apfs_graft_get_graft_infos"
++ "apfs_graft_lock_host_vp"
++ "grafting"
++ "site.id_locker_t"
++ "ungrafting"
+- "\"%s:%d R/W lock %p must be held in exclusive mode\\n\" @%s:%d"
+- "\"Holding graft lock, but didn't expect to!\" @%s:%d"
+- "\"Unable to get graft lock status: %d\" @%s:%d"
+- "\"Unable to set graft lock status: %d\" @%s:%d"
+- "\"Want graft lock exclusive, but already holding it!\" @%s:%d"
+- "\"can't have a negative refcnt on crypto state 0x%llx refcnt %d\\n\" @%s:%d"
+- "\"refcnt overflowed on dstream id 0x%llx refcnt %d (delta: %d)\\n\" @%s:%d"
+- "%s:%d: %s Graft jobj_id range %llu+%llu overlaps existing graft range %llu+%llu, graft_dir_id %llu\n"
+- "%s:%d: %s No parent directory available to un-graft\n"
+- "%s:%d: %s failed to get iocount for graft vp: error %d\n"
+- "%s:%d: %s failed to update snapshot meta! error %d (snap_extents oid %lld)\n"
+- "%s:%d: %s restoring refcnt on dstream_id %lld\n"
+- "/Library/Caches/com.apple.xbs/Sources/apfs/kext/apfs_rangelist.c"
+- "112122211111112222222222111122222222211122222111122112221111221122211112211222111122112221111221121221221222221111111222221112221111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111122122222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222221111121121112222222111112121222222222222222222222222221222212222222222212211111111111122112212222221122221212222222222222211222222222222112122222221"
+- "12122222211"
+- "2024/07/15"
+- "21:06:37"
+- "2311.0.0.0.3"
+- "Jul 15 2024"
+- "apfs-2311.0.0.0.3"
+- "apfs_get_graft_state_by_graft_private_id"
+- "decrement_dstream_id_refcnt"
+- "wait_ungraft"
+
+```
+
+>  `com.apple.iokit.IOMobileGraphicsFamily-DCP`
+
+```diff
+
+-395.25.0.0.0
++395.33.0.0.0
+   __TEXT.__cstring: 0x3ef5
+-  __TEXT.__const: 0x2148
+-  __TEXT_EXEC.__text: 0x1f8fc
++  __TEXT.__const: 0x2f68
++  __TEXT_EXEC.__text: 0x1fe34
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0xe0
+   __DATA.__common: 0x26d0
+
+   __DATA_CONST.__auth_ptr: 0x8
+   __DATA_CONST.__mod_init_func: 0x20
+   __DATA_CONST.__mod_term_func: 0x20
+-  __DATA_CONST.__const: 0x1628
++  __DATA_CONST.__const: 0x1638
+   __DATA_CONST.__kalloc_type: 0x7c0
+-  Functions: 690
++  Functions: 692
+   Symbols:   0
+   CStrings:  364
+ 
+CStrings:
++ "site.A439_out_args__"
++ "site.A440_in_args__"
+- "site.A436_in_args__"
+- "site.A437_out_args__"
 
 ```
 
@@ -192,137 +848,60 @@ CStrings:
 
 ```
 
->  `com.apple.driver.AppleUSBAudio`
+>  `com.apple.driver.AppleMobileFileIntegrity`
 
 ```diff
 
--701.71.0.0.0
-+701.72.0.0.0
-   __TEXT.__cstring: 0x2dad
--  __TEXT.__const: 0x5c0
-+  __TEXT.__const: 0x5d0
-   __TEXT_EXEC.__text: 0x76918
+-938.0.23.0.0
+-  __TEXT.__cstring: 0x9a86
++938.0.31.0.0
++  __TEXT.__cstring: 0x9aae
+   __TEXT.__const: 0x14b0
+   __TEXT.__os_log: 0x233
+-  __TEXT_EXEC.__text: 0x25f4c
++  __TEXT_EXEC.__text: 0x25fd4
    __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0xc4
+   __DATA.__data: 0x412
+   __DATA.__common: 0xb0
+   __DATA.__bss: 0x79
+-  __DATA_CONST.__auth_got: 0x7b8
++  __DATA_CONST.__auth_got: 0x7c0
+   __DATA_CONST.__got: 0x150
+   __DATA_CONST.__auth_ptr: 0x10
+   __DATA_CONST.__mod_init_func: 0x18
 
-```
-
->  `com.apple.driver.AppleSEPManager`
-
-```diff
-
--841.0.0.0.0
--  __TEXT.__cstring: 0xfaf3
-+842.0.0.0.0
-+  __TEXT.__cstring: 0xff2b
-   __TEXT.__const: 0x7094
--  __TEXT_EXEC.__text: 0x4692c
-+  __TEXT_EXEC.__text: 0x47238
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0x168
-   __DATA.__common: 0xc48
-
-   __DATA_CONST.__auth_ptr: 0x18
-   __DATA_CONST.__mod_init_func: 0xc0
-   __DATA_CONST.__mod_term_func: 0xc0
--  __DATA_CONST.__const: 0x9708
--  __DATA_CONST.__kalloc_type: 0xdc0
-+  __DATA_CONST.__const: 0x9728
-+  __DATA_CONST.__kalloc_type: 0xe00
-   __DATA_CONST.__kalloc_var: 0x50
--  Functions: 2319
-+  Functions: 2341
+   __DATA_CONST.__const: 0x3750
+   __DATA_CONST.__kalloc_type: 0xec0
+   __DATA_CONST.__kalloc_var: 0x1310
+-  Functions: 791
++  Functions: 792
    Symbols:   0
--  CStrings:  1368
-+  CStrings:  1393
+-  CStrings:  976
++  CStrings:  977
  
 CStrings:
-+ "\"Number of xART disable log entries unexpected too small at %lu\" @%s:%d"
-+ "\"xART shutdown failed: 0x%lx, acks %s\" @%s:%d"
-+ "%c%c%c%c:%c"
-+ "%s: %c%c%c%c acknowledges xART disable\n"
-+ "%s: %c%c%c%c registered for xART disable\n"
-+ "%s: Unexpected duplicate xART disable register for %c%c%c%c\n"
-+ "%s: Unexpected xART disable ack from unregistered %c%c%c%c\n"
-+ "%s: Unexpected xART duplicate disable ack from %c%c%c%c\n"
-+ "%s: xART disable begin\n"
-+ "/Library/Caches/com.apple.xbs/Sources/AppleSEPManager/xART/DisableLog.cpp"
-+ "12111211111121111111222121121"
-+ "DisableLog.cpp"
-+ "_disable_log != nullptr"
-+ "_num_entries <= sizeof(_entries) / sizeof(_entries[0])"
-+ "buf != nullptr"
-+ "kIOReturnSuccess == getCommandGate()->runActionBlock(^IOReturn { REQUIRE(_disable_log != nullptr); _disable_log->format_acks(buf, len); return kIOReturnSuccess; })"
-+ "len != 0"
-+ "len >= ACK_ENTRY_LEN"
-+ "len >= get_max_ack_len()"
-+ "nullptr != in_msg_p"
-+ "site.T"
-+ "void AppleSEPXART::format_acks(char *, size_t)"
-+ "void AppleSEPXART::format_acks(char *, size_t)_block_invoke"
-+ "void XARTDisableLog::format_acks(char *, size_t)"
-+ "void XARTDisableLog::log_disable_acknowledge(uint32_t)"
-+ "void XARTDisableLog::log_disable_begin()"
-+ "void XARTDisableLog::register_disable(uint32_t)"
-- "1211121111112111111122212112"
-- "kIOReturnSuccess == xartSEPSlaveEP()->xart_shtdwn_vol_unmount()"
++ "21:18:23"
++ "Aug  5 2024"
++ "platform-identifier-for-current-process"
+- "21:05:03"
+- "Jul 15 2024"
 
 ```
 
->  `com.apple.iokit.IONVMeFamily`
+>  `com.apple.iokit.IOUSBHostFamily`
 
 ```diff
 
--769.0.1.0.0
-+769.40.2.0.0
-   __TEXT.__const: 0x6f8
-   __TEXT.__cstring: 0xf7d5
--  __TEXT_EXEC.__text: 0x59824
-+  __TEXT_EXEC.__text: 0x59860
+-1402.0.7.0.0
++1402.40.1.0.0
+   __TEXT.__cstring: 0x9afc
+   __TEXT.__os_log: 0x81a1
+   __TEXT.__const: 0xa90
+-  __TEXT_EXEC.__text: 0x99214
++  __TEXT_EXEC.__text: 0x99220
    __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0x4e4
-   __DATA.__common: 0x528
-
-```
-
->  `com.apple.driver.AppleDCPDPTXProxy`
-
-```diff
-
--311.0.13.0.0
--  __TEXT.__cstring: 0x1027
-+311.40.3.0.0
-   __TEXT.__const: 0x48
-+  __TEXT.__cstring: 0x1007
-   __TEXT.__os_log: 0xa0c
--  __TEXT_EXEC.__text: 0x859c
-+  __TEXT_EXEC.__text: 0x8518
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0xc8
-   __DATA.__common: 0xd8
--  __DATA_CONST.__auth_got: 0x1b0
-+  __DATA_CONST.__auth_got: 0x1b8
-   __DATA_CONST.__got: 0x88
-   __DATA_CONST.__mod_init_func: 0x28
-   __DATA_CONST.__mod_term_func: 0x28
--  __DATA_CONST.__const: 0x2b18
-+  __DATA_CONST.__const: 0x2b50
-   __DATA_CONST.__kalloc_type: 0x140
-   Functions: 282
-   Symbols:   0
--  CStrings:  199
-+  CStrings:  198
- 
-CStrings:
-+ "12111112122212121122222112212211112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121222"
-+ "121111121222121211222221122122111121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212221111"
-+ "1211111212221212112222211221221111212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112122211111"
-+ "1211111212221212112222211221221111212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112122211122"
-- "121111121222121211222221122211112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121222"
-- "1211111212221212112222211222111121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212221111"
-- "12111112122212121122222112221111212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112122211111"
-- "12111112122212121122222112221111212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112122211122"
-- "RemoteHDCPAuthSession processed %s<%d>\n"
+   __DATA.__data: 0x310
+   __DATA.__common: 0x930
 
 ```
 
@@ -362,48 +941,6 @@ CStrings:
 
 ```
 
->  `com.apple.driver.AppleH16CameraInterface`
-
-```diff
-
--3.32.0.0.0
--  __TEXT.__const: 0xa078
--  __TEXT.__cstring: 0x19332
--  __TEXT.__os_log: 0x1543b
--  __TEXT_EXEC.__text: 0x9b574
-+3.44.0.0.0
-+  __TEXT.__const: 0xa058
-+  __TEXT.__cstring: 0x19384
-+  __TEXT.__os_log: 0x15451
-+  __TEXT_EXEC.__text: 0x9b894
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0x2a0
-   __DATA.__common: 0x4a0
-
-   __DATA_CONST.__auth_ptr: 0x10
-   __DATA_CONST.__mod_init_func: 0x90
-   __DATA_CONST.__mod_term_func: 0x50
--  __DATA_CONST.__const: 0xad78
-+  __DATA_CONST.__const: 0xa0e8
-   __DATA_CONST.__kalloc_type: 0x1300
-   __DATA_CONST.__kalloc_var: 0xd70
--  Functions: 1899
-+  Functions: 1907
-   Symbols:   0
--  CStrings:  3273
-+  CStrings:  3276
- 
-CStrings:
-+ "AppleH16CamIn:%s - camCalLoadOptions : %d\n"
-+ "AppleH16CamIn:%s - camCalLoadOptions : %d\n"
-+ "ISP_SavageAuth_gated"
-+ "PearlCamFrameReceived - frameCount=0x%08X, timeStamp=0x%016llX, currentISPTime=0x%016llX, currentSysTime=0x%016llX, rawAddr=%#llx, metaAddr=%#llx, totDescriptors=%u\n"
-+ "camCalLoadOptions"
-- "AppleH16PearlCam:%s - DART Addresses - raw:%#llx meta:%#llx ref:%#llx\n"
-- "PearlCamFrameReceived - frameCount=0x%08X, timeStamp=0x%016llX, currentISPTime=0x%016llX, currentSysTime=0x%016llX\n"
-
-```
-
 >  `com.apple.driver.FairPlayIOKit`
 
 ```diff
@@ -438,32 +975,98 @@ CStrings:
 
 ```
 
->  `com.apple.driver.AppleAuthCP`
+>  `com.apple.driver.AppleSPMIPMU`
 
 ```diff
 
--157.0.0.502.1
-+159.0.0.0.0
-   __TEXT.__const: 0x4c
-   __TEXT.__cstring: 0x2877
-   __TEXT.__os_log: 0x12c7
--  __TEXT_EXEC.__text: 0x18a1c
-+  __TEXT_EXEC.__text: 0x18cec
+-1350.0.0.0.0
++1350.0.1.0.0
+   __TEXT.__cstring: 0x24d1
+   __TEXT.__const: 0x26
+-  __TEXT_EXEC.__text: 0xbd60
++  __TEXT_EXEC.__text: 0xbd80
    __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0x188
-   __DATA.__common: 0x218
+   __DATA.__data: 0x320
+   __DATA.__common: 0xc0
+CStrings:
++ "%s::handleStart: %s _pmuNub: %p ** configuration not found ** built 21:43:41 Aug  5 2024\n"
++ "%s::handleStart: ro=%d nvram=%d helper=%d %s _pmuNub: %p 0x%04x:0x%04x-0x%04x built 21:43:41 Aug  5 2024\n"
++ "%s::start: %s _pmuNub: %p ** configuration not found ** built 21:43:42 Aug  5 2024\n"
++ "%s::start: %s _pmuNub: %p built 21:43:42 Aug  5 2024\n"
+- "%s::handleStart: %s _pmuNub: %p ** configuration not found ** built 21:03:54 Jul 15 2024\n"
+- "%s::handleStart: ro=%d nvram=%d helper=%d %s _pmuNub: %p 0x%04x:0x%04x-0x%04x built 21:03:54 Jul 15 2024\n"
+- "%s::start: %s _pmuNub: %p ** configuration not found ** built 21:03:54 Jul 15 2024\n"
+- "%s::start: %s _pmuNub: %p built 21:03:54 Jul 15 2024\n"
 
-   __DATA_CONST.__auth_ptr: 0x18
-   __DATA_CONST.__mod_init_func: 0x48
-   __DATA_CONST.__mod_term_func: 0x48
--  __DATA_CONST.__const: 0x5840
-+  __DATA_CONST.__const: 0x5860
-   __DATA_CONST.__kalloc_type: 0x6c0
--  Functions: 471
-+  Functions: 472
+```
+
+>  `com.apple.iokit.IOAccessoryManager`
+
+```diff
+
+-1004.0.2.0.0
++1004.40.3.0.0
+   __TEXT.__const: 0x2f8
+-  __TEXT.__cstring: 0x1080b
+-  __TEXT.__os_log: 0x106d8
+-  __TEXT_EXEC.__text: 0xec744
++  __TEXT.__cstring: 0x1080e
++  __TEXT.__os_log: 0x107e9
++  __TEXT_EXEC.__text: 0xed0c8
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0x7e8
+   __DATA.__common: 0x1630
+
+   __DATA_CONST.__auth_ptr: 0x20
+   __DATA_CONST.__mod_init_func: 0x338
+   __DATA_CONST.__mod_term_func: 0x330
+-  __DATA_CONST.__const: 0x29af0
++  __DATA_CONST.__const: 0x29b00
+   __DATA_CONST.__kalloc_type: 0x2440
+-  Functions: 4436
++  Functions: 4439
    Symbols:   0
-   CStrings:  407
+-  CStrings:  2780
++  CStrings:  2786
  
+CStrings:
++ "%s::%s(): [%s%s%s] Removed %u power source options!\n\n"
++ "%s::%s(): [%s%s%s] Setting winning power source option... (powerSource: %s, powerSourceOption: %s)\n\n"
++ "Owner"
++ "ProductName"
++ "[ERROR] [%s%s%s] Client does not own this power source!\n\n"
++ "[ERROR] [%s%s%s] Failed to add power source options!\n\n"
++ "[ERROR] [%s%s%s] kernel_thread_start() failed! (ret: %d)\n\n"
++ "_setWinningPowerSourceOption"
+- "%s::%s(): Removed %u power source options!\n"
+- "_clearOtherPowerSourceWinners::matchingDict"
+
+```
+
+>  `com.apple.iokit.IOMIPIFamily`
+
+```diff
+
+-160.0.1.0.0
++160.40.1.0.0
+   __TEXT.__const: 0x20
+-  __TEXT.__cstring: 0x1f5
++  __TEXT.__cstring: 0x1f7
+   __TEXT_EXEC.__text: 0x1148
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0xc8
+
+   __DATA_CONST.__got: 0x40
+   __DATA_CONST.__mod_init_func: 0x10
+   __DATA_CONST.__mod_term_func: 0x10
+-  __DATA_CONST.__const: 0xc70
++  __DATA_CONST.__const: 0xc78
+   __DATA_CONST.__kalloc_type: 0x80
+   Functions: 58
+   Symbols:   0
+CStrings:
++ "12111112122212121122222112212211112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121222"
+- "121111121222121211222221122211112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121222"
 
 ```
 
@@ -554,6 +1157,148 @@ CStrings:
 
 ```
 
+>  `com.apple.driver.AppleH16CameraInterface`
+
+```diff
+
+-3.32.0.0.0
+-  __TEXT.__const: 0xa078
+-  __TEXT.__cstring: 0x19332
+-  __TEXT.__os_log: 0x1543b
+-  __TEXT_EXEC.__text: 0x9b574
++3.44.0.0.0
++  __TEXT.__const: 0xa058
++  __TEXT.__cstring: 0x19384
++  __TEXT.__os_log: 0x15451
++  __TEXT_EXEC.__text: 0x9b894
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0x2a0
+   __DATA.__common: 0x4a0
+
+   __DATA_CONST.__auth_ptr: 0x10
+   __DATA_CONST.__mod_init_func: 0x90
+   __DATA_CONST.__mod_term_func: 0x50
+-  __DATA_CONST.__const: 0xad78
++  __DATA_CONST.__const: 0xa0e8
+   __DATA_CONST.__kalloc_type: 0x1300
+   __DATA_CONST.__kalloc_var: 0xd70
+-  Functions: 1899
++  Functions: 1907
+   Symbols:   0
+-  CStrings:  3273
++  CStrings:  3276
+ 
+CStrings:
++ "AppleH16CamIn:%s - camCalLoadOptions : %d\n"
++ "AppleH16CamIn:%s - camCalLoadOptions : %d\n"
++ "ISP_SavageAuth_gated"
++ "PearlCamFrameReceived - frameCount=0x%08X, timeStamp=0x%016llX, currentISPTime=0x%016llX, currentSysTime=0x%016llX, rawAddr=%#llx, metaAddr=%#llx, totDescriptors=%u\n"
++ "camCalLoadOptions"
+- "AppleH16PearlCam:%s - DART Addresses - raw:%#llx meta:%#llx ref:%#llx\n"
+- "PearlCamFrameReceived - frameCount=0x%08X, timeStamp=0x%016llX, currentISPTime=0x%016llX, currentSysTime=0x%016llX\n"
+
+```
+
+>  `com.apple.iokit.IOThunderboltFamily`
+
+```diff
+
+-6769.0.4.0.0
++6769.40.2.0.0
+   __TEXT.__cstring: 0x331d4
+   __TEXT.__os_log: 0x2dd91
+   __TEXT.__const: 0x7f0
+-  __TEXT_EXEC.__text: 0x18ef54
++  __TEXT_EXEC.__text: 0x18effc
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0xb1a
+   __DATA.__common: 0x1238
+CStrings:
++ "21:47:09"
++ "Aug  5 2024"
+- "21:04:18"
+- "Jul 15 2024"
+
+```
+
+>  `com.apple.driver.AppleH16PhotonDetector`
+
+```diff
+
+-3.32.0.0.0
++3.44.0.0.0
+   __TEXT.__cstring: 0x1fd
+   __TEXT.__os_log: 0x606
+-  __TEXT_EXEC.__text: 0x2c90
++  __TEXT_EXEC.__text: 0x2c98
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0xd8
+   __DATA.__common: 0x60
+
+```
+
+>  `com.apple.iokit.IODisplayPortFamily`
+
+```diff
+
+-730.0.1.0.0
+-  __TEXT.__cstring: 0x7c3b
++730.40.5.0.0
++  __TEXT.__cstring: 0x7c47
+   __TEXT.__os_log: 0x9571
+   __TEXT.__const: 0x310
+-  __TEXT_EXEC.__text: 0x5cfe4
++  __TEXT_EXEC.__text: 0x5d118
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0xc8
+   __DATA.__common: 0x550
+
+   __DATA_CONST.__got: 0x170
+   __DATA_CONST.__mod_init_func: 0x110
+   __DATA_CONST.__mod_term_func: 0x108
+-  __DATA_CONST.__const: 0xf880
++  __DATA_CONST.__const: 0xf888
+   __DATA_CONST.__kalloc_type: 0x840
+   __DATA_CONST.__kalloc_var: 0x280
+   Functions: 1961
+   Symbols:   0
+-  CStrings:  1525
++  CStrings:  1526
+ 
+CStrings:
++ "ProductName"
+
+```
+
+>  `com.apple.plugin.IOgPTPPlugin`
+
+```diff
+
+-1300.50.1.0.0
+-  __TEXT.__cstring: 0x6179
+-  __TEXT.__os_log: 0x1a4a8
++1300.51.0.0.0
++  __TEXT.__cstring: 0x6162
++  __TEXT.__os_log: 0x1a477
+   __TEXT.__const: 0x278
+-  __TEXT_EXEC.__text: 0x70acc
++  __TEXT_EXEC.__text: 0x70a60
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0xc8
+   __DATA.__common: 0x5d8
+
+   __DATA_CONST.__kalloc_var: 0x280
+   Functions: 1416
+   Symbols:   0
+-  CStrings:  1426
++  CStrings:  1424
+ 
+CStrings:
+- "  %s(%s): %s Failed to transmit timesync packet\n"
+- "transmitTimeSyncPacket"
+
+```
+
 >  `com.apple.driver.AppleAOPAudio`
 
 ```diff
@@ -593,70 +1338,333 @@ CStrings:
 
 ```
 
->  `com.apple.driver.AppleT8130CLPC`
+>  `com.apple.iokit.AppleARMIISAudio`
 
 ```diff
 
--1175.0.25.0.0
--  __TEXT.__cstring: 0x2c4a
-+1175.40.1.0.0
-+  __TEXT.__cstring: 0x2c4e
-   __TEXT.__const: 0xb34
--  __TEXT_EXEC.__text: 0x4c884
-+  __TEXT_EXEC.__text: 0x4c934
+-400.20.0.0.0
++400.22.0.0.0
+   __TEXT.__os_log: 0x2778
+-  __TEXT.__cstring: 0x2dc9
++  __TEXT.__cstring: 0x2da3
+   __TEXT.__const: 0xa8
+-  __TEXT_EXEC.__text: 0x15688
++  __TEXT_EXEC.__text: 0x15648
    __TEXT_EXEC.__auth_stubs: 0x0
--  __DATA.__data: 0xa2f8
-+  __DATA.__data: 0xa3f8
-   __DATA.__common: 0x7b21
-   __DATA.__bss: 0x278
-   __DATA_CONST.__auth_got: 0x4a0
-   __DATA_CONST.__got: 0xd8
-   __DATA_CONST.__mod_init_func: 0x118
-   __DATA_CONST.__mod_term_func: 0x18
--  __DATA_CONST.__const: 0x4fc8
-+  __DATA_CONST.__const: 0x4fe0
-   __DATA_CONST.__kalloc_type: 0x380
-   __DATA_CONST.__kalloc_var: 0x370
-   Functions: 1263
+   __DATA.__data: 0x188
+   __DATA.__common: 0x60
+-  __DATA_CONST.__auth_got: 0x2a8
++  __DATA_CONST.__auth_got: 0x2a0
+   __DATA_CONST.__got: 0x88
+   __DATA_CONST.__auth_ptr: 0x8
+   __DATA_CONST.__mod_init_func: 0x10
+
+   __DATA_CONST.__kalloc_var: 0x1e0
+   Functions: 217
    Symbols:   0
--  CStrings:  464
-+  CStrings:  465
+-  CStrings:  382
++  CStrings:  381
  
 CStrings:
-+ "2024-08-05T21:24:28-07:00"
-+ "AFR"
-+ "AppleCLPC-1175.40.1"
-- "2024-07-15T21:10:21-07:00"
-- "AppleCLPC-1175.0.25"
+- "IISAudio:: Zero-out buffer %p [%llu]\n"
 
 ```
 
->  `com.apple.driver.AppleSPU`
+>  `com.apple.driver.AppleM2ScalerCSCDriver`
 
 ```diff
 
--1014.0.3.0.0
-+1014.40.2.0.0
-   __TEXT.__cstring: 0x5aae
-   __TEXT.__os_log: 0x955
-   __TEXT.__const: 0x358
--  __TEXT_EXEC.__text: 0x496e8
-+  __TEXT_EXEC.__text: 0x498dc
+-148.0.50.0.0
+-  __TEXT.__cstring: 0x165e9
+-  __TEXT.__const: 0x4ecb8
+-  __TEXT_EXEC.__text: 0xd6130
++148.0.53.0.0
++  __TEXT.__cstring: 0x1673a
++  __TEXT.__const: 0x4ecc8
++  __TEXT_EXEC.__text: 0xd5ff8
    __TEXT_EXEC.__auth_stubs: 0x0
--  __DATA.__data: 0x7b8
-+  __DATA.__data: 0x878
-   __DATA.__common: 0x970
-   __DATA.__bss: 0x5b0
-   __DATA_CONST.__auth_got: 0x5e0
+   __DATA.__data: 0x1fe40
+   __DATA.__common: 0x20a8
 
-   __DATA_CONST.__const: 0x16440
-   __DATA_CONST.__kalloc_type: 0xec0
-   __DATA_CONST.__kalloc_var: 0x320
--  Functions: 2065
-+  Functions: 2068
+   __DATA_CONST.__const: 0x210b8
+   __DATA_CONST.__kalloc_type: 0x3c40
+   __DATA_CONST.__kalloc_var: 0x500
+-  Functions: 6008
++  Functions: 6012
    Symbols:   0
-   CStrings:  920
+-  CStrings:  2384
++  CStrings:  2392
  
+CStrings:
++ "1222222222212111111112111111111111111111122122112212"
++ "1222222222212111111112111111111111111111122122112212112222222"
++ "12222222222121111111121111111111111111111221221122121122222221111111221111111111111111111122222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222000020000000"
++ "Awake"
++ "SleepAcked"
++ "SleepRequested"
++ "[IOSA][Boot ] Req 0x%x Resumption on MSR%d\n"
++ "[IOSA][Boot ] Req 0x%x Waiting for MSR%d wake\n"
++ "[IOSA][Boot ] [MSR%u] SleepState transition from %s to %s\n"
++ "[IOSA][Boot ] kConfigKeyIsShippedDevice=%d\n"
++ "activateForMapping_gated"
++ "commandSleep failed with %d\n"
++ "powerRefCount cannot be zero with kSPSSleepAcked. [MSR%d] partition %d newState %d oldState %d refCount %d"
+- "     req %d prio %d ctx_sw_cnt %d\n"
+- "122222222221211111111211111111111111111112212211221"
+- "122222222221211111111211111111111111111112212211221112222222"
+- "12222222222121111111121111111111111111111221221122111222222211111112211111111111111111111222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222220000020000000"
+- "canContextSwitch"
+
+```
+
+>  `com.apple.driver.ApplePTD`
+
+```diff
+
+-21.0.0.0.0
+-  __TEXT.__cstring: 0x1a2e
++22.0.0.0.0
++  __TEXT.__cstring: 0x1a77
+   __TEXT.__const: 0x20
+-  __TEXT_EXEC.__text: 0x9074
++  __TEXT_EXEC.__text: 0x9254
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0xc4
+   __DATA.__common: 0xf0
+
+   __DATA_CONST.__mod_term_func: 0x18
+   __DATA_CONST.__const: 0xf68
+   __DATA_CONST.__kalloc_type: 0x100
+-  __DATA_CONST.__kalloc_var: 0x190
++  __DATA_CONST.__kalloc_var: 0x1e0
+   Functions: 225
+   Symbols:   0
+-  CStrings:  192
++  CStrings:  196
+ 
+CStrings:
++ "%s: cannot alloc array\n"
++ "%s: cannot alloc register lock\n"
++ "1"
++ "1211111212221212111111111111122222222111112112"
++ "site.IOLock *"
+- "121111121222121211111111111112222222211111212"
+
+```
+
+>  `com.apple.driver.usb.AppleUSBHostiOSDevice`
+
+```diff
+
+-1402.0.7.0.0
++1402.40.1.0.0
+   __TEXT.__const: 0x8
+-  __TEXT.__cstring: 0x3ef
+-  __TEXT.__os_log: 0x2e0
+-  __TEXT_EXEC.__text: 0x1958
++  __TEXT.__cstring: 0x445
++  __TEXT.__os_log: 0x336
++  __TEXT_EXEC.__text: 0x1b20
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0xc8
+   __DATA.__common: 0x38
+
+   __DATA_CONST.__kalloc_type: 0x40
+   Functions: 29
+   Symbols:   0
+-  CStrings:  35
++  CStrings:  37
+ 
+CStrings:
++ "%s: %s::%s: device doesn't support the kAppleUSBVendorRequestPreferredConfig request\n"
++ "%s: %s::%s: device doesn't support the kAppleUSBVendorRequestPreferredConfig request\n"
+
+```
+
+>  `com.apple.driver.usb.AppleUSBXHCI`
+
+```diff
+
+-1402.0.7.0.0
++1402.40.1.0.0
+   __TEXT.__const: 0xb4
+-  __TEXT.__cstring: 0x5dda
++  __TEXT.__cstring: 0x5de7
+   __TEXT.__os_log: 0x5da8
+-  __TEXT_EXEC.__text: 0x57848
++  __TEXT_EXEC.__text: 0x5789c
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0xc8
+   __DATA.__common: 0x428
+
+   __DATA_CONST.__const: 0x5e10
+   __DATA_CONST.__kalloc_type: 0x8c0
+   __DATA_CONST.__kalloc_var: 0xa0
+-  Functions: 900
++  Functions: 899
+   Symbols:   0
+   CStrings:  908
+ 
+CStrings:
++ "hardwareExceptionThreadCall_block_invoke"
+- "didTerminateThreadCallGated"
+
+```
+
+>  `com.apple.iokit.IOPCIFamily`
+
+```diff
+
+-664.0.2.0.0
++664.40.2.0.0
+   __TEXT.__const: 0x710
+-  __TEXT.__cstring: 0x52ca
+-  __TEXT_EXEC.__text: 0x2e23c
++  __TEXT.__cstring: 0x52ff
++  __TEXT_EXEC.__text: 0x2e410
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0xcc
+   __DATA.__common: 0x218
+
+   __DATA_CONST.__const: 0x3d00
+   __DATA_CONST.__kalloc_type: 0x600
+   __DATA_CONST.__kalloc_var: 0x190
+-  Functions: 684
++  Functions: 685
+   Symbols:   0
+-  CStrings:  656
++  CStrings:  658
+ 
+CStrings:
++ "21:17:37"
++ "Aug  5 2024"
++ "[%s()] nub %s at %u:%u:%u has L1 errata\n"
++ "hasL1Errata"
+- "21:04:39"
+- "Jul 15 2024"
+
+```
+
+>  `com.apple.security.sandbox`
+
+```diff
+
+-2401.0.56.0.0
+-  __TEXT.__const: 0x18cae9
+-  __TEXT.__cstring: 0x6ec0
++2401.40.6.0.1
++  __TEXT.__const: 0x1894c9
++  __TEXT.__cstring: 0x6efc
+   __TEXT.__os_log: 0x2029
+-  __TEXT_EXEC.__text: 0x30438
++  __TEXT_EXEC.__text: 0x30494
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0x1e0
+   __DATA.__bss: 0x144c8
+-  __DATA_CONST.__auth_got: 0x830
++  __DATA_CONST.__auth_got: 0x838
+   __DATA_CONST.__got: 0xc8
+-  __DATA_CONST.__const: 0x3640
++  __DATA_CONST.__const: 0x3650
+   __DATA_CONST.__kalloc_var: 0x550
+   __DATA_CONST.__kalloc_type: 0xa80
+-  Functions: 647
++  Functions: 648
+   Symbols:   0
+-  CStrings:  1294
++  CStrings:  1296
+ 
+CStrings:
++ "\"invalid hex digit: %c\" @%s:%d"
++ "/private/var/db/darwindaemon"
+
+```
+
+>  `com.apple.driver.AppleAVD`
+
+```diff
+
+-796.1.0.0.0
++798.1.0.0.0
+   __TEXT.__const: 0x86e6e
+-  __TEXT.__cstring: 0x5156
+-  __TEXT.__os_log: 0x11944
+-  __TEXT_EXEC.__text: 0x41274
++  __TEXT.__cstring: 0x515e
++  __TEXT.__os_log: 0x11ed0
++  __TEXT_EXEC.__text: 0x417b8
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0x12dc
+   __DATA.__common: 0x78
+   __DATA.__bss: 0x14
+-  __DATA_CONST.__auth_got: 0x388
+-  __DATA_CONST.__got: 0xd8
++  __DATA_CONST.__auth_got: 0x380
++  __DATA_CONST.__got: 0xd0
+   __DATA_CONST.__auth_ptr: 0x8
+   __DATA_CONST.__mod_init_func: 0x10
+   __DATA_CONST.__mod_term_func: 0x10
+
+   __DATA_CONST.__kalloc_type: 0x2400
+   Functions: 1339
+   Symbols:   0
+-  CStrings:  1420
++  CStrings:  1422
+ 
+CStrings:
++ "121111121222121211111111111111111111111122222222222222222222222222222222222222222222222222211221221222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222221212122122222222222222222221221222222222222222222222212222211212212222222222222222222221111211211211222222222222212212212222222222222222222222222222222222222222222222222222222222222222222221221221222222222222222222222222222222222222222222222222221111"
++ "AppleAVD: %s(): Invoking destroyDecoder for client %4d.%d"
++ "AppleAVD: %s(): illegal LK usage: %x"
++ "AppleAVD: ERROR: %s(): No numWorks specified! initVPIdx = %d, mult_vp_cnt = %u\n"
++ "AppleAVD: ERROR: %s(): Unsupported numWorks = %u > %u\n"
++ "AppleAVD: ERROR: %s(): numWorks[%u] (%u) exceeds maximum number of work units per VP (%u)\n"
++ "withTask"
+- "1211111212221212111111111111111111111111222222222222222222222222222222222222222222222222222112212212222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222212121221222222222222222222212212222222222222222222222122222112122122222222222222222222211112112112112212222222222212212212222222222222222222222222222222222222222222222222222222222222222222221221221222222222222222222222222222222222222222222222222221111"
+- "AppleAVD: %s reached max try count for client %d"
+- "AppleAVD: %s(): ERROR! FrameNum (%d) < 0"
+- "AppleAVD: ERROR: %s(): No numWorks specified"
+- "AppleAVD: Invoking destroyDecoder. %s reached try count %d for client %4d.%d"
+
+```
+
+>  `com.apple.driver.AppleDCPDPTXProxy`
+
+```diff
+
+-311.0.13.0.0
+-  __TEXT.__cstring: 0x1027
++311.40.3.0.0
+   __TEXT.__const: 0x48
++  __TEXT.__cstring: 0x1007
+   __TEXT.__os_log: 0xa0c
+-  __TEXT_EXEC.__text: 0x859c
++  __TEXT_EXEC.__text: 0x8518
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0xc8
+   __DATA.__common: 0xd8
+-  __DATA_CONST.__auth_got: 0x1b0
++  __DATA_CONST.__auth_got: 0x1b8
+   __DATA_CONST.__got: 0x88
+   __DATA_CONST.__mod_init_func: 0x28
+   __DATA_CONST.__mod_term_func: 0x28
+-  __DATA_CONST.__const: 0x2b18
++  __DATA_CONST.__const: 0x2b50
+   __DATA_CONST.__kalloc_type: 0x140
+   Functions: 282
+   Symbols:   0
+-  CStrings:  199
++  CStrings:  198
+ 
+CStrings:
++ "12111112122212121122222112212211112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121222"
++ "121111121222121211222221122122111121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212221111"
++ "1211111212221212112222211221221111212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112122211111"
++ "1211111212221212112222211221221111212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112122211122"
+- "121111121222121211222221122211112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121222"
+- "1211111212221212112222211222111121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212221111"
+- "12111112122212121122222112221111212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112122211111"
+- "12111112122212121122222112221111212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112122211122"
+- "RemoteHDCPAuthSession processed %s<%d>\n"
 
 ```
 
@@ -729,36 +1737,60 @@ CStrings:
 
 ```
 
->  `com.apple.driver.AppleHPM`
+>  `com.apple.driver.AppleDisplayCrossbar`
 
 ```diff
 
--570.0.3.0.0
--  __TEXT.__cstring: 0x1b5eb
-+570.40.2.0.0
-+  __TEXT.__cstring: 0x1b600
-   __TEXT.__const: 0xc0
-   __TEXT.__os_log: 0x1e8
--  __TEXT_EXEC.__text: 0x5cef8
-+  __TEXT_EXEC.__text: 0x5d3f4
+-355.0.0.0.0
++355.40.3.0.0
+   __TEXT.__cstring: 0x4413
+   __TEXT.__const: 0x160
+   __TEXT.__os_log: 0x5d14
+-  __TEXT_EXEC.__text: 0x32084
++  __TEXT_EXEC.__text: 0x32128
    __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0x6d0
-   __DATA.__common: 0x518
+   __DATA.__data: 0xc4
+   __DATA.__common: 0x3d0
 
-   __DATA_CONST.__mod_term_func: 0xf8
-   __DATA_CONST.__const: 0x11290
-   __DATA_CONST.__kalloc_type: 0xb00
--  Functions: 1399
-+  Functions: 1403
+   __DATA_CONST.__mod_term_func: 0xc0
+   __DATA_CONST.__const: 0xd1e0
+   __DATA_CONST.__kalloc_type: 0x600
+-  Functions: 1475
++  Functions: 1474
    Symbols:   0
--  CStrings:  1562
-+  CStrings:  1564
+   CStrings:  707
  
-CStrings:
-+ "1211111212221212111121121222221211211111112"
-+ "Boot Flags"
-+ "FW Version"
-- "12111112122212121111211212222212112111111122"
+
+```
+
+>  `com.apple.driver.AppleStockholmControl`
+
+```diff
+
+-350.30.0.0.0
++351.1.0.0.0
+   __TEXT.__cstring: 0x46f8
+   __TEXT.__const: 0x30
+-  __TEXT_EXEC.__text: 0x14f0c
++  __TEXT_EXEC.__text: 0x14f40
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0x219
+   __DATA.__common: 0x1a6
+
+```
+
+>  `com.apple.driver.AppleUSBAudio`
+
+```diff
+
+-701.71.0.0.0
++701.72.0.0.0
+   __TEXT.__cstring: 0x2dad
+-  __TEXT.__const: 0x5c0
++  __TEXT.__const: 0x5d0
+   __TEXT_EXEC.__text: 0x76918
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0xc4
 
 ```
 
@@ -862,504 +1894,36 @@ CStrings:
 
 ```
 
->  `com.apple.AGXG16P`
+>  `com.apple.driver.ApplePMGR`
 
 ```diff
 
--320.23.3.0.0
--  __TEXT.__const: 0x4444
--  __TEXT.__cstring: 0xca1f
-+320.31.1.0.0
-+  __TEXT.__const: 0x446c
-+  __TEXT.__cstring: 0xca44
-   __TEXT.__os_log: 0x2f7
--  __TEXT_EXEC.__text: 0xaeaac
-+  __TEXT_EXEC.__text: 0xaf38c
+-1555.0.22.0.0
++1555.40.5.0.0
+   __TEXT.__const: 0x248
+-  __TEXT.__cstring: 0xe8ef
+-  __TEXT_EXEC.__text: 0x5299c
++  __TEXT.__cstring: 0xe8f7
++  __TEXT_EXEC.__text: 0x52a94
    __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0x13b8
-   __DATA.__common: 0x10
+   __DATA.__data: 0x100
+   __DATA.__common: 0x420
 
-   __DATA_CONST.__auth_ptr: 0x8
-   __DATA_CONST.__mod_init_func: 0x320
-   __DATA_CONST.__mod_term_func: 0x280
--  __DATA_CONST.__const: 0x10bd8
-+  __DATA_CONST.__const: 0x10c00
-   __DATA_CONST.__kalloc_type: 0x2140
-   __DATA_CONST.__kalloc_var: 0x3160
--  Functions: 3070
-+  Functions: 3072
-   Symbols:   0
--  CStrings:  1715
-+  CStrings:  1718
- 
-CStrings:
-+ "1211111121122221221111112112222122111111211222212212222222222211221111111122222222111112121211212112121121211212112121121211212112121121211212112121121211111111122211122211122211122211122211122211122211122211122211122211122222221111221211212111111112222222222121122222222222222222222222222222222222222222222222222222222222222222222222212112112222222222222222221111112212122222222212222211111221212222222221222221111122121222222222122222111112212122222222212222211111221212222222221222221111122121222222222122222111112221111112221111112221111112221111112221111112221111112221111112221111112221121111122111111112211221111111111111111111111111111111111122222222222222222211111122121222222222122222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222211111112222222"
-+ "12111122222111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111122222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222221111222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222"
-+ "Aug  6 2024 23:35:21"
-+ "CoreEfficiency"
-+ "MMU interrupt"
-+ "Turbo"
-- "121111112112222122111111211222212211111121122221221222222222221122111111112222222211111212121121211212112121121211212112121121211212112121121211212112121111111112221112221112221112221112221112221112221112221112221112221112222222111122121121211111111222222222212112222222222222222222222222222222222222222222222222222222222222222222222221211211222222222222222222111111221212222222221222221111122121222222222122222111112212122222222212222211111221212222222221222221111122121222222222122222111112212122222222212222211111222111111222111111222111111222111111222111111222111111222111111222111111222112111112211111111221122111111111111111111111111111111111112222222222222222221111112212122222222212222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222211111112222222"
-- "1211112222211111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111112222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222221111222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222"
-- "Jul 15 2024 21:17:32"
-
-```
-
->  `com.apple.driver.AppleH16PhotonDetector`
-
-```diff
-
--3.32.0.0.0
-+3.44.0.0.0
-   __TEXT.__cstring: 0x1fd
-   __TEXT.__os_log: 0x606
--  __TEXT_EXEC.__text: 0x2c90
-+  __TEXT_EXEC.__text: 0x2c98
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0xd8
-   __DATA.__common: 0x60
-
-```
-
->  `com.apple.iokit.IOAccessoryManager`
-
-```diff
-
--1004.0.2.0.0
-+1004.40.3.0.0
-   __TEXT.__const: 0x2f8
--  __TEXT.__cstring: 0x1080b
--  __TEXT.__os_log: 0x106d8
--  __TEXT_EXEC.__text: 0xec744
-+  __TEXT.__cstring: 0x1080e
-+  __TEXT.__os_log: 0x107e9
-+  __TEXT_EXEC.__text: 0xed0c8
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0x7e8
-   __DATA.__common: 0x1630
-
-   __DATA_CONST.__auth_ptr: 0x20
-   __DATA_CONST.__mod_init_func: 0x338
-   __DATA_CONST.__mod_term_func: 0x330
--  __DATA_CONST.__const: 0x29af0
-+  __DATA_CONST.__const: 0x29b00
-   __DATA_CONST.__kalloc_type: 0x2440
--  Functions: 4436
-+  Functions: 4439
-   Symbols:   0
--  CStrings:  2780
-+  CStrings:  2786
- 
-CStrings:
-+ "%s::%s(): [%s%s%s] Removed %u power source options!\n\n"
-+ "%s::%s(): [%s%s%s] Setting winning power source option... (powerSource: %s, powerSourceOption: %s)\n\n"
-+ "Owner"
-+ "ProductName"
-+ "[ERROR] [%s%s%s] Client does not own this power source!\n\n"
-+ "[ERROR] [%s%s%s] Failed to add power source options!\n\n"
-+ "[ERROR] [%s%s%s] kernel_thread_start() failed! (ret: %d)\n\n"
-+ "_setWinningPowerSourceOption"
-- "%s::%s(): Removed %u power source options!\n"
-- "_clearOtherPowerSourceWinners::matchingDict"
-
-```
-
->  `com.apple.driver.AppleIDV`
-
-```diff
-
--7.37.0.0.0
-+7.100.1.0.0
-   __TEXT.__const: 0xf8
--  __TEXT.__cstring: 0x137b
-+  __TEXT.__cstring: 0x137e
-   __TEXT_EXEC.__text: 0x84b0
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0xc4
-CStrings:
-+ "7.100.1"
-- "7.37"
-
-```
-
->  `com.apple.driver.AppleSPMIPMU`
-
-```diff
-
--1350.0.0.0.0
-+1350.0.1.0.0
-   __TEXT.__cstring: 0x24d1
-   __TEXT.__const: 0x26
--  __TEXT_EXEC.__text: 0xbd60
-+  __TEXT_EXEC.__text: 0xbd80
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0x320
-   __DATA.__common: 0xc0
-CStrings:
-+ "%s::handleStart: %s _pmuNub: %p ** configuration not found ** built 21:43:41 Aug  5 2024\n"
-+ "%s::handleStart: ro=%d nvram=%d helper=%d %s _pmuNub: %p 0x%04x:0x%04x-0x%04x built 21:43:41 Aug  5 2024\n"
-+ "%s::start: %s _pmuNub: %p ** configuration not found ** built 21:43:42 Aug  5 2024\n"
-+ "%s::start: %s _pmuNub: %p built 21:43:42 Aug  5 2024\n"
-- "%s::handleStart: %s _pmuNub: %p ** configuration not found ** built 21:03:54 Jul 15 2024\n"
-- "%s::handleStart: ro=%d nvram=%d helper=%d %s _pmuNub: %p 0x%04x:0x%04x-0x%04x built 21:03:54 Jul 15 2024\n"
-- "%s::start: %s _pmuNub: %p ** configuration not found ** built 21:03:54 Jul 15 2024\n"
-- "%s::start: %s _pmuNub: %p built 21:03:54 Jul 15 2024\n"
-
-```
-
->  `com.apple.driver.AppleSMCWirelessCharger`
-
-```diff
-
--76.0.3.0.0
-+76.0.6.0.0
-   __TEXT.__const: 0x60
--  __TEXT.__cstring: 0x2915
-+  __TEXT.__cstring: 0x291b
-   __TEXT.__os_log: 0x4b9
--  __TEXT_EXEC.__text: 0xef60
-+  __TEXT_EXEC.__text: 0xf0a8
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0xc8
-   __DATA.__common: 0x68
--  __DATA.__bss: 0x68
-+  __DATA.__bss: 0x6c
-   __DATA_CONST.__auth_got: 0x298
-   __DATA_CONST.__got: 0xa8
-   __DATA_CONST.__auth_ptr: 0x8
-
-   __DATA_CONST.__const: 0xed8
-   __DATA_CONST.__kalloc_type: 0x80
-   __DATA_CONST.__kalloc_var: 0x1e0
--  Functions: 180
-+  Functions: 182
-   Symbols:   0
--  CStrings:  366
-+  CStrings:  367
- 
-CStrings:
-+ "%s::%s:audio coex: %d, 0x%x\n"
-+ "121111121222121212121112212211112121211121111111111111111111111111222222222222222222222222112211111211121111111111111111121"
-+ "checkDockFeatures"
-+ "hd-mic-coex"
-- "%s::%s:audio coex: %d\n"
-- "12111112122212121212111221221111212121112111111111111111111111111122222222222222222222222112211111211121111111111111111121"
-- "handleWirelessDockNotification"
-
-```
-
->  `com.apple.driver.AppleT8110DART`
-
-```diff
-
--452.0.4.0.0
-+452.0.6.0.0
-   __TEXT.__const: 0x60
--  __TEXT.__cstring: 0x27b4
--  __TEXT_EXEC.__text: 0xd4a8
-+  __TEXT.__cstring: 0x2774
-+  __TEXT_EXEC.__text: 0xd460
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0xc8
-   __DATA.__common: 0x38
-
-   __DATA_CONST.__const: 0x758
-   __DATA_CONST.__kalloc_type: 0x2c0
-   __DATA_CONST.__kalloc_var: 0x410
--  Functions: 149
-+  Functions: 148
-   Symbols:   0
--  CStrings:  217
-+  CStrings:  216
- 
-CStrings:
-- "\"%s requires the SPTM and is mutually exclusive with %s\" @%s:%d"
-
-```
-
->  `com.apple.iokit.IODisplayPortFamily`
-
-```diff
-
--730.0.1.0.0
--  __TEXT.__cstring: 0x7c3b
-+730.40.5.0.0
-+  __TEXT.__cstring: 0x7c47
-   __TEXT.__os_log: 0x9571
-   __TEXT.__const: 0x310
--  __TEXT_EXEC.__text: 0x5cfe4
-+  __TEXT_EXEC.__text: 0x5d118
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0xc8
-   __DATA.__common: 0x550
-
-   __DATA_CONST.__got: 0x170
-   __DATA_CONST.__mod_init_func: 0x110
-   __DATA_CONST.__mod_term_func: 0x108
--  __DATA_CONST.__const: 0xf880
-+  __DATA_CONST.__const: 0xf888
-   __DATA_CONST.__kalloc_type: 0x840
-   __DATA_CONST.__kalloc_var: 0x280
-   Functions: 1961
-   Symbols:   0
--  CStrings:  1525
-+  CStrings:  1526
- 
-CStrings:
-+ "ProductName"
-
-```
-
->  `com.apple.iokit.IOSkywalkFamily`
-
-```diff
-
--508.0.3.502.1
-+508.40.2.0.0
-   __TEXT.__cstring: 0x1ade
--  __TEXT.__const: 0xd40
--  __TEXT_EXEC.__text: 0x35e10
-+  __TEXT.__const: 0xd20
-+  __TEXT_EXEC.__text: 0x35d98
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0xe8
-   __DATA.__common: 0x6b0
-
-```
-
->  `com.apple.driver.AppleMobileFileIntegrity`
-
-```diff
-
--938.0.23.0.0
--  __TEXT.__cstring: 0x9a86
-+938.0.31.0.0
-+  __TEXT.__cstring: 0x9aae
-   __TEXT.__const: 0x14b0
-   __TEXT.__os_log: 0x233
--  __TEXT_EXEC.__text: 0x25f4c
-+  __TEXT_EXEC.__text: 0x25fd4
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0x412
-   __DATA.__common: 0xb0
-   __DATA.__bss: 0x79
--  __DATA_CONST.__auth_got: 0x7b8
-+  __DATA_CONST.__auth_got: 0x7c0
-   __DATA_CONST.__got: 0x150
-   __DATA_CONST.__auth_ptr: 0x10
+   __DATA_CONST.__got: 0xd0
    __DATA_CONST.__mod_init_func: 0x18
-
-   __DATA_CONST.__const: 0x3750
-   __DATA_CONST.__kalloc_type: 0xec0
-   __DATA_CONST.__kalloc_var: 0x1310
--  Functions: 791
-+  Functions: 792
+   __DATA_CONST.__mod_term_func: 0x18
+-  __DATA_CONST.__const: 0x7788
++  __DATA_CONST.__const: 0x7790
+   __DATA_CONST.__kalloc_type: 0x680
+   __DATA_CONST.__kalloc_var: 0xe10
+-  Functions: 2165
++  Functions: 2166
    Symbols:   0
--  CStrings:  976
-+  CStrings:  977
+   CStrings:  1590
  
 CStrings:
-+ "21:18:23"
-+ "Aug  5 2024"
-+ "platform-identifier-for-current-process"
-- "21:05:03"
-- "Jul 15 2024"
-
-```
-
->  `com.apple.driver.AppleSEPCredentialManager`
-
-```diff
-
--758.0.17.0.0
--  __TEXT.__cstring: 0x10503
-+758.40.3.0.0
-+  __TEXT.__cstring: 0x10500
-   __TEXT.__const: 0x320
--  __TEXT_EXEC.__text: 0x48090
-+  __TEXT_EXEC.__text: 0x47b84
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0x2bf1
-   __DATA.__common: 0x1d8
-
-   __DATA_CONST.__const: 0x1a98
-   __DATA_CONST.__kalloc_type: 0x600
-   __DATA_CONST.__kalloc_var: 0x1400
--  Functions: 899
-+  Functions: 898
-   Symbols:   0
--  CStrings:  1810
-+  CStrings:  1808
- 
-CStrings:
-+ "%s: %s: %s: ver=%u smTm=%llu poRsn=%u gpTm=%llu smExp=%s gpBlk=%s suTm=%llu svTm=%llu gpRsn=%u cMs=%s upTm=%llu disBy=%x rpTm=%llu crTm=%llu pFlg=%x.\n"
-+ "%s: %s: EDT profile has changed - updating *current* profile: %s -> %s.\n"
-+ "%s: %s: EDT profile has changed - updating *default* profile: %s -> %s.\n"
-+ "%s: %s: caller=%s ver=%u gSw=%u GP=%u Pro=%u iPro=%u.\n"
-+ "%s: %s: enabled: %s (boot-arg=%s edt-prop=%s).\n"
-+ "%s: %s: profile: %u (default=%u %sboot-arg=%d %sedt-prop=%d).\n"
-+ "-"
-+ "121111112222122323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232311111112111111111122122222222222222221222222222222222222222222222222222222222222"
-+ "121111212211122122211122122211122122211122122211122122222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222"
-+ "?"
-+ "_queryConfigProfile"
-+ "_queryEnabledByDeviceTree"
-- "%s: %s: %s: ver=%u smTm=%llu poRsn=%u gpTm=%llu smExp=%s gpBlk=%s suTm=%llu svTm=%llu gpRsn=%u cMs=%s upTm=%llu disBy=%x rpTm=%llu.\n"
-- "%s: %s: caller=%s ver=%u gSw=%u GP=%u Pro=%u.\n"
-- "%s: %s: config profile: %u (boot-arg=%u%s edt-prop=%u%s).\n"
-- "%s: %s: enabled by device type: %s (boot-arg=%s%s edt-prop=%s%s).\n"
-- "%s: %s: isUpgrading=%s (loadedVersion=%u).\n"
-- "1211111122221223232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323111111121111111111221222222222222222212222222222222222222222222222222222222222"
-- "1211112122111221222111221222111221222111221222111221222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222"
-- "_getDefaultConfigProfile"
-- "_isUpgradingToAllPolicyModes"
-- "_loadEnabledByDeviceType"
-- "config profile"
-- "dtDefaults"
-- "enabled by device type"
-- "propData->getLength() == sizeof(uint32_t)"
-
-```
-
->  `com.apple.iokit.IOMobileGraphicsFamily-DCP`
-
-```diff
-
--395.25.0.0.0
-+395.33.0.0.0
-   __TEXT.__cstring: 0x3ef5
--  __TEXT.__const: 0x2148
--  __TEXT_EXEC.__text: 0x1f8fc
-+  __TEXT.__const: 0x2f68
-+  __TEXT_EXEC.__text: 0x1fe34
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0xe0
-   __DATA.__common: 0x26d0
-
-   __DATA_CONST.__auth_ptr: 0x8
-   __DATA_CONST.__mod_init_func: 0x20
-   __DATA_CONST.__mod_term_func: 0x20
--  __DATA_CONST.__const: 0x1628
-+  __DATA_CONST.__const: 0x1638
-   __DATA_CONST.__kalloc_type: 0x7c0
--  Functions: 690
-+  Functions: 692
-   Symbols:   0
-   CStrings:  364
- 
-CStrings:
-+ "site.A439_out_args__"
-+ "site.A440_in_args__"
-- "site.A436_in_args__"
-- "site.A437_out_args__"
-
-```
-
->  `com.apple.iokit.IOThunderboltFamily`
-
-```diff
-
--6769.0.4.0.0
-+6769.40.2.0.0
-   __TEXT.__cstring: 0x331d4
-   __TEXT.__os_log: 0x2dd91
-   __TEXT.__const: 0x7f0
--  __TEXT_EXEC.__text: 0x18ef54
-+  __TEXT_EXEC.__text: 0x18effc
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0xb1a
-   __DATA.__common: 0x1238
-CStrings:
-+ "21:47:09"
-+ "Aug  5 2024"
-- "21:04:18"
-- "Jul 15 2024"
-
-```
-
->  `com.apple.iokit.IOUSBHostFamily`
-
-```diff
-
--1402.0.7.0.0
-+1402.40.1.0.0
-   __TEXT.__cstring: 0x9afc
-   __TEXT.__os_log: 0x81a1
-   __TEXT.__const: 0xa90
--  __TEXT_EXEC.__text: 0x99214
-+  __TEXT_EXEC.__text: 0x99220
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0x310
-   __DATA.__common: 0x930
-
-```
-
->  `com.apple.security.sandbox`
-
-```diff
-
--2401.0.56.0.0
--  __TEXT.__const: 0x18cae9
--  __TEXT.__cstring: 0x6ec0
-+2401.40.6.0.1
-+  __TEXT.__const: 0x1894c9
-+  __TEXT.__cstring: 0x6efc
-   __TEXT.__os_log: 0x2029
--  __TEXT_EXEC.__text: 0x30438
-+  __TEXT_EXEC.__text: 0x30494
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0x1e0
-   __DATA.__bss: 0x144c8
--  __DATA_CONST.__auth_got: 0x830
-+  __DATA_CONST.__auth_got: 0x838
-   __DATA_CONST.__got: 0xc8
--  __DATA_CONST.__const: 0x3640
-+  __DATA_CONST.__const: 0x3650
-   __DATA_CONST.__kalloc_var: 0x550
-   __DATA_CONST.__kalloc_type: 0xa80
--  Functions: 647
-+  Functions: 648
-   Symbols:   0
--  CStrings:  1294
-+  CStrings:  1296
- 
-CStrings:
-+ "\"invalid hex digit: %c\" @%s:%d"
-+ "/private/var/db/darwindaemon"
-
-```
-
->  `com.apple.driver.AppleFirmwareKit`
-
-```diff
-
--531.0.11.0.0
--  __TEXT.__cstring: 0x404f
-+531.40.2.0.0
-+  __TEXT.__cstring: 0x40af
-   __TEXT.__os_log: 0x1148
-   __TEXT.__const: 0xa8
--  __TEXT_EXEC.__text: 0x3ae8c
-+  __TEXT_EXEC.__text: 0x3af54
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0x3f8
-   __DATA.__common: 0x700
-
-   __DATA_CONST.__auth_ptr: 0x10
-   __DATA_CONST.__mod_init_func: 0xf0
-   __DATA_CONST.__mod_term_func: 0xf0
--  __DATA_CONST.__const: 0xd348
-+  __DATA_CONST.__const: 0xd378
-   __DATA_CONST.__kalloc_type: 0x1880
-   __DATA_CONST.__kalloc_var: 0x50
--  Functions: 1931
-+  Functions: 1932
-   Symbols:   0
--  CStrings:  652
-+  CStrings:  653
- 
-CStrings:
-+ "\"0 == ret || (((signed)((((unsigned)(0x38))&0x3f)<<26))|(((0)&0xfff)<<14)|0x2d7) == ret\" @%s:%d"
++ "\"map %d (%s) offset 0x%x (%s) val 0x%x & mask 0x%x != 0x%x (expected) after %d ticks die %u\\n\" @%s:%d"
+- "\"ApplePMGR: %s:%u \" \"map %d (%s) 0x%x & 0x%x is 0x%x vs. 0x%x after %d ticks die %u\\n\" @%s:%d"
 
 ```
 
@@ -1409,104 +1973,61 @@ CStrings:
 
 ```
 
->  `com.apple.filesystems.apfs`
+>  `com.apple.driver.AppleT8110DART`
 
 ```diff
 
--2311.0.0.0.3
-+2313.40.1.0.1
-   __TEXT.__const: 0x790
--  __TEXT.__cstring: 0x480ee
--  __TEXT_EXEC.__text: 0x139894
-+  __TEXT.__cstring: 0x484c7
-+  __TEXT_EXEC.__text: 0x139d48
+-452.0.4.0.0
++452.0.6.0.0
+   __TEXT.__const: 0x60
+-  __TEXT.__cstring: 0x27b4
+-  __TEXT_EXEC.__text: 0xd4a8
++  __TEXT.__cstring: 0x2774
++  __TEXT_EXEC.__text: 0xd460
    __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0x690
-   __DATA.__bss: 0xc60
--  __DATA_CONST.__auth_got: 0x1050
--  __DATA_CONST.__got: 0x1a8
-+  __DATA_CONST.__auth_got: 0x10c0
-+  __DATA_CONST.__got: 0x1b0
-   __DATA_CONST.__auth_ptr: 0x8
-   __DATA_CONST.__mod_init_func: 0x10
-   __DATA_CONST.__mod_term_func: 0x10
--  __DATA_CONST.__const: 0x6058
-+  __DATA_CONST.__const: 0x6090
-   __DATA_CONST.__kalloc_type: 0x4c80
--  __DATA_CONST.__kalloc_var: 0x2800
--  Functions: 2265
-+  __DATA_CONST.__kalloc_var: 0x2a30
-+  Functions: 2276
+   __DATA.__data: 0xc8
+   __DATA.__common: 0x38
+
+   __DATA_CONST.__const: 0x758
+   __DATA_CONST.__kalloc_type: 0x2c0
+   __DATA_CONST.__kalloc_var: 0x410
+-  Functions: 149
++  Functions: 148
    Symbols:   0
--  CStrings:  6263
-+  CStrings:  6282
+-  CStrings:  217
++  CStrings:  216
  
 CStrings:
-+ "\"can't have a negative refcnt on crypto state %llu refcnt %d\\n\" @%s:%d"
-+ "\"stream-id is zero\\n\" @%s:%d"
-+ "\"unlocking dir_stats_id %llu, which is not locked\\n\" @%s:%d"
-+ "\"unlocking stream_id %llu, which is not locked\\n\" @%s:%d"
-+ "%s:%d: %s Can't get extra usecount on graft dir vnode: %d\n"
-+ "%s:%d: %s Graft dir %llu not found in jhash\n"
-+ "%s:%d: %s VNODE_CREATE_EMPTY_CALL returned %d for %s\n"
-+ "%s:%d: %s apfs_check_and_alloc_alt_name returned %d for %s\n"
-+ "%s:%d: %s apfs_lookup_name_with_alt_name returned %d for %s\n"
-+ "%s:%d: %s dir %s got deleted behind our feet\n"
-+ "%s:%d: %s dstream id %llu had refcount == 0\n"
-+ "%s:%d: %s dstream id %llu refcnt %u (delta: %d) would overflow\n"
-+ "%s:%d: %s failed to decrement refcnt from cloned dstream id %llu, err: %d\n"
-+ "%s:%d: %s failed to get graft infos: error %d\n"
-+ "%s:%d: %s failed to increment refcnt on dstream id %llu, err: %d\n"
-+ "%s:%d: %s failed to lock graft host vp, error %d\n"
-+ "%s:%d: %s failed to restore refcnt on cloned dstream id %llu, err: %d\n"
-+ "%s:%d: %s failed to restore refcnt on dstream id %llu, err: %d\n"
-+ "%s:%d: %s failed to update snap_meta. err: %d (%s), new extentref_tree_oid: %lld, snap_meta oid:%llu, snap xid:%llu, snap name:%s\n"
-+ "%s:%d: %s fs_obj_create_do returned %d for %s\n"
-+ "%s:%d: %s fs_obj_create_prepare_and_lock returned %d for %s\n"
-+ "%s:%d: %s fs_tx_enter for %s failed with %d\n"
-+ "%s:%d: %s gi_count %d <= gi_index %d\n"
-+ "%s:%d: %s graft jobj_id range %llu+%llu overlaps existing graft range %llu+%llu, graft_dir_id %llu\n"
-+ "%s:%d: %s ino %llu is mapped writable, report no holes\n"
-+ "%s:%d: %s proposed crypto id %llu already in use, making a new one\n"
-+ "%s:%d: %s setup_prot_class returned %d for %s\n"
-+ "%s:%d: %s tried to increment refcount of a dead dstream id %llu\n"
-+ "%s:%d: %s trying to restore refcnt on dstream id %llu\n"
-+ "112122211111112222222222111122222222211122222111122112221111221122211112211222111122112221111221121221221222221111111222221112221111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111122122222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222221111121121112222222111112121222222222222222222222222221222212222222222212211111111111122112212222221122221212222222222222212222222222222112122222221"
-+ "2024/08/05"
-+ "212122222118"
-+ "21:19:50"
-+ "2313.40.1.0.1"
-+ "Aug  5 2024"
-+ "apfs-2313.40.1.0.1"
-+ "apfs_find_graft_state_by_graft_private_id"
-+ "apfs_graft_get_graft_infos"
-+ "apfs_graft_lock_host_vp"
-+ "grafting"
-+ "site.id_locker_t"
-+ "ungrafting"
-- "\"%s:%d R/W lock %p must be held in exclusive mode\\n\" @%s:%d"
-- "\"Holding graft lock, but didn't expect to!\" @%s:%d"
-- "\"Unable to get graft lock status: %d\" @%s:%d"
-- "\"Unable to set graft lock status: %d\" @%s:%d"
-- "\"Want graft lock exclusive, but already holding it!\" @%s:%d"
-- "\"can't have a negative refcnt on crypto state 0x%llx refcnt %d\\n\" @%s:%d"
-- "\"refcnt overflowed on dstream id 0x%llx refcnt %d (delta: %d)\\n\" @%s:%d"
-- "%s:%d: %s Graft jobj_id range %llu+%llu overlaps existing graft range %llu+%llu, graft_dir_id %llu\n"
-- "%s:%d: %s No parent directory available to un-graft\n"
-- "%s:%d: %s failed to get iocount for graft vp: error %d\n"
-- "%s:%d: %s failed to update snapshot meta! error %d (snap_extents oid %lld)\n"
-- "%s:%d: %s restoring refcnt on dstream_id %lld\n"
-- "/Library/Caches/com.apple.xbs/Sources/apfs/kext/apfs_rangelist.c"
-- "112122211111112222222222111122222222211122222111122112221111221122211112211222111122112221111221121221221222221111111222221112221111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111122122222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222221111121121112222222111112121222222222222222222222222221222212222222222212211111111111122112212222221122221212222222222222211222222222222112122222221"
-- "12122222211"
-- "2024/07/15"
-- "21:06:37"
-- "2311.0.0.0.3"
-- "Jul 15 2024"
-- "apfs-2311.0.0.0.3"
-- "apfs_get_graft_state_by_graft_private_id"
-- "decrement_dstream_id_refcnt"
-- "wait_ungraft"
+- "\"%s requires the SPTM and is mutually exclusive with %s\" @%s:%d"
+
+```
+
+>  `com.apple.driver.AppleAuthCP`
+
+```diff
+
+-157.0.0.502.1
++159.0.0.0.0
+   __TEXT.__const: 0x4c
+   __TEXT.__cstring: 0x2877
+   __TEXT.__os_log: 0x12c7
+-  __TEXT_EXEC.__text: 0x18a1c
++  __TEXT_EXEC.__text: 0x18cec
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0x188
+   __DATA.__common: 0x218
+
+   __DATA_CONST.__auth_ptr: 0x18
+   __DATA_CONST.__mod_init_func: 0x48
+   __DATA_CONST.__mod_term_func: 0x48
+-  __DATA_CONST.__const: 0x5840
++  __DATA_CONST.__const: 0x5860
+   __DATA_CONST.__kalloc_type: 0x6c0
+-  Functions: 471
++  Functions: 472
+   Symbols:   0
+   CStrings:  407
+ 
 
 ```
 
@@ -1552,112 +2073,24 @@ CStrings:
 
 ```
 
->  `com.apple.driver.ApplePPMCPMS`
+>  `com.apple.driver.RTBuddy`
 
 ```diff
 
--931.0.7.0.1
-+931.40.1.0.0
-   __TEXT.__const: 0xe80
-   __TEXT.__cstring: 0xd087
--  __TEXT.__os_log: 0x1fad
--  __TEXT_EXEC.__text: 0x45fe0
-+  __TEXT.__os_log: 0x2005
-+  __TEXT_EXEC.__text: 0x460d0
+-618.0.4.0.0
++618.40.1.0.0
+   __TEXT.__cstring: 0x947e
+   __TEXT.__const: 0x278
+-  __TEXT_EXEC.__text: 0x3f918
++  __TEXT_EXEC.__text: 0x3f970
    __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0x156
-   __DATA.__common: 0x4a8
-
-   __DATA_CONST.__kalloc_type: 0x900
-   Functions: 1651
-   Symbols:   0
--  CStrings:  1368
-+  CStrings:  1369
- 
+   __DATA.__data: 0x128
+   __DATA.__common: 0xb20
 CStrings:
-+ "%s::%s:Invalid Data: Voltage should be > 0\n"
-
-```
-
->  `com.apple.driver.ApplePTD`
-
-```diff
-
--21.0.0.0.0
--  __TEXT.__cstring: 0x1a2e
-+22.0.0.0.0
-+  __TEXT.__cstring: 0x1a77
-   __TEXT.__const: 0x20
--  __TEXT_EXEC.__text: 0x9074
-+  __TEXT_EXEC.__text: 0x9254
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0xc4
-   __DATA.__common: 0xf0
-
-   __DATA_CONST.__mod_term_func: 0x18
-   __DATA_CONST.__const: 0xf68
-   __DATA_CONST.__kalloc_type: 0x100
--  __DATA_CONST.__kalloc_var: 0x190
-+  __DATA_CONST.__kalloc_var: 0x1e0
-   Functions: 225
-   Symbols:   0
--  CStrings:  192
-+  CStrings:  196
- 
-CStrings:
-+ "%s: cannot alloc array\n"
-+ "%s: cannot alloc register lock\n"
-+ "1"
-+ "1211111212221212111111111111122222222111112112"
-+ "site.IOLock *"
-- "121111121222121211111111111112222222211111212"
-
-```
-
->  `com.apple.driver.AppleAVD`
-
-```diff
-
--796.1.0.0.0
-+798.1.0.0.0
-   __TEXT.__const: 0x86e6e
--  __TEXT.__cstring: 0x5156
--  __TEXT.__os_log: 0x11944
--  __TEXT_EXEC.__text: 0x41274
-+  __TEXT.__cstring: 0x515e
-+  __TEXT.__os_log: 0x11ed0
-+  __TEXT_EXEC.__text: 0x417b8
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0x12dc
-   __DATA.__common: 0x78
-   __DATA.__bss: 0x14
--  __DATA_CONST.__auth_got: 0x388
--  __DATA_CONST.__got: 0xd8
-+  __DATA_CONST.__auth_got: 0x380
-+  __DATA_CONST.__got: 0xd0
-   __DATA_CONST.__auth_ptr: 0x8
-   __DATA_CONST.__mod_init_func: 0x10
-   __DATA_CONST.__mod_term_func: 0x10
-
-   __DATA_CONST.__kalloc_type: 0x2400
-   Functions: 1339
-   Symbols:   0
--  CStrings:  1420
-+  CStrings:  1422
- 
-CStrings:
-+ "121111121222121211111111111111111111111122222222222222222222222222222222222222222222222222211221221222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222221212122122222222222222222221221222222222222222222222212222211212212222222222222222222221111211211211222222222222212212212222222222222222222222222222222222222222222222222222222222222222222221221221222222222222222222222222222222222222222222222222221111"
-+ "AppleAVD: %s(): Invoking destroyDecoder for client %4d.%d"
-+ "AppleAVD: %s(): illegal LK usage: %x"
-+ "AppleAVD: ERROR: %s(): No numWorks specified! initVPIdx = %d, mult_vp_cnt = %u\n"
-+ "AppleAVD: ERROR: %s(): Unsupported numWorks = %u > %u\n"
-+ "AppleAVD: ERROR: %s(): numWorks[%u] (%u) exceeds maximum number of work units per VP (%u)\n"
-+ "withTask"
-- "1211111212221212111111111111111111111111222222222222222222222222222222222222222222222222222112212212222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222212121221222222222222222222212212222222222222222222222122222112122122222222222222222222211112112112112212222222222212212212222222222222222222222222222222222222222222222222222222222222222222221221221222222222222222222222222222222222222222222222222221111"
-- "AppleAVD: %s reached max try count for client %d"
-- "AppleAVD: %s(): ERROR! FrameNum (%d) < 0"
-- "AppleAVD: ERROR: %s(): No numWorks specified"
-- "AppleAVD: Invoking destroyDecoder. %s reached try count %d for client %4d.%d"
++ "21:24:47"
++ "Aug  5 2024"
+- "21:14:08"
+- "Jul 15 2024"
 
 ```
 
@@ -1700,531 +2133,98 @@ CStrings:
 
 ```
 
->  `com.apple.iokit.IOMIPIFamily`
+>  `com.apple.driver.AppleHPM`
 
 ```diff
 
--160.0.1.0.0
-+160.40.1.0.0
-   __TEXT.__const: 0x20
--  __TEXT.__cstring: 0x1f5
-+  __TEXT.__cstring: 0x1f7
-   __TEXT_EXEC.__text: 0x1148
+-570.0.3.0.0
+-  __TEXT.__cstring: 0x1b5eb
++570.40.2.0.0
++  __TEXT.__cstring: 0x1b600
+   __TEXT.__const: 0xc0
+   __TEXT.__os_log: 0x1e8
+-  __TEXT_EXEC.__text: 0x5cef8
++  __TEXT_EXEC.__text: 0x5d3f4
    __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0xc8
+   __DATA.__data: 0x6d0
+   __DATA.__common: 0x518
 
-   __DATA_CONST.__got: 0x40
-   __DATA_CONST.__mod_init_func: 0x10
-   __DATA_CONST.__mod_term_func: 0x10
--  __DATA_CONST.__const: 0xc70
-+  __DATA_CONST.__const: 0xc78
-   __DATA_CONST.__kalloc_type: 0x80
-   Functions: 58
+   __DATA_CONST.__mod_term_func: 0xf8
+   __DATA_CONST.__const: 0x11290
+   __DATA_CONST.__kalloc_type: 0xb00
+-  Functions: 1399
++  Functions: 1403
    Symbols:   0
-CStrings:
-+ "12111112122212121122222112212211112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121222"
-- "121111121222121211222221122211112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121222"
-
-```
-
->  `com.apple.iokit.IOPCIFamily`
-
-```diff
-
--664.0.2.0.0
-+664.40.2.0.0
-   __TEXT.__const: 0x710
--  __TEXT.__cstring: 0x52ca
--  __TEXT_EXEC.__text: 0x2e23c
-+  __TEXT.__cstring: 0x52ff
-+  __TEXT_EXEC.__text: 0x2e410
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0xcc
-   __DATA.__common: 0x218
-
-   __DATA_CONST.__const: 0x3d00
-   __DATA_CONST.__kalloc_type: 0x600
-   __DATA_CONST.__kalloc_var: 0x190
--  Functions: 684
-+  Functions: 685
-   Symbols:   0
--  CStrings:  656
-+  CStrings:  658
+-  CStrings:  1562
++  CStrings:  1564
  
 CStrings:
-+ "21:17:37"
-+ "Aug  5 2024"
-+ "[%s()] nub %s at %u:%u:%u has L1 errata\n"
-+ "hasL1Errata"
-- "21:04:39"
-- "Jul 15 2024"
++ "1211111212221212111121121222221211211111112"
++ "Boot Flags"
++ "FW Version"
+- "12111112122212121111211212222212112111111122"
 
 ```
 
->  `com.apple.driver.AppleDisplayCrossbar`
+>  `com.apple.driver.AppleSEPManager`
 
 ```diff
 
--355.0.0.0.0
-+355.40.3.0.0
-   __TEXT.__cstring: 0x4413
-   __TEXT.__const: 0x160
-   __TEXT.__os_log: 0x5d14
--  __TEXT_EXEC.__text: 0x32084
-+  __TEXT_EXEC.__text: 0x32128
+-841.0.0.0.0
+-  __TEXT.__cstring: 0xfaf3
++842.0.0.0.0
++  __TEXT.__cstring: 0xff2b
+   __TEXT.__const: 0x7094
+-  __TEXT_EXEC.__text: 0x4692c
++  __TEXT_EXEC.__text: 0x47238
    __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0xc4
-   __DATA.__common: 0x3d0
+   __DATA.__data: 0x168
+   __DATA.__common: 0xc48
 
+   __DATA_CONST.__auth_ptr: 0x18
+   __DATA_CONST.__mod_init_func: 0xc0
    __DATA_CONST.__mod_term_func: 0xc0
-   __DATA_CONST.__const: 0xd1e0
-   __DATA_CONST.__kalloc_type: 0x600
--  Functions: 1475
-+  Functions: 1474
+-  __DATA_CONST.__const: 0x9708
+-  __DATA_CONST.__kalloc_type: 0xdc0
++  __DATA_CONST.__const: 0x9728
++  __DATA_CONST.__kalloc_type: 0xe00
+   __DATA_CONST.__kalloc_var: 0x50
+-  Functions: 2319
++  Functions: 2341
    Symbols:   0
-   CStrings:  707
- 
-
-```
-
->  `com.apple.driver.ApplePhotonDetector`
-
-```diff
-
--9.6.1.0.0
-+9.7.0.0.0
-   __TEXT.__cstring: 0x1d7
-   __TEXT.__os_log: 0x56e
--  __TEXT_EXEC.__text: 0x27c8
-+  __TEXT_EXEC.__text: 0x27d0
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0xc8
-   __DATA.__common: 0x60
-
-```
-
->  `com.apple.driver.AppleSARService`
-
-```diff
-
--1175.0.0.0.0
-+1180.0.0.0.0
-   __TEXT.__const: 0x750
-   __TEXT.__cstring: 0x9b40
-   __TEXT.__os_log: 0xb8af
-   __TEXT.__ustring: 0x8
--  __TEXT_EXEC.__text: 0x53e78
-+  __TEXT_EXEC.__text: 0x53e80
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0xd8
-   __DATA.__common: 0x5f0
-
-```
-
->  `com.apple.iokit.IOHIDFamily`
-
-```diff
-
--2102.0.1.0.0
-+2102.40.2.0.0
-   __TEXT.__cstring: 0x24b3
-   __TEXT.__const: 0x6c8
-   __TEXT.__os_log: 0x2a2f
--  __TEXT_EXEC.__text: 0x629a0
-+  __TEXT_EXEC.__text: 0x629ac
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0xbcc
-   __DATA.__common: 0x748
-
-```
-
->  `com.apple.driver.ApplePMGR`
-
-```diff
-
--1555.0.22.0.0
-+1555.40.5.0.0
-   __TEXT.__const: 0x248
--  __TEXT.__cstring: 0xe8ef
--  __TEXT_EXEC.__text: 0x5299c
-+  __TEXT.__cstring: 0xe8f7
-+  __TEXT_EXEC.__text: 0x52a94
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0x100
-   __DATA.__common: 0x420
-
-   __DATA_CONST.__got: 0xd0
-   __DATA_CONST.__mod_init_func: 0x18
-   __DATA_CONST.__mod_term_func: 0x18
--  __DATA_CONST.__const: 0x7788
-+  __DATA_CONST.__const: 0x7790
-   __DATA_CONST.__kalloc_type: 0x680
-   __DATA_CONST.__kalloc_var: 0xe10
--  Functions: 2165
-+  Functions: 2166
-   Symbols:   0
-   CStrings:  1590
+-  CStrings:  1368
++  CStrings:  1393
  
 CStrings:
-+ "\"map %d (%s) offset 0x%x (%s) val 0x%x & mask 0x%x != 0x%x (expected) after %d ticks die %u\\n\" @%s:%d"
-- "\"ApplePMGR: %s:%u \" \"map %d (%s) 0x%x & 0x%x is 0x%x vs. 0x%x after %d ticks die %u\\n\" @%s:%d"
-
-```
-
->  `com.apple.driver.ApplePMP`
-
-```diff
-
--1173.0.29.0.0
-+1173.40.12.0.0
-   __TEXT.__const: 0x3c
--  __TEXT.__cstring: 0x14f0
--  __TEXT_EXEC.__text: 0xd7e4
-+  __TEXT.__cstring: 0x1484
-+  __TEXT_EXEC.__text: 0xd9b8
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0xc8
-   __DATA.__common: 0x178
-   __DATA.__bss: 0x208
--  __DATA_CONST.__auth_got: 0x218
-+  __DATA_CONST.__auth_got: 0x220
-   __DATA_CONST.__got: 0xe8
-   __DATA_CONST.__mod_init_func: 0x38
-   __DATA_CONST.__mod_term_func: 0x38
-   __DATA_CONST.__const: 0x3330
-   __DATA_CONST.__kalloc_type: 0x240
-   __DATA_CONST.__kalloc_var: 0x140
--  Functions: 394
-+  Functions: 395
-   Symbols:   0
--  CStrings:  154
-+  CStrings:  152
- 
-CStrings:
-+ "*watchdog.timer"
-+ "12111112122212121211211121121221112111111212121212122111121111111211"
-+ "void ApplePMP::_createWatchdogTimers()"
-- "1211111212221212121121112112122111211111121212121212211112111111121"
-- "IOReturn ApplePMP::_setDVFSStates(UInt64, UInt64, UInt64, UInt64, UInt64)"
-- "IOTimerEventSource *ApplePMP::_createDVFSWatchdogTimer()"
-- "_setDVFSStateWatchdogTimer"
-- "timer"
-
-```
-
->  `com.apple.driver.AppleOLYHAL`
-
-```diff
-
--337.0.0.0.0
-+338.0.0.0.0
-   __TEXT.__const: 0x7a8
-   __TEXT.__cstring: 0x473a
--  __TEXT_EXEC.__text: 0x1ca58
-+  __TEXT_EXEC.__text: 0x1cbc4
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0x18c
-   __DATA.__common: 0x170
-
-   __DATA_CONST.__got: 0xe8
-   __DATA_CONST.__mod_init_func: 0x38
-   __DATA_CONST.__mod_term_func: 0x38
--  __DATA_CONST.__const: 0x1378
-+  __DATA_CONST.__const: 0x13b8
-   __DATA_CONST.__kalloc_type: 0x640
--  Functions: 549
-+  Functions: 552
-   Symbols:   0
-   CStrings:  498
- 
-
-```
-
->  `com.apple.driver.AppleStockholmControl`
-
-```diff
-
--350.30.0.0.0
-+351.1.0.0.0
-   __TEXT.__cstring: 0x46f8
-   __TEXT.__const: 0x30
--  __TEXT_EXEC.__text: 0x14f0c
-+  __TEXT_EXEC.__text: 0x14f40
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0x219
-   __DATA.__common: 0x1a6
-
-```
-
->  `com.apple.driver.DCPDPFamilyProxy`
-
-```diff
-
--200.0.10.0.0
-+200.40.4.0.0
-   __TEXT.__const: 0x90
--  __TEXT.__cstring: 0x410
--  __TEXT.__os_log: 0x232
--  __TEXT_EXEC.__text: 0x4610
-+  __TEXT.__cstring: 0x3b8
-+  __TEXT.__os_log: 0x118
-+  __TEXT_EXEC.__text: 0x401c
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0xc8
-   __DATA.__common: 0x100
-
-   __DATA_CONST.__got: 0x80
-   __DATA_CONST.__mod_init_func: 0x30
-   __DATA_CONST.__mod_term_func: 0x30
--  __DATA_CONST.__const: 0x28c0
-+  __DATA_CONST.__const: 0x28d8
-   __DATA_CONST.__kalloc_type: 0x180
-   Functions: 193
-   Symbols:   0
--  CStrings:  35
-+  CStrings:  32
- 
-CStrings:
-+ "121111121222121211222221122122111121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212221"
-- "\"%s\", waitForFunction=%d, param1=%p, param2=%p param3=%p, param4=%p\n"
-- "1211111212221212112222211222111121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212112121121211212221"
-- "IOAV[%d] %s<0x%llx>::%s: \"%s\", waitForFunction=%d, param1=%p, param2=%p param3=%p, param4=%p\n"
-- "callPlatformFunction"
-
-```
-
->  `com.apple.driver.RTBuddy`
-
-```diff
-
--618.0.4.0.0
-+618.40.1.0.0
-   __TEXT.__cstring: 0x947e
-   __TEXT.__const: 0x278
--  __TEXT_EXEC.__text: 0x3f918
-+  __TEXT_EXEC.__text: 0x3f970
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0x128
-   __DATA.__common: 0xb20
-CStrings:
-+ "21:24:47"
-+ "Aug  5 2024"
-- "21:14:08"
-- "Jul 15 2024"
-
-```
-
->  `com.apple.driver.usb.AppleUSBXHCI`
-
-```diff
-
--1402.0.7.0.0
-+1402.40.1.0.0
-   __TEXT.__const: 0xb4
--  __TEXT.__cstring: 0x5dda
-+  __TEXT.__cstring: 0x5de7
-   __TEXT.__os_log: 0x5da8
--  __TEXT_EXEC.__text: 0x57848
-+  __TEXT_EXEC.__text: 0x5789c
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0xc8
-   __DATA.__common: 0x428
-
-   __DATA_CONST.__const: 0x5e10
-   __DATA_CONST.__kalloc_type: 0x8c0
-   __DATA_CONST.__kalloc_var: 0xa0
--  Functions: 900
-+  Functions: 899
-   Symbols:   0
-   CStrings:  908
- 
-CStrings:
-+ "hardwareExceptionThreadCall_block_invoke"
-- "didTerminateThreadCallGated"
-
-```
-
->  `com.apple.iokit.AppleARMIISAudio`
-
-```diff
-
--400.20.0.0.0
-+400.22.0.0.0
-   __TEXT.__os_log: 0x2778
--  __TEXT.__cstring: 0x2dc9
-+  __TEXT.__cstring: 0x2da3
-   __TEXT.__const: 0xa8
--  __TEXT_EXEC.__text: 0x15688
-+  __TEXT_EXEC.__text: 0x15648
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0x188
-   __DATA.__common: 0x60
--  __DATA_CONST.__auth_got: 0x2a8
-+  __DATA_CONST.__auth_got: 0x2a0
-   __DATA_CONST.__got: 0x88
-   __DATA_CONST.__auth_ptr: 0x8
-   __DATA_CONST.__mod_init_func: 0x10
-
-   __DATA_CONST.__kalloc_var: 0x1e0
-   Functions: 217
-   Symbols:   0
--  CStrings:  382
-+  CStrings:  381
- 
-CStrings:
-- "IISAudio:: Zero-out buffer %p [%llu]\n"
-
-```
-
->  `com.apple.driver.AppleARMPlatform`
-
-```diff
-
--1066.0.0.0.0
--  __TEXT.__const: 0x16f8
-+1066.40.2.0.0
-+  __TEXT.__const: 0x1708
-   __TEXT.__os_log: 0x13fe
-   __TEXT.__cstring: 0xcadd
--  __TEXT_EXEC.__text: 0x52a4c
-+  __TEXT_EXEC.__text: 0x52a84
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0x6c8
-   __DATA.__common: 0xca0
-
-```
-
->  `com.apple.driver.AppleM2ScalerCSCDriver`
-
-```diff
-
--148.0.50.0.0
--  __TEXT.__cstring: 0x165e9
--  __TEXT.__const: 0x4ecb8
--  __TEXT_EXEC.__text: 0xd6130
-+148.0.53.0.0
-+  __TEXT.__cstring: 0x1673a
-+  __TEXT.__const: 0x4ecc8
-+  __TEXT_EXEC.__text: 0xd5ff8
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0x1fe40
-   __DATA.__common: 0x20a8
-
-   __DATA_CONST.__const: 0x210b8
-   __DATA_CONST.__kalloc_type: 0x3c40
-   __DATA_CONST.__kalloc_var: 0x500
--  Functions: 6008
-+  Functions: 6012
-   Symbols:   0
--  CStrings:  2384
-+  CStrings:  2392
- 
-CStrings:
-+ "1222222222212111111112111111111111111111122122112212"
-+ "1222222222212111111112111111111111111111122122112212112222222"
-+ "12222222222121111111121111111111111111111221221122121122222221111111221111111111111111111122222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222000020000000"
-+ "Awake"
-+ "SleepAcked"
-+ "SleepRequested"
-+ "[IOSA][Boot ] Req 0x%x Resumption on MSR%d\n"
-+ "[IOSA][Boot ] Req 0x%x Waiting for MSR%d wake\n"
-+ "[IOSA][Boot ] [MSR%u] SleepState transition from %s to %s\n"
-+ "[IOSA][Boot ] kConfigKeyIsShippedDevice=%d\n"
-+ "activateForMapping_gated"
-+ "commandSleep failed with %d\n"
-+ "powerRefCount cannot be zero with kSPSSleepAcked. [MSR%d] partition %d newState %d oldState %d refCount %d"
-- "     req %d prio %d ctx_sw_cnt %d\n"
-- "122222222221211111111211111111111111111112212211221"
-- "122222222221211111111211111111111111111112212211221112222222"
-- "12222222222121111111121111111111111111111221221122111222222211111112211111111111111111111222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222220000020000000"
-- "canContextSwitch"
-
-```
-
->  `com.apple.plugin.IOgPTPPlugin`
-
-```diff
-
--1300.50.1.0.0
--  __TEXT.__cstring: 0x6179
--  __TEXT.__os_log: 0x1a4a8
-+1300.51.0.0.0
-+  __TEXT.__cstring: 0x6162
-+  __TEXT.__os_log: 0x1a477
-   __TEXT.__const: 0x278
--  __TEXT_EXEC.__text: 0x70acc
-+  __TEXT_EXEC.__text: 0x70a60
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0xc8
-   __DATA.__common: 0x5d8
-
-   __DATA_CONST.__kalloc_var: 0x280
-   Functions: 1416
-   Symbols:   0
--  CStrings:  1426
-+  CStrings:  1424
- 
-CStrings:
-- "  %s(%s): %s Failed to transmit timesync packet\n"
-- "transmitTimeSyncPacket"
-
-```
-
->  `com.apple.driver.AppleDiskImages2`
-
-```diff
-
--379.0.2.0.0
--  __TEXT.__cstring: 0x2004
-+379.0.11.0.0
-+  __TEXT.__cstring: 0x2005
-   __TEXT.__os_log: 0x11a2
-   __TEXT.__const: 0x10
-   __TEXT_EXEC.__text: 0xd3e8
-CStrings:
-+ "379.0.11"
-- "379.0.2"
-
-```
-
->  `com.apple.driver.AppleJPEGDriver`
-
-```diff
-
--7.1.4.0.0
--  __TEXT.__os_log: 0xc20c
--  __TEXT.__cstring: 0x3545
-+7.1.5.0.0
-+  __TEXT.__os_log: 0xc678
-+  __TEXT.__cstring: 0x3556
-   __TEXT.__const: 0x4534
--  __TEXT_EXEC.__text: 0x343bc
-+  __TEXT_EXEC.__text: 0x3470c
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0x8b08
-   __DATA.__common: 0x2b8
-   __DATA.__bss: 0x1
--  __DATA_CONST.__auth_got: 0x348
-+  __DATA_CONST.__auth_got: 0x350
-   __DATA_CONST.__got: 0x98
-   __DATA_CONST.__mod_init_func: 0x88
-   __DATA_CONST.__mod_term_func: 0x88
-   __DATA_CONST.__const: 0x2610
--  __DATA_CONST.__kalloc_type: 0xa40
-+  __DATA_CONST.__kalloc_type: 0xb80
-   Functions: 1165
-   Symbols:   0
--  CStrings:  518
-+  CStrings:  525
- 
-CStrings:
-+ "AppleJPEGDriver: %s : codec=%d, Compressed jpeg size %d > output buffer size %d, input [%dw x% dh], encoding quality setting %u\n"
-+ "AppleJPEGDriver: %s(): TIMEOUT %dms"
-+ "AppleJPEGDriver: %s(): unknown %dms - status: 0x%x"
-+ "AppleJPEGDriver: %s, ERROR: failed to wait request successfully return 0x%x !\n"
-+ "AppleJPEGDriver: ** %s : failed, returns %x\n"
-+ "AppleJPEGDriver: ** %s : failed, returns %x\n\n"
-+ "sleepCommandGate"
++ "\"Number of xART disable log entries unexpected too small at %lu\" @%s:%d"
++ "\"xART shutdown failed: 0x%lx, acks %s\" @%s:%d"
++ "%c%c%c%c:%c"
++ "%s: %c%c%c%c acknowledges xART disable\n"
++ "%s: %c%c%c%c registered for xART disable\n"
++ "%s: Unexpected duplicate xART disable register for %c%c%c%c\n"
++ "%s: Unexpected xART disable ack from unregistered %c%c%c%c\n"
++ "%s: Unexpected xART duplicate disable ack from %c%c%c%c\n"
++ "%s: xART disable begin\n"
++ "/Library/Caches/com.apple.xbs/Sources/AppleSEPManager/xART/DisableLog.cpp"
++ "12111211111121111111222121121"
++ "DisableLog.cpp"
++ "_disable_log != nullptr"
++ "_num_entries <= sizeof(_entries) / sizeof(_entries[0])"
++ "buf != nullptr"
++ "kIOReturnSuccess == getCommandGate()->runActionBlock(^IOReturn { REQUIRE(_disable_log != nullptr); _disable_log->format_acks(buf, len); return kIOReturnSuccess; })"
++ "len != 0"
++ "len >= ACK_ENTRY_LEN"
++ "len >= get_max_ack_len()"
++ "nullptr != in_msg_p"
++ "site.T"
++ "void AppleSEPXART::format_acks(char *, size_t)"
++ "void AppleSEPXART::format_acks(char *, size_t)_block_invoke"
++ "void XARTDisableLog::format_acks(char *, size_t)"
++ "void XARTDisableLog::log_disable_acknowledge(uint32_t)"
++ "void XARTDisableLog::log_disable_begin()"
++ "void XARTDisableLog::register_disable(uint32_t)"
+- "1211121111112111111122212112"
+- "kIOReturnSuccess == xartSEPSlaveEP()->xart_shtdwn_vol_unmount()"
 
 ```
 
@@ -2232,38 +2232,24 @@ CStrings:
 
 ## MachO
 
-### 🆕 NEW (30)
+### 🆕 NEW (16)
 
 - `/Applications/DiagnosticsService.app/PlugIns/Diagnostic-6007.appex/Diagnostic-6007`
 - `/Applications/DiagnosticsService.app/PlugIns/Diagnostic-6008.appex/Diagnostic-6008`
-- `/System/Library/Accounts/DataclassOwners/Bookmarks.bundle/Bookmarks`
 - `/System/Library/ControlCenter/Bundles/BluetoothModule.bundle/BluetoothModule`
-- `/System/Library/ExtensionKit/Extensions/GPUExtension.appex/com.apple.WebKit.GPU`
-- `/System/Library/ExtensionKit/Extensions/NetworkingExtension.appex/com.apple.WebKit.Networking`
 - `/System/Library/ExtensionKit/Extensions/PasscodeSettingsExtension.appex/PasscodeSettingsExtension`
 - `/System/Library/ExtensionKit/Extensions/SafetyCheckAppIntents.appex/SafetyCheckAppIntents`
 - `/System/Library/ExtensionKit/Extensions/SiriTurnRestatementExtension.appex/SiriTurnRestatementExtension`
 - `/System/Library/ExtensionKit/Extensions/SpotlightSettingsIntentsExtension.appex/SpotlightSettingsIntentsExtension`
 - `/System/Library/ExtensionKit/Extensions/TextInputAppIntentsExtension.appex/TextInputAppIntentsExtension`
 - `/System/Library/ExtensionKit/Extensions/TranslateCacheDeleteExtension.appex/TranslateCacheDeleteExtension`
-- `/System/Library/ExtensionKit/Extensions/WebContentCaptivePortalExtension.appex/com.apple.WebKit.WebContent.CaptivePortal`
-- `/System/Library/ExtensionKit/Extensions/WebContentExtension.appex/com.apple.WebKit.WebContent`
 - `/System/Library/Frameworks/CoreSpotlight.framework/PlugIns/CoreSpotlightTestImporter.appex/CoreSpotlightTestImporter`
 - `/System/Library/Frameworks/CoreSpotlight.framework/PlugIns/CoreSpotlightTextImporter.appex/CoreSpotlightTextImporter`
 - `/System/Library/Frameworks/FinanceKit.framework/XPCServices/FinanceImageProcessingService.xpc/FinanceImageProcessingService`
 - `/System/Library/Frameworks/ImagePlayground.framework/PlugIns/com.apple.ImagePlayground.DiagnosticExtension.appex/com.apple.ImagePlayground.DiagnosticExtension`
-- `/System/Library/Frameworks/SafariServices.framework/PlugIns/SafariServices.wkbundle/SafariServices`
-- `/System/Library/Frameworks/SafariServices.framework/XPCServices/com.apple.SafariServices.ContentBlockerLoader.xpc/com.apple.SafariServices.ContentBlockerLoader`
-- `/System/Library/Frameworks/WebKit.framework/Daemons/adattributiond`
 - `/System/Library/HIDPlugins/ServiceFilters/IOHIDSensorPowerLoggingFilter.plugin/IOHIDSensorPowerLoggingFilter`
 - `/System/Library/PrivateFrameworks/DiagnosticExtensions.framework/PlugIns/IMDiagnosticExtension.appex/IMDiagnosticExtension`
-- `/System/Library/PrivateFrameworks/PlugInKitDaemon.framework/PlugInKitDaemon`
 - `/System/Library/PrivateFrameworks/RemoteManagement.framework/XPCServices/MathSettingsSubscriber.xpc/MathSettingsSubscriber`
-- `/System/Library/PrivateFrameworks/SafariFoundation.framework/XPCServices/AutoFillHelper.xpc/AutoFillHelper`
-- `/System/Library/PrivateFrameworks/SafariFoundation.framework/XPCServices/CredentialProviderExtensionHelper.xpc/CredentialProviderExtensionHelper`
-- `/System/Library/PrivateFrameworks/SafariFoundation.framework/XPCServices/SafariConfigurationSubscriber.xpc/SafariConfigurationSubscriber`
-- `/System/Library/PrivateFrameworks/SafariShared.framework/XPCServices/com.apple.Safari.SearchHelper.xpc/com.apple.Safari.SearchHelper`
-- `/System/Library/PrivateFrameworks/VisualTestKit.framework/VisualTestKit`
 
 ### ❌ Removed (14)
 
@@ -2282,7 +2268,7 @@ CStrings:
 - `/usr/libexec/appleh16camerad`
 - `/usr/libexec/dietappleh16camerad`
 
-### ⬆️ Updated (1488)
+### ⬆️ Updated (1419)
 
 <details>
   <summary><i>View Updated</i></summary>
@@ -2663,6 +2649,7 @@ CStrings:
 - [/System/Library/ExtensionKit/Extensions/FindMySettingsAppIntentsExtension.appex/FindMySettingsAppIntentsExtension](MACHOS/FindMySettingsAppIntentsExtension.md)
 - [/System/Library/ExtensionKit/Extensions/FontIntents.appex/FontIntents](MACHOS/FontIntents.md)
 - [/System/Library/ExtensionKit/Extensions/FontThumbnailExtension.appex/FontThumbnailExtension](MACHOS/FontThumbnailExtension.md)
+- [/System/Library/ExtensionKit/Extensions/GPUExtension.appex/com.apple.WebKit.GPU](MACHOS/com.apple.WebKit.GPU.md)
 - [/System/Library/ExtensionKit/Extensions/GameCenterSettingsDeviceExpertExtension.appex/GameCenterSettingsDeviceExpertExtension](MACHOS/GameCenterSettingsDeviceExpertExtension.md)
 - [/System/Library/ExtensionKit/Extensions/GeneralSettingsIntents.appex/GeneralSettingsIntents](MACHOS/GeneralSettingsIntents.md)
 - [/System/Library/ExtensionKit/Extensions/HealthStandaloneIntents.appex/HealthStandaloneIntents](MACHOS/HealthStandaloneIntents.md)
@@ -2691,6 +2678,7 @@ CStrings:
 - [/System/Library/ExtensionKit/Extensions/MusicEngagementExtension.appex/MusicEngagementExtension](MACHOS/MusicEngagementExtension.md)
 - [/System/Library/ExtensionKit/Extensions/MusicUIEngagementExtension.appex/MusicUIEngagementExtension](MACHOS/MusicUIEngagementExtension.md)
 - [/System/Library/ExtensionKit/Extensions/NLPLearnerExtension.appex/NLPLearnerExtension](MACHOS/NLPLearnerExtension.md)
+- [/System/Library/ExtensionKit/Extensions/NetworkingExtension.appex/com.apple.WebKit.Networking](MACHOS/com.apple.WebKit.Networking.md)
 - [/System/Library/ExtensionKit/Extensions/NewDeviceOutreachIntents_iOS.appex/NewDeviceOutreachIntents_iOS](MACHOS/NewDeviceOutreachIntents_iOS.md)
 - [/System/Library/ExtensionKit/Extensions/NotificationsSettingsExtension.appex/NotificationsSettingsExtension](MACHOS/NotificationsSettingsExtension.md)
 - [/System/Library/ExtensionKit/Extensions/OfficeThumbnailExtension.appex/OfficeThumbnailExtension](MACHOS/OfficeThumbnailExtension.md)
@@ -2743,6 +2731,8 @@ CStrings:
 - [/System/Library/ExtensionKit/Extensions/VPNAppIntentWidgetExtension.appex/VPNAppIntentWidgetExtension](MACHOS/VPNAppIntentWidgetExtension.md)
 - [/System/Library/ExtensionKit/Extensions/VSAppIntents.appex/VSAppIntents](MACHOS/VSAppIntents.md)
 - [/System/Library/ExtensionKit/Extensions/WallpaperSettingsIntents.appex/WallpaperSettingsIntents](MACHOS/WallpaperSettingsIntents.md)
+- [/System/Library/ExtensionKit/Extensions/WebContentCaptivePortalExtension.appex/com.apple.WebKit.WebContent.CaptivePortal](MACHOS/com.apple.WebKit.WebContent.CaptivePortal.md)
+- [/System/Library/ExtensionKit/Extensions/WebContentExtension.appex/com.apple.WebKit.WebContent](MACHOS/com.apple.WebKit.WebContent.md)
 - [/System/Library/ExtensionKit/Extensions/WiFiSettingsControlsExtension.appex/WiFiSettingsControlsExtension](MACHOS/WiFiSettingsControlsExtension.md)
 - [/System/Library/ExtensionKit/Extensions/WirelessModemSettingsControlsExtension.appex/WirelessModemSettingsControlsExtension](MACHOS/WirelessModemSettingsControlsExtension.md)
 - [/System/Library/ExtensionKit/Extensions/ZeoliteExtension.appex/ZeoliteExtension](MACHOS/ZeoliteExtension.md)
@@ -2766,12 +2756,9 @@ CStrings:
 - [/System/Library/Filesystems/apfs.fs/slurpAPFSMeta](MACHOS/slurpAPFSMeta.md)
 - [/System/Library/Filesystems/apfs.fs/sm_stats](MACHOS/sm_stats.md)
 - [/System/Library/Filesystems/apfs_userfs.fs/apfs_userfs.util](MACHOS/apfs_userfs.util.md)
-- [/System/Library/Frameworks/Accounts.framework/accountsd](MACHOS/accountsd.md)
 - [/System/Library/Frameworks/AdAttributionKit.framework/Support/attributionkitd](MACHOS/attributionkitd.md)
 - [/System/Library/Frameworks/AssetsLibrary.framework/Support/assetsd](MACHOS/assetsd.md)
 - [/System/Library/Frameworks/AutomatedDeviceEnrollment.framework/PlugIns/AddDevicesToAutomatedDeviceEnrollmentExtension.appex/AddDevicesToAutomatedDeviceEnrollmentExtension](MACHOS/AddDevicesToAutomatedDeviceEnrollmentExtension.md)
-- [/System/Library/Frameworks/CFNetwork.framework/AuthBrokerAgent](MACHOS/AuthBrokerAgent.md)
-- [/System/Library/Frameworks/CFNetwork.framework/CFNetworkAgent](MACHOS/CFNetworkAgent.md)
 - [/System/Library/Frameworks/CallKit.framework/XPCServices/com.apple.CallKit.CallDirectory.xpc/com.apple.CallKit.CallDirectory](MACHOS/com.apple.CallKit.CallDirectory.md)
 - [/System/Library/Frameworks/CallKit.framework/XPCServices/com.apple.CallKit.CallDirectoryMaintenance.xpc/com.apple.CallKit.CallDirectoryMaintenance](MACHOS/com.apple.CallKit.CallDirectoryMaintenance.md)
 - [/System/Library/Frameworks/ClassKit.framework/progressd](MACHOS/progressd.md)
@@ -2791,9 +2778,6 @@ CStrings:
 - [/System/Library/Frameworks/CoreSpotlight.framework/CoreSpotlightService](MACHOS/CoreSpotlightService.md)
 - [/System/Library/Frameworks/CoreSpotlight.framework/Support/com.apple.spotlight.IndexAgent](MACHOS/com.apple.spotlight.IndexAgent.md)
 - [/System/Library/Frameworks/CoreSpotlight.framework/spotlightknowledged](MACHOS/spotlightknowledged.md)
-- [/System/Library/Frameworks/CoreTelephony.framework/Support/CommCenterMobileHelper](MACHOS/CommCenterMobileHelper.md)
-- [/System/Library/Frameworks/CoreTelephony.framework/Support/CommCenterRootHelper](MACHOS/CommCenterRootHelper.md)
-- [/System/Library/Frameworks/CryptoTokenKit.framework/ctkd](MACHOS/ctkd.md)
 - [/System/Library/Frameworks/ExternalAccessory.framework/XPCServices/WACEAService.xpc/WACEAService](MACHOS/WACEAService.md)
 - [/System/Library/Frameworks/FamilyControls.framework/FamilyControlsAgent](MACHOS/FamilyControlsAgent.md)
 - [/System/Library/Frameworks/FamilyControls.framework/PlugIns/ActivityPickerExtension.appex/ActivityPickerExtension](MACHOS/ActivityPickerExtension.md)
@@ -2824,7 +2808,6 @@ CStrings:
 - [/System/Library/Frameworks/Speech.framework/XPCServices/localspeechrecognition.xpc/localspeechrecognition](MACHOS/localspeechrecognition.md)
 - [/System/Library/Frameworks/StoreKit.framework/PlugIns/SKAskPermissionExtension.appex/SKAskPermissionExtension](MACHOS/SKAskPermissionExtension.md)
 - [/System/Library/Frameworks/StoreKit.framework/Support/storekitd](MACHOS/storekitd.md)
-- [/System/Library/Frameworks/Translation.framework/translationd](MACHOS/translationd.md)
 - [/System/Library/Frameworks/UIKit.framework/PlugIns/com.apple.UIKit.ColorPicker.appex/com.apple.UIKit.ColorPicker](MACHOS/com.apple.UIKit.ColorPicker.md)
 - [/System/Library/Frameworks/UIKit.framework/PlugIns/com.apple.UIKit.screenpicker.appex/com.apple.UIKit.screenpicker](MACHOS/com.apple.UIKit.screenpicker.md)
 - [/System/Library/Frameworks/VideoToolbox.framework/XPCServices/videodecodeservice.xpc/videodecodeservice](MACHOS/videodecodeservice.md)
@@ -2990,7 +2973,6 @@ CStrings:
 - [/System/Library/PreferencesSyncBundles/CoreLocationSync.bundle/CoreLocationSync](MACHOS/CoreLocationSync.md)
 - [/System/Library/PreferencesSyncBundles/DoNotDisturbSettingsSync.bundle/DoNotDisturbSettingsSync](MACHOS/DoNotDisturbSettingsSync.md)
 - [/System/Library/PreferencesSyncBundles/FindMyDevicePreferencesSync.bundle/FindMyDevicePreferencesSync](MACHOS/FindMyDevicePreferencesSync.md)
-- [/System/Library/PrivateFrameworks/ABMHelper.framework/Support/abm-helper](MACHOS/abm-helper.md)
 - [/System/Library/PrivateFrameworks/ASOctaneSupport.framework/XPCServices/ASOctaneSupportXPCService.xpc/ASOctaneSupportXPCService](MACHOS/ASOctaneSupportXPCService.md)
 - [/System/Library/PrivateFrameworks/AccessibilityUtilities.framework/PlugIns/AXSettingsShortcuts.appex/AXSettingsShortcuts](MACHOS/AXSettingsShortcuts.md)
 - [/System/Library/PrivateFrameworks/AccessibilityUtilities.framework/PlugIns/AXTeachableMomentsNotificationsExtension.appex/AXTeachableMomentsNotificationsExtension](MACHOS/AXTeachableMomentsNotificationsExtension.md)
@@ -3023,7 +3005,6 @@ CStrings:
 - [/System/Library/PrivateFrameworks/AuthKitUI.framework/PlugIns/AKSecondFactorEntryAlert.appex/AKSecondFactorEntryAlert](MACHOS/AKSecondFactorEntryAlert.md)
 - [/System/Library/PrivateFrameworks/AutomationMode.framework/AutomationModeUI.app/AutomationModeUI](MACHOS/AutomationModeUI.md)
 - [/System/Library/PrivateFrameworks/AutomationMode.framework/automationmode-writer](MACHOS/automationmode-writer.md)
-- [/System/Library/PrivateFrameworks/AvatarPersistence.framework/Support/avatarsd](MACHOS/avatarsd.md)
 - [/System/Library/PrivateFrameworks/AvatarUI.framework/PlugIns/AvatarPosterExtension.appex/AvatarPosterExtension](MACHOS/AvatarPosterExtension.md)
 - [/System/Library/PrivateFrameworks/BiomeStreams.framework/Support/biomed](MACHOS/biomed.md)
 - [/System/Library/PrivateFrameworks/BlastDoor.framework/Resources/BlastDoorPosterArchiveBridging.bundle/BlastDoorPosterArchiveBridging](MACHOS/BlastDoorPosterArchiveBridging.md)
@@ -3036,10 +3017,7 @@ CStrings:
 - [/System/Library/PrivateFrameworks/CalendarWidget.framework/PlugIns/IntentsExtension.appex/IntentsExtension](MACHOS/IntentsExtension.md)
 - [/System/Library/PrivateFrameworks/CallHistory.framework/Support/CallHistorySyncHelper](MACHOS/CallHistorySyncHelper.md)
 - [/System/Library/PrivateFrameworks/CameraUI.framework/ShutterLiquid.metallib](MACHOS/ShutterLiquid.metallib.md)
-- [/System/Library/PrivateFrameworks/CameraUI.framework/Support/nebulad](MACHOS/nebulad.md)
-- [/System/Library/PrivateFrameworks/ChatKit.framework/companionmessagesd](MACHOS/companionmessagesd.md)
 - [/System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod](MACHOS/chronod.md)
-- [/System/Library/PrivateFrameworks/ClipServices.framework/clipserviced](MACHOS/clipserviced.md)
 - [/System/Library/PrivateFrameworks/ClockPoster.framework/PlugIns/ClockPosterExtension.appex/ClockPosterExtension](MACHOS/ClockPosterExtension.md)
 - [/System/Library/PrivateFrameworks/CloudDocsDaemon.framework/PlugIns/CloudDocsDiagnostic.appex/CloudDocsDiagnostic](MACHOS/CloudDocsDiagnostic.md)
 - [/System/Library/PrivateFrameworks/CloudDocsDaemon.framework/bird](MACHOS/bird.md)
@@ -3069,15 +3047,10 @@ CStrings:
 - [/System/Library/PrivateFrameworks/CoreSpeech.framework/corespeechd](MACHOS/corespeechd.md)
 - [/System/Library/PrivateFrameworks/CoreSpeech.framework/speechmodeltrainingd](MACHOS/speechmodeltrainingd.md)
 - [/System/Library/PrivateFrameworks/CoreSuggestions.framework/Tools/suggest_tool](MACHOS/suggest_tool.md)
-- [/System/Library/PrivateFrameworks/CoreSuggestions.framework/reversetemplated](MACHOS/reversetemplated.md)
-- [/System/Library/PrivateFrameworks/CoreSuggestions.framework/suggestd](MACHOS/suggestd.md)
 - [/System/Library/PrivateFrameworks/CoreThreadCommissionerService.framework/CoreThreadCommissionerServiced](MACHOS/CoreThreadCommissionerServiced.md)
 - [/System/Library/PrivateFrameworks/CoreThreadRadio.framework/threadradiod](MACHOS/threadradiod.md)
-- [/System/Library/PrivateFrameworks/DVTInstrumentsFoundation.framework/DTServiceHub](MACHOS/DTServiceHub.md)
 - [/System/Library/PrivateFrameworks/DVTInstrumentsFoundation.framework/LeakAgent](MACHOS/LeakAgent.md)
-- [/System/Library/PrivateFrameworks/DVTInstrumentsFoundation.framework/RemoteInjectionAgent](MACHOS/RemoteInjectionAgent.md)
 - [/System/Library/PrivateFrameworks/DVTInstrumentsFoundation.framework/XPCServices/com.apple.dt.DTMLModelRunnerService.xpc/com.apple.dt.DTMLModelRunnerService](MACHOS/com.apple.dt.DTMLModelRunnerService.md)
-- [/System/Library/PrivateFrameworks/DataAccess.framework/Support/dataaccessd](MACHOS/dataaccessd.md)
 - [/System/Library/PrivateFrameworks/DeepThought.framework/PlugIns/DeepThoughtPlugin.appex/DeepThoughtPlugin](MACHOS/DeepThoughtPlugin.md)
 - [/System/Library/PrivateFrameworks/DendriteIngest.framework/XPCServices/IngestService.xpc/IngestService](MACHOS/IngestService.md)
 - [/System/Library/PrivateFrameworks/DesktopServicesPriv.framework/DesktopServicesHelper](MACHOS/DesktopServicesHelper.md)
@@ -3105,10 +3078,7 @@ CStrings:
 - [/System/Library/PrivateFrameworks/DragUI.framework/Support/druid](MACHOS/druid.md)
 - [/System/Library/PrivateFrameworks/EcosystemAnalytics.framework/Support/ecosystemanalyticsd](MACHOS/ecosystemanalyticsd.md)
 - [/System/Library/PrivateFrameworks/EmailDaemon.framework/maild](MACHOS/maild.md)
-- [/System/Library/PrivateFrameworks/EmbeddedDataReset.framework/Support/devicedataresetd](MACHOS/devicedataresetd.md)
 - [/System/Library/PrivateFrameworks/EmojiPoster.framework/PlugIns/EmojiPosterExtension.appex/EmojiPosterExtension](MACHOS/EmojiPosterExtension.md)
-- [/System/Library/PrivateFrameworks/ExchangeSync.framework/Support/exchangesyncd](MACHOS/exchangesyncd.md)
-- [/System/Library/PrivateFrameworks/Eyedropper.framework/Support/eyedropperd](MACHOS/eyedropperd.md)
 - [/System/Library/PrivateFrameworks/FaceTimeMessageStore.framework/facetimemessagestored](MACHOS/facetimemessagestored.md)
 - [/System/Library/PrivateFrameworks/FamilyCircle.framework/familycircled](MACHOS/familycircled.md)
 - [/System/Library/PrivateFrameworks/Feedback.framework/PlugIns/DraftingExtension-iOS.appex/DraftingExtension-iOS](MACHOS/DraftingExtension-iOS.md)
@@ -3144,7 +3114,6 @@ CStrings:
 - [/System/Library/PrivateFrameworks/HealthRecordServices.framework/XPCServices/com.apple.health.records.legacy-ingestion.xpc/com.apple.health.records.legacy-ingestion](MACHOS/com.apple.health.records.legacy-ingestion.md)
 - [/System/Library/PrivateFrameworks/HealthRecordServices.framework/healthrecordsd](MACHOS/healthrecordsd.md)
 - [/System/Library/PrivateFrameworks/HomeEnergyDaemon.framework/Support/homeenergyd](MACHOS/homeenergyd.md)
-- [/System/Library/PrivateFrameworks/HomeKitDaemon.framework/Support/homed](MACHOS/homed.md)
 - [/System/Library/PrivateFrameworks/HomePlatformSettingsUI.framework/PlugIns/HPSUIViewService.appex/HPSUIViewService](MACHOS/HPSUIViewService.md)
 - [/System/Library/PrivateFrameworks/IAP.framework/Support/iapd](MACHOS/iapd.md)
 - [/System/Library/PrivateFrameworks/IDS.framework/identityservicesd.app/identityservicesd](MACHOS/identityservicesd.md)
@@ -3181,7 +3150,6 @@ CStrings:
 - [/System/Library/PrivateFrameworks/MediaConversionService.framework/XPCServices/com.apple.photos.VideoConversionService.xpc/com.apple.photos.VideoConversionService](MACHOS/com.apple.photos.VideoConversionService.md)
 - [/System/Library/PrivateFrameworks/MediaMLServices.framework/XPCServices/mediamlxpc.xpc/mediamlxpc](MACHOS/mediamlxpc.md)
 - [/System/Library/PrivateFrameworks/MediaRemote.framework/Support/mediaremoted](MACHOS/mediaremoted.md)
-- [/System/Library/PrivateFrameworks/MediaServices.framework/Support/mediaartworkd](MACHOS/mediaartworkd.md)
 - [/System/Library/PrivateFrameworks/MediaServicesBroker.framework/PlugIns/MediaSetupViewService.appex/MediaSetupViewService](MACHOS/MediaSetupViewService.md)
 - [/System/Library/PrivateFrameworks/MediaStream.framework/Support/mstreamd](MACHOS/mstreamd.md)
 - [/System/Library/PrivateFrameworks/MentalHealthUI.framework/archive.metallib](MACHOS/archive.metallib.md)
@@ -3221,11 +3189,10 @@ CStrings:
 - [/System/Library/PrivateFrameworks/PhotoAnalysis.framework/Support/photoanalysisd](MACHOS/photoanalysisd.md)
 - [/System/Library/PrivateFrameworks/PhotosUIPrivate.framework/PlugIns/AmbientPhotoFramePosterProvider.appex/AmbientPhotoFramePosterProvider](MACHOS/AmbientPhotoFramePosterProvider.md)
 - [/System/Library/PrivateFrameworks/PhotosUIPrivate.framework/PlugIns/PhotosPosterProvider.appex/PhotosPosterProvider](MACHOS/PhotosPosterProvider.md)
-- [/System/Library/PrivateFrameworks/PointerUIServices.framework/Support/pointeruid](MACHOS/pointeruid.md)
+- [/System/Library/PrivateFrameworks/PlugInKitDaemon.framework/PlugInKitDaemon](MACHOS/PlugInKitDaemon.md)
 - [/System/Library/PrivateFrameworks/PowerLog.framework/XPCServices/PerfPowerTelemetryClientRegistrationService.xpc/PerfPowerTelemetryClientRegistrationService](MACHOS/PerfPowerTelemetryClientRegistrationService.md)
 - [/System/Library/PrivateFrameworks/PreviewsOSSupport.framework/Support/previewsd](MACHOS/previewsd.md)
 - [/System/Library/PrivateFrameworks/PrintKit.framework/XPCServices/com.apple.PrintKit.PrinterTool.xpc/com.apple.PrintKit.PrinterTool](MACHOS/com.apple.PrintKit.PrinterTool.md)
-- [/System/Library/PrivateFrameworks/PrivacyAccounting.framework/Versions/A/Resources/privacyaccountingd](MACHOS/privacyaccountingd.md)
 - [/System/Library/PrivateFrameworks/PrivateCloudCompute.framework/privatecloudcomputed.app/privatecloudcomputed](MACHOS/privatecloudcomputed.md)
 - [/System/Library/PrivateFrameworks/PrivateFederatedLearning.framework/PlugIns/DPMLRuntimePlugin.appex/DPMLRuntimePlugin](MACHOS/DPMLRuntimePlugin.md)
 - [/System/Library/PrivateFrameworks/PrivateFederatedLearning.framework/PlugIns/DPMLRuntimePluginClassB.appex/DPMLRuntimePluginClassB](MACHOS/DPMLRuntimePluginClassB.md)
@@ -3246,7 +3213,7 @@ CStrings:
 - [/System/Library/PrivateFrameworks/ReplicatorCore.framework/Support/replicatord](MACHOS/replicatord.md)
 - [/System/Library/PrivateFrameworks/SMBClientProvider.framework/smbclientTool](MACHOS/smbclientTool.md)
 - [/System/Library/PrivateFrameworks/SMBClientProvider.framework/smbclientd](MACHOS/smbclientd.md)
-- [/System/Library/PrivateFrameworks/SchoolTime.framework/Support/schooltimed](MACHOS/schooltimed.md)
+- [/System/Library/PrivateFrameworks/SafariFoundation.framework/XPCServices/SafariConfigurationSubscriber.xpc/SafariConfigurationSubscriber](MACHOS/SafariConfigurationSubscriber.md)
 - [/System/Library/PrivateFrameworks/ScreenTimeCore.framework/ScreenTimeAgent](MACHOS/ScreenTimeAgent.md)
 - [/System/Library/PrivateFrameworks/ScreenTimeSwift.framework/PlugIns/ScreenTimeDeviceActivityMonitorExtension.appex/ScreenTimeDeviceActivityMonitorExtension](MACHOS/ScreenTimeDeviceActivityMonitorExtension.md)
 - [/System/Library/PrivateFrameworks/Search.framework/PlugIns/SpotlightDiagnostic.appex/SpotlightDiagnostic](MACHOS/SpotlightDiagnostic.md)
@@ -3295,8 +3262,6 @@ CStrings:
 - [/System/Library/PrivateFrameworks/SpeechRecognitionCore.framework/XPCServices/com.apple.SpeechRecognitionCore.brokerd.xpc/XPCServices/com.apple.SpeechRecognitionCore.speechrecognitiond.xpc/com.apple.SpeechRecognitionCore.speechrecognitiond](MACHOS/com.apple.SpeechRecognitionCore.speechrecognitiond.md)
 - [/System/Library/PrivateFrameworks/Stickers.framework/Support/stickersd](MACHOS/stickersd.md)
 - [/System/Library/PrivateFrameworks/StocksKit.framework/XPCServices/StocksKitService.xpc/StocksKitService](MACHOS/StocksKitService.md)
-- [/System/Library/PrivateFrameworks/StoreBookkeeperClient.framework/Support/storebookkeeperd](MACHOS/storebookkeeperd.md)
-- [/System/Library/PrivateFrameworks/Synapse.framework/Support/contentlinkingd](MACHOS/contentlinkingd.md)
 - [/System/Library/PrivateFrameworks/SyncedDefaults.framework/Support/syncdefaultsd](MACHOS/syncdefaultsd.md)
 - [/System/Library/PrivateFrameworks/TCC.framework/Support/tccd](MACHOS/tccd.md)
 - [/System/Library/PrivateFrameworks/TelephonyBlastDoorSupport.framework/XPCServices/TelephonyBlastDoorService.xpc/TelephonyBlastDoorService](MACHOS/TelephonyBlastDoorService.md)
@@ -3321,7 +3286,6 @@ CStrings:
 - [/System/Library/PrivateFrameworks/UserNotificationsCore.framework/Support/usernotificationsd](MACHOS/usernotificationsd.md)
 - [/System/Library/PrivateFrameworks/VisualUnderstanding.framework/Plugins.bundle/Plugins](MACHOS/Plugins.md)
 - [/System/Library/PrivateFrameworks/VisualVoicemail.framework/vmd](MACHOS/vmd.md)
-- [/System/Library/PrivateFrameworks/VoiceServices.framework/Support/voiced](MACHOS/voiced.md)
 - [/System/Library/PrivateFrameworks/VoiceShortcuts.framework/Support/siriactionsd](MACHOS/siriactionsd.md)
 - [/System/Library/PrivateFrameworks/WallpaperKit.framework/PlugIns/CollectionsPoster.appex/CollectionsPoster](MACHOS/CollectionsPoster.md)
 - [/System/Library/PrivateFrameworks/WatchFacesWallpaperSupport.framework/PlugIns/ExtragalacticPoster.appex/ExtragalacticPoster](MACHOS/ExtragalacticPoster.md)
@@ -3329,7 +3293,6 @@ CStrings:
 - [/System/Library/PrivateFrameworks/WatchFacesWallpaperSupport.framework/PlugIns/RhizomePoster.appex/RhizomePoster](MACHOS/RhizomePoster.md)
 - [/System/Library/PrivateFrameworks/WatchListKit.framework/Support/watchlistd](MACHOS/watchlistd.md)
 - [/System/Library/PrivateFrameworks/WeatherDaemon.framework/weatherd](MACHOS/weatherd.md)
-- [/System/Library/PrivateFrameworks/WebPrivacy.framework/webprivacyd](MACHOS/webprivacyd.md)
 - [/System/Library/PrivateFrameworks/WiFiPolicy.framework/XPCServices/WiFiCloudAssetsXPCService.xpc/WiFiCloudAssetsXPCService](MACHOS/WiFiCloudAssetsXPCService.md)
 - [/System/Library/PrivateFrameworks/WirelessInsights.framework/Support/wirelessinsightsd](MACHOS/wirelessinsightsd.md)
 - [/System/Library/PrivateFrameworks/WorkflowKit.framework/XPCServices/BackgroundShortcutRunner.xpc/BackgroundShortcutRunner](MACHOS/BackgroundShortcutRunner.md)
@@ -3553,7 +3516,6 @@ CStrings:
 - [/private/var/staged_system_apps/Weather.app/Weather](MACHOS/Weather.md)
 - [/sbin/launchd](MACHOS/launchd.md)
 - [/sbin/mount](MACHOS/mount.md)
-- [/usr/bin/brctl](MACHOS/brctl.md)
 - [/usr/bin/footprint](MACHOS/footprint.md)
 - [/usr/bin/ltop](MACHOS/ltop.md)
 - [/usr/bin/modelmanagerdump](MACHOS/modelmanagerdump.md)
@@ -3566,24 +3528,19 @@ CStrings:
 - [/usr/lib/libCoreLSKD.dylib](MACHOS/libCoreLSKD.dylib.md)
 - [/usr/lib/libRPAC.dylib](MACHOS/libRPAC.dylib.md)
 - [/usr/lib/libViewDebuggerSupport.dylib](MACHOS/libViewDebuggerSupport.dylib.md)
+- [/usr/lib/libmobileassetd.dylib](MACHOS/libmobileassetd.dylib.md)
 - [/usr/lib/swift/libswiftRemoteMirror.dylib](MACHOS/libswiftRemoteMirror.dylib.md)
 - [/usr/libexec/ASPCarryLog](MACHOS/ASPCarryLog.md)
-- [/usr/libexec/AuthenticationServicesAgent](MACHOS/AuthenticationServicesAgent.md)
 - [/usr/libexec/BackupAgent2](MACHOS/BackupAgent2.md)
-- [/usr/libexec/DataDetectorsSourceAccess](MACHOS/DataDetectorsSourceAccess.md)
+- [/usr/libexec/BatteryAlgorithms.framework/BatteryAlgorithms](MACHOS/BatteryAlgorithms.md)
 - [/usr/libexec/DumpPanic](MACHOS/DumpPanic.md)
-- [/usr/libexec/MTLAssetUpgraderD](MACHOS/MTLAssetUpgraderD.md)
 - [/usr/libexec/NANDTaskScheduler](MACHOS/NANDTaskScheduler.md)
 - [/usr/libexec/PowerUIAgent](MACHOS/PowerUIAgent.md)
-- [/usr/libexec/PreboardService](MACHOS/PreboardService.md)
 - [/usr/libexec/SavageUtil](MACHOS/SavageUtil.md)
-- [/usr/libexec/SensorKitALSHelper](MACHOS/SensorKitALSHelper.md)
 - [/usr/libexec/SidecarRelay](MACHOS/SidecarRelay.md)
 - [/usr/libexec/UserEventAgent](MACHOS/UserEventAgent.md)
 - [/usr/libexec/ViewHierarchyAgent](MACHOS/ViewHierarchyAgent.md)
 - [/usr/libexec/YonkersUtil](MACHOS/YonkersUtil.md)
-- [/usr/libexec/adprivacyd](MACHOS/adprivacyd.md)
-- [/usr/libexec/airplayd](MACHOS/airplayd.md)
 - [/usr/libexec/amfid](MACHOS/amfid.md)
 - [/usr/libexec/aned](MACHOS/aned.md)
 - [/usr/libexec/announced](MACHOS/announced.md)
@@ -3592,40 +3549,29 @@ CStrings:
 - [/usr/libexec/appleaccountd](MACHOS/appleaccountd.md)
 - [/usr/libexec/appleidsetupd](MACHOS/appleidsetupd.md)
 - [/usr/libexec/applekeystored](MACHOS/applekeystored.md)
-- [/usr/libexec/appprotectiond](MACHOS/appprotectiond.md)
-- [/usr/libexec/arkitd](MACHOS/arkitd.md)
 - [/usr/libexec/asd](MACHOS/asd.md)
 - [/usr/libexec/asktod](MACHOS/asktod.md)
 - [/usr/libexec/assessmentagent](MACHOS/assessmentagent.md)
 - [/usr/libexec/audioaccessoryd](MACHOS/audioaccessoryd.md)
 - [/usr/libexec/audioanalyticsd](MACHOS/audioanalyticsd.md)
 - [/usr/libexec/audioclocksyncd](MACHOS/audioclocksyncd.md)
-- [/usr/libexec/avconferenced](MACHOS/avconferenced.md)
 - [/usr/libexec/backboardd](MACHOS/backboardd.md)
 - [/usr/libexec/batteryintelligenced](MACHOS/batteryintelligenced.md)
-- [/usr/libexec/batterytrapd](MACHOS/batterytrapd.md)
-- [/usr/libexec/betaenrollmentd](MACHOS/betaenrollmentd.md)
 - [/usr/libexec/biomesyncd](MACHOS/biomesyncd.md)
 - [/usr/libexec/bluetoothuserd](MACHOS/bluetoothuserd.md)
-- [/usr/libexec/brookcompaniond](MACHOS/brookcompaniond.md)
-- [/usr/libexec/bulletindistributord](MACHOS/bulletindistributord.md)
 - [/usr/libexec/cameracaptured](MACHOS/cameracaptured.md)
 - [/usr/libexec/caraccessoryd](MACHOS/caraccessoryd.md)
 - [/usr/libexec/carkitd](MACHOS/carkitd.md)
 - [/usr/libexec/checkpointd](MACHOS/checkpointd.md)
 - [/usr/libexec/ciphermld](MACHOS/ciphermld.md)
-- [/usr/libexec/com.apple.Safari.History](MACHOS/com.apple.Safari.History.md)
-- [/usr/libexec/coordinated](MACHOS/coordinated.md)
 - [/usr/libexec/coreidvd](MACHOS/coreidvd.md)
 - [/usr/libexec/corerepaird](MACHOS/corerepaird.md)
 - [/usr/libexec/countryd](MACHOS/countryd.md)
 - [/usr/libexec/cryptexd](MACHOS/cryptexd.md)
 - [/usr/libexec/dasd](MACHOS/dasd.md)
-- [/usr/libexec/deferredmediad](MACHOS/deferredmediad.md)
 - [/usr/libexec/demod](MACHOS/demod.md)
 - [/usr/libexec/demod_helper](MACHOS/demod_helper.md)
 - [/usr/libexec/deviceaccessd](MACHOS/deviceaccessd.md)
-- [/usr/libexec/diagnosticextensionsd](MACHOS/diagnosticextensionsd.md)
 - [/usr/libexec/diagnosticspushd](MACHOS/diagnosticspushd.md)
 - [/usr/libexec/diskarbitrationd](MACHOS/diskarbitrationd.md)
 - [/usr/libexec/diskimagesiod](MACHOS/diskimagesiod.md)
@@ -3634,8 +3580,6 @@ CStrings:
 - [/usr/libexec/dtfetchsymbolsd](MACHOS/dtfetchsymbolsd.md)
 - [/usr/libexec/eligibilityd](MACHOS/eligibilityd.md)
 - [/usr/libexec/eventkitsyncd](MACHOS/eventkitsyncd.md)
-- [/usr/libexec/facemetricsd](MACHOS/facemetricsd.md)
-- [/usr/libexec/fairplaydeviceidentityd](MACHOS/fairplaydeviceidentityd.md)
 - [/usr/libexec/feedbackd](MACHOS/feedbackd.md)
 - [/usr/libexec/findmybeaconingd](MACHOS/findmybeaconingd.md)
 - [/usr/libexec/findmydeviced](MACHOS/findmydeviced.md)
@@ -3644,70 +3588,52 @@ CStrings:
 - [/usr/libexec/fmflocatord](MACHOS/fmflocatord.md)
 - [/usr/libexec/fskit_helper](MACHOS/fskit_helper.md)
 - [/usr/libexec/fskitd](MACHOS/fskitd.md)
-- [/usr/libexec/gamecontrollerd](MACHOS/gamecontrollerd.md)
 - [/usr/libexec/gamed](MACHOS/gamed.md)
 - [/usr/libexec/gamepolicyd](MACHOS/gamepolicyd.md)
-- [/usr/libexec/gpsd](MACHOS/gpsd.md)
-- [/usr/libexec/griddatad](MACHOS/griddatad.md)
 - [/usr/libexec/handwritingd](MACHOS/handwritingd.md)
 - [/usr/libexec/hangreporter](MACHOS/hangreporter.md)
 - [/usr/libexec/hangtracerd](MACHOS/hangtracerd.md)
 - [/usr/libexec/icloudmailagent](MACHOS/icloudmailagent.md)
 - [/usr/libexec/idcredd](MACHOS/idcredd.md)
-- [/usr/libexec/inboxupdaterd](MACHOS/inboxupdaterd.md)
 - [/usr/libexec/init_exclavekit](MACHOS/init_exclavekit.md)
 - [/usr/libexec/inputanalyticsd](MACHOS/inputanalyticsd.md)
-- [/usr/libexec/installd](MACHOS/installd.md)
 - [/usr/libexec/keybagd](MACHOS/keybagd.md)
 - [/usr/libexec/keychainsharingmessagingd](MACHOS/keychainsharingmessagingd.md)
 - [/usr/libexec/linkd](MACHOS/linkd.md)
 - [/usr/libexec/locationd](MACHOS/locationd.md)
-- [/usr/libexec/locationpushd](MACHOS/locationpushd.md)
 - [/usr/libexec/lockdownd](MACHOS/lockdownd.md)
 - [/usr/libexec/lskdd](MACHOS/lskdd.md)
 - [/usr/libexec/mediaparserd](MACHOS/mediaparserd.md)
 - [/usr/libexec/mediaplaybackd](MACHOS/mediaplaybackd.md)
 - [/usr/libexec/mediasetupd](MACHOS/mediasetupd.md)
 - [/usr/libexec/merchantd](MACHOS/merchantd.md)
-- [/usr/libexec/microstackshot](MACHOS/microstackshot.md)
 - [/usr/libexec/misd](MACHOS/misd.md)
 - [/usr/libexec/mlhostd](MACHOS/mlhostd.md)
-- [/usr/libexec/mlruntimed](MACHOS/mlruntimed.md)
 - [/usr/libexec/mmaintenanced](MACHOS/mmaintenanced.md)
-- [/usr/libexec/mobile_installation_proxy](MACHOS/mobile_installation_proxy.md)
 - [/usr/libexec/mobile_obliterator](MACHOS/mobile_obliterator.md)
 - [/usr/libexec/mobileactivationd](MACHOS/mobileactivationd.md)
 - [/usr/libexec/mobilerepaird](MACHOS/mobilerepaird.md)
 - [/usr/libexec/modelmanagerd](MACHOS/modelmanagerd.md)
 - [/usr/libexec/momentsd](MACHOS/momentsd.md)
 - [/usr/libexec/nanoregistryd](MACHOS/nanoregistryd.md)
-- [/usr/libexec/neagent](MACHOS/neagent.md)
 - [/usr/libexec/nearbyd](MACHOS/nearbyd.md)
 - [/usr/libexec/nehelper](MACHOS/nehelper.md)
-- [/usr/libexec/nesessionmanager](MACHOS/nesessionmanager.md)
 - [/usr/libexec/networkserviceproxy](MACHOS/networkserviceproxy.md)
 - [/usr/libexec/nexusd](MACHOS/nexusd.md)
 - [/usr/libexec/nfcd](MACHOS/nfcd.md)
 - [/usr/libexec/nptocompaniond](MACHOS/nptocompaniond.md)
-- [/usr/libexec/nsurlsessiond](MACHOS/nsurlsessiond.md)
 - [/usr/libexec/online-auth-agent](MACHOS/online-auth-agent.md)
 - [/usr/libexec/ospredictiond](MACHOS/ospredictiond.md)
 - [/usr/libexec/passcodenagd](MACHOS/passcodenagd.md)
-- [/usr/libexec/passwordbreachd](MACHOS/passwordbreachd.md)
 - [/usr/libexec/perfdiagsselfenabled](MACHOS/perfdiagsselfenabled.md)
 - [/usr/libexec/photosfaced](MACHOS/photosfaced.md)
-- [/usr/libexec/pipelined](MACHOS/pipelined.md)
-- [/usr/libexec/pkd](MACHOS/pkd.md)
 - [/usr/libexec/powerexperienced](MACHOS/powerexperienced.md)
-- [/usr/libexec/proactiveeventtrackerd](MACHOS/proactiveeventtrackerd.md)
 - [/usr/libexec/profiled](MACHOS/profiled.md)
 - [/usr/libexec/promotedcontentd](MACHOS/promotedcontentd.md)
 - [/usr/libexec/proximitycontrold](MACHOS/proximitycontrold.md)
 - [/usr/libexec/rapportd](MACHOS/rapportd.md)
-- [/usr/libexec/relatived](MACHOS/relatived.md)
 - [/usr/libexec/remindd](MACHOS/remindd.md)
 - [/usr/libexec/remotectl](MACHOS/remotectl.md)
-- [/usr/libexec/remoted](MACHOS/remoted.md)
 - [/usr/libexec/remotepairingdeviced](MACHOS/remotepairingdeviced.md)
 - [/usr/libexec/replayd](MACHOS/replayd.md)
 - [/usr/libexec/restoreserviced](MACHOS/restoreserviced.md)
@@ -3719,7 +3645,6 @@ CStrings:
 - [/usr/libexec/security-sysdiagnose](MACHOS/security-sysdiagnose.md)
 - [/usr/libexec/securityd](MACHOS/securityd.md)
 - [/usr/libexec/securityuploadd](MACHOS/securityuploadd.md)
-- [/usr/libexec/sensorkitd](MACHOS/sensorkitd.md)
 - [/usr/libexec/seserviced](MACHOS/seserviced.md)
 - [/usr/libexec/sharingd](MACHOS/sharingd.md)
 - [/usr/libexec/sirireaderd](MACHOS/sirireaderd.md)
@@ -3727,25 +3652,18 @@ CStrings:
 - [/usr/libexec/soundanalysisd](MACHOS/soundanalysisd.md)
 - [/usr/libexec/sportsd](MACHOS/sportsd.md)
 - [/usr/libexec/srp-mdns-proxy](MACHOS/srp-mdns-proxy.md)
-- [/usr/libexec/storagedatad](MACHOS/storagedatad.md)
 - [/usr/libexec/storagekitd](MACHOS/storagekitd.md)
-- [/usr/libexec/swcd](MACHOS/swcd.md)
 - [/usr/libexec/swtransparency-sysdiagnose](MACHOS/swtransparency-sysdiagnose.md)
 - [/usr/libexec/swtransparencyd](MACHOS/swtransparencyd.md)
-- [/usr/libexec/symptomsd](MACHOS/symptomsd.md)
 - [/usr/libexec/sysdiagnose_helper](MACHOS/sysdiagnose_helper.md)
 - [/usr/libexec/sysdiagnosed](MACHOS/sysdiagnosed.md)
 - [/usr/libexec/terminusd](MACHOS/terminusd.md)
 - [/usr/libexec/textcontextd](MACHOS/textcontextd.md)
 - [/usr/libexec/thermalmonitord](MACHOS/thermalmonitord.md)
-- [/usr/libexec/timed](MACHOS/timed.md)
 - [/usr/libexec/tipsd](MACHOS/tipsd.md)
 - [/usr/libexec/transparencyStaticKey](MACHOS/transparencyStaticKey.md)
 - [/usr/libexec/transparencyd](MACHOS/transparencyd.md)
-- [/usr/libexec/triald](MACHOS/triald.md)
-- [/usr/libexec/triald_system](MACHOS/triald_system.md)
 - [/usr/libexec/trustd](MACHOS/trustd.md)
-- [/usr/libexec/tursd](MACHOS/tursd.md)
 - [/usr/libexec/tvremoted](MACHOS/tvremoted.md)
 - [/usr/libexec/tzd](MACHOS/tzd.md)
 - [/usr/libexec/usermanagerd](MACHOS/usermanagerd.md)
@@ -3767,7 +3685,6 @@ CStrings:
 - [/usr/sbin/appleh16camerad](MACHOS/appleh16camerad.md)
 - [/usr/sbin/bluetoothd](MACHOS/bluetoothd.md)
 - [/usr/sbin/dietappleh16camerad](MACHOS/dietappleh16camerad.md)
-- [/usr/sbin/distnoted](MACHOS/distnoted.md)
 - [/usr/sbin/fairplayd.H2](MACHOS/fairplayd.H2.md)
 - [/usr/sbin/filecoordinationd](MACHOS/filecoordinationd.md)
 - [/usr/sbin/mDNSResponder](MACHOS/mDNSResponder.md)
@@ -20829,7 +20746,6 @@ CStrings:
    __TEXT.__const: 0x4210
    __TEXT.__binname: 0x40
    __TEXT.__chain_starts: 0x20
-   __TEXT.__info_plist: 0x508
    __DATA_CONST.__auth_ptr: 0x50
    __DATA_CONST.__const: 0x7c78
 -  __TEXT_EXEC.__text: 0x3f28c

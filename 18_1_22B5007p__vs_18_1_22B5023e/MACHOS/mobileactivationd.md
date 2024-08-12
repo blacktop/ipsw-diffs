@@ -24,7 +24,6 @@
    __TEXT.__gcc_except_tab: 0x1980
    __TEXT.__dlopen_cstrs: 0x24c
    __TEXT.__ustring: 0x4
-   __TEXT.__info_plist: 0x109
 -  __TEXT.__unwind_info: 0x1100
 -  __TEXT.__eh_frame: 0x11d8
 -  __DATA_CONST.__auth_got: 0x858

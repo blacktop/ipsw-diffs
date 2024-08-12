@@ -15,7 +15,6 @@
    __TEXT.__swift5_typeref: 0xfc
    __TEXT.__swift5_types: 0xe8
    __TEXT.__const: 0x18
-   __TEXT.__info_plist: 0x24d
 -  __TEXT.__unwind_info: 0x718
 +  __TEXT.__unwind_info: 0x730
    __TEXT.__eh_frame: 0x1228

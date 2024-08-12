@@ -15,11 +15,8 @@
 +  __TEXT.__cstring: 0x9da
 +  __TEXT.__oslogstring: 0x900
    __TEXT.__gcc_except_tab: 0x35c
--  __TEXT.__info_plist: 0x50c
-+  __TEXT.__info_plist: 0x509
    __TEXT.__unwind_info: 0x250
    __TEXT.__objc_classname: 0x28
-   __TEXT.__objc_methname: 0x21f
 CStrings:
 + "%!{(MISSING)public}s: bootstrap_look_up: %!{(MISSING)mach.errno}x"
 + "%!{(MISSING)public}s: changing name: %!s(MISSING) -> %!s(MISSING)"

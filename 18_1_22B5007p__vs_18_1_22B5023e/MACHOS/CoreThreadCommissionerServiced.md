@@ -20,9 +20,9 @@
    __TEXT.__gcc_except_tab: 0x1a64
 -  __TEXT.__oslogstring: 0x8280
 +  __TEXT.__oslogstring: 0x82bc
-   __TEXT.__info_plist: 0x43e
    __TEXT.__unwind_info: 0xfa0
    __DATA_CONST.__auth_got: 0x560
+   __DATA_CONST.__got: 0x298
 
    - /usr/lib/libTelephonyUtilDynamic.dylib
    - /usr/lib/libc++.1.dylib

@@ -10,11 +10,6 @@
    __TEXT.__auth_stubs: 0x2d0
    __TEXT.__objc_stubs: 0x120
 
-   __TEXT.__constg_swiftt: 0x38
-   __TEXT.__swift5_typeref: 0xd
-   __TEXT.__swift5_types: 0x4
--  __TEXT.__info_plist: 0x608
-+  __TEXT.__info_plist: 0x5fe
    __TEXT.__unwind_info: 0xa0
    __DATA_CONST.__auth_got: 0x170
    __DATA_CONST.__got: 0x28

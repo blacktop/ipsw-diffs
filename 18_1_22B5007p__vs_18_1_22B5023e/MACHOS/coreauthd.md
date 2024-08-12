@@ -24,13 +24,11 @@
 -  __TEXT.__oslogstring: 0x1602
 -  __TEXT.__gcc_except_tab: 0x234
 -  __TEXT.__dlopen_cstrs: 0x5a
--  __TEXT.__info_plist: 0x67a
 -  __TEXT.__unwind_info: 0x828
 -  __DATA_CONST.__auth_got: 0x3f0
 -  __DATA_CONST.__got: 0x3c0
 +  __TEXT.__oslogstring: 0x15c6
 +  __TEXT.__gcc_except_tab: 0x224
-+  __TEXT.__info_plist: 0x67b
 +  __TEXT.__unwind_info: 0x810
 +  __DATA_CONST.__auth_got: 0x3c8
 +  __DATA_CONST.__got: 0x3d0

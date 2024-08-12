@@ -19,9 +19,9 @@
    __TEXT.__objc_methname: 0x80d
    __TEXT.__swift5_entry: 0x8
 
+   __TEXT.__swift5_assocty: 0x30
    __TEXT.__swift5_proto: 0x20
    __TEXT.__swift5_capture: 0xe4
-   __TEXT.__info_plist: 0x696
 -  __TEXT.__unwind_info: 0x4c8
 -  __TEXT.__eh_frame: 0x4c0
 -  __DATA_CONST.__auth_got: 0x9a0

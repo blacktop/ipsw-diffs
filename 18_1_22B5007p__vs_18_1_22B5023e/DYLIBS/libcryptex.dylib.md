@@ -14,10 +14,8 @@
    __TEXT.__gcc_except_tab: 0xf78
 -  __TEXT.__oslogstring: 0x37a3
 -  __TEXT.__cstring: 0x1ba0
--  __TEXT.__info_plist: 0x4f1
 +  __TEXT.__oslogstring: 0x3d0b
 +  __TEXT.__cstring: 0x1b97
-+  __TEXT.__info_plist: 0x4ee
    __TEXT.__unwind_info: 0x5c0
    __TEXT.__objc_classname: 0x140
    __TEXT.__objc_methname: 0x9da

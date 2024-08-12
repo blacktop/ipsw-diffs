@@ -24,14 +24,13 @@
    __TEXT.__objc_classname: 0x635
 -  __TEXT.__objc_methtype: 0x1ca7
 -  __TEXT.__gcc_except_tab: 0x6ac
-+  __TEXT.__objc_methtype: 0x1caa
-+  __TEXT.__gcc_except_tab: 0x6e8
-   __TEXT.__info_plist: 0x503
 -  __TEXT.__unwind_info: 0x1008
 -  __DATA_CONST.__auth_got: 0x758
 -  __DATA_CONST.__got: 0x5b0
 -  __DATA_CONST.__const: 0x15a0
 -  __DATA_CONST.__cfstring: 0x32e0
++  __TEXT.__objc_methtype: 0x1caa
++  __TEXT.__gcc_except_tab: 0x6e8
 +  __TEXT.__unwind_info: 0x1010
 +  __DATA_CONST.__auth_got: 0x750
 +  __DATA_CONST.__got: 0x5c0

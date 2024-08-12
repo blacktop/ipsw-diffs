@@ -47,7 +47,6 @@
 +  __TEXT.__swift5_types: 0x340
    __TEXT.__swift5_protos: 0x34
    __TEXT.__swift5_mpenum: 0x5c
-   __TEXT.__info_plist: 0x434
 -  __TEXT.__unwind_info: 0x62c0
 -  __TEXT.__eh_frame: 0x8d5c
 -  __DATA_CONST.__auth_got: 0x1aa0

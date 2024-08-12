@@ -12,6 +12,6 @@
 +  __TEXT.__const: 0x50
    __TEXT.__cstring: 0x59
    __TEXT.__oslogstring: 0x101
-   __TEXT.__info_plist: 0x421
+   __TEXT.__unwind_info: 0x70
 
 ```

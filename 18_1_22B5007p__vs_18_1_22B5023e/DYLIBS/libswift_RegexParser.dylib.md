@@ -18,9 +18,9 @@
    __TEXT.__swift5_assocty: 0x2c8
    __TEXT.__constg_swiftt: 0xc30
 
+   __TEXT.__swift5_protos: 0x14
    __TEXT.__swift5_proto: 0x544
    __TEXT.__swift5_types: 0x1c4
-   __TEXT.__info_plist: 0x242
 -  __TEXT.__unwind_info: 0x1958
 +  __TEXT.__unwind_info: 0x1950
    __TEXT.__eh_frame: 0x510

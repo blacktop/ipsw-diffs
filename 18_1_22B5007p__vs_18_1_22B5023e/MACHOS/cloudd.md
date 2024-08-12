@@ -19,9 +19,9 @@
    __TEXT.__objc_methname: 0xb9d
    __TEXT.__oslogstring: 0x668
 
+   __TEXT.__gcc_except_tab: 0x34c
    __TEXT.__objc_classname: 0x5e
    __TEXT.__objc_methtype: 0xf6
-   __TEXT.__info_plist: 0x543
 -  __TEXT.__unwind_info: 0x320
 +  __TEXT.__unwind_info: 0x318
    __TEXT.__eh_frame: 0x210

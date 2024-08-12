@@ -39,14 +39,12 @@
 +  __TEXT.__swift5_capture: 0x3d44
    __TEXT.__swift5_mpenum: 0x24
    __TEXT.__gcc_except_tab: 0xac
--  __TEXT.__info_plist: 0x5f9
 -  __TEXT.__unwind_info: 0xd9f0
 -  __TEXT.__eh_frame: 0x2887c
 -  __DATA_CONST.__auth_got: 0x3e78
 -  __DATA_CONST.__got: 0x2eb0
 -  __DATA_CONST.__auth_ptr: 0x1e58
 -  __DATA_CONST.__const: 0x18b10
-+  __TEXT.__info_plist: 0x5fc
 +  __TEXT.__unwind_info: 0xda90
 +  __TEXT.__eh_frame: 0x28904
 +  __DATA_CONST.__auth_got: 0x3e88

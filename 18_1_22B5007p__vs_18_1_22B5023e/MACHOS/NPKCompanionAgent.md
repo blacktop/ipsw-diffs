@@ -26,7 +26,6 @@
    __TEXT.__objc_classname: 0x6c1
 -  __TEXT.__objc_methtype: 0x31fc
 +  __TEXT.__objc_methtype: 0x3230
-   __TEXT.__info_plist: 0x455
    __TEXT.__unwind_info: 0xda8
 -  __DATA_CONST.__auth_got: 0x678
 +  __DATA_CONST.__auth_got: 0x680

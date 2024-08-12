@@ -22,10 +22,8 @@
    __TEXT.__objc_methtype: 0x2155
 -  __TEXT.__gcc_except_tab: 0xae60
 -  __TEXT.__oslogstring: 0xdf75
--  __TEXT.__info_plist: 0x600
 +  __TEXT.__gcc_except_tab: 0xae54
 +  __TEXT.__oslogstring: 0xdf0f
-+  __TEXT.__info_plist: 0x5f6
    __TEXT.__dof_UA: 0xfad
    __TEXT.__unwind_info: 0x24a0
 -  __DATA_CONST.__auth_got: 0x7b0

@@ -49,7 +49,6 @@
 -  __TEXT.__gcc_except_tab: 0xc1f8
 +  __TEXT.__gcc_except_tab: 0xcc28
    __TEXT.__ustring: 0x4
-   __TEXT.__info_plist: 0x500
 -  __TEXT.__unwind_info: 0x69e0
 -  __TEXT.__eh_frame: 0x12b0
 -  __DATA_CONST.__auth_got: 0x19a0

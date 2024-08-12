@@ -25,10 +25,8 @@
    __TEXT.__ustring: 0x4
    __TEXT.__objc_methname: 0x15de
    __TEXT.__objc_methtype: 0x30f
--  __TEXT.__info_plist: 0x670
 -  __TEXT.__unwind_info: 0x2290
 -  __DATA_CONST.__auth_got: 0xb08
-+  __TEXT.__info_plist: 0x674
 +  __TEXT.__unwind_info: 0x22d8
 +  __DATA_CONST.__auth_got: 0xb10
    __DATA_CONST.__got: 0x468

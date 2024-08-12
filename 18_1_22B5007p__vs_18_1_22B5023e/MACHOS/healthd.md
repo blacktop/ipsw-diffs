@@ -14,7 +14,7 @@
    __TEXT.__objc_methlist: 0x84
    __TEXT.__const: 0x360
 
-   __TEXT.__info_plist: 0x1f8
+   __TEXT.__swift5_proto: 0x30
    __TEXT.__unwind_info: 0x240
    __TEXT.__eh_frame: 0x3d8
 -  __DATA_CONST.__auth_got: 0x438

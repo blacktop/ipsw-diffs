@@ -40,7 +40,6 @@
 -  __TEXT.__swift5_protos: 0x80
 +  __TEXT.__swift5_protos: 0x84
    __TEXT.__swift5_mpenum: 0x20
-   __TEXT.__info_plist: 0x331
 -  __TEXT.__unwind_info: 0x4830
 -  __TEXT.__eh_frame: 0xbb54
 +  __TEXT.__unwind_info: 0x4870

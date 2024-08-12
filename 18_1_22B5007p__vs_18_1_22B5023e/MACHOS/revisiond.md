@@ -20,8 +20,6 @@
 +  __TEXT.__oslogstring: 0x294d
    __TEXT.__objc_classname: 0x1a7
    __TEXT.__objc_methtype: 0x12da
--  __TEXT.__info_plist: 0x4e7
-+  __TEXT.__info_plist: 0x4eb
    __TEXT.__unwind_info: 0x8d0
 -  __DATA_CONST.__auth_got: 0x7a0
 +  __DATA_CONST.__auth_got: 0x7a8

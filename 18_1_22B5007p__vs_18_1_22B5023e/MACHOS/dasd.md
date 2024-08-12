@@ -27,7 +27,6 @@
 +  __TEXT.__objc_methtype: 0x319f
 +  __TEXT.__gcc_except_tab: 0x4104
    __TEXT.__dlopen_cstrs: 0x488
-   __TEXT.__info_plist: 0x5ca
 -  __TEXT.__unwind_info: 0x3638
 +  __TEXT.__unwind_info: 0x3640
    __DATA_CONST.__auth_got: 0x968

@@ -14,7 +14,6 @@
 +  __TEXT.__objc_stubs: 0xa0
    __TEXT.__const: 0x30
    __TEXT.__oslogstring: 0xf
-   __TEXT.__info_plist: 0x597
 -  __TEXT.__objc_methname: 0x36
 +  __TEXT.__objc_methname: 0x43
    __TEXT.__unwind_info: 0x60

@@ -13,11 +13,8 @@
 +  __TEXT.__const: 0x70
 +  __TEXT.__cstring: 0x1dd
    __TEXT.__oslogstring: 0x104
--  __TEXT.__info_plist: 0x507
-+  __TEXT.__info_plist: 0x504
    __TEXT.__unwind_info: 0x80
    __DATA_CONST.__got: 0x10
-   __DATA_CONST.__const: 0x20
 CStrings:
 + "475.40.2"
 + "@(#)VERSION:Monitor Cryptex Upgrades Version 2.0.0: Fri Aug  2 15:51:34 PDT 2024; root:libcryptex-475.40.2~46/libcryptex_trampoline/RELEASE_ARM64E"

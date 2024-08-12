@@ -16,7 +16,6 @@
    __TEXT.__cstring: 0x1e9
    __TEXT.__oslogstring: 0x681
    __TEXT.__objc_classname: 0x1
-   __TEXT.__info_plist: 0x117
    __TEXT.__objc_methname: 0x5d
 -  __TEXT.__unwind_info: 0xd8
 -  __DATA_CONST.__auth_got: 0x318

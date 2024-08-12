@@ -11,7 +11,7 @@
 -  __TEXT.__const: 0x40
 +  __TEXT.__const: 0x48
    __TEXT.__cstring: 0x2b
-   __TEXT.__info_plist: 0xbc3
    __TEXT.__unwind_info: 0x58
+   __DATA_CONST.__auth_got: 0x38
 
 ```

@@ -11,13 +11,6 @@
    __TEXT.__objc_stubs: 0x20
    __TEXT.__objc_methlist: 0x54c
 
-   __TEXT.__swift5_protos: 0x1c
-   __TEXT.__oslogstring: 0xbd
-   __TEXT.__swift5_mpenum: 0x8
--  __TEXT.__info_plist: 0xab5
-+  __TEXT.__info_plist: 0xab7
-   __TEXT.__unwind_info: 0xac0
-   __TEXT.__eh_frame: 0x588
    __DATA_CONST.__auth_got: 0x790
    __DATA_CONST.__got: 0x4e8
    __DATA_CONST.__auth_ptr: 0x250

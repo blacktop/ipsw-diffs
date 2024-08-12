@@ -20,9 +20,9 @@
    __TEXT.__objc_methtype: 0x2b2
 -  __TEXT.__oslogstring: 0x1029
 +  __TEXT.__oslogstring: 0x105f
-   __TEXT.__info_plist: 0x52f
    __TEXT.__unwind_info: 0x208
    __DATA_CONST.__auth_got: 0x320
+   __DATA_CONST.__got: 0x130
 
    - /usr/lib/libobjc.A.dylib
    Functions: 189

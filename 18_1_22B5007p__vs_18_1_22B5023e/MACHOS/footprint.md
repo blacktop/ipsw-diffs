@@ -26,13 +26,12 @@
 -  __TEXT.__objc_methtype: 0x792
 +  __TEXT.__objc_methtype: 0x79e
    __TEXT.__ustring: 0xd0
-+  __TEXT.__oslogstring: 0x21
-   __TEXT.__info_plist: 0x4b0
 -  __TEXT.__unwind_info: 0x480
 -  __DATA_CONST.__auth_got: 0x610
 -  __DATA_CONST.__got: 0x210
 -  __DATA_CONST.__const: 0x16b8
 -  __DATA_CONST.__cfstring: 0x2080
++  __TEXT.__oslogstring: 0x21
 +  __TEXT.__unwind_info: 0x490
 +  __DATA_CONST.__auth_got: 0x628
 +  __DATA_CONST.__got: 0x218

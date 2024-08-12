@@ -19,12 +19,6 @@
    __TEXT.__swift5_typeref: 0x1b60
    __TEXT.__swift5_builtin: 0xa0
 
-   __TEXT.__swift5_protos: 0x40
-   __TEXT.__oslogstring: 0x24f2
-   __TEXT.__swift5_capture: 0x97c
--  __TEXT.__info_plist: 0x545
-+  __TEXT.__info_plist: 0x549
-   __TEXT.__unwind_info: 0x1e58
    __TEXT.__eh_frame: 0x10f0
    __DATA_CONST.__auth_got: 0xda0
    __DATA_CONST.__got: 0x518

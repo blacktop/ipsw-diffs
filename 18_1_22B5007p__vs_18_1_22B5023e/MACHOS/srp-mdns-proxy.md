@@ -16,7 +16,6 @@
 -  __TEXT.__oslogstring: 0xeb0f
 +  __TEXT.__oslogstring: 0xf0b8
    __TEXT.__objc_classname: 0x1
-   __TEXT.__info_plist: 0x241
 -  __TEXT.__unwind_info: 0x510
 +  __TEXT.__unwind_info: 0x518
    __TEXT.__eh_frame: 0x74

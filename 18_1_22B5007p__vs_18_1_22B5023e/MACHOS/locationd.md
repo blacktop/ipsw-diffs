@@ -36,7 +36,6 @@
    __TEXT.__swift5_reflstr: 0x29
    __TEXT.__swift5_builtin: 0x14
    __TEXT.__swift5_capture: 0x40
--  __TEXT.__info_plist: 0x6be
 -  __TEXT.__unwind_info: 0x5c408
 -  __TEXT.__eh_frame: 0x1438
 -  __DATA_CONST.__auth_got: 0x2fc8
@@ -47,7 +46,6 @@
 -  __DATA_CONST.__objc_classlist: 0x13d8
 -  __DATA_CONST.__objc_catlist: 0xc0
 -  __DATA_CONST.__objc_protolist: 0xd98
-+  __TEXT.__info_plist: 0x6c6
 +  __TEXT.__unwind_info: 0x5c330
 +  __TEXT.__eh_frame: 0x1350
 +  __DATA_CONST.__auth_got: 0x2fd0

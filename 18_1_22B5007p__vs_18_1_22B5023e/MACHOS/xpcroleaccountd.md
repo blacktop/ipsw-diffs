@@ -14,11 +14,8 @@
 +  __TEXT.__const: 0x98
 +  __TEXT.__cstring: 0x3c1
    __TEXT.__oslogstring: 0x82b
--  __TEXT.__info_plist: 0x4fb
-+  __TEXT.__info_plist: 0x4f8
    __TEXT.__objc_methname: 0x2a
    __TEXT.__unwind_info: 0xd8
-   __DATA_CONST.__auth_got: 0x308
 CStrings:
 + "@(#)VERSION:Darwin Role Account Bootstrapper Version 1.0.0: Fri Aug  2 23:22:15 PDT 2024; root:libxpc_executables-2866.40.4~3/xpcroleaccountd/RELEASE_ARM64E"
 + "Darwin Role Account Bootstrapper Version 1.0.0: Fri Aug  2 23:22:15 PDT 2024; root:libxpc_executables-2866.40.4~3/xpcroleaccountd/RELEASE_ARM64E"

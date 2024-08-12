@@ -37,9 +37,7 @@
 +  __TEXT.__swift5_reflstr: 0x96
 +  __TEXT.__swift5_fieldmd: 0x64
    __TEXT.__swift5_types: 0x4
--  __TEXT.__info_plist: 0x51b
 -  __TEXT.__unwind_info: 0x890
-+  __TEXT.__info_plist: 0x51a
 +  __TEXT.__unwind_info: 0x8c0
    __TEXT.__eh_frame: 0x168
 -  __DATA_CONST.__auth_got: 0x688
