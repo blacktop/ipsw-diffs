@@ -1,0 +1,81 @@
+## AppleBasebandServices
+
+> `/System/Library/PrivateFrameworks/AppleBasebandServices.framework/AppleBasebandServices`
+
+```diff
+
+-1179.0.0.0.0
+-  __TEXT.__text: 0x1a344
+-  __TEXT.__auth_stubs: 0x840
+-  __TEXT.__init_offsets: 0x4
+-  __TEXT.__const: 0x637
+-  __TEXT.__gcc_except_tab: 0xf04
+-  __TEXT.__oslogstring: 0x1c2
+-  __TEXT.__cstring: 0x2f4
+-  __TEXT.__unwind_info: 0x690
++1180.0.0.0.0
++  __TEXT.__text: 0x19974
++  __TEXT.__auth_stubs: 0x770
++  __TEXT.__const: 0x55e
++  __TEXT.__gcc_except_tab: 0xbfc
++  __TEXT.__oslogstring: 0x199
++  __TEXT.__cstring: 0x2c0
++  __TEXT.__unwind_info: 0x618
+   __TEXT.__objc_methname: 0x1a
+   __TEXT.__objc_stubs: 0x20
+-  __DATA_CONST.__got: 0xd8
++  __DATA_CONST.__got: 0xb8
+   __DATA_CONST.__const: 0xa8
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_selrefs: 0x8
+-  __AUTH_CONST.__auth_got: 0x430
+-  __AUTH_CONST.__const: 0x7e0
+-  __AUTH_CONST.__cfstring: 0x20
+-  __DATA.__data: 0xe0
+-  __DATA_DIRTY.__data: 0x8
++  __AUTH_CONST.__auth_got: 0x3c8
++  __AUTH_CONST.__const: 0x790
++  __DATA.__data: 0x90
+   __DATA_DIRTY.__bss: 0x70
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreMotion.framework/CoreMotion
+
+   - /usr/lib/libTelephonyUtilDynamic.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  Functions: 273
+-  Symbols:   465
+-  CStrings:  0
++  Functions: 266
++  Symbols:   439
++  CStrings:  7
+ 
+Symbols:
+- _CFBooleanGetTypeID
+- _CFGetTypeID
+- _CFRelease
+- _TelephonyBasebandWatchdogStartWithStackshot
+- _TelephonyBasebandWatchdogStop
+- __ZGVN3ctu9SingletonI21CapabilitiesOverridesS1_NS_23PthreadMutexGuardPolicyIS1_EEE9sInstanceE
+- __ZN12capabilities3abs27kKeySupportsCMHandDetectionE
+- __ZN3ctu2cf12MakeCFStringC1EPKc
+- __ZN3ctu2cf12MakeCFStringD1Ev
+- __ZN3ctu2cf13plist_adapterC1EPK10__CFStringS4_
+- __ZN3ctu2cf13plist_adapterD1Ev
+- __ZN3ctu2cf6assignERbPK11__CFBoolean
+- __ZN3ctu9SingletonI21CapabilitiesOverridesS1_NS_23PthreadMutexGuardPolicyIS1_EEE9sInstanceE
+- ___CFConstantStringClassReference
+- __os_log_debug_impl
+- _kCFPreferencesCurrentUser
+- _pthread_mutex_lock
+- _pthread_mutex_unlock
+CStrings:
++ "\x01@\xb7>Hw\xfc\x1b\x01@(\xcaPw\xfc\x1b\x01@^{Xw\xfc\x1b\x01@\xd4F`w\xfc\x1b\x01@\xee7hw\xfc\x1b\x01@;\xd9`y\xfc\x1b\x01@Qphy\xfc\x1b\x01@\xaf\xdapy\xfc\x1b\x01@\x83\xfexy\xfc\x1b\x01@p\xac\x80y\xfc\x1b\x01@u\x8a\x88y\xfc\x1b\x01@ި\x90y\xfc\x1b\x01@_e\x98y\xfc\x1b\x01@*\xb7\xa0y\xfc\x1b\x01@j\x04\xa8y\xfc\x1b\x01@\r/\xb0y\xfc\x1b\x01@\xff\t\xb8y\xfc\x1b\x01@\xd9V\xc0y\xfc\x1b\x01@N\x03\xc8y\xfc\x1b\x01@dB\xd0y\xfc\x1b\x01@\x99T\xe8{\xfc\x1b\x01@\x15*\xf0{\xfc\x1b\x01@~\xa1\xf8{\xfc\x1b\x01@\t\x0f"
++ "@\xadS\xe8|\xfc\x1b\x01@V\xc7\xf0|\xfc\x1b\x01@qR\xf8|\xfc\x1b\x01@V/"
++ "|\xfc\x1b\x01@\xc2\xdd\b|\xfc\x1b\x01@\"9\x10|\xfc\x1b\x01@"
++ "}\xfc\x1b\x01@\xa3\x1f\b}\xfc\x1b\x01@c\x8f\x10}\xfc\x1b\x01@\x04P\x18}\xfc\x1b\x01@\xd1- }\xfc\x1b\x01@ɰ(}\xfc\x1b\x01@\xe5\xc80}\xfc\x1b\x01@\xf8\xb28}\xfc\x1b\x01@\x84\xe9@}\xfc\x1b\x01@\xb1wH}\xfc\x1b\x01@\ajP}\xfc\x1b\x01@\x1fZX}\xfc\x1b\x01@z(`}\xfc\x1b\x01@\xf9Yh}\xfc\x1b\x01@\\\fp}\xfc\x1b\x01@\xb8mx}\xfc\x1b\x01@\xfc\x92\x80}\xfc\x1b\x01@*\x81\x88}\xfc\x1b\x01@\xf9\xf7\x90}\xfc\x1b\x01@<\xfa\x98}\xfc\x1b\x01@\xbf\xef\xa0}\xfc\x1b\x01@\xc9O\xa8}\xfc\x1b\x01@\xf7\x1f\xb0}\xfc\x1b\x01@\xc0\xe4\xb8}\xfc\x1b\x01@\x8f\v\xc0}\xfc\x1b\x01@sf\xc8}\xfc\x1b\x01@\xb7\x12\xd0}\xfc\x1b\x01@\x1d\xbd\xd8}\xfc\x1b\x01@ڱ\xe0}\xfc\x1b\x01@\xde\x10\xe8}\xfc\x1b\x01@%!\(MISSING)xb2\xf0}\xfc\x1b\x01@\xe13\xf8}\xfc\x1b\x01@\xa1 "
++ "~\xfc\x1b\x01@\xa4l\b~\xfc\x1b\x01@\x80O\x10~\xfc\x1b\x01@\xab\xb3P~\xfc\x1b\x01@\x7f\xa6\u0603\xfc\x1b\x01@\xe7f"
++ "\x86\xfc\x1b\x01@\tG\b\x86\xfc\x1b\x01@'6\x10\x86\xfc\x1b\x01@2l\x18\x86\xfc\x1b\x01@ϖ \x86\xfc\x1b\x01@\bw(\x86\xfc\x1b\x01@yO\xf0\xd0\xed \x01\xc0\xe1j\x18\xd2\xed \x01\xc0\xe1j\xc8\xd2\xed \x01\xc0\xe1j\b\xd3\xed \x01\xc0\xe1j8\xd3\xed \x01\xc0\xe1jh\xd3\xed \x01\xc0\xe1j\x98\xd3\xed \x01\xc0\xe1j\xc8\xd3\xed \x01\xc0\xe1jH\xd4\xed \x01\xc0\xe1jp\xd4\xed \x01\xc0\xe1j\xa0\xd4\xed \x01\xc0\xe1j\xd0\xd4\xed \x01\xc0\xe1j\xf8\xd4\xed \x01\xc0\xe1j0\xd5\xed \x01\xc0\xe1jP\xd6\xed \x01\xc0\xe1j"
++ "\xe8?w\x1c\x01@\xdf3\xf0?w\x1c\x01@\xd7o\xf8?w\x1c\x01@\x88\xcb"
+
+```
