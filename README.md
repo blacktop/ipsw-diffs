@@ -42,6 +42,8 @@ ipsw diff
   --fw 
   --launchd
   --feat
+  --strs
+  --block-list "__TEXT.__info_plist"
   'iPhone16,2_17.6_21G5052e_Restore.ipsw'
   'iPhone16,2_17.6_21G5061c_Restore.ipsw'
   --kdk '/Library/Developer/KDKs/KDK_14.6_23G5052d.kdk/System/Library/Kernels/kernel.release.t6031' 
