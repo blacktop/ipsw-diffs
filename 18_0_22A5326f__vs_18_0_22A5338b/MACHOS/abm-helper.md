@@ -18,10 +18,8 @@
    __TEXT.__const: 0x1ab
    __TEXT.__oslogstring: 0xf2
    __TEXT.__objc_classname: 0x1
--  __TEXT.__info_plist: 0x57c
 -  __TEXT.__unwind_info: 0x150
 -  __DATA_CONST.__auth_got: 0x2d8
-+  __TEXT.__info_plist: 0x572
 +  __TEXT.__unwind_info: 0x138
 +  __DATA_CONST.__auth_got: 0x2b0
    __DATA_CONST.__got: 0x90

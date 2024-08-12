@@ -36,4 +36,13 @@
    __AUTH_CONST.__cfstring: 0xe0
    __AUTH_CONST.__objc_const: 0x2d58
 
+   - /usr/lib/swift/libswiftunistd.dylib
+   Functions: 2597
+   Symbols:   479
+-  CStrings:  782
++  CStrings:  783
+ 
+CStrings:
++ "length"
+
 ```

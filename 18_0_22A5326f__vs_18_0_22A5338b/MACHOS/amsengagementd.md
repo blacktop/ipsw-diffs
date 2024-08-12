@@ -10,12 +10,6 @@
    __TEXT.__auth_stubs: 0x3310
    __TEXT.__objc_stubs: 0x1e00
 
-   __TEXT.__swift5_capture: 0x37f0
-   __TEXT.__swift5_protos: 0x80
-   __TEXT.__swift5_mpenum: 0x28
--  __TEXT.__info_plist: 0x57e
-+  __TEXT.__info_plist: 0x574
-   __TEXT.__unwind_info: 0x5f58
    __TEXT.__eh_frame: 0xa010
    __DATA_CONST.__auth_got: 0x1998
    __DATA_CONST.__got: 0xc40

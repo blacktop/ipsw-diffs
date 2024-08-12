@@ -89,9 +89,30 @@
    - /usr/lib/swift/libswiftunistd.dylib
 -  Functions: 5796
 -  Symbols:   2994
+-  CStrings:  4783
 +  Functions: 5783
 +  Symbols:   2988
-   CStrings:  0
++  CStrings:  4792
  
+CStrings:
++ "\x01\x12\x13"
++ "\x01\x13\x12"
++ "/\\s*?[\\r\\n]+\\s*/"
++ "_bottomContraint"
++ "_linkButtonContraints"
++ "_textLabelContraints"
++ "_topContraint"
++ "activeKeyboardSceneDelegate"
++ "deactivateConstraints:"
++ "isOnScreen"
++ "layoutMarginsGuide"
++ "setConstant:"
++ "setNeedsUpdateConstraints"
++ "shouldTrimWhitespaces"
+- "\x01#"
+- "\x012"
+- "_getTopMargin"
+- "_resize"
+- "_topMarginValue"
 
 ```

@@ -57,11 +57,15 @@
    - /usr/lib/swift/libswiftunistd.dylib
 -  Functions: 3832
 -  Symbols:   323
+-  CStrings:  377
 +  Functions: 3894
 +  Symbols:   325
-   CStrings:  0
++  CStrings:  379
  
 Symbols:
 + _memcmp
+CStrings:
++ "appStoreWithContext"
++ "metricsFieldData"
 
 ```

@@ -66,12 +66,41 @@
    - /usr/lib/swift/libswiftunistd.dylib
 -  Functions: 6418
 -  Symbols:   685
+-  CStrings:  1965
 +  Functions: 6473
 +  Symbols:   707
-   CStrings:  0
++  CStrings:  1988
  
 Symbols:
 + _OBJC_CLASS_$_CNContactStore
 + _SMSessionUserDetailsAnalyticsEvent
+CStrings:
++ "%!s(MISSING), %!s(MISSING), sending analytics event perSessionUserDetails, %!s(MISSING)"
++ "%!s(MISSING), %!s(MISSING): contacts access not authorized"
++ "Check\u00a0In requires a cellular connection to keep up with your progress. If Check\u00a0In cannot determine that you’ve arrived by your original ETA, your friend will be notified."
++ "Check\u00a0In requires a cellular connection to respond when prompted. If a network connection is not available, your friend will be notified."
++ "Warning for initiator when cellular is disabled during Destination Check\u00a0In."
++ "Warning for initiator when cellular is disabled during non Destination Check\u00a0In."
++ "analyticsSendPerSessionUserDetailsEvent(queue:sessionConfiguration:)"
++ "analyticsSendSessionStartEntryEvent(queue:sessionConfiguration:)"
++ "antenna.radiowaves.left.and.right.slash.circle.fill"
++ "authorizationStatusForEntityType:"
++ "dateFromString:"
++ "destinationLocationTypeEnum"
++ "fetchNumEmergencyRecipientsWithReceiverHandles:handler:"
++ "fetchNumFavoriteRecipientsWithReceiverHandles:handler:"
++ "fetchNumiCloudFamilyRecipientsWithReceiverHandles:handler:"
++ "isAnomalyState"
++ "isMonitoringState"
++ "numRecipientsInEmergency"
++ "numRecipientsInFavorites"
++ "numRecipientsIniCloudFamily"
++ "sessionStartTimeOfDay"
++ "setDateFormat:"
++ "setTimeZone:"
++ "v24@?0Q8@\"NSError\"16"
++ "yyyy-MM-dd HH:mm:ss"
+- "Cellular Data Required"
+- "analyticsSendSessionStartEntryEvent(sessionConfiguration:)"
 
 ```

@@ -45,7 +45,7 @@
 -  Functions: 500
 +  Functions: 493
    Symbols:   161
-   CStrings:  0
+   CStrings:  214
  
 
 ```

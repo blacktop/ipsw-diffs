@@ -39,9 +39,10 @@
    - /usr/lib/libobjc.A.dylib
 -  Functions: 317
 -  Symbols:   591
+-  CStrings:  106
 +  Functions: 314
 +  Symbols:   582
-   CStrings:  0
++  CStrings:  105
  
 Symbols:
 - _CFBooleanGetTypeID
@@ -50,5 +51,9 @@ Symbols:
 - _TelephonyBasebandWatchdogStop
 - __ZN12capabilities3abs27kKeySupportsCMHandDetectionE
 - __ZN3ctu2cf6assignERbPK11__CFBoolean
+CStrings:
++ "AppleBasebandManager-AppleBasebandServices_Manager-1180"
+- "AppleBasebandManager-AppleBasebandServices_Manager-1179"
+- "Watchdog timed out"
 
 ```

@@ -30,9 +30,9 @@
    __TEXT.__swift5_fieldmd: 0x2308
    __TEXT.__swift5_builtin: 0x1a4
 
+   __TEXT.__swift5_capture: 0xde4
    __TEXT.__swift5_mpenum: 0x18
    __TEXT.__swift5_protos: 0x1c
-   __TEXT.__info_plist: 0x5e7
 -  __TEXT.__unwind_info: 0x6900
 -  __TEXT.__eh_frame: 0xa5f8
 -  __DATA_CONST.__auth_got: 0x1b40

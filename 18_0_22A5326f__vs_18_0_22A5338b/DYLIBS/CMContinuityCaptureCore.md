@@ -71,9 +71,10 @@
    - /usr/lib/libobjc.A.dylib
 -  Functions: 2244
 -  Symbols:   3139
+-  CStrings:  4062
 +  Functions: 2234
 +  Symbols:   3123
-   CStrings:  0
++  CStrings:  4030
  
 Symbols:
 + _CMContinuityCaptureDeviceActiveConfigurationKVOKey
@@ -86,5 +87,69 @@ Symbols:
 - _kCMContinuityCaptureEventAWDLDegradedEntry
 - _kCMContinuityCaptureEventAWDLDegradedExit
 - _kdebug_trace
+CStrings:
++ "\x04\x11##"
++ "%!{(MISSING)public}@ postEvent : %!{(MISSING)public}@ entity : %!d(MISSING)"
++ "-[CMContinuityCaptureProvider registerStreamIntentForDevice:forTransportType:completion:]"
++ "-[CMContinuityCaptureVideoDevice stateMachineStartSendingBlurredFrames]"
++ "-[CMContinuityCaptureVideoDevice stateMachineStopSendingBlurredFrames]"
++ "-[CMContinuityCaptureXPCClientCCD connectToContinuityCaptureServerWithDelegate:]_block_invoke_5"
++ "-[CMContinuityCaptureXPCServerCCD listener:shouldAcceptNewConnection:]_block_invoke_4"
++ "@\"NSObject<OS_os_transaction>\""
++ "_blurredFrameDispatchTimer"
++ "_blurredFrameTimerActive"
++ "_transaction"
++ "com.apple.continuitycamera"
++ "stateMachineStartSendingBlurredFrames"
++ "stateMachineStopSendingBlurredFrames"
++ "v24@?0@\"CMContinuityCaptureState\"8@\"CMContinuityCaptureStateMachineEvent\"16"
+- "\x04\x11#\""
+- "%!{(MISSING)public}@ %!{(MISSING)public}s device:%!{(MISSING)public}@"
+- "%!{(MISSING)public}@ Connection Interrupted, AWDL Degraded"
+- "-[CMContinuityCaptureCompositeDevice _disableStreamSessionForDevice:]"
+- "-[CMContinuityCaptureProvider _registerStreamIntentForDevice:forTransportType:completion:]"
+- "-[CMContinuityCaptureTimeSyncClock initWithClock:]"
+- "-[CMContinuityCaptureTimeSyncClock startEmittingHeartBeatSignposts]"
+- "-[CMContinuityCaptureTimeSyncClock startEmittingHeartBeatSignposts]_block_invoke"
+- "-[CMContinuityCaptureVideoDevice stateMachineStartPauseTimer]"
+- "-[CMContinuityCaptureVideoDevice stateMachineStopPauseTimer]"
+- "-[CMContinuityCaptureXPCClientCCD connectToContinuityCaptureServerWithDelegate:]_block_invoke_2"
+- "-[CMContinuityCaptureXPCServerCCD listener:shouldAcceptNewConnection:]_block_invoke_2"
+- "-[CVPixelBufferCoder _createPixelBufferForImage:fillWidth:fillHeight:]"
+- "-[CVPixelBufferCoder encodeWithCoder:]"
+- "-[CVPixelBufferCoder initWithCoder:]"
+- "-[NSCoder(CVPixelBuffer) decodeCVPixelBufferForKey:expectSourceMedia:]"
+- "<<<< CMContinuityCaptureTimeSyncClock >>>> %!s(MISSING): %!@(MISSING) %!l(MISSING)ld: (%!l(MISSING)ld) %!l(MISSING)ld -> %!l(MISSING)ld"
+- "<<<< CMContinuityCaptureTimeSyncClock >>>> %!s(MISSING): %!@(MISSING) starting heart beat signposts with interval %!l(MISSING)u seconds"
+- "<<<< CMContinuityCaptureTimeSyncClock >>>> %!s(MISSING): Failed to create PTP clock with identifier %!l(MISSING)lu, available identifiers %!@(MISSING)"
+- "<<<< CMContinuityCaptureXPCClientCCD >>>> %!s(MISSING): connection interrupted %!@(MISSING). Scheduling reconnect in 3 seconds."
+- "<<<< CMContinuityCaptureXPCClientCCD >>>> %!s(MISSING): connection invalidated %!@(MISSING)"
+- "<<<< CMContinuityCaptureXPCServer >>>> %!s(MISSING): connection interrupted %!@(MISSING)"
+- "<<<< CMContinuityCaptureXPCServer >>>> %!s(MISSING): connection invalidated %!@(MISSING)"
+- "<<<< NSCoding+CVPixelBufferRef >>>> %!s(MISSING): Could not create pixel buffer: %!d(MISSING)"
+- "<<<< NSCoding+CVPixelBufferRef >>>> %!s(MISSING): Could not read source media %!@(MISSING), falling back to pixel buffer copy"
+- "<<<< NSCoding+CVPixelBufferRef >>>> %!s(MISSING): Could not serialize pixel buffer, error %!d(MISSING)"
+- "<<<< NSCoding+CVPixelBufferRef >>>> %!s(MISSING): Error creating pixel buffer %!z(MISSING)u x %!z(MISSING)u: %!d(MISSING)"
+- "<<<< NSCoding+CVPixelBufferRef >>>> %!s(MISSING): Expected source media but pixel buffer data was found instead (not fatal)"
+- "<<<< NSCoding+CVPixelBufferRef >>>> %!s(MISSING): Failed to create pixel buffer %!z(MISSING)u x %!z(MISSING)u"
+- "<<<< NSCoding+CVPixelBufferRef >>>> %!s(MISSING): Fallback not using atom data, outdated peer connection for pixel buffer"
+- "<<<< NSCoding+CVPixelBufferRef >>>> %!s(MISSING): No pixel data"
+- "<<<< NSCoding+CVPixelBufferRef >>>> %!s(MISSING): bad source image offset"
+- "<<<< NSCoding+CVPixelBufferRef >>>> %!s(MISSING): image planes don't match, encoded %!d(MISSING) allocated %!d(MISSING)"
+- "<<<< NSCoding+CVPixelBufferRef >>>> %!s(MISSING): source image offset overrun"
+- "<<<< NSCoding+CVPixelBufferRef >>>> %!s(MISSING): source image stride overrun"
+- "_disableStreamSessionForDevice:"
+- "_fakeFrameDispatchTimer"
+- "_registerStreamIntentForDevice:forTransportType:completion:"
+- "_unregisterStreamIntentForDevice:"
+- "availableClockIdentifiers"
+- "cmcontinuitycapturetimesyncclock_trace"
+- "continuitycapture_timesync_heartbeat_interval"
+- "disableStreamSessionForDevice:"
+- "kCMContinuityCaptureEventAWDLDegradedEntry"
+- "kCMContinuityCaptureEventAWDLDegradedExit"
+- "stateMachineStartPauseTimer"
+- "stateMachineStopPauseTimer"
+- "\xf0Q"
 
 ```

@@ -59,14 +59,25 @@
    - /usr/lib/libobjc.A.dylib
 -  Functions: 772
 -  Symbols:   1249
+-  CStrings:  1954
 +  Functions: 780
 +  Symbols:   1258
-   CStrings:  0
++  CStrings:  1961
  
 Symbols:
 + _TIInputModeGetMultilingualSetFromInputModesWithPreferredLanguages
 + _TIUIGetMultlingualSetsAreEqual
 + _TIUIGetPairedInputModesForInputMode
 - _TIUIGetLanguagesForMultilingualSet
+CStrings:
++ "TB,N,V_showingLanguagesSection"
++ "_showingLanguagesSection"
++ "preferredLanguages"
++ "removeInputModeInMultilingualSet:"
++ "setShowingLanguagesSection:"
++ "showingLanguagesSection"
++ "updateTitle"
++ "vi_VN"
+- "setWithCapacity:"
 
 ```

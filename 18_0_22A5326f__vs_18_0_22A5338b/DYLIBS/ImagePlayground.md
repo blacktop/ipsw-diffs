@@ -49,7 +49,7 @@
 -  Functions: 15780
 +  Functions: 15717
    Symbols:   1007
-   CStrings:  0
+   CStrings:  2557
  
 
 ```

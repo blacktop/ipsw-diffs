@@ -39,12 +39,17 @@
    - /usr/lib/swift/libswiftunistd.dylib
 -  Functions: 398
 -  Symbols:   212
+-  CStrings:  1050
 +  Functions: 399
 +  Symbols:   214
-   CStrings:  0
++  CStrings:  1051
  
 Symbols:
 + _OBJC_CLASS_$_NSThread
 + __dispatch_main_q
+CStrings:
++ "T@\"NSArray\",&,V_userKeyboards"
++ "isMainThread"
+- "T@\"NSArray\",&,N,V_userKeyboards"
 
 ```

@@ -75,9 +75,10 @@
    - /usr/lib/swift/libswiftunistd.dylib
 -  Functions: 15116
 -  Symbols:   6333
+-  CStrings:  2742
 +  Functions: 15155
 +  Symbols:   6382
-   CStrings:  0
++  CStrings:  2800
  
 Symbols:
 + _CCPBDataWriterWriteDoubleField
@@ -93,5 +94,62 @@ Symbols:
 + _OBJC_CLASS_$_CCRepeatedInt64
 + _OBJC_METACLASS_$_CCPeopleSuggesterContactPriorContent
 + _OBJC_METACLASS_$_CCPeopleSuggesterContactPriorMetaContent
+CStrings:
++ "@\"CCRepeatedFloat\""
++ "@\"CCRepeatedInt64\""
++ "CCPeopleSuggesterContactPriorContent"
++ "CCPeopleSuggesterContactPriorMetaContent"
++ "PeopleSuggester.ContactPrior"
++ "PeopleSuggesterContactPrior"
++ "T@\"CCRepeatedFloat\",R,N,V_priorScore"
++ "T@\"CCRepeatedInt64\",R,N,V_sourceSharedIdentifier"
++ "T@\"NSString\",R,N,V_modelName"
++ "T@\"NSString\",R,N,V_modelVersion"
++ "TB,N,V_hasMinVersion"
++ "TB,N,V_hasReferenceDate"
++ "TB,N,V_hasVersion"
++ "TI,R,N,V_minVersion"
++ "TI,R,N,V_version"
++ "Td,R,N,V_referenceDate"
++ "_hasMinVersion"
++ "_hasReferenceDate"
++ "_hasVersion"
++ "_minVersion"
++ "_modelName"
++ "_modelVersion"
++ "_priorScore"
++ "_referenceDate"
++ "_sourceSharedIdentifier"
++ "_version"
++ "appendFloatValue:"
++ "appendInt64Value:"
++ "d"
++ "d16@0:8"
++ "doubleValue"
++ "enumerateFloatValuesWithBlock:"
++ "enumerateInt64ValuesWithBlock:"
++ "hasMinVersion"
++ "hasReferenceDate"
++ "hasVersion"
++ "initWithFieldType:doubleValue:"
++ "initWithFieldType:repeatedFloatValue:"
++ "initWithFieldType:repeatedInt64Value:"
++ "initWithVersion:minVersion:sourceSharedIdentifier:priorScore:modelName:modelVersion:referenceDate:error:"
++ "minVersion"
++ "minVersion"
++ "modelName"
++ "modelName"
++ "numberWithDouble:"
++ "priorScore"
++ "priorScore"
++ "referenceDate"
++ "referenceDate"
++ "setHasMinVersion:"
++ "setHasReferenceDate:"
++ "setHasVersion:"
++ "sourceSharedIdentifier"
++ "sourceSharedIdentifier"
++ "v12@?0f8"
++ "v16@?0q8"
 
 ```

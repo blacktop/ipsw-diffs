@@ -61,9 +61,10 @@
    - /usr/lib/libsysdiagnose.dylib
 -  Functions: 3478
 -  Symbols:   4762
+-  CStrings:  2013
 +  Functions: 3465
 +  Symbols:   4739
-   CStrings:  0
++  CStrings:  1988
  
 Symbols:
 - _CFArrayGetCount
@@ -76,5 +77,33 @@ Symbols:
 - __ZGVN3ctu9SingletonI21CapabilitiesOverridesS1_NS_23PthreadMutexGuardPolicyIS1_EEE9sInstanceE
 - __ZN12capabilities3abs27kKeySupportsCMHandDetectionE
 - __ZN3ctu9SingletonI21CapabilitiesOverridesS1_NS_23PthreadMutexGuardPolicyIS1_EEE9sInstanceE
+CStrings:
++ "Default pattern masks will be used"
+- "#I Showing notification: %!s(MISSING)"
+- "#I error=%!d(MISSING), responseFlags=0x%!l(MISSING)x"
+- "Baseband DIAG DMC Integrity Match"
+- "Baseband Logging Mode has been changed"
+- "Baseband Trace Mode has been changed"
+- "Capability %!s(MISSING) returning overridden value"
+- "Cellular Problem"
+- "Cellular Radar Notifications Disabled"
+- "Cellular Sysdiagnose Complete"
+- "DIAG Mode changed"
+- "DIAG Service Error"
+- "ETB Configuration"
+- "Integrity check for DMC file found an issue. Please file a radar under Purple ETL"
+- "Mode has changed. Please, reboot the device"
+- "No ResetInfoRegexPatterns entry found in ABMProperties, so the default patterns will be used"
+- "OK"
+- "Reboot the device before continuing to use the baseband trace"
+- "ResetInfoReasonRegexPattern"
+- "ResetInfoReasonRegexPatternMask"
+- "ResetInfoRegexPatterns"
+- "Resetting the baseband to apply your change"
+- "Restart the device before continuing to use DIAG trace"
+- "Restart the device before continuing to use the baseband trace"
+- "To control notifications please go to:\n\nSettings > Carrier Settings > Baseband Manager > Logging Settings > Radar Notifications"
+- "Watchdog timed out"
+- "com.apple.telephony.capabilities"
 
 ```

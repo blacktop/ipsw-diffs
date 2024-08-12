@@ -47,7 +47,7 @@
 -  Functions: 923
 +  Functions: 918
    Symbols:   196
-   CStrings:  0
+   CStrings:  74
  
 
 ```

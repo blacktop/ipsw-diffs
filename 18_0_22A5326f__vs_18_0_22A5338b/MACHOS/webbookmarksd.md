@@ -24,7 +24,6 @@
 -  __TEXT.__objc_methtype: 0x3ee
 +  __TEXT.__objc_methtype: 0x3ff
    __TEXT.__oslogstring: 0x1a0b
-   __TEXT.__info_plist: 0x589
 -  __TEXT.__unwind_info: 0x490
 +  __TEXT.__unwind_info: 0x4a0
    __DATA_CONST.__auth_got: 0x460

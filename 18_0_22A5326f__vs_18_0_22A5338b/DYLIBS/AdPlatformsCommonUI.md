@@ -56,9 +56,10 @@
    - /usr/lib/libobjc.A.dylib
 -  Functions: 25
 -  Symbols:   72
+-  CStrings:  158
 +  Functions: 29
 +  Symbols:   81
-   CStrings:  0
++  CStrings:  166
  
 Symbols:
 + _OBJC_CLASS_$_NSArray
@@ -70,5 +71,14 @@ Symbols:
 + _objc_initWeak
 + _objc_loadWeakRetained
 + _objc_storeStrong
+CStrings:
++ "\x01"
++ ".cxx_destruct"
++ "@\"NSArray\""
++ "T@\"NSArray\",&,N,V_userKeyboards"
++ "_userKeyboards"
++ "isMainThread"
++ "setUserKeyboards:"
++ "userKeyboards"
 
 ```

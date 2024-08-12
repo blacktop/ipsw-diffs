@@ -75,11 +75,31 @@
    - /usr/lib/swift/libswiftunistd.dylib
 -  Functions: 5051
 -  Symbols:   378
+-  CStrings:  903
 +  Functions: 5127
 +  Symbols:   382
-   CStrings:  0
++  CStrings:  917
  
 Symbols:
 + _NSPersistentHistoryTokenKey
+CStrings:
++ " illegally accessed before T.init(backingData:) set the backing data"
++ "%@ is attempting to flip a captured a temporary persistentIdentifier for %!s(MISSING) on %!s(MISSING)"
++ "%!s(MISSING): Unbinding from the main queue. This context was instantiated on the main queue but is being used off it. ModelContexts are not Sendable, consider using a ModelActor."
++ "Cannot fulfill future for %!s(MISSING) without a context %!s(MISSING)"
++ "Illegal attempt to create a full future for a temporary identifier. These won't be resolvable after the temporary object is deallocated: %!s(MISSING)"
++ "Illegal attempt to flip a temporary object to a future %!s(MISSING): %!s(MISSING)"
++ "Illegal attempt to flip relationships to IDs when not bound to a context."
++ "Illegal attempt to map a relationship containing temporary objects to its identifiers."
++ "Invalid access before setting the backing data"
++ "ModelContainerRemoteChange"
++ "Mutated models cannot turn their relationships in to futures."
++ "PersistentIdentifier %!s(MISSING) was remapped to a temporary identifier during save: %!s(MISSING). This is a fatal logic error in %!s(MISSING)"
++ "This backing data has no persistent identifier but is attempting to flip relationships? %!s(MISSING)"
++ "This backing data has no persistent identifier? %!s(MISSING)"
++ "This backing data has retained a temporary object ID beyond the mutations to the context %!s(MISSING)"
++ "_persistentModelID"
+- " without a context "
+- "Cannot fulfill future for "
 
 ```

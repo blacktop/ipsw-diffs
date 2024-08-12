@@ -69,10 +69,10 @@
    - /usr/lib/swift/libswiftunistd.dylib
 -  Functions: 1394
 -  Symbols:   2503
--  CStrings:  36
+-  CStrings:  58
 +  Functions: 1398
 +  Symbols:   2512
-+  CStrings:  23
++  CStrings:  59
  
 Symbols:
 + _$s10Foundation6LocaleV10identifierACSS_tcfC
@@ -87,58 +87,8 @@ Symbols:
 + _objc_retain_x10
 - _$s7SwiftUI9ShareLinkVAAs5NeverORs_AERs0_rlE4item7subject7message5labelACys15CollectionOfOneVy10Foundation3URLVGA2Eq1_GAN_AA4TextVSgASq1_yXEtcAORszrlufC
 CStrings:
-+ "\b\x19<o"
-+ "\x18\x18<o"
-+ "\x18\x1c<o"
-+ "(\x1a<o"
-+ "@\x81\x88\xe9"
-+ "H\x19<o"
-+ "`\x83\x88\xe9"
-+ "\x81\x88\xe9"
-+ "\x98C\xd8`"
-+ "\x98\x7f\x88\xe9"
-+ "\x98\x80\x88\xe9"
-+ "\xa0\x81\x88\xe9"
-+ "\xa8\x19<o"
-+ "\xa8C\xd8`"
-+ "\xb8\x7f\x88\xe9"
-+ "\xb8\x7f\x88\xe9"
-+ "\xc0z\xaa\xdc"
-+ "\xc0z\xaa\xdc"
-+ "\xe0\x17<o"
-+ "\xf8\x17<o"
-- "\x01\x01\xb7^"
-- "\x01A"
-- "\x01A"
-- "\x10W\xb8\xe9"
-- "\x10\xa5\xcan"
-- "\x1c\xb8\xe9"
-- " q\xd1\xdc"
-- "0W\xb8\xe9"
-- "8\x95\xcan"
-- "@\x95\xcan"
-- "H\xbb\xcan"
-- "H\xc9\xcan"
-- "P\xca\xcan"
-- "X\\\xd1\xdc"
-- "`+r`"
-- "x\xbb\xcan"
-- "\x80E\xb8\xe9"
-- "\x88/r`"
-- "\x903r`"
-- "\x90\xca\xcan"
-- "\x98\x1a\xb8\xe9"
-- "\xa0\x1a\xb8\xe9"
-- "\xa0\xb3\xcan"
-- "\xb0I\xb8\xe9"
-- "\xb0X\xb8\xe9"
-- "\xb8I\xb8\xe9"
-- "\xc7\xcan"
-- "\xd0X\xb8\xe9"
-- "\xd8I\xb8\xe9"
-- "\xe0I\xb8\xe9"
-- "\xe0\xc6\xcan"
-- "\xf8[\xd1\xdc"
-- "\xf8\xc6\xcan"
++ "languageCode"
++ "sharedPreferences"
+- "square.and.arrow.up"
 
 ```

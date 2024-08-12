@@ -15,11 +15,8 @@
 -  __TEXT.__oslogstring: 0xf0b8
 +  __TEXT.__oslogstring: 0xf0e9
    __TEXT.__objc_classname: 0x1
--  __TEXT.__info_plist: 0x241
-+  __TEXT.__info_plist: 0x242
    __TEXT.__unwind_info: 0x518
    __TEXT.__eh_frame: 0x74
-   __DATA_CONST.__auth_got: 0x910
 
    - /usr/lib/libmrc.dylib
    Functions: 407

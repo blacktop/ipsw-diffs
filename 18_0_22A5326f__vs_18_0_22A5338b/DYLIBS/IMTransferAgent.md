@@ -41,4 +41,19 @@
    __AUTH_CONST.__objc_intobj: 0x48
    __AUTH_CONST.__objc_arrayobj: 0x18
 
+   - /usr/lib/libobjc.A.dylib
+   Functions: 247
+   Symbols:   266
+-  CStrings:  916
++  CStrings:  923
+ 
+CStrings:
++ "preKey"
++ "recordId"
++ "setPreBlastDoorPayloadData:"
++ "wallpaperDataTag"
++ "wallpaperLowResDataTag"
++ "wallpaperMetadataTag"
++ "wallpaperRecordId"
+
 ```

@@ -17,12 +17,6 @@
    __TEXT.__launchd: 0x1
    __TEXT.__objc_methname: 0x8
    __TEXT.__objc_classname: 0x1ba
-   __TEXT.__objc_methtype: 0x8
--  __TEXT.__info_plist: 0x4dc
-+  __TEXT.__info_plist: 0x4cd
-   __TEXT.__config: 0x2544
-   __TEXT.__dof_launchd: 0x67c
-   __TEXT.__unwind_info: 0x1150
 CStrings:
 + "@(#)VERSION:Darwin Bootstrapper Version 7.0.0: Tue Aug  6 10:48:58 PDT 2024; root:libxpc_executables-2866.2.1~25/launchd/RELEASE_ARM64E"
 + "Darwin Bootstrapper Version 7.0.0: Tue Aug  6 10:48:58 PDT 2024; root:libxpc_executables-2866.2.1~25/launchd/RELEASE_ARM64E"

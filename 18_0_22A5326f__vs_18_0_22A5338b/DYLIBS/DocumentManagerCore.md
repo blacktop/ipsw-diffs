@@ -60,9 +60,15 @@
    - /usr/lib/swift/libswiftunistd.dylib
 -  Functions: 1312
 -  Symbols:   1689
+-  CStrings:  2253
 +  Functions: 1314
 +  Symbols:   1691
-   CStrings:  0
++  CStrings:  2257
  
+CStrings:
++ "TB,R,N,GisCopying"
++ "copying"
++ "isCopying"
++ "isFinished"
 
 ```

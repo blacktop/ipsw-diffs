@@ -44,9 +44,7 @@
 -  __TEXT.__swift5_types: 0x2c4
 +  __TEXT.__swift5_types: 0x2bc
    __TEXT.__swift5_assocty: 0x380
--  __TEXT.__info_plist: 0x4d6
 -  __TEXT.__unwind_info: 0x9ab8
-+  __TEXT.__info_plist: 0x4cc
 +  __TEXT.__unwind_info: 0x9a58
    __TEXT.__eh_frame: 0x5280
 -  __DATA_CONST.__auth_got: 0x2708

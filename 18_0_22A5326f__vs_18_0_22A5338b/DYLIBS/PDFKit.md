@@ -45,10 +45,17 @@
    - /usr/lib/libobjc.A.dylib
    Functions: 3381
 -  Symbols:   4546
+-  CStrings:  6244
 +  Symbols:   4545
-   CStrings:  0
++  CStrings:  6241
  
 Symbols:
 - _PDFPageAnnotationActivatedNotification
+CStrings:
++ "/AppleInternal/Library/BuildRoots/73ead547-538c-11ef-b249-5a7ac3341c94/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.Internal.sdk/System/Library/Frameworks/CoreGraphics.framework/PrivateHeaders/CGBuf.h"
+- "/AppleInternal/Library/BuildRoots/de64b714-4816-11ef-877a-1aec23608739/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.Internal.sdk/System/Library/Frameworks/CoreGraphics.framework/PrivateHeaders/CGBuf.h"
+- "PDFPageAnnotationActivatedNotificationNotification"
+- "setWritingToolsAllowedInputOptions:"
+- "writingToolsAllowedInputOptions"
 
 ```

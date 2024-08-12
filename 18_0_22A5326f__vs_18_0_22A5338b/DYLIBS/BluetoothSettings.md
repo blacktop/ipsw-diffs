@@ -27,4 +27,13 @@
    __AUTH_CONST.__objc_intobj: 0x30
    __AUTH.__objc_data: 0x420
 
+   - /usr/lib/swift/libswiftunistd.dylib
+   Functions: 506
+   Symbols:   795
+-  CStrings:  1281
++  CStrings:  1282
+ 
+CStrings:
++ "DADeviceLost"
+
 ```

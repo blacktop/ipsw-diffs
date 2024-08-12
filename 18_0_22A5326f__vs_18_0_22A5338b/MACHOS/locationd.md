@@ -32,9 +32,9 @@
    __TEXT.__swift5_typeref: 0x17d
    __TEXT.__swift5_fieldmd: 0x90
 
+   __TEXT.__swift5_reflstr: 0x29
    __TEXT.__swift5_builtin: 0x14
    __TEXT.__swift5_capture: 0x40
-   __TEXT.__info_plist: 0x6c6
 -  __TEXT.__unwind_info: 0x5c1c0
 +  __TEXT.__unwind_info: 0x5c330
    __TEXT.__eh_frame: 0x1350

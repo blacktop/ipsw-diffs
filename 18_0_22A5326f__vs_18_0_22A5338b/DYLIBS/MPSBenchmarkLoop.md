@@ -28,4 +28,13 @@
    __DATA.__objc_ivar: 0x208
    __DATA.__data: 0x300
 
+   - /usr/lib/libobjc.A.dylib
+   Functions: 233
+   Symbols:   155
+-  CStrings:  1609
++  CStrings:  1610
+ 
+CStrings:
++ "supportsExtendedSamplerLODBiasRange"
+
 ```

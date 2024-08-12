@@ -52,14 +52,20 @@
    - /usr/lib/swift/libswiftunistd.dylib
 -  Functions: 566
 -  Symbols:   143
+-  CStrings:  96
 +  Functions: 574
 +  Symbols:   147
-   CStrings:  0
++  CStrings:  100
  
 Symbols:
 + _OBJC_CLASS_$_DMFSetAppAllowUserToHideRequest
 + _OBJC_CLASS_$_DMFSetAppAllowUserToLockRequest
 + _kMDMManagedAppAttributeAllowUserHidden
 + _kMDMManagedAppAttributeAllowUserLocked
+CStrings:
++ "DMFSetAppAllowUserToHideRequest"
++ "DMFSetAppAllowUserToLockRequest"
++ "setAllowUserToHide:"
++ "setAllowUserToLock:"
 
 ```

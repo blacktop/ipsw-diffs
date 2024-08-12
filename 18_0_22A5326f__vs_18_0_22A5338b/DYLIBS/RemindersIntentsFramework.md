@@ -62,7 +62,7 @@
 -  Symbols:   251
 +  Functions: 552
 +  Symbols:   244
-   CStrings:  0
+   CStrings:  513
  
 Symbols:
 - _OBJC_CLASS_$_CLRegion

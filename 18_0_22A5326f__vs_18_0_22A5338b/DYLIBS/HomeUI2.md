@@ -42,7 +42,7 @@
 -  Functions: 1454
 +  Functions: 1440
    Symbols:   214
-   CStrings:  0
+   CStrings:  225
  
 
 ```

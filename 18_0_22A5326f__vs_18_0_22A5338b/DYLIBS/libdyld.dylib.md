@@ -37,9 +37,10 @@
    - /usr/lib/system/libxpc.dylib
 -  Functions: 997
 -  Symbols:   1288
+-  CStrings:  510
 +  Functions: 957
 +  Symbols:   1244
-   CStrings:  0
++  CStrings:  481
  
 Symbols:
 + _malloc_type_aligned_alloc
@@ -47,5 +48,35 @@ Symbols:
 - _os_unfair_lock_assert_not_owner
 - _os_unfair_lock_assert_owner
 - _vm_page_mask
+CStrings:
+- "\n\tRequested allgnment: 0x"
+- "\n\tRequested size: 0x"
+- "\n\tRequested target allgnment: 0x"
+- "\n\tRequested target size: 0x"
+- "\n\tkern return: 0x"
+- "!allocated()"
+- "(uint64_t)result != (uint64_t)this"
+- "0 && \"vm_allocate failed\""
+- "AllocationMetadata"
+- "Could not vm_allocate 0x"
+- "Pool"
+- "_lastFreeMetadata->pool() == this"
+- "aligned_alloc_best_fit"
+- "allocated()"
+- "buffer != nullptr"
+- "consumeSpace"
+- "consumedSpace <= size"
+- "deallocate"
+- "free()"
+- "markAllocated"
+- "pool"
+- "region.contains(freeRegion)"
+- "reserve"
+- "result"
+- "setPoolHint"
+- "size != 0"
+- "stackAllocatorInternal"
+- "v16@?0r^{Buffer=^vQ}8"
+- "vm_allocate_bytes"
 
 ```

@@ -28,4 +28,14 @@
    __AUTH_CONST.__objc_dictobj: 0x78
    __AUTH_CONST.__objc_arrayobj: 0x48
 
+   - /usr/lib/libobjc.A.dylib
+   Functions: 2683
+   Symbols:   3673
+-  CStrings:  4438
++  CStrings:  4436
+ 
+CStrings:
+- "setWritingToolsAllowedInputOptions:"
+- "writingToolsAllowedInputOptions"
+
 ```

@@ -27,11 +27,10 @@
    __TEXT.__const: 0x418
 -  __TEXT.__oslogstring: 0x1d66f
 -  __TEXT.__dlopen_cstrs: 0x59a
-+  __TEXT.__oslogstring: 0x1d27c
-+  __TEXT.__dlopen_cstrs: 0x60a
-   __TEXT.__info_plist: 0x60b
 -  __TEXT.__unwind_info: 0x5840
 -  __DATA_CONST.__auth_got: 0x898
++  __TEXT.__oslogstring: 0x1d27c
++  __TEXT.__dlopen_cstrs: 0x60a
 +  __TEXT.__unwind_info: 0x5610
 +  __DATA_CONST.__auth_got: 0x888
    __DATA_CONST.__got: 0xd50

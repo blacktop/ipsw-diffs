@@ -22,4 +22,14 @@
    __AUTH_CONST.__objc_arrayobj: 0x168
    __AUTH_CONST.__objc_doubleobj: 0xa0
 
+   - /usr/lib/libobjc.A.dylib
+   Functions: 5275
+   Symbols:   6719
+-  CStrings:  8704
++  CStrings:  8702
+ 
+CStrings:
+- "setWritingToolsAllowedInputOptions:"
+- "writingToolsAllowedInputOptions"
+
 ```

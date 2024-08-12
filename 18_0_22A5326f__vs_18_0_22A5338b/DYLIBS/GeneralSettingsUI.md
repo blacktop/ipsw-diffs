@@ -62,9 +62,22 @@
    - /usr/lib/swift/libswiftunistd.dylib
 -  Functions: 930
 -  Symbols:   1538
+-  CStrings:  2530
 +  Functions: 936
 +  Symbols:   1545
-   CStrings:  0
++  CStrings:  2535
  
+CStrings:
++ "CHResetInventory"
++ "Resetting personal handwriting style"
++ "localizedCompare:"
++ "q24@?0@\"NSString\"8@\"NSString\"16"
++ "resetPersonalHandwritingStyle:"
++ "softlink:r:path:/System/Library/PrivateFrameworks/CoreHandwriting.framework/CoreHandwriting"
++ "sortDateTimeGroupIdentifiers:"
++ "v32@?0@\"NSString\"8Q16^B24"
+- "compare:options:range:locale:"
+- "setSpecifiers:"
+- "sortDateTimeGroupWithSpecifiers changed order, re-setting specifiers"
 
 ```

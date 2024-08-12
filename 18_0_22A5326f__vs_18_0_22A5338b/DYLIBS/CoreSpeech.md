@@ -35,4 +35,14 @@
    __DATA_CONST.__objc_superrefs: 0x698
    __DATA_CONST.__objc_arraydata: 0x438
 
+   - /usr/lib/libobjc.A.dylib
+   Functions: 8285
+   Symbols:   10072
+-  CStrings:  14477
++  CStrings:  14479
+ 
+CStrings:
++ "%!s(MISSING) Asking Exclave Audio"
++ "isHypotheticalAudioRouteBluetoothFromAudioSessinoId:"
+
 ```

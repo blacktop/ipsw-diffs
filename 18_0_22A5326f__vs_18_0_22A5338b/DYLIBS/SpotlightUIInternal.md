@@ -58,9 +58,14 @@
    - /usr/lib/swift/libswiftunistd.dylib
 -  Functions: 1134
 -  Symbols:   1614
+-  CStrings:  2436
 +  Functions: 1133
 +  Symbols:   1613
-   CStrings:  0
++  CStrings:  2433
  
+CStrings:
+- "TB,V_hasBeenDisplayed"
+- "_hasBeenDisplayed"
+- "setHasBeenDisplayed:"
 
 ```

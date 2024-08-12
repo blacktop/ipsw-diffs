@@ -50,12 +50,28 @@
    - /usr/lib/libobjc.A.dylib
 -  Functions: 6096
 -  Symbols:   7021
+-  CStrings:  2779
 +  Functions: 6105
 +  Symbols:   7030
-   CStrings:  0
++  CStrings:  2791
  
 Symbols:
 + _RBDrawingStateAddAnimationStyle2
 + _RBDrawingStateCopyTransition
+CStrings:
++ "(flags 0x%!x(MISSING))"
++ "6.0.87"
++ "T{?={CGVector=dd}{CGVector=dd}},N"
++ "addAnimationStyle:id:flags:"
++ "always"
++ "change"
++ "copyApplyingToDisplayList:"
++ "copyContentsWithProgress:"
++ "copyFilteredDisplayList:"
++ "never"
++ "newInterpolatorWithFrom:to:options:"
++ "setTransform:"
++ "v44@0:8@16{?=[16C]}24I40"
+- "6.0.85"
 
 ```

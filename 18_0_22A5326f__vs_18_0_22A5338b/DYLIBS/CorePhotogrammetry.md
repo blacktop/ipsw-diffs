@@ -18,5 +18,12 @@
    - /System/Library/Frameworks/Accelerate.framework/Accelerate
    - /System/Library/Frameworks/Accelerate.framework/Frameworks/vImage.framework/vImage
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+CStrings:
++ "/AppleInternal/Library/BuildRoots/73ead547-538c-11ef-b249-5a7ac3341c94/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.Internal.sdk/usr/local/include/usd/pxr/base/tf/refPtr.h"
++ "/AppleInternal/Library/BuildRoots/73ead547-538c-11ef-b249-5a7ac3341c94/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.Internal.sdk/usr/local/include/usd/pxr/usd/sdf/declareHandles.h"
++ "/AppleInternal/Library/BuildRoots/73ead547-538c-11ef-b249-5a7ac3341c94/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.Internal.sdk/usr/local/include/usd/pxr/usd/usd/object.h"
+- "/AppleInternal/Library/BuildRoots/de64b714-4816-11ef-877a-1aec23608739/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.Internal.sdk/usr/local/include/usd/pxr/base/tf/refPtr.h"
+- "/AppleInternal/Library/BuildRoots/de64b714-4816-11ef-877a-1aec23608739/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.Internal.sdk/usr/local/include/usd/pxr/usd/sdf/declareHandles.h"
+- "/AppleInternal/Library/BuildRoots/de64b714-4816-11ef-877a-1aec23608739/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.Internal.sdk/usr/local/include/usd/pxr/usd/usd/object.h"
 
 ```

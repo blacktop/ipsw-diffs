@@ -44,11 +44,18 @@
    - /usr/lib/libz.1.dylib
 -  Functions: 6358
 -  Symbols:   782
+-  CStrings:  4426
 +  Functions: 6355
 +  Symbols:   781
-   CStrings:  0
++  CStrings:  4421
  
 Symbols:
 - _kCIImageContentHeadroom
+CStrings:
+- "@56@0:8@16@24@32^{CGColorSpace=}40B48f52"
+- "@60@0:8@16@24@32^{CGColorSpace=}40B48B52f56"
+- "apply:image:arguments:inoutSpace:isPremultiplied:contentHeadroom:"
+- "apply:image:arguments:inoutSpace:isPremultiplied:isAlphaOne:contentHeadroom:"
+- "contentHeadroom"
 
 ```

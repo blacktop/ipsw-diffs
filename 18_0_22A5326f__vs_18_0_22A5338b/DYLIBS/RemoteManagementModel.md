@@ -51,9 +51,25 @@
    - /usr/lib/libobjc.A.dylib
 -  Functions: 2468
 -  Symbols:   3058
+-  CStrings:  2883
 +  Functions: 2472
 +  Symbols:   3062
-   CStrings:  0
++  CStrings:  2895
  
+CStrings:
++ "Hideable"
++ "Lockable"
++ "T@\"NSNumber\",C,N,V_payloadHideable"
++ "T@\"NSNumber\",C,N,V_payloadLockable"
++ "_payloadHideable"
++ "_payloadLockable"
++ "buildWithHideable:lockable:associatedDomains:associatedDomainsEnableDirectDownloads:cellularSliceUUID:contentFilterUUID:dnsProxyUUID:relayUUID:tapToPayScreenLock:VPNUUID:"
++ "payloadHideable"
++ "payloadHideable"
++ "payloadLockable"
++ "payloadLockable"
++ "setPayloadHideable:"
++ "setPayloadLockable:"
+- "buildWithAssociatedDomains:associatedDomainsEnableDirectDownloads:cellularSliceUUID:contentFilterUUID:dnsProxyUUID:relayUUID:tapToPayScreenLock:VPNUUID:"
 
 ```

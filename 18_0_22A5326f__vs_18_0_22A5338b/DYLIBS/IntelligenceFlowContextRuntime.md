@@ -36,7 +36,7 @@
 -  Functions: 2095
 +  Functions: 2093
    Symbols:   244
-   CStrings:  0
+   CStrings:  515
  
 
 ```

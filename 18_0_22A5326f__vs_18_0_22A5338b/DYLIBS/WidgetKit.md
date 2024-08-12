@@ -81,7 +81,12 @@
 -  Functions: 11140
 +  Functions: 11187
    Symbols:   704
-   CStrings:  0
+-  CStrings:  1212
++  CStrings:  1215
  
+CStrings:
++ "Encountered action intent without linkAction"
++ "authenticationPolicyAllowingImplicit:"
++ "integerValue"
 
 ```

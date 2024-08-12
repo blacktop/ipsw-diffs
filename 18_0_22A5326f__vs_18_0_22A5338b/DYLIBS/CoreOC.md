@@ -25,4 +25,13 @@
    __AUTH.__data: 0x41f8
    __DATA.__data: 0x11d0
 
+   - /usr/lib/swift/libswiftunistd.dylib
+   Functions: 3663
+   Symbols:   576
+-  CStrings:  2649
++  CStrings:  2650
+ 
+CStrings:
++ "supportsExtendedSamplerLODBiasRange"
+
 ```

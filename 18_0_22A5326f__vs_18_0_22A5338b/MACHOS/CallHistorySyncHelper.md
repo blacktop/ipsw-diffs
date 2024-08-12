@@ -25,9 +25,9 @@
    __TEXT.__objc_methtype: 0x15e7
    __TEXT.__dlopen_cstrs: 0x4e
 
+   __TEXT.__swift5_reflstr: 0x96
    __TEXT.__swift5_fieldmd: 0x64
    __TEXT.__swift5_types: 0x4
-   __TEXT.__info_plist: 0x51a
 -  __TEXT.__unwind_info: 0x8b0
 +  __TEXT.__unwind_info: 0x8c0
    __TEXT.__eh_frame: 0x168

@@ -76,9 +76,14 @@
    - /usr/lib/swift/libswiftunistd.dylib
 -  Functions: 12162
 -  Symbols:   8923
+-  CStrings:  13477
 +  Functions: 12164
 +  Symbols:   8925
-   CStrings:  0
++  CStrings:  13478
  
+CStrings:
++ "ICAudioTranscriptionFinishedNotification"
++ "takeValuesViaNotification"
+- "writingToolsAllowedInputOptions"
 
 ```

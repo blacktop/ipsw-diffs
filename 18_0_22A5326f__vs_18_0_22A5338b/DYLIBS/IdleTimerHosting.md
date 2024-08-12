@@ -34,4 +34,14 @@
    __AUTH_CONST.__auth_got: 0x200
    __AUTH_CONST.__const: 0x20
 
+   - /usr/lib/libobjc.A.dylib
+   Functions: 85
+   Symbols:   177
+-  CStrings:  250
++  CStrings:  248
+ 
+CStrings:
+- "setNonSampledAttentionLostTimeout:"
+- "setNonSampledAttentionLostTimeoutEnable:"
+
 ```

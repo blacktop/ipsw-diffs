@@ -41,9 +41,10 @@
    - /usr/lib/libobjc.A.dylib
 -  Functions: 2118
 -  Symbols:   3413
+-  CStrings:  699
 +  Functions: 2115
 +  Symbols:   3405
-   CStrings:  0
++  CStrings:  698
  
 Symbols:
 - _CFBooleanGetTypeID
@@ -51,5 +52,11 @@ Symbols:
 - _TelephonyBasebandWatchdogStop
 - __ZN12capabilities3abs27kKeySupportsCMHandDetectionE
 - __ZN3ctu2cf6assignERbPK11__CFBoolean
+CStrings:
++ "/AppleInternal/Library/BuildRoots/73ead547-538c-11ef-b249-5a7ac3341c94/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.Internal.sdk/usr/local/include/ARI/ari_sdk_msg.h"
++ "AppleBasebandManager-AppleBasebandServices_Manager-1180"
+- "/AppleInternal/Library/BuildRoots/01f4c864-4ade-11ef-9140-b60714381f84/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.Internal.sdk/usr/local/include/ARI/ari_sdk_msg.h"
+- "AppleBasebandManager-AppleBasebandServices_Manager-1179"
+- "Watchdog timed out"
 
 ```

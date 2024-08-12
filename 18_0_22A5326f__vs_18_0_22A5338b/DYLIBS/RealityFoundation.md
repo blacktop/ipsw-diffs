@@ -72,9 +72,10 @@
    - /usr/lib/swift/libswiftunistd.dylib
 -  Functions: 34305
 -  Symbols:   54209
+-  CStrings:  3120
 +  Functions: 34317
 +  Symbols:   54238
-   CStrings:  0
++  CStrings:  3118
  
 Symbols:
 + _$s17RealityFoundation25AnimationLibraryComponentV0C10CollectionV10startIndexAE0H0Vvg
@@ -122,5 +123,8 @@ Symbols:
 - _$s17RealityFoundation25AnimationLibraryComponentV0C10CollectionVys5SliceVySDySS0A3Kit0C8ResourceCGGSnySD5IndexVySSAJ_GGcig
 - _$s17RealityFoundation25AnimationLibraryComponentV0C10CollectionVys5SliceVySDySS0A3Kit0C8ResourceCGGSnySD5IndexVySSAJ_GGcipMV
 - _$sSD5IndexVyxq__GSLsMc
+CStrings:
+- "RealityFoundation/AnimationLibrary+Component.swift"
+- "Unable to fetch tuple value for given position: "
 
 ```

@@ -63,11 +63,23 @@
    - /usr/lib/libobjc.A.dylib
 -  Functions: 1804
 -  Symbols:   2664
+-  CStrings:  2745
 +  Functions: 1810
 +  Symbols:   2671
-   CStrings:  0
++  CStrings:  2751
  
 Symbols:
 + _geteuid
+CStrings:
++ "I16@0:8"
++ "_getUID"
++ "_uidOfAccountsd"
++ "com.apple.accounts.notify-generation.%!u(MISSING).%!@(MISSING)"
++ "com.apple.accounts.notify-generation.unit-tests.%!u(MISSING).%!@(MISSING)"
++ "uidOfAccountsd:"
++ "v12@?0I8"
++ "v24@0:8@?<v@?I>16"
+- "com.apple.accounts.notify-generation.%!@(MISSING)"
+- "com.apple.accounts.notify-generation.unit-tests.%!@(MISSING)"
 
 ```

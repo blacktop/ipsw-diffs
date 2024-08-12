@@ -25,15 +25,6 @@
    __TEXT.__dlopen_cstrs: 0xae
    __TEXT.__constg_swiftt: 0x3bc
 
-   __TEXT.__swift5_builtin: 0x14
-   __TEXT.__swift5_mpenum: 0x8
-   __TEXT.__swift5_proto: 0x10
--  __TEXT.__info_plist: 0x3db
-+  __TEXT.__info_plist: 0x3d1
-   __TEXT.__unwind_info: 0x3388
-   __TEXT.__eh_frame: 0xb0
-   __DATA_CONST.__auth_got: 0x12f8
-
    __DATA_CONST.__objc_arrayobj: 0x30
    __DATA_CONST.__objc_doubleobj: 0x10
    __DATA.__objc_const: 0x1ec10

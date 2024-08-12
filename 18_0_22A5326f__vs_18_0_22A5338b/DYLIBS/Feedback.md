@@ -65,7 +65,16 @@
 -  Functions: 5069
 +  Functions: 5040
    Symbols:   549
-   CStrings:  0
+-  CStrings:  1181
++  CStrings:  1180
  
+CStrings:
++ "Review Experiences"
++ "Would you like to give detailed feedback?"
++ "You can review experiences rated negatively and choose to provide detailed feedback."
+- "CU sent structured generated data where the reference was able to load, but the content could not be saved in our storage: %!@(MISSING)"
+- "Share Detailed Feedback"
+- "Would you like to share detailed feedback?"
+- "You can review experiences rated negatively and choose to share detailed feedback."
 
 ```

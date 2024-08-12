@@ -28,4 +28,14 @@
    __AUTH.__objc_data: 0xac0
    __AUTH.__data: 0xd0
 
+   - /usr/lib/swift/libswiftunistd.dylib
+   Functions: 939
+   Symbols:   1059
+-  CStrings:  1744
++  CStrings:  1742
+ 
+CStrings:
+- "setWritingToolsAllowedInputOptions:"
+- "writingToolsAllowedInputOptions"
+
 ```

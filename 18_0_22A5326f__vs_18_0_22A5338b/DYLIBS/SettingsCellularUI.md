@@ -32,9 +32,12 @@
    - /usr/lib/swift/libswiftunistd.dylib
 -  Functions: 2784
 -  Symbols:   3204
+-  CStrings:  5159
 +  Functions: 2785
 +  Symbols:   3205
-   CStrings:  0
++  CStrings:  5158
  
+CStrings:
+- "CELLULAR_TITLE"
 
 ```

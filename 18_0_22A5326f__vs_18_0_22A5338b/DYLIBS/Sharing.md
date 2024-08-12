@@ -27,7 +27,10 @@
 -  Functions: 18385
 +  Functions: 18389
    Symbols:   10802
-   CStrings:  0
+   CStrings:  16753
  
+CStrings:
++ "WiFi Info missing network password, Failing.\n"
+- "WifFi Info missing network password, Failing.\n"
 
 ```

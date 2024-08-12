@@ -49,13 +49,21 @@
    - /usr/lib/libobjc.A.dylib
 -  Functions: 511
 -  Symbols:   821
+-  CStrings:  1263
 +  Functions: 512
 +  Symbols:   825
-   CStrings:  0
++  CStrings:  1269
  
 Symbols:
 + _OBJC_CLASS_$_NSTextAttachment
 + _UIFontTextStyleHeadline2
 + _UIFontTextStyleSubheadline2
+CStrings:
++ "  "
++ "_appendParagraphWithText:withImage:withTextColor:font:textAlignment:lineSpacing:paragraphSpacingBefore:toAttributedString:"
++ "attributedStringWithAttachment:attributes:"
++ "initWithString:"
++ "setImage:"
++ "v80@0:8@16@24@32@40q48d56d64@72"
 
 ```

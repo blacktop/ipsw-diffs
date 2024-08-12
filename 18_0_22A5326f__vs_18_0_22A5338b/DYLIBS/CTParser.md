@@ -31,46 +31,14 @@
    - /usr/lib/libc++.1.dylib
 -  Functions: 228
 -  Symbols:   367
--  CStrings:  8
+-  CStrings:  33
 +  Functions: 225
 +  Symbols:   363
-+  CStrings:  25
++  CStrings:  32
  
 Symbols:
 - __os_log_debug_impl
 CStrings:
-+ "\x01"
-+ "\x01"
-+ "\x01@"
-+ "\b\xff\xd3`"
-+ "\x10\xb5\xa6\xdc"
-+ "\x10\xb5\xa6\xdc"
-+ "\x10\xff\xd3`"
-+ "\x18\xb5\xa6\xdc"
-+ "\x18\xb5\xa6\xdc"
-+ " \xb5\xa6\xdc"
-+ "(l1o"
-+ "0l1o"
-+ "0\xa9|\xe9"
-+ "8\xb5\xa6\xdc"
-+ "P\xb5\xa6\xdc"
-+ "X\xb5\xa6\xdc"
-+ "`\xb4\xa6\xdc"
-+ "hl1o"
-+ "p\xb4\xa6\xdc"
-+ "\x80\xb4\xa6\xdc"
-+ "\xc0\xb4\xa6\xdc"
-+ "ȴ\xa6\xdc"
-+ "д\xa6\xdc"
-+ "ش\xa6\xdc"
-+ "\xff\xd3`"
-- "_OBJC_METACLASS_$_PLModelMigrationAction_AddMissingExtendedAttributeLocation"
-- "_OBJC_METACLASS_$_PLModelMigrationAction_AddMissingExtendedAttributeOrientation"
-- "_OBJC_METACLASS_$_PLModelMigrationAction_CinematicVideoPopulateDepthType"
-- "_OBJC_METACLASS_$_PLModelMigrationAction_ClearInterruptedMaintenanceTaskLibraries"
-- "_OBJC_METACLASS_$_PLModelMigrationAction_ClearPurgeableIsCloneState"
-- "_OBJC_METACLASS_$_PLModelMigrationAction_CreateManualIndexes"
-- "n_CPLPrompting"
-- "tendedAttributeFocalLengthIn35mm"
+- "#D Received XPC object: %!s(MISSING)"
 
 ```

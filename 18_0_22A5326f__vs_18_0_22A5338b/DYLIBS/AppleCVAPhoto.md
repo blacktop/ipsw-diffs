@@ -28,7 +28,7 @@
 -  Functions: 889
 +  Functions: 890
    Symbols:   336
-   CStrings:  0
+   CStrings:  2834
  
 
 ```

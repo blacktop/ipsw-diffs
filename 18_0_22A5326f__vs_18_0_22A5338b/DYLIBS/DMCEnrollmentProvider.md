@@ -27,4 +27,13 @@
    __AUTH_CONST.__objc_arrayobj: 0x120
    __AUTH_CONST.__objc_floatobj: 0x30
 
+   - /usr/lib/libobjc.A.dylib
+   Functions: 1836
+   Symbols:   2520
+-  CStrings:  3865
++  CStrings:  3866
+ 
+CStrings:
++ "%!@(MISSING) "
+
 ```

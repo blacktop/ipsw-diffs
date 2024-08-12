@@ -67,9 +67,10 @@
    - /usr/lib/libsqlite3.dylib
 -  Functions: 1148
 -  Symbols:   1653
+-  CStrings:  2595
 +  Functions: 1154
 +  Symbols:   1664
-   CStrings:  0
++  CStrings:  2607
  
 Symbols:
 + _OBJC_CLASS_$_DOCResilientRemoteContainerViewController
@@ -77,5 +78,28 @@ Symbols:
 + _OBJC_CLASS_$_UIVisualEffectView
 + _OBJC_METACLASS_$_DOCResilientRemoteContainerViewController
 + _OBJC_METACLASS_$__UIResilientRemoteViewContainerViewController
+CStrings:
++ "DOCResilientRemoteContainerViewController"
++ "DOCViewServiceResetRecoveryThreshold"
++ "DisableWorkaroundFor132033602"
++ "TB,V_shouldStopObservingProgress"
++ "Try Again"
++ "_displayError:"
++ "_shouldStopObservingProgress"
++ "background"
++ "disableWorkaroundFor132033602"
++ "doubleForKey:"
++ "effectWithStyle:"
++ "initWithEffect:"
++ "isFinished"
++ "remoteViewControllerDidTerminateViewServiceWithError:"
++ "setCustomView:"
++ "setShouldStopObservingProgress:"
++ "shouldStopObservingProgress"
+- "Try again"
+- "remoteViewController:didTerminateViewServiceWithError:"
+- "setWritingToolsAllowedInputOptions:"
+- "v32@0:8@\"DOCRemoteViewController\"16@\"NSError\"24"
+- "writingToolsAllowedInputOptions"
 
 ```

@@ -96,9 +96,10 @@
    - /usr/lib/swift/libswiftunistd.dylib
 -  Functions: 24860
 -  Symbols:   5330
+-  CStrings:  8962
 +  Functions: 24918
 +  Symbols:   5343
-   CStrings:  0
++  CStrings:  8995
  
 Symbols:
 + _OBJC_CLASS_$_PFFairPlayKeyResponseData
@@ -114,5 +115,49 @@ Symbols:
 + _kMTEpisodeRestoreTypeOSDeletion
 + _kMTEpisodeRestoreTypeUnknown
 - _kBagKeyBatchFeedFetchOnPushIsEnabled
+CStrings:
++ "\nkeyResponseData="
++ "%!s(MISSING) Calling `renewAllKeys`."
++ "%!s(MISSING) ICContentKeySession failed to process key for: %!{(MISSING)private,mask.hash}s, with delivery response %!{(MISSING)private,mask.hash}s and error %!{(MISSING)public}s"
++ "%!s(MISSING) ICContentKeySession successfully processed key for: %!{(MISSING)private,mask.hash}s, with delivery response %!{(MISSING)private,mask.hash}s."
++ "%!s(MISSING) Renewing keys for session: %!{(MISSING)private,mask.hash}s."
++ "%!s(MISSING) Setting currentResponse=%!{(MISSING)private,mask.hash}s."
++ "@\"PFFairPlayKeyResponseData\"16@0:8"
++ "ICContentFairPlayKeySession\nid="
++ "PFFairPlayKeyResponseData"
++ "PodcastsFoundation.FairPlayKeyResponseData"
++ "T@\"PFFairPlayKeyResponseData\",N,&"
++ "T@\"PFFairPlayKeyResponseData\",N,&,VkeyResponseData"
++ "[BatchFeedRequest] [Full Fetch] Not enough store shows in library"
++ "[BatchFeedRequest] [Full Fetch] Starting"
++ "[PodcastsFoundation/ICContentFairPlayKeySession]:"
++ "batchFeedFetchOnPushDormancyPeriod"
++ "batchFeedFetchOnPushRolloutPercentage"
++ "batchFeedFetchOnPushShowLimit"
++ "downloadResult"
++ "fetchOutOfDateShowUUIDsWith:completionHandler:"
++ "keyResponseData"
++ "keyResponseData"
++ "keyResponseDataHandler"
++ "osDeletion"
++ "podcast-delta-feed-sync-batch-on-pushes-rollout-percentage"
++ "podcast-delta-feed-sync-batch-on-pushes-size-limit"
++ "podcast-delta-feed-sync-show-decay-period-in-days"
++ "renewAllKeys"
++ "renewHandler"
++ "renewKey"
++ "renewKeyHandler"
++ "renewKeyWithSession:"
++ "restoreType"
++ "setKeyResponseData:"
++ "success"
++ "v24@0:8@\"<PFFairPlayKeySession>\"16"
++ "v24@0:8@\"PFFairPlayKeyResponseData\"16"
++ "v32@0:8@\"NSArray\"16@?<v@?@\"NSSet\"@\"NSError\">24"
+- "%!s(MISSING) ICContentKeySession failed to process key for: %!{(MISSING)private,mask.hash}s, with delivery response %!@(MISSING) and error %!s(MISSING)"
+- "%!s(MISSING) ICContentKeySession successfully processed key for: %!{(MISSING)private,mask.hash}s, with delivery response %!@(MISSING)"
+- "[BatchFeedRequest] (%!s(MISSING)) Not enough store shows in library"
+- "batchFeedFetchOnPushIsEnabled"
+- "podcast-delta-feed-sync-batch-on-pushes-enabled"
 
 ```

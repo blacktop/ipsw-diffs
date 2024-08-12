@@ -21,12 +21,6 @@
    __TEXT.__ustring: 0x10
    __TEXT.__swift5_typeref: 0x5dd6
 
-   __TEXT.__swift5_capture: 0x27f4
-   __TEXT.__swift5_protos: 0x108
-   __TEXT.__swift5_mpenum: 0x20
--  __TEXT.__info_plist: 0x7b0
-+  __TEXT.__info_plist: 0x7a7
-   __TEXT.__unwind_info: 0xad28
    __TEXT.__eh_frame: 0x44d8
    __DATA_CONST.__auth_got: 0x1f28
    __DATA_CONST.__got: 0x1e50

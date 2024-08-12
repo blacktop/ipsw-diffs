@@ -54,9 +54,38 @@
    - /usr/lib/libobjc.A.dylib
 -  Functions: 692
 -  Symbols:   973
+-  CStrings:  1360
 +  Functions: 724
 +  Symbols:   1005
-   CStrings:  0
++  CStrings:  1375
  
+CStrings:
++ "-[SDBetaManager enrollDevice:withEnrollmentMetadata:completion:]"
++ "-[SDBetaManager enrolledBetaProgramForDevice:completion:]"
++ "Error device passed into %!{(MISSING)public}s"
++ "Error device passed into -[SDBetaManager enrollCurrentDeviceWithEnrollmentMetadata:]"
++ "Found a betaenrollmentdProxy that does not conform to SDDaemonXPCServer: %!{(MISSING)public}@."
++ "Found a remoteObjectProxy that does not conform to SDDaemonXPCServer: %!{(MISSING)public}@."
++ "_SDErrorForDaemonClientErrorType"
++ "__BLANK_ERROR_DEVICE__"
++ "betaenrollmentdProxyObjectWithCompletion:"
++ "blankDeviceWithErrorMessage:"
++ "com.apple.seeding.daemon-client"
++ "isErrorDevice"
++ "v24@0:8@?<v@?@\"NSError\">16"
++ "v24@0:8@?<v@?@\"SDDevice\"@\"NSError\">16"
++ "v24@?0@\"<SDDaemonXPCServer>\"8@\"NSError\"16"
++ "v24@?0@\"NSArray\"8@\"NSError\"16"
++ "v24@?0@\"SDDevice\"8@\"NSError\"16"
++ "v32@0:8@\"SDDevice\"16@?<v@?@\"NSString\"@\"NSError\">24"
++ "v32@0:8@\"SDDevice\"16@?<v@?@\"SDBetaProgram\"@\"NSError\">24"
++ "v32@0:8@\"SDDevice\"16@?<v@?B@\"NSError\">24"
++ "v32@0:8Q16@?<v@?@\"NSArray\"@\"NSError\">24"
+- "daemonRemoteObjectProxy"
+- "daemonRemoteObjectProxyWithCompletion:"
+- "v16@?0@\"SDBetaProgram\"8"
+- "v24@0:8@?<v@?@\"SDDevice\">16"
+- "v32@0:8@\"SDDevice\"16@?<v@?@\"SDBetaProgram\">24"
+- "v32@0:8Q16@?<v@?@\"NSArray\">24"
 
 ```

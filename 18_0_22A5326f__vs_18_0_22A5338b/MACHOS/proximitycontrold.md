@@ -25,9 +25,9 @@
    __TEXT.__constg_swiftt: 0xdf48
    __TEXT.__swift5_reflstr: 0x8433
 
+   __TEXT.__swift5_types: 0x7b8
    __TEXT.__swift5_capture: 0x36b0
    __TEXT.__swift5_mpenum: 0xc0
-   __TEXT.__info_plist: 0x7a7
 -  __TEXT.__unwind_info: 0x6948
 +  __TEXT.__unwind_info: 0x6958
    __TEXT.__eh_frame: 0x4ea8

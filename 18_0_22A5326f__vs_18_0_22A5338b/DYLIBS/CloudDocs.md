@@ -38,9 +38,15 @@
    - /usr/lib/libz.1.dylib
 -  Functions: 3014
 -  Symbols:   4230
+-  CStrings:  5556
 +  Functions: 3013
 +  Symbols:   4228
-   CStrings:  0
++  CStrings:  5554
  
+CStrings:
++ "3097.2.2"
+- "3097.0.242"
+- "[CRIT] UNREACHABLE: Can't refresh logged in account from the daemon%!@(MISSING)"
+- "unreachable: Can't refresh logged in account from the daemon"
 
 ```

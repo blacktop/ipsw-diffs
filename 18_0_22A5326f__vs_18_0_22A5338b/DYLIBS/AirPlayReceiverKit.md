@@ -14,5 +14,8 @@
    __TEXT.__const: 0x52
    __TEXT.__gcc_except_tab: 0x45c
    __TEXT.__unwind_info: 0x7e8
+CStrings:
++ "800.74.1.2"
+- "800.72.2"
 
 ```

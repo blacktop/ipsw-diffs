@@ -27,10 +27,9 @@
    - /usr/lib/swift/libswiftunistd.dylib
 -  Functions: 138
 -  Symbols:   86
--  CStrings:  7
 +  Functions: 139
 +  Symbols:   87
-+  CStrings:  9
+   CStrings:  22
  
 Symbols:
 + _objc_release_x25
@@ -39,22 +38,5 @@ Symbols:
 - _objc_release_x28
 - _objc_retain_x20
 - _objc_retain_x28
-CStrings:
-+ "CatalogDeletedVMa"
-+ "_$s13SeymourClient019ServiceSubscriptionB8ProtocolPAAE05fetchcD00A4Core7PromiseVyAE0cD0VGyF"
-+ "_$s13SeymourClient18XPCStreamPublisherC8eventHubAcA05EventF8Protocol_p_tcfc"
-+ "_$s13SeymourClient18XPCStreamPublisherCMa"
-+ "_$s13SeymourClient19AudioFocusConstantsV14metadataDomainSSvgZ"
-+ "_$s13SeymourClient25SessionDarwinNotificationC49sessionGuidedRunWorkoutAppRequirementConfirmationSSvgZ"
-+ "_$s13SeymourClient25SessionDarwinNotificationC50sessionGuidedWalkWorkoutAppRequirementConfirmationSSvgZ"
-+ "_$s13SeymourClient25SessionDarwinNotificationCMa"
-+ "onSSvgZ"
-- "$s13SeymourClient05AssetB8ProtocolP07requestC21BundleOnCurrentDevice17workoutIdentifier0A4Core7PromiseVyytGSS_tFTj"
-- "_$s13SeymourClient05AssetB8ProtocolP06cancelC21BundleOnCurrentDevice17workoutIdentifier0A4Core7PromiseVyytGSS_tFTj"
-- "_$s13SeymourClient05AssetB8ProtocolP06cancelC26BundleOnActivePairedDevice17workoutIdentifier0A4Core7PromiseVyytGSS_tFTj"
-- "_$s13SeymourClient05AssetB8ProtocolP07requestC26BundleOnActivePairedDevice17workoutIdentifier0A4Core7PromiseVyytGSS_tFTj"
-- "_$s13SeymourClient20FetchedGatedResourceC5queryxyKF"
-- "_$s13SeymourClient20FetchedGatedResourceC8activate8fetchingyxyYaYbKc_tF"
-- "rClient20FetchedGatedResourceC10deactivateyyF"
 
 ```

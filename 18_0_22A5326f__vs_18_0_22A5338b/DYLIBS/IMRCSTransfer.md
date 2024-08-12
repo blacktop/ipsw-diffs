@@ -39,10 +39,15 @@
    - /usr/lib/swift/libswiftunistd.dylib
    Functions: 129
 -  Symbols:   128
+-  CStrings:  47
 +  Symbols:   129
-   CStrings:  0
++  CStrings:  50
  
 Symbols:
 + _OBJC_CLASS_$_IMFileManager
+CStrings:
++ "MIMETypeOfPathExtension:"
++ "defaultHFSFileManager"
++ "pathExtensionForUTIType:"
 
 ```

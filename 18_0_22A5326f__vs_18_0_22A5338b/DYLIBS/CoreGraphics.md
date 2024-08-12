@@ -66,9 +66,15 @@
    - /usr/lib/swift/libswiftunistd.dylib
 -  Functions: 12590
 -  Symbols:   12211
+-  CStrings:  12734
 +  Functions: 12592
 +  Symbols:   12212
-   CStrings:  0
++  CStrings:  12736
  
+CStrings:
++ "/AppleInternal/Library/BuildRoots/73ead547-538c-11ef-b249-5a7ac3341c94/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.Internal.sdk/usr/local/include/boost/graph/topological_sort.hpp"
++ "Bad height value in JBIG2 symbol dictionary"
++ "Bad width value in JBIG2 symbol dictionary"
+- "/AppleInternal/Library/BuildRoots/01f4c864-4ade-11ef-9140-b60714381f84/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.Internal.sdk/usr/local/include/boost/graph/topological_sort.hpp"
 
 ```

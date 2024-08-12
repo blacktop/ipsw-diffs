@@ -42,10 +42,14 @@
    - /usr/lib/swift/libswiftunistd.dylib
    Functions: 952
 -  Symbols:   1317
+-  CStrings:  1866
 +  Symbols:   1318
-   CStrings:  0
++  CStrings:  1868
  
 Symbols:
 + _objc_retain_x28
+CStrings:
++ "helpkit://open?topic=ipadcb11e17d"
++ "helpkit://open?topic=iph672384a0b"
 
 ```

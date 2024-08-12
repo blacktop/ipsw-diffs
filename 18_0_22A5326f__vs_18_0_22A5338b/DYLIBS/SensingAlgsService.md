@@ -14,5 +14,12 @@
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/Foundation.framework/Foundation
    - /System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
+CStrings:
++ "16.0.0 (clang-1600.0.25.3) [+internal-os]"
++ "22A334"
++ "SensingAlgsService-51~223"
+- "16.0.0 (clang-1600.0.24.1) [+internal-os]"
+- "22A321x"
+- "SensingAlgsService-51~46"
 
 ```

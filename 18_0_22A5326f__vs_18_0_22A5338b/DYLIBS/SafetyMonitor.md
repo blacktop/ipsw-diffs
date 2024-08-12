@@ -86,9 +86,10 @@
    - /usr/lib/swift/libswiftunistd.dylib
 -  Functions: 2186
 -  Symbols:   2147
+-  CStrings:  3249
 +  Functions: 2205
 +  Symbols:   2186
-   CStrings:  0
++  CStrings:  3286
  
 Symbols:
 + _CFAutorelease
@@ -111,5 +112,55 @@ Symbols:
 + _SMSiriSettingsLockScreenPrefsChangedNotificationName
 + _objc_autoreleasePoolPop
 + _objc_autoreleasePoolPush
+CStrings:
++ "%!@(MISSING), %!@(MISSING), lockscreenSuggestionsDisabledBundles, %!@(MISSING), globalSiriSuggestionsEnabled, %!@(MISSING), globalSiriSuggestionsEnabledQuerySuccess, %!@(MISSING)"
++ "-[SMSafetyMonitorManager fetchNumEmergencyRecipientsWithReceiverHandles:handler:]"
++ "-[SMSafetyMonitorManager fetchNumFavoriteRecipientsWithReceiverHandles:handler:]"
++ "-[SMSafetyMonitorManager fetchNumiCloudFamilyRecipientsWithReceiverHandles:handler:]"
++ "-[SMSafetyMonitorManager submitInitializationAnalyticsEventWithError:conversation:duration:]"
++ "DeviceClass"
++ "Invalid parameter not satisfying: receiverHandles (in %!s(MISSING):%!d(MISSING))"
++ "LockScreenSuggestionsDisabled"
++ "LockscreenSuggestionsDisabledBundles"
++ "SMTriggerCategoryWorkoutManualPauseTimeout"
++ "SafetyMonitorLockscreenSuggestionsEnabledWatch"
++ "_copyDuetExpertPreferencesValueForKey:"
++ "_syncSiriLockScreenSuggestionsPrefIfNeeded"
++ "_syncSiriLockScreenSuggestionsPrefWithValue:"
++ "bimonthlyGroupCount"
++ "com.apple.SafetyMonitor.perSessionUserDetails"
++ "com.apple.duetexpertd"
++ "com.apple.duetexpertd.prefschanged"
++ "com.apple.lockscreen.shared"
++ "command"
++ "commandType"
++ "dailyGroupCount"
++ "duetExpertStore"
++ "errorCode"
++ "errorDomain"
++ "fetchNumEmergencyRecipientsWithReceiverHandles:handler:"
++ "fetchNumFavoriteRecipientsWithReceiverHandles:handler:"
++ "fetchNumiCloudFamilyRecipientsWithReceiverHandles:handler:"
++ "iPhone"
++ "isAnomalyState"
++ "isCellularActivated"
++ "isLockScreenSuggestionsAllowed"
++ "isMobileSMSPreferencesLockScreenSuggestionsAllowed"
++ "isMonitoringState"
++ "isStandalone"
++ "monthlyGroupCount"
++ "numRecepients"
++ "submitInitializationAnalyticsEventWithError:conversation:duration:"
++ "syncSiriLockScreenSuggestionsPrefs"
++ "synchronize"
++ "v32@0:8@\"NSArray\"16@?<v@?Q@\"NSError\">24"
++ "v40@0:8@16@24d32"
++ "weeklyGroupCount"
+- "-[SMSafetyMonitorManager submitInitializationAnalyticsEventWithError:duration:]"
+- "No Internet Connection"
+- "Warning text to be used in Live Activity when the user turns off cellular or turns on Airplane mode."
+- "Warning title to be used in Live Activity when the user turns off cellular or turns on Airplane mode."
+- "submitInitializationAnalyticsEventWithError:duration:"
+- "v32@0:8@16d24"
 
 ```

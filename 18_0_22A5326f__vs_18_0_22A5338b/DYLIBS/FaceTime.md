@@ -28,4 +28,13 @@
    __AUTH.__objc_data: 0x320
    __DATA.__objc_ivar: 0x188
 
+   - /usr/lib/libobjc.A.dylib
+   Functions: 381
+   Symbols:   180
+-  CStrings:  1425
++  CStrings:  1426
+ 
+CStrings:
++ "capabilitiesUpdatedForHandle:"
+
 ```

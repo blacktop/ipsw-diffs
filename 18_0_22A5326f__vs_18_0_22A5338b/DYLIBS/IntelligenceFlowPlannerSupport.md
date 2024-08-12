@@ -57,11 +57,14 @@
    - /usr/lib/swift/libswiftunistd.dylib
 -  Functions: 33837
 -  Symbols:   229
+-  CStrings:  1461
 +  Functions: 33816
 +  Symbols:   228
-   CStrings:  0
++  CStrings:  1460
  
 Symbols:
 - _memset_pattern16
+CStrings:
+- "intValue"
 
 ```

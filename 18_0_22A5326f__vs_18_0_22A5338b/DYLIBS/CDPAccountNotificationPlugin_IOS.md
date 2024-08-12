@@ -31,4 +31,13 @@
    __AUTH_CONST.__const: 0x20
    __AUTH_CONST.__cfstring: 0x20
 
+   - /usr/lib/libobjc.A.dylib
+   Functions: 9
+   Symbols:   45
+-  CStrings:  98
++  CStrings:  99
+ 
+CStrings:
++ "contextForADPStateHealing"
+
 ```

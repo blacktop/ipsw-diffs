@@ -46,7 +46,12 @@
 -  Functions: 3966
 +  Functions: 3965
    Symbols:   419
-   CStrings:  0
+   CStrings:  1512
  
+CStrings:
++ "MerchantKit-130.39"
++ "MerchantKit-130.39 (a6d092c5)"
+- "MerchantKit-130.38"
+- "MerchantKit-130.38 (f0551f13)"
 
 ```

@@ -29,14 +29,20 @@
    - /usr/lib/libobjc.A.dylib
 -  Functions: 2709
 -  Symbols:   3444
+-  CStrings:  4086
 +  Functions: 2713
 +  Symbols:   3448
-   CStrings:  0
++  CStrings:  4088
  
 Symbols:
 + _BKSDisplayServicesGetSystemIdentifiers
 + _BKSDisplayServicesSetSystemIdentifiers
 + __BKSDisplayGetSystemIdentifiers
 + __BKSDisplaySetSystemIdentifiers
+CStrings:
++ "Error encoding system identifiers: %!{(MISSING)public}@"
++ "Error sending system identifiers: 0x%!x(MISSING)"
++ "backboardd-attr-cache-16000025"
+- "backboardd-attr-cache-16000024"
 
 ```

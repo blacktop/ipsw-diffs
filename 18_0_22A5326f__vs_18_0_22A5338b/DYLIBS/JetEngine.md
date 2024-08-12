@@ -72,9 +72,21 @@
    - /usr/lib/swift/libswiftunistd.dylib
 -  Functions: 19248
 -  Symbols:   1733
+-  CStrings:  2844
 +  Functions: 19333
 +  Symbols:   1734
-   CStrings:  0
++  CStrings:  2854
  
+CStrings:
++ "connectionEndTime"
++ "connectionReused"
++ "connectionStartTime"
++ "domainLookupEndTime"
++ "domainLookupStartTime"
++ "edgeNodeCacheStatus"
++ "environmentDataCenter"
++ "requestMessageSize"
++ "responseMessageSize"
++ "secureConnectionStartTime"
 
 ```

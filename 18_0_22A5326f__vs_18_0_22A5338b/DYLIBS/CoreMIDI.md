@@ -19,7 +19,7 @@
 -  Symbols:   3106
 +  Functions: 2465
 +  Symbols:   3107
-   CStrings:  0
+   CStrings:  1570
  
 
 ```

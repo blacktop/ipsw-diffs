@@ -37,14 +37,12 @@
    __TEXT.__objc_methtype: 0xad0
    __TEXT.__swift5_protos: 0x84
    __TEXT.__swift5_mpenum: 0x20
--  __TEXT.__info_plist: 0x331
 -  __TEXT.__unwind_info: 0x4898
 -  __TEXT.__eh_frame: 0xbbbc
 -  __DATA_CONST.__auth_got: 0x1438
 -  __DATA_CONST.__got: 0x888
 -  __DATA_CONST.__auth_ptr: 0xa68
 -  __DATA_CONST.__const: 0x5e18
-+  __TEXT.__info_plist: 0x332
 +  __TEXT.__unwind_info: 0x4880
 +  __TEXT.__eh_frame: 0xbb34
 +  __DATA_CONST.__auth_got: 0x1440

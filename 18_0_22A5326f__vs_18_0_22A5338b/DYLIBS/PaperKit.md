@@ -95,9 +95,10 @@
    - /usr/lib/swift/libswiftunistd.dylib
 -  Functions: 21573
 -  Symbols:   29268
+-  CStrings:  6193
 +  Functions: 21661
 +  Symbols:   29387
-   CStrings:  0
++  CStrings:  6207
  
 Symbols:
 + _$s10Foundation6LocaleV36_unconditionallyBridgeFromObjectiveCyACSo8NSLocaleCSgFZ
@@ -127,5 +128,30 @@ Symbols:
 + _$s9Calculate22StocksKitCurrencyCacheC7refreshSbyYaFTjTu
 + _$s9Calculate22StocksKitCurrencyCacheCMa
 + _kCGImageDestinationImageMaxPixelSize
+CStrings:
++ "@\"NSString\"40@0:8@\"PKMathRecognitionViewController\"16@\"NSLocale\"24@\"NSUUID\"32"
++ "Optional<MiniMenuController>"
++ "PaperKit.KeyPathWrapper"
++ "_TtC8PaperKit33CalculateResultAttributionHandler"
++ "_TtC8PaperKit36GraphCanvasElementRenderedImageCache"
++ "_TtC8PaperKitP33_F808299E7C487FAE28308AED5F0A446914KeyPathWrapper"
++ "_cancelCurrentStrokeAndReduceMemoryFootprint"
++ "cachedDarkModeImage"
++ "cachedLightModeImage"
++ "initWithDouble:"
++ "isRectVisible:onPage:"
++ "mathResultAttributionImage:darkModeImage:string:date:itemUUID:"
++ "mathViewController:resultForLocale:itemUUID:"
++ "setCountLimit:"
++ "setLocales:"
++ "subjectFrame"
++ "unitType"
++ "updateCachedImage"
++ "visibleBounds"
+- "globalVisibleBounds"
+- "goToSelection:"
+- "menuInsideObject"
+- "pinnedToTop"
+- "resizeOriginalFrame"
 
 ```

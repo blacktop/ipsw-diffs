@@ -38,9 +38,12 @@
    - /usr/lib/swift/libswiftunistd.dylib
 -  Functions: 1108
 -  Symbols:   1555
+-  CStrings:  1920
 +  Functions: 1109
 +  Symbols:   1556
-   CStrings:  0
++  CStrings:  1921
  
+CStrings:
++ "bundleIdentifiersWithSettings"
 
 ```

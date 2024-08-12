@@ -19,10 +19,15 @@
    - /usr/lib/libSystem.B.dylib
    Functions: 3
 -  Symbols:   8
+-  CStrings:  3
 +  Symbols:   7
-   CStrings:  0
++  CStrings:  0
  
 Symbols:
 - __ETLDebugPrint
+CStrings:
+- "ETLDLFParse"
+- "Length %!u(MISSING) not enough, need %!z(MISSING)u\n"
+- "Length %!u(MISSING) not whole payload, need %!u(MISSING)\n"
 
 ```

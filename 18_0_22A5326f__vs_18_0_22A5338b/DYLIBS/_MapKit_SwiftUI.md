@@ -59,9 +59,12 @@
    - /usr/lib/swift/libswiftunistd.dylib
 -  Functions: 4546
 -  Symbols:   390
+-  CStrings:  577
 +  Functions: 4512
 +  Symbols:   391
-   CStrings:  0
++  CStrings:  578
  
+CStrings:
++ "mapViewDidScrollToRevealAnnotationCallout:"
 
 ```

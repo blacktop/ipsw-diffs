@@ -40,4 +40,15 @@
    __AUTH_CONST.__objc_intobj: 0x990
    __AUTH_CONST.__objc_arrayobj: 0x2b8
 
+   - /usr/lib/swift/libswiftunistd.dylib
+   Functions: 18514
+   Symbols:   16057
+-  CStrings:  11752
++  CStrings:  11753
+ 
+CStrings:
++ "3400.58.3.11.1"
++ "supportsExtendedSamplerLODBiasRange"
+- "3400.58.3"
+
 ```

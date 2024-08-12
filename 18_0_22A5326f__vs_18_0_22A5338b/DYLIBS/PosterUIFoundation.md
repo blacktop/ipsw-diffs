@@ -55,9 +55,10 @@
    - /usr/lib/libobjc.A.dylib
 -  Functions: 2496
 -  Symbols:   3408
+-  CStrings:  4229
 +  Functions: 2500
 +  Symbols:   3415
-   CStrings:  0
++  CStrings:  4235
  
 Symbols:
 + _OBJC_CLASS_$_PFOSTransactionQueue
@@ -65,5 +66,12 @@ Symbols:
 + _dispatch_group_enter
 + _dispatch_group_leave
 + _dispatch_group_wait
+CStrings:
++ "Timed out."
++ "dispatchAsync:"
++ "dispatchSync:"
++ "pui_determineProminentColorWithCompletion elapsed 20 second timer."
++ "pui_determineProminentColorWithCompletion finished"
++ "sharedASTCProcessingTransactionQueue"
 
 ```

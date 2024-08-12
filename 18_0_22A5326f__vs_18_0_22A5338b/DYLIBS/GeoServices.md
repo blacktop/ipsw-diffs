@@ -77,9 +77,10 @@
    - /usr/lib/libz.1.dylib
 -  Functions: 100789
 -  Symbols:   104152
+-  CStrings:  73323
 +  Functions: 100809
 +  Symbols:   104174
-   CStrings:  0
++  CStrings:  73335
  
 Symbols:
 + _MapsFeature_IsAvailable_VKMLayout_Flyover
@@ -94,5 +95,21 @@ Symbols:
 - _MapsFeature_IsAvailable_VKMLayout
 - _MapsFeature_IsEnabled_VKMLayout
 - _MapsFeaturesConfig_VKMLayoutEnabled
+CStrings:
++ "\x015\x11\x16&"
++ "Error getting country code from route geometry."
++ "Found country code (%!@(MISSING)) from route geometry at %!{(MISSING)private}f, %!{(MISSING)private}f."
++ "No country code from address. Address (%!p(MISSING)) is: %!{(MISSING)private}@"
++ "T@\"NSString\",C,N,V_iso3166CountryCode"
++ "Using country code from anchor point:\n%!{(MISSING)private}@"
++ "VKMLayoutEnabled_Flyover"
++ "VKMLayoutEnabled_Navigation"
++ "VKMLayoutEnabled_SPR"
++ "_countryCodeIsolater"
++ "com.apple.GeoServices.GEOComposedGeometryRoutePersistentData.countryCodeIsolater"
++ "setIso3166CountryCode:"
++ "updateCountryIfNecessaryWithCompletionHandler:"
+- "5\x11\x15&"
+- "VKMLayoutEnabled"
 
 ```

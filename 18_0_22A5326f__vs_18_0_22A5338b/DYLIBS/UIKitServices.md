@@ -31,4 +31,13 @@
    __AUTH_CONST.__objc_intobj: 0x1e0
    __AUTH_CONST.__objc_arrayobj: 0x198
 
+   - /usr/lib/libobjc.A.dylib
+   Functions: 923
+   Symbols:   1433
+-  CStrings:  1895
++  CStrings:  1894
+ 
+CStrings:
+- "com.apple.ContactsUI.Carousel"
+
 ```

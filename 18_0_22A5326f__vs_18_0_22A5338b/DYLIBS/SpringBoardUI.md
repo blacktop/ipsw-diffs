@@ -33,4 +33,13 @@
    __AUTH_CONST.__auth_got: 0x320
    __AUTH_CONST.__const: 0x140
 
+   - /usr/lib/libobjc.A.dylib
+   Functions: 938
+   Symbols:   1302
+-  CStrings:  2084
++  CStrings:  2085
+ 
+CStrings:
++ "didDismissMiniAlert"
+
 ```

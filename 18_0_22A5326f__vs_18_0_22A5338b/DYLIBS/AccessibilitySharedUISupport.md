@@ -84,9 +84,21 @@
    - /usr/lib/swift/libswiftunistd.dylib
 -  Functions: 6537
 -  Symbols:   850
+-  CStrings:  2015
 +  Functions: 6562
 +  Symbols:   852
-   CStrings:  0
++  CStrings:  2025
  
+CStrings:
++ "_attributedText"
++ "getVoice"
++ "getVolume"
++ "setPreUtteranceDelay:"
++ "setVOTutorialStartedFromSplash:"
++ "setVoice:"
++ "setVolume:"
++ "tutorial.vo.tables.adv.commands.5"
++ "tutorial.vo.tables.intro.commands.5"
++ "voTutorialStartedFromSplash"
 
 ```

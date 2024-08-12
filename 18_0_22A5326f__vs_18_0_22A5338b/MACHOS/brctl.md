@@ -15,13 +15,5 @@
    __TEXT.__gcc_except_tab: 0x960
    __TEXT.__objc_classname: 0xda
    __TEXT.__objc_methname: 0x2a7b
-   __TEXT.__objc_methtype: 0x41c
-   __TEXT.__cstring: 0x4733
-   __TEXT.__oslogstring: 0x102
--  __TEXT.__info_plist: 0x4ea
-+  __TEXT.__info_plist: 0x4de
-   __TEXT.__unwind_info: 0x3f8
-   __DATA_CONST.__auth_got: 0x5e0
-   __DATA_CONST.__got: 0x480
 
 ```

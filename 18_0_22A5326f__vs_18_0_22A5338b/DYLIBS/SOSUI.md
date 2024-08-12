@@ -78,12 +78,25 @@
    - /usr/lib/swift/libswiftunistd.dylib
 -  Functions: 1092
 -  Symbols:   211
+-  CStrings:  440
 +  Functions: 1115
 +  Symbols:   212
-   CStrings:  0
++  CStrings:  447
  
 Symbols:
 + _objc_autorelease
 - _swift_unexpectedError
+CStrings:
++ "SOSUIWebRTCTrickleWhip"
++ "blankUrlString"
++ "enableDebugDataChannel"
++ "enableTrickleWhipKey"
++ "https://eed.icloud.com/"
++ "originUrlString"
++ "request"
++ "unable to construct URL: "
++ "webViewIsInspectableKey"
+- "SOSUI/SOSUIWebRTCView.swift"
+- "https://eed.icloud.com"
 
 ```

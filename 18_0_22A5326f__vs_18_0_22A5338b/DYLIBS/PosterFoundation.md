@@ -67,9 +67,10 @@
    - /usr/lib/libobjc.A.dylib
 -  Functions: 479
 -  Symbols:   767
+-  CStrings:  957
 +  Functions: 491
 +  Symbols:   784
-   CStrings:  0
++  CStrings:  984
  
 Symbols:
 + _OBJC_CLASS_$_NSBlockOperation
@@ -77,5 +78,33 @@ Symbols:
 + _OBJC_CLASS_$_PFOSTransactionQueue
 + _OBJC_METACLASS_$_PFOSTransactionQueue
 + _os_transaction_create
+CStrings:
++ "@\"NSOperationQueue\""
++ "DEFAULT_TX_QUEUE"
++ "PFOSTransaction-"
++ "PFOSTransactionQueue"
++ "T@\"NSString\",R,C,N,V_transactionName"
++ "_dispatchWork:waitUntilFinished:"
++ "_transactionName"
++ "_txOperationQueue"
++ "addOperations:waitUntilFinished:"
++ "appendObject:withName:"
++ "blockOperationWithBlock:"
++ "dispatchAsync:"
++ "dispatchSync:"
++ "initWithTransactionName:"
++ "progress"
++ "progress"
++ "setMaxConcurrentOperationCount:"
++ "setName:"
++ "setQualityOfService:"
++ "sharedASTCProcessingTransactionQueue"
++ "sharedASTCProcessingTransactionQueue"
++ "sharedTransactionQueueForName:"
++ "stringByAppendingString:"
++ "strongToWeakObjectsMapTable"
++ "transactionName"
++ "transactionName"
++ "v28@0:8@?16B24"
 
 ```

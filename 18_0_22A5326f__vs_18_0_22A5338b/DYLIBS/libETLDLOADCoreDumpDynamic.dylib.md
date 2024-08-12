@@ -18,22 +18,10 @@
    - /usr/lib/libTelephonyUtilDynamic.dylib
    Functions: 2
    Symbols:   14
--  CStrings:  7
-+  CStrings:  6
+-  CStrings:  11
++  CStrings:  10
  
 CStrings:
-+ "_$s17IMSharedUtilities11MessagesTipO11siriMessageyA2CmFWC"
-+ "_$s17IMSharedUtilities11MessagesTipO14pinningMessageyA2CmFWC"
-+ "_$s17IMSharedUtilities11MessagesTipO17undoOrEditMessageyA2CmFWC"
-+ "_$s17IMSharedUtilities11MessagesTipO7checkInyA2CmFWC"
-+ "_$s17IMSharedUtilities15TapToRadarDraftV11DeviceClassO10appleWatchyA2EmFWC"
-+ "sO6iPhoneyA2EmFWC"
-- "_OBJC_CLASS_$_PKAccountInvitationOnboardingListView"
-- "_OBJC_CLASS_$_PKAccountInvitationOnboardingViewController"
-- "_OBJC_CLASS_$_PKNewPaymentCredentialProvisioningViewController"
-- "_OBJC_METACLASS_$_PKAccountInvitationOnboardingListView"
-- "_OBJC_METACLASS_$_PKAccountInvitationOnboardingViewController"
-- "_OBJC_METACLASS_$_PKPeerPaymentActionTransferToBankViewController"
-- "er"
+- "Capture 0x%!x(MISSING), length 0x%!x(MISSING), chunk size 0x%!x(MISSING)\n"
 
 ```

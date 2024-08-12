@@ -32,4 +32,13 @@
    __DATA_CONST.__objc_superrefs: 0x108
    __DATA_CONST.__objc_arraydata: 0x10
 
+   - /usr/lib/swift/libswiftunistd.dylib
+   Functions: 990
+   Symbols:   1356
+-  CStrings:  1423
++  CStrings:  1424
+ 
+CStrings:
++ "createInternalErrorWithDescription:"
+
 ```

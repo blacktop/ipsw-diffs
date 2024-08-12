@@ -55,7 +55,7 @@
 -  Symbols:   359
 +  Functions: 1209
 +  Symbols:   357
-   CStrings:  0
+   CStrings:  2776
  
 Symbols:
 + _CFGetTypeID
@@ -64,5 +64,16 @@ Symbols:
 - _kFigHDRGainMapCGImageMetadataPrefixHDRGainMap
 - _kFigHDRGainMapCGImagePrivateMetadataTagKey_HDRGainMapHeadroom
 - _kFigHDRGainMapCGImagePrivateMetadataTagKey_HDRGainMapVersion
+CStrings:
++ "HDRGainMap::HDRGainMapHeadroom"
++ "HDRGainMap:HDRGainMapVersion"
++ "HDRToneMap:AlternateHeadroom"
++ "addChromaNoise:"
++ "gainMapNeedsGamma22:"
+- "%!@(MISSING):%!@(MISSING)"
+- "-[ApplyBlurmap gainMapToLightMap:inputImage:inputLuma:inputChroma:headroom:context:]"
+- "@32@0:8@16^{CGColorSpace=}24"
+- "addChromaNoise:colorSpace:"
+- "lightMap"
 
 ```

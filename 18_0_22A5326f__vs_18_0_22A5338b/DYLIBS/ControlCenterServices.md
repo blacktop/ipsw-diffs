@@ -42,9 +42,13 @@
    - /usr/lib/libobjc.A.dylib
 -  Functions: 353
 -  Symbols:   526
+-  CStrings:  730
 +  Functions: 351
 +  Symbols:   525
-   CStrings:  0
++  CStrings:  732
  
+CStrings:
++ "CCSIconElementTypeModuleWithDeprecatedSize"
++ "com.apple.amp.MusicUI.MusicUIEngagementExtension"
 
 ```

@@ -26,4 +26,15 @@
    __AUTH_CONST.__objc_const: 0x2d18
    __AUTH.__objc_data: 0x7c0
 
+   - /usr/lib/swift/libswiftunistd.dylib
+   Functions: 3860
+   Symbols:   357
+-  CStrings:  743
++  CStrings:  744
+ 
+CStrings:
++ "(-mainExecutable)?$"
++ "^(.*\\.app(ex)?(/Contents)?(/MacOS)?)/"
+- "(.*\\.app(ex)?(/Contents)?(/MacOS)?)/"
+
 ```

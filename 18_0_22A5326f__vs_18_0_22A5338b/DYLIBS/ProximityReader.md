@@ -76,12 +76,20 @@
    - /usr/lib/swift/libswiftunistd.dylib
 -  Functions: 6425
 -  Symbols:   496
+-  CStrings:  1397
 +  Functions: 6409
 +  Symbols:   498
-   CStrings:  0
++  CStrings:  1399
  
 Symbols:
 + _OBJC_CLASS_$_UIScene
 + _OBJC_CLASS_$_UIWindowScene
+CStrings:
++ "DiscoveryArticleViewController: initial orientation is flat, but scene orientation is landscape"
++ "connectedScenes"
++ "interfaceOrientation"
++ "setAccessibilityViewIsModal:"
+- "merchantDescription"
+- "merchantLocationDescription"
 
 ```

@@ -74,9 +74,17 @@
    - /usr/lib/swift/libswiftunistd.dylib
 -  Functions: 8991
 -  Symbols:   10119
+-  CStrings:  13956
 +  Functions: 8995
 +  Symbols:   10123
-   CStrings:  0
++  CStrings:  13962
  
+CStrings:
++ "CoreData: Unexpectedly corrupt changedObjectID failed for entity - %!@(MISSING), entityID - %!l(MISSING)d,  pk - %!l(MISSING)ld,  model - %!@(MISSING) - %!@(MISSING), store - %!@(MISSING)"
++ "CoreData: Unexpectedly nil entry in: entity - %!@(MISSING), entityID - %!l(MISSING)d,  pk - %!l(MISSING)ld,  model - %!@(MISSING) - %!@(MISSING), store - %!@(MISSING)"
++ "Unexpectedly corrupt changedObjectID failed for entity - %!@(MISSING), entityID - %!l(MISSING)d,  pk - %!l(MISSING)ld,  model - %!@(MISSING) - %!@(MISSING), store - %!@(MISSING)"
++ "Unexpectedly nil entry in: entity - %!@(MISSING), entityID - %!l(MISSING)d,  pk - %!l(MISSING)ld,  model - %!@(MISSING) - %!@(MISSING), store - %!@(MISSING)"
++ "_NSPersistentHistoryChange was created with an empty changeDictionary or changeObjectID"
++ "hw.memsize"
 
 ```

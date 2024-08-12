@@ -91,12 +91,31 @@
    - /usr/lib/swift/libswiftunistd.dylib
 -  Functions: 24499
 -  Symbols:   8205
+-  CStrings:  2132
 +  Functions: 24567
 +  Symbols:   8238
-   CStrings:  0
++  CStrings:  2141
  
 Symbols:
 + _objc_terminate
 + _os_unfair_lock_assert_owner
+CStrings:
++ "\x13"
++ "User needs to enable Wi-Fi setting (most regions except China)"
++ "User needs to grant Wi-Fi permission (China)"
++ "User needs to grant wifi permission (China)"
++ "User needs to grant wifi permission (most regions except China)"
++ "WLAN_PERMISSION_ERROR"
++ "WLAN_SETTING_NOT_ENABLED_ERROR"
++ "_lock"
++ "addClientConnection:"
++ "com.apple.Browser"
++ "preparedIntentId"
++ "removeClientConnection:"
++ "{os_unfair_lock_s=\"_os_unfair_lock_opaque\"I}"
+- "\x03"
+- "User needs to enable wifi setting"
+- "User needs to grant wifi permission"
+- "isValid"
 
 ```

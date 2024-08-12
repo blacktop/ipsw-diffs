@@ -56,7 +56,10 @@
 -  Functions: 8636
 +  Functions: 8625
    Symbols:   1473
-   CStrings:  0
+-  CStrings:  4459
++  CStrings:  4460
  
+CStrings:
++ "supportsExtendedSamplerLODBiasRange"
 
 ```

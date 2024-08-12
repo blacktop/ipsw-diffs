@@ -26,9 +26,7 @@
    __TEXT.__swift5_protos: 0x94
    __TEXT.__oslogstring: 0xe74
    __TEXT.__swift5_mpenum: 0x38
--  __TEXT.__info_plist: 0x465
 -  __TEXT.__unwind_info: 0x1c90
-+  __TEXT.__info_plist: 0x45b
 +  __TEXT.__unwind_info: 0x1c98
    __TEXT.__eh_frame: 0x2298
    __DATA_CONST.__auth_got: 0xd98

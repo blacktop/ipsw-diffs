@@ -66,13 +66,22 @@
    - /usr/lib/libobjc.A.dylib
 -  Functions: 841
 -  Symbols:   1684
+-  CStrings:  2395
 +  Functions: 842
 +  Symbols:   1686
-   CStrings:  0
++  CStrings:  2398
  
 Symbols:
 + _CPSAppClipBundleIdentifierPrefix
 + _SPSetAppsChangedBlockClient
 - _SPSetAppUpdateBlock
+CStrings:
++ "%!@(MISSING)%!@(MISSING)"
++ "Apps changed"
++ "Not processing app %!@(MISSING)"
++ "setIsAppClip:"
++ "setIsWebClip:"
+- "Apps changed: %!@(MISSING)"
+- "v24@?0@\"NSDictionary\"8@\"NSSet\"16"
 
 ```

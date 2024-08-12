@@ -19,8 +19,6 @@
 +  __TEXT.__oslogstring: 0x1f82
    __TEXT.__swift5_protos: 0x2c
    __TEXT.__swift5_capture: 0x34c
--  __TEXT.__info_plist: 0x552
-+  __TEXT.__info_plist: 0x551
    __TEXT.__unwind_info: 0xe28
    __TEXT.__eh_frame: 0x2000
    __DATA_CONST.__auth_got: 0x1200

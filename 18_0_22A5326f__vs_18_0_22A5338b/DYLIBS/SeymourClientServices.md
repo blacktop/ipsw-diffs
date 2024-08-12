@@ -29,7 +29,7 @@
 -  Functions: 934
 +  Functions: 933
    Symbols:   250
-   CStrings:  0
+   CStrings:  335
  
 
 ```

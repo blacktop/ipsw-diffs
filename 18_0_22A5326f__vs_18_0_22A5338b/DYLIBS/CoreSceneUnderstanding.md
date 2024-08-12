@@ -58,4 +58,23 @@
    __AUTH_CONST.__objc_floatobj: 0x10
    __AUTH.__objc_data: 0x1e78
 
+   - /usr/lib/swift/libswiftunistd.dylib
+   Functions: 2944
+   Symbols:   576
+-  CStrings:  2802
++  CStrings:  2797
+ 
+CStrings:
++ "Text Encoder Configuration in setContextLength(...) is nil!"
++ "Unsupported revision %!l(MISSING)d specified - cannot create CSUTextEncoderConfiguration instance"
++ "Unsupported revision %!l(MISSING)d specified - cannot create CSUTextEncoderRevision"
+- "ImageCaptioning-mica_v3.0.0_ya2ywy3nyz-40222"
+- "ImageCaptioning-mica_v3.0.0_ya2ywy3nyz-40222.reverse_vocab"
+- "ImageCaptioning-mica_v3.0.0_ya2ywy3nyz-40222_bridge_stage2_quantized"
+- "ImageCaptioning-mica_v3.0.0_ya2ywy3nyz-40222_decoder_stage2_quantized"
+- "ImageCaptioningMD5_jf7fjab8py-1414"
+- "ImageCaptioning_Safe.config.json"
+- "VideoCaptioning_v5.0.0_66jtuk6hs5-87200"
+- "bridge_input"
+
 ```

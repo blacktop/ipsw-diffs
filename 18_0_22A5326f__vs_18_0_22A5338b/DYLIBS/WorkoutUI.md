@@ -60,9 +60,14 @@
    - /usr/lib/swift/libswiftunistd.dylib
 -  Functions: 7275
 -  Symbols:   704
+-  CStrings:  1585
 +  Functions: 7278
 +  Symbols:   703
-   CStrings:  0
++  CStrings:  1586
  
+CStrings:
++ "Failed to get day summary collection with %!@(MISSING). Returning placeholder."
++ "Generating entry at date: %!s(MISSING)"
+- "Failed to get day summary collection with %!@(MISSING)"
 
 ```

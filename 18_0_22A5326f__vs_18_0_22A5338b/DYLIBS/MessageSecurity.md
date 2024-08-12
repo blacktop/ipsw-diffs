@@ -52,9 +52,14 @@
    - /usr/lib/swift/libswiftunistd.dylib
 -  Functions: 1924
 -  Symbols:   2414
+-  CStrings:  1292
 +  Functions: 1927
 +  Symbols:   2417
-   CStrings:  0
++  CStrings:  1295
  
+CStrings:
++ "found %!l(MISSING)u candidate certs from keychain with matching email addresses"
++ "found %!l(MISSING)u candidate email certs from keychain"
++ "found %!l(MISSING)u valid email candidate certs"
 
 ```

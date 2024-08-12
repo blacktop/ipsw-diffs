@@ -45,9 +45,17 @@
    - /usr/lib/libobjc.A.dylib
 -  Functions: 2558
 -  Symbols:   3122
+-  CStrings:  4383
 +  Functions: 2560
 +  Symbols:   3124
-   CStrings:  0
++  CStrings:  4385
  
+CStrings:
++ "-[AXHeardController updateAnalytics]_block_invoke_2"
++ "paCurrentBluetoothDeviceSupportingTransparencyAccommodationsAsync"
++ "softlink:r:path:/System/Library/PrivateFrameworks/UserManagement.framework/UserManagement"
++ "v16@?0@\"BluetoothDevice\"8"
+- "paCurrentBluetoothDeviceSupportingTransparencyAccommodations"
+- "softlink:r:path:/System/Library/PrivateFrameworks//UserManagement.framework/UserManagement"
 
 ```

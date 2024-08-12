@@ -66,7 +66,7 @@
    Functions: 18085
 -  Symbols:   3010
 +  Symbols:   3021
-   CStrings:  0
+   CStrings:  666
  
 
 ```

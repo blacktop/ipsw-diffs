@@ -32,9 +32,10 @@
    - /usr/lib/libz.1.dylib
 -  Functions: 633
 -  Symbols:   1024
+-  CStrings:  938
 +  Functions: 629
 +  Symbols:   1011
-   CStrings:  0
++  CStrings:  875
  
 Symbols:
 - _backtrace
@@ -43,5 +44,75 @@ Symbols:
 - _getchar
 - _printf
 - _sigaction
+CStrings:
++ "/AppleInternal/Library/BuildRoots/69ce826a-553c-11ef-9150-5a7ac3341c94/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.Internal.sdk/usr/local/include/ARI/ari_sdk_msg.h"
++ "0x<< SNUM >>"
++ "VinylRestore-78~1088"
+- "        %!s(MISSING) '%!s(MISSING)' - Press [c] to continue ; [q] to quit: "
+- "/AppleInternal/Library/BuildRoots/df2ee800-4e61-11ef-9f6b-4a8302371c27/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.Internal.sdk/usr/local/include/ARI/ari_sdk_msg.h"
+- "/Library/Caches/com.apple.xbs/Sources/VinylRestore/CommandDrivers/eUICCVinylICEValve.cpp"
+- "/Library/Caches/com.apple.xbs/Sources/VinylRestore/Support/BBUPurpleReverseProxy.cpp"
+- "/Library/Caches/com.apple.xbs/Sources/VinylRestore/Update/Perso/eUICCPerso.cpp"
+- "AuthPerso"
+- "AuthenticatePersoDevice"
+- "BBUCreateCFError"
+- "BBUFDRLogHandler"
+- "BBULogPrintBinaryDelegate"
+- "BBUReadNVRAM"
+- "BBUReadNVRAM_block_invoke"
+- "CreateDictionaryFromPlistData"
+- "CreateValidationBlob"
+- "DeleteProfile"
+- "FinalizePerso"
+- "FinalizePersoDevice"
+- "ForcePerso"
+- "GetData"
+- "GetNonceServer"
+- "GetVinylType"
+- "GetWrapKeyServer"
+- "HowToProceed"
+- "InitPerso"
+- "InitPersoDevice"
+- "InitPersoServer"
+- "InstallTicket"
+- "Perform"
+- "PostDataSync"
+- "PowerDownSE"
+- "PowerUpSE"
+- "Refurb"
+- "ReverseProxyGetSettings"
+- "ReverseProxyGetSettings_block_invoke"
+- "Run"
+- "SendReceiptServer"
+- "SerializeKeyValuePairsIntoPlistData"
+- "SetCardMode"
+- "Step"
+- "StoreData"
+- "StreamFirmware"
+- "ValidatePerso"
+- "ValidatePersoDevice"
+- "VinylControllerObjDestroy"
+- "VinylRestore-78~713"
+- "bbupdater_log"
+- "caught signal %!d(MISSING)\n"
+- "checkEOSDev"
+- "collectCoreDump"
+- "createTransportNoEvents"
+- "createTransport_block_invoke_2"
+- "freeTransport"
+- "freeTransportSync"
+- "freeTransportSync_block_invoke"
+- "freeTransportSync_block_invoke_2"
+- "getECID_block_invoke"
+- "getEID"
+- "getParamUpdateOperation"
+- "inRestoreOS_block_invoke"
+- "inRestoreOS_block_invoke_2"
+- "isAbsentOkay"
+- "isNVRAMKeyPresent"
+- "logEUICCData"
+- "openChannel"
+- "statusCallback"
+- "supportsVinylUpdate"
 
 ```

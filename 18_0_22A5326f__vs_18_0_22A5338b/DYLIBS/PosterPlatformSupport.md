@@ -32,9 +32,13 @@
    - /usr/lib/libobjc.A.dylib
 -  Functions: 2
 -  Symbols:   11
+-  CStrings:  5
 +  Functions: 3
 +  Symbols:   12
-   CStrings:  0
++  CStrings:  7
  
+CStrings:
++ "B16@0:8"
++ "platformSupportsDataMigrator"
 
 ```

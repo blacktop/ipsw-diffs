@@ -23,7 +23,6 @@
    __TEXT.__gcc_except_tab: 0x500
    __TEXT.__ustring: 0x12c
    __TEXT.__dlopen_cstrs: 0xa4
-   __TEXT.__info_plist: 0x460
 -  __TEXT.__unwind_info: 0x1238
 +  __TEXT.__unwind_info: 0x1230
    __DATA_CONST.__auth_got: 0x918

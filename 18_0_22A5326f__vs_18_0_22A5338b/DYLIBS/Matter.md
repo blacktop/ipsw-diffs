@@ -36,12 +36,20 @@
    - /usr/lib/libobjc.A.dylib
 -  Functions: 42707
 -  Symbols:   2537
+-  CStrings:  23399
 +  Functions: 42705
 +  Symbols:   2535
-   CStrings:  0
++  CStrings:  23393
  
 Symbols:
 - _advertising_proxy_ref_dealloc
 - _advertising_proxy_set_service_needed
+CStrings:
+- "Need Enabled on type=%!s(MISSING) name=%!s(MISSING)"
+- "Need Enabled on type=%!s(MISSING) name=%!s(MISSING)"
+- "OnNeedDisable for %!p(MISSING)"
+- "OnNeedDisable for %!p(MISSING)"
+- "Revoking Need for %!s(MISSING) at %!p(MISSING)"
+- "Revoking Need for %!s(MISSING) at %!p(MISSING)"
 
 ```
