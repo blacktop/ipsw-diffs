@@ -1,0 +1,419 @@
+## CloudTelemetryTools
+
+> `/System/Library/PrivateFrameworks/CloudTelemetryTools.framework/CloudTelemetryTools`
+
+```diff
+
+-2200.142.0.0.0
+-  __TEXT.__text: 0x7fe0c
+-  __TEXT.__auth_stubs: 0x21d0
++2200.144.0.0.0
++  __TEXT.__text: 0x87a74
++  __TEXT.__auth_stubs: 0x21c0
+   __TEXT.__objc_methlist: 0x44
+-  __TEXT.__const: 0x3acc
++  __TEXT.__const: 0x3b8c
+   __TEXT.__gcc_except_tab: 0x80
+-  __TEXT.__cstring: 0x3105
++  __TEXT.__cstring: 0x30a5
+   __TEXT.__dlopen_cstrs: 0x47
+-  __TEXT.__swift5_typeref: 0x11cd
+-  __TEXT.__oslogstring: 0x17c7
+-  __TEXT.__swift5_capture: 0x304
+-  __TEXT.__constg_swiftt: 0x168c
+-  __TEXT.__swift5_reflstr: 0xe75
+-  __TEXT.__swift5_fieldmd: 0x18cc
+-  __TEXT.__swift5_proto: 0x3bc
+-  __TEXT.__swift5_types: 0x1e8
++  __TEXT.__swift5_typeref: 0x1255
++  __TEXT.__oslogstring: 0x18e7
++  __TEXT.__swift5_capture: 0xa68
++  __TEXT.__constg_swiftt: 0x16b4
++  __TEXT.__swift5_reflstr: 0xf05
++  __TEXT.__swift5_fieldmd: 0x1918
++  __TEXT.__swift5_proto: 0x3c4
++  __TEXT.__swift5_types: 0x1f0
+   __TEXT.__swift5_builtin: 0x64
+   __TEXT.__swift5_mpenum: 0x18
+   __TEXT.__swift5_assocty: 0x128
+   __TEXT.__swift5_protos: 0x2c
+-  __TEXT.__unwind_info: 0x2160
+-  __TEXT.__eh_frame: 0x4aec
++  __TEXT.__unwind_info: 0x2218
++  __TEXT.__eh_frame: 0x4c94
+   __TEXT.__objc_classname: 0x82
+-  __TEXT.__objc_methname: 0x909
++  __TEXT.__objc_methname: 0x931
+   __TEXT.__objc_methtype: 0x220
+-  __TEXT.__objc_stubs: 0x300
++  __TEXT.__objc_stubs: 0x320
+   __DATA_CONST.__got: 0x4e0
+-  __DATA_CONST.__const: 0x110
++  __DATA_CONST.__const: 0x190
+   __DATA_CONST.__objc_classlist: 0xd0
+   __DATA_CONST.__objc_protolist: 0x60
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x258
++  __DATA_CONST.__objc_selrefs: 0x260
+   __DATA_CONST.__objc_protorefs: 0x30
+-  __AUTH_CONST.__auth_got: 0x10f8
+-  __AUTH_CONST.__auth_ptr: 0x578
+-  __AUTH_CONST.__const: 0x3708
+-  __AUTH_CONST.__cfstring: 0x100
++  __AUTH_CONST.__auth_got: 0x10f0
++  __AUTH_CONST.__auth_ptr: 0x580
++  __AUTH_CONST.__const: 0x49f0
++  __AUTH_CONST.__cfstring: 0x120
+   __AUTH_CONST.__objc_const: 0x1d10
+   __AUTH.__objc_data: 0x230
+-  __AUTH.__data: 0x1930
++  __AUTH.__data: 0x19d0
+   __DATA.__objc_ivar: 0x4
+-  __DATA.__data: 0xe20
+-  __DATA.__bss: 0x61b8
+-  __DATA.__common: 0x248
++  __DATA.__data: 0xe10
++  __DATA.__bss: 0x62c8
++  __DATA.__common: 0x250
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CryptoKit.framework/CryptoKit
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftObjectiveC.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
++  - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
++  - /usr/lib/swift/libswift_errno.dylib
++  - /usr/lib/swift/libswift_math.dylib
++  - /usr/lib/swift/libswift_signal.dylib
++  - /usr/lib/swift/libswift_stdio.dylib
++  - /usr/lib/swift/libswift_time.dylib
+   - /usr/lib/swift/libswiftos.dylib
+-  Functions: 2336
+-  Symbols:   430
+-  CStrings:  0
++  - /usr/lib/swift/libswiftsys_time.dylib
++  - /usr/lib/swift/libswiftunistd.dylib
++  Functions: 2501
++  Symbols:   437
++  CStrings:  304
+ 
+Symbols:
++ __swift_FORCE_LOAD_$_swift_Builtin_float
++ __swift_FORCE_LOAD_$_swift_errno
++ __swift_FORCE_LOAD_$_swift_math
++ __swift_FORCE_LOAD_$_swift_signal
++ __swift_FORCE_LOAD_$_swift_stdio
++ __swift_FORCE_LOAD_$_swift_time
++ __swift_FORCE_LOAD_$_swiftsys_time
++ __swift_FORCE_LOAD_$_swiftunistd
+- _swift_taskGroup_destroy
+- _swift_taskGroup_initialize
+CStrings:
++ "AA0C5BrandVSgtcfC"
++ "_$s10FinanceKit0A11XPCListenerC9anonymous17connectionHandlerACyxGyAA28ServiceToClientXPCConnectionCyxGKc_tFZ"
++ "_$s10FinanceKit0A12NetworkErrorOs0D0AAMc"
++ "_$s10FinanceKit0A25AppExtensionConfigurationVyxG0D10Foundation0cdE0AAMc"
++ "_$s10FinanceKit0A5ErrorO13walletDeletedyA2CmFWC"
++ "_$s10FinanceKit0A5ErrorO14dataRestrictedyAcA0A5StoreC8DataTypeOcACmFWC"
++ "_$s10FinanceKit0A5ErrorOs0C0AAMc"
++ "_$s10FinanceKit0A5StoreC5ReplyO7FailureOyAGy_x_Gs5Error_pcfC"
++ "_$s10FinanceKit0A5StoreC6sharedACvgZ"
++ "_$s10FinanceKit0A5StoreC7MessageO12activeOrdersyA2EmFWC"
++ "_$s10FinanceKit0A5StoreC7MessageO15bankCredentialsyA2EmFWC"
++ "_$s10FinanceKit0A5StoreC7MessageO16reindexSpotlightyA2EmFWC"
++ "_$s10FinanceKit0A5StoreC7MessageO19authorizationStatusyA2EmFWC"
++ "_$s10FinanceKit0A5StoreC7MessageO20orderCountForSignoutyA2EmFWC"
++ "_$s10FinanceKit0A5StoreC7MessageO20requestAuthorizationyA2EmFWC"
++ "_$s10FinanceKit0A5StoreC7MessageO21deleteBankCredentialsyAESay10Foundation4UUIDVG_tcAEmFWC"
++ "_$s10FinanceKit0A5StoreC7MessageO22fetchHistoricalChangesyAEs5Int64V_SS10Foundation4UUIDVSgAA32AuxiliaryEntityPredicateProviderVSgtcAEmFWC"
++ "_$s10FinanceKit0A5StoreC7MessageO24updateOrdersShowAsActiveyAE10Foundation4DateV_tcAEmFWC"
++ "_$s10FinanceKit0A5StoreC7MessageO27fetchHistoricalTransactionsyAeA29XPCSecureCodingCodableWrapperVySo24NSPersistentHistoryTokenCGSg_SSAA32AuxiliaryEntityPredicateProviderVSgtcAEmFWC"
++ "_$s10FinanceKit0A5StoreC7MessageO28insertOrUpdateBankCredentialyAeA0hI0OcAEmFWC"
++ "_$s10FinanceKit0A5StoreC7MessageO28setOrderNotificationsEnabledyAeA014FullyQualifiedF10IdentifierV_SbtcAEmFWC"
++ "_$s10FinanceKit0A5StoreC7MessageOMa"
++ "_$s10FinanceKit0A5StoreCMa"
++ "_$s10FinanceKit11OrderStatusOMa"
++ "_$s10FinanceKit11RawLocationVMa"
++ "_$s10FinanceKit11RawMerchantV10contactURL10Foundation0F0VSgvg"
++ "_$s10FinanceKit11RawMerchantV11displayNameSSvg"
++ "_$s10FinanceKit11RawMerchantV11phoneNumberSSSgvg"
++ "_$s10FinanceKit11RawMerchantV12emailAddressSSSgvg"
++ "_$s10FinanceKit11RawMerchantV15businessChatURL10Foundation0G0VSgvg"
++ "_$s10FinanceKit11RawMerchantV18merchantIdentifierSSvg"
++ "_$s10FinanceKit11RawMerchantV3url10Foundation3URLVvg"
++ "_$s10FinanceKit11RawMerchantV4logoSSSgvg"
++ "_$s10FinanceKit11RawMerchantVMa"
++ "_$s10FinanceKit12ManagedOrderC021ordersAreInIncreasingD10ByPriority3lhs3rhsSbAC_ACtFZ"
++ "_$s10FinanceKit12MapsMerchantV11phoneNumberSSSgvg"
++ "_$s10FinanceKit12MapsMerchantV12heroImageURL10Foundation0G0VSgvg"
++ "_$s10FinanceKit12MapsMerchantV13postalAddressSo08CNPostalF0CSgvg"
++ "_$s10FinanceKit12MapsMerchantV14walletCategoryAA0c6WalletF0VSgvg"
++ "_$s10FinanceKit12MapsMerchantV15businessChatURL10Foundation0G0VSgvg"
++ "_$s10FinanceKit12MapsMerchantV16locationLatitudeSdSgvg"
++ "_$s10FinanceKit12MapsMerchantV17lastProcessedDate10Foundation0G0VSgvg"
++ "_$s10FinanceKit12MapsMerchantV17locationLongitudeSdSgvg"
++ "_$s10FinanceKit12MapsMerchantV18encodedStylingInfo10Foundation4DataVSgvg"
++ "_$s10FinanceKit12MapsMerchantV22mapsCategoryIdentifierSSSgvg"
++ "_$s10FinanceKit12MapsMerchantV24heroImageAttributionNameSSSgvg"
++ "_$s10FinanceKit12MapsMerchantV24resultProviderIdentifiers5Int32VSgvg"
++ "_$s10FinanceKit12MapsMerchantV3url10Foundation3URLVSgvg"
++ "_$s10FinanceKit12MapsMerchantV4muids6UInt64Vvg"
++ "_$s10FinanceKit12MapsMerchantV4nameSSSgvg"
++ "_$s10FinanceKit12MapsMerchantV8hasBrandSbvs"
++ "_$s10FinanceKit12MapsMerchantVMa"
++ "_$s10FinanceKit12OrderPaymentV12summaryItemsSayAA0cD11SummaryItemVGSgvg"
++ "_$s10FinanceKit12OrderPaymentV12transactionsSayAA0C0V0D11TransactionVGSgvg"
++ "_$s10FinanceKit12OrderPaymentV14paymentMethodsSaySSGSgvg"
++ "_$s10FinanceKit12OrderPaymentV5totalAA14CurrencyAmountVvg"
++ "_$s10FinanceKit12OrderPaymentV6statusAA0cD6StatusOSgvg"
++ "_$s10FinanceKit12OrderPaymentVMa"
++ "_$s10FinanceKit12OrderPaymentV_6bundleAcA03RawcD0V_AA0C6BundleCtcfC"
++ "_$s10FinanceKit12OrderPaymentVyAcA07ManagedcD0CcfC"
++ "_$s10FinanceKit14RawOrderStatusO8rawValueSSvg"
++ "_$s10FinanceKit14RawOrderStatusOMa"
++ "_$s10FinanceKit15RawOrderBarcodeVMa"
++ "_$s10FinanceKit15RawOrderContentO014fullyQualifiedD10IdentifierAA05FullygdH0Vvg"
++ "_$s10FinanceKit15RawOrderContentO09ecommercedE0AA0c9ECommercedE0VSgvg"
++ "_$s10FinanceKit15RawOrderContentO13SchemaVersionV6latestAEvgZ"
++ "_$s10FinanceKit15RawOrderContentO13SchemaVersionV8rawValues5Int16Vvg"
++ "_$s10FinanceKit15RawOrderContentO13SchemaVersionVMa"
++ "_$s10FinanceKit15RawOrderContentO13SchemaVersionVs23CustomStringConvertibleAAMc"
++ "_$s10FinanceKit15RawOrderContentO9ecommerceyAcA0c9ECommercedE0VcACmFWC"
++ "_$s10FinanceKit15RawOrderContentO9updatedAt10Foundation4DateVvg"
++ "_$s10FinanceKit15RawOrderContentOMa"
++ "_$s10FinanceKit15SoftwareLibraryPAAE11application18forStoreIdentifierAA0C11ApplicationVs5Int64V_tF"
++ "_$s10FinanceKit16CoreDataProviderC013getBackgroundE0ACyKFZ"
++ "_$s10FinanceKit16CoreDataProviderC5storeAA0cD5StoreCvg"
++ "_$s10FinanceKit16CoreDataProviderC6sharedACvgZ"
++ "_$s10FinanceKit16CoreDataProviderCMa"
++ "_$s10FinanceKit16RawOrderCustomerV12emailAddressSSSgvg"
++ "_$s10FinanceKit16RawOrderCustomerVMa"
++ "_$s10FinanceKit17CoreDataProvidingP11viewContextSo015NSManagedObjectG0CvgTj"
++ "_$s10FinanceKit17CoreDataProvidingP5storeAA0cD5StoreCvgTj"
++ "_$s10FinanceKit17CoreDataProvidingPAAE11viewContextSo015NSManagedObjectG0Cvg"
++ "_$s10FinanceKit17ManagedLabRequestC14insertOrUpdate3for7success4date7contextyAA0C15InternalAccountC_Sb10Foundation4DateVSo22NSManagedObjectContextCtFZ"
++ "_$s10FinanceKit17ManagedLabRequestCMa"
++ "_$s10FinanceKit18BankConnectConsentV12authorizedAt10Foundation4DateVvg"
++ "_$s10FinanceKit18BankConnectConsentV12consentTokenSSvg"
++ "_$s10FinanceKit18BankConnectConsentV13consentStatusAA0cdeG0Ovg"
++ "_$s10FinanceKit18BankConnectConsentV13lastUpdatedAt10Foundation4DateVvg"
++ "_$s10FinanceKit18BankConnectConsentV15authorizedUntil10Foundation4DateVvg"
++ "_$s10FinanceKit18BankConnectConsentV21refreshSequenceNumbers5Int64Vvg"
++ "_$s10FinanceKit18BankConnectConsentV2id10Foundation4UUIDVvg"
++ "_$s10FinanceKit18BankConnectConsentV9consentIDSSvg"
++ "_$s10FinanceKit18BankConnectConsentVMa"
++ "_$s10FinanceKit18BankConnectConsentVyAcA07ManagedE0CcfC"
++ "_$s10FinanceKit18BankConnectServiceC15loadPaymentInfo3foryAA31FullyQualifiedAccountIdentifierV_tYaKF"
++ "_$s10FinanceKit18BankConnectServiceC31completeConnectionAuthorization3for4with15fraudAssessment13configurationAA0cD7ConsentVAA0cdH7SessionV_AA0cdH7PayloadOAA05FraudL6ResultCAA0cdH13ConfigurationOtYaKF"
++ "_$s10FinanceKit18BankConnectServiceC31initiateConnectionAuthorization3for6fpanID26authorizationConfiguration0L6SourceAA0cdH7SessionVAA11InstitutionV_SSSgAA0cdhM0OAJ04AuthN0OtYaKF"
++ "_$s10FinanceKit18BankConnectServiceC33scheduleHistoricalTransactionTask3foryAA31FullyQualifiedAccountIdentifierV_tYaKF"
++ "_$s10FinanceKit18ManagedTransactionC12fetchRequestSo07NSFetchF0CyACGyFZ"
++ "_$s10FinanceKit18MapsWalletCategoryV8rawValues5Int16Vvg"
++ "_$s10FinanceKit18MapsWalletCategoryVMa"
++ "_$s10FinanceKit18OrderPaymentStatusOMa"
++ "_$s10FinanceKit19CredentialCenterKeyVSHAAMc"
++ "_$s10FinanceKit19CredentialCenterKeyVSQAAMc"
++ "_$s10FinanceKit19FraudAssessmentTypeOMa"
++ "_$s10FinanceKit19RawOrderApplicationV9launchURL10Foundation0G0VSgvg"
++ "_$s10FinanceKit19RawOrderApplicationVMa"
++ "_$s10FinanceKit19RawOrderFulfillmentO6pickupyAcA0cd6PickupE0VcACmFWC"
++ "_$s10FinanceKit19RawOrderFulfillmentO8shippingyAcA0cd8ShippingE0VcACmFWC"
++ "_$s10FinanceKit19SingleDateFormatterV13configuration5styleAcA0E13ConfigurationV_AC5StyleOtcfC"
++ "_$s10FinanceKit19SingleDateFormatterV5StyleOMa"
++ "_$s10FinanceKit19SingleDateFormatterV6format_3nowSS10Foundation0D0V_AHtF"
++ "_$s10FinanceKit19SingleDateFormatterVMa"
++ "_$s10FinanceKit19SoftwareApplicationV11isInstalledSbyYaKF"
++ "_$s10FinanceKit19SoftwareApplicationVMa"
++ "_$s10FinanceKit20OrderedDateFormatterV10Foundation11FormatStyleAAMc"
++ "_$s10FinanceKit20StoreSoftwareLibraryCACycfC"
++ "_$s10FinanceKit20StoreSoftwareLibraryCMa"
++ "_$s10FinanceKit20XPCEndpointProvidingP8endpointSo21NSXPCListenerEndpointCvgTj"
++ "_$s10FinanceKit21BankConnectOfflineLabO10PermissionO2eeoiySbAE_AEtFZ"
++ "_$s10FinanceKit21BankConnectOfflineLabO10PermissionOMa"
++ "_$s10FinanceKit21CoreAnalyticsProviderC10sendEventsyySayAA0D5Event_pGF"
++ "_$s10FinanceKit21CoreAnalyticsProviderC6sharedACvgZ"
++ "_$s10FinanceKit21CoreAnalyticsProviderCACycfc"
++ "_$s10FinanceKit21CoreAnalyticsProviderCMa"
++ "_$s10FinanceKit22CoreAnalyticsProvidingP10sendEventsyySayAA0D5Event_pGFTj"
++ "_$s10FinanceKit22CoreAnalyticsProvidingP9sendEventyyAA0dG0_pFTj"
++ "_$s10FinanceKit22FormatterConfigurationVSEAAMc"
++ "_$s10FinanceKit22FormatterConfigurationVSHAAMc"
++ "_$s10FinanceKit22FormatterConfigurationVSeAAMc"
++ "_$s10FinanceKit22GrandSlamAuthenticatorC12accountStoreACSo09ACAccountG0C_tcfc"
++ "_$s10FinanceKit22GrandSlamAuthenticatorCMa"
++ "_$s10FinanceKit22ImageProcessingServiceCACycfC"
++ "_$s10FinanceKit22ImageProcessingServiceCMa"
++ "_$s10FinanceKit22ManagedInternalAccountC012predicateForE0010withPublicE2IDSo11NSPredicateC10Foundation4UUIDV_tFZ"
++ "_$s10FinanceKit22ManagedInternalAccountC012predicateForE0012withExternalE2IDSo11NSPredicateCSS_tFZ"
++ "_$s10FinanceKit22ManagedInternalAccountC012predicateForE04withSo11NSPredicateCAA014FullyQualifiedE10IdentifierV_tFZ"
++ "_$s10FinanceKit22ManagedInternalAccountC08existingE0012withExternalE2ID2inACSgSS_So22NSManagedObjectContextCtKFZ"
++ "_$s10FinanceKit22ManagedInternalAccountC08existingE04with2inACSgAA014FullyQualifiedE10IdentifierV_So22NSManagedObjectContextCtKFZ"
++ "_$s10FinanceKit22ManagedInternalAccountC08existingE09accountID07consentH02inACSgSS_SSSo22NSManagedObjectContextCtKFZ"
++ "_$s10FinanceKit22ManagedInternalAccountC12fetchRequestSo07NSFetchG0CyACGyFZ"
++ "_$s10FinanceKit22ManagedInternalAccountC14existingObject4with2inACSo09NSManagedG2IDC_So0jG7ContextCtKFZ"
++ "_$s10FinanceKit22ManagedInternalAccountC16existingAccounts17withInstitutionID2inSayACGSS_So22NSManagedObjectContextCtKFZ"
++ "_$s10FinanceKit22ManagedInternalAccountC20predicateForAccounts010withPublicE3IDsSo11NSPredicateCShy10Foundation4UUIDVG_tFZ"
++ "_$s10FinanceKit22ManagedInternalAccountC20predicateForAccounts13withConsentIDSo11NSPredicateCSS_tFZ"
++ "_$s10FinanceKit22ManagedInternalAccountC20predicateForAccounts17withInstitutionIDSo11NSPredicateCSS_tFZ"
++ "_$s10FinanceKit22ManagedInternalAccountC20predicateForAccounts27grantingAccessByConsentUUIDSo11NSPredicateC10Foundation0M0V_tFZ"
++ "_$s10FinanceKit22ManagedInternalAccountC46predicateForTransactionPickerShareableAccountsSo11NSPredicateCyFZ"
++ "_$s10FinanceKit22ManagedInternalAccountC8accounts18grantedByConsentID2inSayACGSS_So22NSManagedObjectContextCtKFZ"
++ "_$s10FinanceKit23ManagedOrderContentItemO9lineItemsSayAA0cd4LineF0CGvg"
++ "_$s10FinanceKit23ManagedOrderContentItemOMa"
++ "_$s10FinanceKit23OrderPaymentSummaryItemV5labelSSvg"
++ "_$s10FinanceKit23OrderPaymentSummaryItemV5valueAA14CurrencyAmountVvg"
++ "_$s10FinanceKit23OrderPaymentSummaryItemVMa"
++ "_$s10FinanceKit24BankConnectConsentStatusO10authorizedyA2CmFWC"
++ "_$s10FinanceKit24BankConnectConsentStatusOSYAAMc"
++ "_$s10FinanceKit24InstitutionPrivacyLabelsV12transactionsACvgZ"
++ "_$s10FinanceKit24InstitutionPrivacyLabelsV14paymentDetailsACvgZ"
++ "_$s10FinanceKit24InstitutionPrivacyLabelsV17scheduledPaymentsACvgZ"
++ "_$s10FinanceKit24InstitutionPrivacyLabelsV7rewardsACvgZ"
++ "_$s10FinanceKit24InstitutionPrivacyLabelsV8balancesACvgZ"
++ "_$s10FinanceKit24InstitutionPrivacyLabelsVMa"
++ "_$s10FinanceKit24InstitutionPrivacyLabelsVSQAAMc"
++ "_$s10FinanceKit24InstitutionPrivacyLabelsVs10SetAlgebraAAMc"
++ "_$s10FinanceKit24RawECommerceOrderContentV014fullyQualifiedE10IdentifierAA05FullyheI0Vvg"
++ "_$s10FinanceKit24RawECommerceOrderContentV0F4ItemO11fulfillmentyAeA0cE11FulfillmentOcAEmFWC"
++ "_$s10FinanceKit24RawECommerceOrderContentV0F4ItemOMa"
++ "_$s10FinanceKit24RawECommerceOrderContentV10returnInfoAA0ce6ReturnH0VSgvg"
++ "_$s10FinanceKit24RawECommerceOrderContentV11orderNumberSSSgvg"
++ "_$s10FinanceKit24RawECommerceOrderContentV12fulfillmentsSayAA0cE11FulfillmentOGvg"
++ "_$s10FinanceKit24RawECommerceOrderContentV13orderProviderAA0ceH0VSgvg"
++ "_$s10FinanceKit24RawECommerceOrderContentV17statusDescriptionSSSgvg"
++ "_$s10FinanceKit24RawECommerceOrderContentV17versionIdentifierAA0E0V07VersionH0Vvg"
++ "_$s10FinanceKit24RawECommerceOrderContentV18orderManagementURL10Foundation0I0Vvg"
++ "_$s10FinanceKit24RawECommerceOrderContentV19changeNotificationsAA0ce6ChangeH5ValueOSgvg"
++ "_$s10FinanceKit24RawECommerceOrderContentV19orderTypeIdentifierSSvg"
++ "_$s10FinanceKit24RawECommerceOrderContentV22associatedApplicationsSayAA0cE11ApplicationVGvg"
++ "_$s10FinanceKit24RawECommerceOrderContentV24supportsAutomaticUpdatesSbvg"
++ "_$s10FinanceKit24RawECommerceOrderContentV5order0gF0AcA07ManagedE0C_AA0hdeF0CtcfC"
++ "_$s10FinanceKit24RawECommerceOrderContentV6statusAA0cE6StatusOvg"
++ "_$s10FinanceKit24RawECommerceOrderContentV7barcodeAA0cE7BarcodeVSgvg"
++ "_$s10FinanceKit24RawECommerceOrderContentV7paymentAA0cE7PaymentVSgvg"
++ "_$s10FinanceKit24RawECommerceOrderContentV7returnsSayAA0cE6ReturnVGvg"
++ "_$s10FinanceKit24RawECommerceOrderContentV8customerAA0cE8CustomerVSgvg"
++ "_$s10FinanceKit24RawECommerceOrderContentV8merchantAA0C8MerchantVvg"
++ "_$s10FinanceKit24RawECommerceOrderContentV9createdAt10Foundation4DateVvg"
++ "_$s10FinanceKit24RawECommerceOrderContentV9lineItemsSayAA0cE8LineItemVGvg"
++ "_$s10FinanceKit24RawECommerceOrderContentV9updatedAt10Foundation4DateVvg"
++ "_$s10FinanceKit24RawECommerceOrderContentVMa"
++ "_$s10FinanceKit25ManagedInstitutionDeleterV9deleteAll7contextySo22NSManagedObjectContextC_tKF"
++ "_$s10FinanceKit25ManagedInstitutionDeleterVACycfC"
++ "_$s10FinanceKit25ManagedInstitutionDeleterVMa"
++ "_$s10FinanceKit26ManagedInstitutionImporterC014insertOrUpdateD0_7contextAA0cD0CAA0D0V_So22NSManagedObjectContextCtKF"
++ "_$s10FinanceKit26ManagedInstitutionImporterC014insertOrUpdateD0_7contextAA0cD0CAA18RawBankConnectDataO0D0V_So22NSManagedObjectContextCtKF"
++ "_$s10FinanceKit26ManagedInstitutionImporterCACycfc"
++ "_$s10FinanceKit26ManagedInstitutionImporterCMa"
++ "_$s10FinanceKit26ManagedInternalTransactionC30bankMerchantInformationInsightAA0c4BankghI0CSgvg"
++ "_$s10FinanceKit26ManagedTransactionInsightsC12fetchRequestSo07NSFetchG0CyACGyFZ"
++ "_$s10FinanceKit26ManagedTransactionInsightsCMa"
++ "_$s10FinanceKit27ManagedAccountMatchImporterC014insertOrUpdatedE0_7contextAA0cdE0CAA0dE0V_So22NSManagedObjectContextCtKF"
++ "_$s10FinanceKit27ManagedAccountMatchImporterC22passDataSourceProviderAcA022BankConnectPaymentPasshI9Providing_p_tcfc"
++ "_$s10FinanceKit27ManagedAccountMatchImporterCMa"
++ "_$s10FinanceKit27ManagedAuthorizationSessionC17deleteAllSessions2inySo22NSManagedObjectContextC_tKFZ"
++ "_$s10FinanceKit27ManagedAuthorizationSessionCMa"
++ "_$s10FinanceKit27OrderWebServiceFetchRequestV13isConditionalSbvg"
++ "_$s10FinanceKit27OrderWebServiceFetchRequestV19orderTypeIdentifier0hJ019authenticationToken17lastModifiedValueACSS_S3SSgtcfC"
++ "_$s10FinanceKit28ManagedECommerceOrderContentC011topPriorityF4ItemAA0cefI0OSgvg"
++ "_$s10FinanceKit28RawOrderContentDecodingErrorO25schemaVersionNotSupportedyAcA0cdE0O06SchemaI0VcACmFWC"
++ "_$s10FinanceKit28RawOrderContentDecodingErrorOMa"
++ "_$s10FinanceKit29ApplePayTransactionIdentifierV16hexEncodedStringSSvg"
++ "_$s10FinanceKit29ApplePayTransactionIdentifierV2eeoiySbAC_ACtFZ"
++ "_$s10FinanceKit29ApplePayTransactionIdentifierV4data10Foundation4DataVvg"
++ "_$s10FinanceKit29ApplePayTransactionIdentifierVMa"
++ "_$s10FinanceKit29ApplePayTransactionIdentifierVSHAAMc"
++ "_$s10FinanceKit29ApplePayTransactionIdentifierVs23CustomStringConvertibleAAMc"
++ "_$s10FinanceKit30BankConnectInstitutionUpdatingP014insertOrUpdateE0yyAA0E0VYaKFTj"
++ "_$s10FinanceKit30OrderWebServiceRegisterRequestV23deviceLibraryIdentifier09orderTypeJ00kJ019authenticationToken04pushN0ACSS_S3S10Foundation4DataVtcfC"
++ "_$s10FinanceKit30TransactionMerchantInformationVyAcA011ManagedBankdE7InsightCcfC"
++ "_$s10FinanceKit32OrderWebServiceUnregisterRequestV23deviceLibraryIdentifier09orderTypeJ00kJ019authenticationTokenACSS_S3StcfC"
++ "_$s10FinanceKit32RawOrderChangeNotificationsValueOMa"
++ "_$s10FinanceKit34BankConnectConsentStatusDataLoaderC11environmentAcA0cdgH11Environment_p_tcfc"
++ "_$s10FinanceKit34BankConnectConsentStatusDataLoaderCMa"
++ "_$s10FinanceKit34OrderWebServiceFetchChangesRequestV23deviceLibraryIdentifier09orderTypeK017lastModifiedValueACSS_S2SSgtcfC"
++ "_$s10FinanceKit35BankConnectConsentStatusDataLoadingP04loadeF003forE2IDySS_tYaKFTj"
++ "_$s10FinanceKit35OrderWebServiceFetchChangesResponseV16orderIdentifiersSaySSGvg"
++ "_$s10FinanceKit35OrderWebServiceFetchChangesResponseV17lastModifiedValueSSSgvg"
++ "_$s10FinanceKit36BankConnectSharedSymmetricKeyManagerCACycfc"
++ "_$s10FinanceKit36BankConnectSharedSymmetricKeyManagerCMa"
++ "_$s10FinanceKit37BankConnectAuthorizationConfigurationOMa"
++ "_$s10FinanceKit37BankConnectSharedSymmetricKeyManagingP3key06CryptoB00fG0VvgTj"
++ "_$s10FinanceKit39DisplayableStringConvertibleTransactionPAAE07displayF11DescriptionSSvg"
++ "_$s10FinanceKit40BankConnectServiceAccountConnectingErrorO28completeAuthorizationFailureyACs0H0_p_tcACmFWC"
++ "_$s10FinanceKit40BankConnectServiceAccountConnectingErrorO4CodeO010mismatchedF4TypeyA2EmFWC"
++ "_$s10FinanceKit40BankConnectServiceAccountConnectingErrorO4CodeO011unsupportedF4TypeyA2EmFWC"
++ "_$s10FinanceKit40BankConnectServiceAccountConnectingErrorOs0H0AAMc"
++ "_$s10FinanceKit46BankConnectWebServiceNotificationEventsRequestV7consent12fromDateTime14subscriptionIDAcA0cD7ConsentV_10Foundation0L0VSStcfC"
++ "_$s10FinanceKit46BankConnectWebServiceNotificationEventsRequestVMa"
++ "_$s10FinanceKit46BankConnectWebServiceTermsAndConditionsRequestV3ids11languageIdsACSaySSG_AFtcfC"
++ "_$s10FinanceKit46BankConnectWebServiceTermsAndConditionsRequestVMa"
++ "_$s10FinanceKit56BankConnectWebServiceRegisterToNotificationEventsRequestV7consent10eventTypes14subscriptionIDAcA0cD7ConsentV_SayAA03RawcD4DataO0I9EventTypeOGSSSgtcfC"
++ "_$s10FinanceKit56BankConnectWebServiceRegisterToNotificationEventsRequestVMa"
++ "_$s10FinanceKit5OrderV11FulfillmentO13DisplayStatusO2eeoiySbAGy__xG_AItFZ"
++ "_$s10FinanceKit5OrderV11FulfillmentO13DisplayStatusOAAs5NeverORszrlE12orderContentAGy__AIGAA012RawECommercecI0V_tcfC"
++ "_$s10FinanceKit5OrderV11FulfillmentO13DisplayStatusOAAs5NeverORszrlE14localizedTitleSSvg"
++ "_$s10FinanceKit5OrderV11FulfillmentO13DisplayStatusOAAs5NeverORszrlE5order0H7ContentAGy__AIGAA07ManagedC0C_AA0j9ECommercecI0CtcfC"
++ "_$s10FinanceKit5OrderV11FulfillmentO13DisplayStatusOAaC06PickupF0ORszrlE12orderContent06pickupF0AGy__AIGAA012RawECommercecI0V_AA0kcgF0OtcfC"
++ "_$s10FinanceKit5OrderV11FulfillmentO13DisplayStatusOAaC06PickupF0ORszrlE5order0H7Content06pickupF0AGy__AIGAA07ManagedC0C_AA0k9ECommercecI0CAA0kcgF0OtcfC"
++ "_$s10FinanceKit5OrderV11FulfillmentO13DisplayStatusOMa"
++ "_$s10FinanceKit5OrderV11FulfillmentO30ShippingDisplayStatusTypeModelV08shippingG0AC0eG0Ovg"
++ "_$s10FinanceKit5OrderV11FulfillmentO30ShippingDisplayStatusTypeModelVMa"
++ "_$s10FinanceKit5OrderV12PickupStatusOMa"
++ "_$s10FinanceKit5OrderV12PriorityInfoV08isHigherD04than3nowSbAE_10Foundation4DateVtF"
++ "_$s10FinanceKit5OrderV12PriorityInfoVMa"
++ "_$s10FinanceKit5OrderV14ShippingStatusO2eeoiySbAE_AEtFZ"
++ "_$s10FinanceKit5OrderV14ShippingStatusOMa"
++ "_$s10FinanceKit5OrderV14ShippingStatusOyAeA03RawcdE0OcfC"
++ "_$s10FinanceKit5OrderV14ShippingStatusOyAeA07ManagedcdE0OcfC"
++ "_$s10FinanceKit5OrderV14StatusPriorityO11contentItemAeA07Managedc7ContentG0O_tcfC"
++ "_$s10FinanceKit5OrderV14StatusPriorityOMa"
++ "_$s10FinanceKit5OrderV17FulfillmentWindowO7endDate10Foundation0G0Vvg"
++ "_$s10FinanceKit5OrderV17FulfillmentWindowO8durationAA8DurationVSgvg"
++ "_$s10FinanceKit5OrderV17FulfillmentWindowO9FormatterV13configuration5style020showDateForSingleDayE0AgA0F13ConfigurationV_AA0ljF0V5StyleOSbtcfC"
++ "_$s10FinanceKit5OrderV17FulfillmentWindowO9FormatterV6format_3nowSSAE_10Foundation4DateVtF"
++ "_$s10FinanceKit5OrderV17FulfillmentWindowO9FormatterVMa"
++ "_$s10FinanceKit5OrderV17FulfillmentWindowO9startDate10Foundation0G0Vvg"
++ "_$s10FinanceKit5OrderV17FulfillmentWindowOMa"
++ "_$s10FinanceKit5OrderV17ShippingRecipientV2eeoiySbAE_AEtFZ"
++ "_$s10FinanceKit5OrderV17ShippingRecipientV9formattedSSSgvg"
++ "_$s10FinanceKit5OrderV17ShippingRecipientVMa"
++ "_$s10FinanceKit5OrderV17ShippingRecipientVyAeA03RawcdE0VcfC"
++ "_$s10FinanceKit5OrderV17VersionIdentifierV2eeoiySbAE_AEtFZ"
++ "_$s10FinanceKit5OrderV17VersionIdentifierVMa"
++ "_$s10FinanceKit5OrderV19ShippingFulfillmentV12StatusValuesV07displayF0AC0E0O07DisplayF0Oy__AJ0diF9TypeModelVGvg"
++ "_$s10FinanceKit5OrderV19ShippingFulfillmentV12StatusValuesV11shippedDate10Foundation0I0VSgvg"
++ "_$s10FinanceKit5OrderV19ShippingFulfillmentV12StatusValuesV12deliveryDate10Foundation0I0VSgvg"
++ "_$s10FinanceKit5OrderV19ShippingFulfillmentV12StatusValuesV12orderContent11fulfillmentAgA012RawECommercecI0V_AA0kcdE0VtcfC"
++ "_$s10FinanceKit5OrderV19ShippingFulfillmentV12StatusValuesV14deliveryWindowAC0eI0OSgvg"
++ "_$s10FinanceKit5OrderV19ShippingFulfillmentV12StatusValuesV2eeoiySbAG_AGtFZ"
++ "_$s10FinanceKit5OrderV19ShippingFulfillmentV12StatusValuesV5order0H7Content11fulfillmentAgA07ManagedC0C_AA0k9ECommercecI0CAA0kcdE0CtcfC"
++ "_$s10FinanceKit5OrderV19ShippingFulfillmentV12StatusValuesVMa"
++ "_$s10FinanceKit5OrderV19ShippingFulfillmentV15StatusFormatterV13configuration29formatShippedAndDeliveryDates25useRelativeDateFormattingAgA0G13ConfigurationV_S2btcfC"
++ "_$s10FinanceKit5OrderV19ShippingFulfillmentV15StatusFormatterV6format_3nowSSAE0F6ValuesV_10Foundation4DateVtF"
++ "_$s10FinanceKit5OrderV19ShippingFulfillmentV15StatusFormatterVMa"
++ "_$s10FinanceKit5OrderV8CustomerV13formattedNameSSSgvg"
++ "_$s10FinanceKit5OrderV8CustomerVMa"
++ "_$s10FinanceKit5OrderV8CustomerVyAeA03RawcD0VcfC"
++ "_$s10FinanceKit5OrderV8LineItemV5imageSSSgvg"
++ "_$s10FinanceKit5OrderV8LineItemV5priceAA14CurrencyAmountVSgvg"
++ "_$s10FinanceKit5OrderV8LineItemV5titleSSvg"
++ "_$s10FinanceKit5OrderV8LineItemV8quantitySivg"
++ "_$s10FinanceKit5OrderV8LineItemV8subtitleSSSgvg"
++ "_$s10FinanceKit5OrderV8LineItemVMa"
++ "_$s10FinanceKit5OrderV8LineItemV_6bundleAeA03RawcdE0V_AA0C6BundleCtcfC"
++ "_$s10FinanceKit5OrderV8LineItemVyAeA07ManagedcdE0CcfC"
++ "_$s10FinanceKit60BankConnectWebServiceUnregisterFromNotificationEventsRequestV14subscriptionIDACSS_tcfC"
++ "_$s10FinanceKit60BankConnectWebServiceUnregisterFromNotificationEventsRequestVMa"
++ "_$sSo10CLLocationC10FinanceKitE11rawLocationAbC03RawE0V_tcfC"
++ "_$sSo22NSManagedObjectContextC10FinanceKitE22fetchPersistentHistory5afterSaySo012NSPersistentH11TransactionCGSo0jH5TokenCSg_tKF"
++ "_$sSo22NSManagedObjectContextC10FinanceKitE24currentLocalHistoryTokenSo012NSPersistenthI0CSgvg"
++ "accountDetailsACvgZ"
++ "eVSgtcAEmFWC"
++ "entStatusO7invalidyA2CmFWC"
++ "rapperV_tcAEmFWC"
++ "tV10logEntriesACSaySSG_tcfC"
+
+```

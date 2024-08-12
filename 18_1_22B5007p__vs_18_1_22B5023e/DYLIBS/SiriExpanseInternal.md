@@ -1,0 +1,379 @@
+## SiriExpanseInternal
+
+> `/System/Library/PrivateFrameworks/SiriExpanseInternal.framework/SiriExpanseInternal`
+
+```diff
+
+ 3400.14.1.0.0
+-  __TEXT.__text: 0x577c0
++  __TEXT.__text: 0x57548
+   __TEXT.__auth_stubs: 0x19e0
+   __TEXT.__const: 0x49a8
+   __TEXT.__cstring: 0x1e24
+   __TEXT.__constg_swiftt: 0x214c
+-  __TEXT.__swift5_typeref: 0x1553
++  __TEXT.__swift5_typeref: 0x1551
+   __TEXT.__swift5_builtin: 0x78
+   __TEXT.__swift5_reflstr: 0x1643
+   __TEXT.__swift5_fieldmd: 0x18e4
+
+   __TEXT.__swift5_protos: 0x80
+   __TEXT.__swift5_capture: 0x19c
+   __TEXT.__swift5_mpenum: 0x60
+-  __TEXT.__unwind_info: 0x17a8
++  __TEXT.__unwind_info: 0x17a0
+   __TEXT.__eh_frame: 0x21f4
+   __TEXT.__objc_classname: 0x2d
+   __TEXT.__objc_methname: 0x40e
+   __TEXT.__objc_methtype: 0x46
+   __DATA_CONST.__got: 0x3a0
+-  __DATA_CONST.__const: 0xe0
++  __DATA_CONST.__const: 0x120
+   __DATA_CONST.__objc_classlist: 0x68
+   __DATA_CONST.__objc_protolist: 0x30
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_selrefs: 0x1a8
+   __DATA_CONST.__objc_protorefs: 0x18
+   __AUTH_CONST.__auth_got: 0xcf0
+-  __AUTH_CONST.__auth_ptr: 0x8c8
++  __AUTH_CONST.__auth_ptr: 0x948
+   __AUTH_CONST.__const: 0x3440
+   __AUTH_CONST.__objc_const: 0x1370
+   __AUTH.__objc_data: 0x210
+
+   - /usr/lib/swift/libswiftSpatial.dylib
+   - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
++  - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
++  - /usr/lib/swift/libswift_errno.dylib
++  - /usr/lib/swift/libswift_math.dylib
++  - /usr/lib/swift/libswift_signal.dylib
++  - /usr/lib/swift/libswift_stdio.dylib
++  - /usr/lib/swift/libswift_time.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 2046
+-  Symbols:   3150
+-  CStrings:  0
++  - /usr/lib/swift/libswiftsys_time.dylib
++  - /usr/lib/swift/libswiftunistd.dylib
++  Functions: 2045
++  Symbols:   3157
++  CStrings:  303
+ 
+Symbols:
++ __swift_FORCE_LOAD_$_swift_Builtin_float
++ __swift_FORCE_LOAD_$_swift_errno
++ __swift_FORCE_LOAD_$_swift_math
++ __swift_FORCE_LOAD_$_swift_signal
++ __swift_FORCE_LOAD_$_swift_stdio
++ __swift_FORCE_LOAD_$_swift_time
++ __swift_FORCE_LOAD_$_swiftsys_time
++ __swift_FORCE_LOAD_$_swiftunistd
+CStrings:
++ "_$s10Foundation3URLV11SeymourCore29TransportProtobufSerializableADMc"
++ "_$s10Foundation4UUIDV11SeymourCore29TransportProtobufSerializableADMc"
++ "_$s11SeymourCore10AssetEntryVMn"
++ "_$s11SeymourCore10DependencyVyxGAA0C10DescriptorAAMc"
++ "_$s11SeymourCore10SkillLevelVAA29TransportProtobufSerializableAAMc"
++ "_$s11SeymourCore11AssetBundleV13dateRequested10Foundation4DateVvpMV"
++ "_$s11SeymourCore11AssetBundleV6ReasonOSQAAMc"
++ "_$s11SeymourCore11AssetBundleV6ReasonOSYAAMc"
++ "_$s11SeymourCore11AssetBundleV6ReasonOs12CaseIterableAAMc"
++ "_$s11SeymourCore11AssetBundleVSHAAMc"
++ "_$s11SeymourCore11AssetBundleVSQAAMc"
++ "_$s11SeymourCore11AssetBundleVs23CustomStringConvertibleAAMc"
++ "_$s11SeymourCore11MediaMomentVSHAAMc"
++ "_$s11SeymourCore11MediaMomentVSQAAMc"
++ "_$s11SeymourCore11TerminationVSQAAMc"
++ "_$s11SeymourCore11WorkoutPlanVs23CustomStringConvertibleAAMc"
++ "_$s11SeymourCore12CatalogThemeVMn"
++ "_$s11SeymourCore12EnergyMetricVSQAAMc"
++ "_$s11SeymourCore12PromiseErrorO18emptyRequiredValueyA2CmFWC"
++ "_$s11SeymourCore12PromiseErrorOs0D0AAMc"
++ "_$s11SeymourCore12TrainerEventVMn"
++ "_$s11SeymourCore13ActivityRingsVSHAAMc"
++ "_$s11SeymourCore13ActivityRingsVSQAAMc"
++ "_$s11SeymourCore13CatalogLockupVMn"
++ "_$s11SeymourCore14CatalogPreviewVSHAAMc"
++ "_$s11SeymourCore14CatalogWorkoutVAA29TransportProtobufSerializableAAMc"
++ "_$s11SeymourCore14DistanceMetricVSQAAMc"
++ "_$s11SeymourCore14PlaybackIntentVMn"
++ "_$s11SeymourCore14PlaybackIntentVs23CustomStringConvertibleAAMc"
++ "_$s11SeymourCore14RecommendationVMn"
++ "_$s11SeymourCore14RecommendationVs23CustomStringConvertibleAAMc"
++ "_$s11SeymourCore14TransportErrorO14invalidPayloadyA2CmFWC"
++ "_$s11SeymourCore14TransportErrorO17serverUnavailableyA2CmFWC"
++ "_$s11SeymourCore14TransportErrorO18unknownCompressionyA2CmFWC"
++ "_$s11SeymourCore14TransportErrorO20unsupportedOperationyA2CmFWC"
++ "_$s11SeymourCore14TransportErrorO24failedRequestCompressionyA2CmFWC"
++ "_$s11SeymourCore14TransportErrorO24invalidRequestIdentifieryA2CmFWC"
++ "_$s11SeymourCore14TransportErrorO26failedRequestDecompressionyA2CmFWC"
++ "_$s11SeymourCore14TransportErrorO27noDispatchHandlerRegisteredyA2CmFWC"
++ "_$s11SeymourCore14TransportErrorO7unknownyA2CmFWC"
++ "_$s11SeymourCore14TransportErrorOAA0D16MatchingProtocolAAMc"
++ "_$s11SeymourCore14TransportErrorOs0D0AAMc"
++ "_$s11SeymourCore15ArchivedSessionVs23CustomStringConvertibleAAMc"
++ "_$s11SeymourCore15AssetLoadStatusOSHAAMc"
++ "_$s11SeymourCore15AssetLoadStatusOSQAAMc"
++ "_$s11SeymourCore15AssetLoadStatusOSYAAMc"
++ "_$s11SeymourCore15AssetLoadStatusOs12CaseIterableAAMc"
++ "_$s11SeymourCore15CatalogModalityVMn"
++ "_$s11SeymourCore15CommunityScoresVs23CustomStringConvertibleAAMc"
++ "_$s11SeymourCore15EngagementBadgeVSHAAMc"
++ "_$s11SeymourCore15EngagementBadgeVSQAAMc"
++ "_$s11SeymourCore15EngagementErrorO07missingC6BanneryA2CmFWC"
++ "_$s11SeymourCore15EngagementErrorO14invalidCommandyA2CmFWC"
++ "_$s11SeymourCore15EngagementErrorO15requestTooLargeyA2CmFWC"
++ "_$s11SeymourCore15EngagementErrorO16journeysDisabledyA2CmFWC"
++ "_$s11SeymourCore15EngagementErrorO17alreadySubscribedyA2CmFWC"
++ "_$s11SeymourCore15EngagementErrorO18invalidRedirectURLyA2CmFWC"
++ "_$s11SeymourCore15EngagementErrorO19subscriptionUnknownyA2CmFWC"
++ "_$s11SeymourCore15EngagementErrorO20invalidRequestObjectyA2CmFWC"
++ "_$s11SeymourCore15EngagementErrorO22missingQueryParametersyA2CmFWC"
++ "_$s11SeymourCore15EngagementErrorO24invalidRequestDictionaryyA2CmFWC"
++ "_$s11SeymourCore15EngagementErrorOs0D0AAMc"
++ "_$s11SeymourCore15MetricMediaTypeO5audioyA2CmFWC"
++ "_$s11SeymourCore15MetricMediaTypeO5videoyA2CmFWC"
++ "_$s11SeymourCore15MetricMediaTypeO7unknownyA2CmFWC"
++ "_$s11SeymourCore15ShelfLazyLockupOAA29TransportProtobufSerializableAAMc"
++ "_$s11SeymourCore15UpNextQueueItemVAA29TransportProtobufSerializableAAMc"
++ "_$s11SeymourCore16AssetLoadFailureVSHAAMc"
++ "_$s11SeymourCore16AssetLoadFailureVSQAAMc"
++ "_$s11SeymourCore16OnboardingDetailVs23CustomStringConvertibleAAMc"
++ "_$s11SeymourCore16RecentSearchTermVSHAAMc"
++ "_$s11SeymourCore16RecentSearchTermVSQAAMc"
++ "_$s11SeymourCore16ResumableSessionVAA29TransportProtobufSerializableAAMc"
++ "_$s11SeymourCore16TrainerEventTypeOSQAAMc"
++ "_$s11SeymourCore16TrainerEventTypeOSYAAMc"
++ "_$s11SeymourCore16TrainerEventTypeOs12CaseIterableAAMc"
++ "_$s11SeymourCore16TrainerReferenceVAA29TransportProtobufSerializableAAMc"
++ "_$s11SeymourCore17MetricClickActionO10addToStackyA2CmFWC"
++ "_$s11SeymourCore17MetricClickActionO10addToWatchyA2CmFWC"
++ "_$s11SeymourCore17MetricClickActionO11actionSheetyA2CmFWC"
++ "_$s11SeymourCore17MetricClickActionO11incrementalyA2CmFWC"
++ "_$s11SeymourCore17MetricClickActionO11initiateBuyyA2CmFWC"
++ "_$s11SeymourCore17MetricClickActionO11recentQueryyA2CmFWC"
++ "_$s11SeymourCore17MetricClickActionO14removeDownloadyA2CmFWC"
++ "_$s11SeymourCore17MetricClickActionO15deleteFromStackyA2CmFWC"
++ "_$s11SeymourCore17MetricClickActionO15removeFromWatchyA2CmFWC"
++ "_$s11SeymourCore17MetricClickActionO2okyA2CmFWC"
++ "_$s11SeymourCore17MetricClickActionO3addyA2CmFWC"
++ "_$s11SeymourCore17MetricClickActionO3buyyA2CmFWC"
++ "_$s11SeymourCore17MetricClickActionO4copyyA2CmFWC"
++ "_$s11SeymourCore17MetricClickActionO4edityA2CmFWC"
++ "_$s11SeymourCore17MetricClickActionO4hintyA2CmFWC"
++ "_$s11SeymourCore17MetricClickActionO4lessyA2CmFWC"
++ "_$s11SeymourCore17MetricClickActionO4moreyA2CmFWC"
++ "_$s11SeymourCore17MetricClickActionO4openyA2CmFWC"
++ "_$s11SeymourCore17MetricClickActionO4playyA2CmFWC"
++ "_$s11SeymourCore17MetricClickActionO4saveyA2CmFWC"
++ "_$s11SeymourCore17MetricClickActionO4skipyA2CmFWC"
++ "_$s11SeymourCore17MetricClickActionO4sortyA2CmFWC"
++ "_$s11SeymourCore17MetricClickActionO5clearyA2CmFWC"
++ "_$s11SeymourCore17MetricClickActionO5closeyA2CmFWC"
++ "_$s11SeymourCore17MetricClickActionO5shareyA2CmFWC"
++ "_$s11SeymourCore17MetricClickActionO6cancelyA2CmFWC"
++ "_$s11SeymourCore17MetricClickActionO6createyA2CmFWC"
++ "_$s11SeymourCore17MetricClickActionO6deleteyA2CmFWC"
++ "_$s11SeymourCore17MetricClickActionO6filteryA2CmFWC"
++ "_$s11SeymourCore17MetricClickActionO6removeyA2CmFWC"
++ "_$s11SeymourCore17MetricClickActionO6resumeyA2CmFWC"
++ "_$s11SeymourCore17MetricClickActionO6selectyA2CmFWC"
++ "_$s11SeymourCore17MetricClickActionO6submityA2CmFWC"
++ "_$s11SeymourCore17MetricClickActionO6toggleyA2CmFWC"
++ "_$s11SeymourCore17MetricClickActionO6updateyA2CmFWC"
++ "_$s11SeymourCore17MetricClickActionO7dismissyA2CmFWC"
++ "_$s11SeymourCore17MetricClickActionO7signOutyA2CmFWC"
++ "_$s11SeymourCore17MetricClickActionO7unknownyA2CmFWC"
++ "_$s11SeymourCore17MetricClickActionO8downloadyA2CmFWC"
++ "_$s11SeymourCore17MetricClickActionO8navigateyA2CmFWC"
++ "_$s11SeymourCore17MetricClickActionOSEAAMc"
++ "_$s11SeymourCore17MetricClickActionOSHAAMc"
++ "_$s11SeymourCore17MetricClickActionOSYAAMc"
++ "_$s11SeymourCore17MetricClickActionOSeAAMc"
++ "_$s11SeymourCore17MultiUserActivityVMn"
++ "_$s11SeymourCore17MultiUserActivityVs23CustomStringConvertibleAAMc"
++ "_$s11SeymourCore17MultiUserIdentityVSHAAMc"
++ "_$s11SeymourCore17MultiUserIdentityVSQAAMc"
++ "_$s11SeymourCore17UpNextQueueUpdateOAA29TransportProtobufSerializableAAMc"
++ "_$s11SeymourCore17WorkoutPlanOffsetVSHAAMc"
++ "_$s11SeymourCore18AssetResumableLoadVAA29TransportProtobufSerializableAAMc"
++ "_$s11SeymourCore18AssetResumableLoadVMn"
++ "_$s11SeymourCore18FetchScoresRequestV9ScoreTypeO10cumulativeyA2EmFWC"
++ "_$s11SeymourCore18FetchScoresRequestV9ScoreTypeO7rollingyA2EmFWC"
++ "_$s11SeymourCore18LanguageDisclaimerVSHAAMc"
++ "_$s11SeymourCore18LanguageDisclaimerVSQAAMc"
++ "_$s11SeymourCore19AudioFocusSelectionOMn"
++ "_$s11SeymourCore19CatalogModalityKindO10guidedWalkyA2CmFWC"
++ "_$s11SeymourCore19CatalogModalityKindO10kickboxingyA2CmFWC"
++ "_$s11SeymourCore19CatalogModalityKindO10meditationyA2CmFWC"
++ "_$s11SeymourCore19CatalogModalityKindO4coreyA2CmFWC"
++ "_$s11SeymourCore19CatalogModalityKindO4hiityA2CmFWC"
++ "_$s11SeymourCore19CatalogModalityKindO5danceyA2CmFWC"
++ "_$s11SeymourCore19CatalogModalityKindO7cyclingyA2CmFWC"
++ "_$s11SeymourCore19CatalogModalityKindO7pilatesyA2CmFWC"
++ "_$s11SeymourCore19CatalogModalityKindO8cooldownyA2CmFWC"
++ "_$s11SeymourCore19CatalogModalityKindO9guidedRunyA2CmFWC"
++ "_$s11SeymourCore19CatalogModalityKindOSHAAMc"
++ "_$s11SeymourCore19CatalogModalityKindOSQAAMc"
++ "_$s11SeymourCore19CatalogModalityKindOSYAAMc"
++ "_$s11SeymourCore19CatalogModalityKindOs12CaseIterableAAMc"
++ "_$s11SeymourCore19CatalogTipReferenceVSHAAMc"
++ "_$s11SeymourCore19CatalogTipReferenceVSQAAMc"
++ "_$s11SeymourCore19RecommendationErrorO13noAccountDSIDyA2CmFWC"
++ "_$s11SeymourCore19RecommendationErrorO14failedToEncodeyA2CmFWC"
++ "_$s11SeymourCore19RecommendationErrorO14noResponseDatayA2CmFWC"
++ "_$s11SeymourCore19RecommendationErrorO17invalidIdentifieryA2CmFWC"
++ "_$s11SeymourCore19RecommendationErrorO19unsupportedPlatformyA2CmFWC"
++ "_$s11SeymourCore19RecommendationErrorO22noStorefrontIdentifieryA2CmFWC"
++ "_$s11SeymourCore19RecommendationErrorO24protectedDataUnavailableyA2CmFWC"
++ "_$s11SeymourCore19RecommendationErrorO30onboardingSurveyResultNotFoundyA2CmFWC"
++ "_$s11SeymourCore19RecommendationErrorO41failedToFetchPersonalizationUserAwardDatayA2CmFWC"
++ "_$s11SeymourCore19RecommendationErrorO43failedToMakePersonalizationInferenceRequestyA2CmFWC"
++ "_$s11SeymourCore19RecommendationErrorO5noBagyA2CmFWC"
++ "_$s11SeymourCore19RecommendationErrorOAA0D16MatchingProtocolAAMc"
++ "_$s11SeymourCore19RecommendationErrorOs0D0AAMc"
++ "_$s11SeymourCore19ServiceSubscriptionVs23CustomStringConvertibleAAMc"
++ "_$s11SeymourCore19ShowcaseTileContentOMn"
++ "_$s11SeymourCore20ArchivedSessionErrorO02nocD0yA2CmFWC"
++ "_$s11SeymourCore20ArchivedSessionErrorO07invalidD10IdentifieryA2CmFWC"
++ "_$s11SeymourCore20ArchivedSessionErrorO08existingD0yA2CmFWC"
++ "_$s11SeymourCore20ArchivedSessionErrorOAA0E16MatchingProtocolAAMc"
++ "_$s11SeymourCore20ArchivedSessionErrorOs0E0AAMc"
++ "_$s11SeymourCore20ArtworkFlavorVariantOSQAAMc"
++ "_$s11SeymourCore20ArtworkFlavorVariantOSYAAMc"
++ "_$s11SeymourCore20MindfulMinutesMetricVSHAAMc"
++ "_$s11SeymourCore20MindfulMinutesMetricVSQAAMc"
++ "_$s11SeymourCore21ServerPlaybackContextVSQAAMc"
++ "_$s11SeymourCore21ShowcaseLockupContentOMn"
++ "_$s11SeymourCore22BookmarkFilterPropertyOMn"
++ "_$s11SeymourCore22CatalogModalityFeatureOMn"
++ "_$s11SeymourCore22CatalogSyncRequestModeOMn"
++ "_$s11SeymourCore22DisplayPreferenceErrorOMn"
++ "_$s11SeymourCore22MeditationActivityTypeOMn"
++ "_$s11SeymourCore22OnboardingSurveyResultVMn"
++ "_$s11SeymourCore22OptInPrivacyPreferenceV5StateOSQAAMc"
++ "_$s11SeymourCore22OptInPrivacyPreferenceV5StateOSYAAMc"
++ "_$s11SeymourCore22OptInPrivacyPreferenceVSHAAMc"
++ "_$s11SeymourCore22PrivacyAcknowledgementVs23CustomStringConvertibleAAMc"
++ "_$s11SeymourCore22RemoteBrowsingIdentityOMn"
++ "_$s11SeymourCore22RemoteParticipantErrorO03preA13DeviceVersionyA2CmFWC"
++ "_$s11SeymourCore22RemoteParticipantErrorO07unknownD4RoleyA2CmFWC"
++ "_$s11SeymourCore22RemoteParticipantErrorO12deviceLockedyA2CmFWC"
++ "_$s11SeymourCore22RemoteParticipantErrorO12invalidStateyA2CmFWC"
++ "_$s11SeymourCore22RemoteParticipantErrorO13alreadyActiveyA2CmFWC"
++ "_$s11SeymourCore22RemoteParticipantErrorO14deviceOffWristyA2CmFWC"
++ "_$s11SeymourCore22RemoteParticipantErrorO15failedHandshakeyA2CmFWC"
++ "_$s11SeymourCore22RemoteParticipantErrorO15mismatchedNonceyA2CmFWC"
++ "_$s11SeymourCore22RemoteParticipantErrorO17pairingRestrictedyA2CmFWC"
++ "_$s11SeymourCore22RemoteParticipantErrorO20invalidMultiplexModeyA2CmFWC"
++ "_$s11SeymourCore22RemoteParticipantErrorO22noConnectionInProgressyA2CmFWC"
++ "_$s11SeymourCore22RemoteParticipantErrorO24cloudPairingKeysNotFoundyA2CmFWC"
++ "_$s11SeymourCore22RemoteParticipantErrorO24invalidPairingTransitionyA2CmFWC"
++ "_$s11SeymourCore22RemoteParticipantErrorO25authenticationNotRequiredyA2CmFWC"
++ "_$s11SeymourCore22RemoteParticipantErrorO25incompatibleDeviceVersionyA2CmFWC"
++ "_$s11SeymourCore22RemoteParticipantErrorO26invalidDiscoveryTransitionyA2CmFWC"
++ "_$s11SeymourCore22RemoteParticipantErrorO27invalidConnectionTransitionyA2CmFWC"
++ "_$s11SeymourCore22RemoteParticipantErrorO29connectionIntentNoLongerValidyA2CmFWC"
++ "_$s11SeymourCore22RemoteParticipantErrorO7unknownyA2CmFWC"
++ "_$s11SeymourCore22RemoteParticipantErrorO8notFoundyA2CmFWC"
++ "_$s11SeymourCore22RemoteParticipantErrorO8timedOutyA2CmFWC"
++ "_$s11SeymourCore22RemoteParticipantErrorOAA0E16MatchingProtocolAAMc"
++ "_$s11SeymourCore22RemoteParticipantErrorOs0E0AAMc"
++ "_$s11SeymourCore22WorkoutPlanItemMetricsVMn"
++ "_$s11SeymourCore23AssetRequestKeyMetadataVSHAAMc"
++ "_$s11SeymourCore23AssetRequestKeyMetadataVSQAAMc"
++ "_$s11SeymourCore23CatalogModalityMetadataVMn"
++ "_$s11SeymourCore23CatalogProgramReferenceVAA29TransportProtobufSerializableAAMc"
++ "_$s11SeymourCore23HealthKitMindfulSessionVAA29TransportProtobufSerializableAAMc"
++ "_$s11SeymourCore23RemoteDisplayConnectionVs23CustomStringConvertibleAAMc"
++ "_$s11SeymourCore23WorkoutDeviceConnectionV0D4TypeOSQAAMc"
++ "_$s11SeymourCore23WorkoutDeviceConnectionV0D4TypeOSYAAMc"
++ "_$s11SeymourCore23WorkoutDeviceConnectionV5StateOSQAAMc"
++ "_$s11SeymourCore23WorkoutDeviceConnectionV5StateOSYAAMc"
++ "_$s11SeymourCore23WorkoutDeviceConnectionVSQAAMc"
++ "_$s11SeymourCore24BurnBarDisplayPreferenceV8BehaviorOSQAAMc"
++ "_$s11SeymourCore24BurnBarDisplayPreferenceV8BehaviorOSYAAMc"
++ "_$s11SeymourCore24BurnBarDisplayPreferenceV8BehaviorOs12CaseIterableAAMc"
++ "_$s11SeymourCore24BurnBarDisplayPreferenceVSHAAMc"
++ "_$s11SeymourCore24BurnBarDisplayPreferenceVSQAAMc"
++ "_$s11SeymourCore24CatalogLockupPlaceholderV10identifierSSvpMV"
++ "_$s11SeymourCore24CatalogLockupPlaceholderVAA29TransportProtobufSerializableAAMc"
++ "_$s11SeymourCore24CatalogLockupPlaceholderVSHAAMc"
++ "_$s11SeymourCore24CatalogLockupPlaceholderVSQAAMc"
++ "_$s11SeymourCore24EngagementBannerRuleInfoVMn"
++ "_$s11SeymourCore24WorkoutPlanItemReferenceO10identifierSSvpMV"
++ "_$s11SeymourCore24WorkoutPlanItemReferenceO7workoutyACSS_tcACmFWC"
++ "_$s11SeymourCore24WorkoutPlanItemReferenceOSHAAMc"
++ "_$s11SeymourCore24WorkoutPlanItemReferenceOSQAAMc"
++ "_$s11SeymourCore24WorkoutPlanScheduledItemVSHAAMc"
++ "_$s11SeymourCore24WorkoutPlanScheduledItemVSQAAMc"
++ "_$s11SeymourCore26ArchivedWorkoutPlanSessionVAA29TransportProtobufSerializableAAMc"
++ "_$s11SeymourCore26EditorialHeaderArtworkItemVMn"
++ "_$s11SeymourCore26MultiUserParticipantUpdateVs23CustomStringConvertibleAAMc"
++ "_$s11SeymourCore27CatalogTipCategoryReferenceVSHAAMc"
++ "_$s11SeymourCore27CatalogTipCategoryReferenceVSQAAMc"
++ "_$s11SeymourCore27MediaPlayerSyncAnnouncementVMn"
++ "_$s11SeymourCore27MetricPlaybackDownloadStateO9streamingyA2CmFWC"
++ "_$s11SeymourCore27WorkoutPlanNotificationItemVMn"
++ "_$s11SeymourCore27WorkoutPlanTemplateMetadataVAA29TransportProtobufSerializableAAMc"
++ "_$s11SeymourCore27WorkoutPlanTemplateMetadataVSHAAMc"
++ "_$s11SeymourCore27WorkoutPlanTemplateMetadataVSQAAMc"
++ "_$s11SeymourCore28MultiUserLinkMessageProtobufVMn"
++ "_$s11SeymourCore28RemoteParticipantDeviceOwnerO2meyA2CmFWC"
++ "_$s11SeymourCore28RemoteParticipantDeviceOwnerO5guestyA2CmFWC"
++ "_$s11SeymourCore28RemoteParticipantDeviceOwnerO6familyyACSS_tcACmFWC"
++ "_$s11SeymourCore28RemoteParticipantDeviceOwnerO6sharedyACSS_tcACmFWC"
++ "_$s11SeymourCore28RemoteParticipantDeviceOwnerO7unknownyA2CmFWC"
++ "_$s11SeymourCore28RemoteParticipantDeviceOwnerOSQAAMc"
++ "_$s11SeymourCore28WorkoutPlanTemplateReferenceVSHAAMc"
++ "_$s11SeymourCore28WorkoutPlanTemplateReferenceVSQAAMc"
++ "_$s11SeymourCore29WorkoutPlanModalityPreferenceV17preferredTrainersShySSGvpMV"
++ "_$s11SeymourCore29WorkoutPlanModalityPreferenceV20preferredMusicGenresShySSGvpMV"
++ "_$s11SeymourCore29WorkoutPlanModalityPreferenceVSHAAMc"
++ "_$s11SeymourCore29WorkoutPlanModalityPreferenceVSQAAMc"
++ "_$s11SeymourCore30MarketingHeaderShowcaseContentVMn"
++ "_$s11SeymourCore30PersonalizationArchivedSessionVSHAAMc"
++ "_$s11SeymourCore30PersonalizationArchivedSessionVSQAAMc"
++ "_$s11SeymourCore31PersonalizationInferenceRequestVAA29TransportProtobufSerializableAAMc"
++ "_$s11SeymourCore32HealthKitMindfulSessionThresholdVMn"
++ "_$s11SeymourCore32PersonalizationInferenceResponseVMn"
++ "_$s11SeymourCore32PersonalizationPrivacyPreferenceV5StateOMn"
++ "_$s11SeymourCore32PersonalizationPrivacyPreferenceV7VersionOMn"
++ "_$s11SeymourCore32PersonalizationPrivacyPreferenceVMn"
++ "_$s11SeymourCore32RemoteBrowsingParticipantRequestVyxGAA25TransportDataSerializableAAMc"
++ "_$s11SeymourCore32RemoteBrowsingParticipantRequestVyxGAA25TransportJsonSerializableAAMc"
++ "_$s11SeymourCore33RemoteParticipantHandshakeRequestVMn"
++ "_$s11SeymourCore35DisplayPreferenceModalityConstraintOSYAAMc"
++ "_$s11SeymourCore36HealthKitStandaloneMindfulSessionJobVs23CustomStringConvertibleAAMc"
++ "_$s11SeymourCore37PersonalizationAwardProgressReferenceVMn"
++ "_$s11SeymourCore37PersonalizationCandidateReferenceTypeOSQAAMc"
++ "_$s11SeymourCore37PersonalizationCandidateReferenceTypeOSYAAMc"
++ "_$s11SeymourCore5ScoreV14elapsedSecondsSivpMV"
++ "_$s11SeymourCore5ScoreVSHAAMc"
++ "_$s11SeymourCore5ScoreVSQAAMc"
++ "_$s11SeymourCore7JournalVs23CustomStringConvertibleAAMc"
++ "_$s11SeymourCore7SessionVs23CustomStringConvertibleAAMc"
++ "_$s11SeymourCore7WeekdayOSHAAMc"
++ "_$s11SeymourCore7WeekdayOSLAAMc"
++ "_$s11SeymourCore8BookmarkVAA29TransportProtobufSerializableAAMc"
++ "_$s11SeymourCore8PlatformOAA29TransportProtobufSerializableAAMc"
++ "_$s11SeymourCore8PlaylistV11dateCreated10Foundation4DateVvpMV"
++ "_$s11SeymourCore8PlaylistVSHAAMc"
++ "_$s11SeymourCore8PlaylistVSQAAMc"
++ "_$s11SeymourCore8ZoneNameOMn"
++ "_$s11SeymourCore9BodyFocusVAA29TransportProtobufSerializableAAMc"
++ "_$s11SeymourCore9CountdownVs23CustomStringConvertibleAAMc"
++ "_$s11SeymourCore9EquipmentVMn"
++ "_$sShyxG11SeymourCore25TransportDataSerializableA2bCRzAB0c4JsonE0RzrlMc"
++ "_$sShyxG11SeymourCore25TransportJsonSerializableA2B0c8ProtobufE0RzrlMc"
++ "_$sShyxG11SeymourCore29TransportProtobufSerializableA2B0c4DataE0RzAB0c4JsonE0RzrlMc"
++ "akeResponseVMn"
++ "eightOMn"
++ "onalizationMetricsVMn"
++ "otificationSettingVSEAAMc"
++ "s11SeymourCore17WorkoutPlanOffsetVs23CustomStringConvertibleAAMc"
+
+```

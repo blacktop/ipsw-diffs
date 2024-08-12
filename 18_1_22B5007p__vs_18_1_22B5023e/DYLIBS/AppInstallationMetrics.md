@@ -1,0 +1,108 @@
+## AppInstallationMetrics
+
+> `/System/Library/PrivateFrameworks/AppInstallationMetrics.framework/AppInstallationMetrics`
+
+```diff
+
+ 2.1.8.0.0
+-  __TEXT.__text: 0x1540c
+-  __TEXT.__auth_stubs: 0x900
++  __TEXT.__text: 0x15110
++  __TEXT.__auth_stubs: 0x8e0
+   __TEXT.__const: 0x15d0
+   __TEXT.__cstring: 0x4a3
+   __TEXT.__swift5_typeref: 0x535
+
+   __TEXT.__swift5_assocty: 0x48
+   __TEXT.__oslogstring: 0x9f
+   __TEXT.__unwind_info: 0x728
+-  __TEXT.__eh_frame: 0xa40
++  __TEXT.__eh_frame: 0x9f8
+   __TEXT.__objc_methname: 0x13f
+   __DATA_CONST.__got: 0x90
+-  __DATA_CONST.__const: 0x40
++  __DATA_CONST.__const: 0x80
+   __DATA_CONST.__objc_classlist: 0x10
+   __DATA_CONST.__objc_protolist: 0x8
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_selrefs: 0x68
+   __DATA_CONST.__objc_protorefs: 0x8
+-  __AUTH_CONST.__auth_got: 0x480
++  __AUTH_CONST.__auth_got: 0x470
+   __AUTH_CONST.__auth_ptr: 0x1f0
+   __AUTH_CONST.__const: 0xef0
+   __AUTH_CONST.__objc_const: 0x200
+
+   - /usr/lib/swift/libswiftOSLog.dylib
+   - /usr/lib/swift/libswiftObjectiveC.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
++  - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
++  - /usr/lib/swift/libswift_errno.dylib
++  - /usr/lib/swift/libswift_math.dylib
++  - /usr/lib/swift/libswift_signal.dylib
++  - /usr/lib/swift/libswift_stdio.dylib
++  - /usr/lib/swift/libswift_time.dylib
+   - /usr/lib/swift/libswiftos.dylib
+-  Functions: 624
+-  Symbols:   126
+-  CStrings:  29
++  - /usr/lib/swift/libswiftsys_time.dylib
++  - /usr/lib/swift/libswiftunistd.dylib
++  Functions: 629
++  Symbols:   132
++  CStrings:  10
+ 
+Symbols:
++ __swift_FORCE_LOAD_$_swift_Builtin_float
++ __swift_FORCE_LOAD_$_swift_errno
++ __swift_FORCE_LOAD_$_swift_math
++ __swift_FORCE_LOAD_$_swift_signal
++ __swift_FORCE_LOAD_$_swift_stdio
++ __swift_FORCE_LOAD_$_swift_time
++ __swift_FORCE_LOAD_$_swiftsys_time
++ __swift_FORCE_LOAD_$_swiftunistd
+- _swift_continuation_await
+- _swift_continuation_init
+CStrings:
++ "@\xa7\x1a)\x01\xc0\xab\xb5p\xb5\x1a)\x01\xc0\xab\xb5\xb0\xc5\x1a)\x01\xc0\xab\xb5(\x18\x1b)\x01\xc0\xab\xb5xT\x1b)\x01\xc0\xab\xb5Hm\x1b)\x01\xc0\xab\xb5"
++ "\x7f\x1b)\x01\xc0\xab\xb5 \x86\x1b)\x01\xc0\xab\xb5\xe0\x8b\x1b)\x01\xc0\xab\xb5@\x95\x1b)\x01\xc0\xab\xb5P\x99\x1b)\x01\xc0\xab\xb5Ț\x1b)\x01\xc0\xab\xb5\x80\x9c\x1b)\x01\xc0\xab\xb5ذ\x1b)\x01\xc0\xab\xb5\xb0\xb5\x1b)\x01\xc0\xab\xb5P\xb7\x1b)\x01\xc0\xab\xb58\xc1\x1b)\x01\xc0\xab\xb5\x10\xc2\x1b)\x01\xc0\xab\xb5\xb8\xc3\x1b)\x01\xc0\xab\xb5H\xd9\x1b)\x01\xc0\xab\xb5\xd8\xdf\x1b)\x01\xc0\xab\xb5"
++ "\x87R(\x01\xc0\xab\xb5\xf8\x87R(\x01\xc0\xab\xb5\xa8\x88R(\x01\xc0\xab\xb5\x80\xd3h."
++ "\xb8\x1a)\x01\xc0\xab\xb5"
++ "\xbd\x1a)\x01\xc0\xab\xb5\x18\xbe\x1a)\x01\xc0\xab\xb5\xe8\xbe\x1a)\x01\xc0\xab\xb5\xc0\xbf\x1a)\x01\xc0\xab\xb5\xe0\xc2\x1a)\x01\xc0\xab\xb5\x88\xc7\x1a)\x01\xc0\xab\xb5\xa8\xcb\x1a)\x01\xc0\xab\xb5 \xd5\x1a)\x01\xc0\xab\xb5\x18\xda\x1a)\x01\xc0\xab\xb5\xd8\xda\x1a)\x01\xc0\xab\xb5"
++ "\xd0e\x1b)\x01\xc0\xab\xb5`k\x1b)\x01\xc0\xab\xb5Xo\x1b)\x01\xc0\xab\xb5\xe0s\x1b)\x01\xc0\xab\xb5\xc0x\x1b)\x01\xc0\xab\xb5\xf0x\x1b)\x01\xc0\xab\xb5 y\x1b)\x01\xc0\xab\xb5\xf0z\x1b)\x01\xc0\xab\xb5"
++ "\xe1\x1a)\x01\xc0\xab\xb5\xf0\xed\x1a)\x01\xc0\xab\xb5@\xef\x1a)\x01\xc0\xab\xb5x\xf0\x1a)\x01\xc0\xab\xb5X\xfa\x1a)\x01\xc0\xab\xb5"
++ "\xee\x1b)\x01\xc0\xab\xb5\x18\xf6\x1b)\x01\xc0\xab\xb5"
++ "\xfc\x1b)\x01\xc0\xab\xb5\x10\xfd\x1b)\x01\xc0\xab\xb5\x18\x01\x1c)\x01\xc0\xab\xb5P\xcfR(\x01\xc0\xab\xb5x\xcfR(\x01\xc0\xab\xb5\xf0\xcfR(\x01\xc0\xab\xb5\x90\xbaS(\x01\xc0\xab\xb5H\x93T(\x01\xc0\xab\xb5p\x93T(\x01\xc0\xab\xb5\x98\x93T(\x01\xc0\xab\xb5\xc0\x93T(\x01\xc0\xab\xb5\xe8\x93T(\x01\xc0\xab\xb5\x10\x94T(\x01\xc0\xab\xb5@\x94T(\x01\xc0\xab\xb5h\x94T(\x01\xc0\xab\xb5\x90\x94T(\x01\xc0\xab\xb5\x90\x95T(\x01\xc0\xab\xb5\xb8\x95T(\x01\xc0\xab\xb5\xa0\x9aT(\x01\xc0\xab\xb5P\xa7T(\x01\xc0\xab\xb5\b\xf8T(\x01\xc0\xab\xb50\xf8T(\x01\xc0\xab\xb5x\x10U(\x01\xc0\xab\xb5\xd0\x10U(\x01\xc0\xab\xb5p\x12U(\x01\xc0\xab\xb5\x10\xefU(\x01\xc0\xab\xb58\xefU(\x01\xc0\xab\xb58\xf0U(\x01\xc0\xab\xb5\xe8\x95\x1a)\x01\xc0\xab\xb5\xe0\x99\x1a)\x01\xc0\xab\xb5\u061c\x1a)\x01\xc0\xab\xb5(\xa4\x1a)\x01\xc0\xab\xb5\xc0\xa8\x1a)\x01\xc0\xab\xb5Ȫ\x1a)\x01\xc0\xab\xb5\x88\xaf\x1a)\x01\xc0\xab\xb5\x80\xb1\x1a)\x01\xc0\xab\xb5\x90\xb4\x1a)\x01\xc0\xab\xb5(\xb7\x1a)\x01\xc0\xab\xb5"
++ "\xfe\x1a)\x01\xc0\xab\xb5\xc0\xfe\x1a)\x01\xc0\xab\xb5 \f\x1b)\x01\xc0\xab\xb5\b\x14\x1b)\x01\xc0\xab\xb5@\x1e\x1b)\x01\xc0\xab\xb5\b#\x1b)\x01\xc0\xab\xb5\xd0+\x1b)\x01\xc0\xab\xb5X-\x1b)\x01\xc0\xab\xb5\xd80\x1b)\x01\xc0\xab\xb5\xd0SR(\x01\xc0\xab\xb5\xa8UR(\x01\xc0\xab\xb50VR(\x01\xc0\xab\xb5\x10iR(\x01\xc0\xab\xb5 pR(\x01\xc0\xab\xb5HqR(\x01\xc0\xab\xb5(rR(\x01\xc0\xab\xb5\x98rR(\x01\xc0\xab\xb50sR(\x01\xc0\xab\xb5\xb0sR(\x01\xc0\xab\xb5HtR(\x01\xc0\xab\xb5\xb0uR(\x01\xc0\xab\xb5hvR(\x01\xc0\xab\xb5\xd0wR(\x01\xc0\xab\xb5@xR(\x01\xc0\xab\xb5\b{R(\x01\xc0\xab\xb5\x90{R(\x01\xc0\xab\xb5\xb0|R(\x01\xc0\xab\xb5\xd0~R(\x01\xc0\xab\xb5\b\x80R(\x01\xc0\xab\xb5\xc0\x81R(\x01\xc0\xab\xb5\x88\x86R(\x01\xc0\xab\xb5"
+- "Intents12SearchIntentP12searchPhraseSSvgTq"
+- "_$s10AppIntents12SearchIntentP12searchPhraseSSvMTq"
+- "_$s10AppIntents12SearchIntentP12searchPhraseSSvsTq"
+- "_$s10AppIntents13OpenURLIntentVMn"
+- "_$s10AppIntents15IntentMediaItemV0E4TypeOMn"
+- "_$s10AppIntents15IntentMediaItemVMn"
+- "_$s10AppIntents16_AssistantIntentV6PhraseVMn"
+- "_$s10AppIntents17EqualToComparatorCMn"
+- "_$s10AppIntents19AudioStartingIntentMp"
+- "_$s10AppIntents19AudioStartingIntentPAA06SystemE0Tb"
+- "_$s10AppIntents19EntityPropertyQueryP21findIntentDescriptionAA0gH0VSgvgZTq"
+- "_$s10AppIntents19EntityPropertyQueryP8entities8matching4mode8sortedBy5limit6ResultQzSay21ComparatorMappingTypeQzG_AA0ceM4ModeOSayAA0cE4SortVy0C0QzGGSiSgtYaKFTq"
+- "_$s10AppIntents21GreaterThanComparatorCMn"
+- "_$s10AppIntents23_URLRepresentableEntityMp"
+- "_$s10AppIntents23_URLRepresentableEntityP17urlRepresentationAA01_D17URLRepresentationVyxGvgZTq"
+- "_$s10AppIntents23_URLRepresentableEntityPAA0aD0Tb"
+- "_$s10AppIntents23_URLRepresentableEntityPAA44_CustomURLRepresentationParameterConvertibleTb"
+- "_$s10AppIntents24AnyEntityQueryComparatorVMn"
+- "_$s10AppIntents24_EntityURLRepresentationV19StringInterpolationV5TokenOMn"
+- "_$s10AppIntents24_EntityURLRepresentationV19StringInterpolationVMn"
+- "_$s10AppIntents24_EntityURLRepresentationVMn"
+- "_$s10AppIntents28MediaItemRepresentableEntityMp"
+- "_$s10AppIntents28MediaItemRepresentableEntityP19mediaRepresentationAA06IntentcD0VvgTq"
+- "_$s10AppIntents28MediaItemRepresentableEntityPAA0aF0Tb"
+- "_$s10AppIntents29ParameterSummaryWhenConditionVMn"
+- "_$s12DefaultValue10AppIntents22DynamicOptionsProviderPTl"
+- "_$s6Result10AppIntents22DynamicOptionsProviderPTl"
+- "ionsAA0ce7SortingG0Vy0C0QzGvgZTq"
+- "lectionTn"
+
+```

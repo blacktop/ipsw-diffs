@@ -1,0 +1,90 @@
+## XCTTargetBootstrap
+
+> `/System/Library/PrivateFrameworks/XCTTargetBootstrap.framework/XCTTargetBootstrap`
+
+```diff
+
+-23176.0.0.0.0
++23182.1.0.0.0
+   __TEXT.__text: 0x1e38
+   __TEXT.__auth_stubs: 0x390
+   __TEXT.__objc_methlist: 0x154
+   __TEXT.__const: 0x68
+-  __TEXT.__cstring: 0x33a
+   __TEXT.__gcc_except_tab: 0xc4
++  __TEXT.__cstring: 0x33a
+   __TEXT.__oslogstring: 0x3c4
+   __TEXT.__unwind_info: 0x118
+   __TEXT.__objc_classname: 0x132
+
+   - /usr/lib/libobjc.A.dylib
+   Functions: 53
+   Symbols:   134
+-  CStrings:  0
++  CStrings:  62
+ 
+CStrings:
++ "0completionySS_S2SSg_AItSgyAA26PlaybackCodeAndDescriptionVSgctFTj"
++ "6AppleMediaServicesProviderC011featureFlagG0018siriKitTaskLoggingG0AcA07FeatureI9Providing_p_AA0aklmO0_ptcfc"
++ "SiriAudioSupport12PlaybackItemC10IdentifierV07decodedA6SyncIDSSvg"
++ "SubscriptionProviderV6sharedACvgZ"
++ "_$s16SiriAudioSupport0A18EnvironmentWrapperV8retrieve0A9Utilities0aD0CSgyFZ"
++ "_$s16SiriAudioSupport11AtomicValueC4name_ACyxGSS_yyxSgcctcfc"
++ "_$s16SiriAudioSupport12InstalledAppV16supportedIntentsSaySSGvg"
++ "_$s16SiriAudioSupport12PlaybackCodeO8rawValueSSvg"
++ "_$s16SiriAudioSupport12PlaybackItemC3uriSSvg"
++ "_$s16SiriAudioSupport12PlaybackItemC6SchemeO17toMediaTypeStringSSyF"
++ "_$s16SiriAudioSupport15AccountProviderC6sharedACvgZ"
++ "_$s16SiriAudioSupport15AccountProviderCMa"
++ "_$s16SiriAudioSupport15DeviceProvidingP15isInternalBuildSbvgTj"
++ "_$s16SiriAudioSupport15LibraryProviderV05mediaD015cloudController014favoriteEntityE0011musicPlayerH013playlistQuery04songN005albumN0ACSo07MPMediaD0C_AA05CloudH9Providing_pAA08Favoritej13ChangeRequestS0_pSo07MPMusiclH0CSo0qN0CycARycARyctcfC"
++ "_$s16SiriAudioSupport15LibraryProviderVMa"
++ "_$s16SiriAudioSupport16AtomicDictionaryC4nameACyxq_GSS_tcfc"
++ "_$s16SiriAudioSupport16LibraryProvidingP07isCloudD6SyncOn16sharedUserIdInfo10completionySSSg_AGtSg_ySbctFTj"
++ "_$s16SiriAudioSupport16LibraryProvidingP13addToPlaylist10siriSyncID4item2to16sharedUserIdInfo10completionySS_AA12PlaybackItemCS2SSg_ALtSgyAA0S18CodeAndDescriptionVSgctFTj"
++ "_$s16SiriAudioSupport16LibraryProvidingP13addToPlaylist8deviceID4item2to16sharedUserIdInfo10completionySS_AA12PlaybackItemCS2SSg_ALtSgyAA0R18CodeAndDescriptionVSgctFTj"
++ "_$s16SiriAudioSupport16ModelObjectUtilsC03getdE08entityId9mediaType10artistNameSo07MPModelE0Cs5Int64V_So011INMediaItemK0VSgSSSgtFTj"
++ "_$s16SiriAudioSupport16ModelObjectUtilsCACycfc"
++ "_$s16SiriAudioSupport16ModelObjectUtilsCMa"
++ "_$s16SiriAudioSupport17AppIntentInvokingP017invokeSearchMusicdE08criteria12searchSource9mediaTypeySS_SSSgSo011INMediaItemN0VSgtYaKFTj"
++ "_$s16SiriAudioSupport17AppIntentInvokingP019invokeOpenMusicItemE005musicJ10IdentifierySS_tYaKFTj"
++ "_$s16SiriAudioSupport19NowPlayingInfoErrorO8rawValueSSvg"
++ "_$s16SiriAudioSupport19NowPlayingInfoErrorOMa"
++ "_$s16SiriAudioSupport19SubscriptionDetailsV05musicD6StatusAA05MusicdG0Ovg"
++ "_$s16SiriAudioSupport19SubscriptionDetailsVMa"
++ "_$s16SiriAudioSupport20FeatureFlagProvidingP14openMusicKitIdSSSgvgTj"
++ "_$s16SiriAudioSupport20FeatureFlagProvidingP22useOpenIntentForSearchSbvgTj"
++ "_$s16SiriAudioSupport20InstalledAppProviderV13installedApps3for12sharedUserId8useCache022alwaysIncludeCompanionH010completionySo8INIntentCmSg_SSSgS2bySayAA0dE0VGctF"
++ "_$s16SiriAudioSupport20SubscriptionProviderVACycfC"
++ "_$s16SiriAudioSupport21PlaybackLocalSearcherCACycfC"
++ "_$s16SiriAudioSupport21PlaybackLocalSearcherCMa"
++ "_$s16SiriAudioSupport21SubscriptionProvidingP10statusSync14bypassingCacheAA0D7DetailsVSb_tFTj"
++ "_$s16SiriAudioSupport22OnscreenEntityProviderV17referenceResolverAC0A19ReferenceResolution011RRReferenceH8Protocol_p_tcfC"
++ "_$s16SiriAudioSupport22OnscreenEntityProviderVMa"
++ "_$s16SiriAudioSupport23MediaRemoteAPIProvidingP20sendCommandWithReply7command5queue10completionys6UInt32V_So012OS_dispatch_L0CySo10CFArrayRefaSgctFTj"
++ "_$s16SiriAudioSupport23MusicSubscriptionStatusOMa"
++ "_$s16SiriAudioSupport26AppleMediaServicesProviderCMa"
++ "_$s16SiriAudioSupport26PlaybackCodeAndDescriptionV08playbackE0AA0dE0Ovg"
++ "_$s16SiriAudioSupport26PlaybackCodeAndDescriptionV11descriptionSSvg"
++ "_$s16SiriAudioSupport31PrivateMediaIntentDataProvidingPAAE15getSharedUserID17speakerConfidenceSSSgAA017AcceptedSpeakerIdN0O_tF"
++ "_$s16SiriAudioSupport8InsightsV15playbackHandlerSSvgZ"
++ "_$sSo13INMediaSearchC16SiriAudioSupportE07extractB5TermsSSSgyF"
++ "_$sSo13INMediaSearchC16SiriAudioSupportE17resolvedAlbumNameSSSgvg"
++ "_$sSo13INMediaSearchC16SiriAudioSupportE17resolvedMediaNameSSSgvg"
++ "_$sSo13INMediaSearchC16SiriAudioSupportE18resolvedArtistNameSSSgvg"
++ "_$sSo15INMediaItemTypeV16SiriAudioSupportE13podcastsTypesSayABGvgZ"
++ "_$sSo17INPlayMediaIntentC16SiriAudioSupportE11hasAMPErrorSbyF"
++ "_$sSo17INPlayMediaIntentC16SiriAudioSupportE12gdprIsNeededSbyF"
++ "_$sSo17INPlayMediaIntentC16SiriAudioSupportE15addGdprIsNeededyyF"
++ "_$sSo17INPlayMediaIntentC16SiriAudioSupportE16isPommesResponseSbyF"
++ "_$sSo17INPlayMediaIntentC16SiriAudioSupportE18hasInvalidAMPTokenSbyF"
++ "_$sSo17INPlayMediaIntentC16SiriAudioSupportE19isFromNonSubscriberSbyF"
++ "_$sSo17INPlayMediaIntentC16SiriAudioSupportE20isNewsPodcastRequestSbyF"
++ "_$sSo17INPlayMediaIntentC16SiriAudioSupportE24isServerSearchSuppressedSbyF"
++ "_$sSo17INPlayMediaIntentC16SiriAudioSupportE26isUnsupportedNonSubscriberSbvg"
++ "_$sSo17INPlayMediaIntentC16SiriAudioSupportE29isAcousticIdFollowUpNotActiveSbvg"
++ "_$sSo17INPlayMediaIntentC16SiriAudioSupportE33addFallbackImplicitRecommendationyyF"
++ "_$sSo17INPlayMediaIntentC16SiriAudioSupportE37isSkipWholeLibraryFallbackForPlayThisSbyF"
++ "dioSupportE016isPromptForValueC0SbyF"
+
+```

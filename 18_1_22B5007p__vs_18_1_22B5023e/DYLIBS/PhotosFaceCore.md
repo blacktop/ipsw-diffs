@@ -1,0 +1,153 @@
+## PhotosFaceCore
+
+> `/System/Library/PrivateFrameworks/PhotosFaceCore.framework/PhotosFaceCore`
+
+```diff
+
+-58.0.0.0.0
+-  __TEXT.__text: 0x2488
+-  __TEXT.__auth_stubs: 0x2c0
+-  __TEXT.__objc_methlist: 0x378
+-  __TEXT.__const: 0x266
+-  __TEXT.__cstring: 0x293
+-  __TEXT.__oslogstring: 0x2d4
++66.0.2.0.0
++  __TEXT.__text: 0x3780
++  __TEXT.__auth_stubs: 0x2f0
++  __TEXT.__objc_methlist: 0x470
++  __TEXT.__const: 0x2a2
++  __TEXT.__cstring: 0x2ee
++  __TEXT.__oslogstring: 0x43f
+   __TEXT.__swift5_typeref: 0x17
+   __TEXT.__constg_swiftt: 0x38
+   __TEXT.__swift5_builtin: 0x14
+   __TEXT.__swift5_reflstr: 0x9
+   __TEXT.__swift5_assocty: 0x18
+-  __TEXT.__swift5_proto: 0xc
++  __TEXT.__swift5_proto: 0x10
+   __TEXT.__swift5_types: 0x4
+-  __TEXT.__unwind_info: 0x108
++  __TEXT.__unwind_info: 0x130
+   __TEXT.__objc_classname: 0x96
+-  __TEXT.__objc_methname: 0xb85
+-  __TEXT.__objc_methtype: 0x1ef
+-  __TEXT.__objc_stubs: 0x980
+-  __DATA_CONST.__got: 0xa8
+-  __DATA_CONST.__const: 0x90
++  __TEXT.__objc_methname: 0x103b
++  __TEXT.__objc_methtype: 0x240
++  __TEXT.__objc_stubs: 0xca0
++  __DATA_CONST.__got: 0xc0
++  __DATA_CONST.__const: 0xf0
+   __DATA_CONST.__objc_classlist: 0x30
+   __DATA_CONST.__objc_protolist: 0x18
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x328
++  __DATA_CONST.__objc_selrefs: 0x430
+   __DATA_CONST.__objc_superrefs: 0x28
+-  __AUTH_CONST.__auth_got: 0x168
+-  __AUTH_CONST.__auth_ptr: 0x58
+-  __AUTH_CONST.__const: 0x60
+-  __AUTH_CONST.__cfstring: 0x380
+-  __AUTH_CONST.__objc_const: 0x9e0
+-  __AUTH.__objc_data: 0x1e0
+-  __DATA.__objc_ivar: 0x70
++  __DATA_CONST.__objc_arraydata: 0x18
++  __AUTH_CONST.__auth_got: 0x180
++  __AUTH_CONST.__auth_ptr: 0x68
++  __AUTH_CONST.__const: 0x80
++  __AUTH_CONST.__cfstring: 0x3c0
++  __AUTH_CONST.__objc_const: 0xb70
++  __AUTH_CONST.__objc_intobj: 0x48
++  __AUTH_CONST.__objc_arrayobj: 0x18
++  __AUTH.__objc_data: 0xf0
++  __DATA.__objc_ivar: 0x8c
+   __DATA.__data: 0x130
+-  __DATA.__bss: 0x190
++  __DATA.__bss: 0x200
++  __DATA_DIRTY.__objc_data: 0xf0
++  __DATA_DIRTY.__bss: 0x10
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftObjectiveC.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+-  Functions: 82
+-  Symbols:   162
+-  CStrings:  0
++  - /usr/lib/swift/libswift_Builtin_float.dylib
++  - /usr/lib/swift/libswift_errno.dylib
++  - /usr/lib/swift/libswift_math.dylib
++  - /usr/lib/swift/libswift_signal.dylib
++  - /usr/lib/swift/libswift_stdio.dylib
++  - /usr/lib/swift/libswift_time.dylib
++  - /usr/lib/swift/libswiftsys_time.dylib
++  - /usr/lib/swift/libswiftunistd.dylib
++  Functions: 111
++  Symbols:   203
++  CStrings:  41
+ 
+Symbols:
++ _OBJC_CLASS_$_NSConstantArray
++ _OBJC_CLASS_$_NSConstantIntegerNumber
++ _OBJC_CLASS_$_NSMutableDictionary
++ _OBJC_CLASS_$_NSNumber
++ _OBJC_CLASS_$_PFCShuffleDataSource
++ _OBJC_METACLASS_$_PFCShuffleDataSource
++ _PFCNumberOfShufflesToGenerate
++ __swift_FORCE_LOAD_$_swift_Builtin_float
++ __swift_FORCE_LOAD_$_swift_errno
++ __swift_FORCE_LOAD_$_swift_math
++ __swift_FORCE_LOAD_$_swift_signal
++ __swift_FORCE_LOAD_$_swift_stdio
++ __swift_FORCE_LOAD_$_swift_time
++ __swift_FORCE_LOAD_$_swiftsys_time
++ __swift_FORCE_LOAD_$_swiftunistd
++ _objc_retain_x22
++ _objc_retain_x8
+CStrings:
++ "32pxrInternal__aapl__pxrReserved__8UsdStage9_SetValueINS_7VtArrayIdEEEENSt3__19enable_ifIXntsr21_IsEditTargetMappableIT_EE5valueEbE4typeENS_11UsdTimeCodeERKNS_12UsdAttributeERKS6_"
++ "_ZNK32pxrInternal__aapl__pxrReserved__8UsdStage24_GetValueFromResolveInfoINS_7VtArrayINSt3__112basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEEEEEEbRKNS_14UsdResolveInfoENS_11UsdTimeCodeERKNS_12UsdAttributeEPT_"
++ "__ZN32pxrInternal__aapl__pxrReserved__8UsdStage9_SetValueINS_11SdfTimeCodeEEENSt3__19enable_ifIXsr21_IsEditTargetMappableIT_EE5valueEbE4typeENS_11UsdTimeCodeERKNS_12UsdAttributeERKS5_"
++ "__ZN32pxrInternal__aapl__pxrReserved__8UsdStage9_SetValueINS_12SdfAssetPathEEENSt3__19enable_ifIXntsr21_IsEditTargetMappableIT_EE5valueEbE4typeENS_11UsdTimeCodeERKNS_12UsdAttributeERKS5_"
++ "__ZN32pxrInternal__aapl__pxrReserved__8UsdStage9_SetValueINS_14SdfOpaqueValueEEENSt3__19enable_ifIXntsr21_IsEditTargetMappableIT_EE5valueEbE4typeENS_11UsdTimeCodeERKNS_12UsdAttributeERKS5_"
++ "__ZN32pxrInternal__aapl__pxrReserved__8UsdStage9_SetValueINS_17SdfPathExpressionEEENSt3__19enable_ifIXsr21_IsEditTargetMappableIT_EE5valueEbE4typeENS_11UsdTimeCodeERKNS_12UsdAttributeERKS5_"
++ "__ZN32pxrInternal__aapl__pxrReserved__8UsdStage9_SetValueINS_7TfTokenEEENSt3__19enable_ifIXntsr21_IsEditTargetMappableIT_EE5valueEbE4typeENS_11UsdTimeCodeERKNS_12UsdAttributeERKS5_"
++ "__ZN32pxrInternal__aapl__pxrReserved__8UsdStage9_SetValueINS_7VtArrayINS_12SdfAssetPathEEEEENSt3__19enable_ifIXntsr21_IsEditTargetMappableIT_EE5valueEbE4typeENS_11UsdTimeCodeERKNS_12UsdAttributeERKS7_"
++ "__ZN32pxrInternal__aapl__pxrReserved__8UsdStage9_SetValueINS_7VtArrayINS_14SdfOpaqueValueEEEEENSt3__19enable_ifIXntsr21_IsEditTargetMappableIT_EE5valueEbE4typeENS_11UsdTimeCodeERKNS_12UsdAttributeERKS7_"
++ "__ZN32pxrInternal__aapl__pxrReserved__8UsdStage9_SetValueINS_7VtArrayINS_17SdfPathExpressionEEEEENSt3__19enable_ifIXsr21_IsEditTargetMappableIT_EE5valueEbE4typeENS_11UsdTimeCodeERKNS_12UsdAttributeERKS7_"
++ "__ZN32pxrInternal__aapl__pxrReserved__8UsdStage9_SetValueINS_7VtArrayINS_7TfTokenEEEEENSt3__19enable_ifIXntsr21_IsEditTargetMappableIT_EE5valueEbE4typeENS_11UsdTimeCodeERKNS_12UsdAttributeERKS7_"
++ "__ZN32pxrInternal__aapl__pxrReserved__8UsdStage9_SetValueINS_7VtArrayINSt3__112basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEEEEEENS3_9enable_ifIXntsr21_IsEditTargetMappableIT_EE5valueEbE4typeENS_11UsdTimeCodeERKNS_12UsdAttributeERKSC_"
++ "__ZN32pxrInternal__aapl__pxrReserved__8UsdStage9_SetValueINSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEEEENS2_9enable_ifIXntsr21_IsEditTargetMappableIT_EE5valueEbE4typeENS_11UsdTimeCodeERKNS_12UsdAttributeERKSA_"
++ "__ZN32pxrInternal__aapl__pxrReserved__8UsdStage9_SetValueIdEENSt3__19enable_ifIXntsr21_IsEditTargetMappableIT_EE5valueEbE4typeENS_11UsdTimeCodeERKNS_12UsdAttributeERKS4_"
++ "__ZNK32pxrInternal__aapl__pxrReserved__8UsdStage24_GetValueFromResolveInfoINS_11SdfTimeCodeEEEbRKNS_14UsdResolveInfoENS_11UsdTimeCodeERKNS_12UsdAttributeEPT_"
++ "__ZNK32pxrInternal__aapl__pxrReserved__8UsdStage24_GetValueFromResolveInfoINS_12SdfAssetPathEEEbRKNS_14UsdResolveInfoENS_11UsdTimeCodeERKNS_12UsdAttributeEPT_"
++ "__ZNK32pxrInternal__aapl__pxrReserved__8UsdStage24_GetValueFromResolveInfoINS_14SdfOpaqueValueEEEbRKNS_14UsdResolveInfoENS_11UsdTimeCodeERKNS_12UsdAttributeEPT_"
++ "__ZNK32pxrInternal__aapl__pxrReserved__8UsdStage24_GetValueFromResolveInfoINS_17SdfPathExpressionEEEbRKNS_14UsdResolveInfoENS_11UsdTimeCodeERKNS_12UsdAttributeEPT_"
++ "__ZNK32pxrInternal__aapl__pxrReserved__8UsdStage24_GetValueFromResolveInfoINS_7TfTokenEEEbRKNS_14UsdResolveInfoENS_11UsdTimeCodeERKNS_12UsdAttributeEPT_"
++ "__ZNK32pxrInternal__aapl__pxrReserved__8UsdStage24_GetValueFromResolveInfoINS_7VtArrayINS_11SdfTimeCodeEEEEEbRKNS_14UsdResolveInfoENS_11UsdTimeCodeERKNS_12UsdAttributeEPT_"
++ "__ZNK32pxrInternal__aapl__pxrReserved__8UsdStage24_GetValueFromResolveInfoINS_7VtArrayINS_12SdfAssetPathEEEEEbRKNS_14UsdResolveInfoENS_11UsdTimeCodeERKNS_12UsdAttributeEPT_"
++ "__ZNK32pxrInternal__aapl__pxrReserved__8UsdStage24_GetValueFromResolveInfoINS_7VtArrayINS_14SdfOpaqueValueEEEEEbRKNS_14UsdResolveInfoENS_11UsdTimeCodeERKNS_12UsdAttributeEPT_"
++ "__ZNK32pxrInternal__aapl__pxrReserved__8UsdStage24_GetValueFromResolveInfoINS_7VtArrayINS_7TfTokenEEEEEbRKNS_14UsdResolveInfoENS_11UsdTimeCodeERKNS_12UsdAttributeEPT_"
++ "__ZNK32pxrInternal__aapl__pxrReserved__8UsdStage24_GetValueFromResolveInfoINS_7VtArrayIdEEEEbRKNS_14UsdResolveInfoENS_11UsdTimeCodeERKNS_12UsdAttributeEPT_"
++ "__ZNK32pxrInternal__aapl__pxrReserved__8UsdStage24_GetValueFromResolveInfoIdEEbRKNS_14UsdResolveInfoENS_11UsdTimeCodeERKNS_12UsdAttributeEPT_"
++ "__ZNK32pxrInternal__aapl__pxrReserved__8UsdStage9_GetValueINS_10GfMatrix2dEEEbNS_11UsdTimeCodeERKNS_12UsdAttributeEPT_"
++ "__ZNK32pxrInternal__aapl__pxrReserved__8UsdStage9_GetValueINS_11SdfTimeCodeEEEbNS_11UsdTimeCodeERKNS_12UsdAttributeEPT_"
++ "__ZNK32pxrInternal__aapl__pxrReserved__8UsdStage9_GetValueINS_12SdfAssetPathEEEbNS_11UsdTimeCodeERKNS_12UsdAttributeEPT_"
++ "__ZNK32pxrInternal__aapl__pxrReserved__8UsdStage9_GetValueINS_14SdfOpaqueValueEEEbNS_11UsdTimeCodeERKNS_12UsdAttributeEPT_"
++ "__ZNK32pxrInternal__aapl__pxrReserved__8UsdStage9_GetValueINS_17SdfPathExpressionEEEbNS_11UsdTimeCodeERKNS_12UsdAttributeEPT_"
++ "__ZNK32pxrInternal__aapl__pxrReserved__8UsdStage9_GetValueINS_7TfTokenEEEbNS_11UsdTimeCodeERKNS_12UsdAttributeEPT_"
++ "__ZNK32pxrInternal__aapl__pxrReserved__8UsdStage9_GetValueINS_7VtArrayINS_11SdfTimeCodeEEEEEbNS_11UsdTimeCodeERKNS_12UsdAttributeEPT_"
++ "__ZNK32pxrInternal__aapl__pxrReserved__8UsdStage9_GetValueINS_7VtArrayINS_12SdfAssetPathEEEEEbNS_11UsdTimeCodeERKNS_12UsdAttributeEPT_"
++ "__ZNK32pxrInternal__aapl__pxrReserved__8UsdStage9_GetValueINS_7VtArrayINS_14SdfOpaqueValueEEEEEbNS_11UsdTimeCodeERKNS_12UsdAttributeEPT_"
++ "__ZNK32pxrInternal__aapl__pxrReserved__8UsdStage9_GetValueINS_7VtArrayINS_17SdfPathExpressionEEEEEbNS_11UsdTimeCodeERKNS_12UsdAttributeEPT_"
++ "__ZNK32pxrInternal__aapl__pxrReserved__8UsdStage9_GetValueINS_7VtArrayINS_7TfTokenEEEEEbNS_11UsdTimeCodeERKNS_12UsdAttributeEPT_"
++ "__ZNK32pxrInternal__aapl__pxrReserved__8UsdStage9_GetValueINS_7VtArrayIdEEEEbNS_11UsdTimeCodeERKNS_12UsdAttributeEPT_"
++ "__ZNK32pxrInternal__aapl__pxrReserved__8UsdStage9_GetValueIdEEbNS_11UsdTimeCodeERKNS_12UsdAttributeEPT_"
++ "alueEbE4typeENS_11UsdTimeCodeERKNS_12UsdAttributeERKS6_"
++ "lueFromResolveInfoINSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEEEEbRKNS_14UsdResolveInfoENS_11UsdTimeCodeERKNS_12UsdAttributeEPT_"
++ "lveInfoENS_11UsdTimeCodeERKNS_12UsdAttributeEPT_"
+
+```

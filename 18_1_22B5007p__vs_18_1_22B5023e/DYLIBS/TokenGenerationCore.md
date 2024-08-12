@@ -1,0 +1,853 @@
+## TokenGenerationCore
+
+> `/System/Library/PrivateFrameworks/TokenGenerationCore.framework/TokenGenerationCore`
+
+```diff
+
+-146.105.0.0.0
+-  __TEXT.__text: 0xbf598
+-  __TEXT.__auth_stubs: 0x22e0
+-  __TEXT.__objc_methlist: 0xbc
+-  __TEXT.__const: 0x4930
+-  __TEXT.__gcc_except_tab: 0x41b0
+-  __TEXT.__cstring: 0x4f56
+-  __TEXT.__oslogstring: 0x8b9
+-  __TEXT.__swift5_typeref: 0x169c
+-  __TEXT.__swift5_reflstr: 0x110d
++153.505.100.0.0
++  __TEXT.__text: 0xc61d8
++  __TEXT.__auth_stubs: 0x22c0
++  __TEXT.__objc_methlist: 0xd4
++  __TEXT.__const: 0x4bc0
++  __TEXT.__gcc_except_tab: 0x41cc
++  __TEXT.__cstring: 0x5019
++  __TEXT.__oslogstring: 0xa29
++  __TEXT.__swift5_typeref: 0x16e4
++  __TEXT.__swift5_reflstr: 0x115d
+   __TEXT.__swift5_assocty: 0x120
+-  __TEXT.__constg_swiftt: 0x1328
+-  __TEXT.__swift5_fieldmd: 0x17b4
+-  __TEXT.__swift5_builtin: 0x78
+-  __TEXT.__swift5_mpenum: 0x28
+-  __TEXT.__swift5_proto: 0x380
+-  __TEXT.__swift5_types: 0x1a4
+-  __TEXT.__swift5_protos: 0x28
+-  __TEXT.__swift5_capture: 0x238
++  __TEXT.__constg_swiftt: 0x13ac
++  __TEXT.__swift5_fieldmd: 0x1a4c
++  __TEXT.__swift5_builtin: 0xa0
++  __TEXT.__swift5_mpenum: 0x40
++  __TEXT.__swift5_proto: 0x3a8
++  __TEXT.__swift5_types: 0x1b0
++  __TEXT.__swift5_protos: 0x2c
++  __TEXT.__swift5_capture: 0x248
+   __TEXT.__swift5_types2: 0x4
+-  __TEXT.__unwind_info: 0x3a30
+-  __TEXT.__eh_frame: 0x2650
++  __TEXT.__unwind_info: 0x3b98
++  __TEXT.__eh_frame: 0x2860
+   __TEXT.__objc_classname: 0x16
+-  __TEXT.__objc_methname: 0x2e8
++  __TEXT.__objc_methname: 0x312
+   __TEXT.__objc_methtype: 0x996
+-  __TEXT.__objc_stubs: 0x1a0
+-  __DATA_CONST.__got: 0x430
+-  __DATA_CONST.__const: 0x170
++  __TEXT.__objc_stubs: 0x1c0
++  __DATA_CONST.__got: 0x408
++  __DATA_CONST.__const: 0x1b0
+   __DATA_CONST.__objc_classlist: 0x50
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x120
++  __DATA_CONST.__objc_selrefs: 0x128
+   __DATA_CONST.__objc_superrefs: 0x8
+-  __AUTH_CONST.__auth_got: 0x1180
+-  __AUTH_CONST.__auth_ptr: 0x508
+-  __AUTH_CONST.__const: 0x4678
++  __AUTH_CONST.__auth_got: 0x1170
++  __AUTH_CONST.__auth_ptr: 0x510
++  __AUTH_CONST.__const: 0x4a18
+   __AUTH_CONST.__cfstring: 0xa0
+-  __AUTH_CONST.__objc_const: 0xc20
+-  __AUTH.__objc_data: 0xf0
+-  __AUTH.__data: 0x1198
++  __AUTH_CONST.__objc_const: 0xbb0
+   __AUTH.__thread_vars: 0x30
+   __AUTH.__thread_bss: 0x9c9
+   __DATA.__objc_ivar: 0x8
+-  __DATA.__data: 0x1680
+-  __DATA.__bss: 0x6c79
++  __DATA.__data: 0x1620
++  __DATA.__bss: 0x7179
+   __DATA.__common: 0x439
++  __DATA_DIRTY.__objc_data: 0xf0
++  __DATA_DIRTY.__data: 0xfe8
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
++  - /System/Library/PrivateFrameworks/CollectionsInternal.framework/CollectionsInternal
+   - /System/Library/PrivateFrameworks/GenerativeFunctionsFoundation.framework/GenerativeFunctionsFoundation
+   - /System/Library/PrivateFrameworks/GenerativeModelsFoundation.framework/GenerativeModelsFoundation
+   - /System/Library/PrivateFrameworks/ModelCatalog.framework/ModelCatalog
+
+   - /usr/lib/swift/libswiftQuartzCore.dylib
+   - /usr/lib/swift/libswiftRegexBuilder.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
++  - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswift_StringProcessing.dylib
++  - /usr/lib/swift/libswift_errno.dylib
++  - /usr/lib/swift/libswift_math.dylib
++  - /usr/lib/swift/libswift_signal.dylib
++  - /usr/lib/swift/libswift_stdio.dylib
++  - /usr/lib/swift/libswift_time.dylib
+   - /usr/lib/swift/libswiftos.dylib
+-  Functions: 4246
+-  Symbols:   6066
+-  CStrings:  0
++  - /usr/lib/swift/libswiftsys_time.dylib
++  - /usr/lib/swift/libswiftunistd.dylib
++  Functions: 4405
++  Symbols:   6302
++  CStrings:  564
+ 
+Symbols:
++ _$s15TokenGeneration6PromptV0aB4CoreE06renderC7Modules10tokenTable23localizationOverrideMapSayAD0C6ModuleOGSDyAC07SpecialA0VypG_SDyALSDyS2SGGtKF
++ _$s19CollectionsInternal6BitSetV10startIndexAC0F0Vvg
++ _$s19CollectionsInternal6BitSetV2eeoiySbAC_ACtFZ
++ _$s19CollectionsInternal6BitSetV5countSivg
++ _$s19CollectionsInternal6BitSetV5index5afterAC5IndexVAG_tF
++ _$s19CollectionsInternal6BitSetV6insertySb8inserted_Si17memberAfterInserttSiF
++ _$s19CollectionsInternal6BitSetV8IteratorV4nextSiSgyF
++ _$s19CollectionsInternal6BitSetV8IteratorVyAeCcfC
++ _$s19CollectionsInternal6BitSetV8endIndexAC0F0Vvg
++ _$s19CollectionsInternal6BitSetV9formUnionyyACF
++ _$s19CollectionsInternal6BitSetVACycfC
++ _$s19CollectionsInternal6BitSetVMn
++ _$s19CollectionsInternal8BitArrayVyAcA0C3SetVcfC
++ _$s19TokenGenerationCore06GuidedB11ConstraintsV012generateNextA18IDMaskExhaustively4fromAA0aH8ResponseOSaySiG_tYaKF
++ _$s19TokenGenerationCore06GuidedB11ConstraintsV012generateNextA18IDMaskExhaustively4fromAA0aH8ResponseOSaySiG_tYaKFTu
++ _$s19TokenGenerationCore06GuidedB11ConstraintsV6schema17vocabularyManager019enableDeterministicA4Runs21numberOfParallelTasksAC29GenerativeFunctionsFoundation6SchemaV_AA0db10VocabularyH0VSbSitcfC
++ _$s19TokenGenerationCore06GuidedB11ConstraintsV7grammar17vocabularyManager019enableDeterministicA4Runs21numberOfParallelTasksAcA7GrammarV_AA0db10VocabularyH0VSbSitcfC
++ _$s19TokenGenerationCore06GuidedB17VocabularyManagerV09initVocabF0yyF
++ _$s19TokenGenerationCore06GuidedB17VocabularyManagerV9tokenizer04stopA3IDs26characterSetsUsedInGrammarAcA0dB9Tokenizer_p_SaySiGSay10Foundation12CharacterSetVGtcfC
++ _$s19TokenGenerationCore06GuidedB17VocabularyManagerV9tokenizer04stopA3IDsAcA0dB9Tokenizer_p_SaySiGtcfC
++ _$s19TokenGenerationCore06GuidedB17VocabularyManagerVMa
++ _$s19TokenGenerationCore06GuidedB17VocabularyManagerVMn
++ _$s19TokenGenerationCore06GuidedB17VocabularyManagerVN
++ _$s19TokenGenerationCore06GuidedB5ErrorO15invalidMaskSizeyA2CmFWC
++ _$s19TokenGenerationCore0A6IDMaskV07allowedA3IDsSaySiGyF
++ _$s19TokenGenerationCore0A6IDMaskV11booleanMask6ofSizes15ContiguousArrayVySbGSi_tKF
++ _$s19TokenGenerationCore0A6IDMaskV6bitSet19CollectionsInternal03BitF0VyF
++ _$s19TokenGenerationCore14AutomationJSONV14RenderedPromptV11descriptionSSvg
++ _$s19TokenGenerationCore14AutomationJSONV14RenderedPromptV11descriptionSSvpMV
++ _$s19TokenGenerationCore14AutomationJSONV14RenderedPromptVs23CustomStringConvertibleAAMc
++ _$s19TokenGenerationCore14AutomationJSONV19ParameterizedPromptV05inputG4TypeAC05InputgI0Ovg
++ _$s19TokenGenerationCore14AutomationJSONV19ParameterizedPromptV05inputG4TypeAC05InputgI0OvpMV
++ _$s19TokenGenerationCore14AutomationJSONV19ParameterizedPromptV08renderedG0AC08RenderedG0VSgvM
++ _$s19TokenGenerationCore14AutomationJSONV19ParameterizedPromptV08renderedG0AC08RenderedG0VSgvg
++ _$s19TokenGenerationCore14AutomationJSONV19ParameterizedPromptV08renderedG0AC08RenderedG0VSgvpMV
++ _$s19TokenGenerationCore14AutomationJSONV19ParameterizedPromptV08renderedG0AC08RenderedG0VSgvs
++ _$s19TokenGenerationCore14AutomationJSONV19ParameterizedPromptV10randomSeedSiSgvg
++ _$s19TokenGenerationCore14AutomationJSONV19ParameterizedPromptV10randomSeedSiSgvpMV
++ _$s19TokenGenerationCore14AutomationJSONV19ParameterizedPromptV11temperatureSdSgvg
++ _$s19TokenGenerationCore14AutomationJSONV19ParameterizedPromptV11temperatureSdSgvpMV
++ _$s19TokenGenerationCore14AutomationJSONV19ParameterizedPromptV12stopSequenceSSSgvg
++ _$s19TokenGenerationCore14AutomationJSONV19ParameterizedPromptV12stopSequenceSSSgvpMV
++ _$s19TokenGenerationCore14AutomationJSONV19ParameterizedPromptV12tokenHealingSbSgvg
++ _$s19TokenGenerationCore14AutomationJSONV19ParameterizedPromptV12tokenHealingSbSgvpMV
++ _$s19TokenGenerationCore14AutomationJSONV19ParameterizedPromptV13lengthPenaltySdSgvg
++ _$s19TokenGenerationCore14AutomationJSONV19ParameterizedPromptV13lengthPenaltySdSgvpMV
++ _$s19TokenGenerationCore14AutomationJSONV19ParameterizedPromptV16frequencyPenaltySdSgvg
++ _$s19TokenGenerationCore14AutomationJSONV19ParameterizedPromptV16frequencyPenaltySdSgvpMV
++ _$s19TokenGenerationCore14AutomationJSONV19ParameterizedPromptV19speculativeSamplingSbSgvg
++ _$s19TokenGenerationCore14AutomationJSONV19ParameterizedPromptV19speculativeSamplingSbSgvpMV
++ _$s19TokenGenerationCore14AutomationJSONV19ParameterizedPromptV21inputVariableBindingsSDyS2SGSgvg
++ _$s19TokenGenerationCore14AutomationJSONV19ParameterizedPromptV21inputVariableBindingsSDyS2SGSgvpMV
++ _$s19TokenGenerationCore14AutomationJSONV19ParameterizedPromptV22dynamicPartsOfGrammarsSSSgvg
++ _$s19TokenGenerationCore14AutomationJSONV19ParameterizedPromptV22dynamicPartsOfGrammarsSSSgvpMV
++ _$s19TokenGenerationCore14AutomationJSONV19ParameterizedPromptV22promptLookupDraftStepsSiSgvg
++ _$s19TokenGenerationCore14AutomationJSONV19ParameterizedPromptV22promptLookupDraftStepsSiSgvpMV
++ _$s19TokenGenerationCore14AutomationJSONV19ParameterizedPromptV24inputSafetyConfigurationAC05InputiJ0VSgvg
++ _$s19TokenGenerationCore14AutomationJSONV19ParameterizedPromptV24inputSafetyConfigurationAC05InputiJ0VSgvpMV
++ _$s19TokenGenerationCore14AutomationJSONV19ParameterizedPromptV25outputSafetyConfigurationAC06OutputiJ0VSgvg
++ _$s19TokenGenerationCore14AutomationJSONV19ParameterizedPromptV25outputSafetyConfigurationAC06OutputiJ0VSgvpMV
++ _$s19TokenGenerationCore14AutomationJSONV19ParameterizedPromptV29samplingStrategyConfigurationAC08SamplingiJ0OSgvg
++ _$s19TokenGenerationCore14AutomationJSONV19ParameterizedPromptV29samplingStrategyConfigurationAC08SamplingiJ0OSgvpMV
++ _$s19TokenGenerationCore14AutomationJSONV19ParameterizedPromptV4fromAEs7Decoder_p_tKcfC
++ _$s19TokenGenerationCore14AutomationJSONV19ParameterizedPromptV6encode2toys7Encoder_p_tKF
++ _$s19TokenGenerationCore14AutomationJSONV19ParameterizedPromptV6localeSSSgvg
++ _$s19TokenGenerationCore14AutomationJSONV19ParameterizedPromptV6localeSSSgvpMV
++ _$s19TokenGenerationCore14AutomationJSONV19ParameterizedPromptV6outputSSSgvM
++ _$s19TokenGenerationCore14AutomationJSONV19ParameterizedPromptV6outputSSSgvg
++ _$s19TokenGenerationCore14AutomationJSONV19ParameterizedPromptV6outputSSSgvpMV
++ _$s19TokenGenerationCore14AutomationJSONV19ParameterizedPromptV6outputSSSgvs
++ _$s19TokenGenerationCore14AutomationJSONV19ParameterizedPromptV6prompt05inputG4Type6locale0I16VariableBindings29samplingStrategyConfiguration11temperature16frequencyPenalty06lengthS012stopSequence9maxTokens10randomSeed0H16LookupDraftSteps19speculativeSampling12tokenHealing6schema7grammar22dynamicPartsOfGrammars7timeout0i6SafetyP0012outputSafetyP06output08renderedG08userDataAESS_AC05InputgJ0OSSSgSDyS2SGSgAC08SamplingoP0OSgSdSgA9_A9_A3_SiSgA10_A10_SbSgA11_A3_A3_A3_A9_AC011InputSafetyP0VSgAC012OutputSafetyP0VSgA3_AC08RenderedG0VSgAA0E0OSgtcfC
++ _$s19TokenGenerationCore14AutomationJSONV19ParameterizedPromptV6promptSSvg
++ _$s19TokenGenerationCore14AutomationJSONV19ParameterizedPromptV6promptSSvpMV
++ _$s19TokenGenerationCore14AutomationJSONV19ParameterizedPromptV6schemaSSSgvg
++ _$s19TokenGenerationCore14AutomationJSONV19ParameterizedPromptV6schemaSSSgvpMV
++ _$s19TokenGenerationCore14AutomationJSONV19ParameterizedPromptV7grammarSSSgvg
++ _$s19TokenGenerationCore14AutomationJSONV19ParameterizedPromptV7grammarSSSgvpMV
++ _$s19TokenGenerationCore14AutomationJSONV19ParameterizedPromptV7timeoutSdSgvg
++ _$s19TokenGenerationCore14AutomationJSONV19ParameterizedPromptV7timeoutSdSgvpMV
++ _$s19TokenGenerationCore14AutomationJSONV19ParameterizedPromptV8userDataAA0E0OSgvg
++ _$s19TokenGenerationCore14AutomationJSONV19ParameterizedPromptV8userDataAA0E0OSgvpMV
++ _$s19TokenGenerationCore14AutomationJSONV19ParameterizedPromptV9maxTokensSiSgvg
++ _$s19TokenGenerationCore14AutomationJSONV19ParameterizedPromptV9maxTokensSiSgvpMV
++ _$s19TokenGenerationCore14AutomationJSONV19ParameterizedPromptVMa
++ _$s19TokenGenerationCore14AutomationJSONV19ParameterizedPromptVMn
++ _$s19TokenGenerationCore14AutomationJSONV19ParameterizedPromptVN
++ _$s19TokenGenerationCore14AutomationJSONV19ParameterizedPromptVSEAAMc
++ _$s19TokenGenerationCore14AutomationJSONV19ParameterizedPromptVSeAAMc
++ _$s19TokenGenerationCore14AutomationJSONV20parameterizedPromptsSayAC19ParameterizedPromptVGSgvM
++ _$s19TokenGenerationCore14AutomationJSONV20parameterizedPromptsSayAC19ParameterizedPromptVGSgvg
++ _$s19TokenGenerationCore14AutomationJSONV20parameterizedPromptsSayAC19ParameterizedPromptVGSgvpMV
++ _$s19TokenGenerationCore14AutomationJSONV20parameterizedPromptsSayAC19ParameterizedPromptVGSgvs
++ _$s19TokenGenerationCore14AutomationJSONV29SamplingStrategyConfigurationO2eeoiySbAE_AEtFZ
++ _$s19TokenGenerationCore14AutomationJSONV29SamplingStrategyConfigurationOSQAAMc
++ _$s19TokenGenerationCore14AutomationJSONV5inputSaySSGSgvg
++ _$s19TokenGenerationCore14AutomationJSONV5inputSaySSGSgvpMV
++ _$s19TokenGenerationCore14AutomationJSONV6localeSSSgvg
++ _$s19TokenGenerationCore14AutomationJSONV6localeSSSgvpMV
++ _$s19TokenGenerationCore15TokenizedPromptV014promptFragmentA3IDsSaySaySiGGvM
++ _$s19TokenGenerationCore15TokenizedPromptV014promptFragmentA3IDsSaySaySiGGvg
++ _$s19TokenGenerationCore15TokenizedPromptV014promptFragmentA3IDsSaySaySiGGvpMV
++ _$s19TokenGenerationCore15TokenizedPromptV014promptFragmentA3IDsSaySaySiGGvs
++ _$s19TokenGenerationCore15TokenizedPromptV15promptFragments0f8FragmentA3IDsACSay0aB00E0V08RenderedeH0VG_SaySaySiGGtcfC
++ _$s19TokenGenerationCore15TokenizedPromptV15promptFragmentsSay0aB00E0V08RenderedE8FragmentVGvM
++ _$s19TokenGenerationCore15TokenizedPromptV15promptFragmentsSay0aB00E0V08RenderedE8FragmentVGvg
++ _$s19TokenGenerationCore15TokenizedPromptV15promptFragmentsSay0aB00E0V08RenderedE8FragmentVGvpMV
++ _$s19TokenGenerationCore15TokenizedPromptV15promptFragmentsSay0aB00E0V08RenderedE8FragmentVGvs
++ _$s19TokenGenerationCore15TokenizedPromptV15renderdedStringSSvg
++ _$s19TokenGenerationCore15TokenizedPromptV15renderdedStringSSvpMV
++ _$s19TokenGenerationCore15TokenizedPromptV8tokenIDsSaySiGvg
++ _$s19TokenGenerationCore15TokenizedPromptV8tokenIDsSaySiGvpMV
++ _$s19TokenGenerationCore15TokenizedPromptVMa
++ _$s19TokenGenerationCore15TokenizedPromptVMn
++ _$s19TokenGenerationCore15TokenizedPromptVN
++ _$s19TokenGenerationCore15TokenizerRunnerC8tokenize13promptModules10tokenTableSayAA15TokenizedPromptVGSayAA0L6ModuleOG_SDy0aB00L0V07SpecialA0VypGtKFTj
++ _$s19TokenGenerationCore15TokenizerRunnerC8tokenize13promptModules10tokenTableSayAA15TokenizedPromptVGSayAA0L6ModuleOG_SDy0aB00L0V07SpecialA0VypGtKFTq
++ _$s19TokenGenerationCore4JSONO2eeoiySbAC_ACtFZ
++ _$s19TokenGenerationCore4JSONO4boolyACSbcACmFWC
++ _$s19TokenGenerationCore4JSONO4fromACs7Decoder_p_tKcfC
++ _$s19TokenGenerationCore4JSONO4hash4intoys6HasherVz_tF
++ _$s19TokenGenerationCore4JSONO4nullyA2CmFWC
++ _$s19TokenGenerationCore4JSONO5arrayyACSayACGcACmFWC
++ _$s19TokenGenerationCore4JSONO6encode2toys7Encoder_p_tKF
++ _$s19TokenGenerationCore4JSONO6numberyACSdcACmFWC
++ _$s19TokenGenerationCore4JSONO6objectyACSDySSACGcACmFWC
++ _$s19TokenGenerationCore4JSONO6stringyACSScACmFWC
++ _$s19TokenGenerationCore4JSONO9hashValueSivg
++ _$s19TokenGenerationCore4JSONO9hashValueSivpMV
++ _$s19TokenGenerationCore4JSONOMa
++ _$s19TokenGenerationCore4JSONOMn
++ _$s19TokenGenerationCore4JSONON
++ _$s19TokenGenerationCore4JSONOSEAAMc
++ _$s19TokenGenerationCore4JSONOSHAAMc
++ _$s19TokenGenerationCore4JSONOSQAAMc
++ _$s19TokenGenerationCore4JSONOSeAAMc
++ _$sSo8NSObjectCSQ10ObjectiveCMc
++ __swift_FORCE_LOAD_$_swift_Builtin_float
++ __swift_FORCE_LOAD_$_swift_errno
++ __swift_FORCE_LOAD_$_swift_math
++ __swift_FORCE_LOAD_$_swift_signal
++ __swift_FORCE_LOAD_$_swift_stdio
++ __swift_FORCE_LOAD_$_swift_time
++ __swift_FORCE_LOAD_$_swiftsys_time
++ __swift_FORCE_LOAD_$_swiftunistd
++ _objc_retain_x24
+- _$s10Foundation8IndexSetV0B0VMa
+- _$s10Foundation8IndexSetV5countSivg
+- _$s10Foundation8IndexSetV5firstSiSgvg
+- _$s10Foundation8IndexSetV9RangeViewV12makeIterators08IndexingG0VyAEGyF
+- _$s10Foundation8IndexSetV9RangeViewVMa
+- _$s10Foundation8IndexSetV9RangeViewVMn
+- _$s10Foundation8IndexSetV9RangeViewVSlAAMc
+- _$s10Foundation8IndexSetV9formUnionyyACF
+- _$s10Foundation8IndexSetV9rangeViewAC05RangeE0Vvg
+- _$s10Foundation8IndexSetVACycfC
+- _$s10Foundation8IndexSetVSlAAMc
+- _$s15TokenGeneration6PromptV0aB4CoreE06renderC7Modules10tokenTableSayAD0C6ModuleOGSDyAC07SpecialA0VypG_tKF
+- _$s19TokenGenerationCore06GuidedB11ConstraintsV16initVocabManageryyF
+- _$s19TokenGenerationCore06GuidedB11ConstraintsV33generateNextLogitMaskExhaustively4fromAA0hI8ResponseOSaySiG_tYaKF
+- _$s19TokenGenerationCore06GuidedB11ConstraintsV33generateNextLogitMaskExhaustively4fromAA0hI8ResponseOSaySiG_tYaKFTu
+- _$s19TokenGenerationCore06GuidedB11ConstraintsV7grammar9tokenizer04stopA3IDs019enableDeterministicA4Runs16numParallelTasksAcA7GrammarV_AA0dB9Tokenizer_pSaySiGSbSiSgtcfC
+- _$s19TokenGenerationCore0A6IDMaskV11booleanMasks15ContiguousArrayVySbGyF
+- _$s19TokenGenerationCore14AutomationJSONV5inputSaySSGvg
+- _$s19TokenGenerationCore14AutomationJSONV5inputSaySSGvpMV
+- _$s19TokenGenerationCore15TokenizerRunnerC21tokenizePromptModules06promptH010tokenTableSaySaySiGGSayAA0G6ModuleOG_SDy0aB00G0V07SpecialA0VypGtKFTj
+- _$s19TokenGenerationCore15TokenizerRunnerC21tokenizePromptModules06promptH010tokenTableSaySaySiGGSayAA0G6ModuleOG_SDy0aB00G0V07SpecialA0VypGtKFTq
+- _$sSl10startIndex0B0QzvgTj
+- _$sSl5countSivgTj
+- _$sSl8endIndex0B0QzvgTj
+- _$sSl9formIndex5aftery0B0Qzz_tFTj
+- _$sSly7ElementQz5IndexQzcirTj
+- _$sSo8NSObjectC10ObjectiveCE2eeoiySbAB_ABtFZ
+- _$ss16IndexingIteratorVMn
+CStrings:
++ "ENS_9allocatorIcEEEERKNS_10error_codeE"
++ "_AKADPCohortHeaderKey"
++ "_AKAccessibilityIdentifierTiburon"
++ "_AKAccountNameHeaderKey"
++ "_AKAccountResetRequestTypeKey"
++ "_AKActionButtonKey"
++ "_AKActionCancel"
++ "_AKActionComplete"
++ "_AKActionContinue"
++ "_AKActionHeaderKey"
++ "_AKActionKey"
++ "_AKActionRead"
++ "_AKActionStartICSC"
++ "_AKActionValidateMK"
++ "_AKAltDSID"
++ "_AKAltDSIDHeaderKey"
++ "_AKAnisetteErrorDomain"
++ "_AKAppleIDAuthenticationAppProvidedContextDependentSetup"
++ "_AKAppleIDAuthenticationAppProvidedContextDependentToken"
++ "_AKAppleIDAuthenticationAppProvidedContextPersonalizedSetup"
++ "_AKAppleIDAuthenticationErrorDomain"
++ "_AKAppleIDEmailsDidChangeNotification"
++ "_AKAppleIDProximityAuthErrorDomain"
++ "_AKAppleIDSessionTelemetryEnabledKey"
++ "_AKAppleManagedAccountSignInSettingsKey"
++ "_AKAppleSupportServiceIdentifier"
++ "_AKAuthenticationAcceptedTermsKey"
++ "_AKAuthenticationAlternateDSIDKey"
++ "_AKAuthenticationAppleIDAuthModeKey"
++ "_AKAuthenticationAppleIDMDMInfoRequired"
++ "_AKAuthenticationCircleContinuationContextKey"
++ "_AKAuthenticationConfigurationInfoKey"
++ "_AKAuthenticationCustodianSessionIDKey"
++ "_AKAuthenticationDSIDKey"
++ "_AKAuthenticationDidPerformBiometricAuth"
++ "_AKAuthenticationDidPerformInteractiveAuth"
++ "_AKAuthenticationDidShowServerUIKey"
++ "_AKAuthenticationDuplexSessionKey"
++ "_AKAuthenticationFirstNameKey"
++ "_AKAuthenticationIDMSTokenKey"
++ "_AKAuthenticationIdentityTokenKey"
++ "_AKAuthenticationInheritanceBeneficiaryIdentifierKey"
++ "_AKAuthenticationInheritanceBeneficiarySetupTokenKey"
++ "_AKAuthenticationInheritanceBeneficiaryWrappedKey"
++ "_AKAuthenticationIsHSA2Key"
++ "_AKAuthenticationLastNameKey"
++ "_AKAuthenticationNewAppleIDSetupInfoKey"
++ "_AKAuthenticationPasswordKey"
++ "_AKAuthenticationRawPasswordKey"
++ "_AKAuthenticationSecurityLevelKey"
++ "_AKAuthenticationTelemetryFlowID"
++ "_AKAuthenticationTimeSeriesKey"
++ "_AKAuthenticationUsernameKey"
++ "_AKAuthorizationScopeEmail"
++ "_AKAuthorizationScopeFullName"
++ "_AKBugCaptureSubTypeInvalidAccountSave"
++ "_AKBugCaptureSubTypeInvalidAccountUpdate"
++ "_AKCellularDataAttributionAppBundleIDAuthKit"
++ "_AKContextTypeHeader"
++ "_AKContinuationDataHeaderKey"
++ "_AKDSIDHeaderKey"
++ "_AKDeviceListChangedNotification"
++ "_AKErrorUnderlyingError"
++ "_AKFidoMachService"
++ "_AKFollowUpAltDSIDKey"
++ "_AKFollowUpIDMSDataKey"
++ "_AKIdmsDataTokenKey"
++ "_AKLocStringFromServiceType"
++ "_AKPasswordlessTokenKey"
++ "_AKPrivateEmailAddressHeaderKey"
++ "_AKPrivateEmailAddressKey"
++ "_AKPrivateEmailErrorDomain"
++ "_AKPrivateEmailOriginTypeApplePay"
++ "_AKPrivateEmailOriginTypeApplePayWeb"
++ "_AKPropertyLegacyDSIDKey"
++ "_AKPropertyPersonIDKey"
++ "_AKRecoveryIdentityTokenHeader"
++ "_AKRecoveryKeyMandateKey"
++ "_AKRecoveryPasswordEquivTokenHeader"
++ "_AKRecoveryURLResponseKey"
++ "_AKRequestBodyKey"
++ "_AKRequestURLKey"
++ "_AKSecurityUpgradeContextApplePay"
++ "_AKSecurityUpgradeContextDependentSetup"
++ "_AKSecurityUpgradeContextGeneric"
++ "_AKSecurityUpgradeContextKeychainSync"
++ "_AKServiceNameAppleSupport"
++ "_AKServiceNameWebKit"
++ "_AKServiceNameiCloud"
++ "_AKSharedDevicePasscodePromptAlertMessageWithServiceType"
++ "_AKSignInStringFromServiceType"
++ "_AKSilentTTRErrorDomain"
++ "_AKSystemGlyphEnvelopeShieldKey"
++ "_AKSystemGlyphKeyKey"
++ "_AKTrueValue"
++ "_AKURLBagKeyCustodianDataRecoveryServiceEnable"
++ "_AKURLBagKeyCustodianDeviceUpgrade"
++ "_AKURLBagKeyCustodianManageRecoveryKey"
++ "_AKUserInfoChangedAltDSIDKey"
++ "_AKUserInfoChangedNotification"
++ "_AKUserInfoChangedSecurityLevelKey"
++ "_AKUserNotificationResponseAction"
++ "_Baseline_4_0"
++ "_OBJC_CLASS_$_AKAlertHandler"
++ "_OBJC_CLASS_$_AKAppleIDPasskeyAuthenticationController"
++ "_OBJC_CLASS_$_AKAppleIDPasskeySetupContext"
++ "_OBJC_CLASS_$_AKAuthorizationValidator"
++ "_OBJC_CLASS_$_AKAutoBugCapture"
++ "_OBJC_CLASS_$_AKBeneficiaryAliasSetupResult"
++ "_OBJC_CLASS_$_AKBundleInformation"
++ "_OBJC_CLASS_$_AKCustodianController"
++ "_OBJC_CLASS_$_AKCustodianDaemonConnection"
++ "_OBJC_CLASS_$_AKFollowUpServerPayloadFormatter"
++ "_OBJC_CLASS_$_AKFuture"
++ "_OBJC_CLASS_$_AKInheritanceCLIContext"
++ "_OBJC_CLASS_$_AKInheritanceContext"
++ "_OBJC_CLASS_$_AKInheritanceController"
++ "_OBJC_CLASS_$_AKMasterToken"
++ "_OBJC_CLASS_$_AKPCSAuthContext"
++ "_OBJC_CLASS_$_AKPrivateEmailValidator"
++ "_OBJC_CLASS_$_AKToken"
++ "_OBJC_CLASS_$_AKWalrusController"
++ "_OBJC_METACLASS_$_AKAppleIDPasskeyAuthenticationController"
++ "_OBJC_METACLASS_$_AKAppleIDPasskeySetupContext"
++ "_OBJC_METACLASS_$_AKAuthorizationValidator"
++ "_OBJC_METACLASS_$_AKAutoBugCapture"
++ "_OBJC_METACLASS_$_AKBeneficiaryAliasSetupResult"
++ "_OBJC_METACLASS_$_AKBundleInformation"
++ "_OBJC_METACLASS_$_AKCustodianController"
++ "_OBJC_METACLASS_$_AKCustodianDaemonConnection"
++ "_OBJC_METACLASS_$_AKFollowUpServerPayloadFormatter"
++ "_OBJC_METACLASS_$_AKFuture"
++ "_OBJC_METACLASS_$_AKInheritanceCLIContext"
++ "_OBJC_METACLASS_$_AKInheritanceContext"
++ "_OBJC_METACLASS_$_AKInheritanceController"
++ "_OBJC_METACLASS_$_AKMasterToken"
++ "_OBJC_METACLASS_$_AKPCSAuthContext"
++ "_OBJC_METACLASS_$_AKToken"
++ "_OBJC_METACLASS_$_AKWalrusController"
++ "__AKICSCIdentityTokenHeader"
++ "__AKICSCPasswordEquivTokenHeaderKey"
++ "__AKICSCURLResponseKey"
++ "__AKLogFido"
++ "__AKLogSiwa"
++ "__AKLogSystem"
++ "__ZNKSt3__114__codecvt_utf8IDiE10do_unshiftER11__mbstate_tPcS4_RS4_"
++ "__ZNKSt3__114__codecvt_utf8IDiE11do_encodingEv"
++ "__ZNKSt3__114__codecvt_utf8IDiE13do_max_lengthEv"
++ "__ZNKSt3__114__codecvt_utf8IDiE16do_always_noconvEv"
++ "__ZNKSt3__114__codecvt_utf8IDiE5do_inER11__mbstate_tPKcS5_RS5_PDiS7_RS7_"
++ "__ZNKSt3__114__codecvt_utf8IDiE6do_outER11__mbstate_tPKDiS5_RS5_PcS7_RS7_"
++ "__ZNKSt3__114__codecvt_utf8IDiE9do_lengthER11__mbstate_tPKcS5_m"
++ "__ZNKSt3__114__codecvt_utf8IDsE10do_unshiftER11__mbstate_tPcS4_RS4_"
++ "__ZNKSt3__114__codecvt_utf8IDsE11do_encodingEv"
++ "__ZNKSt3__114__codecvt_utf8IDsE13do_max_lengthEv"
++ "__ZNKSt3__114__codecvt_utf8IDsE16do_always_noconvEv"
++ "__ZNKSt3__114__codecvt_utf8IDsE5do_inER11__mbstate_tPKcS5_RS5_PDsS7_RS7_"
++ "__ZNKSt3__114__codecvt_utf8IDsE6do_outER11__mbstate_tPKDsS5_RS5_PcS7_RS7_"
++ "__ZNKSt3__114__codecvt_utf8IDsE9do_lengthER11__mbstate_tPKcS5_m"
++ "__ZNKSt3__114__codecvt_utf8IwE10do_unshiftER11__mbstate_tPcS4_RS4_"
++ "__ZNKSt3__114__codecvt_utf8IwE11do_encodingEv"
++ "__ZNKSt3__114__codecvt_utf8IwE13do_max_lengthEv"
++ "__ZNKSt3__114__codecvt_utf8IwE16do_always_noconvEv"
++ "__ZNKSt3__114__codecvt_utf8IwE5do_inER11__mbstate_tPKcS5_RS5_PwS7_RS7_"
++ "__ZNKSt3__114__codecvt_utf8IwE6do_outER11__mbstate_tPKwS5_RS5_PcS7_RS7_"
++ "__ZNKSt3__114__codecvt_utf8IwE9do_lengthER11__mbstate_tPKcS5_m"
++ "__ZNKSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEE3strEv"
++ "__ZNKSt3__120__codecvt_utf8_utf16IDsE10do_unshiftER11__mbstate_tPcS4_RS4_"
++ "__ZNKSt3__120__codecvt_utf8_utf16IDsE11do_encodingEv"
++ "__ZNKSt3__120__codecvt_utf8_utf16IDsE13do_max_lengthEv"
++ "__ZNKSt3__120__codecvt_utf8_utf16IDsE16do_always_noconvEv"
++ "__ZNKSt3__120__codecvt_utf8_utf16IDsE5do_inER11__mbstate_tPKcS5_RS5_PDsS7_RS7_"
++ "__ZNKSt3__120__codecvt_utf8_utf16IDsE6do_outER11__mbstate_tPKDsS5_RS5_PcS7_RS7_"
++ "__ZNKSt3__120__codecvt_utf8_utf16IDsE9do_lengthER11__mbstate_tPKcS5_m"
++ "__ZNKSt3__120__codecvt_utf8_utf16IwE10do_unshiftER11__mbstate_tPcS4_RS4_"
++ "__ZNKSt3__120__codecvt_utf8_utf16IwE11do_encodingEv"
++ "__ZNKSt3__120__codecvt_utf8_utf16IwE13do_max_lengthEv"
++ "__ZNKSt3__120__codecvt_utf8_utf16IwE16do_always_noconvEv"
++ "__ZNKSt3__120__codecvt_utf8_utf16IwE5do_inER11__mbstate_tPKcS5_RS5_PwS7_RS7_"
++ "__ZNKSt3__120__codecvt_utf8_utf16IwE6do_outER11__mbstate_tPKwS5_RS5_PcS7_RS7_"
++ "__ZNKSt3__120__codecvt_utf8_utf16IwE9do_lengthER11__mbstate_tPKcS5_m"
++ "__ZNKSt3__123__match_any_but_newlineIcE6__execERNS_7__stateIcEE"
++ "__ZNKSt3__123__match_any_but_newlineIwE6__execERNS_7__stateIwEE"
++ "__ZNKSt3__14__fs10filesystem18directory_iterator13__dereferenceEv"
++ "__ZNKSt3__14__fs10filesystem28recursive_directory_iterator13__dereferenceEv"
++ "__ZNKSt3__16locale4nameEv"
++ "__ZNKSt3__16locale9has_facetERNS0_2idE"
++ "__ZNKSt3__16locale9use_facetERNS0_2idE"
++ "__ZNKSt3__16localeeqERKS0_"
++ "__ZNKSt3__17codecvtIcc11__mbstate_tE10do_unshiftERS1_PcS4_RS4_"
++ "__ZNKSt3__17codecvtIcc11__mbstate_tE11do_encodingEv"
++ "__ZNKSt3__17codecvtIcc11__mbstate_tE13do_max_lengthEv"
++ "__ZNKSt3__17codecvtIcc11__mbstate_tE5do_inERS1_PKcS5_RS5_PcS7_RS7_"
++ "__ZNKSt3__17codecvtIcc11__mbstate_tE6do_outERS1_PKcS5_RS5_PcS7_RS7_"
++ "__ZNKSt3__17codecvtIcc11__mbstate_tE9do_lengthERS1_PKcS5_m"
++ "__ZNKSt3__18ios_base6getlocEv"
++ "__ZNKSt3__18time_getIcNS_19istreambuf_iteratorIcNS_11char_traitsIcEEEEE3getES4_S4_RNS_8ios_baseERjP2tmPKcSC_"
++ "__ZNKSt3__18time_putIcNS_19ostreambuf_iteratorIcNS_11char_traitsIcEEEEE3putES4_RNS_8ios_baseEcPK2tmPKcSC_"
++ "__ZNSt3__110istrstreamD1Ev"
++ "__ZNSt3__111regex_errorC1ENS_15regex_constants10error_typeE"
++ "__ZNSt3__111regex_errorD1Ev"
++ "__ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE4nposE"
++ "__ZNSt3__112placeholders2_1E"
++ "__ZNSt3__112placeholders2_2E"
++ "__ZNSt3__112strstreambufC1EPKcl"
++ "__ZNSt3__112strstreambufC1El"
++ "__ZNSt3__113basic_filebufIcNS_11char_traitsIcEEE4openEPKcj"
++ "__ZNSt3__113basic_filebufIcNS_11char_traitsIcEEE5closeEv"
++ "__ZNSt3__113basic_filebufIcNS_11char_traitsIcEEEC1EOS3_"
++ "__ZNSt3__113basic_filebufIcNS_11char_traitsIcEEEC1Ev"
++ "__ZNSt3__113basic_filebufIcNS_11char_traitsIcEEED1Ev"
++ "__ZNSt3__113basic_istreamIcNS_11char_traitsIcEEE3getEPclc"
++ "__ZNSt3__113basic_istreamIcNS_11char_traitsIcEEE3getEv"
++ "__ZNSt3__113basic_istreamIcNS_11char_traitsIcEEE4peekEv"
++ "__ZNSt3__113basic_istreamIcNS_11char_traitsIcEEE4readEPcl"
++ "__ZNSt3__113basic_istreamIcNS_11char_traitsIcEEE4syncEv"
++ "__ZNSt3__113basic_istreamIcNS_11char_traitsIcEEE5seekgENS_4fposI11__mbstate_tEE"
++ "__ZNSt3__113basic_istreamIcNS_11char_traitsIcEEE5seekgExNS_8ios_base7seekdirE"
++ "__ZNSt3__113basic_istreamIcNS_11char_traitsIcEEE5tellgEv"
++ "__ZNSt3__113basic_istreamIcNS_11char_traitsIcEEE5ungetEv"
++ "__ZNSt3__113basic_istreamIcNS_11char_traitsIcEEE6ignoreEli"
++ "__ZNSt3__113basic_istreamIcNS_11char_traitsIcEEE6sentryC1ERS3_b"
++ "__ZNSt3__113basic_istreamIcNS_11char_traitsIcEEE7getlineEPclc"
++ "__ZNSt3__113basic_istreamIcNS_11char_traitsIcEEE7putbackEc"
++ "__ZNSt3__113basic_istreamIcNS_11char_traitsIcEEED0Ev"
++ "__ZNSt3__113basic_istreamIcNS_11char_traitsIcEEED1Ev"
++ "__ZNSt3__113basic_istreamIcNS_11char_traitsIcEEED2Ev"
++ "__ZNSt3__113basic_istreamIcNS_11char_traitsIcEEErsERb"
++ "__ZNSt3__113basic_istreamIcNS_11char_traitsIcEEErsERd"
++ "__ZNSt3__113basic_istreamIcNS_11char_traitsIcEEErsERf"
++ "__ZNSt3__113basic_istreamIcNS_11char_traitsIcEEErsERi"
++ "__ZNSt3__113basic_istreamIcNS_11char_traitsIcEEErsERj"
++ "__ZNSt3__113basic_istreamIcNS_11char_traitsIcEEErsERl"
++ "__ZNSt3__113basic_istreamIcNS_11char_traitsIcEEErsERm"
++ "__ZNSt3__113basic_istreamIcNS_11char_traitsIcEEErsERs"
++ "__ZNSt3__113basic_istreamIcNS_11char_traitsIcEEErsERt"
++ "__ZNSt3__113basic_istreamIcNS_11char_traitsIcEEErsERx"
++ "__ZNSt3__113basic_istreamIcNS_11char_traitsIcEEErsERy"
++ "__ZNSt3__113basic_istreamIwNS_11char_traitsIwEEE3getEv"
++ "__ZNSt3__113basic_istreamIwNS_11char_traitsIwEEED0Ev"
++ "__ZNSt3__113basic_istreamIwNS_11char_traitsIwEEED1Ev"
++ "__ZNSt3__113basic_istreamIwNS_11char_traitsIwEEED2Ev"
++ "__ZNSt3__113basic_istreamIwNS_11char_traitsIwEEErsERd"
++ "__ZNSt3__113basic_ostreamIcNS_11char_traitsIcEEE3putEc"
++ "__ZNSt3__113basic_ostreamIcNS_11char_traitsIcEEE5flushEv"
++ "__ZNSt3__113basic_ostreamIcNS_11char_traitsIcEEE5writeEPKcl"
++ "__ZNSt3__113basic_ostreamIcNS_11char_traitsIcEEE6sentryC1ERS3_"
++ "__ZNSt3__113basic_ostreamIcNS_11char_traitsIcEEE6sentryD1Ev"
++ "__ZNSt3__113basic_ostreamIcNS_11char_traitsIcEEED0Ev"
++ "__ZNSt3__113basic_ostreamIcNS_11char_traitsIcEEED1Ev"
++ "__ZNSt3__113basic_ostreamIcNS_11char_traitsIcEEED2Ev"
++ "__ZNSt3__113basic_ostreamIcNS_11char_traitsIcEEElsEPKv"
++ "__ZNSt3__113basic_ostreamIcNS_11char_traitsIcEEElsEPNS_15basic_streambufIcS2_EE"
++ "__ZNSt3__113basic_ostreamIcNS_11char_traitsIcEEElsEb"
++ "__ZNSt3__113basic_ostreamIcNS_11char_traitsIcEEElsEd"
++ "__ZNSt3__113basic_ostreamIcNS_11char_traitsIcEEElsEe"
++ "__ZNSt3__113basic_ostreamIcNS_11char_traitsIcEEElsEf"
++ "__ZNSt3__113basic_ostreamIcNS_11char_traitsIcEEElsEi"
++ "__ZNSt3__113basic_ostreamIcNS_11char_traitsIcEEElsEj"
++ "__ZNSt3__113basic_ostreamIcNS_11char_traitsIcEEElsEl"
++ "__ZNSt3__113basic_ostreamIcNS_11char_traitsIcEEElsEm"
++ "__ZNSt3__113basic_ostreamIcNS_11char_traitsIcEEElsEs"
++ "__ZNSt3__113basic_ostreamIcNS_11char_traitsIcEEElsEt"
++ "__ZNSt3__113basic_ostreamIcNS_11char_traitsIcEEElsEx"
++ "__ZNSt3__113basic_ostreamIcNS_11char_traitsIcEEElsEy"
++ "__ZNSt3__113basic_ostreamIwNS_11char_traitsIwEEE3putEw"
++ "__ZNSt3__113basic_ostreamIwNS_11char_traitsIwEEE5flushEv"
++ "__ZNSt3__113basic_ostreamIwNS_11char_traitsIwEEE5writeEPKwl"
++ "__ZNSt3__113basic_ostreamIwNS_11char_traitsIwEEE6sentryC1ERS3_"
++ "__ZNSt3__113basic_ostreamIwNS_11char_traitsIwEEE6sentryD1Ev"
++ "__ZNSt3__113basic_ostreamIwNS_11char_traitsIwEEED0Ev"
++ "__ZNSt3__113basic_ostreamIwNS_11char_traitsIwEEED1Ev"
++ "__ZNSt3__113basic_ostreamIwNS_11char_traitsIwEEED2Ev"
++ "__ZNSt3__113basic_ostreamIwNS_11char_traitsIwEEElsEd"
++ "__ZNSt3__113basic_ostreamIwNS_11char_traitsIwEEElsEi"
++ "__ZNSt3__113basic_ostreamIwNS_11char_traitsIwEEElsEj"
++ "__ZNSt3__113basic_ostreamIwNS_11char_traitsIwEEElsEm"
++ "__ZNSt3__113basic_ostreamIwNS_11char_traitsIwEEElsEx"
++ "__ZNSt3__114basic_ifstreamIcNS_11char_traitsIcEEE4openEPKcj"
++ "__ZNSt3__114basic_ifstreamIcNS_11char_traitsIcEEE4openERKNS_12basic_stringIcS2_NS_9allocatorIcEEEEj"
++ "__ZNSt3__114basic_iostreamIcNS_11char_traitsIcEEED0Ev"
++ "__ZNSt3__114basic_iostreamIcNS_11char_traitsIcEEED1Ev"
++ "__ZNSt3__114basic_iostreamIcNS_11char_traitsIcEEED2Ev"
++ "__ZNSt3__114basic_ofstreamIcNS_11char_traitsIcEEE4openEPKcj"
++ "__ZNSt3__114basic_ofstreamIcNS_11char_traitsIcEEE4openERKNS_12basic_stringIcS2_NS_9allocatorIcEEEEj"
++ "__ZNSt3__115__get_classnameEPKcb"
++ "__ZNSt3__115basic_streambufIcNS_11char_traitsIcEEE4syncEv"
++ "__ZNSt3__115basic_streambufIcNS_11char_traitsIcEEE5imbueERKNS_6localeE"
++ "__ZNSt3__115basic_streambufIcNS_11char_traitsIcEEE5uflowEv"
++ "__ZNSt3__115basic_streambufIcNS_11char_traitsIcEEE6setbufEPcl"
++ "__ZNSt3__115basic_streambufIcNS_11char_traitsIcEEE6xsgetnEPcl"
++ "__ZNSt3__115basic_streambufIcNS_11char_traitsIcEEE6xsputnEPKcl"
++ "__ZNSt3__115basic_streambufIcNS_11char_traitsIcEEE7seekoffExNS_8ios_base7seekdirEj"
++ "__ZNSt3__115basic_streambufIcNS_11char_traitsIcEEE7seekposENS_4fposI11__mbstate_tEEj"
++ "__ZNSt3__115basic_streambufIcNS_11char_traitsIcEEE8overflowEi"
++ "__ZNSt3__115basic_streambufIcNS_11char_traitsIcEEE9pbackfailEi"
++ "__ZNSt3__115basic_streambufIcNS_11char_traitsIcEEE9showmanycEv"
++ "__ZNSt3__115basic_streambufIcNS_11char_traitsIcEEE9underflowEv"
++ "__ZNSt3__115basic_streambufIcNS_11char_traitsIcEEEC2Ev"
++ "__ZNSt3__115basic_streambufIcNS_11char_traitsIcEEED2Ev"
++ "__ZNSt3__115basic_streambufIwNS_11char_traitsIwEEE4syncEv"
++ "__ZNSt3__115basic_streambufIwNS_11char_traitsIwEEE5imbueERKNS_6localeE"
++ "__ZNSt3__115basic_streambufIwNS_11char_traitsIwEEE5uflowEv"
++ "__ZNSt3__115basic_streambufIwNS_11char_traitsIwEEE6setbufEPwl"
++ "__ZNSt3__115basic_streambufIwNS_11char_traitsIwEEE6xsgetnEPwl"
++ "__ZNSt3__115basic_streambufIwNS_11char_traitsIwEEE6xsputnEPKwl"
++ "__ZNSt3__115basic_streambufIwNS_11char_traitsIwEEE9showmanycEv"
++ "__ZNSt3__115basic_streambufIwNS_11char_traitsIwEEEC2Ev"
++ "__ZNSt3__115basic_streambufIwNS_11char_traitsIwEEED2Ev"
++ "__ZNSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEE3strERKNS_12basic_stringIcS2_S4_EE"
++ "__ZNSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEE4swapERS5_"
++ "__ZNSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEE8overflowEi"
++ "__ZNSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEE9pbackfailEi"
++ "__ZNSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEE9underflowEv"
++ "__ZNSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEEC2EOS5_"
++ "__ZNSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEEaSEOS5_"
++ "__ZNSt3__116__narrow_to_utf8ILm16EED1Ev"
++ "__ZNSt3__118basic_stringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEaSEOS5_"
++ "__ZNSt3__120__get_collation_nameEPKc"
++ "__ZNSt3__13cinE"
++ "__ZNSt3__14__fs10filesystem10__absoluteERKNS1_4pathEPNS_10error_codeE"
++ "__ZNSt3__14__fs10filesystem11__canonicalERKNS1_4pathEPNS_10error_codeE"
++ "__ZNSt3__14__fs10filesystem11__copy_fileERKNS1_4pathES4_NS1_12copy_optionsEPNS_10error_codeE"
++ "__ZNSt3__14__fs10filesystem11__file_sizeERKNS1_4pathEPNS_10error_codeE"
++ "__ZNSt3__14__fs10filesystem12__equivalentERKNS1_4pathES4_PNS_10error_codeE"
++ "__ZNSt3__14__fs10filesystem12__remove_allERKNS1_4pathEPNS_10error_codeE"
++ "__ZNSt3__14__fs10filesystem13__fs_is_emptyERKNS1_4pathEPNS_10error_codeE"
++ "__ZNSt3__14__fs10filesystem13__permissionsERKNS1_4pathENS1_5permsENS1_12perm_optionsEPNS_10error_codeE"
++ "__ZNSt3__14__fs10filesystem13__resize_fileERKNS1_4pathEmPNS_10error_codeE"
++ "__ZNSt3__14__fs10filesystem14__copy_symlinkERKNS1_4pathES4_PNS_10error_codeE"
++ "__ZNSt3__14__fs10filesystem14__current_pathEPNS_10error_codeE"
++ "__ZNSt3__14__fs10filesystem14__current_pathERKNS1_4pathEPNS_10error_codeE"
++ "__ZNSt3__14__fs10filesystem14__read_symlinkERKNS1_4pathEPNS_10error_codeE"
++ "__ZNSt3__14__fs10filesystem16__create_symlinkERKNS1_4pathES4_PNS_10error_codeE"
++ "__ZNSt3__14__fs10filesystem16__symlink_statusERKNS1_4pathEPNS_10error_codeE"
++ "__ZNSt3__14__fs10filesystem17__hard_link_countERKNS1_4pathEPNS_10error_codeE"
++ "__ZNSt3__14__fs10filesystem17__last_write_timeERKNS1_4pathENS_6chrono10time_pointINS1_16_FilesystemClockENS5_8durationInNS_5ratioILl1ELl1000000000EEEEEEEPNS_10error_codeE"
++ "__ZNSt3__14__fs10filesystem17__last_write_timeERKNS1_4pathEPNS_10error_codeE"
++ "__ZNSt3__14__fs10filesystem18__create_directoryERKNS1_4pathEPNS_10error_codeE"
++ "__ZNSt3__14__fs10filesystem18__create_directoryERKNS1_4pathES4_PNS_10error_codeE"
++ "__ZNSt3__14__fs10filesystem18__create_hard_linkERKNS1_4pathES4_PNS_10error_codeE"
++ "__ZNSt3__14__fs10filesystem18__weakly_canonicalERKNS1_4pathEPNS_10error_codeE"
++ "__ZNSt3__14__fs10filesystem18directory_iterator11__incrementEPNS_10error_codeE"
++ "__ZNSt3__14__fs10filesystem18directory_iteratorC1ERKNS1_4pathEPNS_10error_codeENS1_17directory_optionsE"
++ "__ZNSt3__14__fs10filesystem20__create_directoriesERKNS1_4pathEPNS_10error_codeE"
++ "__ZNSt3__14__fs10filesystem21__temp_directory_pathEPNS_10error_codeE"
++ "__ZNSt3__14__fs10filesystem26__create_directory_symlinkERKNS1_4pathES4_PNS_10error_codeE"
++ "__ZNSt3__14__fs10filesystem28recursive_directory_iterator11__incrementEPNS_10error_codeE"
++ "__ZNSt3__14__fs10filesystem28recursive_directory_iteratorC1ERKNS1_4pathENS1_17directory_optionsEPNS_10error_codeE"
++ "__ZNSt3__14__fs10filesystem6__copyERKNS1_4pathES4_NS1_12copy_optionsEPNS_10error_codeE"
++ "__ZNSt3__14__fs10filesystem7__spaceERKNS1_4pathEPNS_10error_codeE"
++ "__ZNSt3__14__fs10filesystem8__removeERKNS1_4pathEPNS_10error_codeE"
++ "__ZNSt3__14__fs10filesystem8__renameERKNS1_4pathES4_PNS_10error_codeE"
++ "__ZNSt3__14__fs10filesystem8__statusERKNS1_4pathEPNS_10error_codeE"
++ "__ZNSt3__14cerrE"
++ "__ZNSt3__14clogE"
++ "__ZNSt3__14coutE"
++ "__ZNSt3__15ctypeIcE13classic_tableEv"
++ "__ZNSt3__15ctypeIcE2idE"
++ "__ZNSt3__15ctypeIcEC1EPKjbm"
++ "__ZNSt3__15ctypeIwE2idE"
++ "__ZNSt3__16locale14__install_ctorERKS0_PNS0_5facetEl"
++ "__ZNSt3__16locale2id5__getEv"
++ "__ZNSt3__16locale5facet16__on_zero_sharedEv"
++ "__ZNSt3__16locale5facetD2Ev"
++ "__ZNSt3__16locale7classicEv"
++ "__ZNSt3__16localeC1EPKc"
++ "__ZNSt3__16localeC1ERKS0_"
++ "__ZNSt3__16localeC1Ev"
++ "__ZNSt3__16localeD1Ev"
++ "__ZNSt3__16localeaSERKS0_"
++ "__ZNSt3__17codecvtIDiDu11__mbstate_tE2idE"
++ "__ZNSt3__17codecvtIDic11__mbstate_tED2Ev"
++ "__ZNSt3__17codecvtIDsc11__mbstate_tED2Ev"
++ "__ZNSt3__17codecvtIcc11__mbstate_tE2idE"
++ "__ZNSt3__17codecvtIcc11__mbstate_tED2Ev"
++ "__ZNSt3__17codecvtIwc11__mbstate_tE2idE"
++ "__ZNSt3__17codecvtIwc11__mbstate_tEC2Em"
++ "__ZNSt3__17codecvtIwc11__mbstate_tED2Ev"
++ "__ZNSt3__17collateIcE2idE"
++ "__ZNSt3__17collateIwE2idE"
++ "__ZNSt3__17num_getIcNS_19istreambuf_iteratorIcNS_11char_traitsIcEEEEE2idE"
++ "__ZNSt3__18ios_base2inE"
++ "__ZNSt3__18ios_base33__set_badbit_and_consider_rethrowEv"
++ "__ZNSt3__18ios_base4InitC1Ev"
++ "__ZNSt3__18ios_base4InitD1Ev"
++ "__ZNSt3__18ios_base4initEPv"
++ "__ZNSt3__18ios_base4moveERS0_"
++ "__ZNSt3__18ios_base4swapERS0_"
++ "__ZNSt3__18ios_base5clearEj"
++ "__ZNSt3__18ios_base5imbueERKNS_6localeE"
++ "__ZNSt3__18ios_base5iwordEi"
++ "__ZNSt3__18ios_base6xallocEv"
++ "__ZNSt3__18ios_base7failureC1EPKcRKNS_10error_codeE"
++ "__ZNSt3__18ios_base7failureC2EPKcRKNS_10error_codeE"
++ "__ZNSt3__18ios_base7failureD1Ev"
++ "__ZNSt3__18ios_base7failureD2Ev"
++ "__ZNSt3__18messagesIcE2idE"
++ "__ZNSt3__18numpunctIcE2idE"
++ "__ZNSt3__18time_getIcNS_19istreambuf_iteratorIcNS_11char_traitsIcEEEEE2idE"
++ "__ZNSt3__18time_putIcNS_19ostreambuf_iteratorIcNS_11char_traitsIcEEEEE2idE"
++ "__ZNSt3__19basic_iosIcNS_11char_traitsIcEEED2Ev"
++ "__ZNSt3__19basic_iosIwNS_11char_traitsIwEEED2Ev"
++ "__ZNSt3__19strstreamD1Ev"
++ "__ZSt7nothrow"
++ "__ZTINSt3__111regex_errorE"
++ "__ZTINSt3__112bad_weak_ptrE"
++ "__ZTINSt3__112future_errorE"
++ "__ZTINSt3__112system_errorE"
++ "__ZTINSt3__113basic_istreamIcNS_11char_traitsIcEEEE"
++ "__ZTINSt3__113basic_istreamIwNS_11char_traitsIwEEEE"
++ "__ZTINSt3__113basic_ostreamIcNS_11char_traitsIcEEEE"
++ "__ZTINSt3__113basic_ostreamIwNS_11char_traitsIwEEEE"
++ "__ZTINSt3__114__codecvt_utf8IDiEE"
++ "__ZTINSt3__114__codecvt_utf8IDsEE"
++ "__ZTINSt3__114__codecvt_utf8IwEE"
++ "__ZTINSt3__114basic_iostreamIcNS_11char_traitsIcEEEE"
++ "__ZTINSt3__114basic_ofstreamIcNS_11char_traitsIcEEEE"
++ "__ZTINSt3__114error_categoryE"
++ "__ZTINSt3__115basic_streambufIcNS_11char_traitsIcEEEE"
++ "__ZTINSt3__115basic_streambufIwNS_11char_traitsIwEEEE"
++ "__ZTINSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEEE"
++ "__ZTINSt3__117__assoc_sub_stateE"
++ "__ZTINSt3__119__shared_weak_countE"
++ "__ZTINSt3__119basic_ostringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEE"
++ "__ZTINSt3__120__codecvt_utf8_utf16IDsEE"
++ "__ZTINSt3__120__codecvt_utf8_utf16IwEE"
++ "__ZTINSt3__13pmr15memory_resourceE"
++ "__ZTINSt3__14__fs10filesystem16filesystem_errorE"
++ "__ZTINSt3__16locale5facetE"
++ "__ZTINSt3__17codecvtIcc11__mbstate_tEE"
++ "__ZTINSt3__17codecvtIwc11__mbstate_tEE"
++ "__ZTINSt3__18ios_base7failureE"
++ "__ZTISt12bad_any_cast"
++ "__ZTISt16nested_exception"
++ "__ZTISt18bad_variant_access"
++ "__ZTISt19bad_optional_access"
++ "__ZTTNSt3__110istrstreamE"
++ "__ZTTNSt3__114basic_ifstreamIcNS_11char_traitsIcEEEE"
++ "__ZTTNSt3__114basic_ofstreamIcNS_11char_traitsIcEEEE"
++ "__ZTTNSt3__118basic_stringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEE"
++ "__ZTTNSt3__119basic_istringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEE"
++ "__ZTTNSt3__119basic_ostringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEE"
++ "__ZTTNSt3__19strstreamE"
++ "__ZTVNSt3__110istrstreamE"
++ "__ZTVNSt3__111regex_errorE"
++ "__ZTVNSt3__112bad_weak_ptrE"
++ "__ZTVNSt3__112future_errorE"
++ "__ZTVNSt3__112system_errorE"
++ "__ZTVNSt3__113basic_istreamIcNS_11char_traitsIcEEEE"
++ "__ZTVNSt3__113basic_ostreamIcNS_11char_traitsIcEEEE"
++ "__ZTVNSt3__114__shared_countE"
++ "__ZTVNSt3__114basic_ifstreamIcNS_11char_traitsIcEEEE"
++ "__ZTVNSt3__114basic_ofstreamIcNS_11char_traitsIcEEEE"
++ "__ZTVNSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEEE"
++ "__ZTVNSt3__116__narrow_to_utf8ILm16EEE"
++ "__ZTVNSt3__117__assoc_sub_stateE"
++ "__ZTVNSt3__118basic_stringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEE"
++ "__ZTVNSt3__119__shared_weak_countE"
++ "__ZTVNSt3__119basic_istringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEE"
++ "__ZTVNSt3__119basic_ostringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEE"
++ "__ZTVNSt3__14__fs10filesystem16filesystem_errorE"
++ "__ZTVNSt3__17num_getIcNS_19istreambuf_iteratorIcNS_11char_traitsIcEEEEEE"
++ "__ZTVNSt3__18ios_base7failureE"
++ "__ZTVNSt3__18ios_baseE"
++ "__ZTVNSt3__19basic_iosIcNS_11char_traitsIcEEEE"
++ "__ZTVNSt3__19strstreamE"
++ "__ZTVSt12bad_any_cast"
++ "__ZTVSt18bad_variant_access"
++ "__ZTVSt19bad_optional_access"
++ "__ZThn16_NSt3__114basic_iostreamIcNS_11char_traitsIcEEED0Ev"
++ "__ZThn16_NSt3__114basic_iostreamIcNS_11char_traitsIcEEED1Ev"
++ "__ZTv0_n24_NSt3__113basic_istreamIcNS_11char_traitsIcEEED0Ev"
++ "__ZTv0_n24_NSt3__113basic_istreamIcNS_11char_traitsIcEEED1Ev"
++ "__ZTv0_n24_NSt3__113basic_istreamIwNS_11char_traitsIwEEED0Ev"
++ "__ZTv0_n24_NSt3__113basic_istreamIwNS_11char_traitsIwEEED1Ev"
++ "__ZTv0_n24_NSt3__113basic_ostreamIcNS_11char_traitsIcEEED0Ev"
++ "__ZTv0_n24_NSt3__113basic_ostreamIcNS_11char_traitsIcEEED1Ev"
++ "__ZTv0_n24_NSt3__113basic_ostreamIwNS_11char_traitsIwEEED0Ev"
++ "__ZTv0_n24_NSt3__113basic_ostreamIwNS_11char_traitsIwEEED1Ev"
++ "__ZTv0_n24_NSt3__114basic_iostreamIcNS_11char_traitsIcEEED0Ev"
++ "__ZTv0_n24_NSt3__114basic_iostreamIcNS_11char_traitsIcEEED1Ev"
++ "_kVTCompressionPropertyKey_AllowOpenGOP"
++ "_kVTCompressionPropertyKey_AverageBitRate"
++ "_kVTCompressionPropertyKey_AverageDataRate"
++ "_kVTCompressionPropertyKey_BaseLayerBitRateFraction"
++ "_kVTCompressionPropertyKey_BaseLayerFrameRate"
++ "_kVTCompressionPropertyKey_BaseLayerFrameRateFraction"
++ "_kVTCompressionPropertyKey_CleanAperture"
++ "_kVTCompressionPropertyKey_ColorPrimaries"
++ "_kVTCompressionPropertyKey_ConvergenceDurationForAverageDataRate"
++ "_kVTCompressionPropertyKey_DataRateLimits"
++ "_kVTCompressionPropertyKey_Depth"
++ "_kVTCompressionPropertyKey_ExpectedDuration"
++ "_kVTCompressionPropertyKey_ExpectedFrameRate"
++ "_kVTCompressionPropertyKey_FieldCount"
++ "_kVTCompressionPropertyKey_FieldDetail"
++ "_kVTCompressionPropertyKey_FrameRateTargetForAverageBitrate"
++ "_kVTCompressionPropertyKey_GammaLevel"
++ "_kVTCompressionPropertyKey_HDRMetadataInsertionMode"
++ "_kVTCompressionPropertyKey_ICCProfile"
++ "_kVTCompressionPropertyKey_MaxFrameDelayCount"
++ "_kVTCompressionPropertyKey_MoreFramesAfterEnd"
++ "_kVTCompressionPropertyKey_MoreFramesBeforeStart"
++ "_kVTCompressionPropertyKey_OutputBitDepth"
++ "_kVTCompressionPropertyKey_PixelAspectRatio"
++ "_kVTCompressionPropertyKey_ProfileLevel"
++ "_kVTCompressionPropertyKey_Quality"
++ "_kVTCompressionPropertyKey_RelaxAverageBitRateTarget"
++ "_kVTCompressionPropertyKey_RequestedMaxEncoderLatency"
++ "_kVTCompressionPropertyKey_SourceFrameCount"
++ "_kVTCompressionPropertyKey_TotalByteBudget"
++ "_kVTCompressionPropertyKey_TransferFunction"
++ "_kVTCompressionPropertyKey_YCbCrMatrix"
++ "_kVTHDRMetadataInsertionMode_Auto"
++ "_kVTHDRMetadataInsertionMode_None"
++ "_kVTProfileLevel_H263_Profile0_Level10"
++ "_kVTProfileLevel_H263_Profile0_Level45"
++ "_kVTProfileLevel_H263_Profile3_Level45"
++ "_kVTProfileLevel_H264_Baseline_1_3"
++ "_kVTProfileLevel_H264_Baseline_3_0"
++ "_kVTProfileLevel_H264_Baseline_3_1"
++ "_kVTProfileLevel_H264_Baseline_3_2"
++ "_kVTProfileLevel_H264_Baseline_4_1"
++ "_kVTProfileLevel_H264_Baseline_4_2"
++ "_kVTProfileLevel_H264_Baseline_5_0"
++ "_kVTProfileLevel_H264_Baseline_5_1"
++ "_kVTProfileLevel_H264_Baseline_5_2"
++ "_kVTProfileLevel_H264_Baseline_AutoLevel"
++ "_kVTProfileLevel_H264_ConstrainedBaseline_AutoLevel"
++ "_kVTProfileLevel_H264_ConstrainedHigh_AutoLevel"
++ "_kVTProfileLevel_H264_Extended_AutoLevel"
++ "_kVTProfileLevel_H264_High422_AutoLevel"
++ "_kVTProfileLevel_H264_High444Predictive_AutoLevel"
++ "_kVTProfileLevel_H264_High_3_0"
++ "_kVTProfileLevel_H264_High_3_1"
++ "_kVTProfileLevel_H264_High_3_2"
++ "_kVTProfileLevel_H264_High_4_0"
++ "_kVTProfileLevel_H264_High_4_1"
++ "_kVTProfileLevel_H264_High_4_2"
++ "_kVTProfileLevel_H264_High_5_0"
++ "_kVTProfileLevel_H264_High_5_1"
++ "_kVTProfileLevel_H264_High_5_2"
++ "_kVTProfileLevel_H264_High_AutoLevel"
++ "_kVTProfileLevel_H264_Main_3_0"
++ "_kVTProfileLevel_H264_Main_3_1"
++ "_kVTProfileLevel_H264_Main_3_2"
++ "_kVTProfileLevel_H264_Main_4_0"
++ "_kVTProfileLevel_H264_Main_4_1"
++ "_kVTProfileLevel_H264_Main_4_2"
++ "_kVTProfileLevel_H264_Main_5_0"
++ "_kVTProfileLevel_H264_Main_5_1"
++ "_kVTProfileLevel_H264_Main_5_2"
++ "_kVTProfileLevel_H264_Main_AutoLevel"
++ "_kVTProfileLevel_HEVC_Main10_AutoLevel"
++ "_kVTProfileLevel_HEVC_Main42210_AutoLevel"
++ "_kVTProfileLevel_HEVC_Main44410_AutoLevel"
++ "_kVTProfileLevel_HEVC_Main444_AutoLevel"
++ "_kVTProfileLevel_HEVC_MainStill_AutoLevel"
++ "_kVTProfileLevel_HEVC_Main_AutoLevel"
++ "_kVTProfileLevel_HEVC_Monochrome10_AutoLevel"
++ "_kVTProfileLevel_HEVC_Monochrome_AutoLevel"
++ "meReordering"
++ "ystemGlyphTouchIDKey"
+
+```

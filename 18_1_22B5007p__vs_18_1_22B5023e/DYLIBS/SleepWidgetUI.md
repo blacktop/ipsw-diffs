@@ -1,0 +1,151 @@
+## SleepWidgetUI
+
+> `/System/Library/PrivateFrameworks/SleepWidgetUI.framework/SleepWidgetUI`
+
+```diff
+
+-5132.0.0.0.0
+-  __TEXT.__text: 0x876fc
+-  __TEXT.__auth_stubs: 0x1c70
+-  __TEXT.__const: 0x3170
++5200.1.3.0.0
++  __TEXT.__text: 0x86ea4
++  __TEXT.__auth_stubs: 0x1c60
++  __TEXT.__const: 0x3190
+   __TEXT.__cstring: 0xa4d
+   __TEXT.__constg_swiftt: 0x11d0
+   __TEXT.__swift5_typeref: 0x140c
+
+   __TEXT.__oslogstring: 0xbd4
+   __TEXT.__swift5_mpenum: 0x8
+   __TEXT.__swift5_protos: 0x14
+-  __TEXT.__unwind_info: 0x14a0
+-  __TEXT.__eh_frame: 0x3a0
++  __TEXT.__unwind_info: 0x1498
++  __TEXT.__eh_frame: 0x330
+   __TEXT.__objc_methname: 0x435
+-  __DATA_CONST.__got: 0x800
+-  __DATA_CONST.__const: 0x120
++  __DATA_CONST.__got: 0x810
++  __DATA_CONST.__const: 0x160
+   __DATA_CONST.__objc_classlist: 0x10
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_selrefs: 0x1d8
+-  __AUTH_CONST.__auth_got: 0xe38
+-  __AUTH_CONST.__auth_ptr: 0x8c0
++  __AUTH_CONST.__auth_got: 0xe30
++  __AUTH_CONST.__auth_ptr: 0x8a0
+   __AUTH_CONST.__const: 0x1680
+   __AUTH_CONST.__objc_const: 0x120
+-  __AUTH.__data: 0x9c8
+-  __DATA.__data: 0xd58
++  __AUTH.__data: 0x930
++  __DATA.__data: 0xd10
+   __DATA.__bss: 0x1e20
+   __DATA.__common: 0x18
+-  __DATA_DIRTY.__data: 0x13e0
++  __DATA_DIRTY.__data: 0x14c0
+   __DATA_DIRTY.__bss: 0x1180
+   __DATA_DIRTY.__common: 0x28
+   - /System/Library/Frameworks/AppIntents.framework/AppIntents
+
+   - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
+   - /usr/lib/swift/libswiftWebKit.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
++  - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
++  - /usr/lib/swift/libswift_errno.dylib
++  - /usr/lib/swift/libswift_math.dylib
++  - /usr/lib/swift/libswift_signal.dylib
++  - /usr/lib/swift/libswift_stdio.dylib
++  - /usr/lib/swift/libswift_time.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 1944
+-  Symbols:   216
+-  CStrings:  0
++  - /usr/lib/swift/libswiftsys_time.dylib
++  - /usr/lib/swift/libswiftunistd.dylib
++  Functions: 1943
++  Symbols:   222
++  CStrings:  65
+ 
+Symbols:
++ __swift_FORCE_LOAD_$_swift_Builtin_float
++ __swift_FORCE_LOAD_$_swift_errno
++ __swift_FORCE_LOAD_$_swift_math
++ __swift_FORCE_LOAD_$_swift_signal
++ __swift_FORCE_LOAD_$_swift_stdio
++ __swift_FORCE_LOAD_$_swift_time
++ __swift_FORCE_LOAD_$_swiftsys_time
++ __swift_FORCE_LOAD_$_swiftunistd
+- _swift_continuation_await
+- _swift_continuation_init
+CStrings:
++ "__ZN4llvm10RegionBaseINS_12RegionTraitsINS_8FunctionEEEE6blocksEv"
++ "__ZN4llvm11PassManagerINS_13LazyCallGraph3SCCENS_15AnalysisManagerIS2_JRS1_EEEJS4_RNS_17CGSCCUpdateResultEEE3runERS2_RS5_S4_S7_"
++ "__ZN4llvm13CallGraphNode19removeAnyCallEdgeToEPS0_"
++ "__ZN4llvm14RegionInfoBaseINS_12RegionTraitsINS_8FunctionEEEE14scanForRegionsERS2_PNS_8DenseMapIPNS_10BasicBlockES8_NS_12DenseMapInfoIS8_vEENS_6detail12DenseMapPairIS8_S8_EEEE"
++ "__ZN4llvm14RegionInfoBaseINS_12RegionTraitsINS_8FunctionEEEE20findRegionsWithEntryEPNS_10BasicBlockEPNS_8DenseMapIS6_S6_NS_12DenseMapInfoIS6_vEENS_6detail12DenseMapPairIS6_S6_EEEE"
++ "__ZN4llvm14RegionInfoBaseINS_12RegionTraitsINS_8FunctionEEEE9calculateERS2_"
++ "__ZN4llvm15AnalysisManagerINS_13LazyCallGraph3SCCEJRS1_EE10invalidateERS2_RKNS_17PreservedAnalysesE"
++ "__ZN4llvm15AnalysisManagerINS_13LazyCallGraph3SCCEJRS1_EE13getResultImplEPNS_11AnalysisKeyERS2_S3_"
++ "__ZN4llvm15AnalysisManagerINS_13LazyCallGraph3SCCEJRS1_EE5clearERS2_NS_9StringRefE"
++ "__ZN4llvm18initializeAnalysisERNS_12PassRegistryE"
++ "__ZN4llvm21FindFunctionBackedgesERKNS_8FunctionERNS_15SmallVectorImplINSt3__14pairIPKNS_10BasicBlockES8_EEEE"
++ "__ZN4llvm25AggressiveInstCombinePass3runERNS_8FunctionERNS_15AnalysisManagerIS1_JEEE"
++ "__ZN4llvm25OuterAnalysisManagerProxyINS_15AnalysisManagerINS_13LazyCallGraph3SCCEJRS2_EEENS_8FunctionEJEE6Result10invalidateERS6_RKNS_17PreservedAnalysesERNS1_IS6_JEE11InvalidatorE"
++ "__ZN4llvm25OuterAnalysisManagerProxyINS_15AnalysisManagerINS_6ModuleEJEEENS_13LazyCallGraph3SCCEJRS4_EE6Result10invalidateERS5_RKNS_17PreservedAnalysesERNS1_IS5_JS6_EE11InvalidatorE"
++ "__ZN4llvm25isIdentifiedFunctionLocalEPKNS_5ValueE"
++ "__ZN4llvm26CGSCCToFunctionPassAdaptor3runERNS_13LazyCallGraph3SCCERNS_15AnalysisManagerIS2_JRS1_EEES5_RNS_17CGSCCUpdateResultE"
++ "__ZN4llvm33ModuleToPostOrderCGSCCPassAdaptor3runERNS_6ModuleERNS_15AnalysisManagerIS1_JEEE"
++ "__ZN4llvm3AGX12CompileReply14getDiagnosticsEv"
++ "__ZN4llvm3AGX12CompileReply9getBinaryEv"
++ "__ZN4llvm3AGX12CompileReplyC1EOS1_"
++ "__ZN4llvm3AGX12CompileReplyD1Ev"
++ "__ZN4llvm3AGX14AGXCompilePlan20collectConfigurationERNS0_14CompileRequestE"
++ "__ZN4llvm3AGX14AGXCompilePlan7executeERNS0_14CompileRequestE"
++ "__ZN4llvm3AGX14CompileRequest11addSegmentsENS_8ArrayRefINSt3__112basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEEEE"
++ "__ZN4llvm3AGX14CompileRequest15addDMAListEntryEjjjj"
++ "__ZN4llvm3AGX14CompileRequest16setLoggingStreamERNSt3__113basic_ostreamIcNS2_11char_traitsIcEEEE"
++ "__ZN4llvm3AGX14CompileRequestC1ERNS_6ModuleENS0_14CodeGenOptionsENSt3__112basic_stringIcNS5_11char_traitsIcEENS5_9allocatorIcEEEEi"
++ "__ZN4llvm3AGX14CompileRequestC1ERNS_6ModuleENS0_14CodeGenOptionsENSt3__112basic_stringIcNS5_11char_traitsIcEENS5_9allocatorIcEEEEiPNS0_18TelemetryCollectorE"
++ "__ZN4llvm3AGX14CompileRequestD1Ev"
++ "__ZN4llvm3AGX18TelemetryCollector15startCollectionEv"
++ "__ZN4llvm3AGX18TelemetryCollector16finishCollectionEv"
++ "__ZN4llvm3AGX18TelemetryCollector6enableEv"
++ "__ZN4llvm3AGX18TelemetryCollectorC1Ev"
++ "__ZN4llvm3AGX18TelemetryCollectorD1Ev"
++ "__ZN4llvm3AGXlsERNS_11raw_ostreamERKNS0_10DiagnosticE"
++ "__ZN4llvm3AGXlsERNSt3__113basic_ostreamIcNS1_11char_traitsIcEEEERKNS0_10DiagnosticE"
++ "__ZN4llvm3air13AIVertexInput7getImplERNS_11LLVMContextEjPNS0_18AIFunctionConstantEjjNS_9StringRefES6_S6_bNS_8Metadata11StorageTypeEb"
++ "__ZN4llvm3air14AIRenderTarget7getImplERNS_11LLVMContextEjPNS0_18AIFunctionConstantENS0_18GeneralizedIntegerES6_NS_9StringRefES7_bNS_8Metadata11StorageTypeEb"
++ "__ZN4llvm3air14AIVisibleInput7getImplERNS_11LLVMContextEjNS_9StringRefES4_NS_8Metadata11StorageTypeEb"
++ "__ZN4llvm3air15AIFragmentInput7getImplERNS_11LLVMContextEjPNS0_18AIFunctionConstantENS_9StringRefENS_8OptionalIjEENS0_19AISamplingQualifierENS0_24AIInterpolationQualifierES6_S6_bNS_8Metadata11StorageTypeEb"
++ "__ZN4llvm3air15AIStitchingInfo7getImplERNS_11LLVMContextEPNS0_15AIStitchingTypeENS_8ArrayRefIPNS0_19AIStitchingArgumentEEENS_8Metadata11StorageTypeEb"
++ "__ZN4llvm3air15AIStitchingType7getImplERNS_11LLVMContextEPNS0_6AITypeEPNS_8FunctionES7_S7_S7_NS_8Metadata11StorageTypeEb"
++ "__ZN4llvm3air16AIKernelFunction7getImplERNS_11LLVMContextEPNS_8FunctionENS_24MDTupleTypedArrayWrapperINS0_12AIReturnTypeEEENS6_INS0_10AIArgumentEEEPNS0_13AIVecTypeHintEPNS0_15AIWorkgroupSizeEPNS0_19AIWorkgroupSizeHintEPNS0_18AIWorkgroupMaxSizeENS_8Metadata11StorageTypeEb"
++ "__ZN4llvm3air18AIFragmentFunction7getImplERNS_11LLVMContextEPNS_8FunctionENS_24MDTupleTypedArrayWrapperINS0_12AIReturnTypeEEENS6_INS0_10AIArgumentEEEbNS_8Metadata11StorageTypeEb"
++ "__ZN4llvm3air18AIIndirectConstant7getImplERNS_11LLVMContextEjPNS0_18AIFunctionConstantENS0_18GeneralizedIntegerEjNS_9StringRefES7_bNS_8Metadata11StorageTypeEb"
++ "__ZN4llvm3air19AIStitchingArgument7getImplERNS_11LLVMContextEPNS0_15AIStitchingTypeENS_9StringRefENS_8Metadata11StorageTypeEb"
++ "__ZN4llvm3air22AIIntersectionFunction7getImplERNS_11LLVMContextEPNS_8FunctionENS_24MDTupleTypedArrayWrapperINS0_12AIReturnTypeEEENS6_INS0_10AIArgumentEEENS0_15AIPrimitiveKindEbNS_8OptionalIjEEbbbbbbNS_8Metadata11StorageTypeEb"
++ "__ZN4llvm3air9AIPayload7getImplERNS_11LLVMContextEjPNS0_18AIFunctionConstantENS0_8TypeInfoEjjNS_9StringRefES7_bNS_8Metadata11StorageTypeEb"
++ "__ZN4llvm3air9AISampler7getImplERNS_11LLVMContextEjPNS0_18AIFunctionConstantENS0_18GeneralizedIntegerES6_NS_9StringRefES7_bNS_8Metadata11StorageTypeEb"
++ "__ZN4llvm3air9AITexture7getImplERNS_11LLVMContextEjPNS0_18AIFunctionConstantENS0_18GeneralizedIntegerES6_NS0_17AIAccessQualifierES6_NS_9StringRefES8_bNS_8Metadata11StorageTypeEb"
++ "__ZN4llvm9AAResults17getModRefBehaviorEPKNS_8CallBaseE"
++ "__ZN4llvm9CallGraph19getOrInsertFunctionEPKNS_8FunctionE"
++ "__ZN4llvm9CallGraph24removeFunctionFromModuleEPNS_13CallGraphNodeE"
++ "__ZN4llvm9CallGraphC1ERNS_6ModuleE"
++ "__ZN4llvm9CallGraphD1Ev"
++ "__ZNK4llvm14RegionInfoBaseINS_12RegionTraitsINS_8FunctionEEEE11verifyBBMapEPKNS_6RegionE"
++ "__ZNK4llvm14RegionInfoBaseINS_12RegionTraitsINS_8FunctionEEEE14getNextPostDomEPNS_15DomTreeNodeBaseINS_10BasicBlockEEEPNS_8DenseMapIPS6_SA_NS_12DenseMapInfoISA_vEENS_6detail12DenseMapPairISA_SA_EEEE"
++ "__ZNK4llvm14RegionInfoBaseINS_12RegionTraitsINS_8FunctionEEEE19isCommonDomFrontierEPNS_10BasicBlockES6_S6_"
++ "__ZNK4llvm14RegionInfoBaseINS_12RegionTraitsINS_8FunctionEEEE8isRegionEPNS_10BasicBlockES6_"
++ "__ZNK4llvm15AnalysisManagerINS_13LazyCallGraph3SCCEJRS1_EE19getCachedResultImplEPNS_11AnalysisKeyERS2_"
++ "__ZNK4llvm3AGX12CompileReply7isValidEv"
++ "__ZNK4llvm3AGX18TelemetryCollector9fetchDataEv"
++ "essageEv"
++ "r19AIControlPointInput7getImplERNS_11LLVMContextEjPNS0_18AIFunctionConstantEPNS0_22AIControlPointFunctionENS_8ArrayRefIPNS0_11AIFieldDescEEEbNS_8Metadata11StorageTypeEb"
++ "unctionEEEE12addSubRegionEPNS_6RegionEb"
+
+```

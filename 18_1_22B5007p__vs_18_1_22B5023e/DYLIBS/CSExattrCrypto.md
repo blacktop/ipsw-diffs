@@ -1,0 +1,127 @@
+## CSExattrCrypto
+
+> `/System/Library/PrivateFrameworks/CSExattrCrypto.framework/CSExattrCrypto`
+
+```diff
+
+-2312.1.0.4.0
+-  __TEXT.__text: 0x8778
++2314.2.0.0.0
++  __TEXT.__text: 0x8814
+   __TEXT.__auth_stubs: 0x9d0
+   __TEXT.__objc_methlist: 0x2b8
+-  __TEXT.__const: 0x130
++  __TEXT.__const: 0x120
+   __TEXT.__cstring: 0xa4b
+   __TEXT.__oslogstring: 0x19f
+   __TEXT.__gcc_except_tab: 0xf8
+
+   - /usr/lib/libobjc.A.dylib
+   Functions: 144
+   Symbols:   359
+-  CStrings:  0
++  CStrings:  100
+ 
+CStrings:
++ "64Vvs"
++ "API39Apple_Parsec_Siri_V2alpha_AudioItemTypeOMa"
++ "_$s10PegasusAPI026Apple_Parsec_Siri_V2alpha_A11SearchQueryV13profileSlicesSayAA0c1_d1_e1_F13_ProfileSliceVGvM"
++ "_$s10PegasusAPI026Apple_Parsec_Siri_V2alpha_A11SearchQueryV13profileSlicesSayAA0c1_d1_e1_F13_ProfileSliceVGvg"
++ "_$s10PegasusAPI026Apple_Parsec_Siri_V2alpha_A11SearchQueryV18asrInterpretationsSayAA0c1_d1_e1_F18_ASRInterpretationVGvs"
++ "_$s10PegasusAPI026Apple_Parsec_Siri_V2alpha_A11SearchQueryV19rewrittenUtterancesSayAA0c1_d1_e1_F19_RewrittenUtteranceVGvg"
++ "_$s10PegasusAPI026Apple_Parsec_Siri_V2alpha_A11SearchQueryV7queryIDSSvs"
++ "_$s10PegasusAPI026Apple_Parsec_Siri_V2alpha_A11SearchQueryV9utteranceSSvs"
++ "_$s10PegasusAPI026Apple_Parsec_Siri_V2alpha_A11SearchQueryVACycfC"
++ "_$s10PegasusAPI026Apple_Parsec_Siri_V2alpha_A11SearchQueryVMa"
++ "_$s10PegasusAPI027Apple_Parsec_Multimodal_V1_E7RequestV12queryContextAA0c1_d8_Search_a5QueryI0Vvg"
++ "_$s10PegasusAPI027Apple_Parsec_Multimodal_V1_E7RequestV12queryContextAA0c1_d8_Search_a5QueryI0Vvs"
++ "_$s10PegasusAPI027Apple_Parsec_Multimodal_V1_E7RequestV12visualSignalAA0c1_d1_e1_f7_VisualI0Vvs"
++ "_$s10PegasusAPI027Apple_Parsec_Multimodal_V1_E7RequestV13textualSignalAA0c1_d1_e1_f8_TextualI0Vvs"
++ "_$s10PegasusAPI027Apple_Parsec_Multimodal_V1_E7RequestV7queryIDs6UInt64Vvg"
++ "_$s10PegasusAPI027Apple_Parsec_Multimodal_V1_E7RequestV7queryIDs6UInt64Vvs"
++ "_$s10PegasusAPI027Apple_Parsec_Multimodal_V1_E7RequestVMa"
++ "_$s10PegasusAPI027Apple_Parsec_Multimodal_V1_E8ResponseV10statusCodeAA0c1_d14_Search_StatusI0Ovg"
++ "_$s10PegasusAPI027Apple_Parsec_Multimodal_V1_E8ResponseV17sectionRenderingsSayAA0c1_d1_e1_F17_SectionRenderingVGvg"
++ "_$s10PegasusAPI027Apple_Parsec_Multimodal_V1_E8ResponseVMa"
++ "_$s10PegasusAPI028Apple_Parsec_Search_V1alpha_E6ResultV12templateTypeAA0c1_d1_e1_f9_TemplateI0Ovg"
++ "_$s10PegasusAPI028Apple_Parsec_Search_V1alpha_E6ResultV6domainSSvg"
++ "_$s10PegasusAPI028Apple_Parsec_Search_V1alpha_E6ResultVMa"
++ "_$s10PegasusAPI16Locationpb_PointV3latSdvs"
++ "_$s10PegasusAPI16Locationpb_PointV3lngSdvs"
++ "_$s10PegasusAPI16Locationpb_PointVACycfC"
++ "_$s10PegasusAPI16Locationpb_PointVMa"
++ "_$s10PegasusAPI19Locationpb_LocationV3latSfvg"
++ "_$s10PegasusAPI19Locationpb_LocationV3lonSfvg"
++ "_$s10PegasusAPI19Locationpb_LocationVMa"
++ "_$s10PegasusAPI21Snippetpb_FoodSnippetV13description_pSSvg"
++ "_$s10PegasusAPI21Snippetpb_FoodSnippetV18caloriesPerServings5Int32Vvg"
++ "_$s10PegasusAPI21Snippetpb_FoodSnippetV3urlSSvg"
++ "_$s10PegasusAPI21Snippetpb_FoodSnippetV5titleSSvg"
++ "_$s10PegasusAPI21Snippetpb_FoodSnippetV8imageURLSSvg"
++ "_$s10PegasusAPI21Snippetpb_FoodSnippetV8servingss5Int32Vvg"
++ "_$s10PegasusAPI21Snippetpb_FoodSnippetVMa"
++ "_$s10PegasusAPI34Argos_Protos_Productdatapb_ProductV15productMetadataAA0c1_d1_e1_fH0Vvg"
++ "_$s10PegasusAPI34Argos_Protos_Productdatapb_ProductVMa"
++ "_$s10PegasusAPI35Apple_Parsec_Siri_V2alpha_AppResultV12cardSectionsSayAA28Searchfoundation_CardSectionVGvg"
++ "_$s10PegasusAPI35Apple_Parsec_Siri_V2alpha_AppResultV12cardSectionsSayAA28Searchfoundation_CardSectionVGvs"
++ "_$s10PegasusAPI35Apple_Parsec_Siri_V2alpha_AppResultV4nameSSvg"
++ "_$s10PegasusAPI35Apple_Parsec_Siri_V2alpha_AppResultV8bundleIDSSvg"
++ "_$s10PegasusAPI35Apple_Parsec_Siri_V2alpha_AppResultVMa"
++ "_$s10PegasusAPI35Apple_Parsec_Siri_V2alpha_AudioNounOMa"
++ "_$s10PegasusAPI35Apple_Parsec_Siri_V2alpha_AudioSortOMa"
++ "_$s10PegasusAPI36Apple_Parsec_Multimodal_V1_PlacementOMa"
++ "_$s10PegasusAPI36Apple_Parsec_Multimodal_V1_RenderingV8cardData21InternalSwiftProtobuf07Google_L4_AnyVvg"
++ "_$s10PegasusAPI36Apple_Parsec_Multimodal_V1_RenderingV8feedback10Foundation4DataVvg"
++ "_$s10PegasusAPI36Apple_Parsec_Multimodal_V1_RenderingVMa"
++ "_$s10PegasusAPI36Apple_Parsec_Siri_V1alpha_StatusCodeOMa"
++ "_$s10PegasusAPI37Apple_Parsec_Siri_V2alpha_AudioDecadeOMa"
++ "_$s10PegasusAPI37Apple_Parsec_Siri_V2alpha_RewriteTypeOMa"
++ "_$s10PegasusAPI39Apple_Parsec_Siri_V2alpha_AudioItemTypeO8rawValueSivg"
++ "_$s10PegasusAPI39Apple_Parsec_Siri_V2alpha_AudioModifierOMa"
++ "_$s10PegasusAPI40Apple_Parsec_Multimodal_V1_SectionResultV21renderingMetadataJsonSSvg"
++ "_$s10PegasusAPI40Apple_Parsec_Multimodal_V1_SectionResultV9placementAA0c1_d1_e1_F10_PlacementOvg"
++ "_$s10PegasusAPI40Apple_Parsec_Multimodal_V1_SectionResultV9renderingAA0c1_d1_e1_F10_RenderingVvg"
++ "_$s10PegasusAPI40Apple_Parsec_Multimodal_V1_SectionResultVMa"
++ "_$s10PegasusAPI40Apple_Parsec_Siri_V2alpha_AudioAttributeOMa"
++ "_$s10PegasusAPI40Apple_Parsec_Siri_V2alpha_AudioRadioTypeOMa"
++ "_$s10PegasusAPI40Apple_Parsec_Siri_V2alpha_AudioReferenceOMa"
++ "_$s10PegasusAPI42Apple_Parsec_Siri_V2alpha_ServerSuggestionV017hasAlternateQueryH0Sbvg"
++ "_$s10PegasusAPI42Apple_Parsec_Siri_V2alpha_ServerSuggestionVMa"
++ "_$s10PegasusAPI42Argos_Protos_Productdatapb_ProductMetadataV13description_pSSvg"
++ "_$s10PegasusAPI42Argos_Protos_Productdatapb_ProductMetadataV3skuSSvg"
++ "_$s10PegasusAPI42Argos_Protos_Productdatapb_ProductMetadataV4GtinV5valueSSvg"
++ "_$s10PegasusAPI42Argos_Protos_Productdatapb_ProductMetadataV4GtinVMa"
++ "_$s10PegasusAPI42Argos_Protos_Productdatapb_ProductMetadataV4gtinSayAC4GtinVGvg"
++ "_$s10PegasusAPI42Argos_Protos_Productdatapb_ProductMetadataV4nameSSvg"
++ "_$s10PegasusAPI42Argos_Protos_Productdatapb_ProductMetadataVMa"
++ "_$s10PegasusAPI43Apple_Parsec_Multimodal_V1_SectionRenderingV13sectionHeaderSSvg"
++ "_$s10PegasusAPI43Apple_Parsec_Multimodal_V1_SectionRenderingV15sectionBundleIDSSvg"
++ "_$s10PegasusAPI43Apple_Parsec_Multimodal_V1_SectionRenderingV26maxInitiallyVisibleResultss6UInt32Vvg"
++ "_$s10PegasusAPI43Apple_Parsec_Multimodal_V1_SectionRenderingVMa"
++ "_$s10PegasusAPI43Apple_Parsec_Siri_V2alpha_ASRInterpretationV11preItnTokenSayAA0c1_d1_e1_f15_InterpretationJ0VGvs"
++ "_$s10PegasusAPI43Apple_Parsec_Siri_V2alpha_ASRInterpretationVMa"
++ "_$s10PegasusAPI43Apple_Parsec_Siri_V2alpha_LibrarySearchTermV8itemTypeAA0c1_d1_e1_f10_AudioItemK0Ovg"
++ "_$s10PegasusAPI43Apple_Parsec_Siri_V2alpha_LibrarySearchTermV8itemTypeAA0c1_d1_e1_f10_AudioItemK0Ovs"
++ "_$s10PegasusAPI43Apple_Parsec_Siri_V2alpha_LibrarySearchTermV8queryStrSSvg"
++ "_$s10PegasusAPI43Apple_Parsec_Siri_V2alpha_LibrarySearchTermV8queryStrSSvs"
++ "_$s10PegasusAPI44Apple_Parsec_Siri_V2alpha_GeoObjectComponentV03geoH0SayAA26Mapspb_LocalSearchBusinessVGvg"
++ "_$s10PegasusAPI44Apple_Parsec_Siri_V2alpha_GeoObjectComponentVMa"
++ "_$s10PegasusAPI44Apple_Parsec_Siri_V2alpha_RequestedMediaTypeOMa"
++ "_$s10PegasusAPI44Apple_Parsec_Siri_V2alpha_RewrittenUtteranceV09rewrittenH0SSvs"
++ "_$s10PegasusAPI44Apple_Parsec_Siri_V2alpha_RewrittenUtteranceV11rewriteTypeAA0c1_d1_e1_f8_RewriteJ0Ovs"
++ "_$s10PegasusAPI44Apple_Parsec_Siri_V2alpha_RewrittenUtteranceVACycfC"
++ "_$s10PegasusAPI44Apple_Parsec_Siri_V2alpha_RewrittenUtteranceVMa"
++ "_$s10PegasusAPI45Apple_Parsec_Siri_V2alpha_AppsClientComponentV7resultsSayAA0c1_d1_e1_F10_AppResultVGvg"
++ "_$s10PegasusAPI45Apple_Parsec_Siri_V2alpha_AppsClientComponentVMa"
++ "_$s10PegasusAPI45Apple_Parsec_Siri_V2alpha_InterpretationTokenV12acousticCostSdvs"
++ "_$s10PegasusAPI45Apple_Parsec_Siri_V2alpha_InterpretationTokenV4textSSvs"
++ "_$s10PegasusAPI45Apple_Parsec_Siri_V2alpha_InterpretationTokenV9graphCostSdvs"
++ "_$s10PegasusAPI45Apple_Parsec_Siri_V2alpha_InterpretationTokenVMa"
++ "_$s10PegasusAPI48Apple_Parsec_Siri_V2alpha_ClientRankingOverridesV34libraryResultTypedScoreMultipliersSayAA0c1_d1_e1_f8_LibraryklM10MultiplierVGvg"
++ "_$s10PegasusAPI59Apple_Parsec_Siri_V2alpha_LibraryResultTypedScoreMultiplierV4typeAA0c1_d1_e1_F14_AudioItemTypeOvg"
++ "_$s10PegasusAPI59Apple_Parsec_Siri_V2alpha_LibraryResultTypedScoreMultiplierV9multiplerSfvg"
++ "ceVGvs"
++ "eScoreSdvs"
++ "e_Parsec_Multimodal_V1_SectionRenderingV14sectionResultsSayAA0c1_d1_e1_f1_G6ResultVGvg"
+
+```

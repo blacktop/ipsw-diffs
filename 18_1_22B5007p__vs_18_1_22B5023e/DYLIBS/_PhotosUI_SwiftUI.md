@@ -1,0 +1,483 @@
+## _PhotosUI_SwiftUI
+
+> `/System/Library/Frameworks/_PhotosUI_SwiftUI.framework/_PhotosUI_SwiftUI`
+
+```diff
+
+-710.1.103.0.0
+-  __TEXT.__text: 0x1d530
+-  __TEXT.__auth_stubs: 0x1120
++710.7.140.0.0
++  __TEXT.__text: 0x1d570
++  __TEXT.__auth_stubs: 0x1110
+   __TEXT.__objc_methlist: 0x50
+-  __TEXT.__const: 0x129c
++  __TEXT.__const: 0x12cc
+   __TEXT.__cstring: 0x3fc
+-  __TEXT.__constg_swiftt: 0xa58
+-  __TEXT.__swift5_typeref: 0x9f0
+-  __TEXT.__swift5_reflstr: 0x377
+-  __TEXT.__swift5_fieldmd: 0x37c
++  __TEXT.__constg_swiftt: 0xa9c
++  __TEXT.__swift5_typeref: 0xa06
++  __TEXT.__swift5_reflstr: 0x387
++  __TEXT.__swift5_fieldmd: 0x398
+   __TEXT.__swift5_builtin: 0x50
+   __TEXT.__swift5_assocty: 0x310
+-  __TEXT.__swift5_capture: 0x3f4
++  __TEXT.__swift5_capture: 0x2d4
+   __TEXT.__swift5_proto: 0xb4
+-  __TEXT.__swift5_types: 0x68
++  __TEXT.__swift5_types: 0x6c
+   __TEXT.__oslogstring: 0x85
+-  __TEXT.__unwind_info: 0x7d8
+-  __TEXT.__eh_frame: 0x5b8
++  __TEXT.__unwind_info: 0x7e0
++  __TEXT.__eh_frame: 0x598
+   __TEXT.__objc_methname: 0x304
+-  __DATA_CONST.__got: 0x260
+-  __DATA_CONST.__const: 0xb8
++  __DATA_CONST.__got: 0x270
++  __DATA_CONST.__const: 0xf8
+   __DATA_CONST.__objc_classlist: 0x10
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_selrefs: 0x108
+-  __AUTH_CONST.__auth_got: 0x890
+-  __AUTH_CONST.__auth_ptr: 0x3e8
+-  __AUTH_CONST.__const: 0xd28
++  __AUTH_CONST.__auth_got: 0x888
++  __AUTH_CONST.__auth_ptr: 0x3f8
++  __AUTH_CONST.__const: 0xab0
+   __AUTH_CONST.__objc_const: 0xe0
+   __AUTH.__objc_data: 0xe0
+   __AUTH.__data: 0x128
+-  __DATA.__data: 0x7a8
++  __DATA.__data: 0x830
+   __DATA.__bss: 0x16e0
+   __DATA_DIRTY.__objc_data: 0x50
+   __DATA_DIRTY.__data: 0x2d8
+
+   - /usr/lib/swift/libswiftSpatial.dylib
+   - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
++  - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
++  - /usr/lib/swift/libswift_errno.dylib
++  - /usr/lib/swift/libswift_math.dylib
++  - /usr/lib/swift/libswift_signal.dylib
++  - /usr/lib/swift/libswift_stdio.dylib
++  - /usr/lib/swift/libswift_time.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 891
+-  Symbols:   285
+-  CStrings:  48
++  - /usr/lib/swift/libswiftsys_time.dylib
++  - /usr/lib/swift/libswiftunistd.dylib
++  Functions: 875
++  Symbols:   288
++  CStrings:  340
+ 
+Symbols:
++ __swift_FORCE_LOAD_$_swift_Builtin_float
++ __swift_FORCE_LOAD_$_swift_errno
++ __swift_FORCE_LOAD_$_swift_math
++ __swift_FORCE_LOAD_$_swift_signal
++ __swift_FORCE_LOAD_$_swift_stdio
++ __swift_FORCE_LOAD_$_swift_time
++ __swift_FORCE_LOAD_$_swiftsys_time
++ __swift_FORCE_LOAD_$_swiftunistd
+- _objc_retain_x27
+- _swift_continuation_await
+- _swift_continuation_init
+CStrings:
++ "\x01"
++ "\x01"
++ "\x01"
++ "\x01J"
++ "\x02"
++ "\x02"
++ "\x02"
++ "\x02J"
++ "\x03"
++ "\x03"
++ "\x03"
++ "\x03J"
++ "\x04"
++ "\x04"
++ "\x04"
++ "\x04J"
++ "\x04\xb3"
++ "\x05"
++ "\x05J"
++ "\x06"
++ "\x06"
++ "\x06"
++ "\x06\xb3"
++ "\n"
++ "\n\xb3"
++ "\x10"
++ "\x1a\xb3"
++ "\x1c\xbd"
++ "\x1d\xbd"
++ "\x1e\xb3"
++ "\x1e\xbd"
++ "\x1f\xbd"
++ " \xb3"
++ " \xbd"
++ "!\xbd"
++ "\"\xb3"
++ "\"\xbd"
++ "#\xbd"
++ "$\xb3"
++ "$\xbd"
++ "%!\(MISSING)xbd"
++ "&\xb3"
++ "&\xbd"
++ "'\xbd"
++ "(\xbd"
++ ")\xbd"
++ "*\xb3"
++ "+\xbd"
++ "-\xbd"
++ "."
++ ".\xb3"
++ "0\xbd"
++ "1\xb3"
++ "3\xb3"
++ "3\xbd"
++ "4\xbd"
++ "5\xbd"
++ "6\xbd"
++ "7\xbd"
++ "8\xb3"
++ "8\xbd"
++ ":\xbd"
++ ";\xb3"
++ ";\xbd"
++ "<\xbd"
++ "=\xb3"
++ "?\xb3"
++ "A\xb3"
++ "B\xbd"
++ "C\xb3"
++ "D\xbd"
++ "E\xb3"
++ "G\xb3"
++ "H\xb3"
++ "H\xbd"
++ "J"
++ "J\xbd"
++ "L\xb3"
++ "L\xbd"
++ "M\xb3"
++ "N\xb3"
++ "N\xbd"
++ "O\xb3"
++ "P\xb3"
++ "P\xbd"
++ "R\xbd"
++ "T\xb3"
++ "T\xbd"
++ "VE"
++ "V\xb9"
++ "V\xbd"
++ "WE"
++ "XE"
++ "X\xbd"
++ "YE"
++ "ZE"
++ "Z\xb3"
++ "Z\xb9"
++ "Z\xbd"
++ "[E"
++ "\\E"
++ "\\\xbd"
++ "]E"
++ "]\xb9"
++ "]\xbd"
++ "^E"
++ "^\xb3"
++ "^\xbd"
++ "_E"
++ "_\xb9"
++ "_\xbd"
++ "`E"
++ "`\xb3"
++ "`\xb9"
++ "aE"
++ "bE"
++ "b\xb3"
++ "b\xb9"
++ "cE"
++ "c\xb3"
++ "c\xbd"
++ "dE"
++ "d\xb2"
++ "eE"
++ "e\xb3"
++ "fE"
++ "f\xb3"
++ "f\xb9"
++ "gE"
++ "g\xb9"
++ "g\xbd"
++ "hE"
++ "iE"
++ "i\xb9"
++ "i\xbd"
++ "jE"
++ "kE"
++ "k\xb9"
++ "lE"
++ "mE"
++ "m\xbd"
++ "nE"
++ "n\xbd"
++ "oE"
++ "o\xbd"
++ "pE"
++ "p\xbd"
++ "qE"
++ "q\xb9"
++ "q\xbd"
++ "rE"
++ "r\xbd"
++ "sE"
++ "s\xbd"
++ "tE"
++ "t\xbd"
++ "uE"
++ "u\xbd"
++ "vE"
++ "v\xbd"
++ "wE"
++ "w\xbd"
++ "xE"
++ "x\xbd"
++ "yE"
++ "y\xbd"
++ "zE"
++ "z\xbd"
++ "{E"
++ "{\xbd"
++ "|E"
++ "}E"
++ "~E"
++ "\x7fE"
++ "\x7f\xbd"
++ "\x80E"
++ "\x81E"
++ "\x82E"
++ "\x83E"
++ "\x83\xbd"
++ "\x84E"
++ "\x85E"
++ "\x85\xbd"
++ "\x86E"
++ "\x87E"
++ "\x87\xbd"
++ "\x88E"
++ "\x88\xbd"
++ "\x89E"
++ "\x8aE"
++ "\x8bE"
++ "\x8cE"
++ "\x8dE"
++ "\x8eE"
++ "\x8fE"
++ "\x90E"
++ "\x91E"
++ "\x92E"
++ "\x92\xb2"
++ "\x93E"
++ "\x93\xb2"
++ "\x94E"
++ "\x94\xb2"
++ "\x95E"
++ "\x96E"
++ "\x96\xb2"
++ "\x97E"
++ "\x97\xb2"
++ "\x98E"
++ "\x98\xb2"
++ "\x99E"
++ "\x99H"
++ "\x9aE"
++ "\x9aH"
++ "\x9bE"
++ "\x9bH"
++ "\x9b\xb2"
++ "\x9cE"
++ "\x9cH"
++ "\x9dE"
++ "\x9dH"
++ "\x9d\xb2"
++ "\x9eE"
++ "\x9eH"
++ "\x9fE"
++ "\x9fH"
++ "\x9f\xb2"
++ "\xa0E"
++ "\xa0H"
++ "\xa1E"
++ "\xa1H"
++ "\xa1\xb2"
++ "\xa2E"
++ "\xa2H"
++ "\xa2\xb2"
++ "\xa3E"
++ "\xa3H"
++ "\xa4E"
++ "\xa4\xb2"
++ "\xa5E"
++ "\xa6E"
++ "\xa6\xb2"
++ "\xa7E"
++ "\xa8E"
++ "\xa9E"
++ "\xaaE"
++ "\xb0\xb2"
++ "\xb2\xb2"
++ "\xb3"
++ "\xb4\xb2"
++ "\xb5\xb2"
++ "\xb7\xb2"
++ "\xba\xb2"
++ "\xbd\xb2"
++ "\xbf\xb2"
++ "Ų"
++ "\xc6I"
++ "Ʋ"
++ "\xc7I"
++ "\xc8I"
++ "\xc9I"
++ "\xcaI"
++ "ʲ"
++ "\xcbI"
++ "˲"
++ "\xccI"
++ "\xcdI"
++ "Ͳ"
++ "\xceI"
++ "\xcfI"
++ "ϲ"
++ "\xd0I"
++ "в"
++ "\xd1I"
++ "\xd2I"
++ "Ҳ"
++ "\xd3I"
++ "\xd4I"
++ "\xd5I"
++ "ղ"
++ "\xd6I"
++ "\xd7I"
++ "\xd8I"
++ "ز"
++ "\xd9I"
++ "\xdaI"
++ "\xdbI"
++ "۲"
++ "\xdcI"
++ "\xddI"
++ "ݲ"
++ "\xdeI"
++ "\xdfI"
++ "߲"
++ "\xe0I"
++ "\xe1I"
++ "\xe2I"
++ "\xe3I"
++ "\xe4I"
++ "\xe5I"
++ "\xe5\xb2"
++ "\xe6I"
++ "\xe6\xb2"
++ "\xe7I"
++ "\xe7\xb2"
++ "\xe8I"
++ "\xe8\xb2"
++ "\xe9I"
++ "\xe9\xb2"
++ "\xeaI"
++ "\xebI"
++ "\xeb\xb2"
++ "\xecI"
++ "\xedI"
++ "\xed\xb2"
++ "\xeeI"
++ "\xee\xb2"
++ "\xefI"
++ "\xf0I"
++ "\xf1I"
++ "\xf1\xb2"
++ "\xf2I"
++ "\xf3I"
++ "\xf3\xb2"
++ "\xf4I"
++ "\xf5I"
++ "\xf6I"
++ "\xf7I"
++ "\xf7\xb2"
++ "\xf8I"
++ "\xf8\xb2"
++ "\xf9I"
++ "\xfaI"
++ "\xfbI"
++ "\xfcI"
++ "\xfc\xb2"
++ "\xfdI"
++ "\xfeI"
++ "\xfe\xb2"
++ "\xffI"
+- "LPhotoPickerDictionaryFromVideo"
+- "OBJC_CLASS_$_LARatchetStateValueCollapsed"
+- "S_$_PLUIEditVideoViewController"
+- "_OBJC_CLASS_$_LAEnvironment"
+- "_OBJC_CLASS_$_LAEnvironmentMechanism"
+- "_OBJC_CLASS_$_LAEnvironmentMechanismBiometry"
+- "_OBJC_CLASS_$_LARatchetObserverWrapper"
+- "_OBJC_CLASS_$_LARatchetStateValueExpired"
+- "_OBJC_CLASS_$_LARatchetStateValueNotStarted"
+- "_OBJC_CLASS_$_LARatchetStateValueReady"
+- "_OBJC_CLASS_$_LARatchetStateValueWaitingForCoolOff"
+- "_OBJC_CLASS_$_LARatchetStateValueWaitingForSecondAuthentication"
+- "_OBJC_CLASS_$_PHImageManagerSettings"
+- "_OBJC_CLASS_$_PHResourceDownloadSettings"
+- "_OBJC_CLASS_$_PHRootSettings"
+- "_OBJC_CLASS_$_PLCropOverlayPreviewBottomBar"
+- "_OBJC_CLASS_$_PLImageView"
+- "_OBJC_CLASS_$_PLPhotosApplication"
+- "_OBJC_CLASS_$_PLProgressArcLayer"
+- "_OBJC_CLASS_$_PLProgressHUD"
+- "_OBJC_CLASS_$_PLRoundProgressView"
+- "_OBJC_CLASS_$_PLTileContainerView"
+- "_OBJC_METACLASS_$_LAEnvironment"
+- "_OBJC_METACLASS_$_LAEnvironmentMechanism"
+- "_OBJC_METACLASS_$_LARatchet"
+- "_OBJC_METACLASS_$_LARatchetErrorBuilder"
+- "_OBJC_METACLASS_$_LARatchetState"
+- "_OBJC_METACLASS_$_LARatchetStateValue"
+- "_OBJC_METACLASS_$_LARatchetStateValueArmed"
+- "_OBJC_METACLASS_$_LARatchetStateValueCollapsed"
+- "_OBJC_METACLASS_$_LARatchetStateValueExpired"
+- "_OBJC_METACLASS_$_LARatchetStateValueNotStarted"
+- "_OBJC_METACLASS_$_LARatchetStateValueReady"
+- "_OBJC_METACLASS_$_LARatchetStateValueWaitingForCoolOff"
+- "_OBJC_METACLASS_$_LARatchetStateValueWaitingForSecondAuthentication"
+- "_OBJC_METACLASS_$_PHRootSettings"
+- "_OBJC_METACLASS_$_PLCropOverlayPreviewBottomBar"
+- "_OBJC_METACLASS_$_PLImageView"
+- "_OBJC_METACLASS_$_PLPhotosApplication"
+- "_OBJC_METACLASS_$_PLProgressArcLayer"
+- "_OBJC_METACLASS_$_PLProgressHUD"
+- "_OBJC_METACLASS_$_PLRoundProgressView"
+- "_OBJC_METACLASS_$_PLTileContainerView"
+- "_OBJC_METACLASS_$_PLUIView"
+- "_OBJC_METACLASS_$_PLVideoPosterFrameView"
+- "_OBJC_METACLASS_$_PLWallpaperButton"
+- "_PLPhotoPickerDictionariesFromMultipleMediaItems"
+- "_PLPhotoPickerDictionaryFromMedia"
+
+```

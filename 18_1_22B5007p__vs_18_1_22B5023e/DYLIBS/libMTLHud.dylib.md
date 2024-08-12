@@ -1,0 +1,132 @@
+## libMTLHud.dylib
+
+> `/usr/lib/libMTLHud.dylib`
+
+```diff
+
+-3.0.19.0.0
+-  __TEXT.__text: 0x93c0
++3.0.20.0.0
++  __TEXT.__text: 0x93d4
+   __TEXT.__auth_stubs: 0x800
+   __TEXT.__init_offsets: 0x4
+   __TEXT.__objc_methlist: 0x328
+   __TEXT.__const: 0xac
+-  __TEXT.__gcc_except_tab: 0xce8
++  __TEXT.__gcc_except_tab: 0xd30
+   __TEXT.__cstring: 0xb33
+   __TEXT.__unwind_info: 0x440
+   __TEXT.__objc_classname: 0x6d
+
+   __AUTH.__objc_data: 0x1e0
+   __DATA.__objc_ivar: 0x54
+   __DATA.__data: 0x10
+-  __DATA.__bss: 0xe48
+-  __DATA.__common: 0x8
++  __DATA.__bss: 0x514
++  __DATA.__common: 0x10
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+   - /System/Library/Frameworks/CoreText.framework/CoreText
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  Functions: 166
+-  Symbols:   331
+-  CStrings:  0
++  Functions: 165
++  Symbols:   330
++  CStrings:  83
+ 
+Symbols:
++ __ZdlPvSt19__type_descriptor_t
++ __ZnwmSt19__type_descriptor_t
+- ___cxa_atexit
+- _objc_retain_x24
+CStrings:
++ "13DefinedValuesO0e1_fgH6_MusicyA2EmFWC"
++ "3UsoEntity_common_NumberC13DefinedValuesO0e1_F8_MillionyA2EmFWC"
++ "DefinedValuesO0e1_F16_HundredThousandyA2EmFWC"
++ "DefinedValuesO0e1_fG7_EighthyA2EmFWC"
++ "_$s12SiriOntology029UsoEntity_commonEventTrigger_fG9AttributeC13DefinedValuesO0efg1_fgH17_ConditionArrivalyA2EmFWC"
++ "_$s12SiriOntology029UsoEntity_commonEventTrigger_fG9AttributeC13DefinedValuesO0efg1_fgH19_ConditionDepartureyA2EmFWC"
++ "_$s12SiriOntology029UsoEntity_commonEventTrigger_fG9AttributeC13DefinedValuesO0efg1_fgH22_ConditionEnterVehicleyA2EmFWC"
++ "_$s12SiriOntology029UsoEntity_commonEventTrigger_fG9AttributeC13DefinedValuesO0efg1_fgH23_ConditionDepartVehicleyA2EmFWC"
++ "_$s12SiriOntology23UsoEntity_common_NumberC13DefinedValuesO0e1_F11_TenMillionyA2EmFWC"
++ "_$s12SiriOntology23UsoEntity_common_NumberC13DefinedValuesO0e1_F12_TenThousandyA2EmFWC"
++ "_$s12SiriOntology23UsoEntity_common_NumberC13DefinedValuesO0e1_F13_DefaultValueyA2EmFWC"
++ "_$s12SiriOntology23UsoEntity_common_NumberC13DefinedValuesO0e1_F13_MaximumValueyA2EmFWC"
++ "_$s12SiriOntology23UsoEntity_common_NumberC13DefinedValuesO0e1_F13_MinimumValueyA2EmFWC"
++ "_$s12SiriOntology23UsoEntity_common_NumberC13DefinedValuesO0e1_F23_LargeUnspecifiedAmountyA2EmFWC"
++ "_$s12SiriOntology23UsoEntity_common_NumberC13DefinedValuesO0e1_F23_SmallUnspecifiedAmountyA2EmFWC"
++ "_$s12SiriOntology23UsoEntity_common_NumberC13DefinedValuesO0e1_F8_HundredyA2EmFWC"
++ "_$s12SiriOntology25UsoEntity_common_MeridiemC13DefinedValuesO0e1_F3_AMyA2EmFWC"
++ "_$s12SiriOntology25UsoEntity_common_MeridiemC13DefinedValuesO0e1_F3_PMyA2EmFWC"
++ "_$s12SiriOntology26UsoEntity_common_RadioBandC13DefinedValuesO0e1_fG3_AMyA2EmFWC"
++ "_$s12SiriOntology26UsoEntity_common_RadioBandC13DefinedValuesO0e1_fG3_FMyA2EmFWC"
++ "_$s12SiriOntology26UsoEntity_common_RadioBandC13DefinedValuesO0e1_fG3_XMyA2EmFWC"
++ "_$s12SiriOntology26UsoEntity_common_RadioBandC13DefinedValuesO0e1_fG4_DAByA2EmFWC"
++ "_$s12SiriOntology27UsoEntity_common_QuantifierC13DefinedValuesO0e1_F10_RemainderyA2EmFWC"
++ "_$s12SiriOntology27UsoEntity_common_QuantifierC13DefinedValuesO0e1_F4_AllyA2EmFWC"
++ "_$s12SiriOntology27UsoEntity_common_QuantifierC13DefinedValuesO0e1_F4_AnyyA2EmFWC"
++ "_$s12SiriOntology27UsoEntity_common_QuantifierC13DefinedValuesO0e1_F5_LessyA2EmFWC"
++ "_$s12SiriOntology27UsoEntity_common_QuantifierC13DefinedValuesO0e1_F5_MoreyA2EmFWC"
++ "_$s12SiriOntology27UsoEntity_common_QuantifierC13DefinedValuesO0e1_F5_NoneyA2EmFWC"
++ "_$s12SiriOntology27UsoEntity_common_QuantifierC13DefinedValuesO0e1_F7_SingleyA2EmFWC"
++ "_$s12SiriOntology27UsoEntity_common_QuantifierC13DefinedValuesO0e1_F9_MultipleyA2EmFWC"
++ "_$s12SiriOntology29UsoEntity_common_ListPositionC13DefinedValuesO0e1_fG10_BeginningyA2EmFWC"
++ "_$s12SiriOntology29UsoEntity_common_ListPositionC13DefinedValuesO0e1_fG11_NineteenthyA2EmFWC"
++ "_$s12SiriOntology29UsoEntity_common_ListPositionC13DefinedValuesO0e1_fG12_SeventeenthyA2EmFWC"
++ "_$s12SiriOntology29UsoEntity_common_ListPositionC13DefinedValuesO0e1_fG12_ThirdToLastyA2EmFWC"
++ "_$s12SiriOntology29UsoEntity_common_ListPositionC13DefinedValuesO0e1_fG12_TwentyFifthyA2EmFWC"
++ "_$s12SiriOntology29UsoEntity_common_ListPositionC13DefinedValuesO0e1_fG13_TwentyFourthyA2EmFWC"
++ "_$s12SiriOntology29UsoEntity_common_ListPositionC13DefinedValuesO0e1_fG4_EndyA2EmFWC"
++ "_$s12SiriOntology29UsoEntity_common_ListPositionC13DefinedValuesO0e1_fG6_NinthyA2EmFWC"
++ "_$s12SiriOntology29UsoEntity_common_ListPositionC13DefinedValuesO0e1_fG6_SixthyA2EmFWC"
++ "_$s12SiriOntology29UsoEntity_common_ListPositionC13DefinedValuesO0e1_fG7_FourthyA2EmFWC"
++ "_$s12SiriOntology29UsoEntity_common_ListPositionC13DefinedValuesO0e1_fG7_SecondyA2EmFWC"
++ "_$s12SiriOntology29UsoEntity_common_ListPositionC13DefinedValuesO0e1_fG9_EleventhyA2EmFWC"
++ "_$s12SiriOntology30UsoEntity_common_MediaItemTypeC13DefinedValuesO0e1_fgH10_AudioBookyA2EmFWC"
++ "_$s12SiriOntology30UsoEntity_common_MediaItemTypeC13DefinedValuesO0e1_fgH12_CompilationyA2EmFWC"
++ "_$s12SiriOntology30UsoEntity_common_MediaItemTypeC13DefinedValuesO0e1_fgH13_RadioStationyA2EmFWC"
++ "_$s12SiriOntology30UsoEntity_common_MediaItemTypeC13DefinedValuesO0e1_fgH14_MusicPlaylistyA2EmFWC"
++ "_$s12SiriOntology30UsoEntity_common_MediaItemTypeC13DefinedValuesO0e1_fgH15_PodcastStationyA2EmFWC"
++ "_$s12SiriOntology30UsoEntity_common_MediaItemTypeC13DefinedValuesO0e1_fgH17_StreamingLibraryyA2EmFWC"
++ "_$s12SiriOntology30UsoEntity_common_MediaItemTypeC13DefinedValuesO0e1_fgH3_EpyA2EmFWC"
++ "_$s12SiriOntology30UsoEntity_common_MediaItemTypeC13DefinedValuesO0e1_fgH3_LpyA2EmFWC"
++ "_$s12SiriOntology30UsoEntity_common_MediaItemTypeC13DefinedValuesO0e1_fgH5_NewsyA2EmFWC"
++ "_$s12SiriOntology30UsoEntity_common_MediaItemTypeC13DefinedValuesO0e1_fgH5_ShowyA2EmFWC"
++ "_$s12SiriOntology30UsoEntity_common_MediaItemTypeC13DefinedValuesO0e1_fgH6_AlbumyA2EmFWC"
++ "_$s12SiriOntology30UsoEntity_common_MediaItemTypeC13DefinedValuesO0e1_fgH6_MovieyA2EmFWC"
++ "_$s12SiriOntology30UsoEntity_common_MediaItemTypeC13DefinedValuesO0e1_fgH7_SingleyA2EmFWC"
++ "_$s12SiriOntology30UsoEntity_common_MediaItemTypeC13DefinedValuesO0e1_fgH7_SoundsyA2EmFWC"
++ "_$s12SiriOntology30UsoEntity_common_MediaItemTypeC13DefinedValuesO0e1_fgH7_TvShowyA2EmFWC"
++ "_$s12SiriOntology30UsoEntity_common_MediaItemTypeC13DefinedValuesO0e1_fgH7_UpNextyA2EmFWC"
++ "_$s12SiriOntology30UsoEntity_common_MediaItemTypeC13DefinedValuesO0e1_fgH8_EpisodeyA2EmFWC"
++ "_$s12SiriOntology30UsoEntity_common_MediaItemTypeC13DefinedValuesO0e1_fgH8_LibraryyA2EmFWC"
++ "_$s12SiriOntology30UsoEntity_common_MediaItemTypeC13DefinedValuesO0e1_fgH9_RingtoneyA2EmFWC"
++ "_$s12SiriOntology30UsoEntity_common_MediaItemTypeC13DefinedValuesO0e1_fgH9_WishlistyA2EmFWC"
++ "_$s12SiriOntology30UsoEntity_common_PlaybackStateC13DefinedValuesO0e1_fG12_InterruptedyA2EmFWC"
++ "_$s12SiriOntology30UsoEntity_common_PlaybackStateC13DefinedValuesO0e1_fG7_PausedyA2EmFWC"
++ "_$s12SiriOntology30UsoEntity_common_PlaybackStateC13DefinedValuesO0e1_fG8_PlayingyA2EmFWC"
++ "_$s12SiriOntology30UsoEntity_common_PlaybackStateC13DefinedValuesO0e1_fG8_SeekingyA2EmFWC"
++ "_$s12SiriOntology30UsoEntity_common_PlaybackStateC13DefinedValuesO0e1_fG8_StoppedyA2EmFWC"
++ "_$s12SiriOntology31UsoEntity_common_GeographicAreaC13DefinedValuesO0e1_fG5_HereyA2EmFWC"
++ "_$s12SiriOntology31UsoEntity_common_GeographicAreaC13DefinedValuesO0e1_fG7_NearbyyA2EmFWC"
++ "_$s12SiriOntology33UsoEntity_common_MediaCaptureModeC13DefinedValuesO0e1_fgH11_ScreenshotyA2EmFWC"
++ "_$s12SiriOntology33UsoEntity_common_MediaCaptureModeC13DefinedValuesO0e1_fgH16_ScreenRecordingyA2EmFWC"
++ "_$s12SiriOntology33UsoEntity_common_MediaCaptureModeC13DefinedValuesO0e1_fgH6_PhotoyA2EmFWC"
++ "_$s12SiriOntology33UsoEntity_common_MediaCaptureModeC13DefinedValuesO0e1_fgH6_VideoyA2EmFWC"
++ "_$s12SiriOntology33UsoEntity_common_MediaCaptureModeC13DefinedValuesO0e1_fgH7_SelfieyA2EmFWC"
++ "_$s12SiriOntology34UsoEntity_common_CalendarEventTypeC13DefinedValuesO0e1_fgH12_AppointmentyA2EmFWC"
++ "_$s12SiriOntology34UsoEntity_common_CalendarEventTypeC13DefinedValuesO0e1_fgH8_MeetingyA2EmFWC"
++ "_$s12SiriOntology34UsoEntity_common_CalendarEventTypeC13DefinedValuesO0e1_fgH9_ConflictyA2EmFWC"
++ "_$s12SiriOntology34UsoEntity_common_CalendarEventTypeC13DefinedValuesO0e1_fgh1_G0yA2EmFWC"
++ "_$s12SiriOntology39UsoEntity_common_DateTimeRangeQualifierC13DefinedValuesO0e1_fghI12_LaterPartOfyA2EmFWC"
++ "_$s12SiriOntology39UsoEntity_common_DateTimeRangeQualifierC13DefinedValuesO0e1_fghI14_EarlierPartOfyA2EmFWC"
++ "_$s12SiriOntology39UsoEntity_common_DateTimeRangeQualifierC13DefinedValuesO0e1_fghI6_EndOfyA2EmFWC"
++ "_$s12SiriOntology39UsoEntity_common_DateTimeRangeQualifierC13DefinedValuesO0e1_fghI7_RestOfyA2EmFWC"
++ "_$s12SiriOntology39UsoEntity_common_DateTimeRangeQualifierC13DefinedValuesO0e1_fghI8_StartOfyA2EmFWC"
+
+```

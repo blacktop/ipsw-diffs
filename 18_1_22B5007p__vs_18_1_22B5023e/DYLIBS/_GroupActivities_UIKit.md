@@ -1,0 +1,385 @@
+## _GroupActivities_UIKit
+
+> `/System/Library/Frameworks/_GroupActivities_UIKit.framework/_GroupActivities_UIKit`
+
+```diff
+
+-158.100.11.0.0
+-  __TEXT.__text: 0x52540
+-  __TEXT.__auth_stubs: 0x22a0
++225.200.11.0.0
++  __TEXT.__text: 0x5231c
++  __TEXT.__auth_stubs: 0x2290
+   __TEXT.__objc_methlist: 0x47c
+   __TEXT.__const: 0x2990
+   __TEXT.__cstring: 0x1a74
+-  __TEXT.__swift5_typeref: 0x3b98
++  __TEXT.__swift5_typeref: 0x3b96
+   __TEXT.__swift5_capture: 0x564
+   __TEXT.__constg_swiftt: 0x1b28
+   __TEXT.__swift5_reflstr: 0x8c1
+
+   __TEXT.__swift5_types: 0x100
+   __TEXT.__swift5_protos: 0x1c
+   __TEXT.__swift5_mpenum: 0x1c
+-  __TEXT.__unwind_info: 0x19c8
++  __TEXT.__unwind_info: 0x19e0
+   __TEXT.__eh_frame: 0x13f8
+   __TEXT.__objc_classname: 0xc2
+   __TEXT.__objc_methname: 0x185b
+   __TEXT.__objc_methtype: 0x611
+-  __DATA_CONST.__got: 0x6b0
+-  __DATA_CONST.__const: 0x5b8
++  __DATA_CONST.__got: 0x6c0
++  __DATA_CONST.__const: 0x600
+   __DATA_CONST.__objc_classlist: 0x88
+   __DATA_CONST.__objc_catlist2: 0x20
+   __DATA_CONST.__objc_protolist: 0xa0
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_selrefs: 0x5a0
+   __DATA_CONST.__objc_protorefs: 0x58
+-  __AUTH_CONST.__auth_got: 0x1150
++  __AUTH_CONST.__auth_got: 0x1148
+   __AUTH_CONST.__auth_ptr: 0x9b8
+   __AUTH_CONST.__const: 0x2140
+   __AUTH_CONST.__objc_const: 0x1ee8
+   __AUTH.__objc_data: 0xd98
+   __AUTH.__data: 0x6c0
+-  __DATA.__data: 0x18e8
++  __DATA.__data: 0x18d8
+   __DATA.__objc_stublist: 0x20
+-  __DATA.__bss: 0x2180
++  __DATA.__bss: 0x2080
+   __DATA.__common: 0x2d8
+   __DATA_DIRTY.__objc_data: 0x3d8
+   __DATA_DIRTY.__data: 0x3a0
+   __DATA_DIRTY.__common: 0x38
+-  __DATA_DIRTY.__bss: 0x100
++  __DATA_DIRTY.__bss: 0x200
+   - /System/Library/Frameworks/Combine.framework/Combine
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/swift/libswiftAVFoundation.dylib
+   - /usr/lib/swift/libswiftAccelerate.dylib
++  - /usr/lib/swift/libswiftCompression.dylib
+   - /usr/lib/swift/libswiftCore.dylib
+   - /usr/lib/swift/libswiftCoreAudio.dylib
+   - /usr/lib/swift/libswiftCoreFoundation.dylib
+
+   - /usr/lib/swift/libswiftSystem.dylib
+   - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
++  - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswift_StringProcessing.dylib
++  - /usr/lib/swift/libswift_errno.dylib
++  - /usr/lib/swift/libswift_math.dylib
++  - /usr/lib/swift/libswift_signal.dylib
++  - /usr/lib/swift/libswift_stdio.dylib
++  - /usr/lib/swift/libswift_time.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 2393
+-  Symbols:   4163
+-  CStrings:  0
++  - /usr/lib/swift/libswiftsys_time.dylib
++  - /usr/lib/swift/libswiftunistd.dylib
++  Functions: 2401
++  Symbols:   4182
++  CStrings:  273
+ 
+Symbols:
++ _$ss23withCheckedContinuation9isolation8function_xScA_pSgYi_SSyScCyxs5NeverOGXEtYalF
++ _$ss23withCheckedContinuation9isolation8function_xScA_pSgYi_SSyScCyxs5NeverOGXEtYalFTu
++ _$ss31withCheckedThrowingContinuation9isolation8function_xScA_pSgYi_SSyScCyxs5Error_pGXEtYaKlF
++ _$ss31withCheckedThrowingContinuation9isolation8function_xScA_pSgYi_SSyScCyxs5Error_pGXEtYaKlFTu
++ __swift_FORCE_LOAD_$_swiftCompression
++ __swift_FORCE_LOAD_$_swift_Builtin_float
++ __swift_FORCE_LOAD_$_swift_errno
++ __swift_FORCE_LOAD_$_swift_math
++ __swift_FORCE_LOAD_$_swift_signal
++ __swift_FORCE_LOAD_$_swift_stdio
++ __swift_FORCE_LOAD_$_swift_time
++ __swift_FORCE_LOAD_$_swiftsys_time
++ __swift_FORCE_LOAD_$_swiftunistd
+- _$sScC12continuation8functionScCyxq_GSccyxq_G_SStcfC
+- _swift_continuation_await
+- _swift_continuation_init
+CStrings:
++ "ZN3JSC15constructNumberEPNS_14JSGlobalObjectENS_7JSValueE"
++ "_JSPropertyDescriptorConfigurableKey"
++ "_JSPropertyDescriptorEnumerableKey"
++ "_JSPropertyDescriptorGetKey"
++ "_JSPropertyDescriptorSetKey"
++ "_JSPropertyDescriptorValueKey"
++ "_JSPropertyDescriptorWritableKey"
++ "_OBJC_CLASS_$_JSContext"
++ "_OBJC_CLASS_$_JSManagedValue"
++ "_OBJC_CLASS_$_JSScript"
++ "_OBJC_CLASS_$_JSValue"
++ "_OBJC_CLASS_$_JSVirtualMachine"
++ "_OBJC_METACLASS_$_JSContext"
++ "_OBJC_METACLASS_$_JSManagedValue"
++ "_OBJC_METACLASS_$_JSScript"
++ "_OBJC_METACLASS_$_JSValue"
++ "_OBJC_METACLASS_$_JSVirtualMachine"
++ "_TZoneInit"
++ "_TZoneRegistrationDone"
++ "_WTFSignpostIndirectLoggingEnabled"
++ "_WebCoreWebThreadIsEnabled"
++ "_WebCoreWebThreadIsLockedOrDisabled"
++ "_WebCoreWebThreadLock"
++ "_WebCoreWebThreadRun"
++ "__ZN3JSC10Identifier4fromERNS_2VMEd"
++ "__ZN3JSC10Identifier4fromERNS_2VMEj"
++ "__ZN3JSC10initializeEv"
++ "__ZN3JSC11MarkedSpace22s_sizeClassForSizeStepE"
++ "__ZN3JSC11createErrorEPNS_14JSGlobalObjectERKN3WTF6StringE"
++ "__ZN3JSC12BigIntObject6s_infoE"
++ "__ZN3JSC12DateInstance14finishCreationERNS_2VMEd"
++ "__ZN3JSC12DateInstance6s_infoE"
++ "__ZN3JSC12DateInstanceC1ERNS_2VMEPNS_9StructureE"
++ "__ZN3JSC12RegExpObjectC1ERNS_2VMEPNS_9StructureEPNS_6RegExpEb"
++ "__ZN3JSC12SmallStrings24singleCharacterStringRepEh"
++ "__ZN3JSC12VMEntryScope12tearDownSlowEv"
++ "__ZN3JSC12VMEntryScope9setUpSlowEv"
++ "__ZN3JSC12addErrorInfoEPNS_14JSGlobalObjectEPNS_8JSObjectEb"
++ "__ZN3JSC12iteratorStepEPNS_14JSGlobalObjectENS_15IterationRecordE"
++ "__ZN3JSC13BooleanObject6s_infoE"
++ "__ZN3JSC13ErrorInstance17sanitizedToStringEPNS_14JSGlobalObjectE"
++ "__ZN3JSC13ErrorInstance22sanitizedMessageStringEPNS_14JSGlobalObjectE"
++ "__ZN3JSC13ErrorInstance6createEPNS_14JSGlobalObjectEON3WTF6StringENS_9ErrorTypeENS_10LineColumnES5_S5_"
++ "__ZN3JSC13ErrorInstance6s_infoE"
++ "__ZN3JSC13JSFinalObject6s_infoE"
++ "__ZN3JSC13JSGlobalProxy6s_infoE"
++ "__ZN3JSC13iteratorCloseEPNS_14JSGlobalObjectENS_7JSValueE"
++ "__ZN3JSC13iteratorValueEPNS_14JSGlobalObjectENS_7JSValueE"
++ "__ZN3JSC14JSGlobalObject6s_infoE"
++ "__ZN3JSC14StructureCache32emptyObjectStructureForPrototypeEPNS_14JSGlobalObjectEPNS_8JSObjectEjbPNS_18FunctionExecutableE"
++ "__ZN3JSC14iteratorMethodEPNS_14JSGlobalObjectEPNS_8JSObjectE"
++ "__ZN3JSC14throwTypeErrorEPNS_14JSGlobalObjectERNS_10ThrowScopeE"
++ "__ZN3JSC14throwTypeErrorEPNS_14JSGlobalObjectERNS_10ThrowScopeEN3WTF12ASCIILiteralE"
++ "__ZN3JSC14throwTypeErrorEPNS_14JSGlobalObjectERNS_10ThrowScopeERKN3WTF6StringE"
++ "__ZN3JSC15constructStringERNS_2VMEPNS_14JSGlobalObjectENS_7JSValueE"
++ "__ZN3JSC15createTypeErrorEPNS_14JSGlobalObjectE"
++ "__ZN3JSC15createTypeErrorEPNS_14JSGlobalObjectERKN3WTF6StringE"
++ "__ZN3JSC16InternalFunction11getCallDataEPNS_6JSCellE"
++ "__ZN3JSC16InternalFunction13visitChildrenEPNS_6JSCellERNS_11SlotVisitorE"
++ "__ZN3JSC16InternalFunction13visitChildrenEPNS_6JSCellERNS_19AbstractSlotVisitorE"
++ "__ZN3JSC16InternalFunction14finishCreationERNS_2VMEjRKN3WTF6StringENS0_20PropertyAdditionModeE"
++ "__ZN3JSC16InternalFunction16getConstructDataEPNS_6JSCellE"
++ "__ZN3JSC16InternalFunction23createSubclassStructureEPNS_14JSGlobalObjectEPNS_8JSObjectEPNS_9StructureE"
++ "__ZN3JSC16InternalFunction40createFunctionThatMasqueradesAsUndefinedERNS_2VMEPNS_14JSGlobalObjectEjRKN3WTF6StringENS5_11FunctionPtrILNS5_6PtrTagE1EFxS4_PNS_9CallFrameEELNS5_18FunctionAttributesE2EEE"
++ "__ZN3JSC16InternalFunction6s_infoE"
++ "__ZN3JSC16InternalFunctionC2ERNS_2VMEPNS_9StructureEN3WTF11FunctionPtrILNS5_6PtrTagE1EFxPNS_14JSGlobalObjectEPNS_9CallFrameEELNS5_18FunctionAttributesE2EEESE_"
++ "__ZN3JSC16SamplingProfiler18reportTopBytecodesERN3WTF11PrintStreamE"
++ "__ZN3JSC16SamplingProfiler18reportTopFunctionsERN3WTF11PrintStreamE"
++ "__ZN3JSC16createRangeErrorEPNS_14JSGlobalObjectERKN3WTF6StringE"
++ "__ZN3JSC16getFunctionRealmEPNS_14JSGlobalObjectEPNS_8JSObjectE"
++ "__ZN3JSC16jitOperationListE"
++ "__ZN3JSC17DeferredWorkTimer29didResumeScriptExecutionOwnerEv"
++ "__ZN3JSC17createSyntaxErrorEPNS_14JSGlobalObjectE"
++ "__ZN3JSC17createSyntaxErrorEPNS_14JSGlobalObjectERKN3WTF6StringE"
++ "__ZN3JSC17hasIteratorMethodEPNS_14JSGlobalObjectENS_7JSValueE"
++ "__ZN3JSC18ErrorHandlingScopeC1ERNS_2VME"
++ "__ZN3JSC18ErrorHandlingScopeD1Ev"
++ "__ZN3JSC18PropertyDescriptor15setPropertySlotEPNS_14JSGlobalObjectENS_12PropertyNameERKNS_12PropertySlotE"
++ "__ZN3JSC18sanitizeStackForVMERNS_2VME"
++ "__ZN3JSC19JSWebAssemblyMemory19growSuccessCallbackERNS_2VMENS_9PageCountES3_"
++ "__ZN3JSC19JSWebAssemblyMemory5adoptEON3WTF3RefINS_4Wasm6MemoryENS1_12RawPtrTraitsIS4_EENS1_21DefaultRefDerefTraitsIS4_EEEE"
++ "__ZN3JSC19JSWebAssemblyMemory9tryCreateEPNS_14JSGlobalObjectERNS_2VMEPNS_9StructureE"
++ "__ZN3JSC19JSWebAssemblyModule6createERNS_2VMEPNS_9StructureEON3WTF3RefINS_4Wasm6ModuleENS5_12RawPtrTraitsIS8_EENS5_21DefaultRefDerefTraitsIS8_EEEE"
++ "__ZN3JSC19JSWebAssemblyModule6moduleEv"
++ "__ZN3JSC19SymbolCoercionErrorE"
++ "__ZN3JSC19iteratorForIterableEPNS_14JSGlobalObjectEPNS_8JSObjectENS_7JSValueE"
++ "__ZN3JSC20AbstractModuleRecord6s_infoE"
++ "__ZN3JSC20TypedArrayControllerC2Ev"
++ "__ZN3JSC20TypedArrayControllerD2Ev"
++ "__ZN3JSC20createReferenceErrorEPNS_14JSGlobalObjectERKN3WTF6StringE"
++ "__ZN3JSC21throwOutOfMemoryErrorEPNS_14JSGlobalObjectERNS_10ThrowScopeE"
++ "__ZN3JSC22createOutOfMemoryErrorEPNS_14JSGlobalObjectE"
++ "__ZN3JSC23JSScriptFetchParameters6s_infoE"
++ "__ZN3JSC23objectConstructorFreezeEPNS_14JSGlobalObjectEPNS_8JSObjectE"
++ "__ZN3JSC24DOMAttributeGetterSetter6s_infoE"
++ "__ZN3JSC24createStackOverflowErrorEPNS_14JSGlobalObjectE"
++ "__ZN3JSC26ReadonlyPropertyWriteErrorE"
++ "__ZN3JSC26createIteratorResultObjectEPNS_14JSGlobalObjectENS_7JSValueEb"
++ "__ZN3JSC27ReadonlyPropertyChangeErrorE"
++ "__ZN3JSC29createNotEnoughArgumentsErrorEPNS_14JSGlobalObjectE"
++ "__ZN3JSC2VM13deleteAllCodeENS_19DeleteAllCodeEffortE"
++ "__ZN3JSC2VM14clearExceptionEv"
++ "__ZN3JSC2VM14throwExceptionEPNS_14JSGlobalObjectENS_7JSValueE"
++ "__ZN3JSC2VM14throwExceptionEPNS_14JSGlobalObjectEPNS_9ExceptionE"
++ "__ZN3JSC2VM17addImpurePropertyEPN3WTF17UniquedStringImplE"
++ "__ZN3JSC2VM19deleteAllLinkedCodeENS_19DeleteAllCodeEffortE"
++ "__ZN3JSC2VM24DrainMicrotaskDelayScopeC1ERS0_"
++ "__ZN3JSC2VM24DrainMicrotaskDelayScopeD1Ev"
++ "__ZN3JSC2VM24DrainMicrotaskDelayScopeaSEOS1_"
++ "__ZN3JSC2VM26ensureTerminationExceptionEv"
++ "__ZN3JSC2VM28orderedHashTableSentinelSlowEv"
++ "__ZN3JSC2VM31hasExceptionsAfterHandlingTrapsEv"
++ "__ZN3JSC2VM32orderedHashTableDeletedValueSlowEv"
++ "__ZN3JSC2VM33invalidateStructureChainIntegrityENS0_28StructureChainIntegrityEventE"
++ "__ZN3JSC2VM38performOpportunisticallyScheduledTasksEN3WTF13MonotonicTimeENS1_9OptionSetINS0_16SchedulerOptionsEEE"
++ "__ZN3JSC2VM6createENS_8HeapTypeEPN3WTF7RunLoopE"
++ "__ZN3JSC2VM8whenIdleEON3WTF8FunctionIFvvEEE"
++ "__ZN3JSC2VM9tryCreateENS_8HeapTypeEPN3WTF7RunLoopE"
++ "__ZN3JSC2VMD1Ev"
++ "__ZN3JSC32throwDOMAttributeGetterTypeErrorEPNS_14JSGlobalObjectERNS_10ThrowScopeEPKNS_9ClassInfoENS_12PropertyNameE"
++ "__ZN3JSC32throwDOMAttributeSetterTypeErrorEPNS_14JSGlobalObjectERNS_10ThrowScopeEPKNS_9ClassInfoENS_12PropertyNameE"
++ "__ZN3JSC38NonExtensibleObjectPropertyDefineErrorE"
++ "__ZN3JSC38makeDOMAttributeGetterTypeErrorMessageEPKcRKN3WTF6StringE"
++ "__ZN3JSC41DeferredStructureTransitionWatchpointFire11fireAllSlowEv"
++ "__ZN3JSC41constructFunctionSkippingEvalEnabledCheckEPNS_14JSGlobalObjectEON3WTF6StringERKNS_10IdentifierERKNS_12SourceOriginERKS3_NS_19SourceTaintedOriginERKNS2_12TextPositionEiNSt3__18optionalIiEENS_24FunctionConstructionModeENS_7JSValueE"
++ "__ZN3JSC4Wasm15StreamingParser8addBytesENSt3__14spanIKhLm18446744073709551615EEENS1_13IsEndOfStreamE"
++ "__ZN3JSC4Wasm17StreamingCompiler4failEPNS_14JSGlobalObjectENS_7JSValueE"
++ "__ZN3JSC4Wasm17StreamingCompiler6cancelEv"
++ "__ZN3JSC4Wasm17StreamingCompiler6createERNS_2VMENS0_12CompilerModeEPNS_14JSGlobalObjectEPNS_9JSPromiseEPNS_8JSObjectE"
++ "__ZN3JSC4Wasm17StreamingCompiler8finalizeEPNS_14JSGlobalObjectE"
++ "__ZN3JSC4Wasm17StreamingCompilerD1Ev"
++ "__ZN3JSC4Wasm6Memory15createZeroSizedENS_17MemorySharingModeEON3WTF8FunctionIFvNS1_11GrowSuccessENS_9PageCountES6_EEE"
++ "__ZN3JSC4Wasm6Memory6createEON3WTF3RefINS_25SharedArrayBufferContentsENS2_12RawPtrTraitsIS4_EENS2_21DefaultRefDerefTraitsIS4_EEEEONS2_8FunctionIFvNS1_11GrowSuccessENS_9PageCountESD_EEE"
++ "__ZN3JSC4Wasm6MemoryD1Ev"
++ "__ZN3JSC4Wasm6ModuleD1Ev"
++ "__ZN3JSC4Yarr10parseFlagsEN3WTF10StringViewE"
++ "__ZN3JSC4Yarr11flagsStringEN3WTF9OptionSetINS0_5FlagsEEE"
++ "__ZN3JSC4Yarr17RegularExpressionC1EN3WTF10StringViewENS2_9OptionSetINS0_5FlagsEEE"
++ "__ZN3JSC4Yarr17RegularExpressionC1ERKS1_"
++ "__ZN3JSC4Yarr17RegularExpressionD1Ev"
++ "__ZN3JSC4Yarr17RegularExpressionaSERKS1_"
++ "__ZN3JSC4Yarr20unicodeMatchPropertyEN3WTF6StringENS0_11CompileModeE"
++ "__ZN3JSC4Yarr25unicodeMatchPropertyValueEN3WTF6StringES2_"
++ "__ZN3JSC4Yarr31characterClassMayContainStringsENS0_23BuiltInCharacterClassIDE"
++ "__ZN3JSC4Yarr7replaceERN3WTF6StringERKNS0_17RegularExpressionENS1_10StringViewE"
++ "__ZN3JSC6RegExp6createERNS_2VMERKN3WTF6StringENS3_9OptionSetINS_4Yarr5FlagsEEE"
++ "__ZN3JSC7JSArray6s_infoE"
++ "__ZN3JSC7Options20notifyOptionsChangedEv"
++ "__ZN3JSC7Symbols14addPrivateNameE"
++ "__ZN3JSC7Symbols14getPrivateNameE"
++ "__ZN3JSC7Symbols14hasPrivateNameE"
++ "__ZN3JSC7Symbols14setPrivateNameE"
++ "__ZN3JSC7Symbols15keysPrivateNameE"
++ "__ZN3JSC7Symbols15sizePrivateNameE"
++ "__ZN3JSC7Symbols15thenPrivateNameE"
++ "__ZN3JSC7Symbols16clearPrivateNameE"
++ "__ZN3JSC7Symbols17deletePrivateNameE"
++ "__ZN3JSC7Symbols17rejectPrivateNameE"
++ "__ZN3JSC7Symbols17valuesPrivateNameE"
++ "__ZN3JSC7Symbols18entriesPrivateNameE"
++ "__ZN3JSC7Symbols18forEachPrivateNameE"
++ "__ZN3JSC7VMTraps20deferTerminationSlowENS0_11DeferActionE"
++ "__ZN3JSC7VMTraps24undoDeferTerminationSlowENS0_11DeferActionE"
++ "__ZN3JSC7VMTraps8fireTrapEj"
++ "__ZN3JSC8DataView9wrappedAsEON3WTF3RefINS_11ArrayBufferENS1_12RawPtrTraitsIS3_EENS1_21DefaultRefDerefTraitsIS3_EEEEmNSt3__18optionalImEE"
++ "__ZN3JSC8JSObject6s_infoE"
++ "__ZN3JSC9Exception6createERNS_2VMENS_7JSValueENS0_18StackCaptureActionE"
++ "__ZN3JSC9Exception6s_infoE"
++ "__ZN3JSC9ImportMap17registerImportMapERKNS_10SourceCodeERKN3WTF3URLEPNS0_8ReporterE"
++ "__ZN3JSC9Structure16allocateRareDataERNS_2VME"
++ "__ZN3JSC9Structure22didReplacePropertySlowEi"
++ "__ZN3JSC9Structure24addNewPropertyTransitionERNS_2VMEPS0_NS_12PropertyNameEjRiNS_15PutPropertySlot7ContextEPNS_41DeferredStructureTransitionWatchpointFireE"
++ "__ZN3JSC9Structure24materializePropertyTableERNS_2VMEb"
++ "__ZN3JSC9Structure25attributeChangeTransitionERNS_2VMEPS0_NS_12PropertyNameEjPNS_41DeferredStructureTransitionWatchpointFireE"
++ "__ZN3JSC9Structure25becomePrototypeTransitionERNS_2VMEPS0_PNS_41DeferredStructureTransitionWatchpointFireE"
++ "__ZN3JSC9Structure26flattenDictionaryStructureERNS_2VMEPNS_8JSObjectE"
++ "__ZN3JSC9StructureC1ERNS_2VMEPNS_14JSGlobalObjectENS_7JSValueERKNS_8TypeInfoEPKNS_9ClassInfoEhj"
++ "__ZN3WTF10StringImpl17s_emptyAtomStringE"
++ "__ZN3WTF12nullAtomDataE"
++ "__ZN3WTF13emptyAtomDataE"
++ "__ZN3WTF13monthFullNameE"
++ "__ZN3WTF14nullStringDataE"
++ "__ZN3WTF15emptyStringDataE"
++ "__ZN3WTF15firstDayOfMonthE"
++ "__ZN3WTF18asciiCaseFoldTableE"
++ "__ZN3WTF18loggerObserverLockE"
++ "__ZN3WTF21MemoryPressureHandler12ReliefLogger16s_loggingEnabledE"
++ "__ZN3WTF9MediaTime16MaximumTimeScaleE"
++ "__ZN3WTF9monthNameE"
++ "__ZN9Inspector14FrontendRouter15connectFrontendERNS_15FrontendChannelE"
++ "__ZN9Inspector14FrontendRouter18disconnectFrontendERNS_15FrontendChannelE"
++ "__ZN9Inspector14FrontendRouter22disconnectAllFrontendsEv"
++ "__ZN9Inspector14FrontendRouter6createEv"
++ "__ZN9Inspector15RemoteInspector24needMachSandboxExtensionE"
++ "__ZN9Inspector21DOMFrontendDispatcher12didFireEventEiRKN3WTF6StringEdONS1_6RefPtrINS1_8JSONImpl6ObjectENS1_12RawPtrTraitsIS7_EENS1_21DefaultRefDerefTraitsIS7_EEEE"
++ "__ZN9Inspector21DOMFrontendDispatcher34powerEfficientPlaybackStateChangedEidb"
++ "__ZN9Inspector22PageFrontendDispatcher13frameDetachedERKN3WTF6StringE"
++ "__ZN9Inspector22PageFrontendDispatcher14frameNavigatedEON3WTF3RefINS_8Protocol4Page5FrameENS1_12RawPtrTraitsIS5_EENS1_21DefaultRefDerefTraitsIS5_EEEE"
++ "__ZN9Inspector22PageFrontendDispatcher14loadEventFiredEd"
++ "__ZN9Inspector22PageFrontendDispatcher19frameStartedLoadingERKN3WTF6StringE"
++ "__ZN9Inspector22PageFrontendDispatcher19frameStoppedLoadingERKN3WTF6StringE"
++ "__ZN9Inspector22PageFrontendDispatcher20domContentEventFiredEd"
++ "__ZN9Inspector22PageFrontendDispatcher24frameScheduledNavigationERKN3WTF6StringEd"
++ "__ZN9Inspector22PageFrontendDispatcher31defaultUserPreferencesDidChangeEON3WTF3RefINS1_8JSONImpl7ArrayOfINS_8Protocol4Page14UserPreferenceEEENS1_12RawPtrTraitsIS8_EENS1_21DefaultRefDerefTraitsIS8_EEEE"
++ "__ZN9Inspector22PageFrontendDispatcher31frameClearedScheduledNavigationERKN3WTF6StringE"
++ "__ZN9Inspector24MemoryFrontendDispatcher13trackingStartEd"
++ "__ZN9Inspector24MemoryFrontendDispatcher14memoryPressureEdRKN3WTF6StringE"
++ "__ZN9Inspector24MemoryFrontendDispatcher14trackingUpdateEON3WTF3RefINS_8Protocol6Memory5EventENS1_12RawPtrTraitsIS5_EENS1_21DefaultRefDerefTraitsIS5_EEEE"
++ "__ZN9Inspector24MemoryFrontendDispatcher16trackingCompleteEd"
++ "__ZN9Inspector24WorkerFrontendDispatcher13workerCreatedERKN3WTF6StringES4_S4_"
++ "__ZN9Inspector24WorkerFrontendDispatcher16workerTerminatedERKN3WTF6StringE"
++ "__ZN9Inspector24WorkerFrontendDispatcher25dispatchMessageFromWorkerERKN3WTF6StringES4_"
++ "__ZN9Inspector25NetworkFrontendDispatcher12dataReceivedERKN3WTF6StringEdii"
++ "__ZN9Inspector25NetworkFrontendDispatcher13loadingFailedERKN3WTF6StringEdS4_ONSt3__18optionalIbEE"
++ "__ZN9Inspector25NetworkFrontendDispatcher15loadingFinishedERKN3WTF6StringEdS4_ONS1_6RefPtrINS_8Protocol7Network7MetricsENS1_12RawPtrTraitsIS8_EENS1_21DefaultRefDerefTraitsIS8_EEEE"
++ "__ZN9Inspector25NetworkFrontendDispatcher15webSocketClosedERKN3WTF6StringEd"
++ "__ZN9Inspector25NetworkFrontendDispatcher16responseReceivedERKN3WTF6StringES4_S4_dNS_8Protocol4Page12ResourceTypeEONS1_3RefINS5_7Network8ResponseENS1_12RawPtrTraitsISA_EENS1_21DefaultRefDerefTraitsISA_EEEE"
++ "__ZN9Inspector25NetworkFrontendDispatcher16webSocketCreatedERKN3WTF6StringES4_"
++ "__ZN9Inspector25NetworkFrontendDispatcher17requestWillBeSentERKN3WTF6StringES4_S4_S4_ONS1_3RefINS_8Protocol7Network7RequestENS1_12RawPtrTraitsIS8_EENS1_21DefaultRefDerefTraitsIS8_EEEEddONS5_INS7_9InitiatorENS9_ISF_EENSB_ISF_EEEEONS1_6RefPtrINS7_8ResponseENS9_ISL_EENSB_ISL_EEEEONSt3__18optionalINS6_4Page12ResourceTypeEEES4_"
++ "__ZN9Inspector25NetworkFrontendDispatcher18requestInterceptedERKN3WTF6StringEONS1_3RefINS_8Protocol7Network7RequestENS1_12RawPtrTraitsIS8_EENS1_21DefaultRefDerefTraitsIS8_EEEE"
++ "__ZN9Inspector25NetworkFrontendDispatcher18webSocketFrameSentERKN3WTF6StringEdONS1_3RefINS_8Protocol7Network14WebSocketFrameENS1_12RawPtrTraitsIS8_EENS1_21DefaultRefDerefTraitsIS8_EEEE"
++ "__ZN9Inspector25NetworkFrontendDispatcher19responseInterceptedERKN3WTF6StringEONS1_3RefINS_8Protocol7Network8ResponseENS1_12RawPtrTraitsIS8_EENS1_21DefaultRefDerefTraitsIS8_EEEE"
++ "__ZN9Inspector25NetworkFrontendDispatcher19webSocketFrameErrorERKN3WTF6StringEdS4_"
++ "__ZN9Inspector25NetworkFrontendDispatcher22webSocketFrameReceivedERKN3WTF6StringEdONS1_3RefINS_8Protocol7Network14WebSocketFrameENS1_12RawPtrTraitsIS8_EENS1_21DefaultRefDerefTraitsIS8_EEEE"
++ "__ZN9Inspector25NetworkFrontendDispatcher28requestServedFromMemoryCacheERKN3WTF6StringES4_S4_S4_dONS1_3RefINS_8Protocol7Network9InitiatorENS1_12RawPtrTraitsIS8_EENS1_21DefaultRefDerefTraitsIS8_EEEEONS5_INS7_14CachedResourceENS9_ISF_EENSB_ISF_EEEE"
++ "__ZN9Inspector25NetworkFrontendDispatcher33webSocketWillSendHandshakeRequestERKN3WTF6StringEddONS1_3RefINS_8Protocol7Network16WebSocketRequestENS1_12RawPtrTraitsIS8_EENS1_21DefaultRefDerefTraitsIS8_EEEE"
++ "__ZN9Inspector25NetworkFrontendDispatcher34webSocketHandshakeResponseReceivedERKN3WTF6StringEdONS1_3RefINS_8Protocol7Network17WebSocketResponseENS1_12RawPtrTraitsIS8_EENS1_21DefaultRefDerefTraitsIS8_EEEE"
++ "__ZN9Inspector25RuntimeFrontendDispatcher23executionContextCreatedEON3WTF3RefINS_8Protocol7Runtime27ExecutionContextDescriptionENS1_12RawPtrTraitsIS5_EENS1_21DefaultRefDerefTraitsIS5_EEEE"
++ "__ZN9Inspector26DatabaseFrontendDispatcher11addDatabaseEON3WTF3RefINS_8Protocol8Database8DatabaseENS1_12RawPtrTraitsIS5_EENS1_21DefaultRefDerefTraitsIS5_EEEE"
++ "__ZN9Inspector26TimelineFrontendDispatcher13eventRecordedEON3WTF3RefINS_8Protocol8Timeline13TimelineEventENS1_12RawPtrTraitsIS5_EENS1_21DefaultRefDerefTraitsIS5_EEEE"
++ "__ZN9Inspector26TimelineFrontendDispatcher16recordingStartedEd"
++ "__ZN9Inspector26TimelineFrontendDispatcher16recordingStoppedEd"
++ "__ZN9Inspector26TimelineFrontendDispatcher18autoCaptureStartedEv"
++ "__ZN9Inspector27LayerTreeFrontendDispatcher18layerTreeDidChangeEv"
++ "__ZN9Inspector28DOMStorageFrontendDispatcher19domStorageItemAddedEON3WTF3RefINS_8Protocol10DOMStorage9StorageIdENS1_12RawPtrTraitsIS5_EENS1_21DefaultRefDerefTraitsIS5_EEEERKNS1_6StringESE_"
++ "__ZN9Inspector28DOMStorageFrontendDispatcher21domStorageItemRemovedEON3WTF3RefINS_8Protocol10DOMStorage9StorageIdENS1_12RawPtrTraitsIS5_EENS1_21DefaultRefDerefTraitsIS5_EEEERKNS1_6StringE"
++ "__ZN9Inspector28DOMStorageFrontendDispatcher21domStorageItemUpdatedEON3WTF3RefINS_8Protocol10DOMStorage9StorageIdENS1_12RawPtrTraitsIS5_EENS1_21DefaultRefDerefTraitsIS5_EEEERKNS1_6StringESE_SE_"
++ "__ZN9Inspector28DOMStorageFrontendDispatcher22domStorageItemsClearedEON3WTF3RefINS_8Protocol10DOMStorage9StorageIdENS1_12RawPtrTraitsIS5_EENS1_21DefaultRefDerefTraitsIS5_EEEE"
++ "__ZN9Inspector8Protocol7Helpers20getEnumConstantValueEi"
++ "__ZN9Inspector8Protocol7Helpers24parseEnumValueFromStringINS0_3CSS20ForceablePseudoClassEEENSt3__18optionalIT_EERKN3WTF6StringE"
++ "__ZN9Inspector8Protocol7Helpers24parseEnumValueFromStringINS0_4Page20CookieSameSitePolicyEEENSt3__18optionalIT_EERKN3WTF6StringE"
++ "__ZN9Inspector8Protocol7Helpers24parseEnumValueFromStringINS0_8Timeline10InstrumentEEENSt3__18optionalIT_EERKN3WTF6StringE"
++ "__ZN9Inspector8Protocol7Helpers24parseEnumValueFromStringINS0_9IndexedDB3Key4TypeEEENSt3__18optionalIT_EERKN3WTF6StringE"
++ "__ZNK3JSC12PropertySlot12customGetterERNS_2VMENS_12PropertyNameE"
++ "__ZNK3JSC12PropertySlot14functionGetterEPNS_14JSGlobalObjectE"
++ "__ZNK3JSC16SamplingProfiler6threadEv"
++ "__ZNK3JSC18PropertyDescriptor10enumerableEv"
++ "__ZNK3JSC18PropertyDescriptor12configurableEv"
++ "__ZNK3JSC18PropertyDescriptor16isDataDescriptorEv"
++ "__ZNK3JSC18PropertyDescriptor20isAccessorDescriptorEv"
++ "__ZNK3JSC18PropertyDescriptor8writableEv"
++ "__ZNK3JSC2VM29deprecatedVMEntryGlobalObjectEPNS_14JSGlobalObjectE"
++ "__ZNK3JSC4Yarr17RegularExpression13matchedLengthEv"
++ "__ZNK3JSC4Yarr17RegularExpression5matchEN3WTF10StringViewEjPi"
++ "__ZNK3JSC4Yarr17RegularExpression7isValidEv"
++ "__ZNK3JSC4Yarr17RegularExpression9searchRevEN3WTF10StringViewE"
++ "__ZNK3JSC9ImportMap15integrityForURLERKN3WTF3URLE"
++ "__ZNK3JSC9ImportMap7resolveERKN3WTF6StringERKNS1_3URLE"
++ "__ZNK9Inspector14FrontendRouter16hasLocalFrontendEv"
++ "__ZNK9Inspector14FrontendRouter17hasRemoteFrontendEv"
++ "__ZTVN9Inspector14InjectedScriptE"
++ "__ZTVN9Inspector18InjectedScriptBaseE"
++ "__ZTVN9Inspector22RemoteInspectionTargetE"
++ "_disablePrimitiveGigacageRequested"
++ "_g_config"
++ "_jitCagePtr"
++ "_kJSClassDefinitionEmpty"
++ "_vmEntryToCSSJIT"
++ "_vmEntryToCSSJITAfter"
++ "izeEv"
++ "llRemoveEventListenerEi"
++ "rENS1_12RawPtrTraitsIS3_EENS1_21DefaultRefDerefTraitsIS3_EEEEmNSt3__18optionalImEE"
++ "rivateNameE"
+
+```

@@ -1,0 +1,223 @@
+## SiriUIBridge
+
+> `/System/Library/PrivateFrameworks/SiriUIBridge.framework/SiriUIBridge`
+
+```diff
+
+-3400.23.1.0.0
++3400.26.1.0.0
+   __TEXT.__text: 0x14ce0
+   __TEXT.__auth_stubs: 0xd30
+   __TEXT.__objc_methlist: 0x7a4
+
+   __TEXT.__objc_methtype: 0x7e3
+   __TEXT.__objc_stubs: 0x480
+   __DATA_CONST.__got: 0x220
+-  __DATA_CONST.__const: 0x2b0
++  __DATA_CONST.__const: 0x2f8
+   __DATA_CONST.__objc_classlist: 0xb0
+   __DATA_CONST.__objc_protolist: 0xa8
+   __DATA_CONST.__objc_imageinfo: 0x8
+
+   __AUTH_CONST.__const: 0x18b0
+   __AUTH_CONST.__cfstring: 0x160
+   __AUTH_CONST.__objc_const: 0x2518
+-  __AUTH.__objc_data: 0x718
++  __AUTH.__objc_data: 0x678
+   __AUTH.__data: 0x68
+   __DATA.__objc_ivar: 0x5c
+-  __DATA.__data: 0x5d0
+-  __DATA.__common: 0x10
+-  __DATA_DIRTY.__objc_data: 0x558
+-  __DATA_DIRTY.__data: 0x408
+-  __DATA_DIRTY.__common: 0x68
++  __DATA.__data: 0x5a0
++  __DATA_DIRTY.__objc_data: 0x5f8
++  __DATA_DIRTY.__data: 0x430
++  __DATA_DIRTY.__common: 0x78
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/PrivateFrameworks/AssistantServices.framework/AssistantServices
+
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/swift/libswiftAVFoundation.dylib
+   - /usr/lib/swift/libswiftAccelerate.dylib
++  - /usr/lib/swift/libswiftCompression.dylib
+   - /usr/lib/swift/libswiftCore.dylib
+   - /usr/lib/swift/libswiftCoreAudio.dylib
+   - /usr/lib/swift/libswiftCoreFoundation.dylib
+
+   - /usr/lib/swift/libswiftRegexBuilder.dylib
+   - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
++  - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswift_StringProcessing.dylib
++  - /usr/lib/swift/libswift_errno.dylib
++  - /usr/lib/swift/libswift_math.dylib
++  - /usr/lib/swift/libswift_signal.dylib
++  - /usr/lib/swift/libswift_stdio.dylib
++  - /usr/lib/swift/libswift_time.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
++  - /usr/lib/swift/libswiftsys_time.dylib
++  - /usr/lib/swift/libswiftunistd.dylib
+   Functions: 881
+-  Symbols:   496
+-  CStrings:  133
++  Symbols:   505
++  CStrings:  8
+ 
+Symbols:
++ __swift_FORCE_LOAD_$_swiftCompression
++ __swift_FORCE_LOAD_$_swift_Builtin_float
++ __swift_FORCE_LOAD_$_swift_errno
++ __swift_FORCE_LOAD_$_swift_math
++ __swift_FORCE_LOAD_$_swift_signal
++ __swift_FORCE_LOAD_$_swift_stdio
++ __swift_FORCE_LOAD_$_swift_time
++ __swift_FORCE_LOAD_$_swiftsys_time
++ __swift_FORCE_LOAD_$_swiftunistd
+CStrings:
++ "\x01\xc0\xe1jp\xfc\xd7>\x01\xc0\xe1j\x90\xfc\xd7>\x01\xc0\xe1j\xb0\xfc\xd7>\x01\xc0\xe1j\xd0\xfc\xd7>\x01\xc0\xe1j\xf0\xfc\xd7>\x01\xc0\xe1j\x10\xfd\xd7>\x01\xc0\xe1j0\xfd\xd7>\x01\xc0\xe1jP\xfd\xd7>\x01\xc0\xe1jp\xfd\xd7>\x01\xc0\xe1j\x90\xfd\xd7>\x01\xc0\xe1j\xb0\xfd\xd7>\x01\xc0\xe1j\xd0\xfd\xd7>\x01\xc0\xe1j\xf0\xfd\xd7>\x01\xc0\xe1j\x10\xfe\xd7>\x01\xc0\xe1j0\xfe\xd7>\x01\xc0\xe1jP\xfe\xd7>\x01\xc0\xe1jp\xfe\xd7>\x01\xc0\xe1j\x90\xfe\xd7>\x01\xc0\xe1j\xb0\xfe\xd7>\x01\xc0\xe1j\xd0\xfe\xd7>\x01\xc0\xe1j\xf0\xfe\xd7>\x01\xc0\xe1j\x10\xff\xd7>\x01\xc0\xe1j0\xff\xd7>\x01\xc0\xe1jP\xff\xd7>\x01\xc0\xe1jp\xff\xd7>\x01\xc0\xe1j\x90\xff\xd7>\x01\xc0\xe1j\xb0\xff\xd7>\x01\xc0\xe1j\xd0\xff\xd7>\x01\xc0\xe1j\xf0\xff\xd7>\x01\xc0\xe1j\x10"
++ "\xd8>\x01\xc0\xe1j0"
++ "\xd8>\x01\xc0\xe1jP"
++ "\xd8>\x01\xc0\xe1jp"
++ "\xd8>\x01\xc0\xe1j\x90"
++ "\xd8>\x01\xc0\xe1j\xb0"
++ "\xd8>\x01\xc0\xe1j\xd0"
++ "\xd8>\x01\xc0\xe1j\xf0"
+- "7PDFCharacteristicsProviding_p_SbtcfC"
+- "8HealthExperienceUI32CollectionViewListDisclosureItemPAAE19forceVerticalLayoutSbvg"
+- "Platform14PluginFeedItemV0A12ExperienceUIE011makeSidebardE015displayCategory17actionHandlerType0lM8UserData13sourceProfile7sectionACSo09HKDisplayK0C_xm10Foundation0P0VSgAA06SourceR0OAD0I7SectionOtKAD019ConfigurationActionM0RzlFZ"
+- "_$s14HealthPlatform14PluginFeedItemV0A12ExperienceUIE011makeSidebardE026configurationProviderClass9viewModel15automationTitle17actionHandlerType0qR8UserData16uniqueIdentifier13sourceProfile7sectionACxm_04ViewN0QzSgSSq_m10Foundation0U0VSgSSAA06SourceY0OAD0I7SectionOtKAD0c13ConfigurationK0RzAD019ConfigurationActionR0R_r0_lFZ"
+- "_$s14HealthPlatform14PluginFeedItemV0A12ExperienceUIE011makeSidebardE09viewModel16uniqueIdentifier13sourceProfile7sectionAcD0i13ConfigurationK0V_SSAA06SourceO0OAD0I7SectionOtKFZ"
+- "_$s16HealthExperience21AnalyticsTransformingP0aB2UIE15analyticsString3forSSAD12PresentationO_tFZ"
+- "_$s18HealthExperienceUI016AllHighlightsForB14ViewControllerC11baseKeyword15sectionKeywords06healthB5Store5titleACSS_SaySSG0A8Platform0abN0_pSStcfc"
+- "_$s18HealthExperienceUI016AllHighlightsForB14ViewControllerCMa"
+- "_$s18HealthExperienceUI018DataTypeTileHeaderD6SourcePAAE06headerE0AA0fgE0Ovg"
+- "_$s18HealthExperienceUI018DataTypeTileHeaderD6SourcePAAE11dateUpdated10Foundation4DateVSgvg"
+- "_$s18HealthExperienceUI023DataTypeDetailFavoritesD6SourceC06objectE020managedObjectContext20pinnedContentManager11healthStore14sourceProfiles11headerTitle21layoutBackgroundColor22contentInsetsReferenceACSo08HKObjectE0C_So09NSManagedkL0C0A8Platform06PinnedN8Managing_pSo08HKHealthQ0CSayAP0H7ProfileOGSSSo7UIColorCSgSo09UIContentZ9ReferenceVtcfc"
+- "_$s18HealthExperienceUI025MessageWithActionTileViewE5ImageC05imageH0So07UIImageH0Cvg"
+- "_$s18HealthExperienceUI025MessageWithActionTileViewE5ImageC07messagegH0AA0defgH0Cvg"
+- "_$s18HealthExperienceUI025MessageWithActionTileViewE5ImageC0H5ModelV5image15attributedTitle4body10actionText12hasSeparator15backgroundColor20automationIdentifierAESo7UIImageC_So18NSAttributedStringCSSSgSSSbSo7UIColorCSStcfC"
+- "_$s18HealthExperienceUI025MessageWithActionTileViewE5ImageC0H5ModelV5image5title4body10actionText12hasSeparator15backgroundColor20automationIdentifierAESo7UIImageC_S2SSgSSSbSo7UIColorCSStcfC"
+- "_$s18HealthExperienceUI025MessageWithActionTileViewE5ImageC0H5ModelVMa"
+- "_$s18HealthExperienceUI025MessageWithActionTileViewE5ImageC11updateViewsyyAC0H5ModelVFTj"
+- "_$s18HealthExperienceUI025MessageWithActionTileViewE5ImageC9ConstantsO10imageWidth12CoreGraphics7CGFloatVvgZ"
+- "_$s18HealthExperienceUI025MessageWithActionTileViewE5ImageCMa"
+- "_$s18HealthExperienceUI025MessageWithActionTileViewE5ImageCMu"
+- "_$s18HealthExperienceUI0A31KitProfileInformationDataSourceC7context17profileIdentifier9viewClass17layoutConstructorACSo22NSManagedObjectContextC_So09HKProfileK0CAA0eF9Consuming_pXpSgSo25NSCollectionLayoutSectionCSgSi_So0uV11Environment_ptcSgtcfc"
+- "_$s18HealthExperienceUI0A31KitProfileInformationDataSourceCMa"
+- "_$s18HealthExperienceUI0A42ChecklistBaseFeatureStatusFeedItemProviderPAAE04makehI07context07featureG00A8Platform06PluginhI0VSgAG16GeneratorContextV_0A12KitAdditions0fG0OtF"
+- "_$s18HealthExperienceUI0A42ChecklistBaseFeatureStatusFeedItemProviderPAAE04makehI9Publisher7context07featureG07Combine03AnyL0Vy0A8Platform06PluginhI0VSgs5NeverOGAJ16GeneratorContextV_0A12KitAdditions0fG0OtF"
+- "_$s18HealthExperienceUI0A42ChecklistBaseFeatureStatusFeedItemProviderPAAE05_makehI07context07featureG00A8Platform06PluginhI0VSgAG16GeneratorContextV_0A12KitAdditions0fG0OtF"
+- "_$s18HealthExperienceUI0A42ChecklistBaseFeatureStatusFeedItemProviderPAAE11contentKind0A8Platform07ContentL0Ovg"
+- "_$s18HealthExperienceUI10PDFBuilderC8DocumentC10pageNumberSivg"
+- "_$s18HealthExperienceUI10PDFBuilderC8DocumentC13isRightToLeftSbvg"
+- "_$s18HealthExperienceUI10PDFBuilderC8DocumentC14drawingContextSo6CGRectVvs"
+- "_$s18HealthExperienceUI10PDFBuilderC8DocumentC17LayoutConstraintsV5width8topInsetAG12CoreGraphics7CGFloatVSg_AMtcfC"
+- "_$s18HealthExperienceUI10PDFBuilderC8DocumentC17LayoutConstraintsVMa"
+- "_$s18HealthExperienceUI10PDFBuilderC8DocumentC17willFitOnFullPageySbAA13PDFRenderable_pF"
+- "_$s18HealthExperienceUI10PDFBuilderC8DocumentC20willFitOnCurrentPageySbSo6CGRectVF"
+- "_$s18HealthExperienceUI10PDFBuilderC8DocumentC24moveToNextDrawableRegion2inySo28UIGraphicsPDFRendererContextC_tF"
+- "_$s18HealthExperienceUI10PDFBuilderC8DocumentC46moveToNextDrawableRegionIfWontFitOnCurrentPage_2inySo6CGRectV_So28UIGraphicsPDFRendererContextCtF"
+- "_$s18HealthExperienceUI14CloudSyncAlertV01iD11StorageFullACvgZ"
+- "_$s18HealthExperienceUI14CloudSyncAlertV01iD21FutureProtocolVersionACvgZ"
+- "_$s18HealthExperienceUI14CloudSyncAlertV01iD3CFUACvgZ"
+- "_$s18HealthExperienceUI14CloudSyncAlertV01iD8DisabledACvgZ"
+- "_$s18HealthExperienceUI14CloudSyncAlertV11descriptionSSvg"
+- "_$s18HealthExperienceUI14CloudSyncAlertV21healthSharingDisabledACvgZ"
+- "_$s18HealthExperienceUI14CloudSyncAlertV25healthSharingICloudManageACvgZ"
+- "_$s18HealthExperienceUI14CloudSyncAlertV28healthSharingManateeDisabledACvgZ"
+- "_$s18HealthExperienceUI14CloudSyncAlertV30healthSharingRestoreInProgressACvgZ"
+- "_$s18HealthExperienceUI14CloudSyncAlertV5titleSSvg"
+- "_$s18HealthExperienceUI14CloudSyncAlertV6actionSSvg"
+- "_$s18HealthExperienceUI14CloudSyncAlertV9notSynced5sinceAC10Foundation4DateV_tFZ"
+- "_$s18HealthExperienceUI14CloudSyncAlertV9notSyncedACvgZ"
+- "_$s18HealthExperienceUI14CloudSyncAlertVMa"
+- "_$s18HealthExperienceUI14SidebarSectionOMa"
+- "_$s18HealthExperienceUI17MicaAnimationViewC04stopE0yyFTj"
+- "_$s18HealthExperienceUI17MicaAnimationViewC05startE0yyFTj"
+- "_$s18HealthExperienceUI17MicaAnimationViewC0E0V0E17StateWithDurationOMa"
+- "_$s18HealthExperienceUI17MicaAnimationViewC0E0V4name6bundle16supportsDarkMode0I11RightToLeft0I16NumberingSystems21maxStateWithDurations0Q9LoopCount12initialDelay07restartU8DurationAESS_So8NSBundleCS3bAE0ersZ0OSiS2dSgtcfC"
+- "_$s18HealthExperienceUI17MicaAnimationViewC0E0VMa"
+- "_$s18HealthExperienceUI17MicaAnimationViewC9animation5inset11scaleToFillA2C0E0V_S2btcfc"
+- "_$s18HealthExperienceUI17MicaAnimationViewCMa"
+- "_$s18HealthExperienceUI21CellSelectionHandlingP012shouldSelectD0_2inSbSo6UIViewC_So0J10ControllerCtFTj"
+- "_$s18HealthExperienceUI21CellSelectionHandlingPA2A016SectionedAdaptorD0RzrlE09didSelectD0_2inySo6UIViewC_So0L10ControllerCtF"
+- "_$s18HealthExperienceUI21CellSelectionHandlingPAAE012shouldSelectD0_2inSbSo6UIViewC_So0J10ControllerCtF"
+- "_$s18HealthExperienceUI21CellSelectionHandlingPAAE029selectionShouldFollowFocusForD0_2inSbSgSo6UIViewC_So0M10ControllerCtF"
+- "_$s18HealthExperienceUI21CellSelectionHandlingPAAE19deselectionBehavior2inAA0d11DeselectionH0OSo16UIViewControllerC_tF"
+- "_$s18HealthExperienceUI21CellSelectionHandlingPAAE19deselectionBehaviorAA0d11DeselectionH0Ovg"
+- "_$s18HealthExperienceUI21CellSelectionHandlingPAAE36deselectOnRegularHorizontalSizeClass3forAA0D19DeselectionBehaviorOSo16UIViewControllerC_tF"
+- "_$s18HealthExperienceUI22DataTypeTileHeaderViewC06updateD6SourceyyAA0fgdJ0_pSgFTj"
+- "_$s18HealthExperienceUI22DataTypeTileHeaderViewC10dataSourceAA0fgdJ0_pSgvgTj"
+- "_$s18HealthExperienceUI22DataTypeTileHeaderViewCMa"
+- "_$s18HealthExperienceUI22PDFAsyncViewControllerC17analyticsDelegateAA0def9AnalyticsH0_pSgvsTj"
+- "_$s18HealthExperienceUI22PDFAsyncViewControllerC5title19pdfFileNameProvider13configurationACSS_AA07PDFFileJ9Providing_pAA15PDFConfigurable_ptcfc"
+- "_$s18HealthExperienceUI22PDFAsyncViewControllerC5title19pdfFileNameProvider16pageNumberFormatACSS_AA07PDFFileJ9Providing_pAA07PDFPagemN0Otcfc"
+- "_$s18HealthExperienceUI22PDFAsyncViewControllerCMa"
+- "_$s18HealthExperienceUI23CellDeselectionBehaviorOMa"
+- "_$s18HealthExperienceUI25DismissibleCellHeaderViewV0G5ModelC9titleText15systemImageName06detailJ015foregroundColor17detailsVisibilityAESS_SSSgAA0ef6DetailJ0OSg0aB00P14RepresentationOSgAA0ef7DetailsR0Vtcfc"
+- "_$s18HealthExperienceUI25DismissibleCellHeaderViewV0G5ModelCMa"
+- "_$s18HealthExperienceUI25SidebarConfigurationModelV5title19imageRepresentation05colorI016indentationLevelACSS_0aB005ImageI0OAH05ColorI0OSgSitcfC"
+- "_$s18HealthExperienceUI25SidebarConfigurationModelVMa"
+- "_$s18HealthExperienceUI27DataTypeDetailConfigurationV19SampleListComponentV06sampleE00K30MetadataViewControllerProviderAESo08HKSampleE0C_AA0hlmN9Providing_pSgtcfC"
+- "_$s18HealthExperienceUI27DataTypeDetailConfigurationV19SampleListComponentVMa"
+- "_$s18HealthExperienceUI27PDFHeaderRenderableProviderV11renderablesSayAA13PDFRenderable_pGSgvg"
+- "_$s18HealthExperienceUI27PDFHeaderRenderableProviderVMa"
+- "_$s18HealthExperienceUI28ContentConfigurationHostCellCMa"
+- "_$s18HealthExperienceUI28SidebarConfigurationProviderC011makeContentE02id9viewModel0J7Context9cellState013actionHandlerH05UIKit09UIContentE0_pSS_AA0deK0VAA012ProvidedViewL0CAA014ObservableCellN0CAA0e14FeedItemActionH0VSgtKFTj"
+- "_$s18HealthExperienceUI28SidebarConfigurationProviderC014makeBackgroundE09cellState5UIKit012UIBackgroundE0VSgAA014ObservableCellJ0C_tFTj"
+- "_$s18HealthExperienceUI28SidebarConfigurationProviderC15makeAccessoriesSay5UIKit15UICellAccessoryVGyFTj"
+- "_$s18HealthExperienceUI28SidebarConfigurationProviderCACycfc"
+- "_$s18HealthExperienceUI28SidebarConfigurationProviderCMa"
+- "_$s18HealthExperienceUI31AnimatedSnidgetCurrentValueTextV13ConfigurationV6string6domainAESS_tFZ"
+- "_$s18HealthExperienceUI31AnimatedSnidgetCurrentValueTextV13ConfigurationV7numeric6domain5valueAESS_SdtFZ"
+- "_$s18HealthExperienceUI31AnimatedSnidgetCurrentValueTextV13ConfigurationVMa"
+- "_$s18HealthExperienceUI31AnimatedSnidgetCurrentValueTextV4text13configuration21previousConfigurationAC10Foundation16AttributedStringV_AC0L0VSgALtcfC"
+- "_$s18HealthExperienceUI31AnimatedSnidgetCurrentValueTextVMa"
+- "_$s18HealthExperienceUI31CameraScannerOverlayContentViewC04makee17ActionIntroHeaderH05imageSo07UIImageH0CSo0N0CSg_tFZ"
+- "_$s18HealthExperienceUI31CameraScannerOverlayContentViewC04makee21ActionCheckmarkHeaderH0So07UIImageH0CyFZ"
+- "_$s18HealthExperienceUI31CameraScannerOverlayContentViewCMa"
+- "_$s18HealthExperienceUI32CollectionViewListDisclosureCellC04showG9IndicatorSbvsTj"
+- "_$s18HealthExperienceUI32CollectionViewListDisclosureCellC17horizontalPadding12CoreGraphics7CGFloatVvgZ"
+- "_$s18HealthExperienceUI32CollectionViewListDisclosureCellC9textLabelAA011DynamicFontJ0CvgTj"
+- "_$s18HealthExperienceUI32CollectionViewListDisclosureCellCMa"
+- "_$s18HealthExperienceUI32CollectionViewListDisclosureCellCMu"
+- "_$s18HealthExperienceUI32SpecifierHeaderViewConfigurationV5image11description6statusACSo7UIImageC_S2SSgtcfC"
+- "_$s18HealthExperienceUI32SpecifierHeaderViewConfigurationV5image7content6statusACSo7UIImageC_SaySSGSSSgtcfC"
+- "_$s18HealthExperienceUI32SpecifierHeaderViewConfigurationVMa"
+- "_$s18HealthExperienceUI33ContentConfigurationTableViewCellCMa"
+- "_$s18HealthExperienceUI35DataTypeDetailConfigurationProviderP13configuration3forAA0defG0VSo08HKObjectE0C_tKFTj"
+- "_$s18HealthExperienceUI35SharingInviteActivityViewControllerC7present2on4with6senderySo06UIViewH0C_0A11AppServices27ContactDeepLinkingParameterVSgypSgtFZ"
+- "_$s18HealthExperienceUI35SharingInviteActivityViewControllerCMa"
+- "_$s18HealthExperienceUI36CollectionHeaderWithIconReusableViewCMa"
+- "_$s18HealthExperienceUI40SummarySharingSelectionSuggestedCategoryO7keywordSSvg"
+- "_$s18HealthExperienceUI40SummarySharingSelectionSuggestedCategoryO8keywords3forSaySSGSo13HKDisplayTypeC_tFZ"
+- "_$s18HealthExperienceUI40SummarySharingSelectionSuggestedCategoryOMa"
+- "_$s18HealthExperienceUI41MessageWithActionVCAutomationBaseProviderPAAE14baseIdentifierSSSgvM"
+- "_$s18HealthExperienceUI41MessageWithActionVCAutomationBaseProviderPAAE14baseIdentifierSSSgvg"
+- "_$s18HealthExperienceUI41MessageWithActionVCAutomationBaseProviderPAAE14baseIdentifierSSSgvs"
+- "_$s18HealthExperienceUI41MessageWithActionVCAutomationBaseProviderPAASo16UIViewControllerCRbzrlE27updateAutomationIdentifiers4withySSSg_tF"
+- "_$s18HealthExperienceUI42ContentConfigurationCollectionViewListCellCMa"
+- "_$s18HealthExperienceUI44SummarySharingSelectionSuggestedLabsCategoryOMa"
+- "_$s18HealthExperienceUI52StandardWithChartDataTypeDetailConfigurationProviderV13configuration3forAA0ghiJ0VSo08HKObjectH0C_tF"
+- "_$s18HealthExperienceUI52StandardWithChartDataTypeDetailConfigurationProviderVACycfC"
+- "_$s18HealthExperienceUI52StandardWithChartDataTypeDetailConfigurationProviderVMa"
+- "_$s18HealthExperienceUI57StandardWithSampleListDataTypeDetailConfigurationProviderV13configuration3forAA0hijK0VSo08HKObjectI0C_tF"
+- "_$s18HealthExperienceUI57StandardWithSampleListDataTypeDetailConfigurationProviderVACycfC"
+- "_$s18HealthExperienceUI57StandardWithSampleListDataTypeDetailConfigurationProviderVMa"
+- "_$s18HealthExperienceUI8HostViewC06parentE10ControllerSo06UIViewG0CSgvgTj"
+- "_$s18HealthExperienceUI8HostViewC06parentE10ControllerSo06UIViewG0CSgvsTj"
+- "_$s18HealthExperienceUI8HostViewC14hostedViewableAA0G0_pSgvgTj"
+- "_$s18HealthExperienceUI8HostViewC14hostedViewableAA0G0_pSgvsTj"
+- "_$s18HealthExperienceUI8HostViewCMa"
+- "_$sSS18HealthExperienceUIE29sidebarCategoryFeedItemPrefixSSvgZ"
+- "_$sSo17HKDisplayCategoryC18HealthExperienceUIE25sidebarFeedItemIdentifierSSvg"
+- "_$sSo19HKFeatureIdentifiera18HealthExperienceUIE11descriptionSSvg"
+- "_$sSo6UIFontC18HealthExperienceUIE10createFont4with6weight6traits7rounded26maximumContentSizeCategory19respectsDynamicTypeABSo0A9TextStylea_So0A6WeightaSgSo0A24DescriptorSymbolicTraitsVSbSo09UIContentmN0aSgSbtFZ"
+- "e9animation06enableG0Qrqd___AA0G0VSbtSQRd__lF"
+- "yBoxSo6CGRectVvg"
+
+```

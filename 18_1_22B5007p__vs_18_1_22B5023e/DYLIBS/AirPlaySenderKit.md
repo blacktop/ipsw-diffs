@@ -1,0 +1,240 @@
+## AirPlaySenderKit
+
+> `/System/Library/PrivateFrameworks/AirPlaySenderKit.framework/AirPlaySenderKit`
+
+```diff
+
+-800.68.1.0.0
+-  __TEXT.__text: 0xbc00
+-  __TEXT.__auth_stubs: 0xb00
+-  __TEXT.__objc_methlist: 0x2e4
++830.2.0.0.0
++  __TEXT.__text: 0xbff4
++  __TEXT.__auth_stubs: 0xbd0
++  __TEXT.__objc_methlist: 0x2ec
+   __TEXT.__const: 0x88
+-  __TEXT.__cstring: 0x2648
++  __TEXT.__cstring: 0x2682
+   __TEXT.__gcc_except_tab: 0xc8
+-  __TEXT.__unwind_info: 0x2b8
+-  __TEXT.__objc_classname: 0x74
+-  __TEXT.__objc_methname: 0x8fa
+-  __TEXT.__objc_methtype: 0x403
+-  __TEXT.__objc_stubs: 0x680
+-  __DATA_CONST.__got: 0x1a0
+-  __DATA_CONST.__const: 0x758
++  __TEXT.__unwind_info: 0x2c8
++  __TEXT.__objc_classname: 0x75
++  __TEXT.__objc_methname: 0x96b
++  __TEXT.__objc_methtype: 0x445
++  __TEXT.__objc_stubs: 0x6e0
++  __DATA_CONST.__got: 0x1a8
++  __DATA_CONST.__const: 0x780
+   __DATA_CONST.__objc_classlist: 0x20
+   __DATA_CONST.__objc_protolist: 0x18
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x240
++  __DATA_CONST.__objc_selrefs: 0x258
+   __DATA_CONST.__objc_superrefs: 0x20
+-  __AUTH_CONST.__auth_got: 0x590
++  __AUTH_CONST.__auth_got: 0x5f8
+   __AUTH_CONST.__const: 0x190
+   __AUTH_CONST.__cfstring: 0x160
+-  __AUTH_CONST.__objc_const: 0xa80
++  __AUTH_CONST.__objc_const: 0xb10
+   __AUTH.__objc_data: 0x140
+-  __DATA.__objc_ivar: 0x78
++  __DATA.__objc_ivar: 0x88
+   __DATA.__data: 0x230
+   __DATA.__bss: 0xa0
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+
+   - /System/Library/PrivateFrameworks/CoreUtils.framework/CoreUtils
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  Functions: 199
+-  Symbols:   442
+-  CStrings:  161
++  Functions: 203
++  Symbols:   460
++  CStrings:  0
+ 
+Symbols:
++ _APSRealTimeSignalCreate
++ _APSRealTimeSignalRaise
++ _APSRingBufferCreate
++ _APSRingBufferDequeueBytes
++ _APSRingBufferEnqueueBytes
++ _APSRingBufferGetBytesFree
++ _APSRingBufferGetBytesUsed
++ _CMClockConvertHostTimeToSystemUnits
++ _CMClockMakeHostTimeFromSystemUnits
++ _OBJC_CLASS_$_NSMutableData
++ _dispatch_queue_attr_make_with_qos_class
++ _objc_alloc
++ _objc_autoreleaseReturnValue
++ _objc_retain_x26
+CStrings:
+- "24MarketingActionItemStyleO16footnotePositionAA0ced8FootnoteH0Ovg"
+- "ReadyToPlayyycSgvsTj"
+- "_$s11SeymourCore12PortableEnumO0A5MediaAA07CatalogE4TypeORszrlE11isAudioOnlySbvg"
+- "_$s11SeymourCore16CatalogMediaTypeO0aD0E11isAudioOnlySbvg"
+- "_$s11SeymourCore16GymKitConnectionV0A5MediaE8isActiveSbvg"
+- "_$s11SeymourCore26MetricClickMarketingFieldsV0A5MediaE4fromACSo16AMSMarketingItemC_tcfC"
+- "_$s11SeymourCore7SessionV0A5MediaE13shouldArchive29standaloneWorkoutTimeProviderSbAD010StandalonehI9Providing_p_tF"
+- "_$s11SeymourCore7SessionV0A5MediaE13shouldArchive7workout29standaloneWorkoutTimeProviderSbAA0I0VSg_AD010StandaloneiJ9Providing_ptFZ"
+- "_$s12CoreGraphics7CGFloatV12SeymourMediaE7radians7degreesACSi_tFZ"
+- "_$s12SeymourMedia07SessionB17MomentsPrefetcherC18artworkImageLoader14catalogWorkout8eventHubAcA07ArtworkG7Loading_p_0A4Core07CatalogJ0V0A6Client05EventL8Protocol_ptcfc"
+- "_$s12SeymourMedia07SessionB17MomentsPrefetcherC8activate11artworkSizeySo6CGSizeVSgyc_tFTj"
+- "_$s12SeymourMedia07SessionB17MomentsPrefetcherCMa"
+- "_$s12SeymourMedia09PictureInC7StartedVACycfC"
+- "_$s12SeymourMedia09PictureInC7StartedVMa"
+- "_$s12SeymourMedia09PictureInC7StoppedVACycfC"
+- "_$s12SeymourMedia09PictureInC7StoppedVMa"
+- "_$s12SeymourMedia09PictureInC8StartingVACycfC"
+- "_$s12SeymourMedia09PictureInC8StartingVMa"
+- "_$s12SeymourMedia09PictureInC8StoppingVACycfC"
+- "_$s12SeymourMedia09PictureInC8StoppingVMa"
+- "_$s12SeymourMedia0B14PlayerSyncLinkC16multiUserSession0fG6Client07sessionI08eventHubAC0A4Core05MultigH0V_0aI00ngI8Protocol_pAK0hiO0_pAK05EventlO0_ptcfc"
+- "_$s12SeymourMedia0B14PlayerSyncLinkCMa"
+- "_$s12SeymourMedia0B15PlayerActivatedV4itemSo12AVPlayerItemCvg"
+- "_$s12SeymourMedia0B15PlayerActivatedV6playerSo8AVPlayerCvg"
+- "_$s12SeymourMedia0B15PlayerActivatedVMa"
+- "_$s12SeymourMedia0B16TagStringBuilderC19storefrontLocalizer5table16wheelchairStatus8platformAcA20StorefrontLocalizing_p_SSSgAA010WheelchairJ0_p0A4Core8PlatformOtcfc"
+- "_$s12SeymourMedia0B17PlayerDeactivatedVMa"
+- "_$s12SeymourMedia0B17TagStringBuildingP010attributedD03for7optionsSo012NSAttributedD0CSay0A4Core0bC0OG_AA0bcD14BuilderOptionsVtFTj"
+- "_$s12SeymourMedia0B17TagStringBuildingP16isWheelchairUserSbvgTj"
+- "_$s12SeymourMedia0B20PlayerPlaybackFailedV5errors5Error_pvg"
+- "_$s12SeymourMedia0B20PlayerPlaybackFailedVMa"
+- "_$s12SeymourMedia0B23TagStringBuilderOptionsV20defaultWithOverrides22highlightColorOverride017fallbackHighlightK018lineHeightMultiple0O7Spacing014nonHighlightedK013textAlignment0O9BreakModeACSo7UIColorCSg_AN12CoreGraphics7CGFloatVSgArNSo06NSTextV0VSgSo06NSLinewX0VSgtFZ"
+- "_$s12SeymourMedia0B24PlayerElapsedTimeChangedV05totalE0So6CMTimeavg"
+- "_$s12SeymourMedia0B24PlayerElapsedTimeChangedV07elapsedE0So6CMTimeavg"
+- "_$s12SeymourMedia0B24PlayerElapsedTimeChangedVMa"
+- "_$s12SeymourMedia0B6PlayerCMa"
+- "_$s12SeymourMedia0B7PlayingP10deactivateyyFTj"
+- "_$s12SeymourMedia0B7PlayingP11endPlaybackyyFTj"
+- "_$s12SeymourMedia0B7PlayingP13allowTimeJumpyyFTj"
+- "_$s12SeymourMedia0B7PlayingP13beginPlaybackSbyFTj"
+- "_$s12SeymourMedia0B7PlayingP15preventTimeJumpyyFTj"
+- "_$s12SeymourMedia0B7PlayingP15togglePlayPauseyyFTj"
+- "_$s12SeymourMedia0B7PlayingP18resumeSyncPlaybackyyFTj"
+- "_$s12SeymourMedia0B7PlayingP19connectSyncPlayback011mediaPlayerE4LinkyAA0bheI0C_tFTj"
+- "_$s12SeymourMedia0B7PlayingP19suspendSyncPlaybackyyFTj"
+- "_$s12SeymourMedia0B7PlayingP22disconnectSyncPlaybackyyFTj"
+- "_$s12SeymourMedia0B7PlayingP25fetchSyncPlaybackPositionyyFTj"
+- "_$s12SeymourMedia0B7PlayingP5pauseyyFTj"
+- "_$s12SeymourMedia0B7PlayingP6resumeyyFTj"
+- "_$s12SeymourMedia0B7PlayingP6seekBy_10completionySd_ySbcSgtFTj"
+- "_$s12SeymourMedia12MetricRouterC12metricClient8eventHub011upNextQueueF0AC0aF00cF8Protocol_p_AG05EventhL0_pAG02UpjkfL0_ptcfC"
+- "_$s12SeymourMedia13MarketingLinkV2eeoiySbAC_ACtFZ"
+- "_$s12SeymourMedia13MarketingLinkV3url10Foundation3URLVvg"
+- "_$s12SeymourMedia13MarketingLinkV4typeSo16AMSParserURLTypeVvg"
+- "_$s12SeymourMedia13MarketingLinkVMa"
+- "_$s12SeymourMedia13PixelGeometryV03oneC02in12CoreGraphics7CGFloatVSo8UIWindowCSg_tFZ"
+- "_$s12SeymourMedia15ImageDescriptorOMa"
+- "_$s12SeymourMedia15MarketingActionO18subscriptionAdamIdSSSgvg"
+- "_$s12SeymourMedia15MarketingActionOMa"
+- "_$s12SeymourMedia15MarketingMetricV10actionItem5offerAcA0c6ActionF0VSg_AA0C5OfferVSgtcfC"
+- "_$s12SeymourMedia17CountdownRingViewC8diameter9thickness8topColor06bottomI08isOpaqueACSf_SfSo7UIColorCAJSbtcfc"
+- "_$s12SeymourMedia17CountdownRingViewCMa"
+- "_$s12SeymourMedia17NowPlayingUpdaterC12dependencies11mediaPlayer11isAudioOnly03nowD10InfoCenter013remoteCommandN0AC0A4Core12DependenciesC_AA0bD0_pSgSbAA0cdmN8Protocol_pAA06RemotepnS0_ptcfc"
+- "_$s12SeymourMedia17NowPlayingUpdaterCMa"
+- "_$s12SeymourMedia18MarketingLinkErrorOMa"
+- "_$s12SeymourMedia18NowPlayingUpdatingP016configureDefaultcD10Dictionary4with18albumTitleProperty06artistL005titleL007artworkL0ySd_S2SSgAJ0A4Core7ArtworkVSgtFTj"
+- "_$s12SeymourMedia18NowPlayingUpdatingP06updatecD4Info8propertyyAA0cdG8PropertyO_tFTj"
+- "_$s12SeymourMedia18NowPlayingUpdatingP10deactivateyyFTj"
+- "_$s12SeymourMedia18NowPlayingUpdatingP8activateyyFTj"
+- "_$s12SeymourMedia19ArtworkImageLoadingP013fetchFallbackC03for0A4Core7PromiseVySo7UIImageCGSo6CGSizeV_tFTj"
+- "_$s12SeymourMedia19ArtworkImageLoadingP05fetchC0_4size0A4Core7PromiseVySo7UIImageCGAF0C0V_So6CGSizeVtFTj"
+- "_$s12SeymourMedia19ArtworkImageLoadingP05fetchC0_4size8cropCode0A4Core7PromiseVySo7UIImageCGAG0C0V_So6CGSizeVSStFTj"
+- "_$s12SeymourMedia19MarketingActionItemV2eeoiySbAC_ACtFZ"
+- "_$s12SeymourMedia19MeditationConstantsV17meditationKeyTintSo7UIColorCvgZ"
+- "_$s12SeymourMedia19MeditationConstantsV17meditationRingTopSo7UIColorCvgZ"
+- "_$s12SeymourMedia19MeditationConstantsV20meditationRingBottomSo7UIColorCvgZ"
+- "_$s12SeymourMedia20MetricPagePublishingPAAE06metricD20TopicRoutingBehavior0A4Core0cghI0Ovg"
+- "_$s12SeymourMedia20MetricPagePublishingPAAE07publishd11DidChangeToD0yy0A4Core0cD0VF"
+- "_$s12SeymourMedia20MetricPagePublishingPAAE21publishBackNavigationyyF"
+- "_$s12SeymourMedia20MetricPagePublishingPAAE25publishModalViewDismissedyySo16UIViewControllerCF"
+- "_$s12SeymourMedia20StorefrontLocalizingP19activeLanguageIsRTLSbvgTj"
+- "_$s12SeymourMedia20StorefrontLocalizingP19wlanStandardsStringSSvgTj"
+- "_$s12SeymourMedia20StorefrontLocalizingPAAE15localizedString6format4argsS2S_s7CVarArg_pdtF"
+- "_$s12SeymourMedia21ArtworkFlavorMatchingPAAE07artworkE07variant0A4Core0C0VSgAF0cD7VariantO_tF"
+- "_$s12SeymourMedia21MarketingItemProviderC07accountE03bag18subscriptionClient5queue16clientIdentifier0K7Version11serviceTypeAC0aI8Services16AccountProviding_p_So14AMSBagProtocol_p0aI0019ServiceSubscriptioniT0_pSo012OS_dispatch_J0CS3Stcfc"
+- "_$s12SeymourMedia21MarketingItemProviderCMa"
+- "_$s12SeymourMedia21MetricClickPublishingPAAE07publishD010actionType06targetH00I10Identifier0ijH010metricPage9locations11impressions20topicRoutingBehaviory0A4Core0cD6ActionO_AM0cD7ElementOSSAM0cD11DestinationOSgAM0cL0VSayAM0C8LocationVGSay10Foundation4DataVGAM0c5TopicpQ0OtF"
+- "_$s12SeymourMedia21MetricClickPublishingPAAE07publishD010actionType0G7Context0G3URL06targetH00K10Identifier0klH010metricPage9locations05offerH011impressions15marketingFields0r7MessageL00R9Placement20topicRoutingBehaviory0A4Core0cD6ActionO_AS0cdzI0OSg10Foundation0J0VSgAS0cD7ElementOSSAS0cD11DestinationOSgAS0cN0VSayAS0C8LocationVGSSSgSayAY4DataVGAS0cd9MarketingS0VSgA11_A11_AS0c5TopicwX0OtF"
+- "_$s12SeymourMedia21MetricClickPublishingPAAE07publishD010actionType0G7Context0G3URL06targetH00K10Identifier0klH010metricPage9locations05offerH011impressions15marketingFields0r7MessageL00R9Placement8metadata20topicRoutingBehaviory0A4Core0cD6ActionO_AT0cd6ActionI0OSg10Foundation0J0VSgAT0cD7ElementOSSAT0cD11DestinationOSgAT0cN0VSayAT0C8LocationVGSSSgSayAZ4DataVGAT0cd9MarketingS0VSgA12_A12_SDyAT0C13MetadataFieldOs11AnyHashableVGAT0c5TopicxY0OtF"
+- "_$s12SeymourMedia21SessionEventPublisherC8activate12sessionTokeny0A6Client0cH0C_tF"
+- "_$s12SeymourMedia21SessionEventPublisherC8eventHubAC0A6Client0dG8Protocol_p_tcfc"
+- "_$s12SeymourMedia21SessionEventPublisherCMa"
+- "_$s12SeymourMedia22MarketingItemProvidingP05fetchcD03for9offerHint0A4Core7PromiseVySo012AMSMarketingD0CGSS_SSSgtFTj"
+- "_$s12SeymourMedia22MarketingItemProvidingPAAE05fetchcD03for9offerHint0A4Core7PromiseVySo012AMSMarketingD0CGAG0C15UpsellPlacementO_SSSgtF"
+- "_$s12SeymourMedia22MarketingOfferTemplateO016makeHeaderUpsellE04fromACSo16AMSMarketingItemC_tFZ"
+- "_$s12SeymourMedia22MarketingOfferTemplateOMa"
+- "_$s12SeymourMedia22NowPlayingInfoPropertyOMa"
+- "_$s12SeymourMedia22PlaybackTimelineRegionP9timeRangeSnySdGvgTj"
+- "_$s12SeymourMedia22QualityReportingEntityOMa"
+- "_$s12SeymourMedia22RemoteCommandTriggeredV06remoteD0AA0cD0Ovg"
+- "_$s12SeymourMedia22RemoteCommandTriggeredVMa"
+- "_$s12SeymourMedia23AudioSessionCoordinatorC018configureForSpokenC8PlaybackyyFTj"
+- "_$s12SeymourMedia23AudioSessionCoordinatorC019configureForAmbientC8PlaybackyyFTj"
+- "_$s12SeymourMedia23AudioSessionCoordinatorC25configureForMoviePlaybackyyFTj"
+- "_$s12SeymourMedia23AudioSessionCoordinatorC25configureForMusicPlaybackyyFTj"
+- "_$s12SeymourMedia23MarketingOperationBeganVACycfC"
+- "_$s12SeymourMedia23MarketingOperationBeganVMa"
+- "_$s12SeymourMedia23MarketingPurchaseResultOMa"
+- "_$s12SeymourMedia23QualityReportingOptionsV10dictionary17contentIdentifier016streamingProgramH06entity13sessionOrigin8platformSDySSypGSS_SSSgAA0cD6EntityO0A6Client07SessionM0OSg0A4Core8PlatformOtFZ"
+- "_$s12SeymourMedia23SessionStartDateUpdatedV05startE0AC10Foundation0E0V_tcfC"
+- "_$s12SeymourMedia23SiriEndSessionRequestedVMa"
+- "_$s12SeymourMedia24MarketingActionItemStyleOMa"
+- "_$s12SeymourMedia24MarketingArtworkPositionOMa"
+- "_$s12SeymourMedia24SiriBeginSessionCriteriaV10candidatesShy0A4Core0C21StartWorkoutCandidateVGvg"
+- "_$s12SeymourMedia24SiriBeginSessionCriteriaV21healthKitActivityType10candidates21personalizationMethodACSuSg_Shy0A4Core0C21StartWorkoutCandidateVGAH0c15PersonalizationM0OtcfC"
+- "_$s12SeymourMedia24SiriBeginSessionCriteriaV21healthKitActivityTypeSuSgvg"
+- "_$s12SeymourMedia24SiriBeginSessionCriteriaV21personalizationMethod0A4Core0c15PersonalizationH0Ovg"
+- "_$s12SeymourMedia24SiriBeginSessionCriteriaV2eeoiySbAC_ACtFZ"
+- "_$s12SeymourMedia24SiriUserActivityHandlingP06handleE0yySo06NSUserE0CFTj"
+- "_$s12SeymourMedia24SiriUserActivityHandlingP09canHandleE0ySbSo06NSUserE0CFTj"
+- "_$s12SeymourMedia25MetricImpressionConsumingP18consumeImpressions2onSay10Foundation4DataVGAF4DateV_tFTj"
+- "_$s12SeymourMedia25MetricImpressionConsumingP27snapshotOnScreenImpressions2onSay10Foundation4DataVGAF4DateV_tFTj"
+- "_$s12SeymourMedia25MetricImpressionConsumingPAAE18consumeImpressions2onSay10Foundation4DataVGAF4DateV_tF"
+- "_$s12SeymourMedia25MetricImpressionConsumingPAAE27snapshotOnScreenImpressions2onSay10Foundation4DataVGAF4DateV_tF"
+- "_$s12SeymourMedia25SiriBeginSessionRequestedV8criteriaAA0cdE8CriteriaVvg"
+- "_$s12SeymourMedia26ServiceSubscriptionCachingP17fetchIsSubscribedSbyYaKFTj"
+- "_$s12SeymourMedia26ServiceSubscriptionCachingP8activateyyFTj"
+- "_$s12SeymourMedia26ServiceSubscriptionCachingPAAE17fetchIsSubscribedSbyYaKF"
+- "_$s12SeymourMedia26ServiceSubscriptionCachingPAAE5fetch0A4Core7PromiseVyAE0cD0VGyF"
+- "_$s12SeymourMedia26ServiceSubscriptionCachingPAAE5query0A4Core7PromiseVyAE0cD0VGyF"
+- "_$s12SeymourMedia26SiriResumeSessionRequestedVMa"
+- "_$s12SeymourMedia27MarketingSubscriptionStatusO16clickStreamTopic20topicRoutingBehavior8platform0A4Core011MetricClickgH0OAG0nhjK0O_AG8PlatformOtF"
+- "_$s12SeymourMedia27MarketingSubscriptionStatusO8rawValueSSvg"
+- "_$s12SeymourMedia27MarketingSubscriptionStatusOMa"
+- "_$s12SeymourMedia27MetricResignActiveObservingPAASo16UIViewControllerCRbzAA0C20ImpressionPublishingRzrlE06removedE8ObserveryyF"
+- "_$s12SeymourMedia27StandaloneWorkoutJobServiceC16healthDataClient8eventHub010standaloneD12TimeProvider8platformAC0aI006HealthhI8Protocol_p_AH05EventkQ0_pAA0cdM9Providing_p0A4Core8PlatformOtcfc"
+- "_$s12SeymourMedia27WorkoutPlanArchiverProtocolP7archive13planReference17workoutIdentifier07sessionK0y0A4Core0cdI0VSg_S2StYaFTj"
+- "_$s12SeymourMedia28MarketingMetricConfigurationV15shouldAnonymize7overlayACSb_SDySSs11AnyHashableVGtcfC"
+- "_$s12SeymourMedia28MarketingMetricConfigurationV15shouldAnonymizeSbvg"
+- "_$s12SeymourMedia28MarketingMetricConfigurationV2eeoiySbAC_ACtFZ"
+- "_$s12SeymourMedia28MarketingMetricConfigurationV7overlaySDySSs11AnyHashableVGvg"
+- "_$s12SeymourMedia28MarketingMetricConfigurationVMa"
+- "_$s12SeymourMedia28ModalViewControllerDismissedV05modaldE0So06UIViewE0Cvg"
+- "_$s12SeymourMedia28PlaybackTimelineEventStartedV5eventxvg"
+- "_$s12SeymourMedia29ServiceSubscriptionCacheErrorOMa"
+- "_$s12SeymourMedia30RemoteBrowsingWheelchairStatusC6sourceAC0A6Client0cD14SourceQuerying_p_tcfc"
+- "_$s12SeymourMedia30RemoteBrowsingWheelchairStatusCMa"
+- "_$s12SeymourMedia30StandaloneWorkoutTimeProvidingP07currentE0SdvgTj"
+- "_$s12SeymourMedia37SessionDismissalConfirmationRequestedVACycfC"
+- "_$s12SeymourMedia37SessionDismissalConfirmationRequestedVMa"
+- "_$s12SeymourMedia9AudioHintV7contentSSvg"
+- "_$s12SeymourMedia9AudioHintVMa"
+- "_$s13SeymourClient05AssetB8ProtocolP0A5MediaE17queryPreferredURL06remoteH00A4Core7PromiseVy10Foundation0H0VGAL_tF"
+- "_$sSo14AMSBagProtocolP12SeymourMediaE17makeMarketingLink3for0C4Core7PromiseVyAC0fG0VG10Foundation3URLV_tF"
+- "_$sSo14AMSProcessInfoC12SeymourMediaE22withTreatmentNamespaceyABSSSgF"
+- "_$sSo16AMSMarketingItemC12SeymourMediaE7metricss11AnyHashableVSgvg"
+- "_$sSo6CGRectV12SeymourMediaE8centered2inA2B_tF"
+- "_$sSo6CGRectV12SeymourMediaE8midPointSo7CGPointVvg"
+- "_$sSo6CMTimea12SeymourMediaE11elapsedTimeSdvg"
+- "etingActionItemV5styleAA0cdE5StyleOvg"
+- "l_p_tFTj"
+
+```
