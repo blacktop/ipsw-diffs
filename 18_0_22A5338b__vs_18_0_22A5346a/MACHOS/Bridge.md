@@ -40,10 +40,10 @@
 +  CStrings:  14531
  
 CStrings:
-+ "@3x.png"
 + "updating hero image in get started ViewController"
 + "updating hero image in pairing type selection ViewController"
-- "-foghorn"
++ "@3x.png"
 - "updateing hero image"
+- "-foghorn"
 
 ```

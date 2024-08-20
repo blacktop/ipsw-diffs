@@ -55,11 +55,11 @@
 +  CStrings:  8909
  
 CStrings:
-+ "22:11:19"
 + "Aug 12 2024"
++ "22:11:19"
+- "Aug  6 2024"
 - "16:52:03"
 - "@44@0:8@16i24@28@36"
-- "Aug  6 2024"
 - "initWithTrafficAndETAResult:transportType:location:time:"
 
 ```

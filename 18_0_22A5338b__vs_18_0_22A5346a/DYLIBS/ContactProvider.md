@@ -51,7 +51,7 @@
    CStrings:  299
  
 Symbols:
-- __objc_autoreleasePoolPop
 - __objc_autoreleasePoolPush
+- __objc_autoreleasePoolPop
 
 ```

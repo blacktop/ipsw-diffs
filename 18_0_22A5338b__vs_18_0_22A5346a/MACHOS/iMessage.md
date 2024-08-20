@@ -64,8 +64,8 @@
 +  CStrings:  4156
  
 Symbols:
-+ _swift_initStackObject
 + _swift_setDeallocating
++ _swift_initStackObject
 CStrings:
 + "serviceOfLastMessage"
 

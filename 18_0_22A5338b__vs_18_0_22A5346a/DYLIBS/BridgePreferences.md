@@ -64,17 +64,17 @@
 +  CStrings:  2247
  
 Symbols:
-+ _NSStringFromCGRect
 + _PSIsInternalInstall
++ _NSStringFromCGRect
 CStrings:
++ "TB,N,V_usingFallbackScreen"
 + "DebugIdealAssetAgave"
 + "Did not resolve to valid screen image!"
++ "watchScreenViewFrame: %!@(MISSING)"
 + "Original ImageName: %!@(MISSING)"
++ "usingFallbackScreen"
 + "Resolved ImageName: %!@(MISSING)"
-+ "TB,N,V_usingFallbackScreen"
 + "_usingFallbackScreen"
 + "setUsingFallbackScreen:"
-+ "usingFallbackScreen"
-+ "watchScreenViewFrame: %!@(MISSING)"
 
 ```

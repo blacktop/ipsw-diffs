@@ -16,23 +16,6 @@
 
 ## MachO
 
-### 🆕 NEW (14)
-
-- `/System/Library/Accounts/DataclassOwners/Bookmarks.bundle/Bookmarks`
-- `/System/Library/ExtensionKit/Extensions/GPUExtension.appex/com.apple.WebKit.GPU`
-- `/System/Library/ExtensionKit/Extensions/NetworkingExtension.appex/com.apple.WebKit.Networking`
-- `/System/Library/ExtensionKit/Extensions/WebContentCaptivePortalExtension.appex/com.apple.WebKit.WebContent.CaptivePortal`
-- `/System/Library/ExtensionKit/Extensions/WebContentExtension.appex/com.apple.WebKit.WebContent`
-- `/System/Library/Frameworks/SafariServices.framework/PlugIns/SafariServices.wkbundle/SafariServices`
-- `/System/Library/Frameworks/SafariServices.framework/XPCServices/com.apple.SafariServices.ContentBlockerLoader.xpc/com.apple.SafariServices.ContentBlockerLoader`
-- `/System/Library/Frameworks/WebKit.framework/Daemons/adattributiond`
-- `/System/Library/PrivateFrameworks/PlugInKitDaemon.framework/PlugInKitDaemon`
-- `/System/Library/PrivateFrameworks/SafariFoundation.framework/XPCServices/AutoFillHelper.xpc/AutoFillHelper`
-- `/System/Library/PrivateFrameworks/SafariFoundation.framework/XPCServices/CredentialProviderExtensionHelper.xpc/CredentialProviderExtensionHelper`
-- `/System/Library/PrivateFrameworks/SafariFoundation.framework/XPCServices/SafariConfigurationSubscriber.xpc/SafariConfigurationSubscriber`
-- `/System/Library/PrivateFrameworks/SafariShared.framework/XPCServices/com.apple.Safari.SearchHelper.xpc/com.apple.Safari.SearchHelper`
-- `/System/Library/PrivateFrameworks/VisualTestKit.framework/VisualTestKit`
-
 ### ⬆️ Updated (53)
 
 <details>
@@ -123,15 +106,15 @@
 +  CStrings:  17209
  
 CStrings:
-+ "21:22:32"
-+ "Aug 12 2024"
-+ "LCBGA %s: Ch%d Focus Power Rail is off, Aborting\n"
-+ "LCBGA %s: Ch%d Stopping\n"
-+ "LCDRV %s: Done\n"
-+ "LCDRV %s: Suspending"
-+ "LCDRV ch%u Channel start attempted while %s active\n"
 + "LCDRV ch%u Channel stop attempted while %s active\\n"
 + "LENSC: %s ch%zu L%d: Focus Power Rail already on!\n"
++ "LCBGA %s: Ch%d Stopping\n"
++ "LCDRV ch%u Channel start attempted while %s active\n"
++ "LCBGA %s: Ch%d Focus Power Rail is off, Aborting\n"
++ "LCDRV %s: Suspending"
++ "Aug 12 2024"
++ "LCDRV %s: Done\n"
++ "21:22:32"
 + "LENSC: %s ch%zu L%d: Sensor Power Rail already on!\n"
 - "10:52:12"
 - "Aug  7 2024"

@@ -65,36 +65,36 @@
  
 Symbols:
 + _$s7SwiftUI13AnyShapeStyleVMn
-+ _$s7SwiftUI13AnyShapeStyleVyACxcAA0dE0RzlufC
-+ _$s7SwiftUI17EnvironmentValuesV4tintAA13AnyShapeStyleVSgvg
 + _$s7SwiftUI17EnvironmentValuesV4tintAA13AnyShapeStyleVSgvpMV
-+ _$s7SwiftUI17EnvironmentValuesV4tintAA13AnyShapeStyleVSgvs
-+ _$s7SwiftUI4TextV15foregroundStyleyACxAA05ShapeE0RzlF
-+ _$s7SwiftUI5ColorV4blueACvgZ
 + _$s7SwiftUI5ColorVAA10ShapeStyleAAWP
-+ _$s7SwiftUI5ColorVN
-+ _$s7SwiftUI5ColorVyACSo7UIColorCcfC
++ _$s7SwiftUI17EnvironmentValuesV4tintAA13AnyShapeStyleVSgvs
++ _$s7SwiftUI17EnvironmentValuesV4tintAA13AnyShapeStyleVSgvg
++ _$s7SwiftUI5ColorV4blueACvgZ
 + _exit
-- _$s7SwiftUI10ButtonRoleV6cancelACvgZ
-- _$s7SwiftUI10ButtonRoleVMa
-- _$s7SwiftUI10ButtonRoleVMn
++ _$s7SwiftUI5ColorVyACSo7UIColorCcfC
++ _$s7SwiftUI13AnyShapeStyleVyACxcAA0dE0RzlufC
++ _$s7SwiftUI5ColorVN
++ _$s7SwiftUI4TextV15foregroundStyleyACxAA05ShapeE0RzlF
 - _$s7SwiftUI16KeyboardShortcutV13defaultActionACvgZ
-- _$s7SwiftUI16KeyboardShortcutVMa
-- _$s7SwiftUI4TextVN
-- _$s7SwiftUI4ViewPAAE16keyboardShortcutyQrAA08KeyboardE0VF
+- _$s7SwiftUI10ButtonRoleVMa
+- _$s7SwiftUI10ButtonRoleV6cancelACvgZ
 - _$s7SwiftUI4ViewPAAE16keyboardShortcutyQrAA08KeyboardE0VFQOMQ
-- _$s7SwiftUI4ViewPAAE5alert_11isPresented7actions7messageQrqd___AA7BindingVySbGqd_0_yXEqd_1_yXEtSyRd__AaBRd_0_AaBRd_1_r1_lF
-- _$s7SwiftUI4ViewPAAE5alert_11isPresented7actions7messageQrqd___AA7BindingVySbGqd_0_yXEqd_1_yXEtSyRd__AaBRd_0_AaBRd_1_r1_lFQOMQ
+- _$s7SwiftUI4TextVN
 - _$s7SwiftUI6ButtonVA2A4TextVRszrlE_4role6actionACyAEGqd___AA0C4RoleVSgyyctcSyRd__lufC
+- _$s7SwiftUI4ViewPAAE16keyboardShortcutyQrAA08KeyboardE0VF
+- _$s7SwiftUI4ViewPAAE5alert_11isPresented7actions7messageQrqd___AA7BindingVySbGqd_0_yXEqd_1_yXEtSyRd__AaBRd_0_AaBRd_1_r1_lF
 - _$s7SwiftUI6ButtonVA2A4TextVRszrlE_6actionACyAEGqd___yyctcSyRd__lufC
+- _$s7SwiftUI16KeyboardShortcutVMa
+- _$s7SwiftUI10ButtonRoleVMn
+- _$s7SwiftUI4ViewPAAE5alert_11isPresented7actions7messageQrqd___AA7BindingVySbGqd_0_yXEqd_1_yXEtSyRd__AaBRd_0_AaBRd_1_r1_lFQOMQ
 CStrings:
-+ "GET_STARTED_DESCRIPTION "
 + "GET_STARTED_SECOND_DESCRIPTION"
 + "tertiarySystemFillColor"
-- "ALLOW_ACCESS_TO_ALL_CONTACTS_DESCRIPTION "
-- "FULL_ACCESS_CONFIRMATION_TITLE "
-- "FULL_ALLOW_BUTTON"
++ "GET_STARTED_DESCRIPTION "
 - "FULL_CANCEL_BUTTON"
 - "GET_STARTED_DESCRIPTION"
+- "FULL_ALLOW_BUTTON"
+- "FULL_ACCESS_CONFIRMATION_TITLE "
+- "ALLOW_ACCESS_TO_ALL_CONTACTS_DESCRIPTION "
 
 ```

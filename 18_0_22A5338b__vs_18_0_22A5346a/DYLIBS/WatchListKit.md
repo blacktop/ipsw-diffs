@@ -82,48 +82,48 @@
 +  CStrings:  4815
  
 Symbols:
+- _nw_activity_create
 - _OBJC_CLASS_$_WLKMetricsActivity
+- _nw_activity_complete_with_reason_and_underlying_error
+- _nw_activity_complete_with_reason
 - _OBJC_METACLASS_$_WLKMetricsActivity
 - _nw_activity_activate
-- _nw_activity_complete_with_reason
-- _nw_activity_complete_with_reason_and_underlying_error
-- _nw_activity_create
-- _nw_activity_is_activated
 - _nw_activity_is_complete
+- _nw_activity_is_activated
 CStrings:
-+ "\x02\x11\x11\x12\x14"
-+ "@\"NSURLSessionDataTask\""
 + "T@\"NSURLSessionDataTask\",&,N,V_task"
++ "\x02\x11\x11\x12\x14"
 + "_task"
 + "setTask:"
 + "task"
-- "\x02\x12\x11\x12\x13"
-- "@\"NSObject<OS_nw_activity>\""
++ "@\"NSURLSessionDataTask\""
 - "@\"WLKMetricsActivity\""
 - "@20@0:8I16"
-- "@40@0:8@16q24@32"
-- "@56@0:8@16@24@32q40^@48"
-- "T@\"NSObject<OS_nw_activity>\",R,V_activity"
-- "T@\"WLKMetricsActivity\",&,N,V_nwactivity"
-- "TI,R,V_label"
-- "WLKMetricsActivity"
-- "WLKMetricsActivity - activity already completed."
-- "WLKMetricsActivity - activity not activated."
-- "WLKNetworkRequestUtilities - _prepareEncoder failed with error: %!@(MISSING)"
-- "_activity"
-- "_label"
-- "_nwactivity"
-- "_prepareEncoder:account:sessionConfiguration:options:error:"
 - "activity"
-- "dataTaskPromiseWithRequest:activity:"
-- "finish:"
+- "_activity"
 - "initWithLabel:"
-- "initWithURLRequest:options:activity:"
 - "invalidateAndCancel"
-- "label"
-- "nwactivity"
-- "setNwactivity:"
-- "startNetworkRequest:account:sessionConfiguration:options:activity:completion:"
+- "_label"
+- "WLKMetricsActivity"
+- "@56@0:8@16@24@32q40^@48"
+- "dataTaskPromiseWithRequest:activity:"
 - "v64@0:8@16@24@32q40@48@?56"
+- "_nwactivity"
+- "WLKMetricsActivity - activity not activated."
+- "_prepareEncoder:account:sessionConfiguration:options:error:"
+- "WLKMetricsActivity - activity already completed."
+- "startNetworkRequest:account:sessionConfiguration:options:activity:completion:"
+- "@40@0:8@16q24@32"
+- "@\"NSObject<OS_nw_activity>\""
+- "T@\"WLKMetricsActivity\",&,N,V_nwactivity"
+- "label"
+- "WLKNetworkRequestUtilities - _prepareEncoder failed with error: %!@(MISSING)"
+- "T@\"NSObject<OS_nw_activity>\",R,V_activity"
+- "finish:"
+- "initWithURLRequest:options:activity:"
+- "setNwactivity:"
+- "\x02\x12\x11\x12\x13"
+- "nwactivity"
+- "TI,R,V_label"
 
 ```

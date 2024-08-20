@@ -76,18 +76,18 @@
 +  CStrings:  13259
  
 CStrings:
-+ "_TtC12MobileSafariP33_D7BF0D66B145A49B4D76AB70D20D9C9919MediaPlaybackButton"
 + "_TtCC12MobileSafari17BrowsingAssistant10SwitchCell"
-+ "_TtCC12MobileSafari17BrowsingAssistant8ListCell"
 + "_TtCC12MobileSafari17BrowsingAssistant9PopUpCell"
-- "SFMediaPlaybackButton"
-- "T@\"_TtC12MobileSafari10MainButton\",N,R,VleadingButton"
-- "T@\"_TtC12MobileSafari10MainButton\",N,R,VtrailingButton"
-- "T@\"_TtC12MobileSafari15BlurrableButton\",N,R,VhideButton"
++ "_TtC12MobileSafariP33_D7BF0D66B145A49B4D76AB70D20D9C9919MediaPlaybackButton"
++ "_TtCC12MobileSafari17BrowsingAssistant8ListCell"
 - "_SFBrowsingAssistantListCell"
-- "_SFBrowsingAssistantPopUpCell"
-- "_SFBrowsingAssistantSwitchCell"
+- "T@\"_TtC12MobileSafari10MainButton\",N,R,VtrailingButton"
 - "listCellDidDeleteCell:"
+- "T@\"_TtC12MobileSafari10MainButton\",N,R,VleadingButton"
+- "_SFBrowsingAssistantSwitchCell"
+- "_SFBrowsingAssistantPopUpCell"
+- "SFMediaPlaybackButton"
+- "T@\"_TtC12MobileSafari15BlurrableButton\",N,R,VhideButton"
 - "listCellDidInsertCell:"
 
 ```

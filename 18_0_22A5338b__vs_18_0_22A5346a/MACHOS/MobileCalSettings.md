@@ -42,8 +42,8 @@
    CStrings:  890
  
 Symbols:
-- _objc_retain_x23
-- _objc_retain_x26
 - _objc_retain_x28
+- _objc_retain_x26
+- _objc_retain_x23
 
 ```

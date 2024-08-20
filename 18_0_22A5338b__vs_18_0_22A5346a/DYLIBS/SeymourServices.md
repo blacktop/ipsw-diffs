@@ -61,8 +61,8 @@
  
 CStrings:
 + "Couldn't find a step for fallback version %!{(MISSING)public}s."
-+ "Found invalid version %!{(MISSING)public}s. Attempting recovery by forcing data version %!{(MISSING)public}s"
 + "Found newer data version than expected %!{(MISSING)public}s. Expected: %!{(MISSING)public}s"
++ "Found invalid version %!{(MISSING)public}s. Attempting recovery by forcing data version %!{(MISSING)public}s"
 - "hasChanges"
 
 ```

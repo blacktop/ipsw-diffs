@@ -57,8 +57,8 @@
 Symbols:
 - _OBJC_CLASS_$_WLKMetricsActivity
 CStrings:
-- "initWithLabel:"
 - "networkActivity"
+- "initWithLabel:"
 - "setNwactivity:"
 
 ```

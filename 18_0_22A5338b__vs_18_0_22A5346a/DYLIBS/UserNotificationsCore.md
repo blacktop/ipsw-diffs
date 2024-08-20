@@ -92,10 +92,10 @@
 Symbols:
 + _swift_stdlib_random
 CStrings:
-+ "Using fuzz of %!f(MISSING)s. [%!f(MISSING)...%!f(MISSING)]"
 + "[%!s(MISSING)] Delaying closure by %!f(MISSING)s."
++ "com.apple.usernotifications.fuzz-timer"
 + "[%!s(MISSING)] Running."
 + "_TtC21UserNotificationsCore4Fuzz"
-+ "com.apple.usernotifications.fuzz-timer"
++ "Using fuzz of %!f(MISSING)s. [%!f(MISSING)...%!f(MISSING)]"
 
 ```

@@ -86,12 +86,12 @@
 Symbols:
 + _OBJC_CLASS_$_NSFileManager
 CStrings:
-+ "ControlsMigrationSettings.plist"
 + "Migration after first unlock error %!@(MISSING)"
 + "No old migration settings"
-+ "defaultManager"
 + "fileExistsAtPath:"
++ "ControlsMigrationSettings.plist"
 + "removeItemAtPath:error:"
++ "defaultManager"
 - "Prewarm the view controller cache..."
 - "hideAllIcons"
 - "showAllIcons"

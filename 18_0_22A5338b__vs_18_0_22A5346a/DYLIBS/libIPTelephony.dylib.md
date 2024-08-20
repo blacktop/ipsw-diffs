@@ -36,10 +36,10 @@
 CStrings:
 + "/AppleInternal/Library/BuildRoots/ae45abe7-5c23-11ef-b299-86b8363ea862/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.Internal.sdk/usr/local/include/ARI/ari_sdk_msg.h"
 + "/AppleInternal/Library/BuildRoots/ae45abe7-5c23-11ef-b299-86b8363ea862/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.Internal.sdk/usr/local/include/google/protobuf/repeated_field.h"
-- "/AppleInternal/Library/BuildRoots/69ce826a-553c-11ef-9150-5a7ac3341c94/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.Internal.sdk/usr/local/include/ARI/ari_sdk_msg.h"
-- "/AppleInternal/Library/BuildRoots/69ce826a-553c-11ef-9150-5a7ac3341c94/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.Internal.sdk/usr/local/include/google/protobuf/repeated_field.h"
-- "emergency call: isRegistrationRetryAllowed(): "
-- "emergencyRegistrationTimeout()..."
 - "normal call: isRegistrationRetryAllowed(): yes"
+- "emergency call: isRegistrationRetryAllowed(): "
+- "/AppleInternal/Library/BuildRoots/69ce826a-553c-11ef-9150-5a7ac3341c94/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.Internal.sdk/usr/local/include/google/protobuf/repeated_field.h"
+- "emergencyRegistrationTimeout()..."
+- "/AppleInternal/Library/BuildRoots/69ce826a-553c-11ef-9150-5a7ac3341c94/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.Internal.sdk/usr/local/include/ARI/ari_sdk_msg.h"
 
 ```

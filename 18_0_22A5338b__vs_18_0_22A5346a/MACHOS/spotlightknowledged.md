@@ -65,24 +65,24 @@
  
 Symbols:
 + _fts_close
-+ _fts_open
 + _fts_read
++ _fts_open
 CStrings:
-+ "### Unable to purge file at path <%!@(MISSING)>"
-+ "### error enumerating directory to files to purge: %!@(MISSING), %!@(MISSING)"
 + "### journal key %!@(MISSING) value: %!@(MISSING)"
-+ "### journalSizeUsed %!l(MISSING)ld %!l(MISSING)ld"
-+ "### purging files of size %!l(MISSING)ld at <%!@(MISSING)>"
-+ "### removing <%!@(MISSING)>"
++ "### Unable to purge file at path <%!@(MISSING)>"
 + "### removing SDB path %!@(MISSING)"
++ "### removing <%!@(MISSING)>"
++ "stringByDeletingPathExtension"
++ "### journalSizeUsed %!l(MISSING)ld %!l(MISSING)ld"
++ "### error enumerating directory to files to purge: %!@(MISSING), %!@(MISSING)"
 + "initWithBytes:length:encoding:"
 + "paths"
 + "skg_events_"
-+ "stringByDeletingPathExtension"
-- "%!@(MISSING) error initializing store for indexType %!u(MISSING)"
-- "CSJournalProcessor#_processOffsetAtOffset Error getting store for indexType %!u(MISSING)"
-- "DisableProcessingStateUpdater"
++ "### purging files of size %!l(MISSING)ld at <%!@(MISSING)>"
 - "SKGUpdaterStore#instanceForIndexType Error %!@(MISSING) creating %!@(MISSING)"
 - "SKGUpdaterStore#instanceForIndexType Error %!d(MISSING) opening  %!s(MISSING)"
+- "DisableProcessingStateUpdater"
+- "CSJournalProcessor#_processOffsetAtOffset Error getting store for indexType %!u(MISSING)"
+- "%!@(MISSING) error initializing store for indexType %!u(MISSING)"
 
 ```

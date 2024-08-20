@@ -21,11 +21,11 @@
    __TEXT.__objc_stubs: 0xec80
    __DATA_CONST.__got: 0x6f0
 CStrings:
-+ "_standardizeProcessorAttributesForBundle:protectionClass:"
 + "processorAttributesForRecord:bundleID:protectionClass:"
 + "standardizeAttributesForBundle:protectionClass:"
-- "_standardizeProcessorAttributesForBundle:"
-- "processorAttributesForRecord:bundleID:"
++ "_standardizeProcessorAttributesForBundle:protectionClass:"
 - "standardizeAttributesForBundle:"
+- "processorAttributesForRecord:bundleID:"
+- "_standardizeProcessorAttributesForBundle:"
 
 ```

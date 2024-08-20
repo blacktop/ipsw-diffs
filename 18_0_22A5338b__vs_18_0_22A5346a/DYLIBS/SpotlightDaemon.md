@@ -23,9 +23,9 @@
    __TEXT.__objc_stubs: 0x9e60
    __DATA_CONST.__got: 0x8d0
 CStrings:
-+ "2313.4.2"
 + "processorAttributesForRecord:bundleID:protectionClass:"
-- "2313.4.0.1"
++ "2313.4.2"
 - "processorAttributesForRecord:bundleID:"
+- "2313.4.0.1"
 
 ```

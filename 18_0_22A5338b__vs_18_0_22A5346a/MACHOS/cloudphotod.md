@@ -64,15 +64,15 @@
 +  CStrings:  11266
  
 CStrings:
-+ "Notified that user will be switched, we don't have a running sync task"
 + "Notified that user will be switched, we have a running sync task"
 + "Notified that we need to upload content. Starting sync task"
++ "Notified that user will be switched, we don't have a running sync task"
 + "startSyncTaskForDaemonLibraryManager:"
-- " in sync bubble"
 - " outside of sync bubble"
-- "Notified that user will be switched, we don't have a running logout sync task"
 - "Notified that user will be switched, we have a running logout sync task"
 - "Notified that we need to upload content. Starting sync task%!@(MISSING)"
+- " in sync bubble"
+- "Notified that user will be switched, we don't have a running logout sync task"
 - "endLogoutTaskForDaemonLibraryManager:"
 - "startLogoutTaskForDaemonLibraryManager:"
 

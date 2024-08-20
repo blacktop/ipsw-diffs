@@ -68,21 +68,21 @@
 +  CStrings:  34243
  
 CStrings:
-+ "-[FigCaptureSourceVibeMitigation _startMitigation]_block_invoke"
-+ "<<<< BWFigCaptureDevice >>>> %!s(MISSING): %!@(MISSING) disabling vibe mitigation"
-+ "<<<< BWFigCaptureDevice >>>> %!s(MISSING): %!@(MISSING) error disabling vibe mitigation: %!d(MISSING)"
-+ "<<<< BWFigCaptureStream >>>> %!s(MISSING): %!@(MISSING) disabling vibe mitigation"
-+ "<<<< BWFigCaptureStream >>>> %!s(MISSING): %!@(MISSING) error disabling vibe mitigation: %!d(MISSING)"
 + "<<<< FigCaptureSourceVibeMitigation >>>> %!s(MISSING): %!@(MISSING) attempting to disable vibe mitigation"
-+ "<<<< FigCaptureSourceVibeMitigation >>>> %!s(MISSING): %!@(MISSING) attempting to enable vibe mitigation"
-+ "<<<< FigCaptureSourceVibeMitigation >>>> %!s(MISSING): %!@(MISSING) error disabling vibe mitigation: %!d(MISSING)"
-+ "<<<< FigCaptureSourceVibeMitigation >>>> %!s(MISSING): %!@(MISSING) error enabling vibe mitigation: %!d(MISSING)"
-+ "<<<< FigCaptureSourceVibeMitigation >>>> %!s(MISSING): Device use requested. Stopping mitigation."
-+ "_deviceBecameUnavailable"
-+ "_deviceVendorClientID"
-+ "_mitigationWhileCameraStreamingSupported"
 + "_vibeMitigationWhileCameraStreamingSupported"
++ "-[FigCaptureSourceVibeMitigation _startMitigation]_block_invoke"
++ "<<<< BWFigCaptureStream >>>> %!s(MISSING): %!@(MISSING) error disabling vibe mitigation: %!d(MISSING)"
++ "_mitigationWhileCameraStreamingSupported"
++ "<<<< BWFigCaptureDevice >>>> %!s(MISSING): %!@(MISSING) disabling vibe mitigation"
++ "_deviceBecameUnavailable"
++ "<<<< FigCaptureSourceVibeMitigation >>>> %!s(MISSING): %!@(MISSING) error disabling vibe mitigation: %!d(MISSING)"
++ "<<<< BWFigCaptureDevice >>>> %!s(MISSING): %!@(MISSING) error disabling vibe mitigation: %!d(MISSING)"
++ "_deviceVendorClientID"
++ "<<<< FigCaptureSourceVibeMitigation >>>> %!s(MISSING): Device use requested. Stopping mitigation."
++ "<<<< BWFigCaptureStream >>>> %!s(MISSING): %!@(MISSING) disabling vibe mitigation"
 + "description=CameraCapture-575.14.1"
++ "<<<< FigCaptureSourceVibeMitigation >>>> %!s(MISSING): %!@(MISSING) error enabling vibe mitigation: %!d(MISSING)"
++ "<<<< FigCaptureSourceVibeMitigation >>>> %!s(MISSING): %!@(MISSING) attempting to enable vibe mitigation"
 - "description=CameraCapture-575.9.1"
 
 ```

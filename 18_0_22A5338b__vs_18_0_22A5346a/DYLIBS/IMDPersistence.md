@@ -57,7 +57,7 @@
 Symbols:
 + _IMDMigrateTo18016
 CStrings:
-+ "message(is_pending_satellite_send) WHERE is_pending_satellite_send=1"
 + "message_idx_is_pending_satellite_message"
++ "message(is_pending_satellite_send) WHERE is_pending_satellite_send=1"
 
 ```
