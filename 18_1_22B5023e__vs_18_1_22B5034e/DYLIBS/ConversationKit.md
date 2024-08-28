@@ -1,0 +1,407 @@
+## ConversationKit
+
+> `/System/Library/PrivateFrameworks/ConversationKit.framework/ConversationKit`
+
+```diff
+
+-525.200.2.2.2
+-  __TEXT.__text: 0x789080
+-  __TEXT.__auth_stubs: 0x7860
+-  __TEXT.__objc_methlist: 0x6350
+-  __TEXT.__const: 0x2a444
+-  __TEXT.__cstring: 0x2f97b
+-  __TEXT.__oslogstring: 0x18031
+-  __TEXT.__swift5_typeref: 0x269c6
+-  __TEXT.__swift5_capture: 0x8ddc
+-  __TEXT.__constg_swiftt: 0x1a0a8
++525.200.32.0.0
++  __TEXT.__text: 0x79b1fc
++  __TEXT.__auth_stubs: 0x7aa0
++  __TEXT.__objc_methlist: 0x63a0
++  __TEXT.__const: 0x2aa24
++  __TEXT.__cstring: 0x2fcbb
++  __TEXT.__oslogstring: 0x181a1
++  __TEXT.__swift5_typeref: 0x27a0a
++  __TEXT.__swift5_capture: 0x8e94
++  __TEXT.__constg_swiftt: 0x1a334
+   __TEXT.__swift5_builtin: 0x938
+   __TEXT.__swift5_mpenum: 0x1cc
+-  __TEXT.__swift5_reflstr: 0x1886d
+-  __TEXT.__swift5_fieldmd: 0x135e8
+-  __TEXT.__swift5_assocty: 0x2408
++  __TEXT.__swift5_reflstr: 0x18a2d
++  __TEXT.__swift5_fieldmd: 0x13740
++  __TEXT.__swift5_assocty: 0x2470
+   __TEXT.__swift5_protos: 0x30c
+-  __TEXT.__swift5_proto: 0x17e8
+-  __TEXT.__swift5_types: 0x1280
+-  __TEXT.__unwind_info: 0x1d0c8
+-  __TEXT.__eh_frame: 0x141e8
+-  __TEXT.__objc_classname: 0xd52
+-  __TEXT.__objc_methname: 0x15454
+-  __TEXT.__objc_methtype: 0x3929
+-  __TEXT.__objc_stubs: 0x760
+-  __DATA_CONST.__got: 0x28f8
+-  __DATA_CONST.__const: 0x4e10
+-  __DATA_CONST.__objc_classlist: 0xc48
++  __TEXT.__swift5_proto: 0x180c
++  __TEXT.__swift5_types: 0x12a0
++  __TEXT.__unwind_info: 0x1d460
++  __TEXT.__eh_frame: 0x146a8
++  __TEXT.__objc_classname: 0xd39
++  __TEXT.__objc_methname: 0x154b0
++  __TEXT.__objc_methtype: 0x38fc
++  __TEXT.__objc_stubs: 0x7a0
++  __DATA_CONST.__got: 0x2978
++  __DATA_CONST.__const: 0x4e90
++  __DATA_CONST.__objc_classlist: 0xc50
+   __DATA_CONST.__objc_catlist: 0x68
+   __DATA_CONST.__objc_protolist: 0x650
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x56b8
++  __DATA_CONST.__objc_selrefs: 0x56e8
+   __DATA_CONST.__objc_protorefs: 0x338
+-  __DATA_CONST.__objc_superrefs: 0x10
+-  __AUTH_CONST.__auth_got: 0x3c38
+-  __AUTH_CONST.__auth_ptr: 0x3bf8
+-  __AUTH_CONST.__const: 0x2ab70
+-  __AUTH_CONST.__cfstring: 0x1e0
+-  __AUTH_CONST.__objc_const: 0x26f30
+-  __AUTH.__objc_data: 0xf340
+-  __AUTH.__data: 0xe638
+-  __DATA.__objc_ivar: 0x24
+-  __DATA.__data: 0x11720
++  __DATA_CONST.__objc_superrefs: 0x8
++  __AUTH_CONST.__auth_got: 0x3d58
++  __AUTH_CONST.__auth_ptr: 0x3cc8
++  __AUTH_CONST.__const: 0x2aea0
++  __AUTH_CONST.__cfstring: 0x1c0
++  __AUTH_CONST.__objc_const: 0x27040
++  __AUTH.__objc_data: 0xf3c0
++  __AUTH.__data: 0xe858
++  __DATA.__objc_ivar: 0x20
++  __DATA.__data: 0x119f0
+   __DATA.__objc_stublist: 0x8
+-  __DATA.__bss: 0x25ef0
+-  __DATA.__common: 0x16f0
+-  __DATA_DIRTY.__objc_data: 0x5368
+-  __DATA_DIRTY.__data: 0x47b8
++  __DATA.__bss: 0x263b0
++  __DATA.__common: 0x1710
++  __DATA_DIRTY.__objc_data: 0x5388
++  __DATA_DIRTY.__data: 0x47d8
+   __DATA_DIRTY.__bss: 0x1710
+   __DATA_DIRTY.__common: 0x720
+   - /System/Library/Frameworks/AVFAudio.framework/AVFAudio
+
+   - /System/Library/Frameworks/CoreServices.framework/CoreServices
+   - /System/Library/Frameworks/CoreTelephony.framework/CoreTelephony
+   - /System/Library/Frameworks/CoreText.framework/CoreText
++  - /System/Library/Frameworks/CryptoKit.framework/CryptoKit
+   - /System/Library/Frameworks/DeveloperToolsSupport.framework/DeveloperToolsSupport
+   - /System/Library/Frameworks/ExtensionFoundation.framework/ExtensionFoundation
+   - /System/Library/Frameworks/ExtensionKit.framework/ExtensionKit
+
+   - /System/Library/PrivateFrameworks/FaceTimeMessageStore.framework/FaceTimeMessageStore
+   - /System/Library/PrivateFrameworks/FeatureFlags.framework/FeatureFlags
+   - /System/Library/PrivateFrameworks/FrontBoardServices.framework/FrontBoardServices
++  - /System/Library/PrivateFrameworks/GenerativeModels.framework/GenerativeModels
+   - /System/Library/PrivateFrameworks/IDS.framework/IDS
+   - /System/Library/PrivateFrameworks/IDSFoundation.framework/IDSFoundation
+   - /System/Library/PrivateFrameworks/IMCore.framework/IMCore
+
+   - /usr/lib/swift/libswiftsimd.dylib
+   - /usr/lib/swift/libswiftsys_time.dylib
+   - /usr/lib/swift/libswiftunistd.dylib
+-  Functions: 52875
+-  Symbols:   76710
+-  CStrings:  9955
++  Functions: 53214
++  Symbols:   77232
++  CStrings:  9983
+ 
+Symbols:
++ _$s15ConversationKit25CallRecordingAvailabilityON
++ _$s7SwiftUI4ViewPAAE19presentationDetentsyQrShyAA18PresentationDetentVGFQOMQ
++ _$s15ConversationKit8DefaultsC42participantHandlesOfAcknowledgedRCSessionsSaySSGvg
++ _$s15ConversationKit32CallRecordingAvailabilityManagerC12availabilityAA0cdE0OSgvgTj
++ _$s15ConversationKit35PresentationAutomaticHeightModifierV010calculatedE0AC12CoreGraphics7CGFloatV_tcfC
++ _$s15ConversationKit35PresentationAutomaticHeightModifierVMa
++ _$s7SwiftUI4ViewPAAE5sheet11isPresented9onDismiss7contentQrAA7BindingVySbG_yycSgqd__yctAaBRd__lF
++ _$s15ConversationKit24AppleIntelligenceManagerCACycfc
++ _$s16GenerativeModels0aB12AvailabilityV0C0O9availableyA2EmFWC
++ _$s15ConversationKit35PresentationAutomaticHeightModifierVACycfC
++ _$s10Foundation4DataV15_RepresentationO15replaceSubrange_4with5countySnySiG_SVSgSitF
++ _$s15ConversationKit27RemoteControlOnboardingViewV19horizontalSizeClass7SwiftUI013UserInterfacehI0OSgvpMV
++ _$s15ConversationKit25CallRecordingAvailabilityO29recordingTranscriptionSummaryyA2CmFWC
++ _$s15ConversationKit29AppleIntelligenceAvailabilityV16availabilityInfo16GenerativeModels0hiE0V0E0OSgvs
++ _$s15ConversationKit24AppleIntelligenceManagerC6sharedACvgZ
++ _$s15ConversationKit29AppleIntelligenceAvailabilityV16availabilityInfo16GenerativeModels0hiE0V0E0OSgvM
++ _$s15ConversationKit16DefaultsProviderP42participantHandlesOfAcknowledgedRCSessionsSaySSGvMTq
++ _$s9CryptoKit6SHA256VAA12HashFunctionAAMc
++ _$s16CommunicationsUI26CallRecordingCountdownViewC24setAXLabelForCloseButtonyySSSgF
++ _$s15ConversationKit29AppleIntelligenceAvailabilityV9availableSbvs
++ _$s15ConversationKit33ScreenSharingBroadcasterViewModelC022isPresentingOnboardingF0SbvMTj
++ _$s15ConversationKit8FeaturesC22lvm_endCallImmediatelySbvgTj
++ _$s15ConversationKit8DefaultsC42participantHandlesOfAcknowledgedRCSessionsSaySSGvsTq
++ _$s15ConversationKit25RemoteControlStateMachineV020presentOnboardingForcD7Request_4fromyAA0cdJ0V_15GroupActivities11ParticipantVtKF
++ _$s9CryptoKit12HashFunctionP8finalize6DigestQzyFTj
++ _$s15ConversationKit24AppleIntelligenceManagerCfD
++ _$s15ConversationKit33ScreenSharingBroadcasterViewModelC022isPresentingOnboardingF0SbvMTq
++ _$s18TelephonyUtilities15LanguageManagerV12featureFlags6localeACSo09TUFeatureF0_p_10Foundation6LocaleVtcfC
++ _$s15ConversationKit31ScreenSharingInteractionSessionC30presentRemoteControlOnboardingyyYaKFTjTu
++ _$s15ConversationKit31ScreenSharingInteractionSessionC30presentRemoteControlOnboardingyyYaKF
++ _$s7SwiftUI4ViewP15ConversationKitE27presentationAutomaticHeightQryFQOMQ
++ _$s15ConversationKit0A35ControlsBadgingAvatarViewControllerC4call12conversation10badgeImage0J15BackgroundColorAcA4Call_p_So14TUConversationCSgSo7UIImageCSgSo7UIColorCtcfC
++ _$s7SwiftUI4ViewPAAE26interactiveDismissDisabledyQrSbF
++ _$s7SwiftUI18PresentationDetentVMa
++ _$s15ConversationKit25CallRecordingAvailabilityOMa
++ _$s15ConversationKit32CallRecordingAvailabilityManagerCACycfc
++ _$s15ConversationKit28ScreenSharingBroadcasterViewV6$model7SwiftUI7BindingVyAA0cdeF5ModelCGvpMV
++ _$s16GenerativeModels0aB12AvailabilityV0C0O10restrictedyA2E14RestrictedInfoVcAEmFWC
++ _$s7SwiftUI23_GeometryActionModifierVMn
++ _$ss5UInt8Vs7CVarArgsWP
++ _$s15ConversationKit32CallRecordingAvailabilityManagerCMn
++ _$s15ConversationKit27RemoteControlOnboardingViewV4bodyQrvg
++ _$s15ConversationKit33ScreenSharingBroadcasterViewModelC20checkOnboardingStateyyFTq
++ _$s15ConversationKit0A10ControllerC31remoteAndAssociatedParticipantsSayAA11ParticipantVGvpMV
++ _$s15ConversationKit27RemoteControlOnboardingViewV10didDismiss06remoteD0ySb_tF
++ _$s15ConversationKit35PresentationAutomaticHeightModifierV010calculatedE012CoreGraphics7CGFloatVvpMV
++ _OBJC_CLASS_$_SWBackgroundSendUtility
++ _$s7SwiftUI18PresentationDetentVSQAAMc
++ _$s15ConversationKit8FeaturesC22lvm_endCallImmediatelySbvgTq
++ _$s15ConversationKit29AppleIntelligenceAvailabilityVMn
++ _OBJC_CLASS_$__TtC15ConversationKit24AppleIntelligenceManager
++ _$s15ConversationKit0A10ControllerC31remoteAndAssociatedParticipantsSayAA11ParticipantVGvg
++ _$s9CryptoKit12SHA256DigestVMa
++ _$s15ConversationKit29AppleIntelligenceAvailabilityV9availableSbvpMV
++ _$s15ConversationKit33ScreenSharingBroadcasterViewModelC023_isPresentingOnboardingF033_58DFB6177B89A76ED1810721E1EF288FLLSbvg
++ _$s15ConversationKit8FeaturesC31lvm_allowLockScreenSleepEnabledSbvgTq
++ _$s15ConversationKit32CallRecordingAvailabilityManagerCACycfCTq
++ _$s15ConversationKit17TransitioningTextV19horizontalSizeClass7SwiftUI013UserInterfacefG0OSgvpMV
++ _$sSS8UTF8ViewVN
++ _$s10Foundation15ContiguousBytesP010withUnsafeC0yqd__qd__SWKXEKlFTj
++ _$s15ConversationKit27RemoteControlOnboardingViewV21requestingParticipantAA0H0VvpMV
++ _$s15ConversationKit17SharedContentViewC8isPausedSbvs
++ _$s15ConversationKit16DefaultsProviderP42participantHandlesOfAcknowledgedRCSessionsSaySSGvgTj
++ _$s10Foundation4DataV15_RepresentationOyAESWcfC
++ _$s15ConversationKit27RemoteControlOnboardingViewV21requestingParticipantAA0H0Vvg
++ _$s15ConversationKit32CallRecordingAvailabilityManagerCfD
++ _$s15ConversationKit18RemoteControlStateO20requestedParticipant15GroupActivities0G0VSgvg
++ _$s15ConversationKit35PresentationAutomaticHeightModifierV4body7contentQr7SwiftUI05_ViewF8_ContentVyACG_tFQOMQ
++ _$s15ConversationKit33ScreenSharingBroadcasterViewModelC022isPresentingOnboardingF0Sbvg
++ _$s15ConversationKit25CallRecordingAvailabilityO26recordingTranscriptionOnlyyA2CmFWC
++ _$s15ConversationKit32CallRecordingAvailabilityManagerC6sharedACvMZ
++ _$s15ConversationKit33ScreenSharingBroadcasterViewModelC022isPresentingOnboardingF0SbvpMV
++ _$s10Foundation13__DataStorageC7_offsetSivg
++ _$s15ConversationKit25CallRecordingAvailabilityO9hashValueSivg
++ _$s15ConversationKit8FeaturesC15lvm_stopEnabledSbvgTq
++ _$s15ConversationKit27RemoteControlOnboardingViewV4bodyQrvpQOMQ
++ _$s10Foundation4DataV15_RepresentationO6append10contentsOfySW_tF
++ _$s15ConversationKit27RemoteControlOnboardingViewV7SwiftUI0F0AAMc
++ _$s10Foundation4DataV11InlineSliceVyAESWcfC
++ _$s16GenerativeModels0aB12AvailabilityV10ParametersVMa
++ _$s7SwiftUI4ViewPAAE26interactiveDismissDisabledyQrSbFQOMQ
++ _$s15ConversationKit29AppleIntelligenceAvailabilityV9available16availabilityInfoACSb_16GenerativeModels0ijE0V0E0OSgtcfC
++ _$s15ConversationKit32CallRecordingAvailabilityManagerC12availabilityAA0cdE0OSgvgTq
++ _$s15ConversationKit18RemoteControlStateO15receivedRequestyAcA0cdG0V_15GroupActivities11ParticipantVSbtcACmFWC
++ _$s15ConversationKit8DefaultsC42participantHandlesOfAcknowledgedRCSessionsSaySSGvpMV
++ _$s15ConversationKit25CallRecordingAvailabilityO2eeoiySbAC_ACtFZ
++ _$s15ConversationKit17SharedContentViewC8isPausedSbvpMV
++ _$s15ConversationKit31ScreenSharingInteractionSessionC30presentRemoteControlOnboardingyyYaKFTu
++ _$s10Foundation15ContiguousBytesMp
++ _$s16GenerativeModels0aB12AvailabilityV0C0OMa
++ _$s16GenerativeModels0aB12AvailabilityV0C0O11unavailableyA2E15UnavailableInfoVcAEmFWC
++ _$s10Foundation4DataV06InlineB0VyAESWcfC
++ _$s15ConversationKit8FeaturesC31lvm_allowLockScreenSleepEnabledSbvpMV
++ _$s15ConversationKit33ScreenSharingBroadcasterViewModelC022isPresentingOnboardingF0SbvgTq
++ _$s10Foundation4DataV15_RepresentationON
++ _$s15ConversationKit24AppleIntelligenceManagerCMa
++ _$s15ConversationKit29AppleIntelligenceAvailabilityV16availabilityInfo16GenerativeModels0hiE0V0E0OSgvpMV
++ _$s16GenerativeModels0aB12AvailabilityV0C0Os23CustomStringConvertibleAAMc
++ _$s2os6LoggerV15ConversationKitE17appleIntelligenceACvau
++ _$s7SwiftUI18PresentationDetentVSHAAMc
++ _$s15ConversationKit11ParticipantV22isDestinationPseudonymSbvpMV
++ _$s15ConversationKit28ScreenSharingBroadcasterViewV5modelAA0cdeF5ModelCvs
++ _$s15ConversationKit29AppleIntelligenceAvailabilityVMa
++ _$s15ConversationKit31ScreenSharingInteractionSessionC30presentRemoteControlOnboardingyyYaKFTj
++ _$s16GenerativeModels0aB12AvailabilityV0C0OMn
++ _$s15ConversationKit35PresentationAutomaticHeightModifierV010calculatedE012CoreGraphics7CGFloatVvg
++ _$s15ConversationKit24AppleIntelligenceManagerC12availabilityAA0cD12AvailabilityVvpMV
++ _$s16GenerativeModels0aB12AvailabilityVMa
++ _$s10Foundation4DataV10LargeSliceVyAESWcfC
++ _$s15ConversationKit27RemoteControlOnboardingViewVN
++ _$s10Foundation13__DataStorageC6_bytesSvSgvg
++ _OBJC_METACLASS_$__TtC15ConversationKit24AppleIntelligenceManager
++ _$s10Foundation4DataV15_RepresentationO5countAESi_tcfC
++ _$s7SwiftUI4ViewP15ConversationKitE27presentationAutomaticHeightQryF
++ _$s15ConversationKit11ParticipantV22isDestinationPseudonymSbvg
++ _$s15ConversationKit33ScreenSharingBroadcasterViewModelC022isPresentingOnboardingF0SbvsTq
++ _$s10Foundation13__DataStorageC5bytes6length4copy11deallocator6offsetACSvSg_SiSbySv_SitcSgSitcfc
++ _$s15ConversationKit18RemoteControlStateO20requestedParticipant15GroupActivities0G0VSgvpMV
++ _$s15ConversationKit35PresentationAutomaticHeightModifierV7SwiftUI04ViewF0AAMc
++ _$s15ConversationKit8DefaultsC42participantHandlesOfAcknowledgedRCSessionsSaySSGvM
++ _$s15ConversationKit17SharedContentViewC8isPausedSbvg
++ _$s15ConversationKit25CallRecordingAvailabilityO13recordingOnlyyA2CmFWC
++ _$s15ConversationKit27RemoteControlOnboardingViewV21requestingParticipant19horizontalSizeClassAcA0H0V_7SwiftUI11EnvironmentVyAH013UserInterfacejK0OSgGtcfcfA0_
++ _$s15ConversationKit30CallControlsMenuViewControllerC13viewDidAppearyySbF
++ _$s15ConversationKit35PresentationAutomaticHeightModifierV010calculatedE0AC12CoreGraphics7CGFloatV_tcfcfA_
++ _$s15ConversationKit16DefaultsProviderP42participantHandlesOfAcknowledgedRCSessionsSaySSGvMTj
++ _$s7SwiftUI13DismissActionV14callAsFunctionyyF
++ _$s15ConversationKit24AppleIntelligenceManagerCACycfC
++ _$s15ConversationKit31ScreenSharingInteractionSessionC30presentRemoteControlOnboardingyyYaKFTq
++ _$s15ConversationKit27RemoteControlOnboardingViewV19horizontalSizeClass7SwiftUI013UserInterfacehI0OSgvg
++ _$s9CryptoKit6SHA256VMa
++ _$s15ConversationKit32CallRecordingAvailabilityManagerC12availabilityAA0cdE0OSgvpMV
++ _$s15ConversationKit33ScreenSharingBroadcasterViewModelC20checkOnboardingStateyyF
++ _$s15ConversationKit35PresentationAutomaticHeightModifierV010calculatedE012CoreGraphics7CGFloatVvs
++ _$s7SwiftUI4ViewPAAE19presentationDetentsyQrShyAA18PresentationDetentVGF
++ _$s16GenerativeModels0aB12AvailabilityV7current10parametersA2C10ParametersV_tFZ
++ _$s2os6LoggerV15ConversationKitE17appleIntelligenceACvgZ
++ _$s15ConversationKit16DefaultsProviderP42participantHandlesOfAcknowledgedRCSessionsSaySSGvsTq
++ _$s15ConversationKit25CallRecordingAvailabilityO4hash4intoys6HasherVz_tF
++ _$s15ConversationKit0A35ControlsBadgingAvatarViewControllerC4call12conversation10badgeImage0J15BackgroundColorAcA4Call_p_So14TUConversationCSgSo7UIImageCSgSo7UIColorCtcfcfA2_
++ _$s15ConversationKit8DefaultsC42participantHandlesOfAcknowledgedRCSessionsSaySSGvsTj
++ _$s15ConversationKit32CallRecordingAvailabilityManagerC6sharedACvau
++ _$s15ConversationKit17SharedContentViewC8isPausedSbvM
++ _$s15ConversationKit29AppleIntelligenceAvailabilityV16availabilityInfo16GenerativeModels0hiE0V0E0OSgvg
++ _$s7SwiftUI18PresentationDetentV6heightyAC12CoreGraphics7CGFloatVFZ
++ _$s15ConversationKit32CallRecordingAvailabilityManagerCN
++ _$s15ConversationKit33ScreenSharingBroadcasterViewModelC023_isPresentingOnboardingF033_58DFB6177B89A76ED1810721E1EF288FLLSbvs
++ _$s15ConversationKit24AppleIntelligenceManagerC12availabilityAA0cD12AvailabilityVvgTj
++ _$s15ConversationKit33ScreenSharingBroadcasterViewModelC022isPresentingOnboardingF0SbvsTj
++ _$s7SwiftUI18PresentationDetentVMn
++ _$s15ConversationKit24AppleIntelligenceManagerC6sharedACvMZ
++ _$s15ConversationKit35PresentationAutomaticHeightModifierV011$calculatedE07SwiftUI7BindingVy12CoreGraphics7CGFloatVGvg
++ _$s15ConversationKit34ScreenSharingInteractionControllerC36shouldPresentRemoteControlOnboardingyyFTq
++ _$s15ConversationKit29AppleIntelligenceAvailabilityV9availableSbvg
++ _$s15ConversationKit35PresentationAutomaticHeightModifierV010calculatedE012CoreGraphics7CGFloatVvM
++ _TUCallTranscriptionSupported
++ _$s15ConversationKit27RemoteControlOnboardingViewV21requestingParticipant19horizontalSizeClassAcA0H0V_7SwiftUI11EnvironmentVyAH013UserInterfacejK0OSgGtcfC
++ _$s15ConversationKit24AppleIntelligenceManagerC6sharedACvsZ
++ _$s15ConversationKit27RemoteControlOnboardingViewV21requestingParticipantAA0H0Vvs
++ _$s10Foundation13__DataStorageCMa
++ _$s15ConversationKit35PresentationAutomaticHeightModifierVMn
++ _$s15ConversationKit24AppleIntelligenceManagerCMu
++ _$s15ConversationKit35PresentationAutomaticHeightModifierV011$calculatedE07SwiftUI7BindingVy12CoreGraphics7CGFloatVGvpMV
++ _$s10Foundation13__DataStorageC7_lengthSivg
++ _$s16CommunicationsUI12MarqueeLabelVMn
++ _$s16CommunicationsUI12MarqueeLabelVMa
++ _$s15ConversationKit8FeaturesC31lvm_allowLockScreenSleepEnabledSbvgTj
++ _$s15ConversationKit14PipZoomControlC013reapplyCameraD033_F655175E6B8CC6CBF6A7B127C3892115LL18currentInputDeviceySo09AVCaptureR0CSg_tF
++ _$s15ConversationKit33ScreenSharingBroadcasterViewModelC022isPresentingOnboardingF0Sbvs
++ _$s15ConversationKit24AppleIntelligenceManagerCMo
++ _$s15ConversationKit29AppleIntelligenceAvailabilityVN
++ _$s7SwiftUI4ViewPAAE5sheet11isPresented9onDismiss7contentQrAA7BindingVySbG_yycSgqd__yctAaBRd__lFQOMQ
++ _$s15ConversationKit8DefaultsC42participantHandlesOfAcknowledgedRCSessionsSaySSGvMTq
++ _$s10Foundation4DataV10LargeSliceV21ensureUniqueReferenceyyF
++ _$s16CommunicationsUI17CallRecordingViewC23setAXLabelForStopButtonyySSSgF
++ _$s15ConversationKit33ScreenSharingBroadcasterViewModelC022isPresentingOnboardingF0SbvgTj
++ _$s9CryptoKit12SHA256DigestVSTAAMc
++ _$s9CryptoKit12HashFunctionP6update13bufferPointerySW_tFTj
++ _$s15ConversationKit35PresentationAutomaticHeightModifierV4body7contentQr7SwiftUI05_ViewF8_ContentVyACG_tF
++ _$s15ConversationKit8DefaultsC42participantHandlesOfAcknowledgedRCSessionsSaySSGvs
++ _$sSS15ConversationKitE12hashWithSalt4saltS2S_tF
++ _$s15ConversationKit28ScreenSharingBroadcasterViewV6$model7SwiftUI7BindingVyAA0cdeF5ModelCGvg
++ _$s15ConversationKit27RemoteControlOnboardingViewV21requestingParticipantAA0H0VvM
++ _$s15ConversationKit33ScreenSharingBroadcasterViewModelC20checkOnboardingStateyyFTj
++ _$s15ConversationKit27RemoteControlOnboardingViewVMa
++ _$s15ConversationKit8FeaturesC15lvm_stopEnabledSbvpMV
++ _$s15ConversationKit32CallRecordingAvailabilityManagerCMo
++ _$s18TelephonyUtilities15LanguageManagerV27mappedASRLanguageIdentifier18supportedLanguagesSSSaySSGSg_tF
++ _$s15ConversationKit16DefaultsProviderP42participantHandlesOfAcknowledgedRCSessionsSaySSGvsTj
++ _$s15ConversationKit25CallRecordingAvailabilityO9hashValueSivpMV
++ _$s16CommunicationsUI12MarqueeLabelV4text5color8animatedACSS_So7UIColorCSbtcfC
++ _$s15ConversationKit33ScreenSharingBroadcasterViewModelC023_isPresentingOnboardingF033_58DFB6177B89A76ED1810721E1EF288FLLSbvM
++ _$s15ConversationKit28ScreenSharingBroadcasterViewV5modelAA0cdeF5ModelCvM
++ _$s15ConversationKit27RemoteControlOnboardingViewV4bodyQrvpMV
++ _$s15ConversationKit8FeaturesC22lvm_endCallImmediatelySbvpMV
++ _$s15ConversationKit32CallRecordingAvailabilityManagerCACycfC
++ _$s15ConversationKit33ScreenSharingBroadcasterViewModelC022isPresentingOnboardingF0SbvM
++ _$s7SwiftUI7BindingV13dynamicMemberACyqd__Gs15WritableKeyPathCyxqd__G_tcluig
++ _$s15ConversationKit32CallRecordingAvailabilityManagerC6sharedACvsZ
++ _$s15ConversationKit8FeaturesC15lvm_stopEnabledSbvgTj
++ _$s15ConversationKit25CallRecordingAvailabilityOSQAAMc
++ _$s15ConversationKit32CallRecordingAvailabilityManagerCMa
++ _$s15ConversationKit8DefaultsC42participantHandlesOfAcknowledgedRCSessionsSaySSGvMTj
++ _$ss5UInt8VN
++ _$s15ConversationKit25CallRecordingAvailabilityOSHAAMc
++ _$s9CryptoKit12HashFunctionPxycfCTj
++ _$s15ConversationKit25CallRecordingAvailabilityOMn
++ _$s15ConversationKit32CallRecordingAvailabilityManagerCACycfCTj
++ _$s15ConversationKit17TransitioningTextV19horizontalSizeClass7SwiftUI013UserInterfacefG0OSgvg
++ _$s15ConversationKit24AppleIntelligenceManagerCN
++ _$s15ConversationKit32CallRecordingAvailabilityManagerC6sharedACvpZ
++ _$s15ConversationKit35PresentationAutomaticHeightModifierVN
++ _$s7SwiftUI4TextV15foregroundStyleyACxAA05ShapeE0RzlF
++ _$s15ConversationKit8DefaultsC42participantHandlesOfAcknowledgedRCSessionsSaySSGvgTj
++ _$s15ConversationKit32CallRecordingAvailabilityManagerC6sharedACvgZ
++ _$s15ConversationKit29AppleIntelligenceAvailabilityV9availableSbvM
++ _$s15ConversationKit8DefaultsC42participantHandlesOfAcknowledgedRCSessionsSaySSGvgTq
++ _$s15ConversationKit24AppleIntelligenceManagerCMn
++ _$s15ConversationKit32CallRecordingAvailabilityManagerCMu
++ _$s15ConversationKit24AppleIntelligenceManagerC12availabilityAA0cD12AvailabilityVvgTq
++ _$s15ConversationKit17SharedContentViewC8isPausedSbvpWvd
++ _$s15ConversationKit32CallRecordingAvailabilityManagerCMm
++ _$s15ConversationKit32CallRecordingAvailabilityManagerCfd
++ _$s15ConversationKit34ScreenSharingInteractionControllerC36shouldPresentRemoteControlOnboardingyyFTj
++ _$s15ConversationKit27RemoteControlOnboardingViewVMn
++ _$s15ConversationKit33ScreenSharingBroadcasterViewModelC022isPresentingOnboardingF0Sbvi
++ _$s16GenerativeModels0aB12AvailabilityV10ParametersV18useCaseIdentifiersAESaySSG_tcfC
++ _$s2os6LoggerV15ConversationKitE17appleIntelligenceACvpZ
++ _$s16GenerativeModels0aB12AvailabilityV12availabilityAC0C0Ovg
++ _$s15ConversationKit16DefaultsProviderP42participantHandlesOfAcknowledgedRCSessionsSaySSGvgTq
+- _OBJC_METACLASS_$_CNKBackgroundSendUtility
+- _$s18TelephonyUtilities15LanguageManagerV06mappedC10Identifier18supportedLanguagesSSSaySSGSg_tF
+- _$s10Foundation6LocaleV18preferredLanguagesSaySSGvgZ
+- _NSClassFromString
+- _$s15ConversationKit18RemoteControlStateO15receivedRequestyAcA0cdG0V_15GroupActivities11ParticipantVtcACmFWC
+- _$s15ConversationKit0A35ControlsBadgingAvatarViewControllerC4call10badgeImageAcA4Call_p_So7UIImageCSgtcfC
+- _$s18TelephonyUtilities15LanguageManagerV12featureFlags6locale18preferredLanguagesACSo09TUFeatureF0_p_10Foundation6LocaleVSaySSGtcfC
+- _$s15ConversationKit0A35ControlsBadgingAvatarViewControllerC4call12conversation10badgeImageAcA4Call_p_So14TUConversationCSgSo7UIImageCSgtcfC
+- __dispatch_main_q
+- _OBJC_CLASS_$_CNKBackgroundSendUtility
+CStrings:
++ "CALL_RECORDING_EDUCATION_SUBTITLE_RECORDING_ONLY"
++ "LVM_EndCallImmediately"
++ "self released, cant request stop recording"
++ "LVM_Stop"
++ "participantHandlesOfAcknowledgedRCSessions"
++ "self released, cant request start recording"
++ "CALL_RECORDING_EDUCATION_SUBTITLE_RECORDING_TRANSCRIPTION_SUMMARY"
++ "Missing receivedRequest, state: %!s(MISSING)"
++ "lvm_endCallImmediately"
++ "AppleIntelligence"
++ "Unable to show onboarding for request: %!s(MISSING), error: %!s(MISSING)"
++ "setContact:"
++ "keepCallsEnabled"
++ "_TtC15ConversationKit32CallRecordingAvailabilityManager"
++ "REMOTECONTROL_WARNING_%!@(MISSING)"
++ "lvm_allowLockScreenSleepEnabled"
++ "CALL_RECORDING_EDUCATION_SUBTITLE_RECORDING_TRANSCRIPTION_ONLY"
++ "_isPresentingOnboardingView"
++ "videoViewSnapshot"
++ "uniqueID"
++ "_TtC15ConversationKit24AppleIntelligenceManager"
++ "Apple Intelligence - availability: %!s(MISSING)"
++ "REMOTECONTROL_ONBOARDING_DETAIL_TEXT"
++ "v16@?0@\"AVCaptureDevice\"8"
++ "CALL_RECORDING_STOP_COUNTDOWN_BUTTON_AX"
++ "setReapplyCameraZoom:"
++ "CALL_RECORDING_STOP_RECORDING_BUTTON_AX"
++ "lvm_stopEnabled"
++ "CALL_RECORDING_START_RECORDING_BUTTON_AX"
++ "quaternaryLabelColor"
++ "LVM_AllowLockScreenSleep"
++ "sectionsCurrentValueUpdater"
++ "PipZoomControl -reapplyCameraZoom currentZoomFactor: %!s(MISSING) currentCameraUID: %!s(MISSING) currentInputDevice: %!s(MISSING)"
+- "initWithItemProvider:faceTimeConversation:completion:"
+- "SWBackgroundSendUtility"
+- "@\"SWBackgroundSendUtility\""
+- "CNKBackgroundSendUtility"
+- "@40@0:8@16@24@?32"
+- "CALL_RECORDING_EDUCATION_SUBTITLE"
+- "_sectionsCurrentValueUpdater"
+- "_impl"
+
+```

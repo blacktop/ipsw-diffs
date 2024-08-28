@@ -1,0 +1,387 @@
+## MTLReplayController
+
+> `/Applications/MTLReplayer.app/Frameworks/MTLReplayController.framework/MTLReplayController`
+
+```diff
+
+-300.23.0.0.0
+-  __TEXT.__text: 0x3b1aa4
++301.2.0.0.0
++  __TEXT.__text: 0x3b1c70
+   __TEXT.__auth_stubs: 0x2220
+   __TEXT.__objc_stubs: 0x13720
+   __TEXT.__init_offsets: 0x8
+   __TEXT.__objc_methlist: 0x4870
+-  __TEXT.__gcc_except_tab: 0x20524
+-  __TEXT.__cstring: 0xd5028
++  __TEXT.__gcc_except_tab: 0x20568
++  __TEXT.__cstring: 0xd509d
+   __TEXT.__const: 0x378a
+   __TEXT.__oslogstring: 0x12d1
+   __TEXT.__objc_methname: 0x16f40
+   __TEXT.__objc_classname: 0xb03
+   __TEXT.__objc_methtype: 0xbf5d
+   __TEXT.__ustring: 0x4f6
+-  __TEXT.__unwind_info: 0x4e18
++  __TEXT.__unwind_info: 0x4e20
+   __DATA_CONST.__auth_got: 0x1128
+   __DATA_CONST.__got: 0x7d8
+   __DATA_CONST.__auth_ptr: 0x18
+   __DATA_CONST.__const: 0x252338
+-  __DATA_CONST.__cfstring: 0xf6a0
++  __DATA_CONST.__cfstring: 0xf6c0
+   __DATA_CONST.__objc_classlist: 0x270
+   __DATA_CONST.__objc_catlist: 0x18
+   __DATA_CONST.__objc_protolist: 0x100
+
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libz.1.dylib
+   - @rpath/LLDB.framework/LLDB
+-  Functions: 5331
+-  Symbols:   10577
+-  CStrings:  19399
++  Functions: 5332
++  Symbols:   10579
++  CStrings:  19402
+ 
+Symbols:
++ GCC_except_table2475
++ GCC_except_table2272
++ GCC_except_table3041
++ GCC_except_table3251
++ __Block_byref_object_dispose_.7667
++ __block_literal_global.7361
++ GCC_except_table2818
++ GCC_except_table1830
++ GCC_except_table3275
++ GCC_except_table2823
++ __Block_byref_object_copy_.9838
++ GCC_except_table2944
++ GCC_except_table2812
++ GCC_except_table3223
++ GCC_except_table2139
++ GCC_except_table2410
++ GCC_except_table2337
++ GCC_except_table3023
++ __block_literal_global.10877
++ GCC_except_table2997
++ GCC_except_table2225
++ GCC_except_table3177
++ GCC_except_table2954
++ NewCommandBuffer.6129
++ GCC_except_table2845
++ GCC_except_table2434
++ __block_literal_global.8092
++ __Block_byref_object_copy_.10450
++ GCC_except_table3237
++ GCC_except_table2925
++ GCC_except_table2013
++ __Block_byref_object_copy_.10484
++ GCC_except_table2078
++ __block_literal_global.4463
++ __Block_byref_object_copy_.3540
++ GCC_except_table2196
++ __block_literal_global.9818
++ GCC_except_table3240
++ GCC_except_table3336
++ GCC_except_table2213
++ GCC_except_table3192
++ __Block_byref_object_copy_.6315
++ __Block_byref_object_copy_.8879
++ GCC_except_table3351
++ GCC_except_table1993
++ GCC_except_table2825
++ GCC_except_table2959
++ __Block_byref_object_dispose_.10485
++ __ZN26GTApplePMPPerfStateControl17SetDVFSContraintsEb
++ GCC_except_table2071
++ GCC_except_table2861
++ GCC_except_table3000
++ GCC_except_table2406
++ GCC_except_table2984
++ GCC_except_table3231
++ GCC_except_table3294
++ GCC_except_table2011
++ GCC_except_table2947
++ GCC_except_table3272
++ GCC_except_table3288
++ GCC_except_table2252
++ GCC_except_table3299
++ GCC_except_table3377
++ GCC_except_table3010
++ g_null_string_token.12842
++ GCC_except_table3105
++ GCC_except_table2422
++ GCC_except_table2837
++ GCC_except_table2378
++ __block_literal_global.6806
++ GCC_except_table2927
++ GCC_except_table3290
++ GCC_except_table3147
++ __Block_byref_object_dispose_.8880
++ GCC_except_table1842
++ GCC_except_table2180
++ GetStream.12524
++ GCC_except_table2968
++ GCC_except_table3027
++ GCC_except_table3019
++ GCC_except_table2830
++ GCC_except_table2375
++ GCC_except_table2457
++ GCC_except_table2388
++ GCC_except_table2249
++ __Block_byref_object_copy_.5795
++ GCC_except_table2970
++ __block_literal_global.7192
++ GCC_except_table3308
++ GCC_except_table2054
++ GetStream.12581
++ GCC_except_table3185
++ GCC_except_table3278
++ GCC_except_table3056
++ GCC_except_table3292
++ GCC_except_table2292
++ GCC_except_table2465
++ GCC_except_table2190
++ GCC_except_table2413
++ GCC_except_table3218
++ GCC_except_table1908
++ GCC_except_table2431
++ GCC_except_table3007
++ GCC_except_table3109
++ GCC_except_table2150
++ GCC_except_table2268
++ GCC_except_table2260
++ __Block_byref_object_dispose_.6316
++ __block_literal_global.11330
++ GCC_except_table2400
++ __block_literal_global.7167
++ GCC_except_table2500
++ GCC_except_table2975
++ GCC_except_table2155
++ GCC_except_table2449
++ GCC_except_table2132
++ GCC_except_table2459
++ GCC_except_table2839
++ GCC_except_table3368
++ GCC_except_table2380
++ GCC_except_table3248
++ GCC_except_table1848
++ GCC_except_table3261
++ __block_literal_global.9105
++ GCC_except_table2921
++ GCC_except_table3135
++ __block_literal_global.6455
++ GCC_except_table2854
++ GCC_except_table3373
++ __block_literal_global.11510
++ GCC_except_table2385
++ GCC_except_table2994
++ __Block_byref_object_dispose_.5796
++ GCC_except_table3234
++ GCC_except_table1827
++ GCC_except_table1991
++ GCC_except_table2972
++ GCC_except_table2143
++ GCC_except_table1851
++ GCC_except_table2358
++ GCC_except_table3243
++ GCC_except_table3197
++ GCC_except_table3131
++ GCC_except_table3075
++ GCC_except_table2445
++ GCC_except_table3267
++ GCC_except_table2344
++ __block_literal_global.5190
++ __Block_byref_object_dispose_.3541
++ GCC_except_table2428
++ GCC_except_table3321
++ GCC_except_table3304
++ GCC_except_table1822
++ __Block_byref_object_dispose_.9839
++ GCC_except_table2152
++ GCC_except_table3338
++ GCC_except_table2163
++ AppendString.12841
++ GroupBuilder_getCommandEncoder.5438
++ __Block_byref_object_dispose_.10451
++ GCC_except_table2982
++ __Block_byref_object_copy_.7666
++ GCC_except_table2116
++ GCC_except_table2497
++ GCC_except_table3037
++ GCC_except_table2219
++ GCC_except_table2045
++ GCC_except_table2041
+- GCC_except_table2813
+- __block_literal_global.11327
+- GCC_except_table1828
+- GCC_except_table3289
+- GCC_except_table2957
+- GCC_except_table2851
+- GCC_except_table3190
+- GCC_except_table2946
+- GCC_except_table2455
+- GCC_except_table3260
+- GCC_except_table1840
+- GCC_except_table1826
+- GCC_except_table3217
+- GCC_except_table2153
+- GCC_except_table2446
+- __Block_byref_object_dispose_.3538
+- GCC_except_table3006
+- GCC_except_table2411
+- GCC_except_table2114
+- GCC_except_table3337
+- GCC_except_table1907
+- GCC_except_table3230
+- __Block_byref_object_dispose_.6313
+- GCC_except_table3036
+- __Block_byref_object_dispose_.7664
+- GCC_except_table2827
+- __block_literal_global.7189
+- GCC_except_table2138
+- __block_literal_global.6803
+- GCC_except_table2495
+- GCC_except_table2806
+- GCC_except_table2179
+- GCC_except_table3250
+- GCC_except_table2189
+- GCC_except_table3022
+- GCC_except_table3222
+- GCC_except_table2379
+- GCC_except_table1850
+- GCC_except_table2822
+- GCC_except_table2458
+- __block_literal_global.11507
+- __Block_byref_object_copy_.10481
+- GCC_except_table3144
+- GCC_except_table3009
+- GCC_except_table2377
+- GCC_except_table2267
+- __Block_byref_object_copy_.8876
+- GCC_except_table3268
+- GetStream.12578
+- GCC_except_table2427
+- NewCommandBuffer.6126
+- GCC_except_table2953
+- GCC_except_table3263
+- GCC_except_table2218
+- GCC_except_table2044
+- GCC_except_table2926
+- GetStream.12521
+- GCC_except_table2160
+- __block_literal_global.5187
+- GCC_except_table2384
+- __block_literal_global.7164
+- GCC_except_table3375
+- GCC_except_table2195
+- GCC_except_table1843
+- GCC_except_table3179
+- GCC_except_table2398
+- GCC_except_table3246
+- GCC_except_table2271
+- GCC_except_table2920
+- GCC_except_table2419
+- GCC_except_table3242
+- GCC_except_table2405
+- GCC_except_table3103
+- GCC_except_table2131
+- GCC_except_table3106
+- GCC_except_table2251
+- __Block_byref_object_dispose_.10482
+- __block_literal_global.9102
+- GCC_except_table2429
+- GCC_except_table2053
+- GCC_except_table2859
+- __block_literal_global.6452
+- GCC_except_table2255
+- GCC_except_table2943
+- GCC_except_table2432
+- GCC_except_table2407
+- __block_literal_global.7358
+- GCC_except_table3291
+- GCC_except_table3236
+- GCC_except_table2924
+- GCC_except_table2010
+- GCC_except_table2248
+- __Block_byref_object_copy_.3537
+- GCC_except_table2999
+- GCC_except_table3306
+- GCC_except_table2967
+- GCC_except_table3298
+- GCC_except_table3054
+- GCC_except_table2224
+- GCC_except_table2439
+- GCC_except_table2012
+- GCC_except_table3074
+- GCC_except_table3018
+- GCC_except_table2151
+- GCC_except_table3276
+- GCC_except_table2343
+- GCC_except_table1992
+- GCC_except_table2996
+- __Block_byref_object_copy_.7663
+- g_null_string_token.12839
+- GCC_except_table2330
+- __Block_byref_object_dispose_.5793
+- GCC_except_table3287
+- GCC_except_table2212
+- GCC_except_table2971
+- GCC_except_table3303
+- GCC_except_table2067
+- __Block_byref_object_dispose_.9836
+- GCC_except_table3040
+- GCC_except_table3347
+- __Block_byref_object_copy_.9835
+- GCC_except_table2969
+- GCC_except_table3372
+- __Block_byref_object_copy_.5792
+- GCC_except_table3176
+- __block_literal_global.10874
+- GCC_except_table2824
+- GCC_except_table2983
+- GCC_except_table3026
+- GCC_except_table2841
+- GCC_except_table3196
+- GCC_except_table3367
+- GCC_except_table3233
+- __block_literal_global.4460
+- GCC_except_table3129
+- GCC_except_table2993
+- GCC_except_table3333
+- GCC_except_table2973
+- GCC_except_table3319
+- GCC_except_table2460
+- GCC_except_table2141
+- __Block_byref_object_dispose_.8877
+- GCC_except_table2145
+- GCC_except_table2387
+- __block_literal_global.9815
+- GCC_except_table2357
+- GCC_except_table3273
+- GCC_except_table3239
+- GCC_except_table2077
+- __Block_byref_object_copy_.6312
+- GroupBuilder_getCommandEncoder.5435
+- AppendString.12838
+- GCC_except_table3293
+- __Block_byref_object_dispose_.10448
+- GCC_except_table2498
+- __block_literal_global.8089
+- GCC_except_table2833
+- GCC_except_table2466
+- GCC_except_table2838
+- GCC_except_table2374
+- GCC_except_table2040
+- __Block_byref_object_copy_.10447
+- GCC_except_table1989
+- GCC_except_table2976
+- GCC_except_table2291
+- GCC_except_table3132
+CStrings:
++ "Failed to send PM command (0x%!x(MISSING) - %!@(MISSING))"
++ "SetDVFSContraints"
++ "IOReturn GTApplePMPPerfStateControl::SetDVFSContraints(bool)"
+
+```

@@ -1,0 +1,53 @@
+## SafetyMonitorApp
+
+> `/Applications/SafetyMonitorApp.app/SafetyMonitorApp`
+
+```diff
+
+-967.0.0.0.0
+-  __TEXT.__text: 0xd664
++969.0.0.0.0
++  __TEXT.__text: 0xd380
+   __TEXT.__auth_stubs: 0xe10
+   __TEXT.__objc_methlist: 0x224
+   __TEXT.__cstring: 0xaa0
+
+   - /usr/lib/swift/libswiftsimd.dylib
+   - /usr/lib/swift/libswiftsys_time.dylib
+   - /usr/lib/swift/libswiftunistd.dylib
+-  Functions: 223
++  Functions: 221
+   Symbols:   389
+   CStrings:  341
+ 
+Symbols:
++ _$s15SafetyMonitorUI0aB11UIConstantsO41liveActivityDynamicIslandOuterEdgePadding12CoreGraphics7CGFloatVvgZ
++ _$s7SwiftUI5ColorV013SafetyMonitorB0E13checkInYellowACvgZ
++ _$s15SafetyMonitorUI0aB11UIConstantsO41liveActivityExpandedDynamicIslandTopShift12CoreGraphics7CGFloatVvgZ
++ _$s15SafetyMonitorUI0aB11UIConstantsO46antennaRadiowavesLeftAndRightSlashFillIconNameSSvgZ
++ _$s2os6LoggerV15SafetyMonitorUIE9initiatorACvgZ
++ _$s15SafetyMonitorUI0aB11UIConstantsO41liveActivityDynamicIslandInnerEdgePadding12CoreGraphics7CGFloatVvgZ
++ _$s15SafetyMonitorUI16SessionViewModelC6sharedACvgZ
++ _$s15SafetyMonitorUI0aB11UIConstantsO39liveActivityDynamicIslandAvatarDiameter12CoreGraphics7CGFloatVvgZ
++ _$s15SafetyMonitorUI0aB11UIConstantsO44liveActivityExpandedDynamicIslandSidePadding12CoreGraphics7CGFloatVvgZ
++ _$s15SafetyMonitorUI0aB11UIConstantsO38liveActivityDynamicIslandBadgeDiameter12CoreGraphics7CGFloatVvgZ
++ _$s13SafetyMonitor25SMInitiatorAlertUtilitiesC11deepLinkURL3for4with3and10Foundation0H0VSgSaySSGSg_SSSgSbtFZTj
++ _$s15SafetyMonitorUI0aB11UIConstantsO23checkMarkCircleIconNameSSvgZ
++ _$s15SafetyMonitorUI11PayloadKeysO24sessionStartEntryTypeKeySSvgZ
++ _$s15SafetyMonitorUI0aB11UIConstantsO29exclamationMarkCircleIconNameSSvgZ
+- _$s15SafetyMonitorUI0aB11UIConstantsO41liveActivityDynamicIslandOuterEdgePadding12CoreGraphics7CGFloatVvau
+- _$s15SafetyMonitorUI16SessionViewModelC6sharedACvau
+- _$s15SafetyMonitorUI0aB11UIConstantsO23checkMarkCircleIconNameSSvau
+- _$s2os6LoggerV15SafetyMonitorUIE9initiatorACvau
+- _$s13SafetyMonitor25SMInitiatorAlertUtilitiesC11deepLinkURL3for4with3and10Foundation0H0VSgSaySSGSg_SSSgSbtFZ
+- _$s15SafetyMonitorUI11PayloadKeysO24sessionStartEntryTypeKeySSvau
+- _$s15SafetyMonitorUI0aB11UIConstantsO41liveActivityDynamicIslandInnerEdgePadding12CoreGraphics7CGFloatVvau
+- _$s15SafetyMonitorUI0aB11UIConstantsO44liveActivityExpandedDynamicIslandSidePadding12CoreGraphics7CGFloatVvau
+- _$s15SafetyMonitorUI0aB11UIConstantsO38liveActivityDynamicIslandBadgeDiameter12CoreGraphics7CGFloatVvau
+- _$s7SwiftUI5ColorV013SafetyMonitorB0E13checkInYellowACvau
+- _$s15SafetyMonitorUI0aB11UIConstantsO39liveActivityDynamicIslandAvatarDiameter12CoreGraphics7CGFloatVvau
+- _$s15SafetyMonitorUI0aB11UIConstantsO29exclamationMarkCircleIconNameSSvau
+- _$s15SafetyMonitorUI0aB11UIConstantsO46antennaRadiowavesLeftAndRightSlashFillIconNameSSvau
+- _$s15SafetyMonitorUI0aB11UIConstantsO41liveActivityExpandedDynamicIslandTopShift12CoreGraphics7CGFloatVvau
+
+```

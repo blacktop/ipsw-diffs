@@ -1,0 +1,992 @@
+## WorkflowEditor
+
+> `/System/Library/PrivateFrameworks/WorkflowEditor.framework/WorkflowEditor`
+
+```diff
+
+-3100.0.1.0.0
+-  __TEXT.__text: 0x28683c
+-  __TEXT.__auth_stubs: 0x62e0
+-  __TEXT.__objc_methlist: 0x7d44
+-  __TEXT.__swift5_typeref: 0x2934a
+-  __TEXT.__swift5_capture: 0x3d58
+-  __TEXT.__const: 0x13798
+-  __TEXT.__cstring: 0x8895
+-  __TEXT.__constg_swiftt: 0x9a68
+-  __TEXT.__swift5_reflstr: 0x568c
+-  __TEXT.__swift5_fieldmd: 0x5a74
+-  __TEXT.__swift5_builtin: 0x2e4
+-  __TEXT.__swift5_assocty: 0x2008
+-  __TEXT.__swift5_proto: 0x8a0
+-  __TEXT.__swift5_types: 0x69c
+-  __TEXT.__oslogstring: 0x12d1
++3101.0.7.0.0
++  __TEXT.__text: 0x2238e0
++  __TEXT.__auth_stubs: 0x57f0
++  __TEXT.__objc_methlist: 0x6a0c
++  __TEXT.__swift5_typeref: 0x21bf6
++  __TEXT.__swift5_capture: 0x3868
++  __TEXT.__const: 0xfbd0
++  __TEXT.__cstring: 0x74e9
++  __TEXT.__constg_swiftt: 0x844c
++  __TEXT.__swift5_reflstr: 0x48ac
++  __TEXT.__swift5_fieldmd: 0x4d00
++  __TEXT.__swift5_builtin: 0x294
++  __TEXT.__swift5_assocty: 0x1a30
++  __TEXT.__swift5_proto: 0x764
++  __TEXT.__swift5_types: 0x580
+   __TEXT.__swift5_protos: 0x28
+-  __TEXT.__swift5_mpenum: 0x50
+-  __TEXT.__gcc_except_tab: 0x93c
+-  __TEXT.__dlopen_cstrs: 0x49
++  __TEXT.__swift5_mpenum: 0x48
++  __TEXT.__oslogstring: 0xfc5
++  __TEXT.__gcc_except_tab: 0x88c
+   __TEXT.__ustring: 0x102
+-  __TEXT.__unwind_info: 0xa020
+-  __TEXT.__eh_frame: 0x4b38
+-  __TEXT.__objc_classname: 0x1629
+-  __TEXT.__objc_methname: 0x1ce5d
+-  __TEXT.__objc_methtype: 0x6fb3
+-  __TEXT.__objc_stubs: 0x106a0
+-  __DATA_CONST.__got: 0x2308
+-  __DATA_CONST.__const: 0x1840
+-  __DATA_CONST.__objc_classlist: 0x590
+-  __DATA_CONST.__objc_catlist: 0x198
+-  __DATA_CONST.__objc_protolist: 0x500
++  __TEXT.__unwind_info: 0x87d8
++  __TEXT.__eh_frame: 0x41d0
++  __TEXT.__objc_classname: 0x1327
++  __TEXT.__objc_methname: 0x19ce7
++  __TEXT.__objc_methtype: 0x6883
++  __TEXT.__objc_stubs: 0xe5e0
++  __DATA_CONST.__got: 0x1e08
++  __DATA_CONST.__const: 0x15c0
++  __DATA_CONST.__objc_classlist: 0x498
++  __DATA_CONST.__objc_catlist: 0x160
++  __DATA_CONST.__objc_protolist: 0x4b0
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x5e68
+-  __DATA_CONST.__objc_protorefs: 0x1f8
+-  __DATA_CONST.__objc_superrefs: 0x228
++  __DATA_CONST.__objc_selrefs: 0x5490
++  __DATA_CONST.__objc_protorefs: 0x1e0
++  __DATA_CONST.__objc_superrefs: 0x1a0
+   __DATA_CONST.__objc_arraydata: 0x88
+-  __AUTH_CONST.__auth_got: 0x3188
+-  __AUTH_CONST.__auth_ptr: 0x24f8
+-  __AUTH_CONST.__const: 0xfda0
+-  __AUTH_CONST.__cfstring: 0x1ba0
+-  __AUTH_CONST.__objc_const: 0x18280
++  __AUTH_CONST.__auth_got: 0x2c10
++  __AUTH_CONST.__auth_ptr: 0x1ed8
++  __AUTH_CONST.__const: 0xe070
++  __AUTH_CONST.__cfstring: 0x15c0
++  __AUTH_CONST.__objc_const: 0x14cf0
+   __AUTH_CONST.__objc_intobj: 0xc0
+   __AUTH_CONST.__objc_arrayobj: 0x48
+   __AUTH_CONST.__objc_dictobj: 0x50
+   __AUTH_CONST.__objc_floatobj: 0x20
+-  __AUTH.__objc_data: 0x5858
+-  __AUTH.__data: 0x5c70
+-  __DATA.__objc_ivar: 0x794
+-  __DATA.__data: 0xd160
++  __AUTH.__objc_data: 0x4b48
++  __AUTH.__data: 0x4c40
++  __DATA.__objc_ivar: 0x5fc
++  __DATA.__data: 0xaf38
+   __DATA.__objc_stublist: 0x8
+-  __DATA.__bss: 0x113d8
+-  __DATA.__common: 0x270
++  __DATA.__bss: 0xe758
++  __DATA.__common: 0x268
+   __DATA_DIRTY.__objc_data: 0x140
+   __DATA_DIRTY.__bss: 0x10
+   - /System/Library/Frameworks/AppIntents.framework/AppIntents
+
+   - /System/Library/PrivateFrameworks/LinkServices.framework/LinkServices
+   - /System/Library/PrivateFrameworks/PosterBoardUI.framework/PosterBoardUI
+   - /System/Library/PrivateFrameworks/PosterBoardUIServices.framework/PosterBoardUIServices
+-  - /System/Library/PrivateFrameworks/SoftLinking.framework/SoftLinking
+-  - /System/Library/PrivateFrameworks/ToolKit.framework/ToolKit
+   - /System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+   - /System/Library/PrivateFrameworks/UIKitCore.framework/UIKitCore
+   - /System/Library/PrivateFrameworks/VoiceShortcutClient.framework/VoiceShortcutClient
+
+   - /usr/lib/swift/libswiftsimd.dylib
+   - /usr/lib/swift/libswiftsys_time.dylib
+   - /usr/lib/swift/libswiftunistd.dylib
+-  Functions: 15915
+-  Symbols:   5267
+-  CStrings:  6638
++  Functions: 13576
++  Symbols:   4565
++  CStrings:  5869
+ 
+Symbols:
+- _OBJC_CLASS_$_WFDrawerVelocityFilter
+- _OBJC_CLASS_$_WFActionDrawerImageLoader
+- _WFLocalizedDisplayNameForContentCategory
+- _OBJC_CLASS_$_WFDrawerSpringInfo
+- _OBJC_METACLASS_$_WFTranslucentDrawerPane
+- _OBJC_CLASS_$_WFDrawerDragTracker
+- _OBJC_CLASS_$_CNContact
+- _OBJC_CLASS_$_WFDrawerPaneSearchHeaderView
+- _OBJC_CLASS_$_WFEditorDrawerViewController
+- _OBJC_METACLASS_$_WFDrawerSpringInfo
+- _OBJC_CLASS_$_WFContextualActionContext
+- __ZNK11SpringUtils6Spring20osc_first_derivativeEd
+- _OBJC_CLASS_$_LNAutoShortcutsProvider
+- _OBJC_CLASS_$_INImage
+- _OBJC_CLASS_$_INStartAudioCallIntent
+- _OBJC_CLASS_$_WFDrawerController
+- _WFCategorySharing
+- _OBJC_CLASS_$_WFDrawerPaneTitleHeaderView
+- _OBJC_CLASS_$_UIAccessibilityCustomAction
+- _OBJC_METACLASS_$_WFActionDrawerImageLoadTask
+- _OBJC_METACLASS_$_WFEditorDrawerHostingViewController
+- _WFCategoryScripting
+- _OBJC_METACLASS_$_UISearchBar
+- _OBJC_CLASS_$_LSApplicationProxy
+- _OBJC_METACLASS_$_WFDrawerGrabberView
+- __ZN11SpringUtils6SpringC1Edddd
+- _OBJC_CLASS_$_WFActionDrawerImage
+- _OBJC_CLASS_$_INStartCallIntent
+- _OBJC_CLASS_$_WFActionDrawerINShortcutBuilder
+- _WFPseudoCategoryFavorites
+- _OBJC_CLASS_$_WFPassthroughView
+- _exp
+- _WFCategoryWeb
+- _WFLogCategoryTopHits
+- _OBJC_CLASS_$_ICAppRegistry
+- _OBJC_CLASS_$_WFDrawerAnimationManager
+- __ZNK11SpringUtils6Spring12evaluate_oscEd
+- _OBJC_CLASS_$_WFDrawerPaneCustomTitleHeaderView
+- _OBJC_METACLASS_$_WFDrawerPaneContainer
+- _WFCategoryLocation
+- _OBJC_CLASS_$_WFDrawerPaneCloseButton
+- _CACurrentMediaTime
+- _OBJC_CLASS_$__UIGrabber
+- _CNContactThumbnailImageDataKey
+- _OBJC_CLASS_$_CNContactFormatter
+- _OBJC_METACLASS_$_WFDrawerDragTracker
+- _OBJC_METACLASS_$_WFDrawerPaneTitleHeaderView
+- _CNContactImageDataKey
+- _OBJC_CLASS_$_INSendMessageIntent
+- _OBJC_METACLASS_$_WFDrawerPaneCloseButton
+- _dispatch_queue_create
+- _WFEditorDrawerFauxHeaderHeight
+- _OBJC_CLASS_$_WFDrawerAnimation
+- _OBJC_CLASS_$_WFActionSearchGroup
+- _OBJC_CLASS_$_INStartVideoCallIntent
+- __sl_dlopen
+- _WFCategoryMedia
+- _OBJC_METACLASS_$_WFDrawerGestureCoordinator
+- _OBJC_METACLASS_$_WFDrawerAnimationManager
+- ___sincos_stret
+- _OBJC_CLASS_$_CNMonogrammer
+- _OBJC_METACLASS_$_WFDrawerVelocityFilter
+- __ZNK11SpringUtils6Spring20first_derivative_oscEd
+- _WFSearchActions
+- _CAFrameRateRangeMake
+- _OBJC_CLASS_$_INShortcut
+- _OBJC_METACLASS_$_WFPassthroughView
+- _OBJC_CLASS_$_WFContextualActionSuggester
+- __ZN11SpringUtils6SpringC2Edddd
+- _OBJC_CLASS_$_WFDrawerItem
+- __ZNK11SpringUtils6Spring16first_derivativeEd
+- __ZNK11SpringUtils6Spring8evaluateEd
+- _OBJC_METACLASS_$_WFDrawerPaneCustomTitleHeaderView
+- _OBJC_CLASS_$_UIRefreshControl
+- _OBJC_METACLASS_$_WFActionDrawerINShortcutBuilder
+- _OBJC_METACLASS_$_WFActionDrawerImageLoader
+- _OBJC_CLASS_$_WFActionDrawerImageLoadTask
+- _OBJC_CLASS_$_WFEditorDrawerScrollViewDelegate
+- __ZNK11SpringUtils6Spring21osc_second_derivativeEd
+- _OBJC_METACLASS_$_WFActionDrawerImage
+- _OBJC_CLASS_$_WFTranslucentDrawerPane
+- __ZNK11SpringUtils6Spring37first_derivative_osc_first_derivativeEd
+- _UIFontTextStyleTitle1
+- _UIContentSizeCategoryAccessibilityLarge
+- __UISheetCornerRadius
+- _INExtractAppInfoFromSiriLaunchId
+- _OBJC_CLASS_$_WFDrawerGrabberView
+- _OBJC_CLASS_$_INIntent
+- _OBJC_CLASS_$_WFDrawerPaneContainer
+- _kMaximumPredictedDrawerOvershoot
+- _OBJC_METACLASS_$_WFDrawerPaneSearchHeaderView
+- _OBJC_METACLASS_$_WFDrawerController
+- _OBJC_METACLASS_$_WFEditorDrawerScrollViewDelegate
+- __ZNK11SpringUtils6Spring17second_derivativeEd
+- _OBJC_METACLASS_$_WFDrawerItem
+- _OBJC_CLASS_$_NSMapTable
+- _dispatch_queue_attr_make_with_qos_class
+- _WFCategoryDocuments
+- _OBJC_METACLASS_$_WFDrawerAnimation
+- _UIAccessibilityTraitHeader
+- _OBJC_CLASS_$_UIScrollView
+- _OBJC_CLASS_$_WFDrawerGestureCoordinator
+- _OBJC_CLASS_$_WFEditorDrawerHostingViewController
+- _swift_initEnumMetadataSingleCase
+- _OBJC_METACLASS_$_WFEditorDrawerViewController
+- _OBJC_CLASS_$_NSCache
+- _OBJC_CLASS_$_INSearchCallHistoryIntent
+CStrings:
++ "_parameterClassName"
++ "T@\"NSString\",R,N,V_parameterClassName"
++ "parameterClassName"
++ "initWithParameterClassName:currentState:"
+- "TQ,N,VnavigationStyle"
+- "installForegroundDimmingViewIfNeeded"
+- "T@\"WFDrawerPaneContainer\",W,N,V_container"
+- "heightAccelerationFilter"
+- "translucent"
+- "handleFailureInFunction:file:lineNumber:description:"
+- "T@\"WFDrawerAnimationManager\",R,N,V_animationManager"
+- "_fauxHeaderHeight"
+- "launchId"
+- "wf_actionDrawerSuggestionImageBackgroundColor"
+- "_actionSuggester"
+- "closestVisibilityForHeight:"
+- "Detected change of top hits suggestions for the drawer: %!l(MISSING)d collections"
+- "Td,N,V_topInset"
+- "popHeightAnimation"
+- "Loaded %!l(MISSING)d collections."
+- "T{CGPoint=dd},N,V_unmodifiedInitialContentOffset"
+- "v24@?0@\"INImage\"8@\"NSError\"16"
+- "heightAnimation"
+- "drawerPaneContainer:didTransitionToVisibility:"
+- "Td,R,V_stiffness"
+- "paneContainersByViewControllers"
+- "_topRubberBandRange"
+- "T@\"HMHome\",R,N,V_home"
+- "endDraggingWithVerticalVelocity:animation:"
+- "Td,N,V_minimumDrawerHeight"
+- "givenName"
+- "com.apple.mobilephone"
+- "T@\"UIView\",&,N,V_titleView"
+- "Td,R,V_maxTranslationY"
+- "_topInset"
+- "userInteractionEnabled"
+- "setActiveHeaderView:"
+- "_initialContentOffset"
+- "Suggestions From Your Apps"
+- "containerView"
+- "dimming"
+- "WFEditorDrawerHostingViewController"
+- "intent"
+- "heightForRubberBandHeight:"
+- "editor.drawer.action."
+- "DrawerCategoryDetailView loading."
+- "@\"WFContextualActionSuggester\""
+- "Td,R,V_mass"
+- "WFActionDrawerINShortcutBuilder"
+- "Based on how you use your iPhone."
+- "didTransitionToVisibility:"
+- "setGrabberView:"
+- "WFDrawerDragTracker"
+- "@\"<WFDrawerPaneContainerDelegate>\""
+- "T@\"WFDrawerVelocityFilter\",R,N,V_heightVelocityFilter"
+- "_activeHeaderView"
+- "_minTranslationY"
+- "@\"<WFDrawerPaneHeaderViewDelegate>\""
+- "setContainer:"
+- "setRefreshControl:"
+- "transitionToVisibility:withDimming:animated:interruptible:completion:"
+- "setupDimmingViewsForAnimationToDimming:"
+- "shrinkingVisibilityForHeight:"
+- "Td,N,V_bottomContentInset"
+- "Next Action Suggestions"
+- "_userInteractionEnabled"
+- "_previousSample"
+- "setShadowColor:"
+- "vcui_keyPeople"
+- "_type"
+- "imageWithData:"
+- "@24@0:8@\"UIViewController\"16"
+- "Search Results"
+- "_candidateForContentCapture"
+- ".add-to-shortcut"
+- "applicationType"
+- "Based on how you use your Mac."
+- "methodSignatureForSelector:"
+- "Based on how you use your iPad."
+- "_title"
+- "animation"
+- "ActionDrawerSuggestionImageBackground"
+- "WFDrawerPaneContainer"
+- "mutablePaneControllers"
+- "T@\"NSObject<UIScrollViewDelegate>\",W,N,V_originalDelegate"
+- "beginIgnoringTapGestures"
+- "T@\"UIView\",R,W,N,V_titleView"
+- "setInactive:"
+- "_drawerGroup"
+- "isCanceled"
+- "Double-tap to collapse the actions drawer to half screen"
+- "recipient"
+- "separatorView"
+- "setBottomInset:"
+- "wf_setDrawerItem:"
+- "_animationManager"
+- "<SpringAnimation duration: %!g(MISSING), delay: %!g(MISSING), mass: %!g(MISSING), stiffness: %!g(MISSING), damping: %!g(MISSING), initialVelocity: %!g(MISSING)>"
+- "editor.drawer.suggestions."
+- "removeForegroundDimmingViewIfUnused"
+- "beginAppearanceTransition:animated:"
+- "Undo Favorite"
+- "TQ,R,N,V_previousVisibilityOfCoveredPaneContainer"
+- "_animateUsingSpringWithDuration:delay:options:mass:stiffness:damping:initialVelocity:animations:completion:"
+- "pushViewController:withVisibility:dimming:animated:"
+- "installChildViewController:"
+- "visibility"
+- "Td,R,V_minTranslationY"
+- "mass > 0"
+- "(?=\"basic\"{?=\"curve\"q}\"spring\"{?=\"mass\"d\"stiffness\"d\"damping\"d\"initialVelocity\"d}\"defaultSpring\"{?=\"initialVelocity\"d})"
+- "_selectedAction"
+- "vcui_displayImage"
+- "stringWithUTF8String:"
+- "_drawerController"
+- "handleTapGesture:"
+- "applyRubberBandToValue:withRange:"
+- "Half screen"
+- "currentSample"
+- "Drawer visibility changed"
+- "_hoveredAction"
+- "tertiarySystemBackgroundColor"
+- "registerObjectOfClass:visibility:loadHandler:"
+- "setUnmodifiedInitialContentOffset:"
+- "WFActionDrawerImage"
+- "previousPanTranslation"
+- "legacyAppIdentifierForBundleIdentifier:"
+- "T@\"<WFDrawerPaneContainerDelegate>\",W,N,V_delegate"
+- "T@\"WFImage\",R,N,V_image"
+- "v44@0:8Q16Q24B32@?36"
+- "T@\"UITapGestureRecognizer\",R,N,V_tapGestureRecognizer"
+- "_previousVisibilityOfCoveredPaneContainer"
+- "T@\"<WFActionDrawerDelegate>\",W,N,V_delegate"
+- "WFDrawerPaneCustomTitleHeaderView"
+- "_retrieveImageDataWithReply:"
+- "topCornerRadius"
+- "Td,N,V_previousTime"
+- "animationManager"
+- "accessibilityExpandDrawer"
+- "loadImagesForInteractionDonation:completionHandler:"
+- "_TtCV14WorkflowEditor24DrawerCategoryDetailViewP33_7BC66CDED299690FD84D771AB137DC8115StateController"
+- "T@\"UIView\",R,N"
+- "v48@0:8Q16Q24B32B36@?40"
+- "{CGPoint=\"x\"d\"y\"d}"
+- "imageWithImageData:"
+- "T@\"UIView\",R,W,N,V_separatorView"
+- "WFDrawerPaneSearchHeaderView"
+- "_collections"
+- "_imageData"
+- "clearSearchBar"
+- "setPreviousValue:"
+- "traitCollectionWithLegibilityWeight:"
+- "TB,N,V_userInteractionEnabled"
+- "@\"UIScrollView\""
+- "T@\"UIViewController\",R,N"
+- "foregroundDimmingView"
+- "accessibilityActivate"
+- "_correctingContentOffset"
+- "setCurrentSample:"
+- "inactive"
+- "Td,N,V_maximumDrawerHeight"
+- "T{?=ddd},N,V_previousSample"
+- "Failed to reload aggregated entries due to: %!@(MISSING)"
+- "initWithViewController:"
+- "<BasicAnimation duration: %!g(MISSING), delay: %!g(MISSING), curve: %!l(MISSING)d>"
+- "v32@0:8d16@24"
+- "D"
+- "%!s(MISSING) Error %!{(MISSING)public}@ fetching contacts with predicate"
+- "coordinatedUnitAnimation"
+- "Calls to endIgnoringTapGestures must mirror begin calls"
+- "accessibilityCollapseDrawer"
+- "%!"(MISSING)
+- "ActionDrawerContentBackground"
+- "setViewControllers:animated:"
+- "layoutConstraints"
+- "isHidden"
+- "_stiffness"
+- "WFDrawerPaneContainerDelegate"
+- "applicationIconImageForBundleIdentifier:format:"
+- "T@\"WFDrawerVelocityFilter\",R,N,V_heightAccelerationFilter"
+- "drawerPane"
+- "_initializationViewController"
+- "setPreviousPanTranslation:"
+- "_TtC14WorkflowEditor26DrawerSuggestionDataSource"
+- "previousVisibilityOfCoveredPaneContainer"
+- "setAccessibilityIdentifier:"
+- "_previousPanTranslation"
+- "accessibilityCustomActions"
+- "_allCollections"
+- "_typeParameters"
+- "dataSources"
+- "backgroundDimmingView"
+- "initWithHome:workflow:actionSuggester:"
+- "loadingStateTimer"
+- "T@\"UIViewController<WFDrawerPane>\",R,N,V_drawerPane"
+- "Td,N,V_touchAreaAdjustment"
+- "T@\"UIButton\",R,W,N,V_closeButton"
+- "T@\"UIView\",W,N,V_backgroundView"
+- "vcui_isIntentFromSystemApp"
+- "updateHeaderView"
+- "topRubberBandRange"
+- "<%!@(MISSING): mass = %!g(MISSING), stiffness = %!g(MISSING), damping = %!g(MISSING), initialVelocity = %!g(MISSING), undershootTime = %!g(MISSING), overshootTime = %!g(MISSING), settlingTime = %!g(MISSING)>"
+- "T@\"UIView\",W,N,V_borderView"
+- "Actions Controller"
+- "@\"WFDrawerItem\""
+- "heightForVisibility:"
+- "imageLoadingQueue"
+- "Optional<Binding<NavigationPath>>"
+- "damping > 0"
+- "%!s(MISSING)"
+- "WFDrawerAnimationManager"
+- "WorkflowEditor/EditorDrawerSheetHostingViewController.swift"
+- "drawerRect"
+- "pushHeightAnimation:"
+- "@\"WFDrawerPaneCloseButton\""
+- "_inactive"
+- "gestureCoordinator:didFinishInteractionWithVelocity:acceleration:animation:"
+- "T@\"UIViewController\",&,N"
+- "@32@0:8@16^@24"
+- "undershootTime"
+- "initWithName:target:selector:"
+- "\x11Q4"
+- "bottomInsetForPaneContainer:"
+- "resetWithValue:"
+- "setHeaderHeight:"
+- "@\"UIPanGestureRecognizer\""
+- "_contentView"
+- "Td,R,N,V_initialHeight"
+- "T@\"UIPanGestureRecognizer\",R,N,V_panGestureRecognizer"
+- "T@\"WFDrawerItem\",R,N,V_drawerItem"
+- "damping"
+- "initWithTitle:"
+- "@\"NSMapTable\""
+- "d24@0:8@\"WFDrawerPaneContainer\"16"
+- "@\"UIView<WFDrawerPaneHeaderView>\"16@0:8"
+- "Optional<CGFloat>"
+- "contactIdentifier"
+- "correctingContentOffset"
+- "_translucent"
+- "@\"NSObject<OS_dispatch_queue>\""
+- "WFActionDrawerNavigationStyle"
+- "DrawerSuggestionDataSource"
+- "T@\"WFDrawerPaneContainer\",W,N"
+- "_canceled"
+- "animationUsingDefaultSpringWithInitialVelocity:delay:"
+- "gestureCoordinator:didContinueInteractionWithDrawerHeight:"
+- "_TtCVV14WorkflowEditor15DrawerSearchBarP33_E51C85E07E6B1A263BBD21DD7A09E88317RepresentableView11Coordinator"
+- "@\"WFEditorDrawerHostingViewController\""
+- "T@\"NSLayoutConstraint\",&,N,V_contentViewTopConstraint"
+- "cancellables"
+- "initWithSearchBar:"
+- "setTopInset:"
+- "T@\"WFDrawerGestureCoordinator\",R,W,N,V_gestureCoordinator"
+- "Td,R,V_overshootTime"
+- "B36@0:8Q16Q24B32"
+- "sourceAppIdentifierForDisplay"
+- "@\"UITapGestureRecognizer\""
+- "_coordinatedUnitAnimation"
+- "_paneContainers"
+- "setDrawerController:"
+- "_maximumDrawerHeight"
+- "calculatedVelocity"
+- "Collapse (Actions Drawer)"
+- "T@\"UIView\",R,N,V_contentView"
+- "container"
+- "activeScrollViewDidChange"
+- "WeakReference<WFActionDrawerDelegate>"
+- "WFDrawerPaneHeaderView"
+- "_heightAccelerationFilter"
+- "parameterDefinition"
+- "willTransitionToVisibility:"
+- "WFTranslucentDrawerPane"
+- "_tapGestureRecognizer"
+- "T{CGPoint=dd},N,V_initialContentOffset"
+- "setMaskedCorners:"
+- "initUsingDefaultSpringWithInitialVelocity:delay:"
+- "v24@0:8@\"WFDrawerAnimation\"16"
+- "drawerCategoryTitleFont"
+- "drawerController:didTransitionToVisibility:"
+- "drawerItem"
+- "applicationProxyForIdentifier:"
+- "@56@0:8d16d24d32d40d48"
+- "_separatorView"
+- "initializationViewController"
+- "findScrollViewInView:"
+- "sharedInstance"
+- "drawerPaneWithViewController:"
+- "initialVelocity"
+- "rubberBandHeightForHeight:"
+- "layoutDrawerViewController"
+- "_keyParameter"
+- "Td,R"
+- "roundsTopCorners"
+- "No actions to show."
+- "shouldAspectFill"
+- "Td,R,V_undershootTime"
+- "setAccessibilityViewIsModal:"
+- "Q24@0:8d16"
+- "defaultHeightAnimation"
+- "d32@0:8d16d24"
+- "stiffness > 0"
+- "1"
+- "editor.drawer.allapps"
+- "$Q"
+- "mass"
+- "drawerController"
+- "initWithDelegate:"
+- "B20@0:8B16"
+- "void *IntentsUILibrary(void)"
+- "_imageLoadingQueue"
+- "editor.drawer.actionlibrary"
+- "grabberAreaBounds"
+- "calculateCriticallyDampedSpringTiming"
+- "_accessibilityCustomActions"
+- "WFDrawerAnimation"
+- "softlink:r:path:/System/Library/Frameworks/IntentsUI.framework/IntentsUI"
+- "setShowsCancelButton:animated:"
+- "setScrollViewObserver:"
+- "shadowView"
+- "Based on how you use your iPod."
+- "layoutDrawerViewControllerForDrawerHeight:"
+- "T@\"WFDrawerPaneContainer\",R,N"
+- "_overshootTime"
+- "Close"
+- "UIFieldEditor"
+- "_titleView"
+- "T@\"WFDrawerGrabberView\",W,N,V_grabberView"
+- "Td,R,V_initialVelocity"
+- "editor.drawer.close"
+- "WFDrawerItem"
+- "stiffness"
+- "{?=ddd}16@0:8"
+- "_container"
+- "initWithBundleIdentifier:"
+- "T@\"UIViewController<WFDrawerPane>\",W,N,V_drawerPane"
+- "_closeButton"
+- "initWithMass:stiffness:damping:initialVelocity:delay:"
+- "Optional<ActionDrawerDataSource>"
+- "T@\"UIView\",R,W,N,V_foregroundDimmingView"
+- "WFDrawerController"
+- "T@\"NSObject<OS_dispatch_queue>\",R,N,V_imageLoadingQueue"
+- "Failed to create an action for top hit entry"
+- "drawerController:willTransitionToVisibility:"
+- "setFauxHeaderHeight:"
+- "TB,N,V_tracking"
+- "v24@0:8@\"WFDrawerGestureCoordinator\"16"
+- "@\"_UIGrabber\""
+- "_minimumDrawerHeight"
+- "T@\"WFDrawerPaneCloseButton\",R,W,N,V_closeButton"
+- "WFDrawerSpringInfo.mm"
+- "DrawerCategoryDetailView loaded with %!l(MISSING)d sections."
+- "searchTextField"
+- "T{?=ddd},N,V_currentSample"
+- "WorkflowEditor.EditorDrawerHostingViewController"
+- "critically-damped"
+- "T@\"<WFDrawerControllerDelegate>\",W,N,V_delegate"
+- "Double-tap to fully expand the actions drawer"
+- "T@\"NSString\",C,N,V_drawerGroup"
+- "maximumDrawerHeight"
+- "setShadowOffset:"
+- "INUIImageLoader"
+- "T@\"UIView\",W,N,V_shadowView"
+- "v40@0:8{?=ddd}16"
+- "TB,N,V_roundsTopCorners"
+- "Td,R,V_damping"
+- "_touchAreaAdjustment"
+- "ActionDrawerEmptyText"
+- "T@\"UIView\",R,W,N,V_backgroundDimmingView"
+- "test"
+- "WFActionDrawerScrollViewObserver"
+- "endIgnoringTapGestures"
+- "tracking"
+- "createActionWithIntent:error:"
+- "_backgroundDimmingView"
+- "_setAutoDisableCancelButton:"
+- "@\"<WFDrawerGestureCoordinatorDelegate>\""
+- "onSearchBarReturnKey"
+- "WFDrawerVelocityFilter"
+- "T@\"WFDrawerItem\",R,D,N"
+- "All Actions"
+- "Td,N,V_fauxHeaderHeight"
+- "currentHeight"
+- "T@\"NSString\",C,N,V_title"
+- "_initWithIntent:"
+- "v32@0:8@\"WFDrawerPaneContainer\"16Q24"
+- "setLayoutMargins:"
+- "ActionDrawerBackground"
+- "setNavigationStyle:"
+- "titleView"
+- "contentViewTopConstraint"
+- "navigationStyle"
+- "_scrollViewDelegate"
+- "Td,R,V_settlingTime"
+- "shortcutsDrawer_scrollPerformance"
+- "wf_actionDrawerBackgroundColor"
+- "Minimized"
+- "viewControllers"
+- "Optional<DrawerSheetPresentationMode>"
+- "T@\"UIViewController\",&,N,V_viewController"
+- "WFDrawerAnimationManager.m"
+- "setContentViewTopConstraint:"
+- "underdamped"
+- "TQ,N,V_tapGestureIgnoringCount"
+- "interactionDonation"
+- "drawerHeight"
+- "WFDrawerGestureCoordinator.m"
+- "setTracking:"
+- "Failed to load suggestions for the drawer due to: %!@(MISSING)"
+- "@\"UIViewController<WFDrawerPane>\""
+- "drawerReleaseAnimationWithInitialVelocity:"
+- "containerHeight"
+- "minimumDrawerHeight"
+- "WFEditorDrawerViewController.m"
+- "_maxTranslationY"
+- "Td,N,V_bottomInset"
+- "isCandidateForContentCapture"
+- "T@\"NSCache\",R,N,V_imageCache"
+- "activeHeaderView"
+- "editor.drawer"
+- "_isLoadingStateReady"
+- "fauxHeaderHeight"
+- "viewSafeAreaInsetsDidChange"
+- "touchAreaAdjustment"
+- "No Favorites"
+- "!\""
+- "Apps"
+- "DrawerHeaderCoordinateSpace"
+- "Based on the actions in your shortcut."
+- "setShadowView:"
+- "headerHeight"
+- "initWithDuration:curve:delay:"
+- "Based on how you use your device."
+- "T@\"WFDrawerController\",W,N,V_drawerController"
+- "applyWithAnimations:completion:"
+- "interaction"
+- "@\"NSCache\""
+- "TQ,R,N,V_visibility"
+- "isSearchBarFocused"
+- "pointInside:withEvent:"
+- "Suggestions"
+- "invokeWithTarget:"
+- "isInactive"
+- "accessibilityValue"
+- "Calls to popHeightAnimation must mirror push calls"
+- "Search for apps and actions"
+- "beginDragging"
+- "bottomContentInset"
+- "selector"
+- "WFActionDrawerImageLoadTask"
+- "_TtC14WorkflowEditor15DrawerViewState"
+- "initWithDrawerPane:"
+- "transitionToVisibility:withDimming:animated:"
+- "-[INIntent(VoiceShortcuts) vcui_displayImage]"
+- "refreshControl"
+- "TQ,N,V_navigationStyle"
+- "initWithParameter:currentState:"
+- "TB,R,N,GisCanceled,V_canceled"
+- "T@\"NSMapTable\",R,N,V_paneContainersByViewControllers"
+- "_modifyAnimationsWithPreferredFrameRateRange:updateReason:animations:"
+- "setLookToDictateEnabled:"
+- "_navigationStyle"
+- "@\"WFDrawerController\""
+- "initWithStyle:diameter:"
+- "@\"UIView<WFDrawerPaneHeaderView>\""
+- "setPreviousSample:"
+- "wf_setDrawerController:"
+- "previousTime"
+- "ActionDrawerCloseForeground"
+- "WFPassthroughView"
+- "WFEditorDrawerViewController"
+- "_visibility"
+- "drawer.apps.grid"
+- "wf_drawerItem"
+- "_panGestureRecognizer"
+- "%!s(MISSING) Failed to determine spring duration"
+- "WFDrawerGestureCoordinatorDelegate"
+- "setMaximumNumberOfTouches:"
+- "v36@0:8Q16Q24B32"
+- "previousValue"
+- "T@\"WFDrawerController\",R,W,D,N"
+- "T@\"UISearchBar\",&,N"
+- "T@\"WFDrawerAnimation\",R,N"
+- "transitionToVisibility:withDimming:animated:completion:"
+- "Add to Shortcut"
+- "initWithOptions:"
+- "onSearchBarMoveCommand"
+- "T@\"UIView<WFDrawerPaneHeaderView>\",W,N"
+- "setOriginalDelegate:"
+- "topInsetForPaneContainer:"
+- "_bottomInset"
+- "endDraggingWithAnimation:"
+- "_previousValue"
+- "WFEditorDrawerScrollViewDelegate"
+- "Td,N,V_previousValue"
+- "Td,N,VheaderHeight"
+- "canceled"
+- "gestureCoordinatorDidBeginInteraction:"
+- "setDrawerPane:"
+- "dragTranslatedWithVerticalDelta:"
+- "reportSuggestionSessionEnded"
+- "TB,R,N,V_inTransition"
+- "T@\"<WFDrawerPaneHeaderViewDelegate>\",W,N,V_delegate"
+- "Class getINUIImageLoaderClass(void)_block_invoke"
+- "WFDrawerDragTracker.m"
+- "Categories"
+- "editor.drawer.allactions"
+- "_duration"
+- "_heightVelocityFilter"
+- "Unable to find class %!s(MISSING)"
+- "v16@?0@\"<UIViewControllerTransitionCoordinatorContext>\"8"
+- "animationWithMass:stiffness:damping:initialVelocity:delay:"
+- "coveredPaneContainer"
+- "_grabberView"
+- "WorkflowEditor/EditorDrawerHostingViewController.swift"
+- "heightVelocityFilter"
+- "paneContainers"
+- "underlyingAutoShortcut"
+- "wf_drawerController"
+- "Reloaded %!l(MISSING)d collections."
+- "closeButtonTouchedUp:"
+- "@32@0:8d16d24"
+- "focusSearchBar"
+- "v24@0:8@\"WFDrawerPaneContainer\"16"
+- "T@\"UIScrollView\",&,N,V_scrollView"
+- "setBorderView:"
+- "createActionWithShortcut:error:"
+- "setBottomRubberBandRange:"
+- "didDismissHeaderView:"
+- "editor.drawer.app."
+- "T@\"WFContextualActionSuggester\",N,&,VactionSuggester"
+- "_mass"
+- "addSample:"
+- "initWithTitleView:"
+- "v40@0:8{CGSize=dd}16@32"
+- "_viewController"
+- "_previousTime"
+- "Td,N"
+- "ActionDrawerCloseBackground"
+- "animationWithDuration:curve:delay:"
+- "T{CGPoint=dd},N,V_previousPanTranslation"
+- "B44@0:8@16Q24Q32B40"
+- "centerXAnchor"
+- "Loaded top hits suggestions for the drawer: %!l(MISSING)d collections"
+- "transitionWithPushedAnimationToVisibility:withDimming:animated:interruptible:completion:"
+- "@\"NSObject<UIScrollViewDelegate>\""
+- "TB,N,GisCandidateForContentCapture,V_candidateForContentCapture"
+- "Drawer onAppear called"
+- "_TtC14WorkflowEditorP33_0834C0394E745FE3466CD1D05FFC4A6714DrawerSearcher"
+- "Action Library"
+- "Td,N,V_bottomRubberBandRange"
+- "monogramForContacts:"
+- "nameComponents"
+- "Add Action"
+- "_inTransition"
+- "inTransition"
+- "overshootTime"
+- "drawer.apps.list"
+- "T@\"WFEditorDrawerHostingViewController\",R,N,V_hostingViewController"
+- "WFDrawerSpringInfo"
+- "@\"<WFDrawerPaneHeaderViewDelegate>\"16@0:8"
+- "T@\"<WFDrawerPaneHeaderViewDelegate>\",W,N"
+- "isTranslucent"
+- "T@\"UIView<WFDrawerPaneHeaderView>\",W,N,V_activeHeaderView"
+- "forwardInvocation:"
+- "topPaneContainer"
+- "removeAllAnimations"
+- "monogramForPersonWithFirstName:lastName:"
+- "_undershootTime"
+- "@\"UISearchBar\"16@0:8"
+- "editor.drawer.category."
+- "growingVisibilityForHeight:"
+- "settlingTime"
+- "@\"<WFActionDrawerDelegate>\""
+- "initWithMass:stiffness:damping:initialVelocity:delay:calculateCoordinatedAnimation:"
+- "TB,R,N,V_shouldAspectFill"
+- "originalDelegate"
+- "topViewController"
+- "Favorite"
+- "Loading top hits suggestions for the drawer"
+- "isUserInteractionEnabled"
+- "<DefaultSpringAnimation duration: %!g(MISSING), delay: %!g(MISSING), initialVelocity: %!g(MISSING)>"
+- "Td,N,V_topRubberBandRange"
+- "showsVerticalScrollIndicator"
+- "T@\"WFContextualActionSuggester\",R,N,V_actionSuggester"
+- "initWithImage:shouldAspectFill:"
+- "No suggestions to show."
+- "initialContentOffset"
+- "T@\"WFContextualActionSuggester\",R,N"
+- "@48@0:8d16d24d32d40"
+- "paneContainerForViewController:"
+- "_TtCV14WorkflowEditor15DrawerSearchBar20FocusableUISearchBar"
+- "T{CGRect={CGPoint=dd}{CGSize=dd}},R,N"
+- "WFDrawerPane"
+- "_preferredFontForTextStyle:maximumContentSizeCategory:compatibleWithTraitCollection:"
+- "drawerView"
+- "WFDrawerDragTracking"
+- "closestVisibilityWithVelocity:acceleration:previousVisibility:"
+- "unmodifiedInitialContentOffset"
+- "rootView"
+- "Double-tap to add to the bottom of the shortcut. Double-tap and hold, then drag to customize the position in the shortcut."
+- "_bottomContentInset"
+- "TB,N,GisInactive,V_inactive"
+- "accessibilityHint"
+- "setActionSuggester:"
+- "valueAtTime:"
+- "updateDragForVerticalTranslation:"
+- "_shouldAspectFill"
+- "drawerGroup"
+- "@40@0:8d16q24d32"
+- "@\"WFDrawerPaneContainer\"16@0:8"
+- "T@\"NSString\",R,N,V_drawerGroup"
+- "WFDrawerController.m"
+- "_dimming"
+- "@60@0:8d16d24d32d40d48B56"
+- "drawerPaneContainer:willTransitionToVisibility:"
+- "T@\"<WFActionDrawerDelegate>\",N,W,Vdelegate"
+- "_borderView"
+- "setCandidateForContentCapture:"
+- "_drawerItem"
+- "contextForEditingWorkflow:inSurface:"
+- "T@\"NSArray\",R,N,V_paneContainers"
+- "handlePanGesture:"
+- "com.apple.callhistory.sync-helper"
+- "\x11R"
+- "canBecomeFocused"
+- "TB,N,V_correctingContentOffset"
+- "@\"WFDrawerAnimation\""
+- "@\"WFDrawerPaneContainer\""
+- "Reloading the runnable data sources with reason: %!s(MISSING)"
+- "@\"UIViewController\"24@?0@\"WFDrawerPaneContainer\"8Q16"
+- "@\"WFDrawerGrabberView\""
+- "scrollViewDelegate"
+- "Reloading the runnable collections"
+- "transitionContentForHeight:"
+- "v32@0:8@?16@?24"
+- "T@\"<WFActionDrawerScrollViewObserver>\",N,W,VscrollViewObserver"
+- "WFActionDrawerImageLoader"
+- "WFDrawerPaneHeaderViewDelegate"
+- "setPreviousTime:"
+- "@\"WFDrawerVelocityFilter\""
+- "_searchQuery"
+- "com.apple.InCallService"
+- "_tapGestureIgnoringCount"
+- "@\"WFDrawerAnimationManager\""
+- "All Apps"
+- "Based on how you use your Apple Watch."
+- "bezierPathWithRoundedRect:byRoundingCorners:cornerRadii:"
+- "_originalDelegate"
+- "_backgroundView"
+- "scrollViewObserver"
+- "_paneContainersByViewControllers"
+- "_initialHeight"
+- "popViewControllerToVisibility:dimming:animated:"
+- "editor.drawer.action-details."
+- "setTopRubberBandRange:"
+- "descriptorForRequiredKeysForStyle:"
+- "unifiedContactsMatchingPredicate:keysToFetch:error:"
+- "_initialVelocity"
+- "initWithGestureCoordinator:"
+- "setTouchAreaAdjustment:"
+- "_drawerPane"
+- "endAppearanceTransition"
+- "TB,N,GisTranslucent,V_translucent"
+- "setMaximumDrawerHeight:"
+- "WFDrawerGestureCoordinator"
+- "setBottomContentInset:"
+- "TQ,R,N,V_dimming"
+- "weakToWeakObjectsMapTable"
+- "T@\"WFDrawerGestureCoordinator\",R,N,V_gestureCoordinator"
+- "_heightAnimationPushCount"
+- "_imageCache"
+- "registeredImageLoaderWithScreenDelegate"
+- "tapGestureRecognizer"
+- "contacts"
+- "predicateForContactsWithIdentifiers:"
+- "setInitialContentOffset:"
+- "@\"WFDrawerController\"8@?0"
+- "Full screen"
+- "T@\"WFEditorDrawerScrollViewDelegate\",R,N,V_scrollViewDelegate"
+- "\x04"
+- "setMinimumDrawerHeight:"
+- "B40@0:8{CGPoint=dd}16@32"
+- "SlidingUI"
+- "viewWillTransitionToSize:withTransitionCoordinator:"
+- "attributionBundleIdentifier"
+- "_currentSample"
+- "_TtC14WorkflowEditor38EditorDrawerSheetHostingViewController"
+- "setTapGestureIgnoringCount:"
+- "gestureCoordinator"
+- "keyImage"
+- "setDrawerGroup:"
+- "setCorrectingContentOffset:"
+- "WFDrawerPaneCloseButton"
+- "_TtC14WorkflowEditor15DrawerListState"
+- "v48@0:8@16d24d32@40"
+- "_delay"
+- "_settlingTime"
+- "drawer.categories"
+- "Q40@0:8d16d24Q32"
+- "_damping"
+- "collectionsByApp"
+- "setViewController:"
+- "familyName"
+- "owner"
+- "T@\"UISearchBar\",R,W,N,V_searchBar"
+- "_heightAnimation"
+- "_foregroundDimmingView"
+- "maxTranslationY"
+- "T@\"UIViewController\",R,N,V_initializationViewController"
+- "imageCache"
+- "_grabber"
+- "WeakReference<WFActionDrawerScrollViewObserver>"
+- "_loadingState"
+- "d24@0:8Q16"
+- "initWithDrawerItem:originalDelegate:"
+- "reportEvent:inContext:involvingActions:"
+- "v32@0:8@\"WFDrawerGestureCoordinator\"16d24"
+- "initialHeight"
+- "WFDrawerGrabberView"
+- "_shadowView"
+- "_contentViewTopConstraint"
+- "candidateForContentCapture"
+- "WorkflowEditor.EditorDrawerSheetHostingViewController"
+- "v24@0:8@\"<WFDrawerPaneHeaderViewDelegate>\"16"
+- "subviews"
+- "@\"NSProgress\"16@?0@?<v@?@\"<NSItemProviderWriting>\"@\"NSError\">8"
+- "WFDrawerPaneTitleHeaderView"
+- "minTranslationY"
+- "DrawerCategoryDetailView unloaded."
+- "WFActionDrawerImageLoader.m"
+- "_gestureCoordinator"
+- "!\x13\"A"
+- "VoiceShortcuts"
+- "tapGestureIgnoringCount"
+- "_unmodifiedInitialContentOffset"
+- "T@\"<WFDrawerGestureCoordinatorDelegate>\",R,W,N,V_delegate"
+- "_bottomRubberBandRange"
+- "{?=\"start\"d\"end\"d\"dt\"d}"
+- "v24@0:8@\"UIView<WFDrawerPaneHeaderView>\"16"
+- "animateAlongsideTransition:completion:"
+- "clampedDrawerHeight:"
+- "actionSuggester"
+- "Expand (Actions Drawer)"
+- "_tracking"
+- "v48@0:8@\"WFDrawerGestureCoordinator\"16d24d32@\"WFDrawerAnimation\"40"
+- "@\"WFEditorDrawerScrollViewDelegate\""
+- "definition"
+- "@\"<WFDrawerControllerDelegate>\""
+- "setRoundsTopCorners:"
+- "unapplyRubberBandToValue:withRange:"
+- "_animateUsingDefaultDampedSpringWithDelay:initialSpringVelocity:options:animations:completion:"
+- "endDragging"
+- "@\"WFDrawerGestureCoordinator\""
+- "updateTapGestureRecognizer"
+- "_roundsTopCorners"
+- "previousSample"
+- "setTranslucent:"
+- "popViewControllerAnimated:"
+
+```

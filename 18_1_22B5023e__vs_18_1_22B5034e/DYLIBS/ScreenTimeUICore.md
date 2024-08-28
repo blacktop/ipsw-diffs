@@ -1,0 +1,37 @@
+## ScreenTimeUICore
+
+> `/System/Library/PrivateFrameworks/ScreenTimeUICore.framework/ScreenTimeUICore`
+
+```diff
+
+-535.0.0.0.0
+-  __TEXT.__text: 0xcf758
++537.1.2.0.0
++  __TEXT.__text: 0xcf75c
+   __TEXT.__auth_stubs: 0x2070
+   __TEXT.__objc_methlist: 0x128
+-  __TEXT.__const: 0x3674
++  __TEXT.__const: 0x3684
+   __TEXT.__cstring: 0x2130
+   __TEXT.__constg_swiftt: 0x1c98
+   __TEXT.__swift5_typeref: 0x8a9c
+
+   __DATA_CONST.__objc_selrefs: 0x260
+   __DATA_CONST.__objc_superrefs: 0x8
+   __AUTH_CONST.__auth_got: 0x1040
+-  __AUTH_CONST.__auth_ptr: 0xc28
++  __AUTH_CONST.__auth_ptr: 0xc58
+   __AUTH_CONST.__const: 0x1c80
+   __AUTH_CONST.__cfstring: 0x500
+   __AUTH_CONST.__objc_const: 0x990
+
+   - /usr/lib/swift/libswiftsimd.dylib
+   - /usr/lib/swift/libswiftsys_time.dylib
+   - /usr/lib/swift/libswiftunistd.dylib
+-  Functions: 2639
++  Functions: 2640
+   Symbols:   278
+   CStrings:  332
+ 
+
+```

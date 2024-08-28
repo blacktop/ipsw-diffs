@@ -1,0 +1,378 @@
+## MusicEngagementExtension
+
+> `/System/Library/ExtensionKit/Extensions/MusicEngagementExtension.appex/MusicEngagementExtension`
+
+```diff
+
+-4024.200.3.0.0
+-  __TEXT.__text: 0x43d500
+-  __TEXT.__auth_stubs: 0x8600
++4024.210.14.1.0
++  __TEXT.__text: 0x440b2c
++  __TEXT.__auth_stubs: 0x85f0
+   __TEXT.__objc_stubs: 0x740
+-  __TEXT.__objc_methlist: 0x1ce4
+-  __TEXT.__cstring: 0x10f9d
+-  __TEXT.__swift5_typeref: 0x1bc11
+-  __TEXT.__const: 0x1bfc8
+-  __TEXT.__constg_swiftt: 0xdc88
+-  __TEXT.__swift5_reflstr: 0x9a83
+-  __TEXT.__swift5_fieldmd: 0xb65c
+-  __TEXT.__swift5_proto: 0x1674
+-  __TEXT.__swift5_types: 0xda4
+-  __TEXT.__oslogstring: 0x701e
++  __TEXT.__objc_methlist: 0x1d10
++  __TEXT.__cstring: 0x10f76
++  __TEXT.__swift5_typeref: 0x1bd71
++  __TEXT.__const: 0x1c394
++  __TEXT.__constg_swiftt: 0xdcdc
++  __TEXT.__swift5_reflstr: 0x9a63
++  __TEXT.__swift5_fieldmd: 0xb6b0
++  __TEXT.__swift5_proto: 0x16b0
++  __TEXT.__swift5_types: 0xdb0
++  __TEXT.__oslogstring: 0x70be
+   __TEXT.__swift5_entry: 0x8
+-  __TEXT.__objc_methname: 0xa778
+-  __TEXT.__swift5_capture: 0x6a48
++  __TEXT.__objc_methname: 0xa85f
++  __TEXT.__swift5_capture: 0x6ac0
+   __TEXT.__objc_classname: 0x5ca
+   __TEXT.__objc_methtype: 0x1d1f
+-  __TEXT.__swift5_assocty: 0x2218
+-  __TEXT.__swift5_builtin: 0x8e8
++  __TEXT.__swift5_assocty: 0x2290
++  __TEXT.__swift5_builtin: 0x910
+   __TEXT.__swift5_protos: 0x110
+   __TEXT.__swift5_mpenum: 0x118
+   __TEXT.__gcc_except_tab: 0x80
+   __TEXT.__dlopen_cstrs: 0x148
+-  __TEXT.__unwind_info: 0xff98
+-  __TEXT.__eh_frame: 0x14b14
+-  __DATA_CONST.__auth_got: 0x4310
++  __TEXT.__unwind_info: 0x100a8
++  __TEXT.__eh_frame: 0x14bd4
++  __DATA_CONST.__auth_got: 0x4308
+   __DATA_CONST.__got: 0x2e38
+-  __DATA_CONST.__auth_ptr: 0x2d70
+-  __DATA_CONST.__const: 0x27c70
++  __DATA_CONST.__auth_ptr: 0x2d90
++  __DATA_CONST.__const: 0x27f00
+   __DATA_CONST.__cfstring: 0xc0
+   __DATA_CONST.__objc_classlist: 0x438
+-  __DATA_CONST.__objc_catlist: 0xb8
++  __DATA_CONST.__objc_catlist: 0xc0
+   __DATA_CONST.__objc_protolist: 0x3c8
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_protorefs: 0x1d0
+   __DATA_CONST.__objc_superrefs: 0x28
+-  __DATA.__objc_const: 0x15a90
+-  __DATA.__objc_selrefs: 0x32e0
++  __DATA.__objc_const: 0x15ad0
++  __DATA.__objc_selrefs: 0x3338
+   __DATA.__objc_ivar: 0x38
+   __DATA.__objc_data: 0x67c8
+-  __DATA.__data: 0x15ae0
++  __DATA.__data: 0x15b70
+   __DATA.__objc_stublist: 0x18
+-  __DATA.__bss: 0x265f8
+-  __DATA.__common: 0x2450
++  __DATA.__bss: 0x26d78
++  __DATA.__common: 0x2460
+   - /System/Library/Frameworks/Accelerate.framework/Accelerate
+   - /System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+   - /System/Library/Frameworks/BackgroundTasks.framework/BackgroundTasks
+
+   - /usr/lib/swift/libswiftsimd.dylib
+   - /usr/lib/swift/libswiftsys_time.dylib
+   - /usr/lib/swift/libswiftunistd.dylib
+-  Functions: 21446
+-  Symbols:   149611
+-  CStrings:  4705
++  Functions: 21539
++  Symbols:   150263
++  CStrings:  4714
+ 
+Symbols:
++ _$sSo26UIFontDescriptorFeatureKeyas35_HasCustomAnyHashableRepresentationSCMc
++ _$sSo12UIKeyCommandCytIegnr_ABIegg_TRTA
++ _$sSaySo15UIBarButtonItemCGSayxGSlsWL
++ _$s9MusicCore13CollaborationO0aB2UIE10ManagementO14ViewControllerC22viewWillLayoutSubviewsyyFTo
++ _$sSo26UIFontDescriptorFeatureKeyaMF
++ ___unnamed_60
++ _$ss22__RawDictionaryStorageC4find_9hashValues10_HashTableV6BucketV6bucket_Sb5foundtx_SitSHRzlFSo26UIFontDescriptorFeatureKeya_Tg5Tm
++ _$s9MusicCore7LibraryO4MenuV8RevisionV7VersionV11identifiersSayAE10IdentifierOGvs
++ _$sSo26UIFontDescriptorFeatureKeyaSQSCSQ2eeoiySbx_xtFZTW
++ _$s9MusicCore7LibraryO17SortConfigurationOSHAASQWb
++ _$sSo26UIFontDescriptorFeatureKeyaSHSCMcMK
++ _$s9MusicCore7LibraryO17SortConfigurationOSHAASH4hash4intoys6HasherVz_tFTW
++ _$sSo26UIFontDescriptorFeatureKeyas20_SwiftNewtypeWrapperSCMc
++ _symbolic SaySDy_____ypGG So26UIFontDescriptorFeatureKeya
++ _$s9MusicCore7LibraryO17SortConfigurationOSQAASQ2eeoiySbx_xtFZTW
++ _$s9MusicCore7LibraryO4MenuV8RevisionV7VersionV8selectedShyAE10IdentifierOGvpMV
++ _$s9MusicCore7LibraryO17SortConfigurationOSHAAMcMK
++ _$sypSgSaySo13UIMenuElementCGSgSo0A0CSgIegngo_yXlSgSo7NSArrayCSgAHIeyByya_TR
++ _symbolic ScCy_____y15ResponseContent_____Qz______pG_______pSgt_____G s6ResultOsRi_zrlE 9MusicCore7RequestP s5ErrorP AC0D21ResponseInvalidatableP s5NeverO
++ __OBJC_$_INSTANCE_METHODS_UIViewController(MusicCore|MusicUtilities|MusicCoreUI)
++ _symbolic So12UIKeyCommandCytIegnr_
++ _$s9MusicCore7LibraryO4MenuV8RevisionV7VersionV7currentAIvau
++ _symbolic So12UIKeyCommandCIegg_
++ _$s9MusicCore7LibraryO17SortConfigurationO10storageKeySSvpMV
++ _$s9MusicCore7LibraryO4MenuV8RevisionV7VersionV7currentAIvpZ
++ _$s9MusicCore7LibraryO17SortConfigurationOMf
++ /Library/Caches/com.apple.xbs/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/SortConfiguration.o
++ _$sSo12UIKeyCommandC11MusicCoreUIE28pioritizedOverSystemBehavioryABXDSbF
++ _$sSayxSicirSo15UIBarButtonItemC_Tg5
++ _$ss2eeoiySbx_xtSYRzSQ8RawValueRpzlF9MusicCore7LibraryO17SortConfigurationO_Tgq5
++ _$s9MusicCore7LibraryO17SortConfigurationOMa
++ ___unnamed_58
++ _symbolic ySo12UIKeyCommandCc
++ _$sSo12UIKeyCommandC11MusicCoreUIE7handleryABcSgvM
++ _$ss22__RawDictionaryStorageC4findys10_HashTableV6BucketV6bucket_Sb5foundtxSHRzlFSo26UIFontDescriptorFeatureKeya_Tg5Tm
++ _$sSo12UIKeyCommandC11MusicCoreUIE7handleryABcSgvs
++ _$sSYsSHRzSH8RawValueSYRpzrlE08_rawHashB04seedS2i_tF9MusicCore7LibraryO17SortConfigurationO_Tgq5
++ _$sSo26UIFontDescriptorFeatureKeyaMn
++ _$sSo12UIKeyCommandC11MusicCoreUIE03KeyB14AssociatedKeys33_5658004BB799488D0FEB88303C52F273LLV8Handling_Wz
++ _$sSo12UIKeyCommandC11MusicCoreUIE015music_handleKeyB0yyABFToTm
++ _associated conformance So26UIFontDescriptorFeatureKeyas20_SwiftNewtypeWrapperSCs35_HasCustomAnyHashableRepresentation
++ _$sSD17dictionaryLiteralSDyxq_Gx_q_td_tcfCSo26UIFontDescriptorFeatureKeya_ypTgm5Tm
++ _$s9MusicCore7LibraryO4MenuV8RevisionV7VersionV23__derived_struct_equalsySbAI_AItFZ
++ _$s9MusicCore7RequestPAAE8response16previousRevisions6ResultOy15ResponseContentQzs5Error_pG6result_AA0cH13Invalidatable_pSg12invalidationtAA0cH0O0F0Cy_xGSg_tYaFyScCyAK_ANts5NeverOGXEfU_yAK_ANtcfU_TA
++ _$s9MusicCore7LibraryO4MenuV8RevisionV7VersionV7current_Wz
++ _$s9MusicCore7RequestPAAE8response16previousRevisions6ResultOy15ResponseContentQzs5Error_pG6result_AA0cH13Invalidatable_pSg12invalidationtAA0cH0O0F0Cy_xGSg_tYaFyScCyAK_ANts5NeverOGXEfU_TA
++ _symbolic ______ypt So26UIFontDescriptorFeatureKeya
++ _symbolic _____y_____ypG s18_DictionaryStorageC So26UIFontDescriptorFeatureKeya
++ _$s9MusicCore7LibraryO4MenuV8revisionAE8RevisionVvpMV
++ _$sSo26UIFontDescriptorFeatureKeyaABs35_HasCustomAnyHashableRepresentationSCWL
++ _$s9MusicCore7LibraryO4MenuV8RevisionV7VersionV11identifiersSayAE10IdentifierOGvM
++ _$s9MusicCore7LibraryO4MenuV8RevisionV7VersionV7current_WZTv_r
++ $sSayxSicirSo15UIBarButtonItemC_Tg5.resume.0
++ _$sSo18UISearchControllerC11MusicCoreUIE10searchTextSSSgvpMV
++ _$ss23_ContiguousArrayStorageCySo26UIFontDescriptorFeatureKeya_yptGMD
++ _$s9MusicCore7LibraryO4MenuV8RevisionV7versionAG7VersionVvg
++ _$s9MusicCore7LibraryO17SortConfigurationOAESQAAWL
++ $s9MusicCore7LibraryO4MenuV8RevisionV7VersionV11identifiersSayAE10IdentifierOGvM.resume.0
++ _symbolic So18UISearchControllerCSgXw
++ _$s9MusicCore7LibraryO17SortConfigurationOSQAAMc
++ _$sSl14MusicUtilitiesSo15UIBarButtonItemC7ElementRczrlE5first9embeddingAESgSo6UIViewC_tFSbAEXEfU_
++ _$sSo12UIKeyCommandC11MusicCoreUIE03KeyB14AssociatedKeys33_5658004BB799488D0FEB88303C52F273LLV8Handling_WZ
++ _$s9MusicCore24SharePlayTogetherSessionCMaTm
++ _$s9MusicCore7LibraryO17SortConfigurationOAESQAAWl
++ _$sSo26UIFontDescriptorFeatureKeyas35_HasCustomAnyHashableRepresentationSCMcMK
++ _$s9MusicCore7LibraryO17SortConfigurationOSYAASY8rawValue03RawG0QzvgTW
++ _$s9MusicCore7LibraryO17SortConfigurationOSQAAMcMK
++ _$sSl14MusicUtilitiesSo15UIBarButtonItemC7ElementRczrlE5first9embeddingAESgSo6UIViewC_tF
++ _$s9MusicCore7LibraryO17SortConfigurationO8rawValueAESgSS_tcfCTf4nd_n
++ _$sSo12UIKeyCommandCIegg_SgWOy
++ _$ss23_ContiguousArrayStorageCySDySo26UIFontDescriptorFeatureKeyaypGGMD
++ $sSo12UIKeyCommandCIegg_ABytIegnr_TRTA.14
++ _$s9MusicCore7LibraryO17SortConfigurationOMF
++ _$ss22__RawDictionaryStorageC4findys10_HashTableV6BucketV6bucket_Sb5foundtxSHRzlFSo26UIFontDescriptorFeatureKeya_Tg5
++ _$s9MusicCore24SharePlayTogetherSessionC7isEqualySbypSgF
++ _$sSo26UIFontDescriptorFeatureKeyas21_ObjectiveCBridgeableSCMc
++ _$s9MusicCore7RequestPAAE8response16previousRevisions6ResultOy15ResponseContentQzs5Error_pG6result_AA0cH13Invalidatable_pSg12invalidationtAA0cH0O0F0Cy_xGSg_tYaFyScCyAK_ANts5NeverOGXEfU_yAK_ANtcfU_
++ _$sSl14MusicUtilitiesSo15UIBarButtonItemC7ElementRczrlE3all9embeddingSayAEGSaySo6UIViewCG_tFSbAEXEfU_TA
++ _$s9MusicCore7RequestPAAE8response16previousRevisions6ResultOy15ResponseContentQzs5Error_pG6result_AA0cH13Invalidatable_pSg12invalidationtAA0cH0O0F0Cy_xGSg_tYaFTQ1_
++ _$sSo26UIFontDescriptorFeatureKeya_yptMD
++ _$sSo26UIFontDescriptorFeatureKeyaSHSCSH4hash4intoys6HasherVz_tFTW
++ _$sSo26UIFontDescriptorFeatureKeyas21_ObjectiveCBridgeableSCMcMK
++ _symbolic _____y______yptG s23_ContiguousArrayStorageC So26UIFontDescriptorFeatureKeya
++ _$sSo26UIFontDescriptorFeatureKeyas21_ObjectiveCBridgeableSCsACP026_unconditionallyBridgeFromE1Cyx01_E5CTypeQzSgFZTW
++ _$sSo26UIFontDescriptorFeatureKeyaABSQSCWL
++ _$sSl14MusicUtilitiesSo15UIBarButtonItemC7ElementRczrlE3all9embeddingSayAEGSaySo6UIViewCG_tFSbAEXEfU_
++ __CATEGORY_INSTANCE_METHODS_UIKeyCommand_$_MusicCoreUI
++ _$sSo16UIViewControllerC11MusicCoreUIE22music_handleKeyCommand33_5658004BB799488D0FEB88303C52F273LLyySo05UIKeyI0CFTo
++ _$sSo15UIBarButtonItemCMa
++ _$sSo26UIFontDescriptorFeatureKeyaSYSCMcMK
++ _associated conformance So26UIFontDescriptorFeatureKeyas20_SwiftNewtypeWrapperSCSY
++ _$s9MusicCore7LibraryO4MenuV8RevisionV7VersionV4fromAIs7Decoder_p_tKcfC
++ _$sSo26UIFontDescriptorFeatureKeyaSHSCSH13_rawHashValue4seedS2i_tFTWTm
++ _$sSaySDySo26UIFontDescriptorFeatureKeyaypGGMD
++ _$sSl14MusicUtilitiesSo15UIBarButtonItemC7ElementRczrlE5first9embeddingAESgSo6UIViewC_tFSbAEXEfU_TA
++ _$sSo12UIKeyCommandC11MusicCoreUIE07findKeyB09affectingABSo18UISearchControllerC_tFZyABcfU_TA
++ _$sSo6UIFontC11MusicCoreUIE16monospacedDigitsABXDyF
++ $sSo12UIKeyCommandCIegg_ABytIegnr_TRTA.18
++ _symbolic SaySo15UIBarButtonItemCG
++ _$sSo26UIFontDescriptorFeatureKeyaSQSCMc
++ _$sSayxGSlsSly7ElementQz5IndexQzcirTWSo15UIBarButtonItemC_Tg5
++ _$s9MusicCore7LibraryO17SortConfigurationON
++ _$sSaySo15UIBarButtonItemCGSayxGSlsWl
++ _$sSo12UIKeyCommandC11MusicCoreUIE03KeyB14AssociatedKeys33_5658004BB799488D0FEB88303C52F273LLV8HandlingSpys5UInt8VGvpZ
++ _$s9MusicCore7LibraryO17SortConfigurationOWV
++ $sSo12UIKeyCommandCIegg_ABytIegnr_TRTA.7
++ SortConfiguration.swift
++ _$sSo26UIFontDescriptorFeatureKeyaABs20_SwiftNewtypeWrapperSCWL
++ _$sSo26UIFontDescriptorFeatureKeyas35_HasCustomAnyHashableRepresentationSCsACP03_tofgH0s0gH0VSgyFTW
++ _$s9MusicCore24SharePlayTogetherSessionC7isEqualySbypSgFTo
++ _$sSo26UIFontDescriptorFeatureKeyas20_SwiftNewtypeWrapperSCMcMK
++ _$sSo12UIKeyCommandCIegg_ABytIegnr_TRTA
++ _$s9MusicCore7RequestPAAE8response16previousRevisions6ResultOy15ResponseContentQzs5Error_pG6result_AA0cH13Invalidatable_pSg12invalidationtAA0cH0O0F0Cy_xGSg_tYaFTY0_
++ _$sSo26UIFontDescriptorFeatureKeyaABSYSCWL
++ _$sSo26UIFontDescriptorFeatureKeyaSYSCMc
++ _$sSo12UIKeyCommandC11MusicCoreUIE07findKeyB09affectingABSo18UISearchControllerC_tFZyABcfU_
++ _$sSaySo15UIBarButtonItemCGMD
++ _$s9MusicCore7LibraryO4MenuV8RevisionV7VersionV7current_WZ
++ _$s9MusicCore7LibraryO17SortConfigurationO8rawValueAESgSS_tcfC
++ _$sSo26UIFontDescriptorFeatureKeyaMf
++ _$sSTsE6filterySay7ElementQzGSbACKXEKFSaySo15UIBarButtonItemCG_Tg5024$sSl14MusicUtilitiesSo15cde2C7b52RczrlE3all9embeddingSayAEGSaySo6UIViewCG_tFSbAEXEfU_N7ACG_TG5SaySo0Q0CGTf1cn_nTf4gg_n
++ _$s9MusicCore7LibraryO17SortConfigurationO8rawValueSSvpMV
++ _$sSo26UIFontDescriptorFeatureKeyas21_ObjectiveCBridgeableSCsACP024_conditionallyBridgeFromE1C_6resultSb01_E5CTypeQz_xSgztFZTW
++ _$sSo12UIKeyCommandC11MusicCoreUIE5title5input13modifierFlags7handlerABSS_SSSo0a8ModifierI0VyABctcfC
++ _$sSo8UIButtonC11MusicCoreUIE16contextBarButtonyABSo6UIMenuCSgypSg_SaySo0H7ElementCGSgtcSgFZ
++ _$sSo26UIFontDescriptorFeatureKeyas21_ObjectiveCBridgeableSCsACP016_forceBridgeFromE1C_6resulty01_E5CTypeQz_xSgztFZTW
++ _$s9MusicCore7LibraryO17SortConfigurationOSHAAMc
++ _$sSo16UINavigationItemC14MusicUtilitiesE22existingBarButtonItems3forSaySo05UIBargB0CGSaySo6UIViewCG_tF
++ _UIFontFeatureSelectorIdentifierKey_ForNewSwiftAPI
++ _$sSo12UIKeyCommandC11MusicCoreUIE07findKeyB09affectingABSo18UISearchControllerC_tFZ
++ _$s9MusicCore7LibraryO17SortConfigurationO8rawValueSSvg
++ _$sSo26UIFontDescriptorFeatureKeyaSYSCSY8rawValue03RawF0QzvgTW
++ _$sSo26UIFontDescriptorFeatureKeyas21_ObjectiveCBridgeableSCMA
++ _$s9MusicCore7LibraryO17SortConfigurationOwst
++ _$s9MusicCore7LibraryO4MenuV8RevisionV7VersionV7currentAIvgZ
++ _$s9MusicCore7LibraryO17SortConfigurationOSYAAMcMK
++ _$s9MusicCore28RequestResponseInvalidatable_pSgMD
++ _$sSo26UIFontDescriptorFeatureKeyaSYSCMA
++ _$sSo12UIKeyCommandCML
++ __CATEGORY_UIKeyCommand_$_MusicCoreUI
++ _$sSo26UIFontDescriptorFeatureKeyas21_ObjectiveCBridgeableSCsACP09_bridgeToE1C01_E5CTypeQzyFTW
++ _$s9MusicCore7LibraryO17SortConfigurationOSHAASH9hashValueSivgTW
++ _UIFontDescriptorFeatureSettingsAttribute
++ _$s9MusicCore7LibraryO17SortConfigurationOwui
++ _$sSo12UIKeyCommandCIegg_SgWOe
++ _symbolic _____ySDy_____ypGG s23_ContiguousArrayStorageC So26UIFontDescriptorFeatureKeya
++ _$s9MusicCore7LibraryO17SortConfigurationO10storageKeySSvg
++ _$sSo12UIKeyCommandC11MusicCoreUIE7handleryABcSgvpMV
++ _$sSo12UIKeyCommandC11MusicCoreUIE015music_handleKeyB0yyABFTo
++ _$s9MusicCore7LibraryO17SortConfigurationOSYAAMA
++ _$s9MusicCore7LibraryO4MenuV8RevisionV7VersionV11identifiersSayAE10IdentifierOGvg
++ _$s9MusicCore7LibraryO17SortConfigurationOSYAAMc
++ _$sSa6append10contentsOfyqd__n_t7ElementQyd__RszSTRd__lFSo15UIBarButtonItemC_SayAFGTg5
++ _$sSo26UIFontDescriptorFeatureKeyaMa
++ _$sSo8UIButtonC11MusicCoreUIE16contextBarButtonyABSo6UIMenuCSgypSg_SaySo0H7ElementCGSgtcSgFZTf4nd_n
++ _$sSo26UIFontDescriptorFeatureKeyaSHSCMc
++ _$sSo26UIFontDescriptorFeatureKeyaABSHSCWL
++ _$s9MusicCore7LibraryO17SortConfigurationOMn
++ _symbolic _____ 9MusicCore7LibraryO17SortConfigurationO
++ _$s9MusicCore7LibraryO4MenuV8RevisionV7versionAG7VersionVvpMV
++ _$sSo18UISearchControllerC11MusicCoreUIE10searchTextSSSgvg
++ _$sySo12UIKeyCommandCcMD
++ _$sSTsSQ7ElementRpzrlE8containsySbABFSaySo6UIViewCG_Tg5
++ _$sSo15UIBarButtonItemC11MusicCoreUIE010contextBarbC0yABSo6UIMenuCSgypSg_SaySo0I7ElementCGSgtcSgFZ
++ _$sSo18UIKeyModifierFlagsVs10SetAlgebraSCsACP6insertySb8inserted_7ElementQz17memberAfterInserttAHnFTW
++ _associated conformance So26UIFontDescriptorFeatureKeyaSHSCSQ
++ _$s9MusicCore7LibraryO17SortConfigurationOwug
++ $sSo12UIKeyCommandC11MusicCoreUIE7handleryABcSgvM.resume.0
++ _symbolic _____ So26UIFontDescriptorFeatureKeya
++ _$s9MusicCore7RequestPAAE8response16previousRevisions6ResultOy15ResponseContentQzs5Error_pG6result_AA0cH13Invalidatable_pSg12invalidationtAA0cH0O0F0Cy_xGSg_tYaF
++ _$s9MusicCore7LibraryO4MenuV8RevisionV7VersionV8selectedShyAE10IdentifierOGvs
++ _$s9MusicCore7LibraryO4MenuV8RevisionV7VersionV8selectedShyAE10IdentifierOGvM
++ $s9MusicCore7LibraryO4MenuV8RevisionV7VersionV8selectedShyAE10IdentifierOGvM.resume.0
++ _$s9MusicCore7LibraryO17SortConfigurationOSHAASH13_rawHashValue4seedS2i_tFTW
++ _$s9MusicCore7LibraryO4MenuV8RevisionV7VersionV8selectedShyAE10IdentifierOGvg
++ _UIFontFeatureTypeIdentifierKey_ForNewSwiftAPI
++ _$sSa13_copyContents12initializings16IndexingIteratorVySayxGG_SitSryxG_tFSo15UIBarButtonItemC_Tg5
++ _$sSo26UIFontDescriptorFeatureKeyas20_SwiftNewtypeWrapperSCs35_HasCustomAnyHashableRepresentationPWb
++ _$sSo12UIKeyCommandC11MusicCoreUIE07findKeyB0yAByABcFZ
++ _$s9MusicCore7LibraryO17SortConfigurationOwup
++ _$sSo12UIKeyCommandCMaTm
++ _$s9MusicCore7LibraryO17SortConfigurationOSYAASY8rawValuexSg03RawG0Qz_tcfCTW
++ _$sSo26UIFontDescriptorFeatureKeyaML
++ _$sSo26UIFontDescriptorFeatureKeyaSQSCMcMK
++ _$s9MusicCore7LibraryO17SortConfigurationO8rawValueAESgSS_tcfCTv_r
++ _$sSo26UIFontDescriptorFeatureKeyaSHSCSQWb
++ _$s9MusicCore7RequestPAAE8response16previousRevisions6ResultOy15ResponseContentQzs5Error_pG6result_AA0cH13Invalidatable_pSg12invalidationtAA0cH0O0F0Cy_xGSg_tYaFTY2_
++ _$sSo26UIFontDescriptorFeatureKeyaSYSCSY8rawValuexSg03RawF0Qz_tcfCTW
++ _$sSo16UINavigationItemC14MusicUtilitiesE017existingBarButtonB03forSo05UIBargB0CSgSo6UIViewC_tF
++ _$sSo12UIKeyCommandC11MusicCoreUIE7handleryABcSgvg
++ _$sSo26UIFontDescriptorFeatureKeyaSHSCSH13_rawHashValue4seedS2i_tFTW
++ _$sSo26UIFontDescriptorFeatureKeyas20_SwiftNewtypeWrapperSCSYWb
++ _$s9MusicCore7LibraryO4MenuV8RevisionV7VersionV11identifiersSayAE10IdentifierOGvpMV
++ _$s9MusicCore7RequestPAAE8response16previousRevisions6ResultOy15ResponseContentQzs5Error_pG6result_AA0cH13Invalidatable_pSg12invalidationtAA0cH0O0F0Cy_xGSg_tYaFTu
++ _$sSo26UIFontDescriptorFeatureKeyaMB
++ $sSayxGSlsSly7ElementQz5IndexQzcirTWSo15UIBarButtonItemC_Tg5.resume.0
++ _$sSo26UIFontDescriptorFeatureKeyaSHSCSH9hashValueSivgTW
++ _$s9MusicCore13CollaborationO0aB2UIE10ManagementO14ViewControllerC22viewWillLayoutSubviewsyyF
++ _$ss22__RawDictionaryStorageC4findys10_HashTableV6BucketV6bucket_Sb5foundtxSHRzlFSo29UIFontDescriptorAttributeNamea_Tg5Tm
++ _$ss22__RawDictionaryStorageC4find_9hashValues10_HashTableV6BucketV6bucket_Sb5foundtx_SitSHRzlFSo29UIFontDescriptorAttributeNamea_Tg5Tm
++ _$s9MusicCore7LibraryO17SortConfigurationOwet
++ _$ss18_DictionaryStorageCySo26UIFontDescriptorFeatureKeyaypGMD
++ _$s9MusicCore7LibraryO4MenuV8revisionAE8RevisionVvg
++ _$s9MusicCore7RequestPAAE8response16previousRevisions6ResultOy15ResponseContentQzs5Error_pG6result_AA0cH13Invalidatable_pSg12invalidationtAA0cH0O0F0Cy_xGSg_tYaFyScCyAK_ANts5NeverOGXEfU_
++ _$sSl14MusicUtilitiesSo15UIBarButtonItemC7ElementRczrlE3all9embeddingSayAEGSaySo6UIViewCG_tF
++ _OBJC_CLASS_$_UIKeyCommand
++ _$sSo26UIFontDescriptorFeatureKeyaSHSCSH4hash4intoys6HasherVz_tFTWTm
++ _associated conformance 9MusicCore7LibraryO17SortConfigurationOSHAASQ
+- _symbolic SSSg12playlistName_AA06folderB0t
+- ___unnamed_61
+- _$s9MusicCore24SharePlayTogetherSessionC11ParticipantVMaTm
+- __OBJC_$_INSTANCE_METHODS_UIViewController(MusicCore|MusicUtilities)
+- _$sSD17dictionaryLiteralSDyxq_Gx_q_td_tcfCSo21NSAttributedStringKeya_ypTgm5Tm
+- _$ss22__RawDictionaryStorageC4find_9hashValues10_HashTableV6BucketV6bucket_Sb5foundtx_SitSHRzlFSo21NSAttributedStringKeya_Tg5Tm
+- _$s9MusicCore7LibraryO4MenuV8RevisionV7VersionV7current33_CDE7296BF475887520DF32E716B298B1LLAIvpZ
+- _$ss22__RawDictionaryStorageC4findys10_HashTableV6BucketV6bucket_Sb5foundtxSHRzlFSo21NSAttributedStringKeya_Tg5Tm
+- _$ss12IdentifiableP2id2IDQzvgTj
+- _$sSh14MusicUtilitiess12IdentifiableRzrlE5first5alikexSgqd___tsABRd__2IDQyd__AFsABPRtzlFSbxXEfU_
+- _$ss12IdentifiableTL
+- _$syXlSgMD
+- _$s9MusicCore13CollaborationO0aB2UIE10ManagementO14ViewControllerC21viewDidLayoutSubviewsyyFTo
+- _$s9MusicCore24SharePlayTogetherSessionC11ParticipantVSgWOcTm
+- _$s9MusicCore24SharePlayTogetherSessionC11ParticipantVSgWOhTm
+- _$sSh14MusicUtilitiess12IdentifiableRzrlE5first5alikexSgqd___tsABRd__2IDQyd__AFsABPRtzlF
+- _$sSo8UIButtonC11MusicCoreUIE16contextBarButtonAByFZ
+- _$s9MusicCore7LibraryO4MenuV8RevisionV7VersionV7current33_CDE7296BF475887520DF32E716B298B1LL_WZTv_r
+- _$s9MusicCore24SharePlayTogetherSessionC2eeoiySbAC_ACtFZ
+- _$sShyxGSTsMc
+- ___unnamed_63
+- _$sSh14MusicUtilitiess12IdentifiableRzrlE5first5alikexSgqd___tsABRd__2IDQyd__AFsABPRtzlFSbxXEfU_TA
+- _$sSo8UIWindowCMaTm
+- _$ss22__RawDictionaryStorageC4find_9hashValues10_HashTableV6BucketV6bucket_Sb5foundtx_SitSHRzlFSo30UIImagePickerControllerInfoKeya_Tg5
+- _$sSo8UIButtonCMa
+- _$s9MusicCore13CollaborationO0aB2UIE10ManagementO14ViewControllerC21viewDidLayoutSubviewsyyF
+- _$s9MusicCore7LibraryO4MenuV8RevisionV7VersionV7current33_CDE7296BF475887520DF32E716B298B1LL_WZ
+- _$s9MusicCore7LibraryO4MenuV8RevisionV7VersionV7current33_CDE7296BF475887520DF32E716B298B1LL_Wz
+CStrings:
++ "_setMenuProvider:"
++ "To use SharePlay with Music, you need to turn on Apple\u00a0Music in Settings."
++ "searchTextField"
++ "leftBarButtonItems"
++ "Failed to get share URL and offers for album catalogID: %!{(MISSING)public}s: %!{(MISSING)public}@"
++ "madeForYou"
++ "This device is restricted from playing content that requires an Apple\u00a0Music subscription."
++ "music_handleKeyCommand:"
++ "keyCommandWithInput:modifierFlags:action:"
++ "setWantsPriorityOverSystemBehavior:"
++ "Only Apple\u00a0Music Songs Will Be Included"
++ "LibraryFilterOptionsController-"
++ "The current device profile does not allow you to use Apple\u00a0Music."
++ ", you will no longer be able to find other Apple\u00a0Music users that you are connected with using "
++ "viewWillLayoutSubviews"
++ "Failed to get share URL and offers for song catalogID: %!{(MISSING)public}s: %!{(MISSING)public}@"
++ "response(previousRevision:)"
++ "selectAll:"
++ "You can only collaborate on playlists with songs from the Apple\u00a0Music catalog. A duplicate of the full playlist will be added to your library."
++ "On your Mac or PC, go to Apple\u00a0Music or iTunes for Windows and in Settings, select Sync Library."
++ "@\"UIMenu\"24@?0@8@\"NSArray\"16"
++ "setActive:"
++ "To play without interruption requires an Apple\u00a0Music subscription with Sync Library turned on."
++ "Turn On Apple\u00a0Music"
++ "rightBarButtonItems"
++ "Allow Apple\u00a0Music"
+- "Allow Apple Music"
+- "To use SharePlay with Music, you need to turn on Apple Music in Settings."
+- "dci_multi_select"
+- "You can only collaborate on playlists with songs from the Apple Music catalog. A duplicate of the full playlist will be added to your library."
+- "Only Apple Music Songs Will Be Included"
+- "arrow.down.circle.fill"
+- "folderRename"
+- "playlistMovedToFolder"
+- "This device is restricted from playing content that requires an Apple Music subscription."
+- ", you will no longer be able to find other Apple Music users that you are connected with using "
+- "On your Mac or PC, go to Apple Music or iTunes for Windows and in Settings, select Sync Library."
+- "To play without interruption requires an Apple Music subscription with Sync Library turned on."
+- "playlist_folders"
+- "folderMove"
+- "folderNew"
+- "folder.badge.minus"
+- "The current device profile does not allow you to use Apple Music."
+- "Turn On Apple Music"
+
+```

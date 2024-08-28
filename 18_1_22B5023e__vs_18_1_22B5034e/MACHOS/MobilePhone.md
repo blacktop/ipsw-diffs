@@ -1,0 +1,153 @@
+## MobilePhone
+
+> `/Applications/MobilePhone.app/MobilePhone`
+
+```diff
+
+-2975.200.2.0.0
+-  __TEXT.__text: 0x1bef24
++2975.200.34.0.0
++  __TEXT.__text: 0x1bec4c
+   __TEXT.__auth_stubs: 0x3c10
+   __TEXT.__objc_stubs: 0x1c6e0
+-  __TEXT.__objc_methlist: 0xed64
+-  __TEXT.__const: 0x5ac4
+-  __TEXT.__objc_methname: 0x2e0d1
+-  __TEXT.__cstring: 0xbfa5
++  __TEXT.__objc_methlist: 0xed7c
++  __TEXT.__const: 0x5ad4
++  __TEXT.__objc_methname: 0x2e0d2
++  __TEXT.__cstring: 0xbfc5
+   __TEXT.__oslogstring: 0xab9f
+   __TEXT.__objc_classname: 0x1bc1
+   __TEXT.__objc_methtype: 0x6a18
+-  __TEXT.__gcc_except_tab: 0xb50
++  __TEXT.__gcc_except_tab: 0xb30
+   __TEXT.__dlopen_cstrs: 0xc2
+   __TEXT.__ustring: 0x14
+   __TEXT.__swift5_typeref: 0x43f0
+   __TEXT.__swift5_capture: 0x1e84
+   __TEXT.__constg_swiftt: 0x33f4
+   __TEXT.__swift5_builtin: 0x230
+-  __TEXT.__swift5_reflstr: 0x2b3b
+-  __TEXT.__swift5_fieldmd: 0x23e8
++  __TEXT.__swift5_reflstr: 0x2b4b
++  __TEXT.__swift5_fieldmd: 0x23f4
+   __TEXT.__swift5_assocty: 0x5d8
+   __TEXT.__swift5_proto: 0x2f0
+   __TEXT.__swift5_types: 0x280
+   __TEXT.__swift5_protos: 0x3c
+   __TEXT.__swift5_mpenum: 0x40
+-  __TEXT.__unwind_info: 0x7580
++  __TEXT.__unwind_info: 0x7560
+   __TEXT.__eh_frame: 0x748c
+   __DATA_CONST.__auth_got: 0x1e18
+-  __DATA_CONST.__got: 0x1748
+-  __DATA_CONST.__auth_ptr: 0xf18
+-  __DATA_CONST.__const: 0x8f88
+-  __DATA_CONST.__cfstring: 0x5e00
++  __DATA_CONST.__got: 0x1750
++  __DATA_CONST.__auth_ptr: 0xf10
++  __DATA_CONST.__const: 0x8f60
++  __DATA_CONST.__cfstring: 0x5e20
+   __DATA_CONST.__objc_classlist: 0x738
+   __DATA_CONST.__objc_catlist: 0xe8
+   __DATA_CONST.__objc_protolist: 0x460
+
+   __DATA_CONST.__objc_dictobj: 0x50
+   __DATA_CONST.__objc_doubleobj: 0x10
+   __DATA_CONST.__objc_floatobj: 0x30
+-  __DATA.__objc_const: 0x1f7d8
++  __DATA.__objc_const: 0x1f878
+   __DATA.__objc_selrefs: 0x92b8
+-  __DATA.__objc_ivar: 0xdd8
+-  __DATA.__objc_data: 0x7ad0
++  __DATA.__objc_ivar: 0xddc
++  __DATA.__objc_data: 0x7ad8
+   __DATA.__data: 0x73e0
+   __DATA.__bss: 0x59c0
+   __DATA.__common: 0x770
+
+   - /usr/lib/swift/libswiftsimd.dylib
+   - /usr/lib/swift/libswiftsys_time.dylib
+   - /usr/lib/swift/libswiftunistd.dylib
+-  Functions: 10662
+-  Symbols:   73919
+-  CStrings:  10067
++  Functions: 10661
++  Symbols:   73915
++  CStrings:  10069
+ 
+Symbols:
++ GCC_except_table58
++ -[MPRecentsTableViewController tapTargets]
++ _objc_msgSend$initWithTableView:recentsController:featureFlags:tapTargets:callReportingViewModel:reportFlowPresenter:contactsService:avatarViewControllerSettings:placeCallAction:removeCallsAtIndexPaths:
++ GCC_except_table166
++ __block_literal_global.281
++ __block_literal_global.286
++ GCC_except_table89
++ _$s11MobilePhone23RecentsCellConfiguratorC10tapTargets33_3A38E5CAE005446A93BA061E069886C5LLSbvpWvd
++ _$s11MobilePhone23RecentsCellConfiguratorC9tableView17recentsController12featureFlags10tapTargets013callReportingG5Model19reportFlowPresenter15contactsService06avatargI8Settings15placeCallAction23removeCallsAtIndexPathsACSo07UITableG0C_So09PHRecentsI0CSo09TUFeatureK0CSbAA0yogP0CAA06ReportrS0CAA08ContactsU0CSo08CNAvatargiW0CSgySo08CHRecentY0CcySay10Foundation9IndexPathVGctcfc
++ _$s11MobilePhone23RecentsCellConfiguratorC9tableView17recentsController12featureFlags10tapTargets013callReportingG5Model19reportFlowPresenter15contactsService06avatargI8Settings15placeCallAction23removeCallsAtIndexPathsACSo07UITableG0C_So09PHRecentsI0CSo09TUFeatureK0CSbAA0yogP0CAA06ReportrS0CAA08ContactsU0CSo08CNAvatargiW0CSgySo08CHRecentY0CcySay10Foundation9IndexPathVGctcfC
++ _$s11MobilePhone23RecentsCellConfiguratorC9tableView17recentsController12featureFlags10tapTargets013callReportingG5Model19reportFlowPresenter15contactsService06avatargI8Settings15placeCallAction23removeCallsAtIndexPathsACSo07UITableG0C_So09PHRecentsI0CSo09TUFeatureK0CSbAA0yogP0CAA06ReportrS0CAA08ContactsU0CSo08CNAvatargiW0CSgySo08CHRecentY0CcySay10Foundation9IndexPathVGctcfcTf4gggngggdggn_n
++ __65-[MPRecentsTableViewController recentsController:didChangeCalls:]_block_invoke.276
++ __72-[MPRecentsTableViewController _showCarrierVoiceCallReportAlertForCall:]_block_invoke.329
++ _TUNotificationCategoryIdentifierCallRecording
++ OBJC_IVAR_$_MPLegacyRecentsTableViewCell._tapTargets
++ __54-[MPKeypadViewController _updateNameAndRefreshResult:]_block_invoke.115
++ GCC_except_table43
++ _objc_msgSend$contactCountForFetchRequest:error:
++ -[MPLegacyRecentsTableViewCell tapTargets]
++ GCC_except_table67
++ _$s11MobilePhone23RecentsCellConfiguratorC9tableView17recentsController12featureFlags10tapTargets013callReportingG5Model19reportFlowPresenter15contactsService06avatargI8Settings15placeCallAction23removeCallsAtIndexPathsACSo07UITableG0C_So09PHRecentsI0CSo09TUFeatureK0CSbAA0yogP0CAA06ReportrS0CAA08ContactsU0CSo08CNAvatargiW0CSgySo08CHRecentY0CcySay10Foundation9IndexPathVGctcfcTo
++ _$s11MobilePhone23RecentsCellConfiguratorC9tableView17recentsController12featureFlags10tapTargets013callReportingG5Model19reportFlowPresenter15contactsService06avatargI8Settings15placeCallAction23removeCallsAtIndexPathsACSo07UITableG0C_So09PHRecentsI0CSo09TUFeatureK0CSbAA0yogP0CAA06ReportrS0CAA08ContactsU0CSo08CNAvatargiW0CSgySo08CHRecentY0CcySay10Foundation9IndexPathVGctcfCTq
++ GCC_except_table163
++ _$ss22__RawDictionaryStorageC4findys10_HashTableV6BucketV6bucket_Sb5foundtxSHRzlFSo21NSAttributedStringKeya_Tg5Tm
++ -[MPLegacyRecentsTableViewCell setTapTargets:]
++ _$s11MobilePhone23RecentsCellConfiguratorC9tableView17recentsController12featureFlags10tapTargets013callReportingG5Model19reportFlowPresenter15contactsService06avatargI8Settings15placeCallAction23removeCallsAtIndexPathsACSo07UITableG0C_So09PHRecentsI0CSo09TUFeatureK0CSbAA0yogP0CAA06ReportrS0CAA08ContactsU0CSo08CNAvatargiW0CSgySo08CHRecentY0CcySay10Foundation9IndexPathVGctcfcfA2_
++ __72-[MPRecentsTableViewController _showCarrierVoiceCallReportAlertForCall:]_block_invoke.330
++ __62-[MPRecentsTableViewController removeRecentCallsAtIndexPaths:]_block_invoke.238
++ GCC_except_table49
++ __block_literal_global.278
++ _$ss22__RawDictionaryStorageC4find_9hashValues10_HashTableV6BucketV6bucket_Sb5foundtx_SitSHRzlFSo21NSAttributedStringKeya_Tg5Tm
+- _$ss22__RawDictionaryStorageC4find_9hashValues10_HashTableV6BucketV6bucket_Sb5foundtx_SitSHRzlFSo24UIFontDescriptorTraitKeya_Tg5Tm
+- __block_literal_global.284
+- GCC_except_table57
+- GCC_except_table165
+- GCC_except_table162
+- _$s11MobilePhone23RecentsCellConfiguratorC9tableView17recentsController12featureFlags013callReportingG5Model19reportFlowPresenter15contactsService06avatargI8Settings15placeCallAction23removeCallsAtIndexPathsACSo07UITableG0C_So09PHRecentsI0CSo09TUFeatureK0CAA0wmgN0CAA06ReportpQ0CAA08ContactsS0CSo08CNAvatargiU0CSgySo08CHRecentW0CcySay10Foundation9IndexPathVGctcfcTo
+- GCC_except_table66
+- _objc_msgSend$enumerateContactsWithFetchRequest:error:usingBlock:
+- _$s11MobilePhone23RecentsCellConfiguratorC9tableView17recentsController12featureFlags013callReportingG5Model19reportFlowPresenter15contactsService06avatargI8Settings15placeCallAction23removeCallsAtIndexPathsACSo07UITableG0C_So09PHRecentsI0CSo09TUFeatureK0CAA0wmgN0CAA06ReportpQ0CAA08ContactsS0CSo08CNAvatargiU0CSgySo08CHRecentW0CcySay10Foundation9IndexPathVGctcfCTq
+- _$s11MobilePhone23RecentsCellConfiguratorC9tableView17recentsController12featureFlags013callReportingG5Model19reportFlowPresenter15contactsService06avatargI8Settings15placeCallAction23removeCallsAtIndexPathsACSo07UITableG0C_So09PHRecentsI0CSo09TUFeatureK0CAA0wmgN0CAA06ReportpQ0CAA08ContactsS0CSo08CNAvatargiU0CSgySo08CHRecentW0CcySay10Foundation9IndexPathVGctcfC
+- __block_literal_global.276
+- __54-[MPKeypadViewController _updateNameAndRefreshResult:]_block_invoke.116
+- _$ss22__RawDictionaryStorageC4findys10_HashTableV6BucketV6bucket_Sb5foundtxSHRzlFSo24UIFontDescriptorTraitKeya_Tg5Tm
+- __72-[MPRecentsTableViewController _showCarrierVoiceCallReportAlertForCall:]_block_invoke.328
+- _$ss22__RawDictionaryStorageC4find_9hashValues10_HashTableV6BucketV6bucket_Sb5foundtx_SitSHRzlFSo21NSAttributedStringKeya_Tg5
+- __65-[MPRecentsTableViewController recentsController:didChangeCalls:]_block_invoke.274
+- __block_literal_global.279
+- GCC_except_table88
+- _objc_msgSend$initWithTableView:recentsController:featureFlags:callReportingViewModel:reportFlowPresenter:contactsService:avatarViewControllerSettings:placeCallAction:removeCallsAtIndexPaths:
+- __62-[MPRecentsTableViewController removeRecentCallsAtIndexPaths:]_block_invoke.236
+- _$s11MobilePhone23RecentsCellConfiguratorC9tableView17recentsController12featureFlags013callReportingG5Model19reportFlowPresenter15contactsService06avatargI8Settings15placeCallAction23removeCallsAtIndexPathsACSo07UITableG0C_So09PHRecentsI0CSo09TUFeatureK0CAA0wmgN0CAA06ReportpQ0CAA08ContactsS0CSo08CNAvatargiU0CSgySo08CHRecentW0CcySay10Foundation9IndexPathVGctcfcTf4ggggggdggn_n
+- _$s11MobilePhone21CallsSearchControllerC9tableView_31accessoryButtonTappedForRowWithySo07UITableG0C_10Foundation9IndexPathVtFTo
+- _$s11MobilePhone21CallsSearchControllerC9tableView_31accessoryButtonTappedForRowWithySo07UITableG0C_10Foundation9IndexPathVtF
+- __72-[MPRecentsTableViewController _showCarrierVoiceCallReportAlertForCall:]_block_invoke.327
+- ___block_descriptor_40_e8_32r_e23_v24?0"CNContact"8^B16lr32l8
+- _$s11MobilePhone23RecentsCellConfiguratorC9tableView17recentsController12featureFlags013callReportingG5Model19reportFlowPresenter15contactsService06avatargI8Settings15placeCallAction23removeCallsAtIndexPathsACSo07UITableG0C_So09PHRecentsI0CSo09TUFeatureK0CAA0wmgN0CAA06ReportpQ0CAA08ContactsS0CSo08CNAvatargiU0CSgySo08CHRecentW0CcySay10Foundation9IndexPathVGctcfc
+- ___43-[MPKeypadViewController _anyContactsExist]_block_invoke
+- GCC_except_table42
+- _$s11MobilePhone21CallsSearchControllerC9tableView_14didSelectRowAtySo07UITableG0C_10Foundation9IndexPathVtFToTm
+CStrings:
++ "TB,?,N"
++ "SCREENING_STOP"
++ "@92@0:8@16@24@32B40@44@52@60@68@?76@?84"
++ "initWithTableView:recentsController:featureFlags:tapTargets:callReportingViewModel:reportFlowPresenter:contactsService:avatarViewControllerSettings:placeCallAction:removeCallsAtIndexPaths:"
++ "contactCountForFetchRequest:error:"
+- "@88@0:8@16@24@32@40@48@56@64@?72@?80"
+- "v24@?0@\"CNContact\"8^B16"
+- "initWithTableView:recentsController:featureFlags:callReportingViewModel:reportFlowPresenter:contactsService:avatarViewControllerSettings:placeCallAction:removeCallsAtIndexPaths:"
+- "enumerateContactsWithFetchRequest:error:usingBlock:"
+
+```

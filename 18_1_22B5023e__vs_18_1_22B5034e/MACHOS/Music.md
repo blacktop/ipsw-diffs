@@ -1,0 +1,1669 @@
+## Music
+
+> `/private/var/staged_system_apps/Music.app/Music`
+
+```diff
+
+-4024.200.3.0.0
+-  __TEXT.__text: 0x114fb74
+-  __TEXT.__auth_stubs: 0xe9e0
+-  __TEXT.__objc_stubs: 0x9760
+-  __TEXT.__objc_methlist: 0xb588
+-  __TEXT.__objc_methname: 0x1fe5d
+-  __TEXT.__cstring: 0x726ca
+-  __TEXT.__objc_classname: 0x17d5
+-  __TEXT.__objc_methtype: 0x7d0b
+-  __TEXT.__const: 0x56ef2
+-  __TEXT.__gcc_except_tab: 0x132c
+-  __TEXT.__oslogstring: 0x14c3a
++4024.210.14.1.0
++  __TEXT.__text: 0xce6318
++  __TEXT.__auth_stubs: 0xd6f0
++  __TEXT.__objc_stubs: 0x9780
++  __TEXT.__objc_methlist: 0xb1c4
++  __TEXT.__objc_methname: 0x1f419
++  __TEXT.__cstring: 0x6f02b
++  __TEXT.__objc_classname: 0x1739
++  __TEXT.__objc_methtype: 0x73b2
++  __TEXT.__const: 0x44090
++  __TEXT.__gcc_except_tab: 0x1354
++  __TEXT.__oslogstring: 0x13cda
+   __TEXT.__dlopen_cstrs: 0x1108
+   __TEXT.__ustring: 0x134
+-  __TEXT.__swift5_typeref: 0x7d52a
+-  __TEXT.__constg_swiftt: 0x33b64
+-  __TEXT.__swift5_builtin: 0x10a4
+-  __TEXT.__swift5_reflstr: 0x27945
+-  __TEXT.__swift5_fieldmd: 0x23c8c
+-  __TEXT.__swift5_assocty: 0x7138
+-  __TEXT.__swift5_proto: 0x36dc
+-  __TEXT.__swift5_types: 0x2500
+-  __TEXT.__swift5_capture: 0x16fb8
+-  __TEXT.__swift5_protos: 0x2fc
+-  __TEXT.__swift5_mpenum: 0x338
++  __TEXT.__constg_swiftt: 0x2a354
++  __TEXT.__swift5_typeref: 0x4b8ae
++  __TEXT.__swift5_builtin: 0xfdc
++  __TEXT.__swift5_reflstr: 0x21a61
++  __TEXT.__swift5_fieldmd: 0x1dd28
++  __TEXT.__swift5_assocty: 0x4fb8
++  __TEXT.__swift5_proto: 0x2f1c
++  __TEXT.__swift5_types: 0x1ed0
++  __TEXT.__swift5_capture: 0x14a60
++  __TEXT.__swift5_protos: 0x298
++  __TEXT.__swift5_mpenum: 0x2ec
+   __TEXT.__swift5_entry: 0x8
+-  __TEXT.__unwind_info: 0x2f2e0
+-  __TEXT.__eh_frame: 0x34a28
+-  __DATA_CONST.__auth_got: 0x7500
+-  __DATA_CONST.__got: 0x6018
+-  __DATA_CONST.__auth_ptr: 0x8870
+-  __DATA_CONST.__const: 0x69038
+-  __DATA_CONST.__cfstring: 0x1d00
+-  __DATA_CONST.__objc_classlist: 0x1580
++  __TEXT.__unwind_info: 0x27d80
++  __TEXT.__eh_frame: 0x2eab8
++  __DATA_CONST.__auth_got: 0x6b88
++  __DATA_CONST.__got: 0x5750
++  __DATA_CONST.__auth_ptr: 0x6ca8
++  __DATA_CONST.__const: 0x5cf00
++  __DATA_CONST.__cfstring: 0x1d80
++  __DATA_CONST.__objc_classlist: 0x14c8
+   __DATA_CONST.__objc_catlist: 0x118
+-  __DATA_CONST.__objc_protolist: 0x9a0
++  __DATA_CONST.__objc_protolist: 0x938
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_protorefs: 0x488
++  __DATA_CONST.__objc_protorefs: 0x458
+   __DATA_CONST.__objc_superrefs: 0x210
+   __DATA_CONST.__objc_intobj: 0x90
+   __DATA_CONST.__objc_arraydata: 0x28
+   __DATA_CONST.__objc_arrayobj: 0x48
+-  __DATA.__objc_const: 0x3e9b8
+-  __DATA.__objc_selrefs: 0x7a68
++  __DATA.__objc_const: 0x3bf40
++  __DATA.__objc_selrefs: 0x7910
+   __DATA.__objc_ivar: 0x3b0
+-  __DATA.__objc_data: 0x2ca80
+-  __DATA.__data: 0x516b8
+-  __DATA.__objc_stublist: 0x78
+-  __DATA.__bss: 0x5fc08
+-  __DATA.__common: 0x40c8
++  __DATA.__objc_data: 0x2b108
++  __DATA.__data: 0x3ea18
++  __DATA.__objc_stublist: 0x60
++  __DATA.__bss: 0x51528
++  __DATA.__common: 0x3e80
+   - /System/Library/Frameworks/AVFAudio.framework/AVFAudio
+   - /System/Library/Frameworks/AVFoundation.framework/AVFoundation
+   - /System/Library/Frameworks/Accelerate.framework/Accelerate
+
+   - /System/Library/PrivateFrameworks/MusicKitInternal.framework/MusicKitInternal
+   - /System/Library/PrivateFrameworks/MusicLibrary.framework/MusicLibrary
+   - /System/Library/PrivateFrameworks/MusicUI.framework/MusicUI
+-  - /System/Library/PrivateFrameworks/OnBoardingKit.framework/OnBoardingKit
+   - /System/Library/PrivateFrameworks/Radio.framework/Radio
+   - /System/Library/PrivateFrameworks/RecapPerformanceTesting.framework/RecapPerformanceTesting
+   - /System/Library/PrivateFrameworks/RunningBoardServices.framework/RunningBoardServices
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libicucore.A.dylib
+   - /usr/lib/libobjc.A.dylib
+-  - /usr/lib/swift/libswiftARKit.dylib
+   - /usr/lib/swift/libswiftAVFoundation.dylib
+   - /usr/lib/swift/libswiftAccelerate.dylib
+   - /usr/lib/swift/libswiftCompression.dylib
+
+   - /usr/lib/swift/libswiftDataDetection.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftFileProvider.dylib
+-  - /usr/lib/swift/libswiftGLKit.dylib
+   - /usr/lib/swift/libswiftIntents.dylib
+   - /usr/lib/swift/libswiftMapKit.dylib
+   - /usr/lib/swift/libswiftMetal.dylib
+
+   - /usr/lib/swift/libswiftObjectiveC.dylib
+   - /usr/lib/swift/libswiftObservation.dylib
+   - /usr/lib/swift/libswiftQuartzCore.dylib
+-  - /usr/lib/swift/libswiftSceneKit.dylib
+   - /usr/lib/swift/libswiftSpatial.dylib
+-  - /usr/lib/swift/libswiftSpriteKit.dylib
+   - /usr/lib/swift/libswiftSystem.dylib
+   - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
+   - /usr/lib/swift/libswiftWebKit.dylib
+
+   - /usr/lib/swift/libswiftsimd.dylib
+   - /usr/lib/swift/libswiftsys_time.dylib
+   - /usr/lib/swift/libswiftunistd.dylib
+-  Functions: 65349
+-  Symbols:   7922
+-  CStrings:  14151
++  Functions: 54392
++  Symbols:   7310
++  CStrings:  13612
+ 
+Symbols:
++ _$sSo16UITabSidebarItemC5UIKitE18configurationStateAC019UICellConfigurationF0Vvg
++ _$sSo16UITabSidebarItemC5UIKitE11accessoriesSayAC15UICellAccessoryVGvs
++ _$sSo25UITabBarControllerSidebarC5UIKitE6scroll2to8animatedyAbCE12ScrollTargetO_SbtF
++ _$s5UIKit33UIContentUnavailableConfigurationV7loadingACyFZ
++ _OBJC_CLASS_$_UITabGroup
++ _$sSo7CGPointV11MediaCoreUI22ApproximatelyEquatableACWP
++ _$sSo25UITabBarControllerSidebarC5UIKitE12ScrollTargetO3tabyAESo0A0CcAEmFWC
++ _OBJC_CLASS_$_UISearchTab
++ _$sSo16UITabSidebarItemC5UIKitE7ContentO3tabyAESo0A0CcAEmFWC
++ _OBJC_CLASS_$_UITabSidebarItem
++ _$sSo16UITabSidebarItemC5UIKitE27defaultContentConfigurationAC06UIListfG0VyF
++ _OBJC_METACLASS_$_UITabGroup
++ _$sSo16UITabSidebarItemC5UIKitE7ContentOMa
++ _$sSo16UITabSidebarItemC5UIKitE23backgroundConfigurationAC012UIBackgroundF0Vvs
++ _$sSo16UITabSidebarItemC5UIKitE30defaultBackgroundConfigurationAC012UIBackgroundG0VyF
++ _$sSo16UITabSidebarItemC5UIKitE7ContentO6actionyAESo8UIActionCcAEmFWC
++ _$s8MusicKit8PlaylistV0aB8InternalE6FolderVs12IdentifiableADMc
++ _$sSo16UITabSidebarItemC5UIKitE7contentAbCE7ContentOvg
++ _$sSo23UITabSidebarItemRequestC5UIKitE7contentSo0abC0CACE7ContentOvg
++ _OBJC_METACLASS_$_UISearchTab
++ _$s16MusicKitInternal13SocialProfileV13isLightweightSbvg
++ _OBJC_METACLASS_$_UITab
++ _$sSo25UITabBarControllerSidebarC5UIKitE12ScrollTargetOMa
++ _$sSo16UITabSidebarItemC5UIKitE20contentConfigurationAC09UIContentF0_pvs
+- _$s7SwiftUI6PickerV9selection5label7contentACyxq_q0_GAA7BindingVyq_G_xq0_yXEtcfC
+- _$s7SwiftUI4TextV13EncapsulationVMn
+- _$s16MusicKitInternal8TVSeasonV5titleSSvg
+- _$s7SwiftUI10VisibilityOMn
+- _$s8MusicKit5AlbumV0aB8Internal23EditorialArtworkVendingADWP
+- _$s7SwiftUI8EditModeOMn
+- _$s25_MusicKitInternal_SwiftUI18ArtworkImageReaderV7contentACyxGx01_ab1_dE00fG0VAAE5ProxyVSgc_tcfC
+- _$s16MusicKitInternal13UploadedVideoVAA09EditorialE14ArtworkVendingAAWP
+- _swift_getTupleTypeLayout
+- _$s7SwiftUI17ButtonToggleStyleVMa
+- _$s8MusicKit8PlaylistV5EntryV0aB8InternalE0E4ItemO5titleSSvg
+- _$s7SwiftUI5ImageV21TemplateRenderingModeOMa
+- _MPModelRelationshipTVSeasonShow
+- _$s7SwiftUI17VerticalAlignmentV17firstTextBaselineACvgZ
+- _$s7SwiftUI4MenuV_7contentACyAA4TextVq_Gqd___q_yXEtcAFRszSyRd__lufC
+- _$s7SwiftUI4TextV13EncapsulationV5ShapeVMn
+- _$s10Foundation16AttributedStringV5IndexVMa
+- _$s8MusicKit0A21LibrarySearchResponseV0aB8InternalE18internalTopResultsAA0A14ItemCollectionVyAD07GenericaJ0OGvg
+- _$s16MusicKitInternal0A25RecentlySearchedViewModelC5EntryVMa
+- _$s7Combine18PassthroughSubjectCyxq_GAA9PublisherAAMc
+- _$s7SwiftUI4ViewPAAE22accessibilityAddTraits02uiF0AA15ModifiedContentVyxAA31AccessibilityAttachmentModifierVGSo015UIAccessibilityF0a_tF
+- _$s8MusicKit0A24LibrarySectionedResponseV0aB8InternalE14totalItemCountSivpMV
+- _$s8MusicKit8PlaylistV5EntryV0aB8InternalE0E4ItemO8durationSdSgvg
+- _$sSk5index_8offsetBy5IndexQzAD_SitFTq
+- _$s10Foundation15AttributeScopesO7SwiftUIE0D12UIAttributesV15foregroundColorAF010ForegroundhB0OvpMV
+- _$s7SwiftUI19BorderedButtonStyleVACycfC
+- _$sSk8distance4from2toSi5IndexQz_AEtFTq
+- _$s16MusicKitInternal0A14LibraryMappingV8ItemKindOMn
+- _$s16MusicKitInternal07GenericA4ItemO11descriptionSSvg
+- _$sSk5index_8offsetBy07limitedC05IndexQzSgAE_SiAEtFTq
+- _$s8MusicKit0A32CatalogSearchSuggestionsResponseVMa
+- _MPModelPropertyTVShowArtwork
+- _$s8MusicKit17LibrarySongFilterP6albumsAA0A14ItemCollectionVyAA5AlbumVGSgvgTj
+- _$s16MusicKitInternal0A35AutoupdatingSharedLibrariesResponseC9librariesSay0aB00A7LibraryCGvgTj
+- _$s11MediaCoreUI12VideoGravityO4fillyA2CmFWC
+- _$sSksSx5IndexRpzSnyABG7IndicesRtzSiAA_6StrideRTzrlE5index_8offsetByA2B_SitF
+- _$s16MusicKitInternal0A18LibraryMappingItemPA2A9TVEpisodeV0aF4TypeRtzrlE4kindAA0adE0V0F4KindOSgvg
+- _$s7SwiftUI17EnvironmentValuesV12displayScale12CoreGraphics7CGFloatVvs
+- _$s8MusicKit0A5VideoVs12IdentifiableAAMc
+- _$s7SwiftUI19_ConditionalContentVyxq_GAA07ToolbarD0A2aERzAaER_rlMc
+- _$s8MusicKit0A31CatalogSearchSuggestionsRequestV0aB8InternalE15topResultsLimitSiSgvs
+- _$s16MusicKitInternal0A20AutoupdatingResponseC8response0E4TypeQzSgvgTj
+- _$s7SwiftUI17ButtonBorderShapeV16roundedRectangleACvgZ
+- _$s8MusicKit7CuratorV0aB8Internal23EditorialArtworkVendingADWP
+- _$s7SwiftUI15ModifiedContentVA2A31AccessibilityAttachmentModifierVRs_rlE25accessibilitySortPriorityyACyxAEGSdF
+- _$s16MusicKitInternal9TVEpisodeV12immersiveURL10Foundation0F0VSgvg
+- _$s17_MusicKit_SwiftUI12ArtworkImageV01_ab9Internal_cD0E5ProxyVMa
+- _$s7SwiftUI4ViewPAAE14contentMargins__3forQrAA4EdgeO3SetV_12CoreGraphics7CGFloatVSgAA22ContentMarginPlacementVtFQOMQ
+- _$s8MusicKit0A14LibraryRequestV6filter8matching8containsys7KeyPathCy0C6FilterQzAA0A14ItemCollectionVyqd__GSgG_qd__tAA0aK0Rd__lF
+- _$s7SwiftUI26_ScrollViewBoundsModifier2VyxGAA0D8ModifierAAMc
+- _$s8MusicKit11RecordLabelV2idAA0A6ItemIDVvg
+- _$s7SwiftUI15ModifiedContentVA2A31AccessibilityAttachmentModifierVRs_rlE13accessibility10identifierACyxAEGSS_tF
+- _$s8MusicKit11RecordLabelV0aB8Internal23EditorialArtworkVendingADWP
+- _$s7SwiftUI9AnimationV7easeOutACvgZ
+- _$sSS10FoundationEySSs5SliceVyAA16AttributedStringV13CharacterViewVGcfC
+- _OBJC_CLASS_$_AMSUIDynamicViewController
+- _$sSk11SubSequenceSl_SkTn
+- _$s7SwiftUI16ToolbarItemGroupVMa
+- _$s7SwiftUI4ViewPAAE10preference3key5valueQrqd__m_5ValueQyd__tAA13PreferenceKeyRd__lF
+- _$s8MusicKit0A20LibrarySearchRequestVMn
+- _$s7SwiftUI17EnvironmentValuesV12displayScale12CoreGraphics7CGFloatVvpMV
+- _$s10Foundation22AttributeDynamicLookupO7SwiftUIE13dynamicMemberxs7KeyPathCyAA0B6ScopesOADE0E12UIAttributesVxG_tcAA016AttributedStringI0Rzluig
+- _$s16MusicKitInternal07GenericA4ItemOSEAAMc
+- _$s7SwiftUI6AnchorV6SourceVAASo6CGRectVRszlE6boundsAEyAG_GvgZ
+- _$sSo17MPCPlaybackIntentC35_MusicKitInternal_MediaPlaybackCoreE05radiogB03forABXD0cD07StationV_tFZ
+- _$s10Foundation15AttributeScopesO7SwiftUIE0D12UIAttributesV13encapsulationAF013EncapsulationB0Ovg
+- _$s16MusicKitInternal6TVShowVAA23EditorialArtworkVendingAAWP
+- _$s7SwiftUI9RectangleVAA5ShapeAAMc
+- _$s7SwiftUI30_SafeAreaRegionsIgnoringLayoutVN
+- _$ss16PartialRangeFromVMn
+- _$s7SwiftUI10LazyVStackVMn
+- _$s7SwiftUI4ViewPAAE7paddingyQr12CoreGraphics7CGFloatVF
+- _$s16MusicKitInternal23EditorialArtworkVendingPAAE05brickdE00aB00E0VSgvg
+- _$s7SwiftUI10AppStorageV_5storeACyqd__SgGSS_So14NSUserDefaultsCSgtcAERszSYRd__SS8RawValueRtd__lufC
+- _$s7SwiftUI20SegmentedPickerStyleVACycfC
+- _$sSK8distance4from2toSi5IndexQz_AEtFTq
+- _$s8MusicKit07PartialA8PropertyC0aB8InternalAA6ArtistVRszlE19defaultPlayableItemAA0a12RelationshipD0CyA2fDE0hI0OGvgZ
+- _$s7SwiftUI4ViewPAAE9blendModeyQrAA05BlendE0OF
+- _$s7SwiftUI16SidebarListStyleVACycfC
+- _$s7SwiftUI4TextV13EncapsulationV5ScaleVMn
+- _$s7SwiftUI10LazyVStackVMa
+- _MPModelPropertyTVSeasonArtwork
+- _$s7SwiftUI4ViewPAAE18navigationBarTitleyQrqd__SyRd__lFQOMQ
+- _$s7SwiftUI17_FlipForRTLEffectVMn
+- _$s7SwiftUI4ViewP09MediaCoreB0E14viewPresenting_8modifierQrAD09PresentedC5StateCyqd__G_qd_0_tAA0C8ModifierRd_0_r0_lF
+- _$s16MusicKitInternal0A17SearchResultGroupVs12IdentifiableAAMc
+- _$s10Foundation15AttributeScopesO7SwiftUIE0D12UIAttributesV013EncapsulationB0OMn
+- _$s7SwiftUI4ViewPAAE15ignoresSafeArea_5edgesQrAA0eF7RegionsV_AA4EdgeO3SetVtF
+- _$s7SwiftUI4TextV14TruncationModeOMa
+- _$s7SwiftUI5ColorV4pinkACvgZ
+- _$s11MediaCoreUI18PresentedViewStateC7present_8animatedyx_SbtF
+- _$s8MusicKit7StationV0aB8InternalE4KindO9streamingyAfcDE09StreamingE0OSgcAFmFWC
+- _$s7SwiftUI20SegmentedPickerStyleVMa
+- _$s16MusicKitInternal0A14LibraryMappingV8ResponseVMa
+- _$s8MusicKit0A14LibraryRequestV0aB8InternalAD0acE11RequestableRzrlE6filter8matching8containsys7KeyPathCy0cE6FilterQzAA0A14ItemCollectionVyqd__GSgG_qd__tAA0aM0Rd__lF
+- _$s8MusicKit0A5VideoV10genreNamesSaySSGvg
+- _$s7SwiftUI4TextV13EncapsulationV5StyleVMn
+- _$s8MusicKit7StationV0aB8InternalE13StreamingKindO7episodeyA2FmFWC
+- _$s16MusicKitInternal13UploadedVideoVAA23EditorialArtworkVendingAAWP
+- _$s7SwiftUI18IconOnlyLabelStyleVMn
+- _$s7SwiftUI10EdgeInsetsV2eeoiySbAC_ACtFZ
+- _$s7SwiftUI14NavigationLinkVMa
+- _$s10Foundation24AttributedStringProtocolPAAE11descriptionSSvg
+- _$s7SwiftUI4ViewPAAE11submitLabelyQrAA06SubmitE0VFQOMQ
+- _$s7SwiftUI16SubscriptionViewVMa
+- _$s7SwiftUI4TextV13EncapsulationV11PlatterSizeVMn
+- _$s16MusicKitInternal27EditorialVideoArtworkFlavorV21motionMediumVideo16x9ACvgZ
+- _$s16MusicKitInternal8ComposerVs12IdentifiableAAMc
+- _$s7SwiftUI4ViewPAAE11onDisappear7performQryycSg_tF
+- _$s7SwiftUI18IconOnlyLabelStyleVAA0eF0AAMc
+- _$s7SwiftUI4ViewP09MediaCoreB0E12videoGravityyQrAD05VideoG0OFQOMQ
+- _$s16MusicKitInternal0A14FavoriteStatusOs23CustomStringConvertibleAAMc
+- _$s10Foundation15AttributeScopesO7SwiftUIE0D12UIAttributesV013EncapsulationB0OAA19AttributedStringKeyADMc
+- _$s7SwiftUI19AccessibilityTraitsVs10SetAlgebraAAMc
+- _$sSo7CGPointVSQ12CoreGraphicsMc
+- _$s16MusicKitInternal6TVShowVs12IdentifiableAAMc
+- _$s7SwiftUI9LazyVGridVMn
+- _$s8MusicKit7StationV8durationSdSgvg
+- _$s7SwiftUI25_ScrollViewBoundsModifierVMn
+- _$sSo17_UITabSidebarItemC5UIKitE21_contentConfigurationAC09UIContentF0_pvg
+- _$sSlsE5first7ElementQzSgvg
+- _$sSK7IndicesSl_SKTn
+- _$s7SwiftUI23LabelStyleConfigurationV4IconVMn
+- _$s7SwiftUI4TextV13EncapsulationVMa
+- _$s8MusicKit5GenreV0aB8InternalE9shortNameSSSgvg
+- _OBJC_CLASS_$_AMSUIPurchaseTask
+- _$s7SwiftUI4ViewPAAE13accessibility4hintAA15ModifiedContentVyxAA31AccessibilityAttachmentModifierVGAA4TextV_tF
+- _$s10Foundation15AttributeScopesO0A10AttributesV24inlinePresentationIntentAE06InlinefgB0Ovg
+- _$s10Foundation22AttributeDynamicLookupO13dynamicMemberxs7KeyPathCyAA0B6ScopesO0A10AttributesVxG_tcAA016AttributedStringG0RzluipMV
+- _$s7SwiftUI13OpenURLActionV14callAsFunctionyy10Foundation3URLVF
+- _$s7SwiftUI11ControlSizeO7regularyA2CmFWC
+- _$s8MusicKit11RecordLabelVSQAAMc
+- _$s16MusicKitInternal0A25RecentlySearchedViewModelC3addyyAA07GenericA4ItemOYaKFTjTu
+- _$s7SwiftUI4TextV14TruncationModeO6middleyA2EmFWC
+- _$s7SwiftUI4ViewPAAE21disableAutocorrectionyQrSbSgF
+- _$s8MusicKit8PlaylistV0aB8InternalE6FolderV4ItemOs12IdentifiableADMc
+- _$s16MusicKitInternal13UploadedAudioVAA28EditorialVideoArtworkVendingAAWP
+- _$sSksSx5IndexRpzSnyABG7IndicesRtzSiAA_6StrideRTzrlE8distance4from2toSiAB_ABtF
+- _$s11MediaCoreUI18PresentedViewStateCACyxGycfc
+- _$s11MediaCoreUI18PresentedViewStateC02isD0Sbvg
+- _$s7SwiftUI23LabelStyleConfigurationVMa
+- _$s17_MusicKit_SwiftUI12ArtworkImageV01_ab9Internal_cD0E5ProxyVMn
+- _$s8MusicKit26LibraryTrackSortPropertiesP10albumTitleSSSgvgTj
+- _$s7SwiftUI11SubmitLabelV6searchACvgZ
+- _$s8MusicKit11RecordLabelV0aB8Internal28EditorialVideoArtworkVendingADWP
+- _$s7SwiftUI4ViewPAAE8onSubmit2of_QrAA0E8TriggersV_yyctFQOMQ
+- _$s8MusicKit6ArtistV0aB8Internal28EditorialVideoArtworkVendingADWP
+- _$s10Foundation16AttributedStringV13CharacterViewVSlAAMc
+- _$s16MusicKitInternal0A25RecentlySearchedViewModelC09$recentlyE7Entries7Combine9PublishedV9PublisherVySayAC5EntryVG_GvgTj
+- _$s16MusicKitInternal0A14LibraryMappingV7RequestVMa
+- _$s7SwiftUI15ModifiedContentVA2A31AccessibilityAttachmentModifierVRs_rlE25accessibilityRemoveTraitsyACyxAEGAA0eJ0VF
+- _$s16MusicKitInternal9TVEpisodeV12seasonNumberSiSgvg
+- _$s16MusicKitInternal9TVEpisodeV12capabilitiesAA17VideoCapabilitiesVvg
+- _$s7SwiftUI8EditModeO9isEditingSbvg
+- _$sSlsE6prefixy11SubSequenceQzSiF
+- _$s7SwiftUI16PresentationModeVMa
+- _MPModelPropertySocialPersonHasLightweightProfile
+- _$s7SwiftUI25_PreferenceActionModifierVMa
+- _$s8MusicKit0A7LibraryC0aB8InternalE16ConnectionStatusOMa
+- _MPModelPropertySocialPersonIsPrivate
+- _$s7SwiftUI5ImageV13renderingModeyA2C017TemplateRenderingE0OSgF
+- _$s7SwiftUI4ViewP09MediaCoreB0E19materialContentModeyQrAA0gH0OSgFQOMQ
+- _$s8MusicKit5GenreV0aB8Internal23EditorialArtworkVendingADWP
+- _$s7SwiftUI17EnvironmentValuesV8editModeAA7BindingVyAA04EditF0OGSgvg
+- _$s7SwiftUI15ForegroundStyleVAA05ShapeD0AAWP
+- _$s7SwiftUI4ViewPAAE8onChange2of7initial_Qrqd___SbyyctSQRd__lFQOMQ
+- _$s8MusicKit0A31CatalogSearchSuggestionsRequestV0aB8InternalE16suggestionsLimitSiSgvs
+- _OBJC_CLASS_$_AMSBuyParams
+- _$s16MusicKitInternal6TVShowV16editorialArtwork0aB00F0VSgvg
+- _MPModelPropertyTVShowCreatorName
+- _$s7SwiftUI19AccessibilityTraitsV12isStaticTextACvgZ
+- _OBJC_CLASS_$_AMSURLParser
+- _$s7SwiftUI11ControlSizeO5smallyA2CmFWC
+- _$s7SwiftUI21PinnedScrollableViewsVs10SetAlgebraAAMc
+- _$ss21_arrayConditionalCastySayq_GSgSayxGr0_lF
+- _$s7SwiftUI4ViewPAAE7tabItemyQrqd__yXEAaBRd__lFQOMQ
+- _$s7SwiftUI17EnvironmentValuesV14truncationModeAA4TextV010TruncationF0Ovg
+- _$sSTsE8contains5whereS2b7ElementQzKXE_tKF
+- _$s16MusicKitInternal9TVEpisodeV8durationSdSgvg
+- _$ss5SliceVyxGSKsSKRzrlMc
+- _$s7SwiftUI4ViewPAAE06scrollC14BoundsModifier9transformQrqd__So6CGRectVSgc_tAA0cF0Rd__lF
+- _$s8MusicKit0A32CatalogSearchSuggestionsResponseV10SuggestionV10searchTermSSvg
+- _$s5UIKit26UIListContentConfigurationV11plainHeaderACyFZ
+- _$s8MusicKit0A5VideoVSHAAMc
+- _$s7SwiftUI10LazyVStackVyxGAA4ViewAAMc
+- _$s7SwiftUI20SearchFieldPlacementV16toolbarPrincipalACvgZ
+- _$s7SwiftUI11ControlSizeO4miniyA2CmFWC
+- _$s8MusicKit17LibrarySongFilterP7artistsAA0A14ItemCollectionVyAA6ArtistVGSgvgTq
+- _$sSSySSxcSTRzSJ7ElementRtzlufC
+- _$s7SwiftUI16ToolbarItemGroupVMn
+- _$s7SwiftUI4ViewPAAE10background_20ignoresSafeAreaEdgesQrqd___AA4EdgeO3SetVtAA10ShapeStyleRd__lF
+- _$s7SwiftUI4ViewPAAE17hyphenationFactoryQr12CoreGraphics7CGFloatVFQOMQ
+- _$s10Foundation19AttributedSubstringV13dynamicMember5ValueQzSgs7KeyPathCyAA22AttributeDynamicLookupOxG_tcAA0b6StringG0Rzluis
+- _$s7SwiftUI16ToolbarItemGroupVyxGAA0C7ContentAAMc
+- _$s7SwiftUI16KeyboardShortcutV12cancelActionACvgZ
+- _$s5UIKit26UIListContentConfigurationV14textPropertiesAC04TextF0Vvg
+- _$s8MusicKit7CuratorV0aB8Internal28EditorialVideoArtworkVendingADWP
+- _$s16MusicKitInternal0A5MovieVAA28EditorialVideoArtworkVendingAAWP
+- _$s7SwiftUI4ViewPAAE8onSubmit2of_QrAA0E8TriggersV_yyctF
+- _$s7SwiftUI4ViewPAAE18navigationBarTitleyQrAA4TextVFQOMQ
+- _$s7SwiftUI23LabelStyleConfigurationV4IconVMa
+- _$s7SwiftUI21ToolbarContentBuilderV11buildEither5firstAA012_ConditionalD0Vyxq_Gx_tAA0cD0RzAaIR_r0_lFZ
+- _$s7SwiftUI4ViewPAAE11environmentyQrqd__SgRld__C11Observation10ObservableRd__lF
+- _$s16MusicKitInternal0a7CatalogC13SearchRequestVAA0a13AutoupdatableF0AAWP
+- _$sSksSx5IndexRpzSnyABG7IndicesRtzSiAA_6StrideRTzrlE5index6beforeA2B_tF
+- _$s16MusicKitInternal011FavoritableA4ItemP14favoriteStatusAA0a8FavoriteG0OvgTj
+- _$s7SwiftUI4ViewPAAE12contentShape_6eoFillQrqd___SbtAA0E0Rd__lF
+- _$s7SwiftUI8GridItemV4SizeO8flexibleyAE12CoreGraphics7CGFloatV_AItcAEmFWC
+- _$s7SwiftUI9LazyVGridVMa
+- _$ss10ArraySliceVMn
+- __swift_FORCE_LOAD_$_swiftSpriteKit
+- _$s8MusicKit0A31CatalogSearchSuggestionsRequestV4term26includingTopResultsOfTypesACSS_SayAA0aC10Searchable_pXpGtcfC
+- _$s8MusicKit7StationV0aB8InternalE4KindOMn
+- _$s16MusicKitInternal0A25RecentlySearchedViewModelC5clearyyFTj
+- _$s7SwiftUI4ViewPAAE7tabItemyQrqd__yXEAaBRd__lF
+- _$s7SwiftUI17_FlipForRTLEffectVN
+- _$s7SwiftUI4ViewPAAE13accessibility10identifierAA15ModifiedContentVyxAA31AccessibilityAttachmentModifierVGSS_tF
+- _MPModelPropertyCuratorSubKind
+- _$s8MusicKit0A32CatalogSearchSuggestionsResponseV10SuggestionVs12IdentifiableAAMc
+- _$s11MediaCoreUI18PresentedViewStateC02isD0Sbvs
+- _$s10Foundation16AttributedStringV13CharacterViewVMn
+- _$s7SwiftUI8EditModeOSQAAMc
+- _$s7SwiftUI16SidebarListStyleVMn
+- _$s8MusicKit26LibraryTrackSortPropertiesP10albumTitleSSSgvgTq
+- _$s7SwiftUI16SidebarListStyleVMa
+- _$s7SwiftUI4TextV13EncapsulationV5ScaleVMa
+- _$s7SwiftUI14SubmitTriggersVMa
+- _$s8MusicKit4SongVAA0A17LibrarySearchableAAWP
+- _$s16MusicKitInternal23EditorialArtworkVendingPAAE08flowcasedE00aB00E0VSgvg
+- _$s8MusicKit0A32CatalogSearchSuggestionsResponseV0aB8InternalE18internalTopResultsAA0A14ItemCollectionVyAD07GenericaK0OGvg
+- _$s16MusicKitInternal0A25RecentlySearchedViewModelC5EntryV6sourceAE6SourceOvg
+- _$s10Foundation16AttributedStringV5IndexVSLAAMc
+- _$s7SwiftUI4TextV14TruncationModeOMn
+- _$s8MusicKit0A7LibraryC0aB8InternalE16ConnectionStatusO10connectingyAFSf_tcAFmFWC
+- _$s7SwiftUI20ToolbarItemPlacementV20navigationBarLeadingACvgZ
+- _$s7SwiftUI4TextV13EncapsulationV5StyleVMa
+- _$s7SwiftUI23LabelStyleConfigurationV5TitleVAA4ViewAAMc
+- _$s7SwiftUI16KeyboardShortcutV13defaultActionACvgZ
+- _$s16MusicKitInternal0A5MovieVs12IdentifiableAAMc
+- _$s8MusicKit6ArtistVAA0A25LibrarySectionRequestableAAWP
+- _$s16MusicKitInternal23EditorialArtworkVendingP04griddE00aB00E0VSgvgTj
+- _$s7SwiftUI23PopoverAttachmentAnchorO4rectyAcA0E0V6SourceVySo6CGRectV_GcACmFWC
+- _$s7SwiftUI18IconOnlyLabelStyleVACycfC
+- _$sSo17_UITabSidebarItemC5UIKitE21_contentConfigurationAC09UIContentF0_pvs
+- _$s7SwiftUI4ViewPAAE10searchable4text9placement6promptQrAA7BindingVySSG_AA20SearchFieldPlacementVqd__tSyRd__lF
+- _$s7SwiftUI23PopoverAttachmentAnchorOMa
+- _OBJC_CLASS_$__UITabElementGroup
+- _$s16MusicKitInternal17VideoCapabilitiesV11dolbyVisionACvgZ
+- _$s16MusicKitInternal0a7CatalogC14SearchResponseV27responseWithAdditionalItemsACyYaKFTu
+- _$s7SwiftUI17NavigationBarItemV16TitleDisplayModeO5largeyA2EmFWC
+- _$s7SwiftUI10LazyVStackV9alignment7spacing11pinnedViews7contentACyxGAA19HorizontalAlignmentV_12CoreGraphics7CGFloatVSgAA016PinnedScrollableH0VxyXEtcfC
+- _$s7SwiftUI4ViewPAAE14contentMargins__3forQrAA4EdgeO3SetV_12CoreGraphics7CGFloatVSgAA22ContentMarginPlacementVtF
+- _$s7SwiftUI17EnvironmentValuesV11isSearchingSbvg
+- _$s8MusicKit9RadioShowV0aB8Internal23EditorialArtworkVendingADWP
+- _$s8MusicKit0A20LibrarySearchRequestV4term5typesACSS_SayAA0aC10Searchable_pXpGtcfC
+- _AMSError
+- _$s16MusicKitInternal0A17SearchResultGroupV2idSSvg
+- _$s10Foundation15AttributeScopesO7SwiftUIE0D12UIAttributesV13encapsulationAF013EncapsulationB0OvpMV
+- _$s7SwiftUI4ViewPAAE25accessibilitySortPriorityyAA15ModifiedContentVyxAA31AccessibilityAttachmentModifierVGSdF
+- _$s7SwiftUI4ViewPAAE26interactiveDismissDisabledyQrSbFQOMQ
+- _$s10Foundation22AttributeDynamicLookupO7SwiftUIE13dynamicMemberxs7KeyPathCyAA0B6ScopesOADE0E12UIAttributesVxG_tcAA016AttributedStringI0RzluipMV
+- _$sSo6CGSizeVSQ12CoreGraphicsMc
+- _$sSkSKTb
+- _$s8MusicKit7StationV0aB8Internal28EditorialVideoArtworkVendingADWP
+- _$s7SwiftUI15ScrollViewProxyV16setContentOffsetyySo7CGPointVF
+- _$s16MusicKitInternal0a7CatalogC14SearchResponseV27responseWithAdditionalItemsACyYaKF
+- _$s16MusicKitInternal8ComposerV4nameSSvpMV
+- _$s7SwiftUI4FontV9TextStyleO8headlineyA2EmFWC
+- _$s7SwiftUI10VisibilityO2eeoiySbAC_ACtFZ
+- _$s7SwiftUI20SegmentedPickerStyleVMn
+- _$ss10SetAlgebraP6removey7ElementQzSgAEFTj
+- _$s17_MusicKit_SwiftUI12ArtworkImageV01_ab9Internal_cD0E5ProxyV5imageSo7UIImageCSgvg
+- _$s16MusicKitInternal13EditorialItemVAA0D14ArtworkVendingAAWP
+- _$s7Combine10PublishersO0A6LatestVMn
+- _$s16MusicKitInternal07GenericA4ItemOSQAAMc
+- _$s11MediaCoreUI18PresentedViewStateCMn
+- _$s16MusicKitInternal0A17SearchResultGroupV012isTopResultsF0Sbvg
+- _$sSly11SubSequenceQzSny5IndexQzGcigTj
+- _$s7SwiftUI7SectionVA2A4TextVRszAA4ViewR_AA05EmptyE0VRs0_rlE_10isExpanded7contentACyAEq_AHGqd___AA7BindingVySbGq_yXEtcSyRd__lufC
+- _$s16MusicKitInternal23EditorialArtworkVendingMp
+- _$s8MusicKit9RadioShowV0aB8Internal28EditorialVideoArtworkVendingADWP
+- _$s7SwiftUI4ViewP09MediaCoreB0E12materialChin5image6height11placeholder7contentQrSo7UIImageCSg_0E8Graphics7CGFloatVqd__ycqd_0_yctAaBRd__AaBRd_0_r0_lF
+- _$s8MusicKit0A31CatalogSearchSuggestionsRequestV0aB8Internal0a13AutoupdatableF0ADWP
+- _$s7SwiftUI4ViewPAAE11toggleStyleyQrqd__AA06ToggleE0Rd__lF
+- _$s16MusicKitInternal0A18LibraryMappingItemPAA0aB00A5VideoV0aF4TypeRtzrlE4kindAA0adE0V0F4KindOSgvg
+- _$s16MusicKitInternal0a7CatalogC13SearchRequestVMn
+- _$s8MusicKit6ArtistVs12IdentifiableAAMc
+- _$s16MusicKitInternal27EditorialVideoArtworkFlavorV20motionSquareVideo1x1ACvgZ
+- _$s8MusicKit7StationV0aB8InternalE4kindAcDE4KindOSgvg
+- _$s7SwiftUI4ViewPAAE15navigationTitleyQrAA4TextVF
+- _$s25_MusicKitInternal_SwiftUI18ArtworkImageReaderVMn
+- _$s10Foundation15AttributeScopesO7SwiftUIE0D12UIAttributesV013EncapsulationB0ON
+- _$s8MusicKit7StationV0aB8InternalE13StreamingKindOSQADMc
+- _$s16MusicKitInternal13UploadedAudioVAA23EditorialArtworkVendingAAWP
+- _$s7Combine10PublishersO0A6LatestVy_xq_GAA9PublisherAAMc
+- _$s7SwiftUI5ImageV21TemplateRenderingModeOMn
+- _$s7SwiftUI16KeyboardShortcutVMa
+- _$s7SwiftUI4ViewPAAE11environmentyQrqd__SgRld__C11Observation10ObservableRd__lFQOMQ
+- _$s7SwiftUI21PinnedScrollableViewsVMn
+- _$s8MusicKit17LibrarySongFilterP6albumsAA0A14ItemCollectionVyAA5AlbumVGSgvgTq
+- _$s7SwiftUI14SubmitTriggersV6searchACvgZ
+- _$s7SwiftUI4ViewPAAE11toggleStyleyQrqd__AA06ToggleE0Rd__lFQOMQ
+- _$sSo17MPCPlaybackIntentC35_MusicKitInternal_MediaPlaybackCoreE05radiogB04fromABXDSgx_t0cdE014StationSeedingRzlFZ
+- _$s10Foundation3URLV6schemeSSSgvg
+- _$s8MusicKit6ArtistV0aB8Internal23EditorialArtworkVendingADWP
+- _$s10Foundation4DataVSQAAMc
+- _$s7SwiftUI7BindingV8constantyACyxGxFZ
+- _$s8MusicKit6ArtistVAA0A17LibrarySearchableAAWP
+- _$s7SwiftUI10VisibilityOSQAAMc
+- _MPModelRelationshipArtistGenre
+- _$s7SwiftUI19_BackgroundModifierVMa
+- _$s16MusicKitInternal11UserProfileV11isOnboardedSbvg
+- _$s7SwiftUI23LabelStyleConfigurationVMn
+- _$s8MusicKit0A20LibrarySearchRequestV0aB8Internal0a13AutoupdatableE0ADWP
+- _$s7SwiftUI17EnvironmentValuesV11accentColorAA0F0VSgvpMV
+- _$s7SwiftUI4ViewP09MediaCoreB0E12videoGravityyQrAD05VideoG0OF
+- _$sSkMp
+- _$s10Foundation15AttributeScopesO0A10AttributesV24inlinePresentationIntentAE06InlinefgB0OvpMV
+- _$s11MediaCoreUI12MotionViewV2Vyxq_G05SwiftC00E0AAMc
+- _$s7SwiftUI4ViewP09MediaCoreB0E14viewPresenting_8modifierQrAD09PresentedC5StateCyqd__G_qd_0_tAA0C8ModifierRd_0_r0_lFQOMQ
+- _$s7SwiftUI17EnvironmentValuesV11accentColorAA0F0VSgvs
+- _$s16MusicKitInternal9TVEpisodeV19standardDescriptionSSSgvg
+- _$s7SwiftUI21ToolbarContentBuilderV11buildEither6secondAA012_ConditionalD0Vyxq_Gq__tAA0cD0RzAaIR_r0_lFZ
+- _$s7SwiftUI4ViewPAAE8disabledyQrSbF
+- _$sSKSlTb
+- _$s8MusicKit0A20LibrarySearchRequestV0aB8InternalE15topResultsLimitSiSgvs
+- _$s7SwiftUI23LabelStyleConfigurationV5TitleVMa
+- _$s4Body7SwiftUI10LabelStylePTl
+- _$s7SwiftUI4ViewPAAE6offset1x1yQr12CoreGraphics7CGFloatV_AItF
+- _$s7SwiftUI4FontV9footnote2ACvgZ
+- __swift_FORCE_LOAD_$_swiftARKit
+- _$s8MusicKit13ContentRatingO2eeoiySbAC_ACtFZ
+- _$s7SwiftUI26_PreferenceWritingModifierVMa
+- _$s10Foundation15AttributeScopesO7SwiftUIE0D12UIAttributesV15foregroundColorAF010ForegroundhB0Ovg
+- _$s7Combine16ObservableObjectP7SwiftUIE16environmentStores15WritableKeyPathCyAD17EnvironmentValuesVxSgGvgZ
+- _$s7SwiftUI11SubmitLabelVMa
+- _$s10Foundation22AttributeDynamicLookupO13dynamicMemberxs7KeyPathCyAA0B6ScopesO0A10AttributesVxG_tcAA016AttributedStringG0Rzluig
+- _$sSqsSHRzlE4hash4intoys6HasherVz_tF
+- _$s7SwiftUI9LazyHGridVMa
+- _$s16MusicKitInternal17VideoCapabilitiesVMa
+- _$s7SwiftUI26_ScrollViewBoundsModifier2VMn
+- _$s16MusicKitInternal9TVEpisodeVAA23EditorialArtworkVendingAAWP
+- _$s7SwiftUI4ViewP09MediaCoreB0E12materialChin5image6height11placeholder7contentQrSo7UIImageCSg_0E8Graphics7CGFloatVqd__ycqd_0_yctAaBRd__AaBRd_0_r0_lFQOMQ
+- _$s8MusicKit0A21LibrarySearchResponseVMa
+- _$s10Foundation15AttributeScopesO0A10AttributesVMn
+- _$s16MusicKitInternal9TVEpisodeVSHAAMc
+- _$s7SwiftUI4TextV13EncapsulationV5scale5shape5style11platterSize10lineWeight5color12minimumWidthA2E5ScaleVSg_AE5ShapeVSgAE5StyleVSgAE07PlatterI0VSg12CoreGraphics7CGFloatVSgAA5ColorVSgA0_tcfC
+- _$s7SwiftUI19UIHostingControllerC8rootViewxvsTj
+- _$s11MediaCoreUI18PresentedViewStateC02isD0SbvpMV
+- _$s16MusicKitInternal0A14LibraryMappingV10MappedItemV07mappingG0xvg
+- _$s8MusicKit0A23LibrarySectionedRequestVMa
+- _$s8MusicKit0A5VideoV11releaseDate10Foundation0E0VSgvg
+- _$s16MusicKitInternal13SocialProfileVyACSgSDySSypGcfC
+- _$s7SwiftUI13_OffsetEffectVN
+- _MPModelPropertySocialPersonIsVerified
+- _$s7SwiftUI4ViewP09MediaCoreB0E18motionMaterialChin8keyframe6height11placeholder7contentQrSo7UIImageCSg_0E8Graphics7CGFloatVqd__ycqd_0_yctAaBRd__AaBRd_0_r0_lF
+- _$s7SwiftUI6CircleVAA15InsettableShapeAAMc
+- _$sSo17MPCPlaybackIntentC35_MusicKitInternal_MediaPlaybackCoreE_10startingAtABSgx_0cdE007GenericC4ItemOSgtcSTRzAH7ElementRtzlufC
+- _$s16MusicKitInternal0A5MovieV16editorialArtwork0aB00F0VSgvg
+- _$s10Foundation16AttributedStringV13dynamicMember5ValueQzSgs7KeyPathCyAA22AttributeDynamicLookupOxG_tcAA0bcG0Rzluis
+- _$s7SwiftUI17EnvironmentValuesV14truncationModeAA4TextV010TruncationF0Ovs
+- _$s8MusicKit0A5VideoV0aB8Internal09EditorialC14ArtworkVendingADWP
+- _$sSo17_UITabSidebarItemC5UIKitE12_accessoriesSayAC15UICellAccessoryVGvs
+- _OBJC_CLASS_$_NSListFormatter
+- _$s7SwiftUI17ButtonToggleStyleVACycfC
+- _$s10Foundation16AttributedStringV13CharacterViewVMa
+- _$s16MusicKitInternal8ComposerV0aB00A25LibrarySectionRequestableAAMc
+- _$s16MusicKitInternal9TVEpisodeVAA28EditorialVideoArtworkVendingAAWP
+- _$s7SwiftUI20PrimitiveButtonStyleMp
+- _$s8MusicKit8PlaylistV0aB8Internal23EditorialArtworkVendingADWP
+- _$s7SwiftUI4ViewPAAE10searchable4text9placement6promptQrAA7BindingVySSG_AA20SearchFieldPlacementVqd__tSyRd__lFQOMQ
+- _$s8MusicKit0A17LibrarySearchableMp
+- _$s16MusicKitInternal9TVEpisodeVs12IdentifiableAAMc
+- _$s7SwiftUI15NavigationStackV4path4rootACyxq_GAA7BindingVyxG_q_yXEtcSMRzSkRzSmRzSH7ElementSTRpzrlufC
+- _$s7SwiftUI10VisibilityON
+- _$s7SwiftUI17EnvironmentValuesV12displayScale12CoreGraphics7CGFloatVvg
+- _$s8MusicKit0A32CatalogSearchSuggestionsResponseVSQAAMc
+- _$s7SwiftUI4ViewPAAE21navigationDestination3for11destinationQrqd__m_qd_0_qd__ctSHRd__AaBRd_0_r0_lF
+- _$sShyxGSTsMc
+- _$s8MusicKit0A21LibrarySearchResponseV0aB8InternalE12resultGroupsSayAD0aD11ResultGroupVGvg
+- _$s7SwiftUI20ToolbarItemPlacementV21navigationBarTrailingACvgZ
+- _$s8MusicKit7StationV0aB8Internal23EditorialArtworkVendingADWP
+- _$s7SwiftUI15ScrollViewProxyV8scrollTo_6anchoryx_AA9UnitPointVSgtSHRzlF
+- _$sSK11SubSequenceSl_SKTn
+- _$s7SwiftUI4ViewPAAE17buttonBorderShapeyQrAA06ButtoneF0VF
+- _$s7SwiftUI4ViewPAAE21disableAutocorrectionyQrSbSgFQOMQ
+- _$s8MusicKit0A5VideoVAA0A17LibrarySearchableAAWP
+- __swift_FORCE_LOAD_$_swiftGLKit
+- _$s8MusicKit7CuratorV0aB8InternalE11logoArtworkAA0F0VSgvg
+- _$s10Foundation16AttributedStringV13CharacterViewVSTAAMc
+- _$s16MusicKitInternal0A20AutoupdatingResponseC7requestxvgTj
+- _$s16MusicKitInternal0A20AutoupdatingResponseCMa
+- _$s7SwiftUI17EnvironmentValuesV11isSearchingSbvpMV
+- _$s8MusicKit0A5VideoV0aB8Internal23EditorialArtworkVendingADWP
+- _MPModelPropertyPlaylistShareURL
+- _$s16MusicKitInternal0A20AutoupdatingResponseCyxG7Combine16ObservableObjectAAMc
+- _$s16MusicKitInternal13UploadedAudioV8durationSdSgvg
+- _$s16MusicKitInternal6TVShowVAA28EditorialVideoArtworkVendingAAWP
+- _$s7SwiftUI8EditModeOMa
+- _$s7SwiftUI4ViewPAAE11controlSizeyQrAA07ControlE0OF
+- _$s10Foundation16AttributedStringV10charactersAC13CharacterViewVvg
+- _$s10Foundation15AttributeScopesO7SwiftUIE0D12UIAttributesVMn
+- _$s7SwiftUI18IconOnlyLabelStyleVMa
+- _$s16MusicKitInternal0A5MovieV12immersiveURL10Foundation0F0VSgvg
+- _MPModelPropertyRecordLabelName
+- _$sSDyq_SgxciM
+- _$s8MusicKit0A32CatalogSearchSuggestionsResponseV11suggestionsSayAC10SuggestionVGvg
+- _$s8MusicKit7StationV0aB8InternalE7AirTimeVMn
+- _OBJC_CLASS_$_AMSUIWebViewController
+- _$s10Foundation15AttributeScopesO7SwiftUIE0D12UIAttributesV015ForegroundColorB0OMn
+- _$s16MusicKitInternal8TVSeasonVAA23EditorialArtworkVendingAAWP
+- _$s8MusicKit0A21LibrarySearchResponseVMn
+- _$s16MusicKitInternal27EditorialVideoArtworkFlavorV19motionWideVideo21x9ACvgZ
+- _$s7SwiftUI4ViewPAAE18navigationBarTitleyQrAA4TextVF
+- _$ss16IndexingIteratorVMa
+- _$s16MusicKitInternal0A25RecentlySearchedViewModelCACycfc
+- _$s16MusicKitInternal9TVEpisodeV0aB00A17LibrarySearchableAAMc
+- __swift_FORCE_LOAD_$_swiftSceneKit
+- _$s16MusicKitInternal0a7CatalogC14SearchResponseV18hasAdditionalItemsSbvg
+- _$s11MediaCoreUI12VideoGravityO3fityA2CmFWC
+- _$s8MusicKit8PlaylistV5EntryVAA0A14LibraryAddableAAWP
+- _$s7SwiftUI19BorderedButtonStyleVAA09PrimitivedE0AAMc
+- _$sSK5index6before5IndexQzAD_tFTq
+- _$s8MusicKit0A14LibrarySectionVMa
+- _$ss10SetAlgebraTL
+- _$s7SwiftUI17EnvironmentValuesV8editModeAA7BindingVyAA04EditF0OGSgvs
+- _$s7SwiftUI16ToolbarItemGroupV9placement7contentACyxGAA0cD9PlacementV_xyXEtcfC
+- _$s11MediaCoreUI12VideoGravityOMa
+- _$s8MusicKit5GenreVs12IdentifiableAAMc
+- _$s8MusicKit7StationV0aB8InternalE13StreamingKindOMn
+- _$s8MusicKit0A32CatalogSearchSuggestionsResponseVMn
+- _$s8MusicKit0A7LibraryC0aB8InternalE16connectionStatusAcDE010ConnectionF0Ovg
+- _$s7SwiftUI19BorderedButtonStyleVMn
+- _$s7SwiftUI10AppStorageV12wrappedValue_5storeACyxGx_SSSo14NSUserDefaultsCSgtcSYRzSS03RawF0RtzlufC
+- _$s7SwiftUI17EnvironmentValuesV14truncationModeAA4TextV010TruncationF0OvpMV
+- _$s7Combine9PublisherPAAE16removeDuplicates2byAA10PublishersO06RemoveD0Vy_xGSb6OutputQz_ALtc_tF
+- _$s10Foundation16AttributedStringVyAA0B9SubstringVxcSXRzAC5IndexV5BoundRtzluiM
+- _$s7SwiftUI19BorderedButtonStyleVMa
+- _$s7SwiftUI4ViewPAAE10background_2in9fillStyleQrqd___qd_0_AA04FillG0VtAA05ShapeG0Rd__AA010InsettableI0Rd_0_r0_lF
+- _$s7SwiftUI19HorizontalAlignmentV2eeoiySbAC_ACtFZ
+- _$s8MusicKit8PlaylistV5EntryV0aB8InternalE0E4ItemO8subtitleSSSgvg
+- _$s7SwiftUI22ContentMarginPlacementVMa
+- _MPModelPropertyRecordLabelArtwork
+- _$s8MusicKit0A24LibrarySectionedResponseV8sectionsSayAA0aC7SectionVyxq_GGvpMV
+- _$s16MusicKitInternal0A25RecentlySearchedViewModelC5EntryVMn
+- _$s7SwiftUI4ViewPAAE33presentationBackgroundInteractionyQrAA012PresentationeF0VF
+- _MPModelPropertyPlaylistShareShortURL
+- _$s10Foundation15AttributeScopesO7SwiftUIE0D12UIAttributesV015ForegroundColorB0OAA19AttributedStringKeyADMc
+- _$s16MusicKitInternal0A35AutoupdatingSharedLibrariesResponseC7Combine16ObservableObjectAAMc
+- _$s7SwiftUI25_ScrollViewBoundsModifierVMa
+- _$s16MusicKitInternal8ComposerV0aB00A17LibrarySearchableAAMc
+- _$s16MusicKitInternal0A25RecentlySearchedViewModelC5EntryV6SourceO7libraryyA2GmFWC
+- _$s7SwiftUI4ViewPAAE4task8priority_QrScP_yyYaYbctF
+- _$s7SwiftUI19NavigationSplitViewV7sidebar6detailACyxAA05EmptyE0Vq0_GxyXE_q0_yXEtcAGRs_rlufC
+- _$s16MusicKitInternal0A14LibraryMappingV8ItemKindO5trackyA2EmFWC
+- _$s7SwiftUI9LazyVGridV7columns9alignment7spacing11pinnedViews7contentACyxGSayAA8GridItemVG_AA19HorizontalAlignmentV12CoreGraphics7CGFloatVSgAA016PinnedScrollableI0VxyXEtcfC
+- _$s7SwiftUI17ButtonToggleStyleVMn
+- _$s10Foundation15AttributeScopesO0A10AttributesV024InlinePresentationIntentB0OMn
+- _$s7SwiftUI23LabelStyleConfigurationV5titleAC5TitleVvg
+- _$s16MusicKitInternal9TVEpisodeV16shortDescriptionSSSgvg
+- _$s7SwiftUI10AppStorageVAAs23ExpressibleByNilLiteralRzlE_5storeACySSSgGSS_So14NSUserDefaultsCSgtcAFRszrlufC
+- _$s7SwiftUI19NavigationSplitViewVyxq_q0_GAA0E0AAMc
+- _$sSK5index_8offsetBy5IndexQzAD_SitFTq
+- _$s7SwiftUI4TextV13EncapsulationV5ShapeVMa
+- _$s7SwiftUI33PresentationBackgroundInteractionVMa
+- _$s8MusicKit07LibraryA11VideoFilterP6genresAA0A14ItemCollectionVyAA5GenreVGSgvgTj
+- _$s8MusicKit7StationV0aB8InternalE7AirTimeVMa
+- _$s7SwiftUI20SegmentedPickerStyleVAA0dE0AAWP
+- _$s16MusicKitInternal8TVSeasonVAA28EditorialVideoArtworkVendingAAWP
+- _$s7SwiftUI10EdgeInsetsVSQAAMc
+- _$s8MusicKit0A32CatalogSearchSuggestionsResponseV10SuggestionVMn
+- _$s7SwiftUI10LabelStyleP8makeBody13configuration0F0QzAA0cD13ConfigurationV_tFTq
+- _$s7SwiftUI22ContentMarginPlacementV16scrollIndicatorsACvgZ
+- _$s8MusicKit0A7LibraryC0aB8InternalE16ConnectionStatusO12notConnectedyA2FmFWC
+- _$s16MusicKitInternal17VideoCapabilitiesVs10SetAlgebraAAMc
+- _$s7SwiftUI14NavigationLinkVAAs5NeverORs_rlE5value5labelACyxAEGqd__Sg_xyXEtcSHRd__lufC
+- _$s8MusicKit7CuratorV0aB8InternalE16editorialArtworkAA0F0VSgvg
+- _$s7SwiftUI4ListV9selection7contentACyxq_GAA7BindingVyShyxGGSg_q_yXEtcfC
+- _$s8MusicKit17LibrarySongFilterP7artistsAA0A14ItemCollectionVyAA6ArtistVGSgvgTj
+- _$s10Foundation15AttributeScopesO0A10AttributesV024InlinePresentationIntentB0ON
+- _$s16MusicKitInternal17VideoCapabilitiesV10dolbyAtmosACvgZ
+- _$s8MusicKit0A20LibrarySearchRequestVMa
+- _$s8MusicKit7StationV0aB8InternalE13StreamingKindOMa
+- _$s16MusicKitInternal13EditorialItemVAA0D19VideoArtworkVendingAAWP
+- _$s7SwiftUI4ViewPAAE7popover11isPresented16attachmentAnchor7contentQrAA7BindingVySbG_AA017PopoverAttachmentH0Oqd__yctAaBRd__lF
+- _$s7SwiftUI4ViewPAAE16keyboardShortcutyQrAA08KeyboardE0VFQOMQ
+- _$s16MusicKitInternal0a7CatalogC13SearchRequestV11sparseCountSiSgvg
+- _$sSnyxGSKsSxRzSZ6StrideRpzrlMc
+- _$ss10ArraySliceVyxGSksMc
+- _$s7SwiftUI17EnvironmentValuesV11accentColorAA0F0VSgvg
+- _$s7SwiftUI8EditModeO6activeyA2CmFWC
+- _$s8MusicKit0A31CatalogSearchSuggestionsRequestVMn
+- _$s7SwiftUI15ForegroundStyleVN
+- _$s8MusicKit13ContentRatingO5cleanyA2CmFWC
+- _$s7SwiftUI4ViewPAAE11submitLabelyQrAA06SubmitE0VF
+- _$s8MusicKit0A31CatalogSearchSuggestionsRequestVMa
+- _$s8MusicKit17LibrarySongFilterP6genresAA0A14ItemCollectionVyAA5GenreVGSgvgTj
+- _$s7SwiftUI5ColorVyACSo10CGColorRefacfC
+- _$s8MusicKit5GenreV0aB8Internal28EditorialVideoArtworkVendingADWP
+- _$s8MusicKit07LibraryA11VideoFilterP6albumsAA0A14ItemCollectionVyAA5AlbumVGSgvgTq
+- _$s7SwiftUI4FontV9TextStyleO6title2yA2EmFWC
+- _$sSK9formIndex6beforey0B0Qzz_tFTq
+- _$s7SwiftUI4ViewPAAE7paddingyQrAA10EdgeInsetsVF
+- _$s11MediaCoreUI18PresentedViewStateCyxG7Combine16ObservableObjectAAMc
+- _$s16MusicKitInternal0A5MovieVAA23EditorialArtworkVendingAAWP
+- _$s7SwiftUI9LazyVGridVyxGAA4ViewAAMc
+- _$s7SwiftUI4ViewP09MediaCoreB0E18motionMaterialChin8keyframe6height11placeholder7contentQrSo7UIImageCSg_0E8Graphics7CGFloatVqd__ycqd_0_yctAaBRd__AaBRd_0_r0_lFQOMQ
+- _$s16MusicKitInternal0A18LibraryMappingItemPA2A0A5MovieV0aF4TypeRtzrlE4kindAA0adE0V0F4KindOSgvg
+- _$s7SwiftUI4ViewPAAE11pickerStyleyQrqd__AA06PickerE0Rd__lFQOMQ
+- _$s5UIKit26UIListContentConfigurationV14TextPropertiesV4fontSo6UIFontCvg
+- _$s11MediaCoreUI14MarkupRendererCyACyxGxcfCTj
+- _$s16MusicKitInternal0A18LibraryMappingItemTL
+- _MPModelRelationshipTVShowCreator
+- _$s7SwiftUI8EditModeO8inactiveyA2CmFWC
+- _$sSksE5index_8offsetBy07limitedC05IndexQzSgAE_SiAEtF
+- _$s8MusicKit7StationV0aB8InternalE4KindOMa
+- _OBJC_CLASS_$_AMSUIEngagementTask
+- _$s7SwiftUI23LabelStyleConfigurationV5TitleVMn
+- _$sSo6CGRectVSQ12CoreGraphicsMc
+- _$s7SwiftUI33PresentationBackgroundInteractionV8disabledACvgZ
+- _$s7Combine10PublishersO0A6LatestVyAEy_xq_Gx_q_tcfC
+- _$s7SwiftUI15DynamicTypeSizeO2eeoiySbAC_ACtFZ
+- _$s8MusicKit07PartialA8PropertyCA2A5AlbumVRszlE6genresAA0a12RelationshipD0CyAeA5GenreVGvgZ
+- _$s10Foundation15AttributeScopesO7SwiftUIE0D12UIAttributesV015ForegroundColorB0ON
+- _$s8MusicKit0A15LibraryResponseVMa
+- _$s25_MusicKitInternal_SwiftUI18ArtworkImageReaderVyxG0dE04ViewAAMc
+- _$s7SwiftUI4ViewPAAE17hyphenationFactoryQr12CoreGraphics7CGFloatVF
+- _$s16MusicKitInternal0A15PlayableRequestP01_abC18_MediaPlaybackCoreE14playbackIntent16withStartingItemSo011MPCPlaybackJ0CSgAA07GenericaM0OSg_tF
+- _$s8MusicKit07LibraryA11VideoFilterP6albumsAA0A14ItemCollectionVyAA5AlbumVGSgvgTj
+- _$s7SwiftUI4ViewPAAE15navigationTitleyQrAA4TextVFQOMQ
+- _$sSK5index_8offsetBy07limitedC05IndexQzSgAE_SiAEtFTq
+- _$s8MusicKit0A32CatalogSearchSuggestionsResponseV0aB8InternalE13requestedTermSSvg
+- _$s8MusicKit0A21LibrarySearchResponseVSQAAMc
+- _$s8MusicKit0A20LibrarySearchRequestV17includeTopResultsSbvs
+- _$s8MusicKit0A5VideoV0aB8InternalE12immersiveURL10Foundation0F0VSgvg
+- _$s8MusicKit0A14LibrarySectionVyxq_Gs12IdentifiableAAMc
+- _$s16MusicKitInternal0A5MovieVSHAAMc
+- _$sSo17MPCPlaybackIntentC35_MusicKitInternal_MediaPlaybackCoreE3forAB0cdE007GenericC4ItemO_tKcfC
+- _$s7SwiftUI30HierarchicalShapeStyleModifierVMn
+- _OBJC_CLASS_$_OBPrivacyLinkController
+- _$s10Foundation15AttributeScopesO0A10AttributesV024InlinePresentationIntentB0OAA19AttributedStringKeyAAMc
+- _$s7SwiftUI4ViewPAAE16keyboardShortcutyQrAA08KeyboardE0VF
+- _$s7SwiftUI19NavigationSplitViewVMn
+- _$s7SwiftUI19AccessibilityTraitsVMn
+- _$s16MusicKitInternal0A17SearchResultGroupVSQAAMc
+- _$s16MusicKitInternal6TVShowV12immersiveURL10Foundation0F0VSgvg
+- _$s16MusicKitInternal0A15PlayableRequestP01_abC18_MediaPlaybackCoreE14playbackIntent16withStartingItemSo011MPCPlaybackJ0CSg0aB00daM0_pSg_tF
+- _$s8MusicKit4SongV0aB8Internal23EditorialArtworkVendingADWP
+- _$s8MusicKit7StationV0aB8InternalE7airTimeAcDE03AirF0VSgvg
+- _$s11MediaCoreUI18PresentedViewStateC4dataxSgvg
+- _$s7SwiftUI23LabelStyleConfigurationV4iconAC4IconVvg
+- _$s8MusicKit0A7LibraryC0aB8InternalE14DownloadStatusOSQADMc
+- _$s7SwiftUI10EdgeInsetsVN
+- _$s8MusicKit0A7LibraryCs12Identifiable0aB8InternalMc
+- _$s7SwiftUI4TextV14TruncationModeO4tailyA2EmFWC
+- _$s16MusicKitInternal27EditorialVideoArtworkFlavorVyACSScfC
+- _$s16MusicKitInternal17VideoCapabilitiesV12resolution4KACvgZ
+- _$s8MusicKit9RadioShowV0aB8InternalE11logoArtworkAA0G0VSgvg
+- _$sSo8NSNumberC10FoundationE14booleanLiteralABSb_tcfC
+- _OBJC_CLASS_$__UITabElement
+- _$s7SwiftUI16PresentationModeVMn
+- _$s7SwiftUI20ToolbarItemPlacementVMn
+- _$s8MusicKit5AlbumVAA0A17LibrarySearchableAAWP
+- _$s10Foundation4DataV4hash4intoys6HasherVz_tF
+- _$ss10ArraySliceVMa
+- _$s7SwiftUI4ViewPAAE9onReceive_7performQrqd___y6OutputQyd__ct7Combine9PublisherRd__s5NeverO7FailureRtd__lF
+- _$s16MusicKitInternal12VideoArtworkVyACSgSDySSypGcfC
+- _$s7SwiftUI4ViewPAAE21navigationDestination3for11destinationQrqd__m_qd_0_qd__ctSHRd__AaBRd_0_r0_lFQOMQ
+- _$s7SwiftUI4ViewPAAE8onChange2of7initial_Qrqd___SbyyctSQRd__lF
+- _$s8MusicKit6ArtistVAA0A17PropertyContainerAAWP
+- _$s7SwiftUI4ViewPAAE7popover11isPresented16attachmentAnchor7contentQrAA7BindingVySbG_AA017PopoverAttachmentH0Oqd__yctAaBRd__lFQOMQ
+- _$s16MusicKitInternal13UploadedVideoV8durationSdSgvg
+- _OBJC_CLASS_$__UITab
+- _$s7SwiftUI4ViewPAAE11accentColoryQrAA0E0VSgF
+- _$s16MusicKitInternal0A35AutoupdatingSharedLibrariesResponseCMa
+- _$s16MusicKitInternal013RecentlyAddedA4ItemOs12IdentifiableAAMc
+- _$s7SwiftUI16PresentationModeV7dismissyyF
+- _$s7SwiftUI30HierarchicalShapeStyleModifierVyxGAA0dE0AAMc
+- _$s7SwiftUI15ModifiedContentVA2A31AccessibilityAttachmentModifierVRs_rlE13accessibility4hintACyxAEGAA4TextV_tF
+- _$s8MusicKit8PlaylistVAA0A17LibrarySearchableAAWP
+- _$s16MusicKitInternal0A17SearchResultGroupV5titleSSvg
+- _$s8MusicKit5AlbumV6genresAA0A14ItemCollectionVyAA5GenreVGSgvg
+- _$s8MusicKit0A23LibrarySectionedRequestV0aB8InternalAD0acF11RequestableR_rlE11filterItems8matching8memberOfys7KeyPathCy0cF6FilterQy_qd__G_Sayqd__GtAA0aceO14ValueEquatableRd__lF
+- _$s8MusicKit0A32CatalogSearchSuggestionsResponseV10SuggestionVs23CustomStringConvertibleAAMc
+- _$s16MusicKitInternal13UploadedVideoV12immersiveURL10Foundation0G0VSgvg
+- _$s7SwiftUI17_FlipForRTLEffectVAA12ViewModifierAAMc
+- _$s5UIKit26UIListContentConfigurationV14TextPropertiesVMa
+- _$s16MusicKitInternal9TVEpisodeV6numberSiSgvg
+- _$s7SwiftUI16SidebarListStyleVAA0dE0AAWP
+- _$s16MusicKitInternal0A25RecentlySearchedViewModelC5EntryV6SourceOMa
+- _$s16MusicKitInternal0A5MovieV0aB00A17LibrarySearchableAAMc
+- _$s8MusicKit07LibraryA11VideoFilterP6genresAA0A14ItemCollectionVyAA5GenreVGSgvgTq
+- _$s7SwiftUI4TextV13EncapsulationV11PlatterSizeVMa
+- _$ss5SliceVyxGSksSkRzrlMc
+- _$s10Foundation16AttributedStringV5IndexVSQAAMc
+- _$s7SwiftUI4ViewPAAE26interactiveDismissDisabledyQrSbF
+- _$s7SwiftUI17EnvironmentValuesV8editModeAA7BindingVyAA04EditF0OGSgvpMV
+- _$s16MusicKitInternal0A25RecentlySearchedViewModelC5EntryV6SourceO7catalogyA2GmFWC
+- _$s16MusicKitInternal07GenericA4ItemO2id0aB00aE2IDVvpMV
+- _$s16MusicKitInternal0A20AutoupdatingResponseC13dynamicMemberqd__Sgs7KeyPathCy0E4TypeQzqd__G_tcluigTj
+- _$s7SwiftUI17ButtonBorderShapeV16roundedRectangle6radiusAC12CoreGraphics7CGFloatV_tFZ
+- _OBJC_CLASS_$_AMSPurchase
+- _OBJC_CLASS_$_AMSUIAlertDialogTask
+- _$sSk7IndicesSl_SkTn
+- _$s7SwiftUI25_ScrollViewBoundsModifierVyxGAA0dF0AAMc
+- _$s7SwiftUI8MaterialV9ultraThinACvgZ
+- _$s7SwiftUI10LabelStyleMp
+- _$s8MusicKit0A7LibraryC0aB8InternalE16ConnectionStatusO13disconnectingyA2FmFWC
+- _MPModelPropertyCuratorHandle
+- _$s16MusicKitInternal0A25RecentlySearchedViewModelCMn
+- _$s8MusicKit7StationV0aB8InternalE7AirTimeV9startDate10Foundation0H0Vvg
+- _$s7SwiftUI5ImageV21TemplateRenderingModeO8templateyA2EmFWC
+- _$s7SwiftUI14_OpacityEffectVN
+- _OBJC_CLASS_$__UITabAction
+- _$s16MusicKitInternal0A14LibraryMappingV11ItemContentO09unfetchedF0yAEy_xG0aB00aF2IDV_AC0F4KindOtcAGmAH0aF0RzlFWC
+- _$s8MusicKit0A7LibraryC0aB8InternalE16ConnectionStatusO9connectedyA2FmFWC
+- _$s7SwiftUI21ToolbarContentBuilderV7buildIfyxSgAeA0cD0RzlFZ
+- _$sSksSx5IndexRpzSnyABG7IndicesRtzSiAA_6StrideRTzrlE5index5afterA2B_tF
+- _$s8MusicKit17LibrarySongFilterP6genresAA0A14ItemCollectionVyAA5GenreVGSgvgTq
+- _$s7SwiftUI17ButtonToggleStyleVAA0dE0AAMc
+- _$s16MusicKitInternal0A25RecentlySearchedViewModelCMa
+- _$s7SwiftUI4ViewP09MediaCoreB0E19materialContentModeyQrAA0gH0OSgF
+- _$s7SwiftUI4ViewPAAE18navigationBarTitleyQrqd__SyRd__lF
+- _UIAccessibilityTraitNone
+- _$s7SwiftUI4ViewPAAE11pickerStyleyQrqd__AA06PickerE0Rd__lF
+- _$s7SwiftUI4ViewPAAE33presentationBackgroundInteractionyQrAA012PresentationeF0VFQOMQ
+- _$s16MusicKitInternal0A14LibraryMappingV10MappedItemVMa
+- _$sSKMp
+- _$ss12IdentifiableTL
+- _$s16MusicKitInternal0A25RecentlySearchedViewModelC5EntryV4itemAA07GenericA4ItemOvg
+- _$s7SwiftUI4ViewPAAE7opacityyQrSdF
+- _$s8MusicKit14EditorialNotesV4nameSSSgvg
+- _$s8MusicKit4SongV0aB8Internal28EditorialVideoArtworkVendingADWP
+- _$s8MusicKit7CuratorV2eeoiySbAC_ACtFZ
+- _$s7SwiftUI10LabelStyleP4BodyAC_AA4ViewTn
+- _$s16MusicKitInternal23EditorialArtworkVendingPAAE04griddE00aB00E0VSgvg
+CStrings:
++ "com.apple.Music.tab.Facets"
++ "managingNavigationController"
++ "initWithViewControllerProvider:"
++ "setTabs:"
++ "_TtCCE5MusicO9MusicCore7Library3Tab14FacetsTabGroup"
++ "Forcing tab reload"
++ "Unhandled userActivity=%!{(MISSING)public}s"
++ "allPlaylistsTab"
++ "Skipping tabs update: No app interface context set yet"
++ "$__lazy_storage_$_shuffleBarButtonItem"
++ "Selecting tab: %!{(MISSING)public}s"
++ "On your Mac or PC, go to Apple\u00a0Music or iTunes for Windows and in Settings, select Sync Library."
++ "tabForIdentifier:"
++ "@56@0:8@16@24@32@40@?48"
++ "Artists added from Apple\u00a0Music will appear here."
++ "Requesting sharing URL and offers for item=%!{(MISSING)public}s"
++ "Unable to perform addToPlaylist: No library tab associated to tab=%!{(MISSING)public}s"
++ "Music.MusicTab"
++ "User activity resolved to search with query %!{(MISSING)public}s"
++ "_TtCC5Music8MusicTab5Group"
++ "Selected tab was a playlist that is no longer available. Selecting the closest one as a fallback…"
++ "setAllowsReordering:"
++ "Browse Apple\u00a0Music"
++ "setSidebarActions:"
++ "com.apple.Music.tab.Playlists.Section"
++ "managingTabGroup"
++ "This device is restricted from playing content that requires an Apple\u00a0Music subscription."
++ "ACCESSIBILITY_SHUFFLE"
++ "setChildren:"
++ "🖱️🕕 ❌ Click event reporting not implemented"
++ "initWithTitle:image:identifier:children:viewControllerProvider:"
++ "Updated user playlists tab group: %!{(MISSING)public}s"
++ "Subscribe to Apple\u00a0Music to add artists."
++ "setSelectedTab:"
++ "Music.SidebarDelegate"
++ "setAllowsHiding:"
++ "_TtCCE5MusicO9MusicCore7Library3Tab21UserPlaylistsTabGroup"
++ "selectedTab"
++ "$__lazy_storage_$_newPlaylistBarButtonItem"
++ "response(previousRevision:)"
++ "Music.Group"
++ "itemFromRequest:"
++ "setPreferredLayout:"
++ "🔨 Building playlists tabs using request=%!{(MISSING)public}s…"
++ "You’ll be able to control what’s playing in Apple\u00a0Music from your device."
++ "Attempting to select playlist tab: %!{(MISSING)public}s"
++ "facetIdentifier"
++ "Subscribe to Apple\u00a0Music to save tv shows."
++ "ACCESSIBILITY_PAUSE"
++ "$__lazy_storage_$_bannerRegistration"
++ "init(title:image:identifier:viewControllerProvider:)"
++ "Available shared libraries changed (%!{(MISSING)public}ld shared libraries available). Updating tabs…"
++ "Unhandled sidebar item content type %!{(MISSING)public}s"
++ "Music.BarDelegate"
++ "leftBarButtonItems"
++ "ACCESSIBILITY_PLAY"
++ "Subscribe to Apple\u00a0Music to save videos."
++ "To play without interruption requires an Apple\u00a0Music subscription with Sync Library turned on."
++ "selectAll:"
++ "Selecting playlist tab: %!{(MISSING)public}s"
++ "com.apple.Music.tab.com.apple.Music.LibraryView.RecentlyAdded"
++ "viewWillLayoutSubviews"
++ "_TtCC5Music8MusicTab11BarDelegate"
++ "You can only collaborate on playlists with songs from the Apple\u00a0Music catalog. A duplicate of the full playlist will be added to your library."
++ "Movies added from Apple\u00a0Music will appear here."
++ "[Tab Matching] 📁 Checking children for tab group: %!s(MISSING)"
++ "Downloaded video content will appear here."
++ "Music/LibraryTab+CloudLibrary.swift"
++ "TV Shows added from Apple\u00a0Music will appear here."
++ "Download Videos to Watch Offline"
++ "Music.CloudLibrarySidebarStatusAccessory"
++ "Reloading invalidated playlist tab %!{(MISSING)public}s"
++ "Unable to connect to Apple\u00a0Music."
++ "setDefaultChildIdentifier:"
++ "Updating menu selection %!{(MISSING)public}s"
++ "No interface context provided for %!s(MISSING) —\u00a0Defaulting to the main scene's AIC. Please provide a AIC when you can!"
++ "_TtCCE5MusicO9MusicCore7Library3Tab17PlaylistFolderTab"
++ "%!s(MISSING)|— 🔨📁 Building folder tabs for folder=%!{(MISSING)public}s"
++ "playlistSectionTab"
++ "loadedArtwork"
++ "🔁 Updating Playlist Folder Tab %!{(MISSING)public}s with matching folder %!{(MISSING)public}s"
++ "Successfully selected newly created playlist: %!{(MISSING)public}s"
++ "Visibility changed for tabs %!{(MISSING)public}s"
++ "Dispatching tab visibility change to managing tab  %!{(MISSING)public}@ for tabs %!{(MISSING)public}s"
++ "init(title:image:identifier:children:viewControllerProvider:)"
++ "_TtC5Music8MusicTab"
++ ", you will no longer be able to find other Apple\u00a0Music users that you are connected with using "
++ "_TtCCE5MusicO9MusicCore7Library3Tab18PlaylistSectionTab"
++ "Successfully updated TabBarController with tabs=%!{(MISSING)public}s"
++ "User activity resolved to searchable activity with mediaEntity=%!{(MISSING)public}s"
++ "Unhandled playlist type: %!{(MISSING)public}s"
++ "Received `displayOrderDidChangeForGroup:` for unsupported tab=%!{(MISSING)public}s"
++ "sidebarDelegate"
++ "Failed to get share URL and offers for album catalogID: %!{(MISSING)public}s: %!{(MISSING)public}@"
++ "Turn On Apple\u00a0Music"
++ "viewControllerPreferredLargeTitleDisplayMode"
++ "Failed to load library facets with error: %!{(MISSING)public}s"
++ "com.apple.Music.tab.search"
++ "$__lazy_storage_$_cloudLibraryStatusAccessory"
++ "Tab: Library Menu"
++ "MusicKit item=%!{(MISSING)public}s does not conform to LinkPresentationMetadataProviding"
++ "Could not convert MPModelObject=%!{(MISSING)public}s to MusicKit item"
++ "Sidebar: Playlists"
++ "No presentation source"
++ "setManagingNavigationController:"
++ "initWithTitle:image:identifier:viewControllerProvider:"
++ "$__lazy_storage_$__filterBarButtonItem"
++ "The current device profile does not allow you to use Apple\u00a0Music."
++ "Music.Search"
++ "barDelegate"
++ "Unable to parse root tab=%!{(MISSING)public}s"
++ "init(viewControllerProvider:)"
++ "com.apple.Music.tab."
++ "@\"UIViewController\"16@?0@\"UITab\"8"
++ "tabs"
++ "Unable to select playlist tab: %!{(MISSING)public}s: couldn't find playlist"
++ "Re-ordering menu %!{(MISSING)public}s with identifiers=%!{(MISSING)public}s"
++ "Failed to retrieve page provider on appInterfaceContext=%!{(MISSING)public}s"
++ "Create a new playlist"
++ "_TtCCE5MusicO9MusicCore7Library3Tab8FacetTab"
++ "Only Apple\u00a0Music Songs Will Be Included"
++ "Failed to get share URL and offers for song catalogID: %!{(MISSING)public}s: %!{(MISSING)public}@"
++ "Subscribe to Apple\u00a0Music to save music."
++ "ACCESSIBILITY_STOP"
++ "_TtCE5MusicO9MusicCore7Library3Tab"
++ "%!s(MISSING) identifier=%!{(MISSING)public}s"
++ "🔁 Updated Playlist Tab %!{(MISSING)public}s with matching playlist %!{(MISSING)public}s"
++ "Unhandled case for UITabSidebarItem.Request's content: %!{(MISSING)public}s"
++ "Unresolved kind for URL %!{(MISSING)public}s."
++ "setHiddenByDefault:"
++ "Playlists.Section"
++ "Received menu update request with tab display order identifiers=%!{(MISSING)public}s, updated visibility for tabs=%!{(MISSING)public}s"
++ "Subscribe to Apple\u00a0Music to save movies."
++ "displayOrder"
++ "To use SharePlay with Music, you need to turn on Apple\u00a0Music in Settings."
++ "com.apple.Music.tab.Playlists.User"
++ "$__lazy_storage_$_playBarButtonItem"
++ "Updated library facet group with facets: %!{(MISSING)public}s"
++ "Moving identifier=%!{(MISSING)public}s to index=%!{(MISSING)public}ld"
++ "_TtCC5Music8MusicTab15SidebarDelegate"
++ "_TtCC5Music8MusicTabP33_1DDCAC1CCF43315AC77B3A97766EC6C36Search"
++ "setDisplayOrderIdentifiers:"
++ "facetsTabGroup"
++ "rootViewController(for:)"
++ "Allow Apple\u00a0Music"
++ "[Tab Matching] ✅ Found matching tab: %!s(MISSING)"
++ "Music Videos added from Apple\u00a0Music will appear here."
++ "Updating editable library menu with mapped ordered identifiers=%!{(MISSING)public}s"
++ "Could not produce play intent for entry %!{(MISSING)public}s. Error=%!{(MISSING)public}s"
++ "Received drop session=%!{(MISSING)public}s on tab=%!{(MISSING)public}s"
++ "No intents found for drop session=%!{(MISSING)public}s on tab=%!{(MISSING)public}s"
++ "_TtCCE5MusicO9MusicCore7Library3Tab11PlaylistTab"
++ "userPlaylistsTabGroup"
++ "Scan the QR Code to join automatically. No Apple\u00a0Music subscription required."
++ "Unable to parse searchable activity with userInfo=%!{(MISSING)public}s"
++ "Music added from Apple\u00a0Music will appear here."
++ "_TtCCE5MusicO9MusicCore7Library3Tab34CloudLibrarySidebarStatusAccessory"
++ "setSidebarAppearance:"
++ "Launched with userActivity=%!{(MISSING)public}s"
++ "parent"
++ "Unsupported Drop Session for tab=%!{(MISSING)public}s"
++ "setPreferredPlacement:"
+- "_UITabBarControllerSidebarDelegate"
+- "Playlists.Group"
+- "Subscribe to Apple Music to save videos."
+- "_isFirstResponder"
+- "Disabling favorite button - unsupportedReason=%!{(MISSING)public}s"
+- "_detailLink"
+- "Section title for TV Shows"
+- "_TtC5Music34SubscriptionPurchaseViewController"
+- "isViewVisible"
+- "webViewController:handleDelegateAction:completion:"
+- "needsTabElementsUpdate"
+- "🖱️🕕 No metrics reporter associated to %!{(MISSING)public}s — Skipping click event."
+- "_catalogTrackCount"
+- "representable"
+- "pathObserverSubscription"
+- "$__lazy_storage_$_nowPlayingPresentationState"
+- "Displaying viewController for tabElement=%!{(MISSING)public}s is not allowed by its dataSource — Switching to defaultTabElement=%!{(MISSING)public}s"
+- "_setSelectedElement:"
+- "webViewController:handleAuthenticateRequest:completion:"
+- "_TtCV5Music18PhotoLibraryPicker11Coordinator"
+- "_searchLandingComponentController"
+- "Malformed JSPosterItem. Both isChinEnabled + isGradientEnabled=%!{(MISSING)bool,public}d. Ignoring isGradientEnabled."
+- "detailComponentController"
+- "Attempted to perform unsupported action.\n\nError: "
+- "searchResultSections"
+- " is not a descendant of "
+- "Music/Search.swift"
+- "isSharePlaySessionEligibleSubject"
+- "[CommerceNavigationController] Subscription purchase failed with error: %!s(MISSING)"
+- "_TtCV5Music16PlaylistCreation10LegacyFlow"
+- "mainStackView"
+- "$__lazy_storage_$_sheetViewState"
+- "_TtCV5Music6Search9ViewModel"
+- "Mapping catalog container item: %!{(MISSING)public}s"
+- "Loading Cloud Library"
+- "_TtC5Music27MRNowPlayingQueueHeaderView"
+- "com.apple.onboarding.applemusic"
+- "seguePresentedViewState"
+- "%!s(MISSING)|— 🔨📁 Building folder playlist snapshot for folder=%!{(MISSING)public}s"
+- "Switching tab to %!{(MISSING)public}s"
+- "Disabling undo favorite button - unsupportedReason=%!{(MISSING)public}s"
+- "loadURL:"
+- "Header title message for sheet"
+- "Item not handled: %!{(MISSING)public}s"
+- "alertPresenter"
+- "sharedlistening"
+- "onSelection"
+- "Unknown Record Label"
+- "initWithBag:account:clientInfo:"
+- "Failed to retrieve composer for song: %!{(MISSING)public}s"
+- "didSelectSearchResult"
+- "_TtCC5Music23TabNavigationControllerP33_55B4A718EDC8EEBE5651245077D171D515TabElementStack"
+- "browseTabController"
+- "_TtC5Music17PresentationState"
+- "initWithRequest:bag:presentingViewController:"
+- "leadingImage"
+- "Invalid page. Event was not enqueued. Event=%!{(MISSING)public}s"
+- "_classicalTracks"
+- "Binding<PresentationMode>"
+- "exclamationmark.circle"
+- "setAllowsSelection:"
+- "initWithBag:URL:"
+- "v40@0:8@\"AMSPurchase\"16@\"AMSUISceneIdentifierRequest\"24@?<v@?@\"NSString\"@\"NSError\">32"
+- "purchase:handleDialogRequest:completion:"
+- "Handled JSNoopSegue"
+- "Music/JSPrivacyLinkViewController.swift"
+- "_UITabElementGroupDelegate"
+- "Subtitle for playing next, variable is the name of a playlist or album"
+- "Local Library title"
+- "isSheetPresented"
+- "_tabBarController:sidebar:willBeginDisplayingTab:"
+- "B40@0:8@\"AMSUIWebViewController\"16@\"NSDictionary\"24@?<v@?@@\"NSError\">32"
+- "Subscribe to \uf8ff\u202fMusic"
+- "v40@0:8@\"AMSPurchase\"16@\"AMSUIWindowRequest\"24@?<v@?@\"UIWindow\"@\"NSError\">32"
+- "_TtCC5Music31MRNowPlayingQueueViewControllerP33_8E32695F97AEF024FCAC1FE4F403941119CompositionalLayout"
+- "trailingButton"
+- "responseSubscription"
+- "pathObserver"
+- "Music added from Apple Music will appear here."
+- "This device is restricted from playing content that requires an Apple Music subscription."
+- "webViewController:didFinishPurchaseWithResult:error:"
+- "Legacy Web URL not handled: '%!s(MISSING)'"
+- "Experience Immersive"
+- "On your Mac or PC, go to Apple Music or iTunes for Windows and in Settings, select Sync Library."
+- "To play without interruption requires an Apple Music subscription with Sync Library turned on."
+- "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sed orci ac purus mattis elementum. Vestibulum rutrum venenatis velit sollicitudin facilisis. Morbi luctus erat at velit aliquam, vitae mattis nulla luctus."
+- "Performing segue: %!{(MISSING)public}@"
+- "_TtC5Music27JSPrivacyLinkViewController"
+- "[SubscriptionPurchaseViewController] No buyParameters were set. Cannot complete subscription purchase."
+- "metadataStackView"
+- "\nControl state: "
+- "A group or container of search suggestions"
+- "dynamicViewController:didFinishWithPurchaseResult:error:"
+- "Start Your Library"
+- "_TtCV5Music36ContainerDetailPlaybackIndicatorView21WaveformContainerView"
+- "scriptedApplicationActivationMethod"
+- "To use SharePlay with Music, you need to turn on Apple Music in Settings."
+- "Indicates if the result is from the library."
+- "Initiating segue via link for item: %!{(MISSING)public}s"
+- "Received deep link URL: %!{(MISSING)public}s"
+- "B40@0:8@\"AMSUIDynamicViewController\"16@\"AMSDelegateAction\"24@?<v@?@@\"NSError\">32"
+- "initWithPurchaseType:buyParams:"
+- "v48@0:8@\"AMSUIWebViewController\"16@\"NSDictionary\"24@\"NSError\"32@?<v@?@@\"NSError\">40"
+- "Music/ContainerDetailDataSource.swift"
+- "Setting pending navigation segue: %!{(MISSING)public}@ for URL: %!{(MISSING)public}s"
+- "Label for shuffle button"
+- "Only shows your music that's downloaded"
+- "_TtC5Music32ContainerDetailPlaybackIndicator"
+- "Title for library filter option"
+- "_tabBarController:sidebar:updateItem:"
+- "resultsSparseCount"
+- "Unknown context "
+- "LibraryFilterOptionsController-madeForYou"
+- "@\"UIViewController\"32@0:8@\"AMSUIDynamicViewController\"16@\"NSDictionary\"24"
+- "Title for the Artists view in Library"
+- "linkText"
+- "hostedEnvironment"
+- "Updating library container detail page with: %!{(MISSING)public}s"
+- "Title for playlist Section in Library Sidebar"
+- "typeForURL:"
+- "Music/FavoriteButton.swift"
+- "Picker to select search source"
+- "_TtC5Music28CommerceNavigationController"
+- "PrivacyOnboarding"
+- "Available shared libraries changed (%!{(MISSING)public}ld shared libraries available). Updating tabElements…"
+- "AMSUIDynamicViewControllerDelegate"
+- "jsSearchResultItemTranslationTask"
+- "Could not produce play intent at indexPath %!{(MISSING)public}s. Error=%!{(MISSING)public}s"
+- "AMSPurchaseDelegate"
+- "videosTabController"
+- "Section title for Music Videos"
+- "Returning waveform indicator for playlist entry %!{(MISSING)public}s, in playlist %!{(MISSING)public}s"
+- "Music.WelcomeViewController"
+- "presentUpsell called"
+- "v40@0:8@\"AMSUIWebViewController\"16@\"AMSDialogRequest\"24@?<v@?@\"AMSDialogResult\"@\"NSError\">32"
+- "setCompletionWithItemsHandler:"
+- "Unable to connect to Apple Music."
+- "An error occured while loading the lyrics"
+- "Subscribe to Apple Music to add artists."
+- "To access all of your music, sync your library with your Apple Account."
+- "_TtC5Music26PrivacyDisclaimerPresenter"
+- "_tabBarController:sidebar:leadingSwipeActionsConfigurationForTab:"
+- "PlaybackIndicator"
+- "Tab Elements: Library Menu"
+- "attenuationAvailable"
+- "Season number for TV Episodes"
+- "Waveform created"
+- "Upgrade to Apple Music to save music, make and share playlists, and listen offline."
+- "Video result type"
+- "_setEditable:"
+- "purchase:handleSceneIdentifierRequest:error:"
+- ", you will no longer be able to find other Apple Music users that you are connected with using "
+- "_isPresentingQueue"
+- "append"
+- "Music Video result type"
+- "$__lazy_storage_$_seguePresentedViewState"
+- "availableSourcesChangeObserver"
+- "v40@0:8@\"AMSUIDynamicViewController\"16@\"NSDictionary\"24@\"NSError\"32"
+- "Initiating playback for item: %!{(MISSING)public}s"
+- "@64@0:8@16@24{CGRect={CGPoint=dd}{CGSize=dd}}32"
+- "[SubscriptionPurchaseViewController] Error attempting purchase: %!s(MISSING)"
+- "Currently Unsupported"
+- "historyResponse"
+- "v32@0:8@\"_UITabElementGroup\"16@\"_UITabElement\"24"
+- "Playlists.All"
+- "systemLayoutFittingSizeDidChangeForChildViewController:"
+- "Unhandled case for secondary text with item: %!{(MISSING)public}s: %!{(MISSING)public}s"
+- "_uip_setTabElement:"
+- "Invalid structure: Data was not in [String: [String: Any]] format."
+- "isPublicPlaylist"
+- "Could not unwrap pushable deep link from segue=%!{(MISSING)public}s"
+- "cancelQuery"
+- "_queue"
+- "subscription"
+- "Accessibility label for explicit content rating"
+- "Did select Hint=%!{(MISSING)public}s"
+- "v40@0:8@\"AMSUIDynamicViewController\"16@\"AMSCarrierLinkResult\"24@\"NSError\"32"
+- ": This is contractually impossible. We must always have, at least, one source."
+- "isSubscribed"
+- "initWithIdentifier:title:image:children:"
+- "/Library/Caches/com.apple.xbs/Sources/Music/Apps/MusicX/Actions/ActionCondition.swift"
+- "dynamicViewController:didResolveWithResult:error:"
+- "_TtC5Music14PlaylistEditor"
+- "_isPresentingLyrics"
+- "AX label for cloud library loading view"
+- "setRequiresAccount:"
+- "_TtCVVE5MusicO9MusicCore7Library15PlaylistSection12PlaylistCell9ViewModel"
+- "_TtCVE5MusicO9MusicCore7Library9SongsViewP33_E3F5F7086ECA7634E91FC0DB0840FB7819SongsViewController"
+- "playlistMovedToFolder"
+- "forYouTabController"
+- " associated to tabElement"
+- "emailSubject"
+- "suggestionsTopResultsLimit"
+- "forceWelcomeToAppleMusicScreen"
+- "voicePreview"
+- "showDialogForImmersiveContent"
+- "container items "
+- "ams_sharedAccountStore"
+- "Failed to fetch additional catalog search results with error=%!{(MISSING)public}s"
+- "Title for favorites library filter"
+- "webViewController:handleDialogRequest:completion:"
+- "Optional<PersistentScrollObserver>"
+- "_value"
+- "AMSUIPurchaseDelegate"
+- "_setSidebarAppearance:"
+- "_TtCC5Music31MRNowPlayingQueueViewController14CollectionView"
+- "Unhandled case for duration with item: %!{(MISSING)public}s: %!{(MISSING)public}s"
+- "searchResultController"
+- "Search Suggestions"
+- "_tabElementGroup:didSelectElement:"
+- "JavaScript external script is not deployed. Dismissing presentation."
+- "Subscribe to Apple Music to save music, make and share playlists, and listen offline."
+- "_isSearching"
+- "_TtC5MusicP33_6FB7ABC0DD91FC95256C23D50A196AC217HostedEnvironment"
+- "_autoupdatingResponseSubscription"
+- "com.apple.Music.MRNowPlayingQueueViewController"
+- "v40@0:8@\"AMSUIDynamicViewController\"16@\"AMSPurchaseResult\"24@\"NSError\"32"
+- "metricsReporter="
+- "tracklistCoordinateSpace"
+- "AX hint for playable item"
+- "Invalid URL type"
+- "segue"
+- "Home Sharing Connect Error=%!{(MISSING)public}s"
+- "Couldn't figure out play state for item %!{(MISSING)public}s in container %!{(MISSING)public}s"
+- "catalogSearchSuggestionsAutoupdatingResponse"
+- "Missing topmostVC for segue: %!@(MISSING)"
+- "Music.CommerceNavigationController"
+- "_relatedContentVerticalStack"
+- "Artists, Songs, Lyrics, and More"
+- "Unhandled case for %!{(MISSING)public}s: %!{(MISSING)public}@"
+- "_tabBarController:sidebar:didEndDisplayingTab:"
+- "v40@0:8@\"AMSUIWebViewController\"16@\"AMSAuthenticateRequest\"24@?<v@?@\"AMSAuthenticateResult\"@\"NSError\">32"
+- "folderMove"
+- " to see it here."
+- "catalogSearchResponse"
+- "Button title for starting artist station"
+- "webViewController:didEncodeNetworkRequest:"
+- "MusicJSCore.JSSearchLandingComponentController"
+- "(ContentView in _6A38380379AC5AC2C4DDA795C25DB6BB)"
+- "upNext"
+- "Updating editable library menu with ordered identifiers=%!{(MISSING)public}s, updated visibility for tabs=%!{(MISSING)public}s"
+- "dismissCallback"
+- "dci_multi_select"
+- "Turn On Apple Music"
+- "Unhandled music:// URL: %!{(MISSING)public}s"
+- "_tabBarController:sidebar:trailingSwipeActionsConfigurationForTab:"
+- "Loading container detail page for: %!{(MISSING)public}s"
+- "Applying edits to %!{(MISSING)public}s with ordered identifiers=%!{(MISSING)public}s"
+- "Missing path observer for JSPushSegue"
+- "privacyLinkViewModel"
+- "noticePresenter"
+- "Empty message for a local artist in the library"
+- "_tabElementGroup:didCustomizeDisplayOrder:"
+- "v40@0:8@\"AMSPurchase\"16@\"AMSUISceneBundleIdentifierRequest\"24@?<v@?@\"NSString\"@\"NSError\">32"
+- "searchContext"
+- "TabElements.Editing"
+- "Attempted to initiate playback on an unsupported container type: %!{(MISSING)public}s"
+- "Music/LibrarySongsView.swift"
+- "Music.SubscriptionPurchaseViewController"
+- "Title when movie name is unknown"
+- "dynamicViewController:handleDelegateAction:completionHandler:"
+- "Music.Coordinator"
+- "welcomeViewModel"
+- "Playlists have (re)loaded —\u00a0Updating tabElements…"
+- "suggestionsTermsLimit"
+- "radioTabController"
+- "Music.LibraryTabDataSource"
+- "purchase:handleAuthenticateRequest:completion:"
+- "_TtCV5Music6Search13SourceManager"
+- "@\"UIWindow\"40@0:8@\"AMSPurchase\"16@\"AMSUIWindowRequest\"24^@32"
+- "Music.WaveformContainerView"
+- "Button to view immersive content"
+- "Unhandled case for favorite status with item: %!{(MISSING)public}s, %!{(MISSING)public}s"
+- "_TtC11MusicJSCore33JSSearchResultComponentController"
+- "_controlState"
+- "_searchElement"
+- "Unhandled case for %!{(MISSING)public}s: %!{(MISSING)private}s"
+- "Performing pending segue %!{(MISSING)public}@ in tab: %!{(MISSING)public}s)"
+- "You’ll be able to control what’s playing in Apple Music from your device."
+- "_jsResultsUpdateCount"
+- "_libraryContainerItemRemoved"
+- "Malformed JSPosterItem. badge =%!{(MISSING)public}@ and isPlayButtonEnabled=%!{(MISSING)bool,public}d. Ignoring isPlayButtonEnabled."
+- "dynamicViewController:didFinishPurchaseWithResult:error:"
+- "motionArtistFullscreen16x9"
+- "Album result type"
+- "v32@0:8@\"_UITabElementGroup\"16@\"NSArray\"24"
+- "Subscribe to Apple Music to save music."
+- "_TtCCC5Music16TabBarController20LibraryTabDataSourceP33_61F3902418D201A6CCACC7808D69420322CloudLibraryStatusView"
+- "Artists added from Apple Music will appear here."
+- "_TtC5Music20NowPlayingController"
+- "Unknown favoriteStatus="
+- "searchLandingController"
+- "Optional<ModuleViewContext>"
+- "presentAlert called, with unknown playabilityStatus=%!s(MISSING)"
+- "immersiveURL"
+- "MusicJSCore.JSSearchResultComponentController"
+- "com.apple.Music.Library"
+- "Received `didCustomizeDisplayOrder` for unsupported group=%!{(MISSING)public}s"
+- "Performing Segue from privacy onboarding presentation status change."
+- "librarySearchAutoupdatingResponse"
+- "Failed to retrieve environment manager on mainScene=%!{(MISSING)public}s, delegate=%!{(MISSING)public}s"
+- ", or start a station to hear similar music."
+- "_headerViewModel"
+- "v32@0:8@\"UITabBarController\"16@\"_UITabBarControllerSidebar\"24"
+- "v40@0:8@\"UITabBarController\"16@\"_UITabBarControllerSidebar\"24@\"_UITab\"32"
+- "notificationObserver"
+- "com.apple.onboarding.applemusicfriends"
+- "Queue section header title"
+- "destination"
+- "_selectedItem"
+- "Persisting MusicKit item=%!{(MISSING)public}s"
+- "performPurchase"
+- "persistedSelectionLibrary.MenuItem"
+- "_editorialVideoArtworks"
+- "mpModelSong"
+- "Music Videos added from Apple Music will appear here."
+- "epicStageVideo16x9"
+- "initiateOpenURL(_:sourceApplicationBundleIdentifier:referrerURL:)"
+- "Segue not provided by scripting environment, dismissing privacy presentation."
+- "Unhandled case for %!{(MISSING)public}s"
+- "dynamicViewControllerShouldDismiss:"
+- "_classicalHeaders"
+- "Subtitle for Library View"
+- "_userSelectedLibraryItems"
+- "Waveform destroyed"
+- "Program schedule"
+- "PlaybackController"
+- "Couldn’t find “%!@(MISSING)“ in %!@(MISSING)"
+- "@\"UIView<AMSUIDynamicContentViewProtocol>\"64@0:8@\"AMSUIDynamicViewController\"16@\"NSDictionary\"24{CGRect={CGPoint=dd}{CGSize=dd}}32"
+- "Apple Music catalog search source"
+- "_setDelegate:"
+- "Unable to load container item of kind: "
+- "$__lazy_storage_$_accountSheetViewState"
+- "Show this message every time"
+- "_data"
+- "cellRegistration"
+- "playlist_folders"
+- "Allow Apple Music"
+- "bannerRegistration"
+- "tertiary"
+- "Unhandled segue: %!{(MISSING)public}s"
+- "Movies added from Apple Music will appear here."
+- "musicKitSong"
+- "@\"NSString\"40@0:8@\"AMSPurchase\"16@\"AMSUISceneIdentifierRequest\"24^@32"
+- "Unknown playlist item "
+- "_TtC5Music18SceneElementSizing"
+- "showsharing"
+- "setUserInitiated:"
+- "Requesting library container item: %!{(MISSING)public}s"
+- "folder.badge.minus"
+- "lastSelectedSearchSource"
+- "Error Message for unsupported library section"
+- "setMediaClientIdentifier:"
+- "_recordLabelLinkIdentifierMap"
+- "_TtC5MusicP33_8995DE762EDB3B0CA6E03DE2F9BEA1B637PrivacyOnboardingNavigationController"
+- "sendAction:to:from:forEvent:"
+- "Did update library tab elements"
+- "initWithPurchase:bag:"
+- "_tabBarController:sidebar:configureItem:"
+- "v40@0:8@\"AMSUIWebViewController\"16@\"AMSPurchaseResult\"24@\"NSError\"32"
+- "environmentManager"
+- "Container Detail"
+- "v40@0:8@\"AMSPurchase\"16@\"AMSEngagementRequest\"24@?<v@?@\"AMSEngagementResult\"@\"NSError\">32"
+- "_tracks"
+- "_persistedSelectionItem"
+- "line.horizontal.3.decrease"
+- "Unknown unsupportedReason=%!{(MISSING)public}s"
+- "Poster.Layout.standard default fallback with isChinEnabled=%!{(MISSING)public}s and %!{(MISSING)public}s"
+- "Music/NowPlayingController.swift"
+- "_setDefaultChildIdentifier:"
+- "Unhandled music:// URL: %!{(MISSING)public}s | Fallback to JS handling"
+- "_content"
+- "newStateController"
+- "_containerItem"
+- "_canCompleteAlbum"
+- "Empty Library Subtitle"
+- "v24@?0@\"AMSPurchaseResult\"8@\"NSError\"16"
+- "Music/MRNowPlayingQueueHeaderView.swift"
+- "selectedResultGroupUniqueItems"
+- "B24@0:8@\"AMSUIDynamicViewController\"16"
+- "catalogSearchSuggestionsAutoupdatingSubscription"
+- "@40@0:8@16@24^@32"
+- "setClientOptions:"
+- "You can only collaborate on playlists with songs from the Apple Music catalog. A duplicate of the full playlist will be added to your library."
+- "video.dolby.vision"
+- "trailingButtonTitle"
+- "Lyrics Byline, e.g. 'Written By: Paul McCartney, and John Lennon'"
+- "Music you favorite will appear here."
+- "linkWithBundleIdentifier:"
+- "preferredDisplayMode"
+- "initWithIdentifier:title:image:handler:"
+- "Unexpected sourced song combination."
+- "Selected Home Sharing Library became unavailable"
+- "sourceManager"
+- "didUpdateSearchResultSections"
+- "Browse Apple Music"
+- "_libraryMenu"
+- "boundsSize"
+- "TV Shows added from Apple Music will appear here."
+- "$__lazy_storage_$_relatedContentCellRegistration"
+- "tabElementStacks"
+- "mliInProgressObserver"
+- "presentEngagement"
+- "v40@0:8@\"UITabBarController\"16@\"_UITabBarControllerSidebar\"24@\"_UITabSidebarItem\"32"
+- "libraryMenuDataSource"
+- "Accessibility label for cover artwork image for a song"
+- "Failed to get song for indexPath "
+- "isChinEnabled=%!{(MISSING)bool,public}d. Not supported on Billboards."
+- "Segue not performed for unexpected performance context: %!{(MISSING)public}s"
+- "Episode number for TV Episodes."
+- "Failed to retrieve image for song=%!{(MISSING)public}s with error=%!{(MISSING)public}s"
+- "v40@0:8@\"AMSPurchase\"16@\"AMSAuthenticateRequest\"24@?<v@?@\"AMSAuthenticateResult\"@\"NSError\">32"
+- "Did select source=%!{(MISSING)public}s"
+- "com.apple.Music.Catalog"
+- "resultsComponentController"
+- "[Legacy] Attempted to perform unsupported action for control state: %!{(MISSING)public}s; %!{(MISSING)public}s"
+- "Requires purchase or full catalog playback or SharePlay Together"
+- "Segue URL is a precondition for "
+- "initWithIdentifier:title:image:"
+- "tabIdentifier"
+- "Unhandled case for content rating with item: %!{(MISSING)public}s, %!{(MISSING)public}s"
+- "PromotionalLayoutStyle"
+- "isCuratorPlaylist"
+- "badgingItems"
+- "_setAllowsReordering:"
+- "Failed to compute available facets in the library. Defaulting all tabs to be visible. Error=%!{(MISSING)public}s"
+- "View Immersive in Apple TV"
+- "dynamicViewController:contentViewControllerWithDictionary:"
+- "setAccount:"
+- "trailingButtonAction"
+- "Tab switched to %!{(MISSING)public}s for navigation item %!{(MISSING)public}s"
+- "v32@0:8@\"AMSUIWebViewController\"16@\"NSMutableURLRequest\"24"
+- "dynamicViewController:contentViewWithDictionary:frame:"
+- "Music.CloudLibraryStatusView"
+- "Library Syncing is Off"
+- "v36@?0@\"NSString\"8B16@\"NSArray\"20@\"NSError\"28"
+- "LibraryFilterOptionsController-playlists"
+- "canLoadTabRootViewControllers"
+- "webViewController:didResolveWithResult:error:completion:"
+- "No tab dataSource set to resolve the tabElement "
+- "From Your Library "
+- "Music/CommerceView.swift"
+- "Welcome to Apple Music"
+- "_uip_setPreferredSidebarMode:"
+- "Label for play button"
+- "purchase:handleSceneIdentifierRequest:completion:"
+- "DisplayMode is voiceOver, dismissing privacy presentation."
+- "Downloaded Music will appear here. To see everything in your library, select All Music in the sidebar"
+- "Apple Music catalog search bar placeholder"
+- "AX label for account button"
+- "ResultItemView: Cell Configuration: Unhandled item "
+- "_TtC5Music33ShareLinkPresentationItemProvider"
+- "Music/TabNavigationController.swift"
+- "_horizontalInsets"
+- "Music/LibraryTabDataSource.swift"
+- "contentOffsetHistory"
+- "mliEnabledDidChangeObserver"
+- "_TtC5Music14SeguePerformer"
+- "Unhandled case for tertiary text with item: %!{(MISSING)public}s: %!{(MISSING)public}s"
+- "Message for Cloud Library Alert"
+- "setCuratorHandle:"
+- "generic"
+- "_tab"
+- "displayedPage"
+- "video.dolby.atmos"
+- "View Trailer in Music"
+- "shownowplaying"
+- "setPublicPlaylist:"
+- "Created new `TabNavigationController` for tabIdentifier=%!{(MISSING)public}s"
+- "PlayabilityStatus"
+- "Play millions of songs and thousands of playlists ad-free on all your devices. Download music to listen offline. Experience sound all around you with Spatial Audio."
+- "Received Spotlight Searchable Item User Activity: %!{(MISSING)public}@"
+- "_TtC5Music31MRNowPlayingQueueViewController"
+- "prominentTrackID"
+- "Attempting to present an alert with a nil alertViewState"
+- "AX label for radio schedule button"
+- "_TtCVC5Music17SharingControllerP33_C956E7DB052EEC9D418EE24A38C1E82F14SharingArtwork16CachingReference"
+- "MusicJSCore.JSTabComponentController"
+- "purchase:handleWindowRequest:completion:"
+- "setAllowsMultipleSelection:"
+- "nil context for SegueButton"
+- "Playlists.New"
+- "clearText"
+- "dialogue.appletv"
+- "_TtC5Music14MenuDataSource"
+- "Playback not initiated for playability status: %!{(MISSING)public}s"
+- "Skipped rendering link for unhandled item: %!{(MISSING)public}s"
+- "$__lazy_storage_$_cloudLibraryStatusView"
+- "dynamicViewController:didFinishCarrierLinkingWithResult:error:"
+- "🖱️🕕 Click Event %!{(MISSING)public}s reported for %!{(MISSING)public}s"
+- "activityViewController:subjectForActivityType:"
+- "isInGlidePreview"
+- "Try again using a different spelling or keyword."
+- "Are you sure you want to clear your playback history on this device?"
+- "AMSUIWebDelegate"
+- "JSSegueCoordinator seguePerformingDelegate is nil, dismissing privacy presentation."
+- "_catalogSearchSuggestionsResponse"
+- "_setChildren:"
+- "LibraryFilterOptionsController-albums"
+- "Placeholder title for an item, e.g. Song, Movie, etc."
+- "    Source:\n        - fallbackDefaultSource=%!s(MISSING)\n        - userDefaultSource=%!s(MISSING)\n        - preferredDefaultSource=%!s(MISSING)\n        - availableSources=%!s(MISSING)"
+- "artworkViewModel"
+- "Button title to turn on Cloud Library"
+- "purchase:handleSceneBundleIdentifierRequest:completion:"
+- "activeStackElement"
+- "catalogSearchAutoupdatingSubscription"
+- "_containerItems"
+- "🔨 Building playlists using request=%!{(MISSING)public}s…"
+- "Category result type"
+- "Selecting newly created playlist tabElement=%!{(MISSING)public}s"
+- "_uip_tabForIdentifier:"
+- "legacyPlaylistCreationFlows"
+- "com.apple.Music.SharingController"
+- "publishPlaylistWithSagaID:completionHandler:"
+- "containerLibraryData"
+- "v36@0:8@\"UITabBarController\"16@\"_UITabBarControllerSidebar\"24B32"
+- "Nested Playlists Builder"
+- "Recently Searched"
+- "downloadedOnly"
+- "Failed to persist MusicKit item with error=%!{(MISSING)public}s"
+- "v32@?0@\"NSString\"8@\"NSString\"16@\"NSError\"24"
+- "_librarySearchResponse"
+- "isSpringLoaded"
+- "MPModelObject=%!{(MISSING)public}@ -> GenericMusicItem= %!{(MISSING)public}s"
+- "Missing associated context to the tabElement"
+- "A group or container of the top results based on what is suggested"
+- "lastSelectedTabElementIdentifier"
+- "curatorSubKind"
+- "Missing path observer for JSDeepLinkSegue"
+- "_genres"
+- "_editMode"
+- "Favorite button action failed, error=%!{(MISSING)public}s"
+- "_TtC11MusicJSCore34JSSearchLandingComponentController"
+- "Music.JSPrivacyLinkViewController"
+- "_uip_tabElement"
+- "🖱️🕕 No metrics associated to %!{(MISSING)public}s — Skipping click event."
+- "_editorialNotes"
+- "Message to invite the user to try again using different parameters"
+- "Engagement Task Failed In Music"
+- "_TtC11MusicJSCore24JSTabComponentController"
+- "com.apple.Music.tabElement."
+- "_allowsHiding"
+- "pendingNavigationItem"
+- "folderRename"
+- "setLogUUID:"
+- "containerItemAutoupdatingResponseSubscription"
+- "refreshMusicSubscriptionStatus"
+- "v40@0:8@\"AMSPurchase\"16@\"AMSDialogRequest\"24@?<v@?@\"AMSDialogResult\"@\"NSError\">32"
+- "tabElement"
+- "titleStackView"
+- "_recentlySearchedEntries"
+- "chevron.right.circle.fill"
+- "Music/NavigationPusher.swift"
+- "leadingImageView"
+- "_tabBarController:sidebar:contextMenuConfigurationForTab:"
+- "itemSharePlaySubscription"
+- "_searchTerm"
+- "showLocal"
+- "Only Apple Music Songs Will Be Included"
+- "backgroundLayer"
+- "Music/Source.swift"
+- "relatedContent"
+- "_copyright"
+- "Moving %!s(MISSING) identifier=%!{(MISSING)public}s to index=%!{(MISSING)public}ld"
+- "localizedStringByJoiningStrings:"
+- "Handling JS segue URL: %!{(MISSING)public}s"
+- "librarySearchAutoupdatingSubscription"
+- "ams_activeiTunesAccount"
+- "_parent"
+- "Missing path observer for JSImplicitDefaultSegue"
+- "menuUpdateSubscription"
+- "Placeholder title in Now Playing"
+- "_TtCC5Music31MRNowPlayingQueueViewControllerP33_8E32695F97AEF024FCAC1FE4F403941110DataSource"
+- "Title for Cloud Library Alert"
+- "No UITabBarController found"
+- "Optional<ModuleLayout>"
+- "setForceAVSystemController:"
+- "Optional<TabIdentifier>"
+- "Autoplay Queue subtitle"
+- "Movie result type"
+- "_tabBarController:sidebarVisibilityDidChange:"
+- "TV Episode result type"
+- "history"
+- "Music/SubscriptionPurchaseView.swift"
+- "_setAllowsHiding:"
+- "Unrecognized error parsing JSVideoArtwork.Dictionary: %!{(MISSING)public}s"
+- "Enjoy your 7-day free preview."
+- "Music.TabNavigationController"
+- "Unhandled case for primary text with item: %!{(MISSING)public}s: %!{(MISSING)public}s"
+- "_tabbarController:sidebar:editingStateDidChange:"
+- "Requires model not in Home Sharing Library"
+- "swipeActions"
+- "_TtC5Music24PersistentScrollObserver"
+- "@\"UISwipeActionsConfiguration\"40@0:8@\"UITabBarController\"16@\"_UITabBarControllerSidebar\"24@\"_UITab\"32"
+- "Attempted to select element=%!{(MISSING)public}s that isn't a descendant of library tab element"
+- "You Need To Enable Bilby."
+- "Clear Recent Searches"
+- "privacyLinkViewController"
+- "Unhandled case for %!{(MISSING)public}s: %!{(MISSING)public}s"
+- "selectAll"
+- "_autoupdatingResponse"
+- "Library search bar Placeholder"
+- "Failed to compute facets in the library."
+- "play.circle.fill"
+- "[CommerceNavigationController] Did complete subscription purchase."
+- "initWithRequest:presentingViewController:"
+- "Header title description for sheet"
+- "UIA.MusicApp.Shelf."
+- "_displayedLibraryItems"
+- "_TtCC5Music16TabBarController20LibraryTabDataSource"
+- "recentlySearchedViewModel"
+- "Missing presentedViewState for segue: %!{(MISSING)public}@"
+- "folderNew"
+- "Section title for albums"
+- "Failed to retrieve page provider on mainScene=%!{(MISSING)public}s"
+- "_tabBarController:sidebar:visibilityDidChangeForTabs:"
+- " context "
+- "Upgrade to \uf8ff\u202fMusic"
+- "_uip_sidebar"
+- "catalogSearchAutoupdatingResponse"
+- "v40@0:8@\"UITabBarController\"16@\"_UITabBarControllerSidebar\"24@\"NSSet\"32"
+- "_TtC5Music16NavigationPusher"
+- "_video"
+- "rootTab"
+- "Library menu has (re)loaded —\u00a0Updating tabElements…"
+- "The current device profile does not allow you to use Apple Music."
+- "v16@?0@\"_UITabAction\"8"
+- "v24@?0@\"AMSDialogResult\"8@\"NSError\"16"
+- "presentAlert called, with alert=%!s(MISSING)"
+- "$__lazy_storage_$_alertViewState"
+- "Button Title to clear History"
+- "Section title for Music Movies"
+- "Failed to select tabElement=%!{(MISSING)public}s with error=%!{(MISSING)public}s"
+- "acknowledgePrivacyPolicyForIdentifier:completionHandler:"
+- "Downloaded Music"
+- "_tabBarPlacement"
+- "sourceAvailabilityBinding"
+- "Accept privacy terms button was tapped."
+- "Button to view trailer in Music"
+- "Optional<String>"
+- "purchase:handleWindowRequest:error:"
+- "Subscribe to Apple Music to save tv shows."
+- "Suggested Top Results"
+- "Button title to dismiss Cloud Library Alert"
+- "Curator result type"
+- "Only Show Downloaded Music"
+- "v24@?0@\"AMSEngagementResult\"8@\"NSError\"16"
+- "recentlySearchedEntriesObserver"
+- "Station result type"
+- "setMetricsOverlay:"
+- "trailingButtonAction:"
+- "Returning waveform indicator for track entry %!{(MISSING)public}s, in album %!{(MISSING)public}s"
+- "Updating mapped container detail page with: %!{(MISSING)public}s"
+- "mend"
+- "_setTabBarPlacement:"
+- "To use Apple Music Voice, say “Hey Siri” and ask to play a song, album, or genre on any device, and Siri will play an endless stream of music."
+- "tabDataSource"
+- "catalogSearchSuggestionsResponsesHistory"
+- "@\"UIContextMenuConfiguration\"40@0:8@\"UITabBarController\"16@\"_UITabBarControllerSidebar\"24@\"_UITab\"32"
+- "tab"
+- "Music/WelcomeViewController.swift"
+- "_setVisible:"
+- "Empty message for a store artist in the library"
+- "UIA.MusicApp.Brick."
+- "originalLineIndex"
+- "Radio Show result type"
+- "_isPublic"
+- "Missing openURL for JSRedirectSegue"
+- "purchase:handleEngagementRequest:completion:"
+- "_availableSources"
+- "No scene window was found"
+- "No grid metrics found for display=%!{(MISSING)public}s, size=%!{(MISSING)public}s"
+- "Library control action failed: "
+- "Did clear recently search items"
+- "Music/ContainerDetailPlaybackIndicator.swift"
+- "Scan the QR Code to join automatically. No Apple Music subscription required."
+- "_TtC5Music25EnvironmentObjectsManager"
+- "Loading container item from component controller."
+- "Artist result type"
+- "Shows all of your music"
+- "_selectedResultGroup"
+- "Subscribe to Apple Music to save movies."
+- "secondaryPageContext"
+- "Optional<JSComponentController>"
+- "To enjoy immersive content you must view it in the Apple TV app."
+- "_TtCVE5MusicO9MusicCore7Library15PlaylistSectionP33_EFB6AC87FA0200846E396AA65E2983889ViewModel"
+- "rootTabElement"
+- "Song result type"
+- "LibraryFilterOptionsController-compilations"
+- "Purchase Task Failed In Music"
+- "Recently searched section title"
+- "_TtC5Music21WelcomeViewController"
+- "_TtC5Music23TabNavigationController"
+- "com.apple.Music.Videos"
+- "Composer result type"
+- "_children"
+- "_topPadding"
+- "PlaylistCreation"
+- "Checkbox to show message every time"
+
+```
