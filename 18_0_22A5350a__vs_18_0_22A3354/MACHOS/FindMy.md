@@ -1,0 +1,16 @@
+## FindMy
+
+> `/private/var/staged_system_apps/FindMy.app/FindMy`
+
+```diff
+
+   __TEXT.__eh_frame: 0x6a04
+   __DATA_CONST.__auth_got: 0x41f0
+   __DATA_CONST.__got: 0x2268
+-  __DATA_CONST.__auth_ptr: 0x4630
++  __DATA_CONST.__auth_ptr: 0x4b10
+   __DATA_CONST.__const: 0x26140
+   __DATA_CONST.__cfstring: 0x400
+   __DATA_CONST.__objc_classlist: 0xb10
+
+```

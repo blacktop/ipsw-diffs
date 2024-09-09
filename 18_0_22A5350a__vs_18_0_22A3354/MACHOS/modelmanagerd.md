@@ -1,0 +1,16 @@
+## modelmanagerd
+
+> `/usr/libexec/modelmanagerd`
+
+```diff
+
+   __TEXT.__eh_frame: 0xf01c
+   __DATA_CONST.__auth_got: 0x1648
+   __DATA_CONST.__got: 0xbc8
+-  __DATA_CONST.__auth_ptr: 0x8f0
++  __DATA_CONST.__auth_ptr: 0x918
+   __DATA_CONST.__const: 0x2810
+   __DATA_CONST.__objc_classlist: 0xf8
+   __DATA_CONST.__objc_protolist: 0x40
+
+```

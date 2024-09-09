@@ -1,0 +1,155 @@
+## MobilePhone
+
+> `/Applications/MobilePhone.app/MobilePhone`
+
+```diff
+
+ 2913.100.1.2.3
+-  __TEXT.__text: 0x19de1c
+-  __TEXT.__auth_stubs: 0x3a20
++  __TEXT.__text: 0x19ed80
++  __TEXT.__auth_stubs: 0x3b40
+   __TEXT.__objc_stubs: 0x1c820
+   __TEXT.__objc_methlist: 0xec1c
+-  __TEXT.__const: 0x53e4
++  __TEXT.__const: 0x5474
+   __TEXT.__objc_methname: 0x2de17
+   __TEXT.__cstring: 0xb635
+   __TEXT.__oslogstring: 0xa348
+
+   __TEXT.__gcc_except_tab: 0xb44
+   __TEXT.__dlopen_cstrs: 0xc2
+   __TEXT.__ustring: 0x14
+-  __TEXT.__swift5_typeref: 0x3b32
++  __TEXT.__swift5_typeref: 0x3b9e
+   __TEXT.__swift5_capture: 0x16e0
+-  __TEXT.__constg_swiftt: 0x2d98
++  __TEXT.__constg_swiftt: 0x2db4
+   __TEXT.__swift5_builtin: 0x1f4
+   __TEXT.__swift5_reflstr: 0x2546
+-  __TEXT.__swift5_fieldmd: 0x1f84
++  __TEXT.__swift5_fieldmd: 0x1f94
+   __TEXT.__swift5_assocty: 0x590
+-  __TEXT.__swift5_proto: 0x2a8
+-  __TEXT.__swift5_types: 0x250
++  __TEXT.__swift5_proto: 0x2ac
++  __TEXT.__swift5_types: 0x254
+   __TEXT.__swift5_protos: 0x18
+   __TEXT.__swift5_mpenum: 0x30
+-  __TEXT.__unwind_info: 0x6c48
++  __TEXT.__unwind_info: 0x6c80
+   __TEXT.__eh_frame: 0x5c04
+-  __DATA_CONST.__auth_got: 0x1d20
+-  __DATA_CONST.__got: 0x16d8
+-  __DATA_CONST.__auth_ptr: 0xe90
+-  __DATA_CONST.__const: 0x7b38
++  __DATA_CONST.__auth_got: 0x1db0
++  __DATA_CONST.__got: 0x16e8
++  __DATA_CONST.__auth_ptr: 0xee8
++  __DATA_CONST.__const: 0x7b58
+   __DATA_CONST.__cfstring: 0x5e00
+   __DATA_CONST.__objc_classlist: 0x6f8
+   __DATA_CONST.__objc_catlist: 0xe0
+
+   __DATA.__objc_selrefs: 0x9260
+   __DATA.__objc_ivar: 0xde0
+   __DATA.__objc_data: 0x7398
+-  __DATA.__data: 0x6a78
+-  __DATA.__bss: 0x5740
+-  __DATA.__common: 0x750
++  __DATA.__data: 0x6aa8
++  __DATA.__bss: 0x57d0
++  __DATA.__common: 0x760
+   - /System/Library/Frameworks/AVFAudio.framework/AVFAudio
+   - /System/Library/Frameworks/AVFoundation.framework/AVFoundation
+   - /System/Library/Frameworks/AppIntents.framework/AppIntents
+
+   - /usr/lib/swift/libswiftsimd.dylib
+   - /usr/lib/swift/libswiftsys_time.dylib
+   - /usr/lib/swift/libswiftunistd.dylib
+-  Functions: 10062
+-  Symbols:   69997
++  Functions: 10086
++  Symbols:   70187
+   CStrings:  9950
+ 
+Symbols:
++ _$s11MobilePhone27PFTAssistantIntentsProviderV03AppD0010_AssistantdE0AadEP15negativePhrasesSayAD01_G6IntentV08NegativegjI0VGvgZTW
++ _$s10AppIntents16_AssistantIntentVMn
++ _$s11MobilePhone27PFTAssistantIntentsProviderVACycfC
++ _symbolic _____ 11MobilePhone27PFTAssistantIntentsProviderV
++ _$ss23_ContiguousArrayStorageCySay10AppIntents16_AssistantIntentV6PhraseVy_11MobilePhone04OpenijD9DeepLinksVGGGMD
++ _$s10AppIntents16_AssistantIntentV6PhraseV19StringInterpolationVMn
++ _$s11MobilePhone27PFTAssistantIntentsProviderV03AppD0010_AssistantdE0AadEP7intentsSayAD01_G6IntentVGvgZTW
++ _$ss23_ContiguousArrayStorageCy10AppIntents16_AssistantIntentVGMD
++ /Library/Caches/com.apple.xbs/Binaries/MobilePhone/install/TempContent/Objects/MobilePhone.build/MobilePhone.build/Objects-normal/arm64e/MPAssistantIntentsProvider.o
++ _$s10AppIntents16_AssistantIntentV6PhraseV19StringInterpolationV06appendG0yyAC0E5TokenOF
++ _$s10AppIntents16_AssistantIntentV0D10ProjectionC13dynamicMembers14PartialKeyPathCyxGs0iJ0Cyxqd__G_tcAA01_D5ValueRd__luig
++ _$s11MobilePhone27PFTAssistantIntentsProviderV7intents_WZ
++ _$s10AppIntents16_AssistantIntentV18StringValueBuilderO15buildExpressionySaySSGSSFZ
++ _$s11MobilePhone27PFTAssistantIntentsProviderV7intentsSay03AppD016_AssistantIntentVGvpZ
++ _$s11MobilePhone27PFTAssistantIntentsProviderVMf
++ _$ss23_ContiguousArrayStorageCySaySSGGMD
++ _$s10AppIntents16_AssistantIntentV21ParameterValueBuilderO10buildBlockySayAC0F0VGAId_tFZ
++ _$s11MobilePhone27PFTAssistantIntentsProviderV15negativePhrases_WZ
++ _$s10AppIntents16_AssistantIntentV6PhraseV19StringInterpolationV06appendG0yys14PartialKeyPathCyxGF
++ _$s10AppIntents16_AssistantIntentVMa
++ _$s10AppIntents16_AssistantIntentV6PhraseVy_11MobilePhone04OpenfgA9DeepLinksVGMD
++ _$s11MobilePhone04OpenaB12AppDeepLinksV6targetAA0abdeF0OvpACTk
++ _$s11MobilePhone27PFTAssistantIntentsProviderV7intentsSay03AppD016_AssistantIntentVGvgZTm
++ _$s10AppIntents16_AssistantIntentV6PhraseV19stringInterpolationAEy_xGAE06StringG0Vy_x_G_tcfC
++ _$s11MobilePhone27PFTAssistantIntentsProviderV03AppD0010_AssistantdE0AadEP14uniqueEntitiesSayAD01_G19UniqueEntityExampleVGvgZTW
++ _$s10AppIntents16_AssistantIntentV13PhraseBuilderO15buildExpressionySayAC0E0Vy_xGGAIFZ
++ $s11MobilePhone27PFTAssistantIntentsProviderV15negativePhrasesSay03AppD016_AssistantIntentV08NegativeijG0VGvMZ.resume.0
++ _$s10AppIntents16_AssistantIntentV11PhraseTokenO15applicationNameyA2EmFWC
++ _$s11MobilePhone27PFTAssistantIntentsProviderV7intentsSay03AppD016_AssistantIntentVGvpZfiSayAG5ValueVGAG0I10ProjectionCy_AA04OpenabG9DeepLinksVGXEfU0_
++ _$s11MobilePhone27PFTAssistantIntentsProviderV7intentsSay03AppD016_AssistantIntentVGvsZTm
++ _$s10AppIntents16_AssistantIntentV6PhraseV19StringInterpolationV15literalCapacity18interpolationCountAGy_x_GSi_SitcfC
++ _$s11MobilePhone27PFTAssistantIntentsProviderV15negativePhrasesSay03AppD016_AssistantIntentV08NegativeijG0VGvgZ
++ _$s10AppIntents16_AssistantIntentV21ParameterValueBuilderO15buildExpressionySayAC0F0VGAHFZ
++ _$s11MobilePhone04OpenaB12AppDeepLinksV6targetAA0abdeF0OvpACTK
++ _$s11MobilePhone27PFTAssistantIntentsProviderV7intentsSay03AppD016_AssistantIntentVGvau
++ _$s11MobilePhone27PFTAssistantIntentsProviderV7intentsSay03AppD016_AssistantIntentVGvgZ
++ _$s10AppIntents010_AssistantB8ProviderP15negativePhrasesSayAA01_C6IntentV08NegativecgF0VGvgZTq
++ _$s10AppIntents010_AssistantB8ProviderP14uniqueEntitiesSayAA01_C19UniqueEntityExampleVGvgZTq
++ _symbolic _____ySay_____GG s23_ContiguousArrayStorageC 10AppIntents16_AssistantIntentV5ValueV
++ _$s10AppIntents16_AssistantIntentV6PhraseVMn
++ _$s10AppIntents16_AssistantIntentV6PhraseV19StringInterpolationVy_11MobilePhone04OpenhiA9DeepLinksV_GMD
++ _$s10AppIntents16_AssistantIntentV11PhraseTokenOMa
++ _$s10AppIntents16_AssistantIntentV5ValueVMn
++ _$s11MobilePhone27PFTAssistantIntentsProviderV7intentsSay03AppD016_AssistantIntentVGvpZfiSayAG6PhraseVy_AA04OpenabG9DeepLinksVGGAG0I10ProjectionCy_ALGXEfU_
++ _$ss23_ContiguousArrayStorageCySay10AppIntents16_AssistantIntentV5ValueVGGMD
++ _$s11MobilePhone27PFTAssistantIntentsProviderV15negativePhrasesSay03AppD016_AssistantIntentV08NegativeijG0VGvpZ
++ $s11MobilePhone27PFTAssistantIntentsProviderV7intentsSay03AppD016_AssistantIntentVGvMZ.resume.0
++ _$s11MobilePhone27PFTAssistantIntentsProviderV03AppD0010_AssistantdE0AAMc
++ _$s10AppIntents16_AssistantIntentV13PhraseBuilderO10buildBlockySayAC0E0Vy_xGGAJd_tFZ
++ _$s11MobilePhone27PFTAssistantIntentsProviderV15negativePhrases_Wz
++ _$s11MobilePhone27PFTAssistantIntentsProviderV15negativePhrasesSay03AppD016_AssistantIntentV08NegativeijG0VGvMZ
++ _$s11MobilePhone27PFTAssistantIntentsProviderV7intentsSay03AppD016_AssistantIntentVGvsZ
++ _$s11MobilePhone27PFTAssistantIntentsProviderV7intents_Wz
++ _symbolic _____y______G 10AppIntents16_AssistantIntentV6PhraseV 11MobilePhone04OpenfgA9DeepLinksV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 10AppIntents16_AssistantIntentV
++ _$s11MobilePhone27PFTAssistantIntentsProviderVN
++ _$s10AppIntents010_AssistantB8ProviderMp
++ _$s10AppIntents16_AssistantIntentV6PhraseV19StringInterpolationV13appendLiteralyySSF
++ _$s10AppIntents16_AssistantIntentV5ValueV3for7builderAEs14PartialKeyPathCyxG_SaySSGyXEtcAA0aD0RzlufC
++ _$s10AppIntents010_AssistantB8ProviderP7intentsSayAA01_C6IntentVGvgZTq
++ _symbolic _____ySaySSGG s23_ContiguousArrayStorageC
++ _$s11MobilePhone27PFTAssistantIntentsProviderVMn
++ _$s11MobilePhone27PFTAssistantIntentsProviderV03AppD0010_AssistantdE0AAMcMK
++ _$s11MobilePhone27PFTAssistantIntentsProviderV15negativePhrasesSay03AppD016_AssistantIntentV08NegativeijG0VGvau
++ _$s11MobilePhone27PFTAssistantIntentsProviderV15negativePhrasesSay03AppD016_AssistantIntentV08NegativeijG0VGvsZ
++ _$s10AppIntents16_AssistantIntentV5ValueVMa
++ MPAssistantIntentsProvider.swift
++ _$s11MobilePhone27PFTAssistantIntentsProviderVMa
++ _symbolic _____y_______G 10AppIntents16_AssistantIntentV6PhraseV19StringInterpolationV 11MobilePhone04OpenhiA9DeepLinksV
++ _$s11MobilePhone27PFTAssistantIntentsProviderV7intentsSay03AppD016_AssistantIntentVGvpZfiSayAG5ValueVGAG0I10ProjectionCy_AA04OpenabG9DeepLinksVGXEfU0_SaySSGyXEfU_
++ _$s11MobilePhone27PFTAssistantIntentsProviderV7intentsSay03AppD016_AssistantIntentVGvMZ
++ _$s11MobilePhone27PFTAssistantIntentsProviderVMF
++ _symbolic _____ySay_____y______GGG s23_ContiguousArrayStorageC 10AppIntents16_AssistantIntentV6PhraseV 11MobilePhone04OpenijD9DeepLinksV
++ _$s10AppIntents010_AssistantB8ProviderPAAE14uniqueEntitiesSayAA01_C19UniqueEntityExampleVGvgZ
++ _$s10AppIntents16_AssistantIntentV_7phrases15parameterValuesACx_SayAC6PhraseVy_xGGAC0D10ProjectionCy_xGXESayAC5ValueVGALXEtcAA0aD0RzlufC
++ _$s10AppIntents16_AssistantIntentV18StringValueBuilderO10buildBlockySaySSGAGd_tFZ
++ _$s11MobilePhone27PFTAssistantIntentsProviderV03AppD0010_AssistantdE0AadEP7intentsSayAD01_G6IntentVGvgZTWTm
+
+```
