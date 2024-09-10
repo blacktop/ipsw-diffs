@@ -59,7 +59,7 @@
 Symbols:
 + _swift_getKeyPath
 CStrings:
-+ "Open level settings"
 + "Open measure settings"
++ "Open level settings"
 
 ```

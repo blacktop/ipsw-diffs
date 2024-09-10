@@ -52,14 +52,14 @@
 +  CStrings:  15980
  
 Symbols:
-+ _CKSQLiteContainerAttribution_Events
-+ _kCKEventsUnitTestContainerIdentifier
-+ _kCKEventsShareURLSlug
 + _CKEventsShareType
++ _kCKEventsShareURLSlug
++ _kCKEventsUnitTestContainerIdentifier
++ _CKSQLiteContainerAttribution_Events
 CStrings:
-+ "com.apple.test.p01.B.Xaeaeg.com.apple.icloud.events"
 + "CKSQLiteContainerAttribution_Events"
-+ "events"
 + "com.apple.icloud.events"
++ "events"
++ "com.apple.test.p01.B.Xaeaeg.com.apple.icloud.events"
 
 ```

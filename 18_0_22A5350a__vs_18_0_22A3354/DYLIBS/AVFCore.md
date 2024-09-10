@@ -70,55 +70,55 @@
 +  CStrings:  14120
  
 Symbols:
-+ _kFigAudioCurvesKey_RecordingLoudness
-+ _kFigAudioCurvesKey_DialogMixBias
++ _kFigAudioCurvesKey_DialogLoudness
++ _kFigAudioCurvesKey_RenderingStyle
++ _AVAssetExportPresetICPLHighFPSHEVC1920x1920WithHDR
++ _OBJC_CLASS_$_AVAudioMixCinematicAudioEffect
 + _kFigAudioCurvesKey_AmbienceLoudness
 + _kFigAudioCurvesKey_AmbienceLevel
-+ _OBJC_CLASS_$_AVAudioMixCinematicAudioEffect
-+ _kFigAudioCurvesKey_DialogLoudness
-+ _AVAssetExportPresetICPLHighFPSHEVC1920x1920WithHDR
-+ _AVVideoCodecTypeJPEGXL
-+ _kFigAudioCurvesKey_RenderingStyle
-+ _OBJC_METACLASS_$_AVAudioMixCinematicAudioEffect
++ _kFigAudioCurvesKey_DialogMixBias
 + _kFigAudioCurvesKey_DialogLevel
++ _OBJC_METACLASS_$_AVAudioMixCinematicAudioEffect
++ _kFigAudioCurvesKey_RecordingLoudness
++ _AVVideoCodecTypeJPEGXL
 CStrings:
-+ "setRenderingStyle:atTime:"
-+ "AVDialogLevelRamp"
-+ "CinematicAudioParameters"
-+ "dialogMixBias >= 0.0 && dialogMixBias <= 1.0"
-+ "dialogLevelRampWithStartValue:endValue:timeRange:"
 + "<%!@(MISSING): %!p(MISSING)> data=%!p(MISSING)"
-+ "AVAssetExportPresetICPLHighFPSHEVC1920x1920WithHDR"
-+ "getRecordingLoudnessRampForTime:startValue:endValue:timeRange:"
-+ "getDialogMixBiasRampForTime:startValue:endValue:timeRange:"
-+ "AVDialogLoudnessRamp"
 + "recordingLoudnessRampWithStartValue:endValue:timeRange:"
-+ "AVDialogMixBiasRamp"
-+ "AVAmbienceLevelRamp"
-+ "jxlc"
-+ "initWithData:"
-+ "AVAudioMixCinematicAudioEffect"
-+ "setDialogLoudness:atTime:"
-+ "dialogMixBiasRampWithStartValue:endValue:timeRange:"
-+ "setDialogLevel:atTime:"
-+ "setDialogMixBias:atTime:"
-+ "ambienceLevelRampWithStartValue:endValue:timeRange:"
-+ "getDialogLevelRampForTime:startValue:endValue:timeRange:"
-+ "AVRenderingStyleRamp"
-+ "setAmbienceLevel:atTime:"
 + "AVRecordingLoudnessRamp"
-+ "setAmbienceLoudness:atTime:"
-+ "AssetReaderSource_CinematicAudioParameters"
-+ "dialogLoudnessRampWithStartValue:endValue:timeRange:"
-+ "getRenderingStyleRampForTime:startValue:endValue:timeRange:"
-+ "getDialogLoudnessRampForTime:startValue:endValue:timeRange:"
++ "AVDialogLevelRamp"
 + "getAmbienceLevelRampForTime:startValue:endValue:timeRange:"
++ "setAmbienceLevel:atTime:"
++ "dialogMixBias >= 0.0 && dialogMixBias <= 1.0"
 + "renderingStyleRampWithStartValue:endValue:timeRange:"
-+ "AVAmbienceLoudnessRamp"
 + "getAmbienceLoudnessRampForTime:startValue:endValue:timeRange:"
-+ "setRecordingLoudness:atTime:"
++ "AssetReaderSource_CinematicAudioParameters"
++ "getRenderingStyleRampForTime:startValue:endValue:timeRange:"
++ "AVAmbienceLevelRamp"
++ "AVAudioMixCinematicAudioEffect"
++ "AVAssetExportPresetICPLHighFPSHEVC1920x1920WithHDR"
++ "setRenderingStyle:atTime:"
++ "AVAmbienceLoudnessRamp"
++ "setDialogLevel:atTime:"
 + "cinematicAudioEffectWithData:"
++ "getRecordingLoudnessRampForTime:startValue:endValue:timeRange:"
++ "AVDialogLoudnessRamp"
++ "initWithData:"
++ "setAmbienceLoudness:atTime:"
++ "ambienceLevelRampWithStartValue:endValue:timeRange:"
++ "CinematicAudioParameters"
++ "jxlc"
++ "getDialogLevelRampForTime:startValue:endValue:timeRange:"
++ "dialogLevelRampWithStartValue:endValue:timeRange:"
++ "getDialogLoudnessRampForTime:startValue:endValue:timeRange:"
++ "setDialogMixBias:atTime:"
++ "getDialogMixBiasRampForTime:startValue:endValue:timeRange:"
++ "AVRenderingStyleRamp"
++ "dialogLoudnessRampWithStartValue:endValue:timeRange:"
++ "dialogMixBiasRampWithStartValue:endValue:timeRange:"
 + "CMTIME_COMPARE_INLINE(time, ==, kCMTimeZero)"
++ "AVDialogMixBiasRamp"
++ "setDialogLoudness:atTime:"
 + "ambienceLoudnessRampWithStartValue:endValue:timeRange:"
++ "setRecordingLoudness:atTime:"
 
 ```

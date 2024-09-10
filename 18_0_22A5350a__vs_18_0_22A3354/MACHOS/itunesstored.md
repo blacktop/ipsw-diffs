@@ -36,8 +36,8 @@
 +  CStrings:  11998
  
 CStrings:
-+ "setDate:"
 + "00:01:17"
++ "setDate:"
 - "03:30:57"
 
 ```

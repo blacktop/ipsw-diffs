@@ -63,10 +63,10 @@ Symbols:
 + _swift_bridgeObjectRetain
 + _swift_getKeyPath
 CStrings:
-+ "Open Wallet & Apple Pay settings"
 + "Add card to Wallet"
-+ "Show me my transit cards"
 + "Enable sending and receiving money"
 + "View payment cards"
++ "Open Wallet & Apple Pay settings"
++ "Show me my transit cards"
 
 ```

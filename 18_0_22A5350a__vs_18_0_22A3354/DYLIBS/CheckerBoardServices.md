@@ -58,11 +58,11 @@
 Symbols:
 + _OBJC_CLASS_$_NSUserDefaults
 CStrings:
++ "enableTouchButtonEvents"
++ "disableTouchButtonEvents"
 + "persistedBootIntentReason"
 + "initWithSuiteName:"
-+ "isSSRBootIntentSet"
-+ "disableTouchButtonEvents"
-+ "enableTouchButtonEvents"
 + "objectForKey:"
++ "isSSRBootIntentSet"
 
 ```

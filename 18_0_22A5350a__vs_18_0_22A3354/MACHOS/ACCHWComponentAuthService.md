@@ -33,28 +33,28 @@
 +  CStrings:  473
  
 Symbols:
-+ _kCFACCUserDefaultsKey_PretendNFCAuthTimeout
-+ _ACCUserDefaultsKey_PretendNFCAuthFailed
-+ _ACCUserDefaultsKey_InductiveAuthPretendMatchRxID
-+ _kCFACCUserDefaultsKey_ForceT56RelaySupport
-+ _ACCUserDefaultsKey_ForceT56RelaySupport
-+ _kCFACCUserDefaultsKey_PretendNFCAuthFailed
-+ __block_literal_global.273
-+ _ACCUserDefaultsKey_DontSkipInductiveAuthOnCTA
-+ _kCFACCUserDefaultsKey_DontSkipInductiveAuthOnCTA
-+ _kCFACCUserDefaultsKey_InductiveAuthPretendMatchRxID
 + _kCFACCUserDefaultsKey_SkipNFCAuth
++ _kCFACCUserDefaultsKey_InductiveAuthPretendMatchRxID
++ _ACCUserDefaultsKey_PretendNFCAuthFailed
++ _kCFACCUserDefaultsKey_ForceT56RelaySupport
++ _kCFACCUserDefaultsKey_PretendNFCAuthTimeout
++ __block_literal_global.273
 + _ACCUserDefaultsKey_SkipNFCAuth
-+ __block_literal_global.271
++ _ACCUserDefaultsKey_DontSkipInductiveAuthOnCTA
 + _ACCUserDefaultsKey_PretendNFCAuthTimeout
-- __block_literal_global.255
++ _kCFACCUserDefaultsKey_DontSkipInductiveAuthOnCTA
++ _ACCUserDefaultsKey_InductiveAuthPretendMatchRxID
++ _kCFACCUserDefaultsKey_PretendNFCAuthFailed
++ __block_literal_global.271
++ _ACCUserDefaultsKey_ForceT56RelaySupport
 - __block_literal_global.253
+- __block_literal_global.255
 CStrings:
-+ "InductiveAuthPretendMatchRxID"
-+ "SkipNFCAuth"
-+ "PretendNFCAuthTimeout"
 + "ForceT56RelaySupport"
++ "SkipNFCAuth"
 + "PretendNFCAuthFailed"
++ "InductiveAuthPretendMatchRxID"
 + "DontSkipInductiveAuthOnCTA"
++ "PretendNFCAuthTimeout"
 
 ```

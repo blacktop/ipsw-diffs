@@ -42,13 +42,13 @@
 +  CStrings:  25305
  
 CStrings:
++ "D94Zoomed"
++ "D94"
++ "iPhone XX Pro Max (D94, Zoomed)"
++ "iPhone XX Pro (D93)"
 + "D93Zoomed"
 + "iPhone XX Pro (D93, Zoomed)"
 + "D93"
-+ "D94Zoomed"
 + "iPhone XX Pro Max (D94)"
-+ "iPhone XX Pro Max (D94, Zoomed)"
-+ "iPhone XX Pro (D93)"
-+ "D94"
 
 ```

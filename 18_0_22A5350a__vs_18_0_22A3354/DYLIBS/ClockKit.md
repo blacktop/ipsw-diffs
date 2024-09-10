@@ -68,15 +68,15 @@
 +  CStrings:  3854
  
 CStrings:
-+ "{CGPoint=dd}160@0:8{CGPoint=dd}16{CGPoint=dd}32{CGPoint=dd}48{CGPoint=dd}64{CGPoint=dd}80{CGPoint=dd}96{CGPoint=dd}112{CGPoint=dd}128{CGPoint=dd}144"
 + "Watch7,8"
++ "{CGSize=dd}160@0:8{CGSize=dd}16{CGSize=dd}32{CGSize=dd}48{CGSize=dd}64{CGSize=dd}80{CGSize=dd}96{CGSize=dd}112{CGSize=dd}128{CGSize=dd}144"
++ "{CGPoint=dd}160@0:8{CGPoint=dd}16{CGPoint=dd}32{CGPoint=dd}48{CGPoint=dd}64{CGPoint=dd}80{CGPoint=dd}96{CGPoint=dd}112{CGPoint=dd}128{CGPoint=dd}144"
++ "Watch7,11"
++ "valueCompact:regular:luxoCompact:luxoRegular:aloeCompact:aloeRegular:agave:avoniaCompact:avoniaRegular:"
 + "d88@0:8d16d24d32d40d48d56d64d72d80"
 + "pointCompact:regular:luxoCompact:luxoRegular:aloeCompact:aloeRegular:agave:avoniaCompact:avoniaRegular:"
-+ "valueCompact:regular:luxoCompact:luxoRegular:aloeCompact:aloeRegular:agave:avoniaCompact:avoniaRegular:"
-+ "Watch7,11"
 + "Watch7,10"
 + "sizeCompact:regular:luxoCompact:luxoRegular:aloeCompact:aloeRegular:agave:avoniaCompact:avoniaRegular:"
 + "Watch7,9"
-+ "{CGSize=dd}160@0:8{CGSize=dd}16{CGSize=dd}32{CGSize=dd}48{CGSize=dd}64{CGSize=dd}80{CGSize=dd}96{CGSize=dd}112{CGSize=dd}128{CGSize=dd}144"
 
 ```

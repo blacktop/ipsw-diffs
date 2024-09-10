@@ -61,22 +61,22 @@
 +  CStrings:  153
  
 Symbols:
++ _NRDevicePropertyAbsoluteDepthLimit
 + _swift_bridgeObjectRelease_n
 + _OBJC_CLASS_$_NRPairedDeviceRegistry
 + _OBJC_CLASS_$_OS_os_log
-+ _NRDevicePropertyAbsoluteDepthLimit
 CStrings:
-+ "https://support.apple.com/guide/watch"
 + "Localizable-Sundrift"
++ "sharedInstance"
 + "-ultra/apd9073c83d6"
 + "DEPTH_SAFETY_FOOTER_FORMAT_SUNDRIFT"
-+ "CHARON_MAX_DEPTH_%!@(MISSING)"
-+ "DepthSettingsCommon: Unable to resolve device max depth capability"
-+ "CHARON_MAX_DEPTH_SUNDRIFT_%!@(MISSING)"
-+ "getActivePairedDevice"
-+ "sharedInstance"
-+ "valueForProperty:"
 + "localizedStringForKey:value:table:"
++ "CHARON_MAX_DEPTH_SUNDRIFT_%!@(MISSING)"
++ "DepthSettingsCommon: Unable to resolve device max depth capability"
++ "valueForProperty:"
++ "https://support.apple.com/guide/watch"
++ "getActivePairedDevice"
++ "CHARON_MAX_DEPTH_%!@(MISSING)"
 - "https://support.apple.com/guide/watch-ultra/apd9073c83d6"
 
 ```

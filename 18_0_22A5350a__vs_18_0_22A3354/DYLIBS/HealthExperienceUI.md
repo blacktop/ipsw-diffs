@@ -74,9 +74,9 @@
 Symbols:
 + _HKCategoryTypeIdentifierSleepApneaEvent
 CStrings:
-+ "sleep_apnea_event_alert"
-+ "HKQuantityTypeIdentifierAppleSleepingBreathingDisturbances"
 + "HKCategoryTypeIdentifierSleepApneaEvent"
++ "HKQuantityTypeIdentifierAppleSleepingBreathingDisturbances"
++ "sleep_apnea_event_alert"
 + "nebula"
 
 ```

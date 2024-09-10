@@ -45,7 +45,7 @@ Symbols:
 CStrings:
 + "Welcome to SceneKit 602.2 (Aug  3 2024 10:13:51)"
 - "setErrorOptions:"
-- "commandBufferWithDescriptor:"
 - "Welcome to SceneKit 602.2 (Aug  6 2024 10:22:18)"
+- "commandBufferWithDescriptor:"
 
 ```

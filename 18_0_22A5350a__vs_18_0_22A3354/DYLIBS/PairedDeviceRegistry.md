@@ -38,9 +38,9 @@
 +  CStrings:  753
  
 CStrings:
++ "Watch7,8"
 + "Watch7,9"
 + "Watch7,11"
 + "Watch7,10"
-+ "Watch7,8"
 
 ```

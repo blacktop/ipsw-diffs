@@ -74,68 +74,68 @@
 +  CStrings:  4771
  
 Symbols:
-+ _OBJC_CLASS_$_BLS1HzFlipbookAttribute
-+ _OBJC_CLASS_$_BLSGlobal1HzFlipbookAttribute
 + _OBJC_CLASS_$_BLSGlobalCacheFlipbookOnDisplayWakeAttribute
-+ _OBJC_CLASS_$_BLSHGlobal1HzFlipbookAttributeHandler
-+ _OBJC_METACLASS_$_BLSHCacheFlipbookOnDisplayWakeAttributeHandler
-+ _OBJC_CLASS_$_BLSH1HzFlipbookAttributeHandler
-+ _OBJC_METACLASS_$_BLSH1HzFlipbookAttributeHandler
-+ _OBJC_METACLASS_$_BLSHGlobalCacheFlipbookOnDisplayWakeAttributeHandler
-+ _OBJC_CLASS_$_BLSCacheFlipbookOnDisplayWakeAttribute
-+ _OBJC_CLASS_$_BLSHGlobalCacheFlipbookOnDisplayWakeAttributeHandler
 + _OBJC_METACLASS_$_BLSHGlobal1HzFlipbookAttributeHandler
++ _OBJC_CLASS_$_BLSGlobal1HzFlipbookAttribute
 + _OBJC_CLASS_$_BLSHCacheFlipbookOnDisplayWakeAttributeHandler
++ _OBJC_CLASS_$_BLSHGlobal1HzFlipbookAttributeHandler
++ _OBJC_METACLASS_$_BLSH1HzFlipbookAttributeHandler
++ _OBJC_CLASS_$_BLS1HzFlipbookAttribute
++ _OBJC_METACLASS_$_BLSHCacheFlipbookOnDisplayWakeAttributeHandler
++ _OBJC_CLASS_$_BLSCacheFlipbookOnDisplayWakeAttribute
++ _OBJC_CLASS_$_BLSH1HzFlipbookAttributeHandler
++ _OBJC_CLASS_$_BLSHGlobalCacheFlipbookOnDisplayWakeAttributeHandler
++ _OBJC_METACLASS_$_BLSHGlobalCacheFlipbookOnDisplayWakeAttributeHandler
 CStrings:
-+ "_lock_cacheFlipbookOnDisplayWake"
-+ "setGlobal1HzFlipbook:"
-+ "hostEnvironment:hostDidSet1HzFlipbook:"
-+ "BLSH1HzFlipbookAttributeHandler.m"
-+ "BLSHGlobal1HzFlipbookAttributeHandler"
-+ "hostEnvironment:hostDidSetCacheFlipbookOnDisplayWake:"
-+ "BLSHGlobalCacheFlipbookOnDisplayWakeProvider"
-+ "TB,?"
 + "cacheFlipbookOnDisplayWake"
-+ "TB,N,Gis1HzFlipbook,Sset1HzFlipbook:"
-+ "BLSHCacheFlipbookOnDisplayWakeAttributeHandler"
-+ "setCacheFlipbookOnDisplayWake:"
-+ "_lock_globalCacheFlipbook"
-+ "set1HzFlipbook:"
-+ "TB,?,Gis1HzFlipbook,Sset1HzFlipbook:,V_lock_1HzFlipbook"
-+ "@\"<BLSHGlobal1HzFlipbookProvider>\""
-+ "cachesFramesOnExit"
-+ "cacheFlipbook"
-+ "_lock_global1HzFlipbook"
-+ "TSM:%!p(MISSING) no operation - currentDisplayMode:%!{(MISSING)public}@ shouldStartLiveEngine:%!{(MISSING)BOOL}u shouldEndSession:%!{(MISSING)BOOL}u finalTriggerEvent:%!{(MISSING)public}@ session:%!{(MISSING)public}@ cacheFlipbook:%!{(MISSING)BOOL}u flipbookIsStale:%!{(MISSING)BOOL}u"
-+ "_lock_1HzFlipbook"
-+ "BLSHGlobalCacheFlipbookOnDisplayWakeAttributeHandler"
-+ "TSM:%!p(MISSING) new globalCacheFlipbook:%!{(MISSING)BOOL}u"
-+ "@\"<BLSHGlobalCacheFlipbookOnDisplayWakeProvider>\""
-+ "TSM:%!p(MISSING) flipbookIsStale=NO ensureCurrent completed"
-+ "BLSHGlobal1HzFlipbookProvider"
-+ "setCacheFlipbook:"
-+ "class %!@(MISSING) must respond to selector setCacheFlipbookOnDisplayWake: in order to acquire assertion with BLSCacheFlipbookOnDisplayWakeAttribute : %!@(MISSING)"
-+ "TSM:%!p(MISSING) cacheFlipbook:YES for %!{(MISSING)public}@"
-+ "BLSHCacheFlipbookOnDisplayWakeAttributeHandler.m"
-+ "_lock_flipbookIsStale"
-+ "TB,?,V_lock_cacheFlipbookOnDisplayWake"
-+ "setCachesFramesOnExit:"
 + "setGlobalCacheFlipbookOnDisplayWake:"
-+ "global1HzFlipbook"
-+ "isOneHzFlipBook"
-+ "globalCacheFlipbookOnDisplayWake"
-+ "TSM:%!p(MISSING) flipbookIsStale=YES invalidateContentForReason:%!{(MISSING)public}@"
-+ "BLSH1HzFlipbookAttributeHandler"
++ "TB,?,Gis1HzFlipbook,Sset1HzFlipbook:,V_lock_1HzFlipbook"
++ "@\"<BLSHGlobalCacheFlipbookOnDisplayWakeProvider>\""
++ "_lock_global1HzFlipbook"
 + "isGlobal1HzFlipbook"
-+ "setOneHzFlipBook:"
-+ "is1HzFlipbook"
++ "_lock_flipbookIsStale"
++ "cachesFramesOnExit"
++ "_lock_globalCacheFlipbook"
++ "BLSHGlobalCacheFlipbookOnDisplayWakeAttributeHandler"
++ "TSM:%!p(MISSING) flipbookIsStale=NO ensureCurrent completed"
++ "BLSH1HzFlipbookAttributeHandler.m"
++ "setCachesFramesOnExit:"
++ "setCacheFlipbook:"
 + "_lock_cacheFlipbook"
-+ "_lock_cachesFramesOnExit"
++ "setCacheFlipbookOnDisplayWake:"
++ "is1HzFlipbook"
++ "TSM:%!p(MISSING) flipbookIsStale=YES invalidateContentForReason:%!{(MISSING)public}@"
++ "hostEnvironment:hostDidSetCacheFlipbookOnDisplayWake:"
++ "hostEnvironment:hostDidSet1HzFlipbook:"
 + "oneHzFlipbook"
++ "TB,N,Gis1HzFlipbook,Sset1HzFlipbook:"
++ "TSM:%!p(MISSING) no operation - currentDisplayMode:%!{(MISSING)public}@ shouldStartLiveEngine:%!{(MISSING)BOOL}u shouldEndSession:%!{(MISSING)BOOL}u finalTriggerEvent:%!{(MISSING)public}@ session:%!{(MISSING)public}@ cacheFlipbook:%!{(MISSING)BOOL}u flipbookIsStale:%!{(MISSING)BOOL}u"
 + "TB,?,Gis1HzFlipbook,Sset1HzFlipbook:"
-+ "TB,N,GisGlobal1HzFlipbook"
++ "BLSHGlobal1HzFlipbookAttributeHandler"
++ "set1HzFlipbook:"
++ "@\"<BLSHGlobal1HzFlipbookProvider>\""
++ "BLSHGlobal1HzFlipbookProvider"
++ "TSM:%!p(MISSING) new globalCacheFlipbook:%!{(MISSING)BOOL}u"
++ "class %!@(MISSING) must respond to selector setCacheFlipbookOnDisplayWake: in order to acquire assertion with BLSCacheFlipbookOnDisplayWakeAttribute : %!@(MISSING)"
++ "BLSHCacheFlipbookOnDisplayWakeAttributeHandler"
++ "_lock_cacheFlipbookOnDisplayWake"
 + "TSM:%!p(MISSING) new cacheFlipbook:%!{(MISSING)BOOL}u"
++ "setOneHzFlipBook:"
++ "global1HzFlipbook"
++ "TSM:%!p(MISSING) cacheFlipbook:YES for %!{(MISSING)public}@"
++ "TB,N,GisGlobal1HzFlipbook"
++ "isOneHzFlipBook"
++ "setGlobal1HzFlipbook:"
++ "TB,?,V_lock_cacheFlipbookOnDisplayWake"
++ "BLSHCacheFlipbookOnDisplayWakeAttributeHandler.m"
++ "globalCacheFlipbookOnDisplayWake"
++ "_lock_cachesFramesOnExit"
++ "BLSH1HzFlipbookAttributeHandler"
++ "TB,?"
 + "class %!@(MISSING) must respond to selector set1HzFlipbook: in order to acquire assertion with BLS1HzFlipbookAttribute : %!@(MISSING)"
++ "cacheFlipbook"
++ "_lock_1HzFlipbook"
++ "BLSHGlobalCacheFlipbookOnDisplayWakeProvider"
 - "TSM:%!p(MISSING) no operation - currentDisplayMode:%!{(MISSING)public}@ shouldStartLiveEngine:%!{(MISSING)BOOL}u shouldEndSession:%!{(MISSING)BOOL}u finalTriggerEvent:%!{(MISSING)public}@ session:%!{(MISSING)public}@"
 
 ```

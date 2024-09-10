@@ -52,26 +52,26 @@
 +  CStrings:  1304
  
 Symbols:
-+ _JxlEncoderFrameSettingsSetOption
-+ _JxlEncoderSetICCProfile
-+ _JxlEncoderSetFrameDistance
-+ _JxlEncoderSetBasicInfo
-+ _JxlEncoderSetParallelRunner
 + _JxlEncoderProcessOutput
-+ _JxlDecoderImageOutBufferSize
 + _JxlEncoderAddImageFrame
-+ _JxlEncoderSetColorEncoding
 + _JxlEncoderInitBasicInfo
-+ _CFDataCreateCopy
-+ _JxlEncoderDestroy
-+ _kCMPhotoDNGOptionKey_JPEGXLParallelRunners
-+ _JxlEncoderFrameSettingsCreate
-+ _JxlEncoderCreate
-+ _JxlEncoderSetFrameLossless
-+ _JxlEncoderCloseInput
++ _JxlDecoderImageOutBufferSize
++ _JxlEncoderSetBasicInfo
++ _JxlEncoderSetColorEncoding
 + _kCMPhotoDNGOptionKey_JPEGXLEncoderEffort
++ _JxlEncoderSetFrameDistance
++ _JxlEncoderSetICCProfile
++ _JxlEncoderFrameSettingsCreate
++ _CFDataCreateCopy
++ _JxlEncoderCloseInput
++ _JxlEncoderFrameSettingsSetOption
++ _JxlEncoderSetFrameLossless
++ _JxlEncoderCreate
++ _kCMPhotoDNGOptionKey_JPEGXLParallelRunners
++ _JxlEncoderSetParallelRunner
++ _JxlEncoderDestroy
 CStrings:
-+ "JPEGXLEncoderEffort"
 + "JPEGXLParallelRunners"
++ "JPEGXLEncoderEffort"
 
 ```

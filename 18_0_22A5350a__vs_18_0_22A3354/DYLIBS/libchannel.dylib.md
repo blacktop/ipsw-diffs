@@ -44,7 +44,7 @@ Symbols:
 + _realtime_runtime_check_pop_authorization
 CStrings:
 + "mach_msg with timeout=0 is RT safe"
-+ "mach_port_mod_refs is RT safe here"
 + "os_crash is not realtime_safe, but crashing is okay"
++ "mach_port_mod_refs is RT safe here"
 
 ```

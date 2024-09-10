@@ -58,11 +58,11 @@
 +  CStrings:  14537
  
 CStrings:
-+ "446H_VARIANT_ACTIVE_DEVICE"
-+ "WatchSideBySide-Illustrated-N218"
-+ "watch7,11"
-+ "Pairing-N218"
 + "watch7,10"
++ "watch7,11"
++ "446H_VARIANT_ACTIVE_DEVICE"
++ "Pairing-N218"
 + "496H_VARIANT_ACTIVE_DEVICE"
++ "WatchSideBySide-Illustrated-N218"
 
 ```

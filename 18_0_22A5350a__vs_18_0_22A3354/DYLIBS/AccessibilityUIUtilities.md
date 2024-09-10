@@ -49,15 +49,15 @@
 +  CStrings:  4716
  
 Symbols:
-+ _AXAssistiveTouchIconTypeCameraButtonLightPress
 + _AXAssistiveTouchIconTypeCameraButtonDoubleLightPress
++ _AXAssistiveTouchIconTypeCameraButtonLightPress
 + _AXAssistiveTouchIconTypeCameraButton
 + _AXDeviceSupportsCameraButton
 CStrings:
 + "SCATIcon_device_cameraButton"
 + "CAMERA_BUTTON_LIGHT_PRESS"
-+ "CAMERA_BUTTON"
 + "CAMERA_BUTTON_DOUBLE_LIGHT_PRESS"
++ "CAMERA_BUTTON"
 + "LocalizedStrings-D94"
 
 ```

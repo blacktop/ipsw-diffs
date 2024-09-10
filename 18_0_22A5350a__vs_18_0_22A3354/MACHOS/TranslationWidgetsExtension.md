@@ -67,10 +67,10 @@
 Symbols:
 + _swift_getKeyPath
 CStrings:
-+ "Translate Bonjour to English"
-+ "Set-up offline mode for Translate"
-+ "Download languages for Translate app"
 + "Open Translate settings"
++ "Set-up offline mode for Translate"
++ "Translate Bonjour to English"
++ "Download languages for Translate app"
 + "How do you say Hello in French"
 
 ```

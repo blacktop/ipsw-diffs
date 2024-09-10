@@ -86,127 +86,127 @@
 +  CStrings:  12531
  
 Symbols:
-+ _OBJC_METACLASS_$_AXCameraButtonController
-+ _OBJC_CLASS_$_BSUICAPackageView
-+ _OBJC_CLASS_$_AXCameraButtonPracticeCell
-+ -[AXCameraButtonController specifiers]
-+ -[AXCameraButtonController _lightTouch:]
-+ -[AXCameraButtonPracticeCell initWithStyle:reuseIdentifier:specifier:]
-+ __OBJC_CLASS_RO_$_AXCameraButtonController
-+ __OBJC_CLASS_PROTOCOLS_$_AXCameraButtonPracticeCell
-+ __block_literal_global.941
-+ -[AXCameraButtonController _launchCameraButtonTips:]
-+ -[AXCameraButtonPracticeCell _physicalButtonInteraction:handleAction:withActiveActions:]
-+ __OBJC_METACLASS_RO_$_AXCameraButtonPracticeCell
-+ _OBJC_METACLASS_$_AXCameraButtonPracticeCell
-+ OBJC_IVAR_$_AXCameraButtonPracticeCell._activeStages
-+ -[AXCameraButtonPracticeCell accessibilityLabel]
-+ __OBJC_$_PROTOCOL_REFS__UIPhysicalButtonInteractionDelegate
-+ __OBJC_$_INSTANCE_METHODS_AXCameraButtonController
-+ __OBJC_CLASS_RO_$_AXCameraButtonPracticeCell
-+ -[AXCameraButtonController _cameraButtonEnabled:]
-+ _objc_msgSend$initWithConfigurations:delegate:
-+ -[AXCameraButtonController _setCameraButtonEnabled:specifier:]
-+ _objc_msgSend$_customGraphicIconWithSymbol:systemColor:bundleURL:
-+ _objc_msgSend$cameraButtonSensitivity
-+ _OBJC_CLASS_$__UIPhysicalButtonInteraction
-+ OBJC_IVAR_$_AXCameraButtonPracticeCell._packageState
-+ _objc_msgSend$_cameraButtonEnabled:
-+ __OBJC_$_INSTANCE_METHODS_AXCameraButtonPracticeCell
-+ __OBJC_LABEL_PROTOCOL_$__UIPhysicalButtonInteractionDelegate
-+ __block_literal_global.914
-+ -[AXCameraButtonController viewWillAppear:]
-+ -[AXCameraButtonController tableView:didSelectRowAtIndexPath:]
-+ _OBJC_CLASS_$__UIPhysicalButtonConfiguration
-+ -[AXCameraButtonController _setLightTouch:specifier:]
-+ __OBJC_METACLASS_RO_$_AXCameraButtonController
-+ __OBJC_$_PROP_LIST_AXCameraButtonPracticeCell
 + __OBJC_$_INSTANCE_VARIABLES_AXCameraButtonPracticeCell
-+ -[AXCameraButtonController tableView:willDisplayCell:forRowAtIndexPath:]
-+ _objc_msgSend$setInteger:forKey:
-+ -[AXCameraButtonController willBecomeActive]
-+ _objc_msgSend$URLWithTopicID:
-+ -[AXCameraButtonController tableView:shouldHighlightRowAtIndexPath:]
 + OBJC_IVAR_$_AXCameraButtonPracticeCell._interaction
-+ __OBJC_PROTOCOL_$__UIPhysicalButtonInteractionDelegate
-+ _objc_msgSend$_cameraShutterConfigurationsWithOptionsProvider:
-+ _objc_msgSend$setShowTopicViewOnLoad:
-+ -[AXCameraButtonController tableView:heightForRowAtIndexPath:]
-+ _objc_msgSend$helpViewControllerWithURL:
-+ _objc_msgSend$setCameraButtonSensitivity:
-+ __OBJC_$_PROTOCOL_INSTANCE_METHODS__UIPhysicalButtonInteractionDelegate
-+ _objc_msgSend$_updatePackageState:
-+ -[AXCameraButtonPracticeCell _updatePackageState:]
-+ _AXDeviceSupportsCameraButton
-+ __OBJC_$_PROTOCOL_METHOD_TYPES__UIPhysicalButtonInteractionDelegate
-+ _objc_msgSend$_stagePhase
++ __OBJC_CLASS_RO_$_AXCameraButtonPracticeCell
 + _OBJC_CLASS_$_AXCameraButtonController
-+ _objc_msgSend$addInteraction:
++ _OBJC_CLASS_$_BSUICAPackageView
++ -[AXCameraButtonPracticeCell accessibilityTraits]
 + _objc_msgSend$setState:animated:
 + _objc_msgSend$_stage
-+ -[AXCameraButtonPracticeCell accessibilityTraits]
-+ OBJC_IVAR_$_AXCameraButtonPracticeCell._packageView
++ _objc_msgSend$_cameraButtonEnabled:
++ -[AXCameraButtonController tableView:heightForRowAtIndexPath:]
++ OBJC_IVAR_$_AXCameraButtonPracticeCell._packageState
++ -[AXCameraButtonController _lightTouch:]
++ __OBJC_$_INSTANCE_METHODS_AXCameraButtonController
++ -[AXCameraButtonController tableView:willDisplayCell:forRowAtIndexPath:]
++ __OBJC_$_INSTANCE_METHODS_AXCameraButtonPracticeCell
++ _objc_msgSend$cameraButtonSensitivity
++ _objc_msgSend$addInteraction:
++ _OBJC_METACLASS_$_AXCameraButtonController
++ -[AXCameraButtonPracticeCell initWithStyle:reuseIdentifier:specifier:]
 + -[AXCameraButtonPracticeCell .cxx_destruct]
++ -[AXCameraButtonController _launchCameraButtonTips:]
++ __block_literal_global.914
++ _objc_msgSend$setShowTopicViewOnLoad:
++ -[AXCameraButtonController specifiers]
++ _objc_msgSend$helpViewControllerWithURL:
++ _objc_msgSend$initWithConfigurations:delegate:
++ _objc_msgSend$_cameraShutterConfigurationsWithOptionsProvider:
++ _OBJC_CLASS_$_AXCameraButtonPracticeCell
++ _OBJC_METACLASS_$_AXCameraButtonPracticeCell
++ _objc_msgSend$setCameraButtonSensitivity:
++ __OBJC_METACLASS_RO_$_AXCameraButtonPracticeCell
++ _AXDeviceSupportsCameraButton
++ -[AXCameraButtonPracticeCell _physicalButtonInteraction:handleAction:withActiveActions:]
++ __OBJC_LABEL_PROTOCOL_$__UIPhysicalButtonInteractionDelegate
++ OBJC_IVAR_$_AXCameraButtonPracticeCell._packageView
++ -[AXCameraButtonPracticeCell accessibilityLabel]
++ __OBJC_CLASS_PROTOCOLS_$_AXCameraButtonPracticeCell
++ _OBJC_CLASS_$__UIPhysicalButtonConfiguration
++ _objc_msgSend$_updatePackageState:
++ -[AXCameraButtonController _cameraButtonEnabled:]
++ __OBJC_CLASS_RO_$_AXCameraButtonController
++ OBJC_IVAR_$_AXCameraButtonPracticeCell._activeStages
++ _objc_msgSend$setInteger:forKey:
++ _objc_msgSend$URLWithTopicID:
++ -[AXCameraButtonPracticeCell _updatePackageState:]
++ __OBJC_$_PROTOCOL_METHOD_TYPES__UIPhysicalButtonInteractionDelegate
++ _objc_msgSend$_customGraphicIconWithSymbol:systemColor:bundleURL:
++ -[AXCameraButtonController willBecomeActive]
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS__UIPhysicalButtonInteractionDelegate
++ _OBJC_CLASS_$__UIPhysicalButtonInteraction
++ -[AXCameraButtonController tableView:shouldHighlightRowAtIndexPath:]
++ _objc_msgSend$_stagePhase
++ -[AXCameraButtonController _setLightTouch:specifier:]
++ __OBJC_PROTOCOL_$__UIPhysicalButtonInteractionDelegate
++ __OBJC_$_PROP_LIST_AXCameraButtonPracticeCell
++ -[AXCameraButtonController viewWillAppear:]
++ __OBJC_$_PROTOCOL_REFS__UIPhysicalButtonInteractionDelegate
++ __OBJC_METACLASS_RO_$_AXCameraButtonController
++ -[AXCameraButtonController tableView:didSelectRowAtIndexPath:]
++ -[AXCameraButtonController _setCameraButtonEnabled:specifier:]
++ __block_literal_global.941
 - __block_literal_global.904
 - __block_literal_global.931
 CStrings:
-+ "setInteger:forKey:"
-+ "CAMERA_BUTTON_TOGGLE_FOOTER"
-+ "systemOverlay.menuToggleMaxIntervalMilliseconds"
-+ "_cameraShutterConfigurationsWithOptionsProvider:"
-+ "AXCameraButtonController"
-+ "_stagePhase"
-+ "v40@0:8@\"_UIPhysicalButtonInteraction\"16@\"_UIPhysicalButtonAction\"24@\"NSArray\"32"
-+ "addInteraction:"
-+ "CAMERA_BUTTON_TITLE"
-+ "initWithConfigurations:delegate:"
-+ "Idle"
-+ "SENSITIVITY_ENABLED"
-+ "_physicalButtonInteraction:handleAction:withActiveActions:"
-+ "_packageView"
-+ "SENSITIVITY_SOFTER"
-+ "_setLightTouch:specifier:"
-+ "SENSITIVITY_TESTER_FOOTER"
-+ "@\"BSUICAPackageView\""
-+ "DOUBLE_PRESS_SPEED_DEFAULT"
-+ "SBDisableCaptureButton"
-+ "SENSITIVITY_HARDER"
-+ "_updatePackageState:"
-+ "_stage"
 + "CameraButton: setting camera sensitivity: %!@(MISSING)"
-+ "CAMERA_BUTTON_LEARN_MORE_TITLE"
-+ "SENSITIVITY"
-+ "setShowTopicViewOnLoad:"
-+ "iph0c397b154"
-+ "Press"
-+ "DOUBLE_PRESS_SPEED_SLOWER"
-+ "_cameraButtonEnabled:"
-+ "_setCameraButtonEnabled:specifier:"
-+ "DOUBLE_PRESS_SPEED_SLOW"
-+ "NSNumber"
-+ "Icon-D94"
++ "DOUBLE_PRESS_SPEED_DEFAULT"
 + "Simulator-D94"
-+ "cameraButtonSensitivity"
-+ "_interaction"
-+ "_lightTouch:"
-+ "_activeStages"
-+ "AXCameraButtonPracticeCell"
-+ "LightPress"
-+ "systemOverlay.halfPressGestureEnabled"
-+ "ca"
-+ "DOUBLE_PRESS_SPEED_VALUE"
-+ "SENSITIVITY_TESTER_ACCESSIBILITY_LABEL"
-+ "setState:animated:"
-+ "SENSITIVITY_DEFAULT"
-+ "SENSTIVITY_VALUE"
-+ "DOUBLE_PRESS_SPEED_HEADER"
-+ "Accessibility-D93"
-+ "_packageState"
 + "setCameraButtonSensitivity:"
-+ "SENSITIVITY_HEADER"
++ "ca"
 + "@\"_UIPhysicalButtonInteraction\""
++ "SENSITIVITY_DEFAULT"
++ "SENSITIVITY_HARDER"
++ "_lightTouch:"
++ "v40@0:8@\"_UIPhysicalButtonInteraction\"16@\"_UIPhysicalButtonAction\"24@\"NSArray\"32"
++ "initWithConfigurations:delegate:"
++ "_interaction"
++ "_setLightTouch:specifier:"
++ "_stage"
++ "DOUBLE_PRESS_SPEED_SLOW"
++ "_setCameraButtonEnabled:specifier:"
++ "setInteger:forKey:"
 + "_UIPhysicalButtonInteractionDelegate"
-+ "SENSITIVITY_FOOTER"
++ "SENSITIVITY_SOFTER"
++ "NSNumber"
++ "_stagePhase"
++ "DOUBLE_PRESS_SPEED_SLOWER"
 + "_launchCameraButtonTips:"
++ "CAMERA_BUTTON_LEARN_MORE_TITLE"
++ "_cameraShutterConfigurationsWithOptionsProvider:"
++ "_cameraButtonEnabled:"
++ "systemOverlay.menuToggleMaxIntervalMilliseconds"
++ "SENSITIVITY_HEADER"
++ "AXCameraButtonController"
++ "AXCameraButtonPracticeCell"
++ "_packageState"
++ "_physicalButtonInteraction:handleAction:withActiveActions:"
++ "CAMERA_BUTTON_TITLE"
++ "SENSITIVITY_TESTER_ACCESSIBILITY_LABEL"
++ "Accessibility-D93"
++ "DOUBLE_PRESS_SPEED_HEADER"
++ "SENSITIVITY"
++ "SENSITIVITY_TESTER_FOOTER"
++ "systemOverlay.halfPressGestureEnabled"
++ "CAMERA_BUTTON_TOGGLE_FOOTER"
++ "SENSITIVITY_FOOTER"
++ "_packageView"
++ "_updatePackageState:"
++ "cameraButtonSensitivity"
++ "Press"
++ "setShowTopicViewOnLoad:"
++ "SENSTIVITY_VALUE"
++ "setState:animated:"
++ "SBDisableCaptureButton"
++ "LightPress"
++ "Icon-D94"
++ "DOUBLE_PRESS_SPEED_VALUE"
++ "_activeStages"
++ "Idle"
++ "addInteraction:"
++ "iph0c397b154"
++ "@\"BSUICAPackageView\""
++ "SENSITIVITY_ENABLED"
 
 ```

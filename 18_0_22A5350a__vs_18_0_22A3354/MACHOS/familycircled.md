@@ -100,146 +100,146 @@
 +  CStrings:  1687
  
 Symbols:
-+ _$s8GroupKit14GPKRSVPRequestCMa
-+ _$sSo14FAFamilyCircleC06FamilyB0E17pendingMemberListSaySo0aE0CGyF
-+ _$s8GroupKit8GPKGroupC11valueForKeyySSSgSSF
-+ _$s8GroupKit09GPKCreateA7RequestC03setA13MetadataValue_6forKeyySSSg_SStFTj
-+ _$s8GroupKit8GPKGroupC8meMemberAA9GPKMemberCSgvgTj
-+ _$s8GroupKit14GPKRSVPRequestC4RSVPOMa
-+ _$s8GroupKit8GPKGroupC9JoinStateOMn
-+ _$sSa12_endMutationyyFyXl_Ts5
-+ _$s8GroupKit09GPKCreateA7RequestCMa
-+ _$s8GroupKit8GPKGroupC22invitationSenderHandleSSSgvgTj
-+ _$s8GroupKit15GPKMemberPolicyO12fullyManagedyA2CmFWC
-+ _$s8GroupKit09GPKUpdateA7RequestC5group14diffingMembersAcA8GPKGroupC_SayAA17GPKMemberProperty_pGtcfC
-+ _$s8GroupKit13GPKMemberRoleO5adminyA2CmFWC
-+ _$s8GroupKit13GPKMemberRoleOSQAAMc
-+ _$ss50ELEMENT_TYPE_OF_SET_VIOLATES_HASHABLE_REQUIREMENTSys5NeverOypXpF
-+ _$s8GroupKit13GPKMemberRoleOMa
-+ _$s8GroupKit14GPKRSVPRequestC4RSVPO6acceptyA2EmFWC
-+ _$s8GroupKit15GPKGroupManagerC4rsvp4withAA0C0CAA14GPKRSVPRequestC_tYaKFTjTu
-+ _$s8GroupKit8GPKGroupCMa
-+ _$s8GroupKit8GPKGroupC9JoinStateO6joinedyA2EmFWC
-+ _$ss18_CocoaArrayWrapperV8endIndexSivg
-+ _$s8GroupKit17GPKMemberPropertyP6handleSSvgTq
-+ _$s8GroupKit9GPKMemberC4roleAA0C4RoleOvgTj
-+ _swift_isUniquelyReferenced_nonNull_bridgeObject
-+ _$ss11_SetStorageC4copy8originalAByxGs05__RawaB0C_tFZ
-+ _$s8GroupKit15GPKGroupManagerC6sharedACvgZ
-+ _$ss15ContiguousArrayV12_endMutationyyFyXl_Ts5
-+ _$ss15ContiguousArrayV37_appendElementAssumeUniqueAndCapacity_03newD0ySi_xntFyXl_Ts5
-+ _$s8GroupKit17GPKMemberPropertyMp
-+ _$sSayxGSlsMc
-+ _$sSa10FoundationE36_unconditionallyBridgeFromObjectiveCySayxGSo7NSArrayCSgFZ
-+ _$s8GroupKit15GPKGroupManagerC06createA04withAA0C0CAA09GPKCreateA7RequestC_tYaKFTjTu
-+ _$ss15ContiguousArrayV36_reserveCapacityAssumingUniqueBuffer8oldCountySi_tFyXl_Ts5
-+ _$ss11_SetStorageC6resize8original8capacity4moveAByxGs05__RawaB0C_SiSbtFZ
-+ __swift_stdlib_bridgeErrorToNSError
 + _$s8GroupKit09GPKDeleteA7RequestC7groupIDAcA08GPKGroupF0V_tcfc
++ _$s8GroupKit13GPKMemberRoleOSQAAMc
++ _$s8GroupKit14GPKRSVPRequestC4RSVPO7declineyA2EmFWC
++ _$ss15ContiguousArrayV034_makeUniqueAndReserveCapacityIfNotD0yyFyXl_Ts5
++ _$s8GroupKit15GPKMemberPolicyO12fullyManagedyA2CmFWC
++ _$s8GroupKit8GPKGroupC9JoinStateOMn
++ _$sSa10FoundationE36_unconditionallyBridgeFromObjectiveCySayxGSo7NSArrayCSgFZ
++ _swift_retain_n
++ _$s8GroupKit15GPKGroupManagerC06deleteA04withyAA09GPKDeleteA7RequestC_tYaKFTjTu
++ _$s12FamilyCircle20GroupKitFeatureFlagsOMa
++ _$s8GroupKit8GPKGroupC14managedMembersSayAA9GPKMemberCGvgTj
++ _$s8GroupKit8GPKGroupC8meMemberAA9GPKMemberCSgvgTj
 + _$s8GroupKit15GPKGroupManagerCMa
 + _$s8GroupKit14GPKRSVPRequestC7groupID4rsvpAcA08GPKGroupE0V_AC4RSVPOtcfc
-+ _$s12FamilyCircle20GroupKitFeatureFlagsOMa
-+ _$s8GroupKit8GPKGroupCs23CustomStringConvertibleAAMc
-+ _$s8GroupKit09GPKUpdateA7RequestC03setA13MetadataValue_6forKeyySSSg_SStFTj
-+ _$s8GroupKit15GPKMemberPolicyOMa
-+ _$s8GroupKit21GPKFetchGroupsRequestCMa
-+ _$s8GroupKit8GPKGroupC7groupIDAA0cE0VvgTj
 + _$ss10_HashTableV12previousHole6beforeAB6BucketVAF_tF
-+ _$s8GroupKit09GPKUpdateA7RequestCMa
-+ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFyXl_Ts5
-+ _$sSo17OS_dispatch_queueC8DispatchE20AutoreleaseFrequencyO7inherityA2EmFWC
-+ _$s8GroupKit8GPKGroupC9JoinStateO7pendingyA2EmFWC
-+ _$s12FamilyCircle20GroupKitFeatureFlagsO12familyShadowyA2CmFWC
-+ _$sSh15minimumCapacityShyxGSi_tcfC
-+ _$s8GroupKit10GPKGroupIDVMa
-+ _$s8GroupKit09GPKCreateA7RequestC11groupDomainSSSgvsTj
-+ _$s8GroupKit8GPKGroupC7membersSayAA9GPKMemberCGvgTj
-+ _$s8GroupKit15GPKGroupManagerC06deleteA04withyAA09GPKDeleteA7RequestC_tYaKFTjTu
-+ _$s8GroupKit09GPKDeleteA7RequestCMa
-+ _$ss12_ArrayBufferV19_getElementSlowPathyyXlSiFyXl_Ts5
-+ _$ss15ContiguousArrayV034_makeUniqueAndReserveCapacityIfNotD0yyFyXl_Ts5
-+ _$s8GroupKit8GPKGroupC14managedMembersSayAA9GPKMemberCGvgTj
-+ _$s8GroupKit13GPKMemberRoleOMn
-+ _$s8GroupKit8GPKGroupC9JoinStateOMa
-+ _$s8GroupKit15GPKGroupManagerC06updateA04withAA0C0CAA09GPKUpdateA7RequestC_tYaKFTjTu
-+ _$s8GroupKit13GPKMemberRoleO6memberyA2CmFWC
-+ _$s8GroupKit21GPKFetchGroupsRequestC11groupDomainSSSgvsTj
-+ _$sSQ2eeoiySbx_xtFZTj
-+ _$s12FamilyCircle0A6LoggerO08groupkitA6Shadow2os0C0VvgZ
-+ _malloc
-+ _$s8GroupKit10GPKGroupIDVs23CustomStringConvertibleAAMc
-+ _swift_retain_n
-+ _$s8GroupKit15GPKGroupManagerC11fetchGroups4withSayAA0C0CGAA08GPKFetchF7RequestC_tYaKFTjTu
-+ _$s8GroupKit17GPKMemberPropertyP8metadataSDyS2SGvgTq
-+ _$s8GroupKit21GPKFetchGroupsRequestC9joinStateAA8GPKGroupC04JoinG0OSgvsTj
-+ _$s8GroupKit09GPKCreateA7RequestC7membersACSayAA17GPKMemberProperty_pG_tcfC
++ _$s8GroupKit14GPKRSVPRequestC4RSVPOMa
++ _$s8GroupKit8GPKGroupC7groupIDAA0cE0VvgTj
 + _$s8GroupKit17GPKMemberPropertyP4roleAA0C4RoleOvgTq
++ __swift_stdlib_bridgeErrorToNSError
 + _$sSa11descriptionSSvg
-+ _$s8GroupKit21GPKFetchGroupsRequestCACycfc
-+ _$s12FamilyCircle20GroupKitFeatureFlagsO9isEnabledSbvg
-+ _$s8GroupKit09GPKUpdateA7RequestC11groupDomainSSSgvsTj
-+ _$s8GroupKit14GPKRSVPRequestC4RSVPO7declineyA2EmFWC
-+ _OBJC_CLASS_$_FAFamilyMember
++ _$s8GroupKit15GPKGroupManagerC06updateA04withAA0C0CAA09GPKUpdateA7RequestC_tYaKFTjTu
++ _$s8GroupKit15GPKGroupManagerC06createA04withAA0C0CAA09GPKCreateA7RequestC_tYaKFTjTu
++ _$ss18_CocoaArrayWrapperV8endIndexSivg
++ _$s8GroupKit09GPKUpdateA7RequestCMa
 + _$s8GroupKit17GPKMemberPropertyP6policyAA0C6PolicyOvgTq
++ _$s8GroupKit09GPKCreateA7RequestCMa
++ _$s8GroupKit21GPKFetchGroupsRequestCMa
++ _$s8GroupKit17GPKMemberPropertyMp
++ _$s8GroupKit8GPKGroupCs23CustomStringConvertibleAAMc
++ _$s8GroupKit13GPKMemberRoleO6memberyA2CmFWC
++ _$s8GroupKit15GPKGroupManagerC4rsvp4withAA0C0CAA14GPKRSVPRequestC_tYaKFTjTu
++ _$s8GroupKit14GPKRSVPRequestCMa
++ _$sSh15minimumCapacityShyxGSi_tcfC
++ _$s8GroupKit14GPKRSVPRequestC4RSVPO6acceptyA2EmFWC
++ _$s8GroupKit13GPKMemberRoleOMn
++ _$s8GroupKit9GPKMemberC4roleAA0C4RoleOvgTj
++ _$sSa12_endMutationyyFyXl_Ts5
++ _$s12FamilyCircle20GroupKitFeatureFlagsO12familyShadowyA2CmFWC
++ _$sSo14FAFamilyCircleC06FamilyB0E17pendingMemberListSaySo0aE0CGyF
++ _$s8GroupKit10GPKGroupIDVs23CustomStringConvertibleAAMc
++ _$s8GroupKit10GPKGroupIDVMa
++ _$s12FamilyCircle20GroupKitFeatureFlagsO9isEnabledSbvg
++ _$sSayxGSlsMc
++ _$s8GroupKit09GPKUpdateA7RequestC11groupDomainSSSgvsTj
++ _$ss15ContiguousArrayV37_appendElementAssumeUniqueAndCapacity_03newD0ySi_xntFyXl_Ts5
++ _$s8GroupKit17GPKMemberPropertyP8metadataSDyS2SGvgTq
++ _$ss11_SetStorageC4copy8originalAByxGs05__RawaB0C_tFZ
++ _$s8GroupKit8GPKGroupC9JoinStateOMa
++ _$ss15ContiguousArrayV36_reserveCapacityAssumingUniqueBuffer8oldCountySi_tFyXl_Ts5
++ _OBJC_CLASS_$_FAFamilyMember
++ _swift_isUniquelyReferenced_nonNull_bridgeObject
++ _$s8GroupKit21GPKFetchGroupsRequestC11groupDomainSSSgvsTj
++ _$ss50ELEMENT_TYPE_OF_SET_VIOLATES_HASHABLE_REQUIREMENTSys5NeverOypXpF
++ _$s8GroupKit21GPKFetchGroupsRequestC9joinStateAA8GPKGroupC04JoinG0OSgvsTj
++ _$s8GroupKit17GPKMemberPropertyP6handleSSvgTq
++ _$s8GroupKit09GPKUpdateA7RequestC5group14diffingMembersAcA8GPKGroupC_SayAA17GPKMemberProperty_pGtcfC
++ _$s8GroupKit15GPKGroupManagerC6sharedACvgZ
++ _$s8GroupKit15GPKGroupManagerC11fetchGroups4withSayAA0C0CGAA08GPKFetchF7RequestC_tYaKFTjTu
++ _$s8GroupKit13GPKMemberRoleOMa
++ _$s12FamilyCircle0A6LoggerO08groupkitA6Shadow2os0C0VvgZ
++ _$s8GroupKit09GPKCreateA7RequestC11groupDomainSSSgvsTj
++ _$s8GroupKit8GPKGroupC9JoinStateO7pendingyA2EmFWC
++ _$ss12_ArrayBufferV19_getElementSlowPathyyXlSiFyXl_Ts5
++ _malloc
++ _$s8GroupKit8GPKGroupC7membersSayAA9GPKMemberCGvgTj
++ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFyXl_Ts5
++ _$s8GroupKit8GPKGroupC11valueForKeyySSSgSSF
++ _$sSQ2eeoiySbx_xtFZTj
++ _$s8GroupKit09GPKDeleteA7RequestCMa
++ _$s8GroupKit8GPKGroupC22invitationSenderHandleSSSgvgTj
++ _$s8GroupKit8GPKGroupC9JoinStateO6joinedyA2EmFWC
++ _$ss11_SetStorageC6resize8original8capacity4moveAByxGs05__RawaB0C_SiSbtFZ
++ _$s8GroupKit09GPKCreateA7RequestC03setA13MetadataValue_6forKeyySSSg_SStFTj
++ _$sSo17OS_dispatch_queueC8DispatchE20AutoreleaseFrequencyO7inherityA2EmFWC
++ _$s8GroupKit8GPKGroupCMa
++ _$ss15ContiguousArrayV12_endMutationyyFyXl_Ts5
++ _$s8GroupKit21GPKFetchGroupsRequestCACycfc
++ _$s8GroupKit15GPKMemberPolicyOMa
++ _$s8GroupKit13GPKMemberRoleO5adminyA2CmFWC
++ _$s8GroupKit09GPKCreateA7RequestC7membersACSayAA17GPKMemberProperty_pG_tcfC
++ _$s8GroupKit09GPKUpdateA7RequestC03setA13MetadataValue_6forKeyySSSg_SStFTj
 CStrings:
-+ "fetchFamilyCircleWithError:"
-+ "isChildAccount"
-+ "No invitation or existing group found, attempting to create new shadow group"
-+ "domainName"
-+ "Found a shadow group for current family: %!s(MISSING)"
-+ "com.apple.familycircle.groupkit.member.lastName"
-+ "Family circle found with members: %!l(MISSING)d, pending: %!l(MISSING)d"
-+ "com.apple.familycircle.groupkit.member.childaccount"
-+ "No invitation found, now checking for existing groups"
-+ "After group creation: Family members - %!l(MISSING)d"
-+ "After update: Shadow group members - %!l(MISSING)d"
-+ "Shadow group is disabled"
-+ "Shadow group not created for the family"
-+ "sharedService"
-+ "After group creation: Shadow group managed members - %!l(MISSING)d"
-+ "Family member: %!s(MISSING))"
-+ "pendingTaskCount"
-+ "UnsafeMutableRawBufferPointer.copyMemory source has too many elements"
-+ "❌ Error occured while creating a new family group: %!@(MISSING)"
-+ "Shadow group is enabled"
-+ "Pending member: %!s(MISSING))"
-+ "✅ Cleanup performed successfully for groups: %!s(MISSING)"
-+ "com.apple.familycircle.groupkit.member.firstName"
-+ "Family doesn't have familyID, so not updating a shadow group: %!@(MISSING)"
-+ "Shadow family group domain Name: %!s(MISSING)"
-+ "❌ Error occured while cleaning up family groups: %!@(MISSING)"
-+ "❌ Error occured while processing existing shadow group: %!@(MISSING)"
-+ "Error occured while fethcing family circle: %!@(MISSING)"
-+ "Family doesn't have familyID, so not creating a shadow group: %!@(MISSING)"
-+ "Updating existing shadow group..."
-+ "Current member is not a family organizer, only organizer can update a family group."
-+ "✅ Family shadow group invitation declined: %!s(MISSING)"
-+ "FAGroupKitShadowService"
-+ "After update: Family members - %!l(MISSING)d"
-+ "User is not a part of a family, no shadow work to do at this time"
-+ "✅ Shadow group updated: %!s(MISSING)"
-+ "inviteEmail"
-+ "Me-member not found in family circle, no RSVP operation performed."
-+ "com.apple.familycircle.groupkit.familyID"
-+ "After group creation: Shadow group members - %!l(MISSING)d"
-+ "Joined shadow groups: %!s(MISSING)"
-+ "isOrganizer"
-+ "✅ Shadow group created for family: %!s(MISSING)"
-+ "Current member is not a family organizer, only organizer can create a family group."
-+ "appleID"
-+ "❌ Error occured while processing shadow group invitations: %!@(MISSING)"
-+ "More than one shadow group found for same family %!s(MISSING)"
-+ "User haven't responded to any of the family invitations yet."
-+ "performShadowOperation"
 + "_unsafeIsBusy"
-+ "Me member does not have admin privilege to delete the group: %!s(MISSING)"
-+ "memberIsPending"
 + "com.apple.familycircle.groupkit.shadow.queue"
-+ "✅ Family shadow group invitation accepted: %!s(MISSING)"
++ "isChildAccount"
++ "memberIsPending"
++ "❌ Error occured while creating a new family group: %!@(MISSING)"
++ "com.apple.familycircle.groupkit.familyID"
++ "domainName"
++ "After update: Family members - %!l(MISSING)d"
++ "Shadow group is enabled"
++ "❌ Error occured while cleaning up family groups: %!@(MISSING)"
++ "No invitation or existing group found, attempting to create new shadow group"
++ "User haven't responded to any of the family invitations yet."
++ "Shadow family group domain Name: %!s(MISSING)"
++ "appleID"
++ "Current member is not a family organizer, only organizer can update a family group."
 + "Shadow family group deleted by group admin: %!s(MISSING)"
-+ "T@\"FAGroupKitShadowService\",N,R"
++ "Me-member not found in family circle, no RSVP operation performed."
++ "com.apple.familycircle.groupkit.member.childaccount"
++ "Joined shadow groups: %!s(MISSING)"
++ "Pending member: %!s(MISSING))"
++ "✅ Shadow group updated: %!s(MISSING)"
++ "FAGroupKitShadowService"
++ "Family circle found with members: %!l(MISSING)d, pending: %!l(MISSING)d"
++ "isOrganizer"
++ "com.apple.familycircle.groupkit.member.lastName"
++ "After update: Shadow group members - %!l(MISSING)d"
 + "After update: Shadow group managed members - %!l(MISSING)d"
-+ "Found %!l(MISSING)d groups to be deleted"
++ "Updating existing shadow group..."
++ "performShadowOperation"
++ "After group creation: Shadow group managed members - %!l(MISSING)d"
++ "✅ Cleanup performed successfully for groups: %!s(MISSING)"
++ "✅ Shadow group created for family: %!s(MISSING)"
++ "Family doesn't have familyID, so not updating a shadow group: %!@(MISSING)"
++ "❌ Error occured while processing existing shadow group: %!@(MISSING)"
++ "Current member is not a family organizer, only organizer can create a family group."
++ "More than one shadow group found for same family %!s(MISSING)"
++ "Found a shadow group for current family: %!s(MISSING)"
++ "T@\"FAGroupKitShadowService\",N,R"
++ "After group creation: Shadow group members - %!l(MISSING)d"
++ "fetchFamilyCircleWithError:"
++ "✅ Family shadow group invitation declined: %!s(MISSING)"
++ "Family member: %!s(MISSING))"
++ "After group creation: Family members - %!l(MISSING)d"
++ "No invitation found, now checking for existing groups"
++ "sharedService"
++ "User is not a part of a family, no shadow work to do at this time"
++ "Shadow group not created for the family"
++ "UnsafeMutableRawBufferPointer.copyMemory source has too many elements"
 + "Swift/UnsafeRawBufferPointer.swift"
++ "Family doesn't have familyID, so not creating a shadow group: %!@(MISSING)"
++ "❌ Error occured while processing shadow group invitations: %!@(MISSING)"
++ "✅ Family shadow group invitation accepted: %!s(MISSING)"
++ "Me member does not have admin privilege to delete the group: %!s(MISSING)"
++ "pendingTaskCount"
++ "inviteEmail"
++ "Shadow group is disabled"
++ "Error occured while fethcing family circle: %!@(MISSING)"
++ "Found %!l(MISSING)d groups to be deleted"
++ "com.apple.familycircle.groupkit.member.firstName"
 
 ```

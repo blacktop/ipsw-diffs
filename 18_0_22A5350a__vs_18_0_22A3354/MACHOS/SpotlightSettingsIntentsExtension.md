@@ -60,11 +60,11 @@
 Symbols:
 + _swift_getKeyPath
 CStrings:
-+ "Show me my search preferences"
 + "Open Search Settings"
++ "Show me my search preferences"
 + "Show Spotlight Settings"
++ "Spotlight Settings"
 + "What are my enabled apps in Search?"
 + "Go to my search settings"
-+ "Spotlight Settings"
 
 ```

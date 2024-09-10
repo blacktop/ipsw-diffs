@@ -63,21 +63,21 @@
 Symbols:
 + _swift_getKeyPath
 CStrings:
-+ "Camera mirror front camera setting"
-+ "Camera level setting"
++ "Open slow-mo settings"
++ "Camera format settings"
++ "Camera scan QR Codes setting"
 + "Open slow motion settings"
 + "Open video settings"
-+ "Camera format settings"
-+ "Camera preserve settings"
 + "Open record video settings"
-+ "Camera video settings"
-+ "Camera grid setting"
 + "Open phone settings"
-+ "Open slow-mo settings"
-+ "Open camera format settings"
-+ "Open camera preserve settings"
-+ "Camera scan QR Codes setting"
++ "Camera grid setting"
 + "Camera slow-mo settings"
++ "Camera level setting"
 + "Open camera settings"
++ "Open camera preserve settings"
++ "Camera preserve settings"
++ "Camera video settings"
++ "Open camera format settings"
++ "Camera mirror front camera setting"
 
 ```

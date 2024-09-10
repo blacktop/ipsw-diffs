@@ -73,16 +73,16 @@
 Symbols:
 + _OBJC_CLASS_$_AVCaptureSystemZoomSlider
 CStrings:
-+ "sessionControlsWillEnterFullscreenAppearance:"
 + "sessionControlsDidBecomeActive:"
-+ "sessionControlsWillExitFullscreenAppearance:"
-+ "initWithDevice:"
-+ "v24@0:8@\"AVCaptureSession\"16"
 + "areControlsSupported"
-+ "sessionControlsDidBecomeInactive:"
-+ "AVCaptureSessionControlsDelegate"
-+ "setControlsDelegate:queue:"
++ "sessionControlsWillEnterFullscreenAppearance:"
 + "canAddControl:"
++ "sessionControlsDidBecomeInactive:"
 + "addControl:"
++ "AVCaptureSessionControlsDelegate"
++ "initWithDevice:"
++ "sessionControlsWillExitFullscreenAppearance:"
++ "v24@0:8@\"AVCaptureSession\"16"
++ "setControlsDelegate:queue:"
 
 ```

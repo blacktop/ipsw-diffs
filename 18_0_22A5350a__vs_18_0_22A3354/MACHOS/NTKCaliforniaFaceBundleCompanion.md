@@ -57,7 +57,7 @@ Symbols:
 + _OBJC_CLASS_$_NSValue
 - ___NSDictionary0__struct
 CStrings:
-+ "valueWithBytes:objCType:"
 + "{CGPoint=dd}"
++ "valueWithBytes:objCType:"
 
 ```

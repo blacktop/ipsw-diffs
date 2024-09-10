@@ -49,22 +49,22 @@
 +  CStrings:  654
  
 Symbols:
-+ _SBLogButtonsCapture
-+ _SBLogCameraCaptureLaunch
-+ _SBLogCameraCaptureRestriction
-+ _SBLogCameraCaptureSuppression
 + _SBLogCameraCaptureButtonScanMode
-+ _SBLogCameraCaptureLaunchAnimation
-+ _SBLogCameraCaptureStudyLogs
 + _SBLogCameraCaptureOverlay
++ _SBLogCameraCaptureSuppression
++ _SBLogCameraCaptureLaunchAnimation
++ _SBLogCameraCaptureLaunch
++ _SBLogCameraCaptureStudyLogs
++ _SBLogButtonsCapture
++ _SBLogCameraCaptureRestriction
 CStrings:
-+ "CameraCaptureLaunchAnimation"
-+ "CameraCaptureButtonScanMode"
 + "CameraCaptureRestriction"
-+ "CameraCaptureStudyLogs"
 + "Capture"
-+ "CameraCaptureLaunch"
++ "CameraCaptureButtonScanMode"
 + "CameraCaptureSuppression"
 + "CameraCaptureOverlay"
++ "CameraCaptureStudyLogs"
++ "CameraCaptureLaunchAnimation"
++ "CameraCaptureLaunch"
 
 ```

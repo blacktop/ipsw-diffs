@@ -61,7 +61,7 @@ Symbols:
 + _swift_getKeyPath
 + __swiftEmptyArrayStorage
 CStrings:
-+ "Device Management"
 + "Provisioning Profiles"
++ "Device Management"
 
 ```

@@ -34,9 +34,9 @@
 +  CStrings:  1434
  
 CStrings:
-+ "com.apple.boardwalk.watchapp.widgets"
 + "Tides"
-+ "com.apple.boardwalk.watchapp"
 + "Swell"
++ "com.apple.boardwalk.watchapp"
++ "com.apple.boardwalk.watchapp.widgets"
 
 ```

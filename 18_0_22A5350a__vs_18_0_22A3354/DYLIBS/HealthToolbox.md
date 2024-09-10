@@ -66,7 +66,7 @@
 Symbols:
 + _OBJC_CLASS_$_HKSleepApneaUtilities
 CStrings:
-+ "localizedTitleForBreathingDisturbances:"
 + "WDAppleSleepingBreathingDisturbancesListDataProvider"
++ "localizedTitleForBreathingDisturbances:"
 
 ```

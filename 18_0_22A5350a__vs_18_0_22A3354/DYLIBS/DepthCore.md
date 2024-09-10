@@ -63,9 +63,9 @@
 +  CStrings:  271
  
 CStrings:
-+ "CHARON_BEYOND_M_SUNDRIFT"
-+ "Localizable-Sundrift"
-+ "Sundrift"
 + "CHARON_BEYOND_FT_SUNDRIFT"
++ "Sundrift"
++ "Localizable-Sundrift"
++ "CHARON_BEYOND_M_SUNDRIFT"
 
 ```

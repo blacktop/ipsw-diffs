@@ -63,9 +63,9 @@
 +  CStrings:  48
  
 CStrings:
-+ "Is Contact Key Verification enabled?"
 + "What is my Contact Key Verification public verification code?"
-+ "Show my Contact Key Verification public verification code."
++ "Is Contact Key Verification enabled?"
 + "Show Contact Key Verification status."
++ "Show my Contact Key Verification public verification code."
 
 ```

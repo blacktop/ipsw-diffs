@@ -62,14 +62,14 @@
 Symbols:
 + _swift_getKeyPath
 CStrings:
-+ "Emergency SOS set up emergency contacts setting"
 + "Emergency SOS call with five presses setting"
 + "Emergency SOS call with hold and release setting"
-+ "Open SOS settings"
 + "Emergency SOS call quietly"
-+ "Open car settings"
-+ "Open Emergency SOS settings"
 + "Open Emergency settings"
++ "Open Emergency SOS settings"
++ "Open car settings"
++ "Emergency SOS set up emergency contacts setting"
 + "Open crash settings"
++ "Open SOS settings"
 
 ```

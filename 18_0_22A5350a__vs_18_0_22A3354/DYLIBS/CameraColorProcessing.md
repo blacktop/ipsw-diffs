@@ -55,14 +55,14 @@
 +  CStrings:  1451
  
 Symbols:
-+ _kFigCaptureStillImageProcessingMetadataKey_StereoPhotoPrimaryAWBMetadata
 + _kFigCaptureSampleBufferMetadata_StillImageProcessingMetadata
++ _kFigCaptureStillImageProcessingMetadataKey_StereoPhotoPrimaryAWBMetadata
 CStrings:
-+ "D47"
-+ "D48"
-+ "D93"
 + "D94"
-- "D"
++ "D47"
++ "D93"
++ "D48"
 - "hasPrefix:"
+- "D"
 
 ```

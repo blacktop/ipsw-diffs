@@ -49,10 +49,10 @@
  
 CStrings:
 + "GM"
-- "Carrier"
 - "CarrierSeed"
+- "Carrier"
 - "seed"
-- "Seed"
 - "%!@(MISSING)-seed"
+- "Seed"
 
 ```

@@ -30,7 +30,7 @@
 +  CStrings:  312
  
 CStrings:
-- "hangtracerd"
 - "client %!s(MISSING) [%!d(MISSING)] requested for tailspin data but was rejected by the allowlist"
+- "hangtracerd"
 
 ```

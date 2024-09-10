@@ -57,11 +57,11 @@
 +  CStrings:  12571
  
 CStrings:
-+ "H17P.bundle"
-+ "H17.bundle"
-+ "H14D"
-+ "h17"
-+ "H17"
 + "H14S"
++ "H14D"
++ "H17P.bundle"
++ "h17"
++ "H17.bundle"
++ "H17"
 
 ```

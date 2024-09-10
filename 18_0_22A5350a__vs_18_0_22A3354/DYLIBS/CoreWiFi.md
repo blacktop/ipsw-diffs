@@ -44,9 +44,9 @@
 +  CStrings:  7393
  
 CStrings:
-+ "11BE"
 + "sae_ext"
-+ "be/"
 + "ft_sae_ext"
++ "11BE"
++ "be/"
 
 ```

@@ -67,80 +67,80 @@
 +  CStrings:  4538
  
 Symbols:
++ _OBJC_CLASS_$_HKSampleQuery
++ _OBJC_CLASS_$_HKFeatureStatusManager
++ _OBJC_CLASS_$_HDSPSleepApneaAnalyticsBuilder
 + _OBJC_CLASS_$_NSSortDescriptor
++ _HKFeatureAvailabilityRequirementIdentifierFeatureIsOn
++ _HKFeatureAvailabilityContextUsage
++ _OBJC_CLASS_$_HKSampleType
++ _OBJC_METACLASS_$_HDSPSleepApneaAnalyticsBuilder
++ _HKFeatureIdentifierSleepApneaNotifications
++ _HKSampleSortIdentifierStartDate
++ _HKQuantityTypeIdentifierAppleSleepingBreathingDisturbances
 + _OBJC_CLASS_$_HKQueryDescriptor
 + _OBJC_CLASS_$_NSPredicate
-+ _HKQuantityTypeIdentifierAppleSleepingBreathingDisturbances
-+ _OBJC_CLASS_$_HKSampleQuery
-+ _HKFeatureAvailabilityContextUsage
-+ _HKFeatureIdentifierSleepApneaNotifications
-+ _OBJC_CLASS_$_HKSampleType
-+ _HKFeatureAvailabilityRequirementIdentifierFeatureIsOn
-+ _HKSampleSortIdentifierStartDate
-+ _OBJC_CLASS_$_HDSPSleepApneaAnalyticsBuilder
-+ _OBJC_METACLASS_$_HDSPSleepApneaAnalyticsBuilder
-+ _OBJC_CLASS_$_HKFeatureStatusManager
 CStrings:
-+ "[%!{(MISSING)public}@] Building daily analytics report from %!{(MISSING)public}lu bd samples"
-+ "setNumBDValuesInPastNight:"
-+ "initWithFeatureIdentifier:healthStore:"
-+ "setIsOnboardedBD:"
-+ "_breathingDisturbanceSamplesInPastNight"
-+ "initWithBreathingDisturbanceSamples:sleepApneaFeatureStatus:morningIndexRange:gregorianCalendar:"
-+ "setMeanTimeBetweenBDSessionsPastNight:"
-+ "[%!{(MISSING)public}@] Queries failed with error: %!{(MISSING)public}@"
-+ "[%!{(MISSING)public}@] Beginning bd queries"
-+ "_meanTimeBetweenBDSessionsPastNight:"
-+ "@\"HKFeatureStatus\""
-+ "T@\"HKFeatureStatus\",R,N,V_sleepApneaFeatureStatus"
-+ "initWithEnvironment:daySummaries:breathingDisturbanceSamples:sleepApneaFeatureStatus:morningIndexRange:"
 + "_maxTimeBetweenBDSessionsPastNight:"
-+ "sleepApneaAnalyticsBuilder"
-+ "sleepApneaFeatureStatus"
++ "initWithBreathingDisturbanceSamples:sleepApneaFeatureStatus:morningIndexRange:gregorianCalendar:"
++ "_meanTimeBetweenBDSessionsPastNight:"
 + "_typeWithIdentifier:"
-+ "_timesBetweenBDSessions:"
-+ "_numBDValuesInPastNight:"
-+ "sortDescriptorWithKey:ascending:"
-+ "setMinTimeBetweenBDSessionsPastNight:"
-+ "_gregorianCalendar"
-+ "_sleepApneaAnalyticsBuilder"
-+ "@avg.doubleValue"
-+ "[%!{(MISSING)public}@] Queries succeeded"
++ "T@\"HKFeatureStatus\",R,N,V_sleepApneaFeatureStatus"
++ "sleepApneaFeatureStatus"
 + "featureStatusWithError:"
-+ "@\"NSCalendar\""
-+ "_minTimeBetweenBDSessionsPastNight:"
++ "[%!{(MISSING)public}@] Error while querying fetching apnea feature status: %!@(MISSING)"
++ "_isEnabledBD"
++ "v32@?0@\"HKSampleQuery\"8@\"NSArray\"16@\"NSError\"24"
 + "T@\"NSArray\",R,N,V_breathingDisturbanceSamples"
++ "setIsOnboardedBD:"
++ "initWithEnvironment:daySummaries:breathingDisturbanceSamples:sleepApneaFeatureStatus:morningIndexRange:"
++ "_breathingDisturbanceSamplesInPastNight"
++ "sortDescriptorWithKey:ascending:"
++ "gregorianCalendar"
++ "hk_predicateForSamplesInDayIndexRange:"
++ "setMaxTimeBetweenBDSessionsPastNight:"
++ "isOnboardingRecordPresent"
++ "@56@0:8@16@24{?=qq}32@48"
++ "[%!{(MISSING)public}@] Error while querying for breathing disturbance samples: %!@(MISSING)"
++ "@64@0:8@16@24@32@40{?=qq}48"
++ "setMinTimeBetweenBDSessionsPastNight:"
++ "isRequirementSatisfiedWithIdentifier:"
++ "breathingDisturbanceSamples"
++ "nebula"
++ "setNumBDValuesInPastNight:"
++ "_processQueryResultsWithSummaries:breathingDisturbanceSamples:sleepApneaFeatureStatus:queryRange:error:"
++ "@\"HDSPSleepApneaAnalyticsBuilder\""
++ "@\"NSCalendar\""
++ "_sleepApneaAnalyticsBuilder"
++ "_numBDValuesInPastNight:"
++ "initWithQueryDescriptors:limit:sortDescriptors:resultsHandler:"
++ "initWithFeatureIdentifier:healthStore:"
++ "valueForKeyPath:"
++ "@\"HKFeatureStatus\""
++ "B16@?0@\"HKSample\"8"
++ "setMeanTimeBetweenBDSessionsPastNight:"
++ "_gregorianCalendar"
++ "T@\"NSCalendar\",R,N,V_gregorianCalendar"
++ "T@\"HDSPSleepApneaAnalyticsBuilder\",R,N,V_sleepApneaAnalyticsBuilder"
++ "[%!{(MISSING)public}@] Queries succeeded"
++ "_breathingDisturbanceSamples"
++ "updateDailyReportWithSleepApneaAnalytics:"
++ "@avg.doubleValue"
++ "_minTimeBetweenBDSessionsPastNight:"
++ "v64@0:8@16@24@32{?=qq}40@56"
++ "[%!{(MISSING)public}@] Building daily analytics report from %!{(MISSING)public}lu bd samples"
++ "@max.doubleValue"
++ "HDSPSleepApneaAnalyticsBuilder"
++ "_timesBetweenBDSessions:"
 + "_sleepApneaFeatureStatus"
 + "initWithSampleType:predicate:"
-+ "[%!{(MISSING)public}@] Error while querying for breathing disturbance samples: %!@(MISSING)"
-+ "v64@0:8@16@24@32{?=qq}40@56"
-+ "@max.doubleValue"
-+ "breathingDisturbanceSamples"
-+ "@56@0:8@16@24{?=qq}32@48"
-+ "v32@?0@\"HKSampleQuery\"8@\"NSArray\"16@\"NSError\"24"
-+ "gregorianCalendar"
-+ "setMaxTimeBetweenBDSessionsPastNight:"
-+ "HDSPSleepApneaAnalyticsBuilder"
-+ "isRequirementSatisfiedWithIdentifier:"
-+ "T@\"HDSPSleepApneaAnalyticsBuilder\",R,N,V_sleepApneaAnalyticsBuilder"
-+ "valueForKeyPath:"
-+ "_breathingDisturbanceSamples"
-+ "@64@0:8@16@24@32@40{?=qq}48"
-+ "nebula"
-+ "@\"HDSPSleepApneaAnalyticsBuilder\""
-+ "hk_predicateForSamplesInDayIndexRange:"
-+ "T@\"NSCalendar\",R,N,V_gregorianCalendar"
-+ "initWithQueryDescriptors:limit:sortDescriptors:resultsHandler:"
-+ "B16@?0@\"HKSample\"8"
-+ "_isEnabledBD"
 + "_isOnboardedBD"
-+ "updateDailyReportWithSleepApneaAnalytics:"
-+ "[%!{(MISSING)public}@] Error while querying fetching apnea feature status: %!@(MISSING)"
-+ "isOnboardingRecordPresent"
 + "@min.doubleValue"
-+ "_processQueryResultsWithSummaries:breathingDisturbanceSamples:sleepApneaFeatureStatus:queryRange:error:"
-- "_processQueryResultsWithSummaries:queryRange:error:"
++ "sleepApneaAnalyticsBuilder"
++ "[%!{(MISSING)public}@] Queries failed with error: %!{(MISSING)public}@"
++ "[%!{(MISSING)public}@] Beginning bd queries"
 - "[%!{(MISSING)public}@] Query succeeded"
+- "_processQueryResultsWithSummaries:queryRange:error:"
 - "v48@0:8@16{?=qq}24@40"
 
 ```

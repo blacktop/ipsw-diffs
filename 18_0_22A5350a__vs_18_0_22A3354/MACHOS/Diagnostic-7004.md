@@ -48,18 +48,18 @@
 +  CStrings:  74
  
 Symbols:
-+ _objc_release_x25
-+ _MGGetBoolAnswer
 + _objc_release_x26
++ _objc_release_x25
++ _OBJC_CLASS_$_CRUtils
 + _OBJC_CLASS_$_NSNumber
 + _objc_retain_x8
-+ _OBJC_CLASS_$_CRUtils
++ _MGGetBoolAnswer
 + _objc_release_x24
 CStrings:
-+ "code"
 + "powerCycleSensor:"
++ "3kmXfug8VcxLI5yEmsqQKw"
 + "numberWithInteger:"
 + "InternalBuild"
-+ "3kmXfug8VcxLI5yEmsqQKw"
++ "code"
 
 ```

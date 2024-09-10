@@ -34,9 +34,9 @@
 +  CStrings:  5038
  
 CStrings:
-+ "Enabling NPI flag based on productType match"
-+ "mav22"
-+ "iPhone15"
 + "Enabling NPI flag based on baseband chipset match"
++ "Enabling NPI flag based on productType match"
++ "iPhone15"
++ "mav22"
 
 ```

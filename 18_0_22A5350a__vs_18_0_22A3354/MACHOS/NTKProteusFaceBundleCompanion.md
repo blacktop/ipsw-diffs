@@ -60,7 +60,7 @@
 Symbols:
 + _NTKEnableAODVibrancy
 CStrings:
-+ "__PrSrpAvoniaFont"
 + "__PrSftAvoniaFont"
++ "__PrSrpAvoniaFont"
 
 ```

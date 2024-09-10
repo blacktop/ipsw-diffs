@@ -64,19 +64,19 @@ Symbols:
 + _objc_release_x1
 + _OBJC_CLASS_$_NTKPigmentEditOption
 CStrings:
-+ "seasons.fall2024.magenta"
-+ "pigmentNamed:"
 + "seasons.fall2024.chartreuse"
++ "pigmentNamed:"
++ "v32@?0@\"NSString\"8Q16^B24"
++ "seasons.fall2024.ink"
++ "com.apple.boardwalk.watchapp.widgets"
++ "seasons.fall2024.denim"
++ "com.apple.boardwalk.watchapp"
++ "seasons.fall2024.magenta"
++ "seasons.fall2024.ultramarine"
++ "seasons.fall2024.lakeGreen"
++ "seasons.fall2024.darkTaupe"
++ "Swell"
 + "seasons.fall2024.plum"
 + "Tides"
-+ "v32@?0@\"NSString\"8Q16^B24"
-+ "com.apple.boardwalk.watchapp"
-+ "seasons.fall2024.ultramarine"
-+ "Swell"
-+ "com.apple.boardwalk.watchapp.widgets"
-+ "seasons.fall2024.darkTaupe"
-+ "seasons.fall2024.ink"
-+ "seasons.fall2024.denim"
-+ "seasons.fall2024.lakeGreen"
 
 ```

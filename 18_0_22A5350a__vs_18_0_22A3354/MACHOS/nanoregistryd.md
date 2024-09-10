@@ -43,14 +43,14 @@
 Symbols:
 + _NRDevicePropertyAbsoluteDepthLimit
 CStrings:
-+ "urchin"
-+ "90B8A394-4493-444D-AAA4-DDF6D6B68BC2"
 + "27"
++ "urchin"
 + "nebula"
-+ "Urchin"
-+ "46F59960-D16A-4E76-B7D1-A1B0BBC73923"
-+ "D6770323-EBBB-4867-A1A7-99F207C64094"
 + "DeviceSupportsBreathingDisturbancesMeasurements"
++ "46F59960-D16A-4E76-B7D1-A1B0BBC73923"
++ "Urchin"
++ "D6770323-EBBB-4867-A1A7-99F207C64094"
++ "90B8A394-4493-444D-AAA4-DDF6D6B68BC2"
 - "107"
 
 ```

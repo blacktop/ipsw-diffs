@@ -64,32 +64,32 @@
 +  CStrings:  1975
  
 Symbols:
-+ _IOHIDEventCreateForceStageEvent
 + _IOHIDEventCreateTouchSensitiveButtonEventWithRadius
++ _IOHIDEventCreateForceStageEvent
 CStrings:
-+ "touchSensitiveButtonLiftWithPage:withUsage:"
-+ "v32@0:8@\"NSNumber\"16@\"NSNumber\"24"
-+ "_touchSensitiveButtonEventWithPhase:withPage:withUsage:withStage:withTransition:withNormalizedForce:withNormalizedForceVelocity:withNormalizedPositionX:withNormalizedPositionDeltaX:withNormalizedPositionY:withNormalizedPositionDeltaY:withMajorRadius:withMinorRadius:withMask:withTouch:withNextThreshold:withPressedThreshold:withReleasedThreshold:"
 + "v52@0:8@\"NSNumber\"16@\"NSNumber\"24i32d36d44"
-+ "e"
-+ "touchSensitiveButtonEngagedWithPage:withUsage:withTouch:withNormalizedPositionY:withNormalizedPositionDeltaY:"
-+ "touchSensitiveButtonReleaseHoldWithPage:withUsage:withTouch:withNormalizedPositionY:withNormalizedPositionDeltaY:"
-+ "touchSensitiveButtonIntermediatePressWithPage:withUsage:withTouch:withNormalizedPositionY:withNormalizedPositionDeltaY:"
-+ "touchSensitiveButtonClickWithPage:withUsage:withTouch:withNormalizedPositionY:withNormalizedPositionDeltaY:"
-+ "touchSensitiveButtonEngagedWithLiftWithDuration:withPage:withUsage:withTouch:withNormalizedPositionY:withNormalizedPositionDeltaY:"
-+ "touchSensitiveButtonHoldWithPage:withUsage:withTouch:withNormalizedPositionY:withNormalizedPositionDeltaY:"
-+ "v140@0:8S16@20@28I36I40d44d52d60d68d76d84d92d100I108i112d116d124d132"
-+ "touchSensitiveButtonIntermediatePressWithDuration:withPage:withUsage:withTouch:withNormalizedPositionY:withNormalizedPositionDeltaY:"
-+ "Aug  3 2024"
-+ "v60@0:8d16@\"NSNumber\"24@\"NSNumber\"32i40d44d52"
-+ "Please specify a Tostada option 'c', 'i', 'e'.\n"
 + "10:07:14"
-+ "v60@0:8d16@24@32i40d44d52"
-+ "v52@0:8@16@24i32d36d44"
++ "touchSensitiveButtonReleaseHoldWithPage:withUsage:withTouch:withNormalizedPositionY:withNormalizedPositionDeltaY:"
++ "v60@0:8d16@\"NSNumber\"24@\"NSNumber\"32i40d44d52"
++ "touchSensitiveButtonIntermediatePressWithPage:withUsage:withTouch:withNormalizedPositionY:withNormalizedPositionDeltaY:"
 + "tbc"
-+ "touchSensitiveButtonHoldWithDuration:withPage:withUsage:withTouch:withNormalizedPositionY:withNormalizedPositionDeltaY:"
 + "touchSensitiveButtonEngagedWithDuration:withPage:withUsage:withTouch:withNormalizedPositionY:withNormalizedPositionDeltaY:"
-- "14:19:15"
++ "Please specify a Tostada option 'c', 'i', 'e'.\n"
++ "v60@0:8d16@24@32i40d44d52"
++ "touchSensitiveButtonLiftWithPage:withUsage:"
++ "v52@0:8@16@24i32d36d44"
++ "e"
++ "touchSensitiveButtonHoldWithDuration:withPage:withUsage:withTouch:withNormalizedPositionY:withNormalizedPositionDeltaY:"
++ "v140@0:8S16@20@28I36I40d44d52d60d68d76d84d92d100I108i112d116d124d132"
++ "touchSensitiveButtonClickWithPage:withUsage:withTouch:withNormalizedPositionY:withNormalizedPositionDeltaY:"
++ "Aug  3 2024"
++ "_touchSensitiveButtonEventWithPhase:withPage:withUsage:withStage:withTransition:withNormalizedForce:withNormalizedForceVelocity:withNormalizedPositionX:withNormalizedPositionDeltaX:withNormalizedPositionY:withNormalizedPositionDeltaY:withMajorRadius:withMinorRadius:withMask:withTouch:withNextThreshold:withPressedThreshold:withReleasedThreshold:"
++ "touchSensitiveButtonEngagedWithLiftWithDuration:withPage:withUsage:withTouch:withNormalizedPositionY:withNormalizedPositionDeltaY:"
++ "v32@0:8@\"NSNumber\"16@\"NSNumber\"24"
++ "touchSensitiveButtonIntermediatePressWithDuration:withPage:withUsage:withTouch:withNormalizedPositionY:withNormalizedPositionDeltaY:"
++ "touchSensitiveButtonHoldWithPage:withUsage:withTouch:withNormalizedPositionY:withNormalizedPositionDeltaY:"
++ "touchSensitiveButtonEngagedWithPage:withUsage:withTouch:withNormalizedPositionY:withNormalizedPositionDeltaY:"
 - "Aug  6 2024"
+- "14:19:15"
 
 ```

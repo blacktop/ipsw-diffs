@@ -82,14 +82,14 @@
 Symbols:
 + _HKCategoryTypeIdentifierSleepApneaEvent
 CStrings:
-+ "nebula"
-+ "HIGHLIGHTALERT_HEADLINE_SLEEP_APNEA_NOTIFICATION_1"
-+ "HighlightAlert-Localizable-Nebula"
-+ "imageNamed:inBundle:"
-+ "sleep-apnea-highlight-alert-icon"
-+ "Localizable-Nebula"
 + "POSSIBLE_SLEEP_APNEA_HIGHLIGHT_ALERT_TITLE"
-+ "displayTypeIdentifier"
++ "nebula"
++ "Localizable-Nebula"
++ "HighlightAlert-Localizable-Nebula"
 + "HIGHLIGHTALERT_SUBHEAD_SLEEP_APNEA_NOTIFICATION_1"
++ "HIGHLIGHTALERT_HEADLINE_SLEEP_APNEA_NOTIFICATION_1"
++ "sleep-apnea-highlight-alert-icon"
++ "displayTypeIdentifier"
++ "imageNamed:inBundle:"
 
 ```

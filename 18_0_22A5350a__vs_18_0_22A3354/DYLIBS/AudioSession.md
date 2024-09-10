@@ -51,10 +51,10 @@
 +  CStrings:  1352
  
 Symbols:
-+ _kMXSessionAudioMode_SpatialCapture
 + _AVAudioSessionModeSpatialCapture
++ _kMXSessionAudioMode_SpatialCapture
 CStrings:
-+ "AVAudioSessionModeSpatialCapture"
 + "allowsSpeakerPlayback"
++ "AVAudioSessionModeSpatialCapture"
 
 ```

@@ -70,30 +70,30 @@
 +  CStrings:  9556
  
 Symbols:
-+ _AXSSwitchControlMenuItemCameraButtonDoubleLightPress
-+ _AXDeviceSupportsCameraButton
-+ _IOHIDEventCreateForceStageEvent
-+ _AXAssistiveTouchIconTypeCameraButtonLightPress
-+ _AXAssistiveTouchIconTypeCameraButtonDoubleLightPress
-+ _IOHIDEventCreateTouchSensitiveButtonEvent
-+ _AXSSwitchControlMenuItemCameraButton
-+ _AXSSwitchControlMenuItemCameraButtonLightPress
 + _AXAssistiveTouchIconTypeCameraButton
++ _IOHIDEventCreateForceStageEvent
++ _AXDeviceSupportsCameraButton
++ _AXAssistiveTouchIconTypeCameraButtonDoubleLightPress
++ _AXSSwitchControlMenuItemCameraButtonDoubleLightPress
++ _AXAssistiveTouchIconTypeCameraButtonLightPress
++ _AXSSwitchControlMenuItemCameraButtonLightPress
++ _AXSSwitchControlMenuItemCameraButton
++ _IOHIDEventCreateTouchSensitiveButtonEvent
 CStrings:
-+ "camera button"
-+ "CameraButtonCapability"
-+ "camera button light press"
-+ "-D94"
-+ "AXAssistiveTouchIconTypeCameraButtonDoubleLightPress"
++ "_newTostadaButtonHIDEventRefWithType:"
 + "CameraButtonSensitivity"
 + "cameraButtonSensitivity"
++ "-D94"
++ "SWITCH_ACTION_CAMERA_BUTTON_DOUBLE_LIGHT_PRESS"
++ "camera button double light press"
++ "AXAssistiveTouchIconTypeCameraButtonDoubleLightPress"
++ "camera button"
++ "camera button light press"
++ "CameraButtonCapability"
 + "setCameraButtonSensitivity:"
++ "AXAssistiveTouchIconTypeCameraButtonLightPress"
 + "AXAssistiveTouchIconTypeCameraButton"
 + "SWITCH_ACTION_CAMERA_BUTTON"
-+ "AXAssistiveTouchIconTypeCameraButtonLightPress"
-+ "_newTostadaButtonHIDEventRefWithType:"
-+ "camera button double light press"
 + "SWITCH_ACTION_CAMERA_BUTTON_LIGHT_PRESS"
-+ "SWITCH_ACTION_CAMERA_BUTTON_DOUBLE_LIGHT_PRESS"
 
 ```

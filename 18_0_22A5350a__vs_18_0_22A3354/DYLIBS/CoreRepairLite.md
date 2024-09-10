@@ -38,12 +38,12 @@
 +  CStrings:  362
  
 CStrings:
++ "MSRk"
++ "MesaSensorIDSensorSN"
++ "NBCl"
 + "prpc"
-+ "mesa unsealed"
 + "Failed to read live sensor number, error: %!@(MISSING)"
 + "missing mesa SN"
-+ "MSRk"
-+ "NBCl"
-+ "MesaSensorIDSensorSN"
++ "mesa unsealed"
 
 ```

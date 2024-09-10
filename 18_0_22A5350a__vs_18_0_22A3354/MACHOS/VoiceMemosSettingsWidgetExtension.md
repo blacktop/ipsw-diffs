@@ -69,9 +69,9 @@
  
 CStrings:
 + "Change Voice Memos recording quality to "
-+ " setting to use "
 + " Location-based Naming"
 + " stereo recording"
++ " setting to use "
 + " stereo recording in "
 
 ```

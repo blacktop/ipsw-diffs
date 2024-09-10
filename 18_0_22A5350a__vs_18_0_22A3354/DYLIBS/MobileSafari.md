@@ -87,14 +87,14 @@
 +  CStrings:  13276
  
 CStrings:
-+ "Save this article to Reading List"
-+ "Listen to this page"
-+ "Search my tabs for "
-+ "New tab group named "
-+ "Start a tab group named "
-+ "Create a tab group named "
 + "Listen to this article in "
-+ "Listen to article"
++ "Search my tabs for "
 + "Add this to my Reading List"
++ "Start a tab group named "
++ "Listen to article"
++ "Save this article to Reading List"
++ "New tab group named "
++ "Listen to this page"
++ "Create a tab group named "
 
 ```

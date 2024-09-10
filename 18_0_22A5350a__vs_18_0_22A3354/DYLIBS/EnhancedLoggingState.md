@@ -32,11 +32,11 @@
 +  CStrings:  690
  
 CStrings:
-+ "com.apple.HealthLite.BreathingDisturbanceDiagnosticExtension"
-+ "hid_nebula_watch"
-+ "ENHANCED_LOGGING_NEBULA_WATCH"
-+ "ENHANCED_LOGGING_NEBULA_PHONE"
-+ "com.apple.BreathingAlgorithms.BDADiagnosticExtension"
 + "hid_nebula_phone"
++ "ENHANCED_LOGGING_NEBULA_WATCH"
++ "hid_nebula_watch"
++ "com.apple.BreathingAlgorithms.BDADiagnosticExtension"
++ "com.apple.HealthLite.BreathingDisturbanceDiagnosticExtension"
++ "ENHANCED_LOGGING_NEBULA_PHONE"
 
 ```

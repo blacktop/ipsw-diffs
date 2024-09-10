@@ -56,9 +56,9 @@ Symbols:
 + _AXAccessibilityBundlesDirectory
 + _accessibilityCameraUIDuoLocalizedString
 CStrings:
++ "CameraUI-Bravo"
 + "bundleWithPath:"
 + "stringByAppendingPathComponent:"
-+ "CameraUI-Bravo"
 + "CameraUI.axbundle"
 
 ```

@@ -53,7 +53,7 @@ Symbols:
 - _OBJC_CLASS_$_NSAssertionHandler
 CStrings:
 + "PlatformInfoOverrideIsSeedBuild"
-- "handleFailureInMethod:object:file:lineNumber:description:"
 - "currentHandler"
+- "handleFailureInMethod:object:file:lineNumber:description:"
 
 ```

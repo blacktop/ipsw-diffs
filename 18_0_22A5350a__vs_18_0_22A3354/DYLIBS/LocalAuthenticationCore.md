@@ -67,13 +67,13 @@
 +  CStrings:  4064
  
 CStrings:
-+ "@\"LACDTOSensorRepairStateProviderCRAdapter\"8@?0"
-+ "softlink:o:path:/System/Library/PrivateFrameworks/CoreRepairCore.framework/CoreRepairCore"
 + "%!{(MISSING)public}@ will start self-repair query"
 + "_fetchRepairStateWithCompletion:"
 + "%!{(MISSING)public}@ did finish self-repair query with result %!@(MISSING)"
-+ "CRIsSelfRepairedComponent"
 + "Required Core Repair dependency was not found"
++ "CRIsSelfRepairedComponent"
++ "softlink:o:path:/System/Library/PrivateFrameworks/CoreRepairCore.framework/CoreRepairCore"
++ "@\"LACDTOSensorRepairStateProviderCRAdapter\"8@?0"
 - "Core Repair not supported on this platform"
 - "%!{(MISSING)public}@ falling back to: %!{(MISSING)public}@ due to %!{(MISSING)public}@"
 

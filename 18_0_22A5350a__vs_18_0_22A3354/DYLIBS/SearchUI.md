@@ -84,11 +84,11 @@
 Symbols:
 + _swift_retain_n
 CStrings:
++ "Look for more results in "
++ "Limit search results to results from "
++ "Star Wars: The Rise of Skywalker"
 + "Show more details about "
 + "Tell me more about "
 + "Continue search in "
-+ "Star Wars: The Rise of Skywalker"
-+ "Limit search results to results from "
-+ "Look for more results in "
 
 ```

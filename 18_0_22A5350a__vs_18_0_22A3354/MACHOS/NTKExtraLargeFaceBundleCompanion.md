@@ -57,23 +57,23 @@
 +  CStrings:  491
  
 Symbols:
-+ _OBJC_CLASS_$_NTKPigmentEditOption
-+ _ntk_seasons_fall2024_chartreuse
-+ _CDGraphicExtraLargeComplicationContentDiameter
-+ _ntk_seasons_fall2024_lakeGreen
-+ _ntk_seasons_fall2024_darkTaupe
-+ _ntk_seasons_fall2024_magenta
-+ _objc_release_x1
-+ _objc_retain_x27
-+ _OBJC_CLASS_$_NSNumber
 + _ntk_seasons_fall2024_ultramarine
++ _objc_retain_x27
++ _ntk_seasons_fall2024_lakeGreen
 + _objc_retain_x26
++ _OBJC_CLASS_$_NSNumber
 + _ntk_seasons_fall2024_denim
-- _objc_retain_x24
++ _CDGraphicExtraLargeComplicationContentDiameter
++ _ntk_seasons_fall2024_magenta
++ _OBJC_CLASS_$_NTKPigmentEditOption
++ _objc_release_x1
++ _ntk_seasons_fall2024_chartreuse
++ _ntk_seasons_fall2024_darkTaupe
 - _objc_retain_x23
+- _objc_retain_x24
 CStrings:
-+ "pigmentNamed:"
 + "numberWithDouble:"
++ "pigmentNamed:"
 + "v32@?0@\"NSString\"8Q16^B24"
 
 ```

@@ -54,11 +54,11 @@
 +  CStrings:  14682
  
 CStrings:
-+ "20:09:02"
 + "B768E"
-+ "[AccessoryNotifier] The active audio route is B768E"
-+ "B768M"
 + "[AccessoryNotifier] The active audio route is B768M"
++ "20:09:02"
++ "B768M"
++ "[AccessoryNotifier] The active audio route is B768E"
 - "21:05:14"
 
 ```

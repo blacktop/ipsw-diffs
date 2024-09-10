@@ -60,26 +60,26 @@
 +  CStrings:  1781
  
 Symbols:
-+ _OBJC_CLASS_$_BLSCacheFlipbookOnDisplayWakeAttribute
 + _OBJC_METACLASS_$_BLSCacheFlipbookOnDisplayWakeAttribute
-+ _OBJC_CLASS_$_BLSGlobalCacheFlipbookOnDisplayWakeAttribute
-+ _OBJC_METACLASS_$_BLS1HzFlipbookAttribute
-+ _OBJC_CLASS_$_BLSGlobal1HzFlipbookAttribute
-+ _OBJC_METACLASS_$_BLSGlobalCacheFlipbookOnDisplayWakeAttribute
-+ _OBJC_CLASS_$_BLS1HzFlipbookAttribute
 + _OBJC_METACLASS_$_BLSGlobal1HzFlipbookAttribute
++ _OBJC_METACLASS_$_BLS1HzFlipbookAttribute
++ _OBJC_METACLASS_$_BLSGlobalCacheFlipbookOnDisplayWakeAttribute
++ _OBJC_CLASS_$_BLSCacheFlipbookOnDisplayWakeAttribute
++ _OBJC_CLASS_$_BLSGlobalCacheFlipbookOnDisplayWakeAttribute
++ _OBJC_CLASS_$_BLSGlobal1HzFlipbookAttribute
++ _OBJC_CLASS_$_BLS1HzFlipbookAttribute
 CStrings:
-+ "cacheFlipbookForFBSScene:"
-+ "cacheFlipbook"
-+ "BLSCacheFlipbookOnDisplayWakeAttribute"
-+ "set1HzFlipbookForFBSScene:"
-+ "BLSGlobalCacheFlipbookOnDisplayWakeAttribute"
-+ "BLS1HzFlipbookAttribute"
-+ "cacheFlipbookForFBSSceneIdentityToken:"
-+ "set1HzFlipbooForFBSSceneIdentityToken:"
-+ "com.apple.backlight.cache_flipbook_assertion"
-+ "com.apple.backlight.1hz_flipbook_assertion"
-+ "BLSGlobal1HzFlipbookAttribute"
 + "set1HzFlipbook"
++ "set1HzFlipbookForFBSScene:"
++ "BLS1HzFlipbookAttribute"
++ "BLSGlobalCacheFlipbookOnDisplayWakeAttribute"
++ "set1HzFlipbooForFBSSceneIdentityToken:"
++ "BLSCacheFlipbookOnDisplayWakeAttribute"
++ "BLSGlobal1HzFlipbookAttribute"
++ "cacheFlipbookForFBSScene:"
++ "com.apple.backlight.cache_flipbook_assertion"
++ "cacheFlipbook"
++ "cacheFlipbookForFBSSceneIdentityToken:"
++ "com.apple.backlight.1hz_flipbook_assertion"
 
 ```

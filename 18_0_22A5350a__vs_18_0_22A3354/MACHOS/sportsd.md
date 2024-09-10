@@ -84,55 +84,55 @@
 +  CStrings:  781
  
 Symbols:
-+ _$s9SportsKit18ContainerConstantsC26liveActivitiesTargetAppKeySSvgZ
-+ _$s9SportsKit13SportingEventC8scheduleAA0cD8ScheduleCSgvgTj
-+ _$s12FeatureFlags0aB3KeyMp
-+ _$s9SportsKit32SportingEventCompetitorContainerC7ordinalSiSgvgTj
-+ _$s12FeatureFlags0aB3KeyP7features12StaticStringVvgTq
-+ _$s11ActivityKit0A17AuthorizationInfoC0aC13StatusUpdatesV17makeAsyncIteratorAE0I0VyF
-+ _$s12FeatureFlags0aB3KeyP6domains12StaticStringVvgTq
-+ _$s9SportsKit13SportingEventC18localizedShortNameSayAA0cd16LocalizedDisplayG0CGSgvgTj
-+ _$s11ActivityKit0A17AuthorizationInfoC0aC6StatusO5allowyA2EmFWC
 + _$s11ActivityKit0A17AuthorizationInfoC0aC13StatusUpdatesV8IteratorVMa
-+ _$s9SportsKit32SportingEventCompetitorQualifierO4homeyA2CmFWC
-+ _$s9SportsKit18PersistentStorableP15writeAPSMessage_11canonicalId23isConventionalOrUnifiedySDys11AnyHashableVypG_SSSbtKFTj
 + _$s9SportsKit32SportingEventCompetitorQualifierOMa
 + _$s9SportsKit24SportingEventViewContextV15LocalizedTitlesV7preGameSSSgvg
-+ _$s11ActivityKit0A17AuthorizationInfoC0aC6StatusO02noC0yA2EmFWC
-+ _$s11ActivityKit0A17AuthorizationInfoC0aC13StatusUpdatesV8IteratorVScIAAMc
-+ _$s9SportsKit21SportingEventDurationC5startSdvg
-+ _$s9SportsKit18SportingEventImageC4typeSSvg
 + _$s9SportsKit24SportingEventViewContextV15LocalizedTitlesVMa
-+ _$s11ActivityKit0A17AuthorizationInfoC013unsubscribeToaC13StatusUpdates3forySS_tKF
-+ _$s9SportsKit23SportingEventCompetitorC12abbreviationSSSgvgTj
-+ _$s9SportsKit21SportingEventScheduleC8durationAA0cD8DurationCvg
 + _$s9SportsKit18SportingEventSportC11canonicalIdSSvg
-+ _$s9SportsKit32SportingEventCompetitorQualifierOMn
-+ _$s9SportsKit23SportingEventCompetitorC6imagesSayAA0cD5ImageCGSgvgTj
-+ _$s12FeatureFlags02isA7EnabledySbAA0aB3Key_pF
-+ _$s11ActivityKit0A17AuthorizationInfoC0aC13StatusUpdatesVMa
-+ _$s9SportsKit19SportingEventLeagueC5sportAA0cD5SportCvg
-+ _$s9SportsKit19SportingEventLeagueC11canonicalIdSSvg
-+ _$s9SportsKit18PersistentStorableP25writeRegistrationResponse_11canonicalId23isConventionalOrUnifiedy10Foundation4DataV_SSSbtKFTj
-+ _$s9SportsKit25SportingEventMetadataTypeO15backgroundColoryA2CmFWC
 + _$s9SportsKit23SportingEventCompetitorC9qualifierAA0cdE9QualifierOSgvgTj
-+ _$s9SportsKit23SportingEventCompetitorC20localizedDisplayNameSayAA0cd9LocalizedgH0CGSgvgTj
-+ _$s11ActivityKit0A17AuthorizationInfoC08activityC13StatusUpdatesAC0acfG0Vvg
-+ _$s11ActivityKit0A17AuthorizationInfoC011subscribeToaC13StatusUpdates3forySS_tKF
-+ _$s9SportsKit18SportingEventImageC5tokenSSvg
-+ _$s9SportsKit32SportingEventCompetitorQualifierOSQAAMc
-+ _$s9SportsKit24SportingEventViewContextV6titlesAC15LocalizedTitlesVSgvg
++ _$s9SportsKit19SportingEventLeagueC11canonicalIdSSvg
 + _$s9SportsKit16TemplateImageUrlV013templateThumbE04host5tokenSSSgSS_SStFZ
++ _$s9SportsKit25SportingEventMetadataTypeO15backgroundColoryA2CmFWC
++ _$s9SportsKit23SportingEventCompetitorC12abbreviationSSSgvgTj
++ _$s9SportsKit13SportingEventC18localizedShortNameSayAA0cd16LocalizedDisplayG0CGSgvgTj
++ _$s12FeatureFlags02isA7EnabledySbAA0aB3Key_pF
++ _$s11ActivityKit0A17AuthorizationInfoC0aC6StatusO02noC0yA2EmFWC
++ _$s9SportsKit32SportingEventCompetitorContainerC7ordinalSiSgvgTj
++ _$s12FeatureFlags0aB3KeyMp
++ _$s9SportsKit13SportingEventC8scheduleAA0cD8ScheduleCSgvgTj
++ _$s9SportsKit18PersistentStorableP15writeAPSMessage_11canonicalId23isConventionalOrUnifiedySDys11AnyHashableVypG_SSSbtKFTj
++ _$s9SportsKit21SportingEventScheduleC8durationAA0cD8DurationCvg
++ _$s9SportsKit18SportingEventImageC5tokenSSvg
++ _$s11ActivityKit0A17AuthorizationInfoC011subscribeToaC13StatusUpdates3forySS_tKF
++ _$s9SportsKit19SportingEventLeagueC5sportAA0cD5SportCvg
++ _$s9SportsKit21SportingEventDurationC5startSdvg
++ _$s11ActivityKit0A17AuthorizationInfoC013unsubscribeToaC13StatusUpdates3forySS_tKF
++ _$s9SportsKit18ContainerConstantsC26liveActivitiesTargetAppKeySSvgZ
++ _$s9SportsKit18SportingEventImageC4typeSSvg
 + _$s9SportsKit24SportingEventViewContextV15LocalizedTitlesVMn
++ _$s9SportsKit24SportingEventViewContextV6titlesAC15LocalizedTitlesVSgvg
++ _$s9SportsKit23SportingEventCompetitorC20localizedDisplayNameSayAA0cd9LocalizedgH0CGSgvgTj
++ _$s9SportsKit32SportingEventCompetitorQualifierOSQAAMc
++ _$s12FeatureFlags0aB3KeyP7features12StaticStringVvgTq
++ _$s9SportsKit23SportingEventCompetitorC6imagesSayAA0cD5ImageCGSgvgTj
++ _$s11ActivityKit0A17AuthorizationInfoC0aC13StatusUpdatesV8IteratorVScIAAMc
++ _$s9SportsKit32SportingEventCompetitorQualifierOMn
++ _$s9SportsKit18PersistentStorableP25writeRegistrationResponse_11canonicalId23isConventionalOrUnifiedy10Foundation4DataV_SSSbtKFTj
++ _$s9SportsKit32SportingEventCompetitorQualifierO4homeyA2CmFWC
++ _$s11ActivityKit0A17AuthorizationInfoC0aC6StatusO5allowyA2EmFWC
 + _$s11ActivityKit0A17AuthorizationInfoC0aC6StatusOMn
++ _$s11ActivityKit0A17AuthorizationInfoC08activityC13StatusUpdatesAC0acfG0Vvg
++ _$s12FeatureFlags0aB3KeyP6domains12StaticStringVvgTq
++ _$s11ActivityKit0A17AuthorizationInfoC0aC13StatusUpdatesVMa
++ _$s11ActivityKit0A17AuthorizationInfoC0aC13StatusUpdatesV17makeAsyncIteratorAE0I0VyF
 CStrings:
-+ "Unsubscribed to activity authorization status updates for bundle %!s(MISSING)"
-+ "Error writing registration response for canonicalId: %!s(MISSING), error: %!s(MISSING)"
++ "Failed to unsubscribe from activity authorization status updates for %!s(MISSING) - %!s(MISSING)"
 + "Received activity authorization status update %!s(MISSING) for bundle %!s(MISSING)"
 + "Error writing APS Message for canonicalId: %!s(MISSING), error: %!s(MISSING)"
-+ "Could not find a subscription for paused activity with id %!s(MISSING)"
-+ "Failed to unsubscribe from activity authorization status updates for %!s(MISSING) - %!s(MISSING)"
 + "TVApp"
 + "sports_app_live_activities"
++ "Could not find a subscription for paused activity with id %!s(MISSING)"
++ "Error writing registration response for canonicalId: %!s(MISSING), error: %!s(MISSING)"
++ "Unsubscribed to activity authorization status updates for bundle %!s(MISSING)"
 
 ```

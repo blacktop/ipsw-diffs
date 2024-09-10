@@ -52,11 +52,11 @@
 Symbols:
 + _accessibilityCameraEditKitV2LocalizedString
 CStrings:
-+ "isPhotoStyleScrubber"
-+ "CameraEditKitAccessibility-D94"
-+ "PhotosUIPrivate.PUPhotoStyleToolController"
-+ "styles.chooser"
 + "styleLabel"
++ "PhotosUIPrivate.PUPhotoStyleToolController"
 + "safeSwiftValueForKey:"
++ "CameraEditKitAccessibility-D94"
++ "isPhotoStyleScrubber"
++ "styles.chooser"
 
 ```

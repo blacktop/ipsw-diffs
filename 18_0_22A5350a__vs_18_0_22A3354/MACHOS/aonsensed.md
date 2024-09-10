@@ -93,229 +93,229 @@
 +  CStrings:  3628
  
 Symbols:
-+ _$s9Tightbeam0A8EndpointO3afkyACs6UInt32V_tcACmFWC
-+ _$s11ALDataTypes27ALWiFiScanSingleAccessPointV6rssidBs5Int32VSgvg
-+ _$ss6MirrorV8childrens13AnyCollectionVySSSg5label_yp5valuetGvg
-+ _pthread_mutex_lock
-+ _$ss5UInt8Vs7CVarArgsWP
-+ _$sSo17OS_dispatch_queueC8DispatchE10asyncAfter8deadline3qos5flags7executeyAC0D4TimeV_AC0D3QoSVAC0D13WorkItemFlagsVyyXBtF
-+ _$s11ALDataTypes27ALWiFiScanSingleAccessPointV7channels5Int32VSgvg
-+ _$sSb10FoundationE19_bridgeToObjectiveCSo8NSNumberCyF
-+ _IONotificationPortGetRunLoopSource
-+ _kIOMasterPortDefault
-+ _snprintf
-+ _$s9Tightbeam0A7EncoderV8completeAA0A7MessageCyF
-+ _$s9Tightbeam16ClientConnectionC8endpointAcA0A8EndpointO_tcfc
 + _$s9Tightbeam0A7MessageC17withBufferPointer3for__xAC0D5UsageO_Srys5UInt8VGxACKXEtKlFZ
-+ _malloc_type_malloc
-+ _swift_getForeignTypeMetadata
-+ _$s9Tightbeam0A7EncoderVMn
++ _CFRunLoopRemoveSource
++ _$s9Tightbeam21MessageDecodeProtocolP6decodeyAA0aB0CSgAA0A7DecoderVKFTq
++ ___CFConstantStringClassReference
++ _$ss5NeverON
++ _$s9Tightbeam0A19ServiceInitProtocolMp
++ _$ss11_StringGutsV16_slowWithCStringyxxSPys4Int8VGKXEKlF
++ _$s9Tightbeam0A7DecoderV7messageAcA0A7MessageC_tcfC
++ _$ss5Int32VSzsMc
++ _$s9Tightbeam16ClientConnectionCMa
 + _CFStringCreateWithCString
-+ _$s9Tightbeam0A7EncoderV6encodeyys6UInt64VF
-+ _IOServiceClose
-+ _$ss5NeverOs5ErrorsWP
-+ __swift_exceptionPersonality
-+ _$s9Tightbeam0A7MessageCMa
-+ _CFRunLoopStop
++ _$s9Tightbeam0A7DecoderVMa
++ _CFDictionarySetValue
 + _$s9Tightbeam0A7EncoderV6encodeyySbF
 + _$ss6HasherV8_combineyys5UInt8VF
-+ _$s9Tightbeam17ServiceConnectionC7serviceAA0B8Protocol_pSgvsTj
-+ _$ss15_AnySequenceBoxC4_mapySayqd__Gqd__xKXEKlFTj
-+ _$s9Tightbeam15ServiceProtocolMp
-+ _$s9Tightbeam0A7DecoderV7encoder5bytes12capabilitiesAA0A7EncoderVSi_SitKF
-+ _pthread_mutex_unlock
++ _$s9Tightbeam16ClientConnectionC15allocateMessage4size12capabilitiesAA0aE0CSi_SitKF
 + _$ss6MirrorVMa
-+ _$s9Tightbeam16ClientConnectionCMa
-+ _$ss6UInt64Vs23CustomStringConvertiblesWP
-+ _$s9Tightbeam16ClientConnectionCMn
-+ _$ss4Int8Vs23CustomStringConvertiblesWP
-+ _swift_willThrowTypedImpl
-+ _$ss5Int32VN
-+ _CFRunLoopRemoveSource
-+ ___strlcpy_chk
-+ _$s9Tightbeam15ServiceProtocolPAA013MessageDecodeC0Tb
-+ _$s9Tightbeam0A7DecoderV6decode2ass4Int8VAGm_tF
-+ _IOServiceAddMatchingNotification
-+ _$s9Tightbeam0A7EncoderV6encodeyys5UInt8VF
-+ ___CFConstantStringClassReference
 + _sleep
-+ _$s9Tightbeam0A7MessageC7encoderAA0A7EncoderVyFTj
-+ _$ss6UInt32VN
-+ _IONotificationPortCreate
-+ _tb_endpoint_create_with_data
-+ _MobileGestalt_get_deviceSupportsAOP2
-+ _$s9Tightbeam17ServiceConnectionCMa
-+ _mach_task_self_
-+ _$s9Tightbeam21MessageDecodeProtocolMp
++ _IOServiceAddMatchingNotification
++ _strlen
++ _$s9Tightbeam0A7DecoderV6decode2ass4Int8VAGm_tF
++ _$s9Tightbeam17ServiceConnectionC8endpointAcA0A8EndpointO_tcfc
++ _$sSa11descriptionSSvg
++ _pthread_mutex_unlock
++ _$s9Tightbeam0A7DecoderV6decode2ass5UInt8VAGm_tF
++ _$s9Tightbeam0A7EncoderV6encodeyys5UInt8VF
++ _$s9Tightbeam16ClientConnectionC8endpointAcA0A8EndpointO_tcfc
++ _$s9Tightbeam0A7EncoderV6encodeyys5Int32VF
++ _$s9Tightbeam0A7EncoderV8completeAA0A7MessageCyF
++ _swift_getForeignTypeMetadata
++ _CFRunLoopGetCurrent
 + _$s9Tightbeam0A7EncoderVMa
++ _$s9Tightbeam0A8EndpointO3afkyACs6UInt32V_tcACmFWC
++ _$s11ALDataTypes27ALWiFiScanSingleAccessPointV6rssidBs5Int32VSgvg
++ _CFRunLoopStop
++ _IONotificationPortDestroy
++ _IOObjectRelease
++ _CFRelease
++ _IONotificationPortGetRunLoopSource
++ _$ss5NeverOs5ErrorsWP
++ _$s9Tightbeam0A7EncoderV6encodeyys6UInt64VF
++ _$s9Tightbeam16ClientConnectionC4send7messageAA0A7MessageCAG_tKF
++ _$s9Tightbeam0A7DecoderV6decode2asS2bm_tF
++ _$s9Tightbeam15ServiceProtocolPAA013MessageDecodeC0Tb
++ _$s9Tightbeam16ClientConnectionCMn
++ _$ss5UInt8Vs23CustomStringConvertiblesWP
++ _CFRunLoopAddSource
++ _IOConnectMapMemory64
++ _$s9Tightbeam15ServiceProtocolMp
++ _swift_willThrowTypedImpl
++ _$s9Tightbeam0A7MessageC11BufferUsageO7readingyA2EmFWC
++ _$s9Tightbeam0A7EncoderVMn
++ _IONotificationPortCreate
++ _IOServiceClose
++ _$s9Tightbeam0A7DecoderV7encoder5bytes12capabilitiesAA0A7EncoderVSi_SitKF
++ ___strlcpy_chk
++ _$s9Tightbeam0A7EncoderV6encodeyys4Int8VF
++ _$ss6UInt32VN
++ __swift_exceptionPersonality
++ _$s9Tightbeam17ServiceConnectionC7serviceAA0B8Protocol_pSgvsTj
++ _$s11ALDataTypes27ALWiFiScanSingleAccessPointV3macs6UInt64VSgvg
++ _$s9Tightbeam0A7DecoderV6decode2ass6UInt32VAGm_tF
++ _$s9Tightbeam17ServiceConnectionCMn
++ _tb_endpoint_create_with_data
++ _$ss5UInt8Vs7CVarArgsWP
++ _$s9Tightbeam21MessageDecodeProtocolMp
++ _pthread_mutex_lock
++ _kIOMasterPortDefault
++ _$s9Tightbeam0A7MessageCMa
++ _$sSo17OS_dispatch_queueC8DispatchE10asyncAfter8deadline3qos5flags7executeyAC0D4TimeV_AC0D3QoSVAC0D13WorkItemFlagsVyyXBtF
 + _IOServiceMatching
 + _$s9Tightbeam0A7DecoderV6decode2ass6UInt64VAGm_tF
-+ _$s9Tightbeam0A19ServiceInitProtocolP8endpointxAA0A8EndpointO_tcfCTq
-+ _$s9Tightbeam16ClientConnectionC4send7messageAA0A7MessageCAG_tKF
-+ _$s11ALDataTypes27ALWiFiScanSingleAccessPointV3macs6UInt64VSgvg
-+ _$s9Tightbeam0A19ServiceInitProtocolMp
-+ _$s9Tightbeam0A7DecoderV6decode2asS2bm_tF
-+ _$ss5NeverON
-+ _$s9Tightbeam0A7DecoderV7messageAcA0A7MessageC_tcfC
-+ _IOServiceOpen
++ _$ss6UInt64Vs23CustomStringConvertiblesWP
++ _mach_task_self_
 + _$s9Tightbeam0A8EndpointOMa
-+ _$s9Tightbeam16ClientConnectionC15allocateMessage4size12capabilitiesAA0aE0CSi_SitKF
-+ _$s9Tightbeam0A7EncoderV6encodeyys5Int32VF
-+ _kCFAllocatorDefault
-+ _$s9Tightbeam21MessageDecodeProtocolP6decodeyAA0aB0CSgAA0A7DecoderVKFTq
-+ _$s9Tightbeam0A7DecoderV6decode2ass6UInt32VAGm_tF
-+ _strlen
-+ _CFRunLoopRun
-+ _$s9Tightbeam17ServiceConnectionC5beginyyFTj
-+ _strdup
-+ _$s9Tightbeam17ServiceConnectionC8endpointAcA0A8EndpointO_tcfc
-+ _kIOMainPortDefault
-+ _$s9Tightbeam0A7DecoderV6decode2ass5Int32VAGm_tF
-+ _$s9Tightbeam0A7EncoderV6encodeyys6UInt32VF
-+ _$ss5Int32VSzsMc
-+ __Unwind_Resume
-+ _CFDictionarySetValue
-+ _strcmp
-+ _$ss6MirrorV10reflectingAByp_tcfC
-+ _$sSa11descriptionSSvg
-+ _CFDictionaryCreateMutableCopy
-+ _$s9Tightbeam0A7DecoderVMa
-+ _IOConnectMapMemory64
-+ _$s9Tightbeam0A7MessageC11BufferUsageO7writingyA2EmFWC
-+ _CFRelease
-+ _$ss5UInt8Vs23CustomStringConvertiblesWP
-+ _$s9Tightbeam0A7EncoderV6encodeyys4Int8VF
-+ _CFRunLoopAddSource
 + _$sSzsE11descriptionSSvg
-+ _$s9Tightbeam0A7MessageC11BufferUsageO7readingyA2EmFWC
-+ _$s9Tightbeam0A7MessageC11BufferUsageOMa
++ _$s9Tightbeam0A7MessageC11BufferUsageO7writingyA2EmFWC
++ _$sSb10FoundationE19_bridgeToObjectiveCSo8NSNumberCyF
++ _CFDictionaryCreateMutableCopy
++ _$ss5Int32VN
++ _snprintf
++ _$ss15_AnySequenceBoxC4_mapySayqd__Gqd__xKXEKlFTj
++ _IOServiceOpen
++ _$s11ALDataTypes27ALWiFiScanSingleAccessPointV7channels5Int32VSgvg
++ _MobileGestalt_get_deviceSupportsAOP2
++ _strdup
++ _$s9Tightbeam0A19ServiceInitProtocolP8endpointxAA0A8EndpointO_tcfCTq
++ _$s9Tightbeam17ServiceConnectionC5beginyyFTj
 + _IOIteratorNext
++ _$ss4Int8Vs23CustomStringConvertiblesWP
++ _$ss6MirrorV10reflectingAByp_tcfC
++ _$ss6MirrorV8childrens13AnyCollectionVySSSg5label_yp5valuetGvg
 + _kCFRunLoopDefaultMode
-+ _$ss11_StringGutsV16_slowWithCStringyxxSPys4Int8VGKXEKlF
-+ _$s9Tightbeam0A7DecoderV6decode2ass5UInt8VAGm_tF
-+ _IONotificationPortDestroy
-+ _CFRunLoopGetCurrent
-+ _IOObjectRelease
-+ _$s9Tightbeam17ServiceConnectionCMn
++ __Unwind_Resume
++ _$s9Tightbeam0A7EncoderV6encodeyys6UInt32VF
++ _$s9Tightbeam0A7MessageC11BufferUsageOMa
++ _malloc_type_malloc
++ _kIOMainPortDefault
++ _strcmp
++ _CFRunLoopRun
++ _kCFAllocatorDefault
++ _$s9Tightbeam17ServiceConnectionCMa
++ _$s9Tightbeam0A7DecoderV6decode2ass5Int32VAGm_tF
++ _$s9Tightbeam0A7MessageC7encoderAA0A7EncoderVyFTj
 CStrings:
-+ "PollingAOP2IntervalSec"
-+ "invalid rawValue for aonloc_service.Selector "
-+ "_intervalForAOP2PingInSecs"
-+ "_isAop2Device"
-+ "Tightbeam, enableWifiReception error: %!{(MISSING)public}@."
-+ "_incompleteLogHeader"
-+ "fetchQueue()"
-+ "Tightbeam, hello error: %!{(MISSING)public}@."
-+ "#WiFi,fetchQueue,wifiscandata,%!s(MISSING)"
-+ "DRAMMove may be stuck, nudging and waiting %!{(MISSING)public}f seconds"
-+ "_idForWatchdog"
-+ "_TtCC8ALRPCShm15aonloc_callback6Server"
-+ "_pollsWithoutHearingBack"
-+ "Can't nudge AOP2, reason: communications failed."
-+ "/Library/Caches/com.apple.xbs/Sources/AONLoc/Interface/RPC/ALShmQueueHandler.swift"
-+ "_aonloc_cb"
-+ "PRCclassTest"
-+ "Tightbeam, intermediate queue is full."
-+ "Tightbeam, enqueue wifi sample return: %!d(MISSING)"
-+ "#WiFi,fetchQueue,AOPSERVICETIMESTAMP,timestamp,%!{(MISSING)public}llu"
-+ "handler"
-+ "#WiFi,fetchQueue,block.next,%!{(MISSING)public}ld,count,%!{(MISSING)public}ld"
-+ "_newBlockCallback"
-+ "Tightbeam, error in apOff: %!{(MISSING)public}@"
-+ "Tightbeam, getBufferUsagePercentageData error: %!{(MISSING)public}@."
-+ "Shmem map failed to unmap: "
-+ "Tightbeam, error in apOn: %!{(MISSING)public}@"
-+ "Failed to find RPC server: "
-+ "_shmLogsQueue"
-+ "#WiFi, Enable AOP2 Wifi Reception"
-+ "_onWiFi"
-+ "_TtC8ALRPCShm17ALShmQueueHandler"
-+ "_TtC5ALRPC14ALRPCInterface"
-+ "#ShmQueue, _tbHandler is nil. Skip nudge"
-+ "Tightbeam, setAONLogLevel error: %!{(MISSING)public}@."
-+ "#WiFi, Got unrecognized special packet with broadcast BSSID: {bssid:%!s(MISSING), rssi:%!{(MISSING)public}hhd, channel:%!{(MISSING)public}hhu, flags:%!{(MISSING)public}hhu, timestamp:%!{(MISSING)public}llu})"
-+ "_leechAOP2"
-+ "Tightbeam, enableCallbackMessages error: %!{(MISSING)public}@."
-+ "#WiFi, got pong from lost watchdog id, daemon crashed recently or there was too many samples in intermediate queue"
-+ "Tightbeam, mallocNBlocks error: %!{(MISSING)public}@."
-+ "_TtC8ALRPCShm14aonloc_service"
-+ "_nudgeDelay"
-+ "Tightbeam, getLargestFreeBlockBytes error: %!{(MISSING)public}@."
 + "Tightbeam, got new block."
-+ "Polling interval is %!{(MISSING)public}f sec"
-+ "Can't ping AOP2."
-+ "_lastBundleMctSec"
-+ "ALRPCShm/aonloc.swift"
-+ "Tightbeam, enableWifiReception %!{(MISSING)public}s -> %!{(MISSING)bool}d"
-+ "Tightbeam, getSamplesQueueSize error: %!{(MISSING)public}@."
-+ "invalid rawValue for aonloc_callback.Selector "
-+ "_onLocCompAnalytics"
-+ "_TtCC8ALRPCShm15aonloc_callback7Service"
-+ "#WiFi,fetchQueue,ASSOCIATEDBSSIDUPDATE,bssid:%!{(MISSING)private}llx"
-+ "%!s(MISSING)-%!s(MISSING)-fwd"
-+ "#WiFi,fetchQueue,empty"
-+ "_TtCC8ALRPCShm14aonloc_service7Service"
-+ "#WiFi, got pong from watchdog id: %!{(MISSING)public}llu, last sent %!{(MISSING)public}llu"
-+ "/Library/Caches/com.apple.xbs/Sources/AONLoc/Interface/RPC/AFKTightbeamEndpointsHelpers.swift"
-+ "#WiFi, Leeching on AOP2"
-+ "WifiAddedEpnoAps"
-+ "_timestampOfLastPacketReceived"
-+ "_TtC8ALRPCShm15aonloc_callback"
-+ "_haveAOP2"
-+ "_incompleteLogSequence"
-+ "Tightbeam, getPowerState error: %!{(MISSING)public}@."
-+ "_TtC8ALDaemon15ALWiFiLeechAOP2"
-+ "Tightbeam, setNumberOfAPsBeforeInterleavingSpecialTimestamp error: %!{(MISSING)public}@."
-+ "_shmLogsHandle"
-+ "_lastTimeSinceAPLastSleptInUsecs"
-+ "connection"
-+ "AOP2EnableWifiReception"
-+ ", failedAOP2Pings="
-+ "{\"msg\":\"AOP2 logs received\", \"log\":%!s(MISSING)}"
-+ "deinitSharedMemory(handle:)"
-+ "_TtC8ALRPCShmP33_5C9CF5B0EE1E3CA893C978B6223E185410ackHandler"
-+ "#WiFi, AOP2 didn't pong back. samplesQueueSize="
-+ "Tightbeam, nudgeDRAMMove error: %!{(MISSING)public}@."
-+ "Tightbeam, hello return: %!{(MISSING)public}llu"
-+ "WifiBufferOverflows"
-+ "Pinged AOP2, id: %!{(MISSING)public}llu"
-+ "_lastPollAOP2StatsMctSec"
-+ "_shmHandle"
-+ "_TtC5ALRPC9ALRPCTest"
-+ "AFKSharedMemoryRegion"
-+ "initSharedMemory(name:)"
-+ "Tightbeam, enableCallbackMessages return: %!{(MISSING)bool,public}d"
-+ "aop2.gps-debug"
-+ "numberOfWifiSamplesReceivedWhileAsleep='%!{(MISSING)public}llu'"
-+ "_shmQueue"
-+ "Tightbeam, hello ack: %!l(MISSING)lu."
-+ "init(cb:)"
-+ "_TtCC8ALRPCShm14aonloc_service6Server"
-+ "Tightbeam, error in enqueue wifi sample: %!{(MISSING)public}@"
-+ "timeSinceAPLastSleptInUsecs='%!{(MISSING)public}llu'"
-+ "com.apple.aop2.aonloc.ap.client"
-+ "%!s(MISSING)-%!s(MISSING)-rev"
-+ "AFKEndpointInterface"
-+ "aop2.gps-data"
-+ "com.apple.aop2.aonloc"
-+ "_failedAOP2Pings"
-+ "_aop2Ifc"
++ "_isAop2Device"
 + "Tightbeam, pingForDaemonWatchdog error: %!{(MISSING)public}@."
-+ "_accessPoints"
-+ "#WiFi, onData error: %!{(MISSING)public}@"
-+ "_TtC8ALRPCShm18ALTightbeamHandler"
-+ "rpc_afk_interface_find failed."
-+ "_pollAOP2StatsIntervalSec"
-+ "BtBufferOverflows"
-+ "WifiAddedAop2Scans"
-+ "_aonloc"
-+ "IOServiceFirstMatch"
-+ "IONameMatch"
-+ "Can't nudge AOP2, reason: "
-+ "Tightbeam, init success"
-+ "Shmem map failed to initialize: "
++ "com.apple.aop2.aonloc"
++ "aop2.gps-debug"
++ "Tightbeam, hello return: %!{(MISSING)public}llu"
++ "_TtC5ALRPC14ALRPCInterface"
++ "Tightbeam, setAONLogLevel error: %!{(MISSING)public}@."
++ "_lastBundleMctSec"
++ "connection"
++ "_leechAOP2"
++ "_shmHandle"
++ "WifiBufferOverflows"
 + "Not enough bits to represent the passed value"
++ "Can't nudge AOP2, reason: communications failed."
++ "handler"
++ "rpc_afk_interface_find failed."
++ "_aonloc_cb"
++ "Can't nudge AOP2, reason: "
++ "_intervalForAOP2PingInSecs"
++ "_failedAOP2Pings"
++ "_TtC8ALRPCShm17ALShmQueueHandler"
++ "aop2.gps-data"
++ "_TtC5ALRPC9ALRPCTest"
++ "_TtCC8ALRPCShm14aonloc_service6Server"
++ "_TtC8ALRPCShm15aonloc_callback"
++ "com.apple.aop2.aonloc.ap.client"
++ "_TtC8ALRPCShmP33_5C9CF5B0EE1E3CA893C978B6223E185410ackHandler"
++ "#WiFi,fetchQueue,AOPSERVICETIMESTAMP,timestamp,%!{(MISSING)public}llu"
++ "Tightbeam, intermediate queue is full."
++ "Tightbeam, enableCallbackMessages error: %!{(MISSING)public}@."
++ "Shmem map failed to initialize: "
++ "Tightbeam, mallocNBlocks error: %!{(MISSING)public}@."
++ "_pollAOP2StatsIntervalSec"
++ "#WiFi, Enable AOP2 Wifi Reception"
++ "/Library/Caches/com.apple.xbs/Sources/AONLoc/Interface/RPC/AFKTightbeamEndpointsHelpers.swift"
++ "DRAMMove may be stuck, nudging and waiting %!{(MISSING)public}f seconds"
++ "_shmLogsHandle"
++ "#WiFi,fetchQueue,empty"
++ "_aonloc"
++ "{\"msg\":\"AOP2 logs received\", \"log\":%!s(MISSING)}"
++ "_TtCC8ALRPCShm14aonloc_service7Service"
++ "_onWiFi"
++ "Tightbeam, getBufferUsagePercentageData error: %!{(MISSING)public}@."
++ "_lastPollAOP2StatsMctSec"
++ "Tightbeam, nudgeDRAMMove error: %!{(MISSING)public}@."
++ "_nudgeDelay"
++ "_accessPoints"
++ "init(cb:)"
++ "IOServiceFirstMatch"
++ "_shmQueue"
++ "Tightbeam, init success"
++ "#WiFi,fetchQueue,block.next,%!{(MISSING)public}ld,count,%!{(MISSING)public}ld"
 + "_scanIntervalThresholdSec"
++ "_shmLogsQueue"
++ "timeSinceAPLastSleptInUsecs='%!{(MISSING)public}llu'"
++ "Tightbeam, error in apOn: %!{(MISSING)public}@"
++ "_TtC8ALRPCShm14aonloc_service"
++ "_TtCC8ALRPCShm15aonloc_callback6Server"
++ "PRCclassTest"
++ "#WiFi,fetchQueue,wifiscandata,%!s(MISSING)"
++ "Failed to find RPC server: "
++ "Tightbeam, error in apOff: %!{(MISSING)public}@"
++ "#WiFi, AOP2 didn't pong back. samplesQueueSize="
 + "_tbHandler"
++ "initSharedMemory(name:)"
++ "AFKEndpointInterface"
++ "WifiAddedEpnoAps"
++ "_lastTimeSinceAPLastSleptInUsecs"
++ "AOP2EnableWifiReception"
++ "_haveAOP2"
++ "_timestampOfLastPacketReceived"
++ "Tightbeam, hello ack: %!l(MISSING)lu."
++ ", failedAOP2Pings="
++ "_incompleteLogSequence"
++ "numberOfWifiSamplesReceivedWhileAsleep='%!{(MISSING)public}llu'"
++ "Tightbeam, hello error: %!{(MISSING)public}@."
++ "invalid rawValue for aonloc_service.Selector "
++ "Tightbeam, getSamplesQueueSize error: %!{(MISSING)public}@."
++ "BtBufferOverflows"
++ "Tightbeam, enableCallbackMessages return: %!{(MISSING)bool,public}d"
++ "/Library/Caches/com.apple.xbs/Sources/AONLoc/Interface/RPC/ALShmQueueHandler.swift"
++ "#WiFi, got pong from lost watchdog id, daemon crashed recently or there was too many samples in intermediate queue"
++ "#WiFi,fetchQueue,ASSOCIATEDBSSIDUPDATE,bssid:%!{(MISSING)private}llx"
++ "_TtC8ALRPCShm18ALTightbeamHandler"
++ "Tightbeam, enableWifiReception %!{(MISSING)public}s -> %!{(MISSING)bool}d"
++ "%!s(MISSING)-%!s(MISSING)-fwd"
++ "_newBlockCallback"
++ "_pollsWithoutHearingBack"
++ "deinitSharedMemory(handle:)"
++ "#ShmQueue, _tbHandler is nil. Skip nudge"
++ "IONameMatch"
++ "_aop2Ifc"
++ "_TtCC8ALRPCShm15aonloc_callback7Service"
++ "Pinged AOP2, id: %!{(MISSING)public}llu"
++ "Tightbeam, error in enqueue wifi sample: %!{(MISSING)public}@"
++ "Can't ping AOP2."
++ "Tightbeam, enableWifiReception error: %!{(MISSING)public}@."
++ "WifiAddedAop2Scans"
++ "#WiFi, onData error: %!{(MISSING)public}@"
++ "Tightbeam, enqueue wifi sample return: %!d(MISSING)"
++ "fetchQueue()"
++ "Shmem map failed to unmap: "
++ "Polling interval is %!{(MISSING)public}f sec"
++ "#WiFi, got pong from watchdog id: %!{(MISSING)public}llu, last sent %!{(MISSING)public}llu"
++ "_idForWatchdog"
++ "_incompleteLogHeader"
++ "Tightbeam, getLargestFreeBlockBytes error: %!{(MISSING)public}@."
++ "#WiFi, Leeching on AOP2"
++ "invalid rawValue for aonloc_callback.Selector "
++ "_TtC8ALDaemon15ALWiFiLeechAOP2"
++ "AFKSharedMemoryRegion"
++ "_onLocCompAnalytics"
++ "Tightbeam, getPowerState error: %!{(MISSING)public}@."
++ "#WiFi, Got unrecognized special packet with broadcast BSSID: {bssid:%!s(MISSING), rssi:%!{(MISSING)public}hhd, channel:%!{(MISSING)public}hhu, flags:%!{(MISSING)public}hhu, timestamp:%!{(MISSING)public}llu})"
++ "PollingAOP2IntervalSec"
++ "Tightbeam, setNumberOfAPsBeforeInterleavingSpecialTimestamp error: %!{(MISSING)public}@."
++ "ALRPCShm/aonloc.swift"
++ "%!s(MISSING)-%!s(MISSING)-rev"
 
 ```

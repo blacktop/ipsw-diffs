@@ -30,7 +30,7 @@
  
 CStrings:
 + "MODefaultsManager.m"
-+ "MOOnboardingAndSettingsManager.m"
 + "MOOnboardingManager.m"
++ "MOOnboardingAndSettingsManager.m"
 
 ```

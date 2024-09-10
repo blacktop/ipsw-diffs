@@ -97,36 +97,36 @@
 +  CStrings:  22217
  
 Symbols:
-+ _HKAppleSleepingBreathingDisturbancesMinimumQuantityForClassification
-+ _HKIsAgeGatedUserDefaultsSleepApneaNotificationsKey
-+ _HKFeatureIdentifierSleepApneaNotifications
 + _HKAppleSleepingBreathingDisturbancesClassificationForQuantity
-+ _HKCategoryTypeIdentifierSleepApneaEvent
-+ _HKSleepApneaNotificationsFeatureVersion
-+ _HKQuantityTypeIdentifierAppleSleepingBreathingDisturbances
-+ _kHKAgeGatingKeyEnableSleepApneaNotifications
-+ _HKSleepApneaNotificationswatchOSDeviceIdentifierPortion
-+ _HKSleepApneaNotificationsiOSDeviceIdentifierPortion
++ _HKFeatureIdentifierSleepApneaNotifications
++ _HKAppleSleepingBreathingDisturbancesMinimumQuantityForClassification
 + _kHKSleepApneaNotificationsAgeGatingAge
++ _HKSleepApneaNotificationsiOSDeviceIdentifierPortion
++ _kHKAgeGatingKeyEnableSleepApneaNotifications
++ _HKIsAgeGatedUserDefaultsSleepApneaNotificationsKey
++ _HKSleepApneaNotificationsFeatureVersion
++ _HKCategoryTypeIdentifierSleepApneaEvent
++ _HKQuantityTypeIdentifierAppleSleepingBreathingDisturbances
++ _HKSleepApneaNotificationswatchOSDeviceIdentifierPortion
 CStrings:
-+ "sleep-apnea-notifications"
-+ "san"
 + "HKQuantityTypeIdentifierAppleSleepingBreathingDisturbances"
-+ "SLEEP_BREATHING_DISTURBANCES"
-+ "HKAppleSleepingBreathingDisturbancesClassification.m"
-+ "EnableSleepApneaNotificationsAgeGating"
 + "(01)00195949116193"
-+ "Invalid classification: %!l(MISSING)d"
-+ "Localizable-Nebula"
-+ "nebula"
-+ "SLEEP_APNEA_EVENT"
-+ "(01)00195949116209"
-+ "nebula-notifications"
-+ "Sleep Apnea Notifications"
 + "_nebula"
++ "san"
++ "Localizable-Nebula"
++ "sleep-apnea-notifications"
++ "Sleep Apnea Notifications"
++ "EnableSleepApneaNotificationsAgeGating"
++ "SLEEP_BREATHING_DISTURBANCES"
++ "Invalid classification: %!l(MISSING)d"
++ "nebula"
++ "setNebula:"
 + "SleepApneaNotifications"
 + "HKQuantity * _Nonnull HKAppleSleepingBreathingDisturbancesMinimumQuantityForClassification(HKAppleSleepingBreathingDisturbancesClassification)"
++ "HKAppleSleepingBreathingDisturbancesClassification.m"
++ "(01)00195949116209"
++ "nebula-notifications"
 + "HKCategoryTypeIdentifierSleepApneaEvent"
-+ "setNebula:"
++ "SLEEP_APNEA_EVENT"
 
 ```

@@ -55,10 +55,10 @@
  
 CStrings:
 + "B768CHM"
-+ "B768M"
-+ "isAccessorySupported:"
++ "B768E"
 + "B20@0:8I16"
 + "B768CHE"
-+ "B768E"
++ "isAccessorySupported:"
++ "B768M"
 
 ```

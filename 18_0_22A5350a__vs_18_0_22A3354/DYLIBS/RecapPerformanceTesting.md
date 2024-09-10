@@ -31,20 +31,20 @@
 +  CStrings:  981
  
 CStrings:
-+ "touchSensitiveButtonEngagedWithPage:withUsage:withTouch:withNormalizedPositionY:withNormalizedPositionDeltaY:"
-+ "v60@0:8d16@\"NSNumber\"24@\"NSNumber\"32i40d44d52"
-+ "touchSensitiveButtonClickWithPage:withUsage:withTouch:withNormalizedPositionY:withNormalizedPositionDeltaY:"
-+ "touchSensitiveButtonIntermediatePressWithDuration:withPage:withUsage:withTouch:withNormalizedPositionY:withNormalizedPositionDeltaY:"
-+ "touchSensitiveButtonHoldWithPage:withUsage:withTouch:withNormalizedPositionY:withNormalizedPositionDeltaY:"
-+ "v32@0:8@\"NSNumber\"16@\"NSNumber\"24"
 + "touchSensitiveButtonReleaseHoldWithPage:withUsage:withTouch:withNormalizedPositionY:withNormalizedPositionDeltaY:"
-+ "v60@0:8d16@24@32i40d44d52"
-+ "touchSensitiveButtonHoldWithDuration:withPage:withUsage:withTouch:withNormalizedPositionY:withNormalizedPositionDeltaY:"
-+ "v52@0:8@\"NSNumber\"16@\"NSNumber\"24i32d36d44"
-+ "touchSensitiveButtonIntermediatePressWithPage:withUsage:withTouch:withNormalizedPositionY:withNormalizedPositionDeltaY:"
-+ "touchSensitiveButtonEngagedWithDuration:withPage:withUsage:withTouch:withNormalizedPositionY:withNormalizedPositionDeltaY:"
++ "v32@0:8@\"NSNumber\"16@\"NSNumber\"24"
++ "v60@0:8d16@\"NSNumber\"24@\"NSNumber\"32i40d44d52"
 + "v52@0:8@16@24i32d36d44"
-+ "touchSensitiveButtonEngagedWithLiftWithDuration:withPage:withUsage:withTouch:withNormalizedPositionY:withNormalizedPositionDeltaY:"
++ "v60@0:8d16@24@32i40d44d52"
++ "touchSensitiveButtonEngagedWithDuration:withPage:withUsage:withTouch:withNormalizedPositionY:withNormalizedPositionDeltaY:"
++ "v52@0:8@\"NSNumber\"16@\"NSNumber\"24i32d36d44"
 + "touchSensitiveButtonLiftWithPage:withUsage:"
++ "touchSensitiveButtonIntermediatePressWithDuration:withPage:withUsage:withTouch:withNormalizedPositionY:withNormalizedPositionDeltaY:"
++ "touchSensitiveButtonHoldWithDuration:withPage:withUsage:withTouch:withNormalizedPositionY:withNormalizedPositionDeltaY:"
++ "touchSensitiveButtonEngagedWithLiftWithDuration:withPage:withUsage:withTouch:withNormalizedPositionY:withNormalizedPositionDeltaY:"
++ "touchSensitiveButtonIntermediatePressWithPage:withUsage:withTouch:withNormalizedPositionY:withNormalizedPositionDeltaY:"
++ "touchSensitiveButtonClickWithPage:withUsage:withTouch:withNormalizedPositionY:withNormalizedPositionDeltaY:"
++ "touchSensitiveButtonHoldWithPage:withUsage:withTouch:withNormalizedPositionY:withNormalizedPositionDeltaY:"
++ "touchSensitiveButtonEngagedWithPage:withUsage:withTouch:withNormalizedPositionY:withNormalizedPositionDeltaY:"
 
 ```

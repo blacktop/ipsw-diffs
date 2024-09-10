@@ -43,8 +43,8 @@
 +  CStrings:  2087
  
 CStrings:
-+ "beats_powerbeats_pro"
-+ "PowerbeatsPro2,1"
 + "Unable to add product type to semantic %!s(MISSING)"
++ "PowerbeatsPro2,1"
++ "beats_powerbeats_pro"
 
 ```

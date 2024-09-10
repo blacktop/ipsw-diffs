@@ -73,16 +73,16 @@
 Symbols:
 + _NRDevicePropertyDeviceBrand
 CStrings:
-+ "SetRegattaTimer"
-+ "isHermes"
-+ "IsHermes"
-+ "sailboat.regatta.fill"
-+ "SyncRegattaTimer"
-+ "PauseRegattaTimer"
-+ "StartRegattaTimer"
-+ "ResumeRegattaTimer"
-+ "ResetRegattaTimer"
-+ "STING_ACTION_TYPE_REGATTA"
 + "LocalizableSettings-Squall"
++ "sailboat.regatta.fill"
++ "PauseRegattaTimer"
++ "ResetRegattaTimer"
++ "StartRegattaTimer"
++ "isHermes"
++ "SetRegattaTimer"
++ "ResumeRegattaTimer"
++ "IsHermes"
++ "SyncRegattaTimer"
++ "STING_ACTION_TYPE_REGATTA"
 
 ```

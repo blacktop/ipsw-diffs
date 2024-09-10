@@ -73,12 +73,12 @@
 +  CStrings:  731
  
 Symbols:
-+ _$s7SwiftUI22TitleAndIconLabelStyleVACycfC
 + _$s7SwiftUI22TitleAndIconLabelStyleVMa
++ _$s7SwiftUI22TitleAndIconLabelStyleVACycfC
 + _IASignalFeedbackServiceLaunchSmartRepliesReportConcern
 + _$s15FeedbackService14FBKSEvaluationC6ActionO13reportConcernyA2EmFWC
-+ _$s7SwiftUI22TitleAndIconLabelStyleVAA0fG0AAMc
 + _MGGetBoolAnswer
++ _$s7SwiftUI22TitleAndIconLabelStyleVAA0fG0AAMc
 CStrings:
 + "Report a concern"
 + "Report Concern button pressed - launching remote eval"

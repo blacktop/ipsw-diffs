@@ -70,9 +70,9 @@
 Symbols:
 + _BKPersistentPropertyTouchSensitiveButtonAccessEntitlement
 CStrings:
-+ "BKTouchSensitiveButtonPersistentServiceProperties"
-+ "touchSensitiveButtonServicePersistentPropertyController"
 + "TouchSensitiveButton"
++ "BKTouchSensitiveButtonPersistentServiceProperties"
 + "com.apple.backboardd.hidPersistentProperty-TouchSensitiveButton"
++ "touchSensitiveButtonServicePersistentPropertyController"
 
 ```

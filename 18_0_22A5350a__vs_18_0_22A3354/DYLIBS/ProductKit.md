@@ -45,9 +45,9 @@
 +  CStrings:  859
  
 CStrings:
-+ "PowerbeatsPro2,1"
 + "AirPodsMax1,2"
-+ "AirPods1,4"
 + "AirPods1,5"
++ "AirPods1,4"
++ "PowerbeatsPro2,1"
 
 ```

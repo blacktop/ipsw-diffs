@@ -53,9 +53,9 @@
 +  CStrings:  3378
  
 CStrings:
-+ "SHARE_AUDIO_PAIR_INSTRUCTIONS_TAP"
-+ "b768e"
 + "b768m"
 + "Localizable-PID_8219"
++ "SHARE_AUDIO_PAIR_INSTRUCTIONS_TAP"
++ "b768e"
 
 ```

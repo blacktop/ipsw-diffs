@@ -43,7 +43,7 @@
 +  CStrings:  1562
  
 CStrings:
-+ "nova-serial-num"
 + "AkfIj49PscGvuFSmdygUq10dr0OOsjzBlVg1cnpJVQO/M"
++ "nova-serial-num"
 
 ```

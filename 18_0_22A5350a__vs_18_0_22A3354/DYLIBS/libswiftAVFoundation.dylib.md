@@ -61,31 +61,31 @@
 +  CStrings:  244
  
 Symbols:
-+ _$sSo21AVCaptureDeviceFormatC12AVFoundationE31systemRecommendedVideoZoomRangeSNy12CoreGraphics7CGFloatVGSgvpMV
-+ _$sSo15AVCaptureSliderC12AVFoundationE_10symbolName6valuesABSS_SSSaySfGtcfC
-+ _$sSo15AVCaptureSliderC12AVFoundationE15prominentValuesSaySfGvM
-+ _$sSo21AVCaptureDeviceFormatC12AVFoundationE34systemRecommendedExposureBiasRangeSNySfGSgvpMV
 + _$sSo15AVCaptureSliderC12AVFoundationE_10symbolName2in4stepABSS_SSSNySfGSftcfC
 + _$sSo15AVCaptureSliderC12AVFoundationE15prominentValuesSaySfGvg
++ _$sSo15AVCaptureSliderC12AVFoundationE15prominentValuesSaySfGvM
++ _$sSo15AVCaptureSliderC12AVFoundationE14setActionQueue_6actionySo17OS_dispatch_queueC_ySfctF
++ _$sSo21AVCaptureDeviceFormatC12AVFoundationE31systemRecommendedVideoZoomRangeSNy12CoreGraphics7CGFloatVGSgvg
++ _$sSo21AVCaptureDeviceFormatC12AVFoundationE34systemRecommendedExposureBiasRangeSNySfGSgvpMV
++ _$sSo15AVCaptureSliderC12AVFoundationE15prominentValuesSaySfGvs
++ _$sSo20AVCaptureIndexPickerC12AVFoundationE14setActionQueue_6actionySo17OS_dispatch_queueC_ySictF
 + _$sSo15AVCaptureSliderC12AVFoundationE_10symbolName2inABSS_SSSNySfGtcfC
 + _$sSo21AVCaptureDeviceFormatC12AVFoundationE34systemRecommendedExposureBiasRangeSNySfGSgvg
-+ _$sSo21AVCaptureDeviceFormatC12AVFoundationE31systemRecommendedVideoZoomRangeSNy12CoreGraphics7CGFloatVGSgvg
-+ _$sSo15AVCaptureSliderC12AVFoundationE15prominentValuesSaySfGvs
++ _$sSo21AVCaptureDeviceFormatC12AVFoundationE31systemRecommendedVideoZoomRangeSNy12CoreGraphics7CGFloatVGSgvpMV
 + _$sSo15AVCaptureSliderC12AVFoundationE15prominentValuesSaySfGvpMV
-+ _$sSo20AVCaptureIndexPickerC12AVFoundationE14setActionQueue_6actionySo17OS_dispatch_queueC_ySictF
-+ _$sSo15AVCaptureSliderC12AVFoundationE14setActionQueue_6actionySo17OS_dispatch_queueC_ySfctF
++ _$sSo15AVCaptureSliderC12AVFoundationE_10symbolName6valuesABSS_SSSaySfGtcfC
 CStrings:
-+ "systemRecommendedExposureBiasRange"
-+ "initWithLocalizedTitle:symbolName:minValue:maxValue:step:"
-+ "systemRecommendedVideoZoomRange"
 + "maxExposureBias"
++ "initWithLocalizedTitle:symbolName:minValue:maxValue:"
++ "initWithLocalizedTitle:symbolName:minValue:maxValue:step:"
++ "prominentValues"
++ "minExposureBias"
++ "systemRecommendedExposureBiasRange"
 + "initWithLocalizedTitle:symbolName:values:"
 + "setActionQueue:action:"
 + "initWithFloat:"
-+ "prominentValues"
++ "systemRecommendedVideoZoomRange"
 + "setProminentValues:"
-+ "initWithLocalizedTitle:symbolName:minValue:maxValue:"
-+ "minExposureBias"
 + "v12@?0f8"
 + "v16@?0q8"
 

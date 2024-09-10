@@ -15,7 +15,7 @@
 CStrings:
 + "@(#)VERSION:Darwin Bootstrapper Version 7.0.0: Sat Aug  3 11:08:15 PDT 2024; root:libxpc_executables-2866.2.1~6/launchd/RELEASE_ARM64E"
 + "Darwin Bootstrapper Version 7.0.0: Sat Aug  3 11:08:15 PDT 2024; root:libxpc_executables-2866.2.1~6/launchd/RELEASE_ARM64E"
-- "@(#)VERSION:Darwin Bootstrapper Version 7.0.0: Tue Aug  6 10:48:58 PDT 2024; root:libxpc_executables-2866.2.1~25/launchd/RELEASE_ARM64E"
 - "Darwin Bootstrapper Version 7.0.0: Tue Aug  6 10:48:58 PDT 2024; root:libxpc_executables-2866.2.1~25/launchd/RELEASE_ARM64E"
+- "@(#)VERSION:Darwin Bootstrapper Version 7.0.0: Tue Aug  6 10:48:58 PDT 2024; root:libxpc_executables-2866.2.1~25/launchd/RELEASE_ARM64E"
 
 ```

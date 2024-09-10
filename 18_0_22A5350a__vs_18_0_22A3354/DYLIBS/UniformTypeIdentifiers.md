@@ -24,12 +24,12 @@
 +  CStrings:  623
  
 CStrings:
-+ "Device1,8223"
-+ "Device1,8219"
 + "Device1,8222"
-+ "Device1,8217"
-+ "Device1,8224"
++ "Device1,8223"
 + "Device1,8221"
++ "Device1,8217"
 + "Device1,8220"
++ "Device1,8219"
++ "Device1,8224"
 
 ```

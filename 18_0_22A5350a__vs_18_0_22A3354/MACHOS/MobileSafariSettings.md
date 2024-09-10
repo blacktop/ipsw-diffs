@@ -52,21 +52,21 @@
 +  CStrings:  2993
  
 Symbols:
-+ _objc_msgSend$emitNavigationEvent
-+ _objc_msgSend$pe_emitNavigationEventForSystemSettingsWithGraphicIconIdentifier:title:localizedNavigationComponents:deepLink:
-+ __block_literal_global.80
-+ -[SafariSavedPasswordsController emitNavigationEvent]
-+ __69-[SafariSavedPasswordsController _showLockViewOverridingSuppression:]_block_invoke.101
 + __block_literal_global.83
++ __block_literal_global.80
++ _objc_msgSend$pe_emitNavigationEventForSystemSettingsWithGraphicIconIdentifier:title:localizedNavigationComponents:deepLink:
++ -[SafariSavedPasswordsController emitNavigationEvent]
++ _objc_msgSend$emitNavigationEvent
++ __69-[SafariSavedPasswordsController _showLockViewOverridingSuppression:]_block_invoke.101
+- __block_literal_global.65
 - __69-[SafariSavedPasswordsController _showLockViewOverridingSuppression:]_block_invoke.86
 - __block_literal_global.68
-- __block_literal_global.65
 CStrings:
-+ "General"
-+ "com.apple.graphic-icon.passwords"
 + "settings-navigation://com.apple.Settings.General/AUTOFILL"
-+ "AutoFill & Passwords"
++ "General"
 + "pe_emitNavigationEventForSystemSettingsWithGraphicIconIdentifier:title:localizedNavigationComponents:deepLink:"
++ "com.apple.graphic-icon.passwords"
 + "emitNavigationEvent"
++ "AutoFill & Passwords"
 
 ```

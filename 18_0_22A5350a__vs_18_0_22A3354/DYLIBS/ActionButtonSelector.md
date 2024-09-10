@@ -35,9 +35,9 @@
  
 CStrings:
 + "iPhone15_Pro_NaturalTitanium_v0006-D47-D48-D93-D94"
-+ "D47"
-+ "D48"
 + "D94"
 + "D93"
++ "D48"
++ "D47"
 
 ```

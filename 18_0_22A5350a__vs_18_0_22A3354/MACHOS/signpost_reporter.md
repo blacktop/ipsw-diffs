@@ -56,31 +56,31 @@
 +  CStrings:  574
  
 Symbols:
-+ _objc_retain_x27
-+ _dispatch_time
-+ _dispatch_semaphore_signal
-+ _dispatch_semaphore_create
 + _OBJC_CLASS_$_AnalyticsConfigurationObserver
++ _dispatch_time
++ _objc_retain_x27
++ _dispatch_semaphore_create
++ _dispatch_semaphore_signal
 + _dispatch_semaphore_wait
 + _os_variant_has_internal_diagnostics
 CStrings:
-+ "Not reporting since not tasked-on by CoreAnalytics (Wrong value class for class for %!@(MISSING))"
-+ "com.apple.signpost"
-+ "Reporting based on being tasked-on by CoreAnalytics"
-+ "startObservingConfigurationType:"
-+ "TaskedOn"
-+ "Not reporting based on not being tasked-on by CoreAnalytics (unexpected type string: '%!@(MISSING)')"
-+ "Reporting based on os_variant result"
-+ "Not reporting based on not being tasked-on by CoreAnalytics (Non-NSDictionary configuration object)"
-+ "v24@?0@\"NSObject\"8@\"NSString\"16"
-+ "setConfigurationObserverDelegate:queue:"
-+ "Not reporting based on not being tasked-on by CoreAnalytics ('%!@(MISSING)' is false)"
 + "com.apple.performance.signpost_reporter_tasking"
-+ "Not reporting based on not being tasked-on by CoreAnalytics (Timeout waiting for config)"
-+ "Not reporting based on not being tasked-on by CoreAnalytics (nil configuration object)"
-+ "Not reporting since is not tasked-on by CoreAnalytics (nil value for %!@(MISSING) key)"
-+ "boolValue"
 + "signpost_reporter configuration observing queue"
++ "Reporting based on being tasked-on by CoreAnalytics"
++ "Reporting based on os_variant result"
++ "com.apple.signpost"
++ "Not reporting based on not being tasked-on by CoreAnalytics (Timeout waiting for config)"
++ "Not reporting based on not being tasked-on by CoreAnalytics (Non-NSDictionary configuration object)"
++ "Not reporting since not tasked-on by CoreAnalytics (Wrong value class for class for %!@(MISSING))"
++ "startObservingConfigurationType:"
++ "v24@?0@\"NSObject\"8@\"NSString\"16"
++ "boolValue"
++ "Not reporting based on not being tasked-on by CoreAnalytics ('%!@(MISSING)' is false)"
++ "setConfigurationObserverDelegate:queue:"
++ "Not reporting since is not tasked-on by CoreAnalytics (nil value for %!@(MISSING) key)"
++ "Not reporting based on not being tasked-on by CoreAnalytics (unexpected type string: '%!@(MISSING)')"
++ "TaskedOn"
++ "Not reporting based on not being tasked-on by CoreAnalytics (nil configuration object)"
 - "Reporting based on being a customer seed build."
 
 ```

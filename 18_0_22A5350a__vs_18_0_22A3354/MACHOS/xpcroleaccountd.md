@@ -15,7 +15,7 @@
 CStrings:
 + "Darwin Role Account Bootstrapper Version 1.0.0: Sat Aug  3 11:10:26 PDT 2024; root:libxpc_executables-2866.2.1~6/xpcroleaccountd/RELEASE_ARM64E"
 + "@(#)VERSION:Darwin Role Account Bootstrapper Version 1.0.0: Sat Aug  3 11:10:26 PDT 2024; root:libxpc_executables-2866.2.1~6/xpcroleaccountd/RELEASE_ARM64E"
-- "Darwin Role Account Bootstrapper Version 1.0.0: Tue Aug  6 10:51:23 PDT 2024; root:libxpc_executables-2866.2.1~25/xpcroleaccountd/RELEASE_ARM64E"
 - "@(#)VERSION:Darwin Role Account Bootstrapper Version 1.0.0: Tue Aug  6 10:51:23 PDT 2024; root:libxpc_executables-2866.2.1~25/xpcroleaccountd/RELEASE_ARM64E"
+- "Darwin Role Account Bootstrapper Version 1.0.0: Tue Aug  6 10:51:23 PDT 2024; root:libxpc_executables-2866.2.1~25/xpcroleaccountd/RELEASE_ARM64E"
 
 ```

@@ -60,9 +60,9 @@ Symbols:
 + _swift_getKeyPath
 CStrings:
 + "How much storage is left on my device?"
-+ "Storage Settings"
-+ "Open Storage Settings"
 + "Show me my current device storage usage"
 + "Go to my device storage settings"
++ "Open Storage Settings"
++ "Storage Settings"
 
 ```

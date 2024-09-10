@@ -61,20 +61,20 @@
 +  CStrings:  200
  
 CStrings:
-+ "Open texts share name and photo settings"
-+ "Open message settings"
-+ "Text message forwarding"
-+ "Open blocked callers settings"
-+ "Open text settings"
-+ "Open text forwarding settings"
 + "Messages share name and photo"
-+ "Open messages share name and photo settings"
-+ "Open message forwarding settings"
-+ "Open iMessage settings"
-+ "Open Facebook Messenger settings"
-+ "Open Messenger settings"
-+ "Messages blocked contacts"
++ "Open text forwarding settings"
++ "Open texts share name and photo settings"
++ "Open text settings"
 + "Open Messages settings"
++ "Open message settings"
++ "Open Messenger settings"
++ "Open Facebook Messenger settings"
++ "Open message forwarding settings"
++ "Open messages share name and photo settings"
++ "Open blocked callers settings"
++ "Messages blocked contacts"
 + "Open blocked contacts settings"
++ "Open iMessage settings"
++ "Text message forwarding"
 
 ```

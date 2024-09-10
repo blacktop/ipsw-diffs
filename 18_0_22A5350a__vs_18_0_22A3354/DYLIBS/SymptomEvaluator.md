@@ -74,17 +74,17 @@
  
 CStrings:
 + "_isNonTerrestrialNetworkActive"
++ "isNonTerrestrialNetworkActive"
++ "802.11be"
++ "TB,N,V_isNonTerrestrialNetworkActive"
++ "NW_L2_RADIO_TECHNOLOGY_TYPE_WIFI11BE"
++ "GF"
 + "NW_L2_RADIO_TECHNOLOGY_TYPE_GF"
 + "_deliverNonTerrestrialNetworkActiveChangedTo:"
-+ "Delivering new GF active value to delegates. isActive: %!{(MISSING)BOOL}d"
 + "setIsNonTerrestrialNetworkActive:"
-+ "TB,N,V_isNonTerrestrialNetworkActive"
-+ "isSatelliteSystem"
 + "nonTerrestrialNetworkActiveChangedTo:"
-+ "NW_L2_RADIO_TECHNOLOGY_TYPE_WIFI11BE"
-+ "802.11be"
-+ "isNonTerrestrialNetworkActive"
 + "Received GF active changed notification, new status: %!{(MISSING)BOOL}d"
-+ "GF"
++ "Delivering new GF active value to delegates. isActive: %!{(MISSING)BOOL}d"
++ "isSatelliteSystem"
 
 ```

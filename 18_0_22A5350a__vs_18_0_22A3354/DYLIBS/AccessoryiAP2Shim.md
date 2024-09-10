@@ -40,24 +40,24 @@
 +  CStrings:  675
  
 Symbols:
++ _kCFACCUserDefaultsKey_PretendNFCAuthTimeout
 + _kCFACCUserDefaultsKey_ForceT56RelaySupport
-+ _ACCUserDefaultsKey_SkipNFCAuth
++ _kCFACCUserDefaultsKey_SkipNFCAuth
++ _ACCUserDefaultsKey_DontSkipInductiveAuthOnCTA
++ _ACCUserDefaultsKey_InductiveAuthPretendMatchRxID
 + _kCFACCUserDefaultsKey_DontSkipInductiveAuthOnCTA
 + _ACCUserDefaultsKey_ForceT56RelaySupport
-+ _kCFACCUserDefaultsKey_PretendNFCAuthTimeout
-+ _kCFACCUserDefaultsKey_PretendNFCAuthFailed
 + _ACCUserDefaultsKey_PretendNFCAuthFailed
-+ _ACCUserDefaultsKey_DontSkipInductiveAuthOnCTA
-+ _kCFACCUserDefaultsKey_InductiveAuthPretendMatchRxID
-+ _kCFACCUserDefaultsKey_SkipNFCAuth
 + _ACCUserDefaultsKey_PretendNFCAuthTimeout
-+ _ACCUserDefaultsKey_InductiveAuthPretendMatchRxID
++ _ACCUserDefaultsKey_SkipNFCAuth
++ _kCFACCUserDefaultsKey_InductiveAuthPretendMatchRxID
++ _kCFACCUserDefaultsKey_PretendNFCAuthFailed
 CStrings:
-+ "PretendNFCAuthTimeout"
-+ "PretendNFCAuthFailed"
-+ "InductiveAuthPretendMatchRxID"
-+ "DontSkipInductiveAuthOnCTA"
-+ "ForceT56RelaySupport"
 + "SkipNFCAuth"
++ "PretendNFCAuthTimeout"
++ "InductiveAuthPretendMatchRxID"
++ "ForceT56RelaySupport"
++ "PretendNFCAuthFailed"
++ "DontSkipInductiveAuthOnCTA"
 
 ```

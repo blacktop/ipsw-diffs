@@ -65,30 +65,30 @@
 +  CStrings:  10834
  
 Symbols:
-+ _AXDeviceSupportsCameraButton
-+ _AXAssistiveTouchIconTypeCameraButtonDoubleLightPress
-+ _AXSSwitchControlMenuItemCameraButtonDoubleLightPress
-+ _AXSSwitchControlMenuItemCameraButton
-+ _AXSSwitchControlMenuItemCameraButtonLightPress
 + _AXAssistiveTouchIconTypeCameraButton
++ _AXSSwitchControlMenuItemCameraButtonLightPress
++ _AXSSwitchControlMenuItemCameraButtonDoubleLightPress
++ _AXDeviceSupportsCameraButton
 + _AXAssistiveTouchIconTypeCameraButtonLightPress
++ _AXSSwitchControlMenuItemCameraButton
++ _AXAssistiveTouchIconTypeCameraButtonDoubleLightPress
 CStrings:
-+ "SCATIcon_device_cameraButton"
-+ "_handleCameraButtonDoubleLightPress"
-+ "_handleCameraButtonLightPress"
++ "_handleCameraButton"
 + "doubleLightPressCameraButton"
++ "_handleCameraButtonLightPress"
++ "CAMERA_BUTTON_LIGHT_PRESS"
++ "SCATIcon_device_cameraButton"
 + "_cameraButtonDoubleLightPressed"
++ "pressCameraButton"
++ "LocalizedStrings-D94"
++ "lightPressCameraButton"
 + "_cameraButtonPressed"
-+ "_cameraButtonLightPressed"
-+ "CAMERA_BUTTON"
-+ "device_cameraButtonDoubleLightPress"
 + "device_cameraButtonLightPress"
 + "CAMERA_BUTTON_DOUBLE_LIGHT_PRESS"
-+ "CAMERA_BUTTON_LIGHT_PRESS"
-+ "pressCameraButton"
-+ "_handleCameraButton"
 + "device_cameraButton"
-+ "lightPressCameraButton"
-+ "LocalizedStrings-D94"
++ "_handleCameraButtonDoubleLightPress"
++ "device_cameraButtonDoubleLightPress"
++ "CAMERA_BUTTON"
++ "_cameraButtonLightPressed"
 
 ```

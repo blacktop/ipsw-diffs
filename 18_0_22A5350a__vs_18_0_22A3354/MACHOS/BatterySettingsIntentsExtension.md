@@ -61,19 +61,19 @@
 +  CStrings:  166
  
 CStrings:
-+ " Low Power Mode."
-+ " battery percentage."
-+ "What is my Battery "
-+ "Set Low Power Mode to "
-+ "What is affecting my battery life "
-+ "Where can I see my "
-+ " battery percentage in the status bar"
-+ "Tell me about my battery life "
-+ "What is using the most battery "
-+ " battery percentage in the battery icon"
-+ "What is draining my battery "
-+ "Which apps are draining my battery "
-+ "Set show battery percentage to "
 + "Where can I see my Battery "
++ "Set show battery percentage to "
++ " battery percentage in the battery icon"
++ "What is my Battery "
++ "What is affecting my battery life "
++ " battery percentage in the status bar"
++ " battery percentage."
++ "Which apps are draining my battery "
++ " Low Power Mode."
++ "Set Low Power Mode to "
++ "What is using the most battery "
++ "Tell me about my battery life "
++ "Where can I see my "
++ "What is draining my battery "
 
 ```

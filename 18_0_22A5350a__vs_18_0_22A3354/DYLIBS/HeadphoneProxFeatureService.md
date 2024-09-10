@@ -68,17 +68,17 @@
  
 Symbols:
 + _objc_retain_x25
-+ ___stack_chk_fail
 + ___stack_chk_guard
 + _objc_release_x26
++ ___stack_chk_fail
 CStrings:
 + "HeadphoneProxFeatureService: shouldShowHeartRateMonitor: Invalid Device, Return %!s(MISSING) %!s(MISSING)"
 + "heartRateVersion"
-+ "HeadphoneProxFeatureService: shouldShowWhatsNewCard: device does not support head gesture, Return false %!s(MISSING) cbDevice: %!@(MISSING)"
-+ "HeartRateMonitor"
-+ "productID"
-+ "HeadphoneProxFeatureService: [%!s(MISSING)] shouldShowHeartRateMonitor: %!s(MISSING), Current Version: %!s(MISSING), Taget Version: %!s(MISSING)"
 + "HeadphoneProxFeatureService: [%!s(MISSING)] setProxCardShowedFeatures: heartRateMonitor: %!s(MISSING) -> %!s(MISSING)"
++ "productID"
 + "setHeartRateVersion:"
++ "HeadphoneProxFeatureService: shouldShowWhatsNewCard: device does not support head gesture, Return false %!s(MISSING) cbDevice: %!@(MISSING)"
++ "HeadphoneProxFeatureService: [%!s(MISSING)] shouldShowHeartRateMonitor: %!s(MISSING), Current Version: %!s(MISSING), Taget Version: %!s(MISSING)"
++ "HeartRateMonitor"
 
 ```

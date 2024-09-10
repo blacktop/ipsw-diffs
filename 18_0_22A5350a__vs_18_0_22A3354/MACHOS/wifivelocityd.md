@@ -65,19 +65,19 @@
 +  CStrings:  5327
  
 CStrings:
-+ "nan"
-+ "-nan_peers"
-+ "nan_%!@(MISSING)"
-+ "-dbg=print_nan_avail"
++ "-nan"
 + "Filtered known networks for customer install without MegaWiFi profile\n"
++ "_nanQueryTimer"
++ "T@\"W5WiFiInterface\",R,&,V_nan"
++ "sae_ext"
++ "nan_%!@(MISSING)"
++ "ft_sae_ext"
 + "__startNANPerfLogging"
 + "_nanQueryFileHandle"
-+ "_nanQueryTimer"
-+ "ft_sae_ext"
-+ "-nan"
-+ "sae_ext"
-+ "_nan"
 + "__startNANQueryTimer"
-+ "T@\"W5WiFiInterface\",R,&,V_nan"
++ "nan"
++ "-dbg=print_nan_avail"
++ "-nan_peers"
++ "_nan"
 
 ```

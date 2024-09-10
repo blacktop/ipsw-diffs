@@ -63,11 +63,11 @@ Symbols:
 + _swift_getKeyPath
 CStrings:
 + "How do I mirror my display"
-+ "App Download Location"
-+ "Change the wallpaper"
-+ "Night Shift Schedule"
-+ "Turn on Picture in Picture"
 + "Add a widget to the home screen"
 + "Dark Mode Schedule"
++ "Night Shift Schedule"
++ "App Download Location"
++ "Turn on Picture in Picture"
++ "Change the wallpaper"
 
 ```

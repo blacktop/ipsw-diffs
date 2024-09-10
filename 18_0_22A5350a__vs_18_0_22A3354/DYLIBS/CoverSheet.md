@@ -58,10 +58,10 @@
 +  CStrings:  12012
  
 Symbols:
-+ __SBF_Private_IsD93Like
 + _AVCapturePrewarmReasonCameraLaunchLockScreenButton
-+ __SBF_Private_IsD94Like
 + _NSSelectorFromString
++ __SBF_Private_IsD93Like
++ __SBF_Private_IsD94Like
 - _AVCapturePrewarmReasonCameraLaunchLockScreen
 CStrings:
 + "setAllowAuthenticationBeforeFirstUnlock:"

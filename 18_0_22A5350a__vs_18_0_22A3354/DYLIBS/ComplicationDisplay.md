@@ -66,11 +66,11 @@
    CStrings:  1111
  
 Symbols:
-+ _CLKDeviceCategoryForSizeClass
-+ _CDCornerComplicationCenterPointRadius
 + _atanf
 + _CDCornerComplicationCenterPoint
++ _CDCornerComplicationCenterPointRadius
 + _tanf
++ _CLKDeviceCategoryForSizeClass
 - ___NSDictionary0__struct
 
 ```

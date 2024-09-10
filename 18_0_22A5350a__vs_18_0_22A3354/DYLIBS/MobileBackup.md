@@ -32,8 +32,8 @@
 +  CStrings:  3997
  
 CStrings:
-+ "Beta"
 + "Carrier"
 + "ReleaseType"
++ "Beta"
 
 ```

@@ -51,7 +51,7 @@
 +  CStrings:  1303
  
 CStrings:
-+ "-avonia"
 + "avoniaReuseIdentifier"
++ "-avonia"
 
 ```

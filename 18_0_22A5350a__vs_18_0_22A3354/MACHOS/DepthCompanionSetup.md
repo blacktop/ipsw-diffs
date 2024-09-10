@@ -58,28 +58,28 @@
 +  CStrings:  203
  
 Symbols:
++ __os_log_impl
++ ___stack_chk_fail
++ _NRDevicePropertyAbsoluteDepthLimit
++ _objc_release_x1
++ _os_log_create
++ ___stack_chk_guard
 + __os_log_error_impl
 + _os_log_type_enabled
-+ ___stack_chk_guard
-+ _os_log_create
-+ _objc_release_x1
-+ ___stack_chk_fail
 + _objc_release_x25
-+ _NRDevicePropertyAbsoluteDepthLimit
 + _dispatch_once
-+ __os_log_impl
 CStrings:
-+ "valueForProperty:"
 + "setup"
-+ "v8@?0"
-+ "DepthSetupFirstController: detailString: Shallow use device"
-+ "DepthSetupFirstController: Unable to retrieve the current device"
++ "intValue"
 + "Localizable-Sundrift"
 + "DepthFirstSetupController: Scuba device, presenting safety setup controller"
++ "DepthSetupFirstController: Unable to retrieve the current device"
++ "v8@?0"
 + "DepthFirstSetupController: Hiding scuba safety screen for shallow use device"
-+ "deviceDepthLimit"
-+ "CHARON_MAX_DEPTH_SUNDRIFT_%!@(MISSING)"
 + "DepthSetupFirstController: Depth limit of current device is %!@(MISSING)"
-+ "intValue"
++ "CHARON_MAX_DEPTH_SUNDRIFT_%!@(MISSING)"
++ "deviceDepthLimit"
++ "DepthSetupFirstController: detailString: Shallow use device"
++ "valueForProperty:"
 
 ```

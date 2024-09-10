@@ -58,14 +58,14 @@
 +  CStrings:  4092
  
 Symbols:
-+ _NSStringFromBKSHIDTouchSensitiveButtonIdentifier
-+ __BKSHIDTouchSensitiveButtonSetScanMode
-+ _BKSHIDTouchSensitiveButtonRequestScanMode
 + _NSStringFromBKSHIDTouchSensitiveButtonScanMode
++ __BKSHIDTouchSensitiveButtonSetScanMode
++ _NSStringFromBKSHIDTouchSensitiveButtonIdentifier
++ _BKSHIDTouchSensitiveButtonRequestScanMode
 CStrings:
-+ "cameraCapture"
-+ "scanMode > BKSHIDTouchSensitiveButtonScanModeNone"
 + "id<BSInvalidatable>  _Nonnull BKSHIDTouchSensitiveButtonRequestScanMode(BKSHIDTouchSensitiveButtonIdentifier, BKSHIDTouchSensitiveButtonScanMode, NSString *__strong _Nonnull)"
 + "BKSHIDTouchSensitiveButtonStartScanning"
++ "scanMode > BKSHIDTouchSensitiveButtonScanModeNone"
++ "cameraCapture"
 
 ```

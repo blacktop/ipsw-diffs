@@ -20,7 +20,7 @@
 CStrings:
 + "SecondsBetweenUploadsCustomer"
 + "DevicePercentageCustomer"
-- "DevicePercentageSeed"
 - "SecondsBetweenUploadsSeed"
+- "DevicePercentageSeed"
 
 ```

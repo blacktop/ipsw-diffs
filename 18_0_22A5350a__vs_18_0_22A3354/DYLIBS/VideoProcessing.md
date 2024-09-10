@@ -25,8 +25,8 @@
 +  CStrings:  1994
  
 CStrings:
++ "VCPEnc %!p(MISSING) (%!d(MISSING)x%!d(MISSING), %!s(MISSING)): Got 10b input and set HDRMetadataInsertionMode_Auto/HEVC_Main10_AutoLevel/bitdepth10\n"
 + "VCPEnc %!p(MISSING) (%!d(MISSING)x%!d(MISSING), %!s(MISSING)): Got 8b 444 input and set HEVC_Main444_AutoLevel\n"
 + "VCPEnc %!p(MISSING) (%!d(MISSING)x%!d(MISSING), %!s(MISSING)): Got 10b input and set HDRMetadataInsertionMode_Auto/HEVC_Main44410_AutoLevel/bitdepth10\n"
-+ "VCPEnc %!p(MISSING) (%!d(MISSING)x%!d(MISSING), %!s(MISSING)): Got 10b input and set HDRMetadataInsertionMode_Auto/HEVC_Main10_AutoLevel/bitdepth10\n"
 
 ```

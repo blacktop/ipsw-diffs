@@ -40,11 +40,11 @@
 +  CStrings:  14849
  
 CStrings:
-+ "gold"
-+ "CrashReporter"
 + "00:32:30"
++ "CrashReporter"
++ "gold"
 + "InternalBuild"
-- "seed"
 - "04:00:32"
+- "seed"
 
 ```

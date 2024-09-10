@@ -45,14 +45,14 @@
    CStrings:  76
  
 Symbols:
-+ _kPFImagePropertySmartStyleIntensity
-+ _kPFImagePropertySmartStyleColorBias
-+ _kPFImagePropertySmartStyleIsReversible
-+ _kPFImagePropertySmartStyleCast
 + _kPFImagePropertySmartStyleHasSmartStyle
++ _kPFImagePropertySmartStyleVideoCastValue
++ _kPFImagePropertySmartStyleIntensity
++ _kPFImagePropertySmartStyleCast
 + _kPFImagePropertySmartStyleToneBias
 + _kPFImagePropertySmartStyleRenderingVersion
-+ _kPFImagePropertySmartStyleVideoCastValue
 + _kPFImagePropertyHasSpatialAudio
++ _kPFImagePropertySmartStyleColorBias
++ _kPFImagePropertySmartStyleIsReversible
 
 ```

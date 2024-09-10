@@ -74,10 +74,10 @@
 +  CStrings:  290
  
 CStrings:
-+ "age of Barack Obama"
-+ "Go back to suggestions"
 + "Starbucks near me"
 + "Star Wars movies"
++ "age of Barack Obama"
++ "Go back to suggestions"
 + "Spotlight search for "
 
 ```

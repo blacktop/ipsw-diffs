@@ -92,92 +92,92 @@
  
 Symbols:
 + _AVMetadataQuickTimeUserDataKeyTaggedCharacteristic
-+ _AVVideoCleanApertureKey
-+ _OBJC_CLASS_$_AVAssetWriterInputMetadataAdaptor
-+ _AVVideoCleanApertureHorizontalOffsetKey
-+ _OBJC_CLASS_$_CMISmartStyleUtilitiesV1
-+ _AVVideoCleanApertureVerticalOffsetKey
-+ _kCMMetadataBaseDataType_RawData
-+ _AVMetadataFormatQuickTimeUserData
-+ _kVTCompressionPropertyKey_ExpectedFrameRate
 + _AVVideoCleanApertureHeightKey
 + _AVVideoCleanApertureWidthKey
-+ _CFPropertyListCreateData
-+ _kVTCompressionPropertyKey_MinAllowedFrameQP
++ _AVVideoCleanApertureVerticalOffsetKey
++ _AVVideoCleanApertureKey
++ _kVTCompressionPropertyKey_ExpectedFrameRate
 + _kVTCompressionPropertyKey_RelaxAverageBitRateTarget
 + _AVMetadataKeySpaceQuickTimeUserData
-+ _kVTCompressionPropertyKey_MaxKeyFrameIntervalDuration
-+ _OBJC_CLASS_$_AVMutableMetadataItem
 + _kVTCompressionPropertyKey_MinimizeMemoryUsage
++ _AVVideoCleanApertureHorizontalOffsetKey
++ _OBJC_CLASS_$_AVMutableMetadataItem
++ _kVTCompressionPropertyKey_MaxKeyFrameIntervalDuration
++ _OBJC_CLASS_$_AVAssetWriterInputMetadataAdaptor
++ _AVMetadataFormatQuickTimeUserData
++ _OBJC_CLASS_$_CMISmartStyleUtilitiesV1
++ _CFPropertyListCreateData
++ _kVTCompressionPropertyKey_MinAllowedFrameQP
++ _kCMMetadataBaseDataType_RawData
 CStrings:
-+ "_previousFrameOrigianlPTS"
-+ "initWithOptionalMetalCommandQueue:useCase:"
-+ "appendOutput:toWriterInput:startTimeStamp:endTimeStamp:offset:duration:"
-+ "setupAdditionalAuxTrack"
-+ "initWithMediaType:outputSettings:"
-+ "popAuxSample"
-+ "Failed to add AVAssetWriterInput"
-+ "setMarksOutputTrackAsEnabled:"
-+ "com.apple.quicktime.video-map.smart-style-delta-map"
-+ "addAdditionalAuxTracks:toTrack:"
-+ "setLowMemoryMode:"
-+ "Number of frames inconsistent with smart style metadata"
-+ "combineVideoSegmentsWithAssetWriter"
-+ "mdta/com.apple.quicktime.smartstyle-info"
-+ "_smartStyleMetadata"
-+ "revertStyle:withMetadata:withDeltaMap:"
-+ "VCPSmartStyleMetaAnalyzer"
-+ "initWithAssetWriterInput:"
-+ "calculateDeltaforUnstyledFrame:styledFrame:withCoefficients:"
-+ "passthroughAuxTrackFrom:to:"
-+ "^{__CVBuffer=}40@0:8^{__CVBuffer=}16^{__CVBuffer=}24@32"
-+ "{?=qiIq}48@0:8{?=qiIq}16@40"
 + "setExpectsMediaDataInRealTime:"
-+ "[FRC] Aux encoding failed"
-+ "setupAuxTrack:withOutputSize:"
-+ "\x04\x11\xd6\x15\x82"
-+ "computeDeltaMapForSourcePixelBuffer:targetPixelBuffer:coefficientsDict:outputDeltaMapPixelBuffer:"
-+ "_nextAuxSamplePTS"
-+ "[FRC] Aux encoding aborted"
-+ "[FRC] Aux track failed"
-+ "initWithItems:timeRange:"
-+ "addStyleInfoData:timerange:"
-+ "Setting up aux track with name: %!@(MISSING)"
-+ "_previousSmartStyleMetadata"
-+ "findLearnedTrack:"
++ "setupAdditionalAuxTrack"
 + "findDeltaTrack:"
-+ "assetWriterInput"
-+ "_smartStyleUtilities"
-+ "[FRC] Aux track aborted"
-+ "_deltaTrackDecoder"
-+ "@\"CMISmartStyleUtilitiesV1\""
-+ "_auxAssetReader"
-+ "setDataType:"
-+ "metadataItem"
-+ "com.apple.mediaanalysisd.movieassetwriter.mediaDataRequest.auxEncoding"
-+ "pushAuxSample:"
-+ "findStyleInfoTrack:"
-+ "Missing metadata"
-+ "interpolateCoefficientsFromStartFrameMetadataDict:startFrameTime:endFrameMetadataDict:endFrameTime:frameTimesToInterpolate:"
-+ "appendTimedMetadataGroup:"
-+ "[FRC] Aux track encoding finished"
-+ "computeOriginalUnstyledPixelBufferFrom:inputDeltaMapPixelBuffer:inputMetadataDict:outputUnstyledPixelBuffer:"
-+ "getFramePTSAfter:forAsset:"
-+ "[FRC] Aux encoding finished"
-+ "setTime:"
-+ "pauseGatingForNextPair"
-+ "com.apple.quicktime.video-map.smart-style-linear-thumbnail"
-+ "^{__CVBuffer=}40@0:8^{__CVBuffer=}16@24^{__CVBuffer=}32"
-+ "i32@0:8^{opaqueCMSampleBuffer=}16@24"
-+ "com.apple.metadata.datatype.raw-data"
-+ "appendOutput:toWriterInput:"
-+ "Unable to compute unstyled buffer"
-+ "addAuxPixelBuffer:withTime:withAttachment:"
-+ "_unstyledImagePixelBufferPool"
-+ "_deltaMapPixelBufferPool"
-+ "createStyleInforMetadata:timerange:"
-+ "Number of frames inconsistent with delta map samples"
 + "addInputMediaType:toWriter:forTrack:"
++ "_previousSmartStyleMetadata"
++ "initWithAssetWriterInput:"
++ "combineVideoSegmentsWithAssetWriter"
++ "createStyleInforMetadata:timerange:"
++ "com.apple.mediaanalysisd.movieassetwriter.mediaDataRequest.auxEncoding"
++ "@\"CMISmartStyleUtilitiesV1\""
++ "interpolateCoefficientsFromStartFrameMetadataDict:startFrameTime:endFrameMetadataDict:endFrameTime:frameTimesToInterpolate:"
++ "addAuxPixelBuffer:withTime:withAttachment:"
++ "appendTimedMetadataGroup:"
++ "Setting up aux track with name: %!@(MISSING)"
++ "[FRC] Aux track failed"
++ "initWithOptionalMetalCommandQueue:useCase:"
++ "assetWriterInput"
++ "^{__CVBuffer=}40@0:8^{__CVBuffer=}16^{__CVBuffer=}24@32"
++ "setTime:"
++ "appendOutput:toWriterInput:startTimeStamp:endTimeStamp:offset:duration:"
++ "passthroughAuxTrackFrom:to:"
++ "[FRC] Aux encoding aborted"
++ "mdta/com.apple.quicktime.smartstyle-info"
++ "_auxAssetReader"
++ "i32@0:8^{opaqueCMSampleBuffer=}16@24"
++ "setDataType:"
++ "appendOutput:toWriterInput:"
++ "_previousFrameOrigianlPTS"
++ "\x04\x11\xd6\x15\x82"
++ "com.apple.quicktime.video-map.smart-style-delta-map"
++ "computeOriginalUnstyledPixelBufferFrom:inputDeltaMapPixelBuffer:inputMetadataDict:outputUnstyledPixelBuffer:"
++ "Missing metadata"
++ "_smartStyleMetadata"
++ "_deltaMapPixelBufferPool"
++ "_unstyledImagePixelBufferPool"
++ "computeDeltaMapForSourcePixelBuffer:targetPixelBuffer:coefficientsDict:outputDeltaMapPixelBuffer:"
++ "com.apple.quicktime.video-map.smart-style-linear-thumbnail"
++ "findLearnedTrack:"
++ "Unable to compute unstyled buffer"
++ "metadataItem"
++ "_deltaTrackDecoder"
++ "VCPSmartStyleMetaAnalyzer"
++ "addStyleInfoData:timerange:"
++ "calculateDeltaforUnstyledFrame:styledFrame:withCoefficients:"
++ "findStyleInfoTrack:"
++ "addAdditionalAuxTracks:toTrack:"
++ "pushAuxSample:"
++ "_smartStyleUtilities"
++ "[FRC] Aux encoding failed"
++ "[FRC] Aux encoding finished"
++ "^{__CVBuffer=}40@0:8^{__CVBuffer=}16@24^{__CVBuffer=}32"
++ "getFramePTSAfter:forAsset:"
++ "[FRC] Aux track encoding finished"
++ "setupAuxTrack:withOutputSize:"
++ "setMarksOutputTrackAsEnabled:"
++ "Failed to add AVAssetWriterInput"
++ "Number of frames inconsistent with smart style metadata"
++ "setLowMemoryMode:"
++ "Number of frames inconsistent with delta map samples"
++ "popAuxSample"
++ "[FRC] Aux track aborted"
++ "_nextAuxSamplePTS"
++ "revertStyle:withMetadata:withDeltaMap:"
++ "com.apple.metadata.datatype.raw-data"
++ "initWithMediaType:outputSettings:"
++ "pauseGatingForNextPair"
++ "{?=qiIq}48@0:8{?=qiIq}16@40"
++ "initWithItems:timeRange:"
 - "\x04\x11\xd6\x11"
 
 ```

@@ -48,9 +48,9 @@
 +  CStrings:  991
  
 Symbols:
-+ _AXAssistiveTouchIconTypeCameraButtonLightPress
 + _AXAssistiveTouchIconTypeCameraButton
 + _AXAssistiveTouchIconTypeCameraButtonDoubleLightPress
++ _AXAssistiveTouchIconTypeCameraButtonLightPress
 CStrings:
 + "lightPressCameraButton"
 + "pressCameraButton"

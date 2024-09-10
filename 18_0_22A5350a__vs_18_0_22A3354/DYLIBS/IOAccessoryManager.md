@@ -56,30 +56,30 @@
 +  CStrings:  3276
  
 Symbols:
-+ _kCFACCUserDefaultsKey_PretendNFCAuthFailed
-+ _kCFACCUserDefaultsKey_SkipNFCAuth
-+ _kCFACCUserDefaultsKey_DontSkipInductiveAuthOnCTA
++ _ACCUserDefaultsKey_ForceT56RelaySupport
++ _ACCUserDefaultsKey_SkipNFCAuth
++ _ACCUserDefaultsKey_PretendNFCAuthTimeout
 + _ACCUserDefaultsKey_DontSkipInductiveAuthOnCTA
++ _ACCUserDefaultsKey_InductiveAuthPretendMatchRxID
++ _kCFACCUserDefaultsKey_DontSkipInductiveAuthOnCTA
++ _kCFACCUserDefaultsKey_SkipNFCAuth
 + _ACCUserDefaultsKey_PretendNFCAuthFailed
 + _kCFACCUserDefaultsKey_InductiveAuthPretendMatchRxID
-+ _kACCProperties_Connection_Inductive_RxID
-+ _kCFACCUserDefaultsKey_ForceT56RelaySupport
 + _kCFACCUserDefaultsKey_PretendNFCAuthTimeout
-+ _ACCUserDefaultsKey_PretendNFCAuthTimeout
-+ _ACCUserDefaultsKey_SkipNFCAuth
-+ _ACCUserDefaultsKey_InductiveAuthPretendMatchRxID
-+ _ACCUserDefaultsKey_ForceT56RelaySupport
++ _kCFACCUserDefaultsKey_PretendNFCAuthFailed
++ _kCFACCUserDefaultsKey_ForceT56RelaySupport
++ _kACCProperties_Connection_Inductive_RxID
 CStrings:
++ "DontSkipInductiveAuthOnCTA"
++ "A3250"
++ "isEqualToNumber:"
++ "A2580"
++ "InductiveAuthPretendMatchRxID"
++ "IOAccessoryManagerInductiveLocalDeviceID"
++ "cfInductiveLocalDeviceID = %!@(MISSING)"
++ "PretendNFCAuthFailed"
++ "SkipNFCAuth"
 + "ForceT56RelaySupport"
 + "PretendNFCAuthTimeout"
-+ "DontSkipInductiveAuthOnCTA"
-+ "A2580"
-+ "PretendNFCAuthFailed"
-+ "InductiveAuthPretendMatchRxID"
-+ "cfInductiveLocalDeviceID = %!@(MISSING)"
-+ "A3250"
-+ "SkipNFCAuth"
-+ "isEqualToNumber:"
-+ "IOAccessoryManagerInductiveLocalDeviceID"
 
 ```

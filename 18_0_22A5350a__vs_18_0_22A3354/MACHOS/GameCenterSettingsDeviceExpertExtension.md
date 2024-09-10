@@ -58,14 +58,14 @@
 Symbols:
 + __swiftEmptyArrayStorage
 CStrings:
-+ "Send a game center friend invite"
-+ "Sign out of game center"
++ "Change my game center profile privacy"
 + "Open my game center profile"
 + "Who can see my game activity?"
-+ "Send a game center friend request"
++ "Sign out of game center"
 + "Open my game center settings"
-+ "Change my game center profile privacy"
-+ "Sign in to game center"
++ "Send a game center friend invite"
++ "Send a game center friend request"
 + "Change my game profile"
++ "Sign in to game center"
 
 ```

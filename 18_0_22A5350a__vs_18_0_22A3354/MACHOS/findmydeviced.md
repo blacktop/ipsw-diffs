@@ -39,8 +39,8 @@
 +  CStrings:  8503
  
 CStrings:
-+ "using default configs"
 + "not using default configs"
++ "using default configs"
 + "doNotUseDefaultConfigs"
 
 ```

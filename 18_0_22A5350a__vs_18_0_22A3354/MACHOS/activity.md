@@ -60,40 +60,40 @@
 +  CStrings:  386
  
 Symbols:
-+ __os_log_debug_impl
-+ _OBJC_METACLASS_$_SARecordLocationActivity
-+ _objc_opt_new
-+ _objc_storeStrong
-+ _OBJC_CLASS_$_SARecordLocationActivity
-+ _OBJC_CLASS_$_ASRecordLocationActivity
 + _OBJC_CLASS_$__DKLocationApplicationActivityMetadataKey
++ _OBJC_METACLASS_$_SARecordLocationActivity
 + _OBJC_METACLASS_$_ASRecordLocationActivity
++ _OBJC_CLASS_$_ASRecordLocationActivity
++ _objc_storeStrong
++ __os_log_debug_impl
++ _objc_opt_new
++ _OBJC_CLASS_$_SARecordLocationActivity
 CStrings:
-+ ".cxx_destruct"
-+ "_locationMetadataFromLocation:"
-+ "\x01"
-+ "recordLocationActivityWithCompletion:"
-+ "-[ASRecordLocationActivity recordLocationActivityWithCompletion:]"
-+ "com.apple.siri.homepod"
 + "recordActivityCommand"
-+ "sourceType"
-+ "@\"ASRecordActivity\""
-+ "Default"
-+ "setVisibility:"
-+ "_activityFromLocation:sourceType:"
-+ "location"
-+ "HomePod"
-+ "%!s(MISSING) "
-+ "locationName"
-+ "T@\"ASRecordActivity\",&,N,V_recordActivityCommand"
-+ "setRecordActivityCommand:"
-+ "com.apple.siri"
-+ "ASRecordLocationActivity"
-+ "_recordActivityCommand"
 + "v24@0:8@16"
-+ "_recordActivityCommandFromLocation:sourceType:"
-+ "/app/locationActivity"
 + "setActivity:"
++ "-[ASRecordLocationActivity recordLocationActivityWithCompletion:]"
++ "location"
++ "ASRecordLocationActivity"
++ "sourceType"
++ "_recordActivityCommandFromLocation:sourceType:"
++ "setVisibility:"
 + "Public"
++ "@\"ASRecordActivity\""
++ "%!s(MISSING) "
++ "Default"
++ "_locationMetadataFromLocation:"
++ "T@\"ASRecordActivity\",&,N,V_recordActivityCommand"
++ "HomePod"
++ "locationName"
++ "recordLocationActivityWithCompletion:"
++ "\x01"
++ "/app/locationActivity"
++ "setRecordActivityCommand:"
++ ".cxx_destruct"
++ "com.apple.siri.homepod"
++ "_recordActivityCommand"
++ "com.apple.siri"
++ "_activityFromLocation:sourceType:"
 
 ```

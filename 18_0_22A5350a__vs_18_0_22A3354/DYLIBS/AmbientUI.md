@@ -41,8 +41,8 @@
 +  CStrings:  3213
  
 CStrings:
+- "iconView:dragSession:didEndWithOperation:"
 - "iconView:dragSession:willEndWithOperation:"
 - "v40@0:8@\"SBIconView\"16@\"<UIDragSession>\"24Q32"
-- "iconView:dragSession:didEndWithOperation:"
 
 ```

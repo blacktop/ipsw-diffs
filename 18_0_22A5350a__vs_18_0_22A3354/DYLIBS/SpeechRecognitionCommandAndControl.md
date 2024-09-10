@@ -68,15 +68,15 @@
 +  CStrings:  6807
  
 Symbols:
-+ _kCACCommandContextRequiresCameraButton
 + _AXDeviceSupportsCameraButton
++ _kCACCommandContextRequiresCameraButton
 CStrings:
-+ "doubleLightPressCameraButton"
-+ "lightPressCameraButton"
-+ "pressCameraButton"
-+ "systemDoubleLightPressCameraButton"
-+ "systemPressCameraButton"
 + "systemLightPressCameraButton"
++ "systemPressCameraButton"
++ "pressCameraButton"
 + "RequiresCameraButton"
++ "lightPressCameraButton"
++ "doubleLightPressCameraButton"
++ "systemDoubleLightPressCameraButton"
 
 ```

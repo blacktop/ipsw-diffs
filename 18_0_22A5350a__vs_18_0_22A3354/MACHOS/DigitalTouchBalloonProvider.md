@@ -49,7 +49,7 @@ Symbols:
 + _AVCaptureDeviceTypeBuiltInWideAngleCamera
 CStrings:
 + "defaultDeviceWithDeviceType:mediaType:position:"
-- "devices"
 - "hasMediaType:"
+- "devices"
 
 ```

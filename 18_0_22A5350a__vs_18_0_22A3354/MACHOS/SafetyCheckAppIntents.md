@@ -61,14 +61,14 @@
 Symbols:
 + _swift_getKeyPath
 CStrings:
++ "Go to Safety Check"
 + "How do I start a Check-In?"
-+ "Someone can see my information"
-+ "Start a Check-In"
++ "How do I stop sharing"
++ "Someone has access to my information"
 + "How do I kick someone out of my account"
 + "Someone hacked my phone"
-+ "Go to Safety Check"
-+ "How do I stop sharing"
 + "Someone is stalking me"
-+ "Someone has access to my information"
++ "Start a Check-In"
++ "Someone can see my information"
 
 ```

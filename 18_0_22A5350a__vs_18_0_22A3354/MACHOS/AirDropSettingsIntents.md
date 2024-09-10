@@ -65,8 +65,8 @@
 Symbols:
 + __swiftEmptyArrayStorage
 CStrings:
-+ "Set Use Cellular Data for AirDrop to "
 + "Set Bring Devices Together for AirDrop to "
 + "Set AirDrop Receiving Mode to "
++ "Set Use Cellular Data for AirDrop to "
 
 ```

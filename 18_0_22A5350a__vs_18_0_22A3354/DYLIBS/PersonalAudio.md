@@ -44,11 +44,11 @@
 +  CStrings:  843
  
 Symbols:
-+ _PAAudioRouteBluetoothProductIdentifierB498
-+ _PAAudioRouteBluetoothProductIdentifierB515c
 + _PAAudioRouteBluetoothProductIdentifierB768m
 + _PAAudioRouteBluetoothProductIdentifierB768e
 + _PAAudioRouteBluetoothProductIdentifierB768che
++ _PAAudioRouteBluetoothProductIdentifierB498
++ _PAAudioRouteBluetoothProductIdentifierB515c
 CStrings:
 + "76,8222"
 + "76,8221"

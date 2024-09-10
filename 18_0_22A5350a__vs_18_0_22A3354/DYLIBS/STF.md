@@ -37,8 +37,8 @@
 +  CStrings:  1659
  
 Symbols:
-+ _kFigCaptureStreamMetadataOutputKey_PreLTMThumbnail
 + _kFigSampleBufferAttachmentKey_AttachedMedia
++ _kFigCaptureStreamMetadataOutputKey_PreLTMThumbnail
 CStrings:
 + "inputPreLTMThumbnailSampleBuffer"
 + "attachedMedia"

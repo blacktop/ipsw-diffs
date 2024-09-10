@@ -51,22 +51,22 @@
 +  CStrings:  1358
  
 Symbols:
-+ _kAMAuthInstallApParameterApNonceSlotID
-+ _kAMAuthInstallApParameterSepNonceSlotID
++ _mach_error_string
 + _kAMAuthInstallApParameterApNonce
 + _kAMAuthInstallApParameterSepNonce
-+ _mach_error_string
++ _kAMAuthInstallApParameterApNonceSlotID
++ _kAMAuthInstallApParameterSepNonceSlotID
 CStrings:
 + "Failed to connect to AppleSEPManager to generate sep nonce.\n"
-+ "IOServiceOpen failed for class '%!s(MISSING)'\n"
-+ "AppleMobileApNonce"
-+ "AppleSEPManager"
-+ "IODeviceTree:/arm-io/sep/iop-sep-nub/Sandcat"
-+ "unable to read the AP slot id will not set.\n"
-+ "unable to read the SEP slot id will not set.\n"
-+ "Failed to connect to AppleMobileApNonce to generate AP nonce slot.\n"
-+ "IOServiceMatching failed for %!s(MISSING)\n"
-+ "IOConnectCallMethod(%!s(MISSING),%!u(MISSING)) failed: %!s(MISSING)\n"
 + "IOServiceGetMatchingService failed\n"
++ "unable to read the SEP slot id will not set.\n"
++ "IOConnectCallMethod(%!s(MISSING),%!u(MISSING)) failed: %!s(MISSING)\n"
++ "AppleMobileApNonce"
++ "IODeviceTree:/arm-io/sep/iop-sep-nub/Sandcat"
++ "IOServiceMatching failed for %!s(MISSING)\n"
++ "unable to read the AP slot id will not set.\n"
++ "IOServiceOpen failed for class '%!s(MISSING)'\n"
++ "Failed to connect to AppleMobileApNonce to generate AP nonce slot.\n"
++ "AppleSEPManager"
 
 ```

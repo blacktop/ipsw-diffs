@@ -30,11 +30,11 @@
 +  CStrings:  42765
  
 CStrings:
-+ "g17p-a0"
-+ "g17-8xmsaa"
 + "applegpu_g17p"
-+ "g17-dl0-lock-hint"
 + "g17"
++ "g17p-a0"
 + "applegpu_g17p-apple-ios"
++ "g17-dl0-lock-hint"
++ "g17-8xmsaa"
 
 ```

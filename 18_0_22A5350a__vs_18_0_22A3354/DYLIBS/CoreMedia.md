@@ -41,8 +41,8 @@
 +  CStrings:  5130
  
 Symbols:
-+ _FigAudioFormatDescriptionGetCinematicAudioEffectEligibility
 + _FigAudioStreamPacketDependencyInfoCopyAsSampleDependencyAttributeDictionary
++ _FigAudioFormatDescriptionGetCinematicAudioEffectEligibility
 CStrings:
 + "ngst"
 

@@ -83,12 +83,12 @@
 +  CStrings:  1965
  
 Symbols:
-+ _OBJC_METACLASS_$_PUPickerStyleablePhotoSuggestion
 + _OBJC_CLASS_$_PUPickerStyleablePhotoSuggestion
++ _OBJC_METACLASS_$_PUPickerStyleablePhotoSuggestion
 - _swift_setDeallocating
 CStrings:
 + "styleabilitySuggestionGroup"
-+ "predicateForStyleableAssets"
 + "PUPickerStyleablePhotoSuggestion"
++ "predicateForStyleableAssets"
 
 ```

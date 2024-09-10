@@ -46,26 +46,26 @@
 +  CStrings:  487
  
 Symbols:
-+ _kCFACCUserDefaultsKey_DontSkipInductiveAuthOnCTA
-+ _ACCUserDefaultsKey_DontSkipInductiveAuthOnCTA
-+ _ACCUserDefaultsKey_PretendNFCAuthFailed
-+ _kCFACCUserDefaultsKey_InductiveAuthPretendMatchRxID
-+ _ACCUserDefaultsKey_PretendNFCAuthTimeout
-+ _kCFACCUserDefaultsKey_SkipNFCAuth
-+ _kCFACCUserDefaultsKey_PretendNFCAuthTimeout
-+ _colorWashTable0x91
-+ _colorWashTable0x91Size
-+ _kCFACCUserDefaultsKey_PretendNFCAuthFailed
-+ _ACCUserDefaultsKey_SkipNFCAuth
 + _ACCUserDefaultsKey_ForceT56RelaySupport
++ _kCFACCUserDefaultsKey_DontSkipInductiveAuthOnCTA
++ _ACCUserDefaultsKey_PretendNFCAuthTimeout
++ _ACCUserDefaultsKey_DontSkipInductiveAuthOnCTA
 + _kCFACCUserDefaultsKey_ForceT56RelaySupport
++ _ACCUserDefaultsKey_PretendNFCAuthFailed
++ _colorWashTable0x91Size
++ _kCFACCUserDefaultsKey_SkipNFCAuth
++ _kCFACCUserDefaultsKey_PretendNFCAuthFailed
++ _kCFACCUserDefaultsKey_PretendNFCAuthTimeout
 + _ACCUserDefaultsKey_InductiveAuthPretendMatchRxID
++ _ACCUserDefaultsKey_SkipNFCAuth
++ _colorWashTable0x91
++ _kCFACCUserDefaultsKey_InductiveAuthPretendMatchRxID
 CStrings:
-+ "InductiveAuthPretendMatchRxID"
 + "PretendNFCAuthTimeout"
-+ "DontSkipInductiveAuthOnCTA"
 + "SkipNFCAuth"
 + "PretendNFCAuthFailed"
++ "DontSkipInductiveAuthOnCTA"
++ "InductiveAuthPretendMatchRxID"
 + "ForceT56RelaySupport"
 
 ```

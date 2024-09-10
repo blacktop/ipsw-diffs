@@ -47,8 +47,8 @@ Symbols:
 + _kMXSessionAudioMode_SpatialCapture
 CStrings:
 + "Aug  3 2024"
-+ "SpatialCapture"
 + "08:45:11"
++ "SpatialCapture"
 - "Aug  6 2024"
 - "07:48:48"
 

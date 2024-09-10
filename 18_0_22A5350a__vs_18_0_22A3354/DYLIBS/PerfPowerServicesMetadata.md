@@ -66,17 +66,17 @@ Symbols:
 + _OBJC_METACLASS_$_PPSCameraCaptureMetrics
 + _OBJC_CLASS_$_PPSCameraCaptureMetrics
 CStrings:
-+ "DetectionSessionStartTime"
-+ "PPSCameraCaptureMetrics"
-+ "Duty cycle"
 + "AOP2Power"
-+ "aop2PowerMetrics"
 + "Wake count"
-+ "InPocketDecision"
-+ "PocketDetection"
-+ "CameraCapture"
-+ "CPU count"
++ "Duty cycle"
 + "cameraInPocketDecision"
++ "InPocketDecision"
++ "CPU count"
++ "CameraCapture"
 + "DetectionSessionStopTime"
++ "aop2PowerMetrics"
++ "DetectionSessionStartTime"
++ "PocketDetection"
++ "PPSCameraCaptureMetrics"
 
 ```

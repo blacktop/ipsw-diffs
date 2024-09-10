@@ -62,8 +62,8 @@ Symbols:
 + _NFDriverSupportsSecureTimersInOFF
 CStrings:
 + "_supportsSecureTimersInOFF"
-+ "supportsSecureTimersInOFF:"
 + "\x03\x1a\x13\x1b\x13\xb8"
++ "supportsSecureTimersInOFF:"
 - "\x03\x1a\x13\x1b\x13\xa8"
 
 ```

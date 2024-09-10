@@ -57,20 +57,20 @@
 Symbols:
 + _mach_error_string
 CStrings:
-+ "IOServiceGetMatchingService failed\n"
-+ "unable to read the SEP slot id will not set.\n"
 + "IOServiceOpen failed for class '%!s(MISSING)'\n"
-+ "ApNonceSlotID"
 + "Failed to connect to AppleSEPManager to generate sep nonce.\n"
-+ "IODeviceTree:/arm-io/sep/iop-sep-nub/Sandcat"
-+ "IOConnectCallMethod(%!s(MISSING),%!u(MISSING)) failed: %!s(MISSING)\n"
-+ "unable to read the AP slot id will not set.\n"
-+ "Failed to connect to AppleMobileApNonce to generate AP nonce slot.\n"
 + "VinylRestore-78~1097"
 + "IOServiceMatching failed for %!s(MISSING)\n"
-+ "AppleSEPManager"
 + "AppleMobileApNonce"
++ "IOConnectCallMethod(%!s(MISSING),%!u(MISSING)) failed: %!s(MISSING)\n"
 + "SepNonceSlotID"
++ "IODeviceTree:/arm-io/sep/iop-sep-nub/Sandcat"
++ "unable to read the SEP slot id will not set.\n"
++ "unable to read the AP slot id will not set.\n"
++ "ApNonceSlotID"
++ "Failed to connect to AppleMobileApNonce to generate AP nonce slot.\n"
++ "IOServiceGetMatchingService failed\n"
++ "AppleSEPManager"
 - "VinylRestore-78~1088"
 
 ```

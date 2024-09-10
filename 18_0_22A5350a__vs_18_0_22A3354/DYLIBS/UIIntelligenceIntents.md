@@ -63,7 +63,7 @@
 +  CStrings:  59
  
 CStrings:
-+ "Rewrite the current text as "
 + "Proofread the current text in "
++ "Rewrite the current text as "
 
 ```

@@ -59,11 +59,11 @@
 Symbols:
 + _swift_getKeyPath
 CStrings:
-+ "Open Find My iphone settings"
 + "Open map settings"
++ "Open share my location settings"
++ "Open Find My friends settings"
++ "Open Find My iphone settings"
 + "Share my location setting"
 + "Open Find My device settings"
-+ "Open Find My friends settings"
-+ "Open share my location settings"
 
 ```

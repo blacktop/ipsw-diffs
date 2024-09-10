@@ -68,81 +68,81 @@
 +  CStrings:  282
  
 Symbols:
-+ _dispatch_semaphore_signal
++ _objc_retain_x20
++ _objc_retain_x23
++ _objc_retain_x25
++ _dispatch_time
++ _objc_retain_x24
 + _MGGetBoolAnswer
-+ _OBJC_CLASS_$_NSMutableArray
-+ _OBJC_CLASS_$_NSXPCInterface
++ _dispatch_semaphore_wait
++ _dispatch_semaphore_create
++ _dispatch_semaphore_signal
++ _objc_retain_x22
++ _objc_release_x28
++ _objc_alloc_init
 + _OBJC_CLASS_$_NSBundle
 + _OBJC_CLASS_$_NSXPCConnection
-+ _objc_retain_x22
-+ _objc_retain_x20
-+ _objc_alloc_init
-+ _objc_retain_x25
-+ _objc_retain_x24
-+ _dispatch_semaphore_wait
-+ _dispatch_time
-+ _dispatch_semaphore_create
-+ _objc_release_x28
++ _OBJC_CLASS_$_NSMutableArray
++ _OBJC_CLASS_$_NSXPCInterface
 + _objc_retain
-+ _objc_retain_x23
 + _OBJC_CLASS_$_NSNumber
 CStrings:
-+ "v24@0:8@?<v@?@\"NSError\">16"
-+ "data"
-+ "intersectSet:"
-+ "statusCode"
-+ "seal:withReply:"
-+ "updateBrunorDATFirmwareWithReply:"
-+ "addObject:"
-+ "invalidate"
-+ "IPHONE COMP RCAM"
-+ "v32@0:8@\"NSDictionary\"16@?<v@?B@\"NSDictionary\">24"
-+ "Failed to patch items"
-+ "InternalBuild"
-+ "Not in diagnostics mode"
-+ "DisplayMaxDuration"
-+ "IPHONE MCTUB"
-+ "v24@0:8@?16"
-+ "mutableCopy"
-+ "setRemoteObjectInterface:"
-+ "verifyPSD3WithReply:"
-+ "-"
-+ "3kmXfug8VcxLI5yEmsqQKw"
-+ "Invalid key: %!@(MISSING)"
-+ "decompressPearlFramesWithReply:"
-+ "Result %!@(MISSING)"
-+ "TB,R,N,VallowUsedPart"
 + "numberWithBool:"
-+ "TB,R,N,VallowSelfService"
-+ "allowSelfService"
-+ "objectForInfoDictionaryKey:"
-+ "objectAtIndexedSubscript:"
-+ "patchDataInstances"
-+ "com.apple.corerepair"
++ "v32@0:8@16@?24"
++ "addObject:"
 + "interfaceWithProtocol:"
-+ "intValue"
-+ "resume"
-+ "IPHONE COMP ENCL"
-+ "allowSelfService: %!@(MISSING)"
++ "seal:withReply:"
++ "data"
++ "v16@?0@\"NSDictionary\"8"
++ "CFBundleShortVersionString"
 + "allowUsedPart: %!@(MISSING)"
-+ "daemonControl:withReply:"
-+ "v32@0:8@\"NSDictionary\"16@?<v@?@\"NSDictionary\">24"
 + "UseSOCKSHost"
++ "UseSOCKSPort"
++ "mutableCopy"
++ "Result %!@(MISSING)"
 + "patchValues"
++ "v24@0:8@?<v@?@\"NSError\">16"
++ "3kmXfug8VcxLI5yEmsqQKw"
++ "remoteObjectProxy"
++ "com.apple.corerepair"
++ "objectAtIndexedSubscript:"
++ "statusCode"
 + "substringFromIndex:"
++ "intersectSet:"
++ "-"
++ "invalidate"
++ "DisplayMaxDuration"
++ "Failed to patch items"
++ "v24@0:8@?16"
++ "v32@0:8@\"NSDictionary\"16@?<v@?B@\"NSDictionary\">24"
++ "IPHONE COMP ENCL"
++ "setRemoteObjectInterface:"
++ "TB,R,N,VallowUsedPart"
++ "CoreRepairHelperProtocol"
++ "resume"
++ "allowSelfService"
 + "updateSavageDATFirmwareWithReply:"
 + "allowUsedPart"
-+ "v32@0:8@16@?24"
-+ "CoreRepairHelperProtocol"
++ "patchDataInstances"
++ "objectForInfoDictionaryKey:"
++ "updateBrunorDATFirmwareWithReply:"
++ "TB,R,N,VallowSelfService"
 + "selected PartSPCs:%!@(MISSING)"
-+ "CFBundleShortVersionString"
++ "v32@0:8@\"NSDictionary\"16@?<v@?@\"NSDictionary\">24"
 + "initWithMachServiceName:options:"
-+ "UseSOCKSPort"
-+ "v16@?0@\"NSDictionary\"8"
++ "intValue"
++ "allowSelfService: %!@(MISSING)"
++ "IPHONE MCTUB"
++ "decompressPearlFramesWithReply:"
++ "InternalBuild"
++ "daemonControl:withReply:"
++ "Not in diagnostics mode"
++ "IPHONE COMP RCAM"
++ "Invalid key: %!@(MISSING)"
 + "patchDataClasses"
++ "verifyPSD3WithReply:"
 + "mainBundle"
-+ "remoteObjectProxy"
-- "fdrErrorDescription"
 - "fdrErrorCode"
+- "fdrErrorDescription"
 
 ```

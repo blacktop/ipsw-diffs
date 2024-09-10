@@ -63,40 +63,40 @@
  
 Symbols:
 + _HKSPSleepLaunchURLRouteOpenBreathingDisturbancesRoom
-+ _HKSPProvenancePresentationSleepApneaNotificationsRoom
-+ _HKSPProvenanceSourceSleepApneaNotificationOnboardingPromotion
 + _HKSPProvenancePresentationSleepingBreathingDisturbancesRoom
++ _HKSPProvenancePresentationSleepApneaNotificationsRoom
 + _HKSPSleepLaunchURLRouteOnboardSleepApneaNotifications
++ _HKSPProvenanceSourceSleepApneaNotificationOnboardingPromotion
 CStrings:
-+ "HKSPAnalyticsLaunchSourceSleepApneaNotificationsRoom"
-+ "_isOnboardedBD"
-+ "maxTimeBetweenSessionsPastNight"
-+ "SleepApneaNotificationOnboardingPromotion"
-+ "setIsOnboardedBD:"
-+ "T@\"NSNumber\",C,N,V_numBDValuesInPastNight"
-+ "setMaxTimeBetweenBDSessionsPastNight:"
 + "meanTimeBetweenSessionsPastNight"
 + "T@\"NSNumber\",C,N,V_meanTimeBetweenBDSessionsPastNight"
-+ "setMinTimeBetweenBDSessionsPastNight:"
-+ "maxTimeBetweenBDSessionsPastNight"
-+ "numBDValuesInPastNight"
-+ "setMeanTimeBetweenBDSessionsPastNight:"
-+ "minTimeBetweenSessionsPastNight"
-+ "T@\"NSNumber\",C,N,V_minTimeBetweenBDSessionsPastNight"
-+ "T@\"NSNumber\",C,N,V_isOnboardedBD"
-+ "isOnboardedBD"
-+ "openBreathingDisturbancesRoom"
-+ "onboardSleepApneaNotifications"
-+ "V:\x85"
-+ "_meanTimeBetweenBDSessionsPastNight"
-+ "setNumBDValuesInPastNight:"
-+ "_minTimeBetweenBDSessionsPastNight"
-+ "minTimeBetweenBDSessionsPastNight"
++ "SleepApneaNotificationOnboardingPromotion"
 + "HKSPAnalyticsLaunchSourceSleepingBreathingDisturbancesRoom"
-+ "T@\"NSNumber\",C,N,V_maxTimeBetweenBDSessionsPastNight"
-+ "_maxTimeBetweenBDSessionsPastNight"
++ "setMaxTimeBetweenBDSessionsPastNight:"
++ "setIsOnboardedBD:"
++ "maxTimeBetweenBDSessionsPastNight"
++ "onboardSleepApneaNotifications"
++ "_isOnboardedBD"
++ "T@\"NSNumber\",C,N,V_isOnboardedBD"
++ "V:\x85"
 + "_numBDValuesInPastNight"
++ "HKSPAnalyticsLaunchSourceSleepApneaNotificationsRoom"
++ "setNumBDValuesInPastNight:"
++ "T@\"NSNumber\",C,N,V_minTimeBetweenBDSessionsPastNight"
++ "numBDValuesInPastNight"
++ "openBreathingDisturbancesRoom"
++ "T@\"NSNumber\",C,N,V_numBDValuesInPastNight"
++ "minTimeBetweenBDSessionsPastNight"
++ "isOnboardedBD"
++ "setMinTimeBetweenBDSessionsPastNight:"
++ "setMeanTimeBetweenBDSessionsPastNight:"
++ "_maxTimeBetweenBDSessionsPastNight"
 + "meanTimeBetweenBDSessionsPastNight"
++ "_meanTimeBetweenBDSessionsPastNight"
++ "_minTimeBetweenBDSessionsPastNight"
++ "T@\"NSNumber\",C,N,V_maxTimeBetweenBDSessionsPastNight"
++ "minTimeBetweenSessionsPastNight"
++ "maxTimeBetweenSessionsPastNight"
 - "V:"
 
 ```

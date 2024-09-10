@@ -69,28 +69,28 @@
 +  CStrings:  538
  
 Symbols:
-+ _$s10Foundation13URLComponentsV6stringACSgSSh_tcfC
-+ _$s10Foundation13URLComponentsVMa
-+ _$ss11_StringGutsV4growyySiF
-+ _UIApp
-+ _objc_retain_x21
-+ _swift_arrayInitWithTakeBackToFront
-+ _$s10Foundation13URLComponentsV10queryItemsSayAA12URLQueryItemVGSgvs
-+ _$sSS6appendyySSF
-+ _$s10Foundation12URLQueryItemV4name5valueACSSh_SSSghtcfC
-+ _$s10Foundation12URLQueryItemVMa
-+ _$s10Foundation13URLComponentsVMn
-+ _swift_arrayInitWithCopy
 + _$s10Foundation12URLQueryItemVMn
++ _$ss11_StringGutsV4growyySiF
++ _$s10Foundation12URLQueryItemV4name5valueACSSh_SSSghtcfC
++ _$sSS6appendyySSF
 + _$s10Foundation13URLComponentsV3urlAA3URLVSgvg
++ _$s10Foundation13URLComponentsV6stringACSgSSh_tcfC
 + _swift_arrayInitWithTakeFrontToBack
++ _$s10Foundation13URLComponentsVMa
++ _$s10Foundation13URLComponentsVMn
++ _objc_retain_x21
++ _swift_arrayInitWithCopy
++ _$s10Foundation12URLQueryItemVMa
++ _swift_arrayInitWithTakeBackToFront
++ _UIApp
++ _$s10Foundation13URLComponentsV10queryItemsSayAA12URLQueryItemVGSgvs
 CStrings:
++ "com.apple.DiagnosticExtensions.Bluetooth"
 + "tap-to-radar://new"
 + "AppleTVSetup: TTSU Failed: "
-+ "openURL:withCompletionHandler:"
-+ "com.apple.DiagnosticExtensions.Bluetooth"
-+ "handleReportBugButton()"
-+ "ExtensionIdentifiers"
 + "ComponentVersion"
++ "openURL:withCompletionHandler:"
++ "ExtensionIdentifiers"
++ "handleReportBugButton()"
 
 ```

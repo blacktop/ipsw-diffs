@@ -97,27 +97,27 @@
 +  CStrings:  3612
  
 Symbols:
-+ _ntk_seasons_fall2024_ink
++ _ntk_seasons_fall2024_lakeGreen
++ _ntk_seasons_fall2024_denim
++ _ntk_seasons_fall2024_slate
++ _ntk_seasons_fall2024_darkTaupe
++ _ntk_seasons_fall2024_lightBlush
 + _ntk_seasons_fall2024_ultramarine
 + _ntk_seasons_fall2024_gold
-+ _ntk_seasons_fall2024_slate
-+ _ntk_seasons_fall2024_silver
-+ _ntk_seasons_fall2024_blueCloud
-+ _ntk_seasons_fall2024_plum
++ _ntk_seasons_fall2024_ink
 + _ntk_seasons_fall2024_roseGold
-+ _ntk_seasons_fall2024_magenta
-+ _ntk_seasons_fall2024_lightBlush
-+ _ntk_seasons_fall2024_natural
-+ _ntk_seasons_fall2024_denim
-+ _ntk_seasons_fall2024_darkTaupe
++ _ntk_seasons_fall2024_silver
 + _ntk_seasons_fall2024_chartreuse
-+ _ntk_seasons_fall2024_lakeGreen
++ _ntk_seasons_fall2024_plum
++ _ntk_seasons_fall2024_magenta
++ _ntk_seasons_fall2024_natural
++ _ntk_seasons_fall2024_blueCloud
 + _ntk_seasons_fall2024_starFruit
 CStrings:
-+ "LemonadePicker"
-+ "Lemonade"
 + "PhotosColorRamps-F2024"
 + "Photos"
++ "Lemonade"
++ "LemonadePicker"
 + "Presenting collections picker"
 - "PhotosColorRamps"
 

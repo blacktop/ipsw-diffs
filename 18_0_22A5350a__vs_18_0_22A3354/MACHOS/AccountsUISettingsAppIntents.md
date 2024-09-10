@@ -89,109 +89,109 @@
 +  CStrings:  50
  
 Symbols:
-+ _malloc
-+ _objc_release_x27
-+ _objc_release_x8
-+ __NSConcreteStackBlock
++ _objc_msgSend
++ _swift_release
++ _swift_bridgeObjectRelease_n
++ _swift_continuation_throwingResumeWithError
++ __swiftImmortalRefCount
++ _swift_getTypeByMangledNameInContext2
++ __swiftEmptyDictionarySingleton
++ __swift_FORCE_LOAD_$_swiftAccelerate
++ __swift_FORCE_LOAD_$_swiftCompression
++ _malloc_size
++ _objc_release_x20
++ _objc_retain_x8
++ _swift_once
++ _OBJC_CLASS_$_ACAccountStore
++ _objc_retainAutoreleasedReturnValue
++ _swift_bridgeObjectRelease
++ _free
++ _swift_errorRelease
++ _swift_willThrow
++ _OBJC_CLASS_$_ACAccount
 + __swift_FORCE_LOAD_$_swiftSpatial
 + _swift_task_alloc
-+ _swift_arrayInitWithCopy
-+ __swift_FORCE_LOAD_$_swiftCoreImage
-+ _objc_release_x21
-+ _swift_continuation_throwingResume
-+ _objc_retain_x8
-+ _swift_continuation_throwingResumeWithError
-+ _OBJC_CLASS_$_ACAccount
-+ __swift_FORCE_LOAD_$_swiftDataDetection
-+ _swift_continuation_init
-+ _swift_once
-+ _swift_release
-+ _memmove
-+ _swift_bridgeObjectRetain
-+ _free
-+ _objc_retain_x20
-+ __swift_FORCE_LOAD_$_swiftCompression
-+ _swift_slowAlloc
-+ _swift_task_switch
-+ __swiftEmptyArrayStorage
-+ _objc_msgSend
-+ _objc_release_x20
-+ _swift_getTypeByMangledNameInContextInMetadataState2
-+ __swiftImmortalRefCount
-+ _swift_retain
-+ _swift_task_dealloc
-+ _swift_willThrow
-+ _objc_opt_self
-+ _objc_retainAutoreleasedReturnValue
-+ _objc_release_x23
-+ _swift_getObjCClassMetadata
-+ _malloc_size
-+ _objc_release_x22
-+ _swift_allocError
-+ _swift_bridgeObjectRelease_n
-+ _swift_continuation_await
-+ _objc_release_x19
-+ _objc_release_x26
-+ _swift_bridgeObjectRelease
-+ _swift_errorRelease
-+ ___chkstk_darwin
-+ __swift_FORCE_LOAD_$_swiftUIKit
-+ __swiftEmptyDictionarySingleton
-+ _swift_allocObject
-+ _swift_getTypeByMangledNameInContext2
-+ _OBJC_CLASS_$_ACAccountStore
-+ __swift_FORCE_LOAD_$_swiftAccelerate
++ _objc_release_x27
 + _OBJC_CLASS_$_ACAccountType
++ _malloc
++ _objc_opt_self
++ _objc_release_x21
++ _objc_retain_x20
++ _swift_slowAlloc
++ ___chkstk_darwin
++ _swift_allocError
++ _swift_bridgeObjectRetain
++ _swift_continuation_throwingResume
++ _swift_retain
++ __NSConcreteStackBlock
++ __swiftEmptyArrayStorage
++ _objc_release_x19
++ _swift_allocObject
++ _swift_getTypeByMangledNameInContextInMetadataState2
++ __swift_FORCE_LOAD_$_swiftCoreImage
++ _memmove
++ _swift_continuation_init
++ _objc_release_x22
++ _objc_release_x23
++ _objc_release_x8
++ _swift_arrayInitWithCopy
++ _swift_getObjCClassMetadata
++ _swift_task_dealloc
++ __swift_FORCE_LOAD_$_swiftDataDetection
++ _objc_release_x26
++ _swift_task_switch
++ __swift_FORCE_LOAD_$_swiftUIKit
++ _swift_continuation_await
 CStrings:
-+ "Go to settings for "
-+ "Go to the settings for the "
-+ "Log into a POP account"
-+ "Mail accounts list"
-+ "Add a Notes Account"
-+ "Log into a Yahoo! account"
-+ "Log into an Exchange account"
-+ "Open List of Internet Accounts"
-+ "accountsWithAccountTypeIdentifiers:completion:"
-+ "com.apple.AccountsUISettings.AppIntents"
-+ "monitoredAccountWithIdentifier:"
-+ "settings-navigation://com.apple.Settings.InternetAccounts/root"
++ "View the list of internet accounts logged in for various first and third party services for use in apps such as Mail, Contacts, and Calendar."
++ "Apps → Contacts → Contacts Accounts"
 + "Apps → Contacts → Contacts Accounts → Add Account"
-+ "Apps → Contacts → Contacts Accounts → "
 + "Go to a specific Internet Accountʼs settings page"
-+ "List of Internet Accounts"
++ "Go to settings for "
++ "Log into an LDAP account"
++ "Log into an Outlook account"
++ "Open an Internet Accountʼs Settings"
++ "accountDescription"
++ "Apps → Contacts → Contacts Accounts → "
++ "Contacts accounts list"
++ "Internet Accounts"
++ "Open Internet Accounts List"
++ "accountType"
++ "com.apple.Preferences"
++ "identifier"
++ "Add a Reminders Account"
++ "Go to the settings for the "
++ "Log into a CalDAV account"
++ "Log into a Google account"
++ "Log into a Yahoo! account"
 + "Log into an AOL account"
 + "Log into an Internet Account"
-+ "Log into an LDAP account"
-+ "Apps → Contacts → Contacts Accounts"
-+ "Contacts accounts list"
-+ "Log into a Google account"
-+ "Open an Internet Accountʼs Settings"
-+ "View the list of internet accounts logged in for various first and third party services for use in apps such as Mail, Contacts, and Calendar."
-+ "accountDescription"
-+ "accountWithIdentifier:"
-+ "com.apple.Preferences"
-+ "Add a Reminders Account"
 + "settings-navigation://com.apple.Settings.InternetAccounts/"
-+ "root"
-+ "Log into an Outlook account"
-+ "identifier"
-+ "settings-navigation://com.apple.Settings.InternetAccounts/ADD_ACCOUNT"
-+ "v24@?0@\"NSArray\"8@\"NSError\"16"
-+ "Internet Accounts"
 + "Calendar accounts list"
 + "Log in to internet accounts for various first and third party services for use in apps such as Mail, Contacts, and Calendar."
-+ "Log into a CardDAV account"
-+ "Log into an iCloud account"
-+ "Notes accounts list"
-+ "accountType"
-+ "Add a Calendar Account"
-+ "Open Internet Accounts List"
-+ "Reminders accounts list"
++ "Mail accounts list"
++ "accountsWithAccountTypeIdentifiers:completion:"
 + "addAccount"
-+ "Add a Mail Account"
-+ "Log into a CalDAV account"
-+ "Log into an IMAP account"
-+ "defaultStore"
++ "Log into an iCloud account"
++ "Open List of Internet Accounts"
++ "accountWithIdentifier:"
++ "monitoredAccountWithIdentifier:"
 + "Add a Contacts Account"
++ "Log into a POP account"
++ "Log into an IMAP account"
++ "Reminders accounts list"
++ "Log into a CardDAV account"
++ "Log into an Exchange account"
++ "Notes accounts list"
++ "defaultStore"
++ "root"
++ "settings-navigation://com.apple.Settings.InternetAccounts/root"
++ "Add a Calendar Account"
++ "Add a Mail Account"
++ "Add a Notes Account"
++ "List of Internet Accounts"
++ "com.apple.AccountsUISettings.AppIntents"
++ "settings-navigation://com.apple.Settings.InternetAccounts/ADD_ACCOUNT"
++ "v24@?0@\"NSArray\"8@\"NSError\"16"
 
 ```

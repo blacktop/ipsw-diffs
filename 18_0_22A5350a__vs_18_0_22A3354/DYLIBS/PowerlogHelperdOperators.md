@@ -70,22 +70,22 @@
 +  CStrings:  15829
  
 Symbols:
-+ _kPLWiFiAgentEventBackwardNameScanForwardStats
 + _kPLBB23B
++ _kPLWiFiAgentEventBackwardNameScanForwardStats
 CStrings:
-+ "ScanForward current data: %!@(MISSING) %!@(MISSING)"
-+ "entryEventBackwardDefinitionScanForwardStats"
-+ "ScanForwardCurrentBSSS"
++ "bb23B"
 + "SCANFORWARD_FORWARDED_BSSS_IN_WAKE"
-+ "ScanForwardStats"
++ "SCANFORWARD_TOTAL_SPMI_MSGS_IN_SLEEP"
++ "SCANFORWARD_CURRENT_BSSS_IN_WAKE"
++ "ScanForwardCurrentBSSS"
 + "SCANFORWARD_FORWARDED_BSSS_IN_SLEEP"
 + "isScanForwardLoggingEnabled"
-+ "bb23B"
-+ "ScanForwardForwardedBSSS"
-+ "SCANFORWARD_CURRENT_BSSS_IN_SLEEP"
++ "ScanForwardStats"
 + "SCANFORWARD_TOTAL_SPMI_MSGS_IN_WAKE"
-+ "SCANFORWARD_CURRENT_BSSS_IN_WAKE"
 + "ScanForwardTotalSPMIMSGS"
-+ "SCANFORWARD_TOTAL_SPMI_MSGS_IN_SLEEP"
++ "SCANFORWARD_CURRENT_BSSS_IN_SLEEP"
++ "entryEventBackwardDefinitionScanForwardStats"
++ "ScanForwardForwardedBSSS"
++ "ScanForward current data: %!@(MISSING) %!@(MISSING)"
 
 ```

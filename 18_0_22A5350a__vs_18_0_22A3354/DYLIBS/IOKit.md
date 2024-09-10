@@ -46,26 +46,26 @@
 +  CStrings:  2473
  
 Symbols:
-+ _IOHIDEventCreateTouchSensitiveButtonEvent
 + _IOHIDEventCreateTouchSensitiveButtonEventWithRadius
++ _IOHIDEventCreateTouchSensitiveButtonEvent
 CStrings:
-+ "XYZ"
-+ "ColorComponent2:"
-+ "LowSNRSwipe "
-+ "NormalizedPositionY:"
-+ "ColorSpace:"
-+ "Undefined"
-+ "FastSwipe "
-+ "ColorComponent1:"
-+ "TouchSensitiveButton"
-+ "%!s(MISSING) %!d(MISSING)x\n"
-+ "NormalizedPositionDeltaY:"
-+ "NormalizedPositionDeltaX:"
 + "ClickDownPredicted "
-+ "ColorComponent0:"
-+ "NormalizedPositionX:"
-+ "OSKEXT_BUILD_DATE 05:54:55 Aug  3 2024"
++ "ColorSpace:"
++ "NormalizedPositionDeltaX:"
 + "LiftOffPredicted "
++ "FastSwipe "
++ "OSKEXT_BUILD_DATE 05:54:55 Aug  3 2024"
++ "TouchSensitiveButton"
++ "NormalizedPositionY:"
++ "ColorComponent1:"
++ "ColorComponent2:"
++ "Undefined"
++ "LowSNRSwipe "
++ "NormalizedPositionX:"
++ "%!s(MISSING) %!d(MISSING)x\n"
++ "ColorComponent0:"
++ "XYZ"
++ "NormalizedPositionDeltaY:"
 - "OSKEXT_BUILD_DATE 05:19:38 Aug  6 2024"
 
 ```

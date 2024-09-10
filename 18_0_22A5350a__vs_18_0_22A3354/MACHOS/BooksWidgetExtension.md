@@ -70,11 +70,11 @@
 +  CStrings:  378
  
 CStrings:
-+ " turn the Automatically Invert Images setting "
 + " Reading Goals Settings"
-+ " set reading menu position to "
-+ "Stop Inverting Images in "
 + " set Invert Images "
 + " turn Invert Images "
++ " turn the Automatically Invert Images setting "
++ " set reading menu position to "
++ "Stop Inverting Images in "
 
 ```

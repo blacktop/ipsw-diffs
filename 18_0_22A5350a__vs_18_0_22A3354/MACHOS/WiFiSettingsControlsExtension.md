@@ -66,13 +66,13 @@
 +  CStrings:  161
  
 CStrings:
-+ " Auto Join for current network."
-+ "Change Ask To Join setting to "
-+ "Set Auto Join for current network to "
 + "Set Auto Join to "
-+ "Set Auto Join Hotspot to "
-+ " Auto Join for current network in "
 + "Change Auto Join Hotspot setting to "
++ " Auto Join for current network in "
++ "Change Ask To Join setting to "
++ "Set Auto Join Hotspot to "
++ " Auto Join for current network."
++ "Set Auto Join for current network to "
 + "Set Ask To Join to "
 
 ```

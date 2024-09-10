@@ -38,8 +38,8 @@
 +  CStrings:  328
  
 CStrings:
++ "GESTURE_PANE_REGATTA_CHORD"
 + "LocalizableSettings-Squall"
 + "GESTURE_PANE_REGATTA_SINGLE_PRESS"
-+ "GESTURE_PANE_REGATTA_CHORD"
 
 ```

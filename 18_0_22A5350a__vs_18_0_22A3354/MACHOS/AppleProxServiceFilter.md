@@ -95,61 +95,61 @@
 +  CStrings:  538
  
 Symbols:
-+ _objc_retain_x25
-+ _swift_errorRelease
-+ __swift_stdlib_bridgeErrorToNSError
-+ _objc_allocWithZone
-+ _AMFDRSealingMapCopyLocalMultiCombinedDataBeginWithOptions
 + _swift_endAccess
-+ _swift_getForeignTypeMetadata
-+ _swift_dynamicCast
-+ _swift_updateClassMetadata2
-+ __swift_stdlib_reportUnimplementedInitializer
-+ _swift_isaMask
-+ _objc_alloc
-+ _AMFDRSealingMapCopyLocalMultiCombinedDataEnd
-+ _swift_deallocPartialClassInstance
-+ _swift_arrayDestroy
-+ _AMFDRSealingMapCopyLocalMultiCombinedDataAddSubCCForClass
-+ _swift_beginAccess
-+ _MGGetBoolAnswer
-+ _malloc_size
-+ _swift_slowAlloc
-+ _AMFDRSealingMapCopyLocalMultiCombinedDataContextDestroy
-+ _swift_errorRetain
-+ __swiftEmptyArrayStorage
 + _swift_getSingletonMetadata
-+ _OBJC_METACLASS_$__TtC22AppleProxServiceFilter22AppleProxExclaveClient
-+ _swift_slowDealloc
++ _objc_allocWithZone
++ _swift_deallocPartialClassInstance
 + _OBJC_CLASS_$__TtC22AppleProxServiceFilter22AppleProxExclaveClient
++ _objc_retain_x25
++ _swift_arrayDestroy
++ _swift_updateClassMetadata2
++ _swift_beginAccess
++ _swift_errorRelease
++ _OBJC_METACLASS_$__TtC22AppleProxServiceFilter22AppleProxExclaveClient
++ _MGGetBoolAnswer
++ __swiftEmptyArrayStorage
++ _AMFDRSealingMapCopyLocalMultiCombinedDataContextDestroy
++ _AMFDRSealingMapCopyLocalMultiCombinedDataAddSubCCForClass
++ _swift_isaMask
++ __swift_stdlib_reportUnimplementedInitializer
++ _swift_getForeignTypeMetadata
++ _swift_slowDealloc
++ _malloc_size
++ _swift_errorRetain
++ _AMFDRSealingMapCopyLocalMultiCombinedDataBeginWithOptions
++ _objc_alloc
++ _swift_slowAlloc
++ _AMFDRSealingMapCopyLocalMultiCombinedDataEnd
++ _swift_dynamicCast
++ __swift_stdlib_bridgeErrorToNSError
 CStrings:
-+ "Conclave.service failed: %!@(MISSING)"
-+ "proxExclaveService"
-+ "ExclaveCapability"
-+ "initWithConclave:"
 + "com.apple.backboardd.ExclaveFDRDecodeRawDataStoreKitService"
-+ "Sending raw data to FDR: %!u(MISSING) bytes"
-+ "log"
-+ "com.apple.backboardd.AppleProxExclaveService"
-+ "Calibration load failed: %!@(MISSING)"
-+ "Error in BeginWithOptions:%!@(MISSING)"
-+ "Created Tightbeam clients"
-+ "_TtC22AppleProxServiceFilter22AppleProxExclaveClient"
-+ "loadCalibration:"
-+ "Calling AppleProxExclave loadCalibration"
-+ "@20@0:8B16"
-+ "Conclave.service failed with tb_error_t = %!u(MISSING)"
-+ "Error in AddSubCCForClass:%!@(MISSING)"
-+ "Starting conclave..."
-+ "Cannot find FDR data for classes %!@(MISSING):%!@(MISSING)"
 + "Swift/Integers.swift"
-+ "asid"
-+ "init()"
-+ "AppleProxServiceFilter.AppleProxExclaveClient"
-+ "fdrDecodeRawDataStoreService"
 + "Calibration load in AppleProxExclave: %!d(MISSING)"
-+ "Successfully queried FDR data for classes %!@(MISSING):%!@(MISSING)"
-+ "loadCalibrationExclave"
++ "@20@0:8B16"
 + "Not enough bits to represent the passed value"
++ "Error in AddSubCCForClass:%!@(MISSING)"
++ "_TtC22AppleProxServiceFilter22AppleProxExclaveClient"
++ "com.apple.backboardd.AppleProxExclaveService"
++ "proxExclaveService"
++ "Cannot find FDR data for classes %!@(MISSING):%!@(MISSING)"
++ "Conclave.service failed with tb_error_t = %!u(MISSING)"
++ "ExclaveCapability"
++ "Successfully queried FDR data for classes %!@(MISSING):%!@(MISSING)"
++ "Conclave.service failed: %!@(MISSING)"
++ "Error in BeginWithOptions:%!@(MISSING)"
++ "AppleProxServiceFilter.AppleProxExclaveClient"
++ "loadCalibration:"
++ "fdrDecodeRawDataStoreService"
++ "Calibration load failed: %!@(MISSING)"
++ "asid"
++ "Created Tightbeam clients"
++ "loadCalibrationExclave"
++ "initWithConclave:"
++ "init()"
++ "Sending raw data to FDR: %!u(MISSING) bytes"
++ "Calling AppleProxExclave loadCalibration"
++ "log"
++ "Starting conclave..."
 
 ```

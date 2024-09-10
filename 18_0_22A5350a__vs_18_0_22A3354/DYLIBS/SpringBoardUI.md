@@ -43,7 +43,7 @@
 +  CStrings:  2087
  
 CStrings:
-+ "CaptureButton"
 + "AccidentalActiviationMitigationSession"
++ "CaptureButton"
 
 ```

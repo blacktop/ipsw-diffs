@@ -59,19 +59,19 @@
 Symbols:
 + _swift_getKeyPath
 CStrings:
-+ "Open podcasts download settings"
-+ "Open podcasts skip back settings"
-+ "Podcasts cellular download"
-+ "Podcasts and privacy"
-+ "Podcasts forward"
-+ "Open podcasts settings"
 + "Open podcasts and privacy settings"
-+ "Open podcasts privacy settings"
-+ "Open podcasts skip forward settings"
-+ "Open podcasts cellular download settings"
-+ "Open podcast settings"
 + "Open podcasts back settings"
++ "Open podcasts settings"
 + "Open webcast settings"
++ "Podcasts forward"
++ "Open podcast settings"
++ "Open podcasts download settings"
++ "Open podcasts privacy settings"
++ "Open podcasts skip back settings"
++ "Podcasts and privacy"
++ "Podcasts cellular download"
++ "Open podcasts cellular download settings"
 + "Open podcasts forward settings"
++ "Open podcasts skip forward settings"
 
 ```

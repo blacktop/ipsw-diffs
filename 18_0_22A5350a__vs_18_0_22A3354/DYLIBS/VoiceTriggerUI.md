@@ -33,8 +33,8 @@
 +  CStrings:  3198
  
 CStrings:
-+ "Localizable-b515c"
-+ "Localizable-b498"
 + "Localizable-b768"
++ "Localizable-b498"
++ "Localizable-b515c"
 
 ```

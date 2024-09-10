@@ -35,14 +35,14 @@
 +  CStrings:  9905
  
 CStrings:
-+ "95B33B9C3A4D472CBFCABF219ACA88CC"
-+ "apple.sleepapnea.applewatch"
-+ "194E52115E51429D872A12B47B93523B.fill"
-+ "apple.sleepapnea.circle.fill"
 + "95B33B9C3A4D472CBFCABF219ACA88CC.left"
-+ "apple.sleepapnea"
++ "194E52115E51429D872A12B47B93523B.fill"
 + "194E52115E51429D872A12B47B93523B"
++ "apple.sleepapnea.circle.fill"
 + "apple.sleepapnea.circle"
++ "apple.sleepapnea"
 + "95B33B9C3A4D472CBFCABF219ACA88CC.right"
++ "apple.sleepapnea.applewatch"
++ "95B33B9C3A4D472CBFCABF219ACA88CC"
 
 ```

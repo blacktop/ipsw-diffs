@@ -48,8 +48,8 @@
 +  CStrings:  3869
  
 CStrings:
-+ "https://carry-dejavu.siri.apple.com"
 + "https://dejavu.apple.com"
++ "https://carry-dejavu.siri.apple.com"
 - "https://seed-dejavu.siri.apple.com"
 
 ```

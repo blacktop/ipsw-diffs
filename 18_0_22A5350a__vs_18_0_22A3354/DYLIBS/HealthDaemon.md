@@ -70,11 +70,11 @@
  
 Symbols:
 + _HKQuantityTypeIdentifierAppleSleepingBreathingDisturbances
-+ _kHKAgeGatingKeyEnableSleepApneaNotifications
 + _kHKSleepApneaNotificationsAgeGatingAge
++ _kHKAgeGatingKeyEnableSleepApneaNotifications
 CStrings:
-+ "BreathingDisturbancesData"
 + "nebula"
 + "_breathingDisturbancesGraphsArray"
++ "BreathingDisturbancesData"
 
 ```

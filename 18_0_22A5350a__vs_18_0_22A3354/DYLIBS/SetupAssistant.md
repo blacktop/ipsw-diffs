@@ -63,12 +63,12 @@
 Symbols:
 + _BYPrivacySubscriptionBundleIdentifier
 CStrings:
-+ "com.apple.onboarding.subscriptionbundle"
-+ "hasCameraButton"
-+ "C"
 + "CameraButtonCapability"
++ "C"
 + "TB,R,N,V_hasCameraButton"
++ "com.apple.onboarding.subscriptionbundle"
 + "_hasCameraButton"
++ "hasCameraButton"
 - "3"
 
 ```

@@ -66,387 +66,387 @@
 +  CStrings:  389
  
 Symbols:
-+ _ccder_blob_decode_sequence_tl
-+ _ccder_blob_encode_tl
-+ _IORegistryEntryFromPath
-+ _CFDataCreate
-+ _CFHTTPMessageCopyAllHeaderFields
-+ _kAMSupportHttpOptionDisableSSLValidation
-+ _kAMSupportHttpOptionTimeout
-+ _kIOMainPortDefault
-+ _AMSupportLogInternal
-+ _OBJC_CLASS_$_CRPersonalizationManager
-+ _memmove
-+ _CFDictionaryGetTypeID
-+ _CFNumberCreate
-+ _IOServiceGetMatchingService
-+ __NSConcreteStackBlock
-+ ___osLogPearlLibTrace
-+ _kCFBooleanFalse
-+ _kCFBooleanTrue
-+ _AMSupportCreateSetFromCFIndexArray
-+ _ccder_sizeof
-+ _mach_task_self_
 + _memset_s
-+ _ccsha384_di
-+ _fprintf
-+ _OBJC_CLASS_$_CRPreflightController
-+ _CFDictionaryContainsKey
-+ _CFStringCreateWithFormat
-+ _AMSupportHttpCopyProxySettings
-+ _CFDataGetBytes
-+ _HSCSecureProvisionMesaWithUID
-+ _IORegistryEntryCreateCFProperty
-+ _ccder_blob_decode_len
-+ _malloc
-+ _AMAuthInstallApImg4SetSepNonce
-+ _ccder_blob_decode_tl
-+ _dispatch_once
-+ _qsort
-+ ___stdoutp
-+ _kCFHTTPVersion1_1
-+ _syslog
-+ _CFStringAppend
-+ _bzero
-+ _kCFAllocatorDefault
-+ _objc_release
-+ _CFRelease
-+ _CFPropertyListCreateData
-+ _CFRetain
-+ ___chkstk_darwin
-+ _calloc
-+ _kCFTypeDictionaryValueCallBacks
-+ _memcmp
-+ _CFDataCreateCopy
-+ _ccder_blob_decode_range
-+ _dispatch_queue_create
-+ _kAMSupportHttpOptionMaxAttempts
-+ _malloc_type_malloc
-+ _OBJC_CLASS_$_NSNumber
-+ _IOServiceClose
 + _pearlSeaCookieHandleMessage
-+ _CFDictionaryGetValue
-+ ___osLogPearlLib
-+ __logHandler
-+ _malloc_type_calloc
-+ _memcpy
-+ _AMFDRSealingMapGetFDRDataVersionForDevice
-+ _IOObjectRelease
-+ _CFDictionaryCreateCopy
-+ _CFHTTPMessageCreateRequest
-+ _AMSupportLogSetHandler
-+ __os_log_default
-+ _ccder_blob_decode_tag
-+ _CFErrorCreate
-+ _CFStringCreateMutable
-+ _HSCGetMesaNonce
-+ _OBJC_CLASS_$_NSFileManager
-+ _CFDictionaryCreateMutable
-+ _CFPropertyListCreateWithData
-+ _IOServiceOpen
-+ _kAMSupportHttpOptionValidResponses
-+ _kCFErrorLocalizedDescriptionKey
-+ _kCFNull
-+ _kCFTypeDictionaryKeyCallBacks
-+ _CFDataCreateWithBytesNoCopy
-+ _CFDictionaryAddValue
-+ _objc_release_x28
-+ _AMSupportHttpSendSync
-+ _CFStringGetTypeID
-+ _IOConnectCallStructMethod
-+ _dispatch_sync
-+ _CFDataGetLength
-+ _AMAuthInstallSetSigningServerURL
-+ _kCFAllocatorMalloc
-+ _OBJC_CLASS_$_NSString
-+ ___stderrp
-+ _kIOMasterPortDefault
-+ _CFStringCompare
-+ _CFHTTPMessageSetHeaderFieldValue
-+ _CFDataGetBytePtr
-+ _CFStringCreateMutableCopy
-+ _IOServiceMatching
-+ __NSConcreteGlobalBlock
-+ _free
-+ _kAMSupportHttpOptionSocksProxySettings
++ _kAMSupportHttpOptionTimeout
 + _AMSupportCopyHexStringFromData
-+ _os_log_create
-+ _CFUUIDCreate
-+ _CFDataGetTypeID
-+ _HSCSecureProvisionMesaWithUIDProxy
-+ _OBJC_CLASS_$_NSMutableDictionary
-+ _ccder_blob_encode_body
-+ _AMSupportLogDumpMemory
-+ _CFUUIDCreateString
-+ _IOConnectCallMethod
-+ _objc_retainBlock
-+ _CFGetTypeID
++ _AMSupportCreateSetFromCFIndexArray
++ _CFHTTPMessageCreateRequest
++ ___osLogPearlLibTrace
++ _ccder_blob_decode_len
++ _AMSupportHttpCopyProxySettings
++ _CFDictionaryGetValue
++ _kCFAllocatorMalloc
++ _fprintf
++ _AMSupportLogInternal
++ _CFDictionaryCreateMutable
++ _CFStringAppend
++ _CFStringCreateMutable
++ __os_log_default
++ ___stderrp
++ ___stdoutp
++ _bzero
++ _AMAuthInstallApImg4SetSepNonce
 + _CFHTTPMessageSetBody
-+ _ccdigest
++ ___chkstk_darwin
++ _ccder_sizeof
++ _CFDataCreateWithBytesNoCopy
++ _IORegistryEntryCreateCFProperty
++ _kCFNull
++ _ccder_blob_decode_tag
++ _AMAuthInstallSetSigningServerURL
++ _CFStringCompare
++ _CFUUIDCreate
++ _CFUUIDCreateString
++ _ccsha384_di
++ _memcmp
++ _HSCSecureProvisionMesaWithUIDProxy
++ _kIOMasterPortDefault
++ _objc_release
++ _AMSupportLogSetHandler
++ __NSConcreteGlobalBlock
++ _kCFErrorLocalizedDescriptionKey
++ _memmove
++ _CFDictionaryContainsKey
++ _kCFTypeDictionaryValueCallBacks
++ _kIOMainPortDefault
++ _CFPropertyListCreateData
++ _CFPropertyListCreateWithData
++ _CFRetain
++ _ccder_blob_encode_body
++ _CFDictionaryGetTypeID
++ _OBJC_CLASS_$_CRPersonalizationManager
++ _OBJC_CLASS_$_CRPreflightController
++ _kCFBooleanTrue
++ _CFStringCreateMutableCopy
++ _calloc
++ _AMSupportHttpSendSync
++ _CFDataCreateCopy
 + _CFDictionarySetValue
++ _CFGetTypeID
++ _IOServiceGetMatchingService
++ __logHandler
++ _mach_task_self_
++ _CFDataGetLength
++ _CFNumberCreate
++ _malloc_type_calloc
++ _malloc
++ _CFDataGetBytePtr
++ _OBJC_CLASS_$_NSNumber
++ _dispatch_sync
++ _free
++ _memcpy
++ _CFDictionaryAddValue
++ _CFStringCreateWithFormat
++ _OBJC_CLASS_$_NSString
++ _malloc_type_malloc
++ _ccder_blob_decode_tl
++ _kAMSupportHttpOptionMaxAttempts
++ _objc_retainBlock
++ _CFDataGetTypeID
++ _IOConnectCallMethod
++ _IOObjectRelease
++ _IORegistryEntryFromPath
++ __NSConcreteStackBlock
++ _AMSupportLogDumpMemory
++ _IOServiceMatching
++ _ccder_blob_encode_tl
++ _HSCSecureProvisionMesaWithUID
++ _kAMSupportHttpOptionSocksProxySettings
++ _CFDataGetBytes
++ _CFErrorCreate
++ _ccdigest
++ _CFDictionaryCreateCopy
++ _CFHTTPMessageCopyAllHeaderFields
++ _CFHTTPMessageSetHeaderFieldValue
++ _CFStringGetTypeID
++ _ccder_blob_decode_sequence_tl
++ _kAMSupportHttpOptionDisableSSLValidation
++ _dispatch_once
++ _dispatch_queue_create
++ _CFRelease
++ _IOServiceOpen
++ ___osLogPearlLib
++ _ccder_blob_decode_range
++ _AMFDRSealingMapGetFDRDataVersionForDevice
++ _kCFBooleanFalse
++ _syslog
++ _objc_release_x28
++ _qsort
++ _IOServiceClose
++ _kAMSupportHttpOptionValidResponses
++ _kCFAllocatorDefault
++ _kCFHTTPVersion1_1
++ _IOConnectCallStructMethod
++ _OBJC_CLASS_$_NSFileManager
++ _kCFTypeDictionaryKeyCallBacks
++ _os_log_create
++ _HSCGetMesaNonce
++ _OBJC_CLASS_$_NSMutableDictionary
++ _CFDataCreate
 CStrings:
-+ "POST"
-+ "ApECID: %!@(MISSING)"
-+ "Couldn't create OS Log for 'com.apple.BiometricKit.Library-PearlFactory'!\n"
-+ "Mesa Nonce Size: %!d(MISSING)"
-+ "XML datalen: %!l(MISSING)u data is : %!@(MISSING)\n"
-+ "No Error"
-+ "xmlData is not CFDictionary type."
-+ "numberWithInteger:"
-+ "SensorSN"
-+ "Session"
-+ "_HSCHandlePearlMessage"
-+ "could not create contentLengthStr\n"
-+ "%!(BADPREC)%!s(MISSING)"
-+ "AppleKeyStore"
-+ "Payload = %!@(MISSING)\n"
-+ "Setting custom tatsu server URL: %!@(MISSING)"
-+ "seaCookieHandleMessage, type=%!d(MISSING) -> 0x%!x(MISSING)\n"
-+ "--------------------------------------------------------------\n"
-+ "Failed to set TATSU server URL with error %!d(MISSING)"
-+ "Invalid Arguments"
-+ "Request Dictionary Creation failed\n"
-+ "seaCookieHandleMessage %!d(MISSING) %!p(MISSING) %!z(MISSING)u %!p(MISSING) %!p(MISSING)\n"
-+ "(type == kMesaFactorySeaCookieValidateTatsuTicket) || reply"
-+ "Exiting parse_response : %!d(MISSING)"
-+ "_HSCGetModuleInfo"
-+ "could not create httpRequest\n"
-+ "getClientAuth"
-+ "HTTP Status == 200. OK\n"
-+ "application/xml"
-+ "mesaSensorSerialNumber"
-+ "buffer"
-+ "seaCookieHandleMessage, type=%!d(MISSING) reply[%!z(MISSING)u] %!(BADPREC)%!P(MISSING)\n"
-+ "S7"
-+ "SensorNonce"
-+ "i28@?0i8r*12Q20"
-+ "getModuleSerialNumber %!p(MISSING) %!p(MISSING)\n"
-+ "HSCGetMesaNonce"
-+ "Processing Message  %!@(MISSING) --> %!@(MISSING)"
-+ "SensorType"
-+ "result : %!d(MISSING)"
-+ "size == sizeof(state)"
-+ "%!l(MISSING)u"
-+ "Failed to create max attempts\n"
-+ "IOService:/IOResources/AppleKeyStore"
-+ "Invalid Argument"
-+ "callback"
-+ "getApTicketForSeaCookiePairingWithOptions:pairingTicket:error:"
-+ "Unable to get mesa nonce"
-+ "_HSCGetMesaInfo"
-+ "com.apple.BiometricKit"
-+ "i"
-+ "xmlData : %!@(MISSING)"
-+ "(type == kPearlFactorySeaCookieMessageS0) || (type == kPearlFactorySeaCookieGenerateNonce) || messageSize"
 + "HorizonSeaCookieErrorDomain"
-+ "Unable to parse response data from SeaCookie server\n"
-+ "_HSCSeaCookieHandler"
-+ "initWithBytes:length:encoding:"
-+ "_HSCHandleMessage returned : %!d(MISSING)"
-+ "_aks_operation"
-+ "Content-Length"
-+ "Library-MesaFactory"
-+ "_HSCGetPearlInfo"
-+ "failed to open connection to %!s(MISSING)\n"
-+ "/tmp/%!@(MISSING)"
-+ "CFPropertyListCreateData failed\n"
-+ "responseDict : %!@(MISSING)"
-+ "(type == kPearlFactorySeaCookieValidateTatsuTicket) || reply"
-+ "isSSR"
-+ "SensorType : %!@(MISSING)"
-+ "SepNonce"
-+ "TrustedAccessoryFactory seacookie message handling."
-+ "Unable to create Error object\n"
-+ "_HSCHandleMessage"
-+ "------- END CLIENT REQUEST -------\n"
-+ "SensorChipID: %!@(MISSING)"
-+ "_HSCHandleMessage Failed"
-+ "bufferSize"
-+ "%!s(MISSING)%!s(MISSING):%!s(MISSING)%!s(MISSING)%!s(MISSING)%!s(MISSING)%!u(MISSING):%!s(MISSING)%!u(MISSING):%!s(MISSING) aks connection failed%!s(MISSING)\n"
-+ "(type == kMesaFactorySeaCookieMessageS0) || (type == kMesaFactorySeaCookieGenerateNonce) || message"
-+ "Mesa sensor serial number: %!@(MISSING)"
-+ "Unable to relay response to SEP and obtain information \n"
-+ "Unknown SeaCookie type"
-+ "responseDict NULL. Unable to parse Response\n"
++ "IODeviceTree:/chosen"
++ "Unable to get mesa serial number"
++ "_HSCHandlePearlMessage_block_invoke"
++ "(type == kMesaFactorySeaCookieValidateTatsuTicket) || reply"
++ "No Error"
++ "Response"
++ "Unable to validate tatsu ticket"
++ "------- END SERVER RESPONSE -------\n"
++ "localizedDescription"
++ "result : %!d(MISSING)"
++ "sik_pub_key_len is 0"
++ "seaCookieHandleMessage %!d(MISSING) %!p(MISSING) %!z(MISSING)u %!p(MISSING) %!p(MISSING)\n"
 + "sign:keyBlob:"
-+ "------- CLIENT REQUEST -------\n"
-+ "0x"
-+ "SepNonce : %!@(MISSING)"
-+ "SIK"
-+ "development-cert"
-+ "00"
-+ "Failed to set SEP nonce with error %!d(MISSING)"
-+ "Input argument req_dict is empty or NULL\n"
-+ "Library-PearlFactory"
-+ "Mesa Module serial number: %!@(MISSING)"
-+ "Request"
-+ "getModuleSerialNumber -> %!{(MISSING)errno}d\n"
-+ "shouldPersonalizeWithSSOByDefault"
++ "ApECID: %!@(MISSING)"
++ "Unable to receive Module Information\n"
++ "appropriate command is not present"
 + "sik_digest is NULL"
-+ "(type == kPearlFactorySeaCookieValidateTatsuTicket) || replySize"
-+ "CFDataCreate sik_digest failed"
-+ "DataRef or responseDict is NULL."
-+ "Send request status: %!d(MISSING) http status: %!l(MISSING)d error: %!@(MISSING)\n"
-+ "getInnermostNSError:"
-+ "AssertMacros: %!s(MISSING) (value = 0x%!l(MISSING)x), %!s(MISSING) file: %!s(MISSING), line: %!d(MISSING)\n\n"
-+ "SensorChipID : %!@(MISSING)"
-+ "Validate tatsu ticket succeeded."
-+ "code"
++ "ErrorCode"
++ "HTTP send error: %!d(MISSING)\n"
++ "RePairingSessionKeyExchange"
++ "Resetting session\n"
++ "_HSCHandleMessage returned : %!d(MISSING)"
++ "SessionKeyExch"
++ "inData"
 + "%!X(MISSING)"
 + "C6"
-+ "S5"
-+ "SensorChipID"
-+ "C7"
-+ "Unable to send/receive data with SeaCookie server\n"
-+ "Unknown callback type."
-+ "aks"
-+ "getSensorSerialNumber %!p(MISSING) %!p(MISSING)\n"
-+ "/tmp/%!@(MISSING)-from-server"
++ "Mesa sensor serial number: %!@(MISSING)"
++ "sik_pub_key is NULL"
++ "CFDataCreate sik_digest failed"
++ "SensorSN: %!@(MISSING)"
++ "\terrorCode: "
++ "%!d(MISSING)"
++ "ApplePearlSEPDriver"
 + "Command = %!@(MISSING)\n"
-+ "Server did not return session cookie"
-+ "mesaInfo"
-+ "aksStatus is %!d(MISSING)"
-+ "err == 0 "
-+ "requestData : %!@(MISSING) responseData : %!@(MISSING)"
-+ "%!@(MISSING)\n"
-+ "der_key_validate"
-+ "pearlSeaCookieHandleMessage, type=%!d(MISSING) -> 0x%!x(MISSING)\n"
-+ "ReprovisionSensor"
-+ "Unable to receive Module Information\n"
-+ "mesaModuleSerialNumber"
-+ "sendRequestSync"
-+ "-[MesaPairer start]"
-+ "SessionKeyExch"
-+ "_HSCHandleMesaMessage"
-+ "chipID: %!u(MISSING) Size: %!l(MISSING)lu"
-+ "%!s(MISSING)%!s(MISSING):%!s(MISSING)%!s(MISSING)%!s(MISSING)%!s(MISSING)%!u(MISSING):%!s(MISSING)%!u(MISSING):%!s(MISSING) bad 1%!s(MISSING)\n"
-+ "appropriate command is not present"
-+ "v8@?0"
-+ "/Library/Caches/com.apple.xbs/Sources/Pearl_Kernel/PearlFactoryLib/PearlFactoryLib.m"
-+ "1.2"
-+ "Protocol Version : %!@(MISSING)"
++ "Output - Module Function = %!@(MISSING)\n"
 + "Request data is : %!@(MISSING)\n"
-+ "SensorUID: %!@(MISSING)"
-+ "signature"
-+ "PairSensor"
-+ "Response"
++ "Unable to relay response to SEP and obtain information \n"
++ "sendRequestSync"
++ "ApChipID"
++ "Failed to set TATSU server URL with error %!d(MISSING)"
++ "_HSCHandleMessage"
++ "useProdMasterKey"
++ "initWithBytes:length:encoding:"
++ "*replySize >= outData->dataSize"
++ "/tmp/%!@(MISSING)-from-server"
++ "ErrorCode is String Type"
++ "Exiting parse_response : %!d(MISSING)"
++ "Failed to enable single sign on"
++ "SensorSNUM"
++ "bufferSize"
++ "getModuleSerialNumber -> %!{(MISSING)errno}d\n"
++ "%!@(MISSING)\n"
++ "------- CLIENT REQUEST -------\n"
++ "Content-Length"
++ "Failed to initialize personalization manager with error %!@(MISSING)"
++ "Library-MesaFactory"
++ "POST"
++ "UUID"
++ "getApTicketForSeaCookiePairingWithOptions:pairingTicket:error:"
++ "parseResponse"
++ "PearlFactoryLib seacookie message handling."
++ "could not create contentLengthStr\n"
++ "getSensorSerialNumber %!p(MISSING) %!p(MISSING)\n"
++ "(type == kMesaFactorySeaCookieValidateTatsuTicket) || replySize"
++ "SensorSNUM: %!@(MISSING)"
++ "enableSSO:"
++ "i28@?0i8r*12Q20"
++ "Invalid Argument"
++ "Validate tatsu ticket succeeded."
++ "_HSCSeaCookieHandler"
++ "der_key_validate"
++ "pearlInfo"
++ "xmlData is not CFDictionary type."
++ "Failed to get mesa nonce with error %!@(MISSING)"
++ "Protocol Version : %!@(MISSING)"
++ "getSIKString"
++ "pearlSeaCookieHandleMessage, type=%!d(MISSING) -> 0x%!x(MISSING)\n"
++ "seaCookieHandleMessage message[%!z(MISSING)u] %!(BADPREC)%!P(MISSING)\n"
++ "HSCSecureProvisionMesaWithUIDProxy"
++ "SensorType"
++ "base64EncodedStringWithOptions:"
++ "Invalid Arguments"
++ "Unable to create Error object\n"
++ "Content-Type"
++ "Could not create proxy settings, system default proxy will be used."
++ "Failed to set SEP nonce with error %!d(MISSING)"
++ "Input argument req_dict is empty or NULL\n"
 + "Unable to get Pearl Information"
-+ "getSensorProvisioningState -> %!{(MISSING)errno}d %!d(MISSING)\n"
++ "/tmp/%!@(MISSING)"
++ "Create xmlData failed, error: %!@(MISSING)"
++ "Library-PearlFactory"
++ "Request"
++ "Signature = %!@(MISSING)\n"
++ "pearlSeaCookieHandleMessage, type=%!d(MISSING) reply[%!z(MISSING)u] %!(BADPREC)%!P(MISSING)\n"
++ "--------------------------------------------------------------\n"
++ "HSCGetMesaNonce"
++ "Mesa Nonce: %!@(MISSING)"
++ "mesaSensorProvisioningState"
++ "Failed to get default AMAuthInstallRef"
++ "chipID: %!u(MISSING) Size: %!l(MISSING)lu"
++ "seaCookieHandleMessage, type=%!d(MISSING) reply[%!z(MISSING)u] %!(BADPREC)%!P(MISSING)\n"
++ "v8@?0"
++ "SepNonce"
++ "Setting custom tatsu server URL: %!@(MISSING)"
++ "getModuleSerialNumber %!p(MISSING) %!p(MISSING)\n"
 + "_merge_dict_cb"
-+ "getDefaultAMAuthInstallRef"
++ "numberWithInteger:"
++ "(type == kPearlFactorySeaCookieMessageS0) || (type == kPearlFactorySeaCookieGenerateNonce) || message"
++ "-[MesaPairer start]"
++ "AppleBiometricServices"
++ "Create xmlData failed."
++ "Unable to parse response data from SeaCookie server\n"
++ "Unknown SeaCookie type"
++ "XML datalen: %!l(MISSING)u data is : %!@(MISSING)\n"
++ "isSSR"
++ "------- SERVER RESPONSE -------\n"
++ "Content Length Empty"
++ "getSensorProvisioningState %!p(MISSING)\n"
++ "(type == kMesaFactorySeaCookieMessageS0) || (type == kMesaFactorySeaCookieGenerateNonce) || messageLength"
++ "/Library/Caches/com.apple.xbs/Sources/Pearl_Kernel/PearlFactoryLib/PearlFactoryLib.m"
++ "Content Length -- empty \n"
++ "Send request status: %!d(MISSING) http status: %!l(MISSING)d error: %!@(MISSING)\n"
++ "X-Apple-SeaCookie-IP"
++ "Unable to send/receive data with SeaCookie server\n"
++ "createRequestData"
++ "%!s(MISSING)%!s(MISSING):%!s(MISSING)%!s(MISSING)%!s(MISSING)%!s(MISSING)%!u(MISSING):%!s(MISSING)%!u(MISSING):%!s(MISSING) bad 2%!s(MISSING)\n"
++ "------- END CLIENT REQUEST -------\n"
++ "DataRef or responseDict is NULL."
++ "SeaCookie server returned HTTP status: %!l(MISSING)d\n"
++ "SensorChipID : %!@(MISSING)"
++ "moduleStatus = %!d(MISSING) reply[%!l(MISSING)u] \n"
++ "SensorUID: %!@(MISSING)"
++ "SpecVersion"
++ "Unable to get mesa provisioning state"
++ "service"
++ "Mesa Nonce Size: %!d(MISSING)"
++ "S5"
++ "Unknown callback type."
++ "initWithAuthInstallObj:"
++ "_HSCHandlePearlMessage"
++ "requestData : %!@(MISSING) responseData : %!@(MISSING)"
++ "SensorSN"
++ "stringWithFormat:"
++ "0x"
++ "ErrorMessage"
++ "SIK"
++ "getInnermostNSError:"
++ "AppleKeyStore"
++ "C5"
++ "_HSCHandleMesaMessage"
++ "mesaStatus: %!d(MISSING) Size: %!d(MISSING)"
++ "Not supported."
++ "mesaSensorSerialNumber"
++ "result = %!d(MISSING)\n"
++ "Processing Message  %!@(MISSING) --> %!@(MISSING)"
++ "_HSCGetMesaInfo"
++ "application/xml"
++ "numberWithUnsignedInt:"
++ "pearlSeaCookieHandleMessage %!d(MISSING) %!p(MISSING) %!z(MISSING)u %!p(MISSING) %!p(MISSING)\n"
++ "com.apple.BiometricKit"
++ "ApECID"
++ "C7"
++ "Version"
++ "_HSCPairProxy"
++ "aks"
++ "pearlStatus: %!d(MISSING) Size: %!d(MISSING)"
++ "signature"
++ "CFPropertyListCreateData failed\n"
++ "err == 0 "
++ "responseDict : %!@(MISSING)"
++ "responseDict NULL. Unable to parse Response\n"
++ "(type == kPearlFactorySeaCookieMessageS0) || (type == kPearlFactorySeaCookieGenerateNonce) || messageSize"
++ "absoluteString"
++ "could not create httpRequest\n"
++ "*bufferSize"
 + "/Library/Caches/com.apple.xbs/Sources/Mesa/AppleBiometricServices/MesaFactoryC/MesaFactoryC.c"
 + ":"
-+ "ApChipID"
-+ "ApplePearlSEPDriver"
-+ "Command"
-+ "CFPropertyListCreateData failed : %!@(MISSING)\n"
-+ "mesaStatus: %!d(MISSING) Size: %!d(MISSING)"
-+ "parseResponse"
-+ "ErrorCode"
-+ "Mesa Nonce: %!@(MISSING)"
-+ "Unable to get current mesa provisioning state"
-+ "mesaSensorPreviousState"
-+ "------- END SERVER RESPONSE -------\n"
-+ "C5"
-+ "SensorSNUM: %!@(MISSING)"
-+ "aks-client-queue"
-+ "inputData"
-+ "pearlSeaCookieHandleMessage %!d(MISSING) %!p(MISSING) %!z(MISSING)u %!p(MISSING) %!p(MISSING)\n"
-+ "ApChipID: %!@(MISSING)"
-+ "AppleBiometricServices"
-+ "C4"
-+ "Unable to get mesa serial number"
-+ "result = %!d(MISSING)\n"
-+ "------- SERVER RESPONSE -------\n"
-+ "ErrorCode is String Type"
-+ "Resetting session\n"
-+ "localizedDescription"
-+ "ErrorMessage - %!@(MISSING)"
-+ "RePairingSessionKeyExchange"
-+ "Response Dictionary : %!@(MISSING)\n"
-+ "_HSCPairProxy"
-+ "numberWithUnsignedInt:"
-+ "X-Apple-SeaCookie-IP"
-+ "^{__CFString=}24@?0r*8Q16"
++ "PairSensor"
++ "_HSCGetModuleInfo"
++ "_aks_operation"
++ "HTTP Status == 200. OK\n"
++ "code"
 + "dataWithBytes:length:"
-+ "initWithAuthInstallObj:"
-+ "unable to create a request \n"
-+ "Could not create proxy settings, system default proxy will be used."
-+ "Failed to create timeout\n"
-+ "_HSCHandlePearlMessage_block_invoke"
-+ "absoluteString"
-+ "inData"
-+ "%!s(MISSING)%!s(MISSING):%!s(MISSING)%!s(MISSING)%!s(MISSING)%!s(MISSING)%!u(MISSING):%!s(MISSING)%!u(MISSING):%!s(MISSING) fail%!s(MISSING)\n"
-+ "(type == kMesaFactorySeaCookieValidateTatsuTicket) || replySize"
-+ "Signature = %!@(MISSING)\n"
-+ "createRequestData"
-+ "enableSSO:"
-+ "%!s(MISSING)%!s(MISSING):%!s(MISSING)%!s(MISSING)%!s(MISSING)%!s(MISSING)%!u(MISSING):%!s(MISSING)%!u(MISSING):%!s(MISSING) bad 2%!s(MISSING)\n"
-+ "Failed to get default AMAuthInstallRef"
-+ "SensorNonce : %!@(MISSING)"
-+ "SpecVersion"
-+ "%!d(MISSING)"
-+ "MesaFactoryC seacookie message handling."
-+ "SensorUID"
-+ "Unable to get Mesa Information"
-+ "inputData --> %!@(MISSING) inputSize --> %!l(MISSING)u"
-+ "pearlSeaCookieHandleMessage, type=%!d(MISSING) reply[%!z(MISSING)u] %!(BADPREC)%!P(MISSING)\n"
-+ "Content Length -- empty \n"
++ "failed to open connection to %!s(MISSING)\n"
++ "Unable to get mesa nonce"
++ "getClientAuth"
++ "00"
++ "SensorChipID"
++ "shouldPersonalizeWithSSOByDefault"
++ "S7"
++ "callback"
++ "mesaInfo"
++ "AssertMacros: %!s(MISSING) (value = 0x%!l(MISSING)x), %!s(MISSING) file: %!s(MISSING), line: %!d(MISSING)\n\n"
 + "Error is empty"
 + "Failed to create connection options dictionary.\n"
-+ "Not supported."
-+ "Output - Module Function = %!@(MISSING)\n"
-+ "S6"
-+ "seaCookieHandleMessage message[%!z(MISSING)u] %!(BADPREC)%!P(MISSING)\n"
-+ "\terrorCode: "
-+ "Content-Type"
-+ "ErrorMessage"
-+ "Failed to get mesa nonce with error %!@(MISSING)"
-+ "HSCSecureProvisionMesaWithUIDProxy"
-+ "sik_pub_key_len is 0"
-+ "\terrorString: "
-+ "Failed to initialize personalization manager with error %!@(MISSING)"
-+ "getSensorProvisioningState %!p(MISSING)\n"
-+ "HTTP send error: %!d(MISSING)\n"
-+ "SERVER RESPONSE is NULL\n"
-+ "SIK : %!@(MISSING)"
-+ "Calling pearl patch loading."
-+ "Disabling SSL validation"
-+ "Unable to validate tatsu ticket"
-+ "moduleStatus = %!d(MISSING) reply[%!l(MISSING)u] \n"
-+ "ApECID"
-+ "sik_pub_key is NULL"
-+ "Content Length Empty"
-+ "service"
-+ "*replySize >= outData->dataSize"
-+ "Create xmlData failed."
-+ "Fail to provision mesa: %!i(MISSING) error: %!@(MISSING)"
-+ "startPairing"
-+ "stringWithFormat:"
-+ "PearlFactoryLib seacookie message handling."
-+ "SeaCookie server returned HTTP status: %!l(MISSING)d\n"
-+ "cmd"
-+ "pearlStatus: %!d(MISSING) Size: %!d(MISSING)"
-+ "useProdMasterKey"
-+ "base64EncodedStringWithOptions:"
 + "getSensorSerialNumber -> %!{(MISSING)errno}d\n"
-+ "Failed to enable single sign on"
-+ "SensorSN: %!@(MISSING)"
-+ "mesaSensorProvisioningState"
-+ "Unable to get mesa provisioning state"
-+ "Version"
-+ "(type == kPearlFactorySeaCookieMessageS0) || (type == kPearlFactorySeaCookieGenerateNonce) || message"
-+ "Create xmlData failed, error: %!@(MISSING)"
-+ "ErrorString : %!@(MISSING)\n"
-+ "IODeviceTree:/chosen"
-+ "createError"
-+ "*bufferSize"
-+ "Server returned an "
-+ "UUID"
++ "mesaSensorPreviousState"
++ "startPairing"
 + "Couldn't create OS Log for 'com.apple.BiometricKit.Library-MesaFactory'!\n"
-+ "SensorSNUM"
-+ "getSIKString"
-+ "(type == kMesaFactorySeaCookieMessageS0) || (type == kMesaFactorySeaCookieGenerateNonce) || messageLength"
-+ "pearlInfo"
++ "Fail to provision mesa: %!i(MISSING) error: %!@(MISSING)"
++ "SensorChipID: %!@(MISSING)"
++ "_HSCGetPearlInfo"
++ "%!l(MISSING)u"
++ "CFPropertyListCreateData failed : %!@(MISSING)\n"
++ "ErrorString : %!@(MISSING)\n"
++ "SensorType : %!@(MISSING)"
++ "Calling pearl patch loading."
++ "Request Dictionary Creation failed\n"
++ "mesaModuleSerialNumber"
++ "seaCookieHandleMessage, type=%!d(MISSING) -> 0x%!x(MISSING)\n"
++ "ApChipID: %!@(MISSING)"
++ "^{__CFString=}24@?0r*8Q16"
++ "%!s(MISSING)%!s(MISSING):%!s(MISSING)%!s(MISSING)%!s(MISSING)%!s(MISSING)%!u(MISSING):%!s(MISSING)%!u(MISSING):%!s(MISSING) aks connection failed%!s(MISSING)\n"
++ "%!s(MISSING)%!s(MISSING):%!s(MISSING)%!s(MISSING)%!s(MISSING)%!s(MISSING)%!u(MISSING):%!s(MISSING)%!u(MISSING):%!s(MISSING) fail%!s(MISSING)\n"
++ "SIK : %!@(MISSING)"
++ "size == sizeof(state)"
++ "\terrorString: "
++ "Mesa Module serial number: %!@(MISSING)"
++ "Response Dictionary : %!@(MISSING)\n"
++ "S6"
++ "Server returned an "
++ "%!(BADPREC)%!s(MISSING)"
++ "C4"
++ "Unable to get Mesa Information"
++ "aksStatus is %!d(MISSING)"
++ "(type == kPearlFactorySeaCookieValidateTatsuTicket) || replySize"
++ "Unable to get current mesa provisioning state"
++ "buffer"
++ "unable to create a request \n"
++ "%!s(MISSING)%!s(MISSING):%!s(MISSING)%!s(MISSING)%!s(MISSING)%!s(MISSING)%!u(MISSING):%!s(MISSING)%!u(MISSING):%!s(MISSING) bad 1%!s(MISSING)\n"
++ "SensorNonce"
++ "SensorNonce : %!@(MISSING)"
++ "SensorUID"
++ "_HSCHandleMessage Failed"
++ "ErrorMessage - %!@(MISSING)"
++ "IOService:/IOResources/AppleKeyStore"
++ "SERVER RESPONSE is NULL\n"
++ "development-cert"
++ "inputData --> %!@(MISSING) inputSize --> %!l(MISSING)u"
++ "(type == kPearlFactorySeaCookieValidateTatsuTicket) || reply"
++ "inputData"
++ "Session"
++ "cmd"
++ "(type == kMesaFactorySeaCookieMessageS0) || (type == kMesaFactorySeaCookieGenerateNonce) || message"
++ "Couldn't create OS Log for 'com.apple.BiometricKit.Library-PearlFactory'!\n"
++ "Failed to create timeout\n"
++ "Payload = %!@(MISSING)\n"
++ "SepNonce : %!@(MISSING)"
++ "Server did not return session cookie"
++ "createError"
++ "xmlData : %!@(MISSING)"
++ "Command"
++ "MesaFactoryC seacookie message handling."
++ "TrustedAccessoryFactory seacookie message handling."
++ "i"
++ "Disabling SSL validation"
++ "ReprovisionSensor"
++ "getSensorProvisioningState -> %!{(MISSING)errno}d %!d(MISSING)\n"
++ "1.2"
++ "Failed to create max attempts\n"
++ "aks-client-queue"
++ "getDefaultAMAuthInstallRef"
 
 ```

@@ -36,51 +36,51 @@
 +  CStrings:  926
  
 Symbols:
-+ _getBrunorCollectionKey
-+ _signDataWithBrunorCollectionKey
 + _encryptFDRDataForBrunor
-+ _signDataWithBrunorPermanentKey
-+ _setDummyWrappedFDRDataEncryptionKey
-+ _prepareFDRDataEncryptionKey
-+ _getAttestationToBrunorCollectionKey
 + _getBrunorPermanentKey
++ _signDataWithBrunorCollectionKey
++ _getAttestationToBrunorCollectionKey
++ _setDummyWrappedFDRDataEncryptionKey
++ _getBrunorCollectionKey
++ _prepareFDRDataEncryptionKey
++ _signDataWithBrunorPermanentKey
 CStrings:
-+ "prepareFDRDataEncryptionKey\n"
-+ "collectionKey"
++ "PSD3MACLength == (16)"
++ "getAttestationToBrunorCollectionKey -> %!d(MISSING)\n"
 + "attestationLength"
-+ "getBrunorCollectionKey\n"
++ "prepareFDRDataEncryptionKey\n"
++ "outPSD3Length"
++ "reply"
 + "setDummyWrappedFDRDataEncryptionKey\n"
 + "signature"
-+ "*attestation"
-+ "setDummyWrappedFDRDataEncryptionKey -> %!d(MISSING)\n"
++ "getAttestationToBrunorCollectionKey\n"
++ "getBrunorPermanentKey\n"
 + "*signature"
++ "signatureLength"
++ "encryptFDRDataForBrunor %!p(MISSING) %!z(MISSING)u %!p(MISSING) %!p(MISSING) %!p(MISSING) %!z(MISSING)u\n"
++ "replySize <= sizeof(reply)"
++ "PSD3"
++ "signDataWithBrunorPermanentKey -> %!d(MISSING)\n"
++ "permanentKeyLength"
++ "setDummyWrappedFDRDataEncryptionKey -> %!d(MISSING)\n"
++ "*attestation"
++ "collectionKeyLength"
++ "getBrunorCollectionKey -> %!d(MISSING)\n"
++ "replySize == sizeof(cmd_get_brunor_collection_key_out_v1_t)"
++ "getBrunorCollectionKey\n"
++ "dataLength"
++ "attestation"
 + "PSD2Length"
 + "replySize <= (16 * 1024)"
-+ "getBrunorCollectionKey -> %!d(MISSING)\n"
-+ "getAttestationToBrunorCollectionKey\n"
-+ "replySize <= sizeof(reply)"
-+ "PSD3MACLength == (16)"
-+ "reply"
-+ "getBrunorPermanentKey -> %!d(MISSING)\n"
-+ "permanentKey"
-+ "outPSD3Length"
-+ "prepareFDRDataEncryptionKey -> %!d(MISSING)\n"
-+ "getBrunorPermanentKey\n"
-+ "encryptFDRDataForBrunor -> %!d(MISSING)\n"
-+ "signatureLength"
-+ "signDataWithBrunorCollectionKey\n"
-+ "PSD3"
-+ "getAttestationToBrunorCollectionKey -> %!d(MISSING)\n"
++ "collectionKey"
 + "signDataWithBrunorPermanentKey\n"
-+ "attestation"
++ "getBrunorPermanentKey -> %!d(MISSING)\n"
 + "PSD2"
-+ "permanentKeyLength"
-+ "dataLength"
++ "permanentKey"
++ "prepareFDRDataEncryptionKey -> %!d(MISSING)\n"
++ "signDataWithBrunorCollectionKey\n"
 + "signDataWithBrunorCollectionKey -> %!d(MISSING)\n"
-+ "encryptFDRDataForBrunor %!p(MISSING) %!z(MISSING)u %!p(MISSING) %!p(MISSING) %!p(MISSING) %!z(MISSING)u\n"
-+ "replySize == sizeof(cmd_get_brunor_collection_key_out_v1_t)"
-+ "signDataWithBrunorPermanentKey -> %!d(MISSING)\n"
-+ "collectionKeyLength"
 + "replySize <= sizeof(cmd_get_brunor_permanent_key_out_v1_t)"
++ "encryptFDRDataForBrunor -> %!d(MISSING)\n"
 
 ```

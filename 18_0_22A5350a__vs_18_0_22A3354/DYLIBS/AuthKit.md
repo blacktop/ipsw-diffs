@@ -65,9 +65,9 @@
 +  CStrings:  8633
  
 CStrings:
-+ "TB,N,V_allowAuthenticationBeforeFirstUnlock"
-+ "setAllowAuthenticationBeforeFirstUnlock:"
 + "_allowAuthenticationBeforeFirstUnlock"
++ "setAllowAuthenticationBeforeFirstUnlock:"
 + "allowAuthenticationBeforeFirstUnlock"
++ "TB,N,V_allowAuthenticationBeforeFirstUnlock"
 
 ```

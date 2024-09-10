@@ -49,13 +49,13 @@
 +  CStrings:  706
  
 Symbols:
-+ _kDASelfServiceStringsTable
 + _kDANebulaStringsTable
++ _kDASelfServiceStringsTable
 CStrings:
++ "Localizable-SelfService"
 + "Localizable-Nebula"
 + "v24@?0B8B12@\"NSError\"16"
 + "sessionExistsForIdentities:ticketNumber:timeout:completion:"
-+ "Localizable-SelfService"
 - "v20@?0B8@\"NSError\"12"
 - "sessionExistsForIdentities:ticketNumber:timeout:completionHandler:"
 

@@ -59,16 +59,16 @@
  
 CStrings:
 + "_invalidateCameraButtonAssertion"
-+ "captureButtonSuppressionAssertion"
 + "_captureButtonSuppressionAssertion"
-+ "captureButtonRestrictionCoordinator"
++ "@\"<BSInvalidatable>\""
++ "T@\"<BSInvalidatable>\",&,N,V_captureButtonSuppressionAssertion"
 + "Guided Access Starting"
 + "setCaptureButtonSuppressionAssertion:"
-+ "Guided Access is trying to acquire inert assertion for camera button, but we already have it!"
-+ "T@\"<BSInvalidatable>\",&,N,V_captureButtonSuppressionAssertion"
-+ "A\x1c"
-+ "@\"<BSInvalidatable>\""
++ "captureButtonSuppressionAssertion"
++ "captureButtonRestrictionCoordinator"
 + "_acquireCameraButtonAssertion"
++ "Guided Access is trying to acquire inert assertion for camera button, but we already have it!"
++ "A\x1c"
 + "inhibitCaptureButtonActionAssertionWithReason:"
 - "A\x1b"
 

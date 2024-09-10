@@ -82,69 +82,69 @@
 +  CStrings:  12081
  
 Symbols:
-+ _$s15FindMyBluetooth14CentralManagerC5ErrorO14missingServiceyA2EmFWC
-+ _CCCKG2OwnerCreate
-+ _$s15FindMyBluetooth18PeripheralProtocolP6unpairyyYaKFTjTu
-+ _CCCKG2OwnerGenerateShare
-+ _$s15FindMyBluetooth22CentralManagerProtocolP18scanForPeripherals0G4Mode22garbageCollectIntervalScsyAA16PeripheralChangeOy1PQzGs5Error_pGAA04ScanJ0O_s8DurationVtYaKFTj
-+ _CCCKG2GetCommitmentSize
 + _$s15FindMyBluetooth18PeripheralProtocolP6unpairyyYaKFTj
 + _$s15FindMyBluetooth8ScanModeO18serviceIdentifiersyACSay0aB4Base10IdentifierVyAA7ServiceCGGcACmFWC
-+ _CCCKG2GetShareSize
++ _CCCKG2OwnerGenerateShare
 + _$s15FindMyBluetooth22CentralManagerProtocolP18scanForPeripherals0G4Mode22garbageCollectIntervalScsyAA16PeripheralChangeOy1PQzGs5Error_pGAA04ScanJ0O_s8DurationVtYaKFTjTu
++ _$s15FindMyBluetooth14CentralManagerC5ErrorO14missingServiceyA2EmFWC
 + _$s15FindMyBluetooth18PeripheralProtocolP10macAddress0aB4Base10MACAddressVSgvgTjTu
++ _CCCKG2OwnerCreate
++ _CCCKG2GetShareSize
 + _$s15FindMyBluetooth18PeripheralProtocolP10macAddress0aB4Base10MACAddressVSgvgTj
++ _$s15FindMyBluetooth22CentralManagerProtocolP18scanForPeripherals0G4Mode22garbageCollectIntervalScsyAA16PeripheralChangeOy1PQzGs5Error_pGAA04ScanJ0O_s8DurationVtYaKFTj
++ _CCCKG2GetCommitmentSize
++ _$s15FindMyBluetooth18PeripheralProtocolP6unpairyyYaKFTjTu
 CStrings:
-+ "Error in verify pairing request. Error - %!{(MISSING)public}@"
-+ "Saved new beacon: %!{(MISSING)private,mask.hash}s. Proceed to sending pairing complete."
-+ "AirPodsLEPairingService"
-+ "AIS: %!{(MISSING)public}s"
-+ "Starting AirPods LE force pair using FindMyBluetooth"
-+ "Ack pairing failed. %!{(MISSING)public}@"
++ "Missing Posh service, reading Hawkeye/Hele AIS from peripheral: %!s(MISSING)"
 + "Invalid beaconPartId: %!s(MISSING)"
-+ "Invalid number of beacons: %!l(MISSING)d"
-+ "0453adb8b4a26b17e10a1b21c1f642696596826a92713cceecd797b4ada63a933eb80234cb04820348f348a5d7f84a2a21c58342355e9d913997cd73f50680925d"
-+ "forcePairSW(macAddress:classicMACAddress:standalonePairing:completion:)"
-+ "Starting AirPods LE pairing retry using FindMyBluetooth"
 + "Unable to parse beacon group info due to %!{(MISSING)public}@"
-+ "Ack register failed with error - %!{(MISSING)public}@"
-+ "Pairing lock check failed. Error %!{(MISSING)public}@"
-+ "Existing beaconMap: %!s(MISSING)"
-+ "Starting AirPods LE pairing using FindMyBluetooth"
-+ "startDiscoveryAndPairingSession"
-+ "validateAirPodsSWPairing(pairingCheckData:standalonePairing:completion:)"
-+ "Reading Posh AIS from peripheral: %!s(MISSING)"
-+ "%!{(MISSING)public}s Missing peripheral for %!{(MISSING)public}s to clean the pairing manager"
-+ "Unable to get AirPodsLEPairingService"
-+ "ackPairing with %!{(MISSING)public}s"
-+ "altSerialNumber: %!s(MISSING)"
-+ "Received SeedS and S3 from server. Pairing token: %!{(MISSING)public}s.fmnaId: %!{(MISSING)private,mask.hash}s"
-+ "AltSerialNumber: %!s(MISSING)"
-+ "Pairing AirPods LE with MAC address %!{(MISSING)public}s"
-+ "AirPodsSWPairingLockCheckRequest"
-+ "pairingLockCheck(pairingCheckData:shareHash:)"
-+ "startDiscoveryAndPairingSession(macAddress:forcePair:isRetry:)"
-+ "Failed to create new beacon. %!{(MISSING)public}@"
-+ "BCd9XeohA8hxFRm3ItDCI72lpojQ1EEjLKyptJrIlNtyU4AE3fTcOGpaTPpA2fnfljMtOywZC9i/iB9sfuIX+dI="
-+ "SeedS: %!s(MISSING)"
 + "Starting discovery scan for peripherals matching macAddress: %!{(MISSING)public}s"
-+ "ackAirPodsSWPairingQueue"
++ "Saved new beacon: %!{(MISSING)private,mask.hash}s. Proceed to sending pairing complete."
 + "startDiscoveryAndPairingSession error: %!{(MISSING)public}@"
-+ "CCCKG2OwnerGenerateShare: Error generating share from owner device. Status: %!d(MISSING)."
++ "BCd9XeohA8hxFRm3ItDCI72lpojQ1EEjLKyptJrIlNtyU4AE3fTcOGpaTPpA2fnfljMtOywZC9i/iB9sfuIX+dI="
++ "0453adb8b4a26b17e10a1b21c1f642696596826a92713cceecd797b4ada63a933eb80234cb04820348f348a5d7f84a2a21c58342355e9d913997cd73f50680925d"
 + "validateAirPodsSWPairingQueue"
-+ "Missing peripheral after scanning!"
-+ "AirPodsSWPairingLockAckRequest"
++ "pairingLockCheck(pairingCheckData:shareHash:)"
 + "AirPodsLEPairingService pairAirPods failed with error: %!{(MISSING)public}@"
-+ "ackPairing(classicMACAddress:)"
-+ "CCCKG2OwnerCreate: Error creating owner for collaborative key generation. Status: %!d(MISSING)."
 + "CSR: %!s(MISSING)"
-+ "Sent pairing complete, skip ackRequest for standalone."
++ "Peripheral is missing MAC address!"
++ "Pairing AirPods LE with MAC address %!{(MISSING)public}s"
++ "%!{(MISSING)public}s Missing peripheral for %!{(MISSING)public}s to clean the pairing manager"
++ "forcePairSW(macAddress:classicMACAddress:standalonePairing:completion:)"
++ "Ack register failed with error - %!{(MISSING)public}@"
++ "Invalid number of beacons: %!l(MISSING)d"
++ "Unable to get AirPodsLEPairingService"
++ "AirPodsLEPairingService"
++ "Starting AirPods LE pairing retry using FindMyBluetooth"
++ "Error in verify pairing request. Error - %!{(MISSING)public}@"
++ "Ack pairing failed. %!{(MISSING)public}@"
++ "startDiscoveryAndPairingSession"
++ "%!{(MISSING)public}s Cleaned pairing manager for %!{(MISSING)public}s"
++ "CCCKG2OwnerCreate: Error creating owner for collaborative key generation. Status: %!d(MISSING)."
++ "validateAirPodsSWPairing(pairingCheckData:standalonePairing:completion:)"
++ "Failed to create new beacon. %!{(MISSING)public}@"
 + "Failed to generateStandaloneBeacon. Error %!{(MISSING)public}@"
 + "Discovered peripheral: %!s(MISSING)"
-+ "Peripheral is missing MAC address!"
++ "Missing peripheral after scanning!"
 + "C1: %!s(MISSING)"
++ "AltSerialNumber: %!s(MISSING)"
++ "ackPairing with %!{(MISSING)public}s"
++ "Reading Posh AIS from peripheral: %!s(MISSING)"
++ "startDiscoveryAndPairingSession(macAddress:forcePair:isRetry:)"
++ "AirPodsSWPairingLockCheckRequest"
++ "AIS: %!{(MISSING)public}s"
 + "Pairing LE using CCCKG2"
-+ "%!{(MISSING)public}s Cleaned pairing manager for %!{(MISSING)public}s"
-+ "Missing Posh service, reading Hawkeye/Hele AIS from peripheral: %!s(MISSING)"
++ "ackAirPodsSWPairingQueue"
++ "Sent pairing complete, skip ackRequest for standalone."
++ "AirPodsSWPairingLockAckRequest"
++ "Starting AirPods LE pairing using FindMyBluetooth"
++ "Received SeedS and S3 from server. Pairing token: %!{(MISSING)public}s.fmnaId: %!{(MISSING)private,mask.hash}s"
++ "altSerialNumber: %!s(MISSING)"
++ "CCCKG2OwnerGenerateShare: Error generating share from owner device. Status: %!d(MISSING)."
++ "SeedS: %!s(MISSING)"
++ "ackPairing(classicMACAddress:)"
++ "Pairing lock check failed. Error %!{(MISSING)public}@"
++ "Starting AirPods LE force pair using FindMyBluetooth"
++ "Existing beaconMap: %!s(MISSING)"
 
 ```

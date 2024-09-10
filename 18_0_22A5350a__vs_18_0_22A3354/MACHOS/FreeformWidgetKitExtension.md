@@ -61,15 +61,15 @@
 +  CStrings:  100
  
 CStrings:
-+ "I want to look at my "
-+ "Create a new setting"
++ " solve equations"
++ "Select And Scroll"
++ " scroll with my apple pencil"
 + "Change math solving setting to "
 + "View my setting called "
-+ "Take me to my setting "
-+ "Select And Scroll"
++ "Create a new setting"
++ "I want to look at my "
 + "Set space guides "
-+ " solve equations"
-+ " scroll with my apple pencil"
++ "Take me to my setting "
 + " math calculations"
 
 ```

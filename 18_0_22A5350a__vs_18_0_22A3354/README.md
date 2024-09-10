@@ -25,6 +25,316 @@
 <details>
   <summary><i>View Updated</i></summary>
 
+>  `com.apple.driver.AppleAOPAudio`
+
+```diff
+
+   __TEXT.__cstring: 0xc591
+   __TEXT.__const: 0x136
+   __TEXT.__os_log: 0xf
+-  __TEXT_EXEC.__text: 0x32934
++  __TEXT_EXEC.__text: 0x32948
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0x2f0
+   __DATA.__common: 0x660
+   __DATA.__bss: 0x49
+-  __DATA_CONST.__auth_got: 0x318
++  __DATA_CONST.__auth_got: 0x328
+   __DATA_CONST.__got: 0xe8
+   __DATA_CONST.__auth_ptr: 0x8
+   __DATA_CONST.__mod_init_func: 0xe8
+CStrings:
++ "20:07:58"
++ "20:07:41"
+- "20:57:03"
+- "20:56:56"
+
+```
+
+>  `com.apple.driver.AppleH16ANEInterface`
+
+```diff
+
+ 8.18.0.0.0
+-  __TEXT.__os_log: 0x3137d
+-  __TEXT.__cstring: 0xab65
+-  __TEXT.__const: 0x600
+-  __TEXT_EXEC.__text: 0xa0770
++  __TEXT.__os_log: 0x313b1
++  __TEXT.__cstring: 0xab7a
++  __TEXT.__const: 0x630
++  __TEXT_EXEC.__text: 0xa0948
+   __TEXT_EXEC.__auth_stubs: 0x0
+-  __DATA.__data: 0x3058
++  __DATA.__data: 0x34d0
+   __DATA.__common: 0x3c8
+   __DATA.__bss: 0x270
+   __DATA_CONST.__auth_got: 0x880
+
+   __DATA_CONST.__mod_term_func: 0x20
+   __DATA_CONST.__const: 0x6098
+   __DATA_CONST.__kalloc_type: 0x2d00
+-  __DATA_CONST.__kalloc_var: 0x29e0
++  __DATA_CONST.__kalloc_var: 0x2a30
+   Functions: 1825
+   Symbols:   0
+-  CStrings:  3475
++  CStrings:  3477
+ 
+CStrings:
++ "AppleT8140ANEHAL"
++ "h17"
+
+```
+
+>  `com.apple.driver.AppleSEPManager`
+
+```diff
+
+ 842.0.0.0.0
+-  __TEXT.__cstring: 0xff2b
++  __TEXT.__cstring: 0x1009c
+   __TEXT.__const: 0x7094
+-  __TEXT_EXEC.__text: 0x47238
++  __TEXT_EXEC.__text: 0x476bc
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0x168
+   __DATA.__common: 0xc48
+
+   __DATA_CONST.__const: 0x9728
+   __DATA_CONST.__kalloc_type: 0xe00
+   __DATA_CONST.__kalloc_var: 0x50
+-  Functions: 2341
++  Functions: 2349
+   Symbols:   0
+-  CStrings:  1393
++  CStrings:  1405
+ 
+CStrings:
++ "0 == slot_id >> 4"
++ "0 == param >> 4"
++ "%s: Unable to find sep-boot-slot in DT\n"
++ "%s: Setting default slot for boot param\n"
++ "%s: GenerateNonce called without slot on Sandcat device, returning dummy all-ones value\n"
++ "Sandcat"
++ "-sep_has_sandcat"
++ "sep-boot-slot"
++ "target->_asep->hasSandcat()"
++ "nullptr != slot"
++ "%s: Found sep-boot-slot %u in DT\n\n"
++ "bool AppleSEPBooter::_getBootSlotId(uint8_t *)"
+
+```
+
+>  `com.apple.driver.corecapture`
+
+```diff
+
+   __TEXT.__const: 0x110
+   __TEXT.__cstring: 0x1ec9
+   __TEXT.__os_log: 0x4094
+-  __TEXT_EXEC.__text: 0x26f08
++  __TEXT_EXEC.__text: 0x26f14
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0xc4
+   __DATA.__common: 0x2e0
+
+```
+
+>  `com.apple.driver.usb.AppleSynopsysUSBXHCI`
+
+```diff
+
+ 647.0.1.0.0
+-  __TEXT.__cstring: 0x3d1f
+-  __TEXT.__os_log: 0x2fc9
++  __TEXT.__cstring: 0x40ed
++  __TEXT.__os_log: 0x4cda
+   __TEXT.__const: 0x20
+-  __TEXT_EXEC.__text: 0x254f4
++  __TEXT_EXEC.__text: 0x36d6c
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0xc8
+-  __DATA.__common: 0x268
+-  __DATA.__bss: 0x8
++  __DATA.__common: 0x290
++  __DATA.__bss: 0x10
+   __DATA_CONST.__auth_got: 0x2a0
+   __DATA_CONST.__got: 0x108
+-  __DATA_CONST.__mod_init_func: 0x78
+-  __DATA_CONST.__mod_term_func: 0x78
+-  __DATA_CONST.__const: 0x6d20
+-  __DATA_CONST.__kalloc_type: 0x440
+-  Functions: 485
++  __DATA_CONST.__mod_init_func: 0x80
++  __DATA_CONST.__mod_term_func: 0x80
++  __DATA_CONST.__const: 0x7808
++  __DATA_CONST.__kalloc_type: 0x480
++  Functions: 535
+   Symbols:   0
+-  CStrings:  360
++  CStrings:  376
+ 
+CStrings:
++ "%s@%s: %s::%s: performance floor: high bandwidth\n"
++ "%s@%s: %s::%s: performance floor: low bandwidth\n"
++ "121111121222121211211111222222222222222222222222222222222222222222222222222222222222222212121121111212112222222222222222222222222222222222222222222222221211111112221222222221112222111122222222111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111112211111111121111221111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111112"
++ "%s@%s: %s::%s: performance floor: low isoch bandwidth\n"
++ "site.AppleT8140USBXHCI"
++ "AppleT8140USBXHCI.cpp"
++ "getPeriodicBandwidthUsage"
++ "%s@%s: %s::%s: floor bandwidth: %u safe bandwidth: %u\n"
++ "%s@%s: %s::%s: performance floor: none\n"
++ "tunable_AUSBC_DEBUG"
++ "AppleT8140USBXHCI"
+
+```
+
+>  `com.apple.iokit.AppleARMIISAudio`
+
+```diff
+
+   __TEXT.__os_log: 0x2778
+   __TEXT.__cstring: 0x2da3
+   __TEXT.__const: 0xa8
+-  __TEXT_EXEC.__text: 0x15648
++  __TEXT_EXEC.__text: 0x15680
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0x188
+   __DATA.__common: 0x60
+-  __DATA_CONST.__auth_got: 0x2a0
++  __DATA_CONST.__auth_got: 0x2b0
+   __DATA_CONST.__got: 0x88
+   __DATA_CONST.__auth_ptr: 0x8
+   __DATA_CONST.__mod_init_func: 0x10
+
+```
+
+>  `com.apple.driver.AppleAVD`
+
+```diff
+
+ 798.1.0.0.0
+-  __TEXT.__const: 0x86e6e
+-  __TEXT.__cstring: 0x515e
+-  __TEXT.__os_log: 0x11ed0
+-  __TEXT_EXEC.__text: 0x417b8
++  __TEXT.__const: 0xc5ac9
++  __TEXT.__os_log: 0x13ff7
++  __TEXT.__cstring: 0x5332
++  __TEXT_EXEC.__text: 0x4b4d4
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0x12dc
+   __DATA.__common: 0x78
+
+   __DATA_CONST.__auth_ptr: 0x8
+   __DATA_CONST.__mod_init_func: 0x10
+   __DATA_CONST.__mod_term_func: 0x10
+-  __DATA_CONST.__const: 0x2a88
+-  __DATA_CONST.__kalloc_var: 0xb90
+-  __DATA_CONST.__kalloc_type: 0x2400
+-  Functions: 1339
++  __DATA_CONST.__const: 0x3208
++  __DATA_CONST.__kalloc_type: 0x2a00
++  __DATA_CONST.__kalloc_var: 0xc80
++  Functions: 1561
+   Symbols:   0
+-  CStrings:  1422
++  CStrings:  1452
+ 
+CStrings:
++ "AppleAVD: %s(): ioMapRegisters mapping DKey address failed (0)"
++ "AppleAVD: %s(): gtb_h = %x, gtb_l = %x\n"
++ "CAvdMcpuHibiscus"
++ "site.CPriorityQueueTansy"
++ "AppleAVD: %s(): ecid = %llx, board_id = %hx, chip_id = %x\n"
++ "site.CAvdMcpuTansy"
++ "site.CAvdApCommHibiscus"
++ "CAvdMcpuThyme"
++ "site.CAvdMcpuHibiscus"
++ "AppleAVD: %s(): rtc_h = %x, rtc_l = %x\n"
++ "CAvdApCommHibiscus"
++ "site.CAvdApCommThyme"
++ "CAvdApCommTansy"
++ "getPmuRTC"
++ "site.CPriorityQueueHibiscus"
++ "CAvdApCommThyme"
++ "CAvdMcpuTansy"
++ "site.CAvdApCommTansy"
++ "getPmuGTB"
++ "site.CAvdWrapCtrlTansy"
++ "site.CAvdMcpuThyme"
++ "122211112112112"
++ "AppleAVD: %s(): should not be used..."
++ "%s(): DKey physical addr = 0x%llx\n"
++ "1211112112112"
++ "AppleAVD: %s(): No avd pwm reset, pls check device tree settings!!"
++ "site.CAvdWrapCtrlHibiscus"
++ "site.CPriorityQueueThyme"
++ "getAdsDeviceIds"
++ "CAvdWrapCtrlTansy"
+
+```
+
+>  `com.apple.driver.AppleConvergedPCI`
+
+```diff
+
+ 107.0.0.0.0
+-  __TEXT.__const: 0x1b0
+-  __TEXT.__cstring: 0x6ba1
+-  __TEXT_EXEC.__text: 0x3e594
++  __TEXT.__const: 0x1e0
++  __TEXT.__cstring: 0x6c2f
++  __TEXT_EXEC.__text: 0x3eb28
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0x248
+   __DATA.__common: 0x2d0
+
+   __DATA_CONST.__got: 0x108
+   __DATA_CONST.__mod_init_func: 0x68
+   __DATA_CONST.__mod_term_func: 0x68
+-  __DATA_CONST.__const: 0x4778
+-  __DATA_CONST.__kalloc_type: 0x1300
+-  Functions: 1069
++  __DATA_CONST.__const: 0x4858
++  __DATA_CONST.__kalloc_type: 0x1380
++  Functions: 1082
+   Symbols:   0
+-  CStrings:  891
++  CStrings:  895
+ 
+CStrings:
++ "ACIPCChip4399.cpp"
++ "/Library/Caches/com.apple.xbs/Sources/AppleConvergedIPC/Core/OLYBT/Chips/ACIPCChip4399.cpp"
++ "ACIPCChip4399"
++ "site.ACIPCChip4399"
+
+```
+
+>  `com.apple.driver.AppleSARService`
+
+```diff
+
+ 1180.0.0.0.0
+   __TEXT.__const: 0x750
+-  __TEXT.__cstring: 0x9b40
++  __TEXT.__cstring: 0x9b46
+   __TEXT.__os_log: 0xb8af
+   __TEXT.__ustring: 0x8
+   __TEXT_EXEC.__text: 0x53e80
+
+   __DATA_CONST.__kalloc_var: 0x140
+   Functions: 539
+   Symbols:   0
+-  CStrings:  1310
++  CStrings:  1311
+ 
+CStrings:
++ "|B393"
+
+```
+
 >  `com.apple.driver.AppleUSBXDCIARM`
 
 ```diff
@@ -59,25 +369,236 @@
  
 CStrings:
 + "AppleT8140USBXDCI"
-+ "site.AppleT8140USBXDCI"
 + "usb-max-speed-capability"
-+ "tunable_AUSBC_DEBUG_REGS"
++ "site.AppleT8140USBXDCI"
 + "AppleT8140USBXDCI.cpp"
++ "tunable_AUSBC_DEBUG_REGS"
 
 ```
 
->  `com.apple.driver.corecapture`
+>  `com.apple.filesystems.apfs`
 
 ```diff
 
-   __TEXT.__const: 0x110
-   __TEXT.__cstring: 0x1ec9
-   __TEXT.__os_log: 0x4094
--  __TEXT_EXEC.__text: 0x26f08
-+  __TEXT_EXEC.__text: 0x26f14
+   __TEXT.__cstring: 0x48545
+   __TEXT_EXEC.__text: 0x139de4
    __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0xc4
-   __DATA.__common: 0x2e0
+-  __DATA.__data: 0x690
++  __DATA.__data: 0x688
+   __DATA.__bss: 0xc60
+   __DATA_CONST.__auth_got: 0x10c0
+   __DATA_CONST.__got: 0x1b0
+CStrings:
++ "01:00:59"
+- "00:56:37"
+
+```
+
+>  `com.apple.driver.AppleOLYHAL`
+
+```diff
+
+ 338.0.0.0.0
+   __TEXT.__const: 0x7a8
+   __TEXT.__cstring: 0x473a
+-  __TEXT_EXEC.__text: 0x1cbc4
++  __TEXT_EXEC.__text: 0x1cbdc
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0x18c
+   __DATA.__common: 0x170
+
+```
+
+>  `com.apple.driver.ApplePearlSEPDriver`
+
+```diff
+
+ 733.0.10.0.0
+   __TEXT.__const: 0x298
+-  __TEXT.__cstring: 0x887e
+-  __TEXT.__os_log: 0x3e3b
+-  __TEXT_EXEC.__text: 0x36504
++  __TEXT.__cstring: 0x939e
++  __TEXT.__os_log: 0x4074
++  __TEXT_EXEC.__text: 0x38bd4
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0xc6
+   __DATA.__common: 0x1d8
+   __DATA.__bss: 0x85
+-  __DATA_CONST.__auth_got: 0x590
++  __DATA_CONST.__auth_got: 0x598
+   __DATA_CONST.__got: 0x150
+   __DATA_CONST.__mod_init_func: 0x18
+   __DATA_CONST.__mod_term_func: 0x18
+-  __DATA_CONST.__const: 0x1ff0
++  __DATA_CONST.__const: 0x1fe0
+   __DATA_CONST.__kalloc_type: 0x580
+   __DATA_CONST.__kalloc_var: 0x1e0
+-  Functions: 522
++  Functions: 528
+   Symbols:   0
+-  CStrings:  1397
++  CStrings:  1476
+ 
+CStrings:
++ "PearlCamPearlSURDataString_UnwrapOutputMac"
++ "wrappedKeyDataSize == (80)"
++ "getBrunorUnwrappedKey"
++ "EncryptFDRDataForBrunor"
++ "PearlCamPearlSURDataString_UnwrapOutputIV"
++ "SetDummyWrappedFDRDataEncryptionKey"
++ "PearlCamPowerOnOptionsString_SkipFDRCheck"
++ "%s <- wrappedKeyData:%p, wrappedKeyDataSize:%zu, loadingFDR:%d\n"
++ "PearlCamStartOptionsString_UnwrapInputMac"
++ "PearlSURv2"
++ "handleCameraPearlSURv2UnwrapOutputNotification"
++ "FDRDataEncryptionWrappedKey"
++ "brunorUnwrapRequest"
++ "psd3->hdr.version != (5)"
++ "data->getLength() == sizeof(unwrapResponse.unwrapOutputKey)"
++ "SignDataWithBrunorCollectionKey"
++ "PearlCamStartOptionsString_HostSignature"
++ "brunorUnwrapRequestSize == sizeof(*brunorUnwrapRequest)"
++ "payloadSize >= sizeof(*psd3)"
++ "PearlCamStartOptionsString_UnwrapInputIV"
++ "unwrapHostTag"
++ "PearlCamStartOptionsString_HostTag"
++ "unwrapInputKeyHmac"
++ "!_brunorWrappedKey"
++ "unwrapInputHostIV"
++ "camErr != kPearlCamErrorCode_FDRNotValidated"
++ "1211111212221212112121111111111111111111112112112222222212221122222221211121111121221112121112222222221122222222221221112112112221112222212222222222222222222222222222222222222222222222222222222222222222222222222222222222222222122222222122122222221222222222221222122222222222222222221221222122111122222222112122223111222122122111111111112211222"
++ "_brunorKeyUnwrappingState != kBrunorKeyUnwrappingStateNone"
++ "wrappedKeyData"
++ "_brunorKeyUnwrappingResult == 0 "
++ "_cameraState == kCameraStateIdle || _cameraState == kCameraStatePearlSURv2"
++ "psd3->hdr.version > (5) && psd3->hdr.version <= (6)"
++ "_cameraState == kCameraStatePearlSURv2"
++ "written == (80)"
++ "psdHeader->version != (5)"
++ "PearlCamPearlSURDataString_SensorTag"
++ "platformHasBrunorSensor"
++ "wrappedKey->getLength() == (80)"
++ "PearlCamPearlSURDataString_UnwrapOutputData"
++ "__os_warn_unused(__builtin_add_overflow((payloadSize), (delta), (&dataBufferLength))) == 0 "
++ "psd3->hdr.magic == (0x45674567)"
++ "PearlSURUnwrapOutput"
++ "GetBrunorPermanentKey"
++ "sizeof(brunorSessionOptions.wrappedKey) == _brunorWrappedKey->getLength()"
++ "unwrapHostSig"
++ "ERROR: %s: %s (%d): occurred during FDR encryption key unwrapping\n\n"
++ "_cameraState == kCameraStatePoweredOff"
++ "PearlCamPowerOnDataString_SensorNonce"
++ "data->getLength() == sizeof(unwrapResponse.unwrapOutputSensorTag)"
++ "GetBrunorCollectionKey"
++ "getCommandMode() == kCommandModeIdle || getCommandMode() == kCommandModeNone"
++ "GetAttestationToBrunorCollectionKey"
++ "_brunorKeyUnwrappingState == kBrunorKeyUnwrappingStateUnwrapSequence"
++ "data->getLength() == sizeof(unwrapResponse.unwrapOutputSensorIV)"
++ "%s: Waiting for FDR key unwrap result notification. Timeout = %us.\n"
++ "platformHasBrunorSensor()"
++ "data->getLength() == sizeof(unwrapResponse.unwrapOutputKeyHmac)"
++ "sizeof(brunorSessionOptions.bootNonce) == _brunorBootNonce->getLength()"
++ "PearlCamPowerOnOptionsString_GetSensorNonce"
++ "_brunorWrappedKey"
++ "unwrapInputKey"
++ "_cameraState == kCameraStateIdle"
++ "data->getLength() == sizeof(unwrapResponse.unwrapOutNonce)"
++ "handleCameraPearlSURv2PowerOnNotification"
++ "%s: Waiting for IspIsPoweredOn notification. Timeout = %us.\n"
++ "PearlCamStartOptionsString_UnwrapInputData"
++ "UnwrapFDRDataEncryptionKey"
++ "wrappedKey"
++ "_brunorBootNonce"
++ "%s: _brunorBootNonce first/last bytes: %02x %02x ... %02x %02x\n"
++ "%s -> _platformHasBrunorSensor: %d\n"
++ "PearlCamPearlSURDataString_SensorNonce"
++ "stopAndPowerOffCamera(0, true) == 0 "
++ "ERROR: %s: %s (%d): unexpected cameraState %u\n\n"
++ "%s: Waiting for the camera interface to initialize. Timeout = %us.\n"
++ "PrepareFDRDataEncryptionKey"
++ "FDRDataEncryptionKey"
++ "options->setObject(\"PearlCamPowerOnOptionsString_SkipFDRCheck\", kOSBooleanTrue)"
++ "SignDataWithBrunorPermanentKey"
++ "%s <- prewarmType:%d overrideIsPearlDisabled:%d forUnwrapping:%d\n"
++ "options->setObject(\"PearlCamPowerOnOptionsString_GetSensorNonce\", kOSBooleanTrue)"
+- "12111112122212121121211111111111111111111121121122222222122211222222212111211111212211121211122222222211222222222212211121121122211122222122222222222222222222222222222222222222222222222222222222222222222222222222222222222222221222222221221222222212222222222212221222222222222222222212212221221111222222221121222231112221221221111111111122"
+- "%s <- prewarmType:%d overrideIsPearlDisabled:%d\n"
+
+```
+
+>  `com.apple.driver.AppleT8110DART`
+
+```diff
+
+ 452.0.6.0.0
+   __TEXT.__const: 0x60
+   __TEXT.__cstring: 0x2774
+-  __TEXT_EXEC.__text: 0xd460
++  __TEXT_EXEC.__text: 0xd480
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0xc8
+   __DATA.__common: 0x38
+
+```
+
+>  `com.apple.iokit.IOAccessoryManager`
+
+```diff
+
+ 1004.0.8.0.0
+   __TEXT.__const: 0x2f8
+-  __TEXT.__cstring: 0x1080e
++  __TEXT.__cstring: 0x1081a
+   __TEXT.__os_log: 0x107ae
+-  __TEXT_EXEC.__text: 0xecfd0
++  __TEXT_EXEC.__text: 0xed140
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0x7e8
+   __DATA.__common: 0x1630
+
+   __DATA_CONST.__kalloc_type: 0x2440
+   Functions: 4439
+   Symbols:   0
+-  CStrings:  2785
++  CStrings:  2787
+ 
+CStrings:
++ "A3250"
++ "A2580"
+
+```
+
+>  `com.apple.AGXG16P`
+
+```diff
+
+ 320.36.4.0.0
+-  __TEXT.__const: 0x446c
+-  __TEXT.__cstring: 0xca44
++  __TEXT.__const: 0x4474
++  __TEXT.__cstring: 0xca4e
+   __TEXT.__os_log: 0x2f7
+   __TEXT_EXEC.__text: 0xaf38c
+   __TEXT_EXEC.__auth_stubs: 0x0
+
+   __DATA_CONST.__auth_ptr: 0x8
+   __DATA_CONST.__mod_init_func: 0x320
+   __DATA_CONST.__mod_term_func: 0x280
+-  __DATA_CONST.__const: 0x10c00
++  __DATA_CONST.__const: 0x10c10
+   __DATA_CONST.__kalloc_type: 0x2140
+   __DATA_CONST.__kalloc_var: 0x3160
+   Functions: 3072
+   Symbols:   0
+-  CStrings:  1718
++  CStrings:  1720
+ 
+CStrings:
++ "G17A"
++ "G17P"
++ "Aug  8 2024 22:02:57"
+- "Aug  8 2024 22:42:53"
 
 ```
 
@@ -139,292 +660,292 @@ CStrings:
 +  CStrings:  16517
  
 CStrings:
-- "(do_kern_dump close) outproc(KDP_EOF, NULL, 0, 0) returned 0x%x\n"
-- "Skipping userspace coredump, coredump list is locked\n"
-- "%s next stage output failed\n"
-- "No contact in %d seconds\n"
-- "(kern_dump_update_header) outproc(KDP_DATA, NULL, %lu, %p) returned 0x%x\n"
-- "(aea_stage_outproc) aea_open() returned %d\n"
-- "%s kvtophys() for address %p returned NULL\n"
-- "kdp_core_exclude_region"
-- "kdp_corefile"
-- "%s: no task is set\n"
-- "inline call to debugger(machine_startup)"
-- "%s() : failed to write note %llu of %llu : kdp_core_output() returned  error 0x%x\n"
-- "IOPolledFileWrite (during EOF) returned 0x%x\n"
-- "preboot"
-- "(kern_dump_seek_to_next_file) outproc(KDP_SEEK, NULL, %lu, %p) foffset = 0x%llx returned 0x%x\n"
-- "We were in the middle of initializing the disk stage. Cannot write a coredump to disk\n"
-- "buffer_stage_outproc (during forwarding) returned 0x%x\n"
-- "%s() : failed to write data (%llu bytes remaining) :%d\n"
-- "Skipping panic region dump\n"
-- "xnu-"
-- "(disk_stage_write) IOPolledFileWrite (during final flush) returned 0x%x\n"
-- "%s() : failed to write mach header : kdp_core_output(%p, %lu, %p) returned error 0x%x\n"
-- "Set a new encryption key for coredumps"
-- "(do_kern_dump paniclog) outproc(KDP_DATA, NULL, %lu, %p) returned 0x%x\n"
-- "Failed to record panic region in corefile header, kern_dump_record_file returned 0x%x\n"
-- "%s: skipping task with locked vm map\n"
-- "%s() : found %d expected LC_THREAD (%d)\n"
-- "kdp_send_crashdump_data returned 0x%x\n"
-- "111222212222222222222112"
-- "%s (passing along request) returned 0x%x\n"
-- "%s (during forwarding) returned 0x%x\n"
-- "\nBeginning coredump of %s\n"
-- "buffer_stage_outproc (during flush) returned 0x%x\n"
-- "handshake structure not initialized\n"
-- "coredump_save_thread_state"
-- "kdp_ip_addr"
-- "xnu"
-- "(%s) : save_thread_state returned without all thread descriptions written, %llu of %llu remaining\n"
-- "%s() : failed to write zero fill padding : kdp_core_output(%p, %llu, NULL) returned 0x%x\n"
-- "%s() : failed to write legacy bin spec version : coredump_save_note_data() returned 0x%x\n"
-- "%s() called too many times, %llu note descriptions already recorded\n"
-- "kdp_poll"
-- "%llu"
-- "%s(0x%llx, 0x%llx, %p) : ran out of space to save commands with %llu of %llu remaining\n"
-- "%s() : failed to write thread data : kdp_core_output() returned 0x%x\n"
-- "dumpinfo does not fit into KDP packet.\n"
-- "Routing through specified router IP %s (%d)\n"
-- "site.struct kern_userspace_coredump_context"
-- "octet"
-- "kdp panic: %s"
-- "coredump_encryption"
-- "%s(%p, %llu, %p) : called with too much data, %llu written, %llu left\n"
-- "save_seg_data: pmap traversal failed: %d\n"
-- "%s() : ran out of space to save threads with %llu of %llu remaining\n"
-- "(disk_stage_write) IOPolledFileWrite(gIOPolledCoreFileVars, %p, 0x%llx, NULL) returned 0x%x\n"
-- "A dump server was not specified in the boot-args, terminating kernel core dump.\n"
-- "error 0x%x opening polled file\n"
-- "kern ver str"
-- "skipping local kernel core because the SPTM is in INTERRUPTED state and can't support core dump generation\n"
-- "%s(0x%llx, 0x%llx, %p) : called with invalid addresses : start 0x%llx >= end 0x%llx\n"
-- "com.apple.private.security.file-unencrypt-access"
-- "Attempting connection to panic server configured at IP %s, port %d\n"
-- "(%s) : coredump_init failed with %d\n"
-- "We were in the middle of initializing LZ4 stage. Cannot write a coredump to disk\n"
-- "kdp_panic_dump: unexpected pending input packet"
-- "(disk_stage_write) disk_stage_read (during seek) returned 0x%x\n"
-- "%s(0x%llx, 0x%llx, %p) : called with invalid addresses for 32-bit : start 0x%llx, end 0x%llx\n"
-- "kdp_send: no input packet"
-- "%s-%s-%d.%d.%d.%d-%x%s"
 - "systemlog"
-- "_kdp_ipstr"
-- "%s: vm map traversal failed: %d\n"
-- "Detected stale/invalid seq num. Expected: %d, received %d\n"
-- "IOPolledFilePollersSetup(%d) error 0x%x\n"
-- "IOPolledFileWrite (during seek) returned 0x%x\n"
-- "(%s) : save_segment_descriptions failed with %d\n"
-- "\nBeginning dump of panic region of size 0x%zx\n"
-- "Failed to seek to beginning of next core\n"
-- "skipping local kernel core because the SPTM is in PANIC state and can't support core dump generation\n"
-- "%s: skipping inactive task\n"
-- "(zlib_zoutput) outproc(KDP_DATA, NULL, 0x%x, %p) returned 0x%x\n"
-- "IOPolledFileFlush(0x%p) : IOStartPolledIO(0x%p, kIOPolledFlush, 0, 0, 0) returned 0x%x\n"
-- "com.apple.private.coredump-encryption-key"
-- "coredump_encryption_key"
-- "kern_dump_save_note_data"
-- "(kern_dump_write_public_key) outproc(KDP_SEEK, NULL, %lu, %p) foffset = 0x%llx returned 0x%x\n"
-- "(%s) : save_segment_descriptions returned without all segment descriptions written, %llu of %llu remaining\n"
-- "; stext="
-- "Skipping coredump\n"
-- "Detected remote error, terminating...\n"
-- "user_dump_init"
-- "Kernel timed out waiting for hardware debugger to update handshake structure."
-- "pid %ld (%s), uid (%u): corename is too long\n"
-- "(disk_stage_read) IOPolledFileWrite (during seek) returned 0x%x\n"
-- "write to"
-- "_panicd_ip"
-- "(aea_write_callback) next stage outproc returned 0x%x\n"
-- "site.typeof(*region)"
-- "%s(): failed to write load binary spec structure for binary #%d ('%s'): callback returned 0x%x\n"
-- "kern_open_file_for_direct_io took %qd ms\n"
-- "(kern_coredump_routine) : failed to write zero fill padding (%llu bytes remaining) : kdp_core_output(%p, %llu, NULL) returned 0x%x\n"
-- "%s: skipping locked task\n"
-- "read from"
-- "coredump_save_sw_vers"
-- "_panicd_corename"
-- "\nCore dump took %llu cycles\n"
-- "coredump_save_segment_data failed with %d\n"
-- "kdp_core.c"
-- "IOPolledFileSeek: called to seek to 0x%llx greater than file size of 0x%llx\n"
-- "Transmitting kernel state, please wait:\n"
-- "coredump_save_segment_descriptions"
-- "coredump_save_note_data"
-- "coredump_save_sw_vers_legacy"
-- "IOPolledFileFlush() returned 0x%x\n"
-- "(%s) : save_note_descriptions returned without all note descriptions written, %llu of %llu remaining\n"
-- "IOPolledInterface::checkForWork[%d] 0x%x\n"
-- "IOPolledFileWrite(0x%p, 0x%p, %llu, 0x%p) : IOStartPolledIO(0x%p, kIOPolledWrite, %llu, 0x%llx, %d) returned 0x%x\n"
-- "outproc(KDP_WRQ, NULL, 0, NULL) returned 0x%x\n"
-- "(aea_read_callback) next stage read proc returned 0x%x\n"
-- "user_dump_save_seg_descriptions"
-- "%s(): encountered unknown debug header entry %d, including anyway with name '%s'\n"
-- "%s%c%s%c%s%c"
-- "sugid_coredump"
-- "%s/%s"
-- "kdp_set_dump_info: Skipping invalid panicd port %d (using %d)\n"
-- "%.12s-cp"
-- "kern_coredump_routine"
-- "(%s) : kcc_coredump_save_sw_vers_detail_cb failed with 0x%x\n"
-- "Corefile is not yet initialized. Cannot write a coredump to disk\n"
-- "(do_kern_dump write public key) returned 0x%x\n"
-- "(%s) : kcc_coredump_save_note_data failed with 0x%x\n"
-- "Opened file %s, size %qd, extents %ld, maxio %qx ssd %d\n"
-- "memory_backing_aware_buffer_stage_outproc"
-- "(kdp_core_output) outproc(KDP_DATA, NULL, 0x%llx, %p) returned 0x%x\n"
-- "Volume is low on space. Not allocating kernel corefile.\n"
-- "kdp_crashdump_pkt_size"
-- "(disk_stage_read) IOPolledFileRead(%llu) returned 0x%x\n"
-- "Failed to flush panic region data : kdp_core_output(%p, 0, NULL) returned 0x%x\n"
-- "coredump_init returned KERN_NODE_DOWN, skipping this core\n"
-- "kdp_raise_exception"
-- "polled file major %d, minor %d, blocksize %ld, pollers %d\n"
-- "100.."
-- "(kern_coredump_routine) : save_segment_data returned without all segment data written, %llu of %llu remaining\n"
-- "ZERR %d\n"
-- "corefile_size_mb"
-- "%s: cannot exclude region starting at %p with size %zu (not page aligned) @%s:%d"
-- "Transmitting system log, please wait: "
-- "(do_kern_dump coredump log) outproc(KDP_DATA, NULL, %lu, %p) returned 0x%x\n"
-- "user_dump_save_summary"
-- "Failed to open the corefile. Error %d\n"
-- "Writing local cores...\n"
-- "com.apple.private.enable-coredump-on-panic-seed-privacy-approved"
-- "save_seg_desc: pmap traversal failed: %d\n"
-- "%s: skipping kernel because excluded regions list is locked\n"
-- "%"
-- "corefile"
-- "Unable to retrieve range for root memory device %d\n"
-- "IOPolledFileWrite(gIOPolledCoreFileVars, %p, 0x%llx, NULL) returned 0x%x\n"
-- "(%s) : header size not populated after coredump_get_summary\n"
-- "(%s) : kcc_coredump_save_note_descriptions failed with %d\n"
-- "Failed to dump coprocessor cores\n"
-- " Compressed file length is %llu bytes\n"
-- "user_dump_save_segment_data"
-- "/private/preboot/kernelcore"
-- "site.IOPolledFileIOVars"
-- "(disk_stage_read) Kickstarting IOPolledFileRead(0) returned 0x%x\n"
-- "IOPolledInterface::close[%d] 0x%x\n"
-- "kdp_send_crashdump_pkt failed with error %d\n"
-- "Setting coredump status as done!\n"
-- "/private/var/dextcores"
-- "(%s) : kcc_coredump_save_sw_vers failed with 0x%x\n"
-- "IOPolledInterface::ioStatus 0x%x\n"
-- "%s: cannot exclude region starting at %p with size %zu (zero or overflowing size) @%s:%d"
-- "panicd_port"
-- "Kernel map size is %llu\n"
-- "Failed to open corefile of size %llu MB (low disk space)\n"
-- "%lld..\n"
-- "Original panic string:\n"
-- "apple_encrypted_archive interface registration callback is already set @%s:%d"
-- "/cores/core.%d"
-- "%s(0x%llx, 0x%llx, %p) : failed to write segment %llu of %llu. kdp_core_output(%p, %lu, %p) returned error %d\n"
-- "(kern_dump_write_public_key) outproc(KDP_DATA, NULL, %llu, NULL) returned 0x%x\n"
-- "%s() : failed to write main bin spec structure : coredump_save_note_data() returned 0x%x\n"
-- "(disk_stage_read) IOPolledFileSeek(0x%llx) returned 0x%x\n"
-- "kdp_reply: no input packet"
-- "Transmitting packets to link level address: %02x:%02x:%02x:%02x:%02x:%02x\n"
-- "hwm_user_cores"
-- "(kern_dump_write_public_key) outproc data flush returned 0x%x\n"
-- "Recorded panic region in corefile at offset 0x%llx, compressed to %llu bytes\n"
-- "IOPolledInterfaceActive"
-- "IOPolledFileSeek(0x%llx) returned 0x%x\n"
-- "Zlib stage is not initialized. Cannot write a coredump to shared memory\n"
-- "progress_notify_stage_outproc"
-- "error 0x%x from IOGetHibernationCryptKey\n"
-- "(%s) : kcc_coredump_save_note_data returned without all note data written, %llu of %llu remaining\n"
-- "EOF Flush: Detected stale/invalid seq num. Expected: %d, received %d\n"
-- "(kern_dump_write_public_key) outproc(KDP_DATA, NULL, %u, %p) returned 0x%x\n"
-- ".gz"
-- "(kern_dump_update_header) outproc data flush returned 0x%x\n"
-- "corefile path selection in device-tree is not one of the allowed values: %s, Using default %s\n"
-- "; UUID="
-- "Failed to dump userspace process cores\n"
-- "IOPolledInterfaceStack"
-- "site.typeof(*data)"
-- "Transmitting panic log, please wait: "
-- "IOPolledInterface::probe[%d] 0x%x\n"
-- "(do_kern_dump seek begin) outproc(KDP_SEEK, NULL, %lu, %p) foffset = 0x%llx returned 0x%x\n"
 - "Unable to create core header packet.\n"
-- "Failed to write panic region to file, kdp_coreoutput(outstate, %zu, %p) returned 0x%x\n"
-- "secure_core: Unable to seek to the start of file: %d\n"
-- "save_summary: pmap traversal failed: %d\n"
-- "(aea_stage_outproc) aea_close() returned %d\n"
-- "coredump_save_note_description"
-- "System dump aborted.\n"
-- "coredump_save_summary"
-- "panic_region"
-- "(kdp_reset_output_vars) Encryption requested, is unavailable, and enforcement is active. Skipping current core.\n"
-- "Couldn't retrieve volume status. Error %d\n"
-- "%s: context allocation failure\n"
-- "_router_ip"
-- "IOPolledInterface::startIO[%d] 0x%x\n"
-- "%s(%p, %llu, %p) : called with invalid length %llu\n"
-- "(kern_dump_update_header) outproc(KDP_SEEK, NULL, %lu, %p) foffset = 0x%llx returned 0x%x\n"
-- "Failed to open corefile of size %llu MB (returned error 0x%x)\n"
-- "/private/var/cores"
-- "load binary"
-- "kdp_send: packet too large (%d > %u)"
-- "(disk_stage_write) disk_stage_read (during final chunk seek) returned 0x%x\n"
-- "(%s) : save_note_note_summary failed with %d\n"
-- "Opened corefile of size %llu MB\n"
-- "LZ4 stage is not yet initialized. Cannot write a coredump to disk\n"
-- "drivercorefile"
-- "inet_aton() failed interpreting %s as an IP\n"
-- "skipping local kernel core because core file could not be opened prior to panic (mode : 0x%x, error : 0x%x)\n"
-- "Resolved %s's (or proxy's) link level address\n"
-- "IOPolledFilePollersOpen returned 0x%x\n"
-- "(do_kern_dump seek logfile) outproc(KDP_SEEK, NULL, %lu, %p) foffset = 0x%llx returned 0x%x\n"
-- "Unknown format character %c in `%s'\n"
-- "addrable bits"
-- "IOPolledFilePollersClose (during EOF) returned 0x%x\n"
-- "IOPolledFileSeek(gIOPolledCoreFileVars, 0) returned 0x%x\n"
-- "Zlib stage is not initialized. Cannot write a coredump to the network\n"
-- "Failed to %s the corefile. Error %d\n"
-- "%qx:%x"
-- "Waiting for hardware shared memory debugger, handshake structure is at virt: %p, phys %p\n"
-- "com.apple.private.custom-coredump-location"
-- "KDPCoreStageInit"
-- "\n(kern_coredump_routine) : kern_dump_record_file failed with %d\n"
-- "(%s) : coredump_save_note_description returned %d while writing binary info LC_NOTE description"
-- "custom"
-- "corefile path selection in device-tree was set to: %s (value: %s)\n"
-- "coredump"
-- "(%s) : save_thread_state failed with %d\n"
-- "Preferred Block Size"
-- "(kern_coredump_routine) : failed to flush final core data : kdp_core_output(%p, 0, NULL) returned 0x%x\n"
-- "%s(0x%llx, 0x%llx, %p) : failed to write segment %llu of %llu : kdp_core_output(%p, %lu, %p) returned  error 0x%x\n"
-- "Done\nCoredump complete of %s, dumped %llu segments (%llu bytes), %llu threads (%llu bytes) overall uncompressed file length %llu bytes."
-- "(aea_stage_outproc) aea_write() returned %zd\n"
-- "compression interface registration callback is already set @%s:%d"
-- "(disk_stage_write) IOPolledFileSeek(0x%llx) returned 0x%x\n"
+- "Zlib stage is not initialized. Cannot write a coredump to shared memory\n"
+- "(kern_dump_write_public_key) outproc(KDP_DATA, NULL, %llu, NULL) returned 0x%x\n"
+- "(kern_dump_update_header) outproc data flush returned 0x%x\n"
+- "kern_coredump_routine"
+- "(do_kern_dump paniclog) outproc(KDP_DATA, NULL, %lu, %p) returned 0x%x\n"
+- "kdp_send: no input packet"
+- "IOPolledInterface::probe[%d] 0x%x\n"
+- "(%s) : save_thread_state returned without all thread descriptions written, %llu of %llu remaining\n"
+- "/private/preboot/kernelcore"
+- "_kdp_ipstr"
+- "%s(0x%llx, 0x%llx, %p) : ran out of space to save commands with %llu of %llu remaining\n"
+- "com.apple.private.coredump-encryption-key"
 - "kernel-core-dump-location"
-- "%s(0x%llx, 0x%llx, %p) : coredump_save_segment_descriptions() called too many times, %llu segment descriptions already recorded\n"
-- "%s() : failed to write sw_vers string : coredump_save_note_data() returned 0x%x\n"
-- "Failed to seek to panic region file offset 0x%llx, kern_dump_seek_to_next_file returned 0x%x\n"
-- "(%s) : get_summary failed with %d\n"
-- "IOPolledInterface::open[%d] 0x%x\n"
+- "(%s) : save_note_descriptions returned without all note descriptions written, %llu of %llu remaining\n"
+- "corefile path selection in device-tree is not one of the allowed values: %s, Using default %s\n"
+- "%s/%s"
+- "secure_core: Unable to seek to the start of file: %d\n"
+- "coredump_save_sw_vers_legacy"
+- "(%s) : save_segment_descriptions failed with %d\n"
+- "inet_aton() failed interpreting %s as an IP\n"
+- "kdp_poll"
+- "%s(0x%llx, 0x%llx, %p) : failed to write segment %llu of %llu. kdp_core_output(%p, %lu, %p) returned error %d\n"
+- "(do_kern_dump close) outproc(KDP_EOF, NULL, 0, 0) returned 0x%x\n"
+- "%s: skipping inactive task\n"
+- "kdp panic: %s"
+- "user_dump_save_summary"
+- "Opened corefile of size %llu MB\n"
 - "%lu"
-- "121212112"
-- "panic context"
+- "%s() : found %d expected LC_THREAD (%d)\n"
+- "IOPolledFilePollersClose (during EOF) returned 0x%x\n"
+- "%s() : failed to write thread data : kdp_core_output() returned 0x%x\n"
+- "kdp_send_crashdump_data returned 0x%x\n"
+- "%s(0x%llx, 0x%llx, %p) : failed to write segment %llu of %llu : kdp_core_output(%p, %lu, %p) returned  error 0x%x\n"
+- "(kern_dump_update_header) outproc(KDP_DATA, NULL, %lu, %p) returned 0x%x\n"
+- "%s (during forwarding) returned 0x%x\n"
+- "kern ver str"
+- "com.apple.private.custom-coredump-location"
+- "_panicd_ip"
+- "(kdp_core_output) outproc(KDP_DATA, NULL, 0x%llx, %p) returned 0x%x\n"
+- "IOPolledInterface::startIO[%d] 0x%x\n"
+- "IOPolledFileSeek: called to seek to 0x%llx greater than file size of 0x%llx\n"
+- "IOPolledInterface::checkForWork[%d] 0x%x\n"
+- "(disk_stage_read) Kickstarting IOPolledFileRead(0) returned 0x%x\n"
+- "Kernel map size is %llu\n"
+- "%s(): encountered unknown debug header entry %d, including anyway with name '%s'\n"
 - "(aea_stage_reset) aea_close() returned %d\n"
-- "paniclog"
-- "main bin spec"
-- "pid %ld (%s), uid (%u): unexpected end of string after %% token\n"
-- "%s() called with invalid data_owner\n"
-- "(kern_dump_update_header) outproc explicit flush returned 0x%x\n"
-- "coredump_save_segment_data"
-- "We were in the middle of initializing encryption. Marking it as unavailable\n"
-- "IOPolledFilePollersSetup for corefile failed with error: 0x%x\n"
-- "(kern_dump_write_public_key) outproc explicit flush returned 0x%x\n"
+- "Opened file %s, size %qd, extents %ld, maxio %qx ssd %d\n"
+- "Couldn't retrieve volume status. Error %d\n"
+- "IOPolledFileWrite (during seek) returned 0x%x\n"
+- "addrable bits"
 - "kern_dump_init"
-- "misaligned file pos %qx\n"
-- "Error: No transport device registered for kernel crashdump\n"
+- "Volume is low on space. Not allocating kernel corefile.\n"
+- "(%s) : coredump_save_note_description returned %d while writing binary info LC_NOTE description"
+- "kdp_raise_exception"
+- " Compressed file length is %llu bytes\n"
+- "Detected stale/invalid seq num. Expected: %d, received %d\n"
+- "System dump aborted.\n"
+- "paniclog"
+- "(disk_stage_read) IOPolledFileWrite (during seek) returned 0x%x\n"
+- "%s: skipping task with locked vm map\n"
+- "Preferred Block Size"
+- "No contact in %d seconds\n"
+- "We were in the middle of initializing encryption. Marking it as unavailable\n"
+- "_router_ip"
+- "Failed to %s the corefile. Error %d\n"
+- "%.12s-cp"
+- "kdp_send_crashdump_pkt failed with error %d\n"
+- "%s: context allocation failure\n"
+- "Failed to dump coprocessor cores\n"
+- "Transmitting system log, please wait: "
+- "(aea_stage_outproc) aea_write() returned %zd\n"
+- "site.typeof(*data)"
+- "IOPolledFileWrite(gIOPolledCoreFileVars, %p, 0x%llx, NULL) returned 0x%x\n"
+- "Transmitting panic log, please wait: "
+- "xnu-"
 - "Boot-args specify %d MB kernel corefile\n"
+- "(%s) : kcc_coredump_save_note_data returned without all note data written, %llu of %llu remaining\n"
+- "Set a new encryption key for coredumps"
+- "coredump_save_segment_data"
+- "kern_open_file_for_direct_io took %qd ms\n"
+- "progress_notify_stage_outproc"
+- "(kern_coredump_routine) : failed to flush final core data : kdp_core_output(%p, 0, NULL) returned 0x%x\n"
+- "coredump"
+- "%s() : failed to write zero fill padding : kdp_core_output(%p, %llu, NULL) returned 0x%x\n"
+- "corefile"
+- "(do_kern_dump coredump log) outproc(KDP_DATA, NULL, %lu, %p) returned 0x%x\n"
+- "site.typeof(*region)"
+- "kern_dump_save_note_data"
+- "coredump_save_note_description"
+- "Failed to dump userspace process cores\n"
+- "coredump_save_thread_state"
+- "%s() : failed to write main bin spec structure : coredump_save_note_data() returned 0x%x\n"
+- "kdp_core.c"
+- "(%s) : get_summary failed with %d\n"
+- "skipping local kernel core because the SPTM is in INTERRUPTED state and can't support core dump generation\n"
+- "panicd_port"
+- "com.apple.private.security.file-unencrypt-access"
+- "%s (passing along request) returned 0x%x\n"
+- "IOPolledFilePollersSetup for corefile failed with error: 0x%x\n"
+- "coredump_save_sw_vers"
+- "Failed to write panic region to file, kdp_coreoutput(outstate, %zu, %p) returned 0x%x\n"
+- "Skipping userspace coredump, coredump list is locked\n"
+- "%s-%s-%d.%d.%d.%d-%x%s"
+- "inline call to debugger(machine_startup)"
+- "xnu"
+- "outproc(KDP_WRQ, NULL, 0, NULL) returned 0x%x\n"
+- "(disk_stage_read) IOPolledFileSeek(0x%llx) returned 0x%x\n"
+- "(disk_stage_read) IOPolledFileRead(%llu) returned 0x%x\n"
+- "user_dump_init"
+- "We were in the middle of initializing LZ4 stage. Cannot write a coredump to disk\n"
+- "(do_kern_dump seek begin) outproc(KDP_SEEK, NULL, %lu, %p) foffset = 0x%llx returned 0x%x\n"
+- "save_summary: pmap traversal failed: %d\n"
+- "%lld..\n"
+- "%llu"
+- "kdp_corefile"
+- "100.."
+- "%s(0x%llx, 0x%llx, %p) : called with invalid addresses for 32-bit : start 0x%llx, end 0x%llx\n"
+- "A dump server was not specified in the boot-args, terminating kernel core dump.\n"
+- "%"
+- "coredump_save_note_data"
+- "coredump_save_summary"
+- "%s: skipping kernel because excluded regions list is locked\n"
+- "com.apple.private.enable-coredump-on-panic-seed-privacy-approved"
+- "Failed to record panic region in corefile header, kern_dump_record_file returned 0x%x\n"
+- "LZ4 stage is not yet initialized. Cannot write a coredump to disk\n"
+- "dumpinfo does not fit into KDP packet.\n"
+- "%s(%p, %llu, %p) : called with invalid length %llu\n"
+- "handshake structure not initialized\n"
+- "coredump_encryption_key"
+- "Skipping panic region dump\n"
+- "IOPolledFileFlush(0x%p) : IOStartPolledIO(0x%p, kIOPolledFlush, 0, 0, 0) returned 0x%x\n"
+- "Failed to seek to beginning of next core\n"
+- "error 0x%x opening polled file\n"
+- "(kern_coredump_routine) : save_segment_data returned without all segment data written, %llu of %llu remaining\n"
+- "pid %ld (%s), uid (%u): unexpected end of string after %% token\n"
+- "IOPolledFilePollersOpen returned 0x%x\n"
+- "(aea_write_callback) next stage outproc returned 0x%x\n"
+- "%s: skipping locked task\n"
+- "coredump_save_segment_descriptions"
+- "IOPolledFileFlush() returned 0x%x\n"
+- "corefile path selection in device-tree was set to: %s (value: %s)\n"
+- "pid %ld (%s), uid (%u): corename is too long\n"
+- "Failed to open corefile of size %llu MB (low disk space)\n"
+- "save_seg_desc: pmap traversal failed: %d\n"
+- "%s kvtophys() for address %p returned NULL\n"
+- "/private/var/cores"
+- "IOPolledFileSeek(gIOPolledCoreFileVars, 0) returned 0x%x\n"
+- "/private/var/dextcores"
 - "Sending write request for %s\n"
-- "inet_aton() failed interpreting %s as a panic server IP\n"
+- "IOPolledInterface::ioStatus 0x%x\n"
+- "_panicd_corename"
+- "Setting coredump status as done!\n"
+- "Failed to flush panic region data : kdp_core_output(%p, 0, NULL) returned 0x%x\n"
+- "(kern_dump_update_header) outproc explicit flush returned 0x%x\n"
+- "Unable to retrieve range for root memory device %d\n"
+- "IOPolledFileWrite (during EOF) returned 0x%x\n"
+- "(kern_coredump_routine) : failed to write zero fill padding (%llu bytes remaining) : kdp_core_output(%p, %llu, NULL) returned 0x%x\n"
+- "Unknown format character %c in `%s'\n"
+- "Kernel timed out waiting for hardware debugger to update handshake structure."
+- "buffer_stage_outproc (during flush) returned 0x%x\n"
+- "custom"
+- "read from"
+- "%s next stage output failed\n"
+- "Error: No transport device registered for kernel crashdump\n"
+- "memory_backing_aware_buffer_stage_outproc"
+- "%s() : failed to write data (%llu bytes remaining) :%d\n"
+- "%s() : failed to write mach header : kdp_core_output(%p, %lu, %p) returned error 0x%x\n"
+- "kdp_core_exclude_region"
+- "(%s) : save_thread_state failed with %d\n"
+- "; stext="
+- "(kdp_reset_output_vars) Encryption requested, is unavailable, and enforcement is active. Skipping current core.\n"
+- "Resolved %s's (or proxy's) link level address\n"
+- "%s(0x%llx, 0x%llx, %p) : coredump_save_segment_descriptions() called too many times, %llu segment descriptions already recorded\n"
+- "(disk_stage_write) disk_stage_read (during seek) returned 0x%x\n"
+- "(do_kern_dump seek logfile) outproc(KDP_SEEK, NULL, %lu, %p) foffset = 0x%llx returned 0x%x\n"
+- "site.IOPolledFileIOVars"
+- "kdp_set_dump_info: Skipping invalid panicd port %d (using %d)\n"
+- "preboot"
+- "%s() called with invalid data_owner\n"
+- "(disk_stage_write) IOPolledFileSeek(0x%llx) returned 0x%x\n"
+- "(zlib_zoutput) outproc(KDP_DATA, NULL, 0x%x, %p) returned 0x%x\n"
+- "panic context"
+- "%s(%p, %llu, %p) : called with too much data, %llu written, %llu left\n"
 - "/private/var/vm/kernelcore"
+- "kdp_crashdump_pkt_size"
+- "IOPolledFileSeek(0x%llx) returned 0x%x\n"
+- "%s() called too many times, %llu note descriptions already recorded\n"
+- "octet"
+- "(%s) : save_note_note_summary failed with %d\n"
+- "Failed to seek to panic region file offset 0x%llx, kern_dump_seek_to_next_file returned 0x%x\n"
+- "/cores/core.%d"
+- "\nCore dump took %llu cycles\n"
+- "111222212222222222222112"
+- "(disk_stage_write) IOPolledFileWrite (during final flush) returned 0x%x\n"
+- "Transmitting packets to link level address: %02x:%02x:%02x:%02x:%02x:%02x\n"
+- "\nBeginning dump of panic region of size 0x%zx\n"
+- "(%s) : kcc_coredump_save_note_data failed with 0x%x\n"
+- "(kern_dump_seek_to_next_file) outproc(KDP_SEEK, NULL, %lu, %p) foffset = 0x%llx returned 0x%x\n"
+- "(aea_stage_outproc) aea_close() returned %d\n"
+- "kdp_reply: no input packet"
+- "Transmitting kernel state, please wait:\n"
+- "(%s) : header size not populated after coredump_get_summary\n"
+- "hwm_user_cores"
+- "%s: vm map traversal failed: %d\n"
+- "(%s) : kcc_coredump_save_note_descriptions failed with %d\n"
+- "Failed to open corefile of size %llu MB (returned error 0x%x)\n"
+- "Recorded panic region in corefile at offset 0x%llx, compressed to %llu bytes\n"
+- "%s(): failed to write load binary spec structure for binary #%d ('%s'): callback returned 0x%x\n"
+- "(disk_stage_write) IOPolledFileWrite(gIOPolledCoreFileVars, %p, 0x%llx, NULL) returned 0x%x\n"
+- "apple_encrypted_archive interface registration callback is already set @%s:%d"
+- "Skipping coredump\n"
+- "save_seg_data: pmap traversal failed: %d\n"
+- "sugid_coredump"
+- "kdp_panic_dump: unexpected pending input packet"
+- "buffer_stage_outproc (during forwarding) returned 0x%x\n"
+- "coredump_init returned KERN_NODE_DOWN, skipping this core\n"
+- "IOPolledInterface::close[%d] 0x%x\n"
+- "inet_aton() failed interpreting %s as a panic server IP\n"
+- "error 0x%x from IOGetHibernationCryptKey\n"
+- "%s: cannot exclude region starting at %p with size %zu (zero or overflowing size) @%s:%d"
+- "(%s) : kcc_coredump_save_sw_vers failed with 0x%x\n"
+- "Writing local cores...\n"
+- "(%s) : coredump_init failed with %d\n"
+- "main bin spec"
+- "(aea_read_callback) next stage read proc returned 0x%x\n"
+- "We were in the middle of initializing the disk stage. Cannot write a coredump to disk\n"
+- "EOF Flush: Detected stale/invalid seq num. Expected: %d, received %d\n"
+- "%s() : failed to write legacy bin spec version : coredump_save_note_data() returned 0x%x\n"
+- "kdp_send: packet too large (%d > %u)"
+- "(kern_dump_write_public_key) outproc(KDP_SEEK, NULL, %lu, %p) foffset = 0x%llx returned 0x%x\n"
+- "%s%c%s%c%s%c"
+- "Zlib stage is not initialized. Cannot write a coredump to the network\n"
+- "user_dump_save_segment_data"
+- "(do_kern_dump write public key) returned 0x%x\n"
+- "skipping local kernel core because the SPTM is in PANIC state and can't support core dump generation\n"
+- "(aea_stage_outproc) aea_open() returned %d\n"
+- "%s: cannot exclude region starting at %p with size %zu (not page aligned) @%s:%d"
+- "%s: no task is set\n"
+- ".gz"
+- "IOPolledFilePollersSetup(%d) error 0x%x\n"
+- "(kern_dump_update_header) outproc(KDP_SEEK, NULL, %lu, %p) foffset = 0x%llx returned 0x%x\n"
+- "Detected remote error, terminating...\n"
+- "IOPolledInterfaceActive"
+- "\nBeginning coredump of %s\n"
+- "IOPolledInterfaceStack"
+- "IOPolledFileWrite(0x%p, 0x%p, %llu, 0x%p) : IOStartPolledIO(0x%p, kIOPolledWrite, %llu, 0x%llx, %d) returned 0x%x\n"
+- "skipping local kernel core because core file could not be opened prior to panic (mode : 0x%x, error : 0x%x)\n"
+- "%s(0x%llx, 0x%llx, %p) : called with invalid addresses : start 0x%llx >= end 0x%llx\n"
+- "panic_region"
+- "%s() : failed to write sw_vers string : coredump_save_note_data() returned 0x%x\n"
+- "(kern_dump_write_public_key) outproc data flush returned 0x%x\n"
+- "(kern_dump_write_public_key) outproc explicit flush returned 0x%x\n"
+- "coredump_encryption"
+- "%s() : ran out of space to save threads with %llu of %llu remaining\n"
+- "write to"
+- "load binary"
+- "Original panic string:\n"
+- "%qx:%x"
+- "ZERR %d\n"
+- "KDPCoreStageInit"
+- "Corefile is not yet initialized. Cannot write a coredump to disk\n"
+- "coredump_save_segment_data failed with %d\n"
+- "Routing through specified router IP %s (%d)\n"
+- "Attempting connection to panic server configured at IP %s, port %d\n"
+- "Failed to open the corefile. Error %d\n"
+- "(%s) : kcc_coredump_save_sw_vers_detail_cb failed with 0x%x\n"
+- "(disk_stage_write) disk_stage_read (during final chunk seek) returned 0x%x\n"
+- "IOPolledInterface::open[%d] 0x%x\n"
+- "kdp_ip_addr"
+- "corefile_size_mb"
+- "misaligned file pos %qx\n"
+- "Done\nCoredump complete of %s, dumped %llu segments (%llu bytes), %llu threads (%llu bytes) overall uncompressed file length %llu bytes."
+- "; UUID="
+- "polled file major %d, minor %d, blocksize %ld, pollers %d\n"
+- "(kern_dump_write_public_key) outproc(KDP_DATA, NULL, %u, %p) returned 0x%x\n"
+- "(%s) : save_segment_descriptions returned without all segment descriptions written, %llu of %llu remaining\n"
+- "%s() : failed to write note %llu of %llu : kdp_core_output() returned  error 0x%x\n"
+- "site.struct kern_userspace_coredump_context"
+- "drivercorefile"
+- "user_dump_save_seg_descriptions"
+- "\n(kern_coredump_routine) : kern_dump_record_file failed with %d\n"
+- "Waiting for hardware shared memory debugger, handshake structure is at virt: %p, phys %p\n"
+- "compression interface registration callback is already set @%s:%d"
+- "121212112"
 
 ```
 
@@ -441,549 +962,28 @@ CStrings:
 
 ```
 
->  `com.apple.AGXG16P`
-
-```diff
-
- 320.36.4.0.0
--  __TEXT.__const: 0x446c
--  __TEXT.__cstring: 0xca44
-+  __TEXT.__const: 0x4474
-+  __TEXT.__cstring: 0xca4e
-   __TEXT.__os_log: 0x2f7
-   __TEXT_EXEC.__text: 0xaf38c
-   __TEXT_EXEC.__auth_stubs: 0x0
-
-   __DATA_CONST.__auth_ptr: 0x8
-   __DATA_CONST.__mod_init_func: 0x320
-   __DATA_CONST.__mod_term_func: 0x280
--  __DATA_CONST.__const: 0x10c00
-+  __DATA_CONST.__const: 0x10c10
-   __DATA_CONST.__kalloc_type: 0x2140
-   __DATA_CONST.__kalloc_var: 0x3160
-   Functions: 3072
-   Symbols:   0
--  CStrings:  1718
-+  CStrings:  1720
- 
-CStrings:
-+ "G17A"
-+ "Aug  8 2024 22:02:57"
-+ "G17P"
-- "Aug  8 2024 22:42:53"
-
-```
-
->  `com.apple.driver.AppleAOPAudio`
-
-```diff
-
-   __TEXT.__cstring: 0xc591
-   __TEXT.__const: 0x136
-   __TEXT.__os_log: 0xf
--  __TEXT_EXEC.__text: 0x32934
-+  __TEXT_EXEC.__text: 0x32948
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0x2f0
-   __DATA.__common: 0x660
-   __DATA.__bss: 0x49
--  __DATA_CONST.__auth_got: 0x318
-+  __DATA_CONST.__auth_got: 0x328
-   __DATA_CONST.__got: 0xe8
-   __DATA_CONST.__auth_ptr: 0x8
-   __DATA_CONST.__mod_init_func: 0xe8
-CStrings:
-+ "20:07:41"
-+ "20:07:58"
-- "20:57:03"
-- "20:56:56"
-
-```
-
->  `com.apple.driver.ApplePearlSEPDriver`
-
-```diff
-
- 733.0.10.0.0
-   __TEXT.__const: 0x298
--  __TEXT.__cstring: 0x887e
--  __TEXT.__os_log: 0x3e3b
--  __TEXT_EXEC.__text: 0x36504
-+  __TEXT.__cstring: 0x939e
-+  __TEXT.__os_log: 0x4074
-+  __TEXT_EXEC.__text: 0x38bd4
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0xc6
-   __DATA.__common: 0x1d8
-   __DATA.__bss: 0x85
--  __DATA_CONST.__auth_got: 0x590
-+  __DATA_CONST.__auth_got: 0x598
-   __DATA_CONST.__got: 0x150
-   __DATA_CONST.__mod_init_func: 0x18
-   __DATA_CONST.__mod_term_func: 0x18
--  __DATA_CONST.__const: 0x1ff0
-+  __DATA_CONST.__const: 0x1fe0
-   __DATA_CONST.__kalloc_type: 0x580
-   __DATA_CONST.__kalloc_var: 0x1e0
--  Functions: 522
-+  Functions: 528
-   Symbols:   0
--  CStrings:  1397
-+  CStrings:  1476
- 
-CStrings:
-+ "EncryptFDRDataForBrunor"
-+ "_brunorBootNonce"
-+ "unwrapInputKey"
-+ "%s: Waiting for FDR key unwrap result notification. Timeout = %us.\n"
-+ "GetBrunorPermanentKey"
-+ "unwrapInputKeyHmac"
-+ "ERROR: %s: %s (%d): unexpected cameraState %u\n\n"
-+ "PearlCamPowerOnOptionsString_GetSensorNonce"
-+ "_cameraState == kCameraStatePoweredOff"
-+ "platformHasBrunorSensor"
-+ "%s -> _platformHasBrunorSensor: %d\n"
-+ "PearlCamPowerOnDataString_SensorNonce"
-+ "%s: Waiting for the camera interface to initialize. Timeout = %us.\n"
-+ "FDRDataEncryptionWrappedKey"
-+ "psd3->hdr.version > (5) && psd3->hdr.version <= (6)"
-+ "_brunorKeyUnwrappingState == kBrunorKeyUnwrappingStateUnwrapSequence"
-+ "handleCameraPearlSURv2PowerOnNotification"
-+ "platformHasBrunorSensor()"
-+ "%s: Waiting for IspIsPoweredOn notification. Timeout = %us.\n"
-+ "data->getLength() == sizeof(unwrapResponse.unwrapOutputSensorIV)"
-+ "PearlCamStartOptionsString_HostSignature"
-+ "options->setObject(\"PearlCamPowerOnOptionsString_GetSensorNonce\", kOSBooleanTrue)"
-+ "PearlCamStartOptionsString_UnwrapInputIV"
-+ "_brunorKeyUnwrappingResult == 0 "
-+ "GetBrunorCollectionKey"
-+ "ERROR: %s: %s (%d): occurred during FDR encryption key unwrapping\n\n"
-+ "data->getLength() == sizeof(unwrapResponse.unwrapOutputKeyHmac)"
-+ "!_brunorWrappedKey"
-+ "wrappedKeyDataSize == (80)"
-+ "options->setObject(\"PearlCamPowerOnOptionsString_SkipFDRCheck\", kOSBooleanTrue)"
-+ "wrappedKey"
-+ "%s <- wrappedKeyData:%p, wrappedKeyDataSize:%zu, loadingFDR:%d\n"
-+ "PearlCamPearlSURDataString_UnwrapOutputData"
-+ "psdHeader->version != (5)"
-+ "%s <- prewarmType:%d overrideIsPearlDisabled:%d forUnwrapping:%d\n"
-+ "unwrapHostSig"
-+ "_brunorKeyUnwrappingState != kBrunorKeyUnwrappingStateNone"
-+ "PearlCamStartOptionsString_HostTag"
-+ "%s: _brunorBootNonce first/last bytes: %02x %02x ... %02x %02x\n"
-+ "_cameraState == kCameraStateIdle"
-+ "brunorUnwrapRequest"
-+ "SignDataWithBrunorPermanentKey"
-+ "PearlCamPearlSURDataString_SensorNonce"
-+ "unwrapInputHostIV"
-+ "wrappedKeyData"
-+ "PearlCamStartOptionsString_UnwrapInputMac"
-+ "_cameraState == kCameraStateIdle || _cameraState == kCameraStatePearlSURv2"
-+ "sizeof(brunorSessionOptions.bootNonce) == _brunorBootNonce->getLength()"
-+ "1211111212221212112121111111111111111111112112112222222212221122222221211121111121221112121112222222221122222222221221112112112221112222212222222222222222222222222222222222222222222222222222222222222222222222222222222222222222122222222122122222221222222222221222122222222222222222221221222122111122222222112122223111222122122111111111112211222"
-+ "UnwrapFDRDataEncryptionKey"
-+ "getBrunorUnwrappedKey"
-+ "getCommandMode() == kCommandModeIdle || getCommandMode() == kCommandModeNone"
-+ "PearlCamPearlSURDataString_SensorTag"
-+ "__os_warn_unused(__builtin_add_overflow((payloadSize), (delta), (&dataBufferLength))) == 0 "
-+ "PearlSURv2"
-+ "PrepareFDRDataEncryptionKey"
-+ "FDRDataEncryptionKey"
-+ "unwrapHostTag"
-+ "PearlCamPowerOnOptionsString_SkipFDRCheck"
-+ "_brunorWrappedKey"
-+ "PearlSURUnwrapOutput"
-+ "handleCameraPearlSURv2UnwrapOutputNotification"
-+ "PearlCamPearlSURDataString_UnwrapOutputIV"
-+ "brunorUnwrapRequestSize == sizeof(*brunorUnwrapRequest)"
-+ "data->getLength() == sizeof(unwrapResponse.unwrapOutputKey)"
-+ "wrappedKey->getLength() == (80)"
-+ "GetAttestationToBrunorCollectionKey"
-+ "PearlCamPearlSURDataString_UnwrapOutputMac"
-+ "psd3->hdr.magic == (0x45674567)"
-+ "SignDataWithBrunorCollectionKey"
-+ "PearlCamStartOptionsString_UnwrapInputData"
-+ "data->getLength() == sizeof(unwrapResponse.unwrapOutNonce)"
-+ "_cameraState == kCameraStatePearlSURv2"
-+ "camErr != kPearlCamErrorCode_FDRNotValidated"
-+ "payloadSize >= sizeof(*psd3)"
-+ "stopAndPowerOffCamera(0, true) == 0 "
-+ "SetDummyWrappedFDRDataEncryptionKey"
-+ "data->getLength() == sizeof(unwrapResponse.unwrapOutputSensorTag)"
-+ "written == (80)"
-+ "sizeof(brunorSessionOptions.wrappedKey) == _brunorWrappedKey->getLength()"
-+ "psd3->hdr.version != (5)"
-- "%s <- prewarmType:%d overrideIsPearlDisabled:%d\n"
-- "12111112122212121121211111111111111111111121121122222222122211222222212111211111212211121211122222222211222222222212211121121122211122222122222222222222222222222222222222222222222222222222222222222222222222222222222222222222221222222221221222222212222222222212221222222222222222222212212221221111222222221121222231112221221221111111111122"
-
-```
-
->  `com.apple.filesystems.apfs`
-
-```diff
-
-   __TEXT.__cstring: 0x48545
-   __TEXT_EXEC.__text: 0x139de4
-   __TEXT_EXEC.__auth_stubs: 0x0
--  __DATA.__data: 0x690
-+  __DATA.__data: 0x688
-   __DATA.__bss: 0xc60
-   __DATA_CONST.__auth_got: 0x10c0
-   __DATA_CONST.__got: 0x1b0
-CStrings:
-+ "01:00:59"
-- "00:56:37"
-
-```
-
->  `com.apple.driver.AppleOLYHAL`
-
-```diff
-
- 338.0.0.0.0
-   __TEXT.__const: 0x7a8
-   __TEXT.__cstring: 0x473a
--  __TEXT_EXEC.__text: 0x1cbc4
-+  __TEXT_EXEC.__text: 0x1cbdc
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0x18c
-   __DATA.__common: 0x170
-
-```
-
->  `com.apple.driver.AppleSEPManager`
-
-```diff
-
- 842.0.0.0.0
--  __TEXT.__cstring: 0xff2b
-+  __TEXT.__cstring: 0x1009c
-   __TEXT.__const: 0x7094
--  __TEXT_EXEC.__text: 0x47238
-+  __TEXT_EXEC.__text: 0x476bc
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0x168
-   __DATA.__common: 0xc48
-
-   __DATA_CONST.__const: 0x9728
-   __DATA_CONST.__kalloc_type: 0xe00
-   __DATA_CONST.__kalloc_var: 0x50
--  Functions: 2341
-+  Functions: 2349
-   Symbols:   0
--  CStrings:  1393
-+  CStrings:  1405
- 
-CStrings:
-+ "0 == param >> 4"
-+ "target->_asep->hasSandcat()"
-+ "%s: Found sep-boot-slot %u in DT\n\n"
-+ "%s: Unable to find sep-boot-slot in DT\n"
-+ "0 == slot_id >> 4"
-+ "sep-boot-slot"
-+ "%s: Setting default slot for boot param\n"
-+ "bool AppleSEPBooter::_getBootSlotId(uint8_t *)"
-+ "nullptr != slot"
-+ "-sep_has_sandcat"
-+ "Sandcat"
-+ "%s: GenerateNonce called without slot on Sandcat device, returning dummy all-ones value\n"
-
-```
-
->  `com.apple.iokit.AppleARMIISAudio`
-
-```diff
-
-   __TEXT.__os_log: 0x2778
-   __TEXT.__cstring: 0x2da3
-   __TEXT.__const: 0xa8
--  __TEXT_EXEC.__text: 0x15648
-+  __TEXT_EXEC.__text: 0x15680
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0x188
-   __DATA.__common: 0x60
--  __DATA_CONST.__auth_got: 0x2a0
-+  __DATA_CONST.__auth_got: 0x2b0
-   __DATA_CONST.__got: 0x88
-   __DATA_CONST.__auth_ptr: 0x8
-   __DATA_CONST.__mod_init_func: 0x10
-
-```
-
->  `com.apple.iokit.IOAccessoryManager`
-
-```diff
-
- 1004.0.8.0.0
-   __TEXT.__const: 0x2f8
--  __TEXT.__cstring: 0x1080e
-+  __TEXT.__cstring: 0x1081a
-   __TEXT.__os_log: 0x107ae
--  __TEXT_EXEC.__text: 0xecfd0
-+  __TEXT_EXEC.__text: 0xed140
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0x7e8
-   __DATA.__common: 0x1630
-
-   __DATA_CONST.__kalloc_type: 0x2440
-   Functions: 4439
-   Symbols:   0
--  CStrings:  2785
-+  CStrings:  2787
- 
-CStrings:
-+ "A3250"
-+ "A2580"
-
-```
-
->  `com.apple.driver.AppleT8110DART`
-
-```diff
-
- 452.0.6.0.0
-   __TEXT.__const: 0x60
-   __TEXT.__cstring: 0x2774
--  __TEXT_EXEC.__text: 0xd460
-+  __TEXT_EXEC.__text: 0xd480
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0xc8
-   __DATA.__common: 0x38
-
-```
-
->  `com.apple.driver.usb.AppleSynopsysUSBXHCI`
-
-```diff
-
- 647.0.1.0.0
--  __TEXT.__cstring: 0x3d1f
--  __TEXT.__os_log: 0x2fc9
-+  __TEXT.__cstring: 0x40ed
-+  __TEXT.__os_log: 0x4cda
-   __TEXT.__const: 0x20
--  __TEXT_EXEC.__text: 0x254f4
-+  __TEXT_EXEC.__text: 0x36d6c
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0xc8
--  __DATA.__common: 0x268
--  __DATA.__bss: 0x8
-+  __DATA.__common: 0x290
-+  __DATA.__bss: 0x10
-   __DATA_CONST.__auth_got: 0x2a0
-   __DATA_CONST.__got: 0x108
--  __DATA_CONST.__mod_init_func: 0x78
--  __DATA_CONST.__mod_term_func: 0x78
--  __DATA_CONST.__const: 0x6d20
--  __DATA_CONST.__kalloc_type: 0x440
--  Functions: 485
-+  __DATA_CONST.__mod_init_func: 0x80
-+  __DATA_CONST.__mod_term_func: 0x80
-+  __DATA_CONST.__const: 0x7808
-+  __DATA_CONST.__kalloc_type: 0x480
-+  Functions: 535
-   Symbols:   0
--  CStrings:  360
-+  CStrings:  376
- 
-CStrings:
-+ "%s@%s: %s::%s: performance floor: none\n"
-+ "%s@%s: %s::%s: performance floor: high bandwidth\n"
-+ "AppleT8140USBXHCI.cpp"
-+ "AppleT8140USBXHCI"
-+ "site.AppleT8140USBXHCI"
-+ "%s@%s: %s::%s: performance floor: low bandwidth\n"
-+ "%s@%s: %s::%s: performance floor: low isoch bandwidth\n"
-+ "tunable_AUSBC_DEBUG"
-+ "%s@%s: %s::%s: floor bandwidth: %u safe bandwidth: %u\n"
-+ "121111121222121211211111222222222222222222222222222222222222222222222222222222222222222212121121111212112222222222222222222222222222222222222222222222221211111112221222222221112222111122222222111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111112211111111121111221111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111112"
-+ "getPeriodicBandwidthUsage"
-
-```
-
->  `com.apple.driver.AppleAVD`
-
-```diff
-
- 798.1.0.0.0
--  __TEXT.__const: 0x86e6e
--  __TEXT.__cstring: 0x515e
--  __TEXT.__os_log: 0x11ed0
--  __TEXT_EXEC.__text: 0x417b8
-+  __TEXT.__const: 0xc5ac9
-+  __TEXT.__os_log: 0x13ff7
-+  __TEXT.__cstring: 0x5332
-+  __TEXT_EXEC.__text: 0x4b4d4
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0x12dc
-   __DATA.__common: 0x78
-
-   __DATA_CONST.__auth_ptr: 0x8
-   __DATA_CONST.__mod_init_func: 0x10
-   __DATA_CONST.__mod_term_func: 0x10
--  __DATA_CONST.__const: 0x2a88
--  __DATA_CONST.__kalloc_var: 0xb90
--  __DATA_CONST.__kalloc_type: 0x2400
--  Functions: 1339
-+  __DATA_CONST.__const: 0x3208
-+  __DATA_CONST.__kalloc_type: 0x2a00
-+  __DATA_CONST.__kalloc_var: 0xc80
-+  Functions: 1561
-   Symbols:   0
--  CStrings:  1422
-+  CStrings:  1452
- 
-CStrings:
-+ "CAvdMcpuThyme"
-+ "site.CAvdApCommThyme"
-+ "%s(): DKey physical addr = 0x%llx\n"
-+ "getPmuGTB"
-+ "site.CPriorityQueueTansy"
-+ "CAvdMcpuTansy"
-+ "getAdsDeviceIds"
-+ "getPmuRTC"
-+ "AppleAVD: %s(): gtb_h = %x, gtb_l = %x\n"
-+ "1211112112112"
-+ "AppleAVD: %s(): No avd pwm reset, pls check device tree settings!!"
-+ "CAvdMcpuHibiscus"
-+ "site.CAvdMcpuHibiscus"
-+ "site.CAvdWrapCtrlHibiscus"
-+ "AppleAVD: %s(): rtc_h = %x, rtc_l = %x\n"
-+ "site.CAvdApCommTansy"
-+ "site.CAvdMcpuThyme"
-+ "122211112112112"
-+ "CAvdApCommTansy"
-+ "CAvdApCommHibiscus"
-+ "site.CAvdMcpuTansy"
-+ "AppleAVD: %s(): ecid = %llx, board_id = %hx, chip_id = %x\n"
-+ "site.CPriorityQueueThyme"
-+ "site.CAvdApCommHibiscus"
-+ "AppleAVD: %s(): should not be used..."
-+ "site.CAvdWrapCtrlTansy"
-+ "AppleAVD: %s(): ioMapRegisters mapping DKey address failed (0)"
-+ "site.CPriorityQueueHibiscus"
-+ "CAvdWrapCtrlTansy"
-+ "CAvdApCommThyme"
-
-```
-
->  `com.apple.driver.AppleConvergedPCI`
-
-```diff
-
- 107.0.0.0.0
--  __TEXT.__const: 0x1b0
--  __TEXT.__cstring: 0x6ba1
--  __TEXT_EXEC.__text: 0x3e594
-+  __TEXT.__const: 0x1e0
-+  __TEXT.__cstring: 0x6c2f
-+  __TEXT_EXEC.__text: 0x3eb28
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0x248
-   __DATA.__common: 0x2d0
-
-   __DATA_CONST.__got: 0x108
-   __DATA_CONST.__mod_init_func: 0x68
-   __DATA_CONST.__mod_term_func: 0x68
--  __DATA_CONST.__const: 0x4778
--  __DATA_CONST.__kalloc_type: 0x1300
--  Functions: 1069
-+  __DATA_CONST.__const: 0x4858
-+  __DATA_CONST.__kalloc_type: 0x1380
-+  Functions: 1082
-   Symbols:   0
--  CStrings:  891
-+  CStrings:  895
- 
-CStrings:
-+ "ACIPCChip4399"
-+ "site.ACIPCChip4399"
-+ "ACIPCChip4399.cpp"
-+ "/Library/Caches/com.apple.xbs/Sources/AppleConvergedIPC/Core/OLYBT/Chips/ACIPCChip4399.cpp"
-
-```
-
->  `com.apple.driver.AppleH16ANEInterface`
-
-```diff
-
- 8.18.0.0.0
--  __TEXT.__os_log: 0x3137d
--  __TEXT.__cstring: 0xab65
--  __TEXT.__const: 0x600
--  __TEXT_EXEC.__text: 0xa0770
-+  __TEXT.__os_log: 0x313b1
-+  __TEXT.__cstring: 0xab7a
-+  __TEXT.__const: 0x630
-+  __TEXT_EXEC.__text: 0xa0948
-   __TEXT_EXEC.__auth_stubs: 0x0
--  __DATA.__data: 0x3058
-+  __DATA.__data: 0x34d0
-   __DATA.__common: 0x3c8
-   __DATA.__bss: 0x270
-   __DATA_CONST.__auth_got: 0x880
-
-   __DATA_CONST.__mod_term_func: 0x20
-   __DATA_CONST.__const: 0x6098
-   __DATA_CONST.__kalloc_type: 0x2d00
--  __DATA_CONST.__kalloc_var: 0x29e0
-+  __DATA_CONST.__kalloc_var: 0x2a30
-   Functions: 1825
-   Symbols:   0
--  CStrings:  3475
-+  CStrings:  3477
- 
-CStrings:
-+ "h17"
-+ "AppleT8140ANEHAL"
-
-```
-
->  `com.apple.driver.AppleSARService`
-
-```diff
-
- 1180.0.0.0.0
-   __TEXT.__const: 0x750
--  __TEXT.__cstring: 0x9b40
-+  __TEXT.__cstring: 0x9b46
-   __TEXT.__os_log: 0xb8af
-   __TEXT.__ustring: 0x8
-   __TEXT_EXEC.__text: 0x53e80
-
-   __DATA_CONST.__kalloc_var: 0x140
-   Functions: 539
-   Symbols:   0
--  CStrings:  1310
-+  CStrings:  1311
- 
-CStrings:
-+ "|B393"
-
-```
-
 </details>
 
 ## MachO
 
 ### 🆕 NEW (17)
 
-- `/System/Library/HIDPlugins/ServicePlugins/TouchSensitiveButtonHIDService.plugin/TouchSensitiveButtonHIDService`
-- `/System/Library/VideoProcessors/SmartStyleV1.bundle/SmartStyleV1`
-- `/System/Library/HIDPlugins/SessionFilters/TactSwitchHIDSessionFilter.plugin/TactSwitchHIDSessionFilter`
-- `/System/Library/NanoTimeKit/FaceBundles/NTKSquallFaceBundleCompanion.bundle/NTKSquallFaceBundleCompanion`
-- `/System/Library/NanoPreferenceBundles/Applications/UrchinBridgeSettings.bundle/UrchinBridgeSettings`
-- `/System/Library/NanoTimeKit/FaceBundles/NTKDolomiteFaceBundleCompanion.bundle/NTKDolomiteFaceBundleCompanion`
-- `/System/Library/Accounts/Notification/GroupKitAccountNotification.bundle/GroupKitAccountNotification`
-- `/System/Library/CoreServices/CoreTypes.bundle/Contents/Library/MobileDevices-0001.bundle/MobileDevices-0001`
-- `/System/Library/CoreServices/CoreTypes.bundle/Contents/Library/MobileDevices-0003.bundle/MobileDevices-0003`
-- `/Applications/CameraOverlayAngel.app/CameraOverlayAngel`
-- `/System/Library/PrivateFrameworks/GroupKit.framework/groupkitd`
 - `/System/Library/ExtensionKit/Extensions/ConditionalEngineLighthouseExtension.appex/ConditionalEngineLighthouseExtension`
-- `/System/Library/ExtensionKit/Extensions/ConditionalEngineAppIntentsExtension.appex/ConditionalEngineAppIntentsExtension`
+- `/System/Library/HIDPlugins/SessionFilters/TactSwitchHIDSessionFilter.plugin/TactSwitchHIDSessionFilter`
+- `/System/Library/NanoTimeKit/FaceBundles/NTKDolomiteFaceBundleCompanion.bundle/NTKDolomiteFaceBundleCompanion`
+- `/System/Library/PrivateFrameworks/GroupKit.framework/groupkitd`
+- `/System/Library/Accounts/Notification/GroupKitAccountNotification.bundle/GroupKitAccountNotification`
+- `/System/Library/VideoProcessors/SmartStyleV1.bundle/SmartStyleV1`
 - `/System/Library/ExtensionKit/Extensions/PasswordSettingsAppIntentsExtension.appex/PasswordSettingsAppIntentsExtension`
-- `/System/Library/ExtensionKit/Extensions/PasswordManagerAppIntentsExtension.appex/PasswordManagerAppIntentsExtension`
+- `/System/Library/ExtensionKit/Extensions/ConditionalEngineAppIntentsExtension.appex/ConditionalEngineAppIntentsExtension`
+- `/Applications/CameraOverlayAngel.app/CameraOverlayAngel`
+- `/System/Library/NanoPreferenceBundles/Applications/UrchinBridgeSettings.bundle/UrchinBridgeSettings`
+- `/System/Library/HIDPlugins/ServicePlugins/TouchSensitiveButtonHIDService.plugin/TouchSensitiveButtonHIDService`
 - `/System/Library/NanoTimeKit/FaceBundles/NTKAtiumFaceBundleCompanion.bundle/NTKAtiumFaceBundleCompanion`
+- `/System/Library/CoreServices/CoreTypes.bundle/Contents/Library/MobileDevices-0001.bundle/MobileDevices-0001`
+- `/System/Library/ExtensionKit/Extensions/PasswordManagerAppIntentsExtension.appex/PasswordManagerAppIntentsExtension`
+- `/System/Library/NanoTimeKit/FaceBundles/NTKSquallFaceBundleCompanion.bundle/NTKSquallFaceBundleCompanion`
+- `/System/Library/CoreServices/CoreTypes.bundle/Contents/Library/MobileDevices-0003.bundle/MobileDevices-0003`
 - `/System/Library/PrivateFrameworks/BreathingAlgorithms.framework/PlugIns/BreathingDisturbanceAnalyzerDiagnosticExtension.appex/BreathingDisturbanceAnalyzerDiagnosticExtension`
 
 ### ❌ Removed (2)
@@ -1429,14 +1429,14 @@ CStrings:
 
 - `/System/Library/PrivateFrameworks/UrchinKit.framework/UrchinKit`
 - `/System/Library/PrivateFrameworks/ConditionalEngineAppIntents.framework/ConditionalEngineAppIntents`
-- `/System/Library/PrivateFrameworks/BreathingAlgorithms.framework/BreathingAlgorithms`
 - `/System/Library/PrivateFrameworks/GroupKit.framework/GroupKit`
-- `/System/Library/PrivateFrameworks/CameraOverlayServices.framework/CameraOverlayServices`
-- `/System/Library/PrivateFrameworks/GroupKitCore.framework/GroupKitCore`
-- `/System/Library/PrivateFrameworks/ConditionalEngineClient.framework/ConditionalEngineClient`
 - `/System/Library/PrivateFrameworks/HearingTest.framework/HearingTest`
-- `/System/Library/PrivateFrameworks/ConditionalEngineCore.framework/ConditionalEngineCore`
+- `/System/Library/PrivateFrameworks/GroupKitCore.framework/GroupKitCore`
 - `/System/Library/PrivateFrameworks/SensingAlgsTouchButtonHost.framework/SensingAlgsTouchButtonHost`
+- `/System/Library/PrivateFrameworks/CameraOverlayServices.framework/CameraOverlayServices`
+- `/System/Library/PrivateFrameworks/BreathingAlgorithms.framework/BreathingAlgorithms`
+- `/System/Library/PrivateFrameworks/ConditionalEngineClient.framework/ConditionalEngineClient`
+- `/System/Library/PrivateFrameworks/ConditionalEngineCore.framework/ConditionalEngineCore`
 
 #### ⬆️ Updated (690)
 
@@ -2140,67 +2140,107 @@ CStrings:
 
 #### 🆕 NEW (4)
 
-- `Domain/Tostada.plist`
-- `Domain/ConditionalEngine.plist`
-- `Domain/GroupKit.plist`
-- `Domain/Urchin.plist`
+<details>
+  <summary><i>View New</i></summary>
+
+#### ConditionalEngine.plist
+
+>  `Domain/ConditionalEngine.plist`
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict/>
+</plist>
+
+```
+#### GroupKit.plist
+
+>  `Domain/GroupKit.plist`
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>FamilyShadow</key>
+	<dict>
+		<key>DevelopmentPhase</key>
+		<string>FeatureComplete</string>
+	</dict>
+	<key>GroupKitEnabled</key>
+	<dict>
+		<key>Enabled</key>
+		<true/>
+	</dict>
+	<key>MetadataEnabled</key>
+	<dict>
+		<key>Enabled</key>
+		<true/>
+	</dict>
+</dict>
+</plist>
+
+```
+#### Tostada.plist
+
+>  `Domain/Tostada.plist`
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Core</key>
+	<dict>
+		<key>DevelopmentPhase</key>
+		<string>FeatureComplete</string>
+	</dict>
+	<key>PoREventRouting</key>
+	<dict>
+		<key>DevelopmentPhase</key>
+		<string>FeatureComplete</string>
+	</dict>
+	<key>TostadaRemoteUI</key>
+	<dict>
+		<key>DevelopmentPhase</key>
+		<string>FeatureComplete</string>
+	</dict>
+	<key>TostadaUI</key>
+	<dict>
+		<key>DevelopmentPhase</key>
+		<string>FeatureComplete</string>
+	</dict>
+</dict>
+</plist>
+
+```
+#### Urchin.plist
+
+>  `Domain/Urchin.plist`
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>urchin</key>
+	<dict>
+		<key>Enabled</key>
+		<true/>
+	</dict>
+</dict>
+</plist>
+
+```
+
+</details>
 
 #### ⬆️ Updated (5)
 
 <details>
   <summary><i>View Updated</i></summary>
-
-#### Photos.plist
-
->  `Domain/Photos.plist`
-
-```diff
-
- 		<key>DevelopmentPhase</key>
- 		<string>FeatureComplete</string>
- 	</dict>
-+	<key>CinematicAudio</key>
-+	<dict>
-+		<key>DevelopmentPhase</key>
-+		<string>FeatureComplete</string>
-+	</dict>
- 	<key>CloudComputeStateSync</key>
- 	<dict>
- 		<key>DevelopmentPhase</key>
-
-```
-
-#### GlobalDisclosures.plist
-
->  `GlobalDisclosures.plist`
-
-```diff
-
- <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
- <plist version="1.0">
- <dict>
--	<key>03d84bad-ad3c-e422-c11e-4033a5bfdd94</key>
--	<dict>
--		<key>Disclosed</key>
--		<true/>
--	</dict>
- 	<key>060d5021-98d8-a046-7c73-e3c2f0028cdb</key>
- 	<dict>
- 		<key>Disclosed</key>
-
- 		<key>Disclosed</key>
- 		<true/>
- 	</dict>
-+	<key>1b3196a9-6a20-4559-60fd-bb3743219ab3</key>
-+	<dict>
-+		<key>Disclosed</key>
-+		<true/>
-+	</dict>
- 	<key>2298f8e4-f510-4776-b2c1-a85ea314b1f8</key>
- 	<dict>
- 		<key>Disclosed</key>
-
-```
 
 #### CameraCapture.plist
 
@@ -2298,6 +2338,58 @@ CStrings:
  	<key>starbear_picker</key>
  	<dict>
  		<key>DevelopmentPhase</key>
+
+```
+
+#### Photos.plist
+
+>  `Domain/Photos.plist`
+
+```diff
+
+ 		<key>DevelopmentPhase</key>
+ 		<string>FeatureComplete</string>
+ 	</dict>
++	<key>CinematicAudio</key>
++	<dict>
++		<key>DevelopmentPhase</key>
++		<string>FeatureComplete</string>
++	</dict>
+ 	<key>CloudComputeStateSync</key>
+ 	<dict>
+ 		<key>DevelopmentPhase</key>
+
+```
+
+#### GlobalDisclosures.plist
+
+>  `GlobalDisclosures.plist`
+
+```diff
+
+ <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+ <plist version="1.0">
+ <dict>
+-	<key>03d84bad-ad3c-e422-c11e-4033a5bfdd94</key>
+-	<dict>
+-		<key>Disclosed</key>
+-		<true/>
+-	</dict>
+ 	<key>060d5021-98d8-a046-7c73-e3c2f0028cdb</key>
+ 	<dict>
+ 		<key>Disclosed</key>
+
+ 		<key>Disclosed</key>
+ 		<true/>
+ 	</dict>
++	<key>1b3196a9-6a20-4559-60fd-bb3743219ab3</key>
++	<dict>
++		<key>Disclosed</key>
++		<true/>
++	</dict>
+ 	<key>2298f8e4-f510-4776-b2c1-a85ea314b1f8</key>
+ 	<dict>
+ 		<key>Disclosed</key>
 
 ```
 

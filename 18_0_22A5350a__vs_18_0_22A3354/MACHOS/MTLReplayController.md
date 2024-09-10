@@ -13,8 +13,8 @@
    __TEXT.__oslogstring: 0x12d1
    __TEXT.__objc_methname: 0x16f40
 CStrings:
-+ "kDYFEMTLCommandBuffer_computeCommandEncoderWithParallelExecution"
 + "kDYFEMTLComputeCommandEncoder_dispatchBarrier"
++ "kDYFEMTLCommandBuffer_computeCommandEncoderWithParallelExecution"
 - "0xffffc0ea"
 - "0xffffc0e9"
 

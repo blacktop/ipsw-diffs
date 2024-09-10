@@ -58,11 +58,11 @@
 +  CStrings:  7671
  
 CStrings:
-+ "backglass-serial-number"
-+ "ComponentBackGlass"
 + "ComponentButtonCamera"
++ "backglass-serial-number"
++ "capture"
 + "Beta"
 + "ReleaseType"
-+ "capture"
++ "ComponentBackGlass"
 
 ```

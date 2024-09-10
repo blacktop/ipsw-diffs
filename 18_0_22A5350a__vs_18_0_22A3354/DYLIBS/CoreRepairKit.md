@@ -55,38 +55,38 @@
 +  CStrings:  530
  
 Symbols:
-+ _OBJC_CLASS_$_CRRepairHistory
-+ _OBJC_CLASS_$_CRNVRAMController
 + _OBJC_CLASS_$_CRWiFiCredentials
++ _OBJC_CLASS_$_CRNVRAMController
++ _OBJC_CLASS_$_CRRepairHistory
 CStrings:
 + "readNVRAMValueForKey %!@(MISSING) failed: %!@(MISSING)"
-+ "missing mesa SN"
-+ "decryptWiFiCredDictFromCredentialsData:"
-+ "purpose"
-+ "readNVRAMValueForKey value: %!@(MISSING)"
-+ "Failed to get boot intent purpose"
-+ "addEntriesFromDictionary:"
-+ "NBCl"
-+ "Unexpected SSR boot intent format"
 + "Unexpected SSR boot intent purpose format"
-+ "prpc"
-+ "ForceEnclosureStatus"
-+ "MesaSensorIDSensorSN"
-+ "failComponents"
-+ "mesa unsealed"
 + "SSR boot intent not found"
-+ "wifi-credentials"
++ "Failed to read live sensor number, error: %!@(MISSING)"
++ "decryptWiFiCredDictFromCredentialsData:"
++ "Failed to get boot intent purpose"
++ "MesaSensorIDSensorSN"
 + "MSRk"
 + "self-service-repair"
-+ "cachedPreFlightResults"
 + "Failed to deserialize data for boot intent dictionary, error %!@(MISSING)"
-+ "LCfg"
-+ "diagnostic-boot-intent"
-+ "Failed to read live sensor number, error: %!@(MISSING)"
-+ "readNVRAMValueForKey:error:"
-+ "getSsrBootIntentWithError:"
 + "component failed preflight proceeding"
++ "purpose"
++ "ForceEnclosureStatus"
++ "LCfg"
++ "getSsrBootIntentWithError:"
 + "isEqualToSet:"
++ "cachedPreFlightResults"
++ "addEntriesFromDictionary:"
++ "NBCl"
++ "diagnostic-boot-intent"
++ "failComponents"
++ "mesa unsealed"
 + "deviceSupportsRepairBootIntent"
++ "Unexpected SSR boot intent format"
++ "prpc"
++ "readNVRAMValueForKey:error:"
++ "wifi-credentials"
++ "readNVRAMValueForKey value: %!@(MISSING)"
++ "missing mesa SN"
 
 ```

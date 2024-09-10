@@ -69,35 +69,35 @@
 +  CStrings:  2362
  
 Symbols:
++ _abort_report_np
++ _dlerror
 + __sl_dlopen
 + _objc_getClass
-+ _abort_report_np
 + _dlsym
-+ _dlerror
 CStrings:
-+ "PPCExtensibleSSOAuthenticator"
-+ "mappedURL:"
-+ "_ssoAuthenticator"
-+ "PPCRedirect"
-+ "_urlRedirector"
-+ "ssoAuthenticator"
 + "%!s(MISSING)"
++ "mappedURL:"
++ "urlRedirector"
++ "setUrlRedirector:"
 + "kExtensibleSSOUsernameKey"
-+ "v24@?0@\"NSDictionary\"8@\"NSError\"16"
 + "setEnvIdentifier:"
-+ "hostMappings"
-+ "setSsoAuthenticator:"
++ "setInteractivity:"
++ "_ssoAuthenticator"
++ "_urlRedirector"
++ "@\"PPCRedirect\""
 + "\x115"
 + "T@\"PPCRedirect\",&,N,V_urlRedirector"
-+ "@\"PPCExtensibleSSOAuthenticator\""
-+ "setInteractivity:"
 + "kExtensibleSSOTokenKey"
-+ "urlRedirector"
++ "PPCExtensibleSSOAuthenticator"
++ "v24@?0@\"NSDictionary\"8@\"NSError\"16"
 + "T@\"PPCExtensibleSSOAuthenticator\",&,N,V_ssoAuthenticator"
++ "PPCRedirect"
++ "setSsoAuthenticator:"
++ "ssoAuthenticator"
 + "softlink:o:path:/System/Library/PrivateFrameworks/PingPongClient.framework/PingPongClient"
-+ "setUrlRedirector:"
++ "@\"PPCExtensibleSSOAuthenticator\""
++ "hostMappings"
 + "Unable to find class %!s(MISSING)"
-+ "@\"PPCRedirect\""
 - "\x114"
 
 ```

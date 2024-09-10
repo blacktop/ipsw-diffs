@@ -49,8 +49,8 @@ Symbols:
 + _PLCoreAnalyticsLibrarySummaryStylableAssetCountKey
 + _PLCoreAnalyticsLibrarySummaryStyledAssetCountKey
 CStrings:
++ "com.apple.assetsd.currentSleetCast"
 + "styledAssetCount"
 + "stylableAssetCount"
-+ "com.apple.assetsd.currentSleetCast"
 
 ```

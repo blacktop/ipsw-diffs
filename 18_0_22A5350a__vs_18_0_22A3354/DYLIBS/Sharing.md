@@ -74,14 +74,14 @@
 +  CStrings:  16762
  
 CStrings:
-+ "b768e"
-+ "Device1,8217"
-+ "b768m"
-+ "Device1,8219"
-+ "PowerbeatsPro2,1"
-+ "Device1,8221"
-+ "AirPods1,4"
-+ "b498"
 + "AirPods1,5"
++ "b498"
++ "Device1,8217"
++ "b768e"
++ "AirPods1,4"
++ "Device1,8221"
++ "Device1,8219"
++ "b768m"
++ "PowerbeatsPro2,1"
 
 ```

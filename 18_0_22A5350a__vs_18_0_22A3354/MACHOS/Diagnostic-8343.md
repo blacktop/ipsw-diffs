@@ -57,48 +57,48 @@
 +  CStrings:  95
  
 Symbols:
-+ _AMSupportLogSetHandler
-+ __logHandler
-+ _objc_release_x27
-+ _objc_release_x26
-+ _objc_release_x28
-+ _objc_release_x25
-+ _OBJC_CLASS_$_CRFDRUtils
 + _AMFDRSealingManifestCopyInstanceForClass
-+ _AMFDRSealingMapCopyInstanceForClass
 + _OBJC_CLASS_$_NSNumber
++ _objc_release_x28
++ _objc_release_x26
++ _OBJC_CLASS_$_CRFDRUtils
++ _objc_release_x27
++ __logHandler
++ _objc_release_x25
++ _AMSupportLogSetHandler
++ _AMFDRSealingMapCopyInstanceForClass
 CStrings:
-+ "Failed to get Savage SN from sealing manifest"
-+ "fileExistsAtPath:isDirectory:"
-+ "numberWithInteger:"
-+ "verifyPSD3WithReply:"
-+ "Start to decompress Pearl frames ..."
-+ "Verify PSD3 successfully"
-+ "Update Brunor firmware got response from corerepaird, error: %!@(MISSING)"
-+ "Verify PSD3 got response from corerepaird, error: %!@(MISSING)"
-+ "description"
-+ "isDataClassSupported:"
 + "userInfo"
-+ "Pearl frames have been decompressed, but the folder is not found"
-+ "Sealing map and sealing manifest Savage SN mismatch"
-+ "Start to update Savage/Yonkers firmware ..."
 + "isEqualToString:"
-+ "Failed to mount hardware partition"
-+ "-[PearlFramesDecompressionController updateBrunorDATFirmware]"
-+ "objectForKeyedSubscript:"
-+ "verifyPSD3"
-+ "Start to update Brunor/Yonkers firmware ..."
-+ "Get response timeout from corerepaird for verify PSD3"
-+ "Savage SN from sealing manifest: %!@(MISSING)"
-+ "Update Savage/Yonkers firmware successfully"
++ "Failed to get Savage SN from sealing manifest"
 + "updateBrunorDATFirmware"
++ "Pearl frames have been decompressed, but the folder is not found"
 + "Update Brunor/Yonkers firmware successfully"
-+ "code"
-+ "prf1"
-+ "psd3"
-+ "Savage SN from sealing map: %!@(MISSING)"
-+ "-[PearlFramesDecompressionController verifyPSD3]"
-+ "updateBrunorDATFirmwareWithReply:"
++ "isDataClassSupported:"
++ "objectForKeyedSubscript:"
++ "verifyPSD3WithReply:"
++ "description"
 + "Get response timeout from corerepaird for Brunor update"
++ "-[PearlFramesDecompressionController updateBrunorDATFirmware]"
++ "Update Brunor firmware got response from corerepaird, error: %!@(MISSING)"
++ "Update Savage/Yonkers firmware successfully"
++ "fileExistsAtPath:isDirectory:"
++ "Failed to mount hardware partition"
++ "Savage SN from sealing map: %!@(MISSING)"
++ "Start to decompress Pearl frames ..."
++ "-[PearlFramesDecompressionController verifyPSD3]"
++ "Get response timeout from corerepaird for verify PSD3"
++ "prf1"
++ "updateBrunorDATFirmwareWithReply:"
++ "psd3"
++ "Verify PSD3 got response from corerepaird, error: %!@(MISSING)"
++ "Verify PSD3 successfully"
++ "code"
++ "Sealing map and sealing manifest Savage SN mismatch"
++ "Start to update Brunor/Yonkers firmware ..."
++ "Savage SN from sealing manifest: %!@(MISSING)"
++ "numberWithInteger:"
++ "verifyPSD3"
++ "Start to update Savage/Yonkers firmware ..."
 
 ```

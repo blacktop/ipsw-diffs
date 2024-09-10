@@ -43,13 +43,13 @@
 +  CStrings:  752
  
 CStrings:
-+ "Failed to set heart rate monitor state : %!d(MISSING)"
-+ "HRM state : %!d(MISSING)"
-+ "Prox Card Status: Adaptive Controls: Support: %!s(MISSING) -> AdaptiveVolume: %!s(MISSING), CD: %!s(MISSING)"
-+ "Prox Card Status: Adaptive Controls: Support: %!s(MISSING) -> AdaptiveVolume: %!s(MISSING)"
-+ "setHeartRateMonitorEnabled:"
-+ "Failed to get heart rate monitor state : %!d(MISSING)"
 + "getHeartRateMonitorEnabled"
++ "Failed to get heart rate monitor state : %!d(MISSING)"
++ "HRM state : %!d(MISSING)"
++ "Prox Card Status: Adaptive Controls: Support: %!s(MISSING) -> AdaptiveVolume: %!s(MISSING)"
 + "Set Heart Rate Monitor State : %!d(MISSING)"
++ "Prox Card Status: Adaptive Controls: Support: %!s(MISSING) -> AdaptiveVolume: %!s(MISSING), CD: %!s(MISSING)"
++ "Failed to set heart rate monitor state : %!d(MISSING)"
++ "setHeartRateMonitorEnabled:"
 
 ```

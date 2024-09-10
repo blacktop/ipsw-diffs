@@ -50,7 +50,7 @@ Symbols:
 CStrings:
 + "MOSuggestionsUIServerManager.m"
 + "Endpoint received new connection request -- pid:%!d(MISSING)"
-+ "PlatformInfoOverrideIsSeedBuild"
 + "MODefaultsManager.m"
++ "PlatformInfoOverrideIsSeedBuild"
 
 ```

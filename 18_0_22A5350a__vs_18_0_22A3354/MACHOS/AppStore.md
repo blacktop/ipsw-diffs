@@ -75,63 +75,63 @@
 +  CStrings:  7521
  
 Symbols:
-+ _$s10AppIntents16_AssistantIntentV13PhraseBuilderO15buildExpressionySayAC0E0Vy_xGGAIFZ
-+ _$s10AppIntents16_AssistantIntentV6PhraseV19StringInterpolationV13appendLiteralyySSF
-+ _$s10AppIntents16_AssistantIntentV6PhraseVMn
-+ _$s10AppIntents010_AssistantB8ProviderP7intentsSayAA01_C6IntentVGvgZTq
-+ _$s10AppIntents16_AssistantIntentV0D10ProjectionC13dynamicMembers14PartialKeyPathCyxGs0iJ0Cyxqd__G_tcAA01_D5ValueRd__luig
-+ _$s10AppIntents16_AssistantIntentV18StringValueBuilderO10buildBlockySaySSGAGd_tFZ
-+ _$s10AppIntents16_AssistantIntentV6PhraseV19StringInterpolationVMn
 + _$s10AppIntents16_AssistantIntentV5ValueVMn
 + _$s10AppIntents16_AssistantIntentV7BuilderO10buildBlockySayACGAGd_tFZ
-+ _$s10AppIntents010_AssistantB8ProviderP14uniqueEntitiesSayAA01_C19UniqueEntityExampleVGvgZTq
-+ _$s10AppIntents16_AssistantIntentV6PhraseV19StringInterpolationV15literalCapacity18interpolationCountAGy_x_GSi_SitcfC
-+ _$s10AppIntents16_AssistantIntentV6PhraseV13stringLiteralAEy_xGSS_tcfC
-+ _$s10AppIntents16_AssistantIntentV5ValueV3for7builderAEs14PartialKeyPathCyxG_SaySSGyXEtcAA0aD0RzlufC
 + _$s10AppIntents16_AssistantIntentVMa
-+ _$s10AppIntents16_AssistantIntentV18StringValueBuilderO15buildExpressionySaySSGSSFZ
-+ _$s10AppIntents16_AssistantIntentV_7phrases8implyingACx_SayAC6PhraseVy_xGGAC0D10ProjectionCy_xGXESayAC5ValueVGALXEtcAA0aD0RzlufC
++ _$s10AppIntents16_AssistantIntentV0D10ProjectionC13dynamicMembers14PartialKeyPathCyxGs0iJ0Cyxqd__G_tcAA01_D5ValueRd__luig
 + _$s10AppIntents16_AssistantIntentV6PhraseV19stringInterpolationAEy_xGAE06StringG0Vy_x_G_tcfC
-+ _$s10AppIntents16_AssistantIntentV_7phrases15parameterValuesACx_SayAC6PhraseVy_xGGAC0D10ProjectionCy_xGXESayAC5ValueVGALXEtcAA0aD0RzlufC
-+ _$s10AppIntents16_AssistantIntentV6PhraseV19StringInterpolationV06appendG0yys14PartialKeyPathCyxGF
-+ _$s10AppIntents16_AssistantIntentV11PhraseTokenOMa
-+ _$s10AppIntents16_AssistantIntentV5ValueVMa
-+ _$s10AppIntents16_AssistantIntentV7BuilderO15buildExpressionySayACGACFZ
-+ _$s10AppIntents16_AssistantIntentV11PhraseTokenO15applicationNameyA2EmFWC
++ _$s10AppIntents16_AssistantIntentV6PhraseV19StringInterpolationVMn
 + _$s10AppIntents16_AssistantIntentV5ValueV_3forAEq__s7KeyPathCyxq_GtcAA0aD0RzAA0A4EnumR_r0_lufC
-+ _$s10AppIntents16_AssistantIntentV0D10ProjectionC13dynamicMembers7KeyPathCyxqd__GAI_tcAA01_D5ValueRd__luig
-+ _$s10AppIntents010_AssistantB8ProviderP15negativePhrasesSayAA01_C6IntentV08NegativecgF0VGvgZTq
-+ _$s10AppIntents16_AssistantIntentV13PhraseBuilderO10buildBlockySayAC0E0Vy_xGGAJd_tFZ
-+ _$s10AppIntents16_AssistantIntentV6PhraseV19StringInterpolationV06appendG0yyAC0E5TokenOF
-+ _$s10AppIntents010_AssistantB8ProviderMp
++ _$s10AppIntents16_AssistantIntentV11PhraseTokenOMa
++ _$s10AppIntents16_AssistantIntentV5ValueV3for7builderAEs14PartialKeyPathCyxG_SaySSGyXEtcAA0aD0RzlufC
++ _$s10AppIntents16_AssistantIntentV6PhraseVMn
++ _$s10AppIntents16_AssistantIntentV13PhraseBuilderO15buildExpressionySayAC0E0Vy_xGGAIFZ
 + _$s10AppIntents16_AssistantIntentV21ParameterValueBuilderO10buildBlockySayAC0F0VGAId_tFZ
-+ _$s10AppIntents16_AssistantIntentV21ParameterValueBuilderO15buildExpressionySayAC0F0VGAHFZ
++ _$s10AppIntents16_AssistantIntentV7BuilderO15buildExpressionySayACGACFZ
++ _$s10AppIntents16_AssistantIntentV6PhraseV19StringInterpolationV06appendG0yys14PartialKeyPathCyxGF
++ _$s10AppIntents16_AssistantIntentV6PhraseV19StringInterpolationV13appendLiteralyySSF
++ _$s10AppIntents16_AssistantIntentV18StringValueBuilderO15buildExpressionySaySSGSSFZ
++ _$s10AppIntents16_AssistantIntentV11PhraseTokenO15applicationNameyA2EmFWC
 + _$s10AppIntents010_AssistantB8ProviderPAAE14uniqueEntitiesSayAA01_C19UniqueEntityExampleVGvgZ
++ _$s10AppIntents010_AssistantB8ProviderMp
++ _$s10AppIntents010_AssistantB8ProviderP15negativePhrasesSayAA01_C6IntentV08NegativecgF0VGvgZTq
++ _$s10AppIntents16_AssistantIntentV_7phrases8implyingACx_SayAC6PhraseVy_xGGAC0D10ProjectionCy_xGXESayAC5ValueVGALXEtcAA0aD0RzlufC
++ _$s10AppIntents16_AssistantIntentV13PhraseBuilderO10buildBlockySayAC0E0Vy_xGGAJd_tFZ
++ _$s10AppIntents16_AssistantIntentV0D10ProjectionC13dynamicMembers7KeyPathCyxqd__GAI_tcAA01_D5ValueRd__luig
++ _$s10AppIntents16_AssistantIntentV18StringValueBuilderO10buildBlockySaySSGAGd_tFZ
++ _$s10AppIntents16_AssistantIntentV6PhraseV19StringInterpolationV06appendG0yyAC0E5TokenOF
++ _$s10AppIntents010_AssistantB8ProviderP14uniqueEntitiesSayAA01_C19UniqueEntityExampleVGvgZTq
 + _$s10AppIntents16_AssistantIntentVMn
++ _$s10AppIntents010_AssistantB8ProviderP7intentsSayAA01_C6IntentVGvgZTq
++ _$s10AppIntents16_AssistantIntentV_7phrases15parameterValuesACx_SayAC6PhraseVy_xGGAC0D10ProjectionCy_xGXESayAC5ValueVGALXEtcAA0aD0RzlufC
++ _$s10AppIntents16_AssistantIntentV6PhraseV19StringInterpolationV15literalCapacity18interpolationCountAGy_x_GSi_SitcfC
++ _$s10AppIntents16_AssistantIntentV5ValueVMa
++ _$s10AppIntents16_AssistantIntentV21ParameterValueBuilderO15buildExpressionySayAC0F0VGAHFZ
++ _$s10AppIntents16_AssistantIntentV6PhraseV13stringLiteralAEy_xGSS_tcfC
 CStrings:
-+ "Show popular apps"
-+ "Find upcoming games"
-+ "Show me popular Arcade games"
-+ "Find popular games"
-+ "Find popular apps"
++ "Show Arcade games"
++ "Discover new games"
 + "Get Arcade games"
-+ "Explore new apps"
-+ "Show trending apps"
-+ "Navigate to the "
 + "Show trending games"
-+ "Find trending apps"
++ "Subscribe to Arcade"
++ "Show me popular Arcade games"
++ "Show upcoming apps"
 + "Find Arcade games"
 + "Show me games in Arcade"
++ "Explore new apps"
 + "Explore new games"
-+ "Discover new games"
-+ "Show me upcoming Arcade games"
-+ "Show upcoming games"
 + "Find upcoming apps"
-+ "Show upcoming apps"
-+ "Show Arcade games"
-+ "Subscribe to Arcade"
-+ "Discover new apps"
++ "Find popular games"
++ "Show popular apps"
++ "Navigate to the "
 + "Show popular games"
++ "Show upcoming games"
++ "Find trending apps"
++ "Find upcoming games"
++ "Show me upcoming Arcade games"
++ "Find popular apps"
++ "Discover new apps"
++ "Show trending apps"
 + "Find trending games"
 
 ```

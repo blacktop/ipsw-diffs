@@ -68,12 +68,12 @@ Symbols:
 + _swift_bridgeObjectRetain_n
 + __swiftEmptyArrayStorage
 CStrings:
-+ " Maximize Compatibility."
-+ "Set tethering to "
-+ " Allow Others To Join in "
 + " Allow Others to Join."
++ " Allow Others To Join in "
 + "Set Allow Others to Join to "
-+ "Set Maximize Compatibility to "
++ "Set tethering to "
 + " Maximize Compatibility in "
++ "Set Maximize Compatibility to "
++ " Maximize Compatibility."
 
 ```

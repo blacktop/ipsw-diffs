@@ -55,88 +55,88 @@
 +  CStrings:  39
  
 Symbols:
-- _objc_retain_x27
-- _NSTemporaryDirectory
-- _objc_release_x26
-- _objc_autoreleasePoolPop
-- _objc_alloc
-- _objc_release_x27
-- _OBJC_CLASS_$_NSConstantArray
-- _objc_autoreleasePoolPush
-- _CFAbsoluteTimeGetCurrent
-- _unlink
-- _objc_release_x28
-- ___kCFBooleanTrue
 - _objc_retainAutorelease
+- _objc_release_x26
+- _objc_release_x28
+- _unlink
+- _objc_autoreleasePoolPop
+- _CFAbsoluteTimeGetCurrent
+- ___kCFBooleanTrue
+- _objc_alloc
+- _NSTemporaryDirectory
+- _objc_autoreleasePoolPush
+- _objc_release_x27
+- _objc_retain_x27
+- _OBJC_CLASS_$_NSConstantArray
 CStrings:
-- "activateStreamFromDate:toDate:"
-- "isEqualToString:"
-- "Metadata"
-- "[SpotlightDiagnosticExtension attachmentsForParameters:ABC] Failed to create file: %!s(MISSING)"
-- "dateWithTimeIntervalSinceReferenceDate:"
-- "[SpotlightDiagnosticExtension attachmentsForParameters:ABC] Getting spotlight oslog past 15 mins error/fault level"
-- "setFilterPredicate:"
-- "v16@?0@\"OSLogEventProxy\"8"
-- "CoreSpotlightService"
-- "setFlags:"
-- "CoreSpotlight"
-- "DEExtensionHostAppKey"
-- "[SpotlightDiagnosticExtension attachmentsForParameters:ABC] Failed to truncate file: %!s(MISSING)"
-- "[SpotlightDiagnosticExtension attachmentsForParameters:ABC] Failed to prepare oslog stream"
 - "stringWithFormat:"
-- "%!@(MISSING) 0x%!l(MISSING)lx %!s(MISSING) %!d(MISSING) %!@(MISSING)(%!@(MISSING)):%!@(MISSING) [%!@(MISSING)] %!@(MISSING)\n"
-- "[SpotlightDiagnosticExtension attachmentsForParameters:ABC] Invalid oslog stream: reason = %!l(MISSING)u"
-- "writeData:"
-- "array"
-- "fileHandleForWritingAtPath:"
-- "predicateWithFormat:"
-- "setEventHandler:"
-- "invalidate"
-- "localStore"
-- "logType"
-- "SpotlightFramework"
-- "stringByAppendingPathComponent:"
-- "truncateAtOffset:error:"
-- "SpotlightDiagnosticLogs-%!l(MISSING)lu.log"
-- "UTF8String"
-- "closeFile"
-- "date"
 - "subsystem"
+- "[SpotlightDiagnosticExtension attachmentsForParameters:ABC] Failed to prepare oslog stream"
+- "processIdentifier"
+- "type"
 - "ERROR"
-- "[SpotlightDiagnosticExtension attachmentsForParameters:ABC] Writing to file: %!s(MISSING)"
+- "SpotlightFramework"
 - "category"
-- "threadIdentifier"
-- "SpotlightServices"
-- "com.apple.symptomsd-diag"
-- "localizedDescription"
+- "SpotlightIndexUtilities"
+- "[SpotlightDiagnosticExtension attachmentsForParameters:ABC] Invalid oslog stream: reason = %!l(MISSING)u"
+- "SpotlightDaemon"
 - "process"
-- "MobileSpotlightIndex"
-- "createFileAtPath:contents:attributes:"
-- "dataUsingEncoding:"
-- "[SpotlightDiagnosticExtension attachmentsForParameters:ABC] Timeout on getting oslog stream"
+- "com.apple.symptomsd-diag"
+- "containsObject:"
+- "dateByAddingTimeInterval:"
+- "process == %!@(MISSING)"
+- "FAULT"
+- "localizedDescription"
+- "prepareWithCompletionHandler:"
+- "v24@?0@\"OSLogEventSource\"8@\"NSError\"16"
+- "invalidate"
+- "v16@?0@\"OSLogEventProxy\"8"
+- "%!@(MISSING) 0x%!l(MISSING)lx %!s(MISSING) %!d(MISSING) %!@(MISSING)(%!@(MISSING)):%!@(MISSING) [%!@(MISSING)] %!@(MISSING)\n"
 - "MetadataUtilities"
+- "isEqualToString:"
+- "[SpotlightDiagnosticExtension attachmentsForParameters:ABC] Getting spotlight oslog past 15 mins error/fault level"
+- "localStore"
+- "setFilterPredicate:"
+- "SearchFramework"
+- "SpotlightServices"
+- "[SpotlightDiagnosticExtension attachmentsForParameters:ABC] Could not open: %!s(MISSING)"
+- "[SpotlightDiagnosticExtension attachmentsForParameters:ABC] Failed to create file: %!s(MISSING)"
+- "logType"
+- "stringByAppendingPathComponent:"
+- "CoreSpotlightService"
+- "Metadata"
+- "dateWithTimeIntervalSinceReferenceDate:"
+- "SpotlightResources"
+- "UTF8String"
+- "[SpotlightDiagnosticExtension attachmentsForParameters:ABC] Timeout on getting oslog stream"
+- "searchd"
+- "com.apple.symptomsd"
+- "SpotlightIndex"
+- "writeData:"
+- "MobileSpotlightIndex"
+- "sender"
+- "setFlags:"
+- "threadIdentifier"
+- "closeFile"
+- "composedMessage"
+- "setEventHandler:"
+- "DEExtensionHostAppKey"
+- "SpotlightDiagnosticLogs-%!l(MISSING)lu.log"
+- "createFileAtPath:contents:attributes:"
+- "fileHandleForWritingAtPath:"
+- "orPredicateWithSubpredicates:"
+- "v24@?0Q8@\"OSLogEventStreamPosition\"16"
+- "[SpotlightDiagnosticExtension attachmentsForParameters:ABC] Failed to truncate file: %!s(MISSING)"
+- "activateStreamFromDate:toDate:"
+- "array"
+- "predicateWithFormat:"
+- "date"
+- "initWithSource:"
 - "setDeleteOnAttach:"
 - "setInvalidationHandler:"
-- "composedMessage"
-- "orPredicateWithSubpredicates:"
-- "process == %!@(MISSING)"
-- "processIdentifier"
-- "v24@?0Q8@\"OSLogEventStreamPosition\"16"
-- "FAULT"
-- "containsObject:"
-- "searchd"
-- "SearchFramework"
-- "type"
-- "v24@?0@\"OSLogEventSource\"8@\"NSError\"16"
-- "SpotlightDaemon"
-- "dateByAddingTimeInterval:"
-- "SpotlightIndex"
-- "prepareWithCompletionHandler:"
-- "sender"
-- "SpotlightResources"
-- "[SpotlightDiagnosticExtension attachmentsForParameters:ABC] Could not open: %!s(MISSING)"
-- "com.apple.symptomsd"
-- "SpotlightIndexUtilities"
-- "initWithSource:"
+- "CoreSpotlight"
+- "[SpotlightDiagnosticExtension attachmentsForParameters:ABC] Writing to file: %!s(MISSING)"
+- "dataUsingEncoding:"
+- "truncateAtOffset:error:"
 
 ```

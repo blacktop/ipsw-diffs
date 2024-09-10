@@ -65,19 +65,19 @@
 +  CStrings:  253
  
 CStrings:
-+ "Calls from iPhone"
++ "Calls on Other Devices"
 + "Call Blocking & Identification"
-+ "Show My Caller ID"
-+ "Change Voicemail Password"
++ "How do I modify "
++ "Calls from iPhone"
 + "Share Name and Photo"
-+ "Silence Unknown Callers"
-+ "Incoming Call Style"
++ "SMS/Call Reporting"
 + "Respond with Text"
++ "Silence Unknown Callers"
 + "Calls on Other Devies"
 + "Automatic Prominence"
++ "Show My Caller ID"
++ "Change Voicemail Password"
 + "Blocked Contacts"
-+ "Calls on Other Devices"
-+ "SMS/Call Reporting"
-+ "How do I modify "
++ "Incoming Call Style"
 
 ```

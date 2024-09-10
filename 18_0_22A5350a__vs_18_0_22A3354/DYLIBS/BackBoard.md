@@ -62,14 +62,14 @@
  
 Symbols:
 + _AXDeviceSupportsCameraButton
-+ _BKSHIDServicesSetPersistentServiceProperties
 + _OBJC_CLASS_$_BKSHIDEventSenderDescriptor
++ _BKSHIDServicesSetPersistentServiceProperties
 CStrings:
-+ "cameraButtonSensitivity"
 + "HalfPressThresholdModifier"
-+ "_updateCameraButtonSensitivity"
++ "cameraButtonSensitivity"
 + "setPrimaryPage:primaryUsage:"
-+ "v16@?0@\"BKSMutableHIDEventSenderDescriptor\"8"
 + "CameraButton: Setting sensitivty: %!@(MISSING)"
++ "v16@?0@\"BKSMutableHIDEventSenderDescriptor\"8"
++ "_updateCameraButtonSensitivity"
 
 ```

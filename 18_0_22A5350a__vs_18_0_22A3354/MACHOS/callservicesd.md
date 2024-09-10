@@ -59,7 +59,7 @@ CStrings:
 - "Not adding activity session, as not all participants are on the latest SharePlay version"
 - "[WARN] One or more participant on %!@(MISSING) is on an older share play protocol %!@(MISSING) version %!@(MISSING)"
 - "At least one participant in conversation %!@(MISSING) does not support SharePlay. Invalidating session %!@(MISSING)"
-- "[WARN] All active participants in the call are not on minimum supported shareplay version"
 - "Not enforcing shareplay version check due to server over-ride"
+- "[WARN] All active participants in the call are not on minimum supported shareplay version"
 
 ```

@@ -40,8 +40,8 @@
 +  CStrings:  822
  
 CStrings:
++ "ApplicationFirstFramePresentation"
 + "App launch threshold enforced"
 + "Accepting launch as an exception for a slow launch"
-+ "ApplicationFirstFramePresentation"
 
 ```

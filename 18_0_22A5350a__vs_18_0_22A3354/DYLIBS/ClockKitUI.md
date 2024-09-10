@@ -59,10 +59,10 @@
 +  CStrings:  2488
  
 CStrings:
-+ "-avonia"
-+ "valueCompact:regular:luxoCompact:luxoRegular:aloeCompact:aloeRegular:agave:avoniaCompact:avoniaRegular:"
 + "-496h"
++ "valueCompact:regular:luxoCompact:luxoRegular:aloeCompact:aloeRegular:agave:avoniaCompact:avoniaRegular:"
 + "-446h"
++ "-avonia"
 - "valueCompact:regular:luxoCompact:luxoRegular:aloeCompact:aloeRegular:agave:"
 
 ```

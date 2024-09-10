@@ -90,25 +90,25 @@
 +  CStrings:  2032
  
 Symbols:
-+ _HKCategoryTypeIdentifierSleepApneaEvent
 + _OBJC_CLASS_$_HKCodableSummaryBreathingDisturbancesValue
-+ _HKAppleSleepingBreathingDisturbancesMinimumQuantityForClassification
 + _OBJC_CLASS_$_HKSleepApneaUtilities
++ _HKAppleSleepingBreathingDisturbancesMinimumQuantityForClassification
++ _HKCategoryTypeIdentifierSleepApneaEvent
 CStrings:
-+ "breathingDisturbances"
-+ "SHARED_ALERT_SLEEP_APNEA_EVENT_BODY_MESSAGE"
-+ "nebula"
-+ "_TtC9Summaries62BreathingDisturbancesCurrentValueSummarySharableModelGenerator"
-+ "BreathingDisturbancesValueSnidgetFeedItemModelProvider"
-+ "sleep-apnea-highlight-alert-icon"
-+ "[BreathingDisturbancesValueSnidgetFeedItemModelProvider]_"
-+ "_TtC9Summaries66BreathingDisturbancesMostRecentSampleCurrentValueSharableModelStep"
-+ "SHARED_ALERT_SLEEP_APNEA_TITLE"
-+ "Localizable-Nebula"
-+ "localizedTitleForBreathingDisturbancesClassification:"
-+ "Unable to create breathing disturbances value from sample"
 + "[%!s(MISSING)]: Unable to create breathing disturbances data for sample: %!s(MISSING)"
++ "localizedTitleForBreathingDisturbancesClassification:"
++ "_TtC9Summaries62BreathingDisturbancesCurrentValueSummarySharableModelGenerator"
++ "breathingDisturbances"
++ "sleep-apnea-highlight-alert-icon"
++ "BreathingDisturbancesValueSnidgetFeedItemModelProvider"
++ "Localizable-Nebula"
++ "_TtC9Summaries66BreathingDisturbancesMostRecentSampleCurrentValueSharableModelStep"
++ "SHARED_ALERT_SLEEP_APNEA_EVENT_BODY_MESSAGE"
 + "quantityType"
 + "SHARED_ALERT_SLEEP_APNEA_EVENT_DESCRIPTION_%!@(MISSING)"
++ "SHARED_ALERT_SLEEP_APNEA_TITLE"
++ "[BreathingDisturbancesValueSnidgetFeedItemModelProvider]_"
++ "nebula"
++ "Unable to create breathing disturbances value from sample"
 
 ```

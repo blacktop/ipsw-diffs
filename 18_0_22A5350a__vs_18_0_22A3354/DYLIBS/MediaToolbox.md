@@ -58,53 +58,53 @@
 +  CStrings:  18992
  
 Symbols:
-+ _kFigAudioQueueAudioCurvesKey_DialogMixBias
-+ _kFigRemakerAudioMixdown_CinematicAudioParameters
-+ _kFigAudioCurvesKey_AmbienceLevel
-+ _kFigAudioQueueAudioCurvesKey_AmbienceLevel
-+ _kFigPlaybackItemTrackProperty_CinematicAudioParameters
-+ _kFigAudioQueueAudioCurvesKey_RenderingStyle
-+ _kFigAudioCurvesKey_RenderingStyle
-+ _kFigSampleBufferAudioRendererAudioCurvesKey_AmbienceLoudness
-+ _kFigAudioCurvesKey_AmbienceLoudness
 + _kFigAssetExportSessionPresetICPLHighFPSHEVC1920x1920WithHDR
-+ _kFigAssetReaderSourceTrackArrayKey_CinematicAudioParameters
-+ _kFigAudioRenderPipelineProperty_CinematicAudioParameters
-+ _kFigSampleBufferAudioRendererAudioCurvesKey_DialogLoudness
-+ _FigAudioFormatDescriptionGetCinematicAudioEffectEligibility
-+ _kFigSampleBufferAudioRendererAudioCurvesKey_AmbienceLevel
++ _kFigAudioCurvesKey_RenderingStyle
++ _kFigAudioCurvesKey_DialogLevel
++ _kFigAudioQueueAudioCurvesKey_RecordingLoudness
 + _FigAudioStreamPacketDependencyInfoCopyAsSampleDependencyAttributeDictionary
++ _kFigAudioQueueAudioCurvesKey_DialogLoudness
++ _kFigAssetReaderSourceTrackArrayKey_CinematicAudioParameters
++ _kFigAudioQueueProperty_CinematicAudioParameters
 + _kFigAudioCurvesKey_DialogLoudness
-+ _kFigAudioQueueAudioCurvesKey_DialogLevel
-+ _kFigSampleBufferAudioRendererAudioCurvesKey_RecordingLoudness
++ _kFigRemakerAudioMixdown_CinematicAudioParameters
++ _kFigSampleBufferAudioRendererAudioCurvesKey_AmbienceLoudness
++ _kFigAudioCurvesKey_AmbienceLevel
++ _kFigAudioQueueAudioCurvesKey_AmbienceLoudness
++ _kFigAudioQueueAudioCurvesKey_DialogMixBias
++ _AudioConverterFillComplexBufferWithPacketDependencyInfo
++ _kFigAudioQueueAudioCurvesKey_AmbienceLevel
++ _kFigSampleBufferAudioRendererAudioCurvesKey_DialogLevel
++ _kFigPlaybackItemTrackProperty_CinematicAudioParameters
 + _kFigSampleBufferAudioRendererAudioCurvesKey_DialogMixBias
 + _kFigAudioCurvesKey_RecordingLoudness
-+ _kFigSampleBufferAudioRendererAudioCurvesKey_DialogLevel
-+ _CMAudioFormatDescriptionGetMostCompatibleFormatAndChannelLayout
-+ _kFigAudioCurvesKey_DialogLevel
-+ _kFigAudioQueueAudioCurvesKey_DialogLoudness
-+ _AudioConverterFillComplexBufferWithPacketDependencyInfo
++ _FigAudioFormatDescriptionGetCinematicAudioEffectEligibility
++ _kFigSampleBufferAudioRendererAudioCurvesKey_DialogLoudness
++ _kFigAudioQueueAudioCurvesKey_DialogLevel
++ _kFigAudioQueueAudioCurvesKey_RenderingStyle
 + _kFigAudioCurvesKey_DialogMixBias
-+ _kFigAudioQueueProperty_CinematicAudioParameters
-+ _kFigAudioQueueAudioCurvesKey_RecordingLoudness
++ _kFigAudioCurvesKey_AmbienceLoudness
++ _kFigAudioRenderPipelineProperty_CinematicAudioParameters
++ _CMAudioFormatDescriptionGetMostCompatibleFormatAndChannelLayout
++ _kFigSampleBufferAudioRendererAudioCurvesKey_AmbienceLevel
 + _kFigSampleBufferAudioRendererAudioCurvesKey_RenderingStyle
-+ _kFigAudioQueueAudioCurvesKey_AmbienceLoudness
++ _kFigSampleBufferAudioRendererAudioCurvesKey_RecordingLoudness
 CStrings:
-+ "<<<< FAQ >>>> %!s(MISSING): (%!p(MISSING)) failed to retrieve dynamic latency, return default 0"
-+ "AudioCurves_DialogLevel"
-+ "<<<< FAQ >>>> %!s(MISSING): (%!p(MISSING)) current (possibly dynamic) latency: %!f(MISSING)"
-+ "com.apple.coreaudio.allow-apac-codec"
 + "RemakerAudioMixdown_CinematicAudioParameters"
-+ "AssetReaderSource_CinematicAudioParameters"
 + "AudioCurves_AmbienceLoudness"
-+ "AudioCurves_RenderingStyle"
-+ "CinematicAudioParametersChanged"
++ "AudioCurves_DialogLevel"
 + "AudioCurves_AmbienceLevel"
++ "CinematicAudioParametersChanged"
++ "AudioCurves_RenderingStyle"
++ "AssetReaderSource_CinematicAudioParameters"
++ "com.apple.coreaudio.allow-apac-codec"
++ "AudioCurves_DialogLoudness"
 + "AVAssetExportPresetICPLHighFPSHEVC1920x1920WithHDR"
 + "FigAudioQueueCopyProperty"
-+ "AudioCurves_RecordingLoudness"
-+ "AudioCurves_DialogMixBias"
-+ "AudioCurves_DialogLoudness"
++ "<<<< FAQ >>>> %!s(MISSING): (%!p(MISSING)) failed to retrieve dynamic latency, return default 0"
 + "CinematicAudioParameters"
++ "AudioCurves_DialogMixBias"
++ "AudioCurves_RecordingLoudness"
++ "<<<< FAQ >>>> %!s(MISSING): (%!p(MISSING)) current (possibly dynamic) latency: %!f(MISSING)"
 
 ```

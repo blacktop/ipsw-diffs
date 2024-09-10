@@ -90,559 +90,559 @@
 +  CStrings:  10017
  
 Symbols:
-+ _PISemanticStyleCastDreamyHues
-+ _CMISmartStyleTuningParameterVariant_DF
-+ _OBJC_CLASS_$_PISemanticStyleAdjustmentController
-+ _PISemanticStyleCastBlushWarm
-+ _PICinematicAudioRenderingStyleVoiceDefault
-+ _OBJC_CLASS_$_AVVideoCompositionTimeWindow
-+ _OBJC_METACLASS_$_PISemanticStyleFilter
-+ _OBJC_METACLASS_$_PISemanticStyleRenderNode
-+ _OBJC_CLASS_$_PISemanticStyleProcessor
-+ _PISemanticStyleCastTanWarm
-+ _OBJC_CLASS_$_FigMetalAllocatorDescriptor
-+ _PIAdjustment_CinematicAudio_Identifier
-+ _OBJC_METACLASS_$_PISemanticStyleRenderer
-+ _PISemanticStyleCastUrbanCool
-+ _OBJC_METACLASS_$_PISemanticStyleAutoCalculator
-+ _CMISmartStyleTuningParameterVariant_Default
-+ _CMISmartStyleCastTypeLongGray
-+ _CMISmartStyleCastTypeEarthy
-+ _CMISmartStyleTuningParameterVariant_DigitalFlash
-+ _NUCGAffineTransformByMappingFromRectToRect
-+ _OBJC_METACLASS_$_PICinematicAudioAdjustmentController
-+ _AVAppleMakerNote_SmartStyleKey_ColorBias
-+ _PISemanticStyleCastStarkBW
-+ _PISemanticStyleCastFromString
-+ _kCIFormatRf
-+ _OBJC_CLASS_$_PISemanticStyleLearnNode
-+ _OBJC_CLASS_$_FigMetalAllocator
-+ _PISemanticStyleCastStandard
-+ _OBJC_CLASS_$_CMISmartStyleUtilitiesV1
-+ _CMISmartStyleTuningParameterVariant_WYSIWYG
-+ _PISemanticStyleCastCool
-+ _OBJC_CLASS_$_CMISmartStyleV1
-+ _PISemanticStyleCastWarmAuthentic
-+ _kMetadataIdentifier_SmartStyleInfo
-+ _OBJC_METACLASS_$_PISemanticStyleApplyNode
-+ _PICinematicAudioRenderingStyleStudioVoice
-+ _PISemanticStyleCastCloudCover
-+ _CMISmartStyleCastTypeColorful
-+ _PISemanticStyleIsRenderSupported
-+ _CMISmartStyleCastTypeWarmAuthentic
-+ _CMISmartStyleCastTypeDreamyHues
-+ _CMISmartStyleCastTypeUrbanCool
-+ _PISemanticStyleFilterStatsLocalOption
-+ _AVAppleMakerNote_SmartStyleKey_IsReversible
-+ _PISemanticStyleCastLongGray
-+ _PISemanticStyleCastNone
-+ _PICinematicAudioRenderingStyleOriginal
-+ _PISemanticStyleFilterStatsGlobalToneCurveOption
-+ _NSSelectorFromString
-+ _OBJC_CLASS_$_NUMemoryCacheNode
-+ _PISemanticStyleCastNeutral
-+ _PISemanticStyleIsIdentity
-+ _NUSourceIdentifierSmartStyleVideoMetadata
-+ _PISemanticStyleCastEarthy
-+ _CMISmartStyleCastTypeNeutral
-+ _OBJC_CLASS_$_NURenderResourcePool
-+ _OBJC_CLASS_$_PISemanticStyleAutoCalculator
-+ _OBJC_CLASS_$_PICinematicAudioRenderNode
-+ _PICinematicAudioRenderingStyleCameraVoice
-+ _CMISmartStyleCastTypeStarkBW
-+ _CMISmartStyleCastTypeTanWarm
-+ _PIAdjustment_SemanticStyle_Identifier
-+ _OBJC_CLASS_$_PISemanticStyleApplyNode
-+ _OBJC_CLASS_$_PISemanticStyleFilter
-+ _CMISmartStyleCastTypeGoldWarm
-+ _OBJC_METACLASS_$_PICinematicAudioRenderNode
-+ _CMISmartStyleTuningParameterVariant_QuadraSFD
-+ _OBJC_CLASS_$_CMISmartStyleMetalRendererV1
-+ _OBJC_CLASS_$_CMISmartStyleCCMPriorGenerator
-+ _CMISmartStyleCastTypeBlushWarm
-+ _PISemanticStyleCastOriginal
-+ _PICinematicAudioIsRenderSupported
-+ _CMISmartStyleTuningParameterVariant_SWFR
-+ _PISemanticStyleCastToMakerNoteString
-+ _PFReduce
-+ _AVAppleMakerNote_SmartStyleKey_ToneBias
-+ _PISemanticStyleCastNoFilter
-+ _CMISmartStyleCastTypeCloudCover
-+ _OBJC_CLASS_$_PISemanticStyleRenderNode
-+ _NUStyleTransferNodeConfigurationKey
-+ _PISemanticStyleCastGoldWarm
-+ _PISemanticStyleCastIsEqual
-+ _AVAppleMakerNote_SmartStyle
-+ _CMISmartStyleTuningParameterVariant_Video
-+ _PISemanticStyleName
-+ _AVAppleMakerNote_SmartStyleKey_Cast
-+ _CMISmartStyleCastTypeCool
-+ _PISemanticStyleAdjustmentKey
-+ _NUStyleTransferNodeTuningParametersKey
-+ _PICinematicAudioDefaultRenderingStyleForVideo
-+ _OBJC_CLASS_$_NUStyleTransferNode
-+ _OBJC_CLASS_$_FigMetalContext
-+ _PICinematicAudioAdjustmentKey
-+ _OBJC_METACLASS_$_PISemanticStyleAdjustmentController
-+ _AVAppleMakerNote_SmartStyleKey_Intensity
-+ _PISemanticStyleCastColorful
-+ _OBJC_METACLASS_$_PISemanticStyleVideoFrameCacheNode
-+ _OBJC_METACLASS_$_NUMemoryCacheNode
-+ _PICinematicAudioDefaultRenderingStyleForPortraitVideo
 + _CMISmartStyleTuningParameterVariant_UB
-+ _CMISmartStyleCastTypeNoFilter
-+ _OBJC_METACLASS_$_PISemanticStyleProcessor
-+ _AVAppleMakerNote_SmartStyleKey_RenderingVersion
-+ _OBJC_CLASS_$_PISemanticStyleRenderer
-+ _OBJC_CLASS_$_PISemanticStyleVideoFrameCacheNode
-+ _PISemanticStyleFilterStatsBaselineExposureOption
-+ _CMISmartStyleCastTypeStandard
-+ _OBJC_CLASS_$_PICinematicAudioAdjustmentController
++ _NUStyleTransferNodeTuningParametersKey
++ _NUCGAffineTransformByMappingFromRectToRect
++ _CMISmartStyleCastTypeLongGray
++ _OBJC_METACLASS_$_PISemanticStyleAdjustmentController
++ _OBJC_CLASS_$_NUStyleTransferNode
++ _NUSourceIdentifierSmartStyleVideoMetadata
++ _kMetadataIdentifier_SmartStyleInfo
++ _CMISmartStyleCastTypeBlushWarm
++ _OBJC_CLASS_$_NURenderResourcePool
++ _OBJC_CLASS_$_PISemanticStyleAdjustmentController
++ _PISemanticStyleIsIdentity
++ _PISemanticStyleCastIsEqual
++ _OBJC_CLASS_$_PISemanticStyleProcessor
++ _CMISmartStyleCastTypeGoldWarm
++ _PISemanticStyleCastEarthy
++ _OBJC_CLASS_$_FigMetalContext
 + _OBJC_METACLASS_$_PISemanticStyleLearnNode
++ _OBJC_METACLASS_$_PISemanticStyleFilter
++ _kCIFormatRf
++ _CMISmartStyleCastTypeEarthy
++ _AVAppleMakerNote_SmartStyleKey_Cast
++ _OBJC_CLASS_$_PISemanticStyleRenderer
++ _PISemanticStyleCastFromString
++ _AVAppleMakerNote_SmartStyleKey_Intensity
++ _PISemanticStyleCastCool
++ _OBJC_METACLASS_$_PISemanticStyleVideoFrameCacheNode
++ _PISemanticStyleCastColorful
++ _PICinematicAudioAdjustmentKey
++ _OBJC_CLASS_$_PISemanticStyleVideoFrameCacheNode
++ _PICinematicAudioRenderingStyleCameraVoice
++ _CMISmartStyleTuningParameterVariant_SWFR
++ _OBJC_METACLASS_$_PISemanticStyleRenderer
++ _CMISmartStyleCastTypeWarmAuthentic
++ _PISemanticStyleFilterStatsLocalOption
++ _CMISmartStyleTuningParameterVariant_DigitalFlash
++ _CMISmartStyleTuningParameterVariant_QuadraSFD
++ _OBJC_METACLASS_$_NUMemoryCacheNode
++ _PISemanticStyleCastBlushWarm
++ _OBJC_CLASS_$_PISemanticStyleAutoCalculator
++ _OBJC_METACLASS_$_PISemanticStyleRenderNode
++ _OBJC_CLASS_$_PICinematicAudioRenderNode
++ _OBJC_CLASS_$_CMISmartStyleMetalRendererV1
++ _PISemanticStyleCastTanWarm
++ _PFReduce
++ _CMISmartStyleCastTypeDreamyHues
++ _CMISmartStyleCastTypeCool
++ _PICinematicAudioRenderingStyleVoiceDefault
++ _CMISmartStyleTuningParameterVariant_Video
++ _OBJC_CLASS_$_PISemanticStyleRenderNode
++ _PISemanticStyleIsRenderSupported
++ _CMISmartStyleCastTypeStandard
++ _PISemanticStyleFilterStatsGlobalToneCurveOption
++ _CMISmartStyleTuningParameterVariant_DF
++ _PISemanticStyleName
++ _PISemanticStyleCastStarkBW
++ _CMISmartStyleCastTypeNeutral
++ _PIAdjustment_SemanticStyle_Identifier
++ _PISemanticStyleCastLongGray
++ _OBJC_CLASS_$_NUMemoryCacheNode
++ _PISemanticStyleCastNone
++ _CMISmartStyleCastTypeStarkBW
++ _CMISmartStyleCastTypeUrbanCool
++ _PICinematicAudioRenderingStyleStudioVoice
++ _NSSelectorFromString
++ _CMISmartStyleCastTypeColorful
++ _OBJC_METACLASS_$_PISemanticStyleAutoCalculator
++ _PICinematicAudioIsRenderSupported
++ _PISemanticStyleCastToMakerNoteString
++ _OBJC_CLASS_$_PISemanticStyleApplyNode
++ _AVAppleMakerNote_SmartStyleKey_RenderingVersion
++ _OBJC_CLASS_$_CMISmartStyleUtilitiesV1
++ _PISemanticStyleCastOriginal
++ _PISemanticStyleCastNoFilter
++ _OBJC_CLASS_$_FigMetalAllocator
++ _OBJC_CLASS_$_FigMetalAllocatorDescriptor
++ _PISemanticStyleFilterStatsBaselineExposureOption
++ _OBJC_CLASS_$_PICinematicAudioAdjustmentController
++ _OBJC_METACLASS_$_PISemanticStyleApplyNode
++ _AVAppleMakerNote_SmartStyle
++ _AVAppleMakerNote_SmartStyleKey_ColorBias
++ _NUStyleTransferNodeConfigurationKey
++ _AVAppleMakerNote_SmartStyleKey_IsReversible
++ _PISemanticStyleCastUrbanCool
++ _PICinematicAudioDefaultRenderingStyleForPortraitVideo
++ _PICinematicAudioRenderingStyleOriginal
++ _CMISmartStyleCastTypeTanWarm
++ _OBJC_CLASS_$_CMISmartStyleV1
++ _PISemanticStyleCastDreamyHues
++ _PISemanticStyleAdjustmentKey
++ _OBJC_METACLASS_$_PICinematicAudioRenderNode
++ _CMISmartStyleCastTypeNoFilter
++ _OBJC_CLASS_$_CMISmartStyleCCMPriorGenerator
++ _AVAppleMakerNote_SmartStyleKey_ToneBias
++ _OBJC_CLASS_$_PISemanticStyleFilter
++ _OBJC_METACLASS_$_PICinematicAudioAdjustmentController
++ _PICinematicAudioDefaultRenderingStyleForVideo
++ _PISemanticStyleCastCloudCover
++ _OBJC_CLASS_$_PISemanticStyleLearnNode
++ _PIAdjustment_CinematicAudio_Identifier
++ _PISemanticStyleCastStandard
++ _CMISmartStyleTuningParameterVariant_WYSIWYG
++ _OBJC_METACLASS_$_PISemanticStyleProcessor
++ _PISemanticStyleCastGoldWarm
++ _CMISmartStyleCastTypeCloudCover
++ _OBJC_CLASS_$_AVVideoCompositionTimeWindow
++ _PISemanticStyleCastWarmAuthentic
++ _PISemanticStyleCastNeutral
++ _CMISmartStyleTuningParameterVariant_Default
 CStrings:
-+ "_cachedDialogMixBias"
-+ "setDialogMixBias:"
-+ "PISemanticStyleRenderNode"
-+ "cinematicAudioSchema"
-+ "Invalid style version value: %!{(MISSING)public}@, ignored."
-+ "CMISmartStyleTuningParameterVariantFromKey:"
-+ "inputLightMapData"
-+ "setInputGainMapImage:"
-+ "PICinematicAudioAdjustmentKey"
-+ "thumbnailWidth"
-+ "avVideoComposition"
-+ "Failed to generate lightmap image"
-+ "v32@?0@\"NSString\"8@\"<NUAuxiliaryVideoTrackProperties>\"16^B24"
-+ "_inputLinearLightMapData"
-+ "/Library/Caches/com.apple.xbs/Sources/Photos/workspaces/neutrino/PhotoImaging/Render/PISemanticStyleFilter.m"
-+ "voice"
-+ "PISemanticStyleProcessor: process failed with error %!d(MISSING)"
-+ "globalToneCurveData"
-+ "setInputLinearLightMapData:"
-+ "+[PISemanticStyleProcessor formatForInputAtIndex:]"
-+ "Missing ambisonic track"
-+ "dictionaryWithCapacity:"
-+ "CloudCover"
-+ "styleNode"
-+ "UrbanCool"
-+ "setRenderingStyleToDefaultForPortraitVideo"
-+ "setRenderRegionRect:"
-+ "Unable to find video metadata sample"
-+ "v32@?0@\"AVAudioMixInputParameters\"8Q16^B24"
-+ "Missing semantic style properties"
-+ "-[PISemanticStyleApplyNode initWithInput:style:thumbnail:]"
-+ "useStyleEngineKey"
-+ "setInputLinearImageTextureMappedRegion:"
-+ "setInputBaselineExposure:"
-+ "-[PISemanticStyleRenderer initWithMetalCommandQueue:processingType:useStyleEngine:]"
-+ "PISemanticStyleProcessor: setup failed with error %!d(MISSING)"
-+ "updatePipelineStateForWindowedSampleIndex:"
-+ "-[PISemanticStyleApplyNode initWithSettings:inputs:]"
-+ "cachedRenderingStyle"
-+ "setBaselineExposure:"
-+ "inputTRCData"
-+ "PISemanticStyleLearnNode"
-+ "dialogMixBias"
-+ "lightMapData"
-+ "-[PISemanticStyleLearnNode styleSettingsForPipelineState:]"
-+ "self.inputSubjectMatteImage != nil"
-+ "B16@?0@\"PISemanticStyleRenderer\"8"
-+ "inputSkyMatteImage"
-+ "local"
-+ "T@\"NSString\",R,N,V_PISemanticStyleAdjustmentKey"
-+ "_areValuesEquivalentBetween:and:nilEquivalentDefaultValue:"
-+ "SemanticStyle"
-+ "faceBasedGlobalExposureBoostRatio"
-+ "originalThumb"
-+ "setCachedRenderingStyle:"
-+ "-[PICinematicAudioRenderNode _evaluateAudioMix:]"
-+ "keyTime"
-+ "setInputPersonMaskTexture:"
-+ "-[PISemanticStyleLearnNode nodeByReplayingAgainstCache:pipelineState:error:]"
-+ "PISemanticStyleAutoCalculator"
-+ "setBaseGain:"
-+ "colorBias"
-+ "linearRangeMax"
-+ "person"
-+ "personLinear"
-+ "setInputSkyMatteImage:"
-+ "inputBaselineExposure"
-+ "\x01\""
-+ "WarmAuthentic"
-+ "initWithCastType:castIntensity:toneBias:colorBias:"
-+ "initWithInput:dialogMixBias:renderingStyle:"
-+ "prepareToProcess:"
-+ "_resultFromImageProperties:"
-+ "inputSubjectMatteImage"
-+ "GoldWarm"
-+ "smartStyleCastForMakerNoteTag:smartStyleVersion:"
-+ "setInputToneBias:"
-+ "setupWithDescriptor:"
-+ "_inputSRLCurveParameter"
-+ "binCount"
-+ "d32@?0{?=qiIq}8"
-+ "Tq,N,V_cachedRenderingStyle"
-+ "B40@0:8@16@24@32"
-+ "_cachedRenderingStyle"
-+ "avAsset"
-+ "T@\"NSNumber\",C,N,V_inputSRLCurveParameter"
-+ "Td,N,V_dialogMixBias"
-+ "_processingType"
-+ "extractDataToDictionary:options:context:colorSpace:error:"
-+ "Cool"
-+ "brightness"
-+ "StarkBW"
-+ "initWithInput:style:thumbnail:"
-+ "@56@0:8@16@24@32^{CGColorSpace=}40^@48"
-+ "semanticStylePropertiesFromMetadataGroup:keyTime:error:"
-+ "_inputBaselineExposure"
-+ "setBrightnessValue:"
-+ "%!p(MISSING) q=%!p(MISSING)"
-+ "metadataTrackWithIdenfifier:forAsset:"
-+ "_lightMapImageWithData:"
-+ "srlCurveParameter"
-+ "commandQueue"
-+ "setSemanticStyleDisableStyleEngine:"
-+ "@40@0:8@16f24f28f32f36"
-+ "inputSRLCurveParameter"
-+ "PISemanticStyleFilter"
-+ "initWithMetalContext:"
-+ "PISemanticStyleProcessor: prepare failed with error %!d(MISSING)"
-+ "style != nil"
-+ "readVideoFrameAtTime:fromAsset:outputSettings:videoComposition:auxiliaryImageType:error:"
-+ "/Library/Caches/com.apple.xbs/Sources/Photos/workspaces/neutrino/PhotoImaging/Render/PISemanticStyleRenderNode.m"
-+ "commandQueue != nil"
-+ "Failed to generate TRC image"
-+ "_sid"
-+ "inputToneBias"
-+ "auxiliaryVideoTrackProperties"
-+ "Unable to obtain semantic style metadata"
-+ "-[PISemanticStyleRenderNode resolvedNodeWithCachedInputs:settings:pipelineState:error:]"
-+ "T@\"NSNumber\",C,N,V_baseGain"
-+ "styleTransferApplyNodeWithInput:thumbnail:target:settings:"
-+ "resetToUnstyledOriginal"
-+ "T@\"NSNumber\",C,N,V_faceBasedGlobalExposureBoostRatio"
-+ "semanticStyleProperties"
-+ "_PISemanticStyleAdjustmentKey"
-+ "skyMatte"
-+ "updateWithSemStyleInfo:"
-+ "@\"<MTLCommandQueue>\""
-+ "B40@0:8@16i24B28@?32"
-+ "linearRangeMin"
-+ "setInputImageTexture:"
-+ "setInputTRCData:"
-+ "isStylableFromImageProperties:"
-+ "canRenderStylesOnComposition:"
-+ "setInputStyle:"
-+ "T@\"NSString\",R,N,V_PICinematicAudioAdjustmentKey"
-+ "defaultStyleForCastType:"
-+ "colorKey"
-+ "linear"
-+ "setInputImageTextureMappedRegion:"
-+ "setInputLightMapData:"
-+ "setSemanticStyleSceneType:"
-+ "TanWarm"
-+ "T@\"CIImage\",&,N,V_inputGainMapImage"
-+ "_dialogMixBias"
-+ "initWithPurpose:"
-+ "PISemanticStyleAdjustmentController"
-+ "Missing cinematic audio mix input parameters"
-+ "Unable to obtain styles properties"
-+ "usingSharedSemanticStyleRendererWithMetalCommandQueue:processingType:useStyleEngine:perform:"
-+ "self.inputLinearThumbnailImage != nil"
-+ "p75"
-+ "checkOutResourceForKey:matching:"
-+ "Invalid style color value: %!{(MISSING)public}@, ignored."
-+ "Properties request failed"
-+ "initWithbundle:andOptionalCommandQueue:"
-+ "linearLightMapData"
-+ "castIntensity"
-+ "resolveSourceWithVideo:videoComposition:"
-+ "baseGain"
-+ "overrideSemanticStylesHardwareCheck"
-+ "resetState"
-+ "prepareProcessor"
-+ "requiredSourceTrackIDs"
-+ "skinMatte"
-+ "setTuningParameterVariant:"
-+ "/Library/Caches/com.apple.xbs/Sources/Photos/workspaces/neutrino/PhotoImaging/Autocalculators/PISemanticStyleAutoCalculator.m"
-+ "memSize"
-+ "subjectMatte"
-+ "Failed to evaluate keyframe learn node"
-+ "Could not read video frame at time"
-+ "Missing sky matte image: %!{(MISSING)public}@"
-+ "allCasts"
-+ "Invalid style cast value: %!{(MISSING)public}@, ignored."
-+ "semanticStyleLearn"
-+ "T@\"CMISmartStyleMetalRendererV1\",R,N,V_processor"
-+ "PICinematicAudioAdjustmentController"
-+ "_brightnessValue"
-+ "PISemanticStyleAutoCalculator Styles not supported on the current platform"
-+ "checkInResource:forKey:"
-+ "inputSceneType"
-+ "Failed to convert linear thumbnail from Log to Linear: missing filter (%!@(MISSING))"
-+ "setInputSkinMaskTextureMappedRegion:"
-+ "Td,N,V_inputIntensity"
-+ "cast"
-+ "T@\"PISemanticStyleLearnNode\",R,N"
-+ "subjectRelightingValue"
-+ "Invalid key time"
-+ "displayP3LinearColorSpace"
-+ "_inputLightMapData"
-+ "cachedDialogMixBias"
-+ "linearLightMap"
-+ "pre-SemanticStyle"
-+ "PISemanticStyleRenderer"
-+ "setWireMemory:"
-+ "cinematicAudioTrackInAsset:"
-+ "\x16!\x12\x1a"
-+ "T@\"NSNumber\",C,N,V_inputLightMapWidth"
-+ "styleTransferLearnNodeWithInput:target:settings:"
-+ "T@\"CIImage\",&,N,V_inputSkyMatteImage"
-+ "T@\"NSDictionary\",C,N,V_inputStatistics"
-+ "Ti,R,N,V_processingType"
-+ "self.inputSkyMatteImage != nil"
-+ "\x0f\x0f\b"
-+ "setMemSize:"
-+ "Invalid style intensity value: %!{(MISSING)public}@, ignored."
-+ "_PICinematicAudioAdjustmentKey"
-+ "TB,N,V_useStyleEngine"
-+ "_renderingStyle"
-+ "NoFilter"
-+ "Invalid style tone value: %!{(MISSING)public}@, ignored."
-+ "_inputLightMapHeight"
-+ "self.inputGainMapImage != nil"
-+ "curveImageWithData:"
-+ "PISemanticStyleProcessor"
-+ "_inputColorBias"
-+ "setUseStyleEngine:"
-+ "Input has no audio mix (%!@(MISSING)), creating a new one.."
-+ "_ctx"
-+ "linearThumbnail"
-+ "castKey"
-+ "Invalid MakerNote SmartStyle dictionary: %!{(MISSING)public}@, ignored"
-+ "_inputCast"
-+ "@\"CMISmartStyleMetalRendererV1\""
-+ "setInputLinearImageTexture:"
-+ "thumbnailSettingsWithStyleSettings:thumbnailSize:"
-+ "shared"
-+ "onCameraVoice"
-+ "_processor"
-+ "T@\"CIImage\",&,N,V_inputLinearThumbnailImage"
-+ "indexesOfSemanticStyleVideoSampleSlices:"
-+ "Td,N,V_inputColorBias"
-+ "self.inputTRCData != nil"
-+ "setRenderingStyle:atTime:"
-+ "semanticStyleDisableStyleEngine"
-+ "CIAppleLogToLinear"
-+ "inputStatistics"
-+ "-[PISemanticStyleRenderer init]"
-+ "float gtc_sample_r(float x, sampler2D table, vec2 domain, vec2 normalizer) { x = (x - domain.x) / (domain.y - domain.x); x = clamp(x, 0.0001, 0.9999); x = normalizer.x * x + normalizer.y; return texture2D(table, vec2(x, 0.5)).r; } kernel vec4 gtc_rgb(__sample color, sampler2D table, vec2 domain, vec2 normalizer) { vec4 pixel = color; pixel.r = gtc_sample_r(pixel.r, table, domain, normalizer); pixel.g = gtc_sample_r(pixel.g, table, domain, normalizer); pixel.b = gtc_sample_r(pixel.b, table, domain, normalizer); return pixel; }"
-+ "T@\"NSNumber\",C,N,V_tuningType"
-+ "_useStyleEngine"
-+ "allSystemCasts"
-+ "T@\"NSString\",C,N,V_inputCast"
-+ "allocator"
-+ "dialogMixBiasKey"
-+ "setRequestedWindowOfSamples:"
-+ "inputLinearLightMapData"
-+ "setInputSkinMatteImage:"
-+ "roiTileArrayForInput:arguments:outputRect:"
-+ "T@\"CIImage\",&,N,V_inputSubjectMatteImage"
-+ "inputSkinMatteImage"
-+ "setInputSubjectMatteImage:"
 + "extents"
-+ "applyInverseCurveToLinearThumbnail"
-+ "DreamyHues"
-+ "PISemanticStyleAutoCalculator - error: %!{(MISSING)public}@"
-+ "initWithMetalCommandQueue:processingType:useStyleEngine:"
-+ "_imageByApplyingColorMatrixRed:green:blue:bias:"
-+ "allCastsWithStandard:"
-+ "CinematicAudio~1.0"
-+ "inputGainMapImage"
-+ "self.inputImage != nil"
-+ "setInputSmallLinearLightMapTexture:"
-+ "%!@(MISSING) cannot be applied to aux images"
-+ "shouldInvalidateCachedAudioMix"
-+ "setInputSmallLightMapTexture:"
-+ "T@\"CIImage\",&,N,V_inputSkinMatteImage"
-+ "setup"
-+ "setInputLightMapWidth:"
-+ "semanticStyleImageSettingsForScale:"
-+ "_inputLinearThumbnailImage"
-+ "showSubjectMatte"
-+ "Invalid index %!d(MISSING)"
-+ "Td,N,V_inputBaselineExposure"
-+ "minor"
-+ "TB,R,N,V_useStyleEngine"
-+ "semanticStyleVideoSettingsForScale:"
-+ "setFaceBasedGlobalExposureBoostRatio:"
-+ "semanticStyleAdjustmentControllerCreatingIfNecessary:"
-+ "T@\"NSString\",&,N"
-+ "setInputLinearBaseGain:"
-+ "cinematicAudioAdjustmentController"
-+ "setInputStatistics:"
-+ "setInputSkinMaskTexture:"
-+ "setInputStatisticsByStatsType:"
-+ "setSourceIdentifier:forMetadataTrackID:"
-+ "Colorful"
-+ "calculatePriorCCMforCast:tone:color:intensity:priorStrength:"
-+ "-[PISemanticStyleAutoCalculator _resultFromImageProperties:]"
 + "setRenderingStyle:"
-+ "invalid frame time"
-+ "_metalCommandQueue"
-+ "PISemanticStyleApplyNode"
-+ "renderingStyle"
-+ "Missing subject matte image: %!{(MISSING)public}@"
-+ "initWithDevice:allocatorType:"
-+ "inputLinearThumbnailImage"
-+ "matchesMetalCommandQueue:processingType:useStyleEngine:"
-+ "cinematicAudioAdjustmentControllerCreatingIfNecessary:"
-+ "setTuningType:"
-+ "-[PISemanticStyleLearnNode thumbnailSettingsWithStyleSettings:thumbnailSize:]"
-+ "Td,N,V_inputToneBias"
-+ "linearThumb"
-+ "sceneType"
-+ "PISemanticStyleVideoFrameCacheNode"
-+ "-[PISemanticStyleRenderNode _evaluateVideoComposition:]"
-+ "_inputSkyMatteImage"
-+ "styleTransferInterpolationNodeWithInputs:weights:settings:"
-+ "setCast:"
-+ "styleSettingsForPipelineState:"
-+ "-[PISemanticStyleAutoCalculator submitSynchronous:]"
-+ "playbackDirection"
-+ "setInputSkyMaskTexture:"
-+ "setMinComponents:"
-+ "setInputColorBias:"
-+ "initWithDurationBefore:durationAfter:durationBeforeWhenSeeking:durationAfterWhenSeeking:"
-+ "setOutputImageTextureMappedRegion:"
-+ "-[PISemanticStyleRenderNode initWithSettings:inputs:]"
-+ "thumbnailHeight"
-+ "PICinematicAudioRenderNode"
-+ "T@\"<MTLCommandQueue>\",R,N,V_metalCommandQueue"
-+ "debugModeKey"
-+ "self.inputSkinMatteImage != nil"
-+ "setInputLightMapHeight:"
-+ "Neutral"
-+ "setSourceSampleDataTrackWindowsForTrackIDs:"
-+ "setOutputImageTexture:"
-+ "@32@0:8@16i24B28"
-+ "stats"
-+ "T@\"NSNumber\",C,N,V_brightnessValue"
++ "Unable to obtain styles properties"
++ "setInputSkyMatteImage:"
++ "PISemanticStyleAutoCalculator - error: %!{(MISSING)public}@"
 + "_inputLightMapWidth"
-+ "setInputLinearThumbnailImage:"
-+ "LongGray"
-+ "processor"
-+ "-[PISemanticStyleFilter outputImage]"
-+ "linearGain"
-+ "semanticStyleAdjustmentController"
-+ "_inputSkinMatteImage"
-+ "setSourceSampleDataTrackIDs:"
-+ "+[PISchema cinematicAudioSchema]"
-+ "_inputToneBias"
-+ "styleTransferThumbnailNodeWithInput:settings:"
-+ "+[PISemanticStyleAutoCalculator canRenderStylesOnComposition:]"
-+ "showSkinMatte"
-+ "@48@0:8@16@24^{CGColorSpace=}32o^@40"
-+ "localLinear"
-+ "_tuningType"
-+ "allCreativeCasts"
-+ "setInputSceneType:"
-+ "{CGRect={CGPoint=dd}{CGSize=dd}}16@?0Q8"
-+ "%!p(MISSING) q=%!p(MISSING) ctx=%!p(MISSING) mem=%!z(MISSING)u"
-+ "Td,N,V_cachedDialogMixBias"
-+ "T@\"NSData\",C,N,V_inputLightMapData"
-+ "videoSampleSlices"
-+ "Failed to generate linear lightmap image"
-+ "gtcKernel"
-+ "baselineExposure"
-+ "setInputGainMapTexture:"
-+ "_inputSubjectMatteImage"
-+ "process"
-+ "setInputGlobalToneCurveTexture:"
-+ "PISemanticStyleAdjustmentKey"
-+ "cinematicAudio"
-+ "B16@?0@\"CMISmartStyleMetalRendererV1\"8"
-+ "semanticStyleTemporalWindowSize"
-+ "initWithDurationBefore:durationAfter:"
++ "T@\"NSString\",R,N,V_PICinematicAudioAdjustmentKey"
 + "thumbnailNode"
-+ "semanticStyleSchema"
-+ "Invalid style cast: %!l(MISSING)u (%!u(MISSING)), ignored."
-+ "toneBias"
-+ "@\"FigMetalContext\""
-+ "_computeSmartToneStatsFromHistogram:"
-+ "_baseGain"
-+ "T@\"NSData\",C,N,V_inputLinearLightMapData"
-+ "_inputTRCData"
-+ "inputParameters"
-+ "+[PISemanticStyleFilter _computeAlphaAwareHistogramForImage:context:colorSpace:error:]"
-+ "Already prepared!"
-+ "@\"NSNumber\"24@?0@\"NSNumber\"8@\"NSNumber\"16"
-+ "setCachedDialogMixBias:"
-+ "-[PISemanticStyleRenderer prepareProcessor]"
-+ "isFallback"
-+ "brightnessValue"
-+ "T@\"NSData\",C,N,V_inputTRCData"
-+ "SemanticStyle~1.0"
-+ "setInputSRLCurveParameter:"
-+ "_inputSceneType"
-+ "_faceBasedGlobalExposureBoostRatio"
-+ "+[PISchema semanticStyleSchema]"
-+ "@60@0:8i16@20{CGRect={CGPoint=dd}{CGSize=dd}}28"
-+ "T@\"NSNumber\",C,N,V_inputLightMapHeight"
-+ "defaultValuesForCast:"
-+ "setInputSkyMaskTextureMappedRegion:"
-+ "Missing skin matte image: %!{(MISSING)public}@"
-+ "setSourceVideoTrackWindowsForTrackIDs:"
-+ "thumbnail"
-+ "Unexpected rendering style string %!@(MISSING) - defaulting to standard"
-+ "B32@0:8@16i24B28"
-+ "inputColorBias"
-+ "Unexpected pipeline state"
-+ "shouldEnableStylesForProRaw"
-+ "studioVoice"
-+ "Failed to setup FigMetalAllocator, err = %!d(MISSING)"
-+ "priorMatrix"
-+ "tuningType"
-+ "colorClampFilter"
-+ "requiredSourceSampleDataTrackIDs"
-+ "PI_SEMANTIC_STYLE_DISABLE_STYLE_ENGINE"
-+ "Failed to evaluate linear thumbnail"
-+ "setMainTrackSourceIdentifier:"
-+ "processingType"
-+ "_inputGainMapImage"
-+ "-[PISemanticStyleRenderNode initWithInput:settings:]"
-+ "Light Map dimension mismatch: %!l(MISSING)u, expected %!l(MISSING)u * %!l(MISSING)u"
-+ "StylePriorStrength"
-+ "CinematicAudio"
-+ "resolveSourceWithPixelBuffer:"
-+ "original"
-+ "debugDisableStyleEngine"
-+ "-[PISemanticStyleAutoCalculator submit:]"
-+ "setDialogMixBias:atTime:"
-+ "setLogicalImageSize:"
-+ "cinematicAudioMixInputParameters"
-+ "globalToneCurve"
-+ "Failed to obtain matte image: %!{(MISSING)public}@"
-+ "makerNoteTagForSmartStyleCastType:smartStyleVersion:"
-+ "metalCommandQueue"
-+ "Standard"
-+ "T@\"NSNumber\",C,N,V_inputSceneType"
-+ "setInputPersonMaskTextureMappedRegion:"
-+ "showSkyMatte"
-+ "evaluateSettings:pipelineState:error:"
++ "_processingType"
 + "setDoNotOverride:"
++ "_ctx"
++ "setMemSize:"
++ "cinematicAudio"
++ "styleSettingsForPipelineState:"
++ "Failed to setup FigMetalAllocator, err = %!d(MISSING)"
++ "setInputColorBias:"
++ "linearThumbnail"
++ "DreamyHues"
++ "setInputSkinMatteImage:"
++ "-[PISemanticStyleRenderNode _evaluateVideoComposition:]"
++ "PI_SEMANTIC_STYLE_DISABLE_STYLE_ENGINE"
++ "-[PISemanticStyleAutoCalculator submitSynchronous:]"
++ "PISemanticStyleProcessor: prepare failed with error %!d(MISSING)"
++ "updatePipelineStateForWindowedSampleIndex:"
++ "cinematicAudioAdjustmentController"
++ "T@\"NSNumber\",C,N,V_inputSceneType"
++ "inputTRCData"
++ "setSemanticStyleSceneType:"
++ "TB,R,N,V_useStyleEngine"
++ "requiredSourceTrackIDs"
++ "%!p(MISSING) q=%!p(MISSING)"
++ "setBaseGain:"
++ "Missing subject matte image: %!{(MISSING)public}@"
++ "_inputTRCData"
++ "renderingStyle"
++ "self.inputImage != nil"
++ "NoFilter"
++ "_areValuesEquivalentBetween:and:nilEquivalentDefaultValue:"
++ "-[PISemanticStyleLearnNode thumbnailSettingsWithStyleSettings:thumbnailSize:]"
++ "dialogMixBias"
++ "Could not read video frame at time"
++ "inputSkinMatteImage"
++ "B40@0:8@16i24B28@?32"
++ "Failed to obtain matte image: %!{(MISSING)public}@"
++ "\x16!\x12\x1a"
++ "cachedDialogMixBias"
++ "setRequestedWindowOfSamples:"
++ "-[PISemanticStyleRenderer init]"
++ "Invalid style color value: %!{(MISSING)public}@, ignored."
++ "setInputSkyMaskTextureMappedRegion:"
++ "WarmAuthentic"
++ "_dialogMixBias"
++ "Invalid style cast: %!l(MISSING)u (%!u(MISSING)), ignored."
++ "PISemanticStyleAdjustmentController"
++ "{CGRect={CGPoint=dd}{CGSize=dd}}16@?0Q8"
 + "useLightMap"
-+ "Earthy"
-+ "Tq,N,V_renderingStyle"
-+ "/Library/Caches/com.apple.xbs/Sources/Photos/workspaces/neutrino/PhotoImaging/Render/PICinematicAudioRenderNode.m"
++ "T@\"CIImage\",&,N,V_inputSkinMatteImage"
++ "cinematicAudioSchema"
++ "inputLinearThumbnailImage"
++ "v32@?0@\"NSString\"8@\"<NUAuxiliaryVideoTrackProperties>\"16^B24"
++ "self.inputLinearThumbnailImage != nil"
++ "T@\"CIImage\",&,N,V_inputSkyMatteImage"
++ "inputGainMapImage"
++ "styleNode"
++ "-[PISemanticStyleApplyNode initWithSettings:inputs:]"
++ "_inputToneBias"
++ "setOutputImageTexture:"
++ "processor"
++ "@40@0:8@16f24f28f32f36"
++ "T@\"NSString\",&,N"
++ "setSemanticStyleDisableStyleEngine:"
++ "Failed to evaluate linear thumbnail"
++ "isFallback"
++ "studioVoice"
++ "T@\"NSString\",C,N,V_inputCast"
++ "dictionaryWithCapacity:"
++ "T@\"CMISmartStyleMetalRendererV1\",R,N,V_processor"
++ "initWithDevice:allocatorType:"
++ "allCasts"
++ "style != nil"
++ "thumbnail"
++ "_inputSceneType"
++ "T@\"NSNumber\",C,N,V_inputLightMapHeight"
++ "_inputLightMapData"
++ "Ti,R,N,V_processingType"
++ "setInputGainMapImage:"
 + "setAllocator:"
-+ "BlushWarm"
-+ "setMaxComponents:"
-+ "_inputStatistics"
++ "inputSRLCurveParameter"
++ "Td,N,V_dialogMixBias"
++ "cinematicAudioMixInputParameters"
++ "setWireMemory:"
++ "styleTransferThumbnailNodeWithInput:settings:"
++ "_sid"
++ "setUseStyleEngine:"
++ "GoldWarm"
++ "T@\"NSDictionary\",C,N,V_inputStatistics"
++ "_PICinematicAudioAdjustmentKey"
++ "minor"
++ "float gtc_sample_r(float x, sampler2D table, vec2 domain, vec2 normalizer) { x = (x - domain.x) / (domain.y - domain.x); x = clamp(x, 0.0001, 0.9999); x = normalizer.x * x + normalizer.y; return texture2D(table, vec2(x, 0.5)).r; } kernel vec4 gtc_rgb(__sample color, sampler2D table, vec2 domain, vec2 normalizer) { vec4 pixel = color; pixel.r = gtc_sample_r(pixel.r, table, domain, normalizer); pixel.g = gtc_sample_r(pixel.g, table, domain, normalizer); pixel.b = gtc_sample_r(pixel.b, table, domain, normalizer); return pixel; }"
++ "setMinComponents:"
++ "_inputSRLCurveParameter"
++ "+[PISemanticStyleProcessor formatForInputAtIndex:]"
++ "original"
++ "TB,N,V_useStyleEngine"
++ "allocator"
++ "commandQueue"
++ "PISemanticStyleVideoFrameCacheNode"
++ "_inputLinearThumbnailImage"
++ "linearRangeMin"
++ "-[PISemanticStyleAutoCalculator submit:]"
++ "_tuningType"
++ "@56@0:8@16@24@32^{CGColorSpace=}40^@48"
++ "_inputGainMapImage"
++ "onCameraVoice"
++ "person"
++ "initWithDurationBefore:durationAfter:durationBeforeWhenSeeking:durationAfterWhenSeeking:"
++ "linearThumb"
++ "_inputBaselineExposure"
++ "colorClampFilter"
++ "_inputSkyMatteImage"
++ "avAsset"
++ "Unexpected pipeline state"
++ "tuningType"
++ "displayP3LinearColorSpace"
++ "_inputSubjectMatteImage"
++ "PISemanticStyleAutoCalculator Styles not supported on the current platform"
++ "Td,N,V_inputColorBias"
++ "T@\"NSData\",C,N,V_inputTRCData"
++ "shared"
++ "T@\"NSData\",C,N,V_inputLightMapData"
++ "allCreativeCasts"
++ "initWithDurationBefore:durationAfter:"
++ "PISemanticStyleAutoCalculator"
++ "PISemanticStyleFilter"
++ "linearGain"
++ "Light Map dimension mismatch: %!l(MISSING)u, expected %!l(MISSING)u * %!l(MISSING)u"
++ "@\"FigMetalContext\""
++ "CinematicAudio~1.0"
++ "thumbnailHeight"
++ "-[PISemanticStyleLearnNode nodeByReplayingAgainstCache:pipelineState:error:]"
++ "extractDataToDictionary:options:context:colorSpace:error:"
++ "CloudCover"
++ "allSystemCasts"
++ "setInputImageTexture:"
++ "T@\"CIImage\",&,N,V_inputLinearThumbnailImage"
++ "styleTransferInterpolationNodeWithInputs:weights:settings:"
++ "T@\"NSNumber\",C,N,V_faceBasedGlobalExposureBoostRatio"
++ "Cool"
++ "/Library/Caches/com.apple.xbs/Sources/Photos/workspaces/neutrino/PhotoImaging/Render/PISemanticStyleRenderNode.m"
++ "setRenderingStyle:atTime:"
++ "_imageByApplyingColorMatrixRed:green:blue:bias:"
++ "CIAppleLogToLinear"
++ "PISemanticStyleProcessor: setup failed with error %!d(MISSING)"
++ "/Library/Caches/com.apple.xbs/Sources/Photos/workspaces/neutrino/PhotoImaging/Autocalculators/PISemanticStyleAutoCalculator.m"
++ "-[PISemanticStyleRenderNode resolvedNodeWithCachedInputs:settings:pipelineState:error:]"
++ "setInputSubjectMatteImage:"
++ "setInputStyle:"
++ "Td,N,V_inputBaselineExposure"
++ "checkOutResourceForKey:matching:"
++ "setBrightnessValue:"
++ "faceBasedGlobalExposureBoostRatio"
++ "resolveSourceWithVideo:videoComposition:"
++ "prepareProcessor"
++ "Invalid style tone value: %!{(MISSING)public}@, ignored."
++ "castKey"
++ "setupWithDescriptor:"
++ "smartStyleCastForMakerNoteTag:smartStyleVersion:"
++ "playbackDirection"
++ "semanticStyleProperties"
++ "_resultFromImageProperties:"
++ "originalThumb"
++ "_cachedDialogMixBias"
++ "SemanticStyle"
++ "initWithbundle:andOptionalCommandQueue:"
++ "setup"
++ "CinematicAudio"
++ "-[PISemanticStyleAutoCalculator _resultFromImageProperties:]"
++ "debugDisableStyleEngine"
++ "setFaceBasedGlobalExposureBoostRatio:"
++ "Failed to evaluate keyframe learn node"
++ "_lightMapImageWithData:"
++ "/Library/Caches/com.apple.xbs/Sources/Photos/workspaces/neutrino/PhotoImaging/Render/PISemanticStyleFilter.m"
++ "shouldEnableStylesForProRaw"
++ "globalToneCurveData"
++ "-[PISemanticStyleFilter outputImage]"
++ "%!@(MISSING) cannot be applied to aux images"
++ "B16@?0@\"PISemanticStyleRenderer\"8"
++ "auxiliaryVideoTrackProperties"
++ "Properties request failed"
++ "isStylableFromImageProperties:"
++ "skinMatte"
++ "setInputTRCData:"
++ "@60@0:8i16@20{CGRect={CGPoint=dd}{CGSize=dd}}28"
++ "curveImageWithData:"
++ "process"
++ "commandQueue != nil"
++ "baseGain"
++ "PISemanticStyleProcessor"
++ "_faceBasedGlobalExposureBoostRatio"
++ "canRenderStylesOnComposition:"
++ "@\"NSNumber\"24@?0@\"NSNumber\"8@\"NSNumber\"16"
++ "linear"
++ "Td,N,V_cachedDialogMixBias"
++ "setCachedDialogMixBias:"
++ "debugModeKey"
++ "+[PISchema cinematicAudioSchema]"
++ "linearLightMapData"
++ "T@\"NSNumber\",C,N,V_tuningType"
++ "UrbanCool"
 + "stylePriorDataForCast:tone:color:intensity:priorStrength:"
++ "setSourceIdentifier:forMetadataTrackID:"
++ "setMaxComponents:"
++ "Unexpected rendering style string %!@(MISSING) - defaulting to standard"
++ "inputSkyMatteImage"
++ "B16@?0@\"CMISmartStyleMetalRendererV1\"8"
++ "setInputLightMapHeight:"
++ "showSkinMatte"
++ "T@\"CIImage\",&,N,V_inputSubjectMatteImage"
++ "initWithPurpose:"
++ "evaluateSettings:pipelineState:error:"
++ "defaultStyleForCastType:"
++ "calculatePriorCCMforCast:tone:color:intensity:priorStrength:"
++ "PICinematicAudioAdjustmentController"
++ "setInputSmallLightMapTexture:"
++ "resetState"
++ "semanticStyleTemporalWindowSize"
++ "useStyleEngineKey"
++ "Missing sky matte image: %!{(MISSING)public}@"
++ "T@\"PISemanticStyleLearnNode\",R,N"
++ "BlushWarm"
++ "inputToneBias"
++ "semanticStyleAdjustmentController"
++ "updateWithSemStyleInfo:"
++ "cachedRenderingStyle"
++ "Invalid key time"
++ "TanWarm"
++ "setInputLinearBaseGain:"
++ "processingType"
++ "semanticStyleAdjustmentControllerCreatingIfNecessary:"
++ "Invalid style intensity value: %!{(MISSING)public}@, ignored."
++ "castIntensity"
++ "PICinematicAudioAdjustmentKey"
++ "Invalid style version value: %!{(MISSING)public}@, ignored."
++ "_cachedRenderingStyle"
++ "StarkBW"
++ "shouldInvalidateCachedAudioMix"
++ "T@\"NSNumber\",C,N,V_baseGain"
++ "setDialogMixBias:"
++ "linearLightMap"
++ "setSourceSampleDataTrackWindowsForTrackIDs:"
 + "_computeAlphaAwareHistogramForImage:context:colorSpace:error:"
++ "keyTime"
++ "p75"
++ "setRenderingStyleToDefaultForPortraitVideo"
++ "_inputColorBias"
++ "inputSubjectMatteImage"
++ "linearRangeMax"
++ "%!p(MISSING) q=%!p(MISSING) ctx=%!p(MISSING) mem=%!z(MISSING)u"
++ "T@\"NSString\",R,N,V_PISemanticStyleAdjustmentKey"
++ "invalid frame time"
++ "setDialogMixBias:atTime:"
++ "skyMatte"
++ "B40@0:8@16@24@32"
++ "requiredSourceSampleDataTrackIDs"
++ "Missing skin matte image: %!{(MISSING)public}@"
++ "Failed to generate TRC image"
++ "setCachedRenderingStyle:"
++ "semanticStyleDisableStyleEngine"
++ "setInputLinearLightMapData:"
++ "Failed to convert linear thumbnail from Log to Linear: missing filter (%!@(MISSING))"
++ "_computeSmartToneStatsFromHistogram:"
++ "\x01\""
++ "thumbnailWidth"
++ "overrideSemanticStylesHardwareCheck"
++ "setLogicalImageSize:"
++ "setTuningParameterVariant:"
++ "semanticStyleSchema"
++ "self.inputTRCData != nil"
++ "cinematicAudioTrackInAsset:"
++ "toneBias"
++ "videoSampleSlices"
++ "+[PISemanticStyleAutoCalculator canRenderStylesOnComposition:]"
++ "_inputLinearLightMapData"
++ "self.inputSubjectMatteImage != nil"
++ "setInputGainMapTexture:"
++ "showSubjectMatte"
++ "setRenderRegionRect:"
++ "semanticStyleImageSettingsForScale:"
++ "localLinear"
++ "setSourceVideoTrackWindowsForTrackIDs:"
++ "_metalCommandQueue"
++ "+[PISemanticStyleFilter _computeAlphaAwareHistogramForImage:context:colorSpace:error:]"
++ "allCastsWithStandard:"
++ "_inputStatistics"
++ "usingSharedSemanticStyleRendererWithMetalCommandQueue:processingType:useStyleEngine:perform:"
++ "Neutral"
++ "setInputToneBias:"
++ "d32@?0{?=qiIq}8"
++ "Colorful"
++ "PISemanticStyleRenderer"
++ "resolveSourceWithPixelBuffer:"
++ "Td,N,V_inputToneBias"
++ "-[PISemanticStyleApplyNode initWithInput:style:thumbnail:]"
++ "Invalid index %!d(MISSING)"
++ "T@\"NSData\",C,N,V_inputLinearLightMapData"
++ "_baseGain"
++ "T@\"NSNumber\",C,N,V_inputSRLCurveParameter"
++ "-[PICinematicAudioRenderNode _evaluateAudioMix:]"
++ "setInputLinearImageTextureMappedRegion:"
++ "Standard"
++ "setInputPersonMaskTexture:"
++ "setInputSmallLinearLightMapTexture:"
++ "Already prepared!"
++ "T@\"NSNumber\",C,N,V_inputLightMapWidth"
++ "self.inputGainMapImage != nil"
++ "semanticStylePropertiesFromMetadataGroup:keyTime:error:"
++ "_inputSkinMatteImage"
++ "gtcKernel"
++ "_useStyleEngine"
++ "showSkyMatte"
++ "avVideoComposition"
++ "_renderingStyle"
++ "setInputStatisticsByStatsType:"
++ "setInputSceneType:"
++ "SemanticStyle~1.0"
++ "-[PISemanticStyleRenderNode initWithInput:settings:]"
++ "stats"
++ "@\"CMISmartStyleMetalRendererV1\""
++ "metalCommandQueue"
++ "Unable to obtain semantic style metadata"
++ "initWithCastType:castIntensity:toneBias:colorBias:"
++ "-[PISemanticStyleRenderer prepareProcessor]"
++ "subjectRelightingValue"
++ "self.inputSkinMatteImage != nil"
++ "LongGray"
++ "brightnessValue"
++ "@\"<MTLCommandQueue>\""
++ "Invalid MakerNote SmartStyle dictionary: %!{(MISSING)public}@, ignored"
++ "_inputLightMapHeight"
++ "baselineExposure"
++ "T@\"NSNumber\",C,N,V_brightnessValue"
++ "setInputLinearThumbnailImage:"
 + "outputAudioMix:"
++ "PISemanticStyleApplyNode"
++ "Unable to find video metadata sample"
++ "self.inputSkyMatteImage != nil"
++ "Tq,N,V_cachedRenderingStyle"
++ "initWithInput:style:thumbnail:"
++ "PISemanticStyleAdjustmentKey"
++ "setInputImageTextureMappedRegion:"
++ "setInputSkinMaskTexture:"
++ "setInputLinearImageTexture:"
++ "resetToUnstyledOriginal"
++ "setTuningType:"
++ "setInputSkyMaskTexture:"
++ "colorKey"
++ "inputLightMapData"
++ "semanticStyleLearn"
++ "inputParameters"
++ "\x0f\x0f\b"
++ "indexesOfSemanticStyleVideoSampleSlices:"
++ "T@\"CIImage\",&,N,V_inputGainMapImage"
++ "CMISmartStyleTuningParameterVariantFromKey:"
++ "voice"
++ "setInputLightMapWidth:"
++ "setOutputImageTextureMappedRegion:"
++ "+[PISchema semanticStyleSchema]"
++ "globalToneCurve"
++ "local"
++ "setInputLightMapData:"
++ "PISemanticStyleRenderNode"
++ "styleTransferApplyNodeWithInput:thumbnail:target:settings:"
++ "prepareToProcess:"
++ "_inputCast"
++ "inputStatistics"
++ "inputLinearLightMapData"
++ "makerNoteTagForSmartStyleCastType:smartStyleVersion:"
++ "T@\"<MTLCommandQueue>\",R,N,V_metalCommandQueue"
++ "B32@0:8@16i24B28"
++ "readVideoFrameAtTime:fromAsset:outputSettings:videoComposition:auxiliaryImageType:error:"
++ "pre-SemanticStyle"
++ "setInputSRLCurveParameter:"
++ "matchesMetalCommandQueue:processingType:useStyleEngine:"
++ "@48@0:8@16@24^{CGColorSpace=}32o^@40"
++ "Missing cinematic audio mix input parameters"
++ "initWithMetalContext:"
++ "Missing ambisonic track"
++ "applyInverseCurveToLinearThumbnail"
++ "setMainTrackSourceIdentifier:"
++ "Td,N,V_inputIntensity"
++ "defaultValuesForCast:"
++ "inputColorBias"
++ "Missing semantic style properties"
++ "brightness"
++ "metadataTrackWithIdenfifier:forAsset:"
++ "-[PISemanticStyleRenderer initWithMetalCommandQueue:processingType:useStyleEngine:]"
++ "/Library/Caches/com.apple.xbs/Sources/Photos/workspaces/neutrino/PhotoImaging/Render/PICinematicAudioRenderNode.m"
++ "binCount"
++ "PISemanticStyleProcessor: process failed with error %!d(MISSING)"
++ "roiTileArrayForInput:arguments:outputRect:"
++ "PISemanticStyleLearnNode"
++ "cast"
++ "semanticStyleVideoSettingsForScale:"
++ "@32@0:8@16i24B28"
++ "priorMatrix"
++ "initWithMetalCommandQueue:processingType:useStyleEngine:"
++ "Earthy"
++ "setBaselineExposure:"
++ "subjectMatte"
++ "setInputBaselineExposure:"
++ "inputBaselineExposure"
++ "lightMapData"
++ "srlCurveParameter"
++ "initWithInput:dialogMixBias:renderingStyle:"
++ "StylePriorStrength"
++ "checkInResource:forKey:"
++ "colorBias"
++ "PICinematicAudioRenderNode"
++ "setCast:"
++ "sceneType"
++ "_PISemanticStyleAdjustmentKey"
++ "Invalid style cast value: %!{(MISSING)public}@, ignored."
++ "setSourceSampleDataTrackIDs:"
++ "-[PISemanticStyleRenderNode initWithSettings:inputs:]"
++ "Failed to generate linear lightmap image"
++ "inputSceneType"
++ "_brightnessValue"
++ "dialogMixBiasKey"
++ "Input has no audio mix (%!@(MISSING)), creating a new one.."
++ "thumbnailSettingsWithStyleSettings:thumbnailSize:"
++ "memSize"
++ "Failed to generate lightmap image"
++ "setInputSkinMaskTextureMappedRegion:"
++ "setInputGlobalToneCurveTexture:"
++ "setInputStatistics:"
++ "styleTransferLearnNodeWithInput:target:settings:"
++ "v32@?0@\"AVAudioMixInputParameters\"8Q16^B24"
++ "Tq,N,V_renderingStyle"
++ "-[PISemanticStyleLearnNode styleSettingsForPipelineState:]"
++ "cinematicAudioAdjustmentControllerCreatingIfNecessary:"
++ "personLinear"
++ "setInputPersonMaskTextureMappedRegion:"
++ "_processor"
 - "\x0f\x0f\x06"
 
 ```

@@ -35,17 +35,17 @@
 +  CStrings:  2846
  
 CStrings:
-+ "GaussianPyramid"
-+ "video relighting"
-+ "renderContinuousWithSource"
-+ "MPSImageLanczosScale"
 + "disparityPostprocessingWithCanonicalDisparity"
++ "MPSImageLanczosScale"
++ "video relighting"
 + "perf profiler"
-+ "segmentationAverage"
-+ "g17p"
-+ "MPS-prewarming"
-+ "MPSImageBox"
-+ "alphaMattingWithPostprocessedDisparity"
 + "alpha blend"
++ "renderContinuousWithSource"
++ "MPSImageBox"
++ "segmentationAverage"
++ "MPS-prewarming"
++ "alphaMattingWithPostprocessedDisparity"
++ "g17p"
++ "GaussianPyramid"
 
 ```

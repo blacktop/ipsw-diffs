@@ -62,17 +62,17 @@ Symbols:
 + _OBJC_CLASS_$_NTKPigmentEditOption
 + _OBJC_CLASS_$_NSMutableArray
 CStrings:
-+ "pigmentNamed:"
-+ "count"
-+ "v32@?0@\"NSString\"8Q16^B24"
-+ "vivaldi.fall2024.greyBlue"
-+ "vivaldi.fall2024.greenGrey"
-+ "arrayWithCapacity:"
-+ "selectOption:forCustomEditMode:slot:"
-+ "copy"
 + "enumerateObjectsUsingBlock:"
++ "pigmentNamed:"
 + "vivaldi.fall2024.voltSplash"
-+ "addObject:"
++ "vivaldi.fall2024.greyBlue"
++ "arrayWithCapacity:"
++ "count"
 + "vivaldi.fall2024.blueRed"
++ "copy"
++ "v32@?0@\"NSString\"8Q16^B24"
++ "vivaldi.fall2024.greenGrey"
++ "addObject:"
++ "selectOption:forCustomEditMode:slot:"
 
 ```

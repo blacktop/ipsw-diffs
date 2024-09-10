@@ -46,7 +46,7 @@
 +  CStrings:  1317
  
 CStrings:
-+ "beton"
 + "zeus.fall2024"
++ "beton"
 
 ```

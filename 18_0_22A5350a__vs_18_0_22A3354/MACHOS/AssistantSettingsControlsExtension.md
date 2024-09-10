@@ -68,15 +68,15 @@
 Symbols:
 + _swift_retain_n
 CStrings:
-+ " Announce Notifications"
-+ "Siri Announce Notification"
-+ "Siri Automatically Send Messages"
-+ "Announce Notification For"
-+ "Siri Voice Activation"
-+ " Announce Notifications Settings"
-+ "Siri Call Hang Up"
-+ "Siri and Dictation History"
 + "Show Siri Captions"
++ "Siri Announce Notification"
++ "Announce Notification For"
++ " Announce Notifications Settings"
++ " Announce Notifications"
 + "Siri Announce Calls"
++ "Siri Automatically Send Messages"
++ "Siri and Dictation History"
++ "Siri Voice Activation"
++ "Siri Call Hang Up"
 
 ```

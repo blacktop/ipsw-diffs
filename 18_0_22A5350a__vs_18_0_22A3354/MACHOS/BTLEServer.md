@@ -40,7 +40,7 @@
 +  CStrings:  4737
  
 CStrings:
-+ "HRM Classic device connected"
 + "handleHRMDeviceConnectedMsg:"
++ "HRM Classic device connected"
 
 ```

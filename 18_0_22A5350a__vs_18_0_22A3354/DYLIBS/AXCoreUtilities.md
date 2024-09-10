@@ -41,8 +41,8 @@
  
 Symbols:
 + _AXSSwitchControlMenuItemCameraButtonDoubleLightPress
-+ _AXSSwitchControlMenuItemCameraButton
 + _AXSSwitchControlMenuItemCameraButtonLightPress
++ _AXSSwitchControlMenuItemCameraButton
 CStrings:
 + "CameraButtonLightPress"
 + "CameraButtonDoubleLightPress"
