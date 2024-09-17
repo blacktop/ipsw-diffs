@@ -35,6 +35,12 @@
 - [18.1 beta 2 (22B5023e) .vs 18.1 beta 3 (22B5034e)](18_1_22B5023e__vs_18_1_22B5034e/README.md)
 - [18.1 beta 3 (22B5034e) .vs 18.1 beta 4 (22B5045g)](18_1_22B5034e__vs_18_1_22B5045g/README.md)
 
+#### A17 vs. A18
+
+18.1 beta 4
+
+- [iPhone 16 Pro Max vs. iPhone 17 Pro](18_1_22B5045g__vs_18_1_22B5045h/README.md)
+
 ### macOS 15.0 beta
 
 - [15.0 beta 2 (24A5279h) .vs 15.0 beta 3 (24A5289g)](15_0_24A5279h__vs_15_0_24A5289g/TOC.md)
