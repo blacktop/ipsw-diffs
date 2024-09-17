@@ -1,0 +1,589 @@
+## SwiftUI
+
+> `/System/Library/Frameworks/SwiftUI.framework/SwiftUI`
+
+```diff
+
+-6.1.7.1.0
+-  __TEXT.__text: 0x1067ea8
+-  __TEXT.__auth_stubs: 0x103d0
+-  __TEXT.__objc_methlist: 0x50bc
+-  __TEXT.__cstring: 0x20d8b
+-  __TEXT.__const: 0xa298c
++6.1.12.1.0
++  __TEXT.__text: 0x106b380
++  __TEXT.__auth_stubs: 0x10480
++  __TEXT.__objc_methlist: 0x50a4
++  __TEXT.__cstring: 0x20d9b
++  __TEXT.__const: 0xa31dc
+   __TEXT.__gcc_except_tab: 0x8c
+   __TEXT.__dlopen_cstrs: 0xfc
+-  __TEXT.__constg_swiftt: 0x6d6dc
+-  __TEXT.__swift5_typeref: 0x39e20
+-  __TEXT.__swift5_reflstr: 0x23915
+-  __TEXT.__swift5_fieldmd: 0x36a30
+-  __TEXT.__swift5_builtin: 0xc44
+-  __TEXT.__swift5_assocty: 0x17668
+-  __TEXT.__swift5_proto: 0x892c
+-  __TEXT.__swift5_types: 0x50fc
++  __TEXT.__constg_swiftt: 0x6d96c
++  __TEXT.__swift5_typeref: 0x3a110
++  __TEXT.__swift5_reflstr: 0x23bf5
++  __TEXT.__swift5_fieldmd: 0x36c30
++  __TEXT.__swift5_builtin: 0xc58
++  __TEXT.__swift5_assocty: 0x177f0
++  __TEXT.__swift5_proto: 0x896c
++  __TEXT.__swift5_types: 0x5118
+   __TEXT.__swift5_mpenum: 0x6c4
+-  __TEXT.__swift5_capture: 0xf038
+-  __TEXT.__swift5_protos: 0x5dc
+-  __TEXT.__oslogstring: 0x1846
+-  __TEXT.__unwind_info: 0x385c8
+-  __TEXT.__eh_frame: 0x13d90
+-  __TEXT.__objc_classname: 0xd93
+-  __TEXT.__objc_methname: 0x13146
+-  __TEXT.__objc_methtype: 0x60b9
+-  __TEXT.__objc_stubs: 0x840
+-  __DATA_CONST.__got: 0x4de0
+-  __DATA_CONST.__const: 0x1980
+-  __DATA_CONST.__objc_classlist: 0x7e8
++  __TEXT.__swift5_capture: 0xeef8
++  __TEXT.__swift5_protos: 0x5e0
++  __TEXT.__oslogstring: 0x1a96
++  __TEXT.__unwind_info: 0x38868
++  __TEXT.__eh_frame: 0x141b0
++  __TEXT.__objc_classname: 0xd7d
++  __TEXT.__objc_methname: 0x1303c
++  __TEXT.__objc_methtype: 0x611d
++  __TEXT.__objc_stubs: 0x740
++  __DATA_CONST.__got: 0x4dd0
++  __DATA_CONST.__const: 0x19a0
++  __DATA_CONST.__objc_classlist: 0x7f0
+   __DATA_CONST.__objc_catlist: 0x98
+   __DATA_CONST.__objc_protolist: 0x718
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x4490
++  __DATA_CONST.__objc_selrefs: 0x4458
+   __DATA_CONST.__objc_protorefs: 0x398
+   __DATA_CONST.__objc_superrefs: 0x8
+-  __AUTH_CONST.__auth_got: 0x81f8
+-  __AUTH_CONST.__auth_ptr: 0xb830
+-  __AUTH_CONST.__const: 0x890c8
++  __AUTH_CONST.__auth_got: 0x8250
++  __AUTH_CONST.__auth_ptr: 0xb978
++  __AUTH_CONST.__const: 0x891b0
+   __AUTH_CONST.__cfstring: 0xa0
+-  __AUTH_CONST.__objc_const: 0x1d2e8
+-  __AUTH.__objc_data: 0x7e30
+-  __AUTH.__data: 0x27970
++  __AUTH_CONST.__objc_const: 0x1d498
++  __AUTH.__objc_data: 0x7e50
++  __AUTH.__data: 0x27810
+   __DATA.__objc_ivar: 0x14
+-  __DATA.__data: 0x48770
++  __DATA.__data: 0x48a70
+   __DATA.__objc_stublist: 0x40
+-  __DATA.__bss: 0xbe968
+-  __DATA.__common: 0xc30
+-  __DATA_DIRTY.__objc_data: 0x2470
+-  __DATA_DIRTY.__data: 0xf618
+-  __DATA_DIRTY.__bss: 0x18dd0
+-  __DATA_DIRTY.__common: 0x4d8
++  __DATA.__bss: 0xbf508
++  __DATA.__common: 0xc40
++  __DATA_DIRTY.__objc_data: 0x2478
++  __DATA_DIRTY.__data: 0xf3f0
++  __DATA_DIRTY.__bss: 0x188d0
++  __DATA_DIRTY.__common: 0x4d0
+   - /System/Library/Frameworks/Accessibility.framework/Accessibility
+   - /System/Library/Frameworks/Combine.framework/Combine
+   - /System/Library/Frameworks/CoreData.framework/CoreData
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libicucore.A.dylib
+   - /usr/lib/libobjc.A.dylib
+-  - /usr/lib/swift/libswiftAVFoundation.dylib
+   - /usr/lib/swift/libswiftAccelerate.dylib
+   - /usr/lib/swift/libswiftCore.dylib
+-  - /usr/lib/swift/libswiftCoreAudio.dylib
+   - /usr/lib/swift/libswiftCoreFoundation.dylib
+   - /usr/lib/swift/libswiftCoreImage.dylib
+-  - /usr/lib/swift/libswiftCoreLocation.dylib
+-  - /usr/lib/swift/libswiftCoreMIDI.dylib
+-  - /usr/lib/swift/libswiftCoreMedia.dylib
+   - /usr/lib/swift/libswiftDarwin.dylib
+   - /usr/lib/swift/libswiftDataDetection.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+
+   - /usr/lib/swift/libswiftsimd.dylib
+   - /usr/lib/swift/libswiftsys_time.dylib
+   - /usr/lib/swift/libswiftunistd.dylib
+-  Functions: 89789
+-  Symbols:   125883
+-  CStrings:  6627
++  Functions: 90007
++  Symbols:   126261
++  CStrings:  6626
+ 
+Symbols:
++ _$s7SwiftUI17ImageRendererHostC02cgC5Scale12CoreGraphics7CGFloatVvs
++ _$s7SwiftUI37ScrollContentOffsetAdjustmentBehaviorV4RoleOMn
++ _$s7SwiftUI16PreferenceValuesVMn
++ _$s7SwiftUI18SectionAccumulatorV4ItemV11sectionListAA05_Viewg1_C0VSgvs
++ _$s7SwiftUI5ScenePAAE26documentBrowserContextMenuyQrqd__Say10Foundation3URLVGSgcAA4ViewRd__lFQOMQ
++ _$s7SwiftUI17ImageRendererHostC23propertiesNeedingUpdateAA04ViewdE10PropertiesVvs
++ _$s7SwiftUI17ImageRendererHostCyxGAA13GraphDelegateAAMc
++ _$s7SwiftUI18SectionAccumulatorV4ItemV8FeaturesVMn
++ _$s7SwiftUI18SectionAccumulatorV6RowIDsVMn
++ _$s7SwiftUI19ScrollableContainerPAAE19adjustContentOffset2by6reasonSbSo6CGSizeV_AA0fG16AdjustmentReasonOtF
++ _$s7SwiftUI14PreferenceKeysV8containsySbAA0C3Key_pXpF
++ _$s7SwiftUI16RendererLeafViewPAAE8contains6points4sizeAA11BitVector64VSRySo7CGPointVG_So6CGSizeVtF
++ _$sSo6CGRectV7SwiftUIE26convertAndClipToScrollView2to9transformSbAC15CoordinateSpaceO_AC0I9TransformVtF
++ _$s7SwiftUI18SectionAccumulatorV10formResult4from13listAttribute22includeEmptySectionsIfyAA8ViewList_p_0I5Graph0I0VyAaH_pGSgSbAA15ContainerValuesVXEtFfA1_
++ _$s7SwiftUI17ImageRendererHostCMo
++ _$s7SwiftUI18SectionAccumulatorV4ItemVMn
++ _$s7SwiftUI19ViewTraitCollectionVAAE12isExpandableSbvg
++ _$s7SwiftUI14_UIHostingViewC16currentTimestampAA4TimeVvs
++ _$s7SwiftUI18SectionAccumulatorV4ItemV8FeaturesV8rawValues5UInt8Vvg
++ _$s7SwiftUI17ImageRendererHostC29updateScrollableContainerSizeyyF
++ _$s7SwiftUI17ImageRendererHostC16currentTimestampAA4TimeVvpMV
++ _$s7SwiftUI17ImageRendererHostC02cgC5Scale12CoreGraphics7CGFloatVvg
++ _$s7SwiftUI17ImageRendererHostC02cgC4SizeSo6CGSizeVvg
++ _$s7SwiftUI16PreferenceValuesV4seedAA11VersionSeedVvg
++ _$s7SwiftUI4ViewPAAE16_fullScreenSheet11isPresented9onDismiss7contentQrAA7BindingVySbG_yycSgqd__yctAaBRd__lFQOMQ
++ _$s7SwiftUI32WindowContentShapeSizingBehaviorV4noneACvgZ
++ _$s7SwiftUI17ImageRendererHostC02cgC11NeedsUpdateSbvpMV
++ _$s7SwiftUI37ScrollContentOffsetAdjustmentBehaviorV4roleAC4RoleOvpMV
++ _$s7SwiftUI18SectionAccumulatorV6RowIDsV5ChunkVN
++ _$s7SwiftUI16ViewRendererHostPAAE11isRenderingSbvg
++ _$s7SwiftUI18SectionAccumulatorV6RowIDsVSlAAMc
++ _$s7SwiftUI17ImageRendererHostC02cgC0So10CGImageRefaSgvpMV
++ _$s7SwiftUI18SectionAccumulatorV6RowIDsV5ChunkV10lowerBoundSivM
++ _$s7SwiftUI18SectionAccumulatorV6RowIDsV5ChunkVMa
++ _$s7SwiftUI18SectionAccumulatorV6RowIDsVN
++ _$s7SwiftUI18SectionAccumulatorV6RowIDsV5ChunkV4list0H9Attribute9transform5start5count10lowerBoundAgA8ViewList_p_0I5Graph0I0VyAaN_pGSgAA01_oP17_SublistTransformVS3itcfC
++ _$s7SwiftUI17ImageRendererHostC19externalUpdateCountSivg
++ _$s7SwiftUI18SectionAccumulatorV6RowIDsVSKAAMc
++ _$s7SwiftUI18SectionAccumulatorV4ItemV9transformAA26_ViewList_SublistTransformVvM
++ _$s7SwiftUI18SectionAccumulatorV4ItemV8featuresAE8FeaturesVvM
++ _$s7SwiftUI29ContentOffsetAdjustmentReasonOMn
++ _$s7SwiftUI15ContainerValuesV4baseAA19ViewTraitCollectionVvs
++ _$s7SwiftUI17ImageRendererHostC14renderingPhaseAA013ViewRenderingG0Ovs
++ _$s7SwiftUI18SectionAccumulatorV4ItemV11sectionListAA05_Viewg1_C0VSgvpMV
++ _$s7SwiftUI17ImageRendererHostC9viewGraphAA04ViewG0Cvg
++ _$s7SwiftUI18SectionAccumulatorV6RowIDsVSTAAMc
++ _$s7SwiftUI9GraphHostC20hostPreferenceValues09AttributeC004WeakH0VyAA0fG0VGvM
++ _$s7SwiftUI18SectionAccumulatorV4ItemVN
++ _$s7SwiftUI17ImageRendererHostC02cgC5Scale12CoreGraphics7CGFloatVvpMV
++ _$s7SwiftUI18SectionAccumulatorV4ItemV3idsAC6RowIDsVvs
++ _$s7SwiftUI18SectionAccumulatorVMa
++ _$s7SwiftUI18SubviewsCollectionV4baseAA22_VariadicView_ChildrenVvs
++ _$s7SwiftUI19ViewTraitCollectionVAAE10isExpandedAA7BindingVySbGSgvM
++ _$s7SwiftUI9_ViewTestPAAE17systemColorSchemeSo20UIUserInterfaceStyleVSgvg
++ _$s7SwiftUI25_ContentShapeKindModifierV8contains6points4sizeAA11BitVector64VSRySo7CGPointVG_So6CGSizeVtF
++ _$s7SwiftUI17ImageRendererHostC14renderingPhaseAA013ViewRenderingG0OvpMV
++ _$s7SwiftUI18SectionAccumulatorV6RowIDsVyAA12_ViewList_IDV9CanonicalVSicipMV
++ _$s7SwiftUI18SectionAccumulatorV4ItemV5startSivpMV
++ _$s7SwiftUI14_UIHostingViewC16isHiddenForReuseSbvM
++ _$s7SwiftUI18PreferencesOutputsV17forEachPreferenceyyyAA0G3Key_pXp_So11AGAttributeatXEF
++ _$s7SwiftUI28ImprovedButtonGestureFeatureV9isEnabledSbvgZ
++ _$s7SwiftUI18SectionAccumulatorV4ItemV11headerCountSivs
++ _$s7SwiftUI14_UIHostingViewC14renderingPhaseAA0d9RenderingF0Ovs
++ _$s7SwiftUI18SectionAccumulatorV4ItemV11footerCountSivM
++ _$s7SwiftUI18SectionAccumulatorV4ItemV8FeaturesV8rawValueAGs5UInt8V_tcfC
++ _$s7SwiftUI15ContainerValuesV4baseAcA19ViewTraitCollectionV_tcfcfA_
++ _$s7SwiftUI18SectionAccumulatorV5itemsSayAC4ItemVGvpMV
++ _$s7SwiftUI21_SemanticFeature_v6_1VAA0cD0AAWP
++ _$s7SwiftUI16PreferenceValuesVN
++ _$s7SwiftUI19ViewTraitCollectionVAAE10isExpandedAA7BindingVySbGSgvs
++ _$s7SwiftUI18SectionAccumulatorV4ItemV15contentSubgraphSo13AGSubgraphRefaSgvpMV
++ _$s7SwiftUI4ViewPAAE18windowContentShape_14sizingBehaviorQrqd___AA06Windowef6SizingH0VtAA0F0Rd__lFQOMQ
++ _$s7SwiftUI5ScenePAAE26documentBrowserContextMenuyQrqd__Say10Foundation3URLVGSgcAA4ViewRd__lF
++ _$s7SwiftUI18SectionAccumulatorV4ItemV2ids6UInt32Vvg
++ _$s7SwiftUI16ContentResponderP8contains6points4sizeAA11BitVector64VSRySo7CGPointVG_So6CGSizeVtFTq
++ _$s7SwiftUI14_UIHostingViewC19environmentOverrideAA17EnvironmentValuesVSgvg
++ _$s7SwiftUI18SectionAccumulatorV6RowIDsV0F0ON
++ _$s7SwiftUI19ViewTraitCollectionVAAE10isExpandedAA7BindingVySbGSgvg
++ _$s7SwiftUI4PathV8contains6points6eoFill6originAA11BitVector64VSRySo7CGPointVG_SbAKtF
++ _$s7SwiftUI17ImageRendererHostC16currentTimestampAA4TimeVvM
++ _$s7SwiftUI7SubviewV4baseAA22_VariadicView_ChildrenV7ElementVvs
++ _$s7SwiftUI37ScrollContentOffsetAdjustmentBehaviorV4RoleO9hashValueSivpMV
++ _$s7SwiftUI32WindowContentShapeSizingBehaviorVMa
++ _$s7SwiftUI18SectionAccumulatorV15contentSubgraphACSo13AGSubgraphRefaSg_tcfC
++ _$s7SwiftUI17ImageRendererHostCMn
++ _$s7SwiftUI18SectionAccumulatorV5itemsSayAC4ItemVGvg
++ _$s7SwiftUI17ImageRendererHostC9viewGraphAA04ViewG0CvpMV
++ _$s7SwiftUI22GroupElementsOfContentV8subviews7contentACyxq_Gx_q_AA18SubviewsCollectionVctcfC
++ _$s7SwiftUI17ImageRendererHostC02cgC11NeedsUpdateSbvs
++ _$s7SwiftUI7SubviewV4baseAA22_VariadicView_ChildrenV7ElementVvpMV
++ _$s7SwiftUI18SectionAccumulatorV6RowIDsVSkAAMc
++ _$s7SwiftUI14_UIHostingViewC23propertiesNeedingUpdateAA0D22RendererHostPropertiesVvM
++ _$s7SwiftUI16PreferenceValuesVACycfC
++ _$s7SwiftUI17ImageRendererHostC17updateEnvironmentyyF
++ _$s7SwiftUI18SectionAccumulatorV4ItemV11footerCountSivg
++ _$s7SwiftUI17ImageRendererHostC23propertiesNeedingUpdateAA04ViewdE10PropertiesVvM
++ _$s7SwiftUI18SectionAccumulatorV6RowIDsV5ChunkV10lowerBoundSivs
++ _$s7SwiftUI10ScrollableP19adjustContentOffset2by6reasonSbSo6CGSizeV_AA0eF16AdjustmentReasonOtFTq
++ _$s7SwiftUI37ScrollContentOffsetAdjustmentBehaviorV4RoleON
++ _$s7SwiftUI18SectionAccumulatorV4ItemV11headerCountSivpMV
++ _$s7SwiftUI18SubviewsCollectionV4baseAA22_VariadicView_ChildrenVvM
++ _$s7SwiftUI16PreferenceValuesVyAC5ValueVy_ADQzGxmcAA0C3KeyRzluig
++ _$s7SwiftUI18SectionAccumulatorV4ItemV9transformAA26_ViewList_SublistTransformVvg
++ _$s7SwiftUI9ViewGraphC22updatePreferenceBridge11environment14deferredUpdateyAA17EnvironmentValuesV_yyctF
++ _$sScM7SwiftUIE31assumeIsolatedIfLinkedOnOrAfter__4file4linexAA9SemanticsV_xyKScMYcXEs12StaticStringVSutKs8SendableRzlFZ
++ _$s7SwiftUI37ScrollContentOffsetAdjustmentBehaviorV4RoleO7enabledyA2EmFWC
++ _$s7SwiftUI7SubviewV4baseAA22_VariadicView_ChildrenV7ElementVvg
++ _$s7SwiftUI4ViewPAAE7popover11isPresented16attachmentAnchor10arrowEdges7contentQrAA7BindingVySbG_AA017PopoverAttachmentH0OAA4EdgeO3SetVqd__yctAaBRd__lF
++ _$s7SwiftUI18SectionAccumulatorV4ItemV11footerCountSivpMV
++ _$s7SwiftUI17ImageRendererHostC02cgC4SizeSo6CGSizeVvpMV
++ _$s7SwiftUI18SectionAccumulatorV9viewCountSivpMV
++ _$s7SwiftUI18SectionAccumulatorV6RowIDsV0F0O7sublistyAgA12_ViewList_IDV17ElementCollectionVcAGmFWC
++ _$s7SwiftUI37ScrollContentOffsetAdjustmentBehaviorV4RoleOSHAAMc
++ _$s7SwiftUI18SectionAccumulatorV6RowIDsVyAA12_ViewList_IDV9CanonicalVSicig
++ _$s7SwiftUI17ImageRendererHostC02cgC5Scale12CoreGraphics7CGFloatVvM
++ _$s7SwiftUI17ImageRendererHostCyxGAA04ViewdE0AAMc
++ _$s7SwiftUI17ImageRendererHostC14renderingPhaseAA013ViewRenderingG0OvM
++ _$s7SwiftUI17ImageRendererHostC14updateRootViewyyF
++ _$s7SwiftUI18SectionAccumulatorV4ItemV4listAA8ViewList_pvg
++ _$s7SwiftUI19ViewTraitCollectionVAAE12isExpandableSbvM
++ _$s7SwiftUI18SectionAccumulatorV4ItemV11sectionListAA05_Viewg1_C0VSgvg
++ _$s7SwiftUI18SectionAccumulatorV6RowIDsV5ChunkV3idsAE0F0OvM
++ _$s7SwiftUI17ImageRendererHostC02cgC11NeedsUpdateSbvM
++ _$s7SwiftUI21_SemanticFeature_v6_1VN
++ _$s7SwiftUI14_UIHostingViewC16currentTimestampAA4TimeVvM
++ _$s7SwiftUI13ImageRendererC10accessSeedyyF
++ _$s7SwiftUI18SectionAccumulatorV4ItemV3idsAC6RowIDsVvg
++ _$s7SwiftUI10VisibilityO9isVisible9automaticS2byXK_tF
++ _$s7SwiftUI18SubviewsCollectionV4list15contentSubgraph9transformAcA8ViewList_p_So13AGSubgraphRefaAA01_iJ17_SublistTransformVtcfC
++ _$s7SwiftUI17ImageRendererHostC19externalUpdateCountSivs
++ _$s7SwiftUI14_UIHostingViewC16currentTimestampAA4TimeVvg
++ _$s7SwiftUI17ImageRendererHostC02cgC4SizeSo6CGSizeVvM
++ _$s7SwiftUI17ImageRendererHostC09_platformC0yXlSgvg
++ _$s7SwiftUI18SectionAccumulatorV4ItemV3idsAC6RowIDsVvM
++ _$s7SwiftUI18SectionAccumulatorV6RowIDsV8endIndexSivg
++ _$s7SwiftUI14_UIHostingViewC14renderingPhaseAA0d9RenderingF0OvM
++ _$s7SwiftUI18SectionAccumulatorV4ItemV5countSivg
++ _$s7SwiftUI18SectionAccumulatorV6RowIDsV3idsAESayAA12_ViewList_IDVG_tcfC
++ _$s7SwiftUI10VisibilityO8rawValueACSgSi_tcfC
++ _$s7SwiftUI4ViewPAAE7popover11isPresented16attachmentAnchor10arrowEdges7contentQrAA7BindingVySbG_AA017PopoverAttachmentH0OAA4EdgeO3SetVqd__yctAaBRd__lFQOMQ
++ _$s7SwiftUI37ScrollContentOffsetAdjustmentBehaviorV4roleAC4RoleOvM
++ _$s7SwiftUI16PreferenceValuesV5ValueVMn
++ _$s7SwiftUI18SectionAccumulatorV4ItemV3idsAC6RowIDsVvpMV
++ _$s7SwiftUI18SectionAccumulatorV4ItemV15contentSubgraphSo13AGSubgraphRefaSgvM
++ _$s7SwiftUI37ScrollContentOffsetAdjustmentBehaviorV4roleAC4RoleOvs
++ _$s7SwiftUI10TabContentPAAE8disabledyQrSbF
++ _$s7SwiftUI7SubviewV2IDV4bases11AnyHashableVvg
++ _$s7SwiftUI37ScrollContentOffsetAdjustmentBehaviorV4RoleOMa
++ _$s7SwiftUI16PreferenceValuesVyAC5ValueVy_ADQzGxmcAA0C3KeyRzluis
++ _$s7SwiftUI14_UIHostingViewC16isHiddenForReuseSbvs
++ _$s7SwiftUI4ViewPAAE16_fullScreenSheet11isPresented9onDismiss7contentQrAA7BindingVySbG_yycSgqd__yctAaBRd__lF
++ _$s7SwiftUI17ImageRendererHostC17renderDisplayList_14asynchronously4time8nextTime15targetTimestamp7version10maxVersionAA0L0VAA0gH0V_SbA3LSgAN0Q0VAQtF
++ _$s7SwiftUI17ImageRendererHostC16modifyViewInputsyyAA01_gH0VzF
++ _$s7SwiftUI14_UIHostingViewC19environmentOverrideAA17EnvironmentValuesVSgvM
++ _$s7SwiftUI19ViewTraitCollectionVAAE10isExpandedAA7BindingVySbGSgvpMV
++ _$s7SwiftUI13ImageRendererC8rendererAA0cD4HostCyxGvpMV
++ _$s7SwiftUI18SubviewsCollectionV4baseAA22_VariadicView_ChildrenVvpMV
++ _$s7SwiftUI22_VariadicView_ChildrenV7ElementVy5ValueQzxmcAA01_D8TraitKeyRzluig
++ _$s7SwiftUI18SectionAccumulatorV4ItemV4listAA8ViewList_pvs
++ _$s7SwiftUI18SectionAccumulatorV6RowIDsV5ChunkV5countSivg
++ _$s7SwiftUI18SectionAccumulatorV4ItemV8FeaturesVSYAAMc
++ _$s7SwiftUI18SectionAccumulatorV4ItemV15contentSubgraphSo13AGSubgraphRefaSgvs
++ _$s7SwiftUI18SectionAccumulatorV6RowIDsV5ChunkV10lowerBoundSivg
++ _$s7SwiftUI18SectionAccumulatorV10formResult4from13listAttribute22includeEmptySectionsIfyAA8ViewList_p_0I5Graph0I0VyAaH_pGSgSbAA15ContainerValuesVXEtF
++ _$s7SwiftUI17ImageRendererHostCyxGAA17ViewGraphDelegateAAMc
++ _$s7SwiftUI4ViewPAAE046popoverAutomaticallyDismissesWhenScrolledOutOfC0yQrSbFQOMQ
++ _$s7SwiftUI4ViewPAAE18windowContentShape_14sizingBehaviorQrqd___AA06Windowef6SizingH0VtAA0F0Rd__lF
++ _$s7SwiftUI18SectionAccumulatorV4ItemV8FeaturesVs25ExpressibleByArrayLiteralAAMc
++ _$s7SwiftUI4ViewPAAE7popover4item16attachmentAnchor10arrowEdges7contentQrAA7BindingVyqd__SgG_AA017PopoverAttachmentG0OAA4EdgeO3SetVqd_0_qd__cts12IdentifiableRd__AaBRd_0_r0_lF
++ _$s7SwiftUI18SectionAccumulatorV4ItemV8featuresAE8FeaturesVvs
++ _$s7SwiftUI18SectionAccumulatorV4ItemV5startSivg
++ _$s7SwiftUI17ImageRendererHostC09_platformC0yXlSgvs
++ _$s7SwiftUI18SectionAccumulatorV6RowIDsV0F0OMn
++ _$s7SwiftUI18SectionAccumulatorV4ItemV11footerCountSivs
++ _$s7SwiftUI37ScrollContentOffsetAdjustmentBehaviorV4RoleO2eeoiySbAE_AEtFZ
++ _$s7SwiftUI17ImageRendererHostC23propertiesNeedingUpdateAA04ViewdE10PropertiesVvpMV
++ _$s7SwiftUI18SectionAccumulatorV4ItemV4listAA8ViewList_pvM
++ _$s7SwiftUI18SectionAccumulatorV6RowIDsV5ChunkV5countSivpMV
++ _$s7SwiftUI14_UIHostingViewC14renderingPhaseAA0d9RenderingF0Ovg
++ _$s7SwiftUI17ImageRendererHostC13requestUpdate5afterySd_tF
++ _$s7SwiftUI18SectionAccumulatorV4ItemV8FeaturesVs9OptionSetAAMc
++ _$s7SwiftUI18SubviewsCollectionVyAcA22_VariadicView_ChildrenVcfC
++ _$s7SwiftUI17withRenderOptionsyyAA04TestdE0V_yyXEtF
++ _$s7SwiftUI17ImageRendererHostC10updateSizeyyF
++ _$s7SwiftUI17ImageRendererHostC23propertiesNeedingUpdateAA04ViewdE10PropertiesVvg
++ _$s7SwiftUI18SectionAccumulatorV4ItemV5startSivs
++ _$s7SwiftUI14PreferenceKeysV6removeyyAA0C3Key_pXpF
++ _$s7SwiftUI15ContainerValuesV4baseAA19ViewTraitCollectionVvpMV
++ _$sSo6CGRectVSQ12CoreGraphicsMc
++ _$s7SwiftUI18SectionAccumulatorV6RowIDsV6chunksAESayAE5ChunkVG_tcfC
++ _$s7SwiftUI17ImageRendererHostC02cgC0So10CGImageRefaSgvg
++ _$s7SwiftUI37ScrollContentOffsetAdjustmentBehaviorV4roleAC4RoleOvg
++ _$s7SwiftUI10VisibilityO8rawValueSivg
++ _$s7SwiftUI37ScrollContentOffsetAdjustmentBehaviorV4RoleO9automaticyA2EmFWC
++ _$s7SwiftUI18SectionAccumulatorV6RowIDsV5ChunkV10lowerBoundSivpMV
++ _$s7SwiftUI14PreferenceKeysV3addyyAA0C3Key_pXpF
++ _$s7SwiftUI13ImageRendererC8rendererAA0cD4HostCyxGvg
++ _$s7SwiftUI18SectionAccumulatorV6RowIDsV4list0G9Attribute5start5countAeA8ViewList_p_0H5Graph0H0VyAaJ_pGSgS2itcfC
++ _$s7SwiftUI17ImageRendererHostC09_platformC0yXlSgvM
++ _$s7SwiftUI18SectionAccumulatorV6RowIDsV5ChunkV5countSivs
++ _$s5UIKit16UITraitOverridesV6removeyyAA0B10Definition_pXpF
++ _$s7SwiftUI18SectionAccumulatorVN
++ _$s7SwiftUI8_TestAppV13renderOptionsAA0c6RenderF0VvgZ
++ _$s7SwiftUI16PreferenceValuesV5ValueVMa
++ _$s7SwiftUI18SectionAccumulatorV4ItemV11headerCountSivM
++ _$s7SwiftUI17ImageRendererHostCMu
++ _$s7SwiftUI18SectionAccumulatorV4ItemV8FeaturesVs10SetAlgebraAAMc
++ _$s7SwiftUI13PreferenceKeyPAAE05visitD0yyqd__zAA0cD7VisitorRd__lFZ
++ _$s7SwiftUI18SectionAccumulatorV6RowIDsV5ChunkVMn
++ _$s7SwiftUI17ImageRendererHostCfd
++ _$s7SwiftUI14_UIHostingViewC23propertiesNeedingUpdateAA0D22RendererHostPropertiesVvs
++ _$s7SwiftUI18SectionAccumulatorV4ItemV7hasRowsSbvpMV
++ _$s7SwiftUI18SectionAccumulatorV4ItemV5countSivpMV
++ _$s7SwiftUI14_UIHostingViewC19externalUpdateCountSivM
++ _$s7SwiftUI18SectionAccumulatorV4ItemV7hasRowsSbvg
++ _$s7SwiftUI18SectionAccumulatorV4ItemV11sectionListAA05_Viewg1_C0VSgvM
++ _$s7SwiftUI18SectionAccumulatorV4ItemV8FeaturesVSQAAMc
++ _$s7SwiftUI4PathV8contains6points6eoFill6originAA11BitVector64VSRySo7CGPointVG_SbAKtFfA1_
++ _$s7SwiftUI16PreferenceValuesV5ValueV4seedAA11VersionSeedVvg
++ _$s7SwiftUI18SectionAccumulatorV4ItemV8featuresAE8FeaturesVvg
++ _$s7SwiftUI18SectionAccumulatorV4ItemV11headerCountSivg
++ _$s7SwiftUI7SubviewV2IDV4bases11AnyHashableVvpMV
++ _$s7SwiftUI17TestRenderOptionsV6simpleACvgZ
++ _$s7SwiftUI7SubviewVyAcA22_VariadicView_ChildrenV7ElementVcfC
++ _$s7SwiftUI19ViewTraitCollectionVAAE12isExpandableSbvs
++ _$s7SwiftUI18SectionAccumulatorV4ItemVMa
++ _$s7SwiftUI9GraphHostC16preferenceValuesAA010PreferenceF0VyF
++ _$s7SwiftUI32WindowContentShapeSizingBehaviorVMn
++ _$s7SwiftUI4ViewPAAE046popoverAutomaticallyDismissesWhenScrolledOutOfC0yQrSbF
++ _$s7SwiftUI17ImageRendererHostC14renderingPhaseAA013ViewRenderingG0Ovg
++ _$s7SwiftUI18SectionAccumulatorV4ItemV8featuresAE8FeaturesVvpMV
++ _$s7SwiftUI15ContainerValuesV4baseAA19ViewTraitCollectionVvM
++ _$s7SwiftUI18SectionAccumulatorV4ItemV8FeaturesVN
++ _$s7SwiftUI17ImageRendererHostC19externalUpdateCountSivpMV
++ _$s7SwiftUI18SectionAccumulatorV6RowIDsV0F0OMa
++ _$s7SwiftUI17ImageRendererHostC16currentTimestampAA4TimeVvg
++ _$s7SwiftUI18SectionAccumulatorV6RowIDsVMa
++ _$s7SwiftUI17ImageRendererHostCfD
++ _$s7SwiftUI16PreferenceValuesV11modifyValue3for9transformyxm_AC0F0Vy_yAGQzzcGtAA0C3KeyRzlF
++ _$s7SwiftUI37ScrollContentOffsetAdjustmentBehaviorV4RoleO9hashValueSivg
++ _$s7SwiftUI5ImageV8LocationON
++ _$s7SwiftUI10VisibilityO8rawValueSivpMV
++ _$s7SwiftUI14_UIHostingViewC19externalUpdateCountSivg
++ _$s7SwiftUI7SubviewVy5ValueQzxmcAA13_ViewTraitKeyRzluig
++ _$s7SwiftUI32WindowContentShapeSizingBehaviorV6bounds6anchorAcA9UnitPointV_tFZ
++ _$s7SwiftUI4ViewPAAE23transformAnchorGeometry3key0D0Qrqd__m_y5ValueQyd__z_AA0eF0VtctAA13PreferenceKeyRd__lF
++ _$s7SwiftUI32WindowContentShapeSizingBehaviorVN
++ _$s7SwiftUI18SectionAccumulatorV4ItemV4listAA8ViewList_pvpMV
++ _$s7SwiftUI17ImageRendererHostC14updateSafeAreayyF
++ _$s7SwiftUI18SectionAccumulatorV4ItemV9transformAA26_ViewList_SublistTransformVvpMV
++ _$s7SwiftUI14_UIHostingViewC19externalUpdateCountSivs
++ _$s7SwiftUI21_ContentShapeModifierV8contains6points4sizeAA11BitVector64VSRySo7CGPointVG_So6CGSizeVtF
++ _$s7SwiftUI17ImageRendererHostC02cgC11NeedsUpdateSbvg
++ _$s7SwiftUI18HostPreferencesKeyV12defaultValueAA16PreferenceValuesVvgZ
++ _$s7SwiftUI37ScrollContentOffsetAdjustmentBehaviorV4RoleO4hash4intoys6HasherVz_tF
++ _$s7SwiftUI19ViewTraitCollectionVAAE12isExpandableSbvpMV
++ _$s7SwiftUI17ImageRendererHostC16currentTimestampAA4TimeVvs
++ _$s7SwiftUI18SubviewsCollectionV4baseAA22_VariadicView_ChildrenVvg
++ _$s7SwiftUI15ContainerValuesV4baseAA19ViewTraitCollectionVvg
++ _$s7SwiftUI37ScrollContentOffsetAdjustmentBehaviorV4RoleOSQAAMc
++ _$s7SwiftUI18SectionAccumulatorV9viewCountSivg
++ _$s7SwiftUI18SectionAccumulatorV4ItemV2ids6UInt32VvM
++ _$s7SwiftUI10TabContentPAAE8disabledyQrSbFQOMQ
++ _$s7SwiftUI18SectionAccumulatorV6RowIDsV10startIndexSivg
++ _$s7SwiftUI7SubviewV4baseAA22_VariadicView_ChildrenV7ElementVvM
++ _$s7SwiftUI18SectionAccumulatorVMn
++ _$s7SwiftUI4ViewPAAE23transformAnchorGeometry3key0D0Qrqd__m_y5ValueQyd__z_AA0eF0VtctAA13PreferenceKeyRd__lFQOMQ
++ _$s7SwiftUI15ContainerValuesV4baseAcA19ViewTraitCollectionV_tcfC
++ _$s7SwiftUI18SectionAccumulatorV6RowIDsV5ChunkV3idsAE0F0Ovg
++ _$s7SwiftUI18SectionAccumulatorV6RowIDsV0F0O08viewListF0yAgA05_ViewH9_ID_ViewsCcAGmFWC
++ _$s7SwiftUI14_UIHostingViewC19environmentOverrideAA17EnvironmentValuesVSgvs
++ _$s7SwiftUI18SectionAccumulatorV4ItemV8FeaturesV8implicitAGvgZ
++ _$s7SwiftUI18SectionAccumulatorV6RowIDsV5ChunkV5countSivM
++ _$s7SwiftUI17ImageRendererHostCMa
++ _$s7SwiftUI18SectionAccumulatorV4ItemV5startSivM
++ _$s7SwiftUI18SectionAccumulatorV4ItemV8FeaturesVMa
++ _$s7SwiftUI18SectionAccumulatorV4ItemV8FeaturesV8rawValues5UInt8VvpMV
++ _$s7SwiftUI18SectionAccumulatorV4ItemV9transformAA26_ViewList_SublistTransformVvs
++ _$s7SwiftUI17ImageRendererHostC19externalUpdateCountSivM
++ _$s7SwiftUI18SectionAccumulatorV4ItemV2ids6UInt32Vvs
++ _$s7SwiftUI18SectionAccumulatorV6RowIDsV10startIndexSivpMV
++ _$s7SwiftUI18SectionAccumulatorV4ItemV2ids6UInt32VvpMV
++ _$s7SwiftUI18SectionAccumulatorV6RowIDsV0F0O7idArrayyAGSayAA12_ViewList_IDVGcAGmFWC
++ _$s7SwiftUI18SectionAccumulatorV25processUnsectionedContent4list15contentSubgraphSayAC4ItemVGSgAA8ViewList_p_So13AGSubgraphRefaSgtFZ
++ _$s7SwiftUI17ImageRendererHostC02cgC4SizeSo6CGSizeVvs
++ _$s7SwiftUI18SectionAccumulatorV4ItemV15contentSubgraphSo13AGSubgraphRefaSgvg
++ _$s7SwiftUI37ScrollContentOffsetAdjustmentBehaviorV4RoleO8disabledyA2EmFWC
++ _$s7SwiftUI4ViewPAAE7popover4item16attachmentAnchor10arrowEdges7contentQrAA7BindingVyqd__SgG_AA017PopoverAttachmentG0OAA4EdgeO3SetVqd_0_qd__cts12IdentifiableRd__AaBRd_0_r0_lFQOMQ
++ _$s7SwiftUI18SectionAccumulatorV6RowIDsV5ChunkV3idsAE0F0Ovs
++ _$s7SwiftUI18SectionAccumulatorV6RowIDsV5ChunkV3idsAE0F0OvpMV
++ _$s7SwiftUI14_UIHostingViewC16isHiddenForReuseSbvg
++ _$s7SwiftUI18SectionAccumulatorV6RowIDsV8endIndexSivpMV
++ _$s7SwiftUI6AnchorVAASQRzlE2eeoiySbACyxG_AEtFZ
++ _$s7SwiftUI9_ViewTestPAAE17systemColorSchemeSo20UIUserInterfaceStyleVSgvpMV
++ _$s7SwiftUI17ImageRendererHostC09_platformC0yXlSgvpMV
++ _$s7SwiftUI16PreferenceValuesV5ValueV5valuexvg
++ _$s7SwiftUI14_UIHostingViewC23propertiesNeedingUpdateAA0D22RendererHostPropertiesVvg
++ _$s7SwiftUI32WindowContentShapeSizingBehaviorV4rect4size6anchorACSo6CGSizeV_AA9UnitPointVtFZ
+- __swift_FORCE_LOAD_$_swiftCoreAudio
+- _$s7SwiftUI21_ContentShapeModifierV8contains6points4sizeAA11BitVector64VSaySo7CGPointVG_So6CGSizeVtF
+- _$s7SwiftUI9GraphHostC20hostPreferenceValues09AttributeC004WeakH0VyAA0F4ListVGvM
+- _$s7SwiftUI14PreferenceListV5ValueV4seedAA11VersionSeedVvg
+- _$s7SwiftUI14_UIHostingViewC16isHiddenForReuseSbvMTq
+- __UIKitAddSubview
+- _$s7SwiftUI14_UIHostingViewC14renderingPhaseAA0d9RenderingF0OvMTj
+- _CGRectIsInfinite
+- _$s7SwiftUI14PreferenceListVN
+- _$s7SwiftUI14_UIHostingViewC14renderingPhaseAA0d9RenderingF0OvsTq
+- _$s7SwiftUI17_AnyPreferenceKeyVMa
+- _$s7SwiftUI14_UIHostingViewC16isHiddenForReuseSbvgTq
+- _$s7SwiftUI14_UIHostingViewC19externalUpdateCountSivgTq
+- _$s7SwiftUI14FrameAlignmentMp
+- _$s7SwiftUI14_UIHostingViewC16currentTimestampAA4TimeVvMTq
+- _$sSo8NSObjectCs23CustomStringConvertible10FoundationMc
+- _$s7SwiftUI14PreferenceListV4seedAA11VersionSeedVvg
+- _CALayerGetSuperlayer
+- _$s7SwiftUI9GraphHostC16preferenceValuesAA14PreferenceListVyF
+- _$s7SwiftUI14PreferenceListV5ValueVMa
+- _$s7SwiftUI18PreferencesOutputsV17forEachPreferenceyyyAA03AnyG3Key_pXp_So11AGAttributeatXEF
+- _$s7SwiftUI14_UIHostingViewC16currentTimestampAA4TimeVvgTq
+- _$s7SwiftUI14PreferenceKeysV6removeyyxmAA0C3KeyRzlF
+- _$s7SwiftUI14PreferenceListVyAC5ValueVy_ADQzGxmcAA0C3KeyRzluis
+- _$s7SwiftUI14_UIHostingViewC23propertiesNeedingUpdateAA0D22RendererHostPropertiesVvMTj
+- _$s7SwiftUI14_UIHostingViewC19environmentOverrideAA17EnvironmentValuesVSgvMTq
+- _$s7SwiftUI14FrameAlignmentPAA0D2IDTb
+- _$s7SwiftUI14_UIHostingViewC8rendererAA11DisplayListVAAE0D8RendererCvg
+- _$s7SwiftUI14_UIHostingViewC16isHiddenForReuseSbvgTj
+- _$s7SwiftUI4PathV8contains6points6eoFill6originAA11BitVector64VSaySo7CGPointVG_SbAKtFfA1_
+- _$s7SwiftUI14PreferenceKeysV3addyyxmAA0C3KeyRzlF
+- _$s7SwiftUI14PreferenceListVyAC5ValueVy_ADQzGxmcAA0C3KeyRzluig
+- _$s7SwiftUI4EdgeON
+- _$s7SwiftUI14_UIHostingViewC24updateGraphPhaseIfNeeded09newParentG0yAA01_F6InputsV0G0V_tF
+- _$s7SwiftUI14_UIHostingViewC23propertiesNeedingUpdateAA0D22RendererHostPropertiesVvgTq
+- _$s7SwiftUI14_UIHostingViewC16currentTimestampAA4TimeVvMTj
+- _$s7SwiftUI14_UIHostingViewC23propertiesNeedingUpdateAA0D22RendererHostPropertiesVvsTj
+- _$s7SwiftUI14_UIHostingViewC14renderingPhaseAA0d9RenderingF0OvMTq
+- _$s7SwiftUI10ScrollableP19adjustContentOffset2bySbSo6CGSizeV_tFTq
+- _$s7SwiftUI14_UIHostingViewC19externalUpdateCountSivsTq
+- _$s7SwiftUI18HostPreferencesKeyV12defaultValueAA14PreferenceListVvgZ
+- _$s7SwiftUI14_UIHostingViewC19environmentOverrideAA17EnvironmentValuesVSgvgTq
+- _$s7SwiftUI17_AnyPreferenceKeyVyxGAA0cdE0AAMc
+- _$s7SwiftUI14_UIHostingViewC16isHiddenForReuseSbvsTq
+- _$s7SwiftUI14PreferenceListV5ValueVMn
+- _$s7SwiftUI14_UIHostingViewC19externalUpdateCountSivMTq
+- __swift_FORCE_LOAD_$_swiftCoreMIDI
+- _$s7SwiftUI20PreferenceKeyVisitorMp
+- _$s7SwiftUI14PreferenceListV11modifyValue3for9transformyxm_AC0F0Vy_yAGQzzcGtAA0C3KeyRzlF
+- _$s7SwiftUI14_UIHostingViewC23propertiesNeedingUpdateAA0D22RendererHostPropertiesVvgTj
+- _$s7SwiftUI14_UIHostingViewC19externalUpdateCountSivgTj
+- _$s7SwiftUI14_UIHostingViewC14renderingPhaseAA0d9RenderingF0OvgTj
+- _$s7SwiftUI14_UIHostingViewC16isHiddenForReuseSbvMTj
+- _$s7SwiftUI19ScrollableContainerPAAE19adjustContentOffset2bySbSo6CGSizeV_tF
+- _$s7SwiftUI14_UIHostingViewC14renderingPhaseAA0d9RenderingF0OvsTj
+- _$s7SwiftUI16AnyPreferenceKeyMp
+- _$s7SwiftUI14PreferenceListVMn
+- _$s7SwiftUI14_UIHostingViewC8rendererAA11DisplayListVAAE0D8RendererCvpMV
+- _$s7SwiftUI14_UIHostingViewC23propertiesNeedingUpdateAA0D22RendererHostPropertiesVvMTq
+- _$s7SwiftUI14_UIHostingViewC16currentTimestampAA4TimeVvgTj
+- _$s7SwiftUI14_UIHostingViewC19externalUpdateCountSivsTj
+- _$s7SwiftUI25_ContentShapeKindModifierV8contains6points4sizeAA11BitVector64VSaySo7CGPointVG_So6CGSizeVtF
+- _$s7SwiftUI16ContentResponderP8contains6points4sizeAA11BitVector64VSaySo7CGPointVG_So6CGSizeVtFTq
+- _$s7SwiftUI14_UIHostingViewC19environmentOverrideAA17EnvironmentValuesVSgvsTq
+- _$s7SwiftUI14_UIHostingViewC23propertiesNeedingUpdateAA0D22RendererHostPropertiesVvsTq
+- __swift_FORCE_LOAD_$_swiftAVFoundation
+- _$sSo6CGRectV7SwiftUIE33whileClippingToScrollViewsConvert2to9transformSbAC15CoordinateSpaceO_AC13ViewTransformVtF
+- _$s7SwiftUI14_UIHostingViewC19environmentOverrideAA17EnvironmentValuesVSgvgTj
+- _$s7SwiftUI16RendererLeafViewPAAE8contains6points4sizeAA11BitVector64VSaySo7CGPointVG_So6CGSizeVtF
+- _$s7SwiftUI14_UIHostingViewC19externalUpdateCountSivMTj
+- __swift_FORCE_LOAD_$_swiftCoreMedia
+- _$s7SwiftUI14_UIHostingViewC16isHiddenForReuseSbvsTj
+- _$s7SwiftUI14PreferenceListVACycfC
+- _$s7SwiftUI14_UIHostingViewC14renderingPhaseAA0d9RenderingF0OvgTq
+- _$s7SwiftUI14PreferenceKeysV3addyyAA03AnyC3Key_pXpF
+- _$s7SwiftUI14_UIHostingViewC16currentTimestampAA4TimeVvsTq
+- _$s7SwiftUI14_UIHostingViewC19environmentOverrideAA17EnvironmentValuesVSgvMTj
+- __swift_FORCE_LOAD_$_swiftCoreLocation
+- _$s7SwiftUI20PreferenceKeyVisitorP5visit3keyyqd__m_tAA0cD0Rd__lFTq
+- _$s7SwiftUI4PathV8contains6points6eoFill6originAA11BitVector64VSaySo7CGPointVG_SbAKtF
+- _$s7SwiftUI14_UIHostingViewC19environmentOverrideAA17EnvironmentValuesVSgvsTj
+- _$s7SwiftUI14_UIHostingViewC16currentTimestampAA4TimeVvsTj
+- _$s7SwiftUI14PreferenceKeysV8containsySbxmAA0C3KeyRzlF
+- _$s7SwiftUI14PreferenceListV5ValueV5valuexvg
+CStrings:
++ "Couldn't find element for tab\n'%!s(MISSING)'"
++ "Can't present popover, only going to try to dismiss"
++ "View controller %!@(MISSING) is already dismissing, not going to dismiss again"
++ "_tabBarController:sidebar:itemsForAddingToDragSession:tab:"
++ "\nViewList.ID.Canonical: "
++ "setDisabled:"
++ "body() should not be called on ResolvedDocumentGroupsIntroRootView."
++ "Presenting new popover"
++ "Not presenting new popover, source view is scrolled out of bounds"
++ "Dismissing popover for pc %!@(MISSING) due to scrolling out of bounds"
++ "_stagePhase"
++ "positionTranslation"
++ "_TtC7SwiftUIP33_D03D906BE16D60978DB484CD1BCAACE321DocumentAccessoryView"
++ "presentationOptionsTracker"
++ "_TtC7SwiftUI17UIHostingViewBase"
++ "_stage"
++ "Couldn't find popover source view size. Not going to compute whether\nto dismiss."
++ "_setWantsFullScreen:"
++ "SwiftUI/UIInteractionRepresentable.swift"
++ "uiView"
++ "backgroundTracker"
++ "body() should not be called on (ResetTabViewEnvironmentModifier in _46AF493CB757ED2F6F4798255A451BB8)."
++ "@\"NSArray\"48@0:8@\"UITabBarController\"16@\"UITabBarControllerSidebar\"24@\"<UIDragSession>\"32@\"UITab\"40"
++ "Failed to update view destination view with ID: %!s(MISSING)"
++ "_tabBarController:sidebar:itemsForBeginningDragSession:tab:"
++ "escapeKeyPressed"
++ "_numberOfStages"
++ "SwiftUI/CustomizableDocumentViewController.swift"
++ "Updated tab environment to tabBarPlacement: %!s(MISSING) showingSections\n%!{(MISSING)bool}d"
++ "Creating stack navigation controller"
++ "documentBrowserContextMenu"
++ "Item-bound destination modifiers should not be used in Lists. Support will be removed in a future release."
++ "Dismissing popover"
++ "Replacing existing popover with new one"
++ "lastInteractiveDismissDisabled"
++ "isDisabled"
++ "oldContentMargins"
++ "NavigationLink value: "
+- "presentationOptionsSeed"
+- "sceneWillDeactivateWithNotification:"
+- "objectAtIndexedSubscript:"
+- "contextMenuActions"
+- "keyboardTrackingElement"
+- "insertSublayer:atIndex:"
+- "element"
+- "sceneDidUpdateSystemUserInterfaceStyle"
+- "sublayers"
+- "because unable to make index range"
+- "willBeginSnapshotSession"
+- "com.apple.SwiftUI.LazyPageLogging"
+- "com.apple.Fitness"
+- "clientAllowsAutomaticPopoverDismissal"
+- "SwiftUI/DocumentGroupsIntroViewController.swift"
+- "windowDidMoveToSceneWithNotification:"
+- "windowDidRotateWithNotification:"
+- "_TtC7SwiftUIP33_F9CBE93C642018E3EAE34C65780A39FB21DocumentAccessoryView"
+- "%!s(MISSING): Early return %!s(MISSING)"
+- "%!s(MISSING): Returning size that fits %!f(MISSING) for proposal %!s(MISSING)"
+- "_invalidateSubviewCache"
+- "<Proposal: (nil, "
+- "presentedView"
+- "windowWillRotateWithNotification:"
+- "<Proposal: (nil, nil)>"
+- "sceneDidActivateWithNotification:"
+- "<IndexRange: start "
+- "Couldn't find element for tab\n'"
+- "for placement from minor size"
+- "didEndSnapshotSession"
+- "%!s(MISSING): Placing children in range %!s(MISSING), childLength %!f(MISSING)"
+- "SwiftUICore_Additions"
+- "from size that fits with 0.0 length"
+- "externalEnvironmentDidChange"
+- "sceneDidEnterBackgroundWithNotification:"
+- "for placement from visible range"
+- "LazyFixedSizeStack"
+- "sceneWillEnterForegroundWithNotification:"
+
+```

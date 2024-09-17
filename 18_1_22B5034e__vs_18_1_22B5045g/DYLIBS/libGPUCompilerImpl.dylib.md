@@ -1,0 +1,137 @@
+## libGPUCompilerImpl.dylib
+
+> `/System/Library/PrivateFrameworks/GPUCompiler.framework/Libraries/libGPUCompilerImpl.dylib`
+
+```diff
+
+-32023.334.0.0.0
+-  __TEXT.__text: 0x44f17c
+-  __TEXT.__auth_stubs: 0x4d10
++32023.366.0.0.0
++  __TEXT.__text: 0x44d5c4
++  __TEXT.__auth_stubs: 0x4d30
+   __TEXT.__init_offsets: 0x48
+-  __TEXT.__const: 0x1b0420
+-  __TEXT.__cstring: 0x3243a6
++  __TEXT.__const: 0x1b05c0
++  __TEXT.__cstring: 0x3244c5
+   __TEXT.__oslogstring: 0x47
+-  __TEXT.__unwind_info: 0x4ad8
++  __TEXT.__unwind_info: 0x4af0
+   __DATA_CONST.__got: 0x348
+-  __DATA_CONST.__const: 0xb2a60
+-  __AUTH_CONST.__auth_got: 0x2688
++  __DATA_CONST.__const: 0xb2aa8
++  __AUTH_CONST.__auth_got: 0x2698
+   __AUTH_CONST.__auth_ptr: 0x30
+-  __AUTH_CONST.__const: 0x8d80
++  __AUTH_CONST.__const: 0x8c68
+   __AUTH.__thread_vars: 0x30
+   __AUTH.__thread_bss: 0x11
+   __DATA.__data: 0x1f
+-  __DATA.__bss: 0x5a1
++  __DATA.__bss: 0x5a9
+   __DATA.__common: 0x11
+   __DATA_DIRTY.__data: 0x50
+   __DATA_DIRTY.__bss: 0x1b10
+
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libllvm-flatbuffers.dylib
+   - /usr/lib/libllvm-lmdb.dylib
+-  Functions: 7739
+-  Symbols:   3054
+-  CStrings:  17572
++  Functions: 7758
++  Symbols:   3069
++  CStrings:  17575
+ 
+Symbols:
++ __ZNK4llvm3air10reflection10ReturnType16functionConstantEv
++ __ZN4llvm3air11MetalModuleC1ERNS_11LLVMContextEN10llvm_utils12FileLocationENS1_19MaterializationKindERNS_5ErrorE
++ __ZNK4llvm3air13MetalFunction7arg_endEv
++ __ZN4llvm3air14MetalLibClonerC1ERNS_11LLVMContextERKNS0_8MetalLibE
++ __ZNK4llvm3air10reflection8Function11returnTypesEv
++ __ZN4llvm3air15MetalLibBuilder16addDynamicSymbolENSt3__110shared_ptrINS0_11MetalModuleEEEPKNS_11GlobalValueE
++ __ZNK4llvm3air10reflection8Function7getNameEv
++ __ZNK4llvm3air10reflection10ReturnType8typeNameEv
++ __ZN4llvm3air9MetalType16getInlinePointerEPKNS_10DataLayoutE
++ __ZN4llvm3air15MetalLibBuilder7addFileEN10llvm_utils12FileLocationE
++ __ZNK4llvm3air10reflection8Argument16functionConstantEv
++ __ZN4llvm3air15MetalLibBuilder20addUnqualifiedSymbolENSt3__110shared_ptrINS0_11MetalModuleEEEPKNS_12GlobalObjectE
++ __ZN4llvm3air9MetalType8getArrayEPKNS0_9AICIArrayEPKNS_9ArrayTypeEPKNS_10DataLayoutE
++ __ZNK4llvm3air13MetalFunction8attr_endEv
++ __ZNK4llvm3air11MetalModule7getDataEv
++ __ZN4llvm3air9MetalType16getInlinePointerEPKNS0_16AIStructTypeInfoEPKNS_11PointerTypeEPKNS_10DataLayoutE
++ __ZN4llvm3air11MetalModuleC1ERNS_11LLVMContextENS_15MemoryBufferRefENS1_19MaterializationKindERNS_5ErrorE
++ __ZNK4llvm3air16MetalDefinedSymb15getMetalVersionEv
++ __ZN4llvm20getLazyBitcodeModuleENS_15MemoryBufferRefERNS_11LLVMContextEbb
++ __ZN4llvm3air11MetalModuleC2ERNS_11LLVMContextENS_15MemoryBufferRefENS1_19MaterializationKindERNS_5ErrorE
++ __ZN4llvm3air14MetalLibClonerC2ERNS_11LLVMContextERKNS0_8MetalLibE
++ __ZN4llvm3air16MetalDefinedSymbC2ENSt3__110shared_ptrINS0_11MetalModuleEEENS_9StringRefES6_NS1_10SymbolFlagENS3_INS0_11MetalSourceEEENS_8ArrayRefIS9_EENSA_IhEE
++ __ZN4llvm3air9MetalType16getInlinePointerENS_9StringRefEPKNS_11PointerTypeEPKNS_10DataLayoutE
++ __ZN4llvm3air15MetalLibBuilder17addDynamicLibraryENSt3__110shared_ptrINS0_11MetalModuleEEENS_9StringRefE
++ __ZN4llvm3air10reflection8Function7classofEPKNS1_4NodeE
++ __ZNK4llvm3air10reflection10ReturnType4nameEv
++ __ZN4llvm3air15MetalLibBuilder8addFilesENS_8ArrayRefIN10llvm_utils12FileLocationEEES4_S4_
++ __ZN4llvm3air11MetalModule11materializeENSt3__110shared_ptrINS_6ModuleEEENS1_19MaterializationKindE
++ __ZN4llvm3air10reflection8Argument7classofEPKNS1_4NodeE
++ __ZNK4llvm3air10reflection8Argument4nameEv
++ __ZN4llvm3air10reflection10ReturnType7classofEPKNS1_4NodeE
++ __ZN4llvm3air15MetalLibBuilder18addQualifiedSymbolENSt3__110shared_ptrINS0_11MetalModuleEEEPKNS_8FunctionEPNS0_4impl12IRObjectInfoE
++ __ZNK4llvm3air10reflection8Function9argumentsEv
++ __ZN4llvm3air16MetalDefinedSymbC1ENSt3__110shared_ptrINS0_11MetalModuleEEENS_9StringRefES6_NS1_10SymbolFlagENS3_INS0_11MetalSourceEEENS_8ArrayRefIS9_EENSA_IhEE
++ __ZNK4llvm3air13MetalFunction9arg_beginEv
++ __ZNK4llvm3air10reflection8Argument8typeNameEv
++ __ZN4llvm3air11MetalModule9serializeENSt3__110shared_ptrINS_6ModuleEEE
++ __os_log_default
++ __ZN4llvm3air11MetalModuleC2ERNS_11LLVMContextEN10llvm_utils12FileLocationENS1_19MaterializationKindERNS_5ErrorE
++ __ZNK4llvm3air10reflection8Argument6unusedEv
++ _getpid
++ __ZNK4llvm3air13MetalFunction10attr_beginEv
+- __ZN4llvm3air8MetalLib20reflections_iteratorC2ENSt3__111__wrap_iterIPKNS0_11MetalModuleEEENS4_IPKNS3_10shared_ptrINS0_10ReflectionEEEEE
+- __ZN4llvm3air9MetalType16getInlinePointerENSt3__110shared_ptrINS_6ModuleEEE
+- __ZN4llvm3air15MetalLibBuilder17addDynamicLibraryENS1_12SharedModuleENS_9StringRefE
+- __ZN4llvm3air8MetalLib20reflections_iteratorC1ENSt3__111__wrap_iterIPKNS0_11MetalModuleEEENS4_IPKNS3_10shared_ptrINS0_10ReflectionEEEEE
+- __ZN4llvm3air15MetalLibBuilder8addFilesENS_8ArrayRefINS0_12FileLocationEEES3_S3_
+- __ZTVN4llvm3air13MetalFunctionE
+- __ZN4llvm3air20MetalLibObjectWriter16normalizeModulesEv
+- __ZN4llvm3air13MetalFunctionC2ENS0_11MetalModuleENS_9StringRefES3_NS0_16MetalDefinedSymb10SymbolFlagENSt3__110shared_ptrINS0_11MetalSourceEEENS_8ArrayRefIS9_EENSA_IhEERNS_5ErrorE
+- __ZN4llvm3air13MetalVariableC1ENS0_11MetalModuleENS_9StringRefENS0_16MetalDefinedSymb10SymbolFlagENSt3__110shared_ptrINS0_11MetalSourceEEENS_8ArrayRefIS9_EENSA_IhEERNS_5ErrorE
+- __ZN4llvm3air16MetalDefinedSymbC2ENS1_10SymbolKindENS0_11MetalModuleENS_9StringRefES4_NS1_10SymbolFlagENSt3__110shared_ptrINS0_11MetalSourceEEENS_8ArrayRefIS9_EENSA_IhEE
+- __ZN4llvm3air15MetalLibBuilder16addDynamicSymbolENS1_12SharedModuleEPKNS_11GlobalValueE
+- __ZN4llvm3air9MetalType16getInlinePointerENSt3__110shared_ptrINS_6ModuleEEEPKNS0_16AIStructTypeInfoEPKNS_11PointerTypeE
+- __ZN4llvm3air14MetalLibClonerC1ERKNS0_8MetalLibE
+- __ZN4llvm3air15MetalLibBuilder18addQualifiedSymbolENS1_12SharedModuleEPKNS_8FunctionEPNS0_4impl12IRObjectInfoE
+- __ZN4llvm3air15MetalLibBuilder20addUnqualifiedSymbolENS1_12SharedModuleEPKNS_12GlobalObjectE
+- __ZN4llvm3air8MetalLib20reflections_iteratorC1ENSt3__111__wrap_iterIPKNS0_11MetalModuleEEES8_NS4_IPKNS3_10shared_ptrINS0_10ReflectionEEEEESE_RNS_5ErrorE
+- __ZN4llvm3air8MetalLib20reflections_iteratorppEv
+- __ZN4llvm3air13MetalVariableC2ENS0_11MetalModuleENS_9StringRefENS0_16MetalDefinedSymb10SymbolFlagENSt3__110shared_ptrINS0_11MetalSourceEEENS_8ArrayRefIS9_EENSA_IhEERNS_5ErrorE
+- __ZN4llvm3air13MetalFunctionC1ENS0_11MetalModuleENS_9StringRefES3_NS0_16MetalDefinedSymb10SymbolFlagENSt3__110shared_ptrINS0_11MetalSourceEEENS_8ArrayRefIS9_EENSA_IhEERNS_5ErrorE
+- __ZN4llvm3air8MetalLib20reflections_iteratorC2ENSt3__111__wrap_iterIPKNS0_11MetalModuleEEES8_NS4_IPKNS3_10shared_ptrINS0_10ReflectionEEEEESE_RNS_5ErrorE
+- __ZN4llvm3air9MetalType8getArrayENSt3__110shared_ptrINS_6ModuleEEEPKNS0_9AICIArrayEPKNS_9ArrayTypeE
+- __ZN4llvm3air9MetalType16getInlinePointerENSt3__110shared_ptrINS_6ModuleEEENS_9StringRefEPKNS_11PointerTypeE
+- __ZN4llvm3air15MetalLibBuilder7addFileENS0_12FileLocationE
+- __ZN4llvm3air20MetalLibObjectWriter11getSymbolNoEPKNS0_16MetalDefinedSymbE
+- __ZN4llvm3air14MetalLibClonerC2ERKNS0_8MetalLibE
+- __ZNK4llvm3air13MetalFunction15getMetalVersionEv
+- __ZNK4llvm3air13MetalFunction7getKindEv
+CStrings:
++ "air.simdgroup_matrix_8x8_load_bf16.device_coherent"
++ "air.simdgroup_matrix_8x8_store_bf16.device_coherent"
++ "air.simdgroup_matrix_8x8_load.system_coherent"
++ "air.simdgroup_matrix_8x8_load.device_coherent"
++ "air.simdgroup_matrix_8x8_store_bf16.system_coherent"
++ "32023.366"
++ "air.simdgroup_matrix_8x8_store.system_coherent"
++ "air.simdgroup_matrix_8x8_store.device_coherent"
++ "cannot create module"
++ "air.simdgroup_matrix_8x8_load_bf16.system_coherent"
+- "cannot materialize metadata in '"
+- "' variable"
+- "' function"
+- "cannot creaet '"
+- "variable"
+- "32023.334"
+- "cannot create '"
+
+```

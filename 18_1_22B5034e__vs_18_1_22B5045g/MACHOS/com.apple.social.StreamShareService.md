@@ -1,0 +1,369 @@
+## com.apple.social.StreamShareService
+
+> `/Applications/MobileSlideShow.app/PlugIns/com.apple.social.StreamShareService.appex/com.apple.social.StreamShareService`
+
+```diff
+
+-710.14.102.0.0
+-  __TEXT.__text: 0x21b0
+-  __TEXT.__auth_stubs: 0x420
+-  __TEXT.__objc_stubs: 0xa80
+-  __TEXT.__objc_methlist: 0x14c
+-  __TEXT.__const: 0x28
+-  __TEXT.__gcc_except_tab: 0x68
+-  __TEXT.__objc_classname: 0xf7
+-  __TEXT.__objc_methname: 0xb82
+-  __TEXT.__cstring: 0x1bc
+-  __TEXT.__oslogstring: 0x10b
+-  __TEXT.__objc_methtype: 0x36c
+-  __TEXT.__unwind_info: 0xf8
+-  __DATA_CONST.__auth_got: 0x220
+-  __DATA_CONST.__got: 0xd8
+-  __DATA_CONST.__const: 0x220
+-  __DATA_CONST.__cfstring: 0x160
+-  __DATA_CONST.__objc_classlist: 0x10
+-  __DATA_CONST.__objc_protolist: 0x28
++710.17.103.0.0
++  __TEXT.__text: 0x0
++  __TEXT.__auth_stubs: 0x10
++  __TEXT.__objc_classname: 0x23
++  __DATA_CONST.__auth_got: 0x8
++  __DATA_CONST.__objc_classlist: 0x8
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_superrefs: 0x8
+-  __DATA.__objc_const: 0x788
+-  __DATA.__objc_selrefs: 0x358
+-  __DATA.__objc_ivar: 0x24
+-  __DATA.__objc_data: 0xa0
+-  __DATA.__data: 0x1e0
+-  __DATA.__bss: 0x10
+-  - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
++  __DATA.__objc_const: 0x90
++  __DATA.__objc_data: 0x50
+   - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+   - /System/Library/Frameworks/CoreServices.framework/CoreServices
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+
+   - /System/Library/PrivateFrameworks/PhotosUIPrivate.framework/PhotosUIPrivate
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  Functions: 43
+-  Symbols:   105
+-  CStrings:  212
++  Functions: 0
++  Symbols:   7
++  CStrings:  1
+ 
+Symbols:
+- _objc_msgSendSuper2
+- _objc_release_x9
+- _dispatch_after
+- _dispatch_once
+- _objc_release_x21
+- _objc_retain_x9
+- _UIImageJPEGRepresentation
+- _dispatch_get_global_queue
+- _objc_destroyWeak
+- _objc_release_x1
+- _objc_enumerationMutation
+- _objc_release
+- _objc_release_x19
+- _objc_release_x20
+- _OBJC_CLASS_$_PLPhotoLibrary
+- _OBJC_CLASS_$_PUCloudSharedCreateAlbumViewController
+- _dispatch_group_wait
+- _objc_alloc
+- _objc_unsafeClaimAutoreleasedReturnValue
+- _objc_retain_x3
+- _OBJC_CLASS_$_PLStreamShareSource
+- _UTTypeLivePhoto
+- _objc_autoreleaseReturnValue
+- _OBJC_CLASS_$_NSFileManager
+- _pl_dispatch_async
+- _NSTemporaryDirectory
+- _OBJC_CLASS_$_NSUserDefaults
+- _PULocalizedString
+- _OBJC_CLASS_$_UIAlertController
+- _PFLocalizedStringWithValidatedFormat
+- ___stack_chk_fail
+- _objc_release_x26
+- _OBJC_CLASS_$_NSUUID
+- _OBJC_CLASS_$_UIAlertAction
+- _objc_initWeak
+- _objc_msgSend
+- _OBJC_METACLASS_$_SLComposeServiceViewController
+- _dispatch_sync
+- _kPUPhotoStreamsAlbumSelectedGuid
+- _objc_retain_x25
+- ___stack_chk_guard
+- _OBJC_CLASS_$_PLCloudStreamShareJob
+- _OBJC_CLASS_$_PUPhotoStreamCreateTitleViewController
+- _PLUIGetLog
+- __NSConcreteStackBlock
+- _OBJC_CLASS_$_NSURL
+- _objc_release_x8
+- _dispatch_group_create
+- _objc_release_x22
+- _objc_retain_x21
+- _OBJC_CLASS_$_NSArray
+- _PFStringWithValidatedFormat
+- _dispatch_group_enter
+- _objc_release_x25
+- _objc_release_x27
+- _dispatch_semaphore_create
+- _objc_loadWeakRetained
+- _objc_storeStrong
+- ___CFConstantStringClassReference
+- _objc_alloc_init
+- __os_log_impl
+- _objc_claimAutoreleasedReturnValue
+- _OBJC_CLASS_$_PFUniformTypeUtilities
+- _OBJC_CLASS_$_SLComposeServiceViewController
+- __NSConcreteGlobalBlock
+- _objc_retain_x1
+- _PLPhotoSharingGetLog
+- _OBJC_CLASS_$_NSNumber
+- _OBJC_CLASS_$_SLComposeSheetConfigurationItem
+- __dispatch_main_q
+- _objc_retain_x22
+- _OBJC_CLASS_$_PUPhotoStreamAlbumsTableViewController
+- _dispatch_semaphore_signal
+- _dispatch_semaphore_wait
+- _objc_release_x23
+- __Block_object_dispose
+- _dispatch_time
+- _objc_release_x24
+- _objc_retain_x2
+- _PLLocalizedFrameworkString
+- _UTTypeAudiovisualContent
+- _UTTypeMovie
+- _os_log_type_enabled
+- _OBJC_CLASS_$_PLPhotoSharingHelper
+- _OBJC_CLASS_$_PXVideoTrimQueueController
+- _PLServicesLocalizedFrameworkString
+- _UTTypeImage
+- _objc_retain_x19
+- __Unwind_Resume
+- ___objc_personality_v0
+- _dispatch_queue_create
+- _objc_copyWeak
+- _objc_retainBlock
+- _objc_retain_x20
+- _objc_opt_new
+- _OBJC_CLASS_$_NSMutableArray
+- _dispatch_group_leave
+- _objc_retain_x8
+CStrings:
+- "setMediaURL:"
+- "setValue:"
+- "v32@0:8@16@24"
+- "@\"NSObject<PLAlbumProtocol>\""
+- "autorelease"
+- "extensionContext"
+- "respondsToSelector:"
+- "setDelegate:"
+- "v32@0:8@\"PUPhotoStreamAlbumsTableViewController\"16@\"NSObject<PLAlbumProtocol>\"24"
+- "PHOTOS_IN_STREAM_LIMIT_REACHED_MESSAGE"
+- "URLWithString:"
+- "com.apple.mobileslideshow.StreamShareService.post"
+- "controller:didSelectAlbum:"
+- "systemPhotoLibrary"
+- "titleControllerDidCancel:"
+- "%!@(MISSING)"
+- "@\"NSString\""
+- "v24@0:8@\"PUPhotoStreamAlbumsTableViewController\"16"
+- "Couldn't get live photo from provider:%!@(MISSING) error:%!@(MISSING)"
+- "albumListAction"
+- "albums"
+- "arrayWithObjects:count:"
+- "standardUserDefaults"
+- "v32@0:8@\"PXVideoTrimQueueController\"16@?<v@?>24"
+- "Couldn't get image from provider:%!@(MISSING) error:%!@(MISSING)"
+- "zone"
+- "addAction:"
+- "v24@?0@\"UIImage\"8@\"NSError\"16"
+- "class"
+- "hash"
+- "retainCount"
+- "cloudGUID"
+- "hasItemConformingToTypeIdentifier:"
+- "setTitleDelegate:"
+- "CANNOT_ADD_PHOTOS_TITLE"
+- "OK"
+- "setAlbumTitle:"
+- "setCharactersRemaining:"
+- "#16@0:8"
+- "failWithError:"
+- "inputItems"
+- "retain"
+- "@40@0:8:16@24@32"
+- "v8@?0"
+- "UUID"
+- "^{_NSZone=}16@0:8"
+- "conformsToType:"
+- "PHOTO_STREAM_STREAMS"
+- "URLIsAssetsLibrary:"
+- "setMediaType:"
+- "didSelectPost"
+- "canContributeToCloudSharedAlbum"
+- "count"
+- "setAddToExistingWorkflow:"
+- "albumListForContentMode:"
+- "PUPhotoStreamCreateTitleDelegate"
+- "isContentValid"
+- "PUCloudSharedCreateAlbumViewControllerDelegate"
+- "isMemberOfClass:"
+- "send"
+- "_actions"
+- "contentText"
+- "release"
+- "setTapHandler:"
+- "stringByAppendingPathExtension:"
+- "UUIDString"
+- "publishMediaFromSources:toNewSharedAlbumWithName:withCommentText:recipients:"
+- "videoComplement"
+- "STREAM_CREATE_SHEET_BUTTON"
+- "v32@0:8@\"PXVideoTrimQueueController\"16@\"UIViewController\"24"
+- "v24@?0@\"NSData\"8@\"NSError\"16"
+- "@16@0:8"
+- "setObject:forKey:"
+- "objectAtIndex:"
+- "v32@0:8@16@?24"
+- "length"
+- "navigationItem"
+- "_selectedAlbum"
+- "actionWithTitle:style:handler:"
+- "_shouldShowPost"
+- "assetsCount"
+- "initWithPhotoLibrary:videoSources:videoSourcesSharingInfo:customExportsInfo:album:"
+- "maxAssetsPerStream"
+- "reloadSheetActions"
+- "v24@0:8@16"
+- "addObject:"
+- "canPerformEditOperation:"
+- "numberWithInteger:"
+- "B16@0:8"
+- "v24@0:8@\"PUPhotoStreamCreateTitleViewController\"16"
+- "isEqual:"
+- "scheme"
+- "presentViewController:animated:completion:"
+- "sheetActions"
+- "_albumList"
+- "performSelector:"
+- "PUPhotoStreamsAlbumsTableViewControllerDelegate"
+- "alertControllerWithTitle:message:preferredStyle:"
+- "setPickerDelegate:"
+- "controller:presentViewController:"
+- "pathExtension"
+- "_trimController"
+- "Q16@0:8"
+- "loadItemForTypeIdentifier:fromItemProvider:"
+- "publishMediaFromSources:toSharedAlbum:withCommentText:completionHandler:"
+- "B24@0:8@\"Protocol\"16"
+- "PXVideoTrimQueueControllerDelegate"
+- "B24@0:8#16"
+- "PUStreamShareServiceViewController"
+- "PXVideoTrimQueueController finished trimming assets. Sending to PLCloudStreamShareJob"
+- "_inCreateNewAlbum"
+- "@24@0:8:16"
+- "performSelector:withObject:"
+- "titleController:didSetTitle:"
+- "mediaType"
+- "\x03\x11\x11\x11"
+- "@\"NSString\"16@0:8"
+- "conformsToProtocol:"
+- "v20@0:8B16"
+- "_setBuiltinTransitionStyle:"
+- "mediaURL"
+- "setNextButtonTitle:"
+- "viewDidLoad"
+- "TQ,R"
+- "addSelectedCloudGuid:"
+- "photoLibraryFromSources:album:"
+- "debugDescription"
+- "start"
+- "title"
+- "B24@0:8:16"
+- "addToExistingWorkflow"
+- "@\"PXVideoTrimQueueController\""
+- "v28@0:8@\"PUCloudSharedCreateAlbumViewController\"16B24"
+- "STREAM_NEXT_SHEET_BUTTON"
+- "_recipients"
+- "controller:didFinishTrimmingVideoSources:"
+- "objectForKeyedSubscript:"
+- "setMediaData:"
+- "controller:willTrimVideoFromSource:"
+- "dismissViewControllerAnimated:completion:"
+- "v24@?0@\"NSURL\"8@\"NSError\"16"
+- "_pushTitleController"
+- "description"
+- "isProxy"
+- "popToRootViewControllerAnimated:"
+- "@32@0:8@16@24"
+- "T#,R"
+- "array"
+- "cancel"
+- "copyItemAtURL:toURL:error:"
+- "loadItemForTypeIdentifier:options:completionHandler:"
+- "controller:didTrimVideoFromSource:"
+- ".cxx_destruct"
+- "stringForKey:"
+- "text"
+- "navigationController"
+- "fileURLWithPath:"
+- "recipients"
+- "v32@0:8@\"PXVideoTrimQueueController\"16@24"
+- "@32@0:8:16@24"
+- "attachments"
+- "superclass"
+- "Vv16@0:8"
+- "maxCharactersPerComment"
+- "NSObject"
+- "URLIsMediaType:"
+- "countByEnumeratingWithState:objects:count:"
+- "stringByAppendingPathComponent:"
+- "@\"NSArray\""
+- "Failed to copy shared video from URL:%!@(MISSING) error:%!@(MISSING)"
+- "containers"
+- "controller:didCancelTrimmingVideoSources:"
+- "performSelector:withObject:withObject:"
+- "popViewControllerAnimated:"
+- "ADD_TO_PHOTO_STREAM"
+- "_addToExistingWorkflow"
+- "isKindOfClass:"
+- "pushActionViewController:"
+- "defaultManager"
+- "identifier"
+- "self"
+- "PHOTO_STREAM_NAV_TITLE"
+- "T@\"NSString\",&,N,V_albumTitle"
+- "v24@?0@\"PHLivePhoto\"8@\"NSError\"16"
+- "setTitle:"
+- "loadFileRepresentationForTypeIdentifier:completionHandler:"
+- "localizedTitle"
+- "typeWithFilenameExtension:"
+- "_albumTitle"
+- "v24@?0@\"<NSSecureCoding>\"8@\"NSError\"16"
+- "v32@0:8@\"PXVideoTrimQueueController\"16@\"NSArray\"24"
+- "setVideoComplement:"
+- "trimmedVideoInfo"
+- "assets-library"
+- "controller:dismissViewControllerWithCompletion:"
+- "controllerWillCreateNewAlbum:"
+- "@\"NSObject<PLAlbumContainer>\""
+- "B"
+- "isEqualToString:"
+- "T@\"NSString\",?,R,C"
+- "TB,N,V_addToExistingWorkflow"
+- "B24@0:8@16"
+- "v16@?0@\"UIAlertAction\"8"
+- "Couldn't share item with provider %!@(MISSING)"
+- "albumTitle"
+- "%!l(MISSING)u"
+- "v16@0:8"
+- "v28@0:8@16B24"
+- "v32@0:8@\"PUPhotoStreamCreateTitleViewController\"16@\"NSString\"24"
+- "T@\"NSString\",R,C"
+- "albumStreamingCreateViewController:didSucceed:"
+
+```

@@ -1,0 +1,501 @@
+## SwiftUICore
+
+> `/System/Library/Frameworks/SwiftUICore.framework/SwiftUICore`
+
+```diff
+
+-6.1.7.1.0
+-  __TEXT.__text: 0xa06940
+-  __TEXT.__auth_stubs: 0x7ea0
+-  __TEXT.__objc_methlist: 0x1094
+-  __TEXT.__const: 0x799d6
++6.1.12.1.0
++  __TEXT.__text: 0xa12d34
++  __TEXT.__auth_stubs: 0x7ef0
++  __TEXT.__objc_methlist: 0x10b4
++  __TEXT.__const: 0x79f06
+   __TEXT.__gcc_except_tab: 0x84
+-  __TEXT.__cstring: 0xd928
++  __TEXT.__cstring: 0xda28
+   __TEXT.__dlopen_cstrs: 0x95
+-  __TEXT.__swift5_typeref: 0x1754f
+-  __TEXT.__swift5_reflstr: 0x10f80
+-  __TEXT.__swift5_assocty: 0xd098
+-  __TEXT.__swift5_fieldmd: 0x1ffe8
+-  __TEXT.__constg_swiftt: 0x2f280
++  __TEXT.__swift5_typeref: 0x175f3
++  __TEXT.__swift5_reflstr: 0x10fd0
++  __TEXT.__swift5_assocty: 0xd170
++  __TEXT.__swift5_fieldmd: 0x1ff48
++  __TEXT.__constg_swiftt: 0x2f090
+   __TEXT.__swift5_builtin: 0xde8
+-  __TEXT.__swift5_protos: 0x4d8
+-  __TEXT.__swift5_proto: 0x6084
+-  __TEXT.__swift5_types: 0x2ebc
+-  __TEXT.__swift5_capture: 0x5074
++  __TEXT.__swift5_protos: 0x4d4
++  __TEXT.__swift5_proto: 0x60e8
++  __TEXT.__swift5_types: 0x2eb0
++  __TEXT.__swift5_capture: 0x5108
+   __TEXT.__swift5_mpenum: 0x5ac
+   __TEXT.__oslogstring: 0x315
+-  __TEXT.__unwind_info: 0x23730
+-  __TEXT.__eh_frame: 0x14c44
+-  __TEXT.__objc_classname: 0x2d7
+-  __TEXT.__objc_methname: 0x50b5
+-  __TEXT.__objc_methtype: 0xe1b
++  __TEXT.__unwind_info: 0x23860
++  __TEXT.__eh_frame: 0x14e04
++  __TEXT.__objc_classname: 0x2f3
++  __TEXT.__objc_methname: 0x5264
++  __TEXT.__objc_methtype: 0x1013
+   __TEXT.__objc_stubs: 0x1b20
+-  __DATA_CONST.__got: 0x2120
+-  __DATA_CONST.__const: 0x33b0
++  __DATA_CONST.__got: 0x2138
++  __DATA_CONST.__const: 0x3388
+   __DATA_CONST.__objc_classlist: 0x648
+   __DATA_CONST.__objc_catlist: 0x18
+-  __DATA_CONST.__objc_protolist: 0x160
++  __DATA_CONST.__objc_protolist: 0x170
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x19a8
+-  __DATA_CONST.__objc_protorefs: 0xb0
++  __DATA_CONST.__objc_selrefs: 0x19b0
++  __DATA_CONST.__objc_protorefs: 0xb8
+   __DATA_CONST.__objc_superrefs: 0x30
+   __DATA_CONST.__objc_arraydata: 0x10
+-  __AUTH_CONST.__auth_got: 0x3f60
+-  __AUTH_CONST.__auth_ptr: 0x3da8
+-  __AUTH_CONST.__const: 0x548c8
++  __AUTH_CONST.__auth_got: 0x3f88
++  __AUTH_CONST.__auth_ptr: 0x3b28
++  __AUTH_CONST.__const: 0x547f8
+   __AUTH_CONST.__cfstring: 0xb60
+-  __AUTH_CONST.__objc_const: 0xd8b8
++  __AUTH_CONST.__objc_const: 0xd920
+   __AUTH_CONST.__objc_intobj: 0x90
+   __AUTH_CONST.__objc_arrayobj: 0x18
+   __AUTH_CONST.__objc_doubleobj: 0x30
+-  __AUTH.__objc_data: 0x1a40
+-  __AUTH.__data: 0x11098
++  __AUTH.__objc_data: 0x1af0
++  __AUTH.__data: 0x11190
+   __AUTH.__thread_vars: 0x90
+   __AUTH.__thread_bss: 0x30
+   __DATA.__objc_ivar: 0x50
+-  __DATA.__data: 0x1a860
+-  __DATA.__bss: 0x6f270
+-  __DATA.__common: 0x2e0
++  __DATA.__data: 0x1aa78
++  __DATA.__bss: 0x70000
++  __DATA.__common: 0x2f0
+   __DATA_DIRTY.__objc_data: 0x7e8
+-  __DATA_DIRTY.__data: 0x14da0
+-  __DATA_DIRTY.__bss: 0x17390
++  __DATA_DIRTY.__data: 0x14b68
++  __DATA_DIRTY.__bss: 0x17010
+   __DATA_DIRTY.__common: 0xa8
+   - /System/Library/Frameworks/Accessibility.framework/Accessibility
+   - /System/Library/Frameworks/Combine.framework/Combine
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libicucore.A.dylib
+   - /usr/lib/libobjc.A.dylib
+-  - /usr/lib/swift/libswiftAVFoundation.dylib
+   - /usr/lib/swift/libswiftAccelerate.dylib
+   - /usr/lib/swift/libswiftCore.dylib
+-  - /usr/lib/swift/libswiftCoreAudio.dylib
+   - /usr/lib/swift/libswiftCoreFoundation.dylib
+-  - /usr/lib/swift/libswiftCoreLocation.dylib
+-  - /usr/lib/swift/libswiftCoreMIDI.dylib
+-  - /usr/lib/swift/libswiftCoreMedia.dylib
+   - /usr/lib/swift/libswiftDarwin.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftMetal.dylib
+
+   - /usr/lib/swift/libswiftsimd.dylib
+   - /usr/lib/swift/libswiftsys_time.dylib
+   - /usr/lib/swift/libswiftunistd.dylib
+-  Functions: 61374
+-  Symbols:   93943
+-  CStrings:  2743
++  Functions: 61519
++  Symbols:   94162
++  CStrings:  2770
+ 
+Symbols:
++ _$s7SwiftUI13PreferenceKeyPAAE05visitD0yyqd__zAA0cD7VisitorRd__lFZ
++ _$s7SwiftUI17TestRenderOptionsVs10SetAlgebraAAMc
++ _$s7SwiftUI29ContentOffsetAdjustmentReasonO8rawValues6UInt32VvpMV
++ _$s7SwiftUI21ResolvableCurrentDateVSHAAMc
++ _$s7SwiftUI16PreferenceValuesVs23CustomStringConvertibleAAMc
++ _$s7SwiftUI17TestRenderOptionsV8rawValues6UInt64Vvg
++ _$s7SwiftUI4ViewPAAE23transformAnchorGeometry3key0D0Qrqd__m_y5ValueQyd__z_AA0eF0VtctAA13PreferenceKeyRd__lFQOMQ
++ _$s7SwiftUI18ResolvedStyledTextC5frame2in8rendererSo6CGRectVSo6CGSizeV_AA0E15RendererBoxBaseCSgtF
++ _$s7SwiftUI15ResolvableTimerV9hashValueSivg
++ _$s7SwiftUI9ViewGraphC22updatePreferenceBridge11environment14deferredUpdateyAA17EnvironmentValuesV_yyctF
++ _$s7SwiftUI16ContentResponderP8contains6points4sizeAA11BitVector64VSRySo7CGPointVG_So6CGSizeVtFTq
++ _$s7SwiftUI14CAHostingLayerC32stopObservingSizeThatFitsChanges8proposalyAA012ProposedViewG0V_tF
++ _$s7SwiftUI14CAHostingLayerC26observeSizeThatFitsChanges8proposal7handleryAA012ProposedViewF0V_ySo6CGSizeVctFTj
++ _$s7SwiftUI16PreferenceValuesVMn
++ _$s7SwiftUI21_SemanticFeature_v6_1VAA20_GraphInputsModifierAAWP
++ _$s7SwiftUI17TestRenderOptionsV9recursiveACvgZ
++ _$s7SwiftUI18PreferencesOutputsV6anyKeySo11AGAttributeaSgAA010PreferenceF0_pXp_tciM
++ _$s7SwiftUI16PreferenceValuesV14valueIfPresent3forAC5ValueVy_AFQzGSgxm_tAA0C3KeyRzlF
++ _$s7SwiftUI3LogOAAE5table2os6LoggerVSgvgZ
++ _$s7SwiftUI22ResolvableAbsoluteDateV4hash4intoys6HasherVz_tF
++ _$s7SwiftUI15ResolvableTimerV9hashValueSivpMV
++ _$s7SwiftUI29ContentOffsetAdjustmentReasonOs23CustomStringConvertibleAAMc
++ _$s7SwiftUI16PreferenceValuesVyAC5ValueVy_ADQzGxmcAA0C3KeyRzluiM
++ _$s7SwiftUI12_ViewOutputsV6anyKeySo11AGAttributeaSgAA010PreferenceF0_pXp_tcis
++ _$s7SwiftUI12_ViewOutputsV6anyKeySo11AGAttributeaSgAA010PreferenceF0_pXp_tcig
++ _$s7SwiftUI14PreferenceKeysV4keys33_3D8838A231BB2CC7FC00E7880D8B2FC4LLSayAA0C3Key_pXpGvpfi
++ _$s7SwiftUI15_GestureOutputsV6anyKeySo11AGAttributeaSgAA010PreferenceF0_pXp_tcig
++ _$s7SwiftUI29ContentOffsetAdjustmentReasonOMn
++ _$s7SwiftUI3LogO9unitTests2os6LoggerVvgZ
++ _$s7SwiftUI29ContentOffsetAdjustmentReasonO12shouldAdjust11isScrolling0I13TransitioningS2b_SbtF
++ _$s7SwiftUI29ContentOffsetAdjustmentReasonO8rawValueACSgs6UInt32V_tcfC
++ _$s7SwiftUI21_SemanticFeature_v6_1VMa
++ _$s7SwiftUI11LayoutTraceV22traceExplicitAlignment_9alignment2at4body12CoreGraphics7CGFloatVSgSo11AGAttributeaSg_AA0G3KeyVAA8ViewSizeVAKyXEtFZ
++ _$s7SwiftUI16ContentResponderP8contains6points4sizeAA11BitVector64VSRySo7CGPointVG_So6CGSizeVtFTj
++ _$s7SwiftUI29ContentOffsetAdjustmentReasonOSQAAMc
++ _$s7SwiftUI21_SemanticFeature_v6_1VAA17ViewInputBoolFlagAAMc
++ _$s7SwiftUI14CAHostingLayerC26observeSizeThatFitsChanges8proposal7handleryAA012ProposedViewF0V_ySo6CGSizeVctFTq
++ _$s7SwiftUI21_SemanticFeature_v6_1VAA11PropertyKeyAAMc
++ _$s7SwiftUI22ResolvableAbsoluteDateVSHAAMc
++ _$s7SwiftUI3LogOAAE8listPerf2os6LoggerVSgvgZ
++ _$s7SwiftUI19ScrollableContainerPAAE19adjustContentOffset2by6reasonSbSo6CGSizeV_AA0fG16AdjustmentReasonOtF
++ _$s7SwiftUI21ResolvableCurrentDateV0E6FormatO4hash4intoys6HasherVz_tF
++ _$s7SwiftUI15_GestureOutputsV6anyKeySo11AGAttributeaSgAA010PreferenceF0_pXp_tciM
++ _$s7SwiftUI17TestRenderOptionsVs9OptionSetAAMc
++ _$s7SwiftUI29ContentOffsetAdjustmentReasonOSYAAMc
++ _$s7SwiftUI21_SemanticFeature_v6_1VAA17ViewInputBoolFlagAAWP
++ _$s7SwiftUI21_SemanticFeature_v6_1V10introducedAA9SemanticsVvgZ
++ _$s7SwiftUI13ViewResponderC21ContainsPointsOptionsV8uncachedAEvgZ
++ _$s7SwiftUI16PreferenceBridgeC8addValue_3forySo11AGAttributea_AA0C3Key_pXptF
++ _$s7SwiftUI16PreferenceValuesV5ValueV4seedAA11VersionSeedVvg
++ _$s7SwiftUI23HostPreferencesCombinerV4keys6valuesAC14AttributeGraph0H0VyAA14PreferenceKeysVG_AHyAA0J6ValuesVGSgtcfC
++ _$s7SwiftUI16ContentResponderPAAE8contains6points4sizeAA11BitVector64VSRySo7CGPointVG_So6CGSizeVtF
++ _$sSo19AGNamedTraceEventIDa7SwiftUIE17explicitAlignmentABvgZ
++ _$s7SwiftUI9GraphHostC20hostPreferenceValues09AttributeC004WeakH0VyAA0fG0VGvpfi
++ _$s7SwiftUI21_SemanticFeature_v6_1VAA0D0AAWP
++ _$s7SwiftUI21_SemanticFeature_v6_1VAA9ViewInputAAMc
++ _$s7SwiftUI16PreferenceBridgeC13addHostValues_3fory14AttributeGraph04WeakI0VyAA0cG0VG_AF0I0VyAA0C4KeysVGtF
++ _$sSl7SwiftUIE7mapBoolyAA11BitVector64VSb7ElementQzXEF
++ _$s7SwiftUI14CAHostingLayerC32stopObservingSizeThatFitsChanges8proposalyAA012ProposedViewG0V_tFTq
++ _$s7SwiftUI16PreferenceValuesV5ValueVMn
++ _$s7SwiftUI15ResolvableTimerVSHAAMc
++ _$s7SwiftUI16PreferenceValuesV7combine4withyAC_tF
++ _$s7SwiftUI18ResolvableProgressV9hashValueSivg
++ _$s7SwiftUI16PreferenceValuesV7entries33_2D6196CBE9271629B89E259BFBFD6A9ALLSayAC5EntryAELLVGvpfi
++ _$s7SwiftUI21_SemanticFeature_v6_1VAA20_GraphInputsModifierAAMc
++ _$s7SwiftUI18HostPreferencesKeyV6reduce5value9nextValueyAA16PreferenceValuesVz_AHyXEtFZ
++ _$s7SwiftUI12_ViewOutputsV6anyKeySo11AGAttributeaSgAA010PreferenceF0_pXp_tciM
++ _$s7SwiftUI16PreferenceValuesV5ValueV4seedAA11VersionSeedVvs
++ _$s7SwiftUI21_SemanticFeature_v6_1VACycfC
++ _getpid
++ _$s7SwiftUI19HorizontalAlignmentV17formDetailLeadingACvgZ
++ _$s7SwiftUI24ShapeStyledResponderDataV8contains6points4sizeAA11BitVector64VSRySo7CGPointVG_So6CGSizeVtF
++ _$s7SwiftUI4ViewPAAE23transformAnchorGeometry3key0D0Qrqd__m_y5ValueQyd__z_AA0eF0VtctAA13PreferenceKeyRd__lF
++ _$s7SwiftUI29ContentOffsetAdjustmentReasonO8rawValues6UInt32Vvg
++ _$s7SwiftUI21_SemanticFeature_v6_1VAA9ViewInputAAWP
++ _$s7SwiftUI21_SemanticFeature_v6_1VAA0cD0AAWP
++ _$s7SwiftUI21_SemanticFeature_v6_1VAA13ViewInputFlagAAMc
++ _$s7SwiftUI29ContentOffsetAdjustmentReasonO11translationyA2CmFWC
++ _sysctl
++ _$s7SwiftUI16PreferenceBridgeC11removeValue_3for14isInvalidatingySo11AGAttributea_AA0C3Key_pXpSbtFfA1_
++ _$s7SwiftUI21_SemanticFeature_v6_1VMn
++ _$s7SwiftUI14PreferenceKeysV3addyyAA0C3Key_pXpF
++ _$s7SwiftUI21ResolvableCurrentDateV4hash4intoys6HasherVz_tF
++ _$s7SwiftUI22ResolvableAbsoluteDateV9hashValueSivpMV
++ _$s7SwiftUI21ResolvableCurrentDateV0E6FormatO9hashValueSivg
++ _$s7SwiftUI10ScrollableP19adjustContentOffset2by6reasonSbSo6CGSizeV_AA0eF16AdjustmentReasonOtFTq
++ _$s7SwiftUI16PreferenceValuesV11removeValue3foryxm_tAA0C3KeyRzlF
++ _$s7SwiftUI29ContentOffsetAdjustmentReasonOSHAAMc
++ _$s7SwiftUI16PreferenceValuesV8containsySbxmAA0C3KeyRzlF
++ _$s7SwiftUI19WatchDisplayVariantO4h446yA2CmFWC
++ _$s7SwiftUI16PreferenceBridgeC11removeValue_3for14isInvalidatingySo11AGAttributea_AA0C3Key_pXpSbtF
++ _$s7SwiftUI29ContentOffsetAdjustmentReasonON
++ _$s7SwiftUI16RendererLeafViewPAAE8contains6points4sizeAA11BitVector64VSRySo7CGPointVG_So6CGSizeVtF
++ _$s7SwiftUI14CAHostingLayerC32stopObservingSizeThatFitsChanges8proposalyAA012ProposedViewG0V_tFTj
++ _$s7SwiftUI14CAHostingLayerC26observeSizeThatFitsChanges8proposal7handleryAA012ProposedViewF0V_ySo6CGSizeVctF
++ _$s7SwiftUI11CoreTestingO19popNeedsRunLoopTurnyyFZ
++ _$s7SwiftUI4PathV8contains6points6eoFill6originAA11BitVector64VSRySo7CGPointVG_SbAKtFfA0_
++ _$s7SwiftUI21_SemanticFeature_v6_1VAA13ViewInputFlagAAWP
++ _$s7SwiftUI8_TestAppV13renderOptionsAA0c6RenderF0VvgZ
++ _$s7SwiftUI21ResolvableCurrentDateV0E6FormatOSHAAMc
++ _$s7SwiftUI17TestRenderOptionsVN
++ _$s7SwiftUI11CoreTestingO20pushNeedsRunLoopTurnyyFZ
++ _$s7SwiftUI11VersionSeedV7isEmptySbvg
++ _$ss15LazyMapSequenceVyxq_GSKsSKRzrlMc
++ _$s7SwiftUI16PreferenceValuesVACycfC
++ _$s7SwiftUI14PreferenceKeysVyAA0C3Key_pXpSicis
++ _$s7SwiftUI22ResolvableDateIntervalV4hash4intoys6HasherVz_tF
++ _$s7SwiftUI4PathV8contains6points6eoFill6originAA11BitVector64VSRySo7CGPointVG_SbAKtFfA1_
++ _$s7SwiftUI22ResolvableDateIntervalV9hashValueSivg
++ _$s7SwiftUI21_SemanticFeature_v6_1VN
++ _$s7SwiftUI16PreferenceValuesV5ValueV5valuexvpMV
++ _$s7SwiftUI18PreferencesOutputsV6anyKeySo11AGAttributeaSgAA010PreferenceF0_pXp_tcis
++ _$sSo6CGRectV7SwiftUIE26convertAndClipToScrollView2to9transformSbAC15CoordinateSpaceO_AC0I9TransformVtF
++ _$s7SwiftUI29ContentOffsetAdjustmentReasonO11descriptionSSvpMV
++ _$s7SwiftUI19HorizontalAlignmentV23listRowSeparatorLeadingACvgZ
++ _$s7SwiftUI16PreferenceValuesV4seedAA11VersionSeedVvpMV
++ _$s7SwiftUI16PreferenceValuesV5ValueV4seedAA11VersionSeedVvpMV
++ _$s7SwiftUI8_TestAppV13renderOptionsAA0c6RenderF0VvsZ
++ _$s7SwiftUI8_TestAppV13renderOptionsAA0c6RenderF0VvMZ
++ _$s7SwiftUI16PreferenceValuesV13mayNotBeEqual2toSbAC_tF
++ _$s7SwiftUI16PreferenceValuesVyAC5ValueVy_ADQzGxmcAA0C3KeyRzluig
++ _$s7SwiftUI16PreferenceValuesV5ValueV5valuexvM
++ _$s7SwiftUI29ContentOffsetAdjustmentReasonO9alignmentyA2CmFWC
++ _$s7SwiftUI11LayoutTraceV8RecorderC14alignmentTypesSDySOs6UInt32VGvpfi
++ _$s7SwiftUI14PreferenceKeysV6removeyyAA0C3Key_pXpF
++ _$s7SwiftUI22ResolvableDateIntervalVSHAAMc
++ _$s7SwiftUI21_SemanticFeature_v6_1VAA10GraphInputAAMc
++ _$s7SwiftUI4PathV8contains6points6eoFill6originAA11BitVector64VSRySo7CGPointVG_SbAKtF
++ _$s7SwiftUI18HostPreferencesKeyV12defaultValueAA16PreferenceValuesVvgZ
++ _$s7SwiftUI17TestRenderOptionsV10comparisonACvgZ
++ _$s7SwiftUI18ResolvableProgressV4hash4intoys6HasherVz_tF
++ _$s7SwiftUI22ResolvableDateIntervalV9hashValueSivpMV
++ _$sSo9OS_os_logC0B0E7defaultABvgZ
++ _$s7SwiftUI21ResolvableCurrentDateV0E6FormatO9hashValueSivpMV
++ _$s7SwiftUI17withRenderOptionsyyAA04TestdE0V_yyXEtF
++ _$s7SwiftUI17TestRenderOptionsV8rawValues6UInt64VvpMV
++ _$sScM7SwiftUIE31assumeIsolatedIfLinkedOnOrAfter__4file4linexAA9SemanticsV_xyKScMYcXEs12StaticStringVSutKs8SendableRzlFZ
++ _$s7SwiftUI19WatchDisplayVariantO4h496yA2CmFWC
++ _$s7SwiftUI14PreferenceKeysVyAA0C3Key_pXpSicig
++ _$s7SwiftUI16PreferenceValuesV5ValueV5value4seedAEy_xGx_AA11VersionSeedVtcfC
++ _$s7SwiftUI17TestRenderOptionsV8rawValueACs6UInt64V_tcfC
++ _$ss15CollectionOfOneVMa
++ _$s7SwiftUI29ContentOffsetAdjustmentReasonO11descriptionSSvg
++ _$s7SwiftUI16PreferenceValuesV5ValueV4seedAA11VersionSeedVvM
++ _$s7SwiftUI16PreferenceValuesV5ValueVMa
++ _$s7SwiftUI16PreferenceValuesV11descriptionSSvpMV
++ _$s7SwiftUI16PreferenceValuesVMa
++ _$s7SwiftUI16PreferenceBridgeC24_hostPreferencesCombiner33_DF57A19C61B44C613EB77C1D47FC679ALL14AttributeGraph04WeakQ0VyAA0C6ValuesVGvpfi
++ _$s7SwiftUI4ViewPAAE23transformAnchorGeometry3key0D0Qrqd__m_y5ValueQyd__z_AA0eF0VtctAA13PreferenceKeyRd__lFfA_
++ _$s7SwiftUI11CoreTestingO16needsRunLoopTurnSbvgZ
++ _$s7SwiftUI29ContentOffsetAdjustmentReasonOMa
++ _AGGraphGetAttributeSubgraph2
++ _$s7SwiftUI23HostPreferencesCombinerV5valueAA16PreferenceValuesVvpMV
++ _$s7SwiftUI16PreferenceValuesVN
++ _$s7SwiftUI14PreferenceKeysV8containsySbAA0C3Key_pXpF
++ _$s7SwiftUI9ViewGraphC18bridgedPreferences33_7D9EDEF832940A362646A6E979F296C8LLSayAA13PreferenceKey_pXp_So11AGAttributeatGvpfi
++ _$s7SwiftUI21_SemanticFeature_v6_1VAA10GraphInputAAWP
++ _$s7SwiftUI17TestRenderOptionsVSQAAMc
++ _$s7SwiftUI21_SemanticFeature_v6_1VAA0cD0AAMc
++ _$s7SwiftUI16PreferenceValuesVyAC5ValueVy_ADQzGxmcAA0C3KeyRzluis
++ _$s7SwiftUI16PreferenceValuesV5ValueV5valuexvs
++ _$s7SwiftUI18PreferencesOutputsV6anyKeySo11AGAttributeaSgAA010PreferenceF0_pXp_tcig
++ _$s7SwiftUI17TestRenderOptionsVMa
++ _$s7SwiftUI17TestRenderOptionsVMn
++ _$sSMy7ElementQz5IndexQzciMTj
++ _$s7SwiftUI19ResolvedVectorGlyphV5glyph5value16flipsRightToLeft2in2at7catalogACSo08CUINameddE0C_SfSgSbAA22ImageResolutionContextVAA0P0V8LocationOSo10CUICatalogCtcfC
++ _$s7SwiftUI23HostPreferencesCombinerV5valueAA16PreferenceValuesVvg
++ _$s7SwiftUI16PreferenceValuesV4seedAA11VersionSeedVvg
++ _$s7SwiftUI14PreferenceKeysVyAA0C3Key_pXpSicipMV
++ _$s7SwiftUI18ResolvableProgressVSHAAMc
++ _$s7SwiftUI13ViewTransformV7convert_6pointsyAC10ConversionO_xztSMRzSo7CGPointV7ElementRtzlF
++ _$sSo19AGNamedTraceEventIDa7SwiftUIE13alignmentTypeABvgZ
++ _$s7SwiftUI23HostPreferencesCombinerV7_values33_EAF68AEE5E08E2F44FEB886FE6A27001LL14AttributeGraph08OptionalO0VyAA16PreferenceValuesVGvpfi
++ _$s7SwiftUI29ContentOffsetAdjustmentReasonO5resetyA2CmFWC
++ _$s7SwiftUI17TestRenderOptionsV7defaultACvgZ
++ _$s7SwiftUI18ResolvableProgressV9hashValueSivpMV
++ _$s7SwiftUI23HostPreferencesCombinerV8addChild4keys6valuesy14AttributeGraph0J0VyAA14PreferenceKeysVG_AG04WeakJ0VyAA0L6ValuesVGtF
++ _$s7SwiftUI18PreferencesOutputsV17forEachPreferenceyyyAA0G3Key_pXp_So11AGAttributeatXEF
++ _$s7SwiftUI10ScrollableP19adjustContentOffset2by6reasonSbSo6CGSizeV_AA0eF16AdjustmentReasonOtFTj
++ _$s7SwiftUI16PreferenceBridgeC13addHostValues_3fory14AttributeGraph08OptionalI0VyAA0cG0VG_AF0I0VyAA0C4KeysVGtF
++ _$s7SwiftUI11VersionSeedV7isEmptySbvpMV
++ _$s7SwiftUI16PreferenceValuesV11descriptionSSvg
++ _$s7SwiftUI9GraphHostC20hostPreferenceValues09AttributeC004WeakH0VyAA0fG0VGvM
++ _$s7SwiftUI9ColorViewV8contains6points4sizeAA11BitVector64VSRySo7CGPointVG_So6CGSizeVtF
++ _$s7SwiftUI16PreferenceValuesV11modifyValue3for9transformyxm_AC0F0Vy_yAGQzzcGtAA0C3KeyRzlF
++ _$s7SwiftUI21ResolvableCurrentDateV9hashValueSivpMV
++ _$s7SwiftUI16PreferenceValuesV5ValueV5valuexvg
++ _$s7SwiftUI15_GestureOutputsV6anyKeySo11AGAttributeaSgAA010PreferenceF0_pXp_tcis
++ _$s7SwiftUI9GraphHostC16preferenceValuesAA010PreferenceF0VyF
++ _$s7SwiftUI21_SemanticFeature_v6_1VAA18ViewInputPredicateAAMc
++ _$s7SwiftUI21_SemanticFeature_v6_1VAA11PropertyKeyAAWP
++ _$s7SwiftUI15_GestureOutputsV17forEachPreferenceyyyAA0G3Key_pXp_So11AGAttributeatXEF
++ _$s7SwiftUI21_SemanticFeature_v6_1VAA0D0AAMc
++ _$s7SwiftUI17TestRenderOptionsVs25ExpressibleByArrayLiteralAAMc
++ _$s7SwiftUI22ResolvableAbsoluteDateV9hashValueSivg
++ _$s7SwiftUI17TestRenderOptionsVSYAAMc
++ _$s10Foundation12DateIntervalVSHAAMc
++ _$s7SwiftUI14PreferenceKeysVyAA0C3Key_pXpSiciM
++ _$s7SwiftUI9GraphHostC20hostPreferenceValues09AttributeC004WeakH0VyAA0fG0VGvpMV
++ _$s7SwiftUI9GraphHostC20hostPreferenceValues09AttributeC004WeakH0VyAA0fG0VGvg
++ _$s7SwiftUI12_ViewOutputsV17forEachPreferenceyyyAA0G3Key_pXp_So11AGAttributeatXEF
++ _$s7SwiftUI17TestRenderOptionsV6simpleACvgZ
++ _$s7SwiftUI19HorizontalAlignmentV24listRowSeparatorTrailingACvgZ
++ _$s7SwiftUI21_SemanticFeature_v6_1VAA18ViewInputPredicateAAWP
++ _$s7SwiftUI15ResolvableTimerV4hash4intoys6HasherVz_tF
++ _$s7SwiftUI17TestRenderOptionsV5asyncACvgZ
++ _$s7SwiftUI17TestRenderOptionsV7currentACvgZ
++ _$s7SwiftUI9GraphHostC20hostPreferenceValues09AttributeC004WeakH0VyAA0fG0VGvs
++ _$s7SwiftUI21ResolvableCurrentDateV9hashValueSivg
++ _$s7SwiftUI29ContentOffsetAdjustmentReasonO19positionTranslationyA2CmFWC
++ _$s7SwiftUI17TestRenderOptionsV04postD7RunLoopACvgZ
++ _$s7SwiftUI19ShapeStyledLeafViewPAAE8contains6points4sizeAA11BitVector64VSRySo7CGPointVG_So6CGSizeVtF
+- _$s7SwiftUI14PreferenceListV5ValueV4seedAA11VersionSeedVvg
+- _$s7SwiftUI9GraphHostC20hostPreferenceValues09AttributeC004WeakH0VyAA0F4ListVGvpMV
+- _$s7SwiftUI14PreferenceListV11descriptionSSvg
+- __swift_FORCE_LOAD_$_swiftCoreMedia
+- _$s7SwiftUI14PreferenceListV5ValueV4seedAA11VersionSeedVvM
+- _$s7SwiftUI17_AnyPreferenceKeyVyxGAA0cdE0AAWP
+- _$s7SwiftUI14PreferenceKeysVyAA03AnyC3Key_pXpSicipMV
+- _$s7SwiftUI10NamedImageO10VectorInfoV16flipsRightToLeftSbvM
+- _$s7SwiftUI15_GestureOutputsV6anyKeySo11AGAttributeaSgAA013AnyPreferenceF0_pXp_tcis
+- _$s7SwiftUI10ScrollableP19adjustContentOffset2bySbSo6CGSizeV_tFTj
+- _$s7SwiftUI16AnyPreferenceKeyP9valueTypeypXpvgZTq
+- _$s7SwiftUI14PreferenceListV14valueIfPresent3forAC5ValueVy_AFQzGSgxm_tAA0C3KeyRzlF
+- _$s7SwiftUI14PreferenceListV5ValueV5valuexvg
+- _$s7SwiftUI9GraphHostC16preferenceValuesAA14PreferenceListVyF
+- _$s7SwiftUI12_ViewOutputsV6anyKeySo11AGAttributeaSgAA013AnyPreferenceF0_pXp_tcis
+- _$s7SwiftUI18ResolvedStyledTextC5frame2inSo6CGRectVSo6CGSizeV_tF
+- __swift_FORCE_LOAD_$_swiftCoreLocation
+- _$s7SwiftUI10NamedImageO10VectorInfoVN
+- _$sScM7SwiftUIE33assumeIsolatedIfLinkedOnOrAfterV6_4file4linexxyKScMYcXE_s12StaticStringVSutKs8SendableRzlFZ
+- _$s7SwiftUI16PreferenceBridgeC11removeValue_3for14isInvalidatingySo11AGAttributea_AA03AnyC3Key_pXpSbtF
+- _$s7SwiftUI10NamedImageO10VectorInfoV13layoutMetricsAA0D0VAAE06LayoutH0Vvg
+- _$s7SwiftUI23HostPreferencesCombinerV7_values33_EAF68AEE5E08E2F44FEB886FE6A27001LL14AttributeGraph08OptionalO0VyAA14PreferenceListVGvpfi
+- _$s7SwiftUI14PreferenceListV13mayNotBeEqual2toSbAC_tF
+- _$s7SwiftUI10NamedImageO10VectorInfoV16flipsRightToLeftSbvg
+- _$s7SwiftUI14PreferenceListV5first33_7B694C05291EA7AF22785AB458D1BC2FLLAA0C4NodeAELLCSgvpfi
+- _$s7SwiftUI23HostPreferencesCombinerV5valueAA14PreferenceListVvg
+- _$s7SwiftUI16ContentResponderP8contains6points4sizeAA11BitVector64VSaySo7CGPointVG_So6CGSizeVtFTq
+- _$s7SwiftUI14PreferenceListV5ValueVMa
+- _$s7SwiftUI14PreferenceListV11removeValue3foryxm_tAA0C3KeyRzlF
+- _$s7SwiftUI24ShapeStyledResponderDataV8contains6points4sizeAA11BitVector64VSaySo7CGPointVG_So6CGSizeVtF
+- _$s7SwiftUI18PreferencesOutputsV6anyKeySo11AGAttributeaSgAA013AnyPreferenceF0_pXp_tcis
+- _$s7SwiftUI15_GestureOutputsV6anyKeySo11AGAttributeaSgAA013AnyPreferenceF0_pXp_tciM
+- _$s7SwiftUI18PreferencesOutputsV6anyKeySo11AGAttributeaSgAA013AnyPreferenceF0_pXp_tciM
+- _$s7SwiftUI23HostPreferencesCombinerV4keys6valuesAC14AttributeGraph0H0VyAA14PreferenceKeysVG_AHyAA0J4ListVGSgtcfC
+- _$s7SwiftUI14PreferenceListV5ValueV5valuexvpMV
+- _$s7SwiftUI12_ViewOutputsV17forEachPreferenceyyyAA03AnyG3Key_pXp_So11AGAttributeatXEF
+- _$s7SwiftUI14PreferenceListV8containsySbxmAA0C3KeyRzlF
+- _$s7SwiftUI14PreferenceListV5ValueV5valuexvs
+- _$s7SwiftUI19ShapeStyledLeafViewPAAE8contains6points4sizeAA11BitVector64VSaySo7CGPointVG_So6CGSizeVtF
+- _$s7SwiftUI17_AnyPreferenceKeyV9valueTypeypXpvgZ
+- _$s7SwiftUI14PreferenceKeysV4keys33_3D8838A231BB2CC7FC00E7880D8B2FC4LLSayAA03AnyC3Key_pXpGvpfi
+- _$s7SwiftUI10NamedImageO10VectorInfoV16flipsRightToLeftSbvs
+- _$s7SwiftUI9ColorViewV8contains6points4sizeAA11BitVector64VSaySo7CGPointVG_So6CGSizeVtF
+- _$s7SwiftUI14PreferenceKeysV8containsySbxmAA0C3KeyRzlF
+- _$s7SwiftUI13GeometryProxyV16placementContextAA023_PositionAwarePlacementF0VSgvpMV
+- _$s7SwiftUI9ViewGraphC18bridgedPreferences33_7D9EDEF832940A362646A6E979F296C8LLSayAA16AnyPreferenceKey_pXp_So11AGAttributeatGvpfi
+- _$s7SwiftUI16AnyPreferenceKeyP05visitE0yyqd__zAA0dE7VisitorRd__lFZTj
+- _$s7SwiftUI14PreferenceKeysVyAA03AnyC3Key_pXpSicig
+- _$s7SwiftUI14PreferenceListV5ValueV4seedAA11VersionSeedVvpMV
+- __swift_FORCE_LOAD_$_swiftCoreAudio
+- _$s7SwiftUI14PreferenceKeysVyAA03AnyC3Key_pXpSiciM
+- _$s7SwiftUI17_AnyPreferenceKeyVMa
+- _$s7SwiftUI14PreferenceListV13filterRemovedyyF
+- _$s7SwiftUI18HostPreferencesKeyV6reduce5value9nextValueyAA14PreferenceListVz_AHyXEtFZ
+- _$sSo6CGRectV7SwiftUIE11containsAny2ofSbSaySo7CGPointVG_tF
+- _$s7SwiftUI10NamedImageO10VectorInfoV13layoutMetricsAA0D0VAAE06LayoutH0VvpMV
+- _$s7SwiftUI18PreferencesOutputsV6anyKeySo11AGAttributeaSgAA013AnyPreferenceF0_pXp_tcig
+- _$s7SwiftUI14PreferenceListV5ValueV4seedAA11VersionSeedVvs
+- _$sSo6CGRectV7SwiftUIE33whileClippingToScrollViewsConvert2to9transformSbAC15CoordinateSpaceO_AC13ViewTransformVtF
+- _$s7SwiftUI14PreferenceListVMa
+- _$s7SwiftUI17_AnyPreferenceKeyVyxGAA0cdE0AAMc
+- _$s7SwiftUI16PreferenceBridgeC24_hostPreferencesCombiner33_DF57A19C61B44C613EB77C1D47FC679ALL14AttributeGraph04WeakQ0VyAA0C4ListVGvpfi
+- _$s7SwiftUI10NamedImageO5CacheVyAC10VectorInfoVSgAC0F3KeyV_So10CUICatalogCtcig
+- _$s7SwiftUI23HostPreferencesCombinerV8addChild4keys6valuesy14AttributeGraph0J0VyAA14PreferenceKeysVG_AG04WeakJ0VyAA0L4ListVGtF
+- _$s7SwiftUI14PreferenceKeysV3addyyAA03AnyC3Key_pXpF
+- _$s7SwiftUI14PreferenceListV5ValueVMn
+- _$s7SwiftUI16AnyPreferenceKeyP05visitE0yyqd__zAA0dE7VisitorRd__lFZTq
+- _$s7SwiftUI9GraphHostC20hostPreferenceValues09AttributeC004WeakH0VyAA0F4ListVGvpfi
+- _$s7SwiftUI18PreferencesOutputsV17forEachPreferenceyyyAA03AnyG3Key_pXp_So11AGAttributeatXEF
+- _$s7SwiftUI10NamedImageO10VectorInfoV5glyphSo08CUINamedE5GlyphCvM
+- _$s7SwiftUI14PreferenceListV4seedAA11VersionSeedVvpMV
+- _$s7SwiftUI15_GestureOutputsV6anyKeySo11AGAttributeaSgAA013AnyPreferenceF0_pXp_tcig
+- _$sSa7SwiftUIE7mapBoolyAA11BitVector64VSbxXEF
+- _$s7SwiftUI10NamedImageO10VectorInfoV5glyphSo08CUINamedE5GlyphCvpMV
+- _$s7SwiftUI9GraphHostC20hostPreferenceValues09AttributeC004WeakH0VyAA0F4ListVGvM
+- _$s7SwiftUI14PreferenceKeysV8containsySbAA03AnyC3Key_pXpF
+- _$s7SwiftUI14PreferenceKeysV3addyyxmAA0C3KeyRzlF
+- _$s7SwiftUI16ContentResponderPAAE8contains6points4sizeAA11BitVector64VSaySo7CGPointVG_So6CGSizeVtF
+- _$s7SwiftUI17_AnyPreferenceKeyV05visitE0yyqd__zAA0dE7VisitorRd__lFZ
+- _$s7SwiftUI18HostPreferencesKeyV12defaultValueAA14PreferenceListVvgZ
+- _$s7SwiftUI14PreferenceListV5ValueV5value4seedAEy_xGx_AA11VersionSeedVtcfC
+- _$s7SwiftUI19ScrollableContainerPAAE19adjustContentOffset2bySbSo6CGSizeV_tF
+- _$s7SwiftUI14PreferenceListV4seedAA11VersionSeedVvg
+- __swift_FORCE_LOAD_$_swiftCoreMIDI
+- _$s7SwiftUI10NamedImageO10VectorInfoV16flipsRightToLeftSbvpMV
+- _$s7SwiftUI14PreferenceKeysV6removeyyxmAA0C3KeyRzlF
+- _$s7SwiftUI14PreferenceListV5ValueV5valuexvM
+- _$s7SwiftUI10NamedImageO10VectorInfoVMn
+- _$s7SwiftUI10NamedImageO10VectorInfoV13layoutMetricsAA0D0VAAE06LayoutH0Vvs
+- _$s7SwiftUI23HostPreferencesCombinerV5valueAA14PreferenceListVvpMV
+- _$s7SwiftUI10NamedImageO5CacheVyAC10VectorInfoVSgAC0F3KeyV_So10CUICatalogCtcipMV
+- _$s7SwiftUI16AnyPreferenceKeyMp
+- _$s7SwiftUI14PreferenceListVyAC5ValueVy_ADQzGxmcAA0C3KeyRzluiM
+- _$s7SwiftUI14PreferenceListVyAC5ValueVy_ADQzGxmcAA0C3KeyRzluig
+- _$s7SwiftUI16AnyPreferenceKeyP9valueTypeypXpvgZTj
+- _$s7SwiftUI10NamedImageO10VectorInfoV13layoutMetricsAA0D0VAAE06LayoutH0VvM
+- _$s7SwiftUI16PreferenceBridgeC8addValue_3forySo11AGAttributea_AA03AnyC3Key_pXptF
+- _$s7SwiftUI14PreferenceListVN
+- _$s7SwiftUI19ResolvedVectorGlyphV5glyph5value16flipsRightToLeft2in2atACSo08CUINameddE0C_SfSgSbAA22ImageResolutionContextVAA0O0V8LocationOtcfC
+- _$s7SwiftUI12_ViewOutputsV6anyKeySo11AGAttributeaSgAA013AnyPreferenceF0_pXp_tcig
+- _$s7SwiftUI14PreferenceListVyAC5ValueVy_ADQzGxmcAA0C3KeyRzluis
+- _$s7SwiftUI16AnyPreferenceKeyTL
+- _$s7SwiftUI10NamedImageO10VectorInfoVMa
+- _$s7SwiftUI14PreferenceKeysVyAA03AnyC3Key_pXpSicis
+- _$s7SwiftUI14PreferenceListVMn
+- _$s7SwiftUI9GraphHostC20hostPreferenceValues09AttributeC004WeakH0VyAA0F4ListVGvs
+- _$s7SwiftUI16PreferenceBridgeC13addHostValues_3fory14AttributeGraph08OptionalI0VyAA0C4ListVG_AF0I0VyAA0C4KeysVGtF
+- _$s7SwiftUI14PreferenceListVACycfC
+- _$s7SwiftUI12_ViewOutputsV6anyKeySo11AGAttributeaSgAA013AnyPreferenceF0_pXp_tciM
+- _$s7SwiftUI14PreferenceListV7combine4withyAC_tF
+- __swift_FORCE_LOAD_$_swiftAVFoundation
+- _$s7SwiftUI16ContentResponderP8contains6points4sizeAA11BitVector64VSaySo7CGPointVG_So6CGSizeVtFTj
+- _$s7SwiftUI13GeometryProxyV16placementContextAA023_PositionAwarePlacementF0VSgvg
+- _$s7SwiftUI10NamedImageO10VectorInfoV5glyphSo08CUINamedE5GlyphCvs
+- _$s7SwiftUI10NamedImageO10VectorInfoV5glyphSo08CUINamedE5GlyphCvg
+- _$s7SwiftUI17_AnyPreferenceKeyVMn
+- _$sSo6CGSizeV7SwiftUIE11containsAny2ofSbSaySo7CGPointVG_tF
+- _$s7SwiftUI10ScrollableP19adjustContentOffset2bySbSo6CGSizeV_tFTq
+- _$s7SwiftUI14PreferenceListV11modifyValue3for9transformyxm_AC0F0Vy_yAGQzzcGtAA0C3KeyRzlF
+- _$s7SwiftUI15_GestureOutputsV17forEachPreferenceyyyAA03AnyG3Key_pXp_So11AGAttributeatXEF
+- _$s7SwiftUI16PreferenceBridgeC13addHostValues_3fory14AttributeGraph04WeakI0VyAA0C4ListVG_AF0I0VyAA0C4KeysVGtF
+- _$s7SwiftUI14PreferenceListVs23CustomStringConvertibleAAMc
+- _$s7SwiftUI16RendererLeafViewPAAE8contains6points4sizeAA11BitVector64VSaySo7CGPointVG_So6CGSizeVtF
+- _$s7SwiftUI9GraphHostC20hostPreferenceValues09AttributeC004WeakH0VyAA0F4ListVGvg
+- _$s7SwiftUI16PreferenceBridgeC11removeValue_3for14isInvalidatingySo11AGAttributea_AA03AnyC3Key_pXpSbtFfA1_
+- _$s7SwiftUI14PreferenceKeysV6removeyyAA03AnyC3Key_pXpF
+- _$s7SwiftUI14PreferenceListV11descriptionSSvpMV
+CStrings:
++ "explicit_alignment"
++ "@\"NSTextContainer\"32@0:8@\"NSTextLayoutManager\"16@\"<NSTextLocation>\"24"
++ "@\"NSTextViewportLayoutController\"32@0:8@\"NSTextLayoutManager\"16@\"NSTextContainer\"24"
++ "textLayoutManager:willChangeFromTextSelections:toTextSelections:"
++ "NSTextLayoutManagerDelegate"
++ "textLayoutManager:renderingAttributesForLink:atLocation:defaultAttributes:"
++ "@\"NSTextLayoutFragment\"40@0:8@\"NSTextLayoutManager\"16@\"<NSTextLocation>\"24@\"NSTextElement\"32"
++ "_TtCCC7SwiftUI18ResolvedStyledText17TextLayoutManager8Delegate"
++ "SwiftUICore/StateObject.swift"
++ "textLayoutManager:textLayoutFragmentForLocation:inTextElement:"
++ "sysctl(3) failed: %!{(MISSING)errno}d"
++ "@\"NSDictionary\"48@0:8@\"NSTextLayoutManager\"16@24@\"<NSTextLocation>\"32@\"NSDictionary\"40"
++ "_UIKitAddSubview"
++ "textLayoutManager:textContainerForLocation:"
++ "@\"NSArray\"40@0:8@\"NSTextLayoutManager\"16@\"NSArray\"24@\"NSArray\"32"
++ "UIKitSubviews.m"
++ "com.apple.SwiftUI.EnableTableLogging"
++ "positionTranslation"
++ "textLayoutManagerAllowsSimpleRectangularTextContainerOnly:"
++ "alignment_type"
++ "alignmentTypes"
++ "AnchorGeometryTransform: "
++ "B24@0:8@\"NSTextLayoutManager\"16"
++ "textLayoutManager:shouldBreakLineBeforeLocation:hyphenating:"
++ "B36@0:8@16@24B32"
++ "textLayoutManager:textViewportLayoutControllerForTextContainer:"
++ "com.apple.SwiftUI.EnableListPerfLogging"
++ "B36@0:8@\"NSTextLayoutManager\"16@\"<NSTextLocation>\"24B32"
++ "childLayer"
+- "mergedSeed"
+- "SwiftUICore/PreferenceList.swift"
+- "_TtC7SwiftUIP33_7B694C05291EA7AF22785AB458D1BC2F14PreferenceNode"
+
+```
