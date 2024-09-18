@@ -1824,7 +1824,7 @@ CStrings:
 
 ## 🌴 Device Tree
 
-- [Device Tree DIFF](18_1_22B5045g__vs_18_1_22B5045h/DeviceTree.md)
+- [Device Tree DIFF](DeviceTree.md)
 
 ## DSC
 
