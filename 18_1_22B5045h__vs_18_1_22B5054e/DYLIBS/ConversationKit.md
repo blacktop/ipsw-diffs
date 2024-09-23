@@ -1,0 +1,236 @@
+## ConversationKit
+
+> `/System/Library/PrivateFrameworks/ConversationKit.framework/ConversationKit`
+
+```diff
+
+-525.200.52.0.0
+-  __TEXT.__text: 0x7a59f4
+-  __TEXT.__auth_stubs: 0x7ac0
+-  __TEXT.__objc_methlist: 0x63d0
+-  __TEXT.__const: 0x2adb4
+-  __TEXT.__cstring: 0x2ff3b
+-  __TEXT.__oslogstring: 0x184b1
+-  __TEXT.__swift5_typeref: 0x27c44
+-  __TEXT.__swift5_capture: 0x9044
+-  __TEXT.__constg_swiftt: 0x1a4b8
++525.200.71.0.0
++  __TEXT.__text: 0x7a70ec
++  __TEXT.__auth_stubs: 0x7b40
++  __TEXT.__objc_methlist: 0x63e0
++  __TEXT.__const: 0x2af94
++  __TEXT.__cstring: 0x2ff5b
++  __TEXT.__oslogstring: 0x18471
++  __TEXT.__swift5_typeref: 0x27c54
++  __TEXT.__swift5_capture: 0x8ffc
++  __TEXT.__constg_swiftt: 0x1a504
+   __TEXT.__swift5_builtin: 0x94c
+   __TEXT.__swift5_mpenum: 0x1cc
+-  __TEXT.__swift5_reflstr: 0x18b4d
+-  __TEXT.__swift5_fieldmd: 0x138a4
+-  __TEXT.__swift5_assocty: 0x24b8
++  __TEXT.__swift5_reflstr: 0x18b7d
++  __TEXT.__swift5_fieldmd: 0x1391c
++  __TEXT.__swift5_assocty: 0x24d0
+   __TEXT.__swift5_protos: 0x310
+-  __TEXT.__swift5_proto: 0x183c
+-  __TEXT.__swift5_types: 0x12b4
+-  __TEXT.__unwind_info: 0x1d6b0
+-  __TEXT.__eh_frame: 0x14768
++  __TEXT.__swift5_proto: 0x1858
++  __TEXT.__swift5_types: 0x12c0
++  __TEXT.__unwind_info: 0x1d6e8
++  __TEXT.__eh_frame: 0x14738
+   __TEXT.__objc_classname: 0xd39
+-  __TEXT.__objc_methname: 0x15659
++  __TEXT.__objc_methname: 0x15670
+   __TEXT.__objc_methtype: 0x38fc
+   __TEXT.__objc_stubs: 0x7a0
+-  __DATA_CONST.__got: 0x2978
++  __DATA_CONST.__got: 0x2980
+   __DATA_CONST.__const: 0x4f00
+   __DATA_CONST.__objc_classlist: 0xc60
+   __DATA_CONST.__objc_catlist: 0x68
+   __DATA_CONST.__objc_protolist: 0x648
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x5758
++  __DATA_CONST.__objc_selrefs: 0x5768
+   __DATA_CONST.__objc_protorefs: 0x330
+   __DATA_CONST.__objc_superrefs: 0x8
+-  __AUTH_CONST.__auth_got: 0x3d68
+-  __AUTH_CONST.__auth_ptr: 0x3c80
+-  __AUTH_CONST.__const: 0x2b550
++  __AUTH_CONST.__auth_got: 0x3da8
++  __AUTH_CONST.__auth_ptr: 0x3cd8
++  __AUTH_CONST.__const: 0x2b838
+   __AUTH_CONST.__cfstring: 0x1c0
+-  __AUTH_CONST.__objc_const: 0x272a8
+-  __AUTH.__objc_data: 0xf4a8
+-  __AUTH.__data: 0xe9c8
++  __AUTH_CONST.__objc_const: 0x27288
++  __AUTH.__objc_data: 0xf458
++  __AUTH.__data: 0xe9a8
+   __DATA.__objc_ivar: 0x20
+-  __DATA.__data: 0x11b10
++  __DATA.__data: 0x11b00
+   __DATA.__objc_stublist: 0x8
+-  __DATA.__bss: 0x26840
+-  __DATA.__common: 0x1740
+-  __DATA_DIRTY.__objc_data: 0x5388
+-  __DATA_DIRTY.__data: 0x47e8
+-  __DATA_DIRTY.__bss: 0x1710
+-  __DATA_DIRTY.__common: 0x720
++  __DATA.__bss: 0x26a40
++  __DATA.__common: 0x1730
++  __DATA_DIRTY.__objc_data: 0x53d8
++  __DATA_DIRTY.__data: 0x47f8
++  __DATA_DIRTY.__bss: 0x1890
++  __DATA_DIRTY.__common: 0x728
+   - /System/Library/Frameworks/AVFAudio.framework/AVFAudio
+   - /System/Library/Frameworks/AVFoundation.framework/AVFoundation
+   - /System/Library/Frameworks/Accelerate.framework/Accelerate
+
+   - /usr/lib/swift/libswiftsimd.dylib
+   - /usr/lib/swift/libswiftsys_time.dylib
+   - /usr/lib/swift/libswiftunistd.dylib
+-  Functions: 53538
+-  Symbols:   77687
+-  CStrings:  10034
++  Functions: 53557
++  Symbols:   77771
++  CStrings:  10036
+ 
+Symbols:
++ _$s15ConversationKit29CallRecordingViewMaterialTypeO5photoyA2CmFWC
++ _$s15ConversationKit39CallRecordingCountdownViewModelDelegateP10updateTextyySiSgFTj
++ _$s15ConversationKit39CallRecordingCountdownViewModelDelegateP10updateTextyySiSgFTq
++ _$s15ConversationKit22CallRecordingViewModelC10ScreenSizeO5smallyA2EmFWC
++ _$s15ConversationKit22CallRecordingViewModelC16CommunicationsUI0cddE8DelegateAAMc
++ _$s15ConversationKit22CallRecordingViewModelC0E4TypeO9hashValueSivg
++ _$s16CommunicationsUI013CallRecordingD4ViewC15ConversationKitE06updateD9TimeLabelyySSF
++ _$s15ConversationKit31CallRecordingPillViewControllerC09recordingF016CommunicationsUI0cddF0CvpMV
++ _$s16CommunicationsUI013CallRecordingD4ViewC15ConversationKit0cdE13ModelDelegateADMc
++ _$s16CommunicationsUI013CallRecordingD4ViewC7OptionsV10stopButtonAEvgZ
++ _$s15ConversationKit22CallRecordingViewModelC0E4TypeOSHAAMc
++ _$s15ConversationKit22CallRecordingViewModelC0E4TypeON
++ _$s16CommunicationsUI013CallRecordingD4ViewCMa
++ _$s16CommunicationsUI013CallRecordingD4ViewC14waveformValuesSaySfG5local_AE6remotetvs
++ _$s15ConversationKit33CallRecordingButtonViewControllerC17textSizeDidChangeyyF
++ _$s15ConversationKit22CallRecordingViewModelC10ScreenSizeO6insets3forSo12UIEdgeInsetsVAC0E4TypeO_tF
++ _$s15ConversationKit29RecentsCollectionViewCollatorC10reloadDatayyFTj
++ _$s15ConversationKit29CallRecordingViewMaterialTypeOSYAAMc
++ _$s16CommunicationsUI013CallRecordingD4ViewC23setAXLabelForStopButtonyySSSgF
++ _$s15ConversationKit22CallRecordingViewModelC0E4TypeOMn
++ _$s15ConversationKit22CallRecordingViewModelC0E4TypeO9countdownyA2EmFWC
++ _$s15ConversationKit22CallRecordingViewModelC0E4TypeOSQAAMc
++ _$s16CommunicationsUI26CallRecordingCountdownViewC7stringsSS5title_SSSg8subtitletvs
++ _$s15ConversationKit29CallRecordingViewMaterialTypeO6effectSo14UIVisualEffectCvpMV
++ _$s16CommunicationsUI013CallRecordingD12ViewDelegateP12tapContaineryyFTq
++ _$s15ConversationKit22CallRecordingViewModelC0E4TypeO4hash4intoys6HasherVz_tF
++ _$s15ConversationKit22CallRecordingViewModelC0E4TypeO9hashValueSivpMV
++ _$s16CommunicationsUI013CallRecordingD4ViewC15ConversationKitE17updatePowerLevels20latestRemoteSpectrum0k5LocalM0ySaySfG_AHtF
++ _$s15ConversationKit31CallRecordingPillViewControllerC09recordingF016CommunicationsUI0cddF0CvM
++ _$s16CommunicationsUI26CallRecordingCountdownViewC6configAcA0cdF14ConfigProtocol_p_tcfc
++ _$s16CommunicationsUI013CallRecordingD4ViewC7OptionsVMa
++ _$s15ConversationKit29CallRecordingViewMaterialTypeO6effectSo14UIVisualEffectCvg
++ _$s15ConversationKit31CallRecordingPillViewControllerC10screenSizeAA0cdF5ModelC06ScreenI0Ovg
++ _$s15ConversationKit0A11DetailsViewC41enhancedEmergencySubtitleMaxNumberOfLinesSiyF
++ _$s16CommunicationsUI013CallRecordingD4ViewC6configAcA0cdE14ConfigProtocol_p_tcfc
++ _$s16CommunicationsUI013CallRecordingD12ViewDelegateP07tapStopD0yyFTq
++ _$s15ConversationKit22CallRecordingViewModelC10ScreenSizeO012maxAXContentH0So09UIContentH8Categoryavg
++ _$s15ConversationKit22CallRecordingViewModelC10ScreenSizeO012maxAXContentH0So09UIContentH8CategoryavpMV
++ _$s15ConversationKit0A11DetailsViewC41enhancedEmergencySubtitleMaxNumberOfLinesSiyFTj
++ _$s16CommunicationsUI013CallRecordingD4ViewC7OptionsV4noneAEvgZ
++ _$s16CommunicationsUI013CallRecordingD4ViewC8delegateAA0cddE8Delegate_pSgvs
++ _$s15ConversationKit22CallRecordingViewModelC10ScreenSizeOMn
++ _$s16CommunicationsUI027CallRecordingViewBackgroundE0CMa
++ _$s16CommunicationsUI013CallRecordingD4ViewCMn
++ _$s15ConversationKit22CallRecordingViewModelC10ScreenSizeO11mediumLargeyA2EmFWC
++ _$s16CommunicationsUI013CallRecordingD12ViewDelegateMp
++ _$s15ConversationKit29CallRecordingViewMaterialTypeOSHAAMc
++ _$s15ConversationKit22CallRecordingViewModelC10ScreenSizeOSQAAMc
++ _$s15ConversationKit22CallRecordingViewModelC10ScreenSizeOSHAAMc
++ _$s15ConversationKit29CallRecordingViewMaterialTypeOSQAAMc
++ _$s15ConversationKit31CallRecordingPillViewControllerC09recordingF016CommunicationsUI0cddF0Cvg
++ _$s15ConversationKit31CallRecordingPillViewControllerC10screenSizeAA0cdF5ModelC06ScreenI0OvpMV
++ _$s15ConversationKit22CallRecordingViewModelC10ScreenSizeO4hash4intoys6HasherVz_tF
++ _$s15ConversationKit29CallRecordingViewMaterialTypeON
++ _$s15ConversationKit29CallRecordingViewMaterialTypeO8rawValueACSgSi_tcfC
++ _$s16CommunicationsUI027CallRecordingViewBackgroundE0C6effectACSo14UIVisualEffectC_tcfc
++ _$s15ConversationKit22CallRecordingViewModelC0E4TypeO9recordingyA2EmFWC
++ _$s15ConversationKit22CallRecordingViewModelC10ScreenSizeO9hashValueSivpMV
++ _$s15ConversationKit22CallRecordingViewModelC10ScreenSizeO21interComponentSpacing3forSay12CoreGraphics7CGFloatVGAC0E4TypeO_tF
++ _$s16CommunicationsUI013CallRecordingD4ViewC7OptionsV3allAEvgZ
++ _$s16CommunicationsUI26CallRecordingCountdownViewC16updateBackgroundyyAA0cdfhF0CF
++ _$s15ConversationKit0A11DetailsViewC41enhancedEmergencySubtitleMaxNumberOfLinesSiyFTq
++ _$s15ConversationKit22CallRecordingViewModelC10ScreenSizeO2eeoiySbAE_AEtFZ
++ _$sSo13UIColorEffectC16CommunicationsUIE027inCallControlsButtonNoPhotoI6AvatarABvgZ
++ _$s15ConversationKit29CallRecordingViewMaterialTypeO6avataryA2CmFWC
++ _$sSo13UIColorEffectC16CommunicationsUIE30inCallControlsButtonAvatarOnlyABvgZ
++ _$s7SwiftUI23AccessibilityFocusStateV12wrappedValuexvs
++ _$s15ConversationKit29CallRecordingViewMaterialTypeOMn
++ _$s15ConversationKit22CallRecordingViewModelC0E4TypeO2eeoiySbAE_AEtFZ
++ _$s15ConversationKit31CallRecordingPillViewControllerC24updateBackgroundMaterial8materialyAA0cdfJ4TypeO_tF
++ _$s16CommunicationsUI26CallRecordingCountdownViewC15ConversationKitE10updateTextyySiSgF
++ _$s15ConversationKit22CallRecordingViewModelC10ScreenSizeOMa
++ _$s15ConversationKit29CallRecordingViewMaterialTypeO8rawValueSivpMV
++ _$s15ConversationKit29CallRecordingViewMaterialTypeO7noPhotoyA2CmFWC
++ _$s15ConversationKit22CallRecordingViewModelC10ScreenSizeON
++ _$s15ConversationKit29CallRecordingViewMaterialTypeO8rawValueSivg
++ _$s15ConversationKit22CallRecordingViewModelC0E4TypeOMa
++ _$s15ConversationKit29RecentsCollectionViewCollatorC10reloadDatayyFTq
++ _$s15ConversationKit31CallRecordingPillViewControllerC09recordingF016CommunicationsUI0cddF0Cvs
++ _$s16CommunicationsUI23CallRecordingViewConfigV5inset7options21interComponentSpacing16maxAXContentSize16backgroundEffectACSo12UIEdgeInsetsV_AA0cddE0C7OptionsVSay12CoreGraphics7CGFloatVGSo09UIContentN8CategoryaSo08UIVisualP0CtcfC
++ _$s16CommunicationsUI013CallRecordingD4ViewC16updateBackgroundyyAA0cdegE0CF
++ _$s16CommunicationsUI23CallRecordingViewConfigVAA0cdeF8ProtocolAAWP
++ _$s16CommunicationsUI013CallRecordingD4ViewC15ConversationKit0cdE13ModelDelegateADWP
++ _$s15ConversationKit29CallRecordingViewMaterialTypeOMa
++ _$s16CommunicationsUI013CallRecordingD4ViewC13stopwatchTimeSSSgvs
++ _$s16CommunicationsUI23CallRecordingViewConfigVMa
++ _$s15ConversationKit22CallRecordingViewModelC10ScreenSizeO9hashValueSivg
+- _$s16CommunicationsUI17CallRecordingViewCMn
+- _$s16CommunicationsUI26CallRecordingCountdownViewC15ConversationKitE06updateE5ValueyySiF
+- _$s16CommunicationsUI17CallRecordingViewC13stopwatchTimeSSSgvs
+- _$s16CommunicationsUI26CallRecordingCountdownViewC14removeSubtitleyyF
+- _$s16CommunicationsUI26CallRecordingCountdownViewC03preD12SubtitleTextSSSgvs
+- _$s15ConversationKit31CallRecordingPillViewControllerC09recordingF016CommunicationsUI0cdF0CvpMV
+- _$s15ConversationKit29RecentsCollectionViewCollatorC10reloadData10completionyyycSg_tFTq
+- _$s16CommunicationsUI17CallRecordingViewC8delegateAA0cdE8Delegate_pSgvs
+- _$s16CommunicationsUI17CallRecordingViewC14waveformValuesSaySfG5local_AE6remotetvs
+- _$s16CommunicationsUI17CallRecordingViewC15ConversationKit0cdE13ModelDelegateADWP
+- _$s15ConversationKit39CallRecordingCountdownViewModelDelegateP05resetE0yyFTq
+- _$s16CommunicationsUI26CallRecordingCountdownViewC15ConversationKitE05resetE0yyF
+- _$s16CommunicationsUI25CallRecordingViewDelegateP07tapStopD0yyFTq
+- _$s16CommunicationsUI25CallRecordingViewDelegateP12tapContaineryyFTq
+- _$s16CommunicationsUI17CallRecordingViewC15ConversationKitE06updateD9TimeLabelyySSF
+- _$s15ConversationKit31CallRecordingPillViewControllerC09recordingF016CommunicationsUI0cdF0Cvg
+- _$s16CommunicationsUI17CallRecordingViewC7OptionsVMa
+- _$s16CommunicationsUI26CallRecordingCountdownViewC15ConversationKitE11updateTitleyyF
+- _$s15ConversationKit39CallRecordingCountdownViewModelDelegateP06updateE5ValueyySiFTj
+- _$s15ConversationKit39CallRecordingCountdownViewModelDelegateP06updateE5ValueyySiFTq
+- _$s15ConversationKit31CallRecordingPillViewControllerC09recordingF016CommunicationsUI0cdF0CvM
+- _$s16CommunicationsUI25CallRecordingViewDelegateMp
+- _$s16CommunicationsUI17CallRecordingViewC7options14stopButtonSizeA2C7OptionsV_12CoreGraphics7CGFloatVtcfc
+- _$s16CommunicationsUI26CallRecordingCountdownViewC11addSubtitleyyF
+- _$s15ConversationKit39CallRecordingCountdownViewModelDelegateP05resetE0yyFTj
+- _$s16CommunicationsUI17CallRecordingViewC7OptionsV3allAEvgZ
+- _$s16CommunicationsUI17CallRecordingViewCMa
+- _$s16CommunicationsUI26CallRecordingCountdownViewC03preD9TitleTextSSSgvs
+- _$s15ConversationKit22CallRecordingViewModelC16CommunicationsUI0cdE8DelegateAAMc
+- _$s16CommunicationsUI17CallRecordingViewC23setAXLabelForStopButtonyySSSgF
+- _$s16CommunicationsUI17CallRecordingViewC15ConversationKitE17updatePowerLevels20latestRemoteSpectrum0k5LocalM0ySaySfG_AHtF
+- _$s15ConversationKit39CallRecordingCountdownViewModelDelegateP11updateTitleyyFTq
+- _$s15ConversationKit39CallRecordingCountdownViewModelDelegateP11updateTitleyyFTj
+- _$s16CommunicationsUI17CallRecordingViewC15ConversationKit0cdE13ModelDelegateADMc
+- _$s16CommunicationsUI17CallRecordingViewC7OptionsV10stopButtonAEvgZ
+- _$s15ConversationKit31CallRecordingPillViewControllerC09recordingF016CommunicationsUI0cdF0Cvs
+- _$s15ConversationKit29RecentsCollectionViewCollatorC10reloadData10completionyyycSg_tFTj
+CStrings:
++ "pendingDataLoading"
++ "textSizeDidChange"
++ "Conversation Details"
++ "stop"
+- "pendingCompletions"
+- "Request reloadData after data loading is completed."
+
+```
