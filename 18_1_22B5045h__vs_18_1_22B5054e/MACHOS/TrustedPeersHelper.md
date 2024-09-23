@@ -90,17 +90,17 @@
 Symbols:
 + _OBJC_METACLASS_$__TtCO18TrustedPeersHelper13CuttlefishAPI45PerformCkserverUnreadableDataRemovalOperation
 CStrings:
-+ "performCkserverUnreadableRemoval success"
-+ "_TtCO18TrustedPeersHelper13CuttlefishAPI45PerformCkserverUnreadableDataRemovalOperation"
-+ "performCkserverUnreadableRemoval complete %!{(MISSING)public}s"
-+ "performCKServerUnreadableDataRemoval failed for %!{(MISSING)public}s: %!{(MISSING)public}s"
-+ "performCKServerUnreadableDataRemoval"
-+ "performCKServerUnreadableDataRemoval for %!{(MISSING)public}s"
-+ "performCkserverUnreadableDataRemoval(_:completion:)"
-+ "performCKServerUnreadableDataRemoval(reply:)"
-+ "performCkserverUnreadableRemoval failed: %!{(MISSING)public}s"
 + "tag7"
-+ "TrustedPeersHelper.PerformCkserverUnreadableDataRemovalOperation"
++ "performCKServerUnreadableDataRemoval"
++ "performCKServerUnreadableDataRemoval failed for %!{(MISSING)public}s: %!{(MISSING)public}s"
 + "performCKServerUnreadableDataRemovalWithSpecificUser:reply:"
++ "performCkserverUnreadableDataRemoval(_:completion:)"
++ "performCkserverUnreadableRemoval complete %!{(MISSING)public}s"
++ "_TtCO18TrustedPeersHelper13CuttlefishAPI45PerformCkserverUnreadableDataRemovalOperation"
++ "performCkserverUnreadableRemoval success"
++ "TrustedPeersHelper.PerformCkserverUnreadableDataRemovalOperation"
++ "performCKServerUnreadableDataRemoval for %!{(MISSING)public}s"
++ "performCkserverUnreadableRemoval failed: %!{(MISSING)public}s"
++ "performCKServerUnreadableDataRemoval(reply:)"
 
 ```

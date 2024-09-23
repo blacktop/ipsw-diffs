@@ -50,9 +50,9 @@
 +  CStrings:  696
  
 CStrings:
-+ "_axIsInTVWhatsNewVC"
-+ "TVWhatsNewViewController"
-+ "_accessibilityViewController"
 + "_accessibilityDescendantOfType:"
++ "_axIsInTVWhatsNewVC"
++ "_accessibilityViewController"
++ "TVWhatsNewViewController"
 
 ```

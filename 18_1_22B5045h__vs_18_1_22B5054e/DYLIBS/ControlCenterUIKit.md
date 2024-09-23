@@ -67,8 +67,8 @@
 +  CStrings:  2180
  
 CStrings:
+- "initWithFrame:glyphView:"
 - "gridUnitDimension"
 - "gridUnitSpacing"
-- "initWithFrame:glyphView:"
 
 ```

@@ -41,8 +41,8 @@ CStrings:
 + "122.2"
 + "122.2~17"
 + "RCSMessageProvisioningXMLs"
+- "RCSMessageProvisioningInitialInssecureAccess"
 - "122.1~27"
 - "122.1"
-- "RCSMessageProvisioningInitialInssecureAccess"
 
 ```

@@ -66,8 +66,8 @@
    CStrings:  746
  
 Symbols:
-+ _swift_asyncLet_begin
-+ _swift_asyncLet_get_throwing
 + _swift_asyncLet_finish
++ _swift_asyncLet_get_throwing
++ _swift_asyncLet_begin
 
 ```

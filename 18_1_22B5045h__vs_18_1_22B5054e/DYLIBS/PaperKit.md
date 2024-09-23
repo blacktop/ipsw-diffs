@@ -103,45 +103,45 @@
 +  CStrings:  6245
  
 Symbols:
-+ _$s8PaperKit19GraphableExpressionV17graphableVariableSSvs
 + _$s8PaperKit19GraphableExpressionV9Coherence10CRStruct_4AAMc
 + _$s8PaperKit19GraphableExpressionV17graphableVariableSSvM
-+ _$s8PaperKit19GraphableExpressionV18$graphableVariable9Coherence10CRRegisterVySSGvpMV
-+ _$s8PaperKit19GraphableExpressionV10expression10identifier17graphableVariable5colorACSS_S2SSgAA5ColorVSgtcfC
 + _$s8PaperKit19GraphableExpressionV9Coherence15CRStruct_Base_4AAMc
-+ _$s8PaperKit19GraphableExpressionV18$graphableVariable9Coherence10CRRegisterVySSGvs
-+ _$s8PaperKit19GraphableExpressionV18$graphableVariable9Coherence10CRRegisterVySSGvg
-+ _$s9Calculate0A10ExpressionC17graphableVariableSSSgvg
-+ _$s8PaperKit19GraphableExpressionV18$graphableVariable9Coherence10CRRegisterVySSGvM
-+ _$s9Calculate0A10ExpressionC17graphableVariableSSSgvs
-+ _$s8PaperKit19GraphableExpressionV17graphableVariableSSvpMV
-+ _$s8PaperKit19GraphableExpressionV6fieldsSS_s15WritableKeyPathCyAC9Coherence10CRRegisterVySSGGt_SS_AKtSS_AFyAcIyAA5ColorVSgGGtSS_AKttvgZ
++ _$s8PaperKit19GraphableExpressionV17graphableVariableSSvs
 + _$s9Coherence10CRStruct_4PAASE6Type_1RpzSE0C2_2RpzSE0C2_3RpzSE0C2_4RpzrlE6encode2toys7Encoder_p_tKF
-+ _$s9Calculate0A10ExpressionC18graphableVariablesSaySSGvg
-+ _$s8PaperKit19GraphableExpressionV17graphableVariableSSvg
++ _$s8PaperKit19GraphableExpressionV18$graphableVariable9Coherence10CRRegisterVySSGvg
++ _$s8PaperKit19GraphableExpressionV10expression10identifier17graphableVariable5colorACSS_S2SSgAA5ColorVSgtcfC
++ _$s8PaperKit19GraphableExpressionV18$graphableVariable9Coherence10CRRegisterVySSGvM
++ _$s8PaperKit19GraphableExpressionV17graphableVariableSSvpMV
 + _$s8PaperKit19GraphableExpressionV10CodingKeysO17graphableVariableyA2EmFWC
++ _$s9Calculate0A10ExpressionC17graphableVariableSSSgvg
++ _$s9Calculate0A10ExpressionC17graphableVariableSSSgvs
++ _$s8PaperKit19GraphableExpressionV6fieldsSS_s15WritableKeyPathCyAC9Coherence10CRRegisterVySSGGt_SS_AKtSS_AFyAcIyAA5ColorVSgGGtSS_AKttvgZ
++ _$s9Calculate0A10ExpressionC18graphableVariablesSaySSGvg
++ _$s8PaperKit19GraphableExpressionV18$graphableVariable9Coherence10CRRegisterVySSGvpMV
++ _$s8PaperKit19GraphableExpressionV18$graphableVariable9Coherence10CRRegisterVySSGvs
++ _$s8PaperKit19GraphableExpressionV17graphableVariableSSvg
+- _$s8PaperKit19GraphableExpressionV9Coherence15CRStruct_Base_3AAMc
 - _$s8PaperKit19GraphableExpressionV6fieldsSS_s15WritableKeyPathCyAC9Coherence10CRRegisterVySSGGt_SS_AKtSS_AFyAcIyAA5ColorVSgGGttvgZ
 - _$s8PaperKit19GraphableExpressionV9Coherence10CRStruct_3AAMc
 - _$s9Coherence10CRStruct_3PAASE6Type_1RpzSE0C2_2RpzSE0C2_3RpzrlE6encode2toys7Encoder_p_tKF
-- _$s8PaperKit19GraphableExpressionV9Coherence15CRStruct_Base_3AAMc
 CStrings:
-+ "Update graphable variable for expression: %!{(MISSING)private}s, variable: %!s(MISSING)"
-+ "graphableVariable"
-+ "mathViewController:expressionIdentifiersForCompatibleGraphNearLocation:expressionUUID:"
-+ "v100@0:8@\"PKMathRecognitionViewController\"16@\"NSString\"24@\"NSString\"32{CGRect={CGPoint=dd}{CGSize=dd}}40@\"NSString\"72{CGPoint=dd}80B96"
-+ "v100@0:8@16@24@32{CGRect={CGPoint=dd}{CGSize=dd}}40@72{CGPoint=dd}80B96"
-+ "GraphableVariables"
-+ "@\"NSSet\"48@0:8@\"PKMathRecognitionViewController\"16{CGPoint=dd}24@\"NSUUID\"40"
 + "setTokens:forItemUUID:graphable:graphableVariables:"
-+ "thumbnailCacheDigest"
-+ "mathViewController:addGraphForExpression:variable:range:identifier:expressionLocation:addToExisting:"
-+ "_handleSingleTapAtDrawingLocation:fromTapStroke:"
-+ "MathRecognitionViewControllerDelegate addGraph: %!{(MISSING)private}s, variable: %!{(MISSING)private}s"
++ "Update graphable variable for expression: %!{(MISSING)private}s, variable: %!s(MISSING)"
 + "Adding graphable expression: %!s(MISSING), variable: %!s(MISSING)"
-- "setTokens:forItemUUID:graphable:"
++ "graphableVariable"
++ "GraphableVariables"
++ "thumbnailCacheDigest"
++ "@\"NSSet\"48@0:8@\"PKMathRecognitionViewController\"16{CGPoint=dd}24@\"NSUUID\"40"
++ "v100@0:8@16@24@32{CGRect={CGPoint=dd}{CGSize=dd}}40@72{CGPoint=dd}80B96"
++ "MathRecognitionViewControllerDelegate addGraph: %!{(MISSING)private}s, variable: %!{(MISSING)private}s"
++ "mathViewController:addGraphForExpression:variable:range:identifier:expressionLocation:addToExisting:"
++ "v100@0:8@\"PKMathRecognitionViewController\"16@\"NSString\"24@\"NSString\"32{CGRect={CGPoint=dd}{CGSize=dd}}40@\"NSString\"72{CGPoint=dd}80B96"
++ "mathViewController:expressionIdentifiersForCompatibleGraphNearLocation:expressionUUID:"
++ "_handleSingleTapAtDrawingLocation:fromTapStroke:"
+- "mathViewController:addGraphForExpression:range:identifier:expressionLocation:addToExisting:"
 - "v92@0:8@\"PKMathRecognitionViewController\"16@\"NSString\"24{CGRect={CGPoint=dd}{CGSize=dd}}32@\"NSString\"64{CGPoint=dd}72B88"
 - "updateTokens for: %!{(MISSING)private}s, graphable: %!{(MISSING)bool}d"
+- "setTokens:forItemUUID:graphable:"
 - "v92@0:8@16@24{CGRect={CGPoint=dd}{CGSize=dd}}32@64{CGPoint=dd}72B88"
-- "mathViewController:addGraphForExpression:range:identifier:expressionLocation:addToExisting:"
 
 ```

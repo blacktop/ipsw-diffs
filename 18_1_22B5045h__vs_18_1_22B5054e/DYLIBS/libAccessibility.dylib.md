@@ -64,12 +64,12 @@
  
 Symbols:
 + __AXBooleanPreferencesWithNonZeroDefaultValues
-+ _MAMusicHapticsManagerActiveStatusDidChangeNotification
-+ _OBJC_CLASS_$_NSConstantDoubleNumber
-+ __AXNumberPreferencesWithNonZeroDefaultValues
-+ _OBJC_CLASS_$_NSConstantFloatNumber
 + __kAXSMusicHapticsActiveStatusDidChangeNotification
 + _AXLogHearingTest
++ _MAMusicHapticsManagerActiveStatusDidChangeNotification
++ _OBJC_CLASS_$_NSConstantFloatNumber
++ _OBJC_CLASS_$_NSConstantDoubleNumber
++ __AXNumberPreferencesWithNonZeroDefaultValues
 CStrings:
 + "AXHearingTest"
 + "q"

@@ -89,64 +89,64 @@
 +  CStrings:  5139
  
 Symbols:
-- _swift_taskGroup_initialize
-- _fclose
 - _MPModelPropertyPlaylistCuratorPlaylist
-- _MPModelPropertyPlaylistVisiblePlaylist
-- _fread
-- _MPModelPropertyPlaylistIsCollaborative
+- _fopen
+- _OBJC_CLASS_$_MPModelLibraryDuplicatePlaylistChangeRequest
+- _fseek
 - _dlsym
-- _MPModelPropertyPlaylistCollaborationInvitationURLExpirationDate
+- _MPModelPropertyPlaylistVisiblePlaylist
+- _MPModelPropertyPlaylistCollaborationMode
 - _MPModelPropertyPlaylistCollaborationInvitationURL
+- _rewind
+- _sscanf
+- _MPModelPropertyPlaylistCollaborationInvitationURLExpirationDate
+- _fread
+- _MPModelPropertyPlaylistIsOwner
+- _dispatch_once_f
+- _swift_taskGroup_initialize
+- _MPModelPropertyPlaylistCollaboratorPermissions
+- _MPModelPropertyPlaylistCollaboratorStatus
+- _ftell
 - _MPModelPropertyPlaylistSubscribed
 - _swift_taskGroup_destroy
-- _ftell
+- _fclose
 - __availability_version_check
-- _MPModelPropertyPlaylistCollaborationMode
-- _MPModelPropertyPlaylistIsOwner
-- _MPModelPropertyPlaylistCollaboratorPermissions
-- _sscanf
-- _fseek
-- _MPModelPropertyPlaylistCollaboratorStatus
-- _OBJC_CLASS_$_MPModelLibraryDuplicatePlaylistChangeRequest
-- _rewind
-- _dispatch_once_f
-- _fopen
+- _MPModelPropertyPlaylistIsCollaborative
 CStrings:
-+ "Cleanin up prefetched cells by reloading index paths: %!s(MISSING)"
-+ "Found duplicate sections in new items, falling back to reload data. Sections: %!{(MISSING)public}s"
 + "Section %!{(MISSING)public}ld(%!{(MISSING)public}s) mapped to section %!{(MISSING)public}ld(%!s(MISSING)): difference=%!{(MISSING)public}ld adjustedDifference=%!{(MISSING)public}ld diffAdjustmentMap=%!{(MISSING)public}s"
 + "fixedSpaceItemOfWidth:"
++ "Found duplicate sections in new items, falling back to reload data. Sections: %!{(MISSING)public}s"
++ "Cleanin up prefetched cells by reloading index paths: %!s(MISSING)"
 + "Found duplicate sections in old items, falling back to reload data. Sections: %!{(MISSING)public}s"
-- "Initiating prefetched items cleanup. preparedIndexPaths=%!{(MISSING)public}s visibleIndexPathsSet=%!{(MISSING)public}s"
-- "hasUnsupportedContent"
-- "v24@?0q8@\"NSError\"16"
-- "v32@?0@\"MPModelPlaylistEntry\"8@\"NSIndexPath\"16^B24"
 - "collaborationInvitationURL"
-- "/System/Library/CoreServices/SystemVersion.plist"
-- "CFGetTypeID"
-- "CFStringGetTypeID"
-- "CFPropertyListCreateWithData"
-- "ProductVersion"
-- "performWithResponseHandler:"
-- "enumerateItemsUsingBlock:"
-- "isOwner"
-- "CFDictionaryGetValue"
-- "r"
+- "v24@?0q8@\"NSError\"16"
 - "CFPropertyListCreateFromXMLData"
-- "%!d(MISSING).%!d(MISSING).%!d(MISSING)"
-- "initWithLibrary:playlist:"
-- "mantis"
-- "Collaboration - Unsupported Content"
 - "kCFAllocatorNull"
-- "collaborationMode"
-- "reconfigureItemsAtIndexPaths:"
-- "CFStringGetCString"
-- "CFDataCreateWithBytesNoCopy"
-- "Reconfiguring index paths: %!{(MISSING)public}s"
-- "Collaboration not possible -> %!{(MISSING)public}s"
-- "CFStringCreateWithCStringNoCopy"
+- "hasUnsupportedContent"
 - "CFRelease"
+- "CFDictionaryGetValue"
+- "Reconfiguring index paths: %!{(MISSING)public}s"
+- "enumerateItemsUsingBlock:"
+- "performWithResponseHandler:"
+- "initWithLibrary:playlist:"
+- "CFStringGetTypeID"
+- "reconfigureItemsAtIndexPaths:"
+- "r"
+- "Collaboration - Unsupported Content"
+- "CFDataCreateWithBytesNoCopy"
+- "ProductVersion"
+- "collaborationMode"
+- "Collaboration not possible -> %!{(MISSING)public}s"
+- "CFPropertyListCreateWithData"
+- "CFStringCreateWithCStringNoCopy"
+- "%!d(MISSING).%!d(MISSING).%!d(MISSING)"
+- "CFStringGetCString"
+- "mantis"
+- "CFGetTypeID"
+- "/System/Library/CoreServices/SystemVersion.plist"
+- "v32@?0@\"MPModelPlaylistEntry\"8@\"NSIndexPath\"16^B24"
+- "Initiating prefetched items cleanup. preparedIndexPaths=%!{(MISSING)public}s visibleIndexPathsSet=%!{(MISSING)public}s"
+- "isOwner"
 - "Section %!{(MISSING)public}ld: difference=%!{(MISSING)public}ld adjustedDifference=%!{(MISSING)public}ld diffAdjustmentMap=%!{(MISSING)public}s"
 
 ```

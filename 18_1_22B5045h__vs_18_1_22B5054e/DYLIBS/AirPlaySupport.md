@@ -54,36 +54,36 @@
 +  CStrings:  2880
  
 Symbols:
-+ _FigSignalErrorAt
-+ _kAPSEndpointStreamAudioHoseProtocolProperty_WASCalibrationSupportsMATAtmos
 + _kAPSEndpointStreamAudioHoseProtocolProperty_IsAppleTV
++ _kAPSEndpointStreamAudioHoseProtocolProperty_WASCalibrationSupportsMATAtmos
++ _FigSignalErrorAt
 - _FigSignalErrorAt3
 CStrings:
 + "kAPSEndpointStreamAudioHoseProtocolProperty_WASCalibrationSupportsMATAtmos"
 + "APSEndpointStreamAudioHoseProtocolProperty_IsAppleTV"
-- "Could not allocate APSAudioFormatDescription"
-- "sample peak key missing"
-- "true peak key missing"
-- "bufferMemorySize is zero"
-- "APSAudioFormatDescriptionList.c"
-- "-108"
-- "APSAudioFormatDescription.c"
 - "-880"
-- "APSAPAPExtensionLoudnessInfoUtils.c"
+- "kCMBaseObjectError_AllocationFailed"
 - "loudness key missing"
-- "stateMemObject maps to NULL"
+- "-108"
+- "kParamErr"
+- "Could not allocate APSAudioFormatDescription"
+- "%!s(MISSING)%!s(MISSING)%!s(MISSING) signalled err=%!d(MISSING) (%!s(MISSING)) (%!s(MISSING)) at %!s(MISSING):%!d(MISSING)"
+- "APSAudioFormatDescription.c"
+- "-878"
 - "Failed to create stateMemObject"
-- "Could not allocate APSAudioFormatDescriptionList"
+- "bufferMemory region maps to NULL"
+- "APSAPAPExtensionLoudnessInfoUtils.c"
+- "stateMemObject maps to NULL"
+- "Failed to create bufferMemObject"
+- "sample peak key missing"
+- "APSAudioFormatDescriptionList.c"
+- "true peak key missing"
 - "-879"
-- "-877"
+- "Could not allocate APSAudioFormatDescriptionList"
 - "stateMemoryLength < sizeof(RingState)"
 - "(Fig)"
-- "kCMBaseObjectError_AllocationFailed"
-- "kParamErr"
+- "bufferMemorySize is zero"
+- "-877"
 - "APSSharedRingBuffer.c"
-- "Failed to create bufferMemObject"
-- "bufferMemory region maps to NULL"
-- "-878"
-- "%!s(MISSING)%!s(MISSING)%!s(MISSING) signalled err=%!d(MISSING) (%!s(MISSING)) (%!s(MISSING)) at %!s(MISSING):%!d(MISSING)"
 
 ```

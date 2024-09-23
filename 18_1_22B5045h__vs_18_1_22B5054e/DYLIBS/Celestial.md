@@ -46,29 +46,29 @@
 Symbols:
 + _objc_release_x27
 + _objc_release_x25
-- _os_log_type_enabled
 - _objc_release_x26
-- _FigNote_AllowInternalDefaultLogs
-- _fig_log_call_emit_and_clean_up_after_send_and_compose
 - _objc_release_x20
-- _fig_log_emitter_get_os_log_and_send_and_compose_flags_and_os_log_type
-- _fig_note_initialize_category_with_default_work_cf
-- _objc_release_x22
+- _fig_log_call_emit_and_clean_up_after_send_and_compose
 - __os_log_send_and_compose_impl
+- _objc_release_x22
+- _FigNote_AllowInternalDefaultLogs
+- _fig_note_initialize_category_with_default_work_cf
+- _os_log_type_enabled
+- _fig_log_emitter_get_os_log_and_send_and_compose_flags_and_os_log_type
 CStrings:
-- "<<<< FigCheckpointSupport >>>> %!s(MISSING): Finished creating video codec list %!@(MISSING)"
-- "<<<< FigCheckpointSupport >>>> %!s(MISSING): creating audio and video codec dictionary from input %!@(MISSING)"
-- "<<<< FigCheckpointSupport >>>> %!s(MISSING): Finished creating complete list %!@(MISSING)"
-- "<<<< FigCheckpointSupport >>>> %!s(MISSING): CHECKPOINT %!@(MISSING)"
-- "<<<< FigCheckpointSupport >>>> %!s(MISSING): specificationDictionary was NIL, videoSpecificationDictionary %!@(MISSING)"
-- "<<<< FigCheckpointSupport >>>> %!s(MISSING): Finished creating audio codec list %!@(MISSING)"
-- "<<<< FigCheckpointSupport >>>> %!s(MISSING): specificationDictionary was NIL, audioSpecificationDictionary %!@(MISSING)"
 - "com.apple.coremedia"
-- "<<<< FigCheckpointSupport >>>> %!s(MISSING): failed to create dictionary from %!s(MISSING)"
+- "<<<< FigCheckpointSupport >>>> %!s(MISSING): creating audio and video codec dictionary from input %!@(MISSING)"
+- "<<<< FigCheckpointSupport >>>> %!s(MISSING): CHECKPOINT %!@(MISSING)"
 - "checkpoint_trace"
+- "<<<< FigCheckpointSupport >>>> %!s(MISSING): Finished creating audio codec list %!@(MISSING)"
+- "<<<< FigCheckpointSupport >>>> %!s(MISSING): specificationDictionary was NIL, videoSpecificationDictionary %!@(MISSING)"
+- "<<<< FigCheckpointSupport >>>> %!s(MISSING): Finished creating video codec list %!@(MISSING)"
 - "_addSpecificationAdditions"
+- "<<<< FigCheckpointSupport >>>> %!s(MISSING): specificationDictionary was NIL, audioSpecificationDictionary %!@(MISSING)"
 - "<<<< FigCheckpointSupport >>>> %!s(MISSING): Opening checkpointAdditionsSpecificationDictionary %!@(MISSING)"
 - "_computeCheckpoint"
+- "<<<< FigCheckpointSupport >>>> %!s(MISSING): failed to create dictionary from %!s(MISSING)"
 - "_twiddleCheckpoint"
+- "<<<< FigCheckpointSupport >>>> %!s(MISSING): Finished creating complete list %!@(MISSING)"
 
 ```

@@ -54,52 +54,52 @@
 +  CStrings:  9736
  
 Symbols:
-+ _kAPSEndpointStreamAudioHoseProtocolProperty_IsAppleTV
-+ _kAPEndpointDescriptionProperty_WASCalibrationSupportsMATAtmos
 + _FigCFArrayRemoveLastElementOfValue
-+ _FigSignalErrorAt
++ _kAPEndpointDescriptionProperty_WASCalibrationSupportsMATAtmos
 + _kAPSEndpointStreamAudioHoseProtocolProperty_WASCalibrationSupportsMATAtmos
-- _FigSignalErrorAt3
++ _FigSignalErrorAt
++ _kAPSEndpointStreamAudioHoseProtocolProperty_IsAppleTV
 - _fig_log_get_emitter
+- _FigSignalErrorAt3
 CStrings:
-+ "bufferedAudioEngine_updateMATAtmosPlaybackPreferenceIfNecessary"
-+ "carplayForce44kForBuffered"
-+ "matAtmosPlaybackEnabled"
-+ "830.8.4"
 + "WASCalibrationSupportsMATAtmos"
-+ "void audioStream_audioHoseEnableMATAtmosPlaybackInternal(void *)"
++ "830.8.4"
++ "carplayForce44kForBuffered"
 + "audioStream_audioHoseEnableMATAtmosPlaybackInternal"
++ "matAtmosPlaybackEnabled"
 + "[%!{(MISSING)ptr}] Set MATAtmos Playback Pref %!s(MISSING)"
-- "(Fig)"
-- "can't find valid video track"
-- "type is missing in response event"
-- "APEndpointStreamAggregateAudio.c"
-- "Failed to create deep copy"
-- "Failed to serialize"
-- "messageID is missing in response event"
-- "Cannot register path"
-- "No incoming message"
-- "Object invalidated"
-- "APVirtualDisplayTestSink.c"
-- "830.6.1"
-- "Item is NULL"
-- "No data in response"
-- "Action not supported"
-- "pinMode"
-- "kFigEndpointError_AllocationFailed"
-- "err"
++ "bufferedAudioEngine_updateMATAtmosPlaybackPreferenceIfNecessary"
++ "void audioStream_audioHoseEnableMATAtmosPlaybackInternal(void *)"
 - "kFigEndpointPlaybackSessionError_InvalidParameter"
-- "kFigBaseObjectError_ValueNotAvailable"
-- "%!s(MISSING)%!s(MISSING)%!s(MISSING) signalled err=%!d(MISSING) (%!s(MISSING)) (%!s(MISSING)) at %!s(MISSING):%!d(MISSING)"
-- "kFigBaseObjectError_AllocationFailed"
-- "Failed to de-serialize"
-- "kCMBaseObjectError_Invalidated"
-- "kCMBaseObjectError_ParamErr"
-- "alloc failed"
-- "No matched request found"
+- "Failed to serialize"
 - "APEndpointPlaybackSessionRemoteControl.m"
 - "kFigEndpointPlaybackSessionError_AllocationFailed"
-- "APEndpoint.c"
+- "messageID is missing in response event"
+- "kCMBaseObjectError_ParamErr"
+- "Cannot register path"
+- "No data in response"
+- "alloc failed"
+- "No incoming message"
+- "Failed to de-serialize"
+- "No matched request found"
+- "pinMode"
+- "can't find valid video track"
+- "APEndpointStreamAggregateAudio.c"
+- "kCMBaseObjectError_Invalidated"
+- "kFigBaseObjectError_AllocationFailed"
+- "%!s(MISSING)%!s(MISSING)%!s(MISSING) signalled err=%!d(MISSING) (%!s(MISSING)) (%!s(MISSING)) at %!s(MISSING):%!d(MISSING)"
+- "kFigEndpointError_AllocationFailed"
+- "Item is NULL"
+- "Failed to create deep copy"
+- "830.6.1"
+- "type is missing in response event"
+- "Object invalidated"
 - "Allocation error"
+- "APVirtualDisplayTestSink.c"
+- "err"
+- "(Fig)"
+- "kFigBaseObjectError_ValueNotAvailable"
+- "Action not supported"
+- "APEndpoint.c"
 
 ```

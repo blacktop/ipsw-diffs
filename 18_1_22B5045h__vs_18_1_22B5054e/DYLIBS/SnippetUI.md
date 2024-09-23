@@ -92,15 +92,15 @@
 +  CStrings:  1723
  
 CStrings:
++ "pasteboardType(for:)"
++ "setItems:options:"
 + "systemFontSize"
++ "SnippetUI/SymbolSourceView.swift"
 + "Computed infinitely large font size for symbol image. Returning 0 for font size."
 + "pasteboardItem(for:)"
-+ "SnippetUI/SymbolSourceView.swift"
 + "Computed 0 for fullWidth aspect ratio. This would result in division by zero. Returning 0 for font size."
-+ "pasteboardType(for:)"
 + "preCalculationMaxHeights"
-+ "setItems:options:"
-- "setValue:forPasteboardType:"
 - "copy(for:)"
+- "setValue:forPasteboardType:"
 
 ```

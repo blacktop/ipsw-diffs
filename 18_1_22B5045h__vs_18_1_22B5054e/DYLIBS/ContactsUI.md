@@ -94,16 +94,16 @@
 Symbols:
 + _UIAccessibilityTraitButton
 CStrings:
-+ "setAccessibilityUserInputLabels:"
 + "setAccessibilityTraits:"
-+ "fullAccessPromptSettingsContactsController"
 + "[Contact Picker Content View Controller] Bundle ID: %!@(MISSING)"
++ "setAccessibilityUserInputLabels:"
++ "initForOnboarding:bundleId:selectedContacts:"
++ "fullAccessPromptSettingsContactsController"
 + "contactsFromIdentifiers:withBundleId:"
 + "FULLACCESSPROMPT"
-+ "initForOnboarding:bundleId:selectedContacts:"
 + "contactStoreForBundleId:"
 + "initWithCGImage:scale:orientation:"
-- "contactsFromIdentifiers:"
 - "identifiersFromContacts:"
+- "contactsFromIdentifiers:"
 
 ```

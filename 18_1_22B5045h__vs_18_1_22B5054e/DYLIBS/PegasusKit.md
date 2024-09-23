@@ -77,10 +77,10 @@
 +  CStrings:  578
  
 CStrings:
++ "response status code: no results"
++ "response status code: unrecognized value %!l(MISSING)d"
 + "response status code: error"
 + "set_disableAPWakeOnIdleConnections:"
-+ "response status code: unrecognized value %!l(MISSING)d"
 + "sbaPlugin"
-+ "response status code: no results"
 
 ```

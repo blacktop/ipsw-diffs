@@ -38,17 +38,17 @@
  
 CStrings:
 + "UNDO_CONTINUE_WATCHING_DISPLAY"
++ "PRIVACY_FOOTER_FORMAT_CONTINUE_WATCHING"
++ "Change Continue Watching Display Selection"
++ "Toggle Play History Enabled"
++ "CONTINUE_WATCHING_ART_TITLE"
 + "CONTINUE_WATCHING_ART_DESCRIPTION"
 + "_setPlayHistoryEnabled:"
-+ "Toggle Play History Enabled"
-+ "PRIVACY_FOOTER_FORMAT_CONTINUE_WATCHING"
-+ "setPlayHistoryEnabled:"
 + "testarossa"
-+ "Change Continue Watching Display Selection"
-+ "CONTINUE_WATCHING_ART_TITLE"
++ "setPlayHistoryEnabled:"
 - "Toggle Up Next Enabled"
+- "Change Up Next Display Selection"
 - "_setUpNextEnabled:"
 - "setUpNextEnabled:"
-- "Change Up Next Display Selection"
 
 ```

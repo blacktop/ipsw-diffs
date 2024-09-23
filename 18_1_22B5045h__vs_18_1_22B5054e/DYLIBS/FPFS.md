@@ -98,13 +98,13 @@
 +  CStrings:  6120
  
 CStrings:
-+ "fileExistsAtPath:isDirectory:"
-+ "failed to recreate local folder which already exists %!{(MISSING)public}s: %!@(MISSING)"
-+ "failed to re-create local folder for which exists %!{(MISSING)public}s: %!@(MISSING)"
-+ "no entry.a.id for entry: %!s(MISSING)"
-+ "no parent ID in snapshot for %!s(MISSING)"
 + "Asked to retrieve diag info for %!s(MISSING), unsupported"
-+ "no parentRec in RT for parent %!s(MISSING) of %!s(MISSING)"
++ "no entry.a.id for entry: %!s(MISSING)"
 + "error decoding errorDirection: "
++ "failed to recreate local folder which already exists %!{(MISSING)public}s: %!@(MISSING)"
++ "no parentRec in RT for parent %!s(MISSING) of %!s(MISSING)"
++ "fileExistsAtPath:isDirectory:"
++ "failed to re-create local folder for which exists %!{(MISSING)public}s: %!@(MISSING)"
++ "no parent ID in snapshot for %!s(MISSING)"
 
 ```

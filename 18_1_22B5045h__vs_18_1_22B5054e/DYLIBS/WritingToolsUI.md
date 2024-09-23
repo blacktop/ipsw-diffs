@@ -87,21 +87,21 @@
 Symbols:
 + _OBJC_CLASS_$_UIDictationController
 CStrings:
-+ "setNumDrafts:"
++ "_currentDraftNumber"
 + "cancelDictation"
 + "setCurrentDraftNumber:"
-+ "numDrafts"
 + "activeInstance"
-+ "TQ,V_numDrafts"
-+ "_currentDraftNumber"
-+ "_numDrafts"
-+ "Tq,V_currentDraftNumber"
 + "currentDraftNumber"
-- "_refreshIndex"
-- "IAPayloadKeyWritingToolsResultText"
-- "refreshIndex"
++ "TQ,V_numDrafts"
++ "numDrafts"
++ "Tq,V_currentDraftNumber"
++ "setNumDrafts:"
++ "_numDrafts"
+- "setRefreshIndex:"
 - "ResultText"
 - "TQ,V_refreshIndex"
-- "setRefreshIndex:"
+- "IAPayloadKeyWritingToolsResultText"
+- "_refreshIndex"
+- "refreshIndex"
 
 ```

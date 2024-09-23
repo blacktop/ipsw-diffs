@@ -60,13 +60,13 @@
  
 CStrings:
 + "Watch7,11"
-+ "removeBeaconFromGroup:completion:"
-+ "setUserInterfaceStyle:"
-+ "Watch7,9"
 + "Watch7,10"
 + "Localizable-N217"
 + "UNLOCK_WATCH_SERIES_TEN"
 + "Watch7,8"
++ "setUserInterfaceStyle:"
++ "removeBeaconFromGroup:completion:"
++ "Watch7,9"
 - "Localizable-N210"
 
 ```

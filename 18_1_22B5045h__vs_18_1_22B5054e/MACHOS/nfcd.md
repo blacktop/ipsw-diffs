@@ -69,17 +69,17 @@
 +  CStrings:  12055
  
 CStrings:
++ "%!c(MISSING)[%!{(MISSING)public}s %!{(MISSING)public}s]:%!i(MISSING) Ignore Other field"
++ "NFCD built from (B&I) Stockholm_Base-351.8.1"
++ "NFReaderSessionInternalCallbacks"
++ "EMVCO field collision"
 + "%!c(MISSING)[%!{(MISSING)public}s %!{(MISSING)public}s]:%!i(MISSING) Ignore CH field"
 + "%!c(MISSING)[%!{(MISSING)public}s %!{(MISSING)public}s]:%!i(MISSING) Current session is %!@(MISSING)"
-+ "EMVCO field collision"
-+ "handleEMVCOCollisionDetected"
 + "%!c(MISSING)[%!{(MISSING)public}s %!{(MISSING)public}s]:%!i(MISSING) Error : unexpected routing : %!@(MISSING)"
 + "didDetectExternalReader"
-+ "NFCD built from (B&I) Stockholm_Base-351.8.1"
 + "debugAcwgBackwardsSpecCompliance"
-+ "%!c(MISSING)[%!{(MISSING)public}s %!{(MISSING)public}s]:%!i(MISSING) Ignore Other field"
-+ "NFReaderSessionInternalCallbacks"
-- "NFCD built from (B&I) Stockholm_Base-351.6"
++ "handleEMVCOCollisionDetected"
 - "debugAcwgSpecCompliance"
+- "NFCD built from (B&I) Stockholm_Base-351.6"
 
 ```

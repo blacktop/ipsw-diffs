@@ -74,15 +74,15 @@
 +  CStrings:  85
  
 Symbols:
-+ _swift_retain_n
 + _swift_release_n
++ _swift_retain_n
 + _swift_updateClassMetadata2
 + __swiftEmptyDictionarySingleton
 CStrings:
++ "logger"
++ "Releasing keep-alive with reason: %!{(MISSING)public}s"
 + "Keep-alive reasons: %!{(MISSING)public}s"
 + "Unbalanced acquire/release for keep-alive with reason: %!{(MISSING)public}s"
 + "Acquiring keep-alive with reason: %!{(MISSING)public}s"
-+ "Releasing keep-alive with reason: %!{(MISSING)public}s"
-+ "logger"
 
 ```

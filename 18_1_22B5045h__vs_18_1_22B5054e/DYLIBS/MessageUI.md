@@ -77,24 +77,24 @@
  
 Symbols:
 - OBJC_IVAR_$_MFMixedMessageFragment._mimeType
-- OBJC_IVAR_$_MFMixedMessageFragment._markupString
-- _OBJC_CLASS_$_MFMixedMessageFragment
-- _OBJC_METACLASS_$_MFMixedMessageFragment
-- OBJC_IVAR_$_MFMixedMessageFragment._markupData
-- OBJC_IVAR_$_MFMixedMessageFragment._textEncodingName
 - OBJC_IVAR_$_MFMixedMessageFragment._baseURL
+- OBJC_IVAR_$_MFMixedMessageFragment._markupString
+- _OBJC_METACLASS_$_MFMixedMessageFragment
+- OBJC_IVAR_$_MFMixedMessageFragment._textEncodingName
+- OBJC_IVAR_$_MFMixedMessageFragment._markupData
+- _OBJC_CLASS_$_MFMixedMessageFragment
 CStrings:
-- "MFMixedMessageFragment"
-- "initWithMarkupData:textEncodingName:baseURL:"
-- "_baseURL"
-- "_markupString"
-- "markupData"
-- "baseURL"
-- "text/html"
-- "_markupData"
-- "<%!p(MISSING): %!@(MISSING)> (string length: %!l(MISSING)u) (data length: %!l(MISSING)u) (mime type: %!@(MISSING)) (encoding: %!@(MISSING))"
-- "initWithMarkupString:baseURL:"
-- "encodingName"
 - "_textEncodingName"
+- "MFMixedMessageFragment"
+- "text/html"
+- "_markupString"
+- "encodingName"
+- "_markupData"
+- "initWithMarkupString:baseURL:"
+- "markupData"
+- "initWithMarkupData:textEncodingName:baseURL:"
+- "baseURL"
+- "_baseURL"
+- "<%!p(MISSING): %!@(MISSING)> (string length: %!l(MISSING)u) (data length: %!l(MISSING)u) (mime type: %!@(MISSING)) (encoding: %!@(MISSING))"
 
 ```

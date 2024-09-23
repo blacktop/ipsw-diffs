@@ -67,8 +67,8 @@
 +  CStrings:  218
  
 CStrings:
-+ "com.apple.UIIntelligenceSupportAgent.EmbeddedWindowVisibilityProvider"
-+ "com.apple.UIIntelligenceSupportAgent.ManagementPolicyProvider.fast"
 + "com.apple.UIIntelligenceSupportAgent.ManagementPolicyProvider.accurate"
++ "com.apple.UIIntelligenceSupportAgent.ManagementPolicyProvider.fast"
++ "com.apple.UIIntelligenceSupportAgent.EmbeddedWindowVisibilityProvider"
 
 ```

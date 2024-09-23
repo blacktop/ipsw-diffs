@@ -53,11 +53,11 @@
 Symbols:
 + _BCSDidLaunchFromControlNotification
 CStrings:
++ "_startSession"
 + "didLaunchFromControl:"
 + "supportsControls"
 + "_resetSessionWithCompletionHandler:"
-+ "_startSession"
-- "areControlsSupported"
 - "_shouldResumeCapturingOnNextAppActive"
+- "areControlsSupported"
 
 ```

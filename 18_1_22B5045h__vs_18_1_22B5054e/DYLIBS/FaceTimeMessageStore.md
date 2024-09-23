@@ -71,8 +71,8 @@
 +  CStrings:  1697
  
 CStrings:
-+ ".noTranscription"
-+ ".transcriptionAvailable"
 + ".transcriptionDeferred"
++ ".transcriptionAvailable"
++ ".noTranscription"
 
 ```

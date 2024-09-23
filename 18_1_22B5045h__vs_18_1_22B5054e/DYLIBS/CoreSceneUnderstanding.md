@@ -71,8 +71,8 @@
  
 CStrings:
 - "SystemSearch/v4.0.0/"
-- "VideoCaptioning_v4.0.0_gb48ze3dvh-98100"
 - "text_model_md4_mubb"
+- "VideoCaptioning_v4.0.0_gb48ze3dvh-98100"
 - "getConfigurationForRevision_v4_0_Tier0WithError:"
 - "token_model_md4_mubb"
 

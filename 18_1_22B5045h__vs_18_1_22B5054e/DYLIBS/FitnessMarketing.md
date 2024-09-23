@@ -100,24 +100,24 @@
  
 Symbols:
 + _OBJC_CLASS_$_AMSDialogRequest
-+ _swift_updateClassMetadata2
 + _AMSBuyParamPropertyItemId
++ _swift_updateClassMetadata2
 + _OBJC_CLASS_$_AMSUIBubbleTipAppearance
 CStrings:
-+ "invalidIdentifier"
-+ "presentationStateUpdated"
-+ "invalidPlacement"
-+ "setBackgroundColor:"
-+ "dialogRequestFetched"
 + "baseModel"
-+ "_TtC16FitnessMarketing21BubbleTipModelWrapper"
-+ "deepLink"
-+ "identifier"
-+ "dictionary"
-+ "originalRequest"
-+ "style"
 + "systemGray6Color"
-+ "locateActionWithIdentifier:"
++ "_TtC16FitnessMarketing21BubbleTipModelWrapper"
++ "invalidIdentifier"
++ "dictionary"
++ "setBackgroundColor:"
++ "deepLink"
++ "style"
++ "presentationStateUpdated"
++ "originalRequest"
 + "selectedActionIdentifier"
++ "dialogRequestFetched"
++ "identifier"
++ "invalidPlacement"
++ "locateActionWithIdentifier:"
 
 ```

@@ -90,12 +90,12 @@
 Symbols:
 + _OBJC_CLASS_$_NSCalendar
 CStrings:
++ "sendPostWorkoutAnalyticsWithWorkoutActivity:perceivedEffortQuantity:estimatedEffortQuantity:healthStore:"
++ "isSleepingWithWatch"
 + "com.apple.loadAndVitals"
 + "Failed to query sleep samples due to %!s(MISSING)"
 + "sendPostWorkoutAnalyticsWithWorkout:perceivedEffortQuantity:estimatedEffortQuantity:healthStore:"
 + "hk_gregorianCalendar"
-+ "sendPostWorkoutAnalyticsWithWorkoutActivity:perceivedEffortQuantity:estimatedEffortQuantity:healthStore:"
-+ "isSleepingWithWatch"
 - "sendPostWorkoutAnalyticsWithWorkout:perceivedEffortQuantity:estimatedEffortQuantity:"
 - "sendPostWorkoutAnalyticsWithWorkoutActivity:perceivedEffortQuantity:estimatedEffortQuantity:"
 

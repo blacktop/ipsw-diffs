@@ -55,16 +55,16 @@
 +  CStrings:  131
  
 Symbols:
-+ ___stack_chk_fail
-+ _OBJC_CLASS_$_NSArray
-+ ___stack_chk_guard
-+ _objc_release_x28
 + _objc_release_x27
 + _objc_release_x26
++ _OBJC_CLASS_$_NSArray
++ ___stack_chk_guard
++ ___stack_chk_fail
++ _objc_release_x28
 - ___NSArray0__struct
 CStrings:
-+ "arrayWithObjects:count:"
 + "Apps"
++ "arrayWithObjects:count:"
 + "Phone"
 
 ```

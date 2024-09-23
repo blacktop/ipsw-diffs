@@ -26,7 +26,7 @@
 +  CStrings:  2683
  
 CStrings:
-+ "Ignoring lift at location. _HIDEventBase is nil."
 + "Ignoring move to location. _HIDEventBase is nil."
++ "Ignoring lift at location. _HIDEventBase is nil."
 
 ```

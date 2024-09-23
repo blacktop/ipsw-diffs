@@ -85,12 +85,12 @@
 +  CStrings:  12740
  
 Symbols:
-+ _swift_slowAlloc
 + _swift_stdlib_isStackAllocationSafe
++ _swift_slowAlloc
 + _swift_slowDealloc
 CStrings:
 + "/AppleInternal/Library/BuildRoots/a8618716-74b6-11ef-9a3a-56363ce8160b/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.1.Internal.sdk/usr/local/include/boost/graph/topological_sort.hpp"
-- "/AppleInternal/Library/BuildRoots/e2b39c6c-690e-11ef-9b05-86b8363ea862/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.1.Internal.sdk/usr/local/include/boost/graph/topological_sort.hpp"
 - "CGImageCreateCopyWithContentHeadroom"
+- "/AppleInternal/Library/BuildRoots/e2b39c6c-690e-11ef-9b05-86b8363ea862/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.1.Internal.sdk/usr/local/include/boost/graph/topological_sort.hpp"
 
 ```

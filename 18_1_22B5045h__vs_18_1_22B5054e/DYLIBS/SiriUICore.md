@@ -65,20 +65,20 @@
 +  CStrings:  2365
  
 CStrings:
-+ "%!s(MISSING) Siri EdgeLight was set to a nil screen. Defaulting to backup values."
-+ "\v"
-+ "_getScreen"
-+ "nativeBounds"
-+ "-[SUICEdgeLightMaskMetalLayer _updateiPadLayout]"
-+ "%!s(MISSING) Unable to load pipeline state from binary archive, error %!@(MISSING)"
-+ "%!s(MISSING) #edgeLight screen corner radius (%!f(MISSING)) calculated: %!f(MISSING), default was: %!f(MISSING)"
-+ "-[SUICEdgeLightMaskMetalLayer _commonInitWithScreen:commandQueue:]"
 + "_updateiPadLayout"
 + "newRenderPipelineStateWithDescriptor:options:reflection:error:"
++ "-[SUICEdgeLightMaskMetalLayer _updateiPadLayout]"
++ "%!s(MISSING) Siri EdgeLight was set to a nil screen. Defaulting to backup values."
++ "-[SUICEdgeLightMaskMetalLayer _commonInitWithScreen:commandQueue:]"
++ "nativeBounds"
++ "%!s(MISSING) Unable to load pipeline state from binary archive, error %!@(MISSING)"
++ "%!s(MISSING) #edgeLight screen corner radius (%!f(MISSING)) calculated: %!f(MISSING), default was: %!f(MISSING)"
++ "_getScreen"
 + "_nativeScreenWidth"
++ "\v"
 + "displayCornerRadius"
-- "_commonInitWithCommandQueue:fullBorder:"
 - "-[SUICEdgeLightMaskMetalLayer _commonInitWithCommandQueue:fullBorder:]"
+- "_commonInitWithCommandQueue:fullBorder:"
 - "\n"
 
 ```

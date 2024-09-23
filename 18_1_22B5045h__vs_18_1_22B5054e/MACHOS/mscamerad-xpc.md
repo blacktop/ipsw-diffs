@@ -60,9 +60,9 @@ Symbols:
 + _CGImageSourceCreateWithData
 CStrings:
 + "[subImage] %!s(MISSING): [%!d(MISSING) x %!d(MISSING)] -> [%!d(MISSING)]"
-+ "scaleData:maxPixelSize:"
-+ "scale"
 + "@28@0:8@16I24"
++ "scale"
++ "scaleData:maxPixelSize:"
 + "decode full"
 
 ```

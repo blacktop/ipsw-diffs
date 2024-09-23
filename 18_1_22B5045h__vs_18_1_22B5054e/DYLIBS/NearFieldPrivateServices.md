@@ -53,9 +53,9 @@
 +  CStrings:  292
  
 Symbols:
-+ _dispatch_queue_create
-+ _dispatch_queue_attr_make_with_autorelease_frequency
 + _dispatch_queue_attr_make_with_qos_class
++ _dispatch_queue_attr_make_with_autorelease_frequency
++ _dispatch_queue_create
 - _NFCreateWorkLoop
 CStrings:
 + "dealloc"

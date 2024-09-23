@@ -77,8 +77,8 @@
 CStrings:
 + "T@\"NSError\",R,N,V_error"
 + "TB,R,N,V_isUnsafeQuery"
-+ "_isUnsafeQuery"
 + "\x13"
 + "isUnsafeQuery"
++ "_isUnsafeQuery"
 
 ```

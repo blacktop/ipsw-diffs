@@ -63,12 +63,12 @@
 +  CStrings:  2215
  
 CStrings:
-+ "unarchivingContainerURL"
++ "T@\"NSURL\",C,N,V_unarchivingContainerURL"
 + "_unarchivingContainerURL"
 + "unarchivingContainerURL %!@(MISSING) is not reachable URL : %!@(MISSING)"
-+ "setUnarchivingContainerURL:"
-+ "T@\"NSURL\",C,N,V_unarchivingContainerURL"
 + "initWithFileManager:unarchivingContainerURL:"
++ "unarchivingContainerURL"
++ "setUnarchivingContainerURL:"
 + "initWithFileManager:processHandle:unarchivingContainerURL:"
 
 ```

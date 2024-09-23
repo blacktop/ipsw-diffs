@@ -76,10 +76,10 @@
 +  CStrings:  472
  
 CStrings:
-+ "intelligenceCommands"
-+ "Unknown"
-+ "Dispatch action is called with unknown action, unexpectedly"
-+ "UI action unknown is encountered unexpectedly"
 + "bundleIdentifier"
++ "Dispatch action is called with unknown action, unexpectedly"
++ "Unknown"
++ "intelligenceCommands"
++ "UI action unknown is encountered unexpectedly"
 
 ```

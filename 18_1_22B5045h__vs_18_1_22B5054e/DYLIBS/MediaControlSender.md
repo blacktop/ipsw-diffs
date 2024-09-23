@@ -19,7 +19,7 @@
 CStrings:
 + "/System/Library/PrivateFrameworks/MediaExperience.framework/MediaExperience"
 + "830.8.4"
-- "/System/Library/PrivateFrameworks/Celestial.framework/Celestial"
 - "830.6.1"
+- "/System/Library/PrivateFrameworks/Celestial.framework/Celestial"
 
 ```

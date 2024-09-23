@@ -37,8 +37,8 @@
  
 CStrings:
 + "%!@(MISSING) %!@(MISSING) %!@(MISSING)"
-+ "CFBundleShortVersionString"
 + "Next generation of CarPlay"
++ "CFBundleShortVersionString"
 - "Enable Ferrite"
 - "%!@(MISSING) %!@(MISSING)"
 

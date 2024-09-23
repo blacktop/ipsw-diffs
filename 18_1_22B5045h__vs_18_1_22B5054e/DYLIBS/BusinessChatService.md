@@ -60,9 +60,9 @@
 Symbols:
 + _kBCSDefaultsMaxPIRConcurrency
 CStrings:
-+ "dataByStringKeyword:error:"
 + "Concurrent PIR requests DISABLED"
 + "BCSMaxPIRConcurrency"
 + "Concurrent PIR requests ENABLED"
++ "dataByStringKeyword:error:"
 
 ```

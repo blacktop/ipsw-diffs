@@ -67,35 +67,35 @@
 +  CStrings:  427
  
 Symbols:
-+ _CGRectIntegral
 + _objc_retain_x24
++ _CGRectIntegral
 CStrings:
-+ "kernel vec4 CIIP_ycc_neg1pos1_to_01 (__sample s) __attribute__((preserves_opacity)) { s.rgb = (s.rgb + 1.0) / 2.0; s.rgb = clamp(s.rgb, 0.0, s.a); return s; }"
-+ "CIConvolution5X5"
-+ "kernel vec4 CIIP_ycc_01_to_neg1pos1 (__sample s) __attribute__((preserves_opacity)) { s.rgb = clamp(s.rgb, 0.0, 1.0); s.rgb = s.rgb * 2.0 -1.0; return s; }"
-+ "@32@0:8@16@24"
++ "blendBack:mask:"
++ "kernel vec4 CIIP_y_plus_y (__sample a, __sample b) __attribute__((outputFormat(kCIFormatRh))) { return vec4(a.r + b.r, 0.0, 0.0, 1.0); }"
 + "kernel vec4 CIIP_replace_y (__sample a, __sample b) __attribute__((preserves_opacity)) { return vec4(b.r * a.a, a.gb, a.a); }"
 + "kernel vec4 CIIP_y_diff (__sample a, __sample b) __attribute__((outputFormat(kCIFormatRh))) { return vec4(a.r - b.r, 0.0, 0.0, 1.0); }"
-+ "kernel vec4 CIIP_y_plus_y (__sample a, __sample b) __attribute__((outputFormat(kCIFormatRh))) { return vec4(a.r + b.r, 0.0, 0.0, 1.0); }"
++ "dilateSize"
 + "inputMaximumDistance"
++ "kernel vec4 CIIP_y_clamp_m1p1 (__sample a) __attribute__((outputFormat(kCIFormatRh))) { float Y = clamp(a.r, -1.0, 1.0); return vec4(Y, 0.0, 0.0, 1.0); }"
++ "kernel vec4 CIIP_ycc_neg1pos1_to_01 (__sample s) __attribute__((preserves_opacity)) { s.rgb = (s.rgb + 1.0) / 2.0; s.rgb = clamp(s.rgb, 0.0, s.a); return s; }"
++ "CIConvolution5X5"
 + "smallBlurSize"
++ "CIDistanceGradientFromRedMask"
++ "@32@0:8@16@24"
++ "vectorWithValues:count:"
++ "kernel vec4 CIIP_ycc_01_to_neg1pos1 (__sample s) __attribute__((preserves_opacity)) { s.rgb = clamp(s.rgb, 0.0, 1.0); s.rgb = s.rgb * 2.0 -1.0; return s; }"
 + "%!{(MISSING)public}@: CIInpaintModel.smallBlurSize default set to %!g(MISSING)."
 + "CIInpaintFilter.smallBlurSize"
-+ "vectorWithValues:count:"
-+ "kernel vec4 CIIP_y_clamp_m1p1 (__sample a) __attribute__((outputFormat(kCIFormatRh))) { float Y = clamp(a.r, -1.0, 1.0); return vec4(Y, 0.0, 0.0, 1.0); }"
-+ "CIDistanceGradientFromRedMask"
-+ "blendBack:mask:"
-+ "dilateSize"
 + "inputWeights"
+- "CIMorphologyRectangleMaximum"
 - "inputWidth"
-- "inputHeight"
-- "kernel vec4 CIIP_add (__sample a, __sample b) __attribute__((outputFormat(kCIFormatRh))) { return vec4(a.r - b.r, 0.0, 0.0, 1.0); }"
-- "kernel vec4 CIIP_addR (__sample a, __sample b) __attribute__((preserves_opacity)) { return vec4(a.r + b.r, a.gb, a.a); }"
+- "blendBack:"
 - "integerValue"
 - "kernel vec4 CIIP_rgb_01_to_neg1pos1 (__sample s) __attribute__((preserves_opacity)) { s.rgb = clamp(s.rgb, 0.0, 1.0); s.rgb = s.rgb * 2.0 -1.0; return s; }"
-- "CIMorphologyRectangleMaximum"
-- "kernel vec4 CIIP_rgb_neg1pos1_to_01 (__sample s) __attribute__((preserves_opacity)) { s.rgb = (s.rgb + 1.0) / 2.0; s.rgb = clamp(s.rgb, 0.0, 1.0); return s; }"
-- "blendBack:"
+- "kernel vec4 CIIP_addR (__sample a, __sample b) __attribute__((preserves_opacity)) { return vec4(a.r + b.r, a.gb, a.a); }"
+- "kernel vec4 CIIP_add (__sample a, __sample b) __attribute__((outputFormat(kCIFormatRh))) { return vec4(a.r - b.r, 0.0, 0.0, 1.0); }"
+- "inputHeight"
 - "kernel vec4 CIIP_add (__sample a, __sample b) __attribute__((preserves_opacity)) { return vec4(a.rgb + b.rgb, a.a); }"
+- "kernel vec4 CIIP_rgb_neg1pos1_to_01 (__sample s) __attribute__((preserves_opacity)) { s.rgb = (s.rgb + 1.0) / 2.0; s.rgb = clamp(s.rgb, 0.0, 1.0); return s; }"
 
 ```

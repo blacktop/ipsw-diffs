@@ -37,11 +37,11 @@
 +  CStrings:  2151
  
 CStrings:
-+ "v56@0:8@\"NSArray\"16@24@\"NSString\"32@\"NSError\"40@?<v@?B>48"
++ "[MADComputeService] ACK sent %!@(MISSING)"
 + "[MADComputeService] No MADComputeService coordinator to handle results"
 + "[MADComputeService] Registering resultsHandler for %!@(MISSING)"
 + "[MADComputeService] Calling resultsHandler for %!@(MISSING)"
-+ "[MADComputeService] ACK sent %!@(MISSING)"
++ "v56@0:8@\"NSArray\"16@24@\"NSString\"32@\"NSError\"40@?<v@?B>48"
 - "v56@0:8@\"NSArray\"16@24@\"NSString\"32@\"NSError\"40@?<v@?>48"
 
 ```

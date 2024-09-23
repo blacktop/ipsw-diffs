@@ -31,7 +31,7 @@
 +  CStrings:  7359
  
 CStrings:
-+ "selectionInteraction:handleDeleteForTextStrokes:nonTextStrokes:inAttachment:"
 + "v48@0:8@\"PKSelectionInteraction\"16@\"NSArray\"24@\"NSArray\"32@\"PKAttachmentView\"40"
++ "selectionInteraction:handleDeleteForTextStrokes:nonTextStrokes:inAttachment:"
 
 ```

@@ -70,19 +70,19 @@
 +  CStrings:  7291
  
 CStrings:
-+ "hearingTestSupport"
-+ "HaSp"
-+ ", HaSp %!s(MISSING)"
-+ "Tc,N,V_hearingTestSupport"
-+ "\xf0\xa4\"\x12/\x02\x1f\x06\x11)"
-+ ", HtSp %!s(MISSING)"
-+ "Tc,N,V_hearingAidSupport"
-+ "_hearingTestSupport"
-+ "setHearingAidSupport:"
 + "_hearingAidSupport"
++ "hearingTestSupport"
++ "Tc,N,V_hearingAidSupport"
++ "\xf0\xa4\"\x12/\x02\x1f\x06\x11)"
 + "HtSp"
-+ "hearingAidSupport"
 + "setHearingTestSupport:"
++ "Tc,N,V_hearingTestSupport"
++ "HaSp"
++ "hearingAidSupport"
++ "_hearingTestSupport"
++ ", HtSp %!s(MISSING)"
++ "setHearingAidSupport:"
++ ", HaSp %!s(MISSING)"
 - "\xf0\x94\"\x12/\x02\x1f\x06\x11)"
 
 ```

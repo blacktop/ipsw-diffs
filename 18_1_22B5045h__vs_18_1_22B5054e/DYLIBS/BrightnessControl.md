@@ -39,12 +39,12 @@
 +  CStrings:  416
  
 Symbols:
++ _sysctlbyname
++ _get_int_from_bootarg
 + _strtol
 + _strlen
-+ _sysctlbyname
-+ _strstr
 + _bzero
-+ _get_int_from_bootarg
++ _strstr
 CStrings:
 + "kern.bootargs"
 

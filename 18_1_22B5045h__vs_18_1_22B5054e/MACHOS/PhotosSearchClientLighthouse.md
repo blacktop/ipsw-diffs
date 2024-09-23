@@ -59,15 +59,15 @@ Symbols:
 + _objc_release_x26
 - _objc_release_x25
 CStrings:
-+ "Populated %!l(MISSING)d sessions from Biome in Insights stream"
-+ "Uploaded %!l(MISSING)d metrics payloads to PET"
 + "Failure to upload data metrics. Dataframes were empty"
-+ "Populated %!l(MISSING)d sessions from Poirot in Insights stream"
-+ "Uploaded %!l(MISSING)d metrics payloads to CA"
 + "Uploaded %!l(MISSING)d data payloads to PET"
++ "Populated %!l(MISSING)d sessions from Poirot in Insights stream"
++ "Uploaded %!l(MISSING)d metrics payloads to PET"
++ "Populated %!l(MISSING)d sessions from Biome in Insights stream"
++ "Uploaded %!l(MISSING)d metrics payloads to CA"
 + "Failure to upload user metrics. Dataframes were empty"
 - "AMLPhotosSearchLighthouse: Failure to upload. Dataframes were empty"
-- "AMLPhotosSearchLighthouse: Uploaded %!l(MISSING)d data payloads to PET"
 - "AMLPhotosSearchLighthouse: Uploaded %!l(MISSING)d metrics payloads to CA"
+- "AMLPhotosSearchLighthouse: Uploaded %!l(MISSING)d data payloads to PET"
 
 ```

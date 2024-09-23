@@ -82,35 +82,35 @@
 +  CStrings:  3794
  
 Symbols:
-- _fread
+- _swift_taskGroup_wait_next_throwing
 - __availability_version_check
-- _sscanf
-- _fclose
-- _fopen
-- _rewind
-- _fseek
 - _dispatch_once_f
 - _ftell
-- _swift_taskGroup_wait_next_throwing
+- _fread
+- _fseek
+- _fopen
+- _rewind
+- _sscanf
+- _fclose
 CStrings:
 + "Sep 17 2024"
 + "17:31:00"
-- "CFStringGetTypeID"
-- "ProductVersion"
-- "CFPropertyListCreateFromXMLData"
-- "Sep  2 2024"
-- "CFStringCreateWithCStringNoCopy"
 - "r"
-- "CFDataCreateWithBytesNoCopy"
-- "/System/Library/CoreServices/SystemVersion.plist"
+- "ProductVersion"
+- "CFStringGetTypeID"
+- "Sep  2 2024"
 - "CFStringGetCString"
+- "CFStringCreateWithCStringNoCopy"
 - "23:33:30"
-- "CFDictionaryGetValue"
+- "CFDataCreateWithBytesNoCopy"
 - "_Concurrency/TaskGroup.swift"
-- "CFPropertyListCreateWithData"
-- "kCFAllocatorNull"
-- "%!d(MISSING).%!d(MISSING).%!d(MISSING)"
 - "CFRelease"
+- "CFDictionaryGetValue"
+- "kCFAllocatorNull"
+- "/System/Library/CoreServices/SystemVersion.plist"
+- "%!d(MISSING).%!d(MISSING).%!d(MISSING)"
 - "CFGetTypeID"
+- "CFPropertyListCreateWithData"
+- "CFPropertyListCreateFromXMLData"
 
 ```

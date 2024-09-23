@@ -68,13 +68,13 @@ Symbols:
 + _UARPTimestamp
 - _kUARPSupportedAccessoryKeySysdiagnoseApprovedMetrics
 CStrings:
-+ "-"
 + "\n3\x14"
++ "-"
 - "_sysdiagnoseApprovedMetrics"
 - "Cannot copy file, Destination URL already exists: %!@(MISSING)"
-- "%!@(MISSING)-"
-- "addSysdiagnoseApprovedMetric:"
-- "sysdiagnoseApprovedMetrics"
 - "\n\x113\x14"
+- "addSysdiagnoseApprovedMetric:"
+- "%!@(MISSING)-"
+- "sysdiagnoseApprovedMetrics"
 
 ```

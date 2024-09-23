@@ -104,31 +104,31 @@
 +  CStrings:  3035
  
 Symbols:
-+ _OBJC_CLASS_$_HKDeletedObject
 + _HKMCPregnancyAdjustedFeatureIdentifierMedicalID
++ _OBJC_CLASS_$_HKDeletedObject
 + _OBJC_CLASS_$_HDMedicalIDDataManager
 CStrings:
-+ "[%!s(MISSING)] Deleted records with UUIDs: %!s(MISSING)"
-+ "initWithVersion:sampleUUID:educationalStepsReviewDate:configurationStepsReviewDate:pregnancyAdjustedFeaturesSet:postPregnancyFeatureAdjustmentCompletionLog:"
-+ "[%!{(MISSING)public}s] Deleting record from experience model"
-+ "[%!s(MISSING)] Error retrieving medical ID data"
++ "[%!s(MISSING)] Unable to retrieve deleted pregnancies. We will not delete any setup records."
 + "[%!s(MISSING)] Physiological washout date has not yet passed, but the user has adjusted their notifications to be on again"
 + "unitTest_deletedPregnancySamplesQueryResults"
-+ "[%!s(MISSING)] Unable to delete pregnancy setup records %!s(MISSING) from codable experience model: %!s(MISSING)"
-+ "postPregnancyFeatureAdjustmentCompletionLog"
-+ "[%!s(MISSING)] Does not require the cardio fitness adjustment, not making adjustment"
-+ "remote_persistSetupRecord:mergeWith:completion:"
-+ "[%!s(MISSING)] Retrieved %!l(MISSING)d deleted sample tombstones: %!s(MISSING)"
-+ "[%!s(MISSING)] Unable to retrieve deleted pregnancies. We will not delete any setup records."
-+ "[%!{(MISSING)public}s] Error deleting record from experience model: %!s(MISSING)"
-+ "v40@0:8@\"HKMCPregnancyModeSetupCompletionRecord\"16@\"NSUUID\"24@?<v@?B@\"NSError\">32"
-+ "[%!s(MISSING)] Unable to delete record that does not exist"
-+ "[%!s(MISSING)] No records meeting the deletion requirements"
-+ "remote_deleteSetupRecord:completion:"
++ "[%!s(MISSING)] Deleted records with UUIDs: %!s(MISSING)"
 + "[%!s(MISSING)] Pregnancy state is none and we don't have any setup records needing an update. Not making adjustment"
-- "[%!s(MISSING)] Pregnancy state is in none and we don't have any setup records needing an update. Not making adjustment"
-- "[%!s(MISSING)] Did not opt into low cardio fitness pregnancy adjustment, not making adjustment"
-- "initWithVersion:sampleUUID:educationalStepsReviewDate:configurationStepsReviewDate:pregnancyAdjustedFeaturesSet:postPregnancyFeatureAdjustmentCompletionDate:"
++ "v40@0:8@\"HKMCPregnancyModeSetupCompletionRecord\"16@\"NSUUID\"24@?<v@?B@\"NSError\">32"
++ "remote_deleteSetupRecord:completion:"
++ "[%!s(MISSING)] Does not require the cardio fitness adjustment, not making adjustment"
++ "[%!s(MISSING)] No records meeting the deletion requirements"
++ "remote_persistSetupRecord:mergeWith:completion:"
++ "[%!{(MISSING)public}s] Deleting record from experience model"
++ "[%!s(MISSING)] Unable to delete pregnancy setup records %!s(MISSING) from codable experience model: %!s(MISSING)"
++ "[%!s(MISSING)] Error retrieving medical ID data"
++ "[%!s(MISSING)] Unable to delete record that does not exist"
++ "postPregnancyFeatureAdjustmentCompletionLog"
++ "[%!s(MISSING)] Retrieved %!l(MISSING)d deleted sample tombstones: %!s(MISSING)"
++ "initWithVersion:sampleUUID:educationalStepsReviewDate:configurationStepsReviewDate:pregnancyAdjustedFeaturesSet:postPregnancyFeatureAdjustmentCompletionLog:"
++ "[%!{(MISSING)public}s] Error deleting record from experience model: %!s(MISSING)"
 - "[%!s(MISSING)] Record already exists, new record had no date, and post pregnancy adjustments not complete. No changes %!s(MISSING)"
+- "[%!s(MISSING)] Pregnancy state is in none and we don't have any setup records needing an update. Not making adjustment"
+- "initWithVersion:sampleUUID:educationalStepsReviewDate:configurationStepsReviewDate:pregnancyAdjustedFeaturesSet:postPregnancyFeatureAdjustmentCompletionDate:"
+- "[%!s(MISSING)] Did not opt into low cardio fitness pregnancy adjustment, not making adjustment"
 
 ```

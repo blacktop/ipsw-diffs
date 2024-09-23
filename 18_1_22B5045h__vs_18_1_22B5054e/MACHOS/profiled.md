@@ -35,8 +35,8 @@
    CStrings:  4883
  
 Symbols:
-+ _MCFixHostileSymlinks
 + _MCDestinationPathIsSafeFromSymlinkAttacks
++ _MCFixHostileSymlinks
 CStrings:
 + "Destination path contains suspicious symlink: %!{(MISSING)public}@"
 - "Setting AirPlay whitelist to %!l(MISSING)u devices."

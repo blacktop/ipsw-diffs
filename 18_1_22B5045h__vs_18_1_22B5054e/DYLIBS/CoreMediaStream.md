@@ -51,12 +51,12 @@
 +  CStrings:  5199
  
 CStrings:
-+ "_albumForRequestFromParams:"
-+ "checkForCommentChanges:inAlbumWithGUID:withClientOrgKey:"
-+ "getVideoURL:forAssetCollectionWithGUID:inAlbumWithGUID:albumURLString:withClientOrgKey:completionBlock:"
-+ "v32@?0@\"NSError\"8@\"NSString\"16@\"NSString\"24"
 + "v64@0:8@16@24@32@40@48@?56"
++ "getVideoURL:forAssetCollectionWithGUID:inAlbumWithGUID:albumURLString:withClientOrgKey:completionBlock:"
 + "getCommentChanges:inAlbumWithGUID:withClientOrgKey:albumURLString:completionBlock:"
++ "checkForCommentChanges:inAlbumWithGUID:withClientOrgKey:"
++ "v32@?0@\"NSError\"8@\"NSString\"16@\"NSString\"24"
++ "_albumForRequestFromParams:"
 - "checkForCommentChanges:inAlbumWithGUID:"
 - "getVideoURL:forAssetCollectionWithGUID:inAlbumWithGUID:albumURLString:completionBlock:"
 - "getCommentChanges:inAlbumWithGUID:albumURLString:completionBlock:"

@@ -92,20 +92,20 @@
 +  CStrings:  1277
  
 Symbols:
-+ _swift_unknownObjectWeakDestroy
++ _swift_unknownObjectWeakInit
++ _swift_unknownObjectWeakLoadStrong
++ _os_unfair_lock_unlock
 + _os_unfair_lock_lock
 + _swift_deallocObject
-+ _swift_makeBoxUnique
-+ _os_unfair_lock_unlock
-+ _swift_unknownObjectWeakLoadStrong
-+ _swift_task_create
-+ _swift_unknownObjectWeakInit
 + _swift_getAssociatedConformanceWitness
++ _swift_makeBoxUnique
 + _swift_getAssociatedTypeWitness
++ _swift_task_create
++ _swift_unknownObjectWeakDestroy
 CStrings:
-+ "Returning EventEntity observability state: %!{(MISSING)bool}d"
-+ "EventEntity observability state changed to %!{(MISSING)bool}d"
 + "observationTask"
++ "EventEntity observability state changed to %!{(MISSING)bool}d"
++ "Returning EventEntity observability state: %!{(MISSING)bool}d"
 + "observationStatus"
 + "Registering for EventEntity observability state changes"
 - "_TtC12CalendarLink23CalendarLinkObservation"

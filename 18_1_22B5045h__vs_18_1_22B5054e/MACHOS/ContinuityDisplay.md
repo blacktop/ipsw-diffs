@@ -43,8 +43,8 @@
  
 CStrings:
 + "342.1.4"
-- "setHidePasswordKey:"
-- "hidePasswordKey"
 - "342.1.3"
+- "hidePasswordKey"
+- "setHidePasswordKey:"
 
 ```

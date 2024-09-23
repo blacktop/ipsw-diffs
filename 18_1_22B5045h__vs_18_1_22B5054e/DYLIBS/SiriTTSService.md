@@ -85,11 +85,11 @@
 +  CStrings:  3877
  
 CStrings:
-+ "_disableNaturalVoiceOPUS"
-+ "disableNaturalVoiceOPUS"
++ "_TtC14SiriTTSService23IsNaturalVoiceCondition"
 + "Enqueued audio buffer #%!l(MISSING)d, packet count: %!l(MISSING)d, bytes: %!l(MISSING)d, isOpus: %!{(MISSING)bool}d"
 + "# Audio playback format %!u(MISSING), isOpus: %!{(MISSING)bool}d"
-+ "_TtC14SiriTTSService23IsNaturalVoiceCondition"
++ "_disableNaturalVoiceOPUS"
++ "disableNaturalVoiceOPUS"
 - "Enqueued audio buffer #%!l(MISSING)d, packet count: %!l(MISSING)d, bytes: %!l(MISSING)d"
 - "OpusEncodingAction: Audio is already opus encoded"
 

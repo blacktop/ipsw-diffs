@@ -61,11 +61,11 @@
 +  CStrings:  498
  
 Symbols:
-+ __sl_dlopen
 + _objc_getClass
 + __Block_object_dispose
++ __sl_dlopen
 CStrings:
-+ "PSUSummarizationXPCServer"
 + "softlink:o:path:/System/Library/PrivateFrameworks/ProactiveSummarization.framework/ProactiveSummarization"
++ "PSUSummarizationXPCServer"
 
 ```

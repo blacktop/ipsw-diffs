@@ -51,11 +51,11 @@
    CStrings:  1230
  
 Symbols:
-+ _swift_unknownObjectWeakDestroy
-+ _symbolic _____SgXwz_Xx 9mapssyncd21MapsSyncDaemonServiceC
 + _swift_unknownObjectWeakInit
 + _swift_unknownObjectWeakLoadStrong
++ _symbolic _____SgXwz_Xx 9mapssyncd21MapsSyncDaemonServiceC
 + _symbolic _____SgXw 9mapssyncd21MapsSyncDaemonServiceC
++ _swift_unknownObjectWeakDestroy
 - _objc_release_x10
 
 ```

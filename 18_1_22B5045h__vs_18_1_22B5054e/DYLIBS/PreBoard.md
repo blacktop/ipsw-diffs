@@ -62,33 +62,33 @@
 +  CStrings:  138
  
 Symbols:
-+ __sl_dlopen
-+ ___stack_chk_fail
-+ ___stack_chk_guard
-+ _AXSBHomeScreenOverlayController
-+ _dlsym
-+ _OBJC_CLASS_$_AXSpringBoardServer
-+ _objc_enumerationMutation
 + _AXSBOnenessOrXCUITestIsCurrentlyRequestingClientDuringContinuitySession
++ _objc_retain_x23
++ _AXSBHomeScreenControllerForContinuityDisplay
++ _objc_enumerationMutation
++ _AXSBCurrentFolderController
++ __sl_dlopen
++ _OBJC_CLASS_$_AXSpringBoardServer
 + _dlerror
 + _abort_report_np
-+ _AXSBCurrentFolderController
-+ _objc_retain_x23
-+ _free
-+ _AXSBHomeScreenControllerForContinuityDisplay
 + _AXSBRootFolderController
++ ___stack_chk_guard
++ _AXSBHomeScreenOverlayController
++ _free
++ _dlsym
++ ___stack_chk_fail
 CStrings:
-+ "softlink:r:path:/System/Library/PrivateFrameworks/AXRuntime.framework/AXRuntime"
++ "homeScreenController"
 + "safeSetForKey:"
 + "_rootFolderController"
 + "countByEnumeratingWithState:objects:count:"
 + "isContinuitySessionActive"
-+ "%!s(MISSING)"
 + "AXRequestingClient"
-+ "server"
-+ "connectedWindowScenes"
-+ "homeScreenController"
-+ "homeScreenOverlayController"
 + "isContinuityDisplayWindowScene"
++ "server"
++ "softlink:r:path:/System/Library/PrivateFrameworks/AXRuntime.framework/AXRuntime"
++ "%!s(MISSING)"
++ "homeScreenOverlayController"
++ "connectedWindowScenes"
 
 ```

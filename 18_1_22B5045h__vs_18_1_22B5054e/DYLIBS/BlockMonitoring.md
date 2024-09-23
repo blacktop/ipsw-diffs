@@ -59,57 +59,57 @@
 +  CStrings:  220
  
 Symbols:
++ _objc_retain_x5
 + _objc_release_x26
 + _BMMonitorBlockExecutionWithSignatureAndOptions
-+ _objc_retain_x24
 + _proc_pidinfo
-+ _objc_retain_x5
-+ __os_log_fault_impl
-+ _objc_retain_x23
 + _objc_retain_x26
-- _objc_retain_x4
++ _objc_retain_x24
++ _objc_retain_x23
++ __os_log_fault_impl
+- _objc_release_x28
 - _BMMonitorBlockExecutionWithSignatureAndTimeout
 - _objc_retain_x22
+- _objc_retain_x4
 - _objc_retain_x28
-- _objc_release_x28
 CStrings:
-+ "signature=%!{(MISSING)public,signpost.telemetry:string1,name=signature}@ reason=%!{(MISSING)public,signpost.telemetry:number1,name=reason}d demoted=%!{(MISSING)public,signpost.telemetry:number2,name=demoted}d enableTelemetry=YES "
-+ "Disabling panics - coredumps not enabled: %!l(MISSING)lx"
-+ "v52@0:8@16Q24Q32i40^AB44"
-+ "BM state: %!d(MISSING) (%!d(MISSING)) - %!d(MISSING)"
-+ "Panic not enabled - demoting the asked panic to a fault"
-+ "_test_getWasFirstFault"
++ "_test_getDebuggerState"
 + "_test_setDebuggerState:"
-+ "_test_getResultType"
-+ "logPanicDeny:reason:demoted:"
-+ "logFault:reason:"
-+ "_test_getCoreDumpsDisabled"
-+ "isProcessBeingDebugged"
-+ "executeBlockWithSignature:timeout:options:block:"
-+ "v44@0:8r*16Q24i32@?36"
-+ "_alreadyFaulted"
-+ "takeActionIfRelevant:thread_id:timeout:options:recovered:"
-+ "%!@(MISSING) (%!u(MISSING):%!l(MISSING)lu) recovered - skipping fault"
-+ "v32@0:8@16r*24"
-+ "_coreDumpsDisabled"
-+ "fault_triggered"
-+ "_test_getAlreadyFaulted"
 + "signature=%!{(MISSING)public,signpost.telemetry:string1,name=signature}@ first=%!{(MISSING)public,signpost.telemetry:number1,name=first}d enableTelemetry=YES "
 + "_test_resultType"
-+ "v20@0:8C16"
++ "executeBlockWithSignature:timeout:options:block:"
++ "v52@0:8@16Q24Q32i40^AB44"
 + "\x121!!\x11"
-+ "_test_debuggerState"
-+ "_test_getDebuggerState"
++ "Disabling panics - coredumps not enabled: %!l(MISSING)lx"
++ "v20@0:8C16"
 + "_test_wasFirstFault"
++ "v44@0:8r*16Q24i32@?36"
++ "_coreDumpsDisabled"
++ "_test_getWasFirstFault"
++ "_test_debuggerState"
++ "logPanicDeny:reason:demoted:"
++ "%!@(MISSING) (%!u(MISSING):%!l(MISSING)lu) recovered - skipping fault"
++ "_test_getAlreadyFaulted"
++ "isProcessBeingDebugged"
++ "_test_getCoreDumpsDisabled"
++ "logFault:reason:"
++ "fault_triggered"
 + "v32@0:8@16C24B28"
++ "v32@0:8@16r*24"
++ "_test_getResultType"
++ "BM state: %!d(MISSING) (%!d(MISSING)) - %!d(MISSING)"
++ "Panic not enabled - demoting the asked panic to a fault"
++ "takeActionIfRelevant:thread_id:timeout:options:recovered:"
++ "_alreadyFaulted"
++ "signature=%!{(MISSING)public,signpost.telemetry:string1,name=signature}@ reason=%!{(MISSING)public,signpost.telemetry:number1,name=reason}d demoted=%!{(MISSING)public,signpost.telemetry:number2,name=demoted}d enableTelemetry=YES "
+- "signature=%!{(MISSING)public,signpost.telemetry:string1,name=signature}@ reason=%!{(MISSING)public,signpost.telemetry:number1,name=reason}d enableTelemetry=YES "
+- "v28@0:8@16C24"
 - "BM state: %!d(MISSING) - %!d(MISSING)"
 - "Disabling feature - coredumps not enabled: %!l(MISSING)lx"
-- "signature=%!{(MISSING)public,signpost.telemetry:string1,name=signature}@ reason=%!{(MISSING)public,signpost.telemetry:number1,name=reason}d enableTelemetry=YES "
-- "v48@0:8@16Q24Q32^AB40"
 - "logPanicDeny:reason:"
-- "v40@0:8r*16Q24@?32"
-- "v28@0:8@16C24"
 - "panicDeviceIfRelevant:thread_id:timeout:recovered:"
+- "v40@0:8r*16Q24@?32"
+- "v48@0:8@16Q24Q32^AB40"
 - "\x121!\x11\x11"
 - "executeBlockWithSignature:timeout:block:"
 

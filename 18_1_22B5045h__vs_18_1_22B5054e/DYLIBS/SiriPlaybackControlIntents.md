@@ -70,9 +70,9 @@
  
 Symbols:
 + _OBJC_METACLASS_$_SiriPlaybackControlsSpringBoardService
-+ _SBSIsSystemApertureAvailable
 + _OBJC_CLASS_$_SiriPlaybackControlsSpringBoardService
 + _AFIsInternalInstall
++ _SBSIsSystemApertureAvailable
 CStrings:
 + "SiriPlaybackControlsSpringBoardService"
 + "isSystemApertureAvailable"

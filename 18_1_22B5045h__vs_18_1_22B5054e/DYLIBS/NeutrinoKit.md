@@ -55,12 +55,12 @@
 +  CStrings:  1303
  
 Symbols:
-+ _objc_retain_x25
 + _PFSizeNull
++ _objc_retain_x25
 CStrings:
-+ "transformedImage:forComposition:imageSize:error:"
-+ "@56@0:8@16@24{CGSize=dd}32o^@48"
-+ "Geometry request failed: %!@(MISSING)"
 + "/ShowOriginalSource"
++ "@56@0:8@16@24{CGSize=dd}32o^@48"
++ "transformedImage:forComposition:imageSize:error:"
++ "Geometry request failed: %!@(MISSING)"
 
 ```

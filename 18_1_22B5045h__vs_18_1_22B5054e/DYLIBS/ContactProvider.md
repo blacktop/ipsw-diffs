@@ -57,9 +57,9 @@
 +  CStrings:  301
  
 CStrings:
-+ "The extension domain is not registered."
-+ "This can occur if the extension domain is not first registered with ContactProviderManager.addDomain()."
 + "initWithDomainIdentifer:displayName:userInfo:bundleIdentifier:registered:enabled:"
++ "This can occur if the extension domain is not first registered with ContactProviderManager.addDomain()."
++ "The extension domain is not registered."
 - "initWithDomainIdentifer:displayName:userInfo:bundleIdentifier:enabled:"
 
 ```

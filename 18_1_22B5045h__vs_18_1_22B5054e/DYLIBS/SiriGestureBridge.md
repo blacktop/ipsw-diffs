@@ -82,19 +82,19 @@
 +  CStrings:  441
  
 Symbols:
++ _swift_getGenericMetadata
 + _os_unfair_lock_lock
 + _os_unfair_lock_unlock
-+ _swift_getGenericMetadata
 + _swift_checkMetadataState
 + _swift_allocateGenericClassMetadata
 CStrings:
-+ "lock"
 + "value"
++ "Not using system sounds for head gestures' audio feedback"
 + "_requestContextData"
 + "Using system sounds for head gestures' audio feedback"
-+ "Not using system sounds for head gestures' audio feedback"
-- "Not using system audio for head gestures' audio feedback"
++ "lock"
 - "requestContextData"
 - "Using system audio for head gestures' audio feedback"
+- "Not using system audio for head gestures' audio feedback"
 
 ```

@@ -16,9 +16,9 @@
    __TEXT.__objc_methname: 0x2a
    __TEXT.__unwind_info: 0xd8
 CStrings:
-+ "Darwin Role Account Bootstrapper Version 1.0.0: Tue Sep 17 16:03:17 PDT 2024; root:libxpc_executables-2866.40.11~266/xpcroleaccountd/RELEASE_ARM64E"
 + "@(#)VERSION:Darwin Role Account Bootstrapper Version 1.0.0: Tue Sep 17 16:03:17 PDT 2024; root:libxpc_executables-2866.40.11~266/xpcroleaccountd/RELEASE_ARM64E"
-- "Darwin Role Account Bootstrapper Version 1.0.0: Fri Aug 30 00:25:56 PDT 2024; root:libxpc_executables-2866.40.9~42/xpcroleaccountd/RELEASE_ARM64E"
++ "Darwin Role Account Bootstrapper Version 1.0.0: Tue Sep 17 16:03:17 PDT 2024; root:libxpc_executables-2866.40.11~266/xpcroleaccountd/RELEASE_ARM64E"
 - "@(#)VERSION:Darwin Role Account Bootstrapper Version 1.0.0: Fri Aug 30 00:25:56 PDT 2024; root:libxpc_executables-2866.40.9~42/xpcroleaccountd/RELEASE_ARM64E"
+- "Darwin Role Account Bootstrapper Version 1.0.0: Fri Aug 30 00:25:56 PDT 2024; root:libxpc_executables-2866.40.9~42/xpcroleaccountd/RELEASE_ARM64E"
 
 ```

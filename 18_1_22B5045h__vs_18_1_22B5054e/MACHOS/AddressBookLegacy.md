@@ -55,25 +55,25 @@
 +  CStrings:  83
  
 Symbols:
-+ _ABRecordGetIntValue
-+ _objc_enumerationMutation
++ _ABAddressBookSave
++ _ABAddressBookSetIntegerProperty
++ _objc_release_x25
++ _objc_retain
++ _ABAddressBookHasUnsavedChanges
 + _kABSourceTypeProperty
 + _ABAddressBookRemoveRecord
-+ _objc_retain
-+ _ABAddressBookSave
-+ _ABAddressBookGetIntegerProperty
-+ _objc_release_x25
-+ _ABAddressBookHasUnsavedChanges
-+ _ABAddressBookCreate
-+ _ABAddressBookSetIntegerProperty
 + _ABAddressBookCopyArrayOfAllSources
++ _ABAddressBookCreate
++ _objc_enumerationMutation
++ _ABAddressBookGetIntegerProperty
++ _ABRecordGetIntValue
 CStrings:
-+ "AB Migration - Contact Provider container was not deleted, %!@(MISSING)"
++ "resetContactProviderFeature"
++ "ResetContactProviderFeature"
 + "AB Migration - Contact Provider did reset, took %!f(MISSING)s"
 + "AB Migration - Failed to save Contact Provider content deletion, %!@(MISSING)"
 + "AB Migration - Contact Provider will reset"
-+ "resetContactProviderFeature"
-+ "ResetContactProviderFeature"
 + "countByEnumeratingWithState:objects:count:"
++ "AB Migration - Contact Provider container was not deleted, %!@(MISSING)"
 
 ```

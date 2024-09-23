@@ -37,8 +37,8 @@
    CStrings:  402
  
 Symbols:
-+ __kAXSMusicHapticsActiveStatusDidChangeNotification
 + _CFNotificationCenterGetDarwinNotifyCenter
++ __kAXSMusicHapticsActiveStatusDidChangeNotification
 + _CFNotificationCenterPostNotification
 
 ```

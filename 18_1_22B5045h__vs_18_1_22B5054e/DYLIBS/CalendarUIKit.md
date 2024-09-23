@@ -80,17 +80,17 @@
    CStrings:  5945
  
 CStrings:
-+ "renderReminderInPreparedContext:bounds:selected:stackDepth:userInterfaceStyle:miniPreview:allDay:completed:"
 + "@36@0:8B16q20B28B32"
 + "@40@0:8B16i20q24B32B36"
++ "renderReminderBackgroundSelected:stackDepth:userInterfaceStyle:miniPreview:completed:"
 + "reminderBackgroundColor:style:miniPreview:completed:"
 + "v84@0:8^{CGContext=}16{CGRect={CGPoint=dd}{CGSize=dd}}24B56i60q64B72B76B80"
-+ "renderReminderBackgroundSelected:stackDepth:userInterfaceStyle:miniPreview:completed:"
++ "renderReminderInPreparedContext:bounds:selected:stackDepth:userInterfaceStyle:miniPreview:allDay:completed:"
+- "@32@0:8B16q20B28"
 - "renderReminderBackgroundSelected:stackDepth:userInterfaceStyle:miniPreview:"
 - "reminderBackgroundColor:style:miniPreview:"
-- "@36@0:8B16i20q24B32"
-- "@32@0:8B16q20B28"
-- "v80@0:8^{CGContext=}16{CGRect={CGPoint=dd}{CGSize=dd}}24B56i60q64B72B76"
 - "renderReminderInPreparedContext:bounds:selected:stackDepth:userInterfaceStyle:miniPreview:allDay:"
+- "v80@0:8^{CGContext=}16{CGRect={CGPoint=dd}{CGSize=dd}}24B56i60q64B72B76"
+- "@36@0:8B16i20q24B32"
 
 ```

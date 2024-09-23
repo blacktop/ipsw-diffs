@@ -34,9 +34,9 @@
  
 Symbols:
 + _ZN26AppleH15MemCacheController23_mccProtectedWriteReg32EPKNS_15amcc_aperture_tEjjj.cold.1
-+ __ZN26AppleH15MemCacheController23_mccProtectedWriteReg32EPKNS_15amcc_aperture_tEjjj
 + __ZZN26AppleH15MemCacheController23_mccProtectedWriteReg32EPKNS_15amcc_aperture_tEjjjE11_os_log_fmt
 + _pmap_iofilter_protected_write
++ __ZN26AppleH15MemCacheController23_mccProtectedWriteReg32EPKNS_15amcc_aperture_tEjjj
 CStrings:
 + "_mccProtectedWriteReg32"
 

@@ -70,19 +70,19 @@
 +  CStrings:  11043
  
 Symbols:
-+ _OBJC_CLASS_$_GMAvailabilityWrapper
 + _kVOTEventCommandBottomEdgePanExtraLong
++ _OBJC_CLASS_$_GMAvailabilityWrapper
 + _AXDeviceSupportsGreyMatterSAE
 + _OBJC_CLASS_$_AFPreferences
 CStrings:
-+ "lift.hint.type.siri"
-+ "shouldBeShownInSettingsReturningAvailabilityStatus:"
++ "quickTypeGestureEnabled"
 + "Sounds/VOTOrbSound4-OrbHW.aiff"
++ "shouldBeShownInSettingsReturningAvailabilityStatus:"
++ "lift.hint.type.siri"
++ "voice.current.suffix"
 + "VOTEdgePanGestureStateTypeSiri"
++ "sharedPreferences"
 + "voice.primary.suffix"
 + "_isTypeToSiriGestureAvailable"
-+ "quickTypeGestureEnabled"
-+ "voice.current.suffix"
-+ "sharedPreferences"
 
 ```

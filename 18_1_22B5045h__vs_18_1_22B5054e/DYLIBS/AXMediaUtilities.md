@@ -64,9 +64,9 @@
 +  CStrings:  7964
  
 CStrings:
-+ "_needsRenderSonification"
 + "TB,N,V_needsRenderSonification"
 + "needsRenderSonification"
++ "_needsRenderSonification"
 + "setNeedsRenderSonification:"
 
 ```

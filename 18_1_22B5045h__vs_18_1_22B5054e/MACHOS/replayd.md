@@ -56,8 +56,8 @@ Symbols:
 CStrings:
 + "isResponsibleProcessEntitledForAuditToken:entitlement:"
 + "B56@0:8{?=[8I]}16@48"
-+ " [ERROR] %!{(MISSING)public}s:%!d(MISSING) error copying entitlment from SecTaskRef, error=%!@(MISSING)"
-+ "checkEntitlementForToken"
 + "checkEntitlementArrayForToken"
++ "checkEntitlementForToken"
++ " [ERROR] %!{(MISSING)public}s:%!d(MISSING) error copying entitlment from SecTaskRef, error=%!@(MISSING)"
 
 ```

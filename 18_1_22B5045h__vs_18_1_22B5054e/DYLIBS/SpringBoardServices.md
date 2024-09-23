@@ -66,14 +66,14 @@
 +  CStrings:  4613
  
 CStrings:
-+ "TB,N,GisLargeIconSizeEnabled"
-+ "isLargeIconSizeEnabled"
-+ "called migrateIncomingNotificationsToHistory after invalidation"
-+ "largeIconSizeEnabledValue"
 + "setLargeIconSizeEnabled:"
++ "TB,N,GisLargeIconSizeEnabled"
 + "setLargeIconSizeEnabledValue:"
-+ "largeIconSizeEnabled"
++ "called migrateIncomingNotificationsToHistory after invalidation"
 + "SBSLockScreenService: failed request for notification migration (no remoteTarget)"
++ "isLargeIconSizeEnabled"
++ "largeIconSizeEnabled"
 + "migrateIncomingNotificationsToHistory"
++ "largeIconSizeEnabledValue"
 
 ```

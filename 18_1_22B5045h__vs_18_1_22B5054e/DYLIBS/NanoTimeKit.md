@@ -68,10 +68,10 @@
 CStrings:
 + "\x1f\x0f\x01"
 + "description=NanoTimeKit-2483.147.3"
-+ "_modularCompactSecondTickActiveColor"
 + "_modularCompactSecondTickInactiveColor"
-- "description=NanoTimeKit-2483.144.1"
++ "_modularCompactSecondTickActiveColor"
 - "_paletteApplyingTritiumFractionToPalette:"
+- "description=NanoTimeKit-2483.144.1"
 - "\x1f\x0e"
 
 ```

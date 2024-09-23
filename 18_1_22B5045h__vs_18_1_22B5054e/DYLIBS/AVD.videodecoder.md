@@ -31,11 +31,11 @@
 +  CStrings:  1863
  
 CStrings:
-+ "AppleAVD: WARNING: %!s(MISSING)(): inputBufSize: %!d(MISSING) > %!d(MISSING), capping to %!d(MISSING)!"
++ "AppleAVD: Unsupported sps->pic_width_in_luma_samples:%!d(MISSING) or sps->pic_height_in_luma_samples:%!d(MISSING)"
 + "22:33:11"
 + "Sep 18 2024"
 + "22:33:12"
-+ "AppleAVD: Unsupported sps->pic_width_in_luma_samples:%!d(MISSING) or sps->pic_height_in_luma_samples:%!d(MISSING)"
++ "AppleAVD: WARNING: %!s(MISSING)(): inputBufSize: %!d(MISSING) > %!d(MISSING), capping to %!d(MISSING)!"
 - "18:36:37"
 - "18:36:38"
 - "Sep 12 2024"

@@ -60,10 +60,10 @@
  
 CStrings:
 + "T@\"UNNotificationSound\",C,N,V_sound"
-+ "@\"UNNotificationSound\""
-+ "sound"
 + "\x01\x11\x11\x12.\x12\x13"
++ "sound"
 + "_sound"
++ "@\"UNNotificationSound\""
 - "\x01\x11\x11\x12-\x12\x13"
 
 ```

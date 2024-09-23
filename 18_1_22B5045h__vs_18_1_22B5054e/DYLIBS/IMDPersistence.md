@@ -86,34 +86,34 @@
 +  CStrings:  7315
  
 Symbols:
-+ _OBJC_CLASS_$_IMOneTimeCodeUtilities
-+ _CFMakeCollectable
 + _IMMessageCreateBalloonPluginAssociatedMessageGUIDFromThreadIdentifier
++ _OBJC_CLASS_$_IMOneTimeCodeUtilities
 + _IMBalloonBundleIdentifierChatBot
++ _CFMakeCollectable
+- _OBJC_CLASS_$_CSSearchQueryContext
 - _OBJC_CLASS_$_CSSearchQuery
 - _MDItemMessageType
-- _OBJC_CLASS_$_CSSearchQueryContext
 CStrings:
-+ "ChatBot"
-+ "message %!@(MISSING) is from a chat bot but is not OTC"
-+ "createOTCFromMessageBody:sender:guid:"
-+ "Creating chat bot message containing OTC guid: %!@(MISSING)"
-+ "message %!@(MISSING) is from a chat bot and is OTC"
 + "SELECT   m.ROWID FROM   message m WHERE   m.associated_message_guid IN (?, ?)  AND m.thread_originator_guid IS NULL"
++ "message %!@(MISSING) is from a chat bot and is OTC"
++ "Creating chat bot message containing OTC guid: %!@(MISSING)"
++ "ChatBot"
++ "createOTCFromMessageBody:sender:guid:"
 + "isFromChatBotNotOTC:"
-- "initWithQueryString:queryContext:"
-- "-[IMDDatabase(Spotlight) checkSpotlightIndexCountWithCompletion:]"
-- "setCounting:"
-- "checkSpotlightIndexCountWithCompletion:"
-- "v24@0:8@?<v@?q>16"
++ "message %!@(MISSING) is from a chat bot but is not OTC"
 - "handleIMDCoreSpotlightCheckIndexCount_IPCActionWithXPCConnection:requestMessage:responseMessage:completionHandler:"
-- "setBundleIDs:"
-- "%!{(MISSING)public}s Got %!l(MISSING)ld total indexed items for query %!{(MISSING)public}@"
-- "SELECT   m.ROWID FROM   message m WHERE   m.associated_message_guid = ?  AND m.thread_originator_guid IS NULL"
+- "-[IMDDatabase(Spotlight) checkSpotlightIndexCountWithCompletion:]"
 - "%!{(MISSING)public}s Starting query with string %!{(MISSING)public}@"
-- "%!@(MISSING) == \"%!@(MISSING)\""
-- "-[IMDDatabase(Spotlight) checkSpotlightIndexCountWithCompletion:]_block_invoke_2"
-- "Query: Count the total number of indexed items in Spotlight"
+- "v24@0:8@?<v@?q>16"
+- "setBundleIDs:"
 - "setCountChangedHandler:"
+- "-[IMDDatabase(Spotlight) checkSpotlightIndexCountWithCompletion:]_block_invoke_2"
+- "%!{(MISSING)public}s Got %!l(MISSING)ld total indexed items for query %!{(MISSING)public}@"
+- "initWithQueryString:queryContext:"
+- "setCounting:"
+- "Query: Count the total number of indexed items in Spotlight"
+- "%!@(MISSING) == \"%!@(MISSING)\""
+- "SELECT   m.ROWID FROM   message m WHERE   m.associated_message_guid = ?  AND m.thread_originator_guid IS NULL"
+- "checkSpotlightIndexCountWithCompletion:"
 
 ```

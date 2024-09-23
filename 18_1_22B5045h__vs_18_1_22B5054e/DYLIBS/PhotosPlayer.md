@@ -66,9 +66,9 @@
 +  CStrings:  2430
  
 CStrings:
-+ "_ivarQueue_itemHasEnabledAudio"
-+ "TB,R"
-+ "currentItemHasEnabledAudio"
 + "hasEnabledAudio"
++ "_ivarQueue_itemHasEnabledAudio"
++ "currentItemHasEnabledAudio"
++ "TB,R"
 
 ```

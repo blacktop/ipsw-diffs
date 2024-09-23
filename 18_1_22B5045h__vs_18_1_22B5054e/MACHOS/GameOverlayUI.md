@@ -74,19 +74,19 @@
 Symbols:
 - _GKRemoteAlertDeeplinkActionFriendRequestsValue
 CStrings:
-+ "@32@0:8@16@?24"
-+ "No pending friend requests or friend requests banner is not enabled."
 + "viewControllerWithRequest:dismissHandler:"
-+ "Finding completed request for token: %!s(MISSING), contextID: %!s(MISSING)"
++ "No pending friend requests or friend requests banner is not enabled."
 + "getFriendRequestsBannerDataWithCompletion:"
 + "deepLinkDestination"
++ "Finding completed request for token: %!s(MISSING), contextID: %!s(MISSING)"
 + "setDeepLinkDestination:"
-- "deepLinkAction"
-- "Finding completed request for token: %!s(MISSING)"
-- "getCombinedFriendInvitationListWithCompletion:"
++ "@32@0:8@16@?24"
 - "setDeepLinkAction:"
-- "@40@0:8@16@24@?32"
-- "viewControllerWithRequest:game:dismissHandler:"
+- "deepLinkAction"
 - "No pending friend requests."
+- "viewControllerWithRequest:game:dismissHandler:"
+- "getCombinedFriendInvitationListWithCompletion:"
+- "@40@0:8@16@24@?32"
+- "Finding completed request for token: %!s(MISSING)"
 
 ```

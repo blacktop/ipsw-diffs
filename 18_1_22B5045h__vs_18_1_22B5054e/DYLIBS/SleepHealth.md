@@ -79,165 +79,165 @@
 +  CStrings:  418
  
 Symbols:
-+ _HKSHSleepApneaNotificationActionLearnMore
-+ _HKSHSleepApneaNotificationCategoryRescindedSeedExpired
-+ ___NSDictionary0__struct
-+ _HKSHSleepApneaControlServerIdentifier
-+ _HKSHBreathingDisturbanceAnalysisSchedulerSuccessfulAnalysisAttemptCountKey
-+ _HKSHSleepApneaControlClientInterface
-+ _OBJC_CLASS_$_HKKeyValueDomain
-+ _HKSHSleepApneaNotificationCategoryRescindedNoLongerSupportedOnLocalDevice
++ _HKAnalyticsPropertyNameBiologicalSex
 + _objc_retainAutorelease
-+ _HKFeatureIdentifierSleepApneaNotifications
-+ _OBJC_METACLASS_$_HKSHSleepApneaNotificationInteractedAnalyticsEvent
-+ _OBJC_CLASS_$_HKTaskConfiguration
-+ _OBJC_CLASS_$_UNNotificationRequest
-+ _OBJC_CLASS_$_HKFeatureAvailabilityStore
-+ _OBJC_CLASS_$_NSString
-+ _kHKNotificationsURLKey
-+ _HKSHSleepApneaControlServerInterface
++ _HKSHSleepApneaControlClientInterface
++ _HKSHBreathingDisturbanceAnalysisSchedulerSuccessfulAnalysisAttemptCountKey
++ _HKSHBreathingDisturbanceAnalysisSchedulerLastSuccessfulAnalysisAttemptDateKey
 + _HKAnalyticsStringErrorSentinel
-+ _HKSHSleepApneaNotificationCategoryPossibleSleepApnea
-+ _HKAnalyticsPropertyValueForBiologicalSex
-+ _OBJC_CLASS_$_HKSHSleepApneaNotificationInteractedAnalyticsEvent
-+ _OBJC_CLASS_$_HKSHSleepApneaControl
++ _OBJC_METACLASS_$_HKSHSleepApneaControl
++ _HKFeatureIdentifierSleepApneaNotifications
++ _HKSHSleepApneaNotificationActionLearnMore
++ _HKSHBreathingDisturbanceKeyValueDomainName
++ _kHKNotificationsURLKey
++ _OBJC_CLASS_$_NSString
++ _HKSHSleepApneaNotificationCategoryRescindedRemoteDisabled
++ _HKSHSleepApneaEventSampleDetailURLPathComponent
++ _OBJC_CLASS_$_HKKeyValueDomain
++ _HKSHSleepApneaControlServerInterface
++ _OBJC_CLASS_$_NSDate
++ _HKSHSleepApneaNotificationCategoryRescindedNoLongerSupportedOnActiveRemoteDevice
++ __HKLogDroppedError
++ _HKSHSleepApneaControlServerIdentifier
++ _OBJC_CLASS_$_HKTaskConfiguration
++ _HKSHSleepApneaEventSampleDetailsLink
++ _OBJC_CLASS_$_UNMutableNotificationContent
++ _OBJC_CLASS_$_UNMutableNotificationSound
++ ___NSDictionary0__struct
++ _HKSHBreathingDisturbanceAnalysisWindowLength
 + _OBJC_CLASS_$_NSCalendar
 + _HKSHCreatePossibleSleepApneaDetectedNotificationRequest
-+ _OBJC_CLASS_$_NSURL
-+ _OBJC_CLASS_$_UNMutableNotificationSound
-+ _HKSHSleepApneaNotificationCategoryRescindedRemoteDisabled
-+ _HKSHBreathingDisturbanceKeyValueDomainName
++ _HKSHSleepApneaNotificationCategoryRescindedNoLongerSupportedOnLocalDevice
++ _HKSHSleepApneaNotificationCategoryRescindedSeedExpired
++ _OBJC_CLASS_$_HKQuantitySample
++ _HKAnalyticsPropertyNameAge
++ _UNNotificationDefaultActionIdentifier
++ _HKSHSleepApneaNotificationRequestIdentifier
 + _OBJC_CLASS_$_NSMutableDictionary
++ _HKSHSleepApneaNotificationCategoryPossibleSleepApnea
++ _OBJC_CLASS_$_HKSHSleepApneaNotificationInteractedAnalyticsEvent
++ _OBJC_CLASS_$_HKFeatureAvailabilityStore
++ _HKSHSleepApneaNotificationCategoryFeatureIsAvailableAgainAndEnabled
 + _HKAnalyticsBoundedIntegerErrorSentinel
 + _UNNotificationDismissActionIdentifier
-+ _HKSHBreathingDisturbanceAnalysisSchedulerLastSuccessfulAnalysisAttemptDateKey
-+ _HKSHSleepApneaNotificationCategoryFeatureIsAvailableAgainAndEnabled
-+ _HKSHSleepApneaNotificationRequestIdentifier
-+ _HKSHSleepApneaEventSampleDetailURLPathComponent
-+ _OBJC_CLASS_$_UNMutableNotificationContent
-+ _HKSHSleepApneaEventSampleDetailsLink
-+ _UNNotificationDefaultActionIdentifier
++ _OBJC_CLASS_$_HKSHSleepApneaControl
++ _HKAnalyticsPropertyValueForBiologicalSex
 + _kHKNotificationsDomainKey
-+ _OBJC_CLASS_$_HKQuantitySample
-+ _HKSHBreathingDisturbanceAnalysisWindowLength
-+ _HKSHSleepApneaNotificationCategoryRescindedNoLongerSupportedOnActiveRemoteDevice
-+ _OBJC_CLASS_$_NSDate
-+ _OBJC_METACLASS_$_HKSHSleepApneaControl
-+ _HKAnalyticsPropertyNameBiologicalSex
-+ __HKLogDroppedError
-+ _HKAnalyticsPropertyNameAge
++ _OBJC_CLASS_$_NSURL
++ _OBJC_CLASS_$_UNNotificationRequest
++ _OBJC_METACLASS_$_HKSHSleepApneaNotificationInteractedAnalyticsEvent
 CStrings:
-+ "feature no longer supported on local device"
-+ "v24@0:8d16"
-+ "setExpirationDate:"
-+ "type"
-+ "isEqualToString:"
-+ "soundWithAlertType:"
-+ "setBody:"
-+ "com.apple.health.bd.notificationinteractions"
-+ "environmentDataSource"
-+ "POSSIBLE_SLEEP_APNEA_DETECTED_BODY"
-+ "areHealthNotificationsAuthorized"
-+ "hk_gregorianCalendar"
-+ "forceBreathingDisturbanceAnalysisWithError:"
-+ "remote disabled"
-+ "currentCalendar"
-+ "setObject:forKeyedSubscript:"
-+ "healthDataSource"
-+ "@\"UNNotificationResponse\""
-+ "getDateIntervalOfLastAnalysis"
-+ "setUserInfo:"
-+ "integerValue"
-+ "seed expired"
-+ "HKSHSleepApneaControl"
-+ "URLWithString:"
-+ "setDate:"
-+ "HKSHBreathingDisturbanceAnalysisSchedulerLastSuccessfulAnalysisAttemptDateKey"
-+ "HKSHSleepApneaControlServer"
-+ "learnMore"
-+ "@24@0:8^@16"
-+ "date"
-+ "dismiss"
-+ "HealthApp.SleepApneaNotifications"
-+ "[%!{(MISSING)public}@] Error fetching age from data source: %!@(MISSING)"
-+ "_response"
-+ "PossibleSleepApnea"
-+ "_notificationType"
-+ "setDay:"
-+ "setSound:"
-+ "TB,R,N"
-+ "biologicalSexWithError:"
-+ "requestWithIdentifier:content:trigger:"
-+ "actionIdentifier"
-+ "initWithCategory:domainName:healthStore:"
-+ "initWithNotificationResponse:"
-+ "isEventSubmissionIHAGated"
-+ "setTitle:"
-+ "[%!{(MISSING)public}@] No analysis has been performed yet; not returning date interval from the most recent analysis."
-+ "B24@0:8^@16"
-+ "setThreadIdentifier:"
-+ "x-apple-health://SleepHealthAppPlugin.healthplugin/%!@(MISSING)/%!@(MISSING)"
-+ "SleepApneaNotificationsActiveRemoteDeviceNoLongerSupported"
-+ "absoluteString"
-+ "POSSIBLE_SLEEP_APNEA_DETECTED_TITLE"
-+ "makeIHAGatedEventPayloadWithDataSource:error:"
-+ "[%!{(MISSING)public}@] Error fetching count of successful analysis attempts: %!@(MISSING)"
-+ "HDSHBreathingDisturbanceAnalysisSchedulerSuccessfulAnalysisAttemptCountKey"
-+ "action"
-+ "possible sleep apnea"
-+ "notification"
-+ "SleepApneaNotificationInteractionAnalyticsNotificationActionLearnMore"
-+ "content"
-+ "SleepApneaNotificationsLocalDeviceNoLongerSupported"
-+ "feature is available again and enabled"
-+ "initWithStartDate:endDate:"
-+ "getSamplesFromLastAnalysisWithError:"
-+ "makeUnrestrictedEventPayloadWithDataSource:error:"
-+ "B32@0:8d16^@24"
-+ "setCategoryIdentifier:"
-+ "getSynchronousProxyWithHandler:errorHandler:"
-+ "true"
-+ "hk_dateByAddingDays:toDate:"
-+ "remote_getBreathingDisturbanceSamplesInDateInterval:completion:"
-+ "numberForKey:error:"
-+ "ageWithCurrentDate:error:"
-+ "com.apple.health.Sleep.BreathingDisturbanceAnalysis"
-+ "feature no longer supported on active remote device"
-+ "v16@?0@\"NSArray\"8"
-+ "localizedUserNotificationStringForKey:arguments:"
-+ "v16@?0@\"<HKSHSleepApneaControlServer>\"8"
-+ "[%!{(MISSING)public}@] Unable to fetch onboarding record with error: %!@(MISSING)"
-+ "HKSHSleepApneaControlClient"
-+ "[%!{(MISSING)public}@] Fetched nil onboarding record; cannot calculate date interval."
-+ "stringWithFormat:"
-+ "setShouldRetryOnInterruption:"
-+ "setTaskConfiguration:"
-+ "@\"NSDictionary\"32@0:8@\"HKAnalyticsDataSource\"16^@24"
-+ "currentDate"
-+ "SleepApneaEventSampleDetail"
-+ "SleepApneaNotificationsRemoteDisabled"
-+ "@32@0:8@16^@24"
-+ "[%!{(MISSING)public}@] Error biological sex from data source: %!@(MISSING)"
-+ "v32@0:8@\"NSDateInterval\"16@?<v@?@\"NSArray\">24"
-+ "SleepApneaNotificationsThreadCategory"
-+ "T@\"NSString\",R,N"
-+ "remote_forceBreathingDisturbanceAnalysis"
-+ "dictionary"
-+ "eventName"
-+ "featureOnboardingRecordWithError:"
-+ "dateByAddingComponents:toDate:options:"
-+ "earliestDateOfAnyOnboardingCompletion"
-+ "SleepApneaNotificationsFeatureIsAvailableAgainAndEnabled"
-+ "remote_overridePreviousTimeIntervalWithTimeInterval:"
-+ "request"
-+ "\x02"
-+ "categoryIdentifier"
 + "HKSHSleepApneaNotificationInteractedAnalyticsEvent"
-+ "openApp"
++ "absoluteString"
++ "\x02"
++ "T@\"NSString\",R,N"
++ "learnMore"
++ "getSynchronousProxyWithHandler:errorHandler:"
++ "setShouldRetryOnInterruption:"
++ "POSSIBLE_SLEEP_APNEA_DETECTED_TITLE"
++ "[%!{(MISSING)public}@] Unable to fetch onboarding record with error: %!@(MISSING)"
++ "hk_gregorianCalendar"
++ "setExpirationDate:"
++ "initWithNotificationResponse:"
++ "remote_forceBreathingDisturbanceAnalysis"
++ "soundWithAlertType:"
++ "setObject:forKeyedSubscript:"
++ "initWithCategory:domainName:healthStore:"
++ "initWithStartDate:endDate:"
++ "HealthApp.SleepApneaNotifications"
++ "featureOnboardingRecordWithError:"
++ "feature is available again and enabled"
++ "@24@0:8^@16"
++ "healthDataSource"
++ "v32@0:8@\"NSDateInterval\"16@?<v@?@\"NSArray\">24"
++ "SleepApneaNotificationsActiveRemoteDeviceNoLongerSupported"
++ "ageWithCurrentDate:error:"
++ "actionIdentifier"
++ "setThreadIdentifier:"
++ "hk_dateByAddingDays:toDate:"
 + "overrideTimeIntervalAndResetActivityWithTimeInterval:error:"
++ "HDSHBreathingDisturbanceAnalysisSchedulerSuccessfulAnalysisAttemptCountKey"
++ "[%!{(MISSING)public}@] No analysis has been performed yet; not returning date interval from the most recent analysis."
++ "dictionary"
++ "dismiss"
++ "forceBreathingDisturbanceAnalysisWithError:"
++ "setCategoryIdentifier:"
++ "_response"
++ "getSamplesFromLastAnalysisWithError:"
++ "numberForKey:error:"
++ "HKSHSleepApneaControl"
++ "remote_overridePreviousTimeIntervalWithTimeInterval:"
++ "setDate:"
++ "com.apple.health.bd.notificationinteractions"
 + "HKAnalyticsEvent"
-+ "_notificationAction"
-+ "initWithFeatureIdentifier:healthStore:"
++ "categoryIdentifier"
++ "areHealthNotificationsAuthorized"
++ "feature no longer supported on local device"
++ "SleepApneaNotificationsFeatureIsAvailableAgainAndEnabled"
 + "SleepApneaNotificationsSeedExpired"
++ "stringWithFormat:"
++ "v16@?0@\"NSArray\"8"
++ "isEventSubmissionIHAGated"
++ "initWithFeatureIdentifier:healthStore:"
++ "SleepApneaNotificationsRemoteDisabled"
++ "SleepApneaNotificationsLocalDeviceNoLongerSupported"
++ "seed expired"
++ "setDay:"
++ "[%!{(MISSING)public}@] Error fetching age from data source: %!@(MISSING)"
++ "date"
++ "earliestDateOfAnyOnboardingCompletion"
++ "feature no longer supported on active remote device"
++ "SleepApneaEventSampleDetail"
++ "openApp"
++ "possible sleep apnea"
++ "content"
++ "requestWithIdentifier:content:trigger:"
++ "HKSHSleepApneaControlServer"
++ "TB,R,N"
++ "URLWithString:"
++ "type"
++ "_notificationType"
++ "@32@0:8@16^@24"
++ "v24@0:8d16"
++ "action"
++ "true"
++ "setSound:"
++ "currentCalendar"
++ "remote_getBreathingDisturbanceSamplesInDateInterval:completion:"
++ "HKSHSleepApneaControlClient"
++ "HKSHBreathingDisturbanceAnalysisSchedulerLastSuccessfulAnalysisAttemptDateKey"
++ "localizedUserNotificationStringForKey:arguments:"
++ "remote disabled"
++ "B32@0:8d16^@24"
++ "_notificationAction"
++ "request"
++ "[%!{(MISSING)public}@] Fetched nil onboarding record; cannot calculate date interval."
++ "setTaskConfiguration:"
++ "@\"UNNotificationResponse\""
++ "[%!{(MISSING)public}@] Error fetching count of successful analysis attempts: %!@(MISSING)"
++ "eventName"
++ "getDateIntervalOfLastAnalysis"
++ "isEqualToString:"
++ "setBody:"
++ "v16@?0@\"<HKSHSleepApneaControlServer>\"8"
++ "x-apple-health://SleepHealthAppPlugin.healthplugin/%!@(MISSING)/%!@(MISSING)"
++ "makeIHAGatedEventPayloadWithDataSource:error:"
++ "biologicalSexWithError:"
++ "com.apple.health.Sleep.BreathingDisturbanceAnalysis"
++ "setUserInfo:"
++ "@\"NSDictionary\"32@0:8@\"HKAnalyticsDataSource\"16^@24"
++ "POSSIBLE_SLEEP_APNEA_DETECTED_BODY"
++ "setTitle:"
++ "currentDate"
++ "notification"
++ "SleepApneaNotificationsThreadCategory"
++ "B24@0:8^@16"
++ "dateByAddingComponents:toDate:options:"
++ "PossibleSleepApnea"
++ "makeUnrestrictedEventPayloadWithDataSource:error:"
++ "environmentDataSource"
++ "SleepApneaNotificationInteractionAnalyticsNotificationActionLearnMore"
++ "integerValue"
++ "[%!{(MISSING)public}@] Error biological sex from data source: %!@(MISSING)"
 
 ```

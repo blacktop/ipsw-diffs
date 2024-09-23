@@ -27,13 +27,13 @@
  
 CStrings:
 + "%!l(MISSING)ld %!d(MISSING) AVE %!s(MISSING): %!s(MISSING):%!d(MISSING) %!s(MISSING) | fail to get VCP %!p(MISSING)"
-+ "%!l(MISSING)ld %!d(MISSING) AVE %!s(MISSING): %!s(MISSING):%!d(MISSING) %!s(MISSING) | fail to get VCP %!p(MISSING)\n"
-+ "pDriverInstance->pcVCP != __null"
 + "23:20:01"
++ "pDriverInstance->pcVCP != __null"
 + "803.31.1"
 + "Sep 18 2024"
-- "Sep 12 2024"
++ "%!l(MISSING)ld %!d(MISSING) AVE %!s(MISSING): %!s(MISSING):%!d(MISSING) %!s(MISSING) | fail to get VCP %!p(MISSING)\n"
 - "803.18.0"
 - "18:28:51"
+- "Sep 12 2024"
 
 ```

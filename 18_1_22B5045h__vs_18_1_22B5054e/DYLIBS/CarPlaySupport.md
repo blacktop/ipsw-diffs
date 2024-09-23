@@ -64,7 +64,7 @@
 +  CStrings:  5373
  
 CStrings:
-- "\x1b"
 - "preferredFontDescriptorWithTextStyle:addingSymbolicTraits:options:"
+- "\x1b"
 
 ```

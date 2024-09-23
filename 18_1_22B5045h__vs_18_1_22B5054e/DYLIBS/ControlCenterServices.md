@@ -58,13 +58,13 @@
 +  CStrings:  742
  
 CStrings:
++ "resetToDefaultLayoutWithCompletionHandler:"
++ "com.apple.ControlCenter.RemoteServiceConnection.resetToDefaultLayout"
++ "ccs_hasEntitlementToResetToDefaultLayout"
 + "Failed to reset Control Center default layout error=%!@(MISSING)"
 + "ModuleAllowedList-Yodel"
-+ "ccs_hasEntitlementToResetToDefaultLayout"
-+ "The application-identifier in your entitlements file is not allow-listed to reset default Control Center layout"
-+ "resetToDefaultLayoutWithCompletionHandler:"
 + "v24@0:8@?<v@?B@\"NSError\">16"
-+ "com.apple.ControlCenter.RemoteServiceConnection.resetToDefaultLayout"
++ "The application-identifier in your entitlements file is not allow-listed to reset default Control Center layout"
 - "ModuleAllowedList"
 
 ```

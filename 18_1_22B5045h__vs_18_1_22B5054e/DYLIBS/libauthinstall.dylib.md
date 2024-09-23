@@ -45,9 +45,9 @@
 Symbols:
 + _kAMAuthInstallTagApTimestamp
 CStrings:
-+ "libauthinstall_device-1033.40.3"
-+ "Ap,Timestamp"
 + "VinylRestore-78~2881"
++ "Ap,Timestamp"
++ "libauthinstall_device-1033.40.3"
 - "VinylRestore-78~2262"
 - "libauthinstall_device-1033.40.2"
 

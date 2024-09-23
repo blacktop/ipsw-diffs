@@ -105,22 +105,22 @@
 +  CStrings:  29831
  
 CStrings:
-+ "-[ICManager handleOpenURL:fromSourceApplication:errorHandler:postNotification:]_block_invoke_4"
-+ "isChineseRegionDevice"
++ "com.apple.ShortcutsActions.ShowControlCenterAction"
 + "coherence_database"
-+ "%!d(MISSING) Screenshots"
-+ "allowLinkContextualActionRunningForBundleIdentifier:"
++ "-[ICManager handleOpenURL:fromSourceApplication:errorHandler:postNotification:]_block_invoke_4"
 + "allowFullRuntimeAccess"
 + "%!s(MISSING) Not opening file-based URL in response to success: %!@(MISSING)"
-+ "coherence_sync"
-+ "com.apple.ShortcutsActions.ShowControlCenterAction"
-+ "allowCustomShortcutRunning"
++ "allowLinkContextualActionRunningForBundleIdentifier:"
++ "%!d(MISSING) Screenshots"
 + "syncCoherenceEnabled"
-- "toprak_coherence"
++ "coherence_sync"
++ "isChineseRegionDevice"
++ "allowCustomShortcutRunning"
 - "allowBackgroundShortcutRunningWithAssociatedBundleIdentifier:"
-- "Screenshots"
-- "isChineseRegionCelluarDevice"
 - "allowBackgroundShortcutRunning"
+- "Screenshots"
 - "unavailableActions"
+- "isChineseRegionCelluarDevice"
+- "toprak_coherence"
 
 ```

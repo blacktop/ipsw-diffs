@@ -50,8 +50,8 @@
 +  CStrings:  307
  
 Symbols:
-+ _OBJC_CLASS_$_NSArray
 + _objc_release_x28
++ _OBJC_CLASS_$_NSArray
 + _objc_release_x27
 - ___NSArray0__struct
 CStrings:

@@ -62,16 +62,16 @@
 +  CStrings:  3308
  
 CStrings:
-+ "Failed to get asid: %!@(MISSING)"
-+ "setAllowMissingData:"
-+ "TB,VallowMissingData"
 + "isFDRPrimaryDataClass:"
-+ "%!@(MISSING) is missing, but allowed"
-+ "AmbientLightSensorFrontLandSerialNumber is missing"
-+ "allowMissingData"
 + "Allow missing data, skip asid verify"
-- "Unable to _addDataClassAndInstanceToMutableDictionary:%!@(MISSING)"
-- "Could not get assembly identifier:%!@(MISSING)"
++ "AmbientLightSensorFrontLandSerialNumber is missing"
++ "setAllowMissingData:"
++ "Failed to get asid: %!@(MISSING)"
++ "allowMissingData"
++ "%!@(MISSING) is missing, but allowed"
++ "TB,VallowMissingData"
 - "Unable to _addDataClassAndInstanceToMutableArray:%!@(MISSING)"
+- "Could not get assembly identifier:%!@(MISSING)"
+- "Unable to _addDataClassAndInstanceToMutableDictionary:%!@(MISSING)"
 
 ```

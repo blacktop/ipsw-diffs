@@ -45,13 +45,13 @@ Symbols:
 - _objc_retain_x26
 CStrings:
 + "Application %!s(MISSING) is not launchable. Not indexing"
++ "%!s(MISSING): app name '%!s(MISSING)' is empty, not adding app mention suffix"
++ "Application %!s(MISSING) is Restricted. Not indexing"
++ "iOS Application %!s(MISSING) has hidden tag. Not indexing"
++ "Added application name: %!s(MISSING) bundleId: %!s(MISSING) to list of installedApps"
 + "Application %!s(MISSING) is a webapp or webclips. Not indexing"
++ "iOS Application %!s(MISSING) is an appClipMetadata. Not indexing"
 + "Application %!s(MISSING) is internal type or is hidden app type. Not indexing"
 + "iOS Application %!s(MISSING) has launch prohibited. Not indexing"
-+ "iOS Application %!s(MISSING) is an appClipMetadata. Not indexing"
-+ "%!s(MISSING): app name '%!s(MISSING)' is empty, not adding app mention suffix"
-+ "iOS Application %!s(MISSING) has hidden tag. Not indexing"
-+ "Application %!s(MISSING) is Restricted. Not indexing"
-+ "Added application name: %!s(MISSING) bundleId: %!s(MISSING) to list of installedApps"
 
 ```

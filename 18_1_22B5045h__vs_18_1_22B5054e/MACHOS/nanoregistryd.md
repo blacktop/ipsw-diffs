@@ -36,12 +36,12 @@
 +  CStrings:  8412
  
 CStrings:
-+ "D6770323-EBBB-4867-A1A7-99F207C64094"
-+ "NanoRegistry-989.1"
-+ "46F59960-D16A-4E76-B7D1-A1B0BBC73923"
 + "DeviceSupportsBreathingDisturbancesMeasurements"
 + "263"
++ "NanoRegistry-989.1"
++ "D6770323-EBBB-4867-A1A7-99F207C64094"
 + "nebula"
++ "46F59960-D16A-4E76-B7D1-A1B0BBC73923"
 - "NanoRegistry-989"
 - "1110"
 

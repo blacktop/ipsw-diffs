@@ -57,9 +57,9 @@ Symbols:
 - _objc_retain_x28
 CStrings:
 + " [disabled]"
-+ "systemOverlay.swipeToPresentEnabled"
 + "setSwipeForOverlaySupported:"
 + "%!{(MISSING)public}@: Received controls: (%!{(MISSING)public}@\n)"
++ "systemOverlay.swipeToPresentEnabled"
 + "\n\t%!@(MISSING) [%!@(MISSING)]%!@(MISSING)"
 - "%!{(MISSING)public}@: Received controls: %!{(MISSING)public}@"
 

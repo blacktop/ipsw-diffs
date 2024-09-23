@@ -79,23 +79,23 @@
 +  CStrings:  158
  
 Symbols:
-+ _AX_PhotosBundleName
-+ __sl_dlopen
 + _free
 + _abort_report_np
-+ _objc_getClass
++ __sl_dlopen
 + _AXLogTemp
++ _AX_PhotosBundleName
 + _objc_retainAutorelease
++ _objc_getClass
 CStrings:
-+ "applicationWithBundleIdentifier:"
 + "APGuard"
-+ "v20@?0B8@\"NSError\"12"
-+ "softlink:r:path:/System/Library/PrivateFrameworks/AppProtection.framework/AppProtection"
-+ "Unable to find class %!s(MISSING)"
-+ "sharedGuard"
-+ "APApplication"
-+ "%!s(MISSING)"
++ "applicationWithBundleIdentifier:"
 + "authenticateForSubject:completion:"
++ "Unable to find class %!s(MISSING)"
++ "v20@?0B8@\"NSError\"12"
++ "APApplication"
 + "Error attempting to authenticate to access shared albums. %!@(MISSING)"
++ "%!s(MISSING)"
++ "sharedGuard"
++ "softlink:r:path:/System/Library/PrivateFrameworks/AppProtection.framework/AppProtection"
 
 ```

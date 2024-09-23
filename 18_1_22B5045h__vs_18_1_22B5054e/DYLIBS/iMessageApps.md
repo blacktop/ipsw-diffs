@@ -57,20 +57,20 @@
 Symbols:
 - _objc_retain_x24
 CStrings:
-+ "T@\"NSString\",R,C,N,V_accessibilityName"
-+ "accessibilityName"
-+ "sanitizedPrompt"
-+ "_accessibilityName"
-+ "_sanitizedPrompt"
-+ "T@\"NSString\",R,C,N,V_searchText"
-+ "@112@0:8@16@24@32@40@48@56@64@72@80@88@96@104"
-+ "initWithStickerIdentifier:fileURL:representations:effectType:externalURI:stickerName:accessibilityLabel:accessibilityName:searchText:sanitizedPrompt:metadata:ckAttributionInfo:"
-+ "T@\"NSString\",R,C,N,V_sanitizedPrompt"
-+ "_searchText"
-+ "searchText"
 + "\f"
-- "@88@0:8@16@24@32@40@48@56@64@72@80"
++ "sanitizedPrompt"
++ "_sanitizedPrompt"
++ "_accessibilityName"
++ "@112@0:8@16@24@32@40@48@56@64@72@80@88@96@104"
++ "T@\"NSString\",R,C,N,V_sanitizedPrompt"
++ "T@\"NSString\",R,C,N,V_accessibilityName"
++ "_searchText"
++ "initWithStickerIdentifier:fileURL:representations:effectType:externalURI:stickerName:accessibilityLabel:accessibilityName:searchText:sanitizedPrompt:metadata:ckAttributionInfo:"
++ "accessibilityName"
++ "searchText"
++ "T@\"NSString\",R,C,N,V_searchText"
 - "initWithStickerIdentifier:fileURL:representations:effectType:externalURI:stickerName:accessibilityLabel:metadata:ckAttributionInfo:"
 - "\t"
+- "@88@0:8@16@24@32@40@48@56@64@72@80"
 
 ```

@@ -55,15 +55,15 @@
 Symbols:
 + _NSURLLinkCountKey
 CStrings:
-+ "2314.8"
-+ "Failed to get link count: %!@(MISSING), %!@(MISSING)"
++ "background"
 + "Failed to get purgeability: %!@(MISSING), %!@(MISSING)"
++ "Failed to get link count: %!@(MISSING), %!@(MISSING)"
 + "Slowed down %!s(MISSING) journal playback for %!@(MISSING) by %!f(MISSING) s"
 + "Failed to get file size: %!@(MISSING), %!@(MISSING)"
 + "v40@?0^{__CFString=}8B16B20q24@?<v@?>32"
-+ "background"
++ "2314.8"
 + "Failed to get resource identifier: %!@(MISSING), %!@(MISSING)"
-- "v36@?0^{__CFString=}8B16q20@?<v@?>28"
 - "2314.6"
+- "v36@?0^{__CFString=}8B16q20@?<v@?>28"
 
 ```

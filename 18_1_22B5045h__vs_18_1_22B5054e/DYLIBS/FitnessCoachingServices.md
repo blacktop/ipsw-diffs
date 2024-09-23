@@ -73,29 +73,29 @@
  
 Symbols:
 - _rewind
-- _fread
-- _ftell
 - _fclose
-- _dlsym
-- _dispatch_once_f
 - _fseek
+- _dispatch_once_f
+- _ftell
+- _dlsym
+- _fread
 - _sscanf
 - __availability_version_check
 - _fopen
 CStrings:
-- "CFStringCreateWithCStringNoCopy"
 - "/System/Library/CoreServices/SystemVersion.plist"
-- "r"
-- "CFDataCreateWithBytesNoCopy"
-- "CFRelease"
-- "CFGetTypeID"
-- "ProductVersion"
-- "CFStringGetCString"
-- "%!d(MISSING).%!d(MISSING).%!d(MISSING)"
-- "kCFAllocatorNull"
+- "CFDictionaryGetValue"
+- "CFStringCreateWithCStringNoCopy"
 - "CFPropertyListCreateWithData"
+- "kCFAllocatorNull"
+- "CFStringGetCString"
+- "CFDataCreateWithBytesNoCopy"
+- "r"
+- "CFRelease"
+- "ProductVersion"
+- "CFGetTypeID"
+- "%!d(MISSING).%!d(MISSING).%!d(MISSING)"
 - "CFPropertyListCreateFromXMLData"
 - "CFStringGetTypeID"
-- "CFDictionaryGetValue"
 
 ```

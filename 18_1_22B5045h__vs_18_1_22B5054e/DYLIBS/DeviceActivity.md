@@ -53,9 +53,9 @@
  
 CStrings:
 + "Start of query: %!{(MISSING)public}s is before thirty days ago: %!{(MISSING)public}s"
++ "Refreshing DeviceActivity starting from: %!{(MISSING)public}s"
 + "Failed to compute thirty days ago"
 + "Start of query: %!{(MISSING)public}s is after the current date: %!{(MISSING)public}s"
-+ "Refreshing DeviceActivity starting from: %!{(MISSING)public}s"
 - "Skipping refresh because the start of the query is: %!{(MISSING)public}s and now is: %!{(MISSING)public}s"
 
 ```

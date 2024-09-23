@@ -36,8 +36,8 @@
  
 CStrings:
 + "/AppleInternal/Library/BuildRoots/a8618716-74b6-11ef-9a3a-56363ce8160b/Applications/Xcode.app/Contents/Developer/Platforms/ExclaveKit.iPhoneOS.platform/Developer/SDKs/ExclaveKit.iPhoneOS18.1.Internal.sdk/System/ExclaveKit/System/Library/PrivateFrameworks/AudioToolboxCore.framework/PrivateHeaders/DSPGraph_Box.h"
-- "SNStagedLanguageAlignedAudioEncoder.mlmodelc"
-- "/AppleInternal/Library/BuildRoots/d6d9d24d-65dc-11ef-b7e2-86b8363ea862/Applications/Xcode.app/Contents/Developer/Platforms/ExclaveKit.iPhoneOS.platform/Developer/SDKs/ExclaveKit.iPhoneOS18.1.Internal.sdk/System/ExclaveKit/System/Library/PrivateFrameworks/AudioToolboxCore.framework/PrivateHeaders/DSPGraph_Box.h"
 - "SNStagedLanguageAlignedAVFuserModel.mlmodelc"
+- "/AppleInternal/Library/BuildRoots/d6d9d24d-65dc-11ef-b7e2-86b8363ea862/Applications/Xcode.app/Contents/Developer/Platforms/ExclaveKit.iPhoneOS.platform/Developer/SDKs/ExclaveKit.iPhoneOS18.1.Internal.sdk/System/ExclaveKit/System/Library/PrivateFrameworks/AudioToolboxCore.framework/PrivateHeaders/DSPGraph_Box.h"
+- "SNStagedLanguageAlignedAudioEncoder.mlmodelc"
 
 ```

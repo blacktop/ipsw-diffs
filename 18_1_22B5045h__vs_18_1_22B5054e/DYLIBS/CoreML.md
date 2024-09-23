@@ -88,10 +88,10 @@
 Symbols:
 + _e5rt_execution_stream_set_quality_of_service
 CStrings:
-+ "Failed to set QoS %!u(MISSING) for ane operations E5RT: %!s(MISSING) (%!d(MISSING))"
 + "3401.5.1"
++ "Failed to set QoS %!u(MISSING) for ane operations E5RT: %!s(MISSING) (%!d(MISSING))"
+- "ExecutionPriorityUtils"
 - "3401.3.1"
 - "reconcileExecutionPriorityWithCurrentQoS:"
-- "ExecutionPriorityUtils"
 
 ```

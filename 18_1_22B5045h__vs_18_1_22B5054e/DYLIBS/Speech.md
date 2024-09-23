@@ -84,37 +84,37 @@
 +  CStrings:  3434
  
 Symbols:
-- _dlsym
-- _sscanf
-- _fclose
 - _ftell
-- _fread
-- _dispatch_once_f
-- _fopen
-- __availability_version_check
 - _fseek
-- _swift_taskGroup_wait_next_throwing
+- _fopen
+- _sscanf
 - _rewind
+- __availability_version_check
+- _dispatch_once_f
+- _swift_taskGroup_wait_next_throwing
+- _dlsym
+- _fread
+- _fclose
 CStrings:
 + "%!\(MISSING)x14"
-- "CFStringCreateWithCStringNoCopy"
-- "r"
-- "CFStringGetCString"
-- "_detectMultipleUtterancesOverride"
-- "CFPropertyListCreateFromXMLData"
-- "CFRelease"
-- "CFPropertyListCreateWithData"
-- "CFDictionaryGetValue"
-- "_requiresOnDeviceRecognition"
-- "\x11%!\(MISSING)x14"
-- "%!d(MISSING).%!d(MISSING).%!d(MISSING)"
-- "CFStringGetTypeID"
-- "TB,N,V_requiresOnDeviceRecognition"
 - "ProductVersion"
-- "CFDataCreateWithBytesNoCopy"
+- "_requiresOnDeviceRecognition"
 - "_setUseOnDeviceRecognition:"
-- "CFGetTypeID"
-- "kCFAllocatorNull"
 - "/System/Library/CoreServices/SystemVersion.plist"
+- "\x11%!\(MISSING)x14"
+- "CFPropertyListCreateFromXMLData"
+- "TB,N,V_requiresOnDeviceRecognition"
+- "CFDataCreateWithBytesNoCopy"
+- "CFStringCreateWithCStringNoCopy"
+- "CFStringGetCString"
+- "r"
+- "_detectMultipleUtterancesOverride"
+- "CFPropertyListCreateWithData"
+- "CFGetTypeID"
+- "CFRelease"
+- "%!d(MISSING).%!d(MISSING).%!d(MISSING)"
+- "CFDictionaryGetValue"
+- "kCFAllocatorNull"
+- "CFStringGetTypeID"
 
 ```

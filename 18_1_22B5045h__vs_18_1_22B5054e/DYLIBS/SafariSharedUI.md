@@ -74,19 +74,19 @@
 +  CStrings:  9439
  
 CStrings:
-+ "v48@0:8@\"<WBSCompletionListItem>\"16B24q28B36@\"NSNumber\"40"
++ "v48@0:8@16B24q28B36@40"
++ "8619.2.5.10.3"
 + "_completionBlock"
-+ "/System/Library/PrivateFrameworks/VFX.framework/VFX"
 + "userDidEngageWithCompletionListItem:onActionButton:method:doesMatchSiriSuggestion:voiceSearchQueryID:"
 + "_invokeCompletionBlock"
++ "v48@0:8@\"<WBSCompletionListItem>\"16B24q28B36@\"NSNumber\"40"
++ "/System/Library/PrivateFrameworks/VFX.framework/VFX"
 + "_startValidation"
-+ "8619.2.5.10.3"
-+ "v48@0:8@16B24q28B36@40"
 - "v40@0:8@\"<WBSCompletionListItem>\"16B24q28B36"
-- "\x15"
 - "v40@0:8@16B24q28B36"
-- "8619.2.3.1"
 - "userDidEngageWithCompletionListItem:onActionButton:method:doesMatchSiriSuggestion:"
+- "\x15"
+- "8619.2.3.1"
 - "_validateElementsWithCompletionHandler:"
 
 ```

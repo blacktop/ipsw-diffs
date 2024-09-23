@@ -61,13 +61,13 @@
 +  CStrings:  1960
  
 CStrings:
++ "setPriority:"
 + "T@\"UIView\",R,N,V_buttonImageView"
 + "emptyConfiguration"
-+ "setPriority:"
-- "_configureButtonContainerView"
-- "T@\"UIImageView\",R,N,V_buttonImageView"
-- "emptyProminentConfiguration"
-- "allowsSearchSuggestions"
 - "@\"UIImageView\""
+- "T@\"UIImageView\",R,N,V_buttonImageView"
+- "allowsSearchSuggestions"
+- "_configureButtonContainerView"
+- "emptyProminentConfiguration"
 
 ```

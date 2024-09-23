@@ -48,12 +48,12 @@
  
 Symbols:
 + _OBJC_CLASS_$_NSArray
-+ ___stack_chk_fail
 + ___stack_chk_guard
++ ___stack_chk_fail
 - ___NSArray0__struct
 CStrings:
-+ "Phone"
 + "arrayWithObjects:count:"
++ "Phone"
 + "Apps"
 
 ```

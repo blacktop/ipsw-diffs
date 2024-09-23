@@ -70,22 +70,22 @@
 +  CStrings:  3406
  
 Symbols:
-+ _kSCPropNetDNSDomainName
-+ _kCFBooleanTrue
-+ _kSCDynamicStoreUseSessionKeys
-+ _SCDynamicStoreCreateWithOptions
 + _kSCPropNetDNSServerPort
++ _kCFBooleanTrue
++ _SCDynamicStoreCreateWithOptions
++ _kSCDynamicStoreUseSessionKeys
++ _kSCPropNetDNSDomainName
 CStrings:
-+ "_placeholderServiceID"
 + "127.0.0.1"
 + "%!@(MISSING) failed to open dynamic store session"
 + "placeholder-%!u(MISSING).hostname.internal"
 + "%!@(MISSING) failed to create UUID"
-+ "%!@(MISSING) failed to add placeholder DNS entry for service %!@(MISSING) to the dynamic store"
-+ "NEPlaceholderDNSService"
-+ "%!@(MISSING) adding placeholder DNS entry for service %!@(MISSING) to the dynamic store"
-+ "%!@(MISSING) installing placeholder DNS entry to the dynamic store"
-+ "%!@(MISSING) successfully added placeholder DNS entry with key uuid: %!@(MISSING)"
++ "_placeholderServiceID"
 + "_placeholderServiceStore"
++ "NEPlaceholderDNSService"
++ "%!@(MISSING) successfully added placeholder DNS entry with key uuid: %!@(MISSING)"
++ "%!@(MISSING) failed to add placeholder DNS entry for service %!@(MISSING) to the dynamic store"
++ "%!@(MISSING) installing placeholder DNS entry to the dynamic store"
++ "%!@(MISSING) adding placeholder DNS entry for service %!@(MISSING) to the dynamic store"
 
 ```

@@ -53,8 +53,8 @@ Symbols:
 + _MapsConfig_TipKitShowAllForTesting
 + _MapsConfig_TipKitHideAllForTesting
 CStrings:
-+ "TipKitHideAllForTesting"
 + "TipKitShowAllForTesting"
 + "TipKitResetDatastore"
++ "TipKitHideAllForTesting"
 
 ```

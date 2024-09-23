@@ -76,10 +76,10 @@
  
 CStrings:
 + "No extended attribute not set with key %!s(MISSING)"
-+ "FeedbackService/FBKSExtendedAttributes.swift"
 + "FeedbackService/AnnotatedContent.swift"
-+ "annotateURL(inURL:displayName:description:group:iconType:additionalInfo:)"
++ "FeedbackService/FBKSExtendedAttributes.swift"
 + "Workaround to build error not supposed to be used"
++ "annotateURL(inURL:displayName:description:group:iconType:additionalInfo:)"
 - "Extended attribute not found: "
 
 ```

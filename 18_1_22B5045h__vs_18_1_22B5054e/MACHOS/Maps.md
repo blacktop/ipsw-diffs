@@ -99,48 +99,48 @@
 +  CStrings:  91993
  
 Symbols:
-+ _MSPSharedTripServiceSMS
-+ _MSPSharedTripServiceNameForRawServiceName
-+ _$s6TipKit4TipsO07showAllC10ForTestingyyFZ
-+ _$s6TipKit4TipsO14resetDatastoreyyKFZ
-+ _$s6TipKit4TipsO07hideAllC10ForTestingyyFZ
-+ _MSPSharedTripServiceRCS
 + _dispatch_group_async
++ _$s6TipKit4TipsO07showAllC10ForTestingyyFZ
++ _MSPSharedTripServiceNameForRawServiceName
++ _MSPSharedTripServiceRCS
++ _$s6TipKit4TipsO14resetDatastoreyyKFZ
++ _MSPSharedTripServiceSMS
++ _$s6TipKit4TipsO07hideAllC10ForTestingyyFZ
 CStrings:
-+ "Hide All Tips For Testing"
-+ "updateWithPersistentData:"
-+ "TipKit testing settings changes require relaunching Maps to take effect."
-+ "showAllTipsForTesting"
-+ "com.apple.Maps.MapsLegacyDataMigrator"
-+ "endDeferringPresentingMapPopovers:"
-+ "TipKitShowAllForTesting"
-+ "Ignoring POI selection: %!@(MISSING)"
-+ ".\x12\x13"
-+ "_migrationQueue"
-+ "REMOVE_OFFLINE_MAP_FROM_PAIRED_DEVICE_CONFIRMATION_ACTION_CANCEL"
-+ "Configuring Tips"
-+ "@\"MapsLegacyDataMigrator\""
-+ "Show All Tips For Testing"
-+ "Showing All Tips For Testing"
-+ "[Share ETA] RCS"
-+ "[Share ETA] SMS"
-+ "_TtC4Maps16TipKitController"
-+ "TipKitHideAllForTesting"
-+ "legacyDataMigrator"
 + "Tips reset datastore failed: %!@(MISSING)"
-+ "TipKitResetDatastore"
-+ "addTipKitSettingsTo:"
 + "REMOVE_OFFLINE_MAP_FROM_PAIRED_DEVICE_CONFIRMATION_MESSAGE"
++ "Configuring Tips"
 + "REMOVE_OFFLINE_MAP_FROM_PAIRED_DEVICE_CONFIRMATION_TITLE"
-+ "_legacyDataMigrator"
-+ "setPreviouslySelectedLabelMarker:"
-+ "resetDatastore"
-+ "injectPreviouslySelectedSearchResult:"
-+ "TipKit"
-+ "Hiding All Tips For Testing"
-+ "Reset All Tips For Testing"
-+ "REMOVE_OFFLINE_MAP_FROM_PAIRED_DEVICE_CONFIRMATION_ACTION_REMOVE"
 + "hideAllTipsForTesting"
++ "com.apple.Maps.MapsLegacyDataMigrator"
++ "TipKit"
++ "Showing All Tips For Testing"
++ "REMOVE_OFFLINE_MAP_FROM_PAIRED_DEVICE_CONFIRMATION_ACTION_REMOVE"
++ "_TtC4Maps16TipKitController"
++ "updateWithPersistentData:"
++ "setPreviouslySelectedLabelMarker:"
++ "showAllTipsForTesting"
++ "_legacyDataMigrator"
++ "resetDatastore"
++ "Ignoring POI selection: %!@(MISSING)"
++ "Reset All Tips For Testing"
++ "Hide All Tips For Testing"
++ ".\x12\x13"
++ "Show All Tips For Testing"
++ "[Share ETA] SMS"
++ "@\"MapsLegacyDataMigrator\""
++ "legacyDataMigrator"
++ "addTipKitSettingsTo:"
++ "TipKitHideAllForTesting"
++ "injectPreviouslySelectedSearchResult:"
++ "TipKitShowAllForTesting"
++ "Hiding All Tips For Testing"
++ "[Share ETA] RCS"
++ "TipKit testing settings changes require relaunching Maps to take effect."
++ "TipKitResetDatastore"
++ "endDeferringPresentingMapPopovers:"
++ "REMOVE_OFFLINE_MAP_FROM_PAIRED_DEVICE_CONFIRMATION_ACTION_CANCEL"
++ "_migrationQueue"
 - "-\x12\x13"
 
 ```

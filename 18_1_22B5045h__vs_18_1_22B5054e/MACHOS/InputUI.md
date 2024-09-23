@@ -29,7 +29,7 @@
 +  CStrings:  1346
  
 CStrings:
-- "hidePasswordKey"
 - "setHidePasswordKey:"
+- "hidePasswordKey"
 
 ```

@@ -68,7 +68,7 @@
 +  CStrings:  602
  
 CStrings:
-+ "set_disableAPWakeOnIdleConnections:"
 + "sbaPlugin"
++ "set_disableAPWakeOnIdleConnections:"
 
 ```

@@ -54,14 +54,14 @@
  
 CStrings:
 + "MFGeneratedSummaryCollectionItemID"
-+ "collectionViewDataSource.snapshot.itemIdentifiers"
-+ "indexOfObject:"
 + "safeIntForKey:"
-+ "countOfMessages"
-+ "itemIdentifiers"
 + "NSDiffableDataSourceSnapshot"
-+ "itemID"
 + "UICollectionViewDiffableDataSource"
++ "itemIdentifiers"
++ "countOfMessages"
++ "indexOfObject:"
++ "collectionViewDataSource.snapshot.itemIdentifiers"
++ "itemID"
 + "snapshot"
 
 ```

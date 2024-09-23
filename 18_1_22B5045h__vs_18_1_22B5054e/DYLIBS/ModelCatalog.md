@@ -91,21 +91,21 @@
 +  CStrings:  1207
  
 Symbols:
-+ _OBJC_METACLASS_$__TtC12ModelCatalog28SiriResourceAvailabilityInfo
 + _OBJC_CLASS_$__TtC12ModelCatalog28SiriResourceAvailabilityInfo
++ _OBJC_METACLASS_$__TtC12ModelCatalog28SiriResourceAvailabilityInfo
 CStrings:
-+ "diskSpaceRequired"
-+ "calling siriResourceAvailability()"
 + "diskSpaceRequiredKey"
-+ "ModelCatalog.SiriResourceAvailabilityInfo"
-+ "encodeInt64:forKey:"
-+ "{ enoughStorage: "
-+ ", diskSpaceRequired: "
-+ "v24@?0@\"_TtC12ModelCatalog28SiriResourceAvailabilityInfo\"8@\"NSError\"16"
-+ "enoughStorage"
-+ "decodeInt64ForKey:"
-+ "siriResourceAvailabilityWith:"
++ "calling siriResourceAvailability()"
 + "_TtC12ModelCatalog28SiriResourceAvailabilityInfo"
++ "ModelCatalog.SiriResourceAvailabilityInfo"
++ "siriResourceAvailabilityWith:"
++ "v24@?0@\"_TtC12ModelCatalog28SiriResourceAvailabilityInfo\"8@\"NSError\"16"
 + "v24@0:8@?<v@?@\"_TtC12ModelCatalog28SiriResourceAvailabilityInfo\"@\"NSError\">16"
++ ", diskSpaceRequired: "
++ "diskSpaceRequired"
++ "encodeInt64:forKey:"
++ "decodeInt64ForKey:"
++ "enoughStorage"
++ "{ enoughStorage: "
 
 ```

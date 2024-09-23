@@ -67,8 +67,8 @@
  
 Symbols:
 + _malloc
-+ _free
 + _swift_getErrorValue
++ _free
 CStrings:
 + "Unable to report event: %!s(MISSING)"
 - "Unable to report event"

@@ -69,17 +69,17 @@
 +  CStrings:  5709
  
 CStrings:
-+ "_mirrorsEmbeddedDisplay"
-+ "void *PosterBoardUIServicesLibrary(void)"
-+ "Sep 17 2024 15:36:57"
-+ "/System/Library/Frameworks/PosterBoardUIServices.framework/PosterBoardUIServices"
-+ "/System/Library/PrivateFrameworks/PosterBoardUIServices.framework/PosterBoardUIServices"
-+ "mirrorsEmbeddedDisplay"
-+ "TB,R,N,V_mirrorsEmbeddedDisplay"
-+ "/AppleInternal/Library/Frameworks/PosterBoardUIServices.framework/PosterBoardUIServices"
-+ "pruis_determineProminentColorWithCompletion:"
 + "initWithIdentifier:mirrorsEmbeddedDisplay:"
-- "pui_determineProminentColorWithCompletion:"
++ "mirrorsEmbeddedDisplay"
++ "Sep 17 2024 15:36:57"
++ "void *PosterBoardUIServicesLibrary(void)"
++ "_mirrorsEmbeddedDisplay"
++ "/System/Library/Frameworks/PosterBoardUIServices.framework/PosterBoardUIServices"
++ "TB,R,N,V_mirrorsEmbeddedDisplay"
++ "/System/Library/PrivateFrameworks/PosterBoardUIServices.framework/PosterBoardUIServices"
++ "pruis_determineProminentColorWithCompletion:"
++ "/AppleInternal/Library/Frameworks/PosterBoardUIServices.framework/PosterBoardUIServices"
 - "Sep  2 2024 22:38:59"
+- "pui_determineProminentColorWithCompletion:"
 
 ```

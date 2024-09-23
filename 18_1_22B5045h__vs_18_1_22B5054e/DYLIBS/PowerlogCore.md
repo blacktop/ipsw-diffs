@@ -53,11 +53,11 @@
 +  CStrings:  15902
  
 CStrings:
-+ "TouchTimeInterval"
-+ ".PLSQL.pllupgrade.anon"
 + "HalfPress"
-+ "OCVDrift"
-+ "Touch"
 + "FullPress"
++ "OCVDrift"
++ ".PLSQL.pllupgrade.anon"
++ "Touch"
++ "TouchTimeInterval"
 
 ```

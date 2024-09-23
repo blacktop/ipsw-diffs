@@ -42,9 +42,9 @@
 +  CStrings:  1760
  
 CStrings:
-+ "userInterfaceStyle"
-+ "initWithTargetSize:layoutDirection:userInterfaceStyle:"
 + "traitCollection"
++ "initWithTargetSize:layoutDirection:userInterfaceStyle:"
++ "userInterfaceStyle"
 - "initWithTargetSize:layoutDirection:"
 
 ```

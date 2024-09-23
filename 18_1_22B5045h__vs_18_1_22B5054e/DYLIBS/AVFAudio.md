@@ -59,19 +59,19 @@
 +  CStrings:  5816
  
 Symbols:
-+ _AVAudioSessionCategoryHearingTest
 + _objc_exception_throw
++ _AVAudioSessionCategoryHearingTest
 CStrings:
-+ "Failed to create tap due to format mismatch, %!@(MISSING)"
-+ "%!s(MISSING):%!d(MISSING) Error: input hw format invalid"
-+ "Input HW format and tap format not matching"
 + "exceptionWithName:reason:userInfo:"
-+ "%!s(MISSING):%!d(MISSING) Failed to create tap, config change pending!"
-+ "Input HW format is invalid"
 + "OSStatus"
-+ "%!s(MISSING):%!d(MISSING) Format mismatch: input hw %!@(MISSING), client format %!@(MISSING)"
++ "Input HW format is invalid"
 + "Failed to set output format on node to tap"
-- "format.sampleRate == hwFormat.sampleRate"
++ "%!s(MISSING):%!d(MISSING) Failed to create tap, config change pending!"
++ "Failed to create tap due to format mismatch, %!@(MISSING)"
++ "Input HW format and tap format not matching"
++ "%!s(MISSING):%!d(MISSING) Format mismatch: input hw %!@(MISSING), client format %!@(MISSING)"
++ "%!s(MISSING):%!d(MISSING) Error: input hw format invalid"
 - "IsFormatSampleRateAndChannelCountValid(hwFormat)"
+- "format.sampleRate == hwFormat.sampleRate"
 
 ```

@@ -42,13 +42,13 @@
    CStrings:  369
  
 Symbols:
-+ _OBJC_CLASS_$_AudioAnalyticsTrace
 + _OBJC_CLASS_$_AudioAnalyticsTraceArgs
-+ _$s22AudioAnalyticsExternal22InferenceSummaryWorkerCMa
-+ _$s22AudioAnalyticsExternal22InferenceSummaryWorkerC0aB4Base0F8ProtocolAAMc
 + _OBJC_CLASS_$_AudioAnalyticsPredicateHelper
-- _OBJC_CLASS_$_TraceArgs
++ _OBJC_CLASS_$_AudioAnalyticsTrace
++ _$s22AudioAnalyticsExternal22InferenceSummaryWorkerC0aB4Base0F8ProtocolAAMc
++ _$s22AudioAnalyticsExternal22InferenceSummaryWorkerCMa
 - _OBJC_CLASS_$_PredicateHelper
+- _OBJC_CLASS_$_TraceArgs
 - _OBJC_CLASS_$_Trace
 
 ```

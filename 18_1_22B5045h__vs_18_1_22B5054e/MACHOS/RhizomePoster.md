@@ -42,8 +42,8 @@
    CStrings:  449
  
 Symbols:
-+ __swift_FORCE_LOAD_$_swiftAppleArchive
 + __swift_FORCE_LOAD_$_swiftCoreMIDI
++ __swift_FORCE_LOAD_$_swiftAppleArchive
 + __swift_FORCE_LOAD_$_swiftCompression
 
 ```

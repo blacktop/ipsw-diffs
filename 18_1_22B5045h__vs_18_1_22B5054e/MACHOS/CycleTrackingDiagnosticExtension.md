@@ -56,21 +56,21 @@
 +  CStrings:  48
  
 Symbols:
-+ _OBJC_CLASS_$_NSDate
-+ _OBJC_CLASS_$_NSUserDefaults
 + _objc_opt_isKindOfClass
 + _objc_opt_class
++ _OBJC_CLASS_$_NSDate
++ _OBJC_CLASS_$_NSUserDefaults
 CStrings:
-+ "timeIntervalSinceDate:"
-+ "not setting %!{(MISSING)public}@ because the current value is %!{(MISSING)public}@"
-+ "setting %!{(MISSING)public}@ to %!{(MISSING)public}@"
-+ "v16@0:8"
-+ "HKShowSensitiveLogsUntilDate"
-+ "initWithSuiteName:"
-+ "setObject:forKey:"
-+ "objectForKey:"
 + "com.apple.HealthKit.SensitiveLogsTemporaryEnablement"
 + "enabledHealthSensitiveLogging"
++ "setting %!{(MISSING)public}@ to %!{(MISSING)public}@"
++ "timeIntervalSinceDate:"
++ "setObject:forKey:"
 + "dateWithTimeIntervalSinceNow:"
++ "initWithSuiteName:"
++ "HKShowSensitiveLogsUntilDate"
++ "not setting %!{(MISSING)public}@ because the current value is %!{(MISSING)public}@"
++ "objectForKey:"
++ "v16@0:8"
 
 ```

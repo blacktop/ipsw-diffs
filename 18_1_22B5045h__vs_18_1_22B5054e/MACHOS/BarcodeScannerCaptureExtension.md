@@ -46,10 +46,10 @@
 +  CStrings:  7
  
 Symbols:
-+ _OBJC_CLASS_$_NSNotificationCenter
-+ _objc_retainAutoreleasedReturnValue
 + _BCSDidLaunchFromControlNotification
 + _objc_opt_self
++ _objc_retainAutoreleasedReturnValue
++ _OBJC_CLASS_$_NSNotificationCenter
 CStrings:
 + "defaultCenter"
 + "postNotificationName:object:"

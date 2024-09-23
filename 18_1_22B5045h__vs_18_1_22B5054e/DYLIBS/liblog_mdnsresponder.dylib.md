@@ -37,10 +37,10 @@
 +  CStrings:  365
  
 CStrings:
-+ "NAME CONFLICT"
-+ "REGISTERED"
-+ "<Unknown register record result: %!d(MISSING)>"
 + "DEREGISTERED"
++ "REGISTERED"
 + "reg_result"
++ "<Unknown register record result: %!d(MISSING)>"
++ "NAME CONFLICT"
 
 ```

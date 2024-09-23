@@ -103,201 +103,201 @@
 +  CStrings:  1611
  
 Symbols:
-+ __Block_release
-+ __swift_FORCE_LOAD_$_swiftunistd
-+ _swift_deletedMethodError
-+ _NSStringFromAFUISiriSAEEffectsViewControllerState
-+ _swift_getSingletonMetadata
-+ __swift_stdlib_bridgeErrorToNSError
-+ _swift_deallocObject
-+ _swift_willThrowTypedImpl
-+ __swift_FORCE_LOAD_$_swift_Builtin_float
-+ _OBJC_METACLASS_$__TtC16SiriUIActivation37SiriQuickTypeGestureActivationManager
-+ __swift_FORCE_LOAD_$_swift_signal
-+ _swift_beginAccess
-+ _swift_getTypeByMangledNameInContextInMetadataState2
-+ __swift_FORCE_LOAD_$_swiftDarwin
-+ _swift_endAccess
-+ __swift_FORCE_LOAD_$_swiftXPC
-+ ___chkstk_darwin
-+ _swift_slowDealloc
-+ _swift_getWitnessTable
-+ _swift_allocObject
-+ _swift_retain
-+ _memmove
-+ _swift_once
-+ __swift_FORCE_LOAD_$_swiftFoundation
-+ __swift_FORCE_LOAD_$_swift_time
-+ _swift_slowAlloc
-+ __swift_FORCE_LOAD_$_swiftCoreFoundation
 + __swiftEmptyArrayStorage
-+ _swift_updateClassMetadata2
-+ _swift_isUniquelyReferenced_nonNull_native
-+ _swift_willThrow
-+ _swift_errorRetain
-+ _swift_weakDestroy
-+ _OBJC_CLASS_$_SwiftNativeNSObject
-+ __swift_FORCE_LOAD_$_swift_math
-+ _malloc_size
-+ _swift_getTypeByMangledNameInContext2
-+ _swift_task_alloc
-+ _swift_bridgeObjectRelease
-+ _swift_bridgeObjectRetain
-+ _swift_getObjectType
 + __swift_FORCE_LOAD_$_swiftObjectiveC
-+ _swift_task_create
-+ _swift_task_dealloc
-+ _swift_task_switch
-+ __swift_FORCE_LOAD_$_swiftos
-+ __swift_FORCE_LOAD_$_swiftsys_time
-+ _swift_arrayDestroy
-+ _swift_weakLoadStrong
-+ __Block_copy
-+ _swift_defaultActor_deallocate
-+ _swift_release
++ _OBJC_CLASS_$__TtC16SiriUIActivation37SiriQuickTypeGestureActivationManager
++ __swift_FORCE_LOAD_$_swiftFoundation
++ __swift_FORCE_LOAD_$_swift_stdio
 + _swift_unknownObjectRetain
-+ _OBJC_METACLASS_$_SwiftNativeNSObject
-+ _swift_defaultActor_destroy
++ __swift_stdlib_bridgeErrorToNSError
 + _swift_weakInit
++ _OBJC_CLASS_$_SwiftNativeNSObject
++ _swift_defaultActor_initialize
++ _swift_getTypeByMangledNameInContext2
++ __Block_release
++ _swift_endAccess
++ _memcpy
++ _swift_deallocObject
++ _objc_retain_x9
++ __swift_FORCE_LOAD_$_swift_signal
++ _swift_weakDestroy
++ _swift_allocError
++ _swift_allocObject
++ __swift_FORCE_LOAD_$_swiftsys_time
++ __swift_FORCE_LOAD_$_swift_errno
++ _swift_retain
++ _swift_getWitnessTable
++ _swift_errorRelease
++ __swift_FORCE_LOAD_$_swiftunistd
++ _swift_bridgeObjectRelease
++ _OBJC_METACLASS_$_SwiftNativeNSObject
++ _OBJC_METACLASS_$__TtC16SiriUIActivation37SiriQuickTypeGestureActivationManager
++ _swift_willThrow
 + _objc_allocWithZone
 + __swift_FORCE_LOAD_$_swiftDispatch
-+ _swift_allocError
-+ _swift_errorRelease
-+ __swift_FORCE_LOAD_$_swift_stdio
-+ __swift_FORCE_LOAD_$_swift_errno
-+ _OBJC_CLASS_$__TtC16SiriUIActivation37SiriQuickTypeGestureActivationManager
-+ _memcpy
++ _swift_slowAlloc
++ _swift_task_dealloc
++ _swift_isUniquelyReferenced_nonNull_native
++ _swift_getTypeByMangledNameInContextInMetadataState2
++ __swift_FORCE_LOAD_$_swift_math
++ __Block_copy
++ __swift_FORCE_LOAD_$_swiftCoreFoundation
++ _swift_task_alloc
++ _swift_task_create
++ _swift_once
++ _swift_task_switch
++ __swift_FORCE_LOAD_$_swift_Builtin_float
++ _memmove
++ __swift_FORCE_LOAD_$_swiftos
++ _swift_updateClassMetadata2
++ _swift_release
++ ___chkstk_darwin
++ _malloc_size
++ _swift_defaultActor_deallocate
++ _swift_arrayDestroy
++ _swift_bridgeObjectRetain
++ _swift_slowDealloc
++ __swift_FORCE_LOAD_$_swiftXPC
++ _NSStringFromAFUISiriSAEEffectsViewControllerState
++ _swift_defaultActor_destroy
++ _swift_deletedMethodError
++ __swift_FORCE_LOAD_$_swift_time
++ _swift_willThrowTypedImpl
++ __swift_FORCE_LOAD_$_swiftDarwin
++ _swift_beginAccess
++ _swift_errorRetain
++ _swift_getSingletonMetadata
 + _swift_unknownObjectRelease
-+ _objc_retain_x9
-+ _swift_defaultActor_initialize
++ _swift_getObjectType
++ _swift_weakLoadStrong
 CStrings:
-+ "#activation #quickTypeGate %!s(MISSING): face detection already in flight - skipping prewarm"
-+ "#activation #quickTypeGate %!s(MISSING): Forcing canActivate = YES despite error: %!@(MISSING)"
-+ "initWithDelegate:instrumentationHandler:"
-+ "#activation #quickTypeGate %!s(MISSING): no face detection in-flight - skipping cancel"
-+ "com.apple.siri.SiriQuickTypeGestureActivationManager.faceDetection"
-+ "AFUISiriSAEEffectsViewControllerDelegate"
-+ "Swift/UnsafeRawPointer.swift"
-+ "#activation #quickTypeGate %!s(MISSING): found nil while unwrapping SiriQuickTypeGestureActivationManager"
-+ "%!s(MISSING) #activation #quickTypeGate cancelPrewarmForFirstTapOfQuickTypeToSiriGesture began"
-+ "%!s(MISSING) #activation #quickTypeGate presentation requested for quick type gesture while NOT on lock screen -> skipping face detection and proceeding straight to activation"
-+ "%!s(MISSING) #activation #quickTypeGate canActivate (face detection) completed in %!f(MISSING)ms with result %!@(MISSING)"
-+ "UnsafeMutableBufferPointer with negative count"
-+ "Insufficient space allocated to copy string contents"
-+ "cancelPrewarmForFirstTapOfQuickTypeToSiriGestureWithCompletionHandler:"
-+ "#activation #quickTypeGate %!s(MISSING): Latest face detection observation is old (%!s(MISSING)ms) -> starting new detection"
-+ "%!s(MISSING) #activation #quickTypeGate prewarmForFirstTapOfQuickTypeToSiriGesture began"
-+ "%!s(MISSING) #activation Activation service requests preheat with options %!@(MISSING)"
-+ "%!s(MISSING) SiriPresentationViewController setting siriEffectsVC to nil after dismissal of effects window"
-+ "canActivateWithCompletionHandler:"
-+ "-[SiriPresentationSpringBoardMainScreenViewController preheatWithOptions:]_block_invoke"
-+ "_TtC16SiriUIActivation37SiriQuickTypeGestureActivationManager"
++ "#activation #quickTypeGate %!s(MISSING): polling succeeded in %!s(MISSING)ms"
++ "%!s(MISSING) #activation presenting effects for soft keyboard button or transition to voice"
++ "%!s(MISSING) #activation #quickTypeGate presentation requested for quick type gesture while on lock screen -> gating on presence of face"
++ "latestFaceDetectionResultFuture"
 + "Swift/StringUTF8View.swift"
-+ "#activation #quickTypeGate %!s(MISSING): polling failed with error: %!@(MISSING)"
++ "#activation #quickTypeGate %!s(MISSING): %!s(MISSING)face detected -> can activate = %!s(MISSING)"
++ "%!s(MISSING) SiriPresentationViewController #activation effects not presented for button invocation; requesting presentation, then animating (effects state: %!{(MISSING)public}@)"
++ "-[SiriPresentationSpringBoardMainScreenViewController presentationRequestedWithPresentationOptions:requestOptions:]_block_invoke"
++ "%!s(MISSING) SiriPresentationViewController #activation effects already presented for button invocation; starting effects animations"
++ "%!s(MISSING) SiriPresentationViewController requesting .Activating hint glow effect"
++ "_presentAndBeginAnimatingEffectsForInvocationType:"
++ "Insufficient space allocated to copy string contents"
++ "Swift/UnsafeBufferPointer.swift"
++ "(isFaceDetected: "
++ "%!s(MISSING) SiriPresentationViewController can show hint glow"
++ "#activation #quickTypeGate %!s(MISSING): Forcing canActivate = YES despite error: %!@(MISSING)"
++ "-[SiriPresentationSpringBoardMainScreenViewController preheatWithOptions:]_block_invoke"
++ "%!s(MISSING) SiriPresentationViewController don't need to request dismiss of effects VC and set siriEffectsVC to nil"
++ "_TtC16SiriUIActivation37SiriQuickTypeGestureActivationManager"
++ "%!s(MISSING) #activation #quickTypeGate presentation requested for quick type gesture while NOT on lock screen -> skipping face detection and proceeding straight to activation"
++ "-[SiriPresentationSpringBoardMainScreenViewController cancelPreheat]_block_invoke"
++ "Fatal error"
++ "%!s(MISSING) #activation #quickTypeGate cancelPrewarmForFirstTapOfQuickTypeToSiriGesture completed"
 + "siriSAEEffectsViewController:requestsPresentationWithHandler:"
 + "%!s(MISSING) #activation #quickTypeGate SiriQuickTypeGestureActivationManager determined Siri should not activate -> rejecting presentation"
-+ "%!s(MISSING) #activation #quickTypeGate cancelPrewarmForFirstTapOfQuickTypeToSiriGesture completed"
-+ "-[SiriPresentationViewController preheatWithOptions:]"
-+ "attentionAwarenessClient"
-+ "previousFaceDetectionResult"
-+ "#activation #quickTypeGate %!s(MISSING): using previous observation (age: %!s(MISSING)ms)"
-+ ".siriQuickTypeGestureActivationManagerIsNil"
-+ "#activation #quickTypeGate %!s(MISSING): polling succeeded with result: %!s(MISSING)"
-+ "%!s(MISSING) SiriPresentationViewController called _tearDownSiriEffectsViewController"
-+ "-[SiriPresentationSpringBoardMainScreenViewController presentationRequestedWithPresentationOptions:requestOptions:]_block_invoke"
-+ "-[SiriPresentationSpringBoardMainScreenViewController cancelPreheat]_block_invoke"
-+ "%!s(MISSING) SiriPresentationViewController #activation effects already presented for button invocation; starting effects animations"
-+ "invalid Collection: less than 'count' elements in collection"
-+ "_quickTypeGestureActivationManager"
-+ "-[SiriPresentationViewController activateHintGlow]_block_invoke_2"
-+ "@\"_TtC16SiriUIActivation37SiriQuickTypeGestureActivationManager\""
-+ "$defaultActor"
-+ "preheatWithOptions:"
-+ "_presentAndBeginAnimatingEffectsForInvocationType:"
-+ "suspendWithError:"
-+ "#activation #quickTypeGate %!s(MISSING): starting to poll"
-+ "\x11\x13\x12\x12\x12E\x11\x12\x14\x16\x16\x11"
-+ "%!s(MISSING) #activation presenting effects for soft keyboard button or transition to voice"
-+ "UnsafeMutableRawPointer.initializeMemory overlapping range"
-+ "latestFaceDetectionResult"
-+ "-[SiriPresentationSpringBoardMainScreenViewController preheatWithOptions:]"
-+ "latestFaceDetectionResultFuture"
-+ "%!s(MISSING) SiriPresentationViewController #activation requesting effects presentation and animating for voice invocation (effects state: %!{(MISSING)public}@)"
-+ "v24@0:8@?<v@?>16"
-+ "setConfiguration:"
-+ "#activation #quickTypeGate %!s(MISSING): Noticed call to canActivate() without a previous call to prewarmForFirstTapOfQuickTypeToSiriGesture(). It's recommended to call prewarm prior to canActivate to speed up canActivate."
-+ "%!s(MISSING) SiriPresentationViewController Failed to dismiss Siri effects VC with error: %!@(MISSING)"
-+ "v24@0:8@?<v@?B>16"
-+ "UnsafeMutablePointer.initialize overlapping range"
-+ "beginHintingForInvocationType:"
-+ "Swift/StringTesting.swift"
-+ "cancelPollForAttentionWithError:"
-+ "pollForAttentionWithTimeout:event:error:"
-+ "%!s(MISSING) SiriPresentationViewController don't need to request dismiss of effects VC and set siriEffectsVC to nil"
-+ "prewarmForFirstTapOfQuickTypeToSiriGestureWithCompletionHandler:"
-+ "%!s(MISSING) SiriPresentationViewController requesting .Activating hint glow effect"
-+ "-[SiriPresentationSpringBoardMainScreenViewController presentationRequestedWithPresentationOptions:requestOptions:]"
 + "Swift/UnsafePointer.swift"
-+ "#activation #quickTypeGate %!s(MISSING): polling succeeded in %!s(MISSING)ms"
-+ "%!s(MISSING) SiriPresentationViewController #activation effects not presented for button invocation; requesting presentation, then animating (effects state: %!{(MISSING)public}@)"
-+ ".pollingFailedWithError("
-+ "v32@0:8@\"AFUISiriSAEEffectsViewController\"16@?<v@?B@\"NSError\">24"
-+ "%!s(MISSING) #activation #quickTypeGate skipping preheating for quick type-to-Siri gesture since not on lock screen"
-+ "#activation #quickTypeGate %!s(MISSING): %!s(MISSING)face detected -> can activate = %!s(MISSING)"
-+ "Swift/UnsafeBufferPointer.swift"
-+ "%!s(MISSING) SiriPresentationViewController failed to acquire .Activating hint glow effect"
-+ "requestDismissalWithHandler:"
-+ "#activation #quickTypeGate %!s(MISSING): attention awareness client invalidation failed with error: %!@(MISSING)"
++ "%!s(MISSING) #activation Activation service requests preheat with options %!@(MISSING)"
++ "suspendWithError:"
 + "Swift/ContiguousArrayBuffer.swift"
-+ "_failedToPresentSiriWithError:"
-+ "#activation #quickTypeGate %!s(MISSING): polling failed in %!s(MISSING)ms"
-+ "Unexpectedly found nil while unwrapping an Optional value"
-+ "requestPresentationWithHandler:"
-+ "%!s(MISSING) #activation #quickTypeGate prewarmForFirstTapOfQuickTypeToSiriGesture completed"
++ "@\"_TtC16SiriUIActivation37SiriQuickTypeGestureActivationManager\""
++ "%!s(MISSING) #activation #quickTypeGate prewarmForFirstTapOfQuickTypeToSiriGesture began"
 + "-[SiriPresentationSpringBoardMainScreenViewController cancelPreheat]"
-+ "-[SiriPresentationViewController preheatWithOptions:]_block_invoke"
-+ "%!s(MISSING) SiriPresentationViewController can show hint glow"
-+ "(isFaceDetected: "
 + "isFaceDetectionInFlight"
-+ "beginAnimatingEffectsForInvocationType:"
-+ "#activation #quickTypeGate %!s(MISSING): error cancelling polling: %!@(MISSING)"
++ "#activation #quickTypeGate %!s(MISSING): attention awareness client invalidation failed with error: %!@(MISSING)"
++ "cancelPollForAttentionWithError:"
++ "-[SiriPresentationViewController activateHintGlow]_block_invoke_2"
++ "\x11\x13\x12\x12\x12E\x11\x12\x14\x16\x16\x11"
++ "Unexpectedly found nil while unwrapping an Optional value"
++ "%!s(MISSING) SiriPresentationViewController failed to acquire .Activating hint glow effect"
++ "cancelPrewarmForFirstTapOfQuickTypeToSiriGestureWithCompletionHandler:"
++ "_quickTypeGestureActivationManager"
++ "%!s(MISSING) SiriPresentationViewController setting siriEffectsVC to nil after dismissal of effects window"
++ "AFUISiriSAEEffectsViewControllerDelegate"
++ "beginHintingForInvocationType:"
++ "%!s(MISSING) SiriPresentationViewController #activation requesting effects presentation and animating for voice invocation (effects state: %!{(MISSING)public}@)"
++ "%!s(MISSING) SiriPresentationViewController Failed to dismiss Siri effects VC with error: %!@(MISSING)"
++ "#activation #quickTypeGate %!s(MISSING): using previous observation (age: %!s(MISSING)ms)"
++ "prewarmForFirstTapOfQuickTypeToSiriGestureWithCompletionHandler:"
++ ".siriQuickTypeGestureActivationManagerIsNil"
++ "canActivateWithCompletionHandler:"
++ "com.apple.siri.SiriQuickTypeGestureActivationManager.faceDetection"
++ "#activation #quickTypeGate %!s(MISSING): face detection already in flight - skipping prewarm"
++ "-[SiriPresentationViewController preheatWithOptions:]_block_invoke"
++ "-[SiriPresentationViewController preheatWithOptions:]"
++ "pollForAttentionWithTimeout:event:error:"
++ "#activation #quickTypeGate %!s(MISSING): polling failed with error: %!@(MISSING)"
++ "preheatWithOptions:"
++ ".pollingFailedWithError("
++ "%!s(MISSING) #activation #quickTypeGate cancelPrewarmForFirstTapOfQuickTypeToSiriGesture began"
++ "v24@0:8@?<v@?B>16"
++ "UnsafeMutableBufferPointer with negative count"
++ "$defaultActor"
 + "%!s(MISSING) SiriPresentationViewController began .Activating hint glow effect"
-+ "Fatal error"
-+ "siriSAEEffectsViewController:requestsDismissalWithHandler:"
-+ "-[SiriPresentationViewController siriViewController:willStartRequestWithOptions:]"
++ "#activation #quickTypeGate %!s(MISSING): found nil while unwrapping SiriQuickTypeGestureActivationManager"
++ "#activation #quickTypeGate %!s(MISSING): no face detection in-flight - skipping cancel"
++ "#activation #quickTypeGate %!s(MISSING): error cancelling polling: %!@(MISSING)"
++ "#activation #quickTypeGate %!s(MISSING): starting to poll"
++ "#activation #quickTypeGate %!s(MISSING): Latest face detection observation is old (%!s(MISSING)ms) -> starting new detection"
++ "#activation #quickTypeGate %!s(MISSING): polling failed in %!s(MISSING)ms"
++ "invalid Collection: less than 'count' elements in collection"
++ "setConfiguration:"
++ "%!s(MISSING) SiriPresentationViewController called _tearDownSiriEffectsViewController"
++ "UnsafeMutableRawPointer.initializeMemory overlapping range"
++ "v32@0:8@\"AFUISiriSAEEffectsViewController\"16@?<v@?B@\"NSError\">24"
++ "attentionAwarenessClient"
++ "requestPresentationWithHandler:"
++ "UnsafeMutablePointer.initialize overlapping range"
 + "state"
-+ "%!s(MISSING) #activation #quickTypeGate presentation requested for quick type gesture while on lock screen -> gating on presence of face"
-- "%!s(MISSING) SiriPresentationViewController can activate hint glow"
-- "%!s(MISSING) SiriPresentationViewController presented effects VC: %!@(MISSING) success, effect's view's window: %!@(MISSING). Now request hint glow activating"
-- "%!s(MISSING) SiriPresentationViewController Failed to present Siri effects VC with error: %!@(MISSING)"
-- "-[SiriPresentationViewController preheat]_block_invoke"
-- "setupShockwaveIsButtonInvocation:"
-- "%!s(MISSING) #SiriPresentationViewController Failed to dismiss Siri effects VC with error: %!@(MISSING)"
-- "\x11\x13\x12\x12\x12E\x11\x12\x14\x16&\x11"
-- "-[SiriPresentationViewController activateHintGlow]_block_invoke_3"
-- "_requestPresentationOfEffectsVCForButtonInvocation:"
-- "-[SiriPresentationViewController preheat]"
-- "%!s(MISSING) #SiriPresentationViewController called _tearDownSiriEffectsViewController"
-- "%!s(MISSING) SiriPresentationViewController start shockwave hint state"
-- "currentEffectsViewPresentationState"
-- "%!s(MISSING) SiriPresentationViewController play the shockwave but skip hint state, isButtonInvocation: %!d(MISSING)."
-- "%!s(MISSING) SiriPresentationViewController #activation will present siri effects VC, current view presentation state: %!l(MISSING)d"
-- "%!s(MISSING) #activation Activation service requests preheat"
-- "transitionToAnimatingState"
-- "%!s(MISSING) SiriPresentationViewController #activation transition to animating state for effects VC"
-- "%!s(MISSING) #SiriPresentationViewController setting siriEffectsVC to nil after dismissal of effects window"
++ "#activation #quickTypeGate %!s(MISSING): Noticed call to canActivate() without a previous call to prewarmForFirstTapOfQuickTypeToSiriGesture(). It's recommended to call prewarm prior to canActivate to speed up canActivate."
++ "previousFaceDetectionResult"
++ "%!s(MISSING) #activation #quickTypeGate canActivate (face detection) completed in %!f(MISSING)ms with result %!@(MISSING)"
++ "v24@0:8@?<v@?>16"
++ "latestFaceDetectionResult"
++ "%!s(MISSING) #activation #quickTypeGate skipping preheating for quick type-to-Siri gesture since not on lock screen"
++ "-[SiriPresentationViewController siriViewController:willStartRequestWithOptions:]"
++ "Swift/UnsafeRawPointer.swift"
++ "%!s(MISSING) #activation #quickTypeGate prewarmForFirstTapOfQuickTypeToSiriGesture completed"
++ "_failedToPresentSiriWithError:"
++ "requestDismissalWithHandler:"
++ "-[SiriPresentationSpringBoardMainScreenViewController presentationRequestedWithPresentationOptions:requestOptions:]"
++ "initWithDelegate:instrumentationHandler:"
++ "siriSAEEffectsViewController:requestsDismissalWithHandler:"
++ "Swift/StringTesting.swift"
++ "#activation #quickTypeGate %!s(MISSING): polling succeeded with result: %!s(MISSING)"
++ "-[SiriPresentationSpringBoardMainScreenViewController preheatWithOptions:]"
++ "beginAnimatingEffectsForInvocationType:"
 - "Tq,N,V_currentEffectsViewPresentationState"
 - "_currentEffectsViewPresentationState"
-- "%!s(MISSING) SiriPresentationViewController #activation will play shockwave directly, effectsVC: %!@(MISSING), window: %!@(MISSING), currentEffectsViewPresentationState = %!l(MISSING)d"
-- "%!s(MISSING) SiriPresentationViewController setup effects VC: %!@(MISSING) with button invocation."
-- "preheat"
-- "startShockWaveHintState"
-- "setCurrentEffectsViewPresentationState:"
 - "%!s(MISSING) #SiriPresentationViewController don't need to request dismiss of effects VC and set siriEffectsVC to nil"
-- "%!s(MISSING) #SiriPresentationViewController perform tear down of effects VC"
-- "%!s(MISSING) SiriPresentationViewController will setup shockwave with button invocation"
-- "-[SiriPresentationViewController _requestPresentationOfEffectsVCForButtonInvocation:]_block_invoke"
+- "transitionToAnimatingState"
+- "%!s(MISSING) SiriPresentationViewController play the shockwave but skip hint state, isButtonInvocation: %!d(MISSING)."
+- "%!s(MISSING) SiriPresentationViewController setup effects VC: %!@(MISSING) with button invocation."
+- "setupShockwaveIsButtonInvocation:"
+- "currentEffectsViewPresentationState"
+- "%!s(MISSING) #SiriPresentationViewController Failed to dismiss Siri effects VC with error: %!@(MISSING)"
+- "_requestPresentationOfEffectsVCForButtonInvocation:"
+- "-[SiriPresentationViewController preheat]_block_invoke"
 - "initWithInstrumentationHandler:"
+- "%!s(MISSING) #SiriPresentationViewController called _tearDownSiriEffectsViewController"
+- "%!s(MISSING) SiriPresentationViewController #activation transition to animating state for effects VC"
+- "preheat"
+- "setCurrentEffectsViewPresentationState:"
+- "startShockWaveHintState"
+- "-[SiriPresentationViewController _requestPresentationOfEffectsVCForButtonInvocation:]_block_invoke"
+- "%!s(MISSING) SiriPresentationViewController Failed to present Siri effects VC with error: %!@(MISSING)"
 - "playShockWaveSkipHintState"
+- "%!s(MISSING) #SiriPresentationViewController perform tear down of effects VC"
+- "%!s(MISSING) SiriPresentationViewController #activation will play shockwave directly, effectsVC: %!@(MISSING), window: %!@(MISSING), currentEffectsViewPresentationState = %!l(MISSING)d"
+- "%!s(MISSING) SiriPresentationViewController start shockwave hint state"
+- "%!s(MISSING) #activation Activation service requests preheat"
+- "\x11\x13\x12\x12\x12E\x11\x12\x14\x16&\x11"
+- "%!s(MISSING) SiriPresentationViewController #activation will present siri effects VC, current view presentation state: %!l(MISSING)d"
+- "%!s(MISSING) SiriPresentationViewController can activate hint glow"
+- "%!s(MISSING) SiriPresentationViewController presented effects VC: %!@(MISSING) success, effect's view's window: %!@(MISSING). Now request hint glow activating"
+- "%!s(MISSING) SiriPresentationViewController will setup shockwave with button invocation"
+- "%!s(MISSING) #SiriPresentationViewController setting siriEffectsVC to nil after dismissal of effects window"
+- "-[SiriPresentationViewController preheat]"
+- "-[SiriPresentationViewController activateHintGlow]_block_invoke_3"
 
 ```

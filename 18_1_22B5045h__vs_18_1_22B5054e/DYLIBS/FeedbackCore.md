@@ -98,47 +98,47 @@
 +  CStrings:  8014
  
 Symbols:
-+ _FBKCustomIconRewrittenText
-+ _FBKCustomIconMailTextSingle
-+ __swiftImmortalRefCount
++ _FBKCustomIconNotificationText
 + _FBKCustomIconText
 + _FBKCustomIconMessagesTextMultiple
-+ _FBKCustomIconNotificationText
 + _FBKCustomIconMailTextMultiple
++ __swiftImmortalRefCount
 + _FBKCustomIconTextSummarization
++ _FBKCustomIconMailTextSingle
++ _FBKCustomIconRewrittenText
 + _FBKCustomIconMessagesTextSingle
 CStrings:
-+ "requireExplicitAttachmentCheck"
-+ "custom.icon.text.summarization"
-+ "_TtC12FeedbackCoreP33_C068D07687CCF182F7EA72D79E12955719ResourceBundleClass"
-+ "checkAttachmentOptInPopupAndSubmit"
-+ "_requireExplicitAttachmentCheck"
-+ "Updated attachment with annotation: %!s(MISSING)"
-+ "itemWithURL:shouldCheckURLAttributes:"
-+ "TB,N,V_requireExplicitAttachmentCheck"
 + "custom.icon.notification.text"
-+ "EXPLICIT_ATTACHMENT_MESSAGE"
-+ "custom.icon.mail.text.multiple"
-+ "com.apple.diagnosticextensions.additionalInfo"
-+ "custom.icon.messages.text.multiple"
-+ "EXPLICIT_ATTACHMENT_CONFIRM"
-+ "feedbackCoreAssetsBundle"
-+ "custom.icon.mail.text.single"
-+ "Failed to copy item at URL [%!{(MISSING)public}@] error: [%!{(MISSING)public}@]"
-+ "custom.icon.messages.text.single"
-+ "imageNamed:inBundle:"
-+ "custom.icon.text.file"
-+ "com.apple.diagnosticextensions.description"
-+ "custom.icon.rewritten.text"
-+ "secondaryDisplayName"
-+ "com.apple.diagnosticextensions.displayName"
-+ "Unable to get explicit display preview from fileURL %!{(MISSING)public}s with error: %!{(MISSING)public}s"
 + "setRequireExplicitAttachmentCheck:"
-+ "com.apple.diagnosticextensions.iconType"
++ "com.apple.diagnosticextensions.description"
 + "EXPLICIT_ATTACHMENT_DENY"
++ "com.apple.diagnosticextensions.additionalInfo"
++ "secondaryDisplayName"
++ "custom.icon.messages.text.multiple"
++ "checkAttachmentOptInPopupAndSubmit"
++ "EXPLICIT_ATTACHMENT_MESSAGE"
++ "custom.icon.text.file"
++ "feedbackCoreAssetsBundle"
++ "custom.icon.messages.text.single"
++ "Updated attachment with annotation: %!s(MISSING)"
++ "custom.icon.mail.text.multiple"
++ "_requireExplicitAttachmentCheck"
++ "Failed to copy item at URL [%!{(MISSING)public}@] error: [%!{(MISSING)public}@]"
++ "com.apple.diagnosticextensions.iconType"
++ "imageNamed:inBundle:"
++ "requireExplicitAttachmentCheck"
++ "Unable to get explicit display preview from fileURL %!{(MISSING)public}s with error: %!{(MISSING)public}s"
++ "custom.icon.mail.text.single"
++ "TB,N,V_requireExplicitAttachmentCheck"
++ "custom.icon.rewritten.text"
++ "EXPLICIT_ATTACHMENT_CONFIRM"
++ "custom.icon.text.summarization"
++ "itemWithURL:shouldCheckURLAttributes:"
++ "_TtC12FeedbackCoreP33_C068D07687CCF182F7EA72D79E12955719ResourceBundleClass"
++ "com.apple.diagnosticextensions.displayName"
 + "EXPLICIT_ATTACHMENT_TITLE"
-- "Failed to create destination dir [%!{(MISSING)public}@]"
-- "com.apple.Feedback"
 - "Updated attachment with display info: %!s(MISSING)"
+- "com.apple.Feedback"
+- "Failed to create destination dir [%!{(MISSING)public}@]"
 
 ```

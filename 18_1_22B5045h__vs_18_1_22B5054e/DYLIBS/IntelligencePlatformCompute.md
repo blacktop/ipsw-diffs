@@ -55,9 +55,9 @@
  
 Symbols:
 - __swift_FORCE_LOAD_$_swiftMLCompute
-- __swift_FORCE_LOAD_$_swiftUIKit
 - __swift_FORCE_LOAD_$_swiftDataDetection
-- __swift_FORCE_LOAD_$_swiftNaturalLanguage
 - __swift_FORCE_LOAD_$_swiftWebKit
+- __swift_FORCE_LOAD_$_swiftNaturalLanguage
+- __swift_FORCE_LOAD_$_swiftUIKit
 
 ```

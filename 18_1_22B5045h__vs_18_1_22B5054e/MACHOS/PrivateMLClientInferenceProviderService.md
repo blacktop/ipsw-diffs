@@ -12,9 +12,9 @@
    __TEXT.__const: 0x2f2
    __TEXT.__cstring: 0x417
 Symbols:
-+ _objc_release_x8
 + _objc_release_x24
-- _objc_release_x28
++ _objc_release_x8
 - _objc_release_x25
+- _objc_release_x28
 
 ```

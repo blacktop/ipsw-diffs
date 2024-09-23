@@ -86,36 +86,36 @@
 +  CStrings:  9557
  
 Symbols:
+- _fopen
+- _sscanf
+- _dispatch_once_f
+- _fseek
+- _fread
+- _rewind
 - _fclose
 - _dlsym
 - _ftell
-- _fread
-- _dispatch_once_f
 - __availability_version_check
-- _fopen
-- _rewind
-- _fseek
-- _sscanf
 CStrings:
-+ "presentingPage"
-+ "pageWillPresent()"
 + "pageViewed(_:topicRoutingBehavior:fetchMetadata:consumeImpressions:)"
-- "CFStringGetTypeID"
-- "/System/Library/CoreServices/SystemVersion.plist"
-- "r"
-- "CFDataCreateWithBytesNoCopy"
-- "kCFAllocatorNull"
-- "CFPropertyListCreateWithData"
-- "%!d(MISSING).%!d(MISSING).%!d(MISSING)"
++ "pageWillPresent()"
++ "presentingPage"
 - "CFGetTypeID"
-- "ProductVersion"
-- "CFDictionaryGetValue"
+- "CFDataCreateWithBytesNoCopy"
+- "r"
 - "CFStringGetCString"
-- "Failed to publish impressions for last page viewed: %!{(MISSING)public}s"
-- "CFRelease"
-- "trackPageEnter(_:topicRoutingBehavior:fetchMetadata:consumeImpressions:)"
-- "lastPageTopicRoutingBehavior"
-- "CFStringCreateWithCStringNoCopy"
+- "ProductVersion"
 - "CFPropertyListCreateFromXMLData"
+- "lastPageTopicRoutingBehavior"
+- "CFPropertyListCreateWithData"
+- "CFStringCreateWithCStringNoCopy"
+- "Failed to publish impressions for last page viewed: %!{(MISSING)public}s"
+- "CFStringGetTypeID"
+- "CFDictionaryGetValue"
+- "/System/Library/CoreServices/SystemVersion.plist"
+- "trackPageEnter(_:topicRoutingBehavior:fetchMetadata:consumeImpressions:)"
+- "kCFAllocatorNull"
+- "CFRelease"
+- "%!d(MISSING).%!d(MISSING).%!d(MISSING)"
 
 ```

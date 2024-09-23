@@ -99,42 +99,42 @@
  
 Symbols:
 - __availability_version_check
-- _swift_taskGroup_wait_next_throwing
-- _ftell
-- _dispatch_once_f
-- _fseek
-- _sscanf
-- _fread
 - _rewind
+- _fread
 - _fopen
+- _swift_taskGroup_wait_next_throwing
+- _fseek
 - _fclose
+- _sscanf
+- _dispatch_once_f
+- _ftell
 CStrings:
 + "/AppleInternal/Library/BuildRoots/a8618716-74b6-11ef-9a3a-56363ce8160b/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.1.Internal.sdk/System/Library/PrivateFrameworks/AudioToolboxCore.framework/PrivateHeaders/DSPGraph_Box.h"
-- "SNStagedLanguageAlignedAVFuserModel.mlmodelc"
-- "%!d(MISSING).%!d(MISSING).%!d(MISSING)"
-- "Could not load SNStagedLanguageAlignedAVFuserModel.mlmodelc in the bundle resource"
-- "CFStringGetTypeID"
-- "/AppleInternal/Library/BuildRoots/d6d9d24d-65dc-11ef-b7e2-86b8363ea862/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.1.Internal.sdk/System/Library/PrivateFrameworks/AudioToolboxCore.framework/PrivateHeaders/DSPGraph_Box.h"
+- "SNStagedLanguageAlignedAudioEncoderInput"
 - "CFStringCreateWithCStringNoCopy"
-- "CFDataCreateWithBytesNoCopy"
-- "SNStagedLanguageAlignedAudioEncoderOutput"
-- "ProductVersion"
-- "SNStagedLanguageAlignedAVFuserModel"
-- "CFPropertyListCreateFromXMLData"
+- "SNStagedLanguageAlignedAudioEncoder"
+- "CFStringGetTypeID"
 - "CFPropertyListCreateWithData"
 - "/System/Library/CoreServices/SystemVersion.plist"
-- "SNStagedLanguageAlignedAudioEncoder"
-- "_Concurrency/TaskGroup.swift"
-- "CFStringGetCString"
-- "SNStagedLanguageAlignedAudioEncoderInput"
-- "SNStagedLanguageAlignedAVFuserModelOutput"
-- "SNStagedLanguageAlignedAudioEncoder.mlmodelc"
-- "Could not load SNStagedLanguageAlignedAudioEncoder.mlmodelc in the bundle resource"
-- "CFRelease"
-- "CFDictionaryGetValue"
-- "r"
-- "SNStagedLanguageAlignedAVFuserModelInput"
 - "kCFAllocatorNull"
+- "SNStagedLanguageAlignedAVFuserModelInput"
+- "/AppleInternal/Library/BuildRoots/d6d9d24d-65dc-11ef-b7e2-86b8363ea862/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.1.Internal.sdk/System/Library/PrivateFrameworks/AudioToolboxCore.framework/PrivateHeaders/DSPGraph_Box.h"
+- "CFDictionaryGetValue"
+- "_Concurrency/TaskGroup.swift"
+- "%!d(MISSING).%!d(MISSING).%!d(MISSING)"
+- "CFRelease"
+- "SNStagedLanguageAlignedAudioEncoder.mlmodelc"
+- "SNStagedLanguageAlignedAudioEncoderOutput"
+- "SNStagedLanguageAlignedAVFuserModel"
+- "r"
+- "CFPropertyListCreateFromXMLData"
+- "Could not load SNStagedLanguageAlignedAVFuserModel.mlmodelc in the bundle resource"
 - "CFGetTypeID"
+- "ProductVersion"
+- "SNStagedLanguageAlignedAVFuserModelOutput"
+- "CFStringGetCString"
+- "SNStagedLanguageAlignedAVFuserModel.mlmodelc"
+- "Could not load SNStagedLanguageAlignedAudioEncoder.mlmodelc in the bundle resource"
+- "CFDataCreateWithBytesNoCopy"
 
 ```

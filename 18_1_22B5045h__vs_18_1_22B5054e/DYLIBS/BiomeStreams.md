@@ -88,26 +88,26 @@
 +  CStrings:  15723
  
 Symbols:
-+ _$s10Foundation4UUIDV1loiySbAC_ACtFZ
 + _$sSSMn
++ _$s10Foundation4UUIDV1loiySbAC_ACtFZ
++ _$s10Foundation4UUIDVSLAAMc
 + _$s10Foundation4DateV1goiySbAC_ACtFZ
 + _$sSdMn
-+ _$s10Foundation4UUIDVSLAAMc
 + _$s10Foundation4DateV1loiySbAC_ACtFZ
-- _$s10Foundation4DataV12BiomeStreamsE1loiySbAC_ACtFZ
-- _$sSL1loiySbx_xtFZTq
-- _$s10Foundation4DataVSL12BiomeStreamsMc
-- _$sSLMp
 - _$sSL1goiySbx_xtFZTj
-- _$sSLSQTb
-- _$sSL1goiySbx_xtFZTq
+- _$sSL1loiySbx_xtFZTq
+- _$sSLMp
 - _$sSL2leoiySbx_xtFZTq
-- _$sSL2geoiySbx_xtFZTq
+- _$sSLSQTb
 - _$s10Foundation4DataVSQAAMc
+- _$s10Foundation4DataVSL12BiomeStreamsMc
+- _$sSL2geoiySbx_xtFZTq
+- _$sSL1goiySbx_xtFZTq
+- _$s10Foundation4DataV12BiomeStreamsE1loiySbAC_ACtFZ
 CStrings:
-+ "BMMediaNowPlayingIdentifier"
 + "NSString *getBMMediaNowPlayingIdentifier(void)"
-+ "BMMediaNowPlaying"
 + "Class getBMMediaNowPlayingClass(void)_block_invoke"
++ "BMMediaNowPlaying"
++ "BMMediaNowPlayingIdentifier"
 
 ```

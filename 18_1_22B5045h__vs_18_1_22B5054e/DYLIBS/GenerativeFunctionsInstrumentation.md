@@ -86,13 +86,13 @@
 Symbols:
 + _objc_retain_x24
 CStrings:
++ "downstreamDemand"
++ "state"
 + "recursion"
 + "isLessThan"
-+ "terminal"
-+ "downstreamDemand"
-+ "upstreamFailed"
-+ "size"
-+ "state"
 + "values"
++ "terminal"
++ "size"
++ "upstreamFailed"
 
 ```

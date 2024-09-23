@@ -70,16 +70,16 @@
 Symbols:
 + _OBJC_CLASS_$_NSBundle
 CStrings:
-+ "There is no subject in the video frame."
-+ "The supplied parameter is invalid."
-+ "The device doesn't support the requested operation."
-+ "In order for DockKit to access the camera, a person must accept the terms and conditions. If you receive this error, show an alert indicating that terms and conditions are necessary."
-+ "The frame rate is too low to track an object."
-+ "The call rate for the method is too frequent."
-+ "The camera terms and conditions are missing."
 + "The dock accessory isn't connected to a device."
-+ "Reduce the number of times per second you call the method."
-+ "mainBundle"
++ "The camera terms and conditions are missing."
 + "The method isn't supported on a specific platform."
++ "The frame rate is too low to track an object."
++ "In order for DockKit to access the camera, a person must accept the terms and conditions. If you receive this error, show an alert indicating that terms and conditions are necessary."
++ "The call rate for the method is too frequent."
++ "The device doesn't support the requested operation."
++ "There is no subject in the video frame."
++ "mainBundle"
++ "Reduce the number of times per second you call the method."
++ "The supplied parameter is invalid."
 
 ```

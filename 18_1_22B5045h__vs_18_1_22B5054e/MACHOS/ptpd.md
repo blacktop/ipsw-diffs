@@ -39,7 +39,7 @@
 +  CStrings:  2460
  
 CStrings:
-+ "Requesting custom thumbnail of size: (%!f(MISSING) x %!f(MISSING))"
 + "Requesting standard thumbnail of size: (%!f(MISSING) x %!f(MISSING))"
++ "Requesting custom thumbnail of size: (%!f(MISSING) x %!f(MISSING))"
 
 ```

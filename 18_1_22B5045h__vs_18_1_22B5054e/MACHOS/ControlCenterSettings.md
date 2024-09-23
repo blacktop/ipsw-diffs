@@ -69,26 +69,26 @@
 +  CStrings:  102
  
 Symbols:
-+ _swift_arrayDestroy
-+ _os_log_type_enabled
 + _objc_retain_x24
++ _swift_errorRetain
 + __os_log_impl
 + __NSConcreteStackBlock
-+ __Block_release
 + __swift_stdlib_bridgeErrorToNSError
-+ __Block_copy
-+ _swift_errorRetain
-+ _OBJC_CLASS_$_CCSControlCenterService
 + _swift_slowDealloc
++ _swift_arrayDestroy
++ _OBJC_CLASS_$_CCSControlCenterService
++ __Block_copy
++ _os_log_type_enabled
++ __Block_release
 - _objc_retain_x25
 CStrings:
-+ "CONTROL_CENTER_RESET_TO_DEFAULT_LAYOUT_DESCRIPTION"
-+ "sharedInstance"
 + "resetToDefaultLayoutWithCompletionHandler:"
 + "resetToDefaultLayout"
 + "v20@?0B8@\"NSError\"12"
 + "Successfully reset Control Center layout to default."
-+ "CONTROL_CENTER_RESET_TO_DEFAULT_LAYOUT"
 + "Failed to reset Control Center layout to default with %!@(MISSING)."
++ "sharedInstance"
++ "CONTROL_CENTER_RESET_TO_DEFAULT_LAYOUT"
++ "CONTROL_CENTER_RESET_TO_DEFAULT_LAYOUT_DESCRIPTION"
 
 ```

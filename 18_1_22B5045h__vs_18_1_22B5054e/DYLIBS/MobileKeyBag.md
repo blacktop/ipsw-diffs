@@ -23,9 +23,9 @@
 +  CStrings:  1318
  
 CStrings:
++ "inactivity_reboot"
 + "AnalyticsEvent: is_set: %!l(MISSING)lu, type: %!l(MISSING)lu, activation_status: %!l(MISSING)lu, inactivity_reboot: %!l(MISSING)lu, hours_since_locked: %!l(MISSING)lu, version: %!l(MISSING)lu"
 + "hours_since_locked"
-+ "inactivity_reboot"
 - "AnalyticsEvent: is_set: %!l(MISSING)lu, type: %!l(MISSING)lu, activation_status: %!l(MISSING)lu"
 
 ```

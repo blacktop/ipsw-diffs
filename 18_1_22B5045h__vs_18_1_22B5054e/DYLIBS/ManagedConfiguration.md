@@ -72,46 +72,46 @@
 +  CStrings:  8492
  
 Symbols:
-+ _MCPathWithoutPrivatePathComponent
++ _MCUserProfileLibraryDirectory
 + _MCDestinationPathIsSafeFromSymlinkAttacks
-+ _acl_set_fd_np
-+ _MCMakePathDeletableBySettingACL
-+ _kSystemUsersGroupName
-+ _MCFeatureRCSAllowed
-+ _NSFileTypeSymbolicLink
-+ _acl_set_qualifier
-+ _NSFileType
 + _acl_add_perm
 + _acl_clear_perms
-+ _MCFixHostileSymlinks
-+ _acl_init
-+ _acl_get_permset
 + _mbr_identifier_to_uuid
-+ _MCFeatureMailSummaryAllowed
-+ _MCUserProfileLibraryDirectory
-+ _MCReplaceSymlinkWithDirectory
-+ _acl_set_tag_type
++ _MCPathWithoutPrivatePathComponent
 + _acl_set_permset
++ _acl_init
++ _MCMakePathDeletableBySettingACL
++ _MCFeatureMailSummaryAllowed
++ _acl_set_fd_np
++ _acl_get_permset
++ _MCReplaceSymlinkWithDirectory
++ _acl_set_qualifier
 + _acl_create_entry
++ _acl_set_tag_type
++ _NSFileTypeSymbolicLink
++ _NSFileType
++ _kSystemUsersGroupName
++ _MCFixHostileSymlinks
++ _MCFeatureRCSAllowed
 CStrings:
-+ "private"
-+ "UserConfigurationProfiles"
 + "systemusers"
-+ "Destination path contains suspicious symlink: %!{(MISSING)public}@"
++ "FEATURE_RCS_MESSAGING"
 + "Symbolic link removed from %!{(MISSING)public}@"
 + "allowMailSummary"
-+ "Error reading attributes for %!{(MISSING)public}@: %!{(MISSING)public}@"
-+ "allowRCSMessaging"
++ "Destination path contains suspicious symlink: %!{(MISSING)public}@"
 + "isRCSMessagingAllowed"
-+ "Error removing symbolic link for %!{(MISSING)public}@: %!{(MISSING)public}@"
 + "Error setting ACL on symbolic link before removal for %!{(MISSING)public}@: %!{(MISSING)public}@"
-+ "isMailSummaryAllowed"
++ "Error reading attributes for %!{(MISSING)public}@: %!{(MISSING)public}@"
 + "stringByResolvingSymlinksInPath"
-+ "FEATURE_RCS_MESSAGING"
-+ "Finished check for symbolic links in user and system group folder"
-+ "MCDestinationPathIsSafeFromSymlinkAttacks path:\n\t%!{(MISSING)public}@\nresolved:\n\t%!{(MISSING)public}@"
-+ "Error creating directory %!{(MISSING)public}@: %!{(MISSING)public}@"
 + "ALLOWED_DEVICE_IDS"
++ "Error removing symbolic link for %!{(MISSING)public}@: %!{(MISSING)public}@"
++ "MCDestinationPathIsSafeFromSymlinkAttacks path:\n\t%!{(MISSING)public}@\nresolved:\n\t%!{(MISSING)public}@"
++ "Finished check for symbolic links in user and system group folder"
++ "Error creating directory %!{(MISSING)public}@: %!{(MISSING)public}@"
++ "allowRCSMessaging"
++ "private"
++ "isMailSummaryAllowed"
++ "UserConfigurationProfiles"
 + "FEATURE_MAIL_SUMMARY"
 + "ALLOWED_DEVICE_NAMES"
 - "Library/UserConfigurationProfiles"

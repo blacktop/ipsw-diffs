@@ -34,7 +34,7 @@
    CStrings:  3222
  
 Symbols:
-+ _ICVirtualSmartFolderItemIdentifierTypeCallNotes
 + _ICVirtualSmartFolderItemIdentifierTypeMathNotes
++ _ICVirtualSmartFolderItemIdentifierTypeCallNotes
 
 ```

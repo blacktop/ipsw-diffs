@@ -71,8 +71,8 @@
 +  CStrings:  129
  
 CStrings:
-+ "canonicalIdentifier"
-+ "updateLazySectionDescriptors"
 + "placementIdentifier"
++ "updateLazySectionDescriptors"
++ "canonicalIdentifier"
 
 ```

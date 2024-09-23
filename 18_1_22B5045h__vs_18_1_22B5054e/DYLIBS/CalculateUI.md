@@ -76,7 +76,7 @@
 +  CStrings:  408
  
 CStrings:
-+ "Unknown direction for accessibility adjustment"
 + "CalculateUI/CalculateScrubberView.swift"
++ "Unknown direction for accessibility adjustment"
 
 ```

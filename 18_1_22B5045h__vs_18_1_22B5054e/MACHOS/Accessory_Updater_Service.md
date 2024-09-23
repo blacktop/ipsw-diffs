@@ -41,8 +41,8 @@
 +  CStrings:  4453
  
 Symbols:
-+ _kAMAuthInstallTagApTimestamp
 + _AMSupportCFDictionarySetInteger32
++ _kAMAuthInstallTagApTimestamp
 CStrings:
 + "Ap,Timestamp"
 + "libauthinstall_device-1033.40.3"

@@ -53,12 +53,12 @@
 +  CStrings:  1303
  
 CStrings:
-+ "not rescheduling NTP fetch activity because interval has not elapsed lastReschedule: %!f(MISSING) wanted time: %!f(MISSING), elapsed %!f(MISSING)"
-+ "_lastReschedule"
-+ "332.0.2"
-+ "lastReschedule"
 + "Td,V_lastReschedule"
++ "_lastReschedule"
++ "not rescheduling NTP fetch activity because interval has not elapsed lastReschedule: %!f(MISSING) wanted time: %!f(MISSING), elapsed %!f(MISSING)"
++ "332.0.2"
 + "setLastReschedule:"
++ "lastReschedule"
 - "332"
 
 ```

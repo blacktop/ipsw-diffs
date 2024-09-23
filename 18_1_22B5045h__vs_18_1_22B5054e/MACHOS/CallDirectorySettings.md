@@ -55,8 +55,8 @@ Symbols:
 - ___NSArray0__struct
 CStrings:
 + "initWithObjects:"
-+ "FaceTime"
-+ "Phone"
 + "Apps"
++ "Phone"
++ "FaceTime"
 
 ```

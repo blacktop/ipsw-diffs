@@ -76,11 +76,11 @@
 Symbols:
 + _NSLinkAttributeName
 CStrings:
-+ "setContentOffset:animated:"
 + "Parameter Description"
-+ "Parameter Name"
 + "Action Name"
++ "setContentOffset:animated:"
 + "handleTapOnDescriptionTextView:"
 + "Action Description"
++ "Parameter Name"
 
 ```

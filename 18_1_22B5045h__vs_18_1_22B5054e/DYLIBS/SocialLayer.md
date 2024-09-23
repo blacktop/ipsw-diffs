@@ -55,14 +55,14 @@
 +  CStrings:  4421
  
 Symbols:
-+ _SecTaskCreateFromSelf
 + _kCFAllocatorDefault
++ _SecTaskCreateFromSelf
 + _SecTaskCopyValueForEntitlement
 CStrings:
-+ "SLInteractionHandler failed to generate an application identifier. Error: %!@(MISSING)"
-+ "SLInteractionHandler failed to generate an application identifier for the current process."
 + "com.apple.application-identifier"
 + "application-identifier"
++ "SLInteractionHandler failed to generate an application identifier. Error: %!@(MISSING)"
++ "SLInteractionHandler failed to generate an application identifier for the current process."
 - "SLInteractionHandler failed to generate a bundle record for the current process."
 
 ```

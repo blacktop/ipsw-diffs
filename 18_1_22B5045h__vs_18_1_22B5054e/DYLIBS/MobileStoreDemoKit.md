@@ -65,15 +65,15 @@
 Symbols:
 + _kMSDKPeerDemoAXSettingsPropertyVoiceOverTutorial
 CStrings:
-+ "_voiceOverTutorial"
-+ "Cannot find RelativePathsNotToRestore under RootDomain."
-+ "RelativePathsNotToRemoveIfNotRestored"
 + "Cannot find RelativePathsNotToRemoveIfNotRestored under RootDomain."
-+ "TQ,N,V_voiceOverTutorial"
-+ "<%!@(MISSING)[%!p(MISSING)]: PointerControl=%!l(MISSING)u GazeAccessibility=%!l(MISSING)u StaticFoveation=%!l(MISSING)u HandChirality=%!l(MISSING)u DwellControll=%!l(MISSING)u VoiceOver=%!l(MISSING)u ClosedCaptions=%!l(MISSING)u AssistiveTouch=%!l(MISSING)u AudioDescriptions=%!l(MISSING)u VoiceOverTutorial=%!l(MISSING)u>"
 + "voiceOverTutorial"
-+ "setVoiceOverTutorial:"
++ "TQ,N,V_voiceOverTutorial"
++ "RelativePathsNotToRemoveIfNotRestored"
 + "Library/Preferences/com.apple.MobileAsset.plist"
++ "Cannot find RelativePathsNotToRestore under RootDomain."
++ "setVoiceOverTutorial:"
++ "<%!@(MISSING)[%!p(MISSING)]: PointerControl=%!l(MISSING)u GazeAccessibility=%!l(MISSING)u StaticFoveation=%!l(MISSING)u HandChirality=%!l(MISSING)u DwellControll=%!l(MISSING)u VoiceOver=%!l(MISSING)u ClosedCaptions=%!l(MISSING)u AssistiveTouch=%!l(MISSING)u AudioDescriptions=%!l(MISSING)u VoiceOverTutorial=%!l(MISSING)u>"
++ "_voiceOverTutorial"
 - "<%!@(MISSING)[%!p(MISSING)]: PointerControl=%!l(MISSING)u GazeAccessibility=%!l(MISSING)u StaticFoveation=%!l(MISSING)u HandChirality=%!l(MISSING)u DwellControll=%!l(MISSING)u VoiceOver=%!l(MISSING)u ClosedCaptions=%!l(MISSING)u AssistiveTouch=%!l(MISSING)u AudioDescriptions=%!l(MISSING)u>"
 
 ```

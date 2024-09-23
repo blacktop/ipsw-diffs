@@ -64,17 +64,17 @@
 +  CStrings:  3462
  
 CStrings:
-+ "setEmbeddingGenCompleteDayForBundle:day:"
-+ "daysToComplete"
-+ "v32@0:8@16q24"
-+ "embedding-status.log"
-+ "embeddingGenCompleteDay"
-+ "Bundle"
-+ "embeddingGenCompleteDay#%!@(MISSING)"
 + "stringByPaddingToLength:withString:startingAtIndex:"
-+ "getEmbeddingGenCompleteDayForBundle:"
 + "clearEmbeddingGenCompleteDay"
++ "getEmbeddingGenCompleteDayForBundle:"
++ "daysToComplete"
++ "embeddingGenCompleteDay#%!@(MISSING)"
++ "embedding-status.log"
++ "Bundle"
++ "embeddingGenCompleteDay"
++ "v32@0:8@16q24"
 + "formatProgressReport:"
++ "setEmbeddingGenCompleteDayForBundle:day:"
 - "skg_archive.V2"
 
 ```

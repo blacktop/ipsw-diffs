@@ -59,11 +59,11 @@
 +  CStrings:  1698
  
 CStrings:
-+ "T@\"NSObject<MCDNowPlayingContentManagerProtocol>\",&,N,V_contentManager"
 + "@\"NSObject<MCDNowPlayingContentManagerProtocol>\""
++ "T@\"NSObject<MCDNowPlayingContentManagerProtocol>\",&,N,V_contentManager"
 + "updateNoContentViewFrameIfNeeded"
 + "viewSafeAreaInsetsDidChange"
-- "T@\"<MCDNowPlayingContentManagerProtocol>\",&,N,V_contentManager"
 - "@\"<MCDNowPlayingContentManagerProtocol>\""
+- "T@\"<MCDNowPlayingContentManagerProtocol>\",&,N,V_contentManager"
 
 ```

@@ -60,8 +60,8 @@ Symbols:
 CStrings:
 + "BOOL createPowerAssertion(NSString *__strong, IOPMAssertionID *)"
 + "componentsJoinedByString:"
+- "BOOL createPowerAssertion(NSString *, IOPMAssertionID *)"
 - "Cannot copy file, Destination URL already exists: %!@(MISSING)"
 - "%!@(MISSING)-"
-- "BOOL createPowerAssertion(NSString *, IOPMAssertionID *)"
 
 ```

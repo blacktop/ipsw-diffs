@@ -69,35 +69,35 @@
  
 Symbols:
 + _CPAnalyticsPhotosSearchSessionQueryKey
-+ _OBJC_CLASS_$_BMAeroMLPhotosSearchSessionAsset
-+ _objc_opt_new
++ _CPAnalyticsPhotosSearchSession
 + _OBJC_CLASS_$_BMAeroMLPhotosSearchSession
 + _CPAnalyticsPhotosSearchSessionPrefixKey
-+ _CPAnalyticsPhotosSearchSession
++ _objc_opt_new
++ _OBJC_CLASS_$_BMAeroMLPhotosSearchSessionAsset
 + _CPAnalyticsPhotosSearchSessionPresentedAssetsKey
 CStrings:
-+ "/photos/searchSession"
-+ "_donateSearchSessionyWithBaseSample:andEvent:"
-+ "AeroML"
-+ "com.apple.photos.CPAnalytics.searchSession"
 + "currentDate"
-+ "T@\"NSDate\",R"
-+ "RawEvent"
++ "setMockCurrentDate:"
++ "initWithAssetUUID:rankingIndex:cosDistance:"
++ "initWithQueryRaw:queryEmbedding:presentedAssets:"
++ "[Biome][Donation][SearchSession] Sent a search session event"
++ "T@\"NSDate\",&"
++ "enumerateObjectsUsingBlock:"
++ "v32@?0@\"NSString\"8Q16^B24"
++ "timeIntervalBetweenReferenceDateAndCurrentDate"
++ "AeroML"
++ "_donateSearchSessionyWithBaseSample:andEvent:"
++ "/photos/searchAsset"
++ "PhotosSearchSession"
 + "Td,R"
 + "mockCurrentDate"
-+ "timeIntervalBetweenReferenceDateAndCurrentDate"
-+ "d16@0:8"
-+ "initWithAssetUUID:rankingIndex:cosDistance:"
-+ "enumerateObjectsUsingBlock:"
-+ "initWithQueryRaw:queryEmbedding:presentedAssets:"
-+ "/photos/searchAsset"
-+ "presentedAssets"
-+ "v32@?0@\"NSString\"8Q16^B24"
-+ "T@\"NSDate\",&"
++ "RawEvent"
 + "searchQuery"
-+ "setMockCurrentDate:"
-+ "PhotosSearchSession"
-+ "[Biome][Donation][SearchSession] Sent a search session event"
++ "presentedAssets"
++ "com.apple.photos.CPAnalytics.searchSession"
++ "T@\"NSDate\",R"
++ "/photos/searchSession"
++ "d16@0:8"
 - "/photos/search"
 
 ```

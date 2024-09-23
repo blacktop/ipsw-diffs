@@ -43,7 +43,7 @@ CStrings:
 + "%!{(MISSING)public}s:%!i(MISSING) Running build from (B&I) Stockholm_Base-351.8.1"
 + "%!s(MISSING):%!i(MISSING) EMVCO field collision detected"
 + "%!s(MISSING):%!i(MISSING) Running build from (B&I) Stockholm_Base-351.8.1"
-- "%!{(MISSING)public}s:%!i(MISSING) Running build from (B&I) Stockholm_Base-351.6"
 - "%!s(MISSING):%!i(MISSING) Running build from (B&I) Stockholm_Base-351.6"
+- "%!{(MISSING)public}s:%!i(MISSING) Running build from (B&I) Stockholm_Base-351.6"
 
 ```

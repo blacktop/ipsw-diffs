@@ -86,46 +86,46 @@
 +  CStrings:  6616
  
 Symbols:
-+ _OBJC_METACLASS_$_DNDSHearingTestEvent
-+ _DNDSLogHearingTestTrigger
-+ _OBJC_CLASS_$_DNDSHearingTestTriggerManager
-+ _DNDSHearingTestTriggerManagerClientIdentifier
-+ _OBJC_CLASS_$_DNDSHearingTestEvent
 + _OBJC_METACLASS_$_DNDSHearingTestTriggerManager
++ _OBJC_CLASS_$_DNDSHearingTestTriggerManager
 + _DNDSHearingTestTriggerAssertionIdentifier
++ _DNDSHearingTestTriggerManagerClientIdentifier
++ _OBJC_METACLASS_$_DNDSHearingTestEvent
++ _OBJC_CLASS_$_DNDSHearingTestEvent
++ _DNDSLogHearingTestTrigger
 CStrings:
-+ "TB,R,N,GisHearingTestActive,V_hearingTestActive"
-+ "com.apple.donotdisturb.trigger.hearing"
++ "dnds_hasHearingTestEventUpdateEntitlementForClientIdentifier:"
++ "@\"DNDMode\"24@0:8@\"DNDSHearingTestTriggerManager\"16"
++ "DNDSHearingTestTriggerManagerDataSource"
++ "DNDSHearingTestEvent"
 + "Invalidating active assertion for hearing test session trigger in response to event; previousModeID=%!{(MISSING)public}@"
-+ "initWithIsHearingTestActive:"
-+ "_hearingTestActive"
-+ "@\"<DNDSHearingTestTriggerManagerDataSource><DNDSAutomationManagerDataSource>\""
++ "isHearingTestActive"
++ "HearingTestTrigger"
 + "hearingTestModeForHearingTestTriggerManager:"
++ "TB,R,N,GisHearingTestActive,V_hearingTestActive"
++ "@\"DNDSHearingTestTriggerManager\""
++ "DNDSRemoteServiceProviderHearingTestEventDelegate"
 + "Updated assertions for hearing test trigger: mode=%!{(MISSING)public}@"
-+ "B40@0:8@\"DNDSRemoteServiceProvider\"16@\"DNDSHearingTestEvent\"24^@32"
-+ "Invalidating active assertion no mode identifer for hearing test session trigger; previousModeID=%!{(MISSING)public}@"
-+ "remoteServiceProvider:handleHearingTestEvent:withError:"
-+ "T@\"<DNDSHearingTestTriggerManagerDataSource><DNDSAutomationManagerDataSource>\",W,N,V_dataSource"
-+ "DNDSHearingTestTriggerManager"
 + "Updating active assertion to new mode identifer for hearing test session trigger; modeID=%!{(MISSING)public}@ previousModeID=%!{(MISSING)public}@"
 + "refreshWithEvent:"
-+ "hearingTestActive"
-+ "dnds_hasHearingTestEventUpdateEntitlementForClientIdentifier:"
-+ "Invalidating active assertion for hearing test session trigger in response to event, trigger is disabled; previousModeID=%!{(MISSING)public}@"
-+ "DNDSHearingTestEvent"
-+ "\x0f\x0f\x0f\a"
 + "com.apple.donotdisturb.private.hearing-trigger"
-+ "_hearingTestTriggerManager"
++ "hearingTestActive"
++ "T@\"<DNDSHearingTestTriggerManagerDataSource><DNDSAutomationManagerDataSource>\",W,N,V_dataSource"
++ "Invalidating active assertion no mode identifer for hearing test session trigger; previousModeID=%!{(MISSING)public}@"
 + "setHearingTestIsActive:withRequestDetails:completionHandler:"
-+ "HearingTestTrigger"
-+ "DNDRemoteServiceServerHearingTestProtocol"
-+ "DNDSRemoteServiceProviderHearingTestEventDelegate"
++ "\x0f\x0f\x0f\a"
 + "com.apple.private.donotdisturb.0191488e-ff8a-728d-a9f7-08a0a77abd7d.update.client-identifiers"
-+ "@\"DNDMode\"24@0:8@\"DNDSHearingTestTriggerManager\"16"
-+ "isHearingTestActive"
-+ "@\"DNDSHearingTestTriggerManager\""
-+ "DNDSHearingTestTriggerManagerDataSource"
++ "_hearingTestTriggerManager"
++ "_hearingTestActive"
 + "Acquiring assertion for hearing test session trigger in response to event; modeID=%!{(MISSING)public}@"
++ "B40@0:8@\"DNDSRemoteServiceProvider\"16@\"DNDSHearingTestEvent\"24^@32"
++ "@\"<DNDSHearingTestTriggerManagerDataSource><DNDSAutomationManagerDataSource>\""
++ "Invalidating active assertion for hearing test session trigger in response to event, trigger is disabled; previousModeID=%!{(MISSING)public}@"
++ "DNDRemoteServiceServerHearingTestProtocol"
++ "initWithIsHearingTestActive:"
++ "DNDSHearingTestTriggerManager"
++ "remoteServiceProvider:handleHearingTestEvent:withError:"
++ "com.apple.donotdisturb.trigger.hearing"
 - "\x0f\x0f\x0f\x06"
 
 ```

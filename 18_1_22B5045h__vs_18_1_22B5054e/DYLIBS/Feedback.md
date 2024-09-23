@@ -70,7 +70,7 @@
 +  CStrings:  1193
  
 CStrings:
-+ "requireExplicitAttachmentCheck"
 + "setRequireExplicitAttachmentCheck:"
++ "requireExplicitAttachmentCheck"
 
 ```

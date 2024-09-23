@@ -59,12 +59,12 @@
 Symbols:
 + _OBJC_CLASS_$_NSNull
 CStrings:
-+ "CoreMedia_Haptics"
-+ "TimestampEnd"
-+ "EngineOnDuration"
++ "ApplicationName"
 + "logPowerLogEngineOnDuration"
 + "%!s(MISSING):%!d(MISSING) %!s(MISSING): logging engine on duration %!f(MISSING) for %!@(MISSING) to PowerLog..."
++ "CoreMedia_Haptics"
++ "EngineOnDuration"
 + "%!s(MISSING)/EarInteraction_Complete.caf"
-+ "ApplicationName"
++ "TimestampEnd"
 
 ```

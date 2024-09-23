@@ -76,8 +76,8 @@ Symbols:
 + _$s8CloudKit12CKSyncEngineC5StateC6remove24pendingRecordZoneChangesySayAC07PendinghI6ChangeOG_tF
 CStrings:
 + "Swift/IntegerTypes.swift"
-+ "deleteExpiredDataWithZoneNames:"
-+ "Division by zero"
 + "Division results in an overflow"
++ "Division by zero"
++ "deleteExpiredDataWithZoneNames:"
 
 ```

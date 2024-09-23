@@ -64,8 +64,8 @@
 +  CStrings:  4218
  
 Symbols:
-+ _OBJC_METACLASS_$_NFReaderSessionInternalCallbacks
 + _OBJC_CLASS_$_NFReaderSessionInternalCallbacks
++ _OBJC_METACLASS_$_NFReaderSessionInternalCallbacks
 CStrings:
 + "NFReaderSessionInternalCallbacks"
 + "didDetectExternalReader"

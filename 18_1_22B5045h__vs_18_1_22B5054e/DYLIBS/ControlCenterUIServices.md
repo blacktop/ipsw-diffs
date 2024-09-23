@@ -68,15 +68,15 @@
 +  CStrings:  1153
  
 CStrings:
-+ "@24@0:8q16"
-+ "iconGridSizeClassSizesForOrientation:"
-+ "{SBIconImageInfo={CGSize=dd}dd}32@0:8@16q24"
-+ "com.apple.accessibility.controlcenter.hearingassist"
-+ "{SBIconImageInfo={CGSize=dd}dd}32@0:8@\"NSString\"16q24"
 + "com.apple.control-center.WiFiModule"
-+ "@\"SBHIconGridSizeClassSizeMap\"24@0:8q16"
++ "iconGridSizeClassSizesForOrientation:"
++ "{SBIconImageInfo={CGSize=dd}dd}32@0:8@\"NSString\"16q24"
++ "{SBIconImageInfo={CGSize=dd}dd}32@0:8@16q24"
 + "com.apple.control-center.VPNModule"
++ "@24@0:8q16"
++ "com.apple.accessibility.controlcenter.hearingassist"
 + "iconImageInfoForGridSizeClass:orientation:"
++ "@\"SBHIconGridSizeClassSizeMap\"24@0:8q16"
 - "controlsGalleryViewController:didFinishWithControl:error:"
 
 ```

@@ -52,9 +52,9 @@ Symbols:
 + _objc_release_x28
 - ___NSArray0__struct
 CStrings:
-+ "FaceTime"
 + "Phone"
-+ "Apps"
++ "FaceTime"
 + "initWithObjects:"
++ "Apps"
 
 ```

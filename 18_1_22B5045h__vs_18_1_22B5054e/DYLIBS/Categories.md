@@ -62,8 +62,8 @@
 CStrings:
 + "T@\"CKContextClient\",R"
 + "client"
-- "indexVersionId"
 - "postNotificationName:object:userInfo:"
+- "indexVersionId"
 - "registerConfigurationUpdateHandler:"
 
 ```

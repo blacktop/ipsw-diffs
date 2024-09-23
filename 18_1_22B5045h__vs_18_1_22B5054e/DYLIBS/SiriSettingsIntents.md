@@ -69,9 +69,9 @@
 Symbols:
 - _AFDeviceSupportsSystemAssistantExperience
 CStrings:
-- "No DE identifier found in entities: %!s(MISSING)"
-- "Found DE identifier: %!s(MISSING)"
-- "Found DE identifier: %!s(MISSING)."
 - "Checking for DE parse: %!s(MISSING)"
+- "No DE identifier found in entities: %!s(MISSING)"
+- "Found DE identifier: %!s(MISSING)."
+- "Found DE identifier: %!s(MISSING)"
 
 ```

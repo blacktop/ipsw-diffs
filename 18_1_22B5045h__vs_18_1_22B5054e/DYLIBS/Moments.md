@@ -49,7 +49,7 @@
  
 CStrings:
 + "_buildMetadataAndLabelsForBundles:withOptions:"
-+ "build metadata only, count, %!l(MISSING)u, of, %!l(MISSING)u"
 + "_buildMetadataOnlyForEventBundles:"
++ "build metadata only, count, %!l(MISSING)u, of, %!l(MISSING)u"
 
 ```

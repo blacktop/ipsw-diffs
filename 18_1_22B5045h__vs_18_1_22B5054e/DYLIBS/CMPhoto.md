@@ -40,7 +40,7 @@
    CStrings:  1304
  
 Symbols:
-+ _CMPhotoImageHasOpaqueAlphaFromPixelData
 + _CFErrorGetCode
++ _CMPhotoImageHasOpaqueAlphaFromPixelData
 
 ```

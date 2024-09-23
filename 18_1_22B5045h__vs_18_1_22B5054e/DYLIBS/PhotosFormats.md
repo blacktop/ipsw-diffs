@@ -74,14 +74,14 @@ Symbols:
 + _PFAssetBundleAllAuxiliaryResourceKeys
 + _PFAssetBundlePathSegmentationDataKey
 CStrings:
-+ "T@\"NSMutableDictionary\",R,N,V_auxiliaryResourceURLsByKey"
-+ "auxiliaryResourceURLsByKey"
-+ "/AppleInternal/Library/BuildRoots/f3587ae2-763a-11ef-9333-86b8363ea862/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.1.Internal.sdk/usr/local/include/boost/geometry/index/detail/exception.hpp"
-+ "addAuxiliaryResourceAtURL:resourceKey:"
-+ "\x1f\x06"
 + "PFAssetBundlePathSegmentationDataKey"
-+ "URLForAuxiliaryResourceWithKey:"
++ "\x1f\x06"
++ "T@\"NSMutableDictionary\",R,N,V_auxiliaryResourceURLsByKey"
++ "addAuxiliaryResourceAtURL:resourceKey:"
 + "_auxiliaryResourceURLsByKey"
++ "/AppleInternal/Library/BuildRoots/f3587ae2-763a-11ef-9333-86b8363ea862/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.1.Internal.sdk/usr/local/include/boost/geometry/index/detail/exception.hpp"
++ "auxiliaryResourceURLsByKey"
++ "URLForAuxiliaryResourceWithKey:"
 - "/AppleInternal/Library/BuildRoots/6a211a9a-6b65-11ef-a066-86b8363ea862/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.1.Internal.sdk/usr/local/include/boost/geometry/index/detail/exception.hpp"
 - "\x1f\x05"
 

@@ -21,63 +21,6 @@
 <details>
   <summary><i>View Updated</i></summary>
 
->  `com.apple.driver.AppleConvergedPCI`
-
-```diff
-
--107.0.0.0.0
-+108.0.0.0.0
-   __TEXT.__const: 0x1e0
-   __TEXT.__cstring: 0x6c2f
--  __TEXT_EXEC.__text: 0x3eb28
-+  __TEXT_EXEC.__text: 0x3eb64
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0x248
-   __DATA.__common: 0x2d0
-
-   __DATA_CONST.__got: 0x108
-   __DATA_CONST.__mod_init_func: 0x68
-   __DATA_CONST.__mod_term_func: 0x68
--  __DATA_CONST.__const: 0x4858
-+  __DATA_CONST.__const: 0x4868
-   __DATA_CONST.__kalloc_type: 0x1380
--  Functions: 1082
-+  Functions: 1084
-   Symbols:   0
-   CStrings:  895
- 
-
-```
-
->  `com.apple.driver.AppleH16ANEInterface`
-
-```diff
-
--8.105.0.0.0
--  __TEXT.__os_log: 0x31764
-+8.106.0.0.0
-+  __TEXT.__os_log: 0x31890
-   __TEXT.__cstring: 0xabe6
-   __TEXT.__const: 0x630
--  __TEXT_EXEC.__text: 0xa13b0
-+  __TEXT_EXEC.__text: 0xa1714
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0x34d0
-   __DATA.__common: 0x3c8
-
-   __DATA_CONST.__kalloc_var: 0x2ad0
-   Functions: 1827
-   Symbols:   0
--  CStrings:  3488
-+  CStrings:  3491
- 
-CStrings:
-+ "ANE%d: %s: dartUnMapMemoryDescriptorSharedMallocRegion failed. error: 0x%x\n"
-+ "ANE%d: %s: push sensor 0x%x to PTD, value_sum 0x%llx, value_count: 0x%x \n"
-+ "ANE%d: %s: invalid argument, bufferCount requested: %u, maxMemoryMaps: %d\n"
-
-```
-
 >  `com.apple.driver.AppleMobileFileIntegrity`
 
 ```diff
@@ -110,79 +53,44 @@ CStrings:
 +  CStrings:  983
  
 CStrings:
-+ "AMFI: Failed to set cdhash in the SHA1 code directory usage event payload\n"
 + "filename"
-+ "Sep 19 2024"
-+ "AMFI: Failed to set filename in the SHA1 code directory usage event payload\n"
++ "AMFI: Failed to set team identifier in the SHA1 code directory usage event payload\n"
++ "AMFI: Failed to set cdhash in the SHA1 code directory usage event payload\n"
++ "com.apple.sha1.code_directory.usage"
 + "AMFI: Failed to set signing identifier in the SHA1 code directory usage event payload\n"
 + "20:15:57"
-+ "AMFI: Failed to set team identifier in the SHA1 code directory usage event payload\n"
-+ "com.apple.sha1.code_directory.usage"
++ "Sep 19 2024"
++ "AMFI: Failed to set filename in the SHA1 code directory usage event payload\n"
 - "Sep  2 2024"
 - "22:00:30"
 
 ```
 
->  `com.apple.driver.ApplePMGR`
+>  `com.apple.security.sandbox`
 
 ```diff
 
--1555.40.10.0.0
--  __TEXT.__const: 0x248
--  __TEXT.__cstring: 0xe908
--  __TEXT_EXEC.__text: 0x52b3c
-+1555.40.11.502.1
-+  __TEXT.__const: 0x220
-+  __TEXT.__cstring: 0xe92b
-+  __TEXT_EXEC.__text: 0x52d88
+-2401.40.18.0.0
+-  __TEXT.__const: 0x185c99
+-  __TEXT.__cstring: 0x6f37
++2401.40.21.0.0
++  __TEXT.__const: 0x1867c9
++  __TEXT.__cstring: 0x6f6b
+   __TEXT.__os_log: 0x2029
+-  __TEXT_EXEC.__text: 0x30548
++  __TEXT_EXEC.__text: 0x3056c
    __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0x100
-   __DATA.__common: 0x420
+   __DATA.__data: 0x1e0
+   __DATA.__bss: 0x144d0
 
-   __DATA_CONST.__const: 0x77a8
-   __DATA_CONST.__kalloc_type: 0x680
-   __DATA_CONST.__kalloc_var: 0xe10
--  Functions: 2166
-+  Functions: 2170
+   __DATA_CONST.__kalloc_type: 0xa80
+   Functions: 649
    Symbols:   0
--  CStrings:  1591
-+  CStrings:  1592
+-  CStrings:  1298
++  CStrings:  1299
  
 CStrings:
-+ "channelID == FR_COUNTER_CHANNEL_ID"
-
-```
-
->  `com.apple.driver.AppleT8140CLPC`
-
-```diff
-
--1175.40.7.0.0
--  __TEXT.__cstring: 0x2b91
-+1175.40.13.0.0
-+  __TEXT.__cstring: 0x2b92
-   __TEXT.__const: 0xc6c
--  __TEXT_EXEC.__text: 0x4f160
-+  __TEXT_EXEC.__text: 0x4f3f4
-   __TEXT_EXEC.__auth_stubs: 0x0
--  __DATA.__data: 0xaf10
-+  __DATA.__data: 0xaf60
-   __DATA.__common: 0x7ca1
-   __DATA.__bss: 0x278
-   __DATA_CONST.__auth_got: 0x4b0
-   __DATA_CONST.__got: 0xd8
-   __DATA_CONST.__mod_init_func: 0x118
-   __DATA_CONST.__mod_term_func: 0x18
--  __DATA_CONST.__const: 0x5490
-+  __DATA_CONST.__const: 0x54a8
-   __DATA_CONST.__kalloc_type: 0x380
-   __DATA_CONST.__kalloc_var: 0x370
-   Functions: 1315
-CStrings:
-+ "2024-09-19T20:21:12-07:00"
-+ "AppleCLPC-1175.40.13"
-- "2024-09-02T22:18:45-07:00"
-- "AppleCLPC-1175.40.7"
++ "com.apple.private.sandbox.container-query.all-users"
 
 ```
 
@@ -235,33 +143,75 @@ CStrings:
 
 ```
 
->  `com.apple.driver.AppleT8140MCC`
+>  `com.apple.driver.AppleALSColorSensor`
 
 ```diff
 
--39.40.3.0.0
-+39.40.5.0.0
-   __TEXT.__const: 0x48
--  __TEXT.__cstring: 0x4e37
--  __TEXT.__os_log: 0x20b0
--  __TEXT_EXEC.__text: 0x14c40
-+  __TEXT.__cstring: 0x4e76
-+  __TEXT.__os_log: 0x20d9
-+  __TEXT_EXEC.__text: 0x14d50
+-1835.40.24.0.0
++1835.40.26.0.0
+   __TEXT.__const: 0x104
+-  __TEXT.__cstring: 0x36b6
++  __TEXT.__cstring: 0x3736
+   __TEXT.__os_log: 0x96
+-  __TEXT_EXEC.__text: 0x15648
++  __TEXT_EXEC.__text: 0x1582c
    __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0x7d30
-   __DATA.__common: 0x1c8
+   __DATA.__data: 0x188
+   __DATA.__common: 0x1f8
 
-   __DATA_CONST.__kalloc_var: 0x50
-   Functions: 511
+   __DATA_CONST.__kalloc_type: 0x400
+   Functions: 361
    Symbols:   0
--  CStrings:  819
-+  CStrings:  822
+-  CStrings:  403
++  CStrings:  407
  
 CStrings:
-+ "readPerfValue"
-+ "%s:%d: Cntr: '%s' RegValue: %lld  RetValue:%lld\n"
-+ "Cntr: '%s' RegValue: %lld  RetValue:%lld"
++ "%s: CalibrationResult %d\n"
++ "CalibrationResult"
++ "als_skip_initialization"
++ "%s::%s Skip initialization of ALS with orientation %d (%d)\n"
+
+```
+
+>  `com.apple.driver.AppleAOPAudio`
+
+```diff
+
+ 400.9.0.0.0
+-  __TEXT.__cstring: 0xc591
++  __TEXT.__cstring: 0xc588
+   __TEXT.__const: 0x136
+   __TEXT.__os_log: 0xf
+   __TEXT_EXEC.__text: 0x32934
+
+   __DATA_CONST.__kalloc_type: 0xa00
+   Functions: 1277
+   Symbols:   0
+-  CStrings:  1152
++  CStrings:  1151
+ 
+CStrings:
++ "20:15:35"
++ "Sep 19 2024"
+- "Sep  4 2024"
+- "01:26:14"
+- "01:26:15"
+
+```
+
+>  `com.apple.driver.AppleMobileDispH17P-DCP`
+
+```diff
+
+-396.3.0.0.0
++396.9.0.0.0
+   __TEXT.__cstring: 0x56fa
+   __TEXT.__const: 0x1a70
+-  __TEXT_EXEC.__text: 0x20b6c
++  __TEXT_EXEC.__text: 0x20b78
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0x2b8
+   __DATA.__common: 0xf0
 
 ```
 
@@ -292,477 +242,6 @@ CStrings:
 
 ```
 
->  `com.apple.iokit.IOAccessoryManager`
-
-```diff
-
--1004.40.4.0.0
-+1004.40.5.0.0
-   __TEXT.__const: 0x2f8
-   __TEXT.__cstring: 0x1081a
--  __TEXT.__os_log: 0x107e9
--  __TEXT_EXEC.__text: 0xed228
-+  __TEXT.__os_log: 0x10799
-+  __TEXT_EXEC.__text: 0xed224
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0x7e8
-   __DATA.__common: 0x1630
-
-   __DATA_CONST.__auth_ptr: 0x20
-   __DATA_CONST.__mod_init_func: 0x338
-   __DATA_CONST.__mod_term_func: 0x330
--  __DATA_CONST.__const: 0x29b00
-+  __DATA_CONST.__const: 0x29b30
-   __DATA_CONST.__kalloc_type: 0x2440
--  Functions: 4439
-+  Functions: 4440
-   Symbols:   0
-   CStrings:  2788
- 
-
-```
-
->  `com.apple.iokit.IOMobileGraphicsFamily-DCP`
-
-```diff
-
--396.3.0.0.0
-+396.9.0.0.0
-   __TEXT.__cstring: 0x3f2b
-   __TEXT.__const: 0x2f78
--  __TEXT_EXEC.__text: 0x1ff2c
-+  __TEXT_EXEC.__text: 0x1ff54
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0xe0
-   __DATA.__common: 0x26d0
-
-```
-
->  `com.apple.iokit.IOSurface`
-
-```diff
-
--372.2.2.0.0
-+372.2.3.0.0
-   __TEXT.__cstring: 0x4f29
-   __TEXT.__const: 0x48
-   __TEXT.__os_log: 0x518
--  __TEXT_EXEC.__text: 0x2d404
-+  __TEXT_EXEC.__text: 0x2d7c0
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0x178
-   __DATA.__common: 0x3e8
-
-   __DATA_CONST.__got: 0xd0
-   __DATA_CONST.__mod_init_func: 0x78
-   __DATA_CONST.__mod_term_func: 0x78
--  __DATA_CONST.__const: 0x3fc0
-+  __DATA_CONST.__const: 0x4080
-   __DATA_CONST.__kalloc_type: 0xb80
-   __DATA_CONST.__kalloc_var: 0x8c0
--  Functions: 1193
-+  Functions: 1200
-   Symbols:   0
-   CStrings:  523
- 
-
-```
-
->  `com.apple.security.sandbox`
-
-```diff
-
--2401.40.18.0.0
--  __TEXT.__const: 0x185c99
--  __TEXT.__cstring: 0x6f37
-+2401.40.21.0.0
-+  __TEXT.__const: 0x1867c9
-+  __TEXT.__cstring: 0x6f6b
-   __TEXT.__os_log: 0x2029
--  __TEXT_EXEC.__text: 0x30548
-+  __TEXT_EXEC.__text: 0x3056c
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0x1e0
-   __DATA.__bss: 0x144d0
-
-   __DATA_CONST.__kalloc_type: 0xa80
-   Functions: 649
-   Symbols:   0
--  CStrings:  1298
-+  CStrings:  1299
- 
-CStrings:
-+ "com.apple.private.sandbox.container-query.all-users"
-
-```
-
->  `com.apple.AGXG17P`
-
-```diff
-
--322.7.2.0.0
-+322.9.0.0.0
-   __TEXT.__const: 0x4cfc
--  __TEXT.__cstring: 0xec35
-+  __TEXT.__cstring: 0xec5b
-   __TEXT.__os_log: 0x318
--  __TEXT_EXEC.__text: 0xc394c
-+  __TEXT_EXEC.__text: 0xc3b3c
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0x13b8
-   __DATA.__common: 0x10
-
-   __DATA_CONST.__kalloc_var: 0x32f0
-   Functions: 3073
-   Symbols:   0
--  CStrings:  1850
-+  CStrings:  1853
- 
-CStrings:
-+ "deadzone"
-+ "Skipped\n"
-+ "Unable to acquire lock\n"
-+ "Sep 19 2024 20:18:40"
-+ "[%3d]=%8u\t%8u\n"
-- "Sep  3 2024 05:40:50"
-- "[%3d]=%8u\t%8u\t%8u\n"
-
-```
-
->  `com.apple.driver.AppleMobileDispH17P-DCP`
-
-```diff
-
--396.3.0.0.0
-+396.9.0.0.0
-   __TEXT.__cstring: 0x56fa
-   __TEXT.__const: 0x1a70
--  __TEXT_EXEC.__text: 0x20b6c
-+  __TEXT_EXEC.__text: 0x20b78
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0x2b8
-   __DATA.__common: 0xf0
-
-```
-
->  `com.apple.driver.AppleProResHW`
-
-```diff
-
--401.0.0.0.0
-+401.1.0.0.0
-   __TEXT.__const: 0x1d70
--  __TEXT.__os_log: 0x7875
-+  __TEXT.__os_log: 0x790d
-   __TEXT.__cstring: 0xe3e
--  __TEXT_EXEC.__text: 0x22830
-+  __TEXT_EXEC.__text: 0x22800
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0x358
-   __DATA.__common: 0x70
-
-   __DATA_CONST.__const: 0x78c0
-   __DATA_CONST.__kalloc_type: 0x380
-   __DATA_CONST.__kalloc_var: 0xa0
--  Functions: 925
-+  Functions: 923
-   Symbols:   0
--  CStrings:  456
-+  CStrings:  458
- 
-CStrings:
-+ "ERROR AppleProResHW: %d: %s(): ClientType not as expected in EncodeFrame()\n"
-+ "ERROR AppleProResHW: %d: %s(): ClientType not as expected in DecodeFrame()\n"
-
-```
-
->  `com.apple.driver.AppleThunderboltDPAdapterFamily`
-
-```diff
-
--863.0.0.0.0
--  __TEXT.__cstring: 0xd900
-+864.0.0.0.0
-+  __TEXT.__cstring: 0xd924
-   __TEXT.__const: 0x20
--  __TEXT_EXEC.__text: 0x3d618
-+  __TEXT_EXEC.__text: 0x3d668
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0xc8
-   __DATA.__common: 0xd8
-
-   __DATA_CONST.__kalloc_type: 0x140
-   Functions: 356
-   Symbols:   0
--  CStrings:  587
-+  CStrings:  588
- 
-CStrings:
-+ "bw_allocation_panic_value_100_mbps"
-+ "12111112122212121112222221111111111111222222221112"
-- "1211111212221212111222222111111111111122222221112"
-
-```
-
->  `com.apple.driver.AppleALSColorSensor`
-
-```diff
-
--1835.40.24.0.0
-+1835.40.26.0.0
-   __TEXT.__const: 0x104
--  __TEXT.__cstring: 0x36b6
-+  __TEXT.__cstring: 0x3736
-   __TEXT.__os_log: 0x96
--  __TEXT_EXEC.__text: 0x15648
-+  __TEXT_EXEC.__text: 0x1582c
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0x188
-   __DATA.__common: 0x1f8
-
-   __DATA_CONST.__kalloc_type: 0x400
-   Functions: 361
-   Symbols:   0
--  CStrings:  403
-+  CStrings:  407
- 
-CStrings:
-+ "als_skip_initialization"
-+ "%s: CalibrationResult %d\n"
-+ "%s::%s Skip initialization of ALS with orientation %d (%d)\n"
-+ "CalibrationResult"
-
-```
-
->  `com.apple.driver.AppleBasebandM20`
-
-```diff
-
--931.0.0.0.0
-+931.1.0.0.0
-   __TEXT.__const: 0x39d
-   __TEXT.__cstring: 0x7026
-   __TEXT.__os_log: 0x667e
--  __TEXT_EXEC.__text: 0x396ac
-+  __TEXT_EXEC.__text: 0x3969c
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0x190
-   __DATA.__common: 0x200
-
-```
-
->  `com.apple.driver.AppleThunderboltDPOutAdapter`
-
-```diff
-
--863.0.0.0.0
--  __TEXT.__cstring: 0x1c7f4
--  __TEXT_EXEC.__text: 0x48ad8
-+864.0.0.0.0
-+  __TEXT.__cstring: 0x1c7d5
-+  __TEXT_EXEC.__text: 0x489c0
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0x308
-   __DATA.__common: 0x178
-CStrings:
-+ "1211111212221212111222222111111111111122222222111212222211111111112111111111222211222222"
-+ "%lldus AppleThunderboltDPOutAdapterOS<%p>[%u:0x%llx:0x%x]::postCreateDPTunnels - updating estimated bandwidth\n"
-+ "Thunderbolt DP - allocated BW        - DPO [%u:0x%llx:0x%x] - R=%u A=%u G=%u S=0x%08x CMAS=0x%08x DPTXPS=0x%08x\n"
-+ "\"Got a bandwidth allocation request for %u x 100 Mbps!\\n\" @%s:%d"
-+ "12111112122212121112222221111111111111222222221112122222111111111121111111112222"
-+ "AppleThunderboltDPOutAdapterOS<%p>[%u:0x%llx:0x%x]::processBandwidthAllocationRequest - WARNING: We're deactivating or deferring, stop polling for DPTX Req = 0\n"
-+ "%lldus AppleThunderboltDPOutAdapterOS<%p>[%u:0x%llx:0x%x]::processBandwidthAllocationRequest - done, status = 0x%08x, cm_ack_status = 0x%08x dptx_poll_status = 0x%08x\n"
-+ "AppleThunderboltDPOutAdapterOS<%p>[%u:0x%llx:0x%x]::processBandwidthAllocationRequest - ERROR: got an error polling DPTX Req! dptx_poll_status = 0x%08x\n"
-+ "%lldus AppleThunderboltDPOutAdapterOS<%p>[%u:0x%llx:0x%x]::processBandwidthAllocationRequest - Finished CM Ack flow, cm_ack_status = 0x%08x dptx_poll_status = 0x%08x\n"
-+ "\"AppleThunderboltDPOutAdapterOS<%p>[%u:0x%llx:0x%x]::processBandwidthAllocationRequest - ERROR: got an error polling DPTX Req! dptx_poll_status = 0x%08x\\n\" @%s:%d"
-+ "121111121222121211122222211111111111112222222211121222221111111111211111111122221122222"
-- "121111121222121211122222211111111111112222222111212222211111111112111111111222211222222"
-- "12111112122212121112222221111111111111222222211121222221111111111211111111122221122222"
-- "%lldus AppleThunderboltDPOutAdapterCM<%p>[%u:0x%llx:0x%x]::activateAdapter - UNEXPECTED ERROR: HPD State = %u but fDesiredDPState = %u\n"
-- "%lldus AppleThunderboltDPOutAdapterOS<%p>[%u:0x%llx:0x%x]::processBandwidthAllocationRequest - Finished CM Ack flow, cm_ack_status = 0x%08x\n"
-- "Thunderbolt DP - allocated BW        - DPO [%u:0x%llx:0x%x] - R=%u A=%u G=%u S=0x%08x CMAS=0x%08x\n"
-- "%lldus AppleThunderboltDPOutAdapterOS<%p>[%u:0x%llx:0x%x]::processBandwidthAllocationRequest - WARNING: We're deactivating or deferring, stop polling for DPTX Req = 0\n"
-- "%lldus AppleThunderboltDPOutAdapterOS<%p>[%u:0x%llx:0x%x]::processBandwidthAllocationRequest - done, status = 0x%08x, cm_ack_status = 0x%08x\n"
-- "AppleThunderboltDPOutAdapterOS<%p>[%u:0x%llx:0x%x]::processBandwidthAllocationRequest - ERROR: got an error polling DPTX Req! cm_ack_status = 0x%08x\n"
-- "\"AppleThunderboltDPOutAdapterCM<%p>[%u:0x%llx:0x%x]::activateAdapter - UNEXPECTED ERROR: HPD State = %u but fDesiredDPState = %u\\n\" @%s:%d"
-- "\"AppleThunderboltDPOutAdapterOS<%p>[%u:0x%llx:0x%x]::processBandwidthAllocationRequest - ERROR: got an error polling DPTX Req! cm_ack_status = 0x%08x\\n\" @%s:%d"
-- "1211111212221212111222222111111111111122222221112122222111111111121111111112222"
-
-```
-
->  `com.apple.driver.AppleAVD`
-
-```diff
-
--805.0.0.0.0
-+806.1.0.0.0
-   __TEXT.__const: 0x9a8c9
--  __TEXT.__cstring: 0x525c
--  __TEXT.__os_log: 0x12ccb
--  __TEXT_EXEC.__text: 0x45178
-+  __TEXT.__cstring: 0x5277
-+  __TEXT.__os_log: 0x12f18
-+  __TEXT_EXEC.__text: 0x45564
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0x12dc
-   __DATA.__common: 0x78
-
-   __DATA_CONST.__kalloc_type: 0x2600
-   Functions: 1415
-   Symbols:   0
--  CStrings:  1449
-+  CStrings:  1459
- 
-CStrings:
-+ "AppleAVD: ERROR: %s(): kAllocMapTypeIOSurface - ioSurface is read-only\n"
-+ "1211111212221212111111111111111111111111222222222222222222222222222222222222222222222222222112212212222222222222222211111111122222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222212121221222222222222222222212212222222222222222222222122222112122122222222222222222222211112112112112222222222222122122122222222222222222222222222222222222222222222222222222222222222222222212212212222222222222222222222222222222222222222222222222211112"
-+ "AppleAVD: ERROR: %s(): m_commandPatcher == NULL"
-+ "AppleAVD: ERROR: %s(): error %d"
-+ "AppleAVD: addFrameToRefLists failed in->frameNumber = %d"
-+ "AppleAVD: ERROR: %s(): Invalid frameNumber. Expecting %u, got %u"
-+ "AppleAVD: ERROR: mapping->ref_count out-of-range!!!"
-+ "AppleAVD: ERROR: %s(): Width or height out of range %u x %u"
-+ "AppleAVD: ERROR: peekFromQueue failed client %d frame %d"
-+ "AppleAVD: ERROR: %s(): [FrameDone] cID %2d.%d, fNo: %8d, pCycle = %8d, cmpTOffset = %8d, %8d"
-+ "AppleAVD: ERROR: %s(): Received cmdType %u for Foxtrot in %u state"
-+ "21221222222222222222222222222122122222222222222222211"
-+ "addFrameToRefLists"
-- "1211111212221212111111111111111111111111222222222222222222222222222222222222222222222222222112212212222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222212121221222222222222222222212212222222222222222222222122222112122122222222222222222222211112112112112222222222222122122122222222222222222222222222222222222222222222222222222222222222222222212212212222222222222222222222222222222222222222222222222211112"
-- "AppleAVD: WARNING:: [FrameDone] cID %2d.%d, fNo: %8d, pCycle = %8d, cmpTOffset = %8d, %8d"
-- "212212222222222222222222222222122122222222222222222211"
-
-```
-
->  `com.apple.driver.AppleConvergedIPCOLYBTControl`
-
-```diff
-
--107.0.0.0.0
--  __TEXT.__cstring: 0x7ba9
-+108.0.0.0.0
-+  __TEXT.__cstring: 0x7bb7
-   __TEXT.__const: 0x98
--  __TEXT_EXEC.__text: 0x479d0
-+  __TEXT_EXEC.__text: 0x47c64
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0xc8
-   __DATA.__common: 0x1f0
-
-   __DATA_CONST.__got: 0xf8
-   __DATA_CONST.__mod_init_func: 0x58
-   __DATA_CONST.__mod_term_func: 0x58
--  __DATA_CONST.__const: 0x4c70
-+  __DATA_CONST.__const: 0x4c90
-   __DATA_CONST.__kalloc_type: 0xc40
-   __DATA_CONST.__kalloc_var: 0x500
--  Functions: 971
-+  Functions: 974
-   Symbols:   0
--  CStrings:  996
-+  CStrings:  997
- 
-CStrings:
-+ "deviceRunning"
-
-```
-
->  `com.apple.driver.AppleThunderboltDPInAdapter`
-
-```diff
-
--863.0.0.0.0
--  __TEXT.__cstring: 0x2251
-+864.0.0.0.0
-+  __TEXT.__cstring: 0x2253
-   __TEXT_EXEC.__text: 0x82e8
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0xc8
-CStrings:
-+ "1211111212221212111222222111111111111122222222111222"
-+ "121111121222121211122222211111111111112222222211122"
-- "121111121222121211122222211111111111112222222111222"
-- "12111112122212121112222221111111111111222222211122"
-
-```
-
->  `com.apple.filesystems.apfs`
-
-```diff
-
--2313.40.6.0.0
-+2313.40.8.0.1
-   __TEXT.__const: 0x790
--  __TEXT.__cstring: 0x4857e
--  __TEXT_EXEC.__text: 0x13a344
-+  __TEXT.__cstring: 0x48596
-+  __TEXT_EXEC.__text: 0x13a484
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0x690
-   __DATA.__bss: 0xc60
-
-   __DATA_CONST.__kalloc_var: 0x2a30
-   Functions: 2278
-   Symbols:   0
--  CStrings:  6285
-+  CStrings:  6286
- 
-CStrings:
-+ "apfs-2313.40.8.0.1"
-+ "2313.40.8.0.1"
-+ "%s:%d: %s Grafting on a ONEKEY volume\n"
-+ "%s:%d: %s Grafting on an UNENCRYPTED volume\n"
-+ "22:27:56"
-+ "2024/09/18"
-+ "%s:%d: %s graft preflight-check for this volume failed, error = %d\n"
-+ "Sep 18 2024"
-- "apfs-2313.40.6"
-- "Sep  2 2024"
-- "%s:%d: %s preflight-check for encrypted volume graft failed, error = %d\n"
-- "22:00:06"
-- "2024/09/02"
-- "2313.40.6"
-- "%s:%d: %s Grafting on this encrypted volume is not supported.\n"
-
-```
-
->  `com.apple.iokit.IOMobileGraphicsFamily`
-
-```diff
-
--396.3.0.0.0
-+396.9.0.0.0
-   __TEXT.__cstring: 0x81b4
-   __TEXT.__const: 0x800
--  __TEXT_EXEC.__text: 0x2257c
-+  __TEXT_EXEC.__text: 0x22594
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0x2900
-   __DATA.__common: 0x1c924
-
-```
-
->  `com.apple.iokit.IOStorageFamily`
-
-```diff
-
--317.0.0.0.0
-+317.40.2.0.0
-   __TEXT.__cstring: 0x1620
-   __TEXT.__const: 0x2e0
--  __TEXT_EXEC.__text: 0x1d658
-+  __TEXT_EXEC.__text: 0x1d66c
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0x170
-   __DATA.__common: 0x218
-   __DATA.__bss: 0x29
--  __DATA_CONST.__auth_got: 0x400
-+  __DATA_CONST.__auth_got: 0x410
-   __DATA_CONST.__got: 0xd0
-   __DATA_CONST.__mod_init_func: 0x58
-   __DATA_CONST.__mod_term_func: 0x58
-
-```
-
 >  `com.apple.iokit.IOThunderboltFamily`
 
 ```diff
@@ -787,13 +266,13 @@ CStrings:
 +  CStrings:  4780
  
 CStrings:
-+ "%lldus IOThunderboltPath<%p>::setRequiredBandwidth - port = 0x%x, req bw = %u, hw bw = %u, port req bw allocated = %u, bw available = %u, bw delta = %u, req bw = %u\n"
 + "%lldus IOThunderboltPort(%x@%llx:%x)::configureFromDesciption - WORKAROUND: setting HW BW to %u! spec_version = 0x%x fAdapterType = 0x%08x\n"
 + "Sep 19 2024"
-+ "%lldus IOThunderboltPath<%p>::setRequiredBandwidth - deallocating... error port = 0x%x, port = 0x%x, req bw = %u, hw bw = %u, port req bw allocated = %u, bw available = %u, bw delta = %u, req bw = %u\n"
 + "20:17:10"
-- "01:27:30"
++ "%lldus IOThunderboltPath<%p>::setRequiredBandwidth - deallocating... error port = 0x%x, port = 0x%x, req bw = %u, hw bw = %u, port req bw allocated = %u, bw available = %u, bw delta = %u, req bw = %u\n"
++ "%lldus IOThunderboltPath<%p>::setRequiredBandwidth - port = 0x%x, req bw = %u, hw bw = %u, port req bw allocated = %u, bw available = %u, bw delta = %u, req bw = %u\n"
 - "Sep  4 2024"
+- "01:27:30"
 
 ```
 
@@ -825,199 +304,33 @@ CStrings:
 
 ```
 
->  `com.apple.driver.AppleAOPAudio`
+>  `com.apple.driver.ApplePMGR`
 
 ```diff
 
- 400.9.0.0.0
--  __TEXT.__cstring: 0xc591
-+  __TEXT.__cstring: 0xc588
-   __TEXT.__const: 0x136
-   __TEXT.__os_log: 0xf
-   __TEXT_EXEC.__text: 0x32934
-
-   __DATA_CONST.__kalloc_type: 0xa00
-   Functions: 1277
-   Symbols:   0
--  CStrings:  1152
-+  CStrings:  1151
- 
-CStrings:
-+ "20:15:35"
-+ "Sep 19 2024"
-- "01:26:15"
-- "Sep  4 2024"
-- "01:26:14"
-
-```
-
->  `com.apple.driver.AppleAVE2`
-
-```diff
-
--803.18.0.0.0
--  __TEXT.__const: 0x2e8e0
--  __TEXT.__cstring: 0x35317
--  __TEXT.__os_log: 0x40261
--  __TEXT_EXEC.__text: 0x1438b0
-+803.31.1.0.0
-+  __TEXT.__const: 0x2edd0
-+  __TEXT.__cstring: 0x356b5
-+  __TEXT.__os_log: 0x408a7
-+  __TEXT_EXEC.__text: 0x1457e0
+-1555.40.10.0.0
+-  __TEXT.__const: 0x248
+-  __TEXT.__cstring: 0xe908
+-  __TEXT_EXEC.__text: 0x52b3c
++1555.40.11.502.1
++  __TEXT.__const: 0x220
++  __TEXT.__cstring: 0xe92b
++  __TEXT_EXEC.__text: 0x52d88
    __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0x290
-   __DATA.__common: 0x130
+   __DATA.__data: 0x100
+   __DATA.__common: 0x420
 
-   __DATA_CONST.__auth_ptr: 0x8
-   __DATA_CONST.__mod_init_func: 0x38
-   __DATA_CONST.__mod_term_func: 0x38
--  __DATA_CONST.__const: 0x62c8
-+  __DATA_CONST.__const: 0x6310
-   __DATA_CONST.__kalloc_type: 0x1fc0
-   __DATA_CONST.__kalloc_var: 0xfa0
--  Functions: 2480
-+  Functions: 2495
+   __DATA_CONST.__const: 0x77a8
+   __DATA_CONST.__kalloc_type: 0x680
+   __DATA_CONST.__kalloc_var: 0xe10
+-  Functions: 2166
++  Functions: 2170
    Symbols:   0
--  CStrings:  6954
-+  CStrings:  6988
+-  CStrings:  1591
++  CStrings:  1592
  
 CStrings:
-+ "%lld %d AVE %s: %s::%s Enter %p %d %p %d %d %d\n"
-+ "m_pcProvider != nullptr && m_pcPerfSet != nullptr"
-+ "ePw < AVE_DPM_PL_Max"
-+ "%lld %d AVE %s: %s::%s:%d encrypt %p %p %d %p %d | Frame [%d]"
-+ "803.31.1"
-+ "%lld %d AVE %s: %s:%d %s | failed to collect analytics: pixels per frame %p %d %p %d %p %p %d\n"
-+ "%lld %d AVE %s: %s::%s Exit %p %d %p %d 0x%x %d"
-+ "23:08:38"
-+ "Sep 18 2024"
-+ "Analytics: %s(%d) %s(%d%%) %s(%d%%) %s(%d%%) %s(%d%%) %s(%d%%) %s(%d%%)"
-+ "%d-%d "
-+ "VMid2"
-+ "%lld %d AVE %s: %s::%s Enter %p %d 0x%x %d %d\n"
-+ "pd < AVE_PMGR_PD_Max && ps < AVE_PMGR_PState_Max"
-+ "%lld %d AVE %s: Analytics: %s(%d) %s(%d%%) %s(%d%%) %s(%d%%) %s(%d%%) %s(%d%%) %s(%d%%)"
-+ "%lld %d AVE %s: %s::%s Enter %p 0x%llx %d %p %d %p %d\n"
-+ "11112111222222222222"
-+ "%lld %d AVE %s: %s::%s Enter %p 0x%llx %d %p %d %p %d"
-+ "%lld %d AVE %s: %s::%s:%d %s | wrong parameter %p 0x%llx %d %p %d %p %d\n"
-+ "%lld %d AVE %s: %s::%s:%d %s | failed to set perf state %p %d %d %d %d 0x%x"
-+ "CheckPDDepDown"
-+ "%lld %d AVE %s: %s::%s Exit %p %d %p %d 0x%x %d\n"
-+ "Analytics: %s(%d) %s(%d%%) %s(%d%%) %s(%d%%) %s(%d%%) %s(%d%%) %s(%d%%)\n"
-+ "%lld %d AVE %s: %s::%s Enter %p %d 0x%x %d %d"
-+ "%lld %d AVE %s: %s::%s:%d %s | failed to set perf state %p %d %d %d %d 0x%x\n"
-+ "%lld %d AVE %s: PMGR %s | %p %d | State: %s | Clock Gating: %d"
-+ "%lld %d AVE %s: %s::%s Exit %p %d 0x%x %d %d %d"
-+ "PixelsPerFrame"
-+ "CheckPDDepUp"
-+ "%lld %d AVE %s: %s:%d %s | wrong remaining value %d %d %d %d %d"
-+ "%lld %d AVE %s: %s::%s:%d %p %d set perf state %s (%s <- %s)"
-+ "PMGR %s | %p %d | State: %s | Clock Gating: %d"
-+ "%lld %d AVE %s: %s::%s Exit %p 0x%llx %d %p %d %p %d %d\n"
-+ "AVE_PMGR_PD_Min <= pd && pd < AVE_PMGR_PD_Max && AVE_PMGR_PState_Off <= ps && ps < AVE_PMGR_PState_Max"
-+ "PixelsPerSecond"
-+ "%lld %d AVE %s: %s::%s:%d %s | wrong parameter %p 0x%llx %d %p %d %p %d"
-+ "VMid"
-+ "%lld %d AVE %s: %s::%s Exit %p %d %p %d %d %d %d\n"
-+ "%lld %d AVE %s: %s::%s:%d %s | fail in KDEncryptSliceData %p 0x%llx %d %p %p %d %p %d | %d"
-+ "%lld %d AVE %s: %s:%d %s | failed to collect analytics: pixels per frame %p %d %p %d %p %p %d"
-+ "%lld %d AVE %s: %s::%s:%d %p %d set perf state %s (%s <- %s)\n"
-+ "SetPerfState"
-+ "%lld %d AVE %s: %s::%s:%d %p %d keep perf state %d %d\n"
-+ "SetPState"
-+ "%lld %d AVE %s: Analytics: %s(%d) %s(%lld) %s(%lld) %s(%d%%) %s(%d%%) %s(%d%%) %s(%s)%s(%d%%) %s(%d)\n"
-+ "%lld %d AVE %s: %s:%d %s | wrong remaining value %d %d %d %d %d\n"
-+ "CheckPeerDown"
-+ "%lld %d AVE %s: Analytics: %s(%d) %s(%lld) %s(%lld) %s(%d%%) %s(%d%%) %s(%d%%) %s(%s)%s(%d%%) %s(%d)"
-+ "psaFrameInfo[i] != nullptr"
-+ "%lld %d AVE %s: %s::%s:%d %p %d keep perf state %d %d"
-+ "%lld %d AVE %s: %s::%s Exit %p %d %p %d %d %d %d"
-+ "%lld %d AVE %s: %s::%s Exit %p %d 0x%x %d %d %d\n"
-+ "AVE_Client_ClearSurfacePool"
-+ "VMin"
-+ "Analytics: %s(%d) %s(%lld) %s(%lld) %s(%d%%) %s(%d%%) %s(%d%%) %s(%s)%s(%d%%) %s(%d)"
-+ "%lld %d AVE %s: PMGR %s | %p %d | State: %s | Clock Gating: %d\n"
-+ "%lld %d AVE %s: %s:%d %s | invalid frame info %p %p %d %d"
-+ "%lld %d AVE %s: %s::%s Enter %p %d %p %d %d %d"
-+ "Off"
-+ "%lld %d AVE %s: %s::%s:%d %s | fail in KDEncryptSliceData %p 0x%llx %d %p %p %d %p %d | %d\n"
-+ "function-set_perf_state_floor"
-+ "21122222222222222222222222222222222222222222222222"
-+ "%lld %d AVE %s: %s::%s Exit %p 0x%llx %d %p %d %p %d %d"
-+ "%lld %d AVE %s: Analytics: %s(%d) %s(%d%%) %s(%d%%) %s(%d%%) %s(%d%%) %s(%d%%) %s(%d%%)\n"
-+ "%lld %d AVE %s: %s::%s:%d encrypt %p %p %d %p %d | Frame [%d]\n"
-+ "VMax"
-+ "PMGR %s | %p %d | State: %s | Clock Gating: %d\n"
-+ "%lld %d AVE %s: %s:%d %s | invalid frame info %p %p %d %d\n"
-+ "Analytics: %s(%d) %s(%lld) %s(%lld) %s(%d%%) %s(%d%%) %s(%d%%) %s(%s)%s(%d%%) %s(%d)\n"
-- "ret == 0 || ret == -1002"
-- "18:16:46"
-- "ePw < AVE_DPM_PL_Num"
-- "PowerStateRatioMid2"
-- "%lld %d AVE %s: %s::%s Enter %p %d %p %d %d %d %d"
-- "%lld %d AVE %s: %s::%s:%d %s | wrong parameter 0x%llx %d %p %d %p %d"
-- "%lld %d AVE %s: %s:%d %s | invalid frame index %p %d | %d %d %d %d %d"
-- "Analytics: %s(%d) %s(%d%%) %s(%d%%) %s(%d%%) %s(%d%%) %s(%s) %s(%d%%) %s(%d)"
-- "111211222222"
-- "%lld %d AVE %s: %s:%d %s | invalid frame index %p %d | %d %d %d %d %d\n"
-- "%lld %d AVE %s: %s:%d %s | wrong remaining value %d %d %d\n"
-- "%lld %d AVE %s: Analytics: %s(%d) %s(%d) %s(%d%%) %s(%d%%) %s(%d%%) %s(%d%%) %s(%d%%) %s(%d%%)"
-- "%lld %d AVE %s: Analytics: %s(%d) %s(%d%%) %s(%d%%) %s(%d%%) %s(%d%%) %s(%s) %s(%d%%) %s(%d)\n"
-- "ThroughputModeRatioDefault"
-- "%lld %d AVE %s: Analytics: %s(%d) %s(%d) %s(%d%%) %s(%d%%) %s(%d%%) %s(%d%%) %s(%d%%) %s(%d%%)\n"
-- "Sep 12 2024"
-- "(idx >= 0) && (idx < 4)"
-- "%lld %d AVE %s: PMGR %s | %p %d | Power State: %s | Clock Gating: %d\n"
-- "%lld %d AVE %s: %s::%s Exit %p %d %p %d %d %d %d %d\n"
-- "PMGR %s | %p %d | Power State: %s | Clock Gating: %d\n"
-- "Analytics: %s(%d) %s(%d%%) %s(%d%%) %s(%d%%) %s(%d%%) %s(%s) %s(%d%%) %s(%d)\n"
-- "%lld %d AVE %s: %s::%s Enter %p %d %p %d %d %d %d\n"
-- "%lld %d AVE %s: %s:%d %s | wrong remaining value %d %d %d"
-- "%lld %d AVE %s: Analytics: %s(%d) %s(%d%%) %s(%d%%) %s(%d%%) %s(%d%%) %s(%s) %s(%d%%) %s(%d)"
-- "PMGR %s | %p %d | Power State: %s | Clock Gating: %d"
-- "211222222222222222222222222222222222222222222222"
-- "Analytics: %s(%d) %s(%d) %s(%d%%) %s(%d%%) %s(%d%%) %s(%d%%) %s(%d%%) %s(%d%%)\n"
-- "SetPSFlag"
-- "%lld %d AVE %s: PMGR %s | %p %d | Power State: %s | Clock Gating: %d"
-- "%lld %d AVE %s: %s::%s Exit %p %d %p %d %d %d %d %d"
-- "%lld %d AVE %s: %s::%s:%d %s | failed to set power state %p %d 0x%x %d %d\n"
-- "Analytics: %s(%d) %s(%d) %s(%d%%) %s(%d%%) %s(%d%%) %s(%d%%) %s(%d%%) %s(%d%%)"
-- "%lld %d AVE %s: %s::%s:%d %s | failed to set power state %p %d 0x%x %d %d"
-- "%lld %d AVE %s: %s::%s:%d %s | wrong parameter 0x%llx %d %p %d %p %d\n"
-- "803.18.0"
-
-```
-
->  `com.apple.driver.AppleC26Charger`
-
-```diff
-
--76.0.6.0.0
-+76.40.2.0.0
-   __TEXT.__const: 0x177
--  __TEXT.__cstring: 0x1ce9
-+  __TEXT.__cstring: 0x1d4c
-   __TEXT.__os_log: 0x51
--  __TEXT_EXEC.__text: 0x12660
-+  __TEXT_EXEC.__text: 0x127b8
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0xc8
-   __DATA.__common: 0x348
-
-   __DATA_CONST.__kalloc_type: 0x500
-   Functions: 542
-   Symbols:   0
--  CStrings:  214
-+  CStrings:  215
- 
-CStrings:
-+ "%s: serialNumber(%s) 4E code(0x%x) 7E code(0x%llx) \n"
-+ "%s: unknown product serialNumber(%s) 4E code(0x%x) 7E code(0x%llx) \n"
-+ "%s: detected 7E cable-e\n"
-- "%s: EEEE code: %x\n"
-- "%s: unknown product id 0x%x\n"
++ "channelID == FR_COUNTER_CHANNEL_ID"
 
 ```
 
@@ -1054,27 +367,718 @@ CStrings:
 +  CStrings:  344
  
 CStrings:
-+ "Sep 19 2024"
-+ "/options"
-+ "1827.40.7"
 + "aks-inactivity"
++ "/options"
 + "20:22:59"
++ "1827.40.7"
++ "Sep 19 2024"
 - "Sep 12 2024"
-- "1827.40.6"
 - "18:25:52"
+- "1827.40.6"
+
+```
+
+>  `com.apple.driver.AppleT8140MCC`
+
+```diff
+
+-39.40.3.0.0
++39.40.5.0.0
+   __TEXT.__const: 0x48
+-  __TEXT.__cstring: 0x4e37
+-  __TEXT.__os_log: 0x20b0
+-  __TEXT_EXEC.__text: 0x14c40
++  __TEXT.__cstring: 0x4e76
++  __TEXT.__os_log: 0x20d9
++  __TEXT_EXEC.__text: 0x14d50
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0x7d30
+   __DATA.__common: 0x1c8
+
+   __DATA_CONST.__kalloc_var: 0x50
+   Functions: 511
+   Symbols:   0
+-  CStrings:  819
++  CStrings:  822
+ 
+CStrings:
++ "readPerfValue"
++ "%s:%d: Cntr: '%s' RegValue: %lld  RetValue:%lld\n"
++ "Cntr: '%s' RegValue: %lld  RetValue:%lld"
+
+```
+
+>  `com.apple.driver.AppleThunderboltDPInAdapter`
+
+```diff
+
+-863.0.0.0.0
+-  __TEXT.__cstring: 0x2251
++864.0.0.0.0
++  __TEXT.__cstring: 0x2253
+   __TEXT_EXEC.__text: 0x82e8
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0xc8
+CStrings:
++ "1211111212221212111222222111111111111122222222111222"
++ "121111121222121211122222211111111111112222222211122"
+- "12111112122212121112222221111111111111222222211122"
+- "121111121222121211122222211111111111112222222111222"
+
+```
+
+>  `com.apple.driver.AppleAVE2`
+
+```diff
+
+-803.18.0.0.0
+-  __TEXT.__const: 0x2e8e0
+-  __TEXT.__cstring: 0x35317
+-  __TEXT.__os_log: 0x40261
+-  __TEXT_EXEC.__text: 0x1438b0
++803.31.1.0.0
++  __TEXT.__const: 0x2edd0
++  __TEXT.__cstring: 0x356b5
++  __TEXT.__os_log: 0x408a7
++  __TEXT_EXEC.__text: 0x1457e0
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0x290
+   __DATA.__common: 0x130
+
+   __DATA_CONST.__auth_ptr: 0x8
+   __DATA_CONST.__mod_init_func: 0x38
+   __DATA_CONST.__mod_term_func: 0x38
+-  __DATA_CONST.__const: 0x62c8
++  __DATA_CONST.__const: 0x6310
+   __DATA_CONST.__kalloc_type: 0x1fc0
+   __DATA_CONST.__kalloc_var: 0xfa0
+-  Functions: 2480
++  Functions: 2495
+   Symbols:   0
+-  CStrings:  6954
++  CStrings:  6988
+ 
+CStrings:
++ "%lld %d AVE %s: %s::%s Enter %p %d %p %d %d %d"
++ "%lld %d AVE %s: %s::%s:%d %s | wrong parameter %p 0x%llx %d %p %d %p %d"
++ "%lld %d AVE %s: Analytics: %s(%d) %s(%d%%) %s(%d%%) %s(%d%%) %s(%d%%) %s(%d%%) %s(%d%%)\n"
++ "CheckPeerDown"
++ "PixelsPerSecond"
++ "%lld %d AVE %s: %s::%s:%d %s | fail in KDEncryptSliceData %p 0x%llx %d %p %p %d %p %d | %d"
++ "%lld %d AVE %s: %s::%s Exit %p 0x%llx %d %p %d %p %d %d\n"
++ "pd < AVE_PMGR_PD_Max && ps < AVE_PMGR_PState_Max"
++ "%lld %d AVE %s: %s::%s:%d encrypt %p %p %d %p %d | Frame [%d]"
++ "PixelsPerFrame"
++ "%lld %d AVE %s: %s::%s Enter %p 0x%llx %d %p %d %p %d\n"
++ "Sep 18 2024"
++ "Analytics: %s(%d) %s(%d%%) %s(%d%%) %s(%d%%) %s(%d%%) %s(%d%%) %s(%d%%)\n"
++ "%lld %d AVE %s: PMGR %s | %p %d | State: %s | Clock Gating: %d"
++ "%d-%d "
++ "%lld %d AVE %s: %s::%s:%d encrypt %p %p %d %p %d | Frame [%d]\n"
++ "AVE_PMGR_PD_Min <= pd && pd < AVE_PMGR_PD_Max && AVE_PMGR_PState_Off <= ps && ps < AVE_PMGR_PState_Max"
++ "%lld %d AVE %s: Analytics: %s(%d) %s(%d%%) %s(%d%%) %s(%d%%) %s(%d%%) %s(%d%%) %s(%d%%)"
++ "SetPState"
++ "11112111222222222222"
++ "%lld %d AVE %s: %s::%s:%d %p %d set perf state %s (%s <- %s)"
++ "VMid2"
++ "21122222222222222222222222222222222222222222222222"
++ "Analytics: %s(%d) %s(%lld) %s(%lld) %s(%d%%) %s(%d%%) %s(%d%%) %s(%s)%s(%d%%) %s(%d)\n"
++ "%lld %d AVE %s: %s::%s Exit %p %d 0x%x %d %d %d"
++ "%lld %d AVE %s: %s::%s:%d %p %d set perf state %s (%s <- %s)\n"
++ "%lld %d AVE %s: %s:%d %s | wrong remaining value %d %d %d %d %d\n"
++ "%lld %d AVE %s: %s::%s:%d %s | wrong parameter %p 0x%llx %d %p %d %p %d\n"
++ "%lld %d AVE %s: Analytics: %s(%d) %s(%lld) %s(%lld) %s(%d%%) %s(%d%%) %s(%d%%) %s(%s)%s(%d%%) %s(%d)"
++ "AVE_Client_ClearSurfacePool"
++ "%lld %d AVE %s: %s::%s Exit %p 0x%llx %d %p %d %p %d %d"
++ "%lld %d AVE %s: %s::%s Enter %p %d %p %d %d %d\n"
++ "function-set_perf_state_floor"
++ "%lld %d AVE %s: PMGR %s | %p %d | State: %s | Clock Gating: %d\n"
++ "%lld %d AVE %s: %s:%d %s | wrong remaining value %d %d %d %d %d"
++ "CheckPDDepUp"
++ "%lld %d AVE %s: %s::%s Enter %p %d 0x%x %d %d\n"
++ "%lld %d AVE %s: %s:%d %s | failed to collect analytics: pixels per frame %p %d %p %d %p %p %d"
++ "psaFrameInfo[i] != nullptr"
++ "%lld %d AVE %s: %s::%s Exit %p %d %p %d %d %d %d"
++ "PMGR %s | %p %d | State: %s | Clock Gating: %d"
++ "SetPerfState"
++ "ePw < AVE_DPM_PL_Max"
++ "PMGR %s | %p %d | State: %s | Clock Gating: %d\n"
++ "CheckPDDepDown"
++ "%lld %d AVE %s: %s:%d %s | invalid frame info %p %p %d %d"
++ "%lld %d AVE %s: %s:%d %s | invalid frame info %p %p %d %d\n"
++ "VMax"
++ "%lld %d AVE %s: %s::%s:%d %p %d keep perf state %d %d\n"
++ "%lld %d AVE %s: %s::%s:%d %s | failed to set perf state %p %d %d %d %d 0x%x"
++ "%lld %d AVE %s: %s::%s Enter %p %d 0x%x %d %d"
++ "%lld %d AVE %s: %s::%s Exit %p %d %p %d 0x%x %d"
++ "Off"
++ "%lld %d AVE %s: %s::%s Exit %p %d %p %d %d %d %d\n"
++ "%lld %d AVE %s: %s::%s:%d %s | fail in KDEncryptSliceData %p 0x%llx %d %p %p %d %p %d | %d\n"
++ "%lld %d AVE %s: %s::%s Exit %p %d %p %d 0x%x %d\n"
++ "23:08:38"
++ "%lld %d AVE %s: %s:%d %s | failed to collect analytics: pixels per frame %p %d %p %d %p %p %d\n"
++ "%lld %d AVE %s: Analytics: %s(%d) %s(%lld) %s(%lld) %s(%d%%) %s(%d%%) %s(%d%%) %s(%s)%s(%d%%) %s(%d)\n"
++ "%lld %d AVE %s: %s::%s:%d %p %d keep perf state %d %d"
++ "%lld %d AVE %s: %s::%s:%d %s | failed to set perf state %p %d %d %d %d 0x%x\n"
++ "%lld %d AVE %s: %s::%s Enter %p 0x%llx %d %p %d %p %d"
++ "803.31.1"
++ "VMin"
++ "m_pcProvider != nullptr && m_pcPerfSet != nullptr"
++ "Analytics: %s(%d) %s(%lld) %s(%lld) %s(%d%%) %s(%d%%) %s(%d%%) %s(%s)%s(%d%%) %s(%d)"
++ "Analytics: %s(%d) %s(%d%%) %s(%d%%) %s(%d%%) %s(%d%%) %s(%d%%) %s(%d%%)"
++ "VMid"
++ "%lld %d AVE %s: %s::%s Exit %p %d 0x%x %d %d %d\n"
+- "%lld %d AVE %s: Analytics: %s(%d) %s(%d%%) %s(%d%%) %s(%d%%) %s(%d%%) %s(%s) %s(%d%%) %s(%d)"
+- "%lld %d AVE %s: %s::%s Enter %p %d %p %d %d %d %d"
+- "ret == 0 || ret == -1002"
+- "%lld %d AVE %s: PMGR %s | %p %d | Power State: %s | Clock Gating: %d"
+- "%lld %d AVE %s: %s::%s Exit %p %d %p %d %d %d %d %d\n"
+- "PMGR %s | %p %d | Power State: %s | Clock Gating: %d\n"
+- "%lld %d AVE %s: Analytics: %s(%d) %s(%d%%) %s(%d%%) %s(%d%%) %s(%d%%) %s(%s) %s(%d%%) %s(%d)\n"
+- "211222222222222222222222222222222222222222222222"
+- "%lld %d AVE %s: %s::%s:%d %s | failed to set power state %p %d 0x%x %d %d"
+- "(idx >= 0) && (idx < 4)"
+- "%lld %d AVE %s: %s:%d %s | invalid frame index %p %d | %d %d %d %d %d"
+- "PowerStateRatioMid2"
+- "%lld %d AVE %s: Analytics: %s(%d) %s(%d) %s(%d%%) %s(%d%%) %s(%d%%) %s(%d%%) %s(%d%%) %s(%d%%)\n"
+- "111211222222"
+- "Analytics: %s(%d) %s(%d) %s(%d%%) %s(%d%%) %s(%d%%) %s(%d%%) %s(%d%%) %s(%d%%)\n"
+- "%lld %d AVE %s: %s:%d %s | invalid frame index %p %d | %d %d %d %d %d\n"
+- "%lld %d AVE %s: Analytics: %s(%d) %s(%d) %s(%d%%) %s(%d%%) %s(%d%%) %s(%d%%) %s(%d%%) %s(%d%%)"
+- "803.18.0"
+- "%lld %d AVE %s: %s::%s:%d %s | wrong parameter 0x%llx %d %p %d %p %d\n"
+- "ePw < AVE_DPM_PL_Num"
+- "Analytics: %s(%d) %s(%d%%) %s(%d%%) %s(%d%%) %s(%d%%) %s(%s) %s(%d%%) %s(%d)\n"
+- "SetPSFlag"
+- "18:16:46"
+- "PMGR %s | %p %d | Power State: %s | Clock Gating: %d"
+- "%lld %d AVE %s: PMGR %s | %p %d | Power State: %s | Clock Gating: %d\n"
+- "Analytics: %s(%d) %s(%d) %s(%d%%) %s(%d%%) %s(%d%%) %s(%d%%) %s(%d%%) %s(%d%%)"
+- "%lld %d AVE %s: %s::%s Enter %p %d %p %d %d %d %d\n"
+- "%lld %d AVE %s: %s:%d %s | wrong remaining value %d %d %d\n"
+- "%lld %d AVE %s: %s:%d %s | wrong remaining value %d %d %d"
+- "%lld %d AVE %s: %s::%s:%d %s | wrong parameter 0x%llx %d %p %d %p %d"
+- "%lld %d AVE %s: %s::%s Exit %p %d %p %d %d %d %d %d"
+- "Sep 12 2024"
+- "%lld %d AVE %s: %s::%s:%d %s | failed to set power state %p %d 0x%x %d %d\n"
+- "Analytics: %s(%d) %s(%d%%) %s(%d%%) %s(%d%%) %s(%d%%) %s(%s) %s(%d%%) %s(%d)"
+- "ThroughputModeRatioDefault"
+
+```
+
+>  `com.apple.driver.AppleBasebandM20`
+
+```diff
+
+-931.0.0.0.0
++931.1.0.0.0
+   __TEXT.__const: 0x39d
+   __TEXT.__cstring: 0x7026
+   __TEXT.__os_log: 0x667e
+-  __TEXT_EXEC.__text: 0x396ac
++  __TEXT_EXEC.__text: 0x3969c
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0x190
+   __DATA.__common: 0x200
+
+```
+
+>  `com.apple.driver.AppleC26Charger`
+
+```diff
+
+-76.0.6.0.0
++76.40.2.0.0
+   __TEXT.__const: 0x177
+-  __TEXT.__cstring: 0x1ce9
++  __TEXT.__cstring: 0x1d4c
+   __TEXT.__os_log: 0x51
+-  __TEXT_EXEC.__text: 0x12660
++  __TEXT_EXEC.__text: 0x127b8
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0xc8
+   __DATA.__common: 0x348
+
+   __DATA_CONST.__kalloc_type: 0x500
+   Functions: 542
+   Symbols:   0
+-  CStrings:  214
++  CStrings:  215
+ 
+CStrings:
++ "%s: unknown product serialNumber(%s) 4E code(0x%x) 7E code(0x%llx) \n"
++ "%s: serialNumber(%s) 4E code(0x%x) 7E code(0x%llx) \n"
++ "%s: detected 7E cable-e\n"
+- "%s: unknown product id 0x%x\n"
+- "%s: EEEE code: %x\n"
+
+```
+
+>  `com.apple.driver.AppleAVD`
+
+```diff
+
+-805.0.0.0.0
++806.1.0.0.0
+   __TEXT.__const: 0x9a8c9
+-  __TEXT.__cstring: 0x525c
+-  __TEXT.__os_log: 0x12ccb
+-  __TEXT_EXEC.__text: 0x45178
++  __TEXT.__cstring: 0x5277
++  __TEXT.__os_log: 0x12f18
++  __TEXT_EXEC.__text: 0x45564
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0x12dc
+   __DATA.__common: 0x78
+
+   __DATA_CONST.__kalloc_type: 0x2600
+   Functions: 1415
+   Symbols:   0
+-  CStrings:  1449
++  CStrings:  1459
+ 
+CStrings:
++ "AppleAVD: ERROR: %s(): [FrameDone] cID %2d.%d, fNo: %8d, pCycle = %8d, cmpTOffset = %8d, %8d"
++ "AppleAVD: ERROR: mapping->ref_count out-of-range!!!"
++ "AppleAVD: ERROR: peekFromQueue failed client %d frame %d"
++ "21221222222222222222222222222122122222222222222222211"
++ "AppleAVD: ERROR: %s(): kAllocMapTypeIOSurface - ioSurface is read-only\n"
++ "AppleAVD: ERROR: %s(): error %d"
++ "AppleAVD: ERROR: %s(): m_commandPatcher == NULL"
++ "addFrameToRefLists"
++ "AppleAVD: ERROR: %s(): Width or height out of range %u x %u"
++ "AppleAVD: addFrameToRefLists failed in->frameNumber = %d"
++ "AppleAVD: ERROR: %s(): Invalid frameNumber. Expecting %u, got %u"
++ "AppleAVD: ERROR: %s(): Received cmdType %u for Foxtrot in %u state"
++ "1211111212221212111111111111111111111111222222222222222222222222222222222222222222222222222112212212222222222222222211111111122222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222212121221222222222222222222212212222222222222222222222122222112122122222222222222222222211112112112112222222222222122122122222222222222222222222222222222222222222222222222222222222222222222212212212222222222222222222222222222222222222222222222222211112"
+- "AppleAVD: WARNING:: [FrameDone] cID %2d.%d, fNo: %8d, pCycle = %8d, cmpTOffset = %8d, %8d"
+- "212212222222222222222222222222122122222222222222222211"
+- "1211111212221212111111111111111111111111222222222222222222222222222222222222222222222222222112212212222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222212121221222222222222222222212212222222222222222222222122222112122122222222222222222222211112112112112222222222222122122122222222222222222222222222222222222222222222222222222222222222222222212212212222222222222222222222222222222222222222222222222211112"
+
+```
+
+>  `com.apple.driver.AppleConvergedIPCOLYBTControl`
+
+```diff
+
+-107.0.0.0.0
+-  __TEXT.__cstring: 0x7ba9
++108.0.0.0.0
++  __TEXT.__cstring: 0x7bb7
+   __TEXT.__const: 0x98
+-  __TEXT_EXEC.__text: 0x479d0
++  __TEXT_EXEC.__text: 0x47c64
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0xc8
+   __DATA.__common: 0x1f0
+
+   __DATA_CONST.__got: 0xf8
+   __DATA_CONST.__mod_init_func: 0x58
+   __DATA_CONST.__mod_term_func: 0x58
+-  __DATA_CONST.__const: 0x4c70
++  __DATA_CONST.__const: 0x4c90
+   __DATA_CONST.__kalloc_type: 0xc40
+   __DATA_CONST.__kalloc_var: 0x500
+-  Functions: 971
++  Functions: 974
+   Symbols:   0
+-  CStrings:  996
++  CStrings:  997
+ 
+CStrings:
++ "deviceRunning"
+
+```
+
+>  `com.apple.iokit.IOMobileGraphicsFamily`
+
+```diff
+
+-396.3.0.0.0
++396.9.0.0.0
+   __TEXT.__cstring: 0x81b4
+   __TEXT.__const: 0x800
+-  __TEXT_EXEC.__text: 0x2257c
++  __TEXT_EXEC.__text: 0x22594
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0x2900
+   __DATA.__common: 0x1c924
+
+```
+
+>  `com.apple.iokit.IOMobileGraphicsFamily-DCP`
+
+```diff
+
+-396.3.0.0.0
++396.9.0.0.0
+   __TEXT.__cstring: 0x3f2b
+   __TEXT.__const: 0x2f78
+-  __TEXT_EXEC.__text: 0x1ff2c
++  __TEXT_EXEC.__text: 0x1ff54
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0xe0
+   __DATA.__common: 0x26d0
+
+```
+
+>  `com.apple.driver.AppleConvergedPCI`
+
+```diff
+
+-107.0.0.0.0
++108.0.0.0.0
+   __TEXT.__const: 0x1e0
+   __TEXT.__cstring: 0x6c2f
+-  __TEXT_EXEC.__text: 0x3eb28
++  __TEXT_EXEC.__text: 0x3eb64
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0x248
+   __DATA.__common: 0x2d0
+
+   __DATA_CONST.__got: 0x108
+   __DATA_CONST.__mod_init_func: 0x68
+   __DATA_CONST.__mod_term_func: 0x68
+-  __DATA_CONST.__const: 0x4858
++  __DATA_CONST.__const: 0x4868
+   __DATA_CONST.__kalloc_type: 0x1380
+-  Functions: 1082
++  Functions: 1084
+   Symbols:   0
+   CStrings:  895
+ 
+
+```
+
+>  `com.apple.driver.AppleProResHW`
+
+```diff
+
+-401.0.0.0.0
++401.1.0.0.0
+   __TEXT.__const: 0x1d70
+-  __TEXT.__os_log: 0x7875
++  __TEXT.__os_log: 0x790d
+   __TEXT.__cstring: 0xe3e
+-  __TEXT_EXEC.__text: 0x22830
++  __TEXT_EXEC.__text: 0x22800
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0x358
+   __DATA.__common: 0x70
+
+   __DATA_CONST.__const: 0x78c0
+   __DATA_CONST.__kalloc_type: 0x380
+   __DATA_CONST.__kalloc_var: 0xa0
+-  Functions: 925
++  Functions: 923
+   Symbols:   0
+-  CStrings:  456
++  CStrings:  458
+ 
+CStrings:
++ "ERROR AppleProResHW: %d: %s(): ClientType not as expected in DecodeFrame()\n"
++ "ERROR AppleProResHW: %d: %s(): ClientType not as expected in EncodeFrame()\n"
+
+```
+
+>  `com.apple.filesystems.apfs`
+
+```diff
+
+-2313.40.6.0.0
++2313.40.8.0.1
+   __TEXT.__const: 0x790
+-  __TEXT.__cstring: 0x4857e
+-  __TEXT_EXEC.__text: 0x13a344
++  __TEXT.__cstring: 0x48596
++  __TEXT_EXEC.__text: 0x13a484
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0x690
+   __DATA.__bss: 0xc60
+
+   __DATA_CONST.__kalloc_var: 0x2a30
+   Functions: 2278
+   Symbols:   0
+-  CStrings:  6285
++  CStrings:  6286
+ 
+CStrings:
++ "%s:%d: %s graft preflight-check for this volume failed, error = %d\n"
++ "%s:%d: %s Grafting on a ONEKEY volume\n"
++ "2024/09/18"
++ "22:27:56"
++ "apfs-2313.40.8.0.1"
++ "Sep 18 2024"
++ "2313.40.8.0.1"
++ "%s:%d: %s Grafting on an UNENCRYPTED volume\n"
+- "%s:%d: %s preflight-check for encrypted volume graft failed, error = %d\n"
+- "22:00:06"
+- "2313.40.6"
+- "%s:%d: %s Grafting on this encrypted volume is not supported.\n"
+- "Sep  2 2024"
+- "apfs-2313.40.6"
+- "2024/09/02"
+
+```
+
+>  `com.apple.iokit.IOAccessoryManager`
+
+```diff
+
+-1004.40.4.0.0
++1004.40.5.0.0
+   __TEXT.__const: 0x2f8
+   __TEXT.__cstring: 0x1081a
+-  __TEXT.__os_log: 0x107e9
+-  __TEXT_EXEC.__text: 0xed228
++  __TEXT.__os_log: 0x10799
++  __TEXT_EXEC.__text: 0xed224
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0x7e8
+   __DATA.__common: 0x1630
+
+   __DATA_CONST.__auth_ptr: 0x20
+   __DATA_CONST.__mod_init_func: 0x338
+   __DATA_CONST.__mod_term_func: 0x330
+-  __DATA_CONST.__const: 0x29b00
++  __DATA_CONST.__const: 0x29b30
+   __DATA_CONST.__kalloc_type: 0x2440
+-  Functions: 4439
++  Functions: 4440
+   Symbols:   0
+   CStrings:  2788
+ 
+
+```
+
+>  `com.apple.iokit.IOStorageFamily`
+
+```diff
+
+-317.0.0.0.0
++317.40.2.0.0
+   __TEXT.__cstring: 0x1620
+   __TEXT.__const: 0x2e0
+-  __TEXT_EXEC.__text: 0x1d658
++  __TEXT_EXEC.__text: 0x1d66c
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0x170
+   __DATA.__common: 0x218
+   __DATA.__bss: 0x29
+-  __DATA_CONST.__auth_got: 0x400
++  __DATA_CONST.__auth_got: 0x410
+   __DATA_CONST.__got: 0xd0
+   __DATA_CONST.__mod_init_func: 0x58
+   __DATA_CONST.__mod_term_func: 0x58
+
+```
+
+>  `com.apple.AGXG17P`
+
+```diff
+
+-322.7.2.0.0
++322.9.0.0.0
+   __TEXT.__const: 0x4cfc
+-  __TEXT.__cstring: 0xec35
++  __TEXT.__cstring: 0xec5b
+   __TEXT.__os_log: 0x318
+-  __TEXT_EXEC.__text: 0xc394c
++  __TEXT_EXEC.__text: 0xc3b3c
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0x13b8
+   __DATA.__common: 0x10
+
+   __DATA_CONST.__kalloc_var: 0x32f0
+   Functions: 3073
+   Symbols:   0
+-  CStrings:  1850
++  CStrings:  1853
+ 
+CStrings:
++ "deadzone"
++ "Skipped\n"
++ "Sep 19 2024 20:18:40"
++ "[%3d]=%8u\t%8u\n"
++ "Unable to acquire lock\n"
+- "[%3d]=%8u\t%8u\t%8u\n"
+- "Sep  3 2024 05:40:50"
+
+```
+
+>  `com.apple.driver.AppleH16ANEInterface`
+
+```diff
+
+-8.105.0.0.0
+-  __TEXT.__os_log: 0x31764
++8.106.0.0.0
++  __TEXT.__os_log: 0x31890
+   __TEXT.__cstring: 0xabe6
+   __TEXT.__const: 0x630
+-  __TEXT_EXEC.__text: 0xa13b0
++  __TEXT_EXEC.__text: 0xa1714
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0x34d0
+   __DATA.__common: 0x3c8
+
+   __DATA_CONST.__kalloc_var: 0x2ad0
+   Functions: 1827
+   Symbols:   0
+-  CStrings:  3488
++  CStrings:  3491
+ 
+CStrings:
++ "ANE%d: %s: push sensor 0x%x to PTD, value_sum 0x%llx, value_count: 0x%x \n"
++ "ANE%d: %s: dartUnMapMemoryDescriptorSharedMallocRegion failed. error: 0x%x\n"
++ "ANE%d: %s: invalid argument, bufferCount requested: %u, maxMemoryMaps: %d\n"
+
+```
+
+>  `com.apple.driver.AppleT8140CLPC`
+
+```diff
+
+-1175.40.7.0.0
+-  __TEXT.__cstring: 0x2b91
++1175.40.13.0.0
++  __TEXT.__cstring: 0x2b92
+   __TEXT.__const: 0xc6c
+-  __TEXT_EXEC.__text: 0x4f160
++  __TEXT_EXEC.__text: 0x4f3f4
+   __TEXT_EXEC.__auth_stubs: 0x0
+-  __DATA.__data: 0xaf10
++  __DATA.__data: 0xaf60
+   __DATA.__common: 0x7ca1
+   __DATA.__bss: 0x278
+   __DATA_CONST.__auth_got: 0x4b0
+   __DATA_CONST.__got: 0xd8
+   __DATA_CONST.__mod_init_func: 0x118
+   __DATA_CONST.__mod_term_func: 0x18
+-  __DATA_CONST.__const: 0x5490
++  __DATA_CONST.__const: 0x54a8
+   __DATA_CONST.__kalloc_type: 0x380
+   __DATA_CONST.__kalloc_var: 0x370
+   Functions: 1315
+CStrings:
++ "2024-09-19T20:21:12-07:00"
++ "AppleCLPC-1175.40.13"
+- "2024-09-02T22:18:45-07:00"
+- "AppleCLPC-1175.40.7"
+
+```
+
+>  `com.apple.driver.AppleThunderboltDPAdapterFamily`
+
+```diff
+
+-863.0.0.0.0
+-  __TEXT.__cstring: 0xd900
++864.0.0.0.0
++  __TEXT.__cstring: 0xd924
+   __TEXT.__const: 0x20
+-  __TEXT_EXEC.__text: 0x3d618
++  __TEXT_EXEC.__text: 0x3d668
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0xc8
+   __DATA.__common: 0xd8
+
+   __DATA_CONST.__kalloc_type: 0x140
+   Functions: 356
+   Symbols:   0
+-  CStrings:  587
++  CStrings:  588
+ 
+CStrings:
++ "12111112122212121112222221111111111111222222221112"
++ "bw_allocation_panic_value_100_mbps"
+- "1211111212221212111222222111111111111122222221112"
+
+```
+
+>  `com.apple.driver.AppleThunderboltDPOutAdapter`
+
+```diff
+
+-863.0.0.0.0
+-  __TEXT.__cstring: 0x1c7f4
+-  __TEXT_EXEC.__text: 0x48ad8
++864.0.0.0.0
++  __TEXT.__cstring: 0x1c7d5
++  __TEXT_EXEC.__text: 0x489c0
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0x308
+   __DATA.__common: 0x178
+CStrings:
++ "12111112122212121112222221111111111111222222221112122222111111111121111111112222"
++ "\"Got a bandwidth allocation request for %u x 100 Mbps!\\n\" @%s:%d"
++ "121111121222121211122222211111111111112222222211121222221111111111211111111122221122222"
++ "AppleThunderboltDPOutAdapterOS<%p>[%u:0x%llx:0x%x]::processBandwidthAllocationRequest - WARNING: We're deactivating or deferring, stop polling for DPTX Req = 0\n"
++ "1211111212221212111222222111111111111122222222111212222211111111112111111111222211222222"
++ "Thunderbolt DP - allocated BW        - DPO [%u:0x%llx:0x%x] - R=%u A=%u G=%u S=0x%08x CMAS=0x%08x DPTXPS=0x%08x\n"
++ "%lldus AppleThunderboltDPOutAdapterOS<%p>[%u:0x%llx:0x%x]::postCreateDPTunnels - updating estimated bandwidth\n"
++ "%lldus AppleThunderboltDPOutAdapterOS<%p>[%u:0x%llx:0x%x]::processBandwidthAllocationRequest - done, status = 0x%08x, cm_ack_status = 0x%08x dptx_poll_status = 0x%08x\n"
++ "AppleThunderboltDPOutAdapterOS<%p>[%u:0x%llx:0x%x]::processBandwidthAllocationRequest - ERROR: got an error polling DPTX Req! dptx_poll_status = 0x%08x\n"
++ "%lldus AppleThunderboltDPOutAdapterOS<%p>[%u:0x%llx:0x%x]::processBandwidthAllocationRequest - Finished CM Ack flow, cm_ack_status = 0x%08x dptx_poll_status = 0x%08x\n"
++ "\"AppleThunderboltDPOutAdapterOS<%p>[%u:0x%llx:0x%x]::processBandwidthAllocationRequest - ERROR: got an error polling DPTX Req! dptx_poll_status = 0x%08x\\n\" @%s:%d"
+- "12111112122212121112222221111111111111222222211121222221111111111211111111122221122222"
+- "%lldus AppleThunderboltDPOutAdapterOS<%p>[%u:0x%llx:0x%x]::processBandwidthAllocationRequest - WARNING: We're deactivating or deferring, stop polling for DPTX Req = 0\n"
+- "%lldus AppleThunderboltDPOutAdapterOS<%p>[%u:0x%llx:0x%x]::processBandwidthAllocationRequest - Finished CM Ack flow, cm_ack_status = 0x%08x\n"
+- "%lldus AppleThunderboltDPOutAdapterOS<%p>[%u:0x%llx:0x%x]::processBandwidthAllocationRequest - done, status = 0x%08x, cm_ack_status = 0x%08x\n"
+- "Thunderbolt DP - allocated BW        - DPO [%u:0x%llx:0x%x] - R=%u A=%u G=%u S=0x%08x CMAS=0x%08x\n"
+- "\"AppleThunderboltDPOutAdapterOS<%p>[%u:0x%llx:0x%x]::processBandwidthAllocationRequest - ERROR: got an error polling DPTX Req! cm_ack_status = 0x%08x\\n\" @%s:%d"
+- "1211111212221212111222222111111111111122222221112122222111111111121111111112222"
+- "AppleThunderboltDPOutAdapterOS<%p>[%u:0x%llx:0x%x]::processBandwidthAllocationRequest - ERROR: got an error polling DPTX Req! cm_ack_status = 0x%08x\n"
+- "121111121222121211122222211111111111112222222111212222211111111112111111111222211222222"
+- "\"AppleThunderboltDPOutAdapterCM<%p>[%u:0x%llx:0x%x]::activateAdapter - UNEXPECTED ERROR: HPD State = %u but fDesiredDPState = %u\\n\" @%s:%d"
+- "%lldus AppleThunderboltDPOutAdapterCM<%p>[%u:0x%llx:0x%x]::activateAdapter - UNEXPECTED ERROR: HPD State = %u but fDesiredDPState = %u\n"
+
+```
+
+>  `com.apple.iokit.IOSurface`
+
+```diff
+
+-372.2.2.0.0
++372.2.3.0.0
+   __TEXT.__cstring: 0x4f29
+   __TEXT.__const: 0x48
+   __TEXT.__os_log: 0x518
+-  __TEXT_EXEC.__text: 0x2d404
++  __TEXT_EXEC.__text: 0x2d7c0
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0x178
+   __DATA.__common: 0x3e8
+
+   __DATA_CONST.__got: 0xd0
+   __DATA_CONST.__mod_init_func: 0x78
+   __DATA_CONST.__mod_term_func: 0x78
+-  __DATA_CONST.__const: 0x3fc0
++  __DATA_CONST.__const: 0x4080
+   __DATA_CONST.__kalloc_type: 0xb80
+   __DATA_CONST.__kalloc_var: 0x8c0
+-  Functions: 1193
++  Functions: 1200
+   Symbols:   0
+   CStrings:  523
+ 
 
 ```
 
 </details>
 
+### KDKs
+
+- [KDK DIFF](KDK.md)
+
 ## MachO
 
 ### 🆕 NEW (5)
 
+- `/System/Library/PrivateFrameworks/BreathingAlgorithms.framework/PlugIns/BreathingDisturbanceAnalyzerDiagnosticExtension.appex/BreathingDisturbanceAnalyzerDiagnosticExtension`
 - `/System/Library/ControlCenter/Bundles/VPNModule.bundle/VPNModule`
 - `/System/Library/DoNotDisturb/ClientBundles/com.apple.donotdisturb.private.hearing-trigger.bundle/com.apple.donotdisturb.private.hearing-trigger`
 - `/System/Library/ControlCenter/Bundles/WiFiModule.bundle/WiFiModule`
-- `/System/Library/PrivateFrameworks/BreathingAlgorithms.framework/PlugIns/BreathingDisturbanceAnalyzerDiagnosticExtension.appex/BreathingDisturbanceAnalyzerDiagnosticExtension`
 - `/System/Library/Frameworks/ContactsUI.framework/PlugIns/FullAccessSettingsPromptExtension.appex/FullAccessSettingsPromptExtension`
 
 ### ⬆️ Updated (588)
@@ -1718,22 +1722,22 @@ Symbols:
 + __ZN20CAVECommonController13setFirstFrameEj
 CStrings:
 + "8002.24.0"
-+ "%s::%s:%d %lld FirstFrame %d"
-+ "SPSparams.VUI.fixed_frame_rate_flag %d\n"
-+ "%s::%s:%d %lld %d %d %d | %lld | %d %d %d | %d %d %d %d"
-+ "%s:%d [RC Check] %p %d %p %p %d %d %d %d %d"
-+ "SPSparams.VUI.time_scale %d\n"
-+ "setFirstFrame"
-+ "%s::%s:%d %lld frameInfo[%d].iFrameNum %d"
 + "%s::%s:%d | %lld %d %d %d | %lld | %d %d %d | %d %d %d %d"
++ "%s::%s:%d %lld FirstFrame %d"
++ "setFirstFrame"
++ "SPSparams.VUI.fixed_frame_rate_flag %d\n"
++ "%s:%d [RC Check] %p %d %p %p %d %d %d %d %d"
++ "%s::%s:%d %lld frameInfo[%d].iFrameNum %d"
++ "%s::%s:%d %lld %d %d %d | %lld | %d %d %d | %d %d %d %d"
 + "SPSparams.VUI.num_units_in_tick %d\n"
-- "HEAD"
-- "%s::%s:%d %lld %d %d | %lld | %d %d %d | %d %d %d %d"
-- "8002.21.0"
-- "%s:%d [RC Check] %p %d %p %p %d %d %d %d\n"
++ "SPSparams.VUI.time_scale %d\n"
 - "%s::%s:%d | %lld %d %d | %lld | %d %d %d | %d %d %d %d"
 - "XBS_AVE"
+- "8002.21.0"
+- "HEAD"
 - "%s::%s:%d frameInfo[%d].iFrameNun %d"
+- "%s::%s:%d %lld %d %d | %lld | %d %d %d | %d %d %d %d"
+- "%s:%d [RC Check] %p %d %p %p %d %d %d %d\n"
 
 ```
 
@@ -1761,22 +1765,22 @@ CStrings:
 +  CStrings:  17281
  
 CStrings:
-+ "%s %d: use cached ROI timeStamp delta=%f\n"
-+ "LRNZ+ %u I2C Base Address is now 0x%x\n"
-+ "LRNZ+ %u Changing I2C Base Address 0x%x -> 0x%x\n"
-+ "16:48:23"
-+ "[%s]AE will use cached params! cur ts %llu us, last stop ts %llu us  cachedAEExpiryDuration %u us\n"
-+ "getInitEITUpdate"
-+ "AE:cached lux level %.4f cached param valid %d. ch %zu\n"
-+ "LRNZ+ %u I2C Base Address Change Failed!\n"
 + "Sep 17 2024"
-+ "%s %d: use cached initEIT=%f, initSifrEIT=%llu\n"
++ "16:48:23"
++ "LRNZ+ %u I2C Base Address Change Failed!\n"
++ "LRNZ+ %u I2C Base Address is now 0x%x\n"
++ "getInitEITUpdate"
++ "[%s]AE will use cached params! cur ts %llu us, last stop ts %llu us  cachedAEExpiryDuration %u us\n"
 + "ch %zu bUsingCachedROI %u\n"
++ "AE:cached lux level %.4f cached param valid %d. ch %zu\n"
 + "[%s]AWB will use cached params! cur ts %llu us, last stop ts %llu us  cachedAEExpiryDuration %u us\n"
++ "%s %d: use cached initEIT=%f, initSifrEIT=%llu\n"
++ "LRNZ+ %u Changing I2C Base Address 0x%x -> 0x%x\n"
++ "%s %d: use cached ROI timeStamp delta=%f\n"
 - "23:06:00"
 - "AE:Using last frame cached lux level %.4f for first frame. ch %zu\n"
-- "[%s]AE will use cached luxlevel! cur ts %llu us, last stop ts %llu us  cachedAEExpiryDuration %u us\n"
 - "Sep  2 2024"
+- "[%s]AE will use cached luxlevel! cur ts %llu us, last stop ts %llu us  cachedAEExpiryDuration %u us\n"
 
 ```
 
@@ -1795,11 +1799,11 @@ CStrings:
    __TEXT.__constructor: 0x0
    __TEXT._rtk_mtab: 0x310
 CStrings:
++ "2032.40.4"
 + "2032.40.4~59"
 + "AppleStorageFirmware-2032.40.4~59"
-+ "2032.40.4"
-- "AppleStorageFirmware-2032.40.3~453"
 - "2032.40.3"
+- "AppleStorageFirmware-2032.40.3~453"
 - "2032.40.3~453"
 
 ```
@@ -1826,9 +1830,9 @@ CStrings:
 +  CStrings:  3288
  
 CStrings:
-+ "Sep 17 2024"
-+ "\x1b[31m\"ABORT queue %d slot %d (nid %d) multi segment\"\x1b[39m"
 + "13:53:00"
++ "\x1b[31m\"ABORT queue %d slot %d (nid %d) multi segment\"\x1b[39m"
++ "Sep 17 2024"
 - "Sep  2 2024"
 - "23:03:21"
 
@@ -1852,9 +1856,9 @@ CStrings:
 + "2032.40.4"
 + "2032.40.4~59"
 + "AppleStorageFirmware-2032.40.4~59"
-- "2032.40.3~453"
 - "AppleStorageFirmware-2032.40.3~453"
 - "2032.40.3"
+- "2032.40.3~453"
 
 ```
 
@@ -1889,9 +1893,9 @@ CStrings:
 + "Code Signing Monitor Image4 Module Version 7.0.0: Tue Sep 17 09:54:32 PDT 2024; root:AppleImage4_txm-320.0.11~1898/libimage4_TXM/RELEASE_ARM64E"
 + "@(#)VERSION:Code Signing Monitor Image4 Module Version 7.0.0: Tue Sep 17 09:54:32 PDT 2024; root:AppleImage4_txm-320.0.11~1898/libimage4_TXM/RELEASE_ARM64E"
 + "txm.iphoneos.release.TrustedExecutionMonitor_Guarded-135.40.4"
+- "txm.iphoneos.release.TrustedExecutionMonitor_Guarded-135.40.3"
 - "Code Signing Monitor Image4 Module Version 7.0.0: Thu Aug 29 21:08:37 PDT 2024; root:AppleImage4_txm-320.0.11~1781/libimage4_TXM/RELEASE_ARM64E"
 - "@(#)VERSION:Code Signing Monitor Image4 Module Version 7.0.0: Thu Aug 29 21:08:37 PDT 2024; root:AppleImage4_txm-320.0.11~1781/libimage4_TXM/RELEASE_ARM64E"
-- "txm.iphoneos.release.TrustedExecutionMonitor_Guarded-135.40.3"
 
 ```
 
@@ -1911,11 +1915,11 @@ CStrings:
 
 #### 🆕 NEW (6)
 
+- `/System/Library/PrivateFrameworks/BreathingAlgorithms.framework/BreathingAlgorithms`
 - `/System/Library/PrivateFrameworks/HearingTestUI.framework/HearingTestUI`
 - `/System/Library/AccessibilityBundles/HearingModeUI.axbundle/HearingModeUI`
-- `/usr/lib/libRosetta.dylib`
-- `/System/Library/PrivateFrameworks/BreathingAlgorithms.framework/BreathingAlgorithms`
 - `/usr/lib/liboah.dylib`
+- `/usr/lib/libRosetta.dylib`
 - `/System/Library/AccessibilityBundles/HearingTestUI.axbundle/HearingTestUI`
 
 #### ❌ Removed (1)
@@ -3122,6 +3126,60 @@ CStrings:
 <details>
   <summary><i>View Updated</i></summary>
 
+#### Photos.plist
+
+>  `Domain/Photos.plist`
+
+```diff
+
+ 		<key>DevelopmentPhase</key>
+ 		<string>FeatureComplete</string>
+ 	</dict>
+-	<key>SocialGroupLemonadeUI</key>
+-	<dict>
+-		<key>DevelopmentPhase</key>
+-		<string>FeatureComplete</string>
+-		<key>DisclosureRequired</key>
+-		<string>ec8cdec7-e0c1-b381-4bba-7855fb16ef88</string>
+-	</dict>
+ 	<key>SpotlightPrivateIndex</key>
+ 	<dict>
+ 		<key>DevelopmentPhase</key>
+
+ 		<key>DevelopmentPhase</key>
+ 		<string>FeatureComplete</string>
+ 	</dict>
+-	<key>iCloudQuotaInAppMessaging</key>
+-	<dict>
+-		<key>DevelopmentPhase</key>
+-		<string>FeatureComplete</string>
+-	</dict>
+ </dict>
+ </plist>
+ 
+
+```
+
+#### Contacts.plist
+
+>  `Domain/Contacts.plist`
+
+```diff
+
+ 		<key>DevelopmentPhase</key>
+ 		<string>FeatureComplete</string>
+ 	</dict>
++	<key>FullAccessSettingsPrompt</key>
++	<dict>
++		<key>DevelopmentPhase</key>
++		<string>FeatureComplete</string>
++	</dict>
+ 	<key>LimitedAccess</key>
+ 	<dict>
+ 		<key>DevelopmentPhase</key>
+
+```
+
 #### GameCenter.plist
 
 >  `Domain/GameCenter.plist`
@@ -3137,6 +3195,46 @@ CStrings:
 +		<string>FeatureComplete</string>
 +	</dict>
  	<key>gameoverlayui_with_oldui</key>
+ 	<dict>
+ 		<key>DevelopmentPhase</key>
+
+```
+
+#### ProactiveHarvesting.plist
+
+>  `Domain/ProactiveHarvesting.plist`
+
+```diff
+
+ 		<key>DisclosureRequired</key>
+ 		<string>ff7b5dcd-7912-95de-a1cd-7d8c226da489</string>
+ 	</dict>
++	<key>QuotedRegions</key>
++	<dict>
++		<key>DevelopmentPhase</key>
++		<string>FeatureComplete</string>
++	</dict>
+ 	<key>UrgentNotificationsMaxCount</key>
+ 	<dict>
+ 		<key>DevelopmentPhase</key>
+
+```
+
+#### duetexpertd.plist
+
+>  `Domain/duetexpertd.plist`
+
+```diff
+
+ 		<key>DisclosureRequired</key>
+ 		<string>962bbdc2-15fe-b429-6de4-344847c93104</string>
+ 	</dict>
++	<key>recentAppsHeuristic</key>
++	<dict>
++		<key>DevelopmentPhase</key>
++		<string>FeatureComplete</string>
++	</dict>
+ 	<key>sports</key>
  	<dict>
  		<key>DevelopmentPhase</key>
 
@@ -3164,21 +3262,63 @@ CStrings:
 
 ```
 
-#### ProactiveHarvesting.plist
+#### HomePodSettings.plist
 
->  `Domain/ProactiveHarvesting.plist`
+>  `Domain/HomePodSettings.plist`
+
+```diff
+
+ 		<key>DevelopmentPhase</key>
+ 		<string>FeatureComplete</string>
+ 	</dict>
+-	<key>Opal</key>
+-	<dict>
+-		<key>DevelopmentPhase</key>
+-		<string>FeatureComplete</string>
+-	</dict>
+ </dict>
+ </plist>
+ 
+
+```
+
+#### Oneness.plist
+
+>  `Domain/Oneness.plist`
 
 ```diff
 
  		<key>DisclosureRequired</key>
- 		<string>ff7b5dcd-7912-95de-a1cd-7d8c226da489</string>
+ 		<string>8f6f8e85-8d9d-8330-8c15-a603765b90f3</string>
  	</dict>
-+	<key>QuotedRegions</key>
++	<key>DragAndDrop</key>
 +	<dict>
 +		<key>DevelopmentPhase</key>
 +		<string>FeatureComplete</string>
++		<key>DisclosureRequired</key>
++		<string>8f6f8e85-8d9d-8330-8c15-a603765b90f3</string>
 +	</dict>
- 	<key>UrgentNotificationsMaxCount</key>
+ 	<key>Shell</key>
+ 	<dict>
+ 		<key>DevelopmentPhase</key>
+
+```
+
+#### PeopleSuggester.plist
+
+>  `Domain/PeopleSuggester.plist`
+
+```diff
+
+ <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+ <plist version="1.0">
+ <dict>
++	<key>pass_data_collection_only</key>
++	<dict>
++		<key>Enabled</key>
++		<true/>
++	</dict>
+ 	<key>pass_v2</key>
  	<dict>
  		<key>DevelopmentPhase</key>
 
@@ -3204,48 +3344,23 @@ CStrings:
 
 ```
 
-#### duetexpertd.plist
+#### TVApp.plist
 
->  `Domain/duetexpertd.plist`
+>  `Domain/TVApp.plist`
 
 ```diff
 
- 		<key>DisclosureRequired</key>
- 		<string>962bbdc2-15fe-b429-6de4-344847c93104</string>
+ 		<key>Enabled</key>
+ 		<true/>
  	</dict>
-+	<key>recentAppsHeuristic</key>
++	<key>testarossa</key>
 +	<dict>
-+		<key>DevelopmentPhase</key>
-+		<string>FeatureComplete</string>
++		<key>Enabled</key>
++		<true/>
 +	</dict>
- 	<key>sports</key>
- 	<dict>
- 		<key>DevelopmentPhase</key>
-
-```
-
-#### UIKit.plist
-
->  `Domain/UIKit.plist`
-
-```diff
-
- 		<key>DevelopmentPhase</key>
- 		<string>FeatureComplete</string>
- 	</dict>
--	<key>global_edge_swipe_touches_ios</key>
--	<dict>
--		<key>DevelopmentPhase</key>
--		<string>FeatureComplete</string>
--	</dict>
--	<key>home_affordance_single_tap_gate</key>
--	<dict>
--		<key>DevelopmentPhase</key>
--		<string>FeatureComplete</string>
--	</dict>
- 	<key>inline_dictation_glow_effect</key>
- 	<dict>
- 		<key>DevelopmentPhase</key>
+ </dict>
+ </plist>
+ 
 
 ```
 
@@ -3284,23 +3399,35 @@ CStrings:
 
 ```
 
-#### Contacts.plist
+#### ConnectedAudio.plist
 
->  `Domain/Contacts.plist`
+>  `Domain/ConnectedAudio.plist`
 
 ```diff
 
- 		<key>DevelopmentPhase</key>
- 		<string>FeatureComplete</string>
- 	</dict>
-+	<key>FullAccessSettingsPrompt</key>
+ <?xml version="1.0" encoding="UTF-8"?>
+ <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+ <plist version="1.0">
+-<dict/>
++<dict>
++	<key>HearingAid</key>
 +	<dict>
 +		<key>DevelopmentPhase</key>
 +		<string>FeatureComplete</string>
 +	</dict>
- 	<key>LimitedAccess</key>
- 	<dict>
- 		<key>DevelopmentPhase</key>
++	<key>HearingProtection</key>
++	<dict>
++		<key>DevelopmentPhase</key>
++		<string>FeatureComplete</string>
++	</dict>
++	<key>HearingTest</key>
++	<dict>
++		<key>DevelopmentPhase</key>
++		<string>FeatureComplete</string>
++	</dict>
++</dict>
+ </plist>
+ 
 
 ```
 
@@ -3475,151 +3602,28 @@ CStrings:
 
 ```
 
-#### Photos.plist
+#### UIKit.plist
 
->  `Domain/Photos.plist`
-
-```diff
-
- 		<key>DevelopmentPhase</key>
- 		<string>FeatureComplete</string>
- 	</dict>
--	<key>SocialGroupLemonadeUI</key>
--	<dict>
--		<key>DevelopmentPhase</key>
--		<string>FeatureComplete</string>
--		<key>DisclosureRequired</key>
--		<string>ec8cdec7-e0c1-b381-4bba-7855fb16ef88</string>
--	</dict>
- 	<key>SpotlightPrivateIndex</key>
- 	<dict>
- 		<key>DevelopmentPhase</key>
-
- 		<key>DevelopmentPhase</key>
- 		<string>FeatureComplete</string>
- 	</dict>
--	<key>iCloudQuotaInAppMessaging</key>
--	<dict>
--		<key>DevelopmentPhase</key>
--		<string>FeatureComplete</string>
--	</dict>
- </dict>
- </plist>
- 
-
-```
-
-#### PeopleSuggester.plist
-
->  `Domain/PeopleSuggester.plist`
-
-```diff
-
- <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
- <plist version="1.0">
- <dict>
-+	<key>pass_data_collection_only</key>
-+	<dict>
-+		<key>Enabled</key>
-+		<true/>
-+	</dict>
- 	<key>pass_v2</key>
- 	<dict>
- 		<key>DevelopmentPhase</key>
-
-```
-
-#### ConnectedAudio.plist
-
->  `Domain/ConnectedAudio.plist`
-
-```diff
-
- <?xml version="1.0" encoding="UTF-8"?>
- <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
- <plist version="1.0">
--<dict/>
-+<dict>
-+	<key>HearingAid</key>
-+	<dict>
-+		<key>DevelopmentPhase</key>
-+		<string>FeatureComplete</string>
-+	</dict>
-+	<key>HearingProtection</key>
-+	<dict>
-+		<key>DevelopmentPhase</key>
-+		<string>FeatureComplete</string>
-+	</dict>
-+	<key>HearingTest</key>
-+	<dict>
-+		<key>DevelopmentPhase</key>
-+		<string>FeatureComplete</string>
-+	</dict>
-+</dict>
- </plist>
- 
-
-```
-
-#### HomePodSettings.plist
-
->  `Domain/HomePodSettings.plist`
+>  `Domain/UIKit.plist`
 
 ```diff
 
  		<key>DevelopmentPhase</key>
  		<string>FeatureComplete</string>
  	</dict>
--	<key>Opal</key>
+-	<key>global_edge_swipe_touches_ios</key>
 -	<dict>
 -		<key>DevelopmentPhase</key>
 -		<string>FeatureComplete</string>
 -	</dict>
- </dict>
- </plist>
- 
-
-```
-
-#### Oneness.plist
-
->  `Domain/Oneness.plist`
-
-```diff
-
- 		<key>DisclosureRequired</key>
- 		<string>8f6f8e85-8d9d-8330-8c15-a603765b90f3</string>
- 	</dict>
-+	<key>DragAndDrop</key>
-+	<dict>
-+		<key>DevelopmentPhase</key>
-+		<string>FeatureComplete</string>
-+		<key>DisclosureRequired</key>
-+		<string>8f6f8e85-8d9d-8330-8c15-a603765b90f3</string>
-+	</dict>
- 	<key>Shell</key>
+-	<key>home_affordance_single_tap_gate</key>
+-	<dict>
+-		<key>DevelopmentPhase</key>
+-		<string>FeatureComplete</string>
+-	</dict>
+ 	<key>inline_dictation_glow_effect</key>
  	<dict>
  		<key>DevelopmentPhase</key>
-
-```
-
-#### TVApp.plist
-
->  `Domain/TVApp.plist`
-
-```diff
-
- 		<key>Enabled</key>
- 		<true/>
- 	</dict>
-+	<key>testarossa</key>
-+	<dict>
-+		<key>Enabled</key>
-+		<true/>
-+	</dict>
- </dict>
- </plist>
- 
 
 ```
 

@@ -65,11 +65,11 @@
  
 Symbols:
 + _$s14SiriTTSService23IsNaturalVoiceConditionCMa
-+ _OBJC_CLASS_$_ResourceHint
 + _$s14SiriTTSService23IsNaturalVoiceConditionCAA11ConditionalAAWP
 + _$s14SiriTTSService23IsNaturalVoiceConditionC4poolAcA10ObjectPoolC_tcfc
++ _OBJC_CLASS_$_ResourceHint
 CStrings:
-+ "initWithResourceType:andState:"
 + "updateState:"
++ "initWithResourceType:andState:"
 
 ```

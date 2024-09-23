@@ -69,21 +69,21 @@
 +  CStrings:  1541
  
 CStrings:
-+ "Fan service hasn't receivedAllValues."
-+ "Fan service did update autoMode: %!{(MISSING)bool}d"
 + "Recirculation service hasn't receivedAllValues."
-+ "Sync indicator did update with same ON value. Skipping."
-+ "Recirculation indicator did update with same autoMode value. Skipping."
-+ "Compressor indicator did update with same ON value. Skipping."
-+ "Fan indicator did update with same level or automode ON. Skipping."
-+ "Recirculation service automode hasn't receivedAllValues."
-+ "Compressor service hasn't receivedAllValues."
-+ "Sync service hasn't receivedAllValues."
-+ "Fan indicator did update with same autoMode value. Skipping."
-+ "Fan service automode hasn't receivedAllValues."
-+ "isAutoMode"
 + "Recirculation service did update autoMode: %!{(MISSING)bool}d"
++ "Fan service did update autoMode: %!{(MISSING)bool}d"
++ "Compressor service hasn't receivedAllValues."
++ "Sync indicator did update with same ON value. Skipping."
 + "Recirculation indicator did update with same ON value. Skipping."
++ "Sync service hasn't receivedAllValues."
++ "isAutoMode"
++ "Recirculation service automode hasn't receivedAllValues."
++ "Compressor indicator did update with same ON value. Skipping."
++ "Fan service automode hasn't receivedAllValues."
++ "Fan indicator did update with same level or automode ON. Skipping."
++ "Fan indicator did update with same autoMode value. Skipping."
 + "isIndicatorOn"
++ "Fan service hasn't receivedAllValues."
++ "Recirculation indicator did update with same autoMode value. Skipping."
 
 ```

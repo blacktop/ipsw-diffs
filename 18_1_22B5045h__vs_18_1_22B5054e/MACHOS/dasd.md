@@ -54,18 +54,18 @@
 Symbols:
 + _BGSystemTaskSchedulerErrorDomain
 CStrings:
-+ "validateFeatureCode:"
-+ "%!@(MISSING) %!l(MISSING)u is an invalid feature code"
-+ "queryAndUpdateCurrentConsoleModeState"
-+ "Resubmitted running BGST %!{(MISSING)public}@ has been scheduled after DAS came up, not restoring state to DAS"
-+ "_controlEngine"
 + "controlEngine"
++ "Resubmitted running BGST %!{(MISSING)public}@ has been scheduled after DAS came up, not restoring state to DAS"
++ "validateFeatureCode:"
++ "queryAndUpdateCurrentConsoleModeState"
++ "_controlEngine"
 + "setControlEngine:"
 + "T@\"_DASControlEngine\",&,N,V_controlEngine"
-- "Resubmitted running BGST %!{(MISSING)public}@ is already running/requested to run, not sending to DAS"
++ "%!@(MISSING) %!l(MISSING)u is an invalid feature code"
 - "_controlEnginge"
 - "controlEnginge"
-- "T@\"_DASControlEngine\",&,N,V_controlEnginge"
 - "setControlEnginge:"
+- "T@\"_DASControlEngine\",&,N,V_controlEnginge"
+- "Resubmitted running BGST %!{(MISSING)public}@ is already running/requested to run, not sending to DAS"
 
 ```

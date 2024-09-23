@@ -70,9 +70,9 @@
 +  CStrings:  455
  
 CStrings:
+- "CAMUndo#notUndoable"
+- "NotUndoableFlow: execute called"
 - "NotUndoableFlow: unable to produce dialog: "
 - "NotUndoableFlow new instance initialised"
-- "NotUndoableFlow: execute called"
-- "CAMUndo#notUndoable"
 
 ```

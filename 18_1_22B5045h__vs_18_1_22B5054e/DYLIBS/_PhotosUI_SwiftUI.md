@@ -46,7 +46,7 @@
 Symbols:
 + _OBJC_CLASS_$_UIDevice
 CStrings:
-+ "userInterfaceIdiom"
 + "currentDevice"
++ "userInterfaceIdiom"
 
 ```

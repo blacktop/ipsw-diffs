@@ -76,16 +76,16 @@
 +  CStrings:  12132
  
 Symbols:
++ _$s11SwiftSQLite10SchemaTypePAAE5countAA11ScalarQueryVySiGvg
 + _$s11SwiftSQLite10SchemaTypePAAE6select8distinct_xAA11Expressible_p_AaF_pdtF
 + _$s11SwiftSQLite9QueryTypePAAE5whereyxAA10ExpressionVySbGF
-+ _$s11SwiftSQLite10SchemaTypePAAE5countAA11ScalarQueryVySiGvg
 CStrings:
-+ "Unable to get beacon group for beacon: %!@(MISSING)"
-+ "rowCounts: %!l(MISSING)d/%!l(MISSING)d/%!l(MISSING)d"
-+ "Found high-value owned observations count: %!l(MISSING)d. Duration: %!{(MISSING)public}s"
-+ "Successfully modified existing group: %!@(MISSING)"
 + "Unable to modify existing group. Error %!@(MISSING)"
++ "Unable to get beacon group for beacon: %!@(MISSING)"
 + "removeBeaconFromGroup:completion:"
++ "Successfully modified existing group: %!@(MISSING)"
++ "Found high-value owned observations count: %!l(MISSING)d. Duration: %!{(MISSING)public}s"
++ "rowCounts: %!l(MISSING)d/%!l(MISSING)d/%!l(MISSING)d"
 - "Found high-value owned observations count: %!l(MISSING)d."
 
 ```

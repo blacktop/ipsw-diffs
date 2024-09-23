@@ -31,7 +31,7 @@
    CStrings:  4660
  
 Symbols:
-+ _CalSetEnableTravelAdvisoriesForAutomaticBehavior
 + _CalEnableTravelAdvisoriesForAutomaticBehavior
++ _CalSetEnableTravelAdvisoriesForAutomaticBehavior
 
 ```

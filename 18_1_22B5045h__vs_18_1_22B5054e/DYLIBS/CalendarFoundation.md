@@ -69,10 +69,10 @@
 Symbols:
 + _kUMUserPersonaUniqueStringKey
 CStrings:
-+ "personalPersonaIdentifier"
-+ "v24@?0@\"NSDictionary\"8@\"NSError\"16"
 + "Fetched personal persona identifier %!{(MISSING)public}@"
-+ "Unable to fetch personal persona identifier: %!@(MISSING)"
++ "personalPersonaIdentifier"
 + "fetchPersonaWithType:CompletionHandler:"
++ "v24@?0@\"NSDictionary\"8@\"NSError\"16"
++ "Unable to fetch personal persona identifier: %!@(MISSING)"
 
 ```

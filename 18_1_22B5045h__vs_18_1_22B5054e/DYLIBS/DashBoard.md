@@ -74,10 +74,10 @@
 +  CStrings:  11418
  
 CStrings:
-+ "sessionDidConnect"
-+ "handling didReset"
-+ "iOS owns main audio; not updating artwork from car."
 + "_updatePolicyForApplication:"
++ "iOS owns main audio; not updating artwork from car."
++ "handling didReset"
++ "sessionDidConnect"
 - "Local snapshot: %!@(MISSING), not matching car snapshot: %!@(MISSING)"
 
 ```

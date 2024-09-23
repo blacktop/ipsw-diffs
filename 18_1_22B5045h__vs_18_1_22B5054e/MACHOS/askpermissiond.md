@@ -62,15 +62,15 @@
 Symbols:
 + _OBJC_CLASS_$_FAFamilyMember
 CStrings:
++ "memberType"
 + "isTeenAccount"
 + "%!{(MISSING)public}@: I am a Child/Teen: %!{(MISSING)public}@"
-+ "TB,R,N"
-+ "Sep 17 2024"
-+ "TB,N,VisChildAccount"
-+ "16:55:03"
-+ "TB,N,VisTeenAccount"
 + "setIsTeenAccount:"
-+ "memberType"
++ "16:55:03"
++ "TB,N,VisChildAccount"
++ "Sep 17 2024"
++ "TB,N,VisTeenAccount"
++ "TB,R,N"
 - "Aug 30 2024"
 - "%!{(MISSING)public}@: I am a Child: %!{(MISSING)public}@"
 - "01:03:11"

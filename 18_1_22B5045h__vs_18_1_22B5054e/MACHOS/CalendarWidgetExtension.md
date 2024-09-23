@@ -74,71 +74,71 @@
 +  CStrings:  745
  
 Symbols:
-+ _objc_release_x24
-+ _swift_allocError
-+ _objc_release_x25
++ _swift_continuation_resume
 + _swift_continuation_await
 + _swift_willThrow
-+ _OBJC_CLASS_$_CalLocationAuthorization
-+ _swift_continuation_resume
 + _CalSetEnableTravelAdvisoriesForAutomaticBehavior
-+ _CalEnableTravelAdvisoriesForAutomaticBehavior
++ _OBJC_CLASS_$_CalLocationAuthorization
 + _swift_continuation_init
++ _objc_release_x24
++ _objc_release_x25
++ _swift_allocError
++ _CalEnableTravelAdvisoriesForAutomaticBehavior
 - _objc_release_x28
 CStrings:
++ "Display name for the calendar deep link Show Invitee Declines toggle"
++ "All-day Default Alert Times"
++ "The Show Invitee Declines setting allows you to control whether you would like to be notified when an invitee declines your event invitation."
++ "Time to Leave alerts are not available because Calendar does not have access to your precise location."
++ "Name of the Time to Leave entity type"
++ "SettingsTimeToLeaveEntityID"
 + "weekNumbers"
++ "settings-navigation://com.apple.Settings.Apps/com.apple.mobilecal#locationSuggestions"
++ "com.apple.calendar.TimeToLeave"
++ "Display name for the calendar deep link Default Alert Times screen Birthdays row"
++ "Events Default Alert Times"
++ "SettingsTimeToLeaveIntent_title"
++ "settings-navigation://com.apple.Settings.Apps/com.apple.mobilecal#showInviteeDeclines"
++ "Don't notify me when it's time to leave for my next event in "
++ "SettingsTimeToLeaveEntityName"
++ "The Location Suggestions setting allows you to control whether the Calendar app should show you location autofill suggestions when editing an event."
++ "ttlLocationStatusWithCompletion:"
++ "Display name for the calendar deep link Location Suggestions toggle"
++ "settings-navigation://com.apple.Settings.Apps/com.apple.mobilecal#weekViewStartsOnToday"
++ "Notify me when it's time to leave for my next event in "
++ "Enable Time to Leave alerts in "
++ "Hide time to leave alerts in "
++ "The Week Numbers setting allows you to show or hide the week numbers labels in the Calendar app, counting from the beginning of the current year."
++ "The Week View Starts On Today setting allows you to control whether the week views in the Calendar app should align today as the first column to the leading edge by default."
++ "timeToLeave"
 + "Display name for the calendar deep link Default Alert Times screen All-Day Events row"
 + "v16@?0Q8"
-+ "Notify me when it's time to leave for my next event in "
-+ "The Show Invitee Declines setting allows you to control whether you would like to be notified when an invitee declines your event invitation."
-+ "All-day Default Alert Times"
-+ "locationSuggestions"
-+ "Time to Leave alerts are not available because Calendar does not have access to your precise location."
 + "Update Time to Leave"
-+ "Show Time to Leave Alerts"
-+ "Don't notify me when it's time to leave for my next event in "
-+ "Hide time to leave alerts in "
-+ "Events Default Alert Times"
-+ "Display string for the title of the update Time to Leave intent"
-+ "Display name for the calendar deep link Default Alert Times screen Events row"
 + "The Time to Leave Default Alert setting allows you to control whether you would like to be notified for when to start travelling towards your next event location. It uses your location, locations of upcoming events, traffic conditions, and transit options to estimate how long it will take to arrive at your destination."
-+ "settings-navigation://com.apple.Settings.Apps/com.apple.mobilecal#showInviteeDeclines"
 + "Display name for the calendar deep link Week View Starts On Today toggle"
-+ "Name of the time to leave entity type"
-+ "Display name for the calendar deep link Week Numbers toggle"
-+ "Location Suggestions"
-+ "SettingsTimeToLeaveEntityID"
-+ "settings-navigation://com.apple.Settings.Apps/com.apple.mobilecal/defaultAlertTimes#timeToLeaveAlerts"
-+ "Display string for the title of the WeekViewStartsOnToday Intent"
-+ "Enable Time to Leave alerts in "
-+ "settings-navigation://com.apple.Settings.Apps/com.apple.mobilecal#weekNumbers"
 + "Display name for the calendar deep link Default Alert Times screen Time to Leave toggle"
-+ "Name of the Time to Leave entity type"
-+ "com.apple.calendar.TimeToLeave"
-+ "Error shown to the user when trying to modify the Time to Leave setting but location is disabled."
-+ "settings-navigation://com.apple.Settings.Apps/com.apple.mobilecal#weekViewStartsOnToday"
-+ "Birthday Default Alert Times"
-+ "Description for Settings Control for whether to show Time to Leave alerts for Calendar"
-+ "Display name for the calendar deep link Default Alert Times screen Birthdays row"
-+ "SettingsTimeToLeaveEntityName"
-+ "The Week View Starts On Today setting allows you to control whether the week views in the Calendar app should align today as the first column to the leading edge by default."
-+ "ttlLocationStatusWithCompletion:"
-+ "Display name for the calendar deep link Show Invitee Declines toggle"
-+ "SettingsTimeToLeaveIntent_title"
-+ "timeToLeave"
-+ "Disable time to leave notifications in "
-+ "The Location Suggestions setting allows you to control whether the Calendar app should show you location autofill suggestions when editing an event."
-+ "The Week Numbers setting allows you to show or hide the week numbers labels in the Calendar app, counting from the beginning of the current year."
-+ "SettingsTimeToLeaveEntity displayRepresentation"
-+ "Display name for the calendar deep link Location Suggestions toggle"
-+ "settings-navigation://com.apple.Settings.Apps/com.apple.mobilecal#locationSuggestions"
++ "Name of the time to leave entity type"
++ "Location Suggestions"
++ "Display name for the calendar deep link Week Numbers toggle"
 + "showInviteeDeclines"
-- "BirthdayDefaultAlertTimes"
-- "EventsDefaultAlertTimes"
-- "ShowInviteeDeclines"
++ "Error shown to the user when trying to modify the Time to Leave setting but location is disabled."
++ "Show Time to Leave Alerts"
++ "SettingsTimeToLeaveEntity displayRepresentation"
++ "Display name for the calendar deep link Default Alert Times screen Events row"
++ "locationSuggestions"
++ "Display string for the title of the update Time to Leave intent"
++ "Display string for the title of the WeekViewStartsOnToday Intent"
++ "Description for Settings Control for whether to show Time to Leave alerts for Calendar"
++ "Disable time to leave notifications in "
++ "settings-navigation://com.apple.Settings.Apps/com.apple.mobilecal#weekNumbers"
++ "settings-navigation://com.apple.Settings.Apps/com.apple.mobilecal/defaultAlertTimes#timeToLeaveAlerts"
++ "Birthday Default Alert Times"
 - "ShowLocationSuggestions"
+- "BirthdayDefaultAlertTimes"
 - "AllDayDefaultAlertTimes"
-- "AlternateCalendars"
+- "EventsDefaultAlertTimes"
 - "DurationForNewEvents"
+- "ShowInviteeDeclines"
+- "AlternateCalendars"
 
 ```

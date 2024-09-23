@@ -61,10 +61,10 @@
 Symbols:
 + _OBJC_CLASS_$_NSConstantIntegerNumber
 CStrings:
-+ "B16@?0@\"BMStoreEvent\"8"
-+ "atx_dateOfLastEvent"
 + "i"
++ "atx_dateOfLastEvent"
 + "Could not retrieve the last modified date of the %!{(MISSING)public}@ stream: %!@(MISSING)"
 + "sinkWithCompletion:shouldContinue:"
++ "B16@?0@\"BMStoreEvent\"8"
 
 ```

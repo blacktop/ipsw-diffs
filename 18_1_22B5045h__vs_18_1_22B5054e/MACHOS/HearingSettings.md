@@ -66,40 +66,40 @@
 +  CStrings:  1804
  
 Symbols:
-+ _accessibilityHearingAidSupportBundle
-+ _OBJC_CLASS_$_PAHMSManager
 + __dispatch_main_q
++ _OBJC_CLASS_$_PAHMSManager
++ _accessibilityHearingAidSupportBundle
 + _paCurrentBluetoothDeviceSupportingTransparencyAccommodationsAsync
 + _PAYodelConfigDidUpdate
 CStrings:
-+ "Health"
-+ "PersonalAudioHearingAssistAlertPrompt"
-+ "-[AudioAccommodationsViewController updateHearingAssistStatus]_block_invoke_2"
-+ "PersonalAudioHearingAssistAlertTitle"
-+ "showHearingAssistConfirmationIfNeeded"
-+ "hearingAssistEnabled"
 + "yodel"
-+ "HearingProtection-Yodel"
-+ "_hearingAssistEnabled"
-+ "The current bluetooth device has hearing assist status changed to %!d(MISSING)"
-+ "Hearing assist is not enabled. Starting enrollment."
 + "yodelEnabledForAddress:"
 + "TB,N,V_hearingAssistEnabled"
-+ "v16@?0@\"BluetoothDevice\"8"
++ "Health"
++ "hearingAssistEnabled"
++ "_hearingAssistEnabled"
 + "setHearingAssistEnabled:"
++ "PersonalAudioHearingAssistAlertTitle"
++ "PersonalAudioHearingAssistAlertPrompt"
++ "Hearing assist is not enabled. Starting enrollment."
++ "HearingProtection-Yodel"
++ "showHearingAssistConfirmationIfNeeded"
++ "v16@?0@\"BluetoothDevice\"8"
 + "-[AudioAccommodationsViewController showHearingAssistConfirmationIfNeeded]"
++ "The current bluetooth device has hearing assist status changed to %!d(MISSING)"
++ "-[AudioAccommodationsViewController updateHearingAssistStatus]_block_invoke_2"
 + "updateHearingAssistStatus"
-- "softlink:r:path:/System/Library/Frameworks/HealthKit.framework/HealthKit"
-- "v32@?0@\"HKSampleQuery\"8@\"NSArray\"16@\"NSError\"24"
-- "HKHealthStore"
-- "initWithSampleType:predicate:limit:sortDescriptors:resultsHandler:"
-- "HKObjectType"
-- "HKSampleQuery"
 - "executeQuery:"
-- "PersonalAudioFeatureAudiogramDescription"
-- "PersonalAudioFeatureNoAudiogramDescription"
-- "audiogramSampleType"
 - "waveform.path"
+- "HKHealthStore"
+- "PersonalAudioFeatureNoAudiogramDescription"
+- "HKObjectType"
+- "audiogramSampleType"
 - "isHealthDataAvailable"
+- "softlink:r:path:/System/Library/Frameworks/HealthKit.framework/HealthKit"
+- "initWithSampleType:predicate:limit:sortDescriptors:resultsHandler:"
+- "PersonalAudioFeatureAudiogramDescription"
+- "HKSampleQuery"
+- "v32@?0@\"HKSampleQuery\"8@\"NSArray\"16@\"NSError\"24"
 
 ```

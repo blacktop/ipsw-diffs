@@ -82,25 +82,25 @@
 +  CStrings:  10203
  
 Symbols:
-+ _DOCManagedPermissionHostIdentifierDidChangeNotification
 + _docSourceLogHandle
++ _DOCManagedPermissionHostIdentifierDidChangeNotification
 CStrings:
-+ "[DSEnumeration] MainThread updating %!l(MISSING)d nodes"
++ "%!s(MISSING): %!f(MISSING) >= %!l(MISSING)d"
 + "T@\"<NSObject>\",&,V_mdmHostIdentifierDidChangeNotificationObserver"
-+ "mdmHostIdentifierDidChangeNotificationObserver"
-+ "MDM host identifier changed to %!@(MISSING), so simulate a source update"
 + "You can’t use a name with a filename extension."
-+ "arrayByExcludingObjectsInArray:"
++ "MDM host identifier changed to %!@(MISSING), so simulate a source update"
 + "_mdmHostIdentifierDidChangeNotificationObserver"
 + "dispatchedUpdateIsPending"
-+ "%!s(MISSING): %!f(MISSING) >= %!l(MISSING)d"
-+ "setMdmHostIdentifierDidChangeNotificationObserver:"
 + "\x13\x1b"
++ "mdmHostIdentifierDidChangeNotificationObserver"
 + "@\"<NSObject>\""
-- "setHidePasswordKey:"
-- "hidePasswordKey"
++ "arrayByExcludingObjectsInArray:"
++ "setMdmHostIdentifierDidChangeNotificationObserver:"
++ "[DSEnumeration] MainThread updating %!l(MISSING)d nodes"
 - "You can't use a name with a filename extension."
+- "hidePasswordKey"
 - "\x13\x1a"
 - "removeObjectsInArray:"
+- "setHidePasswordKey:"
 
 ```

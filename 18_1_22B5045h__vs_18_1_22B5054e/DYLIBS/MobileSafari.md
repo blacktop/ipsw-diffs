@@ -92,18 +92,18 @@
 +  CStrings:  13283
  
 CStrings:
-+ "sfWebExtensionsController:showPopupOrPerSitePermissionsForExtension:inWindow:completionHandler:"
-+ "hasOverlay"
-+ "hasOverlayPreservingScrollPosition"
 + "_mobileAssetFileNameToItemProvider"
++ "hasOverlayPreservingScrollPosition"
 + "@16@?0@\"NSIndexPath\"8"
 + "reconfigureItemsWithIdentifiers:"
-+ "T@\"WKWebView\",R,W,N,V_webView"
 + "v32@?0@\"NSString\"8@\"NSItemProvider\"16^B24"
-- "sfWebExtensionsController:showPopupForExtension:inWindow:completionHandler:"
-- "setWebView:"
-- "T@\"WKWebView\",W,N,V_webView"
++ "sfWebExtensionsController:showPopupOrPerSitePermissionsForExtension:inWindow:completionHandler:"
++ "T@\"WKWebView\",R,W,N,V_webView"
++ "hasOverlay"
 - "B32@?0@\"NSItemProvider\"8Q16^B24"
 - "_mobileAssetItemProviders"
+- "setWebView:"
+- "T@\"WKWebView\",W,N,V_webView"
+- "sfWebExtensionsController:showPopupForExtension:inWindow:completionHandler:"
 
 ```

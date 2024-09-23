@@ -66,7 +66,7 @@
 +  CStrings:  246
  
 CStrings:
-+ "callCompletionHandlerForAnimationID:completionHandler:"
 + "performReplacementAndGeneratePreview(for:effect:animation:)"
++ "callCompletionHandlerForAnimationID:completionHandler:"
 
 ```

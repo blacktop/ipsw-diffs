@@ -69,34 +69,34 @@
 +  CStrings:  1177
  
 Symbols:
-- _sscanf
-- _ftell
 - _malloc
-- _fopen
-- _free
-- _fseek
-- _fclose
-- __availability_version_check
-- _dlsym
-- _swift_taskGroup_wait_next_throwing
 - _fread
-- _rewind
+- _dlsym
+- __availability_version_check
+- _fseek
 - _dispatch_once_f
+- _fclose
+- _ftell
+- _rewind
+- _sscanf
+- _free
+- _swift_taskGroup_wait_next_throwing
+- _fopen
 CStrings:
-- "CFStringGetCString"
-- "kCFAllocatorNull"
-- "r"
-- "CFPropertyListCreateFromXMLData"
-- "CFRelease"
-- "ProductVersion"
-- "CFDataCreateWithBytesNoCopy"
-- "%!d(MISSING).%!d(MISSING).%!d(MISSING)"
-- "CFGetTypeID"
-- "CFPropertyListCreateWithData"
-- "CFStringCreateWithCStringNoCopy"
-- "CFDictionaryGetValue"
-- "CFStringGetTypeID"
-- "/System/Library/CoreServices/SystemVersion.plist"
 - "_Concurrency/TaskGroup.swift"
+- "/System/Library/CoreServices/SystemVersion.plist"
+- "CFDictionaryGetValue"
+- "CFStringCreateWithCStringNoCopy"
+- "ProductVersion"
+- "CFPropertyListCreateFromXMLData"
+- "CFGetTypeID"
+- "CFStringGetCString"
+- "%!d(MISSING).%!d(MISSING).%!d(MISSING)"
+- "kCFAllocatorNull"
+- "CFRelease"
+- "CFStringGetTypeID"
+- "CFPropertyListCreateWithData"
+- "CFDataCreateWithBytesNoCopy"
+- "r"
 
 ```

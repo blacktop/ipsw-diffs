@@ -37,7 +37,7 @@
 +  CStrings:  113
  
 CStrings:
-+ "setValueText:"
 + "setSelectedValueText:"
++ "setValueText:"
 
 ```

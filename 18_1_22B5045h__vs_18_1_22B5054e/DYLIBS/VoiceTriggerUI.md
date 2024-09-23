@@ -100,16 +100,16 @@ Symbols:
 + _swift_bridgeObjectRetain_n
 + _bzero
 CStrings:
-+ "com.apple.settings.intelligence.interactions"
 + "gmAvailabilityProvider"
-+ "analyticsProvider"
-+ "sendFunction"
-+ "initWithInteger:"
-+ "sendCancelEventWithEnrollmentType:"
-+ "_TtC14VoiceTriggerUI19GMAnalyticsProvider"
 + "initWithUnsignedInteger:"
-+ "UnsafeMutablePointer.initialize with negative count"
++ "_TtC14VoiceTriggerUI19GMAnalyticsProvider"
 + "sendViewDidLoadEventWithEnrollmentType:"
++ "initWithInteger:"
++ "sendFunction"
++ "sendCancelEventWithEnrollmentType:"
++ "com.apple.settings.intelligence.interactions"
++ "analyticsProvider"
++ "UnsafeMutablePointer.initialize with negative count"
 + "userDidCancel"
 + "sendContinueEventWithEnrollmentType:"
 

@@ -33,20 +33,20 @@
 +  CStrings:  21461
  
 CStrings:
-+ "Closed till Wednesday"
-+ "Closed till Thursday"
 + "Closed till Sunday"
-+ "Closed till Tuesday"
-+ "Closed till Monday"
-+ "Closed till Saturday"
 + "Closed till Friday"
-- "Business Hours Tuesday"
++ "Closed till Tuesday"
++ "Closed till Thursday"
++ "Closed till Saturday"
++ "Closed till Wednesday"
++ "Closed till Monday"
 - "Business Hours [Closed till weekday]"
-- "Business Hours Thursday"
+- "Business Hours Sunday"
 - "Business Hours Saturday"
 - "Business Hours Monday"
-- "Business Hours Sunday"
-- "Business Hours Friday"
+- "Business Hours Thursday"
 - "Business Hours Wednesday"
+- "Business Hours Tuesday"
+- "Business Hours Friday"
 
 ```

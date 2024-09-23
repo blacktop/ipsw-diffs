@@ -94,11 +94,11 @@
 +  CStrings:  6289
  
 CStrings:
-+ "enabled"
-+ "Received stop()"
 + "Scheduler: ToolKit indexing scheduler has already started"
 + "allowFullRuntimeAccess"
++ "Received stop()"
 + "syncCoherenceEnabled"
++ "enabled"
 + "Scheduler: end()"
 - "allowBackgroundShortcutRunning"
 

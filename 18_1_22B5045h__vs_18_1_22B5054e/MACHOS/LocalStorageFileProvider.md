@@ -83,13 +83,13 @@
 +  CStrings:  6655
  
 CStrings:
-+ "no parentRec in RT for parent %!s(MISSING) of %!s(MISSING)"
-+ "no parent ID in snapshot for %!s(MISSING)"
-+ "no entry.a.id for entry: %!s(MISSING)"
-+ "Asked to retrieve diag info for %!s(MISSING), unsupported"
 + "failed to recreate local folder which already exists %!{(MISSING)public}s: %!@(MISSING)"
-+ "error decoding errorDirection: "
++ "no entry.a.id for entry: %!s(MISSING)"
 + "failed to re-create local folder for which exists %!{(MISSING)public}s: %!@(MISSING)"
 + "fileExistsAtPath:isDirectory:"
++ "no parentRec in RT for parent %!s(MISSING) of %!s(MISSING)"
++ "error decoding errorDirection: "
++ "Asked to retrieve diag info for %!s(MISSING), unsupported"
++ "no parent ID in snapshot for %!s(MISSING)"
 
 ```

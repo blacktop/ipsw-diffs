@@ -62,13 +62,13 @@
 Symbols:
 + _OBJC_CLASS_$_PLGlobalValues
 CStrings:
-+ "shouldRunLocationOfInterestUpdateTaskWithGlobalValues:"
-+ "shouldRunLocationOfInterestUpdateTask: YES, lastRunDate is nil"
++ "setLocationOfInterestUpdateDate:"
 + "shouldRunLocationOfInterestUpdateTask: %!{(MISSING)public}@, time since last run: %!f(MISSING)"
 + "initWithManagedObjectContext:"
-+ "setLocationOfInterestUpdateDate:"
++ "shouldRunLocationOfInterestUpdateTaskWithGlobalValues:"
++ "shouldRunLocationOfInterestUpdateTask: YES, lastRunDate is nil"
 + "locationOfInterestUpdateDate"
-- "PLComputeSyncAssetBackfillTask"
 - "runComputeSyncBackfillMigrationOnProcessedAssets:"
+- "PLComputeSyncAssetBackfillTask"
 
 ```

@@ -73,29 +73,29 @@
 +  CStrings:  14673
  
 Symbols:
-+ _OBJC_CLASS_$_EKExpandedReminderDayCircleView
 + _OBJC_METACLASS_$_EKExpandedReminderDayCircleView
-- _OBJC_METACLASS_$_DayCircleView
++ _OBJC_CLASS_$_EKExpandedReminderDayCircleView
 - _OBJC_CLASS_$_DayCircleView
+- _OBJC_METACLASS_$_DayCircleView
 CStrings:
-+ "reminderBackgroundColor:style:miniPreview:completed:"
-+ "@\"EKExpandedReminderDayCircleView\""
 + "setIsCompleted:"
-+ "EKExpandedReminderDayCircleView"
-+ "_isCompleted"
 + "containsVisibleOccurrenceViews"
-+ "TB,N,V_isCompleted"
-+ "endForcedStart:"
-+ "T@\"EKExpandedReminderDayCircleView\",&,N,V_dateNumberView"
 + "calendarToMakeVisibleOnSave"
 + "isCompleted"
++ "_isCompleted"
++ "endForcedStart:"
 + "_setAlarmsAreEditable"
 + "T@\"EKCalendar\",R,N"
-- "DayCircleView"
-- "T@\"DayCircleView\",&,N,V_dateNumberView"
-- "reminderBackgroundColor:style:miniPreview:"
++ "reminderBackgroundColor:style:miniPreview:completed:"
++ "T@\"EKExpandedReminderDayCircleView\",&,N,V_dateNumberView"
++ "@\"EKExpandedReminderDayCircleView\""
++ "TB,N,V_isCompleted"
++ "EKExpandedReminderDayCircleView"
 - "allowsAlarmModifications"
 - "endForcedStart"
 - "@\"DayCircleView\""
+- "T@\"DayCircleView\",&,N,V_dateNumberView"
+- "DayCircleView"
+- "reminderBackgroundColor:style:miniPreview:"
 
 ```

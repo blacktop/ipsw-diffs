@@ -60,9 +60,9 @@
 +  CStrings:  9333
  
 CStrings:
++ "getStudyEnrollment"
 + "isStudyForFCS"
 + "S03_FCS"
-+ "getStudyEnrollment"
 - "S03"
 
 ```

@@ -68,18 +68,18 @@
 Symbols:
 + _objc_retain_x27
 CStrings:
++ "ScrollDiagnostic: Decelerating without magnet from %!l(MISSING)d to index %!l(MISSING)u (velocity %!f(MISSING))"
++ "setProtectedIndexes:"
 + "ScrollDiagnostic: Decelerating from %!l(MISSING)d to %!l(MISSING)u (limited from %!l(MISSING)d) (velocity %!f(MISSING))"
 + "protectedIndexes"
-+ "ScrollDiagnostic: Decelerating from %!l(MISSING)d to magnetic index %!l(MISSING)u with velocity %!f(MISSING)"
-+ "ScrollDiagnostic: Decelerating without magnet from %!l(MISSING)d to index %!l(MISSING)u (velocity %!f(MISSING))"
-+ "\xa2-\x11c"
 + "T@\"NSArray\",&,N,V_protectedIndexes"
++ "ScrollDiagnostic: Decelerating from %!l(MISSING)d to magnetic index %!l(MISSING)u with velocity %!f(MISSING)"
++ "\xa2-\x11c"
 + "setAccessibilityIgnoresInvertColors:"
-+ "setProtectedIndexes:"
 + "_protectedIndexes"
-- "ScrollDiagnostic: Decelerating from %!l(MISSING)u to magnetic index %!l(MISSING)u with velocity %!f(MISSING)"
 - "ScrollDiagnostic: Decelerating from %!l(MISSING)u to %!l(MISSING)u (limited from %!l(MISSING)d) (velocity %!f(MISSING))"
-- "\xa2-\x11b"
 - "ScrollDiagnostic: Decelerating without magnet from %!l(MISSING)u to index %!l(MISSING)u (velocity %!f(MISSING))"
+- "\xa2-\x11b"
+- "ScrollDiagnostic: Decelerating from %!l(MISSING)u to magnetic index %!l(MISSING)u with velocity %!f(MISSING)"
 
 ```

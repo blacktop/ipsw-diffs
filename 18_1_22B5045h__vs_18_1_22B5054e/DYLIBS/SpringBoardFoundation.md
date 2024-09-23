@@ -76,26 +76,26 @@
 +  CStrings:  6961
  
 Symbols:
-+ _UIAnimationDragCoefficient
 + _OBJC_CLASS_$__UIColorPalette
++ _UIAnimationDragCoefficient
 - _OBJC_CLASS_$__UIDirectionalLightPalette
 CStrings:
-+ "initWithColorPalette:"
-+ "homeAffordancePulseEffectiveAnimationDuration"
-+ "Td,N,V_homeAffordancePulseEffectiveAnimationDuration"
-+ "_homeAffordancePulseEffectiveAnimationDuration"
++ "_outstandingGlowOrPulseAnimationCount"
++ "performWithoutAnimation:"
++ "Td,N,V_homeAffordanceGlowEffectiveAnimationDuration"
++ "Tq,N,V_outstandingGlowOrPulseAnimationCount"
 + "_homeAffordanceGlowEffectiveAnimationDuration"
-+ "setHomeAffordanceGlowEffectiveAnimationDuration:"
++ "Effective Animation Duration"
++ "Td,N,V_homeAffordancePulseEffectiveAnimationDuration"
++ "setHomeAffordancePulseEffectiveAnimationDuration:"
++ "outstandingGlowOrPulseAnimationCount"
++ "homeAffordanceGlowEffectiveAnimationDuration"
++ "homeAffordancePulseEffectiveAnimationDuration"
 + "!\x11\x81B"
 + "setOutstandingGlowOrPulseAnimationCount:"
-+ "performWithoutAnimation:"
-+ "Tq,N,V_outstandingGlowOrPulseAnimationCount"
-+ "Effective Animation Duration"
-+ "outstandingGlowOrPulseAnimationCount"
-+ "_outstandingGlowOrPulseAnimationCount"
-+ "setHomeAffordancePulseEffectiveAnimationDuration:"
-+ "Td,N,V_homeAffordanceGlowEffectiveAnimationDuration"
-+ "homeAffordanceGlowEffectiveAnimationDuration"
++ "setHomeAffordanceGlowEffectiveAnimationDuration:"
++ "initWithColorPalette:"
++ "_homeAffordancePulseEffectiveAnimationDuration"
 - "initWithPalette:"
 - "!\x11q2"
 

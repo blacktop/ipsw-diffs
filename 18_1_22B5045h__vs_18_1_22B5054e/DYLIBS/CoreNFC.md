@@ -38,7 +38,7 @@
  
 CStrings:
 + "didDetectExternalReader"
-- "didDetectExternalReaderWithNotification:"
 - "v24@0:8@\"NFFieldNotification\"16"
+- "didDetectExternalReaderWithNotification:"
 
 ```

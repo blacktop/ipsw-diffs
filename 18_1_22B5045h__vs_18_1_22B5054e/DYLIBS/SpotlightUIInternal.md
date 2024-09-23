@@ -68,10 +68,10 @@ Symbols:
 + _OBJC_CLASS_$_SUIUpdateSearchQueryCommand
 CStrings:
 + "!\x1d\x11"
-- "!\x1c\x11\x11"
-- "internalTextAlignment"
-- "_internalTextAlignment"
-- "Tq,V_internalTextAlignment"
 - "setInternalTextAlignment:"
+- "Tq,V_internalTextAlignment"
+- "!\x1c\x11\x11"
+- "_internalTextAlignment"
+- "internalTextAlignment"
 
 ```

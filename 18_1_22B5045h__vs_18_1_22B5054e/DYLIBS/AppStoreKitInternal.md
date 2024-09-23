@@ -94,17 +94,17 @@
 +  CStrings:  6998
  
 CStrings:
-+ "arcade_hero_video_page_timer"
-+ "storyCenteredMotion16x9"
-+ "line.3.horizontal.decrease.circle.fill"
 + "arcade_see_all_games_menu_uplift"
-- "extraWideArtworkLayouts"
-- "todayJSHeaderSuppression"
++ "arcade_hero_video_page_timer"
++ "line.3.horizontal.decrease.circle.fill"
++ "storyCenteredMotion16x9"
 - "shelfBackgroundGradients"
-- "enrichedEditorialNotesOnToday"
+- "todayEditorialGradients"
+- "todayFlipAndBlur"
+- "todayJSHeaderSuppression"
 - "todayFlipAndBlurAllWidths"
 - "shelfGradientBackgrounds"
-- "todayFlipAndBlur"
-- "todayEditorialGradients"
+- "extraWideArtworkLayouts"
+- "enrichedEditorialNotesOnToday"
 
 ```

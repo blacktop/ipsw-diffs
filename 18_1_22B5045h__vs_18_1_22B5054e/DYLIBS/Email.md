@@ -62,10 +62,10 @@
 +  CStrings:  6868
  
 Symbols:
-+ _EMUserDefaultNotificationPostingDelayTime
 + _EMUserDefaultShowFCSFeedbackOptions
++ _EMUserDefaultNotificationPostingDelayTime
 CStrings:
-+ "NotificationPostingDelayTime"
 + "ShowFCSFeedbackOptions"
++ "NotificationPostingDelayTime"
 
 ```

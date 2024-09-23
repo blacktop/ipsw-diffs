@@ -78,43 +78,43 @@
 +  CStrings:  18591
  
 Symbols:
++ _kMRSendMRCommandRemoteControlInterfaceInt
++ _kMRSendMRCommandDirectUserInteractionKey
++ _kMREventAppBundleIntKey
++ _kMRSendMRCommandErrorKey
 + _kMRSendMRCommandHasContextID
 + _OBJC_CLASS_$_MSVAutoBugCapture
-+ _kMRSendMRCommandRemoteControlInterface
-+ _MRAnalyticsAppBundleIDStringToInt
-+ _kMRSendMRCommandErrorKey
 + _kMRSendMRCommandDestinationAppBundle
-+ _kMRSendMRCommandDestinationAppBundleInt
-+ _kMRSendMRCommandRemoteControlInterfaceInt
 + _kMRSendMRCommandTargetedKey
-+ _kMRSendMRCommandDirectUserInteractionKey
++ _kMRSendMRCommandRemoteControlInterface
++ _kMRSendMRCommandDestinationAppBundleInt
 + _kMRSendMRCommandPlaceholder
-+ _kMREventAppBundleIntKey
++ _MRAnalyticsAppBundleIDStringToInt
 CStrings:
-+ "audiomxd"
-+ "destinationAppBundleInt"
-+ "AVRCP"
-+ "Carousel"
 + "Player.DataSource.PlaybackCommand"
-+ "appBundleInt"
-+ "targeted"
-+ "execssiveNowPlayingControllersABC"
-+ "NowPlayingController"
-+ "SoundBoard"
-+ "snapshotWithDomain:type:subType:context:triggerThresholdValues:events:completion:"
-+ "remoteControlInterfaceInt"
-+ "MediaAssistant"
-+ "NanoNowPlaying"
 + "Excessive Controllers"
-+ "Power"
-+ "persistentDiscoveryABCDuration"
 + "destinationAppBundle"
-+ "PineBoard"
++ "audiomxd"
++ "NanoNowPlaying"
++ "targeted"
++ "Power"
++ "remoteControlInterfaceInt"
++ "SoundBoard"
++ "persistentDiscoveryABCDuration"
++ "Krono"
 + "directUserInteraction"
++ "snapshotWithDomain:type:subType:context:triggerThresholdValues:events:completion:"
++ "ControlCenter"
++ "appBundleInt"
++ "destinationAppBundleInt"
++ "execssiveNowPlayingControllersABC"
++ "MediaAssistant"
++ "AVRCP"
++ "PineBoard"
 + "SurfBoard"
 + "com.apple.NowPlayingCap.interfaceIdentifer"
-+ "ControlCenter"
 + "airplayd"
-+ "Krono"
++ "NowPlayingController"
++ "Carousel"
 
 ```

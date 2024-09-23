@@ -45,7 +45,7 @@
    CStrings:  584
  
 Symbols:
-+ _RIOImportSessionGatherTextureInfoWithOptionallyUnusedTextures
 + _$s9RealityIO13ImportSessionC016gatherTexturesAsC10Operations08onlyUsedF0AC24TextureOperatorContainerCSb_tF
++ _RIOImportSessionGatherTextureInfoWithOptionallyUnusedTextures
 
 ```

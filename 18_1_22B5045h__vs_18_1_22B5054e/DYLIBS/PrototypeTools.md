@@ -47,9 +47,9 @@
 Symbols:
 - __bs_set_crash_log_message
 CStrings:
+- "predicate has already enabled evaluation"
+- "failure in %!{(MISSING)public}@ (%!{(MISSING)public}@:%!i(MISSING)) : %!{(MISSING)public}@"
 - "BOOL PTValidatePredicate(NSPredicate *__strong)"
 - "PTUtilities.m"
-- "failure in %!{(MISSING)public}@ (%!{(MISSING)public}@:%!i(MISSING)) : %!{(MISSING)public}@"
-- "predicate has already enabled evaluation"
 
 ```

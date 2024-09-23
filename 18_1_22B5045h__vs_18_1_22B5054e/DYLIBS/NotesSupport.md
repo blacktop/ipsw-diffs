@@ -94,7 +94,7 @@
 Symbols:
 - _swift_deletedMethodError
 CStrings:
-- "_TtC12NotesSupport32UniquedSerialAsyncOperationQueue"
 - "pendingOperations"
+- "_TtC12NotesSupport32UniquedSerialAsyncOperationQueue"
 
 ```

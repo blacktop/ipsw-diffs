@@ -99,10 +99,10 @@ Symbols:
 - _AFOutputVoiceDidChangeNotification
 CStrings:
 - "outputVoice"
-- "_TtC22AccessibilityUtilities30SpokenContentSelectionProvider"
-- "$__lazy_storage_$_selectedSiriVoice"
 - "[TWICE] Device is locked. Will not start Twice remote screen"
-- "[TWICE] Device is locked, but still can dismiss Twice remote screen"
+- "_TtC22AccessibilityUtilities30SpokenContentSelectionProvider"
 - "siriVoiceChanged"
+- "$__lazy_storage_$_selectedSiriVoice"
+- "[TWICE] Device is locked, but still can dismiss Twice remote screen"
 
 ```

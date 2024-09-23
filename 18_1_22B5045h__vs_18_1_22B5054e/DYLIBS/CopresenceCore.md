@@ -72,16 +72,16 @@
    CStrings:  3516
  
 Symbols:
-+ _$s14CopresenceCore9TaskErrorO4hash4intoys6HasherVz_tF
-+ _$s14CopresenceCore9TaskErrorO2eeoiySbAC_ACtFZ
++ _$s14CopresenceCore9TaskErrorON
 + _$s14CopresenceCore9TaskErrorO9hashValueSivpMV
 + _$s14CopresenceCore9TaskErrorOMn
-+ _$s14CopresenceCore9TaskErrorOs0D0AAMc
-+ _$s14CopresenceCore9TaskErrorOSQAAMc
-+ _$s14CopresenceCore9TaskErrorO9hashValueSivg
-+ _$s14CopresenceCore9TaskErrorON
-+ _$s14CopresenceCore9TaskErrorOMa
-+ _$s14CopresenceCore9TaskErrorOSHAAMc
 + _$s14CopresenceCore9TaskErrorO8timedoutyA2CmFWC
++ _$s14CopresenceCore9TaskErrorOSQAAMc
++ _$s14CopresenceCore9TaskErrorO4hash4intoys6HasherVz_tF
++ _$s14CopresenceCore9TaskErrorOMa
++ _$s14CopresenceCore9TaskErrorO9hashValueSivg
++ _$s14CopresenceCore9TaskErrorO2eeoiySbAC_ACtFZ
++ _$s14CopresenceCore9TaskErrorOSHAAMc
++ _$s14CopresenceCore9TaskErrorOs0D0AAMc
 
 ```

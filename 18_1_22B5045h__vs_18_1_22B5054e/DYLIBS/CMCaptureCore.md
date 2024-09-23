@@ -36,16 +36,16 @@
 +  CStrings:  2204
  
 Symbols:
-+ _kFigCaptureSampleBufferMetadata_CoreRepairStatuses
-+ _kFigAppleMakerNote_ModuleAndCalibrationValidationStatuses
 + _kFigCaptureSampleBufferMetadata_InferenceInputDownscalingFactorMultiplier
++ _kFigCaptureSampleBufferMetadata_CoreRepairStatuses
 + _kFigCaptureSampleBufferMetadata_CalibrationValidationStatuses
++ _kFigAppleMakerNote_ModuleAndCalibrationValidationStatuses
 CStrings:
-+ "description=CameraCapture_CMCore-580.11.21.1"
-+ "91"
-+ "InferenceInputDownscalingFactorMultiplier"
 + "CalibrationValidationStatuses"
 + "CoreRepairStatuses"
++ "91"
++ "InferenceInputDownscalingFactorMultiplier"
++ "description=CameraCapture_CMCore-580.11.21.1"
 - "description=CameraCapture_CMCore-580.6.21"
 
 ```

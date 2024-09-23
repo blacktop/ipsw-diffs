@@ -61,16 +61,16 @@
 Symbols:
 + _NSURLVolumeIdentifierKey
 CStrings:
-+ "service:didReceiveArchivedItemsDescriptors:placeholderName:placeholderTypeIdentifier:"
-+ "Documents folder is nil for '%!{(MISSING)public}@' returning empty nodes to observe"
++ "Could not fetch volume for managed app: %!@(MISSING)"
++ "initFileURLWithPath:isDirectory:"
++ "Failed to get volume identifier for %!@(MISSING): %!@(MISSING)"
 + "Could not fetch volume for user home: %!@(MISSING)"
 + "arrayWithObjects:"
++ "Documents folder is nil for '%!{(MISSING)public}@' returning empty nodes to observe"
 + "receiveArchivedItemsDescriptors:placeholderName:placeholderTypeIdentifier:"
 + "v40@0:8@\"NSArray\"16@\"NSString\"24@\"NSString\"32"
++ "service:didReceiveArchivedItemsDescriptors:placeholderName:placeholderTypeIdentifier:"
 + "v40@0:8@16@24@32"
-+ "initFileURLWithPath:isDirectory:"
-+ "Could not fetch volume for managed app: %!@(MISSING)"
-+ "Failed to get volume identifier for %!@(MISSING): %!@(MISSING)"
 - "receiveArchivedItemsDescriptors:"
 
 ```

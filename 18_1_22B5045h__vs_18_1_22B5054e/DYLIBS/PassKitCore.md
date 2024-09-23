@@ -98,123 +98,123 @@
 +  CStrings:  51184
  
 Symbols:
-+ _PKAnalyticsReportPeerPaymentErrorAccountRestrictedLockedPageTag
-+ _OBJC_CLASS_$_AMSBiometricsAvailabilityTask
-+ _PKAnalyticsReportPeerPaymentErrorNotInContactsPageTag
-+ _PKAnalyticsReportPeerPaymentDoNotSendButtonTag
-+ _PKAnalyticsReportPeerPaymentCancelMessageButtonTag
-+ _PKAnalyticsReportPeerPaymentSendRecurringButtonTag
 + _PKAnalyticsReportPeerPaymentChangePaymentMethodPageTag
-+ _dispatch_activate
-+ _PKSavingsAccountFeatureDescriptorIdentifierFDICBehaviors
-+ _PKAnalyticsReportPeerPaymentSendButtonTag
-+ _PKAnalyticsReportPeerPaymentRequestButtonTag
-+ _OBJC_CLASS_$_PKPeerPaymentMessageLocalProperties
-+ _PKAnalyticsReportPeerPaymentP2PContextMessages
++ _PKAnalyticsReportPeerPaymentSendRecurringButtonTag
++ _PKAnalyticsReportPeerPaymentErrorNotInContactsPageTag
 + _PKAnalyticsReportPeerPaymentErrorFraudSuspectedPageTag
-+ _PKAnalyticsReportPeerPaymentP2PMessagePageTag
-+ _PKAnalyticsSubjectConnectedCard
-+ _PKAnalyticsReportPeerPaymentGoToWalletButtonTag
-+ _PKAccessibilityIdentifierPassContainer
-+ _PKAnalyticsReportPeerPaymentP2PContextMessagesCompact
 + _PKAnalyticsReportPeerPaymentPaymentDetailsPageTag
-+ _OBJC_METACLASS_$_PKPeerPaymentMessageLocalProperties
-+ _dispatch_queue_attr_make_initially_inactive
++ _PKSavingsAccountFeatureDescriptorIdentifierFDICBehaviors
++ _dispatch_activate
 + _PKAnalyticsReportPeerPaymentSendAnywayButtonTag
-- _PKAnalyticsReportPeerPaymentDeviceTapPaymentDetailsPageTag
++ _PKAnalyticsReportPeerPaymentP2PContextMessagesCompact
++ _PKAnalyticsReportPeerPaymentRequestButtonTag
++ _dispatch_queue_attr_make_initially_inactive
++ _OBJC_CLASS_$_AMSBiometricsAvailabilityTask
++ _PKAnalyticsReportPeerPaymentErrorAccountRestrictedLockedPageTag
++ _OBJC_METACLASS_$_PKPeerPaymentMessageLocalProperties
++ _PKAccessibilityIdentifierPassContainer
++ _PKAnalyticsReportPeerPaymentSendButtonTag
++ _PKAnalyticsSubjectConnectedCard
++ _PKAnalyticsReportPeerPaymentDoNotSendButtonTag
++ _PKAnalyticsReportPeerPaymentP2PMessagePageTag
++ _PKAnalyticsReportPeerPaymentCancelMessageButtonTag
++ _PKAnalyticsReportPeerPaymentGoToWalletButtonTag
++ _PKAnalyticsReportPeerPaymentP2PContextMessages
++ _OBJC_CLASS_$_PKPeerPaymentMessageLocalProperties
 - _PKAnalyticsReportPeerPaymentDeviceTapChangePaymentMethodPageTag
+- _PKAnalyticsReportPeerPaymentDeviceTapPaymentDetailsPageTag
 CStrings:
-+ "\a1!!"
-+ "notInContacts"
-+ "FDICBehaviors"
-+ "showSettingsBalance"
-+ "connectedCard"
-+ "resultWithCompletion:"
-+ "setInitialAction:"
-+ "^[A-Za-z0-9~_+&@$!|,.;-]+$"
-+ "clear"
-+ "setShowSettingsBalance:"
-+ "initWithAccount:forSignaturePurpose:"
-+ "FDICBehaviorShowCreditDashboardBalance"
-+ "PKPaymentSessionHandle (%!p(MISSING)): invalidating STSSession %!p(MISSING)."
-+ "FDICBehaviorShowCreditRewardsHubBalance"
-+ "cancelMessage"
-+ "sendRecurring"
-+ "messagesCompact"
-+ "p2pMessage"
-+ "TB,N,V_hideCreditRewardsHubSignage"
-+ "PKPaymentSessionHandle (%!p(MISSING)): invalidating NFSession handle %!p(MISSING)."
-+ "FDICBehaviorShowSettingsBalance"
-+ "TB,N,V_showCreditRewardsHubBalance"
-+ "{?=\"amount\"b1\"recurringPaymentStartDate\"b1\"type\"b1}"
-+ "doNotSend"
-+ "FDICBehaviorsFeatureDescriptor"
-+ "setShowCreditRewardsHubBalance:"
-+ "_preempted"
-+ "_showSettingsBalance"
++ "showCreditDashboardBalance"
++ "pass-container"
 + "_initialAction"
-+ "_STSSession"
-+ "\xf01"
-+ "FDICBehaviorHideCreditRewardsHubSignage"
-+ "T@\"<PKContactlessInterfaceSessionDelegate>\",W"
++ "showCreditRewardsHubBalance"
++ "cancelMessage"
++ "analyticsSessionToken"
++ "_showCreditRewardsHubBalance"
++ "resultWithCompletion:"
++ "PKPaymentSessionHandle (%!p(MISSING)): invalidating STSSession %!p(MISSING)."
++ "PKPaymentSessionHandle (%!p(MISSING)): invalidating NFSession handle %!p(MISSING)."
++ "TB,N,V_showSettingsBalance"
++ "{?=\"amount\"b1\"recurringPaymentStartDate\"b1\"type\"b1}"
++ "initWithAccount:forSignaturePurpose:"
 + "Fetched AMS biometrics availability with result: %!{(MISSING)public}@, error: %!@(MISSING)"
-+ "isPreempted"
-+ "hideCreditRewardsHubSignage"
-+ "_STSSessionIsFirstInQueue"
++ "reportAppleCashSenderErrorPage:"
++ "notInContacts"
++ "TQ,N,V_initialAction"
 + "TB,N,V_showCreditDashboardBalance"
-+ "_NFSessionHandle"
++ "_hideCreditRewardsHubSignage"
 + "hideCreditRewardsHubSignage: '%!@(MISSING)'"
-+ "reportAppleCashSenderErrorPage:buttonTag:"
++ "p2pMessage"
++ "_analyticsSessionToken"
++ "showCreditDashboardBalance: '%!@(MISSING)'"
++ "hideCreditRewardsHubSignage"
++ "requestBiometricsAvailabilityWithCompletion:"
++ "^[A-Za-z0-9~_+&@$!|,.;-]+$"
++ "preempted"
++ "FDICBehaviorsFeatureDescriptor"
++ "\a1!!"
++ "TB,N,V_showCreditRewardsHubBalance"
++ "_NFSessionHandle"
++ "_showCreditDashboardBalance"
++ "setAnalyticsSessionToken:"
++ "FDICBehaviorShowCreditRewardsHubBalance"
++ "isPreempted"
++ "messagesCompact"
 + "showSettingsBalance: '%!@(MISSING)'"
 + "setShowCreditDashboardBalance:"
-+ "analyticsSessionToken"
-+ "showCreditRewardsHubBalance"
-+ "preempted"
-+ "setAnalyticsSessionToken:"
-+ "showCreditRewardsHubBalance: '%!@(MISSING)'"
-+ "setHideCreditRewardsHubSignage:"
-+ "requestBiometricsAvailabilityWithCompletion:"
-+ "TB,N,V_showSettingsBalance"
-+ "_showCreditRewardsHubBalance"
-+ "goToWallet"
-+ "_analyticsSessionToken"
 + "initialAction"
++ "setHideCreditRewardsHubSignage:"
 + "PKPeerPaymentMessageLocalProperties"
-+ "accountRestrictedLocked"
++ "TB,N,V_hideCreditRewardsHubSignage"
++ "FDICBehaviors"
++ "goToWallet"
++ "showCreditRewardsHubBalance: '%!@(MISSING)'"
++ "FDICBehaviorShowCreditDashboardBalance"
++ "_preempted"
++ "setShowSettingsBalance:"
++ "_showSettingsBalance"
++ "setInitialAction:"
 + "addressableHandles: '%!@(MISSING)'; "
-+ "showCreditDashboardBalance: '%!@(MISSING)'"
-+ "_showCreditDashboardBalance"
-+ "showCreditDashboardBalance"
-+ "isP2P"
-+ "TB,R,N,GisPreempted,V_preempted"
-+ "TQ,N,V_initialAction"
-+ "reportAppleCashSenderErrorPage:"
-+ "sendAnyway"
++ "_STSSessionIsFirstInQueue"
++ "FDICBehaviorHideCreditRewardsHubSignage"
++ "connectedCard"
++ "_STSSession"
++ "clear"
++ "\xf01"
++ "accountRestrictedLocked"
 + "T@\"NSData\",C,N,V_analyticsSessionToken"
-+ "pass-container"
-+ "_hideCreditRewardsHubSignage"
-- "^[A-Za-z0-9.-]+$"
-- "T@\"NSArray\",C,N,V_trackers"
-- "-\x11"
-- "sourceAsString:"
-- "_sessionHandle"
-- "Ti,N,V_source"
++ "TB,R,N,GisPreempted,V_preempted"
++ "reportAppleCashSenderErrorPage:buttonTag:"
++ "showSettingsBalance"
++ "sendAnyway"
++ "sendRecurring"
++ "FDICBehaviorShowSettingsBalance"
++ "isP2P"
++ "setShowCreditRewardsHubBalance:"
++ "T@\"<PKContactlessInterfaceSessionDelegate>\",W"
++ "doNotSend"
 - "_transactionSignalQueue"
+- "Ti,N,V_source"
+- "StringAsSource:"
 - "firstInQueue"
+- "setTrackers:"
+- "T@\"<PKContactlessInterfaceSessionDelegate>\",W,N"
 - "{?=\"amount\"b1\"recurringPaymentStartDate\"b1\"source\"b1\"type\"b1}"
 - "MESSAGES"
-- "Invalidating Payment Session via Handle"
-- "setHasSource:"
 - "com.apple.walletTransactionSignal.background"
-- "\a12!"
-- "T@\"<PKContactlessInterfaceSessionDelegate>\",W,N"
 - "TB,N,GisFirstInQueue"
-- "StringAsSource:"
-- "initWithInternalSessionHandle:targetQueue:"
-- "setTrackers:"
+- "setHasSource:"
+- "T@\"NSArray\",C,N,V_trackers"
 - "hasSource"
-- "setFirstInQueue:"
-- "SIRI"
 - "_firstInQueue"
+- "setFirstInQueue:"
+- "Invalidating Payment Session via Handle"
+- "\a12!"
+- "sourceAsString:"
+- "initWithInternalSessionHandle:targetQueue:"
+- "-\x11"
+- "SIRI"
+- "^[A-Za-z0-9.-]+$"
+- "_sessionHandle"
 
 ```

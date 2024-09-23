@@ -48,13 +48,13 @@
 +  CStrings:  191
  
 Symbols:
-+ _objc_release_x27
 + _objc_release_x26
++ _objc_release_x27
 - ___NSArray0__struct
 CStrings:
 + "initWithObjects:"
-+ "FaceTime"
 + "Apps"
++ "FaceTime"
 + "Phone"
 
 ```

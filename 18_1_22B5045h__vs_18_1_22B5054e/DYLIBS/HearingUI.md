@@ -61,31 +61,31 @@
 Symbols:
 + _objc_unsafeClaimAutoreleasedReturnValue
 + _PAYodelConfigDidUpdate
-+ _accessibilityHearingAidSupportBundle
 + _OBJC_CLASS_$_PAHMSManager
++ _accessibilityHearingAidSupportBundle
 + _objc_retain_x28
 CStrings:
++ "yodelEnabledForAddress:"
 + "HearingProtection-Yodel"
-+ "User toggled YHA"
-+ "toneForAddress:"
++ "toggleHearingAidForAddress:"
++ "YodelFeatureName"
 + "setBeamforming:forAddress:"
 + "amplificationForAddress:"
 + "balanceForAddress:"
-+ "toggleHearingAidForAddress:"
-+ "76,8221"
-+ "yodelEnabledForAddress:"
-+ "beamformingForAddress:"
-+ "setAccommodationType:forAddress:"
-+ "setNoiseSupressor:forAddress:"
-+ "Yodel beamformer toggled %!d(MISSING)"
-+ "setBalance:forAddress:"
-+ "noiseSupressorForAddress:"
 + "-[HUICCMenuCheckmarkView _menuItemsforBluetoothDevice:]_block_invoke"
-+ "hearingAidEnabledForAddress:"
-+ "YodelFeatureName"
-+ "setAmplification:forAddress:"
++ "setBalance:forAddress:"
++ "setAccommodationType:forAddress:"
 + "localizedStringForKey:value:table:"
++ "noiseSupressorForAddress:"
++ "setAmplification:forAddress:"
 + "b498"
++ "beamformingForAddress:"
++ "User toggled YHA"
++ "toneForAddress:"
++ "76,8221"
++ "Yodel beamformer toggled %!d(MISSING)"
++ "setNoiseSupressor:forAddress:"
 + "setTone:forAddress:"
++ "hearingAidEnabledForAddress:"
 
 ```

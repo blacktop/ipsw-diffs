@@ -72,16 +72,16 @@
 Symbols:
 + _OBJC_CLASS_$_MSVAutoBugCapture
 CStrings:
++ "\x1f\x05"
++ "_discoveryTimer"
 + "Power"
 + "persistentDiscoveryABCDuration"
-+ "@16@?0@\"MRAVDistantEndpoint\"8"
-+ "discover"
-+ "Discovery"
-+ "_discoveryTimer"
++ "Persistent RemoteControl Discovery"
 + "snapshotWithDomain:type:subType:context:triggerThresholdValues:events:completion:"
 + "[RemoteControlDiscoverySession] Discovery still on after %!l(MISSING)f seconds. ABC..."
-+ "Persistent RemoteControl Discovery"
-+ "\x1f\x05"
++ "Discovery"
++ "@16@?0@\"MRAVDistantEndpoint\"8"
++ "discover"
 - "\x1f\x04"
 
 ```

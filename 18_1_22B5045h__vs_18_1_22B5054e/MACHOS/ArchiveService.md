@@ -51,16 +51,16 @@
 Symbols:
 + _NSURLContentTypeKey
 CStrings:
-+ "@64@0:8@16@24@32^B40^B48^@56"
-+ "service:didReceiveArchivedItemsDescriptors:placeholderName:placeholderTypeIdentifier:"
-+ "v40@0:8@\"NSArray\"16@\"NSString\"24@\"NSString\"32"
-+ "receiveArchivedItemsDescriptors:placeholderName:placeholderTypeIdentifier:"
-+ "v40@0:8@16@24@32"
-+ "_createUnarchivePlaceholderForDescriptors:describingArchive:inFolder:hasMultipleTopLevelItems:placeholderIsFolder:error:"
 + "Failed to type for placeholder %!{(MISSING)public}@: %!@(MISSING)"
-- "@56@0:8@16@24@32^B40^@48"
-- "v24@0:8@\"NSArray\"16"
-- "receiveArchivedItemsDescriptors:"
++ "receiveArchivedItemsDescriptors:placeholderName:placeholderTypeIdentifier:"
++ "service:didReceiveArchivedItemsDescriptors:placeholderName:placeholderTypeIdentifier:"
++ "_createUnarchivePlaceholderForDescriptors:describingArchive:inFolder:hasMultipleTopLevelItems:placeholderIsFolder:error:"
++ "v40@0:8@16@24@32"
++ "v40@0:8@\"NSArray\"16@\"NSString\"24@\"NSString\"32"
++ "@64@0:8@16@24@32^B40^B48^@56"
 - "_createUnarchivePlaceholderForDescriptors:describingArchive:inFolder:hasMultipleTopLevelItems:error:"
+- "receiveArchivedItemsDescriptors:"
+- "v24@0:8@\"NSArray\"16"
+- "@56@0:8@16@24@32^B40^@48"
 
 ```

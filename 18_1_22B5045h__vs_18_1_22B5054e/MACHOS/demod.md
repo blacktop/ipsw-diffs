@@ -41,12 +41,12 @@
 +  CStrings:  9393
  
 CStrings:
-+ "com_apple_MobileAsset_UAF_FM_GenerativeModels"
-+ "/var/MobileAsset/AssetsV2"
-+ "Library/Preferences/com.apple.MobileAsset.plist"
 + "Cannot find RelativePathsNotToRestore under RootDomain."
++ "com_apple_MobileAsset_UAF_FM_GenerativeModels"
 + "RelativePathsNotToRemoveIfNotRestored"
 + "Cannot find RelativePathsNotToRemoveIfNotRestored under RootDomain."
++ "Library/Preferences/com.apple.MobileAsset.plist"
++ "/var/MobileAsset/AssetsV2"
 - "/var/MobileAsset/AssetsV2/com_apple_MobileAsset_UAF_FM_GenerativeModels"
 
 ```

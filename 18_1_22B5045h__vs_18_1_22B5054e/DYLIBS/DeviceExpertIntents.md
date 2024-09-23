@@ -84,9 +84,9 @@
 Symbols:
 + _swift_task_create
 CStrings:
++ "Failed to invalidate tip with identifier: %!s(MISSING)"
++ "CID-settings-asksirihow"
 + "com.apple.Preferences"
 + "tipKitEventSender"
-+ "CID-settings-asksirihow"
-+ "Failed to invalidate tip with identifier: %!s(MISSING)"
 
 ```

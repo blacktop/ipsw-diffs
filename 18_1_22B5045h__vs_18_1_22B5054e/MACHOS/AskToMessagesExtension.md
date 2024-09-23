@@ -25,8 +25,8 @@
 +  CStrings:  200
  
 CStrings:
-+ "YouResponseSubtitleDenialAnswerKind"
-+ "YouResponseTitleUnknownAnswerKind"
 + "YouResponseSubtitleApprovalAnswerKind"
++ "YouResponseTitleUnknownAnswerKind"
++ "YouResponseSubtitleDenialAnswerKind"
 
 ```

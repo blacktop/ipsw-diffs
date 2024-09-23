@@ -67,13 +67,13 @@
 +  CStrings:  30
  
 Symbols:
++ _objc_retain_x21
 + _objc_retain_x24
 + _objc_release_x27
-+ _objc_retain_x21
 CStrings:
-+ "primaryButtonLabel"
 + "binaryConfirmation"
-+ "secondaryButtonDI"
 + "secondaryButtonLabel"
++ "primaryButtonLabel"
++ "secondaryButtonDI"
 
 ```

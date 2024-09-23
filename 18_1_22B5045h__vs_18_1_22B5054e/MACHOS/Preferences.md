@@ -69,9 +69,9 @@
 +  CStrings:  1746
  
 CStrings:
-+ "ForceInternalSettingsHidden"
 + "ForceDeveloperSettingsHidden"
-+ "ForceCarrierSettingsHidden"
 + "ForSettingsAppOnlyDoNotUseGenerallyAsASourceOfTruth"
++ "ForceInternalSettingsHidden"
++ "ForceCarrierSettingsHidden"
 
 ```

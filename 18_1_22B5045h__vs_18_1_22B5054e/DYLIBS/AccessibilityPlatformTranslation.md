@@ -67,20 +67,20 @@
 +  CStrings:  982
  
 Symbols:
-+ _CGRectIsEmpty
 + _dispatch_get_global_queue
++ _CGRectIsEmpty
 CStrings:
-+ "rectWithAXAttribute:"
 + "dealloc"
-+ "\x13"
++ "rectWithAXAttribute:"
 + "stop"
-- "set_axHierarchyGenerationQueue:"
-- "\x13\x11"
++ "\x13"
+- "_axHierarchyGenerationQueue"
+- "T@\"NSObject<OS_dispatch_queue>\",&,N,V__axHierarchyGenerationQueue"
+- "com.apple.accessibility.AXPRemoteCacheManager.axHierarchyGeneration"
 - "T@\"AXPRemoteCacheManager\",R,N"
 - "-[AXPRemoteCacheManager _sendAXHierachy]_block_invoke"
+- "\x13\x11"
 - "__axHierarchyGenerationQueue"
-- "T@\"NSObject<OS_dispatch_queue>\",&,N,V__axHierarchyGenerationQueue"
-- "_axHierarchyGenerationQueue"
-- "com.apple.accessibility.AXPRemoteCacheManager.axHierarchyGeneration"
+- "set_axHierarchyGenerationQueue:"
 
 ```

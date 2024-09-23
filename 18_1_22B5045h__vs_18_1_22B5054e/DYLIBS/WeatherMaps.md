@@ -75,32 +75,32 @@
 +  CStrings:  3161
  
 Symbols:
-- _sscanf
-- _fread
-- _swift_task_addCancellationHandler
-- _ftell
-- _fclose
-- __availability_version_check
-- _fopen
-- _dlsym
-- _dispatch_once_f
-- _fseek
 - _swift_task_removeCancellationHandler
+- _fclose
+- _swift_task_addCancellationHandler
+- _fread
+- _dispatch_once_f
+- _dlsym
+- __availability_version_check
+- _fseek
+- _ftell
 - _rewind
+- _sscanf
+- _fopen
 CStrings:
-- "CFStringGetCString"
-- "r"
-- "CFPropertyListCreateFromXMLData"
-- "CFStringGetTypeID"
-- "ProductVersion"
-- "CFPropertyListCreateWithData"
-- "kCFAllocatorNull"
-- "CFRelease"
-- "%!d(MISSING).%!d(MISSING).%!d(MISSING)"
-- "CFGetTypeID"
-- "CFDictionaryGetValue"
-- "/System/Library/CoreServices/SystemVersion.plist"
-- "CFStringCreateWithCStringNoCopy"
 - "CFDataCreateWithBytesNoCopy"
+- "CFDictionaryGetValue"
+- "r"
+- "kCFAllocatorNull"
+- "CFPropertyListCreateFromXMLData"
+- "CFStringGetCString"
+- "%!d(MISSING).%!d(MISSING).%!d(MISSING)"
+- "/System/Library/CoreServices/SystemVersion.plist"
+- "CFGetTypeID"
+- "CFStringGetTypeID"
+- "CFRelease"
+- "CFStringCreateWithCStringNoCopy"
+- "CFPropertyListCreateWithData"
+- "ProductVersion"
 
 ```

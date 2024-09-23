@@ -51,9 +51,9 @@
  
 CStrings:
 - "isNewAsset:"
-- "intValue"
-- "PID"
 - "objectAtIndexedSubscript:"
+- "intValue"
 - "%!d(MISSING)"
+- "PID"
 
 ```

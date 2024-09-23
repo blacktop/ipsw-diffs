@@ -83,20 +83,20 @@
  
 Symbols:
 + _$s15ConversationKit29CallRecordingViewMaterialTypeO5photoyA2CmFWC
-+ _$s15ConversationKit29CallRecordingViewMaterialTypeO7noPhotoyA2CmFWC
-+ _$s15ConversationKit29CallRecordingViewMaterialTypeOMa
 + _$s15ConversationKit31CallRecordingPillViewControllerC24updateBackgroundMaterial8materialyAA0cdfJ4TypeO_tF
++ _$s15ConversationKit29CallRecordingViewMaterialTypeOMa
 + _$s15ConversationKit29CallRecordingViewMaterialTypeO6avataryA2CmFWC
++ _$s15ConversationKit29CallRecordingViewMaterialTypeO7noPhotoyA2CmFWC
 CStrings:
++ "PHAudioCallViewController: Not suppressing ringtone or declining call."
++ "PHAudioCallViewController handling device lock event isPickedRouteReceiver=%!d(MISSING), activeCall=%!d(MISSING), incomingCall=%!d(MISSING), sourceType=%!d(MISSING)"
 + "updateCallRecordingViewBackgroundMaterialType:"
 + "CallManagerBridge proposedPresentation is empty since the active call is video and we don't have an incoming call"
-+ "PHAudioCallViewController handling device lock event isPickedRouteReceiver=%!d(MISSING), activeCall=%!d(MISSING), incomingCall=%!d(MISSING), sourceType=%!d(MISSING)"
 + "InCallService8"
-+ "PHAudioCallViewController: Not suppressing ringtone or declining call."
-- "PHAudioCallViewController handling device lock event"
-- "setIgnoreUpdates:"
 - "PHAudioCallViewController deallocated"
 - "TB,N,VignoreUpdates"
+- "PHAudioCallViewController handling device lock event"
 - "ignoreUpdates"
+- "setIgnoreUpdates:"
 
 ```

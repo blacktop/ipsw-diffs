@@ -46,15 +46,15 @@
 +  CStrings:  72
  
 CStrings:
-+ "Show Camera control for ProRes. ProRes is one of the most popular formats for video professional post-production."
-+ "CAMERA_SETTINGS_HDR_VIDEO_SYNONYMS"
-+ "CAMERA_SETTINGS_PRO_RES_PATH"
-+ "CAMERA_SETTINGS_PRO_RAW_SYNONYMS"
-+ "CAMERA_SETTINGS_FORMATS_SYNONYMS"
 + "CAMERA_SETTINGS_PRESERVE_SYNONYMS"
-+ "/CameraFormatsSettingsList#CAMUserPreferenceEnableProResControl"
++ "CAMERA_SETTINGS_PRO_RES_PATH"
++ "CAMERA_SETTINGS_FORMATS_SYNONYMS"
 + "CAM_FORMATS_PRO_RES_TITLE"
 + "isProResVideoSupported"
++ "/CameraFormatsSettingsList#CAMUserPreferenceEnableProResControl"
++ "CAMERA_SETTINGS_HDR_VIDEO_SYNONYMS"
++ "Show Camera control for ProRes. ProRes is one of the most popular formats for video professional post-production."
++ "CAMERA_SETTINGS_PRO_RAW_SYNONYMS"
 - "Camera capture format"
 
 ```

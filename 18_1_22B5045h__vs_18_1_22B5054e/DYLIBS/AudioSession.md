@@ -60,7 +60,7 @@
 Symbols:
 + _AVAudioSessionCategoryHearingTest
 CStrings:
-+ "HearingTest"
 + "AVAudioSessionCategoryHearingTest"
++ "HearingTest"
 
 ```

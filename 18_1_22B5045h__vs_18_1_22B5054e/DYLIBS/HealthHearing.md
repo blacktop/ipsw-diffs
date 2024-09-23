@@ -46,12 +46,12 @@
  
 Symbols:
 + _HKFeatureSettingsKeyAppleHearingTestLastCompletionDate
-+ __HKAudiogramAgeForHearingTestInitialData
 + _HKFeatureAvailabilityContextHearingTestPromptTileVisibility
++ __HKAudiogramAgeForHearingTestInitialData
 + _HKHearingTestAirPodsFirmwareUDIDeviceIdentifier
 CStrings:
-+ "AppleHearingTestLastCompletionDate"
 + "HearingTestPromptTileVisibility"
 + "(01)00195949149955"
++ "AppleHearingTestLastCompletionDate"
 
 ```

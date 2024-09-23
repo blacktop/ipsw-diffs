@@ -62,7 +62,7 @@
 +  CStrings:  7589
  
 CStrings:
-+ "R2R support is %!s(MISSING) by %!s(MISSING) = %!d(MISSING)"
 + "als_R2R_supported"
++ "R2R support is %!s(MISSING) by %!s(MISSING) = %!d(MISSING)"
 
 ```

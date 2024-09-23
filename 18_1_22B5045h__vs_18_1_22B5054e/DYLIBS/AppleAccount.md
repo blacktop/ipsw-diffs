@@ -80,29 +80,29 @@
  
 Symbols:
 + _kInheritanceCleanupStaleRecordsEventName
-+ _kAAAnalyticsEventCustodianRecovery
 + _OBJC_CLASS_$_AAFExponentialRetryScheduler
++ _kAAAnalyticsEventCustodianRecovery
 CStrings:
-+ "CustodianRecoveryRequestContext with ownerAppleID: %!@(MISSING) \nsessionID: %!@(MISSING) \nrecoveryCode: %!@(MISSING) \ncustodianUUID: %!@(MISSING) \nrecoveryToken: %!@(MISSING) \ncliMode: %!i(MISSING) \ndataOnly: %!@(MISSING), recordBuildVersion: %!@(MISSING), flowID: %!@(MISSING), altDSID: %!@(MISSING)"
-+ "_retryingGenerateCustodianRecoveryCodeWithContext:completion:"
-+ "isLCDeletionChangeCKStatusToDeclinedEnabled"
-+ "com.apple.appleaccount.CustodianRecovery"
 + "_telemetryFlowID"
-+ "Scheduling validate recovery code through retry scheduler"
 + "T@\"NSString\",C,N,V_telemetryFlowID"
-+ "com.apple.appleaccount.inheritance.cleanupStaleRecords"
-+ "appleaccount-legacycontact-onboarding"
-+ "accessibilityIdentifier"
-+ "v24@?0@8@\"NSError\"16"
-+ "v16@?0@?<v@?@@\"NSError\">8"
-+ "scheduleTask:shouldRetry:completionHandler:"
++ "CustodianRecoveryRequestContext with ownerAppleID: %!@(MISSING) \nsessionID: %!@(MISSING) \nrecoveryCode: %!@(MISSING) \ncustodianUUID: %!@(MISSING) \nrecoveryToken: %!@(MISSING) \ncliMode: %!i(MISSING) \ndataOnly: %!@(MISSING), recordBuildVersion: %!@(MISSING), flowID: %!@(MISSING), altDSID: %!@(MISSING)"
 + "Cannot call daemon to generate custodian recovery code as custodian controller is deallocated"
-+ "LCDeletionChangeCKStatusToDeclined"
++ "accessibilityIdentifier"
++ "com.apple.appleaccount.inheritance.cleanupStaleRecords"
 + "initWithMaxRetries:"
-+ "appleaccount-recoverycontact-onboarding"
++ "LCDeletionChangeCKStatusToDeclined"
++ "_retryingGenerateCustodianRecoveryCodeWithContext:completion:"
 + "setAccessibilityIdentifier:"
++ "appleaccount-legacycontact-onboarding"
++ "v16@?0@?<v@?@@\"NSError\">8"
++ "com.apple.appleaccount.CustodianRecovery"
++ "Scheduling validate recovery code through retry scheduler"
++ "isLCDeletionChangeCKStatusToDeclinedEnabled"
++ "v24@?0@8@\"NSError\"16"
 + "_retryingValidateCustodianRecoveryCodeWithContext:completion:"
-- "\x16"
++ "appleaccount-recoverycontact-onboarding"
++ "scheduleTask:shouldRetry:completionHandler:"
 - "CustodianRecoveryRequestContext with ownerAppleID: %!@(MISSING) \nsessionID: %!@(MISSING) \nrecoveryCode: %!@(MISSING) \ncustodianUUID: %!@(MISSING) \nrecoveryToken: %!@(MISSING) \ncliMode: %!i(MISSING) \ndataOnly: %!@(MISSING), recordBuildVersion: %!@(MISSING)"
+- "\x16"
 
 ```

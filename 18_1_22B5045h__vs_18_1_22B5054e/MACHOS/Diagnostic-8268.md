@@ -66,81 +66,81 @@
 +  CStrings:  176
  
 Symbols:
++ _mach_task_self_
 + ___kCFBooleanTrue
 + _os_log_create
-+ ___kCFBooleanFalse
-+ _IOServiceGetMatchingService
-+ _free
-+ __NSConcreteGlobalBlock
-+ _OBJC_CLASS_$_NSMutableDictionary
-+ _IOServiceClose
-+ _malloc_type_malloc
-+ _dispatch_once
 + _IOConnectCallStructMethod
-+ _kIOMasterPortDefault
-+ _memmove
 + __os_log_default
-+ _IOServiceMatching
-+ _IOObjectRelease
++ _OBJC_CLASS_$_NSMutableDictionary
++ __NSConcreteGlobalBlock
++ _IOServiceGetMatchingService
++ ___kCFBooleanFalse
 + _IOServiceOpen
-+ _mach_task_self_
++ _free
++ _dispatch_once
++ _IOServiceMatching
++ _IOServiceClose
++ _memmove
++ _IOObjectRelease
++ _kIOMasterPortDefault
++ _malloc_type_malloc
 CStrings:
-+ "FDR Trust Object URL: %!@(MISSING)"
-+ "T@\"NSString\",R,N,V_FDRDSURL"
++ "_trustObjectURL"
++ "err == 0 "
 + "setPhysicalPresence control:%!d(MISSING) state:%!p(MISSING)\n"
 + "AMFDR options: %!@(MISSING)"
-+ "DSURL"
-+ "StripImg4"
-+ "setPhysicalPresence -> 0x%!x(MISSING)\n"
-+ "Failed to get sensor type: 0x%!x(MISSING)"
-+ "TrustObjectURL"
-+ "AssertMacros: %!s(MISSING) (value = 0x%!l(MISSING)x), %!s(MISSING) file: %!s(MISSING), line: %!d(MISSING)\n\n"
-+ "service"
-+ "T@\"NSString\",R,N,V_FDRCAURL"
-+ "cmd"
-+ "T@\"NSString\",R,N,V_trustObjectURL"
-+ "setObject:forKeyedSubscript:"
-+ "/Library/Caches/com.apple.xbs/Sources/Mesa/AppleBiometricServices/MesaFactoryC/MesaFactoryC.c"
-+ "Couldn't create OS Log for 'com.apple.BiometricKit.Library-MesaFactory'!\n"
-+ "v32@0:8@16^B24"
-+ "Get PhysicalPresenceAsserted failed: 0x%!x(MISSING)\n"
-+ "_validateURL:failed:"
-+ "com.apple.BiometricKit"
-+ "@\"NSString\""
-+ "Library-MesaFactory"
-+ "createFDROptions"
-+ "URL: %!@(MISSING) is invalid"
 + "mesaPhysicalPresenceAsserted"
 + "AppleBiometricServices"
-+ "FDR DS URL: %!@(MISSING)"
-+ "_FDRDSURL"
-+ "VerifyData"
-+ "mesaProtocolVersion"
-+ "Mesa sensor type: 0x%!x(MISSING)"
-+ "trustObjectURL"
-+ "size == sizeof(state)"
-+ "control != kMesaFactoryPhysicalPresenceGetState || state"
-+ "err == 0 "
-+ "FDRDSURL"
-+ "FDR CA URL: %!@(MISSING)"
-+ "control < kMesaFactoryPhysicalPresenceCount"
-+ "\x16"
-+ "Mesa protocol version %!d(MISSING)"
-+ "_trustObjectURL"
-+ "getSensorType %!p(MISSING)\n"
-+ "GetCombined"
-+ "URL: %!@(MISSING) scheme is invalid"
-+ "_FDRCAURL"
-+ "i16@0:8"
-+ "CAURL"
-+ "size == sizeof(sensorInfo)"
++ "service"
 + "v8@?0"
-+ "dictionary"
++ "Library-MesaFactory"
++ "i16@0:8"
++ "setObject:forKeyedSubscript:"
++ "/Library/Caches/com.apple.xbs/Sources/Mesa/AppleBiometricServices/MesaFactoryC/MesaFactoryC.c"
++ "FDR DS URL: %!@(MISSING)"
++ "v32@0:8@16^B24"
++ "T@\"NSString\",R,N,V_FDRDSURL"
 + "getSensorType -> %!{(MISSING)errno}d %!d(MISSING)\n"
-+ "-[MesaPairer createFDROptions]"
++ "control < kMesaFactoryPhysicalPresenceCount"
++ "FDRDSURL"
++ "@\"NSString\""
++ "getSensorType %!p(MISSING)\n"
++ "FDR Trust Object URL: %!@(MISSING)"
++ "_FDRDSURL"
++ "Get PhysicalPresenceAsserted failed: 0x%!x(MISSING)\n"
++ "createFDROptions"
++ "CAURL"
++ "Mesa sensor type: 0x%!x(MISSING)"
++ "URL: %!@(MISSING) is invalid"
++ "cmd"
++ "control != kMesaFactoryPhysicalPresenceGetState || state"
++ "size == sizeof(sensorInfo)"
++ "VerifyData"
++ "dictionary"
++ "mesaProtocolVersion"
++ "com.apple.BiometricKit"
++ "StripImg4"
++ "Couldn't create OS Log for 'com.apple.BiometricKit.Library-MesaFactory'!\n"
++ "URL: %!@(MISSING) scheme is invalid"
++ "FDR CA URL: %!@(MISSING)"
 + "FDRCAURL"
-+ "Physical Presence -> %!d(MISSING)\n"
 + "NSStringFromKey:defaultValue:failed:"
++ "T@\"NSString\",R,N,V_trustObjectURL"
++ "DSURL"
++ "TrustObjectURL"
++ "size == sizeof(state)"
++ "\x16"
++ "AssertMacros: %!s(MISSING) (value = 0x%!l(MISSING)x), %!s(MISSING) file: %!s(MISSING), line: %!d(MISSING)\n\n"
++ "_FDRCAURL"
++ "-[MesaPairer createFDROptions]"
++ "setPhysicalPresence -> 0x%!x(MISSING)\n"
++ "GetCombined"
++ "Failed to get sensor type: 0x%!x(MISSING)"
++ "trustObjectURL"
++ "Mesa protocol version %!d(MISSING)"
++ "T@\"NSString\",R,N,V_FDRCAURL"
++ "_validateURL:failed:"
++ "Physical Presence -> %!d(MISSING)\n"
 - "\x13"
 
 ```

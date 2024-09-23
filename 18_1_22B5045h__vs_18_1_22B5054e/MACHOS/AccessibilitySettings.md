@@ -88,136 +88,136 @@
 +  CStrings:  12590
  
 Symbols:
++ -[PSSpecifier(AXCustomGraphicIcons) _axApplyGraphicIconNamed:]
++ ___39-[VoiceOverAudioController viewDidLoad]_block_invoke_3
++ __block_literal_global.838
 + -[PSSpecifier(AXCustomGraphicIcons) ax_applyCustomAccessibilityGraphicIconNamed:]
++ __OBJC_$_INSTANCE_METHODS_PSSpecifier(AXAssetStatusInfo|AXPriv|AXCustomGraphicIcons|VoiceOverSoundsAndHapticsExtras|VoiceOverCustomCommandsExtras)
++ _objc_msgSend$resumeListening
++ ___67-[ClarityUIParentalControlsSetupController _setupPasscodeErrorView]_block_invoke
++ _objc_msgSend$ax_applyPredefinedGraphicIconNamed:
++ _AXSettingsNameForAudioDuckingMode
 + -[SoundActionsPracticeAudioManager resume]
 + __OBJC_$_CLASS_METHODS_PSSpecifier(AXAssetStatusInfo|AXPriv|AXCustomGraphicIcons|VoiceOverSoundsAndHapticsExtras|VoiceOverCustomCommandsExtras)
-+ ___67-[ClarityUIParentalControlsSetupController _setupPasscodeErrorView]_block_invoke
-+ __block_literal_global.838
 + -[VoiceOverAudioController _selectedAudioDuckingMode:]
-+ _objc_msgSend$restrictionsPasscodeEntryAttemptCountAndTimeoutDateWithCompletionHandler:
-+ _objc_msgSend$resumeListening
-+ __block_literal_global.865
-+ _objc_msgSend$pauseListening
-+ _objc_msgSend$_axApplyGraphicIconNamed:
-+ _objc_msgSend$ax_applyPredefinedGraphicIconNamed:
-+ -[SoundActionsPracticeAudioManager pause]
-+ _objc_msgSend$ax_applyCustomAccessibilityGraphicIconNamed:
 + -[PSSpecifier(AXCustomGraphicIcons) ax_applyPredefinedGraphicIconNamed:]
-+ _AXSettingsNameForAudioDuckingMode
-+ -[PSSpecifier(AXCustomGraphicIcons) _axApplyGraphicIconNamed:]
-+ ___block_descriptor_40_e8_32s_e41_v32?0"NSNumber"8"NSDate"16"NSError"24ls32l8
++ -[SoundActionsPracticeAudioManager pause]
 + __block_literal_global.529
-+ ___39-[VoiceOverAudioController viewDidLoad]_block_invoke_3
 + _objc_msgSend$resume
++ __block_literal_global.865
++ _objc_msgSend$ax_applyCustomAccessibilityGraphicIconNamed:
++ _objc_msgSend$_axApplyGraphicIconNamed:
++ _objc_msgSend$restrictionsPasscodeEntryAttemptCountAndTimeoutDateWithCompletionHandler:
++ ___block_descriptor_40_e8_32s_e41_v32?0"NSNumber"8"NSDate"16"NSError"24ls32l8
 + ___39-[VoiceOverAudioController viewDidLoad]_block_invoke_4
-+ __OBJC_$_INSTANCE_METHODS_PSSpecifier(AXAssetStatusInfo|AXPriv|AXCustomGraphicIcons|VoiceOverSoundsAndHapticsExtras|VoiceOverCustomCommandsExtras)
-- __OBJC_$_INSTANCE_METHODS_PSSpecifier(AXAssetStatusInfo|AXPriv|VoiceOverSoundsAndHapticsExtras|VoiceOverCustomCommandsExtras)
-- ___swift_destroy_boxed_opaque_existential_1
-- _symbolic _____y______Qo_ 7SwiftUI4ViewP021AccessibilitySettingsB0E13voiceResolveryQr12TextToSpeech05VoiceG0CFQO AD013AXSUILanguageK6PickerV
-- __block_literal_global.557
-- get_witness_table qd__7SwiftUI4ViewHD2_AaBP021AccessibilitySettingsB0E12voiceFetcheryQr024TextToSpeechVoiceBankingB00k8PickableG0_pFQOyAcDE0F8ResolveryQr0hiJ00kN0CFQOyAD013AXSUILanguageK6PickerV_Qo__Qo_HO.3
-- _objc_msgSend$_iconImageWithBackgroundForSymbolImage:backgroundColor:
-- _associated conformance 21AccessibilitySettings23SpokenContentVoicesViewV7SwiftUI0F0AA4BodyAdEP_AdE
-- _symbolic _____ 21AccessibilitySettings23SpokenContentVoicesViewV
-- _objc_msgSend$systemIndigoColor
-- _PKControlCenterIconKey
-- __block_literal_global.948
-- _symbolic _____y_____y______Qo__Qo_ 7SwiftUI4ViewP021AccessibilitySettingsB0E12voiceFetcheryQr024TextToSpeechVoiceBankingB00k8PickableG0_pFQO AcDE0F8ResolveryQr0hiJ00kN0CFQO AD013AXSUILanguageK6PickerV
-- _objc_msgSend$_roundedSettingsIcon:
++ _objc_msgSend$pauseListening
 - __block_literal_global.921
+- _objc_msgSend$systemIndigoColor
+- get_witness_table qd__7SwiftUI4ViewHD2_AaBP021AccessibilitySettingsB0E12voiceFetcheryQr024TextToSpeechVoiceBankingB00k8PickableG0_pFQOyAcDE0F8ResolveryQr0hiJ00kN0CFQOyAD013AXSUILanguageK6PickerV_Qo__Qo_HO.3
+- __block_literal_global.557
+- _objc_msgSend$_iconImageWithBackgroundForSymbolImage:backgroundColor:
+- _PKControlCenterIconKey
+- _associated conformance 21AccessibilitySettings23SpokenContentVoicesViewV7SwiftUI0F0AA4BodyAdEP_AdE
+- _symbolic _____y______Qo_ 7SwiftUI4ViewP021AccessibilitySettingsB0E13voiceResolveryQr12TextToSpeech05VoiceG0CFQO AD013AXSUILanguageK6PickerV
+- ___swift_destroy_boxed_opaque_existential_1
+- __OBJC_$_INSTANCE_METHODS_PSSpecifier(AXAssetStatusInfo|AXPriv|VoiceOverSoundsAndHapticsExtras|VoiceOverCustomCommandsExtras)
+- _symbolic _____y_____y______Qo__Qo_ 7SwiftUI4ViewP021AccessibilitySettingsB0E12voiceFetcheryQr024TextToSpeechVoiceBankingB00k8PickableG0_pFQO AcDE0F8ResolveryQr0hiJ00kN0CFQO AD013AXSUILanguageK6PickerV
+- __block_literal_global.948
 - __OBJC_$_CLASS_METHODS_PSSpecifier(AXAssetStatusInfo|AXPriv|VoiceOverSoundsAndHapticsExtras|VoiceOverCustomCommandsExtras)
+- _objc_msgSend$_roundedSettingsIcon:
+- _symbolic _____ 21AccessibilitySettings23SpokenContentVoicesViewV
 CStrings:
-+ "restrictionsPasscodeEntryAttemptCountAndTimeoutDateWithCompletionHandler:"
-+ "resumeListening"
-+ "music.haptics"
-+ "rtt.tty"
-+ "text.size"
-+ "ax_applyPredefinedGraphicIconNamed:"
 + "AUDIO_DUCKING_WHEN_SPEAKING"
-+ "home.button"
-+ "vocal.shortcuts"
-+ "top.button"
++ "live.captions"
 + "audio.descriptions"
++ "per.app.settings"
++ "switch.control"
++ "vocal.shortcuts"
++ "pauseListening"
 + "accessibility"
-+ "ax_applyCustomAccessibilityGraphicIconNamed:"
-+ "keyboard"
-+ "pointer.control"
-+ "failed to get passcode entry attempt count: %!@(MISSING)"
-+ "touch"
-+ "guided.access"
-+ "audio.visual"
-+ "subtitles.captioning"
 + "motion"
 + "side.button"
-+ "live.captions"
-+ "spoken.content"
-+ "hearing.devices"
 + "control.nearby.devices"
-+ "sound.recognition"
-+ "v32@?0@\"NSNumber\"8@\"NSDate\"16@\"NSError\"24"
-+ "resume"
-+ "appletvremote"
-+ "live.speech"
-+ "assistive.access"
-+ "_axApplyGraphicIconNamed:"
-+ "personal.voice"
-+ "AXCustomGraphicIcons"
-+ "com.apple.AccessibilityUIServer.%!@(MISSING)"
-+ "hearing.control.center"
-+ "per.app.settings"
++ "keyboard"
++ "rtt.tty"
++ "text.size"
++ "spoken.content"
 + "applewatch.remote.mirroring"
-+ "switch.control"
++ "subtitles.captioning"
++ "hearing.control.center"
++ "failed to get passcode entry attempt count: %!@(MISSING)"
++ "v32@?0@\"NSNumber\"8@\"NSDate\"16@\"NSError\"24"
 + "_selectedAudioDuckingMode:"
-+ "pauseListening"
++ "ax_applyPredefinedGraphicIconNamed:"
++ "home.button"
++ "resume"
++ "live.speech"
++ "appletvremote"
++ "top.button"
++ "sound.recognition"
++ "_axApplyGraphicIconNamed:"
++ "hearing.devices"
++ "personal.voice"
++ "assistive.access"
++ "audio.visual"
++ "com.apple.AccessibilityUIServer.%!@(MISSING)"
++ "restrictionsPasscodeEntryAttemptCountAndTimeoutDateWithCompletionHandler:"
++ "pointer.control"
++ "AXCustomGraphicIcons"
++ "touch"
 + "com.apple.graphic-icon.%!@(MISSING)"
-- "rectangle.3.group.bubble.fill"
-- "PointerControl"
-- "ipad.top.button.arrow.down"
-- "Touch"
-- "WatchMirroring"
-- "Text Size"
++ "guided.access"
++ "music.haptics"
++ "resumeListening"
++ "ax_applyCustomAccessibilityGraphicIconNamed:"
 - "teletype"
-- "person.badge.waveform.fill"
-- "AppleTV-B519"
-- "SideButton"
-- "iphone.badge.dot.radiowaves.up.forward"
-- "waveform.bubble.fill"
-- "applewatch.case.inset.filled"
-- "Captions"
-- "dot.square"
-- "SwitchControl"
+- "captions.bubble.fill"
+- "Zoom"
+- "Descriptions"
 - "AssistiveAccess"
-- "quote.bubble.fill"
-- "ear"
-- "waveform.and.magnifyingglass"
+- "Text Size"
+- "waveform.bubble.fill"
+- "person.badge.waveform.fill"
+- "appletvremote.gen4.fill"
+- "PointerControl"
+- "SideButton"
+- "LiveSpeech"
+- "SwitchControl"
+- "waveform.arrow.triangle.branch.right"
+- "WatchMirroring"
+- "applewatch.case.inset.filled"
+- "Audio"
+- "ipad.top.button.arrow.down"
+- "FaceID"
+- "HomeButton"
+- "Touch"
+- "circle.dotted.and.circle"
 - "systemIndigoColor"
-- "ControlNearby"
+- "textformat.size"
+- "iphone.badge.dot.radiowaves.up.forward"
+- "keyboard.badge.waveform.fill"
+- "Guided Access"
+- "Motion"
 - "app.badge.checkmark"
-- "PerAppSettings"
-- "iphone.side.button.arrow.left"
 - "arrowtriangles.up.right.down.left.magnifyingglass"
 - "AccessibilityShortcut"
-- "Guided Access"
-- "com.apple.graphic-icon.keyboard"
-- "Hearing Devices"
-- "Keyboards"
+- "quote.bubble.fill"
 - "TopButton"
-- "keyboard.badge.waveform.fill"
-- "PersonalVoice"
-- "iphone.gen1"
 - "lock.square.dotted"
-- "textformat.size"
-- "Descriptions"
-- "Zoom"
-- "LiveSpeech"
-- "appletvremote.gen4.fill"
-- "circle.dotted.and.circle"
-- "HomeButton"
-- "Motion"
-- "Audio"
-- "FaceID"
-- "captions.bubble.fill"
+- "Hearing Devices"
+- "PerAppSettings"
+- "rectangle.3.group.bubble.fill"
+- "Captions"
+- "AppleTV-B519"
 - "speaker.eye.fill"
-- "waveform.arrow.triangle.branch.right"
+- "iphone.side.button.arrow.left"
+- "Keyboards"
+- "dot.square"
+- "PersonalVoice"
+- "ControlNearby"
+- "waveform.and.magnifyingglass"
+- "com.apple.graphic-icon.keyboard"
+- "iphone.gen1"
+- "ear"
 
 ```

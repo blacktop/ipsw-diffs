@@ -100,16 +100,16 @@
 +  CStrings:  754
  
 Symbols:
-+ __swift_FORCE_LOAD_$_swiftCoreAudio
-+ __swift_FORCE_LOAD_$_swiftCoreMIDI
-+ __swift_FORCE_LOAD_$_swiftAppleArchive
-+ __swift_FORCE_LOAD_$_swiftCoreMedia
 + __swift_FORCE_LOAD_$_swiftCompression
++ __swift_FORCE_LOAD_$_swiftCoreMIDI
++ __swift_FORCE_LOAD_$_swiftCoreMedia
++ __swift_FORCE_LOAD_$_swiftCoreAudio
++ __swift_FORCE_LOAD_$_swiftAppleArchive
 CStrings:
-+ "Canceling render extension for reason: %!s(MISSING) due to supression"
-+ "UnsafeMutableRawBufferPointer.copyMemory source has too many elements"
-+ "initWithControlPoints::::"
-+ "Supressed requested render extension on %!s(MISSING) for reason: %!s(MISSING) because supression count is %!l(MISSING)d"
 + "Swift/UnsafeRawBufferPointer.swift"
++ "Canceling render extension for reason: %!s(MISSING) due to supression"
++ "Supressed requested render extension on %!s(MISSING) for reason: %!s(MISSING) because supression count is %!l(MISSING)d"
++ "initWithControlPoints::::"
++ "UnsafeMutableRawBufferPointer.copyMemory source has too many elements"
 
 ```

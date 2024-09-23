@@ -104,13 +104,13 @@
 Symbols:
 + __os_log_fault_impl
 CStrings:
-+ "Text gradient is expected to be an array containing exactly two colors; found array with "
 + "Artwork"
 + "@\"<MusicKit_SoftLinking_MPArtworkCatalog>\"32@0:8{CGSize=dd}16"
-+ "@32@0:8{CGSize=dd}16"
-+ "Data source for artwork catalog %!{(MISSING)public}@ was deallocated prematurely. Unable to make a proper fresh instance."
++ "Text gradient is expected to be an array containing exactly two colors; found array with "
 + "musicKit_artworkCatalogWithFittingSize:"
-- "Gradient is expected to be an array containing exactly two colors; found array with "
++ "Data source for artwork catalog %!{(MISSING)public}@ was deallocated prematurely. Unable to make a proper fresh instance."
++ "@32@0:8{CGSize=dd}16"
 - ",\n  textGradient: "
+- "Gradient is expected to be an array containing exactly two colors; found array with "
 
 ```

@@ -36,17 +36,17 @@
 +  CStrings:  4
  
 Symbols:
-+ _os_log_type_enabled
-+ _swift_slowDealloc
-+ _objc_release_x21
-+ _$s19VoiceShortcutClient5WFLogVy2os6LoggerVSo0D12CategoryNameacigZ
-+ _WFLogCategoryGeneral
-+ _$s14VoiceShortcuts8VCDaemonC4stopyyFTj
 + _$s2os6LoggerVMa
-+ __os_log_impl
++ _swift_slowDealloc
 + _$s2os6LoggerV9logObjectSo03OS_a1_C0Cvg
-+ _$sSo13os_log_type_ta0A0E7defaultABvgZ
++ _os_log_type_enabled
 + _swift_slowAlloc
++ __os_log_impl
++ _objc_release_x21
++ _$s14VoiceShortcuts8VCDaemonC4stopyyFTj
++ _$s19VoiceShortcutClient5WFLogVy2os6LoggerVSo0D12CategoryNameacigZ
++ _$sSo13os_log_type_ta0A0E7defaultABvgZ
++ _WFLogCategoryGeneral
 CStrings:
 + "Received SIGTERM"
 

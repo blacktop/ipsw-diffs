@@ -57,10 +57,10 @@
  
 CStrings:
 + "deleteCharactersInRange:"
-- "setString:"
-- "hasSuffix:"
 - "@\"CVNLPTextDecodingResult\"16@0:8"
-- "greedyDecodingResult"
 - "hasPrefix:"
+- "hasSuffix:"
+- "setString:"
+- "greedyDecodingResult"
 
 ```

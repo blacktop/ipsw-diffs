@@ -69,13 +69,13 @@
 Symbols:
 + _MSPSharedTripServiceRCS
 + _GEOConfigMSPShareETAPermitSatelliteMessageServices
-+ _IMServiceNameRCS
 + _IMServiceNameSMS
-+ _MSPSharedTripServiceNameForRawServiceName
 + _IMServiceNameSatelliteSMS
++ _IMServiceNameRCS
++ _MSPSharedTripServiceNameForRawServiceName
 CStrings:
++ "initWithObjects:"
 + "MSPShareETAPermitSatelliteMessageServicesKey"
 + "- %!{(MISSING)public}@ not permitted for Share ETA"
-+ "initWithObjects:"
 
 ```

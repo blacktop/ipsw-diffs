@@ -40,8 +40,8 @@
 +  CStrings:  9342
  
 CStrings:
-+ "notosansmongolian-regular"
 + "NotoSansMongolian-Regular"
 + "Noto Sans Mongolian Regular"
++ "notosansmongolian-regular"
 
 ```

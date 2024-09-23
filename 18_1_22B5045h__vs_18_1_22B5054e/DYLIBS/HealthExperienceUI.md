@@ -105,28 +105,28 @@
 +  CStrings:  7967
  
 Symbols:
-+ _OBJC_METACLASS_$__TtC18HealthExperienceUI36HideableHearingArticlesFRCDataSource
 + _HKFeatureIdentifierHearingAid
++ _OBJC_METACLASS_$__TtC18HealthExperienceUI36HideableHearingArticlesFRCDataSource
 + _HKCategoryTypeIdentifierSleepApneaEvent
 CStrings:
-+ "_TtCV18HealthExperienceUI36AudiogramSnidgetCurrentValueDataView29AverageSensitivitiesViewModel"
-+ "hk_hearingHealthAudiogramLeftEarLineColor"
-+ "HKQuantityTypeIdentifierAppleSleepingBreathingDisturbances"
-+ "[%!{(MISSING)public}s] Updating availability of Hearing Aid to %!{(MISSING)bool}d."
-+ "sleep_apnea_event_alert"
-+ "pointMarkerOptionSets"
-+ "_TtC18HealthExperienceUI36HideableHearingArticlesFRCDataSource"
-+ "HealthExperienceUI.HideableHearingArticlesFRCDataSource"
++ "nebula"
++ "rightEarViewModel"
++ "_TtCCV18HealthExperienceUI36AudiogramSnidgetCurrentValueDataView29AverageSensitivitiesViewModel27AverageSensitivityViewModel"
 + "_unitTest_hearingAidAvailabilityDidChange"
-+ "leftEarViewModel"
++ "audiogramAverage"
++ "HKQuantityTypeIdentifierAppleSleepingBreathingDisturbances"
++ "com.apple.health.Education.HearingAids"
 + "HKCategoryTypeIdentifierSleepApneaEvent"
 + "viewModelType"
-+ "_TtCCV18HealthExperienceUI36AudiogramSnidgetCurrentValueDataView29AverageSensitivitiesViewModel27AverageSensitivityViewModel"
-+ "audiogramAverage"
-+ "nebula"
-+ "hk_hearingHealthAudiogramRightEarLineColor"
-+ "com.apple.health.Education.HearingAids"
++ "[%!{(MISSING)public}s] Updating availability of Hearing Aid to %!{(MISSING)bool}d."
++ "HealthExperienceUI.HideableHearingArticlesFRCDataSource"
++ "_TtC18HealthExperienceUI36HideableHearingArticlesFRCDataSource"
++ "leftEarViewModel"
++ "hk_hearingHealthAudiogramLeftEarLineColor"
++ "pointMarkerOptionSets"
 + "_TtCV18HealthExperienceUI36AudiogramSnidgetCurrentValueDataView9ViewModel"
-+ "rightEarViewModel"
++ "sleep_apnea_event_alert"
++ "_TtCV18HealthExperienceUI36AudiogramSnidgetCurrentValueDataView29AverageSensitivitiesViewModel"
++ "hk_hearingHealthAudiogramRightEarLineColor"
 
 ```

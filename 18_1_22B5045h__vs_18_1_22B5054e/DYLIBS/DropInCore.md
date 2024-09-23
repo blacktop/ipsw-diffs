@@ -44,13 +44,13 @@
 +  CStrings:  1260
  
 CStrings:
++ "Searching for Accessory in IDS with senderCorrelationIdentifier: %!s(MISSING), fromID: %!s(MISSING), idsDeviceID: %!s(MISSING), pairingIdentityIdentifier: %!s(MISSING), idsService: %!@(MISSING)"
 + "Failed to find accessory in Rapport"
 + "Failed to find accessory in IDS"
 + "Failed to find accessory matching IDS Device"
 + "Searching Rapport Device for accessory with matching identifier: %!s(MISSING)"
-+ "Searching for Accessory in IDS with senderCorrelationIdentifier: %!s(MISSING), fromID: %!s(MISSING), idsDeviceID: %!s(MISSING), pairingIdentityIdentifier: %!s(MISSING), idsService: %!@(MISSING)"
+- "Searching for accessory with matching identifier: %!s(MISSING)"
 - "Failed to find accessory"
 - "Searching for Accessory with senderCorrelationIdentifier: %!s(MISSING), fromID: %!s(MISSING), idsDeviceID: %!s(MISSING), pairingIdentityIdentifier: %!s(MISSING), idsService: %!@(MISSING)"
-- "Searching for accessory with matching identifier: %!s(MISSING)"
 
 ```

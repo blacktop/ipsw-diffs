@@ -58,10 +58,10 @@
  
 CStrings:
 - "PBKAppDelegate: Started reevaluating the Bank Connect eligibility"
+- "FKBankConnectEvaluationManager"
+- "Successfully processed Discovery Items after refreshing Bank Connect institutions"
 - "PBKAppDelegate: Finished reevaluating the Bank Connect eligibility"
 - "Error processing Discovery Items after refreshing Bank Connect institutions: %!@(MISSING)"
 - "reevaluateEligibilityAndConnectionsWithCompletion:"
-- "Successfully processed Discovery Items after refreshing Bank Connect institutions"
-- "FKBankConnectEvaluationManager"
 
 ```

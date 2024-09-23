@@ -29,9 +29,9 @@
    __DATA_CONST.__objc_dictobj: 0x28
    __DATA_CONST.__objc_floatobj: 0x10
 CStrings:
-+ "/usr/bin/modelcatalogdump"
 + "model_catalog_dump.txt"
-- "model_catalog_tool_status.txt"
++ "/usr/bin/modelcatalogdump"
 - "/usr/local/bin/modelcatalogtool"
+- "model_catalog_tool_status.txt"
 
 ```

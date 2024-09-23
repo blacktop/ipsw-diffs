@@ -59,13 +59,13 @@ Symbols:
 + _objc_release_x26
 + _SUSUIExtensionAlertCountdownKey
 CStrings:
-+ "\x01'\x11"
-+ "ExtensionAlertKeyCountdown"
-+ "[SUSUIInstallAlertExtensionViewController] Invalid _timeLeftUntilInstall = %!l(MISSING)u, set it to %!l(MISSING)u"
 + "unsignedLongValue"
-+ "[SUSUIInstallAlertExtensionViewController] Alert item has asked to use countdown = %!l(MISSING)u"
-+ "_countdownTimeout"
 + "[SUSUIInstallAlertExtensionViewController] Use default countdown = %!l(MISSING)u"
++ "ExtensionAlertKeyCountdown"
++ "[SUSUIInstallAlertExtensionViewController] Alert item has asked to use countdown = %!l(MISSING)u"
++ "[SUSUIInstallAlertExtensionViewController] Invalid _timeLeftUntilInstall = %!l(MISSING)u, set it to %!l(MISSING)u"
++ "\x01'\x11"
++ "_countdownTimeout"
 - "\x01\x17\x11"
 
 ```

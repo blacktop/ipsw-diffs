@@ -63,10 +63,10 @@
 +  CStrings:  1299
  
 CStrings:
-- "setWithObjects:"
-- "PSYPlistFilter"
-- "isPlistObject:"
-- "filteredPlistArray:"
 - "filteredPlistDictionary:"
+- "filteredPlistArray:"
+- "PSYPlistFilter"
+- "setWithObjects:"
+- "isPlistObject:"
 
 ```

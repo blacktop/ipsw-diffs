@@ -85,23 +85,23 @@
 +  CStrings:  3100
  
 Symbols:
-+ _OBJC_CLASS_$_FPAppMetadata
-+ _NSFileProviderRootContainerItemIdentifier
-+ _swift_projectBox
 + _OBJC_CLASS_$_FPAppRegistry
++ _swift_projectBox
++ _NSFileProviderRootContainerItemIdentifier
++ _OBJC_CLASS_$_FPAppMetadata
 - _OBJC_CLASS_$_OS_dispatch_source
 CStrings:
++ "documentsURL"
 + "bundleID"
 + "fp_relationshipToItemAtURL:"
-+ "br_containerID"
-+ "documentsURL"
-+ "listOfMonitoredApps"
-+ "sharedRegistry"
 + "com.apple.CloudDocs"
-- "fetchParentsForItemID:recursively:completionHandler:"
-- "%!@(MISSING): Cannot fetch parent hierarchy for %!@(MISSING) %!@(MISSING)"
-- "parentItemID"
++ "sharedRegistry"
++ "br_containerID"
++ "listOfMonitoredApps"
 - "v24@?0@\"NSArray\"8@\"NSError\"16"
 - "ancestors(of:lookupQoS:requireUncached:)"
+- "%!@(MISSING): Cannot fetch parent hierarchy for %!@(MISSING) %!@(MISSING)"
+- "parentItemID"
+- "fetchParentsForItemID:recursively:completionHandler:"
 
 ```

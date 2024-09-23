@@ -68,12 +68,12 @@
 +  CStrings:  178
  
 Symbols:
-+ _swift_continuation_throwingResumeWithError
 + _swift_continuation_await
++ _swift_allocError
++ _swift_continuation_init
++ _swift_continuation_throwingResumeWithError
 + _objc_retain_x1
 + _swift_continuation_throwingResume
-+ _swift_continuation_init
-+ _swift_allocError
 CStrings:
 + "isValid"
 + "#GetContactQuickActionButtonsViewModel performCall TU task caught: %!s(MISSING)"

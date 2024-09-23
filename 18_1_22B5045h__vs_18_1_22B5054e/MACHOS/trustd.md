@@ -62,17 +62,17 @@
 Symbols:
 + _clock_gettime
 CStrings:
-+ "Will exit trustd when all transactions are complete."
-+ "Will exit when clean to use newer asset version."
++ "writing asset path \"%!@(MISSING)\" (was \"%!@(MISSING)\")"
++ "retryReadSavedTrustStoreAssetPath result: %!@(MISSING)"
++ "%!s(MISSING) uptime: %!l(MISSING)lu, system: %!l(MISSING)lus"
 + "NO"
 + "Will not exit due to earlier error."
-+ "retryReadSavedTrustStoreAssetPath:"
-+ "retryReadSavedTrustStoreAssetPath result: %!@(MISSING)"
-+ "timed out attempting to read saved asset path"
 + "Will exit when clean to use updated asset path."
-+ "writing asset path \"%!@(MISSING)\" (was \"%!@(MISSING)\")"
 + "Will exit when clean to use downloaded asset."
-+ "%!s(MISSING) uptime: %!l(MISSING)lu, system: %!l(MISSING)lus"
++ "timed out attempting to read saved asset path"
++ "Will exit when clean to use newer asset version."
++ "retryReadSavedTrustStoreAssetPath:"
++ "Will exit trustd when all transactions are complete."
 - "Will exit when clean to use updated asset"
 - "Will exit when clean to use updated assets"
 

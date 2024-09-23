@@ -97,30 +97,30 @@
 +  CStrings:  3656
  
 Symbols:
-+ _OBJC_CLASS_$_BLSBacklight
 + _OBJC_CLASS_$_BLSBacklightChangeEvent
++ _OBJC_CLASS_$_BLSBacklight
 CStrings:
-+ "_TtC17proximitycontrold16BacklightMonitor"
-+ "backlight:deactivatingWithEvent:"
-+ "v48@0:8@\"<BLSBacklightStateObservable>\"16q24@\"NSArray\"32@\"NSArray\"40"
-+ "_backlightState"
-+ "v28@0:8@\"<BLSBacklightStateObservable>\"16B24"
-+ ": backlightState="
-+ "addObserver:"
-+ "backlight:didCompleteUpdateToState:forEvent:"
-+ "v48@0:8@16q24@32@40"
-+ "v40@0:8@\"<BLSBacklightStateObservable>\"16q24@\"BLSBacklightChangeEvent\"32"
-+ "backlight:didChangeAlwaysOnEnabled:"
-+ "backlight(_:didCompleteUpdateTo:for:)"
-+ "v40@0:8@16q24@32"
-+ "backlight:didCompleteUpdateToState:forEvents:abortedEvents:"
 + "BLSBacklightStateObserving"
-+ "backlight:performingEvent:"
-+ "backlight"
-+ "backlight:activatingWithEvent:"
++ "backlight:didCompleteUpdateToState:forEvent:"
 + "v32@0:8@\"<BLSBacklightStateObservable>\"16@\"BLSBacklightChangeEvent\"24"
-+ "backlightMonitor"
++ "v40@0:8@\"<BLSBacklightStateObservable>\"16q24@\"BLSBacklightChangeEvent\"32"
++ "_backlightState"
++ "backlight"
++ "v48@0:8@\"<BLSBacklightStateObservable>\"16q24@\"NSArray\"32@\"NSArray\"40"
++ "backlight:deactivatingWithEvent:"
++ ": backlightState="
++ "backlight(_:didCompleteUpdateTo:for:)"
++ "v48@0:8@16q24@32@40"
++ "backlight:didCompleteUpdateToState:forEvents:abortedEvents:"
++ "backlight:performingEvent:"
++ "v28@0:8@\"<BLSBacklightStateObservable>\"16B24"
++ "addObserver:"
 + "sharedBacklight"
++ "backlight:didChangeAlwaysOnEnabled:"
++ "v40@0:8@16q24@32"
++ "backlightMonitor"
++ "_TtC17proximitycontrold16BacklightMonitor"
++ "backlight:activatingWithEvent:"
 - "SystemMonitor activated"
 
 ```

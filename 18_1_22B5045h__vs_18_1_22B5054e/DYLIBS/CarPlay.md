@@ -44,7 +44,7 @@
 Symbols:
 - _OBJC_CLASS_$_UIImageSymbolConfiguration
 CStrings:
-- "configurationWithPointSize:"
 - "imageWithSymbolConfiguration:"
+- "configurationWithPointSize:"
 
 ```

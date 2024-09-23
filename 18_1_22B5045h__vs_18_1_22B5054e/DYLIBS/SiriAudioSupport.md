@@ -85,44 +85,44 @@
  
 Symbols:
 + _OBJC_METACLASS_$_SiriAudioSpringBoardService
-+ _OBJC_CLASS_$_SiriAudioSpringBoardService
 + _SBSIsSystemApertureAvailable
-- _rewind
++ _OBJC_CLASS_$_SiriAudioSpringBoardService
+- _swift_taskGroup_wait_next_throwing
+- _dlsym
+- _fseek
 - _fclose
+- _rewind
+- _sscanf
+- _fread
+- _ftell
 - _fopen
 - _dispatch_once_f
-- _fread
-- _swift_taskGroup_wait_next_throwing
 - __availability_version_check
-- _sscanf
-- _fseek
-- _ftell
-- _dlsym
 CStrings:
-+ "SiriAudioSpringBoardService"
-+ "SiriEnvironmentWrapper#mockSystemAperture This should only be called in unit tests."
 + "isSystemApertureAvailable"
 + "SiriEnvironmentWrapper#mockSystemAperture This should only happen in unit tests."
-- "SystemApertureCachedValue#start persisting value for the next request as: %!{(MISSING)bool}d"
-- "SystemApertureCachedValue#update updating SystemAperture cached value."
-- "r"
-- "CFStringGetTypeID"
-- "CFStringCreateWithCStringNoCopy"
-- "_Concurrency/TaskGroup.swift"
-- "CFPropertyListCreateWithData"
-- "CFDataCreateWithBytesNoCopy"
-- "CFDictionaryGetValue"
-- "/System/Library/CoreServices/SystemVersion.plist"
-- "SystemApertureCachedValue#isSystemApertureEnabled returning value from current request."
-- "kCFAllocatorNull"
-- "ProductVersion"
-- "CFStringGetCString"
-- "CFRelease"
++ "SiriAudioSpringBoardService"
++ "SiriEnvironmentWrapper#mockSystemAperture This should only be called in unit tests."
 - "CFPropertyListCreateFromXMLData"
-- "SystemApertureCachedValue#isSystemApertureEnabled returning cached Value"
-- "SystemApertureCachedValue#update value expired"
-- "%!d(MISSING).%!d(MISSING).%!d(MISSING)"
+- "CFPropertyListCreateWithData"
 - "SystemApertureCachedValue#update count is now: %!l(MISSING)d"
+- "SystemApertureCachedValue#start persisting value for the next request as: %!{(MISSING)bool}d"
+- "kCFAllocatorNull"
+- "r"
+- "CFStringGetCString"
+- "ProductVersion"
+- "CFRelease"
+- "%!d(MISSING).%!d(MISSING).%!d(MISSING)"
+- "CFDictionaryGetValue"
+- "SystemApertureCachedValue#update updating SystemAperture cached value."
+- "CFStringGetTypeID"
+- "SystemApertureCachedValue#isSystemApertureEnabled returning value from current request."
+- "CFStringCreateWithCStringNoCopy"
+- "CFDataCreateWithBytesNoCopy"
 - "CFGetTypeID"
+- "_Concurrency/TaskGroup.swift"
+- "SystemApertureCachedValue#isSystemApertureEnabled returning cached Value"
+- "/System/Library/CoreServices/SystemVersion.plist"
+- "SystemApertureCachedValue#update value expired"
 
 ```

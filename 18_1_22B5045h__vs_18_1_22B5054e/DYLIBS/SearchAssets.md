@@ -91,22 +91,22 @@
 +  CStrings:  390
  
 Symbols:
-- _OBJC_CLASS_$_TRIVersionedNamespace
-- _OBJC_CLASS_$_TRIAllocationStatus
 - _swift_isEscapingClosureAtFileLocation
+- _OBJC_CLASS_$_TRIAllocationStatus
+- _OBJC_CLASS_$_TRIVersionedNamespace
 - _objc_release_x9
 CStrings:
 + "sbaPlugin"
-- "enumerateActiveExperimentsForEnvironment:error:block:"
 - "deploymentId"
+- "type"
+- "v24@?0@\"TRIExperimentAllocationStatus\"8^B16"
+- "enumerateActiveExperimentsForEnvironment:error:block:"
+- "treatmentId"
 - "experimentId"
+- "name"
 - "defaultProvider"
 - "Failed to enumerate active experiments %!@(MISSING)"
-- "treatmentId"
-- "type"
-- "namespaces"
-- "v24@?0@\"TRIExperimentAllocationStatus\"8^B16"
-- "name"
 - "Got an unknown TRIAllocationStatusType %!h(MISSING)hu"
+- "namespaces"
 
 ```

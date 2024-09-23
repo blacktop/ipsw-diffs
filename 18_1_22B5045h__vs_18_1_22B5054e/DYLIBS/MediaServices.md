@@ -29,7 +29,7 @@
 +  CStrings:  3631
  
 CStrings:
-+ "groupSessionDidDisconnectUnderlyingLinks:"
 + "groupSessionDidConnectUnderlyingLinks:"
++ "groupSessionDidDisconnectUnderlyingLinks:"
 
 ```

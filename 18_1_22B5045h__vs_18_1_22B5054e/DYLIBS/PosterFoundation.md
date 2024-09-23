@@ -69,74 +69,74 @@
 +  CStrings:  1042
  
 Symbols:
-+ _xpc_data_get_length
-+ _PFXPCDictionaryFromNSDictionary
++ __xpc_type_uint64
++ _xpc_dictionary_create_empty
++ _xpc_data_get_bytes_ptr
 + _xpc_double_create
-+ __xpc_type_null
-+ __xpc_type_int64
++ _xpc_null_create
++ __xpc_type_data
++ __xpc_type_dictionary
++ _xpc_dictionary_set_value
++ __xpc_type_array
++ _xpc_uint64_get_value
++ _OBJC_CLASS_$_NSNull
++ _xpc_int64_create
++ __xpc_type_double
 + _xpc_uuid_get_bytes
++ _xpc_get_type
++ __xpc_type_bool
++ _xpc_dictionary_get_count
++ _PFObjectFromXPCObject
++ _xpc_double_get_value
++ _xpc_dictionary_apply
++ _xpc_bool_get_value
++ _xpc_fd_dup
++ _PFXPCArrayFromNSArray
++ _xpc_array_append_value
 + _xpc_array_create_empty
++ __xpc_type_int64
++ _xpc_array_apply
++ _xpc_data_get_length
++ _OBJC_CLASS_$_NSException
++ __xpc_type_fd
++ _xpc_array_get_count
++ _PFNSArrayFromXPCArray
++ _xpc_data_create
++ ___kCFBooleanFalse
 + _xpc_int64_get_value
 + _CFNumberIsFloatType
-+ __xpc_type_uuid
-+ __xpc_type_dictionary
-+ _xpc_get_type
-+ _OBJC_CLASS_$_NSException
-+ _xpc_fd_dup
-+ _PFNSDictionaryFromXPCDictionary
-+ _xpc_dictionary_apply
-+ _xpc_dictionary_set_value
-+ _OBJC_CLASS_$_NSNull
-+ _PFObjectFromXPCObject
-+ __xpc_type_array
++ _PFXPCDictionaryFromNSDictionary
 + _PFXPCObjectFromNSObject
-+ _xpc_null_create
-+ _PFNSArrayFromXPCArray
-+ __xpc_type_bool
-+ _xpc_array_get_count
-+ _xpc_data_create
-+ _xpc_uint64_get_value
-+ _PFXPCArrayFromNSArray
-+ ___kCFBooleanFalse
-+ __xpc_type_data
++ __xpc_type_null
 + _xpc_uuid_create
-+ _xpc_dictionary_create_empty
-+ __xpc_type_fd
-+ __xpc_type_uint64
-+ _xpc_dictionary_get_count
-+ _xpc_data_get_bytes_ptr
-+ _xpc_array_apply
-+ __xpc_type_double
-+ _xpc_bool_get_value
-+ _xpc_int64_create
-+ _xpc_array_append_value
-+ _xpc_double_get_value
++ _PFNSDictionaryFromXPCDictionary
++ __xpc_type_uuid
 CStrings:
-+ "numberWithLongLong:"
-+ "raise:format:"
-+ "PFUtilities.m"
++ "longLongValue"
 + "isNSDictionary__"
-+ "null"
 + "initWithUUIDBytes:"
++ "raise:format:"
++ "Invalid Object"
++ "PFXPCDictionaryFromNSDictionary expects NSString keys"
++ "PFUtilities.m"
++ "doubleValue"
++ "isNSNumber__"
++ "initWithBytes:length:"
++ "getUUIDBytes:"
++ "isNSData__"
++ "isNSString__"
++ "xpc_object_t  _Nonnull PFXPCDictionaryFromNSDictionary(NSDictionary *__strong _Nonnull)_block_invoke"
 + "v32@?0@\"NSString\"8@16^B24"
++ "null"
++ "bs_setSafeObject:forKey:"
 + "numberWithUnsignedLongLong:"
 + "Object %!@(MISSING) is invalid"
-+ "B24@?0Q8@\"NSObject<OS_xpc_object>\"16"
-+ "isNSArray__"
-+ "bs_setSafeObject:forKey:"
-+ "isNSString__"
-+ "isNSNumber__"
-+ "isNSData__"
 + "numberWithDouble:"
-+ "initWithBytes:length:"
-+ "B24@?0r*8@\"NSObject<OS_xpc_object>\"16"
 + "dictionaryWithCapacity:"
-+ "PFXPCDictionaryFromNSDictionary expects NSString keys"
-+ "Invalid Object"
-+ "getUUIDBytes:"
-+ "xpc_object_t  _Nonnull PFXPCDictionaryFromNSDictionary(NSDictionary *__strong _Nonnull)_block_invoke"
-+ "doubleValue"
 + "numberWithInt:"
-+ "longLongValue"
++ "numberWithLongLong:"
++ "isNSArray__"
++ "B24@?0Q8@\"NSObject<OS_xpc_object>\"16"
++ "B24@?0r*8@\"NSObject<OS_xpc_object>\"16"
 
 ```

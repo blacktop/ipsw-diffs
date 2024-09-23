@@ -70,16 +70,16 @@
 Symbols:
 + _OBJC_CLASS_$_SecureConfigParameters
 CStrings:
-+ "SecureConfigDB not available."
-+ "SecureConfig parameter '%!{(MISSING)public}@' has unexpected type"
-+ "\x13"
-+ "loadContentsAndReturnError:"
-+ "%!{(MISSING)public}@> Treating ncm host as trusted on research VM"
-+ "research_disableAppleInfrastructureEnforcement"
-+ "Failed to load SecureConfig parameters: %!{(MISSING)public}@"
-+ "com.apple.pcc.research.disableAppleInfrastructureEnforcement"
 + "_researchInfraEnforcementDisabled"
-+ "isTrusted"
++ "SecureConfig parameter '%!{(MISSING)public}@' has unexpected type"
 + "SecureConfig parameter '%!{(MISSING)public}@' not present"
++ "%!{(MISSING)public}@> Treating ncm host as trusted on research VM"
++ "Failed to load SecureConfig parameters: %!{(MISSING)public}@"
++ "research_disableAppleInfrastructureEnforcement"
++ "isTrusted"
++ "\x13"
++ "SecureConfigDB not available."
++ "loadContentsAndReturnError:"
++ "com.apple.pcc.research.disableAppleInfrastructureEnforcement"
 
 ```

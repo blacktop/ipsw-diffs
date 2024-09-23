@@ -80,13 +80,13 @@
  
 Symbols:
 + _kHKSleepApneaNotificationsAgeGatingAge
-+ _kHKAgeGatingKeyEnableSleepApneaNotifications
 + _HKQuantityTypeIdentifierAppleSleepingBreathingDisturbances
++ _kHKAgeGatingKeyEnableSleepApneaNotifications
 CStrings:
-+ "long outermost database transaction: duration=%!{(MISSING)public}@, wait=%!{(MISSING)public}@, work=%!{(MISSING)public}@, write=%!{(MISSING)BOOL}d, protected=%!{(MISSING)BOOL}d, priority=%!{(MISSING)BOOL}d, cache=%!l(MISSING)d, journal=%!l(MISSING)d, queue=%!s(MISSING)"
 + "BreathingDisturbancesData"
-+ "_breathingDisturbancesGraphsArray"
++ "long outermost database transaction: duration=%!{(MISSING)public}@, wait=%!{(MISSING)public}@, work=%!{(MISSING)public}@, write=%!{(MISSING)BOOL}d, protected=%!{(MISSING)BOOL}d, priority=%!{(MISSING)BOOL}d, cache=%!l(MISSING)d, journal=%!l(MISSING)d, queue=%!s(MISSING)"
 + "nebula"
++ "_breathingDisturbancesGraphsArray"
 - "_dbAssertion"
 - "long outermost database transaction: duration=%!@(MISSING), write=%!{(MISSING)BOOL}d, protected=%!{(MISSING)BOOL}d, priority=%!{(MISSING)BOOL}d, cache=%!l(MISSING)d, journal=%!l(MISSING)d, queue=%!s(MISSING)"
 

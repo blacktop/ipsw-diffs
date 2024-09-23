@@ -50,17 +50,17 @@
 +  CStrings:  3921
  
 CStrings:
++ "_screenSharingLabel"
++ "T@\"NSString\",R,C,N,V_screenSharingTypeText"
++ "@108@0:8{CGRect={CGPoint=dd}{CGSize=dd}}16@48q56@64@72@80@88B96@100"
++ "setScreenSharingLabel:"
++ "_screenSharingTypeText"
 + "initWithFrame:callUUID:ttyType:timeLabel:statusLabel:durationAndDataText:emergencyItemsText:verified:screenSharingTypeText:"
 + "+\x12"
-+ "_screenSharingTypeText"
-+ "T@\"NSString\",R,C,N,V_screenSharingTypeText"
-+ "setScreenSharingLabel:"
-+ "@108@0:8{CGRect={CGPoint=dd}{CGSize=dd}}16@48q56@64@72@80@88B96@100"
-+ "screenSharingLabel"
-+ "screenSharingTypeText"
-+ "_screenSharingLabel"
 + "T@\"UILabel\",&,N,V_screenSharingLabel"
 + "addScreenSharingTypeSubview"
++ "screenSharingLabel"
++ "screenSharingTypeText"
 - "initWithFrame:callUUID:ttyType:timeLabel:statusLabel:durationAndDataText:emergencyItemsText:verified:"
 - "@100@0:8{CGRect={CGPoint=dd}{CGSize=dd}}16@48q56@64@72@80@88B96"
 

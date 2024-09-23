@@ -67,46 +67,46 @@
 +  CStrings:  357
  
 Symbols:
-- _OBJC_CLASS_$_NSString
-- _OBJC_METACLASS_$_MBAccountChange
-- _objc_retain_x22
-- _NSStringFromClass
-- _objc_retain_x24
 - _objc_opt_class
+- _NSStringFromClass
+- _OBJC_METACLASS_$_MBAccountChange
+- _objc_retain_x24
+- _objc_retain_x22
+- _OBJC_CLASS_$_NSString
 CStrings:
-- "MBAccountChange"
-- "TB,R,N,V_isPrimaryAccount"
-- "<%!@(MISSING): %!p(MISSING); accountIdentifier=%!@(MISSING), personaIdentifier=%!@(MISSING), isPrimaryAccount=%!d(MISSING), changeType=%!l(MISSING)d>"
-- "accountIdentifier"
 - "initWithCoder:"
-- "_changeType"
-- "supportsSecureCoding"
-- "changeType"
-- "stringWithFormat:"
-- "decodeBoolForKey:"
-- "Tq,R,N,V_changeType"
 - "\x12"
-- "q"
-- "NSSecureCoding"
-- "isPrimaryAccount"
-- "@44@0:8@16@24B32q36"
-- "encodeObject:forKey:"
-- "v24@0:8@\"NSCoder\"16"
-- "NSCoding"
-- "@24@0:8@\"NSCoder\"16"
-- "q16@0:8"
-- "T@\"NSString\",R,N,V_accountIdentifier"
-- "decodeObjectForKey:"
-- "encodeInteger:forKey:"
-- "_isPrimaryAccount"
-- "_accountIdentifier"
-- "encodeBool:forKey:"
-- "B"
+- "changeType"
+- "accountIdentifier"
+- "<%!@(MISSING): %!p(MISSING); accountIdentifier=%!@(MISSING), personaIdentifier=%!@(MISSING), isPrimaryAccount=%!d(MISSING), changeType=%!l(MISSING)d>"
 - "@\"NSString\""
-- "T@\"NSString\",R,N,V_personaIdentifier"
-- "decodeIntegerForKey:"
+- "NSCoding"
+- "T@\"NSString\",R,N,V_accountIdentifier"
 - "TB,R"
-- "encodeWithCoder:"
 - "_personaIdentifier"
+- "q"
+- "_accountIdentifier"
+- "q16@0:8"
+- "Tq,R,N,V_changeType"
+- "B"
+- "@44@0:8@16@24B32q36"
+- "stringWithFormat:"
+- "@24@0:8@\"NSCoder\"16"
+- "decodeIntegerForKey:"
+- "MBAccountChange"
+- "NSSecureCoding"
+- "decodeObjectForKey:"
+- "decodeBoolForKey:"
+- "TB,R,N,V_isPrimaryAccount"
+- "v24@0:8@\"NSCoder\"16"
+- "_isPrimaryAccount"
+- "encodeObject:forKey:"
+- "supportsSecureCoding"
+- "isPrimaryAccount"
+- "_changeType"
+- "T@\"NSString\",R,N,V_personaIdentifier"
+- "encodeInteger:forKey:"
+- "encodeBool:forKey:"
+- "encodeWithCoder:"
 
 ```

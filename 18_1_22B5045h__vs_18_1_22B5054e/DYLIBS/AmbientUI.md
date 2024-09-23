@@ -31,11 +31,11 @@
 +  CStrings:  3223
  
 CStrings:
-+ "{SBIconImageInfo={CGSize=dd}dd}32@0:8@\"NSString\"16q24"
-+ "{SBIconImageInfo={CGSize=dd}dd}32@0:8@16q24"
 + "@24@0:8q16"
-+ "iconGridSizeClassSizesForOrientation:"
 + "iconImageInfoForGridSizeClass:orientation:"
++ "{SBIconImageInfo={CGSize=dd}dd}32@0:8@16q24"
++ "iconGridSizeClassSizesForOrientation:"
 + "@\"SBHIconGridSizeClassSizeMap\"24@0:8q16"
++ "{SBIconImageInfo={CGSize=dd}dd}32@0:8@\"NSString\"16q24"
 
 ```

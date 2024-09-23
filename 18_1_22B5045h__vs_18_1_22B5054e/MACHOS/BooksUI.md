@@ -69,12 +69,12 @@
 +  CStrings:  875
  
 CStrings:
-+ "setLocalizedDateFormatFromTemplate:"
-+ "Year in Review: Books vertical masonry grid view accessibility hint"
-+ "Use the More Content rotor to explore Books in grid"
-+ "Books Cover Grid"
 + "Year in Review: Books vertical masonry grid view accessibility label"
 + "setLocale:"
++ "Year in Review: Books vertical masonry grid view accessibility hint"
++ "setLocalizedDateFormatFromTemplate:"
++ "Books Cover Grid"
++ "Use the More Content rotor to explore Books in grid"
 - "setDateFormat:"
 
 ```

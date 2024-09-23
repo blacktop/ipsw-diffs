@@ -88,35 +88,35 @@
 +  CStrings:  8005
  
 Symbols:
+- _fopen
+- _fseek
+- _rewind
+- _ftell
+- _fread
+- _dlsym
 - _fclose
+- _sscanf
+- __availability_version_check
 - _dispatch_once_f
 - _swift_taskGroup_wait_next_throwing
-- _rewind
-- _fseek
-- _sscanf
-- _fread
-- __availability_version_check
-- _fopen
-- _dlsym
-- _ftell
 CStrings:
-+ "nlRouterSubComponentHandleContext"
 + "NLRouterOverrides failed setting up"
++ "nlRouterSubComponentHandleContext"
 + "NLROUTERSUBCOMPONENT"
-- "CFRelease"
-- "/System/Library/CoreServices/SystemVersion.plist"
-- "CFPropertyListCreateWithData"
 - "CFStringGetTypeID"
-- "CFStringGetCString"
-- "CFPropertyListCreateFromXMLData"
-- "CFDataCreateWithBytesNoCopy"
-- "CFGetTypeID"
-- "Routing decision override found magic word \"%!{(MISSING)public}s\" in utterance: %!s(MISSING). Returning query rewrite with new utterance: %!s(MISSING)"
-- "%!d(MISSING).%!d(MISSING).%!d(MISSING)"
-- "kCFAllocatorNull"
+- "/System/Library/CoreServices/SystemVersion.plist"
 - "ProductVersion"
 - "CFDictionaryGetValue"
+- "%!d(MISSING).%!d(MISSING).%!d(MISSING)"
+- "CFPropertyListCreateWithData"
+- "CFRelease"
+- "kCFAllocatorNull"
+- "Routing decision override found magic word \"%!{(MISSING)public}s\" in utterance: %!s(MISSING). Returning query rewrite with new utterance: %!s(MISSING)"
+- "CFGetTypeID"
+- "CFStringGetCString"
 - "r"
+- "CFPropertyListCreateFromXMLData"
 - "CFStringCreateWithCStringNoCopy"
+- "CFDataCreateWithBytesNoCopy"
 
 ```

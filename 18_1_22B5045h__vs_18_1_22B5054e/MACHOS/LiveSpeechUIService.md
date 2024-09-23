@@ -43,20 +43,20 @@
 +  CStrings:  765
  
 CStrings:
-+ "Transcribed data: %!s(MISSING)"
-+ "CaptionsProvider Phone call is ended"
++ "startTranscribing for type: %!l(MISSING)d, pid: %!l(MISSING)d"
 + "CaptionsProvider StopTranscribing error"
++ "RootView: autoResumeTranscription"
++ "CaptionsProvider StartTranscribing error"
++ "CaptionsProvider Phone call is ended"
 + "CaptionsProvider Phone call is connected"
++ "Transcribed data: %!s(MISSING)"
 + "CaptionsProvider startTranscribing _isActive: %!{(MISSING)bool}d isPaused: %!{(MISSING)bool}d"
 + "CaptionsProvider activate _isActive: %!{(MISSING)bool}d, isActive = %!{(MISSING)bool}d"
-+ "CaptionsProvider StartTranscribing error"
-+ "RootView: autoResumeTranscription"
-+ "startTranscribing for type: %!l(MISSING)d, pid: %!l(MISSING)d"
-- "startTranscribing for type = %!l(MISSING)d, pid = %!l(MISSING)d"
 - "Transcribed data = %!s(MISSING)"
-- "StartTranscribing error"
 - "StopTranscribing error"
-- "Phone call is ended"
+- "startTranscribing for type = %!l(MISSING)d, pid = %!l(MISSING)d"
 - "Phone call is connected"
+- "StartTranscribing error"
+- "Phone call is ended"
 
 ```

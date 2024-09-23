@@ -41,11 +41,11 @@
    CStrings:  1512
  
 CStrings:
-+ "reportPINResult(_:_:)"
 + "MerchantKit-131.3"
++ "reportPINResult(_:_:)"
 + "MerchantKit-131.3 (8a9689ac)"
+- "reportPINResult(_:_:_:)"
 - "MerchantKit-131.1 (81724d4b)"
 - "MerchantKit-131.1"
-- "reportPINResult(_:_:_:)"
 
 ```

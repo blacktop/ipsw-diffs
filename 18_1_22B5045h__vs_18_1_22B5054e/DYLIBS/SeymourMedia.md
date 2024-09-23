@@ -75,33 +75,33 @@
 +  CStrings:  1205
  
 Symbols:
-- _sscanf
-- _fclose
-- _ftell
-- _swift_continuation_await
-- _swift_continuation_init
-- _fseek
-- _dispatch_once_f
-- _fopen
-- _fread
-- _rewind
 - _dlsym
+- _fclose
+- _fopen
+- _ftell
+- _rewind
+- _sscanf
+- _fseek
 - __availability_version_check
+- _swift_continuation_init
+- _fread
+- _dispatch_once_f
+- _swift_continuation_await
 CStrings:
 + "Collection_NewWorkouts"
-- "CFStringGetCString"
+- "%!d(MISSING).%!d(MISSING).%!d(MISSING)"
+- "CFDictionaryGetValue"
 - "ProductVersion"
+- "CFDataCreateWithBytesNoCopy"
 - "CFStringCreateWithCStringNoCopy"
+- "CFStringGetCString"
+- "CFGetTypeID"
+- "CFPropertyListCreateFromXMLData"
+- "kCFAllocatorNull"
+- "/System/Library/CoreServices/SystemVersion.plist"
+- "r"
+- "CFPropertyListCreateWithData"
 - "CFStringGetTypeID"
 - "CFRelease"
-- "CFDictionaryGetValue"
-- "CFPropertyListCreateFromXMLData"
-- "CFPropertyListCreateWithData"
-- "kCFAllocatorNull"
-- "CFGetTypeID"
-- "CFDataCreateWithBytesNoCopy"
-- "r"
-- "/System/Library/CoreServices/SystemVersion.plist"
-- "%!d(MISSING).%!d(MISSING).%!d(MISSING)"
 
 ```

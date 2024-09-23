@@ -51,9 +51,9 @@
 Symbols:
 + _objc_retain_x28
 CStrings:
-+ "transientLexiconWithCustomEntries:"
 + "invalidInputErrorWithDescription with description: %!@(MISSING), failureReason: %!@(MISSING), recoverySuggestion:%!@(MISSING), errorCode:%!l(MISSING)d"
 + "customLexiconEntries"
++ "transientLexiconWithCustomEntries:"
 - "transientLexicon"
 
 ```

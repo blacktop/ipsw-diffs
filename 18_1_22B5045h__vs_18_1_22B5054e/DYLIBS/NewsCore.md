@@ -73,8 +73,8 @@
  
 CStrings:
 + "Resetting Sports ID"
-+ "%!{(MISSING)public}@ did enter sync queue"
-+ "%!{(MISSING)public}@ will enter sync queue"
 + "resetSportsID"
++ "%!{(MISSING)public}@ will enter sync queue"
++ "%!{(MISSING)public}@ did enter sync queue"
 
 ```

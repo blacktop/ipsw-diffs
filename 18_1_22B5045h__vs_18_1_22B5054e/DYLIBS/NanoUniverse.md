@@ -111,17 +111,17 @@
 +  CStrings:  1931
  
 Symbols:
-+ _swift_initStructMetadata
 + _objc_release_x10
 + _swift_storeEnumTagSinglePayloadGeneric
-+ _swift_getAtKeyPath
 + _swift_getEnumTagSinglePayloadGeneric
++ _swift_initStructMetadata
 + _swift_getOpaqueTypeConformance2
++ _swift_getAtKeyPath
 CStrings:
++ "Accessing Environment<%!s(MISSING)>'s value outside of being installed on a View. This will always read the default value and will not update."
++ "Binding<PresentationMode>"
++ "UnsafeMutablePointer.moveInitialize with negative count"
 + "Swift/Array.swift"
 + "Can't construct Array with count < 0"
-+ "Binding<PresentationMode>"
-+ "Accessing Environment<%!s(MISSING)>'s value outside of being installed on a View. This will always read the default value and will not update."
-+ "UnsafeMutablePointer.moveInitialize with negative count"
 
 ```

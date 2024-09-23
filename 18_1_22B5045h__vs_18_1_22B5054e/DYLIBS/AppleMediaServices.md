@@ -101,16 +101,16 @@
 Symbols:
 + _AMSBagKeyFraudReportDisableUCRTDeviceIdsOID
 CStrings:
-+ "Biometrics unvailable on account. Device is in biometric lockout"
 + "isDeviceInBiometricLockoutWithCompletion:"
-+ "Fetching card data failed during Express Checkout, continuing with regular buy"
-+ "isDeviceInBiometricLockout"
-+ "fsr-ucrt-device-ids-disabled"
-+ "Card registration data not available"
++ "Device is in biometric lockout and password fallback is disabled"
 + "%!{(MISSING)public}@: [%!{(MISSING)public}@] UCRT ids disabler is missing in bag, will request certificate with UCRT device ids."
++ "fsr-ucrt-device-ids-disabled"
++ "getBioLockoutState"
 + "%!{(MISSING)public}@: [%!{(MISSING)public}@] shouldRequestUCRTDeviceIds=%!{(MISSING)public}d"
 + "%!{(MISSING)public}@Dismissing Payment Sheet due to biometric lockout and no password fallback"
-+ "getBioLockoutState"
-+ "Device is in biometric lockout and password fallback is disabled"
++ "Fetching card data failed during Express Checkout, continuing with regular buy"
++ "Card registration data not available"
++ "isDeviceInBiometricLockout"
++ "Biometrics unvailable on account. Device is in biometric lockout"
 
 ```

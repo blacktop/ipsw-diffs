@@ -84,11 +84,11 @@
  
 CStrings:
 + "Failed checking for if FTS is enabled in metadata. Double check query checking for if FTS is enabled"
-+ "getIdentifiers failed attempting to search via FTS"
-+ "getAssets failed attempting to search via FTS"
 + "Tried to run an FTS enabled search on an index where FTS is disabled. You must rebuild the index with FTS enabled. Detail: "
 + "SELECT enable_fts\nFROM metadata"
-- "createAttributesPartialSQL"
++ "getIdentifiers failed attempting to search via FTS"
++ "getAssets failed attempting to search via FTS"
 - "VectorDatabaseConfig:migrate no-op for initial migration"
+- "createAttributesPartialSQL"
 
 ```

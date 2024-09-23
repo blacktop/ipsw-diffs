@@ -58,8 +58,8 @@
 Symbols:
 + _MobileGestalt_get_deviceSupportsBreathingDisturbancesMeasurements
 CStrings:
-+ "e0HV2blYUDBk/MsMEQACNA"
 + "157944EA-0D76-41F6-88BC-54731135BE37"
++ "e0HV2blYUDBk/MsMEQACNA"
 - "4433DA2F-25AC-4527-8C2A-4F940873BAF2"
 
 ```

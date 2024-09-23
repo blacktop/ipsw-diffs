@@ -40,17 +40,17 @@
  
 Symbols:
 + _FigSignalErrorAt
-- _FigSignalErrorAt3
-- _fig_log_call_emit_and_clean_up_after_send_and_compose
 - __os_log_send_and_compose_impl
-- _fig_log_emitter_get_os_log_and_send_and_compose_flags_and_os_log_type
+- _FigSignalErrorAt3
 - _os_log_type_enabled
+- _fig_log_call_emit_and_clean_up_after_send_and_compose
+- _fig_log_emitter_get_os_log_and_send_and_compose_flags_and_os_log_type
 CStrings:
+- "%!s(MISSING)%!s(MISSING)%!s(MISSING) signalled err=%!d(MISSING) (%!s(MISSING)) (%!s(MISSING)) at %!s(MISSING):%!d(MISSING)"
+- "CarPlayHALPluginFactory %!s(MISSING): CarPlayEndpointManagerCarPlay = [%!p(MISSING)]"
 - "kAudioHardwareIllegalOperationError"
 - "(Fig)"
-- "CarPlayHALPluginFactory %!s(MISSING): CarPlayEndpointManagerCarPlay = [%!p(MISSING)]"
-- "APHALCarAudioStream.c"
 - "Unknown config change action"
-- "%!s(MISSING)%!s(MISSING)%!s(MISSING) signalled err=%!d(MISSING) (%!s(MISSING)) (%!s(MISSING)) at %!s(MISSING):%!d(MISSING)"
+- "APHALCarAudioStream.c"
 
 ```

@@ -88,15 +88,15 @@ Symbols:
 + _OBJC_CLASS_$_AVCaptureSystemZoomSlider
 - _AVAudioSessionCategoryVoiceOver
 CStrings:
++ "currentRequest"
++ "setDisplayValuesByZoomFactorValue:"
 + "B8@?0"
 + "initWithDevice:"
-+ "setAccessibilityMagicTapBlock:"
-+ "initWithFloat:"
 + "Image caption service busy"
-+ "setDisplayValuesByZoomFactorValue:"
-+ "currentRequest"
++ "initWithFloat:"
++ "setAccessibilityMagicTapBlock:"
 - "zoomSliderControl"
-- "control.name.zoomFactor"
 - "setLocalizedValueFormat:"
+- "control.name.zoomFactor"
 
 ```

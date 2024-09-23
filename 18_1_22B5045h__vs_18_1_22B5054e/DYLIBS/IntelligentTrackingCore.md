@@ -78,13 +78,13 @@
 Symbols:
 + _objc_retain_x1
 CStrings:
-+ "initWithCVImageBuffer:"
-+ "imageBuffer"
-+ "pixelBuffer"
-+ "DOWNSAMPLED_HEIGHT"
-+ "Resized pixel buffer from ("
-+ "isFrontal"
 + "PRESERVE_ASPECTRATIO"
 + "DOWNSAMPLED_WIDTH"
++ "imageBuffer"
++ "pixelBuffer"
++ "isFrontal"
++ "initWithCVImageBuffer:"
++ "Resized pixel buffer from ("
++ "DOWNSAMPLED_HEIGHT"
 
 ```

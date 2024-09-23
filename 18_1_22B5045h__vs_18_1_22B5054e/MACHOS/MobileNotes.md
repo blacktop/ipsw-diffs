@@ -90,63 +90,63 @@
 +  CStrings:  16451
  
 Symbols:
-+ _$s11NotesShared20SummarizationManagerC32generateTopLineTranscriptSummary10transcriptAA0C6ResultVSgSS_tYaKFZTu
-+ _$s11NotesShared19SummarizationResultVMn
-+ _$s11NotesShared20SummarizationManagerC32generateTopLineTranscriptSummary10transcriptAA0C6ResultVSgSS_tYaKFZ
-+ _$s11NotesShared19SummarizationResultVMa
-+ _OBJC_CLASS_$_NSException
-+ _$sSo22ICAttachmentAudioModelC11NotesSharedE30saveTopLineSummaryToAttachment19summarizationResultyAC013SummarizationM0V_tKF
-+ _$s11NotesShared21BackgroundTranscriberC27splitTracksForTranscription8mediaURL20attachmentIdentifier10Foundation0J0V_AItSgAI_So17NSManagedObjectIDCtYaFTjTu
 + _NSInternalInconsistencyException
-- _$s11NotesShared21CallRecordingSplitterC11splitTracksy10Foundation3URLV_AGtSgAGYaKFZTu
-- _swift_task_addCancellationHandler
-- _ICNASessionTypeNotes
-- _swift_task_removeCancellationHandler
-- _rewind
-- _$s11NotesShared21CallRecordingSplitterCMa
-- _$s11NotesShared20SummarizationManagerC32generateTopLineTranscriptSummary10transcriptSSSgSS_tYaKFZ
++ _$s11NotesShared19SummarizationResultVMn
++ _$sSo22ICAttachmentAudioModelC11NotesSharedE30saveTopLineSummaryToAttachment19summarizationResultyAC013SummarizationM0V_tKF
++ _$s11NotesShared20SummarizationManagerC32generateTopLineTranscriptSummary10transcriptAA0C6ResultVSgSS_tYaKFZ
++ _$s11NotesShared21BackgroundTranscriberC27splitTracksForTranscription8mediaURL20attachmentIdentifier10Foundation0J0V_AItSgAI_So17NSManagedObjectIDCtYaFTjTu
++ _OBJC_CLASS_$_NSException
++ _$s11NotesShared20SummarizationManagerC32generateTopLineTranscriptSummary10transcriptAA0C6ResultVSgSS_tYaKFZTu
++ _$s11NotesShared19SummarizationResultVMa
 - _ICNASessionTypePaper
-- _fread
-- __availability_version_check
-- _$s11NotesShared21CallRecordingSplitterC11splitTracksy10Foundation3URLV_AGtSgAGYaKFZ
-- _swift_taskGroup_wait_next_throwing
-- _ICNASessionTypeGlobal
-- _fseek
-- _sscanf
-- _fopen
-- _dispatch_once_f
-- _$s11NotesShared20SummarizationManagerC32generateTopLineTranscriptSummary10transcriptSSSgSS_tYaKFZTu
-- _ftell
+- _swift_task_addCancellationHandler
 - _fclose
+- _ftell
+- _sscanf
+- _fseek
+- _$s11NotesShared21CallRecordingSplitterCMa
+- __availability_version_check
+- _ICNASessionTypeNotes
+- _swift_taskGroup_wait_next_throwing
+- _$s11NotesShared21CallRecordingSplitterC11splitTracksy10Foundation3URLV_AGtSgAGYaKFZ
+- _$s11NotesShared21CallRecordingSplitterC11splitTracksy10Foundation3URLV_AGtSgAGYaKFZTu
+- _ICNASessionTypeGlobal
+- _swift_task_removeCancellationHandler
+- _dispatch_once_f
+- _fopen
+- _fread
+- _$s11NotesShared20SummarizationManagerC32generateTopLineTranscriptSummary10transcriptSSSgSS_tYaKFZTu
+- _rewind
+- _$s11NotesShared20SummarizationManagerC32generateTopLineTranscriptSummary10transcriptSSSgSS_tYaKFZ
 CStrings:
-+ "raise:format:"
-+ "groupingLevel"
++ "Background task for composing recording invalidated"
 + "updateContainerPredicate"
++ "groupingLevel"
++ "Directory %!s(MISSING) is empty. Nothing available to import."
++ "ICRetranscribeAfterVersionIncrementLaunchTaskV1"
 + "Audio Donation: Success reporting positive feedback with UUID: %!s(MISSING)"
 + "Unexpectedly setting up main UI in secure window class: %!@(MISSING)"
++ "raise:format:"
 + "Audio Donation: Success reporting negative feedback with UUID: %!s(MISSING)"
 + "Performing background transcription"
-+ "Background task for composing recording invalidated"
-+ "ICRetranscribeAfterVersionIncrementLaunchTaskV1"
-+ "Directory %!s(MISSING) is empty. Nothing available to import."
-- "kCFAllocatorNull"
-- "registerForTraitChanges:withTarget:action:"
-- "ICRetranscribeAudioAttachmentsIfNeededLaunchTaskV1"
-- "CFStringGetCString"
-- "CFGetTypeID"
-- "CFPropertyListCreateWithData"
-- "CFDictionaryGetValue"
 - "CFStringGetTypeID"
-- "Audio Donation: Success reporting positive feedback"
+- "CFStringCreateWithCStringNoCopy"
 - "CFPropertyListCreateFromXMLData"
-- "CFDataCreateWithBytesNoCopy"
-- "/System/Library/CoreServices/SystemVersion.plist"
-- "Audio Donation: Success reporting negative feedback"
 - "_Concurrency/TaskGroup.swift"
-- "ProductVersion"
+- "ICRetranscribeAudioAttachmentsIfNeededLaunchTaskV1"
+- "CFGetTypeID"
 - "%!d(MISSING).%!d(MISSING).%!d(MISSING)"
+- "Audio Donation: Success reporting negative feedback"
+- "CFDataCreateWithBytesNoCopy"
+- "kCFAllocatorNull"
+- "CFStringGetCString"
 - "saveTopLineSummaryToAttachmentWithSummary:error:"
 - "CFRelease"
-- "CFStringCreateWithCStringNoCopy"
+- "CFDictionaryGetValue"
+- "Audio Donation: Success reporting positive feedback"
+- "registerForTraitChanges:withTarget:action:"
+- "/System/Library/CoreServices/SystemVersion.plist"
+- "CFPropertyListCreateWithData"
+- "ProductVersion"
 
 ```

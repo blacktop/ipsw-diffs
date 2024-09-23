@@ -30,9 +30,9 @@
    CStrings:  591
  
 CStrings:
-+ "Error: Cyclical dependency found when trying to resolve use definition: %!s(MISSING) with %!s(MISSING)(%!s(MISSING))"
 + "Error: Cyclical dependency found when trying to resolve node: %!s(MISSING)(%!s(MISSING)) attributes with %!s(MISSING)(%!s(MISSING))"
-- "Error: Cyclical depedency found when trying to resolve node: %!s(MISSING)(%!s(MISSING)) attributes with pattern(%!s(MISSING))"
++ "Error: Cyclical dependency found when trying to resolve use definition: %!s(MISSING) with %!s(MISSING)(%!s(MISSING))"
 - "Error: Cyclical depedency found when trying to resolve node: %!s(MISSING)(%!s(MISSING)) attributes with gradient(%!s(MISSING))"
+- "Error: Cyclical depedency found when trying to resolve node: %!s(MISSING)(%!s(MISSING)) attributes with pattern(%!s(MISSING))"
 
 ```

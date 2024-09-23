@@ -44,9 +44,9 @@
 +  CStrings:  1863
  
 CStrings:
-+ "siriManagerForIntentType:"
-+ "predicateForJustMissedCalls"
 + "@24@0:8#16"
++ "predicateForJustMissedCalls"
++ "siriManagerForIntentType:"
 - "siriManager"
 
 ```

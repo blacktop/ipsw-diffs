@@ -86,10 +86,10 @@ Symbols:
 + __os_feature_enabled_impl
 CStrings:
 + "ADD_VIDEOS_TO_WATCHLIST"
-+ "testarossa"
++ "CONTINUE_WATCHING"
 + "WIDGET_DISPLAY_NAME_CONTINUE_WATCHING"
 + "UNABLE_TO_RETRIEVE_CONTINUE_WATCHING"
++ "testarossa"
 + "TVApp"
-+ "CONTINUE_WATCHING"
 
 ```

@@ -58,12 +58,12 @@
 +  CStrings:  2034
  
 CStrings:
++ "@\"<BuddyMultilingualFlowManager>\"16@0:8"
++ "T@\"<BuddyMultilingualFlowManager>\",?,&,N"
++ "v24@0:8@\"<BuddyMultilingualFlowManager>\"16"
 + "setMultilingualFlowManager:"
 + "multilingualFlowManager"
-+ "T@\"<BuddyMultilingualFlowManager>\",?,&,N"
 + "BFFViewControllerAppearanceConfigurationDelegate"
-+ "@\"<BuddyMultilingualFlowManager>\"16@0:8"
-+ "v24@0:8@\"<BuddyMultilingualFlowManager>\"16"
 - "blackColor"
 
 ```

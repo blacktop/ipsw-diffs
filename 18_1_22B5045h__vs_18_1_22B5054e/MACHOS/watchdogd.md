@@ -37,9 +37,9 @@
  
 CStrings:
 + "WindowServer"
-+ "wdt_ext_ws_to"
-+ "detected boot-arg (%!s(MISSING)) for WindowServer timeout override: %!l(MISSING)ld"
 + "%!s(MISSING) configured to timeout in %!l(MISSING)ld seconds (per %!s(MISSING) boot-arg)"
++ "detected boot-arg (%!s(MISSING)) for WindowServer timeout override: %!l(MISSING)ld"
++ "wdt_ext_ws_to"
 + "Keep %!s(MISSING) default timeout cause %!l(MISSING)ld seconds (per %!s(MISSING) boot-arg) is too short"
 
 ```

@@ -32,8 +32,8 @@
    - /System/Library/Frameworks/AVFoundation.framework/AVFoundation
    - /System/Library/Frameworks/Accelerate.framework/Accelerate
 CStrings:
-+ "2085.6.1"
 + "VCVideoPlayer [%!s(MISSING)] %!s(MISSING):%!d(MISSING) VCVideoPlayer[%!p(MISSING)] Updating outputLatency=%!f(MISSING)"
++ "2085.6.1"
 - "2085.5.1"
 - "VCVideoPlayer [%!s(MISSING)] %!s(MISSING):%!d(MISSING) VCVideoPlayer[%!p(MISSING)] Updating outputLatency=%!f(MISSING) (requestLatency=%!f(MISSING) + minPlaybackInterval=%!f(MISSING))"
 

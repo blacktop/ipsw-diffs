@@ -66,7 +66,7 @@
 +  CStrings:  3615
  
 CStrings:
-+ "$__lazy_storage_$_fontSizeOverrides"
 + "$__lazy_storage_$_placeholderImageSizeOverrides"
++ "$__lazy_storage_$_fontSizeOverrides"
 
 ```

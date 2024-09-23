@@ -46,14 +46,14 @@
    CStrings:  312
  
 Symbols:
-+ _OBJC_CLASS_$_AudioAnalyticsTraceArgs
-+ _OBJC_METACLASS_$_AudioAnalyticsTraceArgs
-+ _OBJC_METACLASS_$_AudioAnalyticsTrace
 + _OBJC_CLASS_$_AudioAnalyticsTrace
++ _OBJC_METACLASS_$_AudioAnalyticsTraceArgs
++ _OBJC_CLASS_$_AudioAnalyticsTraceArgs
++ _OBJC_METACLASS_$_AudioAnalyticsTrace
 - _OBJC_METACLASS_$_Trace
+- _OBJC_CLASS_$_Trace
 - _OBJC_CLASS_$_TraceArgs
 - _OBJC_METACLASS_$_TraceArgs
-- _OBJC_CLASS_$_Trace
 CStrings:
 + "AudioAnalyticsTraceArgs"
 + "AudioAnalyticsTrace"

@@ -77,9 +77,9 @@
  
 CStrings:
 + "subRequestInverseLinkTable"
++ "setSubRequestId:"
 + "    Failed to extract either request ID, sub-request ID or component UUID.\n    Tried keypaths '%!s(MISSING)'/'%!s(MISSING)'/'%!s(MISSING)'.\n    For event: %!s(MISSING)\")"
 + "requestEventTable"
-+ "setSubRequestId:"
 - "Failed to extract UUID using keypath '%!s(MISSING)' for event: %!s(MISSING)"
 
 ```

@@ -77,23 +77,23 @@
 +  CStrings:  431
  
 Symbols:
++ _OBJC_CLASS_$_CNContactStoreConfiguration
++ _OBJC_CLASS_$_CNManagedConfiguration
 + _OBJC_CLASS_$_CNManagedProfileConnection
++ _OBJC_CLASS_$_CNContactsEnvironment
 + _$sSo13os_log_type_ta0A0E5debugABvgZ
 + _OBJC_CLASS_$_CNContactStore
-+ _OBJC_CLASS_$_CNManagedConfiguration
-+ _OBJC_CLASS_$_CNContactStoreConfiguration
-+ _OBJC_CLASS_$_CNContactsEnvironment
 - _OBJC_CLASS_$_CNUIContactsEnvironment
 CStrings:
-+ "setEnvironment:"
 + "initWithConfiguration:"
-+ "setManagedConfiguration:"
-+ "sharedConnection"
 + "appBundleId"
-+ "initWithBundleIdentifier:managedProfileConnection:"
-+ "Loading Onboarding avatars for bundle %!s(MISSING)"
++ "sharedConnection"
 + "initForOnboarding:bundleId:selectedContacts:"
-- "initForOnboarding:selectedContacts:"
++ "setEnvironment:"
++ "initWithBundleIdentifier:managedProfileConnection:"
++ "setManagedConfiguration:"
++ "Loading Onboarding avatars for bundle %!s(MISSING)"
 - "contactStore"
+- "initForOnboarding:selectedContacts:"
 
 ```

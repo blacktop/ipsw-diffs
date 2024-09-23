@@ -97,22 +97,22 @@
 +  CStrings:  2513
  
 Symbols:
-+ _OBJC_CLASS_$_TPSGenerativeModelsEligibilityValidation
 + _OBJC_METACLASS_$_TPSGenerativeModelsEligibilityValidation
++ _OBJC_CLASS_$_TPSGenerativeModelsEligibilityValidation
 + _kTPSCapabilityGenerativeModelsEligibility
 CStrings:
-+ "v16@?0@\"NSDictionary\"8"
-+ "370bbcbee5e996dc60e8b7ec961bc0310d21f150"
 + "TPSGenerativeModelsEligibilityValidation"
-- "miniTipsAllowedBundles"
++ "370bbcbee5e996dc60e8b7ec961bc0310d21f150"
++ "v16@?0@\"NSDictionary\"8"
 - "com.apple.mobiletimer"
-- "CID-eucalyptus-migrating-mini-tip-set"
-- "com.apple.MobileSMS"
-- "CID-junkmessagefilter-mini-tip-find-junk"
-- "CID-junkmessage-mini-tip-find-junk"
-- "CID-set-alarm-siri--tip03e089622--mini-tip"
 - "miniTipsAllowedIdentifiers"
 - "correlationIdForDictionary:"
+- "com.apple.MobileSMS"
+- "CID-eucalyptus-migrating-mini-tip-set"
+- "miniTipsAllowedBundles"
+- "CID-set-alarm-siri--tip03e089622--mini-tip"
+- "CID-junkmessage-mini-tip-find-junk"
+- "CID-junkmessagefilter-mini-tip-find-junk"
 - "v24@?0@\"NSDictionary\"8@\"NSDictionary\"16"
 
 ```

@@ -77,19 +77,19 @@
  
 Symbols:
 + _OBJC_METACLASS_$_SFUpdateSearchQueryCommand
-+ _OBJC_CLASS_$_SUIUpdateSearchQueryCommand
 + _OBJC_METACLASS_$_SUIUpdateSearchQueryCommand
++ _OBJC_CLASS_$_SUIUpdateSearchQueryCommand
 CStrings:
-+ "SUIUpdateSearchQueryCommand"
-+ "_queryKind"
-+ "encodeInteger:forKey:"
 + "decodeIntegerForKey:"
-+ "Q"
-+ "encodeWithCoder:"
-+ "queryKind"
-+ "@24@0:8@16"
-+ "v24@0:8Q16"
-+ "TQ,N,V_queryKind"
 + "initWithCoder:"
++ "TQ,N,V_queryKind"
++ "@24@0:8@16"
++ "encodeWithCoder:"
++ "encodeInteger:forKey:"
++ "SUIUpdateSearchQueryCommand"
++ "queryKind"
++ "Q"
++ "_queryKind"
++ "v24@0:8Q16"
 
 ```

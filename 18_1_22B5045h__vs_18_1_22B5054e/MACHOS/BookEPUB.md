@@ -27,7 +27,7 @@
 CStrings:
 + "Move the Line Guide"
 + "Tap a line above or below the guide, or long press to drag it."
-- "Tap above or below the guide to move it up or down a line. Long press to drag it to a specific location."
 - "Using the Line Guide"
+- "Tap above or below the guide to move it up or down a line. Long press to drag it to a specific location."
 
 ```

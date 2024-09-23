@@ -58,7 +58,7 @@
 Symbols:
 + _OBJC_CLASS_$_SBUIContinuityAccessorySceneExtension
 CStrings:
-+ "T@\"NSArray\",N,R"
 + "defaultExtensions"
++ "T@\"NSArray\",N,R"
 
 ```

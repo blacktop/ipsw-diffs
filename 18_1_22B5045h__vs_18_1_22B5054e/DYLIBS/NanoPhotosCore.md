@@ -80,34 +80,34 @@
  
 Symbols:
 + _NPTOPreferencesAppResyncVersionKey
-- _swift_task_addCancellationHandler
-- _swift_task_removeCancellationHandler
-- _dispatch_once_f
-- _dlsym
-- _sscanf
 - _ftell
-- _fseek
-- _rewind
-- __availability_version_check
 - _fclose
+- _dlsym
+- _rewind
+- _fseek
 - _fread
+- _sscanf
 - _fopen
+- _swift_task_removeCancellationHandler
+- _swift_task_addCancellationHandler
+- __availability_version_check
+- _dispatch_once_f
 CStrings:
 + "AppResyncVersion"
 + "npto_appResyncVersion"
-- "CFStringGetCString"
-- "/System/Library/CoreServices/SystemVersion.plist"
-- "CFPropertyListCreateWithData"
-- "r"
-- "CFStringGetTypeID"
 - "CFDictionaryGetValue"
-- "ProductVersion"
-- "CFPropertyListCreateFromXMLData"
-- "%!d(MISSING).%!d(MISSING).%!d(MISSING)"
+- "r"
 - "CFRelease"
-- "CFDataCreateWithBytesNoCopy"
-- "kCFAllocatorNull"
-- "CFStringCreateWithCStringNoCopy"
 - "CFGetTypeID"
+- "CFDataCreateWithBytesNoCopy"
+- "CFPropertyListCreateWithData"
+- "ProductVersion"
+- "%!d(MISSING).%!d(MISSING).%!d(MISSING)"
+- "CFPropertyListCreateFromXMLData"
+- "kCFAllocatorNull"
+- "CFStringGetCString"
+- "CFStringCreateWithCStringNoCopy"
+- "CFStringGetTypeID"
+- "/System/Library/CoreServices/SystemVersion.plist"
 
 ```

@@ -101,14 +101,14 @@
  
 Symbols:
 + _PMOnboardingShouldShowIconBadge
-+ _CTFontCopySystemUIFontExcessiveLineHeightCharacterSet
 + _PMShouldShowIconBadge
++ _CTFontCopySystemUIFontExcessiveLineHeightCharacterSet
 CStrings:
-+ "_isGeneratedPasswordsSheetPresented"
-+ "wellKnownChangePasswordURL"
 + "shouldShowIconBadge"
-+ "_isMoveAccountsSheetPresented"
-+ "_isLoaded"
++ "wellKnownChangePasswordURL"
 + "setAccessibilityElementsHidden:"
++ "_isLoaded"
++ "_isMoveAccountsSheetPresented"
++ "_isGeneratedPasswordsSheetPresented"
 
 ```

@@ -68,15 +68,15 @@
 +  CStrings:  10277
  
 CStrings:
-+ "iconDragManager:didEndDragWithResult:"
-+ "Did not find complication descriptor matching %!{(MISSING)public}@ in widget model, falling back to descriptor from viewController"
 + "iconGridSizeClassSizesForOrientation:"
-+ "{SBIconImageInfo={CGSize=dd}dd}32@0:8@16q24"
 + "{SBIconImageInfo={CGSize=dd}dd}32@0:8@\"NSString\"16q24"
++ "v32@0:8@\"SBIconDragManager\"16@\"<SBIconDragResultDescribing>\"24"
 + "@\"SBHIconGridSizeClassSizeMap\"24@0:8q16"
 + "iconImageInfoForGridSizeClass:orientation:"
-+ "v32@0:8@\"SBIconDragManager\"16@\"<SBIconDragResultDescribing>\"24"
-- "v40@0:8@\"CCUISControlsGalleryViewController\"16@\"CCUISConfiguredControl\"24@\"NSError\"32"
++ "{SBIconImageInfo={CGSize=dd}dd}32@0:8@16q24"
++ "iconDragManager:didEndDragWithResult:"
++ "Did not find complication descriptor matching %!{(MISSING)public}@ in widget model, falling back to descriptor from viewController"
 - "controlsGalleryViewController:didFinishWithControl:error:"
+- "v40@0:8@\"CCUISControlsGalleryViewController\"16@\"CCUISConfiguredControl\"24@\"NSError\"32"
 
 ```

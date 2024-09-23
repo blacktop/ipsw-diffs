@@ -98,124 +98,124 @@
 +  CStrings:  1037
  
 Symbols:
-+ _OBJC_CLASS_$_BMAeroMLPhotosSearchInsights
 + _OBJC_METACLASS_$__TtC6AeroML31AMLPhotosSearchBiomeDataMetrics
-+ _OBJC_METACLASS_$__TtC6AeroML34AMLPhotosSearchBiomeMetricsUtility
-+ _OBJC_CLASS_$__TtC6AeroML32AMLPhotosSearchPoirotUserMetrics
-+ _OBJC_METACLASS_$__TtC6AeroML35AMLPhotosSearchPoirotMetricsUtility
-+ _OBJC_CLASS_$__TtC6AeroML34AMLPhotosSearchBiomeMetricsUtility
-+ _OBJC_METACLASS_$__TtC6AeroML23AMLPhotosSearchInsights
 + _OBJC_METACLASS_$__TtC6AeroML32AMLPhotosSearchPoirotUserMetrics
-+ _OBJC_METACLASS_$__TtC6AeroML31AMLPhotosSearchBiomeUserMetrics
-+ __objc_autoreleasePoolPush
 + _OBJC_CLASS_$__TtC6AeroML31AMLPhotosSearchBiomeUserMetrics
++ _OBJC_METACLASS_$__TtC6AeroML34AMLPhotosSearchBiomeMetricsUtility
++ _OBJC_CLASS_$__TtC6AeroML23AMLPhotosSearchInsights
++ _OBJC_CLASS_$__TtC6AeroML34AMLPhotosSearchBiomeMetricsUtility
++ __objc_autoreleasePoolPush
++ _OBJC_METACLASS_$__TtC6AeroML35AMLPhotosSearchPoirotMetricsUtility
 + _AnalyticsSendEventLazy
++ _OBJC_METACLASS_$__TtC6AeroML32AMLPhotosSearchPoirotDataMetrics
++ _OBJC_CLASS_$__TtC6AeroML32AMLPhotosSearchPoirotUserMetrics
++ _OBJC_METACLASS_$__TtC6AeroML31AMLPhotosSearchBiomeUserMetrics
++ _OBJC_METACLASS_$__TtC6AeroML23AMLPhotosSearchInsights
++ _OBJC_CLASS_$__TtC6AeroML31AMLPhotosSearchBiomeDataMetrics
++ _OBJC_CLASS_$_BMAeroMLPhotosSearchInsights
++ _OBJC_CLASS_$__TtC6AeroML32AMLPhotosSearchPoirotDataMetrics
 + __objc_autoreleasePoolPop
 + _OBJC_CLASS_$__TtC6AeroML35AMLPhotosSearchPoirotMetricsUtility
-+ _OBJC_CLASS_$__TtC6AeroML31AMLPhotosSearchBiomeDataMetrics
-+ _OBJC_CLASS_$__TtC6AeroML23AMLPhotosSearchInsights
-+ _OBJC_METACLASS_$__TtC6AeroML32AMLPhotosSearchPoirotDataMetrics
-+ _OBJC_CLASS_$__TtC6AeroML32AMLPhotosSearchPoirotDataMetrics
-- _OBJC_CLASS_$__TtC6AeroML24AMLPhotosSearchCAMetrics
-- _OBJC_METACLASS_$__TtC6AeroML27AMLPhotosSearchBiomeMetrics
 - _OBJC_CLASS_$__TtC6AeroML29AMLPhotosSearchMetricsUtility
+- _OBJC_METACLASS_$__TtC6AeroML22AMLPhotosSearchHelpers
+- _OBJC_CLASS_$__TtC6AeroML24AMLPhotosSearchCAMetrics
 - _OBJC_CLASS_$__TtC6AeroML27AMLPhotosSearchBiomeMetrics
+- _OBJC_METACLASS_$__TtC6AeroML28AMLPhotosSearchPoirotMetrics
 - _OBJC_METACLASS_$__TtC6AeroML29AMLPhotosSearchMetricsUtility
 - _OBJC_CLASS_$__TtC6AeroML28AMLPhotosSearchPoirotMetrics
+- _OBJC_METACLASS_$__TtC6AeroML27AMLPhotosSearchBiomeMetrics
 - _OBJC_METACLASS_$__TtC6AeroML24AMLPhotosSearchCAMetrics
-- _OBJC_METACLASS_$__TtC6AeroML28AMLPhotosSearchPoirotMetrics
-- _OBJC_METACLASS_$__TtC6AeroML22AMLPhotosSearchHelpers
 - _OBJC_CLASS_$__TtC6AeroML22AMLPhotosSearchHelpers
 CStrings:
-+ "PhotoIDCountGivenSceneCategoryDictMonth %!s(MISSING)"
-+ "PhotoLibrary open fail with error: %!s(MISSING)"
-+ "openAndWaitWithUpgrade:error:"
-+ "Perform photos search metrics payload upload to CA. Incoming: %!s(MISSING)"
-+ "_TtC6AeroML31AMLPhotosSearchBiomeDataMetrics"
-+ "Raw Search Data for QueryId: "
++ "Error while unarchiving FeaturesBatch: %!@(MISSING), description: %!s(MISSING)"
++ "initWithWasThereAnyResultsShown:searchResultSize:didUserViewAnyPhoto:viewedPhotoCount:uiSurface:sizeOfPhotoDB:numberOfSearchesFromThisSurfaceLastWeek:numberOfSearchesFromThisSurfaceWeeklyAvg:queryRaw:numberOfTokensInQuery:numberOfKnownEntitiesInQuery:isSpecificPersonInQuery:isGeneralPersonReferenceInQuery:isSpecificLocationInQuery:isGeneralLocationReferenceInQuery:isSpecificDateInQuery:isGeneralDateReferenceInQuery:isHolidayReferenceInQuery:isActionRunningInQuery:isActionHoldingInQuery:isActionClimbingInQuery:"
 + "Error while unarchiving FeatureProvider: %!@(MISSING), description: %!s(MISSING)"
-+ "Insights"
-+ "PhotoIDCountGivenFaceCountDictMonth %!s(MISSING)"
-+ "PhotoIDCountGivenSceneCategoryDictWeek %!s(MISSING)"
-+ "PhotosSearchInsights"
++ "Unable to extract insights from photos search events, search stream is empty"
++ "\nRaw Search Data Stream Only\n: "
++ "Unable to get PETEventTracker2"
++ "photoIDCountGivenSceneCategoryDictMonth %!s(MISSING)"
++ "PhotoLibrary open fail with error: %!s(MISSING)"
++ "_TtC6AeroML23AMLPhotosSearchInsights"
 + "initWithPhotoLibraryURL:"
++ "Unable to extract insights from photos search events; biome streams: raw search %!l(MISSING)d or feedback stream %!l(MISSING)d are empty"
++ "PhotoIDCountGivenFaceCountDictWeek %!s(MISSING)"
++ "Perform photos search metrics payload upload to CA. Incoming: "
++ "_TtC6AeroML35AMLPhotosSearchPoirotMetricsUtility"
++ "PhotoIDCountGivenSceneCategoryDictWeek %!s(MISSING)"
++ "%!s(MISSING) sent data to CoreAnalytics"
++ "Perform photos client data payload upload to PET. Incoming: "
++ "photoIDCountGivenSceneCategoryDictWeek %!s(MISSING)"
++ "initWithInteger:"
++ "signalsDict el for sessionTimestamp "
++ "photoIDCountGivenFaceCountDictWeek %!s(MISSING)"
++ "systemPhotoLibraryURL"
++ "initWithString:"
++ "assetsPresentedInEventWeek "
++ "Insights"
++ "initWithInt:"
++ "_TtC6AeroML32AMLPhotosSearchPoirotDataMetrics"
++ "Monthly dict %!s(MISSING)"
++ "Missing incoming bundleId while performing photos search metrics upload to CA"
++ "Perform photos search metrics payload upload to CA. Incoming: %!s(MISSING)"
++ "Unable to send data to PET; biome streams: raw search %!l(MISSING)d or feedback stream %!l(MISSING)d are empty"
++ "PhotoIDCountGivenFaceCountDictMonth %!s(MISSING)"
++ "assetsPresentedInEventMonth "
++ "Raw Search Data for QueryId: "
 + "Missing incoming bundleId while performing photos client data upload to PET"
 + "_TtC6AeroML32AMLPhotosSearchPoirotUserMetrics"
-+ "signalsDict el for sessionTimestamp "
-+ "\nRaw Search Data Stream Only\n: "
-+ "initWithInt:"
-+ "Perform photos client data payload upload to PET. Incoming: "
-+ ", interactionSignal: "
-+ "Raw Search Data:\n"
-+ "photoIDCountGivenSceneCategoryDictMonth %!s(MISSING)"
-+ "PhotoIDCountGivenFaceCountDictWeek %!s(MISSING)"
-+ "photoIDCountGivenFaceCountDictWeek %!s(MISSING)"
-+ "photoIDCountGivenSceneCategoryDictWeek %!s(MISSING)"
-+ "initWithString:"
-+ "Unable to get PETEventTracker2"
-+ "photoIDCountGivenFaceCountDictMonth %!s(MISSING)"
-+ "@\"NSDictionary\"8@?0"
-+ "Monthly dict %!s(MISSING)"
-+ "Unable to extract insights from photos search events, search stream is empty"
-+ "Raw Search Data under timeinterval: "
-+ "_TtC6AeroML31AMLPhotosSearchBiomeUserMetrics"
-+ "_TtC6AeroML34AMLPhotosSearchBiomeMetricsUtility"
-+ "_TtC6AeroML35AMLPhotosSearchPoirotMetricsUtility"
-+ "%!s(MISSING) sent data to CoreAnalytics"
-+ "Unable to extract insights from photos search events; biome streams: raw search %!l(MISSING)d or feedback stream %!l(MISSING)d are empty"
-+ "Perform photos search metrics payload upload to CA. Incoming: "
-+ "assetsPresentedInEventWeek "
-+ "Error while unarchiving FeaturesBatch: %!@(MISSING), description: %!s(MISSING)"
-+ "assetsPresentedInEventWeek %!s(MISSING): %!s(MISSING)"
-+ "Sorted AssetUUIDs by Rank:\n"
-+ "Weekly dict %!s(MISSING)"
-+ "Unable to send data to PET; biome streams: raw search %!l(MISSING)d or feedback stream %!l(MISSING)d are empty"
-+ "_TtC6AeroML32AMLPhotosSearchPoirotDataMetrics"
-+ "_TtC6AeroML23AMLPhotosSearchInsights"
-+ "assetsPresentedInEventMonth %!s(MISSING): %!s(MISSING)"
 + "Error while unarchiving FeatureDictionaries: %!@(MISSING), description: %!s(MISSING)"
-+ "systemPhotoLibraryURL"
-+ "assetsPresentedInEventMonth "
-+ "initWithWasThereAnyResultsShown:searchResultSize:didUserViewAnyPhoto:viewedPhotoCount:uiSurface:sizeOfPhotoDB:numberOfSearchesFromThisSurfaceLastWeek:numberOfSearchesFromThisSurfaceWeeklyAvg:queryRaw:numberOfTokensInQuery:numberOfKnownEntitiesInQuery:isSpecificPersonInQuery:isGeneralPersonReferenceInQuery:isSpecificLocationInQuery:isGeneralLocationReferenceInQuery:isSpecificDateInQuery:isGeneralDateReferenceInQuery:isHolidayReferenceInQuery:isActionRunningInQuery:isActionHoldingInQuery:isActionClimbingInQuery:"
-+ "Missing incoming bundleId while performing photos search metrics upload to CA"
-+ "initWithInteger:"
-- "PhotosSearchClient plugin: photoIDCountGivenSceneCategoryDictWeek %!s(MISSING)"
-- "_TtC6AeroML29AMLPhotosSearchMetricsUtility"
-- "AMLPhotosSearchMetricsLogging"
-- "_TtC6AeroML28AMLPhotosSearchPoirotMetrics"
-- "\nPresentedAssets for Search Session:"
-- " \n\t\tBatchProvider: "
-- "_TtC6AeroML22AMLPhotosSearchHelpers"
-- "\n\t\tDonationTime: "
-- "PhotosSearchClient plugin: weekly dict %!s(MISSING)"
-- "PhotosSearchClient plugin: photoIDCountGivenFaceCountDictMonth %!s(MISSING)"
-- "PhotosSearchClient plugin: photoIDCountGivenFaceCountDictWeek %!s(MISSING)"
-- "Reported Event to PET"
-- "AMLPhotosSearchLabeledMetrics"
-- "AMLPhotosSearchCAMetrics: Perform photos search metrics payload upload to CA. Incoming: %!s(MISSING)"
-- "Timestamp: %!s(MISSING)"
-- "_TtC6AeroML24AMLPhotosSearchCAMetrics"
-- "Encountered error while unarchiving FeatureDictionaries: %!@(MISSING), description: %!s(MISSING)"
-- " SignalID: %!s(MISSING), interactionSignal: %!s(MISSING)"
-- "AMLPhotosSearchBiomeMetrics: Unable to get PETEventTracker2"
-- "AMLPhotosSearchCAMetrics: Missing incoming bundleId while performing photos search metrics upload to CA"
-- "PhotosSearchClient plugin: assetsPresentedInEventMonth %!s(MISSING): %!s(MISSING)"
-- "AMLPhotosSearchLabeledData: %!@(MISSING)"
++ "PhotosSearchInsights"
++ "Weekly dict %!s(MISSING)"
++ "_TtC6AeroML31AMLPhotosSearchBiomeUserMetrics"
++ "Raw Search Data:\n"
++ "PhotoIDCountGivenSceneCategoryDictMonth %!s(MISSING)"
++ "Sorted AssetUUIDs by Rank:\n"
++ "assetsPresentedInEventMonth %!s(MISSING): %!s(MISSING)"
++ "@\"NSDictionary\"8@?0"
++ "_TtC6AeroML31AMLPhotosSearchBiomeDataMetrics"
++ "_TtC6AeroML34AMLPhotosSearchBiomeMetricsUtility"
++ ", interactionSignal: "
++ "assetsPresentedInEventWeek %!s(MISSING): %!s(MISSING)"
++ "openAndWaitWithUpgrade:error:"
++ "photoIDCountGivenFaceCountDictMonth %!s(MISSING)"
++ "Raw Search Data under timeinterval: "
 - "Encountered error while unarchiving FeatureProvider: %!@(MISSING), description: %!s(MISSING)"
-- "AMLPhotosSearchBiomeMetrics: Perform photos client data payload upload to PET. Incoming: %!s(MISSING)"
-- "_TtC6AeroML27AMLPhotosSearchBiomeMetrics"
-- "signalsDict el for sessionTimestamp %!s(MISSING)"
-- "timestamp: %!f(MISSING) rawSearchEvent: %!@(MISSING)"
-- "\n\t\tArrayProvider: "
+- "_TtC6AeroML28AMLPhotosSearchPoirotMetrics"
 - "AMLPhotosSearchCAData: Unable to send data to PET; biome streams: raw search %!l(MISSING)d or feedback stream %!l(MISSING)d are empty"
-- "AMLPhotosSearchBiomeMetrics: Unable to send data to PET; biome streams: raw search %!l(MISSING)d or feedback stream %!l(MISSING)d are empty"
-- "Filtered Raw Search Data:\n"
-- "AMLPhotosSearchPoirotMetricsLogging: Unable to get PETEventTracker2"
-- "PhotosSearchClient plugin: monthly dict %!s(MISSING)"
-- "Encountered error while unarchiving FeaturesBatch: %!@(MISSING), description: %!s(MISSING)"
-- "AMLClientDonations:\n\t\tFeaturesDescription: "
-- "PhotosSearchClient plugin: photoIDCountGivenSceneCategoryDictMonth %!s(MISSING)"
-- "PhotosSearchClient plugin: assetsPresentedInEventWeek %!s(MISSING): %!s(MISSING)"
+- "timestamp: %!f(MISSING) rawSearchEvent: %!@(MISSING)"
+- "Reported Event to PET"
+- "_TtC6AeroML29AMLPhotosSearchMetricsUtility"
 - "AMLPhotosSearchBiomeMetrics: Missing incoming bundleId while performing photos client data upload to PET"
+- "Encountered error while unarchiving FeatureDictionaries: %!@(MISSING), description: %!s(MISSING)"
+- "PhotosSearchClient plugin: assetsPresentedInEventWeek %!s(MISSING): %!s(MISSING)"
+- "PhotosSearchClient plugin: weekly dict %!s(MISSING)"
+- "AMLPhotosSearchCAMetrics: Missing incoming bundleId while performing photos search metrics upload to CA"
+- " SignalID: %!s(MISSING), interactionSignal: %!s(MISSING)"
+- "_TtC6AeroML24AMLPhotosSearchCAMetrics"
+- "AMLPhotosSearchLabeledMetrics"
+- "AMLPhotosSearchBiomeMetrics: Unable to send data to PET; biome streams: raw search %!l(MISSING)d or feedback stream %!l(MISSING)d are empty"
+- "PhotosSearchClient plugin: assetsPresentedInEventMonth %!s(MISSING): %!s(MISSING)"
+- "Encountered error while unarchiving FeaturesBatch: %!@(MISSING), description: %!s(MISSING)"
+- "AMLPhotosSearchMetricsLogging"
+- "PhotosSearchClient plugin: monthly dict %!s(MISSING)"
+- "PhotosSearchClient plugin: photoIDCountGivenSceneCategoryDictMonth %!s(MISSING)"
+- "PhotosSearchClient plugin: photoIDCountGivenSceneCategoryDictWeek %!s(MISSING)"
+- "_TtC6AeroML27AMLPhotosSearchBiomeMetrics"
+- "AMLPhotosSearchLabeledData: %!@(MISSING)"
+- "AMLClientDonations:\n\t\tFeaturesDescription: "
+- "AMLPhotosSearchCAMetrics: Perform photos search metrics payload upload to CA. Incoming: %!s(MISSING)"
+- "PhotosSearchClient plugin: photoIDCountGivenFaceCountDictWeek %!s(MISSING)"
+- "PhotosSearchClient plugin: photoIDCountGivenFaceCountDictMonth %!s(MISSING)"
+- "Timestamp: %!s(MISSING)"
+- "\n\t\tDonationTime: "
+- "Filtered Raw Search Data:\n"
+- "\n\t\tArrayProvider: "
+- "AMLPhotosSearchPoirotMetricsLogging: Unable to get PETEventTracker2"
+- "AMLPhotosSearchBiomeMetrics: Perform photos client data payload upload to PET. Incoming: %!s(MISSING)"
+- " \n\t\tBatchProvider: "
+- "\nPresentedAssets for Search Session:"
+- "signalsDict el for sessionTimestamp %!s(MISSING)"
+- "_TtC6AeroML22AMLPhotosSearchHelpers"
+- "AMLPhotosSearchBiomeMetrics: Unable to get PETEventTracker2"
 
 ```

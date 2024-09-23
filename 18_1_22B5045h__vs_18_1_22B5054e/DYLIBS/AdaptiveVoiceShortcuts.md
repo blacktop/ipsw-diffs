@@ -67,8 +67,8 @@
 +  CStrings:  400
  
 CStrings:
-+ "AVS unable to resume listening %!@(MISSING)"
 + "pauseListening"
 + "resumeListening"
++ "AVS unable to resume listening %!@(MISSING)"
 
 ```

@@ -84,9 +84,9 @@
 +  CStrings:  37828
  
 CStrings:
-+ "ControlCenterSharedStateManager-modulesInvisible"
-+ "disconnectDataModelDelegatesWithReason:"
 + "reconnectDataModelDelegatesWithReason:"
 + "setAutomaticallySynchronizesHomeDataModel:"
++ "disconnectDataModelDelegatesWithReason:"
++ "ControlCenterSharedStateManager-modulesInvisible"
 
 ```

@@ -54,13 +54,13 @@
 +  CStrings:  15240
  
 CStrings:
++ "succeeded!"
++ "-[CuttlefishXPCWrapper performCKServerUnreadableDataRemovalWithSpecificUser:reply:]_block_invoke"
 + "performCKServerUnreadableDataRemoval:"
 + "performCKServerUnreadableDataRemovalWithSpecificUser:reply:"
-+ "performCKServerUnreadableDataRemoval:reply:"
-+ "Rejecting a performCKServerUnreadableDataRemoval RPC for arguments (%!@(MISSING)): %!@(MISSING)"
 + "octagon-perform-ckserver-unreadable-data-removal"
 + "octagon-perform-ckserver-unreadable-data-removal: failed with error: %!@(MISSING)"
-+ "-[CuttlefishXPCWrapper performCKServerUnreadableDataRemovalWithSpecificUser:reply:]_block_invoke"
-+ "succeeded!"
++ "Rejecting a performCKServerUnreadableDataRemoval RPC for arguments (%!@(MISSING)): %!@(MISSING)"
++ "performCKServerUnreadableDataRemoval:reply:"
 
 ```

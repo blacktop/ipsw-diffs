@@ -26,8 +26,8 @@ CStrings:
 + "localAvailabilityForElectrocardiogramV2Recording"
 + "HKCountrySet+ElectrocardiogramV2Recording.m"
 + "ElectrocardiogramV2Recording"
-- "HKCountrySet+HKFeatureIdentifierElectrocardiogramRecordingV2.m"
-- "HKFeatureIdentifierElectrocardiogramRecordingV2"
 - "localAvailabilityForHKFeatureIdentifierElectrocardiogramRecordingV2"
+- "HKFeatureIdentifierElectrocardiogramRecordingV2"
+- "HKCountrySet+HKFeatureIdentifierElectrocardiogramRecordingV2.m"
 
 ```

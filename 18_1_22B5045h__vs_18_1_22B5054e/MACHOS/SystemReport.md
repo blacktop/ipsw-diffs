@@ -48,21 +48,21 @@
 +  CStrings:  7748
  
 CStrings:
-+ "ancFullLossScoreLeft"
-+ "?"
-+ "Clean"
-+ "Full"
-+ "ancSevereLossScoreRight"
-+ "ancCleanLossScoreLeft"
-+ "ancLossTypeLeft"
-+ "ancSevereLossScoreLeft"
 + "frequencyAccuracyLeft"
++ "?"
++ "ancLossTypeLeft"
 + "totalHarmonicDistortionLeft"
++ "Full"
 + "Severe"
-+ "ancFullLossScoreRight"
++ "Clean"
 + "totalHarmonicDistortionRight"
-+ "ancCleanLossScoreRight"
++ "ancFullLossScoreRight"
 + "ancLossTypeRight"
++ "ancCleanLossScoreRight"
++ "ancSevereLossScoreLeft"
 + "frequencyAccuracyRight"
++ "ancSevereLossScoreRight"
++ "ancFullLossScoreLeft"
++ "ancCleanLossScoreLeft"
 
 ```

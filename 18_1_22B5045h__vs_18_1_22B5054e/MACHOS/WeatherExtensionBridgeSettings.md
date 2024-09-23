@@ -41,8 +41,8 @@
 +  CStrings:  199
  
 CStrings:
-+ "areLocationServicesResolved"
 + "TB,R,N,GareLocationServicesResolved"
++ "areLocationServicesResolved"
 + "locationServicesResolved"
 
 ```

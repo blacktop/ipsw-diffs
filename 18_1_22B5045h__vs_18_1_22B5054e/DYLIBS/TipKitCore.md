@@ -80,17 +80,17 @@
 +  CStrings:  553
  
 CStrings:
-+ ") status was reset"
-+ "unable to reset unsaved Tip(id: "
-+ "ConstellationIngestor failed to run maintenance tasks for "
-+ "ContainerMonitor saving external change updates"
-+ "ContainerMonitor refreshed eligibility for CoreTip(id: "
++ "ConstellationIngestor deleting invalid tips for bundle: "
 + "hasRandomIdentifier"
 + ") failed to reset: "
-+ "ConstellationIngestor deleting invalid tips for bundle: "
-+ "TipsdUbiquitousStore deleting invalid tips"
++ "ContainerMonitor refreshed eligibility for CoreTip(id: "
 + "#/^[0-9A-F]{8}-[0-9A-F]{4}-[0-9A-F]{4}-[0-9A-F]{4}-[0-9A-F]{12}$/#"
++ "ContainerMonitor saving external change updates"
++ "ConstellationIngestor failed to run maintenance tasks for "
++ "TipsdUbiquitousStore deleting invalid tips"
++ "unable to reset unsaved Tip(id: "
 + "unable to initialize TipsdUbiquitousStore.shared"
++ ") status was reset"
 - "ContainerMonitor failed to save external changes: "
 
 ```

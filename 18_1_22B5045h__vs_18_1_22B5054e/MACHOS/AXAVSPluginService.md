@@ -51,15 +51,15 @@
 +  CStrings:  155
  
 Symbols:
-+ _objc_opt_class
 + _objc_opt_isKindOfClass
++ _objc_opt_class
 - _objc_release_x23
 CStrings:
 + "resumeListening"
-+ "avsShouldBeOn"
-+ "pauseListening"
-+ "_monitorAVSPausingSupport"
-+ "AVS support should resume"
 + "AVS support should be pausing"
++ "pauseListening"
++ "AVS support should resume"
++ "_monitorAVSPausingSupport"
++ "avsShouldBeOn"
 
 ```

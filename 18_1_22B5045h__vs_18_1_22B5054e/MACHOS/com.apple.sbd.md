@@ -58,14 +58,14 @@
 +  CStrings:  2739
  
 Symbols:
-+ _kSecureBackupKeybagSHA256Key
 + _CC_SHA256
++ _kSecureBackupKeybagSHA256Key
 CStrings:
-+ "sha256Digest"
-+ "=== Escrow record ===\nTime of escrow: %!@(MISSING)\nEscrow version: %!@(MISSING)\nKeybag SHA256: %!@(MISSING)\nKeybag digest: %!@(MISSING)"
 + "_rawPassword"
 + "rawPassword"
 + "T@\"NSString\",R,C,N,V_rawPassword"
++ "sha256Digest"
++ "=== Escrow record ===\nTime of escrow: %!@(MISSING)\nEscrow version: %!@(MISSING)\nKeybag SHA256: %!@(MISSING)\nKeybag digest: %!@(MISSING)"
 + "/\x0f\x02"
 - "=== Escrow record ===\nTime of escrow: %!@(MISSING)\nEscrow version: %!@(MISSING)\nKeybag digest: %!@(MISSING)"
 - "/\x0f\x01"

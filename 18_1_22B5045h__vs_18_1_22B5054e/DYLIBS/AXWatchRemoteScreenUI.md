@@ -64,9 +64,9 @@
 +  CStrings:  630
  
 CStrings:
-+ "AX_APPLE_WATCH_REMOTE_SCREEN_PHONE_LOCKED"
 + "v16@?0B8B12"
 + "screenLockStatus:passcodeStatusRequired:"
 + "[TWICE] Device is locked, showing error"
++ "AX_APPLE_WATCH_REMOTE_SCREEN_PHONE_LOCKED"
 
 ```

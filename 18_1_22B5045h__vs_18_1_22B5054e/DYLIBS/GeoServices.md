@@ -73,12 +73,12 @@
 +  CStrings:  73342
  
 CStrings:
-+ "Assertion failed: supportPoint != ((void *)0)"
 + "updateWithPersistentData:"
-+ "UpdateWithPersistentData"
-+ "_anchorPointFromRoute:supportPoint:itemIdentifier:"
 + "duplicateWithExistingAnchorPoint:"
 + "T@\"NSUUID\",R,N,V_storageID"
++ "Assertion failed: supportPoint != ((void *)0)"
++ "_anchorPointFromRoute:supportPoint:itemIdentifier:"
++ "UpdateWithPersistentData"
 - "T@\"NSUUID\",&,N,V_storageID"
 
 ```

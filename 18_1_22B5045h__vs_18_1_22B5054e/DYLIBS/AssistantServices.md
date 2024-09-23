@@ -80,33 +80,33 @@
  
 Symbols:
 + _AFSiriClientStateManagerTransactionReasonGetIsValidAndSpecified
-+ _AFHasGreenTeaCapability
++ _AFSiriClientStateManagerTransactionReasonGetName
++ _AFAssistantRestrictedWithReason
 + _AFSiriClientStateManagerTransactionReasonGetFromName
 + __AFPreferencesSearchQueriesDataSharingStatusIsForced
-+ _AFSiriClientStateManagerTransactionReasonGetName
++ _AFHasGreenTeaCapability
 + __AFPreferencesValueIsForcedWithContext
-+ _AFAssistantRestrictedWithReason
-+ _AFSiriClientStateManagerTransactionReasonGetIsValid
 + _AFPreferencesAssistantIsRestrictedWithReason
++ _AFSiriClientStateManagerTransactionReasonGetIsValid
 CStrings:
-+ "%!s(MISSING) Started transaction for reason: %!@(MISSING)"
-+ "%!s(MISSING) Checking if Search Queries Data Sharing status is configured by profile"
-+ "isSearchDataSharingStatusForced:"
-+ "-[AFSettingsConnection isSearchDataSharingStatusForced:]"
-+ "%!s(MISSING) Not begining transaction for reason: %!@(MISSING)"
-+ "%!s(MISSING) Ending transaction for reason: %!@(MISSING)"
-+ "failRequest"
 + "startRecording"
++ "-[AFSiriClientStateManager endTransactionForReason:]_block_invoke"
++ "-[AFSiriClientStateManager beginTransactionForReason:]_block_invoke"
++ "%!s(MISSING) Started transaction for reason: %!@(MISSING)"
++ "endTransactionForReason:"
++ "connectionFailed"
++ "%!s(MISSING) Not begining transaction for reason: %!@(MISSING)"
++ "failRequest"
++ "-[AFSettingsConnection isSearchDataSharingStatusForced:]"
++ "-[AFSettingsConnection isSearchDataSharingStatusForced:]_block_invoke"
++ "%!s(MISSING) Checking if Search Queries Data Sharing status is configured by profile"
++ "GREENTEA_"
++ "_shouldSetTurnIdentifierForRequest"
++ "isSearchDataSharingStatusForced:"
++ "green-tea"
 + "isSearchDataSharingStatusForced"
 + "beginTransactionForReason:"
-+ "green-tea"
-+ "-[AFSiriClientStateManager beginTransactionForReason:]_block_invoke"
-+ "GREENTEA_"
-+ "endTransactionForReason:"
-+ "-[AFSiriClientStateManager endTransactionForReason:]_block_invoke"
-+ "connectionFailed"
-+ "-[AFSettingsConnection isSearchDataSharingStatusForced:]_block_invoke"
-+ "_shouldSetTurnIdentifierForRequest"
++ "%!s(MISSING) Ending transaction for reason: %!@(MISSING)"
 - "-[AFSiriClientStateManager endTransaction]_block_invoke"
 - "hasBobbleCapability"
 

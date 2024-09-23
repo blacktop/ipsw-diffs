@@ -94,53 +94,53 @@
 +  CStrings:  2735
  
 Symbols:
-+ _UIFontTextStyleBody
-+ _kCAFilterColorSaturate
 + _swift_setAtReferenceWritableKeyPath
++ _UIFontTextStyleBody
 + _kCAFilterLuminanceCurveMap
-- _OBJC_CLASS_$_UIAlertController
-- _lrintf
++ _kCAFilterColorSaturate
 - _OBJC_CLASS_$_UIAlertAction
+- _lrintf
+- _OBJC_CLASS_$_UIAlertController
 CStrings:
-+ "playhead"
-+ "MediaCoreUI.WindowPropertiesReaderViewController"
-+ "snapshotColorAdjustmentsLayer"
-+ "MediaTimelineControl.Coordinator: did end tracking"
-+ "_TtCV11MediaCoreUI33NowPlayingArtworkBackgroundEffectP33_0BADDE1E8FA0478530CC88B691A6D29129SnapshotColorAdjustmentsLayer"
-+ "isConfiguredForSnapshot"
-+ "_TtC11MediaCoreUIP33_E92D59AEB5FF02FAFDF5606CD409BD2A36WindowPropertiesReaderViewController"
-+ "mask"
-+ "Optional<(BadgeConfiguration in _7D7F54989E0BD2C2C05089BF2F1B885F)>"
-+ "MediaCoreUI.SnapshotColorAdjustmentsLayer"
-+ "_maximumFramesPerSecond"
-+ "liveColorAdjustmentsLayer"
 + "_TtCV11MediaCoreUI33NowPlayingArtworkBackgroundEffectP33_0BADDE1E8FA0478530CC88B691A6D29125LiveColorAdjustmentsLayer"
-+ "currentTime"
++ "_TtC11MediaCoreUI16ScrubberPlayhead"
++ "preferredFontForTextStyle:"
 + "_displayScale"
 + "_TtCCV11MediaCoreUI33NowPlayingArtworkBackgroundEffectP33_0BADDE1E8FA0478530CC88B691A6D29129SnapshotColorAdjustmentsLayer4Mask"
-+ "_leadingTimestampTime"
-+ "preferredFontForTextStyle:"
-+ "_TtC11MediaCoreUI16ScrubberPlayhead"
-+ "timelineUpdateInterval"
++ "Optional<(BadgeConfiguration in _7D7F54989E0BD2C2C05089BF2F1B885F)>"
++ "snapshotColorAdjustmentsLayer"
++ "liveColorAdjustmentsLayer"
++ "MediaCoreUI.SnapshotColorAdjustmentsLayer"
 + "MediaCoreUI.LiveColorAdjustmentsLayer"
-+ "MediaCoreUI.Mask"
-+ "playheadPositionTimeLastSet"
++ "_TtC11MediaCoreUIP33_E92D59AEB5FF02FAFDF5606CD409BD2A36WindowPropertiesReaderViewController"
++ "_leadingTimestampTime"
++ "MediaCoreUI.WindowPropertiesReaderViewController"
++ "MediaTimelineControl.Coordinator: did end tracking"
++ "timelineUpdateInterval"
++ "_maximumFramesPerSecond"
 + "_playheadPositionTime"
 + "NowPlayingScrubberProgressAnimation"
-- "addAction:"
-- "Optional<(MarqueeBadgeModel in _7D7F54989E0BD2C2C05089BF2F1B885F)>"
++ "_TtCV11MediaCoreUI33NowPlayingArtworkBackgroundEffectP33_0BADDE1E8FA0478530CC88B691A6D29129SnapshotColorAdjustmentsLayer"
++ "playheadPositionTimeLastSet"
++ "isConfiguredForSnapshot"
++ "playhead"
++ "MediaCoreUI.Mask"
++ "currentTime"
++ "mask"
 - "_TtC11MediaCoreUI31WindowWidthReaderViewController"
-- "MediaCoreUI.WindowWidthReaderViewController"
-- "colorAdjustmentLayer"
-- "decelerationEndedObserver"
-- "alertControllerWithTitle:message:preferredStyle:"
-- "MediaTimelineControl.Coordinator: did end changing"
-- "[Context: %!{(MISSING)public}s] Marquee body evaluated"
-- "_scrubberCurrentTime"
-- "actionWithTitle:style:handler:"
-- "_TtCV11MediaCoreUI33NowPlayingArtworkBackgroundEffectP33_0BADDE1E8FA0478530CC88B691A6D29121ColorAdjustmentsLayer"
-- "didChangeValueSubject"
 - "MediaCoreUI.ColorAdjustmentsLayer"
+- "colorAdjustmentLayer"
+- "[Context: %!{(MISSING)public}s] Marquee body evaluated"
+- "alertControllerWithTitle:message:preferredStyle:"
+- "didChangeValueSubject"
 - "v16@?0@\"UIAlertAction\"8"
+- "MediaTimelineControl.Coordinator: did end changing"
+- "_scrubberCurrentTime"
+- "_TtCV11MediaCoreUI33NowPlayingArtworkBackgroundEffectP33_0BADDE1E8FA0478530CC88B691A6D29121ColorAdjustmentsLayer"
+- "actionWithTitle:style:handler:"
+- "addAction:"
+- "MediaCoreUI.WindowWidthReaderViewController"
+- "decelerationEndedObserver"
+- "Optional<(MarqueeBadgeModel in _7D7F54989E0BD2C2C05089BF2F1B885F)>"
 
 ```

@@ -67,20 +67,20 @@
 +  CStrings:  10968
  
 Symbols:
-+ _$s10Foundation3URLV4pathSSvg
 + _GKFriendRequestsBannerDisabled
++ _$s10Foundation3URLV4pathSSvg
 - _$s10Foundation3URLV13DirectoryHintO13inferFromPathyA2EmFWC
 - _$s10Foundation3URLV8filePath13directoryHint10relativeToACSS_AC09DirectoryF0OACSgtcfC
 CStrings:
-+ "Fetched primary iCloud player: %!@(MISSING)"
-+ "BulletinHelpers getImageDirectory failed to create directory: %!@(MISSING)"
-+ "getFriendRequestsBannerDataWithCompletion:"
-+ "No handler set by callers of primaryPlayerWithHandler."
-+ "Fetching required data for friend requests banner"
-+ "Friend requests banner has been disabled"
-+ "Failed to fetch the primary iCloud player with timeoutResult: %!l(MISSING)d, error: %!@(MISSING)"
-+ "BulletinHelpers getImageDirectory failed to get cache directory"
 + "URLsForDirectory:inDomains:"
++ "Fetching required data for friend requests banner"
++ "No handler set by callers of primaryPlayerWithHandler."
 + "getPrimaryPlayer"
++ "Failed to fetch the primary iCloud player with timeoutResult: %!l(MISSING)d, error: %!@(MISSING)"
++ "BulletinHelpers getImageDirectory failed to create directory: %!@(MISSING)"
++ "Fetched primary iCloud player: %!@(MISSING)"
++ "getFriendRequestsBannerDataWithCompletion:"
++ "BulletinHelpers getImageDirectory failed to get cache directory"
++ "Friend requests banner has been disabled"
 
 ```

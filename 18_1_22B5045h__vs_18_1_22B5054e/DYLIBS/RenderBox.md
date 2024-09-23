@@ -61,13 +61,13 @@ Symbols:
 + _RBPathGetLength
 + __tlv_bootstrap
 CStrings:
-+ "    queue %!p(MISSING) -> %!l(MISSING)lx\n"
-+ "  Surface %!p(MISSING); [%!d(MISSING) %!d(MISSING)]; IOSurface %!l(MISSING)x%!s(MISSING); owner %!p(MISSING); last used %!f(MISSING)\n"
-+ "  Resident: %!f(MISSING) MB (max %!f(MISSING)), volatile: %!f(MISSING) MB (max %!f(MISSING)).\n\n"
-+ "6.1.15"
 + " volatile"
++ "6.1.15"
++ "  Surface %!p(MISSING); [%!d(MISSING) %!d(MISSING)]; IOSurface %!l(MISSING)x%!s(MISSING); owner %!p(MISSING); last used %!f(MISSING)\n"
 + "  Erased Queue %!p(MISSING); deadline %!f(MISSING)\n"
++ "    queue %!p(MISSING) -> %!l(MISSING)lx\n"
 + "SurfacePool %!p(MISSING) at %!f(MISSING)\n"
++ "  Resident: %!f(MISSING) MB (max %!f(MISSING)), volatile: %!f(MISSING) MB (max %!f(MISSING)).\n\n"
 - "6.1.10"
 
 ```

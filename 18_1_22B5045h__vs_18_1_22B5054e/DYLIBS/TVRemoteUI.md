@@ -72,13 +72,13 @@
  
 CStrings:
 + "_seasonEpisodeFormatString"
-+ "S%!@(MISSING), E%!@(MISSING)"
-+ "TVRUISeasonEpisodeBrief"
-+ "_ratingsContainer"
-+ "ratingsContainer"
-+ "setRatingsContainer:"
 + "T@\"UIView\",&,N,V_ratingsContainer"
++ "S%!@(MISSING), E%!@(MISSING)"
++ "setRatingsContainer:"
++ "_ratingsContainer"
++ "TVRUISeasonEpisodeBrief"
 + "\x11\x1f\x01"
++ "ratingsContainer"
 - " S%!@(MISSING), E%!@(MISSING)"
 - "\x11\x1f"
 - " %!@(MISSING) "

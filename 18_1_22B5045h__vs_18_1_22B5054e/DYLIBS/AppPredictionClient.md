@@ -72,22 +72,22 @@
 +  CStrings:  12681
  
 CStrings:
++ "T@\"NSURL\",R,N"
++ "T@\"NSString\",&,V_stableContactIdentifier"
++ "T@\"NSString\",&,V_rawIdentifier"
++ "T@\"NSNumber\",R,N,V_value"
++ "initWithNavigationLink:"
++ "initWithProactiveSuggestion:action:date:navigationLink:"
 + "T@\"NSString\",&,V_cnContactId"
 + "T@\"NSString\",&,V_displayName"
-+ "T@\"NSNumber\",R,N,V_value"
-+ "T@\"NSString\",&,V_rawIdentifier"
-+ "T@\"NSURL\",R,N"
 + "ATXAppProtectionInfoProvider"
-+ "T@\"NSString\",&,V_stableContactIdentifier"
 + "action || navigationLink"
-+ "initWithProactiveSuggestion:action:date:navigationLink:"
-+ "initWithNavigationLink:"
-- "T@\"NSNumber\",C,N,V_value"
 - "T@\"NSString\",&,N,V_stableContactIdentifier"
-- "T@\"NSString\",&,N,V_displayName"
-- "initWithProactiveSuggestion:action:date:"
-- "T@\"NSString\",&,N,V_cnContactId"
+- "T@\"NSNumber\",C,N,V_value"
 - "action != nil"
+- "T@\"NSString\",&,N,V_displayName"
+- "T@\"NSString\",&,N,V_cnContactId"
+- "initWithProactiveSuggestion:action:date:"
 - "T@\"NSString\",&,N,V_rawIdentifier"
 
 ```

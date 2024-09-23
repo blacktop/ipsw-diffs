@@ -63,35 +63,35 @@
 +  CStrings:  1047
  
 Symbols:
-+ _OBJC_METACLASS_$_VideosUI_QueryDescriptionBarAccessibility
++ _OBJC_CLASS_$___VideosUI_AttributionTextViewUIKitAccessibility_super
 + _OBJC_CLASS_$_VideosUI_AttributionTextViewUIKitAccessibility
++ _OBJC_CLASS_$___VideosUI_QueryDescriptionBannerViewCellAccessibility_super
++ _OBJC_CLASS_$_VideosUI_QueryDescriptionBannerViewCellAccessibility
++ _OBJC_METACLASS_$_VideosUI_QueryDescriptionBarAccessibility
 + _OBJC_METACLASS_$_VideosUI_QueryDescriptionBannerViewCellAccessibility
 + _OBJC_METACLASS_$___VideosUI_QueryDescriptionBarAccessibility_super
-+ _OBJC_CLASS_$___VideosUI_QueryDescriptionBannerViewCellAccessibility_super
-+ _OBJC_METACLASS_$_VideosUI_AttributionTextViewUIKitAccessibility
-+ _OBJC_CLASS_$_VideosUI_QueryDescriptionBarAccessibility
 + _OBJC_METACLASS_$___VideosUI_QueryDescriptionBannerViewCellAccessibility_super
 + _OBJC_CLASS_$___VideosUI_QueryDescriptionBarAccessibility_super
++ _OBJC_CLASS_$_VideosUI_QueryDescriptionBarAccessibility
++ _OBJC_METACLASS_$_VideosUI_AttributionTextViewUIKitAccessibility
 + _OBJC_METACLASS_$___VideosUI_AttributionTextViewUIKitAccessibility_super
-+ _OBJC_CLASS_$_VideosUI_QueryDescriptionBannerViewCellAccessibility
-+ _OBJC_CLASS_$___VideosUI_AttributionTextViewUIKitAccessibility_super
 CStrings:
-+ "queryDescriptionBannerText"
-+ "VideosUI.QueryDescriptionBannerViewCell"
-+ "singlePressWithGesture:"
-+ "@16@?0@\"UIView\"8"
-+ "Optional<PlatformView>"
-+ "textView"
-+ "VideosUI_QueryDescriptionBannerViewCellAccessibility"
-+ "__VideosUI_QueryDescriptionBannerViewCellAccessibility_super"
-+ "VideosUI.AttributionTextViewUIKit"
-+ "additionalInfoView"
-+ "additionalInformationView"
-+ "__VideosUI_QueryDescriptionBarAccessibility_super"
-+ "resultsContextLabel"
-+ "VideosUI.QueryDescriptionBar"
-+ "VideosUI_AttributionTextViewUIKitAccessibility"
-+ "__VideosUI_AttributionTextViewUIKitAccessibility_super"
 + "VideosUI_QueryDescriptionBarAccessibility"
++ "__VideosUI_AttributionTextViewUIKitAccessibility_super"
++ "VideosUI.QueryDescriptionBar"
++ "additionalInfoView"
++ "Optional<PlatformView>"
++ "resultsContextLabel"
++ "singlePressWithGesture:"
++ "VideosUI_QueryDescriptionBannerViewCellAccessibility"
++ "VideosUI.QueryDescriptionBannerViewCell"
++ "__VideosUI_QueryDescriptionBannerViewCellAccessibility_super"
++ "VideosUI_AttributionTextViewUIKitAccessibility"
++ "@16@?0@\"UIView\"8"
++ "textView"
++ "VideosUI.AttributionTextViewUIKit"
++ "__VideosUI_QueryDescriptionBarAccessibility_super"
++ "additionalInformationView"
++ "queryDescriptionBannerText"
 
 ```

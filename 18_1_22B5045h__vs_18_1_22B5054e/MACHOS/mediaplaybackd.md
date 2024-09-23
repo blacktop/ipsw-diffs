@@ -36,7 +36,7 @@ Symbols:
 - ___CFConstantStringClassReference
 - _fig_note_initialize_category_with_default_work_cf
 CStrings:
-- "mediaplaybackd_trace"
 - "com.apple.coremedia"
+- "mediaplaybackd_trace"
 
 ```

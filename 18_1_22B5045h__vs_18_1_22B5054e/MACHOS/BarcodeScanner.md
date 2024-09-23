@@ -50,8 +50,8 @@
  
 Symbols:
 + _OBJC_CLASS_$_NSNotificationCenter
-+ _BCSDidLaunchFromControlNotification
 + _objc_retainAutoreleasedReturnValue
++ _BCSDidLaunchFromControlNotification
 CStrings:
 + "defaultCenter"
 + "postNotificationName:object:"

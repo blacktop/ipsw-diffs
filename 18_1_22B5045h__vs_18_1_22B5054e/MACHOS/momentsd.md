@@ -57,91 +57,91 @@
 +  CStrings:  13716
  
 Symbols:
-+ __64-[MOBiomeManager _fetchAndSetDemographicsWithCompletionHandler:]_block_invoke.657
-+ __block_literal_global.474
-+ __61-[MOHealthKitManager _updateWorkoutsDeletedAtSource:handler:]_block_invoke.431.cold.1
-+ __82-[MOBiomeManager fetchMomentsEventDataBetweenStartDate:EndDate:CompletionHandler:]_block_invoke.651
-+ __61-[MOHealthKitManager _updateWorkoutsDeletedAtSource:handler:]_block_invoke.434
-+ +[MOEngagementAndSuggestionAnalyticsParams aggregatedEngagementAnalyticsAddressMap]
-+ __112-[MOEngagementAndSuggestionAnalyticsManager submitEngagementAnalyticsWithOnboardingStatus:AndCompletionHandler:]_block_invoke_2.202
-+ __49-[MOHealthKitManager _rehydrateWorkouts:handler:]_block_invoke.418
-+ __82-[MOHealthKitManager fetchAndSaveMindfulSessionsBetweenStartDate:EndDate:handler:]_block_invoke.436
-+ __49-[MOBiomeManager _updateDataStreamWithEngagement]_block_invoke.644
-+ _objc_msgSend$aggregatedEngagementAnalyticsAddressMap
-+ __112-[MOEngagementAndSuggestionAnalyticsManager submitEngagementAnalyticsWithOnboardingStatus:AndCompletionHandler:]_block_invoke.204
-+ __64-[MOBiomeManager _fetchAndSetDemographicsWithCompletionHandler:]_block_invoke.667
-+ __69-[MOBiomeManager fetchMomentsEngagementForBundles:CompletionHandler:]_block_invoke.648
-+ __52-[MOHealthKitManager _rehydrateStateOfMind:handler:]_block_invoke.422
-+ __52-[MOHealthKitManager _rehydrateStateOfMind:handler:]_block_invoke.421.cold.1
-+ __50-[MOHealthKitManager _fetchLocationsFrom:handler:]_block_invoke.430.cold.1
-+ __50-[MOHealthKitManager _fetchLocationsFrom:handler:]_block_invoke.430
-+ ___block_descriptor_128_e8_32s40s48s56s64s72s80s88s96s104r112r_e35_v32?0"NSNumber"8"NSNumber"16^B24ls32l8s40l8s48l8s56l8r104l8s64l8s72l8s80l8s88l8s96l8r112l8
-+ __50-[MOHealthKitManager _fetchLocationsFrom:handler:]_block_invoke.429
-+ __82-[MOBiomeManager fetchMomentsEventDataBetweenStartDate:EndDate:CompletionHandler:]_block_invoke_2.652
-+ __112-[MOEngagementAndSuggestionAnalyticsManager submitEngagementAnalyticsWithOnboardingStatus:AndCompletionHandler:]_block_invoke.237
-+ __49-[MOHealthKitManager _rehydrateWorkouts:handler:]_block_invoke.419
-+ __45-[MOTrendsAnalyzer(Metrics) setCommonFields:]_block_invoke.581
-+ __112-[MOEngagementAndSuggestionAnalyticsManager submitEngagementAnalyticsWithOnboardingStatus:AndCompletionHandler:]_block_invoke.188
-+ __140-[MOEngagementAndSuggestionAnalyticsManager _submitSuggestionPerformanceAnalyticsFromEventBundles:WithOnboardingStatus:andCompletionResult:]_block_invoke.253
-+ __37-[MOPromptMetrics getAndSetAgeGender]_block_invoke.1906
-+ __66-[MOHealthKitManager _rehydrateStoredEvents:fromWorkouts:handler:]_block_invoke.427
-+ __61-[MOHealthKitManager _updateWorkoutsDeletedAtSource:handler:]_block_invoke.433
-+ __49-[MOHealthKitManager _rehydrateWorkouts:handler:]_block_invoke.418.cold.1
-+ __61-[MOHealthKitManager _updateWorkoutsDeletedAtSource:handler:]_block_invoke.433.cold.1
-+ __95-[MOHealthKitManager _fetchStateOfMindEventsBetweenStartDate:endDate:withStoredEvents:handler:]_block_invoke.462
 + __75-[MOHealthKitManager fetchAndSaveWorkoutsBetweenStartDate:EndDate:handler:]_block_invoke.435
-+ __52-[MOHealthKitManager _rehydrateStateOfMind:handler:]_block_invoke.421
-+ __136-[MOEngagementAndSuggestionAnalyticsManager submitEngagementAndSuggestionPerformanceAnalyticsWithOnboardingStatus:AndCompletionHandler:]_block_invoke.112
 + __64-[MOBiomeManager _fetchAndSetDemographicsWithCompletionHandler:]_block_invoke.682
-+ __91-[MOHealthKitManager _fetchWorkoutEventsBetweenStartDate:endDate:withStoredEvents:handler:]_block_invoke.461
-+ __62-[MOBiomeManager donateEvents:andBundles:andOnboardingStatus:]_block_invoke.628
++ __64-[MOBiomeManager _fetchAndSetDemographicsWithCompletionHandler:]_block_invoke.667
++ __52-[MOHealthKitManager _rehydrateStateOfMind:handler:]_block_invoke.421.cold.1
++ __block_literal_global.474
++ __82-[MOBiomeManager fetchMomentsEventDataBetweenStartDate:EndDate:CompletionHandler:]_block_invoke.651
++ __66-[MOHealthKitManager _rehydrateStoredEvents:fromWorkouts:handler:]_block_invoke.427
++ __45-[MOTrendsAnalyzer(Metrics) setCommonFields:]_block_invoke.581
 + __140-[MOEngagementAndSuggestionAnalyticsManager _submitSuggestionPerformanceAnalyticsFromEventBundles:WithOnboardingStatus:andCompletionResult:]_block_invoke.255
-- __61-[MOHealthKitManager _updateWorkoutsDeletedAtSource:handler:]_block_invoke.430
-- __61-[MOHealthKitManager _updateWorkoutsDeletedAtSource:handler:]_block_invoke.430.cold.1
-- __61-[MOHealthKitManager _updateWorkoutsDeletedAtSource:handler:]_block_invoke.428
-- __66-[MOHealthKitManager _rehydrateStoredEvents:fromWorkouts:handler:]_block_invoke.424
-- __82-[MOBiomeManager fetchMomentsEventDataBetweenStartDate:EndDate:CompletionHandler:]_block_invoke.648
-- __61-[MOHealthKitManager _updateWorkoutsDeletedAtSource:handler:]_block_invoke.428.cold.1
-- __75-[MOHealthKitManager fetchAndSaveWorkoutsBetweenStartDate:EndDate:handler:]_block_invoke.432
-- __64-[MOBiomeManager _fetchAndSetDemographicsWithCompletionHandler:]_block_invoke.679
-- __112-[MOEngagementAndSuggestionAnalyticsManager submitEngagementAnalyticsWithOnboardingStatus:AndCompletionHandler:]_block_invoke.240
++ _objc_msgSend$aggregatedEngagementAnalyticsAddressMap
++ __50-[MOHealthKitManager _fetchLocationsFrom:handler:]_block_invoke.429
++ __61-[MOHealthKitManager _updateWorkoutsDeletedAtSource:handler:]_block_invoke.434
++ __112-[MOEngagementAndSuggestionAnalyticsManager submitEngagementAnalyticsWithOnboardingStatus:AndCompletionHandler:]_block_invoke.204
++ __82-[MOHealthKitManager fetchAndSaveMindfulSessionsBetweenStartDate:EndDate:handler:]_block_invoke.436
++ __112-[MOEngagementAndSuggestionAnalyticsManager submitEngagementAnalyticsWithOnboardingStatus:AndCompletionHandler:]_block_invoke.188
++ __49-[MOHealthKitManager _rehydrateWorkouts:handler:]_block_invoke.418.cold.1
++ __62-[MOBiomeManager donateEvents:andBundles:andOnboardingStatus:]_block_invoke.628
++ __112-[MOEngagementAndSuggestionAnalyticsManager submitEngagementAnalyticsWithOnboardingStatus:AndCompletionHandler:]_block_invoke_2.202
++ __50-[MOHealthKitManager _fetchLocationsFrom:handler:]_block_invoke.430.cold.1
++ __69-[MOBiomeManager fetchMomentsEngagementForBundles:CompletionHandler:]_block_invoke.648
++ +[MOEngagementAndSuggestionAnalyticsParams aggregatedEngagementAnalyticsAddressMap]
++ __91-[MOHealthKitManager _fetchWorkoutEventsBetweenStartDate:endDate:withStoredEvents:handler:]_block_invoke.461
++ __95-[MOHealthKitManager _fetchStateOfMindEventsBetweenStartDate:endDate:withStoredEvents:handler:]_block_invoke.462
++ __61-[MOHealthKitManager _updateWorkoutsDeletedAtSource:handler:]_block_invoke.433
++ __64-[MOBiomeManager _fetchAndSetDemographicsWithCompletionHandler:]_block_invoke.657
++ __52-[MOHealthKitManager _rehydrateStateOfMind:handler:]_block_invoke.422
++ __61-[MOHealthKitManager _updateWorkoutsDeletedAtSource:handler:]_block_invoke.433.cold.1
++ __49-[MOHealthKitManager _rehydrateWorkouts:handler:]_block_invoke.419
++ __52-[MOHealthKitManager _rehydrateStateOfMind:handler:]_block_invoke.421
++ __61-[MOHealthKitManager _updateWorkoutsDeletedAtSource:handler:]_block_invoke.431.cold.1
++ __82-[MOBiomeManager fetchMomentsEventDataBetweenStartDate:EndDate:CompletionHandler:]_block_invoke_2.652
++ __140-[MOEngagementAndSuggestionAnalyticsManager _submitSuggestionPerformanceAnalyticsFromEventBundles:WithOnboardingStatus:andCompletionResult:]_block_invoke.253
++ __136-[MOEngagementAndSuggestionAnalyticsManager submitEngagementAndSuggestionPerformanceAnalyticsWithOnboardingStatus:AndCompletionHandler:]_block_invoke.112
++ __112-[MOEngagementAndSuggestionAnalyticsManager submitEngagementAnalyticsWithOnboardingStatus:AndCompletionHandler:]_block_invoke.237
++ __50-[MOHealthKitManager _fetchLocationsFrom:handler:]_block_invoke.430
++ __49-[MOBiomeManager _updateDataStreamWithEngagement]_block_invoke.644
++ ___block_descriptor_128_e8_32s40s48s56s64s72s80s88s96s104r112r_e35_v32?0"NSNumber"8"NSNumber"16^B24ls32l8s40l8s48l8s56l8r104l8s64l8s72l8s80l8s88l8s96l8r112l8
++ __37-[MOPromptMetrics getAndSetAgeGender]_block_invoke.1906
++ __49-[MOHealthKitManager _rehydrateWorkouts:handler:]_block_invoke.418
 - __64-[MOBiomeManager _fetchAndSetDemographicsWithCompletionHandler:]_block_invoke.664
-- __62-[MOBiomeManager donateEvents:andBundles:andOnboardingStatus:]_block_invoke.625
-- __37-[MOPromptMetrics getAndSetAgeGender]_block_invoke.1903
-- __136-[MOEngagementAndSuggestionAnalyticsManager submitEngagementAndSuggestionPerformanceAnalyticsWithOnboardingStatus:AndCompletionHandler:]_block_invoke.115
-- __95-[MOHealthKitManager _fetchStateOfMindEventsBetweenStartDate:endDate:withStoredEvents:handler:]_block_invoke.459
-- __50-[MOHealthKitManager _fetchLocationsFrom:handler:]_block_invoke.427
-- ___block_descriptor_120_e8_32s40s48s56s64s72s80s88s96r104r_e35_v32?0"NSNumber"8"NSNumber"16^B24ls32l8s40l8s48l8r96l8s56l8s64l8s72l8s80l8s88l8r104l8
-- __52-[MOHealthKitManager _rehydrateStateOfMind:handler:]_block_invoke.418
-- __69-[MOBiomeManager fetchMomentsEngagementForBundles:CompletionHandler:]_block_invoke.645
-- __82-[MOHealthKitManager fetchAndSaveMindfulSessionsBetweenStartDate:EndDate:handler:]_block_invoke.433
-- __140-[MOEngagementAndSuggestionAnalyticsManager _submitSuggestionPerformanceAnalyticsFromEventBundles:WithOnboardingStatus:andCompletionResult:]_block_invoke.256
-- __50-[MOHealthKitManager _fetchLocationsFrom:handler:]_block_invoke.426
-- __52-[MOHealthKitManager _rehydrateStateOfMind:handler:]_block_invoke.418.cold.1
-- __64-[MOBiomeManager _fetchAndSetDemographicsWithCompletionHandler:]_block_invoke.654
-- __140-[MOEngagementAndSuggestionAnalyticsManager _submitSuggestionPerformanceAnalyticsFromEventBundles:WithOnboardingStatus:andCompletionResult:]_block_invoke.258
-- __82-[MOBiomeManager fetchMomentsEventDataBetweenStartDate:EndDate:CompletionHandler:]_block_invoke_2.649
-- __52-[MOHealthKitManager _rehydrateStateOfMind:handler:]_block_invoke.419
-- __91-[MOHealthKitManager _fetchWorkoutEventsBetweenStartDate:endDate:withStoredEvents:handler:]_block_invoke.458
-- __49-[MOHealthKitManager _rehydrateWorkouts:handler:]_block_invoke.415.cold.1
-- __50-[MOHealthKitManager _fetchLocationsFrom:handler:]_block_invoke.427.cold.1
-- __112-[MOEngagementAndSuggestionAnalyticsManager submitEngagementAnalyticsWithOnboardingStatus:AndCompletionHandler:]_block_invoke.191
-- __112-[MOEngagementAndSuggestionAnalyticsManager submitEngagementAnalyticsWithOnboardingStatus:AndCompletionHandler:]_block_invoke.207
-- __49-[MOHealthKitManager _rehydrateWorkouts:handler:]_block_invoke.416
 - __112-[MOEngagementAndSuggestionAnalyticsManager submitEngagementAnalyticsWithOnboardingStatus:AndCompletionHandler:]_block_invoke_2.205
 - __45-[MOTrendsAnalyzer(Metrics) setCommonFields:]_block_invoke.578
-- __49-[MOHealthKitManager _rehydrateWorkouts:handler:]_block_invoke.415
+- __62-[MOBiomeManager donateEvents:andBundles:andOnboardingStatus:]_block_invoke.625
+- __112-[MOEngagementAndSuggestionAnalyticsManager submitEngagementAnalyticsWithOnboardingStatus:AndCompletionHandler:]_block_invoke.240
+- __49-[MOHealthKitManager _rehydrateWorkouts:handler:]_block_invoke.415.cold.1
+- ___block_descriptor_120_e8_32s40s48s56s64s72s80s88s96r104r_e35_v32?0"NSNumber"8"NSNumber"16^B24ls32l8s40l8s48l8r96l8s56l8s64l8s72l8s80l8s88l8r104l8
+- __50-[MOHealthKitManager _fetchLocationsFrom:handler:]_block_invoke.427
+- __52-[MOHealthKitManager _rehydrateStateOfMind:handler:]_block_invoke.419
+- __66-[MOHealthKitManager _rehydrateStoredEvents:fromWorkouts:handler:]_block_invoke.424
+- __112-[MOEngagementAndSuggestionAnalyticsManager submitEngagementAnalyticsWithOnboardingStatus:AndCompletionHandler:]_block_invoke.207
 - __49-[MOBiomeManager _updateDataStreamWithEngagement]_block_invoke.641
+- __69-[MOBiomeManager fetchMomentsEngagementForBundles:CompletionHandler:]_block_invoke.645
+- __82-[MOBiomeManager fetchMomentsEventDataBetweenStartDate:EndDate:CompletionHandler:]_block_invoke.648
+- __64-[MOBiomeManager _fetchAndSetDemographicsWithCompletionHandler:]_block_invoke.679
+- __91-[MOHealthKitManager _fetchWorkoutEventsBetweenStartDate:endDate:withStoredEvents:handler:]_block_invoke.458
+- __112-[MOEngagementAndSuggestionAnalyticsManager submitEngagementAnalyticsWithOnboardingStatus:AndCompletionHandler:]_block_invoke.191
+- __61-[MOHealthKitManager _updateWorkoutsDeletedAtSource:handler:]_block_invoke.428.cold.1
+- __49-[MOHealthKitManager _rehydrateWorkouts:handler:]_block_invoke.416
+- __50-[MOHealthKitManager _fetchLocationsFrom:handler:]_block_invoke.426
+- __52-[MOHealthKitManager _rehydrateStateOfMind:handler:]_block_invoke.418
+- __140-[MOEngagementAndSuggestionAnalyticsManager _submitSuggestionPerformanceAnalyticsFromEventBundles:WithOnboardingStatus:andCompletionResult:]_block_invoke.256
+- __61-[MOHealthKitManager _updateWorkoutsDeletedAtSource:handler:]_block_invoke.430.cold.1
+- __52-[MOHealthKitManager _rehydrateStateOfMind:handler:]_block_invoke.418.cold.1
+- __136-[MOEngagementAndSuggestionAnalyticsManager submitEngagementAndSuggestionPerformanceAnalyticsWithOnboardingStatus:AndCompletionHandler:]_block_invoke.115
+- __61-[MOHealthKitManager _updateWorkoutsDeletedAtSource:handler:]_block_invoke.430
+- __61-[MOHealthKitManager _updateWorkoutsDeletedAtSource:handler:]_block_invoke.428
+- __95-[MOHealthKitManager _fetchStateOfMindEventsBetweenStartDate:endDate:withStoredEvents:handler:]_block_invoke.459
+- __82-[MOBiomeManager fetchMomentsEventDataBetweenStartDate:EndDate:CompletionHandler:]_block_invoke_2.649
+- __140-[MOEngagementAndSuggestionAnalyticsManager _submitSuggestionPerformanceAnalyticsFromEventBundles:WithOnboardingStatus:andCompletionResult:]_block_invoke.258
+- __49-[MOHealthKitManager _rehydrateWorkouts:handler:]_block_invoke.415
+- __82-[MOHealthKitManager fetchAndSaveMindfulSessionsBetweenStartDate:EndDate:handler:]_block_invoke.433
+- __50-[MOHealthKitManager _fetchLocationsFrom:handler:]_block_invoke.427.cold.1
+- __75-[MOHealthKitManager fetchAndSaveWorkoutsBetweenStartDate:EndDate:handler:]_block_invoke.432
+- __64-[MOBiomeManager _fetchAndSetDemographicsWithCompletionHandler:]_block_invoke.654
+- __37-[MOPromptMetrics getAndSetAgeGender]_block_invoke.1903
 CStrings:
 + "aggregatedEngagementAnalyticsAddressMap"
-+ "Journal entry engagement analytics result was submitted to: %!@(MISSING), Analytics event: %!@(MISSING)"
 + "com.apple.Moments.EngagementAggregatedMetricsTwentyEightDay"
 + "Engagement and suggestion analytics were never submitted. Setting analyticsSubmissionDate to now to hold out for the next 28 days"
-+ "com.apple.Moments.EngagementAggregatedMetricsOneDay"
++ "Journal entry engagement analytics result was submitted to: %!@(MISSING), Analytics event: %!@(MISSING)"
 + "com.apple.Moments.EngagementAggregatedMetricsSevenDay"
++ "com.apple.Moments.EngagementAggregatedMetricsOneDay"
+- "Suggestion engagement analytics result was submitted: %!@(MISSING)"
 - "Engagement and suggestion analytics were never submitted. Attempting to submit new analytics"
 - "com.apple.Moments.EngagementAggregatedMetrics"
 - "Journal entry engagement analytics result was submitted: %!@(MISSING)"
-- "Suggestion engagement analytics result was submitted: %!@(MISSING)"
 
 ```

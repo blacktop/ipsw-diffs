@@ -73,29 +73,29 @@
 +  CStrings:  1897
  
 Symbols:
-- _fread
-- _ftell
-- _swift_taskGroup_wait_next_throwing
-- _fseek
+- _rewind
 - __availability_version_check
-- _fclose
-- _fopen
+- _fseek
+- _fread
+- _swift_taskGroup_wait_next_throwing
+- _ftell
 - _dispatch_once_f
 - _sscanf
-- _rewind
+- _fclose
+- _fopen
 CStrings:
 - "r"
-- "CFPropertyListCreateFromXMLData"
-- "CFStringGetCString"
+- "CFPropertyListCreateWithData"
 - "kCFAllocatorNull"
-- "CFDataCreateWithBytesNoCopy"
-- "CFRelease"
-- "CFStringCreateWithCStringNoCopy"
+- "%!d(MISSING).%!d(MISSING).%!d(MISSING)"
 - "CFStringGetTypeID"
 - "CFDictionaryGetValue"
-- "%!d(MISSING).%!d(MISSING).%!d(MISSING)"
-- "CFGetTypeID"
-- "CFPropertyListCreateWithData"
+- "CFStringGetCString"
 - "/System/Library/CoreServices/SystemVersion.plist"
+- "CFDataCreateWithBytesNoCopy"
+- "CFGetTypeID"
+- "CFStringCreateWithCStringNoCopy"
+- "CFPropertyListCreateFromXMLData"
+- "CFRelease"
 
 ```

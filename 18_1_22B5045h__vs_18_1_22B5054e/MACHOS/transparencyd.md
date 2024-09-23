@@ -56,8 +56,8 @@
 +  CStrings:  10733
  
 CStrings:
-+ "startSyncOp"
 + "timingOutSyncOp"
++ "startSyncOp"
 + "kvsOptInState"
 
 ```

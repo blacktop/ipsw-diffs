@@ -55,11 +55,11 @@
 +  CStrings:  3706
  
 CStrings:
++ "ShouldTriggerDeviceRecordOpLockFailureInBackupCommit"
 + "shouldTriggerDeviceRecordOpLockFailureInBackupCommit"
-+ "AddRepairDomainToMBCKDevice"
-+ "Domain name cannot contain a slash"
 + "containsString:"
 + "addRepairDomainToMBCKDevice"
-+ "ShouldTriggerDeviceRecordOpLockFailureInBackupCommit"
++ "AddRepairDomainToMBCKDevice"
++ "Domain name cannot contain a slash"
 
 ```

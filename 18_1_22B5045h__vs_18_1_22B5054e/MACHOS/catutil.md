@@ -18,11 +18,11 @@
    __TEXT.__unwind_info: 0x1a18
    __DATA_CONST.__auth_got: 0xb40
 CStrings:
-+ "3401.2.1"
 + "5.1"
 + "CAT file command line utility. Version 3401.2.1.\n"
++ "3401.2.1"
 - "CAT file command line utility. Version 3400.54.1.\n"
-- "5.0"
 - "3400.54.1"
+- "5.0"
 
 ```

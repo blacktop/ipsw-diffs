@@ -48,11 +48,11 @@
 Symbols:
 + _OBJC_CLASS_$_PKPeerPaymentMessageLocalProperties
 CStrings:
-+ "reportMessageSentWithLocalProperties:"
-+ "initWithSource:"
 + "setLocalProperties:"
++ "reportMessageSentWithLocalProperties:"
 + "localProperties"
-- "reportMessageSent"
++ "initWithSource:"
 - "setSource:"
+- "reportMessageSent"
 
 ```

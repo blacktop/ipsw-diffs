@@ -56,9 +56,9 @@
 +  CStrings:  2200
  
 CStrings:
-+ "hearingAssistEnrolled"
 + "kBluetoothAudioDeviceFeatureHearingAssistCapability"
 + "hearingAssistCapability"
++ "hearingAssistEnrolled"
 + "hearingAssistEnabled"
 
 ```

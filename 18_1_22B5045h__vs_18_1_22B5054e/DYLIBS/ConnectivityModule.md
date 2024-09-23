@@ -80,33 +80,33 @@
 Symbols:
 + _OBJC_CLASS_$_NSAssertionHandler
 + _free
-+ _dlsym
 + __sl_dlopen
++ _dlsym
 + _dlerror
 - _WFSignalBarsFromScaledRSSI
 CStrings:
 + "_systemImageNamed:"
-+ "personalhotspot"
-+ "void *WiFiKitUILibrary(void)"
-+ "%!s(MISSING)"
-+ "[Hotspot] Updated state [ inoperative: %!d(MISSING) enabled: %!d(MISSING) discoverable: %!d(MISSING) connections: %!d(MISSING) ]"
-+ "NSUInteger _WFSignalBarsFromScaledRSSI(float)"
-+ "TB,N,GisDiscoverable,V_discoverable"
-+ "currentHandler"
 + "softlink:r:path:/System/Library/PrivateFrameworks/WiFiKitUI.framework/WiFiKitUI"
-+ "personalhotspot.slash"
++ "CCUIWiFiMenuModuleViewController.m"
++ "NSUInteger _WFSignalBarsFromScaledRSSI(float)"
++ "[Hotspot] Updated state [ inoperative: %!d(MISSING) enabled: %!d(MISSING) discoverable: %!d(MISSING) connections: %!d(MISSING) ]"
++ "%!s(MISSING)"
++ "void *WiFiKitUILibrary(void)"
++ "personalhotspot"
++ "currentHandler"
 + "_glyphImageForCurrentState"
 + "WFSignalBarsFromScaledRSSI"
-+ "CCUIWiFiMenuModuleViewController.m"
 + "handleFailureInFunction:file:lineNumber:description:"
-- "available"
-- "CONTROL_CENTER_STATUS_HOTSPOT_ON"
-- "[Hotspot] Updated state [ inoperative: %!d(MISSING) available: %!d(MISSING) enabled: %!d(MISSING) discoverable: %!d(MISSING) connections: %!d(MISSING) ]"
-- "setAvailable:"
-- "_available"
-- "HotspotGlyph"
-- "TB,GisDiscoverable,V_discoverable"
++ "TB,N,GisDiscoverable,V_discoverable"
++ "personalhotspot.slash"
 - "isAvailable"
+- "setAvailable:"
 - "TB,N,GisAvailable,V_available"
+- "CONTROL_CENTER_STATUS_HOTSPOT_ON"
+- "_available"
+- "[Hotspot] Updated state [ inoperative: %!d(MISSING) available: %!d(MISSING) enabled: %!d(MISSING) discoverable: %!d(MISSING) connections: %!d(MISSING) ]"
+- "HotspotGlyph"
+- "available"
+- "TB,GisDiscoverable,V_discoverable"
 
 ```

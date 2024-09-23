@@ -55,8 +55,8 @@
 Symbols:
 - _objc_opt_new
 CStrings:
-+ "_rawParameters"
 + "\x01\x13\x13"
++ "_rawParameters"
 + "rawParameters"
 + "setRawParameters:"
 + "T@\"NSDictionary\",&,N,V_rawParameters"

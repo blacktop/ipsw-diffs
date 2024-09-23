@@ -81,47 +81,47 @@
 +  CStrings:  3654
  
 Symbols:
-+ _OBJC_METACLASS_$_SiriQuickTypeGestureSource
 + _OBJC_METACLASS_$_SASRequestSourceTransport
++ _OBJC_CLASS_$_SASPreheatOptions
++ _OBJC_METACLASS_$_SiriQuickTypeGestureSource
++ _OBJC_CLASS_$_SiriQuickTypeGestureSource
 + _OBJC_CLASS_$_SASRequestSourceTransport
 + _OBJC_METACLASS_$_SASPreheatOptions
-+ _OBJC_CLASS_$_SASPreheatOptions
-+ _OBJC_CLASS_$_SiriQuickTypeGestureSource
 CStrings:
-+ "-[SiriQuickTypeGestureSource configureConnection]_block_invoke_2"
-+ "@32@0:8q16Q24"
-+ "SASRequestSource"
-+ "SASPreheatOptionsRequestSourceCodingKey"
-+ "%!s(MISSING) #activation #quickTypeGate prewarm"
-+ "prewarmForFirstTapOfQuickTypeToSiriGesture"
-+ "%!s(MISSING) #activation #quickTypeGate Quick Type-to-Siri prewarm request, current request state: %!@(MISSING)"
-+ "SiriQuickTypeGestureSource.ActivityAssertion"
-+ "-[SiriActivationService cancelPrewarmForFirstTapOfQuickTypeToSiriGesture]"
-+ "%!s(MISSING) #activation #preheat preheatNextPresentationToActivateWithOptions: %!@(MISSING)"
-+ "initWithSASRequestSource:"
-+ "SASPreheatOptions"
-+ "-[SASPresentationManager preheatNextPresentationToActivateWithOptions:]"
-+ "Vv24@0:8@\"SASPreheatOptions\"16"
-+ "preheatWithOptions:"
-+ "%!s(MISSING) #activation #quickTypeGate cancel prewarm"
-+ "<%!@(MISSING) %!p(MISSING); requestSource=%!@(MISSING); lockState=%!@(MISSING)>"
-+ "SASPreheatOptionsLockStateCodingKey"
-+ "SASRequestSourceTransport"
-+ "preheatNextPresentationToActivateWithOptions:"
-+ "-[SASSignalServer cancelPrewarmForFirstTapOfQuickTypeToSiriGesture]"
-+ "SiriQuickTypeGestureSource"
-+ "-[SiriQuickTypeGestureSource configureConnection]_block_invoke"
-+ "prewarm"
-+ "-[SiriActivationService prewarmForFirstTapOfQuickTypeToSiriGesture]"
-+ "SASRequestSourceTransport:%!@(MISSING)"
-+ "initWithRequestSource:lockState:"
-+ "%!s(MISSING) #activation #quickTypeGate Cancel Quick Type-to-Siri prewarm request, current request state: %!@(MISSING)"
-+ "cancelPrewarmForFirstTapOfQuickTypeToSiriGesture"
 + "SiriQuickTypeGestureSource.ActivityAssertionReason.Prepare"
++ "SASRequestSourceTransport:%!@(MISSING)"
++ "SASPreheatOptionsRequestSourceCodingKey"
++ "@32@0:8q16Q24"
 + "-[SASSignalServer prewarmForFirstTapOfQuickTypeToSiriGesture]"
-- "-[SASPresentationManager preheatNextPresentationToActivate]"
-- "preheatNextPresentationToActivate"
++ "SiriQuickTypeGestureSource.ActivityAssertion"
++ "SASRequestSourceTransport"
++ "SASRequestSource"
++ "initWithSASRequestSource:"
++ "%!s(MISSING) #activation #quickTypeGate Cancel Quick Type-to-Siri prewarm request, current request state: %!@(MISSING)"
++ "-[SiriQuickTypeGestureSource configureConnection]_block_invoke"
++ "-[SASSignalServer cancelPrewarmForFirstTapOfQuickTypeToSiriGesture]"
++ "-[SiriQuickTypeGestureSource configureConnection]_block_invoke_2"
++ "-[SASPresentationManager preheatNextPresentationToActivateWithOptions:]"
++ "SASPreheatOptions"
++ "prewarmForFirstTapOfQuickTypeToSiriGesture"
++ "SASPreheatOptionsLockStateCodingKey"
++ "initWithRequestSource:lockState:"
++ "preheatNextPresentationToActivateWithOptions:"
++ "-[SiriActivationService prewarmForFirstTapOfQuickTypeToSiriGesture]"
++ "%!s(MISSING) #activation #quickTypeGate Quick Type-to-Siri prewarm request, current request state: %!@(MISSING)"
++ "%!s(MISSING) #activation #quickTypeGate prewarm"
++ "%!s(MISSING) #activation #preheat preheatNextPresentationToActivateWithOptions: %!@(MISSING)"
++ "<%!@(MISSING) %!p(MISSING); requestSource=%!@(MISSING); lockState=%!@(MISSING)>"
++ "-[SiriActivationService cancelPrewarmForFirstTapOfQuickTypeToSiriGesture]"
++ "Vv24@0:8@\"SASPreheatOptions\"16"
++ "%!s(MISSING) #activation #quickTypeGate cancel prewarm"
++ "prewarm"
++ "SiriQuickTypeGestureSource"
++ "preheatWithOptions:"
++ "cancelPrewarmForFirstTapOfQuickTypeToSiriGesture"
 - "%!s(MISSING) #activation #preheat"
+- "-[SASPresentationManager preheatNextPresentationToActivate]"
 - "preheat"
+- "preheatNextPresentationToActivate"
 
 ```

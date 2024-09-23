@@ -47,8 +47,8 @@
 +  CStrings:  213
  
 CStrings:
-+ "MPServerObjectDatabase"
-+ "setXPCHostApplicationIdentifier:"
 + "Class getMPServerObjectDatabaseClass(void)_block_invoke"
++ "setXPCHostApplicationIdentifier:"
++ "MPServerObjectDatabase"
 
 ```

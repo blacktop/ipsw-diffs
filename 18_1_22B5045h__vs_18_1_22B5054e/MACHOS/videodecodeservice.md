@@ -32,25 +32,25 @@
  
 Symbols:
 + _FigSignalErrorAt
-- ___stack_chk_guard
-- _fig_note_initialize_category_with_default_work_cf
-- _os_log_type_enabled
 - _FigSignalErrorAt3
+- __os_log_send_and_compose_impl
+- _os_log_type_enabled
+- ___CFConstantStringClassReference
+- ___stack_chk_guard
+- _fig_log_call_emit_and_clean_up_after_send_and_compose
 - ___stack_chk_fail
 - _fig_log_emitter_get_os_log_and_send_and_compose_flags_and_os_log_type
-- __os_log_send_and_compose_impl
-- _fig_log_call_emit_and_clean_up_after_send_and_compose
-- ___CFConstantStringClassReference
+- _fig_note_initialize_category_with_default_work_cf
 CStrings:
-- "Should not launch videodecodeservice without feature flag!"
-- "kFigBaseObjectError_UnsupportedOperation"
-- "videodecodeservice_main.c"
 - "%!s(MISSING)%!s(MISSING)%!s(MISSING) signalled err=%!d(MISSING) (%!s(MISSING)) (%!s(MISSING)) at %!s(MISSING):%!d(MISSING)"
-- "<<<< VDECS_Main >>>>"
-- "<<<< VDECS_Main >>>> %!s(MISSING): VTVideoCodecService_ShouldUseSeparateCodecProcess: %!d(MISSING)"
 - "<<<< VDECS_Main >>>> %!s(MISSING): videodecodeservice startup\n"
 - "com.apple.coremedia"
+- "<<<< VDECS_Main >>>>"
+- "<<<< VDECS_Main >>>> %!s(MISSING): VTVideoCodecService_ShouldUseSeparateCodecProcess: %!d(MISSING)"
+- "Should not launch videodecodeservice without feature flag!"
+- "kFigBaseObjectError_UnsupportedOperation"
 - "main"
+- "videodecodeservice_main.c"
 - "videodecodeservice_trace"
 
 ```

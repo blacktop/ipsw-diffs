@@ -31,7 +31,7 @@
 +  CStrings:  1187
  
 CStrings:
-- "dalHappyHolidays"
 - "genericHappyHolidays"
+- "dalHappyHolidays"
 
 ```

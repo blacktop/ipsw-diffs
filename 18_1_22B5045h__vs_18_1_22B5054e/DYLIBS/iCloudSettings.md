@@ -107,33 +107,33 @@
 +  CStrings:  3673
  
 Symbols:
-+ _OBJC_CLASS_$__LSOpenConfiguration
 + _swift_isUniquelyReferenced_nonNull_bridgeObject
 + _swift_makeBoxUnique
++ _OBJC_CLASS_$__LSOpenConfiguration
 - __swift_FORCE_LOAD_$_swiftVideoToolbox
 CStrings:
++ "_TtC14iCloudSettings17DefaultIconLoader"
 + "stringValue"
-+ "loadAnimationImage(fallbackURL:)"
-+ "X-Apple-Itunes-DSID"
-+ "Sending iTunes account dsid: %!@(MISSING)"
-+ "showPremiumApp"
-+ "Do not have enough info to show premiumApp view."
-+ "App with bundleID (%!s(MISSING)) is installed."
-+ "openApplicationWithBundleIdentifier:usingConfiguration:completionHandler:"
 + "%!s(MISSING) Could not find detail icon url, attempting to use fallback %!s(MISSING)"
++ "ams_DSID"
++ "loadAnimationImage(fallbackURL:)"
++ "Sending iTunes account dsid: %!@(MISSING)"
++ "Do not have enough info to show premiumApp view."
 + "iconLoader"
 + "ams_sharedAccountStore"
-+ "ams_DSID"
-+ "Unable to determine if app with bundleId: (%!s(MISSING)) is installed or not."
-+ "initWithUrl1x:url2x:url3x:"
 + "Successfully launched premiumApp."
-+ "No data model or the feature doesn't exist."
-+ "SUBTITLE_CREATE_EVENTS"
++ "Unable to determine if app with bundleId: (%!s(MISSING)) is installed or not."
 + "%!s(MISSING): Unable to find detail view url or fallback url, attempting to user table icon"
-+ "_TtC14iCloudSettings17DefaultIconLoader"
-+ "Failed to launch premiumApp with error: %!@(MISSING)"
++ "No data model or the feature doesn't exist."
++ "openApplicationWithBundleIdentifier:usingConfiguration:completionHandler:"
 + "PREMIUM_APP"
-- "setBackground:"
++ "showPremiumApp"
++ "X-Apple-Itunes-DSID"
++ "SUBTITLE_CREATE_EVENTS"
++ "App with bundleID (%!s(MISSING)) is installed."
++ "Failed to launch premiumApp with error: %!@(MISSING)"
++ "initWithUrl1x:url2x:url3x:"
 - "%!s(MISSING): Unable to find detail view url for icon"
+- "setBackground:"
 
 ```

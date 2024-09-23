@@ -86,35 +86,35 @@
 +  CStrings:  6012
  
 Symbols:
-+ _OBJC_METACLASS_$_TUIWritingToolCandidateCell
 + _OBJC_CLASS_$_TUIWritingToolCandidateCell
++ _OBJC_METACLASS_$_TUIWritingToolCandidateCell
 + _TUIBackendControllerLog
 CStrings:
-+ "Query candidate multiplexer"
-+ "-[TUIKeyboardBackendController shouldQueryCandidateMultiplexerForKeyboardState:]"
-+ "{os_unfair_lock_s=\"_os_unfair_lock_opaque\"I}"
-+ "shouldQueryCandidateMultiplexerForKeyboardState:"
-+ "BackendController"
-+ "updatePathStateWithTouchEvents:"
-+ "T@\"NSMutableSet\",R,N,V_activePaths"
-+ "_waitingForContinuousPathCandidates"
-+ "_activePaths"
-+ "_lock"
-+ "touchEvent"
-+ "TUIWritingToolCandidateCell"
-+ "isWritingToolSuggestionCandidate:"
-+ "resetPathState"
++ "hasActivePaths state changed from %!s(MISSING) to %!s(MISSING)"
 + "setWaitingForContinuousPathCandidates:"
 + "activePaths"
 + "Skip query candidate multiplexer"
-+ "pathIndex"
++ "isWritingToolSuggestionCandidate:"
++ "touchEvent"
++ "Query candidate multiplexer"
++ "T@\"NSMutableSet\",R,N,V_activePaths"
++ "shouldQueryCandidateMultiplexerForKeyboardState:"
++ "_activePaths"
 + "waitingForContinuousPathCandidates"
-+ "hasActivePaths"
-+ "%!s(MISSING) => %!s(MISSING) (hasCandidateMux=%!s(MISSING), hasActivePaths=%!s(MISSING), waitingForCPCandidates=%!s(MISSING))"
-+ "\x01!\x13"
-+ "Changing _waitingForContinuousPathCandidate from %!s(MISSING) to %!s(MISSING)"
-+ "hasActivePaths state changed from %!s(MISSING) to %!s(MISSING)"
++ "TUIWritingToolCandidateCell"
++ "updatePathStateWithTouchEvents:"
 + "continuousPathState"
++ "_lock"
++ "Changing _waitingForContinuousPathCandidate from %!s(MISSING) to %!s(MISSING)"
++ "resetPathState"
++ "pathIndex"
++ "hasActivePaths"
++ "BackendController"
++ "_waitingForContinuousPathCandidates"
++ "{os_unfair_lock_s=\"_os_unfair_lock_opaque\"I}"
++ "\x01!\x13"
++ "-[TUIKeyboardBackendController shouldQueryCandidateMultiplexerForKeyboardState:]"
++ "%!s(MISSING) => %!s(MISSING) (hasCandidateMux=%!s(MISSING), hasActivePaths=%!s(MISSING), waitingForCPCandidates=%!s(MISSING))"
 - "\x01\x11\x12"
 
 ```

@@ -39,11 +39,11 @@
 +  CStrings:  1993
  
 CStrings:
-+ "WLDPushNotificationController - Sports notification suppresed - Not available on TV"
-+ "sports_app_live_activities"
-+ "isOnTv"
-+ "sportsLAAEnabled"
 + "trigger"
++ "WLDPushNotificationController - Sports notification suppresed - Not available on TV"
++ "isOnTv"
 + "UpNext"
++ "sports_app_live_activities"
++ "sportsLAAEnabled"
 
 ```

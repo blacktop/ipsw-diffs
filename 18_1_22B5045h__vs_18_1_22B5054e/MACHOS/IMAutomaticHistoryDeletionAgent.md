@@ -44,9 +44,9 @@ Symbols:
 - _OBJC_CLASS_$_NSNumber
 - _OBJC_CLASS_$_IMFeatureFlags
 CStrings:
-- "sharedFeatureFlags"
-- "numberWithLong:"
 - "KeepMessageForDays"
 - "isSyncedSettingsEnabled"
+- "sharedFeatureFlags"
+- "numberWithLong:"
 
 ```

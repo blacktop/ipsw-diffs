@@ -55,11 +55,11 @@
 +  CStrings:  3128
  
 CStrings:
-+ "setNewPassword:oldPassword:"
 + "isICDPEnabledForDSID:"
-+ "oldPassword"
 + "isSubsetOfContextTypeRepair:"
-- "\"Remote secret has been validated, tear down the UI\""
++ "oldPassword"
++ "setNewPassword:oldPassword:"
 - "setPassword:"
+- "\"Remote secret has been validated, tear down the UI\""
 
 ```

@@ -31,13 +31,13 @@
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/CoreServices.framework/CoreServices
 CStrings:
++ "15:46:11"
++ "-working-directory \"%!@(MISSING)\" "
 + "Sep 17 2024 15:46:11"
 + "Sep 17 2024"
-+ "-working-directory \"%!@(MISSING)\" "
-+ "15:46:11"
-- "00:10:12"
-- "Sep  3 2024 00:10:12"
-- "Sep  3 2024"
 - "-working-directory \"%!s(MISSING)\" "
+- "Sep  3 2024"
+- "Sep  3 2024 00:10:12"
+- "00:10:12"
 
 ```

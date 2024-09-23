@@ -49,15 +49,15 @@
 Symbols:
 + _AKSIdentityGetSessionTimeWindows
 CStrings:
-+ "space_repetition activity criteria already set"
-+ "hours_since_locked"
-+ "aks-inactivity"
++ "inactivity_reboot"
++ "space_repetition_kick_block_invoke"
 + "AnalyticsEvent: is_set: %!l(MISSING)lu, type: %!l(MISSING)lu, activation_status: %!l(MISSING)lu, inactivity_reboot: %!l(MISSING)lu, hours_since_locked: %!l(MISSING)lu, version: %!l(MISSING)lu"
 + "space_repetition Check in"
 + "com.apple.mobile.keybagd.space_repetition"
-+ "inactivity_reboot"
-+ "space_repetition_kick_block_invoke"
++ "hours_since_locked"
 + "space_repetition set activity criteria"
++ "aks-inactivity"
++ "space_repetition activity criteria already set"
 - "AnalyticsEvent: is_set: %!l(MISSING)lu, type: %!l(MISSING)lu, activation_status: %!l(MISSING)lu"
 
 ```

@@ -83,44 +83,44 @@
 +  CStrings:  22328
  
 Symbols:
-+ _CSAttributedEntityTypePhotosContentCreationDateMonthsKey
-+ _CSAttributedEntityTypePhotosContentCreationDateYearsKey
 + OBJC_IVAR_$_PHResourceChooserList._nonHintResourceInfos
++ _CSAttributedEntityTypePhotosContentCreationDateMonthsKey
 + _kCFNull
-- _CSAttributedEntityTypePhotosContentCreationDateMonthKey
++ _CSAttributedEntityTypePhotosContentCreationDateYearsKey
 - _CSAttributedEntityTypePhotosContentCreationDateYearKey
+- _CSAttributedEntityTypePhotosContentCreationDateMonthKey
 CStrings:
-+ "_deletedObjectIDsMatchingEntities:"
-+ "2DP0"
-+ "[RM]: %!@(MISSING) (choosing) policy: %!@(MISSING), req size: %!@(MISSING) (scale: %!f(MISSING)%!@(MISSING)), qualifying resource w appx size: %!@(MISSING) (scale: %!f(MISSING)%!@(MISSING)), %!@(MISSING)%!@(MISSING)"
-+ "CSAttributedEntityKeyFromPHSearchEntityCategoryType:"
-+ "_allowChoosingNonLocalVideoKeyFrameResource"
-+ "[RM]: PHImageIODecoder - unable to get image from CGImageSourceCreateImageAtIndex to determine source image dimensions"
-+ "isUnsafeQuery"
-+ "[RM]: rejecting local video keyframe b/c chooser is configured to disallow it"
-+ "initWithSearchQuery:searchResults:unfilteredAssetSearchResults:rankedAssetSearchResults:rankedCollectionSearchResults:searchSuggestions:queryMatchDetails:annotatedQueryString:queryStringReceivedFromSpotlight:isUnsafeQuery:"
-+ "locationOfInterestUpdate"
-+ ", recipe: %!@(MISSING)"
-+ "locationOfInterestUpdateWithError:"
-+ "_entityNamesForEntities:"
-+ "\x043!"
-+ "v92@?0@\"NSArray\"8@\"NSArray\"16@\"NSArray\"24@\"NSArray\"32@\"NSArray\"40@\"NSArray\"48@\"PHSearchQueryMatchDetails\"56@\"NSAttributedString\"64@\"NSAttributedString\"72B80@\"NSError\"84"
-+ "TB,N,V_allowChoosingNonLocalVideoKeyFrameResource"
-+ "_isUnsafeQuery"
-+ "Failed to update location of interests with Error \"%!@(MISSING)\"."
-+ "isUnsafe: %!@(MISSING), "
-+ "@92@0:8@16@24@32@40@48@56@64@72@80B88"
-+ "TB,R,N,V_isUnsafeQuery"
-+ "setAllowChoosingNonLocalVideoKeyFrameResource:"
-+ "[PHAssetExportRequest] Preparation timing for asset %!{(MISSING)public}@: %!{(MISSING)public}@"
 + "allowChoosingNonLocalVideoKeyFrameResource"
-- "v88@?0@\"NSArray\"8@\"NSArray\"16@\"NSArray\"24@\"NSArray\"32@\"NSArray\"40@\"NSArray\"48@\"PHSearchQueryMatchDetails\"56@\"NSAttributedString\"64@\"NSAttributedString\"72@\"NSError\"80"
-- "@88@0:8@16@24@32@40@48@56@64@72@80"
-- "initWithSearchQuery:searchResults:unfilteredAssetSearchResults:rankedAssetSearchResults:rankedCollectionSearchResults:searchSuggestions:queryMatchDetails:annotatedQueryString:queryStringReceivedFromSpotlight:"
-- "2CP0"
++ "2DP0"
++ "CSAttributedEntityKeyFromPHSearchEntityCategoryType:"
++ "isUnsafe: %!@(MISSING), "
++ "\x043!"
++ "@92@0:8@16@24@32@40@48@56@64@72@80B88"
++ "locationOfInterestUpdate"
++ "initWithSearchQuery:searchResults:unfilteredAssetSearchResults:rankedAssetSearchResults:rankedCollectionSearchResults:searchSuggestions:queryMatchDetails:annotatedQueryString:queryStringReceivedFromSpotlight:isUnsafeQuery:"
++ "[RM]: PHImageIODecoder - unable to get image from CGImageSourceCreateImageAtIndex to determine source image dimensions"
++ "[RM]: %!@(MISSING) (choosing) policy: %!@(MISSING), req size: %!@(MISSING) (scale: %!f(MISSING)%!@(MISSING)), qualifying resource w appx size: %!@(MISSING) (scale: %!f(MISSING)%!@(MISSING)), %!@(MISSING)%!@(MISSING)"
++ "[RM]: rejecting local video keyframe b/c chooser is configured to disallow it"
++ "Failed to update location of interests with Error \"%!@(MISSING)\"."
++ "_allowChoosingNonLocalVideoKeyFrameResource"
++ "locationOfInterestUpdateWithError:"
++ "_isUnsafeQuery"
++ "setAllowChoosingNonLocalVideoKeyFrameResource:"
++ "TB,N,V_allowChoosingNonLocalVideoKeyFrameResource"
++ "[PHAssetExportRequest] Preparation timing for asset %!{(MISSING)public}@: %!{(MISSING)public}@"
++ "v92@?0@\"NSArray\"8@\"NSArray\"16@\"NSArray\"24@\"NSArray\"32@\"NSArray\"40@\"NSArray\"48@\"PHSearchQueryMatchDetails\"56@\"NSAttributedString\"64@\"NSAttributedString\"72B80@\"NSError\"84"
++ ", recipe: %!@(MISSING)"
++ "_deletedObjectIDsMatchingEntities:"
++ "_entityNamesForEntities:"
++ "TB,R,N,V_isUnsafeQuery"
++ "isUnsafeQuery"
 - "[RM]: %!@(MISSING) (choosing) policy: %!@(MISSING), req size: %!@(MISSING) (scale: %!f(MISSING)%!@(MISSING)), qualifying resource w appx size: %!@(MISSING) (scale: %!f(MISSING)), %!@(MISSING)%!@(MISSING)"
+- "initWithSearchQuery:searchResults:unfilteredAssetSearchResults:rankedAssetSearchResults:rankedCollectionSearchResults:searchSuggestions:queryMatchDetails:annotatedQueryString:queryStringReceivedFromSpotlight:"
 - "\t"
 - "\x034!"
+- "v88@?0@\"NSArray\"8@\"NSArray\"16@\"NSArray\"24@\"NSArray\"32@\"NSArray\"40@\"NSArray\"48@\"PHSearchQueryMatchDetails\"56@\"NSAttributedString\"64@\"NSAttributedString\"72@\"NSError\"80"
 - "[PHAssetExportRequest] Preparation timing: %!{(MISSING)public}@"
+- "@88@0:8@16@24@32@40@48@56@64@72@80"
+- "2CP0"
 
 ```

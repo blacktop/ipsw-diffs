@@ -24,9 +24,9 @@
    __TEXT.__objc_stubs: 0x1300
    __DATA_CONST.__got: 0x1d0
 CStrings:
-+ "OxygenSaturationRecording"
-+ "HKCountrySet+OxygenSaturationRecording.m"
 + "localAvailabilityForOxygenSaturationRecording"
++ "HKCountrySet+OxygenSaturationRecording.m"
++ "OxygenSaturationRecording"
 - "HKCountrySet+HKFeatureIdentifierOxygenSaturationRecording.m"
 - "localAvailabilityForHKFeatureIdentifierOxygenSaturationRecording"
 - "HKFeatureIdentifierOxygenSaturationRecording"

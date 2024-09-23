@@ -35,8 +35,8 @@
 +  CStrings:  946
  
 CStrings:
-+ "predicateForContainersWithType:includingDisabledContainers:"
 + "ContactProviderService handling unregistered applications: %!{(MISSING)public}@"
++ "predicateForContainersWithType:includingDisabledContainers:"
 + "received application unregistered notification, bundle ids %!{(MISSING)public}@"
 - "predicateForContainersWithType:"
 - "application unregistered bundle ids %!{(MISSING)public}@"

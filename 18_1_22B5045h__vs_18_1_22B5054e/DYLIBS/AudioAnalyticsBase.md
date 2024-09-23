@@ -81,47 +81,47 @@
 +  CStrings:  580
  
 Symbols:
-+ _OBJC_CLASS_$_AudioAnalyticsTrace
-+ _OBJC_METACLASS_$_AudioAnalyticsSysdiagnose
-+ _OBJC_CLASS_$_AudioAnalyticsSysdiagnose
 + _OBJC_CLASS_$_AudioAnalyticsRadarDraft
-+ _OBJC_METACLASS_$_AudioAnalyticsRadarComponent
-+ _OBJC_METACLASS_$_AudioAnalyticsTrace
++ _OBJC_CLASS_$_AudioAnalyticsPredicateHelper
 + _OBJC_CLASS_$_AudioAnalyticsTraceArgs
 + _OBJC_CLASS_$_AudioAnalyticsRadarComponent
-+ _OBJC_METACLASS_$_AudioAnalyticsRadarDraft
-+ _OBJC_CLASS_$_AudioAnalyticsPredicateHelper
++ _OBJC_METACLASS_$_AudioAnalyticsTrace
++ _OBJC_METACLASS_$_AudioAnalyticsSysdiagnose
 + _OBJC_METACLASS_$_AudioAnalyticsPredicateHelper
 + _OBJC_METACLASS_$_AudioAnalyticsTraceArgs
-- _OBJC_METACLASS_$_AARadarComponent
-- _OBJC_CLASS_$_Trace
-- _OBJC_CLASS_$_Sysdiagnose
-- _OBJC_METACLASS_$_AARadarDraft
-- _OBJC_CLASS_$_TraceArgs
-- _OBJC_METACLASS_$_TraceArgs
-- _OBJC_METACLASS_$_PredicateHelper
++ _OBJC_CLASS_$_AudioAnalyticsTrace
++ _OBJC_CLASS_$_AudioAnalyticsSysdiagnose
++ _OBJC_METACLASS_$_AudioAnalyticsRadarDraft
++ _OBJC_METACLASS_$_AudioAnalyticsRadarComponent
 - _OBJC_CLASS_$_AARadarComponent
-- _OBJC_CLASS_$_AARadarDraft
-- _OBJC_CLASS_$_PredicateHelper
 - _OBJC_METACLASS_$_Sysdiagnose
+- _OBJC_METACLASS_$_AARadarComponent
 - _OBJC_METACLASS_$_Trace
+- _OBJC_CLASS_$_Sysdiagnose
+- _OBJC_CLASS_$_AARadarDraft
+- _OBJC_METACLASS_$_TraceArgs
+- _OBJC_CLASS_$_PredicateHelper
+- _OBJC_CLASS_$_Trace
+- _OBJC_METACLASS_$_AARadarDraft
+- _OBJC_METACLASS_$_PredicateHelper
+- _OBJC_CLASS_$_TraceArgs
 CStrings:
-+ "AudioAnalyticsPredicateHelper"
 + "AudioAnalyticsRadarComponent"
++ "T@\"AudioAnalyticsRadarComponent\",&,N,V_component"
 + "AudioAnalyticsSysdiagnose"
-+ "AudioAnalyticsTrace"
++ "@\"AudioAnalyticsRadarComponent\""
++ "AudioAnalyticsPredicateHelper"
 + "AudioAnalyticsRadarDraft"
 + "AudioAnalyticsTraceArgs"
-+ "@\"AudioAnalyticsRadarComponent\""
++ "AudioAnalyticsTrace"
 + "inferenceSummary"
-+ "T@\"AudioAnalyticsRadarComponent\",&,N,V_component"
-- "Trace"
-- "Sysdiagnose"
-- "PredicateHelper"
-- "TraceArgs"
 - "AARadarDraft"
-- "AARadarComponent"
+- "TraceArgs"
+- "Sysdiagnose"
 - "T@\"AARadarComponent\",&,N,V_component"
 - "@\"AARadarComponent\""
+- "PredicateHelper"
+- "AARadarComponent"
+- "Trace"
 
 ```

@@ -67,14 +67,14 @@ Symbols:
 + _objc_retain_x27
 + _objc_retain_x28
 CStrings:
-+ "v20@?0B8@\"NSError\"12"
-+ "(updateAssetForQuery) updated assets for %!@(MISSING)"
 + "%!@(MISSING)\n\nAssertions:%!@(MISSING)"
-+ "(updateAssetForQuery) failed to update asset for %!@(MISSING) with error %!@(MISSING)"
 + "updateAssetForQuery:callback:"
 + "[SR_INFO][DefaultsManager] (removeAssertionWithIdentifier) (%!l(MISSING)d) removing assertion: %!s(MISSING)"
 + "[SR_INFO][DefaultsManager] (addAssertionWithIdentifier) keeping assertion: %!s(MISSING)"
 + "setAssetTypesForDelegates:"
++ "(updateAssetForQuery) failed to update asset for %!@(MISSING) with error %!@(MISSING)"
++ "v20@?0B8@\"NSError\"12"
++ "(updateAssetForQuery) updated assets for %!@(MISSING)"
 - "setVersion:"
 
 ```

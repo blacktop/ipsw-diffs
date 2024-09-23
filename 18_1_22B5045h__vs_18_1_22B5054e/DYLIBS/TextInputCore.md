@@ -58,13 +58,13 @@ Symbols:
 + _TIPredominantLanguageEmojisEnabled
 - __ZNK2KB17DynamicDictionary35word_from_transient_lexicon_with_idE9TITokenID
 CStrings:
-+ "addSynthesizedTouchToInput:keyboardState:"
-+ "isStudyForFCS"
 + "predominant_language_emojis"
++ "addSynthesizedTouchToInput:keyboardState:"
 + "getStudyEnrollment"
-- "addSynthesizedTouchToInput:"
-- "dispatchAllEventsWithDelegate:"
++ "isStudyForFCS"
 - "sendUpgradeEventUsingStudyDataFromFeedbackController:"
 - "clearStudyState"
+- "addSynthesizedTouchToInput:"
+- "dispatchAllEventsWithDelegate:"
 
 ```

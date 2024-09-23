@@ -79,16 +79,16 @@
  
 Symbols:
 + _$s7SwiftUI25_PreferenceActionModifierVMn
-+ _$s7SwiftUI4FontV6WeightV8semiboldAEvgZ
-+ _$s7SwiftUI25_PreferenceActionModifierVyxGAA04ViewE0AAMc
 + _$s7SwiftUI4FontV6weightyA2C6WeightVF
++ _$s7SwiftUI25_PreferenceActionModifierVyxGAA04ViewE0AAMc
 + _$s7SwiftUI4FontV8headlineACvgZ
-+ _$s7SwiftUI20ToolbarItemPlacementV18confirmationActionACvgZ
 + _$s7SwiftUI9LazyStateV12wrappedValuexvs
++ _$s7SwiftUI20ToolbarItemPlacementV18confirmationActionACvgZ
++ _$s7SwiftUI4FontV6WeightV8semiboldAEvgZ
 - _$s7SwiftUI20ToolbarItemPlacementV14topBarTrailingACvgZ
 CStrings:
-+ "_loadingProvider"
 + "__provider"
++ "_loadingProvider"
 + "Dismisses the presented popover or sheet"
 - "_provider"
 

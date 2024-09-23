@@ -92,37 +92,37 @@
 +  CStrings:  4614
  
 Symbols:
-+ _OBJC_CLASS_$_WFPasswordPromptViewController
-+ _swift_allocateGenericValueMetadata
-+ _swift_getGenericMetadata
 + _OBJC_METACLASS_$_WFPasswordPromptViewController
++ _swift_allocateGenericValueMetadata
++ _OBJC_CLASS_$_WFPasswordPromptViewController
++ _swift_getGenericMetadata
 CStrings:
 + "Cancel button for password prompt"
-+ "mainBundle"
-+ "kWFGlobalProxyCredAlertTitle"
-+ "kWFGlobalProxyCredSave"
-+ "initWithAlertMessage:joinCompletion:"
-+ "joinHandler"
-+ "alertMessage"
-+ "kWFGlobalProxyCredCancel"
 + "kWFGlobalProxyCredPassword"
-+ "Contradictory frame constraints specified."
-+ "WiFiKitUI.WFPasswordPromptViewController"
-+ "kWFGlobalProxyCredUsername"
++ "kWFGlobalProxyCredAlertTitle"
 + "Save button for password prompt"
-+ "Title for password prompt"
-+ "WiFiKitUI/WFPasswordPromptViewController.swift"
 + "initWithNetworkName:joinCompletion:"
-- "Public Networks Section"
-- "Known Networks Section"
-- "Ad hoc Networks Section"
-- "Infra Networks Section"
-- "Auto Hotspot Section"
-- "Editable Preferred Networks Section"
++ "WiFiKitUI.WFPasswordPromptViewController"
++ "Title for password prompt"
++ "kWFGlobalProxyCredUsername"
++ "Contradictory frame constraints specified."
++ "alertMessage"
++ "initWithAlertMessage:joinCompletion:"
++ "WiFiKitUI/WFPasswordPromptViewController.swift"
++ "joinHandler"
++ "kWFGlobalProxyCredSave"
++ "mainBundle"
++ "kWFGlobalProxyCredCancel"
 - "Non-editable Preferred Networks Section"
+- "Editable Preferred Networks Section"
+- "Known Networks Section"
+- "Auto Hotspot Section"
 - "Ask to Join Section"
 - "Unconfigured Networks Section"
 - "Unconfigured Network"
+- "Infra Networks Section"
+- "Public Networks Section"
+- "Ad hoc Networks Section"
 - "Data Usage Section"
 
 ```

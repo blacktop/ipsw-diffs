@@ -38,12 +38,12 @@
 +  CStrings:  5203
  
 CStrings:
-+ "matAtmosPlaybackEnabled"
-+ "OSStatus APSReceiverAudioSessionBufferedHoseEnableMATAtmosPlayback(void *, Boolean)"
 + "APSReceiverAudioSessionBufferedHoseEnableMATAtmosPlayback"
++ "matAtmosPlaybackEnabled"
 + "%!@(MISSING) MATAtmos Playback %!s(MISSING)"
 + "830.8.4"
 + "audioSessionBufferedHose_updatePreferredAudioFormat"
++ "OSStatus APSReceiverAudioSessionBufferedHoseEnableMATAtmosPlayback(void *, Boolean)"
 - "BufferedAPAC"
 - "830.6.1"
 

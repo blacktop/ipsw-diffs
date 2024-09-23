@@ -82,44 +82,44 @@
 +  CStrings:  47130
  
 Symbols:
-- _fclose
+- _swift_task_removeCancellationHandler
+- _fread
+- _rewind
+- _fopen
+- __availability_version_check
+- _fseek
+- _dispatch_once_f
 - _swift_taskGroup_wait_next_throwing
 - _ftell
-- _swift_task_removeCancellationHandler
 - _swift_task_addCancellationHandler
-- __availability_version_check
-- _fread
-- _fseek
-- _rewind
-- _dispatch_once_f
-- _fopen
+- _fclose
 CStrings:
-+ "@\"NSSet\"48@0:8@\"PKMathRecognitionViewController\"16{CGPoint=dd}24@\"NSUUID\"40"
-+ "v100@0:8@16@24@32{CGRect={CGPoint=dd}{CGSize=dd}}40@72{CGPoint=dd}80B96"
-+ "WTMainPopoverViewController"
-+ "mathViewController:addGraphForExpression:variable:range:identifier:expressionLocation:addToExisting:"
-+ "setUserDefaultsVersion:forType:"
-+ "Dismissing %!@(MISSING)"
-+ "v100@0:8@\"PKMathRecognitionViewController\"16@\"NSString\"24@\"NSString\"32{CGRect={CGPoint=dd}{CGSize=dd}}40@\"NSString\"72{CGPoint=dd}80B96"
-+ "_handleSingleTapAtDrawingLocation:fromTapStroke:"
-+ "showWritingTools:"
 + "v28@0:8I16q20"
++ "v100@0:8@\"PKMathRecognitionViewController\"16@\"NSString\"24@\"NSString\"32{CGRect={CGPoint=dd}{CGSize=dd}}40@\"NSString\"72{CGPoint=dd}80B96"
++ "v100@0:8@16@24@32{CGRect={CGPoint=dd}{CGSize=dd}}40@72{CGPoint=dd}80B96"
++ "_handleSingleTapAtDrawingLocation:fromTapStroke:"
++ "mathViewController:addGraphForExpression:variable:range:identifier:expressionLocation:addToExisting:"
++ "showWritingTools:"
 + "mathViewController:expressionIdentifiersForCompatibleGraphNearLocation:expressionUUID:"
-- "%!d(MISSING).%!d(MISSING).%!d(MISSING)"
-- "ProductVersion"
-- "CFStringGetTypeID"
-- "CFRelease"
-- "kCFAllocatorNull"
-- "CFStringCreateWithCStringNoCopy"
-- "v92@0:8@16@24{CGRect={CGPoint=dd}{CGSize=dd}}32@64{CGPoint=dd}72B88"
-- "CFStringGetCString"
++ "WTMainPopoverViewController"
++ "setUserDefaultsVersion:forType:"
++ "@\"NSSet\"48@0:8@\"PKMathRecognitionViewController\"16{CGPoint=dd}24@\"NSUUID\"40"
++ "Dismissing %!@(MISSING)"
 - "v92@0:8@\"PKMathRecognitionViewController\"16@\"NSString\"24{CGRect={CGPoint=dd}{CGSize=dd}}32@\"NSString\"64{CGPoint=dd}72B88"
-- "CFDataCreateWithBytesNoCopy"
-- "CFDictionaryGetValue"
 - "CFPropertyListCreateWithData"
-- "/System/Library/CoreServices/SystemVersion.plist"
+- "CFStringGetCString"
+- "CFRelease"
+- "CFDataCreateWithBytesNoCopy"
+- "CFStringGetTypeID"
+- "CFDictionaryGetValue"
+- "%!d(MISSING).%!d(MISSING).%!d(MISSING)"
+- "kCFAllocatorNull"
+- "v92@0:8@16@24{CGRect={CGPoint=dd}{CGSize=dd}}32@64{CGPoint=dd}72B88"
 - "mathViewController:addGraphForExpression:range:identifier:expressionLocation:addToExisting:"
-- "CFPropertyListCreateFromXMLData"
 - "CFGetTypeID"
+- "/System/Library/CoreServices/SystemVersion.plist"
+- "ProductVersion"
+- "CFPropertyListCreateFromXMLData"
+- "CFStringCreateWithCStringNoCopy"
 
 ```

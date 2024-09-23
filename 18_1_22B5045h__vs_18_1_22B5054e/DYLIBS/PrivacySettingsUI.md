@@ -40,7 +40,7 @@
 +  CStrings:  3716
  
 CStrings:
-+ "Setting %!@(MISSING) auth for app %!@(MISSING) to full, after prompt"
 + "FullAccessSettingsPrompt"
++ "Setting %!@(MISSING) auth for app %!@(MISSING) to full, after prompt"
 
 ```

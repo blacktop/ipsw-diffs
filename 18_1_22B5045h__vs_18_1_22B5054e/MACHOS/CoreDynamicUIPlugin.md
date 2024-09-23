@@ -84,10 +84,10 @@
 Symbols:
 - _OBJC_CLASS_$_AMSDefaults
 CStrings:
-+ "Can't replace naivgation bar item: otherButtons array is nil."
 + "ReplaceNavigationBarItemShelfPageAction"
-- "Can't replace naivgation bar button: otherButtons array is nil."
-- "debugUIDynamicUIEnabled"
++ "Can't replace naivgation bar item: otherButtons array is nil."
 - "ReplaceNavigationBarButtonShelfPageAction"
+- "debugUIDynamicUIEnabled"
+- "Can't replace naivgation bar button: otherButtons array is nil."
 
 ```

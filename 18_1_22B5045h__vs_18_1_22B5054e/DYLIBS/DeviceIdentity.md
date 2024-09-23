@@ -18,7 +18,7 @@
 CStrings:
 + "iOS Device Activator (MobileActivation-1006.40.3)"
 + "SPI not allowed for processes running in recoveryOS."
-- "SPI not allowed for processes running in recoveryOS or diagnostics mode."
 - "iOS Device Activator (MobileActivation-1006.40.2)"
+- "SPI not allowed for processes running in recoveryOS or diagnostics mode."
 
 ```

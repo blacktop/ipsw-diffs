@@ -35,7 +35,7 @@
  
 Symbols:
 + _kCGColorSpaceLinearGray
-- _objc_retain_x22
 - _kCGColorSpaceGenericGray
+- _objc_retain_x22
 
 ```

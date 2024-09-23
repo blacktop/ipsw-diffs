@@ -26,7 +26,7 @@
 +  CStrings:  1191
  
 CStrings:
-+ "[%!p(MISSING)] activating connection: name=%!{(MISSING)public}s publishToken=%!{(MISSING)public}llu"
 + "Subscribed to event %!s(MISSING) using token %!l(MISSING)lu"
++ "[%!p(MISSING)] activating connection: name=%!{(MISSING)public}s publishToken=%!{(MISSING)public}llu"
 
 ```

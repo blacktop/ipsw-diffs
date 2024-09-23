@@ -68,22 +68,22 @@
 +  CStrings:  6322
  
 CStrings:
++ "_regionArrangementByDisplayUUID"
++ "_locked_reevaluateDisplayLinkForReason:sendExitEventsToDisplayUUID:"
++ "_regionArrangementByCoalitionID"
++ "initWithCoalitionIdentifier:"
 + "\x01b"
 + "\x12\x1cA\x11#!\x1f\x04\""
 + "coalitionIdentifier"
-+ "_locked_reevaluateDisplayLinkForReason:sendExitEventsToDisplayUUID:"
-+ "_coalitionIdentifier"
-+ "_regionArrangementByDisplayUUID"
-+ "T@\"NSString\",R,C,N,V_coalitionIdentifier"
 + "_initWithCopyOf:"
-+ "initWithCoalitionIdentifier:"
-+ "_regionArrangementByCoalitionID"
++ "T@\"NSString\",R,C,N,V_coalitionIdentifier"
++ "_coalitionIdentifier"
 - "_copyMousePointerRegionArrangementWithClass:"
-- "v32@?0@\"NSString\"8@\"BKMutableMousePointerRegionArrangement\"16^B24"
-- "\x12\x1bA\x11#!\x1f\x04\""
 - "_regionArrangementByDisplayID"
 - "b"
+- "\x12\x1bA\x11#!\x1f\x04\""
 - "@24@0:8#16"
 - "_locked_reevaluateDisplayLinkForReason:"
+- "v32@?0@\"NSString\"8@\"BKMutableMousePointerRegionArrangement\"16^B24"
 
 ```

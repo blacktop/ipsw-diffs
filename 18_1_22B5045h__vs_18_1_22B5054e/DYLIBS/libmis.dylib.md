@@ -33,15 +33,15 @@
    __TEXT.__objc_classname: 0x7e
    __TEXT.__objc_methname: 0x9a0
 CStrings:
-+ "Authorization still pending: %!@(MISSING), %!@(MISSING)"
 + "Online authorization succeeded: %!@(MISSING), %!@(MISSING)"
 + "No online authorization (%!l(MISSING)lx): %!@(MISSING), %!@(MISSING)"
-+ "Online authorization rejected (%!l(MISSING)lx), %!@(MISSING), %!@(MISSING)"
 + "Online authorization ambiguous: %!@(MISSING), %!@(MISSING)"
-- "No online authorization (%!l(MISSING)lx)."
-- "Online authorization rejected (%!l(MISSING)lx)."
++ "Authorization still pending: %!@(MISSING), %!@(MISSING)"
++ "Online authorization rejected (%!l(MISSING)lx), %!@(MISSING), %!@(MISSING)"
 - "Authorization still pending."
-- "Online authorization ambiguous."
 - "Online authorization succeeded."
+- "Online authorization rejected (%!l(MISSING)lx)."
+- "Online authorization ambiguous."
+- "No online authorization (%!l(MISSING)lx)."
 
 ```

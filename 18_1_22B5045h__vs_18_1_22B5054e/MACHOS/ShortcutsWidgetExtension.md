@@ -58,8 +58,8 @@ Symbols:
 + _OBJC_CLASS_$_UIScreen
 + _swift_dynamicCastObjCClass
 CStrings:
-+ "mainScreen"
-+ "symbolName"
 + "scale"
++ "symbolName"
++ "mainScreen"
 
 ```

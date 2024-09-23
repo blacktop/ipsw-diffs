@@ -43,7 +43,7 @@
 +  CStrings:  149
  
 CStrings:
-- "isShifted"
 - "setKeyLayout:"
+- "isShifted"
 
 ```

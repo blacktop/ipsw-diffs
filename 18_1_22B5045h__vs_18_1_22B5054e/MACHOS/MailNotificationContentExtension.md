@@ -36,7 +36,7 @@
 +  CStrings:  1853
  
 CStrings:
-- "@\"MFMailMessage\"32@0:8@\"MFMessageViewController\"16@\"MFMailMessage\"24"
 - "messageViewController:mostRecentAncestorMessageForMessage:"
+- "@\"MFMailMessage\"32@0:8@\"MFMessageViewController\"16@\"MFMailMessage\"24"
 
 ```

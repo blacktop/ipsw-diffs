@@ -47,14 +47,14 @@
 +  CStrings:  14470
  
 CStrings:
-+ "_watchAssetSize"
++ "{CGSize=\"width\"d\"height\"d}"
++ "T{CGSize=dd},N,V_phoneAssetSize"
 + "watchAssetSize"
 + "_phoneAssetSize"
++ "phoneAssetSize"
 + "setWatchAssetSize:"
-+ "{CGSize=\"width\"d\"height\"d}"
++ "_watchAssetSize"
 + "setPhoneAssetSize:"
 + "T{CGSize=dd},N,V_watchAssetSize"
-+ "T{CGSize=dd},N,V_phoneAssetSize"
-+ "phoneAssetSize"
 
 ```

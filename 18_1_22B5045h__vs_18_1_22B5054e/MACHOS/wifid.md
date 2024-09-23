@@ -14,7 +14,7 @@
 CStrings:
 + "WiFiManager-1760.6 Sep 17 2024 18:07:50"
 + "WiFiManager-1760.6 Sep 17 2024 18:08:18"
-- "WiFiManager-1760.5 Sep  3 2024 20:56:41"
 - "WiFiManager-1760.5 Sep  3 2024 20:57:04"
+- "WiFiManager-1760.5 Sep  3 2024 20:56:41"
 
 ```

@@ -79,24 +79,24 @@
 +  CStrings:  675
  
 Symbols:
-+ _memcpy
-+ __swiftEmptySetSingleton
-+ _swift_retain
-+ _swift_getWitnessTable
-+ _swift_deallocClassInstance
 + _objc_retain_x26
-+ _objc_release_x28
-+ _swift_allocBox
-+ _swift_bridgeObjectRetain
-+ _swift_setDeallocating
-+ _swift_makeBoxUnique
 + _swift_stdlib_isStackAllocationSafe
++ __swiftEmptySetSingleton
++ _memcpy
++ _objc_release_x28
++ _swift_getWitnessTable
++ _swift_retain
++ _swift_setDeallocating
++ _swift_deallocClassInstance
++ _swift_allocBox
++ _swift_makeBoxUnique
++ _swift_bridgeObjectRetain
 CStrings:
++ "TB,N,R"
 + "canEnableIntelligence"
 + "BuddyMigrator.IntelligenceStateProvider"
 + "Should show summarization: %!{(MISSING)bool}d"
 + "generativeModelProvider"
-+ "TB,N,R"
 - "Summarization seen status: %!{(MISSING)bool}d"
 
 ```

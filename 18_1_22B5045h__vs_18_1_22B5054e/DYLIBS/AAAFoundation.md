@@ -54,8 +54,8 @@
 +  CStrings:  977
  
 CStrings:
+- "\x02\x13"
 - "@\"AAFPromise\""
 - "_selfReference"
-- "\x02\x13"
 
 ```

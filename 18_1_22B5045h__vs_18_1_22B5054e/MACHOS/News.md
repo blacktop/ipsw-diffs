@@ -56,10 +56,10 @@
 Symbols:
 + _FCPrivateDataLog
 CStrings:
-+ "TodayAgentUpdate"
 + "Performing throttler operation with flags %!l(MISSING)d"
 + "update coordinator did finish sync, target=%!{(MISSING)public}@, instance=%!l(MISSING)u"
-+ "update coordinator will get in line to trigger sync, target=%!{(MISSING)public}@, instance=%!l(MISSING)u"
 + "update coordinator will trigger sync, target=%!{(MISSING)public}@, instance=%!l(MISSING)u"
++ "TodayAgentUpdate"
++ "update coordinator will get in line to trigger sync, target=%!{(MISSING)public}@, instance=%!l(MISSING)u"
 
 ```

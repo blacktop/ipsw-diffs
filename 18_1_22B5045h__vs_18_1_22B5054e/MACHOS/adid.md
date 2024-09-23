@@ -43,11 +43,11 @@ Symbols:
 + _dispatch_source_testcancel
 + _memset_pattern16
 CStrings:
++ "A33"
 + "A28"
 + "A32"
-+ "A33"
-+ "A27 - %!u(MISSING)"
 + "A30 - %!u(MISSING)"
++ "A27 - %!u(MISSING)"
 + "A30"
 + "A31"
 + "A26"

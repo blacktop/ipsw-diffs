@@ -50,7 +50,7 @@ Symbols:
 - ___NSArray0__struct
 CStrings:
 + "arrayWithObjects:count:"
-+ "Phone"
 + "Apps"
++ "Phone"
 
 ```

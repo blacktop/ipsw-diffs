@@ -64,28 +64,28 @@
 +  CStrings:  714
  
 Symbols:
-+ _exit
-+ _fputc
-+ _AKAuthenticationUsernameKey
-+ _AKAuthenticationPasswordKey
-+ _OBJC_CLASS_$_AKAppleIDAuthenticationController
 + _AKAuthenticationDSIDKey
++ _exit
++ _AKAuthenticationPasswordKey
++ _fputc
++ _OBJC_CLASS_$_AKAppleIDAuthenticationController
++ _AKAuthenticationUsernameKey
 + _OBJC_CLASS_$_AKAppleIDAuthenticationContext
 + _kSecureBackupStingrayMetadataKey
-- _printf
 - _kPCSSecureBackupCFStingrayMetadataKey
+- _printf
 CStrings:
++ "setIsUsernameEditable:"
++ "_setPassword:"
++ "authentication error: dsid mismatch"
++ "Must provide either an AppleID to fetch a PET"
++ "stringValue"
++ "authenticateWithContext:completion:"
++ "authentication error: %!@(MISSING)"
 + "authentication error: username mismatch"
 + "setAuthenticationType:"
-+ "setIsUsernameEditable:"
-+ "Must provide either an AppleID to fetch a PET"
 + "setUsername:"
-+ "authentication error: %!@(MISSING)"
-+ "authentication error: dsid mismatch"
-+ "authenticateWithContext:completion:"
-+ "stringValue"
-+ "_setPassword:"
-- "initWithData:encoding:"
 - "CFDictionaryCreateMutableForCFTypesWith failed"
+- "initWithData:encoding:"
 
 ```

@@ -32,25 +32,25 @@
  
 Symbols:
 + __ZN7WebCore9IDBServer9IDBServer16clearObjectStoreERKNS_14IDBRequestDataEN3WTF23ObjectIdentifierGenericINS_28IDBObjectStoreIdentifierTypeENS5_38ObjectIdentifierThreadSafeAccessTraitsIyEEyEE
-+ __ZN7WebCore9IDBServer9IDBServer11deleteIndexERKNS_14IDBRequestDataEN3WTF23ObjectIdentifierGenericINS_28IDBObjectStoreIdentifierTypeENS5_38ObjectIdentifierThreadSafeAccessTraitsIyEEyEERKNS5_6StringE
 + __ZN7WebCore9IDBServer9IDBServer17renameObjectStoreERKNS_14IDBRequestDataEN3WTF23ObjectIdentifierGenericINS_28IDBObjectStoreIdentifierTypeENS5_38ObjectIdentifierThreadSafeAccessTraitsIyEEyEERKNS5_6StringE
++ __ZN7WebCore9IDBServer9IDBServer11deleteIndexERKNS_14IDBRequestDataEN3WTF23ObjectIdentifierGenericINS_28IDBObjectStoreIdentifierTypeENS5_38ObjectIdentifierThreadSafeAccessTraitsIyEEyEERKNS5_6StringE
 + __ZN7WebCore9IDBServer9IDBServer11renameIndexERKNS_14IDBRequestDataEN3WTF23ObjectIdentifierGenericINS_28IDBObjectStoreIdentifierTypeENS5_38ObjectIdentifierThreadSafeAccessTraitsIyEEyEEyRKNS5_6StringE
-- __ZN7WebCore9IDBServer9IDBServer16clearObjectStoreERKNS_14IDBRequestDataEy
+- __ZN7WebCore9IDBServer9IDBServer11deleteIndexERKNS_14IDBRequestDataEyRKN3WTF6StringE
 - __ZN7WebCore9IDBServer9IDBServer17renameObjectStoreERKNS_14IDBRequestDataEyRKN3WTF6StringE
 - __ZN7WebCore9IDBServer9IDBServer11renameIndexERKNS_14IDBRequestDataEyyRKN3WTF6StringE
-- __ZN7WebCore9IDBServer9IDBServer11deleteIndexERKNS_14IDBRequestDataEyRKN3WTF6StringE
+- __ZN7WebCore9IDBServer9IDBServer16clearObjectStoreERKNS_14IDBRequestDataEy
 CStrings:
-+ "/AppleInternal/Library/BuildRoots/f3587ae2-763a-11ef-9333-86b8363ea862/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.1.Internal.sdk/usr/local/include/wtf/TypeCasts.h"
-+ "/AppleInternal/Library/BuildRoots/f3587ae2-763a-11ef-9333-86b8363ea862/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.1.Internal.sdk/usr/local/include/wtf/CheckedRef.h"
-+ "/AppleInternal/Library/BuildRoots/f3587ae2-763a-11ef-9333-86b8363ea862/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.1.Internal.sdk/usr/local/include/wtf/text/StringConcatenate.h"
-+ "/AppleInternal/Library/BuildRoots/f3587ae2-763a-11ef-9333-86b8363ea862/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.1.Internal.sdk/usr/local/include/wtf/cf/TypeCastsCF.h"
-+ "/AppleInternal/Library/BuildRoots/f3587ae2-763a-11ef-9333-86b8363ea862/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.1.Internal.sdk/usr/local/include/wtf/ObjectIdentifier.h"
 + "/AppleInternal/Library/BuildRoots/f3587ae2-763a-11ef-9333-86b8363ea862/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.1.Internal.sdk/usr/local/include/wtf/Deque.h"
-- "/AppleInternal/Library/BuildRoots/e2b39c6c-690e-11ef-9b05-86b8363ea862/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.1.Internal.sdk/usr/local/include/wtf/cf/TypeCastsCF.h"
-- "/AppleInternal/Library/BuildRoots/e2b39c6c-690e-11ef-9b05-86b8363ea862/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.1.Internal.sdk/usr/local/include/wtf/Deque.h"
-- "/AppleInternal/Library/BuildRoots/e2b39c6c-690e-11ef-9b05-86b8363ea862/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.1.Internal.sdk/usr/local/include/wtf/TypeCasts.h"
-- "/AppleInternal/Library/BuildRoots/e2b39c6c-690e-11ef-9b05-86b8363ea862/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.1.Internal.sdk/usr/local/include/wtf/text/StringConcatenate.h"
-- "/AppleInternal/Library/BuildRoots/e2b39c6c-690e-11ef-9b05-86b8363ea862/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.1.Internal.sdk/usr/local/include/wtf/CheckedRef.h"
++ "/AppleInternal/Library/BuildRoots/f3587ae2-763a-11ef-9333-86b8363ea862/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.1.Internal.sdk/usr/local/include/wtf/CheckedRef.h"
++ "/AppleInternal/Library/BuildRoots/f3587ae2-763a-11ef-9333-86b8363ea862/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.1.Internal.sdk/usr/local/include/wtf/cf/TypeCastsCF.h"
++ "/AppleInternal/Library/BuildRoots/f3587ae2-763a-11ef-9333-86b8363ea862/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.1.Internal.sdk/usr/local/include/wtf/TypeCasts.h"
++ "/AppleInternal/Library/BuildRoots/f3587ae2-763a-11ef-9333-86b8363ea862/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.1.Internal.sdk/usr/local/include/wtf/ObjectIdentifier.h"
++ "/AppleInternal/Library/BuildRoots/f3587ae2-763a-11ef-9333-86b8363ea862/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.1.Internal.sdk/usr/local/include/wtf/text/StringConcatenate.h"
 - "/AppleInternal/Library/BuildRoots/e2b39c6c-690e-11ef-9b05-86b8363ea862/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.1.Internal.sdk/usr/local/include/wtf/ObjectIdentifier.h"
+- "/AppleInternal/Library/BuildRoots/e2b39c6c-690e-11ef-9b05-86b8363ea862/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.1.Internal.sdk/usr/local/include/wtf/CheckedRef.h"
+- "/AppleInternal/Library/BuildRoots/e2b39c6c-690e-11ef-9b05-86b8363ea862/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.1.Internal.sdk/usr/local/include/wtf/text/StringConcatenate.h"
+- "/AppleInternal/Library/BuildRoots/e2b39c6c-690e-11ef-9b05-86b8363ea862/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.1.Internal.sdk/usr/local/include/wtf/cf/TypeCastsCF.h"
+- "/AppleInternal/Library/BuildRoots/e2b39c6c-690e-11ef-9b05-86b8363ea862/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.1.Internal.sdk/usr/local/include/wtf/TypeCasts.h"
+- "/AppleInternal/Library/BuildRoots/e2b39c6c-690e-11ef-9b05-86b8363ea862/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.1.Internal.sdk/usr/local/include/wtf/Deque.h"
 
 ```

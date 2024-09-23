@@ -27,10 +27,10 @@
    - /System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
 CStrings:
 + "14:52:41"
-+ "Sep 17 2024"
 + "MobileContainerManager-685~1336"
-- "MobileContainerManager-685~942"
++ "Sep 17 2024"
 - "Sep  2 2024"
 - "22:29:20"
+- "MobileContainerManager-685~942"
 
 ```

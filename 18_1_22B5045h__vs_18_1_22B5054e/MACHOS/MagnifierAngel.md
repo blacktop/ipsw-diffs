@@ -63,13 +63,13 @@
 +  CStrings:  635
  
 Symbols:
-+ _$s16MagnifierSupport23MAGCVPixelBufferWrapperCyACSo11CVBufferRefacfc
 + _$sSo13os_log_type_ta0A0E5debugABvgZ
++ _$s16MagnifierSupport23MAGCVPixelBufferWrapperCyACSo11CVBufferRefacfc
 - _$s16MagnifierSupport23MAGCVPixelBufferWrapperC05pixelD0ACSo11CVBufferRefa_tcfc
 CStrings:
-+ "Magnifier Angel could not generate image descrioption: %!@(MISSING)"
-+ "No text blocks detected from document"
 + "%!l(MISSING)d text blocks detected from document"
++ "No text blocks detected from document"
++ "Magnifier Angel could not generate image descrioption: %!@(MISSING)"
 - "Magnifier Angel could not generate image descrioption"
 
 ```

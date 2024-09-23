@@ -73,32 +73,32 @@
 +  CStrings:  439
  
 Symbols:
-- _fclose
-- _sscanf
-- _ftell
-- _fopen
-- _swift_task_addCancellationHandler
-- _swift_task_removeCancellationHandler
-- __availability_version_check
 - _fseek
-- _dispatch_once_f
 - _rewind
+- __availability_version_check
+- _sscanf
+- _swift_task_removeCancellationHandler
+- _swift_task_addCancellationHandler
+- _fopen
+- _ftell
 - _fread
+- _dispatch_once_f
+- _fclose
 - _dlsym
 CStrings:
-- "%!d(MISSING).%!d(MISSING).%!d(MISSING)"
-- "CFStringGetCString"
-- "CFGetTypeID"
 - "r"
-- "CFDictionaryGetValue"
 - "CFStringCreateWithCStringNoCopy"
-- "CFPropertyListCreateFromXMLData"
-- "/System/Library/CoreServices/SystemVersion.plist"
-- "kCFAllocatorNull"
-- "CFDataCreateWithBytesNoCopy"
-- "CFStringGetTypeID"
 - "ProductVersion"
-- "CFPropertyListCreateWithData"
+- "CFStringGetCString"
+- "CFDictionaryGetValue"
+- "CFGetTypeID"
+- "CFDataCreateWithBytesNoCopy"
+- "%!d(MISSING).%!d(MISSING).%!d(MISSING)"
+- "kCFAllocatorNull"
+- "/System/Library/CoreServices/SystemVersion.plist"
 - "CFRelease"
+- "CFPropertyListCreateFromXMLData"
+- "CFPropertyListCreateWithData"
+- "CFStringGetTypeID"
 
 ```

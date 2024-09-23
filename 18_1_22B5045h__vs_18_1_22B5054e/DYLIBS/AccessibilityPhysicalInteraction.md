@@ -54,8 +54,8 @@
 Symbols:
 - _AXLogTwiceRemoteScreen
 CStrings:
+- "[TWICE] Device is locked. Will not start Twice remote screen"
 - "isScreenLockedWithPasscode:"
 - "[TWICE] Device is locked, but still can dismiss Twice remote screen"
-- "[TWICE] Device is locked. Will not start Twice remote screen"
 
 ```

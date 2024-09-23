@@ -91,90 +91,90 @@
  
 Symbols:
 + _$ss22KeyedDecodingContainerV6decode_6forKeyS2dm_xtKF
-- _rewind
-- _dlsym
-- _fopen
+- _swift_taskGroup_wait_next_throwing
 - _$s10Foundation4DateV9formattedSSyF
-- _fseek
-- _fclose
 - _ftell
 - _$sSa37_appendElementAssumeUniqueAndCapacity_03newB0ySi_xntFyXl_Ts5
-- _dispatch_once_f
-- _sscanf
-- _$sSa16_createNewBuffer14bufferIsUnique15minimumCapacity13growForAppendySb_SiSbtFyXl_Ts5
-- _fread
-- __availability_version_check
-- _swift_unexpectedError
+- _rewind
+- _fclose
 - _$sSa034_makeUniqueAndReserveCapacityIfNotB0yyFyXl_Ts5
-- _swift_taskGroup_wait_next_throwing
+- _swift_unexpectedError
+- _fseek
+- _fread
+- _$sSa16_createNewBuffer14bufferIsUnique15minimumCapacity13growForAppendySb_SiSbtFyXl_Ts5
+- _fopen
+- __availability_version_check
+- _sscanf
+- _dispatch_once_f
+- _dlsym
 CStrings:
-+ "Sep 17 2024"
-+ "External purchase token update request failed for "
-+ "Invalid external purchase token family entity "
-+ "(ExternalPurchaseTokenV2Response in _A0B67E5E835CE5C4351F500DE01F7FFD)"
-+ " external purchase token request"
-+ "externalPurchaseTokenV2Refresh"
-+ "external_gateway_token_families"
-+ "Failed to save token family id for "
-+ "No Content-Type found in the response headers, cannot decode response"
-+ "Clearing saved token family ID for bundleID: "
-+ "Using cached token family ID for "
-+ "BindPaymentAccountEligibilityResponse"
-+ ", will request new external purchase tokens"
-+ "tokenType"
-+ "(ExternalPurchaseTokenV1UpdateResponse in _A0B67E5E835CE5C4351F500DE01F7FFD)"
-+ "hasActiveToken"
-+ "Ignoring external purchase token update request for non-v1 token"
-+ "cacheExpirationDate"
-+ " tokens found in response"
-+ "application/x-apple-plist"
-+ "storekit_external_purchase_token_families"
-+ "Requesting token "
-+ "tokenFamilyId"
-+ "_TtC9storekitdP33_A0B67E5E835CE5C4351F500DE01F7FFD31ExternalGatewayTokenFamilyStore"
 + "Failed to decode "
-+ "No ExternalGatewayTokenFamily migration for "
 + "Unsupported response content type: "
-+ " TEXT NOT NULL,\nPRIMARY KEY (\n"
-+ "Expected empty response"
-+ "_TtC9storekitdP33_A0B67E5E835CE5C4351F500DE01F7FFD32ExternalGatewayTokenFamilyEntity"
-+ "17:40:33"
-+ "DROP TABLE IF EXISTS external_gateway_tokens; DELETE FROM schema_version WHERE schema_name == 'storekit_external_purchase_tokens';"
-+ "(ExternalPurchaseTokenV1Response in _A0B67E5E835CE5C4351F500DE01F7FFD)"
-+ "Missing token family ID for "
++ "Invalid external purchase token family entity "
++ "Requesting token "
 + "tokenEntries"
++ "Missing token family ID for "
++ ", will request new external purchase tokens"
++ " TEXT NOT NULL,\nPRIMARY KEY (\n"
++ "Clearing saved token family ID for bundleID: "
++ "application/x-apple-plist"
++ "DROP TABLE IF EXISTS external_gateway_tokens; DELETE FROM schema_version WHERE schema_name == 'storekit_external_purchase_tokens';"
++ "(ExternalPurchaseTokenV1UpdateResponse in _A0B67E5E835CE5C4351F500DE01F7FFD)"
++ "No Content-Type found in the response headers, cannot decode response"
++ "Failed to save token family id for "
++ "(ExternalPurchaseTokenV1Response in _A0B67E5E835CE5C4351F500DE01F7FFD)"
++ "hasActiveToken"
++ "external_gateway_token_families"
 + "Saving new token family ID for "
-- "/System/Library/CoreServices/SystemVersion.plist"
-- "CFPropertyListCreateWithData"
-- "external_gateway_tokens"
-- "_TtC9storekitdP33_A0B67E5E835CE5C4351F500DE01F7FFD25ExternalGatewayTokenStore"
-- " INTEGER NOT NULL,\n"
-- "Sep  2 2024"
++ "tokenType"
++ "Using cached token family ID for "
++ "External purchase token update request failed for "
++ "BindPaymentAccountEligibilityResponse"
++ "_TtC9storekitdP33_A0B67E5E835CE5C4351F500DE01F7FFD32ExternalGatewayTokenFamilyEntity"
++ "externalPurchaseTokenV2Refresh"
++ " tokens found in response"
++ "tokenFamilyId"
++ "Sep 17 2024"
++ "17:40:33"
++ "storekit_external_purchase_token_families"
++ "cacheExpirationDate"
++ "(ExternalPurchaseTokenV2Response in _A0B67E5E835CE5C4351F500DE01F7FFD)"
++ "Expected empty response"
++ "Ignoring external purchase token update request for non-v1 token"
++ "No ExternalGatewayTokenFamily migration for "
++ " external purchase token request"
++ "_TtC9storekitdP33_A0B67E5E835CE5C4351F500DE01F7FFD31ExternalGatewayTokenFamilyStore"
+- "CFDictionaryGetValue"
+- "storekit_external_purchase_tokens"
+- "Saving new token for mode "
+- "23:41:45"
 - "Response states there is an active token, but no token information was parsed"
-- "CFDataCreateWithBytesNoCopy"
+- "/System/Library/CoreServices/SystemVersion.plist"
+- "Using cached token for mode "
+- "CFPropertyListCreateFromXMLData"
+- "CFStringGetCString"
+- "ProductVersion"
+- "Clearing all external purchase tokens before "
+- " INTEGER NOT NULL,\n"
+- "external_gateway_tokens"
+- "CFStringGetTypeID"
+- "No ExternalGatewayTokens migration for "
 - "Received external purchase token "
+- "%!d(MISSING).%!d(MISSING).%!d(MISSING)"
 - "r"
+- "CFPropertyListCreateWithData"
+- "Failed to save token ("
+- "CFRelease"
+- " DATETIME DEFAULT (timestamp()),\nPRIMARY KEY (\n"
 - "Invalid external purchase token entity "
 - "CFGetTypeID"
-- "CFDictionaryGetValue"
-- "No ExternalGatewayTokens migration for "
-- "Failed to save token ("
-- "kCFAllocatorNull"
-- "Clearing all external purchase tokens before "
-- "Saving new token for mode "
-- "ProductVersion"
-- "CFStringGetTypeID"
-- "_Concurrency/TaskGroup.swift"
-- "CFStringCreateWithCStringNoCopy"
-- "%!d(MISSING).%!d(MISSING).%!d(MISSING)"
-- "storekit_external_purchase_tokens"
-- " DATETIME DEFAULT (timestamp()),\nPRIMARY KEY (\n"
-- "CFStringGetCString"
-- "Error updating token status: "
-- "23:41:45"
-- "Using cached token for mode "
-- "CFRelease"
 - "_TtC9storekitdP33_A0B67E5E835CE5C4351F500DE01F7FFD26ExternalGatewayTokenEntity"
-- "CFPropertyListCreateFromXMLData"
+- "_Concurrency/TaskGroup.swift"
+- "CFDataCreateWithBytesNoCopy"
+- "kCFAllocatorNull"
+- "Error updating token status: "
+- "_TtC9storekitdP33_A0B67E5E835CE5C4351F500DE01F7FFD25ExternalGatewayTokenStore"
+- "Sep  2 2024"
+- "CFStringCreateWithCStringNoCopy"
 
 ```

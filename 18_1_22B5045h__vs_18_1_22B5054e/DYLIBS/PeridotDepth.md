@@ -36,8 +36,8 @@
  
 CStrings:
 + "unknown comp buffer version in NVM (%!d(MISSING))"
-- "nvmToFDR"
 - "false && \"unknow comp buffer version\""
+- "nvmToFDR"
 - "unknow comp buffer version"
 
 ```

@@ -38,40 +38,40 @@
  
 Symbols:
 + _FigSignalErrorAt
-- _FigSignalErrorAt3
-- __os_log_send_and_compose_impl
-- _fig_log_emitter_get_os_log_and_send_and_compose_flags_and_os_log_type
 - _fig_log_get_emitter
+- __os_log_send_and_compose_impl
+- _FigSignalErrorAt3
 - _fig_log_call_emit_and_clean_up_after_send_and_compose
 - _os_log_type_enabled
+- _fig_log_emitter_get_os_log_and_send_and_compose_flags_and_os_log_type
 CStrings:
-- "kAudioHardwareUnsupportedOperationError"
-- "APHALHandoffAudioControl.c"
-- "NULL changeRecord"
-- "No AudioEngine"
-- "kCMBaseObjectError_AllocationFailed"
-- "Failed to create notification queue"
-- "EndpointStream has NULL ID"
-- "APHALAudioControl.c"
-- "Could not allocate volumeContextRef"
-- "kFigEndpointStreamError_InvalidParameter"
-- "APHALHandoffAudioDevice.c"
-- "kCMBaseObjectError_ParamErr"
-- "APHALAudioStream.c"
-- "kAudioHardwareIllegalOperationError"
-- "(Fig)"
-- "AirPlayHALPluginFactory %!s(MISSING): apPlugin_InstantiateAirPlayEndpointManager: APGetEndpointManager returned [%!p(MISSING)]"
-- "%!s(MISSING)%!s(MISSING)%!s(MISSING) signalled err=%!d(MISSING) (%!s(MISSING)) (%!s(MISSING)) at %!s(MISSING):%!d(MISSING)"
-- "kAudioHardwareBadObjectError"
-- "Expecting WriteMix operation"
-- "APHALAudioDevice.c"
-- "Could not allocate APHALAudioSharedState"
-- "com.apple.coremedia"
-- "Unknown change action"
-- "Could not allocate APHALHandoffAudioSharedState"
-- "Device was unplugged"
-- "Need at least one supported PCM format from endpointStream"
-- "kAudioHardwareBadDeviceError"
 - "APHALHandoffAudioStream.c"
+- "No AudioEngine"
+- "APHALAudioControl.c"
+- "com.apple.coremedia"
+- "kAudioHardwareUnsupportedOperationError"
+- "Could not allocate APHALHandoffAudioSharedState"
+- "Could not allocate volumeContextRef"
+- "APHALAudioStream.c"
+- "kFigEndpointStreamError_InvalidParameter"
+- "Unknown change action"
+- "EndpointStream has NULL ID"
+- "(Fig)"
+- "NULL changeRecord"
+- "AirPlayHALPluginFactory %!s(MISSING): apPlugin_InstantiateAirPlayEndpointManager: APGetEndpointManager returned [%!p(MISSING)]"
+- "Could not allocate APHALAudioSharedState"
+- "kCMBaseObjectError_AllocationFailed"
+- "Need at least one supported PCM format from endpointStream"
+- "kAudioHardwareIllegalOperationError"
+- "kCMBaseObjectError_ParamErr"
+- "%!s(MISSING)%!s(MISSING)%!s(MISSING) signalled err=%!d(MISSING) (%!s(MISSING)) (%!s(MISSING)) at %!s(MISSING):%!d(MISSING)"
+- "APHALAudioDevice.c"
+- "Device was unplugged"
+- "APHALHandoffAudioControl.c"
+- "APHALHandoffAudioDevice.c"
+- "Failed to create notification queue"
+- "kAudioHardwareBadDeviceError"
+- "Expecting WriteMix operation"
+- "kAudioHardwareBadObjectError"
 
 ```

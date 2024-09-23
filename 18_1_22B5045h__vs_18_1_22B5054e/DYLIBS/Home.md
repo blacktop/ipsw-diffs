@@ -105,36 +105,36 @@
 +  CStrings:  22807
  
 Symbols:
-- _rewind
-- _ftell
 - _sscanf
-- _fread
-- _fopen
-- _dlsym
+- _rewind
 - _fclose
 - _fseek
-- _dispatch_once_f
+- _ftell
+- _fopen
 - __availability_version_check
+- _dlsym
+- _dispatch_once_f
+- _fread
 CStrings:
 + "Disabling data model delegates with reason: %!@(MISSING)"
-+ "reconnectDataModelDelegatesWithReason:"
-+ "HFHomeKitDispatcher._initializeObservers"
-+ "disconnectDataModelDelegatesWithReason:"
-+ "Enabling data model delegates with reason: %!@(MISSING)"
-+ "fetchedItems"
 + "setAutomaticallySynchronizesHomeDataModel:"
-- "CFStringCreateWithCStringNoCopy"
-- "kCFAllocatorNull"
++ "HFHomeKitDispatcher._initializeObservers"
++ "Enabling data model delegates with reason: %!@(MISSING)"
++ "reconnectDataModelDelegatesWithReason:"
++ "disconnectDataModelDelegatesWithReason:"
++ "fetchedItems"
 - "CFPropertyListCreateFromXMLData"
-- "CFStringGetCString"
 - "CFPropertyListCreateWithData"
-- "/System/Library/CoreServices/SystemVersion.plist"
-- "CFStringGetTypeID"
-- "%!d(MISSING).%!d(MISSING).%!d(MISSING)"
 - "CFDictionaryGetValue"
-- "CFGetTypeID"
-- "ProductVersion"
 - "CFDataCreateWithBytesNoCopy"
+- "/System/Library/CoreServices/SystemVersion.plist"
+- "CFStringCreateWithCStringNoCopy"
+- "CFStringGetTypeID"
+- "ProductVersion"
+- "%!d(MISSING).%!d(MISSING).%!d(MISSING)"
+- "CFGetTypeID"
 - "CFRelease"
+- "CFStringGetCString"
+- "kCFAllocatorNull"
 
 ```

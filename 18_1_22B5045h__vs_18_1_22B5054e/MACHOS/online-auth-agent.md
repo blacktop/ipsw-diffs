@@ -56,20 +56,20 @@
 +  CStrings:  865
  
 CStrings:
-+ "Rejected app/profile combination: %!@(MISSING), %!@(MISSING)"
-+ "Permanently rejected profile: %!@(MISSING), %!@(MISSING)"
-+ "Signing JSON message for %!@(MISSING), %!@(MISSING)"
-+ "Sending request for %!@(MISSING), %!@(MISSING)"
-+ "Rejected profile: %!@(MISSING), %!@(MISSING)"
-+ "Performing auth request for: %!@(MISSING), %!@(MISSING), %!@(MISSING)"
 + "Full JSON message to send: %!s(MISSING)"
-+ "Authorized: %!@(MISSING), %!@(MISSING)"
++ "Rejected profile: %!@(MISSING), %!@(MISSING)"
 + "Response received"
-- "Rejected profile."
++ "Performing auth request for: %!@(MISSING), %!@(MISSING), %!@(MISSING)"
++ "Sending request for %!@(MISSING), %!@(MISSING)"
++ "Permanently rejected profile: %!@(MISSING), %!@(MISSING)"
++ "Rejected app/profile combination: %!@(MISSING), %!@(MISSING)"
++ "Signing JSON message for %!@(MISSING), %!@(MISSING)"
++ "Authorized: %!@(MISSING), %!@(MISSING)"
+- "Permanently rejected profile."
+- "App Path: %!@(MISSING)"
 - "Authorized."
 - "Rejected app/profile combination."
-- "Permanently rejected profile."
 - "Sending to server: %!s(MISSING)"
-- "App Path: %!@(MISSING)"
+- "Rejected profile."
 
 ```

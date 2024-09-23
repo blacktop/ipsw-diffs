@@ -53,33 +53,33 @@
 +  CStrings:  506
  
 Symbols:
-- _fclose
-- __availability_version_check
-- _$sScG4next9isolationxSgScA_pSgYi_tYaF
-- _fread
-- _$sScG4next9isolationxSgScA_pSgYi_tYaFTu
-- _sscanf
+- _ftell
 - _rewind
+- _swift_taskGroup_wait_next_throwing
+- __availability_version_check
 - _fseek
 - _fopen
-- _ftell
-- _swift_taskGroup_wait_next_throwing
+- _$sScG4next9isolationxSgScA_pSgYi_tYaF
+- _fclose
+- _fread
 - _dispatch_once_f
+- _$sScG4next9isolationxSgScA_pSgYi_tYaFTu
+- _sscanf
 CStrings:
-- "CFPropertyListCreateWithData"
-- "/System/Library/CoreServices/SystemVersion.plist"
-- "CFDataCreateWithBytesNoCopy"
-- "CFStringGetTypeID"
-- "r"
-- "CFStringCreateWithCStringNoCopy"
+- "CFRelease"
+- "%!d(MISSING).%!d(MISSING).%!d(MISSING)"
 - "ProductVersion"
 - "_Concurrency/TaskGroup.swift"
-- "CFStringGetCString"
+- "CFStringGetTypeID"
+- "/System/Library/CoreServices/SystemVersion.plist"
+- "r"
 - "CFPropertyListCreateFromXMLData"
-- "%!d(MISSING).%!d(MISSING).%!d(MISSING)"
+- "CFDataCreateWithBytesNoCopy"
 - "kCFAllocatorNull"
-- "CFRelease"
+- "CFStringCreateWithCStringNoCopy"
+- "CFPropertyListCreateWithData"
 - "CFDictionaryGetValue"
+- "CFStringGetCString"
 - "CFGetTypeID"
 
 ```

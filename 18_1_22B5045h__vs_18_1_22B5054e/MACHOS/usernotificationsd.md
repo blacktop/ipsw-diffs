@@ -66,26 +66,26 @@
 +  CStrings:  126
  
 Symbols:
-+ _$s21UserNotificationsCore19StateCaptureServiceCMa
-+ _$s21UserNotificationsCore19StateCaptureServiceC6sharedACvgZ
-+ _$ss6HasherV5_seedABSi_tcfC
-+ _$s21UserNotificationsCore06RemoteB10PropertiesC9isEnabledSbvgTj
-+ _$ss6HasherV9_finalizeSiyF
 + _$s21UserNotificationsCore14StateCapturingP07captureD0SDySSs23CustomStringConvertible_pSgGyKFTq
++ _$ss27_stringCompareWithSmolCheck__9expectingSbs11_StringGutsV_ADs01_G16ComparisonResultOtF
++ _$s21UserNotificationsCore14StateCapturingMp
++ _$s21UserNotificationsCore19StateCaptureServiceCMa
++ _$s21UserNotificationsCore06RemoteB10PropertiesC9isEnabledSbvgTj
++ _$sytN
++ _swift_initStackObject
++ _os_unfair_lock_trylock
++ _$ss18_DictionaryStorageC8allocate8capacityAByxq_GSi_tFZ
++ _$s21UserNotificationsCore14StateCapturingP17stateCaptureTitleSSvgTq
++ _$ss6HasherV5_seedABSi_tcfC
 + _$ss23CustomStringConvertibleMp
-+ _$ss18_DictionaryStorageCMn
++ _$s21UserNotificationsCore19StateCaptureServiceC7addItem_10identifieryAA0D9Capturing_p_SStFTj
 + _$s21UserNotificationsCore06RemoteB10PropertiesC9isCapableSbvgTj
-+ _$sSbs23CustomStringConvertiblesWP
++ _$s21UserNotificationsCore19StateCaptureServiceC6sharedACvgZ
++ _$ss6HasherV9_finalizeSiyF
 + __swiftEmptyDictionarySingleton
 + _$sSS4hash4intoys6HasherVz_tF
-+ _$sytN
-+ _$ss27_stringCompareWithSmolCheck__9expectingSbs11_StringGutsV_ADs01_G16ComparisonResultOtF
-+ _$s21UserNotificationsCore14StateCapturingP17stateCaptureTitleSSvgTq
-+ _os_unfair_lock_trylock
-+ _swift_initStackObject
-+ _$s21UserNotificationsCore14StateCapturingMp
-+ _$s21UserNotificationsCore19StateCaptureServiceC7addItem_10identifieryAA0D9Capturing_p_SStFTj
-+ _$ss18_DictionaryStorageC8allocate8capacityAByxq_GSi_tFZ
++ _$sSbs23CustomStringConvertiblesWP
++ _$ss18_DictionaryStorageCMn
 CStrings:
 + "AlertCoordination.BulletinObserver"
 + "properties.active"

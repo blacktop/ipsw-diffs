@@ -77,24 +77,24 @@
 +  CStrings:  2956
  
 CStrings:
-+ "[%!(BADPREC)%!h(MISSING)hx] [1st connection] Running sync requests %!l(MISSING)d: {%!{(MISSING)public}s}, kinds: %!{(MISSING)public}s; App state: %!{(MISSING)public}s"
 + "[%!(BADPREC)%!h(MISSING)hx] Cancelling idle connection %!{(MISSING)public}s."
-+ "APPENDLIMIT"
-+ "[%!(BADPREC)%!h(MISSING)hx-%!{(MISSING)public}s] %!{(MISSING)public}s IDLE is %!f(MISSING) seconds old (< %!f(MISSING)). Not refreshing."
 + "[%!(BADPREC)%!h(MISSING)hx] {%!l(MISSING)d} [1st connection] Mailbox: {%!(BADPREC)%!h(MISSING)x} '%!{(MISSING)sensitive,mask.mailbox}s' %!{(MISSING)public}s, %!{(MISSING)public}s, {%!{(MISSING)public}s} last sync:  {local: %!{(MISSING)public}s, remote: %!{(MISSING)public}s}"
 + "[%!(BADPREC)%!h(MISSING)hx-%!{(MISSING)public}s] [{%!(BADPREC)%!h(MISSING)x}-%!{(MISSING)sensitive,mask.mailbox}s] Created task. Local UID validity: 0x%!x(MISSING), reason: %!{(MISSING)public}s"
-+ "[%!(BADPREC)%!h(MISSING)hx] [Background] Skipping mailbox {%!(BADPREC)%!h(MISSING)x} '%!{(MISSING)sensitive,mask.mailbox}s' until next sync."
-+ "[%!(BADPREC)%!h(MISSING)hx] Tearing down."
++ "APPENDLIMIT"
 + "[%!(BADPREC)%!h(MISSING)hx-%!{(MISSING)public}s] [{%!(BADPREC)%!h(MISSING)x}-%!{(MISSING)sensitive,mask.mailbox}s] Completed command for boundary IDs, but didn’t get any result from the server."
-+ "[%!(BADPREC)%!h(MISSING)hx] Timer fired: checking for idle connections to cancel."
 + "[%!(BADPREC)%!h(MISSING)hx] Deinit."
++ "[%!(BADPREC)%!h(MISSING)hx] Tearing down."
++ "[%!(BADPREC)%!h(MISSING)hx] Timer fired: checking for idle connections to cancel."
++ "[%!(BADPREC)%!h(MISSING)hx] [Background] Skipping mailbox {%!(BADPREC)%!h(MISSING)x} '%!{(MISSING)sensitive,mask.mailbox}s' until next sync."
++ "[%!(BADPREC)%!h(MISSING)hx-%!{(MISSING)public}s] %!{(MISSING)public}s IDLE is %!f(MISSING) seconds old (< %!f(MISSING)). Not refreshing."
++ "[%!(BADPREC)%!h(MISSING)hx] [1st connection] Running sync requests %!l(MISSING)d: {%!{(MISSING)public}s}, kinds: %!{(MISSING)public}s; App state: %!{(MISSING)public}s"
 - "[[%!(BADPREC)%!h(MISSING)hx]] Deinit."
 - "[%!(BADPREC)%!h(MISSING)hx] [1st connection] Running sync requests %!l(MISSING)d: {%!{(MISSING)public}s}, kinds: %!s(MISSING)"
+- "[%!(BADPREC)%!h(MISSING)hx] {%!l(MISSING)d} [1st connection] Mailbox: '%!{(MISSING)sensitive,mask.mailbox}s' %!{(MISSING)public}s {%!{(MISSING)public}s} last sync:  {local: %!{(MISSING)public}s, remote: %!{(MISSING)public}s}"
+- "[%!(BADPREC)%!h(MISSING)hx] Cancelling connection %!{(MISSING)public}s."
 - "[%!(BADPREC)%!h(MISSING)hx-%!{(MISSING)public}s] %!{(MISSING)public}s IDLE is %!l(MISSING)d seconds old (< %!l(MISSING)d). Not refreshing."
 - "[%!(BADPREC)%!h(MISSING)hx-%!{(MISSING)public}s] [{%!(BADPREC)%!h(MISSING)x}-%!{(MISSING)sensitive,mask.mailbox}s] Created task. Local UID validity: 0x%!x(MISSING)"
-- "[%!(BADPREC)%!h(MISSING)hx] {%!l(MISSING)d} [1st connection] Mailbox: '%!{(MISSING)sensitive,mask.mailbox}s' %!{(MISSING)public}s {%!{(MISSING)public}s} last sync:  {local: %!{(MISSING)public}s, remote: %!{(MISSING)public}s}"
 - "[[%!(BADPREC)%!h(MISSING)hx]] Tearing down."
-- "[%!(BADPREC)%!h(MISSING)hx] Cancelling connection %!{(MISSING)public}s."
 - "[%!(BADPREC)%!h(MISSING)hx] Timer fired: checking for cancelled connections."
 
 ```

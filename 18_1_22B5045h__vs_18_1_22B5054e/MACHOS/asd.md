@@ -96,158 +96,158 @@
 +  CStrings:  2350
  
 Symbols:
-+ _OBJC_CLASS_$__TtCC3asd32ASScreenContinuityServicesHelper21ScreenMirroringStatus
-+ _$s3asd32ASScreenContinuityServicesHelperC21ScreenMirroringStatusC0H0OMn
-+ _$s3asd32ASScreenContinuityServicesHelperC21ScreenMirroringStatusC0H0O8rawValueAGSgSi_tcfC
-+ _$s3asd32ASScreenContinuityServicesHelperC21ScreenMirroringStatusC0H0OMa
 + _$s3asd32ASScreenContinuityServicesHelperC21ScreenMirroringStatusC0H0O8rawValueSivpMV
++ _$s3asd32ASScreenContinuityServicesHelperC21ScreenMirroringStatusCMa
++ _$s3asd32ASScreenContinuityServicesHelperC21ScreenMirroringStatusC12sessionStartSo6NSDateCSgvpMV
++ _OBJC_CLASS_$_TUCallCenter
++ _$s3asd32ASScreenContinuityServicesHelperC21ScreenMirroringStatusC6status12sessionStartA2E0H0O_So6NSDateCSgtcfCTq
++ _$s3asd32ASScreenContinuityServicesHelperC21ScreenMirroringStatusCMn
++ _$s3asd32ASScreenContinuityServicesHelperC21ScreenMirroringStatusC6statusAE0H0OvpMV
 + _$s3asd32ASScreenContinuityServicesHelperC25loadScreenMirroringStatusAC0ghI0CyYaKFTq
 + _$s3asd32ASScreenContinuityServicesHelperC21ScreenMirroringStatusC0H0ON
-+ _$s3asd32ASScreenContinuityServicesHelperC21ScreenMirroringStatusC6status12sessionStartA2E0H0O_So6NSDateCSgtcfCTq
-+ _$s3asd32ASScreenContinuityServicesHelperC21ScreenMirroringStatusC0H0OSYAAMc
-+ _$s3asd32ASScreenContinuityServicesHelperC21ScreenMirroringStatusC6statusAE0H0OvpWvd
-+ _$s3asd32ASScreenContinuityServicesHelperC21ScreenMirroringStatusCMa
-+ _$s3asd32ASScreenContinuityServicesHelperC25loadScreenMirroringStatusAC0ghI0CyYaKFTu
-+ _$s3asd32ASScreenContinuityServicesHelperC21ScreenMirroringStatusCAEycfc
-+ _$s3asd32ASScreenContinuityServicesHelperC21ScreenMirroringStatusC0H0OSQAAMc
-+ _$s3asd32ASScreenContinuityServicesHelperC21ScreenMirroringStatusC6statusAE0H0Ovg
-+ _$s3asd32ASScreenContinuityServicesHelperC25loadScreenMirroringStatusAC0ghI0CyYaKF
 + _$s3asd32ASScreenContinuityServicesHelperC21ScreenMirroringStatusC0H0OSHAAMc
++ _$s3asd32ASScreenContinuityServicesHelperC21ScreenMirroringStatusC0H0O8rawValueSivg
++ _$s3asd32ASScreenContinuityServicesHelperC25loadScreenMirroringStatusAC0ghI0CyYaKFTu
++ _$s3asd32ASScreenContinuityServicesHelperC21ScreenMirroringStatusC12sessionStartSo6NSDateCSgvg
++ _$s3asd32ASScreenContinuityServicesHelperC21ScreenMirroringStatusC0H0OMn
++ _$s3asd32ASScreenContinuityServicesHelperC25loadScreenMirroringStatusAC0ghI0CyYaKF
++ _$s3asd32ASScreenContinuityServicesHelperC21ScreenMirroringStatusCN
++ _$s3asd32ASScreenContinuityServicesHelperC21ScreenMirroringStatusC0H0O8rawValueAGSgSi_tcfC
++ _$s3asd32ASScreenContinuityServicesHelperC21ScreenMirroringStatusC0H0OMa
++ _$s3asd32ASScreenContinuityServicesHelperC21ScreenMirroringStatusC6statusAE0H0Ovg
 + _$s3asd32ASScreenContinuityServicesHelperC21ScreenMirroringStatusCAEycfC
++ _OBJC_CLASS_$__TtCC3asd32ASScreenContinuityServicesHelper21ScreenMirroringStatus
++ _$s3asd32ASScreenContinuityServicesHelperC21ScreenMirroringStatusC0H0OSYAAMc
 + _$s3asd32ASScreenContinuityServicesHelperC21ScreenMirroringStatusC6status12sessionStartA2E0H0O_So6NSDateCSgtcfC
 + _$s3asd32ASScreenContinuityServicesHelperC21ScreenMirroringStatusCfD
-+ _$s3asd32ASScreenContinuityServicesHelperC21ScreenMirroringStatusCN
-+ _OBJC_METACLASS_$__TtCC3asd32ASScreenContinuityServicesHelper21ScreenMirroringStatus
-+ _$s3asd32ASScreenContinuityServicesHelperC21ScreenMirroringStatusC12sessionStartSo6NSDateCSgvg
-+ _OBJC_CLASS_$_TUUIXPCClientConnection
-+ _$s3asd32ASScreenContinuityServicesHelperC21ScreenMirroringStatusC6statusAE0H0OvpMV
-+ _$s3asd32ASScreenContinuityServicesHelperC21ScreenMirroringStatusC0H0O8rawValueSivg
 + _$s3asd32ASScreenContinuityServicesHelperC21ScreenMirroringStatusC6status12sessionStartA2E0H0O_So6NSDateCSgtcfc
-+ _$s3asd32ASScreenContinuityServicesHelperC21ScreenMirroringStatusCMn
-+ _$s3asd32ASScreenContinuityServicesHelperC21ScreenMirroringStatusC12sessionStartSo6NSDateCSgvpMV
++ _OBJC_METACLASS_$__TtCC3asd32ASScreenContinuityServicesHelper21ScreenMirroringStatus
++ _$s3asd32ASScreenContinuityServicesHelperC21ScreenMirroringStatusC6statusAE0H0OvpWvd
++ _$s3asd32ASScreenContinuityServicesHelperC21ScreenMirroringStatusC0H0OSQAAMc
++ _$s3asd32ASScreenContinuityServicesHelperC21ScreenMirroringStatusCAEycfc
++ _OBJC_CLASS_$_TUUIXPCClientConnection
 + _$s3asd32ASScreenContinuityServicesHelperC21ScreenMirroringStatusC12sessionStartSo6NSDateCSgvpWvd
-+ _OBJC_CLASS_$_TUCallCenter
-- _kSecAttrSerialNumber
-- _kSecClassCertificate
-- _$s3asd32ASScreenContinuityServicesHelperC31loadActiveScreenMirroringDeviceAC0ghiJ0CyYaKFTu
-- _SecItemDelete
-- _kSecAttrAccessibleAlwaysThisDeviceOnlyPrivate
-- _kMAOptionsBAAOIDDeviceOSInformation
-- _$s3asd32ASScreenContinuityServicesHelperC27ActiveScreenMirroringDeviceC02isF0SbvpMV
-- _NSUnderlyingErrorKey
-- _$s3asd32ASScreenContinuityServicesHelperC27ActiveScreenMirroringDeviceC12sessionStart10Foundation4DateVSgvg
-- _$s3asd32ASScreenContinuityServicesHelperC27ActiveScreenMirroringDeviceCfD
-- _OBJC_METACLASS_$__TtCC3asd32ASScreenContinuityServicesHelper27ActiveScreenMirroringDevice
-- _kMAOptionsBAAAccessControls
-- _$s3asd32ASScreenContinuityServicesHelperC27ActiveScreenMirroringDeviceCN
-- _$s3asd32ASScreenContinuityServicesHelperC27ActiveScreenMirroringDeviceCMa
-- _$s3asd32ASScreenContinuityServicesHelperC27ActiveScreenMirroringDeviceCMn
-- _$s3asd32ASScreenContinuityServicesHelperC31loadActiveScreenMirroringDeviceAC0ghiJ0CyYaKFTq
-- _kSecClassKey
-- _kSecValueRef
-- _SecCertificateCopySerialNumberData
-- _kMAOptionsBAAOIDUCRTDeviceIdentifiers
-- __os_log_default
-- _kSecAttrLabel
-- _kMAOptionsBAAOIDHardwareProperties
-- _kMAOptionsBAAValidity
-- _kMAOptionsBAAOIDAccessControls
-- _$s3asd32ASScreenContinuityServicesHelperC27ActiveScreenMirroringDeviceC02isF0Sbvg
-- _$s3asd32ASScreenContinuityServicesHelperC31loadActiveScreenMirroringDeviceAC0ghiJ0CyYaKF
-- _OBJC_CLASS_$__TtCC3asd32ASScreenContinuityServicesHelper27ActiveScreenMirroringDevice
-- _$s3asd32ASScreenContinuityServicesHelperC27ActiveScreenMirroringDeviceC02isF0SbvpWvd
-- _$s3asd32ASScreenContinuityServicesHelperC27ActiveScreenMirroringDeviceC12sessionStart10Foundation4DateVSgvpWvd
-- _kMAOptionsBAAOIDSToInclude
-- _kMAOptionsBAAOIDKeyUsageProperties
-- _$s3asd32ASScreenContinuityServicesHelperC27ActiveScreenMirroringDeviceC12sessionStart10Foundation4DateVSgvpMV
-- _kMAOptionsBAAIgnoreExistingKeychainItems
-- _$s3asd32ASScreenContinuityServicesHelperC27ActiveScreenMirroringDeviceCAEycfc
 - _kSecReturnRef
-- _kMAOptionsBAASCRTAttestation
-- _SecCertificateCopyData
+- _SecCertificateCopySerialNumberData
+- _kSecValueRef
 - _SecAccessControlCreateWithFlags
-- _kMAOptionsBAAOIDDeviceIdentifiers
-- _$s3asd32ASScreenContinuityServicesHelperC27ActiveScreenMirroringDeviceCAEycfC
 - _SecCertificateCreateWithData
+- _$s3asd32ASScreenContinuityServicesHelperC31loadActiveScreenMirroringDeviceAC0ghiJ0CyYaKF
+- _kMAOptionsBAAOIDUCRTDeviceIdentifiers
 - _DeviceIdentityIssueClientCertificateWithCompletion
+- _$s3asd32ASScreenContinuityServicesHelperC27ActiveScreenMirroringDeviceCMa
+- _kMAOptionsBAAValidity
+- _$s3asd32ASScreenContinuityServicesHelperC27ActiveScreenMirroringDeviceC02isF0SbvpMV
+- _SecCertificateCopyData
+- _$s3asd32ASScreenContinuityServicesHelperC27ActiveScreenMirroringDeviceC12sessionStart10Foundation4DateVSgvg
+- _kMAOptionsBAAOIDDeviceOSInformation
+- _$s3asd32ASScreenContinuityServicesHelperC27ActiveScreenMirroringDeviceCAEycfc
+- _kMAOptionsBAAAccessControls
+- _OBJC_CLASS_$__TtCC3asd32ASScreenContinuityServicesHelper27ActiveScreenMirroringDevice
+- _kMAOptionsBAAOIDKeyUsageProperties
+- _kMAOptionsBAAOIDHardwareProperties
+- _$s3asd32ASScreenContinuityServicesHelperC31loadActiveScreenMirroringDeviceAC0ghiJ0CyYaKFTq
+- _kMAOptionsBAAOIDAccessControls
+- _SecItemDelete
+- _kSecAttrSerialNumber
+- _$s3asd32ASScreenContinuityServicesHelperC31loadActiveScreenMirroringDeviceAC0ghiJ0CyYaKFTu
+- _kSecClassKey
+- _$s3asd32ASScreenContinuityServicesHelperC27ActiveScreenMirroringDeviceC02isF0Sbvg
+- _$s3asd32ASScreenContinuityServicesHelperC27ActiveScreenMirroringDeviceCfD
+- _kMAOptionsBAAOIDDeviceIdentifiers
+- _kSecAttrAccessibleAlwaysThisDeviceOnlyPrivate
+- _$s3asd32ASScreenContinuityServicesHelperC27ActiveScreenMirroringDeviceC02isF0SbvpWvd
+- __os_log_default
+- _kMAOptionsBAAOIDSToInclude
+- _kSecClassCertificate
+- _$s3asd32ASScreenContinuityServicesHelperC27ActiveScreenMirroringDeviceCMn
+- _$s3asd32ASScreenContinuityServicesHelperC27ActiveScreenMirroringDeviceC12sessionStart10Foundation4DateVSgvpWvd
+- _NSUnderlyingErrorKey
+- _kSecAttrLabel
+- _$s3asd32ASScreenContinuityServicesHelperC27ActiveScreenMirroringDeviceCAEycfC
+- _kMAOptionsBAAIgnoreExistingKeychainItems
+- _$s3asd32ASScreenContinuityServicesHelperC27ActiveScreenMirroringDeviceC12sessionStart10Foundation4DateVSgvpMV
+- _kMAOptionsBAASCRTAttestation
+- _$s3asd32ASScreenContinuityServicesHelperC27ActiveScreenMirroringDeviceCN
+- _OBJC_METACLASS_$__TtCC3asd32ASScreenContinuityServicesHelper27ActiveScreenMirroringDevice
 CStrings:
-+ "ms"
-+ "T@\"NSDate\",N,R,VsessionStart"
-+ "_TtCC3asd32ASScreenContinuityServicesHelper21ScreenMirroringStatus"
-+ "hasActiveCalls:"
-+ "@\"_TtC3asd32ASScreenContinuityServicesHelper\""
-+ "@\"TUCallCenter\""
-+ "initWithStatus:sessionStart:"
-+ "loadScreenMirroringStatusWithCompletionHandler:"
-+ "initWithListenerEndpoint:callCenter:"
-+ "_tuCallCenter"
-+ "_scsHelper"
-+ "SEID missing, unexpected."
-+ "@\"TUUIXPCClientConnection\""
-+ "com.apple.asd.ssdfe.scs"
-+ "v24@?0@\"NSXPCListenerEndpoint\"8@\"NSError\"16"
-+ "isConversation"
-+ "_inCallService"
-+ "fetchRemoteControlStatus:"
-+ "md"
-+ "zjSRqCgYhfa1wFgr:gqhuZKS8Xs6ugnFL:wRPFKB7h3xbveJFz:x1IqrF8Flbgd3Jhk:"
-+ "_queue"
-+ "@32@0:8q16@24"
-+ "Tq,N,R,Vstatus"
-+ "fetchAnonymousXPCEndpoint:"
 + "countOfCallsPassingTest:"
++ "@\"TUUIXPCClientConnection\""
++ "isConversation"
++ "_tuCallCenter"
 + "B16@?0@\"TUCall\"8"
-+ "v24@?0@\"_TtCC3asd32ASScreenContinuityServicesHelper21ScreenMirroringStatus\"8@\"NSError\"16"
++ "_TtCC3asd32ASScreenContinuityServicesHelper21ScreenMirroringStatus"
 + "asd.ScreenMirroringStatus"
++ "@\"TUCallCenter\""
++ "_scsHelper"
++ "initWithListenerEndpoint:callCenter:"
++ "loadScreenMirroringStatusWithCompletionHandler:"
++ "SEID missing, unexpected."
++ "v24@?0@\"NSXPCListenerEndpoint\"8@\"NSError\"16"
++ "fetchRemoteControlStatus:"
++ "@32@0:8q16@24"
++ "T@\"NSDate\",N,R,VsessionStart"
++ "zjSRqCgYhfa1wFgr:gqhuZKS8Xs6ugnFL:wRPFKB7h3xbveJFz:x1IqrF8Flbgd3Jhk:"
++ "ms"
++ "initWithStatus:sessionStart:"
++ "hasActiveCalls:"
 + "v24@0:8@?<v@?@\"_TtCC3asd32ASScreenContinuityServicesHelper21ScreenMirroringStatus\"@\"NSError\">16"
-- "m_a"
-- "Error reading certificate: %!@(MISSING)"
-- "Requesting new one"
-- "Ran out of memory creating buffer for Certificate"
-- "zjSRqCgYhfa1wFgr:gqhuZKS8Xs6ugnFL:wRPFKB7h3xbveJFz:x1IqrF8Flbgd3Jhk:UtPlzRffoEpw7Ue1:"
-- "Success deleting one duplicate"
-- "Failed to create access control: %!s(MISSING)"
-- "loadActiveScreenMirroringDeviceWithCompletionHandler:"
-- "BEDTime check is disabled."
-- "asd.ActiveScreenMirroringDevice"
-- "Issuer Certificate already present, cleaning out duplicates with different labels"
-- "No BAA key found"
-- "v24@?0@\"_TtCC3asd32ASScreenContinuityServicesHelper27ActiveScreenMirroringDevice\"8@\"NSError\"16"
-- "ignoring error deleting BAA issuer certificate"
-- "m_s"
-- "Error saving keys and certificates in keychain"
-- "_TtCC3asd32ASScreenContinuityServicesHelper27ActiveScreenMirroringDevice"
-- "ERROR unexpected total certificates returned"
-- "Error %!@(MISSING)"
-- "ASBAA-cert"
-- "ignoring error deleting BAA certificate"
-- "ignoring error deleting BAA key"
-- "No BAA certificate found"
-- "v32@?0^{__SecKey={__CFRuntimeBase=QAQ}^{__SecKeyDescriptor}^v}8@\"NSArray\"16@\"NSError\"24"
-- "com.apple.asd.baa"
-- "%!s(MISSING):%!d(MISSING): unable to extract cert, err %!d(MISSING)"
-- "Retrieved existing Certificate from keychain"
-- "Succeeded in requesting new BAA certificates"
-- "Error adding item"
++ "_queue"
++ "fetchAnonymousXPCEndpoint:"
++ "com.apple.asd.ssdfe.scs"
++ "md"
++ "_inCallService"
++ "Tq,N,R,Vstatus"
++ "v24@?0@\"_TtCC3asd32ASScreenContinuityServicesHelper21ScreenMirroringStatus\"8@\"NSError\"16"
++ "@\"_TtC3asd32ASScreenContinuityServicesHelper\""
 - "No more duplicates to delete"
-- "StoreBAACertificateIfNeeded"
-- "/*0"
-- "Saved keys and certificates in keychain"
-- "Error %!d(MISSING) getting leaf cert"
 - "Error %!d(MISSING) getting key"
-- "Error adding leaf certificate"
 - "Underlying error %!@(MISSING)"
-- "v24@?0@8@\"NSError\"16"
+- "v24@0:8@?<v@?@\"_TtCC3asd32ASScreenContinuityServicesHelper27ActiveScreenMirroringDevice\"@\"NSError\">16"
+- "Error %!d(MISSING) getting issuer cert"
+- "ignoring error deleting BAA certificate"
+- "m_a"
+- "Error adding item"
+- "Failed to create access control: %!s(MISSING)"
+- "com.apple.asd.baa"
+- "Retrieved existing Certificate from keychain"
+- "/*0"
+- "Issuer Certificate already present, cleaning out duplicates with different labels"
+- "v32@?0^{__SecKey={__CFRuntimeBase=QAQ}^{__SecKeyDescriptor}^v}8@\"NSArray\"16@\"NSError\"24"
+- "BEDTime check is disabled."
+- "No BAA certificate found"
+- "ignoring error deleting BAA key"
+- "ASBAA-cert"
+- "StoreBAACertificateIfNeeded"
+- "Ran out of memory creating buffer for Certificate"
 - "TB,N,R,VisActive"
+- "_TtCC3asd32ASScreenContinuityServicesHelper27ActiveScreenMirroringDevice"
+- "%!s(MISSING):%!d(MISSING): unable to extract cert, err %!d(MISSING)"
+- "Error %!d(MISSING) getting leaf cert"
 - "Certificates returned : %!@(MISSING)"
+- "Error saving keys and certificates in keychain"
+- "No BAA key found"
 - "q56@0:8@16@24^{_e97N3ZJrnSwhQeNK={_uPR6qtVQRSW46QVd=*I[3{_JOUEz2LcleEhhpFW=*I*II}]^{_JOUEz2LcleEhhpFW}^III}{_uPR6qtVQRSW46QVd=*I[3{_JOUEz2LcleEhhpFW=*I*II}]^{_JOUEz2LcleEhhpFW}^III}^{_SltyDANRBpyTLTRr}I}32@?40^{_eipjLVDiD7LNwlPc=IIqq}48"
 - "Checking to skip"
-- "v24@0:8@?<v@?@\"_TtCC3asd32ASScreenContinuityServicesHelper27ActiveScreenMirroringDevice\"@\"NSError\">16"
-- "SECError deleting duplicate certificates %!d(MISSING)"
-- "ERROR getting BAA certificate %!@(MISSING)"
-- "Error adding issuer certificate"
-- "Error %!d(MISSING) getting issuer cert"
-- "ASBAA-issuer-cert"
+- "Error adding leaf certificate"
 - "Error storing certificate: %!d(MISSING)"
+- "ignoring error deleting BAA issuer certificate"
+- "v24@?0@\"_TtCC3asd32ASScreenContinuityServicesHelper27ActiveScreenMirroringDevice\"8@\"NSError\"16"
+- "ASBAA-issuer-cert"
+- "ERROR unexpected total certificates returned"
+- "Success deleting one duplicate"
+- "Requesting new one"
+- "Error reading certificate: %!@(MISSING)"
+- "SECError deleting duplicate certificates %!d(MISSING)"
+- "Error %!@(MISSING)"
+- "Succeeded in requesting new BAA certificates"
+- "v24@?0@8@\"NSError\"16"
+- "Saved keys and certificates in keychain"
+- "loadActiveScreenMirroringDeviceWithCompletionHandler:"
+- "ERROR getting BAA certificate %!@(MISSING)"
+- "zjSRqCgYhfa1wFgr:gqhuZKS8Xs6ugnFL:wRPFKB7h3xbveJFz:x1IqrF8Flbgd3Jhk:UtPlzRffoEpw7Ue1:"
+- "Error adding issuer certificate"
+- "asd.ActiveScreenMirroringDevice"
+- "m_s"
 
 ```

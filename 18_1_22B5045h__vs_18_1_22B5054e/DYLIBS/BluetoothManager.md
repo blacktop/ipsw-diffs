@@ -44,19 +44,19 @@
 +  CStrings:  766
  
 CStrings:
-+ "Hearing Aid: Failed to get enrolled, result: %!d(MISSING)"
 + "hearingAidSupport"
-+ "hearingTestSupport"
-+ "Hearing Aid: Result: %!d(MISSING), Get Enabled:  %!u(MISSING)"
-+ "Hearing Aid: Result: %!d(MISSING), Get Enrolled:  %!u(MISSING)"
-+ "Hearing Aid: Failed to get enabled, result: %!d(MISSING)"
-+ "setHearingAidEnabled:"
-+ "hearingAidEnrolled"
-+ "Hearing Aid: Failed to set enabled, result: %!d(MISSING)"
-+ "Hearing Aid: Failed to set enrolled, result: %!d(MISSING)"
-+ "setHearingAidEnrolled:"
 + "Hearing Aid: Result: %!d(MISSING), Set Enrolled:  %!u(MISSING)"
++ "Hearing Aid: Failed to get enabled, result: %!d(MISSING)"
++ "Hearing Aid: Failed to get enrolled, result: %!d(MISSING)"
 + "Hearing Aid: Result: %!d(MISSING), Set Enabled:  %!u(MISSING)"
 + "hearingAidEnabled"
++ "hearingTestSupport"
++ "Hearing Aid: Result: %!d(MISSING), Get Enrolled:  %!u(MISSING)"
++ "hearingAidEnrolled"
++ "setHearingAidEnrolled:"
++ "setHearingAidEnabled:"
++ "Hearing Aid: Failed to set enrolled, result: %!d(MISSING)"
++ "Hearing Aid: Result: %!d(MISSING), Get Enabled:  %!u(MISSING)"
++ "Hearing Aid: Failed to set enabled, result: %!d(MISSING)"
 
 ```

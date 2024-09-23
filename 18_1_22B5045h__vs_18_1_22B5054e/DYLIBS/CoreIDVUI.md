@@ -86,13 +86,13 @@
 +  CStrings:  2092
  
 CStrings:
-+ "fetchNewExtendedReviewLink()"
 + "/Library/Caches/com.apple.xbs/Sources/CoreIDV/CoreIDVUI/IdentityUI/Internal/Modules/WatchPendingState/ViewControllers/IdentityProofingWatchPendingStateExtendedReviewViewController.swift"
-+ "IdentityProofingExtendedReviewViewConfiguration Valid Extended Review URL: %!s(MISSING), opening the app or an external browser"
-+ "Extended Review Display Info is invalid"
-+ "IdentityProofingWatchPendingStateExtendedReviewViewController fetching new extended review link"
-+ "issuerURL"
-+ "IdentityProofingWatchPendingStateExtendedReviewViewController failed to refresh extended review link: %!@(MISSING)"
 + "urlLaunchTask"
++ "Extended Review Display Info is invalid"
++ "IdentityProofingWatchPendingStateExtendedReviewViewController failed to refresh extended review link: %!@(MISSING)"
++ "fetchNewExtendedReviewLink()"
++ "IdentityProofingExtendedReviewViewConfiguration Valid Extended Review URL: %!s(MISSING), opening the app or an external browser"
++ "issuerURL"
++ "IdentityProofingWatchPendingStateExtendedReviewViewController fetching new extended review link"
 
 ```

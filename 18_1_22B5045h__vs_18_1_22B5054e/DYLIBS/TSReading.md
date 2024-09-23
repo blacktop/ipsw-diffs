@@ -71,17 +71,17 @@
 +  CStrings:  27245
  
 Symbols:
-+ _OBJC_CLASS_$_TSDRangeClamper
 + _OBJC_METACLASS_$_TSDRangeClamper
++ _OBJC_CLASS_$_TSDRangeClamper
 CStrings:
-+ "Sep 17 2024"
-+ "TQ,?,R,N"
-+ "endingCharIndexForWordLimit:"
-+ "{_NSRange=QQ}48@0:8{_NSRange=QQ}16@32Q40"
-+ "clampSelectedRange:inFullString:toWordLimit:"
 + "TSDRangeClamper"
-+ "tsdWordCount"
 + "selectableWordLimit"
++ "Sep 17 2024"
++ "endingCharIndexForWordLimit:"
++ "clampSelectedRange:inFullString:toWordLimit:"
++ "tsdWordCount"
++ "TQ,?,R,N"
++ "{_NSRange=QQ}48@0:8{_NSRange=QQ}16@32Q40"
 - "Sep  2 2024"
 
 ```

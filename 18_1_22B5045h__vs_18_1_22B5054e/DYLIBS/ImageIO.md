@@ -51,11 +51,11 @@
 +  CStrings:  12535
  
 CStrings:
++ "CMPhotoImageHasOpaqueAlphaFromPixelData"
 + "⭕️ ERROR: '%!s(MISSING)' is trying to save an opaque image (%!d(MISSING)x%!d(MISSING)) with '%!s(MISSING)'. This would unnecessarily increase the file size and will double (!!!) the required memory when decoding the image --> ignoring alpha.\n "
 + "*** ERROR: CopyMetadataFromCFData cannot handle input data ([%!l(MISSING)d bytes] %!X(MISSING) %!X(MISSING) %!X(MISSING) %!X(MISSING) %!X(MISSING) %!X(MISSING) %!X(MISSING) %!X(MISSING)... '%!c(MISSING)%!c(MISSING)%!c(MISSING)%!c(MISSING)%!c(MISSING)%!c(MISSING)%!c(MISSING)%!c(MISSING))'\n"
 + "❌  failed to load 'CMPhotoImageHasOpaqueAlphaFromPixelData' "
-+ "CMPhotoImageHasOpaqueAlphaFromPixelData"
-- "Unknown decode target: %!s(MISSING)\n"
 - "⭕️ ImageIO: saving HEIF (%!d(MISSING)x%!d(MISSING)) with '%!s(MISSING)'\n"
+- "Unknown decode target: %!s(MISSING)\n"
 
 ```

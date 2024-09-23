@@ -69,19 +69,19 @@ Symbols:
 - _CFPreferencesCopyAppValue
 - _SUSUIPreferencesChangedNotification
 CStrings:
-+ "v24@0:8@\"NSNumber\"16"
-+ "v24@0:8@\"SUDownload\"16"
-+ "setUpdateToInstall:"
-+ "restartCountdownOverrideIntervalSeconds"
-+ "setRestartCountdownOverrideIntervalSeconds:"
-+ "setInstallOperation:"
-+ "https://gdmf-ados.apple.com/v2/assets"
-+ "v24@0:8@\"SUAutoInstallOperation\"16"
-+ "destroyInstallationKeybag"
-+ "mobile"
 + "\x11\x11\x11"
++ "destroyInstallationKeybag"
++ "setUpdateToInstall:"
++ "v24@0:8@\"SUDownload\"16"
++ "v24@0:8@\"NSNumber\"16"
 + "_restartCountdownOverrideIntervalSeconds"
++ "v24@0:8@\"SUAutoInstallOperation\"16"
++ "setInstallOperation:"
++ "setRestartCountdownOverrideIntervalSeconds:"
 + "T@\"NSNumber\",R,&,N,V_restartCountdownOverrideIntervalSeconds"
++ "restartCountdownOverrideIntervalSeconds"
++ "mobile"
++ "https://gdmf-ados.apple.com/v2/assets"
 - "\x11\x11"
 
 ```

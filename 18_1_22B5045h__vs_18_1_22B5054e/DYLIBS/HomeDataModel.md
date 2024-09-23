@@ -74,10 +74,10 @@
  
 CStrings:
 - "Did start stream: %!@(MISSING)"
-- "Did stop stream: %!@(MISSING) with error: %!@(MISSING)"
-- "HomeDataModel18"
 - "Did update most recent snapshot: %!@(MISSING)"
-- "Received snapshot control: %!@(MISSING)"
+- "HomeDataModel18"
 - "HomeDataModel17"
+- "Received snapshot control: %!@(MISSING)"
+- "Did stop stream: %!@(MISSING) with error: %!@(MISSING)"
 
 ```

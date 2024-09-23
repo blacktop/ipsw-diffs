@@ -79,14 +79,14 @@
 +  CStrings:  790
  
 Symbols:
-- _swift_allocateGenericValueMetadata
 - _swift_getGenericMetadata
+- _swift_allocateGenericValueMetadata
 CStrings:
-+ "_nodesOfPeople"
-+ "_scrollTarget"
++ "airdropOpenedAt"
++ "_nodesOfSameAccount"
 + "_nodesOfAll"
 + "_nodesOfOthers"
-+ "_nodesOfSameAccount"
-+ "airdropOpenedAt"
++ "_scrollTarget"
++ "_nodesOfPeople"
 
 ```

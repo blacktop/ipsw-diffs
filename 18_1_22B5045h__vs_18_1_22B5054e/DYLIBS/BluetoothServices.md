@@ -37,13 +37,13 @@
 +  CStrings:  1321
  
 CStrings:
-+ "v32@0:8@\"NSString\"16@?<v@?@\"HMDeviceCloudRecordInfo\"@\"NSError\">24"
-+ "hmDeviceCloudRecordInfosUpdated:"
-+ "v32@0:8@\"HMDeviceCloudRecordInfo\"16@?<v@?@\"NSError\">24"
-+ "fetchHMDeviceCloudRecordInfoWithAddress:completion:"
-+ "modifyHMDeviceCloudRecordInfo:completion:"
-+ "removeHMDeviceCloudRecordInfoForDeviceWithAddress:completion:"
 + "hmDeviceCloudRecordInfosRemoved:"
++ "v32@0:8@\"NSString\"16@?<v@?@\"HMDeviceCloudRecordInfo\"@\"NSError\">24"
++ "v32@0:8@\"HMDeviceCloudRecordInfo\"16@?<v@?@\"NSError\">24"
 + "v24@0:8@\"NSArray\"16"
++ "modifyHMDeviceCloudRecordInfo:completion:"
++ "fetchHMDeviceCloudRecordInfoWithAddress:completion:"
++ "removeHMDeviceCloudRecordInfoForDeviceWithAddress:completion:"
++ "hmDeviceCloudRecordInfosUpdated:"
 
 ```

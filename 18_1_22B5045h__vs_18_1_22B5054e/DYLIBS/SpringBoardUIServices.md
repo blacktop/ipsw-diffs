@@ -76,36 +76,36 @@
 +  CStrings:  7444
  
 Symbols:
-+ _OBJC_CLASS_$_SBUIContinuityAccessorySceneHostComponent
-+ _OBJC_CLASS_$_SBUIContinuityAccessorySceneManager
-+ _OBJC_CLASS_$_SBUIContinuityAccessorySceneExtension
 + _OBJC_METACLASS_$_SBUIContinuityAccessorySceneHostComponent
++ _OBJC_CLASS_$_SBUIContinuityAccessorySceneHostComponent
++ _OBJC_CLASS_$_SBUIContinuityAccessorySceneExtension
++ _OBJC_CLASS_$_SBUIContinuityAccessorySceneManager
 + _OBJC_METACLASS_$_SBUIContinuityAccessorySceneExtension
 + _OBJC_METACLASS_$_SBUIContinuityAccessorySceneManager
 - _OBJC_CLASS_$_UIUserInterfaceStyleArbiter
 CStrings:
-+ "_primarySceneDidUpdateSettings:transitionContext:"
-+ "_lock_primaryScenes"
-+ "initWithIdentifier:forReason:invalidationBlock:"
-+ "isCapturingContentForAdditionalRenderingDestination"
-+ "_configureCommonInitialSettingsForScene:"
-+ "_updateAccessoryScene:followingPrimaryScene:transitionContext:"
-+ "_lock_accessoryScenes"
-+ "SBUIContinuityAccessorySceneHostComponent"
-+ "_init"
-+ "B16@?0@\"FBScene\"8"
++ "SBUIContinuityAccessorySceneExtension"
 + "SBUIContinuityAccessorySceneManager.m"
++ "_lock_primaryScenes"
 + "systemDisplayIdentifier"
++ "isCapturingContentForAdditionalRenderingDestination"
++ "_updateAccessoryScene:followingPrimaryScene:transitionContext:"
++ "_sceneRegistration"
++ "registerPrimaryScene:"
++ "_init"
++ "initWithIdentifier:forReason:invalidationBlock:"
++ "stringRepresentation"
++ "_configureCommonInitialSettingsForScene:"
++ "_lock_accessoryScenes"
 + "systemShellHostingSpaceIdentifier"
-+ "registerAccessoryScene:"
 + "accessory scene registration"
 + "primary scene registration"
-+ "registerPrimaryScene:"
++ "_primarySceneDidUpdateSettings:transitionContext:"
++ "SBUIContinuityAccessorySceneHostComponent"
 + "SBUIContinuityAccessorySceneManager"
-+ "_sceneRegistration"
-+ "SBUIContinuityAccessorySceneExtension"
-+ "stringRepresentation"
-- "currentStyle"
++ "registerAccessoryScene:"
++ "B16@?0@\"FBScene\"8"
 - "SBUIContinuityHostProxySceneExtension.m"
+- "currentStyle"
 
 ```

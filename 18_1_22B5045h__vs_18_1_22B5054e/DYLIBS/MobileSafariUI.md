@@ -77,19 +77,19 @@
 +  CStrings:  19952
  
 CStrings:
-+ "userDidEngageWithCompletionListItem:onActionButton:method:doesMatchSiriSuggestion:voiceSearchQueryID:"
-+ "_executeActionForParsecResultTableViewCell:completionItem:"
-+ "sfWebExtensionsController:showPopupOrPerSitePermissionsForExtension:inWindow:completionHandler:"
-+ "showPopupOrPerSitePermissionsForWebExtension:"
-+ "showPopupOrPerSitePermissionsForTab:parentViewController:popoverSourceInfo:"
-+ "\xf0\xf0\x91"
 + "_cloudTabsConsentObtained"
 + "\r\x11$\x13\x17\x14\""
-- "showPopupForTab:parentViewController:popoverSourceInfo:"
++ "sfWebExtensionsController:showPopupOrPerSitePermissionsForExtension:inWindow:completionHandler:"
++ "_executeActionForParsecResultTableViewCell:completionItem:"
++ "showPopupOrPerSitePermissionsForTab:parentViewController:popoverSourceInfo:"
++ "userDidEngageWithCompletionListItem:onActionButton:method:doesMatchSiriSuggestion:voiceSearchQueryID:"
++ "showPopupOrPerSitePermissionsForWebExtension:"
++ "\xf0\xf0\x91"
 - "sfWebExtensionsController:showPopupForExtension:inWindow:completionHandler:"
-- "\xf0\xf0\x81"
 - "userDidEngageWithCompletionListItem:onActionButton:method:doesMatchSiriSuggestion:"
-- "\r\x11$\x13\x1b\""
+- "\xf0\xf0\x81"
+- "showPopupForTab:parentViewController:popoverSourceInfo:"
 - "showPopupForWebExtension:"
+- "\r\x11$\x13\x1b\""
 
 ```

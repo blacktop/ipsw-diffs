@@ -45,7 +45,7 @@
 +  CStrings:  698
  
 CStrings:
-- "v40@0:8@\"CCUISControlsGalleryViewController\"16@\"CCUISConfiguredControl\"24@\"NSError\"32"
 - "controlsGalleryViewController:didFinishWithControl:error:"
+- "v40@0:8@\"CCUISControlsGalleryViewController\"16@\"CCUISConfiguredControl\"24@\"NSError\"32"
 
 ```

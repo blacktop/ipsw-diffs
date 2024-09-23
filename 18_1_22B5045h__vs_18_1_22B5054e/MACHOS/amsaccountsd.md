@@ -51,8 +51,8 @@
 +  CStrings:  3989
  
 CStrings:
++ "isDeviceInBiometricLockoutWithCompletion:"
 + "isDeviceInBiometricLockout"
 + "v24@0:8@?<v@?B>16"
-+ "isDeviceInBiometricLockoutWithCompletion:"
 
 ```

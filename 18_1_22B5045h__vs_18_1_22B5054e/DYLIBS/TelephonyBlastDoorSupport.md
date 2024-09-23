@@ -53,12 +53,12 @@
 +  CStrings:  489
  
 Symbols:
-+ _swift_unknownObjectWeakDestroy
++ _swift_unknownObjectWeakAssign
 + _swift_unknownObjectWeakInit
 + _swift_unknownObjectWeakLoadStrong
-+ _swift_unknownObjectWeakAssign
-- _swift_isUniquelyReferenced
++ _swift_unknownObjectWeakDestroy
 - _swift_retain_n
+- _swift_isUniquelyReferenced
 CStrings:
 + "Unable to construct URL with missing scheme."
 

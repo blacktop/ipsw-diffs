@@ -73,33 +73,33 @@
 +  CStrings:  1452
  
 Symbols:
-+ _kSecureBackupAuthenticationRawPassword
-+ _kSecureBackupKeybagSHA256Key
 + __os_log_fault_impl
++ _kSecureBackupKeybagSHA256Key
++ _kSecureBackupAuthenticationRawPassword
 CStrings:
-+ "hasBackupKeybagSHA256"
++ "fail to decode plist"
 + "iCloudPassword must be a PET, not a raw password"
 + "SecureBackupAuthenticationRawPassword"
-+ "_backupKeybagSHA256"
-+ "rawPassword"
-+ "PET"
-+ "T@\"NSData\",&,N,V_backupKeybagSHA256"
 + "hasSuffix:"
-+ "setBackupKeybagSHA256:"
-+ "_rawPassword"
-+ "backupKeybagSHA256"
++ "PET"
 + "isPasswordEquivalentToken"
-+ "fail to decode plist"
-+ "setRawPassword:"
-+ "T@\"NSString\",C,N,V_rawPassword"
 + "BackupKeybagSHA256"
 + "rawPassword must not be a PET"
++ "T@\"NSString\",C,N,V_rawPassword"
++ "hasBackupKeybagSHA256"
++ "_rawPassword"
 + "?\x0f\t"
-- "BackupVersion"
-- "?\x0f\b"
-- "Trying fallback: %!@(MISSING)"
-- "Error deserializing data: %!@(MISSING)"
-- "dummy-label"
++ "_backupKeybagSHA256"
++ "backupKeybagSHA256"
++ "setBackupKeybagSHA256:"
++ "rawPassword"
++ "T@\"NSData\",&,N,V_backupKeybagSHA256"
++ "setRawPassword:"
 - "1"
+- "BackupVersion"
+- "Error deserializing data: %!@(MISSING)"
+- "?\x0f\b"
+- "dummy-label"
+- "Trying fallback: %!@(MISSING)"
 
 ```

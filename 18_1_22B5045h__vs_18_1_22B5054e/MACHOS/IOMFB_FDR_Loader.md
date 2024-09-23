@@ -30,8 +30,8 @@
  
 CStrings:
 + "e: data_sz underflow in get_value"
-+ "e: data_sz underflow in get_array"
 + "e: data_sz underflow in get_long_value"
++ "e: data_sz underflow in get_array"
 + "e: data_sz underflow in skip_section"
 
 ```

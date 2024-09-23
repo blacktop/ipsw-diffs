@@ -76,18 +76,18 @@
 +  CStrings:  2420
  
 Symbols:
-+ _OBJC_METACLASS_$_DNDHearingTestService
-+ _DNDLogHearingTest
 + _OBJC_CLASS_$_DNDHearingTestService
++ _DNDLogHearingTest
++ _OBJC_METACLASS_$_DNDHearingTestService
 CStrings:
-+ "setHearingTestIsActive:error:"
 + "DNDRemoteServiceServerHearingTestProtocol"
-+ "[%!{(MISSING)public}@] Error when setting hearing test state; error='%!{(MISSING)public}@' isHearingTestActive=%!d(MISSING)"
-+ "com.apple.donotdisturb.DNDHearingTestService"
-+ "HearingTest"
++ "setHearingTestIsActive:withRequestDetails:completionHandler:"
 + "[%!{(MISSING)public}@] Set hearing test state; isHearingTestActive=%!d(MISSING)"
 + "com.apple.donotdisturb.DNDHearingTestService.setHearingTestIsActive:"
 + "DNDHearingTestService"
-+ "setHearingTestIsActive:withRequestDetails:completionHandler:"
++ "HearingTest"
++ "setHearingTestIsActive:error:"
++ "[%!{(MISSING)public}@] Error when setting hearing test state; error='%!{(MISSING)public}@' isHearingTestActive=%!d(MISSING)"
++ "com.apple.donotdisturb.DNDHearingTestService"
 
 ```

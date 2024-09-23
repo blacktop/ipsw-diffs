@@ -60,11 +60,11 @@
 +  CStrings:  599
  
 Symbols:
-+ _CAMOverlayServiceSliderLensSelectorFrontFacingValue
 + _OBJC_CLASS_$_NSConstantIntegerNumber
++ _CAMOverlayServiceSliderLensSelectorFrontFacingValue
 + OBJC_IVAR_$_CAMAbstractOverlayServiceControl._enabled
 CStrings:
-+ "i"
 + "isContentEqual:"
++ "i"
 
 ```

@@ -69,8 +69,8 @@
 +  CStrings:  289
  
 Symbols:
-+ _OBJC_CLASS_$_NSObject
 + _AnalyticsSendEvent
++ _OBJC_CLASS_$_NSObject
 CStrings:
 + "com.apple.parsec"
 

@@ -77,14 +77,14 @@
 +  CStrings:  7807
  
 CStrings:
-+ "Getting a restrictions passcode attempt count and timeout date"
 + "Incoming request to kill ScreenTimeAgent"
-+ "killScreenTimeAgent:completionHandler:"
-+ "Killing ScreenTimeAgent with reason: %!s(MISSING)"
-+ "Killing ScreenTimeAgent with reason: %!{(MISSING)public}@"
 + "ScreenTimeAgent/DiagnosticsService.swift"
-+ "Crashing ScreenTimeAgent"
-+ "DiagnosticsService.killScreenTimeAgent"
++ "Killing ScreenTimeAgent with reason: %!s(MISSING)"
++ "Getting a restrictions passcode attempt count and timeout date"
 + "Incoming request to kill ScreenTimeAgent with reason: %!@(MISSING)"
++ "killScreenTimeAgent:completionHandler:"
++ "DiagnosticsService.killScreenTimeAgent"
++ "Killing ScreenTimeAgent with reason: %!{(MISSING)public}@"
++ "Crashing ScreenTimeAgent"
 
 ```

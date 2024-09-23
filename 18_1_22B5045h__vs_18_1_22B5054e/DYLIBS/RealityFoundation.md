@@ -51,10 +51,10 @@
 +  CStrings:  3121
  
 Symbols:
-+ _RIOPxrSdfLayerSetCustomLayerData
 + _RIOPxrUsdStageCopyRootLayer
-+ _RIOPxrVtValueCreateWithBool
++ _RIOPxrSdfLayerSetCustomLayerData
 + _RIOPxrUsdStageCopyEditTarget
++ _RIOPxrVtValueCreateWithBool
 CStrings:
 + "realityio:enableDetailedResync"
 

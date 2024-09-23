@@ -78,60 +78,60 @@
 +  CStrings:  747
  
 Symbols:
-+ _$sSo18OS_dispatch_sourceC8DispatchE19MemoryPressureEventV8rawValueAESu_tcfC
 + _$s6Darwin5errnos5Int32Vvg
++ _$sSo18OS_dispatch_sourceC8DispatchE19MemoryPressureEventV8rawValueAESu_tcfC
 + _sysctlbyname
 + _$ss10SetAlgebraP10isSuperset2ofSbx_tFTj
-- _dispatch_once_f
-- _swift_unexpectedError
-- _$sSo18OS_dispatch_sourceC8DispatchE19MemoryPressureEventVSQACMc
-- __availability_version_check
-- _fseek
 - _fread
-- _fclose
-- _sscanf
 - _$sSo18OS_dispatch_sourceC8DispatchE19MemoryPressureEventVSYACMc
-- _$sScG4next9isolationxSgScA_pSgYi_tYaF
-- _$sScG4next9isolationxSgScA_pSgYi_tYaFTu
 - _swift_taskGroup_wait_next_throwing
+- _$sSo18OS_dispatch_sourceC8DispatchE19MemoryPressureEventVSQACMc
+- _dispatch_once_f
 - _dlsym
-- _ftell
+- _fseek
+- _$sScG4next9isolationxSgScA_pSgYi_tYaFTu
+- _fclose
 - _rewind
+- _sscanf
 - _fopen
+- _$sScG4next9isolationxSgScA_pSgYi_tYaF
+- _ftell
+- __availability_version_check
+- _swift_unexpectedError
 CStrings:
-+ "Critical Memory Pressure Event Loop"
-+ "kern.memorystatus_vm_pressure_level: %!l(MISSING)u"
-+ "Dispatch memory pressure source cancelled"
-+ "Failed to query current kernel memory pressure. Assuming non-critical."
-+ "Cancelling critical memory pressure watchdog"
-+ "Critical memory pressure watchdog fired, but no assertion found."
-+ "kernel memory pressure unknown!"
 + "sysctlbyname(\"kern.memorystatus_vm_pressure_level\") failed: %!{(MISSING)darwin.errno}d"
-+ "kern.memorystatus_vm_pressure_level contains system memory pressure: %!l(MISSING)u"
-+ "Unknown memory pressure event"
-+ "criticalMemoryPressureWatchdogTask"
-+ "criticalMemoryPressureWatchdogInterval"
-+ "Received dispatch memory pressure event: %!s(MISSING)"
-+ "Fetched memory pressure directly from kernel: %!s(MISSING)"
-+ "kern.memorystatus_vm_pressure_level"
-+ "Memory pressure events ended"
-+ "Critical Memory Pressure Watchdog"
 + "Kernel memory pressure (%!s(MISSING)) no longer critical when watchdog fired."
++ "criticalMemoryPressureWatchdogInterval"
++ "Unknown memory pressure event"
++ "Critical Memory Pressure Watchdog"
++ "kernel memory pressure unknown!"
++ "Received dispatch memory pressure event: %!s(MISSING)"
++ "kern.memorystatus_vm_pressure_level: %!l(MISSING)u"
++ "Memory pressure events ended"
++ "Failed to query current kernel memory pressure. Assuming non-critical."
++ "Critical Memory Pressure Event Loop"
++ "kern.memorystatus_vm_pressure_level"
++ "Cancelling critical memory pressure watchdog"
++ "Fetched memory pressure directly from kernel: %!s(MISSING)"
++ "Dispatch memory pressure source cancelled"
 + "Dispatch memory pressure event stream cancelled"
-- "CFPropertyListCreateFromXMLData"
-- "/System/Library/CoreServices/SystemVersion.plist"
-- "CFRelease"
-- "_Concurrency/TaskGroup.swift"
-- "CFStringGetTypeID"
-- "r"
-- "CFDictionaryGetValue"
-- "CFStringCreateWithCStringNoCopy"
-- "CFDataCreateWithBytesNoCopy"
++ "kern.memorystatus_vm_pressure_level contains system memory pressure: %!l(MISSING)u"
++ "criticalMemoryPressureWatchdogTask"
++ "Critical memory pressure watchdog fired, but no assertion found."
 - "CFGetTypeID"
 - "ProductVersion"
-- "%!d(MISSING).%!d(MISSING).%!d(MISSING)"
-- "CFStringGetCString"
-- "kCFAllocatorNull"
+- "_Concurrency/TaskGroup.swift"
+- "CFStringGetTypeID"
 - "CFPropertyListCreateWithData"
+- "CFDataCreateWithBytesNoCopy"
+- "%!d(MISSING).%!d(MISSING).%!d(MISSING)"
+- "CFRelease"
+- "CFStringGetCString"
+- "r"
+- "/System/Library/CoreServices/SystemVersion.plist"
+- "CFPropertyListCreateFromXMLData"
+- "kCFAllocatorNull"
+- "CFDictionaryGetValue"
+- "CFStringCreateWithCStringNoCopy"
 
 ```

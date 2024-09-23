@@ -58,11 +58,11 @@ Symbols:
 + _ABPersonGetSetOfModificationDateTouchingPropertyIDs
 + __updateModificationDateForUpdatedAndAddedPeople
 CStrings:
++ "ResetContactProviderFeature"
++ "ABCPerson _didSave() has no changes for contact identifier (%!{(MISSING)public}@) to update the search index with"
 + "ABCAddressBook _ABCUpdateModificationDateForUpdatedPersonApplier() (%!{(MISSING)public}@) touch the modification date for contact identifier (%!{(MISSING)public}@)"
++ "will"
 + "ABCAddressBook _updateModificationDateForUpdatedAndAddedPeople() found no updated people"
 + "will not"
-+ "will"
-+ "ABCPerson _didSave() has no changes for contact identifier (%!{(MISSING)public}@) to update the search index with"
-+ "ResetContactProviderFeature"
 
 ```

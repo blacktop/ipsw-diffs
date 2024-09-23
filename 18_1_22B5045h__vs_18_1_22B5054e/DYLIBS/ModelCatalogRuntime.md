@@ -76,13 +76,13 @@
 +  CStrings:  235
  
 CStrings:
-+ "Unable to fetch asset size for siri assets with error: %!@(MISSING)"
++ "downloadStatusForSubscriber:subscriptionName:"
++ "siriResourceAvailabilityWith:"
 + "longLongValue"
-+ "com.apple.siri.intelligenceengine"
++ "Unable to fetch asset size for siri assets with error: %!@(MISSING)"
 + "diskSpaceNeededForSubscriber:subscriptionName:error:"
 + "siriResourceAvailability result: %!@(MISSING)"
-+ "siriResourceAvailabilityWith:"
++ "com.apple.siri.intelligenceengine"
 + "v24@0:8@?<v@?@\"_TtC12ModelCatalog28SiriResourceAvailabilityInfo\"@\"NSError\">16"
-+ "downloadStatusForSubscriber:subscriptionName:"
 
 ```

@@ -109,87 +109,87 @@
 +  CStrings:  14250
  
 Symbols:
-+ _ICNoteAnalyticsAudioRecordingStartedNotification
-+ _ICAudioTranscriptionStartedNotification
-+ _ICNoteAnalyticsAudioRecordingStoppedNotificationDidNoteMultitaskingOccurKey
-+ _UIApplicationDidBecomeActiveNotification
 + _ICNoteAnalyticsAudioRecordingStoppedNotification
-+ _swift_unknownObjectWeakDestroy
-+ _swift_unknownObjectWeakInit
 + _ICNoteAnalyticsAudioRecordingStoppedNotificationAttachmentKey
++ _swift_unknownObjectWeakInit
++ _swift_unknownObjectWeakDestroy
 + _ICNoteAnalyticsAudioRecordingStoppedNotificationDidAppBackgroundOccurKey
++ _ICAudioTranscriptionStartedNotification
++ _UIApplicationDidBecomeActiveNotification
 + _swift_unknownObjectWeakLoadStrong
++ _ICNoteAnalyticsAudioRecordingStoppedNotificationDidNoteMultitaskingOccurKey
++ _ICNoteAnalyticsAudioRecordingStartedNotification
 - _fseek
-- _ftell
-- _fread
-- _rewind
-- __availability_version_check
-- _swift_taskGroup_wait_next_throwing
-- _sscanf
-- _fopen
 - _dispatch_once_f
 - _fclose
+- __availability_version_check
+- _fopen
+- _rewind
+- _sscanf
+- _fread
+- _swift_taskGroup_wait_next_throwing
+- _ftell
 CStrings:
-+ "Added call transcription task to queue"
-+ "_currentlyTranscribingAttachment"
-+ "toplineSummaryModelVersionInfo"
-+ "setLongformSummaryModelVersionInfo:"
-+ "updateCalculateGraphExpressionText:"
++ "ICAudioTranscriptionStartedNotification"
 + "failedAttachments"
-+ "appBackgroundOccurred"
-+ "ICNoteAnalyticsAudioRecordingStoppedNotificationDidAppBackgroundOccurKey"
-+ "deleteSummaryAndReturnError:"
-+ "Unable to split tracks"
-+ "Added transcription task to queue"
-+ "could not transcribe fragments for attachment: %!s(MISSING) %!@(MISSING). adding to retry queue"
 + "noteMultitaskingOccurred"
++ "Unable to split tracks"
++ "longformSummaryModelVersionInfo"
++ "_currentlyTranscribingAttachment"
++ "Added retranscription task to queue"
++ "Attempting to split tracks at %!s(MISSING)"
++ "addCallRecordingTranscriptionTaskToQueueWithSpeakerURLs:speakers:NGASR:attachmentIdentifier:"
++ "did not split call recording tracks - %!@(MISSING). adding to queue to resume when not in background."
++ "handleResumeForeground"
++ "did not get URL for local or remote track. Failing to create file for track"
++ "Added call transcription task to queue"
++ "-[ICInlineAttachment updateCalculateGraphExpressionText:]"
++ "no worker context found for background transcription"
++ "appBackgroundOccurred"
++ "hasToplineSummary"
 + "ICNoteAnalyticsAudioRecordingStartedNotification"
++ "Added transcription task to queue"
++ "ICNoteAnalyticsAudioRecordingStoppedNotificationAttachmentKey"
++ "deleteSummaryAndReturnError:"
++ "succesfully split tracks at %!s(MISSING)"
++ "toplineSummaryModelVersionInfo"
++ "could not background transcribe fragments for attachment: %!s(MISSING). adding to retry queue"
++ "could not transcribe fragments for attachment: %!s(MISSING) %!@(MISSING). adding to retry queue"
++ "updateCalculateGraphExpressionText:"
++ "ICNoteAnalyticsAudioRecordingStoppedNotification"
++ "ICNoteAnalyticsAudioRecordingStoppedNotificationDidNoteMultitaskingOccurKey"
++ "setToplineSummaryModelVersionInfo:"
++ "setLongformSummaryModelVersionInfo:"
++ "ICNoteAnalyticsAudioRecordingStoppedNotificationDidAppBackgroundOccurKey"
++ "did not split call recording tracks. adding to queue to resume when not in background."
 + "Finished export %!s(MISSING)"
 + "could not transcribe the call recording. Failing to export track: %!@(MISSING)"
-+ "ICNoteAnalyticsAudioRecordingStoppedNotification"
-+ "no worker context found for background transcription"
-+ "succesfully split tracks at %!s(MISSING)"
-+ "-[ICInlineAttachment updateCalculateGraphExpressionText:]"
-+ "handleResumeForeground"
-+ "ICAudioTranscriptionStartedNotification"
-+ "did not get URL for local or remote track. Failing to create file for track"
-+ "ICNoteAnalyticsAudioRecordingStoppedNotificationDidNoteMultitaskingOccurKey"
-+ "ICNoteAnalyticsAudioRecordingStoppedNotificationAttachmentKey"
-+ "could not background transcribe fragments for attachment: %!s(MISSING). adding to retry queue"
-+ "did not split call recording tracks - %!@(MISSING). adding to queue to resume when not in background."
-+ "hasToplineSummary"
-+ "addCallRecordingTranscriptionTaskToQueueWithSpeakerURLs:speakers:NGASR:attachmentIdentifier:"
-+ "setToplineSummaryModelVersionInfo:"
-+ "Attempting to split tracks at %!s(MISSING)"
-+ "Added retranscription task to queue"
-+ "did not split call recording tracks. adding to queue to resume when not in background."
-+ "longformSummaryModelVersionInfo"
 - "CFPropertyListCreateFromXMLData"
-- "setOutputURL:"
-- "GASR"
-- "serialOperationQueue"
-- "CFDictionaryGetValue"
-- "could not split tracks for background call transcription task: %!@(MISSING)"
-- "ProductVersion"
-- "CFDataCreateWithBytesNoCopy"
-- "saveTopLineSummaryToAttachmentWithSummary:error:"
-- "exportAsynchronouslyWithCompletionHandler:"
-- "could not transcribe the call recording. Failing to export track"
 - "CFPropertyListCreateWithData"
-- "CFStringGetCString"
-- "could not background transcribe fragments for attachment: %!s(MISSING)"
-- "CFGetTypeID"
-- "addCallRecordingTranscriptionTaskToQueueOnLaunchWithAttachmentIdentifier:"
-- "CFStringGetTypeID"
-- "/System/Library/CoreServices/SystemVersion.plist"
-- "NGASR"
-- "saveSummaryToAttachmentWithSummary:error:"
+- "GASR"
+- "ProductVersion"
+- "exportAsynchronouslyWithCompletionHandler:"
 - "kCFAllocatorNull"
-- "could not transcribe fragments for attachment: %!s(MISSING) %!@(MISSING)"
-- "Wrote summary version to attachment %!s(MISSING) version: %!l(MISSING)d"
+- "/System/Library/CoreServices/SystemVersion.plist"
+- "saveSummaryToAttachmentWithSummary:error:"
+- "could not background transcribe fragments for attachment: %!s(MISSING)"
+- "saveTopLineSummaryToAttachmentWithSummary:error:"
+- "could not transcribe the call recording. Failing to export track"
+- "CFDataCreateWithBytesNoCopy"
 - "setOutputFileType:"
-- "CFStringCreateWithCStringNoCopy"
-- "Key points fragment: %!@(MISSING)"
+- "addCallRecordingTranscriptionTaskToQueueOnLaunchWithAttachmentIdentifier:"
 - "CFRelease"
+- "CFStringGetTypeID"
+- "Key points fragment: %!@(MISSING)"
+- "CFGetTypeID"
+- "could not transcribe fragments for attachment: %!s(MISSING) %!@(MISSING)"
+- "CFDictionaryGetValue"
+- "CFStringCreateWithCStringNoCopy"
+- "setOutputURL:"
+- "serialOperationQueue"
+- "CFStringGetCString"
+- "could not split tracks for background call transcription task: %!@(MISSING)"
+- "Wrote summary version to attachment %!s(MISSING) version: %!l(MISSING)d"
+- "NGASR"
 
 ```

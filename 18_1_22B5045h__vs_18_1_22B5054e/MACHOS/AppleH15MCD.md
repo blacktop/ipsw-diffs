@@ -33,10 +33,10 @@
 +  CStrings:  1389
  
 Symbols:
++ __ZZN26AppleH15MemCacheController23_mccProtectedWriteReg32EPKNS_15amcc_aperture_tEjjjE11_os_log_fmt
 + _ZN26AppleH15MemCacheController23_mccProtectedWriteReg32EPKNS_15amcc_aperture_tEjjj.cold.1
 + _pmap_iofilter_protected_write
 + __ZN26AppleH15MemCacheController23_mccProtectedWriteReg32EPKNS_15amcc_aperture_tEjjj
-+ __ZZN26AppleH15MemCacheController23_mccProtectedWriteReg32EPKNS_15amcc_aperture_tEjjjE11_os_log_fmt
 CStrings:
 + "_mccProtectedWriteReg32"
 

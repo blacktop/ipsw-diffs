@@ -72,17 +72,17 @@
 +  CStrings:  51
  
 Symbols:
-+ _OBJC_METACLASS_$__TtCs12_SwiftObject
-+ _swift_deletedMethodError
-+ _swift_defaultActor_destroy
 + _swift_defaultActor_initialize
-+ _objc_retain_x19
++ _OBJC_METACLASS_$__TtCs12_SwiftObject
++ _swift_defaultActor_destroy
 + _swift_defaultActor_deallocate
++ _swift_deletedMethodError
 + _OBJC_CLASS_$__TtCs12_SwiftObject
++ _objc_retain_x19
 CStrings:
 + "_TtC13IMRCSTransferP33_3EC03BAE51DE9CD45F4BA5B9AD95BFCC27FileTransferControllerCache"
-+ "controllersBySubscription"
 + "$defaultActor"
++ "controllersBySubscription"
 + "controllerCache"
 
 ```

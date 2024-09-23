@@ -50,10 +50,10 @@
 +  CStrings:  4441
  
 CStrings:
-+ "_accessibilityChildrenForContinuityDisplay"
-+ "-[NSObject(AXPrivCategory) _accessibilityChildrenForContinuityDisplay]"
-+ "%!s(MISSING): Returning {%!@(MISSING)} children elements: %!{(MISSING)private}@"
 + "defaultContinuityDisplayOptions"
++ "_accessibilityChildrenForContinuityDisplay"
++ "%!s(MISSING): Returning {%!@(MISSING)} children elements: %!{(MISSING)private}@"
++ "-[NSObject(AXPrivCategory) _accessibilityChildrenForContinuityDisplay]"
 + "accessibilityTextInputResponder"
 
 ```

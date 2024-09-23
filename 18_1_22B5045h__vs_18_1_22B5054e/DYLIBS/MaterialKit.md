@@ -66,16 +66,16 @@ Symbols:
 + _OBJC_CLASS_$_MTLayoutSubviewsAnimation
 + _OBJC_METACLASS_$_MTLayoutSubviewsAnimation
 CStrings:
-+ "T@\"NSString\",?,R,N"
++ "identifier"
 + "affectsColorAppearance"
 + "valueForNSIntegerTrait:"
-+ "defaultValue"
 + "name"
-+ "identifier"
 + "UITraitDefinition"
-+ "Tq,R,N"
 + "TB,?,R,N"
++ "defaultValue"
 + "UINSIntegerTraitDefinition"
++ "Tq,R,N"
 + "MTLayoutSubviewsAnimation"
++ "T@\"NSString\",?,R,N"
 
 ```

@@ -70,25 +70,25 @@
  
 Symbols:
 + _objc_initWeak
-+ _objc_copyWeak
-+ _objc_loadWeakRetained
 + _objc_destroyWeak
-+ _CTCategoriesDidChangeNotification
-+ _OBJC_CLASS_$_NSDistributedNotificationCenter
-+ _OBJC_CLASS_$_CTUtilities
-+ _OBJC_METACLASS_$_ContextServiceDelegate
 + _OBJC_CLASS_$_ContextServiceDelegate
++ _objc_copyWeak
++ _OBJC_CLASS_$_CTUtilities
++ _OBJC_CLASS_$_NSDistributedNotificationCenter
++ _CTCategoriesDidChangeNotification
++ _OBJC_METACLASS_$_ContextServiceDelegate
++ _objc_loadWeakRetained
 CStrings:
-+ "postNotificationName:object:userInfo:"
-+ "T@\"NSString\",C,V_currentIndexVersionID"
-+ "currentIndexVersionID"
-+ "indexVersionId"
-+ "setCurrentIndexVersionID:"
-+ "ContextServiceDelegate"
 + "client"
-+ "registerConfigurationUpdateHandler:"
-+ "_currentIndexVersionID"
-+ "isClassCLocked"
++ "postNotificationName:object:userInfo:"
 + "defaultCenter"
++ "_currentIndexVersionID"
++ "T@\"NSString\",C,V_currentIndexVersionID"
++ "isClassCLocked"
++ "ContextServiceDelegate"
++ "setCurrentIndexVersionID:"
++ "indexVersionId"
++ "registerConfigurationUpdateHandler:"
++ "currentIndexVersionID"
 
 ```
