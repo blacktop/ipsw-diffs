@@ -21,47 +21,445 @@
 <details>
   <summary><i>View Updated</i></summary>
 
->  `com.apple.driver.AppleAVE2`
+>  `com.apple.driver.SecureRTBuddyProxy`
 
 ```diff
 
--803.31.1.0.0
-+803.36.1.0.0
-   __TEXT.__const: 0x2edd0
--  __TEXT.__cstring: 0x356b5
--  __TEXT.__os_log: 0x408a7
--  __TEXT_EXEC.__text: 0x1457e0
-+  __TEXT.__cstring: 0x357a7
-+  __TEXT.__os_log: 0x408f4
-+  __TEXT_EXEC.__text: 0x145c00
+-618.40.2.0.0
++618.42.1.0.0
+   __TEXT.__cstring: 0xd81
+   __TEXT.__const: 0x20
+-  __TEXT_EXEC.__text: 0x8928
++  __TEXT_EXEC.__text: 0x896c
    __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0x290
-   __DATA.__common: 0x130
+   __DATA.__data: 0xc8
+   __DATA.__common: 0xd8
 
-   __DATA_CONST.__mod_init_func: 0x38
-   __DATA_CONST.__mod_term_func: 0x38
-   __DATA_CONST.__const: 0x6310
--  __DATA_CONST.__kalloc_type: 0x1fc0
--  __DATA_CONST.__kalloc_var: 0xfa0
-+  __DATA_CONST.__kalloc_type: 0x2c40
-+  __DATA_CONST.__kalloc_var: 0xdc0
-   Functions: 2495
+```
+
+>  `com.apple.filesystems.apfs`
+
+```diff
+
+-2313.40.8.0.1
++2313.40.10.0.0
+   __TEXT.__const: 0x790
+-  __TEXT.__cstring: 0x48596
+-  __TEXT_EXEC.__text: 0x13a484
++  __TEXT.__cstring: 0x48590
++  __TEXT_EXEC.__text: 0x13a494
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0x690
+   __DATA.__bss: 0xc60
+CStrings:
++ "01:44:02"
++ "2024/09/30"
++ "2313.40.10"
++ "Sep 30 2024"
++ "apfs-2313.40.10"
+- "2024/09/18"
+- "22:27:56"
+- "2313.40.8.0.1"
+- "Sep 18 2024"
+- "apfs-2313.40.8.0.1"
+
+```
+
+>  `com.apple.kernel`
+
+```diff
+
+-11215.40.59.0.0
++11215.40.63.0.0
+   __TEXT.__const: 0x38400
+   __TEXT.__copyio_vectors: 0xf0
+-  __TEXT.__cstring: 0x70c4e
+-  __TEXT.__os_log: 0x26d4f
++  __TEXT.__cstring: 0x70bde
++  __TEXT.__os_log: 0x26d15
+   __TEXT.__eh_frame: 0x610
+   __DATA_CONST.__auth_ptr: 0x8
+   __DATA_CONST.__mod_init_func: 0x2c8
+
+   __DATA_CONST.__brk_desc: 0x78
+   __DATA_SPTM.__const: 0x3c000
+   __TEXT_EXEC.__hib_text: 0xc68
+-  __TEXT_EXEC.__text: 0x7f2634
++  __TEXT_EXEC.__text: 0x7e90e0
+   __TEXT_BOOT_EXEC.__bootcode: 0x4cd8
+   __KLD.__text: 0x1644
+   __LASTDATA_CONST.__mod_init_func: 0x8
+
+   __DATA.__lock_grp: 0x5908
+   __DATA.__percpu: 0x6e30
+   __DATA.__common: 0x58608
+-  __DATA.__bss: 0x95988
++  __DATA.__bss: 0x95938
+   __BOOTDATA.__data: 0x18000
+   __BOOTDATA.__init_entry_set: 0x10a58
+   __BOOTDATA.__init: 0x5b110
+
+   __PLK_LLVM_COV.__llvm_covmap: 0x0
+   __PLK_LINKEDIT.__data: 0x0
+   __LINKINFO.__symbolsets: 0x45557
+-  Functions: 20350
++  Functions: 20326
    Symbols:   0
--  CStrings:  6988
-+  CStrings:  6991
+-  CStrings:  17020
++  CStrings:  17017
  
 CStrings:
-+ "%lld %d AVE %s: %s:%d %s | LookAhead frame count is out of range %p %d %d %d"
-+ "%lld %d AVE %s: %s:%d %s | LookAhead frame count is out of range %p %d %d %d\n"
-+ "0 <= pInfo->VideoParams.iBFrames && pInfo->VideoParams.iBFrames <= 3"
-+ "0 <= pInfo->sRCParams.iLookAheadFrames && pInfo->sRCParams.iLookAheadFrames <= (32 / ((2) < ((63 + 1)) ? (2) : ((63 + 1))) - 4)"
-+ "02:49:17"
-+ "803.36.1"
++ "site.u_int8_t *"
+- "%s: %s (process %s:%u) priority %u entry_count 0\n"
+- "IS_P2ALIGNED(ccp, CHANNEL_CACHE_ALIGN_MAX)"
+- "necp_get_tlv_at_offset buffer is NULL"
+- "site.u_int8_t * __attribute__((__indexable__))"
+
+```
+
+>  `com.apple.driver.AppleAOPAudio`
+
+```diff
+
+ 400.9.0.0.0
+-  __TEXT.__cstring: 0xc588
++  __TEXT.__cstring: 0xc591
+   __TEXT.__const: 0x136
+   __TEXT.__os_log: 0xf
+   __TEXT_EXEC.__text: 0x32934
+
+   __DATA_CONST.__kalloc_type: 0xa00
+   Functions: 1277
+   Symbols:   0
+-  CStrings:  1151
++  CStrings:  1152
+ 
+CStrings:
++ "01:42:50"
++ "01:42:55"
 + "Sep 30 2024"
-- "23:08:38"
-- "803.31.1"
-- "Sep 18 2024"
-- "pInfo->VideoParams.iBFrames <= 3"
+- "20:15:35"
+- "Sep 19 2024"
+
+```
+
+>  `com.apple.driver.AppleTypeCPhy`
+
+```diff
+
+-239.40.1.0.0
+-  __TEXT.__cstring: 0x1651
++239.40.3.0.0
++  __TEXT.__cstring: 0x1700
+   __TEXT.__const: 0x24
+-  __TEXT.__os_log: 0x114c
+-  __TEXT_EXEC.__text: 0x12570
++  __TEXT.__os_log: 0x11fb
++  __TEXT_EXEC.__text: 0x12d28
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0xc8
+   __DATA.__common: 0xd8
+
+   __DATA_CONST.__got: 0x78
+   __DATA_CONST.__mod_init_func: 0x28
+   __DATA_CONST.__mod_term_func: 0x28
+-  __DATA_CONST.__const: 0x1250
++  __DATA_CONST.__const: 0x1268
+   __DATA_CONST.__kalloc_type: 0x140
+-  Functions: 245
++  Functions: 248
+   Symbols:   0
+-  CStrings:  226
++  CStrings:  234
+ 
+CStrings:
++ "%s@%s: %s::%s: DP didn't close\n"
++ "%s@%s: %s::%s: USB client failed type checks\n"
++ "%s@%s: %s::%s: USB3 finished waiting for DP\n"
++ "%s@%s: %s::%s: USB3 waiting for DP client to close\n"
+
+```
+
+>  `com.apple.driver.AppleTypeCPhyAUSBC`
+
+```diff
+
+-239.40.1.0.0
++239.40.3.0.0
+   __TEXT.__const: 0x8
+   __TEXT.__cstring: 0x8a6
+   __TEXT.__os_log: 0xc0f
+-  __TEXT_EXEC.__text: 0x5468
++  __TEXT_EXEC.__text: 0x5484
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0xc8
+   __DATA.__common: 0x38
+
+   __DATA_CONST.__got: 0x28
+   __DATA_CONST.__mod_init_func: 0x8
+   __DATA_CONST.__mod_term_func: 0x8
+-  __DATA_CONST.__const: 0x7f8
++  __DATA_CONST.__const: 0x810
+   __DATA_CONST.__kalloc_type: 0x40
+-  Functions: 52
++  Functions: 55
+   Symbols:   0
+   CStrings:  72
+ 
+
+```
+
+>  `com.apple.driver.AppleH16CameraInterface`
+
+```diff
+
+-3.107.1.0.0
++3.112.0.0.0
+   __TEXT.__const: 0xa058
+   __TEXT.__cstring: 0x194d0
+-  __TEXT.__os_log: 0x1551d
+-  __TEXT_EXEC.__text: 0x9bc00
++  __TEXT.__os_log: 0x155a2
++  __TEXT_EXEC.__text: 0x9bd94
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0x2a0
+   __DATA.__common: 0x4a0
+
+   __DATA_CONST.__const: 0xa0e8
+   __DATA_CONST.__kalloc_type: 0x1300
+   __DATA_CONST.__kalloc_var: 0xd70
+-  Functions: 1909
++  Functions: 1911
+   Symbols:   0
+-  CStrings:  3285
++  CStrings:  3287
+ 
+CStrings:
++ "AppleH16PearlCam:%s - ISP ANE Networks File is not loaded (res = 0x%08X)\n"
++ "AppleH16PearlCam:%s - ISP FW is not loaded (res = 0x%08X)\n"
+
+```
+
+>  `com.apple.driver.ApplePMGR`
+
+```diff
+
+-1555.40.11.502.1
++1555.40.13.0.0
+   __TEXT.__const: 0x220
+   __TEXT.__cstring: 0xe92b
+-  __TEXT_EXEC.__text: 0x52d88
++  __TEXT_EXEC.__text: 0x52d90
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0x100
+   __DATA.__common: 0x420
+
+```
+
+>  `com.apple.security.sandbox`
+
+```diff
+
+-2401.40.21.0.0
+-  __TEXT.__const: 0x1867c9
++2401.40.25.0.0
++  __TEXT.__const: 0x187479
+   __TEXT.__cstring: 0x6f6b
+   __TEXT.__os_log: 0x2029
+-  __TEXT_EXEC.__text: 0x3056c
++  __TEXT_EXEC.__text: 0x30568
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0x1e0
+-  __DATA.__bss: 0x144d0
++  __DATA.__bss: 0x144c8
+   __DATA_CONST.__auth_got: 0x830
+   __DATA_CONST.__got: 0xc8
+   __DATA_CONST.__const: 0x3650
+
+```
+
+>  `com.apple.driver.IOPAudioVoiceTriggerDevice`
+
+```diff
+
+ 400.40.0.0.0
+   __TEXT.__const: 0x20
+-  __TEXT.__cstring: 0x2d09
++  __TEXT.__cstring: 0x2d00
+   __TEXT.__os_log: 0x16e9
+   __TEXT_EXEC.__text: 0xaa40
+   __TEXT_EXEC.__auth_stubs: 0x0
+
+   __DATA_CONST.__kalloc_type: 0xc0
+   Functions: 320
+   Symbols:   0
+-  CStrings:  231
++  CStrings:  230
+ 
+CStrings:
++ "02:18:33"
++ "Sep 30 2024"
+- "20:16:07"
+- "20:16:08"
+- "Sep 19 2024"
+
+```
+
+>  `com.apple.iokit.IODisplayPortFamily`
+
+```diff
+
+-730.40.5.0.0
+-  __TEXT.__cstring: 0x7c47
+-  __TEXT.__os_log: 0x9571
++730.40.6.0.0
++  __TEXT.__cstring: 0x7bf2
++  __TEXT.__os_log: 0x946b
+   __TEXT.__const: 0x310
+-  __TEXT_EXEC.__text: 0x5d118
++  __TEXT_EXEC.__text: 0x5cbac
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0xc8
+   __DATA.__common: 0x550
+
+   __DATA_CONST.__kalloc_var: 0x280
+   Functions: 1961
+   Symbols:   0
+-  CStrings:  1526
++  CStrings:  1523
+ 
+CStrings:
++ "%s matching for endpoint %u\n"
++ "IOAV[%d] %s<0x%llx>::%s: Unable to cast service \"%s\" (0x%llx) to IOAVCECInterface\n"
++ "IOAV[%d] %s<0x%llx>::%s: _cecInterface=0x%llx\n"
++ "IOAV[%d] %s<0x%llx>::%s: setLinkRate with _transport=0x%llx, linkRate=%u\n"
++ "IOAV[%d] %s<0x%llx>::%s: warning: _cecService=0x%llx\n"
++ "Unable to cast service \"%s\" (0x%llx) to IOAVCECInterface\n"
++ "_cecInterface=0x%llx\n"
++ "setLinkRate with _transport=0x%llx, linkRate=%u\n"
++ "warning: _cecService=0x%llx\n"
+- "\"%s\", waitForFunction=%d, param1=%p, param2=%p param3=%p, param4=%p\n"
+- "%s matching for endpoint %u, dict = %p\n"
+- "IOAV[%d] %s<0x%llx>::%s: \"%s\", waitForFunction=%d, param1=%p, param2=%p param3=%p, param4=%p\n"
+- "IOAV[%d] %s<0x%llx>::%s: Unable to cast service \"%s\" (%p) to IOAVCECInterface\n"
+- "IOAV[%d] %s<0x%llx>::%s: _cecInterface=%p\n"
+- "IOAV[%d] %s<0x%llx>::%s: setLinkRate with _transport=%p, linkRate=%u\n"
+- "IOAV[%d] %s<0x%llx>::%s: warning: _cecService=%p\n"
+- "Unable to cast service \"%s\" (%p) to IOAVCECInterface\n"
+- "_cecInterface=%p\n"
+- "callPlatformFunction"
+- "setLinkRate with _transport=%p, linkRate=%u\n"
+- "warning: _cecService=%p\n"
+
+```
+
+>  `com.apple.driver.AppleT8140CLPC`
+
+```diff
+
+-1175.40.13.0.0
++1175.40.15.0.0
+   __TEXT.__cstring: 0x2b92
+   __TEXT.__const: 0xc6c
+-  __TEXT_EXEC.__text: 0x4f3f4
++  __TEXT_EXEC.__text: 0x4f3e4
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0xaf60
+   __DATA.__common: 0x7ca1
+CStrings:
++ "2024-09-30T02:00:58-07:00"
++ "AppleCLPC-1175.40.15"
+- "2024-09-19T20:21:12-07:00"
+- "AppleCLPC-1175.40.13"
+
+```
+
+>  `com.apple.driver.DCPAVFamilyProxy`
+
+```diff
+
+-349.40.5.0.0
++349.40.6.0.0
+   __TEXT.__const: 0x278
+-  __TEXT.__cstring: 0x245c
+-  __TEXT.__os_log: 0x129e
+-  __TEXT_EXEC.__text: 0x16ca4
++  __TEXT.__cstring: 0x247d
++  __TEXT.__os_log: 0x129d
++  __TEXT_EXEC.__text: 0x16ccc
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0xc8
+   __DATA.__common: 0x308
+
+   __DATA_CONST.__kalloc_var: 0x3c0
+   Functions: 808
+   Symbols:   0
+-  CStrings:  283
++  CStrings:  285
+ 
+CStrings:
++ "IOAV[%d] %s<0x%llx>::%s: enqueueResponse failed, rc=%08x\n"
++ "enqueueResponse failed, rc=%08x\n"
+
+```
+
+>  `com.apple.driver.EXDisplayPipeH17P`
+
+```diff
+
+-5.26.8.7.0
++5.26.8.4.2
+   __TEXT.__const: 0x38
+-  __TEXT.__cstring: 0x1a46
+-  __TEXT_EXEC.__text: 0x6d64
++  __TEXT.__cstring: 0x1a64
++  __TEXT_EXEC.__text: 0x6db0
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0xc4
+   __DATA.__common: 0x60
+
+   __DATA_CONST.__kalloc_type: 0x80
+   Functions: 146
+   Symbols:   0
+-  CStrings:  140
++  CStrings:  141
+ 
+CStrings:
++ "EXDisplayPipe::%s failed!!! \n"
+
+```
+
+>  `com.apple.driver.AppleDisplayCrossbar`
+
+```diff
+
+-355.40.3.0.0
+-  __TEXT.__cstring: 0x4413
++355.40.4.0.0
++  __TEXT.__cstring: 0x43ef
+   __TEXT.__const: 0x160
+-  __TEXT.__os_log: 0x5d14
+-  __TEXT_EXEC.__text: 0x32128
++  __TEXT.__os_log: 0x5be3
++  __TEXT_EXEC.__text: 0x319ec
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0xc4
+   __DATA.__common: 0x3d0
+-  __DATA_CONST.__auth_got: 0x250
++  __DATA_CONST.__auth_got: 0x248
+   __DATA_CONST.__got: 0xd0
+   __DATA_CONST.__mod_init_func: 0xc0
+   __DATA_CONST.__mod_term_func: 0xc0
+
+   __DATA_CONST.__kalloc_type: 0x600
+   Functions: 1474
+   Symbols:   0
+-  CStrings:  707
++  CStrings:  705
+ 
+CStrings:
+- "IOAV[%d] %s<0x%llx>::%s: registers at %p, 0x%0*llx physical\n"
+- "registers at %p, 0x%0*llx physical\n"
 
 ```
 
@@ -165,148 +563,39 @@ CStrings:
 
 ```
 
->  `com.apple.driver.AppleH16CameraInterface`
+>  `com.apple.driver.AppleMobileFileIntegrity`
 
 ```diff
 
--3.107.1.0.0
-+3.112.0.0.0
-   __TEXT.__const: 0xa058
-   __TEXT.__cstring: 0x194d0
--  __TEXT.__os_log: 0x1551d
--  __TEXT_EXEC.__text: 0x9bc00
-+  __TEXT.__os_log: 0x155a2
-+  __TEXT_EXEC.__text: 0x9bd94
+-938.40.4.0.0
+-  __TEXT.__cstring: 0x9c1e
+-  __TEXT.__const: 0x14b0
++938.42.1.0.0
++  __TEXT.__cstring: 0x9c92
++  __TEXT.__const: 0x14c0
+   __TEXT.__os_log: 0x233
+-  __TEXT_EXEC.__text: 0x263b8
++  __TEXT_EXEC.__text: 0x26424
    __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0x2a0
-   __DATA.__common: 0x4a0
+   __DATA.__data: 0x412
+   __DATA.__common: 0xb0
 
-   __DATA_CONST.__const: 0xa0e8
-   __DATA_CONST.__kalloc_type: 0x1300
-   __DATA_CONST.__kalloc_var: 0xd70
--  Functions: 1909
-+  Functions: 1911
+   __DATA_CONST.__const: 0x3750
+   __DATA_CONST.__kalloc_type: 0xec0
+   __DATA_CONST.__kalloc_var: 0x1310
+-  Functions: 795
++  Functions: 796
    Symbols:   0
--  CStrings:  3285
-+  CStrings:  3287
+-  CStrings:  983
++  CStrings:  985
  
 CStrings:
-+ "AppleH16PearlCam:%s - ISP ANE Networks File is not loaded (res = 0x%08X)\n"
-+ "AppleH16PearlCam:%s - ISP FW is not loaded (res = 0x%08X)\n"
-
-```
-
->  `com.apple.driver.AppleTypeCPhy`
-
-```diff
-
--239.40.1.0.0
--  __TEXT.__cstring: 0x1651
-+239.40.3.0.0
-+  __TEXT.__cstring: 0x1700
-   __TEXT.__const: 0x24
--  __TEXT.__os_log: 0x114c
--  __TEXT_EXEC.__text: 0x12570
-+  __TEXT.__os_log: 0x11fb
-+  __TEXT_EXEC.__text: 0x12d28
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0xc8
-   __DATA.__common: 0xd8
-
-   __DATA_CONST.__got: 0x78
-   __DATA_CONST.__mod_init_func: 0x28
-   __DATA_CONST.__mod_term_func: 0x28
--  __DATA_CONST.__const: 0x1250
-+  __DATA_CONST.__const: 0x1268
-   __DATA_CONST.__kalloc_type: 0x140
--  Functions: 245
-+  Functions: 248
-   Symbols:   0
--  CStrings:  226
-+  CStrings:  234
- 
-CStrings:
-+ "%s@%s: %s::%s: DP didn't close\n"
-+ "%s@%s: %s::%s: USB client failed type checks\n"
-+ "%s@%s: %s::%s: USB3 finished waiting for DP\n"
-+ "%s@%s: %s::%s: USB3 waiting for DP client to close\n"
-
-```
-
->  `com.apple.driver.IOPAudioVoiceTriggerDevice`
-
-```diff
-
- 400.40.0.0.0
-   __TEXT.__const: 0x20
--  __TEXT.__cstring: 0x2d09
-+  __TEXT.__cstring: 0x2d00
-   __TEXT.__os_log: 0x16e9
-   __TEXT_EXEC.__text: 0xaa40
-   __TEXT_EXEC.__auth_stubs: 0x0
-
-   __DATA_CONST.__kalloc_type: 0xc0
-   Functions: 320
-   Symbols:   0
--  CStrings:  231
-+  CStrings:  230
- 
-CStrings:
-+ "02:18:33"
++ "01:43:04"
++ "AMFI: [1] informing daemon of developer mode state change"
++ "AMFI: [2] informing daemon of developer mode state change"
 + "Sep 30 2024"
-- "20:16:07"
-- "20:16:08"
+- "20:15:57"
 - "Sep 19 2024"
-
-```
-
->  `com.apple.filesystems.apfs`
-
-```diff
-
--2313.40.8.0.1
-+2313.40.10.0.0
-   __TEXT.__const: 0x790
--  __TEXT.__cstring: 0x48596
--  __TEXT_EXEC.__text: 0x13a484
-+  __TEXT.__cstring: 0x48590
-+  __TEXT_EXEC.__text: 0x13a494
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0x690
-   __DATA.__bss: 0xc60
-CStrings:
-+ "01:44:02"
-+ "2024/09/30"
-+ "2313.40.10"
-+ "Sep 30 2024"
-+ "apfs-2313.40.10"
-- "2024/09/18"
-- "22:27:56"
-- "2313.40.8.0.1"
-- "Sep 18 2024"
-- "apfs-2313.40.8.0.1"
-
-```
-
->  `com.apple.AGXG17P`
-
-```diff
-
--322.9.0.0.0
-+322.10.0.0.0
-   __TEXT.__const: 0x4cfc
-   __TEXT.__cstring: 0xec5b
-   __TEXT.__os_log: 0x318
--  __TEXT_EXEC.__text: 0xc3b3c
-+  __TEXT_EXEC.__text: 0xc3db4
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0x13b8
-   __DATA.__common: 0x10
-CStrings:
-+ "3.41.1"
-+ "Sep 30 2024 01:59:05"
-- "3.41.0"
-- "Sep 19 2024 20:18:40"
 
 ```
 
@@ -339,74 +628,115 @@ CStrings:
 
 ```
 
->  `com.apple.driver.AppleTypeCPhyAUSBC`
+>  `com.apple.driver.AppleT8130TypeCPhy`
 
 ```diff
 
 -239.40.1.0.0
 +239.40.3.0.0
-   __TEXT.__const: 0x8
-   __TEXT.__cstring: 0x8a6
-   __TEXT.__os_log: 0xc0f
--  __TEXT_EXEC.__text: 0x5468
-+  __TEXT_EXEC.__text: 0x5484
+   __TEXT.__const: 0x48
+   __TEXT.__cstring: 0x81fb
+   __TEXT.__os_log: 0xe07d
+-  __TEXT_EXEC.__text: 0x4bf80
++  __TEXT_EXEC.__text: 0x4bf9c
    __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0xc8
-   __DATA.__common: 0x38
+   __DATA.__data: 0x2c8
+   __DATA.__common: 0x58
 
-   __DATA_CONST.__got: 0x28
+   __DATA_CONST.__got: 0x58
    __DATA_CONST.__mod_init_func: 0x8
    __DATA_CONST.__mod_term_func: 0x8
--  __DATA_CONST.__const: 0x7f8
-+  __DATA_CONST.__const: 0x810
+-  __DATA_CONST.__const: 0x848
++  __DATA_CONST.__const: 0x860
    __DATA_CONST.__kalloc_type: 0x40
--  Functions: 52
-+  Functions: 55
+-  Functions: 122
++  Functions: 125
    Symbols:   0
-   CStrings:  72
+   CStrings:  790
  
 
 ```
 
->  `com.apple.driver.EXDisplayPipeH17P`
+>  `com.apple.AGXG17P`
 
 ```diff
 
--5.26.8.7.0
-+5.26.8.4.2
-   __TEXT.__const: 0x38
--  __TEXT.__cstring: 0x1a46
--  __TEXT_EXEC.__text: 0x6d64
-+  __TEXT.__cstring: 0x1a64
-+  __TEXT_EXEC.__text: 0x6db0
+-322.9.0.0.0
++322.10.0.0.0
+   __TEXT.__const: 0x4cfc
+   __TEXT.__cstring: 0xec5b
+   __TEXT.__os_log: 0x318
+-  __TEXT_EXEC.__text: 0xc3b3c
++  __TEXT_EXEC.__text: 0xc3db4
    __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0xc4
-   __DATA.__common: 0x60
+   __DATA.__data: 0x13b8
+   __DATA.__common: 0x10
+CStrings:
++ "3.41.1"
++ "Sep 30 2024 01:59:05"
+- "3.41.0"
+- "Sep 19 2024 20:18:40"
 
-   __DATA_CONST.__kalloc_type: 0x80
-   Functions: 146
+```
+
+>  `com.apple.driver.AppleAVD`
+
+```diff
+
+-806.1.0.0.0
++807.0.0.0.0
+   __TEXT.__const: 0x9a8c9
+   __TEXT.__cstring: 0x5277
+   __TEXT.__os_log: 0x12f18
+-  __TEXT_EXEC.__text: 0x45564
++  __TEXT_EXEC.__text: 0x45574
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0x12dc
+   __DATA.__common: 0x78
+
+```
+
+>  `com.apple.driver.AppleAVE2`
+
+```diff
+
+-803.31.1.0.0
++803.36.1.0.0
+   __TEXT.__const: 0x2edd0
+-  __TEXT.__cstring: 0x356b5
+-  __TEXT.__os_log: 0x408a7
+-  __TEXT_EXEC.__text: 0x1457e0
++  __TEXT.__cstring: 0x357a7
++  __TEXT.__os_log: 0x408f4
++  __TEXT_EXEC.__text: 0x145c00
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0x290
+   __DATA.__common: 0x130
+
+   __DATA_CONST.__mod_init_func: 0x38
+   __DATA_CONST.__mod_term_func: 0x38
+   __DATA_CONST.__const: 0x6310
+-  __DATA_CONST.__kalloc_type: 0x1fc0
+-  __DATA_CONST.__kalloc_var: 0xfa0
++  __DATA_CONST.__kalloc_type: 0x2c40
++  __DATA_CONST.__kalloc_var: 0xdc0
+   Functions: 2495
    Symbols:   0
--  CStrings:  140
-+  CStrings:  141
+-  CStrings:  6988
++  CStrings:  6991
  
 CStrings:
-+ "EXDisplayPipe::%s failed!!! \n"
-
-```
-
->  `com.apple.driver.SecureRTBuddyProxy`
-
-```diff
-
--618.40.2.0.0
-+618.42.1.0.0
-   __TEXT.__cstring: 0xd81
-   __TEXT.__const: 0x20
--  __TEXT_EXEC.__text: 0x8928
-+  __TEXT_EXEC.__text: 0x896c
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0xc8
-   __DATA.__common: 0xd8
++ "%lld %d AVE %s: %s:%d %s | LookAhead frame count is out of range %p %d %d %d"
++ "%lld %d AVE %s: %s:%d %s | LookAhead frame count is out of range %p %d %d %d\n"
++ "0 <= pInfo->VideoParams.iBFrames && pInfo->VideoParams.iBFrames <= 3"
++ "0 <= pInfo->sRCParams.iLookAheadFrames && pInfo->sRCParams.iLookAheadFrames <= (32 / ((2) < ((63 + 1)) ? (2) : ((63 + 1))) - 4)"
++ "02:49:17"
++ "803.36.1"
++ "Sep 30 2024"
+- "23:08:38"
+- "803.31.1"
+- "Sep 18 2024"
+- "pInfo->VideoParams.iBFrames <= 3"
 
 ```
 
@@ -509,337 +839,11 @@ CStrings:
 
 ```
 
->  `com.apple.driver.AppleAOPAudio`
-
-```diff
-
- 400.9.0.0.0
--  __TEXT.__cstring: 0xc588
-+  __TEXT.__cstring: 0xc591
-   __TEXT.__const: 0x136
-   __TEXT.__os_log: 0xf
-   __TEXT_EXEC.__text: 0x32934
-
-   __DATA_CONST.__kalloc_type: 0xa00
-   Functions: 1277
-   Symbols:   0
--  CStrings:  1151
-+  CStrings:  1152
- 
-CStrings:
-+ "01:42:50"
-+ "01:42:55"
-+ "Sep 30 2024"
-- "20:15:35"
-- "Sep 19 2024"
-
-```
-
->  `com.apple.driver.AppleMobileFileIntegrity`
-
-```diff
-
--938.40.4.0.0
--  __TEXT.__cstring: 0x9c1e
--  __TEXT.__const: 0x14b0
-+938.42.1.0.0
-+  __TEXT.__cstring: 0x9c92
-+  __TEXT.__const: 0x14c0
-   __TEXT.__os_log: 0x233
--  __TEXT_EXEC.__text: 0x263b8
-+  __TEXT_EXEC.__text: 0x26424
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0x412
-   __DATA.__common: 0xb0
-
-   __DATA_CONST.__const: 0x3750
-   __DATA_CONST.__kalloc_type: 0xec0
-   __DATA_CONST.__kalloc_var: 0x1310
--  Functions: 795
-+  Functions: 796
-   Symbols:   0
--  CStrings:  983
-+  CStrings:  985
- 
-CStrings:
-+ "01:43:04"
-+ "AMFI: [1] informing daemon of developer mode state change"
-+ "AMFI: [2] informing daemon of developer mode state change"
-+ "Sep 30 2024"
-- "20:15:57"
-- "Sep 19 2024"
-
-```
-
->  `com.apple.driver.ApplePMGR`
-
-```diff
-
--1555.40.11.502.1
-+1555.40.13.0.0
-   __TEXT.__const: 0x220
-   __TEXT.__cstring: 0xe92b
--  __TEXT_EXEC.__text: 0x52d88
-+  __TEXT_EXEC.__text: 0x52d90
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0x100
-   __DATA.__common: 0x420
-
-```
-
->  `com.apple.driver.AppleAVD`
-
-```diff
-
--806.1.0.0.0
-+807.0.0.0.0
-   __TEXT.__const: 0x9a8c9
-   __TEXT.__cstring: 0x5277
-   __TEXT.__os_log: 0x12f18
--  __TEXT_EXEC.__text: 0x45564
-+  __TEXT_EXEC.__text: 0x45574
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0x12dc
-   __DATA.__common: 0x78
-
-```
-
->  `com.apple.driver.AppleDisplayCrossbar`
-
-```diff
-
--355.40.3.0.0
--  __TEXT.__cstring: 0x4413
-+355.40.4.0.0
-+  __TEXT.__cstring: 0x43ef
-   __TEXT.__const: 0x160
--  __TEXT.__os_log: 0x5d14
--  __TEXT_EXEC.__text: 0x32128
-+  __TEXT.__os_log: 0x5be3
-+  __TEXT_EXEC.__text: 0x319ec
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0xc4
-   __DATA.__common: 0x3d0
--  __DATA_CONST.__auth_got: 0x250
-+  __DATA_CONST.__auth_got: 0x248
-   __DATA_CONST.__got: 0xd0
-   __DATA_CONST.__mod_init_func: 0xc0
-   __DATA_CONST.__mod_term_func: 0xc0
-
-   __DATA_CONST.__kalloc_type: 0x600
-   Functions: 1474
-   Symbols:   0
--  CStrings:  707
-+  CStrings:  705
- 
-CStrings:
-- "IOAV[%d] %s<0x%llx>::%s: registers at %p, 0x%0*llx physical\n"
-- "registers at %p, 0x%0*llx physical\n"
-
-```
-
->  `com.apple.driver.AppleT8130TypeCPhy`
-
-```diff
-
--239.40.1.0.0
-+239.40.3.0.0
-   __TEXT.__const: 0x48
-   __TEXT.__cstring: 0x81fb
-   __TEXT.__os_log: 0xe07d
--  __TEXT_EXEC.__text: 0x4bf80
-+  __TEXT_EXEC.__text: 0x4bf9c
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0x2c8
-   __DATA.__common: 0x58
-
-   __DATA_CONST.__got: 0x58
-   __DATA_CONST.__mod_init_func: 0x8
-   __DATA_CONST.__mod_term_func: 0x8
--  __DATA_CONST.__const: 0x848
-+  __DATA_CONST.__const: 0x860
-   __DATA_CONST.__kalloc_type: 0x40
--  Functions: 122
-+  Functions: 125
-   Symbols:   0
-   CStrings:  790
- 
-
-```
-
->  `com.apple.driver.AppleT8140CLPC`
-
-```diff
-
--1175.40.13.0.0
-+1175.40.15.0.0
-   __TEXT.__cstring: 0x2b92
-   __TEXT.__const: 0xc6c
--  __TEXT_EXEC.__text: 0x4f3f4
-+  __TEXT_EXEC.__text: 0x4f3e4
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0xaf60
-   __DATA.__common: 0x7ca1
-CStrings:
-+ "2024-09-30T02:00:58-07:00"
-+ "AppleCLPC-1175.40.15"
-- "2024-09-19T20:21:12-07:00"
-- "AppleCLPC-1175.40.13"
-
-```
-
->  `com.apple.driver.DCPAVFamilyProxy`
-
-```diff
-
--349.40.5.0.0
-+349.40.6.0.0
-   __TEXT.__const: 0x278
--  __TEXT.__cstring: 0x245c
--  __TEXT.__os_log: 0x129e
--  __TEXT_EXEC.__text: 0x16ca4
-+  __TEXT.__cstring: 0x247d
-+  __TEXT.__os_log: 0x129d
-+  __TEXT_EXEC.__text: 0x16ccc
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0xc8
-   __DATA.__common: 0x308
-
-   __DATA_CONST.__kalloc_var: 0x3c0
-   Functions: 808
-   Symbols:   0
--  CStrings:  283
-+  CStrings:  285
- 
-CStrings:
-+ "IOAV[%d] %s<0x%llx>::%s: enqueueResponse failed, rc=%08x\n"
-+ "enqueueResponse failed, rc=%08x\n"
-
-```
-
->  `com.apple.iokit.IODisplayPortFamily`
-
-```diff
-
--730.40.5.0.0
--  __TEXT.__cstring: 0x7c47
--  __TEXT.__os_log: 0x9571
-+730.40.6.0.0
-+  __TEXT.__cstring: 0x7bf2
-+  __TEXT.__os_log: 0x946b
-   __TEXT.__const: 0x310
--  __TEXT_EXEC.__text: 0x5d118
-+  __TEXT_EXEC.__text: 0x5cbac
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0xc8
-   __DATA.__common: 0x550
-
-   __DATA_CONST.__kalloc_var: 0x280
-   Functions: 1961
-   Symbols:   0
--  CStrings:  1526
-+  CStrings:  1523
- 
-CStrings:
-+ "%s matching for endpoint %u\n"
-+ "IOAV[%d] %s<0x%llx>::%s: Unable to cast service \"%s\" (0x%llx) to IOAVCECInterface\n"
-+ "IOAV[%d] %s<0x%llx>::%s: _cecInterface=0x%llx\n"
-+ "IOAV[%d] %s<0x%llx>::%s: setLinkRate with _transport=0x%llx, linkRate=%u\n"
-+ "IOAV[%d] %s<0x%llx>::%s: warning: _cecService=0x%llx\n"
-+ "Unable to cast service \"%s\" (0x%llx) to IOAVCECInterface\n"
-+ "_cecInterface=0x%llx\n"
-+ "setLinkRate with _transport=0x%llx, linkRate=%u\n"
-+ "warning: _cecService=0x%llx\n"
-- "\"%s\", waitForFunction=%d, param1=%p, param2=%p param3=%p, param4=%p\n"
-- "%s matching for endpoint %u, dict = %p\n"
-- "IOAV[%d] %s<0x%llx>::%s: \"%s\", waitForFunction=%d, param1=%p, param2=%p param3=%p, param4=%p\n"
-- "IOAV[%d] %s<0x%llx>::%s: Unable to cast service \"%s\" (%p) to IOAVCECInterface\n"
-- "IOAV[%d] %s<0x%llx>::%s: _cecInterface=%p\n"
-- "IOAV[%d] %s<0x%llx>::%s: setLinkRate with _transport=%p, linkRate=%u\n"
-- "IOAV[%d] %s<0x%llx>::%s: warning: _cecService=%p\n"
-- "Unable to cast service \"%s\" (%p) to IOAVCECInterface\n"
-- "_cecInterface=%p\n"
-- "callPlatformFunction"
-- "setLinkRate with _transport=%p, linkRate=%u\n"
-- "warning: _cecService=%p\n"
-
-```
-
->  `com.apple.kernel`
-
-```diff
-
--11215.40.59.0.0
-+11215.40.63.0.0
-   __TEXT.__const: 0x38400
-   __TEXT.__copyio_vectors: 0xf0
--  __TEXT.__cstring: 0x70c4e
--  __TEXT.__os_log: 0x26d4f
-+  __TEXT.__cstring: 0x70bde
-+  __TEXT.__os_log: 0x26d15
-   __TEXT.__eh_frame: 0x610
-   __DATA_CONST.__auth_ptr: 0x8
-   __DATA_CONST.__mod_init_func: 0x2c8
-
-   __DATA_CONST.__brk_desc: 0x78
-   __DATA_SPTM.__const: 0x3c000
-   __TEXT_EXEC.__hib_text: 0xc68
--  __TEXT_EXEC.__text: 0x7f2634
-+  __TEXT_EXEC.__text: 0x7e90e0
-   __TEXT_BOOT_EXEC.__bootcode: 0x4cd8
-   __KLD.__text: 0x1644
-   __LASTDATA_CONST.__mod_init_func: 0x8
-
-   __DATA.__lock_grp: 0x5908
-   __DATA.__percpu: 0x6e30
-   __DATA.__common: 0x58608
--  __DATA.__bss: 0x95988
-+  __DATA.__bss: 0x95938
-   __BOOTDATA.__data: 0x18000
-   __BOOTDATA.__init_entry_set: 0x10a58
-   __BOOTDATA.__init: 0x5b110
-
-   __PLK_LLVM_COV.__llvm_covmap: 0x0
-   __PLK_LINKEDIT.__data: 0x0
-   __LINKINFO.__symbolsets: 0x45557
--  Functions: 20350
-+  Functions: 20326
-   Symbols:   0
--  CStrings:  17020
-+  CStrings:  17017
- 
-CStrings:
-+ "site.u_int8_t *"
-- "%s: %s (process %s:%u) priority %u entry_count 0\n"
-- "IS_P2ALIGNED(ccp, CHANNEL_CACHE_ALIGN_MAX)"
-- "necp_get_tlv_at_offset buffer is NULL"
-- "site.u_int8_t * __attribute__((__indexable__))"
-
-```
-
->  `com.apple.security.sandbox`
-
-```diff
-
--2401.40.21.0.0
--  __TEXT.__const: 0x1867c9
-+2401.40.25.0.0
-+  __TEXT.__const: 0x187479
-   __TEXT.__cstring: 0x6f6b
-   __TEXT.__os_log: 0x2029
--  __TEXT_EXEC.__text: 0x3056c
-+  __TEXT_EXEC.__text: 0x30568
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0x1e0
--  __DATA.__bss: 0x144d0
-+  __DATA.__bss: 0x144c8
-   __DATA_CONST.__auth_got: 0x830
-   __DATA_CONST.__got: 0xc8
-   __DATA_CONST.__const: 0x3650
-
-```
-
 </details>
+
+### KDKs
+
+- [KDK DIFF](KDK.md)
 
 ## MachO
 
@@ -3748,21 +3752,61 @@ CStrings:
 <details>
   <summary><i>View Updated</i></summary>
 
-#### Messages.plist
+#### Wallet.plist
 
->  `Domain/Messages.plist`
+>  `Domain/Wallet.plist`
 
 ```diff
 
  		<key>DevelopmentPhase</key>
  		<string>FeatureComplete</string>
  	</dict>
-+	<key>waldoCPolish</key>
++	<key>SavingsFDICSignage</key>
 +	<dict>
 +		<key>DevelopmentPhase</key>
 +		<string>FeatureComplete</string>
 +	</dict>
- 	<key>wmr</key>
+ 	<key>SearchFinHealth</key>
+ 	<dict>
+ 		<key>Enabled</key>
+
+```
+
+#### CloudServices.plist
+
+>  `Domain/CloudServices.plist`
+
+```diff
+
+ 		<key>Enabled</key>
+ 		<true/>
+ 	</dict>
++	<key>Guitarfish</key>
++	<dict>
++		<key>DevelopmentPhase</key>
++		<string>FeatureComplete</string>
++	</dict>
+ 	<key>LogEscrowOperations</key>
+ 	<dict>
+ 		<key>Enabled</key>
+
+```
+
+#### Health.plist
+
+>  `Domain/Health.plist`
+
+```diff
+
+ 		<key>DevelopmentPhase</key>
+ 		<string>FeatureComplete</string>
+ 	</dict>
++	<key>nebula</key>
++	<dict>
++		<key>DevelopmentPhase</key>
++		<string>FeatureComplete</string>
++	</dict>
+ 	<key>orchestration_categories</key>
  	<dict>
  		<key>DevelopmentPhase</key>
 
@@ -3809,6 +3853,26 @@ CStrings:
 
 ```
 
+#### Podcasts.plist
+
+>  `Domain/Podcasts.plist`
+
+```diff
+
+ 		<key>DevelopmentPhase</key>
+ 		<string>FeatureComplete</string>
+ 	</dict>
++	<key>DisableConnectedSubscriptionsHardcode</key>
++	<dict>
++		<key>DevelopmentPhase</key>
++		<string>FeatureComplete</string>
++	</dict>
+ 	<key>DisableHomePodCloudSync</key>
+ 	<dict>
+ 		<key>DevelopmentPhase</key>
+
+```
+
 #### TVApp.plist
 
 >  `Domain/TVApp.plist`
@@ -3829,23 +3893,35 @@ CStrings:
 
 ```
 
-#### CloudServices.plist
+#### AppleAccount.plist
 
->  `Domain/CloudServices.plist`
+>  `Domain/AppleAccount.plist`
 
 ```diff
 
- 		<key>Enabled</key>
- 		<true/>
+ 		<key>DevelopmentPhase</key>
+ 		<string>FeatureComplete</string>
  	</dict>
-+	<key>Guitarfish</key>
++	<key>LCDeletionChangeCKStatusToDeclined</key>
 +	<dict>
 +		<key>DevelopmentPhase</key>
 +		<string>FeatureComplete</string>
 +	</dict>
- 	<key>LogEscrowOperations</key>
+ 	<key>LoadRemoteUI</key>
  	<dict>
- 		<key>Enabled</key>
+ 		<key>DevelopmentPhase</key>
+
+ 		<key>DevelopmentPhase</key>
+ 		<string>FeatureComplete</string>
+ 	</dict>
++	<key>iCloudConfigurationBagDaemonCache</key>
++	<dict>
++		<key>DevelopmentPhase</key>
++		<string>FeatureComplete</string>
++	</dict>
+ </dict>
+ </plist>
+ 
 
 ```
 
@@ -3889,21 +3965,21 @@ CStrings:
 
 ```
 
-#### Health.plist
+#### Messages.plist
 
->  `Domain/Health.plist`
+>  `Domain/Messages.plist`
 
 ```diff
 
  		<key>DevelopmentPhase</key>
  		<string>FeatureComplete</string>
  	</dict>
-+	<key>nebula</key>
++	<key>waldoCPolish</key>
 +	<dict>
 +		<key>DevelopmentPhase</key>
 +		<string>FeatureComplete</string>
 +	</dict>
- 	<key>orchestration_categories</key>
+ 	<key>wmr</key>
  	<dict>
  		<key>DevelopmentPhase</key>
 
@@ -3929,46 +4005,6 @@ CStrings:
 
 ```
 
-#### Podcasts.plist
-
->  `Domain/Podcasts.plist`
-
-```diff
-
- 		<key>DevelopmentPhase</key>
- 		<string>FeatureComplete</string>
- 	</dict>
-+	<key>DisableConnectedSubscriptionsHardcode</key>
-+	<dict>
-+		<key>DevelopmentPhase</key>
-+		<string>FeatureComplete</string>
-+	</dict>
- 	<key>DisableHomePodCloudSync</key>
- 	<dict>
- 		<key>DevelopmentPhase</key>
-
-```
-
-#### Wallet.plist
-
->  `Domain/Wallet.plist`
-
-```diff
-
- 		<key>DevelopmentPhase</key>
- 		<string>FeatureComplete</string>
- 	</dict>
-+	<key>SavingsFDICSignage</key>
-+	<dict>
-+		<key>DevelopmentPhase</key>
-+		<string>FeatureComplete</string>
-+	</dict>
- 	<key>SearchFinHealth</key>
- 	<dict>
- 		<key>Enabled</key>
-
-```
-
 #### GlobalDisclosures.plist
 
 >  `GlobalDisclosures.plist`
@@ -3986,38 +4022,6 @@ CStrings:
  	<key>2298f8e4-f510-4776-b2c1-a85ea314b1f8</key>
  	<dict>
  		<key>Disclosed</key>
-
-```
-
-#### AppleAccount.plist
-
->  `Domain/AppleAccount.plist`
-
-```diff
-
- 		<key>DevelopmentPhase</key>
- 		<string>FeatureComplete</string>
- 	</dict>
-+	<key>LCDeletionChangeCKStatusToDeclined</key>
-+	<dict>
-+		<key>DevelopmentPhase</key>
-+		<string>FeatureComplete</string>
-+	</dict>
- 	<key>LoadRemoteUI</key>
- 	<dict>
- 		<key>DevelopmentPhase</key>
-
- 		<key>DevelopmentPhase</key>
- 		<string>FeatureComplete</string>
- 	</dict>
-+	<key>iCloudConfigurationBagDaemonCache</key>
-+	<dict>
-+		<key>DevelopmentPhase</key>
-+		<string>FeatureComplete</string>
-+	</dict>
- </dict>
- </plist>
- 
 
 ```
 
