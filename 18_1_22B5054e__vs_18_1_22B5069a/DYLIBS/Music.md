@@ -1,0 +1,74 @@
+## Music
+
+> `/System/Library/AccessibilityBundles/Music.axbundle/Music`
+
+```diff
+
+-2955.11.0.0.0
+-  __TEXT.__text: 0x9260
++2955.13.0.0.0
++  __TEXT.__text: 0x93f4
+   __TEXT.__auth_stubs: 0x470
+-  __TEXT.__objc_methlist: 0xf70
++  __TEXT.__objc_methlist: 0xfb4
+   __TEXT.__const: 0x18
+   __TEXT.__gcc_except_tab: 0x9c
+-  __TEXT.__cstring: 0x221b
+-  __TEXT.__unwind_info: 0x3c8
+-  __TEXT.__objc_classname: 0xcb2
+-  __TEXT.__objc_methname: 0x14b5
++  __TEXT.__cstring: 0x225b
++  __TEXT.__unwind_info: 0x3d8
++  __TEXT.__objc_classname: 0xce2
++  __TEXT.__objc_methname: 0x14ca
+   __TEXT.__objc_methtype: 0xea
+-  __TEXT.__objc_stubs: 0x13c0
+-  __DATA_CONST.__got: 0x178
++  __TEXT.__objc_stubs: 0x1400
++  __DATA_CONST.__got: 0x180
+   __DATA_CONST.__const: 0x360
+-  __DATA_CONST.__objc_classlist: 0x268
++  __DATA_CONST.__objc_classlist: 0x278
+   __DATA_CONST.__objc_catlist: 0x8
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x658
+-  __DATA_CONST.__objc_superrefs: 0x108
++  __DATA_CONST.__objc_selrefs: 0x668
++  __DATA_CONST.__objc_superrefs: 0x110
+   __AUTH_CONST.__auth_got: 0x248
+   __AUTH_CONST.__const: 0x260
+-  __AUTH_CONST.__cfstring: 0x2e00
+-  __AUTH_CONST.__objc_const: 0x2bd0
+-  __AUTH.__objc_data: 0x1810
++  __AUTH_CONST.__cfstring: 0x2e80
++  __AUTH_CONST.__objc_const: 0x2cf0
++  __AUTH.__objc_data: 0x18b0
+   __DATA.__objc_ivar: 0x4
+   __DATA.__bss: 0x28
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+
+   - /usr/lib/libAccessibility.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  Functions: 309
+-  Symbols:   587
+-  CStrings:  708
++  Functions: 313
++  Symbols:   596
++  CStrings:  716
+ 
+Symbols:
++ _OBJC_CLASS_$_UIWindow
++ _OBJC_CLASS_$_WindowAccessibility
++ _OBJC_CLASS_$___WindowAccessibility_super
++ _OBJC_METACLASS_$_WindowAccessibility
++ _OBJC_METACLASS_$___WindowAccessibility_super
+CStrings:
++ "Music.MainSceneDelegate"
++ "Music.Window"
++ "WindowAccessibility"
++ "__WindowAccessibility_super"
++ "window"
++ "windowScene"
+
+```
