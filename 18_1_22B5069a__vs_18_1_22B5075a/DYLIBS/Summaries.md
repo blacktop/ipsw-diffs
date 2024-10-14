@@ -1,0 +1,22 @@
+## Summaries
+
+> `/System/Library/Health/FeedItemPlugins/Summaries.healthplugin/Summaries`
+
+```diff
+
+-5200.1.15.1.2
++5200.1.18.0.0
+   __TEXT.__text: 0x2b0b28
+   __TEXT.__auth_stubs: 0x6670
+   __TEXT.__objc_methlist: 0xd0
+
+   __DATA_CONST.__objc_selrefs: 0x1840
+   __DATA_CONST.__objc_protorefs: 0x30
+   __AUTH_CONST.__auth_got: 0x3338
+-  __AUTH_CONST.__auth_ptr: 0x1f10
++  __AUTH_CONST.__auth_ptr: 0x1f80
+   __AUTH_CONST.__const: 0x8bb8
+   __AUTH_CONST.__objc_const: 0x4ad0
+   __AUTH.__objc_data: 0xd00
+
+```
