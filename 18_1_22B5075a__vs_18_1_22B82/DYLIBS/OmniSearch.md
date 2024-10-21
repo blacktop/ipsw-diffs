@@ -1,0 +1,401 @@
+## OmniSearch
+
+> `/System/Library/PrivateFrameworks/OmniSearch.framework/OmniSearch`
+
+```diff
+
+ 3401.14.1.0.0
+-  __TEXT.__text: 0x24ff64
+-  __TEXT.__auth_stubs: 0x3b40
++  __TEXT.__text: 0x2664d0
++  __TEXT.__auth_stubs: 0x3c10
+   __TEXT.__objc_methlist: 0x78
+-  __TEXT.__const: 0xb598
+-  __TEXT.__cstring: 0x5511
+-  __TEXT.__oslogstring: 0x45aa
+-  __TEXT.__swift5_typeref: 0x3b7d
+-  __TEXT.__swift5_fieldmd: 0x3d94
+-  __TEXT.__constg_swiftt: 0x2f34
+-  __TEXT.__swift5_reflstr: 0x2b2c
++  __TEXT.__const: 0xc208
++  __TEXT.__cstring: 0x5d61
++  __TEXT.__oslogstring: 0x4c8a
++  __TEXT.__swift5_typeref: 0x3f94
++  __TEXT.__swift5_fieldmd: 0x4038
++  __TEXT.__constg_swiftt: 0x32c8
++  __TEXT.__swift5_reflstr: 0x2cfc
+   __TEXT.__swift5_builtin: 0x78
+-  __TEXT.__swift5_capture: 0xbf4
+-  __TEXT.__swift5_assocty: 0x848
+-  __TEXT.__swift5_protos: 0x78
+-  __TEXT.__swift5_proto: 0xb48
+-  __TEXT.__swift5_types: 0x364
++  __TEXT.__swift5_capture: 0xc80
++  __TEXT.__swift5_assocty: 0x878
++  __TEXT.__swift5_protos: 0x80
++  __TEXT.__swift5_proto: 0xc0c
++  __TEXT.__swift5_types: 0x3a8
+   __TEXT.__swift5_mpenum: 0x8
+-  __TEXT.__unwind_info: 0x63f8
+-  __TEXT.__eh_frame: 0x8944
++  __TEXT.__unwind_info: 0x6a10
++  __TEXT.__eh_frame: 0x9988
+   __TEXT.__objc_classname: 0x8f
+   __TEXT.__objc_methname: 0x1658
+   __TEXT.__objc_methtype: 0x26e
+-  __DATA_CONST.__got: 0xfb8
++  __DATA_CONST.__got: 0xfc8
+   __DATA_CONST.__const: 0xe38
+-  __DATA_CONST.__objc_classlist: 0xd0
++  __DATA_CONST.__objc_classlist: 0xf8
+   __DATA_CONST.__objc_protolist: 0x80
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_selrefs: 0x830
+   __DATA_CONST.__objc_protorefs: 0x40
+-  __AUTH_CONST.__auth_got: 0x1da0
+-  __AUTH_CONST.__auth_ptr: 0xf20
+-  __AUTH_CONST.__const: 0x7f30
+-  __AUTH_CONST.__objc_const: 0x21f0
+-  __AUTH.__objc_data: 0x428
+-  __AUTH.__data: 0x32a0
+-  __DATA.__data: 0x3db0
+-  __DATA.__common: 0x2c8
+-  __DATA.__bss: 0x14e30
++  __AUTH_CONST.__auth_got: 0x1e08
++  __AUTH_CONST.__auth_ptr: 0xfd8
++  __AUTH_CONST.__const: 0x8768
++  __AUTH_CONST.__objc_const: 0x25b8
++  __AUTH.__objc_data: 0x4c8
++  __AUTH.__data: 0x3648
++  __DATA.__data: 0x4110
++  __DATA.__common: 0x2f8
++  __DATA.__bss: 0x164b0
+   - /System/Library/Frameworks/Accelerate.framework/Accelerate
+   - /System/Library/Frameworks/AppIntents.framework/AppIntents
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+
+   - /usr/lib/swift/libswiftsimd.dylib
+   - /usr/lib/swift/libswiftsys_time.dylib
+   - /usr/lib/swift/libswiftunistd.dylib
+-  Functions: 10178
+-  Symbols:   15931
+-  CStrings:  1294
++  Functions: 10662
++  Symbols:   16741
++  CStrings:  1366
+ 
+Symbols:
++ _$s10OmniSearch06keyForB6Result_3idxSSSgAA0bE0V_SitF
++ _$s10OmniSearch14AnswerComposerC22answerSynthesisService14resultHydrator010resolutionG04langAcA0cF18ControllerProtocol_p_AA15ResultHydration_pAA015EagerResolutionG0_pSgSStcfC
++ _$s10OmniSearch14AnswerComposerC22answerSynthesisService14resultHydrator010resolutionG04langAcA0cF18ControllerProtocol_p_AA15ResultHydration_pAA015EagerResolutionG0_pSgSStcfCTj
++ _$s10OmniSearch14AnswerComposerC22answerSynthesisService14resultHydrator010resolutionG04langAcA0cF18ControllerProtocol_p_AA15ResultHydration_pAA015EagerResolutionG0_pSgSStcfCTq
++ _$s10OmniSearch14AnswerComposerC22answerSynthesisService14resultHydrator010resolutionG04langAcA0cF18ControllerProtocol_p_AA15ResultHydration_pAA015EagerResolutionG0_pSgSStcfc
++ _$s10OmniSearch14AnswerComposerC22answerSynthesisService14resultHydrator010resolutionG04langAcA0cF18ControllerProtocol_p_AA15ResultHydration_pAA015EagerResolutionG0_pSgSStcfcfA0_
++ _$s10OmniSearch14AnswerComposerC22answerSynthesisService14resultHydrator010resolutionG04langAcA0cF18ControllerProtocol_p_AA15ResultHydration_pAA015EagerResolutionG0_pSgSStcfcfA1_
++ _$s10OmniSearch14AnswerComposerC22answerSynthesisService14resultHydrator010resolutionG04langAcA0cF18ControllerProtocol_p_AA15ResultHydration_pAA015EagerResolutionG0_pSgSStcfcfA2_
++ _$s10OmniSearch14AnswerComposerC22answerSynthesisService14resultHydrator010resolutionG04langAcA0cF18ControllerProtocol_p_AA15ResultHydration_pAA015EagerResolutionG0_pSgSStcfcfA_
++ _$s10OmniSearch21AnswerSynthesisResultO02noC0yA2CmFWC
++ _$s10OmniSearch21AnswerSynthesisResultO17noEligibleResultsyA2CmFWC
++ _$s10OmniSearch21AnswerSynthesisResultO18noExtractionNeededyA2CmFWC
++ _$s10OmniSearch21AnswerSynthesisResultO2eeoiySbAC_ACtFZ
++ _$s10OmniSearch21AnswerSynthesisResultO4fromACs7Decoder_p_tKcfC
++ _$s10OmniSearch21AnswerSynthesisResultO6encode2toys7Encoder_p_tKF
++ _$s10OmniSearch21AnswerSynthesisResultO7answersyACSayAA0bE0VG_tcACmFWC
++ _$s10OmniSearch21AnswerSynthesisResultOMa
++ _$s10OmniSearch21AnswerSynthesisResultOMn
++ _$s10OmniSearch21AnswerSynthesisResultON
++ _$s10OmniSearch21AnswerSynthesisResultOSEAAMc
++ _$s10OmniSearch21AnswerSynthesisResultOSQAAMc
++ _$s10OmniSearch21AnswerSynthesisResultOSeAAMc
++ _$s10OmniSearch22AnswerSynthesisRequestV10userPromptSSyKF
++ _$s10OmniSearch22AnswerSynthesisRequestV19tokenCharMultiplierSivau
++ _$s10OmniSearch22AnswerSynthesisRequestV19tokenCharMultiplierSivgZ
++ _$s10OmniSearch22AnswerSynthesisRequestV19tokenCharMultiplierSivpZ
++ _$s10OmniSearch22AnswerSynthesisRequestV21personal_data_sourcesSaySDyS2SGGvM
++ _$s10OmniSearch22AnswerSynthesisRequestV21personal_data_sourcesSaySDyS2SGGvg
++ _$s10OmniSearch22AnswerSynthesisRequestV21personal_data_sourcesSaySDyS2SGGvpMV
++ _$s10OmniSearch22AnswerSynthesisRequestV21personal_data_sourcesSaySDyS2SGGvs
++ _$s10OmniSearch22AnswerSynthesisRequestV31calculateCharLimitForUserPrompt05tokenH0S2i_tFZ
++ _$s10OmniSearch22AnswerSynthesisRequestV4fromACs7Decoder_p_tKcfC
++ _$s10OmniSearch22AnswerSynthesisRequestV5query9documents9charLimitACSS_SayAA0B6ResultVGSitcfC
++ _$s10OmniSearch22AnswerSynthesisRequestV5query9documents9charLimitACSS_SayAA0B6ResultVGSitcfcfA1_
++ _$s10OmniSearch22AnswerSynthesisRequestV5querySSvM
++ _$s10OmniSearch22AnswerSynthesisRequestV5querySSvg
++ _$s10OmniSearch22AnswerSynthesisRequestV5querySSvpMV
++ _$s10OmniSearch22AnswerSynthesisRequestV5querySSvs
++ _$s10OmniSearch22AnswerSynthesisRequestV6encode2toys7Encoder_p_tKF
++ _$s10OmniSearch22AnswerSynthesisRequestVMa
++ _$s10OmniSearch22AnswerSynthesisRequestVMn
++ _$s10OmniSearch22AnswerSynthesisRequestVN
++ _$s10OmniSearch22AnswerSynthesisRequestVSEAAMc
++ _$s10OmniSearch22AnswerSynthesisRequestVSeAAMc
++ _$s10OmniSearch25AnswerSynthesisControllerC010preprocessB6Entity3for4withSaySayAA0B6ResultVGGSS_AItYaKFTj
++ _$s10OmniSearch25AnswerSynthesisControllerC010preprocessB6Entity3for4withSaySayAA0B6ResultVGGSS_AItYaKFTjTu
++ _$s10OmniSearch25AnswerSynthesisControllerC010preprocessB6Entity3for4withSaySayAA0B6ResultVGGSS_AItYaKFTq
++ _$s10OmniSearch25AnswerSynthesisControllerC02noC6LabelsShySSGvau
++ _$s10OmniSearch25AnswerSynthesisControllerC02noC6LabelsShySSGvgZ
++ _$s10OmniSearch25AnswerSynthesisControllerC02noC6LabelsShySSGvpZ
++ _$s10OmniSearch25AnswerSynthesisControllerC06answerD10TokenLimitSivg
++ _$s10OmniSearch25AnswerSynthesisControllerC06answerD10TokenLimitSivpMV
++ _$s10OmniSearch25AnswerSynthesisControllerC06answerD5Model9modelType0fD10TokenLimitAcA0cdG8Protocol_p_AC0cdgI0OSitcfC
++ _$s10OmniSearch25AnswerSynthesisControllerC06answerD5Model9modelType0fD10TokenLimitAcA0cdG8Protocol_p_AC0cdgI0OSitcfCTj
++ _$s10OmniSearch25AnswerSynthesisControllerC06answerD5Model9modelType0fD10TokenLimitAcA0cdG8Protocol_p_AC0cdgI0OSitcfCTq
++ _$s10OmniSearch25AnswerSynthesisControllerC06answerD5Model9modelType0fD10TokenLimitAcA0cdG8Protocol_p_AC0cdgI0OSitcfc
++ _$s10OmniSearch25AnswerSynthesisControllerC06createcD13BatchRequests3for4withSayAA0cD7RequestV06answerdK0_SayAA0B6ResultVG09processedB8EntitiestGSgSS_ALtYaKFTj
++ _$s10OmniSearch25AnswerSynthesisControllerC06createcD13BatchRequests3for4withSayAA0cD7RequestV06answerdK0_SayAA0B6ResultVG09processedB8EntitiestGSgSS_ALtYaKFTjTu
++ _$s10OmniSearch25AnswerSynthesisControllerC06createcD13BatchRequests3for4withSayAA0cD7RequestV06answerdK0_SayAA0B6ResultVG09processedB8EntitiestGSgSS_ALtYaKFTq
++ _$s10OmniSearch25AnswerSynthesisControllerC06createcD7Request3for4withAA0cdG0VSS_SayAA0B6ResultVGtKFTj
++ _$s10OmniSearch25AnswerSynthesisControllerC06createcD7Request3for4withAA0cdG0VSS_SayAA0B6ResultVGtKFTq
++ _$s10OmniSearch25AnswerSynthesisControllerC07convertd8ResultTobG7Answers09synthesisG013searchResultsAA0cdG0OAA0cd5ModelG0V_SayAA0bG0VGtFTj
++ _$s10OmniSearch25AnswerSynthesisControllerC07convertd8ResultTobG7Answers09synthesisG013searchResultsAA0cdG0OAA0cd5ModelG0V_SayAA0bG0VGtFTq
++ _$s10OmniSearch25AnswerSynthesisControllerC07performD7Request3for4withAA0cD6ResultOAA0cdG0V_SayAA0bJ0VGtYaKFTj
++ _$s10OmniSearch25AnswerSynthesisControllerC07performD7Request3for4withAA0cD6ResultOAA0cdG0V_SayAA0bJ0VGtYaKFTjTu
++ _$s10OmniSearch25AnswerSynthesisControllerC07performD7Request3for4withAA0cD6ResultOAA0cdG0V_SayAA0bJ0VGtYaKFTq
++ _$s10OmniSearch25AnswerSynthesisControllerC0cD9ModelTypeO8rawValueAESgSS_tcfC
++ _$s10OmniSearch25AnswerSynthesisControllerC0cD9ModelTypeO8rawValueSSvg
++ _$s10OmniSearch25AnswerSynthesisControllerC0cD9ModelTypeO8rawValueSSvpMV
++ _$s10OmniSearch25AnswerSynthesisControllerC0cD9ModelTypeOMa
++ _$s10OmniSearch25AnswerSynthesisControllerC0cD9ModelTypeOMn
++ _$s10OmniSearch25AnswerSynthesisControllerC0cD9ModelTypeON
++ _$s10OmniSearch25AnswerSynthesisControllerC0cD9ModelTypeOSHAAMc
++ _$s10OmniSearch25AnswerSynthesisControllerC0cD9ModelTypeOSQAAMc
++ _$s10OmniSearch25AnswerSynthesisControllerC0cD9ModelTypeOSYAAMc
++ _$s10OmniSearch25AnswerSynthesisControllerC10synthesize5query13searchResultsAA0cD6ResultOSS_SayAA0bJ0VGtYaKFTj
++ _$s10OmniSearch25AnswerSynthesisControllerC10synthesize5query13searchResultsAA0cD6ResultOSS_SayAA0bJ0VGtYaKFTjTu
++ _$s10OmniSearch25AnswerSynthesisControllerC10synthesize5query13searchResultsAA0cD6ResultOSS_SayAA0bJ0VGtYaKFTq
++ _$s10OmniSearch25AnswerSynthesisControllerC12prewarmModelyyFTj
++ _$s10OmniSearch25AnswerSynthesisControllerC12prewarmModelyyFTq
++ _$s10OmniSearch25AnswerSynthesisControllerC14supportedTypesSay0abG00B10ResultTypeOGvau
++ _$s10OmniSearch25AnswerSynthesisControllerC14supportedTypesSay0abG00B10ResultTypeOGvgZ
++ _$s10OmniSearch25AnswerSynthesisControllerC14supportedTypesSay0abG00B10ResultTypeOGvpZ
++ _$s10OmniSearch25AnswerSynthesisControllerC18noExtractionLabelsShySSGvau
++ _$s10OmniSearch25AnswerSynthesisControllerC18noExtractionLabelsShySSGvgZ
++ _$s10OmniSearch25AnswerSynthesisControllerC18noExtractionLabelsShySSGvpZ
++ _$s10OmniSearch25AnswerSynthesisControllerC28collateNetworkServiceResultsyAA0cD6ResultOSayAFGFTj
++ _$s10OmniSearch25AnswerSynthesisControllerC28collateNetworkServiceResultsyAA0cD6ResultOSayAFGFTq
++ _$s10OmniSearch25AnswerSynthesisControllerC6sharedACvgZ
++ _$s10OmniSearch25AnswerSynthesisControllerC9modelTypeAC0cd5ModelG0Ovg
++ _$s10OmniSearch25AnswerSynthesisControllerC9modelTypeAC0cd5ModelG0OvpMV
++ _$s10OmniSearch25AnswerSynthesisControllerCAA0cdE8ProtocolAAMc
++ _$s10OmniSearch25AnswerSynthesisControllerCAA0cdE8ProtocolAAWP
++ _$s10OmniSearch25AnswerSynthesisControllerCACycfC
++ _$s10OmniSearch25AnswerSynthesisControllerCMa
++ _$s10OmniSearch25AnswerSynthesisControllerCMm
++ _$s10OmniSearch25AnswerSynthesisControllerCMn
++ _$s10OmniSearch25AnswerSynthesisControllerCMo
++ _$s10OmniSearch25AnswerSynthesisControllerCMu
++ _$s10OmniSearch25AnswerSynthesisControllerCN
++ _$s10OmniSearch25AnswerSynthesisControllerCfD
++ _$s10OmniSearch25AnswerSynthesisControllerCfd
++ _$s10OmniSearch25AnswerSynthesisExtractionV06answerD14NetworkServiceAA0cD18ControllerProtocol_pvM
++ _$s10OmniSearch25AnswerSynthesisExtractionV06answerD14NetworkServiceAA0cD18ControllerProtocol_pvg
++ _$s10OmniSearch25AnswerSynthesisExtractionV06answerD14NetworkServiceAA0cD18ControllerProtocol_pvpMV
++ _$s10OmniSearch25AnswerSynthesisExtractionV06answerD14NetworkServiceAA0cD18ControllerProtocol_pvs
++ _$s10OmniSearch25AnswerSynthesisExtractionV11extractInfo5query6resultAA09ExtractedG0OSgAA9UserQueryV_AA0B6ResultVtYaKF
++ _$s10OmniSearch25AnswerSynthesisExtractionV11extractInfo5query6resultAA09ExtractedG0OSgAA9UserQueryV_AA0B6ResultVtYaKFTu
++ _$s10OmniSearch25AnswerSynthesisExtractionV14extractResults5query7resultsSayAA15ExtractedResultVGAA9UserQueryV_SayAA0bK0VGtYaKF
++ _$s10OmniSearch25AnswerSynthesisExtractionV14extractResults5query7resultsSayAA15ExtractedResultVGAA9UserQueryV_SayAA0bK0VGtYaKFTu
++ _$s10OmniSearch25AnswerSynthesisExtractionV14networkServiceAcA0cD18ControllerProtocol_p_tcfC
++ _$s10OmniSearch25AnswerSynthesisExtractionV14networkServiceAcA0cD18ControllerProtocol_p_tcfcfA_
++ _$s10OmniSearch25AnswerSynthesisExtractionV19eligibleResultTypesSay0abH00bG4TypeOGvM
++ _$s10OmniSearch25AnswerSynthesisExtractionV19eligibleResultTypesSay0abH00bG4TypeOGvg
++ _$s10OmniSearch25AnswerSynthesisExtractionV19eligibleResultTypesSay0abH00bG4TypeOGvpMV
++ _$s10OmniSearch25AnswerSynthesisExtractionV19eligibleResultTypesSay0abH00bG4TypeOGvs
++ _$s10OmniSearch25AnswerSynthesisExtractionV23requiresHydratedResultsSbvg
++ _$s10OmniSearch25AnswerSynthesisExtractionV23requiresHydratedResultsSbvpMV
++ _$s10OmniSearch25AnswerSynthesisExtractionVAA0E4RuleAAMc
++ _$s10OmniSearch25AnswerSynthesisExtractionVAA0E4RuleAAWP
++ _$s10OmniSearch25AnswerSynthesisExtractionVMa
++ _$s10OmniSearch25AnswerSynthesisExtractionVMn
++ _$s10OmniSearch25AnswerSynthesisExtractionVN
++ _$s10OmniSearch26AnswerSynthesisModelResultV29GenerativeFunctionsFoundation9GenerableAAMc
++ _$s10OmniSearch26AnswerSynthesisModelResultV4fromAC29GenerativeFunctionsFoundation15GeneratedValuesV_tKcfC
++ _$s10OmniSearch26AnswerSynthesisModelResultV4fromACs7Decoder_p_tKcfC
++ _$s10OmniSearch26AnswerSynthesisModelResultV6encode2toys7Encoder_p_tKF
++ _$s10OmniSearch26AnswerSynthesisModelResultV6schema29GenerativeFunctionsFoundation6SchemaVvau
++ _$s10OmniSearch26AnswerSynthesisModelResultV6schema29GenerativeFunctionsFoundation6SchemaVvgZ
++ _$s10OmniSearch26AnswerSynthesisModelResultV6schema29GenerativeFunctionsFoundation6SchemaVvpZ
++ _$s10OmniSearch26AnswerSynthesisModelResultV7answersSaySDyS2SGGvg
++ _$s10OmniSearch26AnswerSynthesisModelResultV7answersSaySDyS2SGGvpMV
++ _$s10OmniSearch26AnswerSynthesisModelResultVMa
++ _$s10OmniSearch26AnswerSynthesisModelResultVMn
++ _$s10OmniSearch26AnswerSynthesisModelResultVN
++ _$s10OmniSearch26AnswerSynthesisModelResultVSEAAMc
++ _$s10OmniSearch26AnswerSynthesisModelResultVSeAAMc
++ _$s10OmniSearch26AnswerSynthesisModelServerC10synthesize_8bindingsSS26GenerativeModelsFoundation14PromptTemplateV_SDyS2SGtYaKF
++ _$s10OmniSearch26AnswerSynthesisModelServerC10synthesize_8bindingsSS26GenerativeModelsFoundation14PromptTemplateV_SDyS2SGtYaKFTu
++ _$s10OmniSearch26AnswerSynthesisModelServerC16GenerativeModels0gE21SessionTokenGeneratorAAMc
++ _$s10OmniSearch26AnswerSynthesisModelServerC19synthesize_runnable_8bindings19GenerativeFunctions0J21ConfigurationRunnableVy9PromptKit010CompletionN0V15TokenGeneration0Q9GeneratorCAKG0J16ModelsFoundation0N8TemplateV_SDyS2SGtYaKF
++ _$s10OmniSearch26AnswerSynthesisModelServerC19synthesize_runnable_8bindings19GenerativeFunctions0J21ConfigurationRunnableVy9PromptKit010CompletionN0V15TokenGeneration0Q9GeneratorCAKG0J16ModelsFoundation0N8TemplateV_SDyS2SGtYaKFTu
++ _$s10OmniSearch26AnswerSynthesisModelServerC20createPromptTemplate26GenerativeModelsFoundation0hI0VyF
++ _$s10OmniSearch26AnswerSynthesisModelServerC45synthesize_generateGenerativeFunctionOverrideSS_10Foundation4DataVtyKF
++ _$s10OmniSearch26AnswerSynthesisModelServerC5model15TokenGeneration0H9GeneratorCvg
++ _$s10OmniSearch26AnswerSynthesisModelServerC5model15TokenGeneration0H9GeneratorCvpMV
++ _$s10OmniSearch26AnswerSynthesisModelServerC7prewarmyyF
++ _$s10OmniSearch26AnswerSynthesisModelServerCAA0cdE8ProtocolAAMc
++ _$s10OmniSearch26AnswerSynthesisModelServerCAA0cdE8ProtocolAAWP
++ _$s10OmniSearch26AnswerSynthesisModelServerCACycfC
++ _$s10OmniSearch26AnswerSynthesisModelServerCACycfCTj
++ _$s10OmniSearch26AnswerSynthesisModelServerCACycfCTq
++ _$s10OmniSearch26AnswerSynthesisModelServerCACycfc
++ _$s10OmniSearch26AnswerSynthesisModelServerCMa
++ _$s10OmniSearch26AnswerSynthesisModelServerCMm
++ _$s10OmniSearch26AnswerSynthesisModelServerCMn
++ _$s10OmniSearch26AnswerSynthesisModelServerCMo
++ _$s10OmniSearch26AnswerSynthesisModelServerCMu
++ _$s10OmniSearch26AnswerSynthesisModelServerCN
++ _$s10OmniSearch26AnswerSynthesisModelServerCfD
++ _$s10OmniSearch26AnswerSynthesisModelServerCfd
++ _$s10OmniSearch28AnswerSynthesisModelOnDeviceC10synthesize_8bindingsSS26GenerativeModelsFoundation14PromptTemplateV_SDyS2SGtYaKF
++ _$s10OmniSearch28AnswerSynthesisModelOnDeviceC10synthesize_8bindingsSS26GenerativeModelsFoundation14PromptTemplateV_SDyS2SGtYaKFTu
++ _$s10OmniSearch28AnswerSynthesisModelOnDeviceC16GenerativeModels0hE21SessionTokenGeneratorAAMc
++ _$s10OmniSearch28AnswerSynthesisModelOnDeviceC19synthesize_runnable_8bindings19GenerativeFunctions0K21ConfigurationRunnableVy9PromptKit010CompletionO0V15TokenGeneration0R9GeneratorCAKG0K16ModelsFoundation0O8TemplateV_SDyS2SGtYaKF
++ _$s10OmniSearch28AnswerSynthesisModelOnDeviceC19synthesize_runnable_8bindings19GenerativeFunctions0K21ConfigurationRunnableVy9PromptKit010CompletionO0V15TokenGeneration0R9GeneratorCAKG0K16ModelsFoundation0O8TemplateV_SDyS2SGtYaKFTu
++ _$s10OmniSearch28AnswerSynthesisModelOnDeviceC20createPromptTemplate26GenerativeModelsFoundation0iJ0VyF
++ _$s10OmniSearch28AnswerSynthesisModelOnDeviceC45synthesize_generateGenerativeFunctionOverrideSS_10Foundation4DataVtyKF
++ _$s10OmniSearch28AnswerSynthesisModelOnDeviceC5model15TokenGeneration0I9GeneratorCvg
++ _$s10OmniSearch28AnswerSynthesisModelOnDeviceC5model15TokenGeneration0I9GeneratorCvpMV
++ _$s10OmniSearch28AnswerSynthesisModelOnDeviceC7prewarmyyF
++ _$s10OmniSearch28AnswerSynthesisModelOnDeviceCAA0cdE8ProtocolAAMc
++ _$s10OmniSearch28AnswerSynthesisModelOnDeviceCAA0cdE8ProtocolAAWP
++ _$s10OmniSearch28AnswerSynthesisModelOnDeviceCACycfC
++ _$s10OmniSearch28AnswerSynthesisModelOnDeviceCACycfCTj
++ _$s10OmniSearch28AnswerSynthesisModelOnDeviceCACycfCTq
++ _$s10OmniSearch28AnswerSynthesisModelOnDeviceCACycfc
++ _$s10OmniSearch28AnswerSynthesisModelOnDeviceCMa
++ _$s10OmniSearch28AnswerSynthesisModelOnDeviceCMm
++ _$s10OmniSearch28AnswerSynthesisModelOnDeviceCMn
++ _$s10OmniSearch28AnswerSynthesisModelOnDeviceCMo
++ _$s10OmniSearch28AnswerSynthesisModelOnDeviceCMu
++ _$s10OmniSearch28AnswerSynthesisModelOnDeviceCN
++ _$s10OmniSearch28AnswerSynthesisModelOnDeviceCfD
++ _$s10OmniSearch28AnswerSynthesisModelOnDeviceCfd
++ _$s10OmniSearch28AnswerSynthesisModelProtocolMp
++ _$s10OmniSearch28AnswerSynthesisModelProtocolP10synthesize_8bindingsSS26GenerativeModelsFoundation14PromptTemplateV_SDyS2SGtYaKFTj
++ _$s10OmniSearch28AnswerSynthesisModelProtocolP10synthesize_8bindingsSS26GenerativeModelsFoundation14PromptTemplateV_SDyS2SGtYaKFTjTu
++ _$s10OmniSearch28AnswerSynthesisModelProtocolP10synthesize_8bindingsSS26GenerativeModelsFoundation14PromptTemplateV_SDyS2SGtYaKFTq
++ _$s10OmniSearch28AnswerSynthesisModelProtocolP20createPromptTemplate26GenerativeModelsFoundation0hI0VyFTj
++ _$s10OmniSearch28AnswerSynthesisModelProtocolP20createPromptTemplate26GenerativeModelsFoundation0hI0VyFTq
++ _$s10OmniSearch28AnswerSynthesisModelProtocolP7prewarmyyFTj
++ _$s10OmniSearch28AnswerSynthesisModelProtocolP7prewarmyyFTq
++ _$s10OmniSearch28AnswerSynthesisModelProtocolPAAE15GMS_USE_CASE_IDSSvgZ
++ _$s10OmniSearch28AnswerSynthesisModelProtocolPAAE16promptTemplateIDSSvgZ
++ _$s10OmniSearch28AnswerSynthesisModelProtocolPAAE22fallbackPromptTemplates12StaticStringVvg
++ _$s10OmniSearch28AnswerSynthesisModelProtocolPAAE22fallbackPromptTemplates12StaticStringVvpMV
++ _$s10OmniSearch28AnswerSynthesisModelProtocolPAAE25defaultSamplingParameters15TokenGeneration0hI0VvgZ
++ _$s10OmniSearch28AnswerSynthesisModelProtocolPAAE28templateBindingUserPromptKeySSvg
++ _$s10OmniSearch28AnswerSynthesisModelProtocolPAAE28templateBindingUserPromptKeySSvpMV
++ _$s10OmniSearch28AnswerSynthesisModelProtocolTL
++ _$s10OmniSearch33AnswerSynthesisControllerProtocolMp
++ _$s10OmniSearch33AnswerSynthesisControllerProtocolP10synthesize5query13searchResultsAA0cD6ResultOSS_SayAA0bK0VGtYaKFTj
++ _$s10OmniSearch33AnswerSynthesisControllerProtocolP10synthesize5query13searchResultsAA0cD6ResultOSS_SayAA0bK0VGtYaKFTjTu
++ _$s10OmniSearch33AnswerSynthesisControllerProtocolP10synthesize5query13searchResultsAA0cD6ResultOSS_SayAA0bK0VGtYaKFTq
++ _$s10OmniSearch33AnswerSynthesisControllerProtocolTL
++ _$s12ModelCatalog0B0O14ResourceBundleO15TokenGenerationO3LLMO17AnswerSynthesisIDAA0cD10IdentifierVyAA20AssetBackedLLMBundleVGvgZ
++ _$s12ModelCatalog0B0O14ResourceBundleO15TokenGenerationO3LLMO23AnswerSynthesisServerIDAA0cD10IdentifierVyAA9LLMBundleVGvgZ
++ _$s12ModelCatalog20AssetBackedLLMBundleVMn
++ _$s15TokenGeneration0A9GeneratorC16GenerativeModelsE5model13configuration17useCaseIdentifier10onBehalfOf06parentm2OnlM0AC12ModelCatalog014ResourceBundleJ0VyAJ20AssetBackedLLMBundleVG_AD0dP20SessionConfigurationVSSSiSgARtcfC
++ _$s15TokenGeneration0A9GeneratorC16GenerativeModelsE5model13configuration17useCaseIdentifier10onBehalfOf06parentm2OnlM0AC12ModelCatalog014ResourceBundleJ0VyAJ9LLMBundleVG_AD0dP20SessionConfigurationVSSSiSgARtcfC
++ _$s16GenerativeModels0A26ModelSessionTokenGeneratorMp
++ _$s16GenerativeModels0A26ModelSessionTokenGeneratorP5model0E10Generation0eF0CvgTq
++ _$s16GenerativeModels19_ClientInfoProtocolMp
++ _$s16GenerativeModels19_ClientInfoProtocolP14trackingConfigAA01_cd15SessionTrackingG0VvMTq
++ _$s16GenerativeModels19_ClientInfoProtocolP14trackingConfigAA01_cd15SessionTrackingG0VvgTq
++ _$s16GenerativeModels19_ClientInfoProtocolP14trackingConfigAA01_cd15SessionTrackingG0VvsTq
++ _$s16GenerativeModels19_ClientInfoProtocolP17useCaseIdentifierSSvgTq
++ _$s16GenerativeModels19_ClientInfoProtocolP6_model15TokenGeneration0G9GeneratorCvgTq
++ _$s16GenerativeModels32_ClientInfoSessionTrackingConfigV07sessionF6Conifg09_internalefG0ACSDyS2SG_AFtcfC
++ _$s16GenerativeModels32_ClientInfoSessionTrackingConfigVMa
++ _$s16GenerativeModels32_ClientInfoSessionTrackingConfigVMn
++ _$s26GenerativeModelsFoundation14PromptTemplateV13modelBundleID08templateH008fallbackdE7CatalogAC05ModelK008ResourceG10IdentifierVyAG20AssetBackedLLMBundleVG_SSSDySSs12StaticStringVGSgtcfC
++ _$s9PromptKit31GenerativeConfigurationProtocolP0C19FunctionsFoundationE23_internalTrackingConfigyxSDyS2SGF
++ _$s9PromptKit31GenerativeConfigurationProtocolP0C6ModelsE30_internalSessionTrackingConfigyxAD011_ClientInfohiJ0VF
++ _$s9PromptKit31GenerativeConfigurationProtocolP0C9FunctionsE4with5model0H4TypeAD0cD8RunnableVy0aI0Qzqd__xGqd___qd__mtlF
++ _$sSa10OmniSearchAA0B6ResultVRszlE7chunked4intoSaySayACGGSi_tF
++ _$ss13DecodingErrorO12typeMismatchyABypXp_AB7ContextVtcABmFWC
++ _$ss22KeyedDecodingContainerV06nestedC07keyedBy6forKeyAByqd__Gqd__m_xtKs06CodingH0Rd__lF
++ _$ss22KeyedDecodingContainerV10codingPathSays9CodingKey_pGvg
++ _$ss22KeyedDecodingContainerV7allKeysSayxGvg
++ _$sytN
+- _$s10OmniSearch14AnswerComposerC14resultHydrator17resolutionService4langAcA15ResultHydration_p_AA015EagerResolutionH0_pSgSStcfC
+- _$s10OmniSearch14AnswerComposerC14resultHydrator17resolutionService4langAcA15ResultHydration_p_AA015EagerResolutionH0_pSgSStcfCTj
+- _$s10OmniSearch14AnswerComposerC14resultHydrator17resolutionService4langAcA15ResultHydration_p_AA015EagerResolutionH0_pSgSStcfCTq
+- _$s10OmniSearch14AnswerComposerC14resultHydrator17resolutionService4langAcA15ResultHydration_p_AA015EagerResolutionH0_pSgSStcfc
+- _$s10OmniSearch14AnswerComposerC14resultHydrator17resolutionService4langAcA15ResultHydration_p_AA015EagerResolutionH0_pSgSStcfcfA0_
+- _$s10OmniSearch14AnswerComposerC14resultHydrator17resolutionService4langAcA15ResultHydration_p_AA015EagerResolutionH0_pSgSStcfcfA1_
+- _$s10OmniSearch14AnswerComposerC14resultHydrator17resolutionService4langAcA15ResultHydration_p_AA015EagerResolutionH0_pSgSStcfcfA_
+CStrings:
++ "%!s(MISSING)\ntokenLimit=%!l(MISSING)d\ntokenLimitNonUserPrompt=%!l(MISSING)d\ntokenLimitOutput=%!l(MISSING)d\ntokenCharMultiplier=%!l(MISSING)d\n-> charLimitForUserPrompt=%!l(MISSING)d\")"
++ "%!s(MISSING) Added task #%!l(MISSING)d for synthesis"
++ "%!s(MISSING) Batched into %!l(MISSING)d batch(es) of size=%!l(MISSING)d"
++ "%!s(MISSING) Prepared request #%!l(MISSING)d with processedSearchEntities.count=%!l(MISSING)d"
++ "%!s(MISSING) Processed entity request #%!l(MISSING)d with searchResults.count=%!l(MISSING)d"
++ "%!s(MISSING) answerSynthesisTokenLimit=%!l(MISSING)d, charLimit=%!l(MISSING)d"
++ "%!s(MISSING) charLimit=%!l(MISSING)d, documents.count=%!l(MISSING)d charLimitPerDocument=%!l(MISSING)d"
++ "%!s(MISSING) no results return after being filtered"
++ "%!s(MISSING) search result count after being filtered=%!l(MISSING)d"
++ "%!s(MISSING) search result count before being filtered=%!l(MISSING)d"
++ "ANSWER_ATTRIBUTE_NOT_FOUND"
++ "Answer synthesis got response: %!s(MISSING)"
++ "Answer synthesis response: no answer found in document"
++ "Answer synthesis response: no answer needed"
++ "Answer synthesis: %!s(MISSING), returning all results"
++ "Answer synthesis: collating %!l(MISSING)d results"
++ "Answer synthesis: no answer found for document key: %!s(MISSING) in searchResults, falling back to any answer in response"
++ "Answer synthesis: no answer found for document: %!s(MISSING) in searchResults"
++ "Answer synthesis: no answer found in personal results. Returning no answers"
++ "Answer synthesis: unexpected result type %!s(MISSING) during result collation."
++ "AnswerSynthesisController.createAnswerSynthesisBatchRequests"
++ "AnswerSynthesisController.performSynthesisRequest"
++ "AnswerSynthesisController.preprocessSearchEntity"
++ "AnswerSynthesisController.prewarmModel"
++ "AnswerSynthesisController.synthesize"
++ "Calling answer synthesis with user prompt: %!s(MISSING), fallbackPromptTemplate: %!s(MISSING)"
++ "DOC_NOT_MATCHING_CRITERIA"
++ "ECzA-21KyMeUU298Et16BZj6hv4."
++ "Failed to synthesize with error: %!@(MISSING)"
++ "Got response from answer synthesis model: %!s(MISSING)"
++ "Invalid number of keys found, expected one."
++ "NO_ANSWER_NEEDED_FOR_QUERY"
++ "OmniSearchAnswerSynthesis"
++ "Prewarming AnswerSynthesisModelOnDevice model..."
++ "Prewarming AnswerSynthesisModelServer model..."
++ "QUERY_NOT_ANSWER_SEEKING"
++ "SOURCE_NOT_RELEVANT_TO_QUERY"
++ "SOURCE_RELEVANT_BUT_MISSING_ANSWER_TO_QUERY"
++ "Search result type not supported for answer synthesis: %!s(MISSING)"
++ "Skipping init of answer synthesis model because FF is is disabled"
++ "_OverrideConfigurationHelper.samplingParameters(.dynamic(Self.defaultSamplingParameters))"
++ "_TtC10OmniSearch25AnswerSynthesisController"
++ "_TtC10OmniSearch26AnswerSynthesisModelServer"
++ "_TtC10OmniSearch28AnswerSynthesisModelOnDevice"
++ "_TtCC10OmniSearch26AnswerSynthesisModelServerP33_D96EF656C77D80FBBF60C1DE966D1FA611_ClientInfo"
++ "_TtCC10OmniSearch28AnswerSynthesisModelOnDeviceP33_1A1AC706E90088069DC59A42425C0CBB11_ClientInfo"
++ "_clientInfo"
++ "_model"
++ "answerSynthesisModel"
++ "answerSynthesisTokenLimit"
++ "answers"
++ "calculateCharLimitForUserPrompt(tokenLimit:)"
++ "com.apple.omniSearch.AnswerSynthesis"
++ "createAnswerSynthesisBatchRequests(for:with:)"
++ "createAnswerSynthesisRequest(for:with:)"
++ "init(query:documents:charLimit:)"
++ "modelType"
++ "nYCOAreYuhrZ93s0GEvKB5eB2lo."
++ "noAnswer"
++ "noEligibleResults"
++ "noExtractionNeeded"
++ "omniSearch.AnswerSynthesis"
++ "onDevice"
++ "parentOfOnBehalfOfPid"
++ "personal_data_sources"
++ "postProcessingFilter filtering - substring match applied here for answer: %!s(MISSING) and document: %!s(MISSING)"
++ "preprocessSearchEntity(for:with:)"
++ "server"
++ "synthesize(query:searchResults:)"
++ "trackingConfig"
++ "useCaseIdentifier"
++ "{{ specialToken.chat.role.system }}Based on each personal data source, return a concise answer to the query (or return NO_ANSWER_FOUND_IN_SOURCE). If the query does not require an answer, return NO_ANSWER_NEEDED_FOR_QUERY.{{ specialToken.chat.component.turnEnd }}{{ specialToken.chat.role.user }}{{ userPrompt }}{{ specialToken.chat.component.turnEnd }}{{ specialToken.chat.role.assistant }}"
+
+```
