@@ -1,0 +1,1356 @@
+## BiomeLibrary
+
+> `/System/Library/PrivateFrameworks/BiomeLibrary.framework/BiomeLibrary`
+
+```diff
+
+-92.6.0.0.0
+-  __TEXT.__text: 0x4607f0
++99.2.0.1.0
++  __TEXT.__text: 0x482f84
+   __TEXT.__auth_stubs: 0x5c0
+-  __TEXT.__objc_methlist: 0x338f8
+-  __TEXT.__const: 0x342c
+-  __TEXT.__cstring: 0x34d2f
+-  __TEXT.__constg_swiftt: 0x114
+-  __TEXT.__swift5_typeref: 0x75
+-  __TEXT.__swift5_fieldmd: 0x60
+-  __TEXT.__swift5_types: 0x18
+-  __TEXT.__unwind_info: 0x96c0
++  __TEXT.__objc_methlist: 0x34ae0
++  __TEXT.__const: 0x3554
++  __TEXT.__cstring: 0x371dc
++  __TEXT.__constg_swiftt: 0x198
++  __TEXT.__swift5_typeref: 0x87
++  __TEXT.__swift5_fieldmd: 0x90
++  __TEXT.__swift5_types: 0x24
++  __TEXT.__unwind_info: 0x9890
+   __TEXT.__eh_frame: 0x50
+-  __TEXT.__objc_classname: 0x5aae
+-  __TEXT.__objc_methname: 0x5bcc6
+-  __TEXT.__objc_methtype: 0x430a
+-  __TEXT.__objc_stubs: 0x289e0
+-  __DATA_CONST.__got: 0x1208
+-  __DATA_CONST.__const: 0x15c00
+-  __DATA_CONST.__objc_classlist: 0x16a0
++  __TEXT.__objc_classname: 0x5ce3
++  __TEXT.__objc_methname: 0x61868
++  __TEXT.__objc_methtype: 0x44ea
++  __TEXT.__objc_stubs: 0x2a1a0
++  __DATA_CONST.__got: 0x1258
++  __DATA_CONST.__const: 0x16080
++  __DATA_CONST.__objc_classlist: 0x1718
+   __DATA_CONST.__objc_protolist: 0x38
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0xc930
+-  __DATA_CONST.__objc_superrefs: 0x1148
+-  __DATA_CONST.__objc_arraydata: 0x7b60
++  __DATA_CONST.__objc_selrefs: 0xcfc0
++  __DATA_CONST.__objc_superrefs: 0x1188
++  __DATA_CONST.__objc_arraydata: 0x74d0
+   __AUTH_CONST.__auth_got: 0x2e8
+   __AUTH_CONST.__auth_ptr: 0x8
+-  __AUTH_CONST.__const: 0x5b90
+-  __AUTH_CONST.__cfstring: 0x34960
+-  __AUTH_CONST.__objc_const: 0x67d50
+-  __AUTH_CONST.__objc_arrayobj: 0x5bf8
++  __AUTH_CONST.__const: 0x5dc0
++  __AUTH_CONST.__cfstring: 0x35f00
++  __AUTH_CONST.__objc_const: 0x6a988
++  __AUTH_CONST.__objc_arrayobj: 0x45f0
+   __AUTH_CONST.__objc_intobj: 0x300
+-  __AUTH.__objc_data: 0x2370
+-  __DATA.__objc_ivar: 0x5264
++  __AUTH.__objc_data: 0x2ad0
++  __AUTH.__data: 0x78
++  __DATA.__objc_ivar: 0x551c
+   __DATA.__data: 0x2b0
+   __DATA.__bss: 0x18
+-  __DATA_DIRTY.__objc_data: 0xc110
++  __DATA_DIRTY.__objc_data: 0xbf80
+   __DATA_DIRTY.__data: 0x100
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsys_time.dylib
+   - /usr/lib/swift/libswiftunistd.dylib
+-  Functions: 18528
+-  Symbols:   22979
+-  CStrings:  21061
++  Functions: 18933
++  Symbols:   23468
++  CStrings:  21810
+ 
+Symbols:
++ _BMDeviceBatteryTemperaturePluggedInColumn
++ _BMGazeEnrollmentSampleAccessibilityModeAsString
++ _BMGazeEnrollmentSampleAccessibilityModeColumn
++ _BMGazeEnrollmentSampleAccessibilityModeDecode
++ _BMGazeEnrollmentSampleAccessibilityModeFromString
++ _BMGazeEnrollmentSampleBinocQualityColumn
++ _BMGazeEnrollmentSampleBrightness1bottomLeftStimulusSignedResidualPitchColumn
++ _BMGazeEnrollmentSampleBrightness1bottomLeftStimulusSignedResidualYawColumn
++ _BMGazeEnrollmentSampleBrightness1bottomRightStimulusSignedResidualPitchColumn
++ _BMGazeEnrollmentSampleBrightness1bottomRightStimulusSignedResidualYawColumn
++ _BMGazeEnrollmentSampleBrightness1bottomStimulusSignedResidualPitchColumn
++ _BMGazeEnrollmentSampleBrightness1bottomStimulusSignedResidualYawColumn
++ _BMGazeEnrollmentSampleBrightness1topLeftStimulusSignedResidualPitchColumn
++ _BMGazeEnrollmentSampleBrightness1topLeftStimulusSignedResidualYawColumn
++ _BMGazeEnrollmentSampleBrightness1topRightStimulusSignedResidualPitchColumn
++ _BMGazeEnrollmentSampleBrightness1topRightStimulusSignedResidualYawColumn
++ _BMGazeEnrollmentSampleBrightness1topStimulusSignedResidualPitchColumn
++ _BMGazeEnrollmentSampleBrightness1topStimulusSignedResidualYawColumn
++ _BMGazeEnrollmentSampleBrightness2bottomLeftStimulusSignedResidualPitchColumn
++ _BMGazeEnrollmentSampleBrightness2bottomLeftStimulusSignedResidualYawColumn
++ _BMGazeEnrollmentSampleBrightness2bottomRightStimulusSignedResidualPitchColumn
++ _BMGazeEnrollmentSampleBrightness2bottomRightStimulusSignedResidualYawColumn
++ _BMGazeEnrollmentSampleBrightness2bottomStimulusSignedResidualPitchColumn
++ _BMGazeEnrollmentSampleBrightness2bottomStimulusSignedResidualYawColumn
++ _BMGazeEnrollmentSampleBrightness2topLeftStimulusSignedResidualPitchColumn
++ _BMGazeEnrollmentSampleBrightness2topLeftStimulusSignedResidualYawColumn
++ _BMGazeEnrollmentSampleBrightness2topRightStimulusSignedResidualPitchColumn
++ _BMGazeEnrollmentSampleBrightness2topRightStimulusSignedResidualYawColumn
++ _BMGazeEnrollmentSampleBrightness2topStimulusSignedResidualPitchColumn
++ _BMGazeEnrollmentSampleBrightness2topStimulusSignedResidualYawColumn
++ _BMGazeEnrollmentSampleBrightness3bottomLeftStimulusSignedResidualPitchColumn
++ _BMGazeEnrollmentSampleBrightness3bottomLeftStimulusSignedResidualYawColumn
++ _BMGazeEnrollmentSampleBrightness3bottomRightStimulusSignedResidualPitchColumn
++ _BMGazeEnrollmentSampleBrightness3bottomRightStimulusSignedResidualYawColumn
++ _BMGazeEnrollmentSampleBrightness3bottomStimulusSignedResidualPitchColumn
++ _BMGazeEnrollmentSampleBrightness3bottomStimulusSignedResidualYawColumn
++ _BMGazeEnrollmentSampleBrightness3topLeftStimulusSignedResidualPitchColumn
++ _BMGazeEnrollmentSampleBrightness3topLeftStimulusSignedResidualYawColumn
++ _BMGazeEnrollmentSampleBrightness3topRightStimulusSignedResidualPitchColumn
++ _BMGazeEnrollmentSampleBrightness3topRightStimulusSignedResidualYawColumn
++ _BMGazeEnrollmentSampleBrightness3topStimulusSignedResidualPitchColumn
++ _BMGazeEnrollmentSampleBrightness3topStimulusSignedResidualYawColumn
++ _BMGazeEnrollmentSampleCentralStimulusSignedResidualPitchColumn
++ _BMGazeEnrollmentSampleCentralStimulusSignedResidualYawColumn
++ _BMGazeEnrollmentSampleDominantEyeColumn
++ _BMGazeEnrollmentSampleEnrollmentFailureReasonAsString
++ _BMGazeEnrollmentSampleEnrollmentFailureReasonDecode
++ _BMGazeEnrollmentSampleEnrollmentFailureReasonFromString
++ _BMGazeEnrollmentSampleEnrollmentFailureReasonsColumn
++ _BMGazeEnrollmentSampleEnrollmentQualityAsString
++ _BMGazeEnrollmentSampleEnrollmentQualityDecode
++ _BMGazeEnrollmentSampleEnrollmentQualityFromString
++ _BMGazeEnrollmentSampleEnrollmentReasonAsString
++ _BMGazeEnrollmentSampleEnrollmentReasonColumn
++ _BMGazeEnrollmentSampleEnrollmentReasonDecode
++ _BMGazeEnrollmentSampleEnrollmentReasonFromString
++ _BMGazeEnrollmentSampleEnrollmentResidual75thPercentileColumn
++ _BMGazeEnrollmentSampleEnrollmentResidual95thPercentileColumn
++ _BMGazeEnrollmentSampleEnrollmentResidualMedianColumn
++ _BMGazeEnrollmentSampleEyeSideColumn
++ _BMGazeEnrollmentSampleEyeboxStatusAsString
++ _BMGazeEnrollmentSampleEyeboxStatusColumn
++ _BMGazeEnrollmentSampleEyeboxStatusDecode
++ _BMGazeEnrollmentSampleEyeboxStatusFromString
++ _BMGazeEnrollmentSampleFixationCountColumn
++ _BMGazeEnrollmentSampleFixationCountHighBrightnessColumn
++ _BMGazeEnrollmentSampleFixationCountLowBrightnessColumn
++ _BMGazeEnrollmentSampleFixationCountMediumBrightnessColumn
++ _BMGazeEnrollmentSampleIsOfflineColumn
++ _BMGazeEnrollmentSampleMonocularQualityColumn
++ _BMGazeEnrollmentSampleRxuuidColumn
++ _BMGazeEnrollmentSampleStimulusCountColumn
++ _BMGazeEnrollmentSampleStimulusCountHighBrightnessColumn
++ _BMGazeEnrollmentSampleStimulusCountLowBrightnessColumn
++ _BMGazeEnrollmentSampleStimulusCountMediumBrightnessColumn
++ _BMGazeEnrollmentSampleUserProfileIdColumn
++ _BMMailCategorizationAnalyticsReadAccountIdColumn
++ _BMMailCategorizationAnalyticsReadIdentifier
++ _BMMailCategorizationAnalyticsReadMessageIdColumn
++ _BMMailCategorizationAnalyticsReadReadTimestampColumn
++ _BMMailCategorizationAnalyticsReadReadWithCategoriesEnabledColumn
++ _BMMailCategorizationAnalyticsRecategorizeAccountIdColumn
++ _BMMailCategorizationAnalyticsRecategorizeCurrCategoryViewColumn
++ _BMMailCategorizationAnalyticsRecategorizeIdentifier
++ _BMMailCategorizationAnalyticsRecategorizeMessageIdColumn
++ _BMMailCategorizationAnalyticsRecategorizeRecategorizationByColumn
++ _BMMailCategorizationAnalyticsRecategorizeRecategorizeTimestampColumn
++ _BMMailCategorizationAnalyticsReceiveAccountIdColumn
++ _BMMailCategorizationAnalyticsReceiveCurrCategoryViewColumn
++ _BMMailCategorizationAnalyticsReceiveIdentifier
++ _BMMailCategorizationAnalyticsReceiveIsAllInboxesCategoriesEnabledColumn
++ _BMMailCategorizationAnalyticsReceiveIsMailAccountCategoriesEnabledColumn
++ _BMMailCategorizationAnalyticsReceiveIsMailAccountPersonalAccountColumn
++ _BMMailCategorizationAnalyticsReceiveMessageIdColumn
++ _BMMailCategorizationAnalyticsReceiveMetadataPrimaryKeyColumn
++ _BMMailCategorizationAnalyticsReceivePredictedCategoryColumn
++ _BMMailCategorizationAnalyticsReceiveReasonCodesColumn
++ _BMMailCategorizationAnalyticsReceiveReceiveTimestampColumn
++ _BMMailCategorizationAnalyticsReceiveReceivingAccountDomainColumn
++ _BMMailCategorizationAnalyticsReceiveSenderIdColumn
++ _BMOasisAnalyticsGazeEnrollmentFixationSamplesColumn
++ _BMOasisAnalyticsGazeEnrollmentMetadataColumn
++ _BMOasisAnalyticsGazeEnrollmentPayloadColumn
++ _BMOasisAnalyticsGazeKitGazeEnrollmentIdentifier
++ _BMOasisAnalyticsGazeKitGazeTrackingIdentifier
++ _BMOasisAnalyticsGazeSampleCountOfVisibleGlintsBecamColumn
++ _BMOasisAnalyticsGazeSampleCountOfVisibleGlintsNecamColumn
++ _BMOasisAnalyticsGazeSampleEyeSideAsString
++ _BMOasisAnalyticsGazeSampleEyeSideColumn
++ _BMOasisAnalyticsGazeSampleEyeSideDecode
++ _BMOasisAnalyticsGazeSampleEyeSideFromString
++ _BMOasisAnalyticsGazeSampleNearEyeReliefColumn
++ _BMOasisAnalyticsGazeSampleOffsetWithinEyeboxXColumn
++ _BMOasisAnalyticsGazeSampleOffsetWithinEyeboxYColumn
++ _BMOasisAnalyticsGazeSampleOffsetWithinEyeboxZColumn
++ _BMOasisAnalyticsGazeSamplePupil2dVisibleRatioBecamColumn
++ _BMOasisAnalyticsGazeSamplePupil2dVisibleRatioNecamColumn
++ _BMOasisAnalyticsGazeSamplePupilIrisContrastBecamColumn
++ _BMOasisAnalyticsGazeSamplePupilIrisContrastNecamColumn
++ _BMOasisAnalyticsGazeSamplePupilSizeCategoryAsString
++ _BMOasisAnalyticsGazeSamplePupilSizeCategoryColumn
++ _BMOasisAnalyticsGazeSamplePupilSizeCategoryDecode
++ _BMOasisAnalyticsGazeSamplePupilSizeCategoryFromString
++ _BMOasisAnalyticsGazeSampleTemperatureCelsiusBecamColumn
++ _BMOasisAnalyticsGazeSampleTemperatureCelsiusNecamColumn
++ _BMOasisAnalyticsGazeSampleTotalEyeReliefColumn
++ _BMOasisAnalyticsGazeSampleUserProfileIdColumn
++ _BMOasisAnalyticsGazeTrackingMetadataColumn
++ _BMOasisAnalyticsGazeTrackingPayloadColumn
++ _BMOasisAnalyticsMetadataBootSessionIdColumn
++ _BMOasisAnalyticsMetadataTimestampSinceBootInNanosecondColumn
++ _BMOasisAnalyticsMetadataUUID128ValueColumn
++ _BMPersonalizedSensingMomentsContextMomentsContextAssociatedContactsColumn
++ _BMPersonalizedSensingMomentsContextMomentsContextAssociatedLocationsColumn
++ _BMPersonalizedSensingMomentsContextMomentsContextAssociatedMusicColumn
++ _BMPersonalizedSensingMomentsContextMomentsContextAssociatedTimeColumn
++ _BMPersonalizedSensingMomentsContextMomentsContextContactMetaDataNameColumn
++ _BMPersonalizedSensingMomentsContextMomentsContextLocationMetaDataCityColumn
++ _BMPersonalizedSensingMomentsContextMomentsContextLocationMetaDataPlaceColumn
++ _BMPersonalizedSensingMomentsContextMomentsContextMusicMetaDataMusicColumn
++ _BMPersonalizedSensingMomentsContextMomentsContextTimeMetaDataTimeReferenceColumn
++ _BMSiriOnDeviceAnalyticsSpeakerIdSamplingIdentifier
++ _BMSiriServiceCommandColumn
++ _BMSiriServiceDomainColumn
++ _BMSiriServiceIdentifierColumn
++ _BMSiriSpeakerIdSamplingEnrollmentIdentifierColumn
++ _BMSiriSpeakerIdSamplingOnDeviceSampleIdentifiersColumn
++ _BMSiriSpeakerIdSamplingTimestampColumn
++ _BMTrialExperimentNamespaceUpdatesIdentifier
++ _BMTrialNamespaceUpdatesDeploymentIdColumn
++ _BMTrialNamespaceUpdatesEventTypeAsString
++ _BMTrialNamespaceUpdatesEventTypeDecode
++ _BMTrialNamespaceUpdatesEventTypeFromString
++ _BMTrialNamespaceUpdatesExperimentIdColumn
++ _BMTrialNamespaceUpdatesExperimentStatusColumn
++ _BMTrialNamespaceUpdatesNamespaceNamesColumn
++ _BMTrialNamespaceUpdatesNamespaceNamesListNamespaceNameColumn
++ _BMTrialNamespaceUpdatesTreatmentIdColumn
++ _BMTrialNamespaceUpdatesUserIdColumn
++ _OBJC_CLASS_$_BMGazeEnrollmentSample
++ _OBJC_CLASS_$_BMMailCategorizationAnalyticsRead
++ _OBJC_CLASS_$_BMMailCategorizationAnalyticsRecategorize
++ _OBJC_CLASS_$_BMMailCategorizationAnalyticsReceive
++ _OBJC_CLASS_$_BMOasisAnalyticsGazeEnrollment
++ _OBJC_CLASS_$_BMOasisAnalyticsGazeSample
++ _OBJC_CLASS_$_BMOasisAnalyticsGazeTracking
++ _OBJC_CLASS_$_BMOasisAnalyticsMetadata
++ _OBJC_CLASS_$_BMOasisAnalyticsMetadataUUID128
++ _OBJC_CLASS_$_BMPersonalizedSensingMomentsContextMomentsContextContactMetaData
++ _OBJC_CLASS_$_BMPersonalizedSensingMomentsContextMomentsContextLocationMetaData
++ _OBJC_CLASS_$_BMPersonalizedSensingMomentsContextMomentsContextMusicMetaData
++ _OBJC_CLASS_$_BMPersonalizedSensingMomentsContextMomentsContextTimeMetaData
++ _OBJC_CLASS_$_BMSiriSpeakerIdSampling
++ _OBJC_CLASS_$_BMStreamBuiltinPruningTrigger
++ _OBJC_CLASS_$_BMTrialNamespaceUpdates
++ _OBJC_CLASS_$_BMTrialNamespaceUpdatesNamespaceNamesList
++ _OBJC_CLASS_$_NSPredicate
++ _OBJC_CLASS_$__TtC12BiomeLibrary38_BMIPBridgeAdAttributionKitLibraryNode
++ _OBJC_CLASS_$__TtC12BiomeLibrary43_BMIPBridgeGenerativeExperiencesLibraryNode
++ _OBJC_CLASS_$__TtC12BiomeLibrary57_BMIPBridgeAdAttributionKitAggregatedReportingLibraryNode
++ _OBJC_METACLASS_$_BMGazeEnrollmentSample
++ _OBJC_METACLASS_$_BMMailCategorizationAnalyticsRead
++ _OBJC_METACLASS_$_BMMailCategorizationAnalyticsRecategorize
++ _OBJC_METACLASS_$_BMMailCategorizationAnalyticsReceive
++ _OBJC_METACLASS_$_BMOasisAnalyticsGazeEnrollment
++ _OBJC_METACLASS_$_BMOasisAnalyticsGazeSample
++ _OBJC_METACLASS_$_BMOasisAnalyticsGazeTracking
++ _OBJC_METACLASS_$_BMOasisAnalyticsMetadata
++ _OBJC_METACLASS_$_BMOasisAnalyticsMetadataUUID128
++ _OBJC_METACLASS_$_BMPersonalizedSensingMomentsContextMomentsContextContactMetaData
++ _OBJC_METACLASS_$_BMPersonalizedSensingMomentsContextMomentsContextLocationMetaData
++ _OBJC_METACLASS_$_BMPersonalizedSensingMomentsContextMomentsContextMusicMetaData
++ _OBJC_METACLASS_$_BMPersonalizedSensingMomentsContextMomentsContextTimeMetaData
++ _OBJC_METACLASS_$_BMSiriSpeakerIdSampling
++ _OBJC_METACLASS_$_BMTrialNamespaceUpdates
++ _OBJC_METACLASS_$_BMTrialNamespaceUpdatesNamespaceNamesList
++ _OBJC_METACLASS_$__TtC12BiomeLibrary38_BMIPBridgeAdAttributionKitLibraryNode
++ _OBJC_METACLASS_$__TtC12BiomeLibrary43_BMIPBridgeGenerativeExperiencesLibraryNode
++ _OBJC_METACLASS_$__TtC12BiomeLibrary57_BMIPBridgeAdAttributionKitAggregatedReportingLibraryNode
+- _BMAppleIntelligenceWaitlistStatusIdentifier
+- _BMAppleIntelligenceWaitlistStatusTypeColumn
+- _BMAppleIntelligenceWaitlistStatusWaitlistStatusTypeAsString
+- _BMAppleIntelligenceWaitlistStatusWaitlistStatusTypeDecode
+- _BMAppleIntelligenceWaitlistStatusWaitlistStatusTypeFromString
+- _BMInferredLocationAltitudeColumn
+- _BMInferredLocationHorizontalUncertainityColumn
+- _BMInferredLocationLatitudeColumn
+- _BMInferredLocationLocationSourceAccuracyColumn
+- _BMInferredLocationLongitudeColumn
+- _BMInferredLocationSourceAccuracyAsString
+- _BMInferredLocationSourceAccuracyDecode
+- _BMInferredLocationSourceAccuracyFromString
+- _BMInferredLocationVerticalUncertainityColumn
+- _BMLearnedPlaceIdentifierColumn
+- _BMLearnedPlaceLearnedPlaceTypeColumn
+- _BMLearnedPlaceLearnedPlaceTypeSourceColumn
+- _BMLearnedPlaceMapItemColumn
+- _BMLearnedPlaceTypeAsString
+- _BMLearnedPlaceTypeDecode
+- _BMLearnedPlaceTypeFromString
+- _BMLearnedPlaceTypeSourceAsString
+- _BMLearnedPlaceTypeSourceDecode
+- _BMLearnedPlaceTypeSourceFromString
+- _BMLocationPlaceInferenceDetectionDateColumn
+- _BMLocationPlaceInferenceIdentifier
+- _BMLocationPlaceInferenceLearnedPlaceColumn
+- _BMLocationPlaceInferenceLocationColumn
+- _BMLocationPlaceInferenceStatsColumn
+- _BMLocationPlaceInferenceStatsFamiliarityIndexColumn
+- _BMLocationPlaceInferenceStatsVisitCountColumn
+- _BMMapItemAddressColumn
+- _BMMapItemCategoryColumn
+- _BMMapItemIdentifierColumn
+- _BMMapItemNameColumn
+- _BMSiriExplicitRequestsFactsColumn
+- _BMSiriExplicitRequestsLocationCityColumn
+- _BMSiriExplicitRequestsLocationColumn
+- _BMSiriExplicitRequestsLocationCountryCodeColumn
+- _BMSiriExplicitRequestsLocationCountryColumn
+- _BMSiriExplicitRequestsLocationLatitudeColumn
+- _BMSiriExplicitRequestsLocationLongitudeColumn
+- _BMSiriExplicitRequestsLocationPostalAddressColumn
+- _BMSiriExplicitRequestsLocationPostalCodeColumn
+- _BMSiriExplicitRequestsLocationStateColumn
+- _BMSiriExplicitRequestsLocationStreetColumn
+- _BMSiriExplicitRequestsLocationSubAdministrativeAreaColumn
+- _BMSiriExplicitRequestsLocationSubLocalityColumn
+- _BMSiriRemembersExplicitRequestsIdentifier
+- _OBJC_CLASS_$_BMAppleIntelligenceWaitlistStatus
+- _OBJC_CLASS_$_BMInferredLocation
+- _OBJC_CLASS_$_BMLearnedPlace
+- _OBJC_CLASS_$_BMLocationPlaceInference
+- _OBJC_CLASS_$_BMLocationPlaceInferenceStats
+- _OBJC_CLASS_$_BMMapItem
+- _OBJC_CLASS_$_BMSiriExplicitRequests
+- _OBJC_CLASS_$_BMSiriExplicitRequestsLocation
+- _OBJC_METACLASS_$_BMAppleIntelligenceWaitlistStatus
+- _OBJC_METACLASS_$_BMInferredLocation
+- _OBJC_METACLASS_$_BMLearnedPlace
+- _OBJC_METACLASS_$_BMLocationPlaceInference
+- _OBJC_METACLASS_$_BMLocationPlaceInferenceStats
+- _OBJC_METACLASS_$_BMMapItem
+- _OBJC_METACLASS_$_BMSiriExplicitRequests
+- _OBJC_METACLASS_$_BMSiriExplicitRequestsLocation
+CStrings:
++ "\x01U"
++ "\"com.apple.MobileSMS\" IN $disabledApps"
++ "$uninstalled == bundleID"
++ "$uninstalled == bundleIdentifier"
++ "$uninstalled == interaction.appBundleId"
++ "$uninstalled IN {bundleID, parentBundleID, extensionHostID}"
++ "$uninstalled IN {bundleID, sourceBundleID}"
++ "0BF1FBAF-EF49-493C-A5E9-FA1B7CE8F097"
++ "59553F07-B258-4673-9330-FBBE528D8B14"
++ "@\"BMGazeEnrollmentSample\""
++ "@\"BMOasisAnalyticsGazeSample\""
++ "@\"BMOasisAnalyticsMetadata\""
++ "@\"BMOasisAnalyticsMetadataUUID128\""
++ "@\"BMTrialNamespaceUpdatesNamespaceNamesList\""
++ "@112@0:8@16@24@32@40@48@56@64@72@80@88@96@104"
++ "@120@0:8@16@24@32@40i48i52@56@64@72@80@88@96i104@108i116"
++ "@136@0:8@16i24i28@32@40@48@56@64@72@80@88@96@104@112@120@128"
++ "@468@0:8@16i24@28@36@44@52i60i64@68i76@80@88@96@104@112@120@128@136i144i148@152@160@168@176@184@192@200@208@216@224@232@240@248@256@264@272@280@288@296@304@312@320@328@336@344@352@360@368@376@384@392@400@408@416@424@432@440@448@456i464"
++ "@56@0:8i16@20i28@32@40@48"
++ "A055E9EC-BE22-44EF-AE89-71DB3294A7EC"
++ "ANY candidateInteractions.candidateId.bundleId IN $disabledApps OR ANY tupleInteraction.candidateIds.bundleId IN $disabledApps"
++ "ANY candidateInteractions.candidateId.bundleId IN $uninstalled OR ANY tupleInteraction.candidateIds.bundleId IN $uninstalled"
++ "ANY candidateInteractions.candidateId.identifier IN $deleted OR ANY tupleInteraction.candidateIds.identifier IN $deleted"
++ "AdAttributionKit"
++ "AdAttributionKit."
++ "AdAttributionKit.AggregatedReporting."
++ "AggregatedReporting"
++ "BCBB9D23-BBAD-4098-AD01-E559530E75DF"
++ "BMDeviceBatteryTemperature with temperature: %!@(MISSING), pluggedIn: %!@(MISSING)"
++ "BMGazeEnrollmentSample"
++ "BMGazeEnrollmentSample with userProfileId: %!@(MISSING), eyeSide: %!@(MISSING), isOffline: %!@(MISSING), enrollmentResidual75thPercentile: %!@(MISSING), enrollmentResidual95thPercentile: %!@(MISSING), enrollmentResidualMedian: %!@(MISSING), dominantEye: %!@(MISSING), monocularQuality: %!@(MISSING), enrollmentFailureReasons: %!@(MISSING), binocQuality: %!@(MISSING), fixationCount: %!@(MISSING), fixationCountLowBrightness: %!@(MISSING), fixationCountMediumBrightness: %!@(MISSING), fixationCountHighBrightness: %!@(MISSING), stimulusCount: %!@(MISSING), stimulusCountLowBrightness: %!@(MISSING), stimulusCountMediumBrightness: %!@(MISSING), stimulusCountHighBrightness: %!@(MISSING), accessibilityMode: %!@(MISSING), eyeboxStatus: %!@(MISSING), centralStimulusSignedResidualYaw: %!@(MISSING), brightness1topStimulusSignedResidualYaw: %!@(MISSING), brightness1topRightStimulusSignedResidualYaw: %!@(MISSING), brightness1bottomRightStimulusSignedResidualYaw: %!@(MISSING), brightness1bottomStimulusSignedResidualYaw: %!@(MISSING), brightness1bottomLeftStimulusSignedResidualYaw: %!@(MISSING), brightness1topLeftStimulusSignedResidualYaw: %!@(MISSING), brightness2topStimulusSignedResidualYaw: %!@(MISSING), brightness2topRightStimulusSignedResidualYaw: %!@(MISSING), brightness2bottomRightStimulusSignedResidualYaw: %!@(MISSING), brightness2bottomStimulusSignedResidualYaw: %!@(MISSING), brightness2bottomLeftStimulusSignedResidualYaw: %!@(MISSING), brightness2topLeftStimulusSignedResidualYaw: %!@(MISSING), brightness3topStimulusSignedResidualYaw: %!@(MISSING), brightness3topRightStimulusSignedResidualYaw: %!@(MISSING), brightness3bottomRightStimulusSignedResidualYaw: %!@(MISSING), brightness3bottomStimulusSignedResidualYaw: %!@(MISSING), brightness3bottomLeftStimulusSignedResidualYaw: %!@(MISSING), brightness3topLeftStimulusSignedResidualYaw: %!@(MISSING), centralStimulusSignedResidualPitch: %!@(MISSING), brightness1topStimulusSignedResidualPitch: %!@(MISSING), brightness1topRightStimulusSignedResidualPitch: %!@(MISSING), brightness1bottomRightStimulusSignedResidualPitch: %!@(MISSING), brightness1bottomStimulusSignedResidualPitch: %!@(MISSING), brightness1bottomLeftStimulusSignedResidualPitch: %!@(MISSING), brightness1topLeftStimulusSignedResidualPitch: %!@(MISSING), brightness2topStimulusSignedResidualPitch: %!@(MISSING), brightness2topRightStimulusSignedResidualPitch: %!@(MISSING), brightness2bottomRightStimulusSignedResidualPitch: %!@(MISSING), brightness2bottomStimulusSignedResidualPitch: %!@(MISSING), brightness2bottomLeftStimulusSignedResidualPitch: %!@(MISSING), brightness2topLeftStimulusSignedResidualPitch: %!@(MISSING), brightness3topStimulusSignedResidualPitch: %!@(MISSING), brightness3topRightStimulusSignedResidualPitch: %!@(MISSING), brightness3bottomRightStimulusSignedResidualPitch: %!@(MISSING), brightness3bottomStimulusSignedResidualPitch: %!@(MISSING), brightness3bottomLeftStimulusSignedResidualPitch: %!@(MISSING), brightness3topLeftStimulusSignedResidualPitch: %!@(MISSING), rxuuid: %!@(MISSING), enrollmentReason: %!@(MISSING)"
++ "BMMailCategorizationAnalyticsRead"
++ "BMMailCategorizationAnalyticsRead with accountId: %!@(MISSING), messageId: %!@(MISSING), readTimestamp: %!@(MISSING), readWithCategoriesEnabled: %!@(MISSING)"
++ "BMMailCategorizationAnalyticsRecategorize"
++ "BMMailCategorizationAnalyticsRecategorize with accountId: %!@(MISSING), messageId: %!@(MISSING), currCategoryView: %!@(MISSING), recategorizationBy: %!@(MISSING), recategorizeTimestamp: %!@(MISSING)"
++ "BMMailCategorizationAnalyticsReceive"
++ "BMMailCategorizationAnalyticsReceive with accountId: %!@(MISSING), messageId: %!@(MISSING), senderId: %!@(MISSING), receivingAccountDomain: %!@(MISSING), metadataPrimaryKey: %!@(MISSING), predictedCategory: %!@(MISSING), currCategoryView: %!@(MISSING), reasonCodes: %!@(MISSING), receiveTimestamp: %!@(MISSING), isAllInboxesCategoriesEnabled: %!@(MISSING), isMailAccountPersonalAccount: %!@(MISSING), isMailAccountCategoriesEnabled: %!@(MISSING)"
++ "BMOasisAnalyticsGazeEnrollment"
++ "BMOasisAnalyticsGazeEnrollment with metadata: %!@(MISSING), payload: %!@(MISSING), fixationSamples: %!@(MISSING)"
++ "BMOasisAnalyticsGazeSample"
++ "BMOasisAnalyticsGazeSample with userProfileId: %!@(MISSING), eyeSide: %!@(MISSING), pupilSizeCategory: %!@(MISSING), offsetWithinEyeboxX: %!@(MISSING), offsetWithinEyeboxY: %!@(MISSING), offsetWithinEyeboxZ: %!@(MISSING), totalEyeRelief: %!@(MISSING), nearEyeRelief: %!@(MISSING), pupil2dVisibleRatioNecam: %!@(MISSING), pupil2dVisibleRatioBecam: %!@(MISSING), pupilIrisContrastNecam: %!@(MISSING), pupilIrisContrastBecam: %!@(MISSING), countOfVisibleGlintsNecam: %!@(MISSING), countOfVisibleGlintsBecam: %!@(MISSING), temperatureCelsiusNecam: %!@(MISSING), temperatureCelsiusBecam: %!@(MISSING)"
++ "BMOasisAnalyticsGazeTracking"
++ "BMOasisAnalyticsGazeTracking with metadata: %!@(MISSING), payload: %!@(MISSING)"
++ "BMOasisAnalyticsMetadata"
++ "BMOasisAnalyticsMetadata with bootSessionId: %!@(MISSING), timestampSinceBootInNanosecond: %!@(MISSING)"
++ "BMOasisAnalyticsMetadataUUID128"
++ "BMOasisAnalyticsMetadataUUID128 with value: %!@(MISSING)"
++ "BMPersonalizedSensingMomentsContextMomentsContext with contextIdentifier: %!@(MISSING), contextStrings: %!@(MISSING), contextCreationTimestamp: %!@(MISSING), associatedPatternType: %!@(MISSING), metadataContentBitmap: %!@(MISSING), actionType: %!@(MISSING), associatedLocations: %!@(MISSING), associatedContacts: %!@(MISSING), associatedTime: %!@(MISSING), associatedMusic: %!@(MISSING)"
++ "BMPersonalizedSensingMomentsContextMomentsContextContactMetaData"
++ "BMPersonalizedSensingMomentsContextMomentsContextContactMetaData with name: %!@(MISSING)"
++ "BMPersonalizedSensingMomentsContextMomentsContextLocationMetaData"
++ "BMPersonalizedSensingMomentsContextMomentsContextLocationMetaData with city: %!@(MISSING), place: %!@(MISSING)"
++ "BMPersonalizedSensingMomentsContextMomentsContextMusicMetaData"
++ "BMPersonalizedSensingMomentsContextMomentsContextMusicMetaData with music: %!@(MISSING)"
++ "BMPersonalizedSensingMomentsContextMomentsContextTimeMetaData"
++ "BMPersonalizedSensingMomentsContextMomentsContextTimeMetaData with timeReference: %!@(MISSING)"
++ "BMSiriRemembersEntitiesSiriRemembersEntity with identifier: %!@(MISSING), type: %!@(MISSING), fields: %!@(MISSING), fieldsTokens: %!@(MISSING)"
++ "BMSiriRemembersInteraction with identifier: %!@(MISSING), type: %!@(MISSING), domain: %!@(MISSING), appBundleId: %!@(MISSING), status: %!@(MISSING), direction: %!@(MISSING), isDonatedBySiri: %!@(MISSING), startDate: %!@(MISSING), durationInSeconds: %!@(MISSING), fields: %!@(MISSING), groupIdentifier: %!@(MISSING), appIntentInteractionIdentifier: %!@(MISSING), interactionSource: %!@(MISSING), contentHash: %!@(MISSING), userDonatorType: %!@(MISSING)"
++ "BMSiriService with dismissalReason: %!@(MISSING), unintended: %!@(MISSING), requestSource: %!@(MISSING), identifier: %!@(MISSING), domain: %!@(MISSING), command: %!@(MISSING)"
++ "BMSiriSpeakerIdSampling"
++ "BMSiriSpeakerIdSampling with timestamp: %!@(MISSING), onDeviceSampleIdentifiers: %!@(MISSING), enrollmentIdentifier: %!@(MISSING)"
++ "BMTrialNamespaceUpdates"
++ "BMTrialNamespaceUpdates with NamespaceNames: %!@(MISSING), experimentStatus: %!@(MISSING), userId: %!@(MISSING), experimentId: %!@(MISSING), deploymentId: %!@(MISSING), treatmentId: %!@(MISSING)"
++ "BMTrialNamespaceUpdatesNamespaceNamesList"
++ "BMTrialNamespaceUpdatesNamespaceNamesList with namespaceName: %!@(MISSING)"
++ "Bad"
++ "Both"
++ "Bright"
++ "CategorizationAnalytics"
++ "CliponIntrinsicsUpdate"
++ "DBD6E49F-36D5-4E40-9D33-10A5C6DB37F7"
++ "Dark"
++ "EntrancePupilReconstruction"
++ "ExecutorTelemetry"
++ "Experiment"
++ "EyeShapeReconstruction"
++ "FALSEPREDICATE"
++ "GazeKit"
++ "GenerativeExperiences."
++ "Good"
++ "IFRequestTelemetry"
++ "IgnoreLeft"
++ "IgnoreRight"
++ "Impaired"
++ "In"
++ "KappaEstimation"
++ "LowCorneaCoverage"
++ "LowPupilDilationRange"
++ "LowSampleCount"
++ "Mail.CategorizationAnalytics.Read"
++ "Mail.CategorizationAnalytics.Recategorize"
++ "Mail.CategorizationAnalytics.Receive"
++ "Median"
++ "NOT (ALL candidateInteractions.candidateId.bundleId IN $installed AND ALL tupleInteraction.candidateIds.bundleId IN $installed)"
++ "NOT ALL {bundleID, parentBundleID, extensionHostID} IN $installed"
++ "NOT ALL {bundleID, sourceBundleID} IN $installed"
++ "NOT bundleID IN $installed"
++ "NOT bundleIdentifier IN $installed"
++ "NOT interaction.appBundleId IN $installed"
++ "NamespaceNames"
++ "NamespaceNames_json"
++ "NamespaceUpdates"
++ "Nominal"
++ "NotProcessed"
++ "NotProcessedDueAccessibility"
++ "OasisAnalytics"
++ "OasisAnalytics.GazeKit.GazeEnrollment"
++ "OasisAnalytics.GazeKit.GazeTracking"
++ "OnDeviceAnalytics"
++ "Out"
++ "PlanResolutionTelemetry"
++ "Recategorize"
++ "Reprocessing"
++ "SearchToolTelemetry"
++ "SelfAttentionInfoFailed"
++ "SelfValidationLowAccuracy"
++ "Siri.OnDeviceAnalytics.SpeakerIdSampling"
++ "SpeakerIdSampling"
++ "T\x13\x11"
++ "T@\"BMGazeEnrollmentSample\",R,N,V_payload"
++ "T@\"BMOasisAnalyticsGazeSample\",R,N,V_payload"
++ "T@\"BMOasisAnalyticsMetadata\",R,N,V_metadata"
++ "T@\"BMOasisAnalyticsMetadataUUID128\",R,N,V_bootSessionId"
++ "T@\"BMTrialNamespaceUpdatesNamespaceNamesList\",R,N,V_NamespaceNames"
++ "T@\"NSArray\",R,N,V_associatedContacts"
++ "T@\"NSArray\",R,N,V_associatedLocations"
++ "T@\"NSArray\",R,N,V_associatedMusic"
++ "T@\"NSArray\",R,N,V_associatedTime"
++ "T@\"NSArray\",R,N,V_enrollmentFailureReasons"
++ "T@\"NSArray\",R,N,V_fixationSamples"
++ "T@\"NSArray\",R,N,V_namespaceName"
++ "T@\"NSArray\",R,N,V_onDeviceSampleIdentifiers"
++ "T@\"NSString\",R,N,V_accountId"
++ "T@\"NSString\",R,N,V_command"
++ "T@\"NSString\",R,N,V_deploymentId"
++ "T@\"NSString\",R,N,V_enrollmentIdentifier"
++ "T@\"NSString\",R,N,V_metadataPrimaryKey"
++ "T@\"NSString\",R,N,V_music"
++ "T@\"NSString\",R,N,V_place"
++ "T@\"NSString\",R,N,V_rxuuid"
++ "T@\"NSString\",R,N,V_timeReference"
++ "T@\"NSString\",R,N,V_treatmentId"
++ "T@\"NSString\",R,N,V_userId"
++ "T@\"NSString\",R,N,V_userProfileId"
++ "TB,N,V_hasBrightness1bottomLeftStimulusSignedResidualPitch"
++ "TB,N,V_hasBrightness1bottomLeftStimulusSignedResidualYaw"
++ "TB,N,V_hasBrightness1bottomRightStimulusSignedResidualPitch"
++ "TB,N,V_hasBrightness1bottomRightStimulusSignedResidualYaw"
++ "TB,N,V_hasBrightness1bottomStimulusSignedResidualPitch"
++ "TB,N,V_hasBrightness1bottomStimulusSignedResidualYaw"
++ "TB,N,V_hasBrightness1topLeftStimulusSignedResidualPitch"
++ "TB,N,V_hasBrightness1topLeftStimulusSignedResidualYaw"
++ "TB,N,V_hasBrightness1topRightStimulusSignedResidualPitch"
++ "TB,N,V_hasBrightness1topRightStimulusSignedResidualYaw"
++ "TB,N,V_hasBrightness1topStimulusSignedResidualPitch"
++ "TB,N,V_hasBrightness1topStimulusSignedResidualYaw"
++ "TB,N,V_hasBrightness2bottomLeftStimulusSignedResidualPitch"
++ "TB,N,V_hasBrightness2bottomLeftStimulusSignedResidualYaw"
++ "TB,N,V_hasBrightness2bottomRightStimulusSignedResidualPitch"
++ "TB,N,V_hasBrightness2bottomRightStimulusSignedResidualYaw"
++ "TB,N,V_hasBrightness2bottomStimulusSignedResidualPitch"
++ "TB,N,V_hasBrightness2bottomStimulusSignedResidualYaw"
++ "TB,N,V_hasBrightness2topLeftStimulusSignedResidualPitch"
++ "TB,N,V_hasBrightness2topLeftStimulusSignedResidualYaw"
++ "TB,N,V_hasBrightness2topRightStimulusSignedResidualPitch"
++ "TB,N,V_hasBrightness2topRightStimulusSignedResidualYaw"
++ "TB,N,V_hasBrightness2topStimulusSignedResidualPitch"
++ "TB,N,V_hasBrightness2topStimulusSignedResidualYaw"
++ "TB,N,V_hasBrightness3bottomLeftStimulusSignedResidualPitch"
++ "TB,N,V_hasBrightness3bottomLeftStimulusSignedResidualYaw"
++ "TB,N,V_hasBrightness3bottomRightStimulusSignedResidualPitch"
++ "TB,N,V_hasBrightness3bottomRightStimulusSignedResidualYaw"
++ "TB,N,V_hasBrightness3bottomStimulusSignedResidualPitch"
++ "TB,N,V_hasBrightness3bottomStimulusSignedResidualYaw"
++ "TB,N,V_hasBrightness3topLeftStimulusSignedResidualPitch"
++ "TB,N,V_hasBrightness3topLeftStimulusSignedResidualYaw"
++ "TB,N,V_hasBrightness3topRightStimulusSignedResidualPitch"
++ "TB,N,V_hasBrightness3topRightStimulusSignedResidualYaw"
++ "TB,N,V_hasBrightness3topStimulusSignedResidualPitch"
++ "TB,N,V_hasBrightness3topStimulusSignedResidualYaw"
++ "TB,N,V_hasCentralStimulusSignedResidualPitch"
++ "TB,N,V_hasCentralStimulusSignedResidualYaw"
++ "TB,N,V_hasCountOfVisibleGlintsBecam"
++ "TB,N,V_hasCountOfVisibleGlintsNecam"
++ "TB,N,V_hasCurrCategoryView"
++ "TB,N,V_hasEnrollmentResidual75thPercentile"
++ "TB,N,V_hasEnrollmentResidual95thPercentile"
++ "TB,N,V_hasEnrollmentResidualMedian"
++ "TB,N,V_hasFixationCount"
++ "TB,N,V_hasFixationCountHighBrightness"
++ "TB,N,V_hasFixationCountLowBrightness"
++ "TB,N,V_hasFixationCountMediumBrightness"
++ "TB,N,V_hasIsAllInboxesCategoriesEnabled"
++ "TB,N,V_hasIsMailAccountCategoriesEnabled"
++ "TB,N,V_hasIsMailAccountPersonalAccount"
++ "TB,N,V_hasIsOffline"
++ "TB,N,V_hasMessageId"
++ "TB,N,V_hasNearEyeRelief"
++ "TB,N,V_hasOffsetWithinEyeboxX"
++ "TB,N,V_hasOffsetWithinEyeboxY"
++ "TB,N,V_hasOffsetWithinEyeboxZ"
++ "TB,N,V_hasPluggedIn"
++ "TB,N,V_hasPredictedCategory"
++ "TB,N,V_hasPupil2dVisibleRatioBecam"
++ "TB,N,V_hasPupil2dVisibleRatioNecam"
++ "TB,N,V_hasPupilIrisContrastBecam"
++ "TB,N,V_hasPupilIrisContrastNecam"
++ "TB,N,V_hasReadTimestamp"
++ "TB,N,V_hasReadWithCategoriesEnabled"
++ "TB,N,V_hasRecategorizationBy"
++ "TB,N,V_hasRecategorizeTimestamp"
++ "TB,N,V_hasReceiveTimestamp"
++ "TB,N,V_hasReceivingAccountDomain"
++ "TB,N,V_hasSenderId"
++ "TB,N,V_hasStimulusCount"
++ "TB,N,V_hasStimulusCountHighBrightness"
++ "TB,N,V_hasStimulusCountLowBrightness"
++ "TB,N,V_hasStimulusCountMediumBrightness"
++ "TB,N,V_hasTemperatureCelsiusBecam"
++ "TB,N,V_hasTemperatureCelsiusNecam"
++ "TB,N,V_hasTimestampSinceBootInNanosecond"
++ "TB,N,V_hasTotalEyeRelief"
++ "TB,R,N,V_isAllInboxesCategoriesEnabled"
++ "TB,R,N,V_isMailAccountCategoriesEnabled"
++ "TB,R,N,V_isMailAccountPersonalAccount"
++ "TB,R,N,V_isOffline"
++ "TB,R,N,V_pluggedIn"
++ "TB,R,N,V_readWithCategoriesEnabled"
++ "TI,R,N,V_countOfVisibleGlintsBecam"
++ "TI,R,N,V_countOfVisibleGlintsNecam"
++ "TI,R,N,V_fixationCount"
++ "TI,R,N,V_fixationCountHighBrightness"
++ "TI,R,N,V_fixationCountLowBrightness"
++ "TI,R,N,V_fixationCountMediumBrightness"
++ "TI,R,N,V_stimulusCount"
++ "TI,R,N,V_stimulusCountHighBrightness"
++ "TI,R,N,V_stimulusCountLowBrightness"
++ "TI,R,N,V_stimulusCountMediumBrightness"
++ "TQ,R,N,V_timestampSinceBootInNanosecond"
++ "TRUEPREDICATE"
++ "Tf,R,N,V_brightness1bottomLeftStimulusSignedResidualPitch"
++ "Tf,R,N,V_brightness1bottomLeftStimulusSignedResidualYaw"
++ "Tf,R,N,V_brightness1bottomRightStimulusSignedResidualPitch"
++ "Tf,R,N,V_brightness1bottomRightStimulusSignedResidualYaw"
++ "Tf,R,N,V_brightness1bottomStimulusSignedResidualPitch"
++ "Tf,R,N,V_brightness1bottomStimulusSignedResidualYaw"
++ "Tf,R,N,V_brightness1topLeftStimulusSignedResidualPitch"
++ "Tf,R,N,V_brightness1topLeftStimulusSignedResidualYaw"
++ "Tf,R,N,V_brightness1topRightStimulusSignedResidualPitch"
++ "Tf,R,N,V_brightness1topRightStimulusSignedResidualYaw"
++ "Tf,R,N,V_brightness1topStimulusSignedResidualPitch"
++ "Tf,R,N,V_brightness1topStimulusSignedResidualYaw"
++ "Tf,R,N,V_brightness2bottomLeftStimulusSignedResidualPitch"
++ "Tf,R,N,V_brightness2bottomLeftStimulusSignedResidualYaw"
++ "Tf,R,N,V_brightness2bottomRightStimulusSignedResidualPitch"
++ "Tf,R,N,V_brightness2bottomRightStimulusSignedResidualYaw"
++ "Tf,R,N,V_brightness2bottomStimulusSignedResidualPitch"
++ "Tf,R,N,V_brightness2bottomStimulusSignedResidualYaw"
++ "Tf,R,N,V_brightness2topLeftStimulusSignedResidualPitch"
++ "Tf,R,N,V_brightness2topLeftStimulusSignedResidualYaw"
++ "Tf,R,N,V_brightness2topRightStimulusSignedResidualPitch"
++ "Tf,R,N,V_brightness2topRightStimulusSignedResidualYaw"
++ "Tf,R,N,V_brightness2topStimulusSignedResidualPitch"
++ "Tf,R,N,V_brightness2topStimulusSignedResidualYaw"
++ "Tf,R,N,V_brightness3bottomLeftStimulusSignedResidualPitch"
++ "Tf,R,N,V_brightness3bottomLeftStimulusSignedResidualYaw"
++ "Tf,R,N,V_brightness3bottomRightStimulusSignedResidualPitch"
++ "Tf,R,N,V_brightness3bottomRightStimulusSignedResidualYaw"
++ "Tf,R,N,V_brightness3bottomStimulusSignedResidualPitch"
++ "Tf,R,N,V_brightness3bottomStimulusSignedResidualYaw"
++ "Tf,R,N,V_brightness3topLeftStimulusSignedResidualPitch"
++ "Tf,R,N,V_brightness3topLeftStimulusSignedResidualYaw"
++ "Tf,R,N,V_brightness3topRightStimulusSignedResidualPitch"
++ "Tf,R,N,V_brightness3topRightStimulusSignedResidualYaw"
++ "Tf,R,N,V_brightness3topStimulusSignedResidualPitch"
++ "Tf,R,N,V_brightness3topStimulusSignedResidualYaw"
++ "Tf,R,N,V_centralStimulusSignedResidualPitch"
++ "Tf,R,N,V_centralStimulusSignedResidualYaw"
++ "Tf,R,N,V_enrollmentResidual75thPercentile"
++ "Tf,R,N,V_enrollmentResidual95thPercentile"
++ "Tf,R,N,V_enrollmentResidualMedian"
++ "Tf,R,N,V_nearEyeRelief"
++ "Tf,R,N,V_offsetWithinEyeboxX"
++ "Tf,R,N,V_offsetWithinEyeboxY"
++ "Tf,R,N,V_offsetWithinEyeboxZ"
++ "Tf,R,N,V_pupil2dVisibleRatioBecam"
++ "Tf,R,N,V_pupil2dVisibleRatioNecam"
++ "Tf,R,N,V_pupilIrisContrastBecam"
++ "Tf,R,N,V_pupilIrisContrastNecam"
++ "Tf,R,N,V_temperatureCelsiusBecam"
++ "Tf,R,N,V_temperatureCelsiusNecam"
++ "Tf,R,N,V_totalEyeRelief"
++ "Ti,R,N,V_accessibilityMode"
++ "Ti,R,N,V_binocQuality"
++ "Ti,R,N,V_dominantEye"
++ "Ti,R,N,V_enrollmentReason"
++ "Ti,R,N,V_experimentStatus"
++ "Ti,R,N,V_eyeSide"
++ "Ti,R,N,V_eyeboxStatus"
++ "Ti,R,N,V_messageId"
++ "Ti,R,N,V_monocularQuality"
++ "Ti,R,N,V_pupilSizeCategory"
++ "Ti,R,N,V_readTimestamp"
++ "Ti,R,N,V_recategorizeTimestamp"
++ "Ti,R,N,V_receiveTimestamp"
++ "Ti,R,N,V_senderId"
++ "Trial"
++ "Trial.Experiment.NamespaceUpdates"
++ "Ui"
++ "VeryBright"
++ "VeryDark"
++ "_BMMailCategorizationAnalyticsLibraryNode"
++ "_BMOasisAnalyticsGazeKitLibraryNode"
++ "_BMOasisAnalyticsLibraryNode"
++ "_BMSiriOnDeviceAnalyticsLibraryNode"
++ "_BMTrialExperimentLibraryNode"
++ "_BMTrialLibraryNode"
++ "_NamespaceNames"
++ "_TtC12BiomeLibrary38_BMIPBridgeAdAttributionKitLibraryNode"
++ "_TtC12BiomeLibrary43_BMIPBridgeGenerativeExperiencesLibraryNode"
++ "_TtC12BiomeLibrary57_BMIPBridgeAdAttributionKitAggregatedReportingLibraryNode"
++ "_accessibilityMode"
++ "_accountId"
++ "_associatedContacts"
++ "_associatedContactsJSONArray"
++ "_associatedLocations"
++ "_associatedLocationsJSONArray"
++ "_associatedMusic"
++ "_associatedMusicJSONArray"
++ "_associatedTime"
++ "_associatedTimeJSONArray"
++ "_binocQuality"
++ "_bootSessionId"
++ "_brightness1bottomLeftStimulusSignedResidualPitch"
++ "_brightness1bottomLeftStimulusSignedResidualYaw"
++ "_brightness1bottomRightStimulusSignedResidualPitch"
++ "_brightness1bottomRightStimulusSignedResidualYaw"
++ "_brightness1bottomStimulusSignedResidualPitch"
++ "_brightness1bottomStimulusSignedResidualYaw"
++ "_brightness1topLeftStimulusSignedResidualPitch"
++ "_brightness1topLeftStimulusSignedResidualYaw"
++ "_brightness1topRightStimulusSignedResidualPitch"
++ "_brightness1topRightStimulusSignedResidualYaw"
++ "_brightness1topStimulusSignedResidualPitch"
++ "_brightness1topStimulusSignedResidualYaw"
++ "_brightness2bottomLeftStimulusSignedResidualPitch"
++ "_brightness2bottomLeftStimulusSignedResidualYaw"
++ "_brightness2bottomRightStimulusSignedResidualPitch"
++ "_brightness2bottomRightStimulusSignedResidualYaw"
++ "_brightness2bottomStimulusSignedResidualPitch"
++ "_brightness2bottomStimulusSignedResidualYaw"
++ "_brightness2topLeftStimulusSignedResidualPitch"
++ "_brightness2topLeftStimulusSignedResidualYaw"
++ "_brightness2topRightStimulusSignedResidualPitch"
++ "_brightness2topRightStimulusSignedResidualYaw"
++ "_brightness2topStimulusSignedResidualPitch"
++ "_brightness2topStimulusSignedResidualYaw"
++ "_brightness3bottomLeftStimulusSignedResidualPitch"
++ "_brightness3bottomLeftStimulusSignedResidualYaw"
++ "_brightness3bottomRightStimulusSignedResidualPitch"
++ "_brightness3bottomRightStimulusSignedResidualYaw"
++ "_brightness3bottomStimulusSignedResidualPitch"
++ "_brightness3bottomStimulusSignedResidualYaw"
++ "_brightness3topLeftStimulusSignedResidualPitch"
++ "_brightness3topLeftStimulusSignedResidualYaw"
++ "_brightness3topRightStimulusSignedResidualPitch"
++ "_brightness3topRightStimulusSignedResidualYaw"
++ "_brightness3topStimulusSignedResidualPitch"
++ "_brightness3topStimulusSignedResidualYaw"
++ "_centralStimulusSignedResidualPitch"
++ "_centralStimulusSignedResidualYaw"
++ "_command"
++ "_countOfVisibleGlintsBecam"
++ "_countOfVisibleGlintsNecam"
++ "_dominantEye"
++ "_enrollmentFailureReasons"
++ "_enrollmentFailureReasonsJSONArray"
++ "_enrollmentIdentifier"
++ "_enrollmentReason"
++ "_enrollmentResidual75thPercentile"
++ "_enrollmentResidual95thPercentile"
++ "_enrollmentResidualMedian"
++ "_experimentStatus"
++ "_eyeSide"
++ "_eyeboxStatus"
++ "_fixationCount"
++ "_fixationCountHighBrightness"
++ "_fixationCountLowBrightness"
++ "_fixationCountMediumBrightness"
++ "_fixationSamples"
++ "_fixationSamplesJSONArray"
++ "_hasBrightness1bottomLeftStimulusSignedResidualPitch"
++ "_hasBrightness1bottomLeftStimulusSignedResidualYaw"
++ "_hasBrightness1bottomRightStimulusSignedResidualPitch"
++ "_hasBrightness1bottomRightStimulusSignedResidualYaw"
++ "_hasBrightness1bottomStimulusSignedResidualPitch"
++ "_hasBrightness1bottomStimulusSignedResidualYaw"
++ "_hasBrightness1topLeftStimulusSignedResidualPitch"
++ "_hasBrightness1topLeftStimulusSignedResidualYaw"
++ "_hasBrightness1topRightStimulusSignedResidualPitch"
++ "_hasBrightness1topRightStimulusSignedResidualYaw"
++ "_hasBrightness1topStimulusSignedResidualPitch"
++ "_hasBrightness1topStimulusSignedResidualYaw"
++ "_hasBrightness2bottomLeftStimulusSignedResidualPitch"
++ "_hasBrightness2bottomLeftStimulusSignedResidualYaw"
++ "_hasBrightness2bottomRightStimulusSignedResidualPitch"
++ "_hasBrightness2bottomRightStimulusSignedResidualYaw"
++ "_hasBrightness2bottomStimulusSignedResidualPitch"
++ "_hasBrightness2bottomStimulusSignedResidualYaw"
++ "_hasBrightness2topLeftStimulusSignedResidualPitch"
++ "_hasBrightness2topLeftStimulusSignedResidualYaw"
++ "_hasBrightness2topRightStimulusSignedResidualPitch"
++ "_hasBrightness2topRightStimulusSignedResidualYaw"
++ "_hasBrightness2topStimulusSignedResidualPitch"
++ "_hasBrightness2topStimulusSignedResidualYaw"
++ "_hasBrightness3bottomLeftStimulusSignedResidualPitch"
++ "_hasBrightness3bottomLeftStimulusSignedResidualYaw"
++ "_hasBrightness3bottomRightStimulusSignedResidualPitch"
++ "_hasBrightness3bottomRightStimulusSignedResidualYaw"
++ "_hasBrightness3bottomStimulusSignedResidualPitch"
++ "_hasBrightness3bottomStimulusSignedResidualYaw"
++ "_hasBrightness3topLeftStimulusSignedResidualPitch"
++ "_hasBrightness3topLeftStimulusSignedResidualYaw"
++ "_hasBrightness3topRightStimulusSignedResidualPitch"
++ "_hasBrightness3topRightStimulusSignedResidualYaw"
++ "_hasBrightness3topStimulusSignedResidualPitch"
++ "_hasBrightness3topStimulusSignedResidualYaw"
++ "_hasCentralStimulusSignedResidualPitch"
++ "_hasCentralStimulusSignedResidualYaw"
++ "_hasCountOfVisibleGlintsBecam"
++ "_hasCountOfVisibleGlintsNecam"
++ "_hasCurrCategoryView"
++ "_hasEnrollmentResidual75thPercentile"
++ "_hasEnrollmentResidual95thPercentile"
++ "_hasEnrollmentResidualMedian"
++ "_hasFixationCount"
++ "_hasFixationCountHighBrightness"
++ "_hasFixationCountLowBrightness"
++ "_hasFixationCountMediumBrightness"
++ "_hasIsAllInboxesCategoriesEnabled"
++ "_hasIsMailAccountCategoriesEnabled"
++ "_hasIsMailAccountPersonalAccount"
++ "_hasIsOffline"
++ "_hasMessageId"
++ "_hasNearEyeRelief"
++ "_hasOffsetWithinEyeboxX"
++ "_hasOffsetWithinEyeboxY"
++ "_hasOffsetWithinEyeboxZ"
++ "_hasPluggedIn"
++ "_hasPredictedCategory"
++ "_hasPupil2dVisibleRatioBecam"
++ "_hasPupil2dVisibleRatioNecam"
++ "_hasPupilIrisContrastBecam"
++ "_hasPupilIrisContrastNecam"
++ "_hasReadTimestamp"
++ "_hasReadWithCategoriesEnabled"
++ "_hasRecategorizationBy"
++ "_hasRecategorizeTimestamp"
++ "_hasReceiveTimestamp"
++ "_hasReceivingAccountDomain"
++ "_hasSenderId"
++ "_hasStimulusCount"
++ "_hasStimulusCountHighBrightness"
++ "_hasStimulusCountLowBrightness"
++ "_hasStimulusCountMediumBrightness"
++ "_hasTemperatureCelsiusBecam"
++ "_hasTemperatureCelsiusNecam"
++ "_hasTimestampSinceBootInNanosecond"
++ "_hasTotalEyeRelief"
++ "_isAllInboxesCategoriesEnabled"
++ "_isMailAccountCategoriesEnabled"
++ "_isMailAccountPersonalAccount"
++ "_isOffline"
++ "_libraryStreamConfigurationWithUUID:streamIdentifier:eventClass:storeConfig:syncPolicy:legacyNames:internalMetadata:enableSubscriptions:enableSubscriptionSubstream:enableTombstoneSubstream:allowedClients:pruningTriggers:spaceAttributionOwner:"
++ "_metadataPrimaryKey"
++ "_monocularQuality"
++ "_music"
++ "_namespaceNameJSONArray"
++ "_nearEyeRelief"
++ "_offsetWithinEyeboxX"
++ "_offsetWithinEyeboxY"
++ "_offsetWithinEyeboxZ"
++ "_onDeviceSampleIdentifiers"
++ "_onDeviceSampleIdentifiersJSONArray"
++ "_payload"
++ "_place"
++ "_pluggedIn"
++ "_pupil2dVisibleRatioBecam"
++ "_pupil2dVisibleRatioNecam"
++ "_pupilIrisContrastBecam"
++ "_pupilIrisContrastNecam"
++ "_pupilSizeCategory"
++ "_raw_value"
++ "_readTimestamp"
++ "_readWithCategoriesEnabled"
++ "_recategorizeTimestamp"
++ "_receiveTimestamp"
++ "_rxuuid"
++ "_stimulusCount"
++ "_stimulusCountHighBrightness"
++ "_stimulusCountLowBrightness"
++ "_stimulusCountMediumBrightness"
++ "_temperatureCelsiusBecam"
++ "_temperatureCelsiusNecam"
++ "_timeReference"
++ "_timestampSinceBootInNanosecond"
++ "_totalEyeRelief"
++ "_treatmentId"
++ "_userId"
++ "_userProfileId"
++ "accessibilityMode"
++ "accountId"
++ "app-uninstall"
++ "app-uninstall-nightly"
++ "associatedContacts"
++ "associatedContacts_json"
++ "associatedLocations"
++ "associatedLocations_json"
++ "associatedMusic"
++ "associatedMusic_json"
++ "associatedTime"
++ "associatedTime_json"
++ "binocQuality"
++ "bootSessionId"
++ "bootSessionId_json"
++ "brightness1bottomLeftStimulusSignedResidualPitch"
++ "brightness1bottomLeftStimulusSignedResidualYaw"
++ "brightness1bottomRightStimulusSignedResidualPitch"
++ "brightness1bottomRightStimulusSignedResidualYaw"
++ "brightness1bottomStimulusSignedResidualPitch"
++ "brightness1bottomStimulusSignedResidualYaw"
++ "brightness1topLeftStimulusSignedResidualPitch"
++ "brightness1topLeftStimulusSignedResidualYaw"
++ "brightness1topRightStimulusSignedResidualPitch"
++ "brightness1topRightStimulusSignedResidualYaw"
++ "brightness1topStimulusSignedResidualPitch"
++ "brightness1topStimulusSignedResidualYaw"
++ "brightness2bottomLeftStimulusSignedResidualPitch"
++ "brightness2bottomLeftStimulusSignedResidualYaw"
++ "brightness2bottomRightStimulusSignedResidualPitch"
++ "brightness2bottomRightStimulusSignedResidualYaw"
++ "brightness2bottomStimulusSignedResidualPitch"
++ "brightness2bottomStimulusSignedResidualYaw"
++ "brightness2topLeftStimulusSignedResidualPitch"
++ "brightness2topLeftStimulusSignedResidualYaw"
++ "brightness2topRightStimulusSignedResidualPitch"
++ "brightness2topRightStimulusSignedResidualYaw"
++ "brightness2topStimulusSignedResidualPitch"
++ "brightness2topStimulusSignedResidualYaw"
++ "brightness3bottomLeftStimulusSignedResidualPitch"
++ "brightness3bottomLeftStimulusSignedResidualYaw"
++ "brightness3bottomRightStimulusSignedResidualPitch"
++ "brightness3bottomRightStimulusSignedResidualYaw"
++ "brightness3bottomStimulusSignedResidualPitch"
++ "brightness3bottomStimulusSignedResidualYaw"
++ "brightness3topLeftStimulusSignedResidualPitch"
++ "brightness3topLeftStimulusSignedResidualYaw"
++ "brightness3topRightStimulusSignedResidualPitch"
++ "brightness3topRightStimulusSignedResidualYaw"
++ "brightness3topStimulusSignedResidualPitch"
++ "brightness3topStimulusSignedResidualYaw"
++ "bundleID == $app AND (itemID IN $intentIdentifiers OR groupID IN $intentGroupIdentifiers)"
++ "bundleID IN $disabledApps"
++ "centralStimulusSignedResidualPitch"
++ "centralStimulusSignedResidualYaw"
++ "com.apple.AppleIntelligenceReport"
++ "com.apple.triald"
++ "command"
++ "configurationForNamespaceUpdates"
++ "configurationForRecategorize"
++ "configurationForReceive"
++ "configurationForSpeakerIdSampling"
++ "contact-deleted"
++ "countOfVisibleGlintsBecam"
++ "countOfVisibleGlintsNecam"
++ "delete-siri-dictation-history"
++ "disable-siri"
++ "dominantEye"
++ "donatedBySiri == YES"
++ "enrollmentFailureReasons"
++ "enrollmentFailureReasons_json"
++ "enrollmentIdentifier"
++ "enrollmentReason"
++ "enrollmentResidual75thPercentile"
++ "enrollmentResidual95thPercentile"
++ "enrollmentResidualMedian"
++ "experimentStatus"
++ "eyeSide"
++ "eyeboxStatus"
++ "f"
++ "f16@0:8"
++ "fixationCount"
++ "fixationCountHighBrightness"
++ "fixationCountLowBrightness"
++ "fixationCountMediumBrightness"
++ "fixationSamples"
++ "fixationSamples_json"
++ "hasBrightness1bottomLeftStimulusSignedResidualPitch"
++ "hasBrightness1bottomLeftStimulusSignedResidualYaw"
++ "hasBrightness1bottomRightStimulusSignedResidualPitch"
++ "hasBrightness1bottomRightStimulusSignedResidualYaw"
++ "hasBrightness1bottomStimulusSignedResidualPitch"
++ "hasBrightness1bottomStimulusSignedResidualYaw"
++ "hasBrightness1topLeftStimulusSignedResidualPitch"
++ "hasBrightness1topLeftStimulusSignedResidualYaw"
++ "hasBrightness1topRightStimulusSignedResidualPitch"
++ "hasBrightness1topRightStimulusSignedResidualYaw"
++ "hasBrightness1topStimulusSignedResidualPitch"
++ "hasBrightness1topStimulusSignedResidualYaw"
++ "hasBrightness2bottomLeftStimulusSignedResidualPitch"
++ "hasBrightness2bottomLeftStimulusSignedResidualYaw"
++ "hasBrightness2bottomRightStimulusSignedResidualPitch"
++ "hasBrightness2bottomRightStimulusSignedResidualYaw"
++ "hasBrightness2bottomStimulusSignedResidualPitch"
++ "hasBrightness2bottomStimulusSignedResidualYaw"
++ "hasBrightness2topLeftStimulusSignedResidualPitch"
++ "hasBrightness2topLeftStimulusSignedResidualYaw"
++ "hasBrightness2topRightStimulusSignedResidualPitch"
++ "hasBrightness2topRightStimulusSignedResidualYaw"
++ "hasBrightness2topStimulusSignedResidualPitch"
++ "hasBrightness2topStimulusSignedResidualYaw"
++ "hasBrightness3bottomLeftStimulusSignedResidualPitch"
++ "hasBrightness3bottomLeftStimulusSignedResidualYaw"
++ "hasBrightness3bottomRightStimulusSignedResidualPitch"
++ "hasBrightness3bottomRightStimulusSignedResidualYaw"
++ "hasBrightness3bottomStimulusSignedResidualPitch"
++ "hasBrightness3bottomStimulusSignedResidualYaw"
++ "hasBrightness3topLeftStimulusSignedResidualPitch"
++ "hasBrightness3topLeftStimulusSignedResidualYaw"
++ "hasBrightness3topRightStimulusSignedResidualPitch"
++ "hasBrightness3topRightStimulusSignedResidualYaw"
++ "hasBrightness3topStimulusSignedResidualPitch"
++ "hasBrightness3topStimulusSignedResidualYaw"
++ "hasCentralStimulusSignedResidualPitch"
++ "hasCentralStimulusSignedResidualYaw"
++ "hasCountOfVisibleGlintsBecam"
++ "hasCountOfVisibleGlintsNecam"
++ "hasCurrCategoryView"
++ "hasEnrollmentResidual75thPercentile"
++ "hasEnrollmentResidual95thPercentile"
++ "hasEnrollmentResidualMedian"
++ "hasFixationCount"
++ "hasFixationCountHighBrightness"
++ "hasFixationCountLowBrightness"
++ "hasFixationCountMediumBrightness"
++ "hasIsAllInboxesCategoriesEnabled"
++ "hasIsMailAccountCategoriesEnabled"
++ "hasIsMailAccountPersonalAccount"
++ "hasIsOffline"
++ "hasMessageId"
++ "hasNearEyeRelief"
++ "hasOffsetWithinEyeboxX"
++ "hasOffsetWithinEyeboxY"
++ "hasOffsetWithinEyeboxZ"
++ "hasPluggedIn"
++ "hasPredictedCategory"
++ "hasPupil2dVisibleRatioBecam"
++ "hasPupil2dVisibleRatioNecam"
++ "hasPupilIrisContrastBecam"
++ "hasPupilIrisContrastNecam"
++ "hasReadTimestamp"
++ "hasReadWithCategoriesEnabled"
++ "hasRecategorizationBy"
++ "hasRecategorizeTimestamp"
++ "hasReceiveTimestamp"
++ "hasReceivingAccountDomain"
++ "hasSenderId"
++ "hasStimulusCount"
++ "hasStimulusCountHighBrightness"
++ "hasStimulusCountLowBrightness"
++ "hasStimulusCountMediumBrightness"
++ "hasTemperatureCelsiusBecam"
++ "hasTemperatureCelsiusNecam"
++ "hasTimestampSinceBootInNanosecond"
++ "hasTotalEyeRelief"
++ "initWithAccountId:messageId:currCategoryView:recategorizationBy:recategorizeTimestamp:"
++ "initWithAccountId:messageId:readTimestamp:readWithCategoriesEnabled:"
++ "initWithAccountId:messageId:senderId:receivingAccountDomain:metadataPrimaryKey:predictedCategory:currCategoryView:reasonCodes:receiveTimestamp:isAllInboxesCategoriesEnabled:isMailAccountPersonalAccount:isMailAccountCategoriesEnabled:"
++ "initWithBootSessionId:timestampSinceBootInNanosecond:"
++ "initWithCity:place:"
++ "initWithContextIdentifier:contextStrings:contextCreationTimestamp:associatedPatternType:metadataContentBitmap:actionType:associatedLocations:associatedContacts:associatedTime:associatedMusic:"
++ "initWithDismissalReason:unintended:requestSource:identifier:domain:command:"
++ "initWithIdentifier:predicate:"
++ "initWithIdentifier:type:domain:appBundleId:status:direction:isDonatedBySiri:startDate:durationInSeconds:fields:groupIdentifier:appIntentInteractionIdentifier:interactionSource:contentHash:userDonatorType:"
++ "initWithIdentifier:type:fields:fieldsTokens:"
++ "initWithMetadata:payload:"
++ "initWithMetadata:payload:fixationSamples:"
++ "initWithMusic:"
++ "initWithName:"
++ "initWithNamespaceName:"
++ "initWithNamespaceNames:experimentStatus:userId:experimentId:deploymentId:treatmentId:"
++ "initWithTemperature:pluggedIn:"
++ "initWithTimeReference:"
++ "initWithTimestamp:onDeviceSampleIdentifiers:enrollmentIdentifier:"
++ "initWithUserProfileId:eyeSide:isOffline:enrollmentResidual75thPercentile:enrollmentResidual95thPercentile:enrollmentResidualMedian:dominantEye:monocularQuality:enrollmentFailureReasons:binocQuality:fixationCount:fixationCountLowBrightness:fixationCountMediumBrightness:fixationCountHighBrightness:stimulusCount:stimulusCountLowBrightness:stimulusCountMediumBrightness:stimulusCountHighBrightness:accessibilityMode:eyeboxStatus:centralStimulusSignedResidualYaw:brightness1topStimulusSignedResidualYaw:brightness1topRightStimulusSignedResidualYaw:brightness1bottomRightStimulusSignedResidualYaw:brightness1bottomStimulusSignedResidualYaw:brightness1bottomLeftStimulusSignedResidualYaw:brightness1topLeftStimulusSignedResidualYaw:brightness2topStimulusSignedResidualYaw:brightness2topRightStimulusSignedResidualYaw:brightness2bottomRightStimulusSignedResidualYaw:brightness2bottomStimulusSignedResidualYaw:brightness2bottomLeftStimulusSignedResidualYaw:brightness2topLeftStimulusSignedResidualYaw:brightness3topStimulusSignedResidualYaw:brightness3topRightStimulusSignedResidualYaw:brightness3bottomRightStimulusSignedResidualYaw:brightness3bottomStimulusSignedResidualYaw:brightness3bottomLeftStimulusSignedResidualYaw:brightness3topLeftStimulusSignedResidualYaw:centralStimulusSignedResidualPitch:brightness1topStimulusSignedResidualPitch:brightness1topRightStimulusSignedResidualPitch:brightness1bottomRightStimulusSignedResidualPitch:brightness1bottomStimulusSignedResidualPitch:brightness1bottomLeftStimulusSignedResidualPitch:brightness1topLeftStimulusSignedResidualPitch:brightness2topStimulusSignedResidualPitch:brightness2topRightStimulusSignedResidualPitch:brightness2bottomRightStimulusSignedResidualPitch:brightness2bottomStimulusSignedResidualPitch:brightness2bottomLeftStimulusSignedResidualPitch:brightness2topLeftStimulusSignedResidualPitch:brightness3topStimulusSignedResidualPitch:brightness3topRightStimulusSignedResidualPitch:brightness3bottomRightStimulusSignedResidualPitch:brightness3bottomStimulusSignedResidualPitch:brightness3bottomLeftStimulusSignedResidualPitch:brightness3topLeftStimulusSignedResidualPitch:rxuuid:enrollmentReason:"
++ "initWithUserProfileId:eyeSide:pupilSizeCategory:offsetWithinEyeboxX:offsetWithinEyeboxY:offsetWithinEyeboxZ:totalEyeRelief:nearEyeRelief:pupil2dVisibleRatioNecam:pupil2dVisibleRatioBecam:pupilIrisContrastNecam:pupilIrisContrastBecam:countOfVisibleGlintsNecam:countOfVisibleGlintsBecam:temperatureCelsiusNecam:temperatureCelsiusBecam:"
++ "intent-deletion"
++ "interaction.appBundleId == $app AND (interaction.appIntentInteractionIdentifier IN $intentIdentifiers OR interaction.groupIdentifier IN $intentGroupIdentifiers)"
++ "interaction.appBundleId IN $disabledApps"
++ "isAllInboxesCategoriesEnabled"
++ "isMailAccountCategoriesEnabled"
++ "isMailAccountPersonalAccount"
++ "isOffline"
++ "learn-from-this-app"
++ "metadataPrimaryKey"
++ "monocularQuality"
++ "music"
++ "namespaceName_json"
++ "nearEyeRelief"
++ "offsetWithinEyeboxX"
++ "offsetWithinEyeboxY"
++ "offsetWithinEyeboxZ"
++ "onDeviceSampleIdentifiers"
++ "onDeviceSampleIdentifiers_json"
++ "payload"
++ "payload_json"
++ "place"
++ "pluggedIn"
++ "predicateWithFormat:argumentArray:"
++ "pupil2dVisibleRatioBecam"
++ "pupil2dVisibleRatioNecam"
++ "pupilIrisContrastBecam"
++ "pupilIrisContrastNecam"
++ "pupilSizeCategory"
++ "readTimestamp"
++ "readWithCategoriesEnabled"
++ "recategorizeTimestamp"
++ "receiveTimestamp"
++ "reset-privacy-and-location-warnings"
++ "rxuuid"
++ "setHasBrightness1bottomLeftStimulusSignedResidualPitch:"
++ "setHasBrightness1bottomLeftStimulusSignedResidualYaw:"
++ "setHasBrightness1bottomRightStimulusSignedResidualPitch:"
++ "setHasBrightness1bottomRightStimulusSignedResidualYaw:"
++ "setHasBrightness1bottomStimulusSignedResidualPitch:"
++ "setHasBrightness1bottomStimulusSignedResidualYaw:"
++ "setHasBrightness1topLeftStimulusSignedResidualPitch:"
++ "setHasBrightness1topLeftStimulusSignedResidualYaw:"
++ "setHasBrightness1topRightStimulusSignedResidualPitch:"
++ "setHasBrightness1topRightStimulusSignedResidualYaw:"
++ "setHasBrightness1topStimulusSignedResidualPitch:"
++ "setHasBrightness1topStimulusSignedResidualYaw:"
++ "setHasBrightness2bottomLeftStimulusSignedResidualPitch:"
++ "setHasBrightness2bottomLeftStimulusSignedResidualYaw:"
++ "setHasBrightness2bottomRightStimulusSignedResidualPitch:"
++ "setHasBrightness2bottomRightStimulusSignedResidualYaw:"
++ "setHasBrightness2bottomStimulusSignedResidualPitch:"
++ "setHasBrightness2bottomStimulusSignedResidualYaw:"
++ "setHasBrightness2topLeftStimulusSignedResidualPitch:"
++ "setHasBrightness2topLeftStimulusSignedResidualYaw:"
++ "setHasBrightness2topRightStimulusSignedResidualPitch:"
++ "setHasBrightness2topRightStimulusSignedResidualYaw:"
++ "setHasBrightness2topStimulusSignedResidualPitch:"
++ "setHasBrightness2topStimulusSignedResidualYaw:"
++ "setHasBrightness3bottomLeftStimulusSignedResidualPitch:"
++ "setHasBrightness3bottomLeftStimulusSignedResidualYaw:"
++ "setHasBrightness3bottomRightStimulusSignedResidualPitch:"
++ "setHasBrightness3bottomRightStimulusSignedResidualYaw:"
++ "setHasBrightness3bottomStimulusSignedResidualPitch:"
++ "setHasBrightness3bottomStimulusSignedResidualYaw:"
++ "setHasBrightness3topLeftStimulusSignedResidualPitch:"
++ "setHasBrightness3topLeftStimulusSignedResidualYaw:"
++ "setHasBrightness3topRightStimulusSignedResidualPitch:"
++ "setHasBrightness3topRightStimulusSignedResidualYaw:"
++ "setHasBrightness3topStimulusSignedResidualPitch:"
++ "setHasBrightness3topStimulusSignedResidualYaw:"
++ "setHasCentralStimulusSignedResidualPitch:"
++ "setHasCentralStimulusSignedResidualYaw:"
++ "setHasCountOfVisibleGlintsBecam:"
++ "setHasCountOfVisibleGlintsNecam:"
++ "setHasCurrCategoryView:"
++ "setHasEnrollmentResidual75thPercentile:"
++ "setHasEnrollmentResidual95thPercentile:"
++ "setHasEnrollmentResidualMedian:"
++ "setHasFixationCount:"
++ "setHasFixationCountHighBrightness:"
++ "setHasFixationCountLowBrightness:"
++ "setHasFixationCountMediumBrightness:"
++ "setHasIsAllInboxesCategoriesEnabled:"
++ "setHasIsMailAccountCategoriesEnabled:"
++ "setHasIsMailAccountPersonalAccount:"
++ "setHasIsOffline:"
++ "setHasMessageId:"
++ "setHasNearEyeRelief:"
++ "setHasOffsetWithinEyeboxX:"
++ "setHasOffsetWithinEyeboxY:"
++ "setHasOffsetWithinEyeboxZ:"
++ "setHasPluggedIn:"
++ "setHasPredictedCategory:"
++ "setHasPupil2dVisibleRatioBecam:"
++ "setHasPupil2dVisibleRatioNecam:"
++ "setHasPupilIrisContrastBecam:"
++ "setHasPupilIrisContrastNecam:"
++ "setHasReadTimestamp:"
++ "setHasReadWithCategoriesEnabled:"
++ "setHasRecategorizationBy:"
++ "setHasRecategorizeTimestamp:"
++ "setHasReceiveTimestamp:"
++ "setHasReceivingAccountDomain:"
++ "setHasSenderId:"
++ "setHasStimulusCount:"
++ "setHasStimulusCountHighBrightness:"
++ "setHasStimulusCountLowBrightness:"
++ "setHasStimulusCountMediumBrightness:"
++ "setHasTemperatureCelsiusBecam:"
++ "setHasTemperatureCelsiusNecam:"
++ "setHasTimestampSinceBootInNanosecond:"
++ "setHasTotalEyeRelief:"
++ "stimulusCount"
++ "stimulusCountHighBrightness"
++ "stimulusCountLowBrightness"
++ "stimulusCountMediumBrightness"
++ "storeConfigurationForNamespaceUpdates"
++ "storeConfigurationForRecategorize"
++ "storeConfigurationForReceive"
++ "storeConfigurationForSpeakerIdSampling"
++ "syncPolicyForNamespaceUpdates"
++ "syncPolicyForRecategorize"
++ "syncPolicyForReceive"
++ "syncPolicyForSpeakerIdSampling"
++ "temperatureCelsiusBecam"
++ "temperatureCelsiusNecam"
++ "timeReference"
++ "timestampSinceBootInNanosecond"
++ "totalEyeRelief"
++ "treatmentId"
++ "userId"
++ "userProfileId"
++ "\xf0\xf0S"
+- "\x01Q"
+- "19843255-BF07-44E3-9773-50CE6F67A070"
+- "7025B256-52DC-4625-8A94-288492E4081F"
+- "7867A232-9C74-4089-9B32-8D9C8ADA1FB4"
+- "@\"BMInferredLocation\""
+- "@\"BMLearnedPlace\""
+- "@\"BMLocationPlaceInferenceStats\""
+- "@\"BMMapItem\""
+- "@\"BMSiriExplicitRequestsLocation\""
+- "AppleIntelligence"
+- "AppleIntelligence.Waitlist.Status"
+- "BMAppleIntelligenceWaitlistStatus"
+- "BMAppleIntelligenceWaitlistStatus with type: %!@(MISSING)"
+- "BMDeviceBatteryTemperature with temperature: %!@(MISSING)"
+- "BMInferredLocation"
+- "BMInferredLocation with latitude: %!@(MISSING), longitude: %!@(MISSING), altitude: %!@(MISSING), horizontalUncertainity: %!@(MISSING), verticalUncertainity: %!@(MISSING), locationSourceAccuracy: %!@(MISSING)"
+- "BMLearnedPlace"
+- "BMLearnedPlace with identifier: %!@(MISSING), learnedPlaceType: %!@(MISSING), learnedPlaceTypeSource: %!@(MISSING), mapItem: %!@(MISSING)"
+- "BMLocationPlaceInference"
+- "BMLocationPlaceInference with detectionDate: %!@(MISSING), location: %!@(MISSING), learnedPlace: %!@(MISSING), stats: %!@(MISSING)"
+- "BMLocationPlaceInferenceStats"
+- "BMLocationPlaceInferenceStats with visitCount: %!@(MISSING), familiarityIndex: %!@(MISSING)"
+- "BMMapItem"
+- "BMMapItem with identifier: %!@(MISSING), name: %!@(MISSING), address: %!@(MISSING), category: %!@(MISSING)"
+- "BMPersonalizedSensingMomentsContextMomentsContext with contextIdentifier: %!@(MISSING), contextStrings: %!@(MISSING), contextCreationTimestamp: %!@(MISSING), associatedPatternType: %!@(MISSING), metadataContentBitmap: %!@(MISSING), actionType: %!@(MISSING)"
+- "BMSiriExplicitRequests"
+- "BMSiriExplicitRequests with facts: %!@(MISSING), location: %!@(MISSING)"
+- "BMSiriExplicitRequestsLocation"
+- "BMSiriExplicitRequestsLocation with latitude: %!@(MISSING), longitude: %!@(MISSING), street: %!@(MISSING), city: %!@(MISSING), state: %!@(MISSING), country: %!@(MISSING), postalCode: %!@(MISSING), countryCode: %!@(MISSING), subAdministrativeArea: %!@(MISSING), subLocality: %!@(MISSING), postalAddress: %!@(MISSING)"
+- "BMSiriRemembersEntitiesSiriRemembersEntity with identifier: %!@(MISSING), type: %!@(MISSING), entityFields: %!@(MISSING), fields: %!@(MISSING), fieldsTokens: %!@(MISSING)"
+- "BMSiriRemembersInteraction with identifier: %!@(MISSING), type: %!@(MISSING), domain: %!@(MISSING), appBundleId: %!@(MISSING), status: %!@(MISSING), direction: %!@(MISSING), isDonatedBySiri: %!@(MISSING), startDate: %!@(MISSING), durationInSeconds: %!@(MISSING), interactionFields: %!@(MISSING), fields: %!@(MISSING), groupIdentifier: %!@(MISSING), appIntentInteractionIdentifier: %!@(MISSING), interactionSource: %!@(MISSING), contentHash: %!@(MISSING), userDonatorType: %!@(MISSING)"
+- "BMSiriService with dismissalReason: %!@(MISSING), unintended: %!@(MISSING), requestSource: %!@(MISSING)"
+- "ExplicitRequests"
+- "Location.PlaceInference"
+- "PlaceInference"
+- "Siri.Remembers.ExplicitRequests"
+- "Status"
+- "T\x14"
+- "T@\"BMInferredLocation\",R,N,V_location"
+- "T@\"BMLearnedPlace\",R,N,V_learnedPlace"
+- "T@\"BMLocationPlaceInferenceStats\",R,N,V_stats"
+- "T@\"BMMapItem\",R,N,V_mapItem"
+- "T@\"BMSiriExplicitRequestsLocation\",R,N,V_location"
+- "T@\"NSArray\",R,N,V_facts"
+- "T@\"NSString\",R,N,V_postalAddress"
+- "T@\"NSString\",R,N,V_subAdministrativeArea"
+- "T@\"NSString\",R,N,V_subLocality"
+- "TB,N,V_hasHorizontalUncertainity"
+- "TB,N,V_hasVerticalUncertainity"
+- "TB,N,V_hasVisitCount"
+- "Td,R,N,V_horizontalUncertainity"
+- "Td,R,N,V_verticalUncertainity"
+- "Ti,R,N,V_learnedPlaceType"
+- "Ti,R,N,V_learnedPlaceTypeSource"
+- "Ti,R,N,V_locationSourceAccuracy"
+- "Ti,R,N,V_visitCount"
+- "Unavailable"
+- "Waiting"
+- "Waitlist"
+- "_BMAppleIntelligenceLibraryNode"
+- "_BMAppleIntelligenceWaitlistLibraryNode"
+- "_entityFieldsJSONArray"
+- "_facts"
+- "_factsJSONArray"
+- "_hasHorizontalUncertainity"
+- "_hasVerticalUncertainity"
+- "_hasVisitCount"
+- "_horizontalUncertainity"
+- "_interactionFieldsJSONArray"
+- "_learnedPlace"
+- "_learnedPlaceType"
+- "_learnedPlaceTypeSource"
+- "_locationSourceAccuracy"
+- "_postalAddress"
+- "_stats"
+- "_subAdministrativeArea"
+- "_subLocality"
+- "_verticalUncertainity"
+- "_visitCount"
+- "configurationForExplicitRequests"
+- "configurationForPlaceInference"
+- "configurationForStatus"
+- "facts"
+- "facts_json"
+- "hasHorizontalUncertainity"
+- "hasVerticalUncertainity"
+- "hasVisitCount"
+- "horizontalUncertainity"
+- "initWithDetectionDate:location:learnedPlace:stats:"
+- "initWithFacts:location:"
+- "initWithIdentifier:learnedPlaceType:learnedPlaceTypeSource:mapItem:"
+- "initWithLatitude:longitude:altitude:horizontalUncertainity:verticalUncertainity:locationSourceAccuracy:"
+- "initWithLatitude:longitude:street:city:state:country:postalCode:countryCode:subAdministrativeArea:subLocality:postalAddress:"
+- "initWithStreamIdentifier:eventClass:storeConfig:syncPolicy:alternativeNames:internalMetadata:"
+- "initWithTemperature:"
+- "initWithVisitCount:familiarityIndex:"
+- "learnedPlace"
+- "learnedPlaceType"
+- "learnedPlaceTypeSource"
+- "learnedPlace_json"
+- "locationSourceAccuracy"
+- "postalAddress"
+- "setHasHorizontalUncertainity:"
+- "setHasVerticalUncertainity:"
+- "setHasVisitCount:"
+- "spaceAttributionForAccessoryControl"
+- "spaceAttributionForAchievementEarned"
+- "spaceAttributionForActionSet"
+- "spaceAttributionForAddToMemories"
+- "spaceAttributionForAddedMed"
+- "spaceAttributionForAlarm"
+- "spaceAttributionForAssistant"
+- "spaceAttributionForAssistantSuggestions"
+- "spaceAttributionForAudioHistory"
+- "spaceAttributionForAutoFocusROI"
+- "spaceAttributionForAutoPlay"
+- "spaceAttributionForCallHistory"
+- "spaceAttributionForCategorization"
+- "spaceAttributionForCompletion"
+- "spaceAttributionForContactActivity"
+- "spaceAttributionForCuration"
+- "spaceAttributionForDatastream"
+- "spaceAttributionForDelete"
+- "spaceAttributionForDonation"
+- "spaceAttributionForEdit"
+- "spaceAttributionForEngagement"
+- "spaceAttributionForEventTitle"
+- "spaceAttributionForExplicitRequests"
+- "spaceAttributionForFavorite"
+- "spaceAttributionForFeedback"
+- "spaceAttributionForHomeHistory"
+- "spaceAttributionForIntent"
+- "spaceAttributionForInteractionHistory"
+- "spaceAttributionForLive"
+- "spaceAttributionForLocationChange"
+- "spaceAttributionForMap"
+- "spaceAttributionForMediaAccessoryControl"
+- "spaceAttributionForMemoryCreation"
+- "spaceAttributionForMessageHistory"
+- "spaceAttributionForMiscategorizedGroceryItem"
+- "spaceAttributionForMoviePlayed"
+- "spaceAttributionForNavigations"
+- "spaceAttributionForNotification"
+- "spaceAttributionForPageLoad"
+- "spaceAttributionForPaymentRingSuggestions"
+- "spaceAttributionForPicker"
+- "spaceAttributionForProcessing"
+- "spaceAttributionForRead"
+- "spaceAttributionForRecategorization"
+- "spaceAttributionForRecentConversationsIntent"
+- "spaceAttributionForRecurringSendSuggestions"
+- "spaceAttributionForRendered"
+- "spaceAttributionForResult"
+- "spaceAttributionForSearch"
+- "spaceAttributionForSettledTransaction"
+- "spaceAttributionForShare"
+- "spaceAttributionForShared"
+- "spaceAttributionForStyle"
+- "spaceAttributionForTransaction"
+- "spaceAttributionForUserAnalytics"
+- "spaceAttributionForViewed"
+- "spaceAttributionForWebPagePerformance"
+- "spaceAttributionForWindowProxy"
+- "stats"
+- "stats_json"
+- "storeConfigurationForExplicitRequests"
+- "storeConfigurationForPlaceInference"
+- "storeConfigurationForStatus"
+- "subAdministrativeArea"
+- "subLocality"
+- "syncPolicyForExplicitRequests"
+- "syncPolicyForPlaceInference"
+- "syncPolicyForStatus"
+- "verticalUncertainity"
+- "visitCount"
+
+```

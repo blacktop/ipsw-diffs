@@ -1,0 +1,73 @@
+## SphinxProxTrustedFDR
+
+> `/System/ExclaveKit/System/Library/PrivateFrameworks/SphinxProxTrustedFDR.framework/SphinxProxTrustedFDR`
+
+```diff
+
+-45.1.0.0.0
+-  __TEXT.__text: 0xbde4
++46.1.0.0.0
++  __TEXT.__text: 0xbe24
+   __TEXT.__auth_stubs: 0x380
+   __TEXT.__const: 0x4ba
+   __TEXT.__swift5_typeref: 0x135
+   __TEXT.__cstring: 0x307
+-  __TEXT.__constg_swiftt: 0x360
+-  __TEXT.__swift5_reflstr: 0xa1a
++  __TEXT.__constg_swiftt: 0x368
++  __TEXT.__swift5_reflstr: 0x9fa
+   __TEXT.__swift5_fieldmd: 0x87c
+   __TEXT.__swift5_types: 0x5c
+   __TEXT.__swift5_assocty: 0x30
+   __TEXT.__swift5_protos: 0x4
+   __TEXT.__swift5_proto: 0x3c
+-  __TEXT.__unwind_info: 0x430
++  __TEXT.__unwind_info: 0x438
+   __TEXT.__eh_frame: 0xc78
+   __DATA.__auth_got: 0x1c0
+   __DATA.__got: 0x80
+
+   __DATA.__objc_classlist: 0x20
+   __DATA.__objc_imageinfo: 0x8
+   __DATA.__objc_const: 0x2d8
+-  __DATA.__data: 0x328
++  __DATA.__data: 0x330
+   __DATA.__ENDPOINTS: 0x107
+   __DATA.__bss: 0x180
+   - /System/ExclaveKit/System/Library/Frameworks/Foundation.framework/Foundation
+
+   - /System/ExclaveKit/usr/lib/swift/libswift_errno.dylib
+   - /System/ExclaveKit/usr/lib/swift/libswift_stdio.dylib
+   - /System/ExclaveKit/usr/lib/swift/libswift_time.dylib
+-  Functions: 500
+-  Symbols:   1144
++  Functions: 502
++  Symbols:   1147
+   CStrings:  20
+ 
+Symbols:
++ $s20SphinxProxTrustedFDR21FirmwareFaultCountersV14BootFSMFailures5UInt8VvM.resume.0
++ $s20SphinxProxTrustedFDR25FirmwareCriticalErrorMaskV14BootFSMFailureSbvM.resume.0
++ _$s20SphinxProxTrustedFDR06SensorD0C7ServiceC10connectionAE9Tightbeam16ClientConnectionC_tcfC
++ _$s20SphinxProxTrustedFDR06SensorD0C7ServiceC10connectionAE9Tightbeam16ClientConnectionC_tcfCTq
++ _$s20SphinxProxTrustedFDR06SensorD0C7ServiceC10connectionAE9Tightbeam16ClientConnectionC_tcfc
++ _$s20SphinxProxTrustedFDR21FirmwareFaultCountersV10I2CFailure14DeviceNotFound18InvalidCalibration012UsingDefaultN018CalChecksumFailure07OscTrimS0012StandbyEntryS014BootFSMFailure10CPCollapse09VHVSearchS011DataOverrun15StuckInBlanking14StuckInRanging13BlankingError19StuckInPearlSession16StuckInVHVSearch13SPADAllZeroesACs5UInt8V_A16VtcfC
++ _$s20SphinxProxTrustedFDR21FirmwareFaultCountersV14BootFSMFailures5UInt8VvM
++ _$s20SphinxProxTrustedFDR21FirmwareFaultCountersV14BootFSMFailures5UInt8Vvg
++ _$s20SphinxProxTrustedFDR21FirmwareFaultCountersV14BootFSMFailures5UInt8Vvs
++ _$s20SphinxProxTrustedFDR25FirmwareCriticalErrorMaskV10I2CFailure14DeviceNotFound18InvalidCalibration012UsingDefaultO018CalChecksumFailure07OscTrimT0012StandbyEntryT014BootFSMFailure10CPCollapse09VHVSearchT011DataOverrun15StuckInBlanking14StuckInRanging08BlankingG019StuckInPearlSession16StuckInVHVSearch13SPADAllZeroesACSb_S16btcfC
++ _$s20SphinxProxTrustedFDR25FirmwareCriticalErrorMaskV14BootFSMFailureSbvM
++ _$s20SphinxProxTrustedFDR25FirmwareCriticalErrorMaskV14BootFSMFailureSbvg
++ _$s20SphinxProxTrustedFDR25FirmwareCriticalErrorMaskV14BootFSMFailureSbvs
+- $s20SphinxProxTrustedFDR21FirmwareFaultCountersV29RangingFrameIntervalViolations5UInt8VvM.resume.0
+- $s20SphinxProxTrustedFDR25FirmwareCriticalErrorMaskV29RangingFrameIntervalViolationSbvM.resume.0
+- _$s20SphinxProxTrustedFDR21FirmwareFaultCountersV10I2CFailure14DeviceNotFound18InvalidCalibration012UsingDefaultN018CalChecksumFailure07OscTrimS0012StandbyEntryS029RangingFrameIntervalViolation10CPCollapse09VHVSearchS011DataOverrun15StuckInBlanking07StuckInX013BlankingError19StuckInPearlSession16StuckInVHVSearch13SPADAllZeroesACs5UInt8V_A16VtcfC
+- _$s20SphinxProxTrustedFDR21FirmwareFaultCountersV29RangingFrameIntervalViolations5UInt8VvM
+- _$s20SphinxProxTrustedFDR21FirmwareFaultCountersV29RangingFrameIntervalViolations5UInt8Vvg
+- _$s20SphinxProxTrustedFDR21FirmwareFaultCountersV29RangingFrameIntervalViolations5UInt8Vvs
+- _$s20SphinxProxTrustedFDR25FirmwareCriticalErrorMaskV10I2CFailure14DeviceNotFound18InvalidCalibration012UsingDefaultO018CalChecksumFailure07OscTrimT0012StandbyEntryT029RangingFrameIntervalViolation10CPCollapse09VHVSearchT011DataOverrun15StuckInBlanking07StuckInY008BlankingG019StuckInPearlSession16StuckInVHVSearch13SPADAllZeroesACSb_S16btcfC
+- _$s20SphinxProxTrustedFDR25FirmwareCriticalErrorMaskV29RangingFrameIntervalViolationSbvM
+- _$s20SphinxProxTrustedFDR25FirmwareCriticalErrorMaskV29RangingFrameIntervalViolationSbvg
+- _$s20SphinxProxTrustedFDR25FirmwareCriticalErrorMaskV29RangingFrameIntervalViolationSbvs
+
+```

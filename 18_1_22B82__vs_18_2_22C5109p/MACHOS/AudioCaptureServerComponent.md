@@ -1,0 +1,312 @@
+## AudioCaptureServerComponent
+
+> `/System/ExclaveKit/System/Library/PrivateFrameworks/AudioCaptureServerComponent.framework/AudioCaptureServerComponent`
+
+```diff
+
+-122.104.0.0.0
+-  __TEXT.__text: 0x2036c
+-  __TEXT.__auth_stubs: 0x7c0
+-  __TEXT.__const: 0xf10
+-  __TEXT.__gcc_except_tab: 0xfe0
+-  __TEXT.__cstring: 0x506f
+-  __TEXT.__oslogstring: 0x1339
+-  __TEXT.__unwind_info: 0xc98
+-  __DATA.__auth_got: 0x3e8
+-  __DATA.__got: 0x98
+-  __DATA.__const: 0x1a30
+-  __DATA.__data: 0x1b0
+-  __DATA.__ENDPOINTS: 0x20e
+-  __DATA.__TIGHTBEAM: 0x20
+-  __DATA.__bss: 0x160
++139.0.0.0.0
++  __TEXT.__text: 0x207cc
++  __TEXT.__auth_stubs: 0x720
++  __TEXT.__const: 0xc90
++  __TEXT.__gcc_except_tab: 0x10d4
++  __TEXT.__cstring: 0x4e3c
++  __TEXT.__oslogstring: 0x1437
++  __TEXT.__unwind_info: 0xd10
++  __DATA.__auth_got: 0x398
++  __DATA.__got: 0x90
++  __DATA.__const: 0x1ab0
++  __DATA.__data: 0x1e0
++  __DATA.__ENDPOINTS: 0x107
++  __DATA.__TIGHTBEAM: 0x28
++  __DATA.__bss: 0x150
++  __DATA.__common: 0x8
+   - /System/ExclaveKit/System/Library/Frameworks/SharedMemory.framework/SharedMemory
+   - /System/ExclaveKit/System/Library/PrivateFrameworks/DebugExfiltration.framework/DebugExfiltration
+   - /System/ExclaveKit/System/Library/PrivateFrameworks/Tightbeam.framework/Tightbeam
+   - /System/ExclaveKit/usr/lib/libSystem.dylib
+   - /System/ExclaveKit/usr/lib/libc++.dylib
+-  Functions: 691
+-  Symbols:   1320
+-  CStrings:  332
++  Functions: 694
++  Symbols:   1327
++  CStrings:  325
+ 
+Symbols:
++ GCC_except_table32
++ GCC_except_table47
++ GCC_except_table48
++ GCC_except_table52
++ GCC_except_table54
++ GCC_except_table55
++ GCC_except_table59
++ GCC_except_table60
++ GCC_except_table65
++ GCC_except_table66
++ GCC_except_table67
++ GCC_except_table72
++ GCC_except_table73
++ GCC_except_table78
++ GCC_except_table79
++ GCC_except_table80
++ __ZN12_GLOBAL__N_110InitializeEPK24sharedmemory_segaccess_sPK44debugexfiltration_debugexfiltrationservice_sS2_
++ __ZN2ad12checked_spanIKSt4byteEC2EONSt3__14spanIS2_Lm18446744073709551615EEE
++ __ZN3acs14ControllerImpl4ImplC2ENSt3__110shared_ptrIN3shm12SharedMemoryEEENS3_INS_20ExfiltrationInitDataEEE
++ __ZN3acs14ControllerImplC1ENSt3__110shared_ptrIN3shm12SharedMemoryEEENS2_INS_20ExfiltrationInitDataEEE
++ __ZN3acs14ControllerImplC2ENSt3__110shared_ptrIN3shm12SharedMemoryEEENS2_INS_20ExfiltrationInitDataEEE
++ __ZN3acs15ExfiltratorImpl4ImplC2ENSt3__110shared_ptrINS_24ExfiltrationServiceProxyEEERKNS3_INS_20ExfiltrationInitDataEEE
++ __ZN3acs15ExfiltratorImplC1ENSt3__110shared_ptrINS_24ExfiltrationServiceProxyEEENS2_INS_20ExfiltrationInitDataEEE
++ __ZN3acs15ExfiltratorImplC2ENSt3__110shared_ptrINS_24ExfiltrationServiceProxyEEENS2_INS_20ExfiltrationInitDataEEE
++ __ZN3acs28ExfiltrationServiceProxyImplC1ERKNSt3__110shared_ptrINS_20ExfiltrationInitDataEEE
++ __ZN3acs28ExfiltrationServiceProxyImplC2ERKNSt3__110shared_ptrINS_20ExfiltrationInitDataEEE
++ __ZN3acs7Liaison4ImplC2ENSt3__110shared_ptrIN3shm12SharedMemoryEEENS3_INS_20ExfiltrationInitDataEEE
++ __ZN3acs7LiaisonC1ENSt3__110shared_ptrIN3shm12SharedMemoryEEENS2_INS_20ExfiltrationInitDataEEE
++ __ZN3acs7LiaisonC2ENSt3__110shared_ptrIN3shm12SharedMemoryEEENS2_INS_20ExfiltrationInitDataEEE
++ __ZN3shm15GetSegMaxOffsetEP24sharedmemory_segaccess_s
++ __ZNSt3__111make_uniqueB8fe180100IN3acs14ControllerImpl4ImplEJNS_10shared_ptrIN3shm12SharedMemoryEEENS4_INS1_20ExfiltrationInitDataEEEEEENS_11__unique_ifIT_E15__unique_singleEDpOT0_
++ __ZNSt3__111make_uniqueB8fe180100IN3acs14ControllerImplEJNS_10shared_ptrIN3shm12SharedMemoryEEERNS3_INS1_20ExfiltrationInitDataEEEEEENS_11__unique_ifIT_E15__unique_singleEDpOT0_
++ __ZNSt3__111make_uniqueB8fe180100IN3acs7Liaison4ImplEJNS_10shared_ptrIN3shm12SharedMemoryEEERNS4_INS1_20ExfiltrationInitDataEEEEEENS_11__unique_ifIT_E15__unique_singleEDpOT0_
++ __ZNSt3__112construct_atB8fe180100IN3acs15ExfiltratorImplEJRNS_10shared_ptrINS1_28ExfiltrationServiceProxyImplEEERNS3_INS1_20ExfiltrationInitDataEEEEPS2_EEPT_SC_DpOT0_
++ __ZNSt3__112construct_atB8fe180100IN3acs7LiaisonEJRNS_10shared_ptrIN3shm16SharedMemoryImplEEERNS3_INS1_20ExfiltrationInitDataEEEEPS2_EEPT_SD_DpOT0_
++ __ZNSt3__115allocate_sharedB8fe180100IN3acs15ExfiltratorImplENS_9allocatorIS2_EEJRNS_10shared_ptrINS1_28ExfiltrationServiceProxyImplEEERNS5_INS1_20ExfiltrationInitDataEEEEvEENS5_IT_EERKT0_DpOT1_
++ __ZNSt3__115allocate_sharedB8fe180100IN3acs28ExfiltrationServiceProxyImplENS_9allocatorIS2_EEJRNS_10shared_ptrINS1_20ExfiltrationInitDataEEEEvEENS5_IT_EERKT0_DpOT1_
++ __ZNSt3__115allocate_sharedB8fe180100IN3acs7LiaisonENS_9allocatorIS2_EEJRNS_10shared_ptrIN3shm16SharedMemoryImplEEERNS5_INS1_20ExfiltrationInitDataEEEEvEENS5_IT_EERKT0_DpOT1_
++ __ZNSt3__116__variant_detail12__visitation6__base12__dispatcherIJLm0EEE10__dispatchB8fe180100IONS1_9__variant15__value_visitorI10overloadedIJZNK3shm16SharedMemoryImpl10MakeReaderERKNS_8optionalINS9_11MemoryRangeEEEE3$_0ZNKSA_10MakeReaderESF_E3$_1EEEEJRNS0_6__baseILNS0_6_TraitE0EJP13sharedmem_mapP16sharedmem_segmapEEEEEEDcT_DpT0_
++ __ZNSt3__116__variant_detail12__visitation6__base12__dispatcherIJLm0EEE10__dispatchB8fe180100IONS1_9__variant15__value_visitorI10overloadedIJZNK3shm16SharedMemoryImpl10MakeWriterERKNS_8optionalINS9_11MemoryRangeEEEE3$_0ZNKSA_10MakeWriterESF_E3$_1EEEEJRNS0_6__baseILNS0_6_TraitE0EJP13sharedmem_mapP16sharedmem_segmapEEEEEEDcT_DpT0_
++ __ZNSt3__116__variant_detail12__visitation6__base12__dispatcherIJLm0EEE10__dispatchB8fe180100IONS1_9__variant15__value_visitorIZZN3shm16SharedMemoryImpl4ImplD1EvENK3$_0clEvEUlOT_E_EEJRNS0_6__baseILNS0_6_TraitE0EJP13sharedmem_mapP16sharedmem_segmapEEEEEEDcSC_DpT0_
++ __ZNSt3__116__variant_detail12__visitation6__base12__dispatcherIJLm1EEE10__dispatchB8fe180100IONS1_9__variant15__value_visitorI10overloadedIJZNK3shm16SharedMemoryImpl10MakeReaderERKNS_8optionalINS9_11MemoryRangeEEEE3$_0ZNKSA_10MakeReaderESF_E3$_1EEEEJRNS0_6__baseILNS0_6_TraitE0EJP13sharedmem_mapP16sharedmem_segmapEEEEEEDcT_DpT0_
++ __ZNSt3__116__variant_detail12__visitation6__base12__dispatcherIJLm1EEE10__dispatchB8fe180100IONS1_9__variant15__value_visitorI10overloadedIJZNK3shm16SharedMemoryImpl10MakeWriterERKNS_8optionalINS9_11MemoryRangeEEEE3$_0ZNKSA_10MakeWriterESF_E3$_1EEEEJRNS0_6__baseILNS0_6_TraitE0EJP13sharedmem_mapP16sharedmem_segmapEEEEEEDcT_DpT0_
++ __ZNSt3__116__variant_detail12__visitation6__base12__dispatcherIJLm1EEE10__dispatchB8fe180100IONS1_9__variant15__value_visitorIZZN3shm16SharedMemoryImpl4ImplD1EvENK3$_0clEvEUlOT_E_EEJRNS0_6__baseILNS0_6_TraitE0EJP13sharedmem_mapP16sharedmem_segmapEEEEEEDcSC_DpT0_
++ __ZNSt3__120__shared_ptr_emplaceIN3acs15ExfiltratorImplENS_9allocatorIS2_EEEC2B8fe180100IJRNS_10shared_ptrINS1_28ExfiltrationServiceProxyImplEEERNS7_INS1_20ExfiltrationInitDataEEEES4_Li0EEES4_DpOT_
++ __ZNSt3__120__shared_ptr_emplaceIN3acs20ExfiltrationInitDataENS_9allocatorIS2_EEE16__on_zero_sharedEv
++ __ZNSt3__120__shared_ptr_emplaceIN3acs20ExfiltrationInitDataENS_9allocatorIS2_EEE21__on_zero_shared_weakEv
++ __ZNSt3__120__shared_ptr_emplaceIN3acs20ExfiltrationInitDataENS_9allocatorIS2_EEED0Ev
++ __ZNSt3__120__shared_ptr_emplaceIN3acs20ExfiltrationInitDataENS_9allocatorIS2_EEED1Ev
++ __ZNSt3__120__shared_ptr_emplaceIN3acs28ExfiltrationServiceProxyImplENS_9allocatorIS2_EEEC2B8fe180100IJRNS_10shared_ptrINS1_20ExfiltrationInitDataEEEES4_Li0EEES4_DpOT_
++ __ZNSt3__120__shared_ptr_emplaceIN3acs7LiaisonENS_9allocatorIS2_EEEC2B8fe180100IJRNS_10shared_ptrIN3shm16SharedMemoryImplEEERNS7_INS1_20ExfiltrationInitDataEEEES4_Li0EEES4_DpOT_
++ __ZNSt3__16__treeINS_12__value_typeIyN3acs20ExclaveKitClientImpl4Impl17RegistrationStageEEENS_19__map_value_compareIyS6_NS_4lessIyEELb1EEENS_9allocatorIS6_EEE25__emplace_unique_key_argsIyJRKyS5_EEENS_4pairINS_15__tree_iteratorIS6_PNS_11__tree_nodeIS6_PvEElEEbEERKT_DpOT0_
++ __ZTINSt3__120__shared_ptr_emplaceIN3acs20ExfiltrationInitDataENS_9allocatorIS2_EEEE
++ __ZTSNSt3__120__shared_ptr_emplaceIN3acs20ExfiltrationInitDataENS_9allocatorIS2_EEEE
++ __ZTVNSt3__120__shared_ptr_emplaceIN3acs20ExfiltrationInitDataENS_9allocatorIS2_EEEE
++ ___ZN12_GLOBAL__N_113CreateHandlerENSt3__110shared_ptrIN3acs7LiaisonEEE_block_invoke.35
++ ___ZN12_GLOBAL__N_113CreateHandlerENSt3__110shared_ptrIN3acs7LiaisonEEE_block_invoke.42
++ ___ZN12_GLOBAL__N_113CreateHandlerENSt3__110shared_ptrIN3acs7LiaisonEEE_block_invoke.47
++ ___ZN12_GLOBAL__N_113CreateHandlerENSt3__110shared_ptrIN3acs7LiaisonEEE_block_invoke.52
++ ___ZN12_GLOBAL__N_113CreateHandlerENSt3__110shared_ptrIN3acs7LiaisonEEE_block_invoke.57
++ ___ZN12_GLOBAL__N_113CreateHandlerENSt3__110shared_ptrIN3acs7LiaisonEEE_block_invoke.62
++ ___ZN12_GLOBAL__N_113CreateHandlerENSt3__110shared_ptrIN3acs7LiaisonEEE_block_invoke.67
++ ___ZN12_GLOBAL__N_113CreateHandlerENSt3__110shared_ptrIN3acs7LiaisonEEE_block_invoke.72
++ ___ZN12_GLOBAL__N_113CreateHandlerENSt3__110shared_ptrIN3acs7LiaisonEEE_block_invoke.77
++ ___ZN12_GLOBAL__N_113CreateHandlerENSt3__110shared_ptrIN3acs7LiaisonEEE_block_invoke.82
++ ___ZN12_GLOBAL__N_113CreateHandlerENSt3__110shared_ptrIN3acs7LiaisonEEE_block_invoke.87
++ ___ZN12_GLOBAL__N_113CreateHandlerENSt3__110shared_ptrIN3acs7LiaisonEEE_block_invoke.92
++ ___ZN12_GLOBAL__N_113CreateHandlerENSt3__110shared_ptrIN3acs7LiaisonEEE_block_invoke.97
++ ____ZN12_GLOBAL__N_110InitializeEPK24sharedmemory_segaccess_sPK44debugexfiltration_debugexfiltrationservice_sS2__block_invoke
++ ___dbg_exfiltration_new_write_only_channel_with_segment_block_invoke
++ ___set_tightbeam_sym_audiocaptureservercomponent_audiocaptureservernode_init__sharedmemorysegment_exfilservice_exfilsegment_vtable
++ __block_descriptor_tmp.100
++ __block_descriptor_tmp.102
++ __block_descriptor_tmp.14
++ __block_descriptor_tmp.206
++ __block_descriptor_tmp.210
++ __block_descriptor_tmp.213
++ __block_descriptor_tmp.215
++ __block_descriptor_tmp.218
++ __block_descriptor_tmp.221
++ __block_descriptor_tmp.31
++ __block_descriptor_tmp.37
++ __block_descriptor_tmp.41
++ __block_descriptor_tmp.46
++ __block_descriptor_tmp.61
++ __block_descriptor_tmp.66
++ __block_descriptor_tmp.71
++ __block_descriptor_tmp.76
++ __block_descriptor_tmp.81
++ __block_descriptor_tmp.86
++ __block_descriptor_tmp.91
++ __block_descriptor_tmp.96
++ __block_literal_global.33
++ __block_literal_global.39
++ __captureaudiotypes_audiobuffer__v_encode_block_invoke.214
++ __channels_dict
++ __f32__v_encode_block_invoke.219
++ _audiocaptureservercomponent_audiocaptureservernode__init_sharedmemorysegment_exfilservice_exfilsegment
++ _audiocaptureservercomponent_audiocaptureservernode_init__sharedmemorysegment_exfilservice_exfilsegment_vtable
++ _dbg_exfiltration_new_write_only_channel_with_segment
++ _debugexfiltration_debugexfiltrationservice_newchannelwriteonlywithshmemid
++ _initAudioCaptureServerComponentAudioCaptureServerNodeInitSharedmemorysegmentExfilserviceExfilsegment
++ _sharedmem_segaccess_parameters
++ _sharedmem_segmap_getMappedRegion
++ _sharedmem_segmap_mapRange
++ _sharedmem_segmap_unmapRange
++ _sharedmem_segparameters_getMaxOffset
++ _sharedmem_segparameters_getShmemID
++ _sharedmemory_segaccess__init
++ _tb_endpoint_set_interface_identifier
++ _tb_message_configure_received
+- GCC_except_table28
+- GCC_except_table49
+- GCC_except_table50
+- GCC_except_table56
+- GCC_except_table62
+- GCC_except_table63
+- GCC_except_table64
+- GCC_except_table69
+- GCC_except_table75
+- GCC_except_table77
+- GCC_except_table82
+- __ZL8snprintfPcU25pass_dynamic_object_size1mPKcz
+- __ZN12_GLOBAL__N_110InitializeEPK24sharedmemory_segaccess_sPK44debugexfiltration_debugexfiltrationservice_s
+- __ZN12_GLOBAL__N_114kMemoryRangeV2E
+- __ZN2ad12checked_spanIKSt4byteEC2IPS2_EET_m
+- __ZN3acs14ControllerImpl4ImplC2ENSt3__110shared_ptrIN3shm12SharedMemoryEEEPK44debugexfiltration_debugexfiltrationservice_s
+- __ZN3acs14ControllerImplC1ENSt3__110shared_ptrIN3shm12SharedMemoryEEEPK44debugexfiltration_debugexfiltrationservice_s
+- __ZN3acs14ControllerImplC2ENSt3__110shared_ptrIN3shm12SharedMemoryEEEPK44debugexfiltration_debugexfiltrationservice_s
+- __ZN3acs15ExfiltratorImpl4ImplC2ENSt3__110shared_ptrINS_24ExfiltrationServiceProxyEEEPK44debugexfiltration_debugexfiltrationservice_s
+- __ZN3acs15ExfiltratorImplC1ENSt3__110shared_ptrINS_24ExfiltrationServiceProxyEEEPK44debugexfiltration_debugexfiltrationservice_s
+- __ZN3acs15ExfiltratorImplC2ENSt3__110shared_ptrINS_24ExfiltrationServiceProxyEEEPK44debugexfiltration_debugexfiltrationservice_s
+- __ZN3acs7Liaison4ImplC2ENSt3__110shared_ptrIN3shm12SharedMemoryEEEPK44debugexfiltration_debugexfiltrationservice_s
+- __ZN3acs7LiaisonC1ENSt3__110shared_ptrIN3shm12SharedMemoryEEEPK44debugexfiltration_debugexfiltrationservice_s
+- __ZN3acs7LiaisonC2ENSt3__110shared_ptrIN3shm12SharedMemoryEEEPK44debugexfiltration_debugexfiltrationservice_s
+- __ZNSt3__112construct_atB8fe180100IN3acs15ExfiltratorImplEJRNS_10shared_ptrINS1_28ExfiltrationServiceProxyImplEEERPK44debugexfiltration_debugexfiltrationservice_sEPS2_EEPT_SD_DpOT0_
+- __ZNSt3__112construct_atB8fe180100IN3acs7LiaisonEJRNS_10shared_ptrIN3shm16SharedMemoryImplEEERPK44debugexfiltration_debugexfiltrationservice_sEPS2_EEPT_SE_DpOT0_
+- __ZNSt3__115allocate_sharedB8fe180100IN3acs15ExfiltratorImplENS_9allocatorIS2_EEJRNS_10shared_ptrINS1_28ExfiltrationServiceProxyImplEEERPK44debugexfiltration_debugexfiltrationservice_sEvEENS5_IT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB8fe180100IN3acs7LiaisonENS_9allocatorIS2_EEJRNS_10shared_ptrIN3shm16SharedMemoryImplEEERPK44debugexfiltration_debugexfiltrationservice_sEvEENS5_IT_EERKT0_DpOT1_
+- __ZNSt3__120__shared_ptr_emplaceIN3acs15ExfiltratorImplENS_9allocatorIS2_EEEC2B8fe180100IJRNS_10shared_ptrINS1_28ExfiltrationServiceProxyImplEEERPK44debugexfiltration_debugexfiltrationservice_sES4_Li0EEES4_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIN3acs7LiaisonENS_9allocatorIS2_EEEC2B8fe180100IJRNS_10shared_ptrIN3shm16SharedMemoryImplEEERPK44debugexfiltration_debugexfiltrationservice_sES4_Li0EEES4_DpOT_
+- __ZNSt3__16__treeINS_12__value_typeIyN3acs20ExclaveKitClientImpl4Impl17RegistrationStageEEENS_19__map_value_compareIyS6_NS_4lessIyEELb1EEENS_9allocatorIS6_EEE25__emplace_unique_key_argsIyJNS_4pairIKyS5_EEEEENSF_INS_15__tree_iteratorIS6_PNS_11__tree_nodeIS6_PvEElEEbEERKT_DpOT0_
+- ___ZN12_GLOBAL__N_113CreateHandlerENSt3__110shared_ptrIN3acs7LiaisonEEE_block_invoke.34
+- ___ZN12_GLOBAL__N_113CreateHandlerENSt3__110shared_ptrIN3acs7LiaisonEEE_block_invoke.41
+- ___ZN12_GLOBAL__N_113CreateHandlerENSt3__110shared_ptrIN3acs7LiaisonEEE_block_invoke.46
+- ___ZN12_GLOBAL__N_113CreateHandlerENSt3__110shared_ptrIN3acs7LiaisonEEE_block_invoke.51
+- ___ZN12_GLOBAL__N_113CreateHandlerENSt3__110shared_ptrIN3acs7LiaisonEEE_block_invoke.56
+- ___ZN12_GLOBAL__N_113CreateHandlerENSt3__110shared_ptrIN3acs7LiaisonEEE_block_invoke.61
+- ___ZN12_GLOBAL__N_113CreateHandlerENSt3__110shared_ptrIN3acs7LiaisonEEE_block_invoke.66
+- ___ZN12_GLOBAL__N_113CreateHandlerENSt3__110shared_ptrIN3acs7LiaisonEEE_block_invoke.71
+- ___ZN12_GLOBAL__N_113CreateHandlerENSt3__110shared_ptrIN3acs7LiaisonEEE_block_invoke.76
+- ___ZN12_GLOBAL__N_113CreateHandlerENSt3__110shared_ptrIN3acs7LiaisonEEE_block_invoke.81
+- ___ZN12_GLOBAL__N_113CreateHandlerENSt3__110shared_ptrIN3acs7LiaisonEEE_block_invoke.86
+- ___ZN12_GLOBAL__N_113CreateHandlerENSt3__110shared_ptrIN3acs7LiaisonEEE_block_invoke.91
+- ___ZN12_GLOBAL__N_113CreateHandlerENSt3__110shared_ptrIN3acs7LiaisonEEE_block_invoke.96
+- ____ZN12_GLOBAL__N_110InitializeEPK24sharedmemory_segaccess_sPK44debugexfiltration_debugexfiltrationservice_s_block_invoke
+- ___dbg_exfiltration_new_write_only_channel_block_invoke
+- ___vsnprintf_chk
+- __block_descriptor_tmp.15
+- __block_descriptor_tmp.205
+- __block_descriptor_tmp.209
+- __block_descriptor_tmp.212
+- __block_descriptor_tmp.214
+- __block_descriptor_tmp.217
+- __block_descriptor_tmp.219
+- __block_descriptor_tmp.30
+- __block_descriptor_tmp.36
+- __block_descriptor_tmp.40
+- __block_descriptor_tmp.45
+- __block_descriptor_tmp.50
+- __block_descriptor_tmp.55
+- __block_descriptor_tmp.60
+- __block_descriptor_tmp.65
+- __block_descriptor_tmp.70
+- __block_descriptor_tmp.75
+- __block_descriptor_tmp.80
+- __block_descriptor_tmp.90
+- __block_descriptor_tmp.95
+- __block_descriptor_tmp.99
+- __block_literal_global.32
+- __block_literal_global.38
+- __captureaudiotypes_audiobuffer__v_encode_block_invoke.213
+- __f32__v_encode_block_invoke.218
+- __recv_endpoint
+- _channels_dict
+- _cl4_error_name
+- _dbg_exfiltration_close_channel_legacy
+- _dbg_exfiltration_data_legacy
+- _dbg_exfiltration_init_legacy
+- _dbg_exfiltration_init_with_ep
+- _dbg_exfiltration_new_channel_legacy
+- _dbgexclave_message_call
+- _dbgexclave_message_decode
+- _dbgexclave_message_encode
+- _debugexfiltration_debugexfiltrationservice_newchannelwriteonly
+- _fprintf
+- _fputc
+- _s_is_legacy
+- _stderr
+- _tb_message_configure_recieved
+- _vas_slot_alloc
+- _vfprintf
+- _xrt__endpoint_call
+- _xrt__log_format
+- _xrt__panic
+- _xrt_endpoint_src_slot
+- _xrt_ipcb_get_mr
+- _xrt_ipcb_msg_copyin_offset
+- _xrt_ipcb_msg_copyout_offset
+- _xrt_ipcb_set_mr
+- _xrt_ipcb_set_src_cr
+- _xrt_ipcb_tag
+- _xrt_ipcb_tag_cr_transferred
+- _xrt_ipcb_tag_mrs
+- _xrt_process_panicv
+- _xrt_thread_self
+- dbg_exfiltration_close_channel_legacy.cold.1
+- dbg_exfiltration_data_legacy.cold.1
+- dbg_exfiltration_new_channel_legacy.cold.1
+- dbgexclave_message_encode.cold.1
+CStrings:
++ "$JgAudioCaptureServerComponent.AudioCaptureServerNode.init(sharedMemorySegment:exfilService:exfilSegment:)"
++ "%!s(MISSING):%!d(MISSING) Initializing AudioCaptureServerComponent with SharedMemory segment, Exfiltration service and Exfiltration segment"
++ "%!s(MISSING):%!d(MISSING) UNREACHABLE CODE FAILURE: Invalid or unhandled registration stage received on roundtrip for ClientIndentifier %!l(MISSING)lu: %!d(MISSING)."
++ "%!s(MISSING):%!d(MISSING) Unexpected registration stage received on roundtrip for client identifier %!l(MISSING)lu: %!d(MISSING)."
++ "PRECONDITION FAILURE: [exfilInitData != nullptr] is false"
++ "PRECONDITION FAILURE: [mExfilInitData != nullptr] is false"
++ "PRECONDITION FAILURE: [mImpl->mProxy->getPermissions(map) == SHAREDMEMORY_PERMISSIONS_READONLY] is false"
++ "PRECONDITION FAILURE: [mImpl->mProxy->getPermissions(map) == SHAREDMEMORY_PERMISSIONS_READWRITE] is false"
++ "PRECONDITION FAILURE: [mImpl->mProxy->getPermissions(map) == SHAREDMEM_PERMISSIONS_READONLY] is false"
++ "PRECONDITION FAILURE: [mImpl->mProxy->getPermissions(map) == SHAREDMEM_PERMISSIONS_READWRITE] is false"
++ "RUNTIME FAILURE: [emplaced] is false"
++ "[EXFIL LIB] Failed to create map for sharedmem segment for channel %!s(MISSING)\n"
++ "[EXFIL LIB] Failed to get mapped sharedmem region"
++ "[EXFIL LIB] Failed to map sharedmem range: %!s(MISSING)\n"
++ "[EXFIL LIB] Failed to unmap sharedmem range: %!s(MISSING)\n"
++ "[EXFIL LIB] Legacy exfiltration channel API is not supported!"
+- "%!s(MISSING):%!d(MISSING) Unexpected registration stage received on roundtrip for ClientIndentifier %!l(MISSING)lu: %!d(MISSING)."
+- "%!s(MISSING)(%!z(MISSING)u): "
+- "/Library/Caches/com.apple.xbs/Sources/DebugExclave_exclavekit/debug/dbgexclave_message.c"
+- "/Library/Caches/com.apple.xbs/Sources/DebugExclave_exclavekit/debug/dbgtools/dbgexfiltration_legacy.c"
+- "L4_ErrorCode#%!z(MISSING)u"
+- "PRECONDITION FAILURE: [mImpl->mProxy->getPermissions(std::get<shm::v1::map*>(mImpl->mMap)) == SHAREDMEMORY_PERMISSIONS_READONLY] is false"
+- "PRECONDITION FAILURE: [mImpl->mProxy->getPermissions(std::get<shm::v1::map*>(mImpl->mMap)) == SHAREDMEMORY_PERMISSIONS_READWRITE] is false"
+- "PRECONDITION FAILURE: [mImpl->mProxy->getPermissions(std::get<shm::v2::map*>(mImpl->mMap)) == SHAREDMEM_PERMISSIONS_READONLY] is false"
+- "PRECONDITION FAILURE: [mImpl->mProxy->getPermissions(std::get<shm::v2::map*>(mImpl->mMap)) == SHAREDMEM_PERMISSIONS_READWRITE] is false"
+- "RUNTIME FAILURE: [insertResult.second == true] is false"
+- "Unexpected L4_Error: %!s(MISSING)(%!z(MISSING)u) err='L4_Cap_Move(message->cap, src)'"
+- "Unexpected L4_Error: %!s(MISSING)(%!z(MISSING)u) err='dbgexclave_message_call( _recv_endpoint.ep_cap, &request, &response )'"
+- "Unexpected L4_Error: %!s(MISSING)(%!z(MISSING)u) err='dbgexclave_message_call( _recv_endpoint.ep_cap, &request, ((void *)0) )'"
+- "[%!s(MISSING)] (%!s(MISSING)[%!d(MISSING)]: %!s(MISSING)): "
+- "[EXFIL LIB] dbgexfiltration shmap map: failed to get test mapper"
+- "[EXFIL LIB] dbgexfiltration shmap map: getmapper failed"
+- "[EXFIL LIB] dbgexfiltration shmap map: sharedmem_map_create() of read-write segment should succeed (%!d(MISSING))"
+- "dbg_exfiltration_close_channel_legacy"
+- "dbg_exfiltration_data_legacy"
+- "dbg_exfiltration_new_channel_legacy"
+- "dbgexclave_message_encode"
+- "dbgexfiltration shmap map: new memId %!u(MISSING)\n"
+- "xrt"
+
+```

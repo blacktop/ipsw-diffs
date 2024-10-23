@@ -1,0 +1,465 @@
+## AudioDSPControllerComponent
+
+> `/System/ExclaveKit/System/Library/PrivateFrameworks/AudioDSPControllerComponent.framework/AudioDSPControllerComponent`
+
+```diff
+
+-139.106.0.0.0
+-  __TEXT.__text: 0x5180
+-  __TEXT.__auth_stubs: 0x290
+-  __TEXT.__const: 0x1c0
+-  __TEXT.__cstring: 0x1ab1
+-  __TEXT.__gcc_except_tab: 0x5c
+-  __TEXT.__oslogstring: 0x753
+-  __TEXT.__unwind_info: 0x178
+-  __DATA.__auth_got: 0x150
+-  __DATA.__got: 0x10
+-  __DATA.__const: 0x518
+-  __DATA.__data: 0x100
++139.324.0.0.0
++  __TEXT.__text: 0x88f4
++  __TEXT.__auth_stubs: 0x310
++  __TEXT.__const: 0x1a0
++  __TEXT.__oslogstring: 0x74b
++  __TEXT.__gcc_except_tab: 0x1e0
++  __TEXT.__cstring: 0x1fe9
++  __TEXT.__unwind_info: 0x2c0
++  __DATA.__auth_got: 0x190
++  __DATA.__got: 0x38
++  __DATA.__const: 0x838
++  __DATA.__data: 0xf8
+   __DATA.__TIGHTBEAM: 0x10
+-  __DATA.__bss: 0x70
++  __DATA.__bss: 0x10
+   - /System/ExclaveKit/System/Library/Frameworks/SharedMemory.framework/SharedMemory
+   - /System/ExclaveKit/System/Library/PrivateFrameworks/Tightbeam.framework/Tightbeam
+   - /System/ExclaveKit/usr/lib/libSystem.dylib
+   - /System/ExclaveKit/usr/lib/libc++.dylib
+   - /System/ExclaveKit/usr/lib/libobjc.A.dylib
+-  Functions: 112
+-  Symbols:   228
+-  CStrings:  99
++  Functions: 248
++  Symbols:   425
++  CStrings:  116
+ 
+Symbols:
++ GCC_except_table0
++ GCC_except_table11
++ GCC_except_table13
++ GCC_except_table15
++ GCC_except_table17
++ GCC_except_table18
++ GCC_except_table21
++ GCC_except_table24
++ GCC_except_table30
++ GCC_except_table31
++ GCC_except_table40
++ GCC_except_table41
++ GCC_except_table5
++ GCC_except_table6
++ GCC_except_table8
++ __Block_byref_object_copy_.1
++ __Block_byref_object_copy_.3
++ __Block_byref_object_copy_.5
++ __Block_byref_object_dispose_.2
++ __Block_byref_object_dispose_.4
++ __Block_byref_object_dispose_.6
++ __ZN3adm8exclaves17parameter_command16ParameterCommand12getParameterE29audiodsputility_parameterid_s
++ __ZN3adm8exclaves17parameter_command16ParameterCommand12setParameterE29audiodsputility_parameterid_s32audiodsputility_parametervalue_s
++ __ZN3adm8exclaves17parameter_command16ParameterCommand14chainParameterENSt3__110shared_ptrIS2_EE
++ __ZN3adm8exclaves17parameter_command16ParameterCommand15handleParameterE29audiodsputility_parameterid_sNSt3__18optionalI32audiodsputility_parametervalue_sEE
++ __ZN3adm8exclaves17parameter_command16ParameterCommandC1ENS2_13ParameterTypeE29audiodsputility_parameterid_sPK28audiodspprocessor_audiodsp_s
++ __ZN3adm8exclaves17parameter_command16ParameterCommandC2ENS2_13ParameterTypeE29audiodsputility_parameterid_sPK28audiodspprocessor_audiodsp_s
++ __ZN3adm8exclaves17parameter_command16ParameterCommandD0Ev
++ __ZN3adm8exclaves17parameter_command16ParameterCommandD1Ev
++ __ZN3adm8exclaves17parameter_command25AnomalyDetectionParameter15handleParameterE29audiodsputility_parameterid_sNSt3__18optionalI32audiodsputility_parametervalue_sEE
++ __ZN3adm8exclaves17parameter_command25AnomalyDetectionParameterC1ENS1_16ParameterCommand13ParameterTypeE29audiodsputility_parameterid_sPK28audiodspprocessor_audiodsp_s
++ __ZN3adm8exclaves17parameter_command25AnomalyDetectionParameterD0Ev
++ __ZN3adm8exclaves17parameter_command25AnomalyDetectionParameterD1Ev
++ __ZN3adm8exclaves29controller_exclavekit_context27ControllerExclaveKitContext12getParameterEPK29audiodsputility_parameterid_sP57audiodspcontroller_audiodspcontrol_getparameter__result_s
++ __ZN3adm8exclaves29controller_exclavekit_context27ControllerExclaveKitContext12prepareForIOEjPK33audiodsptypes_streamdescription_sS5_S5_PK31audiodsputility_micreflatency_sPK27audiodsputility_inputport_sPK28audiodsputility_outputport_sP57audiodspcontroller_audiodspcontrol_prepareforio__result_s
++ __ZN3adm8exclaves29controller_exclavekit_context27ControllerExclaveKitContext12setParameterEPK29audiodsputility_parameterid_sPK32audiodsputility_parametervalue_sP57audiodspcontroller_audiodspcontrol_setparameter__result_s
++ __ZN3adm8exclaves29controller_exclavekit_context27ControllerExclaveKitContext9performIOEP54audiodspcontroller_audiodspcontrol_performio__result_s
++ __ZN3adm8exclaves29controller_exclavekit_context27ControllerExclaveKitContextD2Ev
++ __ZN3adm8exclaves7utility10convert_toI25audiodsptypes_timestamp_sN2CA9TimeStampEJEEET_RKT0_DpOT1_
++ __ZN3adm8exclaves7utility10convert_toINSt3__18optionalI32audiodsputility_parametervalue_sEENS0_11ParameterIDEJfEEET_T0_DpT1_
++ __ZN3adm8exclaves7utility10convert_toINSt3__18optionalINS0_11ParameterIDEEE29audiodsputility_parameterid_sJEEET_RKT0_DpOT1_
++ __ZN3adm8exclaves7utility10convert_toINSt3__18optionalIfEE32audiodsputility_parametervalue_sJEEET_RKT0_DpOT1_
++ __ZN3adm8exclaves7utility10convert_toIPKc28audiodsputility_setuperror_sJEEET_RKT0_DpOT1_
++ __ZN3adm8exclaves7utility10convert_toIPKc30audiodsputility_processerror_sJEEET_RKT0_DpOT1_
++ __ZN3adm8exclaves7utility25validateStreamDescriptionEPK33audiodsptypes_streamdescription_s
++ __ZN5caulk19bad_expected_accessI32audiodsputility_parametererror_sED0Ev
++ __ZN5caulk19bad_expected_accessI32audiodsputility_parametererror_sED1Ev
++ __ZNK5caulk19bad_expected_accessI32audiodsputility_parametererror_sE4whatEv
++ __ZNKR5caulk8expectedINSt3__18optionalI32audiodsputility_parametervalue_sEE32audiodsputility_parametererror_sE5valueEv
++ __ZNKSt3__110__function6__funcIZN3adm8exclaves29controller_exclavekit_context27ControllerExclaveKitContext12prepareForIOEjPK33audiodsptypes_streamdescription_sS8_S8_PK31audiodsputility_micreflatency_sPK27audiodsputility_inputport_sPK28audiodsputility_outputport_sP57audiodspcontroller_audiodspcontrol_prepareforio__result_sE3$_0NS_9allocatorISK_EEFvvEE7__cloneEPNS0_6__baseISN_EE
++ __ZNKSt3__110__function6__funcIZN3adm8exclaves29controller_exclavekit_context27ControllerExclaveKitContext12prepareForIOEjPK33audiodsptypes_streamdescription_sS8_S8_PK31audiodsputility_micreflatency_sPK27audiodsputility_inputport_sPK28audiodsputility_outputport_sP57audiodspcontroller_audiodspcontrol_prepareforio__result_sE3$_0NS_9allocatorISK_EEFvvEE7__cloneEv
++ __ZNKSt3__119__shared_weak_count13__get_deleterERKSt9type_info
++ __ZNKSt3__16vectorINS_8functionIFvvEEENS_9allocatorIS3_EEE20__throw_length_errorB8fe180100Ev
++ __ZNKSt9exception4whatEv
++ __ZNR5caulk8expectedI32audiodsputility_parametervalue_s32audiodsputility_parametererror_sE5valueEv
++ __ZNR5caulk8expectedINSt3__18optionalI32audiodsputility_parametervalue_sEE32audiodsputility_parametererror_sE5valueEv
++ __ZNSt11logic_errorC2EPKc
++ __ZNSt12length_errorC1B8fe180100EPKc
++ __ZNSt12length_errorD1Ev
++ __ZNSt19bad_optional_accessD1Ev
++ __ZNSt20bad_array_new_lengthC1Ev
++ __ZNSt20bad_array_new_lengthD1Ev
++ __ZNSt3__110__function12__value_funcIFvvEEC2B8fe180100EOS3_
++ __ZNSt3__110__function12__value_funcIFvvEED2B8fe180100Ev
++ __ZNSt3__110__function6__funcIZN3adm8exclaves29controller_exclavekit_context27ControllerExclaveKitContext12prepareForIOEjPK33audiodsptypes_streamdescription_sS8_S8_PK31audiodsputility_micreflatency_sPK27audiodsputility_inputport_sPK28audiodsputility_outputport_sP57audiodspcontroller_audiodspcontrol_prepareforio__result_sE3$_0NS_9allocatorISK_EEFvvEE18destroy_deallocateEv
++ __ZNSt3__110__function6__funcIZN3adm8exclaves29controller_exclavekit_context27ControllerExclaveKitContext12prepareForIOEjPK33audiodsptypes_streamdescription_sS8_S8_PK31audiodsputility_micreflatency_sPK27audiodsputility_inputport_sPK28audiodsputility_outputport_sP57audiodspcontroller_audiodspcontrol_prepareforio__result_sE3$_0NS_9allocatorISK_EEFvvEE7destroyEv
++ __ZNSt3__110__function6__funcIZN3adm8exclaves29controller_exclavekit_context27ControllerExclaveKitContext12prepareForIOEjPK33audiodsptypes_streamdescription_sS8_S8_PK31audiodsputility_micreflatency_sPK27audiodsputility_inputport_sPK28audiodsputility_outputport_sP57audiodspcontroller_audiodspcontrol_prepareforio__result_sE3$_0NS_9allocatorISK_EEFvvEED0Ev
++ __ZNSt3__110__function6__funcIZN3adm8exclaves29controller_exclavekit_context27ControllerExclaveKitContext12prepareForIOEjPK33audiodsptypes_streamdescription_sS8_S8_PK31audiodsputility_micreflatency_sPK27audiodsputility_inputport_sPK28audiodsputility_outputport_sP57audiodspcontroller_audiodspcontrol_prepareforio__result_sE3$_0NS_9allocatorISK_EEFvvEED1Ev
++ __ZNSt3__110__function6__funcIZN3adm8exclaves29controller_exclavekit_context27ControllerExclaveKitContext12prepareForIOEjPK33audiodsptypes_streamdescription_sS8_S8_PK31audiodsputility_micreflatency_sPK27audiodsputility_inputport_sPK28audiodsputility_outputport_sP57audiodspcontroller_audiodspcontrol_prepareforio__result_sE3$_0NS_9allocatorISK_EEFvvEEclEv
++ __ZNSt3__114__split_bufferINS_8functionIFvvEEERNS_9allocatorIS3_EEED2Ev
++ __ZNSt3__115allocate_sharedB8fe180100IN3adm8exclaves17parameter_command16ParameterCommandENS_9allocatorIS4_EEJNS4_13ParameterTypeERK29audiodsputility_parameterid_sP28audiodspprocessor_audiodsp_sEvEENS_10shared_ptrIT_EERKT0_DpOT1_
++ __ZNSt3__115allocate_sharedB8fe180100IN3adm8exclaves17parameter_command25AnomalyDetectionParameterENS_9allocatorIS4_EEJNS3_16ParameterCommand13ParameterTypeERK29audiodsputility_parameterid_sP28audiodspprocessor_audiodsp_sEvEENS_10shared_ptrIT_EERKT0_DpOT1_
++ __ZNSt3__117bad_function_callD0Ev
++ __ZNSt3__117bad_function_callD1Ev
++ __ZNSt3__119__allocate_at_leastB8fe180100INS_9allocatorINS_8functionIFvvEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS8_m
++ __ZNSt3__119__shared_weak_count14__release_weakEv
++ __ZNSt3__119__shared_weak_count16__release_sharedB8fe180100Ev
++ __ZNSt3__119__shared_weak_countD2Ev
++ __ZNSt3__120__shared_ptr_emplaceIN3adm8exclaves17parameter_command16ParameterCommandENS_9allocatorIS4_EEE16__on_zero_sharedEv
++ __ZNSt3__120__shared_ptr_emplaceIN3adm8exclaves17parameter_command16ParameterCommandENS_9allocatorIS4_EEE21__on_zero_shared_weakEv
++ __ZNSt3__120__shared_ptr_emplaceIN3adm8exclaves17parameter_command16ParameterCommandENS_9allocatorIS4_EEEC2B8fe180100IJNS4_13ParameterTypeERK29audiodsputility_parameterid_sP28audiodspprocessor_audiodsp_sES6_Li0EEES6_DpOT_
++ __ZNSt3__120__shared_ptr_emplaceIN3adm8exclaves17parameter_command16ParameterCommandENS_9allocatorIS4_EEED0Ev
++ __ZNSt3__120__shared_ptr_emplaceIN3adm8exclaves17parameter_command16ParameterCommandENS_9allocatorIS4_EEED1Ev
++ __ZNSt3__120__shared_ptr_emplaceIN3adm8exclaves17parameter_command25AnomalyDetectionParameterENS_9allocatorIS4_EEE16__on_zero_sharedEv
++ __ZNSt3__120__shared_ptr_emplaceIN3adm8exclaves17parameter_command25AnomalyDetectionParameterENS_9allocatorIS4_EEE21__on_zero_shared_weakEv
++ __ZNSt3__120__shared_ptr_emplaceIN3adm8exclaves17parameter_command25AnomalyDetectionParameterENS_9allocatorIS4_EEEC2B8fe180100IJNS3_16ParameterCommand13ParameterTypeERK29audiodsputility_parameterid_sP28audiodspprocessor_audiodsp_sES6_Li0EEES6_DpOT_
++ __ZNSt3__120__shared_ptr_emplaceIN3adm8exclaves17parameter_command25AnomalyDetectionParameterENS_9allocatorIS4_EEED0Ev
++ __ZNSt3__120__shared_ptr_emplaceIN3adm8exclaves17parameter_command25AnomalyDetectionParameterENS_9allocatorIS4_EEED1Ev
++ __ZNSt3__120__throw_length_errorB8fe180100EPKc
++ __ZNSt3__125__throw_bad_function_callB8fe180100Ev
++ __ZNSt3__127__throw_bad_optional_accessB8fe180100Ev
++ __ZNSt3__16__treeINS_12__value_typeI34audiodsputility_parameterid__tag_sNS_10shared_ptrIN3adm8exclaves17parameter_command16ParameterCommandEEEEENS_19__map_value_compareIS2_S9_NS_4lessIS2_EELb1EEENS_9allocatorIS9_EEE16__insert_node_atEPNS_15__tree_end_nodeIPNS_16__tree_node_baseIPvEEEERSL_SL_
++ __ZNSt3__16__treeINS_12__value_typeI34audiodsputility_parameterid__tag_sNS_10shared_ptrIN3adm8exclaves17parameter_command16ParameterCommandEEEEENS_19__map_value_compareIS2_S9_NS_4lessIS2_EELb1EEENS_9allocatorIS9_EEE25__emplace_unique_key_argsIS2_JRKNS_21piecewise_construct_tENS_5tupleIJOS2_EEENSL_IJEEEEEENS_4pairINS_15__tree_iteratorIS9_PNS_11__tree_nodeIS9_PvEElEEbEERKT_DpOT0_
++ __ZNSt3__16__treeINS_12__value_typeI34audiodsputility_parameterid__tag_sNS_10shared_ptrIN3adm8exclaves17parameter_command16ParameterCommandEEEEENS_19__map_value_compareIS2_S9_NS_4lessIS2_EELb1EEENS_9allocatorIS9_EEE25__emplace_unique_key_argsIS2_JRKNS_21piecewise_construct_tENS_5tupleIJRKS2_EEENSL_IJEEEEEENS_4pairINS_15__tree_iteratorIS9_PNS_11__tree_nodeIS9_PvEElEEbEERKT_DpOT0_
++ __ZNSt3__16__treeINS_12__value_typeI34audiodsputility_parameterid__tag_sNS_10shared_ptrIN3adm8exclaves17parameter_command16ParameterCommandEEEEENS_19__map_value_compareIS2_S9_NS_4lessIS2_EELb1EEENS_9allocatorIS9_EEE7destroyEPNS_11__tree_nodeIS9_PvEE
++ __ZNSt3__16vectorINS_8functionIFvvEEENS_9allocatorIS3_EEE16__destroy_vectorclB8fe180100Ev
++ __ZNSt3__16vectorINS_8functionIFvvEEENS_9allocatorIS3_EEE26__swap_out_circular_bufferERNS_14__split_bufferIS3_RS5_EE
++ __ZNSt3__16vectorINS_8functionIFvvEEENS_9allocatorIS3_EEE9push_backB8fe180100EOS3_
++ __ZNSt9exceptionD2Ev
++ __ZSt28__throw_bad_array_new_lengthB8fe180100v
++ __ZSt9terminatev
++ __ZTIN5caulk19bad_expected_accessI32audiodsputility_parametererror_sEE
++ __ZTIN5caulk19bad_expected_accessIvEE
++ __ZTINSt3__117bad_function_callE
++ __ZTISt11logic_error
++ __ZTISt12length_error
++ __ZTISt19bad_optional_access
++ __ZTISt20bad_array_new_length
++ __ZTISt9bad_alloc
++ __ZTISt9exception
++ __ZTSN5caulk19bad_expected_accessI32audiodsputility_parametererror_sEE
++ __ZTSN5caulk19bad_expected_accessIvEE
++ __ZTSNSt3__117bad_function_callE
++ __ZTSSt11logic_error
++ __ZTSSt12length_error
++ __ZTSSt19bad_optional_access
++ __ZTSSt20bad_array_new_length
++ __ZTSSt9bad_alloc
++ __ZTSSt9exception
++ __ZTVN10__cxxabiv117__class_type_infoE
++ __ZTVN10__cxxabiv120__si_class_type_infoE
++ __ZTVN3adm8exclaves17parameter_command16ParameterCommandE
++ __ZTVN3adm8exclaves17parameter_command25AnomalyDetectionParameterE
++ __ZTVN5caulk19bad_expected_accessI32audiodsputility_parametererror_sEE
++ __ZTVNSt3__110__function6__funcIZN3adm8exclaves29controller_exclavekit_context27ControllerExclaveKitContext12prepareForIOEjPK33audiodsptypes_streamdescription_sS8_S8_PK31audiodsputility_micreflatency_sPK27audiodsputility_inputport_sPK28audiodsputility_outputport_sP57audiodspcontroller_audiodspcontrol_prepareforio__result_sE3$_0NS_9allocatorISK_EEFvvEEE
++ __ZTVNSt3__117bad_function_callE
++ __ZTVNSt3__120__shared_ptr_emplaceIN3adm8exclaves17parameter_command16ParameterCommandENS_9allocatorIS4_EEEE
++ __ZTVNSt3__120__shared_ptr_emplaceIN3adm8exclaves17parameter_command25AnomalyDetectionParameterENS_9allocatorIS4_EEEE
++ __ZTVSt12length_error
++ __ZTVSt19bad_optional_access
++ __ZdlPvSt19__type_descriptor_t
++ __ZnwmSt19__type_descriptor_t
++ ___Block_byref_object_copy_
++ ___Block_byref_object_dispose_
++ ___Z14create_handlerv_block_invoke.13
++ ___Z14create_handlerv_block_invoke_2.18
++ ___Z14create_handlerv_block_invoke_3.23
++ ___Z14create_handlerv_block_invoke_4.27
++ ___ZN3adm8exclaves29controller_exclavekit_context27ControllerExclaveKitContext12prepareForIOEjPK33audiodsptypes_streamdescription_sS5_S5_PK31audiodsputility_micreflatency_sPK27audiodsputility_inputport_sPK28audiodsputility_outputport_sP57audiodspcontroller_audiodspcontrol_prepareforio__result_s_block_invoke.1
++ ___ZN3adm8exclaves29controller_exclavekit_context27ControllerExclaveKitContext12prepareForIOEjPK33audiodsptypes_streamdescription_sS5_S5_PK31audiodsputility_micreflatency_sPK27audiodsputility_inputport_sPK28audiodsputility_outputport_sP57audiodspcontroller_audiodspcontrol_prepareforio__result_s_block_invoke.6
++ ___ZN3adm8exclaves29controller_exclavekit_context27ControllerExclaveKitContext12prepareForIOEjPK33audiodsptypes_streamdescription_sS5_S5_PK31audiodsputility_micreflatency_sPK27audiodsputility_inputport_sPK28audiodsputility_outputport_sP57audiodspcontroller_audiodspcontrol_prepareforio__result_s_block_invoke_2.7
++ ____ZN3adm8exclaves17parameter_command16ParameterCommand12getParameterE29audiodsputility_parameterid_s_block_invoke
++ ____ZN3adm8exclaves17parameter_command16ParameterCommand12setParameterE29audiodsputility_parameterid_s32audiodsputility_parametervalue_s_block_invoke
++ ____ZN3adm8exclaves29controller_exclavekit_context27ControllerExclaveKitContext12prepareForIOEjPK33audiodsptypes_streamdescription_sS5_S5_PK31audiodsputility_micreflatency_sPK27audiodsputility_inputport_sPK28audiodsputility_outputport_sP57audiodspcontroller_audiodspcontrol_prepareforio__result_s_block_invoke
++ ____ZN3adm8exclaves29controller_exclavekit_context27ControllerExclaveKitContext12prepareForIOEjPK33audiodsptypes_streamdescription_sS5_S5_PK31audiodsputility_micreflatency_sPK27audiodsputility_inputport_sPK28audiodsputility_outputport_sP57audiodspcontroller_audiodspcontrol_prepareforio__result_s_block_invoke_2
++ ____ZN3adm8exclaves29controller_exclavekit_context27ControllerExclaveKitContext9performIOEP54audiodspcontroller_audiodspcontrol_performio__result_s_block_invoke
++ ___audiodsputility_parameterid__v_decode_block_invoke
++ ___audiodsputility_parameterid__v_visit_block_invoke
++ ___clang_call_terminate
++ ___copy_helper_block_8_32b
++ ___copy_helper_block_e8_32r40r48r
++ ___cxa_allocate_exception
++ ___cxa_begin_catch
++ ___cxa_free_exception
++ ___cxa_throw
++ ___destroy_helper_block_8_32b
++ ___destroy_helper_block_e8_32r40r48r
++ __audiodsputility_parameterid__v_visit_block_invoke.cold.1
++ __block_descriptor_tmp.10
++ __block_descriptor_tmp.15
++ __block_descriptor_tmp.29
++ __block_descriptor_tmp.33
++ __block_descriptor_tmp.37
++ __block_descriptor_tmp.41
++ __block_descriptor_tmp.45
++ __block_descriptor_tmp.5
++ __block_descriptor_tmp.68
++ __block_descriptor_tmp.75
++ __block_descriptor_tmp.8
++ __block_descriptor_tmp.83
++ __block_descriptor_tmp.91
++ __block_literal_global.12
++ __block_literal_global.17
++ __block_literal_global.31
++ __block_literal_global.35
++ __block_literal_global.39
++ __block_literal_global.43
++ __decodeAudioDSPController2_block_invoke.52.cold.1
++ __decodeAudioDSPController2_block_invoke.65
++ __decodeAudioDSPController2_block_invoke.71
++ __decodeAudioDSPController2_block_invoke.71.cold.1
++ __decodeAudioDSPController2_block_invoke.79
++ __decodeAudioDSPController2_block_invoke.79.cold.1
++ __decodeAudioDSPController2_block_invoke.87
++ __decodeAudioDSPController2_block_invoke.87.cold.1
++ _audiodspprocessor_audiodsp__init
++ _audiodsputility_orientationparametervalue_facedown__get
++ _audiodsputility_orientationparametervalue_facedown__init
++ _audiodsputility_orientationparametervalue_faceup__get
++ _audiodsputility_orientationparametervalue_faceup__init
++ _audiodsputility_orientationparametervalue_landscapeleft__get
++ _audiodsputility_orientationparametervalue_landscapeleft__init
++ _audiodsputility_orientationparametervalue_landscaperight__get
++ _audiodsputility_orientationparametervalue_landscaperight__init
++ _audiodsputility_orientationparametervalue_portrait__get
++ _audiodsputility_orientationparametervalue_portrait__init
++ _audiodsputility_orientationparametervalue_portraitupsidedown__get
++ _audiodsputility_orientationparametervalue_portraitupsidedown__init
++ _audiodsputility_orientationparametervalue_unknown__get
++ _audiodsputility_orientationparametervalue_unknown__init
++ _audiodsputility_parametererror_invalidparameter__init
++ _audiodsputility_parametererror_unknown__init
++ _audiodsputility_parameterid__v_visit
++ _audiodsputility_parameterid_anomalydetectedid__get
++ _audiodsputility_parameterid_binaryvad__get
++ _audiodsputility_parameterid_buttonpress__get
++ _audiodsputility_parameterid_bypassecleecheckid__get
++ _audiodsputility_parameterid_ecconvergenceid__get
++ _audiodsputility_parameterid_forgettingfactor__get
++ _audiodsputility_parameterid_orientation__get
++ _audiodsputility_parametervalue__encode
++ _audiodsputility_parametervalue_anomalydetected__get
++ _audiodsputility_parametervalue_anomalydetected__init
++ _audiodsputility_parametervalue_binaryvad__get
++ _audiodsputility_parametervalue_binaryvad__init
++ _audiodsputility_parametervalue_buttonpress__get
++ _audiodsputility_parametervalue_buttonpress__init
++ _audiodsputility_parametervalue_bypassecleecheck__get
++ _audiodsputility_parametervalue_bypassecleecheck__init
++ _audiodsputility_parametervalue_ecconvergence__get
++ _audiodsputility_parametervalue_ecconvergence__init
++ _audiodsputility_parametervalue_forgettingfactor__get
++ _audiodsputility_parametervalue_forgettingfactor__init
++ _audiodsputility_parametervalue_orientation__get
++ _audiodsputility_parametervalue_orientation__init
++ _audiodsputility_processerror_anomalydetected__get
++ _audiodsputility_processerror_formatnotsupported__get
++ _audiodsputility_processerror_uninitialized__get
++ _audiodsputility_processerror_unknown__get
++ _audiodsputility_processerror_unknown__init
++ _audiodsputility_setuperror_compilinggraph__get
++ _audiodsputility_setuperror_formatnotsupported__get
++ _audiodsputility_setuperror_formatnotsupported__init
++ _audiodsputility_setuperror_initializing__get
++ _audiodsputility_setuperror_parsingdatabase__get
++ _audiodsputility_setuperror_settingaustrip__get
++ _audiodsputility_setuperror_settingpropstrip__get
++ _audiodsputility_setuperror_unknown__get
++ _audiodsputility_setuperror_unknown__init
++ _tb_endpoint_set_interface_identifier
++ _tb_message_configure_received
++ _tb_message_construct
++ _tb_message_measure_subrange
++ _tb_message_subrange
++ _tb_transport_message_buffer_wrap_buffer
++ audiodspprocessor_audiodsp_getparameter.cold.2
++ audiodspprocessor_audiodsp_performio.cold.1
++ audiodspprocessor_audiodsp_prepareforio.cold.1
++ audiodspprocessor_audiodsp_setparameter.cold.1
++ audiodspprocessor_audiodsp_unconfigure.cold.1
++ audiodsputility_parameterid__v_visit.cold.1
++ audiodsputility_parameterid__v_visit.cold.2
++ audiodsputility_parameterid__v_visit.cold.3
++ audiodsputility_parametervalue__decode.cold.1
++ decodeAudioDSPController2.cold.30
++ decodeAudioDSPController2.cold.31
++ decodeAudioDSPController2.cold.32
+- GCC_except_table1
+- __ZGVZN3adm8exclaves29controller_exclavekit_context27ControllerExclaveKitContext8instanceEvE2ek
+- __ZN12_GLOBAL__N_113gConnectionIDE
+- __ZN3adm8exclaves12sharedmemory2v111setupRegionEjy
+- __ZN3adm8exclaves12sharedmemory2v1L28kSharedMemoryRegionConstantsE
+- __ZN3adm8exclaves29controller_exclavekit_context27ControllerExclaveKitContext12getParameterE29audiodsputility_parameterid_sP57audiodspcontroller_audiodspcontrol_getparameter__result_s
+- __ZN3adm8exclaves29controller_exclavekit_context27ControllerExclaveKitContext12prepareForIOEjPK43audiodsptypes_audiostreambasicdescription_sS5_S5_31audiodsputility_micreflatency_s27audiodsputility_inputport_s28audiodsputility_outputport_s35audiodsputility_debugcapturelevel_sP57audiodspcontroller_audiodspcontrol_prepareforio__result_s
+- __ZN3adm8exclaves29controller_exclavekit_context27ControllerExclaveKitContext12setParameterE29audiodsputility_parameterid_sPK32audiodsputility_parametervalue_sP57audiodspcontroller_audiodspcontrol_setparameter__result_s
+- __ZN3adm8exclaves29controller_exclavekit_context27ControllerExclaveKitContext24setupSharedMemoryRegionsEv
+- __ZN3adm8exclaves29controller_exclavekit_context27ControllerExclaveKitContext8instanceEv
+- __ZN3adm8exclaves29controller_exclavekit_context27ControllerExclaveKitContext9performIOEPK34audiodsptypes_coreaudiotimestamp_sjP54audiodspcontroller_audiodspcontrol_performio__result_s
+- __ZN3adm8exclaves29controller_exclavekit_context34setupSharedMemoryRegionsForUseCaseENS0_7UseCaseE
+- __ZN3adm8exclaves7utility25validateStreamDescriptionEPK43audiodsptypes_audiostreambasicdescription_s
+- __ZNSt3__16__treeINS_12__value_typeI29audiodsputility_parameterid_sPK28audiodspprocessor_audiodsp_sEENS_19__map_value_compareIS2_S6_NS_4lessIS2_EELb1EEENS_9allocatorIS6_EEE16__insert_node_atEPNS_15__tree_end_nodeIPNS_16__tree_node_baseIPvEEEERSI_SI_
+- __ZNSt3__16__treeINS_12__value_typeI29audiodsputility_parameterid_sPK28audiodspprocessor_audiodsp_sEENS_19__map_value_compareIS2_S6_NS_4lessIS2_EELb1EEENS_9allocatorIS6_EEE25__emplace_unique_key_argsIS2_JRKNS_21piecewise_construct_tENS_5tupleIJRKS2_EEENSI_IJEEEEEENS_4pairINS_15__tree_iteratorIS6_PNS_11__tree_nodeIS6_PvEElEEbEERKT_DpOT0_
+- __ZZN3adm8exclaves12sharedmemory2v128getRegionConstantsForUseCaseENS0_7UseCaseEE35kUnknownSharedMemoryRegionConstants
+- __ZZN3adm8exclaves29controller_exclavekit_context27ControllerExclaveKitContext8instanceEvE2ek
+- ___Z14create_handlerv_block_invoke.9
+- ___Z14create_handlerv_block_invoke_2.14
+- ___Z14create_handlerv_block_invoke_3.19
+- ___ZN3adm8exclaves29controller_exclavekit_context27ControllerExclaveKitContext12prepareForIOEjPK43audiodsptypes_audiostreambasicdescription_sS5_S5_31audiodsputility_micreflatency_s27audiodsputility_inputport_s28audiodsputility_outputport_s35audiodsputility_debugcapturelevel_sP57audiodspcontroller_audiodspcontrol_prepareforio__result_s_block_invoke.1
+- ___ZN3adm8exclaves29controller_exclavekit_context27ControllerExclaveKitContext12prepareForIOEjPK43audiodsptypes_audiostreambasicdescription_sS5_S5_31audiodsputility_micreflatency_s27audiodsputility_inputport_s28audiodsputility_outputport_s35audiodsputility_debugcapturelevel_sP57audiodspcontroller_audiodspcontrol_prepareforio__result_s_block_invoke.4
+- ____ZN3adm8exclaves29controller_exclavekit_context27ControllerExclaveKitContext12prepareForIOEjPK43audiodsptypes_audiostreambasicdescription_sS5_S5_31audiodsputility_micreflatency_s27audiodsputility_inputport_s28audiodsputility_outputport_s35audiodsputility_debugcapturelevel_sP57audiodspcontroller_audiodspcontrol_prepareforio__result_s_block_invoke
+- ____ZN3adm8exclaves29controller_exclavekit_context27ControllerExclaveKitContext12setParameterE29audiodsputility_parameterid_sPK32audiodsputility_parametervalue_sP57audiodspcontroller_audiodspcontrol_setparameter__result_s_block_invoke
+- ____ZN3adm8exclaves29controller_exclavekit_context27ControllerExclaveKitContext9performIOEPK34audiodsptypes_coreaudiotimestamp_sjP54audiodspcontroller_audiodspcontrol_performio__result_s_block_invoke
+- ____ZZN3adm8exclaves29controller_exclavekit_context27ControllerExclaveKitContext12getParameterE29audiodsputility_parameterid_sP57audiodspcontroller_audiodspcontrol_getparameter__result_sENK3$_0clIPK28audiodspprocessor_audiodsp_sEE10tb_error_tRKT__block_invoke
+- ___copy_helper_block_e8_32r
+- ___destroy_helper_block_e8_32r
+- ___liblibc_assert_fail
+- __block_descriptor_tmp.16
+- __block_descriptor_tmp.21
+- __block_descriptor_tmp.28
+- __block_descriptor_tmp.32
+- __block_descriptor_tmp.36
+- __block_descriptor_tmp.49
+- __block_descriptor_tmp.7
+- __block_descriptor_tmp.71
+- __block_descriptor_tmp.79
+- __block_descriptor_tmp.87
+- __block_literal_global.13
+- __block_literal_global.18
+- __block_literal_global.30
+- __block_literal_global.34
+- __block_literal_global.38
+- __decodeAudioDSPController2_block_invoke.45
+- __decodeAudioDSPController2_block_invoke.45.cold.1
+- __decodeAudioDSPController2_block_invoke.67
+- __decodeAudioDSPController2_block_invoke.67.cold.1
+- __decodeAudioDSPController2_block_invoke.75
+- __decodeAudioDSPController2_block_invoke.75.cold.1
+- __decodeAudioDSPController2_block_invoke.83
+- __decodeAudioDSPController2_block_invoke.83.cold.1
+- _audiodsptypes_audiostreambasicdescription__decode
+- _audiodsputility_parameterid_5__opt_get
+- _free
+- _malloc_type_calloc
+- _sharedmemory_bootstrap_test
+- _sharedmemory_test_setup
+- _tb_message_decode_f32
+- _tb_message_decode_f64
+- _tb_message_decode_s64
+- _tb_message_encode_f32
+- _tb_message_encode_f64
+- _tb_message_encode_s64
+CStrings:
++ "(audiodsptypes_streamdescription__decode(query, &micStreamConfig) == TB_ERROR_SUCCESS) && \"failed to decode type: AudioDSPTypes.StreamDescription\""
++ "(audiodsptypes_streamdescription__decode(query, &outputStreamConfig) == TB_ERROR_SUCCESS) && \"failed to decode type: AudioDSPTypes.StreamDescription\""
++ "(audiodsptypes_streamdescription__decode(query, &refStreamConfig) == TB_ERROR_SUCCESS) && \"failed to decode type: AudioDSPTypes.StreamDescription\""
++ "(audiodsputility_parameterid__decode(msg, &item) == TB_ERROR_SUCCESS) && \"failed to decode type: AudioDSPUtility.ParameterID\""
++ "(err == TB_ERROR_SUCCESS) && \"failed to wrap packed buffer\""
++ "(vErr == TB_ERROR_SUCCESS) && \"tb_message_subrange failed\""
++ "<unknown>"
++ "AnomalyDetectionParameter::handleParameter - AnomalyDetected!!!"
++ "I16@?0^{tb_message_s=ICQQQQ[4Q]Q^{tb_transport_message_buffer_s}}8"
++ "I24@?0^{audiodspcontrollercomponent_audiodspcontroller__context_s=^^v^^v}8@?<I@?{audiodspcontroller_audiodspcontrol_performio__result_s=C(?={audiodsputility_processerror_s=Q})}>16"
++ "I24@?0^{audiodspcontrollercomponent_audiodspcontroller__context_s=^^v^^v}8@?<I@?{audiodspcontroller_audiodspcontrol_unconfigure__result_s=C(?={audiodsputility_setuperror_s=Q})}>16"
++ "I24@?0{audiodspcontroller_audiodspcontrol_performio__result_s=C(?={audiodsputility_processerror_s=Q})}8"
++ "I24@?0{audiodspcontroller_audiodspcontrol_prepareforio__result_s=C(?={audiodsputility_setuperror_s=Q})}8"
++ "I24@?0{audiodspcontroller_audiodspcontrol_setparameter__result_s=C(?={audiodsputility_parametererror_s=Q})}8"
++ "I24@?0{audiodspcontroller_audiodspcontrol_unconfigure__result_s=C(?={audiodsputility_setuperror_s=Q})}8"
++ "I32@?0^{audiodspcontrollercomponent_audiodspcontroller__context_s=^^v^^v}8r^{audiodsputility_parameterid_s=Q}16@?<I@?{audiodspcontroller_audiodspcontrol_getparameter__result_s=C(?={audiodsputility_parametererror_s=Q}{audiodsputility_parametervalue_s=Q(?={?={audiodsputility_orientationparametervalue_s=Q}}{?=B}{?=B}{?=B}{?=B}{?=B}{?=B})})}>24"
++ "I32@?0{audiodspcontroller_audiodspcontrol_getparameter__result_s=C(?={audiodsputility_parametererror_s=Q}{audiodsputility_parametervalue_s=Q(?={?={audiodsputility_orientationparametervalue_s=Q}}{?=B}{?=B}{?=B}{?=B}{?=B}{?=B})})}8"
++ "I40@?0^{audiodspcontrollercomponent_audiodspcontroller__context_s=^^v^^v}8r^{audiodsputility_parameterid_s=Q}16r^{audiodsputility_parametervalue_s=Q(?={?={audiodsputility_orientationparametervalue_s=Q}}{?=B}{?=B}{?=B}{?=B}{?=B}{?=B})}24@?<I@?{audiodspcontroller_audiodspcontrol_setparameter__result_s=C(?={audiodsputility_parametererror_s=Q})}>32"
++ "I76@?0^{audiodspcontrollercomponent_audiodspcontroller__context_s=^^v^^v}8I16r^{audiodsptypes_streamdescription_s=I{audiodsptypes_audioformat_s=Q}{audiodsptypes_samplerate_s=Q}}20r^{audiodsptypes_streamdescription_s=I{audiodsptypes_audioformat_s=Q}{audiodsptypes_samplerate_s=Q}}28r^{audiodsptypes_streamdescription_s=I{audiodsptypes_audioformat_s=Q}{audiodsptypes_samplerate_s=Q}}36r^{audiodsputility_micreflatency_s=Q}44r^{audiodsputility_inputport_s=Q}52r^{audiodsputility_outputport_s=Q}60@?<I@?{audiodspcontroller_audiodspcontrol_prepareforio__result_s=C(?={audiodsputility_setuperror_s=Q})}>68"
++ "PROCESSERROR_ANOMALYDETECTED"
++ "PROCESSERROR_FORMATNOTSUPPORTED"
++ "PROCESSERROR_UNINITIALIZED"
++ "PROCESSERROR_UNKNOWN"
++ "ParameterCommand::getParameter() err %!d(MISSING) getting parameterID[%!l(MISSING)lu]"
++ "ParameterCommand::getParameter() tb err %!d(MISSING) getting parameterID[%!d(MISSING)]"
++ "ParameterCommand::setParameter() err %!d(MISSING) setting parameterID[%!l(MISSING)lu]"
++ "ParameterCommand::setParameter() tb err %!d(MISSING) setting parameterID[%!d(MISSING)]"
++ "Perception"
++ "SETUPERROR_COMPILINGGRAPH"
++ "SETUPERROR_FORMATNOTSUPPORTED"
++ "SETUPERROR_INITIALIZING"
++ "SETUPERROR_PARSINGDATABASE"
++ "SETUPERROR_SETTINGAUSTRIP"
++ "SETUPERROR_SETTINGPROPSTRIP"
++ "SETUPERROR_UNKNOWN"
++ "SharedDSP"
++ "TB_FATAL: invalid tag in array metadata: 0x%!x(MISSING) (%!s(MISSING):%!d(MISSING))\n"
++ "USECASE_PERCEPTION"
++ "USECASE_SHAREDDSP"
++ "[%!s(MISSING)] ControllerExclaveKitContext::getParameter() could not find parameterID[%!l(MISSING)lu]"
++ "[%!s(MISSING)] ControllerExclaveKitContext::performIO() failed for client %!d(MISSING). failure=%!s(MISSING)"
++ "[%!s(MISSING)] ControllerExclaveKitContext::performIO() failed to handle parameter AUDIODSPUTILITY_PARAMETERID__ECCONVERGENCEID"
++ "[%!s(MISSING)] ControllerExclaveKitContext::prepareForIO() failed for client %!d(MISSING). failure=%!s(MISSING)"
++ "[%!s(MISSING)] ControllerExclaveKitContext::prepareForIO() map input parameter %!l(MISSING)lu to client %!d(MISSING)"
++ "[%!s(MISSING)] ControllerExclaveKitContext::prepareForIO() map output parameter %!l(MISSING)lu to client %!d(MISSING)"
++ "[%!s(MISSING)] ControllerExclaveKitContext::setParameter() map does not contain parameterID[%!l(MISSING)lu]"
++ "[%!s(MISSING)] ControllerExclaveKitContext::unconfigure() failed for client %!d(MISSING). failure=%!s(MISSING)"
++ "v24@?0Q8r^{audiodsputility_parameterid_s=Q}16"
++ "v24@?0^^v8^^v16"
++ "v24@?0{audiodspprocessor_audiodsp_performio__result_s=C(?={audiodsputility_processerror_s=Q})}8"
++ "v24@?0{audiodspprocessor_audiodsp_prepareforio__result_s=C(?={audiodsputility_setuperror_s=Q})}8"
++ "v24@?0{audiodspprocessor_audiodsp_setparameter__result_s=C(?={audiodsputility_parametererror_s=Q})}8"
++ "v24@?0{audiodspprocessor_audiodsp_unconfigure__result_s=C(?={audiodsputility_setuperror_s=Q})}8"
++ "v32@?0{audiodspprocessor_audiodsp_getparameter__result_s=C(?={audiodsputility_parametererror_s=Q}{audiodsputility_parametervalue_s=Q(?={?={audiodsputility_orientationparametervalue_s=Q}}{?=B}{?=B}{?=B}{?=B}{?=B}{?=B})})}8"
++ "v48@?0{audiodsputility_parameterid_v_s=C(?={?=^{audiodsputility_parameterid_s}Q@?}{?=*QQ}{?=^{tb_message_s}QQQ})}8"
++ "vector"
+- "(audiodsptypes_audiostreambasicdescription__decode(query, &micStreamConfig) == TB_ERROR_SUCCESS) && \"failed to decode type: AudioDSPTypes.AudioStreamBasicDescription\""
+- "(audiodsptypes_audiostreambasicdescription__decode(query, &outputStreamConfig) == TB_ERROR_SUCCESS) && \"failed to decode type: AudioDSPTypes.AudioStreamBasicDescription\""
+- "(audiodsptypes_audiostreambasicdescription__decode(query, &refStreamConfig) == TB_ERROR_SUCCESS) && \"failed to decode type: AudioDSPTypes.AudioStreamBasicDescription\""
+- "(audiodsputility_debugcapturelevel__decode(query, &debugCaptureLevel) == TB_ERROR_SUCCESS) && \"failed to decode type: AudioDSPUtility.DebugCaptureLevel\""
+- "(audiodsputility_parameterid__decode(message, &opt->value[i]) == TB_ERROR_SUCCESS) && \"failed to decode type: AudioDSPUtility.ParameterID\""
+- "/Library/Caches/com.apple.xbs/Sources/AudioDSPManager_exclavekit/Source/exclaves/sharedmemory/v1/SharedMemoryRegionV1.cpp"
+- "0"
+- "ASSERTION: sharedmemory_bootstrap_test() == nullptr."
+- "ControllerExclaveKit setupSharedMemoryRegionsForUseCase(%!s(MISSING)) anomalydetectorOutput=%!d(MISSING)\n"
+- "I10@?0{audiodspcontroller_audiodspcontrol_performio__result_s=C(?=C)}8"
+- "I10@?0{audiodspcontroller_audiodspcontrol_prepareforio__result_s=C(?=C)}8"
+- "I10@?0{audiodspcontroller_audiodspcontrol_setparameter__result_s=C(?=C)}8"
+- "I10@?0{audiodspcontroller_audiodspcontrol_unconfigure__result_s=C(?=C)}8"
+- "I24@?0^{audiodspcontrollercomponent_audiodspcontroller__context_s=^^v^^v}8@?<I@?{audiodspcontroller_audiodspcontrol_unconfigure__result_s=C(?=C)}>16"
+- "I28@?0^{audiodspcontrollercomponent_audiodspcontroller__context_s=^^v^^v}8C16@?<I@?{audiodspcontroller_audiodspcontrol_getparameter__result_s=C(?=C{audiodsputility_parametervalue_s=Q(?={?=C}{?=B}{?=B}{?=B}{?=f})})}>20"
+- "I32@?0{audiodspcontroller_audiodspcontrol_getparameter__result_s=C(?=C{audiodsputility_parametervalue_s=Q(?={?=C}{?=B}{?=B}{?=B}{?=f})})}8"
+- "I36@?0^{audiodspcontrollercomponent_audiodspcontroller__context_s=^^v^^v}8C16r^{audiodsputility_parametervalue_s=Q(?={?=C}{?=B}{?=B}{?=B}{?=f})}20@?<I@?{audiodspcontroller_audiodspcontrol_setparameter__result_s=C(?=C)}>28"
+- "I36@?0^{audiodspcontrollercomponent_audiodspcontroller__context_s=^^v^^v}8r^{audiodsptypes_coreaudiotimestamp_s=dQdQI}16I24@?<I@?{audiodspcontroller_audiodspcontrol_performio__result_s=C(?=C)}>28"
+- "I68@?0^{audiodspcontrollercomponent_audiodspcontroller__context_s=^^v^^v}8I16r^{audiodsptypes_audiostreambasicdescription_s=qIIIIIII}20r^{audiodsptypes_audiostreambasicdescription_s=qIIIIIII}28r^{audiodsptypes_audiostreambasicdescription_s=qIIIIIII}36C44C48C52C56@?<I@?{audiodspcontroller_audiodspcontrol_prepareforio__result_s=C(?=C)}>60"
+- "[%!s(MISSING)] ControllerExclaveKit::setupSharedMemoryRegions() END\n"
+- "[%!s(MISSING)] ControllerExclaveKit::setupSharedMemoryRegions() START\n"
+- "[%!s(MISSING)] ControllerExclaveKitContext::getParameter() could not find parameterID[%!d(MISSING)]"
+- "[%!s(MISSING)] ControllerExclaveKitContext::getParameter() tb err %!d(MISSING) getting parameterID[%!d(MISSING)]"
+- "[%!s(MISSING)] ControllerExclaveKitContext::performIO() failed for client %!d(MISSING). failure=%!d(MISSING)"
+- "[%!s(MISSING)] ControllerExclaveKitContext::prepareForIO() failed for client %!d(MISSING). failure=%!d(MISSING)"
+- "[%!s(MISSING)] ControllerExclaveKitContext::setParameter() map does not contain parameterID[%!d(MISSING)]"
+- "[%!s(MISSING)] ControllerExclaveKitContext::setParameter() tb err %!d(MISSING) setting parameterID[%!d(MISSING)]"
+- "[%!s(MISSING)] ControllerExclaveKitContext::unconfigure() failed for client %!d(MISSING). failure=%!d(MISSING)"
+- "[%!s(MISSING)] Error from setupSharedMemoryRegions()"
+- "adm::exclaves::sharedmemory::v1::SetupRegion idx = %!u(MISSING) size = %!l(MISSING)lu res = %!u(MISSING) err = %!u(MISSING)\n"
+- "setupRegion"
+- "sharedmemory::setupRegion() for region %!d(MISSING) FAILED\n"
+- "sharedmemory_test_setup FAILED."
+- "v10@?0{audiodspprocessor_audiodsp_performio__result_s=C(?=C)}8"
+- "v10@?0{audiodspprocessor_audiodsp_prepareforio__result_s=C(?=C)}8"
+- "v10@?0{audiodspprocessor_audiodsp_setparameter__result_s=C(?=C)}8"
+- "v10@?0{audiodspprocessor_audiodsp_unconfigure__result_s=C(?=C)}8"
+- "v14@?0{audiodsputility_parameterid_5__opt_s=B[5C]}8"
+- "v32@?0{audiodspprocessor_audiodsp_getparameter__result_s=C(?=C{audiodsputility_parametervalue_s=Q(?={?=C}{?=B}{?=B}{?=B}{?=f})})}8"
+
+```

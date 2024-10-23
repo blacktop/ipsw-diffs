@@ -1,0 +1,540 @@
+## NewsTransport
+
+> `/System/Library/PrivateFrameworks/NewsTransport.framework/NewsTransport`
+
+```diff
+
+-5593.0.0.0.0
+-  __TEXT.__text: 0x2244e8
++5604.1.0.0.0
++  __TEXT.__text: 0x232160
+   __TEXT.__auth_stubs: 0x480
+-  __TEXT.__objc_methlist: 0x32934
++  __TEXT.__objc_methlist: 0x33fec
+   __TEXT.__const: 0x48
+-  __TEXT.__cstring: 0x111c9
+-  __TEXT.__unwind_info: 0x4810
+-  __TEXT.__objc_classname: 0x2191
+-  __TEXT.__objc_methname: 0x508d8
+-  __TEXT.__objc_methtype: 0xc29a
+-  __TEXT.__objc_stubs: 0x80a0
+-  __DATA_CONST.__got: 0x808
+-  __DATA_CONST.__const: 0x7148
+-  __DATA_CONST.__objc_classlist: 0x9d0
++  __TEXT.__cstring: 0x1154e
++  __TEXT.__unwind_info: 0x4ab0
++  __TEXT.__objc_classname: 0x232e
++  __TEXT.__objc_methname: 0x51cc8
++  __TEXT.__objc_methtype: 0xc57e
++  __TEXT.__objc_stubs: 0x8540
++  __DATA_CONST.__got: 0x858
++  __DATA_CONST.__const: 0x7170
++  __DATA_CONST.__objc_classlist: 0xa48
+   __DATA_CONST.__objc_protolist: 0x8
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x10148
+-  __DATA_CONST.__objc_superrefs: 0x9d0
++  __DATA_CONST.__objc_selrefs: 0x10690
++  __DATA_CONST.__objc_superrefs: 0xa48
+   __AUTH_CONST.__auth_got: 0x248
+-  __AUTH_CONST.__cfstring: 0x148e0
+-  __AUTH_CONST.__objc_const: 0x46948
+-  __DATA.__objc_ivar: 0x3b28
++  __AUTH_CONST.__cfstring: 0x150a0
++  __AUTH_CONST.__objc_const: 0x489f0
++  __AUTH.__objc_data: 0x4b0
++  __DATA.__objc_ivar: 0x3ca4
+   __DATA.__data: 0x60
+   __DATA_DIRTY.__objc_data: 0x6220
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+
+   - /System/Library/PrivateFrameworks/ProtocolBuffer.framework/ProtocolBuffer
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  Functions: 17385
+-  Symbols:   21721
+-  CStrings:  15852
++  Functions: 17869
++  Symbols:   22325
++  CStrings:  16205
+ 
+Symbols:
++ OBJC_IVAR_$_COMAPPLEFELDSPARPROTOCOLLIVERPOOLNotabilityScore._has
++ OBJC_IVAR_$_COMAPPLEFELDSPARPROTOCOLLIVERPOOLNotabilityScore._score
++ OBJC_IVAR_$_COMAPPLEFELDSPARPROTOCOLLIVERPOOLNotabilityScore._type
++ OBJC_IVAR_$_COMAPPLEFELDSPARPROTOCOLLIVERPOOLNotabilityScores._tagScores
++ OBJC_IVAR_$_COMAPPLEFELDSPARPROTOCOLLIVERPOOLNotabilityTagScore._scores
++ OBJC_IVAR_$_COMAPPLEFELDSPARPROTOCOLLIVERPOOLNotabilityTagScore._tagId
++ OBJC_IVAR_$_NTPBColorGradient._colorStops
++ OBJC_IVAR_$_NTPBColorGradient._endPoint
++ OBJC_IVAR_$_NTPBColorGradient._startPoint
++ OBJC_IVAR_$_NTPBColorGradientPair._dark
++ OBJC_IVAR_$_NTPBColorGradientPair._light
++ OBJC_IVAR_$_NTPBColorPair._dark
++ OBJC_IVAR_$_NTPBColorPair._light
++ OBJC_IVAR_$_NTPBColorStop._color
++ OBJC_IVAR_$_NTPBColorStop._has
++ OBJC_IVAR_$_NTPBColorStop._location
++ OBJC_IVAR_$_NTPBFeedPersonalizingItem._bodyTextLength
++ OBJC_IVAR_$_NTPBFeedPersonalizingItem._float16FullBodyEncoding
++ OBJC_IVAR_$_NTPBFeedPersonalizingItem._float16TitleEncoding
++ OBJC_IVAR_$_NTPBFeedPersonalizingItem._globalCohorts
++ OBJC_IVAR_$_NTPBFeedPersonalizingItem._globalConversionStats
++ OBJC_IVAR_$_NTPBFeedPersonalizingItem._has
++ OBJC_IVAR_$_NTPBFeedPersonalizingItem._hasAudioTrack
++ OBJC_IVAR_$_NTPBFeedPersonalizingItem._hasVideo
++ OBJC_IVAR_$_NTPBFeedPersonalizingItem._identifier
++ OBJC_IVAR_$_NTPBFeedPersonalizingItem._isAIGenerated
++ OBJC_IVAR_$_NTPBFeedPersonalizingItem._isANF
++ OBJC_IVAR_$_NTPBFeedPersonalizingItem._isBundlePaid
++ OBJC_IVAR_$_NTPBFeedPersonalizingItem._isFeatured
++ OBJC_IVAR_$_NTPBFeedPersonalizingItem._isPaid
++ OBJC_IVAR_$_NTPBFeedPersonalizingItem._publishDateMilliseconds
++ OBJC_IVAR_$_NTPBFeedPersonalizingItem._publisherCohorts
++ OBJC_IVAR_$_NTPBFeedPersonalizingItem._publisherConversionStats
++ OBJC_IVAR_$_NTPBFeedPersonalizingItem._publisherID
++ OBJC_IVAR_$_NTPBFeedPersonalizingItem._publisherTagMetadata
++ OBJC_IVAR_$_NTPBFeedPersonalizingItem._topicIDs
++ OBJC_IVAR_$_NTPBFeedPersonalizingItem._topics
++ OBJC_IVAR_$_NTPBNotificationItem._algoID
++ OBJC_IVAR_$_NTPBNotificationItem._canonicalID
++ OBJC_IVAR_$_NTPBNotificationItem._clusterID
++ OBJC_IVAR_$_NTPBNotificationItem._feedItem
++ OBJC_IVAR_$_NTPBNotificationItem._has
++ OBJC_IVAR_$_NTPBNotificationItem._identifier
++ OBJC_IVAR_$_NTPBNotificationItem._notabilityScores
++ OBJC_IVAR_$_NTPBNotificationItem._source
++ OBJC_IVAR_$_NTPBNotificationItem._suppressIfFollowingTagIDs
++ OBJC_IVAR_$_NTPBNotificationItem._targetDeviceTypes
++ OBJC_IVAR_$_NTPBNotificationItem._targetMinNewsVersion
++ OBJC_IVAR_$_NTPBNotificationItemListRecord._algoID
++ OBJC_IVAR_$_NTPBNotificationItemListRecord._base
++ OBJC_IVAR_$_NTPBNotificationItemListRecord._has
++ OBJC_IVAR_$_NTPBNotificationItemListRecord._notificationItemIDs
++ OBJC_IVAR_$_NTPBNotificationItemListRecord._notificationSource
++ OBJC_IVAR_$_NTPBNotificationItemRecord._articleID
++ OBJC_IVAR_$_NTPBNotificationItemRecord._base
++ OBJC_IVAR_$_NTPBNotificationItemRecord._body
++ OBJC_IVAR_$_NTPBNotificationItemRecord._clusterID
++ OBJC_IVAR_$_NTPBNotificationItemRecord._has
++ OBJC_IVAR_$_NTPBNotificationItemRecord._notabilityScores
++ OBJC_IVAR_$_NTPBNotificationItemRecord._notificationID
++ OBJC_IVAR_$_NTPBNotificationItemRecord._suppressIfFollowingTagIDs
++ OBJC_IVAR_$_NTPBNotificationItemRecord._targetDeviceTypes
++ OBJC_IVAR_$_NTPBNotificationItemRecord._targetMinNewsVersion
++ OBJC_IVAR_$_NTPBNotificationPoolIndex._creationDate
++ OBJC_IVAR_$_NTPBNotificationPoolIndex._entries
++ OBJC_IVAR_$_NTPBNotificationPoolIndex._has
++ OBJC_IVAR_$_NTPBNotificationPoolIndex._isPaidVariant
++ OBJC_IVAR_$_NTPBNotificationPoolIndexEntry._has
++ OBJC_IVAR_$_NTPBNotificationPoolIndexEntry._itemLength
++ OBJC_IVAR_$_NTPBNotificationPoolIndexEntry._itemOffset
++ OBJC_IVAR_$_NTPBNotificationPoolIndexEntry._score
++ OBJC_IVAR_$_NTPBPoint._color
++ OBJC_IVAR_$_NTPBPoint._has
++ OBJC_IVAR_$_NTPBPoint._x
++ OBJC_IVAR_$_NTPBPoint._y
++ OBJC_IVAR_$_NTPBPuzzleRecord._relatedPuzzleIDs
++ OBJC_IVAR_$_NTPBPuzzleTypeRecord._behaviorFlags
++ OBJC_IVAR_$_NTPBPuzzleTypeRecord._nameCompact
++ OBJC_IVAR_$_NTPBTodayBannerConfig._actionButtonText
++ OBJC_IVAR_$_NTPBTodayBannerConfig._actionURL
++ OBJC_IVAR_$_NTPBTodayBannerConfig._backgroundMethod
++ OBJC_IVAR_$_NTPBTodayBannerConfig._body
++ OBJC_IVAR_$_NTPBTodayBannerConfig._daysVisibleToNewSubscribers
++ OBJC_IVAR_$_NTPBTodayBannerConfig._gradientBackgroundPair
++ OBJC_IVAR_$_NTPBTodayBannerConfig._has
++ OBJC_IVAR_$_NTPBTodayBannerConfig._identifier
++ OBJC_IVAR_$_NTPBTodayBannerConfig._imageMethod
++ OBJC_IVAR_$_NTPBTodayBannerConfig._imageURL
++ OBJC_IVAR_$_NTPBTodayBannerConfig._isEnabled
++ OBJC_IVAR_$_NTPBTodayBannerConfig._numberOfAppearancesToHide
++ OBJC_IVAR_$_NTPBTodayBannerConfig._numberOfTapsToHide
++ OBJC_IVAR_$_NTPBTodayBannerConfig._solidBackgroundColorPair
++ OBJC_IVAR_$_NTPBTodayBannerConfig._title
++ OBJC_IVAR_$_NTPBTodayConfig._widgetBannerConfig
++ OBJC_IVAR_$_NTPBTodayResultOperationInfo._bannerSlotCost
++ OBJC_IVAR_$_NTPBTodayWidgetExposure._bannerIdentifier
++ _COMAPPLEFELDSPARPROTOCOLLIVERPOOLNotabilityScoreReadFrom
++ _COMAPPLEFELDSPARPROTOCOLLIVERPOOLNotabilityScoresReadFrom
++ _COMAPPLEFELDSPARPROTOCOLLIVERPOOLNotabilityTagScoreReadFrom
++ _NTPBColorGradientPairReadFrom
++ _NTPBColorGradientReadFrom
++ _NTPBColorPairReadFrom
++ _NTPBColorStopReadFrom
++ _NTPBFeedPersonalizingItemReadFrom
++ _NTPBNotificationItemListRecordReadFrom
++ _NTPBNotificationItemReadFrom
++ _NTPBNotificationItemRecordReadFrom
++ _NTPBNotificationPoolIndexEntryReadFrom
++ _NTPBNotificationPoolIndexReadFrom
++ _NTPBPointReadFrom
++ _NTPBTodayBannerConfigReadFrom
++ _OBJC_CLASS_$_COMAPPLEFELDSPARPROTOCOLLIVERPOOLNotabilityScore
++ _OBJC_CLASS_$_COMAPPLEFELDSPARPROTOCOLLIVERPOOLNotabilityScores
++ _OBJC_CLASS_$_COMAPPLEFELDSPARPROTOCOLLIVERPOOLNotabilityTagScore
++ _OBJC_CLASS_$_NTPBColorGradient
++ _OBJC_CLASS_$_NTPBColorGradientPair
++ _OBJC_CLASS_$_NTPBColorPair
++ _OBJC_CLASS_$_NTPBColorStop
++ _OBJC_CLASS_$_NTPBFeedPersonalizingItem
++ _OBJC_CLASS_$_NTPBNotificationItem
++ _OBJC_CLASS_$_NTPBNotificationItemListRecord
++ _OBJC_CLASS_$_NTPBNotificationItemRecord
++ _OBJC_CLASS_$_NTPBNotificationPoolIndex
++ _OBJC_CLASS_$_NTPBNotificationPoolIndexEntry
++ _OBJC_CLASS_$_NTPBPoint
++ _OBJC_CLASS_$_NTPBTodayBannerConfig
++ _OBJC_METACLASS_$_COMAPPLEFELDSPARPROTOCOLLIVERPOOLNotabilityScore
++ _OBJC_METACLASS_$_COMAPPLEFELDSPARPROTOCOLLIVERPOOLNotabilityScores
++ _OBJC_METACLASS_$_COMAPPLEFELDSPARPROTOCOLLIVERPOOLNotabilityTagScore
++ _OBJC_METACLASS_$_NTPBColorGradient
++ _OBJC_METACLASS_$_NTPBColorGradientPair
++ _OBJC_METACLASS_$_NTPBColorPair
++ _OBJC_METACLASS_$_NTPBColorStop
++ _OBJC_METACLASS_$_NTPBFeedPersonalizingItem
++ _OBJC_METACLASS_$_NTPBNotificationItem
++ _OBJC_METACLASS_$_NTPBNotificationItemListRecord
++ _OBJC_METACLASS_$_NTPBNotificationItemRecord
++ _OBJC_METACLASS_$_NTPBNotificationPoolIndex
++ _OBJC_METACLASS_$_NTPBNotificationPoolIndexEntry
++ _OBJC_METACLASS_$_NTPBPoint
++ _OBJC_METACLASS_$_NTPBTodayBannerConfig
+- OBJC_IVAR_$_NTPBForYouTodaySectionSpecificConfig._localNewsPromotedArticle
+CStrings:
++ "\x13#"
++ "@\"COMAPPLEFELDSPARPROTOCOLLIVERPOOLNotabilityScores\""
++ "@\"NTPBColorGradient\""
++ "@\"NTPBColorGradientPair\""
++ "@\"NTPBColorPair\""
++ "@\"NTPBFeedItem\""
++ "@\"NTPBPoint\""
++ "@\"NTPBTodayBannerConfig\""
++ "BANNER_WIDGET_ENGAGEMENT_TYPE"
++ "BIG_STORY"
++ "COMAPPLEFELDSPARPROTOCOLLIVERPOOLNotabilityScore"
++ "COMAPPLEFELDSPARPROTOCOLLIVERPOOLNotabilityScores"
++ "COMAPPLEFELDSPARPROTOCOLLIVERPOOLNotabilityTagScore"
++ "NOTEWORTHY"
++ "NTPBColorGradient"
++ "NTPBColorGradientPair"
++ "NTPBColorPair"
++ "NTPBColorStop"
++ "NTPBFeedPersonalizingItem"
++ "NTPBNotificationItem"
++ "NTPBNotificationItemListRecord"
++ "NTPBNotificationItemRecord"
++ "NTPBNotificationPoolIndex"
++ "NTPBNotificationPoolIndexEntry"
++ "NTPBPoint"
++ "NTPBTodayBannerConfig"
++ "PFA"
++ "T@\"COMAPPLEFELDSPARPROTOCOLLIVERPOOLCohortList\",&,N,V_publisherCohorts"
++ "T@\"COMAPPLEFELDSPARPROTOCOLLIVERPOOLConversionStats\",&,N,V_publisherConversionStats"
++ "T@\"COMAPPLEFELDSPARPROTOCOLLIVERPOOLNotabilityScores\",&,N,V_notabilityScores"
++ "T@\"COMAPPLEFELDSPARPROTOCOLLIVERPOOLTagMetadata\",&,N,V_publisherTagMetadata"
++ "T@\"NSMutableArray\",&,N,V_colorStops"
++ "T@\"NSMutableArray\",&,N,V_notificationItemIDs"
++ "T@\"NSMutableArray\",&,N,V_relatedPuzzleIDs"
++ "T@\"NSMutableArray\",&,N,V_suppressIfFollowingTagIDs"
++ "T@\"NSMutableArray\",&,N,V_tagScores"
++ "T@\"NSString\",&,N,V_actionButtonText"
++ "T@\"NSString\",&,N,V_actionURL"
++ "T@\"NSString\",&,N,V_algoID"
++ "T@\"NSString\",&,N,V_bannerIdentifier"
++ "T@\"NSString\",&,N,V_body"
++ "T@\"NSString\",&,N,V_canonicalID"
++ "T@\"NSString\",&,N,V_color"
++ "T@\"NSString\",&,N,V_dark"
++ "T@\"NSString\",&,N,V_imageURL"
++ "T@\"NSString\",&,N,V_light"
++ "T@\"NSString\",&,N,V_notificationID"
++ "T@\"NSString\",&,N,V_publisherID"
++ "T@\"NTPBColorGradient\",&,N,V_dark"
++ "T@\"NTPBColorGradient\",&,N,V_light"
++ "T@\"NTPBColorGradientPair\",&,N,V_gradientBackgroundPair"
++ "T@\"NTPBColorPair\",&,N,V_solidBackgroundColorPair"
++ "T@\"NTPBDate\",&,N,V_creationDate"
++ "T@\"NTPBFeedItem\",&,N,V_feedItem"
++ "T@\"NTPBPoint\",&,N,V_endPoint"
++ "T@\"NTPBPoint\",&,N,V_startPoint"
++ "T@\"NTPBTodayBannerConfig\",&,N,V_widgetBannerConfig"
++ "TB,N,V_isANF"
++ "TB,N,V_isEnabled"
++ "TB,N,V_isPaidVariant"
++ "TI,N,V_targetDeviceTypes"
++ "TQ,N,V_daysVisibleToNewSubscribers"
++ "TQ,N,V_itemLength"
++ "TQ,N,V_itemOffset"
++ "TQ,N,V_numberOfAppearancesToHide"
++ "TQ,N,V_numberOfTapsToHide"
++ "Td,N,V_bannerSlotCost"
++ "Td,N,V_x"
++ "Td,N,V_y"
++ "Ti,N,V_backgroundMethod"
++ "Ti,N,V_imageMethod"
++ "Ti,N,V_location"
++ "Ti,N,V_notificationSource"
++ "Tq,N,V_targetMinNewsVersion"
++ "UNKNOWN_TYPE"
++ "_actionButtonText"
++ "_actionURL"
++ "_algoID"
++ "_backgroundMethod"
++ "_bannerIdentifier"
++ "_bannerSlotCost"
++ "_body"
++ "_canonicalID"
++ "_color"
++ "_colorStops"
++ "_creationDate"
++ "_dark"
++ "_daysVisibleToNewSubscribers"
++ "_endPoint"
++ "_feedItem"
++ "_gradientBackgroundPair"
++ "_imageMethod"
++ "_imageURL"
++ "_isANF"
++ "_isEnabled"
++ "_isPaidVariant"
++ "_itemLength"
++ "_itemOffset"
++ "_light"
++ "_location"
++ "_notabilityScores"
++ "_notificationID"
++ "_notificationItemIDs"
++ "_notificationSource"
++ "_numberOfAppearancesToHide"
++ "_numberOfTapsToHide"
++ "_publisherCohorts"
++ "_publisherConversionStats"
++ "_publisherID"
++ "_publisherTagMetadata"
++ "_relatedPuzzleIDs"
++ "_solidBackgroundColorPair"
++ "_startPoint"
++ "_suppressIfFollowingTagIDs"
++ "_tagScores"
++ "_targetDeviceTypes"
++ "_targetMinNewsVersion"
++ "_widgetBannerConfig"
++ "_x"
++ "_y"
++ "actionButtonText"
++ "actionURL"
++ "action_URL"
++ "action_button_text"
++ "addColorStops:"
++ "addNotificationItemIDs:"
++ "addRelatedPuzzleIDs:"
++ "addSuppressIfFollowingTagIDs:"
++ "addTagScores:"
++ "algoID"
++ "algo_ID"
++ "backgroundMethod"
++ "background_method"
++ "bannerIdentifier"
++ "bannerSlotCost"
++ "banner_identifier"
++ "banner_slot_cost"
++ "body"
++ "canonicalID"
++ "canonical_ID"
++ "clearColorStops"
++ "clearNotificationItemIDs"
++ "clearRelatedPuzzleIDs"
++ "clearSuppressIfFollowingTagIDs"
++ "clearTagScores"
++ "color"
++ "colorStops"
++ "colorStopsAtIndex:"
++ "colorStopsCount"
++ "colorStopsType"
++ "creationDate"
++ "dark"
++ "daysVisibleToNewSubscribers"
++ "endPoint"
++ "feedItem"
++ "feed_item"
++ "gradientBackgroundPair"
++ "hasActionButtonText"
++ "hasActionURL"
++ "hasAlgoID"
++ "hasBackgroundMethod"
++ "hasBannerIdentifier"
++ "hasBannerSlotCost"
++ "hasBody"
++ "hasCanonicalID"
++ "hasColor"
++ "hasCreationDate"
++ "hasDark"
++ "hasDaysVisibleToNewSubscribers"
++ "hasEndPoint"
++ "hasFeedItem"
++ "hasGradientBackgroundPair"
++ "hasImageMethod"
++ "hasImageURL"
++ "hasIsANF"
++ "hasIsEnabled"
++ "hasIsPaidVariant"
++ "hasItemLength"
++ "hasItemOffset"
++ "hasLight"
++ "hasLocation"
++ "hasNotabilityScores"
++ "hasNotificationID"
++ "hasNotificationSource"
++ "hasNumberOfAppearancesToHide"
++ "hasNumberOfTapsToHide"
++ "hasPublisherCohorts"
++ "hasPublisherConversionStats"
++ "hasPublisherID"
++ "hasPublisherTagMetadata"
++ "hasSolidBackgroundColorPair"
++ "hasStartPoint"
++ "hasTargetDeviceTypes"
++ "hasTargetMinNewsVersion"
++ "hasWidgetBannerConfig"
++ "hasX"
++ "hasY"
++ "imageMethod"
++ "imageURL"
++ "image_method"
++ "isANF"
++ "isEnabled"
++ "isPaidVariant"
++ "itemLength"
++ "itemOffset"
++ "light"
++ "location"
++ "notabilityScores"
++ "notability_scores"
++ "notificationID"
++ "notificationItemIDs"
++ "notificationItemIDsAtIndex:"
++ "notificationItemIDsCount"
++ "notificationItemIDsType"
++ "notificationSource"
++ "notification_ID"
++ "notification_item_IDs"
++ "notification_source"
++ "numberOfAppearancesToHide"
++ "numberOfTapsToHide"
++ "publisherCohorts"
++ "publisherConversionStats"
++ "publisherID"
++ "publisherTagMetadata"
++ "relatedPuzzleIDs"
++ "relatedPuzzleIDsAtIndex:"
++ "relatedPuzzleIDsCount"
++ "relatedPuzzleIDsType"
++ "related_puzzle_IDs"
++ "setActionButtonText:"
++ "setActionURL:"
++ "setAlgoID:"
++ "setBackgroundMethod:"
++ "setBannerIdentifier:"
++ "setBannerSlotCost:"
++ "setBody:"
++ "setCanonicalID:"
++ "setColor:"
++ "setColorStops:"
++ "setCreationDate:"
++ "setDark:"
++ "setDaysVisibleToNewSubscribers:"
++ "setEndPoint:"
++ "setFeedItem:"
++ "setGradientBackgroundPair:"
++ "setHasBackgroundMethod:"
++ "setHasBannerSlotCost:"
++ "setHasDaysVisibleToNewSubscribers:"
++ "setHasImageMethod:"
++ "setHasIsANF:"
++ "setHasIsEnabled:"
++ "setHasIsPaidVariant:"
++ "setHasItemLength:"
++ "setHasItemOffset:"
++ "setHasLocation:"
++ "setHasNotificationSource:"
++ "setHasNumberOfAppearancesToHide:"
++ "setHasNumberOfTapsToHide:"
++ "setHasTargetDeviceTypes:"
++ "setHasTargetMinNewsVersion:"
++ "setHasX:"
++ "setHasY:"
++ "setImageMethod:"
++ "setImageURL:"
++ "setIsANF:"
++ "setIsEnabled:"
++ "setIsPaidVariant:"
++ "setItemLength:"
++ "setItemOffset:"
++ "setLight:"
++ "setLocation:"
++ "setNotabilityScores:"
++ "setNotificationID:"
++ "setNotificationItemIDs:"
++ "setNotificationSource:"
++ "setNumberOfAppearancesToHide:"
++ "setNumberOfTapsToHide:"
++ "setPublisherCohorts:"
++ "setPublisherConversionStats:"
++ "setPublisherID:"
++ "setPublisherTagMetadata:"
++ "setRelatedPuzzleIDs:"
++ "setSolidBackgroundColorPair:"
++ "setStartPoint:"
++ "setSuppressIfFollowingTagIDs:"
++ "setTagScores:"
++ "setTargetDeviceTypes:"
++ "setTargetMinNewsVersion:"
++ "setWidgetBannerConfig:"
++ "setX:"
++ "setY:"
++ "solidBackgroundColorPair"
++ "startPoint"
++ "suppressIfFollowingTagIDs"
++ "suppressIfFollowingTagIDsAtIndex:"
++ "suppressIfFollowingTagIDsCount"
++ "suppressIfFollowingTagIDsType"
++ "suppress_if_following_tag_IDs"
++ "tagScores"
++ "tagScoresAtIndex:"
++ "tagScoresCount"
++ "tagScoresType"
++ "tag_scores"
++ "targetDeviceTypes"
++ "targetMinNewsVersion"
++ "target_device_types"
++ "target_min_news_version"
++ "widgetBannerConfig"
++ "widget_banner_config"
++ "x"
++ "y"
++ "{?=\"bannerSlotCost\"b1\"embedsLimit\"b1\"leadingCellThumbnailSizePreset\"b1\"maxHeadlineScale\"b1\"minHeadlineScale\"b1\"qualityOfService\"b1\"scale\"b1\"slotsLimit\"b1\"sourceNameImageSizePreset\"b1\"thumbnailSizePreset\"b1\"dynamicThumbnailSizePresetMinimumHeightInPixels\"b1\"dynamicThumbnailSizePresetMinimumWidthInPixels\"b1\"widgetSize\"b1\"allowOnlyWatchEligibleSections\"b1\"allowSectionTitles\"b1\"fetchWidgetConfig\"b1\"preferCompactSectionName\"b1\"preferCompactSourceName\"b1\"respectsWidgetSlotsLimit\"b1\"respectsWidgetVisibleSectionsPerQueueLimit\"b1}"
++ "{?=\"behaviorFlags\"b1\"minimumNewsVersion\"b1}"
++ "{?=\"bodyTextLength\"b1\"publishDateMilliseconds\"b1\"hasAudioTrack\"b1\"hasVideo\"b1\"isAIGenerated\"b1\"isANF\"b1\"isBundlePaid\"b1\"isFeatured\"b1\"isPaid\"b1}"
++ "{?=\"daysVisibleToNewSubscribers\"b1\"numberOfAppearancesToHide\"b1\"numberOfTapsToHide\"b1\"backgroundMethod\"b1\"imageMethod\"b1\"isEnabled\"b1}"
++ "{?=\"isPaidVariant\"b1}"
++ "{?=\"itemLength\"b1\"itemOffset\"b1\"score\"b1}"
++ "{?=\"location\"b1}"
++ "{?=\"notificationSource\"b1}"
++ "{?=\"score\"b1\"type\"b1}"
++ "{?=\"targetMinNewsVersion\"b1\"source\"b1\"targetDeviceTypes\"b1}"
++ "{?=\"targetMinNewsVersion\"b1\"targetDeviceTypes\"b1}"
++ "{?=\"x\"b1\"y\"b1}"
++ "\xa1\x13"
+- "\x12#"
+- "T@\"NTPBTodaySectionConfigArticle\",&,N,V_localNewsPromotedArticle"
+- "_localNewsPromotedArticle"
+- "hasLocalNewsPromotedArticle"
+- "localNewsPromotedArticle"
+- "local_news_promoted_article"
+- "setLocalNewsPromotedArticle:"
+- "{?=\"embedsLimit\"b1\"leadingCellThumbnailSizePreset\"b1\"maxHeadlineScale\"b1\"minHeadlineScale\"b1\"qualityOfService\"b1\"scale\"b1\"slotsLimit\"b1\"sourceNameImageSizePreset\"b1\"thumbnailSizePreset\"b1\"dynamicThumbnailSizePresetMinimumHeightInPixels\"b1\"dynamicThumbnailSizePresetMinimumWidthInPixels\"b1\"widgetSize\"b1\"allowOnlyWatchEligibleSections\"b1\"allowSectionTitles\"b1\"fetchWidgetConfig\"b1\"preferCompactSectionName\"b1\"preferCompactSourceName\"b1\"respectsWidgetSlotsLimit\"b1\"respectsWidgetVisibleSectionsPerQueueLimit\"b1}"
+- "{?=\"minimumNewsVersion\"b1}"
+- "\x91\x13"
+
+```

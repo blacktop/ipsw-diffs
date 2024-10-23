@@ -1,0 +1,263 @@
+## SiriContactsCommon
+
+> `/System/Library/PrivateFrameworks/SiriContactsCommon.framework/SiriContactsCommon`
+
+```diff
+
+-3401.11.1.0.0
+-  __TEXT.__text: 0x23df4
+-  __TEXT.__auth_stubs: 0xee0
++3402.35.1.0.0
++  __TEXT.__text: 0x2690c
++  __TEXT.__auth_stubs: 0x10e0
+   __TEXT.__objc_methlist: 0x44
+-  __TEXT.__const: 0x33a8
+-  __TEXT.__cstring: 0xac9
+-  __TEXT.__oslogstring: 0x582
+-  __TEXT.__swift5_typeref: 0xb65
+-  __TEXT.__swift5_reflstr: 0x4a1
+-  __TEXT.__swift5_assocty: 0xf0
+-  __TEXT.__constg_swiftt: 0x84c
+-  __TEXT.__swift5_fieldmd: 0xaa8
+-  __TEXT.__swift5_proto: 0x31c
+-  __TEXT.__swift5_types: 0xe0
+-  __TEXT.__swift5_capture: 0x98
+-  __TEXT.__swift5_protos: 0x4
++  __TEXT.__const: 0x3b08
++  __TEXT.__cstring: 0xb79
++  __TEXT.__oslogstring: 0x6f2
++  __TEXT.__swift5_typeref: 0xd27
++  __TEXT.__swift5_reflstr: 0x591
++  __TEXT.__swift5_assocty: 0x138
++  __TEXT.__constg_swiftt: 0x934
++  __TEXT.__swift5_fieldmd: 0xb8c
++  __TEXT.__swift5_proto: 0x37c
++  __TEXT.__swift5_types: 0xf0
++  __TEXT.__swift5_capture: 0xb8
++  __TEXT.__swift5_protos: 0xc
+   __TEXT.__swift5_builtin: 0x14
+   __TEXT.__swift5_mpenum: 0x8
+-  __TEXT.__unwind_info: 0xda8
+-  __TEXT.__eh_frame: 0x10d8
++  __TEXT.__unwind_info: 0xeb8
++  __TEXT.__eh_frame: 0x1120
+   __TEXT.__objc_methname: 0x39e
+-  __DATA_CONST.__got: 0x218
+-  __DATA_CONST.__const: 0x1b0
++  __DATA_CONST.__got: 0x220
++  __DATA_CONST.__const: 0x1c8
+   __DATA_CONST.__objc_classlist: 0x8
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_selrefs: 0x178
+-  __AUTH_CONST.__auth_got: 0x770
+-  __AUTH_CONST.__auth_ptr: 0x2c8
+-  __AUTH_CONST.__const: 0x18d8
+-  __AUTH_CONST.__objc_const: 0x178
+-  __AUTH.__objc_data: 0x110
+-  __AUTH.__data: 0x278
+-  __DATA.__data: 0xc38
+-  __DATA.__bss: 0x6300
+-  __DATA.__common: 0x20
++  __AUTH_CONST.__auth_got: 0x870
++  __AUTH_CONST.__auth_ptr: 0x4a0
++  __AUTH_CONST.__const: 0x1b48
++  __AUTH_CONST.__objc_const: 0x1c0
++  __AUTH.__objc_data: 0x158
++  __AUTH.__data: 0x2b8
++  __DATA.__data: 0xd60
++  __DATA.__bss: 0x6e00
++  __DATA.__common: 0x48
+   - /System/Library/Frameworks/Contacts.framework/Contacts
+   - /System/Library/Frameworks/CoreServices.framework/CoreServices
+   - /System/Library/Frameworks/Foundation.framework/Foundation
++  - /System/Library/PrivateFrameworks/AppIntentsServices.framework/AppIntentsServices
+   - /System/Library/PrivateFrameworks/IDS.framework/IDS
+   - /System/Library/PrivateFrameworks/SAObjects.framework/SAObjects
+   - /System/Library/PrivateFrameworks/SiriDialogEngine.framework/SiriDialogEngine
+
+   - /usr/lib/swift/libswiftsimd.dylib
+   - /usr/lib/swift/libswiftsys_time.dylib
+   - /usr/lib/swift/libswiftunistd.dylib
+-  Functions: 1360
+-  Symbols:   2234
+-  CStrings:  154
++  Functions: 1478
++  Symbols:   2498
++  CStrings:  167
+ 
+Symbols:
++ _$s10Foundation4DateV18SiriContactsCommonE15startOfTodayGMTACvgZ
++ _$s10Foundation8CalendarV18SiriContactsCommonE19gregorianCurrentGMTACvgZ
++ _$s10Foundation8TimeZoneV14secondsFromGMTACSgSi_tcfC
++ _$s10Foundation8TimeZoneVMn
++ _$s13SiriUtilities11TransformerV9transformACyxq_Gq_xKc_tcfC
++ _$s13SiriUtilities11TransformerV9transformyq_xKcvg
++ _$s13SiriUtilities11TransformerVMn
++ _$s18AppIntentsServices013_IdentifiableA20EntityRepresentationMp
++ _$s18AppIntentsServices013_IdentifiableA20EntityRepresentationPAA015IntentValueTypeD0Tb
++ _$s18AppIntentsServices013_IdentifiableA20EntityRepresentationPAA0aE14TypeDescribingTb
++ _$s18AppIntentsServices013_IdentifiableA20EntityRepresentationPAA0aeF0Tb
++ _$s18AppIntentsServices013_IdentifiableA20EntityRepresentationPAA28IntentValueOptionalWrappableTb
++ _$s18AppIntentsServices06CustomA24EntityRepresentationBaseC07displayF0AA07DisplayF0VSgvgTj
++ _$s18AppIntentsServices06CustomA24EntityRepresentationBaseC10identifierAA0aE10Identifier_pvgTj
++ _$s18AppIntentsServices06CustomA24EntityRepresentationBaseC10propertiesSayAA13NamedPropertyVGvgTj
++ _$s18AppIntentsServices06CustomA24EntityRepresentationBaseC11isTransientSbvgTj
++ _$s18AppIntentsServices06CustomA24EntityRepresentationBaseC12InstanceInfoVMa
++ _$s18AppIntentsServices06CustomA24EntityRepresentationBaseC15exportedContentAA16TransferableData_pSgvgTj
++ _$s18AppIntentsServices06CustomA24EntityRepresentationBaseC4from_7contextACXDSgSo7LNValueC_AA28IntentValueConversionContext_ptFZ
++ _$s18AppIntentsServices06CustomA24EntityRepresentationBaseC6originAA0A10IdentifierVvgTj
++ _$s18AppIntentsServices06CustomA24EntityRepresentationBaseC7lnValueSo7LNValueCSgvg
++ _$s18AppIntentsServices06CustomA24EntityRepresentationBaseCMm
++ _$s18AppIntentsServices06CustomA24EntityRepresentationBaseCMn
++ _$s18AppIntentsServices06CustomA24EntityRepresentationBaseCfd
++ _$s18AppIntentsServices06CustomA24EntityRepresentationBaseCyA2C12InstanceInfoVcfCTq
++ _$s18AppIntentsServices06CustomA24EntityRepresentationBaseCyA2C12InstanceInfoVcfc
++ _$s18AppIntentsServices0A18EnumRepresentationMp
++ _$s18AppIntentsServices0A18EnumRepresentationP14enumIdentifierSSvgZTq
++ _$s18AppIntentsServices0A18EnumRepresentationP8RawValueSY_s25LosslessStringConvertibleTn
++ _$s18AppIntentsServices0A18EnumRepresentationPAA27IntentValueTypeIdentifiableTb
++ _$s18AppIntentsServices0A18EnumRepresentationPAA28IntentValueOptionalWrappableTb
++ _$s18AppIntentsServices0A18EnumRepresentationPAAE11lnValueTypeSo07LNValueH0CvgZ
++ _$s18AppIntentsServices0A18EnumRepresentationPAAE4from_7contextxSgSo7LNValueC_AA28IntentValueConversionContext_ptFZ
++ _$s18AppIntentsServices0A18EnumRepresentationPAAE7lnValueSo7LNValueCSgvg
++ _$s18AppIntentsServices0A18EnumRepresentationPSYTb
++ _$s18AppIntentsServices0A18EnumRepresentationPs12CaseIterableTb
++ _$s18AppIntentsServices0A20EntityRepresentationMp
++ _$s18AppIntentsServices0A20EntityRepresentationP07displayE0AA07DisplayE0VSgvgTq
++ _$s18AppIntentsServices0A20EntityRepresentationP10identifierAA0aD10Identifier_pvgTq
++ _$s18AppIntentsServices0A20EntityRepresentationP10propertiesSayAA13NamedPropertyVGvgTq
++ _$s18AppIntentsServices0A20EntityRepresentationP11isTransientSbvgTq
++ _$s18AppIntentsServices0A20EntityRepresentationPAA11IntentValueTb
++ _$s18AppIntentsServices0A20EntityRepresentationPAA18OriginIdentifiableTb
++ _$s18AppIntentsServices0A20EntityRepresentationPAA22TransferableExportableTb
++ _$s18AppIntentsServices0A20EntityTypeDescribingMp
++ _$s18AppIntentsServices0A20EntityTypeDescribingP14typeIdentifierSSvgZTq
++ _$s18AppIntentsServices0A20EntityTypeDescribingP16bundleIdentifierSSvgZTq
++ _$s18AppIntentsServices0A20EntityTypeDescribingPAAE07lnValueE0So07LNValueE0CvgZ
++ _$s18AppIntentsServices0A20IntentRepresentationMp
++ _$s18AppIntentsServices0A20IntentRepresentationP16actionIdentifierSSvgZTq
++ _$s18AppIntentsServices0A20IntentRepresentationP16bundleIdentifierSSvgZTq
++ _$s18AppIntentsServices0A20IntentRepresentationP21exportToSpecificationAA0adH0VyFTq
++ _$s18AppIntentsServices0A20IntentRepresentationPAAE21exportToSpecificationAA0adH0VyF
++ _$s18AppIntentsServices11IntentValueMp
++ _$s18AppIntentsServices11IntentValueP02lnE0So7LNValueCSgvgTq
++ _$s18AppIntentsServices11IntentValueP10canConvertySbSo7LNValueCSgFZTq
++ _$s18AppIntentsServices11IntentValueP4from_7contextxSgSo7LNValueC_AA0dE17ConversionContext_ptFZTq
++ _$s18AppIntentsServices11IntentValuePAA23EntityPropertyWrappableTb
++ _$s18AppIntentsServices15IntentParameterC12wrappedValueACyxGx_tcfc
++ _$s18AppIntentsServices15IntentParameterC12wrappedValuexvg
++ _$s18AppIntentsServices15IntentParameterC12wrappedValuexvs
++ _$s18AppIntentsServices15IntentParameterCMn
++ _$s18AppIntentsServices18OriginIdentifiableMp
++ _$s18AppIntentsServices18OriginIdentifiableP6originAA0A10IdentifierVvgTq
++ _$s18AppIntentsServices22TransferableExportableMp
++ _$s18AppIntentsServices22TransferableExportableP15exportedContentAA0D4Data_pSgvgTq
++ _$s18AppIntentsServices23EntityPropertyWrappableMp
++ _$s18AppIntentsServices26IntentValueSequenceElementMp
++ _$s18AppIntentsServices26IntentValueSequenceElementP14canConvertFromySbSo11LNValueTypeCFZTq
++ _$s18AppIntentsServices26IntentValueSequenceElementPAA0dE0Tb
++ _$s18AppIntentsServices27IntentValueTypeIdentifiableMp
++ _$s18AppIntentsServices27IntentValueTypeIdentifiableP02lneF0So07LNValueF0CvgZTq
++ _$s18AppIntentsServices27IntentValueTypeIdentifiablePAA0dE15SequenceElementTb
++ _$s18AppIntentsServices27IntentValueTypeIdentifiablePAAE10canConvertySbSo7LNValueCSgFZ
++ _$s18AppIntentsServices27IntentValueTypeIdentifiablePAAE14canConvertFromySbSo07LNValueF0CFZ
++ _$s18AppIntentsServices28IntentValueOptionalWrappableMp
++ _$s18AppIntentsServices28IntentValueOptionalWrappablePAA0dE0Tb
++ _$s18SiriContactsCommon0A13ContactEntityC14typeIdentifierSSvgZ
++ _$s18SiriContactsCommon0A13ContactEntityC16bundleIdentifierSSvgZ
++ _$s18SiriContactsCommon0A13ContactEntityC18AppIntentsServices013_IdentifiablefE14RepresentationAAMc
++ _$s18SiriContactsCommon0A13ContactEntityC18AppIntentsServices0E17PropertyWrappableAAMc
++ _$s18SiriContactsCommon0A13ContactEntityC18AppIntentsServices0fE14RepresentationAAMc
++ _$s18SiriContactsCommon0A13ContactEntityC18AppIntentsServices0fE14TypeDescribingAAMc
++ _$s18SiriContactsCommon0A13ContactEntityC18AppIntentsServices11IntentValueAAMc
++ _$s18SiriContactsCommon0A13ContactEntityC18AppIntentsServices18OriginIdentifiableAAMc
++ _$s18SiriContactsCommon0A13ContactEntityC18AppIntentsServices22TransferableExportableAAMc
++ _$s18SiriContactsCommon0A13ContactEntityC18AppIntentsServices26IntentValueSequenceElementAAMc
++ _$s18SiriContactsCommon0A13ContactEntityC18AppIntentsServices27IntentValueTypeIdentifiableAAMc
++ _$s18SiriContactsCommon0A13ContactEntityC18AppIntentsServices28IntentValueOptionalWrappableAAMc
++ _$s18SiriContactsCommon0A13ContactEntityCMa
++ _$s18SiriContactsCommon0A13ContactEntityCMm
++ _$s18SiriContactsCommon0A13ContactEntityCMn
++ _$s18SiriContactsCommon0A13ContactEntityCMo
++ _$s18SiriContactsCommon0A13ContactEntityCMs
++ _$s18SiriContactsCommon0A13ContactEntityCfD
++ _$s18SiriContactsCommon0A13ContactEntityCfd
++ _$s18SiriContactsCommon0A13ContactEntityCyAC18AppIntentsServices06CustomfE18RepresentationBaseC12InstanceInfoVcfC
++ _$s18SiriContactsCommon0A13ContactEntityCyAC18AppIntentsServices06CustomfE18RepresentationBaseC12InstanceInfoVcfc
++ _$s18SiriContactsCommon0A21ViewContactCardIntentV16actionIdentifierSSvgZ
++ _$s18SiriContactsCommon0A21ViewContactCardIntentV16bundleIdentifierSSvgZ
++ _$s18SiriContactsCommon0A21ViewContactCardIntentV18AppIntentsServices0hG14RepresentationAAMc
++ _$s18SiriContactsCommon0A21ViewContactCardIntentV18contactIdentifiersACSaySSG_tcfC
++ _$s18SiriContactsCommon0A21ViewContactCardIntentVAA0ab3AppG0AAMc
++ _$s18SiriContactsCommon0A21ViewContactCardIntentVAA0ab3AppG0AAWP
++ _$s18SiriContactsCommon0A21ViewContactCardIntentVMa
++ _$s18SiriContactsCommon0A21ViewContactCardIntentVMn
++ _$s18SiriContactsCommon0A21ViewContactCardIntentVN
++ _$s18SiriContactsCommon0A23HighlightedPropertyTypeO11phoneNumberyA2CmFWC
++ _$s18SiriContactsCommon0A23HighlightedPropertyTypeO12emailAddressyA2CmFWC
++ _$s18SiriContactsCommon0A23HighlightedPropertyTypeO13postalAddressyA2CmFWC
++ _$s18SiriContactsCommon0A23HighlightedPropertyTypeO14enumIdentifierSSvMZ
++ _$s18SiriContactsCommon0A23HighlightedPropertyTypeO14enumIdentifierSSvgZ
++ _$s18SiriContactsCommon0A23HighlightedPropertyTypeO14enumIdentifierSSvsZ
++ _$s18SiriContactsCommon0A23HighlightedPropertyTypeO15contactRelationyA2CmFWC
++ _$s18SiriContactsCommon0A23HighlightedPropertyTypeO18AppIntentsServices011IntentValueF12IdentifiableAAMc
++ _$s18SiriContactsCommon0A23HighlightedPropertyTypeO18AppIntentsServices06EntityE9WrappableAAMc
++ _$s18SiriContactsCommon0A23HighlightedPropertyTypeO18AppIntentsServices0G18EnumRepresentationAAMc
++ _$s18SiriContactsCommon0A23HighlightedPropertyTypeO18AppIntentsServices11IntentValueAAMc
++ _$s18SiriContactsCommon0A23HighlightedPropertyTypeO18AppIntentsServices26IntentValueSequenceElementAAMc
++ _$s18SiriContactsCommon0A23HighlightedPropertyTypeO18AppIntentsServices28IntentValueOptionalWrappableAAMc
++ _$s18SiriContactsCommon0A23HighlightedPropertyTypeO4noteyA2CmFWC
++ _$s18SiriContactsCommon0A23HighlightedPropertyTypeO6customyA2CmFWC
++ _$s18SiriContactsCommon0A23HighlightedPropertyTypeO8allCasesSayACGvgZ
++ _$s18SiriContactsCommon0A23HighlightedPropertyTypeO8birthdayyA2CmFWC
++ _$s18SiriContactsCommon0A23HighlightedPropertyTypeO8rawValueACSgSS_tcfC
++ _$s18SiriContactsCommon0A23HighlightedPropertyTypeO8rawValueSSvg
++ _$s18SiriContactsCommon0A23HighlightedPropertyTypeO8rawValueSSvpMV
++ _$s18SiriContactsCommon0A23HighlightedPropertyTypeOMa
++ _$s18SiriContactsCommon0A23HighlightedPropertyTypeOMn
++ _$s18SiriContactsCommon0A23HighlightedPropertyTypeON
++ _$s18SiriContactsCommon0A23HighlightedPropertyTypeOSHAAMc
++ _$s18SiriContactsCommon0A23HighlightedPropertyTypeOSQAAMc
++ _$s18SiriContactsCommon0A23HighlightedPropertyTypeOSYAAMc
++ _$s18SiriContactsCommon0A23HighlightedPropertyTypeOs12CaseIterableAAMc
++ _$s18SiriContactsCommon0aB9AppIntentMp
++ _$s18SiriContactsCommon0aB9AppIntentP0D15IntentsServices0dE14RepresentationTb
++ _$s18SiriContactsCommon0aB9AppIntentTL
++ _$s18SiriContactsCommon20AppIntentTransformerO011transformTodE012snippetModelAA0abdE0_pSgAA0dE13Transformable_p_tFZ
++ _$s18SiriContactsCommon20AppIntentTransformerOMa
++ _$s18SiriContactsCommon20AppIntentTransformerOMn
++ _$s18SiriContactsCommon20AppIntentTransformerON
++ _$s18SiriContactsCommon22AppIntentTransformableMp
++ _$s18SiriContactsCommon22GetContactSnippetModelV17contactIdentifierSSvg
++ _$s18SiriContactsCommon22GetContactSnippetModelV17contactIdentifierSSvpMV
++ _$s18SiriContactsCommon22GetContactSnippetModelVAA22AppIntentTransformableAAMc
++ _$s18SiriContactsCommon22GetContactSnippetModelVAA22AppIntentTransformableAAWP
++ _$s18SiriContactsCommon31GetContactAttributeSnippetModelVAA22AppIntentTransformableAAMc
++ _$s18SiriContactsCommon31GetContactAttributeSnippetModelVAA22AppIntentTransformableAAWP
++ _$s6Output18AppIntentsServices0B20IntentRepresentationPTl
++ _$sSSs25LosslessStringConvertiblesWP
++ _$ss9_typeName_9qualifiedSSypXp_SbtF
++ _OBJC_METACLASS_$__TtCs12_SwiftObject
++ _swift_beginAccess
++ _swift_deallocClassInstance
++ _swift_endAccess
++ _swift_getDynamicType
++ _swift_initClassMetadata2
++ _swift_release_n
++ _swift_retain_n
+CStrings:
++ "#AppIntentTransformer added highlightPropertyType %!s(MISSING)"
++ "#AppIntentTransformer added highlightedValue %!s(MISSING) | %!s(MISSING)"
++ "#AppIntentTransformer error: no attributes found!"
++ "#AppIntentTransformer received unhandled intent type %!s(MISSING), returning nil"
++ "#AppIntentTransformer transformToAppIntent failed to transform intent of type %!s(MISSING)"
++ "ContactPropertyType"
++ "ContactsAppViewCardIntent"
++ "_TtC18SiriContactsCommon17SiriContactEntity"
++ "com.apple.MobileAddressBook"
++ "contactRelation"
++ "custom"
++ "emailAddress"
++ "note"
+
+```

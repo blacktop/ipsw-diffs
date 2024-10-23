@@ -1,0 +1,1122 @@
+## asktod
+
+> `/usr/libexec/asktod`
+
+```diff
+
+-41.100.1.0.0
+-  __TEXT.__text: 0x3459c
+-  __TEXT.__auth_stubs: 0x14f0
+-  __TEXT.__objc_methlist: 0x98
+-  __TEXT.__const: 0x11c0
+-  __TEXT.__cstring: 0x1caa
+-  __TEXT.__objc_methname: 0xe14
+-  __TEXT.__oslogstring: 0x285e
++41.200.1.0.0
++  __TEXT.__text: 0x35c
++  __TEXT.__auth_stubs: 0x150
++  __TEXT.__const: 0x32
++  __TEXT.__objc_methname: 0x13
++  __TEXT.__oslogstring: 0x3f
+   __TEXT.__swift5_entry: 0x8
+-  __TEXT.__constg_swiftt: 0x9fc
+-  __TEXT.__swift5_typeref: 0xd2b
+-  __TEXT.__swift5_builtin: 0x64
+-  __TEXT.__swift5_types: 0x88
+-  __TEXT.__objc_classname: 0x77
+-  __TEXT.__objc_methtype: 0x936
+-  __TEXT.__swift5_reflstr: 0xa8d
+-  __TEXT.__swift5_fieldmd: 0x8d4
+-  __TEXT.__swift5_capture: 0x2fc
+-  __TEXT.__swift5_proto: 0xe0
+-  __TEXT.__swift5_assocty: 0xf0
+-  __TEXT.__swift5_mpenum: 0x28
+-  __TEXT.__swift5_protos: 0x48
+-  __TEXT.__unwind_info: 0xa28
+-  __TEXT.__eh_frame: 0x1438
+-  __DATA_CONST.__auth_got: 0xa78
+-  __DATA_CONST.__got: 0x2b0
+-  __DATA_CONST.__auth_ptr: 0x3b8
+-  __DATA_CONST.__const: 0x17e8
+-  __DATA_CONST.__objc_classlist: 0x40
+-  __DATA_CONST.__objc_protolist: 0xa0
++  __TEXT.__unwind_info: 0x70
++  __DATA_CONST.__auth_got: 0xa8
++  __DATA_CONST.__got: 0x8
++  __DATA_CONST.__const: 0x110
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_protorefs: 0x60
+-  __DATA.__objc_const: 0x14e0
+-  __DATA.__objc_selrefs: 0x230
+-  __DATA.__objc_data: 0x178
+-  __DATA.__data: 0x11e0
+-  __DATA.__bss: 0x1490
+-  __DATA.__common: 0x108
++  __DATA.__objc_selrefs: 0x10
++  __DATA.__data: 0x28
++  __DATA.__common: 0x18
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+-  - /System/Library/Frameworks/CoreServices.framework/CoreServices
+-  - /System/Library/Frameworks/ExtensionFoundation.framework/ExtensionFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+-  - /System/Library/Frameworks/ImageIO.framework/ImageIO
+-  - /System/Library/Frameworks/Security.framework/Security
+-  - /System/Library/PrivateFrameworks/AAAFoundationSwift.framework/AAAFoundationSwift
+-  - /System/Library/PrivateFrameworks/AskToCore.framework/AskToCore
+-  - /System/Library/PrivateFrameworks/AssertionServices.framework/AssertionServices
+-  - /System/Library/PrivateFrameworks/BiomeStorage.framework/BiomeStorage
+-  - /System/Library/PrivateFrameworks/BiomeStreams.framework/BiomeStreams
+-  - /System/Library/PrivateFrameworks/FamilyCircle.framework/FamilyCircle
+-  - /System/Library/PrivateFrameworks/IDS.framework/IDS
+-  - /System/Library/PrivateFrameworks/IDSFoundation.framework/IDSFoundation
+-  - /System/Library/PrivateFrameworks/IMCore.framework/IMCore
+-  - /System/Library/PrivateFrameworks/IMSharedUtilities.framework/IMSharedUtilities
+-  - /System/Library/PrivateFrameworks/People.framework/People
+-  - /System/Library/PrivateFrameworks/ScreenTimeCore.framework/ScreenTimeCore
++  - /System/Library/PrivateFrameworks/AskToDaemon.framework/AskToDaemon
+   - /System/Library/PrivateFrameworks/UIKitCore.framework/UIKitCore
+   - /usr/lib/libSystem.B.dylib
+-  - /usr/lib/libbsm.0.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/swift/libswiftAVFoundation.dylib
+   - /usr/lib/swift/libswiftAccelerate.dylib
+
+   - /usr/lib/swift/libswiftVideoToolbox.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+-  - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswift_errno.dylib
+   - /usr/lib/swift/libswift_math.dylib
+   - /usr/lib/swift/libswift_signal.dylib
+
+   - /usr/lib/swift/libswiftsimd.dylib
+   - /usr/lib/swift/libswiftsys_time.dylib
+   - /usr/lib/swift/libswiftunistd.dylib
+-  Functions: 792
+-  Symbols:   521
+-  CStrings:  555
++  Functions: 5
++  Symbols:   58
++  CStrings:  4
+ 
+Symbols:
++ _$s11AskToDaemon0C0C7startupyyF
++ _$s11AskToDaemon0C0CACycfc
++ _$s11AskToDaemon0C0CMa
+- _$s10Foundation12CharacterSetV22whitespacesAndNewlinesACvgZ
+- _$s10Foundation12CharacterSetVMa
+- _$s10Foundation12URLQueryItemV4name5valueACSSh_SSSghtcfC
+- _$s10Foundation12URLQueryItemV4nameSSvg
+- _$s10Foundation12URLQueryItemV5valueSSSgvg
+- _$s10Foundation12URLQueryItemVMa
+- _$s10Foundation12URLQueryItemVMn
+- _$s10Foundation13URLComponentsV10queryItemsSayAA12URLQueryItemVGSgvg
+- _$s10Foundation13URLComponentsV10queryItemsSayAA12URLQueryItemVGSgvs
+- _$s10Foundation13URLComponentsV3url23resolvingAgainstBaseURLACSgAA0G0Vh_SbtcfC
+- _$s10Foundation13URLComponentsV3urlAA3URLVSgvg
+- _$s10Foundation13URLComponentsVMa
+- _$s10Foundation13URLComponentsVMn
+- _$s10Foundation14LocalizedErrorMp
+- _$s10Foundation14LocalizedErrorP10helpAnchorSSSgvgTq
+- _$s10Foundation14LocalizedErrorP13failureReasonSSSgvgTq
+- _$s10Foundation14LocalizedErrorP16errorDescriptionSSSgvgTq
+- _$s10Foundation14LocalizedErrorP18recoverySuggestionSSSgvgTq
+- _$s10Foundation14LocalizedErrorPAAE10helpAnchorSSSgvg
+- _$s10Foundation14LocalizedErrorPAAE13failureReasonSSSgvg
+- _$s10Foundation14LocalizedErrorPAAE18recoverySuggestionSSSgvg
+- _$s10Foundation14LocalizedErrorPs0C0Tb
+- _$s10Foundation22_convertErrorToNSErrorySo0E0Cs0C0_pF
+- _$s10Foundation22_convertNSErrorToErrorys0E0_pSo0C0CSgF
+- _$s10Foundation3URLV14absoluteStringSSvg
+- _$s10Foundation3URLV19_bridgeToObjectiveCSo5NSURLCyF
+- _$s10Foundation3URLV36_unconditionallyBridgeFromObjectiveCyACSo5NSURLCSgFZ
+- _$s10Foundation3URLVMa
+- _$s10Foundation3URLVMn
+- _$s10Foundation3URLVs23CustomStringConvertibleAAMc
+- _$s10Foundation4DataV15_RepresentationON
+- _$s10Foundation4DataV19_bridgeToObjectiveCSo6NSDataCyF
+- _$s10Foundation4DataV36_unconditionallyBridgeFromObjectiveCyACSo6NSDataCSgFZ
+- _$s10Foundation4DataVMn
+- _$s10Foundation4DataVN
+- _$s10Foundation4UUIDV10uuidStringSSvg
+- _$s10Foundation4UUIDVACycfC
+- _$s10Foundation4UUIDVMa
+- _$s10Foundation4UUIDVMn
+- _$s18AAAFoundationSwift13OSTransactionC4nameACs12StaticStringV_tcfc
+- _$s18AAAFoundationSwift13OSTransactionC8completeyyF
+- _$s18AAAFoundationSwift13OSTransactionCMa
+- _$s19ExtensionFoundation04_AppA7ProcessV10auditTokenSo0E8_token_tavg
+- _$s19ExtensionFoundation04_AppA7ProcessV13ConfigurationV03appA014onInterruptionAeA01_cA8IdentityV_yyctcfC
+- _$s19ExtensionFoundation04_AppA7ProcessV13ConfigurationVMa
+- _$s19ExtensionFoundation04_AppA7ProcessV13configurationA2C13ConfigurationV_tYaKcfC
+- _$s19ExtensionFoundation04_AppA7ProcessV13configurationA2C13ConfigurationV_tYaKcfCTu
+- _$s19ExtensionFoundation04_AppA7ProcessV17makeXPCConnectionSo15NSXPCConnectionCyKF
+- _$s19ExtensionFoundation04_AppA7ProcessVMa
+- _$s19ExtensionFoundation04_AppA8IdentityVMa
+- _$s19ExtensionFoundation04_AppA8IdentityVyACSo012_EXExtensionD0CcfC
+- _$s2IDs12IdentifiablePTl
+- _$s5AskTo10ATQuestionC11descriptionSSvg
+- _$s5AskTo10ATQuestionC13answerChoicesSayAA14ATAnswerChoiceCGvg
+- _$s5AskTo10ATQuestionC13answerChoicesSayAA14ATAnswerChoiceCGvs
+- _$s5AskTo10ATQuestionC2id5topic5title7summaryACSS_AC5TopicCS2StcfC
+- _$s5AskTo10ATQuestionC2idSSvg
+- _$s5AskTo10ATQuestionC33associatedContentBundleIdentifierSSSgvs
+- _$s5AskTo10ATQuestionC5TopicC8rawValueAESS_tcfc
+- _$s5AskTo10ATQuestionC5TopicC8rawValueSSvg
+- _$s5AskTo10ATQuestionC5TopicCMa
+- _$s5AskTo10ATQuestionC5TopicCMn
+- _$s5AskTo10ATQuestionC5topicAC5TopicCvg
+- _$s5AskTo10ATQuestionCMa
+- _$s5AskTo10ATQuestionCMn
+- _$s5AskTo14ATAnswerChoiceC2id5title21completedRequestTitleACSS_S2SSgtcfc
+- _$s5AskTo14ATAnswerChoiceC2idSSvg
+- _$s5AskTo14ATAnswerChoiceC4kindAC4KindOvs
+- _$s5AskTo14ATAnswerChoiceCMa
+- _$s5AskTo14ATAnswerChoiceCMn
+- _$s5AskTo16ATRecipientGroupO16debugDescriptionSSvg
+- _$s5AskTo16ATRecipientGroupO8isFamilySbvg
+- _$s5AskTo16ATRecipientGroupO8rawValues5Int16Vvg
+- _$s5AskTo16ATRecipientGroupOMn
+- _$s6People0A12LegacyResultC4data10Foundation4DataVSgvg
+- _$s6People0A12LegacyResultC8bundleIDSSvg
+- _$s6People0A20LegacyExtensionPointO10identifierSSvgZ
+- _$s6People0A20LegacyExtensionPointOMa
+- _$s6People0A20LegacyExtensionPointOMn
+- _$s6People0A20LegacyExtensionPointON
+- _$s6People14MessageDetailsV11EventSourceO10screenTimeyA2EmFWC
+- _$s6People14MessageDetailsV11EventSourceO7unknownyA2EmFWC
+- _$s6People14MessageDetailsV11EventSourceO8askToBuyyA2EmFWC
+- _$s6People14MessageDetailsV11EventSourceO8rawValueSSvg
+- _$s6People14MessageDetailsV11EventSourceOMa
+- _$s6People14MessageDetailsV11EventSourceOMn
+- _$s6People14MessageDetailsV11EventSourceOSQAAMc
+- _$s6People14MessageDetailsV11detailsFromyAC10Foundation13URLComponentsVKFZ
+- _$s6People14MessageDetailsV11eventSourceAC05EventE0OSgvg
+- _$s6People14MessageDetailsV13bubbleCaptionSSvg
+- _$s6People14MessageDetailsV8bundleIdSSSgvg
+- _$s6People14MessageDetailsV9requestIDSSvg
+- _$s6People14MessageDetailsVMa
+- _$s8AllCasess12CaseIterablePTl
+- _$s8Dispatch0A3QoSV10backgroundACvgZ
+- _$s8Dispatch0A3QoSV11unspecifiedACvgZ
+- _$s8Dispatch0A3QoSVMa
+- _$s8RawValueSYTl
+- _$s9AskToCore0aB14ExtensionPointO10identifierSSvgZ
+- _$s9AskToCore10ATResponseC12chosenAnswer0aB014ATAnswerChoiceCvg
+- _$s9AskToCore10ATResponseC16originalQuestion0aB010ATQuestionCvg
+- _$s9AskToCore10ATResponseC16originalQuestion15responderHandle12chosenAnswerAC0aB010ATQuestionC_SSAG14ATAnswerChoiceCtcfc
+- _$s9AskToCore10ATResponseCMa
+- _$s9AskToCore12IconProviderV017associatedContentD03forAA0D0VAA9ATPayloadC_tF
+- _$s9AskToCore12IconProviderV06clientD03for7isBadgeAA0D0VAA9ATPayloadC_SbtF
+- _$s9AskToCore12IconProviderVACycfC
+- _$s9AskToCore12IconProviderVMa
+- _$s9AskToCore4IconV5imageSo10CGImageRefavg
+- _$s9AskToCore4IconV7isBlankSbvg
+- _$s9AskToCore4IconVMa
+- _$s9AskToCore5ATURLO6ParserV5parse_4fromxxm_10Foundation3URLVtKSeRzSERzlF
+- _$s9AskToCore5ATURLO6ParserVAEycfC
+- _$s9AskToCore5ATURLO6ParserVMa
+- _$s9AskToCore5ATURLO6create5using10Foundation3URLVSgAA9ATPayloadC_tKFZ
+- _$s9AskToCore7MetricsO14RequestJourneyO3log22clientBundleIdentifier13questionTopic10checkpointySSSg_0aB010ATQuestionC0L0CAE10CheckpointOtFZ
+- _$s9AskToCore7MetricsO15ResponseJourneyO10EntryPointOMn
+- _$s9AskToCore7MetricsO15ResponseJourneyO3log22clientBundleIdentifier13questionTopic10checkpoint10entryPointySSSg_0aB010ATQuestionC0L0CAE10CheckpointOAE05EntryO0OtFZ
+- _$s9AskToCore9ATPayloadC11messageGUIDSSvg
+- _$s9AskToCore9ATPayloadC15originalPayload11newResponseA2C_AA10ATResponseCtcfC
+- _$s9AskToCore9ATPayloadC22clientBundleIdentifier0e4AdamG011messageGUID17rawRecipientGroup11isForFamily8questionACSSSg_s6UInt64VSgSSs5Int16VSb0aB010ATQuestionCtcfC
+- _$s9AskToCore9ATPayloadC22clientBundleIdentifier0e4AdamG017rawRecipientGroup11isForFamily8questionACSSSg_s6UInt64VSgs5Int16VSb0aB010ATQuestionCtcfC
+- _$s9AskToCore9ATPayloadC22clientBundleIdentifierSSSgvg
+- _$s9AskToCore9ATPayloadC24dictionaryRepresentationACSDySSypG_tKcfC
+- _$s9AskToCore9ATPayloadC8question0aB010ATQuestionCvg
+- _$s9AskToCore9ATPayloadC8responseAA10ATResponseCSgvg
+- _$s9AskToCore9ATPayloadCMa
+- _$s9AskToCore9ATPayloadCMn
+- _$s9AskToCore9ATPayloadCSEAAMc
+- _$s9AskToCore9ATPayloadCSeAAMc
+- _$s9AskToCore9TransportO8rawValues5Int16Vvg
+- _$s9AskToCore9TransportOMn
+- _$sBOWV
+- _$sBbWV
+- _$sBi64_WV
+- _$sBoWV
+- _$sSD10FoundationE36_unconditionallyBridgeFromObjectiveCySDyxq_GSo12NSDictionaryCSgFZ
+- _$sSD11descriptionSSvg
+- _$sSD11removeValue6forKeyq_Sgx_tF
+- _$sSD4KeysV11descriptionSSvg
+- _$sSDMa
+- _$sSDyq_Sgxcis
+- _$sSH13_rawHashValue4seedS2i_tFTq
+- _$sSH4hash4intoys6HasherVz_tFTq
+- _$sSH9hashValueSivgTq
+- _$sSHMp
+- _$sSHSQTb
+- _$sSQ2eeoiySbx_xtFZTj
+- _$sSQ2eeoiySbx_xtFZTq
+- _$sSQMp
+- _$sSS10FoundationE19_bridgeToObjectiveCSo8NSStringCyF
+- _$sSS10FoundationE36_unconditionallyBridgeFromObjectiveCySSSo8NSStringCSgFZ
+- _$sSS10describingSSx_tclufC
+- _$sSS18_uncheckedFromUTF8ySSSRys5UInt8VGFZ
+- _$sSS4hash4intoys6HasherVz_tF
+- _$sSS6PeopleE9localizedSSvg
+- _$sSS6appendyySSF
+- _$sSS8UTF8ViewV13_foreignCountSiyF
+- _$sSS8UTF8ViewV13_foreignIndex5afterSS0D0VAF_tF
+- _$sSS8UTF8ViewV13_foreignIndex_8offsetBySS0D0VAF_SitF
+- _$sSS8UTF8ViewV16_foreignDistance4from2toSiSS5IndexV_AGtF
+- _$sSS8UTF8ViewV17_foreignSubscript8positions5UInt8VSS5IndexV_tF
+- _$sSS9UTF16ViewV5index_8offsetBySS5IndexVAF_SitF
+- _$sSSN
+- _$sSSSHsWP
+- _$sSSSTsWP
+- _$sSSSysMc
+- _$sSSs25LosslessStringConvertiblesWP
+- _$sSSs5Error6PeopleMc
+- _$sSSySSxcs25LosslessStringConvertibleRzSTRzSJ7ElementSTRtzlufC
+- _$sSSySsSnySS5IndexVGcig
+- _$sSY8rawValue03RawB0QzvgTq
+- _$sSY8rawValuexSg03RawB0Qz_tcfCTq
+- _$sSYMp
+- _$sSa034_makeUniqueAndReserveCapacityIfNotB0yyFyXl_Ts5
+- _$sSa10FoundationE19_bridgeToObjectiveCSo7NSArrayCyF
+- _$sSa10FoundationE36_unconditionallyBridgeFromObjectiveCySayxGSo7NSArrayCSgFZ
+- _$sSa11descriptionSSvg
+- _$sSa12_endMutationyyFyXl_Ts5
+- _$sSa16_createNewBuffer14bufferIsUnique15minimumCapacity13growForAppendySb_SiSbtFyXl_Ts5
+- _$sSa37_appendElementAssumeUniqueAndCapacity_03newB0ySi_xntFyXl_Ts5
+- _$sSayxGSTsMc
+- _$sSayxGSlsMc
+- _$sSbN
+- _$sScA15unownedExecutorScevgTj
+- _$sScC6resume8throwingyq_n_tF
+- _$sScC6resume9returningyxn_tF
+- _$sScP8rawValues5UInt8Vvg
+- _$sScPMa
+- _$sSh10FoundationE36_unconditionallyBridgeFromObjectiveCyShyxGSo5NSSetCSgFZ
+- _$sSh11descriptionSSvg
+- _$sSiN
+- _$sSis23CustomStringConvertiblesWP
+- _$sSo12PeopleClientC0A0E38canSendFamilyScreenTimeRequestIMessageSbyYaKF
+- _$sSo12PeopleClientC0A0E38canSendFamilyScreenTimeRequestIMessageSbyYaKFTu
+- _$sSo13os_log_type_ta0A0E5debugABvgZ
+- _$sSo13os_log_type_ta0A0E5faultABvgZ
+- _$sSo13os_log_type_ta0A0E7defaultABvgZ
+- _$sSo14FAFamilyCircleC06FamilyB0E14guardiansNotMeSaySo0A6MemberCGyF
+- _$sSo17OS_dispatch_groupC8DispatchE4waityyF
+- _$sSo17OS_dispatch_queueC8DispatchE10AttributesVMa
+- _$sSo17OS_dispatch_queueC8DispatchE10AttributesVMn
+- _$sSo17OS_dispatch_queueC8DispatchE10AttributesVs10SetAlgebraACMc
+- _$sSo17OS_dispatch_queueC8DispatchE20AutoreleaseFrequencyO8workItemyA2EmFWC
+- _$sSo17OS_dispatch_queueC8DispatchE20AutoreleaseFrequencyOMa
+- _$sSo17OS_dispatch_queueC8DispatchE5label3qos10attributes20autoreleaseFrequency6targetABSS_AC0D3QoSVAbCE10AttributesVAbCE011AutoreleaseI0OABSgtcfC
+- _$sSo24OS_dispatch_queue_serialC8DispatchE10AttributesVMa
+- _$sSo24OS_dispatch_queue_serialC8DispatchE10AttributesVMn
+- _$sSo24OS_dispatch_queue_serialC8DispatchE10AttributesVs10SetAlgebraACMc
+- _$sSo24OS_dispatch_queue_serialC8DispatchE5label3qos10attributes20autoreleaseFrequency6targetABSS_AC0E3QoSVAbCE10AttributesVSo0a1_b1_C0CACE011AutoreleaseJ0OANSgtcfC
+- _$sSo28OS_dispatch_queue_concurrentC8DispatchE10AttributesVMa
+- _$sSo28OS_dispatch_queue_concurrentC8DispatchE10AttributesVMn
+- _$sSo28OS_dispatch_queue_concurrentC8DispatchE10AttributesVs10SetAlgebraACMc
+- _$sSo28OS_dispatch_queue_concurrentC8DispatchE5label3qos10attributes20autoreleaseFrequency6targetABSS_AC0E3QoSVAbCE10AttributesVSo0a1_b1_C0CACE011AutoreleaseJ0OANSgtcfC
+- _$sSo6NSDataC10FoundationE10startIndexSivg
+- _$sSo6NSDataC10FoundationE8endIndexSivg
+- _$sSo8NSObjectC10ObjectiveCE13_rawHashValue4seedS2i_tF
+- _$sSo8NSObjectC10ObjectiveCE2eeoiySbAB_ABtFZ
+- _$sSo8NSObjectCSH10ObjectiveCMc
+- _$sSw10copyMemory4fromySW_tF
+- _$sSwys5UInt8VSicis
+- _$sSy10FoundationE18trimmingCharacters2inSSAA12CharacterSetV_tF
+- _$ss018_bridgeAnyObjectToB0yypyXlSgF
+- _$ss10SetAlgebraPyxqd__ncSTRd__7ElementQyd__ACRtzlufCTj
+- _$ss10_HashTableV12previousHole6beforeAB6BucketVAF_tF
+- _$ss11AnyHashableV11descriptionSSvg
+- _$ss11AnyHashableV13_rawHashValue4seedS2i_tF
+- _$ss11AnyHashableV2eeoiySbAB_ABtFZ
+- _$ss11AnyHashableVMn
+- _$ss11AnyHashableVN
+- _$ss11AnyHashableVSHsWP
+- _$ss11_SetStorageC4copy8originalAByxGs05__RawaB0C_tFZ
+- _$ss11_SetStorageC6resize8original8capacity4moveAByxGs05__RawaB0C_SiSbtFZ
+- _$ss11_SetStorageC8allocate8capacityAByxGSi_tFZ
+- _$ss11_SetStorageCMn
+- _$ss11_StringGutsV4growyySiF
+- _$ss11_StringGutsV8copyUTF84intoSiSgSrys5UInt8VG_tF
+- _$ss11_StringGutsVN
+- _$ss12CaseIterableMp
+- _$ss12CaseIterableP8AllCasesAB_SlTn
+- _$ss12CaseIterableP8allCases03AllD0QzvgZTq
+- _$ss12IdentifiableMp
+- _$ss12IdentifiableP2IDAB_SHTn
+- _$ss12IdentifiableP2id2IDQzvgTj
+- _$ss12IdentifiableP2id2IDQzvgTq
+- _$ss12IdentifiableTL
+- _$ss12_ArrayBufferV19_getElementSlowPathyyXlSiFyXl_Ts5
+- _$ss13_StringObjectV10sharedUTF8SRys5UInt8VGvg
+- _$ss15_print_unlockedyyx_q_zts16TextOutputStreamR_r0_lF
+- _$ss17_assertionFailure__4file4line5flagss5NeverOs12StaticStringV_A2HSus6UInt32VtF
+- _$ss17_assertionFailure__4file4line5flagss5NeverOs12StaticStringV_SSAHSus6UInt32VtF
+- _$ss17_bridgeCocoaArrayySayxGyXllF
+- _$ss18_CocoaArrayWrapperV8endIndexSivg
+- _$ss18_DictionaryStorageC4copy8originalAByxq_Gs05__RawaB0C_tFZ
+- _$ss18_DictionaryStorageC6resize8original8capacity4moveAByxq_Gs05__RawaB0C_SiSbtFZ
+- _$ss18_DictionaryStorageC8allocate8capacityAByxq_GSi_tFZ
+- _$ss18_DictionaryStorageCMn
+- _$ss18_fatalErrorMessage__4file4line5flagss5NeverOs12StaticStringV_A2HSus6UInt32VtF
+- _$ss20__StaticArrayStorageCN
+- _$ss21_findStringSwitchCase5cases6stringSiSays06StaticB0VG_SStF
+- _$ss23CustomStringConvertibleMp
+- _$ss23CustomStringConvertibleP11descriptionSSvgTj
+- _$ss23CustomStringConvertibleP11descriptionSSvgTq
+- _$ss23_ContiguousArrayStorageCMn
+- _$ss23withCheckedContinuation9isolation8function_xScA_pSgYi_SSyScCyxs5NeverOGXEtYalF
+- _$ss23withCheckedContinuation9isolation8function_xScA_pSgYi_SSyScCyxs5NeverOGXEtYalFTu
+- _$ss26DefaultStringInterpolationVN
+- _$ss26DefaultStringInterpolationVs16TextOutputStreamsWP
+- _$ss27_stringCompareWithSmolCheck__9expectingSbs11_StringGutsV_ADs01_G16ComparisonResultOtF
+- _$ss28__ContiguousArrayStorageBaseC17staticElementTypeypXpvgTj
+- _$ss31withCheckedThrowingContinuation9isolation8function_xScA_pSgYi_SSyScCyxs5Error_pGXEtYaKlF
+- _$ss31withCheckedThrowingContinuation9isolation8function_xScA_pSgYi_SSyScCyxs5Error_pGXEtYaKlFTu
+- _$ss50ELEMENT_TYPE_OF_SET_VIOLATES_HASHABLE_REQUIREMENTSys5NeverOypXpF
+- _$ss53KEY_TYPE_OF_DICTIONARY_VIOLATES_HASHABLE_REQUIREMENTSys5NeverOypXpF
+- _$ss5ErrorMp
+- _$ss5ErrorP10FoundationE20localizedDescriptionSSvg
+- _$ss5ErrorP19_getEmbeddedNSErroryXlSgyFTq
+- _$ss5ErrorP5_codeSivgTq
+- _$ss5ErrorP7_domainSSvgTq
+- _$ss5ErrorP9_userInfoyXlSgvgTq
+- _$ss5ErrorPsE19_getEmbeddedNSErroryXlSgyF
+- _$ss5ErrorPsE5_codeSivg
+- _$ss5ErrorPsE7_domainSSvg
+- _$ss5ErrorPsE9_userInfoyXlSgvg
+- _$ss5ErrorWS
+- _$ss5Int32VMn
+- _$ss5Int32VN
+- _$ss5Int32Vs23CustomStringConvertiblesWP
+- _$ss5NeverOMn
+- _$ss5UInt8VMn
+- _$ss6HasherV5_seedABSi_tcfC
+- _$ss6HasherV8_combineyySuF
+- _$ss6HasherV9_finalizeSiyF
+- _$ss6UInt64VMn
+- _$ss7KeyPathCMn
+- _$syXlN
+- _$sypN
+- _$sytN
+- _$sytWV
+- _CFDataCreateMutable
+- _CGImageDestinationAddImage
+- _CGImageDestinationCreateWithData
+- _CGImageDestinationFinalize
+- _IDSCopyBestGuessIDForID
+- _IDSRegistrationPropertySupportsAskTo
+- _IDSRegistrationPropertySupportsPeopleRequestMessages
+- _IMBalloonBundleIdentifierLegacyScreenTime
+- _IMBalloonExtensionIDWithSuffix
+- _IMSPIBatchFetchMessageGUIDsWithBalloonBundleID
+- _IMSPISendMSMessagePayloadReturningGUID
+- _IMSPIUpdatePluginMessageWithGUID
+- _OBJC_CLASS_$_BKSProcessAssertion
+- _OBJC_CLASS_$_BMBiomeScheduler
+- _OBJC_CLASS_$_BMStoreEvent
+- _OBJC_CLASS_$_BMStreams
+- _OBJC_CLASS_$_FAFamilyMember
+- _OBJC_CLASS_$_FAFetchFamilyCircleRequest
+- _OBJC_CLASS_$_IDSEndpoint
+- _OBJC_CLASS_$_IDSIDInfoOptions
+- _OBJC_CLASS_$_IDSIDInfoResult
+- _OBJC_CLASS_$_IDSIDQueryController
+- _OBJC_CLASS_$_IDSService
+- _OBJC_CLASS_$_LSApplicationRecord
+- _OBJC_CLASS_$_LSBundleRecord
+- _OBJC_CLASS_$_NSObject
+- _OBJC_CLASS_$_NSXPCInterface
+- _OBJC_CLASS_$_NSXPCListener
+- _OBJC_CLASS_$_OS_dispatch_queue
+- _OBJC_CLASS_$_OS_dispatch_queue_concurrent
+- _OBJC_CLASS_$_OS_dispatch_queue_serial
+- _OBJC_CLASS_$_PeopleClient
+- _OBJC_CLASS_$_STAskClient
+- _OBJC_CLASS_$__EXExtensionIdentity
+- _OBJC_CLASS_$__EXQuery
+- _OBJC_CLASS_$__EXQueryController
+- _OBJC_CLASS_$__TtCs12_SwiftObject
+- _OBJC_METACLASS_$_NSObject
+- _OBJC_METACLASS_$__TtCs12_SwiftObject
+- _SecTaskCopySigningIdentifier
+- _SecTaskCreateWithAuditToken
+- __Block_copy
+- __Block_release
+- __NSConcreteStackBlock
+- ___chkstk_darwin
+- ___stack_chk_fail
+- ___stack_chk_guard
+- __objc_empty_cache
+- __set_user_dir_suffix
+- __swiftEmptyArrayStorage
+- __swiftEmptyDictionarySingleton
+- __swiftEmptySetSingleton
+- __swiftImmortalRefCount
+- __swift_stdlib_bridgeErrorToNSError
+- __swift_stdlib_reportUnimplementedInitializer
+- _audit_token_to_pid
+- _bzero
+- _dispatch_group_create
+- _dispatch_group_enter
+- _dispatch_group_leave
+- _kUTTypePNG
+- _malloc_size
+- _memcpy
+- _memmove
+- _objc_allocWithZone
+- _objc_msgSendSuper2
+- _objc_release
+- _objc_release_x10
+- _objc_release_x21
+- _objc_release_x22
+- _objc_release_x23
+- _objc_release_x24
+- _objc_release_x25
+- _objc_release_x26
+- _objc_release_x27
+- _objc_release_x28
+- _objc_release_x8
+- _objc_release_x9
+- _objc_retain
+- _objc_retain_x1
+- _objc_retain_x19
+- _objc_retain_x2
+- _objc_retain_x20
+- _objc_retain_x21
+- _objc_retain_x22
+- _objc_retain_x23
+- _objc_retain_x24
+- _objc_retain_x25
+- _objc_retain_x26
+- _objc_retain_x27
+- _objc_retain_x28
+- _objc_retain_x8
+- _objc_retain_x9
+- _swift_allocBox
+- _swift_allocError
+- _swift_allocateGenericClassMetadata
+- _swift_allocateGenericValueMetadata
+- _swift_arrayDestroy
+- _swift_arrayInitWithCopy
+- _swift_arrayInitWithTakeBackToFront
+- _swift_arrayInitWithTakeFrontToBack
+- _swift_beginAccess
+- _swift_bridgeObjectRelease
+- _swift_bridgeObjectRelease_n
+- _swift_bridgeObjectRetain_n
+- _swift_continuation_await
+- _swift_continuation_init
+- _swift_continuation_resume
+- _swift_continuation_throwingResume
+- _swift_continuation_throwingResumeWithError
+- _swift_deallocClassInstance
+- _swift_deallocObject
+- _swift_deallocPartialClassInstance
+- _swift_deletedAsyncMethodErrorTu
+- _swift_deletedMethodError
+- _swift_dynamicCast
+- _swift_dynamicCastObjCClass
+- _swift_endAccess
+- _swift_errorRelease
+- _swift_errorRetain
+- _swift_getAssociatedConformanceWitness
+- _swift_getAssociatedTypeWitness
+- _swift_getDynamicType
+- _swift_getEnumTagSinglePayloadGeneric
+- _swift_getErrorValue
+- _swift_getForeignTypeMetadata
+- _swift_getGenericMetadata
+- _swift_getKeyPath
+- _swift_getMetatypeMetadata
+- _swift_getObjCClassMetadata
+- _swift_getObjectType
+- _swift_getSingletonMetadata
+- _swift_getTypeByMangledNameInContext2
+- _swift_getTypeByMangledNameInContextInMetadataState2
+- _swift_getWitnessTable
+- _swift_initClassMetadata2
+- _swift_initStackObject
+- _swift_initStructMetadata
+- _swift_isUniquelyReferenced_nonNull_native
+- _swift_isaMask
+- _swift_makeBoxUnique
+- _swift_release
+- _swift_release_n
+- _swift_retain
+- _swift_retain_n
+- _swift_setDeallocating
+- _swift_storeEnumTagSinglePayloadGeneric
+- _swift_task_alloc
+- _swift_task_create
+- _swift_task_dealloc
+- _swift_task_switch
+- _swift_unknownObjectRelease
+- _swift_unknownObjectRelease_n
+- _swift_unknownObjectRetain
+- _swift_unknownObjectRetain_n
+- _swift_unknownObjectWeakAssign
+- _swift_unknownObjectWeakCopyAssign
+- _swift_unknownObjectWeakCopyInit
+- _swift_unknownObjectWeakDestroy
+- _swift_unknownObjectWeakInit
+- _swift_unknownObjectWeakLoadStrong
+- _swift_unknownObjectWeakTakeAssign
+- _swift_unknownObjectWeakTakeInit
+- _swift_weakAssign
+- _swift_weakDestroy
+- _swift_weakInit
+- _swift_weakLoadStrong
+- _swift_willThrow
+CStrings:
++ "asktod entered autoreleasepool"
++ "asktod runloop completed"
+- " contained no iMessage handles."
+- " in the Messages database."
+- " is not allowed to respond."
+- " to response in original payload."
+- "#16@0:8"
+- "%!@(MISSING) registered %!s(MISSING)"
+- "%!s(MISSING) Client that originated the request has bundle ID %!s(MISSING)"
+- "%!s(MISSING) MessageDetails threw an error: %!@(MISSING)"
+- "%!s(MISSING) Performing %!l(MISSING)d response tasks for known client %!s(MISSING)"
+- "%!s(MISSING) Performing response task #%!l(MISSING)d for known client %!s(MISSING)"
+- "%!s(MISSING) Successfully performed all %!l(MISSING)d response tasks for known client %!s(MISSING)"
+- "%!s(MISSING) The AskTo payload doesn't have a response attached: %!@(MISSING)"
+- "%!s(MISSING) The IDS query controller was nil, bailing early."
+- "%!s(MISSING) URL components was nil"
+- "%!s(MISSING) Unable to derive STAskForTimeAnswer from AskTo answer choice: %!@(MISSING)"
+- "%!s(MISSING) Unable to derive STAskForTimeAnswer from AskTo response. response: %!@(MISSING)"
+- "%!s(MISSING) Unhandled transport"
+- "%!s(MISSING) Updated ScreenTime with response. response: %!@(MISSING)"
+- "%!s(MISSING) called"
+- "%!s(MISSING) called by client with bundle ID %!s(MISSING)"
+- "%!s(MISSING) called for client %!s(MISSING)"
+- "%!s(MISSING) called with no destinations"
+- "%!s(MISSING) called with requestID %!s(MISSING), responderDSID: %!s(MISSING), answer: %!@(MISSING)"
+- "%!s(MISSING) completing transaction"
+- "%!s(MISSING) connection activated. Tracking client %!s(MISSING)"
+- "%!s(MISSING) connection invalidated. Removing client %!s(MISSING)"
+- "%!s(MISSING) derivedPayload was nil"
+- "%!s(MISSING) event consume"
+- "%!s(MISSING) event error: %!s(MISSING)"
+- "%!s(MISSING) eventHandler complete"
+- "%!s(MISSING) has the wrong type: %!s(MISSING), expected: %!s(MISSING)"
+- "%!s(MISSING) init complete"
+- "%!s(MISSING) is eligible to receive iMessages"
+- "%!s(MISSING) receive input"
+- "%!s(MISSING) received event, but has no delegate to notify"
+- "%!s(MISSING) was called, but there was already a valid assertion for the extension process"
+- ") is missing entitlement "
+- ".cxx_destruct"
+- "@\"NSData\"16@0:8"
+- "@\"NSDictionary\"16@0:8"
+- "@\"NSSet\"16@0:8"
+- "@\"NSString\"16@0:8"
+- "@16@0:8"
+- "@24@0:8:16"
+- "@24@0:8@\"NSCoder\"16"
+- "@24@0:8@16"
+- "@24@0:8^{_NSZone=}16"
+- "@28@0:8@\"NSData\"16I24"
+- "@28@0:8@16I24"
+- "@32@0:8:16@24"
+- "@40@0:8:16@24@32"
+- "A ScreenTime answer could not be derived from the AskTo response."
+- "A caller was needed to check if the call was valid, but there was none."
+- "A necessary response task failed. Underlying error: "
+- "Activated connection for PID %!d(MISSING)"
+- "An unknown error occured inside Messages."
+- "AskForTimeActionApprove15"
+- "AskForTimeActionApproveDay"
+- "AskForTimeActionApproveHour"
+- "AskForTimeActionDontApprove"
+- "AskToDaemonTests (com.apple.AskToDaemonTests)"
+- "AskToMessagesExtension (com.apple.AskToMessagesHost.AskToMessagesExtension)"
+- "Attempting to add icon image data to base URL"
+- "Attempting to inflate recipient group \"%!s(MISSING)\""
+- "B16@0:8"
+- "B24@0:8#16"
+- "B24@0:8:16"
+- "B24@0:8@\"Protocol\"16"
+- "B24@0:8@16"
+- "B24@?0@\"NSString\"8@\"NSURL\"16"
+- "B32@0:8@\"NSXPCListener\"16@\"NSXPCConnection\"24"
+- "B32@0:8@16@24"
+- "BMStoreData"
+- "Best guess ID for %!s(MISSING) was nil. Skipping destination."
+- "Biome stream sunk for %!s(MISSING)"
+- "BiomeStreamListener create for %!s(MISSING)"
+- "Bundle identifier from signing identity is %!s(MISSING)"
+- "CFDataCreateMutable failed"
+- "CGImageDestinationCreateWithData failed"
+- "CGImageDestinationFinalize failed"
+- "Calling completion for IDS message send identifier %!s(MISSING)"
+- "Calling into ScreenTimeAnswerHandler with requestID %!s(MISSING), responderDSID: %!s(MISSING), answer: %!@(MISSING)"
+- "Calling into ScreenTimeAnswerHandler with requestID %!s(MISSING), responderDSID: %!s(MISSING), answer: %!l(MISSING)d"
+- "Calling into app extension to get Messages data payload. messagesPayloadProvider: %!s(MISSING)"
+- "Checking entitlement \"%!s(MISSING)\" for connection with PID %!d(MISSING)"
+- "Checking if send destinations are valid for sending"
+- "Client is ScreenTime. Returning ScreenTime response tasks."
+- "Client is an AskTo-owned process. Returning no response tasks."
+- "Client with bundle ID %!s(MISSING) was not in the allowlist for %!s(MISSING). Bailing."
+- "Client with bundle identifier \"%!s(MISSING)\" is not known. Dropping response."
+- "ClientConnections"
+- "Configuring XPC connection for %!s(MISSING) from PID %!d(MISSING)"
+- "Connection interrupted for PID %!d(MISSING)"
+- "Connection invalidated for PID %!d(MISSING)"
+- "Could not acquire a new assertion. Calls into the extension might result in Jetsam. error: %!@(MISSING)"
+- "Could not fetch valid destinations. Error: %!@(MISSING)"
+- "Could not get LSApplicationRecord for process with PID %!s(MISSING)"
+- "Could not get normalized handle for key: %!s(MISSING)"
+- "Could not map answer ID "
+- "Could not parse ATPayload from messagesPayloadURL %!s(MISSING). error: %!@(MISSING)"
+- "Could not parse AskTo payload from MSMessage URL. Underlying error: "
+- "Couldn't launch client in response to IDS message because client bundle identifier was nil."
+- "Creating Biome listener"
+- "Creating IDS service and adding service delegate"
+- "Creating and resuming client connection listener"
+- "Creating listening scheduler for %!s(MISSING)"
+- "Daemon entering sandbox"
+- "Daemon runloop completed"
+- "Daemon started - %!s(MISSING)"
+- "Did not find a message for request ID "
+- "Division by zero"
+- "Division results in an overflow"
+- "Endpoint %!@(MISSING) does not support %!s(MISSING)"
+- "Error inflating recipient group. Recipient group was unknown. %!h(MISSING)d"
+- "Error looking up endpoints without required registration capabilities %!s(MISSING). error: %!@(MISSING)"
+- "Error obtaining bundle record for connection to PID %!s(MISSING): %!@(MISSING)"
+- "Error obtaining remote proxy: %!@(MISSING)"
+- "Event body did not contain a DSID."
+- "Extension bundleId: %!s(MISSING) ; Found identities %!s(MISSING)"
+- "Failed to acquire assertion for extension with bundleId %!s(MISSING)"
+- "Failed to derive ATPayload from IDS message. Error: %!@(MISSING), message: %!s(MISSING)"
+- "Failed to derive ATPayload from IDS message: %!s(MISSING)"
+- "Failed to fetch family members. error: %!@(MISSING)"
+- "Failed to fetch the user's Family to derive the responder's Apple ID from DSID. Underlying error: "
+- "Failed to get signing info for connection to PID %!s(MISSING)"
+- "Failed to get the Messages payload for the AskTo response payload from the payload provider extension. Underlying error: "
+- "Failed to get the new Messages payload from the People extension. error: %!@(MISSING)"
+- "Failed to perform IDQuery {destinations: %!s(MISSING)}"
+- "Failed to send payload over Messages. question: %!s(MISSING) recipientGroup: \"%!s(MISSING)\" error: %!@(MISSING)"
+- "Fatal error"
+- "Found %!l(MISSING)d Messages messages matching request ID %!s(MISSING)"
+- "Found %!l(MISSING)d valid IDS destinations"
+- "Found a match! Request with ID %!s(MISSING) has message GUID %!s(MISSING). Payload URL: %!s(MISSING)"
+- "Got ATPayload from IDS message: %!@(MISSING)"
+- "Got ATResponse from IDS message: %!@(MISSING)"
+- "Got LSApplicationRecord for process with PID %!s(MISSING)"
+- "Got back nil message GUID from IMSPI"
+- "Got delegate callback for message send from IDS, but completion for identifier %!s(MISSING) was nil."
+- "Got result keys: %!s(MISSING)"
+- "Got results from IDS query: %!s(MISSING)"
+- "Had an existing connection, but we failed to acquire the assertion. This means the our state tracking is out of sync with the system. Please file a radar to Family Frameworks - AskTo | All."
+- "Handling %!s(MISSING) biome event"
+- "I16@0:8"
+- "IDS called %!s(MISSING) with nil fromID."
+- "IDS called %!s(MISSING) with nil identifier."
+- "IDS called %!s(MISSING) with nil message."
+- "IDS called %!s(MISSING) with nil service."
+- "IDS failed to lookup unsupported IDS destinations. Underlying error: "
+- "IDSDestinationProtocol"
+- "IDSLookupController"
+- "IDSServiceDelegate"
+- "Icon image data is %!l(MISSING)d bytes"
+- "Incoming XPC connection for %!s(MISSING)"
+- "Initializing assertion for extension with PID %!d(MISSING) and bundleId %!s(MISSING)"
+- "Initializing daemon"
+- "Inspecting ScreenTime request message with GUID %!s(MISSING) in Messages DB to see if it matches with request ID %!s(MISSING)"
+- "Insufficient space allocated to copy string contents"
+- "Invalid status %!d(MISSING) for %!s(MISSING)"
+- "Invalidating assertion for extension with PID %!d(MISSING) and bundleId %!s(MISSING)"
+- "Looking for IDS endpoints that don't support the following reg caps: %!s(MISSING)"
+- "Looking for Messages messages with request ID %!s(MISSING)"
+- "Matching messages for request ID %!s(MISSING) have message GUIDs %!s(MISSING)"
+- "Message was not of type [String: Any]. Bailing receive. message: %!s(MISSING)"
+- "Message with GUID %!s(MISSING) has request ID %!s(MISSING), is not for request with ID %!s(MISSING)"
+- "MessageDetails.eventSource was unknown"
+- "MessageDetails.eventSource was unsupported \"%!s(MISSING)\""
+- "MessageDetails.requestID was empty"
+- "Messages returned a nil balloon bundle identifier for IMBalloonBundleIdentifierLegacyScreenTime."
+- "MessagesPayloadProviding"
+- "MessagesPluginNotificationExtension (com.apple.MobileSMS.MessagesPluginNotificationExtension)"
+- "Missing entitlement %!s(MISSING). Ignoring IDS destinations that don't support."
+- "NSCoding"
+- "NSCopying"
+- "NSObject"
+- "NSSecureCoding"
+- "NSXPCListenerDelegate"
+- "Needed to lookup unsupported destinations, but idsLookupController was nil."
+- "Nil Messages payload data received from payload provider extension."
+- "No ScreenTime request message in the Messages DB matched request ID %!s(MISSING)"
+- "No answer choice in the original question had id %!s(MISSING). originalAnswerIds: %!s(MISSING)"
+- "No endpoints for handle %!s(MISSING)"
+- "No event body for %!s(MISSING)"
+- "No family members to lookup, bailing early."
+- "No handles to lookup, bailing early."
+- "No results for ids lookup with destinations %!s(MISSING)"
+- "Payload URL for message with GUID %!s(MISSING) was nil. Skipping."
+- "People returned %!{(MISSING)bool}d for PeopleClient.canSendFamilyScreenTimeRequestIMessage()"
+- "People threw error for PeopleClient.canSendFamilyScreenTimeRequestIMessage(): %!@(MISSING)"
+- "PrivledgedRecipientGroup"
+- "Q16@0:8"
+- "Reaching out to AskTo extension with payload: %!@(MISSING)"
+- "Reaching out to People extension with base URL %!s(MISSING)"
+- "Received ScreenTime response. Allowing ScreenTime to handle it through their own channels."
+- "Received message {fromID: %!@(MISSING), message: %!s(MISSING)}"
+- "Received payload, but it had no associated response: %!@(MISSING)"
+- "Received response which comes from AskTo-owned process. This should never happen."
+- "Rejecting connection to PID %!d(MISSING). Missing entitlement: %!s(MISSING)"
+- "Responder lacked Apple ID. DSID: %!s(MISSING), member: %!@(MISSING)"
+- "Result for ID query value type was not Int. first result value: %!s(MISSING), destinations: %!s(MISSING)"
+- "Result for ID query was nil. destinations: %!s(MISSING)"
+- "Result of call to send message is %!{(MISSING)bool}d"
+- "Resuming XPC listener for %!s(MISSING)"
+- "Resuming continuation for query with request ID %!s(MISSING)"
+- "ScreenTime (com.apple.ScreenTimeAgent)"
+- "ScreenTime SPI call provided an unknown Screen Time request answer "
+- "ScreenTime answer ID was %!s(MISSING)"
+- "ScreenTime request messages extension bundle identifier was nil"
+- "ScreenTimeAnswerHandler"
+- "ScreenTimeRequest"
+- "Send destinations are valid"
+- "Send message delegate callback {identifier: %!s(MISSING), success: %!{(MISSING)bool}d, error: %!@(MISSING)}"
+- "Send message delegate callback {identifier: nil, success: %!{(MISSING)bool}d, error: nil}"
+- "Sending message of %!l(MISSING)d bytes to %!s(MISSING)"
+- "Sending message with Messages extension bundle identifier \"%!s(MISSING)\" to %!s(MISSING)"
+- "Starting daemon - %!s(MISSING)"
+- "Status for destination %!s(MISSING) is %!l(MISSING)d. Not sending message to this destination."
+- "Status for destination %!s(MISSING) is valid. Adding to list of destinations to send message to."
+- "Status was %!d(MISSING) (pending) for %!s(MISSING). Ignoring biome event."
+- "Successfully acquired assertion for extension with bundleId %!s(MISSING)"
+- "Swift received bridged message {fromID: %!s(MISSING), message: %!s(MISSING)}"
+- "Swift/ContiguousArrayBuffer.swift"
+- "Swift/IntegerTypes.swift"
+- "Swift/StringTesting.swift"
+- "Swift/StringUTF8View.swift"
+- "Swift/UnsafeBufferPointer.swift"
+- "Swift/UnsafePointer.swift"
+- "Swift/UnsafeRawPointer.swift"
+- "T#,R"
+- "T@\"NSString\",?,R,C"
+- "T@\"NSString\",R,C"
+- "TB,R"
+- "TI,?,R,N"
+- "TI,R,N"
+- "TQ,R"
+- "The AskTo payload did not contain a response."
+- "The Biome event had an invalid Screen Time request status "
+- "The Biome event had an unknown Screen Time request answer "
+- "The Biome event was missing the responder DSID."
+- "The MSMessage payload had no URL."
+- "The body of the incoming Biome event was nil."
+- "The client with bundle identifier "
+- "The data for the messages paylaod obtained from the People extension was nil."
+- "The following destinations don't support the required reg caps: %!s(MISSING)"
+- "The privledged recipient group for "
+- "The request already has an answer in the Messages database."
+- "There was no Family member matching the DSID "
+- "There were no ids handles in the privledged recipient group derived from  \"%!s(MISSING)\""
+- "There were no parents and guardians. This shouldn't ever happen. Please file a radar to Family Frameworks - AskTo | All."
+- "Tried adding an icon to a URL, but the given URL was nil"
+- "Tried adding associatedContentIcon data to the URL, but the icon data was nil"
+- "Tried adding clientIcon data to the URL, but the icon data was nil"
+- "Trying to derive ATPayload from MessageDetails"
+- "Trying to obtain a remote proxy without a valid assertion. Re-acquiring assertion."
+- "URI"
+- "URL components for message with GUID %!s(MISSING) was nil. Skipping."
+- "URL had no request ID for message with GUID %!s(MISSING). Skipping."
+- "Unable to find handle \"%!s(MISSING)\" in handle to family member map."
+- "Unable to to check for %!s(MISSING) entitlement because caller is nil. Bailing from send."
+- "Unexpectedly found nil while unwrapping an Optional value"
+- "Unknown approval time %!d(MISSING) for %!s(MISSING)"
+- "UnsafeMutableBufferPointer with negative count"
+- "UnsafeMutablePointer.initialize overlapping range"
+- "UnsafeMutablePointer.initialize with negative count"
+- "UnsafeMutableRawPointer.initializeMemory overlapping range"
+- "Updating message with GUID %!s(MISSING) in Messages with response: %!@(MISSING)"
+- "Validating destinations for sending. destinations: %!s(MISSING)"
+- "Vv16@0:8"
+- "^{_NSZone=}16@0:8"
+- "_TtC6asktod11AskToDaemon"
+- "_TtC6asktod17AppExtensionProxy"
+- "_TtC6asktod22AppExtensionConnection"
+- "_TtC6asktod24PrivledgedRecipientGroup"
+- "_TtC6asktod34ScreenTimeRequestBiomeEventHandler"
+- "_TtC6asktod6Client"
+- "_TtC6asktod6Server"
+- "_TtC6asktod8IDSRelay"
+- "_TtP6People32PeopleLegacyExtensionXPCProtocol_"
+- "_TtP9AskToCore16ATDaemonProtocol_"
+- "_TtP9AskToCore22ATDaemonClientProtocol_"
+- "_TtP9AskToCore25AskToExtensionXPCProtocol_"
+- "_set_user_dir_suffix() failed!"
+- "_stripFZIDPrefix"
+- "acquire"
+- "activate"
+- "addDelegate:queue:"
+- "appExtension"
+- "appleID"
+- "approvalTime"
+- "asktod.XPCClientConnectionListener"
+- "asktod/Daemon+Sandbox-iOS.swift"
+- "assertion"
+- "auditToken"
+- "autorelease"
+- "base64EncodedStringWithOptions:"
+- "biomeController"
+- "bundleIdentifier"
+- "bundleRecordForAuditToken:error:"
+- "capabilities"
+- "class"
+- "client"
+- "clientResponseTaskMapper"
+- "com.apple.AskTo.ids."
+- "com.apple.AskToDaemonTests"
+- "com.apple.AskToMessagesHost.AskToExtension"
+- "com.apple.AskToMessagesHost.AskToMessagesExtension"
+- "com.apple.MobileSMS.MessagesPluginNotificationExtension"
+- "com.apple.PeopleMessageService.LegacyMessageService"
+- "com.apple.ScreenTimeAgent"
+- "com.apple.asktod"
+- "com.apple.asktod.biome-queue.screenTimeRequest"
+- "com.apple.asktod.biomeStreamListener"
+- "com.apple.asktod.ids.listener"
+- "com.apple.asktod.ids.sender"
+- "com.apple.asktod.idsrelay"
+- "com.apple.asktod.liveOnRecipientGroup"
+- "com.apple.asktod.receiveUnsupportedIDSEndpoints"
+- "com.apple.asktod.screenTimeRequest"
+- "com.apple.extension.session"
+- "com.apple.madrid"
+- "com.apple.people.legacy.extension"
+- "com.apple.private.alloy.askto"
+- "com.apple.screentime.moretime"
+- "compressedDataUsingAlgorithm:error:"
+- "conformsToProtocol:"
+- "connectedClientIdentifierMap"
+- "connection"
+- "connectionCache"
+- "connectionListener"
+- "connectionManager"
+- "context"
+- "copyWithZone:"
+- "cornerRadiusIncludedInThumbnailData"
+- "dataVersion"
+- "dealloc"
+- "debugDescription"
+- "delegate"
+- "description"
+- "destinationLightweightStatus"
+- "destinationURIs"
+- "dsid"
+- "encodeWithCoder:"
+- "endpoints"
+- "eventBody"
+- "eventKind"
+- "eventWithData:dataVersion:"
+- "executeQueries:completionHandler:"
+- "findAllMessagesInMessagesDatabase(matching:)"
+- "hasValidSendDestinations()"
+- "hash"
+- "iMessageSender needed to perform an IDS lookup, but the IDS lookup controller was nil."
+- "iMessageableHandles from IDS query controller: %!s(MISSING)"
+- "iTunesMetadata"
+- "id"
+- "idInfoForDestinations:service:infoTypes:options:listenerID:queue:completionBlock:"
+- "idsDestinationValidator"
+- "idsLookupController"
+- "idsRelay"
+- "imessageSender"
+- "init"
+- "init()"
+- "init(requestID:responderDSID:answer:)"
+- "initWithCoder:"
+- "initWithExtensionPointIdentifier:"
+- "initWithIdentifier:targetQueue:waking:"
+- "initWithMachServiceName:"
+- "initWithPID:flags:reason:name:"
+- "initWithService:"
+- "interfaceWithProtocol:"
+- "interruptionHandler"
+- "invalid Collection: less than 'count' elements in collection"
+- "invalidate"
+- "invalidationHandler"
+- "isConnectionActive"
+- "isEqual:"
+- "isKindOfClass:"
+- "isMemberOfClass:"
+- "isProxy"
+- "json"
+- "jsonDict"
+- "key in IDS query results was not a String. Skipping. key type: %!s(MISSING), value type: %!s(MISSING)"
+- "knownClientsWithNonAskToFlows"
+- "latestDataVersion"
+- "listener"
+- "listener:shouldAcceptNewConnection:"
+- "listenerQueue"
+- "members"
+- "messagePayloadForAskToBuyFor:baseURL:fallbackToLP:reply:"
+- "messagePayloadForScreenTimeFor:baseURL:fallbackToLP:reply:"
+- "messagesDataPayloadFor:reply:"
+- "metadata"
+- "originalRecipientGroup"
+- "payloadFromAskToExtension(appExtensionConnection:askToPayload:)"
+- "payloadFromPeopleExtension(appExtensionConnection:askToPayload:)"
+- "pendingSendCompletions"
+- "perform(with:forSendingTo:)"
+- "performSelector:"
+- "performSelector:withObject:"
+- "performSelector:withObject:withObject:"
+- "pid"
+- "processIdentifier"
+- "publisher"
+- "queryMadridCapableDestinations(with:)"
+- "refreshIDInfo"
+- "refreshIDStatusForDestinations:service:listenerID:queue:completionBlock:"
+- "release"
+- "remoteObjectProxyWithErrorHandler:"
+- "requestID"
+- "respondToAskForTimeRequestWithIdentifier:answer:error:"
+- "responderDSID"
+- "respondsToSelector:"
+- "resume"
+- "retain"
+- "retainCount"
+- "scheduler"
+- "screenTimeDidReceiveAnswer(_:forRequestWithID:responderDSID:)"
+- "screenTimeDidReceiveAnswer:forRequestWithID:responderDSID:completionHandler:"
+- "screenTimeRequest"
+- "screenTimeRequestStream"
+- "self"
+- "send(question:to:)"
+- "sendDestinations"
+- "sendMSMessagePayloadReturningGUID(payloadData:recipientHandles:messagesExtensionBundleIdentifier:chatGUID:messageGUID:)"
+- "sendResponse(_:to:)"
+- "sendResponse:to:completionHandler:"
+- "sendWithQuestion:to:completionHandler:"
+- "senderQueue"
+- "sentMessageGUID %!@(MISSING) does not equal payload messageGUID %!s(MISSING)"
+- "sentMessageGUID is %!@(MISSING)"
+- "serialize"
+- "service"
+- "service(_:account:identifier:didSendWithSuccess:error:)"
+- "service(_:account:incomingMessage:fromID:context:)"
+- "service:account:identifier:didSendWithSuccess:error:"
+- "service:account:identifier:didSendWithSuccess:error:context:"
+- "service:account:identifier:fromID:hasBeenDeliveredWithContext:"
+- "service:account:identifier:hasBeenDeliveredWithContext:"
+- "service:account:identifier:sentBytes:totalBytes:"
+- "service:account:incomingData:fromID:context:"
+- "service:account:incomingMessage:fromID:context:"
+- "service:account:incomingOpportunisticData:withIdentifier:fromID:context:"
+- "service:account:incomingPendingMessageOfType:fromID:context:"
+- "service:account:incomingResourceAtURL:fromID:context:"
+- "service:account:incomingResourceAtURL:metadata:fromID:context:"
+- "service:account:incomingUnhandledProtobuf:fromID:context:"
+- "service:account:inviteReceivedForSession:fromID:"
+- "service:account:inviteReceivedForSession:fromID:withContext:"
+- "service:account:inviteReceivedForSession:fromID:withOptions:"
+- "service:account:pendingResourceWithMetadata:fromID:acknowledgementBlock:context:"
+- "service:account:receivedGroupSessionParticipantDataUpdate:"
+- "service:account:receivedGroupSessionParticipantUpdate:"
+- "service:account:receivedGroupSessionParticipantUpdate:context:"
+- "service:activeAccountsChanged:"
+- "service:connectedDevicesChanged:"
+- "service:devicesChanged:"
+- "service:didCancelMessageWithSuccess:error:identifier:"
+- "service:didSendOpportunisticDataWithIdentifier:toIDs:"
+- "service:didSwitchActivePairedDevice:acknowledgementBlock:"
+- "service:linkedDevicesChanged:"
+- "service:nearbyDevicesChanged:"
+- "serviceAllowedTrafficClassifiersDidReset:"
+- "serviceName"
+- "serviceSpaceDidBecomeAvailable:"
+- "setDelegate:"
+- "setExportedInterface:"
+- "setExportedObject:"
+- "setForceRefresh:"
+- "setInterruptionHandler:"
+- "setInvalidationHandler:"
+- "setRemoteObjectInterface:"
+- "sharedInstance"
+- "sink"
+- "sinkWithCompletion:receiveInput:"
+- "startRequestWithCompletionHandler:"
+- "status"
+- "storeItemIdentifier"
+- "stringValue"
+- "subscribeOn:"
+- "superclass"
+- "supportsSecureCoding"
+- "v16@0:8"
+- "v16@?0@\"BPSCompletion\"8"
+- "v16@?0@\"NSArray\"8"
+- "v16@?0@\"NSDictionary\"8"
+- "v16@?0@\"NSError\"8"
+- "v16@?0@\"NSString\"8"
+- "v16@?0@8"
+- "v24@0:8@\"IDSService\"16"
+- "v24@0:8@\"NSCoder\"16"
+- "v24@0:8@16"
+- "v24@?0@\"FAFamilyCircle\"8@\"NSError\"16"
+- "v24@?0@\"NSDictionary\"8@\"NSError\"16"
+- "v24@?0@\"NSError\"8@\"NSData\"16"
+- "v24@?0@\"NSError\"8@\"_TtC6People18PeopleLegacyResult\"16"
+- "v32@0:8@\"IDSService\"16@\"NSArray\"24"
+- "v32@0:8@\"IDSService\"16@\"NSSet\"24"
+- "v32@0:8@\"_TtC9AskToCore9ATPayload\"16@?<v@?@\"NSError\"@\"NSData\">24"
+- "v32@0:8@16@24"
+- "v32@0:8@16@?24"
+- "v36@0:8@\"_TtC5AskTo10ATQuestion\"16s24@?<v@?@\"NSArray\"@\"NSError\">28"
+- "v36@0:8@16s24@?28"
+- "v40@0:8@\"IDSService\"16@\"IDSAccount\"24@\"IDSGroupSessionParticipantUpdate\"32"
+- "v40@0:8@\"IDSService\"16@\"IDSDevice\"24@?<v@?>32"
+- "v40@0:8@\"IDSService\"16@\"NSString\"24@\"NSArray\"32"
+- "v40@0:8@\"_TtC9AskToCore9ATPayload\"16@\"NSArray\"24@?<v@?@\"NSError\">32"
+- "v40@0:8@16@24@32"
+- "v40@0:8@16@24@?32"
+- "v44@0:8@\"IDSService\"16B24@\"NSError\"28@\"NSString\"36"
+- "v44@0:8@\"NSString\"16@\"NSURL\"24B32@?<v@?@\"NSError\"@\"_TtC6People18PeopleLegacyResult\">36"
+- "v44@0:8@16@24B32@?36"
+- "v44@0:8@16B24@28@36"
+- "v48@0:8@\"IDSService\"16@\"IDSAccount\"24@\"IDSGroupSessionParticipantUpdate\"32@\"IDSMessageContext\"40"
+- "v48@0:8@\"IDSService\"16@\"IDSAccount\"24@\"IDSSession\"32@\"NSString\"40"
+- "v48@0:8@\"IDSService\"16@\"IDSAccount\"24@\"NSString\"32@40"
+- "v48@0:8@\"_TtC5AskTo14ATAnswerChoice\"16@\"NSString\"24@\"NSString\"32@?<v@?@\"NSError\">40"
+- "v48@0:8@16@24@32@40"
+- "v48@0:8@16@24@32@?40"
+- "v52@0:8@\"IDSService\"16@\"IDSAccount\"24@\"NSString\"32B40@\"NSError\"44"
+- "v52@0:8@16@24@32B40@44"
+- "v56@0:8@\"IDSService\"16@\"IDSAccount\"24@\"IDSProtobuf\"32@\"NSString\"40@\"IDSMessageContext\"48"
+- "v56@0:8@\"IDSService\"16@\"IDSAccount\"24@\"IDSSession\"32@\"NSString\"40@\"NSData\"48"
+- "v56@0:8@\"IDSService\"16@\"IDSAccount\"24@\"IDSSession\"32@\"NSString\"40@\"NSDictionary\"48"
+- "v56@0:8@\"IDSService\"16@\"IDSAccount\"24@\"NSData\"32@\"NSString\"40@\"IDSMessageContext\"48"
+- "v56@0:8@\"IDSService\"16@\"IDSAccount\"24@\"NSDictionary\"32@\"NSString\"40@\"IDSMessageContext\"48"
+- "v56@0:8@\"IDSService\"16@\"IDSAccount\"24@\"NSString\"32@\"NSString\"40@48"
+- "v56@0:8@\"IDSService\"16@\"IDSAccount\"24@\"NSString\"32q40q48"
+- "v56@0:8@\"IDSService\"16@\"IDSAccount\"24@\"NSURL\"32@\"NSString\"40@\"IDSMessageContext\"48"
+- "v56@0:8@\"IDSService\"16@\"IDSAccount\"24q32@\"NSString\"40@\"IDSMessageContext\"48"
+- "v56@0:8@16@24@32@40@48"
+- "v56@0:8@16@24@32q40q48"
+- "v56@0:8@16@24q32@40@48"
+- "v60@0:8@\"IDSService\"16@\"IDSAccount\"24@\"NSString\"32B40@\"NSError\"44@\"IDSMessageContext\"52"
+- "v60@0:8@16@24@32B40@44@52"
+- "v64@0:8@\"IDSService\"16@\"IDSAccount\"24@\"NSData\"32@\"NSString\"40@\"NSString\"48@\"IDSMessageContext\"56"
+- "v64@0:8@\"IDSService\"16@\"IDSAccount\"24@\"NSDictionary\"32@\"NSString\"40@?<v@?B>48@\"IDSMessageContext\"56"
+- "v64@0:8@\"IDSService\"16@\"IDSAccount\"24@\"NSURL\"32@\"NSDictionary\"40@\"NSString\"48@\"IDSMessageContext\"56"
+- "v64@0:8@16@24@32@40@48@56"
+- "v64@0:8@16@24@32@40@?48@56"
+- "v8@?0"
+- "valid"
+- "validDestinations(_:forSendingOverService:)"
+- "validateDestinations(_:forSendingOverService:completion:)"
+- "value in IDS query results was not IDSIDInfoResult. Skipping. key type: %!s(MISSING), value type: %!s(MISSING)"
+- "valueForCapability:"
+- "valueForEntitlement:"
+- "xpcConnection"
+- "zone"
+
+```

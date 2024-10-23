@@ -1,0 +1,483 @@
+## ManagedSettingsAgent
+
+> `/System/Library/Frameworks/ManagedSettings.framework/ManagedSettingsAgent`
+
+```diff
+
+-217.0.0.0.0
+-  __TEXT.__text: 0x7d5c8
+-  __TEXT.__auth_stubs: 0x23f0
++242.2.1.0.0
++  __TEXT.__text: 0x5fd98
++  __TEXT.__auth_stubs: 0x1ad0
+   __TEXT.__objc_stubs: 0x20
+-  __TEXT.__objc_methlist: 0x214
+-  __TEXT.__const: 0x132c
++  __TEXT.__objc_methlist: 0x220
++  __TEXT.__const: 0x12fc
+   __TEXT.__objc_classname: 0x121
+-  __TEXT.__objc_methname: 0xed1
++  __TEXT.__objc_methname: 0xf00
+   __TEXT.__objc_methtype: 0x194
+-  __TEXT.__cstring: 0x1b95
++  __TEXT.__cstring: 0x1c35
+   __TEXT.__swift5_entry: 0x8
+-  __TEXT.__constg_swiftt: 0xcd4
+-  __TEXT.__swift5_typeref: 0x1317
++  __TEXT.__constg_swiftt: 0xcc0
++  __TEXT.__swift5_typeref: 0xf9b
+   __TEXT.__swift5_builtin: 0x28
+   __TEXT.__swift5_reflstr: 0x77d
+-  __TEXT.__swift5_fieldmd: 0x748
++  __TEXT.__swift5_fieldmd: 0x738
+   __TEXT.__swift5_assocty: 0xa8
+   __TEXT.__swift5_proto: 0x108
+-  __TEXT.__swift5_types: 0x84
+-  __TEXT.__oslogstring: 0x1f82
++  __TEXT.__swift5_types: 0x80
++  __TEXT.__oslogstring: 0x2352
+   __TEXT.__swift5_protos: 0x2c
+   __TEXT.__swift5_capture: 0x34c
+-  __TEXT.__unwind_info: 0xe28
+-  __TEXT.__eh_frame: 0x2000
+-  __DATA_CONST.__auth_got: 0x1200
+-  __DATA_CONST.__got: 0x8f0
+-  __DATA_CONST.__auth_ptr: 0x4f8
+-  __DATA_CONST.__const: 0x1930
++  __TEXT.__unwind_info: 0xbe0
++  __TEXT.__eh_frame: 0x1798
++  __DATA_CONST.__auth_got: 0xd70
++  __DATA_CONST.__got: 0x428
++  __DATA_CONST.__auth_ptr: 0x3d8
++  __DATA_CONST.__const: 0x1910
+   __DATA_CONST.__objc_classlist: 0x88
+   __DATA_CONST.__objc_catlist: 0x10
+   __DATA_CONST.__objc_protolist: 0xb8
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_protorefs: 0x78
+-  __DATA.__objc_const: 0x19b8
+-  __DATA.__objc_selrefs: 0x2f0
+-  __DATA.__objc_data: 0x5f8
+-  __DATA.__data: 0x1ad0
++  __DATA.__objc_const: 0x19c0
++  __DATA.__objc_selrefs: 0x300
++  __DATA.__objc_data: 0x610
++  __DATA.__data: 0x18e0
+   __DATA.__bss: 0x1990
+   __DATA.__common: 0x68
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+
+   - /usr/lib/swift/libswiftsimd.dylib
+   - /usr/lib/swift/libswiftsys_time.dylib
+   - /usr/lib/swift/libswiftunistd.dylib
+-  Functions: 1174
+-  Symbols:   976
+-  CStrings:  451
++  Functions: 1007
++  Symbols:   664
++  CStrings:  473
+ 
+Symbols:
++ _$s12SettingValue15ManagedSettings0A16MetadataProtocolPTl
++ _$s15ManagedSettings06ShieldB0V22ActivityCategoryPolicyOy_xGAA11PersistableA2aGRzAA18TokenInitializableRzSHRzlMc
++ _$s15ManagedSettings11ApplicationVs23CustomStringConvertibleAAMc
++ _$s15ManagedSettings15CombineOperatorMp
++ _$s15ManagedSettings15CombineOperatorPAAE23combinePeristableValuesySo8NSObjectCSgAF_AFtF
++ _$s15ManagedSettings15SettingMetadataVMa
++ _$s15ManagedSettings15SettingMetadataVyxGAA0cD8ProtocolA2A11PersistableRzlMc
++ _$s15ManagedSettings18SetCombineOperatorO12currentValue_9restrictsSbShyxG_xtF
++ _$s15ManagedSettings18SetCombineOperatorOA2A9WebDomainVRszrlE12currentValue_9restricts24shouldUsePatternMatchingSbShyAEG_AESbtF
++ _$s15ManagedSettings18SetCombineOperatorOMn
++ _$s15ManagedSettings23SettingMetadataProtocolMp
++ _$s15ManagedSettings23SettingMetadataProtocolP0C5ValueAC_AA11PersistableTn
++ _$s15ManagedSettings23SettingMetadataProtocolP15combineOperatorAA07CombineG0_pvgTj
++ _$s15ManagedSettings23SettingMetadataProtocolP18isPrivacySensitiveSbvgTj
++ _$s15ManagedSettings23SettingMetadataProtocolP4nameSSvgTj
++ _$s15ManagedSettings23SettingMetadataProtocolP5scopeAA0C5ScopeOvgTj
++ _$s15ManagedSettings23SettingMetadataProtocolP8isPublicSbvgTj
++ _$s15ManagedSettings23SettingMetadataProtocolTL
++ _$s15ManagedSettings24SettingMetadataDirectoryV8metadata3forAA0cD8Protocol_pSS_tKFZ
++ _$s15ManagedSettings37ActivityCategoryPolicyCombineOperatorO12currentValue_9restricts9includingSbAA06ShieldB0V09EffectivecdE0Oy_xG_AA0cD0VxSgtF
++ _$s15ManagedSettings37ActivityCategoryPolicyCombineOperatorOMn
++ _$s15ManagedSettings5TokenVyxGAA11PersistableAAMc
++ _$s15ManagedSettings9LocatableP20diagnosticsDirectory10Foundation3URLVvgTj
++ _$sShyxG15ManagedSettings11PersistableA2bCRzrlMc
++ _$sSis23CustomStringConvertiblesWP
++ _$sSl5countSivgTj
++ _$sSlMp
++ _$sSqMa
++ _swift_checkMetadataState
++ _swift_conformsToProtocol2
++ _swift_dynamicCastMetatype
++ _swift_getAssociatedConformanceWitness
+- _$s10Foundation4DataV15ManagedSettings11PersistableADWP
+- _$s10Foundation4DataV15ManagedSettingsE16persistableValueSo8NSObjectCyF
+- _$s10Foundation4DataV15ManagedSettingsE5value4fromACSgSo8NSObjectCSg_tFZ
+- _$s10Foundation4DataVSHAAMc
+- _$s15ManagedSettings010CalculatorB0V20denyMathPaperSolvingAA15SettingMetadataVySbGvgZ
+- _$s15ManagedSettings010CalculatorB0V4NameO20denyMathPaperSolvingyA2EmFWC
+- _$s15ManagedSettings010CalculatorB0V4NameO8rawValueAESgSS_tcfC
+- _$s15ManagedSettings010CalculatorB0V4NameO8rawValueSSvg
+- _$s15ManagedSettings010CalculatorB0V4NameOMa
+- _$s15ManagedSettings010CalculatorB0V4NameOMn
+- _$s15ManagedSettings010GameCenterB0V04denycD0AA15SettingMetadataVySbGvgZ
+- _$s15ManagedSettings010GameCenterB0V11lockProfileAA15SettingMetadataVySbGvgZ
+- _$s15ManagedSettings010GameCenterB0V16OtherPlayerTypesOAA11PersistableAAWP
+- _$s15ManagedSettings010GameCenterB0V16OtherPlayerTypesOSLAAMc
+- _$s15ManagedSettings010GameCenterB0V17denyAddingFriendsAA15SettingMetadataVySbGvgZ
+- _$s15ManagedSettings010GameCenterB0V18lockFriendsSharingAA15SettingMetadataVySbGvgZ
+- _$s15ManagedSettings010GameCenterB0V18lockProfilePrivacyAA15SettingMetadataVySbGvgZ
+- _$s15ManagedSettings010GameCenterB0V20denyPrivateMessagingAA15SettingMetadataVySbGvgZ
+- _$s15ManagedSettings010GameCenterB0V21denyNearbyMultiplayerAA15SettingMetadataVySbGvgZ
+- _$s15ManagedSettings010GameCenterB0V4NameO04denycD0yA2EmFWC
+- _$s15ManagedSettings010GameCenterB0V4NameO11lockProfileyA2EmFWC
+- _$s15ManagedSettings010GameCenterB0V4NameO17denyAddingFriendsyA2EmFWC
+- _$s15ManagedSettings010GameCenterB0V4NameO18lockFriendsSharingyA2EmFWC
+- _$s15ManagedSettings010GameCenterB0V4NameO18lockProfilePrivacyyA2EmFWC
+- _$s15ManagedSettings010GameCenterB0V4NameO20denyPrivateMessagingyA2EmFWC
+- _$s15ManagedSettings010GameCenterB0V4NameO21denyMultiplayerGamingyA2EmFWC
+- _$s15ManagedSettings010GameCenterB0V4NameO21denyNearbyMultiplayeryA2EmFWC
+- _$s15ManagedSettings010GameCenterB0V4NameO23allowedOtherPlayerTypesyA2EmFWC
+- _$s15ManagedSettings010GameCenterB0V4NameO8rawValueAESgSS_tcfC
+- _$s15ManagedSettings010GameCenterB0V4NameO8rawValueSSvg
+- _$s15ManagedSettings010GameCenterB0V4NameOMa
+- _$s15ManagedSettings010GameCenterB0V4NameOMn
+- _$s15ManagedSettings010ScreenTimeB0V12ShieldPolicyOSLAAMc
+- _$s15ManagedSettings010ScreenTimeB0V22categoryShieldPoliciesAA15SettingMetadataVySDyAA16ActivityCategoryVAC0F6PolicyOGGvgZ
+- _$s15ManagedSettings010ScreenTimeB0V23webDomainShieldPoliciesAA15SettingMetadataVySDyAA03WebF0VAC0G6PolicyOGGvgZ
+- _$s15ManagedSettings010ScreenTimeB0V25applicationShieldPoliciesAA15SettingMetadataVySDyAA11ApplicationVAC0F6PolicyOGGvgZ
+- _$s15ManagedSettings010ScreenTimeB0V4NameO22categoryShieldPoliciesyA2EmFWC
+- _$s15ManagedSettings010ScreenTimeB0V4NameO23webDomainShieldPoliciesyA2EmFWC
+- _$s15ManagedSettings010ScreenTimeB0V4NameO25applicationShieldPoliciesyA2EmFWC
+- _$s15ManagedSettings010ScreenTimeB0V4NameO8rawValueAESgSS_tcfC
+- _$s15ManagedSettings010ScreenTimeB0V4NameO8rawValueSSvg
+- _$s15ManagedSettings010ScreenTimeB0V4NameOMa
+- _$s15ManagedSettings010ScreenTimeB0V4NameOMn
+- _$s15ManagedSettings010UserSafetyB0V14ScanningPolicyOAA11PersistableAAWP
+- _$s15ManagedSettings010UserSafetyB0V14allowedClientsAA15SettingMetadataVyShyAA11ApplicationVGGvgZ
+- _$s15ManagedSettings010UserSafetyB0V14scanningPolicyAA15SettingMetadataVyAC08ScanningF0OGvgZ
+- _$s15ManagedSettings010UserSafetyB0V4NameO14allowedClientsyA2EmFWC
+- _$s15ManagedSettings010UserSafetyB0V4NameO14scanningPolicyyA2EmFWC
+- _$s15ManagedSettings010UserSafetyB0V4NameO8rawValueAESgSS_tcfC
+- _$s15ManagedSettings010UserSafetyB0V4NameO8rawValueSSvg
+- _$s15ManagedSettings010UserSafetyB0V4NameOMa
+- _$s15ManagedSettings010UserSafetyB0V4NameOMn
+- _$s15ManagedSettings010WebContentB0V12FilterPolicyOAA11PersistableAAWP
+- _$s15ManagedSettings010WebContentB0V15blockedByFilterAA15SettingMetadataVyAC0G6PolicyOGvgZ
+- _$s15ManagedSettings010WebContentB0V4NameO15blockedByFilteryA2EmFWC
+- _$s15ManagedSettings010WebContentB0V4NameO8rawValueAESgSS_tcfC
+- _$s15ManagedSettings010WebContentB0V4NameO8rawValueSSvg
+- _$s15ManagedSettings010WebContentB0V4NameOMa
+- _$s15ManagedSettings010WebContentB0V4NameOMn
+- _$s15ManagedSettings011ApplicationB0V12denyAppClipsAA15SettingMetadataVySbGvgZ
+- _$s15ManagedSettings011ApplicationB0V14denyAppRemovalAA15SettingMetadataVySbGvgZ
+- _$s15ManagedSettings011ApplicationB0V24denyBackgroundAppRefreshAA15SettingMetadataVySbGvgZ
+- _$s15ManagedSettings011ApplicationB0V4NameO12denyAppClipsyA2EmFWC
+- _$s15ManagedSettings011ApplicationB0V4NameO14denyAppRemovalyA2EmFWC
+- _$s15ManagedSettings011ApplicationB0V4NameO19blockedApplicationsyA2EmFWC
+- _$s15ManagedSettings011ApplicationB0V4NameO19denyAppInstallationyA2EmFWC
+- _$s15ManagedSettings011ApplicationB0V4NameO23unremovableApplicationsyA2EmFWC
+- _$s15ManagedSettings011ApplicationB0V4NameO24denyBackgroundAppRefreshyA2EmFWC
+- _$s15ManagedSettings011ApplicationB0V4NameO8rawValueAESgSS_tcfC
+- _$s15ManagedSettings011ApplicationB0V4NameO8rawValueSSvg
+- _$s15ManagedSettings011ApplicationB0V4NameOMa
+- _$s15ManagedSettings011ApplicationB0V4NameOMn
+- _$s15ManagedSettings011DateAndTimeB0V016requireAutomaticcdE0AA15SettingMetadataVySbGvgZ
+- _$s15ManagedSettings011DateAndTimeB0V4NameO016requireAutomaticcdE0yA2EmFWC
+- _$s15ManagedSettings011DateAndTimeB0V4NameO8rawValueAESgSS_tcfC
+- _$s15ManagedSettings011DateAndTimeB0V4NameO8rawValueSSvg
+- _$s15ManagedSettings011DateAndTimeB0V4NameOMa
+- _$s15ManagedSettings011DateAndTimeB0V4NameOMn
+- _$s15ManagedSettings012NotificationB0V22lockDriverDoNotDisturbAA15SettingMetadataVySbGvgZ
+- _$s15ManagedSettings012NotificationB0V4NameO22lockDriverDoNotDisturbyA2EmFWC
+- _$s15ManagedSettings012NotificationB0V4NameO8rawValueAESgSS_tcfC
+- _$s15ManagedSettings012NotificationB0V4NameO8rawValueSSvg
+- _$s15ManagedSettings012NotificationB0V4NameOMa
+- _$s15ManagedSettings012NotificationB0V4NameOMn
+- _$s15ManagedSettings013AllowedClientB0V17denyMDMEnrollmentAA15SettingMetadataVySbGvgZ
+- _$s15ManagedSettings013AllowedClientB0V4NameO07allowedD0yA2EmFWC
+- _$s15ManagedSettings013AllowedClientB0V4NameO17denyMDMEnrollmentyA2EmFWC
+- _$s15ManagedSettings013AllowedClientB0V4NameO8rawValueAESgSS_tcfC
+- _$s15ManagedSettings013AllowedClientB0V4NameO8rawValueSSvg
+- _$s15ManagedSettings013AllowedClientB0V4NameO9tokenKeysyA2EmFWC
+- _$s15ManagedSettings013AllowedClientB0V4NameOMa
+- _$s15ManagedSettings013AllowedClientB0V4NameOMn
+- _$s15ManagedSettings013AllowedClientB0V9tokenKeysAA15SettingMetadataVyShy10Foundation4DataVGGvgZ
+- _$s15ManagedSettings014DeviceActivityB0V14allowedClientsAA15SettingMetadataVyShyAA11ApplicationVGGvgZ
+- _$s15ManagedSettings014DeviceActivityB0V15sharingAppleIDsAA15SettingMetadataVyShySSGGvgZ
+- _$s15ManagedSettings014DeviceActivityB0V18shareAcrossDevicesAA15SettingMetadataVySbGvgZ
+- _$s15ManagedSettings014DeviceActivityB0V4NameO14allowedClientsyA2EmFWC
+- _$s15ManagedSettings014DeviceActivityB0V4NameO15sharingAppleIDsyA2EmFWC
+- _$s15ManagedSettings014DeviceActivityB0V4NameO18shareAcrossDevicesyA2EmFWC
+- _$s15ManagedSettings014DeviceActivityB0V4NameO8rawValueAESgSS_tcfC
+- _$s15ManagedSettings014DeviceActivityB0V4NameO8rawValueSSvg
+- _$s15ManagedSettings014DeviceActivityB0V4NameOMa
+- _$s15ManagedSettings014DeviceActivityB0V4NameOMn
+- _$s15ManagedSettings04NewsB0V04denyC0AA15SettingMetadataVySbGvgZ
+- _$s15ManagedSettings04NewsB0V4NameO04denyC0yA2EmFWC
+- _$s15ManagedSettings04NewsB0V4NameO8rawValueAESgSS_tcfC
+- _$s15ManagedSettings04NewsB0V4NameO8rawValueSSvg
+- _$s15ManagedSettings04NewsB0V4NameOMa
+- _$s15ManagedSettings04NewsB0V4NameOMn
+- _$s15ManagedSettings04SiriB0V04denyC0AA15SettingMetadataVySbGvgZ
+- _$s15ManagedSettings04SiriB0V04denyC20UserGeneratedContentAA15SettingMetadataVySbGvgZ
+- _$s15ManagedSettings04SiriB0V05forceC15ProfanityFilterAA15SettingMetadataVySbGvgZ
+- _$s15ManagedSettings04SiriB0V4NameO04denyC0yA2EmFWC
+- _$s15ManagedSettings04SiriB0V4NameO04denyC20UserGeneratedContentyA2EmFWC
+- _$s15ManagedSettings04SiriB0V4NameO05forceC15ProfanityFilteryA2EmFWC
+- _$s15ManagedSettings04SiriB0V4NameO8rawValueAESgSS_tcfC
+- _$s15ManagedSettings04SiriB0V4NameO8rawValueSSvg
+- _$s15ManagedSettings04SiriB0V4NameOMa
+- _$s15ManagedSettings04SiriB0V4NameOMn
+- _$s15ManagedSettings04UserB0V11denySharingAA15SettingMetadataVySbGvgZ
+- _$s15ManagedSettings04UserB0V13SharingPolicyO16persistableValueSo8NSObjectCyF
+- _$s15ManagedSettings04UserB0V13SharingPolicyOAA11PersistableAAWP
+- _$s15ManagedSettings04UserB0V13SharingPolicyOMa
+- _$s15ManagedSettings04UserB0V13SharingPolicyOMn
+- _$s15ManagedSettings04UserB0V13SharingPolicyOSLAAMc
+- _$s15ManagedSettings04UserB0V13sharingPolicyAA15SettingMetadataVyAC07SharingE0OGvgZ
+- _$s15ManagedSettings04UserB0V23denyUnrestrictedSharingAA15SettingMetadataVySbGvgZ
+- _$s15ManagedSettings04UserB0V4NameO11denySharingyA2EmFWC
+- _$s15ManagedSettings04UserB0V4NameO13sharingPolicyyA2EmFWC
+- _$s15ManagedSettings04UserB0V4NameO23denyUnrestrictedSharingyA2EmFWC
+- _$s15ManagedSettings04UserB0V4NameO8rawValueAESgSS_tcfC
+- _$s15ManagedSettings04UserB0V4NameO8rawValueSSvg
+- _$s15ManagedSettings04UserB0V4NameOMa
+- _$s15ManagedSettings04UserB0V4NameOMn
+- _$s15ManagedSettings05MediaB0V010denySharedC9LibrariesAA15SettingMetadataVySbGvgZ
+- _$s15ManagedSettings05MediaB0V10denyiTunesAA15SettingMetadataVySbGvgZ
+- _$s15ManagedSettings05MediaB0V12denyPodcastsAA15SettingMetadataVySbGvgZ
+- _$s15ManagedSettings05MediaB0V13denyBookstoreAA15SettingMetadataVySbGvgZ
+- _$s15ManagedSettings05MediaB0V14lockTVProviderAA15SettingMetadataVySbGvgZ
+- _$s15ManagedSettings05MediaB0V15denyMusicVideosAA15SettingMetadataVySbGvgZ
+- _$s15ManagedSettings05MediaB0V16denyMusicServiceAA15SettingMetadataVySbGvgZ
+- _$s15ManagedSettings05MediaB0V19denyExplicitContentAA15SettingMetadataVySbGvgZ
+- _$s15ManagedSettings05MediaB0V20denyBookstoreEroticaAA15SettingMetadataVySbGvgZ
+- _$s15ManagedSettings05MediaB0V23denyMusicArtistActivityAA15SettingMetadataVySbGvgZ
+- _$s15ManagedSettings05MediaB0V4NameO010denySharedC9LibrariesyA2EmFWC
+- _$s15ManagedSettings05MediaB0V4NameO10denyiTunesyA2EmFWC
+- _$s15ManagedSettings05MediaB0V4NameO12denyPodcastsyA2EmFWC
+- _$s15ManagedSettings05MediaB0V4NameO13denyBookstoreyA2EmFWC
+- _$s15ManagedSettings05MediaB0V4NameO14lockTVProvideryA2EmFWC
+- _$s15ManagedSettings05MediaB0V4NameO15denyMusicVideosyA2EmFWC
+- _$s15ManagedSettings05MediaB0V4NameO16denyMusicServiceyA2EmFWC
+- _$s15ManagedSettings05MediaB0V4NameO18maximumMovieRatingyA2EmFWC
+- _$s15ManagedSettings05MediaB0V4NameO19denyExplicitContentyA2EmFWC
+- _$s15ManagedSettings05MediaB0V4NameO19maximumTVShowRatingyA2EmFWC
+- _$s15ManagedSettings05MediaB0V4NameO20denyBookstoreEroticayA2EmFWC
+- _$s15ManagedSettings05MediaB0V4NameO23denyMusicArtistActivityyA2EmFWC
+- _$s15ManagedSettings05MediaB0V4NameO8rawValueAESgSS_tcfC
+- _$s15ManagedSettings05MediaB0V4NameO8rawValueSSvg
+- _$s15ManagedSettings05MediaB0V4NameOMa
+- _$s15ManagedSettings05MediaB0V4NameOMn
+- _$s15ManagedSettings06CameraB0V04denyC0AA15SettingMetadataVySbGvgZ
+- _$s15ManagedSettings06CameraB0V19denyScreenRecordingAA15SettingMetadataVySbGvgZ
+- _$s15ManagedSettings06CameraB0V4NameO04denyC0yA2EmFWC
+- _$s15ManagedSettings06CameraB0V4NameO19denyScreenRecordingyA2EmFWC
+- _$s15ManagedSettings06CameraB0V4NameO8rawValueAESgSS_tcfC
+- _$s15ManagedSettings06CameraB0V4NameO8rawValueSSvg
+- _$s15ManagedSettings06CameraB0V4NameOMa
+- _$s15ManagedSettings06CameraB0V4NameOMn
+- _$s15ManagedSettings06FindMyB0V04lockcD7FriendsAA15SettingMetadataVySbGvgZ
+- _$s15ManagedSettings06FindMyB0V4NameO04lockcD7FriendsyA2EmFWC
+- _$s15ManagedSettings06FindMyB0V4NameO8rawValueAESgSS_tcfC
+- _$s15ManagedSettings06FindMyB0V4NameO8rawValueSSvg
+- _$s15ManagedSettings06FindMyB0V4NameOMa
+- _$s15ManagedSettings06FindMyB0V4NameOMn
+- _$s15ManagedSettings06SafariB0V04denyC0AA15SettingMetadataVySbGvgZ
+- _$s15ManagedSettings06SafariB0V12CookiePolicyO16persistableValueSo8NSObjectCyF
+- _$s15ManagedSettings06SafariB0V12CookiePolicyOAA11PersistableAAWP
+- _$s15ManagedSettings06SafariB0V12CookiePolicyOMa
+- _$s15ManagedSettings06SafariB0V12CookiePolicyOMn
+- _$s15ManagedSettings06SafariB0V12CookiePolicyOSLAAMc
+- _$s15ManagedSettings06SafariB0V12cookiePolicyAA15SettingMetadataVyAC06CookieE0OGvgZ
+- _$s15ManagedSettings06SafariB0V12denyAutoFillAA15SettingMetadataVySbGvgZ
+- _$s15ManagedSettings06SafariB0V4NameO04denyC0yA2EmFWC
+- _$s15ManagedSettings06SafariB0V4NameO12cookiePolicyyA2EmFWC
+- _$s15ManagedSettings06SafariB0V4NameO12denyAutoFillyA2EmFWC
+- _$s15ManagedSettings06SafariB0V4NameO8rawValueAESgSS_tcfC
+- _$s15ManagedSettings06SafariB0V4NameO8rawValueSSvg
+- _$s15ManagedSettings06SafariB0V4NameOMa
+- _$s15ManagedSettings06SafariB0V4NameOMn
+- _$s15ManagedSettings06ShieldB0V4NameO10webDomainsyA2EmFWC
+- _$s15ManagedSettings06ShieldB0V4NameO12applicationsyA2EmFWC
+- _$s15ManagedSettings06ShieldB0V4NameO19webDomainCategoriesyA2EmFWC
+- _$s15ManagedSettings06ShieldB0V4NameO21applicationCategoriesyA2EmFWC
+- _$s15ManagedSettings06ShieldB0V4NameO22unshieldableWebDomainsyA2EmFWC
+- _$s15ManagedSettings06ShieldB0V4NameO24unshieldableApplicationsyA2EmFWC
+- _$s15ManagedSettings06ShieldB0V4NameO8rawValueAESgSS_tcfC
+- _$s15ManagedSettings06ShieldB0V4NameO8rawValueSSvg
+- _$s15ManagedSettings06ShieldB0V4NameOMa
+- _$s15ManagedSettings06ShieldB0V4NameOMn
+- _$s15ManagedSettings07AccountB0V12lockAccountsAA15SettingMetadataVySbGvgZ
+- _$s15ManagedSettings07AccountB0V16denyiCloudLogoutAA15SettingMetadataVySbGvgZ
+- _$s15ManagedSettings07AccountB0V4NameO12lockAccountsyA2EmFWC
+- _$s15ManagedSettings07AccountB0V4NameO16denyiCloudLogoutyA2EmFWC
+- _$s15ManagedSettings07AccountB0V4NameO8rawValueAESgSS_tcfC
+- _$s15ManagedSettings07AccountB0V4NameO8rawValueSSvg
+- _$s15ManagedSettings07AccountB0V4NameOMa
+- _$s15ManagedSettings07AccountB0V4NameOMn
+- _$s15ManagedSettings07AirDropB0V04denycD0AA15SettingMetadataVySbGvgZ
+- _$s15ManagedSettings07AirDropB0V4NameO04denycD0yA2EmFWC
+- _$s15ManagedSettings07AirDropB0V4NameO8rawValueAESgSS_tcfC
+- _$s15ManagedSettings07AirDropB0V4NameO8rawValueSSvg
+- _$s15ManagedSettings07AirDropB0V4NameOMa
+- _$s15ManagedSettings07AirDropB0V4NameOMn
+- _$s15ManagedSettings07CarPlayB0V04denycD0AA15SettingMetadataVySbGvgZ
+- _$s15ManagedSettings07CarPlayB0V4NameO04denycD0yA2EmFWC
+- _$s15ManagedSettings07CarPlayB0V4NameO8rawValueAESgSS_tcfC
+- _$s15ManagedSettings07CarPlayB0V4NameO8rawValueSSvg
+- _$s15ManagedSettings07CarPlayB0V4NameOMa
+- _$s15ManagedSettings07CarPlayB0V4NameOMn
+- _$s15ManagedSettings07PrivacyB0V20forceLimitAdTrackingAA15SettingMetadataVySbGvgZ
+- _$s15ManagedSettings07PrivacyB0V4NameO20forceLimitAdTrackingyA2EmFWC
+- _$s15ManagedSettings07PrivacyB0V4NameO8rawValueAESgSS_tcfC
+- _$s15ManagedSettings07PrivacyB0V4NameO8rawValueSSvg
+- _$s15ManagedSettings07PrivacyB0V4NameOMa
+- _$s15ManagedSettings07PrivacyB0V4NameOMn
+- _$s15ManagedSettings08AppStoreB0V06denyInC9PurchasesAA15SettingMetadataVySbGvgZ
+- _$s15ManagedSettings08AppStoreB0V13maximumRatingAA22BoundedSettingMetadataVySiGvgZ
+- _$s15ManagedSettings08AppStoreB0V27requirePasswordForPurchasesAA15SettingMetadataVySbGvgZ
+- _$s15ManagedSettings08AppStoreB0V4NameO015denyMarketplaceC12InstallationyA2EmFWC
+- _$s15ManagedSettings08AppStoreB0V4NameO019denyWebDistributionC12InstallationyA2EmFWC
+- _$s15ManagedSettings08AppStoreB0V4NameO04denycdC12InstallationyA2EmFWC
+- _$s15ManagedSettings08AppStoreB0V4NameO06denyInC9PurchasesyA2EmFWC
+- _$s15ManagedSettings08AppStoreB0V4NameO13maximumRatingyA2EmFWC
+- _$s15ManagedSettings08AppStoreB0V4NameO27requirePasswordForPurchasesyA2EmFWC
+- _$s15ManagedSettings08AppStoreB0V4NameO8rawValueAESgSS_tcfC
+- _$s15ManagedSettings08AppStoreB0V4NameO8rawValueSSvg
+- _$s15ManagedSettings08AppStoreB0V4NameOMa
+- _$s15ManagedSettings08AppStoreB0V4NameOMn
+- _$s15ManagedSettings08CellularB0V04lockC4PlanAA15SettingMetadataVySbGvgZ
+- _$s15ManagedSettings08CellularB0V07lockAppC4DataAA15SettingMetadataVySbGvgZ
+- _$s15ManagedSettings08CellularB0V4NameO04lockC4PlanyA2EmFWC
+- _$s15ManagedSettings08CellularB0V4NameO07lockAppC4DatayA2EmFWC
+- _$s15ManagedSettings08CellularB0V4NameO8lockESIMyA2EmFWC
+- _$s15ManagedSettings08CellularB0V4NameO8rawValueAESgSS_tcfC
+- _$s15ManagedSettings08CellularB0V4NameO8rawValueSSvg
+- _$s15ManagedSettings08CellularB0V4NameOMa
+- _$s15ManagedSettings08CellularB0V4NameOMn
+- _$s15ManagedSettings08CellularB0V8lockESIMAA15SettingMetadataVySbGvgZ
+- _$s15ManagedSettings08FaceTimeB0V04denycD0AA15SettingMetadataVySbGvgZ
+- _$s15ManagedSettings08FaceTimeB0V13denySharePlayAA15SettingMetadataVySbGvgZ
+- _$s15ManagedSettings08FaceTimeB0V4NameO04denycD0yA2EmFWC
+- _$s15ManagedSettings08FaceTimeB0V4NameO13denySharePlayyA2EmFWC
+- _$s15ManagedSettings08FaceTimeB0V4NameO8rawValueAESgSS_tcfC
+- _$s15ManagedSettings08FaceTimeB0V4NameO8rawValueSSvg
+- _$s15ManagedSettings08FaceTimeB0V4NameOMa
+- _$s15ManagedSettings08FaceTimeB0V4NameOMn
+- _$s15ManagedSettings08KeyboardB0V015denyMathSolvingC0AA15SettingMetadataVySbGvgZ
+- _$s15ManagedSettings08KeyboardB0V13denyDictationAA15SettingMetadataVySbGvgZ
+- _$s15ManagedSettings08KeyboardB0V4NameO015denyMathSolvingC0yA2EmFWC
+- _$s15ManagedSettings08KeyboardB0V4NameO13denyDictationyA2EmFWC
+- _$s15ManagedSettings08KeyboardB0V4NameO8rawValueAESgSS_tcfC
+- _$s15ManagedSettings08KeyboardB0V4NameO8rawValueSSvg
+- _$s15ManagedSettings08KeyboardB0V4NameOMa
+- _$s15ManagedSettings08KeyboardB0V4NameOMn
+- _$s15ManagedSettings08MessagesB0V12denyiMessageAA15SettingMetadataVySbGvgZ
+- _$s15ManagedSettings08MessagesB0V4NameO12denyiMessageyA2EmFWC
+- _$s15ManagedSettings08MessagesB0V4NameO8rawValueAESgSS_tcfC
+- _$s15ManagedSettings08MessagesB0V4NameO8rawValueSSvg
+- _$s15ManagedSettings08MessagesB0V4NameOMa
+- _$s15ManagedSettings08MessagesB0V4NameOMn
+- _$s15ManagedSettings08PasscodeB0V04lockC0AA15SettingMetadataVySbGvgZ
+- _$s15ManagedSettings08PasscodeB0V4NameO04lockC0yA2EmFWC
+- _$s15ManagedSettings08PasscodeB0V4NameO8rawValueAESgSS_tcfC
+- _$s15ManagedSettings08PasscodeB0V4NameO8rawValueSSvg
+- _$s15ManagedSettings08PasscodeB0V4NameOMa
+- _$s15ManagedSettings08PasscodeB0V4NameOMn
+- _$s15ManagedSettings0B9GroupNameO07managedB0yA2CmFWC
+- _$s15ManagedSettings0B9GroupNameO10calculatoryA2CmFWC
+- _$s15ManagedSettings0B9GroupNameO10gameCenteryA2CmFWC
+- _$s15ManagedSettings0B9GroupNameO10screenTimeyA2CmFWC
+- _$s15ManagedSettings0B9GroupNameO10userSafetyyA2CmFWC
+- _$s15ManagedSettings0B9GroupNameO10webContentyA2CmFWC
+- _$s15ManagedSettings0B9GroupNameO11applicationyA2CmFWC
+- _$s15ManagedSettings0B9GroupNameO11dateAndTimeyA2CmFWC
+- _$s15ManagedSettings0B9GroupNameO12notificationyA2CmFWC
+- _$s15ManagedSettings0B9GroupNameO13allowedClientyA2CmFWC
+- _$s15ManagedSettings0B9GroupNameO14deviceActivityyA2CmFWC
+- _$s15ManagedSettings0B9GroupNameO4newsyA2CmFWC
+- _$s15ManagedSettings0B9GroupNameO4siriyA2CmFWC
+- _$s15ManagedSettings0B9GroupNameO4useryA2CmFWC
+- _$s15ManagedSettings0B9GroupNameO5mediayA2CmFWC
+- _$s15ManagedSettings0B9GroupNameO6camerayA2CmFWC
+- _$s15ManagedSettings0B9GroupNameO6findMyyA2CmFWC
+- _$s15ManagedSettings0B9GroupNameO6safariyA2CmFWC
+- _$s15ManagedSettings0B9GroupNameO6shieldyA2CmFWC
+- _$s15ManagedSettings0B9GroupNameO7accountyA2CmFWC
+- _$s15ManagedSettings0B9GroupNameO7airDropyA2CmFWC
+- _$s15ManagedSettings0B9GroupNameO7carPlayyA2CmFWC
+- _$s15ManagedSettings0B9GroupNameO7privacyyA2CmFWC
+- _$s15ManagedSettings0B9GroupNameO8appStoreyA2CmFWC
+- _$s15ManagedSettings0B9GroupNameO8cellularyA2CmFWC
+- _$s15ManagedSettings0B9GroupNameO8faceTimeyA2CmFWC
+- _$s15ManagedSettings0B9GroupNameO8keyboardyA2CmFWC
+- _$s15ManagedSettings0B9GroupNameO8messagesyA2CmFWC
+- _$s15ManagedSettings0B9GroupNameO8passcodeyA2CmFWC
+- _$s15ManagedSettings0B9GroupNameO8rawValueACSgSS_tcfC
+- _$s15ManagedSettings0B9GroupNameO8rawValueSSvg
+- _$s15ManagedSettings0B9GroupNameOMa
+- _$s15ManagedSettings0B9GroupNameOMn
+- _$s15ManagedSettings0abB0V16tokenEncodingKeyAA15SettingMetadataVy10Foundation4DataVGvgZ
+- _$s15ManagedSettings0abB0V17tokenDecodingKeysAA15SettingMetadataVyShy10Foundation4DataVGGvgZ
+- _$s15ManagedSettings0abB0V4NameO14allowedClientsyA2EmFWC
+- _$s15ManagedSettings0abB0V4NameO16tokenEncodingKeyyA2EmFWC
+- _$s15ManagedSettings0abB0V4NameO17tokenDecodingKeysyA2EmFWC
+- _$s15ManagedSettings0abB0V4NameO8rawValueAESgSS_tcfC
+- _$s15ManagedSettings0abB0V4NameO8rawValueSSvg
+- _$s15ManagedSettings0abB0V4NameOMa
+- _$s15ManagedSettings0abB0V4NameOMn
+- _$s15ManagedSettings15CombineOperatorV12currentValue_9restricts24shouldUsePatternMatchingSbShyAA9WebDomainVG_AHSbtF
+- _$s15ManagedSettings15CombineOperatorV12currentValue_9restricts9including24shouldUsePatternMatchingSbAA06ShieldB0V31EffectiveActivityCategoryPolicyOy_AA9WebDomainVG_AA0oP0VAMSgSbtAI0opQ0Oy_AMGRszlF
+- _$s15ManagedSettings15CombineOperatorV12currentValue_9restricts9includingSbAA06ShieldB0V31EffectiveActivityCategoryPolicyOy_qd__G_AA0kL0Vqd__SgtAH0klM0Oy_qd__GRszSHRd__lF
+- _$s15ManagedSettings15CombineOperatorV12currentValue_9restrictsSbShyqd__G_qd__tAFRszSHRd__lF
+- _$s15ManagedSettings15CombineOperatorV7combiney10Foundation4DataVSayAGGAGRszlF
+- _$s15ManagedSettings15CombineOperatorV7combineyAA010UserSafetyB0V14ScanningPolicyOSayAHGAHRszlF
+- _$s15ManagedSettings15CombineOperatorV7combineyAA010WebContentB0V12FilterPolicyOSayAHGAHRszlF
+- _$s15ManagedSettings15CombineOperatorV7combineyAA06ShieldB0V31EffectiveActivityCategoryPolicyOy_qd__GSayAIGAF0hiJ0Oy_qd__GRszSHRd__lF
+- _$s15ManagedSettings15CombineOperatorV7combineyAA11ApplicationVSgSayAFGAFRszlF
+- _$s15ManagedSettings15CombineOperatorV7combineySDyqd__qd_0_GSayAEGAERszSHRd__SLRd_0_r0_lF
+- _$s15ManagedSettings15CombineOperatorV7combineySbSaySbGSbRszlF
+- _$s15ManagedSettings15CombineOperatorV7combineyShyqd__GSayAEGAERszSHRd__lF
+- _$s15ManagedSettings15CombineOperatorV7combineyqd__SgSayqd__GSLRzSLRd__lF
+- _$s15ManagedSettings15CombineOperatorVMn
+- _$s15ManagedSettings15SettingMetadataV15combineOperatorAA07CombineF0VyxGvg
+- _$s15ManagedSettings15SettingMetadataV5scopeAA0C5ScopeOvg
+- _$s15ManagedSettings15SettingMetadataV8isPublicSbvg
+- _$s15ManagedSettings15SettingMetadataVAAShyAA5TokenVyAA11ApplicationVGGRszlE24effectiveCombineOperatorAA0hI0VyShyAGGGvg
+- _$s15ManagedSettings15SettingMetadataVAAShyAA5TokenVyAA9WebDomainVGGRszlE24effectiveCombineOperatorAA0iJ0VyShyAGGGvg
+- _$s15ManagedSettings22BoundedSettingMetadataV15combineOperatorAA07CombineG0VyxGvg
+- _$s15ManagedSettings22BoundedSettingMetadataV5scopeAA0D5ScopeOvg
+- _$s15ManagedSettings22BoundedSettingMetadataV8isPublicSbvg
+- _$sSS15ManagedSettings11PersistableAAWP
+- _$sSi15ManagedSettingsE16persistableValueSo8NSObjectCyF
+- _$sSiSLsWP
+- _$sytWV
+CStrings:
++ "Copying data for container “%!{(MISSING)public}s” and name “%!{(MISSING)public}s”..."
++ "Copying data version..."
++ "Copying effective settings for container “%!{(MISSING)public}s” ..."
++ "Copying effective settings..."
++ "Copying setting records..."
++ "Creating new diagnostics directory for “%!{(MISSING)public}s”..."
++ "Creating new diagnostics directory..."
++ "DataVersion.plist"
++ "Diagnostics directory already exist. Deleting old data..."
++ "EffectiveSettings.plist"
++ "Failed to combine setting values for %!{(MISSING)public}s"
++ "Failed to copy data for container “%!{(MISSING)public}s” and name “%!{(MISSING)public}s.” Error: %!{(MISSING)public}s"
++ "Failed to copy effective settings for “%!{(MISSING)public}s.” Error: %!{(MISSING)public}s"
++ "Failed to copy effective settings. Error: %!{(MISSING)public}s"
++ "Failed to copy setting records. Error: %!{(MISSING)public}s"
++ "Failed to create diagnostics directory for “%!{(MISSING)public}s.” Error: %!{(MISSING)public}s"
++ "Failed to create new diagnostics directory. Error: %!{(MISSING)public}s"
++ "Failed to data version. Error: %!{(MISSING)public}s"
++ "Failed to delete old diagnostics directory. Error: %!{(MISSING)public}s"
++ "collectDiagnostics:"
++ "com.apple.private.managed-settings.diagnostics"
++ "copyItemAtURL:toURL:error:"
++ "v24@0:8@?<v@?@\"NSURL\"@\"NSError\">16"
+- "Unknown setting group %!{(MISSING)public}s"
+
+```

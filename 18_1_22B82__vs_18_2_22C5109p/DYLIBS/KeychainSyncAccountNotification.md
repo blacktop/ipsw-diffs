@@ -1,0 +1,435 @@
+## KeychainSyncAccountNotification
+
+> `/System/Library/Accounts/Notification/KeychainSyncAccountNotification.bundle/KeychainSyncAccountNotification`
+
+```diff
+
+-61439.42.2.0.0
+-  __TEXT.__text: 0x29d4
+-  __TEXT.__auth_stubs: 0x3b0
+-  __TEXT.__objc_methlist: 0x168
+-  __TEXT.__const: 0xa0
+-  __TEXT.__gcc_except_tab: 0xa8
+-  __TEXT.__oslogstring: 0x418
+-  __TEXT.__cstring: 0x11d1
+-  __TEXT.__dlopen_cstrs: 0xfc
+-  __TEXT.__unwind_info: 0x108
+-  __TEXT.__objc_classname: 0x80
+-  __TEXT.__objc_methname: 0x92f
+-  __TEXT.__objc_methtype: 0x2b1
+-  __TEXT.__objc_stubs: 0x660
+-  __DATA_CONST.__got: 0x78
+-  __DATA_CONST.__const: 0x580
+-  __DATA_CONST.__objc_classlist: 0x18
++61439.60.91.502.1
++  __TEXT.__text: 0x1110
++  __TEXT.__auth_stubs: 0x200
++  __TEXT.__objc_methlist: 0x20
++  __TEXT.__const: 0x98
++  __TEXT.__cstring: 0xb9
++  __TEXT.__oslogstring: 0x377
++  __TEXT.__unwind_info: 0x68
++  __TEXT.__objc_classname: 0x46
++  __TEXT.__objc_methname: 0x481
++  __TEXT.__objc_methtype: 0x1f3
++  __TEXT.__objc_stubs: 0x340
++  __DATA_CONST.__got: 0xa0
++  __DATA_CONST.__const: 0x80
++  __DATA_CONST.__objc_classlist: 0x8
+   __DATA_CONST.__objc_protolist: 0x10
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x1e8
+-  __DATA_CONST.__objc_superrefs: 0x8
+-  __AUTH_CONST.__auth_got: 0x1e8
+-  __AUTH_CONST.__const: 0x60
+-  __AUTH_CONST.__cfstring: 0x1100
+-  __AUTH_CONST.__objc_const: 0x738
+-  __AUTH_CONST.__objc_intobj: 0x30
+-  __DATA.__objc_ivar: 0x18
++  __DATA_CONST.__objc_selrefs: 0xd8
++  __AUTH_CONST.__auth_got: 0x108
++  __AUTH_CONST.__cfstring: 0x120
++  __AUTH_CONST.__objc_const: 0x4e8
+   __DATA.__data: 0xc0
+-  __DATA_DIRTY.__objc_data: 0xf0
+-  __DATA_DIRTY.__bss: 0x78
++  __DATA_DIRTY.__objc_data: 0x50
+   - /System/Library/Frameworks/Accounts.framework/Accounts
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/Frameworks/Security.framework/Security
+   - /System/Library/PrivateFrameworks/AppleAccount.framework/AppleAccount
+   - /System/Library/PrivateFrameworks/AuthKit.framework/AuthKit
+-  - /System/Library/PrivateFrameworks/SoftLinking.framework/SoftLinking
++  - /System/Library/PrivateFrameworks/KeychainCircle.framework/KeychainCircle
+   - /System/Library/PrivateFrameworks/UserManagement.framework/UserManagement
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  Functions: 50
+-  Symbols:   216
+-  CStrings:  316
++  Functions: 5
++  Symbols:   61
++  CStrings:  114
+ 
+Symbols:
+- _OBJC_CLASS_$_NSConstantIntegerNumber
+- _OBJC_METACLASS_$_AAFAnalyticsEventSecurity
+- _OBJC_METACLASS_$_SecurityAnalyticsReporterRTC
+- __Block_object_dispose
+- __NSConcreteGlobalBlock
+- __Unwind_Resume
+- ___objc_personality_v0
+- __sl_dlopen
+- _abort_report_np
+- _dispatch_async
+- _dispatch_once
+- _dispatch_queue_attr_make_with_autorelease_frequency
+- _dispatch_queue_create
+- _dispatch_sync
+- _dlerror
+- _dlsym
+- _free
+- _kSecurityRTCClientBundleIdentifier
+- _kSecurityRTCClientName
+- _kSecurityRTCClientNameDNU
+- _kSecurityRTCClientType
+- _kSecurityRTCEventNameAcceptorCreatesPacket2
+- _kSecurityRTCEventNameAcceptorCreatesPacket4
+- _kSecurityRTCEventNameAcceptorCreatesPacket5
+- _kSecurityRTCEventNameAcceptorCreatesVoucher
+- _kSecurityRTCEventNameAcceptorFetchesInitialSyncData
+- _kSecurityRTCEventNameAllowedMIDHashMismatch
+- _kSecurityRTCEventNameCKAccountLogin
+- _kSecurityRTCEventNameCKKSTlkFetch
+- _kSecurityRTCEventNameCliqueMemberIdentifier
+- _kSecurityRTCEventNameCloudKitAccountAvailability
+- _kSecurityRTCEventNameContentSyncFinish
+- _kSecurityRTCEventNameCreateMissingTLKShares
+- _kSecurityRTCEventNameCreateSOSCircleBlob
+- _kSecurityRTCEventNameCreatesSOSApplication
+- _kSecurityRTCEventNameDeletedMIDHashMismatch
+- _kSecurityRTCEventNameDeviceLocked
+- _kSecurityRTCEventNameDeviceUnlocked
+- _kSecurityRTCEventNameDuplicateMachineID
+- _kSecurityRTCEventNameFetchAndPersistChanges
+- _kSecurityRTCEventNameFetchMachineID
+- _kSecurityRTCEventNameFetchPolicyDocument
+- _kSecurityRTCEventNameFirstManateeKeyFetch
+- _kSecurityRTCEventNameFixMismatchedViewItems
+- _kSecurityRTCEventNameFlush
+- _kSecurityRTCEventNameHealBrokenRecords
+- _kSecurityRTCEventNameHealKeyHierarchy
+- _kSecurityRTCEventNameHealTLKShares
+- _kSecurityRTCEventNameInitiatorCreatesPacket1
+- _kSecurityRTCEventNameInitiatorCreatesPacket3
+- _kSecurityRTCEventNameInitiatorImportsInitialSyncData
+- _kSecurityRTCEventNameInitiatorJoinsSOS
+- _kSecurityRTCEventNameInitiatorJoinsTrustSystems
+- _kSecurityRTCEventNameInitiatorWaitsForUpgrade
+- _kSecurityRTCEventNameJoin
+- _kSecurityRTCEventNameKVSSyncAndWait
+- _kSecurityRTCEventNameLaunchStart
+- _kSecurityRTCEventNameLoadAndProcessIQEs
+- _kSecurityRTCEventNameLocalReset
+- _kSecurityRTCEventNameLocalSyncFinish
+- _kSecurityRTCEventNameMIDVanishedFromTDL
+- _kSecurityRTCEventNameNumberOfTrustedOctagonPeers
+- _kSecurityRTCEventNameOnboardMissingItems
+- _kSecurityRTCEventNamePairingDidNotReceivePCSData
+- _kSecurityRTCEventNamePairingEmptyAckPayload
+- _kSecurityRTCEventNamePairingEmptyOctagonPayload
+- _kSecurityRTCEventNamePairingFailedFetchPCSItems
+- _kSecurityRTCEventNamePairingFailedToAddItemToKeychain
+- _kSecurityRTCEventNamePairingFailedToUpdateItemInKeychain
+- _kSecurityRTCEventNamePairingImportKeychainResults
+- _kSecurityRTCEventNamePreApprovedJoin
+- _kSecurityRTCEventNamePrepareIdentityInTPH
+- _kSecurityRTCEventNameProcessIncomingQueue
+- _kSecurityRTCEventNameProcessOutgoingQueue
+- _kSecurityRTCEventNameProcessReceivedKeys
+- _kSecurityRTCEventNameQuerySyncableItems
+- _kSecurityRTCEventNameRPDDeleteAllRecords
+- _kSecurityRTCEventNameSaveCKMirrorEntries
+- _kSecurityRTCEventNameScanLocalItems
+- _kSecurityRTCEventNameSyncingPolicySet
+- _kSecurityRTCEventNameTDLProcessingSuccess
+- _kSecurityRTCEventNameTrustGain
+- _kSecurityRTCEventNameTrustLoss
+- _kSecurityRTCEventNameTrustedDeviceListFailure
+- _kSecurityRTCEventNameTrustedDeviceListRefresh
+- _kSecurityRTCEventNameUpdateTDL
+- _kSecurityRTCEventNameUpdateTrust
+- _kSecurityRTCEventNameUploadHealedTLKShares
+- _kSecurityRTCEventNameUploadMissingTLKShares
+- _kSecurityRTCEventNameUploadOQEsToCK
+- _kSecurityRTCEventNameValidatedStashedAccountCredential
+- _kSecurityRTCEventNameVerifySOSApplication
+- _kSecurityRTCEventNameZoneChangeFetch
+- _kSecurityRTCEventNameZoneCreation
+- _kSecurityRTCFieldAvgCKRecords
+- _kSecurityRTCFieldAvgErrorItemsProcessed
+- _kSecurityRTCFieldAvgRemoteKeys
+- _kSecurityRTCFieldAvgSuccessfulItemsProcessed
+- _kSecurityRTCFieldDidSucceed
+- _kSecurityRTCFieldEgoMachineIDVanishedFromTDL
+- _kSecurityRTCFieldErrorItemsProcessed
+- _kSecurityRTCFieldEventName
+- _kSecurityRTCFieldFetchReasons
+- _kSecurityRTCFieldFullFetch
+- _kSecurityRTCFieldFullRefetchNeeded
+- _kSecurityRTCFieldIsFullUpload
+- _kSecurityRTCFieldIsLocked
+- _kSecurityRTCFieldIsPrioritized
+- _kSecurityRTCFieldItemsScanned
+- _kSecurityRTCFieldItemsToAdd
+- _kSecurityRTCFieldItemsToDelete
+- _kSecurityRTCFieldItemsToModify
+- _kSecurityRTCFieldMissingKey
+- _kSecurityRTCFieldNeedsReencryption
+- _kSecurityRTCFieldNewItemsScanned
+- _kSecurityRTCFieldNewTLKShares
+- _kSecurityRTCFieldNumKeychainItems
+- _kSecurityRTCFieldNumLocalRecords
+- _kSecurityRTCFieldNumMismatchedItems
+- _kSecurityRTCFieldNumViews
+- _kSecurityRTCFieldNumViewsWithNewEntries
+- _kSecurityRTCFieldNumberOfBluetoothMigrationItemsFetched
+- _kSecurityRTCFieldNumberOfKeychainItemsAdded
+- _kSecurityRTCFieldNumberOfKeychainItemsCollected
+- _kSecurityRTCFieldNumberOfPCSItemsFetched
+- _kSecurityRTCFieldNumberOfTLKsFetched
+- _kSecurityRTCFieldNumberOfTrustedPeers
+- _kSecurityRTCFieldPairingFailedImportCount
+- _kSecurityRTCFieldPairingSuccessfulImportCount
+- _kSecurityRTCFieldPartialFailure
+- _kSecurityRTCFieldPendingClassA
+- _kSecurityRTCFieldPolicyFreshness
+- _kSecurityRTCFieldRetryAttemptCount
+- _kSecurityRTCFieldSuccessfulItemsProcessed
+- _kSecurityRTCFieldSupportedTrustSystem
+- _kSecurityRTCFieldSyncingPolicy
+- _kSecurityRTCFieldTotalCKRecords
+- _kSecurityRTCFieldTotalRemoteKeys
+- _kSecurityRTCFieldTotalRetryDuration
+- _kSecurityRTCFieldTrustStatus
+- _objc_autoreleaseReturnValue
+- _objc_enumerationMutation
+- _objc_getClass
+- _objc_getProperty
+- _objc_msgSendSuper2
+- _objc_release
+- _objc_release_x9
+- _objc_retainAutoreleaseReturnValue
+- _objc_retain_x19
+- _objc_retain_x22
+- _objc_retain_x23
+- _objc_retain_x24
+- _objc_retain_x25
+- _objc_setProperty_atomic
+- _objc_storeStrong
+CStrings:
+- "\x12"
+- "%!s(MISSING)"
+- ".cxx_destruct"
+- "@\"AAFAnalyticsEvent\""
+- "@\"NSObject<OS_dispatch_queue>\""
+- "@24@0:8@16"
+- "@48@0:8@16@24@32@40"
+- "@56@0:8@16@24@32B40@44B52"
+- "@72@0:8@16@24@32@40@48B56B60@64"
+- "AAFAnalyticsEvent"
+- "AAFAnalyticsEventSecurity"
+- "AAFAnalyticsReporter"
+- "AAFAnalyticsTransportRTC"
+- "AKAccountManager"
+- "B"
+- "SecurityAnalyticsReporterRTC"
+- "T@\"AAFAnalyticsEvent\",&,V_event"
+- "T@\"NSObject<OS_dispatch_queue>\",&,V_queue"
+- "TB,V_areTestsEnabled"
+- "TB,V_canSendMetrics"
+- "TB,V_isAAAFoundationAvailable"
+- "TB,V_isAuthKitAvailable"
+- "Unable to find class %!s(MISSING)"
+- "_areTestsEnabled"
+- "_canSendMetrics"
+- "_event"
+- "_isAAAFoundationAvailable"
+- "_isAuthKitAvailable"
+- "_queue"
+- "aafanalyticsevent-security: failed to softlink AAAFoundation"
+- "aafanalyticsevent-security: failed to softlink AuthKit"
+- "accountAccessTelemetryOptInForAccount:"
+- "allKeys"
+- "analyticsReporterWithTransport:"
+- "analyticsTransportRTCWithClientType:clientBundleId:clientName:"
+- "areTestsEnabled"
+- "authKitAccountWithAltDSID returned error: %!@(MISSING)"
+- "authKitAccountWithAltDSID:error:"
+- "avgCKRecords"
+- "avgErrorItemsProcessed"
+- "avgRemoteKeys"
+- "avgSuccessfulItemsProcessed"
+- "canSendMetrics"
+- "com.apple.aaa"
+- "com.apple.aaa.dnu"
+- "com.apple.security.aafanalyticsevent.queue"
+- "com.apple.security.acceptorCreatesPacket2"
+- "com.apple.security.acceptorCreatesPacket4"
+- "com.apple.security.acceptorCreatesPacket5"
+- "com.apple.security.acceptorCreatesVoucher"
+- "com.apple.security.acceptorFetchesInitialSyncData"
+- "com.apple.security.allowedMIDHashMismatch"
+- "com.apple.security.cKKSTLKFetch"
+- "com.apple.security.ckks.CKAccountLogin"
+- "com.apple.security.ckks.contentSyncFinish"
+- "com.apple.security.ckks.deviceLocked"
+- "com.apple.security.ckks.deviceUnlocked"
+- "com.apple.security.ckks.firstManateeKeyFetch"
+- "com.apple.security.ckks.healKeyHierarchy"
+- "com.apple.security.ckks.healKeyHierarchy.healBrokenRecords"
+- "com.apple.security.ckks.healKeyHierarchy.uploadHealedTLKShares"
+- "com.apple.security.ckks.healTLKShares"
+- "com.apple.security.ckks.healTLKShares.createMissingTLKShares"
+- "com.apple.security.ckks.healTLKShares.uploadMissingTLKShares"
+- "com.apple.security.ckks.launchStart"
+- "com.apple.security.ckks.localReset"
+- "com.apple.security.ckks.localSyncFinish"
+- "com.apple.security.ckks.processIncomingQueue"
+- "com.apple.security.ckks.processIncomingQueue.fixMismatchedViewItems"
+- "com.apple.security.ckks.processIncomingQueue.loadAndProcessIQEs"
+- "com.apple.security.ckks.processOutgoingQueue"
+- "com.apple.security.ckks.processOutgoingQueue.saveCKMirrorEntries"
+- "com.apple.security.ckks.processOutgoingQueue.uploadOQEstoCK"
+- "com.apple.security.ckks.processReceivedKeys"
+- "com.apple.security.ckks.scanLocalItems"
+- "com.apple.security.ckks.scanLocalItems.onboardMissingItems"
+- "com.apple.security.ckks.scanLocalItems.querySyncableItems"
+- "com.apple.security.ckks.syncingPolicySet"
+- "com.apple.security.ckks.trustGain"
+- "com.apple.security.ckks.trustLoss"
+- "com.apple.security.ckks.zoneChangeFetch"
+- "com.apple.security.ckks.zoneCreation"
+- "com.apple.security.cliqueMemberIdentifier"
+- "com.apple.security.cloudKitAccountAvailability"
+- "com.apple.security.createSOSApplication"
+- "com.apple.security.createSOSCircleBlob"
+- "com.apple.security.deletedMIDHashMismatch"
+- "com.apple.security.duplicateMachineID"
+- "com.apple.security.fetchAndPersistChanges"
+- "com.apple.security.fetchMachineID"
+- "com.apple.security.fetchPolicyDocument"
+- "com.apple.security.flush"
+- "com.apple.security.idMSSecurityLevel"
+- "com.apple.security.initiatorCreatesPacket1"
+- "com.apple.security.initiatorCreatesPacket3"
+- "com.apple.security.initiatorImportsInitialSyncData"
+- "com.apple.security.initiatorJoinSOS"
+- "com.apple.security.initiatorJoinsTrustSystems"
+- "com.apple.security.initiatorWaitsForUpgrade"
+- "com.apple.security.joinWithVoucher"
+- "com.apple.security.kVSSyncAndWait"
+- "com.apple.security.midVanishedFromTDL"
+- "com.apple.security.numberOfTrustedOctagonPeers"
+- "com.apple.security.pairingDidNotReceivePCSData"
+- "com.apple.security.pairingEmptyAckPayload"
+- "com.apple.security.pairingEmptyOctagonPayload"
+- "com.apple.security.pairingFailedFetchPCSItems"
+- "com.apple.security.pairingFailedToAddItemToKeychain"
+- "com.apple.security.pairingFailedToUpdateItemInKeychain"
+- "com.apple.security.pairingImportKeychainResults"
+- "com.apple.security.preApprovedJoin"
+- "com.apple.security.prepareIdentityInTPH"
+- "com.apple.security.primaryAccountAdded"
+- "com.apple.security.rpdDeleteAllRecords"
+- "com.apple.security.tdlProcessingSuccess"
+- "com.apple.security.trustedDeviceListFailure"
+- "com.apple.security.trustedDeviceListRefresh"
+- "com.apple.security.updateTDL"
+- "com.apple.security.updateTrust"
+- "com.apple.security.validatedStashedAccountCredential"
+- "com.apple.security.verifySOSApplication"
+- "com.apple.securityd"
+- "countByEnumeratingWithState:objects:count:"
+- "didSucceed"
+- "egoMachineIDVanishedFromTDL"
+- "errorItemsProcessed"
+- "event"
+- "eventName"
+- "fetchDeviceSessionIDFromAuthKit:"
+- "fetchReasons"
+- "fullFetch"
+- "fullRefetchNeeded"
+- "getEvent"
+- "i"
+- "init"
+- "initWithCKKSMetrics:altDSID:eventName:testsAreEnabled:category:sendMetric:"
+- "initWithEventName:eventCategory:initData:"
+- "initWithKeychainCircleMetrics:altDSID:flowID:deviceSessionID:eventName:testsAreEnabled:canSendMetrics:category:"
+- "isAAAFoundationAvailable"
+- "isAuthKitAvailable"
+- "isFullUpload"
+- "isLocked"
+- "isPrioritized"
+- "itemsScanned"
+- "itemsToAdd"
+- "itemsToDelete"
+- "itemsToModify"
+- "kAAFDeviceSessionId"
+- "kAAFFlowId"
+- "missingKey"
+- "needsReencryption"
+- "newItemsScanned"
+- "newTLKShares"
+- "numKeychainItems"
+- "numLocalRecords"
+- "numMismatchedItems"
+- "numViews"
+- "numViewsWithNewEntries"
+- "numberOfBluetoothMigrationItemsFetched"
+- "numberOfKeychainItemsAdded"
+- "numberOfKeychainItemsCollected"
+- "numberOfPCSItemsFetched"
+- "numberOfTLKsFetched"
+- "numberOfTrustedPeers"
+- "numberWithBool:"
+- "objectForKeyedSubscript:"
+- "octagonSignInResult"
+- "pairingFailedImportCount"
+- "pairingSuccessfulImportCount"
+- "partialFailure"
+- "pendingClassAEntries"
+- "permittedToSendMetrics"
+- "policyFreshness"
+- "populateUnderlyingErrorsStartingWithRootError:"
+- "primaryAuthKitAccount"
+- "queue"
+- "retryAttemptCount"
+- "rtcAnalyticsReporter"
+- "securityLevel"
+- "sendEvent:"
+- "setAreTestsEnabled:"
+- "setCanSendMetrics:"
+- "setEvent:"
+- "setIsAAAFoundationAvailable:"
+- "setIsAuthKitAvailable:"
+- "setObject:forKeyedSubscript:"
+- "setQueue:"
+- "softlink:o:path:/System/Library/PrivateFrameworks/AAAFoundation.framework/AAAFoundation"
+- "softlink:o:path:/System/Library/PrivateFrameworks/AuthKit.framework/AuthKit"
+- "successfulItemsProcessed"
+- "supportedTrustSystem"
+- "syncingPolicy"
+- "telemetryDeviceSessionIDForAccount:"
+- "totalCKRecords"
+- "totalRemoteKeys"
+- "totalRetryDuration"
+- "trustStatus"
+- "v16@0:8"
+- "v20@0:8B16"
+- "v24@0:8@16"
+- "v36@0:8@16B24@28"
+- "v8@?0"
+
+```

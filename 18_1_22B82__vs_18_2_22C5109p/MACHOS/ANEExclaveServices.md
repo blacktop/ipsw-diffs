@@ -1,0 +1,188 @@
+## ANEExclaveServices
+
+> `/System/ExclaveKit/System/Library/PrivateFrameworks/ANEExclaveServices.framework/ANEExclaveServices`
+
+```diff
+
+-11.4.0.0.0
+-  __TEXT.__text: 0x108e0
++11.203.1.0.0
++  __TEXT.__text: 0xf988
+   __TEXT.__auth_stubs: 0x760
+-  __TEXT.__const: 0x768
+-  __TEXT.__cstring: 0x10d5
++  __TEXT.__const: 0x860
++  __TEXT.__cstring: 0x17cb
+   __TEXT.__constg_swiftt: 0x6f0
+-  __TEXT.__swift5_typeref: 0x2dd
+-  __TEXT.__swift5_reflstr: 0x7de
+-  __TEXT.__swift5_fieldmd: 0x6c4
++  __TEXT.__swift5_typeref: 0x2cb
++  __TEXT.__swift5_reflstr: 0x83e
++  __TEXT.__swift5_fieldmd: 0x748
+   __TEXT.__swift5_types: 0x60
+-  __TEXT.__swift5_assocty: 0x180
++  __TEXT.__swift5_assocty: 0x120
+   __TEXT.__swift5_builtin: 0x28
+   __TEXT.__swift5_mpenum: 0x18
+-  __TEXT.__swift5_proto: 0xa0
++  __TEXT.__swift5_proto: 0x90
+   __TEXT.__objc_methname: 0xc
+   __TEXT.__swift5_protos: 0x4
+-  __TEXT.__unwind_info: 0x418
+-  __TEXT.__eh_frame: 0x388
++  __TEXT.__unwind_info: 0x3f8
++  __TEXT.__eh_frame: 0x390
+   __DATA.__auth_got: 0x3b0
+-  __DATA.__got: 0xf0
++  __DATA.__got: 0xd8
+   __DATA.__auth_ptr: 0x130
+-  __DATA.__const: 0xb00
++  __DATA.__const: 0xcd8
+   __DATA.__objc_classlist: 0x40
+   __DATA.__objc_imageinfo: 0x8
+   __DATA.__objc_const: 0x808
+   __DATA.__objc_selrefs: 0x8
+   __DATA.__objc_data: 0xa0
+-  __DATA.__data: 0xd20
++  __DATA.__data: 0xc90
+   __DATA.__common: 0x18
+   __DATA.__bss: 0x200
+   - /System/ExclaveKit/System/Library/Frameworks/Foundation.framework/Foundation
+
+   - /System/ExclaveKit/usr/lib/swift/libswift_math.dylib
+   - /System/ExclaveKit/usr/lib/swift/libswift_stdio.dylib
+   - /System/ExclaveKit/usr/lib/swift/libswift_time.dylib
+-  Functions: 439
+-  Symbols:   1174
+-  CStrings:  116
++  Functions: 434
++  Symbols:   1156
++  CStrings:  128
+ 
+Symbols:
++ _$s18ANEExclaveServices0aB7HandlerP17evaluateWithModel7requests6UInt64VAA15_ANERequestArgsV_tKFTj
++ _$s18ANEExclaveServices0aB7HandlerP17evaluateWithModel7requests6UInt64VAA15_ANERequestArgsV_tKFTq
++ _$s18ANEExclaveServices10_ANEStatusO8Selector33_90C7753E426B208FD55D97B72B9998A6LLO8rawValueAFSgs6UInt64V_tcfCTf4nd_n
++ _$s18ANEExclaveServices12ANERequestIOCfDTm
++ _$s18ANEExclaveServices14_ANELoadResultO8Selector33_90C7753E426B208FD55D97B72B9998A6LLO8rawValueAFSgs6UInt64V_tcfCTf4nd_n
++ _$s18ANEExclaveServices15_ANERequestArgsVWOs
++ _$s18ANEExclaveServices18ANEModelIdentifierO10DeviceGazeyA2CmFWC
++ _$s18ANEExclaveServices18ANEModelIdentifierO10TorsoPrintyA2CmFWC
++ _$s18ANEExclaveServices18ANEModelIdentifierO13ANST_1024x768yA2CmFWC
++ _$s18ANEExclaveServices18ANEModelIdentifierO14FaceLivelinessyA2CmFWC
++ _$s18ANEExclaveServices18ANEModelIdentifierO14SpeakingFusionyA2CmFWC
++ _$s18ANEExclaveServices18ANEModelIdentifierO17ContextSwitchTestyA2CmFWC
++ _$s18ANEExclaveServices18ANEModelIdentifierO4ANDKyA2CmFWC
++ _$s18ANEExclaveServices18ANEModelIdentifierO4OD3DyA2CmFWC
++ _$s18ANEExclaveServices18ANEModelIdentifierO5GWDotyA2CmFWC
++ _$s18ANEExclaveServices18ANEModelIdentifierO5GWNetyA2CmFWC
++ _$s18ANEExclaveServices18ANEModelIdentifierO7CamGazeyA2CmFWC
++ _$s18ANEExclaveServices18ANEModelIdentifierO9FacePrintyA2CmFWC
++ _$s18ANEExclaveServicesAAC7ServiceC10connectionAD9Tightbeam16ClientConnectionC_tcfCTq
++ _$s18ANEExclaveServicesAAC7ServiceC17evaluateWithModel7requests6UInt64VAA15_ANERequestArgsV_tKF
++ _$s18ANEExclaveServicesAAC7ServiceC21unmapSurfacesWithCore0D7RequestSbAA20_ANEUnmapSurfaceArgsV_tKF
++ _$s9Tightbeam0A7DecoderV18ANEExclaveServicesE6decode33_90C7753E426B208FD55D97B72B9998A6LL2asAD14_ANELoadResultOAIm_tFTf4dn_nTm
++ _$s9Tightbeam0A7EncoderV18ANEExclaveServicesE6encode33_90C7753E426B208FD55D97B72B9998A6LLyyAD10_ANEStatusOF
++ _$s9Tightbeam0A7EncoderV18ANEExclaveServicesE6encode33_90C7753E426B208FD55D97B72B9998A6LLyyAD14_ANELoadResultOF
++ _$s9Tightbeam0A7EncoderV18ANEExclaveServicesE6encode33_90C7753E426B208FD55D97B72B9998A6LLyyAD15_ANERequestArgsVF
++ _$s9Tightbeam0A7MessageC18ANEExclaveServicesE4size33_90C7753E426B208FD55D97B72B9998A6LLySiAD15_ANERequestArgsVFZTf4nd_n
++ _$sSlsE3mapySayqd__Gqd__7ElementQzqd_0_YKXEqd_0_YKs5ErrorRd_0_r0_lFSnys6UInt64VG_18ANEExclaveServices16_ANEMemoryObjectVs5NeverOTg5025$s9Tightbeam0A7DecoderV18ef79E6decode33_90C7753E426B208FD55D97B72B9998A6LL2asAD15_ANERequestArgsVAIm_tFAD16_gh3Vs6D6VXEfU_9Tightbeam09TightbeamM0VTf1cn_nTm
++ _$sSlsE3mapySayqd__Gqd__7ElementQzqd_0_YKXEqd_0_YKs5ErrorRd_0_r0_lFSnys6UInt64VG_AGs5NeverOTg50124$s9Tightbeam0A7DecoderV18ANEExclaveServicesE6decode33_90C7753E426B208FD55D97B72B9998A6LL2asAD20_ANEUnmapSurfaceArgsVAIm_tFs6D8VAKXEfU_9Tightbeam09TightbeamI0VTf1cn_n
++ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF18ANEExclaveServices16_ANEMemoryObjectV_Tg5
++ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFs6UInt64V_Tg5
++ _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFs4Int8V_Tg5
++ _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFs6UInt64V_Tg5
++ _$ss6HasherV8_combineyySuF
++ __swift_stdlib_getDefaultErrorCode
+- _$s18ANEExclaveServices0A10DeviceInfoC10aneRawTypeACs6UInt32V_tcfc
+- _$s18ANEExclaveServices0aB7HandlerP17evaluateWithModel7requests6UInt64VAA11_ANERequestV_tKFTj
+- _$s18ANEExclaveServices0aB7HandlerP17evaluateWithModel7requests6UInt64VAA11_ANERequestV_tKFTq
+- _$s18ANEExclaveServices0aB7HandlerP22getANEArchitectureTypes6UInt32VyFTj
+- _$s18ANEExclaveServices0aB7HandlerP22getANEArchitectureTypes6UInt32VyFTq
+- _$s18ANEExclaveServices10_ANEStatusO8rawValueACSgs6UInt32V_tcfCTf4nd_n
+- _$s18ANEExclaveServices10_ANEStatusOSYAAMA
+- _$s18ANEExclaveServices10_ANEStatusOSYAAMc
+- _$s18ANEExclaveServices10_ANEStatusOSYAASY8rawValue03RawE0QzvgTW
+- _$s18ANEExclaveServices10_ANEStatusOSYAASY8rawValuexSg03RawE0Qz_tcfCTW
+- _$s18ANEExclaveServices10_ANEStatusOSYAAWP
+- _$s18ANEExclaveServices11_ANERequestVWOs
+- _$s18ANEExclaveServices14_ANELoadResultOSYAAMA
+- _$s18ANEExclaveServices14_ANELoadResultOSYAAMc
+- _$s18ANEExclaveServices14_ANELoadResultOSYAASY8rawValue03RawF0QzvgTW
+- _$s18ANEExclaveServices14_ANELoadResultOSYAASY8rawValuexSg03RawF0Qz_tcfCTW
+- _$s18ANEExclaveServices14_ANELoadResultOSYAAWP
+- _$s18ANEExclaveServices18_ANENameObjectTypeO8rawValueACSgs6UInt32V_tcfCTf4nd_n
+- _$s18ANEExclaveServices18_ANENameObjectTypeOSYAAMA
+- _$s18ANEExclaveServices18_ANENameObjectTypeOSYAAMc
+- _$s18ANEExclaveServices18_ANENameObjectTypeOSYAASY8rawValue03RawG0QzvgTW
+- _$s18ANEExclaveServices18_ANENameObjectTypeOSYAASY8rawValuexSg03RawG0Qz_tcfCTW
+- _$s18ANEExclaveServices18_ANENameObjectTypeOSYAAWP
+- _$s18ANEExclaveServices20_ANEMemoryObjectTypeOSYAAMA
+- _$s18ANEExclaveServices20_ANEMemoryObjectTypeOSYAAMc
+- _$s18ANEExclaveServices20_ANEMemoryObjectTypeOSYAASY8rawValue03RawG0QzvgTW
+- _$s18ANEExclaveServices20_ANEMemoryObjectTypeOSYAASY8rawValuexSg03RawG0Qz_tcfCTW
+- _$s18ANEExclaveServices20_ANEMemoryObjectTypeOSYAAWP
+- _$s18ANEExclaveServicesAAC7ServiceC17evaluateWithModel7requests6UInt64VAA11_ANERequestV_tKF
+- _$s18ANEExclaveServicesAAC7ServiceC22getANEArchitectureTypes6UInt32VyKF
+- _$s18ANEExclaveServicesAAC8Selector33_90C7753E426B208FD55D97B72B9998A6LLO8rawValueAESgs6UInt64V_tcfCTf4nd_n
+- _$s9Tightbeam0A7DecoderV18ANEExclaveServicesE6decode33_90C7753E426B208FD55D97B72B9998A6LL2asAD10_ANEStatusOAIm_tFTf4dn_n
+- _$s9Tightbeam0A7DecoderV18ANEExclaveServicesE6decode33_90C7753E426B208FD55D97B72B9998A6LL2asAD14_ANELoadResultOAIm_tFTf4dn_n
+- _$s9Tightbeam0A7EncoderV18ANEExclaveServicesE6encode33_90C7753E426B208FD55D97B72B9998A6LLyyAD11_ANERequestVF
+- _$s9Tightbeam0A7EncoderV18ANEExclaveServicesE6encode33_90C7753E426B208FD55D97B72B9998A6LLyyAD18_ANEModelProcedureVF
+- _$s9Tightbeam0A7EncoderV18ANEExclaveServicesE6encode33_90C7753E426B208FD55D97B72B9998A6LLyyAD20_ANEUnmapSurfaceArgsVF
+- _$s9Tightbeam0A7MessageC18ANEExclaveServicesE4size33_90C7753E426B208FD55D97B72B9998A6LLySiAD11_ANERequestVFZTf4nd_n
+- _$sSa28_allocateBufferUninitialized15minimumCapacitys06_ArrayB0VyxGSi_tFZ18ANEExclaveServices16_ANEMemoryObjectV_Tgm5
+- _$sSa28_allocateBufferUninitialized15minimumCapacitys06_ArrayB0VyxGSi_tFZs6UInt64V_Tgm5
+- _$sSays6UInt64VGMD
+- _$sSlsE3mapySayqd__Gqd__7ElementQzqd_0_YKXEqd_0_YKs5ErrorRd_0_r0_lFSnySiG_18ANEExclaveServices16_ANEMemoryObjectVs5NeverOTg5025$s9Tightbeam0A7DecoderV18de75E6decode33_90C7753E426B208FD55D97B72B9998A6LL2asAD11_ANERequestVAIm_tFAD16_fG8VSiXEfU_9Tightbeam09TightbeamL0VTf1cn_nTm
+- _$sSlsE3mapySayqd__Gqd__7ElementQzqd_0_YKXEqd_0_YKs5ErrorRd_0_r0_lFSnySiG_s6UInt64Vs5NeverOTg50124$s9Tightbeam0A7DecoderV18ANEExclaveServicesE6decode33_90C7753E426B208FD55D97B72B9998A6LL2asAD20_ANEUnmapSurfaceArgsVAIm_tFs6D8VSiXEfU_9Tightbeam09TightbeamI0VTf1cn_n
+- _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFs4Int8V_Tg5Tm
+- _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFs6UInt64V_Tg5Tm
+- _$ss12_ArrayBufferV20_consumeAndCreateNewAByxGyFs6UInt64V_Tg5
+- _$ss15ContiguousArrayV16_createNewBuffer14bufferIsUnique15minimumCapacity13growForAppendySb_SiSbtFSays6UInt64VG_Tg5
+- _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSays6UInt64VG_Tg5
+- _$ss23_ContiguousArrayStorageCySays6UInt64VGGMD
+- _$ss5ErrorPsSYRzs17FixedWidthInteger8RawValueSYRpzrlE5_codeSivg
+- _$ss6UInt32VABs17FixedWidthIntegersWL
+- _$ss6UInt32VABs17FixedWidthIntegersWl
+- _$ss6UInt32Vs17FixedWidthIntegersMc
+- _swift_bridgeObjectRelease_n
+- _symbolic _____ySay_____GG s23_ContiguousArrayStorageC s6UInt64V
+CStrings:
++ "ContextSwitchTest"
++ "Freeing ANERequestIO object with identifier "
++ "Surfaces to unmap "
++ "System/ExclaveKit/System/Library/Frameworks/Vision.framework/camgaze_ek_fp16.bundle"
++ "System/ExclaveKit/System/Library/Frameworks/Vision.framework/devicegaze_ek_fp16.bundle"
++ "System/ExclaveKit/System/Library/Frameworks/Vision.framework/faceliveliness_ek_fp16.bundle"
++ "System/ExclaveKit/System/Library/Frameworks/Vision.framework/faceprint_ek_fp16.bundle"
++ "System/ExclaveKit/System/Library/Frameworks/Vision.framework/torsoprint_ek_fp16.bundle"
++ "System/ExclaveKit/System/Library/PrivateFrameworks/PerceptionExclave.framework/speaking-fused.mlmodelc/model0.bundle"
++ "System/ExclaveKit/System/Library/PrivateFrameworks/SISP_EK_AlgoModels.framework/Networks.bundle/3DOD.bundle"
++ "System/ExclaveKit/System/Library/PrivateFrameworks/SISP_EK_AlgoModels.framework/Networks.bundle/AD.bundle"
++ "System/ExclaveKit/System/Library/PrivateFrameworks/SISP_EK_AlgoModels.framework/Networks.bundle/AD_Landscape.bundle"
++ "System/ExclaveKit/System/Library/PrivateFrameworks/SISP_EK_AlgoModels.framework/Networks.bundle/ANDK.bundle"
++ "System/ExclaveKit/System/Library/PrivateFrameworks/SISP_EK_AlgoModels.framework/Networks.bundle/ANST.bundle"
++ "System/ExclaveKit/System/Library/PrivateFrameworks/SISP_EK_AlgoModels.framework/Networks.bundle/ANST_1024x768.bundle"
++ "System/ExclaveKit/System/Library/PrivateFrameworks/SISP_EK_AlgoModels.framework/Networks.bundle/EyeRelief.bundle"
++ "System/ExclaveKit/System/Library/PrivateFrameworks/SISP_EK_AlgoModels.framework/Networks.bundle/FD.bundle"
++ "System/ExclaveKit/System/Library/PrivateFrameworks/SISP_EK_AlgoModels.framework/Networks.bundle/GWDot.bundle"
++ "System/ExclaveKit/System/Library/PrivateFrameworks/SISP_EK_AlgoModels.framework/Networks.bundle/GWNet.bundle"
++ "System/ExclaveKit/System/Library/PrivateFrameworks/SISP_EK_AlgoModels.framework/Networks.bundle/GlassDetection.bundle"
++ "System/ExclaveKit/System/Library/PrivateFrameworks/SISP_EK_AlgoModels.framework/Networks.bundle/LandmarkOcclusion.bundle"
++ "System/ExclaveKit/System/Library/PrivateFrameworks/SISP_EK_AlgoModels.framework/Networks.bundle/OcclusionDetection.bundle"
++ "illegal variant selector: "
+- ": incorrect fixed-sized array length, expected 10, got "
+- ": incorrect fixed-sized array length, expected 48, got "
+- ": incorrect fixed-sized array length, expected 6, got "
+- "Invalid priority level: "
+- "Surface to unmap: "
+- "Surfaces in this chunk: "
+- "invalid rawValue for _ANELoadResult "
+- "invalid rawValue for _ANEMemoryObjectType "
+- "invalid rawValue for _ANENameObjectType "
+- "invalid rawValue for _ANERequestPriorityLevel "
+- "invalid rawValue for _ANEStatus "
+
+```

@@ -1,0 +1,2522 @@
+## NightingaleTraining
+
+> `/System/Library/PrivateFrameworks/NightingaleTraining.framework/NightingaleTraining`
+
+```diff
+
+-58.0.0.0.0
+-  __TEXT.__text: 0x79514
+-  __TEXT.__auth_stubs: 0x1310
+-  __TEXT.__const: 0x1140
+-  __TEXT.__cstring: 0x1ad1
+-  __TEXT.__constg_swiftt: 0x1014
+-  __TEXT.__swift5_typeref: 0xf04
+-  __TEXT.__swift5_builtin: 0x28
+-  __TEXT.__swift5_reflstr: 0xb93
+-  __TEXT.__swift5_assocty: 0x198
+-  __TEXT.__swift5_proto: 0xb4
+-  __TEXT.__swift5_types: 0x70
+-  __TEXT.__swift5_fieldmd: 0x984
+-  __TEXT.__oslogstring: 0xed
+-  __TEXT.__swift5_capture: 0x6c8
++59.0.0.0.0
++  __TEXT.__text: 0x13e05c
++  __TEXT.__auth_stubs: 0x1eb0
++  __TEXT.__objc_methlist: 0x1868
++  __TEXT.__const: 0x222d
++  __TEXT.__swift5_typeref: 0x1587
++  __TEXT.__cstring: 0x2a92
++  __TEXT.__constg_swiftt: 0x1424
++  __TEXT.__swift5_fieldmd: 0x11f8
++  __TEXT.__swift5_builtin: 0x3c
++  __TEXT.__swift5_reflstr: 0x14d3
++  __TEXT.__swift5_assocty: 0x300
++  __TEXT.__swift5_proto: 0x160
++  __TEXT.__swift5_types: 0xd4
++  __TEXT.__oslogstring: 0x11a6
++  __TEXT.__swift5_capture: 0x3e4
+   __TEXT.__swift5_protos: 0x10
+-  __TEXT.__unwind_info: 0x1170
+-  __TEXT.__eh_frame: 0x3408
+-  __TEXT.__objc_methname: 0x768
+-  __DATA_CONST.__got: 0x300
+-  __DATA_CONST.__const: 0x120
+-  __DATA_CONST.__objc_classlist: 0x68
++  __TEXT.__gcc_except_tab: 0x4700
++  __TEXT.__unwind_info: 0x2c10
++  __TEXT.__eh_frame: 0x2a18
++  __TEXT.__objc_classname: 0x3f3
++  __TEXT.__objc_methname: 0x3e48
++  __TEXT.__objc_methtype: 0x5ed
++  __TEXT.__objc_stubs: 0x1840
++  __DATA_CONST.__got: 0x6a8
++  __DATA_CONST.__const: 0x140
++  __DATA_CONST.__objc_classlist: 0x178
++  __DATA_CONST.__objc_protolist: 0x20
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x270
+-  __AUTH_CONST.__auth_got: 0x988
+-  __AUTH_CONST.__auth_ptr: 0x250
+-  __AUTH_CONST.__const: 0x2048
+-  __AUTH_CONST.__objc_const: 0xd20
+-  __AUTH.__data: 0x11d0
+-  __DATA.__data: 0x900
+-  __DATA.__bss: 0x1180
+-  __DATA.__common: 0x68
+-  __DATA_DIRTY.__data: 0x58
++  __DATA_CONST.__objc_selrefs: 0xb78
++  __DATA_CONST.__objc_superrefs: 0xe0
++  __DATA_CONST.__objc_arraydata: 0x198
++  __AUTH_CONST.__auth_got: 0xf68
++  __AUTH_CONST.__auth_ptr: 0x3b0
++  __AUTH_CONST.__const: 0x1f60
++  __AUTH_CONST.__cfstring: 0x1c0
++  __AUTH_CONST.__objc_const: 0x44b0
++  __AUTH_CONST.__objc_arrayobj: 0x1f8
++  __AUTH_CONST.__objc_intobj: 0x120
++  __AUTH.__objc_data: 0xa50
++  __AUTH.__data: 0x13c8
++  __DATA.__objc_ivar: 0x24c
++  __DATA.__data: 0x1678
++  __DATA.__bss: 0x2710
++  __DATA.__common: 0xb50
++  __DATA_DIRTY.__data: 0x40
+   - /System/Library/Frameworks/Accelerate.framework/Accelerate
++  - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
++  - /System/Library/Frameworks/CoreML.framework/CoreML
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/Frameworks/HealthKit.framework/HealthKit
+   - /System/Library/PrivateFrameworks/CoreAnalytics.framework/CoreAnalytics
+   - /System/Library/PrivateFrameworks/HealthAlgorithms.framework/HealthAlgorithms
+   - /System/Library/PrivateFrameworks/HealthMenstrualCycles.framework/HealthMenstrualCycles
+   - /System/Library/PrivateFrameworks/PrivateFederatedLearning.framework/PrivateFederatedLearning
+-  - /System/Library/PrivateFrameworks/UIKitCore.framework/UIKitCore
+   - /usr/lib/libSystem.B.dylib
++  - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  - /usr/lib/swift/libswiftARKit.dylib
+   - /usr/lib/swift/libswiftAVFoundation.dylib
+   - /usr/lib/swift/libswiftAccelerate.dylib
+   - /usr/lib/swift/libswiftCore.dylib
+   - /usr/lib/swift/libswiftCoreAudio.dylib
+   - /usr/lib/swift/libswiftCoreFoundation.dylib
+-  - /usr/lib/swift/libswiftCoreImage.dylib
+   - /usr/lib/swift/libswiftCoreLocation.dylib
+   - /usr/lib/swift/libswiftCoreMIDI.dylib
+   - /usr/lib/swift/libswiftCoreMedia.dylib
+   - /usr/lib/swift/libswiftDarwin.dylib
+-  - /usr/lib/swift/libswiftDataDetection.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+-  - /usr/lib/swift/libswiftFileProvider.dylib
+-  - /usr/lib/swift/libswiftGLKit.dylib
+   - /usr/lib/swift/libswiftMetal.dylib
+-  - /usr/lib/swift/libswiftModelIO.dylib
+   - /usr/lib/swift/libswiftOSLog.dylib
+   - /usr/lib/swift/libswiftObjectiveC.dylib
+   - /usr/lib/swift/libswiftQuartzCore.dylib
+-  - /usr/lib/swift/libswiftSceneKit.dylib
+-  - /usr/lib/swift/libswiftSpatial.dylib
+-  - /usr/lib/swift/libswiftSpriteKit.dylib
++  - /usr/lib/swift/libswiftSwiftOnoneSupport.dylib
+   - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+
+   - /usr/lib/swift/libswiftsimd.dylib
+   - /usr/lib/swift/libswiftsys_time.dylib
+   - /usr/lib/swift/libswiftunistd.dylib
+-  Functions: 1320
+-  Symbols:   324
+-  CStrings:  296
++  Functions: 3699
++  Symbols:   5289
++  CStrings:  1253
+ 
+Symbols:
++ _$s10Foundation12DateIntervalV10intersectsySbACF
++ _$s10Foundation12DateIntervalV3endAA0B0Vvg
++ _$s10Foundation12DateIntervalV5start3endAcA0B0V_AGtcfC
++ _$s10Foundation12DateIntervalV5startAA0B0Vvg
++ _$s10Foundation12DateIntervalVMa
++ _$s10Foundation12DateIntervalVMn
++ _$s10Foundation14DateComponentsV19_bridgeToObjectiveCSo06NSDateC0CyF
++ _$s10Foundation14DateComponentsV36_unconditionallyBridgeFromObjectiveCyACSo06NSDateC0CSgFZ
++ _$s10Foundation14DateComponentsV3daySiSgvg
++ _$s10Foundation14DateComponentsV3daySiSgvs
++ _$s10Foundation14DateComponentsV4dateAA0B0VSgvg
++ _$s10Foundation14DateComponentsV4hourSiSgvs
++ _$s10Foundation14DateComponentsV4yearSiSgvg
++ _$s10Foundation14DateComponentsV4yearSiSgvs
++ _$s10Foundation14DateComponentsV5monthSiSgvg
++ _$s10Foundation14DateComponentsV5monthSiSgvs
++ _$s10Foundation14DateComponentsV6minuteSiSgvs
++ _$s10Foundation14DateComponentsV8calendar8timeZone3era4year5month3day4hour6minute6second10nanosecond7weekday0O7Ordinal7quarter11weekOfMonth0rS4Year0h7ForWeeksU0AcA8CalendarVSg_AA04TimeF0VSgSiSgA13ZtcfC
++ _$s10Foundation14DateComponentsVMa
++ _$s10Foundation14DateComponentsVMn
++ _$s10Foundation22_convertErrorToNSErrorySo0E0Cs0C0_pF
++ _$s10Foundation22_convertNSErrorToErrorys0E0_pSo0C0CSgF
++ _$s10Foundation3URLV13DirectoryHintO13inferFromPathyA2EmFWC
++ _$s10Foundation3URLV13DirectoryHintOMa
++ _$s10Foundation3URLV19_bridgeToObjectiveCSo5NSURLCyF
++ _$s10Foundation3URLV8filePath13directoryHint10relativeToACSS_AC09DirectoryF0OACSgtcfC
++ _$s10Foundation3URLVMa
++ _$s10Foundation3URLVMn
++ _$s10Foundation4DataV6bufferACSRyxG_tclufC
++ _$s10Foundation4DataV6bufferACSryxG_tclufC
++ _$s10Foundation4DataVN
++ _$s10Foundation4DateV11distantPastACvgZ
++ _$s10Foundation4DateV19_bridgeToObjectiveCSo6NSDateCyF
++ _$s10Foundation4DateV1loiySbAC_ACtFZ
++ _$s10Foundation4DateV20timeIntervalSinceNowSdvg
++ _$s10Foundation4DateV21timeIntervalSince1970Sdvg
++ _$s10Foundation4DateV36_unconditionallyBridgeFromObjectiveCyACSo6NSDateCSgFZ
++ _$s10Foundation4DateVACycfC
++ _$s10Foundation4DateVMa
++ _$s10Foundation4DateVMn
++ _$s10Foundation4DateVSLAAMc
++ _$s10Foundation8CalendarV10IdentifierO9gregorianyA2EmFWC
++ _$s10Foundation8CalendarV10IdentifierOMa
++ _$s10Foundation8CalendarV10identifierA2C10IdentifierOh_tcfC
++ _$s10Foundation8CalendarV10ordinality2of2in3forSiSgAC9ComponentO_AjA4DateVtF
++ _$s10Foundation8CalendarV14dateComponents_4fromAA04DateD0VShyAC9ComponentOG_AA0F0VtF
++ _$s10Foundation8CalendarV4date4fromAA4DateVSgAA0E10ComponentsV_tF
++ _$s10Foundation8CalendarV4date8byAdding5value2to18wrappingComponentsAA4DateVSgAC9ComponentO_SiAJSbtF
++ _$s10Foundation8CalendarV7currentACvgZ
++ _$s10Foundation8CalendarV8timeZoneAA04TimeD0Vvs
++ _$s10Foundation8CalendarV9ComponentO3dayyA2EmFWC
++ _$s10Foundation8CalendarV9ComponentO4houryA2EmFWC
++ _$s10Foundation8CalendarV9ComponentO4yearyA2EmFWC
++ _$s10Foundation8CalendarV9ComponentO5monthyA2EmFWC
++ _$s10Foundation8CalendarV9ComponentOMa
++ _$s10Foundation8CalendarV9ComponentOSHAAMc
++ _$s10Foundation8CalendarVMa
++ _$s10Foundation8CalendarVMn
++ _$s10Foundation8TimeZoneV14secondsFromGMTACSgSi_tcfC
++ _$s10Foundation8TimeZoneVMa
++ _$s10Foundation8TimeZoneVMn
++ _$s10ObjectiveC15autoreleasepool8invokingxxyKXE_tKlF
++ _$s11SubSequenceSlTl
++ _$s18IntegerLiteralTypes013ExpressibleByaB0PTl
++ _$s19ArrayLiteralElements013ExpressibleByaB0PTl
++ _$s19NightingaleTraining0A10DPFLRunnerC15isDataAvailableSbyYaFTj
++ _$s19NightingaleTraining0A10DPFLRunnerC15isDataAvailableSbyYaFTjTu
++ _$s19NightingaleTraining0A10DPFLRunnerC15isDataAvailableSbyYaFTq
++ _$s19NightingaleTraining0A10DPFLRunnerC20performCustomConsentyyKFTj
++ _$s19NightingaleTraining0A10DPFLRunnerC20performCustomConsentyyKFTq
++ _$s19NightingaleTraining0A10DPFLRunnerC24PrivateFederatedLearning13PFLTaskRunnerAAMc
++ _$s19NightingaleTraining0A10DPFLRunnerC26shouldContinueAfterFailure4task7useCaseSb24PrivateFederatedLearning7PFLTaskC_SStFTj
++ _$s19NightingaleTraining0A10DPFLRunnerC26shouldContinueAfterFailure4task7useCaseSb24PrivateFederatedLearning7PFLTaskC_SStFTq
++ _$s19NightingaleTraining0A10DPFLRunnerC3run4task7useCase7context24PrivateFederatedLearning13PFLTaskResultCAH0L0C_SS20LighthouseBackground22MLHostExtensionContextCtYaKFTj
++ _$s19NightingaleTraining0A10DPFLRunnerC3run4task7useCase7context24PrivateFederatedLearning13PFLTaskResultCAH0L0C_SS20LighthouseBackground22MLHostExtensionContextCtYaKFTjTu
++ _$s19NightingaleTraining0A10DPFLRunnerC3run4task7useCase7context24PrivateFederatedLearning13PFLTaskResultCAH0L0C_SS20LighthouseBackground22MLHostExtensionContextCtYaKFTq
++ _$s19NightingaleTraining0A10DPFLRunnerC7useCaseAcA09HIDPFLUseE0O_tcfC
++ _$s19NightingaleTraining0A10DPFLRunnerCMa
++ _$s19NightingaleTraining0A10DPFLRunnerCMm
++ _$s19NightingaleTraining0A10DPFLRunnerCMn
++ _$s19NightingaleTraining0A10DPFLRunnerCMo
++ _$s19NightingaleTraining0A10DPFLRunnerCMu
++ _$s19NightingaleTraining0A10DPFLRunnerCN
++ _$s19NightingaleTraining0A10DPFLRunnerCfD
++ _$s19NightingaleTraining0A10DPFLRunnerCfd
++ _$s19NightingaleTraining0A9PFLRunnerC15sendTelemetrics17flycatcherResultsyAA010FlycatcherE0V_tFTj
++ _$s19NightingaleTraining0A9PFLRunnerC15sendTelemetrics17flycatcherResultsyAA010FlycatcherE0V_tFTq
++ _$s19NightingaleTraining0A9PFLRunnerC20performCustomConsentyyKFTj
++ _$s19NightingaleTraining0A9PFLRunnerC20performCustomConsentyyKFTq
++ _$s19NightingaleTraining0A9PFLRunnerC24PrivateFederatedLearning13PFLTaskRunnerAAMc
++ _$s19NightingaleTraining0A9PFLRunnerC26shouldContinueAfterFailure4task7useCaseSb24PrivateFederatedLearning7PFLTaskC_SStFTj
++ _$s19NightingaleTraining0A9PFLRunnerC26shouldContinueAfterFailure4task7useCaseSb24PrivateFederatedLearning7PFLTaskC_SStFTq
++ _$s19NightingaleTraining0A9PFLRunnerC3run4task7useCase7context24PrivateFederatedLearning13PFLTaskResultCAH0L0C_SS20LighthouseBackground22MLHostExtensionContextCtYaKFTj
++ _$s19NightingaleTraining0A9PFLRunnerC3run4task7useCase7context24PrivateFederatedLearning13PFLTaskResultCAH0L0C_SS20LighthouseBackground22MLHostExtensionContextCtYaKFTjTu
++ _$s19NightingaleTraining0A9PFLRunnerC3run4task7useCase7context24PrivateFederatedLearning13PFLTaskResultCAH0L0C_SS20LighthouseBackground22MLHostExtensionContextCtYaKFTq
++ _$s19NightingaleTraining0A9PFLRunnerC7useCaseAcA09HIDPFLUseE0O_tcfC
++ _$s19NightingaleTraining0A9PFLRunnerCMa
++ _$s19NightingaleTraining0A9PFLRunnerCMm
++ _$s19NightingaleTraining0A9PFLRunnerCMn
++ _$s19NightingaleTraining0A9PFLRunnerCMo
++ _$s19NightingaleTraining0A9PFLRunnerCMu
++ _$s19NightingaleTraining0A9PFLRunnerCN
++ _$s19NightingaleTraining0A9PFLRunnerCfD
++ _$s19NightingaleTraining0A9PFLRunnerCfd
++ _$s19NightingaleTraining13HIDPFLUseCaseO0A4D_CKyA2CmFWC
++ _$s19NightingaleTraining13HIDPFLUseCaseO0A7D_DodMLyA2CmFWC
++ _$s19NightingaleTraining13HIDPFLUseCaseO23HR_Period_Prediction_CKyA2CmFWC
++ _$s19NightingaleTraining13HIDPFLUseCaseO24HR_Period_Prediction_MLHyA2CmFWC
++ _$s19NightingaleTraining13HIDPFLUseCaseO25HR_Period_Prediction_PushyA2CmFWC
++ _$s19NightingaleTraining13HIDPFLUseCaseO28HR_Period_Prediction_BatteryyA2CmFWC
++ _$s19NightingaleTraining13HIDPFLUseCaseO28HR_Period_Prediction_ChargeryA2CmFWC
++ _$s19NightingaleTraining13HIDPFLUseCaseO28WT_Period_Prediction_BatteryyA2CmFWC
++ _$s19NightingaleTraining13HIDPFLUseCaseO28WT_Period_Prediction_ChargeryA2CmFWC
++ _$s19NightingaleTraining13HIDPFLUseCaseO30HR_Period_Prediction_MLH_DailyyA2CmFWC
++ _$s19NightingaleTraining13HIDPFLUseCaseO30WT_Ovulation_Detection_BatteryyA2CmFWC
++ _$s19NightingaleTraining13HIDPFLUseCaseO30WT_Ovulation_Detection_ChargeryA2CmFWC
++ _$s19NightingaleTraining13HIDPFLUseCaseO31HR_Period_Prediction_Static_BatyA2CmFWC
++ _$s19NightingaleTraining13HIDPFLUseCaseO36HR_Fertile_Window_Prediction_BatteryyA2CmFWC
++ _$s19NightingaleTraining13HIDPFLUseCaseO36HR_Fertile_Window_Prediction_ChargeryA2CmFWC
++ _$s19NightingaleTraining13HIDPFLUseCaseO8rawValueACSgSi_tcfC
++ _$s19NightingaleTraining13HIDPFLUseCaseO8rawValueSivg
++ _$s19NightingaleTraining13HIDPFLUseCaseO8rawValueSivpMV
++ _$s19NightingaleTraining13HIDPFLUseCaseOMa
++ _$s19NightingaleTraining13HIDPFLUseCaseOMn
++ _$s19NightingaleTraining13HIDPFLUseCaseON
++ _$s19NightingaleTraining13HIDPFLUseCaseOSHAAMc
++ _$s19NightingaleTraining13HIDPFLUseCaseOSQAAMc
++ _$s19NightingaleTraining13HIDPFLUseCaseOSYAAMc
++ _$s19NightingaleTraining21FlycatcherTelemetricsVMa
++ _$s19NightingaleTraining21FlycatcherTelemetricsVMn
++ _$s19NightingaleTraining21FlycatcherTelemetricsVN
++ _$s19NightingaleTraining26calculateDummyPeriodLength07urCycleF00geF0S2dSg_AEtF
++ _$s24PrivateFederatedLearning13PFLTaskResultC4json6vectorACSDySSypG_10Foundation4DataVSgtcfC
++ _$s24PrivateFederatedLearning13PFLTaskResultCMa
++ _$s24PrivateFederatedLearning13PFLTaskRunnerMp
++ _$s24PrivateFederatedLearning13PFLTaskRunnerP15isDataAvailableSbyYaFTq
++ _$s24PrivateFederatedLearning13PFLTaskRunnerP20performCustomConsentyyKFTq
++ _$s24PrivateFederatedLearning13PFLTaskRunnerP22performCustomTargeting4task7useCaseyAA0D0C_SStKFTq
++ _$s24PrivateFederatedLearning13PFLTaskRunnerP26shouldContinueAfterFailure4task7useCaseSbAA0D0C_SStFTq
++ _$s24PrivateFederatedLearning13PFLTaskRunnerP3run4task7useCase7contextAA0D6ResultCAA0D0C_SS20LighthouseBackground22MLHostExtensionContextCtYaKFTq
++ _$s24PrivateFederatedLearning13PFLTaskRunnerPAAE15isDataAvailableSbyF
++ _$s24PrivateFederatedLearning13PFLTaskRunnerPAAE22performCustomTargeting4task7useCaseyAA0D0C_SStKF
++ _$s24PrivateFederatedLearning13ShuffleMethodO6randomyA2CmFWC
++ _$s24PrivateFederatedLearning13ShuffleMethodO8identityyA2CmFWC
++ _$s24PrivateFederatedLearning13ShuffleMethodO8rawValueACSgSi_tcfC
++ _$s24PrivateFederatedLearning13ShuffleMethodO8rawValueSivg
++ _$s24PrivateFederatedLearning13ShuffleMethodOMa
++ _$s24PrivateFederatedLearning13ShuffleMethodOMn
++ _$s24PrivateFederatedLearning15EspressoTrainerP14extractOutputs8functionSDySSSaySfGGAA0D8FunctionV_tFTj
++ _$s24PrivateFederatedLearning15EspressoTrainerP14extractWeights8functionSaySfGAA0D8FunctionV_tKFTj
++ _$s24PrivateFederatedLearning15EspressoTrainerP4eval_12featureSizes10numSamplesSaySDySSSaySfGGGAH_SDySSSiGSitKFTj
++ _$s24PrivateFederatedLearning15EspressoTrainerP4load4path9functions6inputs7outputs7weightsySS_AA0D8FunctionVSaySSGA2LtKFTj
++ _$s24PrivateFederatedLearning15EspressoTrainerP5train_12featureSizes10numSamples6epochs13shuffleMethod9fullBatchySDySSSaySfGG_SDySSSiGSis6UInt32VAA07ShuffleM0OSbtKFTj
++ _$s24PrivateFederatedLearning15EspressoTrainerP6unload9functionsyAA0D8FunctionV_tFTj
++ _$s24PrivateFederatedLearning15EspressoTrainerP8finalize9batchSize12learningRateySi_SfSgtKFTj
++ _$s24PrivateFederatedLearning16EspressoFunctionV10evaluationACvgZ
++ _$s24PrivateFederatedLearning16EspressoFunctionV8trainingACvgZ
++ _$s24PrivateFederatedLearning16EspressoFunctionVMa
++ _$s24PrivateFederatedLearning16EspressoFunctionVs10SetAlgebraAAMc
++ _$s24PrivateFederatedLearning18EspressoEIRTrainerCAA0D7TrainerAAWP
++ _$s24PrivateFederatedLearning18EspressoEIRTrainerCMa
++ _$s24PrivateFederatedLearning18EspressoEIRTrainerCyAcA18PerformanceMeasureCcfC
++ _$s24PrivateFederatedLearning18EspressoMILTrainerCAA0D7TrainerAAWP
++ _$s24PrivateFederatedLearning18EspressoMILTrainerCMa
++ _$s24PrivateFederatedLearning18EspressoMILTrainerCyAcA18PerformanceMeasureCcfC
++ _$s24PrivateFederatedLearning18PerformanceMeasureC5startyySSFTj
++ _$s24PrivateFederatedLearning18PerformanceMeasureC6finishySdSSFTj
++ _$s24PrivateFederatedLearning18PerformanceMeasureCACycfC
++ _$s24PrivateFederatedLearning18PerformanceMeasureCMa
++ _$s24PrivateFederatedLearning18PerformanceMeasureCMn
++ _$s24PrivateFederatedLearning7PFLTaskC14attachmentPath4nameSSSgSS_tFTj
++ _$s24PrivateFederatedLearning7PFLTaskC6recipeSDySSypGvgTj
++ _$s24PrivateFederatedLearning7PFLTaskC9parameter3for7defaultxSS_xtlFTj
++ _$s24PrivateFederatedLearning8PFLErrorO23failedToGetArrayPointeryA2CmFWC
++ _$s24PrivateFederatedLearning8PFLErrorO7timeoutyA2CmFWC
++ _$s24PrivateFederatedLearning8PFLErrorOMa
++ _$s24PrivateFederatedLearning8PFLErrorOMn
++ _$s24PrivateFederatedLearning8PFLErrorOs5ErrorAAMc
++ _$s24PrivateFederatedLearning8PFLStatsO10meanAndStdySfSg0E0_Sf3stdtSaySfGFZ
++ _$s24PrivateFederatedLearning8PFLStatsO12greaterEqual6vector5valueSaySbGSayxG_xtSLRzlFZ
++ _$s24PrivateFederatedLearning8PFLStatsO3sumySfSaySfGFZ
++ _$s24PrivateFederatedLearning8PFLStatsO4less6vector5valueSaySbGSayxG_xtSLRzlFZ
++ _$s24PrivateFederatedLearning8PFLStatsO4meanySfSaySfGFZ
++ _$s24PrivateFederatedLearning8PFLStatsO6cumsum6vectorSaySfGAF_tFZ
++ _$s24PrivateFederatedLearning8PFLStatsO6l2NormySfSaySfGFZ
++ _$s24PrivateFederatedLearning8PFLStatsO7greater6vector5valueSaySbGSayxG_xtSLRzlFZ
++ _$s24PrivateFederatedLearning8PFLStatsO9lessEqual6vector5valueSaySbGSayxG_xtSLRzlFZ
++ _$s24PrivateFederatedLearning8PFLUtilsO12throwIfFalse5error3forys5Error_p_SbyXEtKFZ
++ _$s24PrivateFederatedLearning8PFLUtilsO14throwIfTimeout_3forxSd_xyYaYbKctYaKs8SendableRzlFZ
++ _$s24PrivateFederatedLearning8PFLUtilsO14throwIfTimeout_3forxSd_xyYaYbKctYaKs8SendableRzlFZTu
++ _$s24PrivateFederatedLearning8PFLUtilsO7rethrow_3forxs5Error_p_xyKXEtKlFZ
++ _$s2os6LoggerV9logObjectSo03OS_a1_C0Cvg
++ _$s2os6LoggerV9subsystem8categoryACSS_SStcfC
++ _$s2os6LoggerVMa
++ _$s5IndexSlTl
++ _$s7ElementSTTl
++ _$s7Elements10SetAlgebraPTl
++ _$s8Dispatch0A12TimeIntervalO7secondsyACSicACmFWC
++ _$s8Dispatch0A12TimeIntervalOMa
++ _$s8Dispatch0A13TimeoutResultO2eeoiySbAC_ACtFZ
++ _$s8Dispatch0A3QoSV11unspecifiedACvgZ
++ _$s8Dispatch0A3QoSVMa
++ _$s8Dispatch0A4TimeV3nowACyFZ
++ _$s8Dispatch0A4TimeVMa
++ _$s8Dispatch1poiyAA0A4TimeVAD_AA0aB8IntervalOtF
++ _$s8IteratorSTTl
++ _$s8RawValueSYTl
++ _$s9HealthKit33HKCategoryValuePredicateProvidingPAASi03RawD0RtzrlE19predicateForSamples7equalToSo11NSPredicateCShyxG_tFZ
++ _$sBi64_WV
++ _$sBoWV
++ _$sS2Dyxq_GycfC
++ _$sS2ayxGycfC
++ _$sS2ayxGycfCSS_Tg5
++ _$sS2ayxGycfCSf_Tg5
++ _$sS2ayxGycfCs6UInt32V_Tg5
++ _$sS2hyxGycfC
++ _$sSAyxGs8_PointersMc
++ _$sSBss17FixedWidthInteger14RawSignificandRpzrlE6random2inxSNyxG_tFZ
++ _$sSD10FoundationE19_bridgeToObjectiveCSo12NSDictionaryCyF
++ _$sSD10FoundationE36_unconditionallyBridgeFromObjectiveCySDyxq_GSo12NSDictionaryCSgFZ
++ _$sSD11removeValue6forKeyq_Sgx_tF
++ _$sSD12makeIteratorSD0B0Vyxq__GyF
++ _$sSD17dictionaryLiteralSDyxq_Gx_q_td_tcfC
++ _$sSD4KeysVMn
++ _$sSD4KeysVyxq__GSTsMc
++ _$sSD4keysSD4KeysVyxq__Gvg
++ _$sSD5countSivg
++ _$sSD5merge_16uniquingKeysWithySDyxq_Gn_q_q__q_tKXEtKF
++ _$sSD6ValuesVMn
++ _$sSD6ValuesVyxq__GSlsMc
++ _$sSD6filterySDyxq_GSbx3key_q_5valuet_tKXEKF
++ _$sSD6valuesSD6ValuesVyxq__Gvg
++ _$sSD7isEmptySbvg
++ _$sSD7merging_16uniquingKeysWithSDyxq_GACn_q_q__q_tKXEtKF
++ _$sSD8IteratorV4nextx3key_q_5valuetSgyF
++ _$sSD8IteratorVMn
++ _$sSD9mapValuesySDyxqd__Gqd__q_KXEKlF
++ _$sSD9removeAll15keepingCapacityySb_tF
++ _$sSDyq_SgxciM
++ _$sSDyq_Sgxcig
++ _$sSDyq_Sgxcis
++ _$sSDyxq_GSTsMc
++ _$sSDyxq_GSlsMc
++ _$sSF7roundedyxs25FloatingPointRoundingRuleOFTj
++ _$sSF8isFiniteSbvgTj
++ _$sSF8ulpOfOnexvgZTj
++ _$sSH13_rawHashValue4seedS2i_tFTq
++ _$sSH4hash4intoys6HasherVz_tFTq
++ _$sSH9hashValueSivgTq
++ _$sSHMp
++ _$sSHSQTb
++ _$sSHsE13_rawHashValue4seedS2i_tF
++ _$sSKsE4last7ElementQzSgvg
++ _$sSKsE8reverseds18ReversedCollectionVyxGyFSaySfG_Tg5
++ _$sSL1goiySbx_xtFZTj
++ _$sSL1loiySbx_xtFZTj
++ _$sSL2geoiySbx_xtFZTj
++ _$sSL2leoiySbx_xtFZTj
++ _$sSLMp
++ _$sSNMa
++ _$sSNyxGSQsMc
++ _$sSNyxGSTsSxRzSZ6StrideRpzrlMc
++ _$sSNyxGSlsSxRzSZ6StrideRpzrlMc
++ _$sSQ2eeoiySbx_xtFZTj
++ _$sSQ2eeoiySbx_xtFZTq
++ _$sSQMp
++ _$sSS10FoundationE19_bridgeToObjectiveCSo8NSStringCyF
++ _$sSS10FoundationE36_unconditionallyBridgeFromObjectiveCySSSo8NSStringCSgFZ
++ _$sSS10describingSSx_tcs23CustomStringConvertibleRzlufC
++ _$sSS19stringInterpolationSSs013DefaultStringB0V_tcfC
++ _$sSS21_builtinStringLiteral17utf8CodeUnitCount7isASCIISSBp_BwBi1_tcfC
++ _$sSS2eeoiySbSS_SStFZ
++ _$sSS2peoiyySSz_SStFZ
++ _$sSS8UTF8ViewV13_foreignCountSiyF
++ _$sSS9repeating5countS2S_SitcfC
++ _$sSSN
++ _$sSSSHsWP
++ _$sSSSQsWP
++ _$sSSs20TextOutputStreamablesWP
++ _$sSSs23CustomStringConvertiblesWP
++ _$sST12makeIterator0B0QzyFTj
++ _$sST19underestimatedCountSivgTj
++ _$sST8IteratorST_StTn
++ _$sSTTL
++ _$sSTsE10allSatisfyyS2b7ElementQzKXEKF
++ _$sSTsE10compactMapySayqd__Gqd__Sg7ElementQzKXEKlF
++ _$sSTsE10enumerateds18EnumeratedSequenceVyxGyF
++ _$sSTsE3max2by7ElementQzSgSbAD_ADtKXE_tKF
++ _$sSTsE3min2by7ElementQzSgSbAD_ADtKXE_tKF
++ _$sSTsE5first5where7ElementQzSgSbADKXE_tKF
++ _$sSTsE6filterySay7ElementQzGSbACKXEKF
++ _$sSTsE6reduce4into_qd__qd__n_yqd__z_7ElementQztKXEtKlF
++ _$sSTsE6reduceyqd__qd___qd__qd___7ElementQztKXEtKlF
++ _$sSTsE6sorted2bySay7ElementQzGSbAD_ADtKXE_tKF
++ _$sSTsE7flatMapySay7ElementQyd__Gqd__ABQzKXEKSTRd__lF
++ _$sSTsE7forEachyyy7ElementQzKXEKF
++ _$sSTsE8reversedSay7ElementQzGyF
++ _$sSTsSL7ElementRpzrlE6sortedSayABGyF
++ _$sSTsSQ7ElementRpzrlE8containsySbABF
++ _$sSUss17FixedWidthIntegerRzrlEyxqd__cSzRd__lufC
++ _$sSY8rawValue03RawB0QzvgTq
++ _$sSY8rawValuexSg03RawB0Qz_tcfCTq
++ _$sSYMp
++ _$sSYsSHRzSH8RawValueSYRpzrlE04hashB0Sivg
++ _$sSYsSHRzSH8RawValueSYRpzrlE08_rawHashB04seedS2i_tF
++ _$sSYsSHRzSH8RawValueSYRpzrlE4hash4intoys6HasherVz_tF
++ _$sSZss17FixedWidthIntegerRzrlEyxqd__cSzRd__lufC
++ _$sSa10FoundationE19_bridgeToObjectiveCSo7NSArrayCyF
++ _$sSa10FoundationE36_unconditionallyBridgeFromObjectiveCySayxGSo7NSArrayCSgFZ
++ _$sSa15reserveCapacityyySiFSf_Tg5
++ _$sSa1poiySayxGAB_ABtFZ
++ _$sSa22_allocateUninitializedySayxG_SpyxGtSiFZ
++ _$sSa23withUnsafeBufferPointeryqd__qd__SRyxGKXEKlF
++ _$sSa24PrivateFederatedLearningE6toData10Foundation0E0VyF
++ _$sSa28_allocateBufferUninitialized15minimumCapacitys06_ArrayB0VyxGSi_tFZ
++ _$sSa30withUnsafeMutableBufferPointeryqd__qd__SryxGzKXEKlF
++ _$sSa5countSivg
++ _$sSa5countSivgSf_Tg5
++ _$sSa5countSivgs6UInt32V_Tg5
++ _$sSa6append10contentsOfyqd__n_t7ElementQyd__RszSTRd__lF
++ _$sSa6appendyyxnF
++ _$sSa6appendyyxnFSS_Tg5
++ _$sSa6appendyyxnFSf_Tg5
++ _$sSa6appendyyxnFSi_Tg5
++ _$sSa6appendyyxnFs6UInt32V_Tg5
++ _$sSa6insert_2atyxn_SitF
++ _$sSa9removeAll15keepingCapacityySb_tF
++ _$sSa9removeAll15keepingCapacityySb_tFSf_Tg5
++ _$sSa9removeAll15keepingCapacityySb_tFfA_Sf_Tg5
++ _$sSa9repeating5countSayxGx_SitcfC
++ _$sSa9repeating5countSayxGx_SitcfCSf_Tg5
++ _$sSa9repeating5countSayxGx_SitcfCSi_Tg5
++ _$sSaMa
++ _$sSaMn
++ _$sSaySayxGqd__c7ElementQyd__RszSTRd__lufC
++ _$sSays10ArraySliceVyxGSnySiGcig
++ _$sSays10ArraySliceVyxGSnySiGcis
++ _$sSayxGSKsMc
++ _$sSayxGSTsMc
++ _$sSayxGSlsMc
++ _$sSayxGSmsMc
++ _$sSayxGs14_ArrayProtocolsMc
++ _$sSayxGs23CustomStringConvertiblesMc
++ _$sSayxSiciM
++ _$sSayxSiciMSf_Tg5
++ _$sSayxSiciMSi_Tg5
++ _$sSayxSicig
++ _$sSayxSicigSf_Tg5
++ _$sSayxSicigSi_Tg5
++ _$sSayxSicigs6UInt32V_Tg5
++ _$sSb10FoundationE19_bridgeToObjectiveCSo8NSNumberCyF
++ _$sSbN
++ _$sScA15unownedExecutorScevgTj
++ _$sScC6resume8throwingyq_n_tF
++ _$sScC6resume9returningyxn_tF
++ _$sScP8rawValues5UInt8Vvg
++ _$sScPMa
++ _$sScg17makeAsyncIteratorScg0C0Vyxq__GyF
++ _$sScg8IteratorV4next9isolationxSgScA_pSgYi_tYaq_YKF
++ _$sScg8IteratorV4next9isolationxSgScA_pSgYi_tYaq_YKFTu
++ _$sScg8IteratorVMn
++ _$sSd10FoundationE19_bridgeToObjectiveCSo8NSNumberCyF
++ _$sSdN
++ _$sSdySdSfcfC
++ _$sSdySdxcSzRzlufC
++ _$sSf10FoundationE19_bridgeToObjectiveCSo8NSNumberCyF
++ _$sSf14_roundSlowPathyys25FloatingPointRoundingRuleOF
++ _$sSf23greatestFiniteMagnitudeSfvgZ
++ _$sSf3nanSfvgZ
++ _$sSf4signs17FloatingPointSignOvg
++ _$sSf8isFiniteSbvg
++ _$sSf8ulpOfOneSfvgZ
++ _$sSfN
++ _$sSfSBsMc
++ _$sSfSFsMc
++ _$sSfSLsWP
++ _$sSfSjsWP
++ _$sSfs13SignedNumericsWP
++ _$sSfyS2fcfC
++ _$sSfySfSdcfC
++ _$sSfySfxcSzRzlufC
++ _$sSh12arrayLiteralShyxGxd_tcfC
++ _$sSh7isEmptySbvg
++ _$sSh8containsySbxF
++ _$sSh9formUnionyyqd__n7ElementQyd__RszSTRd__lF
++ _$sShyShyxGqd__nc7ElementQyd__RszSTRd__lufC
++ _$sShyxGSlsMc
++ _$sSi10FoundationE19_bridgeToObjectiveCSo8NSNumberCyF
++ _$sSiN
++ _$sSiSHsWP
++ _$sSiSLsWP
++ _$sSiSQsWP
++ _$sSiSZsMc
++ _$sSiSxsWP
++ _$sSiSzsMc
++ _$sSis13SignedNumericsWP
++ _$sSis17FixedWidthIntegersMc
++ _$sSis23CustomStringConvertiblesWP
++ _$sSl10startIndex0B0QzvgTj
++ _$sSl11SubSequenceSl_SlTn
++ _$sSl5countSivgTj
++ _$sSl9formIndex5aftery0B0Qzz_tFTj
++ _$sSlTL
++ _$sSlsE10firstIndex5where0B0QzSgSb7ElementQzKXE_tKF
++ _$sSlsE5first7ElementQzSgvg
++ _$sSlsE6prefix4upTo11SubSequenceQz5IndexQz_tF
++ _$sSlsE7isEmptySbvg
++ _$sSlsE8dropLasty11SubSequenceQzSiF
++ _$sSlsE9dropFirsty11SubSequenceQzSiF
++ _$sSlss16IndexingIteratorVyxG0B0RtzrlE04makeB0ACyF
++ _$sSlss16IndexingIteratorVyxG0B0RtzrlE04makeB0ACyFSnySiG_Tg5
++ _$sSly7ElementQz5IndexQzcirTj
++ _$sSmsE11removeFirst7ElementQzyF
++ _$sSmsE1poiyxqd___xtSTRd__7ElementQyd__ABRtzlFZ
++ _$sSnyxGSlsSxRzSZ6StrideRpzrlMc
++ _$sSo13os_log_type_ta0A0E5debugABvgZ
++ _$sSo13os_log_type_ta0A0E5errorABvgZ
++ _$sSo14HKCategoryTypeC9HealthKitEyABSo0aB10IdentifieracfC
++ _$sSo14HKQuantityTypeC9HealthKitEyABSo0aB10IdentifieracfC
++ _$sSo17OS_dispatch_groupC8DispatchE4wait7timeoutAC0D13TimeoutResultOAC0D4TimeV_tF
++ _$sSo17OS_dispatch_queueC8DispatchE10AttributesVMa
++ _$sSo17OS_dispatch_queueC8DispatchE10AttributesVMn
++ _$sSo17OS_dispatch_queueC8DispatchE10AttributesVs10SetAlgebraACMc
++ _$sSo17OS_dispatch_queueC8DispatchE20AutoreleaseFrequencyO7inherityA2EmFWC
++ _$sSo17OS_dispatch_queueC8DispatchE20AutoreleaseFrequencyOMa
++ _$sSo17OS_dispatch_queueC8DispatchE5label3qos10attributes20autoreleaseFrequency6targetABSS_AC0D3QoSVAbCE10AttributesVAbCE011AutoreleaseI0OABSgtcfC
++ _$sSo28HKCategoryValueSleepAnalysisV9HealthKit0aB18PredicateProvidingACMc
++ _$sSo8NSObjectC10ObjectiveCE2eeoiySbAB_ABtFZ
++ _$sSo8NSObjectCSH10ObjectiveCMc
++ _$sSo8_NSRangeV10FoundationE10lowerBoundSivg
++ _$sSo8_NSRangeV10FoundationE10upperBoundSivg
++ _$sSp10deallocateyyF
++ _$sSp12deinitialize5countSvSi_tF
++ _$sSp8allocate8capacitySpyxGSi_tFZ
++ _$sSqMa
++ _$sSr11baseAddressSpyxGSgvg
++ _$sSt4next7ElementQzSgyFTj
++ _$sSuN
++ _$sSuSQsWP
++ _$sSuSUsMc
++ _$sSuSzsMc
++ _$sSus17FixedWidthIntegersMc
++ _$sSw10copyMemory4fromySW_tF
++ _$sSwys5UInt8VSicis
++ _$ss10ArraySliceV30withUnsafeMutableBufferPointeryqd__qd__SryxGzKXEKlF
++ _$ss10ArraySliceV5countSivg
++ _$ss10ArraySliceVMn
++ _$ss10ArraySliceVyxGSTsMc
++ _$ss10ArraySliceVyxGSlsMc
++ _$ss10SetAlgebraMp
++ _$ss10SetAlgebraP10isDisjoint4withSbx_tFTq
++ _$ss10SetAlgebraP10isSuperset2ofSbx_tFTq
++ _$ss10SetAlgebraP11subtractingyxxFTq
++ _$ss10SetAlgebraP12intersectionyxxFTq
++ _$ss10SetAlgebraP16formIntersectionyyxFTq
++ _$ss10SetAlgebraP19symmetricDifferenceyxxnFTq
++ _$ss10SetAlgebraP23formSymmetricDifferenceyyxnFTq
++ _$ss10SetAlgebraP5unionyxxnFTq
++ _$ss10SetAlgebraP6insertySb8inserted_7ElementQz17memberAfterInserttAFnFTq
++ _$ss10SetAlgebraP6removey7ElementQzSgAEFTq
++ _$ss10SetAlgebraP6update4with7ElementQzSgAFn_tFTq
++ _$ss10SetAlgebraP7isEmptySbvgTq
++ _$ss10SetAlgebraP8containsySb7ElementQzFTq
++ _$ss10SetAlgebraP8isSubset2ofSbx_tFTq
++ _$ss10SetAlgebraP8subtractyyxFTq
++ _$ss10SetAlgebraP9formUnionyyxnFTq
++ _$ss10SetAlgebraPSQTb
++ _$ss10SetAlgebraPs25ExpressibleByArrayLiteralTb
++ _$ss10SetAlgebraPs7ElementQz012ArrayLiteralC0RtzrlE05arrayE0xAFd_tcfC
++ _$ss10SetAlgebraPsE10isDisjoint4withSbx_tF
++ _$ss10SetAlgebraPsE10isSuperset2ofSbx_tF
++ _$ss10SetAlgebraPsE11subtractingyxxF
++ _$ss10SetAlgebraPsE7isEmptySbvg
++ _$ss10SetAlgebraPsE8isSubset2ofSbx_tF
++ _$ss10SetAlgebraPsE8subtractyyxF
++ _$ss10SetAlgebraPsEyxqd__ncSTRd__7ElementQyd__ACRtzlufC
++ _$ss10SetAlgebraPxycfCTq
++ _$ss10SetAlgebraPyxqd__ncSTRd__7ElementQyd__ACRtzlufCTj
++ _$ss10SetAlgebraPyxqd__ncSTRd__7ElementQyd__ACRtzlufCTq
++ _$ss10_expectEnd2of2isyx_5IndexQztSlRzlF
++ _$ss10_hashValue3forSix_tSHRzlF
++ _$ss11AnyHashableVMn
++ _$ss11AnyHashableVN
++ _$ss11AnyHashableVSHsWP
++ _$ss11_StringGutsV8copyUTF84intoSiSgSrys5UInt8VG_tF
++ _$ss11_StringGutsVN
++ _$ss11numericCastyq_xSzRzSzR_r0_lF
++ _$ss12StaticStringVN
++ _$ss12Zip2SequenceVMa
++ _$ss12Zip2SequenceVMn
++ _$ss12Zip2SequenceVyxq_GSTsMc
++ _$ss13_StringObjectV10sharedUTF8SRys5UInt8VGvg
++ _$ss14_ArrayProtocolPsE6filterySay7ElementQzGSbAEKXEKF
++ _$ss15ContiguousArrayV15reserveCapacityyySiF
++ _$ss15ContiguousArrayV6appendyyxnF
++ _$ss15ContiguousArrayVAByxGycfC
++ _$ss15ContiguousArrayVMa
++ _$ss15_arrayForceCastySayq_GSayxGr0_lF
++ _$ss16IndexingIteratorV4next7ElementQzSgyF
++ _$ss16IndexingIteratorV4next7ElementQzSgyFSnySiG_Tg5
++ _$ss16IndexingIteratorVMa
++ _$ss16IndexingIteratorVMn
++ _$ss17FixedWidthIntegerP03bitB0SivgZTj
++ _$ss17FixedWidthIntegerPsEyxqd__cSBRd__lufC
++ _$ss17_assertionFailure__4file4line5flagss5NeverOs12StaticStringV_A2HSus6UInt32VtF
++ _$ss17_assertionFailure__4file4line5flagss5NeverOs12StaticStringV_SSAHSus6UInt32VtF
++ _$ss17_dictionaryUpCastySDyq0_q1_GSDyxq_GSHRzSHR0_r2_lF
++ _$ss18AdditiveArithmeticP1poiyxx_xtFZTj
++ _$ss18AdditiveArithmeticP1soiyxx_xtFZTj
++ _$ss18AdditiveArithmeticP2peoiyyxz_xtFZTj
++ _$ss18AdditiveArithmeticP4zeroxvgZTj
++ _$ss18EnumeratedSequenceV12makeIteratorAB0D0Vyx_GyF
++ _$ss18EnumeratedSequenceV8IteratorV4nextSi6offset_7ElementQz7elementtSgyF
++ _$ss18EnumeratedSequenceV8IteratorVMn
++ _$ss18EnumeratedSequenceVMn
++ _$ss18EnumeratedSequenceVyxGSTsMc
++ _$ss18ReversedCollectionVMn
++ _$ss18ReversedCollectionVyxGSTsMc
++ _$ss18ReversedCollectionVyxGSlsMc
++ _$ss18_fatalErrorMessage__4file4line5flagss5NeverOs12StaticStringV_A2HSus6UInt32VtF
++ _$ss21_convertToAnyHashableys0cD0VxSHRzlF
++ _$ss21_findStringSwitchCase5cases6stringSiSays06StaticB0VG_SStF
++ _$ss21withThrowingTaskGroup2of9returning9isolation4bodyq_xm_q_mScA_pSgYiq_Scgyxs5Error_pGzYaKXEtYaKs8SendableRzr0_lF
++ _$ss21withThrowingTaskGroup2of9returning9isolation4bodyq_xm_q_mScA_pSgYiq_Scgyxs5Error_pGzYaKXEtYaKs8SendableRzr0_lFTu
++ _$ss23CustomStringConvertibleMp
++ _$ss23CustomStringConvertibleP11descriptionSSvgTj
++ _$ss23CustomStringConvertibleP11descriptionSSvgTq
++ _$ss23_ContiguousArrayStorageCMn
++ _$ss25ExpressibleByArrayLiteralMp
++ _$ss25ExpressibleByArrayLiteralP05arrayD0x0cD7ElementQzd_tcfCTq
++ _$ss25FloatingPointRoundingRuleO10towardZeroyA2BmFWC
++ _$ss25FloatingPointRoundingRuleO12awayFromZeroyA2BmFWC
++ _$ss25FloatingPointRoundingRuleO15toNearestOrEvenyA2BmFWC
++ _$ss25FloatingPointRoundingRuleO23toNearestOrAwayFromZeroyA2BmFWC
++ _$ss25FloatingPointRoundingRuleO2upyA2BmFWC
++ _$ss25FloatingPointRoundingRuleO4downyA2BmFWC
++ _$ss25FloatingPointRoundingRuleOMa
++ _$ss26DefaultStringInterpolationV06appendC0yyxlF
++ _$ss26DefaultStringInterpolationV06appendC0yyxs06CustomB11ConvertibleRzlF
++ _$ss26DefaultStringInterpolationV06appendC0yyxs06CustomB11ConvertibleRzs20TextOutputStreamableRzlF
++ _$ss26DefaultStringInterpolationV13appendLiteralyySSF
++ _$ss26DefaultStringInterpolationV15literalCapacity18interpolationCountABSi_SitcfC
++ _$ss27ExpressibleByIntegerLiteralP07integerD0x0cD4TypeQz_tcfCTj
++ _$ss27ExpressibleByIntegerLiteralP0cD4TypeAB_s01_ab7BuiltincD0Tn
++ _$ss27ExpressibleByIntegerLiteralTL
++ _$ss27_allocateUninitializedArrayySayxG_BptBwlF
++ _$ss27_allocateUninitializedArrayySayxG_BptBwlFyp_Tg5
++ _$ss2eeoiySbx_xtSYRzSQ8RawValueRpzlF
++ _$ss30_convertInOutToPointerArgumentyxBps01_E0RzlF
++ _$ss31withCheckedThrowingContinuation9isolation8function_xScA_pSgYi_SSyScCyxs5Error_pGXEtYaKlF
++ _$ss31withCheckedThrowingContinuation9isolation8function_xScA_pSgYi_SSyScCyxs5Error_pGXEtYaKlFTu
++ _$ss35_ExpressibleByBuiltinIntegerLiteralP08_builtindE0xBI_tcfCTj
++ _$ss3absyxxSLRzs13SignedNumericRzlF
++ _$ss3maxyxx_xtSLRzlF
++ _$ss3minyxx_xtSLRzlF
++ _$ss3zipys12Zip2SequenceVyxq_Gx_q_tSTRzSTR_r0_lF
++ _$ss5ErrorMp
++ _$ss5ErrorP19_getEmbeddedNSErroryXlSgyFTq
++ _$ss5ErrorP5_codeSivgTq
++ _$ss5ErrorP7_domainSSvgTq
++ _$ss5ErrorP9_userInfoyXlSgvgTq
++ _$ss5ErrorPsE19_getEmbeddedNSErroryXlSgyF
++ _$ss5ErrorPsE7_domainSSvg
++ _$ss5ErrorPsE9_userInfoyXlSgvg
++ _$ss5ErrorPsSYRzs17FixedWidthInteger8RawValueSYRpzrlE5_codeSivg
++ _$ss5ErrorWS
++ _$ss5Int32VN
++ _$ss5Int32VSZsMc
++ _$ss5Int32VSzsMc
++ _$ss5Int32Vs17FixedWidthIntegersMc
++ _$ss5NeverON
++ _$ss5NeverOs5ErrorsWP
++ _$ss5UInt8VMn
++ _$ss5UInt8VN
++ _$ss5UInt8VSHsWP
++ _$ss5UInt8VSQsWP
++ _$ss5UInt8VSUsMc
++ _$ss5UInt8VSzsMc
++ _$ss5UInt8Vs17FixedWidthIntegersMc
++ _$ss6HasherV7combineyyxSHRzlF
++ _$ss6UInt32V10FoundationE19_bridgeToObjectiveCSo8NSNumberCyF
++ _$ss6UInt32VMn
++ _$ss6UInt32VN
++ _$ss6UInt32VSHsWP
++ _$ss6UInt32VSLsWP
++ _$ss6UInt32VSQsWP
++ _$ss6UInt32VSUsMc
++ _$ss6UInt32VSjsWP
++ _$ss6UInt32VSxsWP
++ _$ss6UInt32VSzsMc
++ _$ss6UInt32Vs17FixedWidthIntegersMc
++ _$ss9OptionSetMp
++ _$ss9OptionSetP8rawValuex03RawD0Qz_tcfCTq
++ _$ss9OptionSetPSYTb
++ _$ss9OptionSetPs0B7AlgebraTb
++ _$ss9OptionSetPs7ElementQzRszrlE6insertySb8inserted_x17memberAfterInserttxF
++ _$ss9OptionSetPs7ElementQzRszrlE6removeyxSgxF
++ _$ss9OptionSetPs7ElementQzRszrlE6update4withxSgx_tF
++ _$ss9OptionSetPs7ElementQzRszrlE8containsySbxF
++ _$ss9OptionSetPsE12intersectionyxxF
++ _$ss9OptionSetPsE19symmetricDifferenceyxxF
++ _$ss9OptionSetPsE5unionyxxF
++ _$ss9OptionSetPss17FixedWidthInteger8RawValueRpzrlE16formIntersectionyyxF
++ _$ss9OptionSetPss17FixedWidthInteger8RawValueRpzrlE23formSymmetricDifferenceyyxF
++ _$ss9OptionSetPss17FixedWidthInteger8RawValueRpzrlE9formUnionyyxF
++ _$ss9OptionSetPss17FixedWidthInteger8RawValueRpzrlExycfC
++ _$sypN
++ _$sytN
++ _$sytWV
++ _NSStringFromSelector
++ _OBJC_CLASS_$_MLArrayBatchProvider
++ _OBJC_CLASS_$_MLFeatureValue
++ _OBJC_CLASS_$_MLModel
++ _OBJC_CLASS_$_MLModelConfiguration
++ _OBJC_CLASS_$_MLMultiArray
++ _OBJC_CLASS_$_MLPredictionOptions
++ _OBJC_CLASS_$_NSArray
++ _OBJC_CLASS_$_NSBundle
++ _OBJC_CLASS_$_NSConstantArray
++ _OBJC_CLASS_$_NSConstantIntegerNumber
++ _OBJC_CLASS_$_NSDateComponents
++ _OBJC_CLASS_$_NSDictionary
++ _OBJC_CLASS_$_NSMutableArray
++ _OBJC_CLASS_$_NSSet
++ _OBJC_CLASS_$_NSString
++ _OBJC_CLASS_$_NSURL
++ _OBJC_CLASS_$_NSValue
++ _OBJC_CLASS_$_NgtMenstrualAlgorithmsAnalysis
++ _OBJC_CLASS_$_NgtMenstrualAlgorithmsDayInput
++ _OBJC_CLASS_$_NgtMenstrualAlgorithmsDayStreamProcessor
++ _OBJC_CLASS_$_NgtMenstrualAlgorithmsDayStreamProcessorConfig
++ _OBJC_CLASS_$_NgtMenstrualAlgorithmsDeviation
++ _OBJC_CLASS_$_NgtMenstrualAlgorithmsDeviationAnalysis
++ _OBJC_CLASS_$_NgtMenstrualAlgorithmsDeviationInput
++ _OBJC_CLASS_$_NgtMenstrualAlgorithmsHeartRateStatistics
++ _OBJC_CLASS_$_NgtMenstrualAlgorithmsHistoricalAnalyzer
++ _OBJC_CLASS_$_NgtMenstrualAlgorithmsHistoricalCycle
++ _OBJC_CLASS_$_NgtMenstrualAlgorithmsMLModelConfig
++ _OBJC_CLASS_$_NgtMenstrualAlgorithmsPrediction
++ _OBJC_CLASS_$_NgtMenstrualAlgorithmsStats
++ _OBJC_CLASS_$_NgtMenstrualAlgorithmsTelemetry
++ _OBJC_CLASS_$_NgtMenstrualAlgorithmsWristTemperature
++ _OBJC_CLASS_$_model_period_EnsembleInput
++ _OBJC_CLASS_$_model_period_EnsembleOutput
++ _OBJC_CLASS_$_model_period_LstmInput
++ _OBJC_CLASS_$_model_period_LstmOutput
++ _OBJC_CLASS_$_model_period_TFInput
++ _OBJC_CLASS_$_model_period_TFOutput
++ _OBJC_METACLASS_$_NSObject
++ _OBJC_METACLASS_$_NgtMenstrualAlgorithmsAnalysis
++ _OBJC_METACLASS_$_NgtMenstrualAlgorithmsDayInput
++ _OBJC_METACLASS_$_NgtMenstrualAlgorithmsDayStreamProcessor
++ _OBJC_METACLASS_$_NgtMenstrualAlgorithmsDayStreamProcessorConfig
++ _OBJC_METACLASS_$_NgtMenstrualAlgorithmsDeviation
++ _OBJC_METACLASS_$_NgtMenstrualAlgorithmsDeviationAnalysis
++ _OBJC_METACLASS_$_NgtMenstrualAlgorithmsDeviationInput
++ _OBJC_METACLASS_$_NgtMenstrualAlgorithmsHeartRateStatistics
++ _OBJC_METACLASS_$_NgtMenstrualAlgorithmsHistoricalAnalyzer
++ _OBJC_METACLASS_$_NgtMenstrualAlgorithmsHistoricalCycle
++ _OBJC_METACLASS_$_NgtMenstrualAlgorithmsMLModelConfig
++ _OBJC_METACLASS_$_NgtMenstrualAlgorithmsPrediction
++ _OBJC_METACLASS_$_NgtMenstrualAlgorithmsStats
++ _OBJC_METACLASS_$_NgtMenstrualAlgorithmsTelemetry
++ _OBJC_METACLASS_$_NgtMenstrualAlgorithmsWristTemperature
++ _OBJC_METACLASS_$_model_period_EnsembleInput
++ _OBJC_METACLASS_$_model_period_EnsembleOutput
++ _OBJC_METACLASS_$_model_period_LstmInput
++ _OBJC_METACLASS_$_model_period_LstmOutput
++ _OBJC_METACLASS_$_model_period_TFInput
++ _OBJC_METACLASS_$_model_period_TFOutput
++ __NSConcreteGlobalBlock
++ __Unwind_Resume
++ __Z14deviationInputP36NgtMenstrualAlgorithmsDeviationInput
++ __Z17deviationAnalysisRKN11Nightingale19ngt_DeviationOutSetE
++ __Z9deviationRKN11Nightingale12deviationOutE
++ __ZN11Nightingale10getSigmoidEf
++ __ZN11Nightingale10lstmLunaFw13applyLunaAlgsEv
++ __ZN11Nightingale10lstmLunaFw14getSignalShiftEv
++ __ZN11Nightingale10lstmLunaFw15adjustLSTMFwEndERKNSt3__16vectorIfNS1_9allocatorIfEEEEi
++ __ZN11Nightingale10lstmLunaFw16validateLunaRsltEi
++ __ZN11Nightingale10lstmLunaFw18closeToCalOvuCheckEiff
++ __ZN11Nightingale10lstmLunaFw20getOngoingFwLstmLunaEi
++ __ZN11Nightingale10lstmLunaFw20signalShiftHighCheckEiNSt3__16vectorIfNS1_9allocatorIfEEEEff
++ __ZN11Nightingale10lstmLunaFw27missingRateAtDetectionCheckEiNSt3__16vectorIfNS1_9allocatorIfEEEEf
++ __ZN11Nightingale10lstmLunaFw30getFwConfirmationFailureReasonEv
++ __ZN11Nightingale10lstmLunaFw36getOngoingFwLstmLunaAvailibilityFailEif
++ __ZN11Nightingale10lstmLunaFwC1ERKNSt3__16vectorINS_12ngt_DayInputENS1_9allocatorIS3_EEEERKNS_5uiLogERKNS_10ngt_ConfigE
++ __ZN11Nightingale10lstmLunaFwC2ERKNSt3__16vectorINS_12ngt_DayInputENS1_9allocatorIS3_EEEERKNS_5uiLogERKNS_10ngt_ConfigE
++ __ZN11Nightingale10lstmLunaFwD1Ev
++ __ZN11Nightingale10lstmLunaFwD2Ev
++ __ZN11Nightingale11argquantileERNSt3__16vectorIfNS0_9allocatorIfEEEEf
++ __ZN11Nightingale12gaussian_pdfEddd
++ __ZN11Nightingale12lstmHrPeriod15acquireHrSlicesEv
++ __ZN11Nightingale12lstmHrPeriod16getEnsembleInputERKNSt3__16vectorINS1_7variantIJNS_19lstmPeriodOutStructENS_21lstmPeriodTFOutStructEEEENS1_9allocatorIS6_EEEEi
++ __ZN11Nightingale12lstmHrPeriod20getEnsembleTelemetryEv
++ __ZN11Nightingale12lstmHrPeriod21estimatePeriodStartHrEb
++ __ZN11Nightingale12lstmHrPeriod26getPeriodProjFromLstmModelERNS_21lstmModelCommonPeriodE
++ __ZN11Nightingale12lstmHrPeriod32checkDayToRunPeriodDLLessThanOPKENSt3__18optionalIiEES3_
++ __ZN11Nightingale12lstmHrPeriod9applyAlgsEv
++ __ZN11Nightingale12lstmHrPeriodC1ERKNSt3__16vectorINS_12ngt_DayInputENS1_9allocatorIS3_EEEERKNS_5uiLogERKNS_10ngt_ConfigERNS1_4pairINS2_IiNS4_IiEEEENS2_INS_8PhaseSetENS4_ISI_EEEEEENS1_8optionalIiEE
++ __ZN11Nightingale12lstmHrPeriodC2ERKNSt3__16vectorINS_12ngt_DayInputENS1_9allocatorIS3_EEEERKNS_5uiLogERKNS_10ngt_ConfigERNS1_4pairINS2_IiNS4_IiEEEENS2_INS_8PhaseSetENS4_ISI_EEEEEENS1_8optionalIiEE
++ __ZN11Nightingale12lstmHrPeriodD1Ev
++ __ZN11Nightingale12lstmHrPeriodD2Ev
++ __ZN11Nightingale12ngtProjector10runCalAlgsEv
++ __ZN11Nightingale12ngtProjector12getCaContentERKNS_27firstFwPeriodStartOutStructERKNS_14ngt_PredictionES6_RNS_24coreAnalyticsDayStream_tE
++ __ZN11Nightingale12ngtProjector13surfaceLunaCaENS_23lunaFwDayStreamCAStructENS_29algUsedForSurfacedPredictionsENSt3__18optionalIiEERNS_24coreAnalyticsDayStream_tE
++ __ZN11Nightingale12ngtProjector14isFinite_aGradERKNSt3__18optionalINS_18ngtGradientMetricsEEE
++ __ZN11Nightingale12ngtProjector14isFinite_aProjERKNS_14ngt_PredictionE
++ __ZN11Nightingale12ngtProjector14nullifyAFwProjERKNS_14ngt_PredictionERNSt3__14pairINS4_6vectorIiNS4_9allocatorIiEEEENS6_INS_8PhaseSetENS7_ISA_EEEEEERKNS_25periodEstimationOutStructE
++ __ZN11Nightingale12ngtProjector14runHrAlgorithmEb
++ __ZN11Nightingale12ngtProjector16runLunaAlgorithmEb
++ __ZN11Nightingale12ngtProjector17getDerivedFwProjsERNSt3__16vectorINS1_4pairINS_25periodEstimationOutStructES4_EENS1_9allocatorIS5_EEEERS4_
++ __ZN11Nightingale12ngtProjector18nullifyAPeriodProjERKNS_14ngt_PredictionERNSt3__14pairINS4_6vectorIiNS4_9allocatorIiEEEENS6_INS_8PhaseSetENS7_ISA_EEEEEE
++ __ZN11Nightingale12ngtProjector19determineFinalFwEndERNS_27firstFwPeriodStartOutStructERKNS_16lunaAlgOutStructERKNS_14hrAlgOutStructENSt3__18optionalIiEERKNS_22fwPeriodEstimateStructEi
++ __ZN11Nightingale12ngtProjector19get1stProjMetricsCaERKNS_14ngt_PredictionERNS_26projRelatedCoreAnalytics_tE
++ __ZN11Nightingale12ngtProjector20determineFinalPeriodERNS_27firstFwPeriodStartOutStructERKNS_16lunaAlgOutStructERKNS_14hrAlgOutStructERKNS_22fwPeriodEstimateStructEi
++ __ZN11Nightingale12ngtProjector20getEnsembleTelemetryEv
++ __ZN11Nightingale12ngtProjector21getDerivedPeriodProjsERNS_27firstFwPeriodStartOutStructEiRNS_26periodEstimatorAggregationE
++ __ZN11Nightingale12ngtProjector22computeLowRangeMeanStdERNS_25periodEstimationOutStructE
++ __ZN11Nightingale12ngtProjector23compute1stFWPeriodStartEb
++ __ZN11Nightingale12ngtProjector23getCACurrentCycleFactorERKNSt3__16vectorINS_5PhaseENS1_9allocatorIS3_EEEE
++ __ZN11Nightingale12ngtProjector24constructSurfacedFwProjsERKNS_27firstFwPeriodStartOutStructERKNSt3__16vectorINS4_8optionalIiEENS4_9allocatorIS7_EEEESC_i
++ __ZN11Nightingale12ngtProjector24getCABoundedNumberOfDaysEi
++ __ZN11Nightingale12ngtProjector25offsetFwEnd2NgtPredictionENSt3__18optionalIiEES3_NS_29algUsedForSurfacedPredictionsEi
++ __ZN11Nightingale12ngtProjector26get1stFwCompletePeriodProjERNS_30periodEstimatorCalendarWithEndEbRNS_24coreAnalyticsDayStream_tE
++ __ZN11Nightingale12ngtProjector27get1stPeriodProjInPeriodNowERNS_30periodEstimatorCalendarWithEndERNS_9cycleInfoE
++ __ZN11Nightingale12ngtProjector27getCAPeriodPredictionMethodERKNS_27firstFwPeriodStartOutStructE
++ __ZN11Nightingale12ngtProjector27shrinkLowRangeToRmOverlapFWERNSt3__16vectorINS_14ngt_PredictionENS1_9allocatorIS3_EEEERKS6_b
++ __ZN11Nightingale12ngtProjector28constructSurfacedPeriodProjsERNS_27firstFwPeriodStartOutStructERNS_24derivedPeriodProjsStructEi
++ __ZN11Nightingale12ngtProjector30reproductiveInfiniteHandlingFwERKNSt3__16vectorINS_14ngt_PredictionENS1_9allocatorIS3_EEEERNS1_4pairINS2_IiNS4_IiEEEENS2_INS_8PhaseSetENS4_ISC_EEEEEERKNS_25periodEstimationOutStructE
++ __ZN11Nightingale12ngtProjector32getCaFwEndConfirmationMethodLunaENS_21algUsed_fwEndInternalENS_29algUsedForSurfacedPredictionsENSt3__18optionalIiEE
++ __ZN11Nightingale12ngtProjector33getAMetricFromperiodEstimationOutERNS_25periodEstimationOutStructE
++ __ZN11Nightingale12ngtProjector34reproductiveInfiniteHandlingPeriodERKNSt3__16vectorINS_14ngt_PredictionENS1_9allocatorIS3_EEEERNS1_4pairINS2_IiNS4_IiEEEENS2_INS_8PhaseSetENS4_ISC_EEEEEE
++ __ZN11Nightingale12ngtProjector34runSensorBasedAlgDueToCycleFactorsERKNSt3__16vectorINS_5PhaseENS1_9allocatorIS3_EEEE
++ __ZN11Nightingale12ngtProjector39getCABoundedDaysBetweenTodayAndCalFwEndEi
++ __ZN11Nightingale12ngtProjector39periodEstimationOutStruct2NgtPredictionERNS_25periodEstimationOutStructES2_RNSt3__18optionalIS1_EEi
++ __ZN11Nightingale12ngtProjector44getCAtBoundedDaysBetweenFwEndAndNotificationEi
++ __ZN11Nightingale12ngtProjector9projectorERNSt3__16vectorINS_14ngt_PredictionENS1_9allocatorIS3_EEEES7_RNS_14uiLogProcessorEbRNS_24coreAnalyticsDayStream_tE
++ __ZN11Nightingale12ngtProjectorC1ERKNSt3__16vectorINS_12ngt_DayInputENS1_9allocatorIS3_EEEERKNS_10ngt_ConfigERNS_5uiLogERNS1_4pairINS2_IiNS4_IiEEEENS2_INS_8PhaseSetENS4_ISH_EEEEEE
++ __ZN11Nightingale12ngtProjectorC2ERKNSt3__16vectorINS_12ngt_DayInputENS1_9allocatorIS3_EEEERKNS_10ngt_ConfigERNS_5uiLogERNS1_4pairINS2_IiNS4_IiEEEENS2_INS_8PhaseSetENS4_ISH_EEEEEE
++ __ZN11Nightingale12ngtProjectorD1Ev
++ __ZN11Nightingale12ngtProjectorD2Ev
++ __ZN11Nightingale12sanitize_nanEff
++ __ZN11Nightingale13day2day_noiseERKNSt3__16vectorIfNS0_9allocatorIfEEEE
++ __ZN11Nightingale13fwHEstimation15processPerCycleERKNS_9cycleInfoERNSt3__16vectorINS_12ngt_DayInputENS4_9allocatorIS6_EEEENS4_8optionalINS4_4pairIiiEEEENSC_INS5_IiNS7_IiEEEENS5_INS_8PhaseSetENS7_ISH_EEEEEERNS_32wristTemperatureInputAcquisitionEbRKNS_10ngt_ConfigE
++ __ZN11Nightingale13fwHEstimationC1Ev
++ __ZN11Nightingale13fwHEstimationC2Ev
++ __ZN11Nightingale13fwHEstimationD1Ev
++ __ZN11Nightingale13fwHEstimationD2Ev
++ __ZN11Nightingale13getMissingCntERKNSt3__16vectorIfNS0_9allocatorIfEEEEf
++ __ZN11Nightingale13getPercentileERNSt3__16vectorIfNS0_9allocatorIfEEEEfi
++ __ZN11Nightingale13pooledVar2WinERNSt3__16vectorIfNS0_9allocatorIfEEEES5_i
++ __ZN11Nightingale14PhaseCondenser11begin_phaseENS_5PhaseEi
++ __ZN11Nightingale14PhaseCondenser25flatten_counted_phase_setENSt3__15arrayIsLm9EEE
++ __ZN11Nightingale14PhaseCondenser9end_phaseENS_5PhaseEi
++ __ZN11Nightingale14fwEstimatorOPK12getHistFwOpkERKNS_9cycleInfoERNSt3__16vectorINS_12ngt_DayInputENS4_9allocatorIS6_EEEENS4_4pairINS5_IiNS7_IiEEEENS5_INS_8PhaseSetENS7_ISE_EEEEEENS4_8optionalIiEEb
++ __ZN11Nightingale14fwEstimatorOPK22getOnGoingjDayFwEndOpkEiNSt3__18optionalIiEE
++ __ZN11Nightingale14fwEstimatorOPKC1Ev
++ __ZN11Nightingale14fwEstimatorOPKC2Ev
++ __ZN11Nightingale14fwEstimatorOPKD1Ev
++ __ZN11Nightingale14fwEstimatorOPKD2Ev
++ __ZN11Nightingale14getVarianceWinERNSt3__16vectorIfNS0_9allocatorIfEEEEi
++ __ZN11Nightingale14get_days_sinceENSt3__18optionalIiEEi
++ __ZN11Nightingale14lstmLunaPeriod12validateWTmpEif
++ __ZN11Nightingale14lstmLunaPeriod16prepareUiVectorsEiii
++ __ZN11Nightingale14lstmLunaPeriod23estimatePeriodStartLunaEb
++ __ZN11Nightingale14lstmLunaPeriod26getPeriodProjFromLstmModelERNS_21lstmModelCommonPeriodEi
++ __ZN11Nightingale14lstmLunaPeriod27getLunaPeriodEstimationADayEii
++ __ZN11Nightingale14lstmLunaPeriod9applyAlgsEi
++ __ZN11Nightingale14lstmLunaPeriodC1ERKNSt3__16vectorINS_12ngt_DayInputENS1_9allocatorIS3_EEEERKNS_5uiLogERKNS_10ngt_ConfigENS1_4pairIiiEE
++ __ZN11Nightingale14lstmLunaPeriodC2ERKNSt3__16vectorINS_12ngt_DayInputENS1_9allocatorIS3_EEEERKNS_5uiLogERKNS_10ngt_ConfigENS1_4pairIiiEE
++ __ZN11Nightingale14lstmLunaPeriodD1Ev
++ __ZN11Nightingale14lstmLunaPeriodD2Ev
++ __ZN11Nightingale14uiLogProcessor10opk2CyclesERKNSt3__16vectorINS_12ngt_DayInputENS1_9allocatorIS3_EEEERNS2_INS_9cycleInfoENS4_IS9_EEEE
++ __ZN11Nightingale14uiLogProcessor11addCycleEndERNSt3__16vectorINS_9cycleInfoENS1_9allocatorIS3_EEEE
++ __ZN11Nightingale14uiLogProcessor11getVarianceENSt3__16vectorIfNS1_9allocatorIfEEEEdd
++ __ZN11Nightingale14uiLogProcessor11guardConfigERNS_10ngt_ConfigERKNS_9jDayUILogE
++ __ZN11Nightingale14uiLogProcessor12getJDayUILogERKNSt3__16vectorINS_12ngt_DayInputENS1_9allocatorIS3_EEEERNS1_4pairINS2_IiNS4_IiEEEENS2_INS_8PhaseSetENS4_ISC_EEEEEERNS_5uiLogERKNS_10ngt_ConfigE
++ __ZN11Nightingale14uiLogProcessor12hist_processERNSt3__16vectorINS_12ngt_DayInputENS1_9allocatorIS3_EEEERNS1_4pairINS2_IiNS4_IiEEEENS2_INS_8PhaseSetENS4_ISB_EEEEEE
++ __ZN11Nightingale14uiLogProcessor13extractCyclesERKNSt3__16vectorINS_12ngt_DayInputENS1_9allocatorIS3_EEEERNS1_4pairINS2_IiNS4_IiEEEENS2_INS_8PhaseSetENS4_ISC_EEEEEERNS_10ngt_ConfigE
++ __ZN11Nightingale14uiLogProcessor13genCycleSlideERKNSt3__16vectorINS_9cycleInfoENS1_9allocatorIS3_EEEENS1_4pairINS_11whatInSlideEiEERKNS_10ngt_ConfigENS1_8optionalIPiEE
++ __ZN11Nightingale14uiLogProcessor13print_anUILogERKNS_5uiLogE
++ __ZN11Nightingale14uiLogProcessor13removeOutlierERKNSt3__16vectorIfNS1_9allocatorIfEEEEf
++ __ZN11Nightingale14uiLogProcessor14extractPeriodsENSt3__16vectorIiNS1_9allocatorIiEEEENS2_INS_12menstrFlow_tENS3_IS6_EEEEiRNS1_4pairIS5_NS2_INS_8PhaseSetENS3_ISA_EEEEEERNS2_INS_9cycleInfoENS3_ISF_EEEE
++ __ZN11Nightingale14uiLogProcessor14genPeriodSlideENSt3__16vectorINS_9cycleInfoENS1_9allocatorIS3_EEEEiRKNS_10ngt_ConfigEb
++ __ZN11Nightingale14uiLogProcessor14getInPeriodNowERNS_5uiLogERKNS_10ngt_ConfigE
++ __ZN11Nightingale14uiLogProcessor14getJDay1stFlowERKNSt3__16vectorINS_12ngt_DayInputENS1_9allocatorIS3_EEEERNS_9jDayUILogE
++ __ZN11Nightingale14uiLogProcessor15calSlideMeanStdENSt3__16vectorIfNS1_9allocatorIfEEEEbff
++ __ZN11Nightingale14uiLogProcessor15getJDayFirstOPKERKNSt3__16vectorINS_12ngt_DayInputENS1_9allocatorIS3_EEEERNS_9jDayUILogE
++ __ZN11Nightingale14uiLogProcessor16getEnsembleInputERKNS_5uiLogERKNS_10ngt_ConfigE
++ __ZN11Nightingale14uiLogProcessor16vecPhaseContainsENSt3__16vectorINS_5PhaseENS1_9allocatorIS3_EEEES3_
++ __ZN11Nightingale14uiLogProcessor18getDLStartProcDateERKNS_10ngt_ConfigERKNS_9jDayUILogERKNSt3__16vectorINS_12ngt_DayInputENS7_9allocatorIS9_EEEERNS_13structDLIn_hrE
++ __ZN11Nightingale14uiLogProcessor21getJDayLastFlowNoFlowERKNSt3__16vectorINS_12ngt_DayInputENS1_9allocatorIS3_EEEERNS_9jDayUILogE
++ __ZN11Nightingale14uiLogProcessor21getNumPeriodsToKeepURERKNS_10ngt_ConfigERKNSt3__16vectorINS_9cycleInfoENS4_9allocatorIS6_EEEE
++ __ZN11Nightingale14uiLogProcessor21periodListToCycleInfoENSt3__16vectorINS1_4pairIiiEENS1_9allocatorIS4_EEEENS2_IbNS5_IbEEEERNS2_INS_9cycleInfoENS5_ISA_EEEE
++ __ZN11Nightingale14uiLogProcessor24getWhatShouldBeInSlideCCERKNS_10ngt_ConfigERKNSt3__16vectorINS_9cycleInfoENS4_9allocatorIS6_EEEENS4_4pairIiiEE
++ __ZN11Nightingale14uiLogProcessor27getACyclePeriodSlideMeanStdENSt3__16vectorIfNS1_9allocatorIfEEEES5_RNS_9cycleInfoE
++ __ZN11Nightingale14uiLogProcessor30getCyclePeriodMeanStdAllCyclesERNSt3__16vectorINS_9cycleInfoENS1_9allocatorIS3_EEEERKNS_10ngt_ConfigEbNS1_4pairIiiEE
++ __ZN11Nightingale14uiLogProcessor31getJDay1stOPKAftLastPeriodStartERKNSt3__16vectorINS_12ngt_DayInputENS1_9allocatorIS3_EEEERNS2_INS_9cycleInfoENS4_IS9_EEEE
++ __ZN11Nightingale14uiLogProcessor32get_jDayLastOPKPosBfr1stPeriodStEiRKNSt3__16vectorINS_12ngt_DayInputENS1_9allocatorIS3_EEEE
++ __ZN11Nightingale14uiLogProcessor35getJDayLastNoFlowAftLastPeriodStartERKNSt3__16vectorINS_12ngt_DayInputENS1_9allocatorIS3_EEEERNS2_INS_9cycleInfoENS4_IS9_EEEE
++ __ZN11Nightingale14uiLogProcessor38getAvgCycleLenForSomeCycleReproductiveERNSt3__16vectorINS_9cycleInfoENS1_9allocatorIS3_EEEEii
++ __ZN11Nightingale14uiLogProcessor7processERKNSt3__16vectorINS_12ngt_DayInputENS1_9allocatorIS3_EEEERNS1_4pairINS2_IiNS4_IiEEEENS2_INS_8PhaseSetENS4_ISC_EEEEEE
++ __ZN11Nightingale14uiLogProcessor9getCenterENSt3__16vectorIfNS1_9allocatorIfEEEEb
++ __ZN11Nightingale14uiLogProcessorC1ENSt3__18optionalIfEE
++ __ZN11Nightingale14uiLogProcessorC1Ev
++ __ZN11Nightingale14uiLogProcessorC2ENSt3__18optionalIfEE
++ __ZN11Nightingale14uiLogProcessorC2Ev
++ __ZN11Nightingale14uiLogProcessorD1Ev
++ __ZN11Nightingale14uiLogProcessorD2Ev
++ __ZN11Nightingale15convolve_on_topERKNSt3__16vectorIfNS0_9allocatorIfEEEES6_RS4_b
++ __ZN11Nightingale15fwEstimatorBase31suppressHistFWOverCycleBoundaryEiNSt3__18optionalIiEERNS_24fwEstimatorHistOutACycleE
++ __ZN11Nightingale15fwEstimatorBaseC1Ev
++ __ZN11Nightingale15fwEstimatorBaseC2Ev
++ __ZN11Nightingale15fwEstimatorBaseD1Ev
++ __ZN11Nightingale15fwEstimatorBaseD2Ev
++ __ZN11Nightingale15fwEstimatorLuna10getJDayKEdEiRKNSt3__16vectorINS_12ngt_DayInputENS1_9allocatorIS3_EEEEi
++ __ZN11Nightingale15fwEstimatorLuna12getFwEndLunaERKNS_5uiLogERKNSt3__16vectorINS_12ngt_DayInputENS4_9allocatorIS6_EEEERKNS_10ngt_ConfigENS4_4pairIiiEEb
++ __ZN11Nightingale15fwEstimatorLuna13getHistFwKaliERKNS_9cycleInfoERNSt3__16vectorINS_12ngt_DayInputENS4_9allocatorIS6_EEEENS4_8optionalINS4_4pairIiiEEEENSC_INS5_IiNS7_IiEEEENS5_INS_8PhaseSetENS7_ISH_EEEEEENSB_IiEERNS_32wristTemperatureInputAcquisitionEb
++ __ZN11Nightingale15fwEstimatorLuna15getJDayCycleEndERKNS_9cycleInfoE
++ __ZN11Nightingale15fwEstimatorLuna19getEligibleWTmpCntsERKNS_9cycleInfoERNSt3__16vectorINS_12ngt_DayInputENS4_9allocatorIS6_EEEENS4_4pairIiiEENS_20extractKaliInputsRtnE
++ __ZN11Nightingale15fwEstimatorLuna21updateSignalAtFwEndCAEfRNS_10lstmLunaFwERNS_28lunaFwDayStreamFeatureStructERNS_23lunaFwDayStreamCAStructE
++ __ZN11Nightingale15fwEstimatorLuna22updateFailureReasonsCAERNSt3__16vectorINS_32fwEndConfirmationFailureReason_tENS1_9allocatorIS3_EEEEbiiRNS_23lunaFwDayStreamCAStructE
++ __ZN11Nightingale15fwEstimatorLuna23getJDayLastDayToRunLunaERKNS_12ngt_DayInputERKNS_10ngt_ConfigEi
++ __ZN11Nightingale15fwEstimatorLuna23jDayWithinEpSearchRangeEiii
++ __ZN11Nightingale15fwEstimatorLuna24getCABoundedDay2DayNoiseEf
++ __ZN11Nightingale15fwEstimatorLuna24updateAvailabilityKaliCAENSt3__16vectorIbNS1_9allocatorIbEEEES5_S5_RNS_23lunaFwDayStreamCAStructE
++ __ZN11Nightingale15fwEstimatorLuna26getCASignalAtFwEndEstimateEf
++ __ZN11Nightingale15fwEstimatorLuna27getDaysPassedEPAvailabilityERKNS_20extractKaliInputsRtnEi
++ __ZN11Nightingale15fwEstimatorLuna27updateAFwCycleFactorCAItemsERNS_24fwEstimatorHistOutACycleERKNS_9cycleInfoERNSt3__14pairINS6_6vectorIiNS6_9allocatorIiEEEENS8_INS_8PhaseSetENS9_ISC_EEEEEEbRNS8_INS_12ngt_DayInputENS9_ISH_EEEE
++ __ZN11Nightingale15fwEstimatorLuna29combineEpRfLstmFailureReasonsERKNSt3__16vectorINS_32fwEndConfirmationFailureReason_tENS1_9allocatorIS3_EEEE
++ __ZN11Nightingale15fwEstimatorLuna34getKaliDay2DayNoiseAnchoredByTodayERKNSt3__16vectorINS_12ngt_DayInputENS1_9allocatorIS3_EEEERKNS_10ngt_ConfigENS1_4pairIiiEEi
++ __ZN11Nightingale15fwEstimatorLuna39getNumWristTempAvailRegardlessOf1stTempERKNSt3__16vectorINS2_IfNS1_9allocatorIfEEEENS3_IS5_EEEEii
++ __ZN11Nightingale15fwEstimatorLuna54getDaysWristTempInPassNDaysAndDaysPassedEPAvailabilityERKNSt3__16vectorINS_12ngt_DayInputENS1_9allocatorIS3_EEEENS1_4pairIiiEEiiiRNS_23lunaFwDayStreamCAStructE
++ __ZN11Nightingale15fwEstimatorLunaC1ERKNS_10ngt_ConfigE
++ __ZN11Nightingale15fwEstimatorLunaC2ERKNS_10ngt_ConfigE
++ __ZN11Nightingale15fwEstimatorLunaD1Ev
++ __ZN11Nightingale15fwEstimatorLunaD2Ev
++ __ZN11Nightingale15phaseFactorHist14suppressFWHistERNSt3__16vectorINS_17ngt_HistoricCycleENS1_9allocatorIS3_EEEERNS1_4pairINS2_IiNS4_IiEEEENS2_INS_8PhaseSetENS4_ISB_EEEEEE
++ __ZN11Nightingale15phaseFactorHist19tagHistReproductiveERNSt3__16vectorINS_17ngt_HistoricCycleENS1_9allocatorIS3_EEEERNS1_4pairINS2_IiNS4_IiEEEENS2_INS_8PhaseSetENS4_ISB_EEEEEE
++ __ZN11Nightingale15phaseFactorHistC1Ev
++ __ZN11Nightingale15phaseFactorHistC2Ev
++ __ZN11Nightingale15phaseFactorHistD1Ev
++ __ZN11Nightingale15phaseFactorHistD2Ev
++ __ZN11Nightingale16lutealPhaseCheckEiff
++ __ZN11Nightingale16uiProcessForLstm16fillUpMeanStdVecEffiiRNSt3__16vectorIfNS1_9allocatorIfEEEES6_
++ __ZN11Nightingale16uiProcessForLstm17prepareUiLogForDLERKNS_24uiProcessForDLJDayStructERNSt3__16vectorIfNS4_9allocatorIfEEEES9_S9_
++ __ZN11Nightingale16uiProcessForLstm18prepareDLSliceFlowERKNS_24uiProcessForDLJDayStructERNSt3__16vectorIfNS4_9allocatorIfEEEE
++ __ZN11Nightingale16uiProcessForLstm26prepareDLSliceCycleMeanStdERKNS_24uiProcessForDLJDayStructERNSt3__16vectorIfNS4_9allocatorIfEEEES9_
++ __ZN11Nightingale16uiProcessForLstmC1ERKNSt3__16vectorINS_12ngt_DayInputENS1_9allocatorIS3_EEEERKNS_5uiLogERKNS_10ngt_ConfigENS_35uiProcessForDLStandardizationStructE
++ __ZN11Nightingale16uiProcessForLstmC2ERKNSt3__16vectorINS_12ngt_DayInputENS1_9allocatorIS3_EEEERKNS_5uiLogERKNS_10ngt_ConfigENS_35uiProcessForDLStandardizationStructE
++ __ZN11Nightingale16uiProcessForLstmD1Ev
++ __ZN11Nightingale16uiProcessForLstmD2Ev
++ __ZN11Nightingale17get_sw_differenceERKNSt3__16vectorIfNS0_9allocatorIfEEEES6_
++ __ZN11Nightingale17lstmModelCommonFw15fwDLPostProcessERNSt3__16vectorIfNS1_9allocatorIfEEEEbi
++ __ZN11Nightingale17lstmModelCommonFwC1Ev
++ __ZN11Nightingale17lstmModelCommonFwC2Ev
++ __ZN11Nightingale17lstmModelCommonFwD1Ev
++ __ZN11Nightingale17lstmModelCommonFwD2Ev
++ __ZN11Nightingale18check2Real_t_equalEff
++ __ZN11Nightingale18getSlidingWinScoreERNSt3__16vectorIfNS0_9allocatorIfEEEES5_f
++ __ZN11Nightingale19checkNumTmpSwitchesENSt3__16vectorIfNS0_9allocatorIfEEEEfi
++ __ZN11Nightingale19fwEstimatorCalendar12getHistFwCalERKNS_9cycleInfoERNSt3__16vectorINS_12ngt_DayInputENS4_9allocatorIS6_EEEENS4_8optionalIiEENS4_4pairINS5_IiNS7_IiEEEENS5_INS_8PhaseSetENS7_ISG_EEEEEE
++ __ZN11Nightingale19fwEstimatorCalendar12getjDayFwCalEii
++ __ZN11Nightingale19fwEstimatorCalendar15getjDayFwEndCalEii
++ __ZN11Nightingale19fwEstimatorCalendarC1Ev
++ __ZN11Nightingale19fwEstimatorCalendarC2Ev
++ __ZN11Nightingale19fwEstimatorCalendarD1Ev
++ __ZN11Nightingale19fwEstimatorCalendarD2Ev
++ __ZN11Nightingale19getLowRangeStartDurEff
++ __ZN11Nightingale19periodEstimatorBase12getNullPointENSt3__18optionalIiEES3_i
++ __ZN11Nightingale19periodEstimatorBase28constructPeriodGradFromDLOutERNSt3__16vectorIfNS1_9allocatorIfEEEEiii
++ __ZN11Nightingale19periodEstimatorBase32checkDayToRunPeriodDLLessThanOPKENSt3__18optionalIiEEi
++ __ZN11Nightingale19periodEstimatorBaseC1ERKNS_10ngt_ConfigE
++ __ZN11Nightingale19periodEstimatorBaseC2ERKNS_10ngt_ConfigE
++ __ZN11Nightingale19periodEstimatorBaseD1Ev
++ __ZN11Nightingale19periodEstimatorBaseD2Ev
++ __ZN11Nightingale19periodEstimatorLuna18estimatePeriodLunaERKNSt3__16vectorINS_12ngt_DayInputENS1_9allocatorIS3_EEEERKNS_5uiLogERKNS_10ngt_ConfigENS1_4pairIiiEERNS_28periodEstimationLunaInStructE
++ __ZN11Nightingale19periodEstimatorLuna20getPeriodRegularLunaENSt3__18optionalIiEES3_RKNS_9cycleInfoEiRNS_23periodEstimatorCalendarE
++ __ZN11Nightingale19periodEstimatorLuna21enoughDataToRunlunaDLEiRKNS_5uiLogERKNS_10ngt_ConfigEi
++ __ZN11Nightingale19periodEstimatorLuna26getAlgsUsedToRunLunaPeriodENS_21algUsed_fwEndInternalERKNS_5uiLogERKNS_10ngt_ConfigENSt3__14pairIiiEESA_
++ __ZN11Nightingale19periodEstimatorLunaC1ERKNS_10ngt_ConfigE
++ __ZN11Nightingale19periodEstimatorLunaC2ERKNS_10ngt_ConfigE
++ __ZN11Nightingale19periodEstimatorLunaD1Ev
++ __ZN11Nightingale19periodEstimatorLunaD2Ev
++ __ZN11Nightingale19removeNANFromVectorERNSt3__16vectorIfNS0_9allocatorIfEEEE
++ __ZN11Nightingale20FwPredictorWrapper_t18predict_fwEndDetRFERKNS_23ngt_luna_DLin_fwEndRF_tERNSt3__16vectorIfNS4_9allocatorIfEEEE
++ __ZN11Nightingale20FwPredictorWrapper_t22predict_fwEndFlagDLTmpERKNS_25ngt_luna_DLin_fwEndLSTM_tERNSt3__16vectorIfNS4_9allocatorIfEEEE
++ __ZN11Nightingale20FwPredictorWrapper_t4initERKNS_10ngt_ConfigE
++ __ZN11Nightingale20FwPredictorWrapper_tC1Ev
++ __ZN11Nightingale20FwPredictorWrapper_tC2Ev
++ __ZN11Nightingale20follicularPhaseCheckEiii
++ __ZN11Nightingale20fwPredictorWrapper_t4initERKNS_10ngt_ConfigE
++ __ZN11Nightingale20fwPredictorWrapper_t9predictFWERKNS_13ngt_hr_DLin_tERNSt3__16vectorIfNS4_9allocatorIfEEEE
++ __ZN11Nightingale20fwPredictorWrapper_tC1Ev
++ __ZN11Nightingale20fwPredictorWrapper_tC2Ev
++ __ZN11Nightingale20getFWFromPeriodStartEi
++ __ZN11Nightingale20get_phase_day_formatEi
++ __ZN11Nightingale20ngt_dnn_fw_predict_t18ngt_dnn_process_fwERKNS_13ngt_hr_DLin_tERNSt3__16vectorIfNS4_9allocatorIfEEEE
++ __ZN11Nightingale20ngt_dnn_fw_predict_tC1ERKNS_10ngt_ConfigE
++ __ZN11Nightingale20ngt_dnn_fw_predict_tC2ERKNS_10ngt_ConfigE
++ __ZN11Nightingale20ngt_dnn_fw_predict_tD1Ev
++ __ZN11Nightingale20ngt_dnn_fw_predict_tD2Ev
++ __ZN11Nightingale20passLutealPhaseCheckEiff
++ __ZN11Nightingale20phaseFactorProcessor12detectPhasesENSt3__14pairIiiEENS1_6vectorINS_5PhaseENS1_9allocatorIS5_EEEERNS2_INS4_IiNS6_IiEEEENS4_INS_8PhaseSetENS6_ISB_EEEEEE
++ __ZN11Nightingale20phaseFactorProcessor13isEndOfAPhaseEiNSt3__14pairIiiEERNS2_INS1_6vectorIiNS1_9allocatorIiEEEENS4_INS_8PhaseSetENS5_IS8_EEEEEENS_5PhaseE
++ __ZN11Nightingale20phaseFactorProcessor14getAllCycleVecEv
++ __ZN11Nightingale20phaseFactorProcessor15isStartOfAPhaseEiNSt3__14pairIiiEERNS2_INS1_6vectorIiNS1_9allocatorIiEEEENS4_INS_8PhaseSetENS5_IS8_EEEEEENS_5PhaseE
++ __ZN11Nightingale20phaseFactorProcessor15suppressFWStEndERNSt3__18optionalIiEES4_RNS1_4pairINS1_6vectorIiNS1_9allocatorIiEEEENS6_INS_8PhaseSetENS7_ISA_EEEEEE
++ __ZN11Nightingale20phaseFactorProcessor17tagPhaseJDayRangeENSt3__14pairIiiEERNS2_INS1_6vectorIiNS1_9allocatorIiEEEENS4_INS_8PhaseSetENS5_IS8_EEEEEERNS4_INS_5PhaseENS5_ISD_EEEE
++ __ZN11Nightingale20phaseFactorProcessor20detectPhaseJDayRangeENSt3__14pairIiiEERKNS1_6vectorIiNS1_9allocatorIiEEEE
++ __ZN11Nightingale20phaseFactorProcessor21vPhasesContainsAPhaseERKNSt3__16vectorINS_5PhaseENS1_9allocatorIS3_EEEES3_
++ __ZN11Nightingale20phaseFactorProcessor22jDayLastEndOfAPhaseSetERNSt3__14pairINS1_6vectorIiNS1_9allocatorIiEEEENS3_INS_8PhaseSetENS4_IS7_EEEEEERKNS3_INS_5PhaseENS4_ISC_EEEE
++ __ZN11Nightingale20phaseFactorProcessor22vPhasesContainsVPhasesERKNSt3__16vectorINS_5PhaseENS1_9allocatorIS3_EEEES8_
++ __ZN11Nightingale20phaseFactorProcessor24ccMenstCycleLen_handlingERNSt3__14pairINS1_6vectorIiNS1_9allocatorIiEEEENS3_INS_8PhaseSetENS4_IS7_EEEEEERKNS3_INS_5PhaseENS4_ISC_EEEE
++ __ZN11Nightingale20phaseFactorProcessor29findEndOfReproductiveBfrADateERNSt3__14pairINS1_6vectorIiNS1_9allocatorIiEEEENS3_INS_8PhaseSetENS4_IS7_EEEEEERKNS3_INS_5PhaseENS4_ISC_EEEEi
++ __ZN11Nightingale20phaseFactorProcessor32containContraceptiveCycleFactorsERKNSt3__16vectorINS_5PhaseENS1_9allocatorIS3_EEEE
++ __ZN11Nightingale20phaseFactorProcessor32getjDayEndOfAPhasetojDayRangeEndENSt3__14pairIiiEERNS2_INS1_6vectorIiNS1_9allocatorIiEEEENS4_INS_8PhaseSetENS5_IS8_EEEEEENS_5PhaseE
++ __ZN11Nightingale20phaseFactorProcessor32jDayFirstStartLastEndOfAPhaseSetERNSt3__14pairINS1_6vectorIiNS1_9allocatorIiEEEENS3_INS_8PhaseSetENS4_IS7_EEEEEERKNS3_INS_5PhaseENS4_ISC_EEEE
++ __ZN11Nightingale20phaseFactorProcessor33aPhase_contains_phaseTobeDetectedENS_8PhaseSetERKNSt3__16vectorINS_5PhaseENS2_9allocatorIS4_EEEE
++ __ZN11Nightingale20phaseFactorProcessor33getjDayEndOfVPhasestojDayRangeEndENSt3__14pairIiiEERNS2_INS1_6vectorIiNS1_9allocatorIiEEEENS4_INS_8PhaseSetENS5_IS8_EEEEEERKNS4_INS_5PhaseENS5_ISD_EEEE
++ __ZN11Nightingale20phaseFactorProcessor36getjDayStartOfAPhasetojDayRangeStartENSt3__14pairIiiEERNS2_INS1_6vectorIiNS1_9allocatorIiEEEENS4_INS_8PhaseSetENS5_IS8_EEEEEENS_5PhaseE
++ __ZN11Nightingale20phaseFactorProcessor37getjDayStartOfVPhasestojDayRangeStartENSt3__14pairIiiEERNS2_INS1_6vectorIiNS1_9allocatorIiEEEENS4_INS_8PhaseSetENS5_IS8_EEEEEERKNS4_INS_5PhaseENS5_ISD_EEEE
++ __ZN11Nightingale20phaseFactorProcessor8getCCVecEv
++ __ZN11Nightingale20phaseFactorProjector20failReproAProjectionENS_14ngt_PredictionERKNSt3__16vectorINS_5PhaseENS2_9allocatorIS4_EEEERNS2_4pairINS3_IiNS5_IiEEEENS3_INS_8PhaseSetENS5_ISD_EEEEEE
++ __ZN11Nightingale20phaseFactorProjector20projectedFWFailReproENS_14ngt_PredictionERNSt3__14pairINS2_6vectorIiNS2_9allocatorIiEEEENS4_INS_8PhaseSetENS5_IS8_EEEEEE
++ __ZN11Nightingale20phaseFactorProjector23projected1stFWFailReproENS_14ngt_PredictionERNSt3__14pairINS2_6vectorIiNS2_9allocatorIiEEEENS4_INS_8PhaseSetENS5_IS8_EEEEEE
++ __ZN11Nightingale20phaseFactorProjector24projectedPeriodFailReproENS_14ngt_PredictionERNSt3__14pairINS2_6vectorIiNS2_9allocatorIiEEEENS4_INS_8PhaseSetENS5_IS8_EEEEEE
++ __ZN11Nightingale20phaseFactorProjectorC1Ev
++ __ZN11Nightingale20phaseFactorProjectorC2Ev
++ __ZN11Nightingale20phaseFactorProjectorD1Ev
++ __ZN11Nightingale20phaseFactorProjectorD2Ev
++ __ZN11Nightingale20uiCycleFactorProcess24tagCycleInfoReproductiveERNSt3__16vectorINS_9cycleInfoENS1_9allocatorIS3_EEEERNS1_4pairINS2_IiNS4_IiEEEENS2_INS_8PhaseSetENS4_ISB_EEEEEE
++ __ZN11Nightingale20uiCycleFactorProcess26suppressPeriodReproductiveERNSt3__16vectorINS1_4pairIiiEENS1_9allocatorIS4_EEEERNS3_INS2_IiNS5_IiEEEENS2_INS_8PhaseSetENS5_ISB_EEEEEE
++ __ZN11Nightingale20uiCycleFactorProcessC1Ev
++ __ZN11Nightingale20uiCycleFactorProcessC2Ev
++ __ZN11Nightingale20uiCycleFactorProcessD1Ev
++ __ZN11Nightingale20uiCycleFactorProcessD2Ev
++ __ZN11Nightingale21assertVectorOfVectorsERKNSt3__16vectorINS1_IfNS0_9allocatorIfEEEENS2_IS4_EEEE
++ __ZN11Nightingale21getEnsembleInputArrayERKNS_12ensembleInfoE
++ __ZN11Nightingale21getIdxOfMinValFromVecERNSt3__16vectorIiNS0_9allocatorIiEEEE
++ __ZN11Nightingale21getMeanDiffOf2WindowsERNSt3__16vectorIfNS0_9allocatorIfEEEES5_f
++ __ZN11Nightingale21getSubVecLenVecOfVecsERKNSt3__16vectorINS1_IfNS0_9allocatorIfEEEENS2_IS4_EEEE
++ __ZN11Nightingale21lstmModelCommonPeriod19applyNoflowUpdateDLERNS_9CGradientEi
++ __ZN11Nightingale21lstmModelCommonPeriod19periodDLPostProcessERNSt3__16vectorIfNS1_9allocatorIfEEEEi
++ __ZN11Nightingale21lstmModelCommonPeriod28constructPeriodGradFromDLOutERNSt3__16vectorIfNS1_9allocatorIfEEEEiii
++ __ZN11Nightingale21lstmModelCommonPeriod30periodDLTransformerPostProcessERNSt3__16vectorIfNS1_9allocatorIfEEEEi
++ __ZN11Nightingale21lstmModelCommonPeriodC1Ev
++ __ZN11Nightingale21lstmModelCommonPeriodC2Ev
++ __ZN11Nightingale21lstmModelCommonPeriodD1Ev
++ __ZN11Nightingale21lstmModelCommonPeriodD2Ev
++ __ZN11Nightingale21ngt_deviationAnalyzer11detectIrregENSt3__18optionalIiEES3_RKNS_5uiLogERNS1_4pairINS1_6vectorIiNS1_9allocatorIiEEEENS8_INS_8PhaseSetENS9_ISC_EEEEEEibRNS_12deviationOutERNS_18deviationIrregMetaE
++ __ZN11Nightingale21ngt_deviationAnalyzer11ruleCheckerENSt3__18optionalIiEES3_iiRKNS_5uiLogERNS1_4pairINS1_6vectorIiNS1_9allocatorIiEEEENS8_INS_8PhaseSetENS9_ISC_EEEEEEibRNS_19deviationCommonMetaE
++ __ZN11Nightingale21ngt_deviationAnalyzer12detectInfreqENSt3__18optionalIiEES3_RKNS_5uiLogERNS1_4pairINS1_6vectorIiNS1_9allocatorIiEEEENS8_INS_8PhaseSetENS9_ISC_EEEEEEibRNS_12deviationOutERNS_19deviationInfreqMetaE
++ __ZN11Nightingale21ngt_deviationAnalyzer14detectSpottingENSt3__18optionalIiEES3_NS1_6vectorINS_12ngt_DayInputENS1_9allocatorIS5_EEEERKNS_5uiLogERNS1_4pairINS4_IiNS6_IiEEEENS4_INS_8PhaseSetENS6_ISF_EEEEEEibRNS_12deviationOutERNS_21deviationSpottingMetaE
++ __ZN11Nightingale21ngt_deviationAnalyzer15detectProlongedENSt3__18optionalIiEES3_RKNS_5uiLogERNS1_4pairINS1_6vectorIiNS1_9allocatorIiEEEENS8_INS_8PhaseSetENS9_ISC_EEEEEEibRNS_12deviationOutERNS_20deviationProlongMetaE
++ __ZN11Nightingale21ngt_deviationAnalyzer17deviation_processERNS_10ngt_ConfigERNSt3__16vectorINS_12ngt_DayInputENS3_9allocatorIS5_EEEERNS_5uiLogERNS3_4pairINS4_IiNS6_IiEEEENS4_INS_8PhaseSetENS6_ISF_EEEEEENS3_8optionalIiEEb
++ __ZN11Nightingale21ngt_deviationAnalyzer21checkCycleFactorInWinEiiRNSt3__14pairINS1_6vectorIiNS1_9allocatorIiEEEENS3_INS_8PhaseSetENS4_IS7_EEEEEE
++ __ZN11Nightingale21ngt_deviationAnalyzer25extendPeriodWFlowSpottingEiiNSt3__16vectorINS_12ngt_DayInputENS1_9allocatorIS3_EEEERKNS_5uiLogE
++ __ZN11Nightingale21ngt_deviationAnalyzer28findCycleFactorsEndBfrWinEndEiRNSt3__14pairINS1_6vectorIiNS1_9allocatorIiEEEENS3_INS_8PhaseSetENS4_IS7_EEEEEE
++ __ZN11Nightingale21ngt_deviationAnalyzer31findNonAdjacentSpottingInACycleERKNSt3__16vectorINS_9cycleInfoENS1_9allocatorIS3_EEEEiRi
++ __ZN11Nightingale21ngt_deviationAnalyzerC1Ev
++ __ZN11Nightingale21ngt_deviationAnalyzerC2Ev
++ __ZN11Nightingale21ngt_deviationAnalyzerD1Ev
++ __ZN11Nightingale21ngt_deviationAnalyzerD2Ev
++ __ZN11Nightingale21passMissingRateASliceERKNSt3__16vectorIfNS0_9allocatorIfEEEEff
++ __ZN11Nightingale21slidingWindowBaseLuna11acquireWTmpERKNSt3__16vectorINS_12ngt_DayInputENS1_9allocatorIS3_EEEEii
++ __ZN11Nightingale21slidingWindowBaseLuna12validateWTmpERKNSt3__16vectorINS2_IfNS1_9allocatorIfEEEENS3_IS5_EEEEiRKS5_
++ __ZN11Nightingale21slidingWindowBaseLuna14applyAlgorithmERKNSt3__16vectorINS2_IfNS1_9allocatorIfEEEENS3_IS5_EEEE
++ __ZN11Nightingale21slidingWindowBaseLuna15validateResultsERNSt3__18optionalINS0_22slidingWinTurnUpStructEEE
++ __ZN11Nightingale21slidingWindowBaseLuna19setSlidingWinConfigEv
++ __ZN11Nightingale21slidingWindowBaseLuna20findRollingOfRollingERKNSt3__16vectorINS2_IfNS1_9allocatorIfEEEENS3_IS5_EEEEbibb
++ __ZN11Nightingale21slidingWindowBaseLuna21getRollingScoreASliceERKNSt3__16vectorIfNS1_9allocatorIfEEEE
++ __ZN11Nightingale21slidingWindowBaseLuna21getSlidingWindowCAOutEv
++ __ZN11Nightingale21slidingWindowBaseLuna25getSliceCenterOffsetRangeEv
++ __ZN11Nightingale21slidingWindowBaseLuna25validateConfigurationPassEv
++ __ZN11Nightingale21slidingWindowBaseLuna26updateSearchRsltWeakSignalEv
++ __ZN11Nightingale21slidingWindowBaseLuna27updateRollingBufferWithAValERNSt3__16vectorIfNS1_9allocatorIfEEEEif
++ __ZN11Nightingale21slidingWindowBaseLuna33accumulateFailureReasonOverSlicesEb
++ __ZN11Nightingale21slidingWindowBaseLuna34getOverallWTmpValidationRsltASliceEi
++ __ZN11Nightingale21slidingWindowBaseLuna53checkNumContinuousSlicesFailAvailabilityOverThresholdEv
++ __ZN11Nightingale21slidingWindowBaseLuna5resetEv
++ __ZN11Nightingale21slidingWindowBaseLuna7processERKNSt3__16vectorINS_12ngt_DayInputENS1_9allocatorIS3_EEEEb
++ __ZN11Nightingale21slidingWindowBaseLunaC1ERKNS_21slidingWinInputStructE
++ __ZN11Nightingale21slidingWindowBaseLunaC2ERKNS_21slidingWinInputStructE
++ __ZN11Nightingale21slidingWindowBaseLunaD1Ev
++ __ZN11Nightingale21slidingWindowBaseLunaD2Ev
++ __ZN11Nightingale21slidingWindowHistLunaC1ERKNS_21slidingWinInputStructE
++ __ZN11Nightingale21slidingWindowHistLunaC2ERKNS_21slidingWinInputStructE
++ __ZN11Nightingale21slidingWindowHistLunaD1Ev
++ __ZN11Nightingale21slidingWindowHistLunaD2Ev
++ __ZN11Nightingale22getSmoothedPow_aSampleERKNSt3__16vectorIfNS0_9allocatorIfEEEES6_
++ __ZN11Nightingale22ngt_DayStreamProcessor10printStatsENS_9ngt_StatsE
++ __ZN11Nightingale22ngt_DayStreamProcessor11begin_phaseENS_5PhaseEi
++ __ZN11Nightingale22ngt_DayStreamProcessor13compute_statsENSt3__16vectorINS_9cycleInfoENS1_9allocatorIS3_EEEERNS_10ngt_ConfigERNS1_4pairINS2_IiNS4_IiEEEENS2_INS_8PhaseSetENS4_ISC_EEEEEEb
++ __ZN11Nightingale22ngt_DayStreamProcessor14appendPhaseSetENS_8PhaseSetEi
++ __ZN11Nightingale22ngt_DayStreamProcessor14inactiveDetectERNS_5uiLogERNSt3__14pairINS3_6vectorIiNS3_9allocatorIiEEEENS5_INS_8PhaseSetENS6_IS9_EEEEEENS3_8optionalIiEESF_
++ __ZN11Nightingale22ngt_DayStreamProcessor15printDeviationsENS_19ngt_DeviationOutSetE
++ __ZN11Nightingale22ngt_DayStreamProcessor23printInputDayStreamProcERKNSt3__16vectorINS_12ngt_DayInputENS1_9allocatorIS3_EEEERNS1_4pairINS2_IiNS4_IiEEEENS2_INS_8PhaseSetENS4_ISC_EEEEEERKNS_10ngt_ConfigE
++ __ZN11Nightingale22ngt_DayStreamProcessor7analyzeENSt3__18optionalIiEEb
++ __ZN11Nightingale22ngt_DayStreamProcessor9appendDayERNS_12ngt_DayInputE
++ __ZN11Nightingale22ngt_DayStreamProcessor9end_phaseENS_5PhaseEi
++ __ZN11Nightingale22ngt_DayStreamProcessorC1ERNS_10ngt_ConfigE
++ __ZN11Nightingale22ngt_DayStreamProcessorC2ERNS_10ngt_ConfigE
++ __ZN11Nightingale22ngt_DayStreamProcessorD1Ev
++ __ZN11Nightingale22ngt_DayStreamProcessorD2Ev
++ __ZN11Nightingale22ngt_HistoricalAnalyzer11begin_phaseENS_5PhaseEi
++ __ZN11Nightingale22ngt_HistoricalAnalyzer14appendPhaseSetENS_8PhaseSetEi
++ __ZN11Nightingale22ngt_HistoricalAnalyzer19getCANumberOfCyclesEi
++ __ZN11Nightingale22ngt_HistoricalAnalyzer21getCAFractionOfCyclesEf
++ __ZN11Nightingale22ngt_HistoricalAnalyzer23getCAFwEndEstimateErrorEf
++ __ZN11Nightingale22ngt_HistoricalAnalyzer23getCoreAnalyticsContentERNS_5uiLogENSt3__18optionalINS3_4pairIiiEEEERNS3_6vectorINS_27coreAnalyticsHistPerCycle_tENS3_9allocatorIS9_EEEE
++ __ZN11Nightingale22ngt_HistoricalAnalyzer23getHasMultipleWatchHistEiNSt3__18optionalINS1_4pairIiiEEEE
++ __ZN11Nightingale22ngt_HistoricalAnalyzer24constructePseudo1stCycleEiiNSt3__18optionalINS1_4pairIiiEEEERKNS1_6vectorINS_12ngt_DayInputENS1_9allocatorIS7_EEEE
++ __ZN11Nightingale22ngt_HistoricalAnalyzer26getCASignalAtFwEndEstimateEf
++ __ZN11Nightingale22ngt_HistoricalAnalyzer31getCAEstimatedLutealPhaseLengthEf
++ __ZN11Nightingale22ngt_HistoricalAnalyzer38getCADaysLoggedBeforeOrAfterCycleStartEf
++ __ZN11Nightingale22ngt_HistoricalAnalyzer7analyzeEb
++ __ZN11Nightingale22ngt_HistoricalAnalyzer9appendDayERNS_12ngt_DayInputE
++ __ZN11Nightingale22ngt_HistoricalAnalyzer9end_phaseENS_5PhaseEi
++ __ZN11Nightingale22ngt_HistoricalAnalyzerC1ERNS_10ngt_ConfigE
++ __ZN11Nightingale22ngt_HistoricalAnalyzerC2ERNS_10ngt_ConfigE
++ __ZN11Nightingale22ngt_HistoricalAnalyzerD1Ev
++ __ZN11Nightingale22ngt_HistoricalAnalyzerD2Ev
++ __ZN11Nightingale22sensorInputProcessBaseC1Ev
++ __ZN11Nightingale22sensorInputProcessBaseC2Ev
++ __ZN11Nightingale22sensorInputProcessBaseD1Ev
++ __ZN11Nightingale22sensorInputProcessBaseD2Ev
++ __ZN11Nightingale23getIdxOfDailyInFromJDayERKNSt3__16vectorINS_12ngt_DayInputENS0_9allocatorIS2_EEEEi
++ __ZN11Nightingale23periodEstimatorCalendar11getGradientEffi
++ __ZN11Nightingale23periodEstimatorCalendar17getGradientLengthEff
++ __ZN11Nightingale23periodEstimatorCalendar21adjustForGradientNullENSt3__18optionalIiEEffRNS_9CGradientE
++ __ZN11Nightingale23periodEstimatorCalendar22getPeriodStartGradientEff
++ __ZN11Nightingale23periodEstimatorCalendar24predict1stPeriodStartCalERKNS_9cycleInfoENSt3__18optionalIiEES6_S6_
++ __ZN11Nightingale23periodEstimatorCalendar30getCalBasedPeriodStartGradientEffNSt3__18optionalIiEE
++ __ZN11Nightingale23periodEstimatorCalendarC1ERKNS_10ngt_ConfigE
++ __ZN11Nightingale23periodEstimatorCalendarC2ERKNS_10ngt_ConfigE
++ __ZN11Nightingale23periodEstimatorCalendarD1Ev
++ __ZN11Nightingale23periodEstimatorCalendarD2Ev
++ __ZN11Nightingale24PeriodPredictorWrapper_t27predict_periodRegressorLSTMERKNS_35ngt_luna_DLin_periodRegressorLSTM_tERNSt3__16vectorIfNS4_9allocatorIfEEEE
++ __ZN11Nightingale24PeriodPredictorWrapper_t4initERKNS_10ngt_ConfigE
++ __ZN11Nightingale24PeriodPredictorWrapper_tC1Ev
++ __ZN11Nightingale24PeriodPredictorWrapper_tC2Ev
++ __ZN11Nightingale24heartRateInputValidation14validateASliceERNSt3__16vectorINS1_8optionalIiEENS1_9allocatorIS4_EEEEttf
++ __ZN11Nightingale24heartRateInputValidation16validateHrSlicesERNS_14hrSlicesStructERNSt3__16vectorINS4_IbNS3_9allocatorIbEEEENS5_IS7_EEEE
++ __ZN11Nightingale24heartRateInputValidation17validateHrSamplesERNS_14hrSlicesStructE
++ __ZN11Nightingale24heartRateInputValidation20validateSizeOfSlicesERNS_14hrSlicesStructE
++ __ZN11Nightingale24heartRateInputValidation7processERNS_14hrSlicesStructERNSt3__16vectorINS4_IbNS3_9allocatorIbEEEENS5_IS7_EEEEb
++ __ZN11Nightingale24heartRateInputValidationC1ERKNS_10ngt_ConfigE
++ __ZN11Nightingale24heartRateInputValidationC2ERKNS_10ngt_ConfigE
++ __ZN11Nightingale24heartRateInputValidationD1Ev
++ __ZN11Nightingale24heartRateInputValidationD2Ev
++ __ZN11Nightingale24ngt_dnn_period_predict_t22ngt_dnn_process_periodERKNS_13ngt_hr_DLin_tERNSt3__16vectorIfNS4_9allocatorIfEEEE
++ __ZN11Nightingale24ngt_dnn_period_predict_tC1ERKNS_10ngt_ConfigE
++ __ZN11Nightingale24ngt_dnn_period_predict_tC2ERKNS_10ngt_ConfigE
++ __ZN11Nightingale24ngt_dnn_period_predict_tD1Ev
++ __ZN11Nightingale24ngt_dnn_period_predict_tD2Ev
++ __ZN11Nightingale24periodPredictorWrapper_t13predictPeriodERKNS_13ngt_hr_DLin_tERNSt3__16vectorIfNS4_9allocatorIfEEEE
++ __ZN11Nightingale24periodPredictorWrapper_t4initERKNS_10ngt_ConfigE
++ __ZN11Nightingale24periodPredictorWrapper_tC1Ev
++ __ZN11Nightingale24periodPredictorWrapper_tC2Ev
++ __ZN11Nightingale25calculate_snr_noise_powerERKNSt3__16vectorIfNS0_9allocatorIfEEEES6_
++ __ZN11Nightingale25get_width_and_days_to_drsERKNSt3__17variantIJNS_19lstmPeriodOutStructENS_21lstmPeriodTFOutStructEEEEi
++ __ZN11Nightingale25heartRateInputAcquisition18get1stJDayDailyIdxEv
++ __ZN11Nightingale25heartRateInputAcquisition20getDailyJDayIdx1stHrERKNSt3__16vectorINS_12ngt_DayInputENS1_9allocatorIS3_EEEE
++ __ZN11Nightingale25heartRateInputAcquisition22acquireSlicesJDayRangeERKNSt3__16vectorINS_12ngt_DayInputENS1_9allocatorIS3_EEEEiiRNS_14hrSlicesStructE
++ __ZN11Nightingale25heartRateInputAcquisition23getJDayHrSlicesStartEndEiNSt3__18optionalIiEE
++ __ZN11Nightingale25heartRateInputAcquisition24acquireSlicesFwDayStreamERKNSt3__16vectorINS_12ngt_DayInputENS1_9allocatorIS3_EEEEiNS1_8optionalIiEERNS_14hrSlicesStructE
++ __ZN11Nightingale25heartRateInputAcquisition28acquireSlicesPeriodDayStreamERKNSt3__16vectorINS_12ngt_DayInputENS1_9allocatorIS3_EEEEiRNS_14hrSlicesStructE
++ __ZN11Nightingale25heartRateInputAcquisitionC1Ev
++ __ZN11Nightingale25heartRateInputAcquisitionC2Ev
++ __ZN11Nightingale25heartRateInputAcquisitionD1Ev
++ __ZN11Nightingale25heartRateInputAcquisitionD2Ev
++ __ZN11Nightingale25truncate_temperature_dataERNS_17lunaExtractedDataEi
++ __ZN11Nightingale26heartRateInputPreCondition11forwardFillERNSt3__16vectorINS1_8optionalIfEENS1_9allocatorIS4_EEEES4_
++ __ZN11Nightingale26heartRateInputPreCondition14preConditionHrEv
++ __ZN11Nightingale26heartRateInputPreCondition14standardizeVecERNSt3__16vectorINS1_8optionalIfEENS1_9allocatorIS4_EEEEff
++ __ZN11Nightingale26heartRateInputPreCondition30find1stHrSampleDayStreamLstmHrEv
++ __ZN11Nightingale26heartRateInputPreConditionC1ERKNSt3__16vectorINS_12ngt_DayInputENS1_9allocatorIS3_EEEERNS_14hrSlicesStructERKNS_10ngt_ConfigE
++ __ZN11Nightingale26heartRateInputPreConditionC2ERKNSt3__16vectorINS_12ngt_DayInputENS1_9allocatorIS3_EEEERNS_14hrSlicesStructERKNS_10ngt_ConfigE
++ __ZN11Nightingale26heartRateInputPreConditionD1Ev
++ __ZN11Nightingale26heartRateInputPreConditionD2Ev
++ __ZN11Nightingale26ngt_luna_fw_dl_tmp_process19ngt_luna_fwEndDetRFERKNS_23ngt_luna_DLin_fwEndRF_tERNSt3__16vectorIfNS4_9allocatorIfEEEE
++ __ZN11Nightingale26ngt_luna_fw_dl_tmp_process23ngt_luna_fwEndFlagDLTmpERKNS_25ngt_luna_DLin_fwEndLSTM_tERNSt3__16vectorIfNS4_9allocatorIfEEEE
++ __ZN11Nightingale26ngt_luna_fw_dl_tmp_processC1ERKNS_10ngt_ConfigE
++ __ZN11Nightingale26ngt_luna_fw_dl_tmp_processC2ERKNS_10ngt_ConfigE
++ __ZN11Nightingale26ngt_luna_fw_dl_tmp_processD1Ev
++ __ZN11Nightingale26ngt_luna_fw_dl_tmp_processD2Ev
++ __ZN11Nightingale26periodEstimatorAggregation19period1stProjFromHRERKNS_22algUsed_periodInternalE
++ __ZN11Nightingale26periodEstimatorAggregation21deriveRestPeriodProjsERNS_25periodEstimationOutStructERKNS_5uiLogERKNS_10ngt_ConfigEiibb
++ __ZN11Nightingale26periodEstimatorAggregation21period1stProjFromlunaERKNS_22algUsed_periodInternalE
++ __ZN11Nightingale26periodEstimatorAggregation23period1stProjFromSensorERKNS_22algUsed_periodInternalE
++ __ZN11Nightingale26periodEstimatorAggregationC1Ev
++ __ZN11Nightingale26periodEstimatorAggregationC2Ev
++ __ZN11Nightingale26periodEstimatorAggregationD1Ev
++ __ZN11Nightingale26periodEstimatorAggregationD2Ev
++ __ZN11Nightingale26run_m_over_n_moving_targetERKNSt3__16vectorINS_12ngt_DayInputENS0_9allocatorIS2_EEEEii
++ __ZN11Nightingale26slidingWindowDayStreamLuna14applyAlgorithmERKNSt3__16vectorINS2_IfNS1_9allocatorIfEEEENS3_IS5_EEEE
++ __ZN11Nightingale26slidingWindowDayStreamLuna15validateResultsERNSt3__18optionalINS_21slidingWindowBaseLuna22slidingWinTurnUpStructEEE
++ __ZN11Nightingale26slidingWindowDayStreamLuna19setSlidingWinConfigEv
++ __ZN11Nightingale26slidingWindowDayStreamLuna21getSlidingWindowCAOutEv
++ __ZN11Nightingale26slidingWindowDayStreamLuna25getSliceCenterOffsetRangeEv
++ __ZN11Nightingale26slidingWindowDayStreamLunaC1ERKNS_21slidingWinInputStructE
++ __ZN11Nightingale26slidingWindowDayStreamLunaC2ERKNS_21slidingWinInputStructE
++ __ZN11Nightingale26slidingWindowDayStreamLunaD1Ev
++ __ZN11Nightingale26slidingWindowDayStreamLunaD2Ev
++ __ZN11Nightingale27checkOffsetGetSegFromVectorEiii
++ __ZN11Nightingale27prepare_input_slices_for_mtERKNSt3__16vectorINS_12ngt_DayInputENS0_9allocatorIS2_EEEEii
++ __ZN11Nightingale28signal2noise_check_per_sliceERKNSt3__16vectorINS_18lunaMTPreparedDataENS0_9allocatorIS2_EEEEf
++ __ZN11Nightingale28wristTemperatureInputProcess13clearDLSlicesERNS_29extractedLunaDayStreamSlice_tE
++ __ZN11Nightingale28wristTemperatureInputProcess42constructVectorOfSlicesFromMultipleWatchesERNS_20extractKaliInputsRtnEiii
++ __ZN11Nightingale28wristTemperatureInputProcessC1Ev
++ __ZN11Nightingale28wristTemperatureInputProcessC2Ev
++ __ZN11Nightingale28wristTemperatureInputProcessD1Ev
++ __ZN11Nightingale28wristTemperatureInputProcessD2Ev
++ __ZN11Nightingale29day2day_noise_check_per_sliceERKNSt3__16vectorINS_18lunaMTPreparedDataENS0_9allocatorIS2_EEEEf
++ __ZN11Nightingale30ngt_luna_period_dl_tmp_process28ngt_luna_periodRegressorLSTMERKNS_35ngt_luna_DLin_periodRegressorLSTM_tERNSt3__16vectorIfNS4_9allocatorIfEEEE
++ __ZN11Nightingale30ngt_luna_period_dl_tmp_processC1ERKNS_10ngt_ConfigE
++ __ZN11Nightingale30ngt_luna_period_dl_tmp_processC2ERKNS_10ngt_ConfigE
++ __ZN11Nightingale30ngt_luna_period_dl_tmp_processD1Ev
++ __ZN11Nightingale30ngt_luna_period_dl_tmp_processD2Ev
++ __ZN11Nightingale30periodEstimatorCalendarWithEnd22getPeriodEndProjectionERNS_9cycleInfoERNS_9CGradientE
++ __ZN11Nightingale30periodEstimatorCalendarWithEnd23get_period_duration_pdfENS_9cycleInfoE
++ __ZN11Nightingale30periodEstimatorCalendarWithEnd23get_period_end_gradientERKNSt3__16vectorIfNS1_9allocatorIfEEEES7_
++ __ZN11Nightingale30periodEstimatorCalendarWithEndC1ERKNS_10ngt_ConfigE
++ __ZN11Nightingale30periodEstimatorCalendarWithEndC2ERKNS_10ngt_ConfigE
++ __ZN11Nightingale30periodEstimatorCalendarWithEndD1Ev
++ __ZN11Nightingale30periodEstimatorCalendarWithEndD2Ev
++ __ZN11Nightingale31predict_on_day_range_historicalERKNSt3__16vectorINS_18lunaMTPreparedDataENS0_9allocatorIS2_EEEENS1_INS_11lunaMTSpecsENS3_IS8_EEEE
++ __ZN11Nightingale31preprocess_all_temperature_dataERKNS_17lunaExtractedDataE
++ __ZN11Nightingale31wristTemperatureInputValidation21checkListOfConditionsERNSt3__16vectorINS1_8functionIFNS1_4pairIbfEERNS0_31wristTemperatureInputCheckItemsERKNS2_IfNS1_9allocatorIfEEEEifEEENS8_ISE_EEEESC_RKNS2_IiNS8_IiEEEESC_b
++ __ZN11Nightingale31wristTemperatureInputValidation31wristTemperatureInputCheckItems15checkWTmpSnrLowERKNSt3__16vectorIfNS2_9allocatorIfEEEEif
++ __ZN11Nightingale31wristTemperatureInputValidation31wristTemperatureInputCheckItems19computeDay2DayNoiseERKNSt3__16vectorIfNS2_9allocatorIfEEEE
++ __ZN11Nightingale31wristTemperatureInputValidation31wristTemperatureInputCheckItems23checkWTmpMissingCntHighERKNSt3__16vectorIfNS2_9allocatorIfEEEEif
++ __ZN11Nightingale31wristTemperatureInputValidation31wristTemperatureInputCheckItems25checkWTmpDay2dayNoiseHighERKNSt3__16vectorIfNS2_9allocatorIfEEEEif
++ __ZN11Nightingale31wristTemperatureInputValidation31wristTemperatureInputCheckItems31checkWTmpEarlyWinMissingCntHighERKNSt3__16vectorIfNS2_9allocatorIfEEEEif
++ __ZN11Nightingale31wristTemperatureInputValidation31wristTemperatureInputCheckItems31checkWTmpLaterWinMissingCntHighERKNSt3__16vectorIfNS2_9allocatorIfEEEEif
++ __ZN11Nightingale31wristTemperatureInputValidationC1Ev
++ __ZN11Nightingale31wristTemperatureInputValidationC2Ev
++ __ZN11Nightingale31wristTemperatureInputValidationD1Ev
++ __ZN11Nightingale31wristTemperatureInputValidationD2Ev
++ __ZN11Nightingale32getIdxOfDailyInGreaterThanJayDayERKNSt3__16vectorINS_12ngt_DayInputENS0_9allocatorIS2_EEEEi
++ __ZN11Nightingale32periodPredictorEnsembleWrapper_t13predictPeriodERKNSt3__16vectorIfNS1_9allocatorIfEEEERi
++ __ZN11Nightingale32periodPredictorEnsembleWrapper_t4initERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEE
++ __ZN11Nightingale32periodPredictorEnsembleWrapper_tC1Ev
++ __ZN11Nightingale32periodPredictorEnsembleWrapper_tC2Ev
++ __ZN11Nightingale32wristTemperatureInputAcquisition16getJDayIdx1stTmpERKNSt3__16vectorINS_12ngt_DayInputENS1_9allocatorIS3_EEEE
++ __ZN11Nightingale32wristTemperatureInputAcquisition19getOutlierRmvSegLenEii
++ __ZN11Nightingale32wristTemperatureInputAcquisition22getAWTmpEntryDailyDataERKNSt3__16vectorINS_12ngt_DayInputENS1_9allocatorIS3_EEEERii
++ __ZN11Nightingale32wristTemperatureInputAcquisition26extractKaliInputsJDayRangeERKNSt3__16vectorINS_12ngt_DayInputENS1_9allocatorIS3_EEEEiiNS1_8optionalINS1_4pairIiiEEEE
++ __ZN11Nightingale32wristTemperatureInputAcquisition28removeOutlierUsingSlidingWinERNSt3__16vectorIfNS1_9allocatorIfEEEEiif
++ __ZN11Nightingale32wristTemperatureInputAcquisition29getLastValidSamplesFromRawTmpERKNS_20extractKaliInputsRtnERNSt3__16vectorINS4_8optionalIfEENS4_9allocatorIS7_EEEE
++ __ZN11Nightingale32wristTemperatureInputAcquisition33extractWTmp_removeOutlier_withBufEiiRKNSt3__16vectorINS_12ngt_DayInputENS1_9allocatorIS3_EEEENS1_4pairIiiEE
++ __ZN11Nightingale32wristTemperatureInputAcquisition49extractWTmp_removeOutlier_withBuf_fromCycleOffsetEiiiRKNSt3__16vectorINS_12ngt_DayInputENS1_9allocatorIS3_EEEENS1_4pairIiiEE
++ __ZN11Nightingale32wristTemperatureInputAcquisition5resetEv
++ __ZN11Nightingale32wristTemperatureInputAcquisitionC1Ev
++ __ZN11Nightingale32wristTemperatureInputAcquisitionC2Ev
++ __ZN11Nightingale32wristTemperatureInputAcquisitionD1Ev
++ __ZN11Nightingale32wristTemperatureInputAcquisitionD2Ev
++ __ZN11Nightingale33ngt_dnn_period_predict_Ensemble_t7predictERKNSt3__16vectorIfNS1_9allocatorIfEEEERi
++ __ZN11Nightingale33ngt_dnn_period_predict_Ensemble_tC1ERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEE
++ __ZN11Nightingale33ngt_dnn_period_predict_Ensemble_tC2ERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEE
++ __ZN11Nightingale33ngt_dnn_period_predict_Ensemble_tD1Ev
++ __ZN11Nightingale33ngt_dnn_period_predict_Ensemble_tD2Ev
++ __ZN11Nightingale34get_failure_reasons_for_historicalEiiiiiii
++ __ZN11Nightingale34missing_spec_check_for_each_windowERKNSt3__16vectorINS_18lunaMTPreparedDataENS0_9allocatorIS2_EEEEff
++ __ZN11Nightingale35periodPredictorTransformerWrapper_t13predictPeriodERKNS_13ngt_hr_DLin_tERNSt3__16vectorIfNS4_9allocatorIfEEEE
++ __ZN11Nightingale35periodPredictorTransformerWrapper_t4initERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEE
++ __ZN11Nightingale35periodPredictorTransformerWrapper_tC1Ev
++ __ZN11Nightingale35periodPredictorTransformerWrapper_tC2Ev
++ __ZN11Nightingale35remove_outlier_via_sliding_window_rERKNSt3__16vectorIfNS0_9allocatorIfEEEEif
++ __ZN11Nightingale36ngt_dnn_period_predict_transformer_t7predictERKNS_13ngt_hr_DLin_tERNSt3__16vectorIfNS4_9allocatorIfEEEE
++ __ZN11Nightingale36ngt_dnn_period_predict_transformer_tC1ERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEE
++ __ZN11Nightingale36ngt_dnn_period_predict_transformer_tC2ERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEE
++ __ZN11Nightingale36ngt_dnn_period_predict_transformer_tD1Ev
++ __ZN11Nightingale36ngt_dnn_period_predict_transformer_tD2Ev
++ __ZN11Nightingale37extract_and_validate_temperature_dataERKNSt3__16vectorINS_12ngt_DayInputENS0_9allocatorIS2_EEEEi
++ __ZN11Nightingale40addEntryToNewextractedLunaDayStreamSliceERNS_29extractedLunaDayStreamSlice_tES1_i
++ __ZN11Nightingale40extract_temperature_data_for_given_rangeEiiRKNS_17lunaExtractedDataE
++ __ZN11Nightingale41prepare_temperature_input_slice_for_kdaysENSt3__16vectorIiNS0_9allocatorIiEEEEiRNS_17lunaExtractedDataE
++ __ZN11Nightingale44preprocess_temperature_inputs_for_hist_cycleERKNSt3__16vectorINS_12ngt_DayInputENS0_9allocatorIS2_EEEEii
++ __ZN11Nightingale4vVarIdEET_PKfib
++ __ZN11Nightingale4vVarIfEET_PKfib
++ __ZN11Nightingale5vMeanIdEET_PKfi
++ __ZN11Nightingale5vMeanIfEET_PKfi
++ __ZN11Nightingale6cumsumERNSt3__16vectorIfNS0_9allocatorIfEEEE
++ __ZN11Nightingale6lstmHr10validateHrEb
++ __ZN11Nightingale6lstmHr14preConditionHrEv
++ __ZN11Nightingale6lstmHr15acquireHrSlicesEv
++ __ZN11Nightingale6lstmHr16prepareUiVectorsEiii
++ __ZN11Nightingale6lstmHr22getJDay1stValidAwakeHrEv
++ __ZN11Nightingale6lstmHr26enoughHrSamplesToRunLstmHrEv
++ __ZN11Nightingale6lstmHr9acquireHrEv
++ __ZN11Nightingale6lstmHrC1ERKNSt3__16vectorINS_12ngt_DayInputENS1_9allocatorIS3_EEEERKNS_5uiLogERKNS_10ngt_ConfigERNS1_4pairINS2_IiNS4_IiEEEENS2_INS_8PhaseSetENS4_ISI_EEEEEE
++ __ZN11Nightingale6lstmHrC2ERKNSt3__16vectorINS_12ngt_DayInputENS1_9allocatorIS3_EEEERKNS_5uiLogERKNS_10ngt_ConfigERNS1_4pairINS2_IiNS4_IiEEEENS2_INS_8PhaseSetENS4_ISI_EEEEEE
++ __ZN11Nightingale6lstmHrD1Ev
++ __ZN11Nightingale6lstmHrD2Ev
++ __ZN11Nightingale6rfLuna11acquireWTmpEiii
++ __ZN11Nightingale6rfLuna12preConditionEv
++ __ZN11Nightingale6rfLuna12validateWTmpEf
++ __ZN11Nightingale6rfLuna18getOngoingFwRfLunaEi
++ __ZN11Nightingale6rfLuna21getRfAvailabilityFailEifi
++ __ZN11Nightingale6rfLuna27getFailureReasonOngoingFwRFEv
++ __ZN11Nightingale6rfLuna5resetEv
++ __ZN11Nightingale6rfLuna9applyAlgsEif
++ __ZN11Nightingale6rfLunaC1ERKNSt3__16vectorINS_12ngt_DayInputENS1_9allocatorIS3_EEEERKNS_5uiLogERKNS_10ngt_ConfigE
++ __ZN11Nightingale6rfLunaC2ERKNSt3__16vectorINS_12ngt_DayInputENS1_9allocatorIS3_EEEERKNS_5uiLogERKNS_10ngt_ConfigE
++ __ZN11Nightingale6rfLunaD1Ev
++ __ZN11Nightingale6rfLunaD2Ev
++ __ZN11Nightingale7get_cdfENSt3__16vectorIfNS0_9allocatorIfEEEERS4_b
++ __ZN11Nightingale7get_madENSt3__16vectorIfNS0_9allocatorIfEEEEb
++ __ZN11Nightingale7vMedianIdEET_PKfi
++ __ZN11Nightingale7vMedianIfEET_PKfi
++ __ZN11Nightingale8PhaseSet22phasesOnInPhaseSet2VecERNSt3__16vectorINS_5PhaseENS1_9allocatorIS3_EEEE
++ __ZN11Nightingale8PhaseSet3addENS_5PhaseE
++ __ZN11Nightingale8PhaseSet6removeENS_5PhaseE
++ __ZN11Nightingale8PhaseSet8containsENS_5PhaseE
++ __ZN11Nightingale8convolveERKNSt3__16vectorIfNS0_9allocatorIfEEEES6_RS4_
++ __ZN11Nightingale8getLogitEf
++ __ZN11Nightingale8lstmHrFw10getFWEndHrEb
++ __ZN11Nightingale8lstmHrFw13applyAlgsADayEt
++ __ZN11Nightingale8lstmHrFw13computeHrFwCAEb
++ __ZN11Nightingale8lstmHrFw16consistencyCheckERKNSt3__16vectorIiNS1_9allocatorIiEEEEi
++ __ZN11Nightingale8lstmHrFw18getHrSignalQualityEv
++ __ZN11Nightingale8lstmHrFw18validateFwRsltADayEi
++ __ZN11Nightingale8lstmHrFw22computeHrSignalQualityEv
++ __ZN11Nightingale8lstmHrFw23validateToRunPeriodADayEib
++ __ZN11Nightingale8lstmHrFw9applyAlgsEv
++ __ZN11Nightingale8lstmHrFwC1ERKNSt3__16vectorINS_12ngt_DayInputENS1_9allocatorIS3_EEEERKNS_5uiLogERKNS_10ngt_ConfigERNS1_4pairINS2_IiNS4_IiEEEENS2_INS_8PhaseSetENS4_ISI_EEEEEE
++ __ZN11Nightingale8lstmHrFwC2ERKNSt3__16vectorINS_12ngt_DayInputENS1_9allocatorIS3_EEEERKNS_5uiLogERKNS_10ngt_ConfigERNS1_4pairINS2_IiNS4_IiEEEENS2_INS_8PhaseSetENS4_ISI_EEEEEE
++ __ZN11Nightingale8lstmHrFwD1Ev
++ __ZN11Nightingale8lstmHrFwD2Ev
++ __ZN11Nightingale8lstmLuna11acquireWTmpEii
++ __ZN11Nightingale8lstmLuna12preConditionENSt3__14pairIffEE
++ __ZN11Nightingale8lstmLuna12validateWTmpEif
++ __ZN11Nightingale8lstmLuna5resetEv
++ __ZN11Nightingale8lstmLunaC1ERKNSt3__16vectorINS_12ngt_DayInputENS1_9allocatorIS3_EEEERKNS_5uiLogERKNS_10ngt_ConfigE
++ __ZN11Nightingale8lstmLunaC2ERKNSt3__16vectorINS_12ngt_DayInputENS1_9allocatorIS3_EEEERKNS_5uiLogERKNS_10ngt_ConfigE
++ __ZN11Nightingale8lstmLunaD1Ev
++ __ZN11Nightingale8lstmLunaD2Ev
++ __ZN11Nightingale9CGradient12set_delta_atEm
++ __ZN11Nightingale9CGradient15annihilateEarlyEm
++ __ZN11Nightingale9CGradient27set_isNull_if_grad_allZerosEv
++ __ZN11Nightingale9CGradient9normalizeEv
++ __ZN11Nightingale9CGradient9push_backEd
++ __ZN11Nightingale9CGradient9set_vGradERKNSt3__16vectorIfNS1_9allocatorIfEEEE
++ __ZN11Nightingale9CGradientC1ERKNSt3__16vectorIfNS1_9allocatorIfEEEE
++ __ZN11Nightingale9CGradientC1Ev
++ __ZN11Nightingale9CGradientC2ERKNSt3__16vectorIfNS1_9allocatorIfEEEE
++ __ZN11Nightingale9CGradientC2Ev
++ __ZN11Nightingale9gamma_pdfEddd
++ __ZNK11Nightingale14PhaseCondenser13phase_updatesEv
++ __ZNK11Nightingale9CGradient10get_isNullEv
++ __ZNK11Nightingale9CGradient12get_adjustedEv
++ __ZNK11Nightingale9CGradient12get_varianceEv
++ __ZNK11Nightingale9CGradient13get_vGrad_lenEv
++ __ZNK11Nightingale9CGradient15get_expectationEv
++ __ZNK11Nightingale9CGradient15get_vGrad_emptyEv
++ __ZNK11Nightingale9CGradient18get_list_referenceEv
++ __ZNK11Nightingale9CGradient7get_stdEv
++ __ZNKSt9exception4whatEv
++ __ZNSt11logic_errorC2EPKc
++ __ZNSt12length_errorD1Ev
++ __ZNSt12out_of_rangeD1Ev
++ __ZNSt19bad_optional_accessD1Ev
++ __ZNSt20bad_array_new_lengthC1Ev
++ __ZNSt20bad_array_new_lengthD1Ev
++ __ZNSt3__112__next_primeEm
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE21__grow_by_and_replaceEmmmmmmPKc
++ __ZNSt3__116__variant_detail12__visitation6__base12__dispatcherIJLm0ELm0EEE10__dispatchB8ne180100IOZNS0_12__assignmentINS0_8__traitsIJN11Nightingale19lstmPeriodOutStructENS8_21lstmPeriodTFOutStructEEEEE16__generic_assignB8ne180100INS0_17__move_assignmentISB_LNS0_6_TraitE1EEEEEvOT_EUlRSH_OT0_E_JRNS0_6__baseILSF_1EJS9_SA_EEEOSP_EEEDcSH_DpT0_
++ __ZNSt3__116__variant_detail12__visitation6__base12__dispatcherIJLm0ELm0EEE10__dispatchB8ne180100IOZNS0_6__ctorINS0_8__traitsIJN11Nightingale19lstmPeriodOutStructENS8_21lstmPeriodTFOutStructEEEEE19__generic_constructB8ne180100INS0_18__move_constructorISB_LNS0_6_TraitE1EEEEEvRSC_OT_EUlRSI_OT0_E_JRNS0_6__baseILSF_1EJS9_SA_EEEOSQ_EEEDcSI_DpT0_
++ __ZNSt3__116__variant_detail12__visitation6__base12__dispatcherIJLm1ELm1EEE10__dispatchB8ne180100IOZNS0_12__assignmentINS0_8__traitsIJN11Nightingale19lstmPeriodOutStructENS8_21lstmPeriodTFOutStructEEEEE16__generic_assignB8ne180100INS0_17__move_assignmentISB_LNS0_6_TraitE1EEEEEvOT_EUlRSH_OT0_E_JRNS0_6__baseILSF_1EJS9_SA_EEEOSP_EEEDcSH_DpT0_
++ __ZNSt3__116__variant_detail12__visitation6__base12__dispatcherIJLm1ELm1EEE10__dispatchB8ne180100IOZNS0_6__ctorINS0_8__traitsIJN11Nightingale19lstmPeriodOutStructENS8_21lstmPeriodTFOutStructEEEEE19__generic_constructB8ne180100INS0_18__move_constructorISB_LNS0_6_TraitE1EEEEEvRSC_OT_EUlRSI_OT0_E_JRNS0_6__baseILSF_1EJS9_SA_EEEOSQ_EEEDcSI_DpT0_
++ __ZNSt3__119piecewise_constructE
++ __ZNSt3__16__sortIRNS_6__lessIffEEPfEEvT0_S5_T_
++ __ZNSt3__16__sortIRNS_6__lessIiiEEPiEEvT0_S5_T_
++ __ZNSt9exceptionD2Ev
++ __ZSt9terminatev
++ __ZTIN11Nightingale12lstmHrPeriodE
++ __ZTIN11Nightingale14lstmLunaPeriodE
++ __ZTIN11Nightingale21slidingWindowBaseLunaE
++ __ZTIN11Nightingale26slidingWindowDayStreamLunaE
++ __ZTIN11Nightingale6lstmHrE
++ __ZTIN11Nightingale8lstmLunaE
++ __ZTISt12length_error
++ __ZTISt12out_of_range
++ __ZTISt18bad_variant_access
++ __ZTISt19bad_optional_access
++ __ZTISt20bad_array_new_length
++ __ZTISt9exception
++ __ZTSN11Nightingale12lstmHrPeriodE
++ __ZTSN11Nightingale14lstmLunaPeriodE
++ __ZTSN11Nightingale21slidingWindowBaseLunaE
++ __ZTSN11Nightingale26slidingWindowDayStreamLunaE
++ __ZTSN11Nightingale6lstmHrE
++ __ZTSN11Nightingale8lstmLunaE
++ __ZTVN10__cxxabiv117__class_type_infoE
++ __ZTVN10__cxxabiv120__function_type_infoE
++ __ZTVN10__cxxabiv120__si_class_type_infoE
++ __ZTVN10__cxxabiv129__pointer_to_member_type_infoE
++ __ZTVN11Nightingale12lstmHrPeriodE
++ __ZTVN11Nightingale14lstmLunaPeriodE
++ __ZTVN11Nightingale21slidingWindowBaseLunaE
++ __ZTVN11Nightingale26slidingWindowDayStreamLunaE
++ __ZTVN11Nightingale6lstmHrE
++ __ZTVN11Nightingale8lstmLunaE
++ __ZTVSt12length_error
++ __ZTVSt12out_of_range
++ __ZTVSt18bad_variant_access
++ __ZTVSt19bad_optional_access
++ __ZdlPv
++ __ZdlPvSt19__type_descriptor_t
++ __Znwm
++ __ZnwmSt19__type_descriptor_t
++ ___CFConstantStringClassReference
++ ___NSArray0__struct
++ ___cxa_allocate_exception
++ ___cxa_begin_catch
++ ___cxa_end_catch
++ ___cxa_free_exception
++ ___cxa_rethrow
++ ___cxa_throw
++ ___gxx_personality_v0
++ __os_log_debug_impl
++ __os_log_default
++ __os_log_error_impl
++ __os_log_fault_impl
++ _dispatch_once
++ _exp
++ _expf
++ _ha_get_log
++ _logf
++ _memchr
++ _objc_alloc
++ _objc_alloc_init
++ _objc_claimAutoreleasedReturnValue
++ _objc_enumerationMutation
++ _objc_msgSendSuper2
++ _objc_opt_class
++ _objc_opt_new
++ _objc_release_x1
++ _objc_retainAutorelease
++ _objc_retainAutoreleaseReturnValue
++ _objc_retain_x1
++ _objc_retain_x2
++ _objc_retain_x3
++ _objc_retain_x4
++ _objc_setProperty_nonatomic_copy
++ _objc_storeStrong
++ _os_log_create
++ _pow
++ _powf
++ _round
++ _strcmp
++ _strlen
++ _swift_getAssociatedConformanceWitness
++ _swift_getEnumTagSinglePayloadGeneric
++ _swift_storeEnumTagSinglePayloadGeneric
++ _tgamma
++ _wmemchr
+- _OBJC_CLASS_$_HAMenstrualAlgorithmsDayInput
+- _OBJC_CLASS_$_HAMenstrualAlgorithmsDayStreamProcessor
+- _OBJC_CLASS_$_HAMenstrualAlgorithmsDayStreamProcessorConfig
+- _OBJC_CLASS_$_HAMenstrualAlgorithmsHistoricalAnalyzer
+- _OBJC_CLASS_$_HAMenstrualAlgorithmsHistoricalCycle
+- _OBJC_CLASS_$_HAMenstrualAlgorithmsPrediction
+- _OBJC_CLASS_$_HAMenstrualAlgorithmsWristTemperature
+- __objc_autoreleasePoolPop
+- __objc_autoreleasePoolPush
+- __swiftEmptyDictionarySingleton
+- __swiftEmptySetSingleton
+- __swiftImmortalRefCount
+- __swift_FORCE_LOAD_$_swiftARKit
+- __swift_FORCE_LOAD_$_swiftCoreImage
+- __swift_FORCE_LOAD_$_swiftDataDetection
+- __swift_FORCE_LOAD_$_swiftFileProvider
+- __swift_FORCE_LOAD_$_swiftGLKit
+- __swift_FORCE_LOAD_$_swiftModelIO
+- __swift_FORCE_LOAD_$_swiftSceneKit
+- __swift_FORCE_LOAD_$_swiftSpatial
+- __swift_FORCE_LOAD_$_swiftSpriteKit
+- __swift_FORCE_LOAD_$_swiftUIKit
+- _cblas_snrm2$NEWLAPACK
+- _objc_retain_x10
+- _objc_retain_x25
+- _objc_retain_x26
+- _objc_retain_x27
+- _objc_retain_x28
+- _swift_arrayDestroy
+- _swift_arrayInitWithCopy
+- _swift_arrayInitWithTakeBackToFront
+- _swift_arrayInitWithTakeFrontToBack
+- _swift_bridgeObjectRelease_n
+- _swift_bridgeObjectRetain_n
+- _swift_deletedAsyncMethodErrorTu
+- _swift_deletedMethodError
+- _swift_dynamicCastClass
+- _swift_initStackObject
+- _swift_isUniquelyReferenced_nonNull
+- _swift_isUniquelyReferenced_nonNull_bridgeObject
+- _swift_retain_n
+- _swift_setDeallocating
+- _swift_slowDealloc
+- _swift_stdlib_isStackAllocationSafe
+- _swift_stdlib_random
+- _swift_unknownObjectRelease_n
+- _swift_unknownObjectRetain_n
+- _vDSP_sve
+CStrings:
++ "\x01"
++ "\x03"
++ "\x04"
++ "\a"
++ "\b"
++ "\t"
++ "\t\t\t\"FailureCode\": ["
++ "\t\t\t\"algUsed\": ["
++ "\t\t\t\"fwEnd\": ["
++ "\t \"cycleLenMean\": %!f(MISSING), \"cycleLenVar\": %!f(MISSING), "
++ "\t\"URCycleLen\": %!d(MISSING), \"jDayURCycleLen\": %!d(MISSING), \"URMenstLen\": %!d(MISSING), \"jDayURMenstLen\": %!d(MISSING)}"
++ "\t\"ccMenstCycleLen_handling\": {\"jDayLastEndOfCC\": %!d(MISSING)}\n\n)"
++ "\t\"input_flows\": ["
++ "\t\"output_isDeterminant\": ["
++ "\t\"output_jDayPerEnd\": ["
++ "\t\"output_jDayPerStart\": ["
++ "\t{\"idx\": %!d(MISSING), \"jDayCycleStart\": %!d(MISSING) "
++ "\t{\"jDay\": %!d(MISSING), \"flow\": %!d(MISSING), \"spotting\": %!d(MISSING), \"opk\": %!d(MISSING), "
++ "\t{\"jDay\": %!d(MISSING), \"phase\": %!d(MISSING)}"
++ "\t{\"jDay\": %!d(MISSING), \"phase\": %!d(MISSING)}, \n"
++ "\t{\"jDayPeriodStart\": %!d(MISSING), \"isDeterminant\": %!d(MISSING)"
++ "\t} \n "
++ "\t}, \n "
++ "\n\t} \n\n"
++ "\n\t}, \n\n"
++ "\x0f\b"
++ "\x11"
++ "\x13"
++ "\x15"
++ "\x18"
++ " "
++ "    "
++ "  \"CycleProcessHistOut\": {\"fwStart\": ["
++ "  \"anUILog.specialJDays\": {"
++ "  \"anUILog.vCycleInfo\": [\n"
++ "  \"cycleSlideAftOutlierRm\": ["
++ "  \"cycleSlideBfrOutlierRm\": ["
++ "  \"deviations\": {\n"
++ "  \"extract_periods\": {\n\t\"input_days\": ["
++ "  \"mConfig\": {\"age\": %!f(MISSING), \"jDayCurrentDay\": %!d(MISSING), \"jDayMostRecentMenstrualFlowUpdated\": %!d(MISSING), "
++ "  \"m_vDailyData\": [\n"
++ "  \"m_vDailyData\": [],\n"
++ "  \"m_vJDayPhasePair\": [\n"
++ "  \"m_vJDayPhasePair\": [],\n\n"
++ "  \"periodSlideAftOutlierRm\": ["
++ "  \"periodSlideBfrOutlierRm\": ["
++ "  \"stats\": {\n"
++ "  ],\n\n"
++ " \"dummy_key\": 0\n}\n"
++ " \"dummy_key\":0 \n},\n\n"
++ " ("
++ "\"Cycles\":[ \n"
++ "\"Day Stream Processor debug message\":\n"
++ "\"DayStreamProcessor\": \"%!s(MISSING)\",\n"
++ "\"Historical Analyzer debug message\": {\n"
++ "\"HistoricalAnalyzer\": \"%!s(MISSING)\",\n"
++ "\"cycleSlideMean\": %!f(MISSING), "
++ "\"cycleSlideVar\": %!f(MISSING), "
++ "\"inPeriodNow\": %!d(MISSING)},\n\n"
++ "\"infreqMeta\": {\"common\": {\"bfrRule\": %!d(MISSING), \"minWS\": %!d(MISSING), \"minWE\": %!d(MISSING),\"enough\": %!d(MISSING), \"washout\": %!d(MISSING),\"inWin\": %!d(MISSING),\"age\": %!d(MISSING)}, \"win1NumPeriods\": %!d(MISSING), \"win2NumPeriods\": %!d(MISSING)}, \n"
++ "\"infreqOut\": {\"exist\": %!d(MISSING), \"jDayAnalysisWinStart\": %!d(MISSING), \"jDayAnalysisWinEnd\": %!d(MISSING)},\n"
++ "\"irregMeta\": {\"common\": {\"bfrRule\": %!d(MISSING), \"minWS\": %!d(MISSING), \"minWE\": %!d(MISSING),\"enough\": %!d(MISSING), \"washout\": %!d(MISSING),\"inWin\": %!d(MISSING),\"age\": %!d(MISSING)}, \"win1CycleLenDiff\": %!d(MISSING), \"win2CycleLenDiff\": %!d(MISSING), \"win1NumCycles\": %!d(MISSING), \"win2NumCycles\": %!d(MISSING)},\n"
++ "\"irregOut\": {\"exist\": %!d(MISSING), \"jDayAnalysisWinStart\": %!d(MISSING), \"jDayAnalysisWinEnd\": %!d(MISSING)},\n"
++ "\"jDay1stFlow\": %!d(MISSING), "
++ "\"jDay1stLog\": %!d(MISSING), "
++ "\"jDay1stOPKAftLastPeriodStart\": %!d(MISSING), "
++ "\"jDay2ndToLastPeriodStart\": %!d(MISSING), "
++ "\"jDayCycleEnd\": %!d(MISSING), "
++ "\"jDayEndLastCCChunk\": %!d(MISSING), "
++ "\"jDayFirstOPK\": %!d(MISSING), "
++ "\"jDayLastBleeding\": %!d(MISSING), "
++ "\"jDayLastFlow\": %!d(MISSING), "
++ "\"jDayLastLog\": %!d(MISSING), "
++ "\"jDayLastNoFlow\": %!d(MISSING), "
++ "\"jDayLastNoFlowAftLastPeriodStart\": %!d(MISSING), "
++ "\"jDayLastPeriodStart\": %!d(MISSING), "
++ "\"jDayNullPoint\": %!d(MISSING), "
++ "\"jDayOPKPostive\": %!d(MISSING), "
++ "\"jDayPeriodEnd\": %!d(MISSING), "
++ "\"jDayStartLastCCChunk\": %!d(MISSING), "
++ "\"julianDayOfCurrentCycleStart\": %!d(MISSING)"
++ "\"julianDayOfFirstCompleteCycleStart\": %!d(MISSING), "
++ "\"lowerCycleLengthPercentile\": %!d(MISSING), "
++ "\"lowerMenstruationLengthPercentile\": %!d(MISSING), "
++ "\"medianCycleLength\": %!d(MISSING), "
++ "\"medianMenstruationLength\": %!d(MISSING), "
++ "\"numberOfCompleteCyclesFound\": %!d(MISSING), "
++ "\"periodLenMean\": %!f(MISSING), \"periodLenVar\": %!f(MISSING)},"
++ "\"periodSlideMean\": %!f(MISSING), "
++ "\"periodSlideVar\": %!f(MISSING), "
++ "\"phases\": ["
++ "\"prolongMeta\": {\"common\": {\"bfrRule\": %!d(MISSING), \"minWS\": %!d(MISSING), \"minWE\": %!d(MISSING),\"enough\": %!d(MISSING), \"washout\": %!d(MISSING),\"inWin\": %!d(MISSING),\"age\": %!d(MISSING)}, \"numLongPeriodsDetected\": %!d(MISSING), \"numPeriodsUsed\": %!d(MISSING)}, \n"
++ "\"prolongOut\": {\"exist\": %!d(MISSING), \"jDayAnalysisWinStart\": %!d(MISSING), \"jDayAnalysisWinEnd\": %!d(MISSING)},\n"
++ "\"sensor\": {\"aHR\": %!f(MISSING), \"sHR\": %!f(MISSING), \"aHRCnt\": %!d(MISSING), \"sHRCnt\": %!d(MISSING),"
++ "\"sensor\": {\"aHR\": %!f(MISSING), \"sHR\": %!f(MISSING), \"aHRCnt\": %!d(MISSING), \"sHRCnt\": %!d(MISSING), "
++ "\"spottingMeta\": {\"common\": {\"bfrRule\": %!d(MISSING), \"minWS\": %!d(MISSING), \"minWE\": %!d(MISSING),\"enough\": %!d(MISSING), \"washout\": %!d(MISSING),\"inWin\": %!d(MISSING),\"age\": %!d(MISSING)}, \"win1NumSpottingDays\": %!d(MISSING), \"win2NumSpottingDays\": %!d(MISSING)}"
++ "\"spottingOut\": {\"exist\": %!d(MISSING), \"jDayAnalysisWinStart\": %!d(MISSING), \"jDayAnalysisWinEnd\": %!d(MISSING)},\n"
++ "\"upperCycleLengthPercentile\": %!d(MISSING), "
++ "\"upperMenstruationLengthPercentile\": %!d(MISSING), "
++ "\"wTmp\": {\"watchID\": %!d(MISSING), \"tp\": %!f(MISSING)}}},\n"
++ "#"
++ "%!f(MISSING), "
++ "%!f(MISSING)],\n"
++ "%!f(MISSING)],\n\n"
++ "%!d(MISSING) "
++ "%!d(MISSING), "
++ "%!d(MISSING)]\n\t},\n\n"
++ "%!d(MISSING)],\n"
++ "%!d(MISSING)], \n"
++ "%!d(MISSING)]},\n"
++ ")"
++ ")\n"
++ ","
++ ",\n"
++ ",\n\n"
++ ", "
++ ".cxx_construct"
++ ".cxx_destruct"
++ "/Library/Caches/com.apple.xbs/Sources/NightingalePFL/NightingaleTraining/NightingalePFLRunner.swift"
++ "2"
++ "@\"MLFeatureValue\"24@0:8@\"NSString\"16"
++ "@\"MLModel\""
++ "@\"MLMultiArray\""
++ "@\"NSArray\""
++ "@\"NSDateComponents\""
++ "@\"NSDictionary\""
++ "@\"NSMutableArray\""
++ "@\"NSNumber\""
++ "@\"NSSet\"16@0:8"
++ "@\"NSString\""
++ "@\"NgtMenstrualAlgorithmsDeviation\""
++ "@\"NgtMenstrualAlgorithmsDeviationAnalysis\""
++ "@\"NgtMenstrualAlgorithmsDeviationInput\""
++ "@\"NgtMenstrualAlgorithmsHeartRateStatistics\""
++ "@\"NgtMenstrualAlgorithmsStats\""
++ "@\"NgtMenstrualAlgorithmsTelemetry\""
++ "@\"NgtMenstrualAlgorithmsWristTemperature\""
++ "@16@0:8"
++ "@24@0:8@\"NSCoder\"16"
++ "@24@0:8@16"
++ "@24@0:8^@16"
++ "@28@0:8@16i24"
++ "@28@0:8I16^@20"
++ "@32@0:8@16@24"
++ "@32@0:8@16^@24"
++ "@32@0:8d16@24"
++ "@32@0:8q16@24"
++ "@40@0:8@16@24@32"
++ "@40@0:8@16@24^@32"
++ "@48@0:8@16@24@32^@40"
++ "B"
++ "B16@0:8"
++ "BMIDurationS"
++ "BMIQuery"
++ "BMITimeout"
++ "C"
++ "C16@0:8"
++ "C24@0:8@16"
++ "CTEnrolled"
++ "CollectL2Norm"
++ "Could not load fwEnddet_lstm.mlmodelc in the bundle resource"
++ "Could not load fwEnddet_rf.mlmodelc in the bundle resource"
++ "Could not load model_fwEnd_10pct.mlmodelc in the bundle resource"
++ "Could not load period_lstm.mlmodelc in the bundle resource"
++ "Cycle_FP"
++ "Cycle_FPR"
++ "Cycle_Latency"
++ "Cycle_TP"
++ "Cycle_TPR"
++ "DefaultAge"
++ "DefaultBMI"
++ "Division by zero in remainder operation"
++ "Division results in an overflow in remainder operation"
++ "Double value cannot be converted to Int because it is either infinite or NaN"
++ "Double value cannot be converted to Int because the result would be greater than Int.max"
++ "Double value cannot be converted to Int because the result would be less than Int.min"
++ "Double value cannot be converted to UInt32 because it is either infinite or NaN"
++ "Double value cannot be converted to UInt32 because the result would be greater than UInt32.max"
++ "Double value cannot be converted to UInt32 because the result would be less than UInt32.min"
++ "EmbryoTransfer"
++ "Empty tree"
++ "Ensemble Model Selection Invalid Index: %!d(MISSING)"
++ "Espresso"
++ "EvalBeforeTrain"
++ "EvalModels"
++ "Failed to get sleep wrist temp"
++ "Failed to run Shadow Evaluation DayStreamProcessor"
++ "Failed to run Shadow Evaluation at periodIdx: %!l(MISSING)d ensembleLogicId: %!l(MISSING)d, Error: %!@(MISSING)"
++ "Featurization"
++ "Float value cannot be converted to Int because it is either infinite or NaN"
++ "Float value cannot be converted to Int because the result would be greater than Int.max"
++ "Float value cannot be converted to Int because the result would be less than Int.min"
++ "HeartRateFwEnd10PctModelName"
++ "HeartRatePeriod10PctModelName"
++ "HeartRatePeriodEnsembleModelNames"
++ "HeartRatePeriodTFModelNames"
++ "I"
++ "I16@0:8"
++ "Index out of bounds"
++ "Index out of range"
++ "L2Norm"
++ "LMPMaxRange"
++ "LSTMModelType"
++ "LabelSize"
++ "LatencyBuckets"
++ "LearningRate"
++ "Loss"
++ "MLFeatureProvider"
++ "MaxCycleLenStd"
++ "MaxFPR"
++ "MaxLMPTestDelta"
++ "MaxNEligibleCyclesHistory"
++ "MaxNumSlice"
++ "MaximumDays"
++ "MetricsProcessEngine"
++ "Mil"
++ "MinCycleLenStd"
++ "MinDaySHRCountThreshold"
++ "MinDaysAgo"
++ "MinLMPTestDelta"
++ "MinNEligibleCyclesHistory"
++ "MinNightSHRCountThreshold"
++ "MinNumSlice"
++ "ModelInputName"
++ "ModelLabelName"
++ "ModelLossName"
++ "ModelName"
++ "ModelOutputName"
++ "ModelPath"
++ "NSCoding"
++ "NSSecureCoding"
++ "NgtMenstrualAlgorithmsAnalysis"
++ "NgtMenstrualAlgorithmsDayInput"
++ "NgtMenstrualAlgorithmsDayStreamProcessor"
++ "NgtMenstrualAlgorithmsDayStreamProcessorConfig"
++ "NgtMenstrualAlgorithmsDeviation"
++ "NgtMenstrualAlgorithmsDeviationAnalysis"
++ "NgtMenstrualAlgorithmsDeviationInput"
++ "NgtMenstrualAlgorithmsHeartRateStatistics"
++ "NgtMenstrualAlgorithmsHistoricalAnalyzer"
++ "NgtMenstrualAlgorithmsHistoricalCycle"
++ "NgtMenstrualAlgorithmsMLModelConfig"
++ "NgtMenstrualAlgorithmsPhaseIngestion"
++ "NgtMenstrualAlgorithmsPrediction"
++ "NgtMenstrualAlgorithmsStats"
++ "NgtMenstrualAlgorithmsTelemetry"
++ "NgtMenstrualAlgorithmsWristTemperature"
++ "NightingaleTraining/AugmentedTree.swift"
++ "NightingaleTraining/Featurizer.swift"
++ "NightingaleTraining/HIDPFLUtils.swift"
++ "NightingaleTraining/HealthDataStoreQuery.swift"
++ "NightingaleTraining/Imputation.swift"
++ "NightingaleTraining/MetricsUtils.swift"
++ "NightingaleTraining/NightingaleDMetricsProcessor.swift"
++ "NightingaleTraining/NightingaleDPFLRunner.swift"
++ "NightingaleTraining/NightingalePFLRunner.swift"
++ "NightingaleTraining/Pregnancy.swift"
++ "NumSlices"
++ "Onehot"
++ "PFLTaskType"
++ "PluginCompleted"
++ "PluginE2E"
++ "PluginStarted"
++ "PluginStopped"
++ "PreTraining"
++ "Precondition failed"
++ "QuerySHR"
++ "Range requires lowerBound <= upperBound"
++ "RawSamplesQuery"
++ "RecipeId"
++ "Regression"
++ "SHRCompleted"
++ "SHRDurationS"
++ "SHRQuery"
++ "SHRTimeout"
++ "SensorTimeout"
++ "ShadowEvaluation"
++ "ShadowEvaluationCompleted"
++ "ShadowEvaluationTime"
++ "Size of regression should >= size of array * stride"
++ "SliceSize"
++ "Slice_PRScore"
++ "Slice_ROCScore"
++ "Swift/ClosedRange.swift"
++ "Swift/Collection.swift"
++ "Swift/Range.swift"
++ "Swift/Sequence.swift"
++ "T@\"MLModel\",R,N,V_model"
++ "T@\"MLMultiArray\",&,N,V_in_"
++ "T@\"MLMultiArray\",&,N,V_input"
++ "T@\"MLMultiArray\",&,N,V_lstm_1_c_in"
++ "T@\"MLMultiArray\",&,N,V_lstm_1_c_out"
++ "T@\"MLMultiArray\",&,N,V_lstm_1_h_in"
++ "T@\"MLMultiArray\",&,N,V_lstm_1_h_out"
++ "T@\"MLMultiArray\",&,N,V_out_"
++ "T@\"NSArray\",&,N,V_fertilityPredictions"
++ "T@\"NSArray\",&,N,V_heartRatePeriodTFModelPaths"
++ "T@\"NSArray\",&,N,V_menstruationPredictions"
++ "T@\"NSArray\",&,N,V_phases"
++ "T@\"NSDateComponents\",&,N,V_birthDateComponents"
++ "T@\"NSDictionary\",&,N,V_classProbability"
++ "T@\"NSDictionary\",C,N,V_metricsForCoreAnalytics"
++ "T@\"NSMutableArray\",&,N,V_dayInputBuffer"
++ "T@\"NSMutableArray\",&,N,V_watchIdentifiers"
++ "T@\"NSNumber\",&,N,V_age"
++ "T@\"NSNumber\",&,N,V_awakeSHRCountThreshold"
++ "T@\"NSNumber\",&,N,V_baselineMean"
++ "T@\"NSNumber\",&,N,V_baselineStdUncapped"
++ "T@\"NSNumber\",&,N,V_daysSinceLastContraceptionEnd"
++ "T@\"NSNumber\",&,N,V_daysSinceLastLactationEnd"
++ "T@\"NSNumber\",&,N,V_daysSinceLastPeriod"
++ "T@\"NSNumber\",&,N,V_daysSinceLastPregnancyEnd"
++ "T@\"NSNumber\",&,N,V_daysToModel0Drs"
++ "T@\"NSNumber\",&,N,V_daysToModel1Drs"
++ "T@\"NSNumber\",&,N,V_daysToModel2Drs"
++ "T@\"NSNumber\",&,N,V_ensembleSelectedModelIdx"
++ "T@\"NSNumber\",&,N,V_fertilityEndJulianDay"
++ "T@\"NSNumber\",&,N,V_fertilityStartJulianDay"
++ "T@\"NSNumber\",&,N,V_julianDayMinAnalysisWindowEndInfrequent"
++ "T@\"NSNumber\",&,N,V_julianDayMinAnalysisWindowEndIrregular"
++ "T@\"NSNumber\",&,N,V_julianDayMinAnalysisWindowEndProlonged"
++ "T@\"NSNumber\",&,N,V_julianDayMinAnalysisWindowEndSpotting"
++ "T@\"NSNumber\",&,N,V_julianDayMinAnalysisWindowStartInfrequent"
++ "T@\"NSNumber\",&,N,V_julianDayMinAnalysisWindowStartIrregular"
++ "T@\"NSNumber\",&,N,V_julianDayMinAnalysisWindowStartProlonged"
++ "T@\"NSNumber\",&,N,V_julianDayMinAnalysisWindowStartSpotting"
++ "T@\"NSNumber\",&,N,V_julianDayOfFirstCycleStart"
++ "T@\"NSNumber\",&,N,V_julianDayOfLastCycleStart"
++ "T@\"NSNumber\",&,N,V_julianDayOfUserReportedCycleLength"
++ "T@\"NSNumber\",&,N,V_julianDayOfUserReportedMenstruationLength"
++ "T@\"NSNumber\",&,N,V_lowerCycleLengthPercentile"
++ "T@\"NSNumber\",&,N,V_lowerMenstruationLengthPercentile"
++ "T@\"NSNumber\",&,N,V_lowerPercentile"
++ "T@\"NSNumber\",&,N,V_medianCycleLength"
++ "T@\"NSNumber\",&,N,V_medianMenstruationLength"
++ "T@\"NSNumber\",&,N,V_model0Width"
++ "T@\"NSNumber\",&,N,V_model1Width"
++ "T@\"NSNumber\",&,N,V_model2Width"
++ "T@\"NSNumber\",&,N,V_normalizedDaysSinceLastPeriod"
++ "T@\"NSNumber\",&,N,V_numHistoricalCycles"
++ "T@\"NSNumber\",&,N,V_numOutliers"
++ "T@\"NSNumber\",&,N,V_numberOfCyclesFound"
++ "T@\"NSNumber\",&,N,V_sleepSHRCountThreshold"
++ "T@\"NSNumber\",&,N,V_sliceDayHrCount"
++ "T@\"NSNumber\",&,N,V_sliceDayHrMean"
++ "T@\"NSNumber\",&,N,V_sliceDayHrStd"
++ "T@\"NSNumber\",&,N,V_sliceNightHrCount"
++ "T@\"NSNumber\",&,N,V_sliceNightHrMean"
++ "T@\"NSNumber\",&,N,V_sliceNightHrStd"
++ "T@\"NSNumber\",&,N,V_upperCycleLengthPercentile"
++ "T@\"NSNumber\",&,N,V_upperMenstruationLengthPercentile"
++ "T@\"NSNumber\",&,N,V_userAgeInYears"
++ "T@\"NSNumber\",&,N,V_userReportedCycleLength"
++ "T@\"NSNumber\",&,N,V_userReportedMenstruationLength"
++ "T@\"NSSet\",R,N"
++ "T@\"NSString\",&,N,V_heartRateFwEnd10PctModelPath"
++ "T@\"NSString\",&,N,V_heartRatePeriod10PctModelPath"
++ "T@\"NSString\",&,N,V_heartRatePeriodEnsembleModelPath"
++ "T@\"NSString\",&,N,V_wTmpFwEndLstmModelPath"
++ "T@\"NSString\",&,N,V_wTmpFwEndRFModelPath"
++ "T@\"NSString\",&,N,V_wTmpPeriodLstmModelPath"
++ "T@\"NSString\",R,N,V_watchIdentifier"
++ "T@\"NgtMenstrualAlgorithmsDeviation\",&,N,V_infrequentBleeding"
++ "T@\"NgtMenstrualAlgorithmsDeviation\",&,N,V_irregularBleeding"
++ "T@\"NgtMenstrualAlgorithmsDeviation\",&,N,V_prolongedBleeding"
++ "T@\"NgtMenstrualAlgorithmsDeviation\",&,N,V_spotting"
++ "T@\"NgtMenstrualAlgorithmsDeviationAnalysis\",&,N,V_deviationAnalysis"
++ "T@\"NgtMenstrualAlgorithmsDeviationInput\",&,N,V_deviationInput"
++ "T@\"NgtMenstrualAlgorithmsHeartRateStatistics\",&,N,V_sedentaryHeartRateStatistics"
++ "T@\"NgtMenstrualAlgorithmsHeartRateStatistics\",&,N,V_sleepHeartRateStatistics"
++ "T@\"NgtMenstrualAlgorithmsStats\",&,N,V_stats"
++ "T@\"NgtMenstrualAlgorithmsTelemetry\",&,N,V_telemetry"
++ "T@\"NgtMenstrualAlgorithmsWristTemperature\",&,N,V_wristTemperature"
++ "TB,N,V_isDeterminant"
++ "TB,N,V_isOngoingMenstruation"
++ "TB,N,V_isUserInactive"
++ "TB,N,V_spotting"
++ "TB,R"
++ "TB,R,N,V_shouldSendCoreAnalytics"
++ "TC,N,V_flow"
++ "TC,N,V_ovulationConfirmationFailure"
++ "TC,N,V_ovulationTestResult"
++ "TC,N,V_predictionPrimarySource"
++ "TI,N,V_julianDay"
++ "TI,N,V_julianDayOfAnalysisWindowEnd"
++ "TI,N,V_julianDayOfAnalysisWindowStart"
++ "TI,N,V_julianDayOfMenstruationEnd"
++ "TI,N,V_julianDayOfMenstruationStart"
++ "TI,N,V_julianDayOfWindowStart"
++ "TI,N,V_todayAsJulianDay"
++ "TI,R"
++ "Td,N,V_endProbabilityLowRangeEnd"
++ "Td,N,V_endProbabilityLowRangeStart"
++ "Td,N,V_endProbabilityMean"
++ "Td,N,V_endProbabilityStdDev"
++ "Td,N,V_startProbabilityLowRangeEnd"
++ "Td,N,V_startProbabilityLowRangeStart"
++ "Td,N,V_startProbabilityMean"
++ "Td,N,V_startProbabilityStdDev"
++ "Td,R,N,V_temperatureCelsius"
++ "Tq,N,V_classLabel"
++ "Tq,N,V_dailyEligibleWristTemperatureCount"
++ "Tq,N,V_daysOffsetFromCalendarMethod"
++ "Tq,N,V_sampleCount"
++ "Training"
++ "T{_NSRange=QQ},N,V_lowRange"
++ "URLOfModelInThisBundle"
++ "UTF8String"
++ "Unknown"
++ "Unspecified"
++ "UseCachedDayStreamProcessorConfig"
++ "WTmpFwEndLstmModelName"
++ "WTmpFwEndRFModelName"
++ "WTmpPeriodLstmModelName"
++ "["
++ "]"
++ "]\n },\n"
++ "]("
++ "],\n"
++ "], \n"
++ "], \n\n"
++ "]} "
++ "]},\n"
++ "_"
++ "_TtC19NightingaleTraining16ShadowEvaluation"
++ "_age"
++ "_awakeSHRCountThreshold"
++ "_baselineMean"
++ "_baselineStdUncapped"
++ "_birthDateComponents"
++ "_classLabel"
++ "_classProbability"
++ "_coverage"
++ "_coverageNum"
++ "_dailyEligibleWristTemperatureCount"
++ "_dayInputBuffer"
++ "_dayStreamProcessor"
++ "_daysOffsetFromCalendarMethod"
++ "_daysSinceLastContraceptionEnd"
++ "_daysSinceLastLactationEnd"
++ "_daysSinceLastPeriod"
++ "_daysSinceLastPregnancyEnd"
++ "_daysToModel0Drs"
++ "_daysToModel1Drs"
++ "_daysToModel2Drs"
++ "_deviationAnalysis"
++ "_deviationInput"
++ "_endProbabilityLowRangeEnd"
++ "_endProbabilityLowRangeStart"
++ "_endProbabilityMean"
++ "_endProbabilityStdDev"
++ "_ensembleSelectedModelIdx"
++ "_ep3"
++ "_ep3Num"
++ "_fertilityEndJulianDay"
++ "_fertilityPredictions"
++ "_fertilityStartJulianDay"
++ "_flow"
++ "_heartRateFwEnd10PctModelPath"
++ "_heartRatePeriod10PctModelPath"
++ "_heartRatePeriodEnsembleModelPath"
++ "_heartRatePeriodTFModelPaths"
++ "_historicalAnalyzer"
++ "_in_"
++ "_infrequentBleeding"
++ "_input"
++ "_irregularBleeding"
++ "_isDeterminant"
++ "_isOngoingMenstruation"
++ "_isUserInactive"
++ "_julianDay"
++ "_julianDayMinAnalysisWindowEndInfrequent"
++ "_julianDayMinAnalysisWindowEndIrregular"
++ "_julianDayMinAnalysisWindowEndProlonged"
++ "_julianDayMinAnalysisWindowEndSpotting"
++ "_julianDayMinAnalysisWindowStartInfrequent"
++ "_julianDayMinAnalysisWindowStartIrregular"
++ "_julianDayMinAnalysisWindowStartProlonged"
++ "_julianDayMinAnalysisWindowStartSpotting"
++ "_julianDayOfAnalysisWindowEnd"
++ "_julianDayOfAnalysisWindowStart"
++ "_julianDayOfFirstCycleStart"
++ "_julianDayOfLastCycleStart"
++ "_julianDayOfLastInput"
++ "_julianDayOfMenstruationEnd"
++ "_julianDayOfMenstruationStart"
++ "_julianDayOfUserReportedCycleLength"
++ "_julianDayOfUserReportedMenstruationLength"
++ "_julianDayOfWindowStart"
++ "_lowRange"
++ "_lowerCycleLengthPercentile"
++ "_lowerMenstruationLengthPercentile"
++ "_lowerPercentile"
++ "_lstm_1_c_in"
++ "_lstm_1_c_out"
++ "_lstm_1_h_in"
++ "_lstm_1_h_out"
++ "_mae"
++ "_meanWidth"
++ "_medianCycleLength"
++ "_medianMenstruationLength"
++ "_menstruationPredictions"
++ "_metricsForCoreAnalytics"
++ "_model"
++ "_model0Width"
++ "_model1Width"
++ "_model2Width"
++ "_nSlices"
++ "_nep6"
++ "_nep6Num"
++ "_normalizedDaysSinceLastPeriod"
++ "_numHistoricalCycles"
++ "_numOutliers"
++ "_numberOfCyclesFound"
++ "_out_"
++ "_ovulationConfirmationFailure"
++ "_ovulationTestResult"
++ "_phases"
++ "_predictionPrimarySource"
++ "_prolongedBleeding"
++ "_sae"
++ "_sampleCount"
++ "_sedentaryHeartRateStatistics"
++ "_shouldSendCoreAnalytics"
++ "_sleepHeartRateStatistics"
++ "_sleepSHRCountThreshold"
++ "_sliceDayHrCount"
++ "_sliceDayHrMean"
++ "_sliceDayHrStd"
++ "_sliceNightHrCount"
++ "_sliceNightHrMean"
++ "_sliceNightHrStd"
++ "_spotting"
++ "_startProbabilityLowRangeEnd"
++ "_startProbabilityLowRangeStart"
++ "_startProbabilityMean"
++ "_startProbabilityStdDev"
++ "_stats"
++ "_sumWidth"
++ "_telemetry"
++ "_temperatureCelsius"
++ "_todayAsJulianDay"
++ "_upperCycleLengthPercentile"
++ "_upperMenstruationLengthPercentile"
++ "_userAgeInYears"
++ "_userReportedCycleLength"
++ "_userReportedMenstruationLength"
++ "_uxOverallGood"
++ "_uxOverallMean"
++ "_uxOverallOk"
++ "_uxOverallOkNum"
++ "_uxOverallSum"
++ "_wTmpFwEndLstmModelPath"
++ "_wTmpFwEndRFModelPath"
++ "_wTmpPeriodLstmModelPath"
++ "_watchIdentifier"
++ "_watchIdentifiers"
++ "_wristTemperature"
++ "abserr"
++ "addObject:"
++ "age"
++ "algorithmVersion"
++ "array::at"
++ "arrayWithCapacity:"
++ "arrayWithObjects:count:"
++ "awakeSHRCountThreshold"
++ "baselineMean"
++ "baselineStd"
++ "baselineStdUncapped"
++ "basic_string"
++ "batchSize"
++ "bitset reset argument out of range"
++ "bitset set argument out of range"
++ "bitset test argument out of range"
++ "bmi"
++ "bundleForClass:"
++ "classLabel"
++ "classProbability"
++ "com.apple.NightingaleAlgs"
++ "com.apple.hid.cycle_tracking.pfl_shadow_evaluation"
++ "count"
++ "countByEnumeratingWithState:objects:count:"
++ "coverage"
++ "cycleIdx"
++ "cycleLen"
++ "d"
++ "d16@0:8"
++ "dailyEligibleWristTemperatureCount"
++ "dataPointer"
++ "date"
++ "dayInputBuffer"
++ "dayStreamProcessorConfig"
++ "day_shr_10"
++ "daysOffsetFromCalendarMethod"
++ "daysSinceLastContraceptionEnd"
++ "daysSinceLastLactationEnd"
++ "daysSinceLastPeriod"
++ "daysSinceLastPregnancyEnd"
++ "daysToModel0DRS"
++ "daysToModel0Drs"
++ "daysToModel1DRS"
++ "daysToModel1Drs"
++ "daysToModel2DRS"
++ "daysToModel2Drs"
++ "days_since_lms"
++ "decodeArrayOfObjectsOfClass:forKey:"
++ "decodeBoolForKey:"
++ "decodeDoubleForKey:"
++ "decodeInt32ForKey:"
++ "decodeIntegerForKey:"
++ "decodeObjectOfClass:forKey:"
++ "decodeObjectOfClasses:forKey:"
++ "deviationAnalysis"
++ "deviationInput"
++ "dictionaryValue"
++ "dummy.mlmodelc"
++ "encodeBool:forKey:"
++ "encodeDouble:forKey:"
++ "encodeInt32:forKey:"
++ "encodeInteger:forKey:"
++ "encodeObject:forKey:"
++ "encodeWithCoder:"
++ "endProb contains values that are not finite.\n"
++ "endProbabilityLowRangeEnd"
++ "endProbabilityLowRangeStart"
++ "endProbabilityMean"
++ "endProbabilityStdDev"
++ "ensembleLogicId"
++ "ensembleSelectedModelIdx"
++ "errorCode"
++ "featureNames"
++ "featureValueForName:"
++ "featureValueWithDictionary:error:"
++ "featureValueWithInt64:"
++ "featureValueWithMultiArray:"
++ "featuresAtIndex:"
++ "fertilityEndJulianDay"
++ "fertilityStartJulianDay"
++ "fileURLWithPath:"
++ "firstObject"
++ "flow"
++ "framework"
++ "fullCycleLengthMean"
++ "fullCycleLengthStd"
++ "fwEnddet_lstm"
++ "fwEnddet_lstm.mlmodelc/model.espresso.net"
++ "fwEnddet_lstmInput"
++ "fwEnddet_lstmOutput"
++ "fwEnddet_rf"
++ "fwEnddet_rf.mlmodelc/coremldata.bin"
++ "fwEnddet_rfInput"
++ "fwEnddet_rfOutput"
++ "heartRateFwEnd10PctModelPath"
++ "heartRatePeriod10PctModelPath"
++ "heartRatePeriodEnsembleModelPath"
++ "heartRatePeriodTFModelPaths"
++ "hrv"
++ "i"
++ "id"
++ "in"
++ "in_"
++ "indexOfObject:"
++ "infrequentBleeding"
++ "initWithCapacity:"
++ "initWithClassLabel:classProbability:"
++ "initWithCoder:"
++ "initWithConfig:mlConfig:"
++ "initWithConfiguration:error:"
++ "initWithContentsOfURL:configuration:error:"
++ "initWithContentsOfURL:error:"
++ "initWithFeatureProviderArray:"
++ "initWithIn:"
++ "initWithIn:lstm_1_h_in:lstm_1_c_in:"
++ "initWithInput:"
++ "initWithLowerPercentile:forSampleCount:"
++ "initWithMLModel:"
++ "initWithMlConfig:"
++ "initWithOut:"
++ "initWithOut:lstm_1_h_out:lstm_1_c_out:"
++ "initWithShape:dataType:error:"
++ "input"
++ "inputDescriptionsByName"
++ "int64Value"
++ "intValue"
++ "integerValue"
++ "irregularBleeding"
++ "isDeterminant"
++ "isEqualToString:"
++ "isUserInactive"
++ "julianDayMinAnalysisWindowEndInfrequent"
++ "julianDayMinAnalysisWindowEndIrregular"
++ "julianDayMinAnalysisWindowEndProlonged"
++ "julianDayMinAnalysisWindowEndSpotting"
++ "julianDayMinAnalysisWindowStartInfrequent"
++ "julianDayMinAnalysisWindowStartIrregular"
++ "julianDayMinAnalysisWindowStartProlonged"
++ "julianDayMinAnalysisWindowStartSpotting"
++ "julianDayOfAnalysisWindowEnd"
++ "julianDayOfAnalysisWindowStart"
++ "julianDayOfFirstCycleStart"
++ "julianDayOfLastCycleStart"
++ "loadContentsOfURL:configuration:completionHandler:"
++ "loadWithConfiguration:completionHandler:"
++ "lowRangeEnd (%!f(MISSING)) is not finite.\n"
++ "lowRangeStart (%!f(MISSING)) is not finite.\n"
++ "lowerCycleLengthPercentile"
++ "lowerMenstruationLengthPercentile"
++ "lowerPercentile"
++ "lstm_1_c_in"
++ "lstm_1_c_out"
++ "lstm_1_h_in"
++ "lstm_1_h_out"
++ "mean (%!f(MISSING)) is not finite.\n"
++ "medianCycleLength"
++ "medianMenstruationLength"
++ "metricsForCoreAnalytics"
++ "mlConfig"
++ "mlmodelc"
++ "model"
++ "model0Width"
++ "model1Width"
++ "model2Width"
++ "modelDescription"
++ "modelWithContentsOfURL:configuration:error:"
++ "modelWithContentsOfURL:error:"
++ "model_fwEnd_10pct"
++ "model_fwEnd_10pct.mlmodelc/model.espresso.net"
++ "model_fwEnd_10pctInput"
++ "model_fwEnd_10pctOutput"
++ "model_period_10pct.mlmodelc/model.espresso.net"
++ "model_period_EnsembleInput"
++ "model_period_EnsembleOutput"
++ "model_period_LstmInput"
++ "model_period_LstmOutput"
++ "model_period_TFInput"
++ "model_period_TFOutput"
++ "morpheus"
++ "multiArrayConstraint"
++ "multiArrayValue"
++ "native"
++ "night_shr_10"
++ "normalizedDaysSinceLastPeriod"
++ "numCycles"
++ "numHistCycles"
++ "numHistoricalCycles"
++ "numOutliers"
++ "numberOfCyclesFound"
++ "numberWithDouble:"
++ "numberWithFloat:"
++ "numberWithInt:"
++ "numberWithUnsignedChar:"
++ "objectAtIndexedSubscript:"
++ "objectForKeyedSubscript:"
++ "out"
++ "out_"
++ "ovulationConfirmationFailure"
++ "ovulationTestResult"
++ "pathForResource:ofType:"
++ "period_lstm"
++ "period_lstm.mlmodelc/model.espresso.net"
++ "period_lstmInput"
++ "period_lstmOutput"
++ "phases"
++ "predictionFromFeatures:completionHandler:"
++ "predictionFromFeatures:error:"
++ "predictionFromFeatures:options:completionHandler:"
++ "predictionFromFeatures:options:error:"
++ "predictionFromIn:lstm_1_h_in:lstm_1_c_in:error:"
++ "predictionFromInput:error:"
++ "predictionPrimarySource"
++ "predictionsFromBatch:options:error:"
++ "predictionsFromInputs:options:error:"
++ "prolongedBleeding"
++ "q"
++ "q16@0:8"
++ "rangeValue"
++ "recipeId"
++ "removeAllObjects"
++ "runDays"
++ "sampleCount"
++ "sedentaryHeartRateStatistics"
++ "selectedModelId"
++ "setAge:"
++ "setAwakeSHRCountThreshold:"
++ "setBaselineMean:"
++ "setBaselineStdUncapped:"
++ "setClassLabel:"
++ "setClassProbability:"
++ "setComputeUnits:"
++ "setDailyEligibleWristTemperatureCount:"
++ "setDayInputBuffer:"
++ "setDaysOffsetFromCalendarMethod:"
++ "setDaysSinceLastContraceptionEnd:"
++ "setDaysSinceLastLactationEnd:"
++ "setDaysSinceLastPeriod:"
++ "setDaysSinceLastPregnancyEnd:"
++ "setDaysToModel0Drs:"
++ "setDaysToModel1Drs:"
++ "setDaysToModel2Drs:"
++ "setDeviationAnalysis:"
++ "setDeviationInput:"
++ "setEndProbabilityLowRangeEnd:"
++ "setEndProbabilityLowRangeStart:"
++ "setEndProbabilityMean:"
++ "setEndProbabilityStdDev:"
++ "setEnsembleSelectedModelIdx:"
++ "setFertilityEndJulianDay:"
++ "setFertilityPredictions:"
++ "setFertilityStartJulianDay:"
++ "setHeartRateFwEnd10PctModelPath:"
++ "setHeartRatePeriod10PctModelPath:"
++ "setHeartRatePeriodEnsembleModelPath:"
++ "setHeartRatePeriodTFModelPaths:"
++ "setIn_:"
++ "setInfrequentBleeding:"
++ "setInput:"
++ "setIrregularBleeding:"
++ "setIsDeterminant:"
++ "setIsOngoingMenstruation:"
++ "setIsUserInactive:"
++ "setJulianDayMinAnalysisWindowEndInfrequent:"
++ "setJulianDayMinAnalysisWindowEndIrregular:"
++ "setJulianDayMinAnalysisWindowEndProlonged:"
++ "setJulianDayMinAnalysisWindowEndSpotting:"
++ "setJulianDayMinAnalysisWindowStartInfrequent:"
++ "setJulianDayMinAnalysisWindowStartIrregular:"
++ "setJulianDayMinAnalysisWindowStartProlonged:"
++ "setJulianDayMinAnalysisWindowStartSpotting:"
++ "setJulianDayOfAnalysisWindowEnd:"
++ "setJulianDayOfAnalysisWindowStart:"
++ "setJulianDayOfFirstCycleStart:"
++ "setJulianDayOfLastCycleStart:"
++ "setJulianDayOfMenstruationEnd:"
++ "setJulianDayOfMenstruationStart:"
++ "setJulianDayOfWindowStart:"
++ "setLowRange:"
++ "setLowerCycleLengthPercentile:"
++ "setLowerMenstruationLengthPercentile:"
++ "setLowerPercentile:"
++ "setLstm_1_c_in:"
++ "setLstm_1_c_out:"
++ "setLstm_1_h_in:"
++ "setLstm_1_h_out:"
++ "setMedianCycleLength:"
++ "setMedianMenstruationLength:"
++ "setMenstruationPredictions:"
++ "setMetricsForCoreAnalytics:"
++ "setModel0Width:"
++ "setModel1Width:"
++ "setModel2Width:"
++ "setNormalizedDaysSinceLastPeriod:"
++ "setNumHistoricalCycles:"
++ "setNumOutliers:"
++ "setNumberOfCyclesFound:"
++ "setOut_:"
++ "setOvulationConfirmationFailure:"
++ "setPhases:"
++ "setPredictionPrimarySource:"
++ "setProlongedBleeding:"
++ "setSampleCount:"
++ "setSedentaryHeartRateStatistics:"
++ "setSleepHeartRateStatistics:"
++ "setSleepSHRCountThreshold:"
++ "setSliceDayHrCount:"
++ "setSliceDayHrMean:"
++ "setSliceDayHrStd:"
++ "setSliceNightHrCount:"
++ "setSliceNightHrMean:"
++ "setSliceNightHrStd:"
++ "setStartProbabilityLowRangeEnd:"
++ "setStartProbabilityLowRangeStart:"
++ "setStartProbabilityMean:"
++ "setStartProbabilityStdDev:"
++ "setStats:"
++ "setTelemetry:"
++ "setUpperCycleLengthPercentile:"
++ "setUpperMenstruationLengthPercentile:"
++ "setUserAgeInYears:"
++ "setWTmpFwEndLstmModelPath:"
++ "setWTmpFwEndRFModelPath:"
++ "setWTmpPeriodLstmModelPath:"
++ "setWatchIdentifiers:"
++ "setWithArray:"
++ "shape"
++ "shouldSendCoreAnalytics"
++ "size of lastValidSamplesFromRawTmp is less than that of rawTmp.vTmp!"
++ "sleepHeartRateStatistics"
++ "sleepSHRCountThreshold"
++ "sliceDayHRCount"
++ "sliceDayHRMean"
++ "sliceDayHRStd"
++ "sliceDayHrCount"
++ "sliceDayHrMean"
++ "sliceDayHrStd"
++ "sliceNightHRCount"
++ "sliceNightHRMean"
++ "sliceNightHRStd"
++ "sliceNightHrCount"
++ "sliceNightHrMean"
++ "sliceNightHrStd"
++ "spo2"
++ "spotting"
++ "start should be less or equal than end."
++ "startProb contains values that are not finite.\n"
++ "startProbabilityLowRangeEnd"
++ "startProbabilityLowRangeStart"
++ "stats"
++ "stddev (%!f(MISSING)) is not finite.\n"
++ "stringByDeletingLastPathComponent"
++ "stringWithUTF8String:"
++ "supportsSecureCoding"
++ "telemetry"
++ "temperatureCelsius"
++ "timeIntervalSinceNow"
++ "todayAsJulianDay"
++ "todayJulianDay"
++ "upperCycleLengthPercentile"
++ "upperMenstruationLengthPercentile"
++ "userAgeInYears"
++ "v16@0:8"
++ "v20@0:8B16"
++ "v20@0:8C16"
++ "v20@0:8I16"
++ "v24@0:8@\"NSCoder\"16"
++ "v24@0:8@16"
++ "v24@0:8C16I20"
++ "v24@0:8d16"
++ "v24@0:8q16"
++ "v24@?0@\"<MLFeatureProvider>\"8@\"NSError\"16"
++ "v24@?0@\"MLModel\"8@\"NSError\"16"
++ "v32@0:8@16@?24"
++ "v32@0:8{_NSRange=QQ}16"
++ "v40@0:8@16@24@?32"
++ "vPreSamples not empty when vLastValidSamples are empty!"
++ "value index "
++ "valueWithRange:"
++ "vector"
++ "wTmpFwEndLstmModelPath"
++ "wTmpFwEndRFModelPath"
++ "wTmpPeriodLstmModelPath"
++ "watchIdentifier"
++ "watchIdentifiers"
++ "watchNumericIdentifierFromString:"
++ "widthOneSide"
++ "widthTwoSide"
++ "wristTemperature"
++ "{\n"
++ "{_NSRange=\"location\"Q\"length\"Q}"
++ "{_NSRange=QQ}16@0:8"
++ "{optional<unsigned int>=\"\"(?=\"__null_state_\"c\"__val_\"I)\"__engaged_\"B}"
++ "{unique_ptr<Nightingale::ngt_DayStreamProcessor, std::default_delete<Nightingale::ngt_DayStreamProcessor>>=\"__ptr_\"{__compressed_pair<Nightingale::ngt_DayStreamProcessor *, std::default_delete<Nightingale::ngt_DayStreamProcessor>>=\"__value_\"^{ngt_DayStreamProcessor}}}"
++ "{unique_ptr<Nightingale::ngt_HistoricalAnalyzer, std::default_delete<Nightingale::ngt_HistoricalAnalyzer>>=\"__ptr_\"{__compressed_pair<Nightingale::ngt_HistoricalAnalyzer *, std::default_delete<Nightingale::ngt_HistoricalAnalyzer>>=\"__value_\"^{ngt_HistoricalAnalyzer}}}"
++ "}\n"
++ "└──"
++ "├──"
+- "Can't construct Array with count < 0"
+- "Insufficient space allocated to copy string contents"
+- "Negative value is not representable"
+- "Not enough bits to represent the passed value"
+- "Override error: %!@(MISSING) -> with %!@(MISSING)"
+- "PrivateFederatedLearning/PFLStats.swift"
+- "Swift/Array.swift"
+- "Swift/ContiguousArrayBuffer.swift"
+- "Swift/Integers.swift"
+- "Swift/StringTesting.swift"
+- "Swift/StringUTF8View.swift"
+- "Swift/UnsafeBufferPointer.swift"
+- "Swift/UnsafePointer.swift"
+- "Swift/UnsafeRawPointer.swift"
+- "UnsafeMutableBufferPointer with negative count"
+- "UnsafeMutablePointer.initialize overlapping range"
+- "UnsafeMutablePointer.initialize with negative count"
+- "UnsafeMutablePointer.moveInitialize with negative count"
+- "UnsafeMutableRawPointer.initializeMemory overlapping range"
+- "initWithConfig:"
+- "invalid Collection: less than 'count' elements in collection"
+
+```

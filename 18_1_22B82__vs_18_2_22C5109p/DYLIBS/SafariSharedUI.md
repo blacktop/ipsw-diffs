@@ -1,0 +1,1272 @@
+## SafariSharedUI
+
+> `/System/Library/PrivateFrameworks/SafariSharedUI.framework/SafariSharedUI`
+
+```diff
+
+-619.2.8.10.7
+-  __TEXT.__text: 0xdaf78
+-  __TEXT.__auth_stubs: 0x11a0
++620.1.11.10.8
++  __TEXT.__text: 0xddde4
++  __TEXT.__auth_stubs: 0x1170
+   __TEXT.__delay_stubs: 0x58
+   __TEXT.__delay_helper: 0x110
+-  __TEXT.__objc_methlist: 0xa758
+-  __TEXT.__const: 0x2970
+-  __TEXT.__oslogstring: 0x7b93
+-  __TEXT.__cstring: 0xe947
+-  __TEXT.__gcc_except_tab: 0xd668
++  __TEXT.__objc_methlist: 0xa678
++  __TEXT.__const: 0x2980
++  __TEXT.__oslogstring: 0x7a8b
++  __TEXT.__cstring: 0xefc4
++  __TEXT.__gcc_except_tab: 0xdef4
+   __TEXT.__ustring: 0x2a30
+   __TEXT.__dlopen_cstrs: 0x3b5
+-  __TEXT.__unwind_info: 0x5e60
+-  __TEXT.__objc_classname: 0x1d50
+-  __TEXT.__objc_methname: 0x299f6
+-  __TEXT.__objc_methtype: 0x5a95
+-  __TEXT.__objc_stubs: 0x191a0
+-  __DATA_CONST.__got: 0x12c8
+-  __DATA_CONST.__const: 0x6740
+-  __DATA_CONST.__objc_classlist: 0x5c8
+-  __DATA_CONST.__objc_catlist: 0x110
+-  __DATA_CONST.__objc_protolist: 0x200
++  __TEXT.__unwind_info: 0x6040
++  __TEXT.__objc_classname: 0x1cd7
++  __TEXT.__objc_methname: 0x299c3
++  __TEXT.__objc_methtype: 0x5547
++  __TEXT.__objc_stubs: 0x190a0
++  __DATA_CONST.__got: 0x1248
++  __DATA_CONST.__const: 0x68a8
++  __DATA_CONST.__objc_classlist: 0x5c0
++  __DATA_CONST.__objc_catlist: 0x130
++  __DATA_CONST.__objc_protolist: 0x1d0
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x7f98
++  __DATA_CONST.__objc_selrefs: 0x7f18
+   __DATA_CONST.__objc_protorefs: 0x10
+-  __DATA_CONST.__objc_superrefs: 0x458
+-  __DATA_CONST.__objc_arraydata: 0x1a20
+-  __AUTH_CONST.__auth_got: 0x8f8
++  __DATA_CONST.__objc_superrefs: 0x460
++  __DATA_CONST.__objc_arraydata: 0x19e0
++  __AUTH_CONST.__auth_got: 0x8e0
+   __AUTH_CONST.__auth_ptr: 0x8
+-  __AUTH_CONST.__const: 0x1ac0
+-  __AUTH_CONST.__cfstring: 0xff00
+-  __AUTH_CONST.__objc_const: 0x17c20
+-  __AUTH_CONST.__objc_intobj: 0x6a8
++  __AUTH_CONST.__const: 0x1aa0
++  __AUTH_CONST.__cfstring: 0xff60
++  __AUTH_CONST.__objc_const: 0x16fb0
++  __AUTH_CONST.__objc_intobj: 0x660
+   __AUTH_CONST.__objc_doubleobj: 0x50
+   __AUTH_CONST.__objc_arrayobj: 0x708
+-  __AUTH_CONST.__objc_dictobj: 0x230
+-  __AUTH.__objc_data: 0x3660
++  __AUTH_CONST.__objc_dictobj: 0x1e0
++  __AUTH.__objc_data: 0x3610
+   __AUTH.__data: 0xd0
+-  __DATA.__objc_ivar: 0xf0c
+-  __DATA.__data: 0x18b0
+-  __DATA.__bss: 0x870
++  __DATA.__objc_ivar: 0xee0
++  __DATA.__data: 0x1670
++  __DATA.__bss: 0x830
+   __DATA.__common: 0x8
+   __DATA_DIRTY.__objc_data: 0x370
+   __DATA_DIRTY.__bss: 0x20
+
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libsqlite3.dylib
+-  Functions: 5261
+-  Symbols:   6917
+-  CStrings:  9444
++  Functions: 5259
++  Symbols:   6901
++  CStrings:  9345
+ 
+Symbols:
++ OBJC_IVAR_$_WBSExtensionsController._appBundleValidationQueue
++ OBJC_IVAR_$_WBSFrequentlyVisitedSitesController._bannedURLStore
++ OBJC_IVAR_$_WBSFrequentlyVisitedSitesController._history
++ OBJC_IVAR_$_WBSFrequentlyVisitedSitesController._profileIdentifier
++ _ASCLockupContextStandard
++ _NSTemporaryDirectory
++ _OBJC_CLASS_$_ASCLockupProductDetailsPresentationContext
++ _OBJC_CLASS_$_UIImageAsset
++ _OBJC_CLASS_$_WBSBookmarkAndHistoryCompletionMatch
++ _OBJC_CLASS_$_WBSDiagnosticStateCollector
++ _OBJC_CLASS_$_WBSExtensionsExporter
++ _OBJC_CLASS_$_WBSFrequentlyVisitedSiteCandidate
++ _OBJC_CLASS_$_WBSFrequentlyVisitedSitesController
++ _OBJC_CLASS_$_WBSFrequentlyVistedSiteAnalyticsPayload
++ _OBJC_CLASS_$_WBSHistoryContextController
++ _OBJC_CLASS_$_WBSInternalFeedbackRadar
++ _OBJC_CLASS_$_WBSInternalFeedbackRadarComponent
++ _OBJC_CLASS_$_WBSJSONExporter
++ _OBJC_CLASS_$_WBSResultRankerHelpers
++ _OBJC_CLASS_$_WBSScribbleElementAndTarget
++ _OBJC_CLASS_$_WBSSearchImpressionAnalyticsRecorder
++ _OBJC_CLASS_$_WBSURLCompletionMatch
++ _OBJC_CLASS_$_WKSecurityOrigin
++ _OBJC_CLASS_$_WKWebExtension
++ _OBJC_CLASS_$_WKWebExtensionContext
++ _OBJC_CLASS_$_WKWebExtensionController
++ _OBJC_CLASS_$_WKWebExtensionControllerConfiguration
++ _OBJC_CLASS_$_WKWebExtensionMatchPattern
++ _OBJC_CLASS_$__WBSPendingLPLinkMetadataRequest
++ _OBJC_METACLASS_$_WBSExtensionsExporter
++ _OBJC_METACLASS_$_WBSFrequentlyVisitedSitesController
++ _OBJC_METACLASS_$_WBSHistoryContextController
++ _OBJC_METACLASS_$_WBSJSONExporter
++ _OBJC_METACLASS_$_WBSRecentHistoryTopicTagController
++ _OBJC_METACLASS_$_WBSScribbleElementAndTarget
++ _OBJC_METACLASS_$_WBSSearchImpressionAnalyticsRecorder
++ _OBJC_METACLASS_$__WBSPendingLPLinkMetadataRequest
++ _UTTypeICO
++ _WBSExportExtensionsKey
++ _WBSExtensionStateLoggingExtensionsKey
++ _WBSExtensionStateLoggingProfileKey
++ _WBSExtensionStateLoggingTypeKey
++ _WBSExtensionsExportComposedIdentifierKey
++ _WBSExtensionsExportDataType
++ _WBSExtensionsExportDeveloperNameKey
++ _WBSExtensionsExportDisplayNameKey
++ _WBSExtensionsExportMacOSAppBundleIdentifierKey
++ _WBSExtensionsExportMacOSExtensionBundleIdentifierKey
++ _WBSExtensionsExportMarketplaceLookupKey
++ _WBSExtensionsExportSchemaVersion
++ _WBSExtensionsExportStoreIdentifierKey
++ _WBSFrequentlyVisitedSitesAlgorithmVersion
++ _WBSFrequentlyVisitedSitesDidChangeNotification
++ _WBSHistoryContextControllerDidAddTagNotification
++ _WBSHistoryItemSynchronizationQueue
++ _WBSMaximumNumberOfFrequentlyVisitedSites
++ _WBSPageMetadataAuthorKey
++ _WBSPageMetadataDescriptionKey
++ _WBSPageMetadataKeywordsKey
++ _WBSPageMetadataTitleKey
++ _WBSUnifiedFieldInputTypeForString
++ __WKWebExtensionErrorsWereUpdatedNotification
++ __Z61Init_DustEffect254_graph_DC680B38_F027_4C51_B1B0_557E92AAEFE7PKvjfRDv3_f
++ __Z61Init_DustEffect256_graph_DC680B38_F027_4C51_B1B0_557E92AAEFE7PKvjfRDv3_f
++ __Z63Update_DustEffect254_graph_949E61E3_E147_4B13_857E_B5CB57635D87PKvjRDv3_fS2_
++ __Z63Update_DustEffect256_graph_949E61E3_E147_4B13_857E_B5CB57635D87PKvjRDv3_fS2_
++ ___vfx_get_script_table_DustEffect254
++ ___vfx_get_script_table_DustEffect256
++ ___vfx_script_DustEffect254_graph_949E61E3_E147_4B13_857E_B5CB57635D87
++ ___vfx_script_DustEffect254_graph_DC680B38_F027_4C51_B1B0_557E92AAEFE7
++ ___vfx_script_DustEffect256_graph_949E61E3_E147_4B13_857E_B5CB57635D87
++ ___vfx_script_DustEffect256_graph_DC680B38_F027_4C51_B1B0_557E92AAEFE7
++ _selectorsForJavaScript
+- _OBJC_CLASS_$_GEOUsageManager
+- _OBJC_CLASS_$_GEOUserSession
+- _OBJC_CLASS_$_PARRequest
+- _OBJC_CLASS_$_PARResponse
+- _OBJC_CLASS_$_PARSession
+- _OBJC_CLASS_$_PARSessionConfiguration
+- _OBJC_CLASS_$_SFClearInputFeedback
+- _OBJC_CLASS_$_SFClientTimingFeedback
+- _OBJC_CLASS_$_SFCustomFeedback
+- _OBJC_CLASS_$_SFDidGoToSearchFeedback
+- _OBJC_CLASS_$_SFDidGoToSiteFeedback
+- _OBJC_CLASS_$_SFEndLocalSearchFeedback
+- _OBJC_CLASS_$_SFExperimentTriggeredFeedback
+- _OBJC_CLASS_$_SFMapsDetailedRowCardSection
+- _OBJC_CLASS_$_SFRankingFeedback
+- _OBJC_CLASS_$_SFResultEngagementFeedback
+- _OBJC_CLASS_$_SFResultRankingFeedback
+- _OBJC_CLASS_$_SFResultSection
+- _OBJC_CLASS_$_SFResultsReceivedAfterTimeoutFeedback
+- _OBJC_CLASS_$_SFSafariAttributes
+- _OBJC_CLASS_$_SFScoreboardCardSection
+- _OBJC_CLASS_$_SFSearchResult
+- _OBJC_CLASS_$_SFSearchSuggestion
+- _OBJC_CLASS_$_SFSearchViewAppearFeedback
+- _OBJC_CLASS_$_SFSearchViewDisappearFeedback
+- _OBJC_CLASS_$_SFSectionRankingFeedback
+- _OBJC_CLASS_$_SFStartLocalSearchFeedback
+- _OBJC_CLASS_$_SFStartNetworkSearchFeedback
+- _OBJC_CLASS_$_SFText
+- _OBJC_CLASS_$_SFVisibleResultsFeedback
+- _OBJC_CLASS_$_WBSCompletionListRankingObserver
+- _OBJC_CLASS_$_WBSCompletionQuery
+- _OBJC_CLASS_$_WBSFormAutoFillCorrectionsSQLiteStore
+- _OBJC_CLASS_$_WBSFormAutoFillParsecCrowdsourcedCorrectionsProcessor
+- _OBJC_CLASS_$_WBSFormAutoFillParsecDomainPolicyProvider
+- _OBJC_CLASS_$_WBSJSONMutator
+- _OBJC_CLASS_$_WBSParsecDFeedbackDispatcher
+- _OBJC_CLASS_$_WBSPegasusResponseFuzzer
+- _OBJC_CLASS_$_WBSTabBarUIString
+- _OBJC_CLASS_$_WBSTrialManager
+- _OBJC_CLASS_$_WBSUserDefinedContentBlockerCrossSiteContent
+- _OBJC_CLASS_$__WBSSearchFoundationFeedbackGenerator
+- _OBJC_CLASS_$__WKWebExtension
+- _OBJC_CLASS_$__WKWebExtensionContext
+- _OBJC_CLASS_$__WKWebExtensionController
+- _OBJC_CLASS_$__WKWebExtensionControllerConfiguration
+- _OBJC_CLASS_$__WKWebExtensionMatchPattern
+- _OBJC_METACLASS_$_WBSCompletionListRankingObserver
+- _OBJC_METACLASS_$_WBSHideMyEmailRecord
+- _OBJC_METACLASS_$_WBSParsecDFeedbackDispatcher
+- _OBJC_METACLASS_$_WBSParsecDSession
+- _OBJC_METACLASS_$_WBSParsecSearchResult
+- _OBJC_METACLASS_$_WBSPegasusResponseFuzzer
+- _OBJC_METACLASS_$_WBSTabBarUIString
+- _OBJC_METACLASS_$__WBSSearchFoundationFeedbackGenerator
+- _WBSEnablePegasusResponseFuzzing
+- _WBSParsecGlobalFeedbackIsEnabled
+- _WBSSetParsecGlobalFeedbackDispatcherEnabledBlock
+- _WBSSharedParsecGlobalFeedbackDispatcher
+- _WBSSiriSearchSuggestionsEnabledDidChangeNotification
+- _XPC_ACTIVITY_DELAY
+- _XPC_ACTIVITY_GRACE_PERIOD
+- _XPC_ACTIVITY_INTERVAL
+- _XPC_ACTIVITY_INTERVAL_1_HOUR
+- _XPC_ACTIVITY_INTERVAL_8_HOURS
+- _XPC_ACTIVITY_PRIORITY
+- _XPC_ACTIVITY_PRIORITY_MAINTENANCE
+- __Z71Init_SelectedMaskEraseEffect_graph_DC680B38_F027_4C51_B1B0_557E92AAEFE7PKvjfRDv3_f
+- __Z73Update_SelectedMaskEraseEffect_graph_949E61E3_E147_4B13_857E_B5CB57635D87PKvjRDv3_fS2_
+- __Z82Init_SelectedMaskEraseEffectForSunburst_graph_DC680B38_F027_4C51_B1B0_557E92AAEFE7PKvjfRDv3_f
+- __Z84Update_SelectedMaskEraseEffectForSunburst_graph_949E61E3_E147_4B13_857E_B5CB57635D87PKvjRDv3_fS2_
+- ___vfx_get_script_table_SelectedMaskEraseEffect
+- ___vfx_get_script_table_SelectedMaskEraseEffectForSunburst
+- ___vfx_script_SelectedMaskEraseEffectForSunburst_graph_949E61E3_E147_4B13_857E_B5CB57635D87
+- ___vfx_script_SelectedMaskEraseEffectForSunburst_graph_DC680B38_F027_4C51_B1B0_557E92AAEFE7
+- ___vfx_script_SelectedMaskEraseEffect_graph_949E61E3_E147_4B13_857E_B5CB57635D87
+- ___vfx_script_SelectedMaskEraseEffect_graph_DC680B38_F027_4C51_B1B0_557E92AAEFE7
+- _kUTTypeICO
+- _xpc_activity_get_state
+- _xpc_activity_register
+- _xpc_activity_set_state
+- _xpc_dictionary_create
+- _xpc_dictionary_set_int64
+- _xpc_dictionary_set_string
+CStrings:
++ "\x01\x16\"\x11"
++ "\x01\xf0\x11"
++ "\x04\x11\x12"
++ "\x05\x11\x11"
++ "\x05\x11\x11\x14"
++ "\x15\x17\x11\x12\x14"
++ "\x19"
++ "!I!"
++ "%!@(MISSING): \"%!{(MISSING)sensitive}@\""
++ "%!@(MISSING): [%!{(MISSING)public}@]"
++ "%!d(MISSING)"
++ "'%!@(MISSING)'"
++ "(() => {    if (document?.body) {        const bodyStyle = getComputedStyle(document.body);        if (bodyStyle.overflow === 'hidden' || bodyStyle.pointerEvents === 'none')            return true;        const thresholdForScrollableBodyContent = 2 * visualViewport.height * visualViewport.scale;        if (bodyStyle.position === 'fixed' && document.body.getBoundingClientRect().height > thresholdForScrollableBodyContent)            return true;    }    if (document?.documentElement) {        const documentElementStyle = getComputedStyle(document.documentElement);        if (documentElementStyle.overflow === 'hidden' || documentElementStyle.pointerEvents === 'none')            return true;    }    return false;})();"
++ "* DIAGNOSTIC INFORMATION\n"
++ "* SUMMARY\nProvide a detailed explanation of the issue, with steps to reproduce if possible.\n\n"
++ "+[WBSFrequentlyVisitedSitesController newRadarProblemURLForHistoryItem:]"
++ "- Found %!@(MISSING): %!{(MISSING)private}@ (%!@(MISSING) rule)"
++ "- Found similar URLs: %!{(MISSING)private}@ (%!@(MISSING))"
++ "- Keeping %!{(MISSING)private}@ hidden to avoid partially hidden content"
++ "/Library/Caches/com.apple.xbs/Sources/SafariShared/SafariShared/SafariSharedUI/Extensions/WBSWebExtensionCommand.mm"
++ "/Library/Caches/com.apple.xbs/Sources/SafariShared/SafariShared/SafariSharedUI/FrequentlyVisitedSites/WBSFrequentlyVisitedSitesController.mm"
++ "::\\w+$"
++ "<%!@(MISSING) %!p(MISSING) sel=%!@(MISSING)>"
++ "?"
++ "@\"<WKWebExtensionWindow>\"32@0:8@\"WKWebExtensionController\"16@\"WKWebExtensionContext\"24"
++ "@\"CKContextResponse\""
++ "@\"NSArray\"32@0:8@\"WKWebExtensionController\"16@\"WKWebExtensionContext\"24"
++ "@\"NSDictionary\"8@?0"
++ "@\"NSMutableSet\"16@?0@\"NSSet\"8"
++ "@\"NSMutableString\"24@?0r^i8Q16"
++ "@\"NSString\"16@?0@\"WKWebExtensionMatchPattern\"8"
++ "@\"UIImage\"16@?0@\"UIImageConfiguration\"8"
++ "@\"UIImage\"32@?0@\"UIImageAsset\"8@\"UIImageConfiguration\"16@\"UIImage\"24"
++ "@\"WBSDiagnosticStateCollector\""
++ "@\"WBSFrequentlyVisitedSiteCandidate\"16@?0@\"WBSHistoryServiceURLCompletionMatchEntry\"8"
++ "@\"WBSFrequentlyVisitedSitesBannedURLStore\""
++ "@\"WBSUserDefinedContentBlockerAction\""
++ "@\"WBSWebExtensionCommand\"16@?0@\"WKWebExtensionCommand\"8"
++ "@\"WBSWebExtensionMatchPattern\"16@?0@\"WKWebExtensionMatchPattern\"8"
++ "@\"WBSWebExtensionMatchPattern\"24@?0@\"WKWebExtensionMatchPattern\"8^B16"
++ "@\"WKWebExtension\""
++ "@\"WKWebExtensionAction\""
++ "@\"WKWebExtensionCommand\""
++ "@\"WKWebExtensionContext\""
++ "@\"WKWebExtensionController\""
++ "@\"WKWebExtensionMatchPattern\""
++ "@\"WKWebExtensionMatchPattern\"24@?0@\"WBSWebExtensionMatchPattern\"8^B16"
++ "@36@0:8@16@24I32"
++ "@48@0:8@16@24@32B40B44"
++ "@52@0:8@16B24@28@36@44"
++ "ALTER TABLE page_url RENAME TO page_url_old"
++ "Added tag with topic ID: %!{(MISSING)private}@ to history item"
++ "B16@?0@\"WBSURLCompletionMatch\"8"
++ "B32@?0@\"_WKTargetedElementInfo\"8Q16^B24"
++ "B44@0:8@16B24@28@36"
++ "CREATE TABLE page_url (url TEXT PRIMARY KEY NOT NULL,uuid TEXT,last_fetch_date REAL NOT NULL,last_fetch_did_succeed BOOLEAN NOT NULL DEFAULT 0,metadata_has_image BOOLEAN NOT NULL DEFAULT 0)"
++ "ContextKit query with empty text; isReaderAvailable: %!d(MISSING)"
++ "Could not add tag with topic ID: %!{(MISSING)private}@ to history item with error: %!{(MISSING)public}@"
++ "DELETE FROM page_url WHERE url IN (%!@(MISSING))"
++ "DELETE FROM uuid_info WHERE uuid IN (%!@(MISSING))"
++ "DROP INDEX IF EXISTS UUIDIndex"
++ "DROP TABLE page_url_old"
++ "Daily visit count scores: %!@(MISSING)\n"
++ "Disabled hidden active element."
++ "DustEffect25_6"
++ "Error: expected scribble element to be backed by a global content blocker action"
++ "Error: targeted element hidden by validation is not similar to any scribble element"
++ "Excluding TopHit that matches www subdomain"
++ "Excluding URL match that is a client or server error"
++ "Excluding URL that matches www subdomain"
++ "Excluding duplicate match with URL"
++ "Excluding duplicate match with same title and host"
++ "Excluding duplicate match with search suggestion"
++ "Excluding duplicate top hit"
++ "Excluding unlikely match due to client or server error"
++ "Excluding unlikely match due to nil match value"
++ "Export"
++ "ExtensionImportLockups"
++ "ExtensionsExportDataSource"
++ "Failed to create UUIDIndex on page_url table during migration: %!{(MISSING)public}@ (%!d(MISSING))"
++ "Failed to create page_url table during migration: %!{(MISSING)public}@ (%!d(MISSING))"
++ "Failed to delete urls. Error code: %!d(MISSING)"
++ "Failed to delete uuids. Error code: %!d(MISSING)"
++ "Failed to disable active element: %!@(MISSING)"
++ "Failed to drop index in paged_url table: %!{(MISSING)public}@ (%!d(MISSING))"
++ "Failed to drop page_url_old table: %!{(MISSING)public}@ (%!d(MISSING))"
++ "Failed to fetch LP metadata for URL: %!{(MISSING)sensitive, mask.hash}@ with error: %!{(MISSING)public}@."
++ "Failed to finalize extensions export: %!{(MISSING)public}@"
++ "Failed to move page_url_old data to page_url table: %!{(MISSING)public}@ (%!d(MISSING))"
++ "Failed to rename table page_url to page_url_old: %!{(MISSING)public}@ (%!d(MISSING))"
++ "Failed to serialize extensions entry: %!{(MISSING)public}@"
++ "Fetching LP metadata for URL: %!{(MISSING)sensitive, mask.hash}@."
++ "Found that self.profile.identifier is nil when collecting extensions state"
++ "Frequently Visited Sites: <add description>"
++ "FrequentlyVisitedSitesDidChange"
++ "HTTPSOnlyHTTPFallback"
++ "Hiding item: %!{(MISSING)private}@"
++ "INSERT INTO page_url (url, uuid, last_fetch_date, last_fetch_did_succeed, metadata_has_image)SELECT p.url, p.uuid, u.timestamp, 1, 1 FROM page_url_old p JOIN uuid_info u ON p.uuid = u.uuid"
++ "Last visited: %!@(MISSING) (time interval: %!f(MISSING))\n"
++ "No cached LP metadata found for URL: %!{(MISSING)sensitive, mask.hash}@"
++ "No metadata info found for URL: %!{(MISSING)sensitive}@."
++ "Operating system: %!@(MISSING)"
++ "Page URL: %!{(MISSING)private}@"
++ "Performing ContextKit query"
++ "Providing cached LP metadata for URL: %!{(MISSING)sensitive, mask.hash}@"
++ "REPLACE INTO page_url (url, uuid, last_fetch_date, last_fetch_did_succeed, metadata_has_image) VALUES (?, ?, ?, ?, ?)"
++ "Received ContextKit response with error: %!{(MISSING)public}@"
++ "SELECT * FROM page_url"
++ "SELECT * FROM page_url WHERE url = ?"
++ "SELECT * FROM page_url WHERE uuid = ?"
++ "SELECT u.uuid FROM uuid_info u LEFT JOIN page_url p ON u.uuid = p.uuid WHERE p.url IS NULL"
++ "Safari Extensions State"
++ "SafariAutomation"
++ "Saving Page Complete for %!{(MISSING)sensitive, mask.hash}@ with options %!z(MISSING)u"
++ "Score time interval: %!f(MISSING)\n"
++ "Successfully fetched LP metadata for URL: %!{(MISSING)sensitive, mask.hash}@."
++ "T@\"NSArray\",C,N,V_searchProviders"
++ "T@\"NSDate\",R,C,N,V_lastFetchDate"
++ "T@\"NSString\",R,C,N,V_urlString"
++ "T@\"NSString\",R,C,N,V_uuidString"
++ "T@\"NSString\",R,N,V_profileIdentifier"
++ "T@\"WBSHistory\",R,N,V_history"
++ "T@\"WBSScribbleElement\",R,N,V_element"
++ "T@\"WBSSearchImpressionAnalyticsRecorder\",R,N"
++ "T@\"WBSSearchProvider\",&,N,V_defaultSearchProvider"
++ "T@\"WBSUserDefinedContentBlockerAction\",R,N,V_backingAction"
++ "T@\"WKWebExtension\",R,N,V_webKitExtension"
++ "T@\"WKWebExtensionAction\",&,N,V_webKitAction"
++ "T@\"WKWebExtensionCommand\",R,N,V_webKitCommand"
++ "T@\"WKWebExtensionContext\",R,N,V_webKitContext"
++ "T@\"WKWebExtensionController\",R,N,V_webKitController"
++ "T@\"WKWebExtensionMatchPattern\",R,N,V_webKitMatchPattern"
++ "TB,R,N,GisBackedByGlobalAction"
++ "TB,R,N,V_allowDelayedResponse"
++ "TB,R,N,V_allowFetching"
++ "TB,R,N,V_lastFetchDidSucceed"
++ "TB,R,N,V_metadataHasImage"
++ "TQ,N,V_maximumNumberOfTopics"
++ "Td,N,V_timeIntervalBeforeNowForFetchingTags"
++ "URLAutocomplete"
++ "Using cached ContextKit response"
++ "WBSExtensionsExportDataSource"
++ "WBSExtensionsExporter"
++ "WBSFrequentlyVisitedSitesController"
++ "WBSHistoryContextController"
++ "WBSHistoryContextControllerDidAddTagNotification"
++ "WBSRecentHistoryTopicTagController"
++ "WBSScribbleElementAndTarget"
++ "WBSSearchImpressionAnalyticsRecorder"
++ "WBSURLCompletionMatch_WBSResultRankerExtras"
++ "WKWebExtensionControllerDelegate"
++ "Weekly visit count scores: %!@(MISSING)\n"
++ "_WBSPendingLPLinkMetadataRequest"
++ "__vfx_script_DustEffect254_graph_949E61E3_E147_4B13_857E_B5CB57635D87"
++ "__vfx_script_DustEffect254_graph_DC680B38_F027_4C51_B1B0_557E92AAEFE7"
++ "__vfx_script_DustEffect256_graph_949E61E3_E147_4B13_857E_B5CB57635D87"
++ "__vfx_script_DustEffect256_graph_DC680B38_F027_4C51_B1B0_557E92AAEFE7"
++ "_activeGlobalActionsByDatabaseID"
++ "_allowDelayedResponse"
++ "_allowFetching"
++ "_appBundleValidationQueue"
++ "_applyWebCompatibilityFixups"
++ "_availableInCurrentRegionCompletionHandlers"
++ "_availableLocalePairsCompletionHandlers"
++ "_backingAction"
++ "_bannedURLStore"
++ "_cachedResponse"
++ "_canonicalizedFavoritesURLStringSet"
++ "_client"
++ "_completionHandlers"
++ "_dataStoresByAutomationSessionIdentifier"
++ "_defaultSearchProvider"
++ "_deleteMetadataInfoForURLStrings:"
++ "_diagnosticStateCollector"
++ "_didFailDiskCacheWriteForMetadataInfo:completionHandler:"
++ "_disableHiddenActiveElementIfNeeded"
++ "_discardAllMetadataInfo"
++ "_discardMetadataInfoForURLString:"
++ "_dropQueryPart:"
++ "_dynamicAssetNamed:generator:"
++ "_element"
++ "_extensionsDataExportQueue"
++ "_fetchAllMetadataInfo"
++ "_fetchAllMetadataInfoWithUUID:"
++ "_forEachPotentiallySimilarElement:"
++ "_frequentlyVisitedSitesDidLoadHistory"
++ "_frequentlyVisitedSitesURLStringSet"
++ "_getCachedMetadataInfoForRequest:completionHandler:"
++ "_getCachedMetadataWithInfo:completionHandler:"
++ "_globalElements"
++ "_hasServiceWorkerBackgroundContent"
++ "_hideElementUsingPaintAvoidance:completion:"
++ "_historyItemForFrequentlyVisitedItem:"
++ "_isCacheSetUpPending"
++ "_isInMemoryStorePrewarmed"
++ "_isMetadataExpiredWithInfo:"
++ "_lastFetchDate"
++ "_lastFetchDidSucceed"
++ "_maximumNumberOfTopics"
++ "_metadataHasImage"
++ "_newDataStoreForAutomationSessionIdentifier:"
++ "_pageURLForCachedResponse"
++ "_pendingRequests"
++ "_perSiteElements"
++ "_persistTopicsFromContextResult:forPageURL:"
++ "_postFrequentlyVisitedSitesDidChangeNotification"
++ "_provideCachedResponseIfAvailableForRequest:withMetadataInfo:"
++ "_purgeMetadataForURLStrings:completionHandler:"
++ "_queryListWithStrings:"
++ "_recomputeFrequentlyVisitedSitesNow"
++ "_removeHiddenResultsAndAddInFlowElements"
++ "_removeTargetsToRevealIfNeeded"
++ "_saveFrequentlyVisitedSites:completionHandler:"
++ "_scribbleElementsForGlobalActionsFromCurrentSession"
++ "_searchProviders"
++ "_serveAllPendingRequests"
++ "_setMetadataInfo:forURLString:"
++ "_setUpCache"
++ "_shouldDedupeResult:withMobile:withBase:withSimplified:"
++ "_shouldSkipValidation"
++ "_shouldStartFetchOperationForMetadataWithInfo:"
++ "_similarTargetsAndElements"
++ "_simplifyURLForHistoryDedupe:withMobile:"
++ "_storeAndNotifySuccessfulResponseForRequest:withMetadata:didReceiveNewData:"
++ "_storeMetadataInfo:forURLString:"
++ "_storedMetadataInfoForURLString:"
++ "_targetToScribbleElementWithMatchingSelectorsMap"
++ "_targetedElementsHiddenFromCurrentSession"
++ "_targetedElementsToHideUsingDisplayNone"
++ "_targetsToHideUsingDisplayNone"
++ "_targetsToHideUsingPaintAvoidance"
++ "_timeIntervalBeforeNowForFetchingTags"
++ "_timeOfLastFrequentlyVisitedSitesComputation"
++ "_trackTitleAndURLSingle:withMobile:withBase:withSimplified:"
++ "_trackTitlesAndURLs:withMobile:withBase:withSimplified:"
++ "_urlStringWithoutQueryForMatch:"
++ "_urlStringsToMetadataInfo"
++ "_userVisibleShortcut"
++ "_visibleURLtoDisplayedURL:"
++ "_webkit_decodeHostName"
++ "addHostWhereActionHasApplied:selectors:"
++ "addTagWithIdentifier:title:toItemAtURL:level:completionHandler:"
++ "allowDelayedResponse"
++ "allowFetching"
++ "allowMatch:forMatch:forQueryString:"
++ "allowUnsignedExtensions"
++ "appendEntry:error:"
++ "backedByGlobalAction"
++ "backingAction"
++ "beginArrayForKey:error:"
++ "body,html{overflow:scroll!important;pointer-events:auto!important;}body{position:static!important;}"
++ "cachedResponseForURL:completionHandler:"
++ "callAsyncJavaScript:arguments:inFrame:inContentWorld:completionHandler:"
++ "checkForSimilarRenderedText:"
++ "clearFrequentlyVisitedSites"
++ "com.apple.Safari.WBSExtensionsController.%!@(MISSING).%!p(MISSING)._appBundleValidationQueue"
++ "com.apple.SafariShared.%!@(MISSING).%!p(MISSING).internalQueue"
++ "com.apple.SafariShared.WBSExtensionsExporter"
++ "com.apple.webkit.webpushd.service"
++ "commandName:isActionForExtension:"
++ "computeFrequentlyVisitedSites:minimalVisitCountScore:blockList:allowList:options:currentTime:completionHandler:"
++ "computeURLSimilarity:"
++ "contextForPageURL:content:contentType:metadata:isPrivate:isReaderAvailable:withCompletionHandler:"
++ "continueInTapToRadarURL"
++ "copyCookiesFromArray:matchingDomain:intoFolderAtURL:"
++ "copyWithoutUUID"
++ "currentTraitCollection"
++ "dailyVisitCountScoresCountOnSynchronizationQueue"
++ "dailyVisitCountScoresPtrOnSynchronizationQueue"
++ "data"
++ "dataType"
++ "dedupeResults:withSearchSuggestionStrings:searchProvider:"
++ "dedupeSameTitleHistoryResults:withMobile:withTophits:withTabs:"
++ "dedupeSameTitleHistoryResults:withMobile:withTophits:withTabs:cloudTabs:"
++ "dedupeSameURLResults:withUniversalSearchResults:"
++ "deduplicateTopHits:"
++ "defaultPresentationContext"
++ "deleteActions:"
++ "didActualizeImpressionForURL:provenance:"
++ "didCancelScribble"
++ "didClearScribble"
++ "didFinishScribble:"
++ "didHideMoreItems"
++ "didNavigateToFrequentlyVisitedSiteByAnyMeansWithAnalyticsPayload:"
++ "domainsToDisableCookieCopying"
++ "element"
++ "enableCompletionListHistoryDeduplicationSwitchToTabValue"
++ "errorRecoveryMethod"
++ "executeWithReply:"
++ "exportExtensionDictionaries:completionHandler:"
++ "extensionDataWithDisplayName:developerName:composedIdentifier:adamIdentifier:alternatePlatformExtensionBundleIdentifier:alternatePlatformAppBundleIdentifier:"
++ "extensionsDataForExport"
++ "extensionsWithAdamID:"
++ "fetchTopicsFromStartDate:toEndDate:limit:minimumItemCount:sortOrder:completionHandler:"
++ "filterOutUnlikelyMatchesBeforeTopHitPromotionFromMatches:forQuery:searchProvider:"
++ "filterOutUnlikelyMatchesFromMatches:forQuery:rewrittenQuery:"
++ "filterOutUnlikelyMatchesFromTopHits:forQuery:searchProvider:"
++ "finishWithCompletionHandler:"
++ "forEachSimilarTargetedElement:"
++ "frequentlyVisitedSiteScore"
++ "frequentlyVisitedSites"
++ "generateLockupViewsForAvailableApps:forExtensionImport:completionHandler:"
++ "getAllMetadataInfoWithCompletionHandler:"
++ "getMetadataInfoForURLString:completionHandler:"
++ "getMetadataWithInfo:completionHandler:"
++ "global"
++ "hasAccessToPrivateData"
++ "hasPersistentBackgroundContent"
++ "hasRequestedOptionalAccessToAllHosts"
++ "hasSimilarGeometryInView:"
++ "history"
++ "hostAreEqual:forSecondURLString:"
++ "hostsWhereActionHasApplied"
++ "imageWithConfiguration:"
++ "imageWithTraitCollection:"
++ "importLockupViewGroup"
++ "includeBookmarksAndHistory:"
++ "index.html"
++ "initWithCapacity:"
++ "initWithComponent:title:descriptionTemplate:"
++ "initWithDirectory:"
++ "initWithElement:target:"
++ "initWithHistory:bannedURLStore:profileIdentifier:"
++ "initWithHistory:contextClient:qualityOfService:"
++ "initWithItemPosition:lastVisitedDate:score:"
++ "initWithPresentationStyle:"
++ "initWithRequest:allowDelayedResponse:"
++ "initWithSelector:type:isGlobal:"
++ "initWithURL:allowFetching:"
++ "initWithURL:error:"
++ "initWithURLString:title:score:"
++ "initWithURLString:uuidString:lastFetchDate:lastFetchDidSucceed:metadataHasImage:"
++ "invalidateCachedResults"
++ "isBackedByGlobalAction"
++ "isCFSearch"
++ "isGlobal"
++ "isMetadataCached"
++ "isResultFilteringDisabled"
++ "isSimilarToAction:"
++ "isStreamlinedCompletionListEnabled"
++ "isTopHit"
++ "isWAPEnabled"
++ "itemForURL:"
++ "jsonWriter"
++ "lastFetchDate"
++ "lastFetchDidSucceed"
++ "lastVisitedTimeInterval"
++ "linkAndUpdateMetadataInfoForURLString:lastFetchDate:lastFetchDidSucceed:metadataHasImage:completionHandler:"
++ "linkURLString:withMetadataInfoForURLString:completionHandler:"
++ "makeContentBlockerAction:"
++ "matchLocation"
++ "matchNavigationIsClientOrServerError:"
++ "maxBookmarksAndHistoryItems"
++ "maximumNumberOfTopics"
++ "metadataHasImage"
++ "newRadarProblemURLForHistoryItem:"
++ "newRequest"
++ "no text"
++ "operatingSystemVersionString"
++ "originalURLString"
++ "parentTab"
++ "per-site"
++ "performAsCurrentTraitCollection:"
++ "port"
++ "prewarmInMemoryStoreWithCompletionHandler:"
++ "productDetailsPresentationContextForLockupView:"
++ "protocol"
++ "q24@0:8^@16"
++ "rangeOfFirstMatchInString:options:range:"
++ "readingListThumbnailDataFromImage:"
++ "recomputeFrequentlyVisitedSitesIfNecessary"
++ "recordSearchResultPageImpressionWithDefaultSearchProviderIdentifier:searchProviderIdentifier:provenance:"
++ "registeredStateCollectorWithLogLabel:payloadProvider:"
++ "removeLastObject"
++ "removeMetadataInfoForURLStrings:completionHandler:"
++ "return (selectors => {    const activeElement = window?.document?.activeElement;    if (!activeElement || activeElement === document.body || activeElement.disabled)        return false;    for (const element of [...document.querySelectorAll(selectors)]) {        if (element.contains(activeElement)) {            activeElement.disabled = true;            activeElement.setAttribute('aria-disabled', 'true');            return true;        }    }    return false;})(selectors)"
++ "safariStartPageIOS"
++ "safari_allowsLooserMatchingInSearch"
++ "safari_arrayByMappingObjectsUsingBlock:"
++ "safari_belongsToDomain:"
++ "safari_bestLanguageTag"
++ "safari_dataStoreForAutomationSessionWithIdentifier:"
++ "safari_dynamicImageWithSize:generator:"
++ "safari_hasSimilarText:"
++ "safari_isHTTPSOnlyNavigationFailedError"
++ "safari_isPrefixOfWwwDot"
++ "safari_launchServicesDeveloperName"
++ "safari_mightContainURLScheme"
++ "safari_pngData"
++ "safari_saveWebpageCompleteToURL:withCollectionMethod:collectionOptions:completionHandler:"
++ "safari_stringByRemovingParenthesizedDomain"
++ "safari_uniqueSelectorsIncludingShadowHosts"
++ "safari_urlStringForCompletionDeduplication"
++ "safari_userVisibleHostOrExtensionDisplayName"
++ "safari_userVisibleName"
++ "safari_webViewForDownloadsForProfileWithIdentifier:"
++ "schemaVersion"
++ "scribbleController:runHidingAnimationWithElementRect:"
++ "searchParameters"
++ "searchProviderForURL:"
++ "searchProviders"
++ "sendAnalyticsIfNecessaryForURLNavigation:"
++ "setByAddingObjectsFromSet:"
++ "setCanIncludeNearbyElements:"
++ "setContentAuthor:"
++ "setContentDescription:"
++ "setContentKeywords:"
++ "setDefaultSearchProvider:"
++ "setHasAccessToPrivateData:"
++ "setHasRequestedOptionalAccessToAllHosts:"
++ "setIncludeHigherLevelTopics:"
++ "setLanguageTag:"
++ "setMetadata:forURLString:lastFetchDate:lastFetchDidSucceed:metadataHasImage:completionHandler:"
++ "setPort:"
++ "setScheme:"
++ "setSearchProviders:"
++ "setText:"
++ "setTextIsRaw:"
++ "setTimeIntervalBeforeNowForFetchingTags:"
++ "setWebPushMachServiceName:"
++ "sfSearchResult"
++ "sharedRecorder"
++ "shouldBeActive"
++ "shouldBeMuted"
++ "shouldBePinned"
++ "shouldDisableHiddenActiveElement"
++ "shouldReaderModeBeActive"
++ "stringWithString:"
++ "targetsToHideUsingDisplayNone"
++ "targetsToHideUsingPaintAvoidance"
++ "timeIntervalBeforeNowForFetchingTags"
++ "titlePrefix"
++ "topSitesScore"
++ "traitCollection"
++ "undoLastAction"
++ "updateContentBlockerActionExtraAttributes:"
++ "urlStrings"
++ "urlStringsFromUniversalSearchResults:"
++ "userVisibleURLString"
++ "v16@?0@\"CKContextResponse\"8"
++ "v24@?0@\"WBSScribbleElement\"8^B16"
++ "v24@?0@\"_WKTargetedElementInfo\"8@\"WBSScribbleElement\"16"
++ "v24@?0q8@\"WBSScribbleElement\"16"
++ "v40@0:8@\"WKWebExtensionController\"16@\"WKWebExtensionContext\"24@?<v@?@\"NSError\">32"
++ "v44@0:8@16B24@28@36"
++ "v48@0:8@\"WKWebExtensionController\"16@\"WKWebExtensionAction\"24@\"WKWebExtensionContext\"32@?<v@?@\"NSError\">40"
++ "v48@0:8@\"WKWebExtensionController\"16@\"WKWebExtensionMessagePort\"24@\"WKWebExtensionContext\"32@?<v@?@\"NSError\">40"
++ "v48@0:8@\"WKWebExtensionController\"16@\"WKWebExtensionTabConfiguration\"24@\"WKWebExtensionContext\"32@?<v@?@\"<WKWebExtensionTab>\"@\"NSError\">40"
++ "v48@0:8@\"WKWebExtensionController\"16@\"WKWebExtensionWindowConfiguration\"24@\"WKWebExtensionContext\"32@?<v@?@\"<WKWebExtensionWindow>\"@\"NSError\">40"
++ "v48@0:8@16@24B32B36@?40"
++ "v56@0:8@\"WKWebExtensionController\"16@\"NSSet\"24@\"<WKWebExtensionTab>\"32@\"WKWebExtensionContext\"40@?<v@?@\"NSSet\"@\"NSDate\">48"
++ "v56@0:8@\"WKWebExtensionController\"16@24@\"NSString\"32@\"WKWebExtensionContext\"40@?<v@?@@\"NSError\">48"
++ "v56@0:8@16@24@32B40B44@?48"
++ "v64@0:8@16@24q32@40B48B52@?56"
++ "visitWasClientError"
++ "webExtensionController:openNewTabUsingConfiguration:forExtensionContext:completionHandler:"
++ "webExtensionController:openNewWindowUsingConfiguration:forExtensionContext:completionHandler:"
++ "webExtensionController:sendMessage:toApplicationWithIdentifier:forExtensionContext:replyHandler:"
++ "weeklyVisitCountScoresCountOnSynchronizationQueue"
++ "weeklyVisitCountScoresPtrOnSynchronizationQueue"
++ "{CGSize=dd}24@?0{CGSize=dd}8"
++ "{atomic<long long>=\"__a_\"{__cxx_atomic_impl<long long, std::__cxx_atomic_base_impl<long long>>=\"__a_value\"Aq}}"
+- "\x01\x13\x12"
+- "\x01(\"\x11"
+- "\x01\xd1"
+- "\x03\x13!"
+- "\x05\x11"
+- "\x05\x11!\x14"
+- "\x06"
+- "\x15\x16\x11\x11\x14"
+- " %!@(MISSING) <%!@(MISSING)>,"
+- "!F!"
+- "%!@(MISSING).html"
+- "(() => {    if (document?.body) {        const bodyStyle = getComputedStyle(document.body);        if (bodyStyle.overflow === 'hidden' || bodyStyle.pointerEvents === 'none')            return true;    }    if (document?.documentElement) {        const documentElementStyle = getComputedStyle(document.documentElement);        if (documentElementStyle.overflow === 'hidden' || documentElementStyle.pointerEvents === 'none')            return true;    }    return false;})();"
+- "- Found %!@(MISSING): %!{(MISSING)private}@"
+- "- Found similar URLs: %!{(MISSING)private}@"
+- "/Library/Caches/com.apple.xbs/Sources/SafariShared/SafariShared/Extensions/WBSWebExtensionCommand.mm"
+- "1`"
+- "8619.2.8.10.7"
+- "; (has iframe)"
+- "<%!@(MISSING) %!p(MISSING) tag=%!@(MISSING); sel=%!@(MISSING)%!@(MISSING)>"
+- "<%!@(MISSING): %!p(MISSING), domain: %!@(MISSING), state: %!@(MISSING), privateEmailAddress: %!@(MISSING)>"
+- "<%!@(MISSING): %!p(MISSING); title = %!@(MISSING) url = %!@(MISSING)>"
+- "@\"<WBSCompletionListRankingObserverDelegate>\""
+- "@\"<WBSParsecFeedbackDispatcher>\"16@0:8"
+- "@\"<WBSParsecSearchSessionDelegate>\""
+- "@\"<_CompletionListRankingObserverFeedbackGenerator>\""
+- "@\"<_CompletionListRankingObserverFeedbackGeneratorDelegate>\"16@0:8"
+- "@\"<_WKWebExtensionWindow>\"32@0:8@\"_WKWebExtensionController\"16@\"_WKWebExtensionContext\"24"
+- "@\"GEOUserSessionEntity\""
+- "@\"NSArray\"32@0:8@\"_WKWebExtensionController\"16@\"_WKWebExtensionContext\"24"
+- "@\"NSString\"16@?0@\"SFSearchSuggestion\"8"
+- "@\"NSString\"16@?0@\"_WKWebExtensionMatchPattern\"8"
+- "@\"PARResponse\""
+- "@\"PARSession\""
+- "@\"SFRankingFeedback\""
+- "@\"SFResultRankingFeedback\"32@?0@\"SFSearchResult\"8Q16^B24"
+- "@\"SFSearchResult\""
+- "@\"SFSearchResult\"16@0:8"
+- "@\"SFSearchResult\"16@?0@\"<WBSCompletionListItem>\"8"
+- "@\"SFSearchResult\"16@?0@\"WBSParsecSearchResult\"8"
+- "@\"SFSearchSuggestion\"16@?0@\"WBSQuerySuggestion\"8"
+- "@\"SFSectionRankingFeedback\"32@?0@\"SFResultSection\"8Q16^B24"
+- "@\"WBSCompletionQuery\""
+- "@\"WBSJSONMutator\""
+- "@\"WBSParsecDFeedbackDispatcher\""
+- "@\"WBSParsecDSession\""
+- "@\"WBSQuerySuggestion\"16@0:8"
+- "@\"WBSUserDefinedContentBlockerCrossSiteContent\""
+- "@\"WBSWebExtensionCommand\"16@?0@\"_WKWebExtensionCommand\"8"
+- "@\"WBSWebExtensionMatchPattern\"16@?0@\"_WKWebExtensionMatchPattern\"8"
+- "@\"WBSWebExtensionMatchPattern\"24@?0@\"_WKWebExtensionMatchPattern\"8^B16"
+- "@\"_WKWebExtension\""
+- "@\"_WKWebExtensionAction\""
+- "@\"_WKWebExtensionCommand\""
+- "@\"_WKWebExtensionContext\""
+- "@\"_WKWebExtensionController\""
+- "@\"_WKWebExtensionMatchPattern\""
+- "@\"_WKWebExtensionMatchPattern\"24@?0@\"WBSWebExtensionMatchPattern\"8^B16"
+- "@16@?0@\"SFSearchResult\"8"
+- "@24@0:8#16"
+- "@32@0:8#16@24"
+- "@40@0:8@16Q24@32"
+- "@`"
+- "Aq"
+- "Attempting to update cloud AutoFill corrections"
+- "B16@?0@\"WBSQuerySuggestion\"8"
+- "B16@?0@\"WBSScribbleElement\"8"
+- "B16@?0@\"_EXExtensionIdentity\"8"
+- "Beginning remote data update"
+- "CanProvisionPrivateEmail"
+- "CannotProvisionPrivateEmail"
+- "Cloud AutoFill correction sets exceeded maximum length (%!l(MISSING)lu > %!l(MISSING)lu)"
+- "Completed update of correction sets"
+- "Completed update of domain list"
+- "Couldn't retrieve JSON from file while trying to fuzz search results"
+- "Couldn't serialize JSON while trying to fuzz search results"
+- "Couldn't serialize mutated JSON for logging"
+- "Couldn't write mutated JSON log"
+- "CrowdsourcedAutoFill"
+- "Failed to delete url. Error code: %!d(MISSING)"
+- "Failed to fetch LP metadata for URL: %!{(MISSING)sensitive}@ with error: %!{(MISSING)public}@."
+- "Failed to serialize feedback of type %!l(MISSING)u with error %!{(MISSING)public}@"
+- "Failed to update timestamp for metadata UUID: %!{(MISSING)private}@. Error code: %!d(MISSING)"
+- "Fetching LP metadata for URL: %!{(MISSING)sensitive}@."
+- "Fetching cloud AutoFill corrections resource"
+- "Ignoring response to stale task %!p(MISSING)"
+- "Initiating ParsecD query"
+- "Initiating ParsecD query: %!{(MISSING)private}@"
+- "Last AutoFill corrections URL: %!@(MISSING)"
+- "No UUID found for URL: %!{(MISSING)sensitive}@."
+- "No correction data retrieved; bailing"
+- "No domain policy data retrieved; bailing"
+- "No new domain policy URL supplied; bailing"
+- "Not updating cloud AutoFill corrections since no update is needed"
+- "PARSessionDelegate"
+- "Parsec"
+- "Parsec Results: [%!{(MISSING)public}@]"
+- "PegasusResponseFuzzer"
+- "PegasusResponseFuzzingJSON.json"
+- "PegasusResponseRegression"
+- "Posting feedback to parsecd"
+- "Posting feedback to parsecd: %!{(MISSING)private}@"
+- "PrimaryAccountNotAvaialable"
+- "PrivateEmailExists"
+- "Q40@0:8@\"<_CompletionListRankingObserverFeedbackGenerator>\"16@\"<WBSCompletionListItem>\"24@\"<WBSCompletionListItem>\"32"
+- "Q40@0:8@16@24@32"
+- "REPLACE INTO page_url (url, uuid) VALUES (?, ?)"
+- "Received result of unknown type %!{(MISSING)public}@"
+- "Response to task %!p(MISSING) was %!p(MISSING)"
+- "Response to task %!p(MISSING) was %!p(MISSING) with error %!{(MISSING)public}@"
+- "Response to task %!{(MISSING)private}@ was %!{(MISSING)private}@"
+- "SELECT p.uuid, u.timestamp FROM page_url p join uuid_info u on p.uuid = u.uuid WHERE p.url = ?"
+- "Safari"
+- "Safari/%!s(MISSING)"
+- "SafariPegasusResponseFuzzerSampleInputs"
+- "SelectedMaskEraseEffect"
+- "Sending %!{(MISSING)public}@ search start feedback to parsecd."
+- "Sending %!{(MISSING)public}@ search start feedback to parsecd: %!{(MISSING)private}@"
+- "Sending AutoFill feedback: %!@(MISSING)"
+- "Sending bookmarks/history search end feedback to parsecd: %!p(MISSING) (paired with search start feedback: %!p(MISSING))"
+- "Sending bookmarks/history search end feedback to parsecd: %!{(MISSING)private}@ (paired with search start feedback: %!{(MISSING)private}@)"
+- "Sending input field cleared feedback to parsecd"
+- "Sending new tab feedback to parsecd"
+- "T@\"<WBSCompletionListRankingObserverDelegate>\",W,N,V_delegate"
+- "T@\"<WBSParsecFeedbackDispatcher>\",R,N"
+- "T@\"<_CompletionListRankingObserverFeedbackGeneratorDelegate>\",?,W,N"
+- "T@\"NSDate\",C,N,V_dateAdded"
+- "T@\"NSString\",?,R,C,N"
+- "T@\"NSString\",?,R,N"
+- "T@\"NSString\",C,N,V_urlString"
+- "T@\"NSString\",C,N,V_uuidString"
+- "T@\"NSString\",R,C,N,V_tag"
+- "T@\"NSString\",R,N,V_domain"
+- "T@\"NSString\",R,N,V_imageURL"
+- "T@\"NSString\",R,N,V_privateEmailAddress"
+- "T@\"NSURL\",C,N,V_iframeSourceURL"
+- "T@\"PARSession\",R,N,V_parsecdSession"
+- "T@\"SFRankingFeedback\",R,N"
+- "T@\"SFRankingFeedback\",R,N,V_rankingFeedback"
+- "T@\"SFSearchResult\",R,N"
+- "T@\"WBSParsecDSession\",R,N,V_parsecSession"
+- "T@\"WBSPegasusResponseFuzzer\",R,N"
+- "T@\"WBSQuerySuggestion\",?,&,N"
+- "T@\"WBSUserDefinedContentBlockerCrossSiteContent\",R,N"
+- "T@\"_WKWebExtension\",R,N,V_webKitExtension"
+- "T@\"_WKWebExtensionAction\",&,N,V_webKitAction"
+- "T@\"_WKWebExtensionCommand\",R,N,V_webKitCommand"
+- "T@\"_WKWebExtensionContext\",R,N,V_webKitContext"
+- "T@\"_WKWebExtensionController\",R,N,V_webKitController"
+- "T@\"_WKWebExtensionMatchPattern\",R,N,V_webKitMatchPattern"
+- "TB,N,V_restoredFromGlobalRule"
+- "TB,R,N,V_skipAutoFillDataUpdates"
+- "TQ,R,N,V_state"
+- "TQ,V_currentQueryID"
+- "Tab bar, %!z(MISSING)u tabs"
+- "Tab bar, %!z(MISSING)u tabs, %!z(MISSING)u pinned"
+- "Tab bar, no tabs"
+- "Td,N,SsetUIScale:"
+- "Td,N,SsetUIScale:,V_uiScale"
+- "UPDATE uuid_info SET timestamp = ? WHERE uuid = ?"
+- "Unable to read TLD whitelist: %!{(MISSING)public}@"
+- "Unable to read cloud AutoFill correction sets, error: %!{(MISSING)public}@"
+- "Unable to transition update activity to state Continue; bailing"
+- "Unable to transition update activity to state Done"
+- "WBSCompletionListItem"
+- "WBSCompletionListRankingObserver"
+- "WBSHideMyEmailRecord"
+- "WBSParsecDFeedbackDispatcher"
+- "WBSParsecDSession"
+- "WBSParsecFeedbackDispatcher"
+- "WBSParsecGlobalFeedbackDispatcher"
+- "WBSParsecSearchResult"
+- "WBSParsecSearchSession"
+- "WBSPegasusResponseFuzzer"
+- "WBSTabBarUIString"
+- "_CompletionListRankingObserverFeedbackGenerator"
+- "_CompletionListRankingObserverFeedbackGeneratorDelegate"
+- "_WBSSearchFoundationFeedbackGenerator"
+- "_WKWebExtensionControllerDelegate"
+- "__vfx_script_SelectedMaskEraseEffectForSunburst_graph_949E61E3_E147_4B13_857E_B5CB57635D87"
+- "__vfx_script_SelectedMaskEraseEffectForSunburst_graph_DC680B38_F027_4C51_B1B0_557E92AAEFE7"
+- "__vfx_script_SelectedMaskEraseEffect_graph_949E61E3_E147_4B13_857E_B5CB57635D87"
+- "__vfx_script_SelectedMaskEraseEffect_graph_DC680B38_F027_4C51_B1B0_557E92AAEFE7"
+- "_availableInCurrentRegionCompletionHandler"
+- "_availableLocalePairsCompletionHandler"
+- "_commitPreviousSectionIfNecessary"
+- "_createFeedbackGenerator"
+- "_crossSiteContent"
+- "_currentQuery"
+- "_currentQueryForVisibleResultsFeedback"
+- "_currentQueryID"
+- "_currentResponse"
+- "_currentSectionBundleIdentifier"
+- "_currentSectionResultRankingFeedbackObjects"
+- "_customFeedbackOfType:JSONDictionary:"
+- "_deleteMetadataInfoForURLString:uuid:"
+- "_didFailDiskCacheWriteForUUID:completionHandler:"
+- "_didReceiveResponse:error:forTask:query:"
+- "_didRetrieveEntryURL:forMetadataInfo:completionHandler:"
+- "_elements"
+- "_feedbackDispatcher"
+- "_feedbackGenerator"
+- "_feedbackListeners"
+- "_feedbackQueue"
+- "_firstCardSectionOfClass:ofCard:"
+- "_geoUserSessionLock"
+- "_getCachedMetadataForRequest:completionHandler:"
+- "_hiddenIgnoredSiriSuggestedWebsite"
+- "_hideElementUsingPaintAvoidance:forGlobalRule:completion:"
+- "_iframeSourceURL"
+- "_imageLock"
+- "_indexOfCurrentResponse"
+- "_isMetadataExpired:"
+- "_jsonMutator"
+- "_lastSimulatedJSON"
+- "_parsecEnabledDidChange:"
+- "_parsecSession"
+- "_parsecdSession"
+- "_postFeedbackOnFeedbackQueue:forQueryID:"
+- "_postMapsFeedbackForResults:queryString:"
+- "_postPendingVisibleResultsFeedbackEventsForQueryID:queryString:"
+- "_previousQueryForVisibleResultsFeedback"
+- "_previousQueryIDForRankedResultsFeedback"
+- "_previousRankingFeedbackEventsSentForCurrentQueryID"
+- "_privateEmailAddress"
+- "_protectedFields"
+- "_queriesToDictionariesFromSearchTypesToStartSearchFeedbacks"
+- "_queriesToDictionariesMappingQueue"
+- "_query"
+- "_rankingFeedback"
+- "_rankingFeedback:isShallowEqual:"
+- "_rankingStartDate"
+- "_recordMutatedPegasusResponseJSON"
+- "_removehiddenResultsAndAddInFlowElements"
+- "_requestProcessingQueue"
+- "_restoredFromGlobalRule"
+- "_rewrittenQueryStringFromParsec"
+- "_sectionRankingFeedbackObjects"
+- "_sendPendingVisibleResultsFeedbackFeedbackEventsTimer"
+- "_setCurrentQuery:withKeyboardInputType:"
+- "_setStartSearchFeedback:forSearchOfType:withQuery:"
+- "_setTimestampToNowForUUID:"
+- "_setUUID:forURLString:"
+- "_sfSearchResult"
+- "_sharedSessionConfiguration"
+- "_shouldAttachMutatedJSONToTestResultKeys"
+- "_shouldValidateOrUpdateScrollability"
+- "_simulatePARResponseFromJSON:response:task:error:"
+- "_skipAutoFillDataUpdates"
+- "_startUpdatingAutoFillDataInBackgroundIfPossibleForSession:"
+- "_tag"
+- "_takeStartSearchFeedbackForSearchOfType:forQuery:"
+- "_targetedElementsHiddenByUser"
+- "_targetsToHide"
+- "_threadUnsafeGEOUserSessionEntity"
+- "_uiScale"
+- "_updateAutoFillCorrectionSetsIfNeededForSession:completionHandler:"
+- "_updateAutoFillTLDsIfNeededForSession:completionHandler:"
+- "_updateParsecAvailabilityInSessionConfiguration:"
+- "_validJSONPARResponse"
+- "_validPegasusResponseForKey:"
+- "_visibleResultsFeedbackEventsToBeSent"
+- "accessibilityLabelForNumberOfTabs:andNumberOfPinnedTabs:"
+- "appPunchoutURL"
+- "appleReferrer"
+- "areSiriSearchSuggestionsEnabled"
+- "autofill_corrections_url"
+- "autofill_tld_whitelist_url"
+- "body,html{overflow:scroll!important;pointer-events:auto!important;}"
+- "bookmarks/history"
+- "bundleURL"
+- "captureMapsResultsDisplayedFeedbackForQueryString:resultsArray:"
+- "card"
+- "com.apple.SafariShared.WBSParsecDFeedbackDispatcher"
+- "com.apple.SafariShared.WBSParsecDSession.initialAutofillDataUpdateQueue"
+- "com.apple.SafariShared.WBSParsecDSession.requestProcessingQueue"
+- "com.apple.safari.keystroke"
+- "com.apple.safari.mictap"
+- "com.apple.safarishared.WBSParsecDSession.autoFillDataUpdate"
+- "completedQuery"
+- "completion"
+- "completionListRankingObserver:frequentlyVisitedSitesIndexOfItem:hidingItem:"
+- "completionListRankingObserverFeedbackGenerator:frequentlyVisitedSitesIndexOfItem:hidingItem:"
+- "corrections"
+- "createFileAtPath:contents:attributes:"
+- "crossSiteContentIfAvailable"
+- "cssPath"
+- "currentKeyboardIdentifierWithLayoutsForSession:completionHandler:"
+- "currentQueryID"
+- "decodeIntegerForKey:"
+- "decodeObjectForKey:"
+- "defaultSearchEngineMatchesExperiment"
+- "deleteUnassociatedCrossSiteContent"
+- "descriptionText"
+- "desiredIndex"
+- "desiredParentTab"
+- "desiredURL"
+- "desiredWindow"
+- "didAddItem:"
+- "didAddItem:hidingOutrankedResults:hidingDuplicateResults:"
+- "didBeginRanking"
+- "didBeginSearchOfType:withQuery:endpoint:"
+- "didBeginSearchOfType:withQuery:urlString:headers:endpoint:"
+- "didBeginSectionWithBundleIdentifier:"
+- "didCancelScribbleSBA"
+- "didClearScribbleSBA"
+- "didDisplayCompletionListItems:forQuery:forEvent:"
+- "didEncounterHiddenIgnoredSiriSuggestedSite:"
+- "didEndRanking"
+- "didFinishScribbleSBA:"
+- "didGenerateCompletionListItemsWithRankingObserver:forQueryID:"
+- "didHideMoreItemsSBA"
+- "didHideRepeatedlyIgnoredSiriSuggestedSiteWithFeedbackEvent:"
+- "didRankSections:blendingDuration:feedbackForHiddenAndDuplicateResults:forQueryID:hiddenIgnoredSiriSuggestedSite:"
+- "didReceiveLocalResultsForQuery:"
+- "didReceiveParsecResultsAfterTimeout:"
+- "discoverabilityTitle"
+- "embeddedIFrame"
+- "engagementDestination"
+- "experimentId"
+- "fbr"
+- "feedbackDispatcher"
+- "feedbackIdentifier"
+- "fileHandleAndAttributesForResource:completion:"
+- "fire"
+- "flight"
+- "flights"
+- "flush"
+- "generateLockupViewsForAvailableApps:completionHandler:"
+- "generic"
+- "geoUserSessionEntity"
+- "getLastCorrectionsRetrievalURLStringWithResultHandler:"
+- "getLastPolicyRetrievalURLStringWithResultHandler:"
+- "h"
+- "hasSimilarGeometry"
+- "hasSimilarRenderedText:"
+- "hiddenResults"
+- "identifiers"
+- "iframeSourceURL"
+- "imageForURL:"
+- "initWithCfDiffered:cfUsed:cfError:"
+- "initWithCorrectionsStore:"
+- "initWithEvent:"
+- "initWithEvent:timeInterval:queryId:"
+- "initWithFeedbackAllowList:"
+- "initWithId:userAgent:"
+- "initWithInput:"
+- "initWithInput:endpoint:"
+- "initWithInput:triggerEvent:searchType:indexType:queryId:originatingApp:"
+- "initWithInput:url:headers:triggerEvent:endpoint:queryId:"
+- "initWithParsecSession:sampleResponsesPlistKey:"
+- "initWithParsecdSession:skipAutoFillDataUpdates:"
+- "initWithResult:"
+- "initWithResult:hiddenResults:duplicateResults:localResultPosition:"
+- "initWithResult:triggerEvent:destination:"
+- "initWithResults:"
+- "initWithResults:section:localSectionPosition:personalizationScore:"
+- "initWithResults:triggerEvent:"
+- "initWithSFSearchResult:"
+- "initWithSections:blendingDuration:"
+- "initWithSelector:type:"
+- "initWithSession:"
+- "initWithSource:protectedFields:"
+- "initWithSource:title:extraAttributes:"
+- "initWithStartSearch:"
+- "initWithSuggestion:query:score:type:"
+- "initWithType:data:"
+- "initWithURL:resolvingAgainstBaseURL:"
+- "initWithURLString:uuidString:date:"
+- "isSMARTParsecResultsEnabled"
+- "lastSearchQuery"
+- "linkAndUpdateTimestampForMetadataWithURLString:completionHandler:"
+- "linkURLString:withUUIDForURLString:completionHandler:"
+- "makeContentBlockerAction"
+- "maps"
+- "mapsData"
+- "metadataForURLString:completionHandler:"
+- "metadataInfoForURLString:completionHandler:"
+- "minimumRankOfTopHitToSuppressResult"
+- "mutatedJSONProtectingRootObject:"
+- "namespaceName"
+- "parsecDomainIdentifier"
+- "parsecQueryID"
+- "parsecSession"
+- "parsecdSession"
+- "postFeedback:forQueryID:"
+- "preferredOpenableURL"
+- "punchout"
+- "queryID"
+- "queryId"
+- "querySuggestions"
+- "rankingFeedback"
+- "rawBag"
+- "readDataToEndOfFile"
+- "referrerForLoadingResult"
+- "removeAllSectionsAndItems"
+- "removeMetadataInfoForURLString:completionHandler:"
+- "reportFeedback:queryId:"
+- "responseForQuery:"
+- "responseFromJSON:session:"
+- "restoredFromGlobalRule"
+- "result"
+- "resultTemplate"
+- "resultType"
+- "rewrittenQueryStringFromParsec"
+- "safariAttributes"
+- "safari_belongsToCookieDomain:"
+- "safari_sfSearchResultWithUniqueIdentifier"
+- "safari_urlHashesOfComponents"
+- "sampleJSON"
+- "saveWebpageCompleteToURL:withCollectionMethod:collectionOptions:completionHandler:"
+- "search engine"
+- "searchRequestWithString:triggerEvent:queryId:"
+- "searchViewAppearedBecauseOfEvent:forQueryID:usesLoweredSearchBar:"
+- "searchViewAppearedBecauseOfEvent:isSafariReaderAvailable:forQueryID:usesLoweredSearchBar:"
+- "searchViewDisappearedBecauseOfEvent:forQueryID:"
+- "secondaryTitle"
+- "section"
+- "sectionHeader"
+- "sections"
+- "seekToEndOfFile"
+- "seekToFileOffset:"
+- "sendClearInputFeedbackWithTriggerEvent:forQueryID:"
+- "sendCrowdsourcedAutoFillFeedback:forQueryID:"
+- "sendNewTabFeedback:"
+- "session:bag:didLoadWithError:"
+- "session:didDeleteResource:"
+- "session:didDownloadResource:"
+- "session:didReceiveResults:forQuery:"
+- "sessionWithConfiguration:"
+- "setActionTarget:"
+- "setCorrectionsWithJSONData:retrievalURLString:"
+- "setCrossSiteContentCandidate:"
+- "setCurrentQuery:"
+- "setCurrentQueryID:"
+- "setDateAdded:"
+- "setExperimentId:"
+- "setExperimentNamespaceId:"
+- "setFragment:"
+- "setHiddenResults:"
+- "setHideReason:"
+- "setIframeSourceURL:"
+- "setIsUsingLoweredSearchBar:"
+- "setKeyboardInputMode:"
+- "setLocalContextualSuggestions:"
+- "setMapsData:"
+- "setMatchesUnengagedSuggestion:"
+- "setMetadata:forURLString:completionHandler:"
+- "setParsecEnabled:"
+- "setParsecQueryID:"
+- "setPoliciesWithJSONData:retrievalURLString:"
+- "setQuery:"
+- "setQueryId:"
+- "setQuerySuggestions:"
+- "setReaderTextAvailable:"
+- "setRestoredFromGlobalRule:"
+- "setResults:"
+- "setRewrittenQueryStringFromParsec:"
+- "setSafariAttributes:"
+- "setScale:"
+- "setSectionBundleIdentifier:"
+- "setSharedMapsUserSessionEntity:shareSessionIDWithMaps:"
+- "setSiriSuggestion:"
+- "setTopicIdentifier:"
+- "setTreatmentId:"
+- "setTriggerEvent:"
+- "setUIScale:"
+- "setUrlString:"
+- "setUuidString:"
+- "sfSearchResultValue"
+- "shared"
+- "sharedCorrectionsProcessor"
+- "sharedDomainPolicyProvider"
+- "sharedFuzzer"
+- "sharedPARSessionWithConfiguration:"
+- "shouldActivate"
+- "shouldMute"
+- "shouldPin"
+- "shouldShowReaderMode"
+- "simple"
+- "siriSuggestion"
+- "skipAutoFillDataUpdates"
+- "sports"
+- "standardStore"
+- "stringForType"
+- "subtitle"
+- "suggestion"
+- "tag"
+- "targetsToHide"
+- "taskWithRequest:completion:"
+- "textWithString:"
+- "topHit"
+- "treatmentId"
+- "trialABGroupIdentifier"
+- "triggerEvent"
+- "triggeredExperimentWithTreatmentId:withQueryID:"
+- "triggeredExperimentWithTreatmentId:withQueryID:cfDiffered:cfUsed:cfError:"
+- "unkown"
+- "urlSimilarity"
+- "urlValue"
+- "userDidCancelSession"
+- "userDidCancelSession:"
+- "userDidEngageWithCompletionListItem:onActionButton:method:"
+- "userDidEngageWithCompletionListItem:onActionButton:method:doesMatchSiriSuggestion:voiceSearchQueryID:"
+- "userDidEngageWithCompletionListItem:withCardActionDictionary:"
+- "userDidTapMicKey:"
+- "userDidTypeKey:"
+- "userTypedGoToSearch:endpoint:triggerEvent:forQueryID:"
+- "userTypedURLDirectlyForQuery:triggerEvent:"
+- "v16@?0@\"NSObject<OS_xpc_object>\"8"
+- "v24@0:8@\"<WBSParsecSearchSessionDelegate>\"16"
+- "v24@0:8@\"<_CompletionListRankingObserverFeedbackGeneratorDelegate>\"16"
+- "v24@0:8@\"NSString\"16"
+- "v24@0:8@\"SFExperimentTriggeredFeedback\"16"
+- "v24@0:8@\"WBSCompletionQuery\"16"
+- "v24@0:8@\"WBSQuerySuggestion\"16"
+- "v32@0:8@\"<WBSCompletionListItem>\"16@\"NSDictionary\"24"
+- "v32@0:8@\"NSDictionary\"16q24"
+- "v32@0:8@\"PARSession\"16@\"NSString\"24"
+- "v32@0:8@\"WBSCompletionListRankingObserver\"16q24"
+- "v32@0:8@\"WBSCompletionQuery\"16q24"
+- "v32@0:8Q16q24"
+- "v32@0:8q16q24"
+- "v32@?0@\"NSFileHandle\"8@\"NSDictionary\"16@\"NSError\"24"
+- "v32@?0@\"PARTask\"8@\"PARResponse\"16@\"NSError\"24"
+- "v32@?0@\"SFCardSection\"8Q16^B24"
+- "v36@0:8@\"<WBSCompletionListItem>\"16B24q28"
+- "v36@0:8@16B24q28"
+- "v36@0:8Q16q24B32"
+- "v40@0:8@\"<WBSCompletionListItem>\"16@\"NSArray\"24@\"NSArray\"32"
+- "v40@0:8@\"NSArray\"16@\"WBSCompletionQuery\"24q32"
+- "v40@0:8@\"PARSession\"16@\"PARBag\"24@\"NSError\"32"
+- "v40@0:8@\"_WKWebExtensionController\"16@\"_WKWebExtensionContext\"24@?<v@?@\"NSError\">32"
+- "v40@0:8Q16B24q28B36"
+- "v40@0:8q16@\"WBSCompletionQuery\"24Q32"
+- "v40@0:8q16@24Q32"
+- "v48@0:8@\"<WBSCompletionListItem>\"16B24q28B36@\"NSNumber\"40"
+- "v48@0:8@\"NSString\"16Q24q32q40"
+- "v48@0:8@\"_WKWebExtensionController\"16@\"_WKWebExtensionAction\"24@\"_WKWebExtensionContext\"32@?<v@?@\"NSError\">40"
+- "v48@0:8@\"_WKWebExtensionController\"16@\"_WKWebExtensionMessagePort\"24@\"_WKWebExtensionContext\"32@?<v@?@\"NSError\">40"
+- "v48@0:8@\"_WKWebExtensionController\"16@\"_WKWebExtensionTabCreationOptions\"24@\"_WKWebExtensionContext\"32@?<v@?@\"<_WKWebExtensionTab>\"@\"NSError\">40"
+- "v48@0:8@\"_WKWebExtensionController\"16@\"_WKWebExtensionWindowCreationOptions\"24@\"_WKWebExtensionContext\"32@?<v@?@\"<_WKWebExtensionWindow>\"@\"NSError\">40"
+- "v48@0:8@16@24@32@40"
+- "v48@0:8@16B24q28B36@40"
+- "v48@0:8@16Q24q32q40"
+- "v48@0:8@16q24B32B36Q40"
+- "v56@0:8@\"_WKWebExtensionController\"16@\"NSSet\"24@\"<_WKWebExtensionTab>\"32@\"_WKWebExtensionContext\"40@?<v@?@\"NSSet\"@\"NSDate\">48"
+- "v56@0:8@\"_WKWebExtensionController\"16@24@\"NSString\"32@\"_WKWebExtensionContext\"40@?<v@?@@\"NSError\">48"
+- "v56@0:8@16d24@32q40@48"
+- "v56@0:8q16@\"WBSCompletionQuery\"24@\"NSString\"32@\"NSDictionary\"40Q48"
+- "v56@0:8q16@24@32@40Q48"
+- "w"
+- "weakToStrongObjectsMapTable"
+- "webExtensionController:openNewTabWithOptions:forExtensionContext:completionHandler:"
+- "webExtensionController:openNewWindowWithOptions:forExtensionContext:completionHandler:"
+- "web_suggest"
+- "writeToFile:atomically:encoding:error:"
+- "{CGRect={CGPoint=dd}{CGSize=dd}}"
+
+```

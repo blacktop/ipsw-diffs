@@ -1,0 +1,197 @@
+## SharedMemory
+
+> `/System/ExclaveKit/System/Library/Frameworks/SharedMemory.framework/SharedMemory`
+
+```diff
+
+-33.0.0.0.0
+-  __TEXT.__text: 0x102d0
+-  __TEXT.__auth_stubs: 0x540
++40.60.7.0.0
++  __TEXT.__text: 0x104cc
++  __TEXT.__auth_stubs: 0x570
+   __TEXT.__const: 0x518
+   __TEXT.__cstring: 0x3ae1
+   __TEXT.__swift5_typeref: 0x1f6
+
+   __TEXT.__swift5_assocty: 0x48
+   __TEXT.__swift5_proto: 0x38
+   __TEXT.__swift5_types: 0x70
+-  __TEXT.__unwind_info: 0x480
++  __TEXT.__unwind_info: 0x4a0
+   __TEXT.__eh_frame: 0x308
+-  __DATA.__auth_got: 0x2a0
++  __DATA.__auth_got: 0x2b8
+   __DATA.__got: 0x50
+   __DATA.__auth_ptr: 0x40
+   __DATA.__const: 0x1408
+
+   - /System/ExclaveKit/usr/lib/swift/libswift_errno.dylib
+   - /System/ExclaveKit/usr/lib/swift/libswift_stdio.dylib
+   - /System/ExclaveKit/usr/lib/swift/libswift_time.dylib
+-  Functions: 491
+-  Symbols:   1054
++  Functions: 501
++  Symbols:   1067
+   CStrings:  214
+ 
+Symbols:
++ ___sharedmemory_segaccess__server_start_owned_block_invoke
++ ___sharedmemory_segaccess__server_start_owned_block_invoke_2
++ ___sharedmemory_segbacking__server_start_owned_block_invoke
++ ___sharedmemory_segbacking__server_start_owned_block_invoke_2
++ ___sharedmemory_segdump__server_start_owned_block_invoke
++ ___sharedmemory_segdump__server_start_owned_block_invoke_2
++ __sharedmemory_segaccess__server_start_owned_block_invoke.102
++ __sharedmemory_segaccess__server_start_owned_block_invoke.102.cold.1
++ __sharedmemory_segaccess__server_start_owned_block_invoke.109
++ __sharedmemory_segaccess__server_start_owned_block_invoke.109.cold.1
++ __sharedmemory_segaccess__server_start_owned_block_invoke.51
++ __sharedmemory_segaccess__server_start_owned_block_invoke.51.cold.1
++ __sharedmemory_segaccess__server_start_owned_block_invoke.58
++ __sharedmemory_segaccess__server_start_owned_block_invoke.58.cold.1
++ __sharedmemory_segaccess__server_start_owned_block_invoke.65
++ __sharedmemory_segaccess__server_start_owned_block_invoke.65.cold.1
++ __sharedmemory_segaccess__server_start_owned_block_invoke.73
++ __sharedmemory_segaccess__server_start_owned_block_invoke.73.cold.1
++ __sharedmemory_segaccess__server_start_owned_block_invoke.81
++ __sharedmemory_segaccess__server_start_owned_block_invoke.81.cold.1
++ __sharedmemory_segaccess__server_start_owned_block_invoke.88
++ __sharedmemory_segaccess__server_start_owned_block_invoke.88.cold.1
++ __sharedmemory_segaccess__server_start_owned_block_invoke.95
++ __sharedmemory_segaccess__server_start_owned_block_invoke.95.cold.1
++ __sharedmemory_segaccess__server_start_owned_block_invoke.cold.1
++ __sharedmemory_segaccess__server_start_owned_block_invoke.cold.10
++ __sharedmemory_segaccess__server_start_owned_block_invoke.cold.11
++ __sharedmemory_segaccess__server_start_owned_block_invoke.cold.12
++ __sharedmemory_segaccess__server_start_owned_block_invoke.cold.13
++ __sharedmemory_segaccess__server_start_owned_block_invoke.cold.14
++ __sharedmemory_segaccess__server_start_owned_block_invoke.cold.15
++ __sharedmemory_segaccess__server_start_owned_block_invoke.cold.16
++ __sharedmemory_segaccess__server_start_owned_block_invoke.cold.17
++ __sharedmemory_segaccess__server_start_owned_block_invoke.cold.18
++ __sharedmemory_segaccess__server_start_owned_block_invoke.cold.19
++ __sharedmemory_segaccess__server_start_owned_block_invoke.cold.2
++ __sharedmemory_segaccess__server_start_owned_block_invoke.cold.20
++ __sharedmemory_segaccess__server_start_owned_block_invoke.cold.21
++ __sharedmemory_segaccess__server_start_owned_block_invoke.cold.22
++ __sharedmemory_segaccess__server_start_owned_block_invoke.cold.23
++ __sharedmemory_segaccess__server_start_owned_block_invoke.cold.24
++ __sharedmemory_segaccess__server_start_owned_block_invoke.cold.25
++ __sharedmemory_segaccess__server_start_owned_block_invoke.cold.26
++ __sharedmemory_segaccess__server_start_owned_block_invoke.cold.27
++ __sharedmemory_segaccess__server_start_owned_block_invoke.cold.28
++ __sharedmemory_segaccess__server_start_owned_block_invoke.cold.29
++ __sharedmemory_segaccess__server_start_owned_block_invoke.cold.3
++ __sharedmemory_segaccess__server_start_owned_block_invoke.cold.30
++ __sharedmemory_segaccess__server_start_owned_block_invoke.cold.31
++ __sharedmemory_segaccess__server_start_owned_block_invoke.cold.4
++ __sharedmemory_segaccess__server_start_owned_block_invoke.cold.5
++ __sharedmemory_segaccess__server_start_owned_block_invoke.cold.6
++ __sharedmemory_segaccess__server_start_owned_block_invoke.cold.7
++ __sharedmemory_segaccess__server_start_owned_block_invoke.cold.8
++ __sharedmemory_segaccess__server_start_owned_block_invoke.cold.9
++ __sharedmemory_segbacking__server_start_owned_block_invoke.21
++ __sharedmemory_segbacking__server_start_owned_block_invoke.21.cold.1
++ __sharedmemory_segbacking__server_start_owned_block_invoke.29
++ __sharedmemory_segbacking__server_start_owned_block_invoke.29.cold.1
++ __sharedmemory_segbacking__server_start_owned_block_invoke.cold.1
++ __sharedmemory_segbacking__server_start_owned_block_invoke.cold.2
++ __sharedmemory_segbacking__server_start_owned_block_invoke.cold.3
++ __sharedmemory_segbacking__server_start_owned_block_invoke.cold.4
++ __sharedmemory_segbacking__server_start_owned_block_invoke.cold.5
++ __sharedmemory_segbacking__server_start_owned_block_invoke.cold.6
++ __sharedmemory_segbacking__server_start_owned_block_invoke.cold.7
++ __sharedmemory_segbacking__server_start_owned_block_invoke.cold.8
++ __sharedmemory_segbacking__server_start_owned_block_invoke.cold.9
++ __sharedmemory_segdump__server_start_owned_block_invoke.cold.1
++ __sharedmemory_segdump__server_start_owned_block_invoke.cold.2
++ __sharedmemory_segdump__server_start_owned_block_invoke.cold.3
++ _sharedmemory_segaccess__destruct
++ _sharedmemory_segaccess__server_start_owned
++ _sharedmemory_segaccess__server_stop
++ _sharedmemory_segbacking__destruct
++ _sharedmemory_segbacking__server_start_owned
++ _sharedmemory_segbacking__server_stop
++ _sharedmemory_segdump__destruct
++ _sharedmemory_segdump__server_start_owned
++ _sharedmemory_segdump__server_stop
++ _sharedmemorybase_mappingresult__destruct
++ _tb_client_connection_destruct
++ _tb_endpoint_set_interface_identifier
++ _tb_message_configure_received
++ _tb_service_connection_destruct
+- ___sharedmemory_segaccess__server_start_block_invoke
+- ___sharedmemory_segaccess__server_start_block_invoke_2
+- ___sharedmemory_segbacking__server_start_block_invoke
+- ___sharedmemory_segbacking__server_start_block_invoke_2
+- ___sharedmemory_segdump__server_start_block_invoke
+- ___sharedmemory_segdump__server_start_block_invoke_2
+- __sharedmemory_segaccess__server_start_block_invoke.102
+- __sharedmemory_segaccess__server_start_block_invoke.102.cold.1
+- __sharedmemory_segaccess__server_start_block_invoke.109
+- __sharedmemory_segaccess__server_start_block_invoke.109.cold.1
+- __sharedmemory_segaccess__server_start_block_invoke.51
+- __sharedmemory_segaccess__server_start_block_invoke.51.cold.1
+- __sharedmemory_segaccess__server_start_block_invoke.58
+- __sharedmemory_segaccess__server_start_block_invoke.58.cold.1
+- __sharedmemory_segaccess__server_start_block_invoke.65
+- __sharedmemory_segaccess__server_start_block_invoke.65.cold.1
+- __sharedmemory_segaccess__server_start_block_invoke.73
+- __sharedmemory_segaccess__server_start_block_invoke.73.cold.1
+- __sharedmemory_segaccess__server_start_block_invoke.81
+- __sharedmemory_segaccess__server_start_block_invoke.81.cold.1
+- __sharedmemory_segaccess__server_start_block_invoke.88
+- __sharedmemory_segaccess__server_start_block_invoke.88.cold.1
+- __sharedmemory_segaccess__server_start_block_invoke.95
+- __sharedmemory_segaccess__server_start_block_invoke.95.cold.1
+- __sharedmemory_segaccess__server_start_block_invoke.cold.1
+- __sharedmemory_segaccess__server_start_block_invoke.cold.10
+- __sharedmemory_segaccess__server_start_block_invoke.cold.11
+- __sharedmemory_segaccess__server_start_block_invoke.cold.12
+- __sharedmemory_segaccess__server_start_block_invoke.cold.13
+- __sharedmemory_segaccess__server_start_block_invoke.cold.14
+- __sharedmemory_segaccess__server_start_block_invoke.cold.15
+- __sharedmemory_segaccess__server_start_block_invoke.cold.16
+- __sharedmemory_segaccess__server_start_block_invoke.cold.17
+- __sharedmemory_segaccess__server_start_block_invoke.cold.18
+- __sharedmemory_segaccess__server_start_block_invoke.cold.19
+- __sharedmemory_segaccess__server_start_block_invoke.cold.2
+- __sharedmemory_segaccess__server_start_block_invoke.cold.20
+- __sharedmemory_segaccess__server_start_block_invoke.cold.21
+- __sharedmemory_segaccess__server_start_block_invoke.cold.22
+- __sharedmemory_segaccess__server_start_block_invoke.cold.23
+- __sharedmemory_segaccess__server_start_block_invoke.cold.24
+- __sharedmemory_segaccess__server_start_block_invoke.cold.25
+- __sharedmemory_segaccess__server_start_block_invoke.cold.26
+- __sharedmemory_segaccess__server_start_block_invoke.cold.27
+- __sharedmemory_segaccess__server_start_block_invoke.cold.28
+- __sharedmemory_segaccess__server_start_block_invoke.cold.29
+- __sharedmemory_segaccess__server_start_block_invoke.cold.3
+- __sharedmemory_segaccess__server_start_block_invoke.cold.30
+- __sharedmemory_segaccess__server_start_block_invoke.cold.31
+- __sharedmemory_segaccess__server_start_block_invoke.cold.4
+- __sharedmemory_segaccess__server_start_block_invoke.cold.5
+- __sharedmemory_segaccess__server_start_block_invoke.cold.6
+- __sharedmemory_segaccess__server_start_block_invoke.cold.7
+- __sharedmemory_segaccess__server_start_block_invoke.cold.8
+- __sharedmemory_segaccess__server_start_block_invoke.cold.9
+- __sharedmemory_segbacking__server_start_block_invoke.21
+- __sharedmemory_segbacking__server_start_block_invoke.21.cold.1
+- __sharedmemory_segbacking__server_start_block_invoke.29
+- __sharedmemory_segbacking__server_start_block_invoke.29.cold.1
+- __sharedmemory_segbacking__server_start_block_invoke.cold.1
+- __sharedmemory_segbacking__server_start_block_invoke.cold.2
+- __sharedmemory_segbacking__server_start_block_invoke.cold.3
+- __sharedmemory_segbacking__server_start_block_invoke.cold.4
+- __sharedmemory_segbacking__server_start_block_invoke.cold.5
+- __sharedmemory_segbacking__server_start_block_invoke.cold.6
+- __sharedmemory_segbacking__server_start_block_invoke.cold.7
+- __sharedmemory_segbacking__server_start_block_invoke.cold.8
+- __sharedmemory_segbacking__server_start_block_invoke.cold.9
+- __sharedmemory_segdump__server_start_block_invoke.cold.1
+- __sharedmemory_segdump__server_start_block_invoke.cold.2
+- __sharedmemory_segdump__server_start_block_invoke.cold.3
+- _tb_message_configure_recieved
+
+```

@@ -1,0 +1,737 @@
+## SetupKit
+
+> `/System/Library/PrivateFrameworks/SetupKit.framework/SetupKit`
+
+```diff
+
+-752.1.0.0.0
+-  __TEXT.__text: 0x75140
+-  __TEXT.__auth_stubs: 0x1a30
+-  __TEXT.__objc_methlist: 0x2118
+-  __TEXT.__swift5_typeref: 0xf06
+-  __TEXT.__const: 0x395c
+-  __TEXT.__swift5_fieldmd: 0xd88
+-  __TEXT.__constg_swiftt: 0xcb0
+-  __TEXT.__swift5_reflstr: 0x8ee
+-  __TEXT.__swift5_assocty: 0x240
+-  __TEXT.__swift5_protos: 0xc
+-  __TEXT.__swift5_proto: 0x37c
+-  __TEXT.__swift5_types: 0x14c
+-  __TEXT.__cstring: 0x90c6
+-  __TEXT.__oslogstring: 0xdb1
+-  __TEXT.__swift5_capture: 0x220
+-  __TEXT.__swift5_builtin: 0x64
+-  __TEXT.__gcc_except_tab: 0xe78
+-  __TEXT.__unwind_info: 0x21e8
+-  __TEXT.__eh_frame: 0x3580
+-  __TEXT.__objc_classname: 0x438
+-  __TEXT.__objc_methname: 0x4059
+-  __TEXT.__objc_methtype: 0xba6
+-  __TEXT.__objc_stubs: 0x2fa0
+-  __DATA_CONST.__got: 0x4d0
+-  __DATA_CONST.__const: 0x1428
+-  __DATA_CONST.__objc_classlist: 0x198
++760.26.0.0.0
++  __TEXT.__text: 0x281b4
++  __TEXT.__auth_stubs: 0x7f0
++  __TEXT.__objc_methlist: 0x1e5c
++  __TEXT.__const: 0x1ca
++  __TEXT.__constg_swiftt: 0x28
++  __TEXT.__swift5_typeref: 0x6
++  __TEXT.__swift5_fieldmd: 0x10
++  __TEXT.__swift5_types: 0x4
++  __TEXT.__gcc_except_tab: 0xe50
++  __TEXT.__cstring: 0x72d2
++  __TEXT.__oslogstring: 0x113
++  __TEXT.__unwind_info: 0xa08
++  __TEXT.__objc_classname: 0x3e8
++  __TEXT.__objc_methname: 0x380b
++  __TEXT.__objc_methtype: 0xb27
++  __TEXT.__objc_stubs: 0x2ca0
++  __DATA_CONST.__got: 0x1e0
++  __DATA_CONST.__const: 0xf50
++  __DATA_CONST.__objc_classlist: 0x110
+   __DATA_CONST.__objc_protolist: 0x48
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0xf68
+-  __DATA_CONST.__objc_superrefs: 0xc0
++  __DATA_CONST.__objc_selrefs: 0xd50
++  __DATA_CONST.__objc_superrefs: 0xb0
+   __DATA_CONST.__objc_arraydata: 0x30
+-  __AUTH_CONST.__auth_got: 0xd28
+-  __AUTH_CONST.__auth_ptr: 0x3b8
+-  __AUTH_CONST.__const: 0x2848
+-  __AUTH_CONST.__cfstring: 0xc00
+-  __AUTH_CONST.__objc_const: 0x65f0
++  __AUTH_CONST.__auth_got: 0x408
++  __AUTH_CONST.__const: 0x760
++  __AUTH_CONST.__cfstring: 0xae0
++  __AUTH_CONST.__objc_const: 0x5270
+   __AUTH_CONST.__objc_arrayobj: 0x90
+   __AUTH_CONST.__objc_intobj: 0x168
+-  __AUTH.__objc_data: 0xd40
+-  __AUTH.__data: 0xda0
+-  __DATA.__objc_ivar: 0x4bc
+-  __DATA.__data: 0x1628
+-  __DATA.__bss: 0x6b38
+-  __DATA.__common: 0x10
++  __AUTH.__objc_data: 0xaa0
++  __AUTH.__data: 0x20
++  __DATA.__objc_ivar: 0x474
++  __DATA.__data: 0xc90
++  __DATA.__bss: 0x60
+   - /System/Library/Frameworks/CoreBluetooth.framework/CoreBluetooth
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+
+   - /System/Library/PrivateFrameworks/MobileActivation.framework/MobileActivation
+   - /System/Library/PrivateFrameworks/MobileWiFi.framework/MobileWiFi
+   - /System/Library/PrivateFrameworks/NetworkRelay.framework/NetworkRelay
+-  - /System/Library/PrivateFrameworks/Nexus.framework/Nexus
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/swift/libswiftCore.dylib
+
+   - /usr/lib/swift/libswiftCoreFoundation.dylib
+   - /usr/lib/swift/libswiftDarwin.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+-  - /usr/lib/swift/libswiftOSLog.dylib
+   - /usr/lib/swift/libswiftObjectiveC.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+-  - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswift_errno.dylib
+   - /usr/lib/swift/libswift_math.dylib
+   - /usr/lib/swift/libswift_signal.dylib
+
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsys_time.dylib
+   - /usr/lib/swift/libswiftunistd.dylib
+-  Functions: 2783
+-  Symbols:   1461
+-  CStrings:  2258
++  Functions: 939
++  Symbols:   1205
++  CStrings:  1754
+ 
+Symbols:
+- _CUNextID32
+- _CUNextID64
+- _MAEActivateDeviceWithError
+- _MAECreateActivationRequestWithError
+- _MAECreateSessionRequestWithError
+- _MAEGetActivationStateWithError
+- _OBJC_CLASS_$_CUMessageSession
+- _OBJC_CLASS_$_CWFScanResult
+- _OBJC_CLASS_$_NSFileManager
+- _OBJC_CLASS_$_NSHTTPURLResponse
+- _OBJC_CLASS_$_NSKeyedArchiver
+- _OBJC_CLASS_$_NSKeyedUnarchiver
+- _OBJC_CLASS_$_NSMutableString
+- _OBJC_CLASS_$_NSSet
+- _OBJC_CLASS_$_NSURLSession
+- _OBJC_CLASS_$_NSURLSessionConfiguration
+- _OBJC_CLASS_$_OS_dispatch_queue_serial
+- _OBJC_CLASS_$_SKAISSetupContext
+- _OBJC_CLASS_$_SKAISSetupController
+- _OBJC_CLASS_$_SKAISSetupReport
+- _OBJC_CLASS_$_SKTRSession
+- _OBJC_CLASS_$__TtC8SetupKit7SKError
+- _OBJC_CLASS_$__TtCs12_SwiftObject
+- _OBJC_METACLASS_$_NSError
+- _OBJC_METACLASS_$_SKAISSetupContext
+- _OBJC_METACLASS_$_SKAISSetupController
+- _OBJC_METACLASS_$_SKAISSetupReport
+- _OBJC_METACLASS_$_SKTRSession
+- _OBJC_METACLASS_$__TtC8SetupKit7SKError
+- _OBJC_METACLASS_$__TtCs12_SwiftObject
+- _SKAIDAServiceTypeCloud
+- _SKAIDAServiceTypeFaceTime
+- _SKAIDAServiceTypeGameCenter
+- _SKAIDAServiceTypeMessages
+- _SKAIDAServiceTypeStore
+- __Block_copy
+- __Block_release
+- ___chkstk_darwin
+- __os_log_debug_impl
+- __swiftEmptyArrayStorage
+- __swiftEmptyDictionarySingleton
+- __swiftEmptySetSingleton
+- __swift_FORCE_LOAD_$_swiftOSLog
+- __swift_stdlib_reportUnimplementedInitializer
+- _bzero
+- _dispatch_after
+- _dispatch_time
+- _free
+- _kMAActivationStateActivated
+- _kMAActivationStateFactoryActivated
+- _kMAOptionsActivationResponseHeaders
+- _malloc
+- _malloc_size
+- _memcpy
+- _memmove
+- _objc_allocWithZone
+- _objc_copyWeak
+- _objc_initWeak
+- _objc_opt_self
+- _objc_retainAutoreleasedReturnValue
+- _objc_retain_x27
+- _objc_retain_x28
+- _swift_allocBox
+- _swift_allocObject
+- _swift_arrayDestroy
+- _swift_arrayInitWithCopy
+- _swift_arrayInitWithTakeBackToFront
+- _swift_arrayInitWithTakeFrontToBack
+- _swift_beginAccess
+- _swift_bridgeObjectRelease
+- _swift_bridgeObjectRelease_n
+- _swift_bridgeObjectRetain
+- _swift_bridgeObjectRetain_n
+- _swift_continuation_await
+- _swift_continuation_init
+- _swift_deallocClassInstance
+- _swift_deallocObject
+- _swift_deallocPartialClassInstance
+- _swift_dynamicCast
+- _swift_dynamicCastObjCClass
+- _swift_endAccess
+- _swift_errorRelease
+- _swift_errorRetain
+- _swift_getAssociatedTypeWitness
+- _swift_getAtKeyPath
+- _swift_getEnumCaseMultiPayload
+- _swift_getEnumTagSinglePayloadGeneric
+- _swift_getErrorValue
+- _swift_getForeignTypeMetadata
+- _swift_getKeyPath
+- _swift_getObjCClassFromMetadata
+- _swift_getObjCClassMetadata
+- _swift_getObjectType
+- _swift_getSingletonMetadata
+- _swift_getTypeByMangledNameInContext2
+- _swift_getTypeByMangledNameInContextInMetadataState2
+- _swift_getWitnessTable
+- _swift_initEnumMetadataMultiPayload
+- _swift_initEnumMetadataSingleCase
+- _swift_initEnumMetadataSinglePayload
+- _swift_initStackObject
+- _swift_initStructMetadata
+- _swift_isUniquelyReferenced_nonNull_native
+- _swift_lookUpClassMethod
+- _swift_once
+- _swift_release
+- _swift_release_n
+- _swift_retain
+- _swift_retain_n
+- _swift_slowAlloc
+- _swift_slowDealloc
+- _swift_storeEnumTagMultiPayload
+- _swift_storeEnumTagSinglePayloadGeneric
+- _swift_task_alloc
+- _swift_task_create
+- _swift_task_dealloc
+- _swift_task_isCurrentExecutor
+- _swift_task_reportUnexpectedExecutor
+- _swift_task_switch
+- _swift_unknownObjectRelease
+- _swift_unknownObjectRetain
+- _swift_updateClassMetadata2
+- _swift_weakAssign
+- _swift_weakDestroy
+- _swift_weakInit
+- _swift_weakLoadStrong
+- _swift_willThrow
+CStrings:
+- "\x02\x12"
+- "\x04\x11"
+- "\x12!"
+- "### AppleAccountSetup perform failed: error=%!s(MISSING)"
+- "### AppleAccountSetup prepare failed: error=%!s(MISSING)"
+- "### PhotoPicker finish failed: error=%!s(MISSING)"
+- "### PhotoPicker start failed: error=%!s(MISSING)"
+- "### PhotoPicker transfer file failed: filename=%!s(MISSING), error=%!s(MISSING)"
+- "### WiFiSetup failed: error=%!s(MISSING)"
+- "### WiFiSetup join failed: ssid=%!s(MISSING)..., try=%!l(MISSING)d, error=%!s(MISSING)"
+- "### WiFiSetup scan failed: busy, try=%!l(MISSING)d/10"
+- "### WiFiSetup scan failed: ssid=%!s(MISSING)..., channel=%!s(MISSING), try=%!l(MISSING)d, error=%!s(MISSING)"
+- "### activation failed: error=%!s(MISSING)"
+- "### bluetooth advertiser start failed: error=%!s(MISSING)"
+- "### encode event failed: className=%!@(MISSING)"
+- "### encode request failed: className=%!@(MISSING)"
+- "### handleEvent failed: decode, error=%!@(MISSING)"
+- "### handleEvent failed: no data"
+- "### handleEvent failed: no handler, className=%!@(MISSING)"
+- "### handleEvent failed: no message class"
+- "### handleRequest failed: decode, error=%!@(MISSING)"
+- "### handleRequest failed: encode, error=%!@(MISSING)"
+- "### handleRequest failed: handler, error=%!@(MISSING)"
+- "### handleRequest failed: no data"
+- "### handleRequest failed: no handler, className=%!@(MISSING)"
+- "### handleRequest failed: no message class"
+- "### sendEvent failed: className=%!@(MISSING), error=%!d(MISSING)"
+- "### sendRequest failed: className=%!@(MISSING), error=%!@(MISSING)"
+- "### sendRequest failed: className=%!@(MISSING), error=%!d(MISSING)"
+- "/System/Library/PrivateFrameworks/AppleIDSetup.framework/AppleIDSetup"
+- "/System/Library/PrivateFrameworks/TouchRemote.framework/TouchRemote"
+- "1`"
+- "@\"AISSetupController\""
+- "@\"AISSetupReport\""
+- "@\"NSSet\""
+- "@\"SKAISSetupReport\""
+- "@32@0:8@16@24"
+- "@40@0:8@16#24^@32"
+- "@40@0:8@16q24@32"
+- "ADPD"
+- "ADPDBuffer"
+- "AISSetupContext"
+- "AISSetupController"
+- "AOPBufferLeech"
+- "ATVPair"
+- "ATVSetup"
+- "AUAction"
+- "AcceptedInvitation"
+- "AccessDigitalHomeKey"
+- "AccessibilitySwitchControlPairing"
+- "AccessorySetup"
+- "Activation bad HTTP status: statusCode="
+- "Activation non-HTTP response"
+- "AppSignIn"
+- "AppleAccountSetup perform start"
+- "AppleAccountSetup perform success: %!s(MISSING)"
+- "AppleAccountSetup prepare start: configuration=%!s(MISSING)"
+- "AppleAccountSetup prepare success"
+- "AppleAccountSetup prepare success: %!s(MISSING)"
+- "AppleAccountSetup prepare success: %!s(MISSING), mock"
+- "AppleIDSignIn"
+- "AppleIDSignInSettings"
+- "ApplePay"
+- "AudioBox"
+- "AuthenticateAccounts"
+- "AuthenticateAccountsV2"
+- "Bad response, no error"
+- "BaseBandFastConnect"
+- "Can't construct Array with count < 0"
+- "CaptiveNetworkJoin"
+- "CompanionAuthentication"
+- "CompanionLinkProx"
+- "Continuity"
+- "DDPing"
+- "DDPong"
+- "DSAction"
+- "DevToolsPair"
+- "DevicePresenceDetection"
+- "DigitalCarKey"
+- "DigitalCarKeyThirdParty"
+- "DigitalID"
+- "DigitalIDTSA"
+- "DigitalKey"
+- "Division by zero"
+- "Division results in an overflow"
+- "DovePeace"
+- "EnhancedDiscovery"
+- "Ensemble"
+- "External"
+- "ExternalLock"
+- "ExternalMedical"
+- "ExternalWatch"
+- "Fatal error"
+- "FieldDiagnostics"
+- "FindMyAction"
+- "FindMyActionHELE"
+- "FindMyActionHELETransient"
+- "FindMyActionTransient"
+- "FindMyBTFindingUserInitiated"
+- "FindMyBackground"
+- "FindMyBackgroundHELE"
+- "FindMyBackgroundHELETransient"
+- "FindMyBackgroundLeechScan"
+- "FindMyBackgroundTransient"
+- "FindMyBeaconOnDemand"
+- "FindMyHELE"
+- "FindMyNotOptedIn"
+- "FindMyNotOptedInBeepOnMoveWaking"
+- "FindMyObjectConnection"
+- "FindMyObjectConnectionTransient"
+- "FindMyOptedIn"
+- "FindMyPlaySound"
+- "FindMyPlaySoundHELE"
+- "FindMySepAlertsEnabled"
+- "FindMySnifferMode"
+- "FindMyTemporaryAggressiveLegacy"
+- "FindMyTemporaryLongAggressive"
+- "FindMyUTHELETransient"
+- "FindMyUTTransient"
+- "FindMyUnpair"
+- "FindMyUnpairHELE"
+- "FindMyWildTimedScan"
+- "FindNearbyPencil"
+- "FindNearbyRemote"
+- "Fitness"
+- "Goodbye"
+- "HID"
+- "HIDUARTService"
+- "HasInvitation"
+- "HealthKit"
+- "HearingSupport"
+- "HeySiri"
+- "HomeKit"
+- "HomePodSetup"
+- "HomePodSetupV2"
+- "InstantHotSpot"
+- "Insufficient space allocated to copy string contents"
+- "InternalTestActiveScan"
+- "InternalTestNoLockScan"
+- "InternalTestNoScreenOffScan"
+- "InternalTestScanBoost"
+- "InternalTestScanFor10ClockSeconds"
+- "InternalTestScanFor20Seconds"
+- "InternalTestScanWithDups"
+- "InternalTestScanWithNoDups"
+- "InternalTestUUIDScan"
+- "InternetRelay"
+- "LEA"
+- "LECarPlay"
+- "MAEActivateDevice failed"
+- "MAECreateActivationRequest failed"
+- "MAECreateSessionRequest failed"
+- "MIDI"
+- "MacMigrate"
+- "MacSetup"
+- "Magnet"
+- "MicroLocation"
+- "MicroLocationLeech"
+- "MobileBackup"
+- "NearBy"
+- "NeedsCLink"
+- "NeedsNexus"
+- "NeedsRDLink"
+- "Negative value is not representable"
+- "No AISSetupContext"
+- "No AISSetupController"
+- "OSREx"
+- "OSUpdate"
+- "OSUpdateTarget"
+- "PhotoPicker finish: configuration=%!s(MISSING)"
+- "PhotoPicker finished: report=%!s(MISSING)"
+- "PhotoPicker start: configuration=%!s(MISSING)"
+- "PhotoPicker started"
+- "PhotoPicker transfer file: filename=%!s(MISSING)"
+- "PointToShare"
+- "PrecisionFindingFindee"
+- "PrecisionFindingFindeeHighPriority"
+- "PrecisionFindingFinder"
+- "PrimarySetup"
+- "ProximityScreenOnLeechScan"
+- "RSSI"
+- "RapportThirdParty"
+- "RemoteAutoFill"
+- "RemoteAutoFillPong"
+- "RemoteManagement"
+- "RemotePairing"
+- "Repair"
+- "Request failed"
+- "SIMTransfer2"
+- "SKAISSetupContext"
+- "SKAISSetupController"
+- "SKAISSetupReport"
+- "SKActivationStart"
+- "SKAppleAccountSetupPrepare"
+- "SKPhotoPickerFinish"
+- "SKPhotoPickerStart"
+- "SKPhotoPickerTransferFile"
+- "SKStepPhotoPicker-"
+- "SKTRSession"
+- "SKWiFiSetupStart"
+- "SafetyAlerts"
+- "SecondarySetup"
+- "Session bad HTTP status: statusCode="
+- "Session non-HTTP response"
+- "SetupKit.SKError"
+- "SetupKit/SKServer.swift"
+- "SetupKit/SKStepWiFiSetupServer.swift"
+- "SetupStatus"
+- "ShareAudio"
+- "Sharing"
+- "SharingAirDrop"
+- "SharingAirDropAskToAirDrop"
+- "SharingAirDropNeedsCLink"
+- "SharingAirDropTempIdentity"
+- "SharingContinuityScreen"
+- "SharingCountryCodeUpdate"
+- "SharingDefault"
+- "SharingDoubleBoostGenericScan"
+- "SharingEDTEnsembleOpenDisplayPrefs"
+- "SharingEDTIncomingAdvertisement "
+- "SharingEDTNearbydMotionStopped"
+- "SharingEDTRemoteDisplay"
+- "SharingEDTScreenOn"
+- "SharingEDTWiFiDisabled"
+- "SharingEDTWombatCameraPicker"
+- "SharingEDTWombatEligibleAsDefaultCamera"
+- "SharingEDTWombatStreamStart"
+- "SharingMacAutoUnlock"
+- "SharingMacPhoneAutoUnlock"
+- "SharingNearbyInvitationHost"
+- "SharingNearbyInvitationParticipant"
+- "SharingOYAutoUnlock"
+- "SharingPeopleProximity"
+- "SharingPhoneAutoUnlock"
+- "SharingRemoteWidgetUpdate"
+- "SharingSiriWatchAuth"
+- "SharingUniversalControl"
+- "SharingVisionProDiscovery"
+- "SharingVisionProStateChange"
+- "SharingWombatBackground"
+- "SmartRouting"
+- "Swift/Array.swift"
+- "Swift/ContiguousArrayBuffer.swift"
+- "Swift/IntegerTypes.swift"
+- "Swift/Integers.swift"
+- "Swift/StringTesting.swift"
+- "Swift/StringUTF8View.swift"
+- "Swift/UnsafeBufferPointer.swift"
+- "Swift/UnsafePointer.swift"
+- "Swift/UnsafeRawPointer.swift"
+- "T@\"AISSetupContext\",R,N"
+- "T@\"AISSetupReport\",&,N,V_underlyingObject"
+- "T@\"CUMessageSession\",&,N,V_messageSessionTemplate"
+- "T@\"NSDictionary\",R,C,N"
+- "T@\"NSError\",&,N,V_mockError"
+- "T@\"NSSet\",&,N,V_desiredServiceTypes"
+- "T@\"NSSet\",&,N,V_requiredServiceTypes"
+- "T@\"NSString\",R,C,N"
+- "T@\"SKAISSetupReport\",&,N,V_mockReport"
+- "T@?,C,N,V_disconnectHandler"
+- "TB,N,GisConnected,V_connected"
+- "TB,N,R"
+- "TB,N,V_shouldSkipConfirmation"
+- "TCCBluetooth"
+- "TQ,N,V_localRole"
+- "TQ,N,V_remoteRole"
+- "TREventMessage"
+- "TRRequestMessage"
+- "TRResponseMessage"
+- "TVLS"
+- "TVShareAudio"
+- "Td,N,V_mockDelay"
+- "ThirdPartyApp"
+- "Transfer file without start"
+- "Unexpectedly found nil while unwrapping an Optional value"
+- "UnsafeMutableBufferPointer with negative count"
+- "UnsafeMutablePointer.initialize overlapping range"
+- "UnsafeMutablePointer.initialize with negative count"
+- "UnsafeMutablePointer.moveInitialize with negative count"
+- "UnsafeMutableRawPointer.initializeMemory overlapping range"
+- "UseCaseSIMTransfer"
+- "VideoCalibration"
+- "WB"
+- "WHASetup"
+- "WatchSetup"
+- "WiFiPassword"
+- "WiFiSetup join start: ssid=%!s(MISSING), try=%!l(MISSING)d"
+- "WiFiSetup join success: ssid=%!s(MISSING), time=%!s(MISSING), try=%!l(MISSING)d"
+- "WiFiSetup scan found: ssid=%!s(MISSING), channel=%!@(MISSING), rssi=%!l(MISSING)d, time=%!s(MISSING), try=%!l(MISSING)d"
+- "WiFiSetup scan start: ssid=%!s(MISSING)..., channel=%!s(MISSING), try=%!l(MISSING)d"
+- "WiFiSetup start: configuration=%!s(MISSING)"
+- "WiFiSetup success: %!s(MISSING)"
+- "_TtC8SetupKit21SKStepWiFiSetupClient"
+- "_TtC8SetupKit21SKStepWiFiSetupServer"
+- "_TtC8SetupKit22SKStepActivationClient"
+- "_TtC8SetupKit22SKStepActivationServer"
+- "_TtC8SetupKit23SKStepPhotoPickerClient"
+- "_TtC8SetupKit23SKStepPhotoPickerServer"
+- "_TtC8SetupKit25SKBluetoothAdvertiserMock"
+- "_TtC8SetupKit27SKBluetoothAdvertiserDarwin"
+- "_TtC8SetupKit29SKStepAppleAccountSetupClient"
+- "_TtC8SetupKit29SKStepAppleAccountSetupServer"
+- "_TtC8SetupKit7SKError"
+- "_TtC8SetupKit8SKClient"
+- "_TtC8SetupKit8SKServer"
+- "__wifiInterface"
+- "__wifiNetwork"
+- "_bluetoothAdvertiser"
+- "_cancel"
+- "_cancelCalled"
+- "_cbAdvertiser"
+- "_cleanup"
+- "_client"
+- "_configuration"
+- "_configurationIdentifier"
+- "_connected"
+- "_createCheckedThrowingContinuation(_:)"
+- "_decodeTRMessageData:classType:error:"
+- "_desiredServiceTypes"
+- "_disconnectHandler"
+- "_eventContinuations"
+- "_eventHandlerMap"
+- "_handleEvent:"
+- "_handleRequest:responseHandler:"
+- "_localRole"
+- "_messageSession"
+- "_mockDelay"
+- "_mockError"
+- "_mockReport"
+- "_nexusEventTask"
+- "_nexusStarted"
+- "_remoteRole"
+- "_report"
+- "_requestHandlerMap"
+- "_requiredServiceTypes"
+- "_shouldSkipConfirmation"
+- "_start"
+- "_startCalled"
+- "_startConfiguration"
+- "_started"
+- "_trEvent"
+- "_trRequest"
+- "_transferredURLs"
+- "_transferredURLsParentURL"
+- "_underlyingObject"
+- "_updatePending"
+- "_updateRunning"
+- "accountAltDSIDsByService"
+- "activate start: data=%!l(MISSING)d bytes"
+- "activation request start"
+- "activation request success: time=%!f(MISSING)"
+- "activation start: configuration=%!s(MISSING)"
+- "activation state: %!s(MISSING), error=%!s(MISSING)"
+- "activation success: %!s(MISSING)"
+- "activationRequestTime"
+- "activationRequestTime="
+- "active completed: time=%!f(MISSING)"
+- "actualServiceTypes"
+- "actualServiceTypes=["
+- "allHeaderFields"
+- "archivedDataWithRootObject:requiringSecureCoding:error:"
+- "bluetooth advertiser start: %!s(MISSING)"
+- "bluetooth advertiser started"
+- "bluetooth advertiser stop"
+- "bluetoothAdvertiserFailed: error="
+- "bluetoothAdvertiserStarted"
+- "bluetoothAdvertiserStopped"
+- "cancel"
+- "channelWithNumber:band:width:"
+- "com.apple.AppleID.Service.Cloud"
+- "com.apple.AppleID.Service.FaceTime"
+- "com.apple.AppleID.Service.GameCenter"
+- "com.apple.AppleID.Service.Messages"
+- "com.apple.AppleID.Service.Store"
+- "com.apple.setupkit"
+- "configurationApplyTime"
+- "configurationApplyTime="
+- "configurationIdentifier"
+- "configurationIdentifier="
+- "connected"
+- "createDirectoryAtURL:withIntermediateDirectories:attributes:error:"
+- "createdPersonaID"
+- "defaultManager"
+- "defaultSessionConfiguration"
+- "deinit"
+- "desiredServiceTypes"
+- "desiredServiceTypes=["
+- "disconnect"
+- "disconnectHandler"
+- "domain"
+- "event monitor cancel: id=%!l(MISSING)lu"
+- "event monitor report: id=%!l(MISSING)lu, event={%!s(MISSING)}"
+- "event monitor start: id=%!l(MISSING)lu"
+- "finish without start"
+- "get network channel failed"
+- "get network failed"
+- "handleEvent: xid=%!d(MISSING), className=%!@(MISSING)"
+- "handleFinish: configuration=%!s(MISSING)"
+- "handleRequest success: className=%!@(MISSING)"
+- "handleRequest: className=%!@(MISSING)"
+- "handleStart: configuration=%!s(MISSING)"
+- "handleStart: configuration=%!s(MISSING), oldConfiguration=%!s(MISSING)"
+- "handleTransferFile: filename=%!s(MISSING), fileOffset=%!l(MISSING)lu, fileSize=%!l(MISSING)lu, fileData=%!l(MISSING)d bytes"
+- "helpAnchor"
+- "iOSSetup"
+- "init(domain:code:userInfo:)"
+- "initWithArray:"
+- "initWithCoder:"
+- "initWithDispatchQueue:messageSessionTemplate:"
+- "initWithDomain:code:userInfo:"
+- "initWithQueue:"
+- "initWithScanRecord:includeProperties:"
+- "initWithTemplate:"
+- "invalid Collection: less than 'count' elements in collection"
+- "invalidateAndCancel"
+- "localRole"
+- "mockActivationTime"
+- "mockActivationTime="
+- "mockConfigurationApplyTime"
+- "mockConfigurationApplyTime="
+- "mockDelay"
+- "mockError"
+- "mockReport"
+- "mockTransferPhotosTime"
+- "mockTransferPhotosTime="
+- "network not found"
+- "nexus start"
+- "nexus start: %!s(MISSING)"
+- "nexus stop"
+- "nexusSession"
+- "passwordForKnownNetworkProfile:error:"
+- "perform command: %!s(MISSING)"
+- "personaIdentifier"
+- "personaIdentifier="
+- "photoTransferURLs"
+- "photoTransferURLs="
+- "registerRequestID:options:handler:"
+- "remoteRole"
+- "requiredServiceTypes"
+- "requiredServiceTypes=["
+- "sendEvent start: xid=%!d(MISSING), className=%!@(MISSING), size=%!d(MISSING)"
+- "sendEvent success: className=%!@(MISSING), completed"
+- "sendEvent:"
+- "sendRequest start: className=%!@(MISSING), size=%!d(MISSING)"
+- "sendRequest success: className=%!@(MISSING)"
+- "sendRequest:withResponseHandler:"
+- "sendRequestID:options:request:responseHandler:"
+- "session request start"
+- "session request success: time=%!f(MISSING)"
+- "sessionRequestTime"
+- "sessionRequestTime="
+- "sessionWithConfiguration:"
+- "setConnected:"
+- "setDesiredServiceTypes:"
+- "setDisconnectHandler:"
+- "setEventHandler: className=%!@(MISSING)"
+- "setEventHandler:forEventClass:"
+- "setLocalRole:"
+- "setMessageSessionTemplate:"
+- "setMockDelay:"
+- "setMockError:"
+- "setMockReport:"
+- "setRemoteRole:"
+- "setRequestHandler: className=%!@(MISSING)"
+- "setRequestHandler:forRequestClass:"
+- "setRequiredServiceTypes:"
+- "setShouldSkipConfirmation:"
+- "setTimeoutIntervalForResource:"
+- "setUnderlyingObject:"
+- "setWaitsForConnectivity:"
+- "setupWithContext:completionHandler:"
+- "shouldSkipConfirmation"
+- "start"
+- "start: %!s(MISSING)"
+- "statusCode"
+- "supportsSecureCoding"
+- "temporaryDirectory"
+- "timeoutInterval"
+- "transferPhotosTime"
+- "transferPhotosTime="
+- "transferredFile: "
+- "unarchivedObjectOfClasses:fromData:error:"
+- "underlyingObject"
+- "userInfo"
+- "v24@0:8d16"
+- "v24@?0@\"AISSetupReport\"8@\"NSError\"16"
+- "v24@?0@\"NSError\"8@\"TRResponseMessage\"16"
+- "v24@?0@\"SKAISSetupReport\"8@\"NSError\"16"
+- "v32@0:8@?16#24"
+- "v32@?0@\"NSDictionary\"8@\"NSDictionary\"16@?<v@?i@\"NSDictionary\"@\"NSDictionary\">24"
+
+```

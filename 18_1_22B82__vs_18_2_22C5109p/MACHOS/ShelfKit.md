@@ -1,0 +1,1719 @@
+## ShelfKit
+
+> `/private/var/staged_system_apps/Podcasts.app/Frameworks/ShelfKit.framework/ShelfKit`
+
+```diff
+
+-4024.210.1.0.0
+-  __TEXT.__text: 0x38c4c0
+-  __TEXT.__auth_stubs: 0x7700
++4024.310.31.1.0
++  __TEXT.__text: 0x3bdcec
++  __TEXT.__auth_stubs: 0x81e0
+   __TEXT.__objc_stubs: 0x2020
+-  __TEXT.__objc_methlist: 0x1288
+-  __TEXT.__const: 0x1e664
++  __TEXT.__objc_methlist: 0x1310
++  __TEXT.__const: 0x1d998
+   __TEXT.__gcc_except_tab: 0x198
+-  __TEXT.__cstring: 0xe10e
+-  __TEXT.__objc_methname: 0x58b3
+-  __TEXT.__oslogstring: 0x3146
+-  __TEXT.__objc_classname: 0x3cc
+-  __TEXT.__objc_methtype: 0x1a55
+-  __TEXT.__swift5_typeref: 0xf1a7
+-  __TEXT.__swift5_reflstr: 0xa547
+-  __TEXT.__swift5_assocty: 0x1d60
+-  __TEXT.__constg_swiftt: 0xaa54
+-  __TEXT.__swift5_fieldmd: 0xae1c
+-  __TEXT.__swift5_builtin: 0x3c0
+-  __TEXT.__swift5_proto: 0x173c
+-  __TEXT.__swift5_types: 0xa68
+-  __TEXT.__swift5_protos: 0x178
+-  __TEXT.__swift5_capture: 0x3118
+-  __TEXT.__swift5_mpenum: 0x10c
+-  __TEXT.__unwind_info: 0xb618
+-  __TEXT.__eh_frame: 0xab54
+-  __DATA_CONST.__auth_got: 0x3b90
+-  __DATA_CONST.__got: 0x1ae8
+-  __DATA_CONST.__auth_ptr: 0x2c50
+-  __DATA_CONST.__const: 0x172c8
++  __TEXT.__cstring: 0xf2ce
++  __TEXT.__objc_methname: 0x5fe7
++  __TEXT.__oslogstring: 0x3cb6
++  __TEXT.__objc_classname: 0x43d
++  __TEXT.__objc_methtype: 0x1ba3
++  __TEXT.__swift5_typeref: 0x10236
++  __TEXT.__swift5_reflstr: 0xaf7f
++  __TEXT.__swift5_assocty: 0x1fa0
++  __TEXT.__constg_swiftt: 0xb1d4
++  __TEXT.__swift5_fieldmd: 0xb564
++  __TEXT.__swift5_builtin: 0x460
++  __TEXT.__swift5_proto: 0x16dc
++  __TEXT.__swift5_types: 0xabc
++  __TEXT.__swift5_protos: 0x18c
++  __TEXT.__swift5_capture: 0x3190
++  __TEXT.__swift5_mpenum: 0x144
++  __TEXT.__unwind_info: 0xbd10
++  __TEXT.__eh_frame: 0xbef4
++  __DATA_CONST.__auth_got: 0x4100
++  __DATA_CONST.__got: 0x1e10
++  __DATA_CONST.__auth_ptr: 0x2f40
++  __DATA_CONST.__const: 0x159a0
+   __DATA_CONST.__cfstring: 0x5e0
+-  __DATA_CONST.__objc_classlist: 0x640
++  __DATA_CONST.__objc_classlist: 0x670
+   __DATA_CONST.__objc_catlist: 0x18
+-  __DATA_CONST.__objc_protolist: 0x140
++  __DATA_CONST.__objc_protolist: 0x1a0
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_protorefs: 0xa8
++  __DATA_CONST.__objc_protorefs: 0xd8
+   __DATA_CONST.__objc_superrefs: 0x88
+   __DATA_CONST.__objc_intobj: 0x30
+-  __DATA.__objc_const: 0x16cb8
+-  __DATA.__objc_selrefs: 0x1688
++  __DATA.__objc_const: 0x17ca8
++  __DATA.__objc_selrefs: 0x1788
+   __DATA.__objc_ivar: 0xf0
+-  __DATA.__objc_data: 0x4010
+-  __DATA.__data: 0x18478
+-  __DATA.__bss: 0x2aef0
+-  __DATA.__common: 0xea0
++  __DATA.__objc_data: 0x42a8
++  __DATA.__data: 0x19ae8
++  __DATA.__bss: 0x2a410
++  __DATA.__common: 0x1230
+   - /System/Library/Frameworks/Accounts.framework/Accounts
+   - /System/Library/Frameworks/AppIntents.framework/AppIntents
+   - /System/Library/Frameworks/AuthenticationServices.framework/AuthenticationServices
+
+   - /System/Library/Frameworks/CoreServices.framework/CoreServices
+   - /System/Library/Frameworks/CoreTelephony.framework/CoreTelephony
+   - /System/Library/Frameworks/Foundation.framework/Foundation
++  - /System/Library/Frameworks/MediaPlayer.framework/MediaPlayer
+   - /System/Library/Frameworks/Security.framework/Security
+   - /System/Library/Frameworks/StoreKit.framework/StoreKit
+   - /System/Library/Frameworks/SwiftUI.framework/SwiftUI
+   - /System/Library/Frameworks/UIKit.framework/UIKit
++  - /System/Library/Frameworks/_AppIntents_SwiftUI.framework/_AppIntents_SwiftUI
+   - /System/Library/Frameworks/_AppIntents_UIKit.framework/_AppIntents_UIKit
+   - /System/Library/PrivateFrameworks/AccessibilityUtilities.framework/AccessibilityUtilities
+   - /System/Library/PrivateFrameworks/AppSupport.framework/AppSupport
+
+   - /System/Library/PrivateFrameworks/AppleMediaServices.framework/AppleMediaServices
+   - /System/Library/PrivateFrameworks/AppleMediaServicesUI.framework/AppleMediaServicesUI
+   - /System/Library/PrivateFrameworks/AtomicsInternal.framework/AtomicsInternal
++  - /System/Library/PrivateFrameworks/BannerKit.framework/BannerKit
++  - /System/Library/PrivateFrameworks/CollectionsInternal.framework/CollectionsInternal
+   - /System/Library/PrivateFrameworks/FeatureFlags.framework/FeatureFlags
+   - /System/Library/PrivateFrameworks/FrontBoardServices.framework/FrontBoardServices
+   - /System/Library/PrivateFrameworks/JetEngine.framework/JetEngine
+   - /System/Library/PrivateFrameworks/JetUI.framework/JetUI
++  - /System/Library/PrivateFrameworks/MediaCoreUI.framework/MediaCoreUI
++  - /System/Library/PrivateFrameworks/MediaPlaybackCore.framework/MediaPlaybackCore
+   - /System/Library/PrivateFrameworks/PodcastsFoundation.framework/PodcastsFoundation
+   - /System/Library/PrivateFrameworks/PodcastsUI.framework/PodcastsUI
+   - /System/Library/PrivateFrameworks/Preferences.framework/Preferences
+   - /System/Library/PrivateFrameworks/SettingsFoundation.framework/SettingsFoundation
++  - /System/Library/PrivateFrameworks/ShareSheet.framework/ShareSheet
+   - /System/Library/PrivateFrameworks/SocialLayer.framework/SocialLayer
+   - /System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+   - /System/Library/PrivateFrameworks/UIKitCore.framework/UIKitCore
+
+   - /usr/lib/swift/libswiftIntents.dylib
+   - /usr/lib/swift/libswiftMapKit.dylib
+   - /usr/lib/swift/libswiftMetal.dylib
++  - /usr/lib/swift/libswiftMetalKit.dylib
++  - /usr/lib/swift/libswiftModelIO.dylib
+   - /usr/lib/swift/libswiftNaturalLanguage.dylib
+   - /usr/lib/swift/libswiftOSLog.dylib
+   - /usr/lib/swift/libswiftObjectiveC.dylib
++  - /usr/lib/swift/libswiftObservation.dylib
+   - /usr/lib/swift/libswiftQuartzCore.dylib
+   - /usr/lib/swift/libswiftSpatial.dylib
+   - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
+
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
++  - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswift_errno.dylib
+   - /usr/lib/swift/libswift_math.dylib
+   - /usr/lib/swift/libswift_signal.dylib
+
+   - /usr/lib/swift/libswiftsimd.dylib
+   - /usr/lib/swift/libswiftsys_time.dylib
+   - /usr/lib/swift/libswiftunistd.dylib
+-  Functions: 16682
+-  Symbols:   6037
+-  CStrings:  3311
++  Functions: 16405
++  Symbols:   6302
++  CStrings:  3505
+ 
+Symbols:
++ -[ASKLoadMonogramResourceOperation initWithMonogramResourceURL:size:]
++ _CGRectGetMidX
++ _OBJC_CLASS_$_BNBannerSource
++ _OBJC_CLASS_$_MPCPlayerChangeRequest
++ _OBJC_CLASS_$_MPCPlayerCommandDialogAction
++ _OBJC_CLASS_$_MPModelPodcastChapter
++ _OBJC_CLASS_$_MTStoreIdentifier
++ _OBJC_CLASS_$_PFRestrictionsUtil
++ _OBJC_CLASS_$_UIActivity
++ _OBJC_CLASS_$_UIActivityViewController
++ _OBJC_CLASS_$__TtC8ShelfKit14PodcastsNotice
++ _OBJC_CLASS_$__TtC8ShelfKit33_UIInterfaceActionExtendedStorage
++ _OBJC_METACLASS_$__TtC8ShelfKit14PodcastsNotice
++ _OBJC_METACLASS_$__TtC8ShelfKit33_UIInterfaceActionExtendedStorage
++ _PROTOCOLS__TtC8ShelfKit13ArtworkLoader.34
++ _PROTOCOLS__TtC8ShelfKit14ErrorPresenter.18
++ _PROTOCOLS__TtC8ShelfKit14PodcastsNotice.2
++ __DATA__TtC8ShelfKit14PodcastsNotice
++ __DATA__TtC8ShelfKit14QueueViewModel
++ __DATA__TtC8ShelfKit15NoticePresenter
++ __DATA__TtC8ShelfKit18ChaptersController
++ __DATA__TtC8ShelfKit19PopoverTipPresenter
++ __DATA__TtC8ShelfKit20NotificationObserver
++ __DATA__TtC8ShelfKit25LibraryCategoryPlayAction
++ __DATA__TtC8ShelfKit26CategoriesSavedTipProvider
++ __DATA__TtC8ShelfKit27ContextActionsConfiguration
++ __DATA__TtC8ShelfKit29NotFindingAnythingTipProvider
++ __DATA__TtC8ShelfKit29ThinClientPageStateController
++ __DATA__TtC8ShelfKit33_UIInterfaceActionExtendedStorage
++ __DATA__TtC8ShelfKit36NowPlayingContextActionConfiguration
++ __DATA__TtC8ShelfKit55NowPlayingTranscriptSelectionContextActionConfiguration
++ __INSTANCE_METHODS__TtC8ShelfKit14PodcastsNotice
++ __INSTANCE_METHODS__TtC8ShelfKit20NotificationObserver
++ __INSTANCE_METHODS__TtC8ShelfKit33_UIInterfaceActionExtendedStorage
++ __IVARS__TtC8ShelfKit14PodcastsNotice
++ __IVARS__TtC8ShelfKit14QueueViewModel
++ __IVARS__TtC8ShelfKit15NoticePresenter
++ __IVARS__TtC8ShelfKit19PopoverTipPresenter
++ __IVARS__TtC8ShelfKit20NotificationObserver
++ __IVARS__TtC8ShelfKit25LibraryCategoryPlayAction
++ __IVARS__TtC8ShelfKit26CategoriesSavedTipProvider
++ __IVARS__TtC8ShelfKit27ContextActionsConfiguration
++ __IVARS__TtC8ShelfKit28RefreshRecommendationsAction
++ __IVARS__TtC8ShelfKit29NotFindingAnythingTipProvider
++ __IVARS__TtC8ShelfKit29ThinClientPageStateController
++ __IVARS__TtC8ShelfKit33_UIInterfaceActionExtendedStorage
++ __IVARS__TtC8ShelfKit36NowPlayingContextActionConfiguration
++ __IVARS__TtC8ShelfKit55NowPlayingTranscriptSelectionContextActionConfiguration
++ __METACLASS_DATA__TtC8ShelfKit14PodcastsNotice
++ __METACLASS_DATA__TtC8ShelfKit14QueueViewModel
++ __METACLASS_DATA__TtC8ShelfKit15NoticePresenter
++ __METACLASS_DATA__TtC8ShelfKit18ChaptersController
++ __METACLASS_DATA__TtC8ShelfKit19PopoverTipPresenter
++ __METACLASS_DATA__TtC8ShelfKit20NotificationObserver
++ __METACLASS_DATA__TtC8ShelfKit25LibraryCategoryPlayAction
++ __METACLASS_DATA__TtC8ShelfKit26CategoriesSavedTipProvider
++ __METACLASS_DATA__TtC8ShelfKit27ContextActionsConfiguration
++ __METACLASS_DATA__TtC8ShelfKit29NotFindingAnythingTipProvider
++ __METACLASS_DATA__TtC8ShelfKit29ThinClientPageStateController
++ __METACLASS_DATA__TtC8ShelfKit33_UIInterfaceActionExtendedStorage
++ __METACLASS_DATA__TtC8ShelfKit36NowPlayingContextActionConfiguration
++ __METACLASS_DATA__TtC8ShelfKit55NowPlayingTranscriptSelectionContextActionConfiguration
++ __OBJC_$_CLASS_PROP_LIST_NSSecureCoding
++ __OBJC_$_INSTANCE_METHODS__TtC8ShelfKit24PopoverTipViewController(ShelfKit|ShelfKit1|ShelfKit2)
++ __OBJC_$_PROP_LIST_AMSUIMessageViewController
++ __OBJC_$_PROP_LIST_BNPresentable
++ __OBJC_$_PROP_LIST_BNPresentableIdentifying
++ __OBJC_$_PROTOCOL_CLASS_METHODS_NSSecureCoding
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_AMSUIMessageViewController
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_BNPresentableIdentifying
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSCoding
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_BNPresentable
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_BNPresentableObserving
++ __OBJC_$_PROTOCOL_METHOD_TYPES_AMSUIMessageViewController
++ __OBJC_$_PROTOCOL_METHOD_TYPES_BNPresentable
++ __OBJC_$_PROTOCOL_METHOD_TYPES_BNPresentableIdentifying
++ __OBJC_$_PROTOCOL_METHOD_TYPES_BNPresentableObserving
++ __OBJC_$_PROTOCOL_METHOD_TYPES_NSCoding
++ __OBJC_$_PROTOCOL_METHOD_TYPES_NSSecureCoding
++ __OBJC_$_PROTOCOL_REFS_AMSUIMessageViewController
++ __OBJC_$_PROTOCOL_REFS_BNPresentable
++ __OBJC_$_PROTOCOL_REFS_BNPresentableIdentifying
++ __OBJC_$_PROTOCOL_REFS_BNPresentableObserving
++ __OBJC_$_PROTOCOL_REFS_NSSecureCoding
++ __OBJC_CLASS_PROTOCOLS_$__TtC8ShelfKit24PopoverTipViewController(ShelfKit|ShelfKit1|ShelfKit2)
++ __OBJC_LABEL_PROTOCOL_$_AMSUIMessageViewController
++ __OBJC_LABEL_PROTOCOL_$_BNPresentable
++ __OBJC_LABEL_PROTOCOL_$_BNPresentableIdentifying
++ __OBJC_LABEL_PROTOCOL_$_BNPresentableObserving
++ __OBJC_LABEL_PROTOCOL_$_NSCoding
++ __OBJC_LABEL_PROTOCOL_$_NSSecureCoding
++ __OBJC_PROTOCOL_$_AMSUIMessageViewController
++ __OBJC_PROTOCOL_$_BNPresentable
++ __OBJC_PROTOCOL_$_BNPresentableIdentifying
++ __OBJC_PROTOCOL_$_BNPresentableObserving
++ __OBJC_PROTOCOL_$_NSCoding
++ __OBJC_PROTOCOL_$_NSSecureCoding
++ __PROPERTIES__TtC8ShelfKit14PodcastsNotice
++ __PROTOCOLS__TtC8ShelfKit14PodcastsNotice
++ ___swift_memcpy120_8
++ ___swift_memcpy144_8
++ ___swift_memcpy18_8
++ ___swift_memcpy88_8
++ __swift_FORCE_LOAD_$_swiftMetalKit
++ __swift_FORCE_LOAD_$_swiftMetalKit_$_ShelfKit
++ __swift_FORCE_LOAD_$_swiftModelIO
++ __swift_FORCE_LOAD_$_swiftModelIO_$_ShelfKit
++ __swift_dead_method_stub
++ _associated conformance 8ShelfKit022ActionRunnerDelegatingC14ImplementationVyxG9JetEngine05AsynccF0AaE0cF0
++ _associated conformance 8ShelfKit022ActionRunnerDelegatingC14ImplementationVyxG9JetEngine0cF0AA0C0AeFP_AE0C5Model
++ _associated conformance 8ShelfKit10QueueModelV7ChapterVSHAASQ
++ _associated conformance 8ShelfKit10QueueModelV7ChapterVs12IdentifiableAA2IDsAFP_SH
++ _associated conformance 8ShelfKit10QueueModelV7EpisodeVs12IdentifiableAA2IDsAFP_SH
++ _associated conformance 8ShelfKit12NoticeButtonVs12IdentifiableAA2IDsADP_SH
++ _associated conformance 8ShelfKit14QueueViewModelC7Combine16ObservableObjectAA0H19WillChangePublisherAdEP_AD0K0
++ _associated conformance 8ShelfKit15CategorySectionV2IDOSHAASQ
++ _associated conformance 8ShelfKit15CategorySectionVs12IdentifiableAA2IDsADP_SH
++ _associated conformance 8ShelfKit15ShowInformationV10CodingKeys33_6122AC8B4BF6DF9C9EDC4E5877F70B59LLOSHAASQ
++ _associated conformance 8ShelfKit15ShowInformationV10CodingKeys33_6122AC8B4BF6DF9C9EDC4E5877F70B59LLOs0E3KeyAAs23CustomStringConvertible
++ _associated conformance 8ShelfKit15ShowInformationV10CodingKeys33_6122AC8B4BF6DF9C9EDC4E5877F70B59LLOs0E3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 8ShelfKit15ShowInformationV9JetEngine14ComponentModelAaD04ViewH0
++ _associated conformance 8ShelfKit16FollowShowActionV10PodcastsUI016IntentDelegatingE5ModelAA0H0AdEP_9JetEngine0hJ0
++ _associated conformance 8ShelfKit16FollowShowActionV10PodcastsUI016IntentDelegatingE5ModelAA9JetEngine0eJ0
++ _associated conformance 8ShelfKit17ContextActionTypeO0cD5Group33_16EB689AF2DF7BA7FCB5BBCE7215E536LLOSHAASQ
++ _associated conformance 8ShelfKit17ContextActionTypeO0cD5Group33_16EB689AF2DF7BA7FCB5BBCE7215E536LLOs12CaseIterableAA8AllCasessAGP_Sl
++ _associated conformance 8ShelfKit17ContextActionTypeOSHAASQ
++ _associated conformance 8ShelfKit17ContextActionTypeOs12CaseIterableAA8AllCasessADP_Sl
++ _associated conformance 8ShelfKit18CategoriesSavedTipV10PodcastsUI0E5ModelAA9JetEngine04ViewH0
++ _associated conformance 8ShelfKit18PlayShowLastActionV10PodcastsUI016IntentDelegatingF5ModelAA0I0AdEP_9JetEngine0iK0
++ _associated conformance 8ShelfKit18PlayShowLastActionV10PodcastsUI016IntentDelegatingF5ModelAA9JetEngine0fK0
++ _associated conformance 8ShelfKit18PlayShowNextActionV10PodcastsUI016IntentDelegatingF5ModelAA0I0AdEP_9JetEngine0iK0
++ _associated conformance 8ShelfKit18PlayShowNextActionV10PodcastsUI016IntentDelegatingF5ModelAA9JetEngine0fK0
++ _associated conformance 8ShelfKit18SearchLandingBrickV10CodingKeys33_641899047F308E6D9FF1CC3B21D85328LLOSHAASQ
++ _associated conformance 8ShelfKit18SearchLandingBrickV10CodingKeys33_641899047F308E6D9FF1CC3B21D85328LLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 8ShelfKit18SearchLandingBrickV10CodingKeys33_641899047F308E6D9FF1CC3B21D85328LLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 8ShelfKit18SearchLandingBrickV11ArtworkKindOSHAASQ
++ _associated conformance 8ShelfKit18SearchLandingBrickV9JetEngine14ComponentModelAaD04ViewI0
++ _associated conformance 8ShelfKit18UnfollowShowActionV10PodcastsUI016IntentDelegatingE5ModelAA0H0AdEP_9JetEngine0hJ0
++ _associated conformance 8ShelfKit18UnfollowShowActionV10PodcastsUI016IntentDelegatingE5ModelAA9JetEngine0eJ0
++ _associated conformance 8ShelfKit20ChevronAppendingViewV7SwiftUI0E0AA4BodyAdEP_AdE
++ _associated conformance 8ShelfKit21ExplicitAppendingViewV7SwiftUI0E0AA4BodyAdEP_AdE
++ _associated conformance 8ShelfKit21NotFindingAnythingTipV10PodcastsUI0F5ModelAA9JetEngine04ViewI0
++ _associated conformance 8ShelfKit21PlayEpisodeLastActionV10PodcastsUI016IntentDelegatingF5ModelAA0I0AdEP_9JetEngine0iK0
++ _associated conformance 8ShelfKit21PlayEpisodeLastActionV10PodcastsUI016IntentDelegatingF5ModelAA9JetEngine0fK0
++ _associated conformance 8ShelfKit21PlayEpisodeNextActionV10PodcastsUI016IntentDelegatingF5ModelAA0I0AdEP_9JetEngine0iK0
++ _associated conformance 8ShelfKit21PlayEpisodeNextActionV10PodcastsUI016IntentDelegatingF5ModelAA9JetEngine0fK0
++ _associated conformance 8ShelfKit24FilterablePresenterStyleOSHAASQ
++ _associated conformance 8ShelfKit25PerformableContextActionsOSHAASQ
++ _associated conformance 8ShelfKit26ContentReferenceAnnotationV7SwiftUI12ViewModifierAA4BodyAdEP_AD0H0
++ _associated conformance 8ShelfKit29IntentFeedUnsubscriptionErrorOSHAASQ
++ _associated conformance 8ShelfKit29PopoverTipPresentationRequestV2IDVSHAASQ
++ _associated conformance 8ShelfKit29PopoverTipPresentationRequestVs12IdentifiableAA2IDsADP_SH
++ _associated conformance 8ShelfKit30AddFavoriteCategoriesSearchTipV10PodcastsUI0G5ModelAA9JetEngine04ViewJ0
++ _associated conformance 8ShelfKit31PodcastPlayActionImplementationV9JetEngine0eF0AA0E0AdEP_AD0E5Model
++ _associated conformance 8ShelfKit32UnfollowShowIntentImplementationV9JetEngine0eF0AA0E0AdEP_AD0E5Model
++ _associated conformance 8ShelfKit33SatisfyingObjectGraphViewModifierVyxG7SwiftUI0fG0AA4BodyAeFP_AE0F0
++ _associated conformance 8ShelfKit34PopulatePlayerForColdStartUserUtilV09PopulatedD5State33_CE1E7131B1695568A6D45C3C8D15115ALLOSHAASQ
++ _associated conformance 8ShelfKit40ThinClientFollowFeedIntentImplementationV9JetEngine0gH0AA0G0AdEP_AD0G5Model
++ _associated conformance 8ShelfKit42FlowActionOpenStoreURLActionImplementationV9JetEngine05AsyncdH0AaD0dH0
++ _associated conformance 8ShelfKit42FlowActionOpenStoreURLActionImplementationV9JetEngine0dH0AA0D0AdEP_AD0D5Model
++ _associated conformance 8ShelfKit42ThinClientUnfollowShowIntentImplementationV9JetEngine0gH0AA0G0AdEP_AD0G5Model
++ _associated conformance 8ShelfKit44TabChangeOpenAppLocationActionImplementationV9JetEngine05AsynchI0AaD0hI0
++ _associated conformance 8ShelfKit44TabChangeOpenAppLocationActionImplementationV9JetEngine0hI0AA0H0AdEP_AD0H5Model
++ _associated conformance 8ShelfKit47TabChangeActionOpenStoreURLActionImplementationV9JetEngine05AsynceI0AaD0eI0
++ _associated conformance 8ShelfKit47TabChangeActionOpenStoreURLActionImplementationV9JetEngine0eI0AA0E0AdEP_AD0E5Model
++ _associated conformance 8ShelfKit49NoticePostingIntentDelegatingActionImplementationVyxG9JetEngine0gH0AA0G0AeFP_AE0G5Model
++ _associated conformance 8ShelfKit9BubbleTipV9JetEngine14ComponentModelAaD04ViewH0
++ _associated conformance So14UIActivityTypeaSHSCSQ
++ _associated conformance So14UIActivityTypeas20_SwiftNewtypeWrapperSCSY
++ _associated conformance So14UIActivityTypeas20_SwiftNewtypeWrapperSCs35_HasCustomAnyHashableRepresentation
++ _associated conformance So18NSNotificationNameaSHSCSQ
++ _associated conformance So18NSNotificationNameas20_SwiftNewtypeWrapperSCSY
++ _associated conformance So18NSNotificationNameas20_SwiftNewtypeWrapperSCs35_HasCustomAnyHashableRepresentation
++ _flat unique So14NSSecureCoding_p
++ _flat unique So26AMSUIMessageViewController_p
++ _kChannelName
++ _objc_getAssociatedObject
++ _objc_msgSend$initWithMonogramResourceURL:size:
++ _objc_setAssociatedObject
++ _swift_isUniquelyReferenced_native
++ _swift_unknownObjectRelease_n
++ _symbolic $s8ShelfKit11ShareActionP
++ _symbolic $s8ShelfKit13ContextActionP
++ _symbolic $s8ShelfKit13NoticePostingP
++ _symbolic $s8ShelfKit17ChaptersProvidingP
++ _symbolic $s8ShelfKit22ContextActionsProviderP
++ _symbolic $s8ShelfKit23NoticePresenterProtocolP
++ _symbolic $s8ShelfKit26ContextMenuPreviewProviderP
++ _symbolic $s8ShelfKit30ImpressionableActionsProvidingP
++ _symbolic $s8ShelfKit36TimestampContextActionsConfigurationP
++ _symbolic $s9JetEngine25AsyncActionImplementationP
++ _symbolic SDySS_____G 8ShelfKit14PodcastsNoticeC
++ _symbolic SDy_____Say_____GG 10PodcastsUI8TipGroupO 8ShelfKit06BubbleC0V
++ _symbolic SDy_____Say______pGG 10PodcastsUI8TipGroupO AA0C5ModelP
++ _symbolic SDy_____ypG_____Spy_____GIggyy_ So21NSAttributedStringKeya So8_NSRangeV 10ObjectiveC8ObjCBoolV
++ _symbolic SS4term_SSSg6prefix_____5scopet 10PodcastsUI11SearchScopeO
++ _symbolic SS______Sgt 18PodcastsFoundation8HexColorV
++ _symbolic SaySay_____GG 8ShelfKit17ContextActionTypeO
++ _symbolic SaySo10UIActivityCG
++ _symbolic SaySo21MPModelPodcastChapterCG
++ _symbolic SaySo21MPModelPodcastChapterCGSg
++ _symbolic SaySo9MTChannelCG
++ _symbolic Say_____G 10PodcastsUI11SearchScopeO
++ _symbolic Say_____G 8ShelfKit10QueueModelV7ChapterV
++ _symbolic Say_____G 8ShelfKit10QueueModelV7EpisodeV
++ _symbolic Say_____G 8ShelfKit12NoticeButtonV
++ _symbolic Say_____G 8ShelfKit17ContextActionTypeO
++ _symbolic Say_____G 8ShelfKit17ContextActionTypeO0cD5Group33_16EB689AF2DF7BA7FCB5BBCE7215E536LLO
++ _symbolic Say_____G 8ShelfKit9BubbleTipV
++ _symbolic Say_____G So21NSAttributedStringKeya
++ _symbolic Say_____GSbS2i_____Ieggyyyo_ 8ShelfKit7TabMenuV4ItemV AC7SectionV
++ _symbolic Say______pG 10PodcastsUI8TipModelP
++ _symbolic Sb__________Iegyyd_ 18PodcastsFoundation13ShowsSortTypeO 8ShelfKit16ShowListProviderC5StateO
++ _symbolic ScTyyt______pGSg s5ErrorP
++ _symbolic SdSi_____y______y__________G_____y______y______y_Say_____GADG_____y______GGAEGGIegyyr_ 7Combine10PublishersO14SwitchToLatestV AA12AnyPublisherV 18PodcastsFoundation23RecommendationsMetadataV s5NeverO AC3MapV AC11ConcatenateV AC8SequenceV 0I04DateV AC11AutoconnectC So7NSTimerCASE05TimerG0C
++ _symbolic Shy_____G 18PodcastsFoundation6AdamIDV
++ _symbolic So14BNBannerSourceCSg
++ _symbolic So15AMSDialogActionC
++ _symbolic So16AMSDialogRequestC
++ _symbolic So16UIViewControllerC04viewB0_t
++ _symbolic So17UIInterfaceActionC
++ _symbolic So17UIInterfaceActionCSgXw
++ _symbolic So17UIInterfaceActionCSgXwz_Xx
++ _symbolic So17UIInterfaceActionCXDXMT
++ _symbolic So17UIInterfaceActionC_____Ieggo_ So17UIInterfaceActionC8ShelfKitE07DismissB0O
++ _symbolic So18NSAttributedStringC
++ _symbolic So21MPCPlayerResponseItemC
++ _symbolic So21MPCPlayerResponseItemCSg
++ _symbolic So21MPModelPodcastEpisodeC
++ _symbolic So28MPCPlayerCommandDialogActionC
++ _symbolic _____ 10Foundation12NotificationV
++ _symbolic _____ 10Foundation23LocalizedStringResourceV
++ _symbolic _____ 10ObjectiveC8ObjCBoolV
++ _symbolic _____ 10PodcastsUI11SearchScopeO
++ _symbolic _____ 10PodcastsUI12SearchActionV
++ _symbolic _____ 10PodcastsUI18InteractionContextV
++ _symbolic _____ 10PodcastsUI18OpenStoreURLActionV
++ _symbolic _____ 10PodcastsUI18UnfollowShowIntentV
++ _symbolic _____ 10PodcastsUI20SearchResultsGroupIDV
++ _symbolic _____ 10PodcastsUI21OpenAppLocationActionV
++ _symbolic _____ 10PodcastsUI28EnqueueShowForPlaybackIntentV
++ _symbolic _____ 10PodcastsUI31EnqueueEpisodeForPlaybackIntentV
++ _symbolic _____ 11Observation0A9RegistrarV
++ _symbolic _____ 18PodcastsFoundation11ContentKindO
++ _symbolic _____ 18PodcastsFoundation13ContentRatingO
++ _symbolic _____ 18PodcastsFoundation13MetricsIDTypeV
++ _symbolic _____ 18PodcastsFoundation14PlaybackIntentV
++ _symbolic _____ 18PodcastsFoundation16ContentReferenceV
++ _symbolic _____ 18PodcastsFoundation23RecommendationsMetadataV
++ _symbolic _____ 7SwiftUI15LayoutDirectionO
++ _symbolic _____ 7SwiftUI17ContentTransitionV
++ _symbolic _____ 7SwiftUI4TextV
++ _symbolic _____ 7SwiftUI5ImageV
++ _symbolic _____ 8ShelfKit022ActionRunnerDelegatingC14ImplementationV
++ _symbolic _____ 8ShelfKit10QueueModelV
++ _symbolic _____ 8ShelfKit10QueueModelV7ChapterV
++ _symbolic _____ 8ShelfKit10QueueModelV7EpisodeV
++ _symbolic _____ 8ShelfKit11NoticeModelV
++ _symbolic _____ 8ShelfKit12NoticeButtonV
++ _symbolic _____ 8ShelfKit12RatingStringO
++ _symbolic _____ 8ShelfKit14PodcastsNoticeC
++ _symbolic _____ 8ShelfKit14QueueViewModelC
++ _symbolic _____ 8ShelfKit15CategorySectionV2IDO
++ _symbolic _____ 8ShelfKit15NoticePresenterC
++ _symbolic _____ 8ShelfKit15ShowInformationV
++ _symbolic _____ 8ShelfKit15ShowInformationV10CodingKeys33_6122AC8B4BF6DF9C9EDC4E5877F70B59LLO
++ _symbolic _____ 8ShelfKit16FollowShowActionV
++ _symbolic _____ 8ShelfKit16PaginationResultV
++ _symbolic _____ 8ShelfKit17ContextActionTypeO
++ _symbolic _____ 8ShelfKit17ContextActionTypeO0cD5Group33_16EB689AF2DF7BA7FCB5BBCE7215E536LLO
++ _symbolic _____ 8ShelfKit18CategoriesSavedTipV
++ _symbolic _____ 8ShelfKit18ChaptersControllerC
++ _symbolic _____ 8ShelfKit18PlayShowLastActionV
++ _symbolic _____ 8ShelfKit18PlayShowNextActionV
++ _symbolic _____ 8ShelfKit18SearchLandingBrickV
++ _symbolic _____ 8ShelfKit18SearchLandingBrickV10CodingKeys33_641899047F308E6D9FF1CC3B21D85328LLO
++ _symbolic _____ 8ShelfKit18SearchLandingBrickV11ArtworkKindO
++ _symbolic _____ 8ShelfKit18UnfollowShowActionV
++ _symbolic _____ 8ShelfKit19PopoverTipPresenterC
++ _symbolic _____ 8ShelfKit20ChevronAppendingViewV
++ _symbolic _____ 8ShelfKit20EpisodeIdentifierSetV
++ _symbolic _____ 8ShelfKit20NotificationObserverC
++ _symbolic _____ 8ShelfKit21ExplicitAppendingViewV
++ _symbolic _____ 8ShelfKit21ExplicitAppendingViewV9SeparatorO
++ _symbolic _____ 8ShelfKit21ExplicitAppendingViewV9Situation33_B0DA68FB1B84A0C1EE9C2B5CD9E63150LLO
++ _symbolic _____ 8ShelfKit21NotFindingAnythingTipV
++ _symbolic _____ 8ShelfKit21PlayEpisodeLastActionV
++ _symbolic _____ 8ShelfKit21PlayEpisodeNextActionV
++ _symbolic _____ 8ShelfKit24FilterablePresenterStyleO
++ _symbolic _____ 8ShelfKit25LibraryCategoryPlayActionC
++ _symbolic _____ 8ShelfKit25PerformableContextActionsO
++ _symbolic _____ 8ShelfKit25SuggestLessInterestActionV
++ _symbolic _____ 8ShelfKit26CategoriesSavedTipProviderC
++ _symbolic _____ 8ShelfKit26ContentReferenceAnnotationV
++ _symbolic _____ 8ShelfKit27ContextActionsConfigurationC
++ _symbolic _____ 8ShelfKit27PopoverTipPresentationStateO
++ _symbolic _____ 8ShelfKit29IntentFeedUnsubscriptionErrorO
++ _symbolic _____ 8ShelfKit29NotFindingAnythingTipProviderC
++ _symbolic _____ 8ShelfKit29PopoverTipPresentationRequestV
++ _symbolic _____ 8ShelfKit29PopoverTipPresentationRequestV2IDV
++ _symbolic _____ 8ShelfKit29ThinClientPageStateControllerC
++ _symbolic _____ 8ShelfKit29UndoSuggestLessInterestActionV
++ _symbolic _____ 8ShelfKit30AddFavoriteCategoriesSearchTipV
++ _symbolic _____ 8ShelfKit31PodcastPlayActionImplementationV
++ _symbolic _____ 8ShelfKit32ThinClientToggleFollowShowHelperV
++ _symbolic _____ 8ShelfKit32UnfollowShowIntentImplementationV
++ _symbolic _____ 8ShelfKit33SatisfyingObjectGraphViewModifierV
++ _symbolic _____ 8ShelfKit33_UIInterfaceActionExtendedStorageC
++ _symbolic _____ 8ShelfKit34PopulatePlayerForColdStartUserUtilV
++ _symbolic _____ 8ShelfKit34PopulatePlayerForColdStartUserUtilV09PopulatedD5State33_CE1E7131B1695568A6D45C3C8D15115ALLO
++ _symbolic _____ 8ShelfKit36NowPlayingContextActionConfigurationC
++ _symbolic _____ 8ShelfKit40ThinClientFollowFeedIntentImplementationV
++ _symbolic _____ 8ShelfKit42FlowActionOpenStoreURLActionImplementationV
++ _symbolic _____ 8ShelfKit42ThinClientUnfollowShowIntentImplementationV
++ _symbolic _____ 8ShelfKit44TabChangeOpenAppLocationActionImplementationV
++ _symbolic _____ 8ShelfKit47TabChangeActionOpenStoreURLActionImplementationV
++ _symbolic _____ 8ShelfKit49NoticePostingIntentDelegatingActionImplementationV
++ _symbolic _____ 8ShelfKit55NowPlayingTranscriptSelectionContextActionConfigurationC
++ _symbolic _____ 8ShelfKit9BubbleTipV
++ _symbolic _____ So14UIActivityTypea
++ _symbolic _____ So17UIInterfaceActionC8ShelfKitE07DismissB0O
++ _symbolic _____ So18NSNotificationNamea
++ _symbolic _____ So21AMSDialogRequestStyleV
++ _symbolic _____ So29MPCPlayerItemDurationSnapshota
++ _symbolic _____ So8_NSRangeV
++ _symbolic _____ s6UInt64V
++ _symbolic _____ s8DurationV
++ _symbolic _____AASgSayAAGIegggo_ 8ShelfKit7TabMenuV7SectionV
++ _symbolic _____Ieghy_ So6CGRectV
++ _symbolic _____SDy_____Say______pGGAAIegngr_ 8ShelfKit11PageContentO 10PodcastsUI8TipGroupO AD0G5ModelP
++ _symbolic _____SbIeggy_ 8ShelfKit7TabMenuV7SectionV
++ _symbolic _____SbSi_____y_____ySay_____GG_____GIegnyyo_ 18PodcastsFoundation23RecommendationsMetadataV 7Combine12AnyPublisherV AA8LoadableO 8ShelfKit06ModernI0V s5NeverO
++ _symbolic _____Sg 10AppIntents16EntityIdentifierV
++ _symbolic _____Sg 10PodcastsUI11SearchScopeO
++ _symbolic _____Sg 10PodcastsUI18InteractionContextV4PageO
++ _symbolic _____Sg 10PodcastsUI20ClickLocationTrackerC
++ _symbolic _____Sg 10PodcastsUI20SearchFiltersTrackerC
++ _symbolic _____Sg 10PodcastsUI20SearchResultsGroupIDV
++ _symbolic _____Sg 10PodcastsUI8HSBColorV
++ _symbolic _____Sg 18PodcastsFoundation12MediaRequestC8PageNameO
++ _symbolic _____Sg 18PodcastsFoundation12MetricsTopicV
++ _symbolic _____Sg 18PodcastsFoundation13MetricsIDTypeV
++ _symbolic _____Sg 18PodcastsFoundation16ContentReferenceV
++ _symbolic _____Sg 18PodcastsFoundation20EpisodeBookmarkStateO
++ _symbolic _____Sg 18PodcastsFoundation21ThinClientStateDomainO
++ _symbolic _____Sg 18PodcastsFoundation23RecommendationsMetadataV
++ _symbolic _____Sg 18PodcastsFoundation31ThinClientGlobalStateRepositoryC
++ _symbolic _____Sg 8ShelfKit10QueueModelV7ChapterV
++ _symbolic _____Sg 8ShelfKit16CategoryListItemV
++ _symbolic _____Sg 8ShelfKit18CategoriesSavedTipV
++ _symbolic _____Sg 8ShelfKit19PopoverTipPresenterC
++ _symbolic _____Sg 8ShelfKit19ReorderingExtensionV
++ _symbolic _____Sg 8ShelfKit21ExplicitAppendingViewV
++ _symbolic _____Sg 8ShelfKit21NotFindingAnythingTipV
++ _symbolic _____Sg 8ShelfKit24GroupedSearchResultsPageV6ResultV
++ _symbolic _____Sg 8ShelfKit27ContextActionsConfigurationC
++ _symbolic _____Sg 8ShelfKit29PopoverTipPresentationRequestV
++ _symbolic _____Sg 8ShelfKit29ThinClientPageStateControllerC
++ _symbolic _____Sg 8ShelfKit30AddFavoriteCategoriesSearchTipV
++ _symbolic _____Sg 8ShelfKit8CategoryV
++ _symbolic _____Sg 8ShelfKit8ShowHeroV
++ _symbolic _____Sg 8ShelfKit9BubbleTipV
++ _symbolic _____Sg 9JetEngine6ModelsO11AlertActionV8SeverityO
++ _symbolic _____Sg So29MPCPlayerItemDurationSnapshota
++ _symbolic _____SgIegn_ 18PodcastsFoundation23RecommendationsMetadataV
++ _symbolic _____SgSDy_____Say_____GGSb_____y_____ySayAAGGGS2b_____SgIegngynyyr_ 8ShelfKit06ModernA0V 10PodcastsUI8TipGroupO AA06BubbleF0V 0D10Foundation9FRPOutputV AI8LoadableO AA11PageContentO
++ _symbolic _____SgXw 8ShelfKit15NoticePresenterC
++ _symbolic _____SgXw 8ShelfKit19PopoverTipPresenterC
++ _symbolic _____SgXw 8ShelfKit20NotificationObserverC
++ _symbolic _____SgXwz_Xx 8ShelfKit19PopoverTipPresenterC
++ _symbolic _____SgXwz_Xx 8ShelfKit20NotificationObserverC
++ _symbolic _____Sg_ABt 10PodcastsUI18InteractionContextV4PageO
++ _symbolic _____Sg_ABt 9JetEngine6PageIDV
++ _symbolic _____Sg_SDy_____Say_____GGSb_____y_____ySayAAGGGS2bt 8ShelfKit06ModernA0V 10PodcastsUI8TipGroupO AA06BubbleF0V 0D10Foundation9FRPOutputV AI8LoadableO
++ _symbolic _____Sg_____Sg_____Iegnyr_ 8ShelfKit19SearchExtensionTermV 10PodcastsUI0C5ScopeO AA0C14ContentRequestO
++ _symbolic ______AASDy_____Say______pGGt 8ShelfKit11PageContentO 10PodcastsUI8TipGroupO AD0G5ModelP
++ _symbolic ______SDy_____Say______pGGt 8ShelfKit11PageContentO 10PodcastsUI8TipGroupO AD0G5ModelP
++ _symbolic ______Say______pGt 10PodcastsUI8TipGroupO AA0C5ModelP
++ _symbolic ______SbSit 18PodcastsFoundation23RecommendationsMetadataV
++ _symbolic ______So16UIViewControllerCXc So26AMSUIMessageViewControllerP
++ _symbolic __________SgAC_____y_____GADySayABGG_____Ieggnnngr_ 8ShelfKit30LocalShowPageFeedUpdaterStatusO AA06ModernA0V 18PodcastsFoundation8LoadableO AA0D23EpisodesShelvesProviderV6ResultV AA0E7ContentO
++ _symbolic __________Sg_____SgIeggyn_ 8ShelfKit17SearchFacetFilterV 10PodcastsUI0C5ScopeO AA0C13ExtensionTermV
++ _symbolic __________Xj l9JetEngine11IntentModel_px10ReturnTypeRts_XPXGMq 8ShelfKit16PaginationResultV
++ _symbolic __________XjSg l9JetEngine11IntentModel_px10ReturnTypeRts_XPXGMq 8ShelfKit16PaginationResultV
++ _symbolic ___________19interestContentKindt 18PodcastsFoundation6AdamIDV AA11ContentKindO
++ _symbolic ___________Sg9separatort 7SwiftUI4TextV 8ShelfKit21ExplicitAppendingViewV9SeparatorO
++ _symbolic __________________________t 18PodcastsFoundation23RecommendationsMetadataV9AnalyticsV AC10CategoriesV AC8ChannelsV AC8EpisodesV AC5ShowsV
++ _symbolic ___________pIeghHrzo_ 8ShelfKit16PaginationResultV s5ErrorP
++ _symbolic ___________pIeghHrzo_ 9JetEngine13ActionOutcomeO s5ErrorP
++ _symbolic ___________t s8DurationV 8ShelfKit29PopoverTipPresentationRequestV
++ _symbolic ______p 10PodcastsUI16ContentReferringP
++ _symbolic ______p 10PodcastsUI20ContextMenuProvidingP
++ _symbolic ______p 10PodcastsUI8TipModelP
++ _symbolic ______p 18PodcastsFoundation20AlignmentCoordinatorP
++ _symbolic ______p 8ShelfKit23NoticePresenterProtocolP
++ _symbolic ______p So14NSSecureCodingP
++ _symbolic ______pSg 10PodcastsUI11TipProviderP
++ _symbolic ______pSg 10PodcastsUI16ContentReferringP
++ _symbolic ______pSg 10PodcastsUI8TipModelP
++ _symbolic ______pSg 8ShelfKit18ErrorPresenterViewP
++ _symbolic ______pSg 9JetEngine17ExpressibleByJSONP
++ _symbolic _____yAAyAAyAAyAAy_____Sg_____y_____SgGGADy_____GGADySiSgGGADy_____GG_____y_____SgGG 7SwiftUI15ModifiedContentV 8ShelfKit21ExplicitAppendingViewV AA30_EnvironmentKeyWritingModifierV AA4TextV4CaseO AA5ImageV5ScaleO AA0D10TransitionV AA010_AnimationM0V 18PodcastsFoundation20EpisodeBookmarkStateO
++ _symbolic _____yAAyAAyAAy_____Sg_____y_____SgGGADy_____GGADySiSgGGADy_____GG 7SwiftUI15ModifiedContentV 8ShelfKit21ExplicitAppendingViewV AA30_EnvironmentKeyWritingModifierV AA4TextV4CaseO AA5ImageV5ScaleO AA0D10TransitionV
++ _symbolic _____yAAyAAy_____Sg_____y_____SgGGADy_____GGADySiSgGG 7SwiftUI15ModifiedContentV 8ShelfKit21ExplicitAppendingViewV AA30_EnvironmentKeyWritingModifierV AA4TextV4CaseO AA5ImageV5ScaleO
++ _symbolic _____yAAyAAy_____y_____yAAy__________GAAyAAy__________y_____GG_____y_____GGGG_____G_____G_____G 7SwiftUI15ModifiedContentV AA6ZStackV AA012_ConditionalD0V AA5ImageV AA18_AspectRatioLayoutV AA9RectangleV AA24_ForegroundStyleModifierV AA08AnyShapeM0V AA013_TraitWritingN0V AA010TransitionQ3KeyV AA037_AccessibilityIgnoresInvertColorsViewN0V 8ShelfKit05FrameN033_EE9AF765289E99E5C5525B446EFFF852LLV AX013ArtworkLoaderN0V
++ _symbolic _____yAAyAAy_____y_____y_____G_Qo_AEGAFGADG 7SwiftUI19_ConditionalContentV AA4ViewP012_AppIntents_aB0E19appEntityIdentifieryQr0fG00iJ0VSgFQO AA01_e9Modifier_D0V 8ShelfKit0D19ReferenceAnnotationV
++ _symbolic _____yAAyAAy_____yx_____GxGAEGxG 7SwiftUI19_ConditionalContentV AA08ModifiedD0V 8ShelfKit0D19ReferenceAnnotationV
++ _symbolic _____yAAy_____Sg_____y_____SgGGADy_____GG 7SwiftUI15ModifiedContentV 8ShelfKit21ExplicitAppendingViewV AA30_EnvironmentKeyWritingModifierV AA4TextV4CaseO AA5ImageV5ScaleO
++ _symbolic _____yAAy__________y_____GG_____y_____GG 7SwiftUI15ModifiedContentV AA9RectangleV AA24_ForegroundStyleModifierV AA08AnyShapeG0V AA013_TraitWritingH0V AA010TransitionK3KeyV
++ _symbolic _____yAAy_____y_____yAAy__________GAAyAAy__________y_____GG_____y_____GGGG_____G_____G 7SwiftUI15ModifiedContentV AA6ZStackV AA012_ConditionalD0V AA5ImageV AA18_AspectRatioLayoutV AA9RectangleV AA24_ForegroundStyleModifierV AA08AnyShapeM0V AA013_TraitWritingN0V AA010TransitionQ3KeyV AA037_AccessibilityIgnoresInvertColorsViewN0V 8ShelfKit05FrameN033_EE9AF765289E99E5C5525B446EFFF852LLV
++ _symbolic _____yAAy_____y_____y_____G_Qo_AEGAFG 7SwiftUI19_ConditionalContentV AA4ViewP012_AppIntents_aB0E19appEntityIdentifieryQr0fG00iJ0VSgFQO AA01_e9Modifier_D0V 8ShelfKit0D19ReferenceAnnotationV
++ _symbolic _____ySDySS_____GG 2os21OSAllocatedUnfairLockV 8ShelfKit14PodcastsNoticeC
++ _symbolic _____ySDySS_____G_____G s13ManagedBufferCsRi__rlE 8ShelfKit14PodcastsNoticeC So16os_unfair_lock_sV
++ _symbolic _____ySDy_____Say_____GG_____G 7Combine12AnyPublisherV 10PodcastsUI8TipGroupO 8ShelfKit06BubbleF0V s5NeverO
++ _symbolic _____ySDy_____Say______pGG_____G 7Combine12AnyPublisherV 10PodcastsUI8TipGroupO AD0F5ModelP s5NeverO
++ _symbolic _____ySS_____G s18_DictionaryStorageC 8ShelfKit14PodcastsNoticeC
++ _symbolic _____ySS______pG s18_DictionaryStorageC So14NSSecureCodingP
++ _symbolic _____ySaySo9MTChannelCG_____G 7Combine6FutureC s5NeverO
++ _symbolic _____ySay_____GG s23_ContiguousArrayStorageC 18PodcastsFoundation20DatabaseEntityChangeV
++ _symbolic _____ySay_____GG s23_ContiguousArrayStorageC 8ShelfKit17ContextActionTypeO
++ _symbolic _____ySay_____G_____G 7Combine5EmptyV 18PodcastsFoundation6AdamIDV s5NeverO
++ _symbolic _____ySay_____G______pG 7Combine6FutureC 8ShelfKit16CategoryListItemV s5ErrorP
++ _symbolic _____ySay______pG_____G 7Combine12AnyPublisherV 10PodcastsUI8TipModelP s5NeverO
++ _symbolic _____ySay______pG_____GSg 7Combine12AnyPublisherV 10PodcastsUI8TipModelP s5NeverO
++ _symbolic _____y_AAy______y__________G_____y______y______y_Say_____GADG_____y______GGAEGGAFy______y_ABySdADG_____yytADGABySiADGGAQGG 7Combine10PublishersO14SwitchToLatestV AA12AnyPublisherV 18PodcastsFoundation23RecommendationsMetadataV s5NeverO AC3MapV AC11ConcatenateV AC8SequenceV 0I04DateV AC11AutoconnectC So7NSTimerCASE05TimerG0C AC0A7Latest3V AA19CurrentValueSubjectC
++ _symbolic _____y_Qo_ 18PodcastsFoundation31ThinClientGlobalStateRepositoryC9publisher3forQrAA0cdF6DomainO_tFQO
++ _symbolic _____y_So15NSManagedObjectCQo_ 18PodcastsFoundation24InterestObserverProviderC28userIsColdStartUserPublisherQrySo15NSManagedObjectCRbzlFQO
++ _symbolic _____y_____G 10PodcastsUI16AnyJSIntentModelV 8ShelfKit16PaginationResultV
++ _symbolic _____y_____G 18PodcastsFoundation25ThinClientStateRepositoryC AA07PodcastE0O
++ _symbolic _____y_____G 18PodcastsFoundation25ThinClientStateRepositoryC AA0cd7EpisodeE5ModelV
++ _symbolic _____y_____G 2os21OSAllocatedUnfairLockV 8ShelfKit34PopulatePlayerForColdStartUserUtilV09PopulatedH5State33_CE1E7131B1695568A6D45C3C8D15115ALLO
++ _symbolic _____y_____G 7Combine4JustV 18PodcastsFoundation23RecommendationsMetadataV
++ _symbolic _____y_____G 7Combine9PublishedV 8ShelfKit10QueueModelV
++ _symbolic _____y_____G 7SwiftUI11EnvironmentV AA15LayoutDirectionO
++ _symbolic _____y_____G 7SwiftUI21_ViewModifier_ContentV 8ShelfKit0E19ReferenceAnnotationV
++ _symbolic _____y_____G 7SwiftUI24_ForegroundStyleModifierV AA08AnyShapeD0V
++ _symbolic _____y_____G 7SwiftUI30HierarchicalShapeStyleModifierV AA010ForegroundE0V
++ _symbolic _____y_____G 7SwiftUI30_EnvironmentKeyWritingModifierV 9JetEngine15BaseObjectGraphC
++ _symbolic _____y_____G 7SwiftUI30_EnvironmentKeyWritingModifierV AA17ContentTransitionV
++ _symbolic _____y_____G 9JetEngine17_CodeByKind_OrNilV 8ShelfKit11ActionKindsO
++ _symbolic _____y_____G 9JetEngine7PromiseC 8ShelfKit16PaginationResultV
++ _symbolic _____y_____G s11_SetStorageC 8ShelfKit17ContextActionTypeO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 8ShelfKit15ShowInformationV10CodingKeys33_6122AC8B4BF6DF9C9EDC4E5877F70B59LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 8ShelfKit18SearchLandingBrickV10CodingKeys33_641899047F308E6D9FF1CC3B21D85328LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 8ShelfKit18SearchLandingBrickV10CodingKeys33_641899047F308E6D9FF1CC3B21D85328LLO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 10PodcastsUI9TipButtonV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 18PodcastsFoundation14PlaybackIntentV6OptionO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 8ShelfKit10QueueModelV7ChapterV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 8ShelfKit12NoticeButtonV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 8ShelfKit13NavigationTabO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 8ShelfKit16CategoryListItemV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 8ShelfKit17ContextActionTypeO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 8ShelfKit29PopoverTipPresentationRequestV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 8ShelfKit29PopoverTipPresentationRequestV2IDV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 8ShelfKit9BubbleTipV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 9JetEngine6ModelsO11AlertActionV6ButtonV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC So14UIActivityTypea
++ _symbolic _____y_____G s23_ContiguousArrayStorageC So21NSAttributedStringKeya
++ _symbolic _____y_____GSg 10PodcastsUI16AnyJSIntentModelV 8ShelfKit16PaginationResultV
++ _symbolic _____y_____GSg 18PodcastsFoundation25ThinClientStateRepositoryC AA07PodcastE0O
++ _symbolic _____y_____GSg 18PodcastsFoundation25ThinClientStateRepositoryC AA0cd7EpisodeE5ModelV
++ _symbolic _____y_____Say_____GG s18_DictionaryStorageC 10PodcastsUI8TipGroupO 8ShelfKit06BubbleE0V
++ _symbolic _____y_____Say_____GG s18_DictionaryStorageC 8ShelfKit17ContextActionTypeO0eF5Group33_16EB689AF2DF7BA7FCB5BBCE7215E536LLO AE
++ _symbolic _____y_____Say______pGG s18_DictionaryStorageC 10PodcastsUI8TipGroupO AC0E5ModelP
++ _symbolic _____y_____SgG 7Combine9PublishedV 18PodcastsFoundation20EpisodeBookmarkStateO
++ _symbolic _____y_____SgG 7SwiftUI18_AnimationModifierV 18PodcastsFoundation20EpisodeBookmarkStateO
++ _symbolic _____y_____SgG s23_ContiguousArrayStorageC 7SwiftUI4TextV
++ _symbolic _____y_____Sg_G 7Combine9PublishedV9PublisherV 18PodcastsFoundation20EpisodeBookmarkStateO
++ _symbolic _____y_____Sg_____G 7Combine12AnyPublisherV 18PodcastsFoundation23RecommendationsMetadataV s5NeverO
++ _symbolic _____y_____Sg_____G 7Combine18PassthroughSubjectC 8ShelfKit18CategoriesSavedTipV s5NeverO
++ _symbolic _____y_____Sg_____G 7Combine18PassthroughSubjectC 8ShelfKit21NotFindingAnythingTipV s5NeverO
++ _symbolic _____y_____Sg_____G 7Combine18PassthroughSubjectC 8ShelfKit30AddFavoriteCategoriesSearchTipV s5NeverO
++ _symbolic _____y_____Sg_____G 7Combine19CurrentValueSubjectC 10PodcastsUI11SearchScopeO s5NeverO
++ _symbolic _____y_____Sg_____G 7Combine19CurrentValueSubjectC 18PodcastsFoundation23RecommendationsMetadataV s5NeverO
++ _symbolic _____y_____Sg_____y_____SgGG 7SwiftUI15ModifiedContentV 8ShelfKit21ExplicitAppendingViewV AA30_EnvironmentKeyWritingModifierV AA4TextV4CaseO
++ _symbolic _____y______G 7Combine9PublishedV9PublisherV 8ShelfKit10QueueModelV
++ _symbolic _____y______G 7SwiftUI11EnvironmentV7ContentO AA15LayoutDirectionO
++ _symbolic _____y______G 9JetEngine20MetricsFieldsContextV8PropertyV 10PodcastsUI20SearchFiltersTrackerC
++ _symbolic _____y______Qo_ 7SwiftUI4ViewPAAE10textSuffixyQrAA4TextV0E0VFQO AF
++ _symbolic _____y______Say______pGtG s23_ContiguousArrayStorageC 10PodcastsUI8TipGroupO AC0F5ModelP
++ _symbolic _____y__________G 19CollectionsInternal17OrderedDictionaryV 8ShelfKit29PopoverTipPresentationRequestV2IDV AF
++ _symbolic _____y__________G 7Combine12AnyPublisherV 18PodcastsFoundation23RecommendationsMetadataV s5NeverO
++ _symbolic _____y__________G 7Combine12AnyPublisherV 18PodcastsFoundation23RecommendationsMetadataV10CategoriesV s5NeverO
++ _symbolic _____y__________G 7Combine12AnyPublisherV 18PodcastsFoundation23RecommendationsMetadataV5ShowsV s5NeverO
++ _symbolic _____y__________G 7Combine12AnyPublisherV 18PodcastsFoundation23RecommendationsMetadataV8ChannelsV s5NeverO
++ _symbolic _____y__________G 7Combine12AnyPublisherV 18PodcastsFoundation23RecommendationsMetadataV8EpisodesV s5NeverO
++ _symbolic _____y__________G 7Combine12AnyPublisherV 18PodcastsFoundation23RecommendationsMetadataV9AnalyticsV s5NeverO
++ _symbolic _____y__________G s13ManagedBufferCsRi__rlE 8ShelfKit34PopulatePlayerForColdStartUserUtilV09PopulatedF5State33_CE1E7131B1695568A6D45C3C8D15115ALLO So16os_unfair_lock_sV
++ _symbolic _____y__________G s18_DictionaryStorageC 18PodcastsFoundation6AdamIDV AC20EpisodeBookmarkStateO
++ _symbolic _____y__________GSg 18PodcastsFoundation19EpisodeStateMachineC AA0c8BookmarkD0O AA03AnycfD4RuleV
++ _symbolic _____y___________tG s23_ContiguousArrayStorageC 18PodcastsFoundation6AdamIDV AC20EpisodeBookmarkStateO
++ _symbolic _____y__________y_____GG 7SwiftUI15ModifiedContentV AA9RectangleV AA24_ForegroundStyleModifierV AA08AnyShapeG0V
++ _symbolic _____y______pG s23_ContiguousArrayStorageC 10PodcastsUI8TipModelP
++ _symbolic _____y______ySDy_____Say______pGG_____GAEG 7Combine10PublishersO3MapV AA12AnyPublisherV 10PodcastsUI8TipGroupO AH0H5ModelP s5NeverO
++ _symbolic _____y______ySDy_____Say______pGG_____GSDyACSay_____GGG 7Combine10PublishersO3MapV AA12AnyPublisherV 10PodcastsUI8TipGroupO AH0H5ModelP s5NeverO 8ShelfKit06BubbleH0V
++ _symbolic _____y______ySDy_____Say______pGG_____GSay_____GG 7Combine10PublishersO3MapV AA12AnyPublisherV 10PodcastsUI8TipGroupO AH0H5ModelP s5NeverO 8ShelfKit06BubbleH0V
++ _symbolic _____y______ySDy_____Say______pGG_____GSbG 7Combine10PublishersO3MapV AA12AnyPublisherV 10PodcastsUI8TipGroupO AH0H5ModelP s5NeverO
++ _symbolic _____y______ySay_____G_____GG 7Combine10PublishersO16RemoveDuplicatesV AA12AnyPublisherV 8ShelfKit13StationDetailC s5NeverO
++ _symbolic _____y______ySay_____G______pG_____y______y______y______y_SaySay_____GG_____G_____GSo17OS_dispatch_queueCGAE_pGG 7Combine10PublishersO7FlatMapV AA6FutureC 8ShelfKit16CategoryListItemV s5ErrorP AC14SetFailureTypeV AC8ThrottleV AC11ConcatenateV AC8SequenceV 18PodcastsFoundation20DatabaseEntityChangeV s5NeverO AU0T17PropertyPublisherV
++ _symbolic _____y______ySay______pG_____GSDy_____ADGG 7Combine10PublishersO3MapV AA12AnyPublisherV 10PodcastsUI8TipModelP s5NeverO AH0H5GroupO
++ _symbolic _____y______ySay______pG_____GSay_____GG 7Combine10PublishersO3MapV AA12AnyPublisherV 10PodcastsUI8TipModelP s5NeverO 8ShelfKit06BubbleH0V
++ _symbolic _____y______ySb_____G_____SgG 7Combine10PublishersO3MapV AA12AnyPublisherV s5NeverO 8ShelfKit18CategoriesSavedTipV
++ _symbolic _____y______ySb_____G_____SgG 7Combine10PublishersO3MapV AA12AnyPublisherV s5NeverO 8ShelfKit30AddFavoriteCategoriesSearchTipV
++ _symbolic _____y______y_ABy______y__________G_____y______y______y_Say_____GAEG_____y______GGAFGGAGy______y_ACySdAEG_____yytAEGACySiAEGGARGGSo17OS_dispatch_queueCG 7Combine10PublishersO9ReceiveOnV AC14SwitchToLatestV AA12AnyPublisherV 18PodcastsFoundation23RecommendationsMetadataV s5NeverO AC3MapV AC11ConcatenateV AC8SequenceV 0K04DateV AC11AutoconnectC So7NSTimerCAUE05TimerI0C AC0A7Latest3V AA19CurrentValueSubjectC
++ _symbolic _____y______y_SaySay_____GG_____G_____G 7Combine10PublishersO11ConcatenateV AC8SequenceV 18PodcastsFoundation20DatabaseEntityChangeV s5NeverO AH0G17PropertyPublisherV
++ _symbolic _____y______y_So15NSManagedObjectCQo_G 7Combine10PublishersO12ReplaceErrorV 18PodcastsFoundation24InterestObserverProviderC28userIsColdStartUserPublisherQrySo15NSManagedObjectCRbzlFQO
++ _symbolic _____y______y_____Sg_____GABySDy_____Say_____GGAEGABySbAEGABy_____y_____ySayACGGGAEGAL_____ySb_GG 7Combine10PublishersO18PodcastsFoundationE16PFCombineLatest6V AA12AnyPublisherV 8ShelfKit06ModernI0V s5NeverO 0C2UI8TipGroupO AI06BubbleN0V AD9FRPOutputV AD8LoadableO AA9PublishedV0H0V
++ _symbolic _____y______y_____Sg_____GABy_____SgAEGG 7Combine10PublishersO0A6LatestV AA19CurrentValueSubjectC 8ShelfKit19SearchExtensionTermV s5NeverO 10PodcastsUI0I5ScopeO
++ _symbolic _____y______y_____Sg_____GACG 7Combine10PublishersO10CompactMapV AA12AnyPublisherV 18PodcastsFoundation23RecommendationsMetadataV s5NeverO
++ _symbolic _____y______y_____Sg_____GG 7Combine10PublishersO16RemoveDuplicatesV AA19CurrentValueSubjectC 10PodcastsUI11SearchScopeO s5NeverO
++ _symbolic _____y______y_____Sg_____GSo17OS_dispatch_queueCG 7Combine10PublishersO9ReceiveOnV AA18PassthroughSubjectC 8ShelfKit18CategoriesSavedTipV s5NeverO
++ _symbolic _____y______y_____Sg_____GSo17OS_dispatch_queueCG 7Combine10PublishersO9ReceiveOnV AA18PassthroughSubjectC 8ShelfKit21NotFindingAnythingTipV s5NeverO
++ _symbolic _____y______y_____Sg_____GSo17OS_dispatch_queueCG 7Combine10PublishersO9ReceiveOnV AA18PassthroughSubjectC 8ShelfKit30AddFavoriteCategoriesSearchTipV s5NeverO
++ _symbolic _____y______y_____Sg_____G_____y_____AEGG 7Combine10PublishersO7FlatMapV AA6FutureC 8ShelfKit4PageC s5NeverO AA12AnyPublisherV 18PodcastsFoundation23RecommendationsMetadataV
++ _symbolic _____y______y__________GABySDy_____Say______pGGADGG 7Combine10PublishersO0A6LatestV AA12AnyPublisherV 8ShelfKit11PageContentO s5NeverO 10PodcastsUI8TipGroupO AM0M5ModelP
++ _symbolic _____y______y__________GABySbADGABySiADGG 7Combine10PublishersO0A7Latest3V AA12AnyPublisherV 18PodcastsFoundation23RecommendationsMetadataV s5NeverO
++ _symbolic _____y______y__________GABy_____ADGABy_____ADGABy_____ADGABy_____ADGG 7Combine10PublishersO18PodcastsFoundationE16PFCombineLatest5V AA12AnyPublisherV AD23RecommendationsMetadataV9AnalyticsV s5NeverO AJ10CategoriesV AJ8ChannelsV AJ8EpisodesV AJ5ShowsV
++ _symbolic _____y______y__________GAE_____ySDy_____Say______pGGADGG 7Combine10PublishersO0A7Latest3V AA19CurrentValueSubjectC 8ShelfKit11PageContentO s5NeverO AA12AnyPublisherV 10PodcastsUI8TipGroupO AO0P5ModelP
++ _symbolic _____y______y__________G_____y______y______y_Say_____GADG_____y______GGAEGG 7Combine10PublishersO14SwitchToLatestV AA12AnyPublisherV 18PodcastsFoundation23RecommendationsMetadataV s5NeverO AC3MapV AC11ConcatenateV AC8SequenceV 0I04DateV AC11AutoconnectC So7NSTimerCASE05TimerG0C
++ _symbolic _____y______y__________G_____y______y______y______y_AFy______y______y_____SgADGAKy_____SgADGG_____GASGSo17OS_dispatch_queueCGGAEGG 7Combine10PublishersO14SwitchToLatestV AA12AnyPublisherV 8ShelfKit13SearchContentO s5NeverO AC3MapV AC16RemoveDuplicatesV AC8DebounceV AC4ScanV AC0aE0V AA19CurrentValueSubjectC AH0J13ExtensionTermV 10PodcastsUI0J5ScopeO AH0jK7RequestO
++ _symbolic _____y______y___________pG_____G 7Combine10PublishersO3MapV AA6FutureC 18PodcastsFoundation23AnalyticsUserIdentifierC s5ErrorP AH23RecommendationsMetadataV0G0V
++ _symbolic _____y______y______ySDy_____Say______pGG_____GSay_____GGSo17OS_dispatch_queueCG 7Combine10PublishersO9ReceiveOnV AC3MapV AA12AnyPublisherV 10PodcastsUI8TipGroupO AJ0J5ModelP s5NeverO 8ShelfKit06BubbleJ0V
++ _symbolic _____y______y______ySay_____G_____GG_____G 7Combine10PublishersO3MapV AC16RemoveDuplicatesV AA12AnyPublisherV 8ShelfKit13StationDetailC s5NeverO AJ7TabMenuV7SectionV
++ _symbolic _____y______y______ySay_____G______pG_____y______y______y______y_SaySay_____GG_____G_____GSo17OS_dispatch_queueCGAF_pGGG 7Combine10PublishersO12ReplaceErrorV AC7FlatMapV AA6FutureC 8ShelfKit16CategoryListItemV s0D0P AC14SetFailureTypeV AC8ThrottleV AC11ConcatenateV AC8SequenceV 18PodcastsFoundation20DatabaseEntityChangeV s5NeverO AW0U17PropertyPublisherV
++ _symbolic _____y______y______ySay______pG_____GSay_____GGSo17OS_dispatch_queueCG 7Combine10PublishersO9ReceiveOnV AC3MapV AA12AnyPublisherV 10PodcastsUI8TipModelP s5NeverO 8ShelfKit06BubbleJ0V
++ _symbolic _____y______y______ySd_____G_____yytADGACySiADGG_____y_ACy_____ADGAAy______y______y_Say_____GADG_____y______GGALGGG 7Combine10PublishersO3MapV AC0A7Latest3V AA12AnyPublisherV s5NeverO AA19CurrentValueSubjectC AC14SwitchToLatestV 18PodcastsFoundation23RecommendationsMetadataV AC11ConcatenateV AC8SequenceV 0O04DateV AC11AutoconnectC So7NSTimerCAWE05TimerF0C
++ _symbolic _____y______y______y_SaySay_____GG_____G_____GSo17OS_dispatch_queueCG 7Combine10PublishersO8ThrottleV AC11ConcatenateV AC8SequenceV 18PodcastsFoundation20DatabaseEntityChangeV s5NeverO AJ0H17PropertyPublisherV
++ _symbolic _____y______y______y_Say_____G_____G_____y______GG_____y_____AFGG 7Combine10PublishersO3MapV AC11ConcatenateV AC8SequenceV 10Foundation4DateV s5NeverO AC11AutoconnectC So7NSTimerCAJE14TimerPublisherC AA03AnyL0V 08PodcastsF023RecommendationsMetadataV
++ _symbolic _____y______y______y_So15NSManagedObjectCQo_G_____ySi_____G_____yytAHGG 7Combine10PublishersO0A7Latest3V AC12ReplaceErrorV 18PodcastsFoundation24InterestObserverProviderC28userIsColdStartUserPublisherQrySo15NSManagedObjectCRbzlFQO AA03AnyP0V s5NeverO AA18PassthroughSubjectC
++ _symbolic _____y______y______y_____Sg_____GACySDy_____Say_____GGAFGACySbAFGACy_____y_____ySayADGGGAFGAM_____ySb_GGSo17OS_dispatch_queueCG 7Combine10PublishersO9ReceiveOnV AC18PodcastsFoundationE16PFCombineLatest6V AA12AnyPublisherV 8ShelfKit06ModernK0V s5NeverO 0E2UI8TipGroupO AK06BubbleP0V AF9FRPOutputV AF8LoadableO AA9PublishedV0J0V
++ _symbolic _____y______y______y_____Sg_____GACy_____SgAFGG_____G 7Combine10PublishersO3MapV AC0A6LatestV AA19CurrentValueSubjectC 8ShelfKit19SearchExtensionTermV s5NeverO 10PodcastsUI0J5ScopeO AJ0J14ContentRequestO
++ _symbolic _____y______y______y_____Sg_____GSo17OS_dispatch_queueCGSay______pGG 7Combine10PublishersO3MapV AC9ReceiveOnV AA18PassthroughSubjectC 8ShelfKit18CategoriesSavedTipV s5NeverO 10PodcastsUI0L5ModelP
++ _symbolic _____y______y______y_____Sg_____GSo17OS_dispatch_queueCGSay______pGG 7Combine10PublishersO3MapV AC9ReceiveOnV AA18PassthroughSubjectC 8ShelfKit21NotFindingAnythingTipV s5NeverO 10PodcastsUI0M5ModelP
++ _symbolic _____y______y______y_____Sg_____GSo17OS_dispatch_queueCGSay______pGG 7Combine10PublishersO3MapV AC9ReceiveOnV AA18PassthroughSubjectC 8ShelfKit30AddFavoriteCategoriesSearchTipV s5NeverO 10PodcastsUI0N5ModelP
++ _symbolic _____y______y______y_____Sg_____G_____y_____AFGGSo17OS_dispatch_queueCG 7Combine10PublishersO9ReceiveOnV AC7FlatMapV AA6FutureC 8ShelfKit4PageC s5NeverO AA12AnyPublisherV 18PodcastsFoundation23RecommendationsMetadataV
++ _symbolic _____y______y______y__________GACySDy_____Say______pGGAEGGADG 7Combine10PublishersO3MapV AC0A6LatestV AA12AnyPublisherV 8ShelfKit11PageContentO s5NeverO 10PodcastsUI8TipGroupO AO0N5ModelP
++ _symbolic _____y______y______y__________GACy_____AEGACy_____AEGACy_____AEGACy_____AEGG_____G 7Combine10PublishersO3MapV AC18PodcastsFoundationE16PFCombineLatest5V AA12AnyPublisherV AF23RecommendationsMetadataV9AnalyticsV s5NeverO AL10CategoriesV AL8ChannelsV AL8EpisodesV AL5ShowsV AL
++ _symbolic _____y______y______y__________GAF_____ySDy_____Say______pGGAEGGSo17OS_dispatch_queueCG 7Combine10PublishersO9ReceiveOnV AC0A7Latest3V AA19CurrentValueSubjectC 8ShelfKit11PageContentO s5NeverO AA12AnyPublisherV 10PodcastsUI8TipGroupO AQ0R5ModelP
++ _symbolic _____y______y______y__________GGABy_ACy_____SgAEGGABy_ACy_____SgAEGGG 7Combine10PublishersO0A7Latest3V AC16RemoveDuplicatesV AA19CurrentValueSubjectC 8ShelfKit17SearchFacetFilterV s5NeverO 10PodcastsUI0K5ScopeO AJ0K13ExtensionTermV
++ _symbolic _____y______y______y___________pGG_____G 7Combine10PublishersO3MapV AC12ReplaceErrorV AA6FutureC 18PodcastsFoundation23AnalyticsUserIdentifierC s0E0P AJ23RecommendationsMetadataV
++ _symbolic _____y______y______y___________pG_____GG 7Combine10PublishersO12ReplaceErrorV AC3MapV AA6FutureC 18PodcastsFoundation23AnalyticsUserIdentifierC s0D0P AJ23RecommendationsMetadataV0I0V
++ _symbolic _____y______y______y______ySay_____G______pG_____y______y______y______y_SaySay_____GG_____G_____GSo17OS_dispatch_queueCGAG_pGGGAUG 7Combine10PublishersO9ReceiveOnV AC12ReplaceErrorV AC7FlatMapV AA6FutureC 8ShelfKit16CategoryListItemV s0F0P AC14SetFailureTypeV AC8ThrottleV AC11ConcatenateV AC8SequenceV 18PodcastsFoundation20DatabaseEntityChangeV s5NeverO AY0W17PropertyPublisherV
++ _symbolic _____y______y______y______y_AAy______y______y_____Sg_____GAFy_____SgAIGG_____GAOGSo17OS_dispatch_queueCGG_____y_____AIGG 7Combine10PublishersO3MapV AC16RemoveDuplicatesV AC8DebounceV AC4ScanV AC0A6LatestV AA19CurrentValueSubjectC 8ShelfKit19SearchExtensionTermV s5NeverO 10PodcastsUI0N5ScopeO AP0N14ContentRequestO AA12AnyPublisherV AP0nU0O
++ _symbolic _____y______y______y______y_So15NSManagedObjectCQo_G_____ySi_____G_____yytAIGGSo17OS_dispatch_queueCG 7Combine10PublishersO9ReceiveOnV AC0A7Latest3V AC12ReplaceErrorV 18PodcastsFoundation24InterestObserverProviderC28userIsColdStartUserPublisherQrySo15NSManagedObjectCRbzlFQO AA03AnyR0V s5NeverO AA18PassthroughSubjectC
++ _symbolic _____y______y______y______y_____Sg_____GADySDy_____Say_____GGAGGADySbAGGADy_____y_____ySayAEGGGAGGAN_____ySb_GGSo17OS_dispatch_queueCG_____G 7Combine10PublishersO10CompactMapV AC9ReceiveOnV AC18PodcastsFoundationE16PFCombineLatest6V AA12AnyPublisherV 8ShelfKit06ModernM0V s5NeverO 0G2UI8TipGroupO AM06BubbleR0V AH9FRPOutputV AH8LoadableO AA9PublishedV0L0V AM11PageContentO
++ _symbolic _____y______y______y______y_____Sg_____GADy_____SgAGGG_____GAMG 7Combine10PublishersO4ScanV AC3MapV AC0A6LatestV AA19CurrentValueSubjectC 8ShelfKit19SearchExtensionTermV s5NeverO 10PodcastsUI0K5ScopeO AL0K14ContentRequestO
++ _symbolic _____y______y______y______y__________GADy_____AFGADy_____AFGADy_____AFGADy_____AFGG_____GG 7Combine10PublishersO5FirstV AC3MapV AC18PodcastsFoundationE16PFCombineLatest5V AA12AnyPublisherV AH23RecommendationsMetadataV9AnalyticsV s5NeverO AN10CategoriesV AN8ChannelsV AN8EpisodesV AN5ShowsV AN
++ _symbolic _____y______y______y______y__________GAG_____ySDy_____Say______pGGAFGGSo17OS_dispatch_queueCGAEG 7Combine10PublishersO3MapV AC9ReceiveOnV AC0A7Latest3V AA19CurrentValueSubjectC 8ShelfKit11PageContentO s5NeverO AA12AnyPublisherV 10PodcastsUI8TipGroupO AS0S5ModelP
++ _symbolic _____y______y______y______y______y_So15NSManagedObjectCQo_G_____ySi_____G_____yytAJGGSo17OS_dispatch_queueCG_____SgG 7Combine10PublishersO3MapV AC9ReceiveOnV AC0A7Latest3V AC12ReplaceErrorV 18PodcastsFoundation24InterestObserverProviderC28userIsColdStartUserPublisherQrySo15NSManagedObjectCRbzlFQO AA03AnyS0V s5NeverO AA18PassthroughSubjectC 8ShelfKit21NotFindingAnythingTipV
++ _symbolic _____y______y______y______y______y_____Sg_____GAEy_____SgAHGG_____GANGSo17OS_dispatch_queueCG 7Combine10PublishersO8DebounceV AC4ScanV AC3MapV AC0A6LatestV AA19CurrentValueSubjectC 8ShelfKit19SearchExtensionTermV s5NeverO 10PodcastsUI0L5ScopeO AN0L14ContentRequestO
++ _symbolic _____y______y______y______y______y______y_____Sg_____GAFy_____SgAIGG_____GAOGSo17OS_dispatch_queueCGG 7Combine10PublishersO16RemoveDuplicatesV AC8DebounceV AC4ScanV AC3MapV AC0A6LatestV AA19CurrentValueSubjectC 8ShelfKit19SearchExtensionTermV s5NeverO 10PodcastsUI0N5ScopeO AP0N14ContentRequestO
++ _symbolic _____y______y______y______yyt_____G_____ySbAEGGSo17OS_dispatch_queueCGSbG 7Combine10PublishersO3MapV AC9ReceiveOnV AC0A6LatestV AA18PassthroughSubjectC s5NeverO AA12AnyPublisherV
++ _symbolic _____y______y______y______yyt_____G_____ySiAEGAHGSo17OS_dispatch_queueCGSbG 7Combine10PublishersO3MapV AC9ReceiveOnV AC0A7Latest3V AA18PassthroughSubjectC s5NeverO AA12AnyPublisherV
++ _symbolic _____y______y______y_____ySay_____GG_____G_____y_ACy_____AHGACySbAHGACySiAHGGGSo17OS_dispatch_queueCG 7Combine10PublishersO9ReceiveOnV AC7FlatMapV AA12AnyPublisherV 18PodcastsFoundation8LoadableO 8ShelfKit06ModernL0V s5NeverO AC0A7Latest3V AJ23RecommendationsMetadataV
++ _symbolic _____y______y______yyt_____G_____ySbADGGSo17OS_dispatch_queueCG 7Combine10PublishersO9ReceiveOnV AC0A6LatestV AA18PassthroughSubjectC s5NeverO AA12AnyPublisherV
++ _symbolic _____y______y______yyt_____G_____ySiADGAGGSo17OS_dispatch_queueCG 7Combine10PublishersO9ReceiveOnV AC0A7Latest3V AA18PassthroughSubjectC s5NeverO AA12AnyPublisherV
++ _symbolic _____y______y_____ySay_____GG_____G_____y_ABy_____AGGABySbAGGABySiAGGGG 7Combine10PublishersO7FlatMapV AA12AnyPublisherV 18PodcastsFoundation8LoadableO 8ShelfKit06ModernJ0V s5NeverO AC0A7Latest3V AH23RecommendationsMetadataV
++ _symbolic _____y______yyt_____G_____ySbACGG 7Combine10PublishersO0A6LatestV AA18PassthroughSubjectC s5NeverO AA12AnyPublisherV
++ _symbolic _____y______yyt_____G_____ySiACGAFG 7Combine10PublishersO0A7Latest3V AA18PassthroughSubjectC s5NeverO AA12AnyPublisherV
++ _symbolic _____y_____yABy_____y_____y_____G_Qo_AFGAGGAE_G 7SwiftUI19_ConditionalContentV7StorageO AC AA4ViewP012_AppIntents_aB0E19appEntityIdentifieryQr0gH00jK0VSgFQO AA01_f9Modifier_D0V 8ShelfKit0D19ReferenceAnnotationV
++ _symbolic _____y_____y_____G_Qo_ 7SwiftUI4ViewP012_AppIntents_aB0E19appEntityIdentifieryQr0dE00gH0VSgFQO AA01_C16Modifier_ContentV 8ShelfKit0J19ReferenceAnnotationV
++ _symbolic _____y_____y______y______y_____Sg_____GSo17OS_dispatch_queueCGSay______pGG_Qo_ 7Combine9PublisherP18PodcastsFoundationE26replayingBufferedMulticastQryFQO AA10PublishersO3MapV AG9ReceiveOnV AA18PassthroughSubjectC 8ShelfKit18CategoriesSavedTipV s5NeverO 0C2UI0R5ModelP
++ _symbolic _____y_____y______y______y_____Sg_____GSo17OS_dispatch_queueCGSay______pGG_Qo_ 7Combine9PublisherP18PodcastsFoundationE26replayingBufferedMulticastQryFQO AA10PublishersO3MapV AG9ReceiveOnV AA18PassthroughSubjectC 8ShelfKit21NotFindingAnythingTipV s5NeverO 0C2UI0S5ModelP
++ _symbolic _____y_____y______y______y_____Sg_____GSo17OS_dispatch_queueCGSay______pGG_Qo_ 7Combine9PublisherP18PodcastsFoundationE26replayingBufferedMulticastQryFQO AA10PublishersO3MapV AG9ReceiveOnV AA18PassthroughSubjectC 8ShelfKit30AddFavoriteCategoriesSearchTipV s5NeverO 0C2UI0T5ModelP
++ _symbolic _____y_____y_____yAAy__________GAAyAAy__________y_____GG_____y_____GGGG_____G 7SwiftUI15ModifiedContentV AA6ZStackV AA012_ConditionalD0V AA5ImageV AA18_AspectRatioLayoutV AA9RectangleV AA24_ForegroundStyleModifierV AA08AnyShapeM0V AA013_TraitWritingN0V AA010TransitionQ3KeyV AA037_AccessibilityIgnoresInvertColorsViewN0V
++ _symbolic _____y_____y_____y_____G_Qo_AEG 7SwiftUI19_ConditionalContentV AA4ViewP012_AppIntents_aB0E19appEntityIdentifieryQr0fG00iJ0VSgFQO AA01_e9Modifier_D0V 8ShelfKit0D19ReferenceAnnotationV
++ _symbolic _____y_____y_____y_____G_Qo_AE_G 7SwiftUI19_ConditionalContentV7StorageO AA4ViewP012_AppIntents_aB0E19appEntityIdentifieryQr0gH00jK0VSgFQO AA01_f9Modifier_D0V 8ShelfKit0D19ReferenceAnnotationV
++ _symbolic _____y_____y_____y__________GACyACy__________y_____GG_____y_____GGGG 7SwiftUI6ZStackV AA19_ConditionalContentV AA08ModifiedE0V AA5ImageV AA18_AspectRatioLayoutV AA9RectangleV AA24_ForegroundStyleModifierV AA08AnyShapeM0V AA013_TraitWritingN0V AA010TransitionQ3KeyV
++ _symbolic _____y_____y_____y_____y_____G_Qo_AFGAG_G 7SwiftUI19_ConditionalContentV7StorageO AC AA4ViewP012_AppIntents_aB0E19appEntityIdentifieryQr0gH00jK0VSgFQO AA01_f9Modifier_D0V 8ShelfKit0D19ReferenceAnnotationV
++ _symbolic _____y_____y_____y_____yxGG_____y_____GG_AGQo_ 7SwiftUI4ViewP011_JetEngine_aB0E16actionDispatcher4fromQrqd___t0dE015BaseObjectGraphCRbd__lFQO AA15ModifiedContentV AA01_c9Modifier_M0V 8ShelfKit010SatisfyingjkcN0V AA022_EnvironmentKeyWritingN0V AI
++ _symbolic _____y_____yp_G SD4KeysV So21NSAttributedStringKeya
++ _symbolic _____y_____yx_____GxG 7SwiftUI19_ConditionalContentV AA08ModifiedD0V 8ShelfKit0D19ReferenceAnnotationV
++ _symbolic _____yx_____yqd__GG 7SwiftUI15ModifiedContentV 8ShelfKit33SatisfyingObjectGraphViewModifierV
++ _symbolic _____yyt_____G 7Combine18PassthroughSubjectC s5NeverO
++ _symbolic ySSc
++ _symbolic ySo17UIInterfaceActionC_Spy_____GtcSg 10ObjectiveC8ObjCBoolV
++ _symbolic yXlSgXw
++ _symbolic yyScMYccSg
++ _symbolic yycSg10completion_t
++ block_copy_helper.17
++ block_copy_helper.20
++ block_copy_helper.23
++ block_copy_helper.26
++ block_copy_helper.32
++ block_copy_helper.35
++ block_copy_helper.37
++ block_copy_helper.39
++ block_copy_helper.41
++ block_copy_helper.43
++ block_copy_helper.52
++ block_copy_helper.57
++ block_copy_helper.63
++ block_copy_helper.66
++ block_copy_helper.84
++ block_copy_helper.90
++ block_descriptor.19
++ block_descriptor.22
++ block_descriptor.25
++ block_descriptor.28
++ block_descriptor.34
++ block_descriptor.37
++ block_descriptor.39
++ block_descriptor.41
++ block_descriptor.43
++ block_descriptor.45
++ block_descriptor.54
++ block_descriptor.59
++ block_descriptor.65
++ block_descriptor.68
++ block_descriptor.86
++ block_descriptor.92
++ block_destroy_helper.18
++ block_destroy_helper.21
++ block_destroy_helper.24
++ block_destroy_helper.27
++ block_destroy_helper.33
++ block_destroy_helper.36
++ block_destroy_helper.38
++ block_destroy_helper.40
++ block_destroy_helper.42
++ block_destroy_helper.44
++ block_destroy_helper.53
++ block_destroy_helper.58
++ block_destroy_helper.64
++ block_destroy_helper.67
++ block_destroy_helper.85
++ block_destroy_helper.91
++ get_witness_table 10PodcastsUI16FollowFeedIntentV9JetEngine0E5ModelHPyHC.2
++ get_witness_table 10PodcastsUI18UnfollowShowIntentV9JetEngine0E5ModelHPyHC.2
++ get_witness_table 10PodcastsUI28EnqueueShowForPlaybackIntentV9JetEngine0G5ModelHPyHC.2
++ get_witness_table 10PodcastsUI31EnqueueEpisodeForPlaybackIntentV9JetEngine0G5ModelHPyHC.2
++ get_witness_table 7SwiftUI15ModifiedContentVyACyAA4ViewPAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQOyAA5GroupVyAA012_ConditionalD0VyACyAA01_e9Modifier_D0Vy8ShelfKit013ArtworkLoaderL0VGAA015_GeometryActionL0VySo6CGSizeVAVSQ12CoreGraphicsyHCg_GGARGG_AO0O0V13ConfigurationVQo_AA011_AppearancerL0VGA6_GAaDHPA7_AaDHPqd0__AaDHD3_A4_HO_A6_AA0eL0HPyHCHC_A6_AAA9_HPyHCHC.30
++ get_witness_table 7SwiftUI15ModifiedContentVyACyACyAA6ZStackVyAA012_ConditionalD0VyACyAA5ImageVAA18_AspectRatioLayoutVGACyACyAA9RectangleVAA24_ForegroundStyleModifierVyAA08AnyShapeM0VGGAA013_TraitWritingN0VyAA010TransitionQ3KeyVGGGGAA037_AccessibilityIgnoresInvertColorsViewN0VG8ShelfKit05FrameN033_EE9AF765289E99E5C5525B446EFFF852LLVGA4_013ArtworkLoaderN0VGAA0Y0HPA8_AAA12_HPA3_AAA12_HPA0_AAA12_HPyHC_A2_AA0yN0HPyHCHC_A7_AAA13_HPyHCHC_A10_AAA13_HPyHCHC.14
++ get_witness_table 7SwiftUI15ModifiedContentVyACyACyACyACy8ShelfKit21ExplicitAppendingViewVSgAA30_EnvironmentKeyWritingModifierVyAA4TextV4CaseOSgGGAIyAA5ImageV5ScaleOGGAIySiSgGGAIyAA0D10TransitionVGGAA010_AnimationM0Vy18PodcastsFoundation20EpisodeBookmarkStateOSgGGAA0I0HPA1_AAA10_HPAyAA10_HPAvAA10_HPApAA10_HPAgAA10_HpAfAA10_HPyHC_HC_AoA0iM0HPyHCHC_AuAA11_HPyHCHC_AxAA11_HPyHCHC_A0_AAA11_HPyHCHC_A8_AAA11_HPyHCHC.23
++ get_witness_table 7SwiftUI19_ConditionalContentVyACyAA08ModifiedD0VyAA014_ViewModifier_D0Vy8ShelfKit05FrameG033_EE9AF765289E99E5C5525B446EFFF852LLVGAA05_FlexJ6LayoutVGALGAEyAlA01_jS0VGGAA0F0HPApaUHPAoaUHPAlaUHPyHC_AnA0fG0HPyHCHC_AlaUHPyHCHC_AsaUHPAlaUHPyHC_AraVHPyHCHCHC.27
++ get_witness_table 7SwiftUI19_ConditionalContentVyACyACyAA4ViewP012_AppIntents_aB0E19appEntityIdentifieryQr0fG00iJ0VSgFQOyAA01_e9Modifier_D0Vy8ShelfKit0D19ReferenceAnnotationVG_Qo_ARGASGAQGAaDHPAtaDHPAsaDHPqd__AaDHD2_ARHO_qd__AaDHD2_ARHOHC_AsaDHPqd__AaDHD2_ARHO_qd__AaDHD2_ARHOHCHC_AqaDHPyHCHC.2
++ get_witness_table 7SwiftUI21_ViewModifier_ContentVy8ShelfKit07NothingD033_EE9AF765289E99E5C5525B446EFFF852LLVGAA0C0HPyHC.28
++ get_witness_table 7SwiftUI4TextVAA4ViewHPyHC.2
++ get_witness_table 7SwiftUI4ViewRzlAA19_ConditionalContentVyAA08ModifiedE0Vyx8ShelfKit0E19ReferenceAnnotationVGxGAaBHPAjaBHPxAaBHD1__AiA0C8ModifierHPyHCHC_xAaBHD1_HC.3
++ get_witness_table 7SwiftUI4ViewRzlAA19_ConditionalContentVyADyADyAA08ModifiedE0Vyx8ShelfKit0E19ReferenceAnnotationVGxGAKGxGAaBHPAlaBHPAkaBHPAjaBHPxAaBHD1__AiA0C8ModifierHPyHCHC_xAaBHD1_HC_AkaBHPAjaBHPxAaBHD1__AiaNHPyHCHC_xAaBHD1_HCHC_xAaBHD1_HC.4
++ get_witness_table 7SwiftUI4ViewRzr__lAA15ModifiedContentVyx8ShelfKit021SatisfyingObjectGraphC8ModifierVyqd__GGAaBHPxAaBHD1__AhA0cK0HPyHCHC.2
++ get_witness_table 7SwiftUI5GroupVyAA15ModifiedContentVyAA5ImageVAA21_TraitWritingModifierVyAA010TransitionG3KeyVGGSgGAA4ViewHPAnaPHpAmaPHPAgaPHPyHC_AlA0lI0HPyHCHC_HC_HC.9
++ get_witness_table 7SwiftUI5GroupVyAA15ModifiedContentVyAEyAEyAA5ImageVAA14_OpacityEffectVGAA16_OverlayModifierVyAEyAA4ViewPAAE08progressK5StyleyQrqd__AA08ProgresskM0Rd__lFQOyAA0nK0VyAA05EmptyK0VATG_8ShelfKit08DownloadnkM0VQo_AA14_PaddingLayoutVGSgGGAA013_TraitWritingJ0VyAA010TransitionU3KeyVGGSgGAaMHPA10_AaMHpA9_AaMHPA3_AaMHPAjaMHPAgaMHPyHC_AiA0kJ0HPyHCHC_A2_AAA12_HPyHCHC_A8_AAA12_HPyHCHC_HC_HC.10
++ get_witness_table 7SwiftUI9TupleViewVy8ShelfKit020EpisodeBookmarkStateD0V_AD0g8DownloadiD0VtGAA0D0HPyHC.8
++ get_witness_table lqd0__7SwiftUI4ViewHD2_AaBP011_JetEngine_aB0E16actionDispatcher4fromQrqd___t0dE015BaseObjectGraphCRbd__lFQOyAA15ModifiedContentVyAA01_c9Modifier_M0Vy8ShelfKit010SatisfyingjkcN0VyxGGAA022_EnvironmentKeyWritingN0VyAIGG_AIQo_HO.4
++ get_witness_table qd__7SwiftUI4ViewHD2_AaBPAAE10textSuffixyQrAA4TextV0E0VFQOyAF_Qo_HO.2
++ objectdestroy.127Tm
++ objectdestroy.174Tm
++ objectdestroy.18Tm
++ objectdestroy.20Tm
++ objectdestroy.33Tm
++ objectdestroy.40Tm
++ objectdestroy.61Tm
++ objectdestroy.75Tm
++ objectdestroy.92Tm
+- -[ASKLoadMonogramResourceOperation initWithMonogramResourceURL:]
+- _OBJC_CLASS_$_MTImageStore
+- _OBJC_CLASS_$__TtC8ShelfKit25TipViewControllerProvider
+- _OBJC_METACLASS_$__TtC8ShelfKit25TipViewControllerProvider
+- _PROTOCOLS__TtC8ShelfKit13ArtworkLoader.36
+- _PROTOCOLS__TtC8ShelfKit14ErrorPresenter.6
+- __DATA__TtC8ShelfKit16PageMetricsEvent
+- __DATA__TtC8ShelfKit21AppLaunchMetricsEvent
+- __DATA__TtC8ShelfKit23HeaderButtonTipProvider
+- __DATA__TtC8ShelfKit24StorePageStateController
+- __DATA__TtC8ShelfKit25TipViewControllerProvider
+- __DATA__TtC8ShelfKit26LegacyMetricsPageEnterGate
+- __DATA__TtC8ShelfKit32AddFavoriteCategoriesTipProvider
+- __DATA__TtC8ShelfKit33RecommendationsUpdatedTipProvider
+- __INSTANCE_METHODS__TtC8ShelfKit25TipViewControllerProvider
+- __IVARS__TtC8ShelfKit16PageMetricsEvent
+- __IVARS__TtC8ShelfKit21AppLaunchMetricsEvent
+- __IVARS__TtC8ShelfKit23HeaderButtonTipProvider
+- __IVARS__TtC8ShelfKit24StorePageStateController
+- __IVARS__TtC8ShelfKit25TipViewControllerProvider
+- __IVARS__TtC8ShelfKit26LegacyMetricsPageEnterGate
+- __IVARS__TtC8ShelfKit32AddFavoriteCategoriesTipProvider
+- __IVARS__TtC8ShelfKit33RecommendationsUpdatedTipProvider
+- __METACLASS_DATA__TtC8ShelfKit16PageMetricsEvent
+- __METACLASS_DATA__TtC8ShelfKit21AppLaunchMetricsEvent
+- __METACLASS_DATA__TtC8ShelfKit23HeaderButtonTipProvider
+- __METACLASS_DATA__TtC8ShelfKit24StorePageStateController
+- __METACLASS_DATA__TtC8ShelfKit25TipViewControllerProvider
+- __METACLASS_DATA__TtC8ShelfKit26LegacyMetricsPageEnterGate
+- __METACLASS_DATA__TtC8ShelfKit32AddFavoriteCategoriesTipProvider
+- __METACLASS_DATA__TtC8ShelfKit33RecommendationsUpdatedTipProvider
+- __OBJC_$_INSTANCE_METHODS__TtC8ShelfKit24PopoverTipViewController(ShelfKit)
+- __OBJC_CLASS_PROTOCOLS_$__TtC8ShelfKit24PopoverTipViewController(ShelfKit)
+- __OBJC_CLASS_PROTOCOLS_$__TtC8ShelfKit25TipViewControllerProvider(ShelfKit)
+- ___swift_memcpy105_8
+- ___swift_memcpy128_8
+- ___swift_memcpy35_8
+- ___swift_memcpy80_8
+- __swift_get_extra_inhabitant_index.3Tm
+- __swift_store_extra_inhabitant_index.4Tm
+- _associated conformance 8ShelfKit07MetricsA4NameOSHAASQ
+- _associated conformance 8ShelfKit11SearchScopeOSHAASQ
+- _associated conformance 8ShelfKit11SearchScopeOs12CaseIterableAA8AllCasessADP_Sl
+- _associated conformance 8ShelfKit12MetricsEventC28PageLifecycleInvocationPointOSHAASQ
+- _associated conformance 8ShelfKit12SearchOriginOSHAASQ
+- _associated conformance 8ShelfKit15MetricsPageTypeOSHAASQ
+- _associated conformance 8ShelfKit15MetricsTargetIdOSHAASQ
+- _associated conformance 8ShelfKit16MetricsEventTypeOSHAASQ
+- _associated conformance 8ShelfKit19MetricsActionResultOSHAASQ
+- _associated conformance 8ShelfKit19PlayButtonPresenterC7Combine16ObservableObjectAA0H19WillChangePublisherAdEP_AD0K0
+- _associated conformance 8ShelfKit20SearchExtensionScopeVSHAASQ
+- _associated conformance 8ShelfKit21FetchMoreOfPageIntentV10CodingKeys33_9D386FFFAF8937EC5A99BFD858C7CCD3LLOSHAASQ
+- _associated conformance 8ShelfKit21FetchMoreOfPageIntentV10CodingKeys33_9D386FFFAF8937EC5A99BFD858C7CCD3LLOs0H3KeyAAs23CustomStringConvertible
+- _associated conformance 8ShelfKit21FetchMoreOfPageIntentV10CodingKeys33_9D386FFFAF8937EC5A99BFD858C7CCD3LLOs0H3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 8ShelfKit21FetchMoreOfPageIntentV9JetEngine13JSIntentModelAA10ReturnTypeAD0gK0P_AD17ExpressibleByJSON
+- _associated conformance 8ShelfKit21FetchMoreOfPageIntentV9JetEngine13JSIntentModelAaD0gK0
+- _associated conformance 8ShelfKit21FetchMoreOfPageIntentV9JetEngine13JSIntentModelAaD24CustomJSValueConvertible
+- _associated conformance 8ShelfKit21MetricsLocationIdTypeOSHAASQ
+- _associated conformance 8ShelfKit23MetricsImpressionIdTypeOSHAASQ
+- _associated conformance 8ShelfKit23RecentlySearchedStorageC4ItemV5ScopeO10CodingKeys33_9C1426B8BDA1DF5AA93AE3A1C5836D5CLLOSHAASQ
+- _associated conformance 8ShelfKit23RecentlySearchedStorageC4ItemV5ScopeO10CodingKeys33_9C1426B8BDA1DF5AA93AE3A1C5836D5CLLOs0H3KeyAAs23CustomStringConvertible
+- _associated conformance 8ShelfKit23RecentlySearchedStorageC4ItemV5ScopeO10CodingKeys33_9C1426B8BDA1DF5AA93AE3A1C5836D5CLLOs0H3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 8ShelfKit23RecentlySearchedStorageC4ItemV5ScopeO15StoreCodingKeys33_9C1426B8BDA1DF5AA93AE3A1C5836D5CLLOs0I3KeyAAs23CustomStringConvertible
+- _associated conformance 8ShelfKit23RecentlySearchedStorageC4ItemV5ScopeO15StoreCodingKeys33_9C1426B8BDA1DF5AA93AE3A1C5836D5CLLOs0I3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 8ShelfKit23RecentlySearchedStorageC4ItemV5ScopeO17LibraryCodingKeys33_9C1426B8BDA1DF5AA93AE3A1C5836D5CLLOs0I3KeyAAs23CustomStringConvertible
+- _associated conformance 8ShelfKit23RecentlySearchedStorageC4ItemV5ScopeO17LibraryCodingKeys33_9C1426B8BDA1DF5AA93AE3A1C5836D5CLLOs0I3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 8ShelfKit23RecentlySearchedStorageC4ItemV5ScopeOSHAASQ
+- _associated conformance 8ShelfKit23RecommendationsMetadataV10CategoriesV0D0V10CodingKeys33_036CB32FE161241978F2221C4FDFA73ALLOSHAASQ
+- _associated conformance 8ShelfKit23RecommendationsMetadataV10CategoriesV0D0V10CodingKeys33_036CB32FE161241978F2221C4FDFA73ALLOs0F3KeyAAs23CustomStringConvertible
+- _associated conformance 8ShelfKit23RecommendationsMetadataV10CategoriesV0D0V10CodingKeys33_036CB32FE161241978F2221C4FDFA73ALLOs0F3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 8ShelfKit23RecommendationsMetadataV10CategoriesV10CodingKeys33_036CB32FE161241978F2221C4FDFA73ALLOSHAASQ
+- _associated conformance 8ShelfKit23RecommendationsMetadataV10CategoriesV10CodingKeys33_036CB32FE161241978F2221C4FDFA73ALLOs0F3KeyAAs23CustomStringConvertible
+- _associated conformance 8ShelfKit23RecommendationsMetadataV10CategoriesV10CodingKeys33_036CB32FE161241978F2221C4FDFA73ALLOs0F3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 8ShelfKit23RecommendationsMetadataV10CodingKeys33_036CB32FE161241978F2221C4FDFA73ALLOSHAASQ
+- _associated conformance 8ShelfKit23RecommendationsMetadataV10CodingKeys33_036CB32FE161241978F2221C4FDFA73ALLOs0E3KeyAAs23CustomStringConvertible
+- _associated conformance 8ShelfKit23RecommendationsMetadataV10CodingKeys33_036CB32FE161241978F2221C4FDFA73ALLOs0E3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 8ShelfKit23RecommendationsMetadataV5ShowsV0D0V10CodingKeys33_036CB32FE161241978F2221C4FDFA73ALLOSHAASQ
+- _associated conformance 8ShelfKit23RecommendationsMetadataV5ShowsV0D0V10CodingKeys33_036CB32FE161241978F2221C4FDFA73ALLOs0F3KeyAAs23CustomStringConvertible
+- _associated conformance 8ShelfKit23RecommendationsMetadataV5ShowsV0D0V10CodingKeys33_036CB32FE161241978F2221C4FDFA73ALLOs0F3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 8ShelfKit23RecommendationsMetadataV5ShowsV10CodingKeys33_036CB32FE161241978F2221C4FDFA73ALLOSHAASQ
+- _associated conformance 8ShelfKit23RecommendationsMetadataV5ShowsV10CodingKeys33_036CB32FE161241978F2221C4FDFA73ALLOs0F3KeyAAs23CustomStringConvertible
+- _associated conformance 8ShelfKit23RecommendationsMetadataV5ShowsV10CodingKeys33_036CB32FE161241978F2221C4FDFA73ALLOs0F3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 8ShelfKit23RecommendationsMetadataV8ChannelsV0D0V10CodingKeys33_036CB32FE161241978F2221C4FDFA73ALLOSHAASQ
+- _associated conformance 8ShelfKit23RecommendationsMetadataV8ChannelsV0D0V10CodingKeys33_036CB32FE161241978F2221C4FDFA73ALLOs0F3KeyAAs23CustomStringConvertible
+- _associated conformance 8ShelfKit23RecommendationsMetadataV8ChannelsV0D0V10CodingKeys33_036CB32FE161241978F2221C4FDFA73ALLOs0F3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 8ShelfKit23RecommendationsMetadataV8ChannelsV10CodingKeys33_036CB32FE161241978F2221C4FDFA73ALLOSHAASQ
+- _associated conformance 8ShelfKit23RecommendationsMetadataV8ChannelsV10CodingKeys33_036CB32FE161241978F2221C4FDFA73ALLOs0F3KeyAAs23CustomStringConvertible
+- _associated conformance 8ShelfKit23RecommendationsMetadataV8ChannelsV10CodingKeys33_036CB32FE161241978F2221C4FDFA73ALLOs0F3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 8ShelfKit23RecommendationsMetadataV8EpisodesV0D0V10CodingKeys33_036CB32FE161241978F2221C4FDFA73ALLOSHAASQ
+- _associated conformance 8ShelfKit23RecommendationsMetadataV8EpisodesV0D0V10CodingKeys33_036CB32FE161241978F2221C4FDFA73ALLOs0F3KeyAAs23CustomStringConvertible
+- _associated conformance 8ShelfKit23RecommendationsMetadataV8EpisodesV0D0V10CodingKeys33_036CB32FE161241978F2221C4FDFA73ALLOs0F3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 8ShelfKit23RecommendationsMetadataV8EpisodesV10CodingKeys33_036CB32FE161241978F2221C4FDFA73ALLOSHAASQ
+- _associated conformance 8ShelfKit23RecommendationsMetadataV8EpisodesV10CodingKeys33_036CB32FE161241978F2221C4FDFA73ALLOs0F3KeyAAs23CustomStringConvertible
+- _associated conformance 8ShelfKit23RecommendationsMetadataV8EpisodesV10CodingKeys33_036CB32FE161241978F2221C4FDFA73ALLOs0F3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 8ShelfKit23RecommendationsMetadataV9AnalyticsV10CodingKeys33_036CB32FE161241978F2221C4FDFA73ALLOSHAASQ
+- _associated conformance 8ShelfKit23RecommendationsMetadataV9AnalyticsV10CodingKeys33_036CB32FE161241978F2221C4FDFA73ALLOs0F3KeyAAs23CustomStringConvertible
+- _associated conformance 8ShelfKit23RecommendationsMetadataV9AnalyticsV10CodingKeys33_036CB32FE161241978F2221C4FDFA73ALLOs0F3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 8ShelfKit24GroupedSearchResultsPageV6ResultV2IDVSHAASQ
+- _keypath_getTm
+- _keypath_setTm
+- _objc_msgSend$initWithMonogramResourceURL:
+- _swift_getDynamicType
+- _swift_lookUpClassMethod
+- _symbolic $s8ShelfKit11MetricsPageP
+- _symbolic $s8ShelfKit19LegacyMetricsSenderP
+- _symbolic $s8ShelfKit20MetricsPagePresenterP
+- _symbolic $s8ShelfKit31HeaderButtonTipProviderProtocolP
+- _symbolic SDySS_____G 18PodcastsFoundation15MetricsTargetIDV
+- _symbolic SDy_____SaySo16AMSDialogRequestCGG 10PodcastsUI8TipGroupO
+- _symbolic SS4term_SSSg6prefix_____5scopet 8ShelfKit11SearchScopeO
+- _symbolic SS______t 18PodcastsFoundation8HexColorV
+- _symbolic SaySo16AMSDialogRequestCG
+- _symbolic Say_____G 8ShelfKit11SearchScopeO
+- _symbolic Say_____G 8ShelfKit12MetricsEventC28PageLifecycleInvocationPointO
+- _symbolic Say_____G 8ShelfKit20SearchExtensionScopeV
+- _symbolic Say_____G 8ShelfKit23RecommendationsMetadataV10CategoriesV0D0V
+- _symbolic Say_____G 8ShelfKit23RecommendationsMetadataV5ShowsV0D0V
+- _symbolic Say_____G 8ShelfKit23RecommendationsMetadataV8ChannelsV0D0V
+- _symbolic Say_____G 8ShelfKit23RecommendationsMetadataV8EpisodesV0D0V
+- _symbolic Say_____GSbS2i_____Ieggyyyr_ 8ShelfKit7TabMenuV4ItemV AC7SectionV
+- _symbolic Say______pG 10PodcastsUI3TipP
+- _symbolic Sb__________Iegyyr_ 18PodcastsFoundation13ShowsSortTypeO 8ShelfKit16ShowListProviderC5StateO
+- _symbolic SdSi_____y______y__________G_____y______y______y_Say_____GADG_____y______GGAEGGIegyyr_ 7Combine10PublishersO14SwitchToLatestV AA12AnyPublisherV 8ShelfKit23RecommendationsMetadataV s5NeverO AC3MapV AC11ConcatenateV AC8SequenceV 10Foundation4DateV AC11AutoconnectC So7NSTimerCASE05TimerG0C
+- _symbolic So14AMSProcessInfoC
+- _symbolic _____ 8ShelfKit07MetricsA4NameO
+- _symbolic _____ 8ShelfKit0aB9BootstrapV
+- _symbolic _____ 8ShelfKit11SearchScopeO
+- _symbolic _____ 8ShelfKit12MetricsEventC28PageLifecycleInvocationPointO
+- _symbolic _____ 8ShelfKit12SearchActionV
+- _symbolic _____ 8ShelfKit12SearchOriginO
+- _symbolic _____ 8ShelfKit15MetricsPageTypeO
+- _symbolic _____ 8ShelfKit15MetricsTargetIdO
+- _symbolic _____ 8ShelfKit16ArtworkBootstrapO
+- _symbolic _____ 8ShelfKit16MetricsEventTypeO
+- _symbolic _____ 8ShelfKit16PageMetricsEventC
+- _symbolic _____ 8ShelfKit16PendingAppLaunchV
+- _symbolic _____ 8ShelfKit19MetricsActionResultO
+- _symbolic _____ 8ShelfKit20SearchExtensionScopeV
+- _symbolic _____ 8ShelfKit21AppLaunchMetricsEventC
+- _symbolic _____ 8ShelfKit21CategoryListPresenterC13ConfigurationV
+- _symbolic _____ 8ShelfKit21FetchMoreOfPageIntentV
+- _symbolic _____ 8ShelfKit21FetchMoreOfPageIntentV10CodingKeys33_9D386FFFAF8937EC5A99BFD858C7CCD3LLO
+- _symbolic _____ 8ShelfKit21MetricsLocationIdTypeO
+- _symbolic _____ 8ShelfKit23HeaderButtonTipProviderC
+- _symbolic _____ 8ShelfKit23MetricsImpressionIdTypeO
+- _symbolic _____ 8ShelfKit23RecentlySearchedStorageC4ItemV5ScopeO
+- _symbolic _____ 8ShelfKit23RecentlySearchedStorageC4ItemV5ScopeO10CodingKeys33_9C1426B8BDA1DF5AA93AE3A1C5836D5CLLO
+- _symbolic _____ 8ShelfKit23RecentlySearchedStorageC4ItemV5ScopeO15StoreCodingKeys33_9C1426B8BDA1DF5AA93AE3A1C5836D5CLLO
+- _symbolic _____ 8ShelfKit23RecentlySearchedStorageC4ItemV5ScopeO17LibraryCodingKeys33_9C1426B8BDA1DF5AA93AE3A1C5836D5CLLO
+- _symbolic _____ 8ShelfKit23RecommendationsMetadataV
+- _symbolic _____ 8ShelfKit23RecommendationsMetadataV10CategoriesV
+- _symbolic _____ 8ShelfKit23RecommendationsMetadataV10CategoriesV0D0V
+- _symbolic _____ 8ShelfKit23RecommendationsMetadataV10CategoriesV0D0V10CodingKeys33_036CB32FE161241978F2221C4FDFA73ALLO
+- _symbolic _____ 8ShelfKit23RecommendationsMetadataV10CategoriesV10CodingKeys33_036CB32FE161241978F2221C4FDFA73ALLO
+- _symbolic _____ 8ShelfKit23RecommendationsMetadataV10CodingKeys33_036CB32FE161241978F2221C4FDFA73ALLO
+- _symbolic _____ 8ShelfKit23RecommendationsMetadataV5ShowsV
+- _symbolic _____ 8ShelfKit23RecommendationsMetadataV5ShowsV0D0V
+- _symbolic _____ 8ShelfKit23RecommendationsMetadataV5ShowsV0D0V10CodingKeys33_036CB32FE161241978F2221C4FDFA73ALLO
+- _symbolic _____ 8ShelfKit23RecommendationsMetadataV5ShowsV10CodingKeys33_036CB32FE161241978F2221C4FDFA73ALLO
+- _symbolic _____ 8ShelfKit23RecommendationsMetadataV8ChannelsV
+- _symbolic _____ 8ShelfKit23RecommendationsMetadataV8ChannelsV0D0V
+- _symbolic _____ 8ShelfKit23RecommendationsMetadataV8ChannelsV0D0V10CodingKeys33_036CB32FE161241978F2221C4FDFA73ALLO
+- _symbolic _____ 8ShelfKit23RecommendationsMetadataV8ChannelsV10CodingKeys33_036CB32FE161241978F2221C4FDFA73ALLO
+- _symbolic _____ 8ShelfKit23RecommendationsMetadataV8EpisodesV
+- _symbolic _____ 8ShelfKit23RecommendationsMetadataV8EpisodesV0D0V
+- _symbolic _____ 8ShelfKit23RecommendationsMetadataV8EpisodesV0D0V10CodingKeys33_036CB32FE161241978F2221C4FDFA73ALLO
+- _symbolic _____ 8ShelfKit23RecommendationsMetadataV8EpisodesV10CodingKeys33_036CB32FE161241978F2221C4FDFA73ALLO
+- _symbolic _____ 8ShelfKit23RecommendationsMetadataV9AnalyticsV
+- _symbolic _____ 8ShelfKit23RecommendationsMetadataV9AnalyticsV10CodingKeys33_036CB32FE161241978F2221C4FDFA73ALLO
+- _symbolic _____ 8ShelfKit24GroupedSearchResultsPageV6ResultV2IDV
+- _symbolic _____ 8ShelfKit24StorePageStateControllerC
+- _symbolic _____ 8ShelfKit25TipViewControllerProviderC
+- _symbolic _____ 8ShelfKit26LegacyMetricsPageEnterGateC
+- _symbolic _____ 8ShelfKit32AddFavoriteCategoriesTipProviderC
+- _symbolic _____ 8ShelfKit33RecommendationsUpdatedTipProviderC
+- _symbolic _____6adamID______3urlt 18PodcastsFoundation6AdamIDV 0B03URLV
+- _symbolic _____AAIegnr_ So6CGSizeV
+- _symbolic _____AASgSayAAGIegnno_ 8ShelfKit7TabMenuV7SectionV
+- _symbolic _____Iegg_ 8ShelfKit4PageC
+- _symbolic _____Iegn_ 10Foundation9IndexPathV
+- _symbolic _____Iegn_ 8ShelfKit17StorePageProviderC5StateV
+- _symbolic _____Iegy_ So6CGRectV
+- _symbolic _____SbIegny_ 8ShelfKit7TabMenuV7SectionV
+- _symbolic _____SbSi_____y_____ySay_____GG_____GIegnyyo_ 8ShelfKit23RecommendationsMetadataV 7Combine12AnyPublisherV 18PodcastsFoundation8LoadableO AA06ModernA0V s5NeverO
+- _symbolic _____Sg 10PodcastsUI19SearchFiltersSourceC
+- _symbolic _____Sg 10PodcastsUI7TipTypeO
+- _symbolic _____Sg 18PodcastsFoundation16EpisodePlayStateO
+- _symbolic _____Sg 18PodcastsFoundation32ThinClientEpisodeStateRepositoryC
+- _symbolic _____Sg 18PodcastsFoundation32ThinClientPodcastStateRepositoryC
+- _symbolic _____Sg 8ShelfKit07MetricsA4NameO
+- _symbolic _____Sg 8ShelfKit0A9CellShapeO
+- _symbolic _____Sg 8ShelfKit20SearchExtensionScopeV
+- _symbolic _____Sg 8ShelfKit23MetricsImpressionIdTypeO
+- _symbolic _____Sg 8ShelfKit26LegacyMetricsPageEnterGateC
+- _symbolic _____Sg 8ShelfKit38AddFavoriteCategoriesSearchTipProviderC
+- _symbolic _____SgIegn_ 8ShelfKit23RecommendationsMetadataV
+- _symbolic _____SgIego_ 8ShelfKit6ActionC
+- _symbolic _____SgIegr_ 8ShelfKit6ActionC
+- _symbolic _____SgSDy_____SaySo16AMSDialogRequestCGGSb_____y_____ySayAAGGGS2b_____SgIegngynyyr_ 8ShelfKit06ModernA0V 10PodcastsUI8TipGroupO 0D10Foundation9FRPOutputV AG8LoadableO AA11PageContentO
+- _symbolic _____SgXw 8ShelfKit32AddFavoriteCategoriesTipProviderC
+- _symbolic _____SgXw 8ShelfKit33RecommendationsUpdatedTipProviderC
+- _symbolic _____SgXw 8ShelfKit38AddFavoriteCategoriesSearchTipProviderC
+- _symbolic _____Sg_SDy_____SaySo16AMSDialogRequestCGGSb_____y_____ySayAAGGGS2bt 8ShelfKit06ModernA0V 10PodcastsUI8TipGroupO 0D10Foundation9FRPOutputV AG8LoadableO
+- _symbolic _____Sg_____Sg_____Iegnnr_ 8ShelfKit19SearchExtensionTermV AA0cD5ScopeV AA0C14ContentRequestO
+- _symbolic ______AAt 8ShelfKit11PageContentO
+- _symbolic __________SgAC_____y_____GADySayABGG_____Iegnnnngr_ 8ShelfKit30LocalShowPageFeedUpdaterStatusO AA06ModernA0V 18PodcastsFoundation8LoadableO AA0D23EpisodesShelvesProviderV6ResultV AA0E7ContentO
+- _symbolic __________Sg_____SgIeggnn_ 8ShelfKit17SearchFacetFilterV AA0C14ExtensionScopeV AA0cF4TermV
+- _symbolic ___________Sgt 8ShelfKit11PageContentO AA06ModernA0V
+- _symbolic ______p 10PodcastsUI12AMSDialogTipP
+- _symbolic ______p 10PodcastsUI3TipP
+- _symbolic ______pSg 10PodcastsUI12AMSDialogTipP
+- _symbolic ______pSg 8ShelfKit11MetricsPageP
+- _symbolic ______pSgXw 8ShelfKit19LegacyMetricsSenderP
+- _symbolic ______pXp s5ErrorP
+- _symbolic _____yAAyAAy_____y_____yAAy__________GAAyACyAAy__________y_____SgGGAAyAG_____y_____GGG_____y_____GGGG_____G_____G_____G 7SwiftUI15ModifiedContentV AA6ZStackV AA012_ConditionalD0V AA5ImageV AA18_AspectRatioLayoutV AA9RectangleV AA30_EnvironmentKeyWritingModifierV AA5ColorV AA016_ForegroundStyleO0V AA017HierarchicalShapeR0V AA06_TraitnO0V AA010TransitionuM0V AA037_AccessibilityIgnoresInvertColorsViewO0V 8ShelfKit05FrameO033_EE9AF765289E99E5C5525B446EFFF852LLV A0_013ArtworkLoaderO0V
+- _symbolic _____yAAy_____y_____yAAy__________GAAyACyAAy__________y_____SgGGAAyAG_____y_____GGG_____y_____GGGG_____G_____G 7SwiftUI15ModifiedContentV AA6ZStackV AA012_ConditionalD0V AA5ImageV AA18_AspectRatioLayoutV AA9RectangleV AA30_EnvironmentKeyWritingModifierV AA5ColorV AA016_ForegroundStyleO0V AA017HierarchicalShapeR0V AA06_TraitnO0V AA010TransitionuM0V AA037_AccessibilityIgnoresInvertColorsViewO0V 8ShelfKit05FrameO033_EE9AF765289E99E5C5525B446EFFF852LLV
+- _symbolic _____ySDySSypGSSG s15LazyMapSequenceV
+- _symbolic _____ySDy_____SaySo16AMSDialogRequestCGG_____G 7Combine12AnyPublisherV 10PodcastsUI8TipGroupO s5NeverO
+- _symbolic _____ySDy_____Say______pGG_____G 7Combine12AnyPublisherV 10PodcastsUI8TipGroupO AD0F0P s5NeverO
+- _symbolic _____ySS_____G s18_DictionaryStorageC 18PodcastsFoundation15MetricsTargetIDV
+- _symbolic _____ySS______tG s23_ContiguousArrayStorageC 18PodcastsFoundation15MetricsTargetIDV
+- _symbolic _____ySay_____GG 18PodcastsFoundation9FRPOutputV 8ShelfKit16CategoryListItemV
+- _symbolic _____y_AAy______y__________G_____y______y______y_Say_____GADG_____y______GGAEGGAFy______y_ABySdADG_____yytADGABySiADGGAQGG 7Combine10PublishersO14SwitchToLatestV AA12AnyPublisherV 8ShelfKit23RecommendationsMetadataV s5NeverO AC3MapV AC11ConcatenateV AC8SequenceV 10Foundation4DateV AC11AutoconnectC So7NSTimerCASE05TimerG0C AC0A7Latest3V AA19CurrentValueSubjectC
+- _symbolic _____y_____G 10PodcastsUI36IntentDelegatingActionImplementationV AA016DownloadEpisodesE0V
+- _symbolic _____y_____G 10PodcastsUI36IntentDelegatingActionImplementationV AA022RemoveEpisodesDownloadE0V
+- _symbolic _____y_____G 10PodcastsUI36IntentDelegatingActionImplementationV AA029UpdateEpisodeDownloadBehaviorE0V
+- _symbolic _____y_____G 7Combine4JustV 8ShelfKit23RecommendationsMetadataV
+- _symbolic _____y_____G 7Combine9PublishedV 8ShelfKit19PlayButtonPresenterC5StateV
+- _symbolic _____y_____G 7SwiftUI24_ForegroundStyleModifierV AA017HierarchicalShapeD0V
+- _symbolic _____y_____G s11_SetStorageC 9JetEngine11PageMetricsV15InvocationPointV
+- _symbolic _____y_____G s22KeyedDecodingContainerV 8ShelfKit23RecentlySearchedStorageC4ItemV5ScopeO10CodingKeys33_9C1426B8BDA1DF5AA93AE3A1C5836D5CLLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 8ShelfKit23RecentlySearchedStorageC4ItemV5ScopeO15StoreCodingKeys33_9C1426B8BDA1DF5AA93AE3A1C5836D5CLLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 8ShelfKit23RecentlySearchedStorageC4ItemV5ScopeO17LibraryCodingKeys33_9C1426B8BDA1DF5AA93AE3A1C5836D5CLLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 8ShelfKit23RecommendationsMetadataV10CategoriesV0G0V10CodingKeys33_036CB32FE161241978F2221C4FDFA73ALLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 8ShelfKit23RecommendationsMetadataV10CategoriesV10CodingKeys33_036CB32FE161241978F2221C4FDFA73ALLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 8ShelfKit23RecommendationsMetadataV10CodingKeys33_036CB32FE161241978F2221C4FDFA73ALLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 8ShelfKit23RecommendationsMetadataV5ShowsV0G0V10CodingKeys33_036CB32FE161241978F2221C4FDFA73ALLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 8ShelfKit23RecommendationsMetadataV5ShowsV10CodingKeys33_036CB32FE161241978F2221C4FDFA73ALLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 8ShelfKit23RecommendationsMetadataV8ChannelsV0G0V10CodingKeys33_036CB32FE161241978F2221C4FDFA73ALLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 8ShelfKit23RecommendationsMetadataV8ChannelsV10CodingKeys33_036CB32FE161241978F2221C4FDFA73ALLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 8ShelfKit23RecommendationsMetadataV8EpisodesV0G0V10CodingKeys33_036CB32FE161241978F2221C4FDFA73ALLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 8ShelfKit23RecommendationsMetadataV8EpisodesV10CodingKeys33_036CB32FE161241978F2221C4FDFA73ALLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 8ShelfKit23RecommendationsMetadataV9AnalyticsV10CodingKeys33_036CB32FE161241978F2221C4FDFA73ALLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 8ShelfKit21FetchMoreOfPageIntentV10CodingKeys33_9D386FFFAF8937EC5A99BFD858C7CCD3LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 8ShelfKit23RecentlySearchedStorageC4ItemV5ScopeO10CodingKeys33_9C1426B8BDA1DF5AA93AE3A1C5836D5CLLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 8ShelfKit23RecentlySearchedStorageC4ItemV5ScopeO15StoreCodingKeys33_9C1426B8BDA1DF5AA93AE3A1C5836D5CLLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 8ShelfKit23RecentlySearchedStorageC4ItemV5ScopeO17LibraryCodingKeys33_9C1426B8BDA1DF5AA93AE3A1C5836D5CLLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 8ShelfKit23RecommendationsMetadataV10CategoriesV0G0V10CodingKeys33_036CB32FE161241978F2221C4FDFA73ALLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 8ShelfKit23RecommendationsMetadataV10CategoriesV10CodingKeys33_036CB32FE161241978F2221C4FDFA73ALLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 8ShelfKit23RecommendationsMetadataV10CodingKeys33_036CB32FE161241978F2221C4FDFA73ALLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 8ShelfKit23RecommendationsMetadataV5ShowsV0G0V10CodingKeys33_036CB32FE161241978F2221C4FDFA73ALLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 8ShelfKit23RecommendationsMetadataV5ShowsV10CodingKeys33_036CB32FE161241978F2221C4FDFA73ALLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 8ShelfKit23RecommendationsMetadataV8ChannelsV0G0V10CodingKeys33_036CB32FE161241978F2221C4FDFA73ALLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 8ShelfKit23RecommendationsMetadataV8ChannelsV10CodingKeys33_036CB32FE161241978F2221C4FDFA73ALLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 8ShelfKit23RecommendationsMetadataV8EpisodesV0G0V10CodingKeys33_036CB32FE161241978F2221C4FDFA73ALLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 8ShelfKit23RecommendationsMetadataV8EpisodesV10CodingKeys33_036CB32FE161241978F2221C4FDFA73ALLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 8ShelfKit23RecommendationsMetadataV9AnalyticsV10CodingKeys33_036CB32FE161241978F2221C4FDFA73ALLO
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 8ShelfKit12FilterActionV
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 8ShelfKit20SearchExtensionScopeV
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 8ShelfKit23RecommendationsMetadataV10CategoriesV0G0V
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 8ShelfKit23RecommendationsMetadataV5ShowsV0G0V
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 8ShelfKit23RecommendationsMetadataV8ChannelsV0G0V
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 8ShelfKit23RecommendationsMetadataV8EpisodesV0G0V
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 9JetEngine11PageMetricsV15InvocationPointV
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 9JetEngine22NativeIntentDispatcherV
+- _symbolic _____y_____SaySo16AMSDialogRequestCGG s18_DictionaryStorageC 10PodcastsUI8TipGroupO
+- _symbolic _____y_____SgG s23_ContiguousArrayStorageC 8ShelfKit14LocationFieldsV
+- _symbolic _____y_____Sg_____G 7Combine12AnyPublisherV 8ShelfKit23RecommendationsMetadataV s5NeverO
+- _symbolic _____y_____Sg_____G 7Combine19CurrentValueSubjectC 8ShelfKit20SearchExtensionScopeV s5NeverO
+- _symbolic _____y_____Sg_____G 7Combine19CurrentValueSubjectC 8ShelfKit23RecommendationsMetadataV s5NeverO
+- _symbolic _____y______G 7Combine9PublishedV9PublisherV 8ShelfKit19PlayButtonPresenterC5StateV
+- _symbolic _____y__________G 18PodcastsFoundation27FetchedResultsListPublisherV 8ShelfKit08CategoryE4ItemV AA10MTCategoryC
+- _symbolic _____y__________G 7Combine12AnyPublisherV 8ShelfKit23RecommendationsMetadataV s5NeverO
+- _symbolic _____y__________G 7Combine12AnyPublisherV 8ShelfKit23RecommendationsMetadataV10CategoriesV s5NeverO
+- _symbolic _____y__________G 7Combine12AnyPublisherV 8ShelfKit23RecommendationsMetadataV5ShowsV s5NeverO
+- _symbolic _____y__________G 7Combine12AnyPublisherV 8ShelfKit23RecommendationsMetadataV8ChannelsV s5NeverO
+- _symbolic _____y__________G 7Combine12AnyPublisherV 8ShelfKit23RecommendationsMetadataV8EpisodesV s5NeverO
+- _symbolic _____y__________G 7Combine12AnyPublisherV 8ShelfKit23RecommendationsMetadataV9AnalyticsV s5NeverO
+- _symbolic _____y__________ySiSgGG 7SwiftUI15ModifiedContentV AA4TextV AA30_EnvironmentKeyWritingModifierV
+- _symbolic _____y__________y_____GG 7SwiftUI15ModifiedContentV AA9RectangleV AA24_ForegroundStyleModifierV AA017HierarchicalShapeG0V
+- _symbolic _____y__________y_____SgGG 7SwiftUI15ModifiedContentV AA9RectangleV AA30_EnvironmentKeyWritingModifierV AA5ColorV
+- _symbolic _____y______pG s23_ContiguousArrayStorageC 10PodcastsUI12AMSDialogTipP
+- _symbolic _____y______ySDy_____Say______pGG_____GAEG 7Combine10PublishersO3MapV AA12AnyPublisherV 10PodcastsUI8TipGroupO AH0H0P s5NeverO
+- _symbolic _____y______ySDy_____Say______pGG_____GSDyACSaySo16AMSDialogRequestCGGG 7Combine10PublishersO3MapV AA12AnyPublisherV 10PodcastsUI8TipGroupO AH0H0P s5NeverO
+- _symbolic _____y______ySDy_____Say______pGG_____GSbG 7Combine10PublishersO3MapV AA12AnyPublisherV 10PodcastsUI8TipGroupO AH0H0P s5NeverO
+- _symbolic _____y______ySay_____G_____G_____G 7Combine10PublishersO3MapV AA12AnyPublisherV 8ShelfKit13StationDetailC s5NeverO AH7TabMenuV7SectionV
+- _symbolic _____y______ySb_____GABySiACGAEG 7Combine10PublishersO0A7Latest3V AA12AnyPublisherV s5NeverO
+- _symbolic _____y______ySb_____GADG 7Combine10PublishersO0A6LatestV AA12AnyPublisherV s5NeverO
+- _symbolic _____y______ySb_____G_____SgG 7Combine10PublishersO3MapV AA12AnyPublisherV s5NeverO 8ShelfKit06ModernG0V
+- _symbolic _____y______y_ABy______y__________G_____y______y______y_Say_____GAEG_____y______GGAFGGAGy______y_ACySdAEG_____yytAEGACySiAEGGARGGSo17OS_dispatch_queueCG 7Combine10PublishersO9ReceiveOnV AC14SwitchToLatestV AA12AnyPublisherV 8ShelfKit23RecommendationsMetadataV s5NeverO AC3MapV AC11ConcatenateV AC8SequenceV 10Foundation4DateV AC11AutoconnectC So7NSTimerCAUE05TimerI0C AC0A7Latest3V AA19CurrentValueSubjectC
+- _symbolic _____y______y_____Sg_____GABySDy_____SaySo16AMSDialogRequestCGGAEGABySbAEGABy_____y_____ySayACGGGAEGAM_____ySb_GG 7Combine10PublishersO18PodcastsFoundationE16PFCombineLatest6V AA12AnyPublisherV 8ShelfKit06ModernI0V s5NeverO 0C2UI8TipGroupO AD9FRPOutputV AD8LoadableO AA9PublishedV0H0V
+- _symbolic _____y______y_____Sg_____GABy_____SgAEGG 7Combine10PublishersO0A6LatestV AA19CurrentValueSubjectC 8ShelfKit19SearchExtensionTermV s5NeverO AH0iJ5ScopeV
+- _symbolic _____y______y_____Sg_____GACG 7Combine10PublishersO10CompactMapV AA12AnyPublisherV 8ShelfKit23RecommendationsMetadataV s5NeverO
+- _symbolic _____y______y_____Sg_____GG 7Combine10PublishersO16RemoveDuplicatesV AA19CurrentValueSubjectC 8ShelfKit20SearchExtensionScopeV s5NeverO
+- _symbolic _____y______y_____Sg_____GSo17OS_dispatch_queueCG 7Combine10PublishersO9ReceiveOnV AA19CurrentValueSubjectC 8ShelfKit06ModernH0V s5NeverO
+- _symbolic _____y______y_____Sg_____G_____y_____AEGG 7Combine10PublishersO7FlatMapV AA6FutureC 8ShelfKit4PageC s5NeverO AA12AnyPublisherV AH23RecommendationsMetadataV
+- _symbolic _____y______y__________GABySbADGABySiADGG 7Combine10PublishersO0A7Latest3V AA12AnyPublisherV 8ShelfKit23RecommendationsMetadataV s5NeverO
+- _symbolic _____y______y__________GABy_____ADGABy_____ADGABy_____ADGABy_____ADGG 7Combine10PublishersO18PodcastsFoundationE16PFCombineLatest5V AA12AnyPublisherV 8ShelfKit23RecommendationsMetadataV9AnalyticsV s5NeverO AK10CategoriesV AK8ChannelsV AK8EpisodesV AK5ShowsV
+- _symbolic _____y______y__________GABy_____SgADGG 7Combine10PublishersO0A6LatestV AA12AnyPublisherV 8ShelfKit11PageContentO s5NeverO AH06ModernF0V
+- _symbolic _____y______y__________GAEG 7Combine10PublishersO0A6LatestV AA19CurrentValueSubjectC 8ShelfKit11PageContentO s5NeverO
+- _symbolic _____y______y__________GSayACGG 7Combine10PublishersO3MapV 18PodcastsFoundation27FetchedResultsListPublisherV 8ShelfKit08CategoryH4ItemV AF10MTCategoryC
+- _symbolic _____y______y__________G_____y______y______y_Say_____GADG_____y______GGAEGG 7Combine10PublishersO14SwitchToLatestV AA12AnyPublisherV 8ShelfKit23RecommendationsMetadataV s5NeverO AC3MapV AC11ConcatenateV AC8SequenceV 10Foundation4DateV AC11AutoconnectC So7NSTimerCASE05TimerG0C
+- _symbolic _____y______y__________G_____y______y______y______y_AFy______y______y_____SgADGAKy_____SgADGG_____GASGSo17OS_dispatch_queueCGGAEGG 7Combine10PublishersO14SwitchToLatestV AA12AnyPublisherV 8ShelfKit13SearchContentO s5NeverO AC3MapV AC16RemoveDuplicatesV AC8DebounceV AC4ScanV AC0aE0V AA19CurrentValueSubjectC AH0J13ExtensionTermV AH0jU5ScopeV AH0jK7RequestO
+- _symbolic _____y______y___________pG_____G 7Combine10PublishersO3MapV AA6FutureC 18PodcastsFoundation23AnalyticsUserIdentifierC s5ErrorP 8ShelfKit23RecommendationsMetadataV0G0V
+- _symbolic _____y______y______ySDy_____Say______pGG_____GAFGSaySo16AMSDialogRequestCGG 7Combine10PublishersO10CompactMapV AC0D0V AA12AnyPublisherV 10PodcastsUI8TipGroupO AJ0I0P s5NeverO
+- _symbolic _____y______y______ySb_____GACySiADGAFGSbG 7Combine10PublishersO3MapV AC0A7Latest3V AA12AnyPublisherV s5NeverO
+- _symbolic _____y______y______ySb_____GAEGSbG 7Combine10PublishersO3MapV AC0A6LatestV AA12AnyPublisherV s5NeverO
+- _symbolic _____y______y______ySd_____G_____yytADGACySiADGG_____y_ACy_____ADGAAy______y______y_Say_____GADG_____y______GGALGGG 7Combine10PublishersO3MapV AC0A7Latest3V AA12AnyPublisherV s5NeverO AA19CurrentValueSubjectC AC14SwitchToLatestV 8ShelfKit23RecommendationsMetadataV AC11ConcatenateV AC8SequenceV 10Foundation4DateV AC11AutoconnectC So7NSTimerCAWE05TimerF0C
+- _symbolic _____y______y______y_Say_____G_____G_____y______GG_____y_____AFGG 7Combine10PublishersO3MapV AC11ConcatenateV AC8SequenceV 10Foundation4DateV s5NeverO AC11AutoconnectC So7NSTimerCAJE14TimerPublisherC AA03AnyL0V 8ShelfKit23RecommendationsMetadataV
+- _symbolic _____y______y______y_____Sg_____GACySDy_____SaySo16AMSDialogRequestCGGAFGACySbAFGACy_____y_____ySayADGGGAFGAN_____ySb_GGSo17OS_dispatch_queueCG 7Combine10PublishersO9ReceiveOnV AC18PodcastsFoundationE16PFCombineLatest6V AA12AnyPublisherV 8ShelfKit06ModernK0V s5NeverO 0E2UI8TipGroupO AF9FRPOutputV AF8LoadableO AA9PublishedV0J0V
+- _symbolic _____y______y______y_____Sg_____GACy_____SgAFGG_____G 7Combine10PublishersO3MapV AC0A6LatestV AA19CurrentValueSubjectC 8ShelfKit19SearchExtensionTermV s5NeverO AJ0jK5ScopeV AJ0J14ContentRequestO
+- _symbolic _____y______y______y_____Sg_____G_____y_____AFGGSo17OS_dispatch_queueCG 7Combine10PublishersO9ReceiveOnV AC7FlatMapV AA6FutureC 8ShelfKit4PageC s5NeverO AA12AnyPublisherV AJ23RecommendationsMetadataV
+- _symbolic _____y______y______y__________GACy_____AEGACy_____AEGACy_____AEGACy_____AEGG_____G 7Combine10PublishersO3MapV AC18PodcastsFoundationE16PFCombineLatest5V AA12AnyPublisherV 8ShelfKit23RecommendationsMetadataV9AnalyticsV s5NeverO AM10CategoriesV AM8ChannelsV AM8EpisodesV AM5ShowsV AM
+- _symbolic _____y______y______y__________GACy_____SgAEGGADG 7Combine10PublishersO3MapV AC0A6LatestV AA12AnyPublisherV 8ShelfKit11PageContentO s5NeverO AJ06ModernG0V
+- _symbolic _____y______y______y__________GAFGADG 7Combine10PublishersO3MapV AC0A6LatestV AA19CurrentValueSubjectC 8ShelfKit11PageContentO s5NeverO
+- _symbolic _____y______y______y__________GGABy_ACy_____SgAEGGABy_ACy_____SgAEGGG 7Combine10PublishersO0A7Latest3V AC16RemoveDuplicatesV AA19CurrentValueSubjectC 8ShelfKit17SearchFacetFilterV s5NeverO AJ0K14ExtensionScopeV AJ0kO4TermV
+- _symbolic _____y______y______y___________pGG_____G 7Combine10PublishersO3MapV AC12ReplaceErrorV AA6FutureC 18PodcastsFoundation23AnalyticsUserIdentifierC s0E0P 8ShelfKit23RecommendationsMetadataV
+- _symbolic _____y______y______y___________pG_____GG 7Combine10PublishersO12ReplaceErrorV AC3MapV AA6FutureC 18PodcastsFoundation23AnalyticsUserIdentifierC s0D0P 8ShelfKit23RecommendationsMetadataV0I0V
+- _symbolic _____y______y______y______ySDy_____Say______pGG_____GAGGSaySo16AMSDialogRequestCGGSo17OS_dispatch_queueCG 7Combine10PublishersO9ReceiveOnV AC10CompactMapV AC0F0V AA12AnyPublisherV 10PodcastsUI8TipGroupO AL0K0P s5NeverO
+- _symbolic _____y______y______y______ySb_____GADySiAEGAGGSbGSo17OS_dispatch_queueCG 7Combine10PublishersO9ReceiveOnV AC3MapV AC0A7Latest3V AA12AnyPublisherV s5NeverO
+- _symbolic _____y______y______y______ySb_____GAFGSbGSo17OS_dispatch_queueCG 7Combine10PublishersO9ReceiveOnV AC3MapV AC0A6LatestV AA12AnyPublisherV s5NeverO
+- _symbolic _____y______y______y______y_AAy______y______y_____Sg_____GAFy_____SgAIGG_____GAOGSo17OS_dispatch_queueCGG_____y_____AIGG 7Combine10PublishersO3MapV AC16RemoveDuplicatesV AC8DebounceV AC4ScanV AC0A6LatestV AA19CurrentValueSubjectC 8ShelfKit19SearchExtensionTermV s5NeverO AP0nO5ScopeV AP0N14ContentRequestO AA12AnyPublisherV AP0nS0O
+- _symbolic _____y______y______y______y_____Sg_____GADySDy_____SaySo16AMSDialogRequestCGGAGGADySbAGGADy_____y_____ySayAEGGGAGGAO_____ySb_GGSo17OS_dispatch_queueCG_____G 7Combine10PublishersO10CompactMapV AC9ReceiveOnV AC18PodcastsFoundationE16PFCombineLatest6V AA12AnyPublisherV 8ShelfKit06ModernM0V s5NeverO 0G2UI8TipGroupO AH9FRPOutputV AH8LoadableO AA9PublishedV0L0V AM11PageContentO
+- _symbolic _____y______y______y______y_____Sg_____GADy_____SgAGGG_____GAMG 7Combine10PublishersO4ScanV AC3MapV AC0A6LatestV AA19CurrentValueSubjectC 8ShelfKit19SearchExtensionTermV s5NeverO AL0kL5ScopeV AL0K14ContentRequestO
+- _symbolic _____y______y______y______y__________GADy_____AFGADy_____AFGADy_____AFGADy_____AFGG_____GG 7Combine10PublishersO5FirstV AC3MapV AC18PodcastsFoundationE16PFCombineLatest5V AA12AnyPublisherV 8ShelfKit23RecommendationsMetadataV9AnalyticsV s5NeverO AO10CategoriesV AO8ChannelsV AO8EpisodesV AO5ShowsV AO
+- _symbolic _____y______y______y______y______y_____Sg_____GAEy_____SgAHGG_____GANGSo17OS_dispatch_queueCG 7Combine10PublishersO8DebounceV AC4ScanV AC3MapV AC0A6LatestV AA19CurrentValueSubjectC 8ShelfKit19SearchExtensionTermV s5NeverO AN0lM5ScopeV AN0L14ContentRequestO
+- _symbolic _____y______y______y______y______y______y_____Sg_____GAFy_____SgAIGG_____GAOGSo17OS_dispatch_queueCGG 7Combine10PublishersO16RemoveDuplicatesV AC8DebounceV AC4ScanV AC3MapV AC0A6LatestV AA19CurrentValueSubjectC 8ShelfKit19SearchExtensionTermV s5NeverO AP0nO5ScopeV AP0N14ContentRequestO
+- _symbolic _____y______y______y_____ySay_____GG_____G_____y_ACy_____AHGACySbAHGACySiAHGGGSo17OS_dispatch_queueCG 7Combine10PublishersO9ReceiveOnV AC7FlatMapV AA12AnyPublisherV 18PodcastsFoundation8LoadableO 8ShelfKit06ModernL0V s5NeverO AC0A7Latest3V AM23RecommendationsMetadataV
+- _symbolic _____y______y_____ySay_____GG_____G_____y_ABy_____AGGABySbAGGABySiAGGGG 7Combine10PublishersO7FlatMapV AA12AnyPublisherV 18PodcastsFoundation8LoadableO 8ShelfKit06ModernJ0V s5NeverO AC0A7Latest3V AK23RecommendationsMetadataV
+- _symbolic _____y_____yAAy__________y_____SgGGAAyAC_____y_____GGG_____y_____GG 7SwiftUI15ModifiedContentV AA012_ConditionalD0V AA9RectangleV AA30_EnvironmentKeyWritingModifierV AA5ColorV AA016_ForegroundStyleJ0V AA017HierarchicalShapeM0V AA06_TraitiJ0V AA010TransitionpH0V
+- _symbolic _____y_____y_____GG s23_ContiguousArrayStorageC 9JetEngine16ActionDispatcherV AC15BaseObjectGraphC
+- _symbolic _____y_____y__________y_____SgGGAByAC_____y_____GGG 7SwiftUI19_ConditionalContentV AA08ModifiedD0V AA9RectangleV AA30_EnvironmentKeyWritingModifierV AA5ColorV AA016_ForegroundStyleJ0V AA017HierarchicalShapeM0V
+- _symbolic _____y_____y_____yAAy__________GAAyACyAAy__________y_____SgGGAAyAG_____y_____GGG_____y_____GGGG_____G 7SwiftUI15ModifiedContentV AA6ZStackV AA012_ConditionalD0V AA5ImageV AA18_AspectRatioLayoutV AA9RectangleV AA30_EnvironmentKeyWritingModifierV AA5ColorV AA016_ForegroundStyleO0V AA017HierarchicalShapeR0V AA06_TraitnO0V AA010TransitionuM0V AA037_AccessibilityIgnoresInvertColorsViewO0V
+- _symbolic _____y_____y_____y__________GACyAByACy__________y_____SgGGACyAG_____y_____GGG_____y_____GGGG 7SwiftUI6ZStackV AA19_ConditionalContentV AA08ModifiedE0V AA5ImageV AA18_AspectRatioLayoutV AA9RectangleV AA30_EnvironmentKeyWritingModifierV AA5ColorV AA016_ForegroundStyleO0V AA017HierarchicalShapeR0V AA06_TraitnO0V AA010TransitionuM0V
+- _symbolic _____ytIegnr_ 10Foundation9IndexPathV
+- _symbolic _____ytIegnr_ 8ShelfKit17StorePageProviderC5StateV
+- _symbolic _____ytIegnr_ 8ShelfKit4PageC
+- _symbolic xIegn_
+- _symbolic xytIegnr_
+- block_copy_helper.100
+- block_copy_helper.12
+- block_copy_helper.15
+- block_copy_helper.24
+- block_copy_helper.25
+- block_copy_helper.34
+- block_copy_helper.36
+- block_copy_helper.42
+- block_copy_helper.44
+- block_copy_helper.47
+- block_copy_helper.49
+- block_copy_helper.51
+- block_copy_helper.54
+- block_copy_helper.55
+- block_copy_helper.58
+- block_copy_helper.61
+- block_copy_helper.64
+- block_copy_helper.70
+- block_copy_helper.76
+- block_copy_helper.9
+- block_copy_helper.94
+- block_descriptor.102
+- block_descriptor.11
+- block_descriptor.14
+- block_descriptor.17
+- block_descriptor.26
+- block_descriptor.27
+- block_descriptor.36
+- block_descriptor.38
+- block_descriptor.44
+- block_descriptor.46
+- block_descriptor.49
+- block_descriptor.51
+- block_descriptor.53
+- block_descriptor.56
+- block_descriptor.57
+- block_descriptor.60
+- block_descriptor.63
+- block_descriptor.66
+- block_descriptor.72
+- block_descriptor.78
+- block_descriptor.96
+- block_destroy_helper.10
+- block_destroy_helper.101
+- block_destroy_helper.13
+- block_destroy_helper.16
+- block_destroy_helper.25
+- block_destroy_helper.26
+- block_destroy_helper.35
+- block_destroy_helper.37
+- block_destroy_helper.43
+- block_destroy_helper.45
+- block_destroy_helper.48
+- block_destroy_helper.50
+- block_destroy_helper.52
+- block_destroy_helper.55
+- block_destroy_helper.56
+- block_destroy_helper.59
+- block_destroy_helper.62
+- block_destroy_helper.65
+- block_destroy_helper.71
+- block_destroy_helper.77
+- block_destroy_helper.95
+- get_witness_table 7SwiftUI15ModifiedContentVyAA4TextVAA30_EnvironmentKeyWritingModifierVySiSgGGAA4ViewHPAeaKHPyHC_AiA0jI0HPyHCHC.7
+- get_witness_table 7SwiftUI15ModifiedContentVyACyAA4ViewPAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQOyAA5GroupVyAA012_ConditionalD0VyACyAA01_e9Modifier_D0Vy8ShelfKit013ArtworkLoaderL0VGAA015_GeometryActionL0VySo6CGSizeVAVSQ12CoreGraphicsyHCg_GGARGG_AO0O0V13ConfigurationVQo_AA011_AppearancerL0VGA6_GAaDHPA7_AaDHPqd0__AaDHD3_A4_HO_A6_AA0eL0HPyHCHC_A6_AAA9_HPyHCHC.35
+- get_witness_table 7SwiftUI15ModifiedContentVyACyACyAA6ZStackVyAA012_ConditionalD0VyACyAA5ImageVAA18_AspectRatioLayoutVGACyAGyACyAA9RectangleVAA30_EnvironmentKeyWritingModifierVyAA5ColorVSgGGACyAnA016_ForegroundStyleO0VyAA017HierarchicalShapeR0VGGGAA06_TraitnO0VyAA010TransitionuM0VGGGGAA037_AccessibilityIgnoresInvertColorsViewO0VG8ShelfKit05FrameO033_EE9AF765289E99E5C5525B446EFFF852LLVGA12_013ArtworkLoaderO0VGAA4ViewHPA16_AAA20_HPA11_AAA20_HPA8_AAA20_HPyHC_A10_AA04ViewO0HPyHCHC_A15_AAA21_HPyHCHC_A18_AAA21_HPyHCHC.14
+- get_witness_table 7SwiftUI19_ConditionalContentVyACyAA08ModifiedD0VyAA014_ViewModifier_D0Vy8ShelfKit05FrameG033_EE9AF765289E99E5C5525B446EFFF852LLVGAA05_FlexJ6LayoutVGALGAEyAlA01_jS0VGGAA0F0HPApaUHPAoaUHPAlaUHPyHC_AnA0fG0HPyHCHC_AlaUHPyHCHC_AsaUHPAlaUHPyHC_AraVHPyHCHCHC.31
+- get_witness_table 7SwiftUI21_ViewModifier_ContentVy8ShelfKit07NothingD033_EE9AF765289E99E5C5525B446EFFF852LLVGAA0C0HPyHC.32
+- get_witness_table 7SwiftUI5GroupVyAA15ModifiedContentVyAA5ImageVAA21_TraitWritingModifierVyAA010TransitionG3KeyVGGSgGAA4ViewHPAnaPHpAmaPHPAgaPHPyHC_AlA0lI0HPyHCHC_HC_HC.10
+- get_witness_table 7SwiftUI5GroupVyAA15ModifiedContentVyAEyAEyAA5ImageVAA14_OpacityEffectVGAA16_OverlayModifierVyAEyAA4ViewPAAE08progressK5StyleyQrqd__AA08ProgresskM0Rd__lFQOyAA0nK0VyAA05EmptyK0VATG_8ShelfKit08DownloadnkM0VQo_AA14_PaddingLayoutVGSgGGAA013_TraitWritingJ0VyAA010TransitionU3KeyVGGSgGAaMHPA10_AaMHpA9_AaMHPA3_AaMHPAjaMHPAgaMHPyHC_AiA0kJ0HPyHCHC_A2_AAA12_HPyHCHC_A8_AAA12_HPyHCHC_HC_HC.11
+- get_witness_table 7SwiftUI9TupleViewVy8ShelfKit020EpisodeBookmarkStateD0V_AD0g8DownloadiD0VtGAA0D0HPyHC.9
+- keypath_set.3Tm
+- objectdestroy.153Tm
+- objectdestroy.203Tm
+- objectdestroy.29Tm
+- objectdestroy.35Tm
+- objectdestroy.51Tm
+- objectdestroy.6Tm
+- objectdestroy.71Tm
+- objectdestroy.99Tm
+CStrings:
++ "%!s(MISSING):%!s(MISSING): presentable did disappear: %!s(MISSING)"
++ "%!s(MISSING):%!s(MISSING): presentable will NOT appear: %!s(MISSING)"
++ "',\n    buttons: "
++ ",\n    artwork: '"
++ ",\n    subtitle: "
++ "@\"<BNPresentableContext>\"16@0:8"
++ "@\"AMSBinaryPromise\"16@0:8"
++ "@\"ASKImageDataConsumer\""
++ "@\"NSSet\"16@0:8"
++ "@\"UIViewController\"16@0:8"
++ "@24@0:8@\"NSCoder\"16"
++ "@40@0:8@16{CGSize=dd}24"
++ "A short string indicating a show was followed"
++ "AMSUIMessageViewController"
++ "Attempted to populate the player but we could not get the first item from the first reco shelf."
++ "Attempted to populate the player but we could not get the first reco shelf."
++ "Attempting to populate player for cold start user."
++ "BNPresentable"
++ "BNPresentableIdentifying"
++ "BNPresentableObserving"
++ "Browse millions of shows and follow your favorites here."
++ "Could not determine if user is cold start user with error: %!@(MISSING)"
++ "Could not get Category data for the category page."
++ "Could not load next page of shelves, reason: %!s(MISSING)"
++ "Down-casted Array element failed to match the target type\nExpected "
++ "EMPTY_LIBRARY_CATEGORIES_SUBTITLE"
++ "EMPTY_LIBRARY_CATEGORIES_TITLE"
++ "EMPTY_LIBRARY_CHANNELS_SUBTITLE"
++ "EMPTY_LIBRARY_CHANNELS_TITLE"
++ "Error populating player on cold start with error: %!@(MISSING)"
++ "Error reported by AMS: %!@(MISSING)"
++ "Expects a format specifier for the number of decimals to show, 2 in the english string. This string should read (roughly) like '1.25x' or '2x', but the exact number will vary"
++ "Failed to perform action: %!@(MISSING)"
++ "Indicates a user has progressed playback forward by the specified number of seconds. This should read (roughly) like '+30s', but the exact number will vary"
++ "Indicates a user has rewinded playback backwards by the specified number of seconds. This should read (roughly) like '-30s', but the exact number will vary"
++ "MAPI request failed to toggle bookmark state of episodes to %!s(MISSING), adamIDs: %!s(MISSING); Error: %!@(MISSING)"
++ "MAPI request failed to toggle follow state of show to %!s(MISSING), adamID: %!s(MISSING); Error: %!@(MISSING)"
++ "MAPI request failed to toggle play state of episodes to %!s(MISSING), adamIDs: %!s(MISSING); Error: %!@(MISSING)"
++ "Marked as Played"
++ "Marked as Unplayed"
++ "NSArray element failed to match the Swift Array Element type\nExpected "
++ "NSCoding"
++ "NSSecureCoding"
++ "Next page fetched: %!s(MISSING)"
++ "No Followed Podcasts"
++ "No pending popover tip presentation requests remain."
++ "No play action defined in lockup for episode %!s(MISSING): \"%!s(MISSING)\""
++ "No user recognized"
++ "Not populating player for cold start user because the item in the player has been played (playhead > 0)."
++ "Not populating player for cold start user because the item in the player is the same."
++ "Not populating player for cold start user because the item in the player was not automatically populated."
++ "Not populating player on Cold Start because the Category Selection Module is not present."
++ "Not populating player on Cold Start because the Up Next shelf is present."
++ "Notice Model {\n    title: "
++ "PLAYBACK_SPEED_CHANGE_NOTICE"
++ "Populated player on cold start with adamID: %!s(MISSING)"
++ "Populating player on cold start with adamID: %!s(MISSING)"
++ "Processing episode and podcasts states for ModernPage with ID \"%!s(MISSING)\""
++ "Processing episode and podcasts states for page \"%!s(MISSING)\""
++ "Processing podcast state for page %!s(MISSING) -> %!s(MISSING)"
++ "SearchLandingBrick"
++ "ShelfKit.LibraryCategoryPlayAction"
++ "ShelfKit.NowPlayingContextActionConfiguration"
++ "ShelfKit.PodcastsNotice"
++ "ShelfKit/ContextAction.swift"
++ "ShelfKit/PopoverTipViewController.swift"
++ "ShelfKit2"
++ "ShowInformation"
++ "Sign In to See Your Library"
++ "SubscriptionConfirmationSheetHandler"
++ "Subtitle string to display on the Categories page in Library if the page is empty."
++ "Subtitle string to display on the Channels page in Library if the page is empty."
++ "T@\"<BNPresentableContext>\",?,W,N"
++ "T@\"AMSBinaryPromise\",&,N"
++ "T@\"ASKImageDataConsumer\",R,N,V_dataConsumer"
++ "T@\"NSSet\",?,R,C,N"
++ "T@\"NSString\",R,C,N"
++ "T@\"UIViewController\",?,R,N"
++ "TB,?,R,N,GisDraggingDismissalEnabled"
++ "TB,?,R,N,GisDraggingInteractionEnabled"
++ "TB,?,R,N,GisTouchOutsideDismissalEnabled"
++ "TQ,N"
++ "This podcast can’t be played due to restrictions set for this device."
++ "Title for the tip on the top of Home. Tip is displayed after the user completes the Inline Selection Module and informs the user that their selected categories have been saved."
++ "Title string to display on the Categories page in Library if the page is empty."
++ "Title string to display on the Channels page in Library if the page is empty."
++ "Tq,?,R,N"
++ "Unable to dismiss popover tip due to invalid presentation state: %!s(MISSING)"
++ "Unable to locate action for tip button!"
++ "Unable to perform AMS dialog action: %!s(MISSING)"
++ "Unable to perform action without a view controller."
++ "Unable to perform action without an action runner."
++ "Unable to present popover tip due to invalid presentation state: %!s(MISSING)"
++ "Unable to present popover tip until the primary page content is loaded."
++ "Undo unfollow, re-follow "
++ "User is cold start user: %!{(MISSING)bool}d"
++ "You can make changes later in Account."
++ "[%!s(MISSING)] Already dismissed popover tip."
++ "[%!s(MISSING)] Already dismissing popover tip."
++ "[%!s(MISSING)] Dismissing popover tip view..."
++ "[%!s(MISSING)] Invalid presentation state when dismissing popover tip: %!s(MISSING)"
++ "[%!s(MISSING)] No popover tip view controller to dismiss."
++ "[%!s(MISSING)] Popover tip presentation task cancelled."
++ "[%!s(MISSING)] Popover tip view appeared."
++ "[%!s(MISSING)] Popover tip view disappeared."
++ "[%!s(MISSING)] Presented popover tip view has unexpected request ID: %!s(MISSING)"
++ "[%!s(MISSING)] Presenting popover tip view..."
++ "[%!s(MISSING)] Sleeping for %!s(MISSING)."
++ "[%!s(MISSING)] Tip view for request is already dismissed."
++ "[%!s(MISSING)] Unable to create popover tip view controller!"
++ "[%!s(MISSING)] Unable to dismiss popover tip without a page view controller!"
++ "[%!s(MISSING)] Unable to present popover tip without a page view controller!"
++ "[%!s(MISSING)] Unexpected popover tip presentation state: %!s(MISSING)"
++ "_$observationRegistrar"
++ "_TtC8ShelfKit14PodcastsNotice"
++ "_TtC8ShelfKit14QueueViewModel"
++ "_TtC8ShelfKit15NoticePresenter"
++ "_TtC8ShelfKit18ChaptersController"
++ "_TtC8ShelfKit19PopoverTipPresenter"
++ "_TtC8ShelfKit20NotificationObserver"
++ "_TtC8ShelfKit25LibraryCategoryPlayAction"
++ "_TtC8ShelfKit26CategoriesSavedTipProvider"
++ "_TtC8ShelfKit27ContextActionsConfiguration"
++ "_TtC8ShelfKit29NotFindingAnythingTipProvider"
++ "_TtC8ShelfKit29ThinClientPageStateController"
++ "_TtC8ShelfKit33_UIInterfaceActionExtendedStorage"
++ "_TtC8ShelfKit36NowPlayingContextActionConfiguration"
++ "_TtC8ShelfKit55NowPlayingTranscriptSelectionContextActionConfiguration"
++ "_bookmarkState"
++ "_configuration"
++ "_customHandler"
++ "_didDismissHandler"
++ "_error"
++ "_imageThatSuppressesAccessibilityHairlineThickening"
++ "_isChapterListExpanded"
++ "_isLocalPlayback"
++ "_queue"
++ "_reachabilityType"
++ "_reasonForNoInternet"
++ "_setImageTintColor:"
++ "_setTitleTextColor:"
++ "_view"
++ "account_manage_command_group"
++ "actionWithCustomContentViewController:"
++ "actionWithTitle:type:handler:"
++ "addAttribute:value:range:"
++ "addFavoriteCategories"
++ "alignmentCoordinator"
++ "arrow.counterclockwise"
++ "arrow.uturn.backward"
++ "artworkKind"
++ "background"
++ "bannerSource"
++ "bannerSourceForDestination:forRequesterIdentifier:"
++ "bookmark.slash.fill"
++ "bookmarkStateMachine"
++ "bubbleTip"
++ "categoryListRegular"
++ "categorySelectionCompact"
++ "channelBrick"
++ "chapters"
++ "clickLocation"
++ "clickLocationTracker"
++ "clientIdentifier"
++ "com.apple.Podcasts.AddEpisodeToQueueActivity"
++ "com.apple.Podcasts.AddPodcastToQueueActivity"
++ "com.apple.Podcasts.AddStationShowToQueueActivity"
++ "com.apple.Podcasts.BookmarkEpisode"
++ "com.apple.Podcasts.CopyEpisodeLink"
++ "com.apple.Podcasts.CopyOtherLink"
++ "com.apple.Podcasts.CopyPodcastLink"
++ "com.apple.Podcasts.CopyTranscriptSelection"
++ "com.apple.Podcasts.DeleteRecentlyUnfollowedShow"
++ "com.apple.Podcasts.DeleteStationActivity"
++ "com.apple.Podcasts.DownloadEpisodeActivity"
++ "com.apple.Podcasts.EpisodeGoToShow"
++ "com.apple.Podcasts.EpisodeSubscribeActivity"
++ "com.apple.Podcasts.Favorite"
++ "com.apple.Podcasts.FavoriteCategories"
++ "com.apple.Podcasts.GoToEpisode"
++ "com.apple.Podcasts.MarkAllEpisodesAsPlayed"
++ "com.apple.Podcasts.MarkPlayedActivity"
++ "com.apple.Podcasts.MarkUnplayedActivity"
++ "com.apple.Podcasts.OpenEpisodeActivity"
++ "com.apple.Podcasts.PlayEpisode"
++ "com.apple.Podcasts.PlayEpisodeNext"
++ "com.apple.Podcasts.PlayFromTranscript"
++ "com.apple.Podcasts.PlayPodcastNext"
++ "com.apple.Podcasts.PresentPodcastActivity"
++ "com.apple.Podcasts.RefollowShow"
++ "com.apple.Podcasts.RemoveAllDownloadsFromShow"
++ "com.apple.Podcasts.RemoveEpisodeActivity"
++ "com.apple.Podcasts.RemoveEpisodeFromBookmark"
++ "com.apple.Podcasts.RemoveEpisodeFromLibrary"
++ "com.apple.Podcasts.RemoveFromUpNext"
++ "com.apple.Podcasts.RemoveShowFromLibrary"
++ "com.apple.Podcasts.ReportActivity"
++ "com.apple.Podcasts.SettingsActivity"
++ "com.apple.Podcasts.ShareEpisode"
++ "com.apple.Podcasts.SharePodcast"
++ "com.apple.Podcasts.ShareURL"
++ "com.apple.Podcasts.SubscribeActivity"
++ "com.apple.Podcasts.SuggestLess"
++ "com.apple.Podcasts.UndoFavorite"
++ "com.apple.Podcasts.UndoSuggestLess"
++ "com.apple.Podcasts.UnsubscribeActivity"
++ "com.apple.Podcasts.ViewTranscript"
++ "com.apple.Podcasts.removeFromHardQueue"
++ "com.apple.Podcasts.removeFromSoftQueue"
++ "com.apple.podcasts.TipButton.add-favorite-categories"
++ "com.apple.podcasts.TipButton.add-favorite-categories-search"
++ "com.apple.podcasts.TipButton.recommendations-updated"
++ "com.apple.podcasts.internal.TranscriptionErrorRadar"
++ "come.apple.Podcasts.HidePlayedEpisodes"
++ "come.apple.Podcasts.RemoveFromStation"
++ "commandRequest"
++ "contentItemIdentifier"
++ "contentReference"
++ "dialog"
++ "didDisappear"
++ "dispatchOnMainThread"
++ "draggingDidBeginWithGestureProxy:"
++ "draggingDismissalEnabled"
++ "draggingInteractionEnabled"
++ "editorial"
++ "encodeWithCoder:"
++ "enqueueImpressionMetrics"
++ "enumerateAttributesInRange:options:usingBlock:"
++ "favorites"
++ "fromYourShowsShelf"
++ "fullRange"
++ "gauge.with.dots.needle.100percent"
++ "gauge.with.dots.needle.33percent"
++ "gauge.with.dots.needle.50percent"
++ "gauge.with.dots.needle.67percent"
++ "handleNotification:"
++ "imageWithAlignmentRectInsets:"
++ "impressionsReportingFrequency"
++ "init(asPartOf:playerResponseItem:modelObject:presentationSource:performPreviewActionBlock:interactionContext:) has not been implemented"
++ "init(asPartOf:presentationSource:previewModel:context:)"
++ "init(eventFields:)"
++ "init(id:adamId:referencedContent:isExplicit:isFollowed:icon:title:subtitles:eyebrow:titleAccessibilityLabel:genreNames:ordinal:releaseDate:releaseFrequency:rating:ratingCount:buttonAction:clickAction:contextAction:playAction:previewAction:subtitleAction:impressionMetrics:)"
++ "initWithHue:saturation:brightness:alpha:"
++ "initWithKey:ascending:"
++ "initWithMonogramResourceURL:size:"
++ "integerValue"
++ "isDraggingDismissalEnabled"
++ "isDraggingInteractionEnabled"
++ "isExplicitContentAllowed"
++ "isFollowed"
++ "isNotEmpty:"
++ "isRunningOnDesktop"
++ "isTouchOutsideDismissalEnabled"
++ "loadPromise"
++ "localizedMessage"
++ "localizedTitle"
++ "longLongValue"
++ "manage_favorite_categories_command_group"
++ "modelObject"
++ "nextPageIntent"
++ "notFindingAnything"
++ "onAppear"
++ "onDisappear"
++ "pageContentTypes"
++ "pageRenderContentTypes"
++ "pageViewController"
++ "pendingRequests"
++ "performPreviewActionBlock"
++ "performRequest:completion:"
++ "pf_cleanUrlToSlashStoreId"
++ "playerResponseItem"
++ "playerStartTime"
++ "popoverTipPresenter"
++ "popular"
++ "populatePlayerForColdStartUserUtil"
++ "postPresentable:options:userInfo:error:"
++ "preferredBackgroundActivitiesToSuppress"
++ "presentableBehavior"
++ "presentableContext"
++ "presentableDescription"
++ "presentableDidAppearAsBanner:"
++ "presentableDidDisappearAsBanner:withReason:"
++ "presentableType"
++ "presentableWillAppearAsBanner:"
++ "presentableWillDisappearAsBanner:withReason:"
++ "presentableWillNotAppearAsBanner:withReason:"
++ "presentationSource"
++ "presentationState"
++ "presentationTask"
++ "presentedNotices"
++ "presentedViewController"
++ "previewModel"
++ "recommendationsUpdated"
++ "rectangle.badge.checkmark"
++ "rectangle.badge.minus"
++ "referenceEndTime"
++ "referenceStartTime"
++ "referencedContent"
++ "reloadSubscription"
++ "removeAttribute:range:"
++ "requestID"
++ "requestIdentifier"
++ "requesterIdentifier"
++ "searchFiltersTracker"
++ "selectedText"
++ "setActivityTypeOrder:"
++ "setImpressionsReportingFrequency:"
++ "setLoadPromise:"
++ "setPresentableContext:"
++ "setSharingStyle:"
++ "setShouldAutomaticallyReportMetrics:"
++ "setSourceRect:"
++ "setSourceView:"
++ "setTitleAlignment:"
++ "setTrailingImage:"
++ "shouldAutomaticallyReportMetrics"
++ "showID"
++ "startTime"
++ "suggested"
++ "supportsSecureCoding"
++ "text.line.first.and.arrowtriangle.forward"
++ "text.line.last.and.arrowtriangle.forward"
++ "thinClientGlobalStateRepository"
++ "thinClientPageStateController"
++ "tipProvider"
++ "tipPublisher"
++ "touchOutsideDismissalEnabled"
++ "userInteractionDidEndForBannerForPresentable:"
++ "userInteractionWillBeginForBannerForPresentable:"
++ "v24@0:8@\"<BNPanGestureProxy>\"16"
++ "v24@0:8@\"<BNPresentable>\"16"
++ "v24@0:8@\"<BNPresentableContext>\"16"
++ "v24@0:8@\"AMSBinaryPromise\"16"
++ "v24@0:8@\"NSCoder\"16"
++ "v24@?0@\"UIInterfaceAction\"8^B16"
++ "v32@0:8@\"<BNPresentable>\"16@\"NSString\"24"
++ "v40@?0@\"NSDictionary\"8{_NSRange=QQ}16^B32"
++ "waiting[duration="
+- "$__lazy_storage_$_addFavoriteCategoriesSearchTipShelf"
+- "$__lazy_storage_$_addFavoriteCategoriesTipShelf"
+- "$__lazy_storage_$_recommendationsUpdatedTipShelf"
+- "@\"<ASKResourceDataConsumer>\""
+- "AddFavoriteCategoriesSearchTipProvider.tip.dismissed"
+- "AddFavoriteCategoriesTipProvider.tip.dismissed"
+- "AllPodcasts"
+- "AppLaunchMetricsEvent("
+- "CategoryObserverProviderCategoriesForCategoriesInLibraryPublisher"
+- "Channel"
+- "Could not load next page of shelves, reason: %!@(MISSING)"
+- "FAVORITE_TIP_TITLE"
+- "FOLLOW_TIP_SUBTITLE"
+- "FOLLOW_TIP_TITLE"
+- "FetchMoreOfPageIntent"
+- "Highlight Shelf"
+- "Invalid number of keys found, expected one."
+- "Landing"
+- "Manage your favorite categories in Account."
+- "Missing app adam ID or pageUrl to flow destionation for category page."
+- "Missing episode offer to build NP view"
+- "NowPlaying"
+- "Podcast"
+- "PodcastEpisode"
+- "Prompt"
+- "Queue"
+- "Recently Played"
+- "RecentlyPlayed"
+- "RecommendationsUpdatedTipProvider.tip.dismissed"
+- "RecommendationsUpdatedTipProvider.tip.seen"
+- "Room"
+- "SEARCH_PLACEHOLDER"
+- "SEARCH_SOURCE_LIBRARY"
+- "SEARCH_SOURCE_STORE"
+- "Search"
+- "SearchResults"
+- "SeeAll"
+- "Settings"
+- "ShelfKit Background Dependencies"
+- "ShelfKit Dependencies"
+- "ShelfKit.AppLaunchMetricsEvent"
+- "ShelfKit.PageMetricsEvent"
+- "ShelfKit.RefreshRecommendationsAction"
+- "ShelfKit/RefreshRecommendationsAction.swift"
+- "ShelfKit/TipViewControllerProvider.swift"
+- "ShelfKitBootstrap.background"
+- "ShelfKitBootstrap.foreground"
+- "Shows, Episodes, and More"
+- "T@\"<ASKResourceDataConsumer>\",R,N,V_dataConsumer"
+- "Transcript"
+- "Unau"
+- "Up Next"
+- "UpNext"
+- "Welcome"
+- "Welcome_WelcomeSheet"
+- "YourLibrary"
+- "_TtC8ShelfKit16PageMetricsEvent"
+- "_TtC8ShelfKit21AppLaunchMetricsEvent"
+- "_TtC8ShelfKit23HeaderButtonTipProvider"
+- "_TtC8ShelfKit24StorePageStateController"
+- "_TtC8ShelfKit25TipViewControllerProvider"
+- "_TtC8ShelfKit26LegacyMetricsPageEnterGate"
+- "_TtC8ShelfKit32AddFavoriteCategoriesTipProvider"
+- "_TtC8ShelfKit33RecommendationsUpdatedTipProvider"
+- "addFavoriteCategoriesSearchTipProvider"
+- "addFavoriteCategoriesTipProvider"
+- "app"
+- "appEnter"
+- "appExit"
+- "appStore"
+- "backButton"
+- "bagFailureTime"
+- "bagStartTime"
+- "bagSuccessTime"
+- "cancelDownload"
+- "categoryAdamID"
+- "categoryPageURL"
+- "clear"
+- "clientId"
+- "copyPodcastLink"
+- "defaultStore"
+- "dialogRequest"
+- "dismissedAddFavoriteCategoriesSearchTipPublisher"
+- "dismissedRecommendationsUpdatedTipPublisher"
+- "editorial_id"
+- "errorDescription"
+- "fromMyShowsShelf"
+- "hasMetricsPage"
+- "hints"
+- "impressions"
+- "impressionsQueue"
+- "init(eventFields:invocationPoints:)"
+- "init(id:adamId:isExplicit:icon:title:subtitles:eyebrow:titleAccessibilityLabel:genreNames:ordinal:releaseDate:releaseFrequency:rating:ratingCount:buttonAction:clickAction:contextAction:playAction:previewAction:subtitleAction:impressionMetrics:)"
+- "initWithBool:"
+- "initWithLongLong:"
+- "initWithMonogramResourceURL:"
+- "invocationPoints"
+- "isComplete"
+- "isPersonalized"
+- "isPreparingFilterSelection"
+- "isReferralEligible"
+- "its_contentId"
+- "its_id"
+- "jsSetupEndTime"
+- "jsSetupStartTime"
+- "kMTFavoriteTipPresented"
+- "kMTFollowTipPresented"
+- "keyCommand"
+- "lastBackgroundRefreshTime"
+- "lastDatePlayed"
+- "launchCorrelationKey"
+- "launchFailureTime"
+- "launchSuccessTime"
+- "metricsPage"
+- "nextPage"
+- "nowPlaying"
+- "pageEnter"
+- "pageExit"
+- "playhead"
+- "podcasts"
+- "position"
+- "predicateForPodcastsFollowedSince:"
+- "processStartTime"
+- "reachabilityType"
+- "reasonForNoInternet"
+- "reco_id"
+- "recommendationsUpdatedTipProvider"
+- "referrer"
+- "remove older downloads shelf"
+- "searchFilterFieldsSource"
+- "searchHintFilters"
+- "sequential"
+- "store"
+- "storeCollectionId"
+- "storePageStateController"
+- "subscriptionEnabledDate"
+- "systemimage://plus.circle.fill"
+- "timer"
+- "tipType"
+- "tipViewControllerProvider"
+- "turnOffAutoDownloads"
+- "turnOnAutoDownloads"
+- "userAllowsPersonalization"
+- "userHitSearch"
+- "userId"
+- "userIsManagedAccount"
+- "userIsUnder13"
+- "wasMediaTokenExpired"
+- "xp_amp_podcasts_perf"
+
+```

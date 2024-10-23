@@ -1,0 +1,103 @@
+## _IconServices_SwiftUI
+
+> `/System/Library/PrivateFrameworks/_IconServices_SwiftUI.framework/_IconServices_SwiftUI`
+
+```diff
+
+-636.5.0.0.0
+-  __TEXT.__text: 0xd318
+-  __TEXT.__auth_stubs: 0x8f0
+-  __TEXT.__const: 0x8e0
+-  __TEXT.__constg_swiftt: 0x458
+-  __TEXT.__swift5_typeref: 0x424
+-  __TEXT.__swift5_builtin: 0x50
+-  __TEXT.__swift5_reflstr: 0x191
+-  __TEXT.__swift5_fieldmd: 0x234
+-  __TEXT.__swift5_assocty: 0xd8
+-  __TEXT.__swift5_proto: 0x48
+-  __TEXT.__swift5_types: 0x34
++644.1.0.0.0
++  __TEXT.__text: 0xe0ec
++  __TEXT.__auth_stubs: 0x9b0
++  __TEXT.__const: 0xae0
++  __TEXT.__constg_swiftt: 0x4b0
++  __TEXT.__swift5_typeref: 0x4d4
++  __TEXT.__swift5_builtin: 0x64
++  __TEXT.__swift5_reflstr: 0x1d1
++  __TEXT.__swift5_fieldmd: 0x278
++  __TEXT.__swift5_assocty: 0x120
++  __TEXT.__swift5_proto: 0x60
++  __TEXT.__swift5_types: 0x40
+   __TEXT.__swift5_capture: 0xd8
+   __TEXT.__swift5_mpenum: 0x14
+   __TEXT.__cstring: 0xeb
+   __TEXT.__oslogstring: 0x85
+-  __TEXT.__unwind_info: 0x380
++  __TEXT.__unwind_info: 0x400
+   __TEXT.__eh_frame: 0x1a0
+-  __TEXT.__objc_methname: 0xb8
+-  __DATA_CONST.__got: 0x1c0
++  __TEXT.__objc_methname: 0x137
++  __DATA_CONST.__got: 0x1f0
+   __DATA_CONST.__const: 0xd0
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x68
+-  __AUTH_CONST.__auth_got: 0x478
+-  __AUTH_CONST.__auth_ptr: 0x230
+-  __AUTH_CONST.__const: 0x498
+-  __DATA.__data: 0x150
+-  __DATA.__bss: 0x360
+-  __DATA.__common: 0x10
+-  __DATA_DIRTY.__data: 0x358
++  __DATA_CONST.__objc_selrefs: 0xb8
++  __AUTH_CONST.__auth_got: 0x4d8
++  __AUTH_CONST.__auth_ptr: 0x2a0
++  __AUTH_CONST.__const: 0x4f8
++  __DATA.__data: 0x1c0
++  __DATA.__common: 0x40
++  __DATA.__bss: 0x670
++  __DATA_DIRTY.__data: 0x360
+   __DATA_DIRTY.__bss: 0x600
+   - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/Frameworks/SwiftUI.framework/SwiftUI
++  - /System/Library/PrivateFrameworks/IconFoundation.framework/IconFoundation
+   - /System/Library/PrivateFrameworks/IconServices.framework/IconServices
++  - /System/Library/PrivateFrameworks/SpringBoardServices.framework/SpringBoardServices
++  - /System/Library/PrivateFrameworks/SpringBoardUIServices.framework/SpringBoardUIServices
+   - /System/Library/PrivateFrameworks/UIKitCore.framework/UIKitCore
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+
+   - /usr/lib/swift/libswiftsimd.dylib
+   - /usr/lib/swift/libswiftsys_time.dylib
+   - /usr/lib/swift/libswiftunistd.dylib
+-  Functions: 293
+-  Symbols:   121
+-  CStrings:  22
++  Functions: 335
++  Symbols:   130
++  CStrings:  32
+ 
+Symbols:
++ _OBJC_CLASS_$_IFColor
++ _OBJC_CLASS_$_SBSHomeScreenIconStyleConfiguration
++ _OBJC_CLASS_$_SBSUITraitHomeScreenIconStyle
++ _objc_release_x23
++ _objc_retain_x21
++ _swift_dynamicCastObjCClass
++ _swift_makeBoxUnique
++ _swift_once
+CStrings:
++ "CGColor"
++ "UIColor"
++ "affectsColorAppearance"
++ "configurationType"
++ "defaultValue"
++ "identifier"
++ "initWithCGColor:"
++ "name"
++ "setTintColor:"
++ "tintColor"
+
+```

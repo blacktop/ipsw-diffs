@@ -1,0 +1,152 @@
+## EXDisplayPipeSwapClient
+
+> `/System/ExclaveKit/System/Library/PrivateFrameworks/EXDisplayPipeSwapClient.framework/EXDisplayPipeSwapClient`
+
+```diff
+
+-5.26.8.4.2
+-  __TEXT.__text: 0x7080
+-  __TEXT.__auth_stubs: 0x330
+-  __TEXT.__const: 0x568
+-  __TEXT.__cstring: 0x2ea
+-  __TEXT.__swift5_typeref: 0x20a
+-  __TEXT.__swift5_reflstr: 0x22e
+-  __TEXT.__swift5_assocty: 0x120
+-  __TEXT.__constg_swiftt: 0x3e0
+-  __TEXT.__swift5_fieldmd: 0x4bc
+-  __TEXT.__swift5_proto: 0x6c
+-  __TEXT.__swift5_types: 0x5c
++5.26.9.8.1
++  __TEXT.__text: 0x79bc
++  __TEXT.__auth_stubs: 0x350
++  __TEXT.__const: 0x618
++  __TEXT.__cstring: 0x34a
++  __TEXT.__swift5_typeref: 0x226
++  __TEXT.__swift5_reflstr: 0x2ae
++  __TEXT.__swift5_assocty: 0x138
++  __TEXT.__constg_swiftt: 0x44c
++  __TEXT.__swift5_fieldmd: 0x564
++  __TEXT.__swift5_proto: 0x78
++  __TEXT.__swift5_types: 0x68
+   __TEXT.__swift5_protos: 0x4
+-  __TEXT.__unwind_info: 0x290
+-  __TEXT.__eh_frame: 0x498
+-  __DATA.__auth_got: 0x198
++  __TEXT.__unwind_info: 0x2a8
++  __TEXT.__eh_frame: 0x4d0
++  __DATA.__auth_got: 0x1a8
+   __DATA.__got: 0x58
+   __DATA.__auth_ptr: 0xd0
+-  __DATA.__const: 0xb30
++  __DATA.__const: 0xc88
+   __DATA.__objc_classlist: 0x20
+   __DATA.__objc_imageinfo: 0x8
+   __DATA.__objc_const: 0x2f8
+-  __DATA.__data: 0x5a8
++  __DATA.__data: 0x5d8
+   __DATA.__bss: 0x200
+   - /System/ExclaveKit/System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/ExclaveKit/System/Library/PrivateFrameworks/EXSurface.framework/EXSurface
+
+   - /System/ExclaveKit/usr/lib/swift/libswift_math.dylib
+   - /System/ExclaveKit/usr/lib/swift/libswift_stdio.dylib
+   - /System/ExclaveKit/usr/lib/swift/libswift_time.dylib
+-  Functions: 320
+-  Symbols:   850
+-  CStrings:  18
++  Functions: 349
++  Symbols:   934
++  CStrings:  20
+ 
+Symbols:
++ $s23EXDisplayPipeSwapClient0C0V010forceDirtyC0SbvM.resume.0
++ $s23EXDisplayPipeSwapClient24HealthPerIndicatorStatusV10indicatorsSayAA0geH11TimeStampedVGvM.resume.0
++ $s23EXDisplayPipeSwapClient32IndicatorHealthStatusTimeStampedV12healthySinces6UInt64VvM.resume.0
++ $s23EXDisplayPipeSwapClient32IndicatorHealthStatusTimeStampedV7healthySbvM.resume.0
++ $s23EXDisplayPipeSwapClient32IndicatorHealthStatusTimeStampedV9indicatorAA0E0OvM.resume.0
++ _$s23EXDisplayPipeSwapClient0C0V010forceDirtyC0SbvM
++ _$s23EXDisplayPipeSwapClient0C0V010forceDirtyC0Sbvg
++ _$s23EXDisplayPipeSwapClient0C0V010forceDirtyC0SbvpMV
++ _$s23EXDisplayPipeSwapClient0C0V010forceDirtyC0Sbvs
++ _$s23EXDisplayPipeSwapClient0C0V6swapID5dirtyACs6UInt64V_SbtcfC
++ _$s23EXDisplayPipeSwapClient0C0VwCPTm
++ _$s23EXDisplayPipeSwapClient0abC16InterfaceHandlerP12setSILHealth6region6status22healthValidForDurationSbs5Int32V_AA0abdH6ReasonOs6UInt64VtFTq
++ _$s23EXDisplayPipeSwapClient0abC9InterfaceC7ServiceC10connectionAE9Tightbeam0D10ConnectionC_tcfCTq
++ _$s23EXDisplayPipeSwapClient0abC9InterfaceC7ServiceC12setSILHealth6region6status22healthValidForDurationSbs5Int32V_AA0abdH6ReasonOs6UInt64VtKF
++ _$s23EXDisplayPipeSwapClient15SILHealthReasonO5ErroryA2CmFWC
++ _$s23EXDisplayPipeSwapClient15SILHealthReasonO7SuccessyA2CmFWC
++ _$s23EXDisplayPipeSwapClient15SILHealthReasonO8rawValueACSgs6UInt32V_tcfC
++ _$s23EXDisplayPipeSwapClient15SILHealthReasonO8rawValues6UInt32Vvg
++ _$s23EXDisplayPipeSwapClient15SILHealthReasonO8rawValues6UInt32VvpMV
++ _$s23EXDisplayPipeSwapClient15SILHealthReasonOMF
++ _$s23EXDisplayPipeSwapClient15SILHealthReasonOMa
++ _$s23EXDisplayPipeSwapClient15SILHealthReasonOMf
++ _$s23EXDisplayPipeSwapClient15SILHealthReasonOMn
++ _$s23EXDisplayPipeSwapClient15SILHealthReasonON
++ _$s23EXDisplayPipeSwapClient15SILHealthReasonOSHAAMc
++ _$s23EXDisplayPipeSwapClient15SILHealthReasonOSHAASH13_rawHashValue4seedS2i_tFTW
++ _$s23EXDisplayPipeSwapClient15SILHealthReasonOSHAASH4hash4intoys6HasherVz_tFTW
++ _$s23EXDisplayPipeSwapClient15SILHealthReasonOSHAASH9hashValueSivgTW
++ _$s23EXDisplayPipeSwapClient15SILHealthReasonOSHAAWP
++ _$s23EXDisplayPipeSwapClient15SILHealthReasonOSQAAMc
++ _$s23EXDisplayPipeSwapClient15SILHealthReasonOSQAASQ2eeoiySbx_xtFZTW
++ _$s23EXDisplayPipeSwapClient15SILHealthReasonOSQAAWP
++ _$s23EXDisplayPipeSwapClient15SILHealthReasonOSYAAMA
++ _$s23EXDisplayPipeSwapClient15SILHealthReasonOSYAAMc
++ _$s23EXDisplayPipeSwapClient15SILHealthReasonOSYAASY8rawValue03RawH0QzvgTW
++ _$s23EXDisplayPipeSwapClient15SILHealthReasonOSYAASY8rawValuexSg03RawH0Qz_tcfCTW
++ _$s23EXDisplayPipeSwapClient15SILHealthReasonOSYAAWP
++ _$s23EXDisplayPipeSwapClient15SILHealthReasonOWV
++ _$s23EXDisplayPipeSwapClient15SILHealthReasonOwet
++ _$s23EXDisplayPipeSwapClient15SILHealthReasonOwst
++ _$s23EXDisplayPipeSwapClient15SILHealthReasonOwug
++ _$s23EXDisplayPipeSwapClient15SILHealthReasonOwui
++ _$s23EXDisplayPipeSwapClient15SILHealthReasonOwup
++ _$s23EXDisplayPipeSwapClient24HealthPerIndicatorStatusV10indicatorsSayAA0geH11TimeStampedVGvM
++ _$s23EXDisplayPipeSwapClient24HealthPerIndicatorStatusV10indicatorsSayAA0geH11TimeStampedVGvg
++ _$s23EXDisplayPipeSwapClient24HealthPerIndicatorStatusV10indicatorsSayAA0geH11TimeStampedVGvpMV
++ _$s23EXDisplayPipeSwapClient24HealthPerIndicatorStatusV10indicatorsSayAA0geH11TimeStampedVGvs
++ _$s23EXDisplayPipeSwapClient24HealthPerIndicatorStatusVMF
++ _$s23EXDisplayPipeSwapClient24HealthPerIndicatorStatusVMa
++ _$s23EXDisplayPipeSwapClient24HealthPerIndicatorStatusVMf
++ _$s23EXDisplayPipeSwapClient24HealthPerIndicatorStatusVMn
++ _$s23EXDisplayPipeSwapClient24HealthPerIndicatorStatusVN
++ _$s23EXDisplayPipeSwapClient32IndicatorHealthStatusTimeStampedV12healthySinces6UInt64VvM
++ _$s23EXDisplayPipeSwapClient32IndicatorHealthStatusTimeStampedV12healthySinces6UInt64Vvg
++ _$s23EXDisplayPipeSwapClient32IndicatorHealthStatusTimeStampedV12healthySinces6UInt64VvpMV
++ _$s23EXDisplayPipeSwapClient32IndicatorHealthStatusTimeStampedV12healthySinces6UInt64Vvs
++ _$s23EXDisplayPipeSwapClient32IndicatorHealthStatusTimeStampedV7healthySbvM
++ _$s23EXDisplayPipeSwapClient32IndicatorHealthStatusTimeStampedV7healthySbvg
++ _$s23EXDisplayPipeSwapClient32IndicatorHealthStatusTimeStampedV7healthySbvpMV
++ _$s23EXDisplayPipeSwapClient32IndicatorHealthStatusTimeStampedV7healthySbvs
++ _$s23EXDisplayPipeSwapClient32IndicatorHealthStatusTimeStampedV9indicatorAA0E0OvM
++ _$s23EXDisplayPipeSwapClient32IndicatorHealthStatusTimeStampedV9indicatorAA0E0Ovg
++ _$s23EXDisplayPipeSwapClient32IndicatorHealthStatusTimeStampedV9indicatorAA0E0OvpMV
++ _$s23EXDisplayPipeSwapClient32IndicatorHealthStatusTimeStampedV9indicatorAA0E0Ovs
++ _$s23EXDisplayPipeSwapClient32IndicatorHealthStatusTimeStampedVMF
++ _$s23EXDisplayPipeSwapClient32IndicatorHealthStatusTimeStampedVMa
++ _$s23EXDisplayPipeSwapClient32IndicatorHealthStatusTimeStampedVMf
++ _$s23EXDisplayPipeSwapClient32IndicatorHealthStatusTimeStampedVMn
++ _$s23EXDisplayPipeSwapClient32IndicatorHealthStatusTimeStampedVN
++ _$s23EXDisplayPipeSwapClient32IndicatorHealthStatusTimeStampedVWV
++ _$s23EXDisplayPipeSwapClient32IndicatorHealthStatusTimeStampedVwet
++ _$s23EXDisplayPipeSwapClient32IndicatorHealthStatusTimeStampedVwst
++ _$s23EXDisplayPipeSwapClient9IndicatorO22CAM_ALT_FACEID_DELAYEDyA2CmFWC
++ _$s23EXDisplayPipeSwapClientAAC12setSILHealth6region6status22healthValidForDurationAA10ErrorTypesOs5Int32V_AA0F6ReasonOs6UInt64VtKF
++ _$s23EXDisplayPipeSwapClientAAC12setSILHealth6region6status22healthValidForDurationAA10ErrorTypesOs5Int32V_AA0F6ReasonOs6UInt64VtKFTj
++ _$s23EXDisplayPipeSwapClientAAC12setSILHealth6region6status22healthValidForDurationAA10ErrorTypesOs5Int32V_AA0F6ReasonOs6UInt64VtKFTq
++ _$s9Tightbeam0A7DecoderV23EXDisplayPipeSwapClientE6decode33_C6F675475336C2B1CBFB3A438520676CLL2asAD0cdF15SILHealthReasonOAIm_tFTf4dn_n
++ _$s9Tightbeam0A7DecoderV6decode2ass5Int32VAGm_tF
++ _$s9Tightbeam0A7EncoderV6encodeyys5Int32VF
++ _$sBbWV
++ ___swift_memcpy24_8
++ _symbolic Say_____G 23EXDisplayPipeSwapClient32IndicatorHealthStatusTimeStampedV
++ _symbolic _____ 23EXDisplayPipeSwapClient15SILHealthReasonO
++ _symbolic _____ 23EXDisplayPipeSwapClient24HealthPerIndicatorStatusV
++ _symbolic _____ 23EXDisplayPipeSwapClient32IndicatorHealthStatusTimeStampedV
+- _$s23EXDisplayPipeSwapClient9IndicatorOs12CaseIterableAAsADP8allCases03AllI0QzvgZTWTv_r
+CStrings:
++ "FaceID Delayed Indicator"
++ "invalid rawValue for EXDisplayPipeClientSILHealthReason "
+
+```

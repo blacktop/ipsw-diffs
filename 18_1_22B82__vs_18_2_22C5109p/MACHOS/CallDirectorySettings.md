@@ -1,0 +1,673 @@
+## CallDirectorySettings
+
+> `/System/Library/PreferenceBundles/CallDirectorySettings.bundle/CallDirectorySettings`
+
+```diff
+
+-2975.200.101.2.2
+-  __TEXT.__text: 0xb638
+-  __TEXT.__auth_stubs: 0x600
+-  __TEXT.__objc_stubs: 0x19a0
+-  __TEXT.__objc_methlist: 0x9a0
+-  __TEXT.__const: 0x7a
+-  __TEXT.__cstring: 0x999
+-  __TEXT.__objc_methname: 0x211f
+-  __TEXT.__oslogstring: 0x8f3
+-  __TEXT.__objc_classname: 0x272
+-  __TEXT.__objc_methtype: 0x483
+-  __TEXT.__gcc_except_tab: 0xf0
+-  __TEXT.__dlopen_cstrs: 0x5e
+-  __TEXT.__constg_swiftt: 0x38
+-  __TEXT.__swift5_typeref: 0x62
+-  __TEXT.__swift5_reflstr: 0x8
+-  __TEXT.__swift5_fieldmd: 0x1c
+-  __TEXT.__swift5_capture: 0x54
+-  __TEXT.__swift5_types: 0x4
+-  __TEXT.__unwind_info: 0x350
+-  __TEXT.__eh_frame: 0x1e0
+-  __DATA_CONST.__auth_got: 0x310
+-  __DATA_CONST.__got: 0x1b0
+-  __DATA_CONST.__auth_ptr: 0x20
+-  __DATA_CONST.__const: 0x3e8
+-  __DATA_CONST.__cfstring: 0x860
+-  __DATA_CONST.__objc_classlist: 0x60
+-  __DATA_CONST.__objc_protolist: 0x40
++350.300.72.0.0
++  __TEXT.__text: 0xc6c
++  __TEXT.__auth_stubs: 0x210
++  __TEXT.__objc_stubs: 0x540
++  __TEXT.__objc_methlist: 0xec
++  __TEXT.__cstring: 0x103
++  __TEXT.__const: 0x18
++  __TEXT.__objc_methname: 0x71f
++  __TEXT.__oslogstring: 0x108
++  __TEXT.__objc_classname: 0x9b
++  __TEXT.__objc_methtype: 0x1b9
++  __TEXT.__unwind_info: 0xa0
++  __DATA_CONST.__auth_got: 0x110
++  __DATA_CONST.__got: 0x70
++  __DATA_CONST.__const: 0x98
++  __DATA_CONST.__cfstring: 0xe0
++  __DATA_CONST.__objc_classlist: 0x8
++  __DATA_CONST.__objc_protolist: 0x18
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_superrefs: 0x50
+-  __DATA_CONST.__objc_arraydata: 0x68
+-  __DATA_CONST.__objc_arrayobj: 0x78
+-  __DATA_CONST.__objc_intobj: 0x18
+-  __DATA.__objc_const: 0x1880
+-  __DATA.__objc_selrefs: 0x778
+-  __DATA.__objc_ivar: 0xc8
+-  __DATA.__objc_data: 0x428
+-  __DATA.__data: 0x380
+-  __DATA.__bss: 0x40
++  __DATA_CONST.__objc_superrefs: 0x8
++  __DATA.__objc_const: 0x598
++  __DATA.__objc_selrefs: 0x178
++  __DATA.__objc_ivar: 0x18
++  __DATA.__objc_data: 0x50
++  __DATA.__data: 0x120
++  __DATA.__bss: 0x10
+   - /System/Library/Frameworks/CallKit.framework/CallKit
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreTelephony.framework/CoreTelephony
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+-  - /System/Library/Frameworks/IdentityLookup.framework/IdentityLookup
+-  - /System/Library/Frameworks/UIKit.framework/UIKit
+   - /System/Library/PrivateFrameworks/Preferences.framework/Preferences
+-  - /System/Library/PrivateFrameworks/SoftLinking.framework/SoftLinking
+   - /System/Library/PrivateFrameworks/TelephonyPreferences.framework/TelephonyPreferences
+   - /System/Library/PrivateFrameworks/TelephonyUtilities.framework/TelephonyUtilities
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  - /usr/lib/swift/libswiftCore.dylib
+-  - /usr/lib/swift/libswiftCoreFoundation.dylib
+-  - /usr/lib/swift/libswiftDarwin.dylib
+-  - /usr/lib/swift/libswiftDispatch.dylib
+-  - /usr/lib/swift/libswiftMetal.dylib
+-  - /usr/lib/swift/libswiftObjectiveC.dylib
+-  - /usr/lib/swift/libswiftQuartzCore.dylib
+-  - /usr/lib/swift/libswiftXPC.dylib
+-  - /usr/lib/swift/libswift_Builtin_float.dylib
+-  - /usr/lib/swift/libswift_Concurrency.dylib
+-  - /usr/lib/swift/libswift_errno.dylib
+-  - /usr/lib/swift/libswift_math.dylib
+-  - /usr/lib/swift/libswift_signal.dylib
+-  - /usr/lib/swift/libswift_stdio.dylib
+-  - /usr/lib/swift/libswift_time.dylib
+-  - /usr/lib/swift/libswiftos.dylib
+-  - /usr/lib/swift/libswiftsys_time.dylib
+-  - /usr/lib/swift/libswiftunistd.dylib
+-  Functions: 274
+-  Symbols:   195
+-  CStrings:  545
++  Functions: 24
++  Symbols:   59
++  CStrings:  131
+ 
+Symbols:
++ _CallDirectoryLog
++ _OBJC_CLASS_$_PHCallBlockingAndIdentificationSettingsBundleController
++ _OBJC_CLASS_$_PHCallBlockingAndIdentificationSettingsListController
++ _OBJC_METACLASS_$_PHCallBlockingAndIdentificationSettingsBundleController
++ _PHCallBlockingAndIdentificationSettingsBundleControllerRootSpecifierIdentifier
+- OBJC_IVAR_$_PSListController._specifiers
+- _CXErrorDomainCallDirectoryManager
+- _NSStringFromClass
+- _NSStringFromRange
+- _OBJC_CLASS_$_CTBundle
+- _OBJC_CLASS_$_CXCallDirectoryExtension
+- _OBJC_CLASS_$_NSConstantArray
+- _OBJC_CLASS_$_NSConstantIntegerNumber
+- _OBJC_CLASS_$_NSExtension
+- _OBJC_CLASS_$_NSLocale
+- _OBJC_CLASS_$_NSNotificationCenter
+- _OBJC_CLASS_$_NSNumber
+- _OBJC_CLASS_$_NSObject
+- _OBJC_CLASS_$_NSPredicate
+- _OBJC_CLASS_$_NSString
+- _OBJC_CLASS_$_NSURL
+- _OBJC_CLASS_$_NSUserDefaults
+- _OBJC_CLASS_$_PHBrandedCallingContext
+- _OBJC_CLASS_$_PHBrandedCallingController
+- _OBJC_CLASS_$_PHBrandedCallingSwitchSpecifier
+- _OBJC_CLASS_$_PHBusinessCallingListController
+- _OBJC_CLASS_$_PHBusinessConnectCallingController
+- _OBJC_CLASS_$_PHCallBlockingServiceProvider
+- _OBJC_CLASS_$_PHCallDirectorySettingsBundleController
+- _OBJC_CLASS_$_PHCallDirectorySettingsListController
+- _OBJC_CLASS_$_PHLiveLookupSettingsListController
+- _OBJC_CLASS_$_PSFooterHyperlinkView
+- _OBJC_CLASS_$_PSListController
+- _OBJC_CLASS_$_PSSubtitleSwitchTableCell
+- _OBJC_CLASS_$_TPSCarrierBundleController
+- _OBJC_CLASS_$_TUCall
+- _OBJC_CLASS_$_TUConfigurationProvider
+- _OBJC_CLASS_$_TUFeatureFlags
+- _OBJC_CLASS_$_UIAlertAction
+- _OBJC_CLASS_$_UIAlertController
+- _OBJC_CLASS_$_UIImage
+- _OBJC_CLASS_$__NSLocalizedStringResource
+- _OBJC_CLASS_$__TtC21CallDirectorySettings22LiveLookupManagerProxy
+- _OBJC_METACLASS_$_PHBrandedCallingContext
+- _OBJC_METACLASS_$_PHBrandedCallingController
+- _OBJC_METACLASS_$_PHBrandedCallingSwitchSpecifier
+- _OBJC_METACLASS_$_PHBusinessCallingController
+- _OBJC_METACLASS_$_PHBusinessCallingListController
+- _OBJC_METACLASS_$_PHBusinessConnectCallingController
+- _OBJC_METACLASS_$_PHCallBlockingServiceProvider
+- _OBJC_METACLASS_$_PHCallBlockingServiceProviderController
+- _OBJC_METACLASS_$_PHCallDirectorySettingsBundleController
+- _OBJC_METACLASS_$_PHCallDirectorySettingsListController
+- _OBJC_METACLASS_$_PHLiveLookupSettingsListController
+- _OBJC_METACLASS_$_PSListController
+- _OBJC_METACLASS_$_PSSpecifier
+- _OBJC_METACLASS_$__TtC21CallDirectorySettings22LiveLookupManagerProxy
+- _PHBrandedCallingControllerKey
+- _PHCallDirectorySettingsBundleControllerRootSpecifierIdentifier
+- _PHDefaultLog
+- _PHOversizedLog
+- _PHOversizedLogQueue
+- _PSCellClassKey
+- _PSControlIsLoadingKey
+- _PSFooterCellClassGroupKey
+- _PSFooterHyperlinkViewLinkRangeKey
+- _PSFooterHyperlinkViewTitleKey
+- _PSFooterHyperlinkViewURLKey
+- _PSFooterTextGroupKey
+- _PSIconImageKey
+- _PSTableCellSubtitleTextKey
+- _TUBundleIdentifierFaceTimeApplication
+- _TUBundleIdentifierPhoneApplication
+- _TUBundleIdentifierTelephonyUtilitiesFramework
+- _TUBusinessConnectCallingDisabledKey
+- _TUCallFilteringPreferencesMaxJunkLevelKey
+- _UIApplicationWillEnterForegroundNotification
+- __Block_copy
+- __Block_object_dispose
+- __Block_release
+- __Unwind_Resume
+- ___chkstk_darwin
+- ___kCFBooleanFalse
+- ___kCFBooleanTrue
+- ___objc_personality_v0
+- __os_feature_enabled_impl
+- __sl_dlopen
+- __swift_FORCE_LOAD_$_swiftCoreFoundation
+- __swift_FORCE_LOAD_$_swiftDarwin
+- __swift_FORCE_LOAD_$_swiftDispatch
+- __swift_FORCE_LOAD_$_swiftFoundation
+- __swift_FORCE_LOAD_$_swiftMetal
+- __swift_FORCE_LOAD_$_swiftObjectiveC
+- __swift_FORCE_LOAD_$_swiftQuartzCore
+- __swift_FORCE_LOAD_$_swiftXPC
+- __swift_FORCE_LOAD_$_swift_Builtin_float
+- __swift_FORCE_LOAD_$_swift_errno
+- __swift_FORCE_LOAD_$_swift_math
+- __swift_FORCE_LOAD_$_swift_signal
+- __swift_FORCE_LOAD_$_swift_stdio
+- __swift_FORCE_LOAD_$_swift_time
+- __swift_FORCE_LOAD_$_swiftos
+- __swift_FORCE_LOAD_$_swiftsys_time
+- __swift_FORCE_LOAD_$_swiftunistd
+- _abort_report_np
+- _dispatch_sync
+- _free
+- _kCTCapabilityBrandedCallingInfo
+- _objc_allocWithZone
+- _objc_copyWeak
+- _objc_destroyWeak
+- _objc_getClass
+- _objc_initWeak
+- _objc_opt_isKindOfClass
+- _objc_opt_self
+- _objc_release_x1
+- _objc_release_x25
+- _objc_release_x26
+- _objc_release_x27
+- _objc_release_x28
+- _objc_retainAutorelease
+- _objc_retainAutoreleaseReturnValue
+- _objc_retainAutoreleasedReturnValue
+- _objc_retain_x2
+- _objc_retain_x20
+- _objc_retain_x22
+- _objc_retain_x23
+- _objc_retain_x24
+- _objc_retain_x25
+- _objc_retain_x3
+- _objc_storeWeak
+- _objc_unsafeClaimAutoreleasedReturnValue
+- _swift_allocObject
+- _swift_bridgeObjectRelease
+- _swift_deallocObject
+- _swift_errorRelease
+- _swift_getObjectType
+- _swift_getTypeByMangledNameInContext2
+- _swift_release
+- _swift_retain
+- _swift_task_alloc
+- _swift_task_create
+- _swift_task_dealloc
+- _swift_task_switch
+- _swift_unknownObjectRelease
+- _swift_unknownObjectRetain
+CStrings:
++ "\x06"
++ "CallDirectory"
++ "PHCallBlockingAndIdentificationSettingsBundleController"
++ "com.apple.TelephonySettings"
+- "\x01"
+- "\x01\x12"
+- "\x02"
+- "\x03"
+- "\x04"
+- "\a"
+- "\x11"
+- "\x14"
+- "\x1a"
+- "%!s(MISSING)"
+- "@\"<PHCallBlockingServiceProviderControllerDelegate>\""
+- "@\"CTXPCServiceSubscriptionContext\""
+- "@\"CoreTelephonyClient\""
+- "@\"NSArray\""
+- "@\"NSObject<OS_dispatch_queue>\""
+- "@\"NSString\""
+- "@\"PHBrandedCallingController\""
+- "@\"PHBusinessConnectCallingController\""
+- "@\"PHLiveLookupSettingsListController\""
+- "@\"PSListController\""
+- "@\"TPSCarrierBundleController\""
+- "@\"TUConfigurationProvider\""
+- "@\"TUFeatureFlags\""
+- "@\"_TtC21CallDirectorySettings22LiveLookupManagerProxy\""
+- "@28@0:8@16B24"
+- "@32@0:8@16@24"
+- "@40@0:8@16@24@32"
+- "@40@0:8@16@24^@32"
+- "Apps"
+- "B"
+- "B24@?0@\"PHCallBlockingServiceProvider\"8@\"NSDictionary\"16"
+- "B32@0:8@16@24"
+- "BRANDED_CALLING_GROUP_HEADER"
+- "BRANDED_CALLING_SINGLE_CARRIER_FOOTER_TEXT"
+- "BRANDED_CALLING_SPECIFIER_TITLE"
+- "BRANDED_CALLING_TWO_CARRIER_FOOTER_TEXT"
+- "BUSINESS_CALLING_OFF"
+- "BUSINESS_CALLING_ON"
+- "BUSINESS_CALLING_SINGLE_CARRIER_FOOTER_TEXT"
+- "BUSINESS_CALLING_SPECIFIER_TITLE"
+- "BUSINESS_CALLING_TWO_CARRIER_FOOTER_TEXT"
+- "BUSINESS_CONNECT_CALLING_FOOTER_TEXT"
+- "BUSINESS_CONNECT_CALLING_GROUP_HEADER"
+- "BUSINESS_CONNECT_CALLING_SPECIFIER_TITLE"
+- "BrandedCallingGroup"
+- "BusinessCallingGroup"
+- "BusinessConnectCallingGroup"
+- "CALL_DIRECTORY_APP_%!@(MISSING)_EXTENSION_%!@(MISSING)"
+- "CALL_DIRECTORY_DISABLE_EXTENSION_ALERT_TITLE"
+- "CALL_DIRECTORY_DISABLE_EXTENSION_ALERT_UNKNOWN_%!@(MISSING)"
+- "CALL_DIRECTORY_ENABLE_EXTENSION_ALERT_CONNECTION_INTERRUPTED_%!@(MISSING)"
+- "CALL_DIRECTORY_ENABLE_EXTENSION_ALERT_DATA_INVALID_%!@(MISSING)"
+- "CALL_DIRECTORY_ENABLE_EXTENSION_ALERT_TITLE"
+- "CALL_DIRECTORY_ENABLE_EXTENSION_ALERT_UNKNOWN_%!@(MISSING)"
+- "CALL_DIRECTORY_EXTENSIONS_LIST_FOOTER"
+- "CALL_DIRECTORY_EXTENSIONS_LIST_HEADER"
+- "Call Blocking & Identification"
+- "Call Directory Extension Manager extensions changed, getting the latest extensions now"
+- "CallDirectorySettingsGroup"
+- "Carrier bundle changed for subscription context %!@(MISSING)"
+- "CarrierName"
+- "CoreTelephonyClientDelegate"
+- "DISABLED"
+- "Default"
+- "Disabled"
+- "Dynamic"
+- "ENABLED"
+- "Enabled"
+- "Error setting enabled to %!d(MISSING) for call directory extension %!@(MISSING): %!@(MISSING)"
+- "Error setting enabled to %!d(MISSING) for live lookup extension %!@(MISSING): %!@(MISSING)"
+- "Error setting prioritized extension identifiers to %!@(MISSING): %!@(MISSING)"
+- "FaceTime"
+- "Failed to fetch carrier bundle value for key hierarchy: %!@(MISSING), error: %!@(MISSING)"
+- "Failed to fetch kCTCapabilityBrandedCallingInfo for context:%!@(MISSING) , error: %!@(MISSING)"
+- "Failed to fetch state of branded calling for context: %!@(MISSING)"
+- "Failed to fetch state of branded calling."
+- "Failed to set state of branded calling for context: %!@(MISSING)"
+- "Fetched state of branded calling for context: %!@(MISSING), state: %!@(MISSING)"
+- "Getting extension enabled (%!@(MISSING)) as %!@(MISSING)"
+- "IMSConfig"
+- "JunkCallsSettingsInformationalUrl"
+- "LIVE_LOOKUP_EXTENSIONS_LIST_FOOTER"
+- "LIVE_LOOKUP_EXTENSIONS_LIST_HEADER"
+- "LiveLookupDBExtension"
+- "LiveLookupSettingsGroup"
+- "No"
+- "OK"
+- "Off"
+- "On"
+- "Oversized"
+- "PHBrandedCallingContext"
+- "PHBrandedCallingController"
+- "PHBrandedCallingControllerKey"
+- "PHBrandedCallingListControllerQueue"
+- "PHBrandedCallingSwitchSpecifier"
+- "PHBusinessCallingController"
+- "PHBusinessCallingListController"
+- "PHBusinessConnectCallingController"
+- "PHCallBlockingServiceProvider"
+- "PHCallBlockingServiceProviderController"
+- "PHCallDirectorySettingsBundleController"
+- "PHCallDirectorySettingsListController"
+- "PHLiveLookupSettingsListController"
+- "PHLiveLookupSettingsListControllerQueue"
+- "PSSimStatusCache"
+- "Phone"
+- "Received live lookup extensions %!@(MISSING)"
+- "Retrieved call blocking value '%!@(MISSING)' for subscription %!@(MISSING)"
+- "Retrieved informational url value '%!@(MISSING)' for subscription %!@(MISSING)"
+- "Retrieved verstat feature capability value '%!@(MISSING)' for subscription %!@(MISSING)"
+- "Retrieving call blocking value for subscription %!@(MISSING) failed with error %!@(MISSING)"
+- "Retrieving informational url value for subscription %!@(MISSING) failed with error %!@(MISSING)"
+- "Retrieving verstat feature capability value for subscription %!@(MISSING) failed with error %!@(MISSING)"
+- "SPAM_SIMS_EXTENSIONS_LIST_FOOTER_%!@(MISSING)"
+- "SPAM_SIMS_EXTENSIONS_LIST_FOOTER_%!@(MISSING)_%!@(MISSING)_DS_BOTH"
+- "SPAM_SIMS_EXTENSIONS_LIST_FOOTER_%!@(MISSING)_%!@(MISSING)_DS_SINGLE"
+- "SPAM_SIMS_EXTENSIONS_MORE_INFORMATION_%!@(MISSING)"
+- "SPAM_SIMS_LIST_HEADER"
+- "SPAM_TOGGLE_TITLE"
+- "Set state of branded calling for context: %!@(MISSING), state: %!@(MISSING)"
+- "Setting call directory extension (%!@(MISSING)) to %!@(MISSING)"
+- "Setting live lookup extension (%!@(MISSING)) to %!@(MISSING)"
+- "Should show branded calling switch(es) to user: %!@(MISSING)"
+- "Signaling"
+- "SpamEnabledSettingsGroup"
+- "SpamEnabledSettingsGroupPrimary"
+- "SpamEnabledSettingsGroupSecondary"
+- "SpamHeaderFeatureCapability"
+- "Subscription is hidden"
+- "Subscription: %!@(MISSING) is hidden"
+- "T@\"<PHCallBlockingServiceProviderControllerDelegate>\",W,N,V_delegate"
+- "T@\"CTXPCServiceSubscriptionContext\",&,N,V_context"
+- "T@\"CoreTelephonyClient\",&,N,V_ctClient"
+- "T@\"CoreTelephonyClient\",R,N,V_ctClient"
+- "T@\"NSArray\",&,N,V_contexts"
+- "T@\"NSArray\",C,N,V_serviceProviders"
+- "T@\"NSArray\",R,C,N"
+- "T@\"NSObject<OS_dispatch_queue>\",R,N,V_queue"
+- "T@\"NSString\",&,N,V_carrierName"
+- "T@\"NSString\",R,C,N,V_localizedName"
+- "T@\"PHBrandedCallingController\",&,N,V_brandedCallingController"
+- "T@\"PHBrandedCallingController\",R,N,V_brandedCallingController"
+- "T@\"PHBusinessConnectCallingController\",&,N,V_businessConnectCallingController"
+- "T@\"PHBusinessConnectCallingController\",R,N,V_businessConnectCallingController"
+- "T@\"PHLiveLookupSettingsListController\",R,N,V_liveLookupController"
+- "T@\"PHLiveLookupSettingsListController\",R,N,V_liveLookupSettingsController"
+- "T@\"PSListController\",R,N,V_parent"
+- "T@\"PSListController\",W,N,V_parentListController"
+- "T@\"TPSCarrierBundleController\",R,N,V_carrierBundleController"
+- "T@\"TUConfigurationProvider\",R,N,V_configurationProvider"
+- "T@\"TUFeatureFlags\",R,N,V_featureFlags"
+- "T@\"_TtC21CallDirectorySettings22LiveLookupManagerProxy\",R,N,V_extensionManager"
+- "TB,N,V_hasSpamEnabledSim"
+- "TB,N,V_specifiersNeedReload"
+- "TB,R,N,V_supportsSpamBlocking"
+- "TPSCarrierBundleControllerDelegate"
+- "TPSControllerDelegate"
+- "TPSTelephonyControllerDelegate"
+- "TUConfigurationProviderDelegate"
+- "TelephonyUtilities"
+- "URLWithString:"
+- "Unable to find class %!s(MISSING)"
+- "User set branded calling to: %!@(MISSING)"
+- "User toggled business connect calling switch to %!@(MISSING)"
+- "User toggled silence junk calling enabled switch to %!@(MISSING)"
+- "VerstatFeatureCapability"
+- "Yes"
+- "_TtC21CallDirectorySettings22LiveLookupManagerProxy"
+- "_brandedCallingController"
+- "_businessConnectCallingController"
+- "_carrierBundleController"
+- "_carrierName"
+- "_configurationProvider"
+- "_context"
+- "_contexts"
+- "_ctClient"
+- "_delegate"
+- "_extensionFrom:"
+- "_featureFlags"
+- "_hasSpamEnabledSim"
+- "_iconForResourceProxy:format:"
+- "_isUniqueExtension:"
+- "_liveLookupController"
+- "_liveLookupSettingsController"
+- "_localizedExtensionTitleForExtension:"
+- "_localizedExtensionTitleForExtension:unique:"
+- "_localizedName"
+- "_parent"
+- "_parentListController"
+- "_queue"
+- "_serviceProviders"
+- "_specifiersNeedReload"
+- "_supportsSpamBlocking"
+- "absoluteString"
+- "acceptableJunkConfidence"
+- "actionWithTitle:style:handler:"
+- "activeContextsSupportingBrandedCalling"
+- "activeSubscriptions"
+- "activeSubscriptionsDidChange"
+- "addAction:"
+- "addBusinessCallingSpecifierIfNecessary:"
+- "addDelegate:queue:"
+- "addLiveLookupSpecifierIfNecessary:"
+- "addObjectsFromArray:"
+- "addObserver:selector:name:object:"
+- "addSpamBlockingSpecifiersIfNecessary service providers %!@(MISSING) allServiceProviderCount=%!l(MISSING)d"
+- "addSpamBlockingSpecifiersIfNecessary:"
+- "alertControllerWithTitle:message:preferredStyle:"
+- "arrayWithCapacity:"
+- "arrayWithObjects:count:"
+- "boolValue"
+- "brandedCallingController"
+- "bundleURL"
+- "businessConnectCallingController"
+- "callDirectoryExtensionForSpecifier:"
+- "callsBusinessMetadataQuery"
+- "canEditExtensions"
+- "carrierBundleController"
+- "carrierBundleController:carrierBundleDidChangeForSubscriptionContext:"
+- "carrierBundleController:operatorBundleDidChangeForSubscriptionContext:"
+- "carrierName"
+- "code"
+- "com.apple.calls.mobilephone"
+- "com.apple.calls.mobilephone.logging"
+- "configurationChanged"
+- "configurationProvider"
+- "containingAppURL"
+- "context"
+- "context:canSetCapability:allowed:with:"
+- "context:getCapability:status:with:"
+- "context:getCarrierBundleValue:error:"
+- "context:setCapability:enabled:with:"
+- "contexts"
+- "copyCarrierBundleValue:keyHierarchy:bundleType:error:"
+- "createExtensionsGroupSpecifiers"
+- "ctClient"
+- "currentLocale"
+- "dealloc"
+- "defaultCenter"
+- "delegate"
+- "deviceExpertMigrationEnabled"
+- "domain"
+- "dualSimCapabilityDidChange"
+- "editButtonItem"
+- "emitNavigationEvent"
+- "extensionEnabled:"
+- "extensionForSpecifier:"
+- "extensionName:"
+- "extensionWithIdentifier:error:"
+- "featureEnabledForAtLeastOneContext"
+- "featureFlags"
+- "fetchCarrierBundleValue:context:"
+- "fetchServiceProviders"
+- "fetchSubscriptionsInUse"
+- "filteredArrayUsingPredicate:"
+- "firstObject"
+- "getBooleanFromUserDefaults:default:"
+- "getBrandedCallingCapabilityEnabledForContext:"
+- "getBrandedCallingEnabled"
+- "getBrandedCallingStateForContext:"
+- "getBusinessConnectCallingEnabled"
+- "getSilenceJunkCallingEnabled:"
+- "groupFooterTextFor:"
+- "groupSpecifierWithID:"
+- "groupSpecifierWithID:name:"
+- "hasSpamEnabledSim"
+- "i"
+- "identifier"
+- "informationalUrlForSubscriptionContext:"
+- "init"
+- "initWithBundleType:"
+- "initWithCapacity:"
+- "initWithCoreTelephonyClient:context:"
+- "initWithCoreTelephonyClient:context:carrierName:"
+- "initWithCoreTelephonyClient:parentListController:"
+- "initWithKey:table:locale:bundleURL:"
+- "initWithLocalizedName:supportsSpamBlocking:"
+- "initWithName:target:set:get:detail:cell:edit:"
+- "initWithNibName:bundle:"
+- "initWithObjects:"
+- "initWithParent:"
+- "initWithSuiteName:"
+- "insertObject:atIndex:"
+- "integerValue"
+- "isBrandedCallingEnabled:"
+- "isBusinessCallingEnabled"
+- "isBusinessConnectCallingAvailable"
+- "isBusinessConnectCallingEnabled"
+- "isEditing"
+- "isEnabled"
+- "isEqualToIgnoringCase:"
+- "isJunkConfidenceLevelJunk:"
+- "isOnlyExtensionInContainingApp"
+- "isSilenceJunkCallingEnabled"
+- "isSimHidden"
+- "isViewLoaded"
+- "kCTCapabilityBrandedCallingInfo fetched for context: %!@(MISSING), capability enabled: %!@(MISSING)"
+- "label"
+- "lastObject"
+- "leftBarButtonItem"
+- "length"
+- "live lookup Extension Manager extensions changed, getting the latest extensions now"
+- "live lookup _updateExtensions"
+- "live lookup _updateExtensions: %!@(MISSING)"
+- "live lookup addLiveLookupSpecifierIfNecessary"
+- "live lookup createExtensionsGroupSpecifiers"
+- "live lookup extension: %!@(MISSING)"
+- "live lookup extensions=%!@(MISSING)"
+- "live lookup refreshView"
+- "liveLookupController"
+- "liveLookupSettingsController"
+- "loadSpecifiersFromPlistName:target:"
+- "localizedCarrierNameForSubscriptionContext:"
+- "localizedContainingAppName"
+- "localizedName"
+- "manager"
+- "maxJunkConfidence"
+- "mutableCopy"
+- "navigationItem"
+- "numberWithBool:"
+- "numberWithInt:"
+- "objectAtIndexedSubscript:"
+- "objectForKey:"
+- "objectForKeyHierarchy:subscriptionContext:error:"
+- "parent"
+- "pe_emitNavigationEventForApplicationSettingsWithApplicationBundleIdentifier:title:localizedNavigationComponents:deepLink:"
+- "plugInKitProxy"
+- "predicateWithBlock:"
+- "presentError:fromSettingEnabled:forExtension:"
+- "presentViewController:animated:completion:"
+- "propertyForKey:"
+- "q32@0:8@16@24"
+- "queue"
+- "rangeOfString:"
+- "readPreferenceValue:"
+- "refreshView"
+- "reloadSpecifier:"
+- "reloadSpecifier:animated:"
+- "reloadSpecifiers"
+- "removeObjectAtIndex:"
+- "rightBarButtonItem"
+- "row"
+- "section"
+- "serviceProviders"
+- "setBrandedCallingController:"
+- "setBrandedCallingEnabled:"
+- "setBrandedCallingEnabled:primary:"
+- "setBusinessConnectCallingController:"
+- "setBusinessConnectCallingEnabled:"
+- "setCarrierName:"
+- "setContext:"
+- "setContexts:"
+- "setCtClient:"
+- "setEditing:animated:"
+- "setEnabled:forExtension:completion:"
+- "setHasSpamEnabledSim:"
+- "setInteger:forKey:"
+- "setLeftBarButtonItem:animated:"
+- "setNavigationItemsForEditing:animated:"
+- "setParentListController:"
+- "setPreferenceValue:specifier:"
+- "setPrioritizedExtensionIdentifiers:completionHandler:"
+- "setProperty:forKey:"
+- "setRightBarButtonItem:animated:"
+- "setServiceProviders:"
+- "setShouldShowBrandedCallingInfo:"
+- "setSilenceJunkCallingEnabled:"
+- "setSilenceJunkCallingEnabled:specifier:"
+- "setSpecifiersNeedReload:"
+- "setState:"
+- "setValue:forKey:"
+- "setValueInUserDefaults:forKey:"
+- "setWithPrioritizedExtensionIdentifiers:"
+- "settings-navigation://com.apple.Settings.Apps/%!@(MISSING)/%!@(MISSING)"
+- "sharedInstance"
+- "shouldShowBrandedCallingInfo:"
+- "simLessSubscriptionsDidChange"
+- "slotID"
+- "softlink:r:path:/System/Library/PrivateFrameworks/SettingsCellular.framework/SettingsCellular"
+- "specifier"
+- "specifiersNeedReload"
+- "stringForKeyHierarchy:subscriptionContext:error:"
+- "stringWithFormat:"
+- "subscriptionInfoDidChange"
+- "subscriptionsInUse"
+- "supportsBusinessConnectCallingForSubscriptionContext:"
+- "supportsCallBlockingForSubscriptionContext:"
+- "supportsSpamBlocking"
+- "table"
+- "tableView:canMoveRowAtIndexPath:"
+- "tableView:editingStyleForRowAtIndexPath:"
+- "tableView:moveRowAtIndexPath:toIndexPath:"
+- "tableView:shouldIndentWhileEditingRowAtIndexPath:"
+- "tableView:targetIndexPathForMoveFromRowAtIndexPath:toProposedIndexPath:"
+- "target"
+- "telephonyClient"
+- "telephonyController:didChangeActiveSubscriptions:"
+- "telephonyController:didChangeSubscriptions:"
+- "updateBrandedCallingState"
+- "updateBusinessCallingState"
+- "uuid"
+- "v16@?0@\"NSError\"8"
+- "v20@0:8B16"
+- "v24@0:8B16B20"
+- "v32@0:8@\"TPSCarrierBundleController\"16@\"CTXPCServiceSubscriptionContext\"24"
+- "v32@0:8@\"TPSTelephonyController\"16@\"NSOrderedSet\"24"
+- "v32@0:8@16@24"
+- "v36@0:8@16B24@28"
+- "v36@0:8B16@\"_TtC14IdentityLookup21LiveLookupDBExtension\"20@?<v@?@\"NSError\">28"
+- "v40@0:8@16@24@32"
+- "viewWillAppear:"
+- "willEnterForeground"
+
+```

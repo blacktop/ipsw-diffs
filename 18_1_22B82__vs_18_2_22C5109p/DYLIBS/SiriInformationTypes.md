@@ -1,0 +1,461 @@
+## SiriInformationTypes
+
+> `/System/Library/PrivateFrameworks/SiriInformationTypes.framework/SiriInformationTypes`
+
+```diff
+
+-3401.9.1.0.0
+-  __TEXT.__text: 0x48574
+-  __TEXT.__auth_stubs: 0x1530
++3402.44.3.1.1
++  __TEXT.__text: 0x3f678
++  __TEXT.__auth_stubs: 0x1210
+   __TEXT.__objc_methlist: 0x4a4
+-  __TEXT.__const: 0x3f9e4
+-  __TEXT.__cstring: 0x2aa1
+-  __TEXT.__swift5_typeref: 0x9ea
++  __TEXT.__const: 0x3f624
++  __TEXT.__cstring: 0x2721
++  __TEXT.__swift5_typeref: 0x7b2
+   __TEXT.__oslogstring: 0xc20
+-  __TEXT.__constg_swiftt: 0xf40
+-  __TEXT.__swift5_reflstr: 0xd34
+-  __TEXT.__swift5_fieldmd: 0xd04
++  __TEXT.__constg_swiftt: 0xf08
++  __TEXT.__swift5_reflstr: 0xab4
++  __TEXT.__swift5_fieldmd: 0xbb8
+   __TEXT.__swift5_builtin: 0x50
+-  __TEXT.__swift5_assocty: 0x158
+-  __TEXT.__swift5_proto: 0x174
+-  __TEXT.__swift5_types: 0xb8
++  __TEXT.__swift5_assocty: 0xa8
++  __TEXT.__swift5_proto: 0x124
++  __TEXT.__swift5_types: 0xb0
+   __TEXT.__swift5_mpenum: 0x10
+   __TEXT.__swift5_capture: 0x50
+-  __TEXT.__unwind_info: 0x11c8
+-  __TEXT.__eh_frame: 0x498
++  __TEXT.__unwind_info: 0xf30
++  __TEXT.__eh_frame: 0x418
+   __TEXT.__objc_classname: 0x18
+-  __TEXT.__objc_methname: 0x270
++  __TEXT.__objc_methname: 0x254
+   __TEXT.__objc_methtype: 0x46
+-  __DATA_CONST.__got: 0x3c8
+-  __DATA_CONST.__const: 0x5e8
++  __DATA_CONST.__got: 0x3a0
++  __DATA_CONST.__const: 0x450
+   __DATA_CONST.__objc_classlist: 0x78
+   __DATA_CONST.__objc_protolist: 0x20
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x158
++  __DATA_CONST.__objc_selrefs: 0x150
+   __DATA_CONST.__objc_protorefs: 0x10
+-  __AUTH_CONST.__auth_got: 0xa98
+-  __AUTH_CONST.__auth_ptr: 0x508
+-  __AUTH_CONST.__const: 0x10a8
++  __AUTH_CONST.__auth_got: 0x908
++  __AUTH_CONST.__auth_ptr: 0x380
++  __AUTH_CONST.__const: 0xf50
+   __AUTH_CONST.__objc_const: 0x1378
+   __AUTH.__objc_data: 0xf20
+   __AUTH.__data: 0x228
+-  __DATA.__data: 0x7b0
+-  __DATA.__common: 0xd8
+-  __DATA.__bss: 0x21d0
++  __DATA.__data: 0x630
++  __DATA.__common: 0xf8
++  __DATA.__bss: 0x17d0
+   __DATA_DIRTY.__objc_data: 0xa08
+   __DATA_DIRTY.__data: 0x608
+   __DATA_DIRTY.__bss: 0xd00
+   __DATA_DIRTY.__common: 0x70
+-  - /System/Library/Frameworks/AppIntents.framework/AppIntents
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+-  - /System/Library/Frameworks/CoreLocation.framework/CoreLocation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/PrivateFrameworks/AssistantServices.framework/AssistantServices
+   - /System/Library/PrivateFrameworks/FeatureFlags.framework/FeatureFlags
+
+   - /System/Library/PrivateFrameworks/SiriNLUTypes.framework/SiriNLUTypes
+   - /System/Library/PrivateFrameworks/SiriOntology.framework/SiriOntology
+   - /System/Library/PrivateFrameworks/SiriOntologyProtobuf.framework/SiriOntologyProtobuf
+-  - /System/Library/PrivateFrameworks/SiriUtilities.framework/SiriUtilities
+   - /System/Library/PrivateFrameworks/UIKitCore.framework/UIKitCore
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+
+   - /usr/lib/swift/libswiftDataDetection.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftFileProvider.dylib
+-  - /usr/lib/swift/libswiftIntents.dylib
+   - /usr/lib/swift/libswiftMetal.dylib
+   - /usr/lib/swift/libswiftOSLog.dylib
+   - /usr/lib/swift/libswiftObjectiveC.dylib
+
+   - /usr/lib/swift/libswiftsimd.dylib
+   - /usr/lib/swift/libswiftsys_time.dylib
+   - /usr/lib/swift/libswiftunistd.dylib
+-  Functions: 1822
+-  Symbols:   3036
+-  CStrings:  450
++  Functions: 1510
++  Symbols:   2550
++  CStrings:  423
+ 
+Symbols:
++ _$s20SiriInformationTypes11ParsecAliasOMa
++ _$s20SiriInformationTypes11ParsecAliasOMn
++ _$s20SiriInformationTypes11ParsecAliasON
++ _$s20SiriInformationTypes12LogConstantsO8CategoryO9overridesSSvau
++ _$s20SiriInformationTypes12LogConstantsO8CategoryO9overridesSSvgZ
++ _$s20SiriInformationTypes12LogConstantsO8CategoryO9overridesSSvpZ
++ _$s20SiriInformationTypes6LoggerO9overrides2osABVvau
++ _$s20SiriInformationTypes6LoggerO9overrides2osABVvgZ
++ _$s20SiriInformationTypes6LoggerO9overrides2osABVvpZ
++ _$s21SiriInformationSearch17GenericExperienceC15genericPluginIdSSvgZ
+- _$s10AppIntents010_TransientA11EntityQueryVMn
+- _$s10AppIntents010_TransientA11EntityQueryVyxGAA0dE0AAMc
+- _$s10AppIntents09TransientA6EntityMp
+- _$s10AppIntents09TransientA6EntityPAA0aD0Tb
+- _$s10AppIntents09TransientA6EntityPAAE12defaultQueryAA01_cadF0VyxGvgZ
+- _$s10AppIntents09TransientA6EntityPAAE2id10Foundation4UUIDVvg
+- _$s10AppIntents09TransientA6EntityPxycfCTq
+- _$s10AppIntents0A5ValueMp
+- _$s10AppIntents0A5ValuePAA07_IntentC0Tb
+- _$s10AppIntents0A5ValuePAA24PersistentlyIdentifiableTb
+- _$s10AppIntents0A5ValuePAA24TypeDisplayRepresentableTb
+- _$s10AppIntents0A6EntityMp
+- _$s10AppIntents0A6EntityP12DefaultQueryAC_AA0cE0Tn
+- _$s10AppIntents0A6EntityP12defaultQuery07DefaultE0QzvgZTq
+- _$s10AppIntents0A6EntityP2IDs12IdentifiableP_AA0C21IdentifierConvertibleTn
+- _$s10AppIntents0A6EntityPAA0A5ValueTb
+- _$s10AppIntents0A6EntityPAA20DisplayRepresentableTb
+- _$s10AppIntents0A6EntityPAAE28defaultResolverSpecificationAA05EmptyeF0VyxGvgZ
+- _$s10AppIntents0A6EntityPs12IdentifiableTb
+- _$s10AppIntents10IntentFileVMa
+- _$s10AppIntents10IntentFileVMn
+- _$s10AppIntents12_IntentValueMp
+- _$s10AppIntents12_IntentValueP0D4TypeAC_AaBTn
+- _$s10AppIntents12_IntentValueP13SpecificationAC_AA08ResolverE0Tn
+- _$s10AppIntents12_IntentValueP13UnwrappedTypeAC_AaBTn
+- _$s10AppIntents12_IntentValueP28defaultResolverSpecification0G0QzvgZTq
+- _$s10AppIntents14EntityPropertyC12wrappedValuexvM
+- _$s10AppIntents14EntityPropertyC12wrappedValuexvg
+- _$s10AppIntents14EntityPropertyC12wrappedValuexvs
+- _$s10AppIntents14EntityPropertyC14projectedValueACyxGvg
+- _$s10AppIntents14EntityPropertyCA2A0aC09ValueTypeRpzrlE5titleACyxG10Foundation23LocalizedStringResourceV_tcfC
+- _$s10AppIntents14EntityPropertyCA2A10IntentFileV9ValueTypeRtzrlE5titleACyxG10Foundation23LocalizedStringResourceV_tcfC
+- _$s10AppIntents14EntityPropertyCAASS9ValueTypeRtzrlE5titleACyxG10Foundation23LocalizedStringResourceV_tcfC
+- _$s10AppIntents14EntityPropertyCAASb9ValueTypeRtzrlE5titleACyxG10Foundation23LocalizedStringResourceV_tcfC
+- _$s10AppIntents14EntityPropertyCAASd9ValueTypeRtzrlE5titleACyxG10Foundation23LocalizedStringResourceV_tcfC
+- _$s10AppIntents14EntityPropertyCAASi9ValueTypeRtzrlE5titleACyxG10Foundation23LocalizedStringResourceV_tcfC
+- _$s10AppIntents14EntityPropertyCMn
+- _$s10AppIntents20DisplayRepresentableMp
+- _$s10AppIntents20DisplayRepresentablePAA04TypecD0Tb
+- _$s10AppIntents20DisplayRepresentablePAA08InstancecD0Tb
+- _$s10AppIntents21DisplayRepresentationV5ImageVMa
+- _$s10AppIntents21DisplayRepresentationV5ImageVMn
+- _$s10AppIntents21DisplayRepresentationV5title8subtitle5imageAC10Foundation23LocalizedStringResourceV_AISgAC5ImageVSgtcfC
+- _$s10AppIntents24PersistentlyIdentifiableMp
+- _$s10AppIntents24PersistentlyIdentifiableP20persistentIdentifierSSvgZTq
+- _$s10AppIntents24PersistentlyIdentifiablePAAE20persistentIdentifierSSvgZ
+- _$s10AppIntents24TypeDisplayRepresentableMp
+- _$s10AppIntents24TypeDisplayRepresentableP04typeD14RepresentationAA0cdG0VvgZTq
+- _$s10AppIntents25TypeDisplayRepresentationV4name13numericFormatAC10Foundation23LocalizedStringResourceV_AHSgtcfC
+- _$s10AppIntents25TypeDisplayRepresentationVMa
+- _$s10AppIntents26EmptyResolverSpecificationVMn
+- _$s10AppIntents26EmptyResolverSpecificationVyxGAA0dE0AAMc
+- _$s10AppIntents28InstanceDisplayRepresentableMp
+- _$s10AppIntents28InstanceDisplayRepresentableP10Foundation40CustomLocalizedStringResourceConvertibleTb
+- _$s10AppIntents28InstanceDisplayRepresentableP21displayRepresentationAA0dG0VvgTq
+- _$s10AppIntents28InstanceDisplayRepresentablePAAE23localizedStringResource10Foundation09LocalizedgH0Vvg
+- _$s10Foundation12CharacterSetV16uppercaseLettersACvgZ
+- _$s10Foundation12CharacterSetV8containsySbs7UnicodeO6ScalarVF
+- _$s10Foundation12CharacterSetVMa
+- _$s10Foundation23LocalizedStringResourceV13stringLiteralACSS_tcfC
+- _$s10Foundation23LocalizedStringResourceV19stringInterpolationACSSAAE17LocalizationValueV0cF0V_tcfC
+- _$s10Foundation23LocalizedStringResourceVMa
+- _$s10Foundation23LocalizedStringResourceVMn
+- _$s10Foundation40CustomLocalizedStringResourceConvertibleMp
+- _$s10Foundation40CustomLocalizedStringResourceConvertibleP09localizeddE0AA0cdE0VvgTq
+- _$s10Foundation4UUIDV10AppIntents27EntityIdentifierConvertibleADWP
+- _$s10Foundation4UUIDVMa
+- _$s10Foundation4UUIDVMn
+- _$s10Foundation4UUIDVSHAAMc
+- _$s12DefaultQuery10AppIntents0C6EntityPTl
+- _$s13SiriUtilities11InputOriginO8rawValueACSgSS_tcfC
+- _$s13SiriUtilities11InputOriginOMa
+- _$s13SiriUtilities18DeviceRestrictionsV8rawValueACSi_tcfC
+- _$s13Specification10AppIntents12_IntentValuePTl
+- _$s13UnwrappedType10AppIntents12_IntentValuePTl
+- _$s20SiriInformationTypes11EntityMatchV10AppIntents09TransientfD0AAMc
+- _$s20SiriInformationTypes11EntityMatchV10AppIntents0F5ValueAAMc
+- _$s20SiriInformationTypes11EntityMatchV10AppIntents0fD0AAMc
+- _$s20SiriInformationTypes11EntityMatchV10AppIntents12_IntentValueAAMc
+- _$s20SiriInformationTypes11EntityMatchV10AppIntents20DisplayRepresentableAAMc
+- _$s20SiriInformationTypes11EntityMatchV10AppIntents24PersistentlyIdentifiableAAMc
+- _$s20SiriInformationTypes11EntityMatchV10AppIntents24TypeDisplayRepresentableAAMc
+- _$s20SiriInformationTypes11EntityMatchV10AppIntents28InstanceDisplayRepresentableAAMc
+- _$s20SiriInformationTypes11EntityMatchV10Foundation40CustomLocalizedStringResourceConvertibleAAMc
+- _$s20SiriInformationTypes11EntityMatchV10entityNameSSvM
+- _$s20SiriInformationTypes11EntityMatchV10entityNameSSvg
+- _$s20SiriInformationTypes11EntityMatchV10entityNameSSvpMV
+- _$s20SiriInformationTypes11EntityMatchV10entityNameSSvs
+- _$s20SiriInformationTypes11EntityMatchV10entityTypeSSvM
+- _$s20SiriInformationTypes11EntityMatchV10entityTypeSSvg
+- _$s20SiriInformationTypes11EntityMatchV10entityTypeSSvpMV
+- _$s20SiriInformationTypes11EntityMatchV10entityTypeSSvs
+- _$s20SiriInformationTypes11EntityMatchV10matchScoreSdvM
+- _$s20SiriInformationTypes11EntityMatchV10matchScoreSdvg
+- _$s20SiriInformationTypes11EntityMatchV10matchScoreSdvpMV
+- _$s20SiriInformationTypes11EntityMatchV10matchScoreSdvs
+- _$s20SiriInformationTypes11EntityMatchV10startIndexSiSgvM
+- _$s20SiriInformationTypes11EntityMatchV10startIndexSiSgvg
+- _$s20SiriInformationTypes11EntityMatchV10startIndexSiSgvpMV
+- _$s20SiriInformationTypes11EntityMatchV10startIndexSiSgvs
+- _$s20SiriInformationTypes11EntityMatchV11$entityName10AppIntents0D8PropertyCySSGvg
+- _$s20SiriInformationTypes11EntityMatchV11$entityName10AppIntents0D8PropertyCySSGvpMV
+- _$s20SiriInformationTypes11EntityMatchV11$entityType10AppIntents0D8PropertyCySSGvg
+- _$s20SiriInformationTypes11EntityMatchV11$entityType10AppIntents0D8PropertyCySSGvpMV
+- _$s20SiriInformationTypes11EntityMatchV11$matchScore10AppIntents0D8PropertyCySdGvg
+- _$s20SiriInformationTypes11EntityMatchV11$matchScore10AppIntents0D8PropertyCySdGvpMV
+- _$s20SiriInformationTypes11EntityMatchV11$startIndex10AppIntents0D8PropertyCySiSgGvg
+- _$s20SiriInformationTypes11EntityMatchV11$startIndex10AppIntents0D8PropertyCySiSgGvpMV
+- _$s20SiriInformationTypes11EntityMatchV11debugStringSSvg
+- _$s20SiriInformationTypes11EntityMatchV11debugStringSSvpMV
+- _$s20SiriInformationTypes11EntityMatchV11descriptionSSvg
+- _$s20SiriInformationTypes11EntityMatchV11descriptionSSvpMV
+- _$s20SiriInformationTypes11EntityMatchV17originAppBundleIdSSvM
+- _$s20SiriInformationTypes11EntityMatchV17originAppBundleIdSSvg
+- _$s20SiriInformationTypes11EntityMatchV17originAppBundleIdSSvpMV
+- _$s20SiriInformationTypes11EntityMatchV17originAppBundleIdSSvs
+- _$s20SiriInformationTypes11EntityMatchV18$originAppBundleId0G7Intents0D8PropertyCySSGvg
+- _$s20SiriInformationTypes11EntityMatchV18$originAppBundleId0G7Intents0D8PropertyCySSGvpMV
+- _$s20SiriInformationTypes11EntityMatchV20matchedUserUtteranceSSvM
+- _$s20SiriInformationTypes11EntityMatchV20matchedUserUtteranceSSvg
+- _$s20SiriInformationTypes11EntityMatchV20matchedUserUtteranceSSvpMV
+- _$s20SiriInformationTypes11EntityMatchV20matchedUserUtteranceSSvs
+- _$s20SiriInformationTypes11EntityMatchV21$matchedUserUtterance10AppIntents0D8PropertyCySSGvg
+- _$s20SiriInformationTypes11EntityMatchV21$matchedUserUtterance10AppIntents0D8PropertyCySSGvpMV
+- _$s20SiriInformationTypes11EntityMatchV21displayRepresentation10AppIntents07DisplayG0Vvg
+- _$s20SiriInformationTypes11EntityMatchV21displayRepresentation10AppIntents07DisplayG0VvpMV
+- _$s20SiriInformationTypes11EntityMatchV25typeDisplayRepresentation10AppIntents04TypegH0VvMZ
+- _$s20SiriInformationTypes11EntityMatchV25typeDisplayRepresentation10AppIntents04TypegH0VvgZ
+- _$s20SiriInformationTypes11EntityMatchV25typeDisplayRepresentation10AppIntents04TypegH0VvsZ
+- _$s20SiriInformationTypes11EntityMatchV8endIndexSiSgvM
+- _$s20SiriInformationTypes11EntityMatchV8endIndexSiSgvg
+- _$s20SiriInformationTypes11EntityMatchV8endIndexSiSgvpMV
+- _$s20SiriInformationTypes11EntityMatchV8endIndexSiSgvs
+- _$s20SiriInformationTypes11EntityMatchV8entityIdSSvM
+- _$s20SiriInformationTypes11EntityMatchV8entityIdSSvg
+- _$s20SiriInformationTypes11EntityMatchV8entityIdSSvpMV
+- _$s20SiriInformationTypes11EntityMatchV8entityIdSSvs
+- _$s20SiriInformationTypes11EntityMatchV9$endIndex10AppIntents0D8PropertyCySiSgGvg
+- _$s20SiriInformationTypes11EntityMatchV9$endIndex10AppIntents0D8PropertyCySiSgGvpMV
+- _$s20SiriInformationTypes11EntityMatchV9$entityId10AppIntents0D8PropertyCySSGvg
+- _$s20SiriInformationTypes11EntityMatchV9$entityId10AppIntents0D8PropertyCySSGvpMV
+- _$s20SiriInformationTypes11EntityMatchVACycfC
+- _$s20SiriInformationTypes11EntityMatchVMa
+- _$s20SiriInformationTypes11EntityMatchVMn
+- _$s20SiriInformationTypes11EntityMatchVN
+- _$s20SiriInformationTypes11EntityMatchVs12IdentifiableAAMc
+- _$s20SiriInformationTypes13SearchContextV10$longitude10AppIntents14EntityPropertyCySdGvg
+- _$s20SiriInformationTypes13SearchContextV10$longitude10AppIntents14EntityPropertyCySdGvpMV
+- _$s20SiriInformationTypes13SearchContextV10AppIntents09TransientF6EntityAAMc
+- _$s20SiriInformationTypes13SearchContextV10AppIntents0F5ValueAAMc
+- _$s20SiriInformationTypes13SearchContextV10AppIntents0F6EntityAAMc
+- _$s20SiriInformationTypes13SearchContextV10AppIntents12_IntentValueAAMc
+- _$s20SiriInformationTypes13SearchContextV10AppIntents20DisplayRepresentableAAMc
+- _$s20SiriInformationTypes13SearchContextV10AppIntents24PersistentlyIdentifiableAAMc
+- _$s20SiriInformationTypes13SearchContextV10AppIntents24TypeDisplayRepresentableAAMc
+- _$s20SiriInformationTypes13SearchContextV10AppIntents28InstanceDisplayRepresentableAAMc
+- _$s20SiriInformationTypes13SearchContextV10Foundation40CustomLocalizedStringResourceConvertibleAAMc
+- _$s20SiriInformationTypes13SearchContextV10isEyesFreeSbvM
+- _$s20SiriInformationTypes13SearchContextV10isEyesFreeSbvg
+- _$s20SiriInformationTypes13SearchContextV10isEyesFreeSbvpMV
+- _$s20SiriInformationTypes13SearchContextV10isEyesFreeSbvs
+- _$s20SiriInformationTypes13SearchContextV11$isEyesFree10AppIntents14EntityPropertyCySbGvg
+- _$s20SiriInformationTypes13SearchContextV11$isEyesFree10AppIntents14EntityPropertyCySbGvpMV
+- _$s20SiriInformationTypes13SearchContextV11assistantIdSSvM
+- _$s20SiriInformationTypes13SearchContextV11assistantIdSSvg
+- _$s20SiriInformationTypes13SearchContextV11assistantIdSSvpMV
+- _$s20SiriInformationTypes13SearchContextV11assistantIdSSvs
+- _$s20SiriInformationTypes13SearchContextV11inputOrigin0A9Utilities05InputG0OSgvg
+- _$s20SiriInformationTypes13SearchContextV11inputOrigin0A9Utilities05InputG0OSgvpMV
+- _$s20SiriInformationTypes13SearchContextV11isMultiUserSbvM
+- _$s20SiriInformationTypes13SearchContextV11isMultiUserSbvg
+- _$s20SiriInformationTypes13SearchContextV11isMultiUserSbvpMV
+- _$s20SiriInformationTypes13SearchContextV11isMultiUserSbvs
+- _$s20SiriInformationTypes13SearchContextV12$assistantId10AppIntents14EntityPropertyCySSGvg
+- _$s20SiriInformationTypes13SearchContextV12$assistantId10AppIntents14EntityPropertyCySSGvpMV
+- _$s20SiriInformationTypes13SearchContextV12$isMultiUser10AppIntents14EntityPropertyCySbGvg
+- _$s20SiriInformationTypes13SearchContextV12$isMultiUser10AppIntents14EntityPropertyCySbGvpMV
+- _$s20SiriInformationTypes13SearchContextV12bargeInModesSaySSGvM
+- _$s20SiriInformationTypes13SearchContextV12bargeInModesSaySSGvg
+- _$s20SiriInformationTypes13SearchContextV12bargeInModesSaySSGvpMV
+- _$s20SiriInformationTypes13SearchContextV12bargeInModesSaySSGvs
+- _$s20SiriInformationTypes13SearchContextV12responseModeSSSgvM
+- _$s20SiriInformationTypes13SearchContextV12responseModeSSSgvg
+- _$s20SiriInformationTypes13SearchContextV12responseModeSSSgvpMV
+- _$s20SiriInformationTypes13SearchContextV12responseModeSSSgvs
+- _$s20SiriInformationTypes13SearchContextV12sharedUserIdSSSgvM
+- _$s20SiriInformationTypes13SearchContextV12sharedUserIdSSSgvg
+- _$s20SiriInformationTypes13SearchContextV12sharedUserIdSSSgvpMV
+- _$s20SiriInformationTypes13SearchContextV12sharedUserIdSSSgvs
+- _$s20SiriInformationTypes13SearchContextV13$bargeInModes10AppIntents14EntityPropertyCySaySSGGvg
+- _$s20SiriInformationTypes13SearchContextV13$bargeInModes10AppIntents14EntityPropertyCySaySSGGvpMV
+- _$s20SiriInformationTypes13SearchContextV13$responseMode10AppIntents14EntityPropertyCySSSgGvg
+- _$s20SiriInformationTypes13SearchContextV13$responseMode10AppIntents14EntityPropertyCySSSgGvpMV
+- _$s20SiriInformationTypes13SearchContextV13$sharedUserId10AppIntents14EntityPropertyCySSSgGvg
+- _$s20SiriInformationTypes13SearchContextV13$sharedUserId10AppIntents14EntityPropertyCySSSgGvpMV
+- _$s20SiriInformationTypes13SearchContextV15afSpeechPacakgeSo15AFSpeechPackageCSgvg
+- _$s20SiriInformationTypes13SearchContextV15afSpeechPacakgeSo15AFSpeechPackageCSgvpMV
+- _$s20SiriInformationTypes13SearchContextV15inputOriginNameSSSgvM
+- _$s20SiriInformationTypes13SearchContextV15inputOriginNameSSSgvg
+- _$s20SiriInformationTypes13SearchContextV15inputOriginNameSSSgvpMV
+- _$s20SiriInformationTypes13SearchContextV15inputOriginNameSSSgvs
+- _$s20SiriInformationTypes13SearchContextV16$inputOriginName10AppIntents14EntityPropertyCySSSgGvg
+- _$s20SiriInformationTypes13SearchContextV16$inputOriginName10AppIntents14EntityPropertyCySSSgGvpMV
+- _$s20SiriInformationTypes13SearchContextV16isOnlyUserInHomeSbvM
+- _$s20SiriInformationTypes13SearchContextV16isOnlyUserInHomeSbvg
+- _$s20SiriInformationTypes13SearchContextV16isOnlyUserInHomeSbvpMV
+- _$s20SiriInformationTypes13SearchContextV16isOnlyUserInHomeSbvs
+- _$s20SiriInformationTypes13SearchContextV16onScreenEntitiesSayAA11EntityMatchVGvM
+- _$s20SiriInformationTypes13SearchContextV16onScreenEntitiesSayAA11EntityMatchVGvg
+- _$s20SiriInformationTypes13SearchContextV16onScreenEntitiesSayAA11EntityMatchVGvpMV
+- _$s20SiriInformationTypes13SearchContextV16onScreenEntitiesSayAA11EntityMatchVGvs
+- _$s20SiriInformationTypes13SearchContextV17$isOnlyUserInHome10AppIntents14EntityPropertyCySbGvg
+- _$s20SiriInformationTypes13SearchContextV17$isOnlyUserInHome10AppIntents14EntityPropertyCySbGvpMV
+- _$s20SiriInformationTypes13SearchContextV17$onScreenEntities10AppIntents14EntityPropertyCySayAA0K5MatchVGGvg
+- _$s20SiriInformationTypes13SearchContextV17$onScreenEntities10AppIntents14EntityPropertyCySayAA0K5MatchVGGvpMV
+- _$s20SiriInformationTypes13SearchContextV18deviceRestrictions0A9Utilities06DeviceG0Vvg
+- _$s20SiriInformationTypes13SearchContextV18deviceRestrictions0A9Utilities06DeviceG0VvpMV
+- _$s20SiriInformationTypes13SearchContextV20asrSpeechPackageData10AppIntents10IntentFileVSgvM
+- _$s20SiriInformationTypes13SearchContextV20asrSpeechPackageData10AppIntents10IntentFileVSgvg
+- _$s20SiriInformationTypes13SearchContextV20asrSpeechPackageData10AppIntents10IntentFileVSgvpMV
+- _$s20SiriInformationTypes13SearchContextV20asrSpeechPackageData10AppIntents10IntentFileVSgvs
+- _$s20SiriInformationTypes13SearchContextV21$asrSpeechPackageData10AppIntents14EntityPropertyCyAE10IntentFileVSgGvg
+- _$s20SiriInformationTypes13SearchContextV21$asrSpeechPackageData10AppIntents14EntityPropertyCyAE10IntentFileVSgGvpMV
+- _$s20SiriInformationTypes13SearchContextV21displayRepresentation10AppIntents07DisplayG0Vvg
+- _$s20SiriInformationTypes13SearchContextV21displayRepresentation10AppIntents07DisplayG0VvpMV
+- _$s20SiriInformationTypes13SearchContextV21isTextToSpeechEnabledSbvM
+- _$s20SiriInformationTypes13SearchContextV21isTextToSpeechEnabledSbvg
+- _$s20SiriInformationTypes13SearchContextV21isTextToSpeechEnabledSbvpMV
+- _$s20SiriInformationTypes13SearchContextV21isTextToSpeechEnabledSbvs
+- _$s20SiriInformationTypes13SearchContextV21isTriggerlessFollowupSbvM
+- _$s20SiriInformationTypes13SearchContextV21isTriggerlessFollowupSbvg
+- _$s20SiriInformationTypes13SearchContextV21isTriggerlessFollowupSbvpMV
+- _$s20SiriInformationTypes13SearchContextV21isTriggerlessFollowupSbvs
+- _$s20SiriInformationTypes13SearchContextV21isVoiceTriggerEnabledSbvM
+- _$s20SiriInformationTypes13SearchContextV21isVoiceTriggerEnabledSbvg
+- _$s20SiriInformationTypes13SearchContextV21isVoiceTriggerEnabledSbvpMV
+- _$s20SiriInformationTypes13SearchContextV21isVoiceTriggerEnabledSbvs
+- _$s20SiriInformationTypes13SearchContextV22$isTextToSpeechEnabled10AppIntents14EntityPropertyCySbGvg
+- _$s20SiriInformationTypes13SearchContextV22$isTextToSpeechEnabled10AppIntents14EntityPropertyCySbGvpMV
+- _$s20SiriInformationTypes13SearchContextV22$isTriggerlessFollowup10AppIntents14EntityPropertyCySbGvg
+- _$s20SiriInformationTypes13SearchContextV22$isTriggerlessFollowup10AppIntents14EntityPropertyCySbGvpMV
+- _$s20SiriInformationTypes13SearchContextV22$isVoiceTriggerEnabled10AppIntents14EntityPropertyCySbGvg
+- _$s20SiriInformationTypes13SearchContextV22$isVoiceTriggerEnabled10AppIntents14EntityPropertyCySbGvpMV
+- _$s20SiriInformationTypes13SearchContextV25typeDisplayRepresentation10AppIntents04TypegH0VvMZ
+- _$s20SiriInformationTypes13SearchContextV25typeDisplayRepresentation10AppIntents04TypegH0VvgZ
+- _$s20SiriInformationTypes13SearchContextV25typeDisplayRepresentation10AppIntents04TypegH0VvsZ
+- _$s20SiriInformationTypes13SearchContextV26deviceRestrictionsRawValueSivM
+- _$s20SiriInformationTypes13SearchContextV26deviceRestrictionsRawValueSivg
+- _$s20SiriInformationTypes13SearchContextV26deviceRestrictionsRawValueSivpMV
+- _$s20SiriInformationTypes13SearchContextV26deviceRestrictionsRawValueSivs
+- _$s20SiriInformationTypes13SearchContextV26userIdentityClassificationSo06AFUserG13ClassficationVSgvg
+- _$s20SiriInformationTypes13SearchContextV26userIdentityClassificationSo06AFUserG13ClassficationVSgvpMV
+- _$s20SiriInformationTypes13SearchContextV27$deviceRestrictionsRawValue10AppIntents14EntityPropertyCySiGvg
+- _$s20SiriInformationTypes13SearchContextV27$deviceRestrictionsRawValue10AppIntents14EntityPropertyCySiGvpMV
+- _$s20SiriInformationTypes13SearchContextV31userIdentityClassificationValueSivM
+- _$s20SiriInformationTypes13SearchContextV31userIdentityClassificationValueSivg
+- _$s20SiriInformationTypes13SearchContextV31userIdentityClassificationValueSivpMV
+- _$s20SiriInformationTypes13SearchContextV31userIdentityClassificationValueSivs
+- _$s20SiriInformationTypes13SearchContextV32$userIdentityClassificationValue10AppIntents14EntityPropertyCySiGvg
+- _$s20SiriInformationTypes13SearchContextV32$userIdentityClassificationValue10AppIntents14EntityPropertyCySiGvpMV
+- _$s20SiriInformationTypes13SearchContextV8latitudeSdvM
+- _$s20SiriInformationTypes13SearchContextV8latitudeSdvg
+- _$s20SiriInformationTypes13SearchContextV8latitudeSdvpMV
+- _$s20SiriInformationTypes13SearchContextV8latitudeSdvs
+- _$s20SiriInformationTypes13SearchContextV8locationSo10CLLocationCvg
+- _$s20SiriInformationTypes13SearchContextV8locationSo10CLLocationCvpMV
+- _$s20SiriInformationTypes13SearchContextV9$latitude10AppIntents14EntityPropertyCySdGvg
+- _$s20SiriInformationTypes13SearchContextV9$latitude10AppIntents14EntityPropertyCySdGvpMV
+- _$s20SiriInformationTypes13SearchContextV9longitudeSdvM
+- _$s20SiriInformationTypes13SearchContextV9longitudeSdvg
+- _$s20SiriInformationTypes13SearchContextV9longitudeSdvpMV
+- _$s20SiriInformationTypes13SearchContextV9longitudeSdvs
+- _$s20SiriInformationTypes13SearchContextVACycfC
+- _$s20SiriInformationTypes13SearchContextVMa
+- _$s20SiriInformationTypes13SearchContextVMn
+- _$s20SiriInformationTypes13SearchContextVN
+- _$s20SiriInformationTypes13SearchContextVs12IdentifiableAAMc
+- _$s20SiriInformationTypes20EntityMatchFormatterO13entityTypeMapSDyS2SGvMZ
+- _$s20SiriInformationTypes20EntityMatchFormatterO13entityTypeMapSDyS2SGvau
+- _$s20SiriInformationTypes20EntityMatchFormatterO13entityTypeMapSDyS2SGvgZ
+- _$s20SiriInformationTypes20EntityMatchFormatterO13entityTypeMapSDyS2SGvpZ
+- _$s20SiriInformationTypes20EntityMatchFormatterO13entityTypeMapSDyS2SGvsZ
+- _$s20SiriInformationTypes20EntityMatchFormatterO6format10entityTypeS2S_tFZ
+- _$s20SiriInformationTypes20EntityMatchFormatterO6format8entitiesSSSayAA0dE0VG_tFZ
+- _$s20SiriInformationTypes20EntityMatchFormatterOMa
+- _$s20SiriInformationTypes20EntityMatchFormatterOMn
+- _$s20SiriInformationTypes20EntityMatchFormatterON
+- _$s2IDs12IdentifiablePTl
+- _$s9ValueType10AppIntents07_IntentA0PTl
+- _$sSS10FoundationE17LocalizationValueV19StringInterpolationV06appendE0yySSF
+- _$sSS10FoundationE17LocalizationValueV19StringInterpolationV13appendLiteralyySSF
+- _$sSS10FoundationE17LocalizationValueV19StringInterpolationV15literalCapacity18interpolationCountAESi_SitcfC
+- _$sSS10FoundationE17LocalizationValueV19StringInterpolationVMa
+- _$sSS10lowercasedSSyF
+- _$sSS14_fromSubstringySSSshFZ
+- _$sSS17UnicodeScalarViewV13_foreignIndex5afterSS0E0VAF_tF
+- _$sSS17UnicodeScalarViewV13_foreignIndex6beforeSS0E0VAF_tF
+- _$sSS17UnicodeScalarViewVySsAAVSnySS5IndexVGcig
+- _$sSS18_uncheckedFromUTF8ySSSRys5UInt8VGFZ
+- _$sSS20SiriInformationTypesE21splitByCapitalLettersSSyF
+- _$sSS5index_8offsetBy07limitedC0SS5IndexVSgAE_SiAEtF
+- _$sSSySsSnySS5IndexVGcig
+- _$sSd5write2toyxz_ts16TextOutputStreamRzlF
+- _$ss11_StringGutsV18foreignScalarAlignySS5IndexVAEF
+- _$ss11_StringGutsV27foreignErrorCorrectedScalar10startingAts7UnicodeO0F0V_Si12scalarLengthtSS5IndexV_tF
+- _$ss12IdentifiableMp
+- _$ss12IdentifiableP2IDAB_SHTn
+- _$ss12IdentifiableP2id2IDQzvgTq
+- _$ss13_decodeScalar_10startingAts7UnicodeO0B0V_Si12scalarLengthtSRys5UInt8VG_SitF
+- _OBJC_CLASS_$_CLLocation
+- __swift_FORCE_LOAD_$_swiftIntents
+- _free
+- _malloc
+- _swift_initStackObject
+- _swift_retain_n
+CStrings:
+- ",\n    endIndex: "
+- ",\n    entityName: "
+- ",\n    entityType: "
+- ",\n    matchScore: "
+- ",\n    matchedUserUtterance: "
+- ",\n    originAppBundleId: "
+- ",\n    startIndex: "
+- "All onScreenEntities"
+- "Raw DeviceRestrictions value"
+- "Serialized AFSpeechPackage Data"
+- "The AFUserIdentityClassfication value"
+- "The InputOrigin name"
+- "The latitude of the request"
+- "The longitude of the request"
+- "[EntityMatch] {\n    entityId: "
+- "appAudioBookTitle"
+- "home automation accessory"
+- "homeAutomationAccessoryName"
+- "initWithLatitude:longitude:"
+- "isOnlyUserInHome"
+- "isTextToSpeechEnabled"
+- "isTriggerlessFollowup"
+- "isVoiceTriggerEnabled"
+- "matchedUserUtterance"
+- "originAppBundleId"
+- "responseMode e.g. displayOnly, displayForward, voiceForward, etc."
+- "voiceCommandName"
+
+```
