@@ -1,0 +1,243 @@
+## DocumentUnderstandingClient
+
+> `/System/Library/PrivateFrameworks/DocumentUnderstandingClient.framework/DocumentUnderstandingClient`
+
+```diff
+
+-71.0.0.0.0
+-  __TEXT.__text: 0x76bc
+-  __TEXT.__auth_stubs: 0x810
++73.4.0.0.0
++  __TEXT.__text: 0x7134
++  __TEXT.__auth_stubs: 0x840
+   __TEXT.__objc_methlist: 0x5c8
+-  __TEXT.__const: 0x256
+-  __TEXT.__gcc_except_tab: 0x54
+-  __TEXT.__oslogstring: 0x8ab
+-  __TEXT.__cstring: 0xedd
+-  __TEXT.__swift5_typeref: 0x9b
++  __TEXT.__const: 0x210
++  __TEXT.__cstring: 0xee9
+   __TEXT.__constg_swiftt: 0xc4
+-  __TEXT.__swift5_reflstr: 0xd5
++  __TEXT.__swift5_typeref: 0x9b
+   __TEXT.__swift5_fieldmd: 0xa0
++  __TEXT.__swift5_reflstr: 0xd5
+   __TEXT.__swift5_proto: 0xc
+   __TEXT.__swift5_types: 0xc
+   __TEXT.__swift5_protos: 0x4
+-  __TEXT.__unwind_info: 0x270
++  __TEXT.__gcc_except_tab: 0x54
++  __TEXT.__oslogstring: 0x8ab
++  __TEXT.__unwind_info: 0x260
+   __TEXT.__eh_frame: 0x48
+   __TEXT.__objc_classname: 0x15c
+-  __TEXT.__objc_methname: 0x17a7
+-  __TEXT.__objc_methtype: 0x514
+-  __TEXT.__objc_stubs: 0xaa0
++  __TEXT.__objc_methname: 0x17f9
++  __TEXT.__objc_methtype: 0x541
++  __TEXT.__objc_stubs: 0xac0
+   __DATA_CONST.__got: 0x128
+-  __DATA_CONST.__const: 0x4a0
++  __DATA_CONST.__const: 0x4a8
+   __DATA_CONST.__objc_classlist: 0x68
+   __DATA_CONST.__objc_protolist: 0x30
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x4b0
++  __DATA_CONST.__objc_selrefs: 0x4c0
+   __DATA_CONST.__objc_protorefs: 0x8
+   __DATA_CONST.__objc_superrefs: 0x20
+-  __AUTH_CONST.__auth_got: 0x418
++  __AUTH_CONST.__auth_got: 0x430
+   __AUTH_CONST.__auth_ptr: 0x78
+   __AUTH_CONST.__const: 0x400
+-  __AUTH_CONST.__cfstring: 0x1000
+-  __AUTH_CONST.__objc_const: 0x1790
+-  __AUTH.__objc_data: 0x328
++  __AUTH_CONST.__cfstring: 0x1020
++  __AUTH_CONST.__objc_const: 0x16c8
++  __AUTH.__objc_data: 0x1e8
+   __AUTH.__data: 0x28
+   __DATA.__objc_ivar: 0xa0
+   __DATA.__data: 0x2b8
+-  __DATA.__bss: 0x130
+   __DATA.__common: 0x50
+-  __DATA_DIRTY.__objc_data: 0x1a8
+-  __DATA_DIRTY.__data: 0x30
+-  __DATA_DIRTY.__bss: 0x88
++  __DATA.__bss: 0x108
++  __DATA_DIRTY.__objc_data: 0x2e8
++  __DATA_DIRTY.__data: 0x38
++  __DATA_DIRTY.__common: 0x1
++  __DATA_DIRTY.__bss: 0xb0
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreSpotlight.framework/CoreSpotlight
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+
+   - /usr/lib/swift/libswift_time.dylib
+   - /usr/lib/swift/libswiftsys_time.dylib
+   - /usr/lib/swift/libswiftunistd.dylib
+-  Functions: 247
+-  Symbols:   601
+-  CStrings:  555
++  Functions: 241
++  Symbols:   277
++  CStrings:  560
+ 
+Symbols:
++ _DUExtractionAttributeKeyCardGroupNumber
++ _getpid
++ _swift_getObjCClassFromMetadata
++ _swift_getObjCClassMetadata
+- <redacted>
+- _$s10Foundation3URLV13pathExtensionSSvg
+- _$s10Foundation3URLV36_unconditionallyBridgeFromObjectiveCyACSo5NSURLCSgFZ
+- _$s10Foundation3URLVMa
+- _$s10Foundation4DataV11referencingACSo6NSDataCh_tcfC
+- _$s10Foundation4DataV19_bridgeToObjectiveCSo6NSDataCyF
+- _$s12FeatureFlags02isA7EnabledySbAA0aB3Key_pF
+- _$s12FeatureFlags0aB3KeyMp
+- _$s12FeatureFlags0aB3KeyP6domains12StaticStringVvgTq
+- _$s12FeatureFlags0aB3KeyP7features12StaticStringVvgTq
+- _$s12ProtobufType27DocumentUnderstandingClient27DUProtobufEncodableProtocolPTl
+- _$s21InternalSwiftProtobuf19JSONDecodingOptionsVMa
+- _$s21InternalSwiftProtobuf21BinaryDecodingOptionsVACycfC
+- _$s21InternalSwiftProtobuf21BinaryDecodingOptionsVMa
+- _$s21InternalSwiftProtobuf7MessageMp
+- _$s21InternalSwiftProtobuf7MessagePAAE10jsonString7optionsSSAA19JSONEncodingOptionsV_tKF
+- _$s21InternalSwiftProtobuf7MessagePAAE10jsonString7optionsxSS_AA19JSONDecodingOptionsVtKcfC
+- _$s21InternalSwiftProtobuf7MessagePAAE12jsonUTF8Data7options10Foundation0G0VAA19JSONEncodingOptionsV_tKF
+- _$s21InternalSwiftProtobuf7MessagePAAE12jsonUTF8Data7optionsx10Foundation0G0V_AA19JSONDecodingOptionsVtKcfC
+- _$s21InternalSwiftProtobuf7MessagePAAE14serializedData10extensions7partial7optionsx10Foundation0F0V_AA12ExtensionMap_pSgSbAA21BinaryDecodingOptionsVtKcfC
+- _$s21InternalSwiftProtobuf7MessagePAAE14serializedData7partial10Foundation0F0VSb_tKF
+- _$s22UniformTypeIdentifiers6UTTypeV10identifierSSvg
+- _$s22UniformTypeIdentifiers6UTTypeV3pdfACvgZ
+- _$s22UniformTypeIdentifiers6UTTypeV3rtfACvgZ
+- _$s22UniformTypeIdentifiers6UTTypeV9plainTextACvgZ
+- _$s22UniformTypeIdentifiers6UTTypeVMa
+- _$s22UniformTypeIdentifiers6UTTypeVMn
+- _$s22UniformTypeIdentifiers6UTTypeVyACSgSScfC
+- _$s27DocumentUnderstandingClient0aB12FeatureFlagsO0dE00dE3KeyAAMc
+- _$s27DocumentUnderstandingClient0aB12FeatureFlagsO21__derived_enum_equalsySbAC_ACtFZ
+- _$s27DocumentUnderstandingClient0aB12FeatureFlagsO4hash4intoys6HasherVz_tF
+- _$s27DocumentUnderstandingClient0aB12FeatureFlagsO6domains12StaticStringVvg
+- _$s27DocumentUnderstandingClient0aB12FeatureFlagsO6domains12StaticStringVvpMV
+- _$s27DocumentUnderstandingClient0aB12FeatureFlagsO7features12StaticStringVvg
+- _$s27DocumentUnderstandingClient0aB12FeatureFlagsO7features12StaticStringVvpMV
+- _$s27DocumentUnderstandingClient0aB12FeatureFlagsO9hashValueSivg
+- _$s27DocumentUnderstandingClient0aB12FeatureFlagsO9hashValueSivpMV
+- _$s27DocumentUnderstandingClient0aB12FeatureFlagsOMa
+- _$s27DocumentUnderstandingClient0aB12FeatureFlagsOMn
+- _$s27DocumentUnderstandingClient0aB12FeatureFlagsON
+- _$s27DocumentUnderstandingClient0aB12FeatureFlagsOSHAAMc
+- _$s27DocumentUnderstandingClient0aB12FeatureFlagsOSQAAMc
+- _$s27DocumentUnderstandingClient0aB17FeatureFlagReaderC023isSearchAndOrganizationA13IngestEnabledSbvau
+- _$s27DocumentUnderstandingClient0aB17FeatureFlagReaderC023isSearchAndOrganizationA13IngestEnabledSbvgZ
+- _$s27DocumentUnderstandingClient0aB17FeatureFlagReaderC023isSearchAndOrganizationA13IngestEnabledSbvpZ
+- _$s27DocumentUnderstandingClient0aB17FeatureFlagReaderC22isBackboneModelEnabledSbvau
+- _$s27DocumentUnderstandingClient0aB17FeatureFlagReaderC22isBackboneModelEnabledSbvgZ
+- _$s27DocumentUnderstandingClient0aB17FeatureFlagReaderC22isBackboneModelEnabledSbvpZ
+- _$s27DocumentUnderstandingClient0aB17FeatureFlagReaderC22isFoundInModelsEnabledSbvau
+- _$s27DocumentUnderstandingClient0aB17FeatureFlagReaderC22isFoundInModelsEnabledSbvgZ
+- _$s27DocumentUnderstandingClient0aB17FeatureFlagReaderC22isFoundInModelsEnabledSbvpZ
+- _$s27DocumentUnderstandingClient0aB17FeatureFlagReaderC22isFoundInUseLLMEnabledSbvau
+- _$s27DocumentUnderstandingClient0aB17FeatureFlagReaderC22isFoundInUseLLMEnabledSbvgZ
+- _$s27DocumentUnderstandingClient0aB17FeatureFlagReaderC22isFoundInUseLLMEnabledSbvpZ
+- _$s27DocumentUnderstandingClient0aB17FeatureFlagReaderC30isIndexNonfileDocumentsEnabledSbvau
+- _$s27DocumentUnderstandingClient0aB17FeatureFlagReaderC30isIndexNonfileDocumentsEnabledSbvgZ
+- _$s27DocumentUnderstandingClient0aB17FeatureFlagReaderC30isIndexNonfileDocumentsEnabledSbvpZ
+- _$s27DocumentUnderstandingClient0aB17FeatureFlagReaderC31isAutonamingFromMessagesEnabledSbvau
+- _$s27DocumentUnderstandingClient0aB17FeatureFlagReaderC31isAutonamingFromMessagesEnabledSbvgZ
+- _$s27DocumentUnderstandingClient0aB17FeatureFlagReaderC31isAutonamingFromMessagesEnabledSbvpZ
+- _$s27DocumentUnderstandingClient0aB17FeatureFlagReaderC33isTopicClassificationModelEnabledSbvau
+- _$s27DocumentUnderstandingClient0aB17FeatureFlagReaderC33isTopicClassificationModelEnabledSbvgZ
+- _$s27DocumentUnderstandingClient0aB17FeatureFlagReaderC33isTopicClassificationModelEnabledSbvpZ
+- _$s27DocumentUnderstandingClient0aB17FeatureFlagReaderC36isCategoryClassificationModelEnabledSbvau
+- _$s27DocumentUnderstandingClient0aB17FeatureFlagReaderC36isCategoryClassificationModelEnabledSbvgZ
+- _$s27DocumentUnderstandingClient0aB17FeatureFlagReaderC36isCategoryClassificationModelEnabledSbvpZ
+- _$s27DocumentUnderstandingClient0aB17FeatureFlagReaderCACycfC
+- _$s27DocumentUnderstandingClient0aB17FeatureFlagReaderCACycfc
+- _$s27DocumentUnderstandingClient0aB17FeatureFlagReaderCMa
+- _$s27DocumentUnderstandingClient0aB17FeatureFlagReaderCMn
+- _$s27DocumentUnderstandingClient0aB17FeatureFlagReaderCN
+- _$s27DocumentUnderstandingClient0aB17FeatureFlagReaderCfD
+- _$s27DocumentUnderstandingClient21DUIngestableFiletypesC16supportedUTTypesSaySSGvau
+- _$s27DocumentUnderstandingClient21DUIngestableFiletypesC16supportedUTTypesSaySSGvgZ
+- _$s27DocumentUnderstandingClient21DUIngestableFiletypesC16supportedUTTypesSaySSGvpZ
+- _$s27DocumentUnderstandingClient21DUIngestableFiletypesC17emlFileExtensionsSaySSGvau
+- _$s27DocumentUnderstandingClient21DUIngestableFiletypesC17emlFileExtensionsSaySSGvgZ
+- _$s27DocumentUnderstandingClient21DUIngestableFiletypesC17emlFileExtensionsSaySSGvpZ
+- _$s27DocumentUnderstandingClient21DUIngestableFiletypesC17pdfFileExtensionsSaySSGvau
+- _$s27DocumentUnderstandingClient21DUIngestableFiletypesC17pdfFileExtensionsSaySSGvgZ
+- _$s27DocumentUnderstandingClient21DUIngestableFiletypesC17pdfFileExtensionsSaySSGvpZ
+- _$s27DocumentUnderstandingClient21DUIngestableFiletypesC17txtFileExtensionsSaySSGvau
+- _$s27DocumentUnderstandingClient21DUIngestableFiletypesC17txtFileExtensionsSaySSGvgZ
+- _$s27DocumentUnderstandingClient21DUIngestableFiletypesC17txtFileExtensionsSaySSGvpZ
+- _$s27DocumentUnderstandingClient21DUIngestableFiletypesC18isFileURLSupportedySb10Foundation3URLVFZ
+- _$s27DocumentUnderstandingClient21DUIngestableFiletypesC18jsonFileExtensionsSaySSGvau
+- _$s27DocumentUnderstandingClient21DUIngestableFiletypesC18jsonFileExtensionsSaySSGvgZ
+- _$s27DocumentUnderstandingClient21DUIngestableFiletypesC18jsonFileExtensionsSaySSGvpZ
+- _$s27DocumentUnderstandingClient21DUIngestableFiletypesC19iWorkFileExtensionsSaySSGvau
+- _$s27DocumentUnderstandingClient21DUIngestableFiletypesC19iWorkFileExtensionsSaySSGvgZ
+- _$s27DocumentUnderstandingClient21DUIngestableFiletypesC19iWorkFileExtensionsSaySSGvpZ
+- _$s27DocumentUnderstandingClient21DUIngestableFiletypesC19icloudFileExtensionSSvau
+- _$s27DocumentUnderstandingClient21DUIngestableFiletypesC19icloudFileExtensionSSvgZ
+- _$s27DocumentUnderstandingClient21DUIngestableFiletypesC19icloudFileExtensionSSvpZ
+- _$s27DocumentUnderstandingClient21DUIngestableFiletypesC20officeFileExtensionsSaySSGvau
+- _$s27DocumentUnderstandingClient21DUIngestableFiletypesC20officeFileExtensionsSaySSGvgZ
+- _$s27DocumentUnderstandingClient21DUIngestableFiletypesC20officeFileExtensionsSaySSGvpZ
+- _$s27DocumentUnderstandingClient21DUIngestableFiletypesC23supportedFileExtensionsSaySSGvau
+- _$s27DocumentUnderstandingClient21DUIngestableFiletypesC23supportedFileExtensionsSaySSGvgZ
+- _$s27DocumentUnderstandingClient21DUIngestableFiletypesC23supportedFileExtensionsSaySSGvpZ
+- _$s27DocumentUnderstandingClient21DUIngestableFiletypesC23wrappedSupportedUTTypesSay22UniformTypeIdentifiers6UTTypeVGvau
+- _$s27DocumentUnderstandingClient21DUIngestableFiletypesC23wrappedSupportedUTTypesSay22UniformTypeIdentifiers6UTTypeVGvgZ
+- _$s27DocumentUnderstandingClient21DUIngestableFiletypesC23wrappedSupportedUTTypesSay22UniformTypeIdentifiers6UTTypeVGvpZ
+- _$s27DocumentUnderstandingClient21DUIngestableFiletypesCACycfC
+- _$s27DocumentUnderstandingClient21DUIngestableFiletypesCACycfc
+- _$s27DocumentUnderstandingClient21DUIngestableFiletypesCMa
+- _$s27DocumentUnderstandingClient21DUIngestableFiletypesCMn
+- _$s27DocumentUnderstandingClient21DUIngestableFiletypesCN
+- _$s27DocumentUnderstandingClient21DUIngestableFiletypesCfD
+- _$s27DocumentUnderstandingClient27DUProtobufEncodableProtocolMp
+- _$s27DocumentUnderstandingClient27DUProtobufEncodableProtocolP12ProtobufTypeAC_013InternalSwiftG07MessageTn
+- _$s27DocumentUnderstandingClient27DUProtobufEncodableProtocolPAAE10jsonString7optionsSSSg21InternalSwiftProtobuf19JSONEncodingOptionsV_tF
+- _$s27DocumentUnderstandingClient27DUProtobufEncodableProtocolPAAE10jsonString7optionsxSgSS_21InternalSwiftProtobuf19JSONDecodingOptionsVtcfC
+- _$s27DocumentUnderstandingClient27DUProtobufEncodableProtocolPAAE12jsonUTF8Data7options10Foundation0I0VSg21InternalSwiftProtobuf19JSONEncodingOptionsV_tKF
+- _$s27DocumentUnderstandingClient27DUProtobufEncodableProtocolPAAE12jsonUTF8Data7optionsxSg10Foundation0I0V_21InternalSwiftProtobuf19JSONDecodingOptionsVtcfC
+- _$s27DocumentUnderstandingClient27DUProtobufEncodableProtocolPAAE14serializedDataSo6NSDataCSgyF
+- _$s27DocumentUnderstandingClient27DUProtobufEncodableProtocolPAAE14serializedDataxSgSo6NSDataC_tcfC
+- _$s27DocumentUnderstandingClient27DUProtobufEncodableProtocolTL
+- _$sBOWV
+- _$sSH13_rawHashValue4seedS2i_tFTq
+- _$sSH4hash4intoys6HasherVz_tFTq
+- _$sSH9hashValueSivgTq
+- _$sSHMp
+- _$sSHSQTb
+- _$sSQ2eeoiySbx_xtFZTq
+- _$sSQMp
+- _$sSS10FoundationE19_bridgeToObjectiveCSo8NSStringCyF
+- _$sSS10lowercasedSSyF
+- _$sSSN
+- _$sSa10FoundationE19_bridgeToObjectiveCSo7NSArrayCyF
+- _$sSqMa
+- _$ss20__StaticArrayStorageCN
+- _$ss23_ContiguousArrayStorageCMn
+- _$ss27_stringCompareWithSmolCheck__9expectingSbs11_StringGutsV_ADs01_G16ComparisonResultOtF
+- _$ss6HasherV5_seedABSi_tcfC
+- _$ss6HasherV8_combineyySuF
+- _$ss6HasherV9_finalizeSiyF
+CStrings:
++ "CardGroupNumber"
++ "requestExtractionOfPersonalIDFromDocument:pid:completion:"
++ "setCardGroupNumber:"
++ "synchronousEventExtractionWithSerializedDocument:documentType:pid:completion:"
++ "v36@0:8@\"DUPersonalIDDocument\"16i24@?<v@?@\"DUPersonalIDResult\"@\"NSError\">28"
++ "v36@0:8@16i24@?28"
++ "v44@0:8@\"NSData\"16q24i32@?<v@?@\"NSArray\"@\"NSError\">36"
++ "v44@0:8@16q24i32@?36"
+- "synchronousEventExtractionWithSerializedDocument:documentType:completion:"
+- "v32@0:8@\"DUPersonalIDDocument\"16@?<v@?@\"DUPersonalIDResult\"@\"NSError\">24"
+- "v40@0:8@\"NSData\"16q24@?<v@?@\"NSArray\"@\"NSError\">32"
+
+```

@@ -1,0 +1,128 @@
+## GeoFlowDelegatePlugin
+
+> `/System/Library/Assistant/FlowDelegatePlugins/GeoFlowDelegatePlugin.bundle/GeoFlowDelegatePlugin`
+
+```diff
+
+-3402.4.1.0.0
+-  __TEXT.__text: 0xb7534
+-  __TEXT.__auth_stubs: 0x32c0
++3402.9.1.0.0
++  __TEXT.__text: 0xb8cf0
++  __TEXT.__auth_stubs: 0x3310
+   __TEXT.__objc_methlist: 0x94
+   __TEXT.__const: 0x6818
+-  __TEXT.__cstring: 0x48bf
++  __TEXT.__cstring: 0x48ef
+   __TEXT.__swift5_typeref: 0x2176
+   __TEXT.__swift5_capture: 0x6b4
+   __TEXT.__objc_methname: 0x968
+   __TEXT.__swift5_fieldmd: 0x2104
+-  __TEXT.__constg_swiftt: 0x29a0
++  __TEXT.__constg_swiftt: 0x29a8
+   __TEXT.__swift5_reflstr: 0x1c60
+   __TEXT.__swift5_builtin: 0x12c
+   __TEXT.__swift5_mpenum: 0x50
+
+   __TEXT.__swift5_types: 0x254
+   __TEXT.__objc_classname: 0x89
+   __TEXT.__objc_methtype: 0x1a8
+-  __TEXT.__oslogstring: 0x2729
+-  __TEXT.__unwind_info: 0x2ba0
+-  __TEXT.__eh_frame: 0x53c0
+-  __DATA_CONST.__auth_got: 0x1960
+-  __DATA_CONST.__got: 0x8c8
++  __TEXT.__oslogstring: 0x27e9
++  __TEXT.__unwind_info: 0x2bc0
++  __TEXT.__eh_frame: 0x5480
++  __DATA_CONST.__auth_got: 0x1988
++  __DATA_CONST.__got: 0x8c0
+   __DATA_CONST.__auth_ptr: 0xd50
+-  __DATA_CONST.__const: 0x4c90
++  __DATA_CONST.__const: 0x4ca8
+   __DATA_CONST.__objc_classlist: 0x168
+   __DATA_CONST.__objc_protolist: 0xa8
+   __DATA_CONST.__objc_imageinfo: 0x8
+
+   - /usr/lib/swift/libswiftsimd.dylib
+   - /usr/lib/swift/libswiftsys_time.dylib
+   - /usr/lib/swift/libswiftunistd.dylib
+-  Functions: 3513
+-  Symbols:   26992
+-  CStrings:  862
++  Functions: 3521
++  Symbols:   27036
++  CStrings:  866
+ 
+Symbols:
++ _$s12SiriOntology24UsoEntity_common_JourneyC13dateTimeRangeAA0cd1_e5_DatehI0CSgvgTj
++ _$s12SiriOntology30UsoEntity_common_DateTimeRangeC3endAA0cd1_e1_fG0CSgvgTj
++ _$s12SiriOntology30UsoTask_request_common_JourneyCMa
++ _$s12SiriOntology32Uso_VerbTemplate_ReferenceSelectC6selectxSgvgTj
++ _$s12SiriOntology32Uso_VerbTemplate_ReferenceSelectC9referencexSgvgTj
++ _$s12SiriOntology7UsoTaskC21GeoFlowDelegatePluginE13answerETATask33_C56038D3368DA307960D0311431A69DFLLSbyF
++ _$s21GeoFlowDelegatePlugin013LocationFetchB0C07unknownE6Output33_2A54A9E23C9BD14A86D74E5770562B85LL07SiriKitB015ExecuteResponseVyYaF
++ _$s21GeoFlowDelegatePlugin013LocationFetchB0C07unknownE6Output33_2A54A9E23C9BD14A86D74E5770562B85LL07SiriKitB015ExecuteResponseVyYaFAF0H0_pyYaYbcfU_
++ _$s21GeoFlowDelegatePlugin013LocationFetchB0C07unknownE6Output33_2A54A9E23C9BD14A86D74E5770562B85LL07SiriKitB015ExecuteResponseVyYaFAF0H0_pyYaYbcfU_TA
++ _$s21GeoFlowDelegatePlugin013LocationFetchB0C07unknownE6Output33_2A54A9E23C9BD14A86D74E5770562B85LL07SiriKitB015ExecuteResponseVyYaFAF0H0_pyYaYbcfU_TATQ0_
++ _$s21GeoFlowDelegatePlugin013LocationFetchB0C07unknownE6Output33_2A54A9E23C9BD14A86D74E5770562B85LL07SiriKitB015ExecuteResponseVyYaFAF0H0_pyYaYbcfU_TATu
++ _$s21GeoFlowDelegatePlugin013LocationFetchB0C07unknownE6Output33_2A54A9E23C9BD14A86D74E5770562B85LL07SiriKitB015ExecuteResponseVyYaFAF0H0_pyYaYbcfU_TY0_
++ _$s21GeoFlowDelegatePlugin013LocationFetchB0C07unknownE6Output33_2A54A9E23C9BD14A86D74E5770562B85LL07SiriKitB015ExecuteResponseVyYaFAF0H0_pyYaYbcfU_Tu
++ _$s21GeoFlowDelegatePlugin013LocationFetchB0C07unknownE6Output33_2A54A9E23C9BD14A86D74E5770562B85LL07SiriKitB015ExecuteResponseVyYaFTQ1_
++ _$s21GeoFlowDelegatePlugin013LocationFetchB0C07unknownE6Output33_2A54A9E23C9BD14A86D74E5770562B85LL07SiriKitB015ExecuteResponseVyYaFTY0_
++ _$s21GeoFlowDelegatePlugin013LocationFetchB0C07unknownE6Output33_2A54A9E23C9BD14A86D74E5770562B85LL07SiriKitB015ExecuteResponseVyYaFTY2_
++ _$s21GeoFlowDelegatePlugin013LocationFetchB0C07unknownE6Output33_2A54A9E23C9BD14A86D74E5770562B85LL07SiriKitB015ExecuteResponseVyYaFTY3_
++ _$s21GeoFlowDelegatePlugin013LocationFetchB0C07unknownE6Output33_2A54A9E23C9BD14A86D74E5770562B85LL07SiriKitB015ExecuteResponseVyYaFTu
++ _$s21GeoFlowDelegatePlugin013LocationFetchB0C7execute07SiriKitB015ExecuteResponseVyYaFTQ13_
++ _$s21GeoFlowDelegatePlugin013LocationFetchB0C7execute07SiriKitB015ExecuteResponseVyYaFTQ15_
++ _$s21GeoFlowDelegatePlugin013LocationFetchB0C7execute07SiriKitB015ExecuteResponseVyYaFTQ18_
++ _$s21GeoFlowDelegatePlugin013LocationFetchB0C7execute07SiriKitB015ExecuteResponseVyYaFTQ20_
++ _$s21GeoFlowDelegatePlugin013LocationFetchB0C7execute07SiriKitB015ExecuteResponseVyYaFTQ22_
++ _$s21GeoFlowDelegatePlugin013LocationFetchB0C7execute07SiriKitB015ExecuteResponseVyYaFTQ24_
++ _$s21GeoFlowDelegatePlugin013LocationFetchB0C7execute07SiriKitB015ExecuteResponseVyYaFTY14_
++ _$s21GeoFlowDelegatePlugin013LocationFetchB0C7execute07SiriKitB015ExecuteResponseVyYaFTY16_
++ _$s21GeoFlowDelegatePlugin013LocationFetchB0C7execute07SiriKitB015ExecuteResponseVyYaFTY25_
++ _$s21GeoFlowDelegatePlugin013LocationFetchB0C7execute07SiriKitB015ExecuteResponseVyYaFTY26_
++ _$s21GeoFlowDelegatePlugin013LocationFetchB0C7execute07SiriKitB015ExecuteResponseVyYaFTY27_
++ _$s21GeoFlowDelegatePlugin013LocationFetchB0C7execute07SiriKitB015ExecuteResponseVyYaFTY28_
++ _$s21GeoFlowDelegatePlugin013LocationFetchB0C7execute07SiriKitB015ExecuteResponseVyYaFTY29_
++ _$s21GeoFlowDelegatePlugin013LocationFetchB0C7execute07SiriKitB015ExecuteResponseVyYaFTY30_
++ _$s21GeoFlowDelegatePlugin013LocationFetchB0C7execute07SiriKitB015ExecuteResponseVyYaFTY31_
++ _$s21GeoFlowDelegatePlugin013LocationFetchB0C7execute07SiriKitB015ExecuteResponseVyYaFTY32_
++ _$s21GeoFlowDelegatePlugin013LocationFetchB0C7execute07SiriKitB015ExecuteResponseVyYaFTY33_
++ block_descriptor.3
+- _$s12SiriNLUTypes0A27_Nlu_External_UserDialogActVSgWOh
+- _$s21GeoFlowDelegatePlugin013LocationFetchB0C7execute07SiriKitB015ExecuteResponseVyYaFAE6Output_pyYaYbKcfU1_
+- _$s21GeoFlowDelegatePlugin013LocationFetchB0C7execute07SiriKitB015ExecuteResponseVyYaFAE6Output_pyYaYbKcfU1_TA
+- _$s21GeoFlowDelegatePlugin013LocationFetchB0C7execute07SiriKitB015ExecuteResponseVyYaFAE6Output_pyYaYbKcfU1_TATQ0_
+- _$s21GeoFlowDelegatePlugin013LocationFetchB0C7execute07SiriKitB015ExecuteResponseVyYaFAE6Output_pyYaYbKcfU1_TATu
+- _$s21GeoFlowDelegatePlugin013LocationFetchB0C7execute07SiriKitB015ExecuteResponseVyYaFAE6Output_pyYaYbKcfU1_TQ1_
+- _$s21GeoFlowDelegatePlugin013LocationFetchB0C7execute07SiriKitB015ExecuteResponseVyYaFAE6Output_pyYaYbKcfU1_TY0_
+- _$s21GeoFlowDelegatePlugin013LocationFetchB0C7execute07SiriKitB015ExecuteResponseVyYaFAE6Output_pyYaYbKcfU1_TY2_
+- _$s21GeoFlowDelegatePlugin013LocationFetchB0C7execute07SiriKitB015ExecuteResponseVyYaFAE6Output_pyYaYbKcfU1_TY3_
+- _$s21GeoFlowDelegatePlugin013LocationFetchB0C7execute07SiriKitB015ExecuteResponseVyYaFAE6Output_pyYaYbKcfU1_Tu
+- _$s21GeoFlowDelegatePlugin013LocationFetchB0C7execute07SiriKitB015ExecuteResponseVyYaFAE6Output_pyYaYbcfU0_
+- _$s21GeoFlowDelegatePlugin013LocationFetchB0C7execute07SiriKitB015ExecuteResponseVyYaFAE6Output_pyYaYbcfU0_TA
+- _$s21GeoFlowDelegatePlugin013LocationFetchB0C7execute07SiriKitB015ExecuteResponseVyYaFAE6Output_pyYaYbcfU0_TATQ0_
+- _$s21GeoFlowDelegatePlugin013LocationFetchB0C7execute07SiriKitB015ExecuteResponseVyYaFAE6Output_pyYaYbcfU0_TATu
+- _$s21GeoFlowDelegatePlugin013LocationFetchB0C7execute07SiriKitB015ExecuteResponseVyYaFAE6Output_pyYaYbcfU0_TY0_
+- _$s21GeoFlowDelegatePlugin013LocationFetchB0C7execute07SiriKitB015ExecuteResponseVyYaFAE6Output_pyYaYbcfU0_Tu
+- _$s21GeoFlowDelegatePlugin013LocationFetchB0C7execute07SiriKitB015ExecuteResponseVyYaFTQ14_
+- _$s21GeoFlowDelegatePlugin013LocationFetchB0C7execute07SiriKitB015ExecuteResponseVyYaFTQ16_
+- _$s21GeoFlowDelegatePlugin013LocationFetchB0C7execute07SiriKitB015ExecuteResponseVyYaFTY13_
+- _$s21GeoFlowDelegatePlugin013LocationFetchB0C7execute07SiriKitB015ExecuteResponseVyYaFTY15_
+- _$s21GeoFlowDelegatePlugin013LocationFetchB0C7execute07SiriKitB015ExecuteResponseVyYaFTY18_
+- _$s21GeoFlowDelegatePlugin013LocationFetchB0C7execute07SiriKitB015ExecuteResponseVyYaFTY20_
+- _$s21GeoFlowDelegatePlugin013LocationFetchB0C7execute07SiriKitB015ExecuteResponseVyYaFTY22_
+- _$s21GeoFlowDelegatePlugin013LocationFetchB0C7execute07SiriKitB015ExecuteResponseVyYaFTY24_
+- _kCLLocationAccuracyReduced
+- objectdestroy.4Tm
+CStrings:
++ "Acurate location information not available"
++ "horizontal accuracy is too high, we cannot reliably use this location value: %!f(MISSING) > %!f(MISSING)"
++ "location accuracy level is inaccessible"
++ "precise location is not enabled"
++ "unknown location accuracy level, support for it has not been implemented"
+- "horizontal accuracy is greater than required access: %!f(MISSING) > %!f(MISSING)"
+
+```

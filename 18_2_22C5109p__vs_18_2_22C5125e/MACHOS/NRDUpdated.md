@@ -1,0 +1,141 @@
+## NRDUpdated
+
+> `/usr/libexec/NRDUpdated`
+
+```diff
+
+-2082.60.51.0.0
++2082.60.63.0.0
+   __TEXT.__text: 0xba48
+   __TEXT.__auth_stubs: 0x660
+   __TEXT.__objc_stubs: 0x1b00
+   __TEXT.__objc_methlist: 0x798
+-  __TEXT.__const: 0x88
++  __TEXT.__const: 0x90
+   __TEXT.__cstring: 0x10a9
+   __TEXT.__gcc_except_tab: 0x1a4
+   __TEXT.__objc_methname: 0x1a46
+   __TEXT.__objc_classname: 0x20f
+   __TEXT.__objc_methtype: 0x833
+-  __TEXT.__oslogstring: 0x1522
++  __TEXT.__oslogstring: 0x1792
+   __TEXT.__unwind_info: 0x338
+   __DATA_CONST.__auth_got: 0x340
+   __DATA_CONST.__got: 0x158
+CStrings:
++ "%!{(MISSING)public}@ is invalid NSQualityOfService, falling to default"
++ "%!{(MISSING)public}s - connection error: %!{(MISSING)public}@"
++ "03:39:02"
++ "Activity %!{(MISSING)public}@ \"%!{(MISSING)public}@\" check-in complete."
++ "Activity %!{(MISSING)public}@ \"%!{(MISSING)public}@\" check-in."
++ "Activity %!{(MISSING)public}@ \"%!{(MISSING)public}@\" completed."
++ "Activity %!{(MISSING)public}@ \"%!{(MISSING)public}@\" created."
++ "Activity %!{(MISSING)public}@ \"%!{(MISSING)public}@\" fired."
++ "Activity %!{(MISSING)public}@ \"%!{(MISSING)public}@\" new interval: %!l(MISSING)f"
++ "Activity %!{(MISSING)public}@ \"%!{(MISSING)public}@\" result: %!{(MISSING)public}@"
++ "Activity %!{(MISSING)public}@ \"%!{(MISSING)public}@\" was preregistered with interval: %!l(MISSING)f"
++ "Activity %!{(MISSING)public}@ fired"
++ "Activity %!{(MISSING)public}@ is deferred"
++ "Activity %!{(MISSING)public}@ will be deferred because daemon needs to exit."
++ "Brain path specified by a default:%!{(MISSING)public}@, skipping scan"
++ "Brain path specified by options:%!{(MISSING)public}@, skipping scan"
++ "Client process does not have the '%!{(MISSING)public}@' entitlement"
++ "Daemon exit requested for reason: %!{(MISSING)public}@"
++ "Defaults specified brain path is %!{(MISSING)public}@"
++ "Device lock status changed: passcodeLocked = %!{(MISSING)public}@"
++ "Download is currently stalled : %!{(MISSING)public}@"
++ "Download progress is : %!{(MISSING)public}@"
++ "Downloaded brain path is %!{(MISSING)public}@"
++ "Entitlement '%!{(MISSING)public}@' is not a boolean"
++ "Existing local brain path is %!{(MISSING)public}@"
++ "Exiting with status:%!d(MISSING) for reason:%!{(MISSING)public}@"
++ "Found %!{(MISSING)public}@ in defaults"
++ "Found %!{(MISSING)public}@=%!{(MISSING)public}@ in preferences"
++ "Found brain asset:%!{(MISSING)public}@ on disk but forced to scan again"
++ "Found brain asset:%!{(MISSING)public}@ on disk, skipping scan"
++ "Found local brain asset:%!{(MISSING)public}@"
++ "Got newBrain notification, brainVersion:%!{(MISSING)public}@"
++ "In unknown state!..action: %!{(MISSING)public}@ error:%!{(MISSING)public}@"
++ "Invalidating Activity %!{(MISSING)public}@ \"%!{(MISSING)public}@\""
++ "Loading NeRD update brain bundle at %!{(MISSING)public}@"
++ "Oct 27 2024"
++ "Option specified brain path is %!{(MISSING)public}@"
++ "PerformAction: Action:%!{(MISSING)public}@ Event:%!{(MISSING)public}@ inState:%!{(MISSING)public}@ nextState:%!{(MISSING)public}@"
++ "Periodic Scan found brain version:%!{(MISSING)public}@, existing version:%!{(MISSING)public}@"
++ "Periodic Scan returned with success\n primaryUpdateAsset: %!{(MISSING)public}@\n secondaryUpdateAsset: %!{(MISSING)public}@\n"
++ "Periodic ScanPolicy: %!{(MISSING)public}@"
++ "Periodic scan returned with error: %!{(MISSING)public}@"
++ "Pinging NeRD update brain failed with error:%!{(MISSING)public}@"
++ "Removing all update brain assets failed with error: %!{(MISSING)public}@"
++ "Scan returned with error: %!{(MISSING)public}@"
++ "Scan returned with success\n primaryUpdateAsset: %!{(MISSING)public}@\n secondaryUpdateAsset: %!{(MISSING)public}@\n"
++ "ScanPolicy: %!{(MISSING)public}@"
++ "Scheduling Activity %!{(MISSING)public}@ = {\n\tidentifier = %!{(MISSING)public}@\n\tpreregistered = %!{(MISSING)public}s\n\tqualityOfService = %!l(MISSING)d\n\trepeats = %!{(MISSING)public}s\n\tinterval = %!f(MISSING)\n\tdelay = %!f(MISSING)\n\ttolerance = %!f(MISSING)\n}"
++ "Starting NRDUpdated built %!{(MISSING)public}s %!{(MISSING)public}s"
++ "Update brain asset download failed with error:%!{(MISSING)public}@"
++ "Value for entitlement %!{(MISSING)public}@ is false"
++ "brain run completed with error:%!{(MISSING)public}@"
++ "brain run idle completed with error:%!{(MISSING)public}@"
++ "connection error: %!{(MISSING)public}@"
++ "connection to %!{(MISSING)public}@ interrupted"
++ "connection to %!{(MISSING)public}@ invalidated"
++ "update completed with error:%!{(MISSING)public}@"
+- "%!@(MISSING) is invalid NSQualityOfService, falling to default"
+- "%!s(MISSING) - connection error: %!@(MISSING)"
+- "14:59:07"
+- "Activity %!@(MISSING) \"%!@(MISSING)\" check-in complete."
+- "Activity %!@(MISSING) \"%!@(MISSING)\" check-in."
+- "Activity %!@(MISSING) \"%!@(MISSING)\" completed."
+- "Activity %!@(MISSING) \"%!@(MISSING)\" created."
+- "Activity %!@(MISSING) \"%!@(MISSING)\" fired."
+- "Activity %!@(MISSING) \"%!@(MISSING)\" new interval: %!l(MISSING)f"
+- "Activity %!@(MISSING) \"%!@(MISSING)\" result: %!@(MISSING)"
+- "Activity %!@(MISSING) \"%!@(MISSING)\" was preregistered with interval: %!l(MISSING)f"
+- "Activity %!@(MISSING) fired"
+- "Activity %!@(MISSING) is deferred"
+- "Activity %!@(MISSING) will be deferred because daemon needs to exit."
+- "Brain path specified by a default:%!@(MISSING), skipping scan"
+- "Brain path specified by options:%!@(MISSING), skipping scan"
+- "Client process does not have the '%!@(MISSING)' entitlement"
+- "Daemon exit requested for reason: %!@(MISSING)"
+- "Defaults specified brain path is %!@(MISSING)"
+- "Device lock status changed: passcodeLocked = %!@(MISSING)"
+- "Download is currently stalled : %!@(MISSING)"
+- "Download progress is : %!@(MISSING)"
+- "Downloaded brain path is %!@(MISSING)"
+- "Entitlement '%!@(MISSING)' is not a boolean"
+- "Existing local brain path is %!@(MISSING)"
+- "Exiting with status:%!d(MISSING) for reason:%!@(MISSING)"
+- "Found %!@(MISSING) in defaults"
+- "Found %!@(MISSING)=%!@(MISSING) in preferences"
+- "Found brain asset:%!@(MISSING) on disk but forced to scan again"
+- "Found brain asset:%!@(MISSING) on disk, skipping scan"
+- "Found local brain asset:%!@(MISSING)"
+- "Got newBrain notification, brainVersion:%!@(MISSING)"
+- "In unknown state!..action: %!@(MISSING) error:%!@(MISSING)"
+- "Invalidating Activity %!@(MISSING) \"%!@(MISSING)\""
+- "Loading NeRD update brain bundle at %!@(MISSING)"
+- "Oct 16 2024"
+- "Option specified brain path is %!@(MISSING)"
+- "PerformAction: Action:%!@(MISSING) Event:%!@(MISSING) inState:%!@(MISSING) nextState:%!@(MISSING)"
+- "Periodic Scan found brain version:%!@(MISSING), existing version:%!@(MISSING)"
+- "Periodic Scan returned with success\n primaryUpdateAsset: %!@(MISSING)\n secondaryUpdateAsset: %!@(MISSING)\n"
+- "Periodic ScanPolicy: %!@(MISSING)"
+- "Periodic scan returned with error: %!@(MISSING)"
+- "Pinging NeRD update brain failed with error:%!@(MISSING)"
+- "Removing all update brain assets failed with error: %!@(MISSING)"
+- "Scan returned with error: %!@(MISSING)"
+- "Scan returned with success\n primaryUpdateAsset: %!@(MISSING)\n secondaryUpdateAsset: %!@(MISSING)\n"
+- "ScanPolicy: %!@(MISSING)"
+- "Scheduling Activity %!@(MISSING) = {\n\tidentifier = %!@(MISSING)\n\tpreregistered = %!s(MISSING)\n\tqualityOfService = %!l(MISSING)d\n\trepeats = %!s(MISSING)\n\tinterval = %!f(MISSING)\n\tdelay = %!f(MISSING)\n\ttolerance = %!f(MISSING)\n}"
+- "Starting NRDUpdated built %!s(MISSING) %!s(MISSING)"
+- "Update brain asset download failed with error:%!@(MISSING)"
+- "Value for entitlement %!@(MISSING) is false"
+- "brain run completed with error:%!@(MISSING)"
+- "brain run idle completed with error:%!@(MISSING)"
+- "connection error: %!@(MISSING)"
+- "connection to %!@(MISSING) interrupted"
+- "connection to %!@(MISSING) invalidated"
+- "update completed with error:%!@(MISSING)"
+
+```

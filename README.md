@@ -47,6 +47,7 @@
 ### iOS 18.2 beta
 
 - [18.1 RC (22B82) .vs 18.2 beta 1 (22C5109p)](18_1_22B82__vs_18_2_22C5109p/README.md)
+- [18.2 beta 1 (22C5109p) .vs 18.2 beta 2 (22C5125e)](18_2_22C5109p__vs_18_2_22C5125e/README.md)
 
 #### A17 vs. A18
 

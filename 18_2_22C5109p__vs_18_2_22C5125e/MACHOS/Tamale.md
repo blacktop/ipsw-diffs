@@ -1,0 +1,1462 @@
+## Tamale
+
+> `/Applications/Tamale.app/Tamale`
+
+```diff
+
+-14.8.0.0.0
+-  __TEXT.__text: 0x399374
+-  __TEXT.__auth_stubs: 0x6670
+-  __TEXT.__objc_stubs: 0x380
++19.2.0.0.0
++  __TEXT.__text: 0x3f8af4
++  __TEXT.__auth_stubs: 0x72e0
++  __TEXT.__objc_stubs: 0x3a0
+   __TEXT.__objc_methlist: 0x6d4
+-  __TEXT.__cstring: 0x76f5
+-  __TEXT.__objc_methname: 0x9ec1
+-  __TEXT.__objc_classname: 0x44e
+-  __TEXT.__objc_methtype: 0x322b
+-  __TEXT.__const: 0x196b4
++  __TEXT.__cstring: 0x90c5
++  __TEXT.__objc_methname: 0xa14d
++  __TEXT.__objc_classname: 0x403
++  __TEXT.__objc_methtype: 0x3305
++  __TEXT.__const: 0x1d1b4
+   __TEXT.__swift5_entry: 0x8
+-  __TEXT.__constg_swiftt: 0x88c0
+-  __TEXT.__swift5_typeref: 0x381f2
+-  __TEXT.__swift5_builtin: 0x35c
+-  __TEXT.__swift5_reflstr: 0x5a67
+-  __TEXT.__swift5_fieldmd: 0x6d60
+-  __TEXT.__swift5_assocty: 0x1a90
+-  __TEXT.__swift5_proto: 0x1510
+-  __TEXT.__swift5_types: 0x854
+-  __TEXT.__swift5_capture: 0x2afc
+-  __TEXT.__oslogstring: 0x2a5d
++  __TEXT.__constg_swiftt: 0x9b50
++  __TEXT.__swift5_typeref: 0x3f690
++  __TEXT.__swift5_builtin: 0x3c0
++  __TEXT.__swift5_reflstr: 0x6827
++  __TEXT.__swift5_fieldmd: 0x7b48
++  __TEXT.__swift5_assocty: 0x1d70
++  __TEXT.__swift5_proto: 0x17c8
++  __TEXT.__swift5_types: 0x950
++  __TEXT.__swift5_capture: 0x2f18
++  __TEXT.__oslogstring: 0x360d
+   __TEXT.__swift5_protos: 0x70
+-  __TEXT.__swift5_mpenum: 0xa8
++  __TEXT.__swift5_mpenum: 0xb0
+   __TEXT.__swift5_types2: 0x4
+-  __TEXT.__unwind_info: 0xa6f0
+-  __TEXT.__eh_frame: 0xe16c
+-  __DATA_CONST.__auth_got: 0x3340
+-  __DATA_CONST.__got: 0x1c98
+-  __DATA_CONST.__auth_ptr: 0x2b80
+-  __DATA_CONST.__const: 0x12288
+-  __DATA_CONST.__cfstring: 0x240
+-  __DATA_CONST.__objc_classlist: 0x280
+-  __DATA_CONST.__objc_catlist: 0x18
+-  __DATA_CONST.__objc_protolist: 0x290
++  __TEXT.__unwind_info: 0xbb28
++  __TEXT.__eh_frame: 0x10e2c
++  __DATA_CONST.__auth_got: 0x3978
++  __DATA_CONST.__got: 0x1d18
++  __DATA_CONST.__auth_ptr: 0x31a8
++  __DATA_CONST.__const: 0x13c78
++  __DATA_CONST.__cfstring: 0x20
++  __DATA_CONST.__objc_classlist: 0x298
++  __DATA_CONST.__objc_catlist: 0x10
++  __DATA_CONST.__objc_protolist: 0x268
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_protorefs: 0x148
++  __DATA_CONST.__objc_protorefs: 0x130
+   __DATA_CONST.__objc_superrefs: 0x8
+-  __DATA.__objc_const: 0x166c8
+-  __DATA.__objc_selrefs: 0x16a8
++  __DATA.__objc_const: 0x17490
++  __DATA.__objc_selrefs: 0x1700
+   __DATA.__objc_ivar: 0xc
+-  __DATA.__objc_data: 0x2488
+-  __DATA.__data: 0x137c8
+-  __DATA.__bss: 0x29058
+-  __DATA.__common: 0x3b8
++  __DATA.__objc_data: 0x2720
++  __DATA.__data: 0x16800
++  __DATA.__bss: 0x2e8b0
++  __DATA.__common: 0x640
+   - /System/Library/Frameworks/ARKit.framework/ARKit
+   - /System/Library/Frameworks/AVFoundation.framework/AVFoundation
+-  - /System/Library/Frameworks/AVKit.framework/AVKit
++  - /System/Library/Frameworks/Accelerate.framework/Accelerate
++  - /System/Library/Frameworks/Accessibility.framework/Accessibility
+   - /System/Library/Frameworks/AppIntents.framework/AppIntents
+   - /System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+   - /System/Library/Frameworks/Combine.framework/Combine
+
+   - /System/Library/Frameworks/CoreLocation.framework/CoreLocation
+   - /System/Library/Frameworks/CoreMedia.framework/CoreMedia
+   - /System/Library/Frameworks/CoreServices.framework/CoreServices
++  - /System/Library/Frameworks/CoreTelephony.framework/CoreTelephony
+   - /System/Library/Frameworks/CoreTransferable.framework/CoreTransferable
+   - /System/Library/Frameworks/CoreVideo.framework/CoreVideo
+   - /System/Library/Frameworks/EventKit.framework/EventKit
+
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/Frameworks/IOSurface.framework/IOSurface
+   - /System/Library/Frameworks/ImageIO.framework/ImageIO
+-  - /System/Library/Frameworks/LinkPresentation.framework/LinkPresentation
+   - /System/Library/Frameworks/MapKit.framework/MapKit
+   - /System/Library/Frameworks/MediaToolbox.framework/MediaToolbox
++  - /System/Library/Frameworks/Metal.framework/Metal
+   - /System/Library/Frameworks/NaturalLanguage.framework/NaturalLanguage
++  - /System/Library/Frameworks/Network.framework/Network
+   - /System/Library/Frameworks/Photos.framework/Photos
+   - /System/Library/Frameworks/PhotosUI.framework/PhotosUI
+   - /System/Library/Frameworks/QuartzCore.framework/QuartzCore
+
+   - /System/Library/Frameworks/Symbols.framework/Symbols
+   - /System/Library/Frameworks/VideoToolbox.framework/VideoToolbox
+   - /System/Library/Frameworks/Vision.framework/Vision
++  - /System/Library/Frameworks/_AVKit_SwiftUI.framework/_AVKit_SwiftUI
+   - /System/Library/Frameworks/_AppIntents_SwiftUI.framework/_AppIntents_SwiftUI
+   - /System/Library/Frameworks/_MapKit_SwiftUI.framework/_MapKit_SwiftUI
+   - /System/Library/Frameworks/_PhotosUI_SwiftUI.framework/_PhotosUI_SwiftUI
+
+   - /System/Library/PrivateFrameworks/CMImaging.framework/CMImaging
+   - /System/Library/PrivateFrameworks/CalendarUIKit.framework/CalendarUIKit
+   - /System/Library/PrivateFrameworks/CorePhoneNumbers.framework/CorePhoneNumbers
++  - /System/Library/PrivateFrameworks/DataDetectorsCore.framework/DataDetectorsCore
+   - /System/Library/PrivateFrameworks/FeatureFlags.framework/FeatureFlags
+   - /System/Library/PrivateFrameworks/Feedback.framework/Feedback
+   - /System/Library/PrivateFrameworks/FeedbackService.framework/FeedbackService
++  - /System/Library/PrivateFrameworks/FrontBoardServices.framework/FrontBoardServices
+   - /System/Library/PrivateFrameworks/FusionTracker.framework/FusionTracker
++  - /System/Library/PrivateFrameworks/GenerativeAssistantActions.framework/GenerativeAssistantActions
+   - /System/Library/PrivateFrameworks/GenerativeAssistantSettings.framework/GenerativeAssistantSettings
+   - /System/Library/PrivateFrameworks/GenerativeModels.framework/GenerativeModels
+   - /System/Library/PrivateFrameworks/GeoServices.framework/GeoServices
+   - /System/Library/PrivateFrameworks/IconServices.framework/IconServices
++  - /System/Library/PrivateFrameworks/InternalSwiftProtobuf.framework/InternalSwiftProtobuf
++  - /System/Library/PrivateFrameworks/ManagedConfiguration.framework/ManagedConfiguration
+   - /System/Library/PrivateFrameworks/MapsUI.framework/MapsUI
+   - /System/Library/PrivateFrameworks/MediaRemote.framework/MediaRemote
+   - /System/Library/PrivateFrameworks/MobileKeyBag.framework/MobileKeyBag
++  - /System/Library/PrivateFrameworks/NetworkServiceProxy.framework/NetworkServiceProxy
+   - /System/Library/PrivateFrameworks/Sage.framework/Sage
+   - /System/Library/PrivateFrameworks/SearchFoundation.framework/SearchFoundation
+   - /System/Library/PrivateFrameworks/SearchUI.framework/SearchUI
+   - /System/Library/PrivateFrameworks/SiriActivation.framework/SiriActivation
+   - /System/Library/PrivateFrameworks/SiriReaderServices.framework/SiriReaderServices
++  - /System/Library/PrivateFrameworks/SiriSharedUI.framework/SiriSharedUI
+   - /System/Library/PrivateFrameworks/SiriTTSService.framework/SiriTTSService
+-  - /System/Library/PrivateFrameworks/SiriUIFoundation.framework/SiriUIFoundation
+   - /System/Library/PrivateFrameworks/SnippetUI.framework/SnippetUI
+   - /System/Library/PrivateFrameworks/SystemUIAnimationKit.framework/SystemUIAnimationKit
+   - /System/Library/PrivateFrameworks/TextComposer.framework/TextComposer
+   - /System/Library/PrivateFrameworks/TextRecognition.framework/TextRecognition
++  - /System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+   - /System/Library/PrivateFrameworks/UIKitCore.framework/UIKitCore
+   - /System/Library/PrivateFrameworks/VFX.framework/VFX
+   - /System/Library/PrivateFrameworks/VisionKitCore.framework/VisionKitCore
+
+   - /usr/lib/swift/libswiftsimd.dylib
+   - /usr/lib/swift/libswiftsys_time.dylib
+   - /usr/lib/swift/libswiftunistd.dylib
+-  Functions: 13657
+-  Symbols:   3245
+-  CStrings:  3150
++  Functions: 15256
++  Symbols:   3496
++  CStrings:  3468
+ 
+Symbols:
++ _$s015_PhotosUI_SwiftB00A6PickerV9selection8matching21preferredItemEncoding5labelACyxG0cB07BindingVyAA0adH0VSgG_0aB014PHPickerFilterVSgAM0I20DisambiguationPolicyVxyXEtcfC
++ _$s10Foundation12CharacterSetV13alphanumericsACvgZ
++ _$s10Foundation13URLComponentsV4hostSSSgvg
++ _$s10Foundation13URLComponentsV4pathSSvg
++ _$s10Foundation13URLComponentsV4pathSSvs
++ _$s10Foundation13URLComponentsV6schemeSSSgvg
++ _$s10Foundation13URLComponentsV6stringACSgSSh_tcfC
++ _$s10Foundation13URLComponentsVMn
++ _$s10Foundation15AttributeScopesO13AccessibilityE0D10AttributesV020AnnouncementPriorityB0O0fG0O4highyA2JmFWC
++ _$s10Foundation15AttributeScopesO13AccessibilityE0D10AttributesV020AnnouncementPriorityB0O0fG0OMa
++ _$s10Foundation15AttributeScopesO13AccessibilityE0D10AttributesV020AnnouncementPriorityB0O0fG0OMn
++ _$s10Foundation15AttributeScopesO13AccessibilityE0D10AttributesV020AnnouncementPriorityB0OAA19AttributedStringKeyADMc
++ _$s10Foundation15AttributeScopesO13AccessibilityE0D10AttributesV020AnnouncementPriorityB0OMn
++ _$s10Foundation15AttributeScopesO13AccessibilityE0D10AttributesV020AnnouncementPriorityB0ON
++ _$s10Foundation15AttributeScopesO13AccessibilityE0D10AttributesV39accessibilitySpeechAnnouncementPriorityAF0hiB0Ovg
++ _$s10Foundation15AttributeScopesO13AccessibilityE0D10AttributesV39accessibilitySpeechAnnouncementPriorityAF0hiB0OvpMV
++ _$s10Foundation15AttributeScopesO13AccessibilityE0D10AttributesVMn
++ _$s10Foundation16AttributedStringV13dynamicMember5ValueQzSgs7KeyPathCyAA22AttributeDynamicLookupOxG_tcAA0bcG0Rzluis
++ _$s10Foundation16AttributedStringV13stringLiteralACSS_tcfC
++ _$s10Foundation16AttributedStringVMa
++ _$s10Foundation22AttributeDynamicLookupO13AccessibilityE13dynamicMemberxs7KeyPathCyAA0B6ScopesOADE0E10AttributesVxG_tcAA016AttributedStringH0Rzluig
++ _$s10Foundation22AttributeDynamicLookupO13AccessibilityE13dynamicMemberxs7KeyPathCyAA0B6ScopesOADE0E10AttributesVxG_tcAA016AttributedStringH0RzluipMV
++ _$s10Foundation22AttributeDynamicLookupOMn
++ _$s10Foundation3URLV17lastPathComponentSSvg
++ _$s10Foundation3URLV25deletingLastPathComponentACyF
++ _$s10Foundation4DateV18ISO8601FormatStyleV0B13TimeSeparatorO8standardyA2GmFWC
++ _$s10Foundation4DateV18ISO8601FormatStyleV0B13TimeSeparatorOMa
++ _$s10Foundation4DateV18ISO8601FormatStyleV0B9SeparatorO4dashyA2GmFWC
++ _$s10Foundation4DateV18ISO8601FormatStyleV0B9SeparatorOMa
++ _$s10Foundation4DateV18ISO8601FormatStyleV13TimeSeparatorO5colonyA2GmFWC
++ _$s10Foundation4DateV18ISO8601FormatStyleV13TimeSeparatorOMa
++ _$s10Foundation4DateV18ISO8601FormatStyleV13dateSeparator0f4TimeG004timeG00i4ZoneG026includingFractionalSeconds0iJ0A2E0bG0O_AE0bhG0OAE0hG0OAE0hjG0OSbAA0hJ0VtcfC
++ _$s10Foundation4DateV18ISO8601FormatStyleV13dateSeparatoryA2E0bG0OF
++ _$s10Foundation4DateV18ISO8601FormatStyleV17TimeZoneSeparatorO7omittedyA2GmFWC
++ _$s10Foundation4DateV18ISO8601FormatStyleV17TimeZoneSeparatorOMa
++ _$s10Foundation4DateV18ISO8601FormatStyleVAA0dE0AAMc
++ _$s10Foundation4DateV18ISO8601FormatStyleVMa
++ _$s10Foundation4DateV9formattedy12FormatOutputQzxAA0D5StyleRzAC0D5InputRtzlF
++ _$s10Foundation8TimeZoneV14secondsFromGMTACSgSi_tcfC
++ _$s10Foundation8TimeZoneVMn
++ _$s10Foundation8URLErrorV4CodeV7unknownAEvgZ
++ _$s12RegexBuilder0a9ComponentB0O15buildExpressionyxx17_StringProcessing0aC0RzlFZ
++ _$s12RegexBuilder0a9ComponentB0O17buildPartialBlock5first17_StringProcessing0A0Vy0A6OutputQzGx_tAF0aC0RzlFZ
++ _$s12RegexBuilder11makeFactory17_StringProcessing01_aD0VyF
++ _$s12RegexBuilder14CharacterClassV17_StringProcessing0A9ComponentAAMc
++ _$s12RegexBuilder14CharacterClassV8invertedACvg
++ _$s12RegexBuilder14CharacterClassVMa
++ _$s12RegexBuilder7CaptureVMn
++ _$s12RegexBuilder7CaptureVyACyxG17_StringProcessing0A0VyxGcfC
++ _$s12RegexBuilder7CaptureVyxG17_StringProcessing0A9ComponentAAMc
++ _$s12RegexBuilder9OneOrMoreVMn
++ _$s12RegexBuilder9OneOrMoreVyACyxG17_StringProcessing0A0VyxGcfC
++ _$s12RegexBuilder9OneOrMoreVyxG17_StringProcessing0A9ComponentAAMc
++ _$s12SiriSharedUI25TamaleHostedSceneDelegateMp
++ _$s12SiriSharedUI25TamaleHostedSceneDelegateP15siriDidActivateyyFTq
++ _$s12SiriSharedUI25TamaleHostedSceneDelegateP17siriDidDeactivateyyFTq
++ _$s12SiriSharedUI25TamaleHostedSceneDelegateP22siriWillPresentResultsyyFTq
++ _$s12SiriSharedUI25TamaleHostedSceneDelegateP22siriWillProcessRequestyyFTq
++ _$s13Accessibility01_A13NotificationsPAAE4postyyF
++ _$s13Accessibility0A12NotificationO12AnnouncementVAA01_A13NotificationsAAWP
++ _$s13Accessibility0A12NotificationO12AnnouncementVMa
++ _$s13Accessibility0A12NotificationO12AnnouncementVyAE10Foundation16AttributedStringVcfC
++ _$s13Accessibility0A12NotificationO12AnnouncementVyAESScfC
++ _$s13Accessibility0A12NotificationO13ScreenChangedVAA01_A13NotificationsAAWP
++ _$s13Accessibility0A12NotificationO13ScreenChangedVMa
++ _$s13Accessibility0A12NotificationO13ScreenChangedVyAEypSgcfC
++ _$s15FeedbackService15FBKSInteractionC16prefillQuestionsSDyAA8FBKSFormC8QuestionOSaySSGGSgvsTj
++ _$s15FeedbackService8FBKSFormC8QuestionO6customyAESScAEmFWC
++ _$s15FeedbackService8FBKSFormC8QuestionOMa
++ _$s15FeedbackService8FBKSFormC8QuestionOMn
++ _$s15FeedbackService8FBKSFormC8QuestionOSHAAMc
++ _$s15FeedbackService8FBKSFormC8QuestionOSQAAMc
++ _$s16GenerativeModels0aB12AvailabilityV0C0O14RestrictedInfoV0D6ReasonO15assetIsNotReadyyA2ImFWC
++ _$s16GenerativeModels0aB12AvailabilityV0C0O15UnavailableInfoV0D6ReasonO15assetIsNotReadyyA2ImFWC
++ _$s17_StringProcessing13_RegexFactoryV10accumulateyAA0C0VyxGq__q0_tAA0C9ComponentR_AaHR0_r1_lF
++ _$s17_StringProcessing13_RegexFactoryV27ignoreCapturesInTypedOutputyAA0C0VySsGxAA0C9ComponentRzlF
++ _$s17_StringProcessing13_RegexFactoryV7captureyAA0C0VyxGq_AA0C9ComponentR_r0_lF
++ _$s17_StringProcessing13_RegexFactoryV9oneOrMoreyAA0C0VyxGq__AA0C18RepetitionBehaviorVSgtAA0C9ComponentR_r0_lF
++ _$s17_StringProcessing13_RegexFactoryVMa
++ _$s17_StringProcessing14RegexComponentP0C7BuilderAD14CharacterClassVRszrlE10whitespaceAFvgZ
++ _$s17_StringProcessing14RegexComponentP0C7BuilderAD14CharacterClassVRszrlE4wordAFvgZ
++ _$s17_StringProcessing23RegexRepetitionBehaviorVMa
++ _$s17_StringProcessing23RegexRepetitionBehaviorVMn
++ _$s17_StringProcessing5RegexV0C7BuilderEyACyxGqd__yXEc0C6OutputQyd__RszAA0C9ComponentRd__lufC
++ _$s17_StringProcessing5RegexV5MatchV6outputxvg
++ _$s17_StringProcessing5RegexV5MatchVMn
++ _$s17_StringProcessing5RegexVMn
++ _$s17_StringProcessing5RegexVyxGAA0C9ComponentAAMc
++ _$s18VisualIntelligence0A12QueryContextV21applicationIdentifier7queryID8location9timestamp23customDetectorThresholdACSS_s6UInt64VSo10CLLocationCSgSdSgSDySSSDySSSdGGtcfC
++ _$s18VisualIntelligence0A12QueryContextV21applicationIdentifier7queryID8locationACSS_s6UInt64VSo10CLLocationCSgtcfC
++ _$s18VisualIntelligence0A12QueryContextVMa
++ _$s18VisualIntelligence0A12SearchResultV13regionResultsSayAA06RegioncD0VGvg
++ _$s18VisualIntelligence0A12SearchResultVMa
++ _$s18VisualIntelligence0A12SearchResultVMn
++ _$s18VisualIntelligence0A13UnderstandingV10AnnotationVMa
++ _$s18VisualIntelligence0A13UnderstandingV10AnnotationVMn
++ _$s18VisualIntelligence0A13UnderstandingV10DomainInfoV09detectionE0SS0F5Label_Sf15confidenceScoretSgvg
++ _$s18VisualIntelligence0A13UnderstandingV10DomainInfoV12displayLabelSSSgvg
++ _$s18VisualIntelligence0A13UnderstandingV10DomainInfoV6domainAA0aD0Vvg
++ _$s18VisualIntelligence0A13UnderstandingV10DomainInfoV9glyphNameSSSgvg
++ _$s18VisualIntelligence0A13UnderstandingV10DomainInfoVMa
++ _$s18VisualIntelligence0A13UnderstandingV10DomainInfoVMn
++ _$s18VisualIntelligence0A13UnderstandingV11ImageRegionV10domainInfoSayAC06DomainG0VGvg
++ _$s18VisualIntelligence0A13UnderstandingV11ImageRegionV10embeddingsSayAE9EmbeddingVGSgvg
++ _$s18VisualIntelligence0A13UnderstandingV11ImageRegionV11boundingBoxAA14NormalizedRectVvg
++ _$s18VisualIntelligence0A13UnderstandingV11ImageRegionV20getBrandDistributionSDySSSfGyF
++ _$s18VisualIntelligence0A13UnderstandingV11ImageRegionV9EmbeddingV8featuresSaySfGvg
++ _$s18VisualIntelligence0A13UnderstandingV11ImageRegionV9EmbeddingVMa
++ _$s18VisualIntelligence0A13UnderstandingV11ImageRegionV9EmbeddingVMn
++ _$s18VisualIntelligence0A13UnderstandingV11ImageRegionVMa
++ _$s18VisualIntelligence0A13UnderstandingV11ImageRegionVMn
++ _$s18VisualIntelligence0A13UnderstandingV11ImageRegionVSEAAMc
++ _$s18VisualIntelligence0A13UnderstandingV11ImageRegionVSHAAMc
++ _$s18VisualIntelligence0A13UnderstandingV11ImageRegionVSQAAMc
++ _$s18VisualIntelligence0A13UnderstandingV11ImageRegionVSeAAMc
++ _$s18VisualIntelligence0A13UnderstandingV12imageRegionsSayAC11ImageRegionVGvg
++ _$s18VisualIntelligence0A13UnderstandingV7payload10Foundation4DataVvg
++ _$s18VisualIntelligence0A13UnderstandingVMa
++ _$s18VisualIntelligence0A13UnderstandingVMn
++ _$s18VisualIntelligence0A13UnderstandingV_10annotation7payloadACSayAC11ImageRegionVG_AC10AnnotationVSg10Foundation4DataVSgtcfC
++ _$s18VisualIntelligence0A6DomainV4nameSSvg
++ _$s18VisualIntelligence0aB7ServiceC12warmupSearchyyF
++ _$s18VisualIntelligence0aB7ServiceC14serviceOptionsA2C0E0V_tcfC
++ _$s18VisualIntelligence0aB7ServiceC16parseCameraFrame18visualQueryContext5image26normalizedRegionOfInterest10annotation13cachedResults10completionAA13CancelSessionCAA0ahI0V_AA10PixelImageVSo6CGRectVAA0A13UnderstandingV10AnnotationVSg10Foundation4DataVSgys6ResultOyAA11ParseResultVs5Error_pGctF
++ _$s18VisualIntelligence0aB7ServiceC17searchCameraFrame18visualQueryContext0G13Understanding10completionAA13CancelSessionCAA0ahI0V_AA0aJ0VyAA0A12SearchResultVSg_s5Error_pSgtctF
++ _$s18VisualIntelligence0aB7ServiceC7OptionsV18customizedEndpoint22networkTimeoutInterval15debugParameters12mlEngineTypeAE10Foundation3URLVSg_8Dispatch0q4TimeI0OSgSSSgAA08MLEngineN0OSgtcfC
++ _$s18VisualIntelligence0aB7ServiceC7OptionsVMa
++ _$s18VisualIntelligence0aB7ServiceCMa
++ _$s18VisualIntelligence0aB7ServiceCMn
++ _$s18VisualIntelligence10PixelImageV11pixelBuffer11orientationACSo11CVBufferRefa_So26CGImagePropertyOrientationVtcfC
++ _$s18VisualIntelligence10PixelImageVMa
++ _$s18VisualIntelligence11ParseResultV19visualUnderstandingAA0aF0Vvg
++ _$s18VisualIntelligence11ParseResultVMa
++ _$s18VisualIntelligence11ParseResultVMn
++ _$s18VisualIntelligence12MLEngineTypeOMa
++ _$s18VisualIntelligence12MLEngineTypeOMn
++ _$s18VisualIntelligence14NormalizedRectV16bottomLeftCGRectSo0G0Vvg
++ _$s18VisualIntelligence14NormalizedRectV5width12CoreGraphics7CGFloatVvg
++ _$s18VisualIntelligence14NormalizedRectV6height12CoreGraphics7CGFloatVvg
++ _$s18VisualIntelligence14NormalizedRectV6originSo7CGPointVvg
++ _$s18VisualIntelligence14NormalizedRectVMa
++ _$s18VisualIntelligence15ObjectKnowledgeV12thumbnailURL10Foundation0F0VSgvg
++ _$s18VisualIntelligence15ObjectKnowledgeV16knowledgeGraphIDSSSgvg
++ _$s18VisualIntelligence15ObjectKnowledgeV16shortDescriptionSSvg
++ _$s18VisualIntelligence15ObjectKnowledgeV19detailedDescriptionSSvg
++ _$s18VisualIntelligence15ObjectKnowledgeV19knowledgePropertiesSayAC8PropertyVGvg
++ _$s18VisualIntelligence15ObjectKnowledgeV20thumbnailAspectRatioSfvg
++ _$s18VisualIntelligence15ObjectKnowledgeV6webURL10Foundation0F0VSgvg
++ _$s18VisualIntelligence15ObjectKnowledgeV8PropertyV4nameSSvg
++ _$s18VisualIntelligence15ObjectKnowledgeV8PropertyV5valueSSvg
++ _$s18VisualIntelligence15ObjectKnowledgeV8PropertyVMa
++ _$s18VisualIntelligence15ObjectKnowledgeVMa
++ _$s18VisualIntelligence15ObjectKnowledgeVMn
++ _$s18VisualIntelligence18RegionSearchResultV0E4ItemV6domainAA0A6DomainVvg
++ _$s18VisualIntelligence18RegionSearchResultV0E4ItemV7captionSSvg
++ _$s18VisualIntelligence18RegionSearchResultV0E4ItemV9knowledgeAA15ObjectKnowledgeVSgvg
++ _$s18VisualIntelligence18RegionSearchResultV0E4ItemVMa
++ _$s18VisualIntelligence18RegionSearchResultV11resultItemsSayAC0E4ItemVGvg
++ _$s18VisualIntelligence18RegionSearchResultV13resultSectionSaySo08SFResultG0CGvg
++ _$s18VisualIntelligence18RegionSearchResultV9glyphNameSSvg
++ _$s18VisualIntelligence18RegionSearchResultVMa
++ _$s18VisualIntelligence18RegionSearchResultVMn
++ _$s21InternalSwiftProtobuf14UnknownStorageV8traverse7visitoryxz_tKAA7VisitorRzlF
++ _$s21InternalSwiftProtobuf14UnknownStorageVACycfC
++ _$s21InternalSwiftProtobuf14UnknownStorageVMa
++ _$s21InternalSwiftProtobuf14UnknownStorageVMn
++ _$s21InternalSwiftProtobuf14UnknownStorageVSQAAMc
++ _$s21InternalSwiftProtobuf19_ProtoNameProvidingMp
++ _$s21InternalSwiftProtobuf19_ProtoNameProvidingP17_protobuf_nameMapAA01_eI0VvgZTq
++ _$s21InternalSwiftProtobuf21BinaryDecodingOptionsVACycfC
++ _$s21InternalSwiftProtobuf21BinaryDecodingOptionsVMa
++ _$s21InternalSwiftProtobuf26_MessageImplementationBaseMp
++ _$s21InternalSwiftProtobuf26_MessageImplementationBaseP29_protobuf_generated_isEqualTo5otherSbx_tFTq
++ _$s21InternalSwiftProtobuf26_MessageImplementationBasePAA0D0Tb
++ _$s21InternalSwiftProtobuf26_MessageImplementationBasePAAE29_protobuf_generated_isEqualTo5otherSbx_tF
++ _$s21InternalSwiftProtobuf26_MessageImplementationBasePAAE9isEqualTo7messageSbAA0D0_p_tF
++ _$s21InternalSwiftProtobuf26_MessageImplementationBasePSHTb
++ _$s21InternalSwiftProtobuf4EnumMp
++ _$s21InternalSwiftProtobuf4EnumP8rawValueSivgTq
++ _$s21InternalSwiftProtobuf4EnumP8rawValuexSgSi_tcfCTq
++ _$s21InternalSwiftProtobuf4EnumPAAE4hash4intoys6HasherVz_tF
++ _$s21InternalSwiftProtobuf4EnumPSHTb
++ _$s21InternalSwiftProtobuf4EnumPSYTb
++ _$s21InternalSwiftProtobuf4EnumPxycfCTq
++ _$s21InternalSwiftProtobuf7DecoderP15nextFieldNumberSiSgyKFTj
++ _$s21InternalSwiftProtobuf7DecoderP23decodeRepeatedEnumField5valueySayqd__Gz_tKAA0G0Rd__Si8RawValueRtd__lFTj
++ _$s21InternalSwiftProtobuf7DecoderP23decodeSingularBoolField5valueySbz_tKFTj
++ _$s21InternalSwiftProtobuf7DecoderP23decodeSingularEnumField5valueyqd__z_tKAA0G0Rd__Si8RawValueRtd__lFTj
++ _$s21InternalSwiftProtobuf7DecoderP24decodeSingularBytesField5valuey10Foundation4DataVz_tKFTj
++ _$s21InternalSwiftProtobuf7DecoderP24decodeSingularFloatField5valueySfz_tKFTj
++ _$s21InternalSwiftProtobuf7DecoderP24decodeSingularInt32Field5valueys0G0Vz_tKFTj
++ _$s21InternalSwiftProtobuf7DecoderP24decodeSingularInt64Field5valueys0G0Vz_tKFTj
++ _$s21InternalSwiftProtobuf7DecoderP25decodeSingularStringField5valueySSz_tKFTj
++ _$s21InternalSwiftProtobuf7DecoderP26decodeRepeatedMessageField5valueySayqd__Gz_tKAA0G0Rd__lFTj
++ _$s21InternalSwiftProtobuf7DecoderP26decodeSingularMessageField5valueyqd__Sgz_tKAA0G0Rd__lFTj
++ _$s21InternalSwiftProtobuf7MessageMp
++ _$s21InternalSwiftProtobuf7MessageP05protoD4NameSSvgZTq
++ _$s21InternalSwiftProtobuf7MessageP06decodeD07decoderyqd__z_tKAA7DecoderRd__lFTq
++ _$s21InternalSwiftProtobuf7MessageP13isInitializedSbvgTq
++ _$s21InternalSwiftProtobuf7MessageP13unknownFieldsAA14UnknownStorageVvMTq
++ _$s21InternalSwiftProtobuf7MessageP13unknownFieldsAA14UnknownStorageVvgTq
++ _$s21InternalSwiftProtobuf7MessageP13unknownFieldsAA14UnknownStorageVvsTq
++ _$s21InternalSwiftProtobuf7MessageP4hash4intoys6HasherVz_tFTq
++ _$s21InternalSwiftProtobuf7MessageP8traverse7visitoryqd__z_tKAA7VisitorRd__lFTq
++ _$s21InternalSwiftProtobuf7MessageP9isEqualTo7messageSbAaB_p_tFTq
++ _$s21InternalSwiftProtobuf7MessagePAAE13isInitializedSbvg
++ _$s21InternalSwiftProtobuf7MessagePAAE14serializedData10extensions7partial7optionsx10Foundation0F0V_AA12ExtensionMap_pSgSbAA21BinaryDecodingOptionsVtKcfC
++ _$s21InternalSwiftProtobuf7MessagePAAE14serializedData7partial10Foundation0F0VSb_tKF
++ _$s21InternalSwiftProtobuf7MessagePAAE16debugDescriptionSSvg
++ _$s21InternalSwiftProtobuf7MessagePAAE4hash4intoys6HasherVz_tF
++ _$s21InternalSwiftProtobuf7MessagePAAE4withyxyxzKXEKFZ
++ _$s21InternalSwiftProtobuf7MessagePs28CustomDebugStringConvertibleTb
++ _$s21InternalSwiftProtobuf7MessagePxycfCTq
++ _$s21InternalSwiftProtobuf7VisitorP20visitPackedEnumField5value11fieldNumberySayqd__G_SitKAA0G0Rd__lFTj
++ _$s21InternalSwiftProtobuf7VisitorP22visitSingularBoolField5value11fieldNumberySb_SitKFTj
++ _$s21InternalSwiftProtobuf7VisitorP22visitSingularEnumField5value11fieldNumberyqd___SitKAA0G0Rd__lFTj
++ _$s21InternalSwiftProtobuf7VisitorP23visitSingularBytesField5value11fieldNumbery10Foundation4DataV_SitKFTj
++ _$s21InternalSwiftProtobuf7VisitorP23visitSingularFloatField5value11fieldNumberySf_SitKFTj
++ _$s21InternalSwiftProtobuf7VisitorP23visitSingularInt32Field5value11fieldNumberys0G0V_SitKFTj
++ _$s21InternalSwiftProtobuf7VisitorP23visitSingularInt64Field5value11fieldNumberys0G0V_SitKFTj
++ _$s21InternalSwiftProtobuf7VisitorP24visitSingularStringField5value11fieldNumberySS_SitKFTj
++ _$s21InternalSwiftProtobuf7VisitorP25visitRepeatedMessageField5value11fieldNumberySayqd__G_SitKAA0G0Rd__lFTj
++ _$s21InternalSwiftProtobuf7VisitorP25visitSingularMessageField5value11fieldNumberyqd___SitKAA0G0Rd__lFTj
++ _$s21InternalSwiftProtobuf8_NameMapV0D11DescriptionO4sameyAEs12StaticStringV_tcAEmFWC
++ _$s21InternalSwiftProtobuf8_NameMapV0D11DescriptionO8standardyAEs12StaticStringV_tcAEmFWC
++ _$s21InternalSwiftProtobuf8_NameMapV0D11DescriptionOMa
++ _$s21InternalSwiftProtobuf8_NameMapV0D11DescriptionOMn
++ _$s21InternalSwiftProtobuf8_NameMapV17dictionaryLiteralACSi_AC0D11DescriptionOtd_tcfC
++ _$s21InternalSwiftProtobuf8_NameMapVMa
++ _$s26GenerativeAssistantActions18GATInteractionModeOMa
++ _$s26GenerativeAssistantActions18GATInteractionModeOMn
++ _$s26GenerativeAssistantActions20DefaultPromptFactoryV06createE011appBundleID15interactionModeS2SSg_AA014GATInteractionL0OSgtKF
++ _$s26GenerativeAssistantActions20DefaultPromptFactoryV8instanceACvgZ
++ _$s26GenerativeAssistantActions20DefaultPromptFactoryVMa
++ _$s26GenerativeAssistantActions7PromptsC19toolUseTamalePromptSSvgZ
++ _$s26GenerativeAssistantActions7PromptsCMa
++ _$s26GenerativeAssistantActions9OverridesV32tamaleAppDebugPromptOverridePathSSSgvgZ
++ _$s4Sage21TextCompositionClientC04textcD20ProcessIdentifierKeySSvgZ
++ _$s4Sage21TextCompositionClientC04textcD23AppProcessIdentifierKeySSvgZ
++ _$s7Combine10PublishersO11AutoconnectCMn
++ _$s7Combine10PublishersO11AutoconnectCy_xGAA9PublisherAAMc
++ _$s7Combine14AnyCancellableC6cancelyyF
++ _$s7Combine20ConnectablePublisherPAAE11autoconnectAA10PublishersO11AutoconnectCy_xGyF
++ _$s7Network11NWInterfaceV13InterfaceTypeO8cellularyA2EmFWC
++ _$s7Network11NWInterfaceV13InterfaceTypeOMa
++ _$s7Network13NWPathMonitorC17pathUpdateHandleryAA0B0VcSgvs
++ _$s7Network13NWPathMonitorC5start5queueySo012OS_dispatch_E0C_tF
++ _$s7Network13NWPathMonitorCACycfc
++ _$s7Network13NWPathMonitorCMa
++ _$s7Network13NWPathMonitorCMn
++ _$s7Network6NWPathV17usesInterfaceTypeySbAA11NWInterfaceV0dE0OF
++ _$s7Network6NWPathV6StatusO11unsatisfiedyA2EmFWC
++ _$s7Network6NWPathV6StatusO18requiresConnectionyA2EmFWC
++ _$s7Network6NWPathV6StatusO9satisfiedyA2EmFWC
++ _$s7Network6NWPathV6StatusOMa
++ _$s7Network6NWPathV6StatusOSQAAMc
++ _$s7Network6NWPathV6statusAC6StatusOvg
++ _$s7SwiftUI11ToolbarItemVAAytRszrlE9placement7contentACyytq_GAA0cD9PlacementV_q_yXEtcfC
++ _$s7SwiftUI11ToolbarItemVMn
++ _$s7SwiftUI11_MaskEffectVMa
++ _$s7SwiftUI11_MaskEffectVyxGAA12ViewModifierAAMc
++ _$s7SwiftUI11_ShadowViewVyxGAA0D0AAMc
++ _$s7SwiftUI12TimelineViewV7ContextVMa
++ _$s7SwiftUI12TimelineViewVMa
++ _$s7SwiftUI13_TaskModifierVAA04ViewD0AAMc
++ _$s7SwiftUI14NavigationLinkV11destination5labelACyxq_Gq__xyXEtcfC
++ _$s7SwiftUI14NavigationLinkVMn
++ _$s7SwiftUI14NavigationPathVMa
++ _$s7SwiftUI14NavigationPathVMn
++ _$s7SwiftUI15ModifiedContentVA2A31AccessibilityAttachmentModifierVRs_rlE19accessibilityAction5named_ACyxAEGAA4TextV_yyctF
++ _$s7SwiftUI15ModifiedContentVA2A31AccessibilityAttachmentModifierVRs_rlE23accessibilityIdentifieryACyxAEGSSF
++ _$s7SwiftUI15NavigationStackV4rootACyAA0C4PathVq_Gq_yXE_tcAFRszrlufC
++ _$s7SwiftUI15NavigationStackVMa
++ _$s7SwiftUI15NavigationStackVMn
++ _$s7SwiftUI15NavigationStackVyxq_GAA4ViewAAMc
++ _$s7SwiftUI15_BackdropEffectVyxGAA12ViewModifierAAMc
++ _$s7SwiftUI15_RotationEffectVN
++ _$s7SwiftUI16SubscriptionViewVMn
++ _$s7SwiftUI16SubscriptionViewVyxq_GAA0D0AAMc
++ _$s7SwiftUI17ContentShapeKindsV13accessibilityACvgZ
++ _$s7SwiftUI17ContentShapeKindsVMa
++ _$s7SwiftUI19AccessibilityTraitsV7isModalACvgZ
++ _$s7SwiftUI19AccessibilityTraitsVMa
++ _$s7SwiftUI19TupleToolbarContentVMn
++ _$s7SwiftUI19TupleToolbarContentVyACyxGxcfC
++ _$s7SwiftUI19TupleToolbarContentVyxGAA0dE0AAMc
++ _$s7SwiftUI20ToolbarItemPlacementV13topBarLeadingACvgZ
++ _$s7SwiftUI20ToolbarItemPlacementV14topBarTrailingACvgZ
++ _$s7SwiftUI20ToolbarItemPlacementVMa
++ _$s7SwiftUI20_BlendModeShapeStyleVMn
++ _$s7SwiftUI22LayoutPriorityTraitKeyVMn
++ _$s7SwiftUI23AccessibilityActionKindV7defaultACvgZ
++ _$s7SwiftUI23AccessibilityActionKindVMa
++ _$s7SwiftUI23AccessibilityFocusStateV12wrappedValuexvs
++ _$s7SwiftUI23AccessibilityFocusStateV14projectedValueAC7BindingVyx_Gvg
++ _$s7SwiftUI23AccessibilityFocusStateVACySbGycSbRszrlufC
++ _$s7SwiftUI23AccessibilityFocusStateVMa
++ _$s7SwiftUI23AccessibilityFocusStateVMn
++ _$s7SwiftUI25AccessibilityTechnologiesVMa
++ _$s7SwiftUI25AccessibilityTechnologiesVMn
++ _$s7SwiftUI25_AppearanceActionModifierVN
++ _$s7SwiftUI25_ContentShapeKindModifierVMn
++ _$s7SwiftUI25_ContentShapeKindModifierVyxGAA04ViewF0AAMc
++ _$s7SwiftUI26AccessibilityChildBehaviorV7combineACvgZ
++ _$s7SwiftUI26AccessibilityChildBehaviorVMa
++ _$s7SwiftUI29_DiscreteSymbolEffectModifierVMn
++ _$s7SwiftUI29_DiscreteSymbolEffectModifierVyxGAA04ViewF0AAMc
++ _$s7SwiftUI4FontV2eeoiySbAC_ACtFZ
++ _$s7SwiftUI4ViewP07_AVKit_aB0E20onCameraCaptureEvent9isEnabled6actionQrSb_ySo09AVCaptureH0CctF
++ _$s7SwiftUI4ViewP07_AVKit_aB0E20onCameraCaptureEvent9isEnabled6actionQrSb_ySo09AVCaptureH0CctFQOMQ
++ _$s7SwiftUI4ViewPAAE11contextMenu9menuItemsQrqd__yXE_tAaBRd__lF
++ _$s7SwiftUI4ViewPAAE11contextMenu9menuItemsQrqd__yXE_tAaBRd__lFQOMQ
++ _$s7SwiftUI4ViewPAAE11environmentyQrs15WritableKeyPathCyAA17EnvironmentValuesVqd__G_qd__tlF
++ _$s7SwiftUI4ViewPAAE12contentShape_6eoFillQrqd___SbtAA0E0Rd__lF
++ _$s7SwiftUI4ViewPAAE12contentShape__6eoFillQrAA07ContentE5KindsV_qd__SbtAA0E0Rd__lF
++ _$s7SwiftUI4ViewPAAE14rotationEffect_6anchorQrAA5AngleV_AA9UnitPointVtF
++ _$s7SwiftUI4ViewPAAE18accessibilityLabelyAA15ModifiedContentVyxAA31AccessibilityAttachmentModifierVGAA18LocalizedStringKeyVF
++ _$s7SwiftUI4ViewPAAE19accessibilityActionyAA15ModifiedContentVyxAA31AccessibilityAttachmentModifierVGAA0hE4KindV_yyctF
++ _$s7SwiftUI4ViewPAAE19accessibilityHiddenyAA15ModifiedContentVyxAA31AccessibilityAttachmentModifierVGSbF
++ _$s7SwiftUI4ViewPAAE20accessibilityElement8childrenQrAA26AccessibilityChildBehaviorV_tF
++ _$s7SwiftUI4ViewPAAE20accessibilityElement8childrenQrAA26AccessibilityChildBehaviorV_tFQOMQ
++ _$s7SwiftUI4ViewPAAE20accessibilityFocusedyQrAA23AccessibilityFocusStateV7BindingVySb_GF
++ _$s7SwiftUI4ViewPAAE20accessibilityFocusedyQrAA23AccessibilityFocusStateV7BindingVySb_GFQOMQ
++ _$s7SwiftUI4ViewPAAE22accessibilityAddTraitsyAA15ModifiedContentVyxAA31AccessibilityAttachmentModifierVGAA0iF0VF
++ _$s7SwiftUI4ViewPAAE29navigationBarBackButtonHiddenyQrSbF
++ _$s7SwiftUI4ViewPAAE29navigationBarBackButtonHiddenyQrSbFQOMQ
++ _$s7SwiftUI4ViewPAAE4maskyQrqd__AaBRd__lF
++ _$s7SwiftUI4ViewPAAE7paddingyQrAA10EdgeInsetsVF
++ _$s7SwiftUI4ViewPAAE7toolbar7contentQrqd__yXE_tAA14ToolbarContentRd__lF
++ _$s7SwiftUI4ViewPAAE7toolbar7contentQrqd__yXE_tAA14ToolbarContentRd__lFQOMQ
++ _$s7SwiftUI4ViewPAAE8onAppear7performQryycSg_tF
++ _$s7SwiftUI5ImageV07SnippetB0E4dataACSg10Foundation4DataVSg_tcfC
++ _$s7SwiftUI6PickerV9selection5label7contentACyxq_q0_GAA7BindingVyq_G_xq0_yXEtcfC
++ _$s7SwiftUI6ToggleV4isOn5labelACyxGAA7BindingVySbG_xyXEtcfC
++ _$s7SwiftUI7SectionVA2A4ViewRzAaDR_AA05EmptyD0VRs0_rlE6header7contentACyxq_AFGx_q_yXEtcfC
++ _$s7SwiftUI8MaterialV9ultraThinACvgZ
++ _$s7SwiftUI9AlignmentV13bottomLeadingACvgZ
++ _$s7SwiftUI9BlendModeO7overlayyA2CmFWC
++ _$s7SwiftUI9RectangleVAA5ShapeAAMc
++ _$s7SwiftUI9TextFieldVA2A0C0VRszrlE_4text16onEditingChanged0F6CommitACyAEGqd___AA7BindingVySSGySbcyyctcSyRd__lufC
++ _$s7SwiftUI9TextFieldVA2A0C0VRszrlE_4text4axisACyAEGAA18LocalizedStringKeyV_AA7BindingVySSGAA4AxisOtcfC
++ _$s7Symbols12SymbolEffectP13configurationAA0bC13ConfigurationVvgTj
++ _$s7Symbols18BounceSymbolEffectV2upACvg
++ _$s7Symbols18BounceSymbolEffectV4downACvg
++ _$s7Symbols18BounceSymbolEffectVAA0cD0AAMc
++ _$s7Symbols18BounceSymbolEffectVACycfC
++ _$s7Symbols18BounceSymbolEffectVMa
++ _$s8Dispatch0A12TimeIntervalOMn
++ _$s8Dispatch0A3QoSV0B6SClassO13userInitiatedyA2EmFWC
++ _$s8Dispatch0A3QoSV0B6SClassO7utilityyA2EmFWC
++ _$sSH9hashValueSivgTj
++ _$sSK17_StringProcessingSs11SubSequenceRtzrlE10firstMatch2ofAA5RegexV0F0Vyqd___GSgqd_0__t0H6OutputQyd_0_Rsd__AA0H9ComponentRd_0_r0_lF
++ _$sSS17UnicodeScalarViewV6appendyys0A0O0B0VF
++ _$sSS5index5afterSS5IndexVAD_tF
++ _$sSS9UTF16ViewV5countSivg
++ _$sSayxG10Foundation15ContiguousBytesABs5UInt8VRszlMc
++ _$sSbSHsWP
++ _$sScS12ContinuationV15BufferingPolicyO15bufferingNewestyADyx__GSicAFmlFWC
++ _$sScS12ContinuationV6finishyyF
++ _$sSo20NSNotificationCenterC10FoundationE9PublisherVMa
++ _$sSo20NSNotificationCenterC10FoundationE9PublisherVMn
++ _$sSo20NSNotificationCenterC10FoundationE9publisher3for6objectAbCE9PublisherVSo0A4Namea_yXlSgtF
++ _$sSo7NSTimerC10FoundationE14TimerPublisherC7Combine011ConnectableD0ACMc
++ _$sSo7NSTimerC10FoundationE14TimerPublisherCMa
++ _$sSo7NSTimerC10FoundationE14TimerPublisherCMn
++ _$sSo7NSTimerC10FoundationE7publish5every9tolerance2on2in7optionsAbCE14TimerPublisherCSd_SdSgSo9NSRunLoopCSo0kL4ModeaAnCE16SchedulerOptionsVSgtFZ
++ _$sSo9NSDecimala10FoundationE9formattedy12FormatOutputQzxAC0D5StyleRzAB0D5InputRtzlF
++ _$sSo9NSDecimala10FoundationEyABs5Int64VcfC
++ _$sSo9NSRunLoopC10FoundationE16SchedulerOptionsVMa
++ _$sSo9NSRunLoopC10FoundationE16SchedulerOptionsVMn
++ _$sSy10FoundationE10components11separatedBySaySSGqd___tSyRd__lF
++ _$ss10AnyKeyPathCSHsWP
++ _$ss10AnyKeyPathCSQsWP
++ _$ss18LazyFilterSequenceVMn
++ _$ss5Int64VMn
++ _$ss5UInt8VN
++ _$ss6ResultOMn
++ _$ss7KeyPathCMn
++ _AFMontaraRestricted
++ _CAImageQueueInvalidate
++ _CC_SHA256
++ _DDResultIsValidPhoneNumberString
++ _FBSOpenApplicationOptionKeyPromptUnlockDevice
++ _GEOErrorDomain
++ _IOSurfaceLock
++ _IOSurfaceUnlock
++ _MTLCreateSystemDefaultDevice
++ _MobileGestalt_copy_hwModelStr_obj
++ _NSFontAttributeName
++ _NSRunLoopCommonModes
++ _OBJC_CLASS_$_CTCarrier
++ _OBJC_CLASS_$_CTTelephonyNetworkInfo
++ _OBJC_CLASS_$_GEOVisualIntelligenceCameraConfiguration
++ _OBJC_CLASS_$_MCProfileConnection
++ _OBJC_CLASS_$_MUActionRowItemViewModel
++ _OBJC_CLASS_$_MUPlaceActionRowItemViewModel
++ _OBJC_CLASS_$_MUPlaceExternalActionViewModel
++ _OBJC_CLASS_$_MUPlaceUnifiedActionRowLayoutBuilder
++ _OBJC_CLASS_$_MUVendorLinkMenuItemViewModel
++ _OBJC_CLASS_$_NSPPrivateAccessTokenChallenge
++ _OBJC_CLASS_$_NSPPrivateAccessTokenFetcher
++ _OBJC_CLASS_$_NSRunLoop
++ _OBJC_CLASS_$_NSString
++ _OBJC_CLASS_$_NSTimer
++ _OBJC_CLASS_$_SearchUI
++ _OBJC_CLASS_$_TCTextCompositionAssistant
++ _OBJC_CLASS_$_UIFont
++ _OBJC_CLASS_$_UIFontMetrics
++ _OBJC_METACLASS_$_GEOSpatialPlaceLookupParameters
++ _TCTextCompositionAssistantFeatureTypeCalendarEventGeneration
++ _UIApplicationDidEnterBackgroundNotification
++ _UIApplicationWillEnterForegroundNotification
++ _UIFontTextStyleBody
++ _UIFontTextStyleCallout
++ _UIFontTextStyleCaption1
++ _UIFontTextStyleCaption2
++ _UIFontTextStyleFootnote
++ _UIFontTextStyleHeadline
++ _UIFontTextStyleLargeTitle
++ _UIFontTextStyleSubheadline
++ _UIFontTextStyleTitle1
++ _UIFontTextStyleTitle2
++ _kCIFormatRGBA8
++ _objc_autorelease
++ _swift_initEnumMetadataSinglePayload
++ _vDSP_dotpr
+- _$s015_PhotosUI_SwiftB00A6PickerVAA0cB04TextVRszrlE_9selection8matching21preferredItemEncodingACyAFGAD18LocalizedStringKeyV_AD7BindingVyAA0adI0VSgG0aB014PHPickerFilterVSgAP0J20DisambiguationPolicyVtcfC
+- _$s10Foundation11JSONDecoderC19KeyDecodingStrategyO20convertFromSnakeCaseyA2EmFWC
+- _$s10Foundation11JSONDecoderC19KeyDecodingStrategyOMa
+- _$s10Foundation11JSONDecoderC19keyDecodingStrategyAC03KeydE0OvsTj
+- _$s10Foundation11JSONDecoderC25assumesTopLevelDictionarySbvsTj
+- _$s10Foundation11JSONDecoderC6decode_4fromxxm_AA4DataVtKSeRzlFTj
+- _$s10Foundation11JSONDecoderCACycfc
+- _$s10Foundation11JSONDecoderCMa
+- _$s10Foundation12CharacterSetVs0C7AlgebraAAMc
+- _$s10Foundation13CustomNSErrorMp
+- _$s10Foundation13CustomNSErrorP11errorDomainSSvgZTq
+- _$s10Foundation13CustomNSErrorP13errorUserInfoSDySSypGvgTq
+- _$s10Foundation13CustomNSErrorP9errorCodeSivgTq
+- _$s10Foundation13CustomNSErrorPs5ErrorTb
+- _$s10Foundation18_ErrorCodeProtocolMp
+- _$s10Foundation18_ErrorCodeProtocolP01_B4TypeAC_AA21_BridgedStoredNSErrorTn
+- _$s10Foundation18_ErrorCodeProtocolPSQTb
+- _$s10Foundation20ParseableFormatStylePAASo9NSDecimalaAAE0cD0VRszrlE6numberAGvgZ
+- _$s10Foundation21_BridgedStoredNSErrorMp
+- _$s10Foundation21_BridgedStoredNSErrorP4CodeAC_8RawValueSYs17FixedWidthIntegerTn
+- _$s10Foundation21_BridgedStoredNSErrorP4CodeAC_AA06_ErrorE8ProtocolTn
+- _$s10Foundation21_BridgedStoredNSErrorP4CodeAC_SYTn
+- _$s10Foundation21_BridgedStoredNSErrorP8_nsErrorSo0D0CvgTq
+- _$s10Foundation21_BridgedStoredNSErrorP8_nsErrorxSo0D0C_tcfCTq
+- _$s10Foundation21_BridgedStoredNSErrorPAA06CustomD0Tb
+- _$s10Foundation21_BridgedStoredNSErrorPAA26_ObjectiveCBridgeableErrorTb
+- _$s10Foundation21_BridgedStoredNSErrorPAAE012_getEmbeddedD0yXlSgyF
+- _$s10Foundation21_BridgedStoredNSErrorPAAE08_bridgedD0xSgSo0D0C_tcfC
+- _$s10Foundation21_BridgedStoredNSErrorPAAE13errorUserInfoSDySSypGvg
+- _$s10Foundation21_BridgedStoredNSErrorPAAE2eeoiySbx_xtFZ
+- _$s10Foundation21_BridgedStoredNSErrorPAAE4hash4intoys6HasherVz_tF
+- _$s10Foundation21_BridgedStoredNSErrorPAAE9errorCodeSivg
+- _$s10Foundation21_BridgedStoredNSErrorPSHTb
+- _$s10Foundation26_ObjectiveCBridgeableErrorMp
+- _$s10Foundation26_ObjectiveCBridgeableErrorP15_bridgedNSErrorxSgSo0F0Ch_tcfCTq
+- _$s10Foundation26_ObjectiveCBridgeableErrorPs0D0Tb
+- _$s10Foundation3URLVAA20ReferenceConvertibleAAMc
+- _$s10_ErrorType10Foundation01_A12CodeProtocolPTl
+- _$s12CoreGraphics7CGFloatVSeAAMc
+- _$s16SiriUIFoundation25TamaleHostedSceneDelegateMp
+- _$s16SiriUIFoundation25TamaleHostedSceneDelegateP15siriDidActivateyyFTq
+- _$s16SiriUIFoundation25TamaleHostedSceneDelegateP17siriDidDeactivateyyFTq
+- _$s18VisualIntelligence0A6DomainV15naturalLandmarkACvgZ
+- _$s4Code10Foundation21_BridgedStoredNSErrorPTl
+- _$s7SwiftUI12VisualEffectPAAE08rotationD0_6anchorQrAA5AngleV_AA9UnitPointVtF
+- _$s7SwiftUI12VisualEffectPAAE08rotationD0_6anchorQrAA5AngleV_AA9UnitPointVtFQOMQ
+- _$s7SwiftUI13OpenURLActionV14callAsFunctionyy10Foundation3URLVF
+- _$s7SwiftUI13OpenURLActionVMa
+- _$s7SwiftUI13OpenURLActionVMn
+- _$s7SwiftUI17EnvironmentValuesV7openURLAA13OpenURLActionVvg
+- _$s7SwiftUI17EnvironmentValuesV7openURLAA13OpenURLActionVvpMV
+- _$s7SwiftUI17EnvironmentValuesV7openURLAA13OpenURLActionVvs
+- _$s7SwiftUI18LocalizedStringKeyV0D13InterpolationV06appendF0_9formatteryx_So11NSFormatterCSgt10Foundation20ReferenceConvertibleRzlF
+- _$s7SwiftUI18LocalizedStringKeyVMn
+- _$s7SwiftUI19ContentSizeCategoryO010extraExtraG5LargeyA2CmFWC
+- _$s7SwiftUI19ContentSizeCategoryO018accessibilityExtraG5LargeyA2CmFWC
+- _$s7SwiftUI19ContentSizeCategoryO018accessibilityExtragG5LargeyA2CmFWC
+- _$s7SwiftUI19ContentSizeCategoryO10extraLargeyA2CmFWC
+- _$s7SwiftUI19ContentSizeCategoryO10extraSmallyA2CmFWC
+- _$s7SwiftUI19ContentSizeCategoryO15extraExtraLargeyA2CmFWC
+- _$s7SwiftUI19ContentSizeCategoryO18accessibilityLargeyA2CmFWC
+- _$s7SwiftUI19ContentSizeCategoryO19accessibilityMediumyA2CmFWC
+- _$s7SwiftUI19ContentSizeCategoryO23accessibilityExtraLargeyA2CmFWC
+- _$s7SwiftUI19ContentSizeCategoryO5largeyA2CmFWC
+- _$s7SwiftUI19ContentSizeCategoryO5smallyA2CmFWC
+- _$s7SwiftUI19ContentSizeCategoryO6mediumyA2CmFWC
+- _$s7SwiftUI22_MatchedGeometryEffectVMn
+- _$s7SwiftUI22_MatchedGeometryEffectVyxGAA12ViewModifierAAMc
+- _$s7SwiftUI25MatchedGeometryPropertiesV5frameACvgZ
+- _$s7SwiftUI28BorderedProminentButtonStyleVAA09PrimitiveeF0AAMc
+- _$s7SwiftUI28BorderedProminentButtonStyleVACycfC
+- _$s7SwiftUI28BorderedProminentButtonStyleVMa
+- _$s7SwiftUI28BorderedProminentButtonStyleVMn
+- _$s7SwiftUI6ToggleVA2A4TextVRszrlE_4isOnACyAEGAA18LocalizedStringKeyV_AA7BindingVySbGtcfC
+- _$s7SwiftUI7SectionVA2A4TextVRszAA4ViewR_AA05EmptyE0VRs0_rlE_7contentACyAEq_AHGAA18LocalizedStringKeyV_q_yXEtcfC
+- _$s7SwiftUI9NamespaceV12wrappedValueAC2IDVvg
+- _$s7SwiftUI9NamespaceVMn
+- _$s7SwiftUI9TextFieldVA2A0C0VRszrlE_4text16onEditingChanged0F6CommitACyAEGAA18LocalizedStringKeyV_AA7BindingVySSGySbcyyctcfC
+- _$s7SwiftUI9UnitPointV7leadingACvgZ
+- _$sSS18VisualIntelligenceE06mappedA6DomainAA0aD0VSgvg
+- _$sScG17makeAsyncIteratorScG0C0Vyx_GyF
+- _$sScG8IteratorV4next9isolationxSgScA_pSgYi_tYaF
+- _$sScG8IteratorV4next9isolationxSgScA_pSgYi_tYaFTu
+- _$sScG8IteratorVMn
+- _$sSi7SwiftUI18_FormatSpecifiableAAWP
+- _$sSis17FixedWidthIntegersMc
+- _$sSo12NSDictionaryC10FoundationE17dictionaryLiteralAByp_yptd_tcfC
+- _$sSo12NSURLSessionC10FoundationE4data4from8delegateAC4DataV_So13NSURLResponseCtAC3URLV_So0A12TaskDelegate_pSgtYaKF
+- _$sSo12NSURLSessionC10FoundationE4data4from8delegateAC4DataV_So13NSURLResponseCtAC3URLV_So0A12TaskDelegate_pSgtYaKFTu
+- _$sSo8NSObjectC10ObjectiveCE9hashValueSivg
+- _$sSo9NSDecimala10FoundationE11FormatStyleVMa
+- _$sSo9NSDecimala10FoundationE_6format7lenientABSS_AbCE11FormatStyleVSbtKcfC
+- _$sSo9NSDecimalaSQ10FoundationMc
+- _$ss13withTaskGroup2of9returning9isolation4bodyq_xm_q_mScA_pSgYiq_ScGyxGzYaXEtYas8SendableRzr0_lF
+- _$ss13withTaskGroup2of9returning9isolation4bodyq_xm_q_mScA_pSgYiq_ScGyxGzYaXEtYas8SendableRzr0_lFTu
+- _$ss5ErrorP10FoundationAC13CustomNSErrorRzrlE5_codeSivg
+- _$ss5ErrorP10FoundationAC13CustomNSErrorRzrlE7_domainSSvg
+- _$ss6UInt16VMn
+- _$ss7UnicodeO6ScalarVMn
+- _ARErrorDomain
+- _CFDataCreateMutableCopy
+- _CFDataGetMutableBytePtr
+- _CGDataProviderCopyData
+- _CGImageGetBytesPerRow
+- _CGImageGetDataProvider
+- _CVPixelBufferCreateWithBytes
+- _GEOPOICategoryATM
+- _GEOPOICategoryAirportGate
+- _GEOPOICategoryAirportTerminal
+- _GEOPOICategoryAquarium
+- _GEOPOICategoryBakery
+- _GEOPOICategoryBank
+- _GEOPOICategoryBeauty
+- _GEOPOICategoryBrewery
+- _GEOPOICategoryCafe
+- _GEOPOICategoryCarRental
+- _GEOPOICategoryEVCharger
+- _GEOPOICategoryFishing
+- _GEOPOICategoryFitnessCenter
+- _GEOPOICategoryFoodMarket
+- _GEOPOICategoryGasStation
+- _GEOPOICategoryGoKart
+- _GEOPOICategoryHospital
+- _GEOPOICategoryHotel
+- _GEOPOICategoryLandmark
+- _GEOPOICategoryLibrary
+- _GEOPOICategoryMailbox
+- _GEOPOICategoryMiniGolf
+- _GEOPOICategoryMovieTheater
+- _GEOPOICategoryMuseum
+- _GEOPOICategoryMusicVenue
+- _GEOPOICategoryNationalMonument
+- _GEOPOICategoryNightlife
+- _GEOPOICategoryPharmacy
+- _GEOPOICategoryPlanetarium
+- _GEOPOICategoryPolice
+- _GEOPOICategoryPostOffice
+- _GEOPOICategoryPublicTransport
+- _GEOPOICategoryRestaurant
+- _GEOPOICategoryRockClimbing
+- _GEOPOICategorySchool
+- _GEOPOICategorySkatePark
+- _GEOPOICategorySkating
+- _GEOPOICategorySpa
+- _GEOPOICategoryStadium
+- _GEOPOICategoryStore
+- _GEOPOICategoryTennis
+- _GEOPOICategoryTheater
+- _GEOPOICategoryZoo
+- _NSProtocolFromString
+- _OBJC_CLASS_$_AVCaptureEventInteraction
+- _OBJC_CLASS_$_GEOPlaceExternalActionLink
+- _OBJC_CLASS_$_GEOPlaceExternalActionProvider
+- _OBJC_CLASS_$_LPMetadataProvider
+- _OBJC_CLASS_$_NSDictionary
+- _OBJC_CLASS_$_NSJSONSerialization
+- _OBJC_CLASS_$_PHAssetCreationRequest
+- _OBJC_CLASS_$_VIImageRegion
+- _OBJC_CLASS_$_VIImageRegionDomainInfo
+- _OBJC_CLASS_$_VIObjectKnowledgeProperty
+- _OBJC_CLASS_$_VIParsedVisualQuery
+- _OBJC_CLASS_$_VIQueryContext
+- _OBJC_CLASS_$_VIRegionOfInterestResult
+- _OBJC_CLASS_$_VIRegionOfInterestResultItem
+- _OBJC_CLASS_$_VIService
+- _OBJC_CLASS_$_VIVisualQuery
+- _OBJC_CLASS_$__SearchUI
+- _VIQueryContextApplicationIdentifierKey
+- _VIQueryContextImageTypeKey
+- _VIQueryContextLocationKey
+- _VIQueryContextQueryIDKey
+- _class_addProtocol
+- _objc_retainBlock
+- _objc_retain_x3
+- _objc_retain_x4
+CStrings:
++ " asks ChatGPT for more information by capturing and sending what’s in view."
++ " frameTimestamp: "
++ " not the preferred Siri language: "
++ " searches Google for similar images by capturing and sending what’s in view."
++ "### siriDidActivate was deprecated"
++ "### siriWillPresentResults received"
++ "### siriWillProcessRequest received"
++ "%!s(MISSING) size: %!l(MISSING)d x %!l(MISSING)d"
++ "(URL, Optional<OpenSensitiveURLOptions>) -> ()"
++ ". Expected .mov file)"
++ "@\"<MTLAccelerationStructureCommandEncoder>\"16@0:8"
++ "@\"<MTLAccelerationStructureCommandEncoder>\"24@0:8@\"MTLAccelerationStructurePassDescriptor\"16"
++ "@\"<MTLBlitCommandEncoder>\"16@0:8"
++ "@\"<MTLBlitCommandEncoder>\"24@0:8@\"MTLBlitPassDescriptor\"16"
++ "@\"<MTLCommandQueue>\"16@0:8"
++ "@\"<MTLComputeCommandEncoder>\"16@0:8"
++ "@\"<MTLComputeCommandEncoder>\"24@0:8@\"MTLComputePassDescriptor\"16"
++ "@\"<MTLComputeCommandEncoder>\"24@0:8Q16"
++ "@\"<MTLLogContainer>\"16@0:8"
++ "@\"<MTLParallelRenderCommandEncoder>\"24@0:8@\"MTLRenderPassDescriptor\"16"
++ "@\"<MTLRenderCommandEncoder>\"24@0:8@\"MTLRenderPassDescriptor\"16"
++ "@\"<MTLResourceStateCommandEncoder>\"16@0:8"
++ "@\"<MTLResourceStateCommandEncoder>\"24@0:8@\"MTLResourceStatePassDescriptor\"16"
++ "@\"<MUExternalActionAnalyticsHandling>\"16@0:8"
++ "@\"<MUOfflineMapProvider>\"16@0:8"
++ "@\"<MUPlaceCardActionsRowViewMenuProvider>\"16@0:8"
++ "@\"MKMapItem\"16@0:8"
++ "@\"MUPlaceUnifiedActionRowSectionControllerConfiguration\""
++ "@\"NSError\"16@0:8"
++ "@\"NSNumber\"16@0:8"
++ "@36@0:8@16@24i32"
++ "@44@0:8@16@24i32q36"
++ "@48@0:8{?=dd}16d32@40"
++ "@52@0:8{?=dd}16d32@40i48"
++ "@60@0:8{?=dd}16d32@40i48q52"
++ "AI_OVERVIEW"
++ "ANSWER"
++ "ARCameraSource.applySafetyCrop"
++ "ARCameraSource.captureHighResolutionFrame"
++ "ARCameraSource.depthMapSafetyCrop"
++ "ARCameraSource.highQualityFrame"
++ "ARCameraSource.monocularDepth"
++ "ARCameraSource.paused"
++ "ARCameraSource.pausing"
++ "ARCameraSource.running"
++ "ARCameraSource.stopped"
++ "AVCameraSource does not support reconfigure"
++ "Activating Siri"
++ "Ask ChatGPT selected"
++ "Asked to perform Identify on a track with no associated results"
++ "Attempting reconfig for record start/stop"
++ "Attempting to open a sensitive URL: %!s(MISSING)"
++ "Beginning search request %!s(MISSING) at %!f(MISSING)"
++ "Brand '%!s(MISSING)' / %!s(MISSING) → %!f(MISSING)"
++ "CameraController.pause"
++ "CameraController.start"
++ "CameraController.stop"
++ "Canceling in-flight request"
++ "Cannot reconfigure while running"
++ "Cannot start recording from lock screen"
++ "Cannot trigger radar from lock screen"
++ "Case 'reverseChronoSequence' cannot be encoded because it is not defined in CodingKeys."
++ "Changing configuration back to World tracking (location permission withdrawn)"
++ "ChatGPT is only available if you are 13 or older."
++ "Classification Overlay"
++ "Clearing cached candidate results"
++ "Close Photo View"
++ "DEFAULT"
++ "Data Collection Capture Video"
++ "DebugDraw"
++ "Deferring search request %!s(MISSING) for rate limiting (it's %!f(MISSING), search again at %!f(MISSING)"
++ "Detected text was in "
++ "Detected text was not in a summarizable langauge (i.e., English) but in "
++ "EXACT_MATCH"
++ "Error creating URL for %!s(MISSING)"
++ "Error creating directory at path %!s(MISSING)"
++ "Error removing file at %!s(MISSING)"
++ "Error retrieving prompt"
++ "Error setting the colorSpace for image"
++ "Event classified: \"%!s(MISSING)\" confidence %!s(MISSING)"
++ "EventLLMLookupUtility.preheat took %!f(MISSING) seconds"
++ "Exceeded max candidate limit. Reducing valid radius for cached response"
++ "Existing cached results are still valid for new location: %!s(MISSING) with radius %!f(MISSING) meters"
++ "Failed to create input"
++ "Failed to fetch private access token %!@(MISSING)"
++ "Failed to generate nonce input data"
++ "Failed to lookup track with latest estimate for matchPairs"
++ "Failed to lookup track with latest estimate for unmatchedTracks"
++ "Failed to parse output"
++ "Feedback Controller"
++ "File created successfully: %!{(MISSING)bool}d"
++ "File exist at intermediate path"
++ "Fired disappearance timer"
++ "Found host-only webURL match: %!s(MISSING) -> %!s(MISSING)"
++ "GPUEndTime"
++ "GPUStartTime"
++ "Google did not respond."
++ "Google is unavailable. Try again later."
++ "Google provided a malformed response."
++ "Google provided us with no valid results, potentially because of safety filtering."
++ "Hide Debug Visuals"
++ "Hiding phone number action because it doesn't look like a valid number"
++ "INTERNAL"
++ "INVALID_INPUT"
++ "Ignoring shutter button while content is blurred"
++ "Internal-only UI"
++ "Internal: VL search service error"
++ "Invalid input file "
++ "It could be one of these:"
++ "I’m having trouble connecting to the internet right now."
++ "Launch-related: Bringing Tamale contents to foreground"
++ "Launch-related: Sending Tamale contents to background"
++ "Learn about the objects and places around you and get more information about what you see."
++ "Live reconfig failed or not attempted - restarting the old way"
++ "Location Simulation Active"
++ "Location access button was tapped"
++ "MTLCommandBuffer"
++ "MUPlaceUnifiedActionRowLayoutBuilderDelegate"
++ "MUVendorLinkMenuItemViewModelUpdateDelegate"
++ "Matched pair count: expected %!l(MISSING)d but got %!l(MISSING)d back. Did matching take too long?"
++ "NO_RESULT"
++ "Next enablement requirement: %!{(MISSING)public}s"
++ "No calendar events found"
++ "No path set for tamaleAppDebugPromptOverridePath"
++ "No searchable understanding available for search request %!s(MISSING)"
++ "No text results found"
++ "Nominating search for detection from %!f(MISSING)"
++ "Not expected to run on any cadence."
++ "Not presenting location access because there is no store front"
++ "Not presenting location access follow-up because access was set from elsewhere"
++ "Not presenting location access follow-up because it has already been presented"
++ "Not presenting location access follow-up because nothing is in the boresight"
++ "Not presenting location access follow-up because something else is showing"
++ "Not presenting location access follow-up because there's nothing valid in the boresight"
++ "OK"
++ "Opened Visual Intelligence with Camera Control"
++ "PRODUCT"
++ "Pin actionable only"
++ "Please file a radar with a view hierarchy dump if this is unexpected 🙏"
++ "Presenting location access follow-up because there is a store front"
++ "PreviewLayer CALayer state mutex"
++ "PreviewLayer.becameSafe"
++ "PreviewLayer.becameUnsafe"
++ "Private Access Token challengeData empty"
++ "PrivateToken token=\""
++ "Pruned some old results at %!f(MISSING): %!l(MISSING)d still in cache"
++ "RELATED_QUERY"
++ "Read Aloud is unavailable. Try again later."
++ "Read Aloud request timed out unexpectedly, likely because we failed to retrieve text detections or sirireaderd is down."
++ "Read Aloud was no longer expected because the state has changed."
++ "Reconfig failed: %!s(MISSING)"
++ "Reconfigure only supported for recording / replay changes"
++ "Reconfigure unsupported when running."
++ "Replay Logging…"
++ "Reset Follow Ups"
++ "Reset prompt"
++ "Resetting onboarding follow up prompts…"
++ "Restarting in normal mode"
++ "Retried current configuration %!l(MISSING)d. Error state for %!s(MISSING)"
++ "Retrieved for event extraction: %!s(MISSING)"
++ "Retrying because current configuration has errored and retried %!l(MISSING)d times"
++ "SENSITIVE_NO_RESULT"
++ "SIMILAR_IMAGE"
++ "SIMILAR_IMAGES"
++ "Saved edited prompt to %!s(MISSING)"
++ "Search %!s(MISSING) has been waiting longer than the retry interval for results"
++ "Search results received for %!s(MISSING)"
++ "Searching with Google"
++ "Set disappearance timer for %!f(MISSING) s %!s(MISSING)"
++ "Setting zoom factor %!f(MISSING) for %!s(MISSING)"
++ "Show Debug Visuals"
++ "Show Report Button"
++ "Showing phone number action because it looks like a valid number"
++ "ShutterRimHighlight"
++ "SimulatorCameraSource does not support reconfigure"
++ "Siri setup view complete; siriEnabled = %!{(MISSING)bool}d"
++ "SiriRequestStateResponder"
++ "SiriRequestStateResponder - siriDidDeactivate received, currentState: %!s(MISSING)"
++ "SiriRequestStateResponder - siriWillPresentResults received, currentState: %!s(MISSING)"
++ "SiriRequestStateResponder - siriWillProcessRequest received, currentState: %!s(MISSING) idle: %!{(MISSING)bool}d"
++ "Sorry, something went wrong. Please try again."
++ "Subject Eligibility"
++ "Subject cropping failed: frame not available for the provided bounds"
++ "Summarization is not available with this managed configuration"
++ "Summarization is unavailable. Try again later."
++ "Suppressing parse detector miss to allow searches to complete"
++ "Sysdiagnose + Capture Video"
++ "T@\"<MTLCommandQueue>\",R"
++ "T@\"<MTLLogContainer>\",R"
++ "T@\"<MUExternalActionAnalyticsHandling>\",?,W,N"
++ "T@\"<MUOfflineMapProvider>\",?,W,N"
++ "T@\"<MUPlaceCardActionsRowViewMenuProvider>\",?,W,N"
++ "T@\"MKMapItem\",R,N"
++ "T@\"NSArray\",R,N,G_alternateMapsCategoryIDs"
++ "T@\"NSArray\",R,N,G_alternateMapsCategoryMUIDs"
++ "T@\"NSError\",R"
++ "T@\"NSNumber\",R,N,G_mapsCategoryMUID"
++ "Tamale.DebugPreviewLayer.consumeFrameInternal"
++ "Tamale.PreviewLayer.collectUndisplayed"
++ "Tamale.TrackManager.matchSelectedTracks"
++ "Tamale.TrackManager.matchSelectedTracks.bipartiteMatching"
++ "Tamale.TrackManager.matchSelectedTracks.costMatrix"
++ "Tapping the Ask button asks ChatGPT for more information by capturing and sending what’s in view."
++ "Tapping the Search button searches Google for similar images by capturing and sending what’s in view."
++ "Td,R"
++ "The camera is still starting or there might have been an error."
++ "The iPhone needs to cool down before you can use Visual Intelligence with Camera Control."
++ "The images iPhone uses to identify objects and places are not stored on device and are only shared with Apple to process what’s in view."
++ "There were unexpectedly no results."
++ "Ti,N,R"
++ "To show nearby places based on what’s in view, turn on Location Services for Visual Intelligence."
++ "UISceneWillEnterForegroundNotification"
++ "Unable to make a matching computation request"
++ "Unmatched count: expected %!l(MISSING)d but got %!l(MISSING)d back. Did matching take too long?"
++ "Updating bundle to %!s(MISSING)"
++ "Using incorrect candidate search detection. Update your SDK!"
++ "VIDEO"
++ "VISearch: lastLocation: "
++ "VKCDataDetectorInfo.preWarmIfNecessary took %!f(MISSING) seconds"
++ "Visual Intelligence Camera | Data Collect"
++ "VisualIntelligenceCameraReplayInput"
++ "VisualIntelligenceCameraReplayOutput"
++ "We failed to capture a high quality frame."
++ "Writing File"
++ "Wrong detection type"
++ "Your parent or guardian has turned off ChatGPT integration features on this iPhone."
++ "Zero filtered results"
++ "^(0(2|10|11|16|17|18|19|3[1-3]))[- ]?\\d{3,4}[- ]?\\d{4}$"
++ "^(0\\d{1,4})[- ]?\\d{1,4}[- ]?\\d{4}$"
++ "_TtC6Tamale12DetectionLog"
++ "_TtC6Tamale15PromptScheduler"
++ "_TtC6Tamale18FeedbackController"
++ "_TtC6Tamale19ConnectivityUtility"
++ "_TtC6Tamale25SiriRequestStateResponder"
++ "_TtCC6Tamale9GeoLookup39VisualIntelligencePlaceLookupParameters"
++ "_TtCV6Tamale9Lens_ItemP33_C430B055151DC7398ADCB849C6FDA0C513_StorageClass"
++ "_a11YLabel"
++ "_alternateMapsCategoryIDs"
++ "_alternateMapsCategoryMUIDs"
++ "_badgeAttributes"
++ "_cameraController"
++ "_cameraControlsDisabled"
++ "_connectionStatus"
++ "_couldBeConnectedToInternet"
++ "_currentState"
++ "_detectionLog"
++ "_domainName"
++ "_faviconBytes"
++ "_faviconBytesType"
++ "_faviconURL"
++ "_fbkEvaluationController"
++ "_hasCellularConnection"
++ "_imageThumbnail"
++ "_itemType"
++ "_layerIsSafeInternal"
++ "_layerStateMutexQueue"
++ "_mapsCategoryMUID"
++ "_referrerURL"
++ "_shoppableBadge"
++ "_siriRequestStateResponder"
++ "_systemPressureLevelOverride"
++ "_systemZoomSlider"
++ "_tasks"
++ "_timer"
++ "_title"
++ "_tracksInternal"
++ "_tracksLock"
++ "_videoDuration"
++ "_visual_intelligence_"
++ "a11y_label"
++ "accelerationStructureCommandEncoder"
++ "accelerationStructureCommandEncoderWithDescriptor:"
++ "action_url"
++ "addCompletedHandler:"
++ "addScheduledHandler:"
++ "ally_label"
++ "alternateMapsCategoryIDs"
++ "alternateMapsCategoryMUIDs"
++ "analyticsHandler"
++ "answer"
++ "answers"
++ "appCodeSceneConfidence"
++ "apple.nowplaying"
++ "application/x-protobuf"
++ "authorizationStateContinuation"
++ "authorizationStateUpdates"
++ "backward.end.alt.fill"
++ "badge_attributes"
++ "badge_url"
++ "blitCommandEncoder"
++ "blitCommandEncoderWithDescriptor:"
++ "boresightEligibilityPolicy"
++ "boundingRectWithSize:options:attributes:context:"
++ "box"
++ "bundleDisappearanceTimer"
++ "bytes"
++ "cameraCommandContinuation"
++ "cameraControlSlider"
++ "center_x"
++ "center_y"
++ "challengeData"
++ "chevron.backward"
++ "classificationOverlayType"
++ "clientLocation"
++ "code"
++ "commandBuffer"
++ "commandQueue"
++ "commandStreamTask"
++ "completion"
++ "computeCommandEncoder"
++ "computeCommandEncoderWithDescriptor:"
++ "computeCommandEncoderWithDispatchType:"
++ "contentImage"
++ "createCGImage:fromRect:format:colorSpace:"
++ "createDirectoryAtPath:withIntermediateDirectories:attributes:error:"
++ "currency_code"
++ "currentCommandBuffer"
++ "currentCountrySupportsFeature:"
++ "defaultMetrics"
++ "domain_name"
++ "drawShapesMutex"
++ "enable_private_access_token_auth"
++ "encodeSignalEvent:value:"
++ "encodeWaitForEvent:value:"
++ "enqueue"
++ "errorOptions"
++ "error_message"
++ "exact_match"
++ "exclamationmark.warninglight"
++ "exitAfterVideoReplay"
++ "explore_grid"
++ "favicon_bytes"
++ "favicon_bytes_type"
++ "favicon_url"
++ "fetchPrivateAccessTokenHeader()"
++ "fetchTokenWithQueue:completionHandler:"
++ "fileExistsAtPath:isDirectory:"
++ "focusSelectionEnabled"
++ "generateDataDetectorInfoWithTypes:unfiltered:"
++ "google_image_search"
++ "hasPresentedGeoLookupFollowUpPrompt"
++ "hasPresentedMontaraRestrictionWarning"
++ "hitTestUIView"
++ "image_action_url"
++ "image_bytes"
++ "image_source_bytes"
++ "image_source_type"
++ "image_source_url"
++ "image_thumbnail"
++ "inflightSearches"
++ "initForKnownIssuerWithChallenge:"
++ "initRSABlindSignatureChallengeWithIssuerName:redemptionNonce:originNames:"
++ "initWithCGImage:scale:orientation:"
++ "initWithCoordinate:radius:categories:"
++ "initWithCoordinate:radius:categories:maxResultCount:"
++ "initWithCoordinate:radius:categories:maxResultCount:source:"
++ "initWithCoordinate:radius:poiCategoryFilter:maxResultCount:"
++ "initWithCoordinate:radius:poiCategoryFilter:maxResultCount:source:"
++ "initWithLightSource:lightMaterial:darkMaterial:bundle:"
++ "initWithMapRegion:poiCategoryFilter:"
++ "initWithMapRegion:poiCategoryFilter:maxResultCount:"
++ "initWithMapRegion:poiCategoryFilter:maxResultCount:source:"
++ "initWithString:"
++ "internalErrorString"
++ "isExternalIntelligenceAllowed"
++ "isLoggingFrameConsumerAttached"
++ "isVisualIntelligenceSummaryAllowed"
++ "item_type"
++ "items"
++ "kernelEndTime"
++ "kernelStartTime"
++ "labelColor"
++ "language"
++ "lens.ExploreGrid"
++ "lens.FetchVisualDataRequest"
++ "lens.FetchVisualDataResponse"
++ "lens.ImageThumbnail"
++ "lens.NormalizedBox"
++ "lens.RelatedSearch"
++ "lens.RequestConfig"
++ "lens.SearchResult"
++ "lens.ShoppableBadge"
++ "llm_answer"
++ "locale"
++ "localizedErrorString"
++ "locationMonitoringTask"
++ "locationsimulation-debug-status-label"
++ "logURL"
++ "logs"
++ "mainRunLoop"
++ "mapsCategoryMUID"
++ "matchingComputationRequestProcessingTask"
++ "matchingComputationRequestStream"
++ "matchingComputationRequestStreamContinuation"
++ "matchingComputationResultStream"
++ "matchingComputationResultStreamContinuation"
++ "matchingPolicyForMapItem:"
++ "maxResultCount"
++ "menuProvider"
++ "mobileCountryCode"
++ "mobileNetworkCode"
++ "monitor"
++ "montaraPromptConfiguration"
++ "moveItemAtURL:toURL:error:"
++ "newCommandQueue"
++ "nonceInput data failed"
++ "none"
++ "num_inline_items"
++ "objects"
++ "offlineMapProvider"
++ "operatingSystemVersionString"
++ "parallelRenderCommandEncoderWithDescriptor:"
++ "pin-container-report-a-concern-button"
++ "pin-container-report-a-concern-label"
++ "pin-container-visual-lookup-internal-error-label"
++ "pinActionableOnly"
++ "popDebugGroup"
++ "ppissuer.mtls.googleapis.com"
++ "preferredFontForTextStyle:"
++ "presentDrawable:"
++ "presentDrawable:afterMinimumDuration:"
++ "presentDrawable:atTime:"
++ "price"
++ "price_micros"
++ "processIdentifier"
++ "pushDebugGroup:"
++ "qrSceneConfidence"
++ "query"
++ "queue"
++ "referrer_url"
++ "region"
++ "related_searches"
++ "renderCommandEncoderWithDescriptor:"
++ "replay-debug-button"
++ "replay-exit-debug-button"
++ "requestPrewarmingForFeature:options:"
++ "request_config"
++ "requested_features"
++ "resetSelection"
++ "resourceStateCommandEncoder"
++ "resourceStateCommandEncoderWithDescriptor:"
++ "result"
++ "result_panel_url"
++ "retainedReferences"
++ "scaledFontForFont:"
++ "scheduledTimerWithTimeInterval:repeats:block:"
++ "search(visualUnderstanding:timestamp:)"
++ "searchableDetections"
++ "sendAccessibilityNotifications"
++ "serviceSubscriberCellularProviders"
++ "sessionConfiguration"
++ "setAnalyticsHandler:"
++ "setDropInitialFramesOutsideExposureTarget:"
++ "setEnabled:"
++ "setKeepResourcesLoaded:"
++ "setMenuProvider:"
++ "setOfflineMapProvider:"
++ "setOpacity:"
++ "setSystemClient:"
++ "setVideoZoomFactor:"
++ "settings-navigation://com.apple.Settings.PrivacyAndSecurity/LOCATION/com.apple.VisualIntelligenceCamera"
++ "sharedConnection"
++ "shoppable_badge"
++ "shouldPassthroughUserInput"
++ "showReportButton"
++ "snippet"
++ "sourceType"
++ "source_url"
++ "sources"
++ "startDateISO8601"
++ "status"
++ "subFeatureString: %!s(MISSING)"
++ "subsequentConsumer"
++ "supportsControls"
++ "tap-to-dismiss-non-modal-layer"
++ "text.line.2.summary"
++ "text_query"
++ "time_zone"
++ "traits"
++ "unsupportedPOICategories"
++ "update(location:searchRadiusMeters:)"
++ "useResidencySet:"
++ "useResidencySets:count:"
++ "v16@?0@\"NSTimer\"8"
++ "v24@0:8@\"<MTLDrawable>\"16"
++ "v24@0:8@\"<MTLResidencySet>\"16"
++ "v24@0:8@\"<MUExternalActionAnalyticsHandling>\"16"
++ "v24@0:8@\"<MUOfflineMapProvider>\"16"
++ "v24@0:8@\"<MUPlaceCardActionsRowViewMenuProvider>\"16"
++ "v24@0:8@\"MUVendorLinkMenuItemViewModel\"16"
++ "v24@0:8@?<v@?@\"<MTLCommandBuffer>\">16"
++ "v24@?0@\"NSData\"8@\"NSError\"16"
++ "v32@0:8@\"<MTLDrawable>\"16d24"
++ "v32@0:8@\"<MTLEvent>\"16Q24"
++ "v32@0:8@16Q24"
++ "v32@0:8@16d24"
++ "v32@0:8r^@16Q24"
++ "video_duration"
++ "waitUntilCompleted"
++ "waitUntilScheduled"
++ "→ Final score: %!f(MISSING)"
+- "### siriDidActivate received"
+- "$__lazy_storage_$_bogusPixelBuffer"
+- "$__lazy_storage_$_predictionProcessingTask"
+- "$__lazy_storage_$_trackReadingTask"
+- "$__lazy_storage_$_view"
+- ", iPhone captures what’s in view and sends the image to ChatGPT for more information."
+- ", iPhone captures what’s in view and sends the image to Google for similar images."
+- "-- Text: %!s(MISSING)"
+- "@"
+- "@\"UIImage\"16@0:8"
+- "ARCameraSource failed with ARKit error %!s(MISSING)"
+- "ARCameraSource failed with generic error %!s(MISSING)"
+- "AVCapturePhotoCaptureDelegate"
+- "ActionRowItemViewModelProtocol"
+- "Ask Siri selected. Checking enablement."
+- "B24@0:8@\"UIGestureRecognizer\"16"
+- "B32@0:8@\"UIGestureRecognizer\"16@\"UIEvent\"24"
+- "B32@0:8@\"UIGestureRecognizer\"16@\"UIGestureRecognizer\"24"
+- "B32@0:8@\"UIGestureRecognizer\"16@\"UIPress\"24"
+- "B32@0:8@\"UIGestureRecognizer\"16@\"UITouch\"24"
+- "Case 'searchable' cannot be encoded because it is not defined in CodingKeys."
+- "Collected undisplayed image!"
+- "Column %!l(MISSING)d:"
+- "Cost matrix should only contain elements between [0,1]"
+- "Detected text was not the preferred Siri language"
+- "Empty search result for %!s(MISSING)"
+- "Event classified: \"%!s(MISSING)\" confidence %!f(MISSING)"
+- "Existing cached results are still valid for new location"
+- "Failed to generate an event"
+- "FocusSelection"
+- "GMS is restricted with reasons %!s(MISSING)"
+- "GMS is unavailable with reasons %!s(MISSING)"
+- "Images from your camera are not stored on iPhone or shared with Apple."
+- "Learn about the objects and places around you and get even more information about what you see."
+- "MUActionRowItemViewModel"
+- "MUPlaceActionRowItemViewModel"
+- "MUPlaceExternalActionViewModel"
+- "MUPlaceUnifiedActionRowLayoutBuilder"
+- "MUVendorLinkMenuItemViewModel"
+- "Montara is not enabled. Starting enrollment."
+- "No Summary Available"
+- "No image data"
+- "Not taking further action in result view because URL is being handled by SFSafariViewController"
+- "Playback only supported for ARCameraSource"
+- "Presenting URL in app (%!l(MISSING)d actionPickerItems available)"
+- "PreviewLayer layer changed queue"
+- "Prewarm took %!f(MISSING) seconds"
+- "Radar recording\nShutter to end"
+- "Reading from Visual Intelligence with Camera Control"
+- "Setting zoom factor %!f(MISSING) from %!s(MISSING)"
+- "Siri is not enabled. Starting enrollment."
+- "Starting search for %!s(MISSING)"
+- "SupportedCountriesVisualIntelligenceCamera"
+- "SupportsVisualIntelligenceCamera"
+- "T@\"NSString\",C,N"
+- "T@\"UIImage\",C,N"
+- "Tamale/TrackManager.swift"
+- "Tamale3"
+- "TamaleExtras"
+- "The iPhone needs to cool down before you can use\nVisual Intelligence with Camera Control."
+- "This may be one of these locations:"
+- "Top left: (%!f(MISSING), %!f(MISSING)), top right: (%!f(MISSING), %!f(MISSING)), bottom left: (%!f(MISSING), %!f(MISSING)), bottom right: (%!f(MISSING), %!f(MISSING))\n"
+- "UIGestureRecognizerDelegate"
+- "Unable to save photo capture: %!s(MISSING)"
+- "VendorLinkMenuItemViewModelProtocol"
+- "VendorLinkMenuItemViewModelUpdateDelegate"
+- "Visual Intelligence Issue"
+- "VisualIntelligence"
+- "_TtC6Tamale12ReplayLogger"
+- "_TtC6Tamale15FeedbackUtility"
+- "_TtC6TamaleP33_CB9A7EFC65016F53AD4CA0E26F42D7A120StillConsumerWrapper"
+- "_TtCV6Tamale24AVCaptureEventInteractor11Coordinator"
+- "_googleImageSearchAPIKey"
+- "_hasOnboardedACME"
+- "_hasOnboardedApp"
+- "_hasOnboardedImageSearch"
+- "_layerNeedsUpdateMutexQueue"
+- "_lp_simplifiedDisplayString"
+- "_openURL"
+- "_showEngineeringUIControls"
+- "_showMontaraOnboarding"
+- "_siriDismissed"
+- "actionName"
+- "actionProviders"
+- "alloc"
+- "application/json"
+- "areControlsSupported"
+- "boolValue"
+- "buildMenuItemViewModelsForExternalActionViewModel:updateDelegate:completion:"
+- "captureHighResolutionFrame"
+- "captureOutput:didCapturePhotoForResolvedSettings:"
+- "captureOutput:didFinishCaptureForResolvedSettings:error:"
+- "captureOutput:didFinishCapturingDeferredPhotoProxy:error:"
+- "captureOutput:didFinishProcessingLivePhotoToMovieFileAtURL:duration:photoDisplayTime:resolvedSettings:error:"
+- "captureOutput:didFinishProcessingPhoto:error:"
+- "captureOutput:didFinishProcessingPhotoSampleBuffer:previewPhotoSampleBuffer:resolvedSettings:bracketSettings:error:"
+- "captureOutput:didFinishProcessingRawPhotoSampleBuffer:previewPhotoSampleBuffer:resolvedSettings:bracketSettings:error:"
+- "captureOutput:didFinishRecordingLivePhotoMovieForEventualFileAtURL:resolvedSettings:"
+- "captureOutput:willBeginCaptureForResolvedSettings:"
+- "captureOutput:willCapturePhotoForResolvedSettings:"
+- "configureAppSpecificStyling"
+- "contextWithDictionary:error:"
+- "creationRequestForAssetFromImageData:"
+- "currentConsumer"
+- "dataWithJSONObject:options:error:"
+- "debugPreviewLayer"
+- "defaultForKey:defaultValue:"
+- "detailedDescription"
+- "displayLabel"
+- "domainInfo"
+- "domainKey"
+- "fileDataRepresentation"
+- "gestureRecognizer:shouldBeRequiredToFailByGestureRecognizer:"
+- "gestureRecognizer:shouldReceiveEvent:"
+- "gestureRecognizer:shouldReceivePress:"
+- "gestureRecognizer:shouldReceiveTouch:"
+- "gestureRecognizer:shouldRecognizeSimultaneouslyWithGestureRecognizer:"
+- "gestureRecognizer:shouldRequireFailureOfGestureRecognizer:"
+- "gestureRecognizerShouldBegin:"
+- "getMUActionRowItemViewModelClass"
+- "getMUPlaceActionRowItemViewModelClass"
+- "getMUPlaceExternalActionViewModelClass"
+- "getMUPlaceUnifiedActionRowLayoutBuilderClass"
+- "getMUVendorLinkMenuItemViewModelClass"
+- "glyphName"
+- "imageProvider"
+- "imageRegions"
+- "imageSourceUrl"
+- "initWithData:"
+- "initWithEventHandler:"
+- "inputURL"
+- "isLowConfidence"
+- "knowledgeProperties"
+- "loadImage(from:)"
+- "loadObjectOfClass:completionHandler:"
+- "methodForSelector:"
+- "objectKnowledge"
+- "onVideoReplayEnd"
+- "openPartnerActionUsingVendorLinkMenuItemViewModel:fromExternalActionViewModel:"
+- "outputURL"
+- "parseCameraFrameWithVisualQuery:cachedResults:completion:"
+- "payload"
+- "performSingleVendorSelectionFromExternalActionViewModel:"
+- "prepareForDisplayWithCompletionHandler:"
+- "queryWithPixelBuffer:orientation:imageRegions:textBlockAnnotation:queryContext:payload:"
+- "queryWithPixelBuffer:orientation:normalizedRegionOfInterest:textBlockAnnotation:queryContext:"
+- "quickLinkParams"
+- "regionOfInterestResults"
+- "resultItems"
+- "safety-interstitial-cancellation-button"
+- "search(parseCache:region:)"
+- "searchCameraFrameWithParsedVisualQuery:completion:"
+- "searchSections"
+- "setHighlightSelectableItems:"
+- "setImage:"
+- "shouldShowMenuForExternalActionViewModel:"
+- "shouldUseLayoutBuilder"
+- "startFetchingMetadataForURL:completionHandler:"
+- "stillConsumerWrapper"
+- "supportedIntegrations"
+- "text.arrowtriangle.summary"
+- "thumbnailURL"
+- "tracksStream"
+- "update(location:)"
+- "v16@?0@\"AVCaptureEvent\"8"
+- "v24@0:8@\"<VendorLinkMenuItemViewModelProtocol>\"16"
+- "v24@0:8@\"UIImage\"16"
+- "v24@?0@\"<NSItemProviderReading>\"8@\"NSError\"16"
+- "v24@?0@\"LPLinkMetadata\"8@\"NSError\"16"
+- "v24@?0@\"VISearchResult\"8@\"NSError\"16"
+- "v32@0:8@\"AVCapturePhotoOutput\"16@\"AVCaptureResolvedPhotoSettings\"24"
+- "v32@?0@\"VIParseResult\"8@\"NSData\"16@\"NSError\"24"
+- "v40@0:8@\"AVCapturePhotoOutput\"16@\"AVCaptureDeferredPhotoProxy\"24@\"NSError\"32"
+- "v40@0:8@\"AVCapturePhotoOutput\"16@\"AVCapturePhoto\"24@\"NSError\"32"
+- "v40@0:8@\"AVCapturePhotoOutput\"16@\"AVCaptureResolvedPhotoSettings\"24@\"NSError\"32"
+- "v40@0:8@\"AVCapturePhotoOutput\"16@\"NSURL\"24@\"AVCaptureResolvedPhotoSettings\"32"
+- "v64@0:8@\"AVCapturePhotoOutput\"16^{opaqueCMSampleBuffer=}24^{opaqueCMSampleBuffer=}32@\"AVCaptureResolvedPhotoSettings\"40@\"AVCaptureBracketedStillImageSettings\"48@\"NSError\"56"
+- "v64@0:8@16^{opaqueCMSampleBuffer=}24^{opaqueCMSampleBuffer=}32@40@48@56"
+- "v96@0:8@\"AVCapturePhotoOutput\"16@\"NSURL\"24{?=qiIq}32{?=qiIq}56@\"AVCaptureResolvedPhotoSettings\"80@\"NSError\"88"
+- "v96@0:8@16@24{?=qiIq}32{?=qiIq}56@80@88"
+- "value"
+- "visualUnderstanding"
+- "visual_intelligence_"
+- "webLinkParams"
+
+```

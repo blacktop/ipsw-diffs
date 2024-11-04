@@ -1,0 +1,248 @@
+## ConversationKit
+
+> `/System/Library/PrivateFrameworks/ConversationKit.framework/ConversationKit`
+
+```diff
+
+-525.300.123.0.0
+-  __TEXT.__text: 0x7b4f8c
+-  __TEXT.__auth_stubs: 0x7c20
+-  __TEXT.__objc_methlist: 0x6400
+-  __TEXT.__const: 0x2b104
++525.300.153.0.0
++  __TEXT.__text: 0x7c1848
++  __TEXT.__auth_stubs: 0x7c70
++  __TEXT.__objc_methlist: 0x6428
++  __TEXT.__const: 0x2b464
+   __TEXT.__cstring: 0x301fb
+-  __TEXT.__oslogstring: 0x18611
+-  __TEXT.__swift5_typeref: 0x27ce2
+-  __TEXT.__swift5_capture: 0x94a4
+-  __TEXT.__constg_swiftt: 0x1a6a8
+-  __TEXT.__swift5_builtin: 0x938
++  __TEXT.__oslogstring: 0x188f1
++  __TEXT.__swift5_typeref: 0x277bc
++  __TEXT.__swift5_capture: 0x94b4
++  __TEXT.__constg_swiftt: 0x1a920
++  __TEXT.__swift5_builtin: 0x94c
+   __TEXT.__swift5_mpenum: 0x1bc
+-  __TEXT.__swift5_reflstr: 0x18dad
+-  __TEXT.__swift5_fieldmd: 0x13a74
+-  __TEXT.__swift5_assocty: 0x24b0
++  __TEXT.__swift5_reflstr: 0x18e9d
++  __TEXT.__swift5_fieldmd: 0x13ba4
++  __TEXT.__swift5_assocty: 0x2558
+   __TEXT.__swift5_protos: 0x310
+-  __TEXT.__swift5_proto: 0x1870
+-  __TEXT.__swift5_types: 0x12d4
+-  __TEXT.__unwind_info: 0x1d9f0
+-  __TEXT.__eh_frame: 0x14b30
++  __TEXT.__swift5_proto: 0x188c
++  __TEXT.__swift5_types: 0x12f4
++  __TEXT.__unwind_info: 0x1dba0
++  __TEXT.__eh_frame: 0x14a90
+   __TEXT.__objc_classname: 0xd39
+-  __TEXT.__objc_methname: 0x15755
++  __TEXT.__objc_methname: 0x157f0
+   __TEXT.__objc_methtype: 0x38fc
+-  __TEXT.__objc_stubs: 0x7a0
+-  __DATA_CONST.__got: 0x29b8
+-  __DATA_CONST.__const: 0x4f58
++  __TEXT.__objc_stubs: 0x7c0
++  __DATA_CONST.__got: 0x26b8
++  __DATA_CONST.__const: 0x4f68
+   __DATA_CONST.__objc_classlist: 0xc70
+   __DATA_CONST.__objc_catlist: 0x68
+   __DATA_CONST.__objc_protolist: 0x648
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x5798
++  __DATA_CONST.__objc_selrefs: 0x57b0
+   __DATA_CONST.__objc_protorefs: 0x330
+   __DATA_CONST.__objc_superrefs: 0x8
+-  __AUTH_CONST.__auth_got: 0x3e18
+-  __AUTH_CONST.__auth_ptr: 0x3cf8
+-  __AUTH_CONST.__const: 0x2c748
++  __AUTH_CONST.__auth_got: 0x3e40
++  __AUTH_CONST.__auth_ptr: 0x48f8
++  __AUTH_CONST.__const: 0x2ca98
+   __AUTH_CONST.__cfstring: 0x1c0
+-  __AUTH_CONST.__objc_const: 0x27570
+-  __AUTH.__objc_data: 0xf5c0
+-  __AUTH.__data: 0xea78
++  __AUTH_CONST.__objc_const: 0x275f0
++  __AUTH.__objc_data: 0xeaa0
++  __AUTH.__data: 0xe888
+   __DATA.__objc_ivar: 0x20
+-  __DATA.__data: 0x11c30
++  __DATA.__data: 0x11b00
+   __DATA.__objc_stublist: 0x8
+-  __DATA.__bss: 0x26db0
++  __DATA.__bss: 0x26fc0
+   __DATA.__common: 0x1730
+-  __DATA_DIRTY.__objc_data: 0x5400
+-  __DATA_DIRTY.__data: 0x47f8
+-  __DATA_DIRTY.__bss: 0x1790
++  __DATA_DIRTY.__objc_data: 0x5f48
++  __DATA_DIRTY.__data: 0x4d78
++  __DATA_DIRTY.__bss: 0x1910
+   __DATA_DIRTY.__common: 0x728
+   - /System/Library/Frameworks/AVFAudio.framework/AVFAudio
+   - /System/Library/Frameworks/AVFoundation.framework/AVFoundation
+
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/swift/libswiftAVFoundation.dylib
+   - /usr/lib/swift/libswiftAccelerate.dylib
++  - /usr/lib/swift/libswiftAppleArchive.dylib
+   - /usr/lib/swift/libswiftCallKit.dylib
+   - /usr/lib/swift/libswiftCompression.dylib
+   - /usr/lib/swift/libswiftCore.dylib
+
+   - /usr/lib/swift/libswiftsimd.dylib
+   - /usr/lib/swift/libswiftsys_time.dylib
+   - /usr/lib/swift/libswiftunistd.dylib
+-  Functions: 53964
+-  Symbols:   78397
+-  CStrings:  10070
++  Functions: 54252
++  Symbols:   78703
++  CStrings:  10086
+ 
+Symbols:
++ _$s15ConversationKit0A12StateManagerC029updateRemoteVideoPresentationC0yySo06TUCallfghC0VF
++ _$s15ConversationKit0A25PresentationStateManagingP017updateRemoteVideocD0yySo06TUCallghcD0VFTj
++ _$s15ConversationKit0A25PresentationStateManagingP017updateRemoteVideocD0yySo06TUCallghcD0VFTq
++ _$s15ConversationKit0A25PresentationStateProviderC017updateRemoteVideocD0yySo06TUCallghcD0VF
++ _$s15ConversationKit0A25PresentationStateProviderC19heldCallDisplayNameSSSgvg
++ _$s15ConversationKit0A25PresentationStateProviderC19heldCallDisplayNameSSSgvpMV
++ _$s15ConversationKit0A25PresentationStateProviderC28heldCallDisplayNamePublisher7Combine03AnyJ0VySSSgs5NeverOGvg
++ _$s15ConversationKit0A25PresentationStateProviderC28heldCallDisplayNamePublisher7Combine03AnyJ0VySSSgs5NeverOGvpMV
++ _$s15ConversationKit0A25PresentationStateProviderC28onHeldCallDisplayNameUpdatedyySSSgF
++ _$s15ConversationKit0A25PresentationStateProviderC6avMode17callDisplayStatus14isSendingVideo0K5Muted0hI4Info0H14DurationString5image0k5OneTosG7Enabled0K9Emergency08heldCallI4Name16contactsByHandle21ignoreLetMeInRequestsACSo20TUConversationAVModeV_AA0xiJ0VS2bAA0xiO0OSSSgSo7UIImageCSgS2bAVSDySo8TUHandleCSo9CNContactCSgGSbtcfC
++ _$s15ConversationKit0A25PresentationStateProviderC6avMode17callDisplayStatus14isSendingVideo0K5Muted0hI4Info0H14DurationString5image0k5OneTosG7Enabled0K9Emergency08heldCallI4Name16contactsByHandle21ignoreLetMeInRequestsACSo20TUConversationAVModeV_AA0xiJ0VS2bAA0xiO0OSSSgSo7UIImageCSgS2bAVSDySo8TUHandleCSo9CNContactCSgGSbtcfCTj
++ _$s15ConversationKit0A25PresentationStateProviderC6avMode17callDisplayStatus14isSendingVideo0K5Muted0hI4Info0H14DurationString5image0k5OneTosG7Enabled0K9Emergency08heldCallI4Name16contactsByHandle21ignoreLetMeInRequestsACSo20TUConversationAVModeV_AA0xiJ0VS2bAA0xiO0OSSSgSo7UIImageCSgS2bAVSDySo8TUHandleCSo9CNContactCSgGSbtcfCTq
++ _$s15ConversationKit0A25PresentationStateProviderC6avMode17callDisplayStatus14isSendingVideo0K5Muted0hI4Info0H14DurationString5image0k5OneTosG7Enabled0K9Emergency08heldCallI4Name16contactsByHandle21ignoreLetMeInRequestsACSo20TUConversationAVModeV_AA0xiJ0VS2bAA0xiO0OSSSgSo7UIImageCSgS2bAVSDySo8TUHandleCSo9CNContactCSgGSbtcfc
++ _$s15ConversationKit0A26PresentationStateProvidingP017updateRemoteVideocD0yySo06TUCallghcD0VFTj
++ _$s15ConversationKit0A26PresentationStateProvidingP017updateRemoteVideocD0yySo06TUCallghcD0VFTq
++ _$s15ConversationKit0A26PresentationStateProvidingP19heldCallDisplayNameSSSgvgTj
++ _$s15ConversationKit0A26PresentationStateProvidingP19heldCallDisplayNameSSSgvgTq
++ _$s15ConversationKit0A26PresentationStateProvidingP28heldCallDisplayNamePublisher7Combine03AnyJ0VySSSgs5NeverOGvgTj
++ _$s15ConversationKit0A26PresentationStateProvidingP28heldCallDisplayNamePublisher7Combine03AnyJ0VySSSgs5NeverOGvgTq
++ _$s15ConversationKit11StateHolderC5statexvi
++ _$s15ConversationKit15CallDisplayInfoO6isHeldSbvg
++ _$s15ConversationKit15CallDisplayInfoO6isHeldSbvpMV
++ _$s15ConversationKit16IconButtonConfigC18accessibilityLabelSSSgvi
++ _$s15ConversationKit16IconButtonConfigC23accessibilityIdentifierSSSgvi
++ _$s15ConversationKit16IconButtonConfigC5titleSSSgvi
++ _$s15ConversationKit16IconButtonConfigC6symbolAA12SystemSymbolVyxGvi
++ _$s15ConversationKit16IconButtonConfigC7enabledSbvi
++ _$s15ConversationKit17CaptionsViewModelC11layoutIdiomAA08MultiwayD10ControllerC06LayoutG0Ovi
++ _$s15ConversationKit17CaptionsViewModelC12cancellables33_D03136F53DBECA23D338927B71A5C041LLSay7Combine14AnyCancellableCGvi
++ _$s15ConversationKit17CaptionsViewModelC15expirationTimer33_D03136F53DBECA23D338927B71A5C041LLSo7NSTimerCSgvi
++ _$s15ConversationKit17CaptionsViewModelC16suppressionTimer33_D03136F53DBECA23D338927B71A5C041LLSo7NSTimerCSgvi
++ _$s15ConversationKit17CaptionsViewModelC24onRequestMinimizeHandlerySbcSgvi
++ _$s15ConversationKit17CaptionsViewModelC31onRequestDismissControlsHandleryycSgvi
++ _$s15ConversationKit17CaptionsViewModelC6sourceAA0C11StateSourceCvi
++ _$s15ConversationKit17CaptionsViewModelC9sectionerAA16CaptionSectionerVvi
++ _$s15ConversationKit19CaptionsStateSourceC10groupImageSo7UIImageCSgvi
++ _$s15ConversationKit19CaptionsStateSourceC10maximumAgeSdSgvi
++ _$s15ConversationKit19CaptionsStateSourceC11isGroupCallSbvi
++ _$s15ConversationKit19CaptionsStateSourceC11isMinimizedSbvi
++ _$s15ConversationKit19CaptionsStateSourceC12cancellables33_D03136F53DBECA23D338927B71A5C041LLSay7Combine14AnyCancellableCGvi
++ _$s15ConversationKit19CaptionsStateSourceC12participantsSayAA11ParticipantVGvi
++ _$s15ConversationKit19CaptionsStateSourceC14suppressionAgeSdSgvi
++ _$s15ConversationKit19CaptionsStateSourceC17onRequestMinimizeyySbcvi
++ _$s15ConversationKit19CaptionsStateSourceC18allowsMinimizationSbvi
++ _$s15ConversationKit19CaptionsStateSourceC24onRequestDismissControlsyycvi
++ _$s15ConversationKit19CaptionsStateSourceC32languageModelDownloadingProgressSdSgvi
++ _$s15ConversationKit19CaptionsStateSourceC8callNameSSSgvi
++ _$s15ConversationKit19CaptionsStateSourceC8sectionsSayAA16CaptionSectionerV14SpeakerSectionVGvi
++ _$s15ConversationKit20ClarityUIPreferencesC14recentsEnabledSbvi
++ _$s15ConversationKit20ClarityUIPreferencesC19inCallKeypadEnabledSbvi
++ _$s15ConversationKit20ClarityUIPreferencesC20speakerOptionEnabledSbvi
++ _$s15ConversationKit20ClarityUIPreferencesC22recentsEnabledObserver33_ED8DFBC23045E8F4B521F11A93577C65LLSo15BSInvalidatable_pSgvi
++ _$s15ConversationKit20ClarityUIPreferencesC26incomingCommunicationLimitSo016CLFCommunicationG0avi
++ _$s15ConversationKit20ClarityUIPreferencesC26outgoingCommunicationLimitSo016CLFCommunicationG0avi
++ _$s15ConversationKit20ClarityUIPreferencesC27inCallKeypadEnabledObserver33_ED8DFBC23045E8F4B521F11A93577C65LLSo15BSInvalidatable_pSgvi
++ _$s15ConversationKit20ClarityUIPreferencesC28speakerOptionEnabledObserver33_ED8DFBC23045E8F4B521F11A93577C65LLSo15BSInvalidatable_pSgvi
++ _$s15ConversationKit20ClarityUIPreferencesC34incomingCommunicationLimitObserver33_ED8DFBC23045E8F4B521F11A93577C65LLSo15BSInvalidatable_pSgvi
++ _$s15ConversationKit20ClarityUIPreferencesC34outgoingCommunicationLimitObserver33_ED8DFBC23045E8F4B521F11A93577C65LLSo15BSInvalidatable_pSgvi
++ _$s15ConversationKit21ClarityUIContactsListC12contactCache33_7035332D1F94BFD9135CE4DA73492C23LL14CopresenceCore0G0VySSAA0C9UIContactVGvi
++ _$s15ConversationKit21ClarityUIContactsListC21allContactIdentifiersSaySSGvi
++ _$s15ConversationKit21ClarityUIContactsListC25contactStoreDidUpdateTask33_7035332D1F94BFD9135CE4DA73492C23LLScTyyts5Error_pGSgvi
++ _$s15ConversationKit21PeoplePickerActionBarC22isMessagesAppInstalled33_E918A6DBE24DFDFFFD5C09CF38B09426LLSbvg
++ _$s15ConversationKit22CaptioningStateManagerC018captionsRecognizerdE0AA08CaptionsgD8Managing_pSgvi
++ _$s15ConversationKit22CaptioningStateManagerC12cancellables33_E25B5F1CBA5AA43EB277E16AF8F6E8BDLLShy7Combine14AnyCancellableCGvi
++ _$s15ConversationKit22ClarityUIFavoritesListC9favoritesSayAA0C10UIFavoriteVGvi
++ _$s15ConversationKit23PreCallButtonsViewModelC03preD8DelegateAA0d8Controlscd6ButtonI0_AA14WeaklyHoldablepSgvi
++ _$s15ConversationKit23PreCallButtonsViewModelC14contextSubject33_3E898D8849008F37F4F2E29397E723D4LL7Combine012CurrentValueI0CyAA0cD15ControlsContextOSgs5NeverOGvi
++ _$s15ConversationKit23ShareScreenButtonConfigC011didTapAskTodC0yAA11ParticipantVcSgvi
++ _$s15ConversationKit23ShareScreenButtonConfigC06buttonF0AA04IconeF0CyAA0C15MenuActionStateVGvi
++ _$s15ConversationKit23ShareScreenButtonConfigC9menuItemsSayAA11ParticipantVGvi
++ _$s15ConversationKit25CallControlsMenuViewModelC02inC7Context33_F60AE4F0119D3F55927774623A21B54ELLAA0cd2IncI0Vvi
++ _$s15ConversationKit25CallControlsMenuViewModelC18contextCancellable33_F60AE4F0119D3F55927774623A21B54ELL7Combine03AnyI0CSgvi
++ _$s15ConversationKit25CallControlsMenuViewModelC7contextAA0cD7ContextOvi
++ _$s15ConversationKit35CallControlsTextButtonConfigurationC18accessibilityLabelSSSgvi
++ _$s15ConversationKit35CallControlsTextButtonConfigurationC23accessibilityIdentifierSSSgvi
++ _$s15ConversationKit35CallControlsTextButtonConfigurationC4textSSvi
++ _$s15ConversationKit35CallControlsTextButtonConfigurationC7enabledSbvi
++ _$s15ConversationKit8FeaturesC20isSADMessagesEnabledSbvgTj
++ _$s15ConversationKit8FeaturesC20isSADMessagesEnabledSbvgTq
++ _$s15ConversationKit8FeaturesC20isSADMessagesEnabledSbvpMV
++ _$s15ConversationKit8FeaturesC23isFaceTimeMyselfEnabledSbvgTj
++ _$s15ConversationKit8FeaturesC23isFaceTimeMyselfEnabledSbvgTq
++ _$s15ConversationKit8FeaturesC23isFaceTimeMyselfEnabledSbvpMV
++ _$s15ConversationKit8FeaturesC28fullScreenOutgoingFTAEnabledSbvgTj
++ _$s15ConversationKit8FeaturesC28fullScreenOutgoingFTAEnabledSbvgTq
++ _$s15ConversationKit8FeaturesC28fullScreenOutgoingFTAEnabledSbvpMV
++ _$s7SwiftUI17EnvironmentValuesV31accessibilityReduceTransparencySbvg
++ _$s7SwiftUI17EnvironmentValuesV31accessibilityReduceTransparencySbvpMV
++ _$s7SwiftUI21_ViewModifier_ContentVMa
++ _$s7SwiftUI24_BackgroundShapeModifierVMa
++ _$s7SwiftUI24_BackgroundShapeModifierVMn
++ _$s7SwiftUI24_BackgroundShapeModifierVyxq_GAA04ViewE0AAMc
++ _$s7SwiftUI4ViewPAAE10background_2in9fillStyleQrqd___qd_0_AA04FillG0VtAA05ShapeG0Rd__AA0I0Rd_0_r0_lF
++ _$sSo11FTServerBagC15ConversationKitE29isServerFaceTimeMyselfEnabledSbvg
++ _$sSo11FTServerBagC15ConversationKitE29isServerFaceTimeMyselfEnabledSbvpMV
++ __swift_FORCE_LOAD_$_swiftAppleArchive
++ _objc_retain_x12
+- _$s15ConversationKit0A25PresentationStateProviderC11hasHeldCallSbvg
+- _$s15ConversationKit0A25PresentationStateProviderC11hasHeldCallSbvpMV
+- _$s15ConversationKit0A25PresentationStateProviderC20hasHeldCallPublisher7Combine03AnyI0VySbs5NeverOGvg
+- _$s15ConversationKit0A25PresentationStateProviderC20hasHeldCallPublisher7Combine03AnyI0VySbs5NeverOGvpMV
+- _$s15ConversationKit0A25PresentationStateProviderC20onHasHeldCallUpdatedyySbF
+- _$s15ConversationKit0A25PresentationStateProviderC6avMode17callDisplayStatus14isSendingVideo0K5Muted0hI4Info0H14DurationString5image0k5OneTosG7Enabled0K9Emergency11hasHeldCall16contactsByHandle21ignoreLetMeInRequestsACSo20TUConversationAVModeV_AA0yiJ0VS2bAA0yiO0OSSSgSo7UIImageCSgS3bSDySo8TUHandleCSo9CNContactCSgGSbtcfC
+- _$s15ConversationKit0A25PresentationStateProviderC6avMode17callDisplayStatus14isSendingVideo0K5Muted0hI4Info0H14DurationString5image0k5OneTosG7Enabled0K9Emergency11hasHeldCall16contactsByHandle21ignoreLetMeInRequestsACSo20TUConversationAVModeV_AA0yiJ0VS2bAA0yiO0OSSSgSo7UIImageCSgS3bSDySo8TUHandleCSo9CNContactCSgGSbtcfCTj
+- _$s15ConversationKit0A25PresentationStateProviderC6avMode17callDisplayStatus14isSendingVideo0K5Muted0hI4Info0H14DurationString5image0k5OneTosG7Enabled0K9Emergency11hasHeldCall16contactsByHandle21ignoreLetMeInRequestsACSo20TUConversationAVModeV_AA0yiJ0VS2bAA0yiO0OSSSgSo7UIImageCSgS3bSDySo8TUHandleCSo9CNContactCSgGSbtcfCTq
+- _$s15ConversationKit0A25PresentationStateProviderC6avMode17callDisplayStatus14isSendingVideo0K5Muted0hI4Info0H14DurationString5image0k5OneTosG7Enabled0K9Emergency11hasHeldCall16contactsByHandle21ignoreLetMeInRequestsACSo20TUConversationAVModeV_AA0yiJ0VS2bAA0yiO0OSSSgSo7UIImageCSgS3bSDySo8TUHandleCSo9CNContactCSgGSbtcfc
+- _$s15ConversationKit0A26PresentationStateProvidingP11hasHeldCallSbvgTj
+- _$s15ConversationKit0A26PresentationStateProvidingP11hasHeldCallSbvgTq
+- _$s15ConversationKit0A26PresentationStateProvidingP20hasHeldCallPublisher7Combine03AnyI0VySbs5NeverOGvgTj
+- _$s15ConversationKit0A26PresentationStateProvidingP20hasHeldCallPublisher7Combine03AnyI0VySbs5NeverOGvgTq
+CStrings:
++ "%!s(MISSING) The call this ConversationController was tracking is disconnected now %!s(MISSING), and one of the call waiting calls is still active %!s(MISSING). Probably should swap to the call waiting call."
++ "%!s(MISSING) hasRingingCalls changed to %!s(MISSING)"
++ "FullScreenOutgoingFTA"
++ "InCallControlsCollectionViewController: messagesAppInstalled = %!{(MISSING)bool}d"
++ "PeoplePickerActionBar: messagesAppInstalled = %!{(MISSING)bool}d"
++ "SADMessages"
++ "Updating remote video presentation state: %!s(MISSING)"
++ "[%!s(MISSING)] Conversation state changed to %!s(MISSING). Updating from current state: %!s(MISSING)"
++ "[%!s(MISSING)] Ringing call has now been answered, transitioning tracked conversation to use %!s(MISSING)"
++ "[%!s(MISSING)] Untracked conversation %!s(MISSING) state changed to %!s(MISSING)"
++ "[%!s(MISSING)] processCurrentCall %!s(MISSING) self.call: %!s(MISSING), optionalVideoCall: %!s(MISSING)"
++ "heldCallDisplayNameSubject"
++ "initWithCallIdentifier:callerIdSubstring:displayName:isBranded:contactIdentifiersByHandle:senderIdentityShortName:senderIdentityName:handlesHash:"
++ "is-FaceTime-myself-enabled"
++ "isFaceTimeMyselfEnabled"
++ "isGroupFaceTimeWithAllUnknownContacts: %!s(MISSING)"
++ "isOneToOneFaceTimeMyself"
++ "isSADMessagesEnabled"
++ "oneToOneFaceTimeMyselfEnabled"
+- "Conversation state changed to %!@(MISSING). Updating from current state: %!@(MISSING)"
+- "Ringing call has now been answered, transitioning tracked conversation to use %!@(MISSING)"
+- "hasHeldCallSubject"
+- "hasRingingCalls changed to %!@(MISSING)"
+- "initWithCallIdentifier:callerIdSubstring:displayName:isBranded:contactIdentifiersByHandle:"
+- "isGroupFaceTimeWithAllUnknownContacts :%!s(MISSING)"
+
+```

@@ -1,0 +1,898 @@
+## SiriInstrumentation
+
+> `/System/Library/PrivateFrameworks/SiriInstrumentation.framework/SiriInstrumentation`
+
+```diff
+
+-3402.42.1.1.1
+-  __TEXT.__text: 0x8ca84c
++3402.50.1.0.0
++  __TEXT.__text: 0x8e36d8
+   __TEXT.__auth_stubs: 0x10c0
+-  __TEXT.__objc_methlist: 0xbf140
+-  __TEXT.__cstring: 0x6d5f4
+-  __TEXT.__const: 0x104f0
+-  __TEXT.__constg_swiftt: 0x5ba0
+-  __TEXT.__swift5_typeref: 0x1719
+-  __TEXT.__swift5_builtin: 0x34bc
++  __TEXT.__objc_methlist: 0xc1370
++  __TEXT.__cstring: 0x6fb98
++  __TEXT.__const: 0x10950
++  __TEXT.__constg_swiftt: 0x5d20
++  __TEXT.__swift5_typeref: 0x1761
++  __TEXT.__swift5_builtin: 0x35ac
+   __TEXT.__swift5_reflstr: 0x20b
+   __TEXT.__swift5_assocty: 0x108
+-  __TEXT.__swift5_proto: 0xdb0
+-  __TEXT.__swift5_types: 0xadc
++  __TEXT.__swift5_proto: 0xdf0
++  __TEXT.__swift5_types: 0xb0c
+   __TEXT.__swift5_fieldmd: 0x3e8
+   __TEXT.__oslogstring: 0x95
+   __TEXT.__swift5_protos: 0x14
+-  __TEXT.__unwind_info: 0x275b8
+-  __TEXT.__eh_frame: 0x1c08
+-  __TEXT.__objc_classname: 0x13917
+-  __TEXT.__objc_methname: 0x105777
+-  __TEXT.__objc_methtype: 0x249e0
+-  __TEXT.__objc_stubs: 0x5f8e0
+-  __DATA_CONST.__got: 0x46a8
+-  __DATA_CONST.__const: 0x305d8
+-  __DATA_CONST.__objc_classlist: 0x4578
++  __TEXT.__unwind_info: 0x27cc0
++  __TEXT.__eh_frame: 0x1c68
++  __TEXT.__objc_classname: 0x13c76
++  __TEXT.__objc_methname: 0x107e90
++  __TEXT.__objc_methtype: 0x24fbf
++  __TEXT.__objc_stubs: 0x607e0
++  __DATA_CONST.__got: 0x4760
++  __DATA_CONST.__const: 0x31350
++  __DATA_CONST.__objc_classlist: 0x4630
+   __DATA_CONST.__objc_catlist: 0x10
+   __DATA_CONST.__objc_protolist: 0x30
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x318c0
++  __DATA_CONST.__objc_selrefs: 0x32078
+   __DATA_CONST.__objc_protorefs: 0x10
+-  __DATA_CONST.__objc_superrefs: 0x6b20
++  __DATA_CONST.__objc_superrefs: 0x6c58
+   __AUTH_CONST.__auth_got: 0x868
+   __AUTH_CONST.__auth_ptr: 0x3b0
+-  __AUTH_CONST.__const: 0x1d350
+-  __AUTH_CONST.__cfstring: 0x5fc20
+-  __AUTH_CONST.__objc_const: 0x103878
+-  __AUTH_CONST.__objc_intobj: 0xb10
+-  __AUTH.__objc_data: 0xd318
+-  __DATA.__objc_ivar: 0xcd94
+-  __DATA.__data: 0x1dd0
+-  __DATA.__bss: 0x16900
++  __AUTH_CONST.__const: 0x1dbc0
++  __AUTH_CONST.__cfstring: 0x613e0
++  __AUTH_CONST.__objc_const: 0x1065a8
++  __AUTH_CONST.__objc_intobj: 0xb40
++  __AUTH.__objc_data: 0xcf08
++  __DATA.__objc_ivar: 0xcfd8
++  __DATA.__data: 0x1e50
++  __DATA.__bss: 0x16e80
+   __DATA.__common: 0x20
+-  __DATA_DIRTY.__objc_data: 0x1e5e8
++  __DATA_DIRTY.__objc_data: 0x1f128
+   __DATA_DIRTY.__data: 0x5a0
+   __DATA_DIRTY.__common: 0x38
+-  __DATA_DIRTY.__bss: 0x80
++  __DATA_DIRTY.__bss: 0x100
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/PrivateFrameworks/Dendrite.framework/Dendrite
+
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsys_time.dylib
+   - /usr/lib/swift/libswiftunistd.dylib
+-  Functions: 69841
+-  Symbols:   80354
+-  CStrings:  58752
++  Functions: 70625
++  Symbols:   81236
++  CStrings:  59407
+ 
+Symbols:
++ OBJC_IVAR_$_ASRSchemaASRClientEvent._rescoringDeliberationResultTier1
++ OBJC_IVAR_$_ASRSchemaASRRecognitionMetrics._rescoringDeliberationResult
++ OBJC_IVAR_$_ASRSchemaASRRescoringDeliberationEvent._eventDuration
++ OBJC_IVAR_$_ASRSchemaASRRescoringDeliberationEvent._eventType
++ OBJC_IVAR_$_ASRSchemaASRRescoringDeliberationEvent._has
++ OBJC_IVAR_$_ASRSchemaASRRescoringDeliberationResult._has
++ OBJC_IVAR_$_ASRSchemaASRRescoringDeliberationResult._rescoringEvents
++ OBJC_IVAR_$_ASRSchemaASRRescoringDeliberationResult._rescoringFinalizeDuration
++ OBJC_IVAR_$_ASRSchemaASRRescoringDeliberationResult._rescoringLinkId
++ OBJC_IVAR_$_ASRSchemaASRRescoringDeliberationResult._rescoringResultDuration
++ OBJC_IVAR_$_ASRSchemaASRRescoringDeliberationResultTier1._linkId
++ OBJC_IVAR_$_ASRSchemaASRRescoringDeliberationResultTier1._modifiedTranscript
++ OBJC_IVAR_$_ASRSchemaASRRescoringDeliberationResultTier1._originalTranscript
++ OBJC_IVAR_$_CDASchemaCDAUserFeedbackCompleted._expectedWinnerElectionParticipantId
++ OBJC_IVAR_$_CloudKitSchemaCKChangeReported._changeTokenExpired
++ OBJC_IVAR_$_CloudKitSchemaCKChangeReported._changeType
++ OBJC_IVAR_$_CloudKitSchemaCKChangeReported._has
++ OBJC_IVAR_$_CloudKitSchemaCKClientEvent._cloudKitChangeReported
++ OBJC_IVAR_$_CloudKitSchemaCKClientEvent._cloudKitErrorReported
++ OBJC_IVAR_$_CloudKitSchemaCKClientEvent._eventMetadata
++ OBJC_IVAR_$_CloudKitSchemaCKErrorReported._errorType
++ OBJC_IVAR_$_CloudKitSchemaCKErrorReported._has
++ OBJC_IVAR_$_CloudKitSchemaCloudKitEventMetadata._ckId
++ OBJC_IVAR_$_GMSSchemaGMSClientEvent._eventMetadata
++ OBJC_IVAR_$_GMSSchemaGMSClientEvent._gmsModelRequestContext
++ OBJC_IVAR_$_GMSSchemaGMSClientEventMetadata._gmsId
++ OBJC_IVAR_$_GMSSchemaGMSModelRequestContext._ended
++ OBJC_IVAR_$_GMSSchemaGMSModelRequestContext._failed
++ OBJC_IVAR_$_GMSSchemaGMSModelRequestContext._started
++ OBJC_IVAR_$_GMSSchemaGMSModelRequestEnded._has
++ OBJC_IVAR_$_GMSSchemaGMSModelRequestEnded._imageCount
++ OBJC_IVAR_$_GMSSchemaGMSModelRequestEnded._imagePerSecond
++ OBJC_IVAR_$_GMSSchemaGMSModelRequestEnded._kbPerSecond
++ OBJC_IVAR_$_GMSSchemaGMSModelRequestEnded._responseCharactersCount
++ OBJC_IVAR_$_GMSSchemaGMSModelRequestEnded._responseKbCount
++ OBJC_IVAR_$_GMSSchemaGMSModelRequestEnded._responseTimeInMilliseconds
++ OBJC_IVAR_$_GMSSchemaGMSModelRequestEnded._responseTokensCount
++ OBJC_IVAR_$_GMSSchemaGMSModelRequestEnded._timeToFirstTokenInSeconds
++ OBJC_IVAR_$_GMSSchemaGMSModelRequestEnded._timeToLastTokenInSeconds
++ OBJC_IVAR_$_GMSSchemaGMSModelRequestEnded._tokensPerSecond
++ OBJC_IVAR_$_GMSSchemaGMSModelRequestFailed._errorDomain
++ OBJC_IVAR_$_GMSSchemaGMSModelRequestFailed._gmsErrorCode
++ OBJC_IVAR_$_GMSSchemaGMSModelRequestFailed._has
++ OBJC_IVAR_$_GMSSchemaGMSModelRequestFailed._openAIErrorCode
++ OBJC_IVAR_$_GMSSchemaGMSModelRequestStarted._accountType
++ OBJC_IVAR_$_GMSSchemaGMSModelRequestStarted._configVersion
++ OBJC_IVAR_$_GMSSchemaGMSModelRequestStarted._executorTraceID
++ OBJC_IVAR_$_GMSSchemaGMSModelRequestStarted._externalPartner
++ OBJC_IVAR_$_GMSSchemaGMSModelRequestStarted._gmsClientRequestIdentifier
++ OBJC_IVAR_$_GMSSchemaGMSModelRequestStarted._has
++ OBJC_IVAR_$_GMSSchemaGMSModelRequestStarted._isUserSignedIn
++ OBJC_IVAR_$_GMSSchemaGMSModelRequestStarted._isWebSearchUsed
++ OBJC_IVAR_$_GMSSchemaGMSModelRequestStarted._modelLocation
++ OBJC_IVAR_$_GMSSchemaGMSModelRequestStarted._modelName
++ OBJC_IVAR_$_GMSSchemaGMSModelRequestStarted._modelParty
++ OBJC_IVAR_$_GMSSchemaGMSModelRequestStarted._modelVersion
++ OBJC_IVAR_$_GMSSchemaGMSModelRequestStarted._promptVersion
++ OBJC_IVAR_$_GMSSchemaGMSModelRequestStarted._useCase
++ OBJC_IVAR_$_IFTSchemaIFTActionFailureDeveloperDefinedError._domain
++ OBJC_IVAR_$_NLRouterSchemaNLRouterDecisionGenAIMetadata._correctionOutcome
++ OBJC_IVAR_$_NLRouterSchemaNLRouterDecisionGenAIMetadata._genAIAppIntent
++ OBJC_IVAR_$_NLRouterSchemaNLRouterDecisionGenAIMetadata._has
++ OBJC_IVAR_$_NLRouterSchemaNLRouterDecisionGenAIMetadata._isExplicit
++ OBJC_IVAR_$_NLRouterSchemaNLRouterHandleEnded._genAIMetadata
++ OBJC_IVAR_$_ODFUNNELSiriSchemaODFUNNELClientEventMetadata._aggregationInterval
++ OBJC_IVAR_$_ODFUNNELSiriSchemaODFUNNELClientEventMetadata._deviceAggregationId
++ OBJC_IVAR_$_ODFUNNELSiriSchemaODFUNNELClientEventMetadata._eventTimestampInMsSince1970
++ OBJC_IVAR_$_ODFUNNELSiriSchemaODFUNNELClientEventMetadata._has
++ OBJC_IVAR_$_ODFUNNELSiriSchemaODFUNNELClientEventMetadata._odfunnelId
++ OBJC_IVAR_$_ODFUNNELSiriSchemaODFUNNELClientEventMetadata._userAggregationIdExpirationTimestampMs
++ OBJC_IVAR_$_ODFUNNELSiriSchemaODFUNNELClientEventMetadata._userAggregationIdRotationTimestampMs
++ OBJC_IVAR_$_ODFUNNELSiriSchemaODFUNNELCoreDimensions._has
++ OBJC_IVAR_$_ODFUNNELSiriSchemaODFUNNELCoreDimensions._siriInputLocale
++ OBJC_IVAR_$_ODFUNNELSiriSchemaODFUNNELCoreDimensions._systemBuild
++ OBJC_IVAR_$_ODFUNNELSiriSchemaODFUNNELCoreDimensions._viewInterface
++ OBJC_IVAR_$_ODFUNNELSiriSchemaODFUNNELSiriClientEvent._eventMetadata
++ OBJC_IVAR_$_ODFUNNELSiriSchemaODFUNNELSiriClientEvent._voiceTriggerEnrollmentFunnelReported
++ OBJC_IVAR_$_ODFUNNELSiriSchemaODFUNNELVoiceTriggerEnrollmentDigest._dimensions
++ OBJC_IVAR_$_ODFUNNELSiriSchemaODFUNNELVoiceTriggerEnrollmentDimensions._coreDimensions
++ OBJC_IVAR_$_ODFUNNELSiriSchemaODFUNNELVoiceTriggerEnrollmentDimensions._enrollmentMode
++ OBJC_IVAR_$_ODFUNNELSiriSchemaODFUNNELVoiceTriggerEnrollmentDimensions._enrollmentOutcome
++ OBJC_IVAR_$_ODFUNNELSiriSchemaODFUNNELVoiceTriggerEnrollmentDimensions._has
++ OBJC_IVAR_$_ODFUNNELSiriSchemaODFUNNELVoiceTriggerEnrollmentDimensions._pageNumberCompleted
++ OBJC_IVAR_$_ODFUNNELSiriSchemaODFUNNELVoiceTriggerEnrollmentDimensions._trainingOutcome
++ OBJC_IVAR_$_ODFUNNELSiriSchemaODFUNNELVoiceTriggerEnrollmentDimensions._voiceTriggerType
++ OBJC_IVAR_$_ODFUNNELSiriSchemaODFUNNELVoiceTriggerEnrollmentFunnel._digests
++ OBJC_IVAR_$_ODFUNNELSiriSchemaODFUNNELVoiceTriggerEnrollmentFunnel._fixedDimensions
++ OBJC_IVAR_$_ODSAMPLESiriSchemaODSAMPLESpeakerIdModelSampleReported._location
++ OBJC_IVAR_$_SISchemaClientEvent._typingRequestTrace
++ OBJC_IVAR_$_SISchemaClientEvent._ueiInvocationTier1
++ OBJC_IVAR_$_SISchemaInvocation._linkId
++ OBJC_IVAR_$_SISchemaInvocation._tapToEditContext
++ OBJC_IVAR_$_SISchemaTapToEditInvocationContext._has
++ OBJC_IVAR_$_SISchemaTapToEditInvocationContext._isTranscriptEdited
++ OBJC_IVAR_$_SISchemaTypingRequestTrace._keyboardAppearanceBringUpTurnID
++ OBJC_IVAR_$_SISchemaUEIInvocationTier1._linkId
++ OBJC_IVAR_$_SISchemaUEIInvocationTier1._typedText
++ OBJC_IVAR_$_TTMSchemaTTMNeuralCombinerTCUResult._mode
++ _ASRSchemaASRRescoringDeliberationEventReadFrom
++ _ASRSchemaASRRescoringDeliberationResultReadFrom
++ _ASRSchemaASRRescoringDeliberationResultTier1ReadFrom
++ _CloudKitSchemaCKChangeReportedReadFrom
++ _CloudKitSchemaCKClientEventReadFrom
++ _CloudKitSchemaCKErrorReportedReadFrom
++ _CloudKitSchemaCloudKitEventMetadataReadFrom
++ _GMSSchemaGMSClientEventMetadataReadFrom
++ _GMSSchemaGMSClientEventReadFrom
++ _GMSSchemaGMSModelRequestContextReadFrom
++ _GMSSchemaGMSModelRequestEndedReadFrom
++ _GMSSchemaGMSModelRequestFailedReadFrom
++ _GMSSchemaGMSModelRequestStartedReadFrom
++ _NLRouterSchemaNLRouterDecisionGenAIMetadataReadFrom
++ _OBJC_CLASS_$_ASRSchemaASRRescoringDeliberationEvent
++ _OBJC_CLASS_$_ASRSchemaASRRescoringDeliberationResult
++ _OBJC_CLASS_$_ASRSchemaASRRescoringDeliberationResultTier1
++ _OBJC_CLASS_$_CloudKitSchemaCKChangeReported
++ _OBJC_CLASS_$_CloudKitSchemaCKClientEvent
++ _OBJC_CLASS_$_CloudKitSchemaCKErrorReported
++ _OBJC_CLASS_$_CloudKitSchemaCloudKitEventMetadata
++ _OBJC_CLASS_$_GMSSchemaGMSClientEvent
++ _OBJC_CLASS_$_GMSSchemaGMSClientEventMetadata
++ _OBJC_CLASS_$_GMSSchemaGMSModelRequestContext
++ _OBJC_CLASS_$_GMSSchemaGMSModelRequestEnded
++ _OBJC_CLASS_$_GMSSchemaGMSModelRequestFailed
++ _OBJC_CLASS_$_GMSSchemaGMSModelRequestStarted
++ _OBJC_CLASS_$_NLRouterSchemaNLRouterDecisionGenAIMetadata
++ _OBJC_CLASS_$_ODFUNNELSiriSchemaODFUNNELClientEventMetadata
++ _OBJC_CLASS_$_ODFUNNELSiriSchemaODFUNNELCoreDimensions
++ _OBJC_CLASS_$_ODFUNNELSiriSchemaODFUNNELSiriClientEvent
++ _OBJC_CLASS_$_ODFUNNELSiriSchemaODFUNNELVoiceTriggerEnrollmentDigest
++ _OBJC_CLASS_$_ODFUNNELSiriSchemaODFUNNELVoiceTriggerEnrollmentDimensions
++ _OBJC_CLASS_$_ODFUNNELSiriSchemaODFUNNELVoiceTriggerEnrollmentFunnel
++ _OBJC_CLASS_$_SISchemaTapToEditInvocationContext
++ _OBJC_CLASS_$_SISchemaTypingRequestTrace
++ _OBJC_CLASS_$_SISchemaUEIInvocationTier1
++ _OBJC_METACLASS_$_ASRSchemaASRRescoringDeliberationEvent
++ _OBJC_METACLASS_$_ASRSchemaASRRescoringDeliberationResult
++ _OBJC_METACLASS_$_ASRSchemaASRRescoringDeliberationResultTier1
++ _OBJC_METACLASS_$_CloudKitSchemaCKChangeReported
++ _OBJC_METACLASS_$_CloudKitSchemaCKClientEvent
++ _OBJC_METACLASS_$_CloudKitSchemaCKErrorReported
++ _OBJC_METACLASS_$_CloudKitSchemaCloudKitEventMetadata
++ _OBJC_METACLASS_$_GMSSchemaGMSClientEvent
++ _OBJC_METACLASS_$_GMSSchemaGMSClientEventMetadata
++ _OBJC_METACLASS_$_GMSSchemaGMSModelRequestContext
++ _OBJC_METACLASS_$_GMSSchemaGMSModelRequestEnded
++ _OBJC_METACLASS_$_GMSSchemaGMSModelRequestFailed
++ _OBJC_METACLASS_$_GMSSchemaGMSModelRequestStarted
++ _OBJC_METACLASS_$_NLRouterSchemaNLRouterDecisionGenAIMetadata
++ _OBJC_METACLASS_$_ODFUNNELSiriSchemaODFUNNELClientEventMetadata
++ _OBJC_METACLASS_$_ODFUNNELSiriSchemaODFUNNELCoreDimensions
++ _OBJC_METACLASS_$_ODFUNNELSiriSchemaODFUNNELSiriClientEvent
++ _OBJC_METACLASS_$_ODFUNNELSiriSchemaODFUNNELVoiceTriggerEnrollmentDigest
++ _OBJC_METACLASS_$_ODFUNNELSiriSchemaODFUNNELVoiceTriggerEnrollmentDimensions
++ _OBJC_METACLASS_$_ODFUNNELSiriSchemaODFUNNELVoiceTriggerEnrollmentFunnel
++ _OBJC_METACLASS_$_SISchemaTapToEditInvocationContext
++ _OBJC_METACLASS_$_SISchemaTypingRequestTrace
++ _OBJC_METACLASS_$_SISchemaUEIInvocationTier1
++ _ODFUNNELSiriSchemaODFUNNELClientEventMetadataReadFrom
++ _ODFUNNELSiriSchemaODFUNNELCoreDimensionsReadFrom
++ _ODFUNNELSiriSchemaODFUNNELSiriClientEventReadFrom
++ _ODFUNNELSiriSchemaODFUNNELVoiceTriggerEnrollmentDigestReadFrom
++ _ODFUNNELSiriSchemaODFUNNELVoiceTriggerEnrollmentDimensionsReadFrom
++ _ODFUNNELSiriSchemaODFUNNELVoiceTriggerEnrollmentFunnelReadFrom
++ _SISchemaTapToEditInvocationContextReadFrom
++ _SISchemaTypingRequestTraceReadFrom
++ _SISchemaUEIInvocationTier1ReadFrom
++ _qname_ASRSchemaASRClientEvent_WhichEvent_Type_rescoringDeliberationResultTier1
++ _qname_CloudKitSchemaCKClientEvent_WhichEvent_Type_None
++ _qname_CloudKitSchemaCKClientEvent_WhichEvent_Type_cloudKitChangeReported
++ _qname_CloudKitSchemaCKClientEvent_WhichEvent_Type_cloudKitErrorReported
++ _qname_GMSSchemaGMSClientEvent_WhichEvent_Type_None
++ _qname_GMSSchemaGMSClientEvent_WhichEvent_Type_gmsModelRequestContext
++ _qname_ODFUNNELSiriSchemaODFUNNELSiriClientEvent_WhichEvent_Type_None
++ _qname_ODFUNNELSiriSchemaODFUNNELSiriClientEvent_WhichEvent_Type_voiceTriggerEnrollmentFunnelReported
++ _qname_SISchemaClientEvent_WhichEvent_Type_typingRequestTrace
++ _qname_SISchemaClientEvent_WhichEvent_Type_ueiInvocationTier1
+CStrings:
++ "\x01\x12!\x11"
++ "\x0f\x0f\x0f\x0f\x0f"
++ "\x18\x11"
++ "!\x11a\x12\x82"
++ "%!B(MISSING)\x11\x11\x11"
++ "4\x12"
++ "@\"ASRSchemaASRRescoringDeliberationResult\""
++ "@\"ASRSchemaASRRescoringDeliberationResultTier1\""
++ "@\"CloudKitSchemaCKChangeReported\""
++ "@\"CloudKitSchemaCKErrorReported\""
++ "@\"CloudKitSchemaCloudKitEventMetadata\""
++ "@\"GMSSchemaGMSClientEventMetadata\""
++ "@\"GMSSchemaGMSModelRequestContext\""
++ "@\"GMSSchemaGMSModelRequestEnded\""
++ "@\"GMSSchemaGMSModelRequestFailed\""
++ "@\"GMSSchemaGMSModelRequestStarted\""
++ "@\"NLRouterSchemaNLRouterDecisionGenAIMetadata\""
++ "@\"ODFUNNELSiriSchemaODFUNNELClientEventMetadata\""
++ "@\"ODFUNNELSiriSchemaODFUNNELCoreDimensions\""
++ "@\"ODFUNNELSiriSchemaODFUNNELVoiceTriggerEnrollmentDimensions\""
++ "@\"ODFUNNELSiriSchemaODFUNNELVoiceTriggerEnrollmentFunnel\""
++ "@\"SISchemaTapToEditInvocationContext\""
++ "@\"SISchemaTypingRequestTrace\""
++ "@\"SISchemaUEIInvocationTier1\""
++ "ASRRESCORINGDELIBERATIONEVENTTYPE_BEST_HYPOTHESIS_IN_ORIGINAL_N_BEST"
++ "ASRRESCORINGDELIBERATIONEVENTTYPE_BEST_HYPOTHESIS_IN_PHONETIC_N_BEST"
++ "ASRRESCORINGDELIBERATIONEVENTTYPE_CALCULATE_N_BEST"
++ "ASRRESCORINGDELIBERATIONEVENTTYPE_INPUT_N_BEST_IS_EMPTY"
++ "ASRRESCORINGDELIBERATIONEVENTTYPE_PHONETIC_ALTERNATIVES_GENERATED"
++ "ASRRESCORINGDELIBERATIONEVENTTYPE_PHONETIC_ALTERNATIVES_NONE_GENERATED"
++ "ASRRESCORINGDELIBERATIONEVENTTYPE_RESCORING_FAILED"
++ "ASRRESCORINGDELIBERATIONEVENTTYPE_RESCORING_SUCCEEDED"
++ "ASRRESCORINGDELIBERATIONEVENTTYPE_UNKNOWN"
++ "ASRSchemaASRRescoringDeliberationEvent"
++ "ASRSchemaASRRescoringDeliberationResult"
++ "ASRSchemaASRRescoringDeliberationResultTier1"
++ "CKCHANGETYPE_KNOWLEDGE"
++ "CKCHANGETYPE_RECORD"
++ "CKCHANGETYPE_SIRI"
++ "CKCHANGETYPE_UNKNOWN"
++ "CKERRORTYPE_KEYCHAIN_SYNC_ERROR"
++ "CKERRORTYPE_NETWORK_FAILIURE"
++ "CKERRORTYPE_RATE_LIMITED"
++ "CKERRORTYPE_UNKNOWN"
++ "CKERRORTYPE_ZONE_NOT_FOUND"
++ "CLOUDKIT_CLIENT_EVENT"
++ "COMPONENTNAME_CLOUDKIT"
++ "COMPONENTNAME_GMS"
++ "CloudKitSchemaCKChangeReported"
++ "CloudKitSchemaCKClientEvent"
++ "CloudKitSchemaCKErrorReported"
++ "CloudKitSchemaCloudKitEventMetadata"
++ "FLOWSTATETYPE_RESOLVE_END"
++ "GMSERRORDOMAIN_COM_APPLE_EXTENSIONKIT_ERRORDOMAIN"
++ "GMSERRORDOMAIN_INFERENCEERROR_INFERENCEFAILED_COM_APPLE_PRIVATEMLCLIENT"
++ "GMSERRORDOMAIN_INFERENCEERROR_INFERENCEFAILED_COM_APPLE_PRIVATEMLCLIENTINFERENCEPROVIDER"
++ "GMSERRORDOMAIN_INFERENCEERROR_INFERENCEFAILED_COM_APPLE_TOKENGENERATION"
++ "GMSERRORDOMAIN_INFERENCEERROR_INFERENCEFAILED_COM_APPLE_TOKENGENERATIONINFERENCE_E5RUNNER"
++ "GMSERRORDOMAIN_INFERENCEERROR_INFERENCEFAILED_PRIVATECLOUDCOMPUTE_TRUSTEDCLOUDCOMPUTEERROR"
++ "GMSERRORDOMAIN_INFERENCEERROR_INFERENCEFAILED_TIECLOUDAPPCORE_REQUESTVALIDATOR_REQUESTERROR"
++ "GMSERRORDOMAIN_INFERENCEERROR_INFERENCEFAILED_TIECOMMON_TIEXPERROR"
++ "GMSERRORDOMAIN_INFERENCEERROR_INFERENCEFAILED_TIEINFERENCECORE_PROMPTTGPIPELINE_INTERNALERROR"
++ "GMSERRORDOMAIN_INFERENCEERROR_INFERENCEFAILED_TOKENGENERATIONCORE_GENERATIONERROR"
++ "GMSERRORDOMAIN_INFERENCEERROR_INFERENCEFAILED_TOKENGENERATIONCORE_MODELCONFIGURATION_PROMPTETEMPLATEERROR"
++ "GMSERRORDOMAIN_INFERENCEERROR_INFERENCEFAILED_TOKENGENERATIONINFERENCE_TOKENGENERATIONSAMPLINGERROR"
++ "GMSERRORDOMAIN_INFERENCEERROR_INTERNALERROR_COM_APPLE_VISUALGENERATION"
++ "GMSERRORDOMAIN_INFERENCEERROR_INTERNALERROR_DIFFUSIONBASE_APPLEDIFFUSIONPIPELINE_APPLEDIFFUSIONERROR"
++ "GMSERRORDOMAIN_INFERENCEERROR_INTERNALERROR_FOUNDATION_GENERICOBJCERROR"
++ "GMSERRORDOMAIN_INFERENCEERROR_INTERNALERROR_NSERROR"
++ "GMSERRORDOMAIN_INFERENCEERROR_INTERNALERROR_SWIFT_DECODINGERROR"
++ "GMSERRORDOMAIN_INFERENCEERROR_INTERNALERROR_VISUALGENERATION_IMAGECHECKER_ERROR"
++ "GMSERRORDOMAIN_INFERENCEERROR_INVALIDCLIENTDATA_COM_APPLE_TOKENGENERATION"
++ "GMSERRORDOMAIN_INFERENCEERROR_INVALIDCLIENTDATA_NSCOCOAERRORDOMAIN"
++ "GMSERRORDOMAIN_INFERENCEERROR_LOADFAILED_COM_APPLE_TOKENGENERATIONINFERENCE_E5RUNNER"
++ "GMSERRORDOMAIN_INFERENCEERROR_LOADFAILED_MODELCATALOG_CATALOGERRORS_ASSETERRORS"
++ "GMSERRORDOMAIN_INFERENCEERROR_LOADFAILED_NSCOCOAERRORDOMAIN"
++ "GMSERRORDOMAIN_INFERENCEERROR_LOADFAILED_ONDEVICEINFERENCEASSETREPOSITORY"
++ "GMSERRORDOMAIN_INFERENCEERROR_LOADFAILED_SENTENCEPIECE"
++ "GMSERRORDOMAIN_INFERENCEERROR_LOADFAILED_TOKENGENERATIONINFERENCE_DATASOURCEERROR"
++ "GMSERRORDOMAIN_INFERENCEERROR_NETWORKERROR_COM_APPLE_TOKENGENERATION"
++ "GMSERRORDOMAIN_INFERENCEERROR_NETWORKERROR_DNS"
++ "GMSERRORDOMAIN_INFERENCEERROR_NETWORKERROR_POSIX"
++ "GMSERRORDOMAIN_INFERENCEERROR_NETWORKERROR_TLS"
++ "GMSERRORDOMAIN_INFERENCEERROR_UNSPECIFIEDUNDERLYINGERROR_COM_APPLE_TOKENGENERATIONINFERENCE_E5RUNNER"
++ "GMSERRORDOMAIN_INFERENCEERROR_UNSPECIFIEDUNDERLYINGERROR_EDGEKIT_EKTRANSPORTMESSAGECONNECTIONERROR"
++ "GMSERRORDOMAIN_INFERENCEERROR_UNSPECIFIEDUNDERLYINGERROR_EXTENSION_IN_EDGEKIT_EKSTREAM_EKSTREAMERROR"
++ "GMSERRORDOMAIN_INFERENCEERROR_UNSPECIFIEDUNDERLYINGERROR_MODELCATALOG_CATALOGERRORS_ASSETERRORS"
++ "GMSERRORDOMAIN_INFERENCEERROR_UNSPECIFIEDUNDERLYINGERROR_NSCOCOAERRORDOMAIN"
++ "GMSERRORDOMAIN_INFERENCEERROR_UNSPECIFIEDUNDERLYINGERROR_NSURLERRORDOMAIN"
++ "GMSERRORDOMAIN_INFERENCEERROR_UNSPECIFIEDUNDERLYINGERROR_SENTENCEPIECE"
++ "GMSERRORDOMAIN_INFERENCEERROR_UNSPECIFIEDUNDERLYINGERROR_SWIFT_CANCELLATIONERROR"
++ "GMSERRORDOMAIN_INFERENCEERROR_UNSPECIFIEDUNDERLYINGERROR_TGIAJAXAUTHENTICATOR"
++ "GMSERRORDOMAIN_INFERENCEERROR_UNSPECIFIEDUNDERLYINGERROR_TOKENGENERATION"
++ "GMSERRORDOMAIN_INFERENCEERROR_UNSPECIFIEDUNDERLYINGERROR_TOKENGENERATIONCORE_GENERATIONERROR"
++ "GMSERRORDOMAIN_INFERENCEERROR_UNSPECIFIEDUNDERLYINGERROR_TOKENGENERATIONCORE_INVALIDGRAMMAR"
++ "GMSERRORDOMAIN_INFERENCEERROR_UNSPECIFIEDUNDERLYINGERROR_TOKENGENERATIONINFERENCE"
++ "GMSERRORDOMAIN_INFERENCEERROR_UNSPECIFIEDUNDERLYINGERROR_TOKENGENERATION_TOKENGENERATIONERROR"
++ "GMSERRORDOMAIN_INFERENCEERROR_UNSPECIFIEDUNDERLYINGERROR_XPC_XPCRICHERROR"
++ "GMSERRORDOMAIN_MODELMANAGERSERVICES_INFERENCEERROR"
++ "GMSERRORDOMAIN_MODELMANAGERSERVICES_MODELMANAGERERROR"
++ "GMSERRORDOMAIN_NSPOSIXERRORDOMAIN"
++ "GMSERRORDOMAIN_UNKNOWN"
++ "GMSEXTERNALPARTNER_OPENAI"
++ "GMSEXTERNALPARTNER_UNKNOWN"
++ "GMSMODELLOCATION_CLOUD"
++ "GMSMODELLOCATION_ON_DEVICE"
++ "GMSMODELLOCATION_UNKNOWN"
++ "GMSMODELPARTY_APPLE_INTERNAL"
++ "GMSMODELPARTY_THIRD_PARTY"
++ "GMSMODELPARTY_UNKNOWN"
++ "GMSOPENAIERRORCODE_ACCOUNT_DEACTIVATED"
++ "GMSOPENAIERRORCODE_AUTHORIZATION_CODE_EXPIRED"
++ "GMSOPENAIERRORCODE_CONSENT_DENIED"
++ "GMSOPENAIERRORCODE_INVALID_ACCESS_TOKEN"
++ "GMSOPENAIERRORCODE_INVALID_API_KEY"
++ "GMSOPENAIERRORCODE_INVALID_AUTHORIZATION_CODE"
++ "GMSOPENAIERRORCODE_INVALID_AUTH_TYPE"
++ "GMSOPENAIERRORCODE_INVALID_CLIENT"
++ "GMSOPENAIERRORCODE_INVALID_JWT"
++ "GMSOPENAIERRORCODE_INVALID_REFRESH_TOKEN"
++ "GMSOPENAIERRORCODE_INVALID_TOKEN"
++ "GMSOPENAIERRORCODE_INVALID_TOKEN_TYPE_HINT"
++ "GMSOPENAIERRORCODE_INVALID_VERSION"
++ "GMSOPENAIERRORCODE_LOGIN_FAILED"
++ "GMSOPENAIERRORCODE_MISSING_APP"
++ "GMSOPENAIERRORCODE_MISSING_AUTH"
++ "GMSOPENAIERRORCODE_MISSING_SCOPE"
++ "GMSOPENAIERRORCODE_REFRESH_TOKEN_EXPIRED"
++ "GMSOPENAIERRORCODE_REFRESH_TOKEN_INVALIDATED"
++ "GMSOPENAIERRORCODE_REFRESH_TOKEN_REUSED"
++ "GMSOPENAIERRORCODE_REQUIRES_USER_ACCESS_TOKEN"
++ "GMSOPENAIERRORCODE_SIGNUP_FAILED"
++ "GMSOPENAIERRORCODE_TOKEN_EXPIRED"
++ "GMSOPENAIERRORCODE_TOKEN_INVALIDATED"
++ "GMSOPENAIERRORCODE_UNKNOWN"
++ "GMSPARTNERACCOUNTTYPE_FREE"
++ "GMSPARTNERACCOUNTTYPE_NOT_APPLICABLE"
++ "GMSPARTNERACCOUNTTYPE_PREMIUM"
++ "GMSPARTNERACCOUNTTYPE_UNKNOWN"
++ "GMSSchemaGMSClientEvent"
++ "GMSSchemaGMSClientEventMetadata"
++ "GMSSchemaGMSModelRequestContext"
++ "GMSSchemaGMSModelRequestEnded"
++ "GMSSchemaGMSModelRequestFailed"
++ "GMSSchemaGMSModelRequestStarted"
++ "GMSUSECASE_COMPOSITION"
++ "GMSUSECASE_KNOWLEDGE"
++ "GMSUSECASE_KNOWLEDGE_FALLBACK"
++ "GMSUSECASE_MEDIA_QA"
++ "GMSUSECASE_OTHER"
++ "GMSUSECASE_UNKNOWN"
++ "GMS_CLIENT_EVENT"
++ "INVOCATIONSOURCE_TYPE_TO_SIRI_CONTROL_CENTER"
++ "INVOCATIONSOURCE_VISUAL_INTELLIGENCE"
++ "INVOCATIONSOURCE_VISUAL_INTELLIGENCE_QUICK_TYPE"
++ "NLROUTERCORRECTIONOUTCOME_NONE"
++ "NLROUTERCORRECTIONOUTCOME_UNDO"
++ "NLROUTERCORRECTIONOUTCOME_UNKNOWN"
++ "NLROUTERDECISIONGENAIAPPINTENT_GENERATE_KNOWLEDGE_RESPONSE_INTENT_TOOL"
++ "NLROUTERDECISIONGENAIAPPINTENT_GENERATE_RICH_CONTENT_FROM_MEDIA_INTENT_TOOL"
++ "NLROUTERDECISIONGENAIAPPINTENT_GENERATE_RICH_CONTENT_TOOL"
++ "NLROUTERDECISIONGENAIAPPINTENT_UNKNOWN"
++ "NLRouterSchemaNLRouterDecisionGenAIMetadata"
++ "ODFUNNELSiriSchemaODFUNNELClientEventMetadata"
++ "ODFUNNELSiriSchemaODFUNNELCoreDimensions"
++ "ODFUNNELSiriSchemaODFUNNELSiriClientEvent"
++ "ODFUNNELSiriSchemaODFUNNELVoiceTriggerEnrollmentDigest"
++ "ODFUNNELSiriSchemaODFUNNELVoiceTriggerEnrollmentDimensions"
++ "ODFUNNELSiriSchemaODFUNNELVoiceTriggerEnrollmentFunnel"
++ "ODFUNNEL_SIRI_CLIENT_EVENT"
++ "ORCHERRORDOMAIN_IFFLOW"
++ "RGRESPONSESOURCE_CONTINUE_ON_DEVICE"
++ "SISchemaTapToEditInvocationContext"
++ "SISchemaTypingRequestTrace"
++ "SISchemaUEIInvocationTier1"
++ "T@\"ASRSchemaASRRescoringDeliberationResult\",&,N,V_rescoringDeliberationResult"
++ "T@\"ASRSchemaASRRescoringDeliberationResultTier1\",&,N,V_rescoringDeliberationResultTier1"
++ "T@\"CloudKitSchemaCKChangeReported\",&,N,V_cloudKitChangeReported"
++ "T@\"CloudKitSchemaCKErrorReported\",&,N,V_cloudKitErrorReported"
++ "T@\"CloudKitSchemaCloudKitEventMetadata\",&,N,V_eventMetadata"
++ "T@\"GMSSchemaGMSClientEventMetadata\",&,N,V_eventMetadata"
++ "T@\"GMSSchemaGMSModelRequestContext\",&,N,V_gmsModelRequestContext"
++ "T@\"GMSSchemaGMSModelRequestEnded\",&,N,V_ended"
++ "T@\"GMSSchemaGMSModelRequestFailed\",&,N,V_failed"
++ "T@\"GMSSchemaGMSModelRequestStarted\",&,N,V_started"
++ "T@\"NLRouterSchemaNLRouterDecisionGenAIMetadata\",&,N,V_genAIMetadata"
++ "T@\"NSArray\",C,N,V_rescoringEvents"
++ "T@\"NSData\",C,N,V_keyboardAppearanceBringUpTurnID"
++ "T@\"NSString\",C,N,V_modifiedTranscript"
++ "T@\"NSString\",C,N,V_originalTranscript"
++ "T@\"NSString\",C,N,V_promptVersion"
++ "T@\"NSString\",C,N,V_typedText"
++ "T@\"ODFUNNELSiriSchemaODFUNNELClientEventMetadata\",&,N,V_eventMetadata"
++ "T@\"ODFUNNELSiriSchemaODFUNNELCoreDimensions\",&,N,V_coreDimensions"
++ "T@\"ODFUNNELSiriSchemaODFUNNELVoiceTriggerEnrollmentDimensions\",&,N,V_dimensions"
++ "T@\"ODFUNNELSiriSchemaODFUNNELVoiceTriggerEnrollmentFunnel\",&,N,V_voiceTriggerEnrollmentFunnelReported"
++ "T@\"SISchemaTapToEditInvocationContext\",&,N,V_tapToEditContext"
++ "T@\"SISchemaTypingRequestTrace\",&,N,V_typingRequestTrace"
++ "T@\"SISchemaUEIInvocationTier1\",&,N,V_ueiInvocationTier1"
++ "T@\"SISchemaUUID\",&,N,V_ckId"
++ "T@\"SISchemaUUID\",&,N,V_executorTraceID"
++ "T@\"SISchemaUUID\",&,N,V_expectedWinnerElectionParticipantId"
++ "T@\"SISchemaUUID\",&,N,V_gmsClientRequestIdentifier"
++ "T@\"SISchemaUUID\",&,N,V_gmsId"
++ "T@\"SISchemaUUID\",&,N,V_odfunnelId"
++ "T@\"SISchemaUUID\",&,N,V_rescoringLinkId"
++ "TB,N,V_changeTokenExpired"
++ "TB,N,V_hasCkId"
++ "TB,N,V_hasCloudKitChangeReported"
++ "TB,N,V_hasCloudKitErrorReported"
++ "TB,N,V_hasCoreDimensions"
++ "TB,N,V_hasExecutorTraceID"
++ "TB,N,V_hasExpectedWinnerElectionParticipantId"
++ "TB,N,V_hasGmsClientRequestIdentifier"
++ "TB,N,V_hasGmsId"
++ "TB,N,V_hasGmsModelRequestContext"
++ "TB,N,V_hasKeyboardAppearanceBringUpTurnID"
++ "TB,N,V_hasModifiedTranscript"
++ "TB,N,V_hasOdfunnelId"
++ "TB,N,V_hasOriginalTranscript"
++ "TB,N,V_hasRescoringDeliberationResult"
++ "TB,N,V_hasRescoringDeliberationResultTier1"
++ "TB,N,V_hasRescoringLinkId"
++ "TB,N,V_hasTapToEditContext"
++ "TB,N,V_hasTypedText"
++ "TB,N,V_hasTypingRequestTrace"
++ "TB,N,V_hasUeiInvocationTier1"
++ "TB,N,V_hasVoiceTriggerEnrollmentFunnelReported"
++ "TB,N,V_isTranscriptEdited"
++ "TB,N,V_isUserSignedIn"
++ "TB,N,V_isWebSearchUsed"
++ "TI,N,V_gmsErrorCode"
++ "TI,N,V_imageCount"
++ "TI,N,V_pageNumberCompleted"
++ "TI,N,V_responseCharactersCount"
++ "TI,N,V_responseKbCount"
++ "TI,N,V_responseTimeInMilliseconds"
++ "TI,N,V_responseTokensCount"
++ "TTMTCUMITIGATIONDECISION_MATCHED_USE_MODEL_DECISION"
++ "Td,N,V_kbPerSecond"
++ "Td,N,V_timeToFirstTokenInSeconds"
++ "Td,N,V_timeToLastTokenInSeconds"
++ "Td,N,V_tokensPerSecond"
++ "Tf,N,V_eventDuration"
++ "Tf,N,V_imagePerSecond"
++ "Tf,N,V_rescoringFinalizeDuration"
++ "Tf,N,V_rescoringResultDuration"
++ "Ti,N,V_accountType"
++ "Ti,N,V_changeType"
++ "Ti,N,V_correctionOutcome"
++ "Ti,N,V_errorType"
++ "Ti,N,V_externalPartner"
++ "Ti,N,V_modelLocation"
++ "Ti,N,V_modelParty"
++ "Ti,N,V_openAIErrorCode"
++ "Ti,N,V_useCase"
++ "USOBACKINGAPPBUNDLETYPE_APPLICATIONS"
++ "USOBACKINGAPPBUNDLETYPE_TOKENS"
++ "_accountType"
++ "_changeTokenExpired"
++ "_changeType"
++ "_ckId"
++ "_cloudKitChangeReported"
++ "_cloudKitErrorReported"
++ "_coreDimensions"
++ "_errorType"
++ "_eventDuration"
++ "_executorTraceID"
++ "_expectedWinnerElectionParticipantId"
++ "_externalPartner"
++ "_gmsClientRequestIdentifier"
++ "_gmsErrorCode"
++ "_gmsId"
++ "_gmsModelRequestContext"
++ "_hasCkId"
++ "_hasCloudKitChangeReported"
++ "_hasCloudKitErrorReported"
++ "_hasCoreDimensions"
++ "_hasExecutorTraceID"
++ "_hasExpectedWinnerElectionParticipantId"
++ "_hasGmsClientRequestIdentifier"
++ "_hasGmsId"
++ "_hasGmsModelRequestContext"
++ "_hasKeyboardAppearanceBringUpTurnID"
++ "_hasModifiedTranscript"
++ "_hasOdfunnelId"
++ "_hasOriginalTranscript"
++ "_hasRescoringDeliberationResult"
++ "_hasRescoringDeliberationResultTier1"
++ "_hasRescoringLinkId"
++ "_hasTapToEditContext"
++ "_hasTypedText"
++ "_hasTypingRequestTrace"
++ "_hasUeiInvocationTier1"
++ "_hasVoiceTriggerEnrollmentFunnelReported"
++ "_imageCount"
++ "_imagePerSecond"
++ "_isTranscriptEdited"
++ "_isUserSignedIn"
++ "_isWebSearchUsed"
++ "_kbPerSecond"
++ "_keyboardAppearanceBringUpTurnID"
++ "_modelLocation"
++ "_modelParty"
++ "_modifiedTranscript"
++ "_odfunnelId"
++ "_openAIErrorCode"
++ "_originalTranscript"
++ "_pageNumberCompleted"
++ "_rescoringDeliberationResult"
++ "_rescoringDeliberationResultTier1"
++ "_rescoringEvents"
++ "_rescoringFinalizeDuration"
++ "_rescoringLinkId"
++ "_rescoringResultDuration"
++ "_responseCharactersCount"
++ "_responseKbCount"
++ "_responseTimeInMilliseconds"
++ "_responseTokensCount"
++ "_tapToEditContext"
++ "_timeToFirstTokenInSeconds"
++ "_timeToLastTokenInSeconds"
++ "_tokensPerSecond"
++ "_typedText"
++ "_typingRequestTrace"
++ "_ueiInvocationTier1"
++ "_useCase"
++ "_voiceTriggerEnrollmentFunnelReported"
++ "accountType"
++ "addRescoringEvents:"
++ "changeTokenExpired"
++ "changeType"
++ "ckId"
++ "clearRescoringEvents"
++ "cloudKitChangeReported"
++ "cloudKitErrorReported"
++ "com.apple.aiml.siri.asr.ASRClientEvent.ASRRescoringDeliberationResultTier1"
++ "com.apple.aiml.siri.cloudkit.CKClientEvent"
++ "com.apple.aiml.siri.cloudkit.CKClientEvent.CKChangeReported"
++ "com.apple.aiml.siri.cloudkit.CKClientEvent.CKErrorReported"
++ "com.apple.aiml.siri.gms.GMSClientEvent"
++ "com.apple.aiml.siri.gms.GMSClientEvent.GMSModelRequestContext"
++ "com.apple.aiml.siri.odfunnel.ODFUNNELSiriClientEvent"
++ "com.apple.aiml.siri.odfunnel.ODFUNNELSiriClientEvent.ODFUNNELVoiceTriggerEnrollmentFunnel"
++ "com.apple.aiml.siri.uei.ClientEvent.TypingRequestTrace"
++ "com.apple.aiml.siri.uei.ClientEvent.UEIInvocationTier1"
++ "coreDimensions"
++ "deleteAccountType"
++ "deleteChangeTokenExpired"
++ "deleteChangeType"
++ "deleteCkId"
++ "deleteCloudKitChangeReported"
++ "deleteCloudKitErrorReported"
++ "deleteCoreDimensions"
++ "deleteErrorType"
++ "deleteEventDuration"
++ "deleteExecutorTraceID"
++ "deleteExpectedWinnerElectionParticipantId"
++ "deleteExternalPartner"
++ "deleteGmsClientRequestIdentifier"
++ "deleteGmsErrorCode"
++ "deleteGmsId"
++ "deleteGmsModelRequestContext"
++ "deleteImageCount"
++ "deleteImagePerSecond"
++ "deleteIsTranscriptEdited"
++ "deleteIsUserSignedIn"
++ "deleteIsWebSearchUsed"
++ "deleteKbPerSecond"
++ "deleteKeyboardAppearanceBringUpTurnID"
++ "deleteModelLocation"
++ "deleteModelParty"
++ "deleteModifiedTranscript"
++ "deleteOdfunnelId"
++ "deleteOpenAIErrorCode"
++ "deleteOriginalTranscript"
++ "deletePageNumberCompleted"
++ "deleteRescoringDeliberationResult"
++ "deleteRescoringDeliberationResultTier1"
++ "deleteRescoringEvents"
++ "deleteRescoringFinalizeDuration"
++ "deleteRescoringLinkId"
++ "deleteRescoringResultDuration"
++ "deleteResponseCharactersCount"
++ "deleteResponseKbCount"
++ "deleteResponseTimeInMilliseconds"
++ "deleteResponseTokensCount"
++ "deleteTapToEditContext"
++ "deleteTimeToFirstTokenInSeconds"
++ "deleteTimeToLastTokenInSeconds"
++ "deleteTokensPerSecond"
++ "deleteTypedText"
++ "deleteTypingRequestTrace"
++ "deleteUeiInvocationTier1"
++ "deleteUseCase"
++ "deleteVoiceTriggerEnrollmentFunnelReported"
++ "errorType"
++ "eventDuration"
++ "executorTraceID"
++ "expectedWinnerElectionParticipantId"
++ "externalPartner"
++ "gmsClientRequestIdentifier"
++ "gmsErrorCode"
++ "gmsId"
++ "gmsModelRequestContext"
++ "hasAccountType"
++ "hasChangeTokenExpired"
++ "hasChangeType"
++ "hasCkId"
++ "hasCloudKitChangeReported"
++ "hasCloudKitErrorReported"
++ "hasCoreDimensions"
++ "hasErrorType"
++ "hasEventDuration"
++ "hasExecutorTraceID"
++ "hasExpectedWinnerElectionParticipantId"
++ "hasExternalPartner"
++ "hasGmsClientRequestIdentifier"
++ "hasGmsErrorCode"
++ "hasGmsId"
++ "hasGmsModelRequestContext"
++ "hasImageCount"
++ "hasImagePerSecond"
++ "hasIsTranscriptEdited"
++ "hasIsUserSignedIn"
++ "hasIsWebSearchUsed"
++ "hasKbPerSecond"
++ "hasKeyboardAppearanceBringUpTurnID"
++ "hasModelLocation"
++ "hasModelParty"
++ "hasModifiedTranscript"
++ "hasOdfunnelId"
++ "hasOpenAIErrorCode"
++ "hasOriginalTranscript"
++ "hasPageNumberCompleted"
++ "hasRescoringDeliberationResult"
++ "hasRescoringDeliberationResultTier1"
++ "hasRescoringFinalizeDuration"
++ "hasRescoringLinkId"
++ "hasRescoringResultDuration"
++ "hasResponseCharactersCount"
++ "hasResponseKbCount"
++ "hasResponseTimeInMilliseconds"
++ "hasResponseTokensCount"
++ "hasTapToEditContext"
++ "hasTimeToFirstTokenInSeconds"
++ "hasTimeToLastTokenInSeconds"
++ "hasTokensPerSecond"
++ "hasTypedText"
++ "hasTypingRequestTrace"
++ "hasUeiInvocationTier1"
++ "hasUseCase"
++ "hasVoiceTriggerEnrollmentFunnelReported"
++ "imageCount"
++ "imagePerSecond"
++ "isTranscriptEdited"
++ "isUserSignedIn"
++ "isWebSearchUsed"
++ "kbPerSecond"
++ "keyboardAppearanceBringUpTurnID"
++ "modelLocation"
++ "modelParty"
++ "modifiedTranscript"
++ "odfunnelId"
++ "openAIErrorCode"
++ "orderedMessages.siriEventTypeUnion.asrClientEvent.rescoringDeliberationResultTier1"
++ "orderedMessages.siriEventTypeUnion.asrClientEvent.rescoringDeliberationResultTier1.linkId"
++ "orderedMessages.siriEventTypeUnion.asrClientEvent.rescoringDeliberationResultTier1.modifiedTranscript"
++ "orderedMessages.siriEventTypeUnion.asrClientEvent.rescoringDeliberationResultTier1.originalTranscript"
++ "orderedMessages.siriEventTypeUnion.cdaClientEvent.userFeedbackCompleted.expectedWinnerSiriSpeechId"
++ "orderedMessages.siriEventTypeUnion.cdaClientEvent.userFeedbackParticipantCollectionReported.userFeedbackParticipants.halTargetSiriSpeechId"
++ "orderedMessages.siriEventTypeUnion.cdaClientEvent.userFeedbackParticipantCollectionReported.userFeedbackParticipants.siriSpeechId"
++ "orderedMessages.siriEventTypeUnion.ueiClientEvent.ueiInvocationTier1"
++ "orderedMessages.siriEventTypeUnion.ueiClientEvent.ueiInvocationTier1.typedText"
++ "originalTranscript"
++ "pageNumberCompleted"
++ "rescoringDeliberationResult"
++ "rescoringDeliberationResultTier1"
++ "rescoringDeliberationResultTier1.linkId"
++ "rescoringDeliberationResultTier1.modifiedTranscript"
++ "rescoringDeliberationResultTier1.originalTranscript"
++ "rescoringEvents"
++ "rescoringEventsAtIndex:"
++ "rescoringEventsCount"
++ "rescoringFinalizeDuration"
++ "rescoringLinkId"
++ "rescoringResultDuration"
++ "responseCharactersCount"
++ "responseKbCount"
++ "responseTimeInMilliseconds"
++ "responseTokensCount"
++ "setAccountType:"
++ "setChangeTokenExpired:"
++ "setChangeType:"
++ "setCkId:"
++ "setCloudKitChangeReported:"
++ "setCloudKitErrorReported:"
++ "setCoreDimensions:"
++ "setErrorType:"
++ "setEventDuration:"
++ "setExecutorTraceID:"
++ "setExpectedWinnerElectionParticipantId:"
++ "setExternalPartner:"
++ "setGmsClientRequestIdentifier:"
++ "setGmsErrorCode:"
++ "setGmsId:"
++ "setGmsModelRequestContext:"
++ "setHasAccountType:"
++ "setHasChangeTokenExpired:"
++ "setHasChangeType:"
++ "setHasCkId:"
++ "setHasCloudKitChangeReported:"
++ "setHasCloudKitErrorReported:"
++ "setHasCoreDimensions:"
++ "setHasErrorType:"
++ "setHasEventDuration:"
++ "setHasExecutorTraceID:"
++ "setHasExpectedWinnerElectionParticipantId:"
++ "setHasExternalPartner:"
++ "setHasGmsClientRequestIdentifier:"
++ "setHasGmsErrorCode:"
++ "setHasGmsId:"
++ "setHasGmsModelRequestContext:"
++ "setHasImageCount:"
++ "setHasImagePerSecond:"
++ "setHasIsTranscriptEdited:"
++ "setHasIsUserSignedIn:"
++ "setHasIsWebSearchUsed:"
++ "setHasKbPerSecond:"
++ "setHasKeyboardAppearanceBringUpTurnID:"
++ "setHasModelLocation:"
++ "setHasModelParty:"
++ "setHasModifiedTranscript:"
++ "setHasOdfunnelId:"
++ "setHasOpenAIErrorCode:"
++ "setHasOriginalTranscript:"
++ "setHasPageNumberCompleted:"
++ "setHasRescoringDeliberationResult:"
++ "setHasRescoringDeliberationResultTier1:"
++ "setHasRescoringFinalizeDuration:"
++ "setHasRescoringLinkId:"
++ "setHasRescoringResultDuration:"
++ "setHasResponseCharactersCount:"
++ "setHasResponseKbCount:"
++ "setHasResponseTimeInMilliseconds:"
++ "setHasResponseTokensCount:"
++ "setHasTapToEditContext:"
++ "setHasTimeToFirstTokenInSeconds:"
++ "setHasTimeToLastTokenInSeconds:"
++ "setHasTokensPerSecond:"
++ "setHasTypedText:"
++ "setHasTypingRequestTrace:"
++ "setHasUeiInvocationTier1:"
++ "setHasUseCase:"
++ "setHasVoiceTriggerEnrollmentFunnelReported:"
++ "setImageCount:"
++ "setImagePerSecond:"
++ "setIsTranscriptEdited:"
++ "setIsUserSignedIn:"
++ "setIsWebSearchUsed:"
++ "setKbPerSecond:"
++ "setKeyboardAppearanceBringUpTurnID:"
++ "setModelLocation:"
++ "setModelParty:"
++ "setModifiedTranscript:"
++ "setOdfunnelId:"
++ "setOpenAIErrorCode:"
++ "setOriginalTranscript:"
++ "setPageNumberCompleted:"
++ "setRescoringDeliberationResult:"
++ "setRescoringDeliberationResultTier1:"
++ "setRescoringEvents:"
++ "setRescoringFinalizeDuration:"
++ "setRescoringLinkId:"
++ "setRescoringResultDuration:"
++ "setResponseCharactersCount:"
++ "setResponseKbCount:"
++ "setResponseTimeInMilliseconds:"
++ "setResponseTokensCount:"
++ "setTapToEditContext:"
++ "setTimeToFirstTokenInSeconds:"
++ "setTimeToLastTokenInSeconds:"
++ "setTokensPerSecond:"
++ "setTypedText:"
++ "setTypingRequestTrace:"
++ "setUeiInvocationTier1:"
++ "setUseCase:"
++ "setVoiceTriggerEnrollmentFunnelReported:"
++ "tapToEditContext"
++ "timeToFirstTokenInSeconds"
++ "timeToLastTokenInSeconds"
++ "tokensPerSecond"
++ "typedText"
++ "typingRequestTrace"
++ "ueiInvocationTier1"
++ "ueiInvocationTier1.typedText"
++ "useCase"
++ "userFeedbackCompleted.expectedWinnerSiriSpeechId"
++ "userFeedbackParticipantCollectionReported.userFeedbackParticipants.halTargetSiriSpeechId"
++ "userFeedbackParticipantCollectionReported.userFeedbackParticipants.siriSpeechId"
++ "voiceTriggerEnrollmentFunnelReported"
++ "{?=\"accountType\"b1\"isWebSearchUsed\"b1\"isUserSignedIn\"b1\"modelParty\"b1\"modelLocation\"b1\"useCase\"b1\"externalPartner\"b1}"
++ "{?=\"changeType\"b1\"changeTokenExpired\"b1}"
++ "{?=\"enrollmentMode\"b1\"voiceTriggerType\"b1\"enrollmentOutcome\"b1\"pageNumberCompleted\"b1\"trainingOutcome\"b1}"
++ "{?=\"errorDomain\"b1\"gmsErrorCode\"b1\"openAIErrorCode\"b1}"
++ "{?=\"errorType\"b1}"
++ "{?=\"eventType\"b1\"eventDuration\"b1}"
++ "{?=\"isExplicit\"b1\"genAIAppIntent\"b1\"correctionOutcome\"b1}"
++ "{?=\"isTranscriptEdited\"b1}"
++ "{?=\"neuralCombinerScore\"b1\"recommendation\"b1\"mode\"b1}"
++ "{?=\"rescoringResultDuration\"b1\"rescoringFinalizeDuration\"b1}"
++ "{?=\"tokensPerSecond\"b1\"responseTokensCount\"b1\"kbPerSecond\"b1\"responseKbCount\"b1\"imagePerSecond\"b1\"imageCount\"b1\"timeToFirstTokenInSeconds\"b1\"timeToLastTokenInSeconds\"b1\"responseCharactersCount\"b1\"responseTimeInMilliseconds\"b1}"
++ "{?=\"viewInterface\"b1}"
+- "\x01\x12!"
+- "\x0f\x0f\v"
+- "\x0f\x0f\x0f\x0f\r"
+- "\x17"
+- "!\x11a\x12\x81"
+- "%!B(MISSING)\x11\x11"
+- "{?=\"neuralCombinerScore\"b1\"recommendation\"b1}"
+
+```

@@ -1,0 +1,110 @@
+## Vision
+
+> `/System/ExclaveKit/System/Library/Frameworks/Vision.framework/Vision`
+
+```diff
+
+-8.0.51.0.0
+-  __TEXT.__text: 0x901ac
++8.0.58.0.0
++  __TEXT.__text: 0x903c4
+   __TEXT.__auth_stubs: 0x16f0
+-  __TEXT.__const: 0x6308
++  __TEXT.__const: 0x6318
+   __TEXT.__objc_methname: 0x1c1
+-  __TEXT.__cstring: 0x64b5
++  __TEXT.__cstring: 0x64e5
+   __TEXT.__swift5_typeref: 0x1d58
+   __TEXT.__swift5_fieldmd: 0x2e24
+-  __TEXT.__constg_swiftt: 0x3dcc
++  __TEXT.__constg_swiftt: 0x3dd4
+   __TEXT.__swift5_protos: 0xcc
+   __TEXT.__swift5_reflstr: 0x2300
+   __TEXT.__swift5_builtin: 0xdc
+
+   __TEXT.__oslogstring: 0x1a9
+   __TEXT.__swift5_assocty: 0x3e0
+   __TEXT.__swift5_mpenum: 0x18
+-  __TEXT.__unwind_info: 0x3120
+-  __TEXT.__eh_frame: 0x6170
++  __TEXT.__unwind_info: 0x3130
++  __TEXT.__eh_frame: 0x6180
+   __DATA.__auth_got: 0xb78
+   __DATA.__got: 0x308
+-  __DATA.__auth_ptr: 0xc78
++  __DATA.__auth_ptr: 0x7c0
+   __DATA.__const: 0xb9f8
+   __DATA.__objc_classlist: 0x120
+   __DATA.__objc_imageinfo: 0x8
+   __DATA.__objc_const: 0x2168
+   __DATA.__objc_selrefs: 0xe0
+   __DATA.__objc_data: 0x140
+-  __DATA.__data: 0x46c0
++  __DATA.__data: 0x46d8
+   __DATA.__bss: 0xbc8
+   __DATA.__common: 0xe0
+   - /System/ExclaveKit/System/Library/Frameworks/Accelerate.framework/Accelerate
+
+   - /System/ExclaveKit/usr/lib/swift/libswift_stdio.dylib
+   - /System/ExclaveKit/usr/lib/swift/libswift_time.dylib
+   - /System/ExclaveKit/usr/lib/swift/libswiftos.dylib
+-  Functions: 4040
+-  Symbols:   11855
+-  CStrings:  638
++  Functions: 4042
++  Symbols:   11864
++  CStrings:  639
+ 
+Symbols:
++ _$s6Vision13DetectorCacheC04findB02of14configuredWithAA08ConcreteB0_pSgAA0B4TypeO_SDySSypGtYaKF
++ _$s6Vision13DetectorCacheC04findB02of14configuredWithAA08ConcreteB0_pSgAA0B4TypeO_SDySSypGtYaKFTY0_
++ _$s6Vision13DetectorCacheC04findB02of14configuredWithAA08ConcreteB0_pSgAA0B4TypeO_SDySSypGtYaKFTq
++ _$s6Vision13DetectorCacheC04findB02of14configuredWithAA08ConcreteB0_pSgAA0B4TypeO_SDySSypGtYaKFTu
++ _$s6Vision13DetectorCacheC8detector2of14configuredWithAA08ConcreteB0_pAA0B4TypeO_SDySSypGtYaKF
++ _$s6Vision13DetectorCacheC8detector2of14configuredWithAA08ConcreteB0_pAA0B4TypeO_SDySSypGtYaKFTQ0_
++ _$s6Vision13DetectorCacheC8detector2of14configuredWithAA08ConcreteB0_pAA0B4TypeO_SDySSypGtYaKFTQ2_
++ _$s6Vision13DetectorCacheC8detector2of14configuredWithAA08ConcreteB0_pAA0B4TypeO_SDySSypGtYaKFTY1_
++ _$s6Vision13DetectorCacheC8detector2of14configuredWithAA08ConcreteB0_pAA0B4TypeO_SDySSypGtYaKFTY3_
++ _$s6Vision13DetectorCacheC8detector2of14configuredWithAA08ConcreteB0_pAA0B4TypeO_SDySSypGtYaKFTY4_
++ _$s6Vision13DetectorCacheC8detector2of14configuredWithAA08ConcreteB0_pAA0B4TypeO_SDySSypGtYaKFTY5_
++ _$s6Vision13DetectorCacheC8detector2of14configuredWithAA08ConcreteB0_pAA0B4TypeO_SDySSypGtYaKFTq
++ _$s6Vision13DetectorCacheC8detector2of14configuredWithAA08ConcreteB0_pAA0B4TypeO_SDySSypGtYaKFTu
++ _$s6Vision13DetectorCacheCAA0B9ProvidingA2aDP04findB02of14configuredWithAA08ConcreteB0_pSgAA0B4TypeO_SDySSypGtYaKFTWTQ0_
++ _$s6Vision16ConcreteDetector_pSgWObTm
++ _$s6Vision16ConcreteDetector_pSgWOhTm
++ _$s6Vision7SessionC12findDetector2of14configuredWithAA08ConcreteD0_pSgAA0D4TypeO_SDySSypGtYaKFTQ1_
++ _$s6Vision7SessionC8detector2of14configuredWithAA16ConcreteDetector_pAA0H4TypeO_SDySSypGtYaKF
++ _$s6Vision7SessionC8detector2of14configuredWithAA16ConcreteDetector_pAA0H4TypeO_SDySSypGtYaKF6$deferL_yyF
++ _$s6Vision7SessionC8detector2of14configuredWithAA16ConcreteDetector_pAA0H4TypeO_SDySSypGtYaKFTQ1_
++ _$s6Vision7SessionC8detector2of14configuredWithAA16ConcreteDetector_pAA0H4TypeO_SDySSypGtYaKFTY0_
++ _$s6Vision7SessionC8detector2of14configuredWithAA16ConcreteDetector_pAA0H4TypeO_SDySSypGtYaKFTY2_
++ _$s6Vision7SessionC8detector2of14configuredWithAA16ConcreteDetector_pAA0H4TypeO_SDySSypGtYaKFTY3_
++ _$s6Vision7SessionC8detector2of14configuredWithAA16ConcreteDetector_pAA0H4TypeO_SDySSypGtYaKFTu
++ _$s6Vision7SessionCAA17DetectorProvidingA2aDP04findC02of14configuredWithAA08ConcreteC0_pSgAA0C4TypeO_SDySSypGtYaKFTWTQ1_
++ _$s6Vision7SessionCAA17DetectorProvidingA2aDP8detector2of14configuredWithAA08ConcreteC0_pAA0C4TypeO_SDySSypGtYaKFTWTQ1_
++ _$s6Vision7SessionCAA17DetectorProvidingA2aDP8detector2of14configuredWithAA08ConcreteC0_pAA0C4TypeO_SDySSypGtYaKFTWTY0_
++ _$s6Vision7SessionCAA17DetectorProvidingA2aDP8detector2of14configuredWithAA08ConcreteC0_pAA0C4TypeO_SDySSypGtYaKFTWTY2_
++ _$s6Vision7SessionCAA17DetectorProvidingA2aDP8detector2of14configuredWithAA08ConcreteC0_pAA0C4TypeO_SDySSypGtYaKFTWTY3_
+- _$s6Vision13DetectorCacheC04findB02of14configuredWithAA08ConcreteB0_pSgAA0B4TypeO_SDySSypGtKF
+- _$s6Vision13DetectorCacheC04findB02of14configuredWithAA08ConcreteB0_pSgAA0B4TypeO_SDySSypGtKFTq
+- _$s6Vision13DetectorCacheCAA0B9ProvidingA2aDP04findB02of14configuredWithAA08ConcreteB0_pSgAA0B4TypeO_SDySSypGtYaKFTWTY0_
+- _$s6Vision14CachedDetector_pSgWOb
+- _$s6Vision14CachedDetector_pSgWOh
+- _$s6Vision16ConcreteDetector_pSgWOb
+- _$s6Vision16ConcreteDetector_pSgWOh
+- _$s6Vision16ConcreteDetector_pWOb
+- _$s6Vision17DetectorProvidingPAAE8detector2of14configuredWithAA08ConcreteB0_pAA0B4TypeO_SDySSypGtYaKF
+- _$s6Vision17DetectorProvidingPAAE8detector2of14configuredWithAA08ConcreteB0_pAA0B4TypeO_SDySSypGtYaKFTQ0_
+- _$s6Vision17DetectorProvidingPAAE8detector2of14configuredWithAA08ConcreteB0_pAA0B4TypeO_SDySSypGtYaKFTQ2_
+- _$s6Vision17DetectorProvidingPAAE8detector2of14configuredWithAA08ConcreteB0_pAA0B4TypeO_SDySSypGtYaKFTY1_
+- _$s6Vision17DetectorProvidingPAAE8detector2of14configuredWithAA08ConcreteB0_pAA0B4TypeO_SDySSypGtYaKFTY3_
+- _$s6Vision17DetectorProvidingPAAE8detector2of14configuredWithAA08ConcreteB0_pAA0B4TypeO_SDySSypGtYaKFTY4_
+- _$s6Vision17DetectorProvidingPAAE8detector2of14configuredWithAA08ConcreteB0_pAA0B4TypeO_SDySSypGtYaKFTY5_
+- _$s6Vision17DetectorProvidingPAAE8detector2of14configuredWithAA08ConcreteB0_pAA0B4TypeO_SDySSypGtYaKFTu
+- _$s6Vision7SessionC12findDetector2of14configuredWithAA08ConcreteD0_pSgAA0D4TypeO_SDySSypGtYaKFTY1_
+- _$s6Vision7SessionCAA17DetectorProvidingA2aDP04findC02of14configuredWithAA08ConcreteC0_pSgAA0C4TypeO_SDySSypGtYaKFTWTY1_
+- _$s6Vision7SessionCAA17DetectorProvidingA2aDP8detector2of14configuredWithAA08ConcreteC0_pAA0C4TypeO_SDySSypGtYaKFTWTQ0_
+CStrings:
++ "createDetectorInternal(from:): start: creating "
+
+```

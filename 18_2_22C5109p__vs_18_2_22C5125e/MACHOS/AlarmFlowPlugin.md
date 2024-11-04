@@ -1,0 +1,22 @@
+## AlarmFlowPlugin
+
+> `/System/Library/Assistant/FlowDelegatePlugins/AlarmFlowPlugin.bundle/AlarmFlowPlugin`
+
+```diff
+
+-3402.33.1.0.0
++3402.36.1.0.0
+   __TEXT.__text: 0x10a39c
+   __TEXT.__auth_stubs: 0x35e0
+   __TEXT.__objc_methlist: 0x14
+
+   __TEXT.__eh_frame: 0x9b28
+   __DATA_CONST.__auth_got: 0x1af0
+   __DATA_CONST.__got: 0xa90
+-  __DATA_CONST.__auth_ptr: 0xf28
++  __DATA_CONST.__auth_ptr: 0xf50
+   __DATA_CONST.__const: 0x1b50
+   __DATA_CONST.__objc_classlist: 0x68
+   __DATA_CONST.__objc_catlist: 0x8
+
+```

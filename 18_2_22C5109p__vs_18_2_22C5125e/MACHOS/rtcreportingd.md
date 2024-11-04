@@ -1,0 +1,23 @@
+## rtcreportingd
+
+> `/usr/libexec/rtcreportingd`
+
+```diff
+
+   __TEXT.__swift5_capture: 0x53c
+   __TEXT.__swift5_mpenum: 0x10
+   __TEXT.__swift5_entry: 0x8
+-  __TEXT.__unwind_info: 0x2660
++  __TEXT.__unwind_info: 0x2650
+   __TEXT.__eh_frame: 0x61d0
+   __DATA_CONST.__auth_got: 0x1080
+   __DATA_CONST.__got: 0x508
+-  __DATA_CONST.__auth_ptr: 0x678
+-  __DATA_CONST.__const: 0x42c0
++  __DATA_CONST.__auth_ptr: 0x618
++  __DATA_CONST.__const: 0x4250
+   __DATA_CONST.__objc_classlist: 0xc8
+   __DATA_CONST.__objc_protolist: 0x50
+   __DATA_CONST.__objc_imageinfo: 0x8
+
+```

@@ -1,0 +1,29 @@
+## MobileAssetExclaveComponent
+
+> `/System/ExclaveKit/System/Library/Frameworks/MobileAssetExclaveComponent.framework/MobileAssetExclaveComponent`
+
+```diff
+
+-1329.60.89.502.4
+-  __TEXT.__text: 0x9218
++1329.60.100.502.2
++  __TEXT.__text: 0x9248
+   __TEXT.__auth_stubs: 0x540
+   __TEXT.__const: 0x7dc
+-  __TEXT.__cstring: 0xe53
++  __TEXT.__cstring: 0xe54
+   __TEXT.__swift5_typeref: 0x2ce
+   __TEXT.__constg_swiftt: 0x5d0
+   __TEXT.__swift5_reflstr: 0x4e2
+Symbols:
++ _$s9Tightbeam0A7DecoderV27MobileAssetExclaveComponentE6decode33_1F1DCBCE95F0B8CA731DB4A874BCA9A9LL2asAD12StorageErrorOAIm_tKFTf4dn_n
++ _$s9Tightbeam0A7EncoderV27MobileAssetExclaveComponentE6encode33_1F1DCBCE95F0B8CA731DB4A874BCA9A9LLyyAD06SecurecD5NonceVKF
++ _$sSlsE3mapySayqd__Gqd__7ElementQzqd_0_YKXEqd_0_YKs5ErrorRd_0_r0_lFSnys6UInt64VG_s5UInt8Vs5NeverOTg50139$s9Tightbeam0A7DecoderV27MobileAssetExclaveComponentE6decode33_1F1DCBCE95F0B8CA731DB4A874BCA9A9LL2asAD06SecurecD15ManifestObjectsVAIm_tKFs5e3Vs6D6VXEfU_9Tightbeam09TightbeamJ0VTf1cn_nTm
+- _$s9Tightbeam0A7DecoderV27MobileAssetExclaveComponentE6decode33_1F1DCBCE95F0B8CA731DB4A874BCA9A9LL2asAD12StorageErrorOAIm_tFTf4dn_n
+- _$s9Tightbeam0A7EncoderV27MobileAssetExclaveComponentE6encode33_1F1DCBCE95F0B8CA731DB4A874BCA9A9LLyyAD06SecurecD5NonceVF
+- _$sSlsE3mapySayqd__Gqd__7ElementQzqd_0_YKXEqd_0_YKs5ErrorRd_0_r0_lFSnys6UInt64VG_s5UInt8Vs5NeverOTg50138$s9Tightbeam0A7DecoderV27MobileAssetExclaveComponentE6decode33_1F1DCBCE95F0B8CA731DB4A874BCA9A9LL2asAD06SecurecD15ManifestObjectsVAIm_tFs5e3Vs6D6VXEfU_9Tightbeam09TightbeamJ0VTf1cn_nTm
+CStrings:
++ "invalid rawValue for StorageError: "
+- "invalid rawValue for StorageError "
+
+```

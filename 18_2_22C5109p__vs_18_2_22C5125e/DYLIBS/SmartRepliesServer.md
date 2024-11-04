@@ -1,0 +1,416 @@
+## SmartRepliesServer
+
+> `/System/Library/PrivateFrameworks/SmartRepliesServer.framework/SmartRepliesServer`
+
+```diff
+
+-71.0.0.0.0
+-  __TEXT.__text: 0x10eb8
++73.4.0.0.0
++  __TEXT.__text: 0xf2f8
+   __TEXT.__auth_stubs: 0xc10
+   __TEXT.__objc_methlist: 0x4c
+-  __TEXT.__const: 0x75a
+-  __TEXT.__gcc_except_tab: 0x20
+-  __TEXT.__cstring: 0xc78
+-  __TEXT.__dlopen_cstrs: 0x60
++  __TEXT.__cstring: 0xcbd
++  __TEXT.__const: 0x700
+   __TEXT.__constg_swiftt: 0x2e0
+   __TEXT.__swift5_typeref: 0x363
+   __TEXT.__swift5_builtin: 0x50
+-  __TEXT.__swift5_reflstr: 0x2c6
++  __TEXT.__swift5_reflstr: 0x2bc
+   __TEXT.__swift5_fieldmd: 0x350
+   __TEXT.__swift5_assocty: 0x60
+   __TEXT.__swift5_proto: 0x60
+   __TEXT.__swift5_types: 0x38
+   __TEXT.__oslogstring: 0x403
+   __TEXT.__swift5_capture: 0xac
+-  __TEXT.__unwind_info: 0x4c0
+-  __TEXT.__eh_frame: 0x760
++  __TEXT.__gcc_except_tab: 0x20
++  __TEXT.__dlopen_cstrs: 0x60
++  __TEXT.__unwind_info: 0x468
++  __TEXT.__eh_frame: 0x670
+   __TEXT.__objc_classname: 0x36
+-  __TEXT.__objc_methname: 0x308
++  __TEXT.__objc_methname: 0x362
+   __TEXT.__objc_methtype: 0xf7
+-  __TEXT.__objc_stubs: 0x80
+-  __DATA_CONST.__got: 0x100
++  __TEXT.__objc_stubs: 0xe0
++  __DATA_CONST.__got: 0x110
+   __DATA_CONST.__const: 0x140
+   __DATA_CONST.__objc_classlist: 0x20
+   __DATA_CONST.__objc_protolist: 0x28
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0xa0
++  __DATA_CONST.__objc_selrefs: 0xb8
+   __DATA_CONST.__objc_protorefs: 0x18
+   __AUTH_CONST.__auth_got: 0x618
+-  __AUTH_CONST.__auth_ptr: 0x198
++  __AUTH_CONST.__auth_ptr: 0x188
+   __AUTH_CONST.__const: 0x7f0
++  __AUTH_CONST.__cfstring: 0x60
+   __AUTH_CONST.__objc_const: 0x720
+   __AUTH.__objc_data: 0x68
+-  __DATA.__data: 0x1d8
++  __DATA.__data: 0x1f0
+   __DATA.__bss: 0x600
+   __DATA_DIRTY.__objc_data: 0xc8
+-  __DATA_DIRTY.__data: 0x440
++  __DATA_DIRTY.__data: 0x428
++  __DATA_DIRTY.__common: 0x18
+   __DATA_DIRTY.__bss: 0x610
+-  __DATA_DIRTY.__common: 0x30
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/PrivateFrameworks/Espresso.framework/Espresso
+
+   - /usr/lib/swift/libswiftsimd.dylib
+   - /usr/lib/swift/libswiftsys_time.dylib
+   - /usr/lib/swift/libswiftunistd.dylib
+-  Functions: 350
+-  Symbols:   747
+-  CStrings:  159
++  Functions: 374
++  Symbols:   156
++  CStrings:  164
+ 
+Symbols:
++ _OBJC_CLASS_$_NSAssertionHandler
++ _OBJC_CLASS_$_NSString
++ ___CFConstantStringClassReference
++ _objc_release_x22
++ _objc_retain_x21
++ _objc_retain_x9
++ _swift_getObjCClassFromMetadata
+- <redacted>
+- _$s10Foundation19PropertyListDecoderC6decode_4fromxxm_AA4DataVtKSeRzlFTj
+- _$s10Foundation19PropertyListDecoderCACycfc
+- _$s10Foundation19PropertyListDecoderCMa
+- _$s10Foundation22_convertErrorToNSErrorySo0E0Cs0C0_pF
+- _$s10Foundation3URLV13DirectoryHintO13inferFromPathyA2EmFWC
+- _$s10Foundation3URLV13DirectoryHintOMa
+- _$s10Foundation3URLV8filePath13directoryHint10relativeToACSS_AC09DirectoryF0OACSgtcfC
+- _$s10Foundation3URLVMa
+- _$s10Foundation3URLVMn
+- _$s10Foundation4DataV10contentsOf7optionsAcA3URLVh_So20NSDataReadingOptionsVtKcfC
+- _$s10Foundation4DateV11distantPastACvgZ
+- _$s10Foundation4DateV17timeIntervalSinceySdACF
+- _$s10Foundation4DateV1loiySbAC_ACtFZ
+- _$s10Foundation4DateVMa
+- _$s10Foundation4DateVMn
+- _$s12SmartReplies02sraB18XPCClientInterfaceSo14NSXPCInterfaceCvg
+- _$s12SmartReplies05smartB20InferenceServiceNameSSvg
+- _$s12SmartReplies07SRSmartB14PredictionItemC5score5labelACSf_SSSgtcfc
+- _$s12SmartReplies07SRSmartB14PredictionItemCMa
+- _$s12SmartReplies07SRSmartB14PredictionItemCMn
+- _$s12SmartReplies07SRSmartB16ConversationTurnC4textSSvg
+- _$s12SmartReplies07SRSmartB16ConversationTurnC8senderIDSSSgvg
+- _$s12SmartReplies07SRSmartB16ConversationTurnC9timestamp10Foundation4DateVSgvg
+- _$s12SmartReplies07SRSmartB16ConversationTurnCMa
+- _$s12SmartReplies07SRSmartB16ConversationTurnCMn
+- _$s12SmartReplies07SRSmartB5ErrorO014modelInferenceD0yACSScACmFWC
+- _$s12SmartReplies07SRSmartB5ErrorO019modelInitializationD0yACSScACmFWC
+- _$s12SmartReplies07SRSmartB5ErrorO020configInitializationD0yACSScACmFWC
+- _$s12SmartReplies07SRSmartB5ErrorO023tokenizerInitializationD0yACSScACmFWC
+- _$s12SmartReplies07SRSmartB5ErrorO08internalD0yACSScACmFWC
+- _$s12SmartReplies07SRSmartB5ErrorOMa
+- _$s12SmartReplies07SRSmartB5ErrorOMn
+- _$s12SmartReplies07SRSmartB5ErrorOs0D0AAMc
+- _$s18SmartRepliesServer08SRSSmartbC9XPCServerC10predictFor7message17conversationTurns8language9plistPath013espressoModelM005vocabM05headsSDySSSay0aB007SRSmartB14PredictionItemCGGSgSS_SayAL0rB16ConversationTurnCGS4SSaySSGtYaKF
+- _$s18SmartRepliesServer08SRSSmartbC9XPCServerC10predictFor7message17conversationTurns8language9plistPath013espressoModelM005vocabM05headsSDySSSay0aB007SRSmartB14PredictionItemCGGSgSS_SayAL0rB16ConversationTurnCGS4SSaySSGtYaKFTu
+- _$s18SmartRepliesServer08SRSSmartbC9XPCServerC20registerXPCListenersyyFZ
+- _$s18SmartRepliesServer08SRSSmartbC9XPCServerC8listener_25shouldAcceptNewConnectionSbSo13NSXPCListenerC_So15NSXPCConnectionCtF
+- _$s18SmartRepliesServer08SRSSmartbC9XPCServerCMa
+- _$s18SmartRepliesServer08SRSSmartbC9XPCServerCMn
+- _$s18SmartRepliesServer08SRSSmartbC9XPCServerCN
+- _$s18SmartRepliesServer08SRSSmartbC9XPCServerCfD
+- _$s18SmartRepliesServer0C14RequestHandlerC10predictFor7message17conversationTurns8language9plistPath013espressoModelM005vocabM05headsSDySSSay0aB007SRSmartB14PredictionItemCGGSgSS_SayAL0rB16ConversationTurnCGS4SSaySSGtYaKF
+- _$s18SmartRepliesServer0C14RequestHandlerC10predictFor7message17conversationTurns8language9plistPath013espressoModelM005vocabM05headsSDySSSay0aB007SRSmartB14PredictionItemCGGSgSS_SayAL0rB16ConversationTurnCGS4SSaySSGtYaKFTq
+- _$s18SmartRepliesServer0C14RequestHandlerC10predictFor7message17conversationTurns8language9plistPath013espressoModelM005vocabM05headsSDySSSay0aB007SRSmartB14PredictionItemCGGSgSS_SayAL0rB16ConversationTurnCGS4SSaySSGtYaKFTu
+- _$s18SmartRepliesServer0C14RequestHandlerC13formatOutputs_21modelHeadOutputLabelsSDySSSay0aB007SRSmartB14PredictionItemCGGSDySSSaySfGG_SDySSAA05ModelI0VGtFZ
+- _$s18SmartRepliesServer0C14RequestHandlerC13mergeMessages7message17conversationTurns15maxPromptLength0kL13WindowSeconds19promptJoiningStringS2S_Say0aB007SRSmartB16ConversationTurnCGSiSdSStFZ
+- _$s18SmartRepliesServer0C14RequestHandlerC14purgeableModel33_D0960EC341776FFF51FD6A4BE3A22B88LL23TextUnderstandingShared16TUSLazyPurgeableCys6ResultOyAA15InferenceBundleAELLV0aB007SRSmartB5ErrorOGGSgvpfi
+- _$s18SmartRepliesServer0C14RequestHandlerC15unownedExecutorScevg
+- _$s18SmartRepliesServer0C14RequestHandlerC15unownedExecutorScevpMV
+- _$s18SmartRepliesServer0C14RequestHandlerC16purgableModelKey33_D0960EC341776FFF51FD6A4BE3A22B88LLSS_S3Stvpfi
+- _$s18SmartRepliesServer0C14RequestHandlerCACycfC
+- _$s18SmartRepliesServer0C14RequestHandlerCACycfCTq
+- _$s18SmartRepliesServer0C14RequestHandlerCACycfc
+- _$s18SmartRepliesServer0C14RequestHandlerCMa
+- _$s18SmartRepliesServer0C14RequestHandlerCMm
+- _$s18SmartRepliesServer0C14RequestHandlerCMn
+- _$s18SmartRepliesServer0C14RequestHandlerCN
+- _$s18SmartRepliesServer0C14RequestHandlerCScAAAMc
+- _$s18SmartRepliesServer0C14RequestHandlerCfD
+- _$s18SmartRepliesServer0C14RequestHandlerCfd
+- _$s18SmartRepliesServer15InferenceConfigV10CodingKeysO11stringValueAESgSS_tcfC
+- _$s18SmartRepliesServer15InferenceConfigV10CodingKeysO11stringValueSSvg
+- _$s18SmartRepliesServer15InferenceConfigV10CodingKeysO11stringValueSSvpMV
+- _$s18SmartRepliesServer15InferenceConfigV10CodingKeysO8intValueAESgSi_tcfC
+- _$s18SmartRepliesServer15InferenceConfigV10CodingKeysO8intValueSiSgvg
+- _$s18SmartRepliesServer15InferenceConfigV10CodingKeysO8intValueSiSgvpMV
+- _$s18SmartRepliesServer15InferenceConfigV10CodingKeysO8rawValueAESgSS_tcfC
+- _$s18SmartRepliesServer15InferenceConfigV10CodingKeysO8rawValueSSvg
+- _$s18SmartRepliesServer15InferenceConfigV10CodingKeysO8rawValueSSvpMV
+- _$s18SmartRepliesServer15InferenceConfigV10CodingKeysOMa
+- _$s18SmartRepliesServer15InferenceConfigV10CodingKeysOMn
+- _$s18SmartRepliesServer15InferenceConfigV10CodingKeysON
+- _$s18SmartRepliesServer15InferenceConfigV10CodingKeysOSHAAMc
+- _$s18SmartRepliesServer15InferenceConfigV10CodingKeysOSQAAMc
+- _$s18SmartRepliesServer15InferenceConfigV10CodingKeysOSYAAMc
+- _$s18SmartRepliesServer15InferenceConfigV10CodingKeysOs0F3KeyAAMc
+- _$s18SmartRepliesServer15InferenceConfigV10CodingKeysOs23CustomStringConvertibleAAMc
+- _$s18SmartRepliesServer15InferenceConfigV10CodingKeysOs28CustomDebugStringConvertibleAAMc
+- _$s18SmartRepliesServer15InferenceConfigV10modelHeadsSDySSSDySSAA9ModelHeadVGGvg
+- _$s18SmartRepliesServer15InferenceConfigV10modelHeadsSDySSSDySSAA9ModelHeadVGGvpMV
+- _$s18SmartRepliesServer15InferenceConfigV19inferenceParameters26stringPreprocessingMethods10modelHeadsAcA0dG0V_SDySSSaySSGGSDySSSDySSAA9ModelHeadVGGtcfC
+- _$s18SmartRepliesServer15InferenceConfigV19inferenceParametersAA0dG0Vvg
+- _$s18SmartRepliesServer15InferenceConfigV19inferenceParametersAA0dG0VvpMV
+- _$s18SmartRepliesServer15InferenceConfigV26stringPreprocessingMethodsSDySSSaySSGGvg
+- _$s18SmartRepliesServer15InferenceConfigV26stringPreprocessingMethodsSDySSSaySSGGvpMV
+- _$s18SmartRepliesServer15InferenceConfigV4fromACs7Decoder_p_tKcfC
+- _$s18SmartRepliesServer15InferenceConfigVMa
+- _$s18SmartRepliesServer15InferenceConfigVMn
+- _$s18SmartRepliesServer15InferenceConfigVN
+- _$s18SmartRepliesServer15InferenceConfigVSeAAMc
+- _$s18SmartRepliesServer19InferenceParametersV10CodingKeysO11stringValueAESgSS_tcfC
+- _$s18SmartRepliesServer19InferenceParametersV10CodingKeysO11stringValueSSvg
+- _$s18SmartRepliesServer19InferenceParametersV10CodingKeysO11stringValueSSvpMV
+- _$s18SmartRepliesServer19InferenceParametersV10CodingKeysO8intValueAESgSi_tcfC
+- _$s18SmartRepliesServer19InferenceParametersV10CodingKeysO8intValueSiSgvg
+- _$s18SmartRepliesServer19InferenceParametersV10CodingKeysO8intValueSiSgvpMV
+- _$s18SmartRepliesServer19InferenceParametersV10CodingKeysO8rawValueAESgSS_tcfC
+- _$s18SmartRepliesServer19InferenceParametersV10CodingKeysO8rawValueSSvg
+- _$s18SmartRepliesServer19InferenceParametersV10CodingKeysO8rawValueSSvpMV
+- _$s18SmartRepliesServer19InferenceParametersV10CodingKeysOMa
+- _$s18SmartRepliesServer19InferenceParametersV10CodingKeysOMn
+- _$s18SmartRepliesServer19InferenceParametersV10CodingKeysON
+- _$s18SmartRepliesServer19InferenceParametersV10CodingKeysOSHAAMc
+- _$s18SmartRepliesServer19InferenceParametersV10CodingKeysOSQAAMc
+- _$s18SmartRepliesServer19InferenceParametersV10CodingKeysOSYAAMc
+- _$s18SmartRepliesServer19InferenceParametersV10CodingKeysOs0F3KeyAAMc
+- _$s18SmartRepliesServer19InferenceParametersV10CodingKeysOs23CustomStringConvertibleAAMc
+- _$s18SmartRepliesServer19InferenceParametersV10CodingKeysOs28CustomDebugStringConvertibleAAMc
+- _$s18SmartRepliesServer19InferenceParametersV11subModelKeySSSgvg
+- _$s18SmartRepliesServer19InferenceParametersV11subModelKeySSSgvpMV
+- _$s18SmartRepliesServer19InferenceParametersV15maxPromptLength0fG13WindowSeconds19promptJoiningString11subModelKeyACSi_SdS2SSgtcfC
+- _$s18SmartRepliesServer19InferenceParametersV15maxPromptLengthSivg
+- _$s18SmartRepliesServer19InferenceParametersV15maxPromptLengthSivpMV
+- _$s18SmartRepliesServer19InferenceParametersV19promptJoiningStringSSvg
+- _$s18SmartRepliesServer19InferenceParametersV19promptJoiningStringSSvpMV
+- _$s18SmartRepliesServer19InferenceParametersV22maxPromptWindowSecondsSdvg
+- _$s18SmartRepliesServer19InferenceParametersV22maxPromptWindowSecondsSdvpMV
+- _$s18SmartRepliesServer19InferenceParametersV4fromACs7Decoder_p_tKcfC
+- _$s18SmartRepliesServer19InferenceParametersVMa
+- _$s18SmartRepliesServer19InferenceParametersVMn
+- _$s18SmartRepliesServer19InferenceParametersVN
+- _$s18SmartRepliesServer19InferenceParametersVSeAAMc
+- _$s18SmartRepliesServer22MultiHeadEspressoModelC08espressoG033_84A6DA17DEFC71D37DEB31DDFEFF66EELLSo0H10_network_tavM
+- _$s18SmartRepliesServer22MultiHeadEspressoModelC08espressoG033_84A6DA17DEFC71D37DEB31DDFEFF66EELLSo0H10_network_tavg
+- _$s18SmartRepliesServer22MultiHeadEspressoModelC08espressoG033_84A6DA17DEFC71D37DEB31DDFEFF66EELLSo0H10_network_tavs
+- _$s18SmartRepliesServer22MultiHeadEspressoModelC08espressoG8FilePath9inputName18headDimensionality0H6EngineACSS_SSSDySSSiGSo0H9_engine_tatKcfC
+- _$s18SmartRepliesServer22MultiHeadEspressoModelC08espressoG8FilePath9inputName18headDimensionality0H6EngineACSS_SSSDySSSiGSo0H9_engine_tatKcfCTq
+- _$s18SmartRepliesServer22MultiHeadEspressoModelC08espressoG8FilePath9inputName18headDimensionality0H6EngineACSS_SSSDySSSiGSo0H9_engine_tatKcfc
+- _$s18SmartRepliesServer22MultiHeadEspressoModelC08espressoG8FilePath9inputName18headDimensionality0H6EngineACSS_SSSDySSSiGSo0H9_engine_tatKcfcfA2_
+- _$s18SmartRepliesServer22MultiHeadEspressoModelC12espressoPlan33_84A6DA17DEFC71D37DEB31DDFEFF66EELLSvvM
+- _$s18SmartRepliesServer22MultiHeadEspressoModelC12espressoPlan33_84A6DA17DEFC71D37DEB31DDFEFF66EELLSvvg
+- _$s18SmartRepliesServer22MultiHeadEspressoModelC12espressoPlan33_84A6DA17DEFC71D37DEB31DDFEFF66EELLSvvs
+- _$s18SmartRepliesServer22MultiHeadEspressoModelC15espressoContext33_84A6DA17DEFC71D37DEB31DDFEFF66EELLSvvM
+- _$s18SmartRepliesServer22MultiHeadEspressoModelC15espressoContext33_84A6DA17DEFC71D37DEB31DDFEFF66EELLSvvg
+- _$s18SmartRepliesServer22MultiHeadEspressoModelC15espressoContext33_84A6DA17DEFC71D37DEB31DDFEFF66EELLSvvs
+- _$s18SmartRepliesServer22MultiHeadEspressoModelC18headDimensionality33_84A6DA17DEFC71D37DEB31DDFEFF66EELLSDySSSiGvM
+- _$s18SmartRepliesServer22MultiHeadEspressoModelC18headDimensionality33_84A6DA17DEFC71D37DEB31DDFEFF66EELLSDySSSiGvg
+- _$s18SmartRepliesServer22MultiHeadEspressoModelC18headDimensionality33_84A6DA17DEFC71D37DEB31DDFEFF66EELLSDySSSiGvs
+- _$s18SmartRepliesServer22MultiHeadEspressoModelC23numberOfInputParameters33_84A6DA17DEFC71D37DEB31DDFEFF66EELLSivM
+- _$s18SmartRepliesServer22MultiHeadEspressoModelC23numberOfInputParameters33_84A6DA17DEFC71D37DEB31DDFEFF66EELLSivg
+- _$s18SmartRepliesServer22MultiHeadEspressoModelC23numberOfInputParameters33_84A6DA17DEFC71D37DEB31DDFEFF66EELLSivs
+- _$s18SmartRepliesServer22MultiHeadEspressoModelC9inference7onInput5headsSDySSSaySfGG23TextUnderstandingShared15TokenizerOutputV_SaySSGtKF
+- _$s18SmartRepliesServer22MultiHeadEspressoModelC9inference7onInput5headsSDySSSaySfGG23TextUnderstandingShared15TokenizerOutputV_SaySSGtKFTq
+- _$s18SmartRepliesServer22MultiHeadEspressoModelC9inputName33_84A6DA17DEFC71D37DEB31DDFEFF66EELLSSvM
+- _$s18SmartRepliesServer22MultiHeadEspressoModelC9inputName33_84A6DA17DEFC71D37DEB31DDFEFF66EELLSSvg
+- _$s18SmartRepliesServer22MultiHeadEspressoModelC9inputName33_84A6DA17DEFC71D37DEB31DDFEFF66EELLSSvs
+- _$s18SmartRepliesServer22MultiHeadEspressoModelCMa
+- _$s18SmartRepliesServer22MultiHeadEspressoModelCMm
+- _$s18SmartRepliesServer22MultiHeadEspressoModelCMn
+- _$s18SmartRepliesServer22MultiHeadEspressoModelCN
+- _$s18SmartRepliesServer22MultiHeadEspressoModelCfD
+- _$s18SmartRepliesServer22MultiHeadEspressoModelCfd
+- _$s18SmartRepliesServer9ModelHeadV10CodingKeysO11stringValueAESgSS_tcfC
+- _$s18SmartRepliesServer9ModelHeadV10CodingKeysO11stringValueSSvg
+- _$s18SmartRepliesServer9ModelHeadV10CodingKeysO11stringValueSSvpMV
+- _$s18SmartRepliesServer9ModelHeadV10CodingKeysO8intValueAESgSi_tcfC
+- _$s18SmartRepliesServer9ModelHeadV10CodingKeysO8intValueSiSgvg
+- _$s18SmartRepliesServer9ModelHeadV10CodingKeysO8intValueSiSgvpMV
+- _$s18SmartRepliesServer9ModelHeadV10CodingKeysO8rawValueAESgSS_tcfC
+- _$s18SmartRepliesServer9ModelHeadV10CodingKeysO8rawValueSSvg
+- _$s18SmartRepliesServer9ModelHeadV10CodingKeysO8rawValueSSvpMV
+- _$s18SmartRepliesServer9ModelHeadV10CodingKeysOMa
+- _$s18SmartRepliesServer9ModelHeadV10CodingKeysOMn
+- _$s18SmartRepliesServer9ModelHeadV10CodingKeysON
+- _$s18SmartRepliesServer9ModelHeadV10CodingKeysOSHAAMc
+- _$s18SmartRepliesServer9ModelHeadV10CodingKeysOSQAAMc
+- _$s18SmartRepliesServer9ModelHeadV10CodingKeysOSYAAMc
+- _$s18SmartRepliesServer9ModelHeadV10CodingKeysOs0F3KeyAAMc
+- _$s18SmartRepliesServer9ModelHeadV10CodingKeysOs23CustomStringConvertibleAAMc
+- _$s18SmartRepliesServer9ModelHeadV10CodingKeysOs28CustomDebugStringConvertibleAAMc
+- _$s18SmartRepliesServer9ModelHeadV18numberOfDimensionsSivg
+- _$s18SmartRepliesServer9ModelHeadV18numberOfDimensionsSivpMV
+- _$s18SmartRepliesServer9ModelHeadV4fromACs7Decoder_p_tKcfC
+- _$s18SmartRepliesServer9ModelHeadV6labels18numberOfDimensionsACSaySSGSg_SitcfC
+- _$s18SmartRepliesServer9ModelHeadV6labelsSaySSGSgvg
+- _$s18SmartRepliesServer9ModelHeadV6labelsSaySSGSgvpMV
+- _$s18SmartRepliesServer9ModelHeadVMa
+- _$s18SmartRepliesServer9ModelHeadVMn
+- _$s18SmartRepliesServer9ModelHeadVN
+- _$s18SmartRepliesServer9ModelHeadVSeAAMc
+- _$s23TextUnderstandingShared16TUSLazyPurgeableC10initializeACyxGxyc_tcfc
+- _$s23TextUnderstandingShared16TUSLazyPurgeableCMn
+- _$s23TextUnderstandingShared18WordPieceTokenizerV4pathACSgSS_tcfC
+- _$s23TextUnderstandingShared18WordPieceTokenizerV6encode4textAA0F6OutputVSS_tF
+- _$s23TextUnderstandingShared18WordPieceTokenizerVMn
+- _$s2os6LoggerV18SmartRepliesServerE8signpostACvau
+- _$s2os6LoggerV18SmartRepliesServerE8signpostACvgZ
+- _$s2os6LoggerV18SmartRepliesServerE8signpostACvpZ
+- _$s2os6LoggerV18SmartRepliesServerE8standardACvau
+- _$s2os6LoggerV18SmartRepliesServerE8standardACvgZ
+- _$s2os6LoggerV18SmartRepliesServerE8standardACvpZ
+- _$s2os6LoggerV9logObjectSo03OS_a1_C0Cvg
+- _$s2os6LoggerV9subsystem8categoryACSS_SStcfC
+- _$s2os6LoggerVMa
+- _$s8RawValueSYTl
+- _$sBOWV
+- _$sBi32_WV
+- _$sBoWV
+- _$sSD10FoundationE19_bridgeToObjectiveCSo12NSDictionaryCyF
+- _$sSDyxq_GSesSeRzSeR_rlMc
+- _$sSH13_rawHashValue4seedS2i_tFTq
+- _$sSH4hash4intoys6HasherVz_tFTq
+- _$sSH9hashValueSivgTq
+- _$sSHMp
+- _$sSHSQTb
+- _$sSKsSS7ElementRtzrlE6joined9separatorS2S_tF
+- _$sSQ2eeoiySbx_xtFZTq
+- _$sSQMp
+- _$sSS10FoundationE19_bridgeToObjectiveCSo8NSStringCyF
+- _$sSS10FoundationE36_unconditionallyBridgeFromObjectiveCySSSo8NSStringCSgFZ
+- _$sSS10FoundationE8EncodingV4utf8ACvgZ
+- _$sSS10FoundationE8EncodingVMa
+- _$sSS10reflectingSSx_tclufC
+- _$sSS4hash4intoys6HasherVz_tF
+- _$sSS5countSivg
+- _$sSS6appendyySSF
+- _$sSS8UTF8ViewV13_foreignCountSiyF
+- _$sSS9hasSuffixySbSSF
+- _$sSSN
+- _$sSSSHsWP
+- _$sSSSesWP
+- _$sSSSysMc
+- _$sSY8rawValue03RawB0QzvgTq
+- _$sSY8rawValuexSg03RawB0Qz_tcfCTq
+- _$sSYMp
+- _$sSa10FoundationE19_bridgeToObjectiveCSo7NSArrayCyF
+- _$sSa10FoundationE36_unconditionallyBridgeFromObjectiveCySayxGSo7NSArrayCSgFZ
+- _$sSa11descriptionSSvg
+- _$sSa12_endMutationyyFyXl_Ts5
+- _$sSa28_allocateBufferUninitialized15minimumCapacitys06_ArrayB0VyxGSi_tFZ
+- _$sSayxGSKsMc
+- _$sSayxGSesSeRzlMc
+- _$sSayxGSlsMc
+- _$sSbN
+- _$sScA15unownedExecutorScevgTj
+- _$sScA15unownedExecutorScevgTq
+- _$sScAMp
+- _$sScP8rawValues5UInt8Vvg
+- _$sScPMa
+- _$sSe4fromxs7Decoder_p_tKcfCTq
+- _$sSeMp
+- _$sSiN
+- _$sSo13NSProcessInfoC23TextUnderstandingSharedE17processNameForPIDySSSgs5Int32VFZ
+- _$sSo13os_log_type_ta0A0E5debugABvgZ
+- _$sSo13os_log_type_ta0A0E5errorABvgZ
+- _$sSo13os_log_type_ta0A0E5faultABvgZ
+- _$sSo13os_log_type_ta0A0E7defaultABvgZ
+- _$sSw10copyMemory4fromySW_tF
+- _$sSwys5UInt8VSicis
+- _$sSy10FoundationE7cString5usingSays4Int8VGSgSSAAE8EncodingV_tF
+- _$ss018_bridgeAnyObjectToB0yypyXlSgF
+- _$ss11_StringGutsV4growyySiF
+- _$ss11_StringGutsV8copyUTF84intoSiSgSrys5UInt8VG_tF
+- _$ss11_StringGutsVN
+- _$ss12_ArrayBufferV18_typeCheckSlowPathyySiF
+- _$ss12_ArrayBufferV19_getElementSlowPathyyXlSiFyXl_Ts5
+- _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFyXl_Ts5
+- _$ss13_StringObjectV10sharedUTF8SRys5UInt8VGvg
+- _$ss15ContiguousArrayV034_makeUniqueAndReserveCapacityIfNotD0yyFyXl_Ts5
+- _$ss15ContiguousArrayV12_endMutationyyFyXl_Ts5
+- _$ss15ContiguousArrayV15reserveCapacityyySiFyXl_Ts5
+- _$ss15ContiguousArrayV36_reserveCapacityAssumingUniqueBuffer8oldCountySi_tFyXl_Ts5
+- _$ss15ContiguousArrayV37_appendElementAssumeUniqueAndCapacity_03newD0ySi_xntFyXl_Ts5
+- _$ss15_print_unlockedyyx_q_zts16TextOutputStreamR_r0_lF
+- _$ss17_assertionFailure__4file4line5flagss5NeverOs12StaticStringV_A2HSus6UInt32VtF
+- _$ss18_CocoaArrayWrapperV8endIndexSivg
+- _$ss18_CocoaArrayWrapperVys12_SliceBufferVyyXlGSnySiGcig
+- _$ss18_DictionaryStorageC4copy8originalAByxq_Gs05__RawaB0C_tFZ
+- _$ss18_DictionaryStorageC6resize8original8capacity4moveAByxq_Gs05__RawaB0C_SiSbtFZ
+- _$ss18_DictionaryStorageCMn
+- _$ss18_fatalErrorMessage__4file4line5flagss5NeverOs12StaticStringV_A2HSus6UInt32VtF
+- _$ss20__StaticArrayStorageCN
+- _$ss21_findStringSwitchCase5cases6stringSiSays06StaticB0VG_SStF
+- _$ss22KeyedDecodingContainerV15decodeIfPresent_6forKeySSSgSSm_xtKF
+- _$ss22KeyedDecodingContainerV15decodeIfPresent_6forKeyqd__Sgqd__m_xtKSeRd__lF
+- _$ss22KeyedDecodingContainerV6decode_6forKeyS2Sm_xtKF
+- _$ss22KeyedDecodingContainerV6decode_6forKeyS2dm_xtKF
+- _$ss22KeyedDecodingContainerV6decode_6forKeyS2im_xtKF
+- _$ss22KeyedDecodingContainerV6decode_6forKeyqd__qd__m_xtKSeRd__lF
+- _$ss22KeyedDecodingContainerVMn
+- _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFyXl_Ts5
+- _$ss22_minimumMergeRunLengthyS2iF
+- _$ss23CustomStringConvertibleMp
+- _$ss23CustomStringConvertibleP11descriptionSSvgTj
+- _$ss23CustomStringConvertibleP11descriptionSSvgTq
+- _$ss23_ContiguousArrayStorageCMn
+- _$ss26DefaultStringInterpolationVN
+- _$ss26DefaultStringInterpolationVs16TextOutputStreamsWP
+- _$ss27_stringCompareWithSmolCheck__9expectingSbs11_StringGutsV_ADs01_G16ComparisonResultOtF
+- _$ss28CustomDebugStringConvertibleMp
+- _$ss28CustomDebugStringConvertibleP16debugDescriptionSSvgTq
+- _$ss53KEY_TYPE_OF_DICTIONARY_VIOLATES_HASHABLE_REQUIREMENTSys5NeverOypXpF
+- _$ss5ErrorMp
+- _$ss5Int32VMn
+- _$ss5Int32VN
+- _$ss5Int32Vs23CustomStringConvertiblesWP
+- _$ss5UInt8VMn
+- _$ss6HasherV5_seedABSi_tcfC
+- _$ss6HasherV9_finalizeSiyF
+- _$ss6ResultOMn
+- _$ss6UInt32VMn
+- _$ss7DecoderP9container7keyedBys22KeyedDecodingContainerVyqd__Gqd__m_tKs9CodingKeyRd__lFTj
+- _$ss9CodingKeyMp
+- _$ss9CodingKeyP11stringValueSSvgTq
+- _$ss9CodingKeyP11stringValuexSgSS_tcfCTq
+- _$ss9CodingKeyP8intValueSiSgvgTq
+- _$ss9CodingKeyP8intValuexSgSi_tcfCTq
+- _$ss9CodingKeyPs23CustomStringConvertibleTb
+- _$ss9CodingKeyPs28CustomDebugStringConvertibleTb
+- _$ss9CodingKeyPsE11descriptionSSvg
+- _$ss9CodingKeyPsE16debugDescriptionSSvg
+- _$sypN
+- _$sytN
+- _abort_report_np
+- _objc_retain_x26
+CStrings:
++ "Class getSGStringPreprocessingTransformerClass(void)_block_invoke"
++ "SRSStringPreprocessor.m"
++ "UnsafeMutableRawPointer.initializeMemory with negative count"
++ "currentHandler"
++ "handleFailureInFunction:file:lineNumber:description:"
++ "stringWithUTF8String:"
++ "void *CoreSuggestionsMLLibrary(void)"
+- "Swift/UnsafeRawBufferPointer.swift"
+- "UnsafeMutableRawBufferPointer.copyMemory source has too many elements"
+
+```
