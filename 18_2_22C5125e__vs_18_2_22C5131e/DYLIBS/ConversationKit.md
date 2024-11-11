@@ -1,0 +1,141 @@
+## ConversationKit
+
+> `/System/Library/PrivateFrameworks/ConversationKit.framework/ConversationKit`
+
+```diff
+
+-525.300.153.0.0
+-  __TEXT.__text: 0x7c1848
++525.300.161.0.0
++  __TEXT.__text: 0x7c2a7c
+   __TEXT.__auth_stubs: 0x7c70
+   __TEXT.__objc_methlist: 0x6428
+-  __TEXT.__const: 0x2b464
+-  __TEXT.__cstring: 0x301fb
++  __TEXT.__const: 0x2b484
++  __TEXT.__cstring: 0x3023b
+   __TEXT.__oslogstring: 0x188f1
+-  __TEXT.__swift5_typeref: 0x277bc
+-  __TEXT.__swift5_capture: 0x94b4
+-  __TEXT.__constg_swiftt: 0x1a920
++  __TEXT.__swift5_typeref: 0x277ea
++  __TEXT.__swift5_capture: 0x94c4
++  __TEXT.__constg_swiftt: 0x1a950
+   __TEXT.__swift5_builtin: 0x94c
+   __TEXT.__swift5_mpenum: 0x1bc
+-  __TEXT.__swift5_reflstr: 0x18e9d
+-  __TEXT.__swift5_fieldmd: 0x13ba4
++  __TEXT.__swift5_reflstr: 0x18eed
++  __TEXT.__swift5_fieldmd: 0x13bc8
+   __TEXT.__swift5_assocty: 0x2558
+   __TEXT.__swift5_protos: 0x310
+   __TEXT.__swift5_proto: 0x188c
+   __TEXT.__swift5_types: 0x12f4
+-  __TEXT.__unwind_info: 0x1dba0
+-  __TEXT.__eh_frame: 0x14a90
++  __TEXT.__unwind_info: 0x1dbc8
++  __TEXT.__eh_frame: 0x14a80
+   __TEXT.__objc_classname: 0xd39
+-  __TEXT.__objc_methname: 0x157f0
++  __TEXT.__objc_methname: 0x15849
+   __TEXT.__objc_methtype: 0x38fc
+   __TEXT.__objc_stubs: 0x7c0
+-  __DATA_CONST.__got: 0x26b8
++  __DATA_CONST.__got: 0x26c8
+   __DATA_CONST.__const: 0x4f68
+   __DATA_CONST.__objc_classlist: 0xc70
+   __DATA_CONST.__objc_catlist: 0x68
+   __DATA_CONST.__objc_protolist: 0x648
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x57b0
++  __DATA_CONST.__objc_selrefs: 0x57d0
+   __DATA_CONST.__objc_protorefs: 0x330
+   __DATA_CONST.__objc_superrefs: 0x8
+   __AUTH_CONST.__auth_got: 0x3e40
+-  __AUTH_CONST.__auth_ptr: 0x48f8
+-  __AUTH_CONST.__const: 0x2ca98
++  __AUTH_CONST.__auth_ptr: 0x4978
++  __AUTH_CONST.__const: 0x2cac8
+   __AUTH_CONST.__cfstring: 0x1c0
+-  __AUTH_CONST.__objc_const: 0x275f0
++  __AUTH_CONST.__objc_const: 0x27630
+   __AUTH.__objc_data: 0xeaa0
+-  __AUTH.__data: 0xe888
++  __AUTH.__data: 0xe898
+   __DATA.__objc_ivar: 0x20
+-  __DATA.__data: 0x11b00
++  __DATA.__data: 0x11b20
+   __DATA.__objc_stublist: 0x8
+   __DATA.__bss: 0x26fc0
+   __DATA.__common: 0x1730
+   __DATA_DIRTY.__objc_data: 0x5f48
+-  __DATA_DIRTY.__data: 0x4d78
++  __DATA_DIRTY.__data: 0x4d88
+   __DATA_DIRTY.__bss: 0x1910
+   __DATA_DIRTY.__common: 0x728
+   - /System/Library/Frameworks/AVFAudio.framework/AVFAudio
+
+   - /usr/lib/swift/libswiftsimd.dylib
+   - /usr/lib/swift/libswiftsys_time.dylib
+   - /usr/lib/swift/libswiftunistd.dylib
+-  Functions: 54252
+-  Symbols:   78703
+-  CStrings:  10086
++  Functions: 54286
++  Symbols:   78765
++  CStrings:  10092
+ 
+Symbols:
++ _$s15ConversationKit028ParticipantViewRepresentableD5ModelV14isVideoEnabledSbvg
++ _$s15ConversationKit028ParticipantViewRepresentableD5ModelV14isVideoEnabledSbvpMV
++ _$s15ConversationKit0A10ControllerC20shouldShowRTTUpgradeSbvg
++ _$s15ConversationKit0A10ControllerC20shouldShowRTTUpgradeSbvpMV
++ _$s15ConversationKit0A12StateManagerC12upgradeToRTTyyF
++ _$s15ConversationKit0A25PresentationStateManagingP12upgradeToRTTyyFTj
++ _$s15ConversationKit0A25PresentationStateManagingP12upgradeToRTTyyFTq
++ _$s15ConversationKit0A25PresentationStateProviderC09onRTTCallD6ChangeyySbF
++ _$s15ConversationKit0A25PresentationStateProviderC12upgradeToRTTyyF
++ _$s15ConversationKit0A25PresentationStateProviderC18isRTTCallPublisher7Combine03AnyH0VySbs5NeverOGvg
++ _$s15ConversationKit0A25PresentationStateProviderC18isRTTCallPublisher7Combine03AnyH0VySbs5NeverOGvpMV
++ _$s15ConversationKit0A25PresentationStateProviderC20shouldShowRTTUpgradeSbvg
++ _$s15ConversationKit0A25PresentationStateProviderC20shouldShowRTTUpgradeSbvpMV
++ _$s15ConversationKit0A25PresentationStateProviderC28onShouldShowRTTUpgradeChangeyySbF
++ _$s15ConversationKit0A25PresentationStateProviderC29shouldShowRTTUpgradePublisher7Combine03AnyI0VySbs5NeverOGvg
++ _$s15ConversationKit0A25PresentationStateProviderC29shouldShowRTTUpgradePublisher7Combine03AnyI0VySbs5NeverOGvpMV
++ _$s15ConversationKit0A25PresentationStateProviderC6avMode17callDisplayStatus14isSendingVideo0K5Muted0hI4Info0H14DurationString5image0k5OneTosG7Enabled0K9Emergency08heldCallI4Name16contactsByHandle21ignoreLetMeInRequests0K7RTTCall20shouldShowRTTUpgradeACSo20TUConversationAVModeV_AA0xiJ0VS2bAA0xiO0OSSSgSo7UIImageCSgS2bAXSDySo8TUHandleCSo9CNContactCSgGS3btcfC
++ _$s15ConversationKit0A25PresentationStateProviderC6avMode17callDisplayStatus14isSendingVideo0K5Muted0hI4Info0H14DurationString5image0k5OneTosG7Enabled0K9Emergency08heldCallI4Name16contactsByHandle21ignoreLetMeInRequests0K7RTTCall20shouldShowRTTUpgradeACSo20TUConversationAVModeV_AA0xiJ0VS2bAA0xiO0OSSSgSo7UIImageCSgS2bAXSDySo8TUHandleCSo9CNContactCSgGS3btcfCTj
++ _$s15ConversationKit0A25PresentationStateProviderC6avMode17callDisplayStatus14isSendingVideo0K5Muted0hI4Info0H14DurationString5image0k5OneTosG7Enabled0K9Emergency08heldCallI4Name16contactsByHandle21ignoreLetMeInRequests0K7RTTCall20shouldShowRTTUpgradeACSo20TUConversationAVModeV_AA0xiJ0VS2bAA0xiO0OSSSgSo7UIImageCSgS2bAXSDySo8TUHandleCSo9CNContactCSgGS3btcfCTq
++ _$s15ConversationKit0A25PresentationStateProviderC6avMode17callDisplayStatus14isSendingVideo0K5Muted0hI4Info0H14DurationString5image0k5OneTosG7Enabled0K9Emergency08heldCallI4Name16contactsByHandle21ignoreLetMeInRequests0K7RTTCall20shouldShowRTTUpgradeACSo20TUConversationAVModeV_AA0xiJ0VS2bAA0xiO0OSSSgSo7UIImageCSgS2bAXSDySo8TUHandleCSo9CNContactCSgGS3btcfc
++ _$s15ConversationKit0A25PresentationStateProviderC9isRTTCallSbvg
++ _$s15ConversationKit0A25PresentationStateProviderC9isRTTCallSbvpMV
++ _$s15ConversationKit0A26PresentationStateProvidingP12upgradeToRTTyyFTj
++ _$s15ConversationKit0A26PresentationStateProvidingP12upgradeToRTTyyFTq
++ _$s15ConversationKit0A26PresentationStateProvidingP18isRTTCallPublisher7Combine03AnyH0VySbs5NeverOGvgTj
++ _$s15ConversationKit0A26PresentationStateProvidingP18isRTTCallPublisher7Combine03AnyH0VySbs5NeverOGvgTq
++ _$s15ConversationKit0A26PresentationStateProvidingP20shouldShowRTTUpgradeSbvgTj
++ _$s15ConversationKit0A26PresentationStateProvidingP20shouldShowRTTUpgradeSbvgTq
++ _$s15ConversationKit0A26PresentationStateProvidingP29shouldShowRTTUpgradePublisher7Combine03AnyI0VySbs5NeverOGvgTj
++ _$s15ConversationKit0A26PresentationStateProvidingP29shouldShowRTTUpgradePublisher7Combine03AnyI0VySbs5NeverOGvgTq
++ _$s15ConversationKit0A26PresentationStateProvidingP9isRTTCallSbvgTj
++ _$s15ConversationKit0A26PresentationStateProvidingP9isRTTCallSbvgTq
++ _$s15ConversationKit28ParticipantViewRepresentableV10isInRosterSbvM
++ _$s15ConversationKit28ParticipantViewRepresentableV10isInRosterSbvg
++ _$s15ConversationKit28ParticipantViewRepresentableV10isInRosterSbvpMV
++ _$s15ConversationKit28ParticipantViewRepresentableV10isInRosterSbvs
++ _$s15ConversationKit28ParticipantViewRepresentableV9viewModel10isInRosterAcA0cdedG0V_SbtcfC
++ _OBJC_CLASS_$_RTTTelephonyUtilities
++ _TUCallSupportsTTYWithVoiceChangedNotification
+- _$s15ConversationKit0A25PresentationStateProviderC6avMode17callDisplayStatus14isSendingVideo0K5Muted0hI4Info0H14DurationString5image0k5OneTosG7Enabled0K9Emergency08heldCallI4Name16contactsByHandle21ignoreLetMeInRequestsACSo20TUConversationAVModeV_AA0xiJ0VS2bAA0xiO0OSSSgSo7UIImageCSgS2bAVSDySo8TUHandleCSo9CNContactCSgGSbtcfC
+- _$s15ConversationKit0A25PresentationStateProviderC6avMode17callDisplayStatus14isSendingVideo0K5Muted0hI4Info0H14DurationString5image0k5OneTosG7Enabled0K9Emergency08heldCallI4Name16contactsByHandle21ignoreLetMeInRequestsACSo20TUConversationAVModeV_AA0xiJ0VS2bAA0xiO0OSSSgSo7UIImageCSgS2bAVSDySo8TUHandleCSo9CNContactCSgGSbtcfCTj
+- _$s15ConversationKit0A25PresentationStateProviderC6avMode17callDisplayStatus14isSendingVideo0K5Muted0hI4Info0H14DurationString5image0k5OneTosG7Enabled0K9Emergency08heldCallI4Name16contactsByHandle21ignoreLetMeInRequestsACSo20TUConversationAVModeV_AA0xiJ0VS2bAA0xiO0OSSSgSo7UIImageCSgS2bAVSDySo8TUHandleCSo9CNContactCSgGSbtcfCTq
+- _$s15ConversationKit0A25PresentationStateProviderC6avMode17callDisplayStatus14isSendingVideo0K5Muted0hI4Info0H14DurationString5image0k5OneTosG7Enabled0K9Emergency08heldCallI4Name16contactsByHandle21ignoreLetMeInRequestsACSo20TUConversationAVModeV_AA0xiJ0VS2bAA0xiO0OSSSgSo7UIImageCSgS2bAVSDySo8TUHandleCSo9CNContactCSgGSbtcfc
+- _$s15ConversationKit28ParticipantViewRepresentableV9viewModelAcA0cdedG0V_tcfC
+CStrings:
++ "currentPreferredTransportMethod"
++ "isRTTCallSubject"
++ "isRTTSupported"
++ "setTTYType:forCall:"
++ "sharedUtilityProvider"
++ "shouldShowRTTUpgradeSubject"
+
+```

@@ -1,0 +1,16 @@
+## RecentsAppPopover
+
+> `/System/Library/PrivateFrameworks/DocumentManagerUICore.framework/PlugIns/RecentsAppPopover.appex/RecentsAppPopover`
+
+```diff
+
+   __TEXT.__eh_frame: 0x606c
+   __DATA_CONST.__auth_got: 0x3650
+   __DATA_CONST.__got: 0x1ed8
+-  __DATA_CONST.__auth_ptr: 0x2060
++  __DATA_CONST.__auth_ptr: 0x1f90
+   __DATA_CONST.__const: 0x27880
+   __DATA_CONST.__cfstring: 0xde0
+   __DATA_CONST.__objc_classlist: 0xb98
+
+```
