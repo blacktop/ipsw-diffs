@@ -21,219 +21,6 @@
 <details>
   <summary><i>View Updated</i></summary>
 
->  `com.apple.driver.AppleAVD`
-
-```diff
-
--807.0.0.0.0
-+808.0.0.0.0
-   __TEXT.__const: 0x9a8c9
-   __TEXT.__cstring: 0x5277
-   __TEXT.__os_log: 0x12f18
--  __TEXT_EXEC.__text: 0x45574
-+  __TEXT_EXEC.__text: 0x45658
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0x12dc
-   __DATA.__common: 0x78
-
-   __DATA_CONST.__auth_ptr: 0x8
-   __DATA_CONST.__mod_init_func: 0x10
-   __DATA_CONST.__mod_term_func: 0x10
--  __DATA_CONST.__const: 0x2d08
-+  __DATA_CONST.__const: 0x2d60
-   __DATA_CONST.__kalloc_var: 0xbe0
-   __DATA_CONST.__kalloc_type: 0x2600
--  Functions: 1415
-+  Functions: 1426
-   Symbols:   0
-   CStrings:  1459
- 
-
-```
-
->  `com.apple.driver.AppleOLYHAL`
-
-```diff
-
--405.15.0.0.0
-+405.16.0.0.0
-   __TEXT.__const: 0x7a8
--  __TEXT.__cstring: 0x471a
--  __TEXT_EXEC.__text: 0x1cba0
-+  __TEXT.__cstring: 0x4607
-+  __TEXT_EXEC.__text: 0x1ca2c
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0x18c
-   __DATA.__common: 0x170
-
-   __DATA_CONST.__mod_init_func: 0x38
-   __DATA_CONST.__mod_term_func: 0x38
-   __DATA_CONST.__const: 0x13b8
--  __DATA_CONST.__kalloc_type: 0x640
--  Functions: 551
-+  __DATA_CONST.__kalloc_type: 0x600
-+  Functions: 549
-   Symbols:   0
--  CStrings:  497
-+  CStrings:  496
- 
-CStrings:
-+ "\"%s:%u:\" \"!failed\" @%s:%d"
-+ "\"%s:%u:\" \"task\" @%s:%d"
-+ "\"%s:%u:\" \"threadCall\" @%s:%d"
-- "\"%s:%u:\" \"triggerAsyncResetWork(kAppleOLYHALPortInterfaceActionPowerOn) == kIOReturnSuccess\" @%s:%d"
-- "\"%s:%u:\" \"triggerAsyncResetWork(kAppleOLYHALPortInterfaceActionPrepareOutsideFunctionReset) == kIOReturnSuccess\" @%s:%d"
-- "\"%s:%u:\" \"triggerAsyncResetWork(kAppleOLYHALPortInterfaceActionReset) == kIOReturnSuccess\" @%s:%d"
-- "%s::%s: thread_call_enter1 failed\n"
-
-```
-
->  `com.apple.driver.AppleT8140CLPC`
-
-```diff
-
--1175.60.50.0.1
--  __TEXT.__cstring: 0x2ba3
-+1175.60.51.0.0
-+  __TEXT.__cstring: 0x2b9f
-   __TEXT.__const: 0xc8c
-   __TEXT_EXEC.__text: 0x4fee4
-   __TEXT_EXEC.__auth_stubs: 0x0
-CStrings:
-+ "2024-11-14T22:53:15-08:00"
-+ "AppleCLPC-1175.60.51"
-- "2024-11-03T22:35:02-08:00"
-- "AppleCLPC-1175.60.50.0.1"
-
-```
-
->  `com.apple.kext.CoreTrust`
-
-```diff
-
--148.0.2.0.0
--  __TEXT.__const: 0xfe8
--  __TEXT_EXEC.__text: 0x8620
-+148.60.1.0.0
-+  __TEXT.__const: 0x10d2
-+  __TEXT_EXEC.__text: 0x87e8
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0xd8
-   __DATA.__common: 0x10
-   __DATA_CONST.__auth_got: 0xe8
-   __DATA_CONST.__got: 0x8
-   __DATA_CONST.__auth_ptr: 0x10
--  __DATA_CONST.__const: 0x14e0
--  Functions: 128
-+  __DATA_CONST.__const: 0x1558
-+  Functions: 130
-   Symbols:   0
-   CStrings:  0
- 
-
-```
-
->  `com.apple.security.AppleImage4`
-
-```diff
-
- 320.60.4.0.0
-   __TEXT.__const: 0x79f4
--  __TEXT.__cstring: 0x5ec0
-+  __TEXT.__cstring: 0x5ec2
-   __TEXT_EXEC.__text: 0x245a0
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0x6f8
-CStrings:
-+ "@(#)VERSION:Darwin Image4 Extension Version 7.0.0: Thu Nov 14 22:06:40 PST 2024; root:AppleImage4-320.60.4~227/AppleImage4/RELEASE_ARM64E"
-+ "Darwin Image4 Extension Version 7.0.0: Thu Nov 14 22:06:40 PST 2024; root:AppleImage4-320.60.4~227/AppleImage4/RELEASE_ARM64E"
-- "@(#)VERSION:Darwin Image4 Extension Version 7.0.0: Sun Nov  3 22:26:48 PST 2024; root:AppleImage4-320.60.4~25/AppleImage4/RELEASE_ARM64E"
-- "Darwin Image4 Extension Version 7.0.0: Sun Nov  3 22:26:48 PST 2024; root:AppleImage4-320.60.4~25/AppleImage4/RELEASE_ARM64E"
-
-```
-
->  `com.apple.security.sandbox`
-
-```diff
-
--2401.60.112.0.0
-+2401.60.113.0.0
-   __TEXT.__const: 0x18e4e9
-   __TEXT.__cstring: 0x70d3
-   __TEXT.__os_log: 0x20a1
--  __TEXT_EXEC.__text: 0x317e4
-+  __TEXT_EXEC.__text: 0x3174c
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0x1e0
-   __DATA.__bss: 0x15420
-
-   __DATA_CONST.__const: 0x3640
-   __DATA_CONST.__kalloc_var: 0x4b0
-   __DATA_CONST.__kalloc_type: 0xb40
--  Functions: 658
-+  Functions: 657
-   Symbols:   0
-   CStrings:  1315
- 
-
-```
-
->  `com.apple.driver.AppleH16ANEInterface`
-
-```diff
-
--8.203.0.0.0
--  __TEXT.__os_log: 0x3300f
-+8.203.4.0.0
-+  __TEXT.__os_log: 0x3303b
-   __TEXT.__cstring: 0xa5cd
-   __TEXT.__const: 0x690
--  __TEXT_EXEC.__text: 0xa3990
-+  __TEXT_EXEC.__text: 0xa3bb0
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0x3948
-   __DATA.__common: 0x3c8
-
-   __DATA_CONST.__kalloc_var: 0x2e40
-   Functions: 1816
-   Symbols:   0
--  CStrings:  3552
-+  CStrings:  3553
- 
-CStrings:
-+ "ANE%d: %s: WARN: client context is invalid\n"
-
-```
-
->  `com.apple.driver.AppleSPU`
-
-```diff
-
--1014.60.5.0.0
-+1014.60.5.0.1
-   __TEXT.__cstring: 0x5aae
--  __TEXT.__os_log: 0x955
-+  __TEXT.__os_log: 0x944
-   __TEXT.__const: 0x358
--  __TEXT_EXEC.__text: 0x498dc
-+  __TEXT_EXEC.__text: 0x498d0
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0x878
-   __DATA.__common: 0x970
-CStrings:
-+ "Dropped gnss data report due to missing data queue (%zu)"
-+ "Dropped gnss data report for queue (%zu)"
-+ "Dropped gnss event due to missing data queue (%zu)"
-+ "Dropped gnss event due to oversized packet (%zu)"
-+ "Dropped gnss event for queue (%zu)"
-- "Dropped gnss data report due to missing data queue %zu"
-- "Dropped gnss data report for queue error: %#x (%zu)"
-- "Dropped gnss event due to missing data queue %zu"
-- "Dropped gnss event due to oversized packet: %zu"
-- "Dropped gnss event for queue error: %#x (%zu)"
-
-```
-
 >  `com.apple.iokit.IOSkywalkFamily`
 
 ```diff
@@ -265,20 +52,57 @@ CStrings:
 
 ```
 
->  `com.apple.iokit.IOTimeSyncFamily`
+>  `com.apple.kernel`
 
 ```diff
 
--1320.7.0.0.0
-+1320.8.0.0.0
-   __TEXT.__cstring: 0x3298
-   __TEXT.__os_log: 0x74e4
-   __TEXT.__const: 0x1d8
--  __TEXT_EXEC.__text: 0x2f3e4
-+  __TEXT_EXEC.__text: 0x2f424
+-11215.60.405.0.0
++11215.62.3.0.0
+   __TEXT.__const: 0x34270
+   __TEXT.__copyio_vectors: 0xf0
+-  __TEXT.__cstring: 0x72df0
++  __TEXT.__cstring: 0x72dd0
+   __TEXT.__os_log: 0x276f6
+   __TEXT.__eh_frame: 0x610
+   __DATA_CONST.__auth_ptr: 0x8
+
+   __DATA_CONST.__brk_desc: 0x78
+   __DATA_SPTM.__const: 0x3c000
+   __TEXT_EXEC.__hib_text: 0xc68
+-  __TEXT_EXEC.__text: 0x7f35f4
++  __TEXT_EXEC.__text: 0x7f3350
+   __TEXT_BOOT_EXEC.__bootcode: 0x4cd8
+   __KLD.__text: 0x1644
+   __LASTDATA_CONST.__mod_init_func: 0x8
+
+   __PLK_LLVM_COV.__llvm_covmap: 0x0
+   __PLK_LINKEDIT.__data: 0x0
+   __LINKINFO.__symbolsets: 0x45b4f
+-  Functions: 20496
++  Functions: 20495
+   Symbols:   0
+-  CStrings:  17259
++  CStrings:  17257
+ 
+CStrings:
+- "mbuf invalid: %p @%s:%d"
+- "mptcp.c"
+
+```
+
+>  `com.apple.driver.AppleBluetoothModule`
+
+```diff
+
+-65.1.0.0.0
++66.0.0.0.0
+   __TEXT.__const: 0x60
+   __TEXT.__cstring: 0x25a0
+-  __TEXT_EXEC.__text: 0x7c18
++  __TEXT_EXEC.__text: 0x7c58
    __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0xd0
-   __DATA.__common: 0x638
+   __DATA.__data: 0x188
+   __DATA.__common: 0x60
 
 ```
 
@@ -347,6 +171,155 @@ CStrings:
 
 ```
 
+>  `com.apple.driver.AppleSPU`
+
+```diff
+
+-1014.60.5.0.0
++1014.60.5.0.1
+   __TEXT.__cstring: 0x5aae
+-  __TEXT.__os_log: 0x955
++  __TEXT.__os_log: 0x944
+   __TEXT.__const: 0x358
+-  __TEXT_EXEC.__text: 0x498dc
++  __TEXT_EXEC.__text: 0x498d0
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0x878
+   __DATA.__common: 0x970
+CStrings:
++ "Dropped gnss data report due to missing data queue (%zu)"
++ "Dropped gnss data report for queue (%zu)"
++ "Dropped gnss event due to missing data queue (%zu)"
++ "Dropped gnss event due to oversized packet (%zu)"
++ "Dropped gnss event for queue (%zu)"
+- "Dropped gnss data report due to missing data queue %zu"
+- "Dropped gnss data report for queue error: %#x (%zu)"
+- "Dropped gnss event due to missing data queue %zu"
+- "Dropped gnss event due to oversized packet: %zu"
+- "Dropped gnss event for queue error: %#x (%zu)"
+
+```
+
+>  `com.apple.security.AppleImage4`
+
+```diff
+
+ 320.60.4.0.0
+   __TEXT.__const: 0x79f4
+-  __TEXT.__cstring: 0x5ec0
++  __TEXT.__cstring: 0x5ec2
+   __TEXT_EXEC.__text: 0x245a0
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0x6f8
+CStrings:
++ "@(#)VERSION:Darwin Image4 Extension Version 7.0.0: Thu Nov 14 22:06:40 PST 2024; root:AppleImage4-320.60.4~227/AppleImage4/RELEASE_ARM64E"
++ "Darwin Image4 Extension Version 7.0.0: Thu Nov 14 22:06:40 PST 2024; root:AppleImage4-320.60.4~227/AppleImage4/RELEASE_ARM64E"
+- "@(#)VERSION:Darwin Image4 Extension Version 7.0.0: Sun Nov  3 22:26:48 PST 2024; root:AppleImage4-320.60.4~25/AppleImage4/RELEASE_ARM64E"
+- "Darwin Image4 Extension Version 7.0.0: Sun Nov  3 22:26:48 PST 2024; root:AppleImage4-320.60.4~25/AppleImage4/RELEASE_ARM64E"
+
+```
+
+>  `com.apple.driver.AppleAVD`
+
+```diff
+
+-807.0.0.0.0
++808.0.0.0.0
+   __TEXT.__const: 0x9a8c9
+   __TEXT.__cstring: 0x5277
+   __TEXT.__os_log: 0x12f18
+-  __TEXT_EXEC.__text: 0x45574
++  __TEXT_EXEC.__text: 0x45658
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0x12dc
+   __DATA.__common: 0x78
+
+   __DATA_CONST.__auth_ptr: 0x8
+   __DATA_CONST.__mod_init_func: 0x10
+   __DATA_CONST.__mod_term_func: 0x10
+-  __DATA_CONST.__const: 0x2d08
++  __DATA_CONST.__const: 0x2d60
+   __DATA_CONST.__kalloc_var: 0xbe0
+   __DATA_CONST.__kalloc_type: 0x2600
+-  Functions: 1415
++  Functions: 1426
+   Symbols:   0
+   CStrings:  1459
+ 
+
+```
+
+>  `com.apple.driver.AppleOLYHAL`
+
+```diff
+
+-405.15.0.0.0
++405.16.0.0.0
+   __TEXT.__const: 0x7a8
+-  __TEXT.__cstring: 0x471a
+-  __TEXT_EXEC.__text: 0x1cba0
++  __TEXT.__cstring: 0x4607
++  __TEXT_EXEC.__text: 0x1ca2c
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0x18c
+   __DATA.__common: 0x170
+
+   __DATA_CONST.__mod_init_func: 0x38
+   __DATA_CONST.__mod_term_func: 0x38
+   __DATA_CONST.__const: 0x13b8
+-  __DATA_CONST.__kalloc_type: 0x640
+-  Functions: 551
++  __DATA_CONST.__kalloc_type: 0x600
++  Functions: 549
+   Symbols:   0
+-  CStrings:  497
++  CStrings:  496
+ 
+CStrings:
++ "\"%s:%u:\" \"!failed\" @%s:%d"
++ "\"%s:%u:\" \"task\" @%s:%d"
++ "\"%s:%u:\" \"threadCall\" @%s:%d"
+- "\"%s:%u:\" \"triggerAsyncResetWork(kAppleOLYHALPortInterfaceActionPowerOn) == kIOReturnSuccess\" @%s:%d"
+- "\"%s:%u:\" \"triggerAsyncResetWork(kAppleOLYHALPortInterfaceActionPrepareOutsideFunctionReset) == kIOReturnSuccess\" @%s:%d"
+- "\"%s:%u:\" \"triggerAsyncResetWork(kAppleOLYHALPortInterfaceActionReset) == kIOReturnSuccess\" @%s:%d"
+- "%s::%s: thread_call_enter1 failed\n"
+
+```
+
+>  `com.apple.iokit.IOMobileGraphicsFamily`
+
+```diff
+
+-397.14.4.0.0
+-  __TEXT.__cstring: 0x823d
++397.17.0.0.0
++  __TEXT.__cstring: 0x8255
+   __TEXT.__const: 0x9f4
+-  __TEXT_EXEC.__text: 0x20f50
++  __TEXT_EXEC.__text: 0x20f58
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0x2900
+   __DATA.__common: 0x1c92c
+
+   __DATA_CONST.__got: 0x120
+   __DATA_CONST.__mod_init_func: 0x50
+   __DATA_CONST.__mod_term_func: 0x50
+-  __DATA_CONST.__const: 0x65c0
++  __DATA_CONST.__const: 0x65c8
+   __DATA_CONST.__kalloc_type: 0xac0
+-  Functions: 1133
++  Functions: 1134
+   Symbols:   0
+   CStrings:  957
+ 
+CStrings:
++ "121111121222121211111111111121222211111111111122122221121111111111112212222112111111111111221222211211111111111122122221121111111111112212222112111111111111221222211211111111111122122221122"
++ "121111121222121212122222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222211111111111111111111111111111111111112222222222222122122122122122122122122122222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222111111111111111111111111111111111111122222222222221221221221221221221221221211111111111111111112211111111111111122222222222222222222222222222222222222222221211112111111111111121122222"
+- "12111112122212121111111111112122221111111111112212222112111111111111221222211211111111111122122221121111111111112212222112111111111111221222211211111111111122122221122"
+- "1211111212221212121222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222111111111111111111111111111111111111122222222222221221221221221221221221221222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222221111111111111111111111111111111111111222222222222212212212212212212212212212111111111111111112211111111111111122222222222222222222222222222222222222222221211112111111111111121122222"
+
+```
+
 >  `com.apple.iokit.IOMobileGraphicsFamily-DCP`
 
 ```diff
@@ -390,110 +363,134 @@ CStrings:
 
 ```
 
->  `com.apple.kernel`
+>  `com.apple.driver.AppleT8140CLPC`
 
 ```diff
 
--11215.60.405.0.0
-+11215.62.3.0.0
-   __TEXT.__const: 0x34270
-   __TEXT.__copyio_vectors: 0xf0
--  __TEXT.__cstring: 0x72df0
-+  __TEXT.__cstring: 0x72dd0
-   __TEXT.__os_log: 0x276f6
-   __TEXT.__eh_frame: 0x610
-   __DATA_CONST.__auth_ptr: 0x8
-
-   __DATA_CONST.__brk_desc: 0x78
-   __DATA_SPTM.__const: 0x3c000
-   __TEXT_EXEC.__hib_text: 0xc68
--  __TEXT_EXEC.__text: 0x7f35f4
-+  __TEXT_EXEC.__text: 0x7f3350
-   __TEXT_BOOT_EXEC.__bootcode: 0x4cd8
-   __KLD.__text: 0x1644
-   __LASTDATA_CONST.__mod_init_func: 0x8
-
-   __PLK_LLVM_COV.__llvm_covmap: 0x0
-   __PLK_LINKEDIT.__data: 0x0
-   __LINKINFO.__symbolsets: 0x45b4f
--  Functions: 20496
-+  Functions: 20495
-   Symbols:   0
--  CStrings:  17259
-+  CStrings:  17257
- 
+-1175.60.50.0.1
+-  __TEXT.__cstring: 0x2ba3
++1175.60.51.0.0
++  __TEXT.__cstring: 0x2b9f
+   __TEXT.__const: 0xc8c
+   __TEXT_EXEC.__text: 0x4fee4
+   __TEXT_EXEC.__auth_stubs: 0x0
 CStrings:
-- "mbuf invalid: %p @%s:%d"
-- "mptcp.c"
++ "2024-11-14T22:53:15-08:00"
++ "AppleCLPC-1175.60.51"
+- "2024-11-03T22:35:02-08:00"
+- "AppleCLPC-1175.60.50.0.1"
 
 ```
 
->  `com.apple.driver.AppleBluetoothModule`
+>  `com.apple.iokit.IOTimeSyncFamily`
 
 ```diff
 
--65.1.0.0.0
-+66.0.0.0.0
-   __TEXT.__const: 0x60
-   __TEXT.__cstring: 0x25a0
--  __TEXT_EXEC.__text: 0x7c18
-+  __TEXT_EXEC.__text: 0x7c58
+-1320.7.0.0.0
++1320.8.0.0.0
+   __TEXT.__cstring: 0x3298
+   __TEXT.__os_log: 0x74e4
+   __TEXT.__const: 0x1d8
+-  __TEXT_EXEC.__text: 0x2f3e4
++  __TEXT_EXEC.__text: 0x2f424
    __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0x188
-   __DATA.__common: 0x60
+   __DATA.__data: 0xd0
+   __DATA.__common: 0x638
 
 ```
 
->  `com.apple.iokit.IOMobileGraphicsFamily`
+>  `com.apple.security.sandbox`
 
 ```diff
 
--397.14.4.0.0
--  __TEXT.__cstring: 0x823d
-+397.17.0.0.0
-+  __TEXT.__cstring: 0x8255
-   __TEXT.__const: 0x9f4
--  __TEXT_EXEC.__text: 0x20f50
-+  __TEXT_EXEC.__text: 0x20f58
+-2401.60.112.0.0
++2401.60.113.0.0
+   __TEXT.__const: 0x18e4e9
+   __TEXT.__cstring: 0x70d3
+   __TEXT.__os_log: 0x20a1
+-  __TEXT_EXEC.__text: 0x317e4
++  __TEXT_EXEC.__text: 0x3174c
    __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0x2900
-   __DATA.__common: 0x1c92c
+   __DATA.__data: 0x1e0
+   __DATA.__bss: 0x15420
 
-   __DATA_CONST.__got: 0x120
-   __DATA_CONST.__mod_init_func: 0x50
-   __DATA_CONST.__mod_term_func: 0x50
--  __DATA_CONST.__const: 0x65c0
-+  __DATA_CONST.__const: 0x65c8
-   __DATA_CONST.__kalloc_type: 0xac0
--  Functions: 1133
-+  Functions: 1134
+   __DATA_CONST.__const: 0x3640
+   __DATA_CONST.__kalloc_var: 0x4b0
+   __DATA_CONST.__kalloc_type: 0xb40
+-  Functions: 658
++  Functions: 657
    Symbols:   0
-   CStrings:  957
+   CStrings:  1315
+ 
+
+```
+
+>  `com.apple.driver.AppleH16ANEInterface`
+
+```diff
+
+-8.203.0.0.0
+-  __TEXT.__os_log: 0x3300f
++8.203.4.0.0
++  __TEXT.__os_log: 0x3303b
+   __TEXT.__cstring: 0xa5cd
+   __TEXT.__const: 0x690
+-  __TEXT_EXEC.__text: 0xa3990
++  __TEXT_EXEC.__text: 0xa3bb0
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0x3948
+   __DATA.__common: 0x3c8
+
+   __DATA_CONST.__kalloc_var: 0x2e40
+   Functions: 1816
+   Symbols:   0
+-  CStrings:  3552
++  CStrings:  3553
  
 CStrings:
-+ "121111121222121211111111111121222211111111111122122221121111111111112212222112111111111111221222211211111111111122122221121111111111112212222112111111111111221222211211111111111122122221122"
-+ "121111121222121212122222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222211111111111111111111111111111111111112222222222222122122122122122122122122122222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222111111111111111111111111111111111111122222222222221221221221221221221221221211111111111111111112211111111111111122222222222222222222222222222222222222222221211112111111111111121122222"
-- "12111112122212121111111111112122221111111111112212222112111111111111221222211211111111111122122221121111111111112212222112111111111111221222211211111111111122122221122"
-- "1211111212221212121222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222111111111111111111111111111111111111122222222222221221221221221221221221221222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222221111111111111111111111111111111111111222222222222212212212212212212212212212111111111111111112211111111111111122222222222222222222222222222222222222222221211112111111111111121122222"
++ "ANE%d: %s: WARN: client context is invalid\n"
+
+```
+
+>  `com.apple.kext.CoreTrust`
+
+```diff
+
+-148.0.2.0.0
+-  __TEXT.__const: 0xfe8
+-  __TEXT_EXEC.__text: 0x8620
++148.60.1.0.0
++  __TEXT.__const: 0x10d2
++  __TEXT_EXEC.__text: 0x87e8
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0xd8
+   __DATA.__common: 0x10
+   __DATA_CONST.__auth_got: 0xe8
+   __DATA_CONST.__got: 0x8
+   __DATA_CONST.__auth_ptr: 0x10
+-  __DATA_CONST.__const: 0x14e0
+-  Functions: 128
++  __DATA_CONST.__const: 0x1558
++  Functions: 130
+   Symbols:   0
+   CStrings:  0
+ 
 
 ```
 
 </details>
 
+### KDKs
+
+- [KDK DIFF](KDK.md)
+
 ## MachO
 
-### 🆕 NEW (10)
+### 🆕 NEW (3)
 
 - `/System/Library/ExtensionKit/Extensions/PhotosAppIntentsExtension.appex/PhotosAppIntentsExtension`
 - `/System/Library/PreferenceBundles/PaymentContactlessUIPlugin.bundle/PaymentContactlessUIPlugin`
 - `/private/var/staged_system_apps/MobileSafari.app/XPCServices/com.apple.Safari.SandboxBroker.xpc/com.apple.Safari.SandboxBroker`
-- `/usr/lib/libLogRedirect.dylib`
-- `/usr/lib/libffi-trampolines.dylib`
-- `/usr/lib/libglInterpose.dylib`
-- `/usr/lib/libmobileassetd.dylib`
-- `/usr/lib/libobjc-trampolines.dylib`
-- `/usr/lib/libstdc++.6.0.9.dylib`
-- `/usr/libexec/BatteryAlgorithms.framework/BatteryAlgorithms`
 
 ### ❌ Removed (2)
 
@@ -2773,6 +2770,46 @@ CStrings:
 <details>
   <summary><i>View Updated</i></summary>
 
+#### CloudSubscriptionFeatures.plist
+
+>  `Domain/CloudSubscriptionFeatures.plist`
+
+```diff
+
+ 		<key>Enabled</key>
+ 		<true/>
+ 	</dict>
++	<key>imageGenerationBypass</key>
++	<dict>
++		<key>DevelopmentPhase</key>
++		<string>FeatureComplete</string>
++	</dict>
+ </dict>
+ </plist>
+ 
+
+```
+
+#### TVApp.plist
+
+>  `Domain/TVApp.plist`
+
+```diff
+
+ 		<key>Enabled</key>
+ 		<true/>
+ 	</dict>
++	<key>orloff</key>
++	<dict>
++		<key>Enabled</key>
++		<true/>
++	</dict>
+ 	<key>puiv</key>
+ 	<dict>
+ 		<key>Enabled</key>
+
+```
+
 #### TelephonyUtilities.plist
 
 >  `Domain/TelephonyUtilities.plist`
@@ -2832,46 +2869,6 @@ CStrings:
  	<key>EasyDependentSignIn</key>
  	<dict>
  		<key>DevelopmentPhase</key>
-
-```
-
-#### CloudSubscriptionFeatures.plist
-
->  `Domain/CloudSubscriptionFeatures.plist`
-
-```diff
-
- 		<key>Enabled</key>
- 		<true/>
- 	</dict>
-+	<key>imageGenerationBypass</key>
-+	<dict>
-+		<key>DevelopmentPhase</key>
-+		<string>FeatureComplete</string>
-+	</dict>
- </dict>
- </plist>
- 
-
-```
-
-#### TVApp.plist
-
->  `Domain/TVApp.plist`
-
-```diff
-
- 		<key>Enabled</key>
- 		<true/>
- 	</dict>
-+	<key>orloff</key>
-+	<dict>
-+		<key>Enabled</key>
-+		<true/>
-+	</dict>
- 	<key>puiv</key>
- 	<dict>
- 		<key>Enabled</key>
 
 ```
 
