@@ -1,0 +1,99 @@
+## iMessageLite
+
+> `/System/Library/Messages/PlugIns/iMessageLite.imservice/iMessageLite`
+
+```diff
+
+-1402.300.164.2.2
+-  __TEXT.__text: 0x414a0
+-  __TEXT.__auth_stubs: 0x14f0
++1402.300.181.2.14
++  __TEXT.__text: 0x422bc
++  __TEXT.__auth_stubs: 0x1510
+   __TEXT.__objc_stubs: 0x620
+   __TEXT.__objc_methlist: 0x1b4
+   __TEXT.__const: 0x142e
+   __TEXT.__gcc_except_tab: 0xa8
+-  __TEXT.__cstring: 0x1467
+-  __TEXT.__oslogstring: 0x1b74
++  __TEXT.__cstring: 0x1487
++  __TEXT.__oslogstring: 0x1bc4
+   __TEXT.__objc_classname: 0x13a
+-  __TEXT.__objc_methname: 0x2194
++  __TEXT.__objc_methname: 0x21da
+   __TEXT.__objc_methtype: 0xb98
+   __TEXT.__dlopen_cstrs: 0x44
+   __TEXT.__swift5_typeref: 0x8c1
+
+   __TEXT.__swift5_capture: 0x2d4
+   __TEXT.__swift5_assocty: 0xd0
+   __TEXT.__swift5_protos: 0x8
+-  __TEXT.__unwind_info: 0x1070
+-  __TEXT.__eh_frame: 0x27e0
+-  __DATA_CONST.__auth_got: 0xa88
++  __TEXT.__unwind_info: 0x10c0
++  __TEXT.__eh_frame: 0x2940
++  __DATA_CONST.__auth_got: 0xa98
+   __DATA_CONST.__got: 0x538
+   __DATA_CONST.__auth_ptr: 0x468
+-  __DATA_CONST.__const: 0x1858
++  __DATA_CONST.__const: 0x1870
+   __DATA_CONST.__cfstring: 0x80
+   __DATA_CONST.__objc_classlist: 0x18
+   __DATA_CONST.__objc_catlist: 0x20
+
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_protorefs: 0x38
+   __DATA.__objc_const: 0xf98
+-  __DATA.__objc_selrefs: 0x7c8
++  __DATA.__objc_selrefs: 0x7d8
+   __DATA.__objc_data: 0xc0
+   __DATA.__data: 0xce8
+   __DATA.__bss: 0x1550
+
+   - /usr/lib/swift/libswiftsimd.dylib
+   - /usr/lib/swift/libswiftsys_time.dylib
+   - /usr/lib/swift/libswiftunistd.dylib
+-  Functions: 1079
+-  Symbols:   7996
+-  CStrings:  658
++  Functions: 1090
++  Symbols:   8052
++  CStrings:  662
+ 
+Symbols:
++ _$s10Foundation4DataV11descriptionSSvg
++ _$sSbSo6NSDataCSgIeyByy_Sb_10Foundation4DataVSgtTz_
++ _$sSo25LiteMessageServiceSessionC01ibA0E014isAvailableForaB033_C78C58FB22A449D302805F96CC198D60LL3for5token4withSbSS_10Foundation4DataVSgSo28IMServiceReachabilityRequestCtYaKF
++ _$sSo25LiteMessageServiceSessionC01ibA0E014isAvailableForaB033_C78C58FB22A449D302805F96CC198D60LL3for5token4withSbSS_10Foundation4DataVSgSo28IMServiceReachabilityRequestCtYaKFTQ1_
++ _$sSo25LiteMessageServiceSessionC01ibA0E014isAvailableForaB033_C78C58FB22A449D302805F96CC198D60LL3for5token4withSbSS_10Foundation4DataVSgSo28IMServiceReachabilityRequestCtYaKFTY0_
++ _$sSo25LiteMessageServiceSessionC01ibA0E014isAvailableForaB033_C78C58FB22A449D302805F96CC198D60LL3for5token4withSbSS_10Foundation4DataVSgSo28IMServiceReachabilityRequestCtYaKFTY2_
++ _$sSo25LiteMessageServiceSessionC01ibA0E014isAvailableForaB033_C78C58FB22A449D302805F96CC198D60LL3for5token4withSbSS_10Foundation4DataVSgSo28IMServiceReachabilityRequestCtYaKFTY3_
++ _$sSo25LiteMessageServiceSessionC01ibA0E014isAvailableForaB033_C78C58FB22A449D302805F96CC198D60LL3for5token4withSbSS_10Foundation4DataVSgSo28IMServiceReachabilityRequestCtYaKFTu
++ _$sSo25LiteMessageServiceSessionC01ibA0E15lastActiveToken33_C78C58FB22A449D302805F96CC198D60LL3for10Foundation4DataVSgSo9IMDHandleC_tYaFTf4nd_n
++ _$sSo25LiteMessageServiceSessionC01ibA0E15lastActiveToken33_C78C58FB22A449D302805F96CC198D60LL3for10Foundation4DataVSgSo9IMDHandleC_tYaFTf4nd_nTQ1_
++ _$sSo25LiteMessageServiceSessionC01ibA0E15lastActiveToken33_C78C58FB22A449D302805F96CC198D60LL3for10Foundation4DataVSgSo9IMDHandleC_tYaFTf4nd_nTY0_
++ _$sSo25LiteMessageServiceSessionC01ibA0E15lastActiveToken33_C78C58FB22A449D302805F96CC198D60LL3for10Foundation4DataVSgSo9IMDHandleC_tYaFTf4nd_nTY2_
++ _$sSo25LiteMessageServiceSessionC01ibA0E15lastActiveToken33_C78C58FB22A449D302805F96CC198D60LL3for10Foundation4DataVSgSo9IMDHandleC_tYaFTf4nd_nTu
++ _$sSo25LiteMessageServiceSessionC01ibA0E27calculateOnGridReachability33_C78C58FB22A449D302805F96CC198D60LL3for4with014isRecipientOffG0So09IMServiceH6ResultCSS_So0vH7RequestCSbtYaKFTQ3_
++ _$sSo25LiteMessageServiceSessionC01ibA0E27calculateOnGridReachability33_C78C58FB22A449D302805F96CC198D60LL3for4with014isRecipientOffG0So09IMServiceH6ResultCSS_So0vH7RequestCSbtYaKFTQ5_
++ _$sSo25LiteMessageServiceSessionC01ibA0E27calculateOnGridReachability33_C78C58FB22A449D302805F96CC198D60LL3for4with014isRecipientOffG0So09IMServiceH6ResultCSS_So0vH7RequestCSbtYaKFTY4_
++ _$sSo25LiteMessageServiceSessionC01ibA0E27calculateOnGridReachability33_C78C58FB22A449D302805F96CC198D60LL3for4with014isRecipientOffG0So09IMServiceH6ResultCSS_So0vH7RequestCSbtYaKFTY6_
++ _$sSo25LiteMessageServiceSessionC01ibA0E27calculateOnGridReachability33_C78C58FB22A449D302805F96CC198D60LL3for4with014isRecipientOffG0So09IMServiceH6ResultCSS_So0vH7RequestCSbtYaKFTY7_
++ _$sSo25LiteMessageServiceSessionC01ibA0E27calculateOnGridReachability33_C78C58FB22A449D302805F96CC198D60LL3for4with014isRecipientOffG0So09IMServiceH6ResultCSS_So0vH7RequestCSbtYaKFTY8_
++ _IDSCopyIDForTokenWithID
++ block_descriptor.25
+- _$sSo25LiteMessageServiceSessionC01ibA0E014isAvailableForaB033_C78C58FB22A449D302805F96CC198D60LL3for4withSbSS_So28IMServiceReachabilityRequestCtYaKF
+- _$sSo25LiteMessageServiceSessionC01ibA0E014isAvailableForaB033_C78C58FB22A449D302805F96CC198D60LL3for4withSbSS_So28IMServiceReachabilityRequestCtYaKFTQ1_
+- _$sSo25LiteMessageServiceSessionC01ibA0E014isAvailableForaB033_C78C58FB22A449D302805F96CC198D60LL3for4withSbSS_So28IMServiceReachabilityRequestCtYaKFTY0_
+- _$sSo25LiteMessageServiceSessionC01ibA0E014isAvailableForaB033_C78C58FB22A449D302805F96CC198D60LL3for4withSbSS_So28IMServiceReachabilityRequestCtYaKFTY2_
+- _$sSo25LiteMessageServiceSessionC01ibA0E014isAvailableForaB033_C78C58FB22A449D302805F96CC198D60LL3for4withSbSS_So28IMServiceReachabilityRequestCtYaKFTY3_
+- _$sSo25LiteMessageServiceSessionC01ibA0E014isAvailableForaB033_C78C58FB22A449D302805F96CC198D60LL3for4withSbSS_So28IMServiceReachabilityRequestCtYaKFTu
+- _$sSo25LiteMessageServiceSessionC01ibA0E27calculateOnGridReachability33_C78C58FB22A449D302805F96CC198D60LL3for4with014isRecipientOffG0So09IMServiceH6ResultCSS_So0vH7RequestCSbtYaKFTY3_
+CStrings:
++ "Will determine iMessage Lite availability using last active token: %!s(MISSING)"
++ "cachedOffGridModeAndLastPublisherWithCompletion:"
++ "initWithPrefixedURI:"
++ "v20@?0B8@\"NSData\"12"
+
+```

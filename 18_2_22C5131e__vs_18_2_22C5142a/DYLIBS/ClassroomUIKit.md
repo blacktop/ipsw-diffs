@@ -1,0 +1,22 @@
+## ClassroomUIKit
+
+> `/System/Library/PrivateFrameworks/ClassroomKit.framework/Frameworks/ClassroomUIKit.framework/ClassroomUIKit`
+
+```diff
+
+-112.2.3.0.0
++112.2.4.0.0
+   __TEXT.__text: 0x6895c
+   __TEXT.__auth_stubs: 0x2070
+   __TEXT.__objc_methlist: 0x450
+
+   __DATA_CONST.__objc_selrefs: 0x3f8
+   __DATA_CONST.__objc_protorefs: 0x60
+   __AUTH_CONST.__auth_got: 0x1038
+-  __AUTH_CONST.__auth_ptr: 0xfd8
++  __AUTH_CONST.__auth_ptr: 0x1000
+   __AUTH_CONST.__const: 0x2c68
+   __AUTH_CONST.__objc_const: 0x4340
+   __AUTH.__objc_data: 0x1630
+
+```
