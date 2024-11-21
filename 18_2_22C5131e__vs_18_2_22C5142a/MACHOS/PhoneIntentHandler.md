@@ -60,9 +60,9 @@
 +  CStrings:  1870
  
 CStrings:
-+ "Found ISO Country Code override: %!@(MISSING)"
++ "Found ISO Country Code override: %@"
 + "IntentHandlerISOCountryCodeInternalOverride"
-+ "Using ISO Country Code Override: %!@(MISSING)"
++ "Using ISO Country Code Override: %@"
 + "initWithObjects:"
 + "isoCountryCodeOverride"
 + "stringForKey:"

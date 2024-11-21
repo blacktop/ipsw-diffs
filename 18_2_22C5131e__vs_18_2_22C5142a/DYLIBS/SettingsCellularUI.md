@@ -17,7 +17,7 @@
    __TEXT.__swift5_typeref: 0x136
    __TEXT.__swift5_fieldmd: 0x58
 CStrings:
-+ "CONSUMER_SLICING_FOOTER_%!@(MISSING)"
++ "CONSUMER_SLICING_FOOTER_%@"
 - "CONSUMER_SLICING_FOOTER"
 
 ```

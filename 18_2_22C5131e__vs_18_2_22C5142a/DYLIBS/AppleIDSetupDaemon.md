@@ -69,11 +69,11 @@
 +  CStrings:  815
  
 CStrings:
-+ "Resetting desired services to original: %!s(MISSING)"
-+ "Resetting required services to original: %!s(MISSING)"
++ "Resetting desired services to original: %s"
++ "Resetting required services to original: %s"
 + "originalDesiredServices"
 + "originalRequiredServices"
-- "Updating signInModel back to original: %!s(MISSING)"
+- "Updating signInModel back to original: %s"
 - "no altDSID was provided"
 
 ```

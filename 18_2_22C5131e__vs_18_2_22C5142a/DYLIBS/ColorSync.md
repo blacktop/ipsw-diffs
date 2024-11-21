@@ -34,8 +34,8 @@
 +  CStrings:  758
  
 CStrings:
-+ "Invalid profile '%!@(MISSING)': tags '%!@(MISSING)' and '%!@(MISSING)' overlap"
++ "Invalid profile '%@': tags '%@' and '%@' overlap"
 + "No description"
-- "Invalid profile %!p(MISSING): tags overlap"
+- "Invalid profile %p: tags overlap"
 
 ```

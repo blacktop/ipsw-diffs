@@ -85,13 +85,13 @@ Symbols:
 + _kAAAnalyticsEventCustodianRecoveryExperimentalRecoveryInfoNotFoundFetchFromCloud
 CStrings:
 + "Cloud storage object is not confirm to cloud sync"
-+ "Error fetching recovery info from cloud %!@(MISSING)"
-+ "Fetching changes from shared database failed: %!@(MISSING)"
-+ "Fetching changes from shared database for container: %!s(MISSING)"
-+ "New sync delegete set: %!s(MISSING)"
++ "Error fetching recovery info from cloud %@"
++ "Fetching changes from shared database failed: %@"
++ "Fetching changes from shared database for container: %s"
++ "New sync delegete set: %s"
 + "Recovery Info record not found. Fetching the record from cloud."
 + "Successfully fetched changes from shared database"
-+ "Sync delegate found nil. Obtaining delegate from dependency registry: %!s(MISSING) - %!s(MISSING)"
++ "Sync delegate found nil. Obtaining delegate from dependency registry: %s - %s"
 + "callStackSymbols"
 + "fetchRecoveryInfoFromCache()"
 + "fetchSharedRecoveryInfoFromCloud()"

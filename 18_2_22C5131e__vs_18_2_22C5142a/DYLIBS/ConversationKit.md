@@ -72,7 +72,7 @@ Symbols:
 + _$s11TelephonyUI9TaskQueueC5asyncyScTyyts5NeverOGyyYaYbcFTj
 - _$s11TelephonyUI9TaskQueueC5asyncyyyyYaYbKcFTj
 CStrings:
-+ "Failed to initialize AnsweringMachine with error: %!@(MISSING)"
++ "Failed to initialize AnsweringMachine with error: %@"
 + "defaultCallingAppsGracefulFallbackEnabled"
 
 ```

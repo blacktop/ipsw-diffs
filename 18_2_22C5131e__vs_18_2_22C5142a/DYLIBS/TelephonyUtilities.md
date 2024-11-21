@@ -79,8 +79,8 @@ Symbols:
 + _defaultCallingAppLSBundleIdentifier
 CStrings:
 + "DefaultCallingAppsGracefulFallback"
-+ "Failed to fetch default LSApplicationWorkspace defaultApp with error: %!@(MISSING)"
-+ "Successfully fetched default app application record %!@(MISSING)"
++ "Failed to fetch default LSApplicationWorkspace defaultApp with error: %@"
++ "Successfully fetched default app application record %@"
 + "TB,N,V_allowProviderFallback"
 + "_allowProviderFallback"
 + "allowProviderFallback"

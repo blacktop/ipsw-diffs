@@ -71,9 +71,9 @@
 Symbols:
 + _MobileInstallationGetSystemAppMigrationStatus
 CStrings:
-+ "%!s(MISSING) Can't determine validity of action right now, will try again later: %!@(MISSING)"
-+ "%!s(MISSING) Fetching System App Migration Status failed with error %!@(MISSING)"
-+ "%!s(MISSING) System App Migration Finished: %!d(MISSING)"
++ "%s Can't determine validity of action right now, will try again later: %@"
++ "%s Fetching System App Migration Status failed with error %@"
++ "%s System App Migration Finished: %d"
 + "-[WFConfiguredSystemActionMigrator completedSystemAppMigration]"
 + "completedSystemAppMigration"
 + "initWithIntent:named:previewIcon:appShortcutIdentifier:templateParameterValues:contextualParameters:shortcutsMetadata:colorScheme:"

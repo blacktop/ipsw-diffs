@@ -36,7 +36,7 @@
    CStrings:  767
  
 CStrings:
-+ "ContainerSize old: %!s(MISSING) new: %!s(MISSING)"
-- "New containerSize: %!s(MISSING)"
++ "ContainerSize old: %s new: %s"
+- "New containerSize: %s"
 
 ```

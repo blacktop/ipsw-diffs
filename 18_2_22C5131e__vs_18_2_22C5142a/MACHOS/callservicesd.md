@@ -78,7 +78,7 @@ Symbols:
 CStrings:
 + "'"
 + "@\"<CSDRTTSettings>\""
-+ "Not muting uplink because RTTSettings says not to mute the uplink for RTT calls %!@(MISSING)"
++ "Not muting uplink because RTTSettings says not to mute the uplink for RTT calls %@"
 + "T@\"<CSDRTTSettings>\",&,N,V_rttSettings"
 + "TB,N,GisRTT,V_mockRTT"
 + "[WARN] Dropping let me in delegation request because it is from server storage, older than 30m, and not for an ongoing conversation."
@@ -95,9 +95,9 @@ CStrings:
 + "setMockRTT:"
 + "setRttSettings:"
 - "CoreServices"
-- "Failed to fetch default LSApplicationWorkspace defaultApp with error: %!@(MISSING)"
+- "Failed to fetch default LSApplicationWorkspace defaultApp with error: %@"
 - "LSApplicationWorkspace"
-- "Successfully fetched default app application record %!@(MISSING)"
+- "Successfully fetched default app application record %@"
 - "defaultApplicationForCategory:error:"
 
 ```

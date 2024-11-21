@@ -37,7 +37,7 @@
 +  CStrings:  3267
  
 CStrings:
-+ "Handle prox: %!d(MISSING) - %!d(MISSING)"
++ "Handle prox: %d - %d"
 + "Reporting proximity unocclusion"
 
 ```

@@ -55,8 +55,8 @@
  
 CStrings:
 + "Dismissing current view to push Passcode Change flow"
-+ "Finished Mesa enroll: Result [%!@(MISSING)]"
-+ "Finished Pearl enroll %!@(MISSING)"
++ "Finished Mesa enroll: Result [%@]"
++ "Finished Pearl enroll %@"
 + "numberWithUnsignedInt:"
 
 ```

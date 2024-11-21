@@ -82,10 +82,10 @@
 +  CStrings:  1508
  
 CStrings:
-+ "Error clearing legacy CFUs: %!s(MISSING)"
++ "Error clearing legacy CFUs: %s"
 + "Preconditions met, Checking if CFU should be posted"
 + "Ticket is active & internal build detected, clearing cache & notifying"
-+ "We found a legacy followup item. Clearing it. %!@(MISSING)"
++ "We found a legacy followup item. Clearing it. %@"
 + "com.apple.iCloudQuota.ICQFollowup"
 + "extensionIdentifier"
 + "pendingFollowUpItems:"

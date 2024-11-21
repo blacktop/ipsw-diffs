@@ -61,7 +61,7 @@
 +  CStrings:  12440
  
 CStrings:
-+ ", featureDisabledStoreDemo = %!d(MISSING)"
++ ", featureDisabledStoreDemo = %d"
 + "12214.3"
 + "12214.3~2"
 + "TB,N,V_featureDisabledStoreDemo"

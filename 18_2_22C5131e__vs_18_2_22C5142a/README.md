@@ -21,72 +21,33 @@
 <details>
   <summary><i>View Updated</i></summary>
 
->  `com.apple.iokit.IOSkywalkFamily`
+>  `com.apple.driver.AppleAVD`
 
 ```diff
 
--508.60.1.0.0
-+508.60.2.0.0
-   __TEXT.__cstring: 0x1ade
-   __TEXT.__const: 0xd40
--  __TEXT_EXEC.__text: 0x35e38
-+  __TEXT_EXEC.__text: 0x35d54
+-807.0.0.0.0
++808.0.0.0.0
+   __TEXT.__const: 0x9a8c9
+   __TEXT.__cstring: 0x5277
+   __TEXT.__os_log: 0x12f18
+-  __TEXT_EXEC.__text: 0x45574
++  __TEXT_EXEC.__text: 0x45658
    __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0xe8
-   __DATA.__common: 0x6b0
-   __DATA.__bss: 0x9c
--  __DATA_CONST.__auth_got: 0xa10
-+  __DATA_CONST.__auth_got: 0xa08
-   __DATA_CONST.__got: 0x160
-   __DATA_CONST.__auth_ptr: 0x10
-   __DATA_CONST.__mod_init_func: 0x130
+   __DATA.__data: 0x12dc
+   __DATA.__common: 0x78
 
-   __DATA_CONST.__const: 0x8cd0
-   __DATA_CONST.__kalloc_type: 0x1640
-   __DATA_CONST.__kalloc_var: 0x640
--  Functions: 1853
-+  Functions: 1852
-   Symbols:   0
-   CStrings:  281
- 
-
-```
-
->  `com.apple.kernel`
-
-```diff
-
--11215.60.405.0.0
-+11215.62.3.0.0
-   __TEXT.__const: 0x34270
-   __TEXT.__copyio_vectors: 0xf0
--  __TEXT.__cstring: 0x72df0
-+  __TEXT.__cstring: 0x72dd0
-   __TEXT.__os_log: 0x276f6
-   __TEXT.__eh_frame: 0x610
    __DATA_CONST.__auth_ptr: 0x8
-
-   __DATA_CONST.__brk_desc: 0x78
-   __DATA_SPTM.__const: 0x3c000
-   __TEXT_EXEC.__hib_text: 0xc68
--  __TEXT_EXEC.__text: 0x7f35f4
-+  __TEXT_EXEC.__text: 0x7f3350
-   __TEXT_BOOT_EXEC.__bootcode: 0x4cd8
-   __KLD.__text: 0x1644
-   __LASTDATA_CONST.__mod_init_func: 0x8
-
-   __PLK_LLVM_COV.__llvm_covmap: 0x0
-   __PLK_LINKEDIT.__data: 0x0
-   __LINKINFO.__symbolsets: 0x45b4f
--  Functions: 20496
-+  Functions: 20495
+   __DATA_CONST.__mod_init_func: 0x10
+   __DATA_CONST.__mod_term_func: 0x10
+-  __DATA_CONST.__const: 0x2d08
++  __DATA_CONST.__const: 0x2d60
+   __DATA_CONST.__kalloc_var: 0xbe0
+   __DATA_CONST.__kalloc_type: 0x2600
+-  Functions: 1415
++  Functions: 1426
    Symbols:   0
--  CStrings:  17259
-+  CStrings:  17257
+   CStrings:  1459
  
-CStrings:
-- "mbuf invalid: %p @%s:%d"
-- "mptcp.c"
 
 ```
 
@@ -119,6 +80,33 @@ CStrings:
    __TEXT_EXEC.__auth_stubs: 0x0
    __DATA.__data: 0x248
    __DATA.__common: 0x2d0
+
+```
+
+>  `com.apple.driver.AppleH16ANEInterface`
+
+```diff
+
+-8.203.0.0.0
+-  __TEXT.__os_log: 0x3300f
++8.203.4.0.0
++  __TEXT.__os_log: 0x3303b
+   __TEXT.__cstring: 0xa5cd
+   __TEXT.__const: 0x690
+-  __TEXT_EXEC.__text: 0xa3990
++  __TEXT_EXEC.__text: 0xa3bb0
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0x3948
+   __DATA.__common: 0x3c8
+
+   __DATA_CONST.__kalloc_var: 0x2e40
+   Functions: 1816
+   Symbols:   0
+-  CStrings:  3552
++  CStrings:  3553
+ 
+CStrings:
++ "ANE%d: %s: WARN: client context is invalid\n"
 
 ```
 
@@ -171,84 +159,6 @@ CStrings:
 
 ```
 
->  `com.apple.driver.AppleSPU`
-
-```diff
-
--1014.60.5.0.0
-+1014.60.5.0.1
-   __TEXT.__cstring: 0x5aae
--  __TEXT.__os_log: 0x955
-+  __TEXT.__os_log: 0x944
-   __TEXT.__const: 0x358
--  __TEXT_EXEC.__text: 0x498dc
-+  __TEXT_EXEC.__text: 0x498d0
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0x878
-   __DATA.__common: 0x970
-CStrings:
-+ "Dropped gnss data report due to missing data queue (%zu)"
-+ "Dropped gnss data report for queue (%zu)"
-+ "Dropped gnss event due to missing data queue (%zu)"
-+ "Dropped gnss event due to oversized packet (%zu)"
-+ "Dropped gnss event for queue (%zu)"
-- "Dropped gnss data report due to missing data queue %zu"
-- "Dropped gnss data report for queue error: %#x (%zu)"
-- "Dropped gnss event due to missing data queue %zu"
-- "Dropped gnss event due to oversized packet: %zu"
-- "Dropped gnss event for queue error: %#x (%zu)"
-
-```
-
->  `com.apple.security.AppleImage4`
-
-```diff
-
- 320.60.4.0.0
-   __TEXT.__const: 0x79f4
--  __TEXT.__cstring: 0x5ec0
-+  __TEXT.__cstring: 0x5ec2
-   __TEXT_EXEC.__text: 0x245a0
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0x6f8
-CStrings:
-+ "@(#)VERSION:Darwin Image4 Extension Version 7.0.0: Thu Nov 14 22:06:40 PST 2024; root:AppleImage4-320.60.4~227/AppleImage4/RELEASE_ARM64E"
-+ "Darwin Image4 Extension Version 7.0.0: Thu Nov 14 22:06:40 PST 2024; root:AppleImage4-320.60.4~227/AppleImage4/RELEASE_ARM64E"
-- "@(#)VERSION:Darwin Image4 Extension Version 7.0.0: Sun Nov  3 22:26:48 PST 2024; root:AppleImage4-320.60.4~25/AppleImage4/RELEASE_ARM64E"
-- "Darwin Image4 Extension Version 7.0.0: Sun Nov  3 22:26:48 PST 2024; root:AppleImage4-320.60.4~25/AppleImage4/RELEASE_ARM64E"
-
-```
-
->  `com.apple.driver.AppleAVD`
-
-```diff
-
--807.0.0.0.0
-+808.0.0.0.0
-   __TEXT.__const: 0x9a8c9
-   __TEXT.__cstring: 0x5277
-   __TEXT.__os_log: 0x12f18
--  __TEXT_EXEC.__text: 0x45574
-+  __TEXT_EXEC.__text: 0x45658
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0x12dc
-   __DATA.__common: 0x78
-
-   __DATA_CONST.__auth_ptr: 0x8
-   __DATA_CONST.__mod_init_func: 0x10
-   __DATA_CONST.__mod_term_func: 0x10
--  __DATA_CONST.__const: 0x2d08
-+  __DATA_CONST.__const: 0x2d60
-   __DATA_CONST.__kalloc_var: 0xbe0
-   __DATA_CONST.__kalloc_type: 0x2600
--  Functions: 1415
-+  Functions: 1426
-   Symbols:   0
-   CStrings:  1459
- 
-
-```
-
 >  `com.apple.driver.AppleOLYHAL`
 
 ```diff
@@ -283,6 +193,54 @@ CStrings:
 - "\"%s:%u:\" \"triggerAsyncResetWork(kAppleOLYHALPortInterfaceActionPrepareOutsideFunctionReset) == kIOReturnSuccess\" @%s:%d"
 - "\"%s:%u:\" \"triggerAsyncResetWork(kAppleOLYHALPortInterfaceActionReset) == kIOReturnSuccess\" @%s:%d"
 - "%s::%s: thread_call_enter1 failed\n"
+
+```
+
+>  `com.apple.driver.AppleSPU`
+
+```diff
+
+-1014.60.5.0.0
++1014.60.5.0.1
+   __TEXT.__cstring: 0x5aae
+-  __TEXT.__os_log: 0x955
++  __TEXT.__os_log: 0x944
+   __TEXT.__const: 0x358
+-  __TEXT_EXEC.__text: 0x498dc
++  __TEXT_EXEC.__text: 0x498d0
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0x878
+   __DATA.__common: 0x970
+CStrings:
++ "Dropped gnss data report due to missing data queue (%zu)"
++ "Dropped gnss data report for queue (%zu)"
++ "Dropped gnss event due to missing data queue (%zu)"
++ "Dropped gnss event due to oversized packet (%zu)"
++ "Dropped gnss event for queue (%zu)"
+- "Dropped gnss data report due to missing data queue %zu"
+- "Dropped gnss data report for queue error: %#x (%zu)"
+- "Dropped gnss event due to missing data queue %zu"
+- "Dropped gnss event due to oversized packet: %zu"
+- "Dropped gnss event for queue error: %#x (%zu)"
+
+```
+
+>  `com.apple.driver.AppleT8140CLPC`
+
+```diff
+
+-1175.60.50.0.1
+-  __TEXT.__cstring: 0x2ba3
++1175.60.51.0.0
++  __TEXT.__cstring: 0x2b9f
+   __TEXT.__const: 0xc8c
+   __TEXT_EXEC.__text: 0x4fee4
+   __TEXT_EXEC.__auth_stubs: 0x0
+CStrings:
++ "2024-11-14T22:53:15-08:00"
++ "AppleCLPC-1175.60.51"
+- "2024-11-03T22:35:02-08:00"
+- "AppleCLPC-1175.60.50.0.1"
 
 ```
 
@@ -363,22 +321,34 @@ CStrings:
 
 ```
 
->  `com.apple.driver.AppleT8140CLPC`
+>  `com.apple.iokit.IOSkywalkFamily`
 
 ```diff
 
--1175.60.50.0.1
--  __TEXT.__cstring: 0x2ba3
-+1175.60.51.0.0
-+  __TEXT.__cstring: 0x2b9f
-   __TEXT.__const: 0xc8c
-   __TEXT_EXEC.__text: 0x4fee4
+-508.60.1.0.0
++508.60.2.0.0
+   __TEXT.__cstring: 0x1ade
+   __TEXT.__const: 0xd40
+-  __TEXT_EXEC.__text: 0x35e38
++  __TEXT_EXEC.__text: 0x35d54
    __TEXT_EXEC.__auth_stubs: 0x0
-CStrings:
-+ "2024-11-14T22:53:15-08:00"
-+ "AppleCLPC-1175.60.51"
-- "2024-11-03T22:35:02-08:00"
-- "AppleCLPC-1175.60.50.0.1"
+   __DATA.__data: 0xe8
+   __DATA.__common: 0x6b0
+   __DATA.__bss: 0x9c
+-  __DATA_CONST.__auth_got: 0xa10
++  __DATA_CONST.__auth_got: 0xa08
+   __DATA_CONST.__got: 0x160
+   __DATA_CONST.__auth_ptr: 0x10
+   __DATA_CONST.__mod_init_func: 0x130
+
+   __DATA_CONST.__const: 0x8cd0
+   __DATA_CONST.__kalloc_type: 0x1640
+   __DATA_CONST.__kalloc_var: 0x640
+-  Functions: 1853
++  Functions: 1852
+   Symbols:   0
+   CStrings:  281
+ 
 
 ```
 
@@ -399,56 +369,41 @@ CStrings:
 
 ```
 
->  `com.apple.security.sandbox`
+>  `com.apple.kernel`
 
 ```diff
 
--2401.60.112.0.0
-+2401.60.113.0.0
-   __TEXT.__const: 0x18e4e9
-   __TEXT.__cstring: 0x70d3
-   __TEXT.__os_log: 0x20a1
--  __TEXT_EXEC.__text: 0x317e4
-+  __TEXT_EXEC.__text: 0x3174c
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0x1e0
-   __DATA.__bss: 0x15420
+-11215.60.405.0.0
++11215.62.3.0.0
+   __TEXT.__const: 0x34270
+   __TEXT.__copyio_vectors: 0xf0
+-  __TEXT.__cstring: 0x72df0
++  __TEXT.__cstring: 0x72dd0
+   __TEXT.__os_log: 0x276f6
+   __TEXT.__eh_frame: 0x610
+   __DATA_CONST.__auth_ptr: 0x8
 
-   __DATA_CONST.__const: 0x3640
-   __DATA_CONST.__kalloc_var: 0x4b0
-   __DATA_CONST.__kalloc_type: 0xb40
--  Functions: 658
-+  Functions: 657
+   __DATA_CONST.__brk_desc: 0x78
+   __DATA_SPTM.__const: 0x3c000
+   __TEXT_EXEC.__hib_text: 0xc68
+-  __TEXT_EXEC.__text: 0x7f35f4
++  __TEXT_EXEC.__text: 0x7f3350
+   __TEXT_BOOT_EXEC.__bootcode: 0x4cd8
+   __KLD.__text: 0x1644
+   __LASTDATA_CONST.__mod_init_func: 0x8
+
+   __PLK_LLVM_COV.__llvm_covmap: 0x0
+   __PLK_LINKEDIT.__data: 0x0
+   __LINKINFO.__symbolsets: 0x45b4f
+-  Functions: 20496
++  Functions: 20495
    Symbols:   0
-   CStrings:  1315
- 
-
-```
-
->  `com.apple.driver.AppleH16ANEInterface`
-
-```diff
-
--8.203.0.0.0
--  __TEXT.__os_log: 0x3300f
-+8.203.4.0.0
-+  __TEXT.__os_log: 0x3303b
-   __TEXT.__cstring: 0xa5cd
-   __TEXT.__const: 0x690
--  __TEXT_EXEC.__text: 0xa3990
-+  __TEXT_EXEC.__text: 0xa3bb0
-   __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0x3948
-   __DATA.__common: 0x3c8
-
-   __DATA_CONST.__kalloc_var: 0x2e40
-   Functions: 1816
-   Symbols:   0
--  CStrings:  3552
-+  CStrings:  3553
+-  CStrings:  17259
++  CStrings:  17257
  
 CStrings:
-+ "ANE%d: %s: WARN: client context is invalid\n"
+- "mbuf invalid: %p @%s:%d"
+- "mptcp.c"
 
 ```
 
@@ -474,6 +429,51 @@ CStrings:
 +  Functions: 130
    Symbols:   0
    CStrings:  0
+ 
+
+```
+
+>  `com.apple.security.AppleImage4`
+
+```diff
+
+ 320.60.4.0.0
+   __TEXT.__const: 0x79f4
+-  __TEXT.__cstring: 0x5ec0
++  __TEXT.__cstring: 0x5ec2
+   __TEXT_EXEC.__text: 0x245a0
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0x6f8
+CStrings:
++ "@(#)VERSION:Darwin Image4 Extension Version 7.0.0: Thu Nov 14 22:06:40 PST 2024; root:AppleImage4-320.60.4~227/AppleImage4/RELEASE_ARM64E"
++ "Darwin Image4 Extension Version 7.0.0: Thu Nov 14 22:06:40 PST 2024; root:AppleImage4-320.60.4~227/AppleImage4/RELEASE_ARM64E"
+- "@(#)VERSION:Darwin Image4 Extension Version 7.0.0: Sun Nov  3 22:26:48 PST 2024; root:AppleImage4-320.60.4~25/AppleImage4/RELEASE_ARM64E"
+- "Darwin Image4 Extension Version 7.0.0: Sun Nov  3 22:26:48 PST 2024; root:AppleImage4-320.60.4~25/AppleImage4/RELEASE_ARM64E"
+
+```
+
+>  `com.apple.security.sandbox`
+
+```diff
+
+-2401.60.112.0.0
++2401.60.113.0.0
+   __TEXT.__const: 0x18e4e9
+   __TEXT.__cstring: 0x70d3
+   __TEXT.__os_log: 0x20a1
+-  __TEXT_EXEC.__text: 0x317e4
++  __TEXT_EXEC.__text: 0x3174c
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0x1e0
+   __DATA.__bss: 0x15420
+
+   __DATA_CONST.__const: 0x3640
+   __DATA_CONST.__kalloc_var: 0x4b0
+   __DATA_CONST.__kalloc_type: 0xb40
+-  Functions: 658
++  Functions: 657
+   Symbols:   0
+   CStrings:  1315
  
 
 ```
@@ -2770,6 +2770,26 @@ CStrings:
 <details>
   <summary><i>View Updated</i></summary>
 
+#### AuthKit.plist
+
+>  `Domain/AuthKit.plist`
+
+```diff
+
+ 		<key>DevelopmentPhase</key>
+ 		<string>FeatureComplete</string>
+ 	</dict>
++	<key>DeviceListCacheEnableDryMode</key>
++	<dict>
++		<key>DevelopmentPhase</key>
++		<string>FeatureComplete</string>
++	</dict>
+ 	<key>EasyDependentSignIn</key>
+ 	<dict>
+ 		<key>DevelopmentPhase</key>
+
+```
+
 #### CloudSubscriptionFeatures.plist
 
 >  `Domain/CloudSubscriptionFeatures.plist`
@@ -2847,26 +2867,6 @@ CStrings:
 +		<string>ff7b5dcd-7912-95de-a1cd-7d8c226da489</string>
 +	</dict>
  	<key>Montara</key>
- 	<dict>
- 		<key>DevelopmentPhase</key>
-
-```
-
-#### AuthKit.plist
-
->  `Domain/AuthKit.plist`
-
-```diff
-
- 		<key>DevelopmentPhase</key>
- 		<string>FeatureComplete</string>
- 	</dict>
-+	<key>DeviceListCacheEnableDryMode</key>
-+	<dict>
-+		<key>DevelopmentPhase</key>
-+		<string>FeatureComplete</string>
-+	</dict>
- 	<key>EasyDependentSignIn</key>
  	<dict>
  		<key>DevelopmentPhase</key>
 

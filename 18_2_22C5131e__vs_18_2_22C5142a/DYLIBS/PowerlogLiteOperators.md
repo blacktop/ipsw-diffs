@@ -84,6 +84,6 @@ CStrings:
 + "entryEventPointDefinitionVMTunables"
 + "levelForFactor:withNamespaceName:"
 + "logEventPointVMTunables"
-+ "logEventPointVMTunables VM_TUNING_PAGE_SHORTAGE_THRESHOLDS ballast offset: %!l(MISSING)u"
++ "logEventPointVMTunables VM_TUNING_PAGE_SHORTAGE_THRESHOLDS ballast offset: %lu"
 
 ```

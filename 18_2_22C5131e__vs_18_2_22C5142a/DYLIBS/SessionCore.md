@@ -61,8 +61,8 @@
 +  CStrings:  1465
  
 CStrings:
-+ "AlertParticipant is checking for a possible alert to dismiss; activityUpdated:%!{(MISSING)bool}d; activityStoppedOrDiscarded:%!{(MISSING)bool}d hasNewAlertConfiguration:%!{(MISSING)bool}d %!{(MISSING)public}s.%!{(MISSING)public}s"
-+ "Dismissing latest alert for activity update: %!{(MISSING)public}s.%!{(MISSING)public}s"
-- "AlertParticipant is ignoring non-updating event: %!{(MISSING)public}s.%!{(MISSING)public}s"
++ "AlertParticipant is checking for a possible alert to dismiss; activityUpdated:%{bool}d; activityStoppedOrDiscarded:%{bool}d hasNewAlertConfiguration:%{bool}d %{public}s.%{public}s"
++ "Dismissing latest alert for activity update: %{public}s.%{public}s"
+- "AlertParticipant is ignoring non-updating event: %{public}s.%{public}s"
 
 ```

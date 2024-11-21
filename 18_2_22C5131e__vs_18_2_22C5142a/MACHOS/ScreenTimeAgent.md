@@ -79,13 +79,13 @@
 +  CStrings:  7894
  
 CStrings:
-+ "Failed to disable legacy usage: %!{(MISSING)public}s"
-+ "Failed to expire %!{(MISSING)public}s: %!{(MISSING)public}s"
-+ "Feature is disabled, expiring %!{(MISSING)public}s"
-+ "Legacy usage is already disabled, expiring %!{(MISSING)public}s"
-+ "Successfully completed %!{(MISSING)public}s"
-+ "Successfully completed and expired %!{(MISSING)public}s"
-+ "Successfully disabled legacy usage %!{(MISSING)public}s"
++ "Failed to disable legacy usage: %{public}s"
++ "Failed to expire %{public}s: %{public}s"
++ "Feature is disabled, expiring %{public}s"
++ "Legacy usage is already disabled, expiring %{public}s"
++ "Successfully completed %{public}s"
++ "Successfully completed and expired %{public}s"
++ "Successfully disabled legacy usage %{public}s"
 + "disableSyncPolicyForFeature:transportType:"
 + "isSyncPolicyDisabledForFeature:transportType:"
 + "setIsLegacyUsageDisabled:"

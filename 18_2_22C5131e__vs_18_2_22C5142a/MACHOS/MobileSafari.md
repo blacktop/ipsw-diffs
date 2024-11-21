@@ -59,7 +59,7 @@ CStrings:
 + "Library/Safari/ContentBlockers.plist"
 + "Library/WebKit/ContentExtensions"
 + "Migrating Content Blockers"
-+ "Path component: %!{(MISSING)public}@ already exists at destination path. Skipping migration for this path to avoid overwriting data. Deleting the item at source path."
++ "Path component: %{public}@ already exists at destination path. Skipping migration for this path to avoid overwriting data. Deleting the item at source path."
 + "_migrateItemFromPath:toPath:includeContentExtensions:"
 + "_performMigrationLevel106ToLevel107"
 + "initFileURLWithPath:isDirectory:"

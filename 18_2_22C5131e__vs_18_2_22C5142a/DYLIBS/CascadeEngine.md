@@ -35,12 +35,12 @@
 +  CStrings:  1211
  
 CStrings:
-+ "Failed to insert new sourceItemId (hash: %!@(MISSING))"
-+ "Failed to remove sourceItemId: %!@(MISSING) (hash: %!@(MISSING))"
-+ "Failed to remove stale sourceItemId (hash: %!@(MISSING))"
-+ "Failed to update Content and MetaContent for existing sourceItemId (hash: %!@(MISSING))"
-+ "Failed to update MetaContent for existing sourceItemId (hash: %!@(MISSING)) with unchanged content (hash: %!@(MISSING))"
-+ "Skipping sourceItemId (hash: %!@(MISSING)) for an item instance (hash: %!@(MISSING)) that collides with an existing record unexpectedly"
++ "Failed to insert new sourceItemId (hash: %@)"
++ "Failed to remove sourceItemId: %@ (hash: %@)"
++ "Failed to remove stale sourceItemId (hash: %@)"
++ "Failed to update Content and MetaContent for existing sourceItemId (hash: %@)"
++ "Failed to update MetaContent for existing sourceItemId (hash: %@) with unchanged content (hash: %@)"
++ "Skipping sourceItemId (hash: %@) for an item instance (hash: %@) that collides with an existing record unexpectedly"
 + "insertItemWithSourceItemIdHash:instanceHash:contentHash:metaContent:content:isDuplicate:"
 + "updateContent:andMetaContent:localInstanceRowId:priorProvenanceRowId:contentHash:instanceHash:isDuplicate:"
 + "updateMetaContent:localInstanceRowId:provenanceRowId:priorInstanceHash:instanceHash:contentHash:contentSequenceNumber:isDuplicate:"

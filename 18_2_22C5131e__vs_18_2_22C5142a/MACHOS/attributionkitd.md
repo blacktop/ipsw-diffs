@@ -90,9 +90,9 @@ Symbols:
 + _$sSo9NSDecimala10FoundationEyABSdcfC
 + _OBJC_CLASS_$_NSBundle
 CStrings:
-+ "Failed to load exchange rates: %!@(MISSING)"
++ "Failed to load exchange rates: %@"
 + "Failed to parse currency code exchange rates JSON"
-+ "No exchange rate found for currency code: %!s(MISSING)"
++ "No exchange rate found for currency code: %s"
 + "URLForResource:withExtension:"
 + "_TtCV20AttributionKitDaemon14ResourceLoaderP33_AE2C3BCC488254DF4590061C14216CA715BundleRetriever"
 + "bundleForClass:"

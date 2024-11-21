@@ -66,7 +66,7 @@
 Symbols:
 + _NSTemporaryDirectory
 CStrings:
-+ "Copying MTRDevice log %!@(MISSING) to %!@(MISSING) failed:%!@(MISSING)"
++ "Copying MTRDevice log %@ to %@ failed:%@"
 + "recordDownloadedMatterLog:"
 + "stringByAppendingPathComponent:"
 

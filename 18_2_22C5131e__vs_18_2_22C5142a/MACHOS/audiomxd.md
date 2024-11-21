@@ -37,16 +37,16 @@ Symbols:
 + _objc_release_x22
 - _objc_release_x23
 CStrings:
-+ "%!s(MISSING):%!d(MISSING) [audiomxd conclave][%!s(MISSING)] conclave launch returned error:%!u(MISSING)\n"
-+ "%!s(MISSING):%!d(MISSING) [audiomxd conclave][%!s(MISSING)] conclave launch suceeded"
++ "%25s:%-5d [audiomxd conclave][%s] conclave launch returned error:%u\n"
++ "%25s:%-5d [audiomxd conclave][%s] conclave launch suceeded"
 + "AudiomxdConclaveLaunch"
-- "%!s(MISSING):%!d(MISSING) [audiomxd conclave][AudioCaptureServer] conclave launch returned error:%!u(MISSING)\n"
-- "%!s(MISSING):%!d(MISSING) [audiomxd conclave][AudioCaptureServer] conclave launch suceeded"
-- "%!s(MISSING):%!d(MISSING) [audiomxd conclave][MTD] conclave launch returned error:%!u(MISSING)\n"
-- "%!s(MISSING):%!d(MISSING) [audiomxd conclave][MTD] conclave launch suceeded"
-- "%!s(MISSING):%!d(MISSING) [audiomxd conclave][Siri] conclave launch returned error:%!u(MISSING)\n"
-- "%!s(MISSING):%!d(MISSING) [audiomxd conclave][Siri] conclave launch suceeded"
-- "%!s(MISSING):%!d(MISSING) [audiomxd conclave][SoundAnalysis] conclave launch returned error:%!u(MISSING)\n"
-- "%!s(MISSING):%!d(MISSING) [audiomxd conclave][SoundAnalysis] conclave launch suceeded"
+- "%25s:%-5d [audiomxd conclave][AudioCaptureServer] conclave launch returned error:%u\n"
+- "%25s:%-5d [audiomxd conclave][AudioCaptureServer] conclave launch suceeded"
+- "%25s:%-5d [audiomxd conclave][MTD] conclave launch returned error:%u\n"
+- "%25s:%-5d [audiomxd conclave][MTD] conclave launch suceeded"
+- "%25s:%-5d [audiomxd conclave][Siri] conclave launch returned error:%u\n"
+- "%25s:%-5d [audiomxd conclave][Siri] conclave launch suceeded"
+- "%25s:%-5d [audiomxd conclave][SoundAnalysis] conclave launch returned error:%u\n"
+- "%25s:%-5d [audiomxd conclave][SoundAnalysis] conclave launch suceeded"
 
 ```

@@ -67,9 +67,9 @@
  
 CStrings:
 + "\x0f\n"
-+ "Failed to %!{(MISSING)public}@ Web Content Filtering: %!{(MISSING)public}@"
++ "Failed to %{public}@ Web Content Filtering: %{public}@"
 + "No Web Content Filtering preferences found"
-+ "Setting Web Content Filtering enabled to %!{(MISSING)public}@..."
++ "Setting Web Content Filtering enabled to %{public}@..."
 + "_applyWebContentFilteringPreferences"
 + "_stashedWebContentFilteringEnabled"
 + "enableWebContentFilterWithCompletionHandler:"

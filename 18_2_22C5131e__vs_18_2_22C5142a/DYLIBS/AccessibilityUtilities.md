@@ -88,8 +88,8 @@
 Symbols:
 + _kAXSVoiceOverTouchRotorItemAudioDuckingAmount
 CStrings:
-+ "Setting ignore trackpad value: %!@(MISSING)"
-+ "Transferring ignore trackpad setting: %!@(MISSING)"
++ "Setting ignore trackpad value: %@"
++ "Transferring ignore trackpad setting: %@"
 + "clearDiscoveredDevices"
 + "effectiveSpeakingVolumeWithCompletionHandler:"
 + "effectiveSpeakingVolumeWithCurrentRotor:completionHandler:"

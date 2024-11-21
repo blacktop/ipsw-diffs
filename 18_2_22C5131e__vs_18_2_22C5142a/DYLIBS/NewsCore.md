@@ -86,10 +86,10 @@ Symbols:
 - _OBJC_CLASS_$_NSMutableCharacterSet
 - _arc4random
 CStrings:
-+ "Failed to create app container for AV asset downloads with error: %!s(MISSING)"
++ "Failed to create app container for AV asset downloads with error: %s"
 + "assetDownloadTaskWithURLAsset:assetTitle:assetArtworkData:options:"
-- "%!X(MISSING)"
-- "%!@(MISSING)%!@(MISSING)%!@(MISSING).%!@(MISSING)"
+- "%02X"
+- "%@%@%@.%@"
 - "URLPathAllowedCharacterSet"
 - "_setDestinationURL:"
 - "assetDownloadTaskWithConfiguration:"

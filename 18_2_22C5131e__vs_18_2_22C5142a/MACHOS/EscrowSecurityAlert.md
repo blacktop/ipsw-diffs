@@ -58,6 +58,6 @@ Symbols:
 CStrings:
 + "SecureBackupWrappedKeys"
 + "edpStateValueForAccount:"
-+ "failed to get account: %!@(MISSING)"
++ "failed to get account: %@"
 
 ```

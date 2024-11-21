@@ -79,7 +79,7 @@ CStrings:
 + "\x14\x11"
 + "8620.1.16.10.8"
 + "B60@0:8@16d24@32@40B48B52B56"
-+ "Donating Browsing Assistant event: %!{(MISSING)sensitive}@"
++ "Donating Browsing Assistant event: %{sensitive}@"
 + "T@\"NSString\",C,N,V_providerBundleIdentifier"
 + "_hasMatchingAutoFillEventForUsername:withinTimeInterval:inTabWithID:currentURL:shouldAllowPrivateTabs:shouldRemoveMatchingEvent:shouldIncludeExternalCredentialEvents:"
 + "_providerBundleIdentifier"

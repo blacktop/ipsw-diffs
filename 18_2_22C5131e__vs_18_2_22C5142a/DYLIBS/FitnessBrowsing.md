@@ -94,8 +94,8 @@ CStrings:
 + "UnsafeMutablePointer.initialize overlapping range"
 + "UnsafeMutablePointer.initialize with negative count"
 + "UnsafeMutableRawPointer.initializeMemory overlapping range"
-+ "[BrowseFeature] Failed to refresh canvas after subscription changed with error: %!s(MISSING)"
-+ "[BrowseFeature] subscriptionChanged, isSubscribed: %!{(MISSING)bool}d"
++ "[BrowseFeature] Failed to refresh canvas after subscription changed with error: %s"
++ "[BrowseFeature] subscriptionChanged, isSubscribed: %{bool}d"
 + "com.apple.Blackbeard"
 + "invalid Collection: less than 'count' elements in collection"
 

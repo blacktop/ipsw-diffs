@@ -87,8 +87,8 @@
 +  CStrings:  3433
  
 CStrings:
-+ "Continue in ″%!@(MISSING)″"
-+ "Export %!l(MISSING)d items to ″%!@(MISSING)″?"
++ "Continue in ″%@″"
++ "Export %ld items to ″%@″?"
 + "This app will be able to access the accounts you've selected. You should only export items to an app you trust."
 + "localizedShortName"
 

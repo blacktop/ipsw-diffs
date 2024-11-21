@@ -48,11 +48,11 @@
 +  CStrings:  12047
  
 CStrings:
-+ "%!{(MISSING)public}@ Reloading stale cell for request %!{(MISSING)public}@ prior to collapsing"
-+ "%!{(MISSING)public}@ Reloading stale cell for request %!{(MISSING)public}@ prior to expansion"
-+ "%!{(MISSING)public}@ notificationViewController for request %!{(MISSING)public}@ is hidden when reloading; force reveal now"
++ "%{public}@ Reloading stale cell for request %{public}@ prior to collapsing"
++ "%{public}@ Reloading stale cell for request %{public}@ prior to expansion"
++ "%{public}@ notificationViewController for request %{public}@ is hidden when reloading; force reveal now"
 + "_cachedCellForNotificationRequest:createNewIfNecessary:shouldConfigure:forceShowContent:"
-- "%!{(MISSING)public}@ Reloading stale cell for request %!@(MISSING) prior to expansion"
+- "%{public}@ Reloading stale cell for request %@ prior to expansion"
 - "_cachedCellForNotificationRequest:createNewIfNecessary:shouldConfigure:"
 
 ```

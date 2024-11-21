@@ -33,6 +33,6 @@
 +  CStrings:  630
  
 CStrings:
-+ "backlight did change from '%!@(MISSING)' to '%!@(MISSING)'"
++ "backlight did change from '%@' to '%@'"
 
 ```

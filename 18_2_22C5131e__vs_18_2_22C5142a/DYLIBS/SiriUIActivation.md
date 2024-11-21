@@ -51,11 +51,11 @@
 +  CStrings:  1708
  
 CStrings:
-+ "%!s(MISSING) #visualIntelligence - terminating VI camera for invoking 3x within restart period"
-+ "%!s(MISSING) #visualIntelligence - terminating VI camera for invoking while locked"
-+ "%!s(MISSING) #visualIntelligence Succesfully killed Visual Intelligence"
++ "%s #visualIntelligence - terminating VI camera for invoking 3x within restart period"
++ "%s #visualIntelligence - terminating VI camera for invoking while locked"
++ "%s #visualIntelligence Succesfully killed Visual Intelligence"
 + "-[SiriPresentationViewController _terminateVisualIntelligenceCamera]"
 + "_terminateVisualIntelligenceCamera"
-- "%!s(MISSING) #visualIntelligence Succesfully killed Visual Intelligence after max launches in restart window"
+- "%s #visualIntelligence Succesfully killed Visual Intelligence after max launches in restart window"
 
 ```

@@ -45,7 +45,7 @@ Symbols:
 + _kFigEndpointStreamProperty_Mute
 CStrings:
 + "835.19.1.1"
-+ "[%!{(MISSING)ptr}] setting Mute on local stream: %!@(MISSING) \n"
++ "[%{ptr}] setting Mute on local stream: %@ \n"
 - "835.17.1"
 
 ```

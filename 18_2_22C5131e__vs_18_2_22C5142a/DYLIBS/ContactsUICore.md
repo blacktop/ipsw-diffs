@@ -81,7 +81,7 @@ CStrings:
 + "@\"CNLaunchServices\""
 + "@60@0:8@16@24@32@40@48B56"
 + "CALLS_FROM_IPHONE"
-+ "CNTUCallProviderManager did fetch default calling app, has default = %!@(MISSING)"
++ "CNTUCallProviderManager did fetch default calling app, has default = %@"
 + "CNTUCallProviderManager will fetch default calling app"
 + "T@\"CNLaunchServices\",&,N,V_launchServices"
 + "T@\"NSDictionary\",R,C,N"

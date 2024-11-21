@@ -67,7 +67,7 @@
 CStrings:
 + "activeKeyboard"
 + "setReturnKeyEnabled:"
-- "Calling validation handler on delegate %!@(MISSING) with text %!@(MISSING)"
+- "Calling validation handler on delegate %@ with text %@"
 - "_doneBarButtonItem"
 - "_doneButtonInvoked"
 - "initWithBarButtonSystemItem:primaryAction:"

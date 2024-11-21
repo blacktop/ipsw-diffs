@@ -90,7 +90,7 @@ Symbols:
 - _dlerror
 - _dlsym
 CStrings:
-+ "%!s(MISSING) #modes Applying DisplayOnly mode to suppress TTS from being spoken for quickTypeTamale"
++ "%s #modes Applying DisplayOnly mode to suppress TTS from being spoken for quickTypeTamale"
 + "TAMALE_INITIAL_LATENCY_SUMMARY"
 + "didDismissResults"
 + "initWithLatencySummary:taskIdentifier:shouldShow:"

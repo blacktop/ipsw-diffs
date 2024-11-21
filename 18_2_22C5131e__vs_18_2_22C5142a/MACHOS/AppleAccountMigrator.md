@@ -82,15 +82,15 @@ Symbols:
 + _objc_getClass
 + _objc_retainAutorelease
 CStrings:
-+ "%!s(MISSING)"
++ "%s"
 + "AppleAccountMigrator.m"
 + "Class getFLFollowUpControllerClass(void)_block_invoke"
 + "Cleared Apple Account Information Properties from AAPrefsDomain."
-+ "Did clear Pending secureTerms CFU %!d(MISSING) with error: %!@(MISSING)"
++ "Did clear Pending secureTerms CFU %d with error: %@"
 + "FLFollowUpController"
 + "No need to clear secureTerms CFU"
 + "SecureTerms"
-+ "Unable to find class %!s(MISSING)"
++ "Unable to find class %s"
 + "_clearAppleAccountInformationCache"
 + "_clearSecureTermsCFU"
 + "boolForKey:"

@@ -114,7 +114,7 @@ Symbols:
 CStrings:
 + "/com.apple.Settings.Apps.AppInstallation"
 + "AppInstallationSettingsURLRoute.Type"
-+ "Could not create re-direct URL for App Installation for input URL %!{(MISSING)private,mask.hash}s"
++ "Could not create re-direct URL for App Installation for input URL %{private,mask.hash}s"
 + "Payment & Contactless"
 + "PaymentContactlessUIPlugin"
 + "Payments & Contactless: Entered Foreground"

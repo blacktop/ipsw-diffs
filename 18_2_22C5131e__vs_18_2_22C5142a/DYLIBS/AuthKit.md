@@ -102,7 +102,7 @@ Symbols:
 CStrings:
 + "<REDACTED>"
 + "DeviceListCacheEnableDryMode"
-+ "Feature DeviceListCacheEnableDryMode is supported. Is DeviceListCacheEnableDryMode enabled - %!@(MISSING)"
++ "Feature DeviceListCacheEnableDryMode is supported. Is DeviceListCacheEnableDryMode enabled - %@"
 + "TB,R,N,GisDeviceListCacheEnableDryMode"
 + "X-Apple-I-WSC-UUID"
 + "_cacheIsDeviceListCacheEnableDryMode"

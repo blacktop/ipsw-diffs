@@ -47,10 +47,10 @@
  
 CStrings:
 + "PTS"
-+ "[%!{(MISSING)ptr}] TimedManagerTimerTriggerNotification: AudioFormat changed to %!s(MISSING) at Time %!f(MISSING)"
-+ "[%!{(MISSING)ptr}] hoseSBAR_restartSBAROnFormatChange at pts %!f(MISSING)\n"
++ "[%{ptr}] TimedManagerTimerTriggerNotification: AudioFormat changed to %s at Time %1.4f"
++ "[%{ptr}] hoseSBAR_restartSBAROnFormatChange at pts %1.4f\n"
 + "hoseSBAR_restartSBAROnFormatChangeInternal"
 + "void hoseSBAR_restartSBAROnFormatChangeInternal(void *)"
-- "[%!{(MISSING)ptr}] TimedManagerTimerTriggerNotification: AudioFormat changed to %!s(MISSING)"
+- "[%{ptr}] TimedManagerTimerTriggerNotification: AudioFormat changed to %s"
 
 ```

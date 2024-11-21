@@ -143,9 +143,9 @@ Symbols:
 CStrings:
 + "@\"LPImage\"16@0:8"
 + "LPiTunesMetadata"
-+ "Missing item when attempting to dequeue a configured reusable cell for index=%!{(MISSING)public}s"
++ "Missing item when attempting to dequeue a configured reusable cell for index=%{public}s"
 + "T@\"LPImage\",&,N"
-+ "[MusicUI Actions] Attempting to execute action=share for shareURLDescriptor=%!{(MISSING)public}s"
++ "[MusicUI Actions] Attempting to execute action=share for shareURLDescriptor=%{public}s"
 + "keyWindow"
 + "new"
 + "setPreferredTransition:"

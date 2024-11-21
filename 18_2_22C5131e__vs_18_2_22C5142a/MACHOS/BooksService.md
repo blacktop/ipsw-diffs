@@ -63,7 +63,7 @@
 Symbols:
 + _OBJC_CLASS_$_CRKFeatureFlagsFactory
 CStrings:
-+ "%!{(MISSING)public}@ has unsupported table of contents format: %!{(MISSING)public}@"
++ "%{public}@ has unsupported table of contents format: %{public}@"
 + "application/xhtml+xml"
 + "cleanUp"
 + "finishOperationWithError:"

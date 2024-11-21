@@ -58,12 +58,12 @@
 Symbols:
 - __AXSVoiceOverTouchVolume
 CStrings:
-+ "Setting audio ducking WHEN SPEAKING to ducking amount level %!@(MISSING)."
++ "Setting audio ducking WHEN SPEAKING to ducking amount level %@."
 + "voiceOverEffectiveSpeakingVolume"
 + "voiceOverMediaDuckingAmount"
-- "Setting audio ducking WHEN SPEAKING to duckingVolume level %!@(MISSING)."
-- "Setting volume to: %!@(MISSING)."
-- "Setting volume to: %!@(MISSING). Updating ducking volume to: %!@(MISSING)"
+- "Setting audio ducking WHEN SPEAKING to duckingVolume level %@."
+- "Setting volume to: %@."
+- "Setting volume to: %@. Updating ducking volume to: %@"
 - "_setVolume:"
 - "_updateVolume"
 - "setVoiceOverMediaDuckingVolume:"

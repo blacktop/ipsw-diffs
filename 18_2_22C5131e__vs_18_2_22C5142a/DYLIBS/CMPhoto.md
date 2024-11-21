@@ -34,8 +34,8 @@
 +  CStrings:  1330
  
 CStrings:
-+ "<<<< CMPhotoCompressionSession+HEIF >>>> %!s(MISSING): ERROR!!! There was an error (%!d(MISSING)) in the compression plugin callback."
-+ "<<<< CMPhotoCompressionSession+HEIF >>>> %!s(MISSING): ERROR!!! There was an error (%!d(MISSING)) in the sequence compression plugin callback."
++ "<<<< CMPhotoCompressionSession+HEIF >>>> %s: ERROR!!! There was an error (%d) in the compression plugin callback."
++ "<<<< CMPhotoCompressionSession+HEIF >>>> %s: ERROR!!! There was an error (%d) in the sequence compression plugin callback."
 + "_compressionPluginSequenceFrameEncodeCallback"
 + "_compressionPluginTileEncodeCallback"
 

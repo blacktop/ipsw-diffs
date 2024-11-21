@@ -66,8 +66,8 @@
 +  CStrings:  2742
  
 CStrings:
-+ "Error piping waveform data to view. %!{(MISSING)public}s"
-+ "No value publisher found for %!s(MISSING), expected exactly one publisher per dataKind."
-+ "Unexpected item count while shaping waveform. Expected %!l(MISSING)d, received %!l(MISSING)d, dataKind=%!{(MISSING)public}s"
++ "Error piping waveform data to view. %{public}s"
++ "No value publisher found for %s, expected exactly one publisher per dataKind."
++ "Unexpected item count while shaping waveform. Expected %ld, received %ld, dataKind=%{public}s"
 
 ```

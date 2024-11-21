@@ -95,7 +95,7 @@ Symbols:
 CStrings:
 + "imageForKey:"
 + "settingsIconCache"
-- "%!s(MISSING) (%!d(MISSING)) \"acui_iconForDataclass is deprecated, please reach out to discuss alternatives!\""
+- "%s (%d) \"acui_iconForDataclass is deprecated, please reach out to discuss alternatives!\""
 - "+[PSSpecifier(AccountsUI) acui_iconForDataclass:]"
 - "_imageForType:"
 - "_internal_iconForDataclass:"

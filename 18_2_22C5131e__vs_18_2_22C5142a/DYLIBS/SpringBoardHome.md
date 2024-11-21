@@ -87,12 +87,12 @@ Symbols:
 + _OBJC_CLASS_$_SBIconLabelViewPrewarmFactory
 + _OBJC_METACLASS_$_SBIconLabelViewPrewarmFactory
 CStrings:
-+ "\x01\x13\x14%!"(MISSING)
++ "\x01\x13\x14%"
 + "\x03\x14"
 + "@\"SBWidgetIcon\"32@0:8@\"SBHIconModel\"16@\"SBWidgetIcon\"24"
-+ "Application is locked or hidden; fakeWidget is invalid: %!@(MISSING)"
-+ "Last data source removed for widget icon; removing icon: %!@(MISSING)"
-+ "Removing iconDataSource:%!@(MISSING) from widgetIcon:%!@(MISSING) as it is no longer valid"
++ "Application is locked or hidden; fakeWidget is invalid: %@"
++ "Last data source removed for widget icon; removing icon: %@"
++ "Removing iconDataSource:%@ from widgetIcon:%@ as it is no longer valid"
 + "SBIconLabelViewPrewarmFactory"
 + "T@\"NSArray\",C,N,V_traitOverridableObjects"
 + "T@\"SBHIconImageStyleConfiguration\",R,C,N"
@@ -119,8 +119,8 @@ CStrings:
 - "\x01\x13\x14$"
 - "\x04\x12"
 - "@88@0:8@16@24@32{SBIconImageInfo={CGSize=dd}dd}40@72@80"
-- "Icon is locked or hidden; removing fake widget: %!@(MISSING)"
-- "Last widget removed for widget icon; removing icon: %!@(MISSING)"
+- "Icon is locked or hidden; removing fake widget: %@"
+- "Last widget removed for widget icon; removing icon: %@"
 - "T@\"NSArray\",C,N,V_additionalViewsOrViewControllersAffectedByIconStyle"
 - "_additionalViewsOrViewControllersAffectedByIconStyle"
 - "_updateWidgetAccent"

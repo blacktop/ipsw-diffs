@@ -79,19 +79,19 @@ Symbols:
 + _swift_dynamicCastClass
 + _swift_unknownObjectRetain_n
 CStrings:
-+ "%!{(MISSING)public}ld undo operations performed. Resolving previous candidate to %!{(MISSING)public}s."
-+ "Appending previousCandidateID: %!s(MISSING) for entry with groupID: %!s(MISSING)"
-+ "Failed to append previousCandidateID: %!s(MISSING) for groupID: %!s(MISSING) with error: %!@(MISSING)"
-+ "Failed to fetch previous candidate ids for groupID:%!s(MISSING) with error: %!@(MISSING)"
-+ "Failed to update previousCandidateIDs to: %!s(MISSING) for groupID: %!s(MISSING) with error: %!@(MISSING)"
-+ "Fetching previous candidateIDs for groupID:%!s(MISSING)"
++ "%{public}ld undo operations performed. Resolving previous candidate to %{public}s."
++ "Appending previousCandidateID: %s for entry with groupID: %s"
++ "Failed to append previousCandidateID: %s for groupID: %s with error: %@"
++ "Failed to fetch previous candidate ids for groupID:%s with error: %@"
++ "Failed to update previousCandidateIDs to: %s for groupID: %s with error: %@"
++ "Fetching previous candidateIDs for groupID:%s"
 + "GenerativeAssistant"
-+ "New local session with:\n  groupID:%!s(MISSING)\n  localID:%!s(MISSING)\n  credentialsID:%!s(MISSING)\n  auditID:%!s(MISSING)\n\nAttaching to existing remote session:\n  userID:%!s(MISSING)\n  remoteID:%!s(MISSING)\n  credentialsID:%!s(MISSING)\n  auditID:%!s(MISSING)\n  expirationDate:%!s(MISSING)"
-+ "Resolving previous candidate to %!{(MISSING)public}s."
-+ "Updating previousCandidateIDs to: %!s(MISSING) for entry with groupID: %!s(MISSING)"
++ "New local session with:\n  groupID:%s\n  localID:%s\n  credentialsID:%s\n  auditID:%s\n\nAttaching to existing remote session:\n  userID:%s\n  remoteID:%s\n  credentialsID:%s\n  auditID:%s\n  expirationDate:%s"
++ "Resolving previous candidate to %{public}s."
++ "Updating previousCandidateIDs to: %s for entry with groupID: %s"
 - "AuthorizedDevices"
-- "Failed to update previousCandidateID to %!s(MISSING) for groupID:%!s(MISSING) with error: %!@(MISSING)"
-- "New local session with:\n  groupID:%!s(MISSING)\n  localID:%!s(MISSING)\n  credentialsID:%!s(MISSING)\n  auditID:%!s(MISSING)\n\nAttaching to existing remote session:\n  userID:%!s(MISSING)\n  remoteID:%!s(MISSING)\n  previousCandidateID:%!s(MISSING)\n  credentialsID:%!s(MISSING)\n  auditID:%!s(MISSING)\n  expirationDate:%!s(MISSING)"
-- "Updating previousCandidateID to %!s(MISSING) for entry with groupID: %!s(MISSING)"
+- "Failed to update previousCandidateID to %s for groupID:%s with error: %@"
+- "New local session with:\n  groupID:%s\n  localID:%s\n  credentialsID:%s\n  auditID:%s\n\nAttaching to existing remote session:\n  userID:%s\n  remoteID:%s\n  previousCandidateID:%s\n  credentialsID:%s\n  auditID:%s\n  expirationDate:%s"
+- "Updating previousCandidateID to %s for entry with groupID: %s"
 
 ```

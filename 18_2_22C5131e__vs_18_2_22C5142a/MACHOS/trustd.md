@@ -37,6 +37,6 @@
  
 CStrings:
 + "failed to drop tsettings table"
-+ "unable to initialize trust store for %!@(MISSING) domain"
++ "unable to initialize trust store for %@ domain"
 
 ```

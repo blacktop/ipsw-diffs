@@ -80,11 +80,11 @@
 Symbols:
 - _os_transaction_needs_more_time
 CStrings:
-+ "[%!(BADPREC)%!h(MISSING)hx-%!{(MISSING)public}s] Checking stuck: waiting"
-+ "[%!(BADPREC)%!h(MISSING)hx-%!{(MISSING)public}s] Connection appears to have been stuck for %!(BADPREC)%!f(MISSING) s"
-+ "[%!(BADPREC)%!h(MISSING)hx-%!{(MISSING)public}s] Connection appears to have been stuck for %!(BADPREC)%!f(MISSING) s. Cancelling."
-+ "[%!(BADPREC)%!h(MISSING)hx-%!{(MISSING)public}s] Stuck check: no (non-IDLE) commands are currently running."
-+ "[%!(BADPREC)%!h(MISSING)hx-%!{(MISSING)public}s] Stuck for %!l(MISSING)d seconds trying in unauthenticated state. Closing connection."
++ "[%.*hhx-%{public}s] Checking stuck: waiting"
++ "[%.*hhx-%{public}s] Connection appears to have been stuck for %.*f s"
++ "[%.*hhx-%{public}s] Connection appears to have been stuck for %.*f s. Cancelling."
++ "[%.*hhx-%{public}s] Stuck check: no (non-IDLE) commands are currently running."
++ "[%.*hhx-%{public}s] Stuck for %ld seconds trying in unauthenticated state. Closing connection."
 + "com.apple.email.Downloader."
 + "com.apple.email.IndexQueue.completed"
 + "lastMessageTime"

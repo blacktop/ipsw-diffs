@@ -65,9 +65,9 @@
 Symbols:
 + _SRUIFSiriSessionEventGetDescription
 CStrings:
-+ "%!s(MISSING) siriSession didChangeToState %!@(MISSING) by event %!@(MISSING)"
-+ "%!s(MISSING) siriSession didChangeToState %!@(MISSING) by event %!@(MISSING), skip siriViewControllerDidStopListening when _isPresentingVisualIntelligenceCamera"
-+ "%!s(MISSING) siriSession didChangeToState %!@(MISSING) by event %!@(MISSING), skip siriViewControllerDidStopListening when we are in a bluetooth car"
++ "%s siriSession didChangeToState %@ by event %@"
++ "%s siriSession didChangeToState %@ by event %@, skip siriViewControllerDidStopListening when _isPresentingVisualIntelligenceCamera"
++ "%s siriSession didChangeToState %@ by event %@, skip siriViewControllerDidStopListening when we are in a bluetooth car"
 - "startAttendingWithDeviceID:"
 
 ```

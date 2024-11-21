@@ -43,13 +43,13 @@
 +  CStrings:  3453
  
 CStrings:
-+ "Failed store store zone identifier for %!@(MISSING), with error %!{(MISSING)public}@"
-+ "Failed to cache the zone identifier for zone named %!@(MISSING) in the modify task with error %!{(MISSING)public}@"
-+ "Failed to cache zone identifier for shazamLibraryZone in fetch task with error %!{(MISSING)public}@"
-+ "Failed to remove zone identifier for %!@(MISSING), with error %!{(MISSING)public}@"
-+ "Failed to store the inflight task in the fetch task scheduler with error %!{(MISSING)public}@"
-+ "Failed to store the inflight task in the modify task scheduler with error %!{(MISSING)public}@"
-+ "Failed to store the retry modification task with error %!{(MISSING)public}@"
++ "Failed store store zone identifier for %@, with error %{public}@"
++ "Failed to cache the zone identifier for zone named %@ in the modify task with error %{public}@"
++ "Failed to cache zone identifier for shazamLibraryZone in fetch task with error %{public}@"
++ "Failed to remove zone identifier for %@, with error %{public}@"
++ "Failed to store the inflight task in the fetch task scheduler with error %{public}@"
++ "Failed to store the inflight task in the modify task scheduler with error %{public}@"
++ "Failed to store the retry modification task with error %{public}@"
 + "cloudBackedZones:containsZone:"
 + "createZoneFolderPathWithError:"
 - "createZoneFolderPath"

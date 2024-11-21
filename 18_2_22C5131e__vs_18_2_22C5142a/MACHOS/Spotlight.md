@@ -90,7 +90,7 @@ Symbols:
 + _swift_slowAlloc
 + _swift_slowDealloc
 CStrings:
-+ "SiriAudioAppPredictor released: %!{(MISSING)bool}d"
++ "SiriAudioAppPredictor released: %{bool}d"
 + "_TtC9Spotlight18SPUIMediaUtilities"
 + "com.apple.spotlight"
 + "dealloc"

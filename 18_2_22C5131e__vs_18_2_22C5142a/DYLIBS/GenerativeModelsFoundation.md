@@ -64,7 +64,7 @@ Symbols:
 + _objc_release
 - _objc_release_x27
 CStrings:
-+ "DenyListUtility: Invalid regex reject: %!{(MISSING)sensitive}s"
++ "DenyListUtility: Invalid regex reject: %{sensitive}s"
 + "Prompt contains regex match in regex rejection list or regex is invalid."
 - "Invalid regex rejection."
 - "Prompt contains regex match in regex rejection list."

@@ -104,14 +104,14 @@ Symbols:
 + _objc_retain_x26
 + _safariSearchEngineGroupSpecifierID
 CStrings:
-+ "Authenticating via APGuard for locked bundleIdentifier=%!@(MISSING)"
++ "Authenticating via APGuard for locked bundleIdentifier=%@"
 + "MobileSafariSettings"
 + "PSLinkListCell"
 + "SAFARI_SEARCH_ENGINE"
 + "SAFARI_SEARCH_ENGINE_PREFERENCE_CHANGED"
 + "SEARCH_ENGINE_SETTING"
 + "SEARCH_ENGINE_SETTING_GROUP"
-+ "SNLOG success: %!d(MISSING), error: %!@(MISSING)"
++ "SNLOG success: %d, error: %@"
 + "Safari"
 + "SearchEngineSettingsController"
 + "_authenticateForBundleIdentifier:completion:"

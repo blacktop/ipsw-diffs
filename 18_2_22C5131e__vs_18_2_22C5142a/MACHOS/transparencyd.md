@@ -84,21 +84,21 @@
 Symbols:
 + _kTransparencyAnalyticsEventOptIn
 CStrings:
-+ "Failure found for element %!{(MISSING)public}s when checking on-by-default eligibility"
++ "Failure found for element %{public}s when checking on-by-default eligibility"
 + "Invalid sample range"
 + "KTEligibilityStatusReporting"
 + "No CloudKit, can't opt out"
-+ "No entries for given element %!{(MISSING)public}s. Returning aggregate result of false"
-+ "No success in the last sample for element %!{(MISSING)public}s. Returning aggregate result of false"
-+ "Present rate of %!f(MISSING) is too low for element %!{(MISSING)public}s. Returning aggregate result of false"
++ "No entries for given element %{public}s. Returning aggregate result of false"
++ "No success in the last sample for element %{public}s. Returning aggregate result of false"
++ "Present rate of %f is too low for element %{public}s. Returning aggregate result of false"
 + "cdp"
 + "com.apple.Transparency.EligibilityDB"
 + "com.apple.transparency.eligibilityCLIQueue"
 + "newState"
 + "transparencydEligibilityMultiSampler"
 + "v44@0:8@\"NSString\"16@\"NSArray\"24B32@?<v@?@\"NSError\">36"
-- "No entries for given element %!s(MISSING). Returning aggregate result of false"
+- "No entries for given element %s. Returning aggregate result of false"
 - "No success in the last sample. Returning aggregate result of false"
-- "Present rate of %!f(MISSING) is too low. Returning aggregate result of false"
+- "Present rate of %f is too low. Returning aggregate result of false"
 
 ```

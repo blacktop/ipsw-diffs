@@ -46,18 +46,18 @@
 +  CStrings:  1317
  
 CStrings:
-+ "After processing PPS data, ppsNumRows is now: %!@(MISSING)"
++ "After processing PPS data, ppsNumRows is now: %@"
 + "Encountered error getting timestamp from PPS event. Unable to compute timeSinceLastReadingMins feature. Continuing to next event."
 + "Encountered error parsing PPS event."
 + "Encountered error parsing PPS event. Continuing to next event."
-+ "Encountered missing value for %!@(MISSING). Filling with default value: %!l(MISSING)d."
-+ "Not enough history to make prediction; after processing now have %!d(MISSING) valid rows"
-+ "Received %!@(MISSING) rows from PPS."
++ "Encountered missing value for %@. Filling with default value: %ld."
++ "Not enough history to make prediction; after processing now have %d valid rows"
++ "Received %@ rows from PPS."
 + "Skipping current event due to at least one missing value."
-+ "Using inputFeaturesNumOfRows = %!@(MISSING) (with takeLatestSMCValues = %!l(MISSING)d)"
++ "Using inputFeaturesNumOfRows = %@ (with takeLatestSMCValues = %ld)"
 + "objectForKey:fromDict:withDefaults:"
 - "Encountered error getting timestamp from PPS event. Unable to compute timeSinceLastReadingMins feature."
-- "Received %!@(MISSING) rows"
+- "Received %@ rows"
 - "removeEvent:"
 
 ```

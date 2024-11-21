@@ -84,13 +84,13 @@
 +  CStrings:  1999
  
 CStrings:
-+ "Failed to create PlanResolutionTelemetry Biome stream with the following error: %!@(MISSING)"
++ "Failed to create PlanResolutionTelemetry Biome stream with the following error: %@"
 + "IntelligenceFlow.PlanResolutionBiomeTelemetryStream.sendWithTransaction"
-+ "Origin task statement ID for %!s(MISSING): %!s(MISSING)"
++ "Origin task statement ID for %s: %s"
 + "PlanResolutionBiomeTelemetryStream received SIGTERM."
 + "Skipping sending a plan resolution event to Biome, a termination signal was received"
-+ "Unable to find origin task statement ID for %!s(MISSING)"
-+ "Unable to find program statement ID for statement ID: %!s(MISSING)"
++ "Unable to find origin task statement ID for %s"
++ "Unable to find program statement ID for statement ID: %s"
 + "_TtCV30IntelligenceFlowPlannerRuntime34PlanResolutionBiomeTelemetryStreamP33_389E76D989A5AFE72C8A37935EE566A418CancellationStatus"
 + "isCancelledAtomic"
 

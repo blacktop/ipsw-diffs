@@ -50,6 +50,6 @@
 +  CStrings:  468
  
 CStrings:
-+ "Assertion %!s(MISSING) has already been removed."
++ "Assertion %s has already been removed."
 
 ```

@@ -48,7 +48,7 @@ Symbols:
 + __os_log_fault_impl
 CStrings:
 + "Nov 14 2024 22:15:33"
-+ "oldCounterpart exists w/o scene attached. (old counterpart %!@(MISSING); new counterpart %!@(MISSING))"
++ "oldCounterpart exists w/o scene attached. (old counterpart %@; new counterpart %@)"
 - "Nov  3 2024 23:14:53"
 - "oldCounterpart == nil"
 

@@ -65,14 +65,14 @@
 +  CStrings:  1394
  
 CStrings:
-+ "Failed to upload DeviceActivity data %!{(MISSING)public}@"
++ "Failed to upload DeviceActivity data %{public}@"
 + "Skipping sync after device activity collection."
-+ "Successfully uploaded DeviceActivity data for budgets and events %!{(MISSING)public}@"
++ "Successfully uploaded DeviceActivity data for budgets and events %{public}@"
 + "_notifyForBudgets:events:nextNotificationEventName:syncForImpendingBudgets:"
 + "collect(since:newRefreshDate:segmentIntervals:shouldSync:)"
 + "collectLocalActivityWithOptions:shouldSync:completionHandler:"
 + "v36@0:8q16B24@?28"
-- "Failed to upload local data: %!{(MISSING)public}s"
+- "Failed to upload local data: %{public}s"
 - "_notifyForBudgets:events:nextNotificationEventName:duetSyncForImpendingBudgets:"
 - "collect(since:newRefreshDate:segmentIntervals:)"
 - "collectLocalActivityWithOptions:completionHandler:"

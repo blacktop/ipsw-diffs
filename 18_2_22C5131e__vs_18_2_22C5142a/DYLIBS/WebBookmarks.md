@@ -30,6 +30,6 @@
 +  CStrings:  5471
  
 CStrings:
-+ "WBTabGroup must have a valid UUID %!{(MISSING)public}@"
++ "WBTabGroup must have a valid UUID %{public}@"
 
 ```

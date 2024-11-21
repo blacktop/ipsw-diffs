@@ -98,9 +98,9 @@ Symbols:
 + _swift_storeEnumTagSinglePayloadGeneric
 + _swift_willThrowTypedImpl
 CStrings:
-+ "FaceTimeVoiceMailManager has an unexpected error. %!@(MISSING)"
-+ "FaceTimeVoicemailManager could not remvoe  UUIDs from cache because they do not exist: %!s(MISSING)"
-+ "FaceTimeVoicemailManager: Is notifying listeners of messageChanges: %!s(MISSING)"
++ "FaceTimeVoiceMailManager has an unexpected error. %@"
++ "FaceTimeVoicemailManager could not remvoe  UUIDs from cache because they do not exist: %s"
++ "FaceTimeVoicemailManager: Is notifying listeners of messageChanges: %s"
 + "VoicemailManagerMessageChanges.inserted("
 + "VoicemailManagerMessageChanges.reload"
 + "VoicemailManagerMessageChanges.removed("

@@ -70,14 +70,14 @@
 +  CStrings:  4739
  
 CStrings:
-+ "%!{(MISSING)public}@ Unable to get connection interface: %!{(MISSING)public}@ (%!{(MISSING)public}@)"
-+ "<%!@(MISSING): %!p(MISSING), userPersonaUniqueIdentifier: %!@(MISSING), accessLevel: %!l(MISSING)d>"
++ "%{public}@ Unable to get connection interface: %{public}@ (%{public}@)"
++ "<%@: %p, userPersonaUniqueIdentifier: %@, accessLevel: %ld>"
 + "Tq,R,N,V_accessLevel"
 + "_accessLevel"
 + "accessLevel"
 + "decodeIntForKey:"
 + "initWithPersonaUniqueIdentifier:accessLevel:"
-- "%!{(MISSING)public}@ Unable to get connection interface: %!{(MISSING)public}@"
-- "<%!@(MISSING): %!p(MISSING), userPersonaUniqueIdentifier: %!@(MISSING)>"
+- "%{public}@ Unable to get connection interface: %{public}@"
+- "<%@: %p, userPersonaUniqueIdentifier: %@>"
 
 ```

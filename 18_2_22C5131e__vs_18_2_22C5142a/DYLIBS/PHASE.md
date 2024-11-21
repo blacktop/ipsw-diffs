@@ -29,8 +29,8 @@
 +  CStrings:  6620
  
 CStrings:
-+ "%!s(MISSING):%!d(MISSING) GeoMesh.cpp: GetMaterials: Index out of range. Submesh Index: %!i(MISSING), Count:%!i(MISSING), Material Index: %!i(MISSING), Count:%!i(MISSING).\n"
-+ "%!s(MISSING):%!d(MISSING) GeoMpsMesh.cpp: GetMaterials: index out of range. Primitive Index: %!i(MISSING), Count: %!i(MISSING), Submesh Index: %!i(MISSING), Count: %!i(MISSING), Material Index: %!i(MISSING), Count: %!i(MISSING).\n"
-+ "%!s(MISSING):%!d(MISSING) GeoVoxelTree.cpp: GetMaterials: materialIndex out of range. Voxel Index: %!i(MISSING), Count:%!i(MISSING), Material Index: %!i(MISSING), Count:%!i(MISSING).\n"
++ "%25s:%-5d GeoMesh.cpp: GetMaterials: Index out of range. Submesh Index: %i, Count:%i, Material Index: %i, Count:%i.\n"
++ "%25s:%-5d GeoMpsMesh.cpp: GetMaterials: index out of range. Primitive Index: %i, Count: %i, Submesh Index: %i, Count: %i, Material Index: %i, Count: %i.\n"
++ "%25s:%-5d GeoVoxelTree.cpp: GetMaterials: materialIndex out of range. Voxel Index: %i, Count:%i, Material Index: %i, Count:%i.\n"
 
 ```

@@ -77,21 +77,21 @@ Symbols:
 + _$sxSgSQsSQRzlMc
 + _GKDashboardLaunchContextGameController
 CStrings:
-+ "AccessPointAnimationView: Dashboard collapsed, model.showDashboard: %!{(MISSING)bool}d, remoteAlertContext.isShowingDashboard: %!{(MISSING)bool}d"
-+ "AccessPointAnimationView: Dashboard expanded, model.showDashboard: %!{(MISSING)bool}d, remoteAlertContext.isShowingDashboard: %!{(MISSING)bool}d"
++ "AccessPointAnimationView: Dashboard collapsed, model.showDashboard: %{bool}d, remoteAlertContext.isShowingDashboard: %{bool}d"
++ "AccessPointAnimationView: Dashboard expanded, model.showDashboard: %{bool}d, remoteAlertContext.isShowingDashboard: %{bool}d"
 + "GameCenterDashboard: Calling dismissHandler.."
-+ "GameCenterDashboard: Observed a change of remoteAlertContext.dismissDashboardRequested (%!{(MISSING)bool}d -> %!{(MISSING)bool}d)"
-+ "RemoteAlertAccessPointContext: dismissDashboardRequested is set to %!{(MISSING)bool}d."
-+ "RemoteAlertAccessPointContext: isShowingDashboard is %!{(MISSING)bool}d"
-+ "RemoteAlertAccessPointContext: requestDismissDashboard called. Is the Access Point expanded to show the dashboard? %!{(MISSING)bool}d"
-+ "RemoteAlertDashboardContext: requestDismissDashboard called. dismissDashboardRequested is set to %!{(MISSING)bool}d."
++ "GameCenterDashboard: Observed a change of remoteAlertContext.dismissDashboardRequested (%{bool}d -> %{bool}d)"
++ "RemoteAlertAccessPointContext: dismissDashboardRequested is set to %{bool}d."
++ "RemoteAlertAccessPointContext: isShowingDashboard is %{bool}d"
++ "RemoteAlertAccessPointContext: requestDismissDashboard called. Is the Access Point expanded to show the dashboard? %{bool}d"
++ "RemoteAlertDashboardContext: requestDismissDashboard called. dismissDashboardRequested is set to %{bool}d."
 + "_dismissDashboardRequested"
 + "_isShowingDashboard"
-+ "dashboardDidDismiss: Requesting the dashboard [%!s(MISSING)] to be dismissed.."
-+ "dashboardDidDismiss: [%!s(MISSING)] Is this a dashboard token? %!{(MISSING)bool}d, is the scene valid? %!{(MISSING)bool}d"
-+ "dashboardDidDismiss: [%!s(MISSING)] Is this an accessPoint token? %!{(MISSING)bool}d"
++ "dashboardDidDismiss: Requesting the dashboard [%s] to be dismissed.."
++ "dashboardDidDismiss: [%s] Is this a dashboard token? %{bool}d, is the scene valid? %{bool}d"
++ "dashboardDidDismiss: [%s] Is this an accessPoint token? %{bool}d"
 + "gameCenterDashboardViewController.dismissHandler called"
-+ "showDashboard called with launchContext: %!s(MISSING)"
-+ "showDashboard called with sceneIdentifier: %!s(MISSING)"
++ "showDashboard called with launchContext: %s"
++ "showDashboard called with sceneIdentifier: %s"
 
 ```

@@ -29,6 +29,6 @@
 +  CStrings:  802
  
 CStrings:
-+ "Not scheduling next refresh because refresh date is invalid: %!@(MISSING)"
++ "Not scheduling next refresh because refresh date is invalid: %@"
 
 ```

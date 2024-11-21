@@ -64,7 +64,7 @@
 +  CStrings:  534
  
 CStrings:
-+ "DepthTimelineEntryModel: gaugeFullAction: unknown switch case %!s(MISSING)"
++ "DepthTimelineEntryModel: gaugeFullAction: unknown switch case %s"
 + "stringFromNumber:"
 - "ComplicationFormatter: No summary in complication metrics"
 - "DepthTimelineEntryModel: Failed to parse summary"

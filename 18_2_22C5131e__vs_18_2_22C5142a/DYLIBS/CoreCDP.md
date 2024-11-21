@@ -50,10 +50,10 @@
  
 CStrings:
 + "B28@0:8I16@?20"
-+ "EDP livness dictionary=%!@(MISSING)"
++ "EDP livness dictionary=%@"
 + "cdp_anyDescendantErrorDownToMaxDepth:matchesPredicate:"
 + "createEDPLivenessDictionaryWithContext:completion:"
-- "XPC Error while creating EDP liveness health payload: %!@(MISSING)"
+- "XPC Error while creating EDP liveness health payload: %@"
 - "createEDPLivenessDictionaryWithContext:uiProvider:completion:"
 - "v40@0:8@\"CDPContext\"16@\"<CDPStateUIProviderInternal>\"24@?<v@?@\"NSDictionary\"@\"NSError\">32"
 

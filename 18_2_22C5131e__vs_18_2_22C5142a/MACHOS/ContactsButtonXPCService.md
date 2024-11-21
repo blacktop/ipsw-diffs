@@ -90,8 +90,8 @@ Symbols:
 - _CGImageSourceCreateImageAtIndex
 CStrings:
 + "#ContactsButton finished rendering an image"
-- "#ContactsButton will draw %!@(MISSING) for a top text '%!s(MISSING)'"
-- "#ContactsButton will draw at (%!f(MISSING), %!f(MISSING))"
+- "#ContactsButton will draw %@ for a top text '%s'"
+- "#ContactsButton will draw at (%f, %f)"
 - "ContactsButtonXPCService.SimpleTextDrawing"
 - "T{CGSize=dd},N,VdrawingSize"
 - "_TtC24ContactsButtonXPCService17SimpleTextDrawing"

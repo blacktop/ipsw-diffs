@@ -79,9 +79,9 @@ Symbols:
 + _OBJC_CLASS_$_CSFFeatureManager
 CStrings:
 + "\x12\x13"
-+ "%!s(MISSING) #gmenrollment Enrollment from buddy getTicketForFeature: cloud.llm ticket: %!@(MISSING)"
-+ "%!s(MISSING) #gmenrollment Enrollment from buddy getTicketForFeature: received an error. Bailing! Error: %!@(MISSING)"
-+ "%!s(MISSING) #gmenrollment Enrollment from buddy getTicketForFeature: self in unavailable. Bailing!"
++ "%s #gmenrollment Enrollment from buddy getTicketForFeature: cloud.llm ticket: %@"
++ "%s #gmenrollment Enrollment from buddy getTicketForFeature: received an error. Bailing! Error: %@"
++ "%s #gmenrollment Enrollment from buddy getTicketForFeature: self in unavailable. Bailing!"
 + "-[VTUIGMEnrollmentViewController _enrollUserIntoWaitlist]_block_invoke"
 + "-[VTUIGMEnrollmentViewController _enrollUserIntoWaitlist]_block_invoke_2"
 + "@\"OBTrayButton\""

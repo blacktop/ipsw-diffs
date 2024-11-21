@@ -94,6 +94,6 @@ CStrings:
 + "processName"
 + "productId"
 - "Analytics: AccessoryPID is not set. Skip sending the event"
-- "Analytics: Reject update for key %!s(MISSING), invalid value"
+- "Analytics: Reject update for key %s, invalid value"
 
 ```

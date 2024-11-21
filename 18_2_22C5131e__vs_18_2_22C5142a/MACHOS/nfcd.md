@@ -58,17 +58,17 @@
 +  CStrings:  12103
  
 CStrings:
-+ "%!c(MISSING)[%!{(MISSING)public}s %!{(MISSING)public}s]:%!i(MISSING) Invalid app identifier"
-+ "%!c(MISSING)[%!{(MISSING)public}s %!{(MISSING)public}s]:%!i(MISSING) No settings found; init to unknown domain"
-+ "%!c(MISSING)[%!{(MISSING)public}s %!{(MISSING)public}s]:%!i(MISSING) Unexpected data type for domain: %!@(MISSING), reset to unknown domain"
++ "%c[%{public}s %{public}s]:%i Invalid app identifier"
++ "%c[%{public}s %{public}s]:%i No settings found; init to unknown domain"
++ "%c[%{public}s %{public}s]:%i Unexpected data type for domain: %@, reset to unknown domain"
 + "NFCD built from (B&I) Stockholm_Base-352.12"
 + "currentNFCDefault"
 + "totalCardSession"
 + "totalDoubleClickLaunches"
 + "totalFieldDetectLaunches"
 + "totalSecureElementCredentialSession"
-- "%!c(MISSING)[%!{(MISSING)public}s %!{(MISSING)public}s]:%!i(MISSING) No settings found; init to default domain"
-- "%!c(MISSING)[%!{(MISSING)public}s %!{(MISSING)public}s]:%!i(MISSING) Unexpected data type for domain: %!@(MISSING)"
+- "%c[%{public}s %{public}s]:%i No settings found; init to default domain"
+- "%c[%{public}s %{public}s]:%i Unexpected data type for domain: %@"
 - "NFCD built from (B&I) Stockholm_Base-352.11"
 
 ```

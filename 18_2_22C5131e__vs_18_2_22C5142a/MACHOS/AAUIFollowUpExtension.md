@@ -63,8 +63,8 @@ Symbols:
 + _objc_retain_x27
 CStrings:
 + "Attempt UCRT healing with credentials."
-+ "UCRT healing completed with success - [%!@(MISSING)]"
-+ "UCRT healing could not be completed: Error: %!@(MISSING)"
++ "UCRT healing completed with success - [%@]"
++ "UCRT healing could not be completed: Error: %@"
 + "attemptUCRTHealing:completion:"
 + "sharedInstance"
 

@@ -75,8 +75,8 @@
 +  CStrings:  19935
  
 CStrings:
-+ "Can't find tab %!{(MISSING)public}@"
-+ "Tab group has invalid UUID: %!{(MISSING)public}@"
++ "Can't find tab %{public}@"
++ "Tab group has invalid UUID: %{public}@"
 + "_unifiedField"
 + "browserIconReplacementAlertController:completionHandler:"
 + "determineIfBrowserIconSwapAlertNeedsDisplayWithCompletionHandler:"

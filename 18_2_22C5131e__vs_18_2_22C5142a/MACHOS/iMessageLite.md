@@ -91,7 +91,7 @@ Symbols:
 - _$sSo25LiteMessageServiceSessionC01ibA0E014isAvailableForaB033_C78C58FB22A449D302805F96CC198D60LL3for4withSbSS_So28IMServiceReachabilityRequestCtYaKFTu
 - _$sSo25LiteMessageServiceSessionC01ibA0E27calculateOnGridReachability33_C78C58FB22A449D302805F96CC198D60LL3for4with014isRecipientOffG0So09IMServiceH6ResultCSS_So0vH7RequestCSbtYaKFTY3_
 CStrings:
-+ "Will determine iMessage Lite availability using last active token: %!s(MISSING)"
++ "Will determine iMessage Lite availability using last active token: %s"
 + "cachedOffGridModeAndLastPublisherWithCompletion:"
 + "initWithPrefixedURI:"
 + "v20@?0B8@\"NSData\"12"

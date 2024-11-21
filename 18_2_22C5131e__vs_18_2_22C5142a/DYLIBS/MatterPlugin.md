@@ -53,8 +53,8 @@
 +  CStrings:  1569
  
 CStrings:
-+ "%!@(MISSING) Log download complete with url: %!@(MISSING) error: %!@(MISSING)"
-+ "%!@(MISSING) Moved %!@(MISSING) to: %!@(MISSING) (error: %!@(MISSING))"
++ "%@ Log download complete with url: %@ error: %@"
++ "%@ Moved %@ to: %@ (error: %@)"
 + "DiagnosticLogs"
 + "URLByAppendingPathComponent:"
 + "URLForDirectory:inDomain:appropriateForURL:create:error:"

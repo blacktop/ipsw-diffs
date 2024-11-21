@@ -70,8 +70,8 @@
 +  CStrings:  311
  
 CStrings:
-+ "DeviceType: Device type cache miss for: %!s(MISSING)"
-- "DepthFormatter: Max depth cache miss for: %!s(MISSING)"
++ "DeviceType: Device type cache miss for: %s"
+- "DepthFormatter: Max depth cache miss for: %s"
 - "DepthFormatter: Nil device queried"
 
 ```

@@ -54,8 +54,8 @@
 +  CStrings:  449
  
 CStrings:
-+ "%!s(MISSING):%!d(MISSING) ServerSideHardware::RegisterCallback - legacyHalUseCase is unknown!"
-- "%!s(MISSING):%!d(MISSING) IsolatedDeviceIOProc error: inClientData is NULL!"
++ "%25s:%-5d ServerSideHardware::RegisterCallback - legacyHalUseCase is unknown!"
+- "%25s:%-5d IsolatedDeviceIOProc error: inClientData is NULL!"
 - "IsolatedDeviceIOProc.h"
 
 ```

@@ -96,7 +96,7 @@ CStrings:
 + "IMDeviceIsGreenTea"
 + "Presenting Satellite Demo app"
 + "Pressed satellite demo mode"
-+ "Request Satellite Demo error: %!@(MISSING)"
++ "Request Satellite Demo error: %@"
 + "T@\"AUSystemSettingsSpecifiersProvider\",&,N,V_specifiersProvider"
 + "T@\"AUSystemSettingsSpecifiersProvider\",&,N,V_systemSettingsSpecifierProvider"
 + "TRY_DEMO_MODE_FOOTER_DESCRIPTION"

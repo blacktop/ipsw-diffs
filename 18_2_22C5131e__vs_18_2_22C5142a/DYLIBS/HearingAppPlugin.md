@@ -63,9 +63,9 @@
 +  CStrings:  828
  
 CStrings:
-+ "[%!{(MISSING)public}s] 0 years between key dates found."
-+ "[%!{(MISSING)public}s] Unable to determine first and last date of the years with startDate:%!s(MISSING) endDate:%!s(MISSING)"
-+ "[%!{(MISSING)public}s] Unable to determine first date of the year for date:%!s(MISSING) + years:%!l(MISSING)d"
-+ "[%!{(MISSING)public}s] Unable to years between firstDate:%!s(MISSING) lastDate:%!s(MISSING)"
++ "[%{public}s] 0 years between key dates found."
++ "[%{public}s] Unable to determine first and last date of the years with startDate:%s endDate:%s"
++ "[%{public}s] Unable to determine first date of the year for date:%s + years:%ld"
++ "[%{public}s] Unable to years between firstDate:%s lastDate:%s"
 
 ```

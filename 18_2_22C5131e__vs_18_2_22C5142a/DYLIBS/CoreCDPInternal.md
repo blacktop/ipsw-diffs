@@ -75,9 +75,9 @@ Symbols:
 + _kCDPAnalyticsEDPSpyglassPaneLandingEvent
 CStrings:
 + "-[CDPDStateMachine _isEligibleForRecoveryTokenWithContext:cdpStateMachineError:completion:]_block_invoke"
-+ "Attempting to persist verifier for keyType: %!l(MISSING)d for %!@(MISSING)"
-+ "CDPContext=%!@(MISSING): isProxSignIn, skipping the password and password metadata checks because prox flows does not have password. Calling PCS repair directly..."
-+ "Interactive recovery with EDP status - %!l(MISSING)u"
++ "Attempting to persist verifier for keyType: %ld for %@"
++ "CDPContext=%@: isProxSignIn, skipping the password and password metadata checks because prox flows does not have password. Calling PCS repair directly..."
++ "Interactive recovery with EDP status - %lu"
 + "Ledger: rpdProbationDuration is not set. Deafulting to CDPRPDProbationTimeInterval"
 + "We just cancelled / cancelled RPD from the token screen. We should not show the token screen again."
 + "_continuePerformEDPRepairWithResult:completion:"
@@ -86,7 +86,7 @@ CStrings:
 + "createEDPLivenessDictionaryWithContext:completion:"
 + "v32@0:8@\"CDPContext\"16@?<v@?@\"NSDictionary\"@\"NSError\">24"
 - "-[CDPDStateMachine _isEligibleForRecoveryTokenWithContext:completion:]_block_invoke"
-- "Attempting to persist verifier: %!@(MISSING) with keyType: %!l(MISSING)d for %!@(MISSING)"
+- "Attempting to persist verifier: %@ with keyType: %ld for %@"
 - "_continuePerformEDPRepairWithCDPEnabled:completion:"
 - "_isEligibleForRecoveryTokenWithContext:completion:"
 - "createEDPLivenessDictionaryWithContext:uiProvider:completion:"

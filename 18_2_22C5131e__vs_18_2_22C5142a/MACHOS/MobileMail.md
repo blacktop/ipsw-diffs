@@ -95,7 +95,7 @@ CStrings:
 + "soundSetting"
 + "textColor"
 + "updateSemiExpandedToFullyExpandedIfNecessaryAtIndexPath:renderedHeight:"
-+ "updating SemiExpanded to Expanded for itemID:%!{(MISSING)public}@ based on renderedHeight:%!f(MISSING)"
++ "updating SemiExpanded to Expanded for itemID:%{public}@ based on renderedHeight:%f"
 + "v24@?0@\"MUIAvatarImageGeneratorResult\"8@\"NSError\"16"
 - "1\x16\x12\x1e\x16"
 - "Badge"

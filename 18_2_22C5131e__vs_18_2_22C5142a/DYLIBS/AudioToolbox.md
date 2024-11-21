@@ -28,7 +28,7 @@
 +  CStrings:  8270
  
 CStrings:
-+ "%!s(MISSING):%!d(MISSING) null headTracker in HeadTrackSpatializationUnit(), returning early"
++ "%25s:%-5d null headTracker in HeadTrackSpatializationUnit(), returning early"
 - "HeadTrackSpatializationUnit"
 - "headTracker"
 

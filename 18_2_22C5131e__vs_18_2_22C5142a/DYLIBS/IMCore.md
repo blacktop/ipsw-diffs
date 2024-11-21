@@ -71,9 +71,9 @@
 Symbols:
 + _IMSetupInfoOffGridStatusOverrideDatesKey
 CStrings:
-+ "(-refreshServiceForSending) bailing, don't downgrade named iMessage group chat: %!@(MISSING)"
-+ "Not setting local user composing for chat because this chat has no known participants, and we have never sent them a message before. Bailing. Chat: %!@(MISSING)."
-+ "This was iMessage group, don't downgrade: %!@(MISSING)"
++ "(-refreshServiceForSending) bailing, don't downgrade named iMessage group chat: %@"
++ "Not setting local user composing for chat because this chat has no known participants, and we have never sent them a message before. Bailing. Chat: %@."
++ "This was iMessage group, don't downgrade: %@"
 + "_replaceItems:skipCallToItemsDidChange:"
 + "_setCachedOverrideDatesByHandleID:"
 + "account:handleID:updatedLastReceivedOnGridMessageDate:"

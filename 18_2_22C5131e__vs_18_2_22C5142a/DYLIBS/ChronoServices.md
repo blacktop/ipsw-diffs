@@ -76,7 +76,7 @@ Symbols:
 + _BSValueWithSize
 + _OBJC_CLASS_$_NSValue
 CStrings:
-+ "Error encoding object: %!@(MISSING)"
++ "Error encoding object: %@"
 + "_filenameSafeStableHash"
 + "_filenameSafeStableHashFromData:"
 

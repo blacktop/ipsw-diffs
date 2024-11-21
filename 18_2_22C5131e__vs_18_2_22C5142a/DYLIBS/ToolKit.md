@@ -89,14 +89,14 @@ Symbols:
 CStrings:
 + ", configuration="
 + "<LockedFileDescriptor fd="
-+ "Can't make an attributed type identifier because we are unable to find container that matches identifier: %!s(MISSING)"
-+ "Session %!s(MISSING) failed to fetch invocation summary for invocation: %!s(MISSING) due to error: %!@(MISSING)"
++ "Can't make an attributed type identifier because we are unable to find container that matches identifier: %s"
++ "Session %s failed to fetch invocation summary for invocation: %s due to error: %@"
 + "cache"
-+ "filelock: error closing fd %!s(MISSING) @ %!s(MISSING), but nothing we can do: %!s(MISSING)"
-+ "filelock: error unlocking fd %!s(MISSING) @ %!s(MISSING), but nothing we can do: %!s(MISSING)"
++ "filelock: error closing fd %s @ %s, but nothing we can do: %s"
++ "filelock: error unlocking fd %s @ %s, but nothing we can do: %s"
 + "objectForKey:"
 + "removeObjectForKey:"
 + "setObject:forKey:"
-- "Session %!s(MISSING) failed to fetch invocation summary for invocation: %!s(MISSING) due to error"
+- "Session %s failed to fetch invocation summary for invocation: %s due to error"
 
 ```

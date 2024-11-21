@@ -59,7 +59,7 @@
  
 CStrings:
 + "\nt"
-+ "Attempt to insert:\n\n\t{instanceHash: %!@(MISSING) metaContent: %!@(MISSING)}\n\ncollided with existing record:\n\n\t{instanceHash: %!@(MISSING) metaContent: %!@(MISSING)}"
++ "Attempt to insert:\n\n\t{instanceHash: %@ metaContent: %@}\n\ncollided with existing record:\n\n\t{instanceHash: %@ metaContent: %@}"
 + "B48@0:8@16@24^@32^B40"
 + "B64@0:8@16@24@32@40@48^B56"
 + "B72@0:8@16@24@32@40@48@56^B64"

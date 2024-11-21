@@ -49,11 +49,11 @@
    CStrings:  12597
  
 CStrings:
-+ "%!s(MISSING) BeaconStore is not available. Not allowing pairing"
-+ "We have at least one beacon group for the same MAC: %!{(MISSING)private,mask.hash}s, do NOT BT unpair."
++ "%s BeaconStore is not available. Not allowing pairing"
++ "We have at least one beacon group for the same MAC: %{private,mask.hash}s, do NOT BT unpair."
 + "isPairingPending(for:)"
-- "BeaconStatus record NOT found for beacon record identifier %!{(MISSING)private,mask.hash}s."
-- "BeaconStatus record found for hawkeye product with beacon record identifier %!{(MISSING)private,mask.hash}s."
+- "BeaconStatus record NOT found for beacon record identifier %{private,mask.hash}s."
+- "BeaconStatus record found for hawkeye product with beacon record identifier %{private,mask.hash}s."
 - "ERROR: could not get beaconStore!"
 
 ```

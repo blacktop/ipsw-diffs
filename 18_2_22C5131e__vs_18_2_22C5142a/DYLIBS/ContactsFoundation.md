@@ -79,17 +79,17 @@
  
 CStrings:
 + "0000000000"
-+ "Error fetching applicationForBundleIdentifier, %!@(MISSING)"
-+ "Error fetching applicationsAvailableForDefaultAppCategory, %!@(MISSING)"
-+ "Error fetching applicationsAvailableForHandlingURLScheme, %!@(MISSING)"
-+ "Error fetching applicationsForUserActivityType, %!@(MISSING)"
-+ "Error fetching defaultApplicationForDefaultAppCategory, %!@(MISSING)"
++ "Error fetching applicationForBundleIdentifier, %@"
++ "Error fetching applicationsAvailableForDefaultAppCategory, %@"
++ "Error fetching applicationsAvailableForHandlingURLScheme, %@"
++ "Error fetching applicationsForUserActivityType, %@"
++ "Error fetching defaultApplicationForDefaultAppCategory, %@"
 + "Phone"
 + "Timeout fetching defaultApplicationForDefaultAppCategory"
 + "defaultAppRelayTelephonySetting"
 + "getDefaultAppProxyFromTU"
 + "softlink:r:path:/System/Library/PrivateFrameworks/TelephonyUtilities.framework/TelephonyUtilities"
-- "Error fetching application proxies %!@(MISSING)"
-- "Error fetching application proxy %!@(MISSING)"
+- "Error fetching application proxies %@"
+- "Error fetching application proxy %@"
 
 ```

@@ -46,7 +46,7 @@
 CStrings:
 + "\x01\x13"
 + "== Started EventKitSync-409"
-+ "Minimum date threshold not met [%!@(MISSING)] - ignoring incoming data for drift or duplication with IDS identifier: %!@(MISSING)"
++ "Minimum date threshold not met [%@] - ignoring incoming data for drift or duplication with IDS identifier: %@"
 + "_minimumDateThreshold"
 + "isBeforeDate:"
 - "\x01\x12"

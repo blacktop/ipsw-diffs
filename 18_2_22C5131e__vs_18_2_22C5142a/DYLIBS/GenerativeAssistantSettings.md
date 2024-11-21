@@ -98,14 +98,14 @@ Symbols:
 + _OBJC_CLASS_$_NSURLSessionConfiguration
 + _swift_weakAssign
 CStrings:
-+ "%!s(MISSING) Completed updating billing plan"
-+ "%!s(MISSING) Duplicate request to poll; re-enabling post-poll timer"
-+ "%!s(MISSING) Fetching updated billing plan"
-+ "%!s(MISSING) Reset polling state"
-+ "%!s(MISSING) Resetting poll timer"
-+ "%!s(MISSING) Waiting for %!l(MISSING)lums"
-+ "%!s(MISSING) lastPollStarted: %!s(MISSING)"
-+ "%!s(MISSING) pollingEndTime: %!s(MISSING)"
++ "%s Completed updating billing plan"
++ "%s Duplicate request to poll; re-enabling post-poll timer"
++ "%s Fetching updated billing plan"
++ "%s Reset polling state"
++ "%s Resetting poll timer"
++ "%s Waiting for %llums"
++ "%s lastPollStarted: %s"
++ "%s pollingEndTime: %s"
 + "Base Object Graph"
 + "Montara.UpsellButtonLabel"
 + "_upgradeCTAText"

@@ -99,15 +99,15 @@ Symbols:
 - _$sSD11descriptionSSvg
 - _OBJC_CLASS_$_SAUISayIt
 CStrings:
-+ "#EmergencyCountdownView received event from context=%!s(MISSING)"
-- "#EmergencyCountdownView got context update - %!s(MISSING)"
++ "#EmergencyCountdownView received event from context=%s"
+- "#EmergencyCountdownView got context update - %s"
 - "#EmergencyCountdownView received action to start timer"
 - "#EmergencyCountdownView received timer, but countdown hasn't started. Ignoring."
 - "#EmergencyCountdownView updating counter"
 - "#EmergencyCountdownViewModel model.shouldPlayTTSCountdown is false"
 - "#EmergencyCountdownViewModel no action handler for playTTSCounterValue"
 - "#EmergencyCountdownViewModel starting countdown"
-- "#EmergencyCountdownViewModel submitting SAUISayIt command to say emergency counter value=%!l(MISSING)d with id=%!s(MISSING)"
+- "#EmergencyCountdownViewModel submitting SAUISayIt command to say emergency counter value=%ld with id=%s"
 - "#EmergencyCountdownViewModel timer was cancelled by user. Not playing TTS"
 - "aceId"
 - "playTTSCounterValue"

@@ -35,6 +35,6 @@
 +  CStrings:  7411
  
 CStrings:
-- "%!@(MISSING)/%!@(MISSING)/%!@(MISSING)"
+- "%@/%@/%@"
 
 ```

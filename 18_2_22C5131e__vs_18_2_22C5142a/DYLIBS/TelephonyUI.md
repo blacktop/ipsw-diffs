@@ -77,6 +77,6 @@ Symbols:
 - __swift_stdlib_bridgeErrorToNSError
 - _swift_errorRetain
 CStrings:
-- "Task failed with error: %!@(MISSING)"
+- "Task failed with error: %@"
 
 ```

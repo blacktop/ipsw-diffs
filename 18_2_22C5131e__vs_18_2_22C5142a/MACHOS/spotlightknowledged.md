@@ -71,14 +71,14 @@
 +  CStrings:  4431
  
 CStrings:
-+ "SKG: cached item bundle %!@(MISSING) does not match donation bundle %!@(MISSING)"
-+ "SKG: processed item bundle %!@(MISSING) does not match donation bundle %!@(MISSING)"
++ "SKG: cached item bundle %@ does not match donation bundle %@"
++ "SKG: processed item bundle %@ does not match donation bundle %@"
 + "cachedCount"
 + "embeddingCachedCount"
 + "logCachedItemForBundleID:counts:"
 + "vectors"
 - "\x01Q"
-- "SKG: item bundle %!@(MISSING) does not match donation bundle %!@(MISSING)"
+- "SKG: item bundle %@ does not match donation bundle %@"
 - "T@\"SKGKnowledgeFeedback\",R,N,V_feedback"
 
 ```

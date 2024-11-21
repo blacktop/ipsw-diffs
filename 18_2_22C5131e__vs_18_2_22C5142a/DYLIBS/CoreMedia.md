@@ -61,19 +61,19 @@ Symbols:
 + _kFigEndpointProperty_IsDissociated
 + _kFigEndpointStreamProperty_Mute
 CStrings:
-+ "%!l(MISSING)d %!s(MISSING) %!s(MISSING) %!d(MISSING)->%!d(MISSING):%!s(MISSING)->%!s(MISSING) "
-+ "%!l(MISSING)d %!s(MISSING) %!s(MISSING) %!d(MISSING):%!s(MISSING) "
-+ "%!s(MISSING) %!l(MISSING)u"
-+ "%!s(MISSING) %!s(MISSING)"
-+ "<<< FigOSTransactionsUtilities >>> %!s(MISSING): [Fig Transaction] Added transaction weak reference holder <%!p(MISSING)>: %!s(MISSING)"
-+ "<<< FigOSTransactionsUtilities >>> %!s(MISSING): [Fig Transaction] Pruned transaction weak reference holder: <%!p(MISSING)>"
++ "%ld %s %s %d->%d:%s->%s "
++ "%ld %s %s %d:%s "
++ "%s %lu"
++ "%s %s"
++ "<<< FigOSTransactionsUtilities >>> %s: [Fig Transaction] Added transaction weak reference holder <%p>: %s"
++ "<<< FigOSTransactionsUtilities >>> %s: [Fig Transaction] Pruned transaction weak reference holder: <%p>"
 + "IsDissociated"
 + "Mute"
 + "figostransactionutilities_trace"
-- "%!l(MISSING)d %!s(MISSING) %!s(MISSING) %!d(MISSING)->%!d(MISSING):%!s(MISSING)->%!s(MISSING) %!s(MISSING) "
-- "%!l(MISSING)d %!s(MISSING) %!s(MISSING) %!d(MISSING):%!s(MISSING) %!s(MISSING)"
-- "<<< FigDispatchUtilities >>> %!s(MISSING): [Fig Transaction] Added transaction weak reference holder <%!p(MISSING)>: %!s(MISSING)"
-- "<<< FigDispatchUtilities >>> %!s(MISSING): [Fig Transaction] Pruned transaction weak reference holder: <%!p(MISSING)>"
+- "%ld %s %s %d->%d:%s->%s %s "
+- "%ld %s %s %d:%s %s"
+- "<<< FigDispatchUtilities >>> %s: [Fig Transaction] Added transaction weak reference holder <%p>: %s"
+- "<<< FigDispatchUtilities >>> %s: [Fig Transaction] Pruned transaction weak reference holder: <%p>"
 - "figdispatchutilities_trace"
 
 ```

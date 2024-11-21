@@ -48,7 +48,7 @@
  
 CStrings:
 + "deleteCloudObject:"
-- "%!@(MISSING) (%!@(MISSING)) hasn't been fully pushed to the cloud. Not deleting."
+- "%@ (%@) hasn't been fully pushed to the cloud. Not deleting."
 - "deleteCloudObjectIfFullyPushed:"
 
 ```

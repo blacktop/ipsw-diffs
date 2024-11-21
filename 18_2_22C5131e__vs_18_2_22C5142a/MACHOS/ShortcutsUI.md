@@ -54,7 +54,7 @@
 +  CStrings:  2019
  
 CStrings:
-+ "%!s(MISSING) There's already a view on screen (presentedBanner: %!@(MISSING), presentedRemoteAlertViewController: %!@(MISSING)) and status isn't visible, nothing to do here"
++ "%s There's already a view on screen (presentedBanner: %@, presentedRemoteAlertViewController: %@) and status isn't visible, nothing to do here"
 + "-[WFBannerManager queue_dismissRemoteAlertViewControllerWithReason:]"
 + "-[WFBannerManager queue_updateStateWithReason:]_block_invoke_7"
 + "Remote Alert Action Interface"
@@ -69,8 +69,8 @@ CStrings:
 + "presentedRemoteAlertViewControllerLock"
 + "queue_dismissRemoteAlertViewControllerWithReason:"
 + "setPresentedRemoteAlertViewController:"
-+ "we just dismissed action UI, updating state: %!@(MISSING)"
-- "%!s(MISSING) There's already a presentable on screen (%!@(MISSING)) and status isn't visible, nothing to do here"
++ "we just dismissed action UI, updating state: %@"
+- "%s There's already a presentable on screen (%@) and status isn't visible, nothing to do here"
 - "-[WFBannerManager queue_updateStateWithReason:]_block_invoke_6"
 - "Legacy Action Interface"
 - "T@\"UIViewController\",&,N,V_remoteViewController"

@@ -70,8 +70,8 @@ Symbols:
 + _OBJC_CLASS_$_SOAuthorizationCore
 CStrings:
 + "@\"NSArray\"24@0:8@\"NSData\"16"
-+ "ESSO configuration with identifier %!{(MISSING)public}@ is active"
-+ "ESSO configuration with identifier %!{(MISSING)public}@ is not active with error: %!{(MISSING)public}@"
++ "ESSO configuration with identifier %{public}@ is active"
++ "ESSO configuration with identifier %{public}@ is not active with error: %{public}@"
 + "_awaitESSOConfigActivationWithExtensionIdentifierEnumerator:completionHandler:"
 + "_awaitESSOConfigActivationWithExtensionIdentifiers:completionHandler:"
 + "esso_extensionIdentifier"

@@ -169,7 +169,7 @@ CStrings:
 + "initWithApplicationBundleIdentifier:"
 + "searchEnginePickerGroupSpecifier"
 + "setUpSearchSuggestionText:"
-+ "settings-navigation://com.apple.Settings.Search/%!@(MISSING)"
++ "settings-navigation://com.apple.Settings.Search/%@"
 - "\t\x14\x11"
 - "_setUpSearchSuggestionText:"
 - "setSearchEngine:forSpecifier:"

@@ -90,9 +90,9 @@ Symbols:
 + _OBJC_CLASS_$_NSISO8601DateFormatter
 - _OBJC_CLASS_$_AMSPair
 CStrings:
-+ "%!{(MISSING)public}@: [%!{(MISSING)public}@] Fetching active treatments (areas: %!{(MISSING)public}@)"
-+ "%!{(MISSING)public}@: [%!{(MISSING)public}@] Fetching treatments (areas: %!{(MISSING)public}@, startDate: %!{(MISSING)public}@, endDate: %!{(MISSING)public}@)"
-+ "%!{(MISSING)public}@: [%!{(MISSING)public}@] Wrong '%!{(MISSING)public}@' format (\"%!{(MISSING)public}@\")"
++ "%{public}@: [%{public}@] Fetching active treatments (areas: %{public}@)"
++ "%{public}@: [%{public}@] Fetching treatments (areas: %{public}@, startDate: %{public}@, endDate: %{public}@)"
++ "%{public}@: [%{public}@] Wrong '%{public}@' format (\"%{public}@\")"
 + "&"
 + "@16@?0@\"AMSTreatment\"8"
 + "@16@?0@\"NSSet\"8"
@@ -128,7 +128,7 @@ CStrings:
 + "treatmentsForAreas:startDate:endDate:"
 + "userInterfaceStyle="
 + "v24@?0@\"ACAccount\"8@\"NSError\"16"
-- "%!{(MISSING)public}@Using self.presentingWindow: %!{(MISSING)public}@"
+- "%{public}@Using self.presentingWindow: %{public}@"
 - "@\"AMSPair\"24@?0@\"NSString\"8@\"AMSTreatment\"16"
 - "dictionaryRepresentation"
 - "initWithFirst:second:"

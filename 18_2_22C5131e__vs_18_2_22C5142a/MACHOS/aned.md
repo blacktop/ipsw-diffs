@@ -34,6 +34,6 @@
 +  CStrings:  982
  
 CStrings:
-+ "%!@(MISSING): timed out (%!@(MISSING))"
++ "%@: timed out (%@)"
 
 ```

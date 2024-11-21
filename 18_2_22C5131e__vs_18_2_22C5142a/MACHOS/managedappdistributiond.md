@@ -66,7 +66,7 @@ CStrings:
 + "Due to content restrictions set for this device, this app can’t be installed."
 + "ManagedAppDistribution.ContentRestrictedError.Message"
 + "ManagedAppDistribution.ContentRestrictedError.Title"
-+ "[%!@(MISSING)] Showing content restricted alert."
++ "[%@] Showing content restricted alert."
 + "com.apple.notifyd.matching"
 + "shouldPendInSetup"
 

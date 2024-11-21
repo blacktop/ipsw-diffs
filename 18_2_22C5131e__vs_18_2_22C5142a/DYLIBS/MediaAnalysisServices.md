@@ -34,6 +34,6 @@
 CStrings:
 - "./Utilities/CGUtilities.h"
 - "/Library/Caches/com.apple.xbs/Sources/MediaAnalysis/MediaAnalysisServices/ComputeService/MADCoreMLResult.mm"
-- "[LOG_ERROR] %!s(MISSING)[%!d(MISSING)]: code %!d(MISSING)\n"
+- "[LOG_ERROR] %s[%d]: code %d\n"
 
 ```

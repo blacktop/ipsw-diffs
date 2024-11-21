@@ -34,7 +34,7 @@
 +  CStrings:  3054
  
 CStrings:
-+ "%!@(MISSING)Notifying Homes Loaded to %!i(MISSING) handlers"
-+ "%!@(MISSING)allHomes timeout waiting for loaded Homes after %!d(MISSING) seconds"
++ "%@Notifying Homes Loaded to %i handlers"
++ "%@allHomes timeout waiting for loaded Homes after %d seconds"
 
 ```

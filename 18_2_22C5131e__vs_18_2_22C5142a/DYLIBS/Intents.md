@@ -55,11 +55,11 @@ Symbols:
 - _NSFileSize
 - __INURLImageLogDescription
 CStrings:
-- "%!@(MISSING) - %!@(MISSING) bytes created on %!@(MISSING)"
-- "%!s(MISSING) Data Image stored: %!@(MISSING) - %!{(MISSING)sensitive, mask.hash}@"
-- "%!s(MISSING) Image Retrieved: %!@(MISSING) - %!{(MISSING)sensitive, mask.hash}@"
-- "%!s(MISSING) Image loaded with Portable Image Loader: %!@(MISSING) - %!{(MISSING)sensitive, mask.hash}@"
-- "%!s(MISSING) URL Image stored: %!@(MISSING)"
+- "%@ - %@ bytes created on %@"
+- "%s Data Image stored: %@ - %{sensitive, mask.hash}@"
+- "%s Image Retrieved: %@ - %{sensitive, mask.hash}@"
+- "%s Image loaded with Portable Image Loader: %@ - %{sensitive, mask.hash}@"
+- "%s URL Image stored: %@"
 - "-[INPortableImageLoader loadImageDataFromImage:accessSpecifier:completion:]_block_invoke"
 
 ```

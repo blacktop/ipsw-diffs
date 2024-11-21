@@ -94,9 +94,9 @@ Symbols:
 + _OBJC_CLASS_$_NSLocale
 CStrings:
 + "/stickers\\.stickerdb/"
-+ "Failed to remove shared datastore: %!@(MISSING)"
-+ "Process was asked to exit. %!@(MISSING)"
-+ "Removed %!s(MISSING)"
++ "Failed to remove shared datastore: %@"
++ "Process was asked to exit. %@"
++ "Removed %s"
 + "Sticker container failed initial verification. Will repair."
 + "Sticker container passed initial verification."
 + "canDistribute"
@@ -107,8 +107,8 @@ CStrings:
 + "distributionRestrictions_ObjC"
 + "initWithLocaleIdentifier:"
 + "setLocale:"
-- "There was a problem loading the database. Please file a radar and attach the database located at %!s(MISSING)."
-- "There was a problem setting aside the database. %!s(MISSING)"
+- "There was a problem loading the database. Please file a radar and attach the database located at %s."
+- "There was a problem setting aside the database. %s"
 - "moveItemAtPath:toPath:error:"
 - "stickers-unreadable-"
 - "stringFromDate:"

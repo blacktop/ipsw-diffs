@@ -102,7 +102,7 @@ Symbols:
 - _UIFontWeightTrait
 CStrings:
 + "OneUp.VideoPlayer.PlaceholderTimeLabel"
-+ "Transition info: %!s(MISSING)"
++ "Transition info: %s"
 + "_TtC17PhotosSwiftUICore47PhotosDetailsNavigationTransitionInfoRepository"
 + "__currentAssetIsCentered"
 + "__isChromeCoveringContent"
@@ -123,7 +123,7 @@ CStrings:
 + "symbolWeight"
 + "topViewController"
 + "transitionInfosByItem"
-- "Transition kind: %!s(MISSING)"
+- "Transition kind: %s"
 - "_TtC17PhotosSwiftUICore47PhotosDetailsNavigationTransitionKindRepository"
 - "__isOverContent"
 - "configurationWithFont:scale:"

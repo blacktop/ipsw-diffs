@@ -33,11 +33,11 @@
 +  CStrings:  2288
  
 CStrings:
-+ "[decodeFromPersistableRepresentation] Replacing container %!@(MISSING) with %!@(MISSING)..."
++ "[decodeFromPersistableRepresentation] Replacing container %@ with %@..."
 + "[decodeFromPersistableRepresentation] container UUID was wrong length; checking if this configuration's file system URL is reachable..."
-+ "[decodeFromPersistableRepresentation] fixedContainerURL is not a valid file system location: %!@(MISSING)"
-+ "[decodeFromPersistableRepresentation] this is not a valid file system location: %!@(MISSING)"
++ "[decodeFromPersistableRepresentation] fixedContainerURL is not a valid file system location: %@"
++ "[decodeFromPersistableRepresentation] this is not a valid file system location: %@"
 + "[decodeFromPersistableRepresentation] unable to find container uuid; checking if this is a valid file system location..."
-+ "[decodeFromPersistableRepresentation] unable to find container uuid; this is not a valid file system location: %!@(MISSING)"
++ "[decodeFromPersistableRepresentation] unable to find container uuid; this is not a valid file system location: %@"
 
 ```

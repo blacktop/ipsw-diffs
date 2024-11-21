@@ -214,7 +214,7 @@ CStrings:
 - "/AppleInternal/Library/BuildRoots/822a4175-9c36-11ef-a772-ce2c30f2a3e7/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.2.Internal.sdk/usr/local/include/wtf/text/StringBuilder.h"
 - "/AppleInternal/Library/BuildRoots/822a4175-9c36-11ef-a772-ce2c30f2a3e7/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.2.Internal.sdk/usr/local/include/wtf/text/StringConcatenate.h"
 - "/AppleInternal/Library/BuildRoots/822a4175-9c36-11ef-a772-ce2c30f2a3e7/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.2.Internal.sdk/usr/local/include/wtf/text/StringImpl.h"
-- "CoreAudioSharedUnit::isProducingMicrophoneSamplesChanged(%!p(MISSING)) unable to set kAUVoiceIOProperty_MuteOutput, error %!d(MISSING) (%!s(MISSING))"
+- "CoreAudioSharedUnit::isProducingMicrophoneSamplesChanged(%p) unable to set kAUVoiceIOProperty_MuteOutput, error %d (%.4s)"
 - "T^v,N,V_notifier"
 - "attributedSubstringFromRange:"
 - "ns"

@@ -28,6 +28,6 @@
 +  CStrings:  9479
  
 CStrings:
-- "%!s(MISSING) - Enable OptedIn"
+- "%s - Enable OptedIn"
 
 ```

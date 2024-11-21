@@ -34,6 +34,6 @@
 +  CStrings:  1455
  
 CStrings:
-- "Dismissed follow-up: %!@(MISSING)"
+- "Dismissed follow-up: %@"
 
 ```

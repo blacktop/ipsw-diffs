@@ -50,6 +50,6 @@
 +  CStrings:  15235
  
 CStrings:
-+ "Rejected local headline %!{(MISSING)public}@ because its clusterID %!{(MISSING)public}@ is already present on a selected item"
++ "Rejected local headline %{public}@ because its clusterID %{public}@ is already present on a selected item"
 
 ```

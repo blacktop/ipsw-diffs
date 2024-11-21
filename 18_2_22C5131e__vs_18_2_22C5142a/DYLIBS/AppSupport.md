@@ -57,9 +57,9 @@ Symbols:
 + _CFDictionaryGetTypeID
 + _SCErrorString
 CStrings:
-+ "Airplane Mode is: %!s(MISSING)"
-+ "SCPreferencesCreate%!s(MISSING) failed, %!s(MISSING)"
-+ "SCPreferencesCreate%!s(MISSING) success!"
++ "Airplane Mode is: %s"
++ "SCPreferencesCreate%s failed, %s"
++ "SCPreferencesCreate%s success!"
 + "WithAuthorization"
 + "^{__SCPreferences=}20@0:8B16"
 + "copySCPrefs:"

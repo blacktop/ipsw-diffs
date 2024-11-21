@@ -67,8 +67,8 @@ Symbols:
 - _objc_autorelease
 CStrings:
 + "2328.7.0.3"
-+ "==== restartAttachmentImport enter, maxCount: %!l(MISSING)u, depth:%!l(MISSING)d"
-+ "requestRequiresImportWithoutSandboxExtension maxCount:%!l(MISSING)u, depth:%!l(MISSING)d"
++ "==== restartAttachmentImport enter, maxCount: %lu, depth:%ld"
++ "requestRequiresImportWithoutSandboxExtension maxCount:%lu, depth:%ld"
 + "requestRequiresImportWithoutSandboxExtension:maxCount:depth:"
 + "restartAttachmentImport:maxCount:depth:"
 + "v40@0:8@16Q24q32"
