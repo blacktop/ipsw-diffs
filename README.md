@@ -54,6 +54,7 @@
 - [18.2 beta 1 (22C5109p) .vs 18.2 beta 2 (22C5125e)](18_2_22C5109p__vs_18_2_22C5125e/README.md)
 - [18.2 beta 2 (22C5125e) .vs 18.2 beta 3 (22C5131e)](18_2_22C5125e__vs_18_2_22C5131e/README.md)
 - [18.2 beta 3 (22C5131e) .vs 18.2 beta 4 (22C5142a)](18_2_22C5131e__vs_18_2_22C5142a/README.md)
+- [18.2 beta 4 (22C5142a) .vs 18.2 RC (22C150)](18_2_22C5142a__vs_18_2_22C150/README.md)
 
 #### A17 vs. A18
 
@@ -68,20 +69,20 @@
 ### Generating Diffs
 
 ```bash
-ipsw diff 
+ipsw diff
   --output '../ipsw-diffs'
-  --markdown 
-  --fw 
+  --markdown
+  --fw
   --launchd
   --feat
   --strs
   --block-list "__TEXT.__info_plist"
   'iPhone16,2_17.6_21G5052e_Restore.ipsw'
   'iPhone16,2_17.6_21G5061c_Restore.ipsw'
-  --kdk '/Library/Developer/KDKs/KDK_14.6_23G5052d.kdk/System/Library/Kernels/kernel.release.t6031' 
+  --kdk '/Library/Developer/KDKs/KDK_14.6_23G5052d.kdk/System/Library/Kernels/kernel.release.t6031'
   --kdk '/Library/Developer/KDKs/KDK_14.6_23G5061b.kdk/System/Library/Kernels/kernel.release.t6031'
 ```
-> [!NOTE]  
+> [!NOTE]
 > DIFFs generated via [`ipsw diff`](https://blacktop.github.io/ipsw/docs/cli/ipsw/diff/#ipsw-diff)
 
 ## PRs Welcome
