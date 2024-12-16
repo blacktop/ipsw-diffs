@@ -1,0 +1,16 @@
+## TranslationUIService
+
+> `/System/Library/PrivateFrameworks/TranslationUIServices.framework/PlugIns/TranslationUIService.appex/TranslationUIService`
+
+```diff
+
+   __TEXT.__eh_frame: 0xe60
+   __DATA_CONST.__auth_got: 0xf18
+   __DATA_CONST.__got: 0x690
+-  __DATA_CONST.__auth_ptr: 0x8c0
++  __DATA_CONST.__auth_ptr: 0x8b0
+   __DATA_CONST.__const: 0x1390
+   __DATA_CONST.__objc_classlist: 0x38
+   __DATA_CONST.__objc_protolist: 0x40
+
+```

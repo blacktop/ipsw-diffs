@@ -1,0 +1,109 @@
+## CoreNavigation
+
+> `/System/Library/PrivateFrameworks/CoreNavigation.framework/CoreNavigation`
+
+```diff
+
+-340.0.3.0.0
+-  __TEXT.__text: 0x2fd66c
++343.0.1.0.0
++  __TEXT.__text: 0x2feb48
+   __TEXT.__auth_stubs: 0x1180
+-  __TEXT.__gcc_except_tab: 0x14fe8
+-  __TEXT.__const: 0x3dabf
+-  __TEXT.__cstring: 0x31565
++  __TEXT.__gcc_except_tab: 0x1501c
++  __TEXT.__const: 0x3db3f
++  __TEXT.__cstring: 0x31620
+   __TEXT.__oslogstring: 0x3
+-  __TEXT.__unwind_info: 0xc978
++  __TEXT.__unwind_info: 0xc9d0
+   __DATA_CONST.__got: 0x2c0
+   __DATA_CONST.__const: 0x738
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __AUTH_CONST.__auth_got: 0x8c8
+   __AUTH_CONST.__auth_ptr: 0x68
+-  __AUTH_CONST.__const: 0x1c370
++  __AUTH_CONST.__const: 0x1c400
+   __DATA.__data: 0x40
+   __DATA.__bss: 0x4a0
+-  __DATA.__common: 0x4c8
++  __DATA.__common: 0x4d0
+   __DATA_DIRTY.__bss: 0x1bf8
+   __DATA_DIRTY.__common: 0x660
+   - /System/Library/Frameworks/Accelerate.framework/Accelerate
+
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libprotobuf-lite.dylib
+   - /usr/lib/libprotobuf.dylib
+-  Functions: 13810
+-  Symbols:   11426
+-  CStrings:  3452
++  Functions: 13837
++  Symbols:   11469
++  CStrings:  3455
+ 
+Symbols:
++ __ZN14CoreNavigation3CLP8LogEntry11PrivateData21DaemonLocationPrivate37kIsGnssFromRavenEstimatorsFieldNumberE
++ __ZN14CoreNavigation3CLP8LogEntry11PrivateData22InertialOdometrySample10SI_UNKNOWNE
++ __ZN14CoreNavigation3CLP8LogEntry11PrivateData22InertialOdometrySample13SI_NON_STATICE
++ __ZN14CoreNavigation3CLP8LogEntry11PrivateData22InertialOdometrySample19StaticIndicator_MAXE
++ __ZN14CoreNavigation3CLP8LogEntry11PrivateData22InertialOdometrySample19StaticIndicator_MINE
++ __ZN14CoreNavigation3CLP8LogEntry11PrivateData22InertialOdometrySample21SI_STATIC_PERIOD_STOPE
++ __ZN14CoreNavigation3CLP8LogEntry11PrivateData22InertialOdometrySample22SI_STATIC_PERIOD_STARTE
++ __ZN14CoreNavigation3CLP8LogEntry11PrivateData22InertialOdometrySample25StaticIndicator_ARRAYSIZEE
++ __ZN14CoreNavigation3CLP8LogEntry11PrivateData22InertialOdometrySample27kStaticIndicatorFieldNumberE
++ __ZN14CoreNavigation3CLP8LogEntry11PrivateData22InertialOdometrySample37kIsAttitudeValidDEPRECATEDFieldNumberE
++ __ZN14CoreNavigation3CLP8LogEntry11PrivateData22InertialOdometrySample42kIsDeltaPositionValidDEPRECATEDFieldNumberE
++ __ZN14CoreNavigation3CLP8LogEntry11PrivateData22InertialOdometrySample42kIsDeltaVelocityValidDEPRECATEDFieldNumberE
++ __ZN14CoreNavigation3CLP8LogEntry11PrivateData22InertialOdometrySample50kRotationToTrueNorthFromMagnetometerRadFieldNumberE
++ __ZN14CoreNavigation3CLP8LogEntry11PrivateData25PedometerPathStraightness10SharedCtorEv
++ __ZN14CoreNavigation3CLP8LogEntry11PrivateData25PedometerPathStraightness10SharedDtorEv
++ __ZN14CoreNavigation3CLP8LogEntry11PrivateData25PedometerPathStraightness16default_instanceEv
++ __ZN14CoreNavigation3CLP8LogEntry11PrivateData25PedometerPathStraightness17default_instance_E
++ __ZN14CoreNavigation3CLP8LogEntry11PrivateData25PedometerPathStraightness21CheckTypeAndMergeFromERKN20wireless_diagnostics6google8protobuf11MessageLiteE
++ __ZN14CoreNavigation3CLP8LogEntry11PrivateData25PedometerPathStraightness21InitAsDefaultInstanceEv
++ __ZN14CoreNavigation3CLP8LogEntry11PrivateData25PedometerPathStraightness22kConfidenceFieldNumberE
++ __ZN14CoreNavigation3CLP8LogEntry11PrivateData25PedometerPathStraightness26kStartTimestampFieldNumberE
++ __ZN14CoreNavigation3CLP8LogEntry11PrivateData25PedometerPathStraightness27MergePartialFromCodedStreamEPN20wireless_diagnostics6google8protobuf2io16CodedInputStreamE
++ __ZN14CoreNavigation3CLP8LogEntry11PrivateData25PedometerPathStraightness30kStraightnessMetricFieldNumberE
++ __ZN14CoreNavigation3CLP8LogEntry11PrivateData25PedometerPathStraightness34kApplicabilityTimestampFieldNumberE
++ __ZN14CoreNavigation3CLP8LogEntry11PrivateData25PedometerPathStraightness4SwapEPS3_
++ __ZN14CoreNavigation3CLP8LogEntry11PrivateData25PedometerPathStraightness5ClearEv
++ __ZN14CoreNavigation3CLP8LogEntry11PrivateData25PedometerPathStraightness8CopyFromERKS3_
++ __ZN14CoreNavigation3CLP8LogEntry11PrivateData25PedometerPathStraightness9MergeFromERKS3_
++ __ZN14CoreNavigation3CLP8LogEntry11PrivateData25PedometerPathStraightnessC1ERKS3_
++ __ZN14CoreNavigation3CLP8LogEntry11PrivateData25PedometerPathStraightnessC1Ev
++ __ZN14CoreNavigation3CLP8LogEntry11PrivateData25PedometerPathStraightnessC2ERKS3_
++ __ZN14CoreNavigation3CLP8LogEntry11PrivateData25PedometerPathStraightnessC2Ev
++ __ZN14CoreNavigation3CLP8LogEntry11PrivateData25PedometerPathStraightnessD0Ev
++ __ZN14CoreNavigation3CLP8LogEntry11PrivateData25PedometerPathStraightnessD1Ev
++ __ZN14CoreNavigation3CLP8LogEntry11PrivateData25PedometerPathStraightnessD2Ev
++ __ZN14CoreNavigation3CLP8LogEntry11PrivateData46InertialOdometrySample_StaticIndicator_IsValidEi
++ __ZN14CoreNavigation3CLP8LogEntry5Raven17RavenPlatformInfo6HW_200E
++ __ZNK14CoreNavigation3CLP8LogEntry11PrivateData25PedometerPathStraightness11GetTypeNameEv
++ __ZNK14CoreNavigation3CLP8LogEntry11PrivateData25PedometerPathStraightness13IsInitializedEv
++ __ZNK14CoreNavigation3CLP8LogEntry11PrivateData25PedometerPathStraightness13SetCachedSizeEi
++ __ZNK14CoreNavigation3CLP8LogEntry11PrivateData25PedometerPathStraightness24SerializeWithCachedSizesEPN20wireless_diagnostics6google8protobuf2io17CodedOutputStreamE
++ __ZNK14CoreNavigation3CLP8LogEntry11PrivateData25PedometerPathStraightness3NewEv
++ __ZNK14CoreNavigation3CLP8LogEntry11PrivateData25PedometerPathStraightness8ByteSizeEv
++ __ZTIN14CoreNavigation3CLP8LogEntry11PrivateData25PedometerPathStraightnessE
++ __ZTSN14CoreNavigation3CLP8LogEntry11PrivateData25PedometerPathStraightnessE
++ __ZTVN14CoreNavigation3CLP8LogEntry11PrivateData25PedometerPathStraightnessE
+- __ZN14CoreNavigation3CLP8LogEntry11PrivateData22InertialOdometrySample27kIsAttitudeValidFieldNumberE
+- __ZN14CoreNavigation3CLP8LogEntry11PrivateData22InertialOdometrySample32kIsDeltaPositionValidFieldNumberE
+- __ZN14CoreNavigation3CLP8LogEntry11PrivateData22InertialOdometrySample32kIsDeltaVelocityValidFieldNumberE
+CStrings:
++ "/AppleInternal/Library/BuildRoots/602d817d-b298-11ef-8387-6efa4e70477e/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.3.Internal.sdk/usr/local/include/boost/geometry/algorithms/centroid.hpp"
++ "/AppleInternal/Library/BuildRoots/602d817d-b298-11ef-8387-6efa4e70477e/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.3.Internal.sdk/usr/local/include/boost/rational.hpp"
++ "/AppleInternal/Library/BuildRoots/602d817d-b298-11ef-8387-6efa4e70477e/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.3.Internal.sdk/usr/local/include/google/protobuf/repeated_field.h"
++ "/AppleInternal/Library/BuildRoots/602d817d-b298-11ef-8387-6efa4e70477e/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.3.Internal.sdk/usr/local/include/google/protobuf/wire_format_lite_inl.h"
++ "::CoreNavigation::CLP::LogEntry::PrivateData::InertialOdometrySample_StaticIndicator_IsValid(value)"
++ "CoreNavigation.CLP.LogEntry.PrivateData.PedometerPathStraightness"
++ "set_static_indicator"
+- "/AppleInternal/Library/BuildRoots/cb09429a-9ee5-11ef-b491-ce2c30f2a3e7/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.2.Internal.sdk/usr/local/include/boost/geometry/algorithms/centroid.hpp"
+- "/AppleInternal/Library/BuildRoots/cb09429a-9ee5-11ef-b491-ce2c30f2a3e7/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.2.Internal.sdk/usr/local/include/boost/rational.hpp"
+- "/AppleInternal/Library/BuildRoots/cb09429a-9ee5-11ef-b491-ce2c30f2a3e7/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.2.Internal.sdk/usr/local/include/google/protobuf/repeated_field.h"
+- "/AppleInternal/Library/BuildRoots/cb09429a-9ee5-11ef-b491-ce2c30f2a3e7/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.2.Internal.sdk/usr/local/include/google/protobuf/wire_format_lite_inl.h"
+
+```

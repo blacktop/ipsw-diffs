@@ -1,0 +1,419 @@
+## SpeechRecognitionCommandAndControl
+
+> `/System/Library/PrivateFrameworks/SpeechRecognitionCommandAndControl.framework/SpeechRecognitionCommandAndControl`
+
+```diff
+
+-103.6.0.0.0
+-  __TEXT.__text: 0x90a20
+-  __TEXT.__auth_stubs: 0x15c0
+-  __TEXT.__objc_methlist: 0x9550
+-  __TEXT.__const: 0x4c6
++103.6.2.0.0
++  __TEXT.__text: 0x93814
++  __TEXT.__auth_stubs: 0x1a80
++  __TEXT.__objc_methlist: 0x94a0
++  __TEXT.__const: 0x914
+   __TEXT.__oslogstring: 0x28e4
+-  __TEXT.__cstring: 0x6d37
++  __TEXT.__cstring: 0x6eb7
+   __TEXT.__gcc_except_tab: 0x2010
+   __TEXT.__ustring: 0x3a
+-  __TEXT.__constg_swiftt: 0x50
+-  __TEXT.__swift5_typeref: 0x6
+-  __TEXT.__swift5_fieldmd: 0x10
+-  __TEXT.__swift5_types: 0x4
+-  __TEXT.__unwind_info: 0x24d8
+-  __TEXT.__objc_classname: 0x16eb
+-  __TEXT.__objc_methname: 0x1db41
++  __TEXT.__constg_swiftt: 0x19c
++  __TEXT.__swift5_typeref: 0x73a
++  __TEXT.__swift5_builtin: 0x14
++  __TEXT.__swift5_reflstr: 0x81
++  __TEXT.__swift5_assocty: 0x90
++  __TEXT.__swift5_proto: 0x24
++  __TEXT.__swift5_types: 0x1c
++  __TEXT.__swift5_fieldmd: 0x90
++  __TEXT.__unwind_info: 0x25f8
++  __TEXT.__eh_frame: 0x60
++  __TEXT.__objc_classname: 0x16d8
++  __TEXT.__objc_methname: 0x1d935
+   __TEXT.__objc_methtype: 0x3cb6
+-  __TEXT.__objc_stubs: 0x13700
+-  __DATA_CONST.__got: 0xd60
++  __TEXT.__objc_stubs: 0x134c0
++  __DATA_CONST.__got: 0xdf0
+   __DATA_CONST.__const: 0x18d8
+-  __DATA_CONST.__objc_classlist: 0x438
++  __DATA_CONST.__objc_classlist: 0x440
+   __DATA_CONST.__objc_catlist: 0x40
+   __DATA_CONST.__objc_protolist: 0x180
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x6a70
+-  __DATA_CONST.__objc_superrefs: 0x2c8
++  __DATA_CONST.__objc_selrefs: 0x69e8
++  __DATA_CONST.__objc_superrefs: 0x2c0
+   __DATA_CONST.__objc_arraydata: 0x890
+-  __AUTH_CONST.__auth_got: 0xaf0
+-  __AUTH_CONST.__const: 0x1700
+-  __AUTH_CONST.__cfstring: 0x8cc0
+-  __AUTH_CONST.__objc_const: 0x111c8
++  __AUTH_CONST.__auth_got: 0xd50
++  __AUTH_CONST.__auth_ptr: 0x220
++  __AUTH_CONST.__const: 0x17e0
++  __AUTH_CONST.__cfstring: 0x8c80
++  __AUTH_CONST.__objc_const: 0x11150
+   __AUTH_CONST.__objc_intobj: 0x318
+   __AUTH_CONST.__objc_doubleobj: 0x50
+   __AUTH_CONST.__objc_arrayobj: 0x168
+   __AUTH_CONST.__objc_dictobj: 0x118
+-  __AUTH.__objc_data: 0x29e0
+-  __AUTH.__data: 0x98
+-  __DATA.__objc_ivar: 0xa10
+-  __DATA.__data: 0x1598
+-  __DATA.__bss: 0x490
++  __AUTH.__objc_data: 0x2aa0
++  __AUTH.__data: 0x190
++  __DATA.__objc_ivar: 0x9fc
++  __DATA.__data: 0x1738
++  __DATA.__bss: 0x918
+   __DATA.__common: 0x1a8
+   - /System/Library/Frameworks/AVFAudio.framework/AVFAudio
+   - /System/Library/Frameworks/AVFoundation.framework/AVFoundation
+   - /System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
++  - /System/Library/Frameworks/Combine.framework/Combine
+   - /System/Library/Frameworks/Contacts.framework/Contacts
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+
+   - /System/Library/PrivateFrameworks/TextInput.framework/TextInput
+   - /System/Library/PrivateFrameworks/TextInputUI.framework/TextInputUI
+   - /System/Library/PrivateFrameworks/UIAccessibility.framework/UIAccessibility
++  - /System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+   - /System/Library/PrivateFrameworks/UIKitCore.framework/UIKitCore
+   - /System/Library/PrivateFrameworks/VoiceControl.framework/VoiceControl
+   - /System/Library/PrivateFrameworks/VoiceControlUI.framework/VoiceControlUI
+
+   - /usr/lib/swift/libswiftOSLog.dylib
+   - /usr/lib/swift/libswiftObjectiveC.dylib
+   - /usr/lib/swift/libswiftQuartzCore.dylib
++  - /usr/lib/swift/libswiftSpatial.dylib
+   - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+
+   - /usr/lib/swift/libswiftsimd.dylib
+   - /usr/lib/swift/libswiftsys_time.dylib
+   - /usr/lib/swift/libswiftunistd.dylib
+-  Functions: 3815
+-  Symbols:   5054
+-  CStrings:  6829
++  Functions: 3927
++  Symbols:   5365
++  CStrings:  6812
+ 
+Symbols:
++ _$s14AnimatableData7SwiftUI0A0PTl
++ _$s21DeveloperToolsSupport15PreviewRegistryMp
++ _$s21DeveloperToolsSupport15PreviewRegistryP04makeD0AA0D0VyKFZTq
++ _$s21DeveloperToolsSupport15PreviewRegistryP4lineSivgZTq
++ _$s21DeveloperToolsSupport15PreviewRegistryP6columnSivgZTq
++ _$s21DeveloperToolsSupport15PreviewRegistryP6fileIDSSvgZTq
++ _$s21DeveloperToolsSupport15PreviewRegistryP7previewAA0D0VvgZTq
++ _$s21DeveloperToolsSupport15PreviewRegistryPAAE7previewAA0D0VvgZ
++ _$s21DeveloperToolsSupport7PreviewV7SwiftUIE_6traits4bodyACSSSg_AA0D5TraitVyAC10ViewTraitsOGdAD0J0_pyScMYcctcfC
++ _$s25ObjectWillChangePublisher7Combine010ObservableA0PTl
++ _$s34SpeechRecognitionCommandAndControl04$s34abcD126Control0036BorderStatusIndicatorViewswift_tjBBlfMX146_0_33_226AA1D795B38D628E937C4119BBF19ALl7PreviewfMf_15PreviewRegistryfMu_V04makeY021DeveloperToolsSupport0Y0VyKFZ
++ _$s34SpeechRecognitionCommandAndControl04$s34abcD126Control0036BorderStatusIndicatorViewswift_tjBBlfMX146_0_33_226AA1D795B38D628E937C4119BBF19ALl7PreviewfMf_15PreviewRegistryfMu_V21DeveloperToolsSupport0Y8RegistryAAMc
++ _$s34SpeechRecognitionCommandAndControl04$s34abcD126Control0036BorderStatusIndicatorViewswift_tjBBlfMX146_0_33_226AA1D795B38D628E937C4119BBF19ALl7PreviewfMf_15PreviewRegistryfMu_V4lineSivgZ
++ _$s34SpeechRecognitionCommandAndControl04$s34abcD126Control0036BorderStatusIndicatorViewswift_tjBBlfMX146_0_33_226AA1D795B38D628E937C4119BBF19ALl7PreviewfMf_15PreviewRegistryfMu_V6columnSivgZ
++ _$s34SpeechRecognitionCommandAndControl04$s34abcD126Control0036BorderStatusIndicatorViewswift_tjBBlfMX146_0_33_226AA1D795B38D628E937C4119BBF19ALl7PreviewfMf_15PreviewRegistryfMu_V6fileIDSSvgZ
++ _$s34SpeechRecognitionCommandAndControl04$s34abcD126Control0036BorderStatusIndicatorViewswift_tjBBlfMX146_0_33_226AA1D795B38D628E937C4119BBF19ALl7PreviewfMf_15PreviewRegistryfMu_VACycfC
++ _$s34SpeechRecognitionCommandAndControl04$s34abcD126Control0036BorderStatusIndicatorViewswift_tjBBlfMX146_0_33_226AA1D795B38D628E937C4119BBF19ALl7PreviewfMf_15PreviewRegistryfMu_VMa
++ _$s34SpeechRecognitionCommandAndControl04$s34abcD126Control0036BorderStatusIndicatorViewswift_tjBBlfMX146_0_33_226AA1D795B38D628E937C4119BBF19ALl7PreviewfMf_15PreviewRegistryfMu_VMn
++ _$s34SpeechRecognitionCommandAndControl04$s34abcD126Control0036BorderStatusIndicatorViewswift_tjBBlfMX146_0_33_226AA1D795B38D628E937C4119BBF19ALl7PreviewfMf_15PreviewRegistryfMu_VN
++ _$s34SpeechRecognitionCommandAndControl25BorderStatusIndicatorDataC14listeningStateSo06CACMicgH4TypeVvM
++ _$s34SpeechRecognitionCommandAndControl25BorderStatusIndicatorDataC14listeningStateSo06CACMicgH4TypeVvMTj
++ _$s34SpeechRecognitionCommandAndControl25BorderStatusIndicatorDataC14listeningStateSo06CACMicgH4TypeVvMTq
++ _$s34SpeechRecognitionCommandAndControl25BorderStatusIndicatorDataC14listeningStateSo06CACMicgH4TypeVvg
++ _$s34SpeechRecognitionCommandAndControl25BorderStatusIndicatorDataC14listeningStateSo06CACMicgH4TypeVvgTj
++ _$s34SpeechRecognitionCommandAndControl25BorderStatusIndicatorDataC14listeningStateSo06CACMicgH4TypeVvgTq
++ _$s34SpeechRecognitionCommandAndControl25BorderStatusIndicatorDataC14listeningStateSo06CACMicgH4TypeVvpMV
++ _$s34SpeechRecognitionCommandAndControl25BorderStatusIndicatorDataC14listeningStateSo06CACMicgH4TypeVvs
++ _$s34SpeechRecognitionCommandAndControl25BorderStatusIndicatorDataC14listeningStateSo06CACMicgH4TypeVvsTj
++ _$s34SpeechRecognitionCommandAndControl25BorderStatusIndicatorDataC14listeningStateSo06CACMicgH4TypeVvsTq
++ _$s34SpeechRecognitionCommandAndControl25BorderStatusIndicatorDataC15$listeningState7Combine9PublishedV9PublisherVySo06CACMicgH4TypeV_GvM
++ _$s34SpeechRecognitionCommandAndControl25BorderStatusIndicatorDataC15$listeningState7Combine9PublishedV9PublisherVySo06CACMicgH4TypeV_GvMTj
++ _$s34SpeechRecognitionCommandAndControl25BorderStatusIndicatorDataC15$listeningState7Combine9PublishedV9PublisherVySo06CACMicgH4TypeV_GvMTq
++ _$s34SpeechRecognitionCommandAndControl25BorderStatusIndicatorDataC15$listeningState7Combine9PublishedV9PublisherVySo06CACMicgH4TypeV_Gvg
++ _$s34SpeechRecognitionCommandAndControl25BorderStatusIndicatorDataC15$listeningState7Combine9PublishedV9PublisherVySo06CACMicgH4TypeV_GvgTj
++ _$s34SpeechRecognitionCommandAndControl25BorderStatusIndicatorDataC15$listeningState7Combine9PublishedV9PublisherVySo06CACMicgH4TypeV_GvgTq
++ _$s34SpeechRecognitionCommandAndControl25BorderStatusIndicatorDataC15$listeningState7Combine9PublishedV9PublisherVySo06CACMicgH4TypeV_GvpMV
++ _$s34SpeechRecognitionCommandAndControl25BorderStatusIndicatorDataC15$listeningState7Combine9PublishedV9PublisherVySo06CACMicgH4TypeV_Gvs
++ _$s34SpeechRecognitionCommandAndControl25BorderStatusIndicatorDataC15$listeningState7Combine9PublishedV9PublisherVySo06CACMicgH4TypeV_GvsTj
++ _$s34SpeechRecognitionCommandAndControl25BorderStatusIndicatorDataC15$listeningState7Combine9PublishedV9PublisherVySo06CACMicgH4TypeV_GvsTq
++ _$s34SpeechRecognitionCommandAndControl25BorderStatusIndicatorDataC7Combine16ObservableObjectAAMc
++ _$s34SpeechRecognitionCommandAndControl25BorderStatusIndicatorDataCACycfC
++ _$s34SpeechRecognitionCommandAndControl25BorderStatusIndicatorDataCACycfCTj
++ _$s34SpeechRecognitionCommandAndControl25BorderStatusIndicatorDataCACycfCTq
++ _$s34SpeechRecognitionCommandAndControl25BorderStatusIndicatorDataCACycfc
++ _$s34SpeechRecognitionCommandAndControl25BorderStatusIndicatorDataCMa
++ _$s34SpeechRecognitionCommandAndControl25BorderStatusIndicatorDataCMm
++ _$s34SpeechRecognitionCommandAndControl25BorderStatusIndicatorDataCMn
++ _$s34SpeechRecognitionCommandAndControl25BorderStatusIndicatorDataCMo
++ _$s34SpeechRecognitionCommandAndControl25BorderStatusIndicatorDataCMu
++ _$s34SpeechRecognitionCommandAndControl25BorderStatusIndicatorDataCN
++ _$s34SpeechRecognitionCommandAndControl25BorderStatusIndicatorDataCfD
++ _$s34SpeechRecognitionCommandAndControl25BorderStatusIndicatorDataCfd
++ _$s34SpeechRecognitionCommandAndControl25BorderStatusIndicatorViewV10imageColor7SwiftUI0K0Vvg
++ _$s34SpeechRecognitionCommandAndControl25BorderStatusIndicatorViewV10imageColor7SwiftUI0K0VvpMV
++ _$s34SpeechRecognitionCommandAndControl25BorderStatusIndicatorViewV12imageLeadingSdvg
++ _$s34SpeechRecognitionCommandAndControl25BorderStatusIndicatorViewV12imageLeadingSdvpMV
++ _$s34SpeechRecognitionCommandAndControl25BorderStatusIndicatorViewV13imageTrailingSdvg
++ _$s34SpeechRecognitionCommandAndControl25BorderStatusIndicatorViewV13imageTrailingSdvpMV
++ _$s34SpeechRecognitionCommandAndControl25BorderStatusIndicatorViewV13indicatorDataAA0fghK0Cvg
++ _$s34SpeechRecognitionCommandAndControl25BorderStatusIndicatorViewV13indicatorDataAA0fghK0CvpMV
++ _$s34SpeechRecognitionCommandAndControl25BorderStatusIndicatorViewV13indicatorDataAC7SwiftUI17EnvironmentObjectVyAA0fghK0CG_tcfC
++ _$s34SpeechRecognitionCommandAndControl25BorderStatusIndicatorViewV13indicatorDataAC7SwiftUI17EnvironmentObjectVyAA0fghK0CG_tcfcfA_
++ _$s34SpeechRecognitionCommandAndControl25BorderStatusIndicatorViewV14$indicatorData7SwiftUI17EnvironmentObjectV7WrapperVyAA0fghK0C_Gvg
++ _$s34SpeechRecognitionCommandAndControl25BorderStatusIndicatorViewV14$indicatorData7SwiftUI17EnvironmentObjectV7WrapperVyAA0fghK0C_GvpMV
++ _$s34SpeechRecognitionCommandAndControl25BorderStatusIndicatorViewV4bodyQrvg
++ _$s34SpeechRecognitionCommandAndControl25BorderStatusIndicatorViewV4bodyQrvpMV
++ _$s34SpeechRecognitionCommandAndControl25BorderStatusIndicatorViewV4bodyQrvpQOMQ
++ _$s34SpeechRecognitionCommandAndControl25BorderStatusIndicatorViewV7SwiftUI0I0AAMc
++ _$s34SpeechRecognitionCommandAndControl25BorderStatusIndicatorViewV9imageNameSSvg
++ _$s34SpeechRecognitionCommandAndControl25BorderStatusIndicatorViewV9imageNameSSvpMV
++ _$s34SpeechRecognitionCommandAndControl25BorderStatusIndicatorViewVACycfC
++ _$s34SpeechRecognitionCommandAndControl25BorderStatusIndicatorViewVMa
++ _$s34SpeechRecognitionCommandAndControl25BorderStatusIndicatorViewVMn
++ _$s34SpeechRecognitionCommandAndControl25BorderStatusIndicatorViewVN
++ _$s34SpeechRecognitionCommandAndControl26BorderStatusIndicatorShapeV11borderWidthSdvg
++ _$s34SpeechRecognitionCommandAndControl26BorderStatusIndicatorShapeV11borderWidthSdvpMV
++ _$s34SpeechRecognitionCommandAndControl26BorderStatusIndicatorShapeV14thumbDimensionSdvg
++ _$s34SpeechRecognitionCommandAndControl26BorderStatusIndicatorShapeV14thumbDimensionSdvpMV
++ _$s34SpeechRecognitionCommandAndControl26BorderStatusIndicatorShapeV17thumbConvexRadiusSdvg
++ _$s34SpeechRecognitionCommandAndControl26BorderStatusIndicatorShapeV17thumbConvexRadiusSdvpMV
++ _$s34SpeechRecognitionCommandAndControl26BorderStatusIndicatorShapeV18deviceCornerRadiusSdvg
++ _$s34SpeechRecognitionCommandAndControl26BorderStatusIndicatorShapeV18deviceCornerRadiusSdvpMV
++ _$s34SpeechRecognitionCommandAndControl26BorderStatusIndicatorShapeV18thumbConcaveRadiusSdvg
++ _$s34SpeechRecognitionCommandAndControl26BorderStatusIndicatorShapeV18thumbConcaveRadiusSdvpMV
++ _$s34SpeechRecognitionCommandAndControl26BorderStatusIndicatorShapeV4path2in7SwiftUI4PathVSo6CGRectV_tF
++ _$s34SpeechRecognitionCommandAndControl26BorderStatusIndicatorShapeV7SwiftUI0I0AAMc
++ _$s34SpeechRecognitionCommandAndControl26BorderStatusIndicatorShapeV7SwiftUI10AnimatableAAMc
++ _$s34SpeechRecognitionCommandAndControl26BorderStatusIndicatorShapeV7SwiftUI4ViewAAMc
++ _$s34SpeechRecognitionCommandAndControl26BorderStatusIndicatorShapeVACycfC
++ _$s34SpeechRecognitionCommandAndControl26BorderStatusIndicatorShapeVMa
++ _$s34SpeechRecognitionCommandAndControl26BorderStatusIndicatorShapeVMn
++ _$s34SpeechRecognitionCommandAndControl26BorderStatusIndicatorShapeVN
++ _$s34SpeechRecognitionCommandAndControl27BorderStatusIndicatorBridgeC06setMicG14ListeningStateyySo06CACMicgH4TypeVFZ
++ _$s34SpeechRecognitionCommandAndControl27BorderStatusIndicatorBridgeC20sharedViewControllerSo06UIViewL0CvgZ
++ _$s34SpeechRecognitionCommandAndControl27BorderStatusIndicatorBridgeC7Combine16ObservableObjectAAMc
++ _$s34SpeechRecognitionCommandAndControl27BorderStatusIndicatorBridgeCACycfC
++ _$s34SpeechRecognitionCommandAndControl27BorderStatusIndicatorBridgeCACycfc
++ _$s34SpeechRecognitionCommandAndControl27BorderStatusIndicatorBridgeCMa
++ _$s34SpeechRecognitionCommandAndControl27BorderStatusIndicatorBridgeCMn
++ _$s34SpeechRecognitionCommandAndControl27BorderStatusIndicatorBridgeCMo
++ _$s34SpeechRecognitionCommandAndControl27BorderStatusIndicatorBridgeCN
++ _$s34SpeechRecognitionCommandAndControl27BorderStatusIndicatorBridgeCfD
++ _$s4Body7SwiftUI4ViewPTl
++ _$s7Combine16ObservableObjectMp
++ _$s7Combine16ObservableObjectP0C19WillChangePublisherAC_AA0F0Tn
++ _$s7Combine16ObservableObjectP16objectWillChange0ceF9PublisherQzvgTq
++ _$s7Combine16ObservableObjectP7SwiftUIE16environmentStores15WritableKeyPathCyAD17EnvironmentValuesVxSgGvgZ
++ _$s7Combine16ObservableObjectPA2A0bC9PublisherC0c10WillChangeD0RtzrlE06objecteF0AEvg
++ _$s7Combine25ObservableObjectPublisherCAA0D0AAWP
++ _$s7Combine25ObservableObjectPublisherCMn
++ _$s7Combine9PublishedV12initialValueACyxGx_tcfC
++ _$s7Combine9PublishedV14projectedValueAC9PublisherVyx_Gvg
++ _$s7Combine9PublishedV14projectedValueAC9PublisherVyx_Gvs
++ _$s7Combine9PublishedV18_enclosingInstance7wrapped7storagexqd___s24ReferenceWritableKeyPathCyqd__xGAHyqd__ACyxGGtcRld__CluiMZ
++ _$s7Combine9PublishedV18_enclosingInstance7wrapped7storagexqd___s24ReferenceWritableKeyPathCyqd__xGAHyqd__ACyxGGtcRld__CluigZ
++ _$s7Combine9PublishedV18_enclosingInstance7wrapped7storagexqd___s24ReferenceWritableKeyPathCyqd__xGAHyqd__ACyxGGtcRld__CluisZ
++ _$s7Combine9PublishedV9PublisherVMn
++ _$s7Combine9PublishedVMa
++ _$s7Combine9PublishedVMn
++ _$s7SwiftUI10AnimatableMp
++ _$s7SwiftUI10AnimatableP05_makeC05value6inputsyAA11_GraphValueVyxGz_AA01_G6InputsVtFZTq
++ _$s7SwiftUI10AnimatableP0C4DataAC_AA16VectorArithmeticTn
++ _$s7SwiftUI10AnimatableP14animatableData0cE0QzvMTq
++ _$s7SwiftUI10AnimatableP14animatableData0cE0QzvgTq
++ _$s7SwiftUI10AnimatableP14animatableData0cE0QzvsTq
++ _$s7SwiftUI10AnimatablePA2A05EmptyC4DataV0cE0RtzrlE010animatableE0AEvM
++ _$s7SwiftUI10AnimatablePA2A05EmptyC4DataV0cE0RtzrlE05_makeC05value6inputsyAA11_GraphValueVyxGz_AA01_I6InputsVtFZ
++ _$s7SwiftUI10_ShapeViewVMn
++ _$s7SwiftUI10_ShapeViewVyxq_GAA0D0AAMc
++ _$s7SwiftUI12_FrameLayoutV5width6height9alignmentAC12CoreGraphics7CGFloatVSg_AjA9AlignmentVtcfC
++ _$s7SwiftUI12_FrameLayoutVAA12ViewModifierAAWP
++ _$s7SwiftUI12_FrameLayoutVMn
++ _$s7SwiftUI13_HStackLayoutVMn
++ _$s7SwiftUI13_VariadicViewO4TreeVMn
++ _$s7SwiftUI13_ZStackLayoutVMn
++ _$s7SwiftUI15ForegroundStyleVMn
++ _$s7SwiftUI15ModifiedContentVMn
++ _$s7SwiftUI15ModifiedContentVyxq_GAA4ViewA2aERzAA0E8ModifierR_rlMc
++ _$s7SwiftUI16RoundedRectangleV6_InsetV4path2inAA4PathVSo6CGRectV_tF
++ _$s7SwiftUI16RoundedRectangleV6_InsetVMa
++ _$s7SwiftUI16RoundedRectangleVMa
++ _$s7SwiftUI17EnvironmentObjectV14projectedValueAC7WrapperVyx_Gvg
++ _$s7SwiftUI17EnvironmentObjectV5errors5NeverOyF
++ _$s7SwiftUI17EnvironmentObjectVACyxGycfC
++ _$s7SwiftUI17EnvironmentObjectVMn
++ _$s7SwiftUI17EnvironmentValuesV15foregroundColorAA0F0VSgvg
++ _$s7SwiftUI17EnvironmentValuesV15foregroundColorAA0F0VSgvpMV
++ _$s7SwiftUI17EnvironmentValuesV15foregroundColorAA0F0VSgvs
++ _$s7SwiftUI17EnvironmentValuesVMn
++ _$s7SwiftUI17VerticalAlignmentV6centerACvgZ
++ _$s7SwiftUI18RoundedCornerStyleO10continuousyA2CmFWC
++ _$s7SwiftUI18RoundedCornerStyleOMa
++ _$s7SwiftUI18_AspectRatioLayoutVAA12ViewModifierAAWP
++ _$s7SwiftUI18_AspectRatioLayoutVMn
++ _$s7SwiftUI19EmptyAnimatableDataVAA16VectorArithmeticAAMc
++ _$s7SwiftUI19EmptyAnimatableDataVMn
++ _$s7SwiftUI19EmptyAnimatableDataVN
++ _$s7SwiftUI19UIHostingControllerC8rootViewACyxGx_tcfc
++ _$s7SwiftUI19UIHostingControllerCMn
++ _$s7SwiftUI19_ConditionalContentV7StorageOMn
++ _$s7SwiftUI19_ConditionalContentVA2A4ViewRzAaDR_rlE7storageACyxq_GAC7StorageOyxq__G_tcfC
++ _$s7SwiftUI19_ConditionalContentVMn
++ _$s7SwiftUI19_ConditionalContentVyxq_GAA4ViewA2aERzAaER_rlMc
++ _$s7SwiftUI22ContainerRelativeShapeV4path2inAA4PathVSo6CGRectV_tF
++ _$s7SwiftUI22ContainerRelativeShapeV6_InsetV4path2inAA4PathVSo6CGRectV_tF
++ _$s7SwiftUI24_BackgroundShapeModifierVMn
++ _$s7SwiftUI24_BackgroundShapeModifierVyxq_GAA04ViewE0AAMc
++ _$s7SwiftUI30_EnvironmentKeyWritingModifierVMn
++ _$s7SwiftUI30_EnvironmentKeyWritingModifierVyxGAA04ViewF0AAMc
++ _$s7SwiftUI31AccessibilityAttachmentModifierVMn
++ _$s7SwiftUI4PathV11subtracting_6eoFillA2C_SbtF
++ _$s7SwiftUI4PathV12closeSubpathyyF
++ _$s7SwiftUI4PathV12currentPointSo7CGPointVSgvg
++ _$s7SwiftUI4PathV4move2toySo7CGPointV_tF
++ _$s7SwiftUI4PathV5union_6eoFillA2C_SbtF
++ _$s7SwiftUI4PathV6addArc6center6radius10startAngle03endI09clockwise9transformySo7CGPointV_12CoreGraphics7CGFloatVAA0I0VAQSbSo17CGAffineTransformVtF
++ _$s7SwiftUI4PathV7addLine2toySo7CGPointV_tF
++ _$s7SwiftUI4PathV8contains_6eoFillSbSo7CGPointV_SbtF
++ _$s7SwiftUI4PathVyACyACzXEcfC
++ _$s7SwiftUI4ViewMp
++ _$s7SwiftUI4ViewP05_makeC04view6inputsAA01_C7OutputsVAA11_GraphValueVyxG_AA01_C6InputsVtFZTq
++ _$s7SwiftUI4ViewP05_makeC4List4view6inputsAA01_cE7OutputsVAA11_GraphValueVyxG_AA01_cE6InputsVtFZTq
++ _$s7SwiftUI4ViewP14_viewListCount6inputsSiSgAA01_ceF6InputsV_tFZTq
++ _$s7SwiftUI4ViewP4BodyAC_AaBTn
++ _$s7SwiftUI4ViewP4body4BodyQzvgTq
++ _$s7SwiftUI4ViewPAAE05_makeC04view6inputsAA01_C7OutputsVAA11_GraphValueVyxG_AA01_C6InputsVtFZ
++ _$s7SwiftUI4ViewPAAE05_makeC4List4view6inputsAA01_cE7OutputsVAA11_GraphValueVyxG_AA01_cE6InputsVtFZ
++ _$s7SwiftUI4ViewPAAE14_viewListCount6inputsSiSgAA01_ceF6InputsV_tFZ
++ _$s7SwiftUI4ViewPAAE19accessibilityHiddenyAA15ModifiedContentVyxAA31AccessibilityAttachmentModifierVGSbF
++ _$s7SwiftUI5ColorV5clearACvgZ
++ _$s7SwiftUI5ColorVMn
++ _$s7SwiftUI5ColorVyACSo7UIColorCcfC
++ _$s7SwiftUI5ImageV12ResizingModeO7stretchyA2EmFWC
++ _$s7SwiftUI5ImageV12ResizingModeOMa
++ _$s7SwiftUI5ImageV19_internalSystemNameACSS_tcfC
++ _$s7SwiftUI5ImageV9resizable9capInsets12resizingModeAcA04EdgeF0V_AC08ResizingH0OtF
++ _$s7SwiftUI5ImageVAA4ViewAAWP
++ _$s7SwiftUI5ImageVMn
++ _$s7SwiftUI5ShapeMp
++ _$s7SwiftUI5ShapeP12sizeThatFitsySo6CGSizeVAA16ProposedViewSizeVFTq
++ _$s7SwiftUI5ShapeP23layoutDirectionBehaviorAA06LayouteF0OvgTq
++ _$s7SwiftUI5ShapeP4path2inAA4PathVSo6CGRectV_tFTq
++ _$s7SwiftUI5ShapeP4roleAA0C4RoleOvgZTq
++ _$s7SwiftUI5ShapePAA10AnimatableTb
++ _$s7SwiftUI5ShapePAA4ViewTb
++ _$s7SwiftUI5ShapePAAE12sizeThatFitsySo6CGSizeVAA16ProposedViewSizeVF
++ _$s7SwiftUI5ShapePAAE13_makeViewList4view6inputsAA01_eF7OutputsVAA11_GraphValueVyxG_AA01_eF6InputsVtFZ
++ _$s7SwiftUI5ShapePAAE23layoutDirectionBehaviorAA06LayouteF0Ovg
++ _$s7SwiftUI5ShapePAAE4bodyAA01_C4ViewVyxAA15ForegroundStyleVGvg
++ _$s7SwiftUI5ShapePAAE4roleAA0C4RoleOvgZ
++ _$s7SwiftUI5ShapePAAE9_makeView4view6inputsAA01_E7OutputsVAA11_GraphValueVyxG_AA01_E6InputsVtFZ
++ _$s7SwiftUI6HStackVMn
++ _$s7SwiftUI6SpacerVMn
++ _$s7SwiftUI6ZStackVMn
++ _$s7SwiftUI6ZStackVyxGAA4ViewAAMc
++ _$s7SwiftUI8MaterialV9ultraThinACvgZ
++ _$s7SwiftUI8MaterialVMa
++ _$s7SwiftUI8MaterialVMn
++ _$s7SwiftUI9AlignmentV6centerACvgZ
++ _$s7SwiftUI9RectangleVMn
++ _$s7SwiftUI9TupleViewVMn
++ _$s8RawValueSYTl
++ _$sBOWV
++ _$sBi64_WV
++ _$sSQ2eeoiySbx_xtFZTq
++ _$sSQMp
++ _$sSS10FoundationE36_unconditionallyBridgeFromObjectiveCySSSo8NSStringCSgFZ
++ _$sSS9hasPrefixySbSSF
++ _$sSY8rawValue03RawB0QzvgTq
++ _$sSY8rawValuexSg03RawB0Qz_tcfCTq
++ _$sSYMp
++ _$sytWV
++ _MobileGestalt_copy_hwModelStr_obj
++ _MobileGestalt_get_current_device
++ _MobileGestalt_get_deviceCornerRadius
++ _OBJC_CLASS_$__TtC34SpeechRecognitionCommandAndControl27BorderStatusIndicatorBridge
++ _OBJC_METACLASS_$__TtC34SpeechRecognitionCommandAndControl27BorderStatusIndicatorBridge
++ ___chkstk_darwin
++ __swiftEmptyArrayStorage
++ __swift_FORCE_LOAD_$_swiftSpatial
++ _malloc
++ _swift_allocObject
++ _swift_beginAccess
++ _swift_bridgeObjectRelease
++ _swift_endAccess
++ _swift_getForeignTypeMetadata
++ _swift_getKeyPath
++ _swift_getOpaqueTypeConformance2
++ _swift_getSingletonMetadata
++ _swift_getTypeByMangledNameInContext2
++ _swift_getTypeByMangledNameInContextInMetadataState2
++ _swift_getWitnessTable
++ _swift_lookUpClassMethod
++ _swift_release
++ _swift_retain
++ _swift_storeEnumTagMultiPayload
++ _swift_updateClassMetadata2
+- _CGAffineTransformMakeScale
+- _OBJC_CLASS_$_CACMicStatusView
+- _OBJC_METACLASS_$_CACMicStatusView
+CStrings:
++ "SpeechRecognitionCommandAndControl/BorderStatusIndicatorView.swift"
++ "T@\"UIViewController\",N,R"
++ "_TtC34SpeechRecognitionCommandAndControl25BorderStatusIndicatorData"
++ "_TtC34SpeechRecognitionCommandAndControl27BorderStatusIndicatorBridge"
++ "_listeningState"
++ "hostingController"
++ "indicatorData"
++ "secondaryLabelColor"
++ "setMicStatusListeningState:"
++ "sharedViewController"
+- "2"
+- "CACMicStatusView"
+- "T@\"UIImageView\",&,N,V_statusIndicatorImageView"
+- "TB,N,V_swapPalette"
+- "Td,N,V_micPowerLevel"
+- "Tq,N,V_micStatus"
+- "_micPowerLevel"
+- "_micStatus"
+- "_statusIndicatorImageView"
+- "_swapPalette"
+- "alpha"
+- "animateWithDuration:delay:options:animations:completion:"
+- "drawBase"
+- "intrinsicContentSize"
+- "micPowerLevel"
+- "micStatus"
+- "setAnchorPoint:"
+- "setMicPowerLevel:"
+- "setMicStatus:"
+- "setStatusIndicatorImageView:"
+- "setSwapPalette:"
+- "statusIndicatorImageView"
+- "stopRecordingAnimation"
+- "swapPalette"
+- "systemBlackColor"
+- "systemGray4Color"
+- "transitionToIdle"
+- "transitionToListening"
+- "transitionToRecording"
+- "transitionWithView:duration:options:animations:completion:"
+- "voice.control"
+
+```
