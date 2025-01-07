@@ -1,0 +1,511 @@
+## mDNSResponder
+
+> `/usr/sbin/mDNSResponder`
+
+```diff
+
+-2559.80.7.0.0
+-  __TEXT.__text: 0x100da0
++2559.80.8.0.0
++  __TEXT.__text: 0x101604
+   __TEXT.__auth_stubs: 0x2e20
+   __TEXT.__objc_stubs: 0x1600
+   __TEXT.__objc_methlist: 0x21c
+   __TEXT.__const: 0x1128
+   __TEXT.__gcc_except_tab: 0x1c4
+-  __TEXT.__cstring: 0x16e23
+-  __TEXT.__oslogstring: 0x1dbaf
++  __TEXT.__cstring: 0x16e3d
++  __TEXT.__oslogstring: 0x1dd1d
+   __TEXT.__objc_classname: 0x63a
+   __TEXT.__objc_methname: 0x140a
+   __TEXT.__objc_methtype: 0x5da
+-  __TEXT.__unwind_info: 0x1668
++  __TEXT.__unwind_info: 0x16a0
+   __DATA_CONST.__auth_got: 0x1720
+   __DATA_CONST.__got: 0x328
+   __DATA_CONST.__auth_ptr: 0x8
+-  __DATA_CONST.__const: 0x6048
++  __DATA_CONST.__const: 0x60e0
+   __DATA_CONST.__cfstring: 0x1140
+   __DATA_CONST.__objc_classlist: 0x1c8
+   __DATA_CONST.__objc_catlist: 0x10
+
+   __DATA.__objc_ivar: 0x8
+   __DATA.__objc_data: 0x11d0
+   __DATA.__data: 0x42b8
+-  __DATA.__bss: 0x16d08
++  __DATA.__bss: 0x16d10
+   - /System/Library/Frameworks/CFNetwork.framework/CFNetwork
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreServices.framework/CoreServices
+
+   - /usr/lib/libnetworkextension.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libxml2.2.dylib
+-  Functions: 1804
+-  Symbols:   4331
+-  CStrings:  4499
++  Functions: 1814
++  Symbols:   4345
++  CStrings:  4506
+ 
+Symbols:
++ GCC_except_table1077
++ GCC_except_table1164
++ GCC_except_table1170
++ GCC_except_table1316
++ GCC_except_table1511
++ _Querier_GetOrphanedSubscriberSet.sOrphanedSubscriberSet
++ __Querier_GetOrphanedClientSet
++ ____Querier_PopMatchedOrphanedClient_block_invoke
++ ____mdns_subscriber_handle_timeout_block_invoke
++ ___mdns_client_activate_time_limit_timer_block_invoke
++ ___mdns_client_activate_time_limit_timer_block_invoke_2
++ ___mdns_client_set_time_limit_ms_block_invoke
++ ___mdns_create_dns_over_bytestream_framer_block_invoke.6233
++ ___mdns_resolver_set_up_server_path_evaluator_block_invoke.67
++ ___mdns_server_log_block_invoke.4318
++ ___mdns_tls_resolver_create_stream_params_block_invoke.34
++ ___mdns_url_session_send_block_invoke.101
++ ___mdns_url_session_send_block_invoke.103
++ ___mdns_url_session_send_block_invoke.109
++ __block_descriptor_tmp.1.6200
++ __block_descriptor_tmp.10.4301
++ __block_descriptor_tmp.10.6043
++ __block_descriptor_tmp.10.7270
++ __block_descriptor_tmp.106
++ __block_descriptor_tmp.108.4796
++ __block_descriptor_tmp.11.6227
++ __block_descriptor_tmp.11.6564
++ __block_descriptor_tmp.111
++ __block_descriptor_tmp.113
++ __block_descriptor_tmp.118.4766
++ __block_descriptor_tmp.119.4768
++ __block_descriptor_tmp.12.6050
++ __block_descriptor_tmp.12.6561
++ __block_descriptor_tmp.120.4760
++ __block_descriptor_tmp.121.4782
++ __block_descriptor_tmp.129.4714
++ __block_descriptor_tmp.13.4317
++ __block_descriptor_tmp.13.4658
++ __block_descriptor_tmp.13.6051
++ __block_descriptor_tmp.136.3599
++ __block_descriptor_tmp.139.4738
++ __block_descriptor_tmp.140
++ __block_descriptor_tmp.15.6006
++ __block_descriptor_tmp.16.6225
++ __block_descriptor_tmp.17.4108
++ __block_descriptor_tmp.17.4662
++ __block_descriptor_tmp.17.6007
++ __block_descriptor_tmp.17.6555
++ __block_descriptor_tmp.18.3255
++ __block_descriptor_tmp.18.4289
++ __block_descriptor_tmp.18.6013
++ __block_descriptor_tmp.18.6568
++ __block_descriptor_tmp.19.4238
++ __block_descriptor_tmp.19.6000
++ __block_descriptor_tmp.2.4172
++ __block_descriptor_tmp.2.6870
++ __block_descriptor_tmp.20.6045
++ __block_descriptor_tmp.20.6841
++ __block_descriptor_tmp.21.4655
++ __block_descriptor_tmp.21.6856
++ __block_descriptor_tmp.22.3257
++ __block_descriptor_tmp.22.4241
++ __block_descriptor_tmp.22.4304
++ __block_descriptor_tmp.22.6046
++ __block_descriptor_tmp.224.5699
++ __block_descriptor_tmp.23.6842
++ __block_descriptor_tmp.24.3283
++ __block_descriptor_tmp.24.6041
++ __block_descriptor_tmp.246.5770
++ __block_descriptor_tmp.25.3307
++ __block_descriptor_tmp.25.6843
++ __block_descriptor_tmp.250.5777
++ __block_descriptor_tmp.26.4652
++ __block_descriptor_tmp.26.6038
++ __block_descriptor_tmp.27.6035
++ __block_descriptor_tmp.27.6848
++ __block_descriptor_tmp.28.6033
++ __block_descriptor_tmp.28.6849
++ __block_descriptor_tmp.29.3312
++ __block_descriptor_tmp.29.4305
++ __block_descriptor_tmp.29.5996
++ __block_descriptor_tmp.29.6850
++ __block_descriptor_tmp.3.4175
++ __block_descriptor_tmp.3.6059
++ __block_descriptor_tmp.3.6203
++ __block_descriptor_tmp.3.6231
++ __block_descriptor_tmp.3.6557
++ __block_descriptor_tmp.3.7396
++ __block_descriptor_tmp.30.6834
++ __block_descriptor_tmp.31.3323
++ __block_descriptor_tmp.31.4306
++ __block_descriptor_tmp.32.6026
++ __block_descriptor_tmp.33.6840
++ __block_descriptor_tmp.34.6828
++ __block_descriptor_tmp.3482
++ __block_descriptor_tmp.35.6857
++ __block_descriptor_tmp.3561
++ __block_descriptor_tmp.36.4667
++ __block_descriptor_tmp.38.4664
++ __block_descriptor_tmp.39.5975
++ __block_descriptor_tmp.4.4176
++ __block_descriptor_tmp.4.4291
++ __block_descriptor_tmp.4.4865
++ __block_descriptor_tmp.4.6060
++ __block_descriptor_tmp.4.6207
++ __block_descriptor_tmp.40.4647
++ __block_descriptor_tmp.4110
++ __block_descriptor_tmp.4140
++ __block_descriptor_tmp.4167
++ __block_descriptor_tmp.4286
++ __block_descriptor_tmp.43.4631
++ __block_descriptor_tmp.45.4626
++ __block_descriptor_tmp.46.7312
++ __block_descriptor_tmp.47.5393
++ __block_descriptor_tmp.4707
++ __block_descriptor_tmp.48.3248
++ __block_descriptor_tmp.48.4866
++ __block_descriptor_tmp.5.4177
++ __block_descriptor_tmp.5.4292
++ __block_descriptor_tmp.5.4871
++ __block_descriptor_tmp.5.6061
++ __block_descriptor_tmp.50.3266
++ __block_descriptor_tmp.50.4736
++ __block_descriptor_tmp.50.7305
++ __block_descriptor_tmp.51.3192
++ __block_descriptor_tmp.51.4642
++ __block_descriptor_tmp.5153
++ __block_descriptor_tmp.5381
++ __block_descriptor_tmp.54.3190
++ __block_descriptor_tmp.5796
++ __block_descriptor_tmp.6.4149
++ __block_descriptor_tmp.6.4293
++ __block_descriptor_tmp.6.6211
++ __block_descriptor_tmp.6.7260
++ __block_descriptor_tmp.60.3315
++ __block_descriptor_tmp.61.3313
++ __block_descriptor_tmp.6196
++ __block_descriptor_tmp.62.3326
++ __block_descriptor_tmp.62.6021
++ __block_descriptor_tmp.6221
++ __block_descriptor_tmp.6281
++ __block_descriptor_tmp.63.4613
++ __block_descriptor_tmp.65.6004
++ __block_descriptor_tmp.6549
++ __block_descriptor_tmp.66.7273
++ __block_descriptor_tmp.6779
++ __block_descriptor_tmp.68.4710
++ __block_descriptor_tmp.68.7283
++ __block_descriptor_tmp.6871
++ __block_descriptor_tmp.69.4747
++ __block_descriptor_tmp.6905
++ __block_descriptor_tmp.7.4138
++ __block_descriptor_tmp.7.4296
++ __block_descriptor_tmp.7.6063
++ __block_descriptor_tmp.7.6214
++ __block_descriptor_tmp.7.6236
++ __block_descriptor_tmp.7.6806
++ __block_descriptor_tmp.70.4743
++ __block_descriptor_tmp.7057
++ __block_descriptor_tmp.7254
++ __block_descriptor_tmp.7392
++ __block_descriptor_tmp.75.4843
++ __block_descriptor_tmp.7632
++ __block_descriptor_tmp.77.4844
++ __block_descriptor_tmp.79.4841
++ __block_descriptor_tmp.8.4136
++ __block_descriptor_tmp.8.6550
++ __block_descriptor_tmp.9.4143
++ __block_descriptor_tmp.9.4650
++ __block_descriptor_tmp.90
++ __block_descriptor_tmp.91.4815
++ __block_descriptor_tmp.96
++ __block_literal_global.11.4648
++ __block_literal_global.12.7266
++ __block_literal_global.138.3595
++ __block_literal_global.143
++ __block_literal_global.15.4298
++ __block_literal_global.15.4654
++ __block_literal_global.15.7512
++ __block_literal_global.160.4504
++ __block_literal_global.19.4660
++ __block_literal_global.20.4285
++ __block_literal_global.23
++ __block_literal_global.248.5710
++ __block_literal_global.28
++ __block_literal_global.3305
++ __block_literal_global.3480
++ __block_literal_global.3594
++ __block_literal_global.37
++ __block_literal_global.4294
++ __block_literal_global.43.4527
++ __block_literal_global.43.6496
++ __block_literal_global.4526
++ __block_literal_global.4869
++ __block_literal_global.5.6223
++ __block_literal_global.5.6552
++ __block_literal_global.53
++ __block_literal_global.53.4634
++ __block_literal_global.5380
++ __block_literal_global.56
++ __block_literal_global.5625
++ __block_literal_global.5998
++ __block_literal_global.6090
++ __block_literal_global.6219
++ __block_literal_global.6277
++ __block_literal_global.64
++ __block_literal_global.6510
++ __block_literal_global.6777
++ __block_literal_global.6830
++ __block_literal_global.7054
++ __block_literal_global.7252
++ __block_literal_global.7390
++ __block_literal_global.7503
++ __block_literal_global.7630
++ __block_literal_global.8.7258
++ __block_literal_global.9.6097
++ __block_literal_global.9.6234
++ __mdns_querier_handle_new_time_limit_ms
++ __mdns_querier_handle_timeout
++ __mdns_querier_match
++ __mdns_subscriber_handle_new_time_limit_ms
++ __mdns_subscriber_handle_timeout
++ __mdns_subscriber_match
++ _mdns_client_activate_time_limit_timer
++ _mdns_client_deactivate_time_limit_timer
++ _mdns_client_set_time_limit_ms
++ _mdns_server_log.s_log.4299
++ _mdns_server_log.s_once.4297
++ g_nwi_state.4506
++ g_session_list.4303
+- GCC_except_table1075
+- GCC_except_table1156
+- GCC_except_table1162
+- GCC_except_table1306
+- GCC_except_table1505
+- ____mdns_querier_reset_time_limit_block_invoke
+- ___mdns_create_dns_over_bytestream_framer_block_invoke.6215
+- ___mdns_querier_set_time_limit_ms_block_invoke
+- ___mdns_resolver_set_up_server_path_evaluator_block_invoke.68
+- ___mdns_server_log_block_invoke.4301
+- ___mdns_tls_resolver_create_stream_params_block_invoke.35
+- ___mdns_url_session_send_block_invoke.102
+- ___mdns_url_session_send_block_invoke.104
+- ___mdns_url_session_send_block_invoke.110
+- __block_descriptor_tmp.1.6182
+- __block_descriptor_tmp.10.4284
+- __block_descriptor_tmp.10.4631
+- __block_descriptor_tmp.10.6025
+- __block_descriptor_tmp.10.7251
+- __block_descriptor_tmp.107
+- __block_descriptor_tmp.109
+- __block_descriptor_tmp.11.6209
+- __block_descriptor_tmp.11.6546
+- __block_descriptor_tmp.112
+- __block_descriptor_tmp.115.4761
+- __block_descriptor_tmp.119.4744
+- __block_descriptor_tmp.12.6032
+- __block_descriptor_tmp.12.6543
+- __block_descriptor_tmp.120.4746
+- __block_descriptor_tmp.121.4738
+- __block_descriptor_tmp.122.4829
+- __block_descriptor_tmp.123.4760
+- __block_descriptor_tmp.13.4300
+- __block_descriptor_tmp.13.6033
+- __block_descriptor_tmp.131
+- __block_descriptor_tmp.136.3589
+- __block_descriptor_tmp.14.4639
+- __block_descriptor_tmp.142.4831
+- __block_descriptor_tmp.143.4616
+- __block_descriptor_tmp.15.5988
+- __block_descriptor_tmp.16.6207
+- __block_descriptor_tmp.17.4098
+- __block_descriptor_tmp.17.5989
+- __block_descriptor_tmp.17.6537
+- __block_descriptor_tmp.18.3252
+- __block_descriptor_tmp.18.4272
+- __block_descriptor_tmp.18.4643
+- __block_descriptor_tmp.18.5995
+- __block_descriptor_tmp.18.6550
+- __block_descriptor_tmp.19.4221
+- __block_descriptor_tmp.19.5982
+- __block_descriptor_tmp.2.4160
+- __block_descriptor_tmp.2.6851
+- __block_descriptor_tmp.20.6027
+- __block_descriptor_tmp.20.6820
+- __block_descriptor_tmp.21.6836
+- __block_descriptor_tmp.22.3254
+- __block_descriptor_tmp.22.4224
+- __block_descriptor_tmp.22.4287
+- __block_descriptor_tmp.22.4636
+- __block_descriptor_tmp.22.6028
+- __block_descriptor_tmp.224.5681
+- __block_descriptor_tmp.23.6822
+- __block_descriptor_tmp.24.3275
+- __block_descriptor_tmp.24.6023
+- __block_descriptor_tmp.246.5752
+- __block_descriptor_tmp.25.3297
+- __block_descriptor_tmp.25.6823
+- __block_descriptor_tmp.250.5759
+- __block_descriptor_tmp.26.6020
+- __block_descriptor_tmp.27.4633
+- __block_descriptor_tmp.27.6017
+- __block_descriptor_tmp.27.6828
+- __block_descriptor_tmp.28.6015
+- __block_descriptor_tmp.28.6829
+- __block_descriptor_tmp.29.3302
+- __block_descriptor_tmp.29.4288
+- __block_descriptor_tmp.29.5978
+- __block_descriptor_tmp.29.6830
+- __block_descriptor_tmp.3.4139
+- __block_descriptor_tmp.3.6041
+- __block_descriptor_tmp.3.6185
+- __block_descriptor_tmp.3.6213
+- __block_descriptor_tmp.3.6539
+- __block_descriptor_tmp.3.7376
+- __block_descriptor_tmp.30.6817
+- __block_descriptor_tmp.31.3313
+- __block_descriptor_tmp.31.4289
+- __block_descriptor_tmp.32.6008
+- __block_descriptor_tmp.33.6814
+- __block_descriptor_tmp.34.6838
+- __block_descriptor_tmp.3472
+- __block_descriptor_tmp.3551
+- __block_descriptor_tmp.37.4648
+- __block_descriptor_tmp.39.4645
+- __block_descriptor_tmp.39.5957
+- __block_descriptor_tmp.4.4274
+- __block_descriptor_tmp.4.4846
+- __block_descriptor_tmp.4.6042
+- __block_descriptor_tmp.4.6189
+- __block_descriptor_tmp.41.4628
+- __block_descriptor_tmp.4100
+- __block_descriptor_tmp.4130
+- __block_descriptor_tmp.4157
+- __block_descriptor_tmp.4269
+- __block_descriptor_tmp.44.4614
+- __block_descriptor_tmp.46.4609
+- __block_descriptor_tmp.46.7292
+- __block_descriptor_tmp.4688
+- __block_descriptor_tmp.47.5375
+- __block_descriptor_tmp.49.4847
+- __block_descriptor_tmp.5.4275
+- __block_descriptor_tmp.5.4852
+- __block_descriptor_tmp.5.6043
+- __block_descriptor_tmp.50.3192
+- __block_descriptor_tmp.50.4717
+- __block_descriptor_tmp.50.7285
+- __block_descriptor_tmp.51.4716
+- __block_descriptor_tmp.5135
+- __block_descriptor_tmp.52
+- __block_descriptor_tmp.53.3190
+- __block_descriptor_tmp.5363
+- __block_descriptor_tmp.5778
+- __block_descriptor_tmp.58.3303
+- __block_descriptor_tmp.6.4276
+- __block_descriptor_tmp.6.6193
+- __block_descriptor_tmp.6.7241
+- __block_descriptor_tmp.60.3304
+- __block_descriptor_tmp.61.3316
+- __block_descriptor_tmp.6178
+- __block_descriptor_tmp.62.6003
+- __block_descriptor_tmp.6203
+- __block_descriptor_tmp.6263
+- __block_descriptor_tmp.64.4596
+- __block_descriptor_tmp.65.5986
+- __block_descriptor_tmp.6531
+- __block_descriptor_tmp.67
+- __block_descriptor_tmp.6761
+- __block_descriptor_tmp.68.7263
+- __block_descriptor_tmp.6852
+- __block_descriptor_tmp.6886
+- __block_descriptor_tmp.69.4691
+- __block_descriptor_tmp.7.4128
+- __block_descriptor_tmp.7.4279
+- __block_descriptor_tmp.7.4876
+- __block_descriptor_tmp.7.6045
+- __block_descriptor_tmp.7.6196
+- __block_descriptor_tmp.7.6218
+- __block_descriptor_tmp.7.6788
+- __block_descriptor_tmp.70.4725
+- __block_descriptor_tmp.7038
+- __block_descriptor_tmp.72
+- __block_descriptor_tmp.7235
+- __block_descriptor_tmp.7372
+- __block_descriptor_tmp.76.4822
+- __block_descriptor_tmp.7612
+- __block_descriptor_tmp.78
+- __block_descriptor_tmp.8.4126
+- __block_descriptor_tmp.8.6532
+- __block_descriptor_tmp.80.4820
+- __block_descriptor_tmp.9.4133
+- __block_descriptor_tmp.91.4794
+- __block_descriptor_tmp.93.4792
+- __block_descriptor_tmp.97
+- __block_literal_global.12.4629
+- __block_literal_global.12.7247
+- __block_literal_global.138.3585
+- __block_literal_global.145
+- __block_literal_global.15.4281
+- __block_literal_global.15.7492
+- __block_literal_global.16.4635
+- __block_literal_global.160.4487
+- __block_literal_global.20.4268
+- __block_literal_global.20.4641
+- __block_literal_global.24
+- __block_literal_global.248.5692
+- __block_literal_global.29
+- __block_literal_global.3295
+- __block_literal_global.3470
+- __block_literal_global.3584
+- __block_literal_global.36.6821
+- __block_literal_global.4277
+- __block_literal_global.43.4510
+- __block_literal_global.43.6478
+- __block_literal_global.4509
+- __block_literal_global.4850
+- __block_literal_global.5.6205
+- __block_literal_global.5.6534
+- __block_literal_global.52
+- __block_literal_global.5362
+- __block_literal_global.54
+- __block_literal_global.55
+- __block_literal_global.5607
+- __block_literal_global.5980
+- __block_literal_global.6072
+- __block_literal_global.6201
+- __block_literal_global.6259
+- __block_literal_global.63
+- __block_literal_global.6492
+- __block_literal_global.6759
+- __block_literal_global.6810
+- __block_literal_global.7035
+- __block_literal_global.7233
+- __block_literal_global.7370
+- __block_literal_global.7483
+- __block_literal_global.7610
+- __block_literal_global.8.7239
+- __block_literal_global.9.6079
+- __block_literal_global.9.6216
+- __mdns_querier_reset_time_limit
+- _mdns_querier_match
+- _mdns_querier_set_time_limit_ms
+- _mdns_server_log.s_log.4282
+- _mdns_server_log.s_once.4280
+- g_nwi_state.4489
+- g_session_list.4286
+CStrings:
++ "B16@?0r^{mdns_client_s=}8"
++ "[Q%u->Sub%llu] Adopted orphaned subscriber"
++ "[Sub%llu] Failed to activate time limit timer for the subscriber, delivering timeout event immediately - error: %{darwin.errno}d"
++ "[Sub%llu] Keeping orphaned subscriber for up to 30 seconds"
++ "[Sub%llu] Orphaned subscriber removed due to timeout"
++ "[Sub%llu] Resetting time limit to %u ms"
++ "[Sub%llu] Subscriber has been invalidated"
++ "mDNSResponder-2559.80.8"
+- "mDNSResponder-2559.80.7"
+
+```

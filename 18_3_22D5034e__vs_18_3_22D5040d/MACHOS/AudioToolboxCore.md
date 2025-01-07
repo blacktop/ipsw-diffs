@@ -1,0 +1,802 @@
+## AudioToolboxCore
+
+> `/System/ExclaveKit/System/Library/PrivateFrameworks/AudioToolboxCore.framework/AudioToolboxCore`
+
+```diff
+
+-1456.402.0.0.0
+-  __TEXT.__text: 0xb2374
+-  __TEXT.__auth_stubs: 0xf70
+-  __TEXT.__gcc_except_tab: 0xa600
+-  __TEXT.__const: 0x147cc
+-  __TEXT.__cstring: 0x6e7e
++1456.403.0.0.0
++  __TEXT.__text: 0xba650
++  __TEXT.__auth_stubs: 0x1060
++  __TEXT.__gcc_except_tab: 0xa99c
++  __TEXT.__const: 0x167ec
++  __TEXT.__cstring: 0x753d
+   __TEXT.__dof_AudioConv: 0xa86
+-  __TEXT.__unwind_info: 0x2f28
+-  __TEXT.__eh_frame: 0x88
+-  __DATA.__auth_got: 0x7c0
+-  __DATA.__got: 0x148
++  __TEXT.__unwind_info: 0x30b8
++  __TEXT.__eh_frame: 0xc0
++  __DATA.__auth_got: 0x838
++  __DATA.__got: 0x150
+   __DATA.__auth_ptr: 0x8
+-  __DATA.__const: 0x98b0
++  __DATA.__const: 0x98f0
+   __DATA.__cfstring: 0x740
+   __DATA.__objc_imageinfo: 0x8
+   __DATA.__bss: 0xd20
+
+   - /System/ExclaveKit/usr/lib/libSystem.dylib
+   - /System/ExclaveKit/usr/lib/libc++.dylib
+   - /System/ExclaveKit/usr/lib/libobjc.A.dylib
+-  Functions: 2642
+-  Symbols:   3917
+-  CStrings:  970
++  Functions: 2733
++  Symbols:   4035
++  CStrings:  1028
+ 
+Symbols:
++ GCC_except_table1008
++ GCC_except_table1031
++ GCC_except_table1032
++ GCC_except_table1046
++ GCC_except_table1047
++ GCC_except_table1052
++ GCC_except_table1053
++ GCC_except_table1057
++ GCC_except_table1062
++ GCC_except_table1063
++ GCC_except_table1067
++ GCC_except_table1081
++ GCC_except_table1087
++ GCC_except_table1090
++ GCC_except_table1091
++ GCC_except_table1106
++ GCC_except_table1119
++ GCC_except_table1126
++ GCC_except_table1130
++ GCC_except_table1133
++ GCC_except_table1136
++ GCC_except_table1141
++ GCC_except_table1164
++ GCC_except_table1174
++ GCC_except_table1184
++ GCC_except_table1185
++ GCC_except_table1186
++ GCC_except_table1187
++ GCC_except_table1193
++ GCC_except_table1195
++ GCC_except_table1198
++ GCC_except_table1200
++ GCC_except_table1206
++ GCC_except_table1207
++ GCC_except_table1208
++ GCC_except_table1227
++ GCC_except_table1237
++ GCC_except_table1250
++ GCC_except_table1256
++ GCC_except_table1258
++ GCC_except_table1268
++ GCC_except_table1272
++ GCC_except_table1273
++ GCC_except_table1275
++ GCC_except_table1282
++ GCC_except_table1289
++ GCC_except_table1296
++ GCC_except_table1303
++ GCC_except_table1310
++ GCC_except_table1317
++ GCC_except_table1324
++ GCC_except_table1331
++ GCC_except_table1338
++ GCC_except_table1345
++ GCC_except_table1352
++ GCC_except_table1359
++ GCC_except_table1366
++ GCC_except_table1373
++ GCC_except_table1387
++ GCC_except_table1394
++ GCC_except_table1401
++ GCC_except_table1408
++ GCC_except_table1415
++ GCC_except_table1422
++ GCC_except_table1429
++ GCC_except_table1436
++ GCC_except_table1443
++ GCC_except_table1450
++ GCC_except_table1451
++ GCC_except_table1476
++ GCC_except_table1489
++ GCC_except_table1490
++ GCC_except_table1515
++ GCC_except_table1528
++ GCC_except_table1529
++ GCC_except_table1536
++ GCC_except_table1549
++ GCC_except_table1550
++ GCC_except_table1557
++ GCC_except_table1570
++ GCC_except_table1571
++ GCC_except_table1596
++ GCC_except_table1609
++ GCC_except_table1610
++ GCC_except_table1635
++ GCC_except_table1658
++ GCC_except_table1661
++ GCC_except_table1662
++ GCC_except_table1664
++ GCC_except_table1668
++ GCC_except_table1670
++ GCC_except_table1695
++ GCC_except_table1698
++ GCC_except_table1712
++ GCC_except_table1713
++ GCC_except_table1714
++ GCC_except_table1719
++ GCC_except_table1721
++ GCC_except_table1734
++ GCC_except_table1736
++ GCC_except_table1758
++ GCC_except_table1759
++ GCC_except_table1770
++ GCC_except_table1772
++ GCC_except_table1775
++ GCC_except_table1780
++ GCC_except_table1781
++ GCC_except_table1787
++ GCC_except_table1791
++ GCC_except_table1793
++ GCC_except_table1794
++ GCC_except_table1795
++ GCC_except_table1796
++ GCC_except_table1797
++ GCC_except_table1799
++ GCC_except_table1800
++ GCC_except_table1801
++ GCC_except_table1802
++ GCC_except_table1810
++ GCC_except_table1817
++ GCC_except_table1823
++ GCC_except_table1825
++ GCC_except_table1836
++ GCC_except_table1837
++ GCC_except_table1838
++ GCC_except_table1839
++ GCC_except_table1844
++ GCC_except_table1848
++ GCC_except_table1849
++ GCC_except_table1850
++ GCC_except_table1853
++ GCC_except_table1856
++ GCC_except_table1877
++ GCC_except_table1878
++ GCC_except_table1880
++ GCC_except_table1883
++ GCC_except_table1889
++ GCC_except_table1891
++ GCC_except_table1892
++ GCC_except_table1893
++ GCC_except_table1895
++ GCC_except_table1897
++ GCC_except_table1899
++ GCC_except_table1900
++ GCC_except_table1901
++ GCC_except_table1903
++ GCC_except_table1904
++ GCC_except_table1912
++ GCC_except_table1928
++ GCC_except_table1929
++ GCC_except_table1930
++ GCC_except_table1931
++ GCC_except_table1932
++ GCC_except_table1936
++ GCC_except_table1938
++ GCC_except_table1940
++ GCC_except_table1952
++ GCC_except_table1961
++ GCC_except_table1969
++ GCC_except_table1981
++ GCC_except_table1987
++ GCC_except_table1989
++ GCC_except_table1990
++ GCC_except_table1991
++ GCC_except_table2005
++ GCC_except_table2010
++ GCC_except_table2014
++ GCC_except_table2016
++ GCC_except_table2019
++ GCC_except_table2020
++ GCC_except_table2029
++ GCC_except_table2030
++ GCC_except_table2031
++ GCC_except_table2034
++ GCC_except_table2035
++ GCC_except_table2036
++ GCC_except_table2037
++ GCC_except_table2041
++ GCC_except_table2042
++ GCC_except_table2049
++ GCC_except_table2050
++ GCC_except_table2051
++ GCC_except_table2065
++ GCC_except_table2069
++ GCC_except_table2070
++ GCC_except_table2075
++ GCC_except_table2078
++ GCC_except_table2092
++ GCC_except_table2093
++ GCC_except_table2097
++ GCC_except_table2125
++ GCC_except_table2127
++ GCC_except_table2134
++ GCC_except_table2139
++ GCC_except_table2153
++ GCC_except_table2157
++ GCC_except_table2172
++ GCC_except_table2177
++ GCC_except_table2186
++ GCC_except_table2199
++ GCC_except_table2202
++ GCC_except_table2203
++ GCC_except_table2206
++ GCC_except_table2207
++ GCC_except_table2208
++ GCC_except_table2209
++ GCC_except_table2212
++ GCC_except_table2214
++ GCC_except_table2215
++ GCC_except_table2256
++ GCC_except_table2341
++ GCC_except_table2342
++ GCC_except_table2343
++ GCC_except_table2344
++ GCC_except_table2345
++ GCC_except_table2346
++ GCC_except_table2348
++ GCC_except_table2349
++ GCC_except_table2359
++ GCC_except_table2360
++ GCC_except_table2361
++ GCC_except_table2362
++ GCC_except_table2363
++ GCC_except_table2365
++ GCC_except_table2366
++ GCC_except_table2374
++ GCC_except_table2375
++ GCC_except_table2404
++ GCC_except_table2435
++ GCC_except_table2439
++ GCC_except_table2440
++ GCC_except_table2441
++ GCC_except_table2442
++ GCC_except_table2443
++ GCC_except_table2448
++ GCC_except_table2451
++ GCC_except_table2453
++ GCC_except_table2454
++ GCC_except_table2457
++ GCC_except_table2460
++ GCC_except_table2467
++ GCC_except_table2474
++ GCC_except_table2477
++ GCC_except_table2478
++ GCC_except_table2486
++ GCC_except_table2495
++ GCC_except_table2497
++ GCC_except_table2498
++ GCC_except_table2505
++ GCC_except_table2556
++ GCC_except_table2559
++ GCC_except_table2560
++ GCC_except_table2561
++ GCC_except_table2562
++ GCC_except_table2563
++ GCC_except_table2564
++ GCC_except_table2574
++ GCC_except_table2577
++ GCC_except_table2609
++ GCC_except_table2622
++ GCC_except_table2637
++ GCC_except_table2638
++ GCC_except_table2642
++ GCC_except_table2643
++ GCC_except_table2646
++ GCC_except_table2678
++ GCC_except_table2682
++ GCC_except_table2686
++ GCC_except_table2710
++ GCC_except_table2715
++ GCC_except_table2718
++ GCC_except_table2733
++ GCC_except_table2737
++ GCC_except_table2740
++ GCC_except_table2741
++ GCC_except_table2742
++ GCC_except_table2743
++ GCC_except_table2744
++ GCC_except_table2745
++ GCC_except_table2746
++ GCC_except_table2747
++ GCC_except_table2750
++ GCC_except_table2751
++ GCC_except_table2752
++ GCC_except_table2754
++ GCC_except_table2755
++ GCC_except_table2756
++ GCC_except_table2760
++ GCC_except_table2766
++ GCC_except_table2773
++ GCC_except_table914
++ GCC_except_table915
++ GCC_except_table925
++ GCC_except_table928
++ GCC_except_table929
++ GCC_except_table934
++ GCC_except_table937
++ GCC_except_table945
++ GCC_except_table946
++ GCC_except_table954
++ GCC_except_table957
++ GCC_except_table978
++ _ZL8snprintfPcU25pass_dynamic_object_size1mPKcz.1117
++ __ZN5caulk7numeric15exceptional_subIlEET_S2_S2_
++ __ZN8DSPGraph11Interpreter21parseEndSubsetCommandERPKc
++ __ZN8DSPGraphL18checkASCIIEncodingEPKc
++ __ZNKSt13runtime_error4whatEv
++ __ZNKSt3__113__format_spec8__parserIcE10__validateB8fe180100ENS0_8__fieldsEPKcj
++ __ZNKSt3__113__format_spec8__parserIcE31__get_parsed_std_specificationsB8fe180100INS_20basic_format_contextINS_20back_insert_iteratorINS_8__format15__output_bufferIcEEEEcEEEENS0_23__parsed_specificationsIcEERT_
++ __ZNSt13runtime_errorD2Ev
++ __ZNSt3__111__formatter14__write_stringB8fe180100IcNS_20back_insert_iteratorINS_8__format15__output_bufferIcEEEEEEDtfp0_ENS_17basic_string_viewIT_NS_11char_traitsIS9_EEEET0_NS_13__format_spec23__parsed_specificationsIS9_EE
++ __ZNSt3__111__formatter16__format_integerB8fe180100IjPccNS_20basic_format_contextINS_20back_insert_iteratorINS_8__format15__output_bufferIcEEEEcEEEENT2_8iteratorET_RSA_NS_13__format_spec23__parsed_specificationsIT1_EEbT0_SI_PKci
++ __ZNSt3__111__formatter16__format_integerB8fe180100IjcNS_20basic_format_contextINS_20back_insert_iteratorINS_8__format15__output_bufferIcEEEEcEEEENT1_8iteratorET_RS9_NS_13__format_spec23__parsed_specificationsIT0_EEb
++ __ZNSt3__111__formatter16__format_integerB8fe180100ImPccNS_20basic_format_contextINS_20back_insert_iteratorINS_8__format15__output_bufferIcEEEEcEEEENT2_8iteratorET_RSA_NS_13__format_spec23__parsed_specificationsIT1_EEbT0_SI_PKci
++ __ZNSt3__111__formatter16__format_integerB8fe180100IoPccNS_20basic_format_contextINS_20back_insert_iteratorINS_8__format15__output_bufferIcEEEEcEEEENT2_8iteratorET_RSA_NS_13__format_spec23__parsed_specificationsIT1_EEbT0_SI_PKci
++ __ZNSt3__111__formatter16__format_integerB8fe180100IocNS_20basic_format_contextINS_20back_insert_iteratorINS_8__format15__output_bufferIcEEEEcEEEENT1_8iteratorET_RS9_NS_13__format_spec23__parsed_specificationsIT0_EEb
++ __ZNSt3__111__formatter16__format_integerB8fe180100IyPccNS_20basic_format_contextINS_20back_insert_iteratorINS_8__format15__output_bufferIcEEEEcEEEENT2_8iteratorET_RSA_NS_13__format_spec23__parsed_specificationsIT1_EEbT0_SI_PKci
++ __ZNSt3__111__formatter16__format_integerB8fe180100IycNS_20basic_format_contextINS_20back_insert_iteratorINS_8__format15__output_bufferIcEEEEcEEEENT1_8iteratorET_RS9_NS_13__format_spec23__parsed_specificationsIT0_EEb
++ __ZNSt3__111__formatter19__write_transformedB8fe180100IPcccPFccENS_20back_insert_iteratorINS_8__format15__output_bufferIcEEEEEEDtfp1_ET_SB_T3_NS_13__format_spec23__parsed_specificationsIT1_EET2_
++ __ZNSt3__111__formatter27__write_string_no_precisionB8fe180100IcNS_20back_insert_iteratorINS_8__format15__output_bufferIcEEEEEEDtfp0_ENS_17basic_string_viewIT_NS_11char_traitsIS9_EEEET0_NS_13__format_spec23__parsed_specificationsIS9_EE
++ __ZNSt3__111__formatter28__write_using_trailing_zerosB8fe180100IccNS_20back_insert_iteratorINS_8__format15__output_bufferIcEEEEEEDtfp1_EPKT_SA_T1_NS_13__format_spec23__parsed_specificationsIT0_EEmSA_m
++ __ZNSt3__111__formatter29__format_locale_specific_formB8fe180100INS_20back_insert_iteratorINS_8__format15__output_bufferIcEEEEdcEET_S7_RKNS0_14__float_bufferIT0_EERKNS0_14__float_resultENS_6localeENS_13__format_spec23__parsed_specificationsIT1_EE
++ __ZNSt3__111__formatter32__write_using_decimal_separatorsB8fe180100INS_20back_insert_iteratorINS_8__format15__output_bufferIcEEEEPccEET_S8_T0_S9_S9_ONS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEET1_NS_13__format_spec23__parsed_specificationsISH_EE
++ __ZNSt3__111__formatter34__format_buffer_general_lower_caseB8fe180100IddEENS0_14__float_resultERNS0_14__float_bufferIT_EET0_iPc
++ __ZNSt3__111__formatter34__format_buffer_general_lower_caseB8fe180100IdeEENS0_14__float_resultERNS0_14__float_bufferIT_EET0_iPc
++ __ZNSt3__111__formatter34__format_buffer_general_lower_caseB8fe180100IffEENS0_14__float_resultERNS0_14__float_bufferIT_EET0_iPc
++ __ZNSt3__111__formatter34__format_floating_point_non_finiteB8fe180100INS_20back_insert_iteratorINS_8__format15__output_bufferIcEEEEcEET_S7_NS_13__format_spec23__parsed_specificationsIT0_EEbb
++ __ZNSt3__111__formatter37__format_buffer_scientific_lower_caseB8fe180100IddEENS0_14__float_resultERKNS0_14__float_bufferIT_EET0_iPc
++ __ZNSt3__111__formatter37__format_buffer_scientific_lower_caseB8fe180100IdeEENS0_14__float_resultERKNS0_14__float_bufferIT_EET0_iPc
++ __ZNSt3__111__formatter37__format_buffer_scientific_lower_caseB8fe180100IffEENS0_14__float_resultERKNS0_14__float_bufferIT_EET0_iPc
++ __ZNSt3__111__formatter38__format_buffer_hexadecimal_lower_caseB8fe180100IddEENS0_14__float_resultERKNS0_14__float_bufferIT_EET0_iPc
++ __ZNSt3__111__formatter38__format_buffer_hexadecimal_lower_caseB8fe180100IdeEENS0_14__float_resultERKNS0_14__float_bufferIT_EET0_iPc
++ __ZNSt3__111__formatter38__format_buffer_hexadecimal_lower_caseB8fe180100IffEENS0_14__float_resultERKNS0_14__float_bufferIT_EET0_iPc
++ __ZNSt3__111__formatter6__fillB8fe180100IcNS_20back_insert_iteratorINS_8__format15__output_bufferIcEEEEEET0_S7_mNS_13__format_spec12__code_pointIT_EE
++ __ZNSt3__111__formatter7__writeB8fe180100IccNS_20back_insert_iteratorINS_8__format15__output_bufferIcEEEEEEDtfp0_ENS_17basic_string_viewIT_NS_11char_traitsIS9_EEEET1_NS_13__format_spec23__parsed_specificationsIT0_EEl
++ __ZNSt3__112__vformat_toB8fe180100INS_20back_insert_iteratorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEEcNS1_INS_8__format15__output_bufferIcEEEEEET_SD_NS_17basic_string_viewIT0_NS3_ISF_EEEENS_17basic_format_argsINS_20basic_format_contextIT1_SF_EEEE
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE9__grow_byEmmmmmm
++ __ZNSt3__112format_errorC1B8fe180100EPKc
++ __ZNSt3__112format_errorD0Ev
++ __ZNSt3__112format_errorD1Ev
++ __ZNSt3__113__format_spec14__parse_arg_idB8fe180100INS_14__bounded_iterIPKcvEENS_26basic_format_parse_contextIcEEEENS_8__format21__parse_number_resultIT_EESA_SA_RT0_
++ __ZNSt3__113__format_spec23__estimate_column_widthB8fe180100IcNS_14__bounded_iterIPKcvEEEENS0_21__column_width_resultIT0_EENS_17basic_string_viewIT_NS_11char_traitsISA_EEEEmNS0_23__column_width_roundingE
++ __ZNSt3__113__format_spec24__process_parsed_integerB8fe180100IcEEvRNS0_8__parserIT_EEPKc
++ __ZNSt3__113__format_spec33__throw_invalid_type_format_errorB8fe180100EPKc
++ __ZNSt3__113__format_spec35__throw_invalid_option_format_errorB8fe180100EPKcS2_
++ __ZNSt3__113__format_spec8__parserIcE7__parseB8fe180100INS_26basic_format_parse_contextIcEEEENT_8iteratorERS6_NS0_8__fieldsE
++ __ZNSt3__118__formatter_stringIcE5parseB8fe180100INS_26basic_format_parse_contextIcEEEENT_8iteratorERS5_
++ __ZNSt3__118__visit_format_argB8fe180100IZNS_13__format_spec19__substitute_arg_idB8fe180100INS_20basic_format_contextINS_20back_insert_iteratorINS_8__format15__output_bufferIcEEEEcEEEEjNS_16basic_format_argIT_EEEUlSB_E_S9_EEDcOSB_NSA_IT0_EE
++ __ZNSt3__118__visit_format_argB8fe180100IZNS_8__format26__handle_replacement_fieldB8fe180100INS_14__bounded_iterIPKcvEENS_26basic_format_parse_contextIcEENS_20basic_format_contextINS_20back_insert_iteratorINS1_15__output_bufferIcEEEEcEEEET_SF_SF_RT0_RT1_EUlSF_E_SE_EEDcOSF_NS_16basic_format_argISG_EE
++ __ZNSt3__119__to_chars_integralB8fe180100IyEENS_15to_chars_resultEPcS2_T_iNS_17integral_constantIbLb0EEE
++ __ZNSt3__120__throw_format_errorB8fe180100EPKc
++ __ZNSt3__120back_insert_iteratorINS_8__format15__output_bufferIcEEEaSB8fe180100ERKc
++ __ZNSt3__120basic_format_contextINS_20back_insert_iteratorINS_8__format15__output_bufferIcEEEEcE6localeB8fe180100Ev
++ __ZNSt3__124__width_estimation_table9__entriesE
++ __ZNSt3__125__to_chars_integral_widthB8fe180100IjEEiT_j
++ __ZNSt3__125__to_chars_integral_widthB8fe180100IoEEiT_j
++ __ZNSt3__125__to_chars_integral_widthB8fe180100IyEEiT_j
++ __ZNSt3__144__extended_grapheme_custer_property_boundary14__get_propertyB8fe180100EDi
++ __ZNSt3__144__extended_grapheme_custer_property_boundary9__entriesE
++ __ZNSt3__16__itoa10__append10B8fe180100IyEEPcS2_T_
++ __ZNSt3__16__itoa10__integralILj16EE10__to_charsB8fe180100IjEENS_15to_chars_resultEPcS5_T_
++ __ZNSt3__16__itoa10__integralILj16EE10__to_charsB8fe180100IoEENS_15to_chars_resultEPcS5_T_
++ __ZNSt3__16__itoa10__integralILj16EE10__to_charsB8fe180100IyEENS_15to_chars_resultEPcS5_T_
++ __ZNSt3__16__itoa10__integralILj2EE10__to_charsB8fe180100IjEENS_15to_chars_resultEPcS5_T_
++ __ZNSt3__16__itoa10__integralILj2EE10__to_charsB8fe180100IoEENS_15to_chars_resultEPcS5_T_
++ __ZNSt3__16__itoa10__integralILj2EE10__to_charsB8fe180100IyEENS_15to_chars_resultEPcS5_T_
++ __ZNSt3__16__itoa10__integralILj8EE10__to_charsB8fe180100IjEENS_15to_chars_resultEPcS5_T_
++ __ZNSt3__16__itoa10__integralILj8EE10__to_charsB8fe180100IoEENS_15to_chars_resultEPcS5_T_
++ __ZNSt3__16__itoa10__integralILj8EE10__to_charsB8fe180100IyEENS_15to_chars_resultEPcS5_T_
++ __ZNSt3__16__itoa10__pow10_32E
++ __ZNSt3__16__itoa10__pow10_64E
++ __ZNSt3__16__itoa11__pow10_128E
++ __ZNSt3__16__itoa12__base_2_lutE
++ __ZNSt3__16__itoa12__base_8_lutE
++ __ZNSt3__16__itoa13__base_10_u32B8fe180100EPcj
++ __ZNSt3__16__itoa13__base_16_lutE
++ __ZNSt3__16__itoa13__traits_baseIyvE9__convertB8fe180100EPcy
++ __ZNSt3__16__itoa16__digits_base_10E
++ __ZNSt3__16localeC1ERKS0_
++ __ZNSt3__16localeC1Ev
++ __ZNSt3__16localeaSERKS0_
++ __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE9push_backB8fe180100ERKS6_
++ __ZNSt3__18__format14__parse_arg_idB8fe180100INS_14__bounded_iterIPKcvEENS_26basic_format_parse_contextIcEEEENS0_21__parse_number_resultIT_EES9_S9_RT0_
++ __ZNSt3__18__format14__parse_numberB8fe180100INS_14__bounded_iterIPKcvEEEENS0_21__parse_number_resultIT_EES7_S7_
++ __ZNSt3__18__format15__output_bufferIcE11__transformB8fe180100IPcPFccEcEEvT_S7_T0_
++ __ZNSt3__18__format15__output_bufferIcE6__copyB8fe180100IcEEvNS_17basic_string_viewIT_NS_11char_traitsIS5_EEEE
++ __ZNSt3__18__format15__output_bufferIcE6__fillB8fe180100Emc
++ __ZNSt3__18numpunctIcE2idE
++ __ZNSt3__18to_charsEPcS0_d
++ __ZNSt3__18to_charsEPcS0_dNS_12chars_formatE
++ __ZNSt3__18to_charsEPcS0_dNS_12chars_formatEi
++ __ZNSt3__18to_charsEPcS0_e
++ __ZNSt3__18to_charsEPcS0_eNS_12chars_formatE
++ __ZNSt3__18to_charsEPcS0_eNS_12chars_formatEi
++ __ZNSt3__18to_charsEPcS0_f
++ __ZNSt3__18to_charsEPcS0_fNS_12chars_formatE
++ __ZNSt3__18to_charsEPcS0_fNS_12chars_formatEi
++ __ZNSt3__19__unicode17__code_point_viewIcE9__consumeB8fe180100Ev
++ __ZTINSt3__112format_errorE
++ __ZTSNSt3__112format_errorE
++ __ZTVNSt3__112format_errorE
++ __ZZNSt3__18__format15__output_bufferIcEC1B8fe180100INS0_15__format_bufferINS_20back_insert_iteratorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEEcEEEEPcmPT_ENUlSE_mPvE_8__invokeESE_mSH_
++ ___udivmodti4
++ ___udivti3
++ ___umodti3
++ __block_descriptor_tmp.2191
++ _isgraph
+- GCC_except_table1006
+- GCC_except_table1027
+- GCC_except_table1028
+- GCC_except_table1044
+- GCC_except_table1045
+- GCC_except_table1050
+- GCC_except_table1051
+- GCC_except_table1055
+- GCC_except_table1059
+- GCC_except_table1060
+- GCC_except_table1065
+- GCC_except_table1079
+- GCC_except_table1085
+- GCC_except_table1088
+- GCC_except_table1089
+- GCC_except_table1104
+- GCC_except_table1117
+- GCC_except_table1124
+- GCC_except_table1128
+- GCC_except_table1131
+- GCC_except_table1134
+- GCC_except_table1135
+- GCC_except_table1162
+- GCC_except_table1172
+- GCC_except_table1176
+- GCC_except_table1177
+- GCC_except_table1188
+- GCC_except_table1189
+- GCC_except_table1190
+- GCC_except_table1191
+- GCC_except_table1201
+- GCC_except_table1204
+- GCC_except_table1211
+- GCC_except_table1218
+- GCC_except_table1225
+- GCC_except_table1232
+- GCC_except_table1239
+- GCC_except_table1246
+- GCC_except_table1253
+- GCC_except_table1267
+- GCC_except_table1281
+- GCC_except_table1288
+- GCC_except_table1295
+- GCC_except_table1302
+- GCC_except_table1309
+- GCC_except_table1316
+- GCC_except_table1323
+- GCC_except_table1330
+- GCC_except_table1337
+- GCC_except_table1344
+- GCC_except_table1351
+- GCC_except_table1358
+- GCC_except_table1365
+- GCC_except_table1372
+- GCC_except_table1379
+- GCC_except_table1405
+- GCC_except_table1418
+- GCC_except_table1419
+- GCC_except_table1444
+- GCC_except_table1457
+- GCC_except_table1458
+- GCC_except_table1465
+- GCC_except_table1478
+- GCC_except_table1479
+- GCC_except_table1486
+- GCC_except_table1499
+- GCC_except_table1500
+- GCC_except_table1525
+- GCC_except_table1538
+- GCC_except_table1539
+- GCC_except_table1564
+- GCC_except_table1577
+- GCC_except_table1579
+- GCC_except_table1587
+- GCC_except_table1590
+- GCC_except_table1591
+- GCC_except_table1593
+- GCC_except_table1597
+- GCC_except_table1599
+- GCC_except_table1624
+- GCC_except_table1627
+- GCC_except_table1628
+- GCC_except_table1630
+- GCC_except_table1637
+- GCC_except_table1641
+- GCC_except_table1642
+- GCC_except_table1643
+- GCC_except_table1644
+- GCC_except_table1645
+- GCC_except_table1646
+- GCC_except_table1647
+- GCC_except_table1649
+- GCC_except_table1653
+- GCC_except_table1654
+- GCC_except_table1655
+- GCC_except_table1656
+- GCC_except_table1663
+- GCC_except_table1665
+- GCC_except_table1675
+- GCC_except_table1676
+- GCC_except_table1680
+- GCC_except_table1683
+- GCC_except_table1686
+- GCC_except_table1687
+- GCC_except_table1688
+- GCC_except_table1697
+- GCC_except_table1702
+- GCC_except_table1704
+- GCC_except_table1706
+- GCC_except_table1709
+- GCC_except_table1710
+- GCC_except_table1711
+- GCC_except_table1722
+- GCC_except_table1723
+- GCC_except_table1728
+- GCC_except_table1729
+- GCC_except_table1730
+- GCC_except_table1731
+- GCC_except_table1739
+- GCC_except_table1748
+- GCC_except_table1749
+- GCC_except_table1750
+- GCC_except_table1752
+- GCC_except_table1753
+- GCC_except_table1755
+- GCC_except_table1756
+- GCC_except_table1761
+- GCC_except_table1765
+- GCC_except_table1766
+- GCC_except_table1767
+- GCC_except_table1778
+- GCC_except_table1785
+- GCC_except_table1790
+- GCC_except_table1806
+- GCC_except_table1807
+- GCC_except_table1809
+- GCC_except_table1812
+- GCC_except_table1829
+- GCC_except_table1830
+- GCC_except_table1833
+- GCC_except_table1841
+- GCC_except_table1858
+- GCC_except_table1862
+- GCC_except_table1863
+- GCC_except_table1865
+- GCC_except_table1867
+- GCC_except_table1868
+- GCC_except_table1881
+- GCC_except_table1909
+- GCC_except_table1910
+- GCC_except_table1916
+- GCC_except_table1918
+- GCC_except_table1919
+- GCC_except_table1920
+- GCC_except_table1943
+- GCC_except_table1945
+- GCC_except_table1948
+- GCC_except_table1949
+- GCC_except_table1950
+- GCC_except_table1958
+- GCC_except_table1959
+- GCC_except_table1960
+- GCC_except_table1963
+- GCC_except_table1964
+- GCC_except_table1965
+- GCC_except_table1966
+- GCC_except_table1970
+- GCC_except_table1971
+- GCC_except_table1978
+- GCC_except_table1979
+- GCC_except_table1994
+- GCC_except_table1995
+- GCC_except_table1996
+- GCC_except_table1997
+- GCC_except_table1998
+- GCC_except_table1999
+- GCC_except_table2007
+- GCC_except_table2011
+- GCC_except_table2022
+- GCC_except_table2026
+- GCC_except_table2054
+- GCC_except_table2056
+- GCC_except_table2060
+- GCC_except_table2063
+- GCC_except_table2072
+- GCC_except_table2073
+- GCC_except_table2086
+- GCC_except_table2101
+- GCC_except_table2106
+- GCC_except_table2115
+- GCC_except_table2128
+- GCC_except_table2132
+- GCC_except_table2135
+- GCC_except_table2136
+- GCC_except_table2141
+- GCC_except_table2185
+- GCC_except_table2270
+- GCC_except_table2271
+- GCC_except_table2272
+- GCC_except_table2273
+- GCC_except_table2274
+- GCC_except_table2275
+- GCC_except_table2277
+- GCC_except_table2278
+- GCC_except_table2288
+- GCC_except_table2289
+- GCC_except_table2290
+- GCC_except_table2291
+- GCC_except_table2292
+- GCC_except_table2294
+- GCC_except_table2295
+- GCC_except_table2303
+- GCC_except_table2304
+- GCC_except_table2325
+- GCC_except_table2333
+- GCC_except_table2336
+- GCC_except_table2350
+- GCC_except_table2353
+- GCC_except_table2364
+- GCC_except_table2368
+- GCC_except_table2369
+- GCC_except_table2370
+- GCC_except_table2371
+- GCC_except_table2372
+- GCC_except_table2377
+- GCC_except_table2380
+- GCC_except_table2382
+- GCC_except_table2383
+- GCC_except_table2386
+- GCC_except_table2389
+- GCC_except_table2403
+- GCC_except_table2406
+- GCC_except_table2415
+- GCC_except_table2426
+- GCC_except_table2427
+- GCC_except_table2432
+- GCC_except_table2434
+- GCC_except_table2485
+- GCC_except_table2488
+- GCC_except_table2489
+- GCC_except_table2490
+- GCC_except_table2491
+- GCC_except_table2493
+- GCC_except_table2496
+- GCC_except_table2506
+- GCC_except_table2538
+- GCC_except_table2551
+- GCC_except_table2566
+- GCC_except_table2571
+- GCC_except_table2572
+- GCC_except_table2575
+- GCC_except_table2604
+- GCC_except_table2605
+- GCC_except_table2607
+- GCC_except_table2610
+- GCC_except_table2611
+- GCC_except_table2615
+- GCC_except_table2639
+- GCC_except_table2644
+- GCC_except_table2647
+- GCC_except_table2662
+- GCC_except_table2666
+- GCC_except_table2669
+- GCC_except_table2670
+- GCC_except_table2671
+- GCC_except_table2672
+- GCC_except_table2673
+- GCC_except_table2674
+- GCC_except_table2679
+- GCC_except_table2680
+- GCC_except_table2683
+- GCC_except_table2684
+- GCC_except_table2685
+- GCC_except_table2689
+- GCC_except_table2695
+- GCC_except_table2702
+- GCC_except_table913
+- GCC_except_table923
+- GCC_except_table924
+- GCC_except_table927
+- GCC_except_table931
+- GCC_except_table932
+- GCC_except_table943
+- GCC_except_table944
+- GCC_except_table952
+- GCC_except_table953
+- GCC_except_table976
+- _ZL8snprintfPcU25pass_dynamic_object_size1mPKcz.1115
+- __block_descriptor_tmp.2189
+CStrings:
++ " does not allow the "
++ " formatting argument"
++ " option"
++ "!="
++ "01"
++ "01234567"
++ "0123456789abcdef"
++ "0123456789abcdefghijklmnopqrstuvwxyz"
++ "0B"
++ "0X"
++ "0b"
++ "0x"
++ "<"
++ "<="
++ ">"
++ ">="
++ "An argument index may not have a negative value"
++ "End of input while parsing an argument index"
++ "End of input while parsing format specifier precision"
++ "Integral value outside the range of the char type"
++ "Replacement argument isn't a standard signed or unsigned integer type"
++ "The argument index is invalid"
++ "The argument index should end with a ':' or a '}'"
++ "The argument index starts with an invalid character"
++ "The argument index value is too large for the number of arguments supplied"
++ "The fill option contains an invalid value"
++ "The format specifier contains malformed Unicode characters"
++ "The format specifier for "
++ "The format specifier should consume the input or end with a '}'"
++ "The format string contains an invalid escape sequence"
++ "The format string terminates at a '{'"
++ "The numeric value of the format specifier is too large"
++ "The precision option does not contain a value or an argument index"
++ "The replacement field misses a terminating '}'"
++ "The type does not fit in the mask"
++ "The type option contains an invalid value for "
++ "The type option contains an invalid value for a string formatting argument"
++ "The value of the argument index exceeds its maximum value"
++ "The width option should not have a leading zero"
++ "Using automatic argument numbering in manual argument numbering mode"
++ "Using manual argument numbering in automatic argument numbering mode"
++ "a bool"
++ "a character"
++ "a floating-point"
++ "a pointer"
++ "alternate form"
++ "an integer"
++ "checkASCIIEncoding"
++ "failed to parse unsupported ASCII character {} at offset {}"
++ "false"
++ "if"
++ "ifdef"
++ "infnanINFNAN"
++ "parseEndSubsetCommand"
++ "precision"
++ "sign"
++ "unexpected 'endSubset' command"
++ "zero-padding"
+
+```
