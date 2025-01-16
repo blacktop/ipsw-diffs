@@ -1,0 +1,131 @@
+## CoreLocation
+
+> `/System/Library/Frameworks/CoreLocation.framework/CoreLocation`
+
+```diff
+
+-2956.0.5.0.0
+-  __TEXT.__text: 0x1bcfb0
++2956.0.7.0.0
++  __TEXT.__text: 0x1bcffc
+   __TEXT.__auth_stubs: 0x1a10
+   __TEXT.__objc_methlist: 0x9524
+   __TEXT.__const: 0x4a05
+-  __TEXT.__gcc_except_tab: 0xcdf4
+-  __TEXT.__oslogstring: 0x33c40
+-  __TEXT.__cstring: 0x201d1
++  __TEXT.__gcc_except_tab: 0xcdf8
++  __TEXT.__oslogstring: 0x33d66
++  __TEXT.__cstring: 0x20281
+   __TEXT.__ustring: 0x750
+   __TEXT.__unwind_info: 0x53e0
+   __TEXT.__objc_classname: 0x1397
+CStrings:
++ "#CLELS,%{public}@,sendLocation,lat,%{sensitive}.7f,lon,%{sensitive}.7f,hunc,%{public}f,alt,%{sensitive}f,ellipsoidalAlt,%{sensitive}f,vunc,%{public}f,timestamp,%{public}@,locationType,%{public}d,integrity,%{public}d"
++ "#CLELS,%{public}@,updateLocation,lat,%{sensitive}.7f,lon,%{sensitive}.7f,hunc,%{public}f,alt,%{sensitive}f,ellipsoidalAlt,%{sensitive}f,vunc,%{public}f,timestamp,%{public}@,locationType,%{public}d,integrity,%{public}d"
++ ",LL,%{sensitive}.7lf,%{sensitive}.7lf"
++ ",fSnapLL,%{sensitive}.7lf,%{sensitive}.7lf"
++ ",pSnapLL,%{sensitive}.7lf,%{sensitive}.7lf"
++ ",rwFSnapOfstLL,%{sensitive}.7lf,%{sensitive}.7lf"
++ ",rwLL,%{sensitive}.7lf,%{sensitive}.7lf"
++ ",rwSnapLL,%{sensitive}.7lf,%{sensitive}.7lf"
++ ",rwSnapOfstLL,%{sensitive}.7lf,%{sensitive}.7lf"
++ ",snapLL,%{sensitive}.7lf,%{sensitive}.7lf"
++ "19:23:04"
++ "CLCommonCompareLocationEqualityClient compared two coordinates that were identical other than their reference frames: (%{sensitive}lf, %{sensitive}lf, %d) (%{sensitive}lf, %{sensitive}lf, %d)"
++ "CLMM, %{public}.1lf, New Snap Coordinates,%s,inSnapLat,%{sensitive}.8lf,inSnapLon,%{sensitive}.8lf,outSnapLat,%{sensitive}.8lf,outSnapLon,%{sensitive}.8lf"
++ "CLMM, TBA,lat,%{sensitive}.8lf,lon,%{sensitive}.8lf,unc,%{public}.2lf,searchRadius,%{public}.1lf,isCloseToTunnel,%{public}d,isCloseToBridge,%{public}d,isTunnel,%{public}d,isBridge,%{public}d"
++ "CLMM,%{public}.1lf,Propagating,lat,%{sensitive}.8lf,lon,%{sensitive}.8lf,course,%{public}.3lf,speed,%{public}.1lf,speedLimit,%{public}.1lf"
++ "CLMM,%{public}.1lf,TEPA,ell,%{sensitive}.7lf,%{sensitive}.7lf,sll,%{sensitive}.7lf,%{sensitive}.7lf,alt,%{public}.1lf,vUnc,%{public}.1lf,length,%{public}.2lf,distFromCurrentParticle,%{public}.1lf,iterCountOut,%{public}d,iterCountIn,%{public}d"
++ "CLMM,%{public}.1lf,filterReset,LL,%{sensitive}.7lf,%{sensitive}.7lf"
++ "CLMM,%{public}.1lf,filterResetForReseed,LL,%{sensitive}.7lf,%{sensitive}.7lf"
++ "CLMM,%{public}.1lf,lat,%{sensitive}.8lf,lon,%{sensitive}.8lf,alt,%{public}.2lf,course,%{public}.1lf,snapLat,%{sensitive}.8lf,snapLon,%{sensitive}.8lf,snapCourse,%{public}.1lf,horizontalError,%{public}.2lf,hunc,%{public}.2lf,ratio,%{public}.2lf"
++ "CLMM,%{public}.1lf,routeHint,add particle,lat,%{sensitive}.8lf,lon,%{sensitive}.8lf,course,%{public}.3lf,rseg,%{private}lld,fwd,%{public}d"
++ "CLMM,%{public}.1lf,routeHints,meas,moveOnRouteRoads,ll,%{sensitive}.7lf,%{sensitive}.7lf,course,%{public}.3lf,hunc,%{public}.3lf,cunc,%{public}.3lf,count,%{public}lu"
++ "CLMM,%{public}.1lf,routeHints,meas,projection,ll,%{sensitive}.7lf,%{sensitive}.7lf,course,%{public}.3lf,hunc,%{public}.3lf,cunc,%{public}.3lf,count,%{public}lu,confidence,%{public}.4lf"
++ "CLMM,%{public}.2lf,CLGeoMapFeatureAccessGeometryPedestrian,ConnectedRoads found 0 roads in buffer, %{private}lld, totalResults,%{public}lu,roadStartLL,%{sensitive}.7lf,%{sensitive}.7lf,roadEndLL,%{sensitive}.7lf,%{sensitive}.7lf,searchCoordinate,%{sensitive}.7lf,%{sensitive}.7lf"
++ "CLMM,%{public}.2lf,CLGeoMapFeatureAccessGeometryPedestrian,ConnectedRoads found 0 roads, %{private}lld, totalResults,%{public}lu,roadStartLL,%{sensitive}.7lf,%{sensitive}.7lf,roadEndLL,%{sensitive}.7lf,%{sensitive}.7lf,searchCoordinate,%{sensitive}.7lf,%{sensitive}.7lf"
++ "CLMM,%{public}s,trip,%{public}lld,T,%{public}.1lf,machT,%{public}.2lf,contT,%{public}.2lf,gpsTMs,%{public}d,%{public}d,LL,%{sensitive}.7lf,%{sensitive}.7lf,hunc,%{public}.1lf,alt,%{public}.1lf,vunc,%{public}.1lf,crse,%{public}.1lf,crseUnc,%{public}.1lf,spdKph,%{public}.3lf,spdUncMps,%{public}.1lf,a95,%{public}.1lf,b95,%{public}.1lf,theta,%{public}.1lf,snapLL,%{sensitive}.7lf,%{sensitive}.7lf,snapCrse,%{public}.1lf,fSnapLL,%{sensitive}.7lf,%{sensitive}.7lf,fSnapCrse,%{public}.1lf,pSnapLL,%{sensitive}.7lf,%{sensitive}.7lf,rwSnapLL,%{sensitive}.7lf,%{sensitive}.7lf,rwSnapOfstLL,%{sensitive}.7lf,%{sensitive}.7lf,rwFSnapOfstLL,%{sensitive}.7lf,%{sensitive}.7lf,rwLL,%{sensitive}.7lf,%{sensitive}.7lf,score,%{public}.1lf,ratio,%{public}.1lf,varFac,%{public}.7g,deltaAz,%{public}.3lf,alngTrk,%{public}.3lf,acrsTrk,%{public}.3lf,usable,%{public}d,ambiguous,%{public}d,proj,%{public}.3lf,type,%{public}d,rseg,%{private}lld,frc,%{public}d,fow,%{public}d,road,\"%{private}s\",activity,%{public}d,actConf,%{public}d,static,%{public}d,staticSetAt,%{public}.1lf,mount,%{public}d,fitness,%{public}d,shifted,%{public}d,propagated,%{public}d,rail,%{public}d,bridge,%{public}d,tunnel,%{public}d,favGPS,%{public}d,gnssCont,%{public}d,locationType,%{public}d,lifespan,%{public}.1lf,rawCourse,%{public}.1lf,sigEnv,%{public}d,sigEnvFid,%{public}d,latency,%{public}.1lf,rw,%{public}.2lf"
++ "CLMM,CLTSP,%{public}.1lf,type,%{public}d,rawLL,%{sensitive}.8lf,%{sensitive}.8lf,rawCourse,%{public}.3lf,speed,%{public}.3lf,snapLL,%{sensitive}.8lf,%{sensitive}.8lf,snapCourse,%{public}.3lf,ratio,%{public}.6lf,projection,%{public}.6lf,score,%{public}.12lf,valid,%{public}d,forward,%{public}d,deltaN,%{public}.3lf,deltaE,%{public}.3lf,deltaCourse,%{public}.3lf,original,%{public}d,str,%{public}s"
++ "CLMM,CLTSP,Buildings,%{public}.1lf,buffering map data,ll,%{sensitive}.7lf,%{sensitive}.7lf,radius,%{public}.2lf,mapsAPICalls,%{public}d,bufferCalls,%{public}d,queryInProgress,%{public}d"
++ "CLMM,CLTSP,Buildings,%{public}.1lf,cacheRoadData,invalid input,ll,%{sensitive}.7lf,%{sensitive}.7lf,radius,%{public}.2lf"
++ "CLMM,CLTSP,Buildings,MapHelperService,bldgCount,%{public}d,sizeOfBuildings,%{public}d,convertedBuildings,%{public}d,responseTime,%{public}.1lf,LL,%{sensitive}.7lf,%{sensitive}.7lf,radius,%{public}.2lf,error,%{public}d,apiCalls,%{public}d,bufferSynchronously,%{public}d,bufferingFailedCount,%{public}d,consecutiveBufferingFailed,%{public}d,network,%{public}d"
++ "CLMM,CLTSP,Buildings,bufferDataUsingMapsAPI,bldgCount,%{public}lu,sizeOfBuildings,%{public}d,responseTime,%{public}.1lf,LL,%{sensitive}.7lf,%{private}.7lf,radius,%{public}.2lf,error,%{public}d,apiCalls,%{public}d,bufferSynchronously,%{public}d,bufferingFailedCount,%{public}d,consecutiveBufferingFailed,%{public}d"
++ "CLMM,CLTSP,MapHelperService,XPCService returned Basic style building data,buildingCount,%{public}d,error,%{public}d,responseTime,%{public}.1lf,LL,%{sensitive}.7lf,%{sensitive}.7lf,radius,%{public}.2lf,syncCall,%{public}d"
++ "CLMM,CLTSP,MapHelperService,XPCService returned Extended style building data,buildingCount,%{public}d,error,%{public}d,responseTime,%{public}.1lf,LL,%{sensitive}.7lf,%{sensitive}.7lf,radius,%{public}.2lf,syncCall,%{public}d"
++ "CLMM,CLTSP,Roads,%{public}.1lf,buffering map data,ll,%{sensitive}.7lf,%{sensitive}.7lf,radius,%{public}.2lf,mapsAPICalls,%{public}d,bufferCalls,%{public}d,connectionUsed,%{public}lu,queryInProgress,%{public}d,network,%{public}d"
++ "CLMM,CLTSP,Roads,MapHelperService,roadCount,%{public}d,sizeOfRoad,%{public}d,responseTime,%{public}.1lf,LL,%{sensitive}.7lf,%{sensitive}.7lf,radius,%{public}.2lf,error,%{public}d,apiCalls,%{public}d,connectionBufferUsedCount,%{public}lu,bufferDataCalls,%{public}d,bufferingFailedCount,%{public}d,consecutiveBufferingFailed,%{public}d,network,%{public}d"
++ "CLMM,CLTSP,Roads,queryForRoadsWithinDistance returned,xpcError,LL,%{sensitive}.7lf,%{sensitive}.7lf,radius,%{public}.2lf,apiCalls,%{public}d,bufferDataCalls,%{public}d,bufferingFailedCount,%{public}d,consecutiveBufferingFailed,%{public}d,network,%{public}d"
++ "CLMM,DOT,%{public}.1lf,lat,%{sensitive}.7lf,lon,%{sensitive}.7lf,course,%{public}.1lf,courseUnc,%{public}.1lf,rw,%{public}.1lf,startLat,%{private}.7lf,startLon,%{private}.7lf,length,%{public}.1lf,speed,%{public}.3lf,isOneWay,%{public}d,isRailWay,%{public}d,isTunnel,%{public}d,isBridge,%{public}d,distFromIntersection,%{public}.1lf,isFreeway,%{public}d,machContinuousTime,%{public}.3lf,lookBehindDistance,%{public}.2lf,type,%{public}d"
++ "CLMM,MMPA,%{public}.1lf,lat,%{sensitive}.7lf,lon,%{sensitive}.7lf,a,%{public}.2lf,b,%{public}.2lf,az,%{public}.3lf,course,%{public}.3lf"
++ "CLMM,TBA,roadsWithinDistance returns query failed,lat,%{sensitive}.8lf,lon,%{sensitive}.8lf,searchRadius,%{public}.1lf"
++ "CLMM,invalid heading for CLMapRoad coordinate,%{sensitive}.7lf,%{sensitive}.7lf,prev,%{sensitive}.7lf,%{sensitive}.7lf"
++ "CLMM,railwayParticle,timestamp,%{public}.3lf,lat,%{sensitive}.7lf,lon,%{sensitive}.7lf,course,%{public}.3lf,rseg,%{private}lld"
++ "CLMMPED,%{public}.1lf,DOT,%{public}.1lf,lat,%{sensitive}.7lf,lon,%{sensitive}.7lf,course,%{public}.1lf,courseUnc,%{public}.1lf,rw,%{public}.1lf,startLat,%{sensitive}.7lf,startLon,%{sensitive}.7lf,length,%{public}.1lf,speed,%{public}.3lf,isOneWay,%{public}d,isRailWay,%{public}d,isTunnel,%{public}d,isBridge,%{public}d,distFromIntersection,%{public}.1lf,isFreeway,%{public}d,machContTime,%{public}.3lf,lookBehindDist,%{public}.2lf,type,%{public}d"
++ "CLMMPED,%{public}.1lf,isSolutionAmbiguous,-1,buildingCount,%{public}d,latitude,%{sensitive}.7lf,longitude,%{sensitive}.7lf,course,%{public}.2lf,rightSideCount,%{public}d,leftSideCount,%{public}d,searchDistance,%{public}.2lf,averageBuildingDirection,%{public}.2lf"
++ "CLMMPED,%{public}.1lf,lat,%{sensitive}.8lf,lon,%{sensitive}.8lf,alt,%{public}.2lf,course,%{public}.1lf,snapLat,%{private}.8lf,snapLon,%{private}.8lf,snapCourse,%{public}.1lf,horizontalError,%{public}.2lf,hunc,%{public}.2lf,ratio,%{public}.2lf"
++ "CLMMPED,%{public}.1lf,routeHints,meas,moveOnRouteRoads,ll,%{sensitive}.7lf,%{sensitive}.7lf,course,%{public}.3lf,hunc,%{public}.3lf,cunc,%{public}.3lf,count,%{public}lu"
++ "CLMMPED,%{public}.1lf,routeHints,meas,projection,ll,%{sensitive}.7lf,%{sensitive}.7lf,course,%{public}.3lf,hunc,%{public}.3lf,cunc,%{public}.3lf,count,%{public}lu,confidence,%{public}.4lf"
++ "CLMMPED,%{public}.1lf,routeHints,solutionDiff,%{public}.2lf,newSolutionDiff,%{public}.2lf,courseDiffNewAndRawSolution,%{public}.2lf,factor,%{public}.5lf,bestParticle,%{sensitive}.8lf,%{sensitive}.8lf,%{public}.3lf,%{private}lld,newBestParticle,%{sensitive}.8lf,%{sensitive}.8lf,%{public}.3lf,%{private}lld"
++ "CLMMPED,%{public}.1lf,solutionJumpCheck,shouldNotPropagateFromLastSnap,%{public}d,consecutiveAmbiguityEpochCount,%{public}.1lf,deltaAz,%{public}.2lf,courseDiffWithPriorSolution,%{public}.2lf,acrossTrack,%{public}.2lf,bestLL,%{sensitive}.7lf,%{sensitive}.7lf"
++ "CLMMPED,%{public}.1lf,solutionJumpCheck,solution replaced with previous propagated solution,%{public}.2lf,bestLL,%{sensitive}.7lf,%{sensitive}.7lf,newLL,%{sensitive}.7lf,%{sensitive}.7lf"
++ "CLTSP,%{public}.1lf,getSnapCandidates,findRoadsNear failed,LL,%{sensitive}.7lf,%{sensitive}.7lf"
++ "CLTSP,%{public}.1lf,getSnapCandidates,location shifting failed,LL,%{sensitive}.7lf,%{sensitive}.7lf"
++ "CLTSP,%{public}.1lf,roads not available close to this point,LL,%{sensitive}.7lf,%{sensitive}.7lf"
++ "CLTSP,%{public}.3lf,aStarConstruct,found neighbors for %{private}lld,size,%{public}lu,g,%{public}.2lf,h,%{public}.2lf,cost,%{public}.2lf,iterationCount,%{public}d,stopLL,%{sensitive}.7lf,%{sensitive}.7lf,stopJunction,%{private}d,stopAlt,%{private}.2lf,processingTime,%{private}.2lf,openSet,%{public}d,closedSet,%{public}d,iterationThreshold,%{public}d"
++ "Jan 10 2025"
+- "#CLELS,%{public}@,sendLocation,lat,%{private}.7f,lon,%{private}.7f,hunc,%{public}f,alt,%{private}f,ellipsoidalAlt,%{private}f,vunc,%{public}f,timestamp,%{public}@,locationType,%{public}d,integrity,%{public}d"
+- "#CLELS,%{public}@,updateLocation,lat,%{private}.7f,lon,%{private}.7f,hunc,%{public}f,alt,%{private}f,ellipsoidalAlt,%{private}f,vunc,%{public}f,timestamp,%{public}@,locationType,%{public}d,integrity,%{public}d"
+- ",LL,%.7lf,%.7lf"
+- ",fSnapLL,%.7lf,%.7lf"
+- ",pSnapLL,%.7lf,%.7lf"
+- ",rwFSnapOfstLL,%.7lf,%.7lf"
+- ",rwLL,%.7lf,%.7lf"
+- ",rwSnapLL,%.7lf,%.7lf"
+- ",rwSnapOfstLL,%.7lf,%.7lf"
+- ",snapLL,%.7lf,%.7lf"
+- "23:28:52"
+- "CLCommonCompareLocationEqualityClient compared two coordinates that were identical other than their reference frames: (%lf, %lf, %d) (%lf, %lf, %d)"
+- "CLMM, %{public}.1lf, New Snap Coordinates,%s,inSnapLat,%{private}.8lf,inSnapLon,%{private}.8lf,outSnapLat,%{private}.8lf,outSnapLon,%{private}.8lf"
+- "CLMM, TBA,lat,%{private}.8lf,lon,%{private}.8lf,unc,%{public}.2lf,searchRadius,%{public}.1lf,isCloseToTunnel,%{public}d,isCloseToBridge,%{public}d,isTunnel,%{public}d,isBridge,%{public}d"
+- "CLMM,%{public}.1lf,Propagating,lat,%{private}.8lf,lon,%{private}.8lf,course,%{public}.3lf,speed,%{public}.1lf,speedLimit,%{public}.1lf"
+- "CLMM,%{public}.1lf,TEPA,ell,%{private}.7lf,%{private}.7lf,sll,%{private}.7lf,%{private}.7lf,alt,%{public}.1lf,vUnc,%{public}.1lf,length,%{public}.2lf,distFromCurrentParticle,%{public}.1lf,iterCountOut,%{public}d,iterCountIn,%{public}d"
+- "CLMM,%{public}.1lf,filterReset,LL,%{private}.7lf,%{private}.7lf"
+- "CLMM,%{public}.1lf,filterResetForReseed,LL,%{private}.7lf,%{private}.7lf"
+- "CLMM,%{public}.1lf,lat,%{private}.8lf,lon,%{private}.8lf,alt,%{public}.2lf,course,%{public}.1lf,snapLat,%{private}.8lf,snapLon,%{private}.8lf,snapCourse,%{public}.1lf,horizontalError,%{public}.2lf,hunc,%{public}.2lf,ratio,%{public}.2lf"
+- "CLMM,%{public}.1lf,routeHint,add particle,lat,%{private}.8lf,lon,%{private}.8lf,course,%{public}.3lf,rseg,%{private}lld,fwd,%{public}d"
+- "CLMM,%{public}.1lf,routeHints,meas,moveOnRouteRoads,ll,%{private}.7lf,%{private}.7lf,course,%{public}.3lf,hunc,%{public}.3lf,cunc,%{public}.3lf,count,%{public}lu"
+- "CLMM,%{public}.1lf,routeHints,meas,projection,ll,%{private}.7lf,%{private}.7lf,course,%{public}.3lf,hunc,%{public}.3lf,cunc,%{public}.3lf,count,%{public}lu,confidence,%{public}.4lf"
+- "CLMM,%{public}.2lf,CLGeoMapFeatureAccessGeometryPedestrian,ConnectedRoads found 0 roads in buffer, %{private}lld, totalResults,%{public}lu,roadStartLL,%{private}.7lf,%{private}.7lf,roadEndLL,%{private}.7lf,%{private}.7lf,searchCoordinate,%{private}.7lf,%{private}.7lf"
+- "CLMM,%{public}.2lf,CLGeoMapFeatureAccessGeometryPedestrian,ConnectedRoads found 0 roads, %{private}lld, totalResults,%{public}lu,roadStartLL,%{private}.7lf,%{private}.7lf,roadEndLL,%{private}.7lf,%{private}.7lf,searchCoordinate,%{private}.7lf,%{private}.7lf"
+- "CLMM,%{public}s,trip,%{public}lld,T,%{public}.1lf,machT,%{public}.2lf,contT,%{public}.2lf,gpsTMs,%{public}d,%{public}d,LL,%{private}.7lf,%{private}.7lf,hunc,%{public}.1lf,alt,%{public}.1lf,vunc,%{public}.1lf,crse,%{public}.1lf,crseUnc,%{public}.1lf,spdKph,%{public}.3lf,spdUncMps,%{public}.1lf,a95,%{public}.1lf,b95,%{public}.1lf,theta,%{public}.1lf,snapLL,%{private}.7lf,%{private}.7lf,snapCrse,%{public}.1lf,fSnapLL,%{private}.7lf,%{private}.7lf,fSnapCrse,%{public}.1lf,pSnapLL,%{private}.7lf,%{private}.7lf,rwSnapLL,%{private}.7lf,%{private}.7lf,rwSnapOfstLL,%{private}.7lf,%{private}.7lf,rwFSnapOfstLL,%{private}.7lf,%{private}.7lf,rwLL,%{private}.7lf,%{private}.7lf,score,%{public}.1lf,ratio,%{public}.1lf,varFac,%{public}.7g,deltaAz,%{public}.3lf,alngTrk,%{public}.3lf,acrsTrk,%{public}.3lf,usable,%{public}d,ambiguous,%{public}d,proj,%{public}.3lf,type,%{public}d,rseg,%{private}lld,frc,%{public}d,fow,%{public}d,road,\"%{private}s\",activity,%{public}d,actConf,%{public}d,static,%{public}d,staticSetAt,%{public}.1lf,mount,%{public}d,fitness,%{public}d,shifted,%{public}d,propagated,%{public}d,rail,%{public}d,bridge,%{public}d,tunnel,%{public}d,favGPS,%{public}d,gnssCont,%{public}d,locationType,%{public}d,lifespan,%{public}.1lf,rawCourse,%{public}.1lf,sigEnv,%{public}d,sigEnvFid,%{public}d,latency,%{public}.1lf,rw,%{public}.2lf"
+- "CLMM,CLTSP,%{public}.1lf,type,%{public}d,rawLL,%{private}.8lf,%{private}.8lf,rawCourse,%{public}.3lf,speed,%{public}.3lf,snapLL,%{private}.8lf,%{private}.8lf,snapCourse,%{public}.3lf,ratio,%{public}.6lf,projection,%{public}.6lf,score,%{public}.12lf,valid,%{public}d,forward,%{public}d,deltaN,%{public}.3lf,deltaE,%{public}.3lf,deltaCourse,%{public}.3lf,original,%{public}d,str,%{public}s"
+- "CLMM,CLTSP,Buildings,%{public}.1lf,buffering map data,ll,%{private}.7lf,%{private}.7lf,radius,%{public}.2lf,mapsAPICalls,%{public}d,bufferCalls,%{public}d,queryInProgress,%{public}d"
+- "CLMM,CLTSP,Buildings,%{public}.1lf,cacheRoadData,invalid input,ll,%{private}.7lf,%{private}.7lf,radius,%{public}.2lf"
+- "CLMM,CLTSP,Buildings,MapHelperService,bldgCount,%{public}d,sizeOfBuildings,%{public}d,convertedBuildings,%{public}d,responseTime,%{public}.1lf,LL,%{private}.7lf,%{private}.7lf,radius,%{public}.2lf,error,%{public}d,apiCalls,%{public}d,bufferSynchronously,%{public}d,bufferingFailedCount,%{public}d,consecutiveBufferingFailed,%{public}d,network,%{public}d"
+- "CLMM,CLTSP,Buildings,bufferDataUsingMapsAPI,bldgCount,%{public}lu,sizeOfBuildings,%{public}d,responseTime,%{public}.1lf,LL,%{private}.7lf,%{private}.7lf,radius,%{public}.2lf,error,%{public}d,apiCalls,%{public}d,bufferSynchronously,%{public}d,bufferingFailedCount,%{public}d,consecutiveBufferingFailed,%{public}d"
+- "CLMM,CLTSP,MapHelperService,XPCService returned Basic style building data,buildingCount,%{public}d,error,%{public}d,responseTime,%{public}.1lf,LL,%{private}.7lf,%{private}.7lf,radius,%{public}.2lf,syncCall,%{public}d"
+- "CLMM,CLTSP,MapHelperService,XPCService returned Extended style building data,buildingCount,%{public}d,error,%{public}d,responseTime,%{public}.1lf,LL,%{private}.7lf,%{private}.7lf,radius,%{public}.2lf,syncCall,%{public}d"
+- "CLMM,CLTSP,Roads,%{public}.1lf,buffering map data,ll,%{private}.7lf,%{private}.7lf,radius,%{public}.2lf,mapsAPICalls,%{public}d,bufferCalls,%{public}d,connectionUsed,%{public}lu,queryInProgress,%{public}d,network,%{public}d"
+- "CLMM,CLTSP,Roads,MapHelperService,roadCount,%{public}d,sizeOfRoad,%{public}d,responseTime,%{public}.1lf,LL,%{private}.7lf,%{private}.7lf,radius,%{public}.2lf,error,%{public}d,apiCalls,%{public}d,connectionBufferUsedCount,%{public}lu,bufferDataCalls,%{public}d,bufferingFailedCount,%{public}d,consecutiveBufferingFailed,%{public}d,network,%{public}d"
+- "CLMM,CLTSP,Roads,queryForRoadsWithinDistance returned,xpcError,LL,%{private}.7lf,%{private}.7lf,radius,%{public}.2lf,apiCalls,%{public}d,bufferDataCalls,%{public}d,bufferingFailedCount,%{public}d,consecutiveBufferingFailed,%{public}d,network,%{public}d"
+- "CLMM,DOT,%{public}.1lf,lat,%{private}.7lf,lon,%{private}.7lf,course,%{public}.1lf,courseUnc,%{public}.1lf,rw,%{public}.1lf,startLat,%{private}.7lf,startLon,%{private}.7lf,length,%{public}.1lf,speed,%{public}.3lf,isOneWay,%{public}d,isRailWay,%{public}d,isTunnel,%{public}d,isBridge,%{public}d,distFromIntersection,%{public}.1lf,isFreeway,%{public}d,machContinuousTime,%{public}.3lf,lookBehindDistance,%{public}.2lf,type,%{public}d"
+- "CLMM,MMPA,%{public}.1lf,lat,%{private}.7lf,lon,%{private}.7lf,a,%{public}.2lf,b,%{public}.2lf,az,%{public}.3lf,course,%{public}.3lf"
+- "CLMM,TBA,roadsWithinDistance returns query failed,lat,%{private}.8lf,lon,%{private}.8lf,searchRadius,%{public}.1lf"
+- "CLMM,invalid heading for CLMapRoad coordinate,%{private}.7lf,%{private}.7lf,prev,%{private}.7lf,%{private}.7lf"
+- "CLMM,railwayParticle,timestamp,%{public}.3lf,lat,%{private}.7lf,lon,%{private}.7lf,course,%{public}.3lf,rseg,%{private}lld"
+- "CLMMPED,%{public}.1lf,DOT,%{public}.1lf,lat,%{private}.7lf,lon,%{private}.7lf,course,%{public}.1lf,courseUnc,%{public}.1lf,rw,%{public}.1lf,startLat,%{private}.7lf,startLon,%{private}.7lf,length,%{public}.1lf,speed,%{public}.3lf,isOneWay,%{public}d,isRailWay,%{public}d,isTunnel,%{public}d,isBridge,%{public}d,distFromIntersection,%{public}.1lf,isFreeway,%{public}d,machContTime,%{public}.3lf,lookBehindDist,%{public}.2lf,type,%{public}d"
+- "CLMMPED,%{public}.1lf,isSolutionAmbiguous,-1,buildingCount,%{public}d,latitude,%{private}.7lf,longitude,%{private}.7lf,course,%{public}.2lf,rightSideCount,%{public}d,leftSideCount,%{public}d,searchDistance,%{public}.2lf,averageBuildingDirection,%{public}.2lf"
+- "CLMMPED,%{public}.1lf,lat,%{private}.8lf,lon,%{private}.8lf,alt,%{public}.2lf,course,%{public}.1lf,snapLat,%{private}.8lf,snapLon,%{private}.8lf,snapCourse,%{public}.1lf,horizontalError,%{public}.2lf,hunc,%{public}.2lf,ratio,%{public}.2lf"
+- "CLMMPED,%{public}.1lf,routeHints,meas,moveOnRouteRoads,ll,%{private}.7lf,%{private}.7lf,course,%{public}.3lf,hunc,%{public}.3lf,cunc,%{public}.3lf,count,%{public}lu"
+- "CLMMPED,%{public}.1lf,routeHints,meas,projection,ll,%{private}.7lf,%{private}.7lf,course,%{public}.3lf,hunc,%{public}.3lf,cunc,%{public}.3lf,count,%{public}lu,confidence,%{public}.4lf"
+- "CLMMPED,%{public}.1lf,routeHints,solutionDiff,%{public}.2lf,newSolutionDiff,%{public}.2lf,courseDiffNewAndRawSolution,%{public}.2lf,factor,%{public}.5lf,bestParticle,%{private}.8lf,%{private}.8lf,%{public}.3lf,%{private}lld,newBestParticle,%{private}.8lf,%{private}.8lf,%{public}.3lf,%{private}lld"
+- "CLMMPED,%{public}.1lf,solutionJumpCheck,shouldNotPropagateFromLastSnap,%{public}d,consecutiveAmbiguityEpochCount,%{public}.1lf,deltaAz,%{public}.2lf,courseDiffWithPriorSolution,%{public}.2lf,acrossTrack,%{public}.2lf,bestLL,%{private}.7lf,%{private}.7lf"
+- "CLMMPED,%{public}.1lf,solutionJumpCheck,solution replaced with previous propagated solution,%{public}.2lf,bestLL,%{private}.7lf,%{private}.7lf,newLL,%{private}.7lf,%{private}.7lf"
+- "CLTSP,%{public}.1lf,getSnapCandidates,findRoadsNear failed,LL,%{private}.7lf,%{private}.7lf"
+- "CLTSP,%{public}.1lf,getSnapCandidates,location shifting failed,LL,%{private}.7lf,%{private}.7lf"
+- "CLTSP,%{public}.1lf,roads not available close to this point,LL,%{private}.7lf,%{private}.7lf"
+- "CLTSP,%{public}.3lf,aStarConstruct,found neighbors for %{private}lld,size,%{public}lu,g,%{public}.2lf,h,%{public}.2lf,cost,%{public}.2lf,iterationCount,%{public}d,stopLL,%{private}.7lf,%{private}.7lf,stopJunction,%{private}d,stopAlt,%{private}.2lf,processingTime,%{private}.2lf,openSet,%{public}d,closedSet,%{public}d,iterationThreshold,%{public}d"
+- "Dec 17 2024"
+
+```

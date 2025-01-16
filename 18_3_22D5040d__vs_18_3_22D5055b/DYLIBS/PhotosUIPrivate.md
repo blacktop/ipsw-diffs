@@ -1,0 +1,15 @@
+## PhotosUIPrivate
+
+> `/System/Library/PrivateFrameworks/PhotosUIPrivate.framework/PhotosUIPrivate`
+
+```diff
+
+-740.0.200.0.0
+-  __TEXT.__text: 0x5994c8
++742.0.141.0.0
++  __TEXT.__text: 0x5994d8
+   __TEXT.__auth_stubs: 0x8db0
+   __TEXT.__objc_methlist: 0x4ae3c
+   __TEXT.__const: 0x11b60
+
+```

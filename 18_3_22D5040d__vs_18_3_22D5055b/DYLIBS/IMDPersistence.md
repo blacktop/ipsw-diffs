@@ -1,0 +1,33 @@
+## IMDPersistence
+
+> `/System/Library/PrivateFrameworks/IMDPersistence.framework/IMDPersistence`
+
+```diff
+
+-1402.400.122.0.0
+-  __TEXT.__text: 0x11c370
++1402.400.131.2.4
++  __TEXT.__text: 0x11c408
+   __TEXT.__auth_stubs: 0x2820
+   __TEXT.__objc_methlist: 0x37d4
+   __TEXT.__const: 0xb6a
+-  __TEXT.__cstring: 0x39671
+-  __TEXT.__oslogstring: 0x1a265
++  __TEXT.__cstring: 0x39691
++  __TEXT.__oslogstring: 0x1a295
+   __TEXT.__gcc_except_tab: 0xe510
+   __TEXT.__ustring: 0x434
+   __TEXT.__dlopen_cstrs: 0x2a4
+
+   - /usr/lib/swift/libswiftunistd.dylib
+   Functions: 4550
+   Symbols:   2357
+-  CStrings:  7459
++  CStrings:  7462
+ 
+CStrings:
++ "Forcing a new xpc connection"
++ "IMDPersistenceAgent disconnected"
++ "IMDPersistenceConnection"
+
+```
