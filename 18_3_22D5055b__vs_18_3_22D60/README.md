@@ -565,24 +565,17 @@ CStrings:
 
 ## MachO
 
-### 🆕 NEW (9)
+### 🆕 NEW (2)
 
 - `/System/Library/ExtensionKit/Extensions/ConditionalEngineAppIntentsExtension.appex/ConditionalEngineAppIntentsExtension`
 - `/System/Library/ExtensionKit/Extensions/ConditionalEngineLighthouseExtension.appex/ConditionalEngineLighthouseExtension`
-- `/usr/lib/libLogRedirect.dylib`
-- `/usr/lib/libffi-trampolines.dylib`
-- `/usr/lib/libglInterpose.dylib`
-- `/usr/lib/libmobileassetd.dylib`
-- `/usr/lib/libobjc-trampolines.dylib`
-- `/usr/lib/libstdc++.6.0.9.dylib`
-- `/usr/libexec/BatteryAlgorithms.framework/BatteryAlgorithms`
 
 ### ❌ Removed (2)
 
 - `/System/Library/PrivateFrameworks/DiagnosticExtensions.framework/PlugIns/AirPlayDiagnosticExtension.appex/AirPlayDiagnosticExtension`
 - `/usr/libexec/memoryanalyticsd`
 
-### ⬆️ Updated (317)
+### ⬆️ Updated (318)
 
 <details>
   <summary><i>View Updated</i></summary>
@@ -854,6 +847,7 @@ CStrings:
 - [/private/var/staged_system_apps/VoiceMemos.app/VoiceMemos](MACHOS/VoiceMemos.md)
 - [/private/var/staged_system_apps/Weather.app/PlugIns/WeatherWidget.appex/WeatherWidget](MACHOS/WeatherWidget.md)
 - [/private/var/staged_system_apps/Weather.app/Weather](MACHOS/Weather.md)
+- [/usr/lib/libmobileassetd.dylib](MACHOS/libmobileassetd.dylib.md)
 - [/usr/libexec/DumpPanic](MACHOS/DumpPanic.md)
 - [/usr/libexec/ReportMemoryException](MACHOS/ReportMemoryException.md)
 - [/usr/libexec/anomalydetectiond](MACHOS/anomalydetectiond.md)
