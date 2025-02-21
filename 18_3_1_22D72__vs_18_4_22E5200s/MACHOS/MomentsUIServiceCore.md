@@ -1,0 +1,243 @@
+## MomentsUIServiceCore
+
+> `/Applications/MomentsUIService.app/Frameworks/MomentsUIServiceCore.framework/MomentsUIServiceCore`
+
+```diff
+
+-205.0.1.0.0
+-  __TEXT.__text: 0x17e64
+-  __TEXT.__auth_stubs: 0xba0
+-  __TEXT.__objc_methlist: 0x50
+-  __TEXT.__const: 0x808
+-  __TEXT.__swift5_typeref: 0x308
+-  __TEXT.__objc_methname: 0x3ad3
+-  __TEXT.__cstring: 0xae1
++206.0.5.0.0
++  __TEXT.__text: 0x15a8c
++  __TEXT.__auth_stubs: 0xb10
++  __TEXT.__objc_methlist: 0xc24
++  __TEXT.__const: 0x7f8
++  __TEXT.__swift5_typeref: 0x2fa
++  __TEXT.__objc_methname: 0x3b3e
++  __TEXT.__cstring: 0x764
+   __TEXT.__constg_swiftt: 0x52c
+   __TEXT.__swift5_reflstr: 0x376
+   __TEXT.__swift5_fieldmd: 0x414
+
+   __TEXT.__objc_methtype: 0x89d
+   __TEXT.__swift5_capture: 0x58
+   __TEXT.__oslogstring: 0x30e
+-  __TEXT.__unwind_info: 0x600
++  __TEXT.__unwind_info: 0x590
+   __TEXT.__eh_frame: 0x1f0
+-  __DATA_CONST.__auth_got: 0x5d0
++  __DATA_CONST.__auth_got: 0x588
+   __DATA_CONST.__got: 0x1a8
+   __DATA_CONST.__auth_ptr: 0x148
+-  __DATA_CONST.__const: 0xac8
++  __DATA_CONST.__const: 0xcd0
+   __DATA_CONST.__objc_classlist: 0x38
+   __DATA_CONST.__objc_protolist: 0x20
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_protorefs: 0x10
+-  __DATA.__objc_const: 0x32f0
+-  __DATA.__objc_selrefs: 0x1d0
++  __DATA.__objc_const: 0x1bd8
++  __DATA.__objc_selrefs: 0x978
+   __DATA.__objc_data: 0x2b8
+-  __DATA.__data: 0x9d0
+-  __DATA.__common: 0x1d8
++  __DATA.__data: 0x950
++  __DATA.__common: 0x148
+   __DATA.__bss: 0x600
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+
+   - /usr/lib/swift/libswiftDarwin.dylib
+   - /usr/lib/swift/libswiftDataDetection.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+-  - /usr/lib/swift/libswiftFileProvider.dylib
+   - /usr/lib/swift/libswiftIntents.dylib
+   - /usr/lib/swift/libswiftMapKit.dylib
+   - /usr/lib/swift/libswiftMetal.dylib
+
+   - /usr/lib/swift/libswiftsimd.dylib
+   - /usr/lib/swift/libswiftsys_time.dylib
+   - /usr/lib/swift/libswiftunistd.dylib
+-  Functions: 597
+-  Symbols:   4478
+-  CStrings:  852
++  Functions: 561
++  Symbols:   4372
++  CStrings:  839
+ 
+Symbols:
++ _$s20MomentsUIServiceCore13MOAngelLoggerC15sheetController2os0E0VvpZMV
++ _$s20MomentsUIServiceCore13MOAngelLoggerC6assets2os0E0VvpZMV
++ _$s20MomentsUIServiceCore13MOAngelLoggerC6memory2os0E0VvpZMV
++ _$s20MomentsUIServiceCore13MOAngelLoggerC6shared2os0E0VvpZMV
++ _$s20MomentsUIServiceCore13MOAngelLoggerC7ranking2os0E0VvpZMV
++ _$s20MomentsUIServiceCore13MOAngelLoggerC9filtering2os0E0VvpZMV
++ _$s20MomentsUIServiceCore13MOMapLocationC17METERS_TO_DEGREESSdvpZMV
++ _$s20MomentsUIServiceCore13MOMapLocationC36MEDIUM_AND_HIGH_CONFIDENCE_THRESHOLDSdvpZMV
++ _$s20MomentsUIServiceCore13MOMapLocationC41LOW_CONFIDENCE_HIGH_CERTAINTITY_THRESHOLDSdvpZMV
++ _$s20MomentsUIServiceCore17MOAngelSignposterC6assets2os12OSSignposterVvpZMV
++ _$s20MomentsUIServiceCore17MOLocationShifterC6sharedACvpZMV
++ _$s20MomentsUIServiceCore19MOPOIAnnotationViewC19cityStyleAttributesSo010GEOFeaturegH0CSgvpZMV
++ _$s20MomentsUIServiceCore22MOAngelDefaultsManagerV6sharedACvpZMV
++ _$s20MomentsUIServiceCore24MOSuggestionLayoutEngineC18FullWidthCondensedV16tileSizesByCountSDySiSayAA0D13AssetTileSizeOGGvpZMV
++ _$s20MomentsUIServiceCore24MOSuggestionLayoutEngineC18FullWidthCondensedV16tileSizesByCount_WZTv_r
++ _$s20MomentsUIServiceCore24MOSuggestionLayoutEngineC9FullWidthV13oneAssetsGridSayAA0D13AssetTileSizeOGvpZMV
++ _$s20MomentsUIServiceCore24MOSuggestionLayoutEngineC9FullWidthV13sixAssetsGridSayAA0D13AssetTileSizeOGvpZMV
++ _$s20MomentsUIServiceCore24MOSuggestionLayoutEngineC9FullWidthV13tenAssetsGridSayAA0D13AssetTileSizeOGvpZMV
++ _$s20MomentsUIServiceCore24MOSuggestionLayoutEngineC9FullWidthV13twoAssetsGridSayAA0D13AssetTileSizeOGvpZMV
++ _$s20MomentsUIServiceCore24MOSuggestionLayoutEngineC9FullWidthV14fiveAssetsGridSayAA0D13AssetTileSizeOGvpZMV
++ _$s20MomentsUIServiceCore24MOSuggestionLayoutEngineC9FullWidthV14fourAssetsGridSayAA0D13AssetTileSizeOGvpZMV
++ _$s20MomentsUIServiceCore24MOSuggestionLayoutEngineC9FullWidthV14nineAssetsGridSayAA0D13AssetTileSizeOGvpZMV
++ _$s20MomentsUIServiceCore24MOSuggestionLayoutEngineC9FullWidthV15eightAssetsGridSayAA0D13AssetTileSizeOGvpZMV
++ _$s20MomentsUIServiceCore24MOSuggestionLayoutEngineC9FullWidthV15sevenAssetsGridSayAA0D13AssetTileSizeOGvpZMV
++ _$s20MomentsUIServiceCore24MOSuggestionLayoutEngineC9FullWidthV15threeAssetsGridSayAA0D13AssetTileSizeOGvpZMV
++ _$s20MomentsUIServiceCore24MOSuggestionLayoutEngineC9FullWidthV16elevenAssetsGridSayAA0D13AssetTileSizeOGvpZMV
++ _$s20MomentsUIServiceCore24MOSuggestionLayoutEngineC9FullWidthV16tileSizesByCountSDySiSayAA0D13AssetTileSizeOGGvpZMV
++ _$s20MomentsUIServiceCore24MOSuggestionLayoutEngineC9FullWidthV16tileSizesByCount_WZTm
++ _$s20MomentsUIServiceCore24MOSuggestionLayoutEngineC9FullWidthV16tileSizesByCount_WZTv_r
++ _$s20MomentsUIServiceCore24MOSuggestionLayoutEngineC9FullWidthV16twelveAssetsGridSayAA0D13AssetTileSizeOGvpZMV
++ _$s20MomentsUIServiceCore24MOSuggestionLayoutEngineC9FullWidthV18thirteenAssetsGridSayAA0D13AssetTileSizeOGvpZMV
++ _$s20MomentsUIServiceCore24MOSuggestionLayoutEngineC9HalfWidthV13oneAssetsGridSayAA0D13AssetTileSizeOGvpZMV
++ _$s20MomentsUIServiceCore24MOSuggestionLayoutEngineC9HalfWidthV13twoAssetsGridSayAA0D13AssetTileSizeOGvpZMV
++ _$s20MomentsUIServiceCore24MOSuggestionLayoutEngineC9HalfWidthV14fourAssetsGridSayAA0D13AssetTileSizeOGvpZMV
++ _$s20MomentsUIServiceCore24MOSuggestionLayoutEngineC9HalfWidthV15threeAssetsGridSayAA0D13AssetTileSizeOGvpZMV
++ _$s20MomentsUIServiceCore24MOSuggestionLayoutEngineC9HalfWidthV16tileSizesByCountSDySiSayAA0D13AssetTileSizeOGGvpZMV
++ _$s20MomentsUIServiceCore24MOSuggestionLayoutEngineC9HalfWidthV16tileSizesByCount_WZTv_r
++ _$s20MomentsUIServiceCore30MOSuggestionAssetMapsClustererC14distanceMatrix8clustersSaySaySdGGSayAC7ClusterVGz_tFTf4nd_n
++ _$s20MomentsUIServiceCore30MOSuggestionAssetMapsClustererC23MAX_SPAN_REGION_DEGREESSdvpZMV
++ _$sSD17dictionaryLiteralSDyxq_Gx_q_td_tcfC20MomentsUIServiceCore25MOSuggestionAssetTileSizeO_0E8Graphics7CGFloatVTt0g5Tf4g_n
++ _$sSD17dictionaryLiteralSDyxq_Gx_q_td_tcfCSi_Say20MomentsUIServiceCore25MOSuggestionAssetTileSizeOGTt0g5Tf4g_n
++ _$sSa9repeating5countSayxGx_SitcfCSaySdG_Tt1g5
++ _$sSd_SdtML
++ _$sSd_SdtMa
++ _$sShyShyxGqd__nc7ElementQyd__RszSTRd__lufCSS_SaySSGTt0g5Tf4g_n
++ _$sSi_Say20MomentsUIServiceCore25MOSuggestionAssetTileSizeOGtWOh
++ _$sSo10GEOMapItem_pMD
++ _$sSo10GEOMapItem_pSgML
++ _$sSo10GEOMapItem_pSgMa
++ _$ss17FixedWidthIntegerPsE_5radixxSgqd___SitcSyRd__lufcADSRys5UInt8VGXEfU_AGSiADs5Error_psAARzSSRsd__r__lIetyyrzo_Tpq5Si_Tg5
++ _$ss17FixedWidthIntegerPsEyxSgSScfCSi_Tt1g5
++ _$ss22_ContiguousArrayBufferV19_uninitializedCount15minimumCapacityAByxGSi_SitcfCs5UInt8V_Tt1gq5
++ _swift_generic_assignWithCopy
++ _swift_generic_assignWithTake
++ _swift_generic_destroy
++ _swift_generic_initWithCopy
++ _swift_generic_initWithTake
++ _swift_generic_initializeBufferWithCopyOfBuffer
++ _swift_getTupleTypeMetadata2
++ _swift_initStructMetadataWithLayoutString
++ _symbolic ______p So10GEOMapItemP
++ _type_layout_string 20MomentsUIServiceCore32MOPOIAnnotationViewConfigurationV
++ _type_layout_string So14GEOPOICategorya
++ _type_layout_string So23GEOLocationCoordinate2Da
+- _$s20MomentsUIServiceCore22MOAngelDefaultsManagerV8defaults33_C6E31BB2AB728CD91A2508E330FD9035LL_WZTm
+- _$s20MomentsUIServiceCore24MOSuggestionLayoutEngineC13oneAssetsGrid_WZ
+- _$s20MomentsUIServiceCore24MOSuggestionLayoutEngineC13oneAssetsGrid_Wz
+- _$s20MomentsUIServiceCore24MOSuggestionLayoutEngineC9FullWidthV13oneAssetsGrid_WZ
+- _$s20MomentsUIServiceCore24MOSuggestionLayoutEngineC9FullWidthV13oneAssetsGrid_Wz
+- _$s20MomentsUIServiceCore24MOSuggestionLayoutEngineC9FullWidthV13sixAssetsGrid_WZ
+- _$s20MomentsUIServiceCore24MOSuggestionLayoutEngineC9FullWidthV13sixAssetsGrid_Wz
+- _$s20MomentsUIServiceCore24MOSuggestionLayoutEngineC9FullWidthV13tenAssetsGrid_WZ
+- _$s20MomentsUIServiceCore24MOSuggestionLayoutEngineC9FullWidthV13tenAssetsGrid_Wz
+- _$s20MomentsUIServiceCore24MOSuggestionLayoutEngineC9FullWidthV13twoAssetsGrid_WZ
+- _$s20MomentsUIServiceCore24MOSuggestionLayoutEngineC9FullWidthV13twoAssetsGrid_Wz
+- _$s20MomentsUIServiceCore24MOSuggestionLayoutEngineC9FullWidthV14fiveAssetsGrid_WZ
+- _$s20MomentsUIServiceCore24MOSuggestionLayoutEngineC9FullWidthV14fiveAssetsGrid_Wz
+- _$s20MomentsUIServiceCore24MOSuggestionLayoutEngineC9FullWidthV14fourAssetsGrid_WZ
+- _$s20MomentsUIServiceCore24MOSuggestionLayoutEngineC9FullWidthV14fourAssetsGrid_Wz
+- _$s20MomentsUIServiceCore24MOSuggestionLayoutEngineC9FullWidthV14nineAssetsGrid_WZ
+- _$s20MomentsUIServiceCore24MOSuggestionLayoutEngineC9FullWidthV14nineAssetsGrid_Wz
+- _$s20MomentsUIServiceCore24MOSuggestionLayoutEngineC9FullWidthV15eightAssetsGrid_WZ
+- _$s20MomentsUIServiceCore24MOSuggestionLayoutEngineC9FullWidthV15eightAssetsGrid_Wz
+- _$s20MomentsUIServiceCore24MOSuggestionLayoutEngineC9FullWidthV15sevenAssetsGrid_WZ
+- _$s20MomentsUIServiceCore24MOSuggestionLayoutEngineC9FullWidthV15sevenAssetsGrid_Wz
+- _$s20MomentsUIServiceCore24MOSuggestionLayoutEngineC9FullWidthV15threeAssetsGrid_WZ
+- _$s20MomentsUIServiceCore24MOSuggestionLayoutEngineC9FullWidthV15threeAssetsGrid_Wz
+- _$s20MomentsUIServiceCore24MOSuggestionLayoutEngineC9FullWidthV16elevenAssetsGrid_WZ
+- _$s20MomentsUIServiceCore24MOSuggestionLayoutEngineC9FullWidthV16elevenAssetsGrid_Wz
+- _$s20MomentsUIServiceCore24MOSuggestionLayoutEngineC9FullWidthV16twelveAssetsGrid_WZ
+- _$s20MomentsUIServiceCore24MOSuggestionLayoutEngineC9FullWidthV16twelveAssetsGrid_Wz
+- _$s20MomentsUIServiceCore24MOSuggestionLayoutEngineC9FullWidthV18thirteenAssetsGrid_WZ
+- _$s20MomentsUIServiceCore24MOSuggestionLayoutEngineC9FullWidthV18thirteenAssetsGrid_Wz
+- _$s20MomentsUIServiceCore24MOSuggestionLayoutEngineC9HalfWidthV13oneAssetsGrid_WZ
+- _$s20MomentsUIServiceCore24MOSuggestionLayoutEngineC9HalfWidthV13oneAssetsGrid_Wz
+- _$s20MomentsUIServiceCore24MOSuggestionLayoutEngineC9HalfWidthV13twoAssetsGrid_WZ
+- _$s20MomentsUIServiceCore24MOSuggestionLayoutEngineC9HalfWidthV13twoAssetsGrid_Wz
+- _$s20MomentsUIServiceCore24MOSuggestionLayoutEngineC9HalfWidthV14fourAssetsGrid_WZ
+- _$s20MomentsUIServiceCore24MOSuggestionLayoutEngineC9HalfWidthV14fourAssetsGrid_Wz
+- _$s20MomentsUIServiceCore24MOSuggestionLayoutEngineC9HalfWidthV15threeAssetsGrid_WZ
+- _$s20MomentsUIServiceCore24MOSuggestionLayoutEngineC9HalfWidthV15threeAssetsGrid_Wz
+- _$s20MomentsUIServiceCore25MOSuggestionAssetTileSizeOWOb
+- _$s20MomentsUIServiceCore30MOSuggestionAssetMapsClustererC7ClusterVwCP
+- _$s20MomentsUIServiceCore30MOSuggestionAssetMapsClustererC7ClusterVwca
+- _$s20MomentsUIServiceCore30MOSuggestionAssetMapsClustererC7ClusterVwcp
+- _$s20MomentsUIServiceCore30MOSuggestionAssetMapsClustererC7ClusterVwta
+- _$s20MomentsUIServiceCore30MOSuggestionAssetMapsClustererC7ClusterVwtk
+- _$s20MomentsUIServiceCore30MOSuggestionAssetMapsClustererC7ClusterVwxx
+- _$s20MomentsUIServiceCore32MOPOIAnnotationViewConfigurationVwCP
+- _$s20MomentsUIServiceCore32MOPOIAnnotationViewConfigurationVwca
+- _$s20MomentsUIServiceCore32MOPOIAnnotationViewConfigurationVwcp
+- _$s20MomentsUIServiceCore32MOPOIAnnotationViewConfigurationVwta
+- _$s20MomentsUIServiceCore32MOPOIAnnotationViewConfigurationVwxx
+- _$sSD17dictionaryLiteralSDyxq_Gx_q_td_tcfC20MomentsUIServiceCore25MOSuggestionAssetTileSizeO_0E8Graphics7CGFloatVTgm5Tf4g_n
+- _$sSD17dictionaryLiteralSDyxq_Gx_q_td_tcfCSi_Say20MomentsUIServiceCore25MOSuggestionAssetTileSizeOGTgm5Tf4g_n
+- _$sSa12_endMutationyyFyXl_Ts5
+- _$sSa9repeating5countSayxGx_SitcfCSaySdG_Tgm5
+- _$sSa9repeating5countSayxGx_SitcfCSd_Tgm5
+- _$sShyShyxGqd__nc7ElementQyd__RszSTRd__lufCSS_SaySSGTgm5Tf4g_n
+- _$sSw10copyMemory4fromySW_tF
+- _$sSwys5UInt8VSicis
+- _$ss12_ArrayBufferV13_copyContents8subRange12initializingSpyxGSnySiG_AFtF20MomentsUIServiceCore30MOSuggestionAssetMapsClustererC7ClusterV_Tg5Tf4nng_n
+- _$ss12_ArrayBufferV13_copyContents8subRange12initializingSpyxGSnySiG_AFtFSS_Tg5Tf4nng_n
+- _$ss12_ArrayBufferV13_copyContents8subRange12initializingSpyxGSnySiG_AFtFSaySdG_Tg5Tf4nng_n
+- _$ss12_ArrayBufferV13_copyContents8subRange12initializingSpyxGSnySiG_AFtFSd_Tg5Tf4nng_n
+- _$ss17FixedWidthIntegerPsE_5radixxSgqd___SitcSyRd__lufcADSRys5UInt8VGXEfU_AGSiADs5Error_psAARzSSRsd__r__lIetyyrzo_Tpq5Si_Tg5Tm
+- _$ss17FixedWidthIntegerPsEyxSgSScfCSi_Tgm5
+- _$ss17_assertionFailure__4file4line5flagss5NeverOs12StaticStringV_A2HSus6UInt32VtF
+- _$ss18_fatalErrorMessage__4file4line5flagss5NeverOs12StaticStringV_A2HSus6UInt32VtF
+- _$ss22_ContiguousArrayBufferV19_uninitializedCount15minimumCapacityAByxGSi_SitcfCs5UInt8V_Tgmq5
+- _$ss23_ContiguousArrayStorageCySi_Say20MomentsUIServiceCore25MOSuggestionAssetTileSizeOGtGMD
+- _$sypSgWOb
+- __swift_FORCE_LOAD_$_swiftFileProvider
+- __swift_FORCE_LOAD_$_swiftFileProvider_$_MomentsUIServiceCore
+- _objc_retain_x26
+- _objc_retain_x27
+- _swift_bridgeObjectRelease_n
+- _swift_initStackObject
+- _swift_initStructMetadata
+- _swift_setDeallocating
+- _symbolic _____ySi_Say_____GtG s23_ContiguousArrayStorageC 20MomentsUIServiceCore25MOSuggestionAssetTileSizeO
+CStrings:
++ "T@\"NSArray\",R,N,G_accolades"
++ "TB,R,N,G_hasAnyAccolades"
++ "_accolades"
++ "_hasAnyAccolades"
++ "accolades"
++ "hasAnyAccolades"
+- "Can't construct Array with count < 0"
+- "Division by zero"
+- "Division results in an overflow"
+- "Insufficient space allocated to copy string contents"
+- "Swift/Array.swift"
+- "Swift/ContiguousArrayBuffer.swift"
+- "Swift/IntegerTypes.swift"
+- "Swift/StringTesting.swift"
+- "Swift/StringUTF8View.swift"
+- "Swift/UnsafeBufferPointer.swift"
+- "Swift/UnsafePointer.swift"
+- "Swift/UnsafeRawPointer.swift"
+- "Unexpectedly found nil while unwrapping an Optional value"
+- "UnsafeMutableBufferPointer with negative count"
+- "UnsafeMutablePointer.initialize overlapping range"
+- "UnsafeMutablePointer.initialize with negative count"
+- "UnsafeMutablePointer.moveInitialize with negative count"
+- "UnsafeMutableRawPointer.initializeMemory overlapping range"
+- "invalid Collection: less than 'count' elements in collection"
+
+```

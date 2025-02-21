@@ -1,0 +1,268 @@
+## RealityKit
+
+> `/System/Library/Frameworks/RealityKit.framework/RealityKit`
+
+```diff
+
+-366.80.1.0.0
+-  __TEXT.__text: 0x7d8cc
+-  __TEXT.__auth_stubs: 0x48d0
+-  __TEXT.__objc_methlist: 0x500
+-  __TEXT.__cstring: 0x3ad4
+-  __TEXT.__swift5_typeref: 0x17ea
+-  __TEXT.__swift5_capture: 0x450
+-  __TEXT.__const: 0x3770
+-  __TEXT.__constg_swiftt: 0x1bc8
+-  __TEXT.__swift5_reflstr: 0x196d
+-  __TEXT.__swift5_fieldmd: 0x150c
+-  __TEXT.__swift5_builtin: 0x1e0
+-  __TEXT.__swift5_assocty: 0x330
+-  __TEXT.__swift5_proto: 0x29c
+-  __TEXT.__swift5_types: 0x198
++366.100.9.0.1
++  __TEXT.__text: 0x7b070
++  __TEXT.__auth_stubs: 0x4920
++  __TEXT.__objc_methlist: 0x1124
++  __TEXT.__const: 0x3ed0
++  __TEXT.__cstring: 0x3714
++  __TEXT.__swift5_typeref: 0x1648
++  __TEXT.__swift5_capture: 0x444
++  __TEXT.__constg_swiftt: 0x1b0c
++  __TEXT.__swift5_reflstr: 0x193d
++  __TEXT.__swift5_fieldmd: 0x14c0
++  __TEXT.__swift5_builtin: 0x1b8
++  __TEXT.__swift5_assocty: 0x2e8
++  __TEXT.__swift5_proto: 0x290
++  __TEXT.__swift5_types: 0x194
++  __TEXT.__swift_as_entry: 0x4c
++  __TEXT.__swift_as_ret: 0x48
+   __TEXT.__oslogstring: 0x39
+   __TEXT.__swift5_mpenum: 0x88
+-  __TEXT.__swift5_protos: 0x18
+-  __TEXT.__unwind_info: 0x1b08
+-  __TEXT.__eh_frame: 0x15b8
++  __TEXT.__swift5_protos: 0x14
++  __TEXT.__unwind_info: 0x19d0
++  __TEXT.__eh_frame: 0x1638
+   __TEXT.__objc_classname: 0xc2
+-  __TEXT.__objc_methname: 0x2f4d
++  __TEXT.__objc_methname: 0x2f80
+   __TEXT.__objc_methtype: 0x1977
+-  __DATA_CONST.__got: 0x8d0
+-  __DATA_CONST.__const: 0x5e8
++  __DATA_CONST.__got: 0x8e8
++  __DATA_CONST.__const: 0x5e0
+   __DATA_CONST.__objc_classlist: 0xb8
+   __DATA_CONST.__objc_protolist: 0xc0
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x740
++  __DATA_CONST.__objc_selrefs: 0xe50
+   __DATA_CONST.__objc_protorefs: 0x60
+-  __AUTH_CONST.__auth_got: 0x2468
+-  __AUTH_CONST.__auth_ptr: 0x9a0
+-  __AUTH_CONST.__const: 0x2e10
+-  __AUTH_CONST.__objc_const: 0x4908
++  __AUTH_CONST.__auth_got: 0x2490
++  __AUTH_CONST.__auth_ptr: 0x988
++  __AUTH_CONST.__const: 0x2d50
++  __AUTH_CONST.__objc_const: 0x3170
+   __AUTH.__objc_data: 0xbb8
+-  __AUTH.__data: 0x1198
+-  __DATA.__data: 0x1748
++  __AUTH.__data: 0x1138
++  __DATA.__data: 0x1700
+   __DATA.__bss: 0x4810
+-  __DATA.__common: 0x88
++  __DATA.__common: 0x80
+   __DATA_DIRTY.__objc_data: 0x568
+   __DATA_DIRTY.__data: 0x40
+   __DATA_DIRTY.__common: 0x18
+
+   - /usr/lib/swift/libswiftDarwin.dylib
+   - /usr/lib/swift/libswiftDataDetection.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+-  - /usr/lib/swift/libswiftFileProvider.dylib
+   - /usr/lib/swift/libswiftGLKit.dylib
+   - /usr/lib/swift/libswiftMetal.dylib
+   - /usr/lib/swift/libswiftMetalKit.dylib
+
+   - /usr/lib/swift/libswiftsimd.dylib
+   - /usr/lib/swift/libswiftsys_time.dylib
+   - /usr/lib/swift/libswiftunistd.dylib
+-  Functions: 2716
+-  Symbols:   5023
+-  CStrings:  1122
++  Functions: 2615
++  Symbols:   5010
++  CStrings:  1104
+ 
+Symbols:
++ _$s10RealityKit21createARConfiguration22requestedConfigurationAA0D12CreateResultVSg0A10Foundation22SpatialTrackingSessionC0F0V_tF
++ _$s10RealityKit22ARConfigurationBuilderMp
++ _$s10RealityKit22ARConfigurationBuilderP06createC022requestedConfigurationAA0C12CreateResultVSg0A10Foundation22SpatialTrackingSessionC0G0V_tFTj
++ _$s10RealityKit22ARConfigurationBuilderP06createC022requestedConfigurationAA0C12CreateResultVSg0A10Foundation22SpatialTrackingSessionC0G0V_tFTq
++ _$s10RealityKit22ARConfigurationBuilderP23supportingConfiguration0A10Foundation22SpatialTrackingSessionC0F0VyFTj
++ _$s10RealityKit22ARConfigurationBuilderP23supportingConfiguration0A10Foundation22SpatialTrackingSessionC0F0VyFTq
++ _$s10RealityKit22ARConfigurationBuilderP29filterSupportingConfiguration09requestedG002arG00A10Foundation22SpatialTrackingSessionC0G0VSgAK_So0C0CtFTj
++ _$s10RealityKit22ARConfigurationBuilderP29filterSupportingConfiguration09requestedG002arG00A10Foundation22SpatialTrackingSessionC0G0VSgAK_So0C0CtFTq
++ _$s10RealityKit22ARConfigurationBuilderP29filterSupportingConfiguration09requestedG00A10Foundation22SpatialTrackingSessionC0G0VSgAJ_tFTj
++ _$s10RealityKit22ARConfigurationBuilderP29filterSupportingConfiguration09requestedG00A10Foundation22SpatialTrackingSessionC0G0VSgAJ_tFTq
++ _$s10RealityKit22ARConfigurationBuilderPAAE29filterSupportingConfiguration09requestedG00A10Foundation22SpatialTrackingSessionC0G0VSgAJ_tF
++ _$s10RealityKit22ARConfigurationBuilderTL
++ _$s10RealityKit27ARConfigurationCreateResultV15arConfigurationSo0C0Cvg
++ _$s10RealityKit27ARConfigurationCreateResultV15arConfigurationSo0C0CvpMV
++ _$s10RealityKit27ARConfigurationCreateResultV27numOfSupportingCapabilitiesSivg
++ _$s10RealityKit27ARConfigurationCreateResultV27numOfSupportingCapabilitiesSivpMV
++ _$s10RealityKit27ARConfigurationCreateResultV36filteredSpatialTrackingConfiguration0A10Foundation0gH7SessionC0I0Vvg
++ _$s10RealityKit27ARConfigurationCreateResultV36filteredSpatialTrackingConfiguration0A10Foundation0gH7SessionC0I0VvpMV
++ _$s10RealityKit27ARConfigurationCreateResultVMa
++ _$s10RealityKit27ARConfigurationCreateResultVMn
++ _$s10RealityKit27ARConfigurationCreateResultVN
++ _$s10RealityKit34ARBodyTrackingConfigurationBuilderV010supportingE00A10Foundation07SpatialD7SessionC0E0VyF
++ _$s10RealityKit34ARBodyTrackingConfigurationBuilderV016filterSupportingE009requestedE002arE00A10Foundation07SpatialD7SessionC0E0VSgAK_So15ARConfigurationCtF
++ _$s10RealityKit34ARBodyTrackingConfigurationBuilderV21createARConfiguration09requestedE0AA0H12CreateResultVSg0A10Foundation07SpatialD7SessionC0E0V_tF
++ _$s10RealityKit34ARBodyTrackingConfigurationBuilderVAA015ARConfigurationF0AAMc
++ _$s10RealityKit34ARBodyTrackingConfigurationBuilderVAA015ARConfigurationF0AAWP
++ _$s10RealityKit34ARBodyTrackingConfigurationBuilderVACycfC
++ _$s10RealityKit34ARBodyTrackingConfigurationBuilderVMa
++ _$s10RealityKit34ARBodyTrackingConfigurationBuilderVMn
++ _$s10RealityKit34ARBodyTrackingConfigurationBuilderVN
++ _$s10RealityKit34ARFaceTrackingConfigurationBuilderV010supportingE00A10Foundation07SpatialD7SessionC0E0VyF
++ _$s10RealityKit34ARFaceTrackingConfigurationBuilderV016filterSupportingE009requestedE002arE00A10Foundation07SpatialD7SessionC0E0VSgAK_So15ARConfigurationCtF
++ _$s10RealityKit34ARFaceTrackingConfigurationBuilderV21createARConfiguration09requestedE0AA0H12CreateResultVSg0A10Foundation07SpatialD7SessionC0E0V_tF
++ _$s10RealityKit34ARFaceTrackingConfigurationBuilderVAA015ARConfigurationF0AAMc
++ _$s10RealityKit34ARFaceTrackingConfigurationBuilderVAA015ARConfigurationF0AAWP
++ _$s10RealityKit34ARFaceTrackingConfigurationBuilderVACycfC
++ _$s10RealityKit34ARFaceTrackingConfigurationBuilderVMa
++ _$s10RealityKit34ARFaceTrackingConfigurationBuilderVMn
++ _$s10RealityKit34ARFaceTrackingConfigurationBuilderVN
++ _$s10RealityKit35ARWorldTrackingConfigurationBuilderV010supportingE00A10Foundation07SpatialD7SessionC0E0VyF
++ _$s10RealityKit35ARWorldTrackingConfigurationBuilderV016filterSupportingE009requestedE002arE00A10Foundation07SpatialD7SessionC0E0VSgAK_So15ARConfigurationCtF
++ _$s10RealityKit35ARWorldTrackingConfigurationBuilderV21createARConfiguration09requestedE0AA0H12CreateResultVSg0A10Foundation07SpatialD7SessionC0E0V_tF
++ _$s10RealityKit35ARWorldTrackingConfigurationBuilderVAA015ARConfigurationF0AAMc
++ _$s10RealityKit35ARWorldTrackingConfigurationBuilderVAA015ARConfigurationF0AAWP
++ _$s10RealityKit35ARWorldTrackingConfigurationBuilderVACycfC
++ _$s10RealityKit35ARWorldTrackingConfigurationBuilderVMa
++ _$s10RealityKit35ARWorldTrackingConfigurationBuilderVMn
++ _$s10RealityKit35ARWorldTrackingConfigurationBuilderVN
++ _$s10RealityKit5SceneC17pixelCastRequestsSayAC5scene_So5RERaya3rayScCy0A10Foundation05PixelE3HitVSgs5Error_pG12continuationtGvgZ
++ _$s10RealityKit5SceneC17pixelCastRequestsSayAC5scene_So5RERaya3rayScCy0A10Foundation05PixelE3HitVSgs5Error_pG12continuationtGvsZ
++ _$s10RealityKit6ARViewC11EnvironmentV18SceneUnderstandingV7OptionsV16receivesLightingAIvpZMV
++ _$s10RealityKit6ARViewC11EnvironmentV18SceneUnderstandingV7OptionsV19__disableFeatheringAIvpZMV
++ _$s10RealityKit6ARViewC11EnvironmentV18SceneUnderstandingV7OptionsV21enableDynamicLightingAIvpZMV
++ _$s10RealityKit6ARViewC11EnvironmentV18SceneUnderstandingV7OptionsV31__disableGuidedFilterOcclusionsAIvpZMV
++ _$s10RealityKit6ARViewC11EnvironmentV18SceneUnderstandingV7OptionsV7defaultAIvpZMV
++ _$s10RealityKit6ARViewC11EnvironmentV18SceneUnderstandingV7OptionsV7physicsAIvpZMV
++ _$s10RealityKit6ARViewC11EnvironmentV18SceneUnderstandingV7OptionsV9collisionAIvpZMV
++ _$s10RealityKit6ARViewC11EnvironmentV18SceneUnderstandingV7OptionsV9occlusionAIvpZMV
++ _$s10RealityKit6ARViewC11EnvironmentV6ReverbO6PresetO8allCasesSayAIGvpZMV
++ _$s10RealityKit6ARViewC11EnvironmentV6ReverbO9automaticAGvpZMV
++ _$s10RealityKit6ARViewC12DebugOptionsV11showPhysicsAEvpZMV
++ _$s10RealityKit6ARViewC12DebugOptionsV14showStatisticsAEvpZMV
++ _$s10RealityKit6ARViewC12DebugOptionsV15showWorldOriginAEvpZMV
++ _$s10RealityKit6ARViewC12DebugOptionsV17showAnchorOriginsAEvpZMV
++ _$s10RealityKit6ARViewC12DebugOptionsV17showFeaturePointsAEvpZMV
++ _$s10RealityKit6ARViewC12DebugOptionsV18showAnchorGeometryAEvpZMV
++ _$s10RealityKit6ARViewC12DebugOptionsV22showSceneUnderstandingAEvpZMV
++ _$s10RealityKit6ARViewC12DebugOptionsV4noneAEvpZMV
++ _$s10RealityKit6ARViewC13RenderOptionsV10disableHDRAEvpZMV
++ _$s10RealityKit6ARViewC13RenderOptionsV15disableFaceMeshAEvpZMV
++ _$s10RealityKit6ARViewC13RenderOptionsV17disableMotionBlurAEvpZMV
++ _$s10RealityKit6ARViewC13RenderOptionsV18disableCameraGrainAEvpZMV
++ _$s10RealityKit6ARViewC13RenderOptionsV19disableDepthOfFieldAEvpZMV
++ _$s10RealityKit6ARViewC13RenderOptionsV21disableFaceOcclusionsAEvpZMV
++ _$s10RealityKit6ARViewC13RenderOptionsV22disablePersonOcclusionAEvpZMV
++ _$s10RealityKit6ARViewC13RenderOptionsV23disableGroundingShadowsAEvpZMV
++ _$s10RealityKit6ARViewC13RenderOptionsV24__disableLocalizedProbesAEvpZMV
++ _$s10RealityKit6ARViewC13RenderOptionsV24disableAutomaticLightingAEvpZMV
++ _$s10RealityKit6ARViewC13RenderOptionsV28disableAREnvironmentLightingAEvpZMV
++ _$s10RealityKit6ARViewC14EntityGesturesV11translationAEvpZMV
++ _$s10RealityKit6ARViewC14EntityGesturesV3allAEvpZMV
++ _$s10RealityKit6ARViewC14EntityGesturesV5scaleAEvpZMV
++ _$s10RealityKit6ARViewC14EntityGesturesV8rotationAEvpZMV
++ _$s10RealityKit6ARViewC19__StatisticsOptionsV011attributionD0AEvpZMV
++ _$s10RealityKit6ARViewC19__StatisticsOptionsV013assetPipelineD0AEvpZMV
++ _$s10RealityKit6ARViewC19__StatisticsOptionsV018sceneUnderstandingD0AEvpZMV
++ _$s10RealityKit6ARViewC19__StatisticsOptionsV03ecsD0AEvpZMV
++ _$s10RealityKit6ARViewC19__StatisticsOptionsV03vfxD0AEvpZMV
++ _$s10RealityKit6ARViewC19__StatisticsOptionsV04meshD0AEvpZMV
++ _$s10RealityKit6ARViewC19__StatisticsOptionsV05audioD0AEvpZMV
++ _$s10RealityKit6ARViewC19__StatisticsOptionsV06customD0AEvpZMV
++ _$s10RealityKit6ARViewC19__StatisticsOptionsV06memoryD0AEvpZMV
++ _$s10RealityKit6ARViewC19__StatisticsOptionsV07networkD0AEvpZMV
++ _$s10RealityKit6ARViewC19__StatisticsOptionsV07physicsD0AEvpZMV
++ _$s10RealityKit6ARViewC19__StatisticsOptionsV07thermalD0AEvpZMV
++ _$s10RealityKit6ARViewC19__StatisticsOptionsV09animationD0AEvpZMV
++ _$s10RealityKit6ARViewC19__StatisticsOptionsV09frameTimeD0AEvpZMV
++ _$s10RealityKit6ARViewC19__StatisticsOptionsV09renderingD0AEvpZMV
++ _$s10RealityKit6ARViewC19__StatisticsOptionsV23mtlCounterAPIStatisticsAEvpZMV
++ _$s10RealityKit6ARViewC26__nonARKitModelIdentifiersSaySSGvpZMV
++ _$s17RealityFoundation20HoverEffectComponentV09HighlightcD5StyleV15opacityFunctionAC07OpacityI0Ovg
++ _$s17RealityFoundation20HoverEffectComponentV09SpotlightcD5StyleV15opacityFunctionAC07OpacityI0Ovg
++ _$s17RealityFoundation22SpatialTrackingSessionC13ConfigurationV6cameraAE6CameraOvs
++ _$s17RealityFoundation24ParticleEmitterComponentV0A3KitE7PresetsV4rainACvpZMV
++ _$s17RealityFoundation24ParticleEmitterComponentV0A3KitE7PresetsV4snowACvpZMV
++ _$s17RealityFoundation24ParticleEmitterComponentV0A3KitE7PresetsV5magicACvpZMV
++ _$s17RealityFoundation24ParticleEmitterComponentV0A3KitE7PresetsV6impactACvpZMV
++ _$s17RealityFoundation24ParticleEmitterComponentV0A3KitE7PresetsV6sparksACvpZMV
++ _$s17RealityFoundation24ParticleEmitterComponentV0A3KitE7PresetsV9fireworksACvpZMV
++ _$sScC6resume8throwingyq_n_tF
++ _OBJC_CLASS_$_ARConfiguration
++ _cosf
++ _sinf
++ _swift_allocateGenericValueMetadataWithLayoutString
++ _swift_enumFn_getEnumTag
++ _swift_generic_assignWithCopy
++ _swift_generic_assignWithTake
++ _swift_generic_destroy
++ _swift_generic_initWithCopy
++ _swift_generic_initWithTake
++ _swift_generic_initializeBufferWithCopyOfBuffer
++ _swift_getFunctionTypeMetadata0
++ _swift_initEnumMetadataMultiPayloadWithLayoutString
++ _swift_initStructMetadataWithLayoutString
++ _swift_multiPayloadEnumGeneric_destructiveInjectEnumTag
++ _swift_multiPayloadEnumGeneric_getEnumTag
+- _$s10RealityKit5SceneC0A10FoundationE16pixelCastRequestAC5scene_So5RERaya3rayys6ResultOyAD05PixelF3HitVSgs5Error_pGc10completiontSgvgZ
+- _$s10RealityKit5SceneC0A10FoundationE16pixelCastRequestAC5scene_So5RERaya3rayys6ResultOyAD05PixelF3HitVSgs5Error_pGc10completiontSgvsZ
+- _$s10RealityKit5SceneC0A10FoundationE21pixelCastArrayRequestAC5scene_So5RERaya3rayys6ResultOySayAD05PixelF3HitVGs5Error_pGc10completiontSgvgZ
+- _$s10RealityKit5SceneC0A10FoundationE21pixelCastArrayRequestAC5scene_So5RERaya3rayys6ResultOySayAD05PixelF3HitVGs5Error_pGc10completiontSgvsZ
+- _$sSa12_endMutationyyFyXl_Ts5
+- _$sSw10copyMemory4fromySW_tF
+- _$sSwys5UInt8VSicis
+- _$ss17_assertionFailure__4file4line5flagss5NeverOs12StaticStringV_A2HSus6UInt32VtF
+- _$ss18_fatalErrorMessage__4file4line5flagss5NeverOs12StaticStringV_A2HSus6UInt32VtF
+- _$ss9UnmanagedVMn
+- _$syycWV
+- __swift_FORCE_LOAD_$_swiftFileProvider
+- _objc_retain_x9
+- _swift_allocateGenericValueMetadata
+- _swift_initEnumMetadataMultiPayload
+- _swift_initStructMetadata
+CStrings:
++ "isWorldTrackingEnabled"
++ "setWorldTrackingEnabled:"
++ "supportsWorldTracking"
+- "Division by zero"
+- "Division results in an overflow"
+- "Insufficient space allocated to copy string contents"
+- "Negative value is not representable"
+- "Not enough bits to represent the passed value"
+- "Swift/ContiguousArrayBuffer.swift"
+- "Swift/IntegerTypes.swift"
+- "Swift/Integers.swift"
+- "Swift/StringTesting.swift"
+- "Swift/StringUTF8View.swift"
+- "Swift/UnsafeBufferPointer.swift"
+- "Swift/UnsafePointer.swift"
+- "Swift/UnsafeRawPointer.swift"
+- "Unexpectedly found nil while unwrapping an Optional value"
+- "UnsafeMutableBufferPointer with negative count"
+- "UnsafeMutablePointer.initialize overlapping range"
+- "UnsafeMutablePointer.initialize with negative count"
+- "UnsafeMutablePointer.moveInitialize with negative count"
+- "UnsafeMutableRawPointer.initializeMemory overlapping range"
+- "invalid Collection: less than 'count' elements in collection"
+- "setCameraPosition:"
+
+```

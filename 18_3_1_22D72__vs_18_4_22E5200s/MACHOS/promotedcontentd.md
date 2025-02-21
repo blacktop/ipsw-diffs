@@ -1,0 +1,1181 @@
+## promotedcontentd
+
+> `/usr/libexec/promotedcontentd`
+
+```diff
+
+-554.14.0.0.0
+-  __TEXT.__text: 0x196764
+-  __TEXT.__auth_stubs: 0x2290
+-  __TEXT.__objc_stubs: 0x17680
+-  __TEXT.__objc_methlist: 0x12ddc
+-  __TEXT.__const: 0x12ec0
+-  __TEXT.__objc_methname: 0x233c4
+-  __TEXT.__oslogstring: 0xc26f
+-  __TEXT.__cstring: 0xe2da
+-  __TEXT.__objc_classname: 0x249d
+-  __TEXT.__objc_methtype: 0x4893
+-  __TEXT.__gcc_except_tab: 0x15bc
+-  __TEXT.__constg_swiftt: 0x1cdc
+-  __TEXT.__swift5_typeref: 0x1386
+-  __TEXT.__swift5_fieldmd: 0x15a8
+-  __TEXT.__swift5_types: 0x1a8
+-  __TEXT.__swift5_reflstr: 0xc63
+-  __TEXT.__swift5_capture: 0x1c0
+-  __TEXT.__swift5_proto: 0x294
+-  __TEXT.__swift5_builtin: 0x50
+-  __TEXT.__swift5_assocty: 0x78
+-  __TEXT.__swift5_protos: 0x54
+-  __TEXT.__swift5_mpenum: 0x8
+-  __TEXT.__unwind_info: 0x4880
+-  __TEXT.__eh_frame: 0x1e50
+-  __DATA_CONST.__auth_got: 0x1158
+-  __DATA_CONST.__got: 0xba0
+-  __DATA_CONST.__auth_ptr: 0x778
+-  __DATA_CONST.__const: 0xae60
+-  __DATA_CONST.__cfstring: 0xe560
+-  __DATA_CONST.__objc_classlist: 0xb90
++555.36.0.0.0
++  __TEXT.__text: 0x1f0374
++  __TEXT.__auth_stubs: 0x35c0
++  __TEXT.__objc_stubs: 0x17ea0
++  __TEXT.__objc_methlist: 0x148ac
++  __TEXT.__const: 0x17138
++  __TEXT.__objc_methname: 0x24360
++  __TEXT.__oslogstring: 0xd6c3
++  __TEXT.__cstring: 0x12194
++  __TEXT.__objc_classname: 0x25c0
++  __TEXT.__objc_methtype: 0x4a09
++  __TEXT.__gcc_except_tab: 0x16c0
++  __TEXT.__constg_swiftt: 0x39ec
++  __TEXT.__swift5_typeref: 0x25de
++  __TEXT.__swift5_reflstr: 0x192e
++  __TEXT.__swift5_fieldmd: 0x2af0
++  __TEXT.__swift5_builtin: 0xc8
++  __TEXT.__swift5_assocty: 0x128
++  __TEXT.__swift5_capture: 0x674
++  __TEXT.__swift5_proto: 0x5e8
++  __TEXT.__swift5_types: 0x374
++  __TEXT.__swift_as_entry: 0x44
++  __TEXT.__swift_as_ret: 0x60
++  __TEXT.__swift5_mpenum: 0x10
++  __TEXT.__swift5_protos: 0xa4
++  __TEXT.__unwind_info: 0x58e0
++  __TEXT.__eh_frame: 0x3c70
++  __DATA_CONST.__auth_got: 0x1af0
++  __DATA_CONST.__got: 0xfc0
++  __DATA_CONST.__auth_ptr: 0xcd8
++  __DATA_CONST.__const: 0xddc0
++  __DATA_CONST.__cfstring: 0xea80
++  __DATA_CONST.__objc_classlist: 0xd18
+   __DATA_CONST.__objc_catlist: 0xc8
+-  __DATA_CONST.__objc_protolist: 0x268
++  __DATA_CONST.__objc_protolist: 0x290
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_protorefs: 0xf0
+-  __DATA_CONST.__objc_superrefs: 0x708
++  __DATA_CONST.__objc_protorefs: 0x108
++  __DATA_CONST.__objc_superrefs: 0x720
+   __DATA_CONST.__linkguard: 0x15
+-  __DATA_CONST.__objc_intobj: 0x16f8
+-  __DATA_CONST.__objc_arraydata: 0x6f8
++  __DATA_CONST.__objc_intobj: 0x17a0
++  __DATA_CONST.__objc_arraydata: 0x740
+   __DATA_CONST.__objc_dictobj: 0xa28
+-  __DATA_CONST.__objc_arrayobj: 0x90
++  __DATA_CONST.__objc_arrayobj: 0xc0
+   __DATA_CONST.__objc_doubleobj: 0x20
+-  __DATA.__objc_const: 0x25fa8
+-  __DATA.__objc_selrefs: 0x8858
+-  __DATA.__objc_ivar: 0x146c
+-  __DATA.__objc_data: 0x6e48
+-  __DATA.__data: 0x5da8
+-  __DATA.__bss: 0x4a50
+-  __DATA.__common: 0xd8
++  __DATA.__objc_const: 0x266f8
++  __DATA.__objc_selrefs: 0x8df0
++  __DATA.__objc_ivar: 0x149c
++  __DATA.__objc_data: 0x7db8
++  __DATA.__data: 0x8ee0
++  __DATA.__common: 0x1a8
++  __DATA.__bss: 0xab78
+   - /AppleInternal/Library/Frameworks/TestHookService.framework/TestHookService
+   - /AppleInternal/Library/Frameworks/TestHookShared.framework/TestHookShared
+   - /System/Library/Frameworks/AdServices.framework/AdServices
+
+   - /System/Library/PrivateFrameworks/LimitAdTracking.framework/LimitAdTracking
+   - /System/Library/PrivateFrameworks/ManagedConfiguration.framework/ManagedConfiguration
+   - /System/Library/PrivateFrameworks/MobileKeyBag.framework/MobileKeyBag
++  - /System/Library/PrivateFrameworks/PromotedContentJetClient.framework/PromotedContentJetClient
++  - /System/Library/PrivateFrameworks/PromotedContentJetSupport.framework/PromotedContentJetSupport
+   - /System/Library/PrivateFrameworks/ProtocolBuffer.framework/ProtocolBuffer
+   - /System/Library/PrivateFrameworks/TCC.framework/TCC
+   - /System/Library/PrivateFrameworks/UserManagement.framework/UserManagement
+
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
++  - /usr/lib/libsqlite3.dylib
+   - /usr/lib/swift/libswiftCompression.dylib
+   - /usr/lib/swift/libswiftCore.dylib
+   - /usr/lib/swift/libswiftCoreFoundation.dylib
+
+   - /usr/lib/swift/libswiftQuartzCore.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
++  - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswift_errno.dylib
+   - /usr/lib/swift/libswift_math.dylib
+   - /usr/lib/swift/libswift_signal.dylib
+
+   - /usr/lib/swift/libswiftsimd.dylib
+   - /usr/lib/swift/libswiftsys_time.dylib
+   - /usr/lib/swift/libswiftunistd.dylib
+-  Functions: 8184
+-  Symbols:   2047
+-  CStrings:  10641
++  Functions: 9564
++  Symbols:   2130
++  CStrings:  11301
+ 
+Symbols:
++ _CFBooleanGetTypeID
++ _CFGetTypeID
++ _OBJC_CLASS_$_APAttributionFrequencyCap
++ _OBJC_CLASS_$_APCSExperimentationReport
++ _OBJC_CLASS_$_APCSODCAFeatureFlag
++ _OBJC_CLASS_$_APClientInfo
++ _OBJC_CLASS_$_APDBAdSignalTrack
++ _OBJC_CLASS_$_APDBAdSignalTrackRow
++ _OBJC_CLASS_$_APDBExperimentationReport
++ _OBJC_CLASS_$_APDBExperimentationReportRow
++ _OBJC_CLASS_$_APDBTrigger
++ _OBJC_CLASS_$_APDBTriggerRow
++ _OBJC_CLASS_$_APDiagnosticError
++ _OBJC_CLASS_$_APECOnDeviceConversionPurposeConfig
++ _OBJC_CLASS_$_APEventStorageProcessor
++ _OBJC_CLASS_$_APExperimentationDataRemoval
++ _OBJC_CLASS_$_APExperimentationError
++ _OBJC_CLASS_$_APFeatureFlags
++ _OBJC_CLASS_$_APHTTPSession
++ _OBJC_CLASS_$_APItunesAppMetaData
++ _OBJC_CLASS_$_APJetServiceConfig
++ _OBJC_CLASS_$_APOnDeviceAttributionConfig
++ _OBJC_CLASS_$_APOnDeviceAttributionObjCBridge
++ _OBJC_CLASS_$_APOnDeviceConversionConfig
++ _OBJC_CLASS_$_APPCExperimentationReportEventListener
++ _OBJC_CLASS_$_APPCIdentifierProvider
++ _OBJC_CLASS_$_APPCRotatingIdentifier
++ _OBJC_CLASS_$_APReceivedMetricProcessor
++ _OBJC_CLASS_$_APReportHelper
++ _OBJC_CLASS_$_APSigningAuthorityPoolManagerWrapper
++ _OBJC_CLASS_$__TtC16promotedcontentd17DaemonSwiftBridge
++ _OBJC_METACLASS_$_APAttributionFrequencyCap
++ _OBJC_METACLASS_$_APDBAdSignalTrack
++ _OBJC_METACLASS_$_APDBAdSignalTrackRow
++ _OBJC_METACLASS_$_APDBExperimentationReport
++ _OBJC_METACLASS_$_APDBExperimentationReportRow
++ _OBJC_METACLASS_$_APDBTrigger
++ _OBJC_METACLASS_$_APDBTriggerRow
++ _OBJC_METACLASS_$_APDiagnosticError
++ _OBJC_METACLASS_$_APEventStorageProcessor
++ _OBJC_METACLASS_$_APExperimentationDataRemoval
++ _OBJC_METACLASS_$_APExperimentationError
++ _OBJC_METACLASS_$_APItunesAppMetaData
++ _OBJC_METACLASS_$_APOnDeviceAttributionObjCBridge
++ _OBJC_METACLASS_$_APPCExperimentationReportEventListener
++ _OBJC_METACLASS_$_APPCIdentifierProvider
++ _OBJC_METACLASS_$_APPCRotatingIdentifier
++ _OBJC_METACLASS_$_APReceivedMetricProcessor
++ _OBJC_METACLASS_$_APReportHelper
++ _OBJC_METACLASS_$__TtC16promotedcontentd17DaemonSwiftBridge
++ _SecTaskCopyValueForEntitlement
++ _SecTaskCreateWithAuditToken
++ _class_addProtocol
++ _kAPActionStoreEnabled
++ _kAPExperimentationReportEnabled
++ _kAPMetricContainer
++ _kAPMetricFormat
++ _kAPMetricPlacementType
++ _kAPModernDataCollectionEnabled
++ _kAPOnDeviceAttributionEnabled
++ _kAPOnDeviceConversionEnabled
++ _kAPTriggersIdentifier
++ _kOnDeviceAttributionABCSubtype
++ _memcmp
++ _os_unfair_lock_lock
++ _os_unfair_lock_unlock
++ _sqlite3_column_type
++ _swift_allocateGenericValueMetadataWithLayoutString
++ _swift_continuation_await
++ _swift_continuation_init
++ _swift_continuation_throwingResume
++ _swift_continuation_throwingResumeWithError
++ _swift_deletedAsyncMethodErrorTu
++ _swift_dynamicCastUnknownClass
++ _swift_enumFn_getEnumTag
++ _swift_generic_assignWithCopy
++ _swift_generic_assignWithTake
++ _swift_generic_destroy
++ _swift_generic_initWithCopy
++ _swift_generic_initWithTake
++ _swift_generic_initializeBufferWithCopyOfBuffer
++ _swift_generic_instantiateLayoutString
++ _swift_getFunctionTypeMetadata0
++ _swift_getTupleTypeMetadata3
++ _swift_initClassMetadata2
++ _swift_initEnumMetadataMultiPayloadWithLayoutString
++ _swift_initEnumMetadataSinglePayloadWithLayoutString
++ _swift_initStructMetadataWithLayoutString
++ _swift_multiPayloadEnumGeneric_destructiveInjectEnumTag
++ _swift_multiPayloadEnumGeneric_getEnumTag
++ _swift_singlePayloadEnumGeneric_destructiveInjectEnumTag
++ _swift_singlePayloadEnumGeneric_getEnumTag
++ _swift_task_alloc
++ _swift_task_create
++ _swift_task_dealloc
++ _swift_task_switch
++ _swift_unknownObjectRetain_n
++ _swift_weakAssign
++ _swift_willThrowTypedImpl
++ _typeTranslation
+- _CleanOldData
+- _IntegrityReportDatasources
+- _LogReportDelivery
+- _OBJC_CLASS_$_ADFrequencyCap
+- _OBJC_METACLASS_$_ADFrequencyCap
+- _PreparePastDueReports
+- _PrepareReports
+- _ReportDatasources
+- __daemonStartTime
+- _fmodf
+- _kAPMetricImpressionIdentifier
+- _objc_release_x2
+- _swift_allocateGenericValueMetadata
+- _swift_getTupleTypeLayout2
+- _swift_getTupleTypeLayout3
+- _swift_initEnumMetadataMultiPayload
+- _swift_initStructMetadata
+CStrings:
++ "\x02C"
++ "\nAND APDBAdInstance.accountToken = ?\nAND APDBEvent.event IN ("
++ "\x0f\x03"
++ "\x14\x11"
++ "\x16\x12"
++ " AND slot = ?"
++ "$__lazy_storage_$_incorporateJourneyMetrics"
++ "$__lazy_storage_$_provider"
++ "$__lazy_storage_$_queue"
++ "$__lazy_storage_$_supportedInstallSignals"
++ "$__lazy_storage_$_supportedReengagementSources"
++ "%04lld%02lld%02lld"
++ "%@ Purpose: %@ Metric: %@ H: %@ SH: %@ Options: %@, CID: %@ CX: %@ BID: %@ P: %@ IP: %@ REL: %@, ORD: %ld ENV: %@"
++ "%@ R: %@ M: %@ H: %@ SH: %@ O: %@, CI: %@ CX: %@ BID: %@ P: %@ IP: %@ REL: %@, ORD: %ld ENV: %@"
++ "%@ WHERE impressionId = ? AND purpose IN (%lu, %lu) AND event IN (%lu, %lu, %lu, %lu, %lu) AND timestamp >= ? AND timestamp < ? ORDER BY timestamp ASC"
++ "%@%@%@%@%@%@%@%@%@%@%@%@%ld%@"
++ "%@=?"
++ "%s"
++ "%s: Completed task."
++ "%s: Failed to expire task with retry."
++ "%s: Set expiration handler."
++ "%s: Starting task."
++ "%s: Task cancelled. Scheduling retry..."
++ "%s: Task is being cancelled."
++ "%{bool}d"
++ "*"
++ "-1"
++ "-2"
++ "-[APPCControllerCoordinator initWithBundleID:requesterID:identifierProvider:connection:promotedContentDeliveryBlock:]"
++ "-[APPCControllerReceiver initWithConnection:identifierProviderFactory:]"
++ "-[APPCControllerReceiver requestPromotedContentOfTypes:forRequester:forContext:withClientInfo:deliverEntireBatch:logID:completionHandler:]"
++ ".\nMessage Types: "
++ ".DS_Store"
++ "@\"<APMetricProtocol>\"120@0:8q16q24@\"NSString\"32@\"NSString\"40@\"NSString\"48@\"NSString\"56@\"NSArray\"64@\"NSDictionary\"72@\"NSDictionary\"80@\"NSDictionary\"88@\"NSArray\"96q104q112"
++ "@\"<APRotatingIdentifierProviderInterface>\""
++ "@\"APEventStorageProcessor\""
++ "@\"APExperimentationReportBuilder\""
++ "@\"APMetricHTTPDeliveryRequest\"60@0:8@\"NSData\"16@\"APEventChannel\"24@\"NSString\"32@\"<APSigning>\"40B48^@52"
++ "@\"APOnDeviceAttributionCoordinatorObjCBridge\""
++ "@\"APOnDeviceAttributionObjCBridge\""
++ "@\"APPCIdentifierProvider\""
++ "@\"APReceivedMetricProcessor\""
++ "@\"APReportHelper\""
++ "@\"APRotatingIdentifierProvider\"16@0:8"
++ "@\"APRotatingIdentifierProviderFactory\""
++ "@\"APRotatingIdentifierXPCListener\""
++ "@120@0:8q16q24@32@40@48@56@64@72@80@88@96q104q112"
++ "@128@0:8@16@24@32@40@48@56@64@72@80@88@96@104@112@120"
++ "@160@0:8@16@24@32@40@48@56@64@72@80@88@96@104@112@120@128@136@144@152"
++ "@40@0:8@16@24Q32"
++ "@40@0:8q16q24@32"
++ "@56@0:8@16q24@32@40@48"
++ "@64@0:8q16@24@32@40@48@56"
++ "@88@0:8q16q24@32@40@48@56@64@72q80"
++ "APAttributionFrequencyCap"
++ "APDBAdSignalTrack"
++ "APDBAdSignalTrackRow"
++ "APDBExperimentationReport"
++ "APDBExperimentationReportRow"
++ "APDBTrigger"
++ "APDBTriggerRow"
++ "APDevicePipelinesHousekeepingAdapter"
++ "APDiagnosticError"
++ "APEventStorageProcessor"
++ "APExperimentationDataRemoval"
++ "APExperimentationError"
++ "APExperimentationReportBuilder"
++ "APItunesAppMetaData"
++ "APOnDeviceAttributionCoordinatorObjCBridge"
++ "APOnDeviceAttributionObjCBridge"
++ "APPCExperimentationReportEventListener"
++ "APPCIdentifierProvider"
++ "APPCRotatingIdentifier"
++ "APPExperimentationReportDelivery"
++ "APReceivedMetricProcessor"
++ "APReportHelper"
++ "APRotatingIdentifierProviderFactory"
++ "APRotatingIdentifierProviderInterface"
++ "APRotatingIdentifierXPCListener"
++ "APSigning"
++ "Aborting OnDevice Attribution flow. No adamId for AppStore app"
++ "Aborting OnDevice Attribution flow. No adamId for AppStore app."
++ "Aborting OnDevice Attribution flow. No metadata was loaded"
++ "Aborting OnDevice Attribution flow. No metadata was loaded."
++ "Aborting OnDevice Attribution flow. The app was installed by an unsupported marketplace"
++ "Aborting OnDevice Attribution flow. The app was installed by an unsupported marketplace."
++ "AccountStateUUID"
++ "ActionsStore"
++ "ActionsStore insert metric failed. Can't save metric."
++ "AppInstall"
++ "AppOpen"
++ "Attribution.ItunesAppMetaData"
++ "Attribution.OnDeviceAttributionCoordinatorObjCBridge"
++ "Attribution.OnDeviceAttributionObjCBridge"
++ "Attribution/OdcaConversionListener.swift"
++ "AttributionMatchIntent"
++ "AttributionPostMatchIntent"
++ "AttributionPreMatchIntent"
++ "BuildPayload"
++ "Calling didInstall for %s"
++ "Calling didOpen for %s"
++ "Can't construct server URL"
++ "Can't construct server URL: "
++ "Can't construct server URL: %{public}s. Attribution will not be sent."
++ "Can't convert conversion metric json string to data."
++ "Can't deserialize conversion metric: %{public}s."
++ "Can't load metric internal properties: %{public}@"
++ "Can't read dynamic field value for column: %s. %{public}@"
++ "Caught error in business logic %s"
++ "Completed cache cleanup."
++ "Completed conversion matching for: %{public}s. The winning impressionId: %{public}s."
++ "Completed step 1. Got the query: %{private}s"
++ "Completed step 2. Found conversion."
++ "Completed step 3."
++ "Conversion Signal metric %ld doesn't have adamId."
++ "Conversion Signal metric doesn't have adamId."
++ "Conversion Signal metric doesn't have properties."
++ "Conversion metric has unsupported type."
++ "Could not get configured JetPack URL"
++ "Could not load token"
++ "Couldn't build metric object"
++ "Couldn't create Conversion metric"
++ "Couldn't get APDBAdSignalTrack row"
++ "Couldn't get database tables"
++ "Couldn't get triggers, internal properties is nil"
++ "Couldn't prepare report row, missing ad format type or source"
++ "Couldn't prepare report row, unable to get row from database"
++ "Counldn't get or insert trigger"
++ "DELETE FROM APDBAdInstance WHERE impressionId IN (SELECT APDBAdInstance.impressionId FROM APDBAdInstance LEFT JOIN APDBEvent ON APDBAdInstance.impressionId = APDBEvent.impressionId WHERE APDBEvent.impressionId IS NULL)"
++ "DELETE FROM APDBAdInstance WHERE impressionId NOT IN (SELECT impressionId FROM APDBEvent WHERE timestamp > ? GROUP BY impressionId) AND accountToken != ?"
++ "DELETE FROM APDBAdSignalTrack WHERE updateTimestamp < ?"
++ "DELETE FROM APDBEvent WHERE timestamp < ?"
++ "DELETE FROM APDBExperimentationReport WHERE day NOT IN (SELECT e.value FROM json_each('%@') e)"
++ "DELETE FROM APDBTrigger WHERE rowid NOT IN (SELECT triggerRowId FROM APDBExperimentationReport GROUP BY triggerRowId) AND rowid NOT IN (SELECT triggerRowId FROM APDBAdSignalTrack GROUP BY triggerRowId)"
++ "DELETE FROM OdcaAttribution WHERE adamId = ?"
++ "DELETE FROM OdcaAttribution WHERE adamId = ? AND accountToken = ?"
++ "DELETE FROM OdcaAttribution WHERE adamId IN (\n    SELECT adamId FROM OdcaAttribution ORDER BY creationDate ASC LIMIT MAX((SELECT COUNT(*) - ? FROM OdcaAttribution), 0)\n)"
++ "DELETE FROM OdcaAttribution WHERE end < ? OR accountToken != ?"
++ "DELETE FROM Tokens WHERE key=?"
++ "Daily Activity did not get All Events count. Event DB CA failed."
++ "Delivered conversion signal %{public}s"
++ "Delivery"
++ "Device Pipelines disabled."
++ "DevicePipelinesModule is not available"
++ "DevicePipelinesModule is not available."
++ "DiagnosticErrorsReports"
++ "Encountered a non json object while trying to convert attribution DTO"
++ "Error creating token"
++ "Error serializing the candidate properties to json dictionary %s"
++ "Error storing token"
++ "Error unwrapping passthrough data"
++ "Error: %s, Description: %s"
++ "Error: Unknown message type: "
++ "Error: We don't have self here, retain issue"
++ "Exceeded signing retry attempts."
++ "Exceeded upload retry attempts."
++ "Experimentation Aggregates"
++ "Experimentation Report is Disabled by user defaults."
++ "Experimentation error: "
++ "Experimentation report is: %{public}@"
++ "ExperimentationAggregates"
++ "ExperimentationReport-"
++ "Failed to cap Attributions cache size."
++ "Failed to check for a new JetPack. %@"
++ "Failed to construct attribution payload"
++ "Failed to construct attribution payload: "
++ "Failed to construct attribution payload: %{public}s. Attribution will not be sent."
++ "Failed to deserialize task"
++ "Failed to deserialize task."
++ "Failed to link _daemonStartTime."
++ "Failed to load Store Metadata. %{public}@"
++ "Failed to load candidate"
++ "Failed to load candidate. "
++ "Failed to load candidate. %{public}@"
++ "Failed to load creation date"
++ "Failed to load creation date. "
++ "Failed to load creation date. %{public}@"
++ "Failed to read actions from Actions Store"
++ "Failed to read actions from Actions Store. "
++ "Failed to read actions from Actions Store. %{public}@"
++ "Failed to read signing state task"
++ "Failed to read signing state task."
++ "Failed to read upload state task"
++ "Failed to read upload state task."
++ "Failed to remove attributions"
++ "Failed to remove attributions."
++ "Failed to remove obsolete items from Attributions cache."
++ "Failed to remove token"
++ "Failed to remove token."
++ "Failed to save candidates"
++ "Failed to save candidates."
++ "Failed to save candidates. "
++ "Failed to save candidates. %{public}@"
++ "Failed to save candidates. Removal failed."
++ "Failed to serialize task"
++ "Failed to serialize task."
++ "Failed to serialize token. "
++ "Failed to serialize token. %{public}@"
++ "Failed to store metric %ld in ActionsStore."
++ "Failed to store metric in ActionsStore."
++ "Failed to store predicted winner"
++ "Failed to store predicted winner."
++ "FetchAdInstances"
++ "FetchMetrics"
++ "Found actions for %s. Started matching."
++ "GenerateToken"
++ "Got match response"
++ "INSERT INTO OdcaAttribution (adamId, creationDate, start, end, candidate, accountToken) VALUES (?,?,?,?,?,?)"
++ "INSERT INTO Tokens(key,standard,detailed) VALUES (?,?,?)"
++ "INSERT OR IGNORE INTO APDBAdInstance (impressionId, accountToken) VALUES (?, ?)"
++ "Ignore %s"
++ "Installation Conversion Signal"
++ "Integrity report is: %{public}@"
++ "Invalid number of keys found, expected one."
++ "Journey received DaemonReceived metric doesn't have internal properties."
++ "Journey received InterfacePlaced metric doesn't have properties."
++ "Main database is nil, RotatingIdentifierProviderFactory is being used outside of PCD or in Unit tests."
++ "Malformed trigger"
++ "Matching"
++ "Matching Step1"
++ "Matching Step2"
++ "Matching Step3"
++ "Missing ImpressionId on interacted metric."
++ "Missing bundle_identifier on interacted metric"
++ "Missing bundle_identifier on interacted metric."
++ "Missing handle on interacted metric."
++ "NSTaggedPointerString"
++ "No V2 token key provided. Generating new key..."
++ "No conversion for: %{public}s"
++ "No stored actions for %s, aborting."
++ "Nothing in the candidate to serialize"
++ "ODAttribution.debug-communication-code"
++ "ODAttribution.debug-fail-signing"
++ "ODAttribution.debug-http-status"
++ "ODAttribution.overrideAdamId"
++ "ODAttribution.overrideInstalledByAppStore"
++ "ODAttribution.overrideIsTestApp"
++ "ODAttribution.serverURLoverride.v3"
++ "OnDevice Attribution - Completed processing App Installed signal"
++ "OnDevice Attribution - No bundle id."
++ "OnDevice Attribution - Received App Installed signal"
++ "OnDevice Attribution completed."
++ "OnDevice Attribution token failed. Error: %{public}@"
++ "OnDevice Attribution token is ready: %{public}@."
++ "OnDevice Conversion enabled: %{bool}d, OnDevice Attribution enabled: %{bool}d"
++ "OnDevice attribution upload was completed: %s"
++ "OnDeviceAttribution"
++ "OnDeviceConversion"
++ "OperationCompleted"
++ "Overriding BucketID to %ld due to internal settings."
++ "Overriding itunesMetaData adamId: %{public}ld"
++ "Overriding itunesMetaData installedByAppStore: %{public}@"
++ "Overriding itunesMetaData testapp: %{public}@"
++ "PostMatch"
++ "PreMatch"
++ "ProcessPostMatch"
++ "PromotedContentControllerDaemon.PCIdentifierProvider"
++ "PromotedContentControllerDaemon.PCRotatingIdentifier"
++ "PromotedContentControllerDaemon/PCIdentifierProvider.swift"
++ "PurchaseCompleted"
++ "Received response with status code: %{public}ld, error: %{public}s"
++ "RedownloadConfirmed"
++ "Reports.ExperimentationDataRemoval"
++ "Reports.ExperimentationReportBuilder"
++ "Reports.ExperimentationReportDelivery"
++ "Reports/ExperimentationDateHelper.swift"
++ "Request body: %{public}s"
++ "Request body: empty)"
++ "Request headers: %{public}s"
++ "Request headers: empty"
++ "Requesting signature..."
++ "Response Handler Error: Unexpected server response"
++ "Response Handler Error: Unsupported format server response"
++ "Result %s"
++ "Result winner"
++ "Result winner %@"
++ "SELECT * FROM Tokens LIMIT 1"
++ "SELECT COUNT (1) FROM APDBEvent"
++ "SELECT COUNT(*) FROM Tokens"
++ "SELECT SUM(%@) FROM (SELECT %@ FROM APDBExperimentationReport WHERE triggerRowId = ? AND source = ? AND adFormatType = ? AND day IN (SELECT e.value FROM json_each('%@') e)%@)"
++ "SELECT SUM(val) FROM (SELECT (opportunityCount + impressionCount + clickCount + conversionCount) AS val FROM APDBExperimentationReport WHERE triggerRowId = ? AND source = ? AND adFormatType = ? AND day IN (SELECT e.value FROM json_each('%@') e)%@)"
++ "SELECT candidate FROM OdcaAttribution WHERE adamId=? AND accountToken=? AND start <= ? AND ? < end LIMIT 1"
++ "SELECT candidate, tokens, expiration FROM OdcaAttribution WHERE adamId=? AND accountToken=? AND tokens IS NOT NULL LIMIT 1"
++ "SELECT count(*)\nFROM APDBEvent LEFT OUTER JOIN APDBAdInstance on APDBEvent.impressionId = APDBAdInstance.impressionId\nWHERE APDBAdInstance.adamId = ? AND APDBEvent.purpose = "
++ "SELECT count(*)\nFROM APDBEvent LEFT OUTER JOIN APDBAdInstance on APDBEvent.impressionId = APDBAdInstance.impressionId\nWHERE APDBEvent.timestamp > ? AND APDBAdInstance.adamId = ? AND APDBEvent.purpose = "
++ "SELECT creationDate FROM OdcaAttribution WHERE adamId = ? AND accountToken = ? LIMIT 1"
++ "SELECT impressionId, timestamp, purpose, event, source, unknownSource, handleSet, eventOrder, trace, branchString, environmentString, propertiesJSON, internalPropertiesData FROM APDBEvent"
++ "SELECT rowid, * FROM APDBAdSignalTrack WHERE triggerRowId = ?"
++ "SELECT rowid, * FROM APDBExperimentationReport WHERE triggerRowId = ? AND source = ? AND adFormatType = ? AND day = ?%@"
++ "SELECT rowid, * FROM APDBTrigger WHERE experimentId = ? AND treatmentId = ?"
++ "SELECT t.rowid, t.experimentId, t.treatmentId FROM APDBTrigger AS t INNER JOIN APDBAdSignalTrack AS st ON st.triggerRowId = t.rowid WHERE (st.opportunity + st.impression + st.click + st.conversion) < 4 GROUP BY t.rowid"
++ "SELECT t.rowid, t.experimentId, t.treatmentId FROM APDBTrigger AS t INNER JOIN APDBExperimentationReport AS er ON er.triggerRowId = t.rowid WHERE er.day = ? AND er.source = ? GROUP BY t.rowid"
++ "SH"
++ "Scheduling upload retry with delay %f."
++ "Secondary Handle is nil, falling back to handle for impressionId."
++ "Sending OnDevice conversion for impressionId: %{public}@. Properties:\n%{public}@"
++ "Sending match"
++ "Sending payload..."
++ "Sending request to: %{public}s"
++ "Server responded with success."
++ "Setting V2 token key %lx"
++ "Sign Payload"
++ "Signal"
++ "Signing failed with %{public}@ .Scheduling signing retry with delay %f."
++ "Standalone App Open Conversion Signal"
++ "Started cache cleanup. Max cache size: %{public}ld"
++ "Started token refill."
++ "Starting OnDevice Attribution flow with delay %f s"
++ "Starting attribution transmission for key: %s."
++ "Step 1 failed, no query found"
++ "Step 1 failed. Can't load metrics: %{public}@"
++ "Step 1 failed: %{public}@"
++ "Step 2 Ad: %s"
++ "Step 2 failed. Can't load enrichment data."
++ "Step 2 failed. Can't load enrichment data: %{public}@"
++ "Step 2 failed: %{public}@"
++ "Step 3 failed, can't enrich conversion event."
++ "Step 3 failed. Can't read conversion metric."
++ "Step 3 failed: %{public}@"
++ "String(adInstanceID)"
++ "Successfully signed payload. Starting transmission."
++ "T@\"<APRotatingIdentifierProviderInterface>\",R,N,V_providerFactory"
++ "T@\"APDatabaseManager\",R,N,V_database"
++ "T@\"APEventStorageProcessor\",R,N,V_eventProcessor"
++ "T@\"APExperimentationReportBuilder\",&,N,V_experimentationReportBuilder"
++ "T@\"APOnDeviceAttributionCoordinatorObjCBridge\",&,N,V_attributionCoordinator"
++ "T@\"APOnDeviceAttributionObjCBridge\",&,N,V_attribution"
++ "T@\"APOnDeviceAttributionObjCBridge\",N,R"
++ "T@\"APPCIdentifierProvider\",R,N,V_identifierProvider"
++ "T@\"APReceivedMetricProcessor\",R,N,V_eventProcessor"
++ "T@\"APReportHelper\",&,N,V_reportHelper"
++ "T@\"APRotatingIdentifierProvider\",N,&"
++ "T@\"APRotatingIdentifierProvider\",R,N"
++ "T@\"APRotatingIdentifierProviderFactory\",&,N,V_rotatingIdentifierProviderFactory"
++ "T@\"APRotatingIdentifierXPCListener\",&,N,V_rotatingIdentifierXPCListener"
++ "T@\"APUnfairLock\",&,N,V_attributionCoordinatorLock"
++ "T@\"APXPCConnection\",R,N,V_connection"
++ "T@\"NSArray\",&,N,V_tokens"
++ "T@\"NSCalendar\",&,N,V_gregorianCalendar"
++ "T@\"NSDictionary\",&,N,V_rotatingIdentifiers"
++ "T@\"NSNumber\",N,R,VadamId"
++ "T@\"NSString\",R,V_accountToken"
++ "TB,N,R,VinstalledByAppStore"
++ "TB,N,R,VtestApp"
++ "TB,N,VcancelDelivery"
++ "TRIGGER"
++ "Token V3 Request"
++ "Tq,N,Vtype"
++ "UPDATE %@ SET %@ WHERE impressionId=?"
++ "UPDATE OdcaAttribution SET tokenKey=?, tokens=?, expiration=? WHERE adamId=? AND accountToken=? AND start=? AND end=?"
++ "UPDATE OdcaAttribution SET tokenKey=NULL, tokens=NULL, expiration=NULL WHERE tokenKey=?"
++ "UTC timezone not found."
++ "Unable to calculate sum all"
++ "Unable to get ActionsStore AdInstance table."
++ "Unable to get ActionsStore event table."
++ "Unable to get AdInstance table."
++ "Unable to get event rows"
++ "Unable to get event table."
++ "Unable to get signal rows"
++ "Unable to get trigger rows"
++ "Unable to insert delivered report when processing aggregates"
++ "Unable to intilize configuration provider"
++ "Unable to process placed event"
++ "Unable to retrieve Account Token."
++ "Unable to sign a token %@"
++ "Unexpected Conversion Metric."
++ "Unexpected metric %s was received."
++ "Unknown error."
++ "Unknown value for IdentifierType"
++ "Unsupported metric"
++ "Unsupported metric "
++ "Unsupported metric %s"
++ "Unsupported value type"
++ "Unsupported value type."
++ "Usage: mockingjay pcd intent <message type> <intent JSON>\n\tMessage Types: "
++ "Using config parameters %s"
++ "We received Interacted metric for Standalone app Open but it didn't have adamId, aborting."
++ "[%{private}@] Error: Database is nil."
++ "[%{private}@] Trigger insert completed successfully, ExperimentId: %{public}@, TreatmentId: %{public}@, ImpressionId: %{public}@."
++ "[%{private}@] Triggers not found on Received Event."
++ "[%{private}@]: Error Sum ALL metrics, NONNULL params are NULL"
++ "[%{private}@]: Error Sum Metrics, NONNULL params are NULL"
++ "[%{private}@]: Error getting Opportunities, NONNULL params are NULL"
++ "[%{private}@]: Error getting Signal Tracks, NONNULL params are NULL"
++ "[%{private}@]: Error remove data, NONNULL params are NULL"
++ "[%{private}@]: Error removing reports, NONNULL params are NULL"
++ "[%{private}@]: Error storing Signal Track, NONNULL params are NULL"
++ "[%{private}@]: Error storing Signal Track, could not create row."
++ "[%{private}@]: Error storing Trigger report, couldn't insert new column."
++ "[%{private}@]: Error storing Trigger, NONNULL params are NULL"
++ "[%{private}@]: Error storing Trigger, couldn't insert new column."
++ "[%{private}@]: ImpressionId is nil when trying to update row."
++ "[%{private}@]: Undefined aggregate type."
++ "[Error] Interval already ended"
++ "[Event Database] Event storage is Disabled by user defaults."
++ "[ExperimentationAggregator] Process event with Handle: %{public}@, type: %lu"
++ "[ExperimentationAggregator] Processing Trigger with experimentId:%{public}@, treatmentId:%{public}@."
++ "[ExperimentationAggregator] Processing canceled."
++ "[ExperimentationAggregator] Track for handle: %{public}@, completed successfuly."
++ "[ExperimentationAggregator] Unable to get database tables."
++ "[ExperimentationAggregator] Unrecoginzed event type."
++ "[ExperimentationConfigurationProvider] Couldn't find configuration for source."
++ "[ExperimentationConfigurationProvider] Placement malformed."
++ "[ExperimentationConfigurationProvider] Report source malformed."
++ "[ExperimentationDataRemoval] Unable to get last window date."
++ "[ExperimentationDataRemoval] Unable to get tables."
++ "[ExperimentationDateHelper] Unable to get date by value."
++ "[ExperimentationDateHelper] Unable to get date interval."
++ "[ExperimentationDateHelper] Unable to get day number."
++ "[ExperimentationJSONBuilder] Couldn't find last window."
++ "[ExperimentationReportBuilder] Deliver report for date: %s."
++ "[ExperimentationReportBuilder] Last report was sent on: %s."
++ "[ExperimentationReportBuilder] Processing aggregates for date: %{public}@."
++ "[ExperimentationReportBuilder] Reports process complete: %s.."
++ "[ExperimentationReportBuilder] Start preparing reports date: %s."
++ "[ExperimentationReportBuilder] Unable calculate day number."
++ "[ExperimentationReportBuilder] Unable to get tables."
++ "[ExperimentationReportBuilder] Unable to insert delivered report when preparing delivery."
++ "[ExperimentationReportDelivery] Couldn't get triggers with reports, delivery failed."
++ "[ExperimentationReportDelivery] Preparing delivery for day %ld, supplySource %ld."
++ "[ExperimentationReportDelivery] Processing metric for reports %{public}@."
++ "[RotatingIdentifierXPCListener] Received request."
++ "[RotatingIdentifierXPCReceiver] Client cancelled connection. Reason: %@"
++ "_TtC11Attribution12TokenBuilder"
++ "_TtC11Attribution16OdcaMessageQueue"
++ "_TtC11Attribution18DatabaseTokenStore"
++ "_TtC11Attribution19ConversionProcessor"
++ "_TtC11Attribution19JetEngineAttributor"
++ "_TtC11Attribution20AttributionProcessor"
++ "_TtC11Attribution20OdcaConversionConfig"
++ "_TtC11Attribution21DevicePipelinesModule"
++ "_TtC11Attribution22AttributionCoordinator"
++ "_TtC11Attribution23AttributionSignerWorker"
++ "_TtC11Attribution24AttributionTokenProvider"
++ "_TtC11Attribution25AttributionDeliveryWorker"
++ "_TtC11Attribution25AttributionPayloadBuilder"
++ "_TtC11Attribution29AttributionNetworkTransmitter"
++ "_TtC11Attribution29OdcaAttributionListenerConfig"
++ "_TtC11Attribution29OnDeviceConversionTransmitter"
++ "_TtC11Attribution31DatabaseActionStoreDataProvider"
++ "_TtC11Attribution32OnDeviceAttributionExternalStore"
++ "_TtC11Attribution38OnDeviceAttributionCoordinatorProvider"
++ "_TtC11Attribution41OnDeviceAttributionConfigSystemDataSource"
++ "_TtC11Attribution44DefaultOnDeviceAttributionConfigurationStore"
++ "_TtC11Attribution45ConfigurableExpiringAttributionTokenGenerator"
++ "_TtC16promotedcontentd17DaemonSwiftBridge"
++ "_TtC16promotedcontentd26JetPackCacheBackgroundTask"
++ "_TtC16promotedcontentd29RotatingIdentifierXPCReceiver"
++ "_TtC7Reports25ExperimentationAggregator"
++ "_TtC7Reports25ExperimentationDateHelper"
++ "_TtC7Reports26ExperimentationNodeFetcher"
++ "_accountToken"
++ "_adInstanceForMetric:accountToken:"
++ "_attribution"
++ "_attributionCoordinator"
++ "_attributionCoordinatorLock"
++ "_cleanOldData"
++ "_createAdInstanceRowForMetric:accountToken:"
++ "_database"
++ "_deleteDataForUnusedAccounts"
++ "_eventProcessor"
++ "_experimentationReportBuilder"
++ "_expirationOfEventDatabaseDataTimestamp"
++ "_folderSizeAtPath:"
++ "_getAccountToken"
++ "_getColumnNameForType:"
++ "_getReportForTriggerRowId:day:source:adFormatType:slot:"
++ "_identifierProvider"
++ "_integrityReportDatasources"
++ "_isExperimentationReportEnabled"
++ "_isIntegrityReportEnabled"
++ "_logReportDelivery:"
++ "_metricCanBeStored:"
++ "_preProcessDaemonReceivedMetric:accountToken:"
++ "_preProcessInterfacePlacedMetric:accountToken:"
++ "_preProcessInternalConversionMetric:accountToken:"
++ "_providerFactory"
++ "_reportDatasources"
++ "_reportHelper"
++ "_rotatingIdentifierProviderFactory"
++ "_rotatingIdentifierXPCListener"
++ "_rotatingIdentifiers"
++ "_runDevicePipelinesAttributionForBundleId:metadata:"
++ "_storeMetric:"
++ "_storeReceivedEvent:"
++ "_triggerForExperimentId:treatmentId:"
++ "accountToken"
++ "actionStore"
++ "actionStoreEnabled"
++ "actionsStore"
++ "adActionStore"
++ "aggregator"
++ "allEventsCount"
++ "allProperties"
++ "anonymousSessionId"
++ "apDatabase"
++ "apMetric"
++ "app completionHandler "
++ "app tokenReceiver completionHandler "
++ "appDidOpenWithBundleId:metadata:useDetailedToken:tokenClosure:completionHandler:"
++ "appOpenDelayInSeconds"
++ "application-identifier"
++ "attributionCoordinator"
++ "attributionCoordinatorLock"
++ "attributionCoordinatorProvider"
++ "attributionObjCBridge"
++ "attributionStore"
++ "attribution_matching"
++ "attribution_ondevice"
++ "attributor"
++ "auditTokenString"
++ "batchLifetime eventsCount "
++ "bucketIDOverride"
++ "bucketId"
++ "bucketNamespace"
++ "buildMetricDeliveryRequestFromData:toChannel:billing:signing:failIfSignatureIsNotAvailable:error:"
++ "buildSignatureUsingSigning:error:"
++ "builder"
++ "builderData"
++ "builderListeners"
++ "building candidates"
++ "bundleContainerURL is nil"
++ "cacheCommandWithPayload:completionHandler:"
++ "cached=%{name=cached,public}s signerReady=%{name=signerReady,public}s"
++ "cancelDelivery"
++ "cancelProcessing"
++ "cancelReportGeneration"
++ "canceled"
++ "classes"
++ "click"
++ "com.apple.AppStoreDaemon.AppStoreEventServiceExtension"
++ "com.apple.ap.attribution-dc"
++ "com.apple.ap.attribution.errorDomain"
++ "com.apple.ap.jetpack.cache"
++ "com.apple.ap.jetpack.cache.queue"
++ "com.apple.ap.odattribution-appOpen"
++ "com.apple.ap.odattribution-didInstall"
++ "com.apple.ap.odattribution-receiver"
++ "com.apple.ap.odcamq"
++ "com.apple.ap.promotedcontentd.experimentation-listener"
++ "com.apple.ap.promotedcontentd.identifierlistener"
++ "com.apple.ap.promotedcontentd.identifierreceiver"
++ "com.apple.ap.promotedcontentd.pastduereports"
++ "commerceTimestamp"
++ "computed attributions("
++ "configurationStore"
++ "conversion to json resulted in an error"
++ "conversionCount"
++ "conversionListener"
++ "coordinator"
++ "coordinatorFor:accountToken:signpostID:"
++ "coordinatorProvider"
++ "createWithTimerXPCActivity:database:signing:"
++ "dataSource"
++ "databaseDirectory"
++ "dateByAddingUnit:value:toDate:options:"
++ "dateHelper"
++ "deleteAdInstancesWithAccountTokenDifferentThan:andDataOlderThan:"
++ "deleteEventsOlderThan:"
++ "deliveredReportTable"
++ "diagnosticErrorWithErrorType:"
++ "didOpenLock"
++ "engine"
++ "error batchIDs "
++ "eventProcessor"
++ "eventSourceID:"
++ "eventTable"
++ "executeTransactionQueryWithType:"
++ "experimentBuckets"
++ "experimentId"
++ "experimentationErrorWithErrorType:description:"
++ "experimentationEventsForImpressionId:startDate:endDate:"
++ "experimentationReportBuilder"
++ "experimentationReportEnabled"
++ "experimentationReportListener"
++ "experimentation_aggregates"
++ "experimentationaggregates"
++ "expirationOfData2024E"
++ "failed to query metrics from DB %{public}@"
++ "fallback"
++ "fbbec8037e97b335474f43f01ca4c2f753f2b179f45d9880ad00da9d77385137"
++ "fileExistsAtPath:isDirectory:"
++ "finishedWithRequestsForRequester:logID:"
++ "found ads %s"
++ "found events %s"
++ "generation"
++ "getIdentifiersWithType:source:processId:"
++ "getOrInsertReportForTriggerRowId:day:source:adFormatType:slot:"
++ "getOrInsertTriggerWithExperimentId:treatmentId:"
++ "getTriggersWithPendingCounts"
++ "getTriggersWithReportsForDay:supplySource:"
++ "got postmatch"
++ "got properties %s"
++ "got properties %{bool}d"
++ "hasRunningOperation"
++ "https://apps.mzstatic.com/content/988e48d3a0b845ed88c6f867d0437a6b/promotedcontent.jetpack"
++ "https://ca.iadsdk.apple.com/adserver/attribution/v3"
++ "id=%{name=id,public}llu"
++ "id=%{name=id,public}llu prod=%{bool}d"
++ "id=%{name=id,public}llu type=%{name=type,public}ld"
++ "id=%{name=id}llu"
++ "id=%{name=id}llu count=%{name=count,public}ld"
++ "identifierProvider"
++ "impressionLookback"
++ "incorporateJourneyMetrics"
++ "initImpressionId:accountToken:table:"
++ "initImpressionId:campaign:adGroup:ad:creative:bundleId:searchTermId:adamId:adType:adFormatType:containerType:relay:adMetadata:propertiesJSON:brand:advertiserCategory:accountToken:table:"
++ "initImpressionId:timestamp:purpose:event:source:unknownSource:handleSet:eventOrder:trace:branch:environment:propertiesJSON:internalProperties:table:"
++ "initWithArray:"
++ "initWithBool:"
++ "initWithConnection:devicePipelinesAttribution:"
++ "initWithDevicePipelinesAttribution:"
++ "initWithExperimentId:treatmentId:table:"
++ "initWithIdentifierProvider:"
++ "initWithIdentifierProviderFactory:"
++ "initWithProviderFactory:"
++ "initWithPurpose:metric:contentIdentifier:contextIdentifier:handle:secondaryHandle:branch:properties:internalProperties:relayData:environment:order:options:"
++ "initWithPurpose:metric:contentIdentifier:contextIdentifier:handle:secondaryHandle:properties:internalProperties:options:"
++ "initWithRotatingIdentifier:"
++ "initWithTable:"
++ "initWithToken:tokenKey:source:"
++ "initWithTriggerRowId:day:source:adFormatType:slot:table:"
++ "initWithTriggerRowId:impressionId:updateTimestamp:table:"
++ "initWithTriggerTable:metricReceiving:"
++ "insertMetric:"
++ "insertOrIgnoreAdInstanceForImpressionId:accountToken:"
++ "insertSignalTrackForTriggerRowId:impressionId:"
++ "installSignals"
++ "intentCallerCommandWithPayload:completionHandler:"
++ "interactionLookback"
++ "internalState"
++ "isCanceled"
++ "isReady"
++ "listener"
++ "loadWithBundleId:error:"
++ "log"
++ "low high "
++ "mapTableWithKeyOptions:valueOptions:"
++ "maximumTokenLifetime"
++ "messageQueue"
++ "metricReceiving"
++ "modernDataCollectionEnabled"
++ "nodeFetcher"
++ "onDeviceAttributionEnabled"
++ "onDeviceConversionEnabled"
++ "opportunity"
++ "opportunityCount"
++ "optimize"
++ "pendingWinner"
++ "postInitInternal"
++ "preWarm:logID:completion:"
++ "prematch intent"
++ "prematch response %{public}s"
++ "prepareDevicePipelinesWithMetricNotificationRegister:"
++ "preparePastDueReports"
++ "prepareReports"
++ "prepareReportsWithDate:"
++ "processMetric:accountToken:"
++ "processReceivedMetric:"
++ "processing prematch"
++ "promotedcontentd.RotatingIdentifierXPCListener"
++ "promotedcontentd/RotatingIdentifierProviderFactory.swift"
++ "propertiesJSON"
++ "providerFactory"
++ "proxyURLWithLogID:completionHandler:"
++ "queueLabel"
++ "reengagementSources"
++ "refreshLazyFeatureFlagsIfNeededWithLogID:"
++ "registerJetPackCacheRequestTask"
++ "removeDataOlderThan:"
++ "removeExperimentationDataBefore:"
++ "removeObsoleteAttributionDataFrom:"
++ "removeReportsThatAreNotInDays:"
++ "removeTriggersThatHaveNoData"
++ "reportEnabled"
++ "reportHelper"
++ "reportRow"
++ "reportSources"
++ "reportTable"
++ "reportingWindows"
++ "requestPromotedContentOfTypes:forRequester:forContext:withClientInfo:deliverEntireBatch:logID:completionHandler:"
++ "rotatedAnonymousId"
++ "rotatingIdentifierProviderFactory"
++ "rotatingIdentifierXPCListener"
++ "rotatingIdentifiers"
++ "secondaryHandle"
++ "sendAndRankContent:forContext:placement:logID:completionHandler:"
++ "sendEventAppleDomain:customPayload:"
++ "sending postmatch"
++ "sending query"
++ "setAttribution:"
++ "setAttributionCoordinator:"
++ "setAttributionCoordinatorLock:"
++ "setCancelDelivery:"
++ "setCanceled:"
++ "setClick:"
++ "setConversion:"
++ "setConversionCount:"
++ "setExperimentationReportBuilder:"
++ "setExperimentationReportListener:"
++ "setGregorianCalendar:"
++ "setImpression:"
++ "setImpressionId:"
++ "setOpportunity:"
++ "setOpportunityCount:"
++ "setReportHelper:"
++ "setRotatingIdentifierProviderFactory:"
++ "setRotatingIdentifierXPCListener:"
++ "setRotatingIdentifiers:"
++ "setSlot:"
++ "setTriggers:"
++ "setUpdateTimestamp:"
++ "setV2TokenKey:"
++ "setupJetServiceTestRig"
++ "signalTrackTable"
++ "signalTracksForTriggerRowId:"
++ "signer"
++ "signing"
++ "signingBackoffSchedule"
++ "signingHoldTransactionLimit"
++ "signpostProvider"
++ "signposter"
++ "startDevicePipelines"
++ "startOfDayForDate:"
++ "storing attributions"
++ "subscribersQueue"
++ "sumAggregatesForType:triggerRowId:days:source:adFormatType:slot:"
++ "sumAllMetricsForTriggerRowId:days:source:adFormatType:slot:"
++ "supportedBundleIds"
++ "supportedPurposes"
++ "task=%llu id=%{name=id,public}llu"
++ "temporarySessionForDaemon"
++ "testApp"
++ "tokenGenerator"
++ "tokenKey"
++ "tokenProvider"
++ "tokenStorage"
++ "treatmentId"
++ "triggerRowId"
++ "triggerTable"
++ "triggers"
++ "unarchivedObjectOfClasses:fromData:error:"
++ "updateNotNilColumns"
++ "updateTimestamp"
++ "uploadHoldTransactionLimit"
++ "urlPaths"
++ "v16@?0@\"BGSystemTask\"8"
++ "v16@?0@\"NSString\"8"
++ "v24@?0@\"NSArray\"8@?<v@?@\"NSString\">16"
++ "v2TokenKey"
++ "v32@0:8@\"NSData\"16@?<v@?@\"NSData\"@\"NSError\">24"
++ "v32@0:8@\"NSUUID\"16Q24"
++ "v32@0:8Q16@?24"
++ "v32@0:8Q16@?<v@?@\"NSString\">24"
++ "v40@0:8@\"NSDictionary\"16Q24@?<v@?B>32"
++ "v40@0:8@\"NSString\"16@\"NSArray\"24@?<v@?@\"NSString\">32"
++ "v52@0:8@16@24B32@?36@?44"
++ "v56@0:8@\"NSArray\"16@\"APContext\"24Q32Q40@?<v@?@\"NSArray\"@\"NSError\">48"
++ "v56@0:8@16@24Q32Q40@?48"
++ "v68@0:8@\"NSArray\"16@\"NSUUID\"24@\"APContext\"32@\"APClientInfo\"40B48Q52@?<v@?>60"
++ "v68@0:8@16@24@32@40B48Q52@?60"
++ "verifyPastDueReports:"
++ "waitingTime queueLength batchID "
++ "xpcDelay"
++ "xpcSession"
++ "yyyy-MM-dd'T'HH:mm:ss.SSSZ"
+- "\x0f\x01"
+- " UNION "
+- "%@ ORDER BY insertOrder ASC"
+- "%@ Purpose: %@ Metric: %@ H: %@ Options: %@, CID: %@ CX: %@ BID: %@ P: %@ IP: %@ REL: %@, ORD: %ld ENV: %@"
+- "%@ R: %@ M: %@ H: %@ O: %@, CI: %@ CX: %@ BID: %@ P: %@ IP: %@ REL: %@, ORD: %ld ENV: %@"
+- "%@ WHERE event = ? AND handle = ? ORDER BY insertOrder ASC"
+- "%@ WHERE handle = ? ORDER BY insertOrder ASC"
+- "%@ WHERE impression = 1 AND handle = ? ORDER BY insertOrder ASC"
+- "%@%@%@%@%@%@%@%@%@%@%@%ld%@"
+- "-[APPCControllerCoordinator initWithBundleID:requesterID:promotedContentDeliveryBlock:]"
+- "-[APPCControllerReceiver initWithConnection:]"
+- "-[APPCControllerReceiver requestPromotedContentOfTypes:forRequester:forContext:withClientInfo:deliverEntireBatch:completionHandler:]"
+- "2"
+- "@\"<APMetricProtocol>\"112@0:8q16q24@\"NSString\"32@\"NSString\"40@\"NSString\"48@\"NSArray\"56@\"NSDictionary\"64@\"NSDictionary\"72@\"NSDictionary\"80@\"NSArray\"88q96q104"
+- "@\"APMetricHTTPDeliveryRequest\"60@0:8@\"NSData\"16@\"APEventChannel\"24@\"NSString\"32@\"APSigningAuthority\"40B48^@52"
+- "@144@0:8@16@24@32@40@48@56@64@72@80@88@96@104@112@120@128@136"
+- "@152@0:8@16@24@32@40@48@56@64@72@80@88@96@104@112@120@128@136@144"
+- "ADFrequencyCap"
+- "B144@0:8@16@24@32@40@48@56@64@72@80@88@96@104@112@120@128@136"
+- "B248@0:8@16@24@32@40@48@56@64@72@80@88@96@104@112@120@128@136@144@152@160@168@176@184@192@200@208@216@224@232@240"
+- "B24@0:8Q16"
+- "B32@0:8@16Q24"
+- "B44@0:8@16@24B32@36"
+- "B56@0:8@16@24@32@40@48"
+- "COALESCE((SELECT %@ FROM APDBAdInstance WHERE handle = ?), ?)"
+- "CREATE TABLE IF NOT EXISTS event_%lu (handle TEXT NOT NULL, timestamp REAL DEFAULT NULL, purpose INTEGER DEFAULT NULL, event INTEGER NOT NULL, source INTEGER DEFAULT NULL, unknownSource TEXT DEFAULT NULL, handleSet INTEGER DEFAULT NULL, eventOrder INTEGER DEFAULT NULL, trace TEXT DEFAULT NULL, branchString TEXT DEFAULT NULL, environmentString TEXT DEFAULT NULL, impression INTEGER NOT NULL, propertiesData BLOB DEFAULT NULL, internalPropertiesData BLOB DEFAULT NULL, insertOrder INTEGER NOT NULL, FOREIGN KEY (handle) REFERENCES APDBAdInstance(handle))"
+- "CREATE TEMP VIEW IF NOT EXISTS EventView (%@) AS %@"
+- "Can't convert payload to utf8"
+- "DELETE FROM APDBAdInstance WHERE handle IN (SELECT APDBAdInstance.handle FROM APDBAdInstance LEFT JOIN EventView ON APDBAdInstance.handle = EventView.handle WHERE EventView.handle IS NULL)"
+- "DROP TABLE %@"
+- "DROP VIEW IF EXISTS EventView"
+- "Daily Activity couldn't get file size, error: %{public}@"
+- "Daily Activity did not get All Events array. Event DB CA failed."
+- "Division by zero"
+- "Division results in an overflow"
+- "INSERT OR IGNORE INTO APDBAdInstance(handle) VALUES(?)"
+- "INSERT OR REPLACE INTO APDBAdInstance (handle, %@) VALUES (?, %@)"
+- "Insufficient space allocated to copy string contents"
+- "Must take zero or more splits"
+- "Range requires lowerBound <= upperBound"
+- "SELECT %@ FROM %@"
+- "SELECT handle, timestamp, purpose, event, source, unknownSource, handleSet, eventOrder, trace, branchString, environmentString, impression, propertiesData, internalPropertiesData, insertOrder FROM EventView"
+- "SELECT insertOrder FROM EventView ORDER BY insertOrder DESC LIMIT 1"
+- "SELECT name FROM sqlite_master WHERE type='table' AND name LIKE 'event_%'"
+- "SELECT rowid, * FROM APDBAdInstance WHERE adamId = ?"
+- "SELECT rowid, * FROM APDBAdInstance WHERE handle = ?"
+- "Swift/Collection.swift"
+- "Swift/ContiguousArrayBuffer.swift"
+- "Swift/IntegerTypes.swift"
+- "Swift/Range.swift"
+- "Swift/StringTesting.swift"
+- "Swift/StringUTF8View.swift"
+- "Swift/UnsafeBufferPointer.swift"
+- "Swift/UnsafePointer.swift"
+- "Swift/UnsafeRawPointer.swift"
+- "T@\"APUnfairLock\",&,N,V_createTableLock"
+- "T@\"APUnfairLock\",&,N,V_createViewLock"
+- "T@\"NSData\",&,N,V_propertiesData"
+- "T@\"NSNumber\",&,N,V_insertOrder"
+- "TQ,N,V_tableDayOfYear"
+- "TQ,N,V_viewDayOfYear"
+- "Tq,N,V_insertOrder"
+- "Tq,N,V_token"
+- "Unexpectedly found nil while unwrapping an Optional value"
+- "UnsafeMutableBufferPointer with negative count"
+- "UnsafeMutablePointer.initialize overlapping range"
+- "UnsafeMutablePointer.initialize with negative count"
+- "UnsafeMutableRawPointer.initializeMemory overlapping range"
+- "[%{private}@] Event Storage discarding metric for BundleId: %{public}@"
+- "[%{private}@] Event Storage discarding metric for source: %u"
+- "[%{private}@] Storing event %{public}@ as impression: %{public}@"
+- "[%{private}@] Storing recieved event %{public}@"
+- "[%{private}@]: Error getting adInstance for adamId, NONNULL params are NULL"
+- "[%{private}@]: Error getting adInstance for handle, NONNULL params are NULL"
+- "[%{private}@]: Error, could not drop Event View."
+- "_createEventTableIfNeeded"
+- "_createEventTableWithManager:dayOfYear:"
+- "_createEventViewForDay:"
+- "_createEventViewQueryForDay:"
+- "_createTableLock"
+- "_createViewLock"
+- "_currentDayOfYear"
+- "_eventViewTableNamesForDay:"
+- "_expirationOfData"
+- "_insertOrder"
+- "_lastEventInsertOrder"
+- "_propertiesData"
+- "_storeEvent:"
+- "_tableDayOfYear"
+- "_viewDayOfYear"
+- "adInstanceForHandle:"
+- "adInstancesForAdamId:"
+- "allEventsForHandle:"
+- "beginTransaction"
+- "buildMetricDeliveryRequestFromData:toChannel:billing:signingAuthority:failIfSignatureIsNotAvailable:error:"
+- "buildSignatureUsingSigningAuthority:error:"
+- "commitTransaction"
+- "createEventViewIfNeeded"
+- "createTableLock"
+- "createViewLock"
+- "createWithTimerXPCActivity:database:"
+- "currentSigningAuthority"
+- "databaseFilePath"
+- "dropExpiredEventTables"
+- "event_%lu"
+- "executeQueryFromString:"
+- "expirationOfData"
+- "finishedWithRequestsForRequester:"
+- "handle, timestamp, purpose, event, source, unknownSource, handleSet, eventOrder, trace, branchString, environmentString, impression, propertiesData, internalPropertiesData, insertOrder"
+- "impressionEventsForHandle:"
+- "impressionID"
+- "impressionId type"
+- "initHandle:bundleId:adamId:adMetadata:properties:table:"
+- "initHandle:campaign:adGroup:ad:creative:bundleId:searchTermId:adamId:adType:adFormatType:containerType:relay:adMetadata:properties:brand:advertiserCategory:table:"
+- "initHandle:timestamp:event:impression:insertOrder:table:"
+- "initHandle:timestamp:purpose:event:source:unknownSource:handleSet:eventOrder:trace:branch:environment:impression:properties:internalProperties:insertOrder:table:"
+- "initWithDatabaseManager:"
+- "initWithObjects:"
+- "initWithToken:source:"
+- "insertAdInstanceWithHandle:bundleId:adamId:adMetadata:properties:"
+- "insertEvent:handle:impression:timestamp:"
+- "insertEventWithHandle:campaign:adGroup:ad:creative:bundleId:searchTermId:adamId:adType:adFormatType:containerType:relay:adMetadata:adProperties:brand:advertiserCategory:timestamp:purpose:event:source:unknownSource:handleSet:eventOrder:trace:branch:environment:impression:eventProperties:eventInternalProperties:"
+- "insertOrUpdateAdInstanceWithHandle:campaign:adGroup:ad:creative:bundleId:searchTermId:adamId:adType:adFormatType:containerType:relay:adMetadata:properties:brand:advertiserCategory:"
+- "insertOrUpdateIgnoringNilColumns"
+- "insertOrder"
+- "insertReceivedEventWithHandle:bundleId:adamId:adMetadata:adProperties:"
+- "interactedEventsForHandle:"
+- "invalid Collection: less than 'count' elements in collection"
+- "minusSet:"
+- "ordinalityOfUnit:inUnit:forDate:"
+- "preWarm:"
+- "propertiesData"
+- "proxyURLWithCompletionHandler:"
+- "requestPromotedContentOfTypes:forRequester:forContext:withClientInfo:deliverEntireBatch:completionHandler:"
+- "sendAndRankContent:forContext:placement:completionHandler:"
+- "setCreateTableLock:"
+- "setCreateViewLock:"
+- "setImpressionID:"
+- "setInsertOrder:"
+- "setPropertiesData:"
+- "setTableDayOfYear:"
+- "setViewDayOfYear:"
+- "table"
+- "tableDayOfYear"
+- "v20@?0q8B16"
+- "v24@0:8@\"NSDictionary\"16"
+- "v24@0:8@?<v@?@\"NSString\">16"
+- "v24@?0@\"NSString\"8@?<v@?@\"NSString\">16"
+- "v40@0:8@\"NSString\"16@\"NSString\"24@?<v@?@\"NSString\">32"
+- "v48@0:8@\"NSArray\"16@\"APContext\"24Q32@?<v@?@\"NSArray\"@\"NSError\">40"
+- "v48@0:8@16@24Q32@?40"
+- "v60@0:8@\"NSArray\"16@\"NSUUID\"24@\"APContext\"32@\"APClientInfo\"40B48@?<v@?>52"
+- "v60@0:8@16@24@32@40B48@?52"
+- "viewDayOfYear"
+
+```

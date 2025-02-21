@@ -1,0 +1,125 @@
+## SettingsCellularAppIntentsExtension
+
+> `/System/Library/ExtensionKit/Extensions/SettingsCellularAppIntentsExtension.appex/SettingsCellularAppIntentsExtension`
+
+```diff
+
+-544.0.0.0.0
+-  __TEXT.__text: 0xa444
+-  __TEXT.__auth_stubs: 0x830
+-  __TEXT.__const: 0x9a8
+-  __TEXT.__cstring: 0xf93
++564.0.0.0.0
++  __TEXT.__text: 0x96fc
++  __TEXT.__auth_stubs: 0x820
++  __TEXT.__const: 0x9f8
++  __TEXT.__cstring: 0xe83
+   __TEXT.__swift5_typeref: 0x3a1
+   __TEXT.__objc_methname: 0xf2
+   __TEXT.__swift5_reflstr: 0x12e
+
+   __TEXT.__oslogstring: 0xb3
+   __TEXT.__swift5_proto: 0x80
+   __TEXT.__swift5_types: 0x1c
++  __TEXT.__swift_as_entry: 0x3c
++  __TEXT.__swift_as_ret: 0x2c
+   __TEXT.__swift5_entry: 0x8
+   __TEXT.__unwind_info: 0x350
+-  __TEXT.__eh_frame: 0x1d0
+-  __DATA_CONST.__auth_got: 0x418
+-  __DATA_CONST.__got: 0xc8
+-  __DATA_CONST.__auth_ptr: 0x4a0
+-  __DATA_CONST.__const: 0x3a8
++  __TEXT.__eh_frame: 0x230
++  __DATA_CONST.__auth_got: 0x410
++  __DATA_CONST.__got: 0xd8
++  __DATA_CONST.__auth_ptr: 0x4b0
++  __DATA_CONST.__const: 0x3f0
+   __DATA_CONST.__objc_classlist: 0x8
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA.__objc_const: 0x90
+   __DATA.__objc_selrefs: 0x60
+-  __DATA.__data: 0x340
++  __DATA.__data: 0x350
+   __DATA.__common: 0x50
+   __DATA.__bss: 0x1008
+   - /System/Library/Frameworks/AppIntents.framework/AppIntents
+
+   - /usr/lib/swift/libswiftDarwin.dylib
+   - /usr/lib/swift/libswiftDataDetection.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+-  - /usr/lib/swift/libswiftFileProvider.dylib
+   - /usr/lib/swift/libswiftIntents.dylib
+   - /usr/lib/swift/libswiftMetal.dylib
+   - /usr/lib/swift/libswiftOSLog.dylib
+
+   - /usr/lib/swift/libswiftsimd.dylib
+   - /usr/lib/swift/libswiftsys_time.dylib
+   - /usr/lib/swift/libswiftunistd.dylib
+-  Functions: 248
+-  Symbols:   2226
+-  CStrings:  114
++  Functions: 262
++  Symbols:   2362
++  CStrings:  108
+ 
+Symbols:
++ _$s10AppIntents11EntityQueryP22displayRepresentations3for19requestedComponentsSDy0C0_2IDQZAA21DisplayRepresentationVGSayAIG_AK0I0VtYaKFTq
++ _$s10AppIntents11EntityQueryPAAE22displayRepresentations3for19requestedComponentsSDy0C0_2IDQZAA21DisplayRepresentationVGSayAIG_AK0I0VtYaKF
++ _$s10AppIntents11EntityQueryPAAE22displayRepresentations3for19requestedComponentsSDy0C0_2IDQZAA21DisplayRepresentationVGSayAIG_AK0I0VtYaKFTu
++ _$s10AppIntents28InstanceDisplayRepresentableP21displayRepresentation4withAA0dG0VAG10ComponentsV_tYaFTq
++ _$s10AppIntents28InstanceDisplayRepresentablePAAE21displayRepresentation4withAA0dG0VAG10ComponentsV_tYaF
++ _$s10AppIntents28InstanceDisplayRepresentablePAAE21displayRepresentation4withAA0dG0VAG10ComponentsV_tYaFTu
++ _$s35SettingsCellularAppIntentsExtension04OpenaB9DeepLinksV04openC7WhenRunSbvpZMV
++ _$s35SettingsCellularAppIntentsExtension04OpenaB9DeepLinksV14isDiscoverableSbvpZMV
++ _$s35SettingsCellularAppIntentsExtension04OpenaB9DeepLinksV20requiredCapabilitiesSay0cD018RequiredCapability_pGvpZACmTK
++ _$s35SettingsCellularAppIntentsExtension04OpenaB9DeepLinksV20requiredCapabilitiesSay0cD018RequiredCapability_pGvpZACmTk
++ _$s35SettingsCellularAppIntentsExtension04OpenaB9DeepLinksV20requiredCapabilitiesSay0cD018RequiredCapability_pGvpZMV
++ _$s35SettingsCellularAppIntentsExtension04OpenaB9DeepLinksV27attributionBundleIdentifierSSSgvpZACmTK
++ _$s35SettingsCellularAppIntentsExtension04OpenaB9DeepLinksV27attributionBundleIdentifierSSSgvpZACmTk
++ _$s35SettingsCellularAppIntentsExtension04OpenaB9DeepLinksV27attributionBundleIdentifierSSSgvpZMV
++ _$s35SettingsCellularAppIntentsExtension04OpenaB9DeepLinksV5title10Foundation23LocalizedStringResourceVvpZMV
++ _$s35SettingsCellularAppIntentsExtension0aB11DestinationO8allCasesSayACGvpZMV
++ _$s35SettingsCellularAppIntentsExtension0aB7UtilityC6logger2os6LoggerVvpZMV
++ _$s35SettingsCellularAppIntentsExtension0aB9DeepLinksV09AvailableaB16DestinationQueryV0cD006EntityJ0AafGP22displayRepresentations3for19requestedComponentsSDy0K0_2IDQZAF21DisplayRepresentationVGSayANG_AP0P0VtYaKFTW
++ _$s35SettingsCellularAppIntentsExtension0aB9DeepLinksV09AvailableaB16DestinationQueryV0cD006EntityJ0AafGP22displayRepresentations3for19requestedComponentsSDy0K0_2IDQZAF21DisplayRepresentationVGSayANG_AP0P0VtYaKFTWTQ0_
++ _$s35SettingsCellularAppIntentsExtension0aB9DeepLinksV09AvailableaB16DestinationQueryV0cD006EntityJ0AafGP22displayRepresentations3for19requestedComponentsSDy0K0_2IDQZAF21DisplayRepresentationVGSayANG_AP0P0VtYaKFTWTu
++ _$s35SettingsCellularAppIntentsExtension0aB9DeepLinksV0cD028InstanceDisplayRepresentableAadEP21displayRepresentation4withAD0iL0VAJ10ComponentsV_tYaFTW
++ _$s35SettingsCellularAppIntentsExtension0aB9DeepLinksV0cD028InstanceDisplayRepresentableAadEP21displayRepresentation4withAD0iL0VAJ10ComponentsV_tYaFTWTQ0_
++ _$s35SettingsCellularAppIntentsExtension0aB9DeepLinksV0cD028InstanceDisplayRepresentableAadEP21displayRepresentation4withAD0iL0VAJ10ComponentsV_tYaFTWTu
++ _$s35SettingsCellularAppIntentsExtension0aB9DeepLinksV12defaultQueryAC09Availableab11DestinationI0VvpZACmTK
++ _$s35SettingsCellularAppIntentsExtension0aB9DeepLinksV12defaultQueryAC09Availableab11DestinationI0VvpZACmTk
++ _$s35SettingsCellularAppIntentsExtension0aB9DeepLinksV12defaultQueryAC09Availableab11DestinationI0VvpZMV
++ _$s35SettingsCellularAppIntentsExtension0aB9DeepLinksV17urlRepresentation0cD023EntityURLRepresentationVyACGvpZMV
++ _$s35SettingsCellularAppIntentsExtension0aB9DeepLinksV25typeDisplayRepresentation0cD004TypeiJ0VvpZACmTK
++ _$s35SettingsCellularAppIntentsExtension0aB9DeepLinksV25typeDisplayRepresentation0cD004TypeiJ0VvpZACmTk
++ _$s35SettingsCellularAppIntentsExtension0aB9DeepLinksV25typeDisplayRepresentation0cD004TypeiJ0VvpZMV
++ _$s35SettingsCellularAppIntentsExtension0aB9DeepLinksV27attributionBundleIdentifierSSvpZACmTK
++ _$s35SettingsCellularAppIntentsExtension0aB9DeepLinksV27attributionBundleIdentifierSSvpZACmTk
++ _$s35SettingsCellularAppIntentsExtension0aB9DeepLinksV27attributionBundleIdentifierSSvpZMV
++ _$s35SettingsCellularAppIntentsExtension0b9AssistantD0V15negativePhrasesSay0cD001_F6IntentV08NegativefiH0VGvpZMV
++ _$s35SettingsCellularAppIntentsExtension0b9AssistantD0V7intentsSay0cD001_F6IntentVGvpZMV
++ _$sSo8NSObjectCSgWOh
++ ___swift_async_entry_functlets
++ ___swift_async_ret_functlets
++ _objc_release_x27
++ _objc_retain_x22
++ _type_layout_string 35SettingsCellularAppIntentsExtension04OpenaB9DeepLinksV
++ _type_layout_string 35SettingsCellularAppIntentsExtension0aB9DeepLinksV
+- $s35SettingsCellularAppIntentsExtension0aB9DeepLinksV0cD043CustomURLRepresentationParameterConvertibleAadEP017urlRepresentationJ0SSSgvgTW.0
+- _$sSw10copyMemory4fromySW_tF
+- _$ss18_fatalErrorMessage__4file4line5flagss5NeverOs12StaticStringV_A2HSus6UInt32VtF
+- __swift_FORCE_LOAD_$_swiftFileProvider
+- __swift_FORCE_LOAD_$_swiftFileProvider_$_SettingsCellularAppIntentsExtension
+- _objc_release_x28
+- _swift_arrayDestroy
+- _swift_bridgeObjectRelease_n
+CStrings:
+- "CELLULAR_SETTINGS_PATH"
+- "Fatal error"
+- "Swift/UnsafePointer.swift"
+- "Swift/UnsafeRawBufferPointer.swift"
+- "UnsafeMutablePointer.initialize overlapping range"
+- "UnsafeMutableRawBufferPointer.copyMemory source has too many elements"
+
+```

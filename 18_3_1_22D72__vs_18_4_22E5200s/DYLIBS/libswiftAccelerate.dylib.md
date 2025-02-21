@@ -1,0 +1,234 @@
+## libswiftAccelerate.dylib
+
+> `/usr/lib/swift/libswiftAccelerate.dylib`
+
+```diff
+
+ 62.0.0.0.0
+-  __TEXT.__text: 0xa66a8
+-  __TEXT.__auth_stubs: 0x2390
+-  __TEXT.__const: 0x54f0
+-  __TEXT.__swift5_typeref: 0x1870
++  __TEXT.__text: 0x963a4
++  __TEXT.__auth_stubs: 0x2360
++  __TEXT.__const: 0x5a2c
++  __TEXT.__swift5_typeref: 0x1832
+   __TEXT.__cstring: 0xf1e
+-  __TEXT.__constg_swiftt: 0x285c
+-  __TEXT.__swift5_builtin: 0x528
+-  __TEXT.__swift5_reflstr: 0x2902
+-  __TEXT.__swift5_fieldmd: 0x3134
++  __TEXT.__constg_swiftt: 0x27cc
++  __TEXT.__swift5_builtin: 0x4ec
++  __TEXT.__swift5_reflstr: 0x28d2
++  __TEXT.__swift5_fieldmd: 0x30b4
+   __TEXT.__swift5_assocty: 0x780
+   __TEXT.__swift5_proto: 0x454
+-  __TEXT.__swift5_types: 0x358
++  __TEXT.__swift5_types: 0x348
+   __TEXT.__swift5_mpenum: 0x25c
+   __TEXT.__swift5_capture: 0x170
+   __TEXT.__swift5_protos: 0x80
+-  __TEXT.__unwind_info: 0x2e28
+-  __TEXT.__eh_frame: 0x67b0
+-  __DATA_CONST.__got: 0xe10
+-  __DATA_CONST.__const: 0x4b0
++  __TEXT.__swift_as_entry: 0x14
++  __TEXT.__swift_as_ret: 0x4
++  __TEXT.__unwind_info: 0x2c40
++  __TEXT.__eh_frame: 0x6688
++  __DATA_CONST.__got: 0xe00
++  __DATA_CONST.__const: 0x4c0
+   __DATA_CONST.__objc_classlist: 0x108
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __AUTH_CONST.__auth_got: 0x11c8
+-  __AUTH_CONST.__auth_ptr: 0x890
+-  __AUTH_CONST.__const: 0x5a10
++  __AUTH_CONST.__auth_got: 0x11b0
++  __AUTH_CONST.__auth_ptr: 0x800
++  __AUTH_CONST.__const: 0x5900
+   __AUTH_CONST.__objc_const: 0x1768
+-  __AUTH.__data: 0x228
+-  __DATA.__data: 0xce8
++  __AUTH.__data: 0x1b0
++  __DATA.__data: 0xc70
+   __DATA.__bss: 0x4500
+   __DATA.__common: 0x1
+-  __DATA_DIRTY.__data: 0x1cf0
++  __DATA_DIRTY.__data: 0x1d68
+   __DATA_DIRTY.__bss: 0x280
+   - /System/Library/Frameworks/Accelerate.framework/Accelerate
+   - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+
+   - /usr/lib/swift/libswiftsimd.dylib
+   - /usr/lib/swift/libswiftsys_time.dylib
+   - /usr/lib/swift/libswiftunistd.dylib
+-  Functions: 5066
+-  Symbols:   8069
++  Functions: 4863
++  Symbols:   8088
+   CStrings:  99
+ 
+Symbols:
++ _$s10Accelerate10QuadratureV10IntegratorO11nonAdaptiveAEvpZMV
++ _$s10Accelerate10QuadratureV20QAGPointsPerIntervalV7fifteenAEvpZMV
++ _$s10Accelerate10QuadratureV20QAGPointsPerIntervalV8fiftyOneAEvpZMV
++ _$s10Accelerate10QuadratureV20QAGPointsPerIntervalV8fortyOneAEvpZMV
++ _$s10Accelerate10QuadratureV20QAGPointsPerIntervalV8sixtyOneAEvpZMV
++ _$s10Accelerate10QuadratureV20QAGPointsPerIntervalV9thirtyOneAEvpZMV
++ _$s10Accelerate10QuadratureV20QAGPointsPerIntervalV9twentyOneAEvpZMV
++ _$s10Accelerate4BLASV14ThreadingModelV13multiThreadedAEvpZMV
++ _$s10Accelerate4BLASV14ThreadingModelV14singleThreadedAEvpZMV
++ _$s10Accelerate4BLASV14threadingModelAC09ThreadingD0VvpZMV
++ _$s10Accelerate4BNNSO10DataLayoutO8allCasesSayAEGvpZMV
++ _$s10Accelerate4BNNSO18ConvolutionPaddingO4zeroAEvpZMV
++ _$s10Accelerate4BNNSO18RelationalOperatorV12greaterEqualAEvpZMV
++ _$s10Accelerate4BNNSO18RelationalOperatorV2orAEvpZMV
++ _$s10Accelerate4BNNSO18RelationalOperatorV3andAEvpZMV
++ _$s10Accelerate4BNNSO18RelationalOperatorV3norAEvpZMV
++ _$s10Accelerate4BNNSO18RelationalOperatorV3notAEvpZMV
++ _$s10Accelerate4BNNSO18RelationalOperatorV3xorAEvpZMV
++ _$s10Accelerate4BNNSO18RelationalOperatorV4lessAEvpZMV
++ _$s10Accelerate4BNNSO18RelationalOperatorV4nandAEvpZMV
++ _$s10Accelerate4BNNSO18RelationalOperatorV5equalAEvpZMV
++ _$s10Accelerate4BNNSO18RelationalOperatorV7greaterAEvpZMV
++ _$s10Accelerate4BNNSO18RelationalOperatorV8notEqualAEvpZMV
++ _$s10Accelerate4BNNSO18RelationalOperatorV9lessEqualAEvpZMV
++ _$s10Accelerate4BNNSO23ArithmeticUnaryFunctionO8allCasesSayAEGvpZMV
++ _$s10Accelerate4BNNSO24ArithmeticBinaryFunctionO8allCasesSayAEGvpZMV
++ _$s10Accelerate4BNNSO4NormV2l1AEvpZMV
++ _$s10Accelerate4BNNSO4NormV2l2AEvpZMV
++ _$s10Accelerate4BNNSO4NormV7maximumAEvpZMV
++ _$s10Accelerate4BNNSO4NormV7taxicabAEvpZMV
++ _$s10Accelerate4BNNSO4NormV9euclideanAEvpZMV
++ _$s10Accelerate4BNNSO4NormV9lInfinityAEvpZMV
++ _$s10Accelerate4vDSPO16DCTTransformTypeO8allCasesSayAEGvpZMV
++ _$s10Accelerate6vImageO14Interleaved8x2V12channelCountSivpZMV
++ _$s10Accelerate6vImageO14Interleaved8x2V16bitCountPerPixelSivpZMV
++ _$s10Accelerate6vImageO14Interleaved8x3V12channelCountSivpZMV
++ _$s10Accelerate6vImageO14Interleaved8x3V16bitCountPerPixelSivpZMV
++ _$s10Accelerate6vImageO14Interleaved8x3V20bitCountPerComponentSivpZMV
++ _$s10Accelerate6vImageO14Interleaved8x4V12channelCountSivpZMV
++ _$s10Accelerate6vImageO14Interleaved8x4V16bitCountPerPixelSivpZMV
++ _$s10Accelerate6vImageO14Interleaved8x4V20bitCountPerComponentSivpZMV
++ _$s10Accelerate6vImageO14InterleavedFx2V12channelCountSivpZMV
++ _$s10Accelerate6vImageO14InterleavedFx2V16bitCountPerPixelSivpZMV
++ _$s10Accelerate6vImageO14InterleavedFx3V12channelCountSivpZMV
++ _$s10Accelerate6vImageO14InterleavedFx3V16bitCountPerPixelSivpZMV
++ _$s10Accelerate6vImageO14InterleavedFx3V20bitCountPerComponentSivpZMV
++ _$s10Accelerate6vImageO14InterleavedFx4V12channelCountSivpZMV
++ _$s10Accelerate6vImageO14InterleavedFx4V16bitCountPerPixelSivpZMV
++ _$s10Accelerate6vImageO14InterleavedFx4V20bitCountPerComponentSivpZMV
++ _$s10Accelerate6vImageO16Interleaved16Fx2V12channelCountSivpZMV
++ _$s10Accelerate6vImageO16Interleaved16Fx2V16bitCountPerPixelSivpZMV
++ _$s10Accelerate6vImageO16Interleaved16Fx4V12channelCountSivpZMV
++ _$s10Accelerate6vImageO16Interleaved16Fx4V16bitCountPerPixelSivpZMV
++ _$s10Accelerate6vImageO16Interleaved16Fx4V20bitCountPerComponentSivpZMV
++ _$s10Accelerate6vImageO16Interleaved16Ux2V12channelCountSivpZMV
++ _$s10Accelerate6vImageO16Interleaved16Ux2V16bitCountPerPixelSivpZMV
++ _$s10Accelerate6vImageO16Interleaved16Ux2V20bitCountPerComponentSivpZMV
++ _$s10Accelerate6vImageO16Interleaved16Ux4V12channelCountSivpZMV
++ _$s10Accelerate6vImageO16Interleaved16Ux4V16bitCountPerPixelSivpZMV
++ _$s10Accelerate6vImageO16Interleaved16Ux4V20bitCountPerComponentSivpZMV
++ _$s10Accelerate6vImageO17ConvolutionKernelV12gaussian1Dx3SaySfGvpZMV
++ _$s10Accelerate6vImageO17ConvolutionKernelV12gaussian1Dx5SaySfGvpZMV
++ _$s10Accelerate6vImageO17ConvolutionKernelV12gaussian1Dx7SaySfGvpZMV
++ _$s10Accelerate6vImageO7OptionsV10doNotClampAEvpZMV
++ _$s10Accelerate6vImageO7OptionsV10hdrContentAEvpZMV
++ _$s10Accelerate6vImageO7OptionsV10noAllocateAEvpZMV
++ _$s10Accelerate6vImageO7OptionsV11copyInPlaceAEvpZMV
++ _$s10Accelerate6vImageO7OptionsV11imageExtendAEvpZMV
++ _$s10Accelerate6vImageO7OptionsV14truncateKernelAEvpZMV
++ _$s10Accelerate6vImageO7OptionsV17getTempBufferSizeAEvpZMV
++ _$s10Accelerate6vImageO7OptionsV19backgroundColorFillAEvpZMV
++ _$s10Accelerate6vImageO7OptionsV19leaveAlphaUnchangedAEvpZMV
++ _$s10Accelerate6vImageO7OptionsV21highQualityResamplingAEvpZMV
++ _$s10Accelerate6vImageO7OptionsV25printDiagnosticsToConsoleAEvpZMV
++ _$s10Accelerate6vImageO7OptionsV7noFlagsAEvpZMV
++ _$s10Accelerate6vImageO7OptionsV9doNotTileAEvpZMV
++ _$s10Accelerate6vImageO7Planar8V12channelCountSivpZMV
++ _$s10Accelerate6vImageO7Planar8V16bitCountPerPixelSivpZMV
++ _$s10Accelerate6vImageO7Planar8V20bitCountPerComponentSivpZMV
++ _$s10Accelerate6vImageO7PlanarFV12channelCountSivpZMV
++ _$s10Accelerate6vImageO7PlanarFV16bitCountPerPixelSivpZMV
++ _$s10Accelerate6vImageO7PlanarFV20bitCountPerComponentSivpZMV
++ _$s10Accelerate6vImageO9Planar16FV12channelCountSivpZMV
++ _$s10Accelerate6vImageO9Planar16FV16bitCountPerPixelSivpZMV
++ _$s10Accelerate6vImageO9Planar16FV20bitCountPerComponentSivpZMV
++ _$s10Accelerate6vImageO9Planar16UV12channelCountSivpZMV
++ _$s10Accelerate6vImageO9Planar16UV16bitCountPerPixelSivpZMV
++ _$s10Accelerate6vImageO9Planar8x2V10planeCountSivpZMV
++ _$s10Accelerate6vImageO9Planar8x2V22bitCountPerPlanarPixelSivpZMV
++ _$s10Accelerate6vImageO9Planar8x3V10planeCountSivpZMV
++ _$s10Accelerate6vImageO9Planar8x3V22bitCountPerPlanarPixelSivpZMV
++ _$s10Accelerate6vImageO9Planar8x4V10planeCountSivpZMV
++ _$s10Accelerate6vImageO9Planar8x4V22bitCountPerPlanarPixelSivpZMV
++ _$s10Accelerate6vImageO9PlanarFx2V011bitCountPerC5PixelSivpZMV
++ _$s10Accelerate6vImageO9PlanarFx2V10planeCountSivpZMV
++ _$s10Accelerate6vImageO9PlanarFx3V011bitCountPerC5PixelSivpZMV
++ _$s10Accelerate6vImageO9PlanarFx3V10planeCountSivpZMV
++ _$s10Accelerate6vImageO9PlanarFx4V011bitCountPerC5PixelSivpZMV
++ _$s10Accelerate6vImageO9PlanarFx4V10planeCountSivpZMV
++ _$s10Accelerate9BNNSGraphO14CompileOptionsV22OptimizationPreferenceV11performanceAGvpZMV
++ _$s10Accelerate9BNNSGraphO14CompileOptionsV22OptimizationPreferenceV26internalRepresentationSizeAGvpZMV
++ _$sSb10AccelerateE12bnnsDataTypeSo08BNNSDataD0avpZMV
++ _$sSf10AccelerateE12bnnsDataTypeSo08BNNSDataD0avpZMV
++ _$sSo12BNNSDataTypea10AccelerateE4int8ABvpZMV
++ _$sSo12BNNSDataTypea10AccelerateE5floatABvpZMV
++ _$sSo12BNNSDataTypea10AccelerateE5int16ABvpZMV
++ _$sSo12BNNSDataTypea10AccelerateE5int32ABvpZMV
++ _$sSo12BNNSDataTypea10AccelerateE5uint8ABvpZMV
++ _$sSo12BNNSDataTypea10AccelerateE6uint16ABvpZMV
++ _$sSo12BNNSDataTypea10AccelerateE6uint32ABvpZMV
++ _$sSo12BNNSDataTypea10AccelerateE7float16ABvpZMV
++ _$sSo12BNNSDataTypea10AccelerateE8indexed8ABvpZMV
++ _$sSo13BNNSLayerDataa10AccelerateE4zeroABvpZMV
++ _$sSo14BNNSActivationa10AccelerateE8identityABvpZMV
++ _$sSo19BNNSPoolingFunctiona10AccelerateE3maxABvpZMV
++ _$sSo19BNNSPoolingFunctiona10AccelerateE7averageABvpZMV
++ _$sSo22BNNSActivationFunctiona10AccelerateE10scaledTanhABvpZMV
++ _$sSo22BNNSActivationFunctiona10AccelerateE15rectifiedLinearABvpZMV
++ _$sSo22BNNSActivationFunctiona10AccelerateE20leakyRectifiedLinearABvpZMV
++ _$sSo22BNNSActivationFunctiona10AccelerateE21integerLinearSaturateABvpZMV
++ _$sSo22BNNSActivationFunctiona10AccelerateE31integerLinearSaturatePerChannelABvpZMV
++ _$sSo22BNNSActivationFunctiona10AccelerateE3absABvpZMV
++ _$sSo22BNNSActivationFunctiona10AccelerateE4tanhABvpZMV
++ _$sSo22BNNSActivationFunctiona10AccelerateE5clampABvpZMV
++ _$sSo22BNNSActivationFunctiona10AccelerateE6linearABvpZMV
++ _$sSo22BNNSActivationFunctiona10AccelerateE7sigmoidABvpZMV
++ _$sSo22BNNSActivationFunctiona10AccelerateE7softmaxABvpZMV
++ _$sSo22BNNSActivationFunctiona10AccelerateE8identityABvpZMV
++ _$sSo9BNNSFlagsa10AccelerateE16useClientPointerABvpZMV
++ _$ss18_CocoaArrayWrapperV8endIndexSivg
++ _$ss4Int8V10AccelerateE12bnnsDataTypeSo08BNNSDataE0avpZMV
++ _$ss5Int16V10AccelerateE12bnnsDataTypeSo08BNNSDataE0avpZMV
++ _$ss5Int32V10AccelerateE12bnnsDataTypeSo08BNNSDataE0avpZMV
++ _$ss5Int64V10AccelerateE12bnnsDataTypeSo08BNNSDataE0avpZMV
++ _$ss5UInt8V10AccelerateE12bnnsDataTypeSo08BNNSDataE0avpZMV
++ _$ss6UInt16V10AccelerateE12bnnsDataTypeSo08BNNSDataE0avpZMV
++ _$ss6UInt32V10AccelerateE12bnnsDataTypeSo08BNNSDataE0avpZMV
++ _$ss6UInt64V10AccelerateE12bnnsDataTypeSo08BNNSDataE0avpZMV
++ _$ss7Float16V10AccelerateE12bnnsDataTypeSo08BNNSDataE0avpZMV
++ _swift_allocateGenericValueMetadataWithLayoutString
++ _swift_enumFn_getEnumTag
++ _swift_generic_assignWithCopy
++ _swift_generic_assignWithTake
++ _swift_generic_destroy
++ _swift_generic_initWithCopy
++ _swift_generic_initWithTake
++ _swift_generic_initializeBufferWithCopyOfBuffer
++ _swift_generic_instantiateLayoutString
++ _swift_initEnumMetadataSinglePayloadWithLayoutString
++ _swift_singlePayloadEnumGeneric_destructiveInjectEnumTag
++ _swift_singlePayloadEnumGeneric_getEnumTag
+- _$s12CoreGraphics7CGFloatVMn
+- _$sSa23withUnsafeBufferPointeryqd__qd__SRyxGKXEKlF
+- _$ss10ArraySliceV23withUnsafeBufferPointeryqd__qd__SRyxGKXEKlF
+- _$ss15ContiguousArrayV23withUnsafeBufferPointeryqd__qd__SRyxGKXEKlF
+- _$ss9UnmanagedVMn
+- _objc_release_x25
+- _swift_allocateGenericValueMetadata
+- _swift_initEnumMetadataSinglePayload
+- _swift_once
+
+```

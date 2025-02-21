@@ -1,0 +1,319 @@
+## PhoneSuggestions
+
+> `/System/Library/Siri/DM/SiriSuggestions/Owners/PhoneSuggestions.bundle/PhoneSuggestions`
+
+```diff
+
+-3403.3.1.0.0
+-  __TEXT.__text: 0x9b34
+-  __TEXT.__auth_stubs: 0x980
+-  __TEXT.__const: 0x652
+-  __TEXT.__cstring: 0x860
+-  __TEXT.__swift5_typeref: 0x246
+-  __TEXT.__objc_methname: 0x10e
+-  __TEXT.__constg_swiftt: 0x28c
+-  __TEXT.__swift5_reflstr: 0xf7
+-  __TEXT.__swift5_fieldmd: 0x170
+-  __TEXT.__swift5_proto: 0x4c
+-  __TEXT.__swift5_types: 0x38
++3404.51.1.0.0
++  __TEXT.__text: 0x9840
++  __TEXT.__auth_stubs: 0x970
++  __TEXT.__const: 0x792
++  __TEXT.__cstring: 0x5df
++  __TEXT.__swift5_typeref: 0x264
++  __TEXT.__swift5_reflstr: 0xf0
+   __TEXT.__swift5_assocty: 0x60
+-  __TEXT.__oslogstring: 0x22b
+-  __TEXT.__unwind_info: 0x390
+-  __TEXT.__eh_frame: 0x268
+-  __DATA_CONST.__auth_got: 0x4c0
+-  __DATA_CONST.__got: 0x100
+-  __DATA_CONST.__auth_ptr: 0x198
+-  __DATA_CONST.__const: 0x6b8
+-  __DATA_CONST.__objc_classlist: 0x20
++  __TEXT.__constg_swiftt: 0x2c8
++  __TEXT.__swift5_fieldmd: 0x180
++  __TEXT.__swift5_proto: 0x50
++  __TEXT.__swift5_types: 0x3c
++  __TEXT.__oslogstring: 0x2bf
++  __TEXT.__swift_as_entry: 0x24
++  __TEXT.__swift_as_ret: 0x14
++  __TEXT.__objc_methname: 0x10e
++  __TEXT.__unwind_info: 0x340
++  __TEXT.__eh_frame: 0x2f8
++  __DATA_CONST.__auth_got: 0x4b8
++  __DATA_CONST.__got: 0x140
++  __DATA_CONST.__auth_ptr: 0x1a8
++  __DATA_CONST.__const: 0x6d0
++  __DATA_CONST.__objc_classlist: 0x28
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA.__objc_const: 0x2b8
++  __DATA.__objc_const: 0x348
+   __DATA.__objc_selrefs: 0x70
+-  __DATA.__data: 0x568
+-  __DATA.__bss: 0x980
+-  __DATA.__common: 0x108
++  __DATA.__data: 0x5d0
++  __DATA.__bss: 0xa00
++  __DATA.__common: 0x48
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/Frameworks/Intents.framework/Intents
+   - /System/Library/PrivateFrameworks/AppPredictionClient.framework/AppPredictionClient
+
+   - /usr/lib/swift/libswiftDarwin.dylib
+   - /usr/lib/swift/libswiftDataDetection.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+-  - /usr/lib/swift/libswiftFileProvider.dylib
+   - /usr/lib/swift/libswiftIntents.dylib
+   - /usr/lib/swift/libswiftMLCompute.dylib
+   - /usr/lib/swift/libswiftMapKit.dylib
+
+   - /usr/lib/swift/libswiftsimd.dylib
+   - /usr/lib/swift/libswiftsys_time.dylib
+   - /usr/lib/swift/libswiftunistd.dylib
+-  Functions: 366
+-  Symbols:   2865
+-  CStrings:  75
++  Functions: 371
++  Symbols:   3017
++  CStrings:  64
+ 
+Symbols:
++ _$s16PhoneSuggestions0A10SuggestionO8allCasesSayACGvpZMV
++ _$s16PhoneSuggestions0A20CallAppNameConstantsO013internalWatchD6SuffixSSvpZMV
++ _$s16PhoneSuggestions0A20CallAppNameConstantsO02inC15ServiceBundleIdSSvpZMV
++ _$s16PhoneSuggestions0A20CallAppNameConstantsO02inC15ServiceLaunchIdSSvpZMV
++ _$s16PhoneSuggestions0A20CallAppNameConstantsO04openC9RecordURISSvpZMV
++ _$s16PhoneSuggestions0A20CallAppNameConstantsO04siriD8BundleIdSSvpZMV
++ _$s16PhoneSuggestions0A20CallAppNameConstantsO06mobileA14ContactsTabURISSvpZMV
++ _$s16PhoneSuggestions0A20CallAppNameConstantsO06mobileA8BundleIdSSvpZMV
++ _$s16PhoneSuggestions0A20CallAppNameConstantsO11mapBundleIdSSvpZMV
++ _$s16PhoneSuggestions0A20CallAppNameConstantsO12settingsRootSSvpZMV
++ _$s16PhoneSuggestions0A20CallAppNameConstantsO16carouselBundleIdSSvpZMV
++ _$s16PhoneSuggestions0A20CallAppNameConstantsO16contactsBundleIdSSvpZMV
++ _$s16PhoneSuggestions0A20CallAppNameConstantsO16dropInProviderIdSSvau
++ _$s16PhoneSuggestions0A20CallAppNameConstantsO16dropInProviderIdSSvgZ
++ _$s16PhoneSuggestions0A20CallAppNameConstantsO16dropInProviderIdSSvpZ
++ _$s16PhoneSuggestions0A20CallAppNameConstantsO16dropInProviderIdSSvpZMV
++ _$s16PhoneSuggestions0A20CallAppNameConstantsO16faceTimeBundleIdSSvpZMV
++ _$s16PhoneSuggestions0A20CallAppNameConstantsO16messagesBundleIdSSvpZMV
++ _$s16PhoneSuggestions0A20CallAppNameConstantsO17emergencyBundleIdSSvpZMV
++ _$s16PhoneSuggestions0A20CallAppNameConstantsO17nanophoneBundleIdSSvpZMV
++ _$s16PhoneSuggestions0A20CallAppNameConstantsO17phoneSettingsRootSSvpZMV
++ _$s16PhoneSuggestions0A20CallAppNameConstantsO19macFaceTimeBundleIdSSvpZMV
++ _$s16PhoneSuggestions0A20CallAppNameConstantsO20faceTimeSettingsRootSSvpZMV
++ _$s16PhoneSuggestions0A20CallAppNameConstantsO20walkieTalkieBundleIdSSvpZMV
++ _$s16PhoneSuggestions0A20CallAppNameConstantsO22macFaceTimeVocBundleIdSSvpZMV
++ _$s16PhoneSuggestions0A20CallAppNameConstantsO23systemExtensionBundleIdSSvpZMV
++ _$s16PhoneSuggestions0A20CallAppNameConstantsO25systemUIExtensionBundleIdSSvpZMV
++ _$s16PhoneSuggestions0A20CallAppNameConstantsO28walkieTalkieInternalBundleIdSSvpZMV
++ _$s16PhoneSuggestions0A20CallAppNameConstantsO29walkieTalkieExtensionBundleIdSSvpZMV
++ _$s16PhoneSuggestions0A22OwnerDefinitionFactoryC01kC004SiriB3Kit06DomainC0CvpZMV
++ _$s16PhoneSuggestions0A22OwnerDefinitionFactoryC06createC11Definitions07builderE0Say04SiriB3Kit0cD0_pGAF010SuggestioncD7BuilderCAF0C0_pYaXE_tYaFZAF15IntentParameterOSo8INIntentCYaYbcfU_
++ _$s16PhoneSuggestions0A22OwnerDefinitionFactoryC06createC11Definitions07builderE0Say04SiriB3Kit0cD0_pGAF010SuggestioncD7BuilderCAF0C0_pYaXE_tYaFZAF15IntentParameterOSo8INIntentCYaYbcfU_TY0_
++ _$s16PhoneSuggestions0A22OwnerDefinitionFactoryC06createC11Definitions07builderE0Say04SiriB3Kit0cD0_pGAF010SuggestioncD7BuilderCAF0C0_pYaXE_tYaFZAF15IntentParameterOSo8INIntentCYaYbcfU_Tu
++ _$s16PhoneSuggestions0A22OwnerDefinitionFactoryC13kTemplateRootSSvpZMV
++ _$s16PhoneSuggestions0aB13AssetProviderC04SiriB3Kit0cD0AAMc
++ _$s16PhoneSuggestions0aB13AssetProviderC04SiriB3Kit0cD0AAMcMK
++ _$s16PhoneSuggestions0aB13AssetProviderC04SiriB3Kit0cD0AadEP9getAssets7context10suggestionAD0H0VAD11ViewContextCz_AD19CandidateSuggestion_ptFTW
++ _$s16PhoneSuggestions0aB13AssetProviderC9getAssets7context10suggestion04SiriB3Kit0F0VAG11ViewContextCz_AG19CandidateSuggestion_ptF
++ _$s16PhoneSuggestions0aB13AssetProviderCAC04SiriB3Kit0cD0AAWL
++ _$s16PhoneSuggestions0aB13AssetProviderCACycfC
++ _$s16PhoneSuggestions0aB13AssetProviderCACycfCTq
++ _$s16PhoneSuggestions0aB13AssetProviderCACycfc
++ _$s16PhoneSuggestions0aB13AssetProviderCMF
++ _$s16PhoneSuggestions0aB13AssetProviderCMa
++ _$s16PhoneSuggestions0aB13AssetProviderCMf
++ _$s16PhoneSuggestions0aB13AssetProviderCMm
++ _$s16PhoneSuggestions0aB13AssetProviderCMn
++ _$s16PhoneSuggestions0aB13AssetProviderCN
++ _$s16PhoneSuggestions0aB13AssetProviderCfD
++ _$s16PhoneSuggestions0aB13AssetProviderCfd
++ _$s16PhoneSuggestions20SuggestionIdentifierO8allCasesSayACGvpZMV
++ _$s16PhoneSuggestions22CATParameterIdentifierO10IsFaceTimeSSvpZMV
++ _$s16PhoneSuggestions22CATParameterIdentifierO11IsGroupCallSSvpZMV
++ _$s16PhoneSuggestions22CATParameterIdentifierO12HasReferenceSSvpZMV
++ _$s16PhoneSuggestions22CATParameterIdentifierO4NameSSvpZMV
++ _$s16PhoneSuggestions22ResolveStartCallParamsC16resolveParameter9parameter10suggestion11interaction11environmentSayypG04SiriB3Kit010ResolvableH0C_AJ19CandidateSuggestion_pAJ11Interaction_pAJ19EnvironmentSnapshot_ptYaFTY3_
++ _$s16PhoneSuggestions22ResolveStartCallParamsC16resolveParameter9parameter10suggestion11interaction11environmentSayypG04SiriB3Kit010ResolvableH0C_AJ19CandidateSuggestion_pAJ11Interaction_pAJ19EnvironmentSnapshot_ptYaFTY4_
++ _$s16PhoneSuggestions22ResolveStartCallParamsC16resolveParameter9parameter10suggestion11interaction11environmentSayypG04SiriB3Kit010ResolvableH0C_AJ19CandidateSuggestion_pAJ11Interaction_pAJ19EnvironmentSnapshot_ptYaFTY5_
++ _$s16PhoneSuggestions22ResolveStartCallParamsC16resolveParameter9parameter10suggestion11interaction11environmentSayypG04SiriB3Kit010ResolvableH0C_AJ19CandidateSuggestion_pAJ11Interaction_pAJ19EnvironmentSnapshot_ptYaFTY6_
++ _$s16PhoneSuggestions25ProactiveEntityIdentifierO10RecipientsSSvpZMV
++ _$s16PhoneSuggestions25ProactiveEntityIdentifierO8ContactsSSvpZMV
++ _$s16PhoneSuggestions25ProactiveEntityIdentifierO9GroupNameSSvpZMV
++ _$s16PhoneSuggestions25StartCallSuggestionParamsV10identifierSSvpZMV
++ _$s16PhoneSuggestions28ProactiveParameterIdentifierO16StartCallContactSSvpZMV
++ _$s16PhoneSuggestions28ProactiveParameterIdentifierO24StartFacetimeCallContactSSvpZMV
++ _$s16PhoneSuggestions6LoggerO11suggestions2osABVvpZMV
++ _$s16PhoneSuggestions8LogConstO8CategoryO05phoneB0SSvpZMV
++ _$s16PhoneSuggestions8LogConstO9subsystemSSvpZMV
++ _$s18SiriSuggestionsKit0A37HelpSuggestionDetailsBuilderExtensionP8register7signals3forxSayAA6SignalCG_AA0L17ContextPropertiesOtFTj
++ _$s18SiriSuggestionsKit0aB0O10IntentTypeO02inD0yAESSSg_tcAEmFWC
++ _$s18SiriSuggestionsKit0aB0O10IntentTypeOMa
++ _$s18SiriSuggestionsKit0aB0O11Transformer_pAC6IntentO9InputTypeAcDPRts_AA0E9ParameterO06OutputG0AHRtsXPWOc
++ _$s18SiriSuggestionsKit10DeviceTypeO3macyA2CmFWC
++ _$s18SiriSuggestionsKit13AssetProviderMp
++ _$s18SiriSuggestionsKit13AssetProviderP9getAssets7context10suggestionAA0G0VAA11ViewContextCz_AA19CandidateSuggestion_ptFTq
++ _$s18SiriSuggestionsKit15DeliveryVehicleO09assistantB0yA2CmFWC
++ _$s18SiriSuggestionsKit15DeliveryVehicleO16siriAutoCompleteyA2CmFWC
++ _$s18SiriSuggestionsKit15DeliveryVehicleO8siriHelpyA2CmFWC
++ _$s18SiriSuggestionsKit15DeliveryVehicleOACSQAAWL
++ _$s18SiriSuggestionsKit15DeliveryVehicleOACSQAAWlTm
++ _$s18SiriSuggestionsKit15DeliveryVehicleOMa
++ _$s18SiriSuggestionsKit15DeliveryVehicleOMn
++ _$s18SiriSuggestionsKit15DeliveryVehicleOSQAAMc
++ _$s18SiriSuggestionsKit15DeliveryVehicleOSgMD
++ _$s18SiriSuggestionsKit15DeliveryVehicleOSgWOcTm
++ _$s18SiriSuggestionsKit15DeliveryVehicleOSg_ADtMD
++ _$s18SiriSuggestionsKit19CandidateSuggestionP15deliveryVehicleAA08DeliveryG0OSgvgTj
++ _$s18SiriSuggestionsKit19ResolvableParameterC14typeIdentifier8required21loggingKeyTransformer011asyncIntentK0ACSS_Sb0A9Utilities0K0VyypypSgGAA0aB0OAI_pAN0M0O9InputTypeAnIPRts_AA0mE0O06OutputP0ARRtsXPtcfc
++ _$s18SiriSuggestionsKit22SuggestionTransformersO21mapAsyncINIntentValue9extractorAA0aB0O11Transformer_pAG6IntentO9InputTypeRts_AA0L9ParameterO06OutputN0RtsXPANxYaYbKc_tSo0H0CRbzlFZ
++ _$s18SiriSuggestionsKit23SignalContextPropertiesO15deliveryVehicleyACSayAA08DeliveryH0OGcACmFWC
++ _$s18SiriSuggestionsKit23SignalContextPropertiesOMa
++ _$s18SiriSuggestionsKit24SuggestionDetailsBuilderP10intentTypeyxAA0aB0O06IntentH0OFTj
++ _$s18SiriSuggestionsKit24SuggestionDetailsBuilderP14assetsProvideryxAA05AssetH0_pFTj
++ _$s18SiriSuggestionsKit24SuggestionDetailsBuilderP23enabledDeliveryVehiclesyxSayAA0H7VehicleOGFTj
++ _$s18SiriSuggestionsKit5ImageO7appIconyACSS_tcACmFWC
++ _$s18SiriSuggestionsKit5ImageOMa
++ _$s18SiriSuggestionsKit5ImageOMn
++ _$s18SiriSuggestionsKit5ImageOSgMD
++ _$s18SiriSuggestionsKit6AssetsV4icon9inAppIconAcA5ImageOSg_AHtcfC
++ _$s18SiriSuggestionsKit7ContextPAAE14getTargetOwnerAA0G0_pyF
++ _$s18SiriSuggestionsKit7ContextPAAE8getParam3for3keyypSgAA13OwnerProvider_p_SStF
++ _$s18SiriSuggestionsKit8Resolver_pSgWOhTm
++ _$sSQ2eeoiySbx_xtFZTj
++ _$sSa5countSivgSo22ATXProactiveSuggestionC_Tg5
++ _$sSa5countSivgSo8INPersonC_Tg5Tm
++ _$sSa9_getCountSiyFSo22ATXProactiveSuggestionC_Tg5
++ _$sSa9_getCountSiyFSo8INPersonC_Tg5
++ _$sSh21_nonEmptyArrayLiteralShyxGSayxG_tcfCSS_Tt0g5
++ _$ss22_ContiguousArrayBufferV19_uninitializedCount15minimumCapacityAByxGSi_SitcfCs5UInt8V_Tt1gq5
++ _$ss23_ContiguousArrayStorageCy18SiriSuggestionsKit15DeliveryVehicleOGMD
++ _$ss2eeoiySbx_xtSYRzSQ8RawValueRpzlF16PhoneSuggestions0D10SuggestionO_Tgq5Tm
++ _OUTLINED_FUNCTION_27
++ _OUTLINED_FUNCTION_28
++ _OUTLINED_FUNCTION_29
++ _OUTLINED_FUNCTION_30
++ _OUTLINED_FUNCTION_31
++ _OUTLINED_FUNCTION_32
++ _OUTLINED_FUNCTION_33
++ _OUTLINED_FUNCTION_34
++ _OUTLINED_FUNCTION_35
++ _OUTLINED_FUNCTION_36
++ _OUTLINED_FUNCTION_37
++ _OUTLINED_FUNCTION_38
++ _OUTLINED_FUNCTION_39
++ __DATA__TtC16PhoneSuggestions29PhoneSuggestionsAssetProvider
++ __METACLASS_DATA__TtC16PhoneSuggestions29PhoneSuggestionsAssetProvider
++ ___swift_async_entry_functlets
++ ___swift_async_ret_functlets
++ ___swift_destroy_boxed_opaque_existential_0Tm
++ _swift_generic_assignWithCopy
++ _swift_generic_assignWithTake
++ _swift_generic_destroy
++ _swift_generic_initWithCopy
++ _swift_generic_initializeBufferWithCopyOfBuffer
++ _symbolic _____ 16PhoneSuggestions0aB13AssetProviderC
++ _symbolic _____Sg 18SiriSuggestionsKit15DeliveryVehicleO
++ _symbolic _____Sg 18SiriSuggestionsKit5ImageO
++ _symbolic _____Sg_ABt 18SiriSuggestionsKit15DeliveryVehicleO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 18SiriSuggestionsKit15DeliveryVehicleO
++ _type_layout_string 16PhoneSuggestions25StartCallSuggestionParamsV
+- _$s13SiriUtilities11TransformerVy0A14SuggestionsKit6IntentOAD0F9ParameterOGMD
+- _$s16PhoneSuggestions0A20CallAppNameConstantsO02inC15ServiceLaunchId_WZ
+- _$s16PhoneSuggestions0A20CallAppNameConstantsO02inC15ServiceLaunchId_Wz
+- _$s16PhoneSuggestions0A20CallAppNameConstantsO04siriD8BundleId_WZ
+- _$s16PhoneSuggestions0A20CallAppNameConstantsO04siriD8BundleId_Wz
+- _$s16PhoneSuggestions0A20CallAppNameConstantsO12settingsRoot_WZ
+- _$s16PhoneSuggestions0A20CallAppNameConstantsO12settingsRoot_Wz
+- _$s16PhoneSuggestions0A20CallAppNameConstantsO19macFaceTimeBundleIdSSvgZTm
+- _$s16PhoneSuggestions0A22OwnerDefinitionFactoryC06createC11Definitions07builderE0Say04SiriB3Kit0cD0_pGAF010SuggestioncD7BuilderCAF0C0_pYaXE_tYaFZAF15IntentParameterOSo8INIntentCYbcfU_
+- _$s16PhoneSuggestions22CATParameterIdentifierO10IsFaceTime_WZ
+- _$s16PhoneSuggestions22CATParameterIdentifierO10IsFaceTime_Wz
+- _$s16PhoneSuggestions22CATParameterIdentifierO11IsGroupCall_WZ
+- _$s16PhoneSuggestions22CATParameterIdentifierO11IsGroupCall_Wz
+- _$s16PhoneSuggestions22CATParameterIdentifierO12HasReferenceSSvgZTm
+- _$s16PhoneSuggestions22CATParameterIdentifierO12HasReference_WZ
+- _$s16PhoneSuggestions22CATParameterIdentifierO12HasReference_Wz
+- _$s16PhoneSuggestions22CATParameterIdentifierO4Name_WZ
+- _$s16PhoneSuggestions22CATParameterIdentifierO4Name_Wz
+- _$s16PhoneSuggestions25ProactiveEntityIdentifierO10Recipients_WZ
+- _$s16PhoneSuggestions25ProactiveEntityIdentifierO10Recipients_Wz
+- _$s16PhoneSuggestions25ProactiveEntityIdentifierO8Contacts_WZ
+- _$s16PhoneSuggestions25ProactiveEntityIdentifierO8Contacts_Wz
+- _$s16PhoneSuggestions25ProactiveEntityIdentifierO9GroupName_WZ
+- _$s16PhoneSuggestions25ProactiveEntityIdentifierO9GroupName_Wz
+- _$s16PhoneSuggestions25StartCallSuggestionParamsVwCP
+- _$s16PhoneSuggestions25StartCallSuggestionParamsVwCPTm
+- _$s16PhoneSuggestions25StartCallSuggestionParamsVwca
+- _$s16PhoneSuggestions25StartCallSuggestionParamsVwcp
+- _$s16PhoneSuggestions25StartCallSuggestionParamsVwta
+- _$s16PhoneSuggestions25StartCallSuggestionParamsVwxx
+- _$s16PhoneSuggestions27ResolveContactOrGroupEntityCAC04SiriB3Kit16InternalResolverAAWlTm
+- _$s16PhoneSuggestions27ResolveContactOrGroupEntityCfDTm
+- _$s16PhoneSuggestions28ProactiveParameterIdentifierO24StartFacetimeCallContact_WZ
+- _$s16PhoneSuggestions28ProactiveParameterIdentifierO24StartFacetimeCallContact_Wz
+- _$s16PhoneSuggestions8LogConstO9subsystem_WZ
+- _$s16PhoneSuggestions8LogConstO9subsystem_Wz
+- _$s18SiriSuggestionsKit0A37HelpSuggestionDetailsBuilderExtensionP8register7signalsxSayAA6SignalCG_tFTj
+- _$s18SiriSuggestionsKit10IntentTypeO02inD0yACSS_tcACmFWC
+- _$s18SiriSuggestionsKit10IntentTypeOMa
+- _$s18SiriSuggestionsKit15IntentParameterOMn
+- _$s18SiriSuggestionsKit19ResolvableParameterC14typeIdentifier8required21loggingKeyTransformer06intentK0ACSS_Sb0A9Utilities0K0VyypypSgGAJyAA6IntentOAA0nE0OGtcfc
+- _$s18SiriSuggestionsKit22SuggestionTransformersO16mapINIntentValue9extractor0A9Utilities11TransformerVyAA6IntentOAA0L9ParameterOGALxYbKc_tSo0G0CRbzlFZ
+- _$s18SiriSuggestionsKit24SuggestionDetailsBuilderP16intentIdentifieryxAA10IntentTypeOFTj
+- _$s18SiriSuggestionsKit6IntentOMn
+- _$s18SiriSuggestionsKit6SignalC05PhoneB0E11FaceTimeApp_WZTm
+- _$s18SiriSuggestionsKit8Resolver_pSgWOh
+- _$sSa12_endMutationyyFyXl_Ts5
+- _$sSh21_nonEmptyArrayLiteralShyxGSayxG_tcfCSS_Tgm5
+- _$sSp10initialize4from5countySPyxG_SitFs5UInt8V_Tgq5
+- _$sSp10initialize4from5countySPyxG_SitFyp_Tg5
+- _$sSp14moveInitialize4from5countySpyxG_SitF16PhoneSuggestions25StartCallSuggestionParamsV_Tg5
+- _$sSp14moveInitialize4from5countySpyxG_SitFs5UInt8V_Tgq5
+- _$sSp14moveInitialize4from5countySpyxG_SitFyp_Tg5
+- _$sSv16initializeMemory2as4from5countSpyxGxm_SPyxGSitlFs5UInt8V_Tgmq5
+- _$sSw10copyMemory4fromySW_tF
+- _$sSwys5UInt8VSicis
+- _$ss11_StringGutsV4growyySiF
+- _$ss12_ArrayBufferV13_copyContents8subRange12initializingSpyxGSnySiG_AFtF16PhoneSuggestions25StartCallSuggestionParamsV_Tg5
+- _$ss12_ArrayBufferV13_copyContents8subRange12initializingSpyxGSnySiG_AFtFyp_Tg5
+- _$ss17_assertionFailure__4file4line5flagss5NeverOs12StaticStringV_A2HSus6UInt32VtF
+- _$ss18_fatalErrorMessage__4file4line5flagss5NeverOs12StaticStringV_A2HSus6UInt32VtF
+- _$ss22_ContiguousArrayBufferV19_uninitializedCount15minimumCapacityAByxGSi_SitcfCs5UInt8V_Tgmq5
+- _$ss2eeoiySbx_xtSYRzSQ8RawValueRpzlF16PhoneSuggestions20SuggestionIdentifierO_Tgq5Tm
+- _$ss6ResultOy32SiriReferenceResolutionDataModel8RRResultOs5Error_pGWOc
+- ___swift_destroy_boxed_opaque_existential_0
+- __swift_FORCE_LOAD_$_swiftFileProvider
+- __swift_FORCE_LOAD_$_swiftFileProvider_$_PhoneSuggestions
+- _objc_release_x25
+- _objc_release_x27
+- _objc_retain
+- _objc_retain_x25
+- _objc_retain_x28
+- _symbolic _____y__________G 13SiriUtilities11TransformerV 0A14SuggestionsKit6IntentO AD0F9ParameterO
+CStrings:
++ "#Resolvers return empty for siriAutoComplete deliveryVehicle"
++ "#Resolvers return generic call suggestion for siriAutoComplete deliveryVehicle"
++ "_TtC16PhoneSuggestions29PhoneSuggestionsAssetProvider"
++ "asYouTypeStaticCallSuggestion"
++ "com.apple.private.alloy.dropin.communication"
+- "Fatal error"
+- "Insufficient space allocated to copy string contents"
+- "Swift/ContiguousArrayBuffer.swift"
+- "Swift/StringTesting.swift"
+- "Swift/StringUTF8View.swift"
+- "Swift/UnsafeBufferPointer.swift"
+- "Swift/UnsafePointer.swift"
+- "Swift/UnsafeRawPointer.swift"
+- "Unexpectedly found nil while unwrapping an Optional value"
+- "UnsafeMutableBufferPointer with negative count"
+- "UnsafeMutablePointer.initialize overlapping range"
+- "UnsafeMutablePointer.initialize with negative count"
+- "UnsafeMutablePointer.moveInitialize with negative count"
+- "UnsafeMutableRawPointer.initializeMemory overlapping range"
+- "UnsafeMutableRawPointer.initializeMemory with negative count"
+- "invalid Collection: less than 'count' elements in collection"
+
+```

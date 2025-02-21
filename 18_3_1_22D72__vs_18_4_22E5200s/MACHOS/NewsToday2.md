@@ -1,0 +1,216 @@
+## NewsToday2
+
+> `/private/var/staged_system_apps/News.app/PlugIns/NewsToday2.appex/NewsToday2`
+
+```diff
+
+-5626.0.0.0.0
+-  __TEXT.__text: 0xe26c0
+-  __TEXT.__auth_stubs: 0x3550
+-  __TEXT.__objc_stubs: 0x30c0
+-  __TEXT.__objc_methlist: 0x143c
+-  __TEXT.__const: 0x98e4
++5663.3.0.0.0
++  __TEXT.__text: 0xb9e94
++  __TEXT.__auth_stubs: 0x3590
++  __TEXT.__objc_stubs: 0x3100
++  __TEXT.__objc_methlist: 0x2270
++  __TEXT.__const: 0xa504
+   __TEXT.__oslogstring: 0xb4c
+-  __TEXT.__cstring: 0x75cf
+-  __TEXT.__objc_methname: 0x6b46
++  __TEXT.__cstring: 0x75ff
++  __TEXT.__objc_methname: 0x6bf7
+   __TEXT.__objc_classname: 0x67a
+-  __TEXT.__objc_methtype: 0x1d70
+-  __TEXT.__gcc_except_tab: 0x260
+-  __TEXT.__constg_swiftt: 0x27c4
+-  __TEXT.__swift5_typeref: 0x788c
+-  __TEXT.__swift5_reflstr: 0x1cbd
+-  __TEXT.__swift5_assocty: 0xc50
++  __TEXT.__objc_methtype: 0x1da5
++  __TEXT.__gcc_except_tab: 0x28c
++  __TEXT.__constg_swiftt: 0x2938
++  __TEXT.__swift5_typeref: 0x7a5c
++  __TEXT.__swift5_reflstr: 0x1ddd
++  __TEXT.__swift5_assocty: 0xcf8
+   __TEXT.__swift5_builtin: 0x12c
+-  __TEXT.__swift5_fieldmd: 0x208c
+-  __TEXT.__swift5_proto: 0x834
+-  __TEXT.__swift5_types: 0x2e4
++  __TEXT.__swift5_fieldmd: 0x2178
++  __TEXT.__swift5_proto: 0x8a0
++  __TEXT.__swift5_types: 0x2f8
++  __TEXT.__swift_as_entry: 0x1a0
++  __TEXT.__swift_as_ret: 0xfc
+   __TEXT.__swift5_mpenum: 0x10
+   __TEXT.__swift5_protos: 0x40
+   __TEXT.__swift5_entry: 0x8
+-  __TEXT.__swift5_capture: 0x4d0
+-  __TEXT.__unwind_info: 0x3200
+-  __TEXT.__eh_frame: 0x27c8
+-  __DATA_CONST.__auth_got: 0x1ac0
+-  __DATA_CONST.__got: 0xdd8
+-  __DATA_CONST.__auth_ptr: 0x1298
+-  __DATA_CONST.__const: 0x4a20
++  __TEXT.__swift5_capture: 0x4e0
++  __TEXT.__unwind_info: 0x2f68
++  __TEXT.__eh_frame: 0x2908
++  __DATA_CONST.__auth_got: 0x1ae0
++  __DATA_CONST.__got: 0xe30
++  __DATA_CONST.__auth_ptr: 0x12e8
++  __DATA_CONST.__const: 0x4b40
+   __DATA_CONST.__cfstring: 0xb00
+   __DATA_CONST.__objc_classlist: 0x200
+   __DATA_CONST.__objc_catlist: 0x28
+
+   __DATA_CONST.__objc_protorefs: 0x100
+   __DATA_CONST.__objc_superrefs: 0xb8
+   __DATA_CONST.__objc_intobj: 0x1e0
+-  __DATA.__objc_const: 0x6f08
+-  __DATA.__objc_selrefs: 0x1590
++  __DATA.__objc_const: 0x56e8
++  __DATA.__objc_selrefs: 0x1a00
+   __DATA.__objc_ivar: 0x118
+-  __DATA.__objc_data: 0x14d8
+-  __DATA.__data: 0x5ef0
+-  __DATA.__bss: 0xff28
+-  __DATA.__common: 0x618
++  __DATA.__objc_data: 0x1380
++  __DATA.__data: 0x6308
++  __DATA.__bss: 0x10cc8
++  __DATA.__common: 0x6b8
+   - /System/Library/Frameworks/AppIntents.framework/AppIntents
+   - /System/Library/Frameworks/CloudKit.framework/CloudKit
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+
+   - /usr/lib/swift/libswiftDarwin.dylib
+   - /usr/lib/swift/libswiftDataDetection.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+-  - /usr/lib/swift/libswiftFileProvider.dylib
+   - /usr/lib/swift/libswiftGLKit.dylib
+   - /usr/lib/swift/libswiftGameplayKit.dylib
+   - /usr/lib/swift/libswiftIntents.dylib
+
+   - /usr/lib/swift/libswiftSpatial.dylib
+   - /usr/lib/swift/libswiftSpriteKit.dylib
+   - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
+-  - /usr/lib/swift/libswiftWebKit.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
+
+   - /usr/lib/swift/libswiftsimd.dylib
+   - /usr/lib/swift/libswiftsys_time.dylib
+   - /usr/lib/swift/libswiftunistd.dylib
+-  Functions: 4198
+-  Symbols:   604
+-  CStrings:  2057
++  Functions: 4034
++  Symbols:   617
++  CStrings:  2062
+ 
+Symbols:
++ _FCAudioFeatureFlagEnabledKey
++ _FCAutomaticRecipesDownloadsEnabledKey
++ _FCFoodFeatureFlagEnabledKey
++ _FCOfflineModeFeatureFlagEnabledKey
++ _FCPuzzlesFeatureFlagEnabledKey
++ _OBJC_CLASS_$_FCHeadlineExperimentalTitleProvider
++ _swift_allocateGenericValueMetadataWithLayoutString
++ _swift_enumFn_getEnumTag
++ _swift_generic_assignWithCopy
++ _swift_generic_assignWithTake
++ _swift_generic_destroy
++ _swift_generic_initWithCopy
++ _swift_generic_initWithTake
++ _swift_generic_initializeBufferWithCopyOfBuffer
++ _swift_generic_instantiateLayoutString
++ _swift_getExistentialTypeMetadata
++ _swift_initEnumMetadataMultiPayloadWithLayoutString
++ _swift_initEnumMetadataSinglePayloadWithLayoutString
++ _swift_initStructMetadataWithLayoutString
++ _swift_multiPayloadEnumGeneric_destructiveInjectEnumTag
++ _swift_multiPayloadEnumGeneric_getEnumTag
++ _swift_singlePayloadEnumGeneric_destructiveInjectEnumTag
++ _swift_singlePayloadEnumGeneric_getEnumTag
+- _OBJC_CLASS_$_NTPBWidgetPersonalizationFeatureCTRPair
+- __swift_FORCE_LOAD_$_swiftFileProvider
+- __swift_FORCE_LOAD_$_swiftWebKit
+- _objc_release_x10
+- _objc_release_x9
+- _objc_retain_x10
+- _swift_allocateGenericValueMetadata
+- _swift_initEnumMetadataMultiPayload
+- _swift_initEnumMetadataSinglePayload
+- _swift_initStructMetadata
+CStrings:
++ "@\"<FCFeedItemFactoryType>\"16@0:8"
++ "AI-Generated by "
++ "Allow Recipes in Automatic Downloads"
++ "Automatically Download Recipes"
++ "Automatically Download Recipes to update"
++ "Automatically Download Recipes to update on Automatically Download Recipes"
++ "Change the Automatically Download Recipes value of Automatically Download Recipes"
++ "Download smaller versions of images. This turns on automatically when device is low on storage."
++ "Personalization service %{public}@ failed to cast scores to doubles"
++ "Personalization service %{public}@ will adopt %lu scores into Tabi score cache"
++ "Shown in widget cell when article is AI-generated"
++ "T@\"<FCFeedItemFactoryType>\",R,N"
++ "TB,R,N,GisAIGenerated"
++ "Title of the value of the 'Automatically Download Recipes' Settings entity"
++ "Type display of the 'Automatically Download Recipes' Settings entity"
++ "Update Automatically Download Recipes"
++ "UpdateAutoDownloadRecipesEntityValueIntent"
++ "_audioFeatureFlagEnabled"
++ "_autoDownloadRecipes"
++ "_foodFeatureFlagEnabled"
++ "_puzzlesFeatureFlagEnabled"
++ "aiGenerated"
++ "articleRapidUpdatesTimeout"
++ "com.apple.news.AutoDownloadRecipesToggleControl"
++ "failed to copy image to asset container, error=%{public}@"
++ "feedItemFactory"
++ "initWithArticleRecordData:sourceChannel:parentIssue:storyStyleConfigs:storyTypeTimeout:rapidUpdatesTimeout:assetManager:experimentalTitleProvider:"
++ "initWithShouldShowAlternateHeadlines:"
++ "prewarmWithTabiScores:configurationSet:"
++ "shouldShowAlternateHeadlines"
++ "storyTypeTimeout"
++ "styleConfigurations"
++ "topStoriesConfig"
++ "v32@0:8@\"NSDictionary\"16q24"
++ "v32@0:8@16q24"
+- "@\"NSDictionary\"16@0:8"
+- "CTRByPersonalizationFeatureID"
+- "Can't construct Array with count < 0"
+- "Division by zero"
+- "Division results in an overflow"
+- "Download smaller versions of images in stories. This turns on automatically when device is low on storage."
+- "Insufficient space allocated to copy string contents"
+- "Negative value is not representable"
+- "Swift/Array.swift"
+- "Swift/ContiguousArrayBuffer.swift"
+- "Swift/IntegerTypes.swift"
+- "Swift/Integers.swift"
+- "Swift/StringTesting.swift"
+- "Swift/StringUTF8View.swift"
+- "Swift/UnsafeBufferPointer.swift"
+- "Swift/UnsafePointer.swift"
+- "Swift/UnsafeRawPointer.swift"
+- "T@\"NSDictionary\",R,N"
+- "Unexpectedly found nil while unwrapping an Optional value"
+- "UnsafeMutableBufferPointer with negative count"
+- "UnsafeMutablePointer.initialize overlapping range"
+- "UnsafeMutablePointer.initialize with negative count"
+- "UnsafeMutablePointer.moveInitialize with negative count"
+- "UnsafeMutableRawPointer.initializeMemory overlapping range"
+- "addWidgetPersonalizationFeatureCTRPair:"
+- "enumerateKeysAndObjectsUsingBlock:"
+- "floatValue"
+- "initWithArticleRecordData:sourceChannel:parentIssue:assetManager:"
+- "invalid Collection: less than 'count' elements in collection"
+- "setCtr:"
+- "setPersonalizationFeatureId:"
+- "v32@?0@\"NSString\"8@\"NSNumber\"16^B24"
+
+```
