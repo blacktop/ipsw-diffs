@@ -1,0 +1,140 @@
+## InformationFlowPlugin
+
+> `/System/Library/Assistant/FlowDelegatePlugins/InformationFlowPlugin.bundle/InformationFlowPlugin`
+
+```diff
+
+-3404.55.3.0.0
+-  __TEXT.__text: 0x9b584
+-  __TEXT.__auth_stubs: 0x46d0
++3404.63.1.0.0
++  __TEXT.__text: 0xa8c58
++  __TEXT.__auth_stubs: 0x47d0
+   __TEXT.__objc_methlist: 0x26c
+-  __TEXT.__const: 0x35ec
+-  __TEXT.__cstring: 0x3ffd
+-  __TEXT.__swift5_typeref: 0x1666
+-  __TEXT.__objc_methname: 0x1584
++  __TEXT.__const: 0x35fc
++  __TEXT.__cstring: 0x401d
++  __TEXT.__swift5_typeref: 0x166c
++  __TEXT.__objc_methname: 0x1594
+   __TEXT.__oslogstring: 0x5453
+-  __TEXT.__swift5_reflstr: 0x1288
++  __TEXT.__swift5_reflstr: 0x12a8
+   __TEXT.__swift5_assocty: 0x238
+-  __TEXT.__constg_swiftt: 0x18fc
+-  __TEXT.__swift5_fieldmd: 0x1240
++  __TEXT.__constg_swiftt: 0x1904
++  __TEXT.__swift5_fieldmd: 0x124c
+   __TEXT.__swift5_builtin: 0x8c
+   __TEXT.__swift5_proto: 0x1a8
+   __TEXT.__swift5_types: 0x1a0
+
+   __TEXT.__swift5_capture: 0x1a0
+   __TEXT.__swift5_protos: 0x34
+   __TEXT.__swift5_mpenum: 0x34
+-  __TEXT.__unwind_info: 0x1ca8
+-  __TEXT.__eh_frame: 0x4748
+-  __DATA_CONST.__auth_got: 0x2368
++  __TEXT.__unwind_info: 0x1ce0
++  __TEXT.__eh_frame: 0x4988
++  __DATA_CONST.__auth_got: 0x23e8
+   __DATA_CONST.__got: 0x1080
+-  __DATA_CONST.__auth_ptr: 0xa60
++  __DATA_CONST.__auth_ptr: 0xa70
+   __DATA_CONST.__const: 0x2170
+   __DATA_CONST.__objc_classlist: 0xe8
+   __DATA_CONST.__objc_protolist: 0xb0
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_protorefs: 0x58
+-  __DATA.__objc_const: 0x4270
+-  __DATA.__objc_selrefs: 0x9c8
++  __DATA.__objc_const: 0x4290
++  __DATA.__objc_selrefs: 0x9d0
+   __DATA.__objc_data: 0x408
+-  __DATA.__data: 0x3778
++  __DATA.__data: 0x3788
+   __DATA.__common: 0x118
+   __DATA.__bss: 0x2980
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+
+   - /usr/lib/swift/libswiftsimd.dylib
+   - /usr/lib/swift/libswiftsys_time.dylib
+   - /usr/lib/swift/libswiftunistd.dylib
+-  Functions: 2132
+-  Symbols:   18738
+-  CStrings:  1027
++  Functions: 2138
++  Symbols:   18785
++  CStrings:  1029
+ 
+Symbols:
++ _$s10PegasusAPI37Apple_Parsec_Siri_V2alpha_DialogStateV06familyH0SSvg
++ _$s10PegasusAPI37Apple_Parsec_Siri_V2alpha_DialogStateV07useCaseH0SSvg
++ _$s10PegasusAPI37Apple_Parsec_Siri_V2alpha_DialogStateVMa
++ _$s10PegasusAPI41Apple_Parsec_Siri_V2alpha_DialogStateMetaV06familyH6CountsSays6UInt32VGvg
++ _$s10PegasusAPI41Apple_Parsec_Siri_V2alpha_DialogStateMetaV06familyH7MinutesSays6UInt32VGvg
++ _$s10PegasusAPI41Apple_Parsec_Siri_V2alpha_DialogStateMetaV07useCaseH6CountsSays6UInt32VGvg
++ _$s10PegasusAPI41Apple_Parsec_Siri_V2alpha_DialogStateMetaV07useCaseH7MinutesSays6UInt32VGvg
++ _$s10PegasusAPI41Apple_Parsec_Siri_V2alpha_DialogStateMetaVMa
++ _$s10PegasusAPI48Apple_Parsec_Siri_V2alpha_LayoutSnippetComponentV11isTransientSbvg
++ _$s10PegasusAPI49Apple_Parsec_Siri_V2alpha_RenderedDialogComponentV11dialogStateAA0c1_d1_e1_f1_hK0Vvg
++ _$s10PegasusAPI49Apple_Parsec_Siri_V2alpha_RenderedDialogComponentV15dialogStateMetaAA0c1_d1_e1_f1_hkL0Vvg
++ _$s21InformationFlowPlugin015RenderComponentB7FactoryC15outputPublisher015informationViewF018dialogStateManagerAC07SiriKitB006OutputH5Async_p_AA0ajF0C0nA6Search012PommesDialoglM0CtcfC
++ _$s21InformationFlowPlugin015RenderComponentB7FactoryC15outputPublisher015informationViewF018dialogStateManagerAC07SiriKitB006OutputH5Async_p_AA0ajF0C0nA6Search012PommesDialoglM0CtcfCTq
++ _$s21InformationFlowPlugin015RenderComponentB7FactoryC15outputPublisher015informationViewF018dialogStateManagerAC07SiriKitB006OutputH5Async_p_AA0ajF0C0nA6Search012PommesDialoglM0Ctcfc
++ _$s21InformationFlowPlugin015RenderComponentB7FactoryC15outputPublisher015informationViewF018dialogStateManagerAC07SiriKitB006OutputH5Async_p_AA0ajF0C0nA6Search012PommesDialoglM0CtcfcfA0_
++ _$s21InformationFlowPlugin015RenderComponentB7FactoryC15outputPublisher015informationViewF018dialogStateManagerAC07SiriKitB006OutputH5Async_p_AA0ajF0C0nA6Search012PommesDialoglM0CtcfcfA0_Tm
++ _$s21InformationFlowPlugin015RenderComponentB7FactoryC15outputPublisher015informationViewF018dialogStateManagerAC07SiriKitB006OutputH5Async_p_AA0ajF0C0nA6Search012PommesDialoglM0CtcfcfA1_
++ _$s21InformationFlowPlugin015RenderComponentB7FactoryC15outputPublisher015informationViewF018dialogStateManagerAC07SiriKitB006OutputH5Async_p_AA0ajF0C0nA6Search012PommesDialoglM0CtcfcfA_
++ _$s21InformationFlowPlugin015RenderComponentB7FactoryC18dialogStateManager33_ED0D0382547A57B806F6940B93CEBE3BLL04SiriA6Search012PommesDialoghI0CvpWvd
++ _$s21InformationFlowPlugin015RenderComponentB7FactoryC22saveDialogStateUpdates33_ED0D0382547A57B806F6940B93CEBE3BLL4fromySay10PegasusAPI034Apple_Parsec_Siri_V2alpha_RenderedhE0VG_tF
++ _$s21SiriInformationSearch06PommesC0C21UserDefaultsSuiteNameSSvgZ
++ _$s21SiriInformationSearch06PommesC0CMa
++ _$s21SiriInformationSearch24PommesDialogStateManagerC6update_06familyF00iF5Count0iF7Minutes07useCaseF00lmfJ00lmfK014expirationDateySS_SSSaySo8NSNumberCGANSSA2N10Foundation0O0VSgtFTj
++ _$s21SiriInformationSearch24PommesDialogStateManagerC9suiteNameACSS_tcfc
++ _$s21SiriInformationSearch24PommesDialogStateManagerCMa
++ _$s21SiriInformationSearch24PommesDialogStateManagerCMn
++ _swift_cvw_allocateGenericValueMetadataWithLayoutString
++ _swift_cvw_assignWithCopy
++ _swift_cvw_assignWithTake
++ _swift_cvw_destroy
++ _swift_cvw_enumFn_getEnumTag
++ _swift_cvw_initEnumMetadataMultiPayloadWithLayoutString
++ _swift_cvw_initEnumMetadataSinglePayloadWithLayoutString
++ _swift_cvw_initStructMetadataWithLayoutString
++ _swift_cvw_initWithCopy
++ _swift_cvw_initWithTake
++ _swift_cvw_initializeBufferWithCopyOfBuffer
++ _swift_cvw_multiPayloadEnumGeneric_destructiveInjectEnumTag
++ _swift_cvw_multiPayloadEnumGeneric_getEnumTag
++ _swift_cvw_singlePayloadEnumGeneric_destructiveInjectEnumTag
++ _swift_cvw_singlePayloadEnumGeneric_getEnumTag
++ _symbolic _____ 21SiriInformationSearch24PommesDialogStateManagerC
+- _$s21InformationFlowPlugin015RenderComponentB7FactoryC15outputPublisher015informationViewF0AC07SiriKitB006OutputH5Async_p_AA0ajF0CtcfC
+- _$s21InformationFlowPlugin015RenderComponentB7FactoryC15outputPublisher015informationViewF0AC07SiriKitB006OutputH5Async_p_AA0ajF0CtcfCTq
+- _$s21InformationFlowPlugin015RenderComponentB7FactoryC15outputPublisher015informationViewF0AC07SiriKitB006OutputH5Async_p_AA0ajF0Ctcfc
+- _$s21InformationFlowPlugin015RenderComponentB7FactoryC15outputPublisher015informationViewF0AC07SiriKitB006OutputH5Async_p_AA0ajF0CtcfcfA0_
+- _$s21InformationFlowPlugin015RenderComponentB7FactoryC15outputPublisher015informationViewF0AC07SiriKitB006OutputH5Async_p_AA0ajF0CtcfcfA0_Tm
+- _$s21InformationFlowPlugin015RenderComponentB7FactoryC15outputPublisher015informationViewF0AC07SiriKitB006OutputH5Async_p_AA0ajF0CtcfcfA_
+- _swift_allocateGenericValueMetadataWithLayoutString
+- _swift_enumFn_getEnumTag
+- _swift_generic_assignWithCopy
+- _swift_generic_assignWithTake
+- _swift_generic_destroy
+- _swift_generic_initWithCopy
+- _swift_generic_initWithTake
+- _swift_generic_initializeBufferWithCopyOfBuffer
+- _swift_initEnumMetadataMultiPayloadWithLayoutString
+- _swift_initEnumMetadataSinglePayloadWithLayoutString
+- _swift_initStructMetadataWithLayoutString
+- _swift_multiPayloadEnumGeneric_destructiveInjectEnumTag
+- _swift_multiPayloadEnumGeneric_getEnumTag
+- _swift_singlePayloadEnumGeneric_destructiveInjectEnumTag
+- _swift_singlePayloadEnumGeneric_getEnumTag
+CStrings:
++ "dialogStateManager"
++ "setIsTransient:"
+
+```

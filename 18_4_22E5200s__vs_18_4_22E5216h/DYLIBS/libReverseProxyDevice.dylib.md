@@ -1,0 +1,41 @@
+## libReverseProxyDevice.dylib
+
+> `/usr/lib/libReverseProxyDevice.dylib`
+
+```diff
+
+-98.0.0.0.0
+-  __TEXT.__text: 0x47e8
++100.0.0.0.1
++  __TEXT.__text: 0x4890
+   __TEXT.__auth_stubs: 0x6f0
+   __TEXT.__const: 0x28
+   __TEXT.__gcc_except_tab: 0xcc
+-  __TEXT.__cstring: 0xdad
+-  __TEXT.__unwind_info: 0x178
++  __TEXT.__cstring: 0xd84
++  __TEXT.__unwind_info: 0x188
+   __DATA_CONST.__got: 0x78
+   __DATA_CONST.__const: 0xf0
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __AUTH_CONST.__auth_got: 0x380
+-  __AUTH_CONST.__const: 0x178
++  __AUTH_CONST.__const: 0x188
+   __AUTH_CONST.__cfstring: 0x9e0
+   __DATA.__data: 0x4
+   __DATA.__bss: 0x68
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  Functions: 75
+-  Symbols:   205
+-  CStrings:  145
++  Functions: 77
++  Symbols:   207
++  CStrings:  144
+ 
+CStrings:
+- "com.apple.PurpleReverseProxy.SetLogLevel"
+
+```

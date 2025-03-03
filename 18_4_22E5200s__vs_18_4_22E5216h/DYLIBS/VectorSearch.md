@@ -1,0 +1,89 @@
+## VectorSearch
+
+> `/System/Library/PrivateFrameworks/VectorSearch.framework/VectorSearch`
+
+```diff
+
+-37.0.0.0.0
+-  __TEXT.__text: 0x62344
++38.0.0.0.0
++  __TEXT.__text: 0x65770
+   __TEXT.__auth_stubs: 0x1bd0
+   __TEXT.__objc_methlist: 0x8d4
+-  __TEXT.__const: 0x2708
+-  __TEXT.__cstring: 0x42e5
++  __TEXT.__const: 0x2718
++  __TEXT.__cstring: 0x4315
+   __TEXT.__constg_swiftt: 0xf90
+-  __TEXT.__swift5_typeref: 0x1020
++  __TEXT.__swift5_typeref: 0x1034
+   __TEXT.__swift5_builtin: 0x8c
+   __TEXT.__swift5_reflstr: 0xb55
+   __TEXT.__swift5_fieldmd: 0xcec
+   __TEXT.__swift5_types: 0xe8
+-  __TEXT.__swift5_capture: 0x588
+-  __TEXT.__oslogstring: 0xd44
++  __TEXT.__swift5_capture: 0x694
++  __TEXT.__oslogstring: 0xd74
+   __TEXT.__swift5_proto: 0x184
+   __TEXT.__swift5_protos: 0x1c
+   __TEXT.__swift5_assocty: 0x30
+   __TEXT.__swift5_mpenum: 0x34
+   __TEXT.__swift_as_entry: 0x20
+   __TEXT.__swift_as_ret: 0x1c
+-  __TEXT.__unwind_info: 0x1560
+-  __TEXT.__eh_frame: 0x3f20
++  __TEXT.__unwind_info: 0x1610
++  __TEXT.__eh_frame: 0x42b0
+   __TEXT.__objc_classname: 0xa6
+   __TEXT.__objc_methname: 0x196c
+   __TEXT.__objc_methtype: 0x4d6
+   __TEXT.__objc_stubs: 0x8e0
+-  __DATA_CONST.__got: 0x310
++  __DATA_CONST.__got: 0x320
+   __DATA_CONST.__const: 0xc8
+   __DATA_CONST.__objc_classlist: 0x100
+   __DATA_CONST.__objc_protolist: 0x8
+
+   __DATA_CONST.__objc_selrefs: 0x458
+   __DATA_CONST.__objc_superrefs: 0x58
+   __AUTH_CONST.__auth_got: 0xdf0
+-  __AUTH_CONST.__auth_ptr: 0x458
+-  __AUTH_CONST.__const: 0x20b8
++  __AUTH_CONST.__auth_ptr: 0x4d8
++  __AUTH_CONST.__const: 0x2248
+   __AUTH_CONST.__cfstring: 0x40
+   __AUTH_CONST.__objc_const: 0x1b30
+   __AUTH_CONST.__objc_intobj: 0x90
+
+   - /usr/lib/swift/libswiftsimd.dylib
+   - /usr/lib/swift/libswiftsys_time.dylib
+   - /usr/lib/swift/libswiftunistd.dylib
+-  Functions: 1650
++  Functions: 1688
+   Symbols:   258
+-  CStrings:  653
++  CStrings:  655
+ 
+Symbols:
++ _swift_cvw_assignWithCopy
++ _swift_cvw_assignWithTake
++ _swift_cvw_destroy
++ _swift_cvw_enumFn_getEnumTag
++ _swift_cvw_initStructMetadataWithLayoutString
++ _swift_cvw_initWithCopy
++ _swift_cvw_initWithTake
++ _swift_cvw_initializeBufferWithCopyOfBuffer
+- _swift_enumFn_getEnumTag
+- _swift_generic_assignWithCopy
+- _swift_generic_assignWithTake
+- _swift_generic_destroy
+- _swift_generic_initWithCopy
+- _swift_generic_initWithTake
+- _swift_generic_initializeBufferWithCopyOfBuffer
+- _swift_initStructMetadataWithLayoutString
+CStrings:
++ "Failed to take RunningBoard assertion: %@"
++ "SQLExpressionEvaluator"
+
+```

@@ -1,0 +1,764 @@
+## SiriInstrumentation
+
+> `/System/Library/PrivateFrameworks/SiriInstrumentation.framework/SiriInstrumentation`
+
+```diff
+
+-3404.66.2.0.0
+-  __TEXT.__text: 0x93f24c
++3404.70.1.0.0
++  __TEXT.__text: 0x95337c
+   __TEXT.__auth_stubs: 0x10b0
+-  __TEXT.__objc_methlist: 0xc999c
+-  __TEXT.__const: 0x11170
+-  __TEXT.__cstring: 0x74567
+-  __TEXT.__constg_swiftt: 0x5fc0
+-  __TEXT.__swift5_typeref: 0x17df
+-  __TEXT.__swift5_builtin: 0x3750
++  __TEXT.__objc_methlist: 0xcb23c
++  __TEXT.__const: 0x11490
++  __TEXT.__cstring: 0x7564e
++  __TEXT.__constg_swiftt: 0x60e0
++  __TEXT.__swift5_typeref: 0x1815
++  __TEXT.__swift5_builtin: 0x3804
+   __TEXT.__swift5_reflstr: 0x20b
+   __TEXT.__swift5_assocty: 0x108
+-  __TEXT.__swift5_proto: 0xe44
+-  __TEXT.__swift5_types: 0xb60
++  __TEXT.__swift5_proto: 0xe6c
++  __TEXT.__swift5_types: 0xb84
+   __TEXT.__swift5_fieldmd: 0x3e8
+   __TEXT.__oslogstring: 0x95
+   __TEXT.__swift5_protos: 0x14
+-  __TEXT.__unwind_info: 0x28c90
++  __TEXT.__unwind_info: 0x29190
+   __TEXT.__eh_frame: 0x1f98
+-  __TEXT.__objc_classname: 0x14bdd
+-  __TEXT.__objc_methname: 0x11458c
+-  __TEXT.__objc_methtype: 0x26421
+-  __TEXT.__objc_stubs: 0x64f00
+-  __DATA_CONST.__got: 0x4a50
+-  __DATA_CONST.__const: 0x326e8
+-  __DATA_CONST.__objc_classlist: 0x4918
++  __TEXT.__objc_classname: 0x14de7
++  __TEXT.__objc_methname: 0x116d6b
++  __TEXT.__objc_methtype: 0x268ed
++  __TEXT.__objc_stubs: 0x65ec0
++  __DATA_CONST.__got: 0x4ac0
++  __DATA_CONST.__const: 0x32d20
++  __DATA_CONST.__objc_classlist: 0x4988
+   __DATA_CONST.__objc_catlist: 0x10
+   __DATA_CONST.__objc_protolist: 0x30
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x34298
++  __DATA_CONST.__objc_selrefs: 0x34ae0
+   __DATA_CONST.__objc_protorefs: 0x10
+-  __DATA_CONST.__objc_superrefs: 0x70f0
++  __DATA_CONST.__objc_superrefs: 0x71c0
+   __AUTH_CONST.__auth_got: 0x860
+   __AUTH_CONST.__auth_ptr: 0x3b0
+-  __AUTH_CONST.__const: 0x20238
+-  __AUTH_CONST.__cfstring: 0x651e0
+-  __AUTH_CONST.__objc_const: 0x1116c0
+-  __AUTH_CONST.__objc_intobj: 0xb58
+-  __AUTH.__objc_data: 0xd868
+-  __DATA.__objc_ivar: 0xd940
+-  __DATA.__data: 0x1f08
+-  __DATA.__bss: 0x17900
++  __AUTH_CONST.__const: 0x20720
++  __AUTH_CONST.__cfstring: 0x660c0
++  __AUTH_CONST.__objc_const: 0x1134e0
++  __AUTH_CONST.__objc_intobj: 0xb70
++  __AUTH.__objc_data: 0xdcc8
++  __DATA.__objc_ivar: 0xdad4
++  __DATA.__data: 0x1f50
++  __DATA.__bss: 0x17d80
+   __DATA.__common: 0x20
+   __DATA_DIRTY.__objc_data: 0x204d8
+   __DATA_DIRTY.__data: 0x598
+
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsys_time.dylib
+   - /usr/lib/swift/libswiftunistd.dylib
+-  Functions: 73009
+-  Symbols:   84709
+-  CStrings:  61860
++  Functions: 73567
++  Symbols:   85346
++  CStrings:  62407
+ 
+Symbols:
++ OBJC_IVAR_$_ASRSchemaASRClientEvent._personalizationUserEditNamedEntityMetrics
++ OBJC_IVAR_$_ASRSchemaASRLMEOverActivationEdit._has
++ OBJC_IVAR_$_ASRSchemaASRLMEOverActivationEdit._speechProfileCategory
++ OBJC_IVAR_$_ASRSchemaASRNamedEntityUserEdit._entityTaggerCategory
++ OBJC_IVAR_$_ASRSchemaASRNamedEntityUserEdit._has
++ OBJC_IVAR_$_ASRSchemaASRNamedEntityUserEdit._isNamedEntityPresentInSpeechProfile
++ OBJC_IVAR_$_ASRSchemaASRNamedEntityUserEdit._isNamedEntityPresentInVisualContext
++ OBJC_IVAR_$_ASRSchemaASRNamedEntityUserEdit._speechProfileCategories
++ OBJC_IVAR_$_ASRSchemaASRNamedEntityUserEdit._visualContextCategories
++ OBJC_IVAR_$_ASRSchemaASROneBestTranscriptTier1._postItn
++ OBJC_IVAR_$_ASRSchemaASROneBestTranscriptTier1._rawRecognition
++ OBJC_IVAR_$_ASRSchemaASRPersonalizationUserEditNamedEntityMetrics._has
++ OBJC_IVAR_$_ASRSchemaASRPersonalizationUserEditNamedEntityMetrics._lmeOverActivationEdits
++ OBJC_IVAR_$_ASRSchemaASRPersonalizationUserEditNamedEntityMetrics._namedEntityUserEdits
++ OBJC_IVAR_$_ASRSchemaASRPersonalizationUserEditNamedEntityMetrics._numTotalEdit
++ OBJC_IVAR_$_DODMLASRSchemaDODMLASRAudioFileResultTier1._oneBestTranscripts
++ OBJC_IVAR_$_DODMLASRSchemaDODMLASRDecodingResult._entityScoreResults
++ OBJC_IVAR_$_DODMLASRSchemaDODMLASRDecodingResult._oneBestTranscriptLinkIndex
++ OBJC_IVAR_$_DODMLASRSchemaDODMLASREntityScore._entityTaggerCategory
++ OBJC_IVAR_$_DODMLASRSchemaDODMLASREntityScore._has
++ OBJC_IVAR_$_DODMLASRSchemaDODMLASREntityScore._numEntityErrors
++ OBJC_IVAR_$_DODMLASRSchemaDODMLASREntityScore._numTotalEntities
++ OBJC_IVAR_$_DODMLASRSchemaDODMLASREntityScoringResult._entityScores
++ OBJC_IVAR_$_DODMLASRSchemaDODMLASREntityScoringResult._referenceName
++ OBJC_IVAR_$_DODMLASRSchemaDODMLASRPersonalizationExperimentEnded._audioFileResult
++ OBJC_IVAR_$_MHSchemaMHAdaptiveSiriVolumeTTSVolumeQueried._backgroundNoiseActivityLevel
++ OBJC_IVAR_$_MHSchemaMHAdaptiveSiriVolumeTTSVolumeQueried._backgroundNoiseLevel
++ OBJC_IVAR_$_MHSchemaMHAdaptiveSiriVolumeTTSVolumeQueried._has
++ OBJC_IVAR_$_MHSchemaMHAdaptiveSiriVolumeTTSVolumeQueried._invocationType
++ OBJC_IVAR_$_MHSchemaMHAdaptiveSiriVolumeTTSVolumeQueried._isMediaPlaybackOn
++ OBJC_IVAR_$_MHSchemaMHAdaptiveSiriVolumeTTSVolumeQueried._isPermanentOffsetEnabled
++ OBJC_IVAR_$_MHSchemaMHAdaptiveSiriVolumeTTSVolumeQueried._musicLoudnessLevel
++ OBJC_IVAR_$_MHSchemaMHAdaptiveSiriVolumeTTSVolumeQueried._permanentOffsetFactor
++ OBJC_IVAR_$_MHSchemaMHAdaptiveSiriVolumeTTSVolumeQueried._speakerDistance
++ OBJC_IVAR_$_MHSchemaMHAdaptiveSiriVolumeTTSVolumeQueried._speakerSpeechLevel
++ OBJC_IVAR_$_MHSchemaMHAdaptiveSiriVolumeTTSVolumeQueried._ttsVolume
++ OBJC_IVAR_$_MHSchemaMHAdaptiveSiriVolumeUserIntentDetected._has
++ OBJC_IVAR_$_MHSchemaMHAdaptiveSiriVolumeUserIntentDetected._isPermanentOffsetEnabled
++ OBJC_IVAR_$_MHSchemaMHAdaptiveSiriVolumeUserIntentDetected._permanentOffsetFactor
++ OBJC_IVAR_$_MHSchemaMHAdaptiveSiriVolumeUserIntentDetected._userIntentType
++ OBJC_IVAR_$_MHSchemaMHAdaptiveSiriVolumeUserIntentDetected._userIntentVolume
++ OBJC_IVAR_$_MHSchemaMHClientEvent._adaptiveSiriVolumeTTSVolumeQueried
++ OBJC_IVAR_$_MHSchemaMHClientEvent._adaptiveSiriVolumeUserIntentDetected
++ OBJC_IVAR_$_NLRouterSchemaNLRouterClientEvent._nlRouterPromptGenerated
++ OBJC_IVAR_$_NLRouterSchemaNLRouterHandleEnded._overrideMetadata
++ OBJC_IVAR_$_NLRouterSchemaNLRouterOverrideMetadata._overrideId
++ OBJC_IVAR_$_NLRouterSchemaNLRouterPromptComponent._componentType
++ OBJC_IVAR_$_NLRouterSchemaNLRouterPromptComponent._has
++ OBJC_IVAR_$_NLRouterSchemaNLRouterPromptComponent._sizeInTokens
++ OBJC_IVAR_$_NLRouterSchemaNLRouterPromptGenerated._components
++ OBJC_IVAR_$_NLRouterSchemaNLRouterPromptGenerated._droppedComponents
++ OBJC_IVAR_$_NLRouterSchemaNLRouterPromptGenerated._estimatedSizeInTokens
++ OBJC_IVAR_$_NLRouterSchemaNLRouterPromptGenerated._has
++ OBJC_IVAR_$_NLRouterSchemaNLRouterPromptGenerated._totalSizeInTokens
++ OBJC_IVAR_$_NLRouterSchemaNLRouterPromptGenerationSignalsCaptured._isMailAppFocused
++ OBJC_IVAR_$_ODBATCHSiriSchemaODBATCHTurnRestatementScore._isCrossDevice
++ OBJC_IVAR_$_ODDSiriSchemaODDClientEventMetadata._isLongLivedIDUploadDisabled
++ OBJC_IVAR_$_ORCHSchemaORCHMUXRequestEnded._selectedloggableUserIdHash
++ OBJC_IVAR_$_ORCHSchemaORCHMUXRequestEnded._voiceIdClassification
++ OBJC_IVAR_$_ORCHSchemaORCHMUXRequestEnded._voiceIdScores
++ OBJC_IVAR_$_ORCHSchemaORCHMultiUserScore._loggableUserIdHash
++ OBJC_IVAR_$_QDSchemaQDClientEvent._toolboxSizeReported
++ OBJC_IVAR_$_QDSchemaQDToolboxSizeReported._has
++ OBJC_IVAR_$_QDSchemaQDToolboxSizeReported._totalToolCount
++ OBJC_IVAR_$_SISchemaClientEvent._transcriptShown
++ OBJC_IVAR_$_SISchemaUEITranscriptShown._has
++ OBJC_IVAR_$_SISchemaUEITranscriptShown._transcriptShownReason
++ OBJC_IVAR_$_STSchemaSTAnswerSynthesisRequestFailed._stError
++ OBJC_IVAR_$_STSchemaSTDisambiguationFailed._stError
++ OBJC_IVAR_$_STSchemaSTFailureError._code
++ OBJC_IVAR_$_STSchemaSTFailureError._domain
++ OBJC_IVAR_$_STSchemaSTFailureError._has
++ OBJC_IVAR_$_STSchemaSTGeneralSearchFailed._stError
++ OBJC_IVAR_$_STSchemaSTGlobalSearchRequestFailed._stError
++ OBJC_IVAR_$_STSchemaSTHallucinationDetectionFailed._stError
++ OBJC_IVAR_$_STSchemaSTLLMQURequestFailed._stError
++ OBJC_IVAR_$_STSchemaSTSpotlightRequestFailed._stError
++ OBJC_IVAR_$_TTSSchemaTTSSpeechStarted._audioQueueLatencyInSecond
++ OBJC_IVAR_$_TTSSchemaTTSSpeechStarted._isWarmStart
++ _ASRSchemaASRLMEOverActivationEditReadFrom
++ _ASRSchemaASRNamedEntityUserEditReadFrom
++ _ASRSchemaASROneBestTranscriptTier1ReadFrom
++ _ASRSchemaASRPersonalizationUserEditNamedEntityMetricsReadFrom
++ _DODMLASRSchemaDODMLASREntityScoreReadFrom
++ _DODMLASRSchemaDODMLASREntityScoringResultReadFrom
++ _MHSchemaMHAdaptiveSiriVolumeTTSVolumeQueriedReadFrom
++ _MHSchemaMHAdaptiveSiriVolumeUserIntentDetectedReadFrom
++ _NLRouterSchemaNLRouterOverrideMetadataReadFrom
++ _NLRouterSchemaNLRouterPromptComponentReadFrom
++ _NLRouterSchemaNLRouterPromptGeneratedReadFrom
++ _OBJC_CLASS_$_ASRSchemaASRLMEOverActivationEdit
++ _OBJC_CLASS_$_ASRSchemaASRNamedEntityUserEdit
++ _OBJC_CLASS_$_ASRSchemaASROneBestTranscriptTier1
++ _OBJC_CLASS_$_ASRSchemaASRPersonalizationUserEditNamedEntityMetrics
++ _OBJC_CLASS_$_DODMLASRSchemaDODMLASREntityScore
++ _OBJC_CLASS_$_DODMLASRSchemaDODMLASREntityScoringResult
++ _OBJC_CLASS_$_MHSchemaMHAdaptiveSiriVolumeTTSVolumeQueried
++ _OBJC_CLASS_$_MHSchemaMHAdaptiveSiriVolumeUserIntentDetected
++ _OBJC_CLASS_$_NLRouterSchemaNLRouterOverrideMetadata
++ _OBJC_CLASS_$_NLRouterSchemaNLRouterPromptComponent
++ _OBJC_CLASS_$_NLRouterSchemaNLRouterPromptGenerated
++ _OBJC_CLASS_$_QDSchemaQDToolboxSizeReported
++ _OBJC_CLASS_$_SISchemaUEITranscriptShown
++ _OBJC_CLASS_$_STSchemaSTFailureError
++ _OBJC_METACLASS_$_ASRSchemaASRLMEOverActivationEdit
++ _OBJC_METACLASS_$_ASRSchemaASRNamedEntityUserEdit
++ _OBJC_METACLASS_$_ASRSchemaASROneBestTranscriptTier1
++ _OBJC_METACLASS_$_ASRSchemaASRPersonalizationUserEditNamedEntityMetrics
++ _OBJC_METACLASS_$_DODMLASRSchemaDODMLASREntityScore
++ _OBJC_METACLASS_$_DODMLASRSchemaDODMLASREntityScoringResult
++ _OBJC_METACLASS_$_MHSchemaMHAdaptiveSiriVolumeTTSVolumeQueried
++ _OBJC_METACLASS_$_MHSchemaMHAdaptiveSiriVolumeUserIntentDetected
++ _OBJC_METACLASS_$_NLRouterSchemaNLRouterOverrideMetadata
++ _OBJC_METACLASS_$_NLRouterSchemaNLRouterPromptComponent
++ _OBJC_METACLASS_$_NLRouterSchemaNLRouterPromptGenerated
++ _OBJC_METACLASS_$_QDSchemaQDToolboxSizeReported
++ _OBJC_METACLASS_$_SISchemaUEITranscriptShown
++ _OBJC_METACLASS_$_STSchemaSTFailureError
++ _QDSchemaQDToolboxSizeReportedReadFrom
++ _SISchemaUEITranscriptShownReadFrom
++ _STSchemaSTFailureErrorReadFrom
++ _qname_ASRSchemaASRClientEvent_WhichEvent_Type_personalizationUserEditNamedEntityMetrics
++ _qname_MHSchemaMHClientEvent_WhichEvent_Type_adaptiveSiriVolumeTTSVolumeQueried
++ _qname_MHSchemaMHClientEvent_WhichEvent_Type_adaptiveSiriVolumeUserIntentDetected
++ _qname_NLRouterSchemaNLRouterClientEvent_WhichEvent_Type_nlRouterPromptGenerated
++ _qname_QDSchemaQDClientEvent_WhichEvent_Type_toolboxSizeReported
++ _qname_SISchemaClientEvent_WhichEvent_Type_transcriptShown
++ _swift_cvw_allocateGenericValueMetadataWithLayoutString
++ _swift_cvw_assignWithCopy
++ _swift_cvw_assignWithTake
++ _swift_cvw_destroy
++ _swift_cvw_enumFn_getEnumTag
++ _swift_cvw_initEnumMetadataMultiPayloadWithLayoutString
++ _swift_cvw_initStructMetadataWithLayoutString
++ _swift_cvw_initWithCopy
++ _swift_cvw_initWithTake
++ _swift_cvw_initializeBufferWithCopyOfBuffer
++ _swift_cvw_instantiateLayoutString
++ _swift_cvw_multiPayloadEnumGeneric_destructiveInjectEnumTag
++ _swift_cvw_multiPayloadEnumGeneric_getEnumTag
+- _swift_allocateGenericValueMetadataWithLayoutString
+- _swift_enumFn_getEnumTag
+- _swift_generic_assignWithCopy
+- _swift_generic_assignWithTake
+- _swift_generic_destroy
+- _swift_generic_initWithCopy
+- _swift_generic_initWithTake
+- _swift_generic_initializeBufferWithCopyOfBuffer
+- _swift_generic_instantiateLayoutString
+- _swift_initEnumMetadataMultiPayloadWithLayoutString
+- _swift_initStructMetadataWithLayoutString
+- _swift_multiPayloadEnumGeneric_destructiveInjectEnumTag
+- _swift_multiPayloadEnumGeneric_getEnumTag
+CStrings:
++ "\x01\"1"
++ "\x0f\x0f\x0f"
++ "\x0f\x0f\x0f\x0f\x04"
++ "\x0f\x0f\x0f\x0f\x0f\x02"
++ "\x11\x11\x11\x13"
++ "@\"ASRSchemaASRPersonalizationUserEditNamedEntityMetrics\""
++ "@\"DODMLASRSchemaDODMLASRAudioFileResult\""
++ "@\"MHSchemaMHAdaptiveSiriVolumeTTSVolumeQueried\""
++ "@\"MHSchemaMHAdaptiveSiriVolumeUserIntentDetected\""
++ "@\"NLRouterSchemaNLRouterOverrideMetadata\""
++ "@\"NLRouterSchemaNLRouterPromptGenerated\""
++ "@\"QDSchemaQDToolboxSizeReported\""
++ "@\"SISchemaUEITranscriptShown\""
++ "@\"STSchemaSTFailureError\""
++ "ASRENTITYTAGGERCATEGORY_ORGANIZATION_NAME"
++ "ASRENTITYTAGGERCATEGORY_PERSON_NAME"
++ "ASRENTITYTAGGERCATEGORY_PLACE_NAME"
++ "ASRENTITYTAGGERCATEGORY_UNKNOWN"
++ "ASRSPEECHPROFILECATEGORY_NT_ACTION"
++ "ASRSPEECHPROFILECATEGORY_NT_APPCONTACT"
++ "ASRSPEECHPROFILECATEGORY_NT_APPNAME"
++ "ASRSPEECHPROFILECATEGORY_NT_APPUNKNOWN"
++ "ASRSPEECHPROFILECATEGORY_NT_APPVOCAB"
++ "ASRSPEECHPROFILECATEGORY_NT_ARTIST"
++ "ASRSPEECHPROFILECATEGORY_NT_CALEVENT"
++ "ASRSPEECHPROFILECATEGORY_NT_CONTACT"
++ "ASRSPEECHPROFILECATEGORY_NT_CORRECTION"
++ "ASRSPEECHPROFILECATEGORY_NT_DEVICE"
++ "ASRSPEECHPROFILECATEGORY_NT_EFFECT"
++ "ASRSPEECHPROFILECATEGORY_NT_ENTITY"
++ "ASRSPEECHPROFILECATEGORY_NT_GROUP"
++ "ASRSPEECHPROFILECATEGORY_NT_HOUSE"
++ "ASRSPEECHPROFILECATEGORY_NT_LOCATION"
++ "ASRSPEECHPROFILECATEGORY_NT_NOTEFOLDER"
++ "ASRSPEECHPROFILECATEGORY_NT_NOTETITLE"
++ "ASRSPEECHPROFILECATEGORY_NT_PAYACCOUNT"
++ "ASRSPEECHPROFILECATEGORY_NT_PHOTOALBUM"
++ "ASRSPEECHPROFILECATEGORY_NT_PHOTOTAG"
++ "ASRSPEECHPROFILECATEGORY_NT_PLAYLIST"
++ "ASRSPEECHPROFILECATEGORY_NT_ROOM"
++ "ASRSPEECHPROFILECATEGORY_NT_SAVEDACTIVITY"
++ "ASRSPEECHPROFILECATEGORY_NT_SCENE"
++ "ASRSPEECHPROFILECATEGORY_NT_SEARCHTERM"
++ "ASRSPEECHPROFILECATEGORY_NT_UNKNOWN"
++ "ASRSPEECHPROFILECATEGORY_NT_WIDGET"
++ "ASRSPEECHPROFILECATEGORY_NT_ZONE"
++ "ASRSPEECHPROFILECATEGORY_UNKNOWN"
++ "ASRSchemaASRLMEOverActivationEdit"
++ "ASRSchemaASRNamedEntityUserEdit"
++ "ASRSchemaASROneBestTranscriptTier1"
++ "ASRSchemaASRPersonalizationUserEditNamedEntityMetrics"
++ "ASRVISUALCONTEXTCATEGORY_SENDER"
++ "ASRVISUALCONTEXTCATEGORY_THREAD"
++ "ASRVISUALCONTEXTCATEGORY_UNKNOWN"
++ "DEVICE_SENSITIVITY_STATE_SIRI_DATA_SHARING_OPT_OUT_NON_GMS"
++ "DODMLASRSchemaDODMLASREntityScore"
++ "DODMLASRSchemaDODMLASREntityScoringResult"
++ "MHASVBACKGROUNDNOISEACTIVITYLEVEL_HIGH"
++ "MHASVBACKGROUNDNOISEACTIVITYLEVEL_LOW"
++ "MHASVBACKGROUNDNOISEACTIVITYLEVEL_UNKNOWN"
++ "MHASVINVOCATIONTYPE_BUTTON_PRESS"
++ "MHASVINVOCATIONTYPE_UNKNOWN"
++ "MHASVINVOCATIONTYPE_VOICE_TRIGGER"
++ "MHASVSPEAKERDISTANCETYPE_ESTIMATION_INCOMPLETE"
++ "MHASVSPEAKERDISTANCETYPE_FAR"
++ "MHASVSPEAKERDISTANCETYPE_MID"
++ "MHASVSPEAKERDISTANCETYPE_NEAR"
++ "MHASVSPEAKERDISTANCETYPE_UNKNOWN"
++ "MHASVUSERINTENTTYPE_DECREASE_SIRI_VOLUME"
++ "MHASVUSERINTENTTYPE_DEFAULT"
++ "MHASVUSERINTENTTYPE_INCREASE_SIRI_VOLUME"
++ "MHASVUSERINTENTTYPE_SET_VOLUME"
++ "MHASVUSERINTENTTYPE_UNKNOWN"
++ "MHSchemaMHAdaptiveSiriVolumeTTSVolumeQueried"
++ "MHSchemaMHAdaptiveSiriVolumeUserIntentDetected"
++ "NLROUTERDECISIONSOURCE_MAGIC_WORD_OVERRIDE"
++ "NLROUTERDECISIONSOURCE_USER_DEFAULT_OVERRIDE"
++ "NLROUTERPROMPTCOMPONENTTYPE_CONVERSATION_HISTORY"
++ "NLROUTERPROMPTCOMPONENTTYPE_CORRECTIONS"
++ "NLROUTERPROMPTCOMPONENTTYPE_CURRENT_QUERY"
++ "NLROUTERPROMPTCOMPONENTTYPE_ON_SCREEN_CONTEXT"
++ "NLROUTERPROMPTCOMPONENTTYPE_SPANS"
++ "NLROUTERPROMPTCOMPONENTTYPE_UNKNOWN"
++ "NLRouterSchemaNLRouterOverrideMetadata"
++ "NLRouterSchemaNLRouterPromptComponent"
++ "NLRouterSchemaNLRouterPromptGenerated"
++ "QDSchemaQDToolboxSizeReported"
++ "SISchemaUEITranscriptShown"
++ "STSchemaSTFailureError"
++ "T@\"ASRSchemaASRPersonalizationUserEditNamedEntityMetrics\",&,N,V_personalizationUserEditNamedEntityMetrics"
++ "T@\"DODMLASRSchemaDODMLASRAudioFileResult\",&,N,V_audioFileResult"
++ "T@\"MHSchemaMHAdaptiveSiriVolumeTTSVolumeQueried\",&,N,V_adaptiveSiriVolumeTTSVolumeQueried"
++ "T@\"MHSchemaMHAdaptiveSiriVolumeUserIntentDetected\",&,N,V_adaptiveSiriVolumeUserIntentDetected"
++ "T@\"NLRouterSchemaNLRouterOverrideMetadata\",&,N,V_overrideMetadata"
++ "T@\"NLRouterSchemaNLRouterPromptGenerated\",&,N,V_nlRouterPromptGenerated"
++ "T@\"NSArray\",C,N,V_components"
++ "T@\"NSArray\",C,N,V_droppedComponents"
++ "T@\"NSArray\",C,N,V_entityScoreResults"
++ "T@\"NSArray\",C,N,V_entityScores"
++ "T@\"NSArray\",C,N,V_lmeOverActivationEdits"
++ "T@\"NSArray\",C,N,V_namedEntityUserEdits"
++ "T@\"NSArray\",C,N,V_oneBestTranscripts"
++ "T@\"NSArray\",C,N,V_speechProfileCategories"
++ "T@\"NSArray\",C,N,V_visualContextCategories"
++ "T@\"NSArray\",C,N,V_voiceIdScores"
++ "T@\"NSString\",C,N,V_loggableUserIdHash"
++ "T@\"NSString\",C,N,V_postItn"
++ "T@\"NSString\",C,N,V_rawRecognition"
++ "T@\"NSString\",C,N,V_selectedloggableUserIdHash"
++ "T@\"QDSchemaQDToolboxSizeReported\",&,N,V_toolboxSizeReported"
++ "T@\"SISchemaUEITranscriptShown\",&,N,V_transcriptShown"
++ "T@\"SISchemaUUID\",&,N,V_overrideId"
++ "T@\"STSchemaSTFailureError\",&,N,V_stError"
++ "TB,N,V_hasAdaptiveSiriVolumeTTSVolumeQueried"
++ "TB,N,V_hasAdaptiveSiriVolumeUserIntentDetected"
++ "TB,N,V_hasAudioFileResult"
++ "TB,N,V_hasLoggableUserIdHash"
++ "TB,N,V_hasNlRouterPromptGenerated"
++ "TB,N,V_hasOverrideMetadata"
++ "TB,N,V_hasPersonalizationUserEditNamedEntityMetrics"
++ "TB,N,V_hasSelectedloggableUserIdHash"
++ "TB,N,V_hasStError"
++ "TB,N,V_hasToolboxSizeReported"
++ "TB,N,V_hasTranscriptShown"
++ "TB,N,V_isCrossDevice"
++ "TB,N,V_isLongLivedIDUploadDisabled"
++ "TB,N,V_isMailAppFocused"
++ "TB,N,V_isMediaPlaybackOn"
++ "TB,N,V_isNamedEntityPresentInSpeechProfile"
++ "TB,N,V_isNamedEntityPresentInVisualContext"
++ "TI,N,V_estimatedSizeInTokens"
++ "TI,N,V_numEntityErrors"
++ "TI,N,V_numTotalEdit"
++ "TI,N,V_numTotalEntities"
++ "TI,N,V_oneBestTranscriptLinkIndex"
++ "TI,N,V_sizeInTokens"
++ "TI,N,V_totalSizeInTokens"
++ "TI,N,V_totalToolCount"
++ "TRANSCRIPTSHOWNREASON_ALWAYS_SHOW"
++ "TRANSCRIPTSHOWNREASON_RECEIVED_SHOW_TRANSCRIPT_COMMAND"
++ "TRANSCRIPTSHOWNREASON_UNKNOWN"
++ "Tf,N,V_audioQueueLatencyInSecond"
++ "Tf,N,V_backgroundNoiseLevel"
++ "Tf,N,V_musicLoudnessLevel"
++ "Tf,N,V_speakerSpeechLevel"
++ "Tf,N,V_ttsVolume"
++ "Tf,N,V_userIntentVolume"
++ "Ti,N,V_backgroundNoiseActivityLevel"
++ "Ti,N,V_componentType"
++ "Ti,N,V_entityTaggerCategory"
++ "Ti,N,V_speakerDistance"
++ "Ti,N,V_speechProfileCategory"
++ "Ti,N,V_transcriptShownReason"
++ "Ti,N,V_userIntentType"
++ "Ti,N,V_voiceIdClassification"
++ "_adaptiveSiriVolumeTTSVolumeQueried"
++ "_adaptiveSiriVolumeUserIntentDetected"
++ "_audioFileResult"
++ "_audioQueueLatencyInSecond"
++ "_backgroundNoiseActivityLevel"
++ "_backgroundNoiseLevel"
++ "_componentType"
++ "_components"
++ "_droppedComponents"
++ "_entityScoreResults"
++ "_entityScores"
++ "_entityTaggerCategory"
++ "_estimatedSizeInTokens"
++ "_hasAdaptiveSiriVolumeTTSVolumeQueried"
++ "_hasAdaptiveSiriVolumeUserIntentDetected"
++ "_hasAudioFileResult"
++ "_hasLoggableUserIdHash"
++ "_hasNlRouterPromptGenerated"
++ "_hasOverrideMetadata"
++ "_hasPersonalizationUserEditNamedEntityMetrics"
++ "_hasSelectedloggableUserIdHash"
++ "_hasStError"
++ "_hasToolboxSizeReported"
++ "_hasTranscriptShown"
++ "_isCrossDevice"
++ "_isLongLivedIDUploadDisabled"
++ "_isMailAppFocused"
++ "_isMediaPlaybackOn"
++ "_isNamedEntityPresentInSpeechProfile"
++ "_isNamedEntityPresentInVisualContext"
++ "_lmeOverActivationEdits"
++ "_loggableUserIdHash"
++ "_musicLoudnessLevel"
++ "_namedEntityUserEdits"
++ "_nlRouterPromptGenerated"
++ "_numEntityErrors"
++ "_numTotalEdit"
++ "_numTotalEntities"
++ "_oneBestTranscriptLinkIndex"
++ "_oneBestTranscripts"
++ "_overrideMetadata"
++ "_personalizationUserEditNamedEntityMetrics"
++ "_selectedloggableUserIdHash"
++ "_sizeInTokens"
++ "_speakerDistance"
++ "_speakerSpeechLevel"
++ "_speechProfileCategories"
++ "_speechProfileCategory"
++ "_stError"
++ "_toolboxSizeReported"
++ "_totalSizeInTokens"
++ "_totalToolCount"
++ "_transcriptShown"
++ "_transcriptShownReason"
++ "_ttsVolume"
++ "_userIntentType"
++ "_userIntentVolume"
++ "_visualContextCategories"
++ "_voiceIdClassification"
++ "_voiceIdScores"
++ "adaptiveSiriVolumeTTSVolumeQueried"
++ "adaptiveSiriVolumeUserIntentDetected"
++ "addComponents:"
++ "addDroppedComponents:"
++ "addEntityScoreResults:"
++ "addEntityScores:"
++ "addLmeOverActivationEdits:"
++ "addNamedEntityUserEdits:"
++ "addOneBestTranscripts:"
++ "addSpeechProfileCategories:"
++ "addVisualContextCategories:"
++ "addVoiceIdScores:"
++ "audioFileResult"
++ "audioFileResultTier1.oneBestTranscripts.postItn"
++ "audioFileResultTier1.oneBestTranscripts.rawRecognition"
++ "audioQueueLatencyInSecond"
++ "backgroundNoiseActivityLevel"
++ "backgroundNoiseLevel"
++ "clearComponents"
++ "clearDroppedComponents"
++ "clearEntityScoreResults"
++ "clearEntityScores"
++ "clearLmeOverActivationEdits"
++ "clearNamedEntityUserEdits"
++ "clearOneBestTranscripts"
++ "clearSpeechProfileCategories"
++ "clearVisualContextCategories"
++ "clearVoiceIdScores"
++ "com.apple.aiml.siri.asr.ASRClientEvent.ASRPersonalizationUserEditNamedEntityMetrics"
++ "com.apple.aiml.siri.mh.MHClientEvent.MHAdaptiveSiriVolumeTTSVolumeQueried"
++ "com.apple.aiml.siri.mh.MHClientEvent.MHAdaptiveSiriVolumeUserIntentDetected"
++ "com.apple.aiml.siri.nlrouter.NLRouterClientEvent.NLRouterPromptGenerated"
++ "com.apple.aiml.siri.qd.QDClientEvent.QDToolboxSizeReported"
++ "com.apple.aiml.siri.uei.ClientEvent.UEITranscriptShown"
++ "componentType"
++ "components"
++ "componentsAtIndex:"
++ "componentsCount"
++ "deleteAdaptiveSiriVolumeTTSVolumeQueried"
++ "deleteAdaptiveSiriVolumeUserIntentDetected"
++ "deleteAudioFileResult"
++ "deleteAudioQueueLatencyInSecond"
++ "deleteBackgroundNoiseActivityLevel"
++ "deleteBackgroundNoiseLevel"
++ "deleteComponentType"
++ "deleteComponents"
++ "deleteDroppedComponents"
++ "deleteEntityScoreResults"
++ "deleteEntityScores"
++ "deleteEntityTaggerCategory"
++ "deleteEstimatedSizeInTokens"
++ "deleteIsCrossDevice"
++ "deleteIsLongLivedIDUploadDisabled"
++ "deleteIsMailAppFocused"
++ "deleteIsMediaPlaybackOn"
++ "deleteIsNamedEntityPresentInSpeechProfile"
++ "deleteIsNamedEntityPresentInVisualContext"
++ "deleteLmeOverActivationEdits"
++ "deleteLoggableUserIdHash"
++ "deleteMusicLoudnessLevel"
++ "deleteNamedEntityUserEdits"
++ "deleteNlRouterPromptGenerated"
++ "deleteNumEntityErrors"
++ "deleteNumTotalEdit"
++ "deleteNumTotalEntities"
++ "deleteOneBestTranscriptLinkIndex"
++ "deleteOneBestTranscripts"
++ "deleteOverrideMetadata"
++ "deletePersonalizationUserEditNamedEntityMetrics"
++ "deleteSelectedloggableUserIdHash"
++ "deleteSizeInTokens"
++ "deleteSpeakerDistance"
++ "deleteSpeakerSpeechLevel"
++ "deleteSpeechProfileCategories"
++ "deleteSpeechProfileCategory"
++ "deleteStError"
++ "deleteToolboxSizeReported"
++ "deleteTotalSizeInTokens"
++ "deleteTotalToolCount"
++ "deleteTranscriptShown"
++ "deleteTranscriptShownReason"
++ "deleteTtsVolume"
++ "deleteUserIntentType"
++ "deleteUserIntentVolume"
++ "deleteVisualContextCategories"
++ "deleteVoiceIdClassification"
++ "deleteVoiceIdScores"
++ "droppedComponents"
++ "droppedComponentsAtIndex:"
++ "droppedComponentsCount"
++ "entityScoreResults"
++ "entityScoreResultsAtIndex:"
++ "entityScoreResultsCount"
++ "entityScores"
++ "entityScoresAtIndex:"
++ "entityScoresCount"
++ "entityTaggerCategory"
++ "estimatedSizeInTokens"
++ "hasAdaptiveSiriVolumeTTSVolumeQueried"
++ "hasAdaptiveSiriVolumeUserIntentDetected"
++ "hasAudioFileResult"
++ "hasAudioQueueLatencyInSecond"
++ "hasBackgroundNoiseActivityLevel"
++ "hasBackgroundNoiseLevel"
++ "hasComponentType"
++ "hasEntityTaggerCategory"
++ "hasEstimatedSizeInTokens"
++ "hasIsCrossDevice"
++ "hasIsLongLivedIDUploadDisabled"
++ "hasIsMailAppFocused"
++ "hasIsMediaPlaybackOn"
++ "hasIsNamedEntityPresentInSpeechProfile"
++ "hasIsNamedEntityPresentInVisualContext"
++ "hasLoggableUserIdHash"
++ "hasMusicLoudnessLevel"
++ "hasNlRouterPromptGenerated"
++ "hasNumEntityErrors"
++ "hasNumTotalEdit"
++ "hasNumTotalEntities"
++ "hasOneBestTranscriptLinkIndex"
++ "hasOverrideMetadata"
++ "hasPersonalizationUserEditNamedEntityMetrics"
++ "hasSelectedloggableUserIdHash"
++ "hasSizeInTokens"
++ "hasSpeakerDistance"
++ "hasSpeakerSpeechLevel"
++ "hasSpeechProfileCategory"
++ "hasStError"
++ "hasToolboxSizeReported"
++ "hasTotalSizeInTokens"
++ "hasTotalToolCount"
++ "hasTranscriptShown"
++ "hasTranscriptShownReason"
++ "hasTtsVolume"
++ "hasUserIntentType"
++ "hasUserIntentVolume"
++ "hasVoiceIdClassification"
++ "isCrossDevice"
++ "isLongLivedIDUploadDisabled"
++ "isMailAppFocused"
++ "isMediaPlaybackOn"
++ "isNamedEntityPresentInSpeechProfile"
++ "isNamedEntityPresentInVisualContext"
++ "lmeOverActivationEdits"
++ "lmeOverActivationEditsAtIndex:"
++ "lmeOverActivationEditsCount"
++ "loggableUserIdHash"
++ "musicLoudnessLevel"
++ "muxBridgeContext.ended.voiceIdScores.loggableSharedUserId"
++ "namedEntityUserEdits"
++ "namedEntityUserEditsAtIndex:"
++ "namedEntityUserEditsCount"
++ "nlRouterPromptGenerated"
++ "numEntityErrors"
++ "numTotalEdit"
++ "numTotalEntities"
++ "oneBestTranscriptLinkIndex"
++ "oneBestTranscripts"
++ "oneBestTranscriptsAtIndex:"
++ "oneBestTranscriptsCount"
++ "orderedMessages.siriEventTypeUnion.dodmlClientEvent.audioFileResultTier1.oneBestTranscripts.postItn"
++ "orderedMessages.siriEventTypeUnion.dodmlClientEvent.audioFileResultTier1.oneBestTranscripts.rawRecognition"
++ "orderedMessages.siriEventTypeUnion.orchClientEvent.muxBridgeContext.ended.voiceIdScores.loggableSharedUserId"
++ "overrideMetadata"
++ "personalizationUserEditNamedEntityMetrics"
++ "selectedloggableUserIdHash"
++ "setAdaptiveSiriVolumeTTSVolumeQueried:"
++ "setAdaptiveSiriVolumeUserIntentDetected:"
++ "setAudioFileResult:"
++ "setAudioQueueLatencyInSecond:"
++ "setBackgroundNoiseActivityLevel:"
++ "setBackgroundNoiseLevel:"
++ "setComponentType:"
++ "setComponents:"
++ "setDroppedComponents:"
++ "setEntityScoreResults:"
++ "setEntityScores:"
++ "setEntityTaggerCategory:"
++ "setEstimatedSizeInTokens:"
++ "setHasAdaptiveSiriVolumeTTSVolumeQueried:"
++ "setHasAdaptiveSiriVolumeUserIntentDetected:"
++ "setHasAudioFileResult:"
++ "setHasAudioQueueLatencyInSecond:"
++ "setHasBackgroundNoiseActivityLevel:"
++ "setHasBackgroundNoiseLevel:"
++ "setHasComponentType:"
++ "setHasEntityTaggerCategory:"
++ "setHasEstimatedSizeInTokens:"
++ "setHasIsCrossDevice:"
++ "setHasIsLongLivedIDUploadDisabled:"
++ "setHasIsMailAppFocused:"
++ "setHasIsMediaPlaybackOn:"
++ "setHasIsNamedEntityPresentInSpeechProfile:"
++ "setHasIsNamedEntityPresentInVisualContext:"
++ "setHasLoggableUserIdHash:"
++ "setHasMusicLoudnessLevel:"
++ "setHasNlRouterPromptGenerated:"
++ "setHasNumEntityErrors:"
++ "setHasNumTotalEdit:"
++ "setHasNumTotalEntities:"
++ "setHasOneBestTranscriptLinkIndex:"
++ "setHasOverrideMetadata:"
++ "setHasPersonalizationUserEditNamedEntityMetrics:"
++ "setHasSelectedloggableUserIdHash:"
++ "setHasSizeInTokens:"
++ "setHasSpeakerDistance:"
++ "setHasSpeakerSpeechLevel:"
++ "setHasSpeechProfileCategory:"
++ "setHasStError:"
++ "setHasToolboxSizeReported:"
++ "setHasTotalSizeInTokens:"
++ "setHasTotalToolCount:"
++ "setHasTranscriptShown:"
++ "setHasTranscriptShownReason:"
++ "setHasTtsVolume:"
++ "setHasUserIntentType:"
++ "setHasUserIntentVolume:"
++ "setHasVoiceIdClassification:"
++ "setIsCrossDevice:"
++ "setIsLongLivedIDUploadDisabled:"
++ "setIsMailAppFocused:"
++ "setIsMediaPlaybackOn:"
++ "setIsNamedEntityPresentInSpeechProfile:"
++ "setIsNamedEntityPresentInVisualContext:"
++ "setLmeOverActivationEdits:"
++ "setLoggableUserIdHash:"
++ "setMusicLoudnessLevel:"
++ "setNamedEntityUserEdits:"
++ "setNlRouterPromptGenerated:"
++ "setNumEntityErrors:"
++ "setNumTotalEdit:"
++ "setNumTotalEntities:"
++ "setOneBestTranscriptLinkIndex:"
++ "setOneBestTranscripts:"
++ "setOverrideMetadata:"
++ "setPersonalizationUserEditNamedEntityMetrics:"
++ "setSelectedloggableUserIdHash:"
++ "setSizeInTokens:"
++ "setSpeakerDistance:"
++ "setSpeakerSpeechLevel:"
++ "setSpeechProfileCategories:"
++ "setSpeechProfileCategory:"
++ "setStError:"
++ "setToolboxSizeReported:"
++ "setTotalSizeInTokens:"
++ "setTotalToolCount:"
++ "setTranscriptShown:"
++ "setTranscriptShownReason:"
++ "setTtsVolume:"
++ "setUserIntentType:"
++ "setUserIntentVolume:"
++ "setVisualContextCategories:"
++ "setVoiceIdClassification:"
++ "setVoiceIdScores:"
++ "sizeInTokens"
++ "speakerDistance"
++ "speakerSpeechLevel"
++ "speechProfileCategories"
++ "speechProfileCategoriesAtIndex:"
++ "speechProfileCategoriesCount"
++ "speechProfileCategory"
++ "stError"
++ "toolboxSizeReported"
++ "totalSizeInTokens"
++ "totalToolCount"
++ "transcriptShown"
++ "transcriptShownReason"
++ "ttsVolume"
++ "userIntentType"
++ "userIntentVolume"
++ "visualContextCategories"
++ "visualContextCategoriesAtIndex:"
++ "visualContextCategoriesCount"
++ "voiceIdClassification"
++ "voiceIdScores"
++ "voiceIdScoresAtIndex:"
++ "voiceIdScoresCount"
++ "{?=\"audioOutputRoute\"b1\"customerPerceivedLatencyInSecond\"b1\"synthesisSource\"b1\"synthesisEffect\"b1\"volume\"b1\"thermalState\"b1\"assetSelectionLatencyInSecond\"b1\"audioQueueLatencyInSecond\"b1\"isWarmStart\"b1}"
++ "{?=\"componentType\"b1\"sizeInTokens\"b1}"
++ "{?=\"decodeDurationInNs\"b1\"oneBestTranscriptLinkIndex\"b1}"
++ "{?=\"entityTaggerCategory\"b1\"isNamedEntityPresentInVisualContext\"b1\"isNamedEntityPresentInSpeechProfile\"b1}"
++ "{?=\"entityTaggerCategory\"b1\"numTotalEntities\"b1\"numEntityErrors\"b1}"
++ "{?=\"eventTimestampInMsSince1970\"b1\"userAggregationIdRotationTimestampMs\"b1\"userAggregationIdExpirationTimestampMs\"b1\"eventOrigin\"b1\"isLongLivedIDUploadDisabled\"b1}"
++ "{?=\"isAppFocused\"b1\"isMediaRichAppFocused\"b1\"isMediaFocused\"b1\"isMailAppFocused\"b1}"
++ "{?=\"isMultiUser\"b1\"nlRerunTimeInMs\"b1\"ORCHUserIdentityClassification\"b1\"isOutsider\"b1\"isSelectedUserPartOfMultipleHomes\"b1\"nlRerunLatencyInMs\"b1\"voiceIdClassification\"b1}"
++ "{?=\"numTotalEdit\"b1}"
++ "{?=\"speechProfileCategory\"b1}"
++ "{?=\"totalSizeInTokens\"b1\"estimatedSizeInTokens\"b1}"
++ "{?=\"totalToolCount\"b1}"
++ "{?=\"transcriptShownReason\"b1}"
++ "{?=\"ttsVolume\"b1\"speakerDistance\"b1\"speakerSpeechLevel\"b1\"musicLoudnessLevel\"b1\"backgroundNoiseLevel\"b1\"backgroundNoiseActivityLevel\"b1\"isMediaPlaybackOn\"b1\"invocationType\"b1\"isPermanentOffsetEnabled\"b1\"permanentOffsetFactor\"b1}"
++ "{?=\"userIntentType\"b1\"userIntentVolume\"b1\"isPermanentOffsetEnabled\"b1\"permanentOffsetFactor\"b1}"
++ "{?=\"utteranceRestatementScore\"b1\"semanticSimilarityScore\"b1\"isCrossDevice\"b1}"
+- "\x0f\x0f\x0e"
+- "\x0f\x0f\x0f\x0f\x02"
+- "\x0f\x0f\x0f\x0f\x0f\x01"
+- "\x11\x11\x11\x11"
+- "{?=\"audioOutputRoute\"b1\"customerPerceivedLatencyInSecond\"b1\"synthesisSource\"b1\"synthesisEffect\"b1\"volume\"b1\"thermalState\"b1\"assetSelectionLatencyInSecond\"b1}"
+- "{?=\"decodeDurationInNs\"b1}"
+- "{?=\"eventTimestampInMsSince1970\"b1\"userAggregationIdRotationTimestampMs\"b1\"userAggregationIdExpirationTimestampMs\"b1\"eventOrigin\"b1}"
+- "{?=\"isAppFocused\"b1\"isMediaRichAppFocused\"b1\"isMediaFocused\"b1}"
+- "{?=\"isMultiUser\"b1\"nlRerunTimeInMs\"b1\"ORCHUserIdentityClassification\"b1\"isOutsider\"b1\"isSelectedUserPartOfMultipleHomes\"b1\"nlRerunLatencyInMs\"b1}"
+- "{?=\"utteranceRestatementScore\"b1\"semanticSimilarityScore\"b1}"
+
+```

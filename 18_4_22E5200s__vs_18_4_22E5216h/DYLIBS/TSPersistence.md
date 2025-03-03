@@ -1,0 +1,87 @@
+## TSPersistence
+
+> `/System/Library/PrivateFrameworks/iWorkImport.framework/Frameworks/TSPersistence.framework/TSPersistence`
+
+```diff
+
+-480.2.0.0.0
+-  __TEXT.__text: 0x247204
++481.0.0.0.0
++  __TEXT.__text: 0x2477e4
+   __TEXT.__auth_stubs: 0x1660
+   __TEXT.__init_offsets: 0x14
+-  __TEXT.__objc_methlist: 0xce80
+-  __TEXT.__gcc_except_tab: 0x284c8
++  __TEXT.__objc_methlist: 0xcec0
++  __TEXT.__gcc_except_tab: 0x28580
+   __TEXT.__const: 0xaa40
+-  __TEXT.__cstring: 0x2c266
++  __TEXT.__cstring: 0x2c456
+   __TEXT.__swift5_typeref: 0x85
+   __TEXT.__constg_swiftt: 0x14c
+   __TEXT.__swift5_reflstr: 0x2d
+   __TEXT.__swift5_fieldmd: 0xa8
+   __TEXT.__swift5_proto: 0x10
+   __TEXT.__swift5_types: 0x18
+-  __TEXT.__unwind_info: 0xfc88
++  __TEXT.__unwind_info: 0xfcc0
+   __TEXT.__eh_frame: 0x80
+   __TEXT.__objc_classname: 0x238b
+-  __TEXT.__objc_methname: 0x1c820
+-  __TEXT.__objc_methtype: 0x16abe
+-  __TEXT.__objc_stubs: 0x117e0
++  __TEXT.__objc_methname: 0x1c8eb
++  __TEXT.__objc_methtype: 0x16acf
++  __TEXT.__objc_stubs: 0x11800
+   __DATA_CONST.__got: 0x700
+-  __DATA_CONST.__const: 0x5520
++  __DATA_CONST.__const: 0x5550
+   __DATA_CONST.__objc_classlist: 0x750
+   __DATA_CONST.__objc_catlist: 0xb8
+   __DATA_CONST.__objc_protolist: 0x2a8
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x5550
++  __DATA_CONST.__objc_selrefs: 0x5578
+   __DATA_CONST.__objc_protorefs: 0x68
+   __DATA_CONST.__objc_superrefs: 0x650
+   __DATA_CONST.__objc_arraydata: 0x130
+   __AUTH_CONST.__auth_got: 0xb48
+   __AUTH_CONST.__auth_ptr: 0x68
+   __AUTH_CONST.__const: 0xaa40
+-  __AUTH_CONST.__cfstring: 0x4020
+-  __AUTH_CONST.__objc_const: 0x17cc8
++  __AUTH_CONST.__cfstring: 0x4080
++  __AUTH_CONST.__objc_const: 0x17ce8
+   __AUTH_CONST.__objc_arrayobj: 0x2d0
+   __AUTH_CONST.__objc_intobj: 0x18
+   __AUTH_CONST.__objc_dictobj: 0x28
+
+   - /usr/lib/swift/libswiftsimd.dylib
+   - /usr/lib/swift/libswiftsys_time.dylib
+   - /usr/lib/swift/libswiftunistd.dylib
+-  Functions: 12570
+-  Symbols:   5092
+-  CStrings:  8519
++  Functions: 12576
++  Symbols:   5093
++  CStrings:  8533
+ 
+Symbols:
++ _TSPVersionG14_4
+CStrings:
++ "Asked to unarchive a curveto element with the wrong number of elements (%u). Dropping the point."
++ "Asked to unarchive a lineTo element with the wrong number of elements (%u). Dropping the point."
++ "Asked to unarchive a moveTo element with the wrong number of elements (%u). Dropping the point."
++ "Asked to unarchive a quadCurve element with the wrong number of elements (%u). Dropping the point."
++ "B28@0:8B16B20B24"
++ "CGPathRef TSPCGPathCreateFromMessage(const TSP::Path &)"
++ "Dynamic Array Formulas"
++ "TSTArrayFormulas"
++ "clearIsNotClean"
++ "dictionaryWithDictionary:"
++ "hasExternalReferenceOrMissingOrUnmaterializedRemoteData"
++ "hasIncompleteDataIncludeUnmaterialized:includeMissing:includeExternalReference:"
++ "isNotClean"
++ "unsafeDocumentProperties"
+
+```

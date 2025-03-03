@@ -1,0 +1,244 @@
+## PhoneSnippetUI
+
+> `/System/Library/PrivateFrameworks/PhoneSnippetUI.framework/PhoneSnippetUI`
+
+```diff
+
+-3404.51.1.0.0
+-  __TEXT.__text: 0x77904
+-  __TEXT.__auth_stubs: 0x20c0
+-  __TEXT.__const: 0x59f6
+-  __TEXT.__cstring: 0xf55
+-  __TEXT.__swift5_typeref: 0x5f96
+-  __TEXT.__swift5_capture: 0x648
+-  __TEXT.__swift5_reflstr: 0x162c
+-  __TEXT.__swift5_assocty: 0x408
+-  __TEXT.__constg_swiftt: 0x1904
+-  __TEXT.__swift5_fieldmd: 0x1b6c
++3404.57.1.0.0
++  __TEXT.__text: 0x79f6c
++  __TEXT.__auth_stubs: 0x2150
++  __TEXT.__const: 0x5be6
++  __TEXT.__cstring: 0xf65
++  __TEXT.__swift5_typeref: 0x5ada
++  __TEXT.__swift5_capture: 0x690
++  __TEXT.__swift5_reflstr: 0x160c
++  __TEXT.__swift5_assocty: 0x438
++  __TEXT.__constg_swiftt: 0x1a98
++  __TEXT.__swift5_fieldmd: 0x1b98
+   __TEXT.__swift5_builtin: 0x28
+-  __TEXT.__oslogstring: 0xd85
+-  __TEXT.__swift5_proto: 0x50c
+-  __TEXT.__swift5_types: 0x19c
++  __TEXT.__oslogstring: 0xdc5
++  __TEXT.__swift5_proto: 0x514
++  __TEXT.__swift5_types: 0x1a4
+   __TEXT.__swift5_protos: 0x18
+   __TEXT.__swift5_mpenum: 0x14
+-  __TEXT.__unwind_info: 0x2280
++  __TEXT.__unwind_info: 0x22d0
+   __TEXT.__eh_frame: 0xe38
+   __TEXT.__objc_methname: 0x19f
+-  __DATA_CONST.__got: 0x6f0
+-  __DATA_CONST.__const: 0x868
++  __DATA_CONST.__got: 0x720
++  __DATA_CONST.__const: 0x878
+   __DATA_CONST.__objc_classlist: 0x8
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_selrefs: 0xd0
+-  __AUTH_CONST.__auth_got: 0x1060
+-  __AUTH_CONST.__auth_ptr: 0xa18
+-  __AUTH_CONST.__const: 0x3488
+-  __AUTH_CONST.__objc_const: 0x330
++  __AUTH_CONST.__auth_got: 0x10a8
++  __AUTH_CONST.__auth_ptr: 0xa20
++  __AUTH_CONST.__const: 0x3600
++  __AUTH_CONST.__objc_const: 0x350
+   __AUTH.__objc_data: 0x50
+-  __AUTH.__data: 0x1a30
+-  __DATA.__data: 0x1f50
+-  __DATA.__bss: 0xa100
++  __AUTH.__data: 0x1a60
++  __DATA.__data: 0x1fb0
++  __DATA.__bss: 0xa210
+   __DATA.__common: 0xe8
+   - /System/Library/Frameworks/Combine.framework/Combine
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+
+   - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
++  - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswift_errno.dylib
+   - /usr/lib/swift/libswift_math.dylib
+   - /usr/lib/swift/libswift_signal.dylib
+
+   - /usr/lib/swift/libswiftsimd.dylib
+   - /usr/lib/swift/libswiftsys_time.dylib
+   - /usr/lib/swift/libswiftunistd.dylib
+-  Functions: 3215
+-  Symbols:   5288
+-  CStrings:  234
++  Functions: 3246
++  Symbols:   5333
++  CStrings:  236
+ 
+Symbols:
++ _$s14PhoneSnippetUI0A14ComponentStackV4bodyQrvg
++ _$s14PhoneSnippetUI0A14ComponentStackV4bodyQrvpMV
++ _$s14PhoneSnippetUI0A14ComponentStackV4bodyQrvpQOMQ
++ _$s14PhoneSnippetUI0A14ComponentStackV7contentACyxGxyc_tcfC
++ _$s14PhoneSnippetUI0A14ComponentStackV7contentxycvg
++ _$s14PhoneSnippetUI0A14ComponentStackV7contentxycvpMV
++ _$s14PhoneSnippetUI0A14ComponentStackV8_context33_C9CA534971DE516806D5702B24C33788LL05SwiftC017EnvironmentObjectVy0bC07ContextCGvpfi
++ _$s14PhoneSnippetUI0A14ComponentStackVMa
++ _$s14PhoneSnippetUI0A14ComponentStackVMn
++ _$s14PhoneSnippetUI0A14ComponentStackVyxG05SwiftC04ViewAAMc
++ _$s14PhoneSnippetUI0A32CountdownButtonStyleViewModifierV05SwiftC00gH0AAMc
++ _$s14PhoneSnippetUI0A32CountdownButtonStyleViewModifierV4body7contentQr05SwiftC001_gH8_ContentVyACG_tF
++ _$s14PhoneSnippetUI0A32CountdownButtonStyleViewModifierV4body7contentQr05SwiftC001_gH8_ContentVyACG_tFQOMQ
++ _$s14PhoneSnippetUI0A32CountdownButtonStyleViewModifierV8_context33_ED95F6B6B2D3423B4B0D8D564A0FF87ELL05SwiftC017EnvironmentObjectVy0bC07ContextCGvpfi
++ _$s14PhoneSnippetUI0A32CountdownButtonStyleViewModifierVACycfC
++ _$s14PhoneSnippetUI0A32CountdownButtonStyleViewModifierVMa
++ _$s14PhoneSnippetUI0A32CountdownButtonStyleViewModifierVMn
++ _$s14PhoneSnippetUI0A32CountdownButtonStyleViewModifierVN
++ _$s14PhoneSnippetUI27EmergencyCountdownViewModelC14disableButtonsSbvM
++ _$s14PhoneSnippetUI27EmergencyCountdownViewModelC14disableButtonsSbvMTq
++ _$s14PhoneSnippetUI27EmergencyCountdownViewModelC14disableButtonsSbvg
++ _$s14PhoneSnippetUI27EmergencyCountdownViewModelC14disableButtonsSbvgTq
++ _$s14PhoneSnippetUI27EmergencyCountdownViewModelC14disableButtonsSbvpMV
++ _$s14PhoneSnippetUI27EmergencyCountdownViewModelC14disableButtonsSbvpfP
++ _$s14PhoneSnippetUI27EmergencyCountdownViewModelC14disableButtonsSbvs
++ _$s14PhoneSnippetUI27EmergencyCountdownViewModelC14disableButtonsSbvsTq
++ _$s14PhoneSnippetUI27EmergencyCountdownViewModelC15$disableButtons7Combine9PublishedV9PublisherVySb_GvM
++ _$s14PhoneSnippetUI27EmergencyCountdownViewModelC15$disableButtons7Combine9PublishedV9PublisherVySb_GvMTq
++ _$s14PhoneSnippetUI27EmergencyCountdownViewModelC15$disableButtons7Combine9PublishedV9PublisherVySb_Gvg
++ _$s14PhoneSnippetUI27EmergencyCountdownViewModelC15$disableButtons7Combine9PublishedV9PublisherVySb_GvgTq
++ _$s14PhoneSnippetUI27EmergencyCountdownViewModelC15$disableButtons7Combine9PublishedV9PublisherVySb_GvpMV
++ _$s14PhoneSnippetUI27EmergencyCountdownViewModelC15$disableButtons7Combine9PublishedV9PublisherVySb_Gvs
++ _$s14PhoneSnippetUI27EmergencyCountdownViewModelC15$disableButtons7Combine9PublishedV9PublisherVySb_GvsTq
++ _$s14PhoneSnippetUI27EmergencyCountdownViewModelC15_disableButtons33_C7669CA20219013364605B6C26FF3F9DLL7Combine9PublishedVySbGvpfi
++ _$s14PhoneSnippetUI29SlidingEmergencyCountdownViewV05SwiftC00G0AAMc
++ _$s14PhoneSnippetUI29SlidingEmergencyCountdownViewV14_actionHandler33_ED95F6B6B2D3423B4B0D8D564A0FF87ELL0bC006ActionI0Vvpfi
++ _$s14PhoneSnippetUI29SlidingEmergencyCountdownViewV4bodyQrvg
++ _$s14PhoneSnippetUI29SlidingEmergencyCountdownViewV4bodyQrvpMV
++ _$s14PhoneSnippetUI29SlidingEmergencyCountdownViewV4bodyQrvpQOMQ
++ _$s14PhoneSnippetUI29SlidingEmergencyCountdownViewV5modelAcA0efG5ModelC_tcfC
++ _$s14PhoneSnippetUI29SlidingEmergencyCountdownViewV8_context33_ED95F6B6B2D3423B4B0D8D564A0FF87ELL05SwiftC017EnvironmentObjectVy0bC07ContextCGvpfi
++ _$s14PhoneSnippetUI29SlidingEmergencyCountdownViewV9viewModel33_ED95F6B6B2D3423B4B0D8D564A0FF87ELLAA0efgI0CvpfP
++ _$s14PhoneSnippetUI29SlidingEmergencyCountdownViewVMa
++ _$s14PhoneSnippetUI29SlidingEmergencyCountdownViewVMn
++ _$s14PhoneSnippetUI29SlidingEmergencyCountdownViewVN
++ _$s7SwiftUI16_OverlayModifierVMn
++ _$s7SwiftUI16_OverlayModifierVyxGAA04ViewD0AAMc
++ _$s7SwiftUI17EnvironmentValuesV9isEnabledSbvg
++ _$s7SwiftUI17EnvironmentValuesV9isEnabledSbvpMV
++ _$s7SwiftUI17EnvironmentValuesV9isEnabledSbvs
++ _$s7SwiftUI19_ConditionalContentV7StorageOMa
++ _$s7SwiftUI19_ConditionalContentVMa
++ _$s7SwiftUI32_EnvironmentKeyTransformModifierVMn
++ _$s7SwiftUI32_EnvironmentKeyTransformModifierVyxGAA04ViewF0AAMc
++ _$s7SwiftUI4ViewP012PhoneSnippetB0E18emergencyCountdown5modelQrAD09EmergencygC5ModelC_tF
++ _$s7SwiftUI4ViewP012PhoneSnippetB0E18emergencyCountdown5modelQrAD09EmergencygC5ModelC_tFQOMQ
++ _$s7SwiftUI4ViewP012PhoneSnippetB0E24emergencyCountdownButtonQryF
++ _$s7SwiftUI4ViewP012PhoneSnippetB0E24emergencyCountdownButtonQryFQOMQ
++ _$s7SwiftUI6VStackVMa
++ _$s7SwiftUI7BindingV3get3setACyxGxyc_yx_AA11TransactionVtctcfC
++ _$s7SwiftUI7BindingVMn
++ _$s9SnippetUI14ComponentStackVMa
++ _$s9SnippetUI16BinaryButtonViewV07primaryD009secondaryD015statusIndicator0H5State8durationAcA03AnyE11Convertible_p_AaI_pAaI_pSg05SwiftB07BindingVyAC010TransitionJ0OGSdtcfC
++ _$s9SnippetUI16BinaryButtonViewV15TransitionStateO11showButtonsyA2EmFWC
++ _$s9SnippetUI16BinaryButtonViewV15TransitionStateO32showStatusIndicatorFromSecondaryyA2EmFWC
++ _$s9SnippetUI16BinaryButtonViewV15TransitionStateOMa
++ _$s9SnippetUI16BinaryButtonViewV15TransitionStateOMn
++ _$sScM6sharedScMvgZ
++ _$sScMMa
++ _$sScMScAsWP
++ _objc_release_x26
++ _objc_release_x28
++ _swift_cvw_allocateGenericValueMetadataWithLayoutString
++ _swift_cvw_assignWithCopy
++ _swift_cvw_assignWithTake
++ _swift_cvw_destroy
++ _swift_cvw_enumFn_getEnumTag
++ _swift_cvw_initEnumMetadataMultiPayloadWithLayoutString
++ _swift_cvw_initStructMetadataWithLayoutString
++ _swift_cvw_initWithCopy
++ _swift_cvw_initWithTake
++ _swift_cvw_initializeBufferWithCopyOfBuffer
++ _swift_cvw_instantiateLayoutString
++ _swift_cvw_multiPayloadEnumGeneric_destructiveInjectEnumTag
++ _swift_cvw_multiPayloadEnumGeneric_getEnumTag
+- _$s14PhoneSnippetUI20CountdownButtonStyleV04showD0SbvM
+- _$s14PhoneSnippetUI20CountdownButtonStyleV04showD0Sbvg
+- _$s14PhoneSnippetUI20CountdownButtonStyleV04showD0SbvpMV
+- _$s14PhoneSnippetUI20CountdownButtonStyleV04showD0Sbvs
+- _$s14PhoneSnippetUI20CountdownButtonStyleV05SwiftC00eF0AAMc
+- _$s14PhoneSnippetUI20CountdownButtonStyleV10_isSliding33_225E486290B1D7B3E81071034D180674LL05SwiftC05StateVySbGvpfi
+- _$s14PhoneSnippetUI20CountdownButtonStyleV11isAnimating33_225E486290B1D7B3E81071034D180674LLSbvpfP
+- _$s14PhoneSnippetUI20CountdownButtonStyleV12_isAnimating33_225E486290B1D7B3E81071034D180674LL05SwiftC05StateVySbGvpfi
+- _$s14PhoneSnippetUI20CountdownButtonStyleV12buttonHeightSdvg
+- _$s14PhoneSnippetUI20CountdownButtonStyleV12buttonHeightSdvpMV
+- _$s14PhoneSnippetUI20CountdownButtonStyleV12buttonHeightSdvpfP
+- _$s14PhoneSnippetUI20CountdownButtonStyleV13_buttonHeight33_225E486290B1D7B3E81071034D180674LL05SwiftC012ScaledMetricVySdGvpfi
+- _$s14PhoneSnippetUI20CountdownButtonStyleV13actionHandler0bC0014StandardActionH0VSgvg
+- _$s14PhoneSnippetUI20CountdownButtonStyleV13actionHandler0bC0014StandardActionH0VSgvpMV
+- _$s14PhoneSnippetUI20CountdownButtonStyleV13fastAnimation33_225E486290B1D7B3E81071034D180674LL05SwiftC00H0Vvpfi
+- _$s14PhoneSnippetUI20CountdownButtonStyleV21sosTrailingMaxPadding33_225E486290B1D7B3E81071034D180674LL12CoreGraphics7CGFloatVvpfi
+- _$s14PhoneSnippetUI20CountdownButtonStyleV5model13actionHandler04showD012buttonHeightAcA09EmergencyD9ViewModelC_0bC0014StandardActionI0VSgSbSdtcfC
+- _$s14PhoneSnippetUI20CountdownButtonStyleV5model13actionHandler04showD012buttonHeightAcA09EmergencyD9ViewModelC_0bC0014StandardActionI0VSgSbSdtcfcfA2_
+- _$s14PhoneSnippetUI20CountdownButtonStyleV5modelAA09EmergencyD9ViewModelCvM
+- _$s14PhoneSnippetUI20CountdownButtonStyleV5modelAA09EmergencyD9ViewModelCvg
+- _$s14PhoneSnippetUI20CountdownButtonStyleV5modelAA09EmergencyD9ViewModelCvpMV
+- _$s14PhoneSnippetUI20CountdownButtonStyleV5modelAA09EmergencyD9ViewModelCvpfP
+- _$s14PhoneSnippetUI20CountdownButtonStyleV5modelAA09EmergencyD9ViewModelCvs
+- _$s14PhoneSnippetUI20CountdownButtonStyleV6$model05SwiftC014ObservedObjectV7WrapperVyAA09EmergencyD9ViewModelC_Gvg
+- _$s14PhoneSnippetUI20CountdownButtonStyleV6$model05SwiftC014ObservedObjectV7WrapperVyAA09EmergencyD9ViewModelC_GvpMV
+- _$s14PhoneSnippetUI20CountdownButtonStyleV8_context33_225E486290B1D7B3E81071034D180674LL05SwiftC017EnvironmentObjectVy0bC07ContextCGvpfi
+- _$s14PhoneSnippetUI20CountdownButtonStyleV8makeBody13configurationQr05SwiftC00eF13ConfigurationV_tF
+- _$s14PhoneSnippetUI20CountdownButtonStyleV8makeBody13configurationQr05SwiftC00eF13ConfigurationV_tFQOMQ
+- _$s14PhoneSnippetUI20CountdownButtonStyleV9animation33_225E486290B1D7B3E81071034D180674LL05SwiftC09AnimationVvpfi
+- _$s14PhoneSnippetUI20CountdownButtonStyleV9isSliding33_225E486290B1D7B3E81071034D180674LLSbvpfP
+- _$s14PhoneSnippetUI20CountdownButtonStyleVMa
+- _$s14PhoneSnippetUI20CountdownButtonStyleVMn
+- _$s14PhoneSnippetUI20CountdownButtonStyleVN
+- _$s14PhoneSnippetUI23SmartEmergencyCountdownV05SwiftC04ViewAAMc
+- _$s14PhoneSnippetUI23SmartEmergencyCountdownV14_actionHandler33_768BA003F034E43DF08F475591A5300CLL0bC006ActionH0Vvpfi
+- _$s14PhoneSnippetUI23SmartEmergencyCountdownV4bodyQrvg
+- _$s14PhoneSnippetUI23SmartEmergencyCountdownV4bodyQrvpMV
+- _$s14PhoneSnippetUI23SmartEmergencyCountdownV4bodyQrvpQOMQ
+- _$s14PhoneSnippetUI23SmartEmergencyCountdownV5modelAcA0eF9ViewModelC_tcfC
+- _$s14PhoneSnippetUI23SmartEmergencyCountdownV8_context33_768BA003F034E43DF08F475591A5300CLL05SwiftC017EnvironmentObjectVy0bC07ContextCGvpfi
+- _$s14PhoneSnippetUI23SmartEmergencyCountdownV9viewModel33_768BA003F034E43DF08F475591A5300CLLAA0ef4ViewH0CvpfP
+- _$s14PhoneSnippetUI23SmartEmergencyCountdownVMa
+- _$s14PhoneSnippetUI23SmartEmergencyCountdownVMn
+- _$s14PhoneSnippetUI23SmartEmergencyCountdownVN
+- _$s4Body7SwiftUI11ButtonStylePTl
+- _$s7SwiftUI11ButtonStyleMp
+- _$s7SwiftUI11ButtonStyleP4BodyAC_AA4ViewTn
+- _$s7SwiftUI11ButtonStyleP8makeBody13configuration0F0QzAA0cD13ConfigurationV_tFTq
+- _$s7SwiftUI24ButtonStyleConfigurationV5LabelVMa
+- _$s7SwiftUI24ButtonStyleConfigurationV5LabelVMn
+- _$s7SwiftUI24ButtonStyleConfigurationV5labelAC5LabelVvg
+- _$s7SwiftUI24ButtonStyleConfigurationV9isPressedSbvg
+- _$s7SwiftUI24ButtonStyleConfigurationVMa
+- _$s7SwiftUI24ButtonStyleConfigurationVMn
+- _$s7SwiftUI4FontV9TextStyleO6title3yA2EmFWC
+- _$s7SwiftUI8MaterialV9ultraThinACvgZ
+- _swift_allocateGenericValueMetadataWithLayoutString
+- _swift_enumFn_getEnumTag
+- _swift_generic_assignWithCopy
+- _swift_generic_assignWithTake
+- _swift_generic_destroy
+- _swift_generic_initWithCopy
+- _swift_generic_initWithTake
+- _swift_generic_initializeBufferWithCopyOfBuffer
+- _swift_initEnumMetadataMultiPayloadWithLayoutString
+- _swift_initStructMetadataWithLayoutString
+- _swift_multiPayloadEnumGeneric_destructiveInjectEnumTag
+- _swift_multiPayloadEnumGeneric_getEnumTag
+CStrings:
++ "#CountdownOverlay executing call action from tap on slider"
++ "_disableButtons"
+
+```

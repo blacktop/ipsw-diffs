@@ -1,0 +1,556 @@
+## libSecureMAHelper.dylib
+
+> `/usr/lib/libSecureMAHelper.dylib`
+
+```diff
+
+-1487.100.54.502.2
+-  __TEXT.__text: 0x1551c
+-  __TEXT.__auth_stubs: 0xa90
++1487.100.93.502.2
++  __TEXT.__text: 0xf418
++  __TEXT.__auth_stubs: 0x9d0
+   __TEXT.__objc_methlist: 0x448
+-  __TEXT.__const: 0x697f
+-  __TEXT.__cstring: 0x1f88
++  __TEXT.__const: 0x100
++  __TEXT.__cstring: 0x201f
+   __TEXT.__oslogstring: 0x1829
+   __TEXT.__gcc_except_tab: 0x6a8
+-  __TEXT.__unwind_info: 0x4b0
++  __TEXT.__unwind_info: 0x2c8
+   __TEXT.__objc_classname: 0x44
+   __TEXT.__objc_methname: 0xec0
+   __TEXT.__objc_methtype: 0x166
+   __TEXT.__objc_stubs: 0x1240
+-  __DATA_CONST.__got: 0x1c0
+-  __DATA_CONST.__const: 0xe70
++  __DATA_CONST.__got: 0x1b8
++  __DATA_CONST.__const: 0x350
+   __DATA_CONST.__objc_classlist: 0x18
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_selrefs: 0x518
+   __DATA_CONST.__objc_superrefs: 0x18
+   __DATA_CONST.__objc_arraydata: 0x18
+-  __AUTH_CONST.__auth_got: 0x558
+-  __AUTH_CONST.__auth_ptr: 0x30
+-  __AUTH_CONST.__const: 0x628
+-  __AUTH_CONST.__cfstring: 0x2400
++  __AUTH_CONST.__auth_got: 0x4f8
++  __AUTH_CONST.__auth_ptr: 0x20
++  __AUTH_CONST.__const: 0x120
++  __AUTH_CONST.__cfstring: 0x2480
+   __AUTH_CONST.__objc_const: 0x498
+   __AUTH_CONST.__objc_intobj: 0x60
+   __AUTH_CONST.__objc_arrayobj: 0x18
+   __AUTH.__objc_data: 0xf0
+   __DATA.__objc_ivar: 0x24
+-  __DATA.__data: 0x28
+   __DATA.__bss: 0x90
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+
+   - /System/Library/PrivateFrameworks/SoftwareUpdateCoreSupport.framework/SoftwareUpdateCoreSupport
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
++  - /usr/lib/libamsupport.dylib
+   - /usr/lib/libauthinstall.dylib
+   - /usr/lib/libimage4.dylib
+   - /usr/lib/libobjc.A.dylib
+-  Functions: 345
+-  Symbols:   979
+-  CStrings:  651
++  Functions: 164
++  Symbols:   464
++  CStrings:  655
+ 
+Symbols:
++ _kMobileAssetPreferencesAutoAssetStagerDetermineLastRequiredTimesOut
++ _kMobileAssetPreferencesAutoAssetSuspendResumeEnabled
++ _kMobileAssetPreferencesAutoAssetSuspendResumeForSUSetsOverride
++ _kMobileAssetPreferencesThirdPartyStagingPathComponent
+- _CCRSA_PKCS1_FAULT_CANARY
+- _DERAccessDescriptionItemSpecs
+- _DERAlgorithmIdItemSpecs
+- _DERAttributeTypeAndValueItemSpecs
+- _DERAuthorityKeyIdentifierItemSpecs
+- _DERBasicConstraintsItemSpecs
+- _DERCRTPSequenceItemSpecs
+- _DERDecodeItem
+- _DERDecodeItemPartialBuffer
+- _DERDecodeItemPartialBufferGetLength
+- _DERDecodeSeqContentInit
+- _DERDecodeSeqInit
+- _DERDecodeSeqNext
+- _DERDecodeSequenceContentWithBlock
+- _DERDecodeSequenceWithBlock
+- _DERDistributionPointItemSpecs
+- _DERExtensionItemSpecs
+- _DERGeneralSubtreeItemSpecs
+- _DERIM4CItemSpecs
+- _DERImg4CertificateItemSpecs
+- _DERImg4CompressionItemSpecs
+- _DERImg4Decode
+- _DERImg4DecodeCertificate
+- _DERImg4DecodeCertificatePropertiesAndPubKey
+- _DERImg4DecodeContentFindItemWithTag
+- _DERImg4DecodeFindInSequence
+- _DERImg4DecodeFindProperty
+- _DERImg4DecodeFindPropertyInSequence
+- _DERImg4DecodeManifest
+- _DERImg4DecodeParseCertificateProperties
+- _DERImg4DecodeParseManifestProperties
+- _DERImg4DecodePayload
+- _DERImg4DecodePayloadCompression
+- _DERImg4DecodePayloadProperties
+- _DERImg4DecodePayloadWithProperties
+- _DERImg4DecodeProperty
+- _DERImg4DecodePropertyWithItem
+- _DERImg4DecodeRestoreInfo
+- _DERImg4DecodeTagCompare
+- _DERImg4DecodeUnsignedCertificate
+- _DERImg4DecodeUnsignedManifest
+- _DERImg4ItemSpecs
+- _DERImg4ManifestItemSpecs
+- _DERImg4PayloadItemSpecs
+- _DERImg4PayloadPropertiesItemSpecs
+- _DERImg4PayloadWithPropertiesItemSpecs
+- _DERImg4RestoreInfoItemSpecs
+- _DERImg4UnsignedManifestItemSpecs
+- _DERNameConstraintsItemSpecs
+- _DERNoticeReferenceItemSpecs
+- _DERNumAccessDescriptionItemSpecs
+- _DERNumAlgorithmIdItemSpecs
+- _DERNumAttributeTypeAndValueItemSpecs
+- _DERNumAuthorityKeyIdentifierItemSpecs
+- _DERNumBasicConstraintsItemSpecs
+- _DERNumCRTPSequenceItemSpecs
+- _DERNumDistributionPointItemSpecs
+- _DERNumExtensionItemSpecs
+- _DERNumGeneralSubtreeItemSpecs
+- _DERNumIM4CItemSpecs
+- _DERNumImg4CertificateItemSpecs
+- _DERNumImg4CompressionItemSpecs
+- _DERNumImg4ItemSpecs
+- _DERNumImg4ManifestItemSpecs
+- _DERNumImg4PayloadItemSpecs
+- _DERNumImg4PayloadPropertiesItemSpecs
+- _DERNumImg4PayloadWithPropertiesItemSpecs
+- _DERNumImg4RestoreInfoItemSpecs
+- _DERNumImg4UnsignedManifestItemSpecs
+- _DERNumNameConstraintsItemSpecs
+- _DERNumNoticeReferenceItemSpecs
+- _DERNumOtherNameItemSpecs
+- _DERNumPolicyConstraintsItemSpecs
+- _DERNumPolicyInformationItemSpecs
+- _DERNumPolicyMappingItemSpecs
+- _DERNumPolicyQualifierInfoItemSpecs
+- _DERNumPrivateKeyUsagePeriodItemSpecs
+- _DERNumRSAKeyPairItemSpecs
+- _DERNumRSAPrivKeyCRTItemSpecs
+- _DERNumRSAPubKeyAppleItemSpecs
+- _DERNumRSAPubKeyPKCS1ItemSpecs
+- _DERNumRevokedCertItemSpecs
+- _DERNumSignedCertCrlItemSpecs
+- _DERNumSubjPubKeyInfoItemSpecs
+- _DERNumTBSCertItemSpecs
+- _DERNumTBSCrlItemSpecs
+- _DERNumUserNoticeItemSpecs
+- _DERNumValidityItemSpecs
+- _DEROidCompare
+- _DEROtherNameItemSpecs
+- _DERParseBitString
+- _DERParseBoolean
+- _DERParseBooleanWithDefault
+- _DERParseInteger
+- _DERParseInteger64
+- _DERParseSequence
+- _DERParseSequenceContent
+- _DERParseSequenceContentToObject
+- _DERParseSequenceToObject
+- _DERPolicyConstraintsItemSpecs
+- _DERPolicyInformationItemSpecs
+- _DERPolicyMappingItemSpecs
+- _DERPolicyQualifierInfoItemSpecs
+- _DERPrivateKeyUsagePeriodItemSpecs
+- _DERRSAKeyPairItemSpecs
+- _DERRSAPrivKeyCRTItemSpecs
+- _DERRSAPubKeyAppleItemSpecs
+- _DERRSAPubKeyPKCS1ItemSpecs
+- _DERRevokedCertItemSpecs
+- _DERSignedCertCrlItemSpecs
+- _DERSubjPubKeyInfoItemSpecs
+- _DERTBSCertItemSpecs
+- _DERTBSCrlItemSpecs
+- _DERUserNoticeItemSpecs
+- _DERValidityItemSpecs
+- _EC384_SHA384_LP_ROOT_CA_CERTIFICATE
+- _EC384_SHA384_LP_ROOT_CA_CERTIFICATE_SIZE
+- _Img4DecodeComputeDigest
+- _Img4DecodeCopyManifestDigest
+- _Img4DecodeCopyManifestHash
+- _Img4DecodeCopyManifestHashWithCallback
+- _Img4DecodeCopyManifestTrustedBootPolicyMeasurement
+- _Img4DecodeCopyPayloadDigest
+- _Img4DecodeCopyPayloadHash
+- _Img4DecodeCopyPayloadHashWithCallback
+- _Img4DecodeCopyPayloadPropertiesDigest
+- _Img4DecodeDigestFinal
+- _Img4DecodeDigestInit
+- _Img4DecodeDigestReturnHash
+- _Img4DecodeDigestUpdate
+- _Img4DecodeEvaluateCertificateChain
+- _Img4DecodeEvaluateCertificateProperties
+- _Img4DecodeEvaluateDictionaryProperties
+- _Img4DecodeEvaluateManifestProperties
+- _Img4DecodeEvaluateObjectProperties
+- _Img4DecodeEvaluateTrust
+- _Img4DecodeEvaluateTrustWithCallbacks
+- _Img4DecodeGetBooleanFromSection
+- _Img4DecodeGetDataFromSection
+- _Img4DecodeGetInteger64FromSection
+- _Img4DecodeGetIntegerFromSection
+- _Img4DecodeGetObjectProperty
+- _Img4DecodeGetObjectPropertyBoolean
+- _Img4DecodeGetObjectPropertyData
+- _Img4DecodeGetObjectPropertyInteger
+- _Img4DecodeGetObjectPropertyInteger64
+- _Img4DecodeGetObjectPropertyString
+- _Img4DecodeGetPayload
+- _Img4DecodeGetPayloadCompressionInfo
+- _Img4DecodeGetPayloadKeybag
+- _Img4DecodeGetPayloadProperties
+- _Img4DecodeGetPayloadPropertiesBoolean
+- _Img4DecodeGetPayloadPropertiesData
+- _Img4DecodeGetPayloadPropertiesInteger
+- _Img4DecodeGetPayloadPropertiesInteger64
+- _Img4DecodeGetPayloadType
+- _Img4DecodeGetPayloadVersion
+- _Img4DecodeGetPayloadVersionPropertyString
+- _Img4DecodeGetPropertyBoolean
+- _Img4DecodeGetPropertyData
+- _Img4DecodeGetPropertyFromSection
+- _Img4DecodeGetPropertyInteger
+- _Img4DecodeGetPropertyInteger64
+- _Img4DecodeGetRestoreInfoBoolean
+- _Img4DecodeGetRestoreInfoData
+- _Img4DecodeGetRestoreInfoInteger
+- _Img4DecodeGetRestoreInfoInteger64
+- _Img4DecodeInitCertificate
+- _Img4DecodeInitManifest
+- _Img4DecodeInitPayload
+- _Img4DecodeInitUnsignedCertificate
+- _Img4DecodeInitUnsignedManifest
+- _Img4DecodeLocalRsa4kSha384IM4C
+- _Img4DecodeManifestExists
+- _Img4DecodeParseLengthFromBuffer
+- _Img4DecodeParseLengthFromBufferWithTag
+- _Img4DecodePayloadCompressionInfoExists
+- _Img4DecodePayloadExists
+- _Img4DecodePayloadKeybagExists
+- _Img4DecodePayloadPropertiesExists
+- _Img4DecodePayloadPropertiesFindItemWithTag
+- _Img4DecodePayloadProperty
+- _Img4DecodePayloadPropertyExistsByTag
+- _Img4DecodePerformManifestTrustEvaluationWithCallbacks
+- _Img4DecodePerformTrustEvaluatation
+- _Img4DecodePerformTrustEvaluatationWithCallbacks
+- _Img4DecodePerformTrustEvaluation
+- _Img4DecodePerformTrustEvaluationWithCallbacks
+- _Img4DecodeRestoreInfoExists
+- _Img4DecodeSectionExists
+- _Img4DecodeSecureBootRsa4kSha384IM4C
+- _Img4DecodeShamRsa4kSha384IM4C
+- _Img4DecodeVerifyChainIM4C
+- _LOCAL_EC256_SHA256_ROOT_CA_CERTIFICATE
+- _LOCAL_EC256_SHA256_ROOT_CA_CERTIFICATE_SIZE
+- _LOCAL_EC384_SHA384_ROOT_CA_CERTIFICATE
+- _LOCAL_EC384_SHA384_ROOT_CA_CERTIFICATE_SIZE
+- _LOCAL_RSA4K_SHA384_LP_ROOT_CA_CERTIFICATE
+- _LOCAL_RSA4K_SHA384_LP_ROOT_CA_CERTIFICATE_SIZE
+- _QA_EC384_SHA384_ROOT_CA_CERTIFICATE
+- _QA_EC384_SHA384_ROOT_CA_CERTIFICATE_SIZE
+- _ROOT_CA_CERTIFICATE
+- _ROOT_CA_CERTIFICATE_SIZE
+- _RSA3K_SHA384_ROOT_CA_CERTIFICATE
+- _RSA3K_SHA384_ROOT_CA_CERTIFICATE_SIZE
+- _RSA4K_SHA384_AVP_ROOT_CA_CERTIFICATE
+- _RSA4K_SHA384_AVP_ROOT_CA_CERTIFICATE_SIZE
+- _RSA4K_SHA384_DDI_FAKE_GLOBAL_ROOT_CA_CERTIFICATE
+- _RSA4K_SHA384_DDI_FAKE_GLOBAL_ROOT_CA_CERTIFICATE_SIZE
+- _RSA4K_SHA384_DDI_FAKE_ROOT_CA_CERTIFICATE
+- _RSA4K_SHA384_DDI_FAKE_ROOT_CA_CERTIFICATE_SIZE
+- _RSA4K_SHA384_DDI_GLOBAL_ROOT_CA_CERTIFICATE
+- _RSA4K_SHA384_DDI_GLOBAL_ROOT_CA_CERTIFICATE_SIZE
+- _RSA4K_SHA384_DDI_ROOT_CA_CERTIFICATE
+- _RSA4K_SHA384_DDI_ROOT_CA_CERTIFICATE_SIZE
+- _RSA4K_SHA384_LP_ROOT_CA_CERTIFICATE
+- _RSA4K_SHA384_LP_ROOT_CA_CERTIFICATE_SIZE
+- _RSA4K_SHA384_PED_ROOT_CA_CERTIFICATE
+- _RSA4K_SHA384_PED_ROOT_CA_CERTIFICATE_SIZE
+- _RSA4K_SHA384_ROOT_CA_CERTIFICATE
+- _RSA4K_SHA384_ROOT_CA_CERTIFICATE_AWG1
+- _RSA4K_SHA384_ROOT_CA_CERTIFICATE_AWG1_SIZE
+- _RSA4K_SHA384_ROOT_CA_CERTIFICATE_SIZE
+- _RSA4K_SHA384_X86_ROOT_CA_CERTIFICATE
+- _RSA4K_SHA384_X86_ROOT_CA_CERTIFICATE_SIZE
+- _SecureBoot_root_rsa4k_pub
+- _SecureBoot_root_rsa4k_pub_len
+- ___chkstk_darwin
+- _cc_cmp_safe
+- _ccdigest
+- _ccdigest_init
+- _ccdigest_update
+- _ccec_get_cp
+- _ccec_import_pub
+- _ccec_keysize_is_supported
+- _ccec_verify
+- _ccec_x963_import_pub_size
+- _ccmd5_ltc_di
+- _ccrsa_make_pub
+- _ccrsa_verify_pkcs1v15
+- _ccrsa_verify_pkcs1v15_digest
+- _ccsha1_ltc_di
+- _ccsha256_ltc_di
+- _ccsha384_ltc_di
+- _ccsha512_ltc_di
+- _img4_verify_signature_with_chain
+- _kAMSupportChainValidationKeySize3k
+- _kAMSupportChainValidationKeySize4k
+- _kAMSupportDigestInfoSha1
+- _kAMSupportDigestInfoSha256
+- _kAMSupportDigestInfoSha384
+- _kAMSupportDigestInfoSha512
+- _kImg4DecodeLocalPolicyEc384Sha384
+- _kImg4DecodeLocalPolicyEc384Sha384Hacktivate
+- _kImg4DecodeLocalPolicyEc384Sha384QA
+- _kImg4DecodeLocalPolicyRsa4kSha384
+- _kImg4DecodeLocalPolicyRsa4kSha384Hacktivate
+- _kImg4DecodeLocalRsa4kSha384IM4C
+- _kImg4DecodePEDRsa4kSha384
+- _kImg4DecodeSecureBootEc192Sha256
+- _kImg4DecodeSecureBootEc256Sha256
+- _kImg4DecodeSecureBootEc384Sha384
+- _kImg4DecodeSecureBootEc521Sha512
+- _kImg4DecodeSecureBootRsa1kSha1
+- _kImg4DecodeSecureBootRsa3kSha384
+- _kImg4DecodeSecureBootRsa4kSha384
+- _kImg4DecodeSecureBootRsa4kSha384AVP
+- _kImg4DecodeSecureBootRsa4kSha384AWG1
+- _kImg4DecodeSecureBootRsa4kSha384DDI
+- _kImg4DecodeSecureBootRsa4kSha384DDIFake
+- _kImg4DecodeSecureBootRsa4kSha384DDIFakeGlobal
+- _kImg4DecodeSecureBootRsa4kSha384DDIGlobal
+- _kImg4DecodeSecureBootRsa4kSha384IM4C
+- _kImg4DecodeSecureBootRsa4kSha384X86
+- _kImg4DecodeShamRsa4kSha384IM4C
+- _md5_digest_info
+- _memcmp
+- _memcpy
+- _oidAdCAIssuer
+- _oidAdOCSP
+- _oidAnsip224r1
+- _oidAnsip384r1
+- _oidAnsip521r1
+- _oidAnyExtendedKeyUsage
+- _oidAnyPolicy
+- _oidAppleApplicationSigning
+- _oidAppleCertExtAST2DiagnosticsServerAuthProd
+- _oidAppleCertExtAST2DiagnosticsServerAuthProdQA
+- _oidAppleCertExtATVAppSigningProd
+- _oidAppleCertExtATVAppSigningProdQA
+- _oidAppleCertExtATVVPNProfileSigning
+- _oidAppleCertExtApplePPQSigningProd
+- _oidAppleCertExtApplePPQSigningProdQA
+- _oidAppleCertExtAppleSMPEncryption
+- _oidAppleCertExtAppleServerAuthentication
+- _oidAppleCertExtAppleServerAuthenticationAPNProd
+- _oidAppleCertExtAppleServerAuthenticationAPNProdQA
+- _oidAppleCertExtAppleServerAuthenticationGS
+- _oidAppleCertExtAppleServerAuthenticationIDSProd
+- _oidAppleCertExtAppleServerAuthenticationIDSProdQA
+- _oidAppleCertExtAppleServerAuthenticationMMCSProd
+- _oidAppleCertExtAppleServerAuthenticationMMCSProdQA
+- _oidAppleCertExtAppleServerAuthenticationPPQProd
+- _oidAppleCertExtAppleServerAuthenticationPPQProdQA
+- _oidAppleCertExtAppleServerAuthenticationiCloudSetupProd
+- _oidAppleCertExtAppleServerAuthenticationiCloudSetupProdQA
+- _oidAppleCertExtCryptoServicesExtEncryption
+- _oidAppleCertExtEscrowProxyServerAuthProd
+- _oidAppleCertExtEscrowProxyServerAuthProdQA
+- _oidAppleCertExtFMiPServerAuthProd
+- _oidAppleCertExtFMiPServerAuthProdQA
+- _oidAppleCertExtHomeKitServerAuth
+- _oidAppleCertExtOSXProvisioningProfileSigning
+- _oidAppleCertExtTrustCacheSigning
+- _oidAppleCertExtTrustCacheSigningTest
+- _oidAppleCertExtensionAppleIDRecordValidationSigning
+- _oidAppleExtendedKeyUsageAppleID
+- _oidAppleExtendedKeyUsageCodeSigning
+- _oidAppleExtendedKeyUsageCodeSigningDev
+- _oidAppleExtendedKeyUsagePassbook
+- _oidAppleExtendedKeyUsageProfileSigning
+- _oidAppleExtendedKeyUsageQAProfileSigning
+- _oidAppleImg4ManifestCertSpec
+- _oidAppleInstallerPackagingSigningExternal
+- _oidAppleIntmMarkerAppleHomeKitServerCA
+- _oidAppleIntmMarkerAppleID
+- _oidAppleIntmMarkerAppleID2
+- _oidAppleIntmMarkerAppleServerAuthentication
+- _oidAppleIntmMarkerAppleSystemIntg2
+- _oidAppleIntmMarkerAppleSystemIntgG3
+- _oidAppleIntmMarkerAppleWWDR
+- _oidApplePolicyEscrowService
+- _oidApplePolicyMobileStore
+- _oidApplePolicyMobileStoreProdQA
+- _oidAppleProvisioningProfile
+- _oidApplePushServiceClient
+- _oidAppleSecureBootCertSpec
+- _oidAppleSecureBootTicketCertSpec
+- _oidAppleTVOSApplicationSigningProd
+- _oidAppleTVOSApplicationSigningProdQA
+- _oidAppleXROSApplicationSigningProd
+- _oidAppleXROSApplicationSigningProdQA
+- _oidAuthorityInfoAccess
+- _oidAuthorityKeyIdentifier
+- _oidBasicConstraints
+- _oidCertificatePolicies
+- _oidCollectiveOrganizationName
+- _oidCollectiveOrganizationalUnitName
+- _oidCollectiveStateOrProvinceName
+- _oidCollectiveStreetAddress
+- _oidCommonName
+- _oidContentType
+- _oidCountryName
+- _oidCrlDistributionPoints
+- _oidDescription
+- _oidEcPrime192v1
+- _oidEcPrime256v1
+- _oidEcPubKey
+- _oidEd25519
+- _oidEd448
+- _oidEmailAddress
+- _oidEntrustVersInfo
+- _oidExtendedKeyUsage
+- _oidExtendedKeyUsageClientAuth
+- _oidExtendedKeyUsageCodeSigning
+- _oidExtendedKeyUsageEmailProtection
+- _oidExtendedKeyUsageIPSec
+- _oidExtendedKeyUsageMicrosoftSGC
+- _oidExtendedKeyUsageNetscapeSGC
+- _oidExtendedKeyUsageOCSPSigning
+- _oidExtendedKeyUsageServerAuth
+- _oidExtendedKeyUsageTimeStamping
+- _oidFee
+- _oidFriendlyName
+- _oidGoogleEmbeddedSignedCertificateTimestamp
+- _oidGoogleOCSPSignedCertificateTimestamp
+- _oidInhibitAnyPolicy
+- _oidIssuerAltName
+- _oidKeyUsage
+- _oidLocalKeyId
+- _oidLocalityName
+- _oidMSNTPrincipalName
+- _oidMd2
+- _oidMd2Rsa
+- _oidMd4
+- _oidMd4Rsa
+- _oidMd5
+- _oidMd5Fee
+- _oidMd5Rsa
+- _oidMessageDigest
+- _oidMfg1
+- _oidMicrosoftSpcIndirectDataContext
+- _oidMicrosoftSpcPEImageData
+- _oidMicrosoftSpcSpOpusInfo
+- _oidNameConstraints
+- _oidNetscapeCertType
+- _oidOCSPNoCheck
+- _oidOrganizationName
+- _oidOrganizationalUnitName
+- _oidPSSRsa
+- _oidPkcs7SignedData
+- _oidPolicyConstraints
+- _oidPolicyMappings
+- _oidPrivateKeyUsagePeriod
+- _oidQCCompliance
+- _oidQCDisclosures
+- _oidQCEuRetentionPeriod
+- _oidQCLimitValue
+- _oidQCStatements
+- _oidQCSyntaxv1
+- _oidQCSyntaxv2
+- _oidQCType
+- _oidQCTypeEseal
+- _oidQCTypeEsign
+- _oidQCTypeWeb
+- _oidQtCps
+- _oidQtUNotice
+- _oidRsa
+- _oidSHAKE256
+- _oidSemanticsIdEidasLegal
+- _oidSemanticsIdEidasNatural
+- _oidSemanticsIdLegal
+- _oidSemanticsIdNatural
+- _oidSha1
+- _oidSha1Dsa
+- _oidSha1DsaCommonOIW
+- _oidSha1DsaOIW
+- _oidSha1Ecdsa
+- _oidSha1Fee
+- _oidSha1Rsa
+- _oidSha1RsaOIW
+- _oidSha224
+- _oidSha224Ecdsa
+- _oidSha224Rsa
+- _oidSha256
+- _oidSha256Ecdsa
+- _oidSha256Rsa
+- _oidSha384
+- _oidSha384Ecdsa
+- _oidSha384Rsa
+- _oidSha512
+- _oidSha512Ecdsa
+- _oidSha512Rsa
+- _oidStateOrProvinceName
+- _oidStreetAddress
+- _oidSubjectAltName
+- _oidSubjectInfoAccess
+- _oidSubjectKeyIdentifier
+- _oidUserId
+- _oidX25519
+- _oidX448
+- _sha1_digest
+- _sha1_digest_info
+- _sha256_digest_info
+- _sha384_digest_info
+- _sha512_digest_info
+- _verify_chain_img4_avp
+- _verify_chain_img4_ddi
+- _verify_chain_img4_ddi_fake
+- _verify_chain_img4_ddi_fake_global
+- _verify_chain_img4_ddi_global
+- _verify_chain_img4_ec_v1
+- _verify_chain_img4_ecdsa256
+- _verify_chain_img4_ecdsa384
+- _verify_chain_img4_ecdsa384_hacktivate
+- _verify_chain_img4_ecdsa384_local_policy
+- _verify_chain_img4_ecdsa384_qa
+- _verify_chain_img4_tatsu_local_policy
+- _verify_chain_img4_tatsu_local_policy_hacktivate
+- _verify_chain_img4_v1
+- _verify_chain_img4_v2
+- _verify_chain_img4_v2_AWG1
+- _verify_chain_img4_v2_PED
+- _verify_chain_img4_v2_rsa3k
+- _verify_chain_img4_x86
+- _verify_signature_ecdsa
+- _verify_signature_rsa
+- _verify_signature_rsa3k
+CStrings:
++ "AutoAssetStagerDetermineLastRequiredTimesOut"
++ "AutoAssetSuspendResumeForSUEnabled"
++ "AutoAssetSuspendResumeForSUSetsOverride"
++ "ThirdPartyStagingPathComponent"
+
+```

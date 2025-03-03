@@ -1,0 +1,686 @@
+## IntelligencePlatformLibrary
+
+> `/System/Library/PrivateFrameworks/IntelligencePlatformLibrary.framework/IntelligencePlatformLibrary`
+
+```diff
+
+-100.35.1.0.0
+-  __TEXT.__text: 0x221be0
++100.42.1.0.0
++  __TEXT.__text: 0x23b94c
+   __TEXT.__auth_stubs: 0x1630
+-  __TEXT.__objc_methlist: 0x6a0c
+-  __TEXT.__const: 0x25248
++  __TEXT.__objc_methlist: 0x7b34
++  __TEXT.__const: 0x25288
+   __TEXT.__constg_swiftt: 0x55a4
+   __TEXT.__swift5_typeref: 0x4bda
+   __TEXT.__swift5_fieldmd: 0x91b8
+   __TEXT.__swift5_types: 0xa3c
+   __TEXT.__swift5_reflstr: 0x876e
+   __TEXT.__swift5_assocty: 0x1730
+-  __TEXT.__cstring: 0x2d832
++  __TEXT.__cstring: 0x30d83
+   __TEXT.__oslogstring: 0x19c
+   __TEXT.__swift5_proto: 0x2fbc
+   __TEXT.__swift5_capture: 0x1240
+   __TEXT.__swift5_protos: 0x40
+   __TEXT.__swift5_builtin: 0x398
+   __TEXT.__swift5_mpenum: 0x360
+-  __TEXT.__unwind_info: 0xca10
+-  __TEXT.__eh_frame: 0x117bc
+-  __TEXT.__objc_classname: 0x12a1
+-  __TEXT.__objc_methname: 0x68e2
+-  __TEXT.__objc_methtype: 0x7f7
+-  __TEXT.__objc_stubs: 0x33c0
+-  __DATA_CONST.__got: 0x7f0
+-  __DATA_CONST.__const: 0x17b0
+-  __DATA_CONST.__objc_classlist: 0x4e0
++  __TEXT.__unwind_info: 0xcbb0
++  __TEXT.__eh_frame: 0x117f4
++  __TEXT.__objc_classname: 0x150f
++  __TEXT.__objc_methname: 0x9064
++  __TEXT.__objc_methtype: 0xc23
++  __TEXT.__objc_stubs: 0x40c0
++  __DATA_CONST.__got: 0x860
++  __DATA_CONST.__const: 0x1e40
++  __DATA_CONST.__objc_classlist: 0x550
+   __DATA_CONST.__objc_catlist: 0x8
+   __DATA_CONST.__objc_protolist: 0x50
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x12d0
++  __DATA_CONST.__objc_selrefs: 0x1628
+   __DATA_CONST.__objc_protorefs: 0x10
+   __DATA_CONST.__objc_superrefs: 0x10
+   __AUTH_CONST.__auth_got: 0xb20
+-  __AUTH_CONST.__auth_ptr: 0x1dc8
+-  __AUTH_CONST.__const: 0x1b0c0
+-  __AUTH_CONST.__cfstring: 0x6380
+-  __AUTH_CONST.__objc_const: 0xb780
+-  __AUTH.__objc_data: 0x1940
++  __AUTH_CONST.__auth_ptr: 0x1c70
++  __AUTH_CONST.__const: 0x1b0e0
++  __AUTH_CONST.__cfstring: 0x87c0
++  __AUTH_CONST.__objc_const: 0xe4f0
++  __AUTH.__objc_data: 0x1da0
+   __AUTH.__data: 0x14b0
+-  __DATA.__objc_ivar: 0x5d4
++  __DATA.__objc_ivar: 0x8dc
+   __DATA.__data: 0x4f48
+-  __DATA.__bss: 0x306a0
+-  __DATA.__common: 0x3268
++  __DATA.__bss: 0x30690
++  __DATA.__common: 0x3260
+   __DATA_DIRTY.__objc_data: 0x1c08
+   __DATA_DIRTY.__data: 0x4328
+-  __DATA_DIRTY.__bss: 0x5b60
++  __DATA_DIRTY.__bss: 0x5b00
+   __DATA_DIRTY.__common: 0x18
+   - /System/Library/Frameworks/Combine.framework/Combine
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsys_time.dylib
+   - /usr/lib/swift/libswiftunistd.dylib
+-  Functions: 24408
+-  Symbols:   8794
+-  CStrings:  4505
++  Functions: 24733
++  Symbols:   9167
++  CStrings:  5128
+ 
+Symbols:
++ _CCAppIntentsExtractedEntityTypeAsString
++ _CCAppIntentsExtractedEntityTypeDecode
++ _CCAppIntentsExtractedEntityTypeFromString
++ _OBJC_CLASS_$_CCAppIntentsExtractedEntityAppointment
++ _OBJC_CLASS_$_CCAppIntentsExtractedEntityBusinessMembershipCard
++ _OBJC_CLASS_$_CCAppIntentsExtractedEntityContent
++ _OBJC_CLASS_$_CCAppIntentsExtractedEntityFlightReservation
++ _OBJC_CLASS_$_CCAppIntentsExtractedEntityHotelReservation
++ _OBJC_CLASS_$_CCAppIntentsExtractedEntityMedicalInsuranceCard
++ _OBJC_CLASS_$_CCAppIntentsExtractedEntityMetaContent
++ _OBJC_CLASS_$_CCAppIntentsExtractedEntityParty
++ _OBJC_CLASS_$_CCAppIntentsExtractedEntityPersonalId
++ _OBJC_CLASS_$_CCAppIntentsExtractedEntityRentalCarReservation
++ _OBJC_CLASS_$_CCAppIntentsExtractedEntityRestaurantReservation
++ _OBJC_CLASS_$_CCAppIntentsExtractedEntityTicketedShow
++ _OBJC_CLASS_$_CCAppIntentsExtractedEntityTicketedTransportation
++ _OBJC_CLASS_$_CCAppIntentsExtractedEntityTransitCard
++ _OBJC_METACLASS_$_CCAppIntentsExtractedEntityAppointment
++ _OBJC_METACLASS_$_CCAppIntentsExtractedEntityBusinessMembershipCard
++ _OBJC_METACLASS_$_CCAppIntentsExtractedEntityContent
++ _OBJC_METACLASS_$_CCAppIntentsExtractedEntityFlightReservation
++ _OBJC_METACLASS_$_CCAppIntentsExtractedEntityHotelReservation
++ _OBJC_METACLASS_$_CCAppIntentsExtractedEntityMedicalInsuranceCard
++ _OBJC_METACLASS_$_CCAppIntentsExtractedEntityMetaContent
++ _OBJC_METACLASS_$_CCAppIntentsExtractedEntityParty
++ _OBJC_METACLASS_$_CCAppIntentsExtractedEntityPersonalId
++ _OBJC_METACLASS_$_CCAppIntentsExtractedEntityRentalCarReservation
++ _OBJC_METACLASS_$_CCAppIntentsExtractedEntityRestaurantReservation
++ _OBJC_METACLASS_$_CCAppIntentsExtractedEntityTicketedShow
++ _OBJC_METACLASS_$_CCAppIntentsExtractedEntityTicketedTransportation
++ _OBJC_METACLASS_$_CCAppIntentsExtractedEntityTransitCard
++ _swift_cvw_allocateGenericValueMetadataWithLayoutString
++ _swift_cvw_assignWithCopy
++ _swift_cvw_assignWithTake
++ _swift_cvw_destroy
++ _swift_cvw_enumFn_getEnumTag
++ _swift_cvw_initEnumMetadataMultiPayloadWithLayoutString
++ _swift_cvw_initStructMetadataWithLayoutString
++ _swift_cvw_initWithCopy
++ _swift_cvw_initWithTake
++ _swift_cvw_initializeBufferWithCopyOfBuffer
++ _swift_cvw_instantiateLayoutString
++ _swift_cvw_multiPayloadEnumGeneric_destructiveInjectEnumTag
++ _swift_cvw_multiPayloadEnumGeneric_getEnumTag
+- _swift_allocateGenericValueMetadataWithLayoutString
+- _swift_enumFn_getEnumTag
+- _swift_generic_assignWithCopy
+- _swift_generic_assignWithTake
+- _swift_generic_destroy
+- _swift_generic_initWithCopy
+- _swift_generic_initWithTake
+- _swift_generic_initializeBufferWithCopyOfBuffer
+- _swift_generic_instantiateLayoutString
+- _swift_initEnumMetadataMultiPayloadWithLayoutString
+- _swift_initStructMetadataWithLayoutString
+- _swift_multiPayloadEnumGeneric_destructiveInjectEnumTag
+- _swift_multiPayloadEnumGeneric_getEnumTag
+CStrings:
++ "\a"
++ "\x0e"
++ "\x18\x13"
++ "\x1a"
++ "\x1b\x11"
++ "\x1b\x14"
++ "\x1b\x15"
++ "\x1f\x0f\x15"
++ "\x1f\x13"
++ "00B46DDF-203E-4DFB-8F90-C0D8FDADB884"
++ "@\"CCAppIntentsExtractedEntityAppointment\""
++ "@\"CCAppIntentsExtractedEntityBusinessMembershipCard\""
++ "@\"CCAppIntentsExtractedEntityFlightReservation\""
++ "@\"CCAppIntentsExtractedEntityHotelReservation\""
++ "@\"CCAppIntentsExtractedEntityMedicalInsuranceCard\""
++ "@\"CCAppIntentsExtractedEntityParty\""
++ "@\"CCAppIntentsExtractedEntityPersonalId\""
++ "@\"CCAppIntentsExtractedEntityRentalCarReservation\""
++ "@\"CCAppIntentsExtractedEntityRestaurantReservation\""
++ "@\"CCAppIntentsExtractedEntityTicketedShow\""
++ "@\"CCAppIntentsExtractedEntityTicketedTransportation\""
++ "@\"CCAppIntentsExtractedEntityTransitCard\""
++ "@112@0:8@16@24@32@40@48@56@64@72@80@88@96^@104"
++ "@120@0:8@16@24@32@40@48@56@64@72@80@88@96@104^@112"
++ "@128@0:8@16@24@32@40@48@56@64@72@80@88@96@104@112^@120"
++ "@136@0:8@16@24@32@40@48@56@64@72@80@88@96@104@112@120^@128"
++ "@160@0:8@16@24@32@40@48@56@64@72@80@88@96@104@112@120@128@136@144^@152"
++ "@176@0:8@16@24@32@40@48@56@64@72@80@88@96@104@112@120@128@136@144@152@160^@168"
++ "@312@0:8@16@24@32@40@48@56@64@72@80@88@96@104@112@120@128@136@144@152@160@168@176@184@192@200@208@216@224@232@240@248@256@264@272@280@288@296^@304"
++ "App.Intents.ExtractedEntity"
++ "AppIntentsExtractedEntity"
++ "AppIntentsExtractedEntityContent_appointment"
++ "AppIntentsExtractedEntityContent_appointment_cost"
++ "AppIntentsExtractedEntityContent_appointment_costCode"
++ "AppIntentsExtractedEntityContent_appointment_duration"
++ "AppIntentsExtractedEntityContent_appointment_endDate"
++ "AppIntentsExtractedEntityContent_appointment_endDateTimeZone"
++ "AppIntentsExtractedEntityContent_appointment_eventName"
++ "AppIntentsExtractedEntityContent_appointment_eventSubType"
++ "AppIntentsExtractedEntityContent_appointment_startDate"
++ "AppIntentsExtractedEntityContent_appointment_startDateTimeZone"
++ "AppIntentsExtractedEntityContent_appointment_startLocationAddress"
++ "AppIntentsExtractedEntityContent_appointment_startLocationName"
++ "AppIntentsExtractedEntityContent_appointment_startLocationTelephone"
++ "AppIntentsExtractedEntityContent_businessMembershipCard"
++ "AppIntentsExtractedEntityContent_businessMembershipCard_eventSubType"
++ "AppIntentsExtractedEntityContent_businessMembershipCard_expirationDate"
++ "AppIntentsExtractedEntityContent_businessMembershipCard_issueDate"
++ "AppIntentsExtractedEntityContent_businessMembershipCard_issuedBy"
++ "AppIntentsExtractedEntityContent_businessMembershipCard_membershipType"
++ "AppIntentsExtractedEntityContent_businessMembershipCard_number"
++ "AppIntentsExtractedEntityContent_businessMembershipCard_provider"
++ "AppIntentsExtractedEntityContent_businessMembershipCard_underName"
++ "AppIntentsExtractedEntityContent_flightReservation"
++ "AppIntentsExtractedEntityContent_flightReservation_cost"
++ "AppIntentsExtractedEntityContent_flightReservation_costCurrencyCode"
++ "AppIntentsExtractedEntityContent_flightReservation_customerNames"
++ "AppIntentsExtractedEntityContent_flightReservation_duration"
++ "AppIntentsExtractedEntityContent_flightReservation_eventStatus"
++ "AppIntentsExtractedEntityContent_flightReservation_flightArrivalAirportAddress"
++ "AppIntentsExtractedEntityContent_flightReservation_flightArrivalAirportCode"
++ "AppIntentsExtractedEntityContent_flightReservation_flightArrivalAirportCountry"
++ "AppIntentsExtractedEntityContent_flightReservation_flightArrivalAirportLocality"
++ "AppIntentsExtractedEntityContent_flightReservation_flightArrivalAirportName"
++ "AppIntentsExtractedEntityContent_flightReservation_flightArrivalAirportPostalCode"
++ "AppIntentsExtractedEntityContent_flightReservation_flightArrivalAirportRegion"
++ "AppIntentsExtractedEntityContent_flightReservation_flightArrivalDateTime"
++ "AppIntentsExtractedEntityContent_flightReservation_flightArrivalGate"
++ "AppIntentsExtractedEntityContent_flightReservation_flightArrivalTerminal"
++ "AppIntentsExtractedEntityContent_flightReservation_flightArrivalTimeZone"
++ "AppIntentsExtractedEntityContent_flightReservation_flightBoardingDateTime"
++ "AppIntentsExtractedEntityContent_flightReservation_flightCarrier"
++ "AppIntentsExtractedEntityContent_flightReservation_flightCarrierCode"
++ "AppIntentsExtractedEntityContent_flightReservation_flightCheckInUrl"
++ "AppIntentsExtractedEntityContent_flightReservation_flightConfirmationNumber"
++ "AppIntentsExtractedEntityContent_flightReservation_flightDepartureAirportAddress"
++ "AppIntentsExtractedEntityContent_flightReservation_flightDepartureAirportCode"
++ "AppIntentsExtractedEntityContent_flightReservation_flightDepartureAirportCountry"
++ "AppIntentsExtractedEntityContent_flightReservation_flightDepartureAirportLocality"
++ "AppIntentsExtractedEntityContent_flightReservation_flightDepartureAirportName"
++ "AppIntentsExtractedEntityContent_flightReservation_flightDepartureAirportPostalCode"
++ "AppIntentsExtractedEntityContent_flightReservation_flightDepartureAirportRegion"
++ "AppIntentsExtractedEntityContent_flightReservation_flightDepartureDateTime"
++ "AppIntentsExtractedEntityContent_flightReservation_flightDepartureGate"
++ "AppIntentsExtractedEntityContent_flightReservation_flightDepartureTerminal"
++ "AppIntentsExtractedEntityContent_flightReservation_flightDepartureTimeZone"
++ "AppIntentsExtractedEntityContent_flightReservation_flightDesignator"
++ "AppIntentsExtractedEntityContent_flightReservation_flightNumber"
++ "AppIntentsExtractedEntityContent_flightReservation_provider"
++ "AppIntentsExtractedEntityContent_flightReservation_seatNumbers"
++ "AppIntentsExtractedEntityContent_hotelReservation"
++ "AppIntentsExtractedEntityContent_hotelReservation_cost"
++ "AppIntentsExtractedEntityContent_hotelReservation_costCode"
++ "AppIntentsExtractedEntityContent_hotelReservation_customerNames"
++ "AppIntentsExtractedEntityContent_hotelReservation_duration"
++ "AppIntentsExtractedEntityContent_hotelReservation_eventStatus"
++ "AppIntentsExtractedEntityContent_hotelReservation_hotelCheckinDate"
++ "AppIntentsExtractedEntityContent_hotelReservation_hotelCheckinTime"
++ "AppIntentsExtractedEntityContent_hotelReservation_hotelCheckoutDate"
++ "AppIntentsExtractedEntityContent_hotelReservation_hotelCheckoutTime"
++ "AppIntentsExtractedEntityContent_hotelReservation_hotelReservationForAddress"
++ "AppIntentsExtractedEntityContent_hotelReservation_hotelReservationForName"
++ "AppIntentsExtractedEntityContent_hotelReservation_hotelReservationForTelephone"
++ "AppIntentsExtractedEntityContent_hotelReservation_hotelReservationId"
++ "AppIntentsExtractedEntityContent_hotelReservation_hotelTimeZone"
++ "AppIntentsExtractedEntityContent_hotelReservation_numberOfRooms"
++ "AppIntentsExtractedEntityContent_hotelReservation_provider"
++ "AppIntentsExtractedEntityContent_hotelReservation_roomNumbers"
++ "AppIntentsExtractedEntityContent_medicalInsuranceCard"
++ "AppIntentsExtractedEntityContent_medicalInsuranceCard_description"
++ "AppIntentsExtractedEntityContent_medicalInsuranceCard_eventSubType"
++ "AppIntentsExtractedEntityContent_medicalInsuranceCard_expirationDate"
++ "AppIntentsExtractedEntityContent_medicalInsuranceCard_groupNumber"
++ "AppIntentsExtractedEntityContent_medicalInsuranceCard_issueDate"
++ "AppIntentsExtractedEntityContent_medicalInsuranceCard_issuedBy"
++ "AppIntentsExtractedEntityContent_medicalInsuranceCard_number"
++ "AppIntentsExtractedEntityContent_medicalInsuranceCard_provider"
++ "AppIntentsExtractedEntityContent_medicalInsuranceCard_underName"
++ "AppIntentsExtractedEntityContent_party"
++ "AppIntentsExtractedEntityContent_party_endDate"
++ "AppIntentsExtractedEntityContent_party_endDateTimeZone"
++ "AppIntentsExtractedEntityContent_party_eventName"
++ "AppIntentsExtractedEntityContent_party_eventSubType"
++ "AppIntentsExtractedEntityContent_party_link"
++ "AppIntentsExtractedEntityContent_party_startAddress"
++ "AppIntentsExtractedEntityContent_party_startDate"
++ "AppIntentsExtractedEntityContent_party_startDateTimeZone"
++ "AppIntentsExtractedEntityContent_party_startLocationName"
++ "AppIntentsExtractedEntityContent_personalId"
++ "AppIntentsExtractedEntityContent_personalId_address"
++ "AppIntentsExtractedEntityContent_personalId_birthday"
++ "AppIntentsExtractedEntityContent_personalId_category"
++ "AppIntentsExtractedEntityContent_personalId_country"
++ "AppIntentsExtractedEntityContent_personalId_eventSubType"
++ "AppIntentsExtractedEntityContent_personalId_expirationDate"
++ "AppIntentsExtractedEntityContent_personalId_issueDate"
++ "AppIntentsExtractedEntityContent_personalId_issuedBy"
++ "AppIntentsExtractedEntityContent_personalId_number"
++ "AppIntentsExtractedEntityContent_personalId_placeOfBirth"
++ "AppIntentsExtractedEntityContent_personalId_provider"
++ "AppIntentsExtractedEntityContent_personalId_region"
++ "AppIntentsExtractedEntityContent_personalId_restrictions"
++ "AppIntentsExtractedEntityContent_personalId_underName"
++ "AppIntentsExtractedEntityContent_rentalCarReservation"
++ "AppIntentsExtractedEntityContent_rentalCarReservation_cost"
++ "AppIntentsExtractedEntityContent_rentalCarReservation_costCode"
++ "AppIntentsExtractedEntityContent_rentalCarReservation_customerNames"
++ "AppIntentsExtractedEntityContent_rentalCarReservation_duration"
++ "AppIntentsExtractedEntityContent_rentalCarReservation_endDate"
++ "AppIntentsExtractedEntityContent_rentalCarReservation_endDateTimeZone"
++ "AppIntentsExtractedEntityContent_rentalCarReservation_endLocationAddress"
++ "AppIntentsExtractedEntityContent_rentalCarReservation_endLocationName"
++ "AppIntentsExtractedEntityContent_rentalCarReservation_endLocationTelephone"
++ "AppIntentsExtractedEntityContent_rentalCarReservation_eventName"
++ "AppIntentsExtractedEntityContent_rentalCarReservation_eventStatus"
++ "AppIntentsExtractedEntityContent_rentalCarReservation_provider"
++ "AppIntentsExtractedEntityContent_rentalCarReservation_reservationForName"
++ "AppIntentsExtractedEntityContent_rentalCarReservation_reservationID"
++ "AppIntentsExtractedEntityContent_rentalCarReservation_startDate"
++ "AppIntentsExtractedEntityContent_rentalCarReservation_startDateTimeZone"
++ "AppIntentsExtractedEntityContent_rentalCarReservation_startLocationAddress"
++ "AppIntentsExtractedEntityContent_rentalCarReservation_startLocationName"
++ "AppIntentsExtractedEntityContent_rentalCarReservation_startLocationTelephone"
++ "AppIntentsExtractedEntityContent_restaurantReservation"
++ "AppIntentsExtractedEntityContent_restaurantReservation_customerNames"
++ "AppIntentsExtractedEntityContent_restaurantReservation_eventStatus"
++ "AppIntentsExtractedEntityContent_restaurantReservation_provider"
++ "AppIntentsExtractedEntityContent_restaurantReservation_reservationID"
++ "AppIntentsExtractedEntityContent_restaurantReservation_restaurantMealType"
++ "AppIntentsExtractedEntityContent_restaurantReservation_restaurantPartySize"
++ "AppIntentsExtractedEntityContent_restaurantReservation_startDate"
++ "AppIntentsExtractedEntityContent_restaurantReservation_startDateTimeZone"
++ "AppIntentsExtractedEntityContent_restaurantReservation_startLocationAddress"
++ "AppIntentsExtractedEntityContent_restaurantReservation_startLocationName"
++ "AppIntentsExtractedEntityContent_restaurantReservation_startLocationTelephone"
++ "AppIntentsExtractedEntityContent_ticketedShow"
++ "AppIntentsExtractedEntityContent_ticketedShow_cost"
++ "AppIntentsExtractedEntityContent_ticketedShow_costCode"
++ "AppIntentsExtractedEntityContent_ticketedShow_customerNames"
++ "AppIntentsExtractedEntityContent_ticketedShow_duration"
++ "AppIntentsExtractedEntityContent_ticketedShow_endDate"
++ "AppIntentsExtractedEntityContent_ticketedShow_endDateTimeZone"
++ "AppIntentsExtractedEntityContent_ticketedShow_eventName"
++ "AppIntentsExtractedEntityContent_ticketedShow_eventSubType"
++ "AppIntentsExtractedEntityContent_ticketedShow_link"
++ "AppIntentsExtractedEntityContent_ticketedShow_provider"
++ "AppIntentsExtractedEntityContent_ticketedShow_reservationID"
++ "AppIntentsExtractedEntityContent_ticketedShow_seatNumbers"
++ "AppIntentsExtractedEntityContent_ticketedShow_startDate"
++ "AppIntentsExtractedEntityContent_ticketedShow_startDateTimeZone"
++ "AppIntentsExtractedEntityContent_ticketedShow_startLocationAddress"
++ "AppIntentsExtractedEntityContent_ticketedShow_startLocationName"
++ "AppIntentsExtractedEntityContent_ticketedShow_ticketType"
++ "AppIntentsExtractedEntityContent_ticketedTransportation"
++ "AppIntentsExtractedEntityContent_ticketedTransportation_customerNames"
++ "AppIntentsExtractedEntityContent_ticketedTransportation_duration"
++ "AppIntentsExtractedEntityContent_ticketedTransportation_endDate"
++ "AppIntentsExtractedEntityContent_ticketedTransportation_endDateTimeZone"
++ "AppIntentsExtractedEntityContent_ticketedTransportation_endLocationAddress"
++ "AppIntentsExtractedEntityContent_ticketedTransportation_endLocationName"
++ "AppIntentsExtractedEntityContent_ticketedTransportation_eventName"
++ "AppIntentsExtractedEntityContent_ticketedTransportation_eventSubType"
++ "AppIntentsExtractedEntityContent_ticketedTransportation_seatNumbers"
++ "AppIntentsExtractedEntityContent_ticketedTransportation_startDate"
++ "AppIntentsExtractedEntityContent_ticketedTransportation_startDateTimeZone"
++ "AppIntentsExtractedEntityContent_ticketedTransportation_startLocationAddress"
++ "AppIntentsExtractedEntityContent_ticketedTransportation_startLocationName"
++ "AppIntentsExtractedEntityContent_transitCard"
++ "AppIntentsExtractedEntityContent_transitCard_eventSubType"
++ "AppIntentsExtractedEntityContent_transitCard_expirationDate"
++ "AppIntentsExtractedEntityContent_transitCard_issueDate"
++ "AppIntentsExtractedEntityContent_transitCard_issuedBy"
++ "AppIntentsExtractedEntityContent_transitCard_number"
++ "AppIntentsExtractedEntityContent_transitCard_provider"
++ "AppIntentsExtractedEntityContent_transitCard_underName"
++ "AppIntentsExtractedEntityMetaContent_sourceItemIdentifier"
++ "Appointment"
++ "BusinessMembershipCard"
++ "CCAppIntentsExtractedEntityAppointment"
++ "CCAppIntentsExtractedEntityBusinessMembershipCard"
++ "CCAppIntentsExtractedEntityContent"
++ "CCAppIntentsExtractedEntityFlightReservation"
++ "CCAppIntentsExtractedEntityHotelReservation"
++ "CCAppIntentsExtractedEntityMedicalInsuranceCard"
++ "CCAppIntentsExtractedEntityMetaContent"
++ "CCAppIntentsExtractedEntityParty"
++ "CCAppIntentsExtractedEntityPersonalId"
++ "CCAppIntentsExtractedEntityRentalCarReservation"
++ "CCAppIntentsExtractedEntityRestaurantReservation"
++ "CCAppIntentsExtractedEntityTicketedShow"
++ "CCAppIntentsExtractedEntityTicketedTransportation"
++ "CCAppIntentsExtractedEntityTransitCard"
++ "FlightReservation"
++ "HotelReservation"
++ "MedicalInsuranceCard"
++ "Party"
++ "PersonalId"
++ "RentalCarReservation"
++ "RestaurantReservation"
++ "T@\"CCAppIntentsExtractedEntityAppointment\",R,N,V_appointment"
++ "T@\"CCAppIntentsExtractedEntityBusinessMembershipCard\",R,N,V_businessMembershipCard"
++ "T@\"CCAppIntentsExtractedEntityFlightReservation\",R,N,V_flightReservation"
++ "T@\"CCAppIntentsExtractedEntityHotelReservation\",R,N,V_hotelReservation"
++ "T@\"CCAppIntentsExtractedEntityMedicalInsuranceCard\",R,N,V_medicalInsuranceCard"
++ "T@\"CCAppIntentsExtractedEntityParty\",R,N,V_party"
++ "T@\"CCAppIntentsExtractedEntityPersonalId\",R,N,V_personalId"
++ "T@\"CCAppIntentsExtractedEntityRentalCarReservation\",R,N,V_rentalCarReservation"
++ "T@\"CCAppIntentsExtractedEntityRestaurantReservation\",R,N,V_restaurantReservation"
++ "T@\"CCAppIntentsExtractedEntityTicketedShow\",R,N,V_ticketedShow"
++ "T@\"CCAppIntentsExtractedEntityTicketedTransportation\",R,N,V_ticketedTransportation"
++ "T@\"CCAppIntentsExtractedEntityTransitCard\",R,N,V_transitCard"
++ "T@\"NSArray\",R,N,V_customerNames"
++ "T@\"NSArray\",R,N,V_roomNumbers"
++ "T@\"NSArray\",R,N,V_seatNumbers"
++ "T@\"NSString\",R,N,V_address"
++ "T@\"NSString\",R,N,V_birthday"
++ "T@\"NSString\",R,N,V_category"
++ "T@\"NSString\",R,N,V_cost"
++ "T@\"NSString\",R,N,V_costCode"
++ "T@\"NSString\",R,N,V_costCurrencyCode"
++ "T@\"NSString\",R,N,V_description"
++ "T@\"NSString\",R,N,V_endDate"
++ "T@\"NSString\",R,N,V_endDateTimeZone"
++ "T@\"NSString\",R,N,V_endLocationAddress"
++ "T@\"NSString\",R,N,V_endLocationName"
++ "T@\"NSString\",R,N,V_endLocationTelephone"
++ "T@\"NSString\",R,N,V_eventStatus"
++ "T@\"NSString\",R,N,V_eventSubType"
++ "T@\"NSString\",R,N,V_expirationDate"
++ "T@\"NSString\",R,N,V_flightArrivalAirportAddress"
++ "T@\"NSString\",R,N,V_flightArrivalAirportCode"
++ "T@\"NSString\",R,N,V_flightArrivalAirportCountry"
++ "T@\"NSString\",R,N,V_flightArrivalAirportLocality"
++ "T@\"NSString\",R,N,V_flightArrivalAirportName"
++ "T@\"NSString\",R,N,V_flightArrivalAirportPostalCode"
++ "T@\"NSString\",R,N,V_flightArrivalAirportRegion"
++ "T@\"NSString\",R,N,V_flightArrivalDateTime"
++ "T@\"NSString\",R,N,V_flightArrivalGate"
++ "T@\"NSString\",R,N,V_flightArrivalTerminal"
++ "T@\"NSString\",R,N,V_flightArrivalTimeZone"
++ "T@\"NSString\",R,N,V_flightBoardingDateTime"
++ "T@\"NSString\",R,N,V_flightCarrier"
++ "T@\"NSString\",R,N,V_flightCarrierCode"
++ "T@\"NSString\",R,N,V_flightCheckInUrl"
++ "T@\"NSString\",R,N,V_flightConfirmationNumber"
++ "T@\"NSString\",R,N,V_flightDepartureAirportAddress"
++ "T@\"NSString\",R,N,V_flightDepartureAirportCode"
++ "T@\"NSString\",R,N,V_flightDepartureAirportCountry"
++ "T@\"NSString\",R,N,V_flightDepartureAirportLocality"
++ "T@\"NSString\",R,N,V_flightDepartureAirportName"
++ "T@\"NSString\",R,N,V_flightDepartureAirportPostalCode"
++ "T@\"NSString\",R,N,V_flightDepartureAirportRegion"
++ "T@\"NSString\",R,N,V_flightDepartureDateTime"
++ "T@\"NSString\",R,N,V_flightDepartureGate"
++ "T@\"NSString\",R,N,V_flightDepartureTerminal"
++ "T@\"NSString\",R,N,V_flightDepartureTimeZone"
++ "T@\"NSString\",R,N,V_flightDesignator"
++ "T@\"NSString\",R,N,V_flightNumber"
++ "T@\"NSString\",R,N,V_groupNumber"
++ "T@\"NSString\",R,N,V_hotelCheckinDate"
++ "T@\"NSString\",R,N,V_hotelCheckinTime"
++ "T@\"NSString\",R,N,V_hotelCheckoutDate"
++ "T@\"NSString\",R,N,V_hotelCheckoutTime"
++ "T@\"NSString\",R,N,V_hotelReservationForAddress"
++ "T@\"NSString\",R,N,V_hotelReservationForName"
++ "T@\"NSString\",R,N,V_hotelReservationForTelephone"
++ "T@\"NSString\",R,N,V_hotelReservationId"
++ "T@\"NSString\",R,N,V_hotelTimeZone"
++ "T@\"NSString\",R,N,V_issueDate"
++ "T@\"NSString\",R,N,V_issuedBy"
++ "T@\"NSString\",R,N,V_link"
++ "T@\"NSString\",R,N,V_membershipType"
++ "T@\"NSString\",R,N,V_number"
++ "T@\"NSString\",R,N,V_placeOfBirth"
++ "T@\"NSString\",R,N,V_provider"
++ "T@\"NSString\",R,N,V_region"
++ "T@\"NSString\",R,N,V_reservationForName"
++ "T@\"NSString\",R,N,V_reservationID"
++ "T@\"NSString\",R,N,V_restaurantMealType"
++ "T@\"NSString\",R,N,V_restrictions"
++ "T@\"NSString\",R,N,V_startAddress"
++ "T@\"NSString\",R,N,V_startDate"
++ "T@\"NSString\",R,N,V_startDateTimeZone"
++ "T@\"NSString\",R,N,V_startLocationAddress"
++ "T@\"NSString\",R,N,V_startLocationName"
++ "T@\"NSString\",R,N,V_startLocationTelephone"
++ "T@\"NSString\",R,N,V_ticketType"
++ "T@\"NSString\",R,N,V_underName"
++ "TB,N,V_hasDuration"
++ "TB,N,V_hasNumberOfRooms"
++ "TB,N,V_hasRestaurantPartySize"
++ "TI,R,N,V_numberOfRooms"
++ "TI,R,N,V_restaurantPartySize"
++ "Td,R,N,V_duration"
++ "TicketedShow"
++ "TicketedTransportation"
++ "TransitCard"
++ "_appointment"
++ "_businessMembershipCard"
++ "_category"
++ "_cost"
++ "_costCode"
++ "_costCurrencyCode"
++ "_customerNames"
++ "_description"
++ "_duration"
++ "_endDate"
++ "_endDateTimeZone"
++ "_endLocationAddress"
++ "_endLocationName"
++ "_endLocationTelephone"
++ "_eventStatus"
++ "_eventSubType"
++ "_expirationDate"
++ "_flightArrivalAirportAddress"
++ "_flightArrivalAirportCode"
++ "_flightArrivalAirportCountry"
++ "_flightArrivalAirportLocality"
++ "_flightArrivalAirportName"
++ "_flightArrivalAirportPostalCode"
++ "_flightArrivalAirportRegion"
++ "_flightArrivalDateTime"
++ "_flightArrivalGate"
++ "_flightArrivalTerminal"
++ "_flightArrivalTimeZone"
++ "_flightBoardingDateTime"
++ "_flightCarrier"
++ "_flightCarrierCode"
++ "_flightCheckInUrl"
++ "_flightConfirmationNumber"
++ "_flightDepartureAirportAddress"
++ "_flightDepartureAirportCode"
++ "_flightDepartureAirportCountry"
++ "_flightDepartureAirportLocality"
++ "_flightDepartureAirportName"
++ "_flightDepartureAirportPostalCode"
++ "_flightDepartureAirportRegion"
++ "_flightDepartureDateTime"
++ "_flightDepartureGate"
++ "_flightDepartureTerminal"
++ "_flightDepartureTimeZone"
++ "_flightDesignator"
++ "_flightNumber"
++ "_flightReservation"
++ "_groupNumber"
++ "_hasDuration"
++ "_hasNumberOfRooms"
++ "_hasRestaurantPartySize"
++ "_hotelCheckinDate"
++ "_hotelCheckinTime"
++ "_hotelCheckoutDate"
++ "_hotelCheckoutTime"
++ "_hotelReservation"
++ "_hotelReservationForAddress"
++ "_hotelReservationForName"
++ "_hotelReservationForTelephone"
++ "_hotelReservationId"
++ "_hotelTimeZone"
++ "_issueDate"
++ "_issuedBy"
++ "_link"
++ "_medicalInsuranceCard"
++ "_membershipType"
++ "_number"
++ "_numberOfRooms"
++ "_party"
++ "_personalId"
++ "_placeOfBirth"
++ "_provider"
++ "_region"
++ "_rentalCarReservation"
++ "_reservationForName"
++ "_reservationID"
++ "_restaurantMealType"
++ "_restaurantPartySize"
++ "_restaurantReservation"
++ "_restrictions"
++ "_roomNumbers"
++ "_seatNumbers"
++ "_startAddress"
++ "_startDate"
++ "_startDateTimeZone"
++ "_startLocationAddress"
++ "_startLocationName"
++ "_startLocationTelephone"
++ "_ticketType"
++ "_ticketedShow"
++ "_ticketedTransportation"
++ "_transitCard"
++ "_underName"
++ "appointment"
++ "businessMembershipCard"
++ "category"
++ "configurationForSet_AppIntentsExtractedEntity"
++ "cost"
++ "costCode"
++ "costCurrencyCode"
++ "customerNames"
++ "endDateTimeZone"
++ "endLocationAddress"
++ "endLocationName"
++ "endLocationTelephone"
++ "eventStatus"
++ "eventSubType"
++ "flightArrivalAirportAddress"
++ "flightArrivalAirportCode"
++ "flightArrivalAirportCountry"
++ "flightArrivalAirportLocality"
++ "flightArrivalAirportName"
++ "flightArrivalAirportPostalCode"
++ "flightArrivalAirportRegion"
++ "flightArrivalDateTime"
++ "flightArrivalGate"
++ "flightArrivalTerminal"
++ "flightArrivalTimeZone"
++ "flightBoardingDateTime"
++ "flightCarrier"
++ "flightCarrierCode"
++ "flightCheckInUrl"
++ "flightConfirmationNumber"
++ "flightDepartureAirportAddress"
++ "flightDepartureAirportCode"
++ "flightDepartureAirportCountry"
++ "flightDepartureAirportLocality"
++ "flightDepartureAirportName"
++ "flightDepartureAirportPostalCode"
++ "flightDepartureAirportRegion"
++ "flightDepartureDateTime"
++ "flightDepartureGate"
++ "flightDepartureTerminal"
++ "flightDepartureTimeZone"
++ "flightDesignator"
++ "flightNumber"
++ "flightReservation"
++ "groupNumber"
++ "hasDuration"
++ "hasNumberOfRooms"
++ "hasRestaurantPartySize"
++ "hotelCheckinDate"
++ "hotelCheckinTime"
++ "hotelCheckoutDate"
++ "hotelCheckoutTime"
++ "hotelReservation"
++ "hotelReservationForAddress"
++ "hotelReservationForName"
++ "hotelReservationForTelephone"
++ "hotelReservationId"
++ "hotelTimeZone"
++ "initWithCustomerNames:eventName:startLocationName:startLocationAddress:startDate:startDateTimeZone:seatNumbers:endLocationName:endLocationAddress:endDate:endDateTimeZone:duration:eventSubType:error:"
++ "initWithEventName:startLocationName:startAddress:startDate:startDateTimeZone:endDate:endDateTimeZone:link:eventSubType:error:"
++ "initWithEventName:startLocationName:startLocationAddress:startLocationTelephone:startDate:startDateTimeZone:endDate:endDateTimeZone:duration:cost:costCode:eventSubType:error:"
++ "initWithFlightDesignator:flightConfirmationNumber:flightCarrier:flightCarrierCode:provider:customerNames:flightDepartureDateTime:flightDepartureTimeZone:flightBoardingDateTime:flightDepartureAirportCode:flightDepartureAirportName:flightDepartureAirportAddress:flightDepartureAirportLocality:flightDepartureAirportRegion:flightDepartureAirportPostalCode:flightDepartureAirportCountry:flightDepartureTerminal:flightDepartureGate:seatNumbers:flightArrivalDateTime:flightArrivalTimeZone:flightArrivalAirportCode:flightArrivalAirportName:flightArrivalAirportAddress:flightArrivalAirportLocality:flightArrivalAirportRegion:flightArrivalAirportPostalCode:flightArrivalAirportCountry:flightArrivalTerminal:flightArrivalGate:duration:flightCheckInUrl:cost:costCurrencyCode:flightNumber:eventStatus:error:"
++ "initWithHotelReservationForName:provider:hotelReservationId:customerNames:roomNumbers:numberOfRooms:hotelReservationForAddress:hotelCheckinDate:hotelCheckinTime:hotelCheckoutDate:hotelCheckoutTime:hotelTimeZone:duration:hotelReservationForTelephone:cost:costCode:eventStatus:error:"
++ "initWithProvider:reservationID:customerNames:restaurantPartySize:startLocationName:startLocationAddress:startLocationTelephone:startDate:startDateTimeZone:restaurantMealType:eventStatus:error:"
++ "initWithProvider:underName:number:groupNumber:issueDate:expirationDate:issuedBy:description:eventSubType:error:"
++ "initWithProvider:underName:number:issueDate:expirationDate:issuedBy:eventSubType:error:"
++ "initWithProvider:underName:number:issueDate:expirationDate:issuedBy:region:country:birthday:placeOfBirth:address:category:restrictions:eventSubType:error:"
++ "initWithProvider:underName:number:membershipType:issueDate:expirationDate:issuedBy:eventSubType:error:"
++ "initWithReservationID:eventName:provider:customerNames:startLocationName:startLocationAddress:seatNumbers:startDate:startDateTimeZone:endDate:endDateTimeZone:duration:ticketType:link:cost:costCode:eventSubType:error:"
++ "initWithReservationID:eventName:provider:customerNames:startLocationName:startLocationAddress:startLocationTelephone:startDate:startDateTimeZone:endLocationName:endLocationAddress:endLocationTelephone:endDate:endDateTimeZone:reservationForName:duration:cost:costCode:eventStatus:error:"
++ "issueDate"
++ "issuedBy"
++ "link"
++ "medicalInsuranceCard"
++ "membershipType"
++ "number"
++ "numberOfRooms"
++ "party"
++ "personalId"
++ "placeOfBirth"
++ "provider"
++ "rentalCarReservation"
++ "reservationForName"
++ "reservationID"
++ "restaurantMealType"
++ "restaurantPartySize"
++ "restaurantReservation"
++ "restrictions"
++ "roomNumbers"
++ "seatNumbers"
++ "setHasDuration:"
++ "setHasNumberOfRooms:"
++ "setHasRestaurantPartySize:"
++ "startAddress"
++ "startDateTimeZone"
++ "startLocationAddress"
++ "startLocationName"
++ "startLocationTelephone"
++ "syncPolicyForSet_AppIntentsExtractedEntity"
++ "ticketType"
++ "ticketedShow"
++ "ticketedTransportation"
++ "transitCard"
++ "underName"
+
+```
