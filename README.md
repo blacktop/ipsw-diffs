@@ -122,7 +122,9 @@ ipsw diff
 Get List of NEW MachOs
 
 ```bash
-❱ curl -sL https://github.com/blacktop/ipsw-diffs/raw/main/18_4_22E5200s__vs_18_4_22E5216h/README.md | mdq '# Macho | # New'
+❱ curl -sL https://github.com/blacktop/ipsw-diffs/raw/main/18_4_22E5200s__vs_18_4_22E5216h/README.md \
+  | mdq '# Macho | # New'
+
 ### 🆕 NEW (13)
 
 - `/Applications/AuthenticationServicesUI.app/PlugIns/AccountAuthenticationModificationExtensionHelper.appex/AccountAuthenticationModificationExtensionHelper`
