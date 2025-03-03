@@ -14381,6 +14381,10 @@ CStrings:
 
 </details>
 
+### KDKs
+
+- [KDK DIFF](KDK.md)
+
 ## MachO
 
 ### 🆕 NEW (63)
@@ -21113,45 +21117,21 @@ CStrings:
 <details>
   <summary><i>View New</i></summary>
 
-#### AppleHIDRM.plist
+#### RemoteTextInput.plist
 
->  `Domain/AppleHIDRM.plist`
-
-```xml
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict/>
-</plist>
-
-```
-#### DeviceCheck.plist
-
->  `Domain/DeviceCheck.plist`
+>  `Domain/RemoteTextInput.plist`
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>modernization</key>
+	<key>rti_oneness</key>
 	<dict>
 		<key>DevelopmentPhase</key>
 		<string>FeatureComplete</string>
 	</dict>
 </dict>
-</plist>
-
-```
-#### Summarization.plist
-
->  `Domain/Summarization.plist`
-
-```xml
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict/>
 </plist>
 
 ```
@@ -21173,9 +21153,9 @@ CStrings:
 </plist>
 
 ```
-#### AudioDSPManager.plist
+#### AppleHIDRM.plist
 
->  `Domain/AudioDSPManager.plist`
+>  `Domain/AppleHIDRM.plist`
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -21225,6 +21205,48 @@ CStrings:
 </plist>
 
 ```
+#### Summarization.plist
+
+>  `Domain/Summarization.plist`
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict/>
+</plist>
+
+```
+#### AudioDSPManager.plist
+
+>  `Domain/AudioDSPManager.plist`
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict/>
+</plist>
+
+```
+#### DeviceCheck.plist
+
+>  `Domain/DeviceCheck.plist`
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>modernization</key>
+	<dict>
+		<key>DevelopmentPhase</key>
+		<string>FeatureComplete</string>
+	</dict>
+</dict>
+</plist>
+
+```
 #### Proximity.plist
 
 >  `Domain/Proximity.plist`
@@ -21237,32 +21259,14 @@ CStrings:
 </plist>
 
 ```
-#### RemoteTextInput.plist
-
->  `Domain/RemoteTextInput.plist`
-
-```xml
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>rti_oneness</key>
-	<dict>
-		<key>DevelopmentPhase</key>
-		<string>FeatureComplete</string>
-	</dict>
-</dict>
-</plist>
-
-```
 
 </details>
 
 #### ❌ Removed (3)
 
-- `Domain/GroupKit.plist`
 - `Domain/SiriTurnRestatement.plist`
 - `Domain/ConditionalEngine.plist`
+- `Domain/GroupKit.plist`
 
 #### ⬆️ Updated (93)
 
