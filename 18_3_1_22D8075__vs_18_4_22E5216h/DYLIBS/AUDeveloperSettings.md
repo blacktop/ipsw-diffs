@@ -1,0 +1,947 @@
+## AUDeveloperSettings
+
+> `/System/Library/PrivateFrameworks/AUDeveloperSettings.framework/AUDeveloperSettings`
+
+```diff
+
+-1170.80.6.0.1
+-  __TEXT.__text: 0xdc08
++1207.100.63.0.0
++  __TEXT.__text: 0xab5c
+   __TEXT.__auth_stubs: 0x4f0
+-  __TEXT.__objc_methlist: 0x82c
+-  __TEXT.__const: 0xb8
+-  __TEXT.__oslogstring: 0x289
+-  __TEXT.__cstring: 0x2b5c
+-  __TEXT.__gcc_except_tab: 0x38c
++  __TEXT.__objc_methlist: 0x97c
++  __TEXT.__const: 0xb0
++  __TEXT.__oslogstring: 0x1df
++  __TEXT.__cstring: 0x746
++  __TEXT.__gcc_except_tab: 0x378
+   __TEXT.__dlopen_cstrs: 0xb0
+-  __TEXT.__unwind_info: 0x3c0
+-  __TEXT.__objc_classname: 0x25e
+-  __TEXT.__objc_methname: 0x230b
+-  __TEXT.__objc_methtype: 0x6c6
+-  __TEXT.__objc_stubs: 0x21a0
+-  __DATA_CONST.__got: 0x2b0
+-  __DATA_CONST.__const: 0x1108
+-  __DATA_CONST.__objc_classlist: 0x70
+-  __DATA_CONST.__objc_catlist: 0x8
+-  __DATA_CONST.__objc_protolist: 0x38
++  __TEXT.__unwind_info: 0x2c8
++  __TEXT.__objc_classname: 0x20a
++  __TEXT.__objc_methname: 0x1fba
++  __TEXT.__objc_methtype: 0x659
++  __TEXT.__objc_stubs: 0x1d60
++  __DATA_CONST.__got: 0x4c0
++  __DATA_CONST.__const: 0x2e8
++  __DATA_CONST.__objc_classlist: 0x60
++  __DATA_CONST.__objc_protolist: 0x30
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x9c8
+-  __DATA_CONST.__objc_protorefs: 0x18
+-  __DATA_CONST.__objc_superrefs: 0x68
++  __DATA_CONST.__objc_selrefs: 0x9b8
++  __DATA_CONST.__objc_protorefs: 0x10
++  __DATA_CONST.__objc_superrefs: 0x58
+   __AUTH_CONST.__auth_got: 0x288
+-  __AUTH_CONST.__const: 0x220
+-  __AUTH_CONST.__cfstring: 0x3960
+-  __AUTH_CONST.__objc_const: 0x25f0
++  __AUTH_CONST.__const: 0x20
++  __AUTH_CONST.__cfstring: 0x5e0
++  __AUTH_CONST.__objc_const: 0x1c50
+   __AUTH_CONST.__objc_intobj: 0x30
+-  __AUTH.__objc_data: 0x410
+-  __DATA.__objc_ivar: 0xf4
+-  __DATA.__data: 0x2a0
+-  __DATA.__bss: 0x120
++  __AUTH.__objc_data: 0x370
++  __DATA.__objc_ivar: 0xec
++  __DATA.__data: 0x240
++  __DATA.__bss: 0x20
+   __DATA_DIRTY.__objc_data: 0x50
+   - /System/Library/Frameworks/CoreBluetooth.framework/CoreBluetooth
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/Frameworks/UIKit.framework/UIKit
++  - /System/Library/PrivateFrameworks/AUSettings.framework/AUSettings
+   - /System/Library/PrivateFrameworks/CoreFollowUp.framework/CoreFollowUp
+   - /System/Library/PrivateFrameworks/CoreUARP.framework/CoreUARP
+   - /System/Library/PrivateFrameworks/Preferences.framework/Preferences
+   - /System/Library/PrivateFrameworks/SoftLinking.framework/SoftLinking
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  Functions: 257
+-  Symbols:   870
+-  CStrings:  1039
++  Functions: 179
++  Symbols:   441
++  CStrings:  560
+ 
+Symbols:
++ _kAccessorySupportsDeveloperSettingsKey
+- _AUDeveloperSettingsAccessoryFusingTypeToString
+- _InternalStorageDirectoryPath
+- _MapPreferenceSuiteToString
+- _OBJC_CLASS_$_AUHelperInstance
+- _OBJC_CLASS_$_NSData
+- _OBJC_CLASS_$_NSError
+- _OBJC_CLASS_$_NSSet
+- _OBJC_CLASS_$_NSUserDefaults
+- _OBJC_METACLASS_$_AUDeveloperSettingsDatabase
+- _OBJC_METACLASS_$_AUHelperInstance
+- _UARPPayloadHashAlgorithmStringToValue
+- _UARPStringCmapDatabaseFilePath
+- _UARPStringCmapDirectoryPath
+- _UARPStringCrashAnalyticsDirectoryFilePath
+- _UARPStringDynamicAssetsFilepath
+- _UARPStringLogsDirectoryFilePath
+- _UARPStringPcapFilesFilepath
+- _UARPStringPifMetricsFilePath
+- _UARPStringSupplementalAssetsFilepath
+- _UARPStringSysdiagnoseDirectoryFilePath
+- _UARPStringTapToRadarFilePath
+- _UARPStringTempFilesFilepath
+- _UARPStringTmapDatabaseFilePath
+- _UARPStringTmapDirectoryPath
+- _cleanupPersonalizedUpdateAvailable
+- _dispatch_once
+- _dropboxFileUpdateForAccessoryID
+- _findPartnerSerialNumberForAccessory
+- _findPartnerSerialNumbersInDatabase
+- _getAccessoryDatabaseKeyForAccessoryID
+- _getURLForAssetURLType
+- _getuid
+- _isOTAUpdateDisabledForAccessoryID
+- _kAUDeveloperSettingsAssetLocationPlistName
+- _kAUSettingsAccessoryPersonalizationHeader
+- _kAUSettingsAccessorySupplementalBuild
+- _kAUSettingsAccessorySupplementalTrain
+- _kAUSettingsCustomBasejumper
+- _kAUSettingsCustomBuild
+- _kAUSettingsCustomerOnly
+- _kAUSettingsCustomerStaging
+- _kAUSettingsDevFusing
+- _kAUSettingsID
+- _kAUSettingsItems
+- _kAUSettingsLabel
+- _kAUSettingsLatestBasejumper
+- _kAUSettingsLivability
+- _kAUSettingsMesuStaging
+- _kAUSettingsProdFusing
+- _kAUSettingsSelectBasejumperLocation
+- _kAUSettingsTableFooterText
+- _kAUSettingsUnfusedFusing
+- _kAccessoryReachableKey
+- _kFirmwareDirectoryName
+- _kInternalSettingsPaneURL
+- _kReleaseNotesDirectoryName
+- _kUARPAssetLocationTypeMobileAssetServerBasejumperStr
+- _kUARPAssetLocationTypeMobileAssetServerLivabilityStr
+- _kUARPAssetLocationTypeMobileAssetServerMesuMacOSStr
+- _kUARPAssetLocationTypeMobileAssetServerMesuStagingStr
+- _kUARPAssetLocationTypeMobileAssetServerMesuStr
+- _kUARPDefaultDisplayNameAccessory
+- _kUARPDefaultFriendlyNameUnknown
+- _kUARPDefaultPersonalizationServer
+- _kUARPFirmwareDropboxDirectory
+- _kUARPPlistCustomer
+- _kUARPPlistFolder
+- _kUARPPlistFolderEmbedded
+- _kUARPPlistFolderInternal
+- _kUARPPlistInternal
+- _kUARPPlistInternalFuture
+- _kUARPStandaloneFirmwareDirectory
+- _kUARPStringBTLEServerUpdaterName
+- _kUARPStringBsdNotificationCoreSpeechVoiceTriggerAssetChange
+- _kUARPStringBsdNotificationPersonalizationNeededBTLEServer
+- _kUARPStringBsdNotificationPersonalizationNeededHID
+- _kUARPStringBsdNotificationPersonalizationNeededInternal
+- _kUARPStringBsdNotificationPowerAdapter
+- _kUARPStringBsdNotificationPowerSource
+- _kUARPStringBsdNotificationPowerSourcePercentChange
+- _kUARPStringCMAPCrashLogKey
+- _kUARPStringCMAPDecodedCrashLogChildKey
+- _kUARPStringCMAPDecodedCrashLogKey
+- _kUARPStringCMAPDecoderId
+- _kUARPStringCMAPEvents
+- _kUARPStringCMAPInput
+- _kUARPStringCMAPInputDictionary
+- _kUARPStringCMAPSectionName
+- _kUARPStringCMAPUuid
+- _kUARPStringCmapDatabase
+- _kUARPStringCmapDatabaseFileName
+- _kUARPStringCrashAnalyticsAccessoryPid
+- _kUARPStringCrashAnalyticsAccessoryType
+- _kUARPStringCrashAnalyticsAppleModelNumber
+- _kUARPStringCrashAnalyticsApplicationInfo
+- _kUARPStringCrashAnalyticsBugType
+- _kUARPStringCrashAnalyticsCore
+- _kUARPStringCrashAnalyticsCountryCode
+- _kUARPStringCrashAnalyticsCrashLog
+- _kUARPStringCrashAnalyticsCrashLogs
+- _kUARPStringCrashAnalyticsDirectory
+- _kUARPStringCrashAnalyticsLogVersion
+- _kUARPStringCrashAnalyticsSections
+- _kUARPStringCrashAnalyticsTestMode
+- _kUARPStringHIDUpdaterName
+- _kUARPStringLogsDirectory
+- _kUARPStringMetadataAppleAnalyticsEventName
+- _kUARPStringMetadataAppleAnalyticsPayloadType
+- _kUARPStringMetadataAppleHeySiriModelCertificate
+- _kUARPStringMetadataAppleHeySiriModelDigest
+- _kUARPStringMetadataAppleHeySiriModelEngineType
+- _kUARPStringMetadataAppleHeySiriModelEngineVersion
+- _kUARPStringMetadataAppleHeySiriModelHash
+- _kUARPStringMetadataAppleHeySiriModelLocale
+- _kUARPStringMetadataAppleHeySiriModelRole
+- _kUARPStringMetadataAppleHeySiriModelSignature
+- _kUARPStringMetadataAppleHeySiriModelType
+- _kUARPStringMetadataAppleHostPersonalizationRequired
+- _kUARPStringMetadataAppleLogAppleModelNumber
+- _kUARPStringMetadataAppleLogFriendlyName
+- _kUARPStringMetadataAppleLogSerialNumber
+- _kUARPStringMetadataAppleMappedAnalyticsEventID
+- _kUARPStringMetadataApplePersonalizationBoardID
+- _kUARPStringMetadataApplePersonalizationChipEpoch
+- _kUARPStringMetadataApplePersonalizationChipID
+- _kUARPStringMetadataApplePersonalizationChipRevision
+- _kUARPStringMetadataApplePersonalizationECID
+- _kUARPStringMetadataApplePersonalizationECIDData
+- _kUARPStringMetadataApplePersonalizationEnableMixMatch
+- _kUARPStringMetadataApplePersonalizationFTABPayload
+- _kUARPStringMetadataApplePersonalizationFTABPayloadDigest
+- _kUARPStringMetadataApplePersonalizationFTABPayloadDigestFilename
+- _kUARPStringMetadataApplePersonalizationFTABPayloadHashAlgorithm
+- _kUARPStringMetadataApplePersonalizationFTABPayloadLongname
+- _kUARPStringMetadataApplePersonalizationFTABPayloadProductionMode
+- _kUARPStringMetadataApplePersonalizationFTABPayloadProductionModeHostOverride
+- _kUARPStringMetadataApplePersonalizationFTABPayloadSecurityMode
+- _kUARPStringMetadataApplePersonalizationFTABPayloadSecurityModeHostOverride
+- _kUARPStringMetadataApplePersonalizationFTABPayloadTag
+- _kUARPStringMetadataApplePersonalizationFTABPayloadTrusted
+- _kUARPStringMetadataApplePersonalizationLife
+- _kUARPStringMetadataApplePersonalizationLogicalUnitNumber
+- _kUARPStringMetadataApplePersonalizationManifestEpoch
+- _kUARPStringMetadataApplePersonalizationManifestPrefix
+- _kUARPStringMetadataApplePersonalizationManifestSuffix
+- _kUARPStringMetadataApplePersonalizationMoreRequestsToFollow
+- _kUARPStringMetadataApplePersonalizationNonce
+- _kUARPStringMetadataApplePersonalizationNonceHash
+- _kUARPStringMetadataApplePersonalizationOptionRequired
+- _kUARPStringMetadataApplePersonalizationPayloadBoardID64
+- _kUARPStringMetadataApplePersonalizationPayloadDemotionProductionMode
+- _kUARPStringMetadataApplePersonalizationPayloadDemotionSecurityMode
+- _kUARPStringMetadataApplePersonalizationPayloadDigest
+- _kUARPStringMetadataApplePersonalizationPayloadDigestFilename
+- _kUARPStringMetadataApplePersonalizationPayloadDigestListSize
+- _kUARPStringMetadataApplePersonalizationPayloadHashAlgorithm
+- _kUARPStringMetadataApplePersonalizationPayloadLongname
+- _kUARPStringMetadataApplePersonalizationPayloadMatchingData
+- _kUARPStringMetadataApplePersonalizationPayloadMatchingDataPayloadTags
+- _kUARPStringMetadataApplePersonalizationPayloadMatchingDataProductRevisionMax
+- _kUARPStringMetadataApplePersonalizationPayloadMatchingDataProductRevisionMin
+- _kUARPStringMetadataApplePersonalizationPayloadProductionMode
+- _kUARPStringMetadataApplePersonalizationPayloadSecurityMode
+- _kUARPStringMetadataApplePersonalizationPayloadTag
+- _kUARPStringMetadataApplePersonalizationPayloadTrusted
+- _kUARPStringMetadataApplePersonalizationPrefixNeedsLogicalUnitNumber
+- _kUARPStringMetadataApplePersonalizationProductionMode
+- _kUARPStringMetadataApplePersonalizationProvisioning
+- _kUARPStringMetadataApplePersonalizationRequired
+- _kUARPStringMetadataApplePersonalizationSecurityDomain
+- _kUARPStringMetadataApplePersonalizationSecurityMode
+- _kUARPStringMetadataApplePersonalizationSoCLiveNonce
+- _kUARPStringMetadataApplePersonalizationSuffixNeedsLogicalUnitNumber
+- _kUARPStringMetadataApplePersonalizationSuperBinaryAssetID
+- _kUARPStringMetadataApplePersonalizationSuperBinaryPayloadIndex
+- _kUARPStringMetadataApplePersonalizationTicketNeedsLogicalUnitNumber
+- _kUARPStringMetadataApplePersonalizedManifest
+- _kUARPStringMetadataAppleVoiceAssistCertificate
+- _kUARPStringMetadataAppleVoiceAssistDigest
+- _kUARPStringMetadataAppleVoiceAssistEngineVersion
+- _kUARPStringMetadataAppleVoiceAssistHash
+- _kUARPStringMetadataAppleVoiceAssistLocale
+- _kUARPStringMetadataAppleVoiceAssistRole
+- _kUARPStringMetadataAppleVoiceAssistSignature
+- _kUARPStringMetadataAppleVoiceAssistType
+- _kUARPStringMetadataComposeMetaDataHashAlgorithm
+- _kUARPStringMetadataComposePayloadFTABMeasuredPayloads
+- _kUARPStringMetadataComposePayloadHashAlgorithm
+- _kUARPStringMetadataComposePayloadNonFTABMeasuredPayloads
+- _kUARPStringMetadataComposePersonalizationOptionsRequired
+- _kUARPStringMetadataComposePropertyListPayload
+- _kUARPStringMetadataComposeVersionBVERStringFile
+- _kUARPStringMetadataComposeVersionStringFile
+- _kUARPStringMetadataDeviceCompressPayloadAlgorithm
+- _kUARPStringMetadataDeviceCompressPayloadChunkSize
+- _kUARPStringMetadataDeviceCompressedHeaders
+- _kUARPStringMetadataDeviceCompressedHeadersPayloadIndex
+- _kUARPStringMetadataDeviceCompressionAlgorithmLZ4
+- _kUARPStringMetadataDeviceCompressionAlgorithmLZBitmap2
+- _kUARPStringMetadataDeviceCompressionAlgorithmLZBitmapFast2
+- _kUARPStringMetadataDeviceDeviceSpecificData
+- _kUARPStringMetadataDeviceEraseOption
+- _kUARPStringMetadataDeviceFlashPartitionBitmap
+- _kUARPStringMetadataDeviceFlashPartitionBoot
+- _kUARPStringMetadataDeviceIgnoreVersion
+- _kUARPStringMetadataDeviceMetaDataHash
+- _kUARPStringMetadataDeviceMetaDataHashAlgorithm
+- _kUARPStringMetadataDeviceMinimumBatteryLevel
+- _kUARPStringMetadataDeviceMinimumVersionRequired
+- _kUARPStringMetadataDeviceNoCompressedHeaders
+- _kUARPStringMetadataDevicePayloadCertificate
+- _kUARPStringMetadataDevicePayloadDescription
+- _kUARPStringMetadataDevicePayloadDigest
+- _kUARPStringMetadataDevicePayloadExpandFilename
+- _kUARPStringMetadataDevicePayloadFileName
+- _kUARPStringMetadataDevicePayloadHash
+- _kUARPStringMetadataDevicePayloadHashAlgorithm
+- _kUARPStringMetadataDevicePayloadHashAlgorithmNone
+- _kUARPStringMetadataDevicePayloadHashAlgorithmSHA256
+- _kUARPStringMetadataDevicePayloadHashAlgorithmSHA384
+- _kUARPStringMetadataDevicePayloadHashAlgorithmSHA512
+- _kUARPStringMetadataDevicePayloadLongName
+- _kUARPStringMetadataDevicePayloadSignature
+- _kUARPStringMetadataDevicePayloadSignatureDevelopment
+- _kUARPStringMetadataDeviceTriggerBatteryLevel
+- _kUARPStringMetadataDeviceUncompressedPayloadLength
+- _kUARPStringMetadataDeviceUrgentUpdate
+- _kUARPStringMetadataHostExcludedHwVersion
+- _kUARPStringMetadataHostInactiveToApplyAsset
+- _kUARPStringMetadataHostInactiveToStageAsset
+- _kUARPStringMetadataHostMinimumBatteryLevel
+- _kUARPStringMetadataHostMinimumVersionMacOS
+- _kUARPStringMetadataHostMinimumVersioniOS
+- _kUARPStringMetadataHostMinimumVersiontvOS
+- _kUARPStringMetadataHostMinimumVersionwatchOS
+- _kUARPStringMetadataHostNetworkDelay
+- _kUARPStringMetadataHostReconnectAfterApply
+- _kUARPStringMetadataHostTriggerBatteryLevel
+- _kUARPStringMetadataKeyAppleFormat
+- _kUARPStringMetadataKeyApplePlist
+- _kUARPStringMetadataKeyAppleValues
+- _kUARPStringMetadataRootAppleFilepath
+- _kUARPStringMetadataRootAppleName
+- _kUARPStringMetadataRootAppleValue
+- _kUARPStringMetadataSysconfigManufacturingPartNumber
+- _kUARPStringMetadataSysconfigRegionCode
+- _kUARPStringMetadataSysconfigRegulatoryModelNumber
+- _kUARPStringMobileAssetBuildManfestFilename
+- _kUARPStringMobileAssetDeploymentListKey
+- _kUARPStringMobileAssetFirmwareBundleFilenameKey
+- _kUARPStringMobileAssetFirmwareImageFilenameKey
+- _kUARPStringMobileAssetFirmwareVersionBuildKey
+- _kUARPStringMobileAssetFirmwareVersionMajorKey
+- _kUARPStringMobileAssetFirmwareVersionMinorKey
+- _kUARPStringMobileAssetFirmwareVersionReleaseKey
+- _kUARPStringMobileAssetUARPAssetPrefix
+- _kUARPStringPcapFiles
+- _kUARPStringPersonalizationOptionBoardID
+- _kUARPStringPersonalizationOptionChipID
+- _kUARPStringPersonalizationOptionDPRO
+- _kUARPStringPersonalizationOptionDigest
+- _kUARPStringPersonalizationOptionECID
+- _kUARPStringPersonalizationOptionEPRO
+- _kUARPStringPersonalizationOptionESEC
+- _kUARPStringPersonalizationOptionLife
+- _kUARPStringPersonalizationOptionManifestEpoch
+- _kUARPStringPersonalizationOptionNonce
+- _kUARPStringPersonalizationOptionProductionMode
+- _kUARPStringPersonalizationOptionProvisioning
+- _kUARPStringPersonalizationOptionSecurityDomain
+- _kUARPStringPersonalizationOptionSecurityMode
+- _kUARPStringPersonalizationOptionSocLiveNonce
+- _kUARPStringPersonalizationOptionTicket
+- _kUARPStringPersonalizationOptionTrusted
+- _kUARPStringPifMetrics
+- _kUARPStringSuperBinaryKeyDynamicPayload
+- _kUARPStringSuperBinaryKeyMetaDataFormatVersion
+- _kUARPStringSuperBinaryKeyMetaDataValues
+- _kUARPStringSuperBinaryKeyMetadataName
+- _kUARPStringSuperBinaryKeyMetadataValue
+- _kUARPStringSuperBinaryKeyPayload4CC
+- _kUARPStringSuperBinaryKeyPayloadFilepath
+- _kUARPStringSuperBinaryKeyPayloadLongName
+- _kUARPStringSuperBinaryKeyPayloadMetaData
+- _kUARPStringSuperBinaryKeyPayloadMissing
+- _kUARPStringSuperBinaryKeyPayloadVersion
+- _kUARPStringSuperBinaryKeySuperBinaryFirmwareVersion
+- _kUARPStringSuperBinaryKeySuperBinaryFormatVersion
+- _kUARPStringSuperBinaryKeySuperBinaryMetaData
+- _kUARPStringSuperBinaryKeySuperBinaryPayloads
+- _kUARPStringSupplementalAssetVoiceAssist
+- _kUARPStringSysdiagnose
+- _kUARPStringSysdiagnoseApproved
+- _kUARPStringTMAPAppleModelNumber
+- _kUARPStringTMAPEndian
+- _kUARPStringTMAPEventFields
+- _kUARPStringTMAPEventID
+- _kUARPStringTMAPEventName
+- _kUARPStringTMAPEvents
+- _kUARPStringTMAPFieldLength
+- _kUARPStringTMAPFieldName
+- _kUARPStringTMAPFieldType
+- _kUARPStringTMAPTypeBigEndian
+- _kUARPStringTMAPTypeEncodedString
+- _kUARPStringTMAPTypeFloat
+- _kUARPStringTMAPTypeInteger
+- _kUARPStringTMAPTypeLittleEndian
+- _kUARPStringTMAPTypeString
+- _kUARPStringTMAPTypeUnsignedInteger
+- _kUARPStringTapToRadar
+- _kUARPStringTatsuSigningServer
+- _kUARPStringTempFiles
+- _kUARPStringTmapDatabase
+- _kUARPStringTmapDatabaseFileName
+- _kUARPStringUSBCLightningDisconnectNotification
+- _kUARPStringUSBPDUpdaterName
+- _kUARPStringVendorMetadataProductNumber
+- _kUARPSupportedAccessoryCaseModelNameIdentifier
+- _kUARPSupportedAccessoryKeyAllowDownloadOnCellular
+- _kUARPSupportedAccessoryKeyAlternativeAMNs
+- _kUARPSupportedAccessoryKeyAppleModelNumber
+- _kUARPSupportedAccessoryKeyAutoAppliesStagedFirmware
+- _kUARPSupportedAccessoryKeyBSDNotifications
+- _kUARPSupportedAccessoryKeyBluetoothProductVersion
+- _kUARPSupportedAccessoryKeyBluetoothVendorIDSource
+- _kUARPSupportedAccessoryKeyDFUMode
+- _kUARPSupportedAccessoryKeyDownstreamAMNs
+- _kUARPSupportedAccessoryKeyFusingOverrideUnfused
+- _kUARPSupportedAccessoryKeyIsPowerSource
+- _kUARPSupportedAccessoryKeyIsSimulator
+- _kUARPSupportedAccessoryKeyMobileAssetsModelNumber
+- _kUARPSupportedAccessoryKeyModelName
+- _kUARPSupportedAccessoryKeyPersonalities
+- _kUARPSupportedAccessoryKeyPersonalizationNotification
+- _kUARPSupportedAccessoryKeyProductGroup
+- _kUARPSupportedAccessoryKeyProductID
+- _kUARPSupportedAccessoryKeyProductName
+- _kUARPSupportedAccessoryKeyProductNumber
+- _kUARPSupportedAccessoryKeyReofferFirmwareOnSync
+- _kUARPSupportedAccessoryKeyServiceBSDNotifications
+- _kUARPSupportedAccessoryKeySupplementalAssets
+- _kUARPSupportedAccessoryKeySupplementalAssetsModelNumber
+- _kUARPSupportedAccessoryKeySupportsAccMode7
+- _kUARPSupportedAccessoryKeySupportsAnalytics
+- _kUARPSupportedAccessoryKeySupportsDeveloperSettings
+- _kUARPSupportedAccessoryKeySupportsFriendlyName
+- _kUARPSupportedAccessoryKeySupportsHeySiriCompact
+- _kUARPSupportedAccessoryKeySupportsInternalSettings
+- _kUARPSupportedAccessoryKeySupportsLogs
+- _kUARPSupportedAccessoryKeySupportsMappedAnalytics
+- _kUARPSupportedAccessoryKeySupportsPowerlog
+- _kUARPSupportedAccessoryKeySupportsVersions
+- _kUARPSupportedAccessoryKeySupportsVoiceAssist
+- _kUARPSupportedAccessoryKeyTransport
+- _kUARPSupportedAccessoryKeyTransportB2PHID
+- _kUARPSupportedAccessoryKeyTransportBluetooth
+- _kUARPSupportedAccessoryKeyTransportHDS
+- _kUARPSupportedAccessoryKeyTransportHID
+- _kUARPSupportedAccessoryKeyTransportIIC
+- _kUARPSupportedAccessoryKeyTransportUSB
+- _kUARPSupportedAccessoryKeyTransportUSBPD
+- _kUARPSupportedAccessoryKeyTtrSolicitLogs
+- _kUARPSupportedAccessoryKeyUSBPDDeviceClass
+- _kUARPSupportedAccessoryKeyUSBPDDeviceClassMagSafeCable
+- _kUARPSupportedAccessoryKeyUSBPDDeviceClassPowerAdapter
+- _kUARPSupportedAccessoryKeyUSBPDDeviceClassUSBCLightning
+- _kUARPSupportedAccessoryKeyUSBPDLocationType
+- _kUARPSupportedAccessoryKeyUSBPDLocationTypeSOP
+- _kUARPSupportedAccessoryKeyUSBPDLocationTypeSOPDoublePrime
+- _kUARPSupportedAccessoryKeyUSBPDLocationTypeSOPPrime
+- _kUARPSupportedAccessoryKeyUUID
+- _kUARPSupportedAccessoryKeyUpdateRequiresPowerAssertion
+- _kUARPSupportedAccessoryKeyUpdaterName
+- _kUARPSupportedAccessoryKeyUploaderResponseTimeout
+- _kUARPSupportedAccessoryKeyUploaderRetryLimit
+- _kUARPSupportedAccessoryKeyVendorID
+- _kUARPSupportedAccessoryKeyVendorName
+- _kUARPSupportedAccessoryKeyVendorNameApple
+- _objc_allocWithZone
+- _objc_autorelease
+- _objc_retain_x27
+- _updateReachabilityForAccessoryID
+CStrings:
++ "textField:insertInputSuggestion:"
++ "v32@0:8@\"UITextField\"16@\"UIInputSuggestion\"24"
+- "%@/%@"
+- "%s: Not adding empty serial number with info = %@"
+- "%s: Updating location = %s for accessoryName = %@"
+- "%s: dictionary = %@"
+- "%s: received unknown object = %@"
+- "%s: seting %@:%@"
+- "+"
+- "+[AUHelperInstance xpcConnectionToHelper]"
+- "-[AUDeveloperSettingsDatabase accessoriesDictionary]"
+- "-[AUDeveloperSettingsDatabase addAccessoryWithSerialNumber:info:]"
+- "-[AUDeveloperSettingsDatabase seedParticipationDictionary]"
+- "-[AUDeveloperSettingsDatabase setAccessoriesDictionary:]"
+- "-[AUDeveloperSettingsDatabase updateAccessory:locationType:]"
+- "-[AUHelperInstance remoteObject]_block_invoke"
+- "/AppleInternal/usr/local/misc"
+- "/System/Library/PrivateFrameworks/CoreUARP.framework"
+- "/System/Library/PrivateFrameworks/CoreUARP.framework/Versions/Current/Resources"
+- "/usr/standalone/firmware/accessoryupdater/UARP"
+- "/var/db/accessoryupdater/dropbox"
+- "/var/db/accessoryupdater/uarp/"
+- "0000"
+- "AUDeveloperSettingsDatabase"
+- "AUDeveloperSettingsLocation"
+- "AUDeveloperSettingsLocation.plist"
+- "AUDeveloperSettingsObjectWithKey:"
+- "AUDeveloperSettingsOverride"
+- "AUDeveloperSettingsSetObject:withKey:"
+- "AUHelperExtend"
+- "AUHelperInstance"
+- "AUHelperServiceProtocol"
+- "AUSettingsProgressActiveUpdate"
+- "AUSettingsProgressComplete"
+- "AUSettingsProgressKeyBuild"
+- "AUSettingsProgressKeyBytesSent"
+- "AUSettingsProgressKeyBytesTotal"
+- "About"
+- "Accessories Firmware Update"
+- "Accessory"
+- "Active Version"
+- "AllowDownloadOnCellular"
+- "AlternativeAppleModelNumbers"
+- "Analytics Event Name"
+- "Analytics Payload Type"
+- "Apple Inc."
+- "AppleModelNumber"
+- "Apply"
+- "Asset Location"
+- "Asset URL Override"
+- "AutoAppliesStagedFirmware"
+- "B24@0:8Q16"
+- "B2PHID"
+- "BASEJUMPER"
+- "BSDNotifications"
+- "BTLEServer"
+- "Base64EncodedString"
+- "Basejumper"
+- "BigEndian"
+- "Bluetooth"
+- "BluetoothProductVersion"
+- "BluetoothVendorIDSource"
+- "BoardID"
+- "Build"
+- "BuildManifest.plist"
+- "CUSTOMER"
+- "CUSTOMER_STAGING"
+- "CUSTOM_BASEJUMPER_BUILD"
+- "Case"
+- "ChipID"
+- "CmapEvents"
+- "Compose Measured Payloads"
+- "Compose Measured Payloads (Non-FTAB)"
+- "Compose MetaData Hash Algorithm"
+- "Compose Payload Hash Algorithm"
+- "Compressed Headers"
+- "Compressed Headers Payload Index"
+- "CrashLogKey"
+- "Custom Basejumper"
+- "Custom Basejumper Build"
+- "Custom Build"
+- "Custom Configuration"
+- "Custom Livability Train"
+- "Customer"
+- "Customer Staging"
+- "DFUMode"
+- "DPRO"
+- "DecodedCrashLogChildKey"
+- "DecodedCrashLogKey"
+- "Default Configuration"
+- "DeploymentList"
+- "Details"
+- "Dev"
+- "Device Specific Data"
+- "Digest"
+- "Disable OTA Updates"
+- "Downloaded Version"
+- "DownstreamAppleModelNumbers"
+- "Dropbox Version"
+- "Dynamic Payload"
+- "ECID"
+- "EPRO"
+- "ESEC"
+- "Enable Auth Listing"
+- "Endian"
+- "Erase Option"
+- "EventFields"
+- "EventID"
+- "EventName"
+- "Events"
+- "Excluded Hardware Version"
+- "FieldLength"
+- "FieldName"
+- "FieldType"
+- "Filepath"
+- "FirmwareBundle"
+- "FirmwareImageFile"
+- "FirmwareVersionBuild"
+- "FirmwareVersionMajor"
+- "FirmwareVersionMinor"
+- "FirmwareVersionRelease"
+- "Flash Partition Bitmap"
+- "Flash Partition Boot"
+- "Float"
+- "FooterText"
+- "Fusing"
+- "FusingOverrideUnfused"
+- "HDS"
+- "HID"
+- "Hardware Revision"
+- "HeySiri Model Certificate"
+- "HeySiri Model Digest"
+- "HeySiri Model Engine Type"
+- "HeySiri Model Engine Version"
+- "HeySiri Model Hash"
+- "HeySiri Model Locale"
+- "HeySiri Model Role"
+- "HeySiri Model Signature"
+- "HeySiri Model Type"
+- "Host Inactive To Apply Asset"
+- "Host Inactive To Stage Asset"
+- "Host Minimum Battery Level"
+- "Host Network Delay"
+- "Host Personalization Required"
+- "Host Reconnect After Apply"
+- "Host Trigger Battery Level"
+- "IIC"
+- "INTERNAL_SEED"
+- "Ignore Version"
+- "InputDictionary"
+- "Integer"
+- "Internal Development Firmware should only be installed on Apple Owned Units (AOU)"
+- "Internal Seed"
+- "IsSimulator"
+- "LATEST_BASEJUMPER"
+- "LIVABILITY"
+- "LZ4"
+- "LZBitmap2"
+- "LZBitmapFast2"
+- "Life"
+- "LittleEndian"
+- "Livability"
+- "Log Apple Model Number"
+- "Log Friendly Name"
+- "Log Serial Number"
+- "MagSafe Cable"
+- "ManifestEpoch"
+- "Mapped Analytics Event ID"
+- "Mesu Staging"
+- "MetaData Format Version"
+- "MetaData Hash"
+- "MetaData Hash Algorithm"
+- "MetaData Values"
+- "MetaData plist"
+- "Minimum Battery Level"
+- "Minimum Required Version"
+- "Minimum iOS Version"
+- "Minimum macOS Version"
+- "Minimum tvOS Version"
+- "Minimum watchOS Version"
+- "MobileAssetsModelNumber"
+- "Model Number"
+- "ModelName"
+- "Name"
+- "No Compressed Headers"
+- "Nonce"
+- "None"
+- "PUBLIC_SEED"
+- "Payload 4CC"
+- "Payload Certificate"
+- "Payload Compression Algorithm"
+- "Payload Compression ChunkSize"
+- "Payload Description"
+- "Payload Digest"
+- "Payload Expand Filename"
+- "Payload Filepath"
+- "Payload Hash"
+- "Payload Hash Algorithm"
+- "Payload Long Name"
+- "Payload MetaData"
+- "Payload Missing"
+- "Payload Signature"
+- "Payload Signature (Development)"
+- "Payload Version"
+- "Pending"
+- "Personalities"
+- "Personalization"
+- "Personalization Board ID"
+- "Personalization Board ID (64 bits)"
+- "Personalization Chip Epoch"
+- "Personalization Chip ID"
+- "Personalization Chip Revision"
+- "Personalization Digest List Size"
+- "Personalization ECID"
+- "Personalization ECID Data"
+- "Personalization Enable Mix Match"
+- "Personalization FTAB Payload"
+- "Personalization FTAB Payload Digest"
+- "Personalization FTAB Payload Digest Filename"
+- "Personalization FTAB Payload Hash Algorithm"
+- "Personalization FTAB Payload Longname"
+- "Personalization FTAB Payload Production Mode"
+- "Personalization FTAB Payload Production Mode Host Override"
+- "Personalization FTAB Payload Security Mode"
+- "Personalization FTAB Payload Security Mode Host Override"
+- "Personalization FTAB Payload Tag"
+- "Personalization FTAB Payload Trusted"
+- "Personalization Life"
+- "Personalization Logical Unit Number"
+- "Personalization Manifest Epoch"
+- "Personalization Manifest Prefix"
+- "Personalization Manifest Suffix"
+- "Personalization Matching Data"
+- "Personalization Matching Data Payload Tags"
+- "Personalization Matching Data Product Revision Maximum"
+- "Personalization Matching Data Product Revision Minimum"
+- "Personalization More Requests to Follow"
+- "Personalization Nonce"
+- "Personalization Nonce Hash"
+- "Personalization Options Required"
+- "Personalization Payload Demotion Production Mode"
+- "Personalization Payload Demotion Security Mode"
+- "Personalization Payload Digest"
+- "Personalization Payload Digest Filename"
+- "Personalization Payload Effective Production Mode"
+- "Personalization Payload Effective Security Mode"
+- "Personalization Payload Hash Algorithm"
+- "Personalization Payload Longname"
+- "Personalization Payload Tag"
+- "Personalization Payload Trusted"
+- "Personalization Prefix Needs Logical Unit Number"
+- "Personalization Production Mode"
+- "Personalization Provisioning"
+- "Personalization Required"
+- "Personalization Security Domain"
+- "Personalization Security Mode"
+- "Personalization SoC Live Nonce"
+- "Personalization Suffix Needs Logical Unit Number"
+- "Personalization SuperBinary AssetID"
+- "Personalization SuperBinary Payload Index"
+- "Personalization Ticket Needs Logical Unit Number"
+- "PersonalizationNotification"
+- "Personalized Manifest"
+- "Power Adapter"
+- "Pre-release Beta Program"
+- "Prod"
+- "ProductGroup"
+- "ProductID"
+- "ProductName"
+- "ProductNumber"
+- "ProductionMode"
+- "Property List Payload"
+- "Provisioning"
+- "Public Seed"
+- "Q24@0:8@16"
+- "ReofferFirmwareOnSync"
+- "Required Personalization Option"
+- "SELECT_BASEJUMPER_LOCATION"
+- "SELECT_LOCATION"
+- "SHA-256"
+- "SHA-384"
+- "SHA-512"
+- "SOP"
+- "SOP Double Prime"
+- "SOP Prime"
+- "SectionName"
+- "SecurityDomain"
+- "SecurityMode"
+- "Serial Number"
+- "ServiceBSDNotifications"
+- "SocLiveNonce"
+- "SuperBinary Firmware Version"
+- "SuperBinary Format Version"
+- "SuperBinary MetaData"
+- "SuperBinary Payloads"
+- "Supplemental Asset Location"
+- "Supplemental Build"
+- "Supplemental Train"
+- "SupplementalAssets"
+- "SupplementalAssetsModelNumber"
+- "SupportedAccessoriesUARP-Internal.plist"
+- "SupportedAccessoriesUARP-InternalFuture.plist"
+- "SupportedAccessoriesUARP.plist"
+- "SupportsAccMode7"
+- "SupportsAnalytics"
+- "SupportsDeveloperSettings"
+- "SupportsFriendlyName"
+- "SupportsHeySiriCompact"
+- "SupportsInternalSettings"
+- "SupportsLogs"
+- "SupportsMappedAnalytics"
+- "SupportsPowerlog"
+- "SupportsVersions"
+- "SupportsVoiceAssist"
+- "Sysconfig Manufacturing Part Number"
+- "Sysconfig Region Code"
+- "Sysconfig Regulatory Model Number"
+- "T@\"<AUHelperServiceProtocol>\",R"
+- "T@\"AUHelperInstance\",R"
+- "T@\"NSDictionary\",R"
+- "Ticket"
+- "Train"
+- "Transport"
+- "Trigger Battery Level"
+- "Trusted"
+- "TtrSolicitLogs"
+- "UI_country_code"
+- "USB"
+- "USB-C to Lightning"
+- "USB-PD"
+- "USB-PD Device Class"
+- "USB-PD Location"
+- "USBCLightningDisconnect"
+- "Uncompressed Payload Length"
+- "Unfused"
+- "UnsignedInteger"
+- "Update Now"
+- "UpdateRequiresPowerAssertion"
+- "UpdaterName"
+- "UploaderResponseTimeout"
+- "UploaderRetryLimit"
+- "Urgent Update"
+- "Value"
+- "VendorID"
+- "VendorName"
+- "Version BVER File"
+- "Version File"
+- "Voice Assist Certificate"
+- "Voice Assist Digest"
+- "Voice Assist Engine Version"
+- "Voice Assist Hash"
+- "Voice Assist Locale"
+- "Voice Assist Role"
+- "Voice Assist Signature"
+- "Voice Assist Type"
+- "VoiceAssist"
+- "accessories"
+- "accessoryNameForIdentifier:name:serialNumber:fusingType:"
+- "accessoryReachable"
+- "accessory_pid"
+- "accessory_type"
+- "activeVersion"
+- "allKeys"
+- "analytics_test_mode"
+- "application-info"
+- "arrayWithObjects:"
+- "assetLocation"
+- "assetURL"
+- "assetURLOverride"
+- "authListingEnabled"
+- "basejumperBuild"
+- "basejumperTrain"
+- "bug_type"
+- "caseInsensitiveCompare:"
+- "checkmark"
+- "cmap"
+- "cmapdatabase"
+- "com.apple.AUDeveloperSettings"
+- "com.apple.AUDeveloperSettings.followup"
+- "com.apple.Bluetooth.AccessoryCase.pif_daily"
+- "com.apple.MobileAsset.UARP"
+- "com.apple.UARPUpdaterServiceHID"
+- "com.apple.UARPUpdaterServiceUSBPD"
+- "com.apple.accessoryupdater.launchauhelper"
+- "com.apple.accessoryupdater.observer"
+- "com.apple.accessoryupdaterd"
+- "com.apple.corespeech.voicetriggerassetchange"
+- "com.apple.system.powermanagement.poweradapter"
+- "com.apple.system.powersources.percent"
+- "com.apple.system.powersources.source"
+- "com.apple.uarp.BTLEServer.personalizationNeeded"
+- "com.apple.uarp.UARPUpdaterServiceHID.personalizationNeeded"
+- "com.apple.uarp.internal.personalization"
+- "copy"
+- "core"
+- "crashlog"
+- "crashlogs"
+- "crsh"
+- "customerOnly"
+- "decoderId"
+- "default"
+- "dictionary"
+- "dictionaryWithDictionary:"
+- "downloadedVersion"
+- "dropboxVersion"
+- "dynamicassets"
+- "enumerateKeysAndObjectsUsingBlock:"
+- "firmware"
+- "fusing"
+- "https://basejumper.apple.com/assets/"
+- "https://basejumper.apple.com/livability/"
+- "https://basejumper.apple.com/mesu_staging"
+- "https://gs.apple.com:443"
+- "https://mesu.apple.com/assets"
+- "https://mesu.apple.com/assets/macos/"
+- "hwFusingType"
+- "hwRevision"
+- "id"
+- "initWithSuiteName:"
+- "input"
+- "isOTADisabled"
+- "isPowerSource"
+- "isValidLocationType:"
+- "items"
+- "kAUSettingsProgressActiveSerialNumber"
+- "label"
+- "log_version"
+- "logs"
+- "migrateExistingDefaults"
+- "modelNumber"
+- "numberWithUnsignedShort:"
+- "objectAtIndexedSubscript:"
+- "objectForKey:"
+- "partnerSerialNumbers"
+- "pathWithComponents:"
+- "pcapfiles"
+- "personalizationRequired"
+- "prefs:root=INTERNAL_SETTINGS&path=AccessoriesFirmwareUpdate"
+- "prod"
+- "releasenotes"
+- "remoteObjectInterface"
+- "removeObjectForKey:"
+- "sections"
+- "seedParticipation"
+- "seedParticipationDictionary"
+- "setAccessoriesDictionary:"
+- "setClasses:forSelector:argumentIndex:ofReply:"
+- "setObject:forKey:"
+- "setWithObjects:"
+- "sharedInstance"
+- "supplementalAssetLocation"
+- "supplementalBasejumperBuild"
+- "supplementalBasejumperTrain"
+- "supplementalassets"
+- "supportsInternalSettings"
+- "sysdiagnose"
+- "sysdiagnose_approved"
+- "taptoradar"
+- "tatsuSigningServer"
+- "tmap"
+- "tmapdatabase"
+- "tmpfiles"
+- "unrecognized"
+- "urlLocationTypeForAccessory:"
+- "userPreferenceObjectForSuite:withKey:withReply:"
+- "userPreferenceSetObject:forSuite:withKey:"
+- "uuid"
+- "v16@?0@8"
+- "v32@0:8@16Q24"
+- "v32@?0@\"NSString\"8@\"NSDictionary\"16^B24"
+- "v40@0:8@16Q24@\"NSString\"32"
+- "v40@0:8@16Q24@32"
+- "v40@0:8Q16@\"NSString\"24@?<v@?@>32"
+- "v40@0:8Q16@24@?32"
+- "v48@0:8@16^@24^@32^Q40"
+- "xpcConnectionToHelper"
+
+```

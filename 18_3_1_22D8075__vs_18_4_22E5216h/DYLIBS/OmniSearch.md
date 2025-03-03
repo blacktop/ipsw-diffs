@@ -1,0 +1,6876 @@
+## OmniSearch
+
+> `/System/Library/PrivateFrameworks/OmniSearch.framework/OmniSearch`
+
+```diff
+
+-3402.71.1.0.0
+-  __TEXT.__text: 0x8925d4
+-  __TEXT.__auth_stubs: 0x4f60
+-  __TEXT.__objc_methlist: 0x6c
+-  __TEXT.__const: 0x1a998
+-  __TEXT.__cstring: 0x9de8
+-  __TEXT.__swift5_typeref: 0x7e30
+-  __TEXT.__oslogstring: 0x8db9
+-  __TEXT.__constg_swiftt: 0x54b0
+-  __TEXT.__swift5_reflstr: 0x5e12
+-  __TEXT.__swift5_fieldmd: 0x949c
+-  __TEXT.__swift5_builtin: 0xa0
+-  __TEXT.__swift5_assocty: 0x1938
+-  __TEXT.__swift5_proto: 0x1b0c
+-  __TEXT.__swift5_types: 0x670
+-  __TEXT.__swift5_protos: 0xd4
+-  __TEXT.__swift5_capture: 0x189c
+-  __TEXT.__swift5_mpenum: 0x10
+-  __TEXT.__unwind_info: 0xcb20
+-  __TEXT.__eh_frame: 0x11998
++3404.74.3.0.0
++  __TEXT.__text: 0x35e0ac
++  __TEXT.__auth_stubs: 0x5da0
++  __TEXT.__objc_methlist: 0x330
++  __TEXT.__const: 0x23238
++  __TEXT.__cstring: 0xbdce
++  __TEXT.__swift5_typeref: 0x9730
++  __TEXT.__oslogstring: 0xd40e
++  __TEXT.__swift5_capture: 0xb64
++  __TEXT.__swift5_fieldmd: 0xb474
++  __TEXT.__constg_swiftt: 0x662c
++  __TEXT.__swift5_reflstr: 0x6e9d
++  __TEXT.__swift5_builtin: 0xdc
++  __TEXT.__swift5_assocty: 0x1e60
++  __TEXT.__swift5_protos: 0xf0
++  __TEXT.__swift5_proto: 0x21f0
++  __TEXT.__swift5_types: 0x7f0
++  __TEXT.__swift_as_entry: 0x734
++  __TEXT.__swift_as_ret: 0x7b0
++  __TEXT.__swift5_mpenum: 0x2c
++  __TEXT.__unwind_info: 0xe640
++  __TEXT.__eh_frame: 0x169a4
+   __TEXT.__objc_classname: 0xad
+-  __TEXT.__objc_methname: 0x2178
++  __TEXT.__objc_methname: 0x2d4b
+   __TEXT.__objc_methtype: 0x26e
+-  __DATA_CONST.__got: 0x1968
+-  __DATA_CONST.__const: 0x20d8
+-  __DATA_CONST.__objc_classlist: 0x160
++  __DATA_CONST.__got: 0x1c28
++  __DATA_CONST.__const: 0x29f8
++  __DATA_CONST.__objc_classlist: 0x198
+   __DATA_CONST.__objc_protolist: 0xa0
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0xcb8
++  __DATA_CONST.__objc_selrefs: 0x1200
+   __DATA_CONST.__objc_protorefs: 0x50
+-  __AUTH_CONST.__auth_got: 0x27b0
+-  __AUTH_CONST.__auth_ptr: 0x15b0
+-  __AUTH_CONST.__const: 0x12450
+-  __AUTH_CONST.__objc_const: 0x3228
+-  __AUTH.__objc_data: 0x268
+-  __AUTH.__data: 0x4750
+-  __DATA.__data: 0x7e40
+-  __DATA.__bss: 0x32320
+-  __DATA.__common: 0x5b0
+-  __DATA_DIRTY.__objc_data: 0x3b0
+-  __DATA_DIRTY.__data: 0x12c8
+-  __DATA_DIRTY.__bss: 0x200
+-  __DATA_DIRTY.__common: 0xb8
++  __AUTH_CONST.__auth_got: 0x2ed0
++  __AUTH_CONST.__auth_ptr: 0x1788
++  __AUTH_CONST.__const: 0x14a90
++  __AUTH_CONST.__objc_const: 0x3290
++  __AUTH.__objc_data: 0x1e0
++  __AUTH.__data: 0x4f28
++  __DATA.__data: 0x9ce8
++  __DATA.__bss: 0x3f320
++  __DATA.__common: 0x500
++  __DATA_DIRTY.__objc_data: 0x438
++  __DATA_DIRTY.__data: 0x1938
++  __DATA_DIRTY.__bss: 0x980
++  __DATA_DIRTY.__common: 0x158
+   - /System/Library/Frameworks/Accelerate.framework/Accelerate
+   - /System/Library/Frameworks/AppIntents.framework/AppIntents
+   - /System/Library/Frameworks/Contacts.framework/Contacts
+
+   - /System/Library/Frameworks/CoreSpotlight.framework/CoreSpotlight
+   - /System/Library/Frameworks/CoreTransferable.framework/CoreTransferable
+   - /System/Library/Frameworks/DataDetection.framework/DataDetection
++  - /System/Library/Frameworks/EventKit.framework/EventKit
+   - /System/Library/Frameworks/Foundation.framework/Foundation
++  - /System/Library/Frameworks/NaturalLanguage.framework/NaturalLanguage
+   - /System/Library/Frameworks/Photos.framework/Photos
+   - /System/Library/Frameworks/Vision.framework/Vision
++  - /System/Library/PrivateFrameworks/AXCoreUtilities.framework/AXCoreUtilities
+   - /System/Library/PrivateFrameworks/AssistantServices.framework/AssistantServices
+-  - /System/Library/PrivateFrameworks/BiomeLibrary.framework/BiomeLibrary
+   - /System/Library/PrivateFrameworks/BiomeStreams.framework/BiomeStreams
+   - /System/Library/PrivateFrameworks/ContactsFoundation.framework/ContactsFoundation
+   - /System/Library/PrivateFrameworks/CoreSceneUnderstanding.framework/CoreSceneUnderstanding
+   - /System/Library/PrivateFrameworks/DataDetectorsCore.framework/DataDetectorsCore
++  - /System/Library/PrivateFrameworks/DiagnosticRequest.framework/DiagnosticRequest
+   - /System/Library/PrivateFrameworks/Email.framework/Email
+   - /System/Library/PrivateFrameworks/EmailCore.framework/EmailCore
+-  - /System/Library/PrivateFrameworks/FamilyCircle.framework/FamilyCircle
+   - /System/Library/PrivateFrameworks/FeatureFlags.framework/FeatureFlags
++  - /System/Library/PrivateFrameworks/FeatureStore.framework/FeatureStore
+   - /System/Library/PrivateFrameworks/GenerativeFunctions.framework/GenerativeFunctions
+   - /System/Library/PrivateFrameworks/GenerativeFunctionsFoundation.framework/GenerativeFunctionsFoundation
+   - /System/Library/PrivateFrameworks/GenerativeModels.framework/GenerativeModels
+
+   - /System/Library/PrivateFrameworks/IntelligenceFlow.framework/IntelligenceFlow
+   - /System/Library/PrivateFrameworks/IntelligencePlatform.framework/IntelligencePlatform
+   - /System/Library/PrivateFrameworks/IntelligencePlatformLibrary.framework/IntelligencePlatformLibrary
++  - /System/Library/PrivateFrameworks/IntelligencePlatformLibrary_AppleInternal.framework/IntelligencePlatformLibrary_AppleInternal
+   - /System/Library/PrivateFrameworks/InternalSwiftProtobuf.framework/InternalSwiftProtobuf
+   - /System/Library/PrivateFrameworks/LinkMetadata.framework/LinkMetadata
+   - /System/Library/PrivateFrameworks/LinkServices.framework/LinkServices
+   - /System/Library/PrivateFrameworks/MediaAnalysisServices.framework/MediaAnalysisServices
++  - /System/Library/PrivateFrameworks/MobileKeyBag.framework/MobileKeyBag
+   - /System/Library/PrivateFrameworks/ModelCatalog.framework/ModelCatalog
++  - /System/Library/PrivateFrameworks/ModelManagerServices.framework/ModelManagerServices
+   - /System/Library/PrivateFrameworks/OmniSearchTypes.framework/OmniSearchTypes
+   - /System/Library/PrivateFrameworks/PegasusAPI.framework/PegasusAPI
+   - /System/Library/PrivateFrameworks/PromptKit.framework/PromptKit
+   - /System/Library/PrivateFrameworks/QueryParser.framework/QueryParser
+   - /System/Library/PrivateFrameworks/RequestDispatcherBridges.framework/RequestDispatcherBridges
++  - /System/Library/PrivateFrameworks/ResponseUI.framework/ResponseUI
+   - /System/Library/PrivateFrameworks/SAObjects.framework/SAObjects
+   - /System/Library/PrivateFrameworks/SearchFoundation.framework/SearchFoundation
++  - /System/Library/PrivateFrameworks/SearchUI.framework/SearchUI
+   - /System/Library/PrivateFrameworks/SiriInformationSearch.framework/SiriInformationSearch
+   - /System/Library/PrivateFrameworks/SiriInformationTypes.framework/SiriInformationTypes
+   - /System/Library/PrivateFrameworks/SiriKitFlow.framework/SiriKitFlow
+   - /System/Library/PrivateFrameworks/SiriNLUTypes.framework/SiriNLUTypes
++  - /System/Library/PrivateFrameworks/SiriOntology.framework/SiriOntology
+   - /System/Library/PrivateFrameworks/SiriUtilities.framework/SiriUtilities
+   - /System/Library/PrivateFrameworks/SnippetKit.framework/SnippetKit
+   - /System/Library/PrivateFrameworks/Spotlight.framework/Spotlight
+
+   - /System/Library/PrivateFrameworks/TokenGeneration.framework/TokenGeneration
+   - /System/Library/PrivateFrameworks/ToolKit.framework/ToolKit
+   - /System/Library/PrivateFrameworks/UIKitCore.framework/UIKitCore
++  - /System/Library/PrivateFrameworks/UnifiedAssetFramework.framework/UnifiedAssetFramework
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/swift/libswiftAVFoundation.dylib
+   - /usr/lib/swift/libswiftAccelerate.dylib
+   - /usr/lib/swift/libswiftAppleArchive.dylib
++  - /usr/lib/swift/libswiftCallKit.dylib
+   - /usr/lib/swift/libswiftCompression.dylib
+   - /usr/lib/swift/libswiftCore.dylib
+   - /usr/lib/swift/libswiftCoreAudio.dylib
+
+   - /usr/lib/swift/libswiftDarwin.dylib
+   - /usr/lib/swift/libswiftDataDetection.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+-  - /usr/lib/swift/libswiftFileProvider.dylib
++  - /usr/lib/swift/libswiftGLKit.dylib
+   - /usr/lib/swift/libswiftIntents.dylib
+   - /usr/lib/swift/libswiftMLCompute.dylib
+   - /usr/lib/swift/libswiftMapKit.dylib
+   - /usr/lib/swift/libswiftMetal.dylib
++  - /usr/lib/swift/libswiftMetalKit.dylib
++  - /usr/lib/swift/libswiftModelIO.dylib
+   - /usr/lib/swift/libswiftNaturalLanguage.dylib
+   - /usr/lib/swift/libswiftOSLog.dylib
+   - /usr/lib/swift/libswiftObjectiveC.dylib
+   - /usr/lib/swift/libswiftQuartzCore.dylib
+   - /usr/lib/swift/libswiftRegexBuilder.dylib
++  - /usr/lib/swift/libswiftSceneKit.dylib
+   - /usr/lib/swift/libswiftSpatial.dylib
+   - /usr/lib/swift/libswiftSystem.dylib
+   - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
+   - /usr/lib/swift/libswiftVideoToolbox.dylib
+-  - /usr/lib/swift/libswiftWebKit.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
+
+   - /usr/lib/swift/libswiftsimd.dylib
+   - /usr/lib/swift/libswiftsys_time.dylib
+   - /usr/lib/swift/libswiftunistd.dylib
+-  Functions: 20851
+-  Symbols:   32696
+-  CStrings:  2381
++  Functions: 25555
++  Symbols:   40264
++  CStrings:  2993
+ 
+Symbols:
++ _$s10AppIntents0A11IntentErrorV18PermissionRequiredO8location7preciseACSb_tFZ
++ _$s10AppIntents0A11IntentErrorVMa
++ _$s10AppIntents0A11IntentErrorVs0D0AAMc
++ _$s10AppIntents10IntentFileV10OmniSearchE11experiences8fileNameACSay015SiriInformationF010ExperienceCG_SStKcfC
++ _$s10AppIntents10IntentFileV10OmniSearchE11experiences8fileNameACSay015SiriInformationF010ExperienceCG_SStKcfcfA0_
++ _$s10AppIntents10IntentFileVAA01_C5ValueAAMc
++ _$s10AppIntents10OpenIntentPAAE7performQryYaKF
++ _$s10AppIntents10OpenIntentPAAE7performQryYaKFQOMQ
++ _$s10AppIntents10OpenIntentPAAE7performQryYaKFTu
++ _$s10AppIntents11EntityQueryP22displayRepresentations3for19requestedComponentsSDy0C0_2IDQZAA21DisplayRepresentationVGSayAIG_AK0I0VtYaKFTq
++ _$s10AppIntents11EntityQueryPAAE22displayRepresentations3for19requestedComponentsSDy0C0_2IDQZAA21DisplayRepresentationVGSayAIG_AK0I0VtYaKF
++ _$s10AppIntents11EntityQueryPAAE22displayRepresentations3for19requestedComponentsSDy0C0_2IDQZAA21DisplayRepresentationVGSayAIG_AK0I0VtYaKFTu
++ _$s10AppIntents12IntentPersonV10IdentifierO7contactyAESScAEmFWC
++ _$s10AppIntents12IntentPersonV10IdentifierO7unknownyA2EmFWC
++ _$s10AppIntents12IntentPersonV10IdentifierOMa
++ _$s10AppIntents12IntentPersonV10OmniSearchE4make15extractedFields9ecrClientSayACGSgSDyS2SG_AD17ECRClientProtocol_pSgtYaKFZ
++ _$s10AppIntents12IntentPersonV10OmniSearchE4make15extractedFields9ecrClientSayACGSgSDyS2SG_AD17ECRClientProtocol_pSgtYaKFZTu
++ _$s10AppIntents12IntentPersonV10OmniSearchE4make19dataDetectingString9ecrClientSayACGSgSS_AD17ECRClientProtocol_pSgtYaKFZ
++ _$s10AppIntents12IntentPersonV10OmniSearchE4make19dataDetectingString9ecrClientSayACGSgSS_AD17ECRClientProtocol_pSgtYaKFZTu
++ _$s10AppIntents12IntentPersonV10OmniSearchE6resultAcD09ECRClientD6ResultV_tcfC
++ _$s10AppIntents12IntentPersonV10identifier4name6handle7aliases4isMe5imageA2C10IdentifierO_AC4NameOAC6HandleVSgSayAOGSbAA21DisplayRepresentationV5ImageVSgtcfC
++ _$s10AppIntents12IntentPersonV4NameO07displayE0yAESScAEmFWC
++ _$s10AppIntents12IntentPersonV4NameOMa
++ _$s10AppIntents12IntentPersonV6HandleV11phoneNumber5labelAESS_AE5LabelOtcfC
++ _$s10AppIntents12IntentPersonV6HandleV12emailAddress5labelAESS_AE5LabelOtcfC
++ _$s10AppIntents12IntentPersonV6HandleV5LabelO5otheryA2GmFWC
++ _$s10AppIntents12IntentPersonV6HandleV5LabelOMa
++ _$s10AppIntents12IntentPersonV6HandleV5ValueO11phoneNumberyAGSScAGmFWC
++ _$s10AppIntents12IntentPersonV6HandleV5ValueOMa
++ _$s10AppIntents12IntentPersonV6HandleVMa
++ _$s10AppIntents12IntentPersonV6HandleVMn
++ _$s10AppIntents12IntentPersonV6HandleV_5labelA2E5ValueO_AE5LabelOtcfC
++ _$s10AppIntents12IntentPersonV6handleA2C6HandleV_tcfC
++ _$s10AppIntents12IntentPersonVAA01_C5ValueAAMc
++ _$s10AppIntents14EntityPropertyCA2A17IntentApplicationV9ValueTypeRtzrlE5titleACyxG10Foundation23LocalizedStringResourceV_tcfC
++ _$s10AppIntents14EntityPropertyCMa
++ _$s10AppIntents17IntentApplicationV16bundleIdentifierSSvg
++ _$s10AppIntents17IntentApplicationVAA01_C5ValueAAMc
++ _$s10AppIntents17IntentApplicationVMa
++ _$s10AppIntents17IntentApplicationVMn
++ _$s10AppIntents17IntentApplicationVyACSScfC
++ _$s10AppIntents19IntentSystemContextV09AssistantE0V15InteractionModeO10OmniSearchE8asStringSSSgvg
++ _$s10AppIntents19IntentSystemContextV09AssistantE0V15InteractionModeO10OmniSearchE8asStringSSSgvpMV
++ _$s10AppIntents19IntentSystemContextV09AssistantE0V15InteractionModeO11displayOnlyyA2GmFWC
++ _$s10AppIntents19IntentSystemContextV09AssistantE0V15InteractionModeO12voiceForwardyA2GmFWC
++ _$s10AppIntents19IntentSystemContextV09AssistantE0V15InteractionModeO14displayForwardyA2GmFWC
++ _$s10AppIntents19IntentSystemContextV09AssistantE0V15InteractionModeO9voiceOnlyyA2GmFWC
++ _$s10AppIntents19IntentSystemContextV09AssistantE0V15InteractionModeOSQAAMc
++ _$s10AppIntents19IntentSystemContextV14InterfaceIdiomO7carPlayyA2EmFWC
++ _$s10AppIntents19IntentSystemContextV14InterfaceIdiomO8eyesFreeyA2EmFWC
++ _$s10AppIntents19IntentSystemContextV14InterfaceIdiomO8rawValueSSvg
++ _$s10AppIntents19IntentSystemContextV14InterfaceIdiomOMa
++ _$s10AppIntents19IntentSystemContextV14InterfaceIdiomOMn
++ _$s10AppIntents19IntentSystemContextV14interfaceIdiomAC09InterfaceG0OSgvg
++ _$s10AppIntents21DisplayRepresentationV2eeoiySbAC_ACtFZ
++ _$s10AppIntents23ProgressReportingIntentMp
++ _$s10AppIntents23ProgressReportingIntentPAA0aE0Tb
++ _$s10AppIntents23ProgressReportingIntentPAAE8progressSo10NSProgressCvg
++ _$s10AppIntents26IntentAuthenticationPolicyO08requiresD0yA2CmFWC
++ _$s10AppIntents28InstanceDisplayRepresentableP21displayRepresentation4withAA0dG0VAG10ComponentsV_tYaFTq
++ _$s10AppIntents28InstanceDisplayRepresentablePAAE21displayRepresentation4withAA0dG0VAG10ComponentsV_tYaF
++ _$s10AppIntents28InstanceDisplayRepresentablePAAE21displayRepresentation4withAA0dG0VAG10ComponentsV_tYaFTu
++ _$s10Foundation11FormatStyleMp
++ _$s10Foundation11FormatStyleP6formaty0B6OutputQz0B5InputQzFTj
++ _$s10Foundation11FormatStyleP6formaty0B6OutputQz0B5InputQzFTq
++ _$s10Foundation11FormatStyleP6localeyxAA6LocaleVFTq
++ _$s10Foundation11FormatStylePAAE6localeyxAA6LocaleVF
++ _$s10Foundation11FormatStylePSETb
++ _$s10Foundation11FormatStylePSHTb
++ _$s10Foundation11FormatStylePSeTb
++ _$s10Foundation13CustomNSErrorMp
++ _$s10Foundation13CustomNSErrorP11errorDomainSSvgZTq
++ _$s10Foundation13CustomNSErrorP13errorUserInfoSDySSypGvgTq
++ _$s10Foundation13CustomNSErrorP9errorCodeSivgTq
++ _$s10Foundation13CustomNSErrorPs5ErrorTb
++ _$s10Foundation14DateComponentsV10AppIntents12_IntentValueADMc
++ _$s10Foundation14DateComponentsV10OmniSearchE4fromACSDySSSiG_tcfC
++ _$s10Foundation14DateComponentsV11descriptionSSvg
++ _$s10Foundation14DateComponentsV4hourSiSgvg
++ _$s10Foundation14DateComponentsV4hourSiSgvs
++ _$s10Foundation14DateComponentsV5monthSiSgvg
++ _$s10Foundation14DateComponentsV6minuteSiSgvs
++ _$s10Foundation14DateComponentsV7weekdaySiSgvs
++ _$s10Foundation14LocalizedErrorMp
++ _$s10Foundation14LocalizedErrorP10helpAnchorSSSgvgTq
++ _$s10Foundation14LocalizedErrorP13failureReasonSSSgvgTq
++ _$s10Foundation14LocalizedErrorP16errorDescriptionSSSgvgTq
++ _$s10Foundation14LocalizedErrorP18recoverySuggestionSSSgvgTq
++ _$s10Foundation14LocalizedErrorPAAE10helpAnchorSSSgvg
++ _$s10Foundation14LocalizedErrorPAAE13failureReasonSSSgvg
++ _$s10Foundation14LocalizedErrorPAAE16errorDescriptionSSSgvg
++ _$s10Foundation14LocalizedErrorPAAE18recoverySuggestionSSSgvg
++ _$s10Foundation14LocalizedErrorPs0C0Tb
++ _$s10Foundation22_convertErrorToNSErrorySo0E0Cs0C0_pF
++ _$s10Foundation3URLV10AppIntents12_IntentValueADMc
++ _$s10Foundation3URLV10OmniSearchE10hostedLinkACSgSS_tcfC
++ _$s10Foundation3URLV11descriptionSSvg
++ _$s10Foundation3URLV15fileURLWithPathACSSh_tcfC
++ _$s10Foundation4DataV10contentsOf7optionsAcA3URLVh_So20NSDataReadingOptionsVtKcfC
++ _$s10Foundation4DataV11descriptionSSvg
++ _$s10Foundation4DataV13_copyContents12initializingAC8IteratorV_SitSrys5UInt8VG_tF
++ _$s10Foundation4DataV8IteratorVMa
++ _$s10Foundation4DateV10AppIntents12_IntentValueADMc
++ _$s10Foundation4DateV11FormatStyleV6SymbolV4HourV7omittedAIvgZ
++ _$s10Foundation4DateV11FormatStyleV6SymbolV4YearV7omittedAIvgZ
++ _$s10Foundation4DateV11FormatStyleV6SymbolV4YearV8extended13minimumLengthAISi_tFZ
++ _$s10Foundation4DateV11FormatStyleV6SymbolV5MonthV4wideAIvgZ
++ _$s10Foundation4DateV11FormatStyleV6SymbolV6MinuteV7omittedAIvgZ
++ _$s10Foundation4DateV11FormatStyleV6SymbolV7WeekdayV7omittedAIvgZ
++ _$s10Foundation4DateV11descriptionSSvg
++ _$s10Foundation6LocaleV10identifier_4fromSSAC14IdentifierTypeO_SStFZ
++ _$s10Foundation6LocaleV12LanguageCodeV13stringLiteralAESS_tcfC
++ _$s10Foundation6LocaleV12LanguageCodeVSQAAMc
++ _$s10Foundation6LocaleV12LanguageCodeVs23CustomStringConvertible15AXCoreUtilitiesMc
++ _$s10Foundation6LocaleV14IdentifierTypeO3icuyA2EmFWC
++ _$s10Foundation6LocaleV14IdentifierTypeOMa
++ _$s10Foundation6LocaleV19autoupdatingCurrentACvgZ
++ _$s10Foundation6LocaleVs23CustomStringConvertibleAAMc
++ _$s10Foundation8CalendarV2eeoiySbAC_ACtFZ
++ _$s10Foundation8CalendarV4date8byAdding5value2to18wrappingComponentsAA4DateVSgAC9ComponentO_SiAJSbtF
++ _$s10Foundation8CalendarV6isDate_7equalTo13toGranularitySbAA0D0V_AhC9ComponentOtF
++ _$s10Foundation8CalendarV9ComponentO10weekOfYearyA2EmFWC
++ _$s10Foundation8CalendarVSEAAMc
++ _$s10Foundation8CalendarVSHAAMc
++ _$s10Foundation8CalendarVSeAAMc
++ _$s10ObjectiveC8SelectorVyACSScfC
++ _$s10OmniSearch010LocalIndexB5AgentP10deactivateyyYaFTj
++ _$s10OmniSearch010LocalIndexB5AgentP10deactivateyyYaFTjTu
++ _$s10OmniSearch010LocalIndexB5AgentP10deactivateyyYaFTq
++ _$s10OmniSearch010LocalIndexB5AgentP6search4withAA15SpotlightResultVSo20SPSearchQueryContextC_tYaKFTj
++ _$s10OmniSearch010LocalIndexB5AgentP6search4withAA15SpotlightResultVSo20SPSearchQueryContextC_tYaKFTjTu
++ _$s10OmniSearch010LocalIndexB5AgentP6search4withAA15SpotlightResultVSo20SPSearchQueryContextC_tYaKFTq
++ _$s10OmniSearch010LocalIndexB5AgentP8activateyyYaFTj
++ _$s10OmniSearch010LocalIndexB5AgentP8activateyyYaFTjTu
++ _$s10OmniSearch010LocalIndexB5AgentP8activateyyYaFTq
++ _$s10OmniSearch011PhotosInAppB15StringGeneratorC08generatedebF010structured10ecrResultsSSAA21StructuredQueryEntityVSg_SDyS2SGSgtF
++ _$s10OmniSearch011PhotosInAppB15StringGeneratorC08generatedebF010structured10ecrResultsSSAA21StructuredQueryEntityVSg_SDyS2SGSgtFTj
++ _$s10OmniSearch011PhotosInAppB15StringGeneratorC08generatedebF010structured10ecrResultsSSAA21StructuredQueryEntityVSg_SDyS2SGSgtFTq
++ _$s10OmniSearch011PhotosInAppB15StringGeneratorCAA0debfG0AAMc
++ _$s10OmniSearch011PhotosInAppB15StringGeneratorCAA0debfG0AAWP
++ _$s10OmniSearch011PhotosInAppB15StringGeneratorCACycfC
++ _$s10OmniSearch011PhotosInAppB15StringGeneratorCACycfCTj
++ _$s10OmniSearch011PhotosInAppB15StringGeneratorCACycfCTq
++ _$s10OmniSearch011PhotosInAppB15StringGeneratorCACycfc
++ _$s10OmniSearch011PhotosInAppB15StringGeneratorCMa
++ _$s10OmniSearch011PhotosInAppB15StringGeneratorCMm
++ _$s10OmniSearch011PhotosInAppB15StringGeneratorCMn
++ _$s10OmniSearch011PhotosInAppB15StringGeneratorCMo
++ _$s10OmniSearch011PhotosInAppB15StringGeneratorCMu
++ _$s10OmniSearch011PhotosInAppB15StringGeneratorCN
++ _$s10OmniSearch011PhotosInAppB15StringGeneratorCfD
++ _$s10OmniSearch011PhotosInAppB15StringGeneratorCfd
++ _$s10OmniSearch012preExtractedB6Result4from20spotlightRankingItem19eventSourceItemsMapAA0bE0VSgSo012CSSearchableI0C_AA09SpotlighthI0VSDySSSayAJGGtF
++ _$s10OmniSearch019BundleIdEventSourceD7MappingV4dictSDyS2SGvpZMV
++ _$s10OmniSearch026PartialExtractedAttributesB4ItemPAAE24llmConsumableDescription6localeS2SSg_tF
++ _$s10OmniSearch04OpenB21SpotlightEntityIntentV11description10AppIntents0F11DescriptionVSgvpZMV
++ _$s10OmniSearch04OpenB21SpotlightEntityIntentV13assistantOnlySbvpZMV
++ _$s10OmniSearch04OpenB21SpotlightEntityIntentV14isDiscoverableSbvpZMV
++ _$s10OmniSearch04OpenB21SpotlightEntityIntentV14openAppWhenRunSbvau
++ _$s10OmniSearch04OpenB21SpotlightEntityIntentV14openAppWhenRunSbvgZ
++ _$s10OmniSearch04OpenB21SpotlightEntityIntentV14openAppWhenRunSbvpZ
++ _$s10OmniSearch04OpenB21SpotlightEntityIntentV14openAppWhenRunSbvpZMV
++ _$s10OmniSearch04OpenB21SpotlightEntityIntentV5title10Foundation23LocalizedStringResourceVvpZMV
++ _$s10OmniSearch05InAppB15StringGeneratorMp
++ _$s10OmniSearch05InAppB15StringGeneratorP08generatecdbE010structured10ecrResultsSSAA21StructuredQueryEntityVSg_SDyS2SGSgtFTj
++ _$s10OmniSearch05InAppB15StringGeneratorP08generatecdbE010structured10ecrResultsSSAA21StructuredQueryEntityVSg_SDyS2SGSgtFTq
++ _$s10OmniSearch05InAppB15StringGeneratorTL
++ _$s10OmniSearch05InAppB20StringGeneratorUtilsO13whitespaceSepSSvau
++ _$s10OmniSearch05InAppB20StringGeneratorUtilsO13whitespaceSepSSvgZ
++ _$s10OmniSearch05InAppB20StringGeneratorUtilsO13whitespaceSepSSvpZ
++ _$s10OmniSearch05InAppB20StringGeneratorUtilsO13whitespaceSepSSvpZMV
++ _$s10OmniSearch05InAppB20StringGeneratorUtilsO2meSSvau
++ _$s10OmniSearch05InAppB20StringGeneratorUtilsO2meSSvgZ
++ _$s10OmniSearch05InAppB20StringGeneratorUtilsO2meSSvpZ
++ _$s10OmniSearch05InAppB20StringGeneratorUtilsO2meSSvpZMV
++ _$s10OmniSearch05InAppB20StringGeneratorUtilsO3add6fields06searchE0SSSaySSGSg_SStFZ
++ _$s10OmniSearch05InAppB20StringGeneratorUtilsO3add6fields10leadingSep05delimK006searchE0SSSaySSGSg_S3StFZ
++ _$s10OmniSearch05InAppB20StringGeneratorUtilsO5atSepSSvau
++ _$s10OmniSearch05InAppB20StringGeneratorUtilsO5atSepSSvgZ
++ _$s10OmniSearch05InAppB20StringGeneratorUtilsO5atSepSSvpZ
++ _$s10OmniSearch05InAppB20StringGeneratorUtilsO5atSepSSvpZMV
++ _$s10OmniSearch05InAppB20StringGeneratorUtilsO5inSepSSvau
++ _$s10OmniSearch05InAppB20StringGeneratorUtilsO5inSepSSvgZ
++ _$s10OmniSearch05InAppB20StringGeneratorUtilsO5inSepSSvpZ
++ _$s10OmniSearch05InAppB20StringGeneratorUtilsO5inSepSSvpZMV
++ _$s10OmniSearch05InAppB20StringGeneratorUtilsO5parse6peopleAA6PeopleVSayAA17PersonQueryEntityVGSg_tFZ
++ _$s10OmniSearch05InAppB20StringGeneratorUtilsO5parse9locationsAA9LocationsVSayAA19LocationQueryEntityVGSg_tFZ
++ _$s10OmniSearch05InAppB20StringGeneratorUtilsO5toSepSSvau
++ _$s10OmniSearch05InAppB20StringGeneratorUtilsO5toSepSSvgZ
++ _$s10OmniSearch05InAppB20StringGeneratorUtilsO5toSepSSvpZ
++ _$s10OmniSearch05InAppB20StringGeneratorUtilsO5toSepSSvpZMV
++ _$s10OmniSearch05InAppB20StringGeneratorUtilsO6andSepSSvau
++ _$s10OmniSearch05InAppB20StringGeneratorUtilsO6andSepSSvgZ
++ _$s10OmniSearch05InAppB20StringGeneratorUtilsO6andSepSSvpZ
++ _$s10OmniSearch05InAppB20StringGeneratorUtilsO6andSepSSvpZMV
++ _$s10OmniSearch05InAppB20StringGeneratorUtilsO6ground6people10ecrResults0H4SelfSaySSGSgAI_SDyS2SGSgSbtFZ
++ _$s10OmniSearch05InAppB20StringGeneratorUtilsO7fromSepSSvau
++ _$s10OmniSearch05InAppB20StringGeneratorUtilsO7fromSepSSvgZ
++ _$s10OmniSearch05InAppB20StringGeneratorUtilsO7fromSepSSvpZ
++ _$s10OmniSearch05InAppB20StringGeneratorUtilsO7fromSepSSvpZMV
++ _$s10OmniSearch05InAppB20StringGeneratorUtilsOMa
++ _$s10OmniSearch05InAppB20StringGeneratorUtilsOMn
++ _$s10OmniSearch05InAppB20StringGeneratorUtilsON
++ _$s10OmniSearch05LocalB7ManagerC6search4withAA15SpotlightResultVSo20SPSearchQueryContextC_tYaKF
++ _$s10OmniSearch05LocalB7ManagerC6search4withAA15SpotlightResultVSo20SPSearchQueryContextC_tYaKFTj
++ _$s10OmniSearch05LocalB7ManagerC6search4withAA15SpotlightResultVSo20SPSearchQueryContextC_tYaKFTjTu
++ _$s10OmniSearch05LocalB7ManagerC6search4withAA15SpotlightResultVSo20SPSearchQueryContextC_tYaKFTq
++ _$s10OmniSearch05LocalB7ManagerC6search4withAA15SpotlightResultVSo20SPSearchQueryContextC_tYaKFTu
++ _$s10OmniSearch05LocalB7ManagerC6sharedACvpZMV
++ _$s10OmniSearch05LocalB7ServiceV011featureFlagD0AA07FeaturefD0Cvg
++ _$s10OmniSearch05LocalB7ServiceV011featureFlagD0AA07FeaturefD0CvpMV
++ _$s10OmniSearch05LocalB7ServiceV12maxItemCount011featureFlagD0ACSiSg_AA07FeatureiD0CtcfC
++ _$s10OmniSearch05LocalB7ServiceV13dateFormatterSo06NSDateF0CvpZMV
++ _$s10OmniSearch05LocalB7ServiceV14iWorkBundleIdsShySSGvau
++ _$s10OmniSearch05LocalB7ServiceV14iWorkBundleIdsShySSGvgZ
++ _$s10OmniSearch05LocalB7ServiceV14iWorkBundleIdsShySSGvpZ
++ _$s10OmniSearch05LocalB7ServiceV14iWorkBundleIdsShySSGvpZMV
++ _$s10OmniSearch05LocalB7ServiceV24normalizeTypeIdentifiers11identifiersSayAA0b6EntityF10IdentifierVGAH_tFZ
++ _$s10OmniSearch05LocalB7ServiceV30constructSpotlightIndexRequest5query12allowedTypes13searchOptionsAA0fgH0VAA9UserQueryV_SayAA0B20EntityTypeIdentifierVGAA0abM0VtF
++ _$s10OmniSearch05LocalB7ServiceV6search4textAA0bD6ResultVSS_tYaKF
++ _$s10OmniSearch05LocalB7ServiceV6search4textAA0bD6ResultVSS_tYaKFTu
++ _$s10OmniSearch05LocalB7ServiceV6search5query7sources12allowedTypes0E7OptionsAA0bD6ResultVAA9UserQueryV_AA0B7SourcesVSayAA0B20EntityTypeIdentifierVGAA0abJ0VtYaKF
++ _$s10OmniSearch05LocalB7ServiceV6search5query7sources12allowedTypes0E7OptionsAA0bD6ResultVAA9UserQueryV_AA0B7SourcesVSayAA0B20EntityTypeIdentifierVGAA0abJ0VtYaKFTu
++ _$s10OmniSearch05LocalB7ServiceV7prewarmyyYaF
++ _$s10OmniSearch05LocalB7ServiceV7prewarmyyYaFTu
++ _$s10OmniSearch06GlobalB6ClientC10webDomainsShySSGvpZMV
++ _$s10OmniSearch06GlobalB6ClientC14searchInternal33_CBFB0104A61350AC63CE0898BEF4DA38LL7content14clientEntities8location015SiriInformationB014PommesResponseCSgSS_Say10PegasusAPI013Apple_Parsec_q9_Context_D6EntityVGSo10CLLocationCSgtYaKF
++ _$s10OmniSearch06GlobalB6ClientC14searchInternal33_CBFB0104A61350AC63CE0898BEF4DA38LL7content14clientEntities8location015SiriInformationB014PommesResponseCSgSS_Say10PegasusAPI013Apple_Parsec_q9_Context_D6EntityVGSo10CLLocationCSgtYaKFTu
++ _$s10OmniSearch06GlobalB6ClientC15kWebIndexDomainSSvpZMV
++ _$s10OmniSearch06GlobalB6ClientC17kWebIndexDomainV2SSvpZMV
++ _$s10OmniSearch06GlobalB6ClientC20searchForExperiences7content14expectedDomain8locationSay015SiriInformationB010ExperienceCGSS_SSSgSo10CLLocationCSgtYaKF
++ _$s10OmniSearch06GlobalB6ClientC20searchForExperiences7content14expectedDomain8locationSay015SiriInformationB010ExperienceCGSS_SSSgSo10CLLocationCSgtYaKFTj
++ _$s10OmniSearch06GlobalB6ClientC20searchForExperiences7content14expectedDomain8locationSay015SiriInformationB010ExperienceCGSS_SSSgSo10CLLocationCSgtYaKFTjTu
++ _$s10OmniSearch06GlobalB6ClientC20searchForExperiences7content14expectedDomain8locationSay015SiriInformationB010ExperienceCGSS_SSSgSo10CLLocationCSgtYaKFTq
++ _$s10OmniSearch06GlobalB6ClientC20searchForExperiences7content14expectedDomain8locationSay015SiriInformationB010ExperienceCGSS_SSSgSo10CLLocationCSgtYaKFTu
++ _$s10OmniSearch06GlobalB6ClientC6search5query7sources12allowedTypes0E7OptionsAA0B13ServiceResultVAA9UserQueryV_AA0B7SourcesVSayAA0B20EntityTypeIdentifierVGAA0abJ0VtYaKF
++ _$s10OmniSearch06GlobalB6ClientC6search5query7sources12allowedTypes0E7OptionsAA0B13ServiceResultVAA9UserQueryV_AA0B7SourcesVSayAA0B20EntityTypeIdentifierVGAA0abJ0VtYaKFTj
++ _$s10OmniSearch06GlobalB6ClientC6search5query7sources12allowedTypes0E7OptionsAA0B13ServiceResultVAA9UserQueryV_AA0B7SourcesVSayAA0B20EntityTypeIdentifierVGAA0abJ0VtYaKFTjTu
++ _$s10OmniSearch06GlobalB6ClientC6search5query7sources12allowedTypes0E7OptionsAA0B13ServiceResultVAA9UserQueryV_AA0B7SourcesVSayAA0B20EntityTypeIdentifierVGAA0abJ0VtYaKFTq
++ _$s10OmniSearch06GlobalB6ClientC6search5query7sources12allowedTypes0E7OptionsAA0B13ServiceResultVAA9UserQueryV_AA0B7SourcesVSayAA0B20EntityTypeIdentifierVGAA0abJ0VtYaKFTu
++ _$s10OmniSearch06formatB15PropertyRequest06searchD8RequestsSSSayAA0bdE0VG_tF
++ _$s10OmniSearch06keyForB20ResultOnScreenPrefixSSvau
++ _$s10OmniSearch06keyForB20ResultOnScreenPrefixSSvp
++ _$s10OmniSearch0B10CATContextV08overrideC0ACSgyFZ
++ _$s10OmniSearch0B10CATContextV10AppIntents09TransientD6EntityAAMc
++ _$s10OmniSearch0B10CATContextV10AppIntents0D5ValueAAMc
++ _$s10OmniSearch0B10CATContextV10AppIntents0D6EntityAAMc
++ _$s10OmniSearch0B10CATContextV10AppIntents12_IntentValueAAMc
++ _$s10OmniSearch0B10CATContextV10AppIntents20DisplayRepresentableAAMc
++ _$s10OmniSearch0B10CATContextV10AppIntents24PersistentlyIdentifiableAAMc
++ _$s10OmniSearch0B10CATContextV10AppIntents24TypeDisplayRepresentableAAMc
++ _$s10OmniSearch0B10CATContextV10AppIntents28InstanceDisplayRepresentableAAMc
++ _$s10OmniSearch0B10CATContextV10Foundation40CustomLocalizedStringResourceConvertibleAAMc
++ _$s10OmniSearch0B10CATContextV11descriptionSSvg
++ _$s10OmniSearch0B10CATContextV11descriptionSSvpMV
++ _$s10OmniSearch0B10CATContextV11deviceClassSSSgvM
++ _$s10OmniSearch0B10CATContextV11deviceClassSSSgvg
++ _$s10OmniSearch0B10CATContextV11deviceClassSSSgvpMV
++ _$s10OmniSearch0B10CATContextV11deviceClassSSSgvs
++ _$s10OmniSearch0B10CATContextV12$deviceClass10AppIntents14EntityPropertyCySSSgGvg
++ _$s10OmniSearch0B10CATContextV12$deviceClass10AppIntents14EntityPropertyCySSSgGvpMV
++ _$s10OmniSearch0B10CATContextV12loadFromJsonyACSgSSFZ
++ _$s10OmniSearch0B10CATContextV14interfaceIdiomSSSgvM
++ _$s10OmniSearch0B10CATContextV14interfaceIdiomSSSgvg
++ _$s10OmniSearch0B10CATContextV14interfaceIdiomSSSgvpMV
++ _$s10OmniSearch0B10CATContextV14interfaceIdiomSSSgvs
++ _$s10OmniSearch0B10CATContextV15$interfaceIdiom10AppIntents14EntityPropertyCySSSgGvg
++ _$s10OmniSearch0B10CATContextV15$interfaceIdiom10AppIntents14EntityPropertyCySSSgGvpMV
++ _$s10OmniSearch0B10CATContextV15interactionModeSSSgvM
++ _$s10OmniSearch0B10CATContextV15interactionModeSSSgvg
++ _$s10OmniSearch0B10CATContextV15interactionModeSSSgvpMV
++ _$s10OmniSearch0B10CATContextV15interactionModeSSSgvs
++ _$s10OmniSearch0B10CATContextV16$interactionMode10AppIntents14EntityPropertyCySSSgGvg
++ _$s10OmniSearch0B10CATContextV16$interactionMode10AppIntents14EntityPropertyCySSSgGvpMV
++ _$s10OmniSearch0B10CATContextV21displayRepresentation10AppIntents07DisplayE0Vvg
++ _$s10OmniSearch0B10CATContextV21displayRepresentation10AppIntents07DisplayE0VvpMV
++ _$s10OmniSearch0B10CATContextV25typeDisplayRepresentation10AppIntents04TypeeF0VvMZ
++ _$s10OmniSearch0B10CATContextV25typeDisplayRepresentation10AppIntents04TypeeF0Vvau
++ _$s10OmniSearch0B10CATContextV25typeDisplayRepresentation10AppIntents04TypeeF0VvgZ
++ _$s10OmniSearch0B10CATContextV25typeDisplayRepresentation10AppIntents04TypeeF0VvpZ
++ _$s10OmniSearch0B10CATContextV25typeDisplayRepresentation10AppIntents04TypeeF0VvpZMV
++ _$s10OmniSearch0B10CATContextV25typeDisplayRepresentation10AppIntents04TypeeF0VvsZ
++ _$s10OmniSearch0B10CATContextVACycfC
++ _$s10OmniSearch0B10CATContextVMa
++ _$s10OmniSearch0B10CATContextVMn
++ _$s10OmniSearch0B10CATContextVN
++ _$s10OmniSearch0B10CATContextVs12IdentifiableAAMc
++ _$s10OmniSearch0B10CATContextVs23CustomStringConvertibleAAMc
++ _$s10OmniSearch0B10ResultItemO016genericSpotlightD0yAcA07GenericfD0V_tcACmFWC
++ _$s10OmniSearch0B10ResultItemO24llmConsumableDescription6localeS2SSg_tF
++ _$s10OmniSearch0B10ResultItemO8onScreenyAcA02OnF0V_tcACmFWC
++ _$s10OmniSearch0B11ToolControlV10prewarmPIDs5Int32VSgvpZMV
++ _$s10OmniSearch0B11ToolControlV11description10AppIntents17IntentDescriptionVvpZMV
++ _$s10OmniSearch0B11ToolControlV13assistantOnlySbvpZMV
++ _$s10OmniSearch0B11ToolControlV14openAppWhenRunSbvpZMV
++ _$s10OmniSearch0B11ToolControlV5title10Foundation23LocalizedStringResourceVvpZMV
++ _$s10OmniSearch0B12AnswerEntityV06globalB7SummarySSSgvM
++ _$s10OmniSearch0B12AnswerEntityV06globalB7SummarySSSgvg
++ _$s10OmniSearch0B12AnswerEntityV06globalB7SummarySSSgvpMV
++ _$s10OmniSearch0B12AnswerEntityV06globalB7SummarySSSgvs
++ _$s10OmniSearch0B12AnswerEntityV07$globalB7Summary10AppIntents0D8PropertyCySSSgGvg
++ _$s10OmniSearch0B12AnswerEntityV07$globalB7Summary10AppIntents0D8PropertyCySSSgGvpMV
++ _$s10OmniSearch0B12AnswerEntityV0aB5Types19ExperienceProvidingAAMc
++ _$s10OmniSearch0B12AnswerEntityV10AppIntents09TransienteD0AAMc
++ _$s10OmniSearch0B12AnswerEntityV10AppIntents0E5ValueAAMc
++ _$s10OmniSearch0B12AnswerEntityV10AppIntents0eD0AAMc
++ _$s10OmniSearch0B12AnswerEntityV10AppIntents12_IntentValueAAMc
++ _$s10OmniSearch0B12AnswerEntityV10AppIntents20DisplayRepresentableAAMc
++ _$s10OmniSearch0B12AnswerEntityV10AppIntents24PersistentlyIdentifiableAAMc
++ _$s10OmniSearch0B12AnswerEntityV10AppIntents24TypeDisplayRepresentableAAMc
++ _$s10OmniSearch0B12AnswerEntityV10AppIntents28InstanceDisplayRepresentableAAMc
++ _$s10OmniSearch0B12AnswerEntityV10Foundation40CustomLocalizedStringResourceConvertibleAAMc
++ _$s10OmniSearch0B12AnswerEntityV11asCATEntityAA0bF0Vvg
++ _$s10OmniSearch0B12AnswerEntityV11asCATEntityAA0bF0VvpMV
++ _$s10OmniSearch0B12AnswerEntityV11asNLGEntityAA0bF0Vvg
++ _$s10OmniSearch0B12AnswerEntityV11asNLGEntityAA0bF0VvpMV
++ _$s10OmniSearch0B12AnswerEntityV11descriptionSSSgvM
++ _$s10OmniSearch0B12AnswerEntityV11descriptionSSSgvg
++ _$s10OmniSearch0B12AnswerEntityV11descriptionSSSgvpMV
++ _$s10OmniSearch0B12AnswerEntityV11descriptionSSSgvs
++ _$s10OmniSearch0B12AnswerEntityV12$description10AppIntents0D8PropertyCySSSgGvg
++ _$s10OmniSearch0B12AnswerEntityV12$description10AppIntents0D8PropertyCySSSgGvpMV
++ _$s10OmniSearch0B12AnswerEntityV12defaultQueryAC0F0VvMZ
++ _$s10OmniSearch0B12AnswerEntityV12defaultQueryAC0F0VvgZ
++ _$s10OmniSearch0B12AnswerEntityV12defaultQueryAC0F0VvpZMV
++ _$s10OmniSearch0B12AnswerEntityV12defaultQueryAC0F0VvsZ
++ _$s10OmniSearch0B12AnswerEntityV13sourceResultsSayAA0B6ResultVGvg
++ _$s10OmniSearch0B12AnswerEntityV13sourceResultsSayAA0B6ResultVGvpMV
++ _$s10OmniSearch0B12AnswerEntityV14documentSourceSSvM
++ _$s10OmniSearch0B12AnswerEntityV14documentSourceSSvg
++ _$s10OmniSearch0B12AnswerEntityV14documentSourceSSvpMV
++ _$s10OmniSearch0B12AnswerEntityV14documentSourceSSvs
++ _$s10OmniSearch0B12AnswerEntityV14experienceFile10AppIntents06IntentF0VSgvM
++ _$s10OmniSearch0B12AnswerEntityV14experienceFile10AppIntents06IntentF0VSgvg
++ _$s10OmniSearch0B12AnswerEntityV14experienceFile10AppIntents06IntentF0VSgvpMV
++ _$s10OmniSearch0B12AnswerEntityV14experienceFile10AppIntents06IntentF0VSgvs
++ _$s10OmniSearch0B12AnswerEntityV15$documentSource10AppIntents0D8PropertyCySSGvg
++ _$s10OmniSearch0B12AnswerEntityV15$documentSource10AppIntents0D8PropertyCySSGvpMV
++ _$s10OmniSearch0B12AnswerEntityV15$experienceFile10AppIntents0D8PropertyCyAE06IntentF0VSgGvg
++ _$s10OmniSearch0B12AnswerEntityV15$experienceFile10AppIntents0D8PropertyCyAE06IntentF0VSgGvpMV
++ _$s10OmniSearch0B12AnswerEntityV15documentSourcesSaySSGvM
++ _$s10OmniSearch0B12AnswerEntityV15documentSourcesSaySSGvg
++ _$s10OmniSearch0B12AnswerEntityV15documentSourcesSaySSGvpMV
++ _$s10OmniSearch0B12AnswerEntityV15documentSourcesSaySSGvs
++ _$s10OmniSearch0B12AnswerEntityV15overridePayloadACSo12NSDictionaryC_tKcfC
++ _$s10OmniSearch0B12AnswerEntityV16$documentSources10AppIntents0D8PropertyCySaySSGGvg
++ _$s10OmniSearch0B12AnswerEntityV16$documentSources10AppIntents0D8PropertyCySaySSGGvpMV
++ _$s10OmniSearch0B12AnswerEntityV16CoreTransferable0F0AAMc
++ _$s10OmniSearch0B12AnswerEntityV18validateParametersyyKF
++ _$s10OmniSearch0B12AnswerEntityV19requestedPropertiesSayAA0B16PropertyResponseVGvM
++ _$s10OmniSearch0B12AnswerEntityV19requestedPropertiesSayAA0B16PropertyResponseVGvg
++ _$s10OmniSearch0B12AnswerEntityV19requestedPropertiesSayAA0B16PropertyResponseVGvpMV
++ _$s10OmniSearch0B12AnswerEntityV19requestedPropertiesSayAA0B16PropertyResponseVGvs
++ _$s10OmniSearch0B12AnswerEntityV20$requestedProperties10AppIntents0D8PropertyCySayAA0bI8ResponseVGGvg
++ _$s10OmniSearch0B12AnswerEntityV20$requestedProperties10AppIntents0D8PropertyCySayAA0bI8ResponseVGGvpMV
++ _$s10OmniSearch0B12AnswerEntityV20experienceSourceType0aB5Types0b6ResultG0Ovg
++ _$s10OmniSearch0B12AnswerEntityV20experienceSourceType0aB5Types0b6ResultG0OvpMV
++ _$s10OmniSearch0B12AnswerEntityV20validTypeIdentifiersSaySSGvg
++ _$s10OmniSearch0B12AnswerEntityV20validTypeIdentifiersSaySSGvpMV
++ _$s10OmniSearch0B12AnswerEntityV21displayRepresentation10AppIntents07DisplayF0Vvg
++ _$s10OmniSearch0B12AnswerEntityV21displayRepresentation10AppIntents07DisplayF0VvpMV
++ _$s10OmniSearch0B12AnswerEntityV22transferRepresentationQrvgZ
++ _$s10OmniSearch0B12AnswerEntityV22transferRepresentationQrvpZMV
++ _$s10OmniSearch0B12AnswerEntityV22transferRepresentationQrvpZQOMQ
++ _$s10OmniSearch0B12AnswerEntityV25typeDisplayRepresentation10AppIntents04TypefG0VvMZ
++ _$s10OmniSearch0B12AnswerEntityV25typeDisplayRepresentation10AppIntents04TypefG0VvgZ
++ _$s10OmniSearch0B12AnswerEntityV25typeDisplayRepresentation10AppIntents04TypefG0VvpZMV
++ _$s10OmniSearch0B12AnswerEntityV25typeDisplayRepresentation10AppIntents04TypefG0VvsZ
++ _$s10OmniSearch0B12AnswerEntityV2eeoiySbAC_ACtFZ
++ _$s10OmniSearch0B12AnswerEntityV2idSSvg
++ _$s10OmniSearch0B12AnswerEntityV2idSSvpMV
++ _$s10OmniSearch0B12AnswerEntityV33supportedTypeIdentifiersForExportSaySSGvM
++ _$s10OmniSearch0B12AnswerEntityV33supportedTypeIdentifiersForExportSaySSGvg
++ _$s10OmniSearch0B12AnswerEntityV33supportedTypeIdentifiersForExportSaySSGvpMV
++ _$s10OmniSearch0B12AnswerEntityV33supportedTypeIdentifiersForExportSaySSGvs
++ _$s10OmniSearch0B12AnswerEntityV34$supportedTypeIdentifiersForExport10AppIntents0D8PropertyCySaySSGGvg
++ _$s10OmniSearch0B12AnswerEntityV34$supportedTypeIdentifiersForExport10AppIntents0D8PropertyCySaySSGGvpMV
++ _$s10OmniSearch0B12AnswerEntityV4cardSo6SFCardCSgvM
++ _$s10OmniSearch0B12AnswerEntityV4cardSo6SFCardCSgvg
++ _$s10OmniSearch0B12AnswerEntityV4cardSo6SFCardCSgvpMV
++ _$s10OmniSearch0B12AnswerEntityV4cardSo6SFCardCSgvs
++ _$s10OmniSearch0B12AnswerEntityV4fromACs7Decoder_p_tKcfC
++ _$s10OmniSearch0B12AnswerEntityV5QueryV10AppIntents09_SupportsF12DependenciesAAMc
++ _$s10OmniSearch0B12AnswerEntityV5QueryV10AppIntents0dE0AAMc
++ _$s10OmniSearch0B12AnswerEntityV5QueryV10AppIntents22DynamicOptionsProviderAAMc
++ _$s10OmniSearch0B12AnswerEntityV5QueryV10AppIntents24PersistentlyIdentifiableAAMc
++ _$s10OmniSearch0B12AnswerEntityV5QueryV8entities3forSayACGSaySSG_tYaKF
++ _$s10OmniSearch0B12AnswerEntityV5QueryV8entities3forSayACGSaySSG_tYaKFTu
++ _$s10OmniSearch0B12AnswerEntityV5QueryVAEycfC
++ _$s10OmniSearch0B12AnswerEntityV5QueryVMa
++ _$s10OmniSearch0B12AnswerEntityV5QueryVMn
++ _$s10OmniSearch0B12AnswerEntityV5QueryVN
++ _$s10OmniSearch0B12AnswerEntityV5titleSSSgvM
++ _$s10OmniSearch0B12AnswerEntityV5titleSSSgvg
++ _$s10OmniSearch0B12AnswerEntityV5titleSSSgvpMV
++ _$s10OmniSearch0B12AnswerEntityV5titleSSSgvs
++ _$s10OmniSearch0B12AnswerEntityV6$title10AppIntents0D8PropertyCySSSgGvg
++ _$s10OmniSearch0B12AnswerEntityV6$title10AppIntents0D8PropertyCySSSgGvpMV
++ _$s10OmniSearch0B12AnswerEntityV6answerSSvM
++ _$s10OmniSearch0B12AnswerEntityV6answerSSvg
++ _$s10OmniSearch0B12AnswerEntityV6answerSSvpMV
++ _$s10OmniSearch0B12AnswerEntityV6answerSSvs
++ _$s10OmniSearch0B12AnswerEntityV6dialogSSSgvM
++ _$s10OmniSearch0B12AnswerEntityV6dialogSSSgvg
++ _$s10OmniSearch0B12AnswerEntityV6dialogSSSgvpMV
++ _$s10OmniSearch0B12AnswerEntityV6dialogSSSgvs
++ _$s10OmniSearch0B12AnswerEntityV6encode2toys7Encoder_p_tKF
++ _$s10OmniSearch0B12AnswerEntityV7$answer10AppIntents0D8PropertyCySSGvg
++ _$s10OmniSearch0B12AnswerEntityV7$answer10AppIntents0D8PropertyCySSGvpMV
++ _$s10OmniSearch0B12AnswerEntityV7$dialog10AppIntents0D8PropertyCySSSgGvg
++ _$s10OmniSearch0B12AnswerEntityV7$dialog10AppIntents0D8PropertyCySSSgGvpMV
++ _$s10OmniSearch0B12AnswerEntityV7BuilderV06globalB7SummarySSSgvM
++ _$s10OmniSearch0B12AnswerEntityV7BuilderV06globalB7SummarySSSgvg
++ _$s10OmniSearch0B12AnswerEntityV7BuilderV06globalB7SummarySSSgvpMV
++ _$s10OmniSearch0B12AnswerEntityV7BuilderV06globalB7SummarySSSgvs
++ _$s10OmniSearch0B12AnswerEntityV7BuilderV11descriptionSSSgvM
++ _$s10OmniSearch0B12AnswerEntityV7BuilderV11descriptionSSSgvg
++ _$s10OmniSearch0B12AnswerEntityV7BuilderV11descriptionSSSgvpMV
++ _$s10OmniSearch0B12AnswerEntityV7BuilderV11descriptionSSSgvs
++ _$s10OmniSearch0B12AnswerEntityV7BuilderV14experienceFile10AppIntents06IntentG0VSgvM
++ _$s10OmniSearch0B12AnswerEntityV7BuilderV14experienceFile10AppIntents06IntentG0VSgvg
++ _$s10OmniSearch0B12AnswerEntityV7BuilderV14experienceFile10AppIntents06IntentG0VSgvpMV
++ _$s10OmniSearch0B12AnswerEntityV7BuilderV14experienceFile10AppIntents06IntentG0VSgvs
++ _$s10OmniSearch0B12AnswerEntityV7BuilderV19requestedPropertiesSayAA0B16PropertyResponseVGSgvM
++ _$s10OmniSearch0B12AnswerEntityV7BuilderV19requestedPropertiesSayAA0B16PropertyResponseVGSgvg
++ _$s10OmniSearch0B12AnswerEntityV7BuilderV19requestedPropertiesSayAA0B16PropertyResponseVGSgvpMV
++ _$s10OmniSearch0B12AnswerEntityV7BuilderV19requestedPropertiesSayAA0B16PropertyResponseVGSgvs
++ _$s10OmniSearch0B12AnswerEntityV7BuilderV22lowConfidenceKnowledgeSbvM
++ _$s10OmniSearch0B12AnswerEntityV7BuilderV22lowConfidenceKnowledgeSbvg
++ _$s10OmniSearch0B12AnswerEntityV7BuilderV22lowConfidenceKnowledgeSbvpMV
++ _$s10OmniSearch0B12AnswerEntityV7BuilderV22lowConfidenceKnowledgeSbvs
++ _$s10OmniSearch0B12AnswerEntityV7BuilderV2id6answer5title19requestedProperties14experienceFile7sources4card06globalB7Summary11description22lowConfidenceKnowledge6dialogAESSSg_A2QSayAA0B16PropertyResponseVGSg10AppIntents06IntentL0VSgSayAA0bD0VGSo6SFCardCSgA2QSbAQtcfC
++ _$s10OmniSearch0B12AnswerEntityV7BuilderV2id6answer5title19requestedProperties14experienceFile7sources4card06globalB7Summary11description22lowConfidenceKnowledge6dialogAESSSg_A2QSayAA0B16PropertyResponseVGSg10AppIntents06IntentL0VSgSayAA0bD0VGSo6SFCardCSgA2QSbAQtcfcfA4_
++ _$s10OmniSearch0B12AnswerEntityV7BuilderV2id6answer5title19requestedProperties14experienceFile7sources4card06globalB7Summary11description22lowConfidenceKnowledge6dialogAESSSg_A2QSayAA0B16PropertyResponseVGSg10AppIntents06IntentL0VSgSayAA0bD0VGSo6SFCardCSgA2QSbAQtcfcfA8_
++ _$s10OmniSearch0B12AnswerEntityV7BuilderV2idSSSgvM
++ _$s10OmniSearch0B12AnswerEntityV7BuilderV2idSSSgvg
++ _$s10OmniSearch0B12AnswerEntityV7BuilderV2idSSSgvpMV
++ _$s10OmniSearch0B12AnswerEntityV7BuilderV2idSSSgvs
++ _$s10OmniSearch0B12AnswerEntityV7BuilderV4cardSo6SFCardCSgvM
++ _$s10OmniSearch0B12AnswerEntityV7BuilderV4cardSo6SFCardCSgvg
++ _$s10OmniSearch0B12AnswerEntityV7BuilderV4cardSo6SFCardCSgvpMV
++ _$s10OmniSearch0B12AnswerEntityV7BuilderV4cardSo6SFCardCSgvs
++ _$s10OmniSearch0B12AnswerEntityV7BuilderV5titleSSSgvM
++ _$s10OmniSearch0B12AnswerEntityV7BuilderV5titleSSSgvg
++ _$s10OmniSearch0B12AnswerEntityV7BuilderV5titleSSSgvpMV
++ _$s10OmniSearch0B12AnswerEntityV7BuilderV5titleSSSgvs
++ _$s10OmniSearch0B12AnswerEntityV7BuilderV6answerSSSgvM
++ _$s10OmniSearch0B12AnswerEntityV7BuilderV6answerSSSgvg
++ _$s10OmniSearch0B12AnswerEntityV7BuilderV6answerSSSgvpMV
++ _$s10OmniSearch0B12AnswerEntityV7BuilderV6answerSSSgvs
++ _$s10OmniSearch0B12AnswerEntityV7BuilderV6dialogSSSgvM
++ _$s10OmniSearch0B12AnswerEntityV7BuilderV6dialogSSSgvg
++ _$s10OmniSearch0B12AnswerEntityV7BuilderV6dialogSSSgvpMV
++ _$s10OmniSearch0B12AnswerEntityV7BuilderV6dialogSSSgvs
++ _$s10OmniSearch0B12AnswerEntityV7BuilderV7sourcesSayAA0bD0VGvM
++ _$s10OmniSearch0B12AnswerEntityV7BuilderV7sourcesSayAA0bD0VGvg
++ _$s10OmniSearch0B12AnswerEntityV7BuilderV7sourcesSayAA0bD0VGvpMV
++ _$s10OmniSearch0B12AnswerEntityV7BuilderV7sourcesSayAA0bD0VGvs
++ _$s10OmniSearch0B12AnswerEntityV7BuilderVAEycfC
++ _$s10OmniSearch0B12AnswerEntityV7BuilderVMa
++ _$s10OmniSearch0B12AnswerEntityV7BuilderVMn
++ _$s10OmniSearch0B12AnswerEntityV7BuilderVN
++ _$s10OmniSearch0B12AnswerEntityV7builderACSgAC7BuilderV_tcfC
++ _$s10OmniSearch0B12AnswerEntityV7sourcesSayAA0bD0VGvM
++ _$s10OmniSearch0B12AnswerEntityV7sourcesSayAA0bD0VGvg
++ _$s10OmniSearch0B12AnswerEntityV7sourcesSayAA0bD0VGvpMV
++ _$s10OmniSearch0B12AnswerEntityV7sourcesSayAA0bD0VGvs
++ _$s10OmniSearch0B12AnswerEntityV7summarySSvg
++ _$s10OmniSearch0B12AnswerEntityV7summarySSvpMV
++ _$s10OmniSearch0B12AnswerEntityV8$sources10AppIntents0D8PropertyCySayAA0bD0VGGvg
++ _$s10OmniSearch0B12AnswerEntityV8$sources10AppIntents0D8PropertyCySayAA0bD0VGGvpMV
++ _$s10OmniSearch0B12AnswerEntityV8evalInfoSaySE_pGvg
++ _$s10OmniSearch0B12AnswerEntityV8evalInfoSaySE_pGvpMV
++ _$s10OmniSearch0B12AnswerEntityVAA011ValidatableD0AAMc
++ _$s10OmniSearch0B12AnswerEntityVAA011ValidatableD0AAWP
++ _$s10OmniSearch0B12AnswerEntityVAA0B12OverrideableAAMc
++ _$s10OmniSearch0B12AnswerEntityVAA0B12OverrideableAAWP
++ _$s10OmniSearch0B12AnswerEntityVAA0B20CATEntityConvertibleAAMc
++ _$s10OmniSearch0B12AnswerEntityVAA0B20CATEntityConvertibleAAWP
++ _$s10OmniSearch0B12AnswerEntityVAA0B20NLGEntityConvertibleAAMc
++ _$s10OmniSearch0B12AnswerEntityVAA0B20NLGEntityConvertibleAAWP
++ _$s10OmniSearch0B12AnswerEntityVAA17CardRepresentableAAMc
++ _$s10OmniSearch0B12AnswerEntityVAA17CardRepresentableAAWP
++ _$s10OmniSearch0B12AnswerEntityVAA17EvalInfoProvidingAAMc
++ _$s10OmniSearch0B12AnswerEntityVAA17EvalInfoProvidingAAWP
++ _$s10OmniSearch0B12AnswerEntityVACycfC
++ _$s10OmniSearch0B12AnswerEntityVMa
++ _$s10OmniSearch0B12AnswerEntityVMn
++ _$s10OmniSearch0B12AnswerEntityVN
++ _$s10OmniSearch0B12AnswerEntityVSEAAMc
++ _$s10OmniSearch0B12AnswerEntityVSQAAMc
++ _$s10OmniSearch0B12AnswerEntityVSeAAMc
++ _$s10OmniSearch0B12AnswerEntityVs12IdentifiableAAMc
++ _$s10OmniSearch0B12AnswerEntityVyACSgyAC7BuilderVzXEcfC
++ _$s10OmniSearch0B12GlobalEntityV0D4TypeO2eeoiySbAE_AEtFZ
++ _$s10OmniSearch0B12GlobalEntityV0D4TypeO4fromAEs7Decoder_p_tKcfC
++ _$s10OmniSearch0B12GlobalEntityV0D4TypeO4hash4intoys6HasherVz_tF
++ _$s10OmniSearch0B12GlobalEntityV0D4TypeO4mapsyA2EmFWC
++ _$s10OmniSearch0B12GlobalEntityV0D4TypeO6encode2toys7Encoder_p_tKF
++ _$s10OmniSearch0B12GlobalEntityV0D4TypeO7genericyA2EmFWC
++ _$s10OmniSearch0B12GlobalEntityV0D4TypeO7unknownyA2EmFWC
++ _$s10OmniSearch0B12GlobalEntityV0D4TypeO9hashValueSivg
++ _$s10OmniSearch0B12GlobalEntityV0D4TypeO9hashValueSivpMV
++ _$s10OmniSearch0B12GlobalEntityV0D4TypeOMa
++ _$s10OmniSearch0B12GlobalEntityV0D4TypeOMn
++ _$s10OmniSearch0B12GlobalEntityV0D4TypeON
++ _$s10OmniSearch0B12GlobalEntityV0D4TypeOSEAAMc
++ _$s10OmniSearch0B12GlobalEntityV0D4TypeOSHAAMc
++ _$s10OmniSearch0B12GlobalEntityV0D4TypeOSQAAMc
++ _$s10OmniSearch0B12GlobalEntityV0D4TypeOSeAAMc
++ _$s10OmniSearch0B12GlobalEntityV0aB5Types19ExperienceProvidingAAMc
++ _$s10OmniSearch0B12GlobalEntityV10AppIntents0E5ValueAAMc
++ _$s10OmniSearch0B12GlobalEntityV10AppIntents0eD0AAMc
++ _$s10OmniSearch0B12GlobalEntityV10AppIntents12_IntentValueAAMc
++ _$s10OmniSearch0B12GlobalEntityV10AppIntents20DisplayRepresentableAAMc
++ _$s10OmniSearch0B12GlobalEntityV10AppIntents24PersistentlyIdentifiableAAMc
++ _$s10OmniSearch0B12GlobalEntityV10AppIntents24TypeDisplayRepresentableAAMc
++ _$s10OmniSearch0B12GlobalEntityV10AppIntents28InstanceDisplayRepresentableAAMc
++ _$s10OmniSearch0B12GlobalEntityV10Foundation40CustomLocalizedStringResourceConvertibleAAMc
++ _$s10OmniSearch0B12GlobalEntityV10entityTypeAC0dF0OSgvg
++ _$s10OmniSearch0B12GlobalEntityV10entityTypeAC0dF0OSgvpMV
++ _$s10OmniSearch0B12GlobalEntityV11TemperatureV2eeoiySbAE_AEtFZ
++ _$s10OmniSearch0B12GlobalEntityV11TemperatureV4fromAEs7Decoder_p_tKcfC
++ _$s10OmniSearch0B12GlobalEntityV11TemperatureV5units5valueAESSSg_SdSgtcfC
++ _$s10OmniSearch0B12GlobalEntityV11TemperatureV5unitsSSSgvg
++ _$s10OmniSearch0B12GlobalEntityV11TemperatureV5unitsSSSgvpMV
++ _$s10OmniSearch0B12GlobalEntityV11TemperatureV5valueSdSgvg
++ _$s10OmniSearch0B12GlobalEntityV11TemperatureV5valueSdSgvpMV
++ _$s10OmniSearch0B12GlobalEntityV11TemperatureV6encode2toys7Encoder_p_tKF
++ _$s10OmniSearch0B12GlobalEntityV11TemperatureVMa
++ _$s10OmniSearch0B12GlobalEntityV11TemperatureVMn
++ _$s10OmniSearch0B12GlobalEntityV11TemperatureVN
++ _$s10OmniSearch0B12GlobalEntityV11TemperatureVSEAAMc
++ _$s10OmniSearch0B12GlobalEntityV11TemperatureVSQAAMc
++ _$s10OmniSearch0B12GlobalEntityV11TemperatureVSeAAMc
++ _$s10OmniSearch0B12GlobalEntityV11asCATEntityAA0bF0Vvg
++ _$s10OmniSearch0B12GlobalEntityV11asCATEntityAA0bF0VvpMV
++ _$s10OmniSearch0B12GlobalEntityV11asNLGEntityAA0bF0Vvg
++ _$s10OmniSearch0B12GlobalEntityV11asNLGEntityAA0bF0VvpMV
++ _$s10OmniSearch0B12GlobalEntityV12IDAttributesV2eeoiySbAE_AEtFZ
++ _$s10OmniSearch0B12GlobalEntityV12IDAttributesV4fromAEs7Decoder_p_tKcfC
++ _$s10OmniSearch0B12GlobalEntityV12IDAttributesV4muid5umcIDAESSSg_AHtcfC
++ _$s10OmniSearch0B12GlobalEntityV12IDAttributesV4muidSSSgvM
++ _$s10OmniSearch0B12GlobalEntityV12IDAttributesV4muidSSSgvg
++ _$s10OmniSearch0B12GlobalEntityV12IDAttributesV4muidSSSgvpMV
++ _$s10OmniSearch0B12GlobalEntityV12IDAttributesV4muidSSSgvs
++ _$s10OmniSearch0B12GlobalEntityV12IDAttributesV5umcIDSSSgvM
++ _$s10OmniSearch0B12GlobalEntityV12IDAttributesV5umcIDSSSgvg
++ _$s10OmniSearch0B12GlobalEntityV12IDAttributesV5umcIDSSSgvpMV
++ _$s10OmniSearch0B12GlobalEntityV12IDAttributesV5umcIDSSSgvs
++ _$s10OmniSearch0B12GlobalEntityV12IDAttributesV6encode2toys7Encoder_p_tKF
++ _$s10OmniSearch0B12GlobalEntityV12IDAttributesVAEycfC
++ _$s10OmniSearch0B12GlobalEntityV12IDAttributesVMa
++ _$s10OmniSearch0B12GlobalEntityV12IDAttributesVMn
++ _$s10OmniSearch0B12GlobalEntityV12IDAttributesVN
++ _$s10OmniSearch0B12GlobalEntityV12IDAttributesVSEAAMc
++ _$s10OmniSearch0B12GlobalEntityV12IDAttributesVSQAAMc
++ _$s10OmniSearch0B12GlobalEntityV12IDAttributesVSeAAMc
++ _$s10OmniSearch0B12GlobalEntityV12defaultQueryAC0F0VvMZ
++ _$s10OmniSearch0B12GlobalEntityV12defaultQueryAC0F0VvgZ
++ _$s10OmniSearch0B12GlobalEntityV12defaultQueryAC0F0VvpZMV
++ _$s10OmniSearch0B12GlobalEntityV12defaultQueryAC0F0VvsZ
++ _$s10OmniSearch0B12GlobalEntityV12idAttributesAC12IDAttributesVSgvg
++ _$s10OmniSearch0B12GlobalEntityV12idAttributesAC12IDAttributesVSgvpMV
++ _$s10OmniSearch0B12GlobalEntityV14experienceFile10AppIntents06IntentF0VSgvM
++ _$s10OmniSearch0B12GlobalEntityV14experienceFile10AppIntents06IntentF0VSgvg
++ _$s10OmniSearch0B12GlobalEntityV14experienceFile10AppIntents06IntentF0VSgvpMV
++ _$s10OmniSearch0B12GlobalEntityV14experienceFile10AppIntents06IntentF0VSgvs
++ _$s10OmniSearch0B12GlobalEntityV15$experienceFile10AppIntents0D8PropertyCyAE06IntentF0VSgGvg
++ _$s10OmniSearch0B12GlobalEntityV15$experienceFile10AppIntents0D8PropertyCyAE06IntentF0VSgGvpMV
++ _$s10OmniSearch0B12GlobalEntityV15CustomAttributeO11temperatureyAeC11TemperatureVcAEmFWC
++ _$s10OmniSearch0B12GlobalEntityV15CustomAttributeO2eeoiySbAE_AEtFZ
++ _$s10OmniSearch0B12GlobalEntityV15CustomAttributeO4fromAEs7Decoder_p_tKcfC
++ _$s10OmniSearch0B12GlobalEntityV15CustomAttributeO6encode2toys7Encoder_p_tKF
++ _$s10OmniSearch0B12GlobalEntityV15CustomAttributeO6stringyAESScAEmFWC
++ _$s10OmniSearch0B12GlobalEntityV15CustomAttributeO9timestampyAeC9TimestampVcAEmFWC
++ _$s10OmniSearch0B12GlobalEntityV15CustomAttributeOMa
++ _$s10OmniSearch0B12GlobalEntityV15CustomAttributeOMn
++ _$s10OmniSearch0B12GlobalEntityV15CustomAttributeON
++ _$s10OmniSearch0B12GlobalEntityV15CustomAttributeOSEAAMc
++ _$s10OmniSearch0B12GlobalEntityV15CustomAttributeOSQAAMc
++ _$s10OmniSearch0B12GlobalEntityV15CustomAttributeOSeAAMc
++ _$s10OmniSearch0B12GlobalEntityV15EventAttributesV2eeoiySbAE_AEtFZ
++ _$s10OmniSearch0B12GlobalEntityV15EventAttributesV4fromAEs7Decoder_p_tKcfC
++ _$s10OmniSearch0B12GlobalEntityV15EventAttributesV6allDay9startDate03endJ0AESbSg_s5Int64VSgALtcfC
++ _$s10OmniSearch0B12GlobalEntityV15EventAttributesV6allDaySbSgvM
++ _$s10OmniSearch0B12GlobalEntityV15EventAttributesV6allDaySbSgvg
++ _$s10OmniSearch0B12GlobalEntityV15EventAttributesV6allDaySbSgvpMV
++ _$s10OmniSearch0B12GlobalEntityV15EventAttributesV6allDaySbSgvs
++ _$s10OmniSearch0B12GlobalEntityV15EventAttributesV6encode2toys7Encoder_p_tKF
++ _$s10OmniSearch0B12GlobalEntityV15EventAttributesV7endDates5Int64VSgvM
++ _$s10OmniSearch0B12GlobalEntityV15EventAttributesV7endDates5Int64VSgvg
++ _$s10OmniSearch0B12GlobalEntityV15EventAttributesV7endDates5Int64VSgvpMV
++ _$s10OmniSearch0B12GlobalEntityV15EventAttributesV7endDates5Int64VSgvs
++ _$s10OmniSearch0B12GlobalEntityV15EventAttributesV9startDates5Int64VSgvM
++ _$s10OmniSearch0B12GlobalEntityV15EventAttributesV9startDates5Int64VSgvg
++ _$s10OmniSearch0B12GlobalEntityV15EventAttributesV9startDates5Int64VSgvpMV
++ _$s10OmniSearch0B12GlobalEntityV15EventAttributesV9startDates5Int64VSgvs
++ _$s10OmniSearch0B12GlobalEntityV15EventAttributesVAEycfC
++ _$s10OmniSearch0B12GlobalEntityV15EventAttributesVMa
++ _$s10OmniSearch0B12GlobalEntityV15EventAttributesVMn
++ _$s10OmniSearch0B12GlobalEntityV15EventAttributesVN
++ _$s10OmniSearch0B12GlobalEntityV15EventAttributesVSEAAMc
++ _$s10OmniSearch0B12GlobalEntityV15EventAttributesVSQAAMc
++ _$s10OmniSearch0B12GlobalEntityV15EventAttributesVSeAAMc
++ _$s10OmniSearch0B12GlobalEntityV15PlaceAttributesV11subLocalitySSSgvM
++ _$s10OmniSearch0B12GlobalEntityV15PlaceAttributesV11subLocalitySSSgvg
++ _$s10OmniSearch0B12GlobalEntityV15PlaceAttributesV11subLocalitySSSgvpMV
++ _$s10OmniSearch0B12GlobalEntityV15PlaceAttributesV11subLocalitySSSgvs
++ _$s10OmniSearch0B12GlobalEntityV15PlaceAttributesV12thoroughfareSSSgvM
++ _$s10OmniSearch0B12GlobalEntityV15PlaceAttributesV12thoroughfareSSSgvg
++ _$s10OmniSearch0B12GlobalEntityV15PlaceAttributesV12thoroughfareSSSgvpMV
++ _$s10OmniSearch0B12GlobalEntityV15PlaceAttributesV12thoroughfareSSSgvs
++ _$s10OmniSearch0B12GlobalEntityV15PlaceAttributesV13postalAddressSSSgvM
++ _$s10OmniSearch0B12GlobalEntityV15PlaceAttributesV13postalAddressSSSgvg
++ _$s10OmniSearch0B12GlobalEntityV15PlaceAttributesV13postalAddressSSSgvpMV
++ _$s10OmniSearch0B12GlobalEntityV15PlaceAttributesV13postalAddressSSSgvs
++ _$s10OmniSearch0B12GlobalEntityV15PlaceAttributesV14isoCountryCodeSSSgvM
++ _$s10OmniSearch0B12GlobalEntityV15PlaceAttributesV14isoCountryCodeSSSgvg
++ _$s10OmniSearch0B12GlobalEntityV15PlaceAttributesV14isoCountryCodeSSSgvpMV
++ _$s10OmniSearch0B12GlobalEntityV15PlaceAttributesV14isoCountryCodeSSSgvs
++ _$s10OmniSearch0B12GlobalEntityV15PlaceAttributesV15subThoroughfareSSSgvM
++ _$s10OmniSearch0B12GlobalEntityV15PlaceAttributesV15subThoroughfareSSSgvg
++ _$s10OmniSearch0B12GlobalEntityV15PlaceAttributesV15subThoroughfareSSSgvpMV
++ _$s10OmniSearch0B12GlobalEntityV15PlaceAttributesV15subThoroughfareSSSgvs
++ _$s10OmniSearch0B12GlobalEntityV15PlaceAttributesV18administrativeAreaSSSgvM
++ _$s10OmniSearch0B12GlobalEntityV15PlaceAttributesV18administrativeAreaSSSgvg
++ _$s10OmniSearch0B12GlobalEntityV15PlaceAttributesV18administrativeAreaSSSgvpMV
++ _$s10OmniSearch0B12GlobalEntityV15PlaceAttributesV18administrativeAreaSSSgvs
++ _$s10OmniSearch0B12GlobalEntityV15PlaceAttributesV21subAdministrativeAreaSSSgvM
++ _$s10OmniSearch0B12GlobalEntityV15PlaceAttributesV21subAdministrativeAreaSSSgvg
++ _$s10OmniSearch0B12GlobalEntityV15PlaceAttributesV21subAdministrativeAreaSSSgvpMV
++ _$s10OmniSearch0B12GlobalEntityV15PlaceAttributesV21subAdministrativeAreaSSSgvs
++ _$s10OmniSearch0B12GlobalEntityV15PlaceAttributesV2eeoiySbAE_AEtFZ
++ _$s10OmniSearch0B12GlobalEntityV15PlaceAttributesV4fromAEs7Decoder_p_tKcfC
++ _$s10OmniSearch0B12GlobalEntityV15PlaceAttributesV4name8locality11subLocality18administrativeArea0i14AdministrativeL07country14isoCountryCode13postalAddress0I12Thoroughfare12thoroughfare8latitude9longitudeAESSSg_A9RSdSgAStcfC
++ _$s10OmniSearch0B12GlobalEntityV15PlaceAttributesV4nameSSSgvM
++ _$s10OmniSearch0B12GlobalEntityV15PlaceAttributesV4nameSSSgvg
++ _$s10OmniSearch0B12GlobalEntityV15PlaceAttributesV4nameSSSgvpMV
++ _$s10OmniSearch0B12GlobalEntityV15PlaceAttributesV4nameSSSgvs
++ _$s10OmniSearch0B12GlobalEntityV15PlaceAttributesV6encode2toys7Encoder_p_tKF
++ _$s10OmniSearch0B12GlobalEntityV15PlaceAttributesV7countrySSSgvM
++ _$s10OmniSearch0B12GlobalEntityV15PlaceAttributesV7countrySSSgvg
++ _$s10OmniSearch0B12GlobalEntityV15PlaceAttributesV7countrySSSgvpMV
++ _$s10OmniSearch0B12GlobalEntityV15PlaceAttributesV7countrySSSgvs
++ _$s10OmniSearch0B12GlobalEntityV15PlaceAttributesV8latitudeSdSgvM
++ _$s10OmniSearch0B12GlobalEntityV15PlaceAttributesV8latitudeSdSgvg
++ _$s10OmniSearch0B12GlobalEntityV15PlaceAttributesV8latitudeSdSgvpMV
++ _$s10OmniSearch0B12GlobalEntityV15PlaceAttributesV8latitudeSdSgvs
++ _$s10OmniSearch0B12GlobalEntityV15PlaceAttributesV8localitySSSgvM
++ _$s10OmniSearch0B12GlobalEntityV15PlaceAttributesV8localitySSSgvg
++ _$s10OmniSearch0B12GlobalEntityV15PlaceAttributesV8localitySSSgvpMV
++ _$s10OmniSearch0B12GlobalEntityV15PlaceAttributesV8localitySSSgvs
++ _$s10OmniSearch0B12GlobalEntityV15PlaceAttributesV9longitudeSdSgvM
++ _$s10OmniSearch0B12GlobalEntityV15PlaceAttributesV9longitudeSdSgvg
++ _$s10OmniSearch0B12GlobalEntityV15PlaceAttributesV9longitudeSdSgvpMV
++ _$s10OmniSearch0B12GlobalEntityV15PlaceAttributesV9longitudeSdSgvs
++ _$s10OmniSearch0B12GlobalEntityV15PlaceAttributesVAEycfC
++ _$s10OmniSearch0B12GlobalEntityV15PlaceAttributesVMa
++ _$s10OmniSearch0B12GlobalEntityV15PlaceAttributesVMn
++ _$s10OmniSearch0B12GlobalEntityV15PlaceAttributesVN
++ _$s10OmniSearch0B12GlobalEntityV15PlaceAttributesVSEAAMc
++ _$s10OmniSearch0B12GlobalEntityV15PlaceAttributesVSQAAMc
++ _$s10OmniSearch0B12GlobalEntityV15PlaceAttributesVSeAAMc
++ _$s10OmniSearch0B12GlobalEntityV15associatedQuerySSSgvM
++ _$s10OmniSearch0B12GlobalEntityV15associatedQuerySSSgvg
++ _$s10OmniSearch0B12GlobalEntityV15associatedQuerySSSgvpMV
++ _$s10OmniSearch0B12GlobalEntityV15associatedQuerySSSgvs
++ _$s10OmniSearch0B12GlobalEntityV15eventAttributesAC05EventF0VSgvg
++ _$s10OmniSearch0B12GlobalEntityV15eventAttributesAC05EventF0VSgvpMV
++ _$s10OmniSearch0B12GlobalEntityV15overridePayloadACSo12NSDictionaryC_tKcfC
++ _$s10OmniSearch0B12GlobalEntityV15placeAttributesAC05PlaceF0VSgvg
++ _$s10OmniSearch0B12GlobalEntityV15placeAttributesAC05PlaceF0VSgvpMV
++ _$s10OmniSearch0B12GlobalEntityV16$associatedQuery10AppIntents0D8PropertyCySSSgGvg
++ _$s10OmniSearch0B12GlobalEntityV16$associatedQuery10AppIntents0D8PropertyCySSSgGvpMV
++ _$s10OmniSearch0B12GlobalEntityV16CoreTransferable0F0AAMc
++ _$s10OmniSearch0B12GlobalEntityV16customAttributesSayAC15CustomAttributeOGSgvg
++ _$s10OmniSearch0B12GlobalEntityV16customAttributesSayAC15CustomAttributeOGSgvpMV
++ _$s10OmniSearch0B12GlobalEntityV17ContactAttributesV10imessageIDSSSgvM
++ _$s10OmniSearch0B12GlobalEntityV17ContactAttributesV10imessageIDSSSgvg
++ _$s10OmniSearch0B12GlobalEntityV17ContactAttributesV10imessageIDSSSgvpMV
++ _$s10OmniSearch0B12GlobalEntityV17ContactAttributesV10imessageIDSSSgvs
++ _$s10OmniSearch0B12GlobalEntityV17ContactAttributesV11imessageURLSSSgvM
++ _$s10OmniSearch0B12GlobalEntityV17ContactAttributesV11imessageURLSSSgvg
++ _$s10OmniSearch0B12GlobalEntityV17ContactAttributesV11imessageURLSSSgvpMV
++ _$s10OmniSearch0B12GlobalEntityV17ContactAttributesV11imessageURLSSSgvs
++ _$s10OmniSearch0B12GlobalEntityV17ContactAttributesV11phoneNumber5email11imessageURL0J2IDAESSSg_A3JtcfC
++ _$s10OmniSearch0B12GlobalEntityV17ContactAttributesV11phoneNumberSSSgvM
++ _$s10OmniSearch0B12GlobalEntityV17ContactAttributesV11phoneNumberSSSgvg
++ _$s10OmniSearch0B12GlobalEntityV17ContactAttributesV11phoneNumberSSSgvpMV
++ _$s10OmniSearch0B12GlobalEntityV17ContactAttributesV11phoneNumberSSSgvs
++ _$s10OmniSearch0B12GlobalEntityV17ContactAttributesV2eeoiySbAE_AEtFZ
++ _$s10OmniSearch0B12GlobalEntityV17ContactAttributesV4fromAEs7Decoder_p_tKcfC
++ _$s10OmniSearch0B12GlobalEntityV17ContactAttributesV5emailSSSgvM
++ _$s10OmniSearch0B12GlobalEntityV17ContactAttributesV5emailSSSgvg
++ _$s10OmniSearch0B12GlobalEntityV17ContactAttributesV5emailSSSgvpMV
++ _$s10OmniSearch0B12GlobalEntityV17ContactAttributesV5emailSSSgvs
++ _$s10OmniSearch0B12GlobalEntityV17ContactAttributesV6encode2toys7Encoder_p_tKF
++ _$s10OmniSearch0B12GlobalEntityV17ContactAttributesVAEycfC
++ _$s10OmniSearch0B12GlobalEntityV17ContactAttributesVMa
++ _$s10OmniSearch0B12GlobalEntityV17ContactAttributesVMn
++ _$s10OmniSearch0B12GlobalEntityV17ContactAttributesVN
++ _$s10OmniSearch0B12GlobalEntityV17ContactAttributesVSEAAMc
++ _$s10OmniSearch0B12GlobalEntityV17ContactAttributesVSQAAMc
++ _$s10OmniSearch0B12GlobalEntityV17ContactAttributesVSeAAMc
++ _$s10OmniSearch0B12GlobalEntityV17GeneralAttributesV10contentURLSSSgvM
++ _$s10OmniSearch0B12GlobalEntityV17GeneralAttributesV10contentURLSSSgvg
++ _$s10OmniSearch0B12GlobalEntityV17GeneralAttributesV10contentURLSSSgvpMV
++ _$s10OmniSearch0B12GlobalEntityV17GeneralAttributesV10contentURLSSSgvs
++ _$s10OmniSearch0B12GlobalEntityV17GeneralAttributesV11displayNameSSSgvM
++ _$s10OmniSearch0B12GlobalEntityV17GeneralAttributesV11displayNameSSSgvg
++ _$s10OmniSearch0B12GlobalEntityV17GeneralAttributesV11displayNameSSSgvpMV
++ _$s10OmniSearch0B12GlobalEntityV17GeneralAttributesV11displayNameSSSgvs
++ _$s10OmniSearch0B12GlobalEntityV17GeneralAttributesV13thumbnailData10Foundation0H0VSgvM
++ _$s10OmniSearch0B12GlobalEntityV17GeneralAttributesV13thumbnailData10Foundation0H0VSgvg
++ _$s10OmniSearch0B12GlobalEntityV17GeneralAttributesV13thumbnailData10Foundation0H0VSgvpMV
++ _$s10OmniSearch0B12GlobalEntityV17GeneralAttributesV13thumbnailData10Foundation0H0VSgvs
++ _$s10OmniSearch0B12GlobalEntityV17GeneralAttributesV14alternateNames10contentURL11displayName13thumbnailData5titleAESaySSG_SSSgAL10Foundation0N0VSgALtcfC
++ _$s10OmniSearch0B12GlobalEntityV17GeneralAttributesV14alternateNamesSaySSGvM
++ _$s10OmniSearch0B12GlobalEntityV17GeneralAttributesV14alternateNamesSaySSGvg
++ _$s10OmniSearch0B12GlobalEntityV17GeneralAttributesV14alternateNamesSaySSGvpMV
++ _$s10OmniSearch0B12GlobalEntityV17GeneralAttributesV14alternateNamesSaySSGvs
++ _$s10OmniSearch0B12GlobalEntityV17GeneralAttributesV2eeoiySbAE_AEtFZ
++ _$s10OmniSearch0B12GlobalEntityV17GeneralAttributesV4fromAEs7Decoder_p_tKcfC
++ _$s10OmniSearch0B12GlobalEntityV17GeneralAttributesV5titleSSSgvM
++ _$s10OmniSearch0B12GlobalEntityV17GeneralAttributesV5titleSSSgvg
++ _$s10OmniSearch0B12GlobalEntityV17GeneralAttributesV5titleSSSgvpMV
++ _$s10OmniSearch0B12GlobalEntityV17GeneralAttributesV5titleSSSgvs
++ _$s10OmniSearch0B12GlobalEntityV17GeneralAttributesV6encode2toys7Encoder_p_tKF
++ _$s10OmniSearch0B12GlobalEntityV17GeneralAttributesVMa
++ _$s10OmniSearch0B12GlobalEntityV17GeneralAttributesVMn
++ _$s10OmniSearch0B12GlobalEntityV17GeneralAttributesVN
++ _$s10OmniSearch0B12GlobalEntityV17GeneralAttributesVSEAAMc
++ _$s10OmniSearch0B12GlobalEntityV17GeneralAttributesVSQAAMc
++ _$s10OmniSearch0B12GlobalEntityV17GeneralAttributesVSeAAMc
++ _$s10OmniSearch0B12GlobalEntityV17contactAttributesAC07ContactF0VSgvg
++ _$s10OmniSearch0B12GlobalEntityV17contactAttributesAC07ContactF0VSgvpMV
++ _$s10OmniSearch0B12GlobalEntityV17generalAttributesAC07GeneralF0VSgvg
++ _$s10OmniSearch0B12GlobalEntityV17generalAttributesAC07GeneralF0VSgvpMV
++ _$s10OmniSearch0B12GlobalEntityV18AppStoreAttributesV2eeoiySbAE_AEtFZ
++ _$s10OmniSearch0B12GlobalEntityV18AppStoreAttributesV4fromAEs7Decoder_p_tKcfC
++ _$s10OmniSearch0B12GlobalEntityV18AppStoreAttributesV6adamIDAESSSg_tcfC
++ _$s10OmniSearch0B12GlobalEntityV18AppStoreAttributesV6adamIDSSSgvM
++ _$s10OmniSearch0B12GlobalEntityV18AppStoreAttributesV6adamIDSSSgvg
++ _$s10OmniSearch0B12GlobalEntityV18AppStoreAttributesV6adamIDSSSgvpMV
++ _$s10OmniSearch0B12GlobalEntityV18AppStoreAttributesV6adamIDSSSgvs
++ _$s10OmniSearch0B12GlobalEntityV18AppStoreAttributesV6encode2toys7Encoder_p_tKF
++ _$s10OmniSearch0B12GlobalEntityV18AppStoreAttributesVAEycfC
++ _$s10OmniSearch0B12GlobalEntityV18AppStoreAttributesVMa
++ _$s10OmniSearch0B12GlobalEntityV18AppStoreAttributesVMn
++ _$s10OmniSearch0B12GlobalEntityV18AppStoreAttributesVN
++ _$s10OmniSearch0B12GlobalEntityV18AppStoreAttributesVSEAAMc
++ _$s10OmniSearch0B12GlobalEntityV18AppStoreAttributesVSQAAMc
++ _$s10OmniSearch0B12GlobalEntityV18AppStoreAttributesVSeAAMc
++ _$s10OmniSearch0B12GlobalEntityV18appstoreAttributesAC08AppStoreF0VSgvg
++ _$s10OmniSearch0B12GlobalEntityV18appstoreAttributesAC08AppStoreF0VSgvpMV
++ _$s10OmniSearch0B12GlobalEntityV18validateParametersyyKF
++ _$s10OmniSearch0B12GlobalEntityV20experienceSourceType0aB5Types0b6ResultG0Ovg
++ _$s10OmniSearch0B12GlobalEntityV20experienceSourceType0aB5Types0b6ResultG0OvpMV
++ _$s10OmniSearch0B12GlobalEntityV20validTypeIdentifiersSaySSGvg
++ _$s10OmniSearch0B12GlobalEntityV20validTypeIdentifiersSaySSGvpMV
++ _$s10OmniSearch0B12GlobalEntityV21displayRepresentation10AppIntents07DisplayF0Vvg
++ _$s10OmniSearch0B12GlobalEntityV21displayRepresentation10AppIntents07DisplayF0VvpMV
++ _$s10OmniSearch0B12GlobalEntityV22lowConfidenceKnowledgeSbvM
++ _$s10OmniSearch0B12GlobalEntityV22lowConfidenceKnowledgeSbvg
++ _$s10OmniSearch0B12GlobalEntityV22lowConfidenceKnowledgeSbvpMV
++ _$s10OmniSearch0B12GlobalEntityV22lowConfidenceKnowledgeSbvs
++ _$s10OmniSearch0B12GlobalEntityV22transferRepresentationQrvgZ
++ _$s10OmniSearch0B12GlobalEntityV22transferRepresentationQrvpZMV
++ _$s10OmniSearch0B12GlobalEntityV22transferRepresentationQrvpZQOMQ
++ _$s10OmniSearch0B12GlobalEntityV25typeDisplayRepresentation10AppIntents04TypefG0VvMZ
++ _$s10OmniSearch0B12GlobalEntityV25typeDisplayRepresentation10AppIntents04TypefG0VvgZ
++ _$s10OmniSearch0B12GlobalEntityV25typeDisplayRepresentation10AppIntents04TypefG0VvpZMV
++ _$s10OmniSearch0B12GlobalEntityV25typeDisplayRepresentation10AppIntents04TypefG0VvsZ
++ _$s10OmniSearch0B12GlobalEntityV2eeoiySbAC_ACtFZ
++ _$s10OmniSearch0B12GlobalEntityV2idSSvM
++ _$s10OmniSearch0B12GlobalEntityV2idSSvg
++ _$s10OmniSearch0B12GlobalEntityV2idSSvpMV
++ _$s10OmniSearch0B12GlobalEntityV2idSSvs
++ _$s10OmniSearch0B12GlobalEntityV3$id10AppIntents0D8PropertyCySSGvg
++ _$s10OmniSearch0B12GlobalEntityV3$id10AppIntents0D8PropertyCySSGvpMV
++ _$s10OmniSearch0B12GlobalEntityV33supportedTypeIdentifiersForExportSaySSGvM
++ _$s10OmniSearch0B12GlobalEntityV33supportedTypeIdentifiersForExportSaySSGvg
++ _$s10OmniSearch0B12GlobalEntityV33supportedTypeIdentifiersForExportSaySSGvpMV
++ _$s10OmniSearch0B12GlobalEntityV33supportedTypeIdentifiersForExportSaySSGvs
++ _$s10OmniSearch0B12GlobalEntityV34$supportedTypeIdentifiersForExport10AppIntents0D8PropertyCySaySSGGvg
++ _$s10OmniSearch0B12GlobalEntityV34$supportedTypeIdentifiersForExport10AppIntents0D8PropertyCySaySSGGvpMV
++ _$s10OmniSearch0B12GlobalEntityV4textSSSgvM
++ _$s10OmniSearch0B12GlobalEntityV4textSSSgvg
++ _$s10OmniSearch0B12GlobalEntityV4textSSSgvpMV
++ _$s10OmniSearch0B12GlobalEntityV4textSSSgvs
++ _$s10OmniSearch0B12GlobalEntityV5$text10AppIntents0D8PropertyCySSSgGvg
++ _$s10OmniSearch0B12GlobalEntityV5$text10AppIntents0D8PropertyCySSSgGvpMV
++ _$s10OmniSearch0B12GlobalEntityV5QueryV10AppIntents09_SupportsF12DependenciesAAMc
++ _$s10OmniSearch0B12GlobalEntityV5QueryV10AppIntents0dE0AAMc
++ _$s10OmniSearch0B12GlobalEntityV5QueryV10AppIntents22DynamicOptionsProviderAAMc
++ _$s10OmniSearch0B12GlobalEntityV5QueryV10AppIntents24PersistentlyIdentifiableAAMc
++ _$s10OmniSearch0B12GlobalEntityV5QueryV8entities3forSayACGSaySSG_tYaKF
++ _$s10OmniSearch0B12GlobalEntityV5QueryV8entities3forSayACGSaySSG_tYaKFTu
++ _$s10OmniSearch0B12GlobalEntityV5QueryVAEycfC
++ _$s10OmniSearch0B12GlobalEntityV5QueryVMa
++ _$s10OmniSearch0B12GlobalEntityV5QueryVMn
++ _$s10OmniSearch0B12GlobalEntityV5QueryVN
++ _$s10OmniSearch0B12GlobalEntityV6dialog0aB5Types0C6DialogVSgvM
++ _$s10OmniSearch0B12GlobalEntityV6dialog0aB5Types0C6DialogVSgvg
++ _$s10OmniSearch0B12GlobalEntityV6dialog0aB5Types0C6DialogVSgvpMV
++ _$s10OmniSearch0B12GlobalEntityV6dialog0aB5Types0C6DialogVSgvs
++ _$s10OmniSearch0B12GlobalEntityV6domainSSSgvM
++ _$s10OmniSearch0B12GlobalEntityV6domainSSSgvg
++ _$s10OmniSearch0B12GlobalEntityV6domainSSSgvpMV
++ _$s10OmniSearch0B12GlobalEntityV6domainSSSgvs
++ _$s10OmniSearch0B12GlobalEntityV6encode2toys7Encoder_p_tKF
++ _$s10OmniSearch0B12GlobalEntityV6entity6domain24isLowConfidenceKnowledge6dialogACSg10PegasusAPI029Apple_Parsec_Siri_V2alpha_AppD0V_SSSb0aB5Types0C6DialogVSgtcfC
++ _$s10OmniSearch0B12GlobalEntityV7$domain10AppIntents0D8PropertyCySSSgGvg
++ _$s10OmniSearch0B12GlobalEntityV7$domain10AppIntents0D8PropertyCySSSgGvpMV
++ _$s10OmniSearch0B12GlobalEntityV7BuilderV10entityTypeAC0dG0OSgvM
++ _$s10OmniSearch0B12GlobalEntityV7BuilderV10entityTypeAC0dG0OSgvg
++ _$s10OmniSearch0B12GlobalEntityV7BuilderV10entityTypeAC0dG0OSgvpMV
++ _$s10OmniSearch0B12GlobalEntityV7BuilderV10entityTypeAC0dG0OSgvs
++ _$s10OmniSearch0B12GlobalEntityV7BuilderV12idAttributesAC12IDAttributesVSgvM
++ _$s10OmniSearch0B12GlobalEntityV7BuilderV12idAttributesAC12IDAttributesVSgvg
++ _$s10OmniSearch0B12GlobalEntityV7BuilderV12idAttributesAC12IDAttributesVSgvpMV
++ _$s10OmniSearch0B12GlobalEntityV7BuilderV12idAttributesAC12IDAttributesVSgvs
++ _$s10OmniSearch0B12GlobalEntityV7BuilderV15eventAttributesAC05EventG0VSgvM
++ _$s10OmniSearch0B12GlobalEntityV7BuilderV15eventAttributesAC05EventG0VSgvg
++ _$s10OmniSearch0B12GlobalEntityV7BuilderV15eventAttributesAC05EventG0VSgvpMV
++ _$s10OmniSearch0B12GlobalEntityV7BuilderV15eventAttributesAC05EventG0VSgvs
++ _$s10OmniSearch0B12GlobalEntityV7BuilderV15placeAttributesAC05PlaceG0VSgvM
++ _$s10OmniSearch0B12GlobalEntityV7BuilderV15placeAttributesAC05PlaceG0VSgvg
++ _$s10OmniSearch0B12GlobalEntityV7BuilderV15placeAttributesAC05PlaceG0VSgvpMV
++ _$s10OmniSearch0B12GlobalEntityV7BuilderV15placeAttributesAC05PlaceG0VSgvs
++ _$s10OmniSearch0B12GlobalEntityV7BuilderV16customAttributesSayAC15CustomAttributeOGSgvM
++ _$s10OmniSearch0B12GlobalEntityV7BuilderV16customAttributesSayAC15CustomAttributeOGSgvg
++ _$s10OmniSearch0B12GlobalEntityV7BuilderV16customAttributesSayAC15CustomAttributeOGSgvpMV
++ _$s10OmniSearch0B12GlobalEntityV7BuilderV16customAttributesSayAC15CustomAttributeOGSgvs
++ _$s10OmniSearch0B12GlobalEntityV7BuilderV17contactAttributesAC07ContactG0VSgvM
++ _$s10OmniSearch0B12GlobalEntityV7BuilderV17contactAttributesAC07ContactG0VSgvg
++ _$s10OmniSearch0B12GlobalEntityV7BuilderV17contactAttributesAC07ContactG0VSgvpMV
++ _$s10OmniSearch0B12GlobalEntityV7BuilderV17contactAttributesAC07ContactG0VSgvs
++ _$s10OmniSearch0B12GlobalEntityV7BuilderV17generalAttributesAC07GeneralG0VSgvM
++ _$s10OmniSearch0B12GlobalEntityV7BuilderV17generalAttributesAC07GeneralG0VSgvg
++ _$s10OmniSearch0B12GlobalEntityV7BuilderV17generalAttributesAC07GeneralG0VSgvpMV
++ _$s10OmniSearch0B12GlobalEntityV7BuilderV17generalAttributesAC07GeneralG0VSgvs
++ _$s10OmniSearch0B12GlobalEntityV7BuilderV18appstoreAttributesAC08AppStoreG0VSgvM
++ _$s10OmniSearch0B12GlobalEntityV7BuilderV18appstoreAttributesAC08AppStoreG0VSgvg
++ _$s10OmniSearch0B12GlobalEntityV7BuilderV18appstoreAttributesAC08AppStoreG0VSgvpMV
++ _$s10OmniSearch0B12GlobalEntityV7BuilderV18appstoreAttributesAC08AppStoreG0VSgvs
++ _$s10OmniSearch0B12GlobalEntityV7BuilderV22lowConfidenceKnowledgeSbvM
++ _$s10OmniSearch0B12GlobalEntityV7BuilderV22lowConfidenceKnowledgeSbvg
++ _$s10OmniSearch0B12GlobalEntityV7BuilderV22lowConfidenceKnowledgeSbvpMV
++ _$s10OmniSearch0B12GlobalEntityV7BuilderV22lowConfidenceKnowledgeSbvs
++ _$s10OmniSearch0B12GlobalEntityV7BuilderV2id6domain8searchID10entityType4text17generalAttributes06customN005eventN005placeN00fN007contactN008appstoreN022lowConfidenceKnowledge6dialogAESSSg_AT10Foundation4DataVSgAC0dK0OSgAtC07GeneralN0VSgSayAC15CustomAttributeOGSgAC05EventN0VSgAC05PlaceN0VSgAC12IDAttributesVSgAC07ContactN0VSgAC08AppStoreN0VSgSb0aB5Types0C6DialogVSgtcfC
++ _$s10OmniSearch0B12GlobalEntityV7BuilderV2id6domain8searchID10entityType4text17generalAttributes06customN005eventN005placeN00fN007contactN008appstoreN022lowConfidenceKnowledge6dialogAESSSg_AT10Foundation4DataVSgAC0dK0OSgAtC07GeneralN0VSgSayAC15CustomAttributeOGSgAC05EventN0VSgAC05PlaceN0VSgAC12IDAttributesVSgAC07ContactN0VSgAC08AppStoreN0VSgSb0aB5Types0C6DialogVSgtcfcfA11_
++ _$s10OmniSearch0B12GlobalEntityV7BuilderV2idSSSgvM
++ _$s10OmniSearch0B12GlobalEntityV7BuilderV2idSSSgvg
++ _$s10OmniSearch0B12GlobalEntityV7BuilderV2idSSSgvpMV
++ _$s10OmniSearch0B12GlobalEntityV7BuilderV2idSSSgvs
++ _$s10OmniSearch0B12GlobalEntityV7BuilderV4textSSSgvM
++ _$s10OmniSearch0B12GlobalEntityV7BuilderV4textSSSgvg
++ _$s10OmniSearch0B12GlobalEntityV7BuilderV4textSSSgvpMV
++ _$s10OmniSearch0B12GlobalEntityV7BuilderV4textSSSgvs
++ _$s10OmniSearch0B12GlobalEntityV7BuilderV6dialog0aB5Types0C6DialogVSgvM
++ _$s10OmniSearch0B12GlobalEntityV7BuilderV6dialog0aB5Types0C6DialogVSgvg
++ _$s10OmniSearch0B12GlobalEntityV7BuilderV6dialog0aB5Types0C6DialogVSgvpMV
++ _$s10OmniSearch0B12GlobalEntityV7BuilderV6dialog0aB5Types0C6DialogVSgvs
++ _$s10OmniSearch0B12GlobalEntityV7BuilderV6domainSSSgvM
++ _$s10OmniSearch0B12GlobalEntityV7BuilderV6domainSSSgvg
++ _$s10OmniSearch0B12GlobalEntityV7BuilderV6domainSSSgvpMV
++ _$s10OmniSearch0B12GlobalEntityV7BuilderV6domainSSSgvs
++ _$s10OmniSearch0B12GlobalEntityV7BuilderV8searchID10Foundation4DataVSgvM
++ _$s10OmniSearch0B12GlobalEntityV7BuilderV8searchID10Foundation4DataVSgvg
++ _$s10OmniSearch0B12GlobalEntityV7BuilderV8searchID10Foundation4DataVSgvpMV
++ _$s10OmniSearch0B12GlobalEntityV7BuilderV8searchID10Foundation4DataVSgvs
++ _$s10OmniSearch0B12GlobalEntityV7BuilderVAEycfC
++ _$s10OmniSearch0B12GlobalEntityV7BuilderVMa
++ _$s10OmniSearch0B12GlobalEntityV7BuilderVMn
++ _$s10OmniSearch0B12GlobalEntityV7BuilderVN
++ _$s10OmniSearch0B12GlobalEntityV7builderACSgAC7BuilderV_tcfC
++ _$s10OmniSearch0B12GlobalEntityV8searchID10Foundation4DataVSgvg
++ _$s10OmniSearch0B12GlobalEntityV8searchID10Foundation4DataVSgvpMV
++ _$s10OmniSearch0B12GlobalEntityV9TimestampV2eeoiySbAE_AEtFZ
++ _$s10OmniSearch0B12GlobalEntityV9TimestampV4fromAEs7Decoder_p_tKcfC
++ _$s10OmniSearch0B12GlobalEntityV9TimestampV6encode2toys7Encoder_p_tKF
++ _$s10OmniSearch0B12GlobalEntityV9TimestampV7seconds9utcOffset8timezoneAEs5Int64VSg_AKSSSgtcfC
++ _$s10OmniSearch0B12GlobalEntityV9TimestampV7secondss5Int64VSgvg
++ _$s10OmniSearch0B12GlobalEntityV9TimestampV7secondss5Int64VSgvpMV
++ _$s10OmniSearch0B12GlobalEntityV9TimestampV8timezoneSSSgvg
++ _$s10OmniSearch0B12GlobalEntityV9TimestampV8timezoneSSSgvpMV
++ _$s10OmniSearch0B12GlobalEntityV9TimestampV9utcOffsets5Int64VSgvg
++ _$s10OmniSearch0B12GlobalEntityV9TimestampV9utcOffsets5Int64VSgvpMV
++ _$s10OmniSearch0B12GlobalEntityV9TimestampVMa
++ _$s10OmniSearch0B12GlobalEntityV9TimestampVMn
++ _$s10OmniSearch0B12GlobalEntityV9TimestampVN
++ _$s10OmniSearch0B12GlobalEntityV9TimestampVSEAAMc
++ _$s10OmniSearch0B12GlobalEntityV9TimestampVSQAAMc
++ _$s10OmniSearch0B12GlobalEntityV9TimestampVSeAAMc
++ _$s10OmniSearch0B12GlobalEntityVAA011ValidatableD0AAMc
++ _$s10OmniSearch0B12GlobalEntityVAA011ValidatableD0AAWP
++ _$s10OmniSearch0B12GlobalEntityVAA0B20CATEntityConvertibleAAMc
++ _$s10OmniSearch0B12GlobalEntityVAA0B20CATEntityConvertibleAAWP
++ _$s10OmniSearch0B12GlobalEntityVAA0B20NLGEntityConvertibleAAMc
++ _$s10OmniSearch0B12GlobalEntityVAA0B20NLGEntityConvertibleAAWP
++ _$s10OmniSearch0B12GlobalEntityVACycfC
++ _$s10OmniSearch0B12GlobalEntityVMa
++ _$s10OmniSearch0B12GlobalEntityVMn
++ _$s10OmniSearch0B12GlobalEntityVN
++ _$s10OmniSearch0B12GlobalEntityVSEAAMc
++ _$s10OmniSearch0B12GlobalEntityVSQAAMc
++ _$s10OmniSearch0B12GlobalEntityVs12IdentifiableAAMc
++ _$s10OmniSearch0B12GlobalEntityVyACSgyAC7BuilderVzXEcfC
++ _$s10OmniSearch0B12PropertyTypeO10navigationyA2CmFWC
++ _$s10OmniSearch0B12PropertyTypeO14dateComponentsyA2CmFWC
++ _$s10OmniSearch0B12PropertyTypeO25typeDisplayRepresentation10AppIntents0dfG0VvpZMV
++ _$s10OmniSearch0B12PropertyTypeO26caseDisplayRepresentationsSDyAC10AppIntents0F14RepresentationVGvpZMV
++ _$s10OmniSearch0B12PropertyTypeO3urlyA2CmFWC
++ _$s10OmniSearch0B12PropertyTypeO5mediayA2CmFWC
++ _$s10OmniSearch0B12PropertyTypeO8allCasesSayACGvMZ
++ _$s10OmniSearch0B12PropertyTypeO8allCasesSayACGvpZMV
++ _$s10OmniSearch0B12PropertyTypeO8allCasesSayACGvsZ
++ _$s10OmniSearch0B12PropertyTypeOSEAAMc
++ _$s10OmniSearch0B12PropertyTypeOSeAAMc
++ _$s10OmniSearch0B13ServiceResultV03ecrD0SDyS2SGSgvM
++ _$s10OmniSearch0B13ServiceResultV03ecrD0SDyS2SGSgvg
++ _$s10OmniSearch0B13ServiceResultV03ecrD0SDyS2SGSgvpMV
++ _$s10OmniSearch0B13ServiceResultV03ecrD0SDyS2SGSgvs
++ _$s10OmniSearch0B13ServiceResultV13searchResults03ecrD0ACSayAA0bD0VG_SDyS2SGSgtcfC
++ _$s10OmniSearch0B13ServiceResultV13searchResultsSayAA0bD0VGvg
++ _$s10OmniSearch0B13ServiceResultV13searchResultsSayAA0bD0VGvpMV
++ _$s10OmniSearch0B13ServiceResultVMa
++ _$s10OmniSearch0B13ServiceResultVMn
++ _$s10OmniSearch0B13ServiceResultVN
++ _$s10OmniSearch0B14OverrideOutputV10entityType0aB5Types0b6ResultF0OSgvM
++ _$s10OmniSearch0B14OverrideOutputV10entityType0aB5Types0b6ResultF0OSgvg
++ _$s10OmniSearch0B14OverrideOutputV10entityType0aB5Types0b6ResultF0OSgvpMV
++ _$s10OmniSearch0B14OverrideOutputV10entityType0aB5Types0b6ResultF0OSgvs
++ _$s10OmniSearch0B14OverrideOutputV10makeResultAA0bF0VyKF
++ _$s10OmniSearch0B14OverrideOutputV16makeResultEntityAA0bG0VyKF
++ _$s10OmniSearch0B14OverrideOutputV22defaultsRepresentationACSo12NSDictionaryC_tKcfC
++ _$s10OmniSearch0B14OverrideOutputV22defaultsRepresentationSo12NSDictionaryCyKF
++ _$s10OmniSearch0B14OverrideOutputV4makeypyKF
++ _$s10OmniSearch0B14OverrideOutputV7payloadSo12NSDictionaryCvM
++ _$s10OmniSearch0B14OverrideOutputV7payloadSo12NSDictionaryCvg
++ _$s10OmniSearch0B14OverrideOutputV7payloadSo12NSDictionaryCvpMV
++ _$s10OmniSearch0B14OverrideOutputV7payloadSo12NSDictionaryCvs
++ _$s10OmniSearch0B14OverrideOutputVMa
++ _$s10OmniSearch0B14OverrideOutputVMn
++ _$s10OmniSearch0B14OverrideOutputVN
++ _$s10OmniSearch0B14ToolBiomeEventMp
++ _$s10OmniSearch0B14ToolBiomeEventP9eventTypeSSvgZTj
++ _$s10OmniSearch0B14ToolBiomeEventP9eventTypeSSvgZTq
++ _$s10OmniSearch0B14ToolBiomeEventPAAE6donate9timestamp9requestId5queryy10Foundation4DateV_S2StF
++ _$s10OmniSearch0B14ToolBiomeEventPAAE6donate9timestamp9requestId5queryy10Foundation4DateV_S2StFfA_
++ _$s10OmniSearch0B14ToolBiomeEventPSETb
++ _$s10OmniSearch0B14ToolBiomeEventTL
++ _$s10OmniSearch0B14ToolClientTypeO25typeDisplayRepresentation10AppIntents0egH0VvpZMV
++ _$s10OmniSearch0B14ToolClientTypeO26caseDisplayRepresentationsSDyAC10AppIntents0G14RepresentationVGvpZMV
++ _$s10OmniSearch0B14ToolClientTypeO8allCasesSayACGvpZMV
++ _$s10OmniSearch0B15PropertyRequestV07defaultC0ACvgZ
++ _$s10OmniSearch0B15PropertyRequestV07defaultC0ACvpZMV
++ _$s10OmniSearch0B15PropertyRequestV11descriptionSSvg
++ _$s10OmniSearch0B15PropertyRequestV11descriptionSSvpMV
++ _$s10OmniSearch0B15PropertyRequestV12groupingInfo4typeA2C05GroupF0O_AA0bC4TypeOSgtcfC
++ _$s10OmniSearch0B15PropertyRequestV12groupingInfoAC05GroupF0OSgvM
++ _$s10OmniSearch0B15PropertyRequestV12groupingInfoAC05GroupF0OSgvg
++ _$s10OmniSearch0B15PropertyRequestV12groupingInfoAC05GroupF0OSgvpMV
++ _$s10OmniSearch0B15PropertyRequestV12groupingInfoAC05GroupF0OSgvs
++ _$s10OmniSearch0B15PropertyRequestV16hydrationContextAA09HydrationF0VSgvM
++ _$s10OmniSearch0B15PropertyRequestV16hydrationContextAA09HydrationF0VSgvg
++ _$s10OmniSearch0B15PropertyRequestV16hydrationContextAA09HydrationF0VSgvpMV
++ _$s10OmniSearch0B15PropertyRequestV16hydrationContextAA09HydrationF0VSgvs
++ _$s10OmniSearch0B15PropertyRequestV17$hydrationContext10AppIntents06EntityC0CyAA09HydrationF0VSgGvg
++ _$s10OmniSearch0B15PropertyRequestV17$hydrationContext10AppIntents06EntityC0CyAA09HydrationF0VSgGvpMV
++ _$s10OmniSearch0B15PropertyRequestV25typeDisplayRepresentation10AppIntents04TypefG0VvpZMV
++ _$s10OmniSearch0B15PropertyRequestV2eeoiySbAC_ACtFZ
++ _$s10OmniSearch0B15PropertyRequestV4fromACs7Decoder_p_tKcfC
++ _$s10OmniSearch0B15PropertyRequestV4hash4intoys6HasherVz_tF
++ _$s10OmniSearch0B15PropertyRequestV4name4type16hydrationContextACSS_AA0bC4TypeOAA09HydrationH0VSgtcfC
++ _$s10OmniSearch0B15PropertyRequestV4name4typeACSS_AA0bC4TypeOtcfC
++ _$s10OmniSearch0B15PropertyRequestV6encode2toys7Encoder_p_tKF
++ _$s10OmniSearch0B15PropertyRequestV9GroupInfoO2eeoiySbAE_AEtFZ
++ _$s10OmniSearch0B15PropertyRequestV9GroupInfoO4hash4intoys6HasherVz_tF
++ _$s10OmniSearch0B15PropertyRequestV9GroupInfoO9hashValueSivg
++ _$s10OmniSearch0B15PropertyRequestV9GroupInfoO9hashValueSivpMV
++ _$s10OmniSearch0B15PropertyRequestV9GroupInfoOMa
++ _$s10OmniSearch0B15PropertyRequestV9GroupInfoOMn
++ _$s10OmniSearch0B15PropertyRequestV9GroupInfoON
++ _$s10OmniSearch0B15PropertyRequestV9GroupInfoOSHAAMc
++ _$s10OmniSearch0B15PropertyRequestV9GroupInfoOSQAAMc
++ _$s10OmniSearch0B15PropertyRequestV9hashValueSivg
++ _$s10OmniSearch0B15PropertyRequestV9hashValueSivpMV
++ _$s10OmniSearch0B15PropertyRequestVSEAAMc
++ _$s10OmniSearch0B15PropertyRequestVSHAAMc
++ _$s10OmniSearch0B15PropertyRequestVSQAAMc
++ _$s10OmniSearch0B15PropertyRequestVSeAAMc
++ _$s10OmniSearch0B15PropertyRequestVs23CustomStringConvertibleAAMc
++ _$s10OmniSearch0B15SpotlightEntityV10AppIntents09TransienteD0AAMc
++ _$s10OmniSearch0B15SpotlightEntityV11openCommand10AppIntents10IntentFileVSgvM
++ _$s10OmniSearch0B15SpotlightEntityV11openCommand10AppIntents10IntentFileVSgvg
++ _$s10OmniSearch0B15SpotlightEntityV11openCommand10AppIntents10IntentFileVSgvpMV
++ _$s10OmniSearch0B15SpotlightEntityV11openCommand10AppIntents10IntentFileVSgvs
++ _$s10OmniSearch0B15SpotlightEntityV12$openCommand10AppIntents0D8PropertyCyAE10IntentFileVSgGvg
++ _$s10OmniSearch0B15SpotlightEntityV12$openCommand10AppIntents0D8PropertyCyAE10IntentFileVSgGvpMV
++ _$s10OmniSearch0B15SpotlightEntityV12defaultQueryAC0F0VvpZMV
++ _$s10OmniSearch0B15SpotlightEntityV22transferRepresentationQrvpZMV
++ _$s10OmniSearch0B15SpotlightEntityV25typeDisplayRepresentation10AppIntents04TypefG0VvpZMV
++ _$s10OmniSearch0B15SpotlightEntityV7BuilderV11openCommandSo9SFCommandCSgvM
++ _$s10OmniSearch0B15SpotlightEntityV7BuilderV11openCommandSo9SFCommandCSgvg
++ _$s10OmniSearch0B15SpotlightEntityV7BuilderV11openCommandSo9SFCommandCSgvpMV
++ _$s10OmniSearch0B15SpotlightEntityV7BuilderV11openCommandSo9SFCommandCSgvs
++ _$s10OmniSearch0B15SpotlightEntityV7BuilderV2id8bundleId21encodedSearchableItem30spotlightContentTypeIdentifier5title4card12sourceResult11experiences7fileURL11openCommandAESSSg_AP10AppIntents10IntentFileVSgA2PSo6SFCardCSgAA0bS0VSgSayAA16DialogExperienceCG10Foundation0V0VSgSo9SFCommandCSgtcfC
++ _$s10OmniSearch0B15SpotlightEntityV7BuilderV2id8bundleId21encodedSearchableItem30spotlightContentTypeIdentifier5title4card12sourceResult11experiences7fileURL11openCommandAESSSg_AP10AppIntents10IntentFileVSgA2PSo6SFCardCSgAA0bS0VSgSayAA16DialogExperienceCG10Foundation0V0VSgSo9SFCommandCSgtcfcfA6_
++ _$s10OmniSearch0B15SpotlightEntityV7BuilderV7fileURL10Foundation0G0VSgvM
++ _$s10OmniSearch0B15SpotlightEntityV7BuilderV7fileURL10Foundation0G0VSgvg
++ _$s10OmniSearch0B15SpotlightEntityV7BuilderV7fileURL10Foundation0G0VSgvpMV
++ _$s10OmniSearch0B15SpotlightEntityV7BuilderV7fileURL10Foundation0G0VSgvs
++ _$s10OmniSearch0B15SpotlightEntityV7fileURL10Foundation0F0VSgvM
++ _$s10OmniSearch0B15SpotlightEntityV7fileURL10Foundation0F0VSgvg
++ _$s10OmniSearch0B15SpotlightEntityV7fileURL10Foundation0F0VSgvpMV
++ _$s10OmniSearch0B15SpotlightEntityV7fileURL10Foundation0F0VSgvs
++ _$s10OmniSearch0B15SpotlightEntityV8$fileURL10AppIntents0D8PropertyCy10Foundation0F0VSgGvg
++ _$s10OmniSearch0B15SpotlightEntityV8$fileURL10AppIntents0D8PropertyCy10Foundation0F0VSgGvpMV
++ _$s10OmniSearch0B15SpotlightOpenerV17decodeOpenCommandySo9SFCommandCxKAA0C13ItemProvidingRzlFZ
++ _$s10OmniSearch0B15ToolLLMQUResultV25typeDisplayRepresentation10AppIntents04TypefG0VvpZMV
++ _$s10OmniSearch0B15ToolMCGroundingV11description10AppIntents17IntentDescriptionVvpZMV
++ _$s10OmniSearch0B15ToolMCGroundingV14isDiscoverableSbvpZMV
++ _$s10OmniSearch0B15ToolMCGroundingV14openAppWhenRunSbvpZMV
++ _$s10OmniSearch0B15ToolMCGroundingV5title10Foundation23LocalizedStringResourceVvpZMV
++ _$s10OmniSearch0B16PropertyResponseV10$dateValue10AppIntents06EntityC0Cy10Foundation4DateVSgGvg
++ _$s10OmniSearch0B16PropertyResponseV10$dateValue10AppIntents06EntityC0Cy10Foundation4DateVSgGvpMV
++ _$s10OmniSearch0B16PropertyResponseV10CodingKeysO11stringValueAESgSS_tcfC
++ _$s10OmniSearch0B16PropertyResponseV10CodingKeysO11stringValueSSvg
++ _$s10OmniSearch0B16PropertyResponseV10CodingKeysO11stringValueSSvpMV
++ _$s10OmniSearch0B16PropertyResponseV10CodingKeysO2eeoiySbAE_AEtFZ
++ _$s10OmniSearch0B16PropertyResponseV10CodingKeysO4hash4intoys6HasherVz_tF
++ _$s10OmniSearch0B16PropertyResponseV10CodingKeysO8intValueAESgSi_tcfC
++ _$s10OmniSearch0B16PropertyResponseV10CodingKeysO8intValueSiSgvg
++ _$s10OmniSearch0B16PropertyResponseV10CodingKeysO8intValueSiSgvpMV
++ _$s10OmniSearch0B16PropertyResponseV10CodingKeysO9hashValueSivg
++ _$s10OmniSearch0B16PropertyResponseV10CodingKeysO9hashValueSivpMV
++ _$s10OmniSearch0B16PropertyResponseV10CodingKeysOMa
++ _$s10OmniSearch0B16PropertyResponseV10CodingKeysOMn
++ _$s10OmniSearch0B16PropertyResponseV10CodingKeysON
++ _$s10OmniSearch0B16PropertyResponseV10CodingKeysOSHAAMc
++ _$s10OmniSearch0B16PropertyResponseV10CodingKeysOSQAAMc
++ _$s10OmniSearch0B16PropertyResponseV10CodingKeysOs0E3KeyAAMc
++ _$s10OmniSearch0B16PropertyResponseV10CodingKeysOs23CustomStringConvertibleAAMc
++ _$s10OmniSearch0B16PropertyResponseV10CodingKeysOs28CustomDebugStringConvertibleAAMc
++ _$s10OmniSearch0B16PropertyResponseV10mediaValue10AppIntents10IntentFileVSgvM
++ _$s10OmniSearch0B16PropertyResponseV10mediaValue10AppIntents10IntentFileVSgvg
++ _$s10OmniSearch0B16PropertyResponseV10mediaValue10AppIntents10IntentFileVSgvpMV
++ _$s10OmniSearch0B16PropertyResponseV10mediaValue10AppIntents10IntentFileVSgvs
++ _$s10OmniSearch0B16PropertyResponseV11$mediaValue10AppIntents06EntityC0CyAE10IntentFileVSgGvg
++ _$s10OmniSearch0B16PropertyResponseV11$mediaValue10AppIntents06EntityC0CyAE10IntentFileVSgGvpMV
++ _$s10OmniSearch0B16PropertyResponseV11descriptionSSvg
++ _$s10OmniSearch0B16PropertyResponseV11descriptionSSvpMV
++ _$s10OmniSearch0B16PropertyResponseV15navigationValue10AppIntents10IntentFileVSgvM
++ _$s10OmniSearch0B16PropertyResponseV15navigationValue10AppIntents10IntentFileVSgvg
++ _$s10OmniSearch0B16PropertyResponseV15navigationValue10AppIntents10IntentFileVSgvpMV
++ _$s10OmniSearch0B16PropertyResponseV15navigationValue10AppIntents10IntentFileVSgvs
++ _$s10OmniSearch0B16PropertyResponseV15overridePayloadACSo12NSDictionaryC_tKcfC
++ _$s10OmniSearch0B16PropertyResponseV16$navigationValue10AppIntents06EntityC0CyAE10IntentFileVSgGvg
++ _$s10OmniSearch0B16PropertyResponseV16$navigationValue10AppIntents06EntityC0CyAE10IntentFileVSgGvpMV
++ _$s10OmniSearch0B16PropertyResponseV19dateComponentsValue10Foundation04DateF0VSgvM
++ _$s10OmniSearch0B16PropertyResponseV19dateComponentsValue10Foundation04DateF0VSgvg
++ _$s10OmniSearch0B16PropertyResponseV19dateComponentsValue10Foundation04DateF0VSgvpMV
++ _$s10OmniSearch0B16PropertyResponseV19dateComponentsValue10Foundation04DateF0VSgvs
++ _$s10OmniSearch0B16PropertyResponseV20$dateComponentsValue10AppIntents06EntityC0Cy10Foundation04DateF0VSgGvg
++ _$s10OmniSearch0B16PropertyResponseV20$dateComponentsValue10AppIntents06EntityC0Cy10Foundation04DateF0VSgGvpMV
++ _$s10OmniSearch0B16PropertyResponseV25typeDisplayRepresentation10AppIntents04TypefG0VvpZMV
++ _$s10OmniSearch0B16PropertyResponseV4fromACs7Decoder_p_tKcfC
++ _$s10OmniSearch0B16PropertyResponseV6encode2toys7Encoder_p_tKF
++ _$s10OmniSearch0B16PropertyResponseV8urlValue10Foundation3URLVSgvM
++ _$s10OmniSearch0B16PropertyResponseV8urlValue10Foundation3URLVSgvg
++ _$s10OmniSearch0B16PropertyResponseV8urlValue10Foundation3URLVSgvpMV
++ _$s10OmniSearch0B16PropertyResponseV8urlValue10Foundation3URLVSgvs
++ _$s10OmniSearch0B16PropertyResponseV9$urlValue10AppIntents06EntityC0Cy10Foundation3URLVSgGvg
++ _$s10OmniSearch0B16PropertyResponseV9$urlValue10AppIntents06EntityC0Cy10Foundation3URLVSgGvpMV
++ _$s10OmniSearch0B16PropertyResponseV9dateValue10Foundation4DateVSgvM
++ _$s10OmniSearch0B16PropertyResponseV9dateValue10Foundation4DateVSgvg
++ _$s10OmniSearch0B16PropertyResponseV9dateValue10Foundation4DateVSgvpMV
++ _$s10OmniSearch0B16PropertyResponseV9dateValue10Foundation4DateVSgvs
++ _$s10OmniSearch0B16PropertyResponseVAA0B12OverrideableAAMc
++ _$s10OmniSearch0B16PropertyResponseVAA0B12OverrideableAAWP
++ _$s10OmniSearch0B16PropertyResponseVSEAAMc
++ _$s10OmniSearch0B16PropertyResponseVSeAAMc
++ _$s10OmniSearch0B16PropertyResponseVs23CustomStringConvertibleAAMc
++ _$s10OmniSearch0B17ToolIntentRequestV012isSingleStepB0SbSgvg
++ _$s10OmniSearch0B17ToolIntentRequestV012isSingleStepB0SbSgvpMV
++ _$s10OmniSearch0B17ToolIntentRequestV15simplifiedQuerySSSgvg
++ _$s10OmniSearch0B17ToolIntentRequestV15simplifiedQuerySSSgvpMV
++ _$s10OmniSearch0B17ToolIntentRequestV19disambiguatedEntityAA0bG0VSgvg
++ _$s10OmniSearch0B17ToolIntentRequestV19disambiguatedEntityAA0bG0VSgvpMV
++ _$s10OmniSearch0B17ToolIntentRequestV19isOnScreenReferenceSbSgvg
++ _$s10OmniSearch0B17ToolIntentRequestV19isOnScreenReferenceSbSgvpMV
++ _$s10OmniSearch0B17ToolIntentRequestV4fromACs7Decoder_p_tKcfC
++ _$s10OmniSearch0B17ToolIntentRequestV6encode2toys7Encoder_p_tKF
++ _$s10OmniSearch0B17ToolIntentRequestV8rawQuery09rewrittenG0010simplifiedG0010structuredG015typeIdentifiers7context13matchEntities07isFirstC10Invocation0P17OnScreenReference0p10SingleStepB016invocationClient19requestedProperties13systemContext19disambiguatedEntityACSS_SSSgArA010StructuredG6EntityVSgSayAA0B20EntityTypeIdentifierVGSgAA0B7ContextVSgSayAA11EntityMatchVGSgSbSgA5_A5_AA0bcY4TypeOSgSayAA0b8PropertyE0VGSgAA22AssistantSystemContextVAA0B6EntityVSgtcfC
++ _$s10OmniSearch0B17ToolIntentRequestVSEAAMc
++ _$s10OmniSearch0B17ToolIntentRequestVSeAAMc
++ _$s10OmniSearch0B18ToolIntentResponseV15attributionData10Foundation0G0VSgvg
++ _$s10OmniSearch0B18ToolIntentResponseV15attributionData10Foundation0G0VSgvpMV
++ _$s10OmniSearch0B18ToolIntentResponseV4fromACs7Decoder_p_tKcfC
++ _$s10OmniSearch0B18ToolIntentResponseV6encode2toys7Encoder_p_tKF
++ _$s10OmniSearch0B18ToolIntentResponseV7results11snippetData011attributionH006dialogH0ACSayAA0B6EntityVG_10Foundation0H0VAMSgAA06DialogH0VtcfC
++ _$s10OmniSearch0B18ToolIntentResponseV8evalInfoSaySE_pGvg
++ _$s10OmniSearch0B18ToolIntentResponseV8evalInfoSaySE_pGvpMV
++ _$s10OmniSearch0B18ToolIntentResponseVAA17EvalInfoProvidingAAMc
++ _$s10OmniSearch0B18ToolIntentResponseVAA17EvalInfoProvidingAAWP
++ _$s10OmniSearch0B18ToolIntentResponseVSEAAMc
++ _$s10OmniSearch0B18ToolIntentResponseVSeAAMc
++ _$s10OmniSearch0B19EntityVisualContextC11cardBuilderAA0C12CardBuilding_pvM
++ _$s10OmniSearch0B19EntityVisualContextC11cardBuilderAA0C12CardBuilding_pvg
++ _$s10OmniSearch0B19EntityVisualContextC11cardBuilderAA0C12CardBuilding_pvpMV
++ _$s10OmniSearch0B19EntityVisualContextC11cardBuilderAA0C12CardBuilding_pvs
++ _$s10OmniSearch0B19EntityVisualContextC11cardBuilderAcA0C12CardBuilding_p_tcfC
++ _$s10OmniSearch0B19EntityVisualContextC11cardBuilderAcA0C12CardBuilding_p_tcfCTj
++ _$s10OmniSearch0B19EntityVisualContextC11cardBuilderAcA0C12CardBuilding_p_tcfCTq
++ _$s10OmniSearch0B19EntityVisualContextC11cardBuilderAcA0C12CardBuilding_p_tcfc
++ _$s10OmniSearch0B19EntityVisualContextC11cardBuilderAcA0C12CardBuilding_p_tcfcfA_
++ _$s10OmniSearch0B19EntityVisualContextCMa
++ _$s10OmniSearch0B19EntityVisualContextCMm
++ _$s10OmniSearch0B19EntityVisualContextCMn
++ _$s10OmniSearch0B19EntityVisualContextCMo
++ _$s10OmniSearch0B19EntityVisualContextCMu
++ _$s10OmniSearch0B19EntityVisualContextCN
++ _$s10OmniSearch0B19EntityVisualContextCfD
++ _$s10OmniSearch0B19EntityVisualContextCfd
++ _$s10OmniSearch0B20CATEntityConvertibleP02asC0AA0bC0VvgTjTu
++ _$s10OmniSearch0B20EntityTypeIdentifierV2eeoiySbAC_ACtFZ
++ _$s10OmniSearch0B20EntityTypeIdentifierVSQAAMc
++ _$s10OmniSearch0B20ToolIntentControllerC04omniB7Service13metricsLogger7contextAcA0abG8Protocol_p_AA07MetricsiK0_pAA0B19EntityVisualContextCtcfC
++ _$s10OmniSearch0B20ToolIntentControllerC04omniB7Service13metricsLogger7contextAcA0abG8Protocol_p_AA07MetricsiK0_pAA0B19EntityVisualContextCtcfCTj
++ _$s10OmniSearch0B20ToolIntentControllerC04omniB7Service13metricsLogger7contextAcA0abG8Protocol_p_AA07MetricsiK0_pAA0B19EntityVisualContextCtcfCTq
++ _$s10OmniSearch0B20ToolIntentControllerC04omniB7Service13metricsLogger7contextAcA0abG8Protocol_p_AA07MetricsiK0_pAA0B19EntityVisualContextCtcfc
++ _$s10OmniSearch0B20ToolIntentControllerC04omniB7Service13metricsLogger7contextAcA0abG8Protocol_p_AA07MetricsiK0_pAA0B19EntityVisualContextCtcfcfA0_
++ _$s10OmniSearch0B20ToolIntentControllerC04omniB7Service13metricsLogger7contextAcA0abG8Protocol_p_AA07MetricsiK0_pAA0B19EntityVisualContextCtcfcfA1_
++ _$s10OmniSearch0B20ToolIntentControllerC04omniB7Service13metricsLogger7contextAcA0abG8Protocol_p_AA07MetricsiK0_pAA0B19EntityVisualContextCtcfcfA_
++ _$s10OmniSearch0B20ToolIntentControllerC15performInternal7request16progressReporterAA0bcD8ResponseVAA0bcD7RequestV_AA0bc8ProgressJ0CSgtYaKF
++ _$s10OmniSearch0B20ToolIntentControllerC15performInternal7request16progressReporterAA0bcD8ResponseVAA0bcD7RequestV_AA0bc8ProgressJ0CSgtYaKFTj
++ _$s10OmniSearch0B20ToolIntentControllerC15performInternal7request16progressReporterAA0bcD8ResponseVAA0bcD7RequestV_AA0bc8ProgressJ0CSgtYaKFTjTu
++ _$s10OmniSearch0B20ToolIntentControllerC15performInternal7request16progressReporterAA0bcD8ResponseVAA0bcD7RequestV_AA0bc8ProgressJ0CSgtYaKFTq
++ _$s10OmniSearch0B20ToolIntentControllerC15performInternal7request16progressReporterAA0bcD8ResponseVAA0bcD7RequestV_AA0bc8ProgressJ0CSgtYaKFTu
++ _$s10OmniSearch0B20ToolIntentControllerC19buildExperienceData33_12E9D6AD9B7C26936623555213C26B09LL4from7request12renderOption15isQuestionQuery16searchCATContextAC0gH0AELLVSayAA0B6EntityVG_AA0bcD7RequestVAA0ab14ResponseRenderS0OSbAA0bX0VtYaKF
++ _$s10OmniSearch0B20ToolIntentControllerC19buildExperienceData33_12E9D6AD9B7C26936623555213C26B09LL4from7request12renderOption15isQuestionQuery16searchCATContextAC0gH0AELLVSayAA0B6EntityVG_AA0bcD7RequestVAA0ab14ResponseRenderS0OSbAA0bX0VtYaKFTu
++ _$s10OmniSearch0B20ToolIntentControllerC35buildExpandableLiveFlightComponents33_12E9D6AD9B7C26936623555213C26B09LL6answer10Foundation4DataV7snippet_AI11attributiontSgAA0B12AnswerEntityV_tF
++ _$s10OmniSearch0B20ToolIntentControllerC7perform7request16progressReporterAA0bcD8ResponseVAA0bcD7RequestV_AA0bc8ProgressI0CSgtYaKF
++ _$s10OmniSearch0B20ToolIntentControllerC7perform7request16progressReporterAA0bcD8ResponseVAA0bcD7RequestV_AA0bc8ProgressI0CSgtYaKFTj
++ _$s10OmniSearch0B20ToolIntentControllerC7perform7request16progressReporterAA0bcD8ResponseVAA0bcD7RequestV_AA0bc8ProgressI0CSgtYaKFTjTu
++ _$s10OmniSearch0B20ToolIntentControllerC7perform7request16progressReporterAA0bcD8ResponseVAA0bcD7RequestV_AA0bc8ProgressI0CSgtYaKFTq
++ _$s10OmniSearch0B20ToolIntentControllerC7perform7request16progressReporterAA0bcD8ResponseVAA0bcD7RequestV_AA0bc8ProgressI0CSgtYaKFTu
++ _$s10OmniSearch0B20ToolProgressReporterC05setupD0yyFTj
++ _$s10OmniSearch0B20ToolProgressReporterC05setupD0yyFTq
++ _$s10OmniSearch0B20ToolProgressReporterC13searchStarted4with19isOnScreenReferenceySaySSG_SbtYaFTj
++ _$s10OmniSearch0B20ToolProgressReporterC13searchStarted4with19isOnScreenReferenceySaySSG_SbtYaFTjTu
++ _$s10OmniSearch0B20ToolProgressReporterC13searchStarted4with19isOnScreenReferenceySaySSG_SbtYaFTq
++ _$s10OmniSearch0B20ToolProgressReporterC15unownedExecutorScevg
++ _$s10OmniSearch0B20ToolProgressReporterC15unownedExecutorScevpMV
++ _$s10OmniSearch0B20ToolProgressReporterC22answerSynthesisStarted4withySayAA0B6ResultVG_tYaFTj
++ _$s10OmniSearch0B20ToolProgressReporterC22answerSynthesisStarted4withySayAA0B6ResultVG_tYaFTjTu
++ _$s10OmniSearch0B20ToolProgressReporterC22answerSynthesisStarted4withySayAA0B6ResultVG_tYaFTq
++ _$s10OmniSearch0B20ToolProgressReporterC23progressReportingIntentAC10AppIntents0dgH0_p_tcfC
++ _$s10OmniSearch0B20ToolProgressReporterC23progressReportingIntentAC10AppIntents0dgH0_p_tcfCTj
++ _$s10OmniSearch0B20ToolProgressReporterC23progressReportingIntentAC10AppIntents0dgH0_p_tcfCTq
++ _$s10OmniSearch0B20ToolProgressReporterC23progressReportingIntentAC10AppIntents0dgH0_p_tcfc
++ _$s10OmniSearch0B20ToolProgressReporterCMa
++ _$s10OmniSearch0B20ToolProgressReporterCMm
++ _$s10OmniSearch0B20ToolProgressReporterCMn
++ _$s10OmniSearch0B20ToolProgressReporterCMo
++ _$s10OmniSearch0B20ToolProgressReporterCMu
++ _$s10OmniSearch0B20ToolProgressReporterCN
++ _$s10OmniSearch0B20ToolProgressReporterCScAAAMc
++ _$s10OmniSearch0B20ToolProgressReporterCfD
++ _$s10OmniSearch0B20ToolProgressReporterCfd
++ _$s10OmniSearch0B22ToolSnippetPluginModelO10bundleNameSSvpZMV
++ _$s10OmniSearch0B25EntityPreprocessorManagerV6sharedAA0bcD0VvpZMV
++ _$s10OmniSearch0B28ToolIntentControllerProtocolP7perform7request16progressReporterAA0bcD8ResponseVAA0bcD7RequestV_AA0bc8ProgressJ0CSgtYaKFTj
++ _$s10OmniSearch0B28ToolIntentControllerProtocolP7perform7request16progressReporterAA0bcD8ResponseVAA0bcD7RequestV_AA0bc8ProgressJ0CSgtYaKFTjTu
++ _$s10OmniSearch0B28ToolIntentControllerProtocolP7perform7request16progressReporterAA0bcD8ResponseVAA0bcD7RequestV_AA0bc8ProgressJ0CSgtYaKFTq
++ _$s10OmniSearch0B28ToolIntentControllerProtocolPAAE7perform7requestAA0bcD8ResponseVAA0bcD7RequestV_tYaKF
++ _$s10OmniSearch0B28ToolIntentControllerProtocolPAAE7perform7requestAA0bcD8ResponseVAA0bcD7RequestV_tYaKFTu
++ _$s10OmniSearch0B4ItemP24llmConsumableDescription6localeS2SSg_tFTj
++ _$s10OmniSearch0B4ItemP24llmConsumableDescription6localeS2SSg_tFTq
++ _$s10OmniSearch0B4ItemPAAE24llmConsumableDescriptionSSvg
++ _$s10OmniSearch0B4ItemPAAE24llmConsumableDescriptionSSvpMV
++ _$s10OmniSearch0B4ToolV012isSingleStepB0SbSgvM
++ _$s10OmniSearch0B4ToolV012isSingleStepB0SbSgvg
++ _$s10OmniSearch0B4ToolV012isSingleStepB0SbSgvpMV
++ _$s10OmniSearch0B4ToolV012isSingleStepB0SbSgvs
++ _$s10OmniSearch0B4ToolV013$isSingleStepB010AppIntents15IntentParameterCySbSgGvg
++ _$s10OmniSearch0B4ToolV013$isSingleStepB010AppIntents15IntentParameterCySbSgGvpMV
++ _$s10OmniSearch0B4ToolV10AppIntents23ProgressReportingIntentAAMc
++ _$s10OmniSearch0B4ToolV11description10AppIntents17IntentDescriptionVvpZMV
++ _$s10OmniSearch0B4ToolV13assistantOnlySbvpZMV
++ _$s10OmniSearch0B4ToolV14openAppWhenRunSbvpZMV
++ _$s10OmniSearch0B4ToolV15simplifiedQuerySSSgvM
++ _$s10OmniSearch0B4ToolV15simplifiedQuerySSSgvg
++ _$s10OmniSearch0B4ToolV15simplifiedQuerySSSgvpMV
++ _$s10OmniSearch0B4ToolV15simplifiedQuerySSSgvs
++ _$s10OmniSearch0B4ToolV16$simplifiedQuery10AppIntents15IntentParameterCySSSgGvg
++ _$s10OmniSearch0B4ToolV16$simplifiedQuery10AppIntents15IntentParameterCySSSgGvpMV
++ _$s10OmniSearch0B4ToolV19isOnScreenReferenceSbSgvM
++ _$s10OmniSearch0B4ToolV19isOnScreenReferenceSbSgvg
++ _$s10OmniSearch0B4ToolV19isOnScreenReferenceSbSgvpMV
++ _$s10OmniSearch0B4ToolV19isOnScreenReferenceSbSgvs
++ _$s10OmniSearch0B4ToolV20$isOnScreenReference10AppIntents15IntentParameterCySbSgGvg
++ _$s10OmniSearch0B4ToolV20$isOnScreenReference10AppIntents15IntentParameterCySbSgGvpMV
++ _$s10OmniSearch0B4ToolV20authenticationPolicy10AppIntents020IntentAuthenticationE0OvpZMV
++ _$s10OmniSearch0B4ToolV5title10Foundation23LocalizedStringResourceVvpZMV
++ _$s10OmniSearch0B6EntityV10CodingKeysO11stringValueAESgSS_tcfC
++ _$s10OmniSearch0B6EntityV10CodingKeysO11stringValueSSvg
++ _$s10OmniSearch0B6EntityV10CodingKeysO11stringValueSSvpMV
++ _$s10OmniSearch0B6EntityV10CodingKeysO8intValueAESgSi_tcfC
++ _$s10OmniSearch0B6EntityV10CodingKeysO8intValueSiSgvg
++ _$s10OmniSearch0B6EntityV10CodingKeysO8intValueSiSgvpMV
++ _$s10OmniSearch0B6EntityV10CodingKeysO8rawValueAESgSS_tcfC
++ _$s10OmniSearch0B6EntityV10CodingKeysO8rawValueSSvg
++ _$s10OmniSearch0B6EntityV10CodingKeysO8rawValueSSvpMV
++ _$s10OmniSearch0B6EntityV10CodingKeysOMa
++ _$s10OmniSearch0B6EntityV10CodingKeysOMn
++ _$s10OmniSearch0B6EntityV10CodingKeysON
++ _$s10OmniSearch0B6EntityV10CodingKeysOSHAAMc
++ _$s10OmniSearch0B6EntityV10CodingKeysOSQAAMc
++ _$s10OmniSearch0B6EntityV10CodingKeysOSYAAMc
++ _$s10OmniSearch0B6EntityV10CodingKeysOs0D3KeyAAMc
++ _$s10OmniSearch0B6EntityV10CodingKeysOs23CustomStringConvertibleAAMc
++ _$s10OmniSearch0B6EntityV10CodingKeysOs28CustomDebugStringConvertibleAAMc
++ _$s10OmniSearch0B6EntityV11asCATEntityAA0bE0VvgTu
++ _$s10OmniSearch0B6EntityV12defaultQueryAC0E0VvpZMV
++ _$s10OmniSearch0B6EntityV12globalResultAA0b6GlobalC0VSgvM
++ _$s10OmniSearch0B6EntityV12globalResultAA0b6GlobalC0VSgvg
++ _$s10OmniSearch0B6EntityV12globalResultAA0b6GlobalC0VSgvpMV
++ _$s10OmniSearch0B6EntityV12globalResultAA0b6GlobalC0VSgvs
++ _$s10OmniSearch0B6EntityV13$globalResult10AppIntents0C8PropertyCyAA0b6GlobalC0VSgGvg
++ _$s10OmniSearch0B6EntityV13$globalResult10AppIntents0C8PropertyCyAA0b6GlobalC0VSgGvpMV
++ _$s10OmniSearch0B6EntityV18addHydratedContent4with6resultyAC7BuilderVz_AA0B6ResultVtFZ
++ _$s10OmniSearch0B6EntityV22transferRepresentationQrvpZMV
++ _$s10OmniSearch0B6EntityV23buildPreextractedResult4with6result11derivedType4cardyAC7BuilderVz_AA26PreExtractedSourceDocument_pAA07DerivedJ0OSo6SFCardCSgtFZ
++ _$s10OmniSearch0B6EntityV25typeDisplayRepresentation10AppIntents04TypeeF0VvpZMV
++ _$s10OmniSearch0B6EntityV4fromACs7Decoder_p_tKcfC
++ _$s10OmniSearch0B6EntityV4make4type7payloadAC0aB5Types0B10ResultTypeO_So12NSDictionaryCtKFZ
++ _$s10OmniSearch0B6EntityV6answerAA0b6AnswerC0VSgvM
++ _$s10OmniSearch0B6EntityV6answerAA0b6AnswerC0VSgvg
++ _$s10OmniSearch0B6EntityV6answerAA0b6AnswerC0VSgvpMV
++ _$s10OmniSearch0B6EntityV6answerAA0b6AnswerC0VSgvs
++ _$s10OmniSearch0B6EntityV6encode2toys7Encoder_p_tKF
++ _$s10OmniSearch0B6EntityV6result4card12searchString11derivedTypeACSgAA0B6ResultV_So6SFCardCSgSSSgAA07DerivedI0OSgtcfC
++ _$s10OmniSearch0B6EntityV6result7context12searchString11derivedTypeACSgAA0B6ResultV_AA0bC13VisualContextCSSSgAA07DerivedI0OSgtcfC
++ _$s10OmniSearch0B6EntityV6result7context12searchString11derivedTypeACSgAA0B6ResultV_AA0bC13VisualContextCSSSgAA07DerivedI0OSgtcfcfA0_
++ _$s10OmniSearch0B6EntityV7$answer10AppIntents0C8PropertyCyAA0b6AnswerC0VSgGvg
++ _$s10OmniSearch0B6EntityV7$answer10AppIntents0C8PropertyCyAA0b6AnswerC0VSgGvpMV
++ _$s10OmniSearch0B6EntityV7BuilderV12globalResultAA0b6GlobalC0VSgvM
++ _$s10OmniSearch0B6EntityV7BuilderV12globalResultAA0b6GlobalC0VSgvg
++ _$s10OmniSearch0B6EntityV7BuilderV12globalResultAA0b6GlobalC0VSgvpMV
++ _$s10OmniSearch0B6EntityV7BuilderV12globalResultAA0b6GlobalC0VSgvs
++ _$s10OmniSearch0B6EntityV7BuilderV2id12sourceResult4type06globalG009spotlightG06answer03appC021encodedSearchableItem05inAppB6String5event0E4Card5media14experienceFile08hydratedC4Type0X7ContentAESSSg_AA0bG0VSg0aB5Types0bgY0OSgAA0b6GlobalC0VSgAA0b9SpotlightC0VSgAA0b6AnswerC0VSgAA0bqC0VSg0Q7Intents06IntentW0VSgAuA05EventC0VSgAA02IdtC0VSgAA05MediaC0VSgA16_AA08HydratedcY0OSgAUtcfC
++ _$s10OmniSearch0B6EntityV7BuilderV6answerAA0b6AnswerC0VSgvM
++ _$s10OmniSearch0B6EntityV7BuilderV6answerAA0b6AnswerC0VSgvg
++ _$s10OmniSearch0B6EntityV7BuilderV6answerAA0b6AnswerC0VSgvpMV
++ _$s10OmniSearch0B6EntityV7BuilderV6answerAA0b6AnswerC0VSgvs
++ _$s10OmniSearch0B6EntityVSEAAMc
++ _$s10OmniSearch0B6EntityVSeAAMc
++ _$s10OmniSearch0B6ResultV11contentTypeSSSgvg
++ _$s10OmniSearch0B6ResultV11contentTypeSSSgvpMV
++ _$s10OmniSearch0B6ResultV11descriptionSSvg
++ _$s10OmniSearch0B6ResultV11descriptionSSvpMV
++ _$s10OmniSearch0B6ResultV15overridePayloadACSo12NSDictionaryC_tKcfC
++ _$s10OmniSearch0B6ResultV19requestedPropertiesSayAA0B16PropertyResponseVGvM
++ _$s10OmniSearch0B6ResultV19requestedPropertiesSayAA0B16PropertyResponseVGvg
++ _$s10OmniSearch0B6ResultV19requestedPropertiesSayAA0B16PropertyResponseVGvpMV
++ _$s10OmniSearch0B6ResultV19requestedPropertiesSayAA0B16PropertyResponseVGvs
++ _$s10OmniSearch0B6ResultV20spotlightRankingItemAA09SpotlighteF0VvM
++ _$s10OmniSearch0B6ResultV20spotlightRankingItemAA09SpotlighteF0Vvg
++ _$s10OmniSearch0B6ResultV20spotlightRankingItemAA09SpotlighteF0VvpMV
++ _$s10OmniSearch0B6ResultV20spotlightRankingItemAA09SpotlighteF0Vvs
++ _$s10OmniSearch0B6ResultV8bundleIdSSSgvg
++ _$s10OmniSearch0B6ResultV8bundleIdSSSgvpMV
++ _$s10OmniSearch0B6ResultVAA0B12OverrideableAAMc
++ _$s10OmniSearch0B6ResultVAA0B12OverrideableAAWP
++ _$s10OmniSearch0B6ResultV_6csItem016spotlightRankingE0AcA0bcE0O_So012CSSearchableE0CAA09SpotlightgE0VSgtcfC
++ _$s10OmniSearch0B6ResultVs23CustomStringConvertibleAAMc
++ _$s10OmniSearch0B6ResultVs28CustomDebugStringConvertibleAAMc
++ _$s10OmniSearch0B6RouterV10didPSCFireSbSgvg
++ _$s10OmniSearch0B6RouterV10didPSCFireSbSgvpMV
++ _$s10OmniSearch0B6RouterV10isPersonalSbvg
++ _$s10OmniSearch0B6RouterV10isPersonalSbvpMV
++ _$s10OmniSearch0B6RouterV11isComposite10didPSCFire15structuredQueryACSb_SbSgAA010StructuredI6EntityVSgtcfC
++ _$s10OmniSearch0B6RouterV11isCompositeSbvg
++ _$s10OmniSearch0B6RouterV11isCompositeSbvpMV
++ _$s10OmniSearch0B6RouterV13personalTypesSaySSGvgZ
++ _$s10OmniSearch0B6RouterV13personalTypesSaySSGvpZMV
++ _$s10OmniSearch0B6RouterV15structuredQueryAA010StructuredE6EntityVSgvg
++ _$s10OmniSearch0B6RouterV15structuredQueryAA010StructuredE6EntityVSgvpMV
++ _$s10OmniSearch0B6RouterV7requestAcA0B17ToolIntentRequestV_tcfC
++ _$s10OmniSearch0B6RouterVMa
++ _$s10OmniSearch0B6RouterVMn
++ _$s10OmniSearch0B6RouterVN
++ _$s10OmniSearch0B7ContextV10didPSCFireSbSgvM
++ _$s10OmniSearch0B7ContextV10didPSCFireSbSgvg
++ _$s10OmniSearch0B7ContextV10didPSCFireSbSgvpMV
++ _$s10OmniSearch0B7ContextV10didPSCFireSbSgvs
++ _$s10OmniSearch0B7ContextV11$didPSCFire10AppIntents14EntityPropertyCySbSgGvg
++ _$s10OmniSearch0B7ContextV11$didPSCFire10AppIntents14EntityPropertyCySbSgGvpMV
++ _$s10OmniSearch0B7ContextV12onScreenTextSaySSGSgvM
++ _$s10OmniSearch0B7ContextV12onScreenTextSaySSGSgvg
++ _$s10OmniSearch0B7ContextV12onScreenTextSaySSGSgvpMV
++ _$s10OmniSearch0B7ContextV12onScreenTextSaySSGSgvs
++ _$s10OmniSearch0B7ContextV13$onScreenText10AppIntents14EntityPropertyCySaySSGSgGvg
++ _$s10OmniSearch0B7ContextV13$onScreenText10AppIntents14EntityPropertyCySaySSGSgGvpMV
++ _$s10OmniSearch0B7ServiceP6search5query7sources12allowedTypes0D7OptionsAA0bC6ResultVAA9UserQueryV_AA0B7SourcesVSayAA0B20EntityTypeIdentifierVGAA0abI0VtYaKFTj
++ _$s10OmniSearch0B7ServiceP6search5query7sources12allowedTypes0D7OptionsAA0bC6ResultVAA9UserQueryV_AA0B7SourcesVSayAA0B20EntityTypeIdentifierVGAA0abI0VtYaKFTjTu
++ _$s10OmniSearch0B7ServiceP6search5query7sources12allowedTypes0D7OptionsAA0bC6ResultVAA9UserQueryV_AA0B7SourcesVSayAA0B20EntityTypeIdentifierVGAA0abI0VtYaKFTq
++ _$s10OmniSearch0B7ServiceP7prewarmyyYaFTj
++ _$s10OmniSearch0B7ServiceP7prewarmyyYaFTjTu
++ _$s10OmniSearch0B7ServiceP7prewarmyyYaFTq
++ _$s10OmniSearch0B7SourcesV14globalWebIndexACvpZMV
++ _$s10OmniSearch0B7SourcesV17allExceptWebIndexACvpZMV
++ _$s10OmniSearch0B7SourcesV3allACvpZMV
++ _$s10OmniSearch0B7SourcesV5localACvpZMV
++ _$s10OmniSearch0B7SourcesV6entityACvpZMV
++ _$s10OmniSearch0B7SourcesV6globalACvpZMV
++ _$s10OmniSearch0B8OverrideV011answerSynthC0AA015AnswerSynthesisC0VSgvM
++ _$s10OmniSearch0B8OverrideV011answerSynthC0AA015AnswerSynthesisC0VSgvg
++ _$s10OmniSearch0B8OverrideV011answerSynthC0AA015AnswerSynthesisC0VSgvpMV
++ _$s10OmniSearch0B8OverrideV011answerSynthC0AA015AnswerSynthesisC0VSgvs
++ _$s10OmniSearch0B8OverrideV0C4TypeO2eeoiySbAE_AEtFZ
++ _$s10OmniSearch0B8OverrideV0C4TypeO4hash4intoys6HasherVz_tF
++ _$s10OmniSearch0B8OverrideV0C4TypeO6entityyA2EmFWC
++ _$s10OmniSearch0B8OverrideV0C4TypeO6resultyA2EmFWC
++ _$s10OmniSearch0B8OverrideV0C4TypeO9hashValueSivg
++ _$s10OmniSearch0B8OverrideV0C4TypeO9hashValueSivpMV
++ _$s10OmniSearch0B8OverrideV0C4TypeOMa
++ _$s10OmniSearch0B8OverrideV0C4TypeOMn
++ _$s10OmniSearch0B8OverrideV0C4TypeON
++ _$s10OmniSearch0B8OverrideV0C4TypeOSHAAMc
++ _$s10OmniSearch0B8OverrideV0C4TypeOSQAAMc
++ _$s10OmniSearch0B8OverrideV10inputMatch6outputA2C05InputE0O_SayAA0bC6OutputVGtcfC
++ _$s10OmniSearch0B8OverrideV14outputEntitiesSayAA0B6EntityVGvg
++ _$s10OmniSearch0B8OverrideV14outputEntitiesSayAA0B6EntityVGvpMV
++ _$s10OmniSearch0B8OverrideV4typeAC0C4TypeOvg
++ _$s10OmniSearch0B8OverrideV4typeAC0C4TypeOvpMV
++ _$s10OmniSearch0B8OverrideV6outputSayAA0bC6OutputVGvM
++ _$s10OmniSearch0B8OverrideV6outputSayAA0bC6OutputVGvg
++ _$s10OmniSearch0B8OverrideV6outputSayAA0bC6OutputVGvpMV
++ _$s10OmniSearch0B8OverrideV6outputSayAA0bC6OutputVGvs
++ _$s10OmniSearch0B8ToolMCQUV11description10AppIntents17IntentDescriptionVvpZMV
++ _$s10OmniSearch0B8ToolMCQUV14isDiscoverableSbvpZMV
++ _$s10OmniSearch0B8ToolMCQUV14openAppWhenRunSbvpZMV
++ _$s10OmniSearch0B8ToolMCQUV5title10Foundation23LocalizedStringResourceVvpZMV
++ _$s10OmniSearch0B9AppEntityV11asCATEntityAA0bF0VvgTu
++ _$s10OmniSearch0B9AppEntityV12defaultQueryAC0F0VvpZMV
++ _$s10OmniSearch0B9AppEntityV25typeDisplayRepresentation0C7Intents04TypefG0VvpZMV
++ _$s10OmniSearch0B9AppEntityV6result4card15updatedBundleIdACSgAA0B6ResultV_So6SFCardCSgSSSgtcfC
++ _$s10OmniSearch0B9CATEntityV12senderHandleSSSgvM
++ _$s10OmniSearch0B9CATEntityV12senderHandleSSSgvg
++ _$s10OmniSearch0B9CATEntityV12senderHandleSSSgvpMV
++ _$s10OmniSearch0B9CATEntityV12senderHandleSSSgvs
++ _$s10OmniSearch0B9CATEntityV13$senderHandle10AppIntents14EntityPropertyCySSSgGvg
++ _$s10OmniSearch0B9CATEntityV13$senderHandle10AppIntents14EntityPropertyCySSSgGvpMV
++ _$s10OmniSearch0B9CATEntityV15messageIsFromMeSbvM
++ _$s10OmniSearch0B9CATEntityV15messageIsFromMeSbvg
++ _$s10OmniSearch0B9CATEntityV15messageIsFromMeSbvpMV
++ _$s10OmniSearch0B9CATEntityV15messageIsFromMeSbvs
++ _$s10OmniSearch0B9CATEntityV16$messageIsFromMe10AppIntents14EntityPropertyCySbGvg
++ _$s10OmniSearch0B9CATEntityV16$messageIsFromMe10AppIntents14EntityPropertyCySbGvpMV
++ _$s10OmniSearch0B9CATEntityV17flightDestinationSSSgvM
++ _$s10OmniSearch0B9CATEntityV17flightDestinationSSSgvg
++ _$s10OmniSearch0B9CATEntityV17flightDestinationSSSgvpMV
++ _$s10OmniSearch0B9CATEntityV17flightDestinationSSSgvs
++ _$s10OmniSearch0B9CATEntityV18$flightDestination10AppIntents14EntityPropertyCySSSgGvg
++ _$s10OmniSearch0B9CATEntityV18$flightDestination10AppIntents14EntityPropertyCySSSgGvpMV
++ _$s10OmniSearch0B9CATEntityV25typeDisplayRepresentation10AppIntents04TypeeF0VvpZMV
++ _$s10OmniSearch0B9NLGEntityV25typeDisplayRepresentation10AppIntents04TypeeF0VvpZMV
++ _$s10OmniSearch0B9OverridesO25createMediaExperienceData7mention10Foundation0G0VSgSS_tYaKFZ
++ _$s10OmniSearch0B9OverridesO25createMediaExperienceData7mention10Foundation0G0VSgSS_tYaKFZTu
++ _$s10OmniSearch0B9OverridesO30createNavigationExperienceData7mention10Foundation0G0VSgSS_tYaKFZ
++ _$s10OmniSearch0B9OverridesO30createNavigationExperienceData7mention10Foundation0G0VSgSS_tYaKFZTu
++ _$s10OmniSearch0B9OverridesO5match14rewrittenQueryAA0B8OverrideVSgSS_tKFZ
++ _$s10OmniSearch0B9ResultKeyO20genericSpotlightItemyA2CmFWC
++ _$s10OmniSearch0B9ResultKeyO8onScreenyA2CmFWC
++ _$s10OmniSearch0B9ToolLLMQUV11description10AppIntents17IntentDescriptionVvpZMV
++ _$s10OmniSearch0B9ToolLLMQUV14isDiscoverableSbvpZMV
++ _$s10OmniSearch0B9ToolLLMQUV14openAppWhenRunSbvpZMV
++ _$s10OmniSearch0B9ToolLLMQUV5title10Foundation23LocalizedStringResourceVvpZMV
++ _$s10OmniSearch0aB15ServiceProtocolP6search_14rewrittenQuery010simplifiedG0010structuredG015typeIdentifiers15matchedEntities7sources7options19requestedPropertiesAA0aB8ResponseCSS_SSSgAoA010StructuredG6EntityVSgSayAA0bT14TypeIdentifierVGSayAA0T5MatchVGAA0B7SourcesVAA0aB7OptionsVSayAA0B15PropertyRequestVGtYaKFTj
++ _$s10OmniSearch0aB15ServiceProtocolP6search_14rewrittenQuery010simplifiedG0010structuredG015typeIdentifiers15matchedEntities7sources7options19requestedPropertiesAA0aB8ResponseCSS_SSSgAoA010StructuredG6EntityVSgSayAA0bT14TypeIdentifierVGSayAA0T5MatchVGAA0B7SourcesVAA0aB7OptionsVSayAA0B15PropertyRequestVGtYaKFTjTu
++ _$s10OmniSearch0aB15ServiceProtocolP6search_14rewrittenQuery010simplifiedG0010structuredG015typeIdentifiers15matchedEntities7sources7options19requestedPropertiesAA0aB8ResponseCSS_SSSgAoA010StructuredG6EntityVSgSayAA0bT14TypeIdentifierVGSayAA0T5MatchVGAA0B7SourcesVAA0aB7OptionsVSayAA0B15PropertyRequestVGtYaKFTq
++ _$s10OmniSearch0aB20ResponseRenderOptionO15templatedAnsweryA2CmFWC
++ _$s10OmniSearch0aB7OptionsV012isSingleStepB0SbvM
++ _$s10OmniSearch0aB7OptionsV012isSingleStepB0Sbvg
++ _$s10OmniSearch0aB7OptionsV012isSingleStepB0SbvpMV
++ _$s10OmniSearch0aB7OptionsV012isSingleStepB0Sbvs
++ _$s10OmniSearch0aB7OptionsV16progressReporterAA0b12ToolProgressE0CSgvg
++ _$s10OmniSearch0aB7OptionsV16progressReporterAA0b12ToolProgressE0CSgvpMV
++ _$s10OmniSearch0aB7OptionsV17isExpectingAnswerSbvM
++ _$s10OmniSearch0aB7OptionsV17isExpectingAnswerSbvg
++ _$s10OmniSearch0aB7OptionsV17isExpectingAnswerSbvpMV
++ _$s10OmniSearch0aB7OptionsV17isExpectingAnswerSbvs
++ _$s10OmniSearch0aB7OptionsV19isOnScreenReferenceSbvM
++ _$s10OmniSearch0aB7OptionsV19isOnScreenReferenceSbvg
++ _$s10OmniSearch0aB7OptionsV19isOnScreenReferenceSbvpMV
++ _$s10OmniSearch0aB7OptionsV19isOnScreenReferenceSbvs
++ _$s10OmniSearch0aB7OptionsV21isFirstToolInvocation0D17OnScreenReference0D15ExpectingAnswer0d10SingleStepB013searchContext15interactionMode15assistantLocale8clientId22alwaysHydrateDocuments010skipGlobalB016progressReporterACSb_S3bAA0bP0VSg10AppIntents012IntentSystemP0V09AssistantP0V011InteractionR0OSgSSSgSSS2bAA0bF16ProgressReporterCSgtcfC
++ _$s10OmniSearch0aB7OptionsV21isFirstToolInvocation0D17OnScreenReference0D15ExpectingAnswer0d10SingleStepB013searchContext15interactionMode15assistantLocale8clientId22alwaysHydrateDocuments010skipGlobalB016progressReporterACSb_S3bAA0bP0VSg10AppIntents012IntentSystemP0V09AssistantP0V011InteractionR0OSgSSSgSSS2bAA0bF16ProgressReporterCSgtcfcfA0_
++ _$s10OmniSearch0aB7OptionsV21isFirstToolInvocation0D17OnScreenReference0D15ExpectingAnswer0d10SingleStepB013searchContext15interactionMode15assistantLocale8clientId22alwaysHydrateDocuments010skipGlobalB016progressReporterACSb_S3bAA0bP0VSg10AppIntents012IntentSystemP0V09AssistantP0V011InteractionR0OSgSSSgSSS2bAA0bF16ProgressReporterCSgtcfcfA1_
++ _$s10OmniSearch0aB7OptionsV21isFirstToolInvocation0D17OnScreenReference0D15ExpectingAnswer0d10SingleStepB013searchContext15interactionMode15assistantLocale8clientId22alwaysHydrateDocuments010skipGlobalB016progressReporterACSb_S3bAA0bP0VSg10AppIntents012IntentSystemP0V09AssistantP0V011InteractionR0OSgSSSgSSS2bAA0bF16ProgressReporterCSgtcfcfA2_
++ _$s10OmniSearch0aB7OptionsV21isFirstToolInvocation0D17OnScreenReference0D15ExpectingAnswer0d10SingleStepB013searchContext15interactionMode15assistantLocale8clientId22alwaysHydrateDocuments010skipGlobalB016progressReporterACSb_S3bAA0bP0VSg10AppIntents012IntentSystemP0V09AssistantP0V011InteractionR0OSgSSSgSSS2bAA0bF16ProgressReporterCSgtcfcfA6_
++ _$s10OmniSearch0aB7OptionsV21isFirstToolInvocation0D17OnScreenReference0D15ExpectingAnswer0d10SingleStepB013searchContext15interactionMode15assistantLocale8clientId22alwaysHydrateDocuments010skipGlobalB016progressReporterACSb_S3bAA0bP0VSg10AppIntents012IntentSystemP0V09AssistantP0V011InteractionR0OSgSSSgSSS2bAA0bF16ProgressReporterCSgtcfcfA7_
++ _$s10OmniSearch0aB7OptionsV21isFirstToolInvocation0D17OnScreenReference0D15ExpectingAnswer0d10SingleStepB013searchContext15interactionMode15assistantLocale8clientId22alwaysHydrateDocuments010skipGlobalB016progressReporterACSb_S3bAA0bP0VSg10AppIntents012IntentSystemP0V09AssistantP0V011InteractionR0OSgSSSgSSS2bAA0bF16ProgressReporterCSgtcfcfA8_
++ _$s10OmniSearch0aB7OptionsV21isFirstToolInvocation0D17OnScreenReference0D15ExpectingAnswer0d10SingleStepB013searchContext15interactionMode15assistantLocale8clientId22alwaysHydrateDocuments010skipGlobalB016progressReporterACSb_S3bAA0bP0VSg10AppIntents012IntentSystemP0V09AssistantP0V011InteractionR0OSgSSSgSSS2bAA0bF16ProgressReporterCSgtcfcfA_
++ _$s10OmniSearch0aB7OptionsV7request8clientId16progressReporterAcA0B17ToolIntentRequestV_SSAA0bi8ProgressH0CSgtcfC
++ _$s10OmniSearch0aB7OptionsV7request8clientId16progressReporterAcA0B17ToolIntentRequestV_SSAA0bi8ProgressH0CSgtcfcfA0_
++ _$s10OmniSearch0aB7ServiceC05localB05query15typeIdentifiers7sources7options19requestedPropertiesAA0aB8ResponseCSgAA9UserQueryV_SayAA0B20EntityTypeIdentifierVGAA0B7SourcesVAA0aB7OptionsVSayAA0B15PropertyRequestVGtYaKFTj
++ _$s10OmniSearch0aB7ServiceC05localB05query15typeIdentifiers7sources7options19requestedPropertiesAA0aB8ResponseCSgAA9UserQueryV_SayAA0B20EntityTypeIdentifierVGAA0B7SourcesVAA0aB7OptionsVSayAA0B15PropertyRequestVGtYaKFTjTu
++ _$s10OmniSearch0aB7ServiceC05localB05query15typeIdentifiers7sources7options19requestedPropertiesAA0aB8ResponseCSgAA9UserQueryV_SayAA0B20EntityTypeIdentifierVGAA0B7SourcesVAA0aB7OptionsVSayAA0B15PropertyRequestVGtYaKFTq
++ _$s10OmniSearch0aB7ServiceC05localB05query15typeIdentifiers7sources7options19requestedPropertiesAA0aB8ResponseCSgAA9UserQueryV_SayAA0B20EntityTypeIdentifierVGAA0B7SourcesVAA0aB7OptionsVSayAA0B15PropertyRequestVGtYaKFfA2_
++ _$s10OmniSearch0aB7ServiceC05localB05query15typeIdentifiers7sources7options19requestedPropertiesAA0aB8ResponseCSgAA9UserQueryV_SayAA0B20EntityTypeIdentifierVGAA0B7SourcesVAA0aB7OptionsVSayAA0B15PropertyRequestVGtYaKFfA3_
++ _$s10OmniSearch0aB7ServiceC11searchItems5query0D8Services0D7Sources12allowedTypes0D7OptionsSDyAA0B4TypeOAA0bC6ResultVGAA9UserQueryV_SayAA0bC0_pGAA0bH0VSayAA0b6EntityL10IdentifierVGAA0abK0VtYaKFTj
++ _$s10OmniSearch0aB7ServiceC11searchItems5query0D8Services0D7Sources12allowedTypes0D7OptionsSDyAA0B4TypeOAA0bC6ResultVGAA9UserQueryV_SayAA0bC0_pGAA0bH0VSayAA0b6EntityL10IdentifierVGAA0abK0VtYaKFTjTu
++ _$s10OmniSearch0aB7ServiceC11searchItems5query0D8Services0D7Sources12allowedTypes0D7OptionsSDyAA0B4TypeOAA0bC6ResultVGAA9UserQueryV_SayAA0bC0_pGAA0bH0VSayAA0b6EntityL10IdentifierVGAA0abK0VtYaKFTq
++ _$s10OmniSearch0aB7ServiceC13composeAnswer5query19requestedProperties7results7options03runE9Synthesis10ecrResultsAA08ComposedE0VSgAA9UserQueryV_SayAA0B15PropertyRequestVGSayAA0B6ResultVGAA0aB7OptionsVSbSDyS2SGSgtYaFTj
++ _$s10OmniSearch0aB7ServiceC13composeAnswer5query19requestedProperties7results7options03runE9Synthesis10ecrResultsAA08ComposedE0VSgAA9UserQueryV_SayAA0B15PropertyRequestVGSayAA0B6ResultVGAA0aB7OptionsVSbSDyS2SGSgtYaFTjTu
++ _$s10OmniSearch0aB7ServiceC13composeAnswer5query19requestedProperties7results7options03runE9Synthesis10ecrResultsAA08ComposedE0VSgAA9UserQueryV_SayAA0B15PropertyRequestVGSayAA0B6ResultVGAA0aB7OptionsVSbSDyS2SGSgtYaFTq
++ _$s10OmniSearch0aB7ServiceC13composeAnswer5query19requestedProperties7results7options03runE9Synthesis10ecrResultsAA08ComposedE0VSgAA9UserQueryV_SayAA0B15PropertyRequestVGSayAA0B6ResultVGAA0aB7OptionsVSbSDyS2SGSgtYaFfA0_
++ _$s10OmniSearch0aB7ServiceC14searchServices14answerResolver17maxPerSourceLimit20intermediateCallback11queryParser0F19SynthesisController011featureFlagC014resultHydrator017requestedPropertyQ0ACSayAA0bC0_pG_AA16AnswerResolvable_pSiySScSgAA12QueryParsing_pAA0xpQ8Protocol_pAA07FeaturesC0CAA15ResultHydration_pAA09RequestedwQ8Protocol_ptcfC
++ _$s10OmniSearch0aB7ServiceC14searchServices14answerResolver17maxPerSourceLimit20intermediateCallback11queryParser0F19SynthesisController011featureFlagC014resultHydrator017requestedPropertyQ0ACSayAA0bC0_pG_AA16AnswerResolvable_pSiySScSgAA12QueryParsing_pAA0xpQ8Protocol_pAA07FeaturesC0CAA15ResultHydration_pAA09RequestedwQ8Protocol_ptcfCTj
++ _$s10OmniSearch0aB7ServiceC14searchServices14answerResolver17maxPerSourceLimit20intermediateCallback11queryParser0F19SynthesisController011featureFlagC014resultHydrator017requestedPropertyQ0ACSayAA0bC0_pG_AA16AnswerResolvable_pSiySScSgAA12QueryParsing_pAA0xpQ8Protocol_pAA07FeaturesC0CAA15ResultHydration_pAA09RequestedwQ8Protocol_ptcfCTq
++ _$s10OmniSearch0aB7ServiceC14searchServices14answerResolver17maxPerSourceLimit20intermediateCallback11queryParser0F19SynthesisController011featureFlagC014resultHydrator017requestedPropertyQ0ACSayAA0bC0_pG_AA16AnswerResolvable_pSiySScSgAA12QueryParsing_pAA0xpQ8Protocol_pAA07FeaturesC0CAA15ResultHydration_pAA09RequestedwQ8Protocol_ptcfc
++ _$s10OmniSearch0aB7ServiceC14searchServices14answerResolver17maxPerSourceLimit20intermediateCallback11queryParser0F19SynthesisController011featureFlagC014resultHydrator017requestedPropertyQ0ACSayAA0bC0_pG_AA16AnswerResolvable_pSiySScSgAA12QueryParsing_pAA0xpQ8Protocol_pAA07FeaturesC0CAA15ResultHydration_pAA09RequestedwQ8Protocol_ptcfcfA0_
++ _$s10OmniSearch0aB7ServiceC14searchServices14answerResolver17maxPerSourceLimit20intermediateCallback11queryParser0F19SynthesisController011featureFlagC014resultHydrator017requestedPropertyQ0ACSayAA0bC0_pG_AA16AnswerResolvable_pSiySScSgAA12QueryParsing_pAA0xpQ8Protocol_pAA07FeaturesC0CAA15ResultHydration_pAA09RequestedwQ8Protocol_ptcfcfA1_
++ _$s10OmniSearch0aB7ServiceC14searchServices14answerResolver17maxPerSourceLimit20intermediateCallback11queryParser0F19SynthesisController011featureFlagC014resultHydrator017requestedPropertyQ0ACSayAA0bC0_pG_AA16AnswerResolvable_pSiySScSgAA12QueryParsing_pAA0xpQ8Protocol_pAA07FeaturesC0CAA15ResultHydration_pAA09RequestedwQ8Protocol_ptcfcfA3_
++ _$s10OmniSearch0aB7ServiceC14searchServices14answerResolver17maxPerSourceLimit20intermediateCallback11queryParser0F19SynthesisController011featureFlagC014resultHydrator017requestedPropertyQ0ACSayAA0bC0_pG_AA16AnswerResolvable_pSiySScSgAA12QueryParsing_pAA0xpQ8Protocol_pAA07FeaturesC0CAA15ResultHydration_pAA09RequestedwQ8Protocol_ptcfcfA4_
++ _$s10OmniSearch0aB7ServiceC14searchServices14answerResolver17maxPerSourceLimit20intermediateCallback11queryParser0F19SynthesisController011featureFlagC014resultHydrator017requestedPropertyQ0ACSayAA0bC0_pG_AA16AnswerResolvable_pSiySScSgAA12QueryParsing_pAA0xpQ8Protocol_pAA07FeaturesC0CAA15ResultHydration_pAA09RequestedwQ8Protocol_ptcfcfA5_
++ _$s10OmniSearch0aB7ServiceC14searchServices14answerResolver17maxPerSourceLimit20intermediateCallback11queryParser0F19SynthesisController011featureFlagC014resultHydrator017requestedPropertyQ0ACSayAA0bC0_pG_AA16AnswerResolvable_pSiySScSgAA12QueryParsing_pAA0xpQ8Protocol_pAA07FeaturesC0CAA15ResultHydration_pAA09RequestedwQ8Protocol_ptcfcfA6_
++ _$s10OmniSearch0aB7ServiceC14searchServices14answerResolver17maxPerSourceLimit20intermediateCallback11queryParser0F19SynthesisController011featureFlagC014resultHydrator017requestedPropertyQ0ACSayAA0bC0_pG_AA16AnswerResolvable_pSiySScSgAA12QueryParsing_pAA0xpQ8Protocol_pAA07FeaturesC0CAA15ResultHydration_pAA09RequestedwQ8Protocol_ptcfcfA7_
++ _$s10OmniSearch0aB7ServiceC15createASContext4mode15assistantLocale10ecrResultsAA29AnswerSynthesisRequestContextV10AppIntents012IntentSystemN0V09AssistantN0V15InteractionModeOSg_SSSgSDyS2SGSgtYaFTj
++ _$s10OmniSearch0aB7ServiceC15createASContext4mode15assistantLocale10ecrResultsAA29AnswerSynthesisRequestContextV10AppIntents012IntentSystemN0V09AssistantN0V15InteractionModeOSg_SSSgSDyS2SGSgtYaFTjTu
++ _$s10OmniSearch0aB7ServiceC15createASContext4mode15assistantLocale10ecrResultsAA29AnswerSynthesisRequestContextV10AppIntents012IntentSystemN0V09AssistantN0V15InteractionModeOSg_SSSgSDyS2SGSgtYaFTq
++ _$s10OmniSearch0aB7ServiceC15preflightChecks7options19requestedPropertiesyAA0aB7OptionsV_SayAA0B15PropertyRequestVGtKFTj
++ _$s10OmniSearch0aB7ServiceC15preflightChecks7options19requestedPropertiesyAA0aB7OptionsV_SayAA0B15PropertyRequestVGtKFTq
++ _$s10OmniSearch0aB7ServiceC16checkForOverride5querySayAA0B6ResultVGSgAA9UserQueryV_tFTj
++ _$s10OmniSearch0aB7ServiceC16checkForOverride5querySayAA0B6ResultVGSgAA9UserQueryV_tFTq
++ _$s10OmniSearch0aB7ServiceC23MaxPerSourceLimitPresetSivpZMV
++ _$s10OmniSearch0aB7ServiceC27requestedPropertyControllerAA09RequestedeF8Protocol_pvg
++ _$s10OmniSearch0aB7ServiceC27requestedPropertyControllerAA09RequestedeF8Protocol_pvpMV
++ _$s10OmniSearch0aB7ServiceC6search5query15typeIdentifiers15matchedEntities7sources7options19requestedPropertiesAA0aB8ResponseCAA9UserQueryV_SayAA0B20EntityTypeIdentifierVGSayAA0Q5MatchVGAA0B7SourcesVAA0aB7OptionsVSayAA0B15PropertyRequestVGtYaKFTj
++ _$s10OmniSearch0aB7ServiceC6search5query15typeIdentifiers15matchedEntities7sources7options19requestedPropertiesAA0aB8ResponseCAA9UserQueryV_SayAA0B20EntityTypeIdentifierVGSayAA0Q5MatchVGAA0B7SourcesVAA0aB7OptionsVSayAA0B15PropertyRequestVGtYaKFTjTu
++ _$s10OmniSearch0aB7ServiceC6search5query15typeIdentifiers15matchedEntities7sources7options19requestedPropertiesAA0aB8ResponseCAA9UserQueryV_SayAA0B20EntityTypeIdentifierVGSayAA0Q5MatchVGAA0B7SourcesVAA0aB7OptionsVSayAA0B15PropertyRequestVGtYaKFTq
++ _$s10OmniSearch0aB7ServiceC6search5query15typeIdentifiers15matchedEntities7sources7options19requestedPropertiesAA0aB8ResponseCAA9UserQueryV_SayAA0B20EntityTypeIdentifierVGSayAA0Q5MatchVGAA0B7SourcesVAA0aB7OptionsVSayAA0B15PropertyRequestVGtYaKFfA2_
++ _$s10OmniSearch0aB7ServiceC6search5query15typeIdentifiers15matchedEntities7sources7options19requestedPropertiesAA0aB8ResponseCAA9UserQueryV_SayAA0B20EntityTypeIdentifierVGSayAA0Q5MatchVGAA0B7SourcesVAA0aB7OptionsVSayAA0B15PropertyRequestVGtYaKFfA3_
++ _$s10OmniSearch0aB7ServiceC6search5query15typeIdentifiers15matchedEntities7sources7options19requestedPropertiesAA0aB8ResponseCAA9UserQueryV_SayAA0B20EntityTypeIdentifierVGSayAA0Q5MatchVGAA0B7SourcesVAA0aB7OptionsVSayAA0B15PropertyRequestVGtYaKFfA4_
++ _$s10OmniSearch0aB7ServiceC6search_14rewrittenQuery010simplifiedF0010structuredF015typeIdentifiers15matchedEntities7sources7options19requestedPropertiesAA0aB8ResponseCSS_SSSgAoA010StructuredF6EntityVSgSayAA0bS14TypeIdentifierVGSayAA0S5MatchVGAA0B7SourcesVAA0aB7OptionsVSayAA0B15PropertyRequestVGtYaKFTj
++ _$s10OmniSearch0aB7ServiceC6search_14rewrittenQuery010simplifiedF0010structuredF015typeIdentifiers15matchedEntities7sources7options19requestedPropertiesAA0aB8ResponseCSS_SSSgAoA010StructuredF6EntityVSgSayAA0bS14TypeIdentifierVGSayAA0S5MatchVGAA0B7SourcesVAA0aB7OptionsVSayAA0B15PropertyRequestVGtYaKFTjTu
++ _$s10OmniSearch0aB7ServiceC6search_14rewrittenQuery010simplifiedF0010structuredF015typeIdentifiers15matchedEntities7sources7options19requestedPropertiesAA0aB8ResponseCSS_SSSgAoA010StructuredF6EntityVSgSayAA0bS14TypeIdentifierVGSayAA0S5MatchVGAA0B7SourcesVAA0aB7OptionsVSayAA0B15PropertyRequestVGtYaKFTq
++ _$s10OmniSearch0aB7ServiceC6search_14rewrittenQuery010simplifiedF0010structuredF015typeIdentifiers15matchedEntities7sources7options19requestedPropertiesAA0aB8ResponseCSS_SSSgAoA010StructuredF6EntityVSgSayAA0bS14TypeIdentifierVGSayAA0S5MatchVGAA0B7SourcesVAA0aB7OptionsVSayAA0B15PropertyRequestVGtYaKFfA5_
++ _$s10OmniSearch0aB7ServiceC6search_14rewrittenQuery010simplifiedF0010structuredF015typeIdentifiers15matchedEntities7sources7options19requestedPropertiesAA0aB8ResponseCSS_SSSgAoA010StructuredF6EntityVSgSayAA0bS14TypeIdentifierVGSayAA0S5MatchVGAA0B7SourcesVAA0aB7OptionsVSayAA0B15PropertyRequestVGtYaKFfA6_
++ _$s10OmniSearch0aB7ServiceC6search_14rewrittenQuery010simplifiedF0010structuredF015typeIdentifiers15matchedEntities7sources7options19requestedPropertiesAA0aB8ResponseCSS_SSSgAoA010StructuredF6EntityVSgSayAA0bS14TypeIdentifierVGSayAA0S5MatchVGAA0B7SourcesVAA0aB7OptionsVSayAA0B15PropertyRequestVGtYaKFfA7_
++ _$s10OmniSearch0aB7ServiceC6sharedACvpZMV
++ _$s10OmniSearch0aB7ServiceC7prewarmyyYaFTj
++ _$s10OmniSearch0aB7ServiceC7prewarmyyYaFTjTu
++ _$s10OmniSearch0aB7ServiceC7prewarmyyYaFTq
++ _$s10OmniSearch0aB8ResponseC7results12renderOption15isQuestionQuery0g4OpenI012searchString15foundPropertiesACSayAA0B6ResultVG_AA0abc6RenderF0OS2bSSSayAA0b8PropertyC0VGtcfC
++ _$s10OmniSearch0aB8ResponseC7results12renderOption15isQuestionQuery0g4OpenI012searchString15foundPropertiesACSayAA0B6ResultVG_AA0abc6RenderF0OS2bSSSayAA0b8PropertyC0VGtcfCTj
++ _$s10OmniSearch0aB8ResponseC7results12renderOption15isQuestionQuery0g4OpenI012searchString15foundPropertiesACSayAA0B6ResultVG_AA0abc6RenderF0OS2bSSSayAA0b8PropertyC0VGtcfCTq
++ _$s10OmniSearch0aB8ResponseC7results12renderOption15isQuestionQuery0g4OpenI012searchString15foundPropertiesACSayAA0B6ResultVG_AA0abc6RenderF0OS2bSSSayAA0b8PropertyC0VGtcfc
++ _$s10OmniSearch0aB8ResponseC7results12renderOption15isQuestionQuery0g4OpenI012searchString15foundPropertiesACSayAA0B6ResultVG_AA0abc6RenderF0OS2bSSSayAA0b8PropertyC0VGtcfcfA3_
++ _$s10OmniSearch0aB8ResponseC7results12renderOption15isQuestionQuery0g4OpenI012searchString15foundPropertiesACSayAA0B6ResultVG_AA0abc6RenderF0OS2bSSSayAA0b8PropertyC0VGtcfcfA4_
++ _$s10OmniSearch10AliasTypesV10homeEntityACvpZMV
++ _$s10OmniSearch10AliasTypesV13contactHandleACvpZMV
++ _$s10OmniSearch10AliasTypesV13expandedEmojiACvpZMV
++ _$s10OmniSearch10AliasTypesV15transliterationACvpZMV
++ _$s10OmniSearch10AliasTypesV17contactHypocorismACvpZMV
++ _$s10OmniSearch10AliasTypesV19contactRelationshipACvpZMV
++ _$s10OmniSearch10AliasTypesV7synonymACvpZMV
++ _$s10OmniSearch10DialogDataV10identifier20templateDirectoryURL10parameters13stringLiteral15speakableStringACSSSg_10Foundation0H0VSgSDySS10AppIntents12_IntentValue_s8SendablepGSgAiN010_SpeakableM0VSgtcfC
++ _$s10OmniSearch10FilterTypeO10AppIntents0D20DisplayRepresentableAAMc
++ _$s10OmniSearch10FilterTypeO10AppIntents0E4EnumAAMc
++ _$s10OmniSearch10FilterTypeO10AppIntents0E5ValueAAMc
++ _$s10OmniSearch10FilterTypeO10AppIntents12_IntentValueAAMc
++ _$s10OmniSearch10FilterTypeO10AppIntents24CaseDisplayRepresentableAAMc
++ _$s10OmniSearch10FilterTypeO10AppIntents24PersistentlyIdentifiableAAMc
++ _$s10OmniSearch10FilterTypeO10AppIntents26StaticDisplayRepresentableAAMc
++ _$s10OmniSearch10FilterTypeO10Foundation40CustomLocalizedStringResourceConvertibleAAMc
++ _$s10OmniSearch10FilterTypeO10noteFolderyA2CmFWC
++ _$s10OmniSearch10FilterTypeO10photoAlbumyA2CmFWC
++ _$s10OmniSearch10FilterTypeO10screenshotyA2CmFWC
++ _$s10OmniSearch10FilterTypeO10voiceMemosyA2CmFWC
++ _$s10OmniSearch10FilterTypeO11numbersFileyA2CmFWC
++ _$s10OmniSearch10FilterTypeO12conversationyA2CmFWC
++ _$s10OmniSearch10FilterTypeO12reminderListyA2CmFWC
++ _$s10OmniSearch10FilterTypeO12spatialVideoyA2CmFWC
++ _$s10OmniSearch10FilterTypeO13calendarEventyA2CmFWC
++ _$s10OmniSearch10FilterTypeO13documentsFileyA2CmFWC
++ _$s10OmniSearch10FilterTypeO25typeDisplayRepresentation10AppIntents0dfG0VvgZ
++ _$s10OmniSearch10FilterTypeO25typeDisplayRepresentation10AppIntents0dfG0VvpZMV
++ _$s10OmniSearch10FilterTypeO26caseDisplayRepresentationsSDyAC10AppIntents0F14RepresentationVGvgZ
++ _$s10OmniSearch10FilterTypeO26caseDisplayRepresentationsSDyAC10AppIntents0F14RepresentationVGvpZMV
++ _$s10OmniSearch10FilterTypeO4linkyA2CmFWC
++ _$s10OmniSearch10FilterTypeO4mailyA2CmFWC
++ _$s10OmniSearch10FilterTypeO4noteyA2CmFWC
++ _$s10OmniSearch10FilterTypeO5movieyA2CmFWC
++ _$s10OmniSearch10FilterTypeO5phoneyA2CmFWC
++ _$s10OmniSearch10FilterTypeO5photoyA2CmFWC
++ _$s10OmniSearch10FilterTypeO5slomoyA2CmFWC
++ _$s10OmniSearch10FilterTypeO5videoyA2CmFWC
++ _$s10OmniSearch10FilterTypeO6memoryyA2CmFWC
++ _$s10OmniSearch10FilterTypeO6safariyA2CmFWC
++ _$s10OmniSearch10FilterTypeO6selfieyA2CmFWC
++ _$s10OmniSearch10FilterTypeO6walletyA2CmFWC
++ _$s10OmniSearch10FilterTypeO7contactyA2CmFWC
++ _$s10OmniSearch10FilterTypeO7journalyA2CmFWC
++ _$s10OmniSearch10FilterTypeO7keynoteyA2CmFWC
++ _$s10OmniSearch10FilterTypeO7messageyA2CmFWC
++ _$s10OmniSearch10FilterTypeO7websiteyA2CmFWC
++ _$s10OmniSearch10FilterTypeO8allCasesSayACGvgZ
++ _$s10OmniSearch10FilterTypeO8allCasesSayACGvpZMV
++ _$s10OmniSearch10FilterTypeO8calendaryA2CmFWC
++ _$s10OmniSearch10FilterTypeO8freeformyA2CmFWC
++ _$s10OmniSearch10FilterTypeO8panoramayA2CmFWC
++ _$s10OmniSearch10FilterTypeO8rawValueACSgSS_tcfC
++ _$s10OmniSearch10FilterTypeO8rawValueSSvg
++ _$s10OmniSearch10FilterTypeO8rawValueSSvpMV
++ _$s10OmniSearch10FilterTypeO8reminderyA2CmFWC
++ _$s10OmniSearch10FilterTypeO9pagesFileyA2CmFWC
++ _$s10OmniSearch10FilterTypeO9voiceMemoyA2CmFWC
++ _$s10OmniSearch10FilterTypeO9voicemailyA2CmFWC
++ _$s10OmniSearch10FilterTypeOMa
++ _$s10OmniSearch10FilterTypeOMn
++ _$s10OmniSearch10FilterTypeON
++ _$s10OmniSearch10FilterTypeOSEAAMc
++ _$s10OmniSearch10FilterTypeOSHAAMc
++ _$s10OmniSearch10FilterTypeOSQAAMc
++ _$s10OmniSearch10FilterTypeOSYAAMc
++ _$s10OmniSearch10FilterTypeOSeAAMc
++ _$s10OmniSearch10FilterTypeOs12CaseIterableAAMc
++ _$s10OmniSearch10GlobalItemV24llmConsumableDescription6localeS2SSg_tF
++ _$s10OmniSearch10KGDocumentV24llmConsumableDescription6localeS2SSg_tF
++ _$s10OmniSearch10ObjectTypeO25typeDisplayRepresentation10AppIntents0dfG0VvpZMV
++ _$s10OmniSearch10ObjectTypeO26caseDisplayRepresentationsSDyAC10AppIntents0F14RepresentationVGvpZMV
++ _$s10OmniSearch10ObjectTypeO8allCasesSayACGvpZMV
++ _$s10OmniSearch10ReturnTypeO10noteFolderyA2CmFWC
++ _$s10OmniSearch10ReturnTypeO25typeDisplayRepresentation10AppIntents0dfG0VvpZMV
++ _$s10OmniSearch10ReturnTypeO26caseDisplayRepresentationsSDyAC10AppIntents0F14RepresentationVGvpZMV
++ _$s10OmniSearch10ReturnTypeO8allCasesSayACGvpZMV
++ _$s10OmniSearch10SourceTypeO10AppIntents0D20DisplayRepresentableAAMc
++ _$s10OmniSearch10SourceTypeO10AppIntents0E4EnumAAMc
++ _$s10OmniSearch10SourceTypeO10AppIntents0E5ValueAAMc
++ _$s10OmniSearch10SourceTypeO10AppIntents12_IntentValueAAMc
++ _$s10OmniSearch10SourceTypeO10AppIntents24CaseDisplayRepresentableAAMc
++ _$s10OmniSearch10SourceTypeO10AppIntents24PersistentlyIdentifiableAAMc
++ _$s10OmniSearch10SourceTypeO10AppIntents26StaticDisplayRepresentableAAMc
++ _$s10OmniSearch10SourceTypeO10Foundation40CustomLocalizedStringResourceConvertibleAAMc
++ _$s10OmniSearch10SourceTypeO10noteFolderyA2CmFWC
++ _$s10OmniSearch10SourceTypeO10photoAlbumyA2CmFWC
++ _$s10OmniSearch10SourceTypeO11numbersFileyA2CmFWC
++ _$s10OmniSearch10SourceTypeO12conversationyA2CmFWC
++ _$s10OmniSearch10SourceTypeO12reminderListyA2CmFWC
++ _$s10OmniSearch10SourceTypeO13calendarEventyA2CmFWC
++ _$s10OmniSearch10SourceTypeO13documentsFileyA2CmFWC
++ _$s10OmniSearch10SourceTypeO25typeDisplayRepresentation10AppIntents0dfG0VvgZ
++ _$s10OmniSearch10SourceTypeO25typeDisplayRepresentation10AppIntents0dfG0VvpZMV
++ _$s10OmniSearch10SourceTypeO26caseDisplayRepresentationsSDyAC10AppIntents0F14RepresentationVGvgZ
++ _$s10OmniSearch10SourceTypeO26caseDisplayRepresentationsSDyAC10AppIntents0F14RepresentationVGvpZMV
++ _$s10OmniSearch10SourceTypeO4mailyA2CmFWC
++ _$s10OmniSearch10SourceTypeO4noteyA2CmFWC
++ _$s10OmniSearch10SourceTypeO5phoneyA2CmFWC
++ _$s10OmniSearch10SourceTypeO5photoyA2CmFWC
++ _$s10OmniSearch10SourceTypeO6memoryyA2CmFWC
++ _$s10OmniSearch10SourceTypeO6walletyA2CmFWC
++ _$s10OmniSearch10SourceTypeO7browseryA2CmFWC
++ _$s10OmniSearch10SourceTypeO7contactyA2CmFWC
++ _$s10OmniSearch10SourceTypeO7journalyA2CmFWC
++ _$s10OmniSearch10SourceTypeO7keynoteyA2CmFWC
++ _$s10OmniSearch10SourceTypeO7messageyA2CmFWC
++ _$s10OmniSearch10SourceTypeO7websiteyA2CmFWC
++ _$s10OmniSearch10SourceTypeO8allCasesSayACGvgZ
++ _$s10OmniSearch10SourceTypeO8allCasesSayACGvpZMV
++ _$s10OmniSearch10SourceTypeO8calendaryA2CmFWC
++ _$s10OmniSearch10SourceTypeO8freeformyA2CmFWC
++ _$s10OmniSearch10SourceTypeO8rawValueACSgSS_tcfC
++ _$s10OmniSearch10SourceTypeO8rawValueSSvg
++ _$s10OmniSearch10SourceTypeO8rawValueSSvpMV
++ _$s10OmniSearch10SourceTypeO8reminderyA2CmFWC
++ _$s10OmniSearch10SourceTypeO9pagesFileyA2CmFWC
++ _$s10OmniSearch10SourceTypeO9voiceMemoyA2CmFWC
++ _$s10OmniSearch10SourceTypeO9voicemailyA2CmFWC
++ _$s10OmniSearch10SourceTypeOMa
++ _$s10OmniSearch10SourceTypeOMn
++ _$s10OmniSearch10SourceTypeON
++ _$s10OmniSearch10SourceTypeOSEAAMc
++ _$s10OmniSearch10SourceTypeOSHAAMc
++ _$s10OmniSearch10SourceTypeOSQAAMc
++ _$s10OmniSearch10SourceTypeOSYAAMc
++ _$s10OmniSearch10SourceTypeOSeAAMc
++ _$s10OmniSearch10SourceTypeOs12CaseIterableAAMc
++ _$s10OmniSearch10WalletPassV24llmConsumableDescription6localeS2SSg_tF
++ _$s10OmniSearch11AppointmentV24llmConsumableDescription6localeS2SSg_tF
++ _$s10OmniSearch11AppointmentV2id22eventMessageIdentifier0e5GroupG00e8FallbackhG00e8MegadomeG00E4Type0e3SubK00e12SourceBundleG00E8IsAllDay04timeO7Unknown0emO9Forwarded7authors04mailF2Id0vF6Header07accountG09mailboxes18detectedEventTypes0eM24LLMConsumableDescription0E4Name17startLocationName20startLocationAddress22startLocationTelephone17durationInSeconds9totalCost9startDate7endDateACSS_SSSgA2_A2_A2_A2_A2_A2_SbSgSbA3_SaySSGSgA2_A2_A2_A5_A5_A2_A2_A2_A2_A2_SdSgA2_10Foundation4DateVSgA10_tcfC
++ _$s10OmniSearch11AppointmentV35eventSourceLLMConsumableDescriptionSSSgvM
++ _$s10OmniSearch11AppointmentV35eventSourceLLMConsumableDescriptionSSSgvg
++ _$s10OmniSearch11AppointmentV35eventSourceLLMConsumableDescriptionSSSgvpMV
++ _$s10OmniSearch11AppointmentV35eventSourceLLMConsumableDescriptionSSSgvs
++ _$s10OmniSearch11CardSubTypeO25typeDisplayRepresentation10AppIntents0egH0VvpZMV
++ _$s10OmniSearch11CardSubTypeO26caseDisplayRepresentationsSDyAC10AppIntents0G14RepresentationVGvpZMV
++ _$s10OmniSearch11CardSubTypeO8allCasesSayACGvpZMV
++ _$s10OmniSearch11ContentTypeO12phoneHistorySSvau
++ _$s10OmniSearch11ContentTypeO12phoneHistorySSvgZ
++ _$s10OmniSearch11ContentTypeO12phoneHistorySSvpZ
++ _$s10OmniSearch11ContentTypeO12phoneHistorySSvpZMV
++ _$s10OmniSearch11ContentTypeO5notesSSvau
++ _$s10OmniSearch11ContentTypeO5notesSSvgZ
++ _$s10OmniSearch11ContentTypeO5notesSSvpZ
++ _$s10OmniSearch11ContentTypeO5notesSSvpZMV
++ _$s10OmniSearch11ContentTypeO5pagesSSvau
++ _$s10OmniSearch11ContentTypeO5pagesSSvgZ
++ _$s10OmniSearch11ContentTypeO5pagesSSvpZ
++ _$s10OmniSearch11ContentTypeO5pagesSSvpZMV
++ _$s10OmniSearch11ContentTypeO7keynoteSSvau
++ _$s10OmniSearch11ContentTypeO7keynoteSSvgZ
++ _$s10OmniSearch11ContentTypeO7keynoteSSvpZ
++ _$s10OmniSearch11ContentTypeO7keynoteSSvpZMV
++ _$s10OmniSearch11ContentTypeO7numbersSSvau
++ _$s10OmniSearch11ContentTypeO7numbersSSvgZ
++ _$s10OmniSearch11ContentTypeO7numbersSSvpZ
++ _$s10OmniSearch11ContentTypeO7numbersSSvpZMV
++ _$s10OmniSearch11ContentTypeO9voicemailSSvau
++ _$s10OmniSearch11ContentTypeO9voicemailSSvgZ
++ _$s10OmniSearch11ContentTypeO9voicemailSSvpZ
++ _$s10OmniSearch11ContentTypeO9voicemailSSvpZMV
++ _$s10OmniSearch11ContentTypeOMa
++ _$s10OmniSearch11ContentTypeOMn
++ _$s10OmniSearch11ContentTypeON
++ _$s10OmniSearch11DerivedTypeO2eeoiySbAC_ACtFZ
++ _$s10OmniSearch11DerivedTypeO4cardyA2CmFWC
++ _$s10OmniSearch11DerivedTypeO4hash4intoys6HasherVz_tF
++ _$s10OmniSearch11DerivedTypeO4make06filterD0ACSgAA06FilterD0OSg_tFZ
++ _$s10OmniSearch11DerivedTypeO4make09preferredD006filterD0ACSgSayAA09PreferredD0OGSg_SayAA06FilterD0OGSgtFZ
++ _$s10OmniSearch11DerivedTypeO4make09preferredD0ACSgAA09PreferredD0OSg_tFZ
++ _$s10OmniSearch11DerivedTypeO5mediayA2CmFWC
++ _$s10OmniSearch11DerivedTypeO7contactyA2CmFWC
++ _$s10OmniSearch11DerivedTypeO9hashValueSivg
++ _$s10OmniSearch11DerivedTypeO9hashValueSivpMV
++ _$s10OmniSearch11DerivedTypeOMa
++ _$s10OmniSearch11DerivedTypeOMn
++ _$s10OmniSearch11DerivedTypeON
++ _$s10OmniSearch11DerivedTypeOSHAAMc
++ _$s10OmniSearch11DerivedTypeOSQAAMc
++ _$s10OmniSearch11DeviceStateV11descriptionSSvg
++ _$s10OmniSearch11DeviceStateV11descriptionSSvpMV
++ _$s10OmniSearch11DeviceStateV11deviceClassSSvg
++ _$s10OmniSearch11DeviceStateV11deviceClassSSvpMV
++ _$s10OmniSearch11DeviceStateVACycfC
++ _$s10OmniSearch11DeviceStateVMa
++ _$s10OmniSearch11DeviceStateVMn
++ _$s10OmniSearch11DeviceStateVN
++ _$s10OmniSearch11DeviceStateVs23CustomStringConvertibleAAMc
++ _$s10OmniSearch11EntityMatchV25typeDisplayRepresentation10AppIntents04TypefG0VvpZMV
++ _$s10OmniSearch11EvalLoggingV03logC4Info__6loggerySS_AA0cF9Providing_p2os6LoggerVtFZ
++ _$s10OmniSearch11EvalLoggingV03logC4Info__6loggerySS_AA0cF9Providing_p2os6LoggerVtFZfA1_
++ _$s10OmniSearch11EvalLoggingV7encoder10Foundation11JSONEncoderCvpZMV
++ _$s10OmniSearch11EventEntityV25typeDisplayRepresentation10AppIntents04TypefG0VvpZMV
++ _$s10OmniSearch11EventEntityV6result4cardACSgAA0B6ResultV_So6SFCardCSgtcfC
++ _$s10OmniSearch11GeoLocationV24llmConsumableDescription6localeS2SSg_tF
++ _$s10OmniSearch11ItemFetcherC15fetchSourceCSSI3forSDySSSaySo012CSSearchableC0CGGAH_tYaF
++ _$s10OmniSearch11ItemFetcherC15fetchSourceCSSI3forSDySSSaySo012CSSearchableC0CGGAH_tYaFTj
++ _$s10OmniSearch11ItemFetcherC15fetchSourceCSSI3forSDySSSaySo012CSSearchableC0CGGAH_tYaFTjTu
++ _$s10OmniSearch11ItemFetcherC15fetchSourceCSSI3forSDySSSaySo012CSSearchableC0CGGAH_tYaFTq
++ _$s10OmniSearch11ItemFetcherC15fetchSourceCSSI3forSDySSSaySo012CSSearchableC0CGGAH_tYaFTu
++ _$s10OmniSearch11ItemFetcherC26queryStringForEventSources10eventItemsSSSaySo012CSSearchableC0CG_tF
++ _$s10OmniSearch11ItemFetcherC26queryStringForEventSources10eventItemsSSSaySo012CSSearchableC0CG_tFTj
++ _$s10OmniSearch11ItemFetcherC26queryStringForEventSources10eventItemsSSSaySo012CSSearchableC0CG_tFTq
++ _$s10OmniSearch11MediaEntityV10AppIntents09TransienteD0AAMc
++ _$s10OmniSearch11MediaEntityV10intentFile10AppIntents06IntentF0VSgvg
++ _$s10OmniSearch11MediaEntityV10intentFile10AppIntents06IntentF0VSgvpMV
++ _$s10OmniSearch11MediaEntityV12exportedData10Foundation0F0VyKF
++ _$s10OmniSearch11MediaEntityV14experienceFile10AppIntents06IntentF0VSgvM
++ _$s10OmniSearch11MediaEntityV14experienceFile10AppIntents06IntentF0VSgvg
++ _$s10OmniSearch11MediaEntityV14experienceFile10AppIntents06IntentF0VSgvpMV
++ _$s10OmniSearch11MediaEntityV14experienceFile10AppIntents06IntentF0VSgvs
++ _$s10OmniSearch11MediaEntityV15$experienceFile10AppIntents0D8PropertyCyAE06IntentF0VSgGvg
++ _$s10OmniSearch11MediaEntityV15$experienceFile10AppIntents0D8PropertyCyAE06IntentF0VSgGvpMV
++ _$s10OmniSearch11MediaEntityV15overridePayloadACSo12NSDictionaryC_tKcfC
++ _$s10OmniSearch11MediaEntityV16CoreTransferable0F0AAMc
++ _$s10OmniSearch11MediaEntityV22transferRepresentation16CoreTransferable04DataF0VyACGvgZ
++ _$s10OmniSearch11MediaEntityV22transferRepresentation16CoreTransferable04DataF0VyACGvpZMV
++ _$s10OmniSearch11MediaEntityV25typeDisplayRepresentation10AppIntents04TypefG0VvpZMV
++ _$s10OmniSearch11MediaEntityV2id3url14experienceFileACSS_10Foundation3URLVSg10AppIntents06IntentH0VSgtcfC
++ _$s10OmniSearch11MediaEntityV3url10Foundation3URLVSgvM
++ _$s10OmniSearch11MediaEntityV3url10Foundation3URLVSgvg
++ _$s10OmniSearch11MediaEntityV3url10Foundation3URLVSgvpMV
++ _$s10OmniSearch11MediaEntityV3url10Foundation3URLVSgvs
++ _$s10OmniSearch11MediaEntityV4$url10AppIntents0D8PropertyCy10Foundation3URLVSgGvg
++ _$s10OmniSearch11MediaEntityV4$url10AppIntents0D8PropertyCy10Foundation3URLVSgGvpMV
++ _$s10OmniSearch11MediaEntityVAA0B12OverrideableAAMc
++ _$s10OmniSearch11MediaEntityVAA0B12OverrideableAAWP
++ _$s10OmniSearch11MediaEntityVACycfC
++ _$s10OmniSearch11OrderByTimeO10AppIntents0F4EnumAAMc
++ _$s10OmniSearch11OrderByTimeO10AppIntents0F5ValueAAMc
++ _$s10OmniSearch11OrderByTimeO10AppIntents12_IntentValueAAMc
++ _$s10OmniSearch11OrderByTimeO10AppIntents24CaseDisplayRepresentableAAMc
++ _$s10OmniSearch11OrderByTimeO10AppIntents24PersistentlyIdentifiableAAMc
++ _$s10OmniSearch11OrderByTimeO10AppIntents24TypeDisplayRepresentableAAMc
++ _$s10OmniSearch11OrderByTimeO10AppIntents26StaticDisplayRepresentableAAMc
++ _$s10OmniSearch11OrderByTimeO10Foundation40CustomLocalizedStringResourceConvertibleAAMc
++ _$s10OmniSearch11OrderByTimeO10descendingyA2CmFWC
++ _$s10OmniSearch11OrderByTimeO25typeDisplayRepresentation10AppIntents04TypegH0VvgZ
++ _$s10OmniSearch11OrderByTimeO25typeDisplayRepresentation10AppIntents04TypegH0VvpZMV
++ _$s10OmniSearch11OrderByTimeO26caseDisplayRepresentationsSDyAC10AppIntents0G14RepresentationVGvgZ
++ _$s10OmniSearch11OrderByTimeO26caseDisplayRepresentationsSDyAC10AppIntents0G14RepresentationVGvpZMV
++ _$s10OmniSearch11OrderByTimeO8allCasesSayACGvgZ
++ _$s10OmniSearch11OrderByTimeO8allCasesSayACGvpZMV
++ _$s10OmniSearch11OrderByTimeO8rawValueACSgSS_tcfC
++ _$s10OmniSearch11OrderByTimeO8rawValueSSvg
++ _$s10OmniSearch11OrderByTimeO8rawValueSSvpMV
++ _$s10OmniSearch11OrderByTimeO9ascendingyA2CmFWC
++ _$s10OmniSearch11OrderByTimeOMa
++ _$s10OmniSearch11OrderByTimeOMn
++ _$s10OmniSearch11OrderByTimeON
++ _$s10OmniSearch11OrderByTimeOSEAAMc
++ _$s10OmniSearch11OrderByTimeOSHAAMc
++ _$s10OmniSearch11OrderByTimeOSQAAMc
++ _$s10OmniSearch11OrderByTimeOSYAAMc
++ _$s10OmniSearch11OrderByTimeOSeAAMc
++ _$s10OmniSearch11OrderByTimeOs12CaseIterableAAMc
++ _$s10OmniSearch11TimeoutUtilO08adjustedC07secondsS2d_tFZ
++ _$s10OmniSearch11TimeoutUtilOMa
++ _$s10OmniSearch11TimeoutUtilOMn
++ _$s10OmniSearch11TimeoutUtilON
++ _$s10OmniSearch12ContainsTypeO10AppIntents0D20DisplayRepresentableAAMc
++ _$s10OmniSearch12ContainsTypeO10AppIntents0E4EnumAAMc
++ _$s10OmniSearch12ContainsTypeO10AppIntents0E5ValueAAMc
++ _$s10OmniSearch12ContainsTypeO10AppIntents12_IntentValueAAMc
++ _$s10OmniSearch12ContainsTypeO10AppIntents24CaseDisplayRepresentableAAMc
++ _$s10OmniSearch12ContainsTypeO10AppIntents24PersistentlyIdentifiableAAMc
++ _$s10OmniSearch12ContainsTypeO10AppIntents26StaticDisplayRepresentableAAMc
++ _$s10OmniSearch12ContainsTypeO10Foundation40CustomLocalizedStringResourceConvertibleAAMc
++ _$s10OmniSearch12ContainsTypeO10noteFolderyA2CmFWC
++ _$s10OmniSearch12ContainsTypeO10photoAlbumyA2CmFWC
++ _$s10OmniSearch12ContainsTypeO10restaurantyA2CmFWC
++ _$s10OmniSearch12ContainsTypeO10screenshotyA2CmFWC
++ _$s10OmniSearch12ContainsTypeO10ticketShowyA2CmFWC
++ _$s10OmniSearch12ContainsTypeO11appointmentyA2CmFWC
++ _$s10OmniSearch12ContainsTypeO11numbersFileyA2CmFWC
++ _$s10OmniSearch12ContainsTypeO12conversationyA2CmFWC
++ _$s10OmniSearch12ContainsTypeO12spatialVideoyA2CmFWC
++ _$s10OmniSearch12ContainsTypeO13documentsFileyA2CmFWC
++ _$s10OmniSearch12ContainsTypeO15ticketTransportyA2CmFWC
++ _$s10OmniSearch12ContainsTypeO18vehicleReservationyA2CmFWC
++ _$s10OmniSearch12ContainsTypeO25typeDisplayRepresentation10AppIntents0dfG0VvgZ
++ _$s10OmniSearch12ContainsTypeO25typeDisplayRepresentation10AppIntents0dfG0VvpZMV
++ _$s10OmniSearch12ContainsTypeO26caseDisplayRepresentationsSDyAC10AppIntents0F14RepresentationVGvgZ
++ _$s10OmniSearch12ContainsTypeO26caseDisplayRepresentationsSDyAC10AppIntents0F14RepresentationVGvpZMV
++ _$s10OmniSearch12ContainsTypeO4cardyA2CmFWC
++ _$s10OmniSearch12ContainsTypeO4noteyA2CmFWC
++ _$s10OmniSearch12ContainsTypeO5eventyA2CmFWC
++ _$s10OmniSearch12ContainsTypeO5hotelyA2CmFWC
++ _$s10OmniSearch12ContainsTypeO5mediayA2CmFWC
++ _$s10OmniSearch12ContainsTypeO5partyyA2CmFWC
++ _$s10OmniSearch12ContainsTypeO5photoyA2CmFWC
++ _$s10OmniSearch12ContainsTypeO5slomoyA2CmFWC
++ _$s10OmniSearch12ContainsTypeO5videoyA2CmFWC
++ _$s10OmniSearch12ContainsTypeO6flightyA2CmFWC
++ _$s10OmniSearch12ContainsTypeO6memoryyA2CmFWC
++ _$s10OmniSearch12ContainsTypeO6selfieyA2CmFWC
++ _$s10OmniSearch12ContainsTypeO6walletyA2CmFWC
++ _$s10OmniSearch12ContainsTypeO7contactyA2CmFWC
++ _$s10OmniSearch12ContainsTypeO7journalyA2CmFWC
++ _$s10OmniSearch12ContainsTypeO7keynoteyA2CmFWC
++ _$s10OmniSearch12ContainsTypeO7websiteyA2CmFWC
++ _$s10OmniSearch12ContainsTypeO8allCasesSayACGvgZ
++ _$s10OmniSearch12ContainsTypeO8allCasesSayACGvpZMV
++ _$s10OmniSearch12ContainsTypeO8calendaryA2CmFWC
++ _$s10OmniSearch12ContainsTypeO8freeformyA2CmFWC
++ _$s10OmniSearch12ContainsTypeO8panoramayA2CmFWC
++ _$s10OmniSearch12ContainsTypeO8rawValueACSgSS_tcfC
++ _$s10OmniSearch12ContainsTypeO8rawValueSSvg
++ _$s10OmniSearch12ContainsTypeO8rawValueSSvpMV
++ _$s10OmniSearch12ContainsTypeO8reminderyA2CmFWC
++ _$s10OmniSearch12ContainsTypeO9pagesFileyA2CmFWC
++ _$s10OmniSearch12ContainsTypeO9voiceMemoyA2CmFWC
++ _$s10OmniSearch12ContainsTypeO9voicemailyA2CmFWC
++ _$s10OmniSearch12ContainsTypeOMa
++ _$s10OmniSearch12ContainsTypeOMn
++ _$s10OmniSearch12ContainsTypeON
++ _$s10OmniSearch12ContainsTypeOSEAAMc
++ _$s10OmniSearch12ContainsTypeOSHAAMc
++ _$s10OmniSearch12ContainsTypeOSQAAMc
++ _$s10OmniSearch12ContainsTypeOSYAAMc
++ _$s10OmniSearch12ContainsTypeOSeAAMc
++ _$s10OmniSearch12ContainsTypeOs12CaseIterableAAMc
++ _$s10OmniSearch12EntityUTTypeO25typeDisplayRepresentation10AppIntents04TypefG0VvpZMV
++ _$s10OmniSearch12EntityUTTypeO26caseDisplayRepresentationsSDyAC10AppIntents0F14RepresentationVGvpZMV
++ _$s10OmniSearch12EntityUTTypeO8allCasesSayACGvpZMV
++ _$s10OmniSearch12EventManagerV05buildC14AfterHdyration3for6locale13emailDocument4withAA0B6ResultVAJ_SSSgAA05EmailK0VAJSgtFZ
++ _$s10OmniSearch12EventManagerV05buildC17AfterSMSHydration3for17mobileSMSDocument6localeAA0B6ResultVAI_AA06MobileJ0VSSSgtFZ
++ _$s10OmniSearch12EventManagerV17hydrateWithEvents3for6localeSayAA0B6ResultVGAI_SSSgtYaFZ
++ _$s10OmniSearch12EventManagerV17hydrateWithEvents3for6localeSayAA0B6ResultVGAI_SSSgtYaFZTu
++ _$s10OmniSearch12EventManagerV26hydrateWithSourceDocuments3for11itemFetcher14resultHydrator6localeSayAA0B6ResultVGAK_AA04ItemK8Protocol_pAA0O9Hydration_pSSSgtYaFZ
++ _$s10OmniSearch12EventManagerV26hydrateWithSourceDocuments3for11itemFetcher14resultHydrator6localeSayAA0B6ResultVGAK_AA04ItemK8Protocol_pAA0O9Hydration_pSSSgtYaFZTu
++ _$s10OmniSearch12EventManagerV26hydrateWithSourceDocuments3for11itemFetcher14resultHydrator6localeSayAA0B6ResultVGAK_AA04ItemK8Protocol_pAA0O9Hydration_pSSSgtYaFZfA1_
++ _$s10OmniSearch12EventManagerV30hydrateWithSourceEmailDocument3for13mailMessageId11itemFetcher6localeAA0B6ResultVAJ_SSSgAA04ItemO8Protocol_pAKtYaFZ
++ _$s10OmniSearch12EventManagerV30hydrateWithSourceEmailDocument3for13mailMessageId11itemFetcher6localeAA0B6ResultVAJ_SSSgAA04ItemO8Protocol_pAKtYaFZTu
++ _$s10OmniSearch12EventManagerV44fetchExtractedEventsLLMConsumableDescription3for6localeSSSgAA0B6ResultV_AGtYaFZ
++ _$s10OmniSearch12EventManagerV44fetchExtractedEventsLLMConsumableDescription3for6localeSSSgAA0B6ResultV_AGtYaFZTu
++ _$s10OmniSearch12EventManagerV50hydrateWithSourceMessageDocumentFromResultHydrator3for05eventH10Identifier06resultL06localeAA0bK0VAJ_SSSgAA0K9Hydration_pAKtYaFZ
++ _$s10OmniSearch12EventManagerV50hydrateWithSourceMessageDocumentFromResultHydrator3for05eventH10Identifier06resultL06localeAA0bK0VAJ_SSSgAA0K9Hydration_pAKtYaFZTu
++ _$s10OmniSearch12EventSubTypeO25typeDisplayRepresentation10AppIntents0egH0VvpZMV
++ _$s10OmniSearch12EventSubTypeO26caseDisplayRepresentationsSDyAC10AppIntents0G14RepresentationVGvpZMV
++ _$s10OmniSearch12EventSubTypeO8allCasesSayACGvpZMV
++ _$s10OmniSearch12FileDocumentV24llmConsumableDescription6localeS2SSg_tF
++ _$s10OmniSearch12IdCardEntityV25typeDisplayRepresentation10AppIntents04TypegH0VvpZMV
++ _$s10OmniSearch12JournalEntryV24llmConsumableDescription6localeS2SSg_tF
++ _$s10OmniSearch12LLMFormatterV17dateOnlyFormatter6locale10Foundation4DateV11FormatStyleVSSSg_tFZ
++ _$s10OmniSearch12LLMFormatterV17dateTimeFormatter6locale10Foundation4DateV11FormatStyleVSSSg_tFZ
++ _$s10OmniSearch12LLMFormatterV19StringInterpolationV06appendE04date6locale12includesTime11formatStyley10Foundation4DateVSg_SSSgSbxtAK06FormatL0RzAA09EditorialN9FormatterV0N5InputV0oR0RtzSS0O6OutputRtzlF
++ _$s10OmniSearch12LLMFormatterV19StringInterpolationV06appendE04date6locale12includesTime11formatStyley10Foundation4DateVSg_SSSgSbxtAK06FormatL0RzAA09EditorialN9FormatterV0N5InputV0oR0RtzSS0O6OutputRtzlFfA1_
++ _$s10OmniSearch12LLMFormatterV19StringInterpolationV06appendE04date6locale12includesTime11formatStyley10Foundation4DateVSg_SSSgSbxtAK06FormatL0RzAA09EditorialN9FormatterV0N5InputV0oR0RtzSS0O6OutputRtzlFfA2_
++ _$s10OmniSearch12LLMFormatterV19StringInterpolationV06appendE04date6locale13timeIsUnknowny10Foundation14DateComponentsVSg_SSSgSbtF
++ _$s10OmniSearch12LLMFormatterV19StringInterpolationV06appendE04date6localey10Foundation14DateComponentsVSg_SSSgtF
++ _$s10OmniSearch12LLMFormatterV19StringInterpolationV06appendE0_4date6locale12includesTime11formatStyleySS_10Foundation4DateVSgSSSgSbxtAK06FormatL0RzAA09EditorialN9FormatterV0N5InputV0oR0RtzSS0O6OutputRtzlF
++ _$s10OmniSearch12LLMFormatterV19StringInterpolationV06appendE0_4date6locale12includesTime11formatStyleySS_10Foundation4DateVSgSSSgSbxtAK06FormatL0RzAA09EditorialN9FormatterV0N5InputV0oR0RtzSS0O6OutputRtzlFfA2_
++ _$s10OmniSearch12LLMFormatterV19StringInterpolationV06appendE0_4date6locale12includesTime11formatStyleySS_10Foundation4DateVSgSSSgSbxtAK06FormatL0RzAA09EditorialN9FormatterV0N5InputV0oR0RtzSS0O6OutputRtzlFfA3_
++ _$s10OmniSearch12LLMFormatterV19StringInterpolationV06appendE0_4date6locale13timeIsUnknownySS_10Foundation14DateComponentsVSgSSSgSbtF
++ _$s10OmniSearch12LLMFormatterV19StringInterpolationV06appendE0_5dates6locale11formatStyleySS_Say10Foundation4DateVGSgSSSgxtAJ06FormatJ0RzAA09EditorialL9FormatterV0L5InputV0mP0RtzSS0M6OutputRtzlF
++ _$s10OmniSearch12LLMFormatterV19StringInterpolationV06appendE0_5dates6locale11formatStyleySS_Say10Foundation4DateVGSgSSSgxtAJ06FormatJ0RzAA09EditorialL9FormatterV0L5InputV0mP0RtzSS0M6OutputRtzlFfA2_
++ _$s10OmniSearch12LLMFormatterV19StringInterpolationV06appendE0_5names11countToShow6suffix9skipValueySS_SaySSGSgSiSSSbtF
++ _$s10OmniSearch12LLMFormatterV19StringInterpolationV06appendE0_5names11countToShow6suffix9skipValueySS_SaySSGSgSiSSSbtFfA2_
++ _$s10OmniSearch12LLMFormatterV19StringInterpolationV06appendE0_5names11countToShow6suffix9skipValueySS_SaySSGSgSiSSSbtFfA3_
++ _$s10OmniSearch12NoteDocumentV24llmConsumableDescription6localeS2SSg_tF
++ _$s10OmniSearch12PhoneHistoryV24llmConsumableDescription6localeS2SSg_tF
++ _$s10OmniSearch12QueryParsingP5parse_8clientIdAA18LLMQUModelResponseVSS_SStYaKFTj
++ _$s10OmniSearch12QueryParsingP5parse_8clientIdAA18LLMQUModelResponseVSS_SStYaKFTjTu
++ _$s10OmniSearch12QueryParsingP5parse_8clientIdAA18LLMQUModelResponseVSS_SStYaKFTq
++ _$s10OmniSearch12ResolvedInfoV01kC9AnswerKeySSvpZMV
++ _$s10OmniSearch12TicketedShowV24llmConsumableDescription6localeS2SSg_tF
++ _$s10OmniSearch12TicketedShowV2id22eventMessageIdentifier0f5GroupH00f8FallbackiH00f8MegadomeH00F4Type0f3SubL00f12SourceBundleH00F8IsAllDay04timeP7Unknown0fnP9Forwarded7authors04mailG2Id0wG6Header07accountH09mailboxes18detectedEventTypes0fN24LLMConsumableDescription011reservationX08provider13customerNames17startLocationName20startLocationAddress11seatNumbers17durationInSeconds06ticketL09ticketUrl9totalCost9startDate7endDateACSS_SSSgA6_A6_A6_A6_A6_A6_SbSgSbA7_SaySSGSgA6_A6_A6_A9_A9_A6_A6_A6_A9_A6_A6_A9_SdSgA6_10Foundation3URLVSgA6_A11_4DateVSgA17_tcfC
++ _$s10OmniSearch12TicketedShowV35eventSourceLLMConsumableDescriptionSSSgvM
++ _$s10OmniSearch12TicketedShowV35eventSourceLLMConsumableDescriptionSSSgvg
++ _$s10OmniSearch12TicketedShowV35eventSourceLLMConsumableDescriptionSSSgvpMV
++ _$s10OmniSearch12TicketedShowV35eventSourceLLMConsumableDescriptionSSSgvs
++ _$s10OmniSearch13AppEntityItemV24llmConsumableDescription6localeS2SSg_tF
++ _$s10OmniSearch13CalendarEventV23itemAppEntityInstanceIdSSSgvg
++ _$s10OmniSearch13CalendarEventV23itemAppEntityInstanceIdSSSgvpMV
++ _$s10OmniSearch13CalendarEventV24llmConsumableDescription6localeS2SSg_tF
++ _$s10OmniSearch13CalendarEventV2id5title18contentDescription9startDate03endJ012locationName14organizerNames011participantO05notes19dataDetectorResults23itemAppEntityInstanceIdACSS_SSSgAO10Foundation0J0VSgAsOSaySSGAtoA04DatasT0VSgAOtcfC
++ _$s10OmniSearch13EmailDocumentV24llmConsumableDescription6localeS2SSg_tF
++ _$s10OmniSearch13EmailDocumentV4fromACSo16CSSearchableItemC_tcfC
++ _$s10OmniSearch13ExtractedInfoV16updateResultWith_6localeAA0bF0VAA08ResolvedD0V_SSSgtF
++ _$s10OmniSearch13ExtractedInfoV17buildAnswerResult6localeAA0bG0VSSSg_tF
++ _$s10OmniSearch13FlightSnippetV3LegV17timeIntervalSinceySdSg10Foundation14DateComponentsVF
++ _$s10OmniSearch13MetricsLoggerC03getB16ToolFailureError3err27IntelligencePlatformLibrary0j4FlowbF9TelemetryV0bfgH0Vs0H0_p_tF
++ _$s10OmniSearch13MetricsLoggerC03getB16ToolFailureError3err27IntelligencePlatformLibrary0j4FlowbF9TelemetryV0bfgH0Vs0H0_p_tFTj
++ _$s10OmniSearch13MetricsLoggerC03getB16ToolFailureError3err27IntelligencePlatformLibrary0j4FlowbF9TelemetryV0bfgH0Vs0H0_p_tFTq
++ _$s10OmniSearch13MetricsLoggerC03logB21ToolLLMQURequestEnded8clientId11llmQUResultySS_AA11LLMQUResultVtF
++ _$s10OmniSearch13MetricsLoggerC03logB21ToolLLMQURequestEnded8clientId11llmQUResultySS_AA11LLMQUResultVtFTj
++ _$s10OmniSearch13MetricsLoggerC03logB21ToolLLMQURequestEnded8clientId11llmQUResultySS_AA11LLMQUResultVtFTq
++ _$s10OmniSearch13MetricsLoggerC03logB21ToolRequestInvocation7traceId06clientJ0ySS_SStF
++ _$s10OmniSearch13MetricsLoggerC03logB21ToolRequestInvocation7traceId06clientJ0ySS_SStFTj
++ _$s10OmniSearch13MetricsLoggerC03logB21ToolRequestInvocation7traceId06clientJ0ySS_SStFTq
++ _$s10OmniSearch13MetricsLoggerC03logB22ToolLLMQURequestFailed8clientId7stErrorySS_27IntelligencePlatformLibrary0m4FlowbF9TelemetryV0bf7FailureL0VtF
++ _$s10OmniSearch13MetricsLoggerC03logB22ToolLLMQURequestFailed8clientId7stErrorySS_27IntelligencePlatformLibrary0m4FlowbF9TelemetryV0bf7FailureL0VtFTj
++ _$s10OmniSearch13MetricsLoggerC03logB22ToolLLMQURequestFailed8clientId7stErrorySS_27IntelligencePlatformLibrary0m4FlowbF9TelemetryV0bf7FailureL0VtFTq
++ _$s10OmniSearch13MetricsLoggerC03logB23ToolLLMQURequestStarted8clientIdySS_tF
++ _$s10OmniSearch13MetricsLoggerC03logB23ToolLLMQURequestStarted8clientIdySS_tFTj
++ _$s10OmniSearch13MetricsLoggerC03logB23ToolLLMQURequestStarted8clientIdySS_tFTq
++ _$s10OmniSearch13MetricsLoggerC03logB25ToolSpotlightRequestEnded8clientId7metricsySS_Say27IntelligencePlatformLibrary0m4FlowbF9TelemetryV0bfG6ResultVGSgtF
++ _$s10OmniSearch13MetricsLoggerC03logB25ToolSpotlightRequestEnded8clientId7metricsySS_Say27IntelligencePlatformLibrary0m4FlowbF9TelemetryV0bfG6ResultVGSgtFTj
++ _$s10OmniSearch13MetricsLoggerC03logB25ToolSpotlightRequestEnded8clientId7metricsySS_Say27IntelligencePlatformLibrary0m4FlowbF9TelemetryV0bfG6ResultVGSgtFTq
++ _$s10OmniSearch13MetricsLoggerC03logB26ToolSpotlightRequestFailed8clientId7stErrorySS_27IntelligencePlatformLibrary0n4FlowbF9TelemetryV0bf7FailureM0VtF
++ _$s10OmniSearch13MetricsLoggerC03logB26ToolSpotlightRequestFailed8clientId7stErrorySS_27IntelligencePlatformLibrary0n4FlowbF9TelemetryV0bf7FailureM0VtFTj
++ _$s10OmniSearch13MetricsLoggerC03logB26ToolSpotlightRequestFailed8clientId7stErrorySS_27IntelligencePlatformLibrary0n4FlowbF9TelemetryV0bf7FailureM0VtFTq
++ _$s10OmniSearch13MetricsLoggerC03logB27ToolSpotlightRequestStarted8clientIdySS_tF
++ _$s10OmniSearch13MetricsLoggerC03logB27ToolSpotlightRequestStarted8clientIdySS_tFTj
++ _$s10OmniSearch13MetricsLoggerC03logB27ToolSpotlightRequestStarted8clientIdySS_tFTq
++ _$s10OmniSearch13MetricsLoggerC03logB31ToolAnswerSynthesisRequestEnded8clientId06answerH6ResultySS_27IntelligencePlatformLibrary0o4FlowbF9TelemetryV0bfghN0VtF
++ _$s10OmniSearch13MetricsLoggerC03logB31ToolAnswerSynthesisRequestEnded8clientId06answerH6ResultySS_27IntelligencePlatformLibrary0o4FlowbF9TelemetryV0bfghN0VtFTj
++ _$s10OmniSearch13MetricsLoggerC03logB31ToolAnswerSynthesisRequestEnded8clientId06answerH6ResultySS_27IntelligencePlatformLibrary0o4FlowbF9TelemetryV0bfghN0VtFTq
++ _$s10OmniSearch13MetricsLoggerC03logB32ToolAnswerSynthesisRequestFailed8clientId7stErrorySS_27IntelligencePlatformLibrary0o4FlowbF9TelemetryV0bf7FailureN0VtF
++ _$s10OmniSearch13MetricsLoggerC03logB32ToolAnswerSynthesisRequestFailed8clientId7stErrorySS_27IntelligencePlatformLibrary0o4FlowbF9TelemetryV0bf7FailureN0VtFTj
++ _$s10OmniSearch13MetricsLoggerC03logB32ToolAnswerSynthesisRequestFailed8clientId7stErrorySS_27IntelligencePlatformLibrary0o4FlowbF9TelemetryV0bf7FailureN0VtFTq
++ _$s10OmniSearch13MetricsLoggerC03logB33ToolAnswerSynthesisRequestStarted8clientIdySS_tF
++ _$s10OmniSearch13MetricsLoggerC03logB33ToolAnswerSynthesisRequestStarted8clientIdySS_tFTj
++ _$s10OmniSearch13MetricsLoggerC03logB33ToolAnswerSynthesisRequestStarted8clientIdySS_tFTq
++ _$s10OmniSearch13MetricsLoggerC03logB9ToolEvent33_7E493C3A5A46D57957063207199E5F06LL8clientId7context04sendG0ySS_xy27IntelligencePlatformLibrary0s4FlowbF9TelemetryVKXEtlF
++ _$s10OmniSearch13MetricsLoggerC03logb10ToolGlobalB5Ended8clientId13globalResultsySS_SayAA0B6ResultVGtF
++ _$s10OmniSearch13MetricsLoggerC03logb10ToolGlobalB5Ended8clientId13globalResultsySS_SayAA0B6ResultVGtFTj
++ _$s10OmniSearch13MetricsLoggerC03logb10ToolGlobalB5Ended8clientId13globalResultsySS_SayAA0B6ResultVGtFTq
++ _$s10OmniSearch13MetricsLoggerC03logb10ToolGlobalB6Failed8clientId7stErrorySS_27IntelligencePlatformLibrary0m4FlowbF9TelemetryV0bf7FailureL0VtF
++ _$s10OmniSearch13MetricsLoggerC03logb10ToolGlobalB6Failed8clientId7stErrorySS_27IntelligencePlatformLibrary0m4FlowbF9TelemetryV0bf7FailureL0VtFTj
++ _$s10OmniSearch13MetricsLoggerC03logb10ToolGlobalB6Failed8clientId7stErrorySS_27IntelligencePlatformLibrary0m4FlowbF9TelemetryV0bf7FailureL0VtFTq
++ _$s10OmniSearch13MetricsLoggerC03logb10ToolGlobalB7Started8clientIdySS_tF
++ _$s10OmniSearch13MetricsLoggerC03logb10ToolGlobalB7Started8clientIdySS_tFTj
++ _$s10OmniSearch13MetricsLoggerC03logb10ToolGlobalB7Started8clientIdySS_tFTq
++ _$s10OmniSearch13MetricsLoggerC03logb11ToolGeneralB5Ended8clientId4from06dialogJ0ySS_SayAA0B6EntityVGSStF
++ _$s10OmniSearch13MetricsLoggerC03logb11ToolGeneralB5Ended8clientId4from06dialogJ0ySS_SayAA0B6EntityVGSStFTj
++ _$s10OmniSearch13MetricsLoggerC03logb11ToolGeneralB5Ended8clientId4from06dialogJ0ySS_SayAA0B6EntityVGSStFTq
++ _$s10OmniSearch13MetricsLoggerC03logb11ToolGeneralB6Failed8clientId7stErrorySS_27IntelligencePlatformLibrary0m4FlowbF9TelemetryV0bf7FailureL0VtF
++ _$s10OmniSearch13MetricsLoggerC03logb11ToolGeneralB6Failed8clientId7stErrorySS_27IntelligencePlatformLibrary0m4FlowbF9TelemetryV0bf7FailureL0VtFTj
++ _$s10OmniSearch13MetricsLoggerC03logb11ToolGeneralB6Failed8clientId7stErrorySS_27IntelligencePlatformLibrary0m4FlowbF9TelemetryV0bf7FailureL0VtFTq
++ _$s10OmniSearch13MetricsLoggerC03logb11ToolGeneralB7Started8clientId9preWarmedySS_SbtF
++ _$s10OmniSearch13MetricsLoggerC03logb11ToolGeneralB7Started8clientId9preWarmedySS_SbtFTj
++ _$s10OmniSearch13MetricsLoggerC03logb11ToolGeneralB7Started8clientId9preWarmedySS_SbtFTq
++ _$s10OmniSearch13MetricsLoggerC37logHallucinationDetectionRequestEnded8clientId7latencyySS_s6UInt32VtF
++ _$s10OmniSearch13MetricsLoggerC37logHallucinationDetectionRequestEnded8clientId7latencyySS_s6UInt32VtFTj
++ _$s10OmniSearch13MetricsLoggerC37logHallucinationDetectionRequestEnded8clientId7latencyySS_s6UInt32VtFTq
++ _$s10OmniSearch13MetricsLoggerC38logHallucinationDetectionRequestFailed8clientId7stErrorySS_27IntelligencePlatformLibrary0n4FlowB13ToolTelemetryV0br7FailureM0VtF
++ _$s10OmniSearch13MetricsLoggerC38logHallucinationDetectionRequestFailed8clientId7stErrorySS_27IntelligencePlatformLibrary0n4FlowB13ToolTelemetryV0br7FailureM0VtFTj
++ _$s10OmniSearch13MetricsLoggerC38logHallucinationDetectionRequestFailed8clientId7stErrorySS_27IntelligencePlatformLibrary0n4FlowB13ToolTelemetryV0br7FailureM0VtFTq
++ _$s10OmniSearch13MetricsLoggerC39logHallucinationDetectionRequestStarted8clientId6sourceySS_27IntelligencePlatformLibrary0m4FlowB13ToolTelemetryV0bqfG6SourceOtF
++ _$s10OmniSearch13MetricsLoggerC39logHallucinationDetectionRequestStarted8clientId6sourceySS_27IntelligencePlatformLibrary0m4FlowB13ToolTelemetryV0bqfG6SourceOtFTj
++ _$s10OmniSearch13MetricsLoggerC39logHallucinationDetectionRequestStarted8clientId6sourceySS_27IntelligencePlatformLibrary0m4FlowB13ToolTelemetryV0bqfG6SourceOtFTq
++ _$s10OmniSearch13MetricsLoggerC6sharedACvpZMV
++ _$s10OmniSearch13MobileGestaltV10deviceTypeSSvpZMV
++ _$s10OmniSearch13MobileGestaltV11deviceClassAC06DeviceF0OvpZMV
++ _$s10OmniSearch13MobileGestaltV12buildVersionSSvpZMV
++ _$s10OmniSearch13MobileGestaltV14devicePlatformAC06DeviceF0OvpZMV
++ _$s10OmniSearch13MobileGestaltV9osVersionSSvpZMV
++ _$s10OmniSearch13PreferredTypeO10AppIntents0D20DisplayRepresentableAAMc
++ _$s10OmniSearch13PreferredTypeO10AppIntents0E4EnumAAMc
++ _$s10OmniSearch13PreferredTypeO10AppIntents0E5ValueAAMc
++ _$s10OmniSearch13PreferredTypeO10AppIntents12_IntentValueAAMc
++ _$s10OmniSearch13PreferredTypeO10AppIntents24CaseDisplayRepresentableAAMc
++ _$s10OmniSearch13PreferredTypeO10AppIntents24PersistentlyIdentifiableAAMc
++ _$s10OmniSearch13PreferredTypeO10AppIntents26StaticDisplayRepresentableAAMc
++ _$s10OmniSearch13PreferredTypeO10Foundation40CustomLocalizedStringResourceConvertibleAAMc
++ _$s10OmniSearch13PreferredTypeO10noteFolderyA2CmFWC
++ _$s10OmniSearch13PreferredTypeO10photoAlbumyA2CmFWC
++ _$s10OmniSearch13PreferredTypeO10restaurantyA2CmFWC
++ _$s10OmniSearch13PreferredTypeO10ticketShowyA2CmFWC
++ _$s10OmniSearch13PreferredTypeO10voiceMemosyA2CmFWC
++ _$s10OmniSearch13PreferredTypeO11appointmentyA2CmFWC
++ _$s10OmniSearch13PreferredTypeO11music_albumyA2CmFWC
++ _$s10OmniSearch13PreferredTypeO11music_videoyA2CmFWC
++ _$s10OmniSearch13PreferredTypeO11numbersFileyA2CmFWC
++ _$s10OmniSearch13PreferredTypeO12conversationyA2CmFWC
++ _$s10OmniSearch13PreferredTypeO12genericEventyA2CmFWC
++ _$s10OmniSearch13PreferredTypeO12reminderListyA2CmFWC
++ _$s10OmniSearch13PreferredTypeO13calendarEventyA2CmFWC
++ _$s10OmniSearch13PreferredTypeO13documentsFileyA2CmFWC
++ _$s10OmniSearch13PreferredTypeO13radio_stationyA2CmFWC
++ _$s10OmniSearch13PreferredTypeO15ticketTransportyA2CmFWC
++ _$s10OmniSearch13PreferredTypeO18vehicleReservationyA2CmFWC
++ _$s10OmniSearch13PreferredTypeO25typeDisplayRepresentation10AppIntents0dfG0VvgZ
++ _$s10OmniSearch13PreferredTypeO25typeDisplayRepresentation10AppIntents0dfG0VvpZMV
++ _$s10OmniSearch13PreferredTypeO26caseDisplayRepresentationsSDyAC10AppIntents0F14RepresentationVGvgZ
++ _$s10OmniSearch13PreferredTypeO26caseDisplayRepresentationsSDyAC10AppIntents0F14RepresentationVGvpZMV
++ _$s10OmniSearch13PreferredTypeO4cardyA2CmFWC
++ _$s10OmniSearch13PreferredTypeO4linkyA2CmFWC
++ _$s10OmniSearch13PreferredTypeO4mailyA2CmFWC
++ _$s10OmniSearch13PreferredTypeO4newsyA2CmFWC
++ _$s10OmniSearch13PreferredTypeO4noteyA2CmFWC
++ _$s10OmniSearch13PreferredTypeO4showyA2CmFWC
++ _$s10OmniSearch13PreferredTypeO4songyA2CmFWC
++ _$s10OmniSearch13PreferredTypeO5albumyA2CmFWC
++ _$s10OmniSearch13PreferredTypeO5eventyA2CmFWC
++ _$s10OmniSearch13PreferredTypeO5hotelyA2CmFWC
++ _$s10OmniSearch13PreferredTypeO5mediayA2CmFWC
++ _$s10OmniSearch13PreferredTypeO5movieyA2CmFWC
++ _$s10OmniSearch13PreferredTypeO5partyyA2CmFWC
++ _$s10OmniSearch13PreferredTypeO5phoneyA2CmFWC
++ _$s10OmniSearch13PreferredTypeO5photoyA2CmFWC
++ _$s10OmniSearch13PreferredTypeO5videoyA2CmFWC
++ _$s10OmniSearch13PreferredTypeO6artistyA2CmFWC
++ _$s10OmniSearch13PreferredTypeO6flightyA2CmFWC
++ _$s10OmniSearch13PreferredTypeO6memoryyA2CmFWC
++ _$s10OmniSearch13PreferredTypeO6safariyA2CmFWC
++ _$s10OmniSearch13PreferredTypeO6walletyA2CmFWC
++ _$s10OmniSearch13PreferredTypeO7addressyA2CmFWC
++ _$s10OmniSearch13PreferredTypeO7contactyA2CmFWC
++ _$s10OmniSearch13PreferredTypeO7journalyA2CmFWC
++ _$s10OmniSearch13PreferredTypeO7keynoteyA2CmFWC
++ _$s10OmniSearch13PreferredTypeO7messageyA2CmFWC
++ _$s10OmniSearch13PreferredTypeO7podcastyA2CmFWC
++ _$s10OmniSearch13PreferredTypeO7websiteyA2CmFWC
++ _$s10OmniSearch13PreferredTypeO8allCasesSayACGvgZ
++ _$s10OmniSearch13PreferredTypeO8allCasesSayACGvpZMV
++ _$s10OmniSearch13PreferredTypeO8freeformyA2CmFWC
++ _$s10OmniSearch13PreferredTypeO8playlistyA2CmFWC
++ _$s10OmniSearch13PreferredTypeO8rawValueACSgSS_tcfC
++ _$s10OmniSearch13PreferredTypeO8rawValueSSvg
++ _$s10OmniSearch13PreferredTypeO8rawValueSSvpMV
++ _$s10OmniSearch13PreferredTypeO8reminderyA2CmFWC
++ _$s10OmniSearch13PreferredTypeO9pagesFileyA2CmFWC
++ _$s10OmniSearch13PreferredTypeO9rentalCaryA2CmFWC
++ _$s10OmniSearch13PreferredTypeO9voiceMemoyA2CmFWC
++ _$s10OmniSearch13PreferredTypeO9voicemailyA2CmFWC
++ _$s10OmniSearch13PreferredTypeOMa
++ _$s10OmniSearch13PreferredTypeOMn
++ _$s10OmniSearch13PreferredTypeON
++ _$s10OmniSearch13PreferredTypeOSEAAMc
++ _$s10OmniSearch13PreferredTypeOSHAAMc
++ _$s10OmniSearch13PreferredTypeOSQAAMc
++ _$s10OmniSearch13PreferredTypeOSYAAMc
++ _$s10OmniSearch13PreferredTypeOSeAAMc
++ _$s10OmniSearch13PreferredTypeOs12CaseIterableAAMc
++ _$s10OmniSearch13StackableGridO9separatorSSvpZMV
++ _$s10OmniSearch14AnswerResolverC7resolve16extractedResults7optionsSayAA0B6ResultVGSayAA13ExtractedInfoVG_AA0aB7OptionsVtYaF
++ _$s10OmniSearch14AnswerResolverC7resolve16extractedResults7optionsSayAA0B6ResultVGSayAA13ExtractedInfoVG_AA0aB7OptionsVtYaFTj
++ _$s10OmniSearch14AnswerResolverC7resolve16extractedResults7optionsSayAA0B6ResultVGSayAA13ExtractedInfoVG_AA0aB7OptionsVtYaFTjTu
++ _$s10OmniSearch14AnswerResolverC7resolve16extractedResults7optionsSayAA0B6ResultVGSayAA13ExtractedInfoVG_AA0aB7OptionsVtYaFTq
++ _$s10OmniSearch14AnswerResolverC7resolve16extractedResults7optionsSayAA0B6ResultVGSayAA13ExtractedInfoVG_AA0aB7OptionsVtYaFTu
++ _$s10OmniSearch14ContextManagerC06searchC0AA0bC0VSgvM
++ _$s10OmniSearch14ContextManagerC06searchC0AA0bC0VSgvMTj
++ _$s10OmniSearch14ContextManagerC06searchC0AA0bC0VSgvMTq
++ _$s10OmniSearch14ContextManagerC06searchC0AA0bC0VSgvg
++ _$s10OmniSearch14ContextManagerC06searchC0AA0bC0VSgvgTj
++ _$s10OmniSearch14ContextManagerC06searchC0AA0bC0VSgvgTq
++ _$s10OmniSearch14ContextManagerC06searchC0AA0bC0VSgvpMV
++ _$s10OmniSearch14ContextManagerC06searchC0AA0bC0VSgvpWvd
++ _$s10OmniSearch14ContextManagerC06searchC0AA0bC0VSgvs
++ _$s10OmniSearch14ContextManagerC06searchC0AA0bC0VSgvsTj
++ _$s10OmniSearch14ContextManagerC06searchC0AA0bC0VSgvsTq
++ _$s10OmniSearch14ContextManagerC3set06searchC0yAA0bC0VSg_tF
++ _$s10OmniSearch14ContextManagerC3set06searchC0yAA0bC0VSg_tFTj
++ _$s10OmniSearch14ContextManagerC3set06searchC0yAA0bC0VSg_tFTq
++ _$s10OmniSearch14ContextManagerC5clearyyF
++ _$s10OmniSearch14ContextManagerC5clearyyFTj
++ _$s10OmniSearch14ContextManagerC5clearyyFTq
++ _$s10OmniSearch14ContextManagerC6sharedACvau
++ _$s10OmniSearch14ContextManagerC6sharedACvgZ
++ _$s10OmniSearch14ContextManagerC6sharedACvpZ
++ _$s10OmniSearch14ContextManagerC6sharedACvpZMV
++ _$s10OmniSearch14ContextManagerCACyc33_C7666D93A10D71D3DC444254962AFE65LlfC
++ _$s10OmniSearch14ContextManagerCMa
++ _$s10OmniSearch14ContextManagerCMm
++ _$s10OmniSearch14ContextManagerCMn
++ _$s10OmniSearch14ContextManagerCMo
++ _$s10OmniSearch14ContextManagerCMu
++ _$s10OmniSearch14ContextManagerCN
++ _$s10OmniSearch14ContextManagerCfD
++ _$s10OmniSearch14ContextManagerCfd
++ _$s10OmniSearch14LLMQueryParserC5parse_8clientIdAA18LLMQUModelResponseVSS_SStYaKFTj
++ _$s10OmniSearch14LLMQueryParserC5parse_8clientIdAA18LLMQUModelResponseVSS_SStYaKFTjTu
++ _$s10OmniSearch14LLMQueryParserC5parse_8clientIdAA18LLMQUModelResponseVSS_SStYaKFTq
++ _$s10OmniSearch14LLMQueryParserC6sharedACvpZMV
++ _$s10OmniSearch14ResultHydratorC027fetchFullContentForMessagesC13AndIdentifier_07messageK0AA13MessageRecord_pSgAA0bC0V_AA0mK0_ptYaKFTj
++ _$s10OmniSearch14ResultHydratorC027fetchFullContentForMessagesC13AndIdentifier_07messageK0AA13MessageRecord_pSgAA0bC0V_AA0mK0_ptYaKFTjTu
++ _$s10OmniSearch14ResultHydratorC027fetchFullContentForMessagesC13AndIdentifier_07messageK0AA13MessageRecord_pSgAA0bC0V_AA0mK0_ptYaKFTq
++ _$s10OmniSearch14ResultHydratorC15calendarManagerAA08CalendarF0VvMTj
++ _$s10OmniSearch14ResultHydratorC15calendarManagerAA08CalendarF0VvMTq
++ _$s10OmniSearch14ResultHydratorC15calendarManagerAA08CalendarF0VvgTj
++ _$s10OmniSearch14ResultHydratorC15calendarManagerAA08CalendarF0VvgTq
++ _$s10OmniSearch14ResultHydratorC15calendarManagerAA08CalendarF0VvpMV
++ _$s10OmniSearch14ResultHydratorC15calendarManagerAA08CalendarF0VvsTj
++ _$s10OmniSearch14ResultHydratorC15calendarManagerAA08CalendarF0VvsTq
++ _$s10OmniSearch14ResultHydratorC16fetchFullContent3for6localeSayAA0bC0VGAI_SSSgtYaKFTj
++ _$s10OmniSearch14ResultHydratorC16fetchFullContent3for6localeSayAA0bC0VGAI_SSSgtYaKFTjTu
++ _$s10OmniSearch14ResultHydratorC16fetchFullContent3for6localeSayAA0bC0VGAI_SSSgtYaKFTq
++ _$s10OmniSearch14ResultHydratorC18hydrationFunctionsSDyAA0bC3KeyOSayAA0bC0VGAI_SSSgtYaKcGvMTj
++ _$s10OmniSearch14ResultHydratorC18hydrationFunctionsSDyAA0bC3KeyOSayAA0bC0VGAI_SSSgtYaKcGvMTq
++ _$s10OmniSearch14ResultHydratorC18hydrationFunctionsSDyAA0bC3KeyOSayAA0bC0VGAI_SSSgtYaKcGvgTj
++ _$s10OmniSearch14ResultHydratorC18hydrationFunctionsSDyAA0bC3KeyOSayAA0bC0VGAI_SSSgtYaKcGvgTq
++ _$s10OmniSearch14ResultHydratorC18hydrationFunctionsSDyAA0bC3KeyOSayAA0bC0VGAI_SSSgtYaKcGvpMV
++ _$s10OmniSearch14ResultHydratorC18hydrationFunctionsSDyAA0bC3KeyOSayAA0bC0VGAI_SSSgtYaKcGvsTj
++ _$s10OmniSearch14ResultHydratorC18hydrationFunctionsSDyAA0bC3KeyOSayAA0bC0VGAI_SSSgtYaKcGvsTq
++ _$s10OmniSearch14ResultHydratorC31isValideHydrationFunctionByType09hydrationH0SbSayAA0bC0VGAH_SSSgtYaKcSg_tFTj
++ _$s10OmniSearch14ResultHydratorC31isValideHydrationFunctionByType09hydrationH0SbSayAA0bC0VGAH_SSSgtYaKcSg_tFTq
++ _$s10OmniSearch14SourceDocumentV25typeDisplayRepresentation10AppIntents04TypefG0VvpZMV
++ _$s10OmniSearch15AppEntityStatusO25typeDisplayRepresentation0C7Intents04TypegH0VvpZMV
++ _$s10OmniSearch15AppEntityStatusO26caseDisplayRepresentationsSDyAC0C7Intents0G14RepresentationVGvpZMV
++ _$s10OmniSearch15AppEntityStatusO3dueyA2CmFWC
++ _$s10OmniSearch15AppEntityStatusO8allCasesSayACGvpZMV
++ _$s10OmniSearch15AppEntityStatusO9completedyA2CmFWC
++ _$s10OmniSearch15AppEntityStatusOSEAAMc
++ _$s10OmniSearch15AppEntityStatusOSeAAMc
++ _$s10OmniSearch15AppEntityTypeIdO5pagesSSvau
++ _$s10OmniSearch15AppEntityTypeIdO5pagesSSvgZ
++ _$s10OmniSearch15AppEntityTypeIdO5pagesSSvpZ
++ _$s10OmniSearch15AppEntityTypeIdO5pagesSSvpZMV
++ _$s10OmniSearch15AppEntityTypeIdO7keynoteSSvau
++ _$s10OmniSearch15AppEntityTypeIdO7keynoteSSvgZ
++ _$s10OmniSearch15AppEntityTypeIdO7keynoteSSvpZ
++ _$s10OmniSearch15AppEntityTypeIdO7keynoteSSvpZMV
++ _$s10OmniSearch15AppEntityTypeIdO7numbersSSvau
++ _$s10OmniSearch15AppEntityTypeIdO7numbersSSvgZ
++ _$s10OmniSearch15AppEntityTypeIdO7numbersSSvpZ
++ _$s10OmniSearch15AppEntityTypeIdO7numbersSSvpZMV
++ _$s10OmniSearch15AppEntityTypeIdOMa
++ _$s10OmniSearch15AppEntityTypeIdOMn
++ _$s10OmniSearch15AppEntityTypeIdON
++ _$s10OmniSearch15CalendarManagerV10eventStoreACSo07EKEventF0C_tcfC
++ _$s10OmniSearch15CalendarManagerV10eventStoreACSo07EKEventF0C_tcfcfA_
++ _$s10OmniSearch15CalendarManagerV10eventStoreSo07EKEventF0Cvg
++ _$s10OmniSearch15CalendarManagerV10eventStoreSo07EKEventF0CvpMV
++ _$s10OmniSearch15CalendarManagerV21fetchEventsAndHydrate15calendarResultsSayAA0B6ResultVGAH_tF
++ _$s10OmniSearch15CalendarManagerVMa
++ _$s10OmniSearch15CalendarManagerVMn
++ _$s10OmniSearch15CalendarManagerVN
++ _$s10OmniSearch15EventSourceInfoV015isExtractedFromD0ySbSo16CSSearchableItemCF
++ _$s10OmniSearch15EventSourceInfoV11contentTypeSSvg
++ _$s10OmniSearch15EventSourceInfoV11contentTypeSSvpMV
++ _$s10OmniSearch15EventSourceInfoV11queryStringSSvg
++ _$s10OmniSearch15EventSourceInfoV11queryStringSSvpMV
++ _$s10OmniSearch15EventSourceInfoV13identifierKeySSvg
++ _$s10OmniSearch15EventSourceInfoV13identifierKeySSvpMV
++ _$s10OmniSearch15EventSourceInfoV15eventIdentifierSSvg
++ _$s10OmniSearch15EventSourceInfoV15eventIdentifierSSvpMV
++ _$s10OmniSearch15EventSourceInfoV4fromACSgSo16CSSearchableItemC_tcfC
++ _$s10OmniSearch15EventSourceInfoV8bundleIdSSvg
++ _$s10OmniSearch15EventSourceInfoV8bundleIdSSvpMV
++ _$s10OmniSearch15EventSourceInfoVMa
++ _$s10OmniSearch15EventSourceInfoVMn
++ _$s10OmniSearch15EventSourceInfoVN
++ _$s10OmniSearch15HydrationEntityV10AppIntents09TransienteD0AAMc
++ _$s10OmniSearch15HydrationEntityV10AppIntents0E5ValueAAMc
++ _$s10OmniSearch15HydrationEntityV10AppIntents0eD0AAMc
++ _$s10OmniSearch15HydrationEntityV10AppIntents12_IntentValueAAMc
++ _$s10OmniSearch15HydrationEntityV10AppIntents20DisplayRepresentableAAMc
++ _$s10OmniSearch15HydrationEntityV10AppIntents24PersistentlyIdentifiableAAMc
++ _$s10OmniSearch15HydrationEntityV10AppIntents24TypeDisplayRepresentableAAMc
++ _$s10OmniSearch15HydrationEntityV10AppIntents28InstanceDisplayRepresentableAAMc
++ _$s10OmniSearch15HydrationEntityV10Foundation40CustomLocalizedStringResourceConvertibleAAMc
++ _$s10OmniSearch15HydrationEntityV11stringValueSSSgvM
++ _$s10OmniSearch15HydrationEntityV11stringValueSSSgvg
++ _$s10OmniSearch15HydrationEntityV11stringValueSSSgvpMV
++ _$s10OmniSearch15HydrationEntityV11stringValueSSSgvs
++ _$s10OmniSearch15HydrationEntityV12$stringValue10AppIntents0D8PropertyCySSSgGvg
++ _$s10OmniSearch15HydrationEntityV12$stringValue10AppIntents0D8PropertyCySSSgGvpMV
++ _$s10OmniSearch15HydrationEntityV17searchAnswerValueAA0bfD0VSgvM
++ _$s10OmniSearch15HydrationEntityV17searchAnswerValueAA0bfD0VSgvg
++ _$s10OmniSearch15HydrationEntityV17searchAnswerValueAA0bfD0VSgvpMV
++ _$s10OmniSearch15HydrationEntityV17searchAnswerValueAA0bfD0VSgvs
++ _$s10OmniSearch15HydrationEntityV18$searchAnswerValue10AppIntents0D8PropertyCyAA0bfD0VSgGvg
++ _$s10OmniSearch15HydrationEntityV18$searchAnswerValue10AppIntents0D8PropertyCyAA0bfD0VSgGvpMV
++ _$s10OmniSearch15HydrationEntityV21displayRepresentation10AppIntents07DisplayF0VvM
++ _$s10OmniSearch15HydrationEntityV21displayRepresentation10AppIntents07DisplayF0Vvg
++ _$s10OmniSearch15HydrationEntityV21displayRepresentation10AppIntents07DisplayF0VvpMV
++ _$s10OmniSearch15HydrationEntityV21displayRepresentation10AppIntents07DisplayF0Vvs
++ _$s10OmniSearch15HydrationEntityV25typeDisplayRepresentation10AppIntents04TypefG0VvMZ
++ _$s10OmniSearch15HydrationEntityV25typeDisplayRepresentation10AppIntents04TypefG0VvgZ
++ _$s10OmniSearch15HydrationEntityV25typeDisplayRepresentation10AppIntents04TypefG0VvpZMV
++ _$s10OmniSearch15HydrationEntityV25typeDisplayRepresentation10AppIntents04TypefG0VvsZ
++ _$s10OmniSearch15HydrationEntityV2eeoiySbAC_ACtFZ
++ _$s10OmniSearch15HydrationEntityV4fromACs7Decoder_p_tKcfC
++ _$s10OmniSearch15HydrationEntityV4type17searchAnswerValue06stringH0AcA0cD4TypeO_AA0bgD0VSgSSSgtcfC
++ _$s10OmniSearch15HydrationEntityV4typeAA0cD4TypeOvM
++ _$s10OmniSearch15HydrationEntityV4typeAA0cD4TypeOvg
++ _$s10OmniSearch15HydrationEntityV4typeAA0cD4TypeOvpMV
++ _$s10OmniSearch15HydrationEntityV4typeAA0cD4TypeOvs
++ _$s10OmniSearch15HydrationEntityV5$type10AppIntents0D8PropertyCyAA0cD4TypeOGvg
++ _$s10OmniSearch15HydrationEntityV5$type10AppIntents0D8PropertyCyAA0cD4TypeOGvpMV
++ _$s10OmniSearch15HydrationEntityV5valueSSSgvg
++ _$s10OmniSearch15HydrationEntityV5valueSSSgvpMV
++ _$s10OmniSearch15HydrationEntityV6encode2toys7Encoder_p_tKF
++ _$s10OmniSearch15HydrationEntityVACycfC
++ _$s10OmniSearch15HydrationEntityVMa
++ _$s10OmniSearch15HydrationEntityVMn
++ _$s10OmniSearch15HydrationEntityVN
++ _$s10OmniSearch15HydrationEntityVSEAAMc
++ _$s10OmniSearch15HydrationEntityVSQAAMc
++ _$s10OmniSearch15HydrationEntityVSeAAMc
++ _$s10OmniSearch15HydrationEntityVs12IdentifiableAAMc
++ _$s10OmniSearch15LocalizedStringC09localizedD06forKey9argumentsS2S_s7CVarArg_pdtFZ
++ _$s10OmniSearch15LocalizedStringC09localizedD06forKeyS2S_tFZ
++ _$s10OmniSearch15LocalizedStringC16itemProviderData14typeIdentifierAC10Foundation0G0V_SStKcfC
++ _$s10OmniSearch15LocalizedStringC16itemProviderData14typeIdentifierAC10Foundation0G0V_SStKcfc
++ _$s10OmniSearch15LocalizedStringC5coderACSgSo7NSCoderC_tcfC
++ _$s10OmniSearch15LocalizedStringC5coderACSgSo7NSCoderC_tcfc
++ _$s10OmniSearch15LocalizedStringCACycfC
++ _$s10OmniSearch15LocalizedStringCACycfc
++ _$s10OmniSearch15LocalizedStringCMa
++ _$s10OmniSearch15LocalizedStringCMn
++ _$s10OmniSearch15LocalizedStringCMo
++ _$s10OmniSearch15LocalizedStringCN
++ _$s10OmniSearch15LocalizedStringCfD
++ _$s10OmniSearch15ResultHydrationP027fetchFullContentForMessagesC13AndIdentifier_07messageK0AA13MessageRecord_pSgAA0bC0V_AA0mK0_ptYaKFTj
++ _$s10OmniSearch15ResultHydrationP027fetchFullContentForMessagesC13AndIdentifier_07messageK0AA13MessageRecord_pSgAA0bC0V_AA0mK0_ptYaKFTjTu
++ _$s10OmniSearch15ResultHydrationP027fetchFullContentForMessagesC13AndIdentifier_07messageK0AA13MessageRecord_pSgAA0bC0V_AA0mK0_ptYaKFTq
++ _$s10OmniSearch15ResultHydrationP16fetchFullContent3for6localeSayAA0bC0VGAI_SSSgtYaKFTj
++ _$s10OmniSearch15ResultHydrationP16fetchFullContent3for6localeSayAA0bC0VGAI_SSSgtYaKFTjTu
++ _$s10OmniSearch15ResultHydrationP16fetchFullContent3for6localeSayAA0bC0VGAI_SSSgtYaKFTq
++ _$s10OmniSearch15SpotlightResultV03ecrD0SDyS2SGvM
++ _$s10OmniSearch15SpotlightResultV03ecrD0SDyS2SGvg
++ _$s10OmniSearch15SpotlightResultV03ecrD0SDyS2SGvpMV
++ _$s10OmniSearch15SpotlightResultV03ecrD0SDyS2SGvs
++ _$s10OmniSearch15SpotlightResultV8sections03ecrD0ACSaySo15SFResultSectionCG_SDyS2SGtcfC
++ _$s10OmniSearch15SpotlightResultV8sectionsSaySo15SFResultSectionCGvM
++ _$s10OmniSearch15SpotlightResultV8sectionsSaySo15SFResultSectionCGvg
++ _$s10OmniSearch15SpotlightResultV8sectionsSaySo15SFResultSectionCGvpMV
++ _$s10OmniSearch15SpotlightResultV8sectionsSaySo15SFResultSectionCGvs
++ _$s10OmniSearch15SpotlightResultVMa
++ _$s10OmniSearch15SpotlightResultVMn
++ _$s10OmniSearch15SpotlightResultVN
++ _$s10OmniSearch16AnswerResolvableP7resolve16extractedResults7optionsSayAA0B6ResultVGSayAA13ExtractedInfoVG_AA0aB7OptionsVtYaFTj
++ _$s10OmniSearch16AnswerResolvableP7resolve16extractedResults7optionsSayAA0B6ResultVGSayAA13ExtractedInfoVG_AA0aB7OptionsVtYaFTjTu
++ _$s10OmniSearch16AnswerResolvableP7resolve16extractedResults7optionsSayAA0B6ResultVGSayAA13ExtractedInfoVG_AA0aB7OptionsVtYaFTq
++ _$s10OmniSearch16AnswerResolvablePAAE7resolve5query7options7results15assistantLocaleSayAA0B6ResultVGAA9UserQueryV_AA0aB7OptionsVAKSSSgtYaKF
++ _$s10OmniSearch16AnswerResolvablePAAE7resolve5query7options7results15assistantLocaleSayAA0B6ResultVGAA9UserQueryV_AA0aB7OptionsVAKSSSgtYaKFTu
++ _$s10OmniSearch16DialogExperienceC10bundleNameSSvpZMV
++ _$s10OmniSearch16HotelReservationV22eventMessageIdentifierSSSgvg
++ _$s10OmniSearch16HotelReservationV22eventMessageIdentifierSSSgvpMV
++ _$s10OmniSearch16HotelReservationV24llmConsumableDescription6localeS2SSg_tF
++ _$s10OmniSearch16HotelReservationV2id13timeIsUnknown05hotelD2Id0I9UnderName0I21CheckinDateComponents0i8CheckoutnO00id3ForL00i6ModifyD3Url0idQ9Telephone0idQ7Address0I15BookingProvider0I13CustomerNames0I11RoomNumbers0I13NumberOfRooms0I8Duration0I4Cost0I6Status16answerAttributes06bundleJ0011mailMessageJ022eventMessageIdentifier27eventSourceBundleIdentifier35eventSourceLLMConsumableDescriptionACSS_SbSSSgA_10Foundation0nO0VSgA3_A_A_A_A_A_SaySSGA4_SiSgSdSgA_A_A4_SSA_A_A_A_tcfC
++ _$s10OmniSearch16HotelReservationV2id7answers16answerAttributes8bundleId011mailMessageJ005eventL10Identifier0m12SourceBundleN00mO24LLMConsumableDescription13timeIsUnknown05hoteldJ00V9UnderName0V21CheckinDateComponents0v8CheckoutZ10Components0vd3ForX00v6ModifyD3Url0vD12ForTelephone0vD10ForAddress0V15BookingProvider0V13CustomerNames0V11RoomNumbers0V13NumberOfRooms0V8Duration0V4Cost0V6Status0vyZ6String0v8CheckoutZ6String14durationInDaysACSS_SDyS2SGSaySSGS2SSgA5_A5_A5_SbA5_A5_10Foundation0Z10ComponentsVSgA9_A5_A5_A5_A5_A5_A4_A4_SiSgSdSgA5_A5_A5_A5_A10_tcfC
++ _$s10OmniSearch16HydrationContextV10AppIntents09TransientE6EntityAAMc
++ _$s10OmniSearch16HydrationContextV10AppIntents0E5ValueAAMc
++ _$s10OmniSearch16HydrationContextV10AppIntents0E6EntityAAMc
++ _$s10OmniSearch16HydrationContextV10AppIntents12_IntentValueAAMc
++ _$s10OmniSearch16HydrationContextV10AppIntents20DisplayRepresentableAAMc
++ _$s10OmniSearch16HydrationContextV10AppIntents24PersistentlyIdentifiableAAMc
++ _$s10OmniSearch16HydrationContextV10AppIntents24TypeDisplayRepresentableAAMc
++ _$s10OmniSearch16HydrationContextV10AppIntents28InstanceDisplayRepresentableAAMc
++ _$s10OmniSearch16HydrationContextV10Foundation40CustomLocalizedStringResourceConvertibleAAMc
++ _$s10OmniSearch16HydrationContextV21displayRepresentation10AppIntents07DisplayF0VvM
++ _$s10OmniSearch16HydrationContextV21displayRepresentation10AppIntents07DisplayF0Vvg
++ _$s10OmniSearch16HydrationContextV21displayRepresentation10AppIntents07DisplayF0VvpMV
++ _$s10OmniSearch16HydrationContextV21displayRepresentation10AppIntents07DisplayF0Vvs
++ _$s10OmniSearch16HydrationContextV25typeDisplayRepresentation10AppIntents04TypefG0VvMZ
++ _$s10OmniSearch16HydrationContextV25typeDisplayRepresentation10AppIntents04TypefG0VvgZ
++ _$s10OmniSearch16HydrationContextV25typeDisplayRepresentation10AppIntents04TypefG0VvpZMV
++ _$s10OmniSearch16HydrationContextV25typeDisplayRepresentation10AppIntents04TypefG0VvsZ
++ _$s10OmniSearch16HydrationContextV2eeoiySbAC_ACtFZ
++ _$s10OmniSearch16HydrationContextV3app10AppIntents17IntentApplicationVSgvM
++ _$s10OmniSearch16HydrationContextV3app10AppIntents17IntentApplicationVSgvg
++ _$s10OmniSearch16HydrationContextV3app10AppIntents17IntentApplicationVSgvpMV
++ _$s10OmniSearch16HydrationContextV3app10AppIntents17IntentApplicationVSgvs
++ _$s10OmniSearch16HydrationContextV4$app10AppIntents14EntityPropertyCyAE17IntentApplicationVSgGvg
++ _$s10OmniSearch16HydrationContextV4$app10AppIntents14EntityPropertyCyAE17IntentApplicationVSgGvpMV
++ _$s10OmniSearch16HydrationContextV4fromACs7Decoder_p_tKcfC
++ _$s10OmniSearch16HydrationContextV6encode2toys7Encoder_p_tKF
++ _$s10OmniSearch16HydrationContextV6entityAA0C6EntityVSgvM
++ _$s10OmniSearch16HydrationContextV6entityAA0C6EntityVSgvg
++ _$s10OmniSearch16HydrationContextV6entityAA0C6EntityVSgvpMV
++ _$s10OmniSearch16HydrationContextV6entityAA0C6EntityVSgvs
++ _$s10OmniSearch16HydrationContextV7$entity10AppIntents14EntityPropertyCyAA0cH0VSgGvg
++ _$s10OmniSearch16HydrationContextV7$entity10AppIntents14EntityPropertyCyAA0cH0VSgGvpMV
++ _$s10OmniSearch16HydrationContextVACycfC
++ _$s10OmniSearch16HydrationContextVMa
++ _$s10OmniSearch16HydrationContextVMn
++ _$s10OmniSearch16HydrationContextVN
++ _$s10OmniSearch16HydrationContextVSEAAMc
++ _$s10OmniSearch16HydrationContextVSQAAMc
++ _$s10OmniSearch16HydrationContextVSeAAMc
++ _$s10OmniSearch16HydrationContextVs12IdentifiableAAMc
++ _$s10OmniSearch16LLMQUModelServerC13userPromptKeySSvpZMV
++ _$s10OmniSearch16LLMQUModelServerC16promptTemplateIDSSvpZMV
++ _$s10OmniSearch16LLMQUModelServerC22fallbackPromptTemplates12StaticStringVvpZMV
++ _$s10OmniSearch16LocalIndexClientC01kcdE20DefaultTargetMatchesSivpZMV
++ _$s10OmniSearch16LocalIndexClientC025searchableItemsAndRankingG03forSaySo16CSSearchableItemC4item_AA09SpotlightiL0V09spotlightiL0tGSaySo015SFSearchResult_N6ExtrasCG_tYaFZ
++ _$s10OmniSearch16LocalIndexClientC025searchableItemsAndRankingG03forSaySo16CSSearchableItemC4item_AA09SpotlightiL0V09spotlightiL0tGSaySo015SFSearchResult_N6ExtrasCG_tYaFZTu
++ _$s10OmniSearch16LocalIndexClientC11findMatches3for12maxItemCount9spQUParse12allowedTypes6localeAA0B13ServiceResultVSS_SiSo9SPQUParseCSgSayAA0B20EntityTypeIdentifierVGSSSgtYaKF
++ _$s10OmniSearch16LocalIndexClientC11findMatches3for12maxItemCount9spQUParse12allowedTypes6localeAA0B13ServiceResultVSS_SiSo9SPQUParseCSgSayAA0B20EntityTypeIdentifierVGSSSgtYaKFTu
++ _$s10OmniSearch16LocalIndexClientC11findMatches3for12maxItemCount9spQUParse12allowedTypes6localeAA0B13ServiceResultVSS_SiSo9SPQUParseCSgSayAA0B20EntityTypeIdentifierVGSSSgtYaKFfA0_
++ _$s10OmniSearch16LocalIndexClientC11findMatches3for12maxItemCount9spQUParse12allowedTypes6localeAA0B13ServiceResultVSS_SiSo9SPQUParseCSgSayAA0B20EntityTypeIdentifierVGSSSgtYaKFfA2_
++ _$s10OmniSearch16LocalIndexClientC13filterQueries3forSSSayAA0B20EntityTypeIdentifierVG_tFZ
++ _$s10OmniSearch16LocalIndexClientC14walletDocument4from20spotlightRankingItemAA0B6ResultVSgSo012CSSearchableK0C_AA09SpotlightjK0VSgtFZ
++ _$s10OmniSearch16LocalIndexClientC15fetchAttributesSaySSGvpZMV
++ _$s10OmniSearch16LocalIndexClientC20iWorkBundleIdForFile4itemSSSgSo16CSSearchableItemC_tFZ
++ _$s10OmniSearch16LocalIndexClientC20searchResultFromItem_016spotlightRankingI019eventSourceItemsMap12allowedTypes6localeAA0bG0VSgSo012CSSearchableI0C_AA09SpotlightkI0VSDySSSayAMGGSayAA0B20EntityTypeIdentifierVGSSSgtFZ
++ _$s10OmniSearch16LocalIndexClientC23getSpotlightRankingItem3for12attributeSetAA0ghI0VSo015SFSearchResult_G6ExtrasC_So012CSSearchablei9AttributeL0CtFZ
++ _$s10OmniSearch16LocalIndexClientC25keyAttributePhoneCallTypeSSvpZMV
++ _$s10OmniSearch16LocalIndexClientC26keyAttributeAppEntityTitleSSvau
++ _$s10OmniSearch16LocalIndexClientC26keyAttributeAppEntityTitleSSvgZ
++ _$s10OmniSearch16LocalIndexClientC26keyAttributeAppEntityTitleSSvpZ
++ _$s10OmniSearch16LocalIndexClientC26keyAttributeAppEntityTitleSSvpZMV
++ _$s10OmniSearch16LocalIndexClientC27keyAttributePhoneCallStatusSSvpZMV
++ _$s10OmniSearch16LocalIndexClientC31keyAttributeMailMessageIdHeaderSSvpZMV
++ _$s10OmniSearch16LocalIndexClientC31keyAttributeResultRetrievalTypeSSvpZMV
++ _$s10OmniSearch16LocalIndexClientC35keyAttributeAppEntityTypeIdentifierSSvau
++ _$s10OmniSearch16LocalIndexClientC35keyAttributeAppEntityTypeIdentifierSSvgZ
++ _$s10OmniSearch16LocalIndexClientC35keyAttributeAppEntityTypeIdentifierSSvpZ
++ _$s10OmniSearch16LocalIndexClientC35keyAttributeAppEntityTypeIdentifierSSvpZMV
++ _$s10OmniSearch16LocalIndexClientC36keyAttributePersonalAnswerAttributesSSvpZMV
++ _$s10OmniSearch16LocalIndexClientC36keyAttributeResultEmbeddingDistancesSSvpZMV
++ _$s10OmniSearch16LocalIndexClientC39keyAttributeAppEntityInstanceIdentifierSSvau
++ _$s10OmniSearch16LocalIndexClientC39keyAttributeAppEntityInstanceIdentifierSSvgZ
++ _$s10OmniSearch16LocalIndexClientC39keyAttributeAppEntityInstanceIdentifierSSvpZ
++ _$s10OmniSearch16LocalIndexClientC39keyAttributeAppEntityInstanceIdentifierSSvpZMV
++ _$s10OmniSearch16LocalIndexClientC50keyAttributeAppEntityTypeDisplayRepresentationNameSSvau
++ _$s10OmniSearch16LocalIndexClientC50keyAttributeAppEntityTypeDisplayRepresentationNameSSvgZ
++ _$s10OmniSearch16LocalIndexClientC50keyAttributeAppEntityTypeDisplayRepresentationNameSSvpZ
++ _$s10OmniSearch16LocalIndexClientC50keyAttributeAppEntityTypeDisplayRepresentationNameSSvpZMV
++ _$s10OmniSearch16LocalIndexClientC6search16spotlightRequest6localeAA0B13ServiceResultVAA09SpotlightdH0V_SSSgtYaKF
++ _$s10OmniSearch16LocalIndexClientC6search16spotlightRequest6localeAA0B13ServiceResultVAA09SpotlightdH0V_SSSgtYaKFTu
++ _$s10OmniSearch16LocalIndexClientC7prewarmyyYaF
++ _$s10OmniSearch16LocalIndexClientC7prewarmyyYaFTu
++ _$s10OmniSearch16PreExtractedCardV15cardGroupNumberSSSgvg
++ _$s10OmniSearch16PreExtractedCardV15cardGroupNumberSSSgvpMV
++ _$s10OmniSearch16PreExtractedCardV24llmConsumableDescription6localeS2SSg_tF
++ _$s10OmniSearch16decodeECRMapping4fromSDyS2SGSaySo19SPECRGroundedPersonCG_tF
++ _$s10OmniSearch17ChatMessageRecordPAAE11descriptionSSvg
++ _$s10OmniSearch17ChatMessageRecordPAAE11descriptionSSvpMV
++ _$s10OmniSearch17ChatMessageRecordPs23CustomStringConvertibleTb
++ _$s10OmniSearch17ContactHandleTypeO25typeDisplayRepresentation10AppIntents0egH0VvpZMV
++ _$s10OmniSearch17ContactHandleTypeO26caseDisplayRepresentationsSDyAC10AppIntents0G14RepresentationVGvpZMV
++ _$s10OmniSearch17ContactHandleTypeO8allCasesSayACGvpZMV
++ _$s10OmniSearch17ContactHandleTypeOSEAAMc
++ _$s10OmniSearch17ContactHandleTypeOSeAAMc
++ _$s10OmniSearch17ECRClientProtocolP24personNameAndIDsWithText_011allowPrefixB08perTokenSayAA0C12PersonResultVGSS_S2btYaKFTj
++ _$s10OmniSearch17ECRClientProtocolP24personNameAndIDsWithText_011allowPrefixB08perTokenSayAA0C12PersonResultVGSS_S2btYaKFTjTu
++ _$s10OmniSearch17ECRClientProtocolP24personNameAndIDsWithText_011allowPrefixB08perTokenSayAA0C12PersonResultVGSS_S2btYaKFTq
++ _$s10OmniSearch17ECRClientProtocolP6person5named11phoneNumber5emailSayAA0C12PersonResultVGSSSg_A2KtYaKFTj
++ _$s10OmniSearch17ECRClientProtocolP6person5named11phoneNumber5emailSayAA0C12PersonResultVGSSSg_A2KtYaKFTjTu
++ _$s10OmniSearch17ECRClientProtocolP6person5named11phoneNumber5emailSayAA0C12PersonResultVGSSSg_A2KtYaKFTq
++ _$s10OmniSearch17EvalInfoProvidingMp
++ _$s10OmniSearch17EvalInfoProvidingP04evalD0SaySE_pGvgTj
++ _$s10OmniSearch17EvalInfoProvidingP04evalD0SaySE_pGvgTq
++ _$s10OmniSearch17EvalInfoProvidingTL
++ _$s10OmniSearch17FlightReservationV20destinationForDialogSSSgvg
++ _$s10OmniSearch17FlightReservationV20destinationForDialogSSSgvpMV
++ _$s10OmniSearch17FlightReservationV22eventMessageIdentifierSSSgvg
++ _$s10OmniSearch17FlightReservationV22eventMessageIdentifierSSSgvpMV
++ _$s10OmniSearch17FlightReservationV24llmConsumableDescription6localeS2SSg_tF
++ _$s10OmniSearch17FlightReservationV2id13timeIsUnknown12flightNumber0I10CheckInUrl0i11BookingInfoM00I7Carrier0iP4Code0I10Designator0I23DepartureDateComponents0i7ArrivaltU00iV14AirportAddress0iswX00ivwQ00iswQ00ivW7Country0iswY00ivW8Locality0iswZ00ivW4Name0isW4Name0ivW6Region0isW6Region0i12ConfirmationJ00I14PassengerNames0I20PassengerSeatNumbers0iV8Terminal0iS8Terminal0iN8Provider0i12BoardingTimeT00iS4Gate0iV4Gate0I8Duration0I12CostCurrency0I10CostAmount0I6Status16answerAttributes8bundleId13mailMessageId22eventMessageIdentifier27eventSourceBundleIdentifier35eventSourceLLMConsumableDescriptionACSS_SbSSSg10Foundation3URLVSgA21_A17_A17_A17_A18_0tU0VA23_A17_A17_A17_A17_A17_A17_A17_A17_A17_A17_A17_A17_A17_SaySSGA24_A17_A17_A17_A18_0T0VSgA17_A17_SdSgA17_So9NSDecimalaSgA17_A24_SSA17_A17_A17_A17_tcfC
++ _$s10OmniSearch17MobileSMSDocumentV24llmConsumableDescription6localeS2SSg_tF
++ _$s10OmniSearch17MobileSMSDocumentV2id6chatId11displayName4body4from2to4date10contentURL16photoAttachments07serviceI00fI00F12Participants0F8Messages19dataDetectorResults39extractedEventsLLMConsumableDescription26partialExtractedAttributes6csItem18featureFlagServiceACSS_SSSgA2VSaySSGAW10Foundation4DateVSgAX0O0VSgSayAA5PhotoVGA2vWSayACGAA04DatavW0VSgAvA26PartialExtractedAttributesVSgSo16CSSearchableItemCSgAA18FeatureFlagServiceCtcfC
++ _$s10OmniSearch17MobileSMSDocumentV2id6chatId11displayName4body4from2to4date10contentURL16photoAttachments07serviceI00fI00F12Participants0F8Messages19dataDetectorResults39extractedEventsLLMConsumableDescription26partialExtractedAttributes6csItem18featureFlagServiceACSS_SSSgA2VSaySSGAW10Foundation4DateVSgAX0O0VSgSayAA5PhotoVGA2vWSayACGAA04DatavW0VSgAvA26PartialExtractedAttributesVSgSo16CSSearchableItemCSgAA18FeatureFlagServiceCtcfcfA10_
++ _$s10OmniSearch17MobileSMSDocumentV2id6chatId11displayName4body4from2to4date10contentURL16photoAttachments07serviceI00fI00F12Participants0F8Messages19dataDetectorResults39extractedEventsLLMConsumableDescription26partialExtractedAttributes6csItem18featureFlagServiceACSS_SSSgA2VSaySSGAW10Foundation4DateVSgAX0O0VSgSayAA5PhotoVGA2vWSayACGAA04DatavW0VSgAvA26PartialExtractedAttributesVSgSo16CSSearchableItemCSgAA18FeatureFlagServiceCtcfcfA11_
++ _$s10OmniSearch17MobileSMSDocumentV2id6chatId11displayName4body4from2to4date10contentURL16photoAttachments07serviceI00fI00F12Participants0F8Messages19dataDetectorResults39extractedEventsLLMConsumableDescription26partialExtractedAttributes6csItem18featureFlagServiceACSS_SSSgA2VSaySSGAW10Foundation4DateVSgAX0O0VSgSayAA5PhotoVGA2vWSayACGAA04DatavW0VSgAvA26PartialExtractedAttributesVSgSo16CSSearchableItemCSgAA18FeatureFlagServiceCtcfcfA16_
++ _$s10OmniSearch17MobileSMSDocumentV2id6chatId11displayName4body4from2to4date10contentURL16photoAttachments07serviceI00fI00F12Participants0F8Messages19dataDetectorResults39extractedEventsLLMConsumableDescription26partialExtractedAttributes6csItem18featureFlagServiceACSS_SSSgA2VSaySSGAW10Foundation4DateVSgAX0O0VSgSayAA5PhotoVGA2vWSayACGAA04DatavW0VSgAvA26PartialExtractedAttributesVSgSo16CSSearchableItemCSgAA18FeatureFlagServiceCtcfcfA7_
++ _$s10OmniSearch17PersonQueryEntityV11unspecifiedAcA0C0V_tcfC
++ _$s10OmniSearch17PersonQueryEntityV25typeDisplayRepresentation10AppIntents04TypegH0VvpZMV
++ _$s10OmniSearch17PersonQueryEntityV4fromACs7Decoder_p_tKcfC
++ _$s10OmniSearch17PersonQueryEntityV6encode2toys7Encoder_p_tKF
++ _$s10OmniSearch17PersonQueryEntityV6senderAcA0C0V_tcfC
++ _$s10OmniSearch17PersonQueryEntityV7anyRoleAA0C0VSgvg
++ _$s10OmniSearch17PersonQueryEntityV7anyRoleAA0C0VSgvpMV
++ _$s10OmniSearch17PersonQueryEntityV7oneselfAA0C0VSgvM
++ _$s10OmniSearch17PersonQueryEntityV7oneselfAA0C0VSgvg
++ _$s10OmniSearch17PersonQueryEntityV7oneselfAA0C0VSgvpMV
++ _$s10OmniSearch17PersonQueryEntityV7oneselfAA0C0VSgvs
++ _$s10OmniSearch17PersonQueryEntityV8$oneself10AppIntents0E8PropertyCyAA0C0VSgGvg
++ _$s10OmniSearch17PersonQueryEntityV8$oneself10AppIntents0E8PropertyCyAA0C0VSgGvpMV
++ _$s10OmniSearch17PersonQueryEntityV8receiverAcA0C0V_tcfC
++ _$s10OmniSearch17PersonQueryEntityVSEAAMc
++ _$s10OmniSearch17PersonQueryEntityVSeAAMc
++ _$s10OmniSearch17RGOverrideMatcherC08checkForC05query7resultsAA0C8ResponseVSgSS_SayAA0B6EntityVGtF
++ _$s10OmniSearch17RGOverrideMatcherC08checkForC05query7resultsAA0C8ResponseVSgSS_SayAA0B6EntityVGtFTj
++ _$s10OmniSearch17RGOverrideMatcherC08checkForC05query7resultsAA0C8ResponseVSgSS_SayAA0B6EntityVGtFTq
++ _$s10OmniSearch17RGOverrideMatcherC6localeACSS_tcfC
++ _$s10OmniSearch17RGOverrideMatcherC6localeACSS_tcfCTj
++ _$s10OmniSearch17RGOverrideMatcherC6localeACSS_tcfCTq
++ _$s10OmniSearch17RGOverrideMatcherC6localeACSS_tcfc
++ _$s10OmniSearch17RGOverrideMatcherC7matcherAA016ResponseOverrideD8Protocol_pSgvM
++ _$s10OmniSearch17RGOverrideMatcherC7matcherAA016ResponseOverrideD8Protocol_pSgvMTj
++ _$s10OmniSearch17RGOverrideMatcherC7matcherAA016ResponseOverrideD8Protocol_pSgvMTq
++ _$s10OmniSearch17RGOverrideMatcherC7matcherAA016ResponseOverrideD8Protocol_pSgvg
++ _$s10OmniSearch17RGOverrideMatcherC7matcherAA016ResponseOverrideD8Protocol_pSgvgTj
++ _$s10OmniSearch17RGOverrideMatcherC7matcherAA016ResponseOverrideD8Protocol_pSgvgTq
++ _$s10OmniSearch17RGOverrideMatcherC7matcherAA016ResponseOverrideD8Protocol_pSgvpMV
++ _$s10OmniSearch17RGOverrideMatcherC7matcherAA016ResponseOverrideD8Protocol_pSgvpWvd
++ _$s10OmniSearch17RGOverrideMatcherC7matcherAA016ResponseOverrideD8Protocol_pSgvs
++ _$s10OmniSearch17RGOverrideMatcherC7matcherAA016ResponseOverrideD8Protocol_pSgvsTj
++ _$s10OmniSearch17RGOverrideMatcherC7matcherAA016ResponseOverrideD8Protocol_pSgvsTq
++ _$s10OmniSearch17RGOverrideMatcherC7matcherAcA016ResponseOverrideD8Protocol_pSg_tcfC
++ _$s10OmniSearch17RGOverrideMatcherC7matcherAcA016ResponseOverrideD8Protocol_pSg_tcfCTj
++ _$s10OmniSearch17RGOverrideMatcherC7matcherAcA016ResponseOverrideD8Protocol_pSg_tcfCTq
++ _$s10OmniSearch17RGOverrideMatcherC7matcherAcA016ResponseOverrideD8Protocol_pSg_tcfc
++ _$s10OmniSearch17RGOverrideMatcherCMa
++ _$s10OmniSearch17RGOverrideMatcherCMm
++ _$s10OmniSearch17RGOverrideMatcherCMn
++ _$s10OmniSearch17RGOverrideMatcherCMo
++ _$s10OmniSearch17RGOverrideMatcherCMu
++ _$s10OmniSearch17RGOverrideMatcherCN
++ _$s10OmniSearch17RGOverrideMatcherCfD
++ _$s10OmniSearch17RGOverrideMatcherCfd
++ _$s10OmniSearch17TemporalReferenceO25typeDisplayRepresentation10AppIntents04TypefG0VvpZMV
++ _$s10OmniSearch17TemporalReferenceO26caseDisplayRepresentationsSDyAC10AppIntents0F14RepresentationVGvpZMV
++ _$s10OmniSearch17TemporalReferenceO8allCasesSayACGvpZMV
++ _$s10OmniSearch17TemporalReferenceOSEAAMc
++ _$s10OmniSearch17TemporalReferenceOSeAAMc
++ _$s10OmniSearch17WalletTransactionV24llmConsumableDescription6localeS2SSg_tF
++ _$s10OmniSearch18BusinessCardEntityV11openCommand10AppIntents10IntentFileVSgvM
++ _$s10OmniSearch18BusinessCardEntityV11openCommand10AppIntents10IntentFileVSgvg
++ _$s10OmniSearch18BusinessCardEntityV11openCommand10AppIntents10IntentFileVSgvpMV
++ _$s10OmniSearch18BusinessCardEntityV11openCommand10AppIntents10IntentFileVSgvs
++ _$s10OmniSearch18BusinessCardEntityV12$openCommand10AppIntents0E8PropertyCyAE10IntentFileVSgGvg
++ _$s10OmniSearch18BusinessCardEntityV12$openCommand10AppIntents0E8PropertyCyAE10IntentFileVSgGvpMV
++ _$s10OmniSearch18BusinessCardEntityV25typeDisplayRepresentation10AppIntents04TypegH0VvpZMV
++ _$s10OmniSearch18EntityCardBuildingP07cardForB7Results_7contextSo6SFCardCSgSayAA0B6ResultVG_AA0bC13VisualContextCtFZTj
++ _$s10OmniSearch18EntityCardBuildingP07cardForB7Results_7contextSo6SFCardCSgSayAA0B6ResultVG_AA0bC13VisualContextCtFZTq
++ _$s10OmniSearch18EntityCardBuildingP15cardForEntities_7contextSo6SFCardCSayAA0bC0VG_AA0bC13VisualContextCtFZTj
++ _$s10OmniSearch18EntityCardBuildingP15cardForEntities_7contextSo6SFCardCSayAA0bC0VG_AA0bC13VisualContextCtFZTq
++ _$s10OmniSearch18EntityCardBuildingPAAE07cardForB7Results_7contextSo6SFCardCSgSayAA0B6ResultVG_AA0bC13VisualContextCtFZ
++ _$s10OmniSearch18EntityCardBuildingPAAE07cardForB7Results_7contextSo6SFCardCSgSayAA0B6ResultVG_AA0bC13VisualContextCtFZfA0_
++ _$s10OmniSearch18EntityCardBuildingPAAE15cardForEntities_7contextSo6SFCardCSayAA0bC0VG_AA0bC13VisualContextCtFZ
++ _$s10OmniSearch18EntityCardBuildingPAAE15cardForEntities_7contextSo6SFCardCSayAA0bC0VG_AA0bC13VisualContextCtFZfA0_
++ _$s10OmniSearch18GenericEventEntityV11openCommand10AppIntents10IntentFileVSgvM
++ _$s10OmniSearch18GenericEventEntityV11openCommand10AppIntents10IntentFileVSgvg
++ _$s10OmniSearch18GenericEventEntityV11openCommand10AppIntents10IntentFileVSgvpMV
++ _$s10OmniSearch18GenericEventEntityV11openCommand10AppIntents10IntentFileVSgvs
++ _$s10OmniSearch18GenericEventEntityV12$openCommand10AppIntents0E8PropertyCyAE10IntentFileVSgGvg
++ _$s10OmniSearch18GenericEventEntityV12$openCommand10AppIntents0E8PropertyCyAE10IntentFileVSgGvpMV
++ _$s10OmniSearch18GenericEventEntityV25typeDisplayRepresentation10AppIntents04TypegH0VvpZMV
++ _$s10OmniSearch18HydratedEntityTypeO25typeDisplayRepresentation10AppIntents0egH0VvpZMV
++ _$s10OmniSearch18HydratedEntityTypeO26caseDisplayRepresentationsSDyAC10AppIntents0G14RepresentationVGvpZMV
++ _$s10OmniSearch18HydratedEntityTypeO8allCasesSayACGvpZMV
++ _$s10OmniSearch18LLMQUModelResponseV6schema29GenerativeFunctionsFoundation6SchemaVvpZMV
++ _$s10OmniSearch18MessageBodyManagerV05dedupC4Dict_7basedOnSDySSAA04ChatC6Record_pGAG_SaySSGtFZ
++ _$s10OmniSearch18NoteContentManagerV011hydrateTextD04fromSayAA0B6ResultVGSgAH_tYaKFZ
++ _$s10OmniSearch18NoteContentManagerV011hydrateTextD04fromSayAA0B6ResultVGSgAH_tYaKFZTu
++ _$s10OmniSearch18NoteContentManagerV20targetTypeIdentifierSSvpZMV
++ _$s10OmniSearch18NoteContentManagerV31keyLNPropertyContentsIdentifierSSvpZMV
++ _$s10OmniSearch18OverrideExperienceO4load8rawValue10AppIntents10IntentFileVSgSS_tKFZ
++ _$s10OmniSearch18OverrideExperienceO8allCasesSayACGvpZMV
++ _$s10OmniSearch18OverrideExperienceO8rawValueACSgSS_tcfC
++ _$s10OmniSearch18PersonalCardEntityV10$issueDate10AppIntents0E8PropertyCy10Foundation0G0VSgGvg
++ _$s10OmniSearch18PersonalCardEntityV10$issueDate10AppIntents0E8PropertyCy10Foundation0G0VSgGvpMV
++ _$s10OmniSearch18PersonalCardEntityV11openCommand10AppIntents10IntentFileVSgvM
++ _$s10OmniSearch18PersonalCardEntityV11openCommand10AppIntents10IntentFileVSgvg
++ _$s10OmniSearch18PersonalCardEntityV11openCommand10AppIntents10IntentFileVSgvpMV
++ _$s10OmniSearch18PersonalCardEntityV11openCommand10AppIntents10IntentFileVSgvs
++ _$s10OmniSearch18PersonalCardEntityV12$openCommand10AppIntents0E8PropertyCyAE10IntentFileVSgGvg
++ _$s10OmniSearch18PersonalCardEntityV12$openCommand10AppIntents0E8PropertyCyAE10IntentFileVSgGvpMV
++ _$s10OmniSearch18PersonalCardEntityV25typeDisplayRepresentation10AppIntents04TypegH0VvpZMV
++ _$s10OmniSearch18PersonalCardEntityV8cardName06personG08idNumber0I4Type14memberIDNumber9issueDate15issuingBusiness0P6Region0P7Country010expirationO08birthday12placeOfBirth7address3sex6height8eyeColor6weight12licenseClass19licenseRestrictions0f3SubK0ACSSSg_A4X10Foundation0O0VSgA3XA0_A0_AXSo11CLPlacemarkCSgAA3SexOA6XtcfC
++ _$s10OmniSearch18PersonalCardEntityV9issueDate10Foundation0G0VSgvM
++ _$s10OmniSearch18PersonalCardEntityV9issueDate10Foundation0G0VSgvg
++ _$s10OmniSearch18PersonalCardEntityV9issueDate10Foundation0G0VSgvpMV
++ _$s10OmniSearch18PersonalCardEntityV9issueDate10Foundation0G0VSgvs
++ _$s10OmniSearch18RGOverrideResponseV10dialogData13fallbackToPCS15filteredResultsAcA06DialogF0VSg_SbSayAA0B6EntityVGtcfC
++ _$s10OmniSearch18RGOverrideResponseV10dialogDataAA06DialogF0VSgvg
++ _$s10OmniSearch18RGOverrideResponseV10dialogDataAA06DialogF0VSgvpMV
++ _$s10OmniSearch18RGOverrideResponseV13fallbackToPCSSbvg
++ _$s10OmniSearch18RGOverrideResponseV13fallbackToPCSSbvpMV
++ _$s10OmniSearch18RGOverrideResponseV15filteredResultsSayAA0B6EntityVGvg
++ _$s10OmniSearch18RGOverrideResponseV15filteredResultsSayAA0B6EntityVGvpMV
++ _$s10OmniSearch18RGOverrideResponseVMa
++ _$s10OmniSearch18RGOverrideResponseVMn
++ _$s10OmniSearch18RGOverrideResponseVN
++ _$s10OmniSearch18StackedGridsLayoutV03altE0SaySSGvpZMV
++ _$s10OmniSearch18StackedGridsLayoutV07defaultE0SaySSGvpZMV
++ _$s10OmniSearch18TicketedShowEntityV11openCommand10AppIntents10IntentFileVSgvM
++ _$s10OmniSearch18TicketedShowEntityV11openCommand10AppIntents10IntentFileVSgvg
++ _$s10OmniSearch18TicketedShowEntityV11openCommand10AppIntents10IntentFileVSgvpMV
++ _$s10OmniSearch18TicketedShowEntityV11openCommand10AppIntents10IntentFileVSgvs
++ _$s10OmniSearch18TicketedShowEntityV12$openCommand10AppIntents0E8PropertyCyAE10IntentFileVSgGvg
++ _$s10OmniSearch18TicketedShowEntityV12$openCommand10AppIntents0E8PropertyCyAE10IntentFileVSgGvpMV
++ _$s10OmniSearch18TicketedShowEntityV13reservationId8provider13customerNames12locationName7address11seatNumbers8duration10ticketType0Q3Url4cost13startDateTime03endvW008eventSubR0ACSSSg_AQSaySSGSgA2qS10Foundation0V10ComponentsVSgAqT3URLVSgAq2wQtcfC
++ _$s10OmniSearch18TicketedShowEntityV25typeDisplayRepresentation10AppIntents04TypegH0VvpZMV
++ _$s10OmniSearch18TicketedShowEntityV4costSSSgvM
++ _$s10OmniSearch18TicketedShowEntityV4costSSSgvg
++ _$s10OmniSearch18TicketedShowEntityV4costSSSgvpMV
++ _$s10OmniSearch18TicketedShowEntityV4costSSSgvs
++ _$s10OmniSearch18TicketedShowEntityV5$cost10AppIntents0E8PropertyCySSSgGvg
++ _$s10OmniSearch18TicketedShowEntityV5$cost10AppIntents0E8PropertyCySSSgGvpMV
++ _$s10OmniSearch19DataDetectorResultsV7isEmptySbvg
++ _$s10OmniSearch19DataDetectorResultsV7isEmptySbvpMV
++ _$s10OmniSearch19EmailContentManagerC06createc13DocumentUsingD3Rep7message07contentI0AA0cG0VSo9EMMessageC_So23EMContentRepresentationCtYaKFTj
++ _$s10OmniSearch19EmailContentManagerC06createc13DocumentUsingD3Rep7message07contentI0AA0cG0VSo9EMMessageC_So23EMContentRepresentationCtYaKFTjTu
++ _$s10OmniSearch19EmailContentManagerC06createc13DocumentUsingD3Rep7message07contentI0AA0cG0VSo9EMMessageC_So23EMContentRepresentationCtYaKFTq
++ _$s10OmniSearch19EmailContentManagerC06createc21DocumentWithSpotlightG07message15spotlightResultAA0cG0VSo9EMMessageC_AHtFTj
++ _$s10OmniSearch19EmailContentManagerC06createc21DocumentWithSpotlightG07message15spotlightResultAA0cG0VSo9EMMessageC_AHtFTq
++ _$s10OmniSearch19EmailContentManagerC16bodyFetchTimeoutSdvpZMV
++ _$s10OmniSearch19EmailContentManagerC21contentRequestOptionsSo09EMContentgH0CvpZMV
++ _$s10OmniSearch19HotelLocationAnswerV11featureFlagAA07FeatureG7ServiceC0hG0OSgvM
++ _$s10OmniSearch19HotelLocationAnswerV11featureFlagAA07FeatureG7ServiceC0hG0OSgvg
++ _$s10OmniSearch19HotelLocationAnswerV11featureFlagAA07FeatureG7ServiceC0hG0OSgvpMV
++ _$s10OmniSearch19HotelLocationAnswerV11featureFlagAA07FeatureG7ServiceC0hG0OSgvs
++ _$s10OmniSearch19HotelLocationAnswerV11featureFlagAcA07FeatureG7ServiceC0hG0OSg_tcfC
++ _$s10OmniSearch19HotelLocationAnswerV11featureFlagAcA07FeatureG7ServiceC0hG0OSg_tcfcfA_
++ _$s10OmniSearch19HotelLocationAnswerV17extractFromSource5query6answer6source15assistantLocaleAA13ExtractedTypeOSgAA9UserQueryV_AA0E0VAA0B6ResultVSSSgtYaKF
++ _$s10OmniSearch19HotelLocationAnswerV17extractFromSource5query6answer6source15assistantLocaleAA13ExtractedTypeOSgAA9UserQueryV_AA0E0VAA0B6ResultVSSSgtYaKFTu
++ _$s10OmniSearch19HotelLocationAnswerVAA0E20SourceExtractionRuleAAMc
++ _$s10OmniSearch19HotelLocationAnswerVAA0E20SourceExtractionRuleAAWP
++ _$s10OmniSearch19HotelLocationAnswerVAA14ExtractionRuleAAMc
++ _$s10OmniSearch19HotelLocationAnswerVAA14ExtractionRuleAAWP
++ _$s10OmniSearch19HotelLocationAnswerVAA19TypedExtractionRuleAAMc
++ _$s10OmniSearch19HotelLocationAnswerVAA19TypedExtractionRuleAAWP
++ _$s10OmniSearch19HotelLocationAnswerVACycfC
++ _$s10OmniSearch19HotelLocationAnswerVMa
++ _$s10OmniSearch19HotelLocationAnswerVMn
++ _$s10OmniSearch19HotelLocationAnswerVN
++ _$s10OmniSearch19HydrationEntityTypeO10AppIntents0E20DisplayRepresentableAAMc
++ _$s10OmniSearch19HydrationEntityTypeO10AppIntents0F4EnumAAMc
++ _$s10OmniSearch19HydrationEntityTypeO10AppIntents0F5ValueAAMc
++ _$s10OmniSearch19HydrationEntityTypeO10AppIntents12_IntentValueAAMc
++ _$s10OmniSearch19HydrationEntityTypeO10AppIntents24CaseDisplayRepresentableAAMc
++ _$s10OmniSearch19HydrationEntityTypeO10AppIntents24PersistentlyIdentifiableAAMc
++ _$s10OmniSearch19HydrationEntityTypeO10AppIntents26StaticDisplayRepresentableAAMc
++ _$s10OmniSearch19HydrationEntityTypeO10Foundation40CustomLocalizedStringResourceConvertibleAAMc
++ _$s10OmniSearch19HydrationEntityTypeO12searchAnsweryA2CmFWC
++ _$s10OmniSearch19HydrationEntityTypeO25typeDisplayRepresentation10AppIntents0egH0VvgZ
++ _$s10OmniSearch19HydrationEntityTypeO25typeDisplayRepresentation10AppIntents0egH0VvpZMV
++ _$s10OmniSearch19HydrationEntityTypeO26caseDisplayRepresentationsSDyAC10AppIntents0G14RepresentationVGvgZ
++ _$s10OmniSearch19HydrationEntityTypeO26caseDisplayRepresentationsSDyAC10AppIntents0G14RepresentationVGvpZMV
++ _$s10OmniSearch19HydrationEntityTypeO6stringyA2CmFWC
++ _$s10OmniSearch19HydrationEntityTypeO8allCasesSayACGvMZ
++ _$s10OmniSearch19HydrationEntityTypeO8allCasesSayACGvgZ
++ _$s10OmniSearch19HydrationEntityTypeO8allCasesSayACGvpZMV
++ _$s10OmniSearch19HydrationEntityTypeO8allCasesSayACGvsZ
++ _$s10OmniSearch19HydrationEntityTypeO8rawValueACSgSS_tcfC
++ _$s10OmniSearch19HydrationEntityTypeO8rawValueSSvg
++ _$s10OmniSearch19HydrationEntityTypeO8rawValueSSvpMV
++ _$s10OmniSearch19HydrationEntityTypeOMa
++ _$s10OmniSearch19HydrationEntityTypeOMn
++ _$s10OmniSearch19HydrationEntityTypeON
++ _$s10OmniSearch19HydrationEntityTypeOSEAAMc
++ _$s10OmniSearch19HydrationEntityTypeOSHAAMc
++ _$s10OmniSearch19HydrationEntityTypeOSQAAMc
++ _$s10OmniSearch19HydrationEntityTypeOSYAAMc
++ _$s10OmniSearch19HydrationEntityTypeOSeAAMc
++ _$s10OmniSearch19HydrationEntityTypeOs12CaseIterableAAMc
++ _$s10OmniSearch19ItemFetcherProtocolP15fetchSourceCSSI3forSDySSSaySo012CSSearchableC0CGGAH_tYaKFTj
++ _$s10OmniSearch19ItemFetcherProtocolP15fetchSourceCSSI3forSDySSSaySo012CSSearchableC0CGGAH_tYaKFTjTu
++ _$s10OmniSearch19ItemFetcherProtocolP15fetchSourceCSSI3forSDySSSaySo012CSSearchableC0CGGAH_tYaKFTq
++ _$s10OmniSearch19LLMQUModelEventTypeO8allCasesSayACGvpZMV
++ _$s10OmniSearch19LLMQUModelSortOrderO8allCasesSayACGvpZMV
++ _$s10OmniSearch19LLMQUParseConverterV9meStringsShySSGvpZMV
++ _$s10OmniSearch19LLMQUParseConverterV9spQUParse3for5query17isExpectingAnswerSo9SPQUParseCSgAA18LLMQUModelResponseV_SSSbtFZ
++ _$s10OmniSearch19LocationQueryEntityV25typeDisplayRepresentation10AppIntents04TypegH0VvpZMV
++ _$s10OmniSearch19LocationQueryEntityV4fromACs7Decoder_p_tKcfC
++ _$s10OmniSearch19LocationQueryEntityV6encode2toys7Encoder_p_tKF
++ _$s10OmniSearch19LocationQueryEntityVSEAAMc
++ _$s10OmniSearch19LocationQueryEntityVSeAAMc
++ _$s10OmniSearch19PreExtractedContactV24llmConsumableDescription6localeS2SSg_tF
++ _$s10OmniSearch19VoicemailTranscriptV24llmConsumableDescription6localeS2SSg_tF
++ _$s10OmniSearch20EntityMatchFormatterO13entityTypeMapSDyS2SGvpZMV
++ _$s10OmniSearch20GenericSpotlightItemV24llmConsumableDescription6localeS2SSg_tF
++ _$s10OmniSearch20GenericSpotlightItemV2id8bundleIdACSS_SStcfC
++ _$s10OmniSearch20GenericSpotlightItemV2idSSvg
++ _$s10OmniSearch20GenericSpotlightItemV2idSSvpMV
++ _$s10OmniSearch20GenericSpotlightItemV4fromACs7Decoder_p_tKcfC
++ _$s10OmniSearch20GenericSpotlightItemV6encode2toys7Encoder_p_tKF
++ _$s10OmniSearch20GenericSpotlightItemV8bundleIdSSvg
++ _$s10OmniSearch20GenericSpotlightItemV8bundleIdSSvpMV
++ _$s10OmniSearch20GenericSpotlightItemVAA0bE0AAMc
++ _$s10OmniSearch20GenericSpotlightItemVAA0bE0AAWP
++ _$s10OmniSearch20GenericSpotlightItemVMa
++ _$s10OmniSearch20GenericSpotlightItemVMn
++ _$s10OmniSearch20GenericSpotlightItemVN
++ _$s10OmniSearch20GenericSpotlightItemVSEAAMc
++ _$s10OmniSearch20GenericSpotlightItemVSQAAMc
++ _$s10OmniSearch20GenericSpotlightItemVSeAAMc
++ _$s10OmniSearch20RentalCarReservationV24llmConsumableDescription6localeS2SSg_tF
++ _$s10OmniSearch20RentalCarReservationV2id22eventMessageIdentifier0g5GroupI00g8FallbackjI00g8MegadomeI00G4Type0g3SubM00g12SourceBundleI00G8IsAllDay04timeQ7Unknown0goQ9Forwarded7authors04mailH2Id0xH6Header07accountI09mailboxes18detectedEventTypes0gO24LLMConsumableDescription11displayName011reservationY08provider13customerNames18reservationForName17startLocationName20startLocationAddress22startLocationTelephone15endLocationName18endLocationAddress20endLocationTelephone17durationInSeconds9totalCost6status9startDate7endDateACSS_SSSgA10_A10_A10_A10_A10_A10_SbSgSbA11_SaySSGSgA10_A10_A10_A13_A13_A10_A10_A10_A10_A13_A10_A10_A10_A10_A10_A10_A10_SdSgA10_A10_10Foundation4DateVSgA18_tcfC
++ _$s10OmniSearch20RentalCarReservationV35eventSourceLLMConsumableDescriptionSSSgvM
++ _$s10OmniSearch20RentalCarReservationV35eventSourceLLMConsumableDescriptionSSSgvg
++ _$s10OmniSearch20RentalCarReservationV35eventSourceLLMConsumableDescriptionSSSgvpMV
++ _$s10OmniSearch20RentalCarReservationV35eventSourceLLMConsumableDescriptionSSSgvs
++ _$s10OmniSearch20ResultSectionBuilderC7contextAA0B19EntityVisualContextCvM
++ _$s10OmniSearch20ResultSectionBuilderC7contextAA0B19EntityVisualContextCvMTj
++ _$s10OmniSearch20ResultSectionBuilderC7contextAA0B19EntityVisualContextCvMTq
++ _$s10OmniSearch20ResultSectionBuilderC7contextAA0B19EntityVisualContextCvg
++ _$s10OmniSearch20ResultSectionBuilderC7contextAA0B19EntityVisualContextCvgTj
++ _$s10OmniSearch20ResultSectionBuilderC7contextAA0B19EntityVisualContextCvgTq
++ _$s10OmniSearch20ResultSectionBuilderC7contextAA0B19EntityVisualContextCvpMV
++ _$s10OmniSearch20ResultSectionBuilderC7contextAA0B19EntityVisualContextCvpWvd
++ _$s10OmniSearch20ResultSectionBuilderC7contextAA0B19EntityVisualContextCvs
++ _$s10OmniSearch20ResultSectionBuilderC7contextAA0B19EntityVisualContextCvsTj
++ _$s10OmniSearch20ResultSectionBuilderC7contextAA0B19EntityVisualContextCvsTq
++ _$s10OmniSearch20ResultSectionBuilderC7results7contextACSayAA0bC0VG_AA0B19EntityVisualContextCtcfC
++ _$s10OmniSearch20ResultSectionBuilderC7results7contextACSayAA0bC0VG_AA0B19EntityVisualContextCtcfCTj
++ _$s10OmniSearch20ResultSectionBuilderC7results7contextACSayAA0bC0VG_AA0B19EntityVisualContextCtcfCTq
++ _$s10OmniSearch20ResultSectionBuilderC7results7contextACSayAA0bC0VG_AA0B19EntityVisualContextCtcfc
++ _$s10OmniSearch20ResultSectionBuilderC7resultsSayAA0bC0VGvM
++ _$s10OmniSearch20ResultSectionBuilderC7resultsSayAA0bC0VGvMTj
++ _$s10OmniSearch20ResultSectionBuilderC7resultsSayAA0bC0VGvMTq
++ _$s10OmniSearch20ResultSectionBuilderC7resultsSayAA0bC0VGvg
++ _$s10OmniSearch20ResultSectionBuilderC7resultsSayAA0bC0VGvgTj
++ _$s10OmniSearch20ResultSectionBuilderC7resultsSayAA0bC0VGvgTq
++ _$s10OmniSearch20ResultSectionBuilderC7resultsSayAA0bC0VGvpMV
++ _$s10OmniSearch20ResultSectionBuilderC7resultsSayAA0bC0VGvpWvd
++ _$s10OmniSearch20ResultSectionBuilderC7resultsSayAA0bC0VGvs
++ _$s10OmniSearch20ResultSectionBuilderC7resultsSayAA0bC0VGvsTj
++ _$s10OmniSearch20ResultSectionBuilderC7resultsSayAA0bC0VGvsTq
++ _$s10OmniSearch20ResultSectionBuilderC9buildCardSo6SFCardCyF
++ _$s10OmniSearch20ResultSectionBuilderC9buildCardSo6SFCardCyFTj
++ _$s10OmniSearch20ResultSectionBuilderC9buildCardSo6SFCardCyFTq
++ _$s10OmniSearch20ResultSectionBuilderCAA0cD8BuildingAAMc
++ _$s10OmniSearch20ResultSectionBuilderCAA0cD8BuildingAAWP
++ _$s10OmniSearch20ResultSectionBuilderCMa
++ _$s10OmniSearch20ResultSectionBuilderCMm
++ _$s10OmniSearch20ResultSectionBuilderCMn
++ _$s10OmniSearch20ResultSectionBuilderCMo
++ _$s10OmniSearch20ResultSectionBuilderCMu
++ _$s10OmniSearch20ResultSectionBuilderCN
++ _$s10OmniSearch20ResultSectionBuilderCfD
++ _$s10OmniSearch20ResultSectionBuilderCfd
++ _$s10OmniSearch20SpotlightRankingItemV10likelihoodSfSgvM
++ _$s10OmniSearch20SpotlightRankingItemV10likelihoodSfSgvg
++ _$s10OmniSearch20SpotlightRankingItemV10likelihoodSfSgvpMV
++ _$s10OmniSearch20SpotlightRankingItemV10likelihoodSfSgvs
++ _$s10OmniSearch20SpotlightRankingItemV10topicalitySfSgvM
++ _$s10OmniSearch20SpotlightRankingItemV10topicalitySfSgvg
++ _$s10OmniSearch20SpotlightRankingItemV10topicalitySfSgvpMV
++ _$s10OmniSearch20SpotlightRankingItemV10topicalitySfSgvs
++ _$s10OmniSearch20SpotlightRankingItemV13pommesL1ScoreSfSgvM
++ _$s10OmniSearch20SpotlightRankingItemV13pommesL1ScoreSfSgvg
++ _$s10OmniSearch20SpotlightRankingItemV13pommesL1ScoreSfSgvpMV
++ _$s10OmniSearch20SpotlightRankingItemV13pommesL1ScoreSfSgvs
++ _$s10OmniSearch20SpotlightRankingItemV13retrievalType8bundleId10likelihood10topicality13pommesL1Score0l8AdjustedmN00l10CalibratedmN019embeddingSimilarity012keywordMatchN09freshnessACSiSg_SSSgSfSgA7PtcfC
++ _$s10OmniSearch20SpotlightRankingItemV13retrievalTypeSiSgvM
++ _$s10OmniSearch20SpotlightRankingItemV13retrievalTypeSiSgvg
++ _$s10OmniSearch20SpotlightRankingItemV13retrievalTypeSiSgvpMV
++ _$s10OmniSearch20SpotlightRankingItemV13retrievalTypeSiSgvs
++ _$s10OmniSearch20SpotlightRankingItemV17keywordMatchScoreSfSgvM
++ _$s10OmniSearch20SpotlightRankingItemV17keywordMatchScoreSfSgvg
++ _$s10OmniSearch20SpotlightRankingItemV17keywordMatchScoreSfSgvpMV
++ _$s10OmniSearch20SpotlightRankingItemV17keywordMatchScoreSfSgvs
++ _$s10OmniSearch20SpotlightRankingItemV19embeddingSimilaritySfSgvM
++ _$s10OmniSearch20SpotlightRankingItemV19embeddingSimilaritySfSgvg
++ _$s10OmniSearch20SpotlightRankingItemV19embeddingSimilaritySfSgvpMV
++ _$s10OmniSearch20SpotlightRankingItemV19embeddingSimilaritySfSgvs
++ _$s10OmniSearch20SpotlightRankingItemV21pommesAdjustedL1ScoreSfSgvM
++ _$s10OmniSearch20SpotlightRankingItemV21pommesAdjustedL1ScoreSfSgvg
++ _$s10OmniSearch20SpotlightRankingItemV21pommesAdjustedL1ScoreSfSgvpMV
++ _$s10OmniSearch20SpotlightRankingItemV21pommesAdjustedL1ScoreSfSgvs
++ _$s10OmniSearch20SpotlightRankingItemV23pommesCalibratedL1ScoreSfSgvM
++ _$s10OmniSearch20SpotlightRankingItemV23pommesCalibratedL1ScoreSfSgvg
++ _$s10OmniSearch20SpotlightRankingItemV23pommesCalibratedL1ScoreSfSgvpMV
++ _$s10OmniSearch20SpotlightRankingItemV23pommesCalibratedL1ScoreSfSgvs
++ _$s10OmniSearch20SpotlightRankingItemV25intelligenceFlowTelemetry27IntelligencePlatformLibrary0igb4ToolH0V0blC6ResultVyF
++ _$s10OmniSearch20SpotlightRankingItemV2eeoiySbAC_ACtFZ
++ _$s10OmniSearch20SpotlightRankingItemV4fromACs7Decoder_p_tKcfC
++ _$s10OmniSearch20SpotlightRankingItemV6encode2toys7Encoder_p_tKF
++ _$s10OmniSearch20SpotlightRankingItemV8bundleIdSSSgvM
++ _$s10OmniSearch20SpotlightRankingItemV8bundleIdSSSgvg
++ _$s10OmniSearch20SpotlightRankingItemV8bundleIdSSSgvpMV
++ _$s10OmniSearch20SpotlightRankingItemV8bundleIdSSSgvs
++ _$s10OmniSearch20SpotlightRankingItemV9freshnessSfSgvM
++ _$s10OmniSearch20SpotlightRankingItemV9freshnessSfSgvg
++ _$s10OmniSearch20SpotlightRankingItemV9freshnessSfSgvpMV
++ _$s10OmniSearch20SpotlightRankingItemV9freshnessSfSgvs
++ _$s10OmniSearch20SpotlightRankingItemVACycfC
++ _$s10OmniSearch20SpotlightRankingItemVMa
++ _$s10OmniSearch20SpotlightRankingItemVMn
++ _$s10OmniSearch20SpotlightRankingItemVN
++ _$s10OmniSearch20SpotlightRankingItemVSEAAMc
++ _$s10OmniSearch20SpotlightRankingItemVSQAAMc
++ _$s10OmniSearch20SpotlightRankingItemVSeAAMc
++ _$s10OmniSearch21ECRClientPersonResultV04viewD0ACSgSo022GDVisualIdentifierViewD0C_tcfC
++ _$s10OmniSearch21ECRClientPersonResultV10contactIDsSaySSGvM
++ _$s10OmniSearch21ECRClientPersonResultV10contactIDsSaySSGvg
++ _$s10OmniSearch21ECRClientPersonResultV10contactIDsSaySSGvpMV
++ _$s10OmniSearch21ECRClientPersonResultV10contactIDsSaySSGvs
++ _$s10OmniSearch21ECRClientPersonResultV12phoneNumbersSaySSGvM
++ _$s10OmniSearch21ECRClientPersonResultV12phoneNumbersSaySSGvg
++ _$s10OmniSearch21ECRClientPersonResultV12phoneNumbersSaySSGvpMV
++ _$s10OmniSearch21ECRClientPersonResultV12phoneNumbersSaySSGvs
++ _$s10OmniSearch21ECRClientPersonResultV5namesSaySSGvM
++ _$s10OmniSearch21ECRClientPersonResultV5namesSaySSGvg
++ _$s10OmniSearch21ECRClientPersonResultV5namesSaySSGvpMV
++ _$s10OmniSearch21ECRClientPersonResultV5namesSaySSGvs
++ _$s10OmniSearch21ECRClientPersonResultV6emailsSaySSGvM
++ _$s10OmniSearch21ECRClientPersonResultV6emailsSaySSGvg
++ _$s10OmniSearch21ECRClientPersonResultV6emailsSaySSGvpMV
++ _$s10OmniSearch21ECRClientPersonResultV6emailsSaySSGvs
++ _$s10OmniSearch21ECRClientPersonResultV9visualIDs07contactG05names12phoneNumbers6emailsACSaySSG_A4ItcfC
++ _$s10OmniSearch21ECRClientPersonResultV9visualIDs07contactG05names12phoneNumbers6emailsACSaySSG_A4ItcfcfA0_
++ _$s10OmniSearch21ECRClientPersonResultV9visualIDs07contactG05names12phoneNumbers6emailsACSaySSG_A4ItcfcfA1_
++ _$s10OmniSearch21ECRClientPersonResultV9visualIDs07contactG05names12phoneNumbers6emailsACSaySSG_A4ItcfcfA2_
++ _$s10OmniSearch21ECRClientPersonResultV9visualIDs07contactG05names12phoneNumbers6emailsACSaySSG_A4ItcfcfA3_
++ _$s10OmniSearch21ECRClientPersonResultV9visualIDs07contactG05names12phoneNumbers6emailsACSaySSG_A4ItcfcfA_
++ _$s10OmniSearch21ECRClientPersonResultV9visualIDsSaySSGvM
++ _$s10OmniSearch21ECRClientPersonResultV9visualIDsSaySSGvg
++ _$s10OmniSearch21ECRClientPersonResultV9visualIDsSaySSGvpMV
++ _$s10OmniSearch21ECRClientPersonResultV9visualIDsSaySSGvs
++ _$s10OmniSearch21InstantAnswerDocumentP22eventMessageIdentifierSSSgvgTj
++ _$s10OmniSearch21InstantAnswerDocumentP22eventMessageIdentifierSSSgvgTq
++ _$s10OmniSearch21MetricsLoggerProtocolP03logB21ToolLLMQURequestEnded8clientId11llmQUResultySS_AA11LLMQUResultVtFTj
++ _$s10OmniSearch21MetricsLoggerProtocolP03logB21ToolLLMQURequestEnded8clientId11llmQUResultySS_AA11LLMQUResultVtFTq
++ _$s10OmniSearch21MetricsLoggerProtocolP03logB21ToolRequestInvocation7traceId06clientK0ySS_SStFTj
++ _$s10OmniSearch21MetricsLoggerProtocolP03logB21ToolRequestInvocation7traceId06clientK0ySS_SStFTq
++ _$s10OmniSearch21MetricsLoggerProtocolP03logB22ToolLLMQURequestFailed8clientId7stErrorySS_27IntelligencePlatformLibrary0n4FlowbG9TelemetryV0bg7FailureM0VtFTj
++ _$s10OmniSearch21MetricsLoggerProtocolP03logB22ToolLLMQURequestFailed8clientId7stErrorySS_27IntelligencePlatformLibrary0n4FlowbG9TelemetryV0bg7FailureM0VtFTq
++ _$s10OmniSearch21MetricsLoggerProtocolP03logB23ToolLLMQURequestStarted8clientIdySS_tFTj
++ _$s10OmniSearch21MetricsLoggerProtocolP03logB23ToolLLMQURequestStarted8clientIdySS_tFTq
++ _$s10OmniSearch21MetricsLoggerProtocolP03logB25ToolSpotlightRequestEnded8clientId7metricsySS_Say27IntelligencePlatformLibrary0n4FlowbG9TelemetryV0bgH6ResultVGSgtFTj
++ _$s10OmniSearch21MetricsLoggerProtocolP03logB25ToolSpotlightRequestEnded8clientId7metricsySS_Say27IntelligencePlatformLibrary0n4FlowbG9TelemetryV0bgH6ResultVGSgtFTq
++ _$s10OmniSearch21MetricsLoggerProtocolP03logB26ToolSpotlightRequestFailed8clientId7stErrorySS_27IntelligencePlatformLibrary0o4FlowbG9TelemetryV0bg7FailureN0VtFTj
++ _$s10OmniSearch21MetricsLoggerProtocolP03logB26ToolSpotlightRequestFailed8clientId7stErrorySS_27IntelligencePlatformLibrary0o4FlowbG9TelemetryV0bg7FailureN0VtFTq
++ _$s10OmniSearch21MetricsLoggerProtocolP03logB27ToolSpotlightRequestStarted8clientIdySS_tFTj
++ _$s10OmniSearch21MetricsLoggerProtocolP03logB27ToolSpotlightRequestStarted8clientIdySS_tFTq
++ _$s10OmniSearch21MetricsLoggerProtocolP03logB31ToolAnswerSynthesisRequestEnded8clientId06answerI6ResultySS_27IntelligencePlatformLibrary0p4FlowbG9TelemetryV0bghiO0VtFTj
++ _$s10OmniSearch21MetricsLoggerProtocolP03logB31ToolAnswerSynthesisRequestEnded8clientId06answerI6ResultySS_27IntelligencePlatformLibrary0p4FlowbG9TelemetryV0bghiO0VtFTq
++ _$s10OmniSearch21MetricsLoggerProtocolP03logB32ToolAnswerSynthesisRequestFailed8clientId7stErrorySS_27IntelligencePlatformLibrary0p4FlowbG9TelemetryV0bg7FailureO0VtFTj
++ _$s10OmniSearch21MetricsLoggerProtocolP03logB32ToolAnswerSynthesisRequestFailed8clientId7stErrorySS_27IntelligencePlatformLibrary0p4FlowbG9TelemetryV0bg7FailureO0VtFTq
++ _$s10OmniSearch21MetricsLoggerProtocolP03logB33ToolAnswerSynthesisRequestStarted8clientIdySS_tFTj
++ _$s10OmniSearch21MetricsLoggerProtocolP03logB33ToolAnswerSynthesisRequestStarted8clientIdySS_tFTq
++ _$s10OmniSearch21MetricsLoggerProtocolP03logb10ToolGlobalB5Ended8clientId13globalResultsySS_SayAA0B6ResultVGtFTj
++ _$s10OmniSearch21MetricsLoggerProtocolP03logb10ToolGlobalB5Ended8clientId13globalResultsySS_SayAA0B6ResultVGtFTq
++ _$s10OmniSearch21MetricsLoggerProtocolP03logb10ToolGlobalB6Failed8clientId7stErrorySS_27IntelligencePlatformLibrary0n4FlowbG9TelemetryV0bg7FailureM0VtFTj
++ _$s10OmniSearch21MetricsLoggerProtocolP03logb10ToolGlobalB6Failed8clientId7stErrorySS_27IntelligencePlatformLibrary0n4FlowbG9TelemetryV0bg7FailureM0VtFTq
++ _$s10OmniSearch21MetricsLoggerProtocolP03logb10ToolGlobalB7Started8clientIdySS_tFTj
++ _$s10OmniSearch21MetricsLoggerProtocolP03logb10ToolGlobalB7Started8clientIdySS_tFTq
++ _$s10OmniSearch21MetricsLoggerProtocolP03logb11ToolGeneralB5Ended8clientId4from06dialogK0ySS_SayAA0B6EntityVGSStFTj
++ _$s10OmniSearch21MetricsLoggerProtocolP03logb11ToolGeneralB5Ended8clientId4from06dialogK0ySS_SayAA0B6EntityVGSStFTq
++ _$s10OmniSearch21MetricsLoggerProtocolP03logb11ToolGeneralB6Failed8clientId7stErrorySS_27IntelligencePlatformLibrary0n4FlowbG9TelemetryV0bg7FailureM0VtFTj
++ _$s10OmniSearch21MetricsLoggerProtocolP03logb11ToolGeneralB6Failed8clientId7stErrorySS_27IntelligencePlatformLibrary0n4FlowbG9TelemetryV0bg7FailureM0VtFTq
++ _$s10OmniSearch21MetricsLoggerProtocolP03logb11ToolGeneralB7Started8clientId9preWarmedySS_SbtFTj
++ _$s10OmniSearch21MetricsLoggerProtocolP03logb11ToolGeneralB7Started8clientId9preWarmedySS_SbtFTq
++ _$s10OmniSearch21MetricsLoggerProtocolP37logHallucinationDetectionRequestEnded8clientId7latencyySS_s6UInt32VtFTj
++ _$s10OmniSearch21MetricsLoggerProtocolP37logHallucinationDetectionRequestEnded8clientId7latencyySS_s6UInt32VtFTq
++ _$s10OmniSearch21MetricsLoggerProtocolP38logHallucinationDetectionRequestFailed8clientId7stErrorySS_27IntelligencePlatformLibrary0o4FlowB13ToolTelemetryV0bs7FailureN0VtFTj
++ _$s10OmniSearch21MetricsLoggerProtocolP38logHallucinationDetectionRequestFailed8clientId7stErrorySS_27IntelligencePlatformLibrary0o4FlowB13ToolTelemetryV0bs7FailureN0VtFTq
++ _$s10OmniSearch21MetricsLoggerProtocolP39logHallucinationDetectionRequestStarted8clientId6sourceySS_27IntelligencePlatformLibrary0n4FlowB13ToolTelemetryV0brgH6SourceOtFTj
++ _$s10OmniSearch21MetricsLoggerProtocolP39logHallucinationDetectionRequestStarted8clientId6sourceySS_27IntelligencePlatformLibrary0n4FlowB13ToolTelemetryV0brgH6SourceOtFTq
++ _$s10OmniSearch21OpenMediaEntityIntentV11description10AppIntents0F11DescriptionVSgvpZMV
++ _$s10OmniSearch21OpenMediaEntityIntentV13assistantOnlySbvpZMV
++ _$s10OmniSearch21OpenMediaEntityIntentV14isDiscoverableSbvpZMV
++ _$s10OmniSearch21OpenMediaEntityIntentV5title10Foundation23LocalizedStringResourceVvpZMV
++ _$s10OmniSearch21RestaurantReservationV22eventMessageIdentifierSSSgvg
++ _$s10OmniSearch21RestaurantReservationV22eventMessageIdentifierSSSgvpMV
++ _$s10OmniSearch21RestaurantReservationV24llmConsumableDescription6localeS2SSg_tF
++ _$s10OmniSearch21RestaurantReservationV2id13timeIsUnknown010restaurantD2Id0I9UnderName0I19StartDateComponents0I9PartySize0id3ForL00idR9Telephone0idR7Address0I15BookingProvider0I13CustomerNames0I8MealType0I6Status16answerAttributes06bundleJ0011mailMessageJ022eventMessageIdentifier27eventSourceBundleIdentifier35eventSourceLLMConsumableDescriptionACSS_SbSSSgAW10Foundation0nO0VSgA5WSaySSGA2WA0_SSA4WtcfC
++ _$s10OmniSearch21RestaurantReservationV2id7answers16answerAttributes8bundleId011mailMessageJ005eventL10Identifier0m12SourceBundleN00mO24LLMConsumableDescription13timeIsUnknown010restaurantdJ00V9UnderName0V19StartDateComponents0V9PartySize0vd3ForX00vD12ForTelephone0vD10ForAddress0V15BookingProvider0V13CustomerNames0V8MealType0V6Status0vyZ6StringACSS_SDyS2SGSaySSGS2SSgA_A_A_SbA_A_10Foundation0Z10ComponentsVSgA_A_A_A_A_AZA_A_A_tcfC
++ _$s10OmniSearch21ResultSectionBuildingMp
++ _$s10OmniSearch21ResultSectionBuildingP7contextAA0B19EntityVisualContextCvgTj
++ _$s10OmniSearch21ResultSectionBuildingP7contextAA0B19EntityVisualContextCvgTq
++ _$s10OmniSearch21ResultSectionBuildingP7resultsSayAA0bC0VGvgTj
++ _$s10OmniSearch21ResultSectionBuildingP7resultsSayAA0bC0VGvgTq
++ _$s10OmniSearch21ResultSectionBuildingP9buildCardSo6SFCardCyFTj
++ _$s10OmniSearch21ResultSectionBuildingP9buildCardSo6SFCardCyFTq
++ _$s10OmniSearch21ResultSectionBuildingTL
++ _$s10OmniSearch21SpotlightIndexRequestV12allowedTypesSayAA0B20EntityTypeIdentifierVGvg
++ _$s10OmniSearch21SpotlightIndexRequestV12allowedTypesSayAA0B20EntityTypeIdentifierVGvpMV
++ _$s10OmniSearch21SpotlightIndexRequestV9userQuery13targetMatches9spQUParse12allowedTypesACSS_SiSgSo9SPQUParseCSgSayAA0B20EntityTypeIdentifierVGtcfC
++ _$s10OmniSearch21StructuredQueryEntityV10$locations10AppIntents0E8PropertyCySayAA08LocationdE0VGSgGvg
++ _$s10OmniSearch21StructuredQueryEntityV10$locations10AppIntents0E8PropertyCySayAA08LocationdE0VGSgGvpMV
++ _$s10OmniSearch21StructuredQueryEntityV10filterTypeSayAA06FilterG0OGSgvM
++ _$s10OmniSearch21StructuredQueryEntityV10filterTypeSayAA06FilterG0OGSgvg
++ _$s10OmniSearch21StructuredQueryEntityV10filterTypeSayAA06FilterG0OGSgvpMV
++ _$s10OmniSearch21StructuredQueryEntityV10filterTypeSayAA06FilterG0OGSgvs
++ _$s10OmniSearch21StructuredQueryEntityV10sourceTypeSayAA06SourceG0OGSgvM
++ _$s10OmniSearch21StructuredQueryEntityV10sourceTypeSayAA06SourceG0OGSgvg
++ _$s10OmniSearch21StructuredQueryEntityV10sourceTypeSayAA06SourceG0OGSgvpMV
++ _$s10OmniSearch21StructuredQueryEntityV10sourceTypeSayAA06SourceG0OGSgvs
++ _$s10OmniSearch21StructuredQueryEntityV11$filterType10AppIntents0E8PropertyCySayAA06FilterG0OGSgGvg
++ _$s10OmniSearch21StructuredQueryEntityV11$filterType10AppIntents0E8PropertyCySayAA06FilterG0OGSgGvpMV
++ _$s10OmniSearch21StructuredQueryEntityV11$sourceType10AppIntents0E8PropertyCySayAA06SourceG0OGSgGvg
++ _$s10OmniSearch21StructuredQueryEntityV11$sourceType10AppIntents0E8PropertyCySayAA06SourceG0OGSgGvpMV
++ _$s10OmniSearch21StructuredQueryEntityV11messageTimeSaySSGSgvM
++ _$s10OmniSearch21StructuredQueryEntityV11messageTimeSaySSGSgvg
++ _$s10OmniSearch21StructuredQueryEntityV11messageTimeSaySSGSgvpMV
++ _$s10OmniSearch21StructuredQueryEntityV11messageTimeSaySSGSgvs
++ _$s10OmniSearch21StructuredQueryEntityV11orderByTimeAA05OrdergH0OSgvM
++ _$s10OmniSearch21StructuredQueryEntityV11orderByTimeAA05OrdergH0OSgvg
++ _$s10OmniSearch21StructuredQueryEntityV11orderByTimeAA05OrdergH0OSgvpMV
++ _$s10OmniSearch21StructuredQueryEntityV11orderByTimeAA05OrdergH0OSgvs
++ _$s10OmniSearch21StructuredQueryEntityV12$messageTime10AppIntents0E8PropertyCySaySSGSgGvg
++ _$s10OmniSearch21StructuredQueryEntityV12$messageTime10AppIntents0E8PropertyCySaySSGSgGvpMV
++ _$s10OmniSearch21StructuredQueryEntityV12$orderByTime10AppIntents0E8PropertyCyAA05OrdergH0OSgGvg
++ _$s10OmniSearch21StructuredQueryEntityV12$orderByTime10AppIntents0E8PropertyCyAA05OrdergH0OSgGvpMV
++ _$s10OmniSearch21StructuredQueryEntityV12containsTypeSayAA08ContainsG0OGSgvM
++ _$s10OmniSearch21StructuredQueryEntityV12containsTypeSayAA08ContainsG0OGSgvg
++ _$s10OmniSearch21StructuredQueryEntityV12containsTypeSayAA08ContainsG0OGSgvpMV
++ _$s10OmniSearch21StructuredQueryEntityV12containsTypeSayAA08ContainsG0OGSgvs
++ _$s10OmniSearch21StructuredQueryEntityV13$containsType10AppIntents0E8PropertyCySayAA08ContainsG0OGSgGvg
++ _$s10OmniSearch21StructuredQueryEntityV13$containsType10AppIntents0E8PropertyCySayAA08ContainsG0OGSgGvpMV
++ _$s10OmniSearch21StructuredQueryEntityV13preferredTypeSayAA09PreferredG0OGSgvM
++ _$s10OmniSearch21StructuredQueryEntityV13preferredTypeSayAA09PreferredG0OGSgvg
++ _$s10OmniSearch21StructuredQueryEntityV13preferredTypeSayAA09PreferredG0OGSgvpMV
++ _$s10OmniSearch21StructuredQueryEntityV13preferredTypeSayAA09PreferredG0OGSgvs
++ _$s10OmniSearch21StructuredQueryEntityV14$preferredType10AppIntents0E8PropertyCySayAA09PreferredG0OGSgGvg
++ _$s10OmniSearch21StructuredQueryEntityV14$preferredType10AppIntents0E8PropertyCySayAA09PreferredG0OGSgGvpMV
++ _$s10OmniSearch21StructuredQueryEntityV25typeDisplayRepresentation10AppIntents04TypegH0VvpZMV
++ _$s10OmniSearch21StructuredQueryEntityV3app10AppIntents17IntentApplicationVSgvM
++ _$s10OmniSearch21StructuredQueryEntityV3app10AppIntents17IntentApplicationVSgvg
++ _$s10OmniSearch21StructuredQueryEntityV3app10AppIntents17IntentApplicationVSgvpMV
++ _$s10OmniSearch21StructuredQueryEntityV3app10AppIntents17IntentApplicationVSgvs
++ _$s10OmniSearch21StructuredQueryEntityV4$app10AppIntents0E8PropertyCyAE17IntentApplicationVSgGvg
++ _$s10OmniSearch21StructuredQueryEntityV4$app10AppIntents0E8PropertyCyAE17IntentApplicationVSgGvpMV
++ _$s10OmniSearch21StructuredQueryEntityV4fromACs7Decoder_p_tKcfC
++ _$s10OmniSearch21StructuredQueryEntityV6encode2toys7Encoder_p_tKF
++ _$s10OmniSearch21StructuredQueryEntityV6peopleSayAA06PersondE0VGSgvM
++ _$s10OmniSearch21StructuredQueryEntityV6peopleSayAA06PersondE0VGSgvg
++ _$s10OmniSearch21StructuredQueryEntityV6peopleSayAA06PersondE0VGSgvpMV
++ _$s10OmniSearch21StructuredQueryEntityV6peopleSayAA06PersondE0VGSgvs
++ _$s10OmniSearch21StructuredQueryEntityV7$people10AppIntents0E8PropertyCySayAA06PersondE0VGSgGvg
++ _$s10OmniSearch21StructuredQueryEntityV7$people10AppIntents0E8PropertyCySayAA06PersondE0VGSgGvpMV
++ _$s10OmniSearch21StructuredQueryEntityV7pickOneSbvM
++ _$s10OmniSearch21StructuredQueryEntityV7pickOneSbvg
++ _$s10OmniSearch21StructuredQueryEntityV7pickOneSbvpMV
++ _$s10OmniSearch21StructuredQueryEntityV7pickOneSbvs
++ _$s10OmniSearch21StructuredQueryEntityV8$pickOne10AppIntents0E8PropertyCySbGvg
++ _$s10OmniSearch21StructuredQueryEntityV8$pickOne10AppIntents0E8PropertyCySbGvpMV
++ _$s10OmniSearch21StructuredQueryEntityV9locationsSayAA08LocationdE0VGSgvM
++ _$s10OmniSearch21StructuredQueryEntityV9locationsSayAA08LocationdE0VGSgvg
++ _$s10OmniSearch21StructuredQueryEntityV9locationsSayAA08LocationdE0VGSgvpMV
++ _$s10OmniSearch21StructuredQueryEntityV9locationsSayAA08LocationdE0VGSgvs
++ _$s10OmniSearch21StructuredQueryEntityVSEAAMc
++ _$s10OmniSearch21StructuredQueryEntityVSeAAMc
++ _$s10OmniSearch22AnswerSynthesisRequestV10CodingKeysO11stringValueAESgSS_tcfC
++ _$s10OmniSearch22AnswerSynthesisRequestV10CodingKeysO11stringValueSSvg
++ _$s10OmniSearch22AnswerSynthesisRequestV10CodingKeysO11stringValueSSvpMV
++ _$s10OmniSearch22AnswerSynthesisRequestV10CodingKeysO8intValueAESgSi_tcfC
++ _$s10OmniSearch22AnswerSynthesisRequestV10CodingKeysO8intValueSiSgvg
++ _$s10OmniSearch22AnswerSynthesisRequestV10CodingKeysO8intValueSiSgvpMV
++ _$s10OmniSearch22AnswerSynthesisRequestV10CodingKeysO8rawValueAESgSS_tcfC
++ _$s10OmniSearch22AnswerSynthesisRequestV10CodingKeysO8rawValueSSvg
++ _$s10OmniSearch22AnswerSynthesisRequestV10CodingKeysO8rawValueSSvpMV
++ _$s10OmniSearch22AnswerSynthesisRequestV10CodingKeysOMa
++ _$s10OmniSearch22AnswerSynthesisRequestV10CodingKeysOMn
++ _$s10OmniSearch22AnswerSynthesisRequestV10CodingKeysON
++ _$s10OmniSearch22AnswerSynthesisRequestV10CodingKeysOSHAAMc
++ _$s10OmniSearch22AnswerSynthesisRequestV10CodingKeysOSQAAMc
++ _$s10OmniSearch22AnswerSynthesisRequestV10CodingKeysOSYAAMc
++ _$s10OmniSearch22AnswerSynthesisRequestV10CodingKeysOs0F3KeyAAMc
++ _$s10OmniSearch22AnswerSynthesisRequestV10CodingKeysOs23CustomStringConvertibleAAMc
++ _$s10OmniSearch22AnswerSynthesisRequestV10CodingKeysOs28CustomDebugStringConvertibleAAMc
++ _$s10OmniSearch22AnswerSynthesisRequestV12onScreenTextSaySSGSgvM
++ _$s10OmniSearch22AnswerSynthesisRequestV12onScreenTextSaySSGSgvg
++ _$s10OmniSearch22AnswerSynthesisRequestV12onScreenTextSaySSGSgvpMV
++ _$s10OmniSearch22AnswerSynthesisRequestV12onScreenTextSaySSGSgvs
++ _$s10OmniSearch22AnswerSynthesisRequestV18getModelTokenLimitSiyFZ
++ _$s10OmniSearch22AnswerSynthesisRequestV19calculateTokenCountSiyKF
++ _$s10OmniSearch22AnswerSynthesisRequestV19personalDataSourcesSaySDyS2SGGvM
++ _$s10OmniSearch22AnswerSynthesisRequestV19personalDataSourcesSaySDyS2SGGvg
++ _$s10OmniSearch22AnswerSynthesisRequestV19personalDataSourcesSaySDyS2SGGvpMV
++ _$s10OmniSearch22AnswerSynthesisRequestV19personalDataSourcesSaySDyS2SGGvs
++ _$s10OmniSearch22AnswerSynthesisRequestV19requestedPropertiesSayAA0b8PropertyE0VGSgvM
++ _$s10OmniSearch22AnswerSynthesisRequestV19requestedPropertiesSayAA0b8PropertyE0VGSgvg
++ _$s10OmniSearch22AnswerSynthesisRequestV19requestedPropertiesSayAA0b8PropertyE0VGSgvpMV
++ _$s10OmniSearch22AnswerSynthesisRequestV19requestedPropertiesSayAA0b8PropertyE0VGSgvs
++ _$s10OmniSearch22AnswerSynthesisRequestV19searchPropertyTypesSaySSGSgvM
++ _$s10OmniSearch22AnswerSynthesisRequestV19searchPropertyTypesSaySSGSgvg
++ _$s10OmniSearch22AnswerSynthesisRequestV19searchPropertyTypesSaySSGSgvpMV
++ _$s10OmniSearch22AnswerSynthesisRequestV19searchPropertyTypesSaySSGSgvs
++ _$s10OmniSearch22AnswerSynthesisRequestV22getLastIndexToTruncateSiSgyF
++ _$s10OmniSearch22AnswerSynthesisRequestV31truncateLastPersonalDataSourcesSiSgyF
++ _$s10OmniSearch22AnswerSynthesisRequestV39truncatePersonalDataSourcesToTokenLimityyKF
++ _$s10OmniSearch22AnswerSynthesisRequestV5query19requestedProperties9documents12onScreenText7context9charLimit16enableTruncationACSS_SayAA0b8PropertyE0VGSayAA0B6ResultVGSaySSGSgAA0cdE7ContextVSiSbtcfC
++ _$s10OmniSearch22AnswerSynthesisRequestV5query19requestedProperties9documents12onScreenText7context9charLimit16enableTruncationACSS_SayAA0b8PropertyE0VGSayAA0B6ResultVGSaySSGSgAA0cdE7ContextVSiSbtcfcfA4_
++ _$s10OmniSearch22AnswerSynthesisRequestV5query19requestedProperties9documents12onScreenText7context9charLimit16enableTruncationACSS_SayAA0b8PropertyE0VGSayAA0B6ResultVGSaySSGSgAA0cdE7ContextVSiSbtcfcfA5_
++ _$s10OmniSearch22AnswerSynthesisRequestV9getLocale10Foundation0G0VSgyF
++ _$s10OmniSearch22AnswerSynthesisRequestVAA0cdE8ProtocolAAMc
++ _$s10OmniSearch22AnswerSynthesisRequestVAA0cdE8ProtocolAAWP
++ _$s10OmniSearch22AssistantSystemContextV11deviceStateAA06DeviceG0VSgvg
++ _$s10OmniSearch22AssistantSystemContextV11deviceStateAA06DeviceG0VSgvpMV
++ _$s10OmniSearch22AssistantSystemContextV12asCATContextAA0bG0Vvg
++ _$s10OmniSearch22AssistantSystemContextV12asCATContextAA0bG0VvpMV
++ _$s10OmniSearch22AssistantSystemContextV14interfaceIdiom10AppIntents06IntentdE0V09InterfaceG0OSgvg
++ _$s10OmniSearch22AssistantSystemContextV14interfaceIdiom10AppIntents06IntentdE0V09InterfaceG0OSgvpMV
++ _$s10OmniSearch22AssistantSystemContextV15interactionMode14interfaceIdiom6locale17requestIdentifier11deviceStateAC10AppIntents06IntentdE0V0cE0V011InteractionG0OSg_AK09InterfaceI0OSgSSSgAtA06DeviceN0VSgtcfC
++ _$s10OmniSearch22EagerResolutionServiceP12resolveMedia4name5query8clientId3appAA12ResolvedInfoVSS_SSSgSS10AppIntents17IntentApplicationVSgtYaKFTj
++ _$s10OmniSearch22EagerResolutionServiceP12resolveMedia4name5query8clientId3appAA12ResolvedInfoVSS_SSSgSS10AppIntents17IntentApplicationVSgtYaKFTjTu
++ _$s10OmniSearch22EagerResolutionServiceP12resolveMedia4name5query8clientId3appAA12ResolvedInfoVSS_SSSgSS10AppIntents17IntentApplicationVSgtYaKFTq
++ _$s10OmniSearch22EagerResolutionServiceP13resolveFlight11reservation8clientIdAA12ResolvedInfoVAA0G11ReservationV_SStYaKFTj
++ _$s10OmniSearch22EagerResolutionServiceP13resolveFlight11reservation8clientIdAA12ResolvedInfoVAA0G11ReservationV_SStYaKFTjTu
++ _$s10OmniSearch22EagerResolutionServiceP13resolveFlight11reservation8clientIdAA12ResolvedInfoVAA0G11ReservationV_SStYaKFTq
++ _$s10OmniSearch22EagerResolutionServiceP15resolveLocation7address8clientId3appAA12ResolvedInfoVSS_SS10AppIntents17IntentApplicationVSgtYaKFTj
++ _$s10OmniSearch22EagerResolutionServiceP15resolveLocation7address8clientId3appAA12ResolvedInfoVSS_SS10AppIntents17IntentApplicationVSgtYaKFTjTu
++ _$s10OmniSearch22EagerResolutionServiceP15resolveLocation7address8clientId3appAA12ResolvedInfoVSS_SS10AppIntents17IntentApplicationVSgtYaKFTq
++ _$s10OmniSearch22EagerResolutionServiceP15resolveMediaURL_8clientIdAA12ResolvedInfoV10Foundation0H0V_SStYaKFTj
++ _$s10OmniSearch22EagerResolutionServiceP15resolveMediaURL_8clientIdAA12ResolvedInfoV10Foundation0H0V_SStYaKFTjTu
++ _$s10OmniSearch22EagerResolutionServiceP15resolveMediaURL_8clientIdAA12ResolvedInfoV10Foundation0H0V_SStYaKFTq
++ _$s10OmniSearch22EagerResolutionServicePAAE20resolveExtractedInfo_8clientIdAA08ResolvedH0VSgAA0gH0V_SStYaKF
++ _$s10OmniSearch22EagerResolutionServicePAAE20resolveExtractedInfo_8clientIdAA08ResolvedH0VSgAA0gH0V_SStYaKFTu
++ _$s10OmniSearch22EditorialDateFormatterV08allowNewD10FormattingSbvg
++ _$s10OmniSearch22EditorialDateFormatterV08allowNewD10FormattingSbvpMV
++ _$s10OmniSearch22EditorialDateFormatterV0D5InputV12includesTime4date6localeAESb_10Foundation0D0VSSSgtcfC
++ _$s10OmniSearch22EditorialDateFormatterV0D5InputV12includesTimeSbvg
++ _$s10OmniSearch22EditorialDateFormatterV0D5InputV12includesTimeSbvpMV
++ _$s10OmniSearch22EditorialDateFormatterV0D5InputV4date10Foundation0D0Vvg
++ _$s10OmniSearch22EditorialDateFormatterV0D5InputV4date10Foundation0D0VvpMV
++ _$s10OmniSearch22EditorialDateFormatterV0D5InputV6localeSSSgvg
++ _$s10OmniSearch22EditorialDateFormatterV0D5InputV6localeSSSgvpMV
++ _$s10OmniSearch22EditorialDateFormatterV0D5InputV9formattedy12FormatOutputQzx10Foundation0H5StyleRzAE0hF0RtzlF
++ _$s10OmniSearch22EditorialDateFormatterV0D5InputVMa
++ _$s10OmniSearch22EditorialDateFormatterV0D5InputVMn
++ _$s10OmniSearch22EditorialDateFormatterV0D5InputVN
++ _$s10OmniSearch22EditorialDateFormatterV10Foundation11FormatStyleAAMc
++ _$s10OmniSearch22EditorialDateFormatterV10components3forAC16ComponentOptionsV7options_Sb013needsRelativeD0tAC0D5InputV_tF
++ _$s10OmniSearch22EditorialDateFormatterV16ComponentOptionsV2eeoiySbAE_AEtFZ
++ _$s10OmniSearch22EditorialDateFormatterV16ComponentOptionsV4hourSbvM
++ _$s10OmniSearch22EditorialDateFormatterV16ComponentOptionsV4hourSbvg
++ _$s10OmniSearch22EditorialDateFormatterV16ComponentOptionsV4hourSbvpMV
++ _$s10OmniSearch22EditorialDateFormatterV16ComponentOptionsV4hourSbvs
++ _$s10OmniSearch22EditorialDateFormatterV16ComponentOptionsV4yearSbvM
++ _$s10OmniSearch22EditorialDateFormatterV16ComponentOptionsV4yearSbvg
++ _$s10OmniSearch22EditorialDateFormatterV16ComponentOptionsV4yearSbvpMV
++ _$s10OmniSearch22EditorialDateFormatterV16ComponentOptionsV4yearSbvs
++ _$s10OmniSearch22EditorialDateFormatterV16ComponentOptionsV6minute4hour7weekday4yearAESb_S3btcfC
++ _$s10OmniSearch22EditorialDateFormatterV16ComponentOptionsV6minute4hour7weekday4yearAESb_S3btcfcfA0_
++ _$s10OmniSearch22EditorialDateFormatterV16ComponentOptionsV6minute4hour7weekday4yearAESb_S3btcfcfA1_
++ _$s10OmniSearch22EditorialDateFormatterV16ComponentOptionsV6minute4hour7weekday4yearAESb_S3btcfcfA2_
++ _$s10OmniSearch22EditorialDateFormatterV16ComponentOptionsV6minute4hour7weekday4yearAESb_S3btcfcfA_
++ _$s10OmniSearch22EditorialDateFormatterV16ComponentOptionsV6minuteSbvM
++ _$s10OmniSearch22EditorialDateFormatterV16ComponentOptionsV6minuteSbvg
++ _$s10OmniSearch22EditorialDateFormatterV16ComponentOptionsV6minuteSbvpMV
++ _$s10OmniSearch22EditorialDateFormatterV16ComponentOptionsV6minuteSbvs
++ _$s10OmniSearch22EditorialDateFormatterV16ComponentOptionsV7weekdaySbvM
++ _$s10OmniSearch22EditorialDateFormatterV16ComponentOptionsV7weekdaySbvg
++ _$s10OmniSearch22EditorialDateFormatterV16ComponentOptionsV7weekdaySbvpMV
++ _$s10OmniSearch22EditorialDateFormatterV16ComponentOptionsV7weekdaySbvs
++ _$s10OmniSearch22EditorialDateFormatterV16ComponentOptionsVAEycfC
++ _$s10OmniSearch22EditorialDateFormatterV16ComponentOptionsVMa
++ _$s10OmniSearch22EditorialDateFormatterV16ComponentOptionsVMn
++ _$s10OmniSearch22EditorialDateFormatterV16ComponentOptionsVN
++ _$s10OmniSearch22EditorialDateFormatterV16ComponentOptionsVSQAAMc
++ _$s10OmniSearch22EditorialDateFormatterV2eeoiySbAC_ACtFZ
++ _$s10OmniSearch22EditorialDateFormatterV3now10Foundation0D0Vvg
++ _$s10OmniSearch22EditorialDateFormatterV3now10Foundation0D0VvpMV
++ _$s10OmniSearch22EditorialDateFormatterV3now8calendar18featureFlagServiceAC10Foundation0D0V_AG8CalendarVAA07FeatureiJ0CtcfC
++ _$s10OmniSearch22EditorialDateFormatterV3now8calendar18featureFlagServiceAC10Foundation0D0V_AG8CalendarVAA07FeatureiJ0CtcfcfA0_
++ _$s10OmniSearch22EditorialDateFormatterV3now8calendar18featureFlagServiceAC10Foundation0D0V_AG8CalendarVAA07FeatureiJ0CtcfcfA1_
++ _$s10OmniSearch22EditorialDateFormatterV3now8calendar18featureFlagServiceAC10Foundation0D0V_AG8CalendarVAA07FeatureiJ0CtcfcfA_
++ _$s10OmniSearch22EditorialDateFormatterV4fromACs7Decoder_p_tKcfC
++ _$s10OmniSearch22EditorialDateFormatterV4hash4intoys6HasherVz_tF
++ _$s10OmniSearch22EditorialDateFormatterV6encode2toys7Encoder_p_tKF
++ _$s10OmniSearch22EditorialDateFormatterV6formatySSAC0D5InputVF
++ _$s10OmniSearch22EditorialDateFormatterV8calendar10Foundation8CalendarVvg
++ _$s10OmniSearch22EditorialDateFormatterV8calendar10Foundation8CalendarVvpMV
++ _$s10OmniSearch22EditorialDateFormatterV8tomorrow10Foundation0D0Vvg
++ _$s10OmniSearch22EditorialDateFormatterV8tomorrow10Foundation0D0VvpMV
++ _$s10OmniSearch22EditorialDateFormatterV9hashValueSivg
++ _$s10OmniSearch22EditorialDateFormatterV9hashValueSivpMV
++ _$s10OmniSearch22EditorialDateFormatterV9yesterday10Foundation0D0Vvg
++ _$s10OmniSearch22EditorialDateFormatterV9yesterday10Foundation0D0VvpMV
++ _$s10OmniSearch22EditorialDateFormatterVMa
++ _$s10OmniSearch22EditorialDateFormatterVMn
++ _$s10OmniSearch22EditorialDateFormatterVN
++ _$s10OmniSearch22EditorialDateFormatterVSEAAMc
++ _$s10OmniSearch22EditorialDateFormatterVSHAAMc
++ _$s10OmniSearch22EditorialDateFormatterVSQAAMc
++ _$s10OmniSearch22EditorialDateFormatterVSeAAMc
++ _$s10OmniSearch22HallucinationMitigatorC16postLLMCallCheck5query14inputDocuments6dialog6localeySS_SayAA0B6ResultVGAA14ProposedDialogVSSSgtAA0O13OverrideErrorOYKF
++ _$s10OmniSearch22HallucinationMitigatorC16postLLMCallCheck5query14inputDocuments6dialog6localeySS_SayAA0B6ResultVGAA14ProposedDialogVSSSgtAA0O13OverrideErrorOYKFTj
++ _$s10OmniSearch22HallucinationMitigatorC16postLLMCallCheck5query14inputDocuments6dialog6localeySS_SayAA0B6ResultVGAA14ProposedDialogVSSSgtAA0O13OverrideErrorOYKFTq
++ _$s10OmniSearch22HallucinationMitigatorC18scanInputDocuments33_4877CDCBE248C517EE90FB47757CC8DELL05inputG06localeSaySaySo15DDScannerResultCGGSayAA0bQ0VG_SSSgtF
++ _$s10OmniSearch22HallucinationMitigatorC33DataDetectorFlightInformationTypeSSvpZMV
++ _$s10OmniSearch22HallucinationMitigatorC6sharedACvpZMV
++ _$s10OmniSearch22HotelReservationEntityV11openCommand10AppIntents10IntentFileVSgvM
++ _$s10OmniSearch22HotelReservationEntityV11openCommand10AppIntents10IntentFileVSgvg
++ _$s10OmniSearch22HotelReservationEntityV11openCommand10AppIntents10IntentFileVSgvpMV
++ _$s10OmniSearch22HotelReservationEntityV11openCommand10AppIntents10IntentFileVSgvs
++ _$s10OmniSearch22HotelReservationEntityV12$openCommand10AppIntents0E8PropertyCyAE10IntentFileVSgGvg
++ _$s10OmniSearch22HotelReservationEntityV12$openCommand10AppIntents0E8PropertyCyAE10IntentFileVSgGvpMV
++ _$s10OmniSearch22HotelReservationEntityV15checkInDateTime10Foundation0H10ComponentsVSgvM
++ _$s10OmniSearch22HotelReservationEntityV15checkInDateTime10Foundation0H10ComponentsVSgvg
++ _$s10OmniSearch22HotelReservationEntityV15checkInDateTime10Foundation0H10ComponentsVSgvpMV
++ _$s10OmniSearch22HotelReservationEntityV15checkInDateTime10Foundation0H10ComponentsVSgvs
++ _$s10OmniSearch22HotelReservationEntityV16$checkInDateTime10AppIntents0E8PropertyCy10Foundation0H10ComponentsVSgGvg
++ _$s10OmniSearch22HotelReservationEntityV16$checkInDateTime10AppIntents0E8PropertyCy10Foundation0H10ComponentsVSgGvpMV
++ _$s10OmniSearch22HotelReservationEntityV16checkOutDateTime10Foundation0H10ComponentsVSgvM
++ _$s10OmniSearch22HotelReservationEntityV16checkOutDateTime10Foundation0H10ComponentsVSgvg
++ _$s10OmniSearch22HotelReservationEntityV16checkOutDateTime10Foundation0H10ComponentsVSgvpMV
++ _$s10OmniSearch22HotelReservationEntityV16checkOutDateTime10Foundation0H10ComponentsVSgvs
++ _$s10OmniSearch22HotelReservationEntityV17$checkOutDateTime10AppIntents0E8PropertyCy10Foundation0H10ComponentsVSgGvg
++ _$s10OmniSearch22HotelReservationEntityV17$checkOutDateTime10AppIntents0E8PropertyCy10Foundation0H10ComponentsVSgGvpMV
++ _$s10OmniSearch22HotelReservationEntityV18confirmationNumber5guest15bookingProvider12businessName11roomNumbers7address15checkInDateTime0p3OutrS005phoneG03urlACSSSg_A3NSaySSGAN10Foundation0R10ComponentsVSgAsnP3URLVSgtcfC
++ _$s10OmniSearch22HotelReservationEntityV25typeDisplayRepresentation10AppIntents04TypegH0VvpZMV
++ _$s10OmniSearch22MemoryCreationQUResultV25typeDisplayRepresentation10AppIntents04TypegH0VvpZMV
++ _$s10OmniSearch22PQAVerificationRequestV19personalDataSourcesSaySDyS2SGGvM
++ _$s10OmniSearch22PQAVerificationRequestV19personalDataSourcesSaySDyS2SGGvg
++ _$s10OmniSearch22PQAVerificationRequestV19personalDataSourcesSaySDyS2SGGvpMV
++ _$s10OmniSearch22PQAVerificationRequestV19personalDataSourcesSaySDyS2SGGvs
++ _$s10OmniSearch22PQAVerificationRequestV23personalDataSourcesJsonSSyKF
++ _$s10OmniSearch22PQAVerificationRequestV5query6answer19personalDataSources7contextACSS_SSSaySDyS2SGGSSSgtcfC
++ _$s10OmniSearch22PQAVerificationRequestV7contextSSSgvM
++ _$s10OmniSearch22PQAVerificationRequestV7contextSSSgvg
++ _$s10OmniSearch22PQAVerificationRequestV7contextSSSgvpMV
++ _$s10OmniSearch22PQAVerificationRequestV7contextSSSgvs
++ _$s10OmniSearch22PQAVerificationRequestV9getLocale10Foundation0F0VSgyF
++ _$s10OmniSearch22PQAVerificationRequestVAA015AnswerSynthesisD8ProtocolAAMc
++ _$s10OmniSearch22PQAVerificationRequestVAA015AnswerSynthesisD8ProtocolAAWP
++ _$s10OmniSearch22PreExtractedBreadcrumbV20extractedDatesValuesSay10Foundation4DateVGSgvg
++ _$s10OmniSearch22PreExtractedBreadcrumbV20extractedDatesValuesSay10Foundation4DateVGSgvpMV
++ _$s10OmniSearch22PreExtractedBreadcrumbV24extractedLocationsValuesSaySSGSgvg
++ _$s10OmniSearch22PreExtractedBreadcrumbV24extractedLocationsValuesSaySSGSgvpMV
++ _$s10OmniSearch22PreExtractedBreadcrumbV24llmConsumableDescription6localeS2SSg_tF
++ _$s10OmniSearch22PreExtractedBreadcrumbV25extractedCurrenciesValuesSaySSGSgvg
++ _$s10OmniSearch22PreExtractedBreadcrumbV25extractedCurrenciesValuesSaySSGSgvpMV
++ _$s10OmniSearch22PreExtractedSharedLinkV24llmConsumableDescription6localeS2SSg_tF
++ _$s10OmniSearch22SpotlightItemProvidingP11openCommand10AppIntents10IntentFileVSgvMTj
++ _$s10OmniSearch22SpotlightItemProvidingP11openCommand10AppIntents10IntentFileVSgvMTq
++ _$s10OmniSearch22SpotlightItemProvidingP11openCommand10AppIntents10IntentFileVSgvgTj
++ _$s10OmniSearch22SpotlightItemProvidingP11openCommand10AppIntents10IntentFileVSgvgTq
++ _$s10OmniSearch22SpotlightItemProvidingP11openCommand10AppIntents10IntentFileVSgvsTj
++ _$s10OmniSearch22SpotlightItemProvidingP11openCommand10AppIntents10IntentFileVSgvsTq
++ _$s10OmniSearch22TicketedTransportationV24llmConsumableDescription6localeS2SSg_tF
++ _$s10OmniSearch22TicketedTransportationV2id22eventMessageIdentifier0f5GroupH00f8FallbackiH00f8MegadomeH00F4Type0f3SubL00f12SourceBundleH00F8IsAllDay04timeP7Unknown0fnP9Forwarded7authors04mailG2Id0wG6Header07accountH09mailboxes18detectedEventTypes0fN24LLMConsumableDescription13customerNames17startLocationName20startLocationAddress15endLocationName18endLocationAddress11seatNumbers17durationInSeconds9startDate7endDateACSS_SSSgA3_A3_A3_A3_A3_A3_SbSgSbA4_SaySSGSgA3_A3_A3_A6_A6_A3_A6_A3_A3_A3_A3_A6_SdSg10Foundation4DateVSgA11_tcfC
++ _$s10OmniSearch22TicketedTransportationV35eventSourceLLMConsumableDescriptionSSSgvM
++ _$s10OmniSearch22TicketedTransportationV35eventSourceLLMConsumableDescriptionSSSgvg
++ _$s10OmniSearch22TicketedTransportationV35eventSourceLLMConsumableDescriptionSSSgvpMV
++ _$s10OmniSearch22TicketedTransportationV35eventSourceLLMConsumableDescriptionSSSgvs
++ _$s10OmniSearch23AnswerSynthesisOverrideV11defaultsKeySSvau
++ _$s10OmniSearch23AnswerSynthesisOverrideV11defaultsKeySSvgZ
++ _$s10OmniSearch23AnswerSynthesisOverrideV11defaultsKeySSvpZ
++ _$s10OmniSearch23AnswerSynthesisOverrideV11defaultsKeySSvpZMV
++ _$s10OmniSearch23AnswerSynthesisOverrideV22defaultsRepresentationACSo12NSDictionaryC_tKcfC
++ _$s10OmniSearch23AnswerSynthesisOverrideV22defaultsRepresentationSo12NSDictionaryCyKF
++ _$s10OmniSearch23AnswerSynthesisOverrideV8responseSSvM
++ _$s10OmniSearch23AnswerSynthesisOverrideV8responseSSvg
++ _$s10OmniSearch23AnswerSynthesisOverrideV8responseSSvpMV
++ _$s10OmniSearch23AnswerSynthesisOverrideV8responseSSvs
++ _$s10OmniSearch23AnswerSynthesisOverrideVMa
++ _$s10OmniSearch23AnswerSynthesisOverrideVMn
++ _$s10OmniSearch23AnswerSynthesisOverrideVN
++ _$s10OmniSearch23FlightReservationEntityV11openCommand10AppIntents10IntentFileVSgvM
++ _$s10OmniSearch23FlightReservationEntityV11openCommand10AppIntents10IntentFileVSgvg
++ _$s10OmniSearch23FlightReservationEntityV11openCommand10AppIntents10IntentFileVSgvpMV
++ _$s10OmniSearch23FlightReservationEntityV11openCommand10AppIntents10IntentFileVSgvs
++ _$s10OmniSearch23FlightReservationEntityV12$openCommand10AppIntents0E8PropertyCyAE10IntentFileVSgGvg
++ _$s10OmniSearch23FlightReservationEntityV12$openCommand10AppIntents0E8PropertyCyAE10IntentFileVSgGvpMV
++ _$s10OmniSearch23FlightReservationEntityV18arrivalAirportCode0fG4Name0F8DateTime0F4Gate0F8Terminal08boardingjK015bookingProvider7carrier10checkInUrl18confirmationNumber09departuregH00wgI00wjK00wL00wM010designator06flightV014passengerNames11seatNumbers6status4cost13totalDurationACSSSg_AZ10Foundation0J10ComponentsVA2ZA1_SgA2ZA_3URLVSgA3ZA1_A4ZSaySSGA6_SS10AppIntents20IntentCurrencyAmountVSgSdSgtcfC
++ _$s10OmniSearch23FlightReservationEntityV25typeDisplayRepresentation10AppIntents04TypegH0VvpZMV
++ _$s10OmniSearch23FlightReservationEntityV4cost10AppIntents20IntentCurrencyAmountVSgvM
++ _$s10OmniSearch23FlightReservationEntityV4cost10AppIntents20IntentCurrencyAmountVSgvg
++ _$s10OmniSearch23FlightReservationEntityV4cost10AppIntents20IntentCurrencyAmountVSgvpMV
++ _$s10OmniSearch23FlightReservationEntityV4cost10AppIntents20IntentCurrencyAmountVSgvs
++ _$s10OmniSearch23FlightReservationEntityV5$cost10AppIntents0E8PropertyCyAE20IntentCurrencyAmountVSgGvg
++ _$s10OmniSearch23FlightReservationEntityV5$cost10AppIntents0E8PropertyCyAE20IntentCurrencyAmountVSgGvpMV
++ _$s10OmniSearch23GlobalResolutionServiceC12resolveMedia4name5query8clientId3appAA12ResolvedInfoVSS_SSSgSS10AppIntents17IntentApplicationVSgtYaKF
++ _$s10OmniSearch23GlobalResolutionServiceC12resolveMedia4name5query8clientId3appAA12ResolvedInfoVSS_SSSgSS10AppIntents17IntentApplicationVSgtYaKFTj
++ _$s10OmniSearch23GlobalResolutionServiceC12resolveMedia4name5query8clientId3appAA12ResolvedInfoVSS_SSSgSS10AppIntents17IntentApplicationVSgtYaKFTjTu
++ _$s10OmniSearch23GlobalResolutionServiceC12resolveMedia4name5query8clientId3appAA12ResolvedInfoVSS_SSSgSS10AppIntents17IntentApplicationVSgtYaKFTq
++ _$s10OmniSearch23GlobalResolutionServiceC12resolveMedia4name5query8clientId3appAA12ResolvedInfoVSS_SSSgSS10AppIntents17IntentApplicationVSgtYaKFTu
++ _$s10OmniSearch23GlobalResolutionServiceC13resolveFlight11reservation8clientIdAA12ResolvedInfoVAA0G11ReservationV_SStYaKF
++ _$s10OmniSearch23GlobalResolutionServiceC13resolveFlight11reservation8clientIdAA12ResolvedInfoVAA0G11ReservationV_SStYaKFTj
++ _$s10OmniSearch23GlobalResolutionServiceC13resolveFlight11reservation8clientIdAA12ResolvedInfoVAA0G11ReservationV_SStYaKFTjTu
++ _$s10OmniSearch23GlobalResolutionServiceC13resolveFlight11reservation8clientIdAA12ResolvedInfoVAA0G11ReservationV_SStYaKFTq
++ _$s10OmniSearch23GlobalResolutionServiceC13resolveFlight11reservation8clientIdAA12ResolvedInfoVAA0G11ReservationV_SStYaKFTu
++ _$s10OmniSearch23GlobalResolutionServiceC15resolveLocation7address19isNavigationRequest8clientId8location3appAA12ResolvedInfoVSS_SbSSSo10CLLocationCSg10AppIntents17IntentApplicationVSgtYaKF
++ _$s10OmniSearch23GlobalResolutionServiceC15resolveLocation7address19isNavigationRequest8clientId8location3appAA12ResolvedInfoVSS_SbSSSo10CLLocationCSg10AppIntents17IntentApplicationVSgtYaKFTj
++ _$s10OmniSearch23GlobalResolutionServiceC15resolveLocation7address19isNavigationRequest8clientId8location3appAA12ResolvedInfoVSS_SbSSSo10CLLocationCSg10AppIntents17IntentApplicationVSgtYaKFTjTu
++ _$s10OmniSearch23GlobalResolutionServiceC15resolveLocation7address19isNavigationRequest8clientId8location3appAA12ResolvedInfoVSS_SbSSSo10CLLocationCSg10AppIntents17IntentApplicationVSgtYaKFTq
++ _$s10OmniSearch23GlobalResolutionServiceC15resolveLocation7address19isNavigationRequest8clientId8location3appAA12ResolvedInfoVSS_SbSSSo10CLLocationCSg10AppIntents17IntentApplicationVSgtYaKFTu
++ _$s10OmniSearch23GlobalResolutionServiceC15resolveLocation7address8clientId3appAA12ResolvedInfoVSS_SS10AppIntents17IntentApplicationVSgtYaKF
++ _$s10OmniSearch23GlobalResolutionServiceC15resolveLocation7address8clientId3appAA12ResolvedInfoVSS_SS10AppIntents17IntentApplicationVSgtYaKFTj
++ _$s10OmniSearch23GlobalResolutionServiceC15resolveLocation7address8clientId3appAA12ResolvedInfoVSS_SS10AppIntents17IntentApplicationVSgtYaKFTjTu
++ _$s10OmniSearch23GlobalResolutionServiceC15resolveLocation7address8clientId3appAA12ResolvedInfoVSS_SS10AppIntents17IntentApplicationVSgtYaKFTq
++ _$s10OmniSearch23GlobalResolutionServiceC15resolveLocation7address8clientId3appAA12ResolvedInfoVSS_SS10AppIntents17IntentApplicationVSgtYaKFTu
++ _$s10OmniSearch23GlobalResolutionServiceC15resolveMediaURL_8clientIdAA12ResolvedInfoV10Foundation0H0V_SStYaKF
++ _$s10OmniSearch23GlobalResolutionServiceC15resolveMediaURL_8clientIdAA12ResolvedInfoV10Foundation0H0V_SStYaKFTj
++ _$s10OmniSearch23GlobalResolutionServiceC15resolveMediaURL_8clientIdAA12ResolvedInfoV10Foundation0H0V_SStYaKFTjTu
++ _$s10OmniSearch23GlobalResolutionServiceC15resolveMediaURL_8clientIdAA12ResolvedInfoV10Foundation0H0V_SStYaKFTq
++ _$s10OmniSearch23GlobalResolutionServiceC15resolveMediaURL_8clientIdAA12ResolvedInfoV10Foundation0H0V_SStYaKFTu
++ _$s10OmniSearch23GlobalResolutionServiceC26constructMediaClientEntity3url10PegasusAPI026Apple_Parsec_Siri_Context_hI0V10Foundation3URLV_tKFZ
++ _$s10OmniSearch23LLMQUModelAppEntityTypeO8allCasesSayACGvpZMV
++ _$s10OmniSearch23SourceDocumentRetrieverC0D14RetrievalErrorOMa
++ _$s10OmniSearch23SourceDocumentRetrieverC0D14RetrievalErrorOMn
++ _$s10OmniSearch23SourceDocumentRetrieverC0D14RetrievalErrorON
++ _$s10OmniSearch23SourceDocumentRetrieverC0D14RetrievalErrorOs0G0AAMc
++ _$s10OmniSearch23SourceDocumentRetrieverC15fetchAttributes15protectionClass8bundleId03docK010attributesSDySSypGSgSo20NSFileProtectionTypea_S2SSaySSGSgtYaFTj
++ _$s10OmniSearch23SourceDocumentRetrieverC15fetchAttributes15protectionClass8bundleId03docK010attributesSDySSypGSgSo20NSFileProtectionTypea_S2SSaySSGSgtYaFTjTu
++ _$s10OmniSearch23SourceDocumentRetrieverC15fetchAttributes15protectionClass8bundleId03docK010attributesSDySSypGSgSo20NSFileProtectionTypea_S2SSaySSGSgtYaFTq
++ _$s10OmniSearch23SourceDocumentRetrieverC8fetchDoc8bundleId03docI0AA0B6ResultVSgSS_SStYaKFTj
++ _$s10OmniSearch23SourceDocumentRetrieverC8fetchDoc8bundleId03docI0AA0B6ResultVSgSS_SStYaKFTjTu
++ _$s10OmniSearch23SourceDocumentRetrieverC8fetchDoc8bundleId03docI0AA0B6ResultVSgSS_SStYaKFTq
++ _$s10OmniSearch23SourceDocumentRetrieverC9fetchDocsySayAA0B6ResultVGSaySS8bundleId_SS03docJ0tGYaKFTj
++ _$s10OmniSearch23SourceDocumentRetrieverC9fetchDocsySayAA0B6ResultVGSaySS8bundleId_SS03docJ0tGYaKFTjTu
++ _$s10OmniSearch23SourceDocumentRetrieverC9fetchDocsySayAA0B6ResultVGSaySS8bundleId_SS03docJ0tGYaKFTq
++ _$s10OmniSearch23SourceDocumentRetrieverCACycfC
++ _$s10OmniSearch23SourceDocumentRetrieverCACycfCTj
++ _$s10OmniSearch23SourceDocumentRetrieverCACycfCTq
++ _$s10OmniSearch23SourceDocumentRetrieverCACycfc
++ _$s10OmniSearch23SourceDocumentRetrieverCMa
++ _$s10OmniSearch23SourceDocumentRetrieverCMm
++ _$s10OmniSearch23SourceDocumentRetrieverCMn
++ _$s10OmniSearch23SourceDocumentRetrieverCMo
++ _$s10OmniSearch23SourceDocumentRetrieverCMu
++ _$s10OmniSearch23SourceDocumentRetrieverCN
++ _$s10OmniSearch23SourceDocumentRetrieverCfD
++ _$s10OmniSearch23SourceDocumentRetrieverCfd
++ _$s10OmniSearch24VehicleReservationEntityV11openCommand10AppIntents10IntentFileVSgvM
++ _$s10OmniSearch24VehicleReservationEntityV11openCommand10AppIntents10IntentFileVSgvg
++ _$s10OmniSearch24VehicleReservationEntityV11openCommand10AppIntents10IntentFileVSgvpMV
++ _$s10OmniSearch24VehicleReservationEntityV11openCommand10AppIntents10IntentFileVSgvs
++ _$s10OmniSearch24VehicleReservationEntityV12$openCommand10AppIntents0E8PropertyCyAE10IntentFileVSgGvg
++ _$s10OmniSearch24VehicleReservationEntityV12$openCommand10AppIntents0E8PropertyCyAE10IntentFileVSgGvpMV
++ _$s10OmniSearch24VehicleReservationEntityV25typeDisplayRepresentation10AppIntents04TypegH0VvpZMV
++ _$s10OmniSearch25AnswerSynthesisControllerC017requestedPropertyE0AA09RequestedgE8Protocol_pvMTj
++ _$s10OmniSearch25AnswerSynthesisControllerC017requestedPropertyE0AA09RequestedgE8Protocol_pvMTq
++ _$s10OmniSearch25AnswerSynthesisControllerC017requestedPropertyE0AA09RequestedgE8Protocol_pvgTj
++ _$s10OmniSearch25AnswerSynthesisControllerC017requestedPropertyE0AA09RequestedgE8Protocol_pvgTq
++ _$s10OmniSearch25AnswerSynthesisControllerC017requestedPropertyE0AA09RequestedgE8Protocol_pvpMV
++ _$s10OmniSearch25AnswerSynthesisControllerC017requestedPropertyE0AA09RequestedgE8Protocol_pvsTj
++ _$s10OmniSearch25AnswerSynthesisControllerC017requestedPropertyE0AA09RequestedgE8Protocol_pvsTq
++ _$s10OmniSearch25AnswerSynthesisControllerC021convertOnScreenTextToB7ResultsySDySSAA0B6ResultVGSaySSGSgFTj
++ _$s10OmniSearch25AnswerSynthesisControllerC021convertOnScreenTextToB7ResultsySDySSAA0B6ResultVGSaySSGSgFTq
++ _$s10OmniSearch25AnswerSynthesisControllerC02noC6LabelsShySSGvpZMV
++ _$s10OmniSearch25AnswerSynthesisControllerC06answerD5Model015pqaVerificationG09modelType0fD10TokenLimit18featureFlagService22hallucinationMitigator017requestedPropertyE0AcA0cdG8Protocol_pSg_AA015PQAVerificationgU0_pSgAC0cdgK0OSiAA07FeatureoP0CAA023HallucinationMitigationU0_pAA09RequestedteU0_ptcfC
++ _$s10OmniSearch25AnswerSynthesisControllerC06answerD5Model015pqaVerificationG09modelType0fD10TokenLimit18featureFlagService22hallucinationMitigator017requestedPropertyE0AcA0cdG8Protocol_pSg_AA015PQAVerificationgU0_pSgAC0cdgK0OSiAA07FeatureoP0CAA023HallucinationMitigationU0_pAA09RequestedteU0_ptcfCTj
++ _$s10OmniSearch25AnswerSynthesisControllerC06answerD5Model015pqaVerificationG09modelType0fD10TokenLimit18featureFlagService22hallucinationMitigator017requestedPropertyE0AcA0cdG8Protocol_pSg_AA015PQAVerificationgU0_pSgAC0cdgK0OSiAA07FeatureoP0CAA023HallucinationMitigationU0_pAA09RequestedteU0_ptcfCTq
++ _$s10OmniSearch25AnswerSynthesisControllerC06answerD5Model015pqaVerificationG09modelType0fD10TokenLimit18featureFlagService22hallucinationMitigator017requestedPropertyE0AcA0cdG8Protocol_pSg_AA015PQAVerificationgU0_pSgAC0cdgK0OSiAA07FeatureoP0CAA023HallucinationMitigationU0_pAA09RequestedteU0_ptcfc
++ _$s10OmniSearch25AnswerSynthesisControllerC06answerD5Model015pqaVerificationG09modelType0fD10TokenLimit18featureFlagService22hallucinationMitigator017requestedPropertyE0AcA0cdG8Protocol_pSg_AA015PQAVerificationgU0_pSgAC0cdgK0OSiAA07FeatureoP0CAA023HallucinationMitigationU0_pAA09RequestedteU0_ptcfcfA4_
++ _$s10OmniSearch25AnswerSynthesisControllerC06answerD5Model015pqaVerificationG09modelType0fD10TokenLimit18featureFlagService22hallucinationMitigator017requestedPropertyE0AcA0cdG8Protocol_pSg_AA015PQAVerificationgU0_pSgAC0cdgK0OSiAA07FeatureoP0CAA023HallucinationMitigationU0_pAA09RequestedteU0_ptcfcfA5_
++ _$s10OmniSearch25AnswerSynthesisControllerC06createcD7Request3for19requestedProperties7results12onScreenText7context16enableTruncationAA0cdG0VSS_SayAA0b8PropertyG0VGSayAA0B6ResultVGSaySSGSgAA0cdG7ContextVSbtKFTj
++ _$s10OmniSearch25AnswerSynthesisControllerC06createcD7Request3for19requestedProperties7results12onScreenText7context16enableTruncationAA0cdG0VSS_SayAA0b8PropertyG0VGSayAA0B6ResultVGSaySSGSgAA0cdG7ContextVSbtKFTq
++ _$s10OmniSearch25AnswerSynthesisControllerC06createcD7Request3for19requestedProperties7results12onScreenText7context16enableTruncationAA0cdG0VSS_SayAA0b8PropertyG0VGSayAA0B6ResultVGSaySSGSgAA0cdG7ContextVSbtKFfA4_
++ _$s10OmniSearch25AnswerSynthesisControllerC07convertd8ResultTobG7Answers7request09synthesisG013searchResults06answerD7Metrics8clientIdAA0cdG0OAA0cD7RequestV_AA0cd5ModelG0VSayAA0bG0VG27IntelligencePlatformLibrary0t4FlowB13ToolTelemetryV0bxcdG0VzSStYaKFTj
++ _$s10OmniSearch25AnswerSynthesisControllerC07convertd8ResultTobG7Answers7request09synthesisG013searchResults06answerD7Metrics8clientIdAA0cdG0OAA0cD7RequestV_AA0cd5ModelG0VSayAA0bG0VG27IntelligencePlatformLibrary0t4FlowB13ToolTelemetryV0bxcdG0VzSStYaKFTjTu
++ _$s10OmniSearch25AnswerSynthesisControllerC07convertd8ResultTobG7Answers7request09synthesisG013searchResults06answerD7Metrics8clientIdAA0cdG0OAA0cD7RequestV_AA0cd5ModelG0VSayAA0bG0VG27IntelligencePlatformLibrary0t4FlowB13ToolTelemetryV0bxcdG0VzSStYaKFTq
++ _$s10OmniSearch25AnswerSynthesisControllerC07performD7Request3for4with06answerD7Metrics8clientIdAA0cD6ResultOAA0cdG0V_SayAA0bN0VG27IntelligencePlatformLibrary0o4FlowB13ToolTelemetryV0bscdN0VzSStYaKFTj
++ _$s10OmniSearch25AnswerSynthesisControllerC07performD7Request3for4with06answerD7Metrics8clientIdAA0cD6ResultOAA0cdG0V_SayAA0bN0VG27IntelligencePlatformLibrary0o4FlowB13ToolTelemetryV0bscdN0VzSStYaKFTjTu
++ _$s10OmniSearch25AnswerSynthesisControllerC07performD7Request3for4with06answerD7Metrics8clientIdAA0cD6ResultOAA0cdG0V_SayAA0bN0VG27IntelligencePlatformLibrary0o4FlowB13ToolTelemetryV0bscdN0VzSStYaKFTq
++ _$s10OmniSearch25AnswerSynthesisControllerC10synthesize5query19requestedProperties13searchResults12onScreenText7context8clientIdAA0K6DialogVSS_SayAA0B15PropertyRequestVGSayAA0B6ResultVGSaySSGSgAA0cdT7ContextVSStYaKFTj
++ _$s10OmniSearch25AnswerSynthesisControllerC10synthesize5query19requestedProperties13searchResults12onScreenText7context8clientIdAA0K6DialogVSS_SayAA0B15PropertyRequestVGSayAA0B6ResultVGSaySSGSgAA0cdT7ContextVSStYaKFTjTu
++ _$s10OmniSearch25AnswerSynthesisControllerC10synthesize5query19requestedProperties13searchResults12onScreenText7context8clientIdAA0K6DialogVSS_SayAA0B15PropertyRequestVGSayAA0B6ResultVGSaySSGSgAA0cdT7ContextVSStYaKFTq
++ _$s10OmniSearch25AnswerSynthesisControllerC10synthesize5query19requestedProperties13searchResults12onScreenText7context8clientIdAA0K6DialogVSS_SayAA0B15PropertyRequestVGSayAA0B6ResultVGSaySSGSgAA0cdT7ContextVSStYaKFfA0_
++ _$s10OmniSearch25AnswerSynthesisControllerC12prewarmModel7urgencyy15TokenGeneration14PrewarmUrgencyV_tFTj
++ _$s10OmniSearch25AnswerSynthesisControllerC12prewarmModel7urgencyy15TokenGeneration14PrewarmUrgencyV_tFTq
++ _$s10OmniSearch25AnswerSynthesisControllerC15isHallucination6result5query14inputDocuments6localeSbAA0B6ResultV_SSSayAJGSSSgtFTj
++ _$s10OmniSearch25AnswerSynthesisControllerC15isHallucination6result5query14inputDocuments6localeSbAA0B6ResultV_SSSayAJGSSSgtFTq
++ _$s10OmniSearch25AnswerSynthesisControllerC16createProperties4from09requestedG06answerSayAA0B16PropertyResponseVGSDyS2SGSg_SayAA0bK7RequestVGSStYaKFTj
++ _$s10OmniSearch25AnswerSynthesisControllerC16createProperties4from09requestedG06answerSayAA0B16PropertyResponseVGSDyS2SGSg_SayAA0bK7RequestVGSStYaKFTjTu
++ _$s10OmniSearch25AnswerSynthesisControllerC16createProperties4from09requestedG06answerSayAA0B16PropertyResponseVGSDyS2SGSg_SayAA0bK7RequestVGSStYaKFTq
++ _$s10OmniSearch25AnswerSynthesisControllerC16initializeModels4withy10Foundation6LocaleV_tKFTj
++ _$s10OmniSearch25AnswerSynthesisControllerC16initializeModels4withy10Foundation6LocaleV_tKFTq
++ _$s10OmniSearch25AnswerSynthesisControllerC16supportedTypeMapSDyAA0B9ResultKeyOSSGvau
++ _$s10OmniSearch25AnswerSynthesisControllerC16supportedTypeMapSDyAA0B9ResultKeyOSSGvgZ
++ _$s10OmniSearch25AnswerSynthesisControllerC16supportedTypeMapSDyAA0B9ResultKeyOSSGvpZ
++ _$s10OmniSearch25AnswerSynthesisControllerC16supportedTypeMapSDyAA0B9ResultKeyOSSGvpZMV
++ _$s10OmniSearch25AnswerSynthesisControllerC18compareAndBackfill3for4withSayAA0B16PropertyResponseVGSgAI_SayAA0bK7RequestVGtFTj
++ _$s10OmniSearch25AnswerSynthesisControllerC18compareAndBackfill3for4withSayAA0B16PropertyResponseVGSgAI_SayAA0bK7RequestVGtFTq
++ _$s10OmniSearch25AnswerSynthesisControllerC30answersMitigatingHallucination6result5query14inputDocuments6localeAA0cD6ResultOAJ_SSSayAA0bN0VGSSSgtFTj
++ _$s10OmniSearch25AnswerSynthesisControllerC30answersMitigatingHallucination6result5query14inputDocuments6localeAA0cD6ResultOAJ_SSSayAA0bN0VGSSSgtFTq
++ _$s10OmniSearch25AnswerSynthesisControllerC6sharedACvpZMV
++ _$s10OmniSearch25AnswerSynthesisControllerC9modelType06answerD10TokenLimit18featureFlagService22hallucinationMitigator017requestedPropertyE0A2C0cd5ModelG0O_SiAA07FeaturelM0CAA31HallucinationMitigationProtocol_pAA09RequestedqeV0_ptcfC
++ _$s10OmniSearch25AnswerSynthesisControllerC9modelType06answerD10TokenLimit18featureFlagService22hallucinationMitigator017requestedPropertyE0A2C0cd5ModelG0O_SiAA07FeaturelM0CAA31HallucinationMitigationProtocol_pAA09RequestedqeV0_ptcfCTj
++ _$s10OmniSearch25AnswerSynthesisControllerC9modelType06answerD10TokenLimit18featureFlagService22hallucinationMitigator017requestedPropertyE0A2C0cd5ModelG0O_SiAA07FeaturelM0CAA31HallucinationMitigationProtocol_pAA09RequestedqeV0_ptcfCTq
++ _$s10OmniSearch25AnswerSynthesisControllerC9modelType06answerD10TokenLimit18featureFlagService22hallucinationMitigator017requestedPropertyE0A2C0cd5ModelG0O_SiAA07FeaturelM0CAA31HallucinationMitigationProtocol_pAA09RequestedqeV0_ptcfc
++ _$s10OmniSearch25AnswerSynthesisControllerC9modelType06answerD10TokenLimit18featureFlagService22hallucinationMitigator017requestedPropertyE0A2C0cd5ModelG0O_SiAA07FeaturelM0CAA31HallucinationMitigationProtocol_pAA09RequestedqeV0_ptcfcfA2_
++ _$s10OmniSearch25AnswerSynthesisControllerC9modelType06answerD10TokenLimit18featureFlagService22hallucinationMitigator017requestedPropertyE0A2C0cd5ModelG0O_SiAA07FeaturelM0CAA31HallucinationMitigationProtocol_pAA09RequestedqeV0_ptcfcfA3_
++ _$s10OmniSearch25AnswerSynthesisModelErrorO2eeoiySbAC_ACtFZ
++ _$s10OmniSearch25AnswerSynthesisModelErrorO4hash4intoys6HasherVz_tF
++ _$s10OmniSearch25AnswerSynthesisModelErrorO9hashValueSivg
++ _$s10OmniSearch25AnswerSynthesisModelErrorO9hashValueSivpMV
++ _$s10OmniSearch25AnswerSynthesisModelErrorOMa
++ _$s10OmniSearch25AnswerSynthesisModelErrorOMn
++ _$s10OmniSearch25AnswerSynthesisModelErrorON
++ _$s10OmniSearch25AnswerSynthesisModelErrorOSHAAMc
++ _$s10OmniSearch25AnswerSynthesisModelErrorOSQAAMc
++ _$s10OmniSearch25AnswerSynthesisModelErrorOs0F0AAMc
++ _$s10OmniSearch25LLMQUModelAppEntityStatusO8allCasesSayACGvpZMV
++ _$s10OmniSearch25MemoryCreationQueryParserCAA09SpotlighteF8ProtocolAAMc
++ _$s10OmniSearch25MemoryCreationQueryParserCAA09SpotlighteF8ProtocolAAWP
++ _$s10OmniSearch25RequestedPropertiesMapperC013groupExpandedD0_09extractedD0SDyAA0B15PropertyRequestVypGSayAGG_SDyS2SGtFZ
++ _$s10OmniSearch25RequestedPropertiesMapperC07defaultD3For14preferredTypesSayAA0B15PropertyRequestVGSayAA13PreferredTypeOG_tFZ
++ _$s10OmniSearch25RequestedPropertiesMapperC11MappingTypeO8rawValueAESgSS_tcfC
++ _$s10OmniSearch25RequestedPropertiesMapperC11MappingTypeO8rawValueSSvg
++ _$s10OmniSearch25RequestedPropertiesMapperC11MappingTypeO8rawValueSSvpMV
++ _$s10OmniSearch25RequestedPropertiesMapperC11MappingTypeOMa
++ _$s10OmniSearch25RequestedPropertiesMapperC11MappingTypeOMn
++ _$s10OmniSearch25RequestedPropertiesMapperC11MappingTypeON
++ _$s10OmniSearch25RequestedPropertiesMapperC11MappingTypeOSHAAMc
++ _$s10OmniSearch25RequestedPropertiesMapperC11MappingTypeOSQAAMc
++ _$s10OmniSearch25RequestedPropertiesMapperC11MappingTypeOSYAAMc
++ _$s10OmniSearch25RequestedPropertiesMapperC7resolve_5querySayAA0B15PropertyRequestVGAH_AA9UserQueryVtFZ
++ _$s10OmniSearch25RequestedPropertiesMapperCACycfC
++ _$s10OmniSearch25RequestedPropertiesMapperCACycfCTj
++ _$s10OmniSearch25RequestedPropertiesMapperCACycfCTq
++ _$s10OmniSearch25RequestedPropertiesMapperCACycfc
++ _$s10OmniSearch25RequestedPropertiesMapperCMa
++ _$s10OmniSearch25RequestedPropertiesMapperCMm
++ _$s10OmniSearch25RequestedPropertiesMapperCMn
++ _$s10OmniSearch25RequestedPropertiesMapperCMo
++ _$s10OmniSearch25RequestedPropertiesMapperCMu
++ _$s10OmniSearch25RequestedPropertiesMapperCN
++ _$s10OmniSearch25RequestedPropertiesMapperCfD
++ _$s10OmniSearch25RequestedPropertiesMapperCfd
++ _$s10OmniSearch25SiriXReadingFallbackErrorV010serializedB7Results09isContentB5QueryAC10Foundation4DataV_SbtcfC
++ _$s10OmniSearch25SiriXReadingFallbackErrorV010serializedB7Results09isContentB5QueryAC10Foundation4DataV_SbtcfcfA0_
++ _$s10OmniSearch25SiriXReadingFallbackErrorV010serializedB7Results10Foundation4DataVvM
++ _$s10OmniSearch25SiriXReadingFallbackErrorV010serializedB7Results10Foundation4DataVvg
++ _$s10OmniSearch25SiriXReadingFallbackErrorV010serializedB7Results10Foundation4DataVvpMV
++ _$s10OmniSearch25SiriXReadingFallbackErrorV010serializedB7Results10Foundation4DataVvs
++ _$s10OmniSearch25SiriXReadingFallbackErrorV09isContentB5QuerySbvM
++ _$s10OmniSearch25SiriXReadingFallbackErrorV09isContentB5QuerySbvg
++ _$s10OmniSearch25SiriXReadingFallbackErrorV09isContentB5QuerySbvpMV
++ _$s10OmniSearch25SiriXReadingFallbackErrorV09isContentB5QuerySbvs
++ _$s10OmniSearch25SiriXReadingFallbackErrorV10Foundation09LocalizedF0AAMc
++ _$s10OmniSearch25SiriXReadingFallbackErrorV10Foundation13CustomNSErrorAAMc
++ _$s10OmniSearch25SiriXReadingFallbackErrorV11errorDomainSSvgZ
++ _$s10OmniSearch25SiriXReadingFallbackErrorV11errorDomainSSvpZMV
++ _$s10OmniSearch25SiriXReadingFallbackErrorV13errorUserInfoSDySSypGvg
++ _$s10OmniSearch25SiriXReadingFallbackErrorV13errorUserInfoSDySSypGvpMV
++ _$s10OmniSearch25SiriXReadingFallbackErrorV16errorDescriptionSSvg
++ _$s10OmniSearch25SiriXReadingFallbackErrorV16errorDescriptionSSvpMV
++ _$s10OmniSearch25SiriXReadingFallbackErrorV9errorCodeSivg
++ _$s10OmniSearch25SiriXReadingFallbackErrorV9errorCodeSivpMV
++ _$s10OmniSearch25SiriXReadingFallbackErrorVMa
++ _$s10OmniSearch25SiriXReadingFallbackErrorVMn
++ _$s10OmniSearch25SiriXReadingFallbackErrorVN
++ _$s10OmniSearch25SiriXReadingFallbackErrorVs0F0AAMc
++ _$s10OmniSearch26AnswerSynthesisModelResultV0C8ResponseV10CodingKeysO11stringValueAGSgSS_tcfC
++ _$s10OmniSearch26AnswerSynthesisModelResultV0C8ResponseV10CodingKeysO11stringValueSSvg
++ _$s10OmniSearch26AnswerSynthesisModelResultV0C8ResponseV10CodingKeysO11stringValueSSvpMV
++ _$s10OmniSearch26AnswerSynthesisModelResultV0C8ResponseV10CodingKeysO8intValueAGSgSi_tcfC
++ _$s10OmniSearch26AnswerSynthesisModelResultV0C8ResponseV10CodingKeysO8intValueSiSgvg
++ _$s10OmniSearch26AnswerSynthesisModelResultV0C8ResponseV10CodingKeysO8intValueSiSgvpMV
++ _$s10OmniSearch26AnswerSynthesisModelResultV0C8ResponseV10CodingKeysO8rawValueAGSgSS_tcfC
++ _$s10OmniSearch26AnswerSynthesisModelResultV0C8ResponseV10CodingKeysO8rawValueSSvg
++ _$s10OmniSearch26AnswerSynthesisModelResultV0C8ResponseV10CodingKeysO8rawValueSSvpMV
++ _$s10OmniSearch26AnswerSynthesisModelResultV0C8ResponseV10CodingKeysOMa
++ _$s10OmniSearch26AnswerSynthesisModelResultV0C8ResponseV10CodingKeysOMn
++ _$s10OmniSearch26AnswerSynthesisModelResultV0C8ResponseV10CodingKeysON
++ _$s10OmniSearch26AnswerSynthesisModelResultV0C8ResponseV10CodingKeysOSHAAMc
++ _$s10OmniSearch26AnswerSynthesisModelResultV0C8ResponseV10CodingKeysOSQAAMc
++ _$s10OmniSearch26AnswerSynthesisModelResultV0C8ResponseV10CodingKeysOSYAAMc
++ _$s10OmniSearch26AnswerSynthesisModelResultV0C8ResponseV10CodingKeysOs0H3KeyAAMc
++ _$s10OmniSearch26AnswerSynthesisModelResultV0C8ResponseV10CodingKeysOs23CustomStringConvertibleAAMc
++ _$s10OmniSearch26AnswerSynthesisModelResultV0C8ResponseV10CodingKeysOs28CustomDebugStringConvertibleAAMc
++ _$s10OmniSearch26AnswerSynthesisModelResultV0C8ResponseV19extractedPropertiesSDyS2SGSgvg
++ _$s10OmniSearch26AnswerSynthesisModelResultV0C8ResponseV19extractedPropertiesSDyS2SGSgvpMV
++ _$s10OmniSearch26AnswerSynthesisModelResultV0C8ResponseV6answer4docs6dialog19extractedPropertiesAESS_SaySSGSSSgSDyS2SGSgtcfC
++ _$s10OmniSearch26AnswerSynthesisModelResultV0C8ResponseV6schema29GenerativeFunctionsFoundation6SchemaVvpZMV
++ _$s10OmniSearch26AnswerSynthesisModelResultV15answerResponses20disambiguationDialog7isValidACSayAC0C8ResponseVGSg_SSSgSbSgtcfC
++ _$s10OmniSearch26AnswerSynthesisModelResultV15answerResponses20disambiguationDialog7isValidACSayAC0C8ResponseVGSg_SSSgSbSgtcfcfA1_
++ _$s10OmniSearch26AnswerSynthesisModelResultV6schema29GenerativeFunctionsFoundation6SchemaVvpZMV
++ _$s10OmniSearch26AnswerSynthesisModelServerC12languageCodeAC10Foundation6LocaleV08LanguageH0V_tKcfC
++ _$s10OmniSearch26AnswerSynthesisModelServerC12languageCodeAC10Foundation6LocaleV08LanguageH0V_tKcfCTj
++ _$s10OmniSearch26AnswerSynthesisModelServerC12languageCodeAC10Foundation6LocaleV08LanguageH0V_tKcfCTq
++ _$s10OmniSearch26AnswerSynthesisModelServerC12languageCodeAC10Foundation6LocaleV08LanguageH0V_tKcfc
++ _$s10OmniSearch26AnswerSynthesisModelServerC20createSchemaOverride29GenerativeFunctionsFoundation0H0VSgyF
++ _$s10OmniSearch26AnswerSynthesisModelServerC22synthesizeWithOverride_8bindings6schemaSS9PromptKit0L0V_SDyS2SG29GenerativeFunctionsFoundation6SchemaVSgtYaKF
++ _$s10OmniSearch26AnswerSynthesisModelServerC22synthesizeWithOverride_8bindings6schemaSS9PromptKit0L0V_SDyS2SG29GenerativeFunctionsFoundation6SchemaVSgtYaKFTu
++ _$s10OmniSearch26AnswerSynthesisModelServerC5model15TokenGeneration0H9GeneratorCvM
++ _$s10OmniSearch26AnswerSynthesisModelServerC5model15TokenGeneration0H9GeneratorCvpWvd
++ _$s10OmniSearch26AnswerSynthesisModelServerC5model15TokenGeneration0H9GeneratorCvs
++ _$s10OmniSearch26AnswerSynthesisModelServerC7execute7request10userPromptSSAA0cD15RequestProtocol_p_SStYaKF
++ _$s10OmniSearch26AnswerSynthesisModelServerC7execute7request10userPromptSSAA0cD15RequestProtocol_p_SStYaKFTu
++ _$s10OmniSearch26AnswerSynthesisModelServerC7prewarm7urgencyy15TokenGeneration14PrewarmUrgencyV_tF
++ _$s10OmniSearch26GenericDataProviderManagerV017csSearchableIndexdE0AA012CSSearchableidE8Protocol_pvg
++ _$s10OmniSearch26GenericDataProviderManagerV017csSearchableIndexdE0AA012CSSearchableidE8Protocol_pvpMV
++ _$s10OmniSearch26GenericDataProviderManagerV017csSearchableIndexdE0AcA012CSSearchableidE8Protocol_p_tcfC
++ _$s10OmniSearch26GenericDataProviderManagerV017csSearchableIndexdE0AcA012CSSearchableidE8Protocol_p_tcfcfA_
++ _$s10OmniSearch26GenericDataProviderManagerV16fetchTextContent4fromSSSgAA0B6ResultV_tYaKF
++ _$s10OmniSearch26GenericDataProviderManagerV16fetchTextContent4fromSSSgAA0B6ResultV_tYaKFTu
++ _$s10OmniSearch26GenericDataProviderManagerVMa
++ _$s10OmniSearch26GenericDataProviderManagerVMn
++ _$s10OmniSearch26GenericDataProviderManagerVN
++ _$s10OmniSearch26MemoryCreationQUControllerC11queryParserAA014SpotlightQueryG8Protocol_pvM
++ _$s10OmniSearch26MemoryCreationQUControllerC11queryParserAA014SpotlightQueryG8Protocol_pvMTj
++ _$s10OmniSearch26MemoryCreationQUControllerC11queryParserAA014SpotlightQueryG8Protocol_pvMTq
++ _$s10OmniSearch26MemoryCreationQUControllerC11queryParserAA014SpotlightQueryG8Protocol_pvg
++ _$s10OmniSearch26MemoryCreationQUControllerC11queryParserAA014SpotlightQueryG8Protocol_pvgTj
++ _$s10OmniSearch26MemoryCreationQUControllerC11queryParserAA014SpotlightQueryG8Protocol_pvgTq
++ _$s10OmniSearch26MemoryCreationQUControllerC11queryParserAA014SpotlightQueryG8Protocol_pvpMV
++ _$s10OmniSearch26MemoryCreationQUControllerC11queryParserAA014SpotlightQueryG8Protocol_pvpWvd
++ _$s10OmniSearch26MemoryCreationQUControllerC11queryParserAA014SpotlightQueryG8Protocol_pvs
++ _$s10OmniSearch26MemoryCreationQUControllerC11queryParserAA014SpotlightQueryG8Protocol_pvsTj
++ _$s10OmniSearch26MemoryCreationQUControllerC11queryParserAA014SpotlightQueryG8Protocol_pvsTq
++ _$s10OmniSearch26MemoryCreationQUControllerC12groundPerson33_3A20DC2A334A97F2E47A7FB8702E9546LL6personSayAA09ECRClientG6ResultVGSS_tYaKF
++ _$s10OmniSearch26MemoryCreationQUControllerC12groundPerson33_3A20DC2A334A97F2E47A7FB8702E9546LL6personSayAA09ECRClientG6ResultVGSS_tYaKFTu
++ _$s10OmniSearch26MemoryCreationQUControllerC19llmQUNetworkService9ecrClient11queryParserAcA0cdgH8Protocol_p_AA09ECRClientM0_pSgAA014SpotlightQuerylM0_ptcfC
++ _$s10OmniSearch26MemoryCreationQUControllerC19llmQUNetworkService9ecrClient11queryParserAcA0cdgH8Protocol_p_AA09ECRClientM0_pSgAA014SpotlightQuerylM0_ptcfCTj
++ _$s10OmniSearch26MemoryCreationQUControllerC19llmQUNetworkService9ecrClient11queryParserAcA0cdgH8Protocol_p_AA09ECRClientM0_pSgAA014SpotlightQuerylM0_ptcfCTq
++ _$s10OmniSearch26MemoryCreationQUControllerC19llmQUNetworkService9ecrClient11queryParserAcA0cdgH8Protocol_p_AA09ECRClientM0_pSgAA014SpotlightQuerylM0_ptcfc
++ _$s10OmniSearch26MemoryCreationQUControllerC19llmQUNetworkService9ecrClient11queryParserAcA0cdgH8Protocol_p_AA09ECRClientM0_pSgAA014SpotlightQuerylM0_ptcfcfA0_
++ _$s10OmniSearch26MemoryCreationQUControllerC19llmQUNetworkService9ecrClient11queryParserAcA0cdgH8Protocol_p_AA09ECRClientM0_pSgAA014SpotlightQuerylM0_ptcfcfA1_
++ _$s10OmniSearch26MemoryCreationQUControllerC19llmQUNetworkService9ecrClient11queryParserAcA0cdgH8Protocol_p_AA09ECRClientM0_pSgAA014SpotlightQuerylM0_ptcfcfA_
++ _$s10OmniSearch26MemoryCreationQUControllerC6sharedACvpZMV
++ _$s10OmniSearch26VerificationModelExecutionV6encode2toys7Encoder_p_tKF
++ _$s10OmniSearch26VerificationModelExecutionV6prompt8responseACSS_SStcfC
++ _$s10OmniSearch26VerificationModelExecutionV6promptSSvg
++ _$s10OmniSearch26VerificationModelExecutionV6promptSSvpMV
++ _$s10OmniSearch26VerificationModelExecutionV8responseSSvg
++ _$s10OmniSearch26VerificationModelExecutionV8responseSSvpMV
++ _$s10OmniSearch26VerificationModelExecutionV9eventTypeSSvau
++ _$s10OmniSearch26VerificationModelExecutionV9eventTypeSSvgZ
++ _$s10OmniSearch26VerificationModelExecutionV9eventTypeSSvpZ
++ _$s10OmniSearch26VerificationModelExecutionV9eventTypeSSvpZMV
++ _$s10OmniSearch26VerificationModelExecutionVAA0B14ToolBiomeEventAAMc
++ _$s10OmniSearch26VerificationModelExecutionVAA0B14ToolBiomeEventAAWP
++ _$s10OmniSearch26VerificationModelExecutionVMa
++ _$s10OmniSearch26VerificationModelExecutionVMn
++ _$s10OmniSearch26VerificationModelExecutionVN
++ _$s10OmniSearch26VerificationModelExecutionVSEAAMc
++ _$s10OmniSearch27DefaultSpotlightQueryParserC21enumerateParseResults3for10completionySSSg_ySo18NSAttributedStringCSgctF
++ _$s10OmniSearch27DefaultSpotlightQueryParserC21enumerateParseResults3for10completionySSSg_ySo18NSAttributedStringCSgctFTj
++ _$s10OmniSearch27DefaultSpotlightQueryParserC21enumerateParseResults3for10completionySSSg_ySo18NSAttributedStringCSgctFTq
++ _$s10OmniSearch27DefaultSpotlightQueryParserC6parserSo07QPQueryF7ManagerCvg
++ _$s10OmniSearch27DefaultSpotlightQueryParserC6parserSo07QPQueryF7ManagerCvpMV
++ _$s10OmniSearch27DefaultSpotlightQueryParserC6parserSo07QPQueryF7ManagerCvpWvd
++ _$s10OmniSearch27DefaultSpotlightQueryParserC7prewarmyyF
++ _$s10OmniSearch27DefaultSpotlightQueryParserC7prewarmyyFTj
++ _$s10OmniSearch27DefaultSpotlightQueryParserC7prewarmyyFTq
++ _$s10OmniSearch27DefaultSpotlightQueryParserCAA0deF8ProtocolAAMc
++ _$s10OmniSearch27DefaultSpotlightQueryParserCAA0deF8ProtocolAAWP
++ _$s10OmniSearch27DefaultSpotlightQueryParserCACycfC
++ _$s10OmniSearch27DefaultSpotlightQueryParserCACycfCTj
++ _$s10OmniSearch27DefaultSpotlightQueryParserCACycfCTq
++ _$s10OmniSearch27DefaultSpotlightQueryParserCACycfc
++ _$s10OmniSearch27DefaultSpotlightQueryParserCMa
++ _$s10OmniSearch27DefaultSpotlightQueryParserCMm
++ _$s10OmniSearch27DefaultSpotlightQueryParserCMn
++ _$s10OmniSearch27DefaultSpotlightQueryParserCMo
++ _$s10OmniSearch27DefaultSpotlightQueryParserCMu
++ _$s10OmniSearch27DefaultSpotlightQueryParserCN
++ _$s10OmniSearch27DefaultSpotlightQueryParserCfD
++ _$s10OmniSearch27DefaultSpotlightQueryParserCfd
++ _$s10OmniSearch27FeatureStoreDonationManagerC06donateB12ToolResponse06searchhI09requestIdyAA0bh6IntentI0V_SSSgtFZ
++ _$s10OmniSearch27FeatureStoreDonationManagerC06donateB14ToolInvocation06searchH7RequestyAA0bh6IntentK0V_tFZ
++ _$s10OmniSearch27FeatureStoreDonationManagerC25validateLoggingConditions9requestIdSSSgAF_tFZ
++ _$s10OmniSearch27FeatureStoreDonationManagerCACycfC
++ _$s10OmniSearch27FeatureStoreDonationManagerCACycfCTj
++ _$s10OmniSearch27FeatureStoreDonationManagerCACycfCTq
++ _$s10OmniSearch27FeatureStoreDonationManagerCACycfc
++ _$s10OmniSearch27FeatureStoreDonationManagerCMa
++ _$s10OmniSearch27FeatureStoreDonationManagerCMm
++ _$s10OmniSearch27FeatureStoreDonationManagerCMn
++ _$s10OmniSearch27FeatureStoreDonationManagerCMo
++ _$s10OmniSearch27FeatureStoreDonationManagerCMu
++ _$s10OmniSearch27FeatureStoreDonationManagerCN
++ _$s10OmniSearch27FeatureStoreDonationManagerCfD
++ _$s10OmniSearch27FeatureStoreDonationManagerCfd
++ _$s10OmniSearch27LLMQUModelTemporalReferenceO8allCasesSayACGvpZMV
++ _$s10OmniSearch27RequestedPropertyControllerV011createEmptybD8Response4name4typeAA0bdH0VSS_AA0bD4TypeOtF
++ _$s10OmniSearch27RequestedPropertyControllerV06createbD8Response4name4type5value3appAA0bdG0VSgSS_AA0bD4TypeOyp10AppIntents17IntentApplicationVSgtYaKF
++ _$s10OmniSearch27RequestedPropertyControllerV06createbD8Response4name4type5value3appAA0bdG0VSgSS_AA0bD4TypeOyp10AppIntents17IntentApplicationVSgtYaKFTu
++ _$s10OmniSearch27RequestedPropertyControllerV07processC10Properties3for5usingSayAA0B6ResultVGAI_SayAA0bD7RequestVGtYaKF
++ _$s10OmniSearch27RequestedPropertyControllerV07processC10Properties3for5usingSayAA0B6ResultVGAI_SayAA0bD7RequestVGtYaKFTu
++ _$s10OmniSearch27RequestedPropertyControllerV11queryParserAA014SpotlightQueryG8Protocol_pvg
++ _$s10OmniSearch27RequestedPropertyControllerV11queryParserAA014SpotlightQueryG8Protocol_pvpMV
++ _$s10OmniSearch27RequestedPropertyControllerV23globalResolutionService11queryParserAcA05EagergH0_p_AA014SpotlightQueryJ8Protocol_ptcfC
++ _$s10OmniSearch27RequestedPropertyControllerV23globalResolutionService11queryParserAcA05EagergH0_p_AA014SpotlightQueryJ8Protocol_ptcfcfA0_
++ _$s10OmniSearch27RequestedPropertyControllerV23globalResolutionService11queryParserAcA05EagergH0_p_AA014SpotlightQueryJ8Protocol_ptcfcfA_
++ _$s10OmniSearch27RequestedPropertyControllerV23globalResolutionServiceAA05EagergH0_pvg
++ _$s10OmniSearch27RequestedPropertyControllerV23globalResolutionServiceAA05EagergH0_pvpMV
++ _$s10OmniSearch27RequestedPropertyControllerVAA0cdE8ProtocolAAMc
++ _$s10OmniSearch27RequestedPropertyControllerVAA0cdE8ProtocolAAWP
++ _$s10OmniSearch27RequestedPropertyControllerVMa
++ _$s10OmniSearch27RequestedPropertyControllerVMn
++ _$s10OmniSearch27RequestedPropertyControllerVN
++ _$s10OmniSearch27RestaurantReservationEntityV11openCommand10AppIntents10IntentFileVSgvM
++ _$s10OmniSearch27RestaurantReservationEntityV11openCommand10AppIntents10IntentFileVSgvg
++ _$s10OmniSearch27RestaurantReservationEntityV11openCommand10AppIntents10IntentFileVSgvpMV
++ _$s10OmniSearch27RestaurantReservationEntityV11openCommand10AppIntents10IntentFileVSgvs
++ _$s10OmniSearch27RestaurantReservationEntityV12$openCommand10AppIntents0E8PropertyCyAE10IntentFileVSgGvg
++ _$s10OmniSearch27RestaurantReservationEntityV12$openCommand10AppIntents0E8PropertyCyAE10IntentFileVSgGvpMV
++ _$s10OmniSearch27RestaurantReservationEntityV13customerNamesSaySSGSgvM
++ _$s10OmniSearch27RestaurantReservationEntityV13customerNamesSaySSGSgvg
++ _$s10OmniSearch27RestaurantReservationEntityV13customerNamesSaySSGSgvpMV
++ _$s10OmniSearch27RestaurantReservationEntityV13customerNamesSaySSGSgvs
++ _$s10OmniSearch27RestaurantReservationEntityV14$customerNames10AppIntents0E8PropertyCySaySSGSgGvg
++ _$s10OmniSearch27RestaurantReservationEntityV14$customerNames10AppIntents0E8PropertyCySaySSGSgGvpMV
++ _$s10OmniSearch27RestaurantReservationEntityV18confirmationNumber20reservationUnderName13customerNames9partySize15bookingProvider08businessJ07address05phoneG013startDateTime8mealType6status5guestACSSSg_APSaySSGSgSiSgA4P10Foundation0U10ComponentsVSgA3PtcfC
++ _$s10OmniSearch27RestaurantReservationEntityV20reservationUnderNameSSSgvM
++ _$s10OmniSearch27RestaurantReservationEntityV20reservationUnderNameSSSgvg
++ _$s10OmniSearch27RestaurantReservationEntityV20reservationUnderNameSSSgvpMV
++ _$s10OmniSearch27RestaurantReservationEntityV20reservationUnderNameSSSgvs
++ _$s10OmniSearch27RestaurantReservationEntityV21$reservationUnderName10AppIntents0E8PropertyCySSSgGvg
++ _$s10OmniSearch27RestaurantReservationEntityV21$reservationUnderName10AppIntents0E8PropertyCySSSgGvpMV
++ _$s10OmniSearch27RestaurantReservationEntityV25typeDisplayRepresentation10AppIntents04TypegH0VvpZMV
++ _$s10OmniSearch27RestaurantReservationEntityV6statusSSSgvM
++ _$s10OmniSearch27RestaurantReservationEntityV6statusSSSgvg
++ _$s10OmniSearch27RestaurantReservationEntityV6statusSSSgvpMV
++ _$s10OmniSearch27RestaurantReservationEntityV6statusSSSgvs
++ _$s10OmniSearch27RestaurantReservationEntityV7$status10AppIntents0E8PropertyCySSSgGvg
++ _$s10OmniSearch27RestaurantReservationEntityV7$status10AppIntents0E8PropertyCySSSgGvpMV
++ _$s10OmniSearch28AnswerSynthesisModelOnDeviceC12languageCodeAC10Foundation6LocaleV08LanguageI0V_tKcfC
++ _$s10OmniSearch28AnswerSynthesisModelOnDeviceC12languageCodeAC10Foundation6LocaleV08LanguageI0V_tKcfCTj
++ _$s10OmniSearch28AnswerSynthesisModelOnDeviceC12languageCodeAC10Foundation6LocaleV08LanguageI0V_tKcfCTq
++ _$s10OmniSearch28AnswerSynthesisModelOnDeviceC12languageCodeAC10Foundation6LocaleV08LanguageI0V_tKcfc
++ _$s10OmniSearch28AnswerSynthesisModelOnDeviceC5model15TokenGeneration0I9GeneratorCvM
++ _$s10OmniSearch28AnswerSynthesisModelOnDeviceC5model15TokenGeneration0I9GeneratorCvpWvd
++ _$s10OmniSearch28AnswerSynthesisModelOnDeviceC5model15TokenGeneration0I9GeneratorCvs
++ _$s10OmniSearch28AnswerSynthesisModelOnDeviceC7execute7request10userPromptSSAA0cD15RequestProtocol_p_SStYaKF
++ _$s10OmniSearch28AnswerSynthesisModelOnDeviceC7execute7request10userPromptSSAA0cD15RequestProtocol_p_SStYaKFTu
++ _$s10OmniSearch28AnswerSynthesisModelOnDeviceC7prewarm7urgencyy15TokenGeneration14PrewarmUrgencyV_tF
++ _$s10OmniSearch28AnswerSynthesisModelProtocolP7execute7request10userPromptSSAA0cd7RequestF0_p_SStYaKFTj
++ _$s10OmniSearch28AnswerSynthesisModelProtocolP7execute7request10userPromptSSAA0cd7RequestF0_p_SStYaKFTjTu
++ _$s10OmniSearch28AnswerSynthesisModelProtocolP7execute7request10userPromptSSAA0cd7RequestF0_p_SStYaKFTq
++ _$s10OmniSearch28AnswerSynthesisModelProtocolP7prewarm7urgencyy15TokenGeneration14PrewarmUrgencyV_tFTj
++ _$s10OmniSearch28AnswerSynthesisModelProtocolP7prewarm7urgencyy15TokenGeneration14PrewarmUrgencyV_tFTq
++ _$s10OmniSearch28AnswerSynthesisModelProtocolPAAE22GMS_SESSION_IDENTIFIERSSvgZ
++ _$s10OmniSearch28OpenGenericEventEntityIntentV11description10AppIntents0G11DescriptionVSgvpZMV
++ _$s10OmniSearch28OpenGenericEventEntityIntentV13assistantOnlySbvpZMV
++ _$s10OmniSearch28OpenGenericEventEntityIntentV14isDiscoverableSbvpZMV
++ _$s10OmniSearch28OpenGenericEventEntityIntentV14openAppWhenRunSbvau
++ _$s10OmniSearch28OpenGenericEventEntityIntentV14openAppWhenRunSbvgZ
++ _$s10OmniSearch28OpenGenericEventEntityIntentV14openAppWhenRunSbvpZ
++ _$s10OmniSearch28OpenGenericEventEntityIntentV14openAppWhenRunSbvpZMV
++ _$s10OmniSearch28OpenGenericEventEntityIntentV5title10Foundation23LocalizedStringResourceVvpZMV
++ _$s10OmniSearch28OpenTicketedShowEntityIntentV11description10AppIntents0G11DescriptionVSgvpZMV
++ _$s10OmniSearch28OpenTicketedShowEntityIntentV13assistantOnlySbvpZMV
++ _$s10OmniSearch28OpenTicketedShowEntityIntentV14isDiscoverableSbvpZMV
++ _$s10OmniSearch28OpenTicketedShowEntityIntentV14openAppWhenRunSbvau
++ _$s10OmniSearch28OpenTicketedShowEntityIntentV14openAppWhenRunSbvgZ
++ _$s10OmniSearch28OpenTicketedShowEntityIntentV14openAppWhenRunSbvpZ
++ _$s10OmniSearch28OpenTicketedShowEntityIntentV14openAppWhenRunSbvpZMV
++ _$s10OmniSearch28OpenTicketedShowEntityIntentV5title10Foundation23LocalizedStringResourceVvpZMV
++ _$s10OmniSearch28PQAVerificationModelOnDeviceC019defaultVerificationD9Parameter15TokenGeneration18SamplingParametersVvpZMV
++ _$s10OmniSearch28PQAVerificationModelOnDeviceC06verifyB7Results7request8clientIdSbAA0C7RequestV_SStYaKF
++ _$s10OmniSearch28PQAVerificationModelOnDeviceC06verifyB7Results7request8clientIdSbAA0C7RequestV_SStYaKFTu
++ _$s10OmniSearch28PQAVerificationModelOnDeviceC12languageCodeAC10Foundation6LocaleV08LanguageH0V_tKcfC
++ _$s10OmniSearch28PQAVerificationModelOnDeviceC12languageCodeAC10Foundation6LocaleV08LanguageH0V_tKcfCTj
++ _$s10OmniSearch28PQAVerificationModelOnDeviceC12languageCodeAC10Foundation6LocaleV08LanguageH0V_tKcfCTq
++ _$s10OmniSearch28PQAVerificationModelOnDeviceC12languageCodeAC10Foundation6LocaleV08LanguageH0V_tKcfc
++ _$s10OmniSearch28PQAVerificationModelOnDeviceC16promptTemplateIDSSvpZMV
++ _$s10OmniSearch28PQAVerificationModelOnDeviceC5model15TokenGeneration0H9GeneratorCvM
++ _$s10OmniSearch28PQAVerificationModelOnDeviceC5model15TokenGeneration0H9GeneratorCvs
++ _$s10OmniSearch28PQAVerificationModelOnDeviceC7execute7request10userPromptSSAA30AnswerSynthesisRequestProtocol_p_SStYaKF
++ _$s10OmniSearch28PQAVerificationModelOnDeviceC7execute7request10userPromptSSAA30AnswerSynthesisRequestProtocol_p_SStYaKFTu
++ _$s10OmniSearch28PQAVerificationModelOnDeviceC7prewarm7urgencyy15TokenGeneration14PrewarmUrgencyV_tF
++ _$s10OmniSearch28PQAVerificationModelProtocolP06verifyB7Results7request8clientIdSbAA0C7RequestV_SStYaKFTj
++ _$s10OmniSearch28PQAVerificationModelProtocolP06verifyB7Results7request8clientIdSbAA0C7RequestV_SStYaKFTjTu
++ _$s10OmniSearch28PQAVerificationModelProtocolP06verifyB7Results7request8clientIdSbAA0C7RequestV_SStYaKFTq
++ _$s10OmniSearch28SpotlightQueryParserProtocolMp
++ _$s10OmniSearch28SpotlightQueryParserProtocolP21enumerateParseResults3for10completionySSSg_ySo18NSAttributedStringCSgctFTj
++ _$s10OmniSearch28SpotlightQueryParserProtocolP21enumerateParseResults3for10completionySSSg_ySo18NSAttributedStringCSgctFTq
++ _$s10OmniSearch28SpotlightQueryParserProtocolP7prewarmyyFTj
++ _$s10OmniSearch28SpotlightQueryParserProtocolP7prewarmyyFTq
++ _$s10OmniSearch28SpotlightQueryParserProtocolTL
++ _$s10OmniSearch28TicketedTransportationEntityV11openCommand10AppIntents10IntentFileVSgvM
++ _$s10OmniSearch28TicketedTransportationEntityV11openCommand10AppIntents10IntentFileVSgvg
++ _$s10OmniSearch28TicketedTransportationEntityV11openCommand10AppIntents10IntentFileVSgvpMV
++ _$s10OmniSearch28TicketedTransportationEntityV11openCommand10AppIntents10IntentFileVSgvs
++ _$s10OmniSearch28TicketedTransportationEntityV12$openCommand10AppIntents0E8PropertyCyAE10IntentFileVSgGvg
++ _$s10OmniSearch28TicketedTransportationEntityV12$openCommand10AppIntents0E8PropertyCyAE10IntentFileVSgGvpMV
++ _$s10OmniSearch28TicketedTransportationEntityV25typeDisplayRepresentation10AppIntents04TypegH0VvpZMV
++ _$s10OmniSearch29AnswerSynthesisModelExecutionV6encode2toys7Encoder_p_tKF
++ _$s10OmniSearch29AnswerSynthesisModelExecutionV6prompt8responseACSS_SStcfC
++ _$s10OmniSearch29AnswerSynthesisModelExecutionV6promptSSvg
++ _$s10OmniSearch29AnswerSynthesisModelExecutionV6promptSSvpMV
++ _$s10OmniSearch29AnswerSynthesisModelExecutionV8responseSSvg
++ _$s10OmniSearch29AnswerSynthesisModelExecutionV8responseSSvpMV
++ _$s10OmniSearch29AnswerSynthesisModelExecutionV9eventTypeSSvau
++ _$s10OmniSearch29AnswerSynthesisModelExecutionV9eventTypeSSvgZ
++ _$s10OmniSearch29AnswerSynthesisModelExecutionV9eventTypeSSvpZ
++ _$s10OmniSearch29AnswerSynthesisModelExecutionV9eventTypeSSvpZMV
++ _$s10OmniSearch29AnswerSynthesisModelExecutionVAA0B14ToolBiomeEventAAMc
++ _$s10OmniSearch29AnswerSynthesisModelExecutionVAA0B14ToolBiomeEventAAWP
++ _$s10OmniSearch29AnswerSynthesisModelExecutionVMa
++ _$s10OmniSearch29AnswerSynthesisModelExecutionVMn
++ _$s10OmniSearch29AnswerSynthesisModelExecutionVN
++ _$s10OmniSearch29AnswerSynthesisModelExecutionVSEAAMc
++ _$s10OmniSearch29AnswerSynthesisRequestContextV10ecrResultsSDyS2SGSgvM
++ _$s10OmniSearch29AnswerSynthesisRequestContextV10ecrResultsSDyS2SGSgvg
++ _$s10OmniSearch29AnswerSynthesisRequestContextV10ecrResultsSDyS2SGSgvpMV
++ _$s10OmniSearch29AnswerSynthesisRequestContextV10ecrResultsSDyS2SGSgvs
++ _$s10OmniSearch29AnswerSynthesisRequestContextV4mode15assistantLocale10ecrResultsAC10AppIntents012IntentSystemF0V09AssistantF0V15InteractionModeOSg_SSSgSDyS2SGSgtcfC
++ _$s10OmniSearch29AnswerSynthesisRequestContextV5query4mode15assistantLocale10ecrResultsACSSSg_10AppIntents012IntentSystemF0V09AssistantF0V15InteractionModeOSgAHSDyS2SGSgtYacfC
++ _$s10OmniSearch29AnswerSynthesisRequestContextV5query4mode15assistantLocale10ecrResultsACSSSg_10AppIntents012IntentSystemF0V09AssistantF0V15InteractionModeOSgAHSDyS2SGSgtYacfCTu
++ _$s10OmniSearch29CSSearchableIndexDataProviderV07provideE09forBundle10identifier4type10Foundation0E0VSS_S2StYaKF
++ _$s10OmniSearch29CSSearchableIndexDataProviderV07provideE09forBundle10identifier4type10Foundation0E0VSS_S2StYaKFTu
++ _$s10OmniSearch29CSSearchableIndexDataProviderVAA0cdeF8ProtocolAAMc
++ _$s10OmniSearch29CSSearchableIndexDataProviderVAA0cdeF8ProtocolAAWP
++ _$s10OmniSearch29CSSearchableIndexDataProviderVACycfC
++ _$s10OmniSearch29CSSearchableIndexDataProviderVMa
++ _$s10OmniSearch29CSSearchableIndexDataProviderVMn
++ _$s10OmniSearch29CSSearchableIndexDataProviderVN
++ _$s10OmniSearch29MemoryCreationQUModelResponseV6schema29GenerativeFunctionsFoundation6SchemaVvpZMV
++ _$s10OmniSearch30AnswerSynthesisRequestProtocolMp
++ _$s10OmniSearch30AnswerSynthesisRequestProtocolP10userPromptSSyKFTj
++ _$s10OmniSearch30AnswerSynthesisRequestProtocolP10userPromptSSyKFTq
++ _$s10OmniSearch30AnswerSynthesisRequestProtocolP19personalDataSourcesSaySDyS2SGGvgTj
++ _$s10OmniSearch30AnswerSynthesisRequestProtocolP19personalDataSourcesSaySDyS2SGGvgTq
++ _$s10OmniSearch30AnswerSynthesisRequestProtocolP5querySSvgTj
++ _$s10OmniSearch30AnswerSynthesisRequestProtocolP5querySSvgTq
++ _$s10OmniSearch30AnswerSynthesisRequestProtocolP7contextSSSgvgTj
++ _$s10OmniSearch30AnswerSynthesisRequestProtocolP7contextSSSgvgTq
++ _$s10OmniSearch30AnswerSynthesisRequestProtocolP9getLocale10Foundation0H0VSgyFTj
++ _$s10OmniSearch30AnswerSynthesisRequestProtocolP9getLocale10Foundation0H0VSgyFTq
++ _$s10OmniSearch30AnswerSynthesisRequestProtocolPSETb
++ _$s10OmniSearch30AnswerSynthesisRequestProtocolPSeTb
++ _$s10OmniSearch30AnswerSynthesisRequestProtocolTL
++ _$s10OmniSearch30MemoryCreationQUNetworkServiceC13userPromptKeySSvpZMV
++ _$s10OmniSearch30MemoryCreationQUNetworkServiceC14namesPromptKeySSvpZMV
++ _$s10OmniSearch30MemoryCreationQUNetworkServiceC17responseSanitizer16GenerativeModels014StringResponseH0VvpZMV
++ _$s10OmniSearch30MemoryCreationQUNetworkServiceC18locationsPromptKeySSvpZMV
++ _$s10OmniSearch30MemoryCreationQUNetworkServiceC20currentTimePromptKeySSvpZMV
++ _$s10OmniSearch30MemoryCreationQUNetworkServiceC23renderedPromptSanitizer16GenerativeModels014StringRenderedhI0VvpZMV
++ _$s10OmniSearch30MemoryCreationQUNetworkServiceC24fallbackPromptTemplateV3s12StaticStringVvpZMV
++ _$s10OmniSearch30OpenIDCardBusinessEntityIntentV11description10AppIntents0G11DescriptionVSgvpZMV
++ _$s10OmniSearch30OpenIDCardBusinessEntityIntentV13assistantOnlySbvpZMV
++ _$s10OmniSearch30OpenIDCardBusinessEntityIntentV14isDiscoverableSbvpZMV
++ _$s10OmniSearch30OpenIDCardBusinessEntityIntentV14openAppWhenRunSbvau
++ _$s10OmniSearch30OpenIDCardBusinessEntityIntentV14openAppWhenRunSbvgZ
++ _$s10OmniSearch30OpenIDCardBusinessEntityIntentV14openAppWhenRunSbvpZ
++ _$s10OmniSearch30OpenIDCardBusinessEntityIntentV14openAppWhenRunSbvpZMV
++ _$s10OmniSearch30OpenIDCardBusinessEntityIntentV5title10Foundation23LocalizedStringResourceVvpZMV
++ _$s10OmniSearch30OpenIDCardPersonalEntityIntentV11description10AppIntents0G11DescriptionVSgvpZMV
++ _$s10OmniSearch30OpenIDCardPersonalEntityIntentV13assistantOnlySbvpZMV
++ _$s10OmniSearch30OpenIDCardPersonalEntityIntentV14isDiscoverableSbvpZMV
++ _$s10OmniSearch30OpenIDCardPersonalEntityIntentV14openAppWhenRunSbvau
++ _$s10OmniSearch30OpenIDCardPersonalEntityIntentV14openAppWhenRunSbvgZ
++ _$s10OmniSearch30OpenIDCardPersonalEntityIntentV14openAppWhenRunSbvpZ
++ _$s10OmniSearch30OpenIDCardPersonalEntityIntentV14openAppWhenRunSbvpZMV
++ _$s10OmniSearch30OpenIDCardPersonalEntityIntentV5title10Foundation23LocalizedStringResourceVvpZMV
++ _$s10OmniSearch31HallucinationMitigationProtocolP16postLLMCallCheck5query14inputDocuments6dialog6localeySS_SayAA0B6ResultVGAA14ProposedDialogVSSSgtAA0P13OverrideErrorOYKFTj
++ _$s10OmniSearch31HallucinationMitigationProtocolP16postLLMCallCheck5query14inputDocuments6dialog6localeySS_SayAA0B6ResultVGAA14ProposedDialogVSSSgtAA0P13OverrideErrorOYKFTq
++ _$s10OmniSearch31ResponseOverrideMatcherProtocolMp
++ _$s10OmniSearch31ResponseOverrideMatcherProtocolP5matchy16IntelligenceFlow0cD0VSgAE0cD5InputVFTj
++ _$s10OmniSearch31ResponseOverrideMatcherProtocolP5matchy16IntelligenceFlow0cD0VSgAE0cD5InputVFTq
++ _$s10OmniSearch31ResponseOverrideMatcherProtocolTL
++ _$s10OmniSearch32AnswerSynthesisAllowedAppsConfigV10voiceModesSbvM
++ _$s10OmniSearch32AnswerSynthesisAllowedAppsConfigV10voiceModesSbvg
++ _$s10OmniSearch32AnswerSynthesisAllowedAppsConfigV10voiceModesSbvpMV
++ _$s10OmniSearch32AnswerSynthesisAllowedAppsConfigV10voiceModesSbvs
++ _$s10OmniSearch32AnswerSynthesisAllowedAppsConfigV12allowedTypes17allowMultiSources23disallowAllModelDialogs10voiceModesACSDySSShySSGG_S3btcfC
++ _$s10OmniSearch32AnswerSynthesisAllowedAppsConfigV12allowedTypes17allowMultiSources23disallowAllModelDialogs10voiceModesACSDySSShySSGG_S3btcfcfA0_
++ _$s10OmniSearch32AnswerSynthesisAllowedAppsConfigV12allowedTypes17allowMultiSources23disallowAllModelDialogs10voiceModesACSDySSShySSGG_S3btcfcfA1_
++ _$s10OmniSearch32AnswerSynthesisAllowedAppsConfigV12allowedTypes17allowMultiSources23disallowAllModelDialogs10voiceModesACSDySSShySSGG_S3btcfcfA2_
++ _$s10OmniSearch32AnswerSynthesisAllowedAppsConfigV12allowedTypesSDySSShySSGGvM
++ _$s10OmniSearch32AnswerSynthesisAllowedAppsConfigV12allowedTypesSDySSShySSGGvg
++ _$s10OmniSearch32AnswerSynthesisAllowedAppsConfigV12allowedTypesSDySSShySSGGvpMV
++ _$s10OmniSearch32AnswerSynthesisAllowedAppsConfigV12allowedTypesSDySSShySSGGvs
++ _$s10OmniSearch32AnswerSynthesisAllowedAppsConfigV17allowMultiSourcesSbvM
++ _$s10OmniSearch32AnswerSynthesisAllowedAppsConfigV17allowMultiSourcesSbvg
++ _$s10OmniSearch32AnswerSynthesisAllowedAppsConfigV17allowMultiSourcesSbvpMV
++ _$s10OmniSearch32AnswerSynthesisAllowedAppsConfigV17allowMultiSourcesSbvs
++ _$s10OmniSearch32AnswerSynthesisAllowedAppsConfigV23disallowAllModelDialogsSbvM
++ _$s10OmniSearch32AnswerSynthesisAllowedAppsConfigV23disallowAllModelDialogsSbvg
++ _$s10OmniSearch32AnswerSynthesisAllowedAppsConfigV23disallowAllModelDialogsSbvpMV
++ _$s10OmniSearch32AnswerSynthesisAllowedAppsConfigV23disallowAllModelDialogsSbvs
++ _$s10OmniSearch32AnswerSynthesisAllowedAppsConfigV4fromACSgSo12NSDictionaryC_tcfC
++ _$s10OmniSearch32AnswerSynthesisAllowedAppsConfigVMa
++ _$s10OmniSearch32AnswerSynthesisAllowedAppsConfigVMn
++ _$s10OmniSearch32AnswerSynthesisAllowedAppsConfigVN
++ _$s10OmniSearch32OpenHotelReservationEntityIntentV11description10AppIntents0G11DescriptionVSgvpZMV
++ _$s10OmniSearch32OpenHotelReservationEntityIntentV13assistantOnlySbvpZMV
++ _$s10OmniSearch32OpenHotelReservationEntityIntentV14isDiscoverableSbvpZMV
++ _$s10OmniSearch32OpenHotelReservationEntityIntentV14openAppWhenRunSbvau
++ _$s10OmniSearch32OpenHotelReservationEntityIntentV14openAppWhenRunSbvgZ
++ _$s10OmniSearch32OpenHotelReservationEntityIntentV14openAppWhenRunSbvpZ
++ _$s10OmniSearch32OpenHotelReservationEntityIntentV14openAppWhenRunSbvpZMV
++ _$s10OmniSearch32OpenHotelReservationEntityIntentV5title10Foundation23LocalizedStringResourceVvpZMV
++ _$s10OmniSearch33AnswerSynthesisAllowedAppsCheckerC010allResultsE006searchI07optionsSbSayAA0B6ResultVG_AA0aB7OptionsVtF
++ _$s10OmniSearch33AnswerSynthesisAllowedAppsCheckerC010allResultsE006searchI07optionsSbSayAA0B6ResultVG_AA0aB7OptionsVtFTj
++ _$s10OmniSearch33AnswerSynthesisAllowedAppsCheckerC010allResultsE006searchI07optionsSbSayAA0B6ResultVG_AA0aB7OptionsVtFTq
++ _$s10OmniSearch33AnswerSynthesisAllowedAppsCheckerC18allowedTypesConfigAA0cdefJ0VSgvM
++ _$s10OmniSearch33AnswerSynthesisAllowedAppsCheckerC18allowedTypesConfigAA0cdefJ0VSgvMTj
++ _$s10OmniSearch33AnswerSynthesisAllowedAppsCheckerC18allowedTypesConfigAA0cdefJ0VSgvMTq
++ _$s10OmniSearch33AnswerSynthesisAllowedAppsCheckerC18allowedTypesConfigAA0cdefJ0VSgvg
++ _$s10OmniSearch33AnswerSynthesisAllowedAppsCheckerC18allowedTypesConfigAA0cdefJ0VSgvgTj
++ _$s10OmniSearch33AnswerSynthesisAllowedAppsCheckerC18allowedTypesConfigAA0cdefJ0VSgvgTq
++ _$s10OmniSearch33AnswerSynthesisAllowedAppsCheckerC18allowedTypesConfigAA0cdefJ0VSgvpMV
++ _$s10OmniSearch33AnswerSynthesisAllowedAppsCheckerC18allowedTypesConfigAA0cdefJ0VSgvpWvd
++ _$s10OmniSearch33AnswerSynthesisAllowedAppsCheckerC18allowedTypesConfigAA0cdefJ0VSgvs
++ _$s10OmniSearch33AnswerSynthesisAllowedAppsCheckerC18allowedTypesConfigAA0cdefJ0VSgvsTj
++ _$s10OmniSearch33AnswerSynthesisAllowedAppsCheckerC18allowedTypesConfigAA0cdefJ0VSgvsTq
++ _$s10OmniSearch33AnswerSynthesisAllowedAppsCheckerC19minimumAssetVersionSivau
++ _$s10OmniSearch33AnswerSynthesisAllowedAppsCheckerC19minimumAssetVersionSivgZ
++ _$s10OmniSearch33AnswerSynthesisAllowedAppsCheckerC19minimumAssetVersionSivpZ
++ _$s10OmniSearch33AnswerSynthesisAllowedAppsCheckerC19minimumAssetVersionSivpZMV
++ _$s10OmniSearch33AnswerSynthesisAllowedAppsCheckerC6configAcA0cdeF6ConfigVSg_tcfC
++ _$s10OmniSearch33AnswerSynthesisAllowedAppsCheckerC6configAcA0cdeF6ConfigVSg_tcfCTj
++ _$s10OmniSearch33AnswerSynthesisAllowedAppsCheckerC6configAcA0cdeF6ConfigVSg_tcfCTq
++ _$s10OmniSearch33AnswerSynthesisAllowedAppsCheckerC6configAcA0cdeF6ConfigVSg_tcfc
++ _$s10OmniSearch33AnswerSynthesisAllowedAppsCheckerC6localeACSSSg_tcfC
++ _$s10OmniSearch33AnswerSynthesisAllowedAppsCheckerC6localeACSSSg_tcfCTj
++ _$s10OmniSearch33AnswerSynthesisAllowedAppsCheckerC6localeACSSSg_tcfCTq
++ _$s10OmniSearch33AnswerSynthesisAllowedAppsCheckerC6localeACSSSg_tcfc
++ _$s10OmniSearch33AnswerSynthesisAllowedAppsCheckerCMa
++ _$s10OmniSearch33AnswerSynthesisAllowedAppsCheckerCMm
++ _$s10OmniSearch33AnswerSynthesisAllowedAppsCheckerCMn
++ _$s10OmniSearch33AnswerSynthesisAllowedAppsCheckerCMo
++ _$s10OmniSearch33AnswerSynthesisAllowedAppsCheckerCMu
++ _$s10OmniSearch33AnswerSynthesisAllowedAppsCheckerCN
++ _$s10OmniSearch33AnswerSynthesisAllowedAppsCheckerCfD
++ _$s10OmniSearch33AnswerSynthesisAllowedAppsCheckerCfd
++ _$s10OmniSearch33AnswerSynthesisControllerProtocolP017requestedPropertyE0AA09RequestedheF0_pvgTj
++ _$s10OmniSearch33AnswerSynthesisControllerProtocolP017requestedPropertyE0AA09RequestedheF0_pvgTq
++ _$s10OmniSearch33AnswerSynthesisControllerProtocolP10synthesize5query19requestedProperties13searchResults12onScreenText7context8clientIdAA0L6DialogVSS_SayAA0B15PropertyRequestVGSayAA0B6ResultVGSaySSGSgAA0cdU7ContextVSStYaKFTj
++ _$s10OmniSearch33AnswerSynthesisControllerProtocolP10synthesize5query19requestedProperties13searchResults12onScreenText7context8clientIdAA0L6DialogVSS_SayAA0B15PropertyRequestVGSayAA0B6ResultVGSaySSGSgAA0cdU7ContextVSStYaKFTjTu
++ _$s10OmniSearch33AnswerSynthesisControllerProtocolP10synthesize5query19requestedProperties13searchResults12onScreenText7context8clientIdAA0L6DialogVSS_SayAA0B15PropertyRequestVGSayAA0B6ResultVGSaySSGSgAA0cdU7ContextVSStYaKFTq
++ _$s10OmniSearch33AnswerSynthesisControllerProtocolP12prewarmModel7urgencyy15TokenGeneration14PrewarmUrgencyV_tFTj
++ _$s10OmniSearch33AnswerSynthesisControllerProtocolP12prewarmModel7urgencyy15TokenGeneration14PrewarmUrgencyV_tFTq
++ _$s10OmniSearch33AnswerSynthesisControllerProtocolP16initializeModels4withy10Foundation6LocaleV_tKFTj
++ _$s10OmniSearch33AnswerSynthesisControllerProtocolP16initializeModels4withy10Foundation6LocaleV_tKFTq
++ _$s10OmniSearch33OpenFlightReservationEntityIntentV11description10AppIntents0G11DescriptionVSgvpZMV
++ _$s10OmniSearch33OpenFlightReservationEntityIntentV13assistantOnlySbvpZMV
++ _$s10OmniSearch33OpenFlightReservationEntityIntentV14isDiscoverableSbvpZMV
++ _$s10OmniSearch33OpenFlightReservationEntityIntentV14openAppWhenRunSbvau
++ _$s10OmniSearch33OpenFlightReservationEntityIntentV14openAppWhenRunSbvgZ
++ _$s10OmniSearch33OpenFlightReservationEntityIntentV14openAppWhenRunSbvpZ
++ _$s10OmniSearch33OpenFlightReservationEntityIntentV14openAppWhenRunSbvpZMV
++ _$s10OmniSearch33OpenFlightReservationEntityIntentV5title10Foundation23LocalizedStringResourceVvpZMV
++ _$s10OmniSearch34MemoryCreationQUModelResponseMusicV6schema29GenerativeFunctionsFoundation6SchemaVvpZMV
++ _$s10OmniSearch34OpenVehicleReservationEntityIntentV11description10AppIntents0G11DescriptionVSgvpZMV
++ _$s10OmniSearch34OpenVehicleReservationEntityIntentV13assistantOnlySbvpZMV
++ _$s10OmniSearch34OpenVehicleReservationEntityIntentV14isDiscoverableSbvpZMV
++ _$s10OmniSearch34OpenVehicleReservationEntityIntentV14openAppWhenRunSbvau
++ _$s10OmniSearch34OpenVehicleReservationEntityIntentV14openAppWhenRunSbvgZ
++ _$s10OmniSearch34OpenVehicleReservationEntityIntentV14openAppWhenRunSbvpZ
++ _$s10OmniSearch34OpenVehicleReservationEntityIntentV14openAppWhenRunSbvpZMV
++ _$s10OmniSearch34OpenVehicleReservationEntityIntentV5title10Foundation23LocalizedStringResourceVvpZMV
++ _$s10OmniSearch35RequestedPropertyControllerProtocolMp
++ _$s10OmniSearch35RequestedPropertyControllerProtocolP011createEmptybD8Response4name4typeAA0bdI0VSS_AA0bD4TypeOtFTj
++ _$s10OmniSearch35RequestedPropertyControllerProtocolP011createEmptybD8Response4name4typeAA0bdI0VSS_AA0bD4TypeOtFTq
++ _$s10OmniSearch35RequestedPropertyControllerProtocolP06createbD8Response4name4type5value3appAA0bdH0VSgSS_AA0bD4TypeOyp10AppIntents17IntentApplicationVSgtYaKFTj
++ _$s10OmniSearch35RequestedPropertyControllerProtocolP06createbD8Response4name4type5value3appAA0bdH0VSgSS_AA0bD4TypeOyp10AppIntents17IntentApplicationVSgtYaKFTjTu
++ _$s10OmniSearch35RequestedPropertyControllerProtocolP06createbD8Response4name4type5value3appAA0bdH0VSgSS_AA0bD4TypeOyp10AppIntents17IntentApplicationVSgtYaKFTq
++ _$s10OmniSearch35RequestedPropertyControllerProtocolP07processC10Properties3for5usingSayAA0B6ResultVGAI_SayAA0bD7RequestVGtYaKFTj
++ _$s10OmniSearch35RequestedPropertyControllerProtocolP07processC10Properties3for5usingSayAA0B6ResultVGAI_SayAA0bD7RequestVGtYaKFTjTu
++ _$s10OmniSearch35RequestedPropertyControllerProtocolP07processC10Properties3for5usingSayAA0B6ResultVGAI_SayAA0bD7RequestVGtYaKFTq
++ _$s10OmniSearch35RequestedPropertyControllerProtocolP15createResponses19requestedProperties09extractedJ0SayAA0bD8ResponseVGSayAA0bD7RequestVG_SDyS2SGtYaKFTj
++ _$s10OmniSearch35RequestedPropertyControllerProtocolP15createResponses19requestedProperties09extractedJ0SayAA0bD8ResponseVGSayAA0bD7RequestVG_SDyS2SGtYaKFTjTu
++ _$s10OmniSearch35RequestedPropertyControllerProtocolP15createResponses19requestedProperties09extractedJ0SayAA0bD8ResponseVGSayAA0bD7RequestVG_SDyS2SGtYaKFTq
++ _$s10OmniSearch35RequestedPropertyControllerProtocolPAAE15createResponses19requestedProperties09extractedJ0SayAA0bD8ResponseVGSayAA0bD7RequestVG_SDyS2SGtYaKF
++ _$s10OmniSearch35RequestedPropertyControllerProtocolPAAE15createResponses19requestedProperties09extractedJ0SayAA0bD8ResponseVGSayAA0bD7RequestVG_SDyS2SGtYaKFTu
++ _$s10OmniSearch35RequestedPropertyControllerProtocolTL
++ _$s10OmniSearch37CSSearchableIndexDataProviderProtocolMp
++ _$s10OmniSearch37CSSearchableIndexDataProviderProtocolP07provideE09forBundle10identifier4type10Foundation0E0VSS_S2StYaKFTj
++ _$s10OmniSearch37CSSearchableIndexDataProviderProtocolP07provideE09forBundle10identifier4type10Foundation0E0VSS_S2StYaKFTjTu
++ _$s10OmniSearch37CSSearchableIndexDataProviderProtocolP07provideE09forBundle10identifier4type10Foundation0E0VSS_S2StYaKFTq
++ _$s10OmniSearch37CSSearchableIndexDataProviderProtocolTL
++ _$s10OmniSearch37OpenRestaurantReservationEntityIntentV11description10AppIntents0G11DescriptionVSgvpZMV
++ _$s10OmniSearch37OpenRestaurantReservationEntityIntentV13assistantOnlySbvpZMV
++ _$s10OmniSearch37OpenRestaurantReservationEntityIntentV14isDiscoverableSbvpZMV
++ _$s10OmniSearch37OpenRestaurantReservationEntityIntentV14openAppWhenRunSbvau
++ _$s10OmniSearch37OpenRestaurantReservationEntityIntentV14openAppWhenRunSbvgZ
++ _$s10OmniSearch37OpenRestaurantReservationEntityIntentV14openAppWhenRunSbvpZ
++ _$s10OmniSearch37OpenRestaurantReservationEntityIntentV14openAppWhenRunSbvpZMV
++ _$s10OmniSearch37OpenRestaurantReservationEntityIntentV5title10Foundation23LocalizedStringResourceVvpZMV
++ _$s10OmniSearch38OpenTicketedTransportationEntityIntentV11description10AppIntents0G11DescriptionVSgvpZMV
++ _$s10OmniSearch38OpenTicketedTransportationEntityIntentV13assistantOnlySbvpZMV
++ _$s10OmniSearch38OpenTicketedTransportationEntityIntentV14isDiscoverableSbvpZMV
++ _$s10OmniSearch38OpenTicketedTransportationEntityIntentV14openAppWhenRunSbvau
++ _$s10OmniSearch38OpenTicketedTransportationEntityIntentV14openAppWhenRunSbvgZ
++ _$s10OmniSearch38OpenTicketedTransportationEntityIntentV14openAppWhenRunSbvpZ
++ _$s10OmniSearch38OpenTicketedTransportationEntityIntentV14openAppWhenRunSbvpZMV
++ _$s10OmniSearch38OpenTicketedTransportationEntityIntentV5title10Foundation23LocalizedStringResourceVvpZMV
++ _$s10OmniSearch39MemoryCreationQUDateGroundingHeuristicsC010groundDateG0_03rawI6String07currentI018featureFlagServiceSaySo6NSDateCGSS_SS10Foundation0I0VAA07FeaturenO0CtF
++ _$s10OmniSearch39MemoryCreationQUDateGroundingHeuristicsC010groundDateG0_03rawI6String07currentI018featureFlagServiceSaySo6NSDateCGSS_SS10Foundation0I0VAA07FeaturenO0CtFTj
++ _$s10OmniSearch39MemoryCreationQUDateGroundingHeuristicsC010groundDateG0_03rawI6String07currentI018featureFlagServiceSaySo6NSDateCGSS_SS10Foundation0I0VAA07FeaturenO0CtFTq
++ _$s10OmniSearch39MemoryCreationQUDateGroundingHeuristicsC010groundDateG0_03rawI6String07currentI018featureFlagServiceSaySo6NSDateCGSS_SS10Foundation0I0VAA07FeaturenO0CtFfA2_
++ _$s10OmniSearch39MemoryCreationQUDateGroundingHeuristicsC010groundDateG0_03rawI6String18featureFlagServiceSaySo6NSDateCGSS_SSAA07FeaturemN0CtF
++ _$s10OmniSearch39MemoryCreationQUDateGroundingHeuristicsC010groundDateG0_03rawI6String18featureFlagServiceSaySo6NSDateCGSS_SSAA07FeaturemN0CtFTj
++ _$s10OmniSearch39MemoryCreationQUDateGroundingHeuristicsC010groundDateG0_03rawI6String18featureFlagServiceSaySo6NSDateCGSS_SSAA07FeaturemN0CtFTq
++ _$s10OmniSearch39MemoryCreationQUDateGroundingHeuristicsC010groundDateG0_03rawI6String18featureFlagServiceSaySo6NSDateCGSS_SSAA07FeaturemN0CtFfA1_
++ _$s10OmniSearch39MemoryCreationQUDateGroundingHeuristicsC22groundSeasonsHeuristic33_8733BF20952240FB787F1C1DF7D899F5LL_11currentDate18featureFlagServiceSaySo6NSDateCGSS_10Foundation0S0VAA07FeatureuV0CtF
++ _$s10OmniSearch3SexO25typeDisplayRepresentation10AppIntents04TypeeF0VvpZMV
++ _$s10OmniSearch3SexO26caseDisplayRepresentationsSDyAC10AppIntents0E14RepresentationVGvpZMV
++ _$s10OmniSearch3SexO8allCasesSayACGvpZMV
++ _$s10OmniSearch4TripV24llmConsumableDescription6localeS2SSg_tF
++ _$s10OmniSearch4TripV2id22eventMessageIdentifier0e5GroupG00e8FallbackhG00e8MegadomeG00E4Type0e3SubK00e12SourceBundleG00E8IsAllDay04timeO7Unknown0emO9Forwarded7authors04mailF2Id0vF6Header07accountG09mailboxes18detectedEventTypes0eM24LLMConsumableDescription0E4Name9startDate7endDate17durationInSeconds0E3UrlACSS_SSSgA_A_A_A_A_A_SbSgSbA0_SaySSGSgA_A_A_A2_A2_A_A_10Foundation4DateVSgA6_SdSgA3_3URLVSgtcfC
++ _$s10OmniSearch4TripV35eventSourceLLMConsumableDescriptionSSSgvM
++ _$s10OmniSearch4TripV35eventSourceLLMConsumableDescriptionSSSgvg
++ _$s10OmniSearch4TripV35eventSourceLLMConsumableDescriptionSSSgvpMV
++ _$s10OmniSearch4TripV35eventSourceLLMConsumableDescriptionSSSgvs
++ _$s10OmniSearch5PartyV24llmConsumableDescription6localeS2SSg_tF
++ _$s10OmniSearch5PartyV2id22eventMessageIdentifier0e5GroupG00e8FallbackhG00e8MegadomeG00E4Type0e3SubK00e12SourceBundleG00E8IsAllDay04timeO7Unknown0emO9Forwarded7authors04mailF2Id0vF6Header07accountG09mailboxes18detectedEventTypes0eM24LLMConsumableDescription0E4Name17startLocationName20startLocationAddress9startDate7endDate0E3UrlACSS_SSSgA0_A0_A0_A0_A0_A0_SbSgSbA1_SaySSGSgA0_A0_A0_A3_A3_A0_A0_A0_A0_10Foundation4DateVSgA7_A4_3URLVSgtcfC
++ _$s10OmniSearch5PartyV35eventSourceLLMConsumableDescriptionSSSgvM
++ _$s10OmniSearch5PartyV35eventSourceLLMConsumableDescriptionSSSgvg
++ _$s10OmniSearch5PartyV35eventSourceLLMConsumableDescriptionSSSgvpMV
++ _$s10OmniSearch5PartyV35eventSourceLLMConsumableDescriptionSSSgvs
++ _$s10OmniSearch5PathsO13baseDirectorySSvpZMV
++ _$s10OmniSearch5PathsO16baseDirectoryURL10Foundation0F0VvpZMV
++ _$s10OmniSearch5PhotoV24llmConsumableDescription6localeS2SSg_tF
++ _$s10OmniSearch6AnswerV24llmConsumableDescription6localeS2SSg_tF
++ _$s10OmniSearch6PeopleV11unspecified7senders9recieversACSaySSGSg_A2HtcfC
++ _$s10OmniSearch6PeopleV11unspecifiedSaySSGSgvg
++ _$s10OmniSearch6PeopleV11unspecifiedSaySSGSgvpMV
++ _$s10OmniSearch6PeopleV7sendersSaySSGSgvg
++ _$s10OmniSearch6PeopleV7sendersSaySSGSgvpMV
++ _$s10OmniSearch6PeopleV9recieversSaySSGSgvg
++ _$s10OmniSearch6PeopleV9recieversSaySSGSgvpMV
++ _$s10OmniSearch6PeopleVMa
++ _$s10OmniSearch6PeopleVMn
++ _$s10OmniSearch6PeopleVN
++ _$s10OmniSearch6PersonV16debugDescriptionSSvg
++ _$s10OmniSearch6PersonV16debugDescriptionSSvpMV
++ _$s10OmniSearch6PersonV4fromACs7Decoder_p_tKcfC
++ _$s10OmniSearch6PersonV4name17contactHandleTypeACSaySSGSg_SayAA07ContactfG0OGSgtcfC
++ _$s10OmniSearch6PersonV6encode2toys7Encoder_p_tKF
++ _$s10OmniSearch6PersonV7oneselfACvgZ
++ _$s10OmniSearch6PersonV7oneselfACvpZMV
++ _$s10OmniSearch6PersonVSEAAMc
++ _$s10OmniSearch6PersonVSeAAMc
++ _$s10OmniSearch6PersonVs28CustomDebugStringConvertibleAAMc
++ _$s10OmniSearch6SafariV24llmConsumableDescription6localeS2SSg_tF
++ _$s10OmniSearch7ContactV24llmConsumableDescription6localeS2SSg_tF
++ _$s10OmniSearch7LoggingO11stextension2os6LoggerVvpZMV
++ _$s10OmniSearch7LoggingO13hallucination2os6LoggerVvpZMV
++ _$s10OmniSearch7LoggingO15answerSynthesis2os6LoggerVvpZMV
++ _$s10OmniSearch7LoggingO16answerResolution2os6LoggerVvau
++ _$s10OmniSearch7LoggingO16answerResolution2os6LoggerVvgZ
++ _$s10OmniSearch7LoggingO16answerResolution2os6LoggerVvpZ
++ _$s10OmniSearch7LoggingO16answerResolution2os6LoggerVvpZMV
++ _$s10OmniSearch7LoggingO16memoryCreationQU2os6LoggerVvpZMV
++ _$s10OmniSearch7LoggingO16searchComponents2os6LoggerVvpZMV
++ _$s10OmniSearch7LoggingO16searchSignposter2os12OSSignposterVvpZMV
++ _$s10OmniSearch7LoggingO25searchComponentSignposter2os12OSSignposterVvpZMV
++ _$s10OmniSearch7LoggingO5llmQU2os6LoggerVvpZMV
++ _$s10OmniSearch7LoggingO6search2os6LoggerVvpZMV
++ _$s10OmniSearch7LoggingO6visual2os6LoggerVvpZMV
++ _$s10OmniSearch7LoggingO8uiPlugin2os6LoggerVvpZMV
++ _$s10OmniSearch7LoggingO9interface2os6LoggerVvpZMV
++ _$s10OmniSearch7LoggingO9utilities2os6LoggerVvpZMV
++ _$s10OmniSearch8BundleIdO04mailB7IndexerSSvpZMV
++ _$s10OmniSearch8BundleIdO04omniB0SSvpZMV
++ _$s10OmniSearch8BundleIdO10localFilesSSvpZMV
++ _$s10OmniSearch8BundleIdO10voiceMemosSSvpZMV
++ _$s10OmniSearch8BundleIdO11iCloudFilesSSvpZMV
++ _$s10OmniSearch8BundleIdO13mail3pOutlookSSvau
++ _$s10OmniSearch8BundleIdO13mail3pOutlookSSvgZ
++ _$s10OmniSearch8BundleIdO13mail3pOutlookSSvpZ
++ _$s10OmniSearch8BundleIdO13mail3pOutlookSSvpZMV
++ _$s10OmniSearch8BundleIdO15spotlightEventsSSvpZMV
++ _$s10OmniSearch8BundleIdO4mailSSvpZMV
++ _$s10OmniSearch8BundleIdO5notesSSvpZMV
++ _$s10OmniSearch8BundleIdO5pagesSSvau
++ _$s10OmniSearch8BundleIdO5pagesSSvgZ
++ _$s10OmniSearch8BundleIdO5pagesSSvpZ
++ _$s10OmniSearch8BundleIdO5pagesSSvpZMV
++ _$s10OmniSearch8BundleIdO5phoneSSvpZMV
++ _$s10OmniSearch8BundleIdO6photosSSvpZMV
++ _$s10OmniSearch8BundleIdO6safariSSvpZMV
++ _$s10OmniSearch8BundleIdO6walletSSvpZMV
++ _$s10OmniSearch8BundleIdO7journalSSvpZMV
++ _$s10OmniSearch8BundleIdO7keynoteSSvau
++ _$s10OmniSearch8BundleIdO7keynoteSSvgZ
++ _$s10OmniSearch8BundleIdO7keynoteSSvpZ
++ _$s10OmniSearch8BundleIdO7keynoteSSvpZMV
++ _$s10OmniSearch8BundleIdO7numbersSSvau
++ _$s10OmniSearch8BundleIdO7numbersSSvgZ
++ _$s10OmniSearch8BundleIdO7numbersSSvpZ
++ _$s10OmniSearch8BundleIdO7numbersSSvpZMV
++ _$s10OmniSearch8BundleIdO8calendarSSvpZMV
++ _$s10OmniSearch8BundleIdO8contactsSSvpZMV
++ _$s10OmniSearch8BundleIdO8messagesSSvpZMV
++ _$s10OmniSearch8BundleIdO9remindersSSvpZMV
++ _$s10OmniSearch8OnScreenV24llmConsumableDescription6localeS2SSg_tF
++ _$s10OmniSearch8OnScreenV2id6source4textACSS_S2StcfC
++ _$s10OmniSearch8OnScreenV2id6source4textACSS_S2StcfcfA0_
++ _$s10OmniSearch8OnScreenV2idSSvg
++ _$s10OmniSearch8OnScreenV2idSSvpMV
++ _$s10OmniSearch8OnScreenV4fromACs7Decoder_p_tKcfC
++ _$s10OmniSearch8OnScreenV4textSSvg
++ _$s10OmniSearch8OnScreenV4textSSvpMV
++ _$s10OmniSearch8OnScreenV6encode2toys7Encoder_p_tKF
++ _$s10OmniSearch8OnScreenV6sourceSSvM
++ _$s10OmniSearch8OnScreenV6sourceSSvg
++ _$s10OmniSearch8OnScreenV6sourceSSvpMV
++ _$s10OmniSearch8OnScreenV6sourceSSvs
++ _$s10OmniSearch8OnScreenVAA0B4ItemAAMc
++ _$s10OmniSearch8OnScreenVAA0B4ItemAAWP
++ _$s10OmniSearch8OnScreenVMa
++ _$s10OmniSearch8OnScreenVMn
++ _$s10OmniSearch8OnScreenVN
++ _$s10OmniSearch8OnScreenVSEAAMc
++ _$s10OmniSearch8OnScreenVSQAAMc
++ _$s10OmniSearch8OnScreenVSeAAMc
++ _$s10OmniSearch8ReminderV24llmConsumableDescription6localeS2SSg_tF
++ _$s10OmniSearch8WebImageV24llmConsumableDescription6localeS2SSg_tF
++ _$s10OmniSearch9ECRClientC24personNameAndIDsWithText_011allowPrefixB08perTokenSayAA0C12PersonResultVGSS_S2btYaKFTj
++ _$s10OmniSearch9ECRClientC24personNameAndIDsWithText_011allowPrefixB08perTokenSayAA0C12PersonResultVGSS_S2btYaKFTjTu
++ _$s10OmniSearch9ECRClientC24personNameAndIDsWithText_011allowPrefixB08perTokenSayAA0C12PersonResultVGSS_S2btYaKFTq
++ _$s10OmniSearch9ECRClientC24personNameAndIDsWithText_011allowPrefixB08perTokenSayAA0C12PersonResultVGSS_S2btYaKFfA1_
++ _$s10OmniSearch9ECRClientC6person5named11phoneNumber5emailSayAA0C12PersonResultVGSSSg_A2KtYaKFTj
++ _$s10OmniSearch9ECRClientC6person5named11phoneNumber5emailSayAA0C12PersonResultVGSSSg_A2KtYaKFTjTu
++ _$s10OmniSearch9ECRClientC6person5named11phoneNumber5emailSayAA0C12PersonResultVGSSSg_A2KtYaKFTq
++ _$s10OmniSearch9LocationsV10departuresSaySSGSgvg
++ _$s10OmniSearch9LocationsV10departuresSaySSGSgvpMV
++ _$s10OmniSearch9LocationsV11unspecified8arrivals10departuresACSaySSGSg_A2HtcfC
++ _$s10OmniSearch9LocationsV11unspecifiedSaySSGSgvg
++ _$s10OmniSearch9LocationsV11unspecifiedSaySSGSgvpMV
++ _$s10OmniSearch9LocationsV8arrivalsSaySSGSgvg
++ _$s10OmniSearch9LocationsV8arrivalsSaySSGSgvpMV
++ _$s10OmniSearch9LocationsVMa
++ _$s10OmniSearch9LocationsVMn
++ _$s10OmniSearch9LocationsVN
++ _$s10OmniSearch9MediaTypeO25typeDisplayRepresentation10AppIntents0dfG0VvpZMV
++ _$s10OmniSearch9MediaTypeO26caseDisplayRepresentationsSDyAC10AppIntents0F14RepresentationVGvpZMV
++ _$s10OmniSearch9MediaTypeO8allCasesSayACGvpZMV
++ _$s10OmniSearch9SortOrderO25typeDisplayRepresentation10AppIntents04TypefG0VvpZMV
++ _$s10OmniSearch9SortOrderO26caseDisplayRepresentationsSDyAC10AppIntents0F14RepresentationVGvpZMV
++ _$s10OmniSearch9SortOrderO8allCasesSayACGvpZMV
++ _$s10OmniSearch9UserQueryV05inAppB6String10ecrResultsSSSDyS2SGSg_tF
++ _$s10OmniSearch9UserQueryV10simplifiedSSSgvg
++ _$s10OmniSearch9UserQueryV10simplifiedSSSgvpMV
++ _$s10OmniSearch9UserQueryV3raw9rewritten10simplified10structured15llmQUModelParseACSS_SSSgAiA010StructuredD6EntityVSgAA18LLMQUModelResponseVSgtcfC
++ _$s10OmniSearch9VoiceMemoV24llmConsumableDescription6localeS2SSg_tF
++ _$s10OmniSearch9WebAnswerV24llmConsumableDescription6localeS2SSg_tF
++ _$s10PegasusAPI35Apple_Parsec_Siri_V2alpha_AppEntityV11hasMetadataSbvg
++ _$s10PegasusAPI35Apple_Parsec_Siri_V2alpha_AppEntityV11hasSearchIDSbvg
++ _$s10PegasusAPI35Apple_Parsec_Siri_V2alpha_AppEntityV4typeAA0c1_d1_e1_f1_gH4TypeOvg
++ _$s10PegasusAPI35Apple_Parsec_Siri_V2alpha_AppEntityV8metadataAA0c1_d1_e1_f1_gH8MetadataVvg
++ _$s10PegasusAPI35Apple_Parsec_Siri_V2alpha_AppEntityV8searchID21InternalSwiftProtobuf07Google_M4_AnyVvg
++ _$s10PegasusAPI35Apple_Parsec_Siri_V2alpha_TimestampV7secondss5Int64Vvg
++ _$s10PegasusAPI35Apple_Parsec_Siri_V2alpha_TimestampV8timezoneSSvg
++ _$s10PegasusAPI35Apple_Parsec_Siri_V2alpha_TimestampV9utcOffsets5Int64Vvg
++ _$s10PegasusAPI35Apple_Parsec_Siri_V2alpha_TimestampVMa
++ _$s10PegasusAPI37Apple_Parsec_Siri_V2alpha_TemperatureV5unitsSSvg
++ _$s10PegasusAPI37Apple_Parsec_Siri_V2alpha_TemperatureV5valueSdvg
++ _$s10PegasusAPI37Apple_Parsec_Siri_V2alpha_TemperatureVMa
++ _$s10PegasusAPI38Apple_Parsec_Siri_Context_ClientEntityV0gH6SourceO7unknownyA2EmFWC
++ _$s10PegasusAPI38Apple_Parsec_Siri_Context_ClientEntityV21InternalSwiftProtobuf7MessageAAMc
++ _$s10PegasusAPI38Apple_Parsec_Siri_Context_ClientEntityV8usoGraph10Foundation4DataVvs
++ _$s10PegasusAPI39Apple_Parsec_Siri_V2alpha_AppEntityTypeO4mapsyA2CmFWC
++ _$s10PegasusAPI39Apple_Parsec_Siri_V2alpha_AppEntityTypeO7genericyA2CmFWC
++ _$s10PegasusAPI39Apple_Parsec_Siri_V2alpha_AppEntityTypeO7unknownyA2CmFWC
++ _$s10PegasusAPI39Apple_Parsec_Siri_V2alpha_AppEntityTypeOMa
++ _$s10PegasusAPI43Apple_Parsec_Siri_V2alpha_AppEntityMetadataV03hasG9AttributeSbvg
++ _$s10PegasusAPI43Apple_Parsec_Siri_V2alpha_AppEntityMetadataV12appAttributeAA0c1_d1_e1_f1_gH18AppstoreAttributesVvg
++ _$s10PegasusAPI43Apple_Parsec_Siri_V2alpha_AppEntityMetadataV12idAttributesAA0c1_d1_e1_f1_gH12IDAttributesVvg
++ _$s10PegasusAPI43Apple_Parsec_Siri_V2alpha_AppEntityMetadataV15eventAttributesAA0c1_d1_e1_f1_gh5EventK0Vvg
++ _$s10PegasusAPI43Apple_Parsec_Siri_V2alpha_AppEntityMetadataV15hasIDAttributesSbvg
++ _$s10PegasusAPI43Apple_Parsec_Siri_V2alpha_AppEntityMetadataV15placeAttributesAA0c1_d1_e1_f1_gh5PlaceK0Vvg
++ _$s10PegasusAPI43Apple_Parsec_Siri_V2alpha_AppEntityMetadataV16contactAttributeAA0c1_d1_e1_f1_gH17ContactAttributesVvg
++ _$s10PegasusAPI43Apple_Parsec_Siri_V2alpha_AppEntityMetadataV16customAttributesSayAA0c1_d1_e1_f1_gH15CustomAttributeVGvg
++ _$s10PegasusAPI43Apple_Parsec_Siri_V2alpha_AppEntityMetadataV17generalAttributesAA0c1_d1_e1_f1_gh7GeneralK0Vvg
++ _$s10PegasusAPI43Apple_Parsec_Siri_V2alpha_AppEntityMetadataV18hasEventAttributesSbvg
++ _$s10PegasusAPI43Apple_Parsec_Siri_V2alpha_AppEntityMetadataV18hasPlaceAttributesSbvg
++ _$s10PegasusAPI43Apple_Parsec_Siri_V2alpha_AppEntityMetadataV19hasContactAttributeSbvg
++ _$s10PegasusAPI43Apple_Parsec_Siri_V2alpha_AppEntityMetadataV20hasGeneralAttributesSbvg
++ _$s10PegasusAPI43Apple_Parsec_Siri_V2alpha_AppEntityMetadataVMa
++ _$s10PegasusAPI47Apple_Parsec_Siri_V2alpha_AppEntityIDAttributesV4muidSSvg
++ _$s10PegasusAPI47Apple_Parsec_Siri_V2alpha_AppEntityIDAttributesV5umcIDSSvg
++ _$s10PegasusAPI47Apple_Parsec_Siri_V2alpha_AppEntityIDAttributesVMa
++ _$s10PegasusAPI50Apple_Parsec_Siri_V2alpha_AppEntityCustomAttributeV11OneOf_ValueO06stringM0yAESScAEmFWC
++ _$s10PegasusAPI50Apple_Parsec_Siri_V2alpha_AppEntityCustomAttributeV11OneOf_ValueO11temperatureyAeA0c1_d1_e1_F12_TemperatureVcAEmFWC
++ _$s10PegasusAPI50Apple_Parsec_Siri_V2alpha_AppEntityCustomAttributeV11OneOf_ValueO9timestampyAeA0c1_d1_e1_F10_TimestampVcAEmFWC
++ _$s10PegasusAPI50Apple_Parsec_Siri_V2alpha_AppEntityCustomAttributeV11OneOf_ValueOMa
++ _$s10PegasusAPI50Apple_Parsec_Siri_V2alpha_AppEntityCustomAttributeV11OneOf_ValueOMn
++ _$s10PegasusAPI50Apple_Parsec_Siri_V2alpha_AppEntityCustomAttributeV5valueAC11OneOf_ValueOSgvg
++ _$s10PegasusAPI50Apple_Parsec_Siri_V2alpha_AppEntityCustomAttributeVMa
++ _$s10PegasusAPI50Apple_Parsec_Siri_V2alpha_AppEntityEventAttributesV6allDaySbvg
++ _$s10PegasusAPI50Apple_Parsec_Siri_V2alpha_AppEntityEventAttributesV7endDates5Int64Vvg
++ _$s10PegasusAPI50Apple_Parsec_Siri_V2alpha_AppEntityEventAttributesV9startDates5Int64Vvg
++ _$s10PegasusAPI50Apple_Parsec_Siri_V2alpha_AppEntityEventAttributesVMa
++ _$s10PegasusAPI50Apple_Parsec_Siri_V2alpha_AppEntityPlaceAttributesV11subLocalitySSvg
++ _$s10PegasusAPI50Apple_Parsec_Siri_V2alpha_AppEntityPlaceAttributesV12thoroughfareSSvg
++ _$s10PegasusAPI50Apple_Parsec_Siri_V2alpha_AppEntityPlaceAttributesV13postalAddressSSvg
++ _$s10PegasusAPI50Apple_Parsec_Siri_V2alpha_AppEntityPlaceAttributesV14isoCountryCodeSSvg
++ _$s10PegasusAPI50Apple_Parsec_Siri_V2alpha_AppEntityPlaceAttributesV15subThoroughfareSSvg
++ _$s10PegasusAPI50Apple_Parsec_Siri_V2alpha_AppEntityPlaceAttributesV18administrativeAreaSSvg
++ _$s10PegasusAPI50Apple_Parsec_Siri_V2alpha_AppEntityPlaceAttributesV21subAdministrativeAreaSSvg
++ _$s10PegasusAPI50Apple_Parsec_Siri_V2alpha_AppEntityPlaceAttributesV4nameSSvg
++ _$s10PegasusAPI50Apple_Parsec_Siri_V2alpha_AppEntityPlaceAttributesV7countrySSvg
++ _$s10PegasusAPI50Apple_Parsec_Siri_V2alpha_AppEntityPlaceAttributesV8latitudeSdvg
++ _$s10PegasusAPI50Apple_Parsec_Siri_V2alpha_AppEntityPlaceAttributesV8localitySSvg
++ _$s10PegasusAPI50Apple_Parsec_Siri_V2alpha_AppEntityPlaceAttributesV9longitudeSdvg
++ _$s10PegasusAPI50Apple_Parsec_Siri_V2alpha_AppEntityPlaceAttributesVMa
++ _$s10PegasusAPI52Apple_Parsec_Siri_V2alpha_AppEntityContactAttributesV10imessageIDSSvg
++ _$s10PegasusAPI52Apple_Parsec_Siri_V2alpha_AppEntityContactAttributesV11imessageURLSSvg
++ _$s10PegasusAPI52Apple_Parsec_Siri_V2alpha_AppEntityContactAttributesV11phoneNumberSSvg
++ _$s10PegasusAPI52Apple_Parsec_Siri_V2alpha_AppEntityContactAttributesV5emailSSvg
++ _$s10PegasusAPI52Apple_Parsec_Siri_V2alpha_AppEntityContactAttributesVMa
++ _$s10PegasusAPI52Apple_Parsec_Siri_V2alpha_AppEntityGeneralAttributesV10contentURLSSvg
++ _$s10PegasusAPI52Apple_Parsec_Siri_V2alpha_AppEntityGeneralAttributesV11displayNameSSvg
++ _$s10PegasusAPI52Apple_Parsec_Siri_V2alpha_AppEntityGeneralAttributesV13thumbnailData21InternalSwiftProtobuf07Google_O4_AnyVvg
++ _$s10PegasusAPI52Apple_Parsec_Siri_V2alpha_AppEntityGeneralAttributesV14alternateNamesSaySSGvg
++ _$s10PegasusAPI52Apple_Parsec_Siri_V2alpha_AppEntityGeneralAttributesV16hasThumbnailDataSbvg
++ _$s10PegasusAPI52Apple_Parsec_Siri_V2alpha_AppEntityGeneralAttributesV5titleSSvg
++ _$s10PegasusAPI52Apple_Parsec_Siri_V2alpha_AppEntityGeneralAttributesVMa
++ _$s10PegasusAPI53Apple_Parsec_Siri_V2alpha_AppEntityAppstoreAttributesV6adamIDSSvg
++ _$s10PegasusAPI53Apple_Parsec_Siri_V2alpha_AppEntityAppstoreAttributesVMa
++ _$s10ResponseUI11CodableCardV12wrappedValueACSo6SFCardC_tcfC
++ _$s10ResponseUI11CodableCardVMn
++ _$s10ResponseUI6LayoutO10expandableyAcA11CodableCardV_AFtcACmFWC
++ _$s10ResponseUI6LayoutO12snippetModel16IntelligenceFlow08RGPluginE0OyKF
++ _$s10ResponseUI6LayoutO4cardyAcA11CodableCardVcACmFWC
++ _$s10ResponseUI6LayoutOMa
++ _$s11FormatInput10Foundation0A5StylePTl
++ _$s12FeatureStore0aB7ServiceC6insert13interactionId4itemySS_xtSeRzSERzlFZ
++ _$s12FeatureStore0aB7ServiceCMa
++ _$s12FormatOutput10Foundation0A5StylePTl
++ _$s12ModelCatalog0B0O14ResourceBundleO15TokenGenerationO3LLMO30AnswerSynthesisConfigurationIDSSvgZ
++ _$s12ModelCatalog0B0O14ResourceBundleO15TokenGenerationO3LLMO30PQAVerificationConfigurationIDSSvgZ
++ _$s12ModelCatalog0B0O14ResourceBundleO15TokenGenerationO3LLMO36AnswerSynthesisServerConfigurationIDSSvgZ
++ _$s12ModelCatalog19ResourceBundleQueryV23configurationIdentifier12languageCode14otherArgumentsACSS_10Foundation6LocaleV08LanguageI0VSgSDyS2SGSgtKcfC
++ _$s12ModelCatalog19ResourceBundleQueryVMa
++ _$s12ModelCatalog20AssetBackedLLMBundleVAA14ResourceBundleAAMc
++ _$s12ModelCatalog20AssetBackedLLMBundleVMa
++ _$s12SiriNLUTypes0A22_Nlu_External_UsoGraphV21InternalSwiftProtobuf7MessageAAMc
++ _$s12SiriNLUTypes0A22_Nlu_External_UsoGraphVMa
++ _$s12SiriNLUTypes19UsoGraphProtoWriterO15toSwiftProtobuf5graph12vocabManagerAA0a14_Nlu_External_cD0V0A8Ontology0D0C_AI0cd5VocabL0CSgtKFZ
++ _$s12SiriOntology026Uso_VerbTemplateBuilder_NoD0C9setEntity5valueyx_tFTj
++ _$s12SiriOntology10UsoBuilderC13addEntitySpan06entityG0yAA0cfG0V_tFTj
++ _$s12SiriOntology12SpanPropertyV3key11valueString0F3Int0F5FloatACSS_SSSgs5Int32VSgSfSgtcfC
++ _$s12SiriOntology12SpanPropertyVMa
++ _$s12SiriOntology12SpanPropertyVMn
++ _$s12SiriOntology13UsoEntitySpanV0E6SourceOMa
++ _$s12SiriOntology13UsoEntitySpanV0E6SourceOMn
++ _$s12SiriOntology13UsoEntitySpanV11originAppId15sourceComponent5label9matchInfo10properties10startIndex03endP012alternatives0fdH0ACSSSg_AC0E6SourceOSgAmA05MatchM0VSgSayAA0E8PropertyVGs6UInt32VSgAYSayAA14AsrAlternativeVGAMtcfC
++ _$s12SiriOntology13UsoEntitySpanVMa
++ _$s12SiriOntology15UsoGraphBuilderO05buildD11WithOptions12taskBuilders7optionsAA0D0CSayAA0c4TaskE0CG_AA0ceH0VSgtFZ
++ _$s12SiriOntology17UsoBuilderOptionsVMa
++ _$s12SiriOntology17UsoBuilderOptionsVMn
++ _$s12SiriOntology33UsoEntityBuilder_common_MediaItemC7setName5valueySS_tFTj
++ _$s12SiriOntology33UsoEntityBuilder_common_MediaItemCACycfc
++ _$s12SiriOntology33UsoEntityBuilder_common_MediaItemCMa
++ _$s12SiriOntology38UsoTaskBuilder_noVerb_common_MediaItemCACycfc
++ _$s12SiriOntology38UsoTaskBuilder_noVerb_common_MediaItemCMa
++ _$s12SiriOntology9MatchInfoVMa
++ _$s12SiriOntology9MatchInfoVMn
++ _$s13SiriUtilities18DeviceRestrictionsV6aceSetShySSGvg
++ _$s13SiriUtilities18DeviceRestrictionsVMa
++ _$s15OmniSearchTypes0B10ResultTypeO10AppIntents12_IntentValueAAMc
++ _$s15OmniSearchTypes0B10ResultTypeO6answeryA2CmFWC
++ _$s15OmniSearchTypes0B10ResultTypeO8onScreenyA2CmFWC
++ _$s15OmniSearchTypes0B10ResultTypeOSQAAMc
++ _$s15OmniSearchTypes12GlobalDialogVSQAAMc
++ _$s15OmniSearchTypes14LoadExperienceO8fromDataySay015SiriInformationB00E0CG10Foundation0G0VKFZ
++ _$s15TokenGeneration0A9GeneratorC13configurationAcA20SessionConfigurationV_tcfc
++ _$s15TokenGeneration0A9GeneratorC16GenerativeModelsE5model13configuration17useCaseIdentifier10onBehalfOfAC12ModelCatalog014ResourceBundleJ0VyAI20AssetBackedLLMBundleVG_AD0dN20SessionConfigurationVSSSiSgtcfC
++ _$s15TokenGeneration0A9GeneratorC7prewarm7urgencyyAA14PrewarmUrgencyV_tF
++ _$s15TokenGeneration11ModelBundleV08resourceD5QueryACSg0C7Catalog08ResourcedF0V_tcfC
++ _$s15TokenGeneration11ModelBundleVMa
++ _$s15TokenGeneration11ModelBundleVMn
++ _$s15TokenGeneration14PrewarmUrgencyV7defaultACvgZ
++ _$s15TokenGeneration14PrewarmUrgencyV8imminentACvgZ
++ _$s15TokenGeneration14PrewarmUrgencyVMa
++ _$s15TokenGeneration20SessionConfigurationV10identifier9useCaseID21preferredModelBundles20handlesSensitiveData11cachePolicy10onBehalfOfACSS_SSSayAA0J6BundleVGSbAA05CacheP0VSiSgtcfC
++ _$s15TokenGeneration20SessionConfigurationVMa
++ _$s16CoreTransferable0B0PAAE20exportedContentTypesySay22UniformTypeIdentifiers6UTTypeVGAA32TransferRepresentationVisibilityVF
++ _$s16CoreTransferable18DataRepresentationVyxGAA08TransferD0AAMc
++ _$s16CoreTransferable32TransferRepresentationVisibilityV3allACvgZ
++ _$s16CoreTransferable32TransferRepresentationVisibilityVMa
++ _$s16GenerativeModels28_OverrideConfigurationHelperO17responseSanitizeryAA014StringResponseG0VAFFZ
++ _$s16GenerativeModels28_OverrideConfigurationHelperO23renderedPromptSanitizeryAA014StringRenderedgH0VAFFZ
++ _$s16IntelligenceFlow14ResponseDialogVSEAAMc
++ _$s16IntelligenceFlow16ResponseOverrideV8behaviorAA0cD8BehaviorVSgvg
++ _$s16IntelligenceFlow23ResponseOverrideMatcherC10OmniSearch0cdE8ProtocolADMc
++ _$s16IntelligenceFlow23ResponseOverrideMatcherC10OmniSearch0cdE8ProtocolADWP
++ _$s16IntelligenceFlow23ResponseOverrideMatcherCMn
++ _$s16IntelligenceFlow24ResponseOverrideBehaviorV22blockAllCustomEntitiesSbvg
++ _$s16IntelligenceFlow24ResponseOverrideBehaviorV26customEntityIndicesToBlockSaySiGvg
++ _$s16IntelligenceFlow24ResponseOverrideBehaviorVMa
++ _$s16IntelligenceFlow24ResponseOverrideBehaviorVMn
++ _$s17_StringProcessing14RegexComponentP5regexAA0C0Vy0C6OutputQzGvgTj
++ _$s17_StringProcessing5RegexV10firstMatch2inAC0E0Vyx_GSgSs_tKF
++ _$s20ModelManagerServices14InferenceErrorO7ContextV4codeSivg
++ _$s20ModelManagerServices14InferenceErrorO7ContextV6domainSSvg
++ _$s20ModelManagerServices14InferenceErrorO7ContextV8userInfoSDyS2SGvg
++ _$s20ModelManagerServices14InferenceErrorO7ContextVMa
++ _$s20ModelManagerServices14InferenceErrorO7ContextVMn
++ _$s20ModelManagerServices14InferenceErrorO7contextAC7ContextVSgvg
++ _$s20ModelManagerServices14InferenceErrorOMa
++ _$s20ModelManagerServices14InferenceErrorOs0E0AAMc
++ _$s21InternalSwiftProtobuf07Google_C4_AnyVAA7MessageAAMc
++ _$s21InternalSwiftProtobuf19JSONDecodingOptionsV10OmniSearchE19ignoreUnknownFieldsACSb_tcfC
++ _$s21InternalSwiftProtobuf19JSONDecodingOptionsV19ignoreUnknownFieldsSbvs
++ _$s21SiriInformationSearch14PommesResponseCMa
++ _$s21SiriInformationSearch15AudioExperienceC04OmniC0E5emptyACvpZMV
++ _$s21SiriInformationSearch17GenericExperienceC04OmniC0E5emptyACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV10OmniSearchE23searchToolExportedMediaACvMZ
++ _$s22UniformTypeIdentifiers6UTTypeV10OmniSearchE23searchToolExportedMediaACvau
++ _$s22UniformTypeIdentifiers6UTTypeV10OmniSearchE23searchToolExportedMediaACvgZ
++ _$s22UniformTypeIdentifiers6UTTypeV10OmniSearchE23searchToolExportedMediaACvpZ
++ _$s22UniformTypeIdentifiers6UTTypeV10OmniSearchE23searchToolExportedMediaACvsZ
++ _$s22UniformTypeIdentifiers6UTTypeV13utf8PlainTextACvgZ
++ _$s22UniformTypeIdentifiers6UTTypeV5movieACvgZ
++ _$s22UniformTypeIdentifiers6UTTypeV6folderACvgZ
++ _$s22UniformTypeIdentifiers6UTTypeV7contentACvgZ
++ _$s22UniformTypeIdentifiers6UTTypeV8toDoItemACvgZ
++ _$s22UniformTypeIdentifiers6UTTypeVSQAAMc
++ _$s27IntelligencePlatformLibrary0A23FlowSearchToolTelemetryV06searchF29HallucinationDetectionContextAC0efijK0VSgvs
++ _$s27IntelligencePlatformLibrary0A23FlowSearchToolTelemetryV0eF12FailureErrorV4codes5Int64VSgvs
++ _$s27IntelligencePlatformLibrary0A23FlowSearchToolTelemetryV0eF12FailureErrorV6domainSSSgvs
++ _$s27IntelligencePlatformLibrary0A23FlowSearchToolTelemetryV0eF12FailureErrorVAEycfC
++ _$s27IntelligencePlatformLibrary0A23FlowSearchToolTelemetryV0eF12FailureErrorVMa
++ _$s27IntelligencePlatformLibrary0A23FlowSearchToolTelemetryV0eF12FailureErrorVMn
++ _$s27IntelligencePlatformLibrary0A23FlowSearchToolTelemetryV0eF16SpotlightContextO6failedyAeC0efH13RequestFailedVcAEmFWC
++ _$s27IntelligencePlatformLibrary0A23FlowSearchToolTelemetryV0eF18LLMQURequestFailedV06searchF12FailureErrorAC0efkL0VSgvs
++ _$s27IntelligencePlatformLibrary0A23FlowSearchToolTelemetryV0eF21AnswerSynthesisResultV07contentE8FallbackSbSgvs
++ _$s27IntelligencePlatformLibrary0A23FlowSearchToolTelemetryV0eF22SpotlightFailureReasonO7unknownyAESicAEmFWC
++ _$s27IntelligencePlatformLibrary0A23FlowSearchToolTelemetryV0eF22SpotlightFailureReasonOMa
++ _$s27IntelligencePlatformLibrary0A23FlowSearchToolTelemetryV0eF22SpotlightFailureReasonOMn
++ _$s27IntelligencePlatformLibrary0A23FlowSearchToolTelemetryV0eF22SpotlightRequestFailedV06searchF12FailureErrorAC0eflM0VSgvs
++ _$s27IntelligencePlatformLibrary0A23FlowSearchToolTelemetryV0eF22SpotlightRequestFailedV6reasonAC0efH13FailureReasonOSgvs
++ _$s27IntelligencePlatformLibrary0A23FlowSearchToolTelemetryV0eF22SpotlightRequestFailedVAA9BuildableAAWP
++ _$s27IntelligencePlatformLibrary0A23FlowSearchToolTelemetryV0eF22SpotlightRequestFailedVMa
++ _$s27IntelligencePlatformLibrary0A23FlowSearchToolTelemetryV0eF26AnswerSynthesisDataMetricsV14responseLengths6UInt32VSgvs
++ _$s27IntelligencePlatformLibrary0A23FlowSearchToolTelemetryV0eF27HallucinationDetectionEndedV013hallucinationI9LatencyMss5Int32VSgvs
++ _$s27IntelligencePlatformLibrary0A23FlowSearchToolTelemetryV0eF27HallucinationDetectionEndedVAA9BuildableAAWP
++ _$s27IntelligencePlatformLibrary0A23FlowSearchToolTelemetryV0eF27HallucinationDetectionEndedVMa
++ _$s27IntelligencePlatformLibrary0A23FlowSearchToolTelemetryV0eF28AnswerSynthesisRequestFailedV06searchF12FailureErrorAC0efmN0VSgvs
++ _$s27IntelligencePlatformLibrary0A23FlowSearchToolTelemetryV0eF28HallucinationDetectionFailedV06searchF12FailureErrorAC0eflM0VSgvs
++ _$s27IntelligencePlatformLibrary0A23FlowSearchToolTelemetryV0eF28HallucinationDetectionFailedV6reasonAC0efhI13FailureReasonOSgvs
++ _$s27IntelligencePlatformLibrary0A23FlowSearchToolTelemetryV0eF28HallucinationDetectionFailedVAA9BuildableAAWP
++ _$s27IntelligencePlatformLibrary0A23FlowSearchToolTelemetryV0eF28HallucinationDetectionFailedVMa
++ _$s27IntelligencePlatformLibrary0A23FlowSearchToolTelemetryV0eF28HallucinationDetectionSourceO5modelyA2EmFWC
++ _$s27IntelligencePlatformLibrary0A23FlowSearchToolTelemetryV0eF28HallucinationDetectionSourceOMa
++ _$s27IntelligencePlatformLibrary0A23FlowSearchToolTelemetryV0eF28HallucinationDetectionSourceOMn
++ _$s27IntelligencePlatformLibrary0A23FlowSearchToolTelemetryV0eF29HallucinationDetectionContextV16startedOrChangedAC0efhI7StartedVvs
++ _$s27IntelligencePlatformLibrary0A23FlowSearchToolTelemetryV0eF29HallucinationDetectionContextV5endedAC0efhI5EndedVvs
++ _$s27IntelligencePlatformLibrary0A23FlowSearchToolTelemetryV0eF29HallucinationDetectionContextV6failedAC0efhI6FailedVvs
++ _$s27IntelligencePlatformLibrary0A23FlowSearchToolTelemetryV0eF29HallucinationDetectionContextVAA9BuildableAAWP
++ _$s27IntelligencePlatformLibrary0A23FlowSearchToolTelemetryV0eF29HallucinationDetectionContextVMa
++ _$s27IntelligencePlatformLibrary0A23FlowSearchToolTelemetryV0eF29HallucinationDetectionContextVMn
++ _$s27IntelligencePlatformLibrary0A23FlowSearchToolTelemetryV0eF29HallucinationDetectionStartedV013hallucinationI6SourceAC0efhiL0OSgvs
++ _$s27IntelligencePlatformLibrary0A23FlowSearchToolTelemetryV0eF29HallucinationDetectionStartedVAA9BuildableAAWP
++ _$s27IntelligencePlatformLibrary0A23FlowSearchToolTelemetryV0eF29HallucinationDetectionStartedVMa
++ _$s27IntelligencePlatformLibrary0A23FlowSearchToolTelemetryV0eF35HallucinationDetectionFailureReasonO7unknownyAESicAEmFWC
++ _$s27IntelligencePlatformLibrary0A23FlowSearchToolTelemetryV0eF35HallucinationDetectionFailureReasonOMa
++ _$s27IntelligencePlatformLibrary0A23FlowSearchToolTelemetryV0eF35HallucinationDetectionFailureReasonOMn
++ _$s27IntelligencePlatformLibrary0A23FlowSearchToolTelemetryV0ef6GlobalE13RequestFailedV06searchF12FailureErrorAC0eflM0VSgvs
++ _$s27IntelligencePlatformLibrary0A23FlowSearchToolTelemetryV0ef7GeneralE10EndedTier1V14staticDialogIdSSSgvs
++ _$s27IntelligencePlatformLibrary0A23FlowSearchToolTelemetryV0ef7GeneralE10EndedTier1V6linkIdAA4AIMLV4UUIDVSgvs
++ _$s27IntelligencePlatformLibrary0A23FlowSearchToolTelemetryV0ef7GeneralE10EndedTier1VAA9BuildableAAWP
++ _$s27IntelligencePlatformLibrary0A23FlowSearchToolTelemetryV0ef7GeneralE10EndedTier1VMa
++ _$s27IntelligencePlatformLibrary0A23FlowSearchToolTelemetryV0ef7GeneralE10EndedTier1VMn
++ _$s27IntelligencePlatformLibrary0A23FlowSearchToolTelemetryV0ef7GeneralE10ResultTypeO6answeryA2EmFWC
++ _$s27IntelligencePlatformLibrary0A23FlowSearchToolTelemetryV0ef7GeneralE5EndedV6linkIdAA4AIMLV4UUIDVSgvs
++ _$s27IntelligencePlatformLibrary0A23FlowSearchToolTelemetryV0ef7GeneralE6FailedV06searchF12FailureErrorAC0efkL0VSgvs
++ _$s27IntelligencePlatformLibrary0A23FlowSearchToolTelemetryV0ef7GeneralE7StartedV9preWarmedSbSgvs
++ _$s27IntelligencePlatformLibrary0A23FlowSearchToolTelemetryV17requestEndedTier1AC0ef7GeneraleiJ0VSgvs
++ _$s29GenerativeFunctionsFoundation16GenerationSchemaOMa
++ _$s29GenerativeFunctionsFoundation16GenerationSchemaOSeAAMc
++ _$s29GenerativeFunctionsFoundation6SchemaV4typeAcA010GenerationD0O_tcfC
++ _$s29GenerativeFunctionsFoundation6SchemaVMn
++ _$s41IntelligencePlatformLibrary_AppleInternal0eC0O7StreamsO10SearchToolO10TranscriptOAA14StreamResourceAAMc
++ _$s41IntelligencePlatformLibrary_AppleInternal0eC0O7StreamsO10SearchToolO10TranscriptOMa
++ _$s41IntelligencePlatformLibrary_AppleInternal14StreamResourcePAAE6sourceAA6Source_px0F0Rts_XPyKFZ
++ _$s41IntelligencePlatformLibrary_AppleInternal20SearchToolTranscriptV17absoluteTimestamp10Foundation4DateVSgvs
++ _$s41IntelligencePlatformLibrary_AppleInternal20SearchToolTranscriptV4data10Foundation4DataVvs
++ _$s41IntelligencePlatformLibrary_AppleInternal20SearchToolTranscriptV5querySSvs
++ _$s41IntelligencePlatformLibrary_AppleInternal20SearchToolTranscriptV9eventTypeSSvs
++ _$s41IntelligencePlatformLibrary_AppleInternal20SearchToolTranscriptV9requestIdSSSgvs
++ _$s41IntelligencePlatformLibrary_AppleInternal20SearchToolTranscriptVAA9BuildableAAMc
++ _$s41IntelligencePlatformLibrary_AppleInternal20SearchToolTranscriptVAA9BuildableAAWP
++ _$s41IntelligencePlatformLibrary_AppleInternal20SearchToolTranscriptVACycfC
++ _$s41IntelligencePlatformLibrary_AppleInternal20SearchToolTranscriptVMa
++ _$s41IntelligencePlatformLibrary_AppleInternal20SearchToolTranscriptVMn
++ _$s41IntelligencePlatformLibrary_AppleInternal20SearchToolTranscriptVN
++ _$s41IntelligencePlatformLibrary_AppleInternal20SearchToolTranscriptVSHAAMc
++ _$s41IntelligencePlatformLibrary_AppleInternal20SearchToolTranscriptVSQAAMc
++ _$s41IntelligencePlatformLibrary_AppleInternal6SourceP9sendEventyy6Stream_0H4TypeQZFTj
++ _$s9PromptKit31GenerativeConfigurationProtocolP0C6ModelsE08renderedA9SanitizeryxAA08BindableD0VF
++ _$s9PromptKit31GenerativeConfigurationProtocolP0C6ModelsE08renderedA9SanitizeryxAD014StringRenderedaH0VF
++ _$s9PromptKit31GenerativeConfigurationProtocolP0C6ModelsE17responseSanitizeryxAA08BindableD0VF
++ _$s9PromptKit31GenerativeConfigurationProtocolP0C6ModelsE17responseSanitizeryxAD014StringResponseH0VF
++ _$s9PromptKit31GenerativeConfigurationProtocolP0C6ModelsE6schemayx0C19FunctionsFoundation6SchemaVSgF
++ _$sSD10OmniSearchAA0B4TypeORszAA0B13ServiceResultVRs_rlE7maxItemSivau
++ _$sSD10OmniSearchAA0B4TypeORszAA0B13ServiceResultVRs_rlE7maxItemSivgZ
++ _$sSD10OmniSearchAA0B4TypeORszAA0B13ServiceResultVRs_rlE7maxItemSivpZ
++ _$sSD10OmniSearchAA0B4TypeORszAA0B13ServiceResultVRs_rlE8evalInfoSaySE_pGvg
++ _$sSD10OmniSearchAA0B4TypeORszAA0B13ServiceResultVRs_rlE8evalInfoSaySE_pGvpMV
++ _$sSDMa
++ _$sSDMn
++ _$sSDyxq_G10OmniSearch17EvalInfoProvidingA2B0B4TypeORszAB0B13ServiceResultVRs_rlMc
++ _$sSDyxq_G10OmniSearch17EvalInfoProvidingA2B0B4TypeORszAB0B13ServiceResultVRs_rlWP
++ _$sSE15OmniSearchTypesE17jsonPrettyPrintedSSyF
++ _$sSE20IntelligencePlatformE12asJSONStringSSvg
++ _$sSS10FoundationE17LocalizationValueV19stringInterpolationA2C06StringE0V_tcfC
++ _$sSS10FoundationE6format_S2Sh_s7CVarArg_pdtcfC
++ _$sSS10FoundationE9localized5table6bundle6locale7commentS2SAAE17LocalizationValueV_SSSgSo8NSBundleCSgAA6LocaleVs12StaticStringVSgtcfC
++ _$sSS10OmniSearchE12asDictionarySDySSypGvg
++ _$sSS10OmniSearchE12asDictionarySDySSypGvpMV
++ _$sSS10OmniSearchE16oms_bundleIdIs3PSbvg
++ _$sSS10OmniSearchE16oms_bundleIdIs3PSbvpMV
++ _$sSS10OmniSearchE19isAContinuousSubset2ofSbSaySSG_tF
++ _$sSS10OmniSearchE29nsRangeWithCompleteTokenMatch2of18featureFlagServiceSo8_NSRangeVSgSS_AA07FeaturekL0CtF
++ _$sSa10OmniSearchAA0B6ResultVRszlE19createValidEntities7context05inAppB6String11derivedTypeSayAA0B6EntityVGAA0bM13VisualContextC_SSSgAA07DerivedL0OSgtKF
++ _$sSa10OmniSearchAA0B6ResultVRszlE19createValidEntities7context05inAppB6String11derivedTypeSayAA0B6EntityVGAA0bM13VisualContextC_SSSgAA07DerivedL0OSgtKFfA_
++ _$sScEMa
++ _$sScP13userInitiatedScPvgZ
++ _$sScTss5NeverORszABRs_rlE11isCancelledSbvgZ
++ _$sScg10nextResults0B0Oyxq_GSgyYaKF
++ _$sScg10nextResults0B0Oyxq_GSgyYaKFTu
++ _$sScg9cancelAllyyF
++ _$sSd10AppIntents12_IntentValueAAMc
++ _$sSi10AppIntents12_IntentValueAAMc
++ _$sSo11CLPlacemarkC10AppIntents12_IntentValueACMc
++ _$sSo11IMSPIHandleC10OmniSearchE10senderNameSSSgvg
++ _$sSo11IMSPIHandleC10OmniSearchE10senderNameSSSgvpMV
++ _$sSo11NLTokenizerC15NaturalLanguageE15enumerateTokens2in5usingySnySS5IndexVG_SbAI_So0A10AttributesVtXEtF
++ _$sSo13NSProcessInfoC10OmniSearchE18isRunningUnitTestsSbvg
++ _$sSo13NSProcessInfoC10OmniSearchE18isRunningUnitTestsSbvpMV
++ _$sSo14NSUserDefaultsC10OmniSearchE010skipGlobalD0SbvpZMV
++ _$sSo14NSUserDefaultsC10OmniSearchE011$skipGlobalD0AC11UserDefaultVySbGvpZMV
++ _$sSo14NSUserDefaultsC10OmniSearchE015answerSynthesisD17ResultsPerRequestSivpZMV
++ _$sSo14NSUserDefaultsC10OmniSearchE016$answerSynthesisD17ResultsPerRequestAC11UserDefaultVySiGvpZMV
++ _$sSo14NSUserDefaultsC10OmniSearchE06globalD16LocationLatitudeSdSgvpZMV
++ _$sSo14NSUserDefaultsC10OmniSearchE06globalD17LocationLongitudeSdSgvpZMV
++ _$sSo14NSUserDefaultsC10OmniSearchE06photosD4EvalSbvMZ
++ _$sSo14NSUserDefaultsC10OmniSearchE06photosD4EvalSbvgZ
++ _$sSo14NSUserDefaultsC10OmniSearchE06photosD4EvalSbvpZMV
++ _$sSo14NSUserDefaultsC10OmniSearchE06photosD4EvalSbvsZ
++ _$sSo14NSUserDefaultsC10OmniSearchE07$globalD16LocationLatitudeAC11UserDefaultVySdSgGvpZMV
++ _$sSo14NSUserDefaultsC10OmniSearchE07$globalD17LocationLongitudeAC11UserDefaultVySdSgGvpZMV
++ _$sSo14NSUserDefaultsC10OmniSearchE07$photosD4EvalAC11UserDefaultVySbGvgZ
++ _$sSo14NSUserDefaultsC10OmniSearchE07$photosD4EvalAC11UserDefaultVySbGvpZMV
++ _$sSo14NSUserDefaultsC10OmniSearchE10forceLLMQUSbvMZ
++ _$sSo14NSUserDefaultsC10OmniSearchE10forceLLMQUSbvgZ
++ _$sSo14NSUserDefaultsC10OmniSearchE10forceLLMQUSbvpZMV
++ _$sSo14NSUserDefaultsC10OmniSearchE10forceLLMQUSbvsZ
++ _$sSo14NSUserDefaultsC10OmniSearchE10logForEvalSbvpZMV
++ _$sSo14NSUserDefaultsC10OmniSearchE11$forceLLMQUAC11UserDefaultVySbGvgZ
++ _$sSo14NSUserDefaultsC10OmniSearchE11$forceLLMQUAC11UserDefaultVySbGvpZMV
++ _$sSo14NSUserDefaultsC10OmniSearchE11$logForEvalAC11UserDefaultVySbGvpZMV
++ _$sSo14NSUserDefaultsC10OmniSearchE11currentTimeSdSgvpZMV
++ _$sSo14NSUserDefaultsC10OmniSearchE12$currentTimeAC11UserDefaultVySdSgGvpZMV
++ _$sSo14NSUserDefaultsC10OmniSearchE14fallbackLocaleSSvpZMV
++ _$sSo14NSUserDefaultsC10OmniSearchE14llmQUModelTypeSSvpZMV
++ _$sSo14NSUserDefaultsC10OmniSearchE15$fallbackLocaleAC11UserDefaultVySSGvpZMV
++ _$sSo14NSUserDefaultsC10OmniSearchE15$llmQUModelTypeAC11UserDefaultVySSGvpZMV
++ _$sSo14NSUserDefaultsC10OmniSearchE17msgCntAfterTargetSuvpZMV
++ _$sSo14NSUserDefaultsC10OmniSearchE18$msgCntAfterTargetAC11UserDefaultVySuGvpZMV
++ _$sSo14NSUserDefaultsC10OmniSearchE18llmPromptLineBreakSSvpZMV
++ _$sSo14NSUserDefaultsC10OmniSearchE18msgCntBeforeTargetSuvpZMV
++ _$sSo14NSUserDefaultsC10OmniSearchE19$llmPromptLineBreakAC11UserDefaultVySSGvpZMV
++ _$sSo14NSUserDefaultsC10OmniSearchE19$msgCntBeforeTargetAC11UserDefaultVySuGvpZMV
++ _$sSo14NSUserDefaultsC10OmniSearchE19disambiguationLimitSivpZMV
++ _$sSo14NSUserDefaultsC10OmniSearchE19featureStoreLoggingSbvMZ
++ _$sSo14NSUserDefaultsC10OmniSearchE19featureStoreLoggingSbvgZ
++ _$sSo14NSUserDefaultsC10OmniSearchE19featureStoreLoggingSbvpZMV
++ _$sSo14NSUserDefaultsC10OmniSearchE19featureStoreLoggingSbvsZ
++ _$sSo14NSUserDefaultsC10OmniSearchE20$disambiguationLimitAC11UserDefaultVySiGvpZMV
++ _$sSo14NSUserDefaultsC10OmniSearchE20$featureStoreLoggingAC11UserDefaultVySbGvgZ
++ _$sSo14NSUserDefaultsC10OmniSearchE20$featureStoreLoggingAC11UserDefaultVySbGvpZMV
++ _$sSo14NSUserDefaultsC10OmniSearchE20answerSynthesisLimitSivpZMV
++ _$sSo14NSUserDefaultsC10OmniSearchE20smartChunkingOverlapSivpZMV
++ _$sSo14NSUserDefaultsC10OmniSearchE21$answerSynthesisLimitAC11UserDefaultVySiGvpZMV
++ _$sSo14NSUserDefaultsC10OmniSearchE21$smartChunkingOverlapAC11UserDefaultVySiGvpZMV
++ _$sSo14NSUserDefaultsC10OmniSearchE21forceContentHydrationSbvpZMV
++ _$sSo14NSUserDefaultsC10OmniSearchE22$forceContentHydrationAC11UserDefaultVySbGvpZMV
++ _$sSo14NSUserDefaultsC10OmniSearchE22smartChunksPerDocumentSivpZMV
++ _$sSo14NSUserDefaultsC10OmniSearchE22triggersDisambiguationSbvMZ
++ _$sSo14NSUserDefaultsC10OmniSearchE22triggersDisambiguationSbvgZ
++ _$sSo14NSUserDefaultsC10OmniSearchE22triggersDisambiguationSbvpZMV
++ _$sSo14NSUserDefaultsC10OmniSearchE22triggersDisambiguationSbvsZ
++ _$sSo14NSUserDefaultsC10OmniSearchE23$smartChunksPerDocumentAC11UserDefaultVySiGvpZMV
++ _$sSo14NSUserDefaultsC10OmniSearchE23$triggersDisambiguationAC11UserDefaultVySbGvgZ
++ _$sSo14NSUserDefaultsC10OmniSearchE23$triggersDisambiguationAC11UserDefaultVySbGvpZMV
++ _$sSo14NSUserDefaultsC10OmniSearchE23spotlightQueryBundleIDsSaySSGvpZMV
++ _$sSo14NSUserDefaultsC10OmniSearchE24$spotlightQueryBundleIDsAC11UserDefaultVySaySSGGvpZMV
++ _$sSo14NSUserDefaultsC10OmniSearchE24answerSynthesisModelTypeSSvpZMV
++ _$sSo14NSUserDefaultsC10OmniSearchE24searchCATContextOverrideSSSgvMZ
++ _$sSo14NSUserDefaultsC10OmniSearchE24searchCATContextOverrideSSSgvgZ
++ _$sSo14NSUserDefaultsC10OmniSearchE24searchCATContextOverrideSSSgvpZMV
++ _$sSo14NSUserDefaultsC10OmniSearchE24searchCATContextOverrideSSSgvsZ
++ _$sSo14NSUserDefaultsC10OmniSearchE24sendInstantAnswerDocToASSbvpZMV
++ _$sSo14NSUserDefaultsC10OmniSearchE25$answerSynthesisModelTypeAC11UserDefaultVySSGvpZMV
++ _$sSo14NSUserDefaultsC10OmniSearchE25$searchCATContextOverrideAC11UserDefaultVySSSgGvgZ
++ _$sSo14NSUserDefaultsC10OmniSearchE25$searchCATContextOverrideAC11UserDefaultVySSSgGvpZMV
++ _$sSo14NSUserDefaultsC10OmniSearchE25$sendInstantAnswerDocToASAC11UserDefaultVySbGvpZMV
++ _$sSo14NSUserDefaultsC10OmniSearchE25emailContentPreprocessingSbvpZMV
++ _$sSo14NSUserDefaultsC10OmniSearchE26$emailContentPreprocessingAC11UserDefaultVySbGvpZMV
++ _$sSo14NSUserDefaultsC10OmniSearchE26allowNoAnswerFallbackToPCSSbvpZMV
++ _$sSo14NSUserDefaultsC10OmniSearchE26smartChunkingPreprocessingSbvpZMV
++ _$sSo14NSUserDefaultsC10OmniSearchE27$allowNoAnswerFallbackToPCSAC11UserDefaultVySbGvpZMV
++ _$sSo14NSUserDefaultsC10OmniSearchE27$smartChunkingPreprocessingAC11UserDefaultVySbGvpZMV
++ _$sSo14NSUserDefaultsC10OmniSearchE27llmQUPromptTemplateOverrideSSSgvpZMV
++ _$sSo14NSUserDefaultsC10OmniSearchE28$llmQUPromptTemplateOverrideAC11UserDefaultVySSSgGvpZMV
++ _$sSo14NSUserDefaultsC10OmniSearchE31answerSynthesisCDSchemaOverrideSSSgvMZ
++ _$sSo14NSUserDefaultsC10OmniSearchE31answerSynthesisCDSchemaOverrideSSSgvgZ
++ _$sSo14NSUserDefaultsC10OmniSearchE31answerSynthesisCDSchemaOverrideSSSgvpZMV
++ _$sSo14NSUserDefaultsC10OmniSearchE31answerSynthesisCDSchemaOverrideSSSgvsZ
++ _$sSo14NSUserDefaultsC10OmniSearchE31answerSynthesisResponseOverrideSSSgvMZ
++ _$sSo14NSUserDefaultsC10OmniSearchE31answerSynthesisResponseOverrideSSSgvgZ
++ _$sSo14NSUserDefaultsC10OmniSearchE31answerSynthesisResponseOverrideSSSgvpZMV
++ _$sSo14NSUserDefaultsC10OmniSearchE31answerSynthesisResponseOverrideSSSgvsZ
++ _$sSo14NSUserDefaultsC10OmniSearchE31answerSynthesisTokenLimitDeviceSivpZMV
++ _$sSo14NSUserDefaultsC10OmniSearchE31answerSynthesisTokenLimitOutputSivpZMV
++ _$sSo14NSUserDefaultsC10OmniSearchE31answerSynthesisTokenLimitServerSivpZMV
++ _$sSo14NSUserDefaultsC10OmniSearchE32$answerSynthesisCDSchemaOverrideAC11UserDefaultVySSSgGvgZ
++ _$sSo14NSUserDefaultsC10OmniSearchE32$answerSynthesisCDSchemaOverrideAC11UserDefaultVySSSgGvpZMV
++ _$sSo14NSUserDefaultsC10OmniSearchE32$answerSynthesisResponseOverrideAC11UserDefaultVySSSgGvgZ
++ _$sSo14NSUserDefaultsC10OmniSearchE32$answerSynthesisResponseOverrideAC11UserDefaultVySSSgGvpZMV
++ _$sSo14NSUserDefaultsC10OmniSearchE32$answerSynthesisTokenLimitDeviceAC11UserDefaultVySiGvpZMV
++ _$sSo14NSUserDefaultsC10OmniSearchE32$answerSynthesisTokenLimitOutputAC11UserDefaultVySiGvpZMV
++ _$sSo14NSUserDefaultsC10OmniSearchE32$answerSynthesisTokenLimitServerAC11UserDefaultVySiGvpZMV
++ _$sSo14NSUserDefaultsC10OmniSearchE34answerSynthesisTokenCharMultiplierSfvpZMV
++ _$sSo14NSUserDefaultsC10OmniSearchE34getDirectionsForLocationResolutionSbvMZ
++ _$sSo14NSUserDefaultsC10OmniSearchE34getDirectionsForLocationResolutionSbvgZ
++ _$sSo14NSUserDefaultsC10OmniSearchE34getDirectionsForLocationResolutionSbvpZMV
++ _$sSo14NSUserDefaultsC10OmniSearchE34getDirectionsForLocationResolutionSbvsZ
++ _$sSo14NSUserDefaultsC10OmniSearchE35$answerSynthesisTokenCharMultiplierAC11UserDefaultVySfGvpZMV
++ _$sSo14NSUserDefaultsC10OmniSearchE35$getDirectionsForLocationResolutionAC11UserDefaultVySbGvgZ
++ _$sSo14NSUserDefaultsC10OmniSearchE35$getDirectionsForLocationResolutionAC11UserDefaultVySbGvpZMV
++ _$sSo14NSUserDefaultsC10OmniSearchE37answerSynthesisPromptTemplateOverrideSSSgvpZMV
++ _$sSo14NSUserDefaultsC10OmniSearchE37needAnswerMatchWithLocationResolutionSbvMZ
++ _$sSo14NSUserDefaultsC10OmniSearchE37needAnswerMatchWithLocationResolutionSbvgZ
++ _$sSo14NSUserDefaultsC10OmniSearchE37needAnswerMatchWithLocationResolutionSbvpZMV
++ _$sSo14NSUserDefaultsC10OmniSearchE37needAnswerMatchWithLocationResolutionSbvsZ
++ _$sSo14NSUserDefaultsC10OmniSearchE37pqaVerificationPromptTemplateOverrideSSSgvpZMV
++ _$sSo14NSUserDefaultsC10OmniSearchE38$answerSynthesisPromptTemplateOverrideAC11UserDefaultVySSSgGvpZMV
++ _$sSo14NSUserDefaultsC10OmniSearchE38$needAnswerMatchWithLocationResolutionAC11UserDefaultVySbGvgZ
++ _$sSo14NSUserDefaultsC10OmniSearchE38$needAnswerMatchWithLocationResolutionAC11UserDefaultVySbGvpZMV
++ _$sSo14NSUserDefaultsC10OmniSearchE38$pqaVerificationPromptTemplateOverrideAC11UserDefaultVySSSgGvpZMV
++ _$sSo14NSUserDefaultsC10OmniSearchE38answerSynthesisTokenLimitNonUserPromptSivpZMV
++ _$sSo14NSUserDefaultsC10OmniSearchE39$answerSynthesisTokenLimitNonUserPromptAC0J7DefaultVySiGvpZMV
++ _$sSo14NSUserDefaultsC10OmniSearchE44answerSynthesisRequestedPropertiesPerRequestSivMZ
++ _$sSo14NSUserDefaultsC10OmniSearchE44answerSynthesisRequestedPropertiesPerRequestSivgZ
++ _$sSo14NSUserDefaultsC10OmniSearchE44answerSynthesisRequestedPropertiesPerRequestSivpZMV
++ _$sSo14NSUserDefaultsC10OmniSearchE44answerSynthesisRequestedPropertiesPerRequestSivsZ
++ _$sSo14NSUserDefaultsC10OmniSearchE45$answerSynthesisRequestedPropertiesPerRequestAC11UserDefaultVySiGvgZ
++ _$sSo14NSUserDefaultsC10OmniSearchE45$answerSynthesisRequestedPropertiesPerRequestAC11UserDefaultVySiGvpZMV
++ _$sSo16CSSearchableItemC10OmniSearchE13oms_emailBodySSSgvg
++ _$sSo16CSSearchableItemC10OmniSearchE13oms_emailBodySSSgvpMV
++ _$sSo16CSSearchableItemC10OmniSearchE14isFileDocumentSbvg
++ _$sSo16CSSearchableItemC10OmniSearchE14isFileDocumentSbvpMV
++ _$sSo16CSSearchableItemC10OmniSearchE16oms_emailSubjectSSSgvg
++ _$sSo16CSSearchableItemC10OmniSearchE16oms_emailSubjectSSSgvpMV
++ _$sSo16CSSearchableItemC10OmniSearchE17isSyndicatedPhotoSbvg
++ _$sSo16CSSearchableItemC10OmniSearchE17isSyndicatedPhotoSbvpMV
++ _$sSo20CSCustomAttributeKeyC10OmniSearchE023spotlightSFSearchResultC0ABvpZMV
++ _$sSo8NLTaggerC15NaturalLanguageE13enumerateTags2in4unit6scheme7options5usingySnySS5IndexVG_So11NLTokenUnitVSo11NLTagSchemeaSo0A7OptionsVSbSo0N0aSg_ALtXEtF
++ _$sSo8NSNumberC10FoundationE14integerLiteralABSi_tcfC
++ _$sSo8NSStringC10FoundationE13stringLiteralABs12StaticStringV_tcfC
++ _$sSo9SFCommandC10OmniSearchE12asIntentFile10AppIntents0eF0VyKF
++ _$sSo9SPQUParseC10OmniSearchE19filterTypeToQUPPArgySo014QPLLMIntentArgE0VAC06FilterE0OFZ
++ _$sSo9SPQUParseC10OmniSearchE19sourceTypeToQUPPArgySo014QPLLMIntentArgE0VAC06SourceE0OFZ
++ _$sSo9SPQUParseC10OmniSearchE20orderByTimeToQUPPArgySo18QPLLMIntentArgTypeVSgAC05OrdereF0OSgFZ
++ _$sSo9SPQUParseC10OmniSearchE21containsTypeToQUPPArgySo014QPLLMIntentArgE0VAC08ContainsE0OFZ
++ _$sSo9SPQUParseC10OmniSearchE22preferredTypeToQUPPArgySo014QPLLMIntentArgE0VAC09PreferredE0OFZ
++ _$sSo9SPQUParseC10OmniSearchE26preferredTypeToIntentLabelySSSayAC09PreferredE0OGSgFZ
++ _$sSo9SPQUParseC10OmniSearchE4from5query17isExpectingAnswerABSgAC21StructuredQueryEntityV_SSSbtcfC
++ _$ss10ArraySliceVyxGSKsMc
++ _$ss15ContinuousClockV7InstantVMa
++ _$ss15ContinuousClockV7InstantVs0C8ProtocolsMc
++ _$ss15ContinuousClockVABycfC
++ _$ss15ContinuousClockVMa
++ _$ss15ContinuousClockVs0B0sMc
++ _$ss15InstantProtocolP8advanced2byx8DurationQz_tFTj
++ _$ss18_DictionaryStorageC4copy8originalAByxq_Gs05__RawaB0C_tFZ
++ _$ss19_HasContiguousBytesMp
++ _$ss19_HasContiguousBytesP010withUnsafeC0yqd__qd__SWKXEKlFTj
++ _$ss19_HasContiguousBytesP09_providesbC6NoCopySbvgTj
++ _$ss22KeyedDecodingContainerV15decodeIfPresent_6forKeySfSgSfm_xtKF
++ _$ss22KeyedDecodingContainerV15decodeIfPresent_6forKeys5Int64VSgAFm_xtKF
++ _$ss22KeyedEncodingContainerV15encodeIfPresent_6forKeyySfSg_xtKF
++ _$ss22KeyedEncodingContainerV15encodeIfPresent_6forKeyys5Int64VSg_xtKF
++ _$ss5ClockP3now7InstantQzvgTj
++ _$ss5ClockP5sleep5until9tolerancey7InstantQz_8DurationQzSgtYaKFTj
++ _$ss5ClockP5sleep5until9tolerancey7InstantQz_8DurationQzSgtYaKFTjTu
++ _$ss5ErrorP10FoundationAC13CustomNSErrorRzrlE5_codeSivg
++ _$ss5ErrorP10FoundationAC13CustomNSErrorRzrlE7_domainSSvg
++ _$ss8DurationV16secondsComponent011attosecondsC0ABs5Int64V_AFtcfC
++ _$syXlN
++ _DRTailspinRequest
++ _MDItemAppEntityInstanceId
++ _MDItemCardGroupNumber
++ _MDItemCostCode
++ _MDItemEventFlightArrivalGate
++ _MDItemEventFlightBoardingDateTime
++ _MDItemEventFlightDepartureDateTime
++ _MDItemEventFlightDepartureGate
++ _MDItemEventHotelCheckinDate
++ _MDItemEventHotelCheckinTime
++ _MDItemEventNumberOfRooms
++ _MDItemEventRestaurantMealType
++ _MDItemEventRoomNumbers
++ _MDItemExtractedCurrenciesValues
++ _MDItemExtractedDatesValues
++ _MDItemExtractedLocationsValues
++ _MDItemIsFromMe
++ _MDItemPassbookIsPaymentPass
++ _MDItemProviderDataTypes
++ _NLTagSchemeLexicalClass
++ _NLTagWhitespace
++ _NSFileProtectionCompleteUnlessOpen
++ _NSLocalizedDescriptionKey
++ _NSUnderlyingErrorKey
++ _OBJC_CLASS_$_EKEvent
++ _OBJC_CLASS_$_EKEventStore
++ _OBJC_CLASS_$_GDVisualIdentifier
++ _OBJC_CLASS_$_IMContactStore
++ _OBJC_CLASS_$_NLTagger
++ _OBJC_CLASS_$_NLTokenizer
++ _OBJC_CLASS_$_NSError
++ _OBJC_CLASS_$_PHPhotoLibrary
++ _OBJC_CLASS_$_PHSearchQueryManager
++ _OBJC_CLASS_$_SFCommand
++ _OBJC_CLASS_$_SPECRGroundedPerson
++ _OBJC_CLASS_$_SearchUICommandHandler
++ _OBJC_CLASS_$_UAFAssetSetManager
++ _OBJC_CLASS_$__TtC10OmniSearch15LocalizedString
++ _OBJC_METACLASS_$_NSString
++ _OBJC_METACLASS_$__TtC10OmniSearch15LocalizedString
++ _SSSectionIsSyndicatedPhotos
++ __swift_FORCE_LOAD_$_swiftCallKit
++ __swift_FORCE_LOAD_$_swiftGLKit
++ __swift_FORCE_LOAD_$_swiftMetalKit
++ __swift_FORCE_LOAD_$_swiftModelIO
++ __swift_FORCE_LOAD_$_swiftSceneKit
++ _kQPParseAttributeDateKey
++ _kQPParseAttributeValueDateComponentsKey
++ _objc_autorelease
++ _qos_class_self
++ _swift_cvw_allocateGenericValueMetadataWithLayoutString
++ _swift_cvw_assignWithCopy
++ _swift_cvw_assignWithTake
++ _swift_cvw_destroy
++ _swift_cvw_enumFn_getEnumTag
++ _swift_cvw_initEnumMetadataMultiPayloadWithLayoutString
++ _swift_cvw_initStructMetadataWithLayoutString
++ _swift_cvw_initWithCopy
++ _swift_cvw_initWithTake
++ _swift_cvw_initializeBufferWithCopyOfBuffer
++ _swift_cvw_instantiateLayoutString
++ _swift_cvw_multiPayloadEnumGeneric_destructiveInjectEnumTag
++ _swift_cvw_multiPayloadEnumGeneric_getEnumTag
++ _swift_dynamicCastMetatype
++ _swift_initStaticObject
++ _swift_stdlib_isStackAllocationSafe
++ _swift_stdlib_random
+- _$s10AppIntents10IntentFileV7fileURL8filename4typeAC10Foundation0F0V_SSSg22UniformTypeIdentifiers6UTTypeVSgtcfC
+- _$s10AppIntents15IntentParameterC10OmniSearchAD0F6EntityVSgRszrlE21requestDisambiguation5among10dialogDataAFSayAFG_AD06DialogL0VtYaKF
+- _$s10AppIntents15IntentParameterC10OmniSearchAD0F6EntityVSgRszrlE21requestDisambiguation5among10dialogDataAFSayAFG_AD06DialogL0VtYaKFTu
+- _$s10AppIntents15IntentParameterC21requestDisambiguation5among6dialog9ValueTypeQzSayAHG_AA0C6DialogVSgtYaKF
+- _$s10AppIntents15IntentParameterC21requestDisambiguation5among6dialog9ValueTypeQzSayAHG_AA0C6DialogVSgtYaKFTu
+- _$s10AppIntents15IntentParameterCyxG10OmniSearch25DisambiguationRequestableA2E0F6EntityVSgRszrlMc
+- _$s10AppIntents15IntentParameterCyxG10OmniSearch25DisambiguationRequestableA2E0F6EntityVSgRszrlWP
+- _$s10AppIntents16ParameterSummaryMp
+- _$s10AppIntents22IntentParameterSummaryVMn
+- _$s10AppIntents22IntentParameterSummaryV_5tableACyxGAA0dE6StringVyxG_SSSgtcfC
+- _$s10AppIntents22IntentParameterSummaryVyxGAA0dE0AAMc
+- _$s10AppIntents22ParameterSummaryStringV13stringLiteralACyxGSS_tcfC
+- _$s10AppIntents22ParameterSummaryStringVMn
+- _$s10AppIntents22URLRepresentableEntityMp
+- _$s10AppIntents22URLRepresentableEntityP17urlRepresentationAA0D17URLRepresentationVyxGvgZTq
+- _$s10AppIntents22URLRepresentableEntityPAA0aD0Tb
+- _$s10AppIntents22URLRepresentableEntityPAA43CustomURLRepresentationParameterConvertibleTb
+- _$s10AppIntents22URLRepresentableEntityPAAE26urlRepresentationParameterSSSgvg
+- _$s10AppIntents22URLRepresentableIntentMp
+- _$s10AppIntents22URLRepresentableIntentP17urlRepresentationAA0D17URLRepresentationVyxGvgZTq
+- _$s10AppIntents22URLRepresentableIntentPA2A04OpenD0RzAA0C6Entity5ValueAaDPRpzrlE17urlRepresentationAA0D17URLRepresentationVyxGvgZ
+- _$s10AppIntents22URLRepresentableIntentPA2A04OpenD0RzAA0C6Entity5ValueAaDPRpzrlE7performs5NeverOyYaKF
+- _$s10AppIntents22URLRepresentableIntentPA2A04OpenD0RzAA0C6Entity5ValueAaDPRpzrlE7performs5NeverOyYaKFTu
+- _$s10AppIntents22URLRepresentableIntentPAA0aD0Tb
+- _$s10AppIntents23EntityURLRepresentationV19StringInterpolationV06appendF0yyAE5TokenOyx__GF
+- _$s10AppIntents23EntityURLRepresentationV19StringInterpolationV13appendLiteralyySSF
+- _$s10AppIntents23EntityURLRepresentationV19StringInterpolationV15literalCapacity18interpolationCountAEyx_GSi_SitcfC
+- _$s10AppIntents23EntityURLRepresentationV19StringInterpolationV5TokenO2idyAGyx__GAImAA0aC0RzlFWC
+- _$s10AppIntents23EntityURLRepresentationV19StringInterpolationV5TokenOMn
+- _$s10AppIntents23EntityURLRepresentationV19StringInterpolationVMn
+- _$s10AppIntents23EntityURLRepresentationV19stringInterpolationACyxGAC06StringF0Vyx_G_tcfC
+- _$s10AppIntents26IntentAuthenticationPolicyO019requiresLocalDeviceD0yA2CmFWC
+- _$s10AppIntents43CustomURLRepresentationParameterConvertibleMp
+- _$s10AppIntents43CustomURLRepresentationParameterConvertibleP017urlRepresentationE0SSSgvgTq
+- _$s10Foundation14DateComponentsV2eeoiySbAC_ACtFZ
+- _$s10Foundation4DateV11FormatStyleV6SymbolV5MonthV11abbreviatedAIvgZ
+- _$s10Foundation8TimeZoneV7currentACvgZ
+- _$s10OmniSearch010LocalIndexB5AgentP10deactivateyyFTj
+- _$s10OmniSearch010LocalIndexB5AgentP10deactivateyyFTq
+- _$s10OmniSearch010LocalIndexB5AgentP6search4withSaySo15SFResultSectionCGSo20SPSearchQueryContextC_tYaKFTj
+- _$s10OmniSearch010LocalIndexB5AgentP6search4withSaySo15SFResultSectionCGSo20SPSearchQueryContextC_tYaKFTjTu
+- _$s10OmniSearch010LocalIndexB5AgentP6search4withSaySo15SFResultSectionCGSo20SPSearchQueryContextC_tYaKFTq
+- _$s10OmniSearch010LocalIndexB5AgentP8activateyyFTj
+- _$s10OmniSearch010LocalIndexB5AgentP8activateyyFTq
+- _$s10OmniSearch026PartialExtractedAttributesB4ItemPAAE24llmConsumableDescriptionSSvg
+- _$s10OmniSearch026PartialExtractedAttributesB4ItemPAAE24llmConsumableDescriptionSSvpMV
+- _$s10OmniSearch05LocalB7ManagerC6search4withSaySo15SFResultSectionCGSo20SPSearchQueryContextC_tYaKF
+- _$s10OmniSearch05LocalB7ManagerC6search4withSaySo15SFResultSectionCGSo20SPSearchQueryContextC_tYaKFTj
+- _$s10OmniSearch05LocalB7ManagerC6search4withSaySo15SFResultSectionCGSo20SPSearchQueryContextC_tYaKFTjTu
+- _$s10OmniSearch05LocalB7ManagerC6search4withSaySo15SFResultSectionCGSo20SPSearchQueryContextC_tYaKFTq
+- _$s10OmniSearch05LocalB7ManagerC6search4withSaySo15SFResultSectionCGSo20SPSearchQueryContextC_tYaKFTu
+- _$s10OmniSearch05LocalB7ServiceV6search4textSayAA0B6ResultVGSS_tYaKF
+- _$s10OmniSearch05LocalB7ServiceV6search4textSayAA0B6ResultVGSS_tYaKFTu
+- _$s10OmniSearch05LocalB7ServiceV6search5query7sources12allowedTypes0E7OptionsSayAA0B6ResultVGAA9UserQueryV_AA0B7SourcesVSayAA0B20EntityTypeIdentifierVGSgAA0abJ0VtYaKF
+- _$s10OmniSearch05LocalB7ServiceV6search5query7sources12allowedTypes0E7OptionsSayAA0B6ResultVGAA9UserQueryV_AA0B7SourcesVSayAA0B20EntityTypeIdentifierVGSgAA0abJ0VtYaKFTu
+- _$s10OmniSearch05LocalB7ServiceV7prewarmyyF
+- _$s10OmniSearch06GlobalB6ClientC6search5query7sources12allowedTypes0E7OptionsSayAA0B6ResultVGAA9UserQueryV_AA0B7SourcesVSayAA0B20EntityTypeIdentifierVGSgAA0abJ0VtYaKF
+- _$s10OmniSearch06GlobalB6ClientC6search5query7sources12allowedTypes0E7OptionsSayAA0B6ResultVGAA9UserQueryV_AA0B7SourcesVSayAA0B20EntityTypeIdentifierVGSgAA0abJ0VtYaKFTj
+- _$s10OmniSearch06GlobalB6ClientC6search5query7sources12allowedTypes0E7OptionsSayAA0B6ResultVGAA9UserQueryV_AA0B7SourcesVSayAA0B20EntityTypeIdentifierVGSgAA0abJ0VtYaKFTjTu
+- _$s10OmniSearch06GlobalB6ClientC6search5query7sources12allowedTypes0E7OptionsSayAA0B6ResultVGAA9UserQueryV_AA0B7SourcesVSayAA0B20EntityTypeIdentifierVGSgAA0abJ0VtYaKFTq
+- _$s10OmniSearch06GlobalB6ClientC6search5query7sources12allowedTypes0E7OptionsSayAA0B6ResultVGAA9UserQueryV_AA0B7SourcesVSayAA0B20EntityTypeIdentifierVGSgAA0abJ0VtYaKFTu
+- _$s10OmniSearch09AppEntityB7ServiceV09supportedB7SourcesAA0bG0Vvg
+- _$s10OmniSearch09AppEntityB7ServiceV09supportedB7SourcesAA0bG0VvpMV
+- _$s10OmniSearch09AppEntityB7ServiceV11indexClientAA0cd5IndexG0Cvg
+- _$s10OmniSearch09AppEntityB7ServiceV11indexClientAA0cd5IndexG0CvpMV
+- _$s10OmniSearch09AppEntityB7ServiceV12maxItemCountACSi_tcfC
+- _$s10OmniSearch09AppEntityB7ServiceV12maxItemCountACSi_tcfcfA_
+- _$s10OmniSearch09AppEntityB7ServiceV12maxItemCountSivg
+- _$s10OmniSearch09AppEntityB7ServiceV12maxItemCountSivpMV
+- _$s10OmniSearch09AppEntityB7ServiceV4typeAA0B4TypeOvg
+- _$s10OmniSearch09AppEntityB7ServiceV4typeAA0B4TypeOvpMV
+- _$s10OmniSearch09AppEntityB7ServiceV6search5query7sources12allowedTypes0F7OptionsSayAA0B6ResultVGAA9UserQueryV_AA0B7SourcesVSayAA0bD14TypeIdentifierVGSgAA0abK0VtYaKF
+- _$s10OmniSearch09AppEntityB7ServiceV6search5query7sources12allowedTypes0F7OptionsSayAA0B6ResultVGAA9UserQueryV_AA0B7SourcesVSayAA0bD14TypeIdentifierVGSgAA0abK0VtYaKFTu
+- _$s10OmniSearch09AppEntityB7ServiceV7prewarmyyF
+- _$s10OmniSearch09AppEntityB7ServiceV8toString9documentsSSSayAA0B6ResultVG_tF
+- _$s10OmniSearch09AppEntityB7ServiceVAA0bE0AAMc
+- _$s10OmniSearch09AppEntityB7ServiceVAA0bE0AAWP
+- _$s10OmniSearch09AppEntityB7ServiceVMa
+- _$s10OmniSearch09AppEntityB7ServiceVMn
+- _$s10OmniSearch09AppEntityB7ServiceVN
+- _$s10OmniSearch0B13EntityBuilderC04cardD0AA0C12CardBuilding_pvM
+- _$s10OmniSearch0B13EntityBuilderC04cardD0AA0C12CardBuilding_pvg
+- _$s10OmniSearch0B13EntityBuilderC04cardD0AA0C12CardBuilding_pvpMV
+- _$s10OmniSearch0B13EntityBuilderC04cardD0AA0C12CardBuilding_pvs
+- _$s10OmniSearch0B13EntityBuilderC04cardD0AcA0C12CardBuilding_p_tcfC
+- _$s10OmniSearch0B13EntityBuilderC04cardD0AcA0C12CardBuilding_p_tcfCTj
+- _$s10OmniSearch0B13EntityBuilderC04cardD0AcA0C12CardBuilding_p_tcfCTq
+- _$s10OmniSearch0B13EntityBuilderC04cardD0AcA0C12CardBuilding_p_tcfc
+- _$s10OmniSearch0B13EntityBuilderC04cardD0AcA0C12CardBuilding_p_tcfcfA_
+- _$s10OmniSearch0B13EntityBuilderC04makeB8Entities12searchResult6option0G6StringSayAA0bC0VGAA0bH0V_AA17CardSectionOptionOSSSgtF
+- _$s10OmniSearch0B13EntityBuilderC20unpackAnswerMetadata6answer6option12searchStringSayAA0bC0VGAA0fG0V_AA17CardSectionOptionOSSSgtF
+- _$s10OmniSearch0B13EntityBuilderCMa
+- _$s10OmniSearch0B13EntityBuilderCMm
+- _$s10OmniSearch0B13EntityBuilderCMn
+- _$s10OmniSearch0B13EntityBuilderCMo
+- _$s10OmniSearch0B13EntityBuilderCMu
+- _$s10OmniSearch0B13EntityBuilderCN
+- _$s10OmniSearch0B13EntityBuilderCfD
+- _$s10OmniSearch0B13EntityBuilderCfd
+- _$s10OmniSearch0B15SpotlightEntityV11fileContent10AppIntents10IntentFileVSgvM
+- _$s10OmniSearch0B15SpotlightEntityV11fileContent10AppIntents10IntentFileVSgvg
+- _$s10OmniSearch0B15SpotlightEntityV11fileContent10AppIntents10IntentFileVSgvpMV
+- _$s10OmniSearch0B15SpotlightEntityV11fileContent10AppIntents10IntentFileVSgvs
+- _$s10OmniSearch0B15SpotlightEntityV12$fileContent10AppIntents0D8PropertyCyAE10IntentFileVSgGvg
+- _$s10OmniSearch0B15SpotlightEntityV12$fileContent10AppIntents0D8PropertyCyAE10IntentFileVSgGvpMV
+- _$s10OmniSearch0B15SpotlightEntityV7BuilderV11fileContent10AppIntents10IntentFileVSgvM
+- _$s10OmniSearch0B15SpotlightEntityV7BuilderV11fileContent10AppIntents10IntentFileVSgvg
+- _$s10OmniSearch0B15SpotlightEntityV7BuilderV11fileContent10AppIntents10IntentFileVSgvpMV
+- _$s10OmniSearch0B15SpotlightEntityV7BuilderV11fileContent10AppIntents10IntentFileVSgvs
+- _$s10OmniSearch0B15SpotlightEntityV7BuilderV2id8bundleId21encodedSearchableItem30spotlightContentTypeIdentifier5title4card12sourceResult11experiences04fileM0AESSSg_AO10AppIntents10IntentFileVSgA2OSo6SFCardCSgAA0bS0VSgSayAA16DialogExperienceCGAStcfC
+- _$s10OmniSearch0B15SpotlightEntityV7BuilderV2id8bundleId21encodedSearchableItem30spotlightContentTypeIdentifier5title4card12sourceResult11experiences04fileM0AESSSg_AO10AppIntents10IntentFileVSgA2OSo6SFCardCSgAA0bS0VSgSayAA16DialogExperienceCGAStcfcfA6_
+- _$s10OmniSearch0B16PropertyResponseV10$dateValue10AppIntents06EntityC0Cy10Foundation14DateComponentsVSgGvg
+- _$s10OmniSearch0B16PropertyResponseV10$dateValue10AppIntents06EntityC0Cy10Foundation14DateComponentsVSgGvpMV
+- _$s10OmniSearch0B16PropertyResponseV9dateValue10Foundation14DateComponentsVSgvM
+- _$s10OmniSearch0B16PropertyResponseV9dateValue10Foundation14DateComponentsVSgvg
+- _$s10OmniSearch0B16PropertyResponseV9dateValue10Foundation14DateComponentsVSgvpMV
+- _$s10OmniSearch0B16PropertyResponseV9dateValue10Foundation14DateComponentsVSgvs
+- _$s10OmniSearch0B17ToolIntentRequestV19disambiguatedEntityAA25DisambiguationRequestable_pvg
+- _$s10OmniSearch0B17ToolIntentRequestV19disambiguatedEntityAA25DisambiguationRequestable_pvpMV
+- _$s10OmniSearch0B17ToolIntentRequestV8rawQuery09rewrittenG0010structuredG015typeIdentifiers7context13matchEntities07isFirstC10Invocation16invocationClient19requestedProperties13systemContext19disambiguatedEntityACSS_SSSgAA010StructuredgY0VSgSayAA0bY14TypeIdentifierVGSgAA0bW0VSgSayAA0Y5MatchVGSgSbSgAA0bcS4TypeOSgSayAA0b8PropertyE0VGSgAA015AssistantSystemW0VAA25DisambiguationRequestable_ptcfC
+- _$s10OmniSearch0B18ToolIntentResponseV7results11snippetData06dialogH0ACSayAA0B6EntityVG_10Foundation0H0VAA06DialogH0VtcfC
+- _$s10OmniSearch0B20OverrideOutputEntityV010makeResultE0AA0bE0VyKF
+- _$s10OmniSearch0B20OverrideOutputEntityV10entityType0aB5Types0b6ResultG0OvM
+- _$s10OmniSearch0B20OverrideOutputEntityV10entityType0aB5Types0b6ResultG0Ovg
+- _$s10OmniSearch0B20OverrideOutputEntityV10entityType0aB5Types0b6ResultG0OvpMV
+- _$s10OmniSearch0B20OverrideOutputEntityV10entityType0aB5Types0b6ResultG0Ovs
+- _$s10OmniSearch0B20OverrideOutputEntityV22defaultsRepresentationACSo12NSDictionaryC_tKcfC
+- _$s10OmniSearch0B20OverrideOutputEntityV22defaultsRepresentationSo12NSDictionaryCyKF
+- _$s10OmniSearch0B20OverrideOutputEntityV7payloadSo12NSDictionaryCvM
+- _$s10OmniSearch0B20OverrideOutputEntityV7payloadSo12NSDictionaryCvg
+- _$s10OmniSearch0B20OverrideOutputEntityV7payloadSo12NSDictionaryCvpMV
+- _$s10OmniSearch0B20OverrideOutputEntityV7payloadSo12NSDictionaryCvs
+- _$s10OmniSearch0B20OverrideOutputEntityVMa
+- _$s10OmniSearch0B20OverrideOutputEntityVMn
+- _$s10OmniSearch0B20OverrideOutputEntityVN
+- _$s10OmniSearch0B20ToolIntentControllerC04omniB7Service22hallucinationMitigator13metricsLoggerAcA0abG8Protocol_p_AA023HallucinationMitigationL0_pAA07MetricskL0_ptcfC
+- _$s10OmniSearch0B20ToolIntentControllerC04omniB7Service22hallucinationMitigator13metricsLoggerAcA0abG8Protocol_p_AA023HallucinationMitigationL0_pAA07MetricskL0_ptcfCTj
+- _$s10OmniSearch0B20ToolIntentControllerC04omniB7Service22hallucinationMitigator13metricsLoggerAcA0abG8Protocol_p_AA023HallucinationMitigationL0_pAA07MetricskL0_ptcfCTq
+- _$s10OmniSearch0B20ToolIntentControllerC04omniB7Service22hallucinationMitigator13metricsLoggerAcA0abG8Protocol_p_AA023HallucinationMitigationL0_pAA07MetricskL0_ptcfc
+- _$s10OmniSearch0B20ToolIntentControllerC04omniB7Service22hallucinationMitigator13metricsLoggerAcA0abG8Protocol_p_AA023HallucinationMitigationL0_pAA07MetricskL0_ptcfcfA0_
+- _$s10OmniSearch0B20ToolIntentControllerC04omniB7Service22hallucinationMitigator13metricsLoggerAcA0abG8Protocol_p_AA023HallucinationMitigationL0_pAA07MetricskL0_ptcfcfA1_
+- _$s10OmniSearch0B20ToolIntentControllerC04omniB7Service22hallucinationMitigator13metricsLoggerAcA0abG8Protocol_p_AA023HallucinationMitigationL0_pAA07MetricskL0_ptcfcfA_
+- _$s10OmniSearch0B20ToolIntentControllerC15buildDialogData33_12E9D6AD9B7C26936623555213C26B09LL4from12renderOption5query15isQuestionQuery11forceUseCAT13systemContext10Foundation0H0V07snippetH0_AA0gH0V06dialogH0tSayAA0B6EntityVG_AA0ab14ResponseRenderR0OSSS2bAA22AssistantSystemContextVtF
+- _$s10OmniSearch0B20ToolIntentControllerC18checkForRGOverride33_12E9D6AD9B7C26936623555213C26B09LL5query8response7results13systemContextAA10DialogDataVSgSS_SSSgSayAA0B6EntityVGAA015AssistantSystemT0VtF
+- _$s10OmniSearch0B20ToolIntentControllerC20buildAttributionData33_12E9D6AD9B7C26936623555213C26B09LL3for13systemContext10Foundation0H0VSgSayAA0B6EntityVG_AA015AssistantSystemR0VtF
+- _$s10OmniSearch0B20ToolIntentControllerC7perform7requestAA0bcD8ResponseVAA0bcD7RequestV_tYaKF
+- _$s10OmniSearch0B20ToolIntentControllerC7perform7requestAA0bcD8ResponseVAA0bcD7RequestV_tYaKFTj
+- _$s10OmniSearch0B20ToolIntentControllerC7perform7requestAA0bcD8ResponseVAA0bcD7RequestV_tYaKFTjTu
+- _$s10OmniSearch0B20ToolIntentControllerC7perform7requestAA0bcD8ResponseVAA0bcD7RequestV_tYaKFTq
+- _$s10OmniSearch0B20ToolIntentControllerC7perform7requestAA0bcD8ResponseVAA0bcD7RequestV_tYaKFTu
+- _$s10OmniSearch0B22ToolSnippetPluginModelO8feedbackyA2CmFWC
+- _$s10OmniSearch0B28ToolIntentControllerProtocolP7perform7requestAA0bcD8ResponseVAA0bcD7RequestV_tYaKFTj
+- _$s10OmniSearch0B28ToolIntentControllerProtocolP7perform7requestAA0bcD8ResponseVAA0bcD7RequestV_tYaKFTjTu
+- _$s10OmniSearch0B28ToolIntentControllerProtocolP7perform7requestAA0bcD8ResponseVAA0bcD7RequestV_tYaKFTq
+- _$s10OmniSearch0B4ToolV16parameterSummaryQrvgZ
+- _$s10OmniSearch0B4ToolV16parameterSummaryQrvpZQOMQ
+- _$s10OmniSearch0B6EntityV12globalResult0aB5Types0b6GlobalC0VSgvM
+- _$s10OmniSearch0B6EntityV12globalResult0aB5Types0b6GlobalC0VSgvg
+- _$s10OmniSearch0B6EntityV12globalResult0aB5Types0b6GlobalC0VSgvpMV
+- _$s10OmniSearch0B6EntityV12globalResult0aB5Types0b6GlobalC0VSgvs
+- _$s10OmniSearch0B6EntityV13$globalResult10AppIntents0C8PropertyCy0aB5Types0b6GlobalC0VSgGvg
+- _$s10OmniSearch0B6EntityV13$globalResult10AppIntents0C8PropertyCy0aB5Types0b6GlobalC0VSgGvpMV
+- _$s10OmniSearch0B6EntityV6answerAA14AnswerMetadataVSgvM
+- _$s10OmniSearch0B6EntityV6answerAA14AnswerMetadataVSgvg
+- _$s10OmniSearch0B6EntityV6answerAA14AnswerMetadataVSgvpMV
+- _$s10OmniSearch0B6EntityV6answerAA14AnswerMetadataVSgvs
+- _$s10OmniSearch0B6EntityV6result4card12searchStringACSgAA0B6ResultV_So6SFCardCSgSSSgtcfC
+- _$s10OmniSearch0B6EntityV7$answer10AppIntents0C8PropertyCyAA14AnswerMetadataVSgGvg
+- _$s10OmniSearch0B6EntityV7$answer10AppIntents0C8PropertyCyAA14AnswerMetadataVSgGvpMV
+- _$s10OmniSearch0B6EntityV7BuilderV12globalResult0aB5Types0b6GlobalC0VSgvM
+- _$s10OmniSearch0B6EntityV7BuilderV12globalResult0aB5Types0b6GlobalC0VSgvg
+- _$s10OmniSearch0B6EntityV7BuilderV12globalResult0aB5Types0b6GlobalC0VSgvpMV
+- _$s10OmniSearch0B6EntityV7BuilderV12globalResult0aB5Types0b6GlobalC0VSgvs
+- _$s10OmniSearch0B6EntityV7BuilderV2id12sourceResult4type06globalG009spotlightG06answer03appC021encodedSearchableItem05inAppB6String5event0E4Card5media14experienceFile08hydratedC4Type0X7ContentAESSSg_AA0bG0VSg0aB5Types0bgY0OSgAY0b6GlobalC0VSgAA0b9SpotlightC0VSgAA14AnswerMetadataVSgAA0bqC0VSg0Q7Intents06IntentW0VSgAuA05EventC0VSgAA02IdtC0VSgAA05MediaC0VSgA16_AA08HydratedcY0OSgAUtcfC
+- _$s10OmniSearch0B6EntityV7BuilderV6answerAA14AnswerMetadataVSgvM
+- _$s10OmniSearch0B6EntityV7BuilderV6answerAA14AnswerMetadataVSgvg
+- _$s10OmniSearch0B6EntityV7BuilderV6answerAA14AnswerMetadataVSgvpMV
+- _$s10OmniSearch0B6EntityV7BuilderV6answerAA14AnswerMetadataVSgvs
+- _$s10OmniSearch0B6ResultV22hasAssociatedAppEntitySbvg
+- _$s10OmniSearch0B6ResultV22hasAssociatedAppEntitySbvpMV
+- _$s10OmniSearch0B6ResultV_6csItemAcA0bcE0O_So012CSSearchableE0CtcfC
+- _$s10OmniSearch0B7ServiceP6search5query7sources12allowedTypes0D7OptionsSayAA0B6ResultVGAA9UserQueryV_AA0B7SourcesVSayAA0B20EntityTypeIdentifierVGSgAA0abI0VtYaKFTj
+- _$s10OmniSearch0B7ServiceP6search5query7sources12allowedTypes0D7OptionsSayAA0B6ResultVGAA9UserQueryV_AA0B7SourcesVSayAA0B20EntityTypeIdentifierVGSgAA0abI0VtYaKFTjTu
+- _$s10OmniSearch0B7ServiceP6search5query7sources12allowedTypes0D7OptionsSayAA0B6ResultVGAA9UserQueryV_AA0B7SourcesVSayAA0B20EntityTypeIdentifierVGSgAA0abI0VtYaKFTq
+- _$s10OmniSearch0B7ServiceP7prewarmyyFTj
+- _$s10OmniSearch0B7ServiceP7prewarmyyFTq
+- _$s10OmniSearch0B8OverrideV10inputMatch14outputEntitiesA2C05InputE0O_SayAA0bC12OutputEntityVGtcfC
+- _$s10OmniSearch0B8OverrideV14outputEntitiesSayAA0bC12OutputEntityVGvM
+- _$s10OmniSearch0B8OverrideV14outputEntitiesSayAA0bC12OutputEntityVGvg
+- _$s10OmniSearch0B8OverrideV14outputEntitiesSayAA0bC12OutputEntityVGvpMV
+- _$s10OmniSearch0B8OverrideV14outputEntitiesSayAA0bC12OutputEntityVGvs
+- _$s10OmniSearch0aB15ServiceProtocolP6search_14rewrittenQuery010structuredG015typeIdentifiers15matchedEntities7sources7options19requestedPropertiesAA0aB8ResponseCSS_SSSgAA010StructuredG6EntityVSgSayAA0bS14TypeIdentifierVGSayAA0S5MatchVGAA0B7SourcesVAA0aB7OptionsVSayAA0B15PropertyRequestVGtYaKFTj
+- _$s10OmniSearch0aB15ServiceProtocolP6search_14rewrittenQuery010structuredG015typeIdentifiers15matchedEntities7sources7options19requestedPropertiesAA0aB8ResponseCSS_SSSgAA010StructuredG6EntityVSgSayAA0bS14TypeIdentifierVGSayAA0S5MatchVGAA0B7SourcesVAA0aB7OptionsVSayAA0B15PropertyRequestVGtYaKFTjTu
+- _$s10OmniSearch0aB15ServiceProtocolP6search_14rewrittenQuery010structuredG015typeIdentifiers15matchedEntities7sources7options19requestedPropertiesAA0aB8ResponseCSS_SSSgAA010StructuredG6EntityVSgSayAA0bS14TypeIdentifierVGSayAA0S5MatchVGAA0B7SourcesVAA0aB7OptionsVSayAA0B15PropertyRequestVGtYaKFTq
+- _$s10OmniSearch0aB7OptionsV13searchContextAA0bE0VSgvM
+- _$s10OmniSearch0aB7OptionsV13searchContextAA0bE0VSgvs
+- _$s10OmniSearch0aB7OptionsV21isFirstToolInvocation13searchContext15interactionMode15assistantLocale7traceId06clientO022alwaysHydrateDocuments010skipGlobalB0ACSb_AA0bI0VSg10AppIntents012IntentSystemI0V09AssistantI0V011InteractionK0OSgSSSgS2SS2btcfC
+- _$s10OmniSearch0aB7OptionsV21isFirstToolInvocation13searchContext15interactionMode15assistantLocale7traceId06clientO022alwaysHydrateDocuments010skipGlobalB0ACSb_AA0bI0VSg10AppIntents012IntentSystemI0V09AssistantI0V011InteractionK0OSgSSSgS2SS2btcfcfA3_
+- _$s10OmniSearch0aB7OptionsV21isFirstToolInvocation13searchContext15interactionMode15assistantLocale7traceId06clientO022alwaysHydrateDocuments010skipGlobalB0ACSb_AA0bI0VSg10AppIntents012IntentSystemI0V09AssistantI0V011InteractionK0OSgSSSgS2SS2btcfcfA4_
+- _$s10OmniSearch0aB7OptionsV21isFirstToolInvocation13searchContext15interactionMode15assistantLocale7traceId06clientO022alwaysHydrateDocuments010skipGlobalB0ACSb_AA0bI0VSg10AppIntents012IntentSystemI0V09AssistantI0V011InteractionK0OSgSSSgS2SS2btcfcfA5_
+- _$s10OmniSearch0aB7OptionsV21isFirstToolInvocation13searchContext15interactionMode15assistantLocale7traceId06clientO022alwaysHydrateDocuments010skipGlobalB0ACSb_AA0bI0VSg10AppIntents012IntentSystemI0V09AssistantI0V011InteractionK0OSgSSSgS2SS2btcfcfA6_
+- _$s10OmniSearch0aB7OptionsV21isFirstToolInvocation13searchContext15interactionMode15assistantLocale7traceId06clientO022alwaysHydrateDocuments010skipGlobalB0ACSb_AA0bI0VSg10AppIntents012IntentSystemI0V09AssistantI0V011InteractionK0OSgSSSgS2SS2btcfcfA_
+- _$s10OmniSearch0aB7OptionsV7traceIdSSvM
+- _$s10OmniSearch0aB7OptionsV7traceIdSSvg
+- _$s10OmniSearch0aB7OptionsV7traceIdSSvpMV
+- _$s10OmniSearch0aB7OptionsV7traceIdSSvs
+- _$s10OmniSearch0aB7OptionsV8clientIdSSvM
+- _$s10OmniSearch0aB7OptionsV8clientIdSSvs
+- _$s10OmniSearch0aB7OptionsVACycfC
+- _$s10OmniSearch0aB7ServiceC05localB05query7sources7options19requestedPropertiesAA0aB8ResponseCSgAA9UserQueryV_AA0B7SourcesVAA0aB7OptionsVSayAA0B15PropertyRequestVGtYaKFTj
+- _$s10OmniSearch0aB7ServiceC05localB05query7sources7options19requestedPropertiesAA0aB8ResponseCSgAA9UserQueryV_AA0B7SourcesVAA0aB7OptionsVSayAA0B15PropertyRequestVGtYaKFTjTu
+- _$s10OmniSearch0aB7ServiceC05localB05query7sources7options19requestedPropertiesAA0aB8ResponseCSgAA9UserQueryV_AA0B7SourcesVAA0aB7OptionsVSayAA0B15PropertyRequestVGtYaKFTq
+- _$s10OmniSearch0aB7ServiceC05localB05query7sources7options19requestedPropertiesAA0aB8ResponseCSgAA9UserQueryV_AA0B7SourcesVAA0aB7OptionsVSayAA0B15PropertyRequestVGtYaKFfA1_
+- _$s10OmniSearch0aB7ServiceC05localB05query7sources7options19requestedPropertiesAA0aB8ResponseCSgAA9UserQueryV_AA0B7SourcesVAA0aB7OptionsVSayAA0B15PropertyRequestVGtYaKFfA2_
+- _$s10OmniSearch0aB7ServiceC06entityB05query0D5Types7optionsAA0aB8ResponseCAA9UserQueryV_SayAA0B20EntityTypeIdentifierVGAA0aB7OptionsVtYaKFTj
+- _$s10OmniSearch0aB7ServiceC06entityB05query0D5Types7optionsAA0aB8ResponseCAA9UserQueryV_SayAA0B20EntityTypeIdentifierVGAA0aB7OptionsVtYaKFTjTu
+- _$s10OmniSearch0aB7ServiceC06entityB05query0D5Types7optionsAA0aB8ResponseCAA9UserQueryV_SayAA0B20EntityTypeIdentifierVGAA0aB7OptionsVtYaKFTq
+- _$s10OmniSearch0aB7ServiceC06entityB05query12allowedTypes7optionsSayAA0B6ResultVGAA9UserQueryV_Shy7ToolKit14TypeIdentifierOGAA0aB7OptionsVtYaKFTj
+- _$s10OmniSearch0aB7ServiceC06entityB05query12allowedTypes7optionsSayAA0B6ResultVGAA9UserQueryV_Shy7ToolKit14TypeIdentifierOGAA0aB7OptionsVtYaKFTjTu
+- _$s10OmniSearch0aB7ServiceC06entityB05query12allowedTypes7optionsSayAA0B6ResultVGAA9UserQueryV_Shy7ToolKit14TypeIdentifierOGAA0aB7OptionsVtYaKFTq
+- _$s10OmniSearch0aB7ServiceC11searchItems5query0D8Services0D7Sources12allowedTypes0D7OptionsSDyAA0B4TypeOSayAA0B6ResultVGGAA9UserQueryV_SayAA0bC0_pGAA0bH0VSayAA0b6EntityL10IdentifierVGSgAA0abK0VtYaKFTj
+- _$s10OmniSearch0aB7ServiceC11searchItems5query0D8Services0D7Sources12allowedTypes0D7OptionsSDyAA0B4TypeOSayAA0B6ResultVGGAA9UserQueryV_SayAA0bC0_pGAA0bH0VSayAA0b6EntityL10IdentifierVGSgAA0abK0VtYaKFTjTu
+- _$s10OmniSearch0aB7ServiceC11searchItems5query0D8Services0D7Sources12allowedTypes0D7OptionsSDyAA0B4TypeOSayAA0B6ResultVGGAA9UserQueryV_SayAA0bC0_pGAA0bH0VSayAA0b6EntityL10IdentifierVGSgAA0abK0VtYaKFTq
+- _$s10OmniSearch0aB7ServiceC13composeAnswer5query7results7options03runE9SynthesisAA08ComposedE0VSgAA9UserQueryV_SayAA0B6ResultVGAA0aB7OptionsVSbtYaFTj
+- _$s10OmniSearch0aB7ServiceC13composeAnswer5query7results7options03runE9SynthesisAA08ComposedE0VSgAA9UserQueryV_SayAA0B6ResultVGAA0aB7OptionsVSbtYaFTjTu
+- _$s10OmniSearch0aB7ServiceC13composeAnswer5query7results7options03runE9SynthesisAA08ComposedE0VSgAA9UserQueryV_SayAA0B6ResultVGAA0aB7OptionsVSbtYaFTq
+- _$s10OmniSearch0aB7ServiceC14searchServices14answerResolver17maxPerSourceLimit20intermediateCallback11queryParser0F19SynthesisController011featureFlagC014resultHydratorACSayAA0bC0_pG_AA16AnswerResolvable_pSiySScSgAA12QueryParsing_pAA0vpQ8Protocol_pAA07FeaturesC0CAA15ResultHydration_ptcfC
+- _$s10OmniSearch0aB7ServiceC14searchServices14answerResolver17maxPerSourceLimit20intermediateCallback11queryParser0F19SynthesisController011featureFlagC014resultHydratorACSayAA0bC0_pG_AA16AnswerResolvable_pSiySScSgAA12QueryParsing_pAA0vpQ8Protocol_pAA07FeaturesC0CAA15ResultHydration_ptcfCTj
+- _$s10OmniSearch0aB7ServiceC14searchServices14answerResolver17maxPerSourceLimit20intermediateCallback11queryParser0F19SynthesisController011featureFlagC014resultHydratorACSayAA0bC0_pG_AA16AnswerResolvable_pSiySScSgAA12QueryParsing_pAA0vpQ8Protocol_pAA07FeaturesC0CAA15ResultHydration_ptcfCTq
+- _$s10OmniSearch0aB7ServiceC14searchServices14answerResolver17maxPerSourceLimit20intermediateCallback11queryParser0F19SynthesisController011featureFlagC014resultHydratorACSayAA0bC0_pG_AA16AnswerResolvable_pSiySScSgAA12QueryParsing_pAA0vpQ8Protocol_pAA07FeaturesC0CAA15ResultHydration_ptcfc
+- _$s10OmniSearch0aB7ServiceC14searchServices14answerResolver17maxPerSourceLimit20intermediateCallback11queryParser0F19SynthesisController011featureFlagC014resultHydratorACSayAA0bC0_pG_AA16AnswerResolvable_pSiySScSgAA12QueryParsing_pAA0vpQ8Protocol_pAA07FeaturesC0CAA15ResultHydration_ptcfcfA0_
+- _$s10OmniSearch0aB7ServiceC14searchServices14answerResolver17maxPerSourceLimit20intermediateCallback11queryParser0F19SynthesisController011featureFlagC014resultHydratorACSayAA0bC0_pG_AA16AnswerResolvable_pSiySScSgAA12QueryParsing_pAA0vpQ8Protocol_pAA07FeaturesC0CAA15ResultHydration_ptcfcfA1_
+- _$s10OmniSearch0aB7ServiceC14searchServices14answerResolver17maxPerSourceLimit20intermediateCallback11queryParser0F19SynthesisController011featureFlagC014resultHydratorACSayAA0bC0_pG_AA16AnswerResolvable_pSiySScSgAA12QueryParsing_pAA0vpQ8Protocol_pAA07FeaturesC0CAA15ResultHydration_ptcfcfA3_
+- _$s10OmniSearch0aB7ServiceC14searchServices14answerResolver17maxPerSourceLimit20intermediateCallback11queryParser0F19SynthesisController011featureFlagC014resultHydratorACSayAA0bC0_pG_AA16AnswerResolvable_pSiySScSgAA12QueryParsing_pAA0vpQ8Protocol_pAA07FeaturesC0CAA15ResultHydration_ptcfcfA4_
+- _$s10OmniSearch0aB7ServiceC14searchServices14answerResolver17maxPerSourceLimit20intermediateCallback11queryParser0F19SynthesisController011featureFlagC014resultHydratorACSayAA0bC0_pG_AA16AnswerResolvable_pSiySScSgAA12QueryParsing_pAA0vpQ8Protocol_pAA07FeaturesC0CAA15ResultHydration_ptcfcfA5_
+- _$s10OmniSearch0aB7ServiceC14searchServices14answerResolver17maxPerSourceLimit20intermediateCallback11queryParser0F19SynthesisController011featureFlagC014resultHydratorACSayAA0bC0_pG_AA16AnswerResolvable_pSiySScSgAA12QueryParsing_pAA0vpQ8Protocol_pAA07FeaturesC0CAA15ResultHydration_ptcfcfA6_
+- _$s10OmniSearch0aB7ServiceC15createASContext5query4mode15assistantLocaleAA29AnswerSynthesisRequestContextVSSSg_10AppIntents012IntentSystemM0V09AssistantM0V15InteractionModeOSgAJtYaFTj
+- _$s10OmniSearch0aB7ServiceC15createASContext5query4mode15assistantLocaleAA29AnswerSynthesisRequestContextVSSSg_10AppIntents012IntentSystemM0V09AssistantM0V15InteractionModeOSgAJtYaFTjTu
+- _$s10OmniSearch0aB7ServiceC15createASContext5query4mode15assistantLocaleAA29AnswerSynthesisRequestContextVSSSg_10AppIntents012IntentSystemM0V09AssistantM0V15InteractionModeOSgAJtYaFTq
+- _$s10OmniSearch0aB7ServiceC6search5query15matchedEntities7sources7options19requestedPropertiesAA0aB8ResponseCAA9UserQueryV_SayAA11EntityMatchVGAA0B7SourcesVAA0aB7OptionsVSayAA0B15PropertyRequestVGtYaKFTj
+- _$s10OmniSearch0aB7ServiceC6search5query15matchedEntities7sources7options19requestedPropertiesAA0aB8ResponseCAA9UserQueryV_SayAA11EntityMatchVGAA0B7SourcesVAA0aB7OptionsVSayAA0B15PropertyRequestVGtYaKFTjTu
+- _$s10OmniSearch0aB7ServiceC6search5query15matchedEntities7sources7options19requestedPropertiesAA0aB8ResponseCAA9UserQueryV_SayAA11EntityMatchVGAA0B7SourcesVAA0aB7OptionsVSayAA0B15PropertyRequestVGtYaKFTq
+- _$s10OmniSearch0aB7ServiceC6search5query15matchedEntities7sources7options19requestedPropertiesAA0aB8ResponseCAA9UserQueryV_SayAA11EntityMatchVGAA0B7SourcesVAA0aB7OptionsVSayAA0B15PropertyRequestVGtYaKFfA1_
+- _$s10OmniSearch0aB7ServiceC6search5query15matchedEntities7sources7options19requestedPropertiesAA0aB8ResponseCAA9UserQueryV_SayAA11EntityMatchVGAA0B7SourcesVAA0aB7OptionsVSayAA0B15PropertyRequestVGtYaKFfA2_
+- _$s10OmniSearch0aB7ServiceC6search5query15matchedEntities7sources7options19requestedPropertiesAA0aB8ResponseCAA9UserQueryV_SayAA11EntityMatchVGAA0B7SourcesVAA0aB7OptionsVSayAA0B15PropertyRequestVGtYaKFfA3_
+- _$s10OmniSearch0aB7ServiceC6search_14rewrittenQuery010structuredF015typeIdentifiers15matchedEntities7sources7options19requestedPropertiesAA0aB8ResponseCSS_SSSgAA010StructuredF6EntityVSgSayAA0bR14TypeIdentifierVGSayAA0R5MatchVGAA0B7SourcesVAA0aB7OptionsVSayAA0B15PropertyRequestVGtYaKFTj
+- _$s10OmniSearch0aB7ServiceC6search_14rewrittenQuery010structuredF015typeIdentifiers15matchedEntities7sources7options19requestedPropertiesAA0aB8ResponseCSS_SSSgAA010StructuredF6EntityVSgSayAA0bR14TypeIdentifierVGSayAA0R5MatchVGAA0B7SourcesVAA0aB7OptionsVSayAA0B15PropertyRequestVGtYaKFTjTu
+- _$s10OmniSearch0aB7ServiceC6search_14rewrittenQuery010structuredF015typeIdentifiers15matchedEntities7sources7options19requestedPropertiesAA0aB8ResponseCSS_SSSgAA010StructuredF6EntityVSgSayAA0bR14TypeIdentifierVGSayAA0R5MatchVGAA0B7SourcesVAA0aB7OptionsVSayAA0B15PropertyRequestVGtYaKFTq
+- _$s10OmniSearch0aB7ServiceC6search_14rewrittenQuery010structuredF015typeIdentifiers15matchedEntities7sources7options19requestedPropertiesAA0aB8ResponseCSS_SSSgAA010StructuredF6EntityVSgSayAA0bR14TypeIdentifierVGSayAA0R5MatchVGAA0B7SourcesVAA0aB7OptionsVSayAA0B15PropertyRequestVGtYaKFfA4_
+- _$s10OmniSearch0aB7ServiceC6search_14rewrittenQuery010structuredF015typeIdentifiers15matchedEntities7sources7options19requestedPropertiesAA0aB8ResponseCSS_SSSgAA010StructuredF6EntityVSgSayAA0bR14TypeIdentifierVGSayAA0R5MatchVGAA0B7SourcesVAA0aB7OptionsVSayAA0B15PropertyRequestVGtYaKFfA5_
+- _$s10OmniSearch0aB7ServiceC6search_14rewrittenQuery010structuredF015typeIdentifiers15matchedEntities7sources7options19requestedPropertiesAA0aB8ResponseCSS_SSSgAA010StructuredF6EntityVSgSayAA0bR14TypeIdentifierVGSayAA0R5MatchVGAA0B7SourcesVAA0aB7OptionsVSayAA0B15PropertyRequestVGtYaKFfA6_
+- _$s10OmniSearch0aB7ServiceC7prewarmyyFTj
+- _$s10OmniSearch0aB7ServiceC7prewarmyyFTq
+- _$s10OmniSearch0aB8ResponseC7results12renderOption15isQuestionQuery0g4OpenI012searchStringACSayAA0B6ResultVG_AA0abc6RenderF0OS2bSStcfC
+- _$s10OmniSearch0aB8ResponseC7results12renderOption15isQuestionQuery0g4OpenI012searchStringACSayAA0B6ResultVG_AA0abc6RenderF0OS2bSStcfCTj
+- _$s10OmniSearch0aB8ResponseC7results12renderOption15isQuestionQuery0g4OpenI012searchStringACSayAA0B6ResultVG_AA0abc6RenderF0OS2bSStcfCTq
+- _$s10OmniSearch0aB8ResponseC7results12renderOption15isQuestionQuery0g4OpenI012searchStringACSayAA0B6ResultVG_AA0abc6RenderF0OS2bSStcfc
+- _$s10OmniSearch0aB8ResponseC7results12renderOption15isQuestionQuery0g4OpenI012searchStringACSayAA0B6ResultVG_AA0abc6RenderF0OS2bSStcfcfA3_
+- _$s10OmniSearch10DialogDataV011attributionD010Foundation0D0VSgvg
+- _$s10OmniSearch10DialogDataV011attributionD010Foundation0D0VSgvpMV
+- _$s10OmniSearch10DialogDataV10identifier20templateDirectoryURL10parameters13stringLiteral15speakableString011attributionD0ACSSSg_10Foundation0H0VSgSDySS10AppIntents12_IntentValue_s8SendablepGSgAjO010_SpeakableM0VSgAK0D0VSgtcfC
+- _$s10OmniSearch10GlobalItemV24llmConsumableDescriptionSSvg
+- _$s10OmniSearch10GlobalItemV24llmConsumableDescriptionSSvpMV
+- _$s10OmniSearch10KGDocumentV24llmConsumableDescriptionSSvg
+- _$s10OmniSearch10KGDocumentV24llmConsumableDescriptionSSvpMV
+- _$s10OmniSearch10ReturnTypeO11note_folderyA2CmFWC
+- _$s10OmniSearch10WalletPassV24llmConsumableDescriptionSSvg
+- _$s10OmniSearch10WalletPassV24llmConsumableDescriptionSSvpMV
+- _$s10OmniSearch11AppointmentV24llmConsumableDescriptionSSvg
+- _$s10OmniSearch11AppointmentV24llmConsumableDescriptionSSvpMV
+- _$s10OmniSearch11EvalLoggingV011logFederateB016resultsPerSourceySDyAA0B4TypeOSayAA0B6ResultVGG_tFZ
+- _$s10OmniSearch11EvalLoggingV13logAnswerInfoyyAA0F8MetadataVFZ
+- _$s10OmniSearch11EvalLoggingV7maxItemSivau
+- _$s10OmniSearch11EvalLoggingV7maxItemSivgZ
+- _$s10OmniSearch11EvalLoggingV7maxItemSivpZ
+- _$s10OmniSearch11EventEntityV4item4card21encodedSearchableItemACSgAA0b6ResultI0O_So6SFCardCSg10AppIntents10IntentFileVSgtcfC
+- _$s10OmniSearch11GeoLocationV24llmConsumableDescriptionSSvg
+- _$s10OmniSearch11GeoLocationV24llmConsumableDescriptionSSvpMV
+- _$s10OmniSearch11ItemFetcherC21fetchSourceEmailItems3forSDySSSo012CSSearchableC0CGShySSG_tYaF
+- _$s10OmniSearch11ItemFetcherC21fetchSourceEmailItems3forSDySSSo012CSSearchableC0CGShySSG_tYaFTj
+- _$s10OmniSearch11ItemFetcherC21fetchSourceEmailItems3forSDySSSo012CSSearchableC0CGShySSG_tYaFTjTu
+- _$s10OmniSearch11ItemFetcherC21fetchSourceEmailItems3forSDySSSo012CSSearchableC0CGShySSG_tYaFTq
+- _$s10OmniSearch11ItemFetcherC21fetchSourceEmailItems3forSDySSSo012CSSearchableC0CGShySSG_tYaFTu
+- _$s10OmniSearch11ItemFetcherC26queryStringForSourceEmails14mailMessageIdsSSSgSaySSG_tF
+- _$s10OmniSearch11ItemFetcherC26queryStringForSourceEmails14mailMessageIdsSSSgSaySSG_tFTj
+- _$s10OmniSearch11ItemFetcherC26queryStringForSourceEmails14mailMessageIdsSSSgSaySSG_tFTq
+- _$s10OmniSearch11MediaEntityV10AppIntents016URLRepresentableD0AAMc
+- _$s10OmniSearch11MediaEntityV10AppIntents43CustomURLRepresentationParameterConvertibleAAMc
+- _$s10OmniSearch11MediaEntityV12defaultQueryAC0F0VvMZ
+- _$s10OmniSearch11MediaEntityV12defaultQueryAC0F0VvgZ
+- _$s10OmniSearch11MediaEntityV12defaultQueryAC0F0VvsZ
+- _$s10OmniSearch11MediaEntityV17urlRepresentation10AppIntents0D17URLRepresentationVyACGvgZ
+- _$s10OmniSearch11MediaEntityV2idACSS_tcfC
+- _$s10OmniSearch11MediaEntityV5QueryV10AppIntents09_SupportsF12DependenciesAAMc
+- _$s10OmniSearch11MediaEntityV5QueryV10AppIntents0dE0AAMc
+- _$s10OmniSearch11MediaEntityV5QueryV10AppIntents22DynamicOptionsProviderAAMc
+- _$s10OmniSearch11MediaEntityV5QueryV10AppIntents24PersistentlyIdentifiableAAMc
+- _$s10OmniSearch11MediaEntityV5QueryV8entities3forSayACGSaySSG_tYaKF
+- _$s10OmniSearch11MediaEntityV5QueryV8entities3forSayACGSaySSG_tYaKFTu
+- _$s10OmniSearch11MediaEntityV5QueryVAEycfC
+- _$s10OmniSearch11MediaEntityV5QueryVMa
+- _$s10OmniSearch11MediaEntityV5QueryVMn
+- _$s10OmniSearch11MediaEntityV5QueryVN
+- _$s10OmniSearch12EventManagerV17hydrateWithEvents3forSayAA0B6ResultVGAH_tYaFZ
+- _$s10OmniSearch12EventManagerV17hydrateWithEvents3forSayAA0B6ResultVGAH_tYaFZTu
+- _$s10OmniSearch12EventManagerV26hydrateWithSourceDocuments3for11itemFetcherSayAA0B6ResultVGAI_AA04ItemK8Protocol_ptYaFZ
+- _$s10OmniSearch12EventManagerV26hydrateWithSourceDocuments3for11itemFetcherSayAA0B6ResultVGAI_AA04ItemK8Protocol_ptYaFZTu
+- _$s10OmniSearch12EventManagerV30hydrateWithSourceEmailDocument3for13mailMessageId11itemFetcherAA0B6ResultVAI_SSSgAA04ItemO8Protocol_ptYaFZ
+- _$s10OmniSearch12EventManagerV30hydrateWithSourceEmailDocument3for13mailMessageId11itemFetcherAA0B6ResultVAI_SSSgAA04ItemO8Protocol_ptYaFZTu
+- _$s10OmniSearch12EventManagerV44fetchExtractedEventsLLMConsumableDescription3forSSSgAA0B6ResultV_tYaFZ
+- _$s10OmniSearch12EventManagerV44fetchExtractedEventsLLMConsumableDescription3forSSSgAA0B6ResultV_tYaFZTu
+- _$s10OmniSearch12FileDocumentV24llmConsumableDescriptionSSvg
+- _$s10OmniSearch12FileDocumentV24llmConsumableDescriptionSSvpMV
+- _$s10OmniSearch12JournalEntryV24llmConsumableDescriptionSSvg
+- _$s10OmniSearch12JournalEntryV24llmConsumableDescriptionSSvpMV
+- _$s10OmniSearch12LLMFormatterV17dateOnlyFormatter10Foundation4DateV11FormatStyleVvgZ
+- _$s10OmniSearch12LLMFormatterV17dateTimeFormatter10Foundation4DateV11FormatStyleVvgZ
+- _$s10OmniSearch12LLMFormatterV19StringInterpolationV06appendE04date11formatStyley10Foundation14DateComponentsVSg_AI0K0V06FormatI0VtF
+- _$s10OmniSearch12LLMFormatterV19StringInterpolationV06appendE04date11formatStyley10Foundation14DateComponentsVSg_AI0K0V06FormatI0VtFfA0_
+- _$s10OmniSearch12LLMFormatterV19StringInterpolationV06appendE04date11formatStyley10Foundation4DateVSg_AK06FormatI0VtF
+- _$s10OmniSearch12LLMFormatterV19StringInterpolationV06appendE04date11formatStyley10Foundation4DateVSg_AK06FormatI0VtFfA0_
+- _$s10OmniSearch12LLMFormatterV19StringInterpolationV06appendE0_4date11formatStyleySS_10Foundation14DateComponentsVSgAI0K0V06FormatI0VtF
+- _$s10OmniSearch12LLMFormatterV19StringInterpolationV06appendE0_4date11formatStyleySS_10Foundation14DateComponentsVSgAI0K0V06FormatI0VtFfA1_
+- _$s10OmniSearch12LLMFormatterV19StringInterpolationV06appendE0_4date11formatStyleySS_10Foundation4DateVSgAK06FormatI0VtF
+- _$s10OmniSearch12LLMFormatterV19StringInterpolationV06appendE0_4date11formatStyleySS_10Foundation4DateVSgAK06FormatI0VtFfA1_
+- _$s10OmniSearch12LLMFormatterV19StringInterpolationV06appendE0_4date13timeIsUnknownySS_10Foundation14DateComponentsVSgSbtF
+- _$s10OmniSearch12LLMFormatterV19StringInterpolationV06appendE0_4date13timeIsUnknownySS_10Foundation4DateVSgSbtF
+- _$s10OmniSearch12LLMFormatterV19StringInterpolationV06appendE0_5dates11formatStyleySS_Say10Foundation4DateVGSgAK06FormatI0VtF
+- _$s10OmniSearch12LLMFormatterV19StringInterpolationV06appendE0_5dates11formatStyleySS_Say10Foundation4DateVGSgAK06FormatI0VtFfA1_
+- _$s10OmniSearch12LLMFormatterV19StringInterpolationV06appendE0_5names11countToShow6suffixySS_SaySSGSgSiSStF
+- _$s10OmniSearch12LLMFormatterV19StringInterpolationV06appendE0_5names11countToShow6suffixySS_SaySSGSgSiSStFfA2_
+- _$s10OmniSearch12NoteDocumentV24llmConsumableDescriptionSSvg
+- _$s10OmniSearch12NoteDocumentV24llmConsumableDescriptionSSvpMV
+- _$s10OmniSearch12PhoneHistoryV24llmConsumableDescriptionSSvg
+- _$s10OmniSearch12PhoneHistoryV24llmConsumableDescriptionSSvpMV
+- _$s10OmniSearch12QueryParsingP5parse_7traceId06clientG0AA18LLMQUModelResponseVSS_S2StYaKFTj
+- _$s10OmniSearch12QueryParsingP5parse_7traceId06clientG0AA18LLMQUModelResponseVSS_S2StYaKFTjTu
+- _$s10OmniSearch12QueryParsingP5parse_7traceId06clientG0AA18LLMQUModelResponseVSS_S2StYaKFTq
+- _$s10OmniSearch12TicketedShowV24llmConsumableDescriptionSSvg
+- _$s10OmniSearch12TicketedShowV24llmConsumableDescriptionSSvpMV
+- _$s10OmniSearch13AppEntityItemV24llmConsumableDescriptionSSvg
+- _$s10OmniSearch13AppEntityItemV24llmConsumableDescriptionSSvpMV
+- _$s10OmniSearch13CalendarEventV24llmConsumableDescriptionSSvg
+- _$s10OmniSearch13CalendarEventV24llmConsumableDescriptionSSvpMV
+- _$s10OmniSearch13CalendarEventV2id5title18contentDescription9startDate03endJ012locationName14organizerNames011participantO05notes19dataDetectorResultsACSS_SSSgAN10Foundation0J0VSgArNSaySSGAsnA04DatasT0VSgtcfC
+- _$s10OmniSearch13EmailDocumentV24llmConsumableDescriptionSSvg
+- _$s10OmniSearch13EmailDocumentV24llmConsumableDescriptionSSvpMV
+- _$s10OmniSearch13EmailDocumentV4fromACSo16CSSearchableItemC_tKcfC
+- _$s10OmniSearch13ExtractedInfoV16updateResultWithyAA0bF0VAA08ResolvedD0VF
+- _$s10OmniSearch13ExtractedInfoV17buildAnswerResultAA0bG0VyF
+- _$s10OmniSearch13FlightSnippetV3LegV20matchesDepartureDateySb10Foundation0H10ComponentsVF
+- _$s10OmniSearch13MetricsLoggerC03logB21ToolLLMQURequestEnded7traceId06clientJ011llmQUResultySS_SSAA11LLMQUResultVtF
+- _$s10OmniSearch13MetricsLoggerC03logB21ToolLLMQURequestEnded7traceId06clientJ011llmQUResultySS_SSAA11LLMQUResultVtFTj
+- _$s10OmniSearch13MetricsLoggerC03logB21ToolLLMQURequestEnded7traceId06clientJ011llmQUResultySS_SSAA11LLMQUResultVtFTq
+- _$s10OmniSearch13MetricsLoggerC03logB22ToolLLMQURequestFailed7traceId06clientJ0ySS_SStF
+- _$s10OmniSearch13MetricsLoggerC03logB22ToolLLMQURequestFailed7traceId06clientJ0ySS_SStFTj
+- _$s10OmniSearch13MetricsLoggerC03logB22ToolLLMQURequestFailed7traceId06clientJ0ySS_SStFTq
+- _$s10OmniSearch13MetricsLoggerC03logB23ToolLLMQURequestStarted7traceId06clientJ0ySS_SStF
+- _$s10OmniSearch13MetricsLoggerC03logB23ToolLLMQURequestStarted7traceId06clientJ0ySS_SStFTj
+- _$s10OmniSearch13MetricsLoggerC03logB23ToolLLMQURequestStarted7traceId06clientJ0ySS_SStFTq
+- _$s10OmniSearch13MetricsLoggerC03logB25ToolSpotlightRequestEnded7traceId06clientK0ySS_SStF
+- _$s10OmniSearch13MetricsLoggerC03logB25ToolSpotlightRequestEnded7traceId06clientK0ySS_SStFTj
+- _$s10OmniSearch13MetricsLoggerC03logB25ToolSpotlightRequestEnded7traceId06clientK0ySS_SStFTq
+- _$s10OmniSearch13MetricsLoggerC03logB27ToolSpotlightRequestStarted7traceId06clientK0ySS_SStF
+- _$s10OmniSearch13MetricsLoggerC03logB27ToolSpotlightRequestStarted7traceId06clientK0ySS_SStFTj
+- _$s10OmniSearch13MetricsLoggerC03logB27ToolSpotlightRequestStarted7traceId06clientK0ySS_SStFTq
+- _$s10OmniSearch13MetricsLoggerC03logB31ToolAnswerSynthesisRequestEnded7traceId06clientL006answerH6ResultySS_SS27IntelligencePlatformLibrary0p4FlowbF9TelemetryV0bfghO0VtF
+- _$s10OmniSearch13MetricsLoggerC03logB31ToolAnswerSynthesisRequestEnded7traceId06clientL006answerH6ResultySS_SS27IntelligencePlatformLibrary0p4FlowbF9TelemetryV0bfghO0VtFTj
+- _$s10OmniSearch13MetricsLoggerC03logB31ToolAnswerSynthesisRequestEnded7traceId06clientL006answerH6ResultySS_SS27IntelligencePlatformLibrary0p4FlowbF9TelemetryV0bfghO0VtFTq
+- _$s10OmniSearch13MetricsLoggerC03logB32ToolAnswerSynthesisRequestFailed7traceId06clientL0ySS_SStF
+- _$s10OmniSearch13MetricsLoggerC03logB32ToolAnswerSynthesisRequestFailed7traceId06clientL0ySS_SStFTj
+- _$s10OmniSearch13MetricsLoggerC03logB32ToolAnswerSynthesisRequestFailed7traceId06clientL0ySS_SStFTq
+- _$s10OmniSearch13MetricsLoggerC03logB33ToolAnswerSynthesisRequestStarted7traceId06clientL0ySS_SStF
+- _$s10OmniSearch13MetricsLoggerC03logB33ToolAnswerSynthesisRequestStarted7traceId06clientL0ySS_SStFTj
+- _$s10OmniSearch13MetricsLoggerC03logB33ToolAnswerSynthesisRequestStarted7traceId06clientL0ySS_SStFTq
+- _$s10OmniSearch13MetricsLoggerC03logB9ToolEvent33_7E493C3A5A46D57957063207199E5F06LL7traceId06clientP07context04sendG0ySS_SSxy27IntelligencePlatformLibrary0t4FlowbF9TelemetryVKXEtlF
+- _$s10OmniSearch13MetricsLoggerC03logb10ToolGlobalB5Ended7traceId06clientJ013globalResultsySS_SSSayAA0B6ResultVGtF
+- _$s10OmniSearch13MetricsLoggerC03logb10ToolGlobalB5Ended7traceId06clientJ013globalResultsySS_SSSayAA0B6ResultVGtFTj
+- _$s10OmniSearch13MetricsLoggerC03logb10ToolGlobalB5Ended7traceId06clientJ013globalResultsySS_SSSayAA0B6ResultVGtFTq
+- _$s10OmniSearch13MetricsLoggerC03logb10ToolGlobalB6Failed7traceId06clientJ0ySS_SStF
+- _$s10OmniSearch13MetricsLoggerC03logb10ToolGlobalB6Failed7traceId06clientJ0ySS_SStFTj
+- _$s10OmniSearch13MetricsLoggerC03logb10ToolGlobalB6Failed7traceId06clientJ0ySS_SStFTq
+- _$s10OmniSearch13MetricsLoggerC03logb10ToolGlobalB7Started7traceId06clientJ0ySS_SStF
+- _$s10OmniSearch13MetricsLoggerC03logb10ToolGlobalB7Started7traceId06clientJ0ySS_SStFTj
+- _$s10OmniSearch13MetricsLoggerC03logb10ToolGlobalB7Started7traceId06clientJ0ySS_SStFTq
+- _$s10OmniSearch13MetricsLoggerC03logb11ToolGeneralB5Ended7traceId06clientJ04fromySS_SSSayAA0B6EntityVGtF
+- _$s10OmniSearch13MetricsLoggerC03logb11ToolGeneralB5Ended7traceId06clientJ04fromySS_SSSayAA0B6EntityVGtFTj
+- _$s10OmniSearch13MetricsLoggerC03logb11ToolGeneralB5Ended7traceId06clientJ04fromySS_SSSayAA0B6EntityVGtFTq
+- _$s10OmniSearch13MetricsLoggerC03logb11ToolGeneralB6Failed7traceId06clientJ0ySS_SStF
+- _$s10OmniSearch13MetricsLoggerC03logb11ToolGeneralB6Failed7traceId06clientJ0ySS_SStFTj
+- _$s10OmniSearch13MetricsLoggerC03logb11ToolGeneralB6Failed7traceId06clientJ0ySS_SStFTq
+- _$s10OmniSearch13MetricsLoggerC03logb11ToolGeneralB7Started7traceId06clientJ0ySS_SStF
+- _$s10OmniSearch13MetricsLoggerC03logb11ToolGeneralB7Started7traceId06clientJ0ySS_SStFTj
+- _$s10OmniSearch13MetricsLoggerC03logb11ToolGeneralB7Started7traceId06clientJ0ySS_SStFTq
+- _$s10OmniSearch13normalizeTextyS2SF
+- _$s10OmniSearch14AnswerMetadataV06globalB7SummarySSSgvM
+- _$s10OmniSearch14AnswerMetadataV06globalB7SummarySSSgvg
+- _$s10OmniSearch14AnswerMetadataV06globalB7SummarySSSgvpMV
+- _$s10OmniSearch14AnswerMetadataV06globalB7SummarySSSgvs
+- _$s10OmniSearch14AnswerMetadataV07$globalB7Summary10AppIntents14EntityPropertyCySSSgGvg
+- _$s10OmniSearch14AnswerMetadataV07$globalB7Summary10AppIntents14EntityPropertyCySSSgGvpMV
+- _$s10OmniSearch14AnswerMetadataV0aB5Types19ExperienceProvidingAAMc
+- _$s10OmniSearch14AnswerMetadataV10AppIntents0E5ValueAAMc
+- _$s10OmniSearch14AnswerMetadataV10AppIntents0E6EntityAAMc
+- _$s10OmniSearch14AnswerMetadataV10AppIntents12_IntentValueAAMc
+- _$s10OmniSearch14AnswerMetadataV10AppIntents20DisplayRepresentableAAMc
+- _$s10OmniSearch14AnswerMetadataV10AppIntents24PersistentlyIdentifiableAAMc
+- _$s10OmniSearch14AnswerMetadataV10AppIntents24TypeDisplayRepresentableAAMc
+- _$s10OmniSearch14AnswerMetadataV10AppIntents28InstanceDisplayRepresentableAAMc
+- _$s10OmniSearch14AnswerMetadataV10Foundation40CustomLocalizedStringResourceConvertibleAAMc
+- _$s10OmniSearch14AnswerMetadataV11asCATEntityAA0bF0Vvg
+- _$s10OmniSearch14AnswerMetadataV11asCATEntityAA0bF0VvpMV
+- _$s10OmniSearch14AnswerMetadataV11asNLGEntityAA0bF0Vvg
+- _$s10OmniSearch14AnswerMetadataV11asNLGEntityAA0bF0VvpMV
+- _$s10OmniSearch14AnswerMetadataV11descriptionSSSgvM
+- _$s10OmniSearch14AnswerMetadataV11descriptionSSSgvg
+- _$s10OmniSearch14AnswerMetadataV11descriptionSSSgvpMV
+- _$s10OmniSearch14AnswerMetadataV11descriptionSSSgvs
+- _$s10OmniSearch14AnswerMetadataV12$description10AppIntents14EntityPropertyCySSSgGvg
+- _$s10OmniSearch14AnswerMetadataV12$description10AppIntents14EntityPropertyCySSSgGvpMV
+- _$s10OmniSearch14AnswerMetadataV12defaultQueryAC0F0VvMZ
+- _$s10OmniSearch14AnswerMetadataV12defaultQueryAC0F0VvgZ
+- _$s10OmniSearch14AnswerMetadataV12defaultQueryAC0F0VvsZ
+- _$s10OmniSearch14AnswerMetadataV12sourceResultAA0bF0VSgvg
+- _$s10OmniSearch14AnswerMetadataV12sourceResultAA0bF0VSgvpMV
+- _$s10OmniSearch14AnswerMetadataV13sourceResultsSayAA0B6ResultVGvM
+- _$s10OmniSearch14AnswerMetadataV13sourceResultsSayAA0B6ResultVGvg
+- _$s10OmniSearch14AnswerMetadataV13sourceResultsSayAA0B6ResultVGvpMV
+- _$s10OmniSearch14AnswerMetadataV13sourceResultsSayAA0B6ResultVGvs
+- _$s10OmniSearch14AnswerMetadataV14documentSourceSSvM
+- _$s10OmniSearch14AnswerMetadataV14documentSourceSSvg
+- _$s10OmniSearch14AnswerMetadataV14documentSourceSSvpMV
+- _$s10OmniSearch14AnswerMetadataV14documentSourceSSvs
+- _$s10OmniSearch14AnswerMetadataV14experienceFile10AppIntents06IntentF0VSgvM
+- _$s10OmniSearch14AnswerMetadataV14experienceFile10AppIntents06IntentF0VSgvg
+- _$s10OmniSearch14AnswerMetadataV14experienceFile10AppIntents06IntentF0VSgvpMV
+- _$s10OmniSearch14AnswerMetadataV14experienceFile10AppIntents06IntentF0VSgvs
+- _$s10OmniSearch14AnswerMetadataV15$documentSource10AppIntents14EntityPropertyCySSGvg
+- _$s10OmniSearch14AnswerMetadataV15$documentSource10AppIntents14EntityPropertyCySSGvpMV
+- _$s10OmniSearch14AnswerMetadataV15$experienceFile10AppIntents14EntityPropertyCyAE06IntentF0VSgGvg
+- _$s10OmniSearch14AnswerMetadataV15$experienceFile10AppIntents14EntityPropertyCyAE06IntentF0VSgGvpMV
+- _$s10OmniSearch14AnswerMetadataV15overridePayloadACSo12NSDictionaryC_tKcfC
+- _$s10OmniSearch14AnswerMetadataV15sourceDocumentsSayAA14SourceDocumentVGvM
+- _$s10OmniSearch14AnswerMetadataV15sourceDocumentsSayAA14SourceDocumentVGvg
+- _$s10OmniSearch14AnswerMetadataV15sourceDocumentsSayAA14SourceDocumentVGvpMV
+- _$s10OmniSearch14AnswerMetadataV15sourceDocumentsSayAA14SourceDocumentVGvs
+- _$s10OmniSearch14AnswerMetadataV16$sourceDocuments10AppIntents14EntityPropertyCySayAA14SourceDocumentVGGvg
+- _$s10OmniSearch14AnswerMetadataV16$sourceDocuments10AppIntents14EntityPropertyCySayAA14SourceDocumentVGGvpMV
+- _$s10OmniSearch14AnswerMetadataV16CoreTransferable0F0AAMc
+- _$s10OmniSearch14AnswerMetadataV18validateParametersyyKF
+- _$s10OmniSearch14AnswerMetadataV20experienceSourceType0aB5Types0b6ResultG0Ovg
+- _$s10OmniSearch14AnswerMetadataV20experienceSourceType0aB5Types0b6ResultG0OvpMV
+- _$s10OmniSearch14AnswerMetadataV20validTypeIdentifiersSaySSGvg
+- _$s10OmniSearch14AnswerMetadataV20validTypeIdentifiersSaySSGvpMV
+- _$s10OmniSearch14AnswerMetadataV21displayRepresentation10AppIntents07DisplayF0Vvg
+- _$s10OmniSearch14AnswerMetadataV21displayRepresentation10AppIntents07DisplayF0VvpMV
+- _$s10OmniSearch14AnswerMetadataV22transferRepresentationQrvgZ
+- _$s10OmniSearch14AnswerMetadataV22transferRepresentationQrvpZQOMQ
+- _$s10OmniSearch14AnswerMetadataV25typeDisplayRepresentation10AppIntents04TypefG0VvMZ
+- _$s10OmniSearch14AnswerMetadataV25typeDisplayRepresentation10AppIntents04TypefG0VvgZ
+- _$s10OmniSearch14AnswerMetadataV25typeDisplayRepresentation10AppIntents04TypefG0VvsZ
+- _$s10OmniSearch14AnswerMetadataV2eeoiySbAC_ACtFZ
+- _$s10OmniSearch14AnswerMetadataV2idSSvg
+- _$s10OmniSearch14AnswerMetadataV2idSSvpMV
+- _$s10OmniSearch14AnswerMetadataV33supportedTypeIdentifiersForExportSaySSGvM
+- _$s10OmniSearch14AnswerMetadataV33supportedTypeIdentifiersForExportSaySSGvg
+- _$s10OmniSearch14AnswerMetadataV33supportedTypeIdentifiersForExportSaySSGvpMV
+- _$s10OmniSearch14AnswerMetadataV33supportedTypeIdentifiersForExportSaySSGvs
+- _$s10OmniSearch14AnswerMetadataV34$supportedTypeIdentifiersForExport10AppIntents14EntityPropertyCySaySSGGvg
+- _$s10OmniSearch14AnswerMetadataV34$supportedTypeIdentifiersForExport10AppIntents14EntityPropertyCySaySSGGvpMV
+- _$s10OmniSearch14AnswerMetadataV4cardSo6SFCardCSgvM
+- _$s10OmniSearch14AnswerMetadataV4cardSo6SFCardCSgvg
+- _$s10OmniSearch14AnswerMetadataV4cardSo6SFCardCSgvpMV
+- _$s10OmniSearch14AnswerMetadataV4cardSo6SFCardCSgvs
+- _$s10OmniSearch14AnswerMetadataV5QueryV10AppIntents06EntityE0AAMc
+- _$s10OmniSearch14AnswerMetadataV5QueryV10AppIntents09_SupportsF12DependenciesAAMc
+- _$s10OmniSearch14AnswerMetadataV5QueryV10AppIntents22DynamicOptionsProviderAAMc
+- _$s10OmniSearch14AnswerMetadataV5QueryV10AppIntents24PersistentlyIdentifiableAAMc
+- _$s10OmniSearch14AnswerMetadataV5QueryV8entities3forSayACGSaySSG_tYaKF
+- _$s10OmniSearch14AnswerMetadataV5QueryV8entities3forSayACGSaySSG_tYaKFTu
+- _$s10OmniSearch14AnswerMetadataV5QueryVAEycfC
+- _$s10OmniSearch14AnswerMetadataV5QueryVMa
+- _$s10OmniSearch14AnswerMetadataV5QueryVMn
+- _$s10OmniSearch14AnswerMetadataV5QueryVN
+- _$s10OmniSearch14AnswerMetadataV5titleSSSgvM
+- _$s10OmniSearch14AnswerMetadataV5titleSSSgvg
+- _$s10OmniSearch14AnswerMetadataV5titleSSSgvpMV
+- _$s10OmniSearch14AnswerMetadataV5titleSSSgvs
+- _$s10OmniSearch14AnswerMetadataV6$title10AppIntents14EntityPropertyCySSSgGvg
+- _$s10OmniSearch14AnswerMetadataV6$title10AppIntents14EntityPropertyCySSSgGvpMV
+- _$s10OmniSearch14AnswerMetadataV6answerSSvM
+- _$s10OmniSearch14AnswerMetadataV6answerSSvg
+- _$s10OmniSearch14AnswerMetadataV6answerSSvpMV
+- _$s10OmniSearch14AnswerMetadataV6answerSSvs
+- _$s10OmniSearch14AnswerMetadataV6dialogSSSgvM
+- _$s10OmniSearch14AnswerMetadataV6dialogSSSgvg
+- _$s10OmniSearch14AnswerMetadataV6dialogSSSgvpMV
+- _$s10OmniSearch14AnswerMetadataV6dialogSSSgvs
+- _$s10OmniSearch14AnswerMetadataV6encode2toys7Encoder_p_tKF
+- _$s10OmniSearch14AnswerMetadataV7$answer10AppIntents14EntityPropertyCySSGvg
+- _$s10OmniSearch14AnswerMetadataV7$answer10AppIntents14EntityPropertyCySSGvpMV
+- _$s10OmniSearch14AnswerMetadataV7$dialog10AppIntents14EntityPropertyCySSSgGvg
+- _$s10OmniSearch14AnswerMetadataV7$dialog10AppIntents14EntityPropertyCySSSgGvpMV
+- _$s10OmniSearch14AnswerMetadataV7BuilderV06globalB7SummarySSSgvM
+- _$s10OmniSearch14AnswerMetadataV7BuilderV06globalB7SummarySSSgvg
+- _$s10OmniSearch14AnswerMetadataV7BuilderV06globalB7SummarySSSgvpMV
+- _$s10OmniSearch14AnswerMetadataV7BuilderV06globalB7SummarySSSgvs
+- _$s10OmniSearch14AnswerMetadataV7BuilderV11descriptionSSSgvM
+- _$s10OmniSearch14AnswerMetadataV7BuilderV11descriptionSSSgvg
+- _$s10OmniSearch14AnswerMetadataV7BuilderV11descriptionSSSgvpMV
+- _$s10OmniSearch14AnswerMetadataV7BuilderV11descriptionSSSgvs
+- _$s10OmniSearch14AnswerMetadataV7BuilderV13sourceResultsSayAA0B6ResultVGvM
+- _$s10OmniSearch14AnswerMetadataV7BuilderV13sourceResultsSayAA0B6ResultVGvg
+- _$s10OmniSearch14AnswerMetadataV7BuilderV13sourceResultsSayAA0B6ResultVGvpMV
+- _$s10OmniSearch14AnswerMetadataV7BuilderV13sourceResultsSayAA0B6ResultVGvs
+- _$s10OmniSearch14AnswerMetadataV7BuilderV14experienceFile10AppIntents06IntentG0VSgvM
+- _$s10OmniSearch14AnswerMetadataV7BuilderV14experienceFile10AppIntents06IntentG0VSgvg
+- _$s10OmniSearch14AnswerMetadataV7BuilderV14experienceFile10AppIntents06IntentG0VSgvpMV
+- _$s10OmniSearch14AnswerMetadataV7BuilderV14experienceFile10AppIntents06IntentG0VSgvs
+- _$s10OmniSearch14AnswerMetadataV7BuilderV15sourceDocumentsSayAA14SourceDocumentVGSgvM
+- _$s10OmniSearch14AnswerMetadataV7BuilderV15sourceDocumentsSayAA14SourceDocumentVGSgvg
+- _$s10OmniSearch14AnswerMetadataV7BuilderV15sourceDocumentsSayAA14SourceDocumentVGSgvpMV
+- _$s10OmniSearch14AnswerMetadataV7BuilderV15sourceDocumentsSayAA14SourceDocumentVGSgvs
+- _$s10OmniSearch14AnswerMetadataV7BuilderV22lowConfidenceKnowledgeSbvM
+- _$s10OmniSearch14AnswerMetadataV7BuilderV22lowConfidenceKnowledgeSbvg
+- _$s10OmniSearch14AnswerMetadataV7BuilderV22lowConfidenceKnowledgeSbvpMV
+- _$s10OmniSearch14AnswerMetadataV7BuilderV22lowConfidenceKnowledgeSbvs
+- _$s10OmniSearch14AnswerMetadataV7BuilderV2id6answer5title15sourceDocuments8metadata14experienceFile0I7Results4card06globalB7Summary11description22lowConfidenceKnowledge6dialogAESSSg_A2RSayAA14SourceDocumentVGSgSDyS2SGSg10AppIntents06IntentM0VSgSayAA0B6ResultVGSo6SFCardCSgA2RSbARtcfC
+- _$s10OmniSearch14AnswerMetadataV7BuilderV2id6answer5title15sourceDocuments8metadata14experienceFile0I7Results4card06globalB7Summary11description22lowConfidenceKnowledge6dialogAESSSg_A2RSayAA14SourceDocumentVGSgSDyS2SGSg10AppIntents06IntentM0VSgSayAA0B6ResultVGSo6SFCardCSgA2RSbARtcfcfA5_
+- _$s10OmniSearch14AnswerMetadataV7BuilderV2id6answer5title15sourceDocuments8metadata14experienceFile0I7Results4card06globalB7Summary11description22lowConfidenceKnowledge6dialogAESSSg_A2RSayAA14SourceDocumentVGSgSDyS2SGSg10AppIntents06IntentM0VSgSayAA0B6ResultVGSo6SFCardCSgA2RSbARtcfcfA9_
+- _$s10OmniSearch14AnswerMetadataV7BuilderV2idSSSgvM
+- _$s10OmniSearch14AnswerMetadataV7BuilderV2idSSSgvg
+- _$s10OmniSearch14AnswerMetadataV7BuilderV2idSSSgvpMV
+- _$s10OmniSearch14AnswerMetadataV7BuilderV2idSSSgvs
+- _$s10OmniSearch14AnswerMetadataV7BuilderV4cardSo6SFCardCSgvM
+- _$s10OmniSearch14AnswerMetadataV7BuilderV4cardSo6SFCardCSgvg
+- _$s10OmniSearch14AnswerMetadataV7BuilderV4cardSo6SFCardCSgvpMV
+- _$s10OmniSearch14AnswerMetadataV7BuilderV4cardSo6SFCardCSgvs
+- _$s10OmniSearch14AnswerMetadataV7BuilderV5titleSSSgvM
+- _$s10OmniSearch14AnswerMetadataV7BuilderV5titleSSSgvg
+- _$s10OmniSearch14AnswerMetadataV7BuilderV5titleSSSgvpMV
+- _$s10OmniSearch14AnswerMetadataV7BuilderV5titleSSSgvs
+- _$s10OmniSearch14AnswerMetadataV7BuilderV6answerSSSgvM
+- _$s10OmniSearch14AnswerMetadataV7BuilderV6answerSSSgvg
+- _$s10OmniSearch14AnswerMetadataV7BuilderV6answerSSSgvpMV
+- _$s10OmniSearch14AnswerMetadataV7BuilderV6answerSSSgvs
+- _$s10OmniSearch14AnswerMetadataV7BuilderV6dialogSSSgvM
+- _$s10OmniSearch14AnswerMetadataV7BuilderV6dialogSSSgvg
+- _$s10OmniSearch14AnswerMetadataV7BuilderV6dialogSSSgvpMV
+- _$s10OmniSearch14AnswerMetadataV7BuilderV6dialogSSSgvs
+- _$s10OmniSearch14AnswerMetadataV7BuilderV8metadataSDyS2SGSgvM
+- _$s10OmniSearch14AnswerMetadataV7BuilderV8metadataSDyS2SGSgvg
+- _$s10OmniSearch14AnswerMetadataV7BuilderV8metadataSDyS2SGSgvpMV
+- _$s10OmniSearch14AnswerMetadataV7BuilderV8metadataSDyS2SGSgvs
+- _$s10OmniSearch14AnswerMetadataV7BuilderVAEycfC
+- _$s10OmniSearch14AnswerMetadataV7BuilderVMa
+- _$s10OmniSearch14AnswerMetadataV7BuilderVMn
+- _$s10OmniSearch14AnswerMetadataV7BuilderVN
+- _$s10OmniSearch14AnswerMetadataV7builderACSgAC7BuilderV_tcfC
+- _$s10OmniSearch14AnswerMetadataV7summarySSvg
+- _$s10OmniSearch14AnswerMetadataV7summarySSvpMV
+- _$s10OmniSearch14AnswerMetadataV8metadataSDyS2SGvg
+- _$s10OmniSearch14AnswerMetadataV8metadataSDyS2SGvpMV
+- _$s10OmniSearch14AnswerMetadataVAA0B12OverrideableAAMc
+- _$s10OmniSearch14AnswerMetadataVAA0B12OverrideableAAWP
+- _$s10OmniSearch14AnswerMetadataVAA0B20CATEntityConvertibleAAMc
+- _$s10OmniSearch14AnswerMetadataVAA0B20CATEntityConvertibleAAWP
+- _$s10OmniSearch14AnswerMetadataVAA0B20NLGEntityConvertibleAAMc
+- _$s10OmniSearch14AnswerMetadataVAA0B20NLGEntityConvertibleAAWP
+- _$s10OmniSearch14AnswerMetadataVAA17CardRepresentableAAMc
+- _$s10OmniSearch14AnswerMetadataVAA17CardRepresentableAAWP
+- _$s10OmniSearch14AnswerMetadataVAA17ValidatableEntityAAMc
+- _$s10OmniSearch14AnswerMetadataVAA17ValidatableEntityAAWP
+- _$s10OmniSearch14AnswerMetadataVACycfC
+- _$s10OmniSearch14AnswerMetadataVMa
+- _$s10OmniSearch14AnswerMetadataVMn
+- _$s10OmniSearch14AnswerMetadataVN
+- _$s10OmniSearch14AnswerMetadataVSEAAMc
+- _$s10OmniSearch14AnswerMetadataVSQAAMc
+- _$s10OmniSearch14AnswerMetadataVs12IdentifiableAAMc
+- _$s10OmniSearch14AnswerMetadataVyACSgyAC7BuilderVzXEcfC
+- _$s10OmniSearch14AnswerResolverC7resolve16extractedResultsSayAA0B6ResultVGSayAA13ExtractedInfoVG_tYaF
+- _$s10OmniSearch14AnswerResolverC7resolve16extractedResultsSayAA0B6ResultVGSayAA13ExtractedInfoVG_tYaFTj
+- _$s10OmniSearch14AnswerResolverC7resolve16extractedResultsSayAA0B6ResultVGSayAA13ExtractedInfoVG_tYaFTjTu
+- _$s10OmniSearch14AnswerResolverC7resolve16extractedResultsSayAA0B6ResultVGSayAA13ExtractedInfoVG_tYaFTq
+- _$s10OmniSearch14AnswerResolverC7resolve16extractedResultsSayAA0B6ResultVGSayAA13ExtractedInfoVG_tYaFTu
+- _$s10OmniSearch14LLMQueryParserC5parse_7traceId06clientG0AA18LLMQUModelResponseVSS_S2StYaKFTj
+- _$s10OmniSearch14LLMQueryParserC5parse_7traceId06clientG0AA18LLMQUModelResponseVSS_S2StYaKFTjTu
+- _$s10OmniSearch14LLMQueryParserC5parse_7traceId06clientG0AA18LLMQUModelResponseVSS_S2StYaKFTq
+- _$s10OmniSearch14ResultHydratorC16fetchFullContent3forSayAA0bC0VGAH_tYaKFTj
+- _$s10OmniSearch14ResultHydratorC16fetchFullContent3forSayAA0bC0VGAH_tYaKFTjTu
+- _$s10OmniSearch14ResultHydratorC16fetchFullContent3forSayAA0bC0VGAH_tYaKFTq
+- _$s10OmniSearch14ResultHydratorC18hydrationFunctionsSDyAA0bC3KeyOSayAA0bC0VGAIYaKcGvMTj
+- _$s10OmniSearch14ResultHydratorC18hydrationFunctionsSDyAA0bC3KeyOSayAA0bC0VGAIYaKcGvMTq
+- _$s10OmniSearch14ResultHydratorC18hydrationFunctionsSDyAA0bC3KeyOSayAA0bC0VGAIYaKcGvgTj
+- _$s10OmniSearch14ResultHydratorC18hydrationFunctionsSDyAA0bC3KeyOSayAA0bC0VGAIYaKcGvgTq
+- _$s10OmniSearch14ResultHydratorC18hydrationFunctionsSDyAA0bC3KeyOSayAA0bC0VGAIYaKcGvpMV
+- _$s10OmniSearch14ResultHydratorC18hydrationFunctionsSDyAA0bC3KeyOSayAA0bC0VGAIYaKcGvsTj
+- _$s10OmniSearch14ResultHydratorC18hydrationFunctionsSDyAA0bC3KeyOSayAA0bC0VGAIYaKcGvsTq
+- _$s10OmniSearch15MediaAnswerRuleV11featureFlagAA07FeatureG7ServiceC0hG0OSgvM
+- _$s10OmniSearch15MediaAnswerRuleV11featureFlagAA07FeatureG7ServiceC0hG0OSgvg
+- _$s10OmniSearch15MediaAnswerRuleV11featureFlagAA07FeatureG7ServiceC0hG0OSgvpMV
+- _$s10OmniSearch15MediaAnswerRuleV11featureFlagAA07FeatureG7ServiceC0hG0OSgvs
+- _$s10OmniSearch15MediaAnswerRuleV11featureFlagAcA07FeatureG7ServiceC0hG0OSg_tcfC
+- _$s10OmniSearch15MediaAnswerRuleV11featureFlagAcA07FeatureG7ServiceC0hG0OSg_tcfcfA_
+- _$s10OmniSearch15MediaAnswerRuleV14extractMatched11typedResultAA13ExtractedTypeOSgAA0D0V_tYaKF
+- _$s10OmniSearch15MediaAnswerRuleV14extractMatched11typedResultAA13ExtractedTypeOSgAA0D0V_tYaKFTu
+- _$s10OmniSearch15MediaAnswerRuleV5regex13assistantLang17_StringProcessing14RegexComponent_pSgSS_tF
+- _$s10OmniSearch15MediaAnswerRuleVAA010ExtractionE0AAMc
+- _$s10OmniSearch15MediaAnswerRuleVAA010ExtractionE0AAWP
+- _$s10OmniSearch15MediaAnswerRuleVAA015RegexExtractionE0AAMc
+- _$s10OmniSearch15MediaAnswerRuleVAA015RegexExtractionE0AAWP
+- _$s10OmniSearch15MediaAnswerRuleVAA015TypedExtractionE0AAMc
+- _$s10OmniSearch15MediaAnswerRuleVAA015TypedExtractionE0AAWP
+- _$s10OmniSearch15MediaAnswerRuleVAA0d16SourceExtractionE0AAMc
+- _$s10OmniSearch15MediaAnswerRuleVAA0d16SourceExtractionE0AAWP
+- _$s10OmniSearch15MediaAnswerRuleVACycfC
+- _$s10OmniSearch15MediaAnswerRuleVMa
+- _$s10OmniSearch15MediaAnswerRuleVMn
+- _$s10OmniSearch15MediaAnswerRuleVN
+- _$s10OmniSearch15ResultHydrationP16fetchFullContent3forSayAA0bC0VGAH_tYaKFTj
+- _$s10OmniSearch15ResultHydrationP16fetchFullContent3forSayAA0bC0VGAH_tYaKFTjTu
+- _$s10OmniSearch15ResultHydrationP16fetchFullContent3forSayAA0bC0VGAH_tYaKFTq
+- _$s10OmniSearch16AnswerResolvableP7resolve16extractedResultsSayAA0B6ResultVGSayAA13ExtractedInfoVG_tYaFTj
+- _$s10OmniSearch16AnswerResolvableP7resolve16extractedResultsSayAA0B6ResultVGSayAA13ExtractedInfoVG_tYaFTjTu
+- _$s10OmniSearch16AnswerResolvableP7resolve16extractedResultsSayAA0B6ResultVGSayAA13ExtractedInfoVG_tYaFTq
+- _$s10OmniSearch16AnswerResolvablePAAE7resolve5query7results15assistantLocaleSayAA0B6ResultVGAA9UserQueryV_AJSSSgtYaKF
+- _$s10OmniSearch16AnswerResolvablePAAE7resolve5query7results15assistantLocaleSayAA0B6ResultVGAA9UserQueryV_AJSSSgtYaKFTu
+- _$s10OmniSearch16HotelReservationV24llmConsumableDescriptionSSvg
+- _$s10OmniSearch16HotelReservationV24llmConsumableDescriptionSSvpMV
+- _$s10OmniSearch16HotelReservationV2id13timeIsUnknown05hotelD2Id0I9UnderName0I21CheckinDateComponents0i8CheckoutnO00id3ForL00i6ModifyD3Url0idQ9Telephone0idQ7Address0I15BookingProvider0I13CustomerNames0I11RoomNumbers0I13NumberOfRooms0I8Duration0I4Cost0I6Status16answerAttributes06bundleJ0011mailMessageJ027eventSourceBundleIdentifier35eventSourceLLMConsumableDescriptionACSS_SbSSSgAZ10Foundation0nO0VSgA2_A5ZSaySSGA3_SiSgSdSgA2ZA3_SSA3ZtcfC
+- _$s10OmniSearch16HotelReservationV2id7answers16answerAttributes8bundleId011mailMessageJ027eventSourceBundleIdentifier0mN24LLMConsumableDescription13timeIsUnknown05hoteldJ00V9UnderName0V21CheckinDateComponents0v8CheckoutZ10Components0vd3ForX00v6ModifyD3Url0vD12ForTelephone0vD10ForAddress0V15BookingProvider0V13CustomerNames0V11RoomNumbers0V13NumberOfRooms0V8Duration0V4Cost0V6Status0vyZ6String0v8CheckoutZ6String14durationInDaysACSS_SDyS2SGSaySSGS2SSgA4_A4_SbA4_A4_10Foundation0Z10ComponentsVSgA8_A4_A4_A4_A4_A4_A3_A3_SiSgSdSgA4_A4_A4_A4_A9_tcfC
+- _$s10OmniSearch16LocalIndexClientC01kcdeB7TimeoutSivau
+- _$s10OmniSearch16LocalIndexClientC01kcdeB7TimeoutSivgZ
+- _$s10OmniSearch16LocalIndexClientC01kcdeB7TimeoutSivpZ
+- _$s10OmniSearch16LocalIndexClientC11findMatches3for12maxItemCount9spQUParseSayAA0B6ResultVGSS_SiSo9SPQUParseCSgtYaKF
+- _$s10OmniSearch16LocalIndexClientC11findMatches3for12maxItemCount9spQUParseSayAA0B6ResultVGSS_SiSo9SPQUParseCSgtYaKFTu
+- _$s10OmniSearch16LocalIndexClientC11findMatches3for12maxItemCount9spQUParseSayAA0B6ResultVGSS_SiSo9SPQUParseCSgtYaKFfA0_
+- _$s10OmniSearch16LocalIndexClientC13emailDocument4fromAA05EmailG0VSo16CSSearchableItemC_tFZ
+- _$s10OmniSearch16LocalIndexClientC14walletDocument4fromAA0B6ResultVSgSo16CSSearchableItemC_tFZ
+- _$s10OmniSearch16LocalIndexClientC15searchableItems3forSaySo16CSSearchableItemCGSaySo30SFSearchResult_SpotlightExtrasCG_tFZ
+- _$s10OmniSearch16LocalIndexClientC19getSpotlightMetrics3for12attributeSet27IntelligencePlatformLibrary0l4FlowB13ToolTelemetryV0bpG6ResultVSo08SFSearchr1_G6ExtrasC_So025CSSearchableItemAttributeK0CtFZ
+- _$s10OmniSearch16LocalIndexClientC28keyAttributeSpotlightMetricsSSvau
+- _$s10OmniSearch16LocalIndexClientC28keyAttributeSpotlightMetricsSSvgZ
+- _$s10OmniSearch16LocalIndexClientC28keyAttributeSpotlightMetricsSSvpZ
+- _$s10OmniSearch16LocalIndexClientC35keyAItemAppEntityInstanceIdentifierSSvau
+- _$s10OmniSearch16LocalIndexClientC35keyAItemAppEntityInstanceIdentifierSSvgZ
+- _$s10OmniSearch16LocalIndexClientC35keyAItemAppEntityInstanceIdentifierSSvpZ
+- _$s10OmniSearch16LocalIndexClientC39keyAttributeItemAppEntityTypeIdentifierSSvau
+- _$s10OmniSearch16LocalIndexClientC39keyAttributeItemAppEntityTypeIdentifierSSvgZ
+- _$s10OmniSearch16LocalIndexClientC39keyAttributeItemAppEntityTypeIdentifierSSvpZ
+- _$s10OmniSearch16LocalIndexClientC6search16spotlightRequestSayAA0B6ResultVGAA09SpotlightdH0V_tYaKF
+- _$s10OmniSearch16LocalIndexClientC6search16spotlightRequestSayAA0B6ResultVGAA09SpotlightdH0V_tYaKFTu
+- _$s10OmniSearch16LocalIndexClientC7prewarmyyF
+- _$s10OmniSearch16PreExtractedCardV24llmConsumableDescriptionSSvg
+- _$s10OmniSearch16PreExtractedCardV24llmConsumableDescriptionSSvpMV
+- _$s10OmniSearch17ECRClientProtocolP38personNameAndVisualIdentifiersWithText_011allowPrefixB08perTokenAA0C12PersonResultVSgSS_S2btYaKFTj
+- _$s10OmniSearch17ECRClientProtocolP38personNameAndVisualIdentifiersWithText_011allowPrefixB08perTokenAA0C12PersonResultVSgSS_S2btYaKFTjTu
+- _$s10OmniSearch17ECRClientProtocolP38personNameAndVisualIdentifiersWithText_011allowPrefixB08perTokenAA0C12PersonResultVSgSS_S2btYaKFTq
+- _$s10OmniSearch17FlightReservationV24llmConsumableDescriptionSSvg
+- _$s10OmniSearch17FlightReservationV24llmConsumableDescriptionSSvpMV
+- _$s10OmniSearch17FlightReservationV2id13timeIsUnknown12flightNumber0I10CheckInUrl0i11BookingInfoM00I7Carrier0iP4Code0I10Designator0I23DepartureDateComponents0i7ArrivaltU00iV14AirportAddress0iswX00ivwQ00iswQ00ivW7Country0iswY00ivW8Locality0iswZ00ivW4Name0isW4Name0ivW6Region0isW6Region0i12ConfirmationJ00I14PassengerNames0I20PassengerSeatNumbers0iV8Terminal0iS8Terminal0iN8Provider0i12BoardingTimeT00iS4Gate0iV4Gate0I8Duration0I12CostCurrency0I10CostAmount0I6Status16answerAttributes8bundleId13mailMessageId27eventSourceBundleIdentifier35eventSourceLLMConsumableDescriptionACSS_SbSSSg10Foundation3URLVSgA20_A16_A16_A16_A17_0tU0VA22_A16_A16_A16_A16_A16_A16_A16_A16_A16_A16_A16_A16_A16_SaySSGA23_A16_A16_A16_A17_0T0VSgA16_A16_SdSgA16_So9NSDecimalaSgA16_A23_SSA16_A16_A16_tcfC
+- _$s10OmniSearch17MobileSMSDocumentV24llmConsumableDescriptionSSvg
+- _$s10OmniSearch17MobileSMSDocumentV24llmConsumableDescriptionSSvpMV
+- _$s10OmniSearch17MobileSMSDocumentV2id6chatId11displayName4body4from2to4date10contentURL16photoAttachments07serviceI00fI00F12Participants0F8Messages19dataDetectorResults39extractedEventsLLMConsumableDescription26partialExtractedAttributes6csItemACSS_SSSgA2USaySSGAV10Foundation4DateVSgAW0O0VSgSayAA5PhotoVGA2uVSayACGAA04DatavW0VSgAuA26PartialExtractedAttributesVSgSo16CSSearchableItemCSgtcfC
+- _$s10OmniSearch17MobileSMSDocumentV2id6chatId11displayName4body4from2to4date10contentURL16photoAttachments07serviceI00fI00F12Participants0F8Messages19dataDetectorResults39extractedEventsLLMConsumableDescription26partialExtractedAttributes6csItemACSS_SSSgA2USaySSGAV10Foundation4DateVSgAW0O0VSgSayAA5PhotoVGA2uVSayACGAA04DatavW0VSgAuA26PartialExtractedAttributesVSgSo16CSSearchableItemCSgtcfcfA10_
+- _$s10OmniSearch17MobileSMSDocumentV2id6chatId11displayName4body4from2to4date10contentURL16photoAttachments07serviceI00fI00F12Participants0F8Messages19dataDetectorResults39extractedEventsLLMConsumableDescription26partialExtractedAttributes6csItemACSS_SSSgA2USaySSGAV10Foundation4DateVSgAW0O0VSgSayAA5PhotoVGA2uVSayACGAA04DatavW0VSgAuA26PartialExtractedAttributesVSgSo16CSSearchableItemCSgtcfcfA11_
+- _$s10OmniSearch17MobileSMSDocumentV2id6chatId11displayName4body4from2to4date10contentURL16photoAttachments07serviceI00fI00F12Participants0F8Messages19dataDetectorResults39extractedEventsLLMConsumableDescription26partialExtractedAttributes6csItemACSS_SSSgA2USaySSGAV10Foundation4DateVSgAW0O0VSgSayAA5PhotoVGA2uVSayACGAA04DatavW0VSgAuA26PartialExtractedAttributesVSgSo16CSSearchableItemCSgtcfcfA7_
+- _$s10OmniSearch17WalletTransactionV24llmConsumableDescriptionSSvg
+- _$s10OmniSearch17WalletTransactionV24llmConsumableDescriptionSSvpMV
+- _$s10OmniSearch17kMediaURLTriggersSay17_StringProcessing5RegexVySs_SstGGvau
+- _$s10OmniSearch17kMediaURLTriggersSay17_StringProcessing5RegexVySs_SstGGvp
+- _$s10OmniSearch18EntityCardBuildingP07cardForB7ResultsySo6SFCardCSgSayAA0B6ResultVGFTj
+- _$s10OmniSearch18EntityCardBuildingP07cardForB7ResultsySo6SFCardCSgSayAA0B6ResultVGFTq
+- _$s10OmniSearch18EntityCardBuildingP15cardForEntitiesySo6SFCardCSayAA0bC0VGFZTj
+- _$s10OmniSearch18EntityCardBuildingP15cardForEntitiesySo6SFCardCSayAA0bC0VGFZTq
+- _$s10OmniSearch18EntityCardBuildingPAAE07cardForB7ResultsySo6SFCardCSgSayAA0B6ResultVGF
+- _$s10OmniSearch18EntityCardBuildingPAAE15cardForEntitiesySo6SFCardCSayAA0bC0VGFZ
+- _$s10OmniSearch18OverrideExperienceO8rawValueACSS_tcfC
+- _$s10OmniSearch18PersonalCardEntityV11issuingDate10Foundation0G0VSgvM
+- _$s10OmniSearch18PersonalCardEntityV11issuingDate10Foundation0G0VSgvg
+- _$s10OmniSearch18PersonalCardEntityV11issuingDate10Foundation0G0VSgvpMV
+- _$s10OmniSearch18PersonalCardEntityV11issuingDate10Foundation0G0VSgvs
+- _$s10OmniSearch18PersonalCardEntityV12$issuingDate10AppIntents0E8PropertyCy10Foundation0G0VSgGvg
+- _$s10OmniSearch18PersonalCardEntityV12$issuingDate10AppIntents0E8PropertyCy10Foundation0G0VSgGvpMV
+- _$s10OmniSearch18PersonalCardEntityV8cardName06personG08idNumber0I4Type14memberIDNumber11issuingDate0N8Business0N6Region0N7Country010expirationO08birthday12placeOfBirth7address3sex6height8eyeColor6weight12licenseClass19licenseRestrictions0f3SubK0ACSSSg_A4X10Foundation0O0VSgA3XA0_A0_AXSo11CLPlacemarkCSgAA3SexOA6XtcfC
+- _$s10OmniSearch18TicketedShowEntityV10$totalCost10AppIntents0E8PropertyCySSSgGvg
+- _$s10OmniSearch18TicketedShowEntityV10$totalCost10AppIntents0E8PropertyCySSSgGvpMV
+- _$s10OmniSearch18TicketedShowEntityV13reservationId8provider13customerNames12locationName7address11seatNumbers8duration10ticketType0Q3Url9totalCost13startDateTime03endwX008eventSubR0ACSSSg_AQSaySSGSgA2qS10Foundation0W10ComponentsVSgAqT3URLVSgAq2wQtcfC
+- _$s10OmniSearch18TicketedShowEntityV9totalCostSSSgvM
+- _$s10OmniSearch18TicketedShowEntityV9totalCostSSSgvg
+- _$s10OmniSearch18TicketedShowEntityV9totalCostSSSgvpMV
+- _$s10OmniSearch18TicketedShowEntityV9totalCostSSSgvs
+- _$s10OmniSearch19ItemFetcherProtocolP21fetchSourceEmailItems3forSDySSSo012CSSearchableC0CGShySSG_tYaFTj
+- _$s10OmniSearch19ItemFetcherProtocolP21fetchSourceEmailItems3forSDySSSo012CSSearchableC0CGShySSG_tYaFTjTu
+- _$s10OmniSearch19ItemFetcherProtocolP21fetchSourceEmailItems3forSDySSSo012CSSearchableC0CGShySSG_tYaFTq
+- _$s10OmniSearch19LLMQUParseConverterV8meStringSSvau
+- _$s10OmniSearch19LLMQUParseConverterV8meStringSSvgZ
+- _$s10OmniSearch19LLMQUParseConverterV8meStringSSvpZ
+- _$s10OmniSearch19LLMQUParseConverterV9spQUParse3for5querySo9SPQUParseCSgAA18LLMQUModelResponseV_SStFZ
+- _$s10OmniSearch19PreExtractedContactV24llmConsumableDescriptionSSvg
+- _$s10OmniSearch19PreExtractedContactV24llmConsumableDescriptionSSvpMV
+- _$s10OmniSearch19VoicemailTranscriptV24llmConsumableDescriptionSSvg
+- _$s10OmniSearch19VoicemailTranscriptV24llmConsumableDescriptionSSvpMV
+- _$s10OmniSearch20AppEntityIndexClientC016keyAttributeItemcD14TypeIdentifierSSvau
+- _$s10OmniSearch20AppEntityIndexClientC016keyAttributeItemcD14TypeIdentifierSSvgZ
+- _$s10OmniSearch20AppEntityIndexClientC016keyAttributeItemcD14TypeIdentifierSSvpZ
+- _$s10OmniSearch20AppEntityIndexClientC07kMDItemcD29TypeDisplayRepresentationNameSSvau
+- _$s10OmniSearch20AppEntityIndexClientC07kMDItemcD29TypeDisplayRepresentationNameSSvgZ
+- _$s10OmniSearch20AppEntityIndexClientC07kMDItemcD29TypeDisplayRepresentationNameSSvpZ
+- _$s10OmniSearch20AppEntityIndexClientC07kMDItemcD5TitleSSvau
+- _$s10OmniSearch20AppEntityIndexClientC07kMDItemcD5TitleSSvgZ
+- _$s10OmniSearch20AppEntityIndexClientC07kMDItemcD5TitleSSvpZ
+- _$s10OmniSearch20AppEntityIndexClientC08keyAItemcD18InstanceIdentifierSSvau
+- _$s10OmniSearch20AppEntityIndexClientC08keyAItemcD18InstanceIdentifierSSvgZ
+- _$s10OmniSearch20AppEntityIndexClientC08keyAItemcD18InstanceIdentifierSSvpZ
+- _$s10OmniSearch20AppEntityIndexClientC11searchAgentAcA05LocalebH0_p_tcfC
+- _$s10OmniSearch20AppEntityIndexClientC11searchAgentAcA05LocalebH0_p_tcfCTj
+- _$s10OmniSearch20AppEntityIndexClientC11searchAgentAcA05LocalebH0_p_tcfCTq
+- _$s10OmniSearch20AppEntityIndexClientC11searchAgentAcA05LocalebH0_p_tcfc
+- _$s10OmniSearch20AppEntityIndexClientC11searchAgentAcA05LocalebH0_p_tcfcfA_
+- _$s10OmniSearch20AppEntityIndexClientC13filterQueries3forSSSayAA0bD14TypeIdentifierVG_tFZ
+- _$s10OmniSearch20AppEntityIndexClientC15fetchAttributesSaySSGvau
+- _$s10OmniSearch20AppEntityIndexClientC15fetchAttributesSaySSGvgZ
+- _$s10OmniSearch20AppEntityIndexClientC15fetchAttributesSaySSGvpZ
+- _$s10OmniSearch20AppEntityIndexClientC18localFilesBundleIdSSvau
+- _$s10OmniSearch20AppEntityIndexClientC18localFilesBundleIdSSvgZ
+- _$s10OmniSearch20AppEntityIndexClientC18localFilesBundleIdSSvpZ
+- _$s10OmniSearch20AppEntityIndexClientC19iCloudFilesBundleIdSSvau
+- _$s10OmniSearch20AppEntityIndexClientC19iCloudFilesBundleIdSSvgZ
+- _$s10OmniSearch20AppEntityIndexClientC19iCloudFilesBundleIdSSvpZ
+- _$s10OmniSearch20AppEntityIndexClientC6search7requestSayAA0B6ResultVGAA0cdE7RequestV_tYaF
+- _$s10OmniSearch20AppEntityIndexClientC6search7requestSayAA0B6ResultVGAA0cdE7RequestV_tYaFTu
+- _$s10OmniSearch20AppEntityIndexClientC7matches3for12allowedTypes15structuredQuery12maxItemCount21fetchFullEmailContentSayAA0B6ResultVGSS_SayAA0bD14TypeIdentifierVGAA010StructuredlD0VSgSiSbtYaF
+- _$s10OmniSearch20AppEntityIndexClientC7matches3for12allowedTypes15structuredQuery12maxItemCount21fetchFullEmailContentSayAA0B6ResultVGSS_SayAA0bD14TypeIdentifierVGAA010StructuredlD0VSgSiSbtYaFTu
+- _$s10OmniSearch20AppEntityIndexClientC7matches3for12allowedTypes15structuredQuery12maxItemCount21fetchFullEmailContentSayAA0B6ResultVGSS_SayAA0bD14TypeIdentifierVGAA010StructuredlD0VSgSiSbtYaFfA3_
+- _$s10OmniSearch20AppEntityIndexClientC7prewarmyyF
+- _$s10OmniSearch20AppEntityIndexClientCMa
+- _$s10OmniSearch20AppEntityIndexClientCMm
+- _$s10OmniSearch20AppEntityIndexClientCMn
+- _$s10OmniSearch20AppEntityIndexClientCMo
+- _$s10OmniSearch20AppEntityIndexClientCMu
+- _$s10OmniSearch20AppEntityIndexClientCN
+- _$s10OmniSearch20AppEntityIndexClientCfD
+- _$s10OmniSearch20AppEntityIndexClientCfd
+- _$s10OmniSearch20PostProcessingFilterV11allowedListSaySSGvau
+- _$s10OmniSearch20PostProcessingFilterV11allowedListSaySSGvgZ
+- _$s10OmniSearch20PostProcessingFilterV11allowedListSaySSGvpZ
+- _$s10OmniSearch20PostProcessingFilterV13ruleDomainMapSDyAC4typeOSayAA0B9ResultKeyOGGvau
+- _$s10OmniSearch20PostProcessingFilterV13ruleDomainMapSDyAC4typeOSayAA0B9ResultKeyOGGvgZ
+- _$s10OmniSearch20PostProcessingFilterV13ruleDomainMapSDyAC4typeOSayAA0B9ResultKeyOGGvpZ
+- _$s10OmniSearch20PostProcessingFilterV15ruleFunctionMapSDyAC4typeOSbSS_AA0B6ResultVSayAA0bJ3KeyOGtcGvau
+- _$s10OmniSearch20PostProcessingFilterV15ruleFunctionMapSDyAC4typeOSbSS_AA0B6ResultVSayAA0bJ3KeyOGtcGvgZ
+- _$s10OmniSearch20PostProcessingFilterV15ruleFunctionMapSDyAC4typeOSbSS_AA0B6ResultVSayAA0bJ3KeyOGtcGvpZ
+- _$s10OmniSearch20PostProcessingFilterV4typeO2eeoiySbAE_AEtFZ
+- _$s10OmniSearch20PostProcessingFilterV4typeO4hash4intoys6HasherVz_tF
+- _$s10OmniSearch20PostProcessingFilterV4typeO9hashValueSivg
+- _$s10OmniSearch20PostProcessingFilterV4typeO9hashValueSivpMV
+- _$s10OmniSearch20PostProcessingFilterV4typeOMa
+- _$s10OmniSearch20PostProcessingFilterV4typeOMn
+- _$s10OmniSearch20PostProcessingFilterV4typeON
+- _$s10OmniSearch20PostProcessingFilterV4typeOSHAAMc
+- _$s10OmniSearch20PostProcessingFilterV4typeOSQAAMc
+- _$s10OmniSearch20PostProcessingFilterV5apply4text8documentSbSS_AA0B6ResultVtF
+- _$s10OmniSearch20PostProcessingFilterV5rulesSayAC4typeOGvg
+- _$s10OmniSearch20PostProcessingFilterV5rulesSayAC4typeOGvpMV
+- _$s10OmniSearch20PostProcessingFilterVMa
+- _$s10OmniSearch20PostProcessingFilterVMn
+- _$s10OmniSearch20PostProcessingFilterVN
+- _$s10OmniSearch20PostProcessingFilterVyACSayAC4typeOGcfC
+- _$s10OmniSearch20RentalCarReservationV24llmConsumableDescriptionSSvg
+- _$s10OmniSearch20RentalCarReservationV24llmConsumableDescriptionSSvpMV
+- _$s10OmniSearch21AppEntityIndexRequestV11descriptionSSvg
+- _$s10OmniSearch21AppEntityIndexRequestV11descriptionSSvpMV
+- _$s10OmniSearch21AppEntityIndexRequestV12allowedTypesSayAA0bD14TypeIdentifierVGvg
+- _$s10OmniSearch21AppEntityIndexRequestV12allowedTypesSayAA0bD14TypeIdentifierVGvpMV
+- _$s10OmniSearch21AppEntityIndexRequestV13targetMatchesSivM
+- _$s10OmniSearch21AppEntityIndexRequestV13targetMatchesSivg
+- _$s10OmniSearch21AppEntityIndexRequestV13targetMatchesSivpMV
+- _$s10OmniSearch21AppEntityIndexRequestV13targetMatchesSivs
+- _$s10OmniSearch21AppEntityIndexRequestV15structuredQueryAA010StructuredhD0VSgvM
+- _$s10OmniSearch21AppEntityIndexRequestV15structuredQueryAA010StructuredhD0VSgvg
+- _$s10OmniSearch21AppEntityIndexRequestV15structuredQueryAA010StructuredhD0VSgvpMV
+- _$s10OmniSearch21AppEntityIndexRequestV15structuredQueryAA010StructuredhD0VSgvs
+- _$s10OmniSearch21AppEntityIndexRequestV9userQuery12allowedTypes010structuredH013targetMatchesACSS_SayAA0bD14TypeIdentifierVGAA010StructuredhD0VSgSitcfC
+- _$s10OmniSearch21AppEntityIndexRequestV9userQuery12allowedTypes010structuredH013targetMatchesACSS_SayAA0bD14TypeIdentifierVGAA010StructuredhD0VSgSitcfcfA2_
+- _$s10OmniSearch21AppEntityIndexRequestV9userQuerySSvg
+- _$s10OmniSearch21AppEntityIndexRequestV9userQuerySSvpMV
+- _$s10OmniSearch21AppEntityIndexRequestVMa
+- _$s10OmniSearch21AppEntityIndexRequestVMn
+- _$s10OmniSearch21AppEntityIndexRequestVN
+- _$s10OmniSearch21AppEntityIndexRequestVs23CustomStringConvertibleAAMc
+- _$s10OmniSearch21ECRClientPersonResultV11personNames0F3IDs13relationshipsACSaySSGSg_A2HtcfC
+- _$s10OmniSearch21ECRClientPersonResultV11personNamesSaySSGSgvM
+- _$s10OmniSearch21ECRClientPersonResultV11personNamesSaySSGSgvg
+- _$s10OmniSearch21ECRClientPersonResultV11personNamesSaySSGSgvpMV
+- _$s10OmniSearch21ECRClientPersonResultV11personNamesSaySSGSgvs
+- _$s10OmniSearch21ECRClientPersonResultV13relationshipsSaySSGSgvM
+- _$s10OmniSearch21ECRClientPersonResultV13relationshipsSaySSGSgvg
+- _$s10OmniSearch21ECRClientPersonResultV13relationshipsSaySSGSgvpMV
+- _$s10OmniSearch21ECRClientPersonResultV13relationshipsSaySSGSgvs
+- _$s10OmniSearch21ECRClientPersonResultV9personIDsSaySSGSgvM
+- _$s10OmniSearch21ECRClientPersonResultV9personIDsSaySSGSgvg
+- _$s10OmniSearch21ECRClientPersonResultV9personIDsSaySSGSgvpMV
+- _$s10OmniSearch21ECRClientPersonResultV9personIDsSaySSGSgvs
+- _$s10OmniSearch21MetricsLoggerProtocolP03logB21ToolLLMQURequestEnded7traceId06clientK011llmQUResultySS_SSAA11LLMQUResultVtFTj
+- _$s10OmniSearch21MetricsLoggerProtocolP03logB21ToolLLMQURequestEnded7traceId06clientK011llmQUResultySS_SSAA11LLMQUResultVtFTq
+- _$s10OmniSearch21MetricsLoggerProtocolP03logB22ToolLLMQURequestFailed7traceId06clientK0ySS_SStFTj
+- _$s10OmniSearch21MetricsLoggerProtocolP03logB22ToolLLMQURequestFailed7traceId06clientK0ySS_SStFTq
+- _$s10OmniSearch21MetricsLoggerProtocolP03logB23ToolLLMQURequestStarted7traceId06clientK0ySS_SStFTj
+- _$s10OmniSearch21MetricsLoggerProtocolP03logB23ToolLLMQURequestStarted7traceId06clientK0ySS_SStFTq
+- _$s10OmniSearch21MetricsLoggerProtocolP03logB25ToolSpotlightRequestEnded7traceId06clientL0ySS_SStFTj
+- _$s10OmniSearch21MetricsLoggerProtocolP03logB25ToolSpotlightRequestEnded7traceId06clientL0ySS_SStFTq
+- _$s10OmniSearch21MetricsLoggerProtocolP03logB27ToolSpotlightRequestStarted7traceId06clientL0ySS_SStFTj
+- _$s10OmniSearch21MetricsLoggerProtocolP03logB27ToolSpotlightRequestStarted7traceId06clientL0ySS_SStFTq
+- _$s10OmniSearch21MetricsLoggerProtocolP03logB31ToolAnswerSynthesisRequestEnded7traceId06clientM006answerI6ResultySS_SS27IntelligencePlatformLibrary0q4FlowbG9TelemetryV0bghiP0VtFTj
+- _$s10OmniSearch21MetricsLoggerProtocolP03logB31ToolAnswerSynthesisRequestEnded7traceId06clientM006answerI6ResultySS_SS27IntelligencePlatformLibrary0q4FlowbG9TelemetryV0bghiP0VtFTq
+- _$s10OmniSearch21MetricsLoggerProtocolP03logB32ToolAnswerSynthesisRequestFailed7traceId06clientM0ySS_SStFTj
+- _$s10OmniSearch21MetricsLoggerProtocolP03logB32ToolAnswerSynthesisRequestFailed7traceId06clientM0ySS_SStFTq
+- _$s10OmniSearch21MetricsLoggerProtocolP03logB33ToolAnswerSynthesisRequestStarted7traceId06clientM0ySS_SStFTj
+- _$s10OmniSearch21MetricsLoggerProtocolP03logB33ToolAnswerSynthesisRequestStarted7traceId06clientM0ySS_SStFTq
+- _$s10OmniSearch21MetricsLoggerProtocolP03logb10ToolGlobalB5Ended7traceId06clientK013globalResultsySS_SSSayAA0B6ResultVGtFTj
+- _$s10OmniSearch21MetricsLoggerProtocolP03logb10ToolGlobalB5Ended7traceId06clientK013globalResultsySS_SSSayAA0B6ResultVGtFTq
+- _$s10OmniSearch21MetricsLoggerProtocolP03logb10ToolGlobalB6Failed7traceId06clientK0ySS_SStFTj
+- _$s10OmniSearch21MetricsLoggerProtocolP03logb10ToolGlobalB6Failed7traceId06clientK0ySS_SStFTq
+- _$s10OmniSearch21MetricsLoggerProtocolP03logb10ToolGlobalB7Started7traceId06clientK0ySS_SStFTj
+- _$s10OmniSearch21MetricsLoggerProtocolP03logb10ToolGlobalB7Started7traceId06clientK0ySS_SStFTq
+- _$s10OmniSearch21MetricsLoggerProtocolP03logb11ToolGeneralB5Ended7traceId06clientK04fromySS_SSSayAA0B6EntityVGtFTj
+- _$s10OmniSearch21MetricsLoggerProtocolP03logb11ToolGeneralB5Ended7traceId06clientK04fromySS_SSSayAA0B6EntityVGtFTq
+- _$s10OmniSearch21MetricsLoggerProtocolP03logb11ToolGeneralB6Failed7traceId06clientK0ySS_SStFTj
+- _$s10OmniSearch21MetricsLoggerProtocolP03logb11ToolGeneralB6Failed7traceId06clientK0ySS_SStFTq
+- _$s10OmniSearch21MetricsLoggerProtocolP03logb11ToolGeneralB7Started7traceId06clientK0ySS_SStFTj
+- _$s10OmniSearch21MetricsLoggerProtocolP03logb11ToolGeneralB7Started7traceId06clientK0ySS_SStFTq
+- _$s10OmniSearch21OpenMediaEntityIntentV10AppIntents016URLRepresentableF0AAMc
+- _$s10OmniSearch21RestaurantReservationV24llmConsumableDescriptionSSvg
+- _$s10OmniSearch21RestaurantReservationV24llmConsumableDescriptionSSvpMV
+- _$s10OmniSearch21RestaurantReservationV2id13timeIsUnknown010restaurantD2Id0I9UnderName0I19StartDateComponents0I9PartySize0id3ForL00idR9Telephone0idR7Address0I15BookingProvider0I13CustomerNames0I8MealType0I6Status16answerAttributes06bundleJ0011mailMessageJ027eventSourceBundleIdentifier35eventSourceLLMConsumableDescriptionACSS_SbSSSgAV10Foundation0nO0VSgA5VSaySSGA2VA_SSA3VtcfC
+- _$s10OmniSearch21RestaurantReservationV2id7answers16answerAttributes8bundleId011mailMessageJ027eventSourceBundleIdentifier0mN24LLMConsumableDescription13timeIsUnknown010restaurantdJ00V9UnderName0V19StartDateComponents0V9PartySize0vd3ForX00vD12ForTelephone0vD10ForAddress0V15BookingProvider0V13CustomerNames0V8MealType0V6Status0vyZ6StringACSS_SDyS2SGSaySSGS2SSgA2ZSbA2Z10Foundation0Z10ComponentsVSgA5zy3ZtcfC
+- _$s10OmniSearch21SpotlightIndexRequestV9userQuery13targetMatches9spQUParseACSS_SiSgSo9SPQUParseCSgtcfC
+- _$s10OmniSearch22AnswerSynthesisRequestV21personal_data_sourcesSaySDyS2SGGvM
+- _$s10OmniSearch22AnswerSynthesisRequestV21personal_data_sourcesSaySDyS2SGGvg
+- _$s10OmniSearch22AnswerSynthesisRequestV21personal_data_sourcesSaySDyS2SGGvpMV
+- _$s10OmniSearch22AnswerSynthesisRequestV21personal_data_sourcesSaySDyS2SGGvs
+- _$s10OmniSearch22AnswerSynthesisRequestV5query9documents7context9charLimit16enableTruncationACSS_SayAA0B6ResultVGAA0cdE7ContextVSiSbtcfC
+- _$s10OmniSearch22AnswerSynthesisRequestV5query9documents7context9charLimit16enableTruncationACSS_SayAA0B6ResultVGAA0cdE7ContextVSiSbtcfcfA2_
+- _$s10OmniSearch22AnswerSynthesisRequestV5query9documents7context9charLimit16enableTruncationACSS_SayAA0B6ResultVGAA0cdE7ContextVSiSbtcfcfA3_
+- _$s10OmniSearch22AssistantSystemContextV15interactionMode6locale17requestIdentifierAC10AppIntents06IntentdE0V0cE0V011InteractionG0OSg_SSSgAOtcfC
+- _$s10OmniSearch22EagerResolutionServiceP12resolveMedia4nameAA12ResolvedInfoVSS_tYaKFTj
+- _$s10OmniSearch22EagerResolutionServiceP12resolveMedia4nameAA12ResolvedInfoVSS_tYaKFTjTu
+- _$s10OmniSearch22EagerResolutionServiceP12resolveMedia4nameAA12ResolvedInfoVSS_tYaKFTq
+- _$s10OmniSearch22EagerResolutionServiceP13resolveFlight11reservationAA12ResolvedInfoVAA0G11ReservationV_tYaKFTj
+- _$s10OmniSearch22EagerResolutionServiceP13resolveFlight11reservationAA12ResolvedInfoVAA0G11ReservationV_tYaKFTjTu
+- _$s10OmniSearch22EagerResolutionServiceP13resolveFlight11reservationAA12ResolvedInfoVAA0G11ReservationV_tYaKFTq
+- _$s10OmniSearch22EagerResolutionServiceP15resolveLocation7addressAA12ResolvedInfoVSS_tYaKFTj
+- _$s10OmniSearch22EagerResolutionServiceP15resolveLocation7addressAA12ResolvedInfoVSS_tYaKFTjTu
+- _$s10OmniSearch22EagerResolutionServiceP15resolveLocation7addressAA12ResolvedInfoVSS_tYaKFTq
+- _$s10OmniSearch22EagerResolutionServiceP15resolveMediaURLyAA12ResolvedInfoV10Foundation0H0VYaKFTj
+- _$s10OmniSearch22EagerResolutionServiceP15resolveMediaURLyAA12ResolvedInfoV10Foundation0H0VYaKFTjTu
+- _$s10OmniSearch22EagerResolutionServiceP15resolveMediaURLyAA12ResolvedInfoV10Foundation0H0VYaKFTq
+- _$s10OmniSearch22EagerResolutionServicePAAE20resolveExtractedInfoyAA08ResolvedH0VSgAA0gH0VYaKF
+- _$s10OmniSearch22EagerResolutionServicePAAE20resolveExtractedInfoyAA08ResolvedH0VSgAA0gH0VYaKFTu
+- _$s10OmniSearch22HallucinationMitigatorC16postLLMCallCheck5query14inputDocuments6dialogySS_SayAA0B6ResultVGAA14ProposedDialogVtAA0N13OverrideErrorOYKF
+- _$s10OmniSearch22HallucinationMitigatorC16postLLMCallCheck5query14inputDocuments6dialogySS_SayAA0B6ResultVGAA14ProposedDialogVtAA0N13OverrideErrorOYKFTj
+- _$s10OmniSearch22HallucinationMitigatorC16postLLMCallCheck5query14inputDocuments6dialogySS_SayAA0B6ResultVGAA14ProposedDialogVtAA0N13OverrideErrorOYKFTq
+- _$s10OmniSearch22HallucinationMitigatorC18scanInputDocuments33_4877CDCBE248C517EE90FB47757CC8DELL05inputG0SaySaySo15DDScannerResultCGGSayAA0bP0VG_tF
+- _$s10OmniSearch22HotelReservationEntityV15checkinDateTime10Foundation0G10ComponentsVSgvM
+- _$s10OmniSearch22HotelReservationEntityV15checkinDateTime10Foundation0G10ComponentsVSgvg
+- _$s10OmniSearch22HotelReservationEntityV15checkinDateTime10Foundation0G10ComponentsVSgvpMV
+- _$s10OmniSearch22HotelReservationEntityV15checkinDateTime10Foundation0G10ComponentsVSgvs
+- _$s10OmniSearch22HotelReservationEntityV16$checkinDateTime10AppIntents0E8PropertyCy10Foundation0G10ComponentsVSgGvg
+- _$s10OmniSearch22HotelReservationEntityV16$checkinDateTime10AppIntents0E8PropertyCy10Foundation0G10ComponentsVSgGvpMV
+- _$s10OmniSearch22HotelReservationEntityV16checkoutDateTime10Foundation0G10ComponentsVSgvM
+- _$s10OmniSearch22HotelReservationEntityV16checkoutDateTime10Foundation0G10ComponentsVSgvg
+- _$s10OmniSearch22HotelReservationEntityV16checkoutDateTime10Foundation0G10ComponentsVSgvpMV
+- _$s10OmniSearch22HotelReservationEntityV16checkoutDateTime10Foundation0G10ComponentsVSgvs
+- _$s10OmniSearch22HotelReservationEntityV17$checkoutDateTime10AppIntents0E8PropertyCy10Foundation0G10ComponentsVSgGvg
+- _$s10OmniSearch22HotelReservationEntityV17$checkoutDateTime10AppIntents0E8PropertyCy10Foundation0G10ComponentsVSgGvpMV
+- _$s10OmniSearch22HotelReservationEntityV18confirmationNumber5guest15bookingProvider12businessName11roomNumbers7address15checkinDateTime08checkoutqR005phoneG03urlACSSSg_A3NSaySSGAN10Foundation0Q10ComponentsVSgAsnP3URLVSgtcfC
+- _$s10OmniSearch22PQAVerificationRequestV19personalDataSourcesSSyKF
+- _$s10OmniSearch22PQAVerificationRequestV21personal_data_sourcesSaySDyS2SGGvM
+- _$s10OmniSearch22PQAVerificationRequestV21personal_data_sourcesSaySDyS2SGGvg
+- _$s10OmniSearch22PQAVerificationRequestV21personal_data_sourcesSaySDyS2SGGvpMV
+- _$s10OmniSearch22PQAVerificationRequestV21personal_data_sourcesSaySDyS2SGGvs
+- _$s10OmniSearch22PQAVerificationRequestV5query6answer19personalDataSourcesACSS_SSSaySDyS2SGGtcfC
+- _$s10OmniSearch22PreExtractedBreadcrumbV14extractedDatesSay10Foundation4DateVGSgvg
+- _$s10OmniSearch22PreExtractedBreadcrumbV14extractedDatesSay10Foundation4DateVGSgvpMV
+- _$s10OmniSearch22PreExtractedBreadcrumbV14extractedLinksSaySSGSgvg
+- _$s10OmniSearch22PreExtractedBreadcrumbV14extractedLinksSaySSGSgvpMV
+- _$s10OmniSearch22PreExtractedBreadcrumbV15extractedEmailsSaySSGSgvg
+- _$s10OmniSearch22PreExtractedBreadcrumbV15extractedEmailsSaySSGSgvpMV
+- _$s10OmniSearch22PreExtractedBreadcrumbV16extractedFlightsSaySSGSgvg
+- _$s10OmniSearch22PreExtractedBreadcrumbV16extractedFlightsSaySSGSgvpMV
+- _$s10OmniSearch22PreExtractedBreadcrumbV18extractedAddressesSaySSGSgvg
+- _$s10OmniSearch22PreExtractedBreadcrumbV18extractedAddressesSaySSGSgvpMV
+- _$s10OmniSearch22PreExtractedBreadcrumbV18extractedLocationsSaySSGSgvg
+- _$s10OmniSearch22PreExtractedBreadcrumbV18extractedLocationsSaySSGSgvpMV
+- _$s10OmniSearch22PreExtractedBreadcrumbV19extractedCurrenciesSaySSGSgvg
+- _$s10OmniSearch22PreExtractedBreadcrumbV19extractedCurrenciesSaySSGSgvpMV
+- _$s10OmniSearch22PreExtractedBreadcrumbV21extractedPhoneNumbersSaySSGSgvg
+- _$s10OmniSearch22PreExtractedBreadcrumbV21extractedPhoneNumbersSaySSGSgvpMV
+- _$s10OmniSearch22PreExtractedBreadcrumbV24extractedTrackingNumbersSaySSGSgvg
+- _$s10OmniSearch22PreExtractedBreadcrumbV24extractedTrackingNumbersSaySSGSgvpMV
+- _$s10OmniSearch22PreExtractedBreadcrumbV24llmConsumableDescriptionSSvg
+- _$s10OmniSearch22PreExtractedBreadcrumbV24llmConsumableDescriptionSSvpMV
+- _$s10OmniSearch22PreExtractedSharedLinkV24llmConsumableDescriptionSSvg
+- _$s10OmniSearch22PreExtractedSharedLinkV24llmConsumableDescriptionSSvpMV
+- _$s10OmniSearch22TicketedTransportationV24llmConsumableDescriptionSSvg
+- _$s10OmniSearch22TicketedTransportationV24llmConsumableDescriptionSSvpMV
+- _$s10OmniSearch23FlightReservationEntityV10$totalCost10AppIntents0E8PropertyCyAE20IntentCurrencyAmountVSgGvg
+- _$s10OmniSearch23FlightReservationEntityV10$totalCost10AppIntents0E8PropertyCyAE20IntentCurrencyAmountVSgGvpMV
+- _$s10OmniSearch23FlightReservationEntityV18arrivalAirportCode0fG4Name0F8DateTime0F4Gate0F8Terminal08boardingjK015bookingProvider7carrier10checkInUrl18confirmationNumber09departuregH00wgI00wjK00wL00wM010designator06flightV014passengerNames11seatNumbers6status9totalCost13totalDurationACSSSg_AZ10Foundation0J10ComponentsVA2ZA1_SgA2ZA_3URLVSgA3ZA1_A4ZSaySSGA6_SS10AppIntents20IntentCurrencyAmountVSgSdSgtcfC
+- _$s10OmniSearch23FlightReservationEntityV9totalCost10AppIntents20IntentCurrencyAmountVSgvM
+- _$s10OmniSearch23FlightReservationEntityV9totalCost10AppIntents20IntentCurrencyAmountVSgvg
+- _$s10OmniSearch23FlightReservationEntityV9totalCost10AppIntents20IntentCurrencyAmountVSgvpMV
+- _$s10OmniSearch23FlightReservationEntityV9totalCost10AppIntents20IntentCurrencyAmountVSgvs
+- _$s10OmniSearch23GlobalResolutionServiceC12resolveMedia4nameAA12ResolvedInfoVSS_tYaKF
+- _$s10OmniSearch23GlobalResolutionServiceC12resolveMedia4nameAA12ResolvedInfoVSS_tYaKFTj
+- _$s10OmniSearch23GlobalResolutionServiceC12resolveMedia4nameAA12ResolvedInfoVSS_tYaKFTjTu
+- _$s10OmniSearch23GlobalResolutionServiceC12resolveMedia4nameAA12ResolvedInfoVSS_tYaKFTq
+- _$s10OmniSearch23GlobalResolutionServiceC12resolveMedia4nameAA12ResolvedInfoVSS_tYaKFTu
+- _$s10OmniSearch23GlobalResolutionServiceC13resolveFlight11reservationAA12ResolvedInfoVAA0G11ReservationV_tYaKF
+- _$s10OmniSearch23GlobalResolutionServiceC13resolveFlight11reservationAA12ResolvedInfoVAA0G11ReservationV_tYaKFTj
+- _$s10OmniSearch23GlobalResolutionServiceC13resolveFlight11reservationAA12ResolvedInfoVAA0G11ReservationV_tYaKFTjTu
+- _$s10OmniSearch23GlobalResolutionServiceC13resolveFlight11reservationAA12ResolvedInfoVAA0G11ReservationV_tYaKFTq
+- _$s10OmniSearch23GlobalResolutionServiceC13resolveFlight11reservationAA12ResolvedInfoVAA0G11ReservationV_tYaKFTu
+- _$s10OmniSearch23GlobalResolutionServiceC15resolveLocation7addressAA12ResolvedInfoVSS_tYaKF
+- _$s10OmniSearch23GlobalResolutionServiceC15resolveLocation7addressAA12ResolvedInfoVSS_tYaKFTj
+- _$s10OmniSearch23GlobalResolutionServiceC15resolveLocation7addressAA12ResolvedInfoVSS_tYaKFTjTu
+- _$s10OmniSearch23GlobalResolutionServiceC15resolveLocation7addressAA12ResolvedInfoVSS_tYaKFTq
+- _$s10OmniSearch23GlobalResolutionServiceC15resolveLocation7addressAA12ResolvedInfoVSS_tYaKFTu
+- _$s10OmniSearch23GlobalResolutionServiceC15resolveMediaURLyAA12ResolvedInfoV10Foundation0H0VYaKF
+- _$s10OmniSearch23GlobalResolutionServiceC15resolveMediaURLyAA12ResolvedInfoV10Foundation0H0VYaKFTj
+- _$s10OmniSearch23GlobalResolutionServiceC15resolveMediaURLyAA12ResolvedInfoV10Foundation0H0VYaKFTjTu
+- _$s10OmniSearch23GlobalResolutionServiceC15resolveMediaURLyAA12ResolvedInfoV10Foundation0H0VYaKFTq
+- _$s10OmniSearch23GlobalResolutionServiceC15resolveMediaURLyAA12ResolvedInfoV10Foundation0H0VYaKFTu
+- _$s10OmniSearch23GlobalResolutionServiceC7appNameSSSgvg
+- _$s10OmniSearch23GlobalResolutionServiceC7appNameSSSgvpMV
+- _$s10OmniSearch23GlobalResolutionServiceC7appNameSSSgvpWvd
+- _$s10OmniSearch25AnswerSynthesisControllerC06answerD5Model015pqaVerificationG09modelType0fD10TokenLimit18featureFlagService22hallucinationMitigatorAcA0cdG8Protocol_p_AA015PQAVerificationgS0_pSgAC0cdgK0OSiAA07FeatureoP0CAA023HallucinationMitigationS0_ptcfC
+- _$s10OmniSearch25AnswerSynthesisControllerC06answerD5Model015pqaVerificationG09modelType0fD10TokenLimit18featureFlagService22hallucinationMitigatorAcA0cdG8Protocol_p_AA015PQAVerificationgS0_pSgAC0cdgK0OSiAA07FeatureoP0CAA023HallucinationMitigationS0_ptcfCTj
+- _$s10OmniSearch25AnswerSynthesisControllerC06answerD5Model015pqaVerificationG09modelType0fD10TokenLimit18featureFlagService22hallucinationMitigatorAcA0cdG8Protocol_p_AA015PQAVerificationgS0_pSgAC0cdgK0OSiAA07FeatureoP0CAA023HallucinationMitigationS0_ptcfCTq
+- _$s10OmniSearch25AnswerSynthesisControllerC06answerD5Model015pqaVerificationG09modelType0fD10TokenLimit18featureFlagService22hallucinationMitigatorAcA0cdG8Protocol_p_AA015PQAVerificationgS0_pSgAC0cdgK0OSiAA07FeatureoP0CAA023HallucinationMitigationS0_ptcfc
+- _$s10OmniSearch25AnswerSynthesisControllerC06answerD5Model015pqaVerificationG09modelType0fD10TokenLimit18featureFlagService22hallucinationMitigatorAcA0cdG8Protocol_p_AA015PQAVerificationgS0_pSgAC0cdgK0OSiAA07FeatureoP0CAA023HallucinationMitigationS0_ptcfcfA4_
+- _$s10OmniSearch25AnswerSynthesisControllerC06createcD7Request3for4with7context16enableTruncationAA0cdG0VSS_SayAA0B6ResultVGAA0cdG7ContextVSbtKFTj
+- _$s10OmniSearch25AnswerSynthesisControllerC06createcD7Request3for4with7context16enableTruncationAA0cdG0VSS_SayAA0B6ResultVGAA0cdG7ContextVSbtKFTq
+- _$s10OmniSearch25AnswerSynthesisControllerC06createcD7Request3for4with7context16enableTruncationAA0cdG0VSS_SayAA0B6ResultVGAA0cdG7ContextVSbtKFfA2_
+- _$s10OmniSearch25AnswerSynthesisControllerC07convertd8ResultTobG7Answers7request09synthesisG013searchResultsAA0cdG0OAA0cD7RequestV_AA0cd5ModelG0VSayAA0bG0VGtYaKFTj
+- _$s10OmniSearch25AnswerSynthesisControllerC07convertd8ResultTobG7Answers7request09synthesisG013searchResultsAA0cdG0OAA0cD7RequestV_AA0cd5ModelG0VSayAA0bG0VGtYaKFTjTu
+- _$s10OmniSearch25AnswerSynthesisControllerC07convertd8ResultTobG7Answers7request09synthesisG013searchResultsAA0cdG0OAA0cD7RequestV_AA0cd5ModelG0VSayAA0bG0VGtYaKFTq
+- _$s10OmniSearch25AnswerSynthesisControllerC07performD7Request3for4with06answerD7MetricsAA0cD6ResultOAA0cdG0V_SayAA0bL0VG27IntelligencePlatformLibrary0m4FlowB13ToolTelemetryV0bqcdL0VztYaKFTj
+- _$s10OmniSearch25AnswerSynthesisControllerC07performD7Request3for4with06answerD7MetricsAA0cD6ResultOAA0cdG0V_SayAA0bL0VG27IntelligencePlatformLibrary0m4FlowB13ToolTelemetryV0bqcdL0VztYaKFTjTu
+- _$s10OmniSearch25AnswerSynthesisControllerC07performD7Request3for4with06answerD7MetricsAA0cD6ResultOAA0cdG0V_SayAA0bL0VG27IntelligencePlatformLibrary0m4FlowB13ToolTelemetryV0bqcdL0VztYaKFTq
+- _$s10OmniSearch25AnswerSynthesisControllerC10synthesize5query13searchResults7context7traceId06clientL0AA0I6DialogVSS_SayAA0B6ResultVGAA0cD14RequestContextVS2StYaKFTj
+- _$s10OmniSearch25AnswerSynthesisControllerC10synthesize5query13searchResults7context7traceId06clientL0AA0I6DialogVSS_SayAA0B6ResultVGAA0cD14RequestContextVS2StYaKFTjTu
+- _$s10OmniSearch25AnswerSynthesisControllerC10synthesize5query13searchResults7context7traceId06clientL0AA0I6DialogVSS_SayAA0B6ResultVGAA0cD14RequestContextVS2StYaKFTq
+- _$s10OmniSearch25AnswerSynthesisControllerC12prewarmModelyyFTj
+- _$s10OmniSearch25AnswerSynthesisControllerC12prewarmModelyyFTq
+- _$s10OmniSearch25AnswerSynthesisControllerC14supportedTypesShyAA0B9ResultKeyOGvau
+- _$s10OmniSearch25AnswerSynthesisControllerC14supportedTypesShyAA0B9ResultKeyOGvgZ
+- _$s10OmniSearch25AnswerSynthesisControllerC14supportedTypesShyAA0B9ResultKeyOGvpZ
+- _$s10OmniSearch25DisambiguationRequestableMp
+- _$s10OmniSearch25DisambiguationRequestableP07requestC05among10dialogDataAA0B6EntityVSayAHG_AA06DialogH0VtYaKFTj
+- _$s10OmniSearch25DisambiguationRequestableP07requestC05among10dialogDataAA0B6EntityVSayAHG_AA06DialogH0VtYaKFTjTu
+- _$s10OmniSearch25DisambiguationRequestableP07requestC05among10dialogDataAA0B6EntityVSayAHG_AA06DialogH0VtYaKFTq
+- _$s10OmniSearch25DisambiguationRequestablePAAE07resolveC0_12dialogString5limitSayAA0B6EntityVGAI_SSSitYaKF
+- _$s10OmniSearch25DisambiguationRequestablePAAE07resolveC0_12dialogString5limitSayAA0B6EntityVGAI_SSSitYaKFTu
+- _$s10OmniSearch25DisambiguationRequestablePAAE07resolveC0_12dialogString5limitSayAA0B6EntityVGAI_SSSitYaKFfA1_
+- _$s10OmniSearch25DisambiguationRequestableTL
+- _$s10OmniSearch25MemoryCreationQueryParserCAA0cdeF8ProtocolAAMc
+- _$s10OmniSearch25MemoryCreationQueryParserCAA0cdeF8ProtocolAAWP
+- _$s10OmniSearch26AnswerSynthesisModelResultV0C8ResponseV6answer4docs6dialogAESS_SaySSGSSSgtcfC
+- _$s10OmniSearch26AnswerSynthesisModelResultV0C8ResponseV7collectyScsyAEs5Error_pGScsyAE9StreamingVsAG_pGFZ
+- _$s10OmniSearch26AnswerSynthesisModelResultV0C8ResponseV9StreamingV29GenerativeFunctionsFoundation09GenerableH0AAMc
+- _$s10OmniSearch26AnswerSynthesisModelResultV0C8ResponseV9StreamingV4docsScsySSs5Error_pGvg
+- _$s10OmniSearch26AnswerSynthesisModelResultV0C8ResponseV9StreamingV4docsScsySSs5Error_pGvpMV
+- _$s10OmniSearch26AnswerSynthesisModelResultV0C8ResponseV9StreamingV6answer19GenerativeFunctions12StreamSignalOySSGvg
+- _$s10OmniSearch26AnswerSynthesisModelResultV0C8ResponseV9StreamingV6answer19GenerativeFunctions12StreamSignalOySSGvgTu
+- _$s10OmniSearch26AnswerSynthesisModelResultV0C8ResponseV9StreamingV6answer19GenerativeFunctions12StreamSignalOySSGvpMV
+- _$s10OmniSearch26AnswerSynthesisModelResultV0C8ResponseV9StreamingV6dialog19GenerativeFunctions12StreamSignalOySSSgGvg
+- _$s10OmniSearch26AnswerSynthesisModelResultV0C8ResponseV9StreamingV6dialog19GenerativeFunctions12StreamSignalOySSSgGvgTu
+- _$s10OmniSearch26AnswerSynthesisModelResultV0C8ResponseV9StreamingV6dialog19GenerativeFunctions12StreamSignalOySSSgGvpMV
+- _$s10OmniSearch26AnswerSynthesisModelResultV0C8ResponseV9StreamingV8objectID7decoderAG10Foundation4UUIDV_019GenerativeFunctionsL001_H7Decoder_ptYaKcfC
+- _$s10OmniSearch26AnswerSynthesisModelResultV0C8ResponseV9StreamingV8objectID7decoderAG10Foundation4UUIDV_019GenerativeFunctionsL001_H7Decoder_ptYaKcfCTu
+- _$s10OmniSearch26AnswerSynthesisModelResultV0C8ResponseV9StreamingVMa
+- _$s10OmniSearch26AnswerSynthesisModelResultV0C8ResponseV9StreamingVMn
+- _$s10OmniSearch26AnswerSynthesisModelResultV0C8ResponseV9StreamingVN
+- _$s10OmniSearch26AnswerSynthesisModelResultV15answerResponses20disambiguationDialog7isValidACSayAC0C8ResponseVG_SSSgSbSgtcfC
+- _$s10OmniSearch26AnswerSynthesisModelResultV15answerResponses20disambiguationDialog7isValidACSayAC0C8ResponseVG_SSSgSbSgtcfcfA1_
+- _$s10OmniSearch26AnswerSynthesisModelServerC10synthesize_8bindingsSS26GenerativeModelsFoundation14PromptTemplateV_SDyS2SGtYaKF
+- _$s10OmniSearch26AnswerSynthesisModelServerC10synthesize_8bindingsSS26GenerativeModelsFoundation14PromptTemplateV_SDyS2SGtYaKFTu
+- _$s10OmniSearch26AnswerSynthesisModelServerC16GenerativeModels0gE21SessionTokenGeneratorAAMc
+- _$s10OmniSearch26AnswerSynthesisModelServerC22synthesizeWithOverride_8bindingsSS9PromptKit0K0V_SDyS2SGtYaKF
+- _$s10OmniSearch26AnswerSynthesisModelServerC22synthesizeWithOverride_8bindingsSS9PromptKit0K0V_SDyS2SGtYaKFTu
+- _$s10OmniSearch26AnswerSynthesisModelServerC31synthesizeWithOverride_runnable_8bindings19GenerativeFunctions0L21ConfigurationRunnableVy9PromptKit010CompletionP0V15TokenGeneration0S9GeneratorCAKGAI0P0V_SDyS2SGtYaKF
+- _$s10OmniSearch26AnswerSynthesisModelServerC31synthesizeWithOverride_runnable_8bindings19GenerativeFunctions0L21ConfigurationRunnableVy9PromptKit010CompletionP0V15TokenGeneration0S9GeneratorCAKGAI0P0V_SDyS2SGtYaKFTu
+- _$s10OmniSearch26AnswerSynthesisModelServerC31synthesizeWithTemplate_runnable_8bindings19GenerativeFunctions0L21ConfigurationRunnableVy9PromptKit010CompletionP0V15TokenGeneration0S9GeneratorCAKG0L16ModelsFoundation0pI0V_SDyS2SGtYaKF
+- _$s10OmniSearch26AnswerSynthesisModelServerC31synthesizeWithTemplate_runnable_8bindings19GenerativeFunctions0L21ConfigurationRunnableVy9PromptKit010CompletionP0V15TokenGeneration0S9GeneratorCAKG0L16ModelsFoundation0pI0V_SDyS2SGtYaKFTu
+- _$s10OmniSearch26AnswerSynthesisModelServerC7prewarmyyF
+- _$s10OmniSearch26AnswerSynthesisModelServerCACycfC
+- _$s10OmniSearch26AnswerSynthesisModelServerCACycfCTj
+- _$s10OmniSearch26AnswerSynthesisModelServerCACycfCTq
+- _$s10OmniSearch26AnswerSynthesisModelServerCACycfc
+- _$s10OmniSearch26MemoryCreationQUControllerC11queryParserAA0cd5QueryG8Protocol_pvM
+- _$s10OmniSearch26MemoryCreationQUControllerC11queryParserAA0cd5QueryG8Protocol_pvMTj
+- _$s10OmniSearch26MemoryCreationQUControllerC11queryParserAA0cd5QueryG8Protocol_pvMTq
+- _$s10OmniSearch26MemoryCreationQUControllerC11queryParserAA0cd5QueryG8Protocol_pvg
+- _$s10OmniSearch26MemoryCreationQUControllerC11queryParserAA0cd5QueryG8Protocol_pvgTj
+- _$s10OmniSearch26MemoryCreationQUControllerC11queryParserAA0cd5QueryG8Protocol_pvgTq
+- _$s10OmniSearch26MemoryCreationQUControllerC11queryParserAA0cd5QueryG8Protocol_pvpMV
+- _$s10OmniSearch26MemoryCreationQUControllerC11queryParserAA0cd5QueryG8Protocol_pvpWvd
+- _$s10OmniSearch26MemoryCreationQUControllerC11queryParserAA0cd5QueryG8Protocol_pvs
+- _$s10OmniSearch26MemoryCreationQUControllerC11queryParserAA0cd5QueryG8Protocol_pvsTj
+- _$s10OmniSearch26MemoryCreationQUControllerC11queryParserAA0cd5QueryG8Protocol_pvsTq
+- _$s10OmniSearch26MemoryCreationQUControllerC12groundPerson33_3A20DC2A334A97F2E47A7FB8702E9546LL6personAA09ECRClientG6ResultVSgSS_tYaKF
+- _$s10OmniSearch26MemoryCreationQUControllerC12groundPerson33_3A20DC2A334A97F2E47A7FB8702E9546LL6personAA09ECRClientG6ResultVSgSS_tYaKFTu
+- _$s10OmniSearch26MemoryCreationQUControllerC19llmQUNetworkService9ecrClient11queryParserAcA0cdgH8Protocol_p_AA09ECRClientM0_pSgAA0cd5QuerylM0_ptcfC
+- _$s10OmniSearch26MemoryCreationQUControllerC19llmQUNetworkService9ecrClient11queryParserAcA0cdgH8Protocol_p_AA09ECRClientM0_pSgAA0cd5QuerylM0_ptcfCTj
+- _$s10OmniSearch26MemoryCreationQUControllerC19llmQUNetworkService9ecrClient11queryParserAcA0cdgH8Protocol_p_AA09ECRClientM0_pSgAA0cd5QuerylM0_ptcfCTq
+- _$s10OmniSearch26MemoryCreationQUControllerC19llmQUNetworkService9ecrClient11queryParserAcA0cdgH8Protocol_p_AA09ECRClientM0_pSgAA0cd5QuerylM0_ptcfc
+- _$s10OmniSearch26MemoryCreationQUControllerC19llmQUNetworkService9ecrClient11queryParserAcA0cdgH8Protocol_p_AA09ECRClientM0_pSgAA0cd5QuerylM0_ptcfcfA0_
+- _$s10OmniSearch26MemoryCreationQUControllerC19llmQUNetworkService9ecrClient11queryParserAcA0cdgH8Protocol_p_AA09ECRClientM0_pSgAA0cd5QuerylM0_ptcfcfA1_
+- _$s10OmniSearch26MemoryCreationQUControllerC19llmQUNetworkService9ecrClient11queryParserAcA0cdgH8Protocol_p_AA09ECRClientM0_pSgAA0cd5QuerylM0_ptcfcfA_
+- _$s10OmniSearch26kMediaRegexTriggersPerLangSDySS17_StringProcessing0D0VySsGGvau
+- _$s10OmniSearch26kMediaRegexTriggersPerLangSDySS17_StringProcessing0D0VySsGGvp
+- _$s10OmniSearch27RestaurantReservationEntityV18confirmationNumber5guest9partySize15bookingProvider12businessName7address05phoneG013startDateTime8mealTypeACSSSg_AMSiSgA4M10Foundation0R10ComponentsVSgAMtcfC
+- _$s10OmniSearch28AnswerSynthesisModelOnDeviceC16GenerativeModels0hE21SessionTokenGeneratorAAMc
+- _$s10OmniSearch28AnswerSynthesisModelOnDeviceC19synthesize_runnable_8bindings19GenerativeFunctions0K21ConfigurationRunnableVy9PromptKit010CompletionO0V15TokenGeneration0R9GeneratorCAKG0K16ModelsFoundation0O8TemplateV_SDyS2SGtYaKF
+- _$s10OmniSearch28AnswerSynthesisModelOnDeviceC19synthesize_runnable_8bindings19GenerativeFunctions0K21ConfigurationRunnableVy9PromptKit010CompletionO0V15TokenGeneration0R9GeneratorCAKG0K16ModelsFoundation0O8TemplateV_SDyS2SGtYaKFTu
+- _$s10OmniSearch28AnswerSynthesisModelOnDeviceC7prewarmyyF
+- _$s10OmniSearch28AnswerSynthesisModelOnDeviceCACycfC
+- _$s10OmniSearch28AnswerSynthesisModelOnDeviceCACycfCTj
+- _$s10OmniSearch28AnswerSynthesisModelOnDeviceCACycfCTq
+- _$s10OmniSearch28AnswerSynthesisModelOnDeviceCACycfc
+- _$s10OmniSearch28AnswerSynthesisModelProtocolP10synthesize_8bindingsSS26GenerativeModelsFoundation14PromptTemplateV_SDyS2SGtYaKFTj
+- _$s10OmniSearch28AnswerSynthesisModelProtocolP10synthesize_8bindingsSS26GenerativeModelsFoundation14PromptTemplateV_SDyS2SGtYaKFTjTu
+- _$s10OmniSearch28AnswerSynthesisModelProtocolP10synthesize_8bindingsSS26GenerativeModelsFoundation14PromptTemplateV_SDyS2SGtYaKFTq
+- _$s10OmniSearch28AnswerSynthesisModelProtocolP7prewarmyyFTj
+- _$s10OmniSearch28AnswerSynthesisModelProtocolP7prewarmyyFTq
+- _$s10OmniSearch28PQAVerificationModelOnDeviceC06verifyB7Results7requestSbAA0C7RequestV_tYaKF
+- _$s10OmniSearch28PQAVerificationModelOnDeviceC06verifyB7Results7requestSbAA0C7RequestV_tYaKFTu
+- _$s10OmniSearch28PQAVerificationModelOnDeviceC10synthesize_8bindingsSS26GenerativeModelsFoundation14PromptTemplateV_SDyS2SGtYaKF
+- _$s10OmniSearch28PQAVerificationModelOnDeviceC10synthesize_8bindingsSS26GenerativeModelsFoundation14PromptTemplateV_SDyS2SGtYaKFTu
+- _$s10OmniSearch28PQAVerificationModelOnDeviceC16GenerativeModels0gD21SessionTokenGeneratorAAMc
+- _$s10OmniSearch28PQAVerificationModelOnDeviceC29synthesizeWithPrompt_runnable_8bindings19GenerativeFunctions0L21ConfigurationRunnableVy0I3Kit010CompletionI0V15TokenGeneration0R9GeneratorCAKGAI0I0V_SDyS2SGtYaKF
+- _$s10OmniSearch28PQAVerificationModelOnDeviceC29synthesizeWithPrompt_runnable_8bindings19GenerativeFunctions0L21ConfigurationRunnableVy0I3Kit010CompletionI0V15TokenGeneration0R9GeneratorCAKGAI0I0V_SDyS2SGtYaKFTu
+- _$s10OmniSearch28PQAVerificationModelOnDeviceC7prewarmyyF
+- _$s10OmniSearch28PQAVerificationModelOnDeviceCACycfC
+- _$s10OmniSearch28PQAVerificationModelOnDeviceCACycfCTj
+- _$s10OmniSearch28PQAVerificationModelOnDeviceCACycfCTq
+- _$s10OmniSearch28PQAVerificationModelOnDeviceCACycfc
+- _$s10OmniSearch28PQAVerificationModelProtocolP06verifyB7Results7requestSbAA0C7RequestV_tYaKFTj
+- _$s10OmniSearch28PQAVerificationModelProtocolP06verifyB7Results7requestSbAA0C7RequestV_tYaKFTjTu
+- _$s10OmniSearch28PQAVerificationModelProtocolP06verifyB7Results7requestSbAA0C7RequestV_tYaKFTq
+- _$s10OmniSearch28applySubStringMatchFiltering6answer8document15supportedDomainSbSS_AA0B6ResultVSayAA0bL3KeyOGtF
+- _$s10OmniSearch29AnswerSynthesisRequestContextV5query4mode15assistantLocaleACSSSg_10AppIntents012IntentSystemF0V09AssistantF0V15InteractionModeOSgAGtYacfC
+- _$s10OmniSearch29AnswerSynthesisRequestContextV5query4mode15assistantLocaleACSSSg_10AppIntents012IntentSystemF0V09AssistantF0V15InteractionModeOSgAGtYacfCTu
+- _$s10OmniSearch29AnswerSynthesisRequestContextV7ContactV12relationshipSSSgvM
+- _$s10OmniSearch29AnswerSynthesisRequestContextV7ContactV12relationshipSSSgvg
+- _$s10OmniSearch29AnswerSynthesisRequestContextV7ContactV12relationshipSSSgvpMV
+- _$s10OmniSearch29AnswerSynthesisRequestContextV7ContactV12relationshipSSSgvs
+- _$s10OmniSearch29AnswerSynthesisRequestContextV7ContactV2eeoiySbAE_AEtFZ
+- _$s10OmniSearch29AnswerSynthesisRequestContextV7ContactV4fromAEs7Decoder_p_tKcfC
+- _$s10OmniSearch29AnswerSynthesisRequestContextV7ContactV5names12relationshipAESaySSGSg_SSSgtcfC
+- _$s10OmniSearch29AnswerSynthesisRequestContextV7ContactV5namesSaySSGSgvM
+- _$s10OmniSearch29AnswerSynthesisRequestContextV7ContactV5namesSaySSGSgvg
+- _$s10OmniSearch29AnswerSynthesisRequestContextV7ContactV5namesSaySSGSgvpMV
+- _$s10OmniSearch29AnswerSynthesisRequestContextV7ContactV5namesSaySSGSgvs
+- _$s10OmniSearch29AnswerSynthesisRequestContextV7ContactV6encode2toys7Encoder_p_tKF
+- _$s10OmniSearch29AnswerSynthesisRequestContextV7ContactVAEycfC
+- _$s10OmniSearch29AnswerSynthesisRequestContextV7ContactVMa
+- _$s10OmniSearch29AnswerSynthesisRequestContextV7ContactVMn
+- _$s10OmniSearch29AnswerSynthesisRequestContextV7ContactVN
+- _$s10OmniSearch29AnswerSynthesisRequestContextV7ContactVSEAAMc
+- _$s10OmniSearch29AnswerSynthesisRequestContextV7ContactVSQAAMc
+- _$s10OmniSearch29AnswerSynthesisRequestContextV7ContactVSeAAMc
+- _$s10OmniSearch29AnswerSynthesisRequestContextV8contacts4mode15assistantLocaleACSayAC7ContactVG_10AppIntents012IntentSystemF0V09AssistantF0V15InteractionModeOSgSSSgtcfC
+- _$s10OmniSearch29AnswerSynthesisRequestContextV8contactsSayAC7ContactVGvM
+- _$s10OmniSearch29AnswerSynthesisRequestContextV8contactsSayAC7ContactVGvg
+- _$s10OmniSearch29AnswerSynthesisRequestContextV8contactsSayAC7ContactVGvpMV
+- _$s10OmniSearch29AnswerSynthesisRequestContextV8contactsSayAC7ContactVGvs
+- _$s10OmniSearch29AnswerSynthesisRequestContextV8matchECR5queryAC7ContactVSgSSSg_tYaF
+- _$s10OmniSearch29AnswerSynthesisRequestContextV8matchECR5queryAC7ContactVSgSSSg_tYaFTu
+- _$s10OmniSearch31HallucinationMitigationProtocolP16postLLMCallCheck5query14inputDocuments6dialogySS_SayAA0B6ResultVGAA14ProposedDialogVtAA0O13OverrideErrorOYKFTj
+- _$s10OmniSearch31HallucinationMitigationProtocolP16postLLMCallCheck5query14inputDocuments6dialogySS_SayAA0B6ResultVGAA14ProposedDialogVtAA0O13OverrideErrorOYKFTq
+- _$s10OmniSearch33AnswerSynthesisControllerProtocolP10synthesize5query13searchResults7context7traceId06clientM0AA0J6DialogVSS_SayAA0B6ResultVGAA0cD14RequestContextVS2StYaKFTj
+- _$s10OmniSearch33AnswerSynthesisControllerProtocolP10synthesize5query13searchResults7context7traceId06clientM0AA0J6DialogVSS_SayAA0B6ResultVGAA0cD14RequestContextVS2StYaKFTjTu
+- _$s10OmniSearch33AnswerSynthesisControllerProtocolP10synthesize5query13searchResults7context7traceId06clientM0AA0J6DialogVSS_SayAA0B6ResultVGAA0cD14RequestContextVS2StYaKFTq
+- _$s10OmniSearch33MemoryCreationQueryParserProtocolMp
+- _$s10OmniSearch33MemoryCreationQueryParserProtocolP21enumerateParseResults3for10completionySSSg_ySo18NSAttributedStringCSgctFTj
+- _$s10OmniSearch33MemoryCreationQueryParserProtocolP21enumerateParseResults3for10completionySSSg_ySo18NSAttributedStringCSgctFTq
+- _$s10OmniSearch33MemoryCreationQueryParserProtocolP7prewarmyyFTj
+- _$s10OmniSearch33MemoryCreationQueryParserProtocolP7prewarmyyFTq
+- _$s10OmniSearch33MemoryCreationQueryParserProtocolTL
+- _$s10OmniSearch39MemoryCreationQUDateGroundingHeuristicsC010groundDateG0_03rawI6String07currentI0SaySo6NSDateCGSS_SS10Foundation0I0VtF
+- _$s10OmniSearch39MemoryCreationQUDateGroundingHeuristicsC010groundDateG0_03rawI6String07currentI0SaySo6NSDateCGSS_SS10Foundation0I0VtFTj
+- _$s10OmniSearch39MemoryCreationQUDateGroundingHeuristicsC010groundDateG0_03rawI6String07currentI0SaySo6NSDateCGSS_SS10Foundation0I0VtFTq
+- _$s10OmniSearch39MemoryCreationQUDateGroundingHeuristicsC010groundDateG0_03rawI6StringSaySo6NSDateCGSS_SStF
+- _$s10OmniSearch39MemoryCreationQUDateGroundingHeuristicsC010groundDateG0_03rawI6StringSaySo6NSDateCGSS_SStFTj
+- _$s10OmniSearch39MemoryCreationQUDateGroundingHeuristicsC010groundDateG0_03rawI6StringSaySo6NSDateCGSS_SStFTq
+- _$s10OmniSearch39MemoryCreationQUDateGroundingHeuristicsC22groundSeasonsHeuristic33_8733BF20952240FB787F1C1DF7D899F5LL_11currentDateSaySo6NSDateCGSS_10Foundation0S0VtF
+- _$s10OmniSearch4TripV24llmConsumableDescriptionSSvg
+- _$s10OmniSearch4TripV24llmConsumableDescriptionSSvpMV
+- _$s10OmniSearch5PartyV24llmConsumableDescriptionSSvg
+- _$s10OmniSearch5PartyV24llmConsumableDescriptionSSvpMV
+- _$s10OmniSearch5PhotoV24llmConsumableDescriptionSSvg
+- _$s10OmniSearch5PhotoV24llmConsumableDescriptionSSvpMV
+- _$s10OmniSearch6AnswerV24llmConsumableDescriptionSSvg
+- _$s10OmniSearch6AnswerV24llmConsumableDescriptionSSvpMV
+- _$s10OmniSearch6SafariV24llmConsumableDescriptionSSvg
+- _$s10OmniSearch6SafariV24llmConsumableDescriptionSSvpMV
+- _$s10OmniSearch7ContactV24llmConsumableDescriptionSSvg
+- _$s10OmniSearch7ContactV24llmConsumableDescriptionSSvpMV
+- _$s10OmniSearch8ReminderV24llmConsumableDescriptionSSvg
+- _$s10OmniSearch8ReminderV24llmConsumableDescriptionSSvpMV
+- _$s10OmniSearch8WebImageV24llmConsumableDescriptionSSvg
+- _$s10OmniSearch8WebImageV24llmConsumableDescriptionSSvpMV
+- _$s10OmniSearch9ECRClientC38personNameAndVisualIdentifiersWithText_011allowPrefixB08perTokenAA0C12PersonResultVSgSS_S2btYaKF
+- _$s10OmniSearch9ECRClientC38personNameAndVisualIdentifiersWithText_011allowPrefixB08perTokenAA0C12PersonResultVSgSS_S2btYaKFTj
+- _$s10OmniSearch9ECRClientC38personNameAndVisualIdentifiersWithText_011allowPrefixB08perTokenAA0C12PersonResultVSgSS_S2btYaKFTjTu
+- _$s10OmniSearch9ECRClientC38personNameAndVisualIdentifiersWithText_011allowPrefixB08perTokenAA0C12PersonResultVSgSS_S2btYaKFTq
+- _$s10OmniSearch9ECRClientC38personNameAndVisualIdentifiersWithText_011allowPrefixB08perTokenAA0C12PersonResultVSgSS_S2btYaKFTu
+- _$s10OmniSearch9ECRClientC38personNameAndVisualIdentifiersWithText_011allowPrefixB08perTokenAA0C12PersonResultVSgSS_S2btYaKFfA1_
+- _$s10OmniSearch9ECRClientC4viewSo22GDVisualIdentifierView_pvpWvd
+- _$s10OmniSearch9UserQueryV05inAppB6StringSSvg
+- _$s10OmniSearch9UserQueryV05inAppB6StringSSvpMV
+- _$s10OmniSearch9UserQueryV3raw9rewritten10structured15llmQUModelParseACSS_SSSgAA010StructuredD6EntityVSgAA18LLMQUModelResponseVSgtcfC
+- _$s10OmniSearch9VoiceMemoV24llmConsumableDescriptionSSvg
+- _$s10OmniSearch9VoiceMemoV24llmConsumableDescriptionSSvpMV
+- _$s10OmniSearch9WebAnswerV24llmConsumableDescriptionSSvg
+- _$s10OmniSearch9WebAnswerV24llmConsumableDescriptionSSvpMV
+- _$s12ModelCatalog0B0O8ResourceO3LLMO19ServerConfigurationO015AnswerSynthesisE0AA011AssetBackedeF0_pyFZ
+- _$s12ModelCatalog0B0O8ResourceO3LLMO19ServerConfigurationO024SearchQueryUnderstandingE0AA011AssetBackedeF0_pyFZ
+- _$s12ModelCatalog32ServerConfigurationAssetContentsVMn
+- _$s12ModelCatalog32ServerConfigurationAssetMetadataVMn
+- _$s15OmniSearchTypes0B12GlobalEntityV0aB0011ValidatableE0ADMc
+- _$s15OmniSearchTypes0B12GlobalEntityV0aB0011ValidatableE0ADWP
+- _$s15OmniSearchTypes0B12GlobalEntityV0aB00B20CATEntityConvertibleADMc
+- _$s15OmniSearchTypes0B12GlobalEntityV0aB00B20CATEntityConvertibleADWP
+- _$s15OmniSearchTypes0B12GlobalEntityV0aB00B20NLGEntityConvertibleADMc
+- _$s15OmniSearchTypes0B12GlobalEntityV0aB00B20NLGEntityConvertibleADWP
+- _$s15OmniSearchTypes0B12GlobalEntityV0aB0E11asCATEntityAD0bG0Vvg
+- _$s15OmniSearchTypes0B12GlobalEntityV0aB0E11asCATEntityAD0bG0VvpMV
+- _$s15OmniSearchTypes0B12GlobalEntityV0aB0E11asNLGEntityAD0bG0Vvg
+- _$s15OmniSearchTypes0B12GlobalEntityV0aB0E11asNLGEntityAD0bG0VvpMV
+- _$s15OmniSearchTypes0B12GlobalEntityV0aB0E15overridePayloadACSo12NSDictionaryC_tKcfC
+- _$s15OmniSearchTypes0B12GlobalEntityV10AppIntents0fE0AAMc
+- _$s15OmniSearchTypes0B12GlobalEntityV14experienceFile10AppIntents06IntentG0VSgvs
+- _$s15OmniSearchTypes0B12GlobalEntityV15associatedQuerySSSgvs
+- _$s15OmniSearchTypes0B12GlobalEntityV16CoreTransferable0G0AAMc
+- _$s15OmniSearchTypes0B12GlobalEntityV18validateParametersyyKF
+- _$s15OmniSearchTypes0B12GlobalEntityV20validTypeIdentifiersSaySSGvg
+- _$s15OmniSearchTypes0B12GlobalEntityV33supportedTypeIdentifiersForExportSaySSGvs
+- _$s15OmniSearchTypes0B12GlobalEntityV6dialogAA0D6DialogVSgvg
+- _$s15OmniSearchTypes0B12GlobalEntityV6domainSSSgvg
+- _$s15OmniSearchTypes0B12GlobalEntityV6entity6domain24isLowConfidenceKnowledge6dialogACSg10PegasusAPI029Apple_Parsec_Siri_V2alpha_AppE0V_SSSbAA0D6DialogVSgtcfC
+- _$s15OmniSearchTypes0B12GlobalEntityV7BuilderV22lowConfidenceKnowledgeSbvs
+- _$s15OmniSearchTypes0B12GlobalEntityV7BuilderV2idSSSgvs
+- _$s15OmniSearchTypes0B12GlobalEntityV7BuilderV4textSSSgvs
+- _$s15OmniSearchTypes0B12GlobalEntityV7BuilderV6dialogAA0D6DialogVSgvs
+- _$s15OmniSearchTypes0B12GlobalEntityV7BuilderV6domainSSSgvs
+- _$s15OmniSearchTypes0B12GlobalEntityV7BuilderV8searchID10Foundation4DataVSgvs
+- _$s15OmniSearchTypes0B12GlobalEntityVMa
+- _$s15OmniSearchTypes0B12GlobalEntityVMn
+- _$s15OmniSearchTypes0B12GlobalEntityVSEAAMc
+- _$s15OmniSearchTypes0B12GlobalEntityVSQAAMc
+- _$s15OmniSearchTypes0B12GlobalEntityVyACSgyAC7BuilderVzXEcfC
+- _$s15TokenGeneration0A9GeneratorC16GenerativeModelsE5model13configuration17useCaseIdentifier10onBehalfOf06parentm2OnlM0AC12ModelCatalog014ResourceBundleJ0VyAJ20AssetBackedLLMBundleVG_AD0dP20SessionConfigurationVSSSiSgARtcfC
+- _$s15TokenGeneration0A9GeneratorC16GenerativeModelsE5model13configuration17useCaseIdentifier10onBehalfOf06parentm2OnlM0AC12ModelCatalog014ResourceBundleJ0VyAJ9LLMBundleVG_AD0dP20SessionConfigurationVSSSiSgARtcfC
+- _$s16GenerativeModels0A26ModelSessionTokenGeneratorMp
+- _$s16GenerativeModels0A26ModelSessionTokenGeneratorP5model0E10Generation0eF0CvgTq
+- _$s16GenerativeModels19_ClientInfoProtocolMp
+- _$s16GenerativeModels19_ClientInfoProtocolP14trackingConfigAA01_cd15SessionTrackingG0VvMTq
+- _$s16GenerativeModels19_ClientInfoProtocolP14trackingConfigAA01_cd15SessionTrackingG0VvgTq
+- _$s16GenerativeModels19_ClientInfoProtocolP14trackingConfigAA01_cd15SessionTrackingG0VvsTq
+- _$s16GenerativeModels19_ClientInfoProtocolP17useCaseIdentifierSSvgTq
+- _$s16GenerativeModels19_ClientInfoProtocolP6_model15TokenGeneration0G9GeneratorCvgTq
+- _$s16GenerativeModels32_ClientInfoSessionTrackingConfigV07sessionF6Conifg09_internalefG0ACSDyS2SG_AFtcfC
+- _$s16GenerativeModels32_ClientInfoSessionTrackingConfigVMa
+- _$s16GenerativeModels32_ClientInfoSessionTrackingConfigVMn
+- _$s16IntelligenceFlow13RGPluginModelO4cardyAC10Foundation4DataVcACmFWC
+- _$s17_StringProcessing5RegexV11ignoresCaseyACyxGSbF
+- _$s21InternalSwiftProtobuf12ExtensionMapMp
+- _$s21InternalSwiftProtobuf7MessagePAAE5merge14serializedData10extensions7partial7optionsy10Foundation0G0V_AA12ExtensionMap_pSgSbAA21BinaryDecodingOptionsVtKF
+- _$s22UniformTypeIdentifiers6UTTypeV19_bridgeToObjectiveCSoABCyF
+- _$s22UniformTypeIdentifiers6UTTypeV5videoACvgZ
+- _$s29GenerativeFunctionsFoundation15GeneratedValuesV7extract5fieldxSgSS_tKAA9GenerableRzlF
+- _$s29GenerativeFunctionsFoundation17_StreamingDecoderP6stream8objectID5field2ofScsyqd__s5Error_pG0C04UUIDV_SSqd__mtYaKlFTj
+- _$s29GenerativeFunctionsFoundation17_StreamingDecoderP6stream8objectID5field2ofScsyqd__s5Error_pG0C04UUIDV_SSqd__mtYaKlFTjTu
+- _$s9PromptKit31GenerativeConfigurationProtocolP0C19FunctionsFoundationE23_internalTrackingConfigyxSDyS2SGF
+- _$s9PromptKit31GenerativeConfigurationProtocolP0C6ModelsE30_internalSessionTrackingConfigyxAD011_ClientInfohiJ0VF
+- _$s9PromptKit31GenerativeConfigurationProtocolP0C9FunctionsE4with5model0H4TypeAD0cD8RunnableVy0aI0Qzqd__xGqd___qd__mtlF
+- _$sBi8_WV
+- _$sSD12FamilyCircleE8requiredq_x_tcig
+- _$sSK17_StringProcessingSs11SubSequenceRtzrlE10firstMatch2ofAA5RegexV0F0Vyqd___GSgqd_0__t0H6OutputQyd_0_Rsd__AA0H9ComponentRd_0_r0_lF
+- _$sSS19stringInterpolationSSs013DefaultStringB0V_tcfC
+- _$sSa10OmniSearchAA0B6ResultVRszlE19createValidEntities11cardBuilder05inAppB6StringSayAA0B6EntityVGAA0L12CardBuilding_p_SSSgtKF
+- _$sSa10OmniSearchAA0B6ResultVRszlE19createValidEntities11cardBuilder05inAppB6StringSayAA0B6EntityVGAA0L12CardBuilding_p_SSSgtKFfA_
+- _$sSa12_endMutationyyFyXl_Ts5
+- _$sSlsE5first7ElementQzSgvg
+- _$sSlsE5first7ElementQzSgvpMV
+- _$sSo14CNContactStoreC10OmniSearchE09inProcessB0AByFZ
+- _$sSo14CNContactStoreC10OmniSearchE10findMeCardSo0A0CSgyF
+- _$sSo14NSUserDefaultsC10OmniSearchE15allowFeedbackUISbvMZ
+- _$sSo14NSUserDefaultsC10OmniSearchE15allowFeedbackUISbvgZ
+- _$sSo14NSUserDefaultsC10OmniSearchE15allowFeedbackUISbvsZ
+- _$sSo14NSUserDefaultsC10OmniSearchE16$allowFeedbackUIAC11UserDefaultVySbGvgZ
+- _$sSo14NSUserDefaultsC10OmniSearchE20postProcessingFilterSbvMZ
+- _$sSo14NSUserDefaultsC10OmniSearchE20postProcessingFilterSbvgZ
+- _$sSo14NSUserDefaultsC10OmniSearchE20postProcessingFilterSbvsZ
+- _$sSo14NSUserDefaultsC10OmniSearchE21$postProcessingFilterAC11UserDefaultVySbGvgZ
+- _$sSo16CSSearchableItemC10OmniSearchE8makeFrom15overridePayloadABSo12NSDictionaryC_tKFZ
+- _$sSo9SPQUParseC10OmniSearchE4from5queryABSgAC21StructuredQueryEntityV_SStcfC
+- _$sSw10copyMemory4fromySW_tF
+- _$sSwys5UInt8VSicis
+- _$ss10_expectEnd2of2isyx_5IndexQztSlRzlF
+- _$ss17_assertionFailure__4file4line5flagss5NeverOs12StaticStringV_A2HSus6UInt32VtF
+- _$ss18_fatalErrorMessage__4file4line5flagss5NeverOs12StaticStringV_A2HSus6UInt32VtF
+- _$ss26DefaultStringInterpolationV13appendLiteralyySSF
+- _$ss26DefaultStringInterpolationV15literalCapacity18interpolationCountABSi_SitcfC
+- _$ss5NeverO10AppIntents12IntentResultACMc
+- _CNContactFamilyNameKey
+- _CNContactGivenNameKey
+- _CNContactIdentifierKey
+- _CNContactMiddleNameKey
+- _CNContactNamePrefixKey
+- _CNContactNameSuffixKey
+- _CNContactNicknameKey
+- _CNContactOrganizationNameKey
+- _CNContactPhonemeDataKey
+- _CNContactPhoneticFamilyNameKey
+- _CNContactPhoneticGivenNameKey
+- _CNContactPhoneticMiddleNameKey
+- _CNContactPreviousFamilyNameKey
+- _CNContactPronunciationFamilyNameKey
+- _CNContactPronunciationGivenNameKey
+- _CNContactRelationsKey
+- _CSSearchableItemActionType
+- _CSSearchableItemActivityIdentifier
+- _MDItemContentModificationDate
+- _MDItemExtractedAddresses
+- _MDItemExtractedCurrencies
+- _MDItemExtractedDates
+- _MDItemExtractedEmails
+- _MDItemExtractedFlights
+- _MDItemExtractedLinks
+- _MDItemExtractedLocations
+- _MDItemExtractedPhoneNumbers
+- _MDItemExtractedTrackingNumbers
+- _OBJC_CLASS_$_CNContactStoreConfiguration
+- _OBJC_CLASS_$_LSApplicationWorkspace
+- _OBJC_CLASS_$_NSUserActivity
+- _OBJC_CLASS_$__LSOpenConfiguration
+- __swift_FORCE_LOAD_$_swiftFileProvider
+- __swift_FORCE_LOAD_$_swiftWebKit
+- _objc_release_x10
+- _objc_retain_x1
+- _swift_allocateGenericValueMetadata
+- _swift_getTupleTypeLayout2
+- _swift_initEnumMetadataMultiPayload
+- _swift_initStructMetadata
+CStrings:
++ " [DEPRECATED] oneself: "
++ " experiences "
++ "$__lazy_storage_$_calendarManager"
++ "%@ - failed to load: %@"
++ "%s %f (prompt char count) / %f (token-to-char multiplier) = %ld (token count)"
++ "%s AS supportedTypeMap=%s"
++ "%s Added this into spiMessageDict guid=%s -> %s"
++ "%s After dedupping spiMessageDict size %ld"
++ "%s CSItem did not have _kMDItemAppEntityInstanceIdentifier. It's OK, will just preserve existing note"
++ "%s CSSearchableIndex bulkFetchCacheFileDescriptor returned FDs: %s"
++ "%s CSSearchableIndex provideDataForBundle: %s, identifier: %s, type: %s returned NSData: %{sensitive}s"
++ "%s CSSearchableItem: %{sensitive}s, attributes: %{sensitive}s"
++ "%s Calendar results identifiers are emtpy. Use original unhydrated results as a fallback."
++ "%s CalendarEvent has no itemAppEntityInstanceId. Skip."
++ "%s Checking %s's surrounding IDs: %s"
++ "%s Checking against rest of these IDs: %s"
++ "%s Created LNEntityMetadata: %{sensitive}s"
++ "%s Created MobileSMSDocument: %{sensitive}s"
++ "%s Created a new MobileSMSDocument from source SMS document. New LLM description is: %{sensitive}s"
++ "%s Created csItem: %{sensitive}s"
++ "%s Data should be non-empty String. Will return nil and let ResultHydrator fallback to fetching via NoteContentManager using LinksServices "
++ "%s Deduped dict %s"
++ "%s Dropped the last non-onScreenText document. Number of personal_data_sources docs left: %ld"
++ "%s Dropping personal_data_sources doc at index: %ld, remaining currentTokenCount: %ld"
++ "%s EKEventStore returned %ld calendar events"
++ "%s EKEventStore returned nil results. Use original unhydrated results as a fallback"
++ "%s Expected item to be of type NoteDocument, but got -> %s. Will return nil and let ResultHydrator fallback to fetching via NoteContentManager using LinksServices"
++ "%s FF OmniSearch/dynamicDocumentTruncation disabled. Skip dynamic truncation of source documents"
++ "%s FF OmniSearch/dynamicDocumentTruncation enabled. Will dynamically truncate source documents, if at risk of exceeding prompt token limit."
++ "%s Fetched Event attributes %s, count: %ld"
++ "%s Fetched File attributes %{sensitive}s, count: %ld"
++ "%s Fetched Journal attributes %{sensitive}s, count: %ld"
++ "%s Fetched Mail attributes %{sensitive}s, count: %ld"
++ "%s Fetched Notes attributes %{sensitive}s, count: %ld"
++ "%s Fetched Phone attributes %{sensitive}s, count: %ld"
++ "%s Fetched Reminder attributes %{sensitive}s, count: %ld"
++ "%s Fetched Safari History attributes %{sensitive}s, count: %ld"
++ "%s Fetched VoiceMemo attributes %{sensitive}s, count: %ld"
++ "%s Fetched Wallet attributes %{sensitive}s, count: %ld"
++ "%s Fetched calendar attributes %{sensitive}s, count: %ld"
++ "%s Fetched contact attributes %{sensitive}s, count: %ld"
++ "%s Fetched empty Note content. It's OK, will just preserve existing note"
++ "%s Fetched message attributes %{sensitive}s, count: %ld"
++ "%s Fetched photo attributes %{sensitive}s, count: %ld"
++ "%s Fetching source Email for event: %{sensitive}s"
++ "%s Fetching source Message for event: %{sensitive}s"
++ "%s Found overlap of IDs, so we drop this: %s"
++ "%s Incoming dict %{sensitive}s"
++ "%s Index of last non-onScreenText document to drop, indexToRemove: %ld"
++ "%s LNConnection.performConfigurableQuery returned LNQueryOutput: %{sensitive}s"
++ "%s LNQueryOutput contained [LNValue]: %{sensitive}s"
++ "%s MDItemAppEntityInstanceIdentifier: %s"
++ "%s Manually created csItem: %{sensitive}s"
++ "%s Message ranked identifiers: %s"
++ "%s Missing %s. Will return nil and let ResultHydrator fallback to fetching via NoteContentManager using LinksServices "
++ "%s Missing MDItemExternalID. Will return nil and let ResultHydrator fallback to fetching via NoteContentManager using LinksServices "
++ "%s Missing MDItemProviderDataTypes. Will return nil and let ResultHydrator fallback to fetching via NoteContentManager using LinksServices "
++ "%s Missing bundleID. Will return nil and let ResultHydrator fallback to fetching via NoteContentManager using LinksServices "
++ "%s Not able extract 'contents' as AttributedString from properties: %{sensitive}s"
++ "%s Original spiMessageDict size %ld"
++ "%s Prewarming AnswerSynthesisModel with urgency=%s"
++ "%s Returning dict: %{sensitive}s"
++ "%s Returning event as-is. Unimplemented sub event type: %{sensitive}s"
++ "%s Searching EKEventStore using identifiers=%s"
++ "%s Set eventSourceLLMConsumableDescription to %{sensitive}s"
++ "%s Skip hydration for this 3p bundleId: %s"
++ "%s Skipping. Failed to call email hydration due to %s %{sensitive}s"
++ "%s Skipping. Found an unexpected format for the source message for %{sensitive}s"
++ "%s Skipping. No EmailDocument for this event: %{sensitive}s"
++ "%s Skipping. No mailMessageId for this event: %{sensitive}s"
++ "%s Skipping. No valid id for MobileSMS message: %s"
++ "%s Skipping. While retrieving this event: %{sensitive}s encountered error %@"
++ "%s Something went wrong when fetching source calendar events for one or more SearchResult. Use original unhydrated results as a fallback"
++ "%s Successful in fetching text content via GenericDataProviderManager for ALL notes"
++ "%s Successful in fetching text content via GenericDataProviderManager for note ID: %s"
++ "%s Successful in fetching text content via GenericDataProviderManager, content: %{sensitive}s"
++ "%s The item is not a calendar event which should never happen. Use original unhydrated results as a fallback."
++ "%s The item is not a claneder event which should never happen. Use original unhydrated results as a fallback."
++ "%s The lists are disjointed, so just leave it in deduped: %s"
++ "%s Unable to find any non-onScreenText document to drop? current personalDataSources.count: %ld"
++ "%s Unable to retrieve source message for identifier %s"
++ "%s Unabled to find %s in the deduped dict?!"
++ "%s answerSynthesisModel not initialized"
++ "%s bundleId: %s"
++ "%s charLimit=%ld, documents.count=%ld, onScreenText.count=%ld, charLimitPerDocument=%ld"
++ "%s chatParticipants from origMessage: %{sensitive}s, or from retrievedMessage: %{sensitive}s"
++ "%s created appointment: %{sensitive}s"
++ "%s created rentalCarReservation: %{sensitive}s"
++ "%s created ticketedShow: %{sensitive}s"
++ "%s created ticketedTransportation: %{sensitive}s"
++ "%s created trip: %{sensitive}s"
++ "%s created upcomingFlight: %{sensitive}s"
++ "%s created upcomingHotel: %{sensitive}s"
++ "%s created upcomingParty: %{sensitive}s"
++ "%s created upcomingRestaurant: %{sensitive}s"
++ "%s hydratedResults: %{sensitive}s"
++ "%s no results returned after being filtered and no on screen text"
++ "%s no results returned after preprocessing and no on screen text"
++ "%s requestedProperties.count=%ld, max allowed answerSynthesisRequestedPropertiesPerRequest=%ld"
++ "%s tokenLimit to use to dynamically trim source documents: %ld"
++ "%s: %s"
++ "%s: Failed to encode result"
++ "%s: Skip extra logging for eval"
++ ",\n    interactionMode: "
++ ",\n    interfaceIdiom: "
++ ", Allowed Types: "
++ ", [DEPRECATED] locationValue: "
++ ", dateComponentsValue: "
++ ", durationValue: "
++ ", navigationValue: "
++ "@40@0:8@16@24^@32"
++ "A generic Spotlight item with bundle ID "
++ "Allowed types config not initialized, rejecting."
++ "Answer Synthesis request locale is missing"
++ "Answer missing sources: %{sensitive}s"
++ "Answer synthesis result allowlist is not enabled. Model generated dialog will be used."
++ "Answer synthesis: referenceDocs cannot be empty, skipping answer"
++ "AnswerResolution"
++ "AnswerSynthesisAllowlist"
++ "AnswerSynthesisOverride hit! Using response: %s"
++ "AnswerSynthesisOverride missing `response`"
++ "AppEntity missing metadata %{sensitive}s"
++ "Asset version is below minimum required"
++ "Attempting to create SearchAnswerEntity without answer"
++ "Attempting to create SearchAnswerEntity without id"
++ "Attempting to create SearchGlobalEntity without id"
++ "Attempting to resolve entityValue: %s to requestedProperty: %s"
++ "Attempting to run English groundSeasonsHeuristic on dateString: %s"
++ "Attempting to run tokenizer groundSeasonsHeuristic on dateString: %s"
++ "Audio"
++ "Backfill requested property: %s with answer: %{sensitive}s"
++ "Build card for %ld result(s), allImageVideo: %{bool}d,  allSharedLink: %{bool}d"
++ "Building IntentPerson from ECR results: %{sensitive}s"
++ "Building dialog using templates at %s, searchCATContext: %s, renderOption: %s, isQuestionQuery: %{bool}d"
++ "Cannot create SearchAppEntity because result.item needs an associatedAppEntityId and associatedAppEntityTypeId"
++ "Cannot load config from path %s"
++ "Cannot make flight from answer entity %{sensitive}@"
++ "Caught inference error, returning wrapped error: %@"
++ "Checking dialog allowlist with result types: %s"
++ "Checking for appointments…"
++ "Checking for contacts…"
++ "Checking for flights…"
++ "Checking for notes…"
++ "Checking for parties…"
++ "Checking for rentals…"
++ "Checking for reservations…"
++ "Checking for tickets…"
++ "Checking for trips…"
++ "Checking messages…"
++ "Checking through calls…"
++ "Checking through emails…"
++ "Checking through entries…"
++ "Checking through events…"
++ "Checking through files…"
++ "Checking through passes…"
++ "Checking through photos…"
++ "Checking through reminders…"
++ "Checking through transactions…"
++ "Checking through voice memos…"
++ "Checking through voicemails…"
++ "Checking through webpages…"
++ "Combining group '%s' - %s:%s"
++ "Construct CAT dialog for PQA low confidence dialog"
++ "Creating a SearchPropertyResponse of name: %s, type: %s, with nil value"
++ "Creating doc for email: %lld"
++ "Date Components Value"
++ "Date components in incomplete, unable to convert to date: %{sensitive}s"
++ "Date value after property conversion: %{sensitive}s"
++ "Decoded answerSynthesisCDSchemaOverride %s to type: %s"
++ "Default SearchAnswerEntity source content"
++ "Default requested property requested but preferredType %s is not handled."
++ "Dialog or answer from Pegasus"
++ "DisallowAllModelDialogs"
++ "Document Sources"
++ "Domain of Global Entity"
++ "Double value after property conversion: %{sensitive}s"
++ "Drop visual when in CarPlay, interfaceIdiom: %s"
++ "Dropping recently deleted folder from %s."
++ "ECR not able to ground person, building result with unknown contactId and provided handles, name: %{sensitive}s, phoneNumber:%{sensitive}s, email:%{sensitive}s"
++ "Email (bundleID: %s) found: %{sensitive}s, subject: %{sensitive}s, authors:%{sensitive}s, recipients: %{sensitive}s"
++ "EmailContentManager: Creating EmailDocument using contentRep"
++ "EmailContentManager: Creating EmailDocument using spotlight result %{sensitive}s"
++ "EmailContentManager: HTML body is nil"
++ "EmailContentManager: creating email document with %{sensitive}s"
++ "EmailContentManager: failed to convert email to EmailDoc %@"
++ "EmailContentManager: found %ld messages, mail message id keys: %s, values: %{sensitive}s"
++ "EmailContentManager: mail message id keys: %s"
++ "EmailContentManager: no html body for email doc"
++ "EmailContentManager: no mail message from id: %s from messages %{sensitive}s"
++ "Empty allowed types in config and not rejecting all dialogs, allowing."
++ "Encountered error %@ when constructing ClientEntity for URL: %{sensitive}s"
++ "Error extracting property %s from %s: %@"
++ "Error fetching RankedAssetUUIDs from spotight! Aborting in-app photos search and returning original results found from search tool"
++ "Error performing in-app photos search: %@"
++ "EventManager.hydrateWithSourceMessageDocumentFromResultHydrator"
++ "Expanding property type: `%s`"
++ "Expected domain %s does not match response domain %s"
++ "Failed to build SearchAnswerEntity"
++ "Failed to cast search result to spotlightExtras: %{sensitive}@"
++ "Failed to construct SearchEntity from result: %{sensitive}s"
++ "Failed to construct valid entity from result: %{sensitive}s, error: %@"
++ "Failed to create AnswerSynthesisModelOnDevice bundle using %s"
++ "Failed to create AnswerSynthesisModelServer bundle using %s"
++ "Failed to create PQAVerificationModelOnDevice bundle using %s"
++ "Failed to decode schemaOverrideString: %s: %s"
++ "Failed to fetch document with docId: %s, bundleId: %s"
++ "Failed to find RequestedProperty mapping: %s"
++ "Failed to find an answer for requested property: '%s'"
++ "Failed to find flight info with results: %{sensitive}s"
++ "Failed to handle overrides for rewrittenQuery: %s - %@. Defaulting to regular search."
++ "Failed to load DefaultRequestedProperties.plist"
++ "Failed to produce response for requested property: '%s', answer: %{sensitive}s"
++ "Failed to send transcript event: %@"
++ "Failed to serialize searchID from AppEntity"
++ "Failed to serialize thumbnailData from Pegasus general attributes due to %@"
++ "Failed to set override attribute: %s"
++ "Fallback: Answer Synthesis response not valid, skip calling PQA verification model and returning no answer"
++ "Fallback: Multiple search results answers, returning no answer since disambiguation is not supported"
++ "Fallback: No search result answers"
++ "Fallback: PQA Verification predicts hallucination, fallback to content search"
++ "Fallback: ReflectionToken false detected, fallback to content search"
++ "Fetched ECR result: %{sensitive}s"
++ "Fetching event source CSItems with query: %s"
++ "File SearchResult found: %{sensitive}s"
++ "Filtered results contain no supported types; not prewarming AnswerSynthesisModel"
++ "Finding matching calls…"
++ "Finding matching emails…"
++ "Finding matching entries…"
++ "Finding matching events…"
++ "Finding matching files…"
++ "Finding matching messages…"
++ "Finding matching notes…"
++ "Finding matching passes…"
++ "Finding matching photos…"
++ "Finding matching reminders…"
++ "Finding matching transactions…"
++ "Finding matching voice memos…"
++ "Finding matching voicemails…"
++ "Finding matching webpages…"
++ "Finished fetching event sources: %{sensitive}s"
++ "Finished warming up SearchToolExtension for search"
++ "Flight destination"
++ "FlightEntity: Missing departure date information, will provide flight's current status. %{sensitive}s"
++ "Forcing results to be displayed on PCS path"
++ "Found Data Detector result of unhandled category: %s, value: %{sensitive}s"
++ "Found a %s requested property. Attempting to do a mapping to concrete requested properties"
++ "Found address: %{sensitive}s"
++ "Found nil encoded CSSI when trying to unwrap pre-extracted document"
++ "Found phone number: %{sensitive}s"
++ "Found pre-extracted contact, but returning default type."
++ "Found pre-extracted link, but returning default type."
++ "Found proper name: %{sensitive}s"
++ "Found property %s in %s"
++ "Found result: %{sensitive}s, uniqueId:%s, domainId: %s"
++ "Found section: %{sensitive}s"
++ "GenericDataProviderManager.fetchTextContent"
++ "GenericDataProviderManager.fetchTextWithProvideDataSPI"
++ "GlobalSearch canceled: %@"
++ "GlobalSearch encountered an unknown error: %@"
++ "GlobalSearch timed out: %@"
++ "Hallucination detection rejected LLM-generated disambiguation dialog: %{sensitive}s"
++ "Hydation Entity Type"
++ "Hydration Context"
++ "Hydration Entity"
++ "ID of Global Entity"
++ "Ignoring set `entityType: %s` for result output"
++ "Initializing AnswerSynthesisModelServer with %s"
++ "Initializing PQAVerificationModelOnDevice with %s"
++ "Initializing models with languageCode: %s"
++ "Interaction mode is voice but voice mode is disabled in config, rejecting"
++ "InternalWatchdog"
++ "Invalid entityType: "
++ "Invalid override entityType: "
++ "IsContentSearchQuery"
++ "KNDocumentEntity"
++ "Latitude and/or longitude are both 0 but request is navigation"
++ "Latitude and/or longitude are nil but request is navigation"
++ "Loaded experiences %s: %s"
++ "Loading overrides from: %s"
++ "LocalIndexClient - Could not create CSSearchableItemAttributeSet for %{sensitive}@"
++ "LocalIndexClient - Failed to synthesize searchable item from result: %{sensitive}@"
++ "LocalIndexClient found %s: %{sensitive}s ; %{sensitive}s"
++ "LocalIndexClient: Converted item to photo %{sensitive}s"
++ "LocalIndexClient: Failed to create event. Event will be treated as generic item."
++ "LocalIndexClient: Found event of unknown type: '%s'"
++ "LocalIndexClient: SpotlightEvent has no eventType."
++ "LocalSearchManager.search - Unexpected internal state. All tasks completed without yielding results. Defaulting to empty results."
++ "LocalSearchManager.submitTailspinRequest - emitting request to capture tailspin"
++ "LocalSearchManager.submitTailspinRequest - tailspin request emitted successfully"
++ "LocalSearchManager.submitTailspinRequest - tailspin request failed. Error: %s"
++ "Looking for that…"
++ "Looking that up…"
++ "Looking up appointments…"
++ "Looking up contacts…"
++ "Looking up flights…"
++ "Looking up parties…"
++ "Looking up rentals…"
++ "Looking up reservations…"
++ "Looking up tickets…"
++ "Looking up trips…"
++ "LowConfidenceCATAnswerDialog"
++ "Maps"
++ "Memory Creation Grounding"
++ "Memory Creation: calling memory creation w/ ModelID: %s"
++ "MemoryCreationInternationalization"
++ "MemoryCreationQUDateGroundingAutumnName"
++ "MemoryCreationQUDateGroundingDuringCovidName"
++ "MemoryCreationQUDateGroundingFallName"
++ "MemoryCreationQUDateGroundingLastAutumnName"
++ "MemoryCreationQUDateGroundingLastFallName"
++ "MemoryCreationQUDateGroundingLastSpringName"
++ "MemoryCreationQUDateGroundingLastSummerName"
++ "MemoryCreationQUDateGroundingLastWinterName"
++ "MemoryCreationQUDateGroundingPastAutumnName"
++ "MemoryCreationQUDateGroundingPastFallName"
++ "MemoryCreationQUDateGroundingPastSpringName"
++ "MemoryCreationQUDateGroundingPastSummerName"
++ "MemoryCreationQUDateGroundingPastWinterName"
++ "MemoryCreationQUDateGroundingSinceCovidName"
++ "MemoryCreationQUDateGroundingSpringName"
++ "MemoryCreationQUDateGroundingSummerName"
++ "MemoryCreationQUDateGroundingWinterName"
++ "MemoryCreationQUDateGroundingYearInReviewName"
++ "Message is from me"
++ "Missing AppEntity info for 1P %s donation: %{sensitive}s"
++ "Missing TimeZone info for arrival: %{sensitive}s"
++ "Missing TimeZone info for departure: %{sensitive}s"
++ "Missing experience component in global results"
++ "Missing experience for globalEntity: %s"
++ "MobileSMSDocument: chatParticipants set from both 'from' and 'to' as there's no chatParticipants passed-in"
++ "Multi-source answer dialog is disabled, rejecting."
++ "NSKeyedUnarchiver returning nil when unarchiving SFCommand data"
++ "Navigation Value"
++ "No bundleID (`_kMDItemBundleID`) provided, falling back to events."
++ "No location available, location resolution may fail"
++ "No matches found for answer entity %{sensitive}@ from inputs:\n%{sensitive}s"
++ "No name, phoneNumber, or email extracted, unable to ground person"
++ "No properties fetched, returning nil"
++ "No properties found for %s"
++ "No response override matched"
++ "No snippet model data generated. This is expected for dialog-only Pegasus response."
++ "No structured query or llm qu parse, returing rewritten query"
++ "Not PCS use case, skipping in-app photos search processing."
++ "Not to be supported via omstool CLI as slowFetchAttributes does NOT work with bundleId: "
++ "Not using templated dialog for answer due to feature flag."
++ "OMNISEARCH_UNIT_TESTING"
++ "OmniSearch/onScreenReferences FF is not enabled, dropping onScreenText"
++ "OmniSearch/simplifiedQuery FF is not enabled, ignoring simplified query"
++ "OmniSearchService.personECRSearch"
++ "OmniSearchService.personNameAndIDsWithText"
++ "Override found! Returning canned SearchTool entities: %s"
++ "Override found! Returning canned results: %s"
++ "Override output entity missing 'payload'"
++ "Override_Message_Identifier_"
++ "Overriding dialog with the following static dialog: %s"
++ "PQACommon#LowConfidenceFallback"
++ "Parse from spotlight QP: %s"
++ "Passing through AS-generated dialog: \"%{sensitive}s\""
++ "PommesResponse experience missing or has low confidence"
++ "Pre-extracted event - missing source. eventType: %s, mailMessageId: %s, eventMessageId: %s, sourceBundle:%s, sourceMapping: %s"
++ "PreExtractedEvents.HotelReservation: created check-in: %{sensitive}s, check-out: %{sensitive}s"
++ "Prewarming AnswerSynthesisModel with .default urgency"
++ "Prewarming AnswerSynthesisModel with .imminent urgency"
++ "Processing %ld requested properties"
++ "QP parse dict date components: %{sensitive}s"
++ "QP parse final date components: %{sensitive}s"
++ "QP parse: %{sensitive}s"
++ "QUPP_ARG_CONVERSATION_FILTER_TIME"
++ "QUPP_ARG_INFERRED_APP_ENTITY_TYPE_ALBUM"
++ "QUPP_ARG_INFERRED_APP_ENTITY_TYPE_ARTIST"
++ "QUPP_ARG_INFERRED_APP_ENTITY_TYPE_MAP"
++ "QUPP_ARG_INFERRED_APP_ENTITY_TYPE_MUSIC_ALBUM"
++ "QUPP_ARG_INFERRED_APP_ENTITY_TYPE_MUSIC_VIDEO"
++ "QUPP_ARG_INFERRED_APP_ENTITY_TYPE_NEWS"
++ "QUPP_ARG_INFERRED_APP_ENTITY_TYPE_PLAYLIST"
++ "QUPP_ARG_INFERRED_APP_ENTITY_TYPE_PODCAST"
++ "QUPP_ARG_INFERRED_APP_ENTITY_TYPE_RADIO_STATION"
++ "QUPP_ARG_INFERRED_APP_ENTITY_TYPE_SHOW"
++ "QUPP_ARG_INFERRED_APP_ENTITY_TYPE_SONG"
++ "QUPP_ARG_INFERRED_APP_ENTItY_TYPE_ARTIST"
++ "RG override specifies falling back to PCS"
++ "Ran dd on calendar and got fields: %{sensitive}s"
++ "Ran dd on email and got fields: %{sensitive}s"
++ "Ran dd on message and got fields: %{sensitive}s"
++ "RankedAssetUUIDs returned by photos in-app search: %s"
++ "Received a deprecated ResponseOverrideDialog of type CAT template"
++ "Received unexpected experiences from Pegasus for query: %s."
++ "Rejecting all model-generated dialogs per config value"
++ "Rejecting resolved flight - data doesn’t align with pre-extracted info (timeInterval: %ld."
++ "Render option was marked singleSynthesized but the result is not a valid answer."
++ "Replaced bundle ID to %s for AppEntity of type %s and content type %s."
++ "RequestedPropertyController: Error failed to convert %{sensitive}s to dateComponents"
++ "RequestedPropertyController: Error failed to convert %{sensitive}s to dateValue"
++ "RequestedPropertyController: Error failed to convert %{sensitive}s to durationValue"
++ "RequestedPropertyController: Error failed to convert %{sensitive}s to mediaValue"
++ "RequestedPropertyController: Error failed to convert %{sensitive}s to navigationValue"
++ "RequestedPropertyController: Error failed to convert %{sensitive}s to number"
++ "RequestedPropertyController: Error failed to convert %{sensitive}s to personValue"
++ "RequestedPropertyController: Error failed to convert %{sensitive}s to stringValue"
++ "RequestedPropertyController: Error failed to convert %{sensitive}s to urlValue"
++ "RequestedPropertyController: SearchPropertyType.location is no longer supported"
++ "RequestedPropertyMappings"
++ "Requesting entity for override, but no `entityType` found."
++ "Reservation Under Name"
++ "Resolving flight: \"%{sensitive}s\""
++ "Response override blocking all search entities"
++ "Response override blocking custom entities at indices %s"
++ "Response override with identifier %s matched"
++ "Result %ld---%s---Card: %{sensitive}s---%{sensitive}s\n"
++ "ResultHydrator.fetchFullContentForCalendarResults"
++ "Results after properties have been verified and backfilled: %{sensitive}s"
++ "Results have only photos results. Searching photos with in-app search string: %s"
++ "Retrieved resolved flight info: %{sensitive}s"
++ "Returned document did not include requested item identifiers: %{sensitive}s"
++ "Search Answer Value"
++ "Search CAT Context"
++ "Search Global Entity"
++ "Search Results Should Fallback To SiriX For Reading Flow"
++ "Search Tool local search timeout"
++ "Search overrides are only supported on internal installs"
++ "Search result type"
++ "SearchAnswerDialogAllowlist_iOS"
++ "SearchAnswerDialogAllowlist_iOS.plist"
++ "SearchAnswerEntity has empty sources and no requested properties"
++ "SearchAnswerEntity missing required fields: %s"
++ "SearchAnswerEntity missing sources and has no requestedProperties"
++ "SearchGlobalEntity requires server-driven experiences. Received experience type:\n%s"
++ "SearchGlobalEntity unknown CustomAttribute %s"
++ "SearchPropertyResponse"
++ "SearchPropertyResponse(name: "
++ "SearchRouter - Missing `isSingleStepSearch` signal, using query to determine isComposite: %{bool}d"
++ "SearchRouter - Skipping global search, found 'my' reference"
++ "SearchRouter - Skipping global search, found personal requested types %s"
++ "SearchRouter - Using PSC signal, isPersonal: %{bool}d"
++ "SearchSpotlightEntity missing data of the SFcommand"
++ "SearchTool Intent perform() called with\n    rawQuery: %s,\n    rewrittenQuery: %s,\n    structuredQuery: %s,\n    typeIdentifiers: %s,\n    context: %s,\n    matchedEntities: %s,\n    isFirstToolInvocation: %{bool}d,\n    requestedProperties: %s,\n    isOnScreenReference: %{bool}d,\n    isSingleStepSearch: %{bool}d,\n    responseMode: %s,\n    isEyesFree: %{bool}d,\n    deviceRestrictions: %s,\n    interfaceIdiom: %s\nat QoS: %u"
++ "SearchTool Intent perform() with systemContext: %s"
++ "SearchTool detected LLM hallucination, dropping answer: %{sensitive}s %@"
++ "SearchTool disambiguation %s:\n    isQuestionQuery: %{bool}d\n    isOpenQuery: %{bool}d\n    count: %ld\n    isContentSearch: %{bool}d\n    allowed by UserDefaults: %{bool}d"
++ "SearchTool running clientId: %s for requestId: %s"
++ "SearchToolControl.perform.warmup"
++ "SearchToolIntentResponse"
++ "Searching across apps…"
++ "Setting deprecated `location` property - use `locations` instead."
++ "Setting deprecated `person` property - use `people` instead."
++ "Skip running Answer Synthesis for locale: %s, allowASRGOverride is: %{bool}d"
++ "Skipping feature store donation because requestId is nil"
++ "Skipping feature store donation because user is not internal, and/or feature store logging default is disabled: %{bool}d"
++ "Skipping search because query is about an onscreen reference"
++ "Skipping this Wallet secure element card (MDItemPassbookIsPaymentPass == 1/true)"
++ "Some non-photos are present in results, skipping photos in-app photos search processing."
++ "Some source results come from apps not allowed, falling back to templated answer dialog."
++ "Sorting through matches…"
++ "SourceDocumentRetriever.fetchAttributes"
++ "Spotlight ECR output is: %{sensitive}s)"
++ "Starting local search at QoS %u"
++ "Starting prewarm at QoS %u"
++ "Starting request with kgq: %s"
++ "Starting search at QoS %u"
++ "String value after property conversion: %{sensitive}s"
++ "Successfully built pre-extracted type: '%s', returning."
++ "TNDocumentEntity"
++ "TPDocumentEntity"
++ "Taking a look…"
++ "Telling IFFlow to route to SiriX to read search result items"
++ "The query potentially rewritten into a simplified form, used for spotlight text embedding search."
++ "Trying to convert %{sensitive}s to Date"
++ "Trying to convert %{sensitive}s to DateComponents"
++ "Trying to convert %{sensitive}s to Double"
++ "Trying to convert %{sensitive}s to Media IntentFile"
++ "Trying to convert %{sensitive}s to Navigation IntentFile"
++ "Trying to convert %{sensitive}s to String"
++ "Trying to convert %{sensitive}s to URL"
++ "Trying to convert '%{sensitive}s' to IntentPerson"
++ "Trying to create SearchPropertyResponse of name: %s, type: %s, from value: %{sensitive}s"
++ "Unable to check RG override due to initialization failure, skipping"
++ "Unable to create SearchPropertyType from "
++ "Unable to create event entity for result: "
++ "Unable to create event result for item: "
++ "Unable to create result from item: "
++ "Unable to decode SearchEntity from result: "
++ "Unable to dynamically truncate documents: %s"
++ "Unable to encode CSSI for Event document: %@"
++ "Unable to fetch all requested attributes %s"
++ "Unable to fetch spotlight document with bundleId: %s, docId: %s"
++ "Unable to get %s from result: %s, docId: %s"
++ "Unable to get attributed parse from spotlight QP"
++ "Unable to initialize configs for Answer Synthesis allowed types"
++ "Unable to make SFCard from global results"
++ "Unable to parse allowed types from config."
++ "Unable to parse config setting, using default values."
++ "Unable to parse disallowAllModelDialogs setting. Defaulting to true."
++ "Unable to parse multi-source setting. Defaulting to false."
++ "Unable to parse voice-mode setting. Defaulting to true."
++ "Unable to provide derived type: %s - falling back to item type"
++ "Unable to resolve the hydration entity value: %{sensitive}s to the desired requested property: %s, returning empty search results"
++ "Unexpected AppEntity type %s and content type %s found in Files index."
++ "Unhandled (yet) bundleId: "
++ "Unhandled (yet) content type "
++ "Unhandled event type: %{sensitive}s - dropping"
++ "Unknown AppEntity type %s"
++ "Unknown Domain Error"
++ "Unsupported SearchPropertyOverride type `%s` - use AS override instead"
++ "Updated requested properties: %s"
++ "User default `photosEvalProcessing` is enabled, checking for photos in results."
++ "Using UAF config for Answer Synthesis allowed types"
++ "Using default config from build for Answer Synthesis allowed types"
++ "Wallet pass attribute passbookIsPaymentPass: %s"
++ "Wallet pass found: %{sensitive}s"
++ "Wallet transaction found: %{sensitive}s"
++ "Wallet transactions"
++ "Warning: forceLLMQU is enabled, disregarding structured query"
++ "Warning: forceLLMQU is not enabled and no structured query was provided. Going ahead with search without any query parse."
++ "We did not get a valid hydration functions for type: %s and return an empty array."
++ "Whether search should only use information available on screen to answer the query"
++ "Whether this search is part of a single step plan, or part of a multi-step (search composite) plan"
++ "[DEPRECATED] mediaType: "
++ "[DEPRECATED] objectType: "
++ "[DEPRECATED] returnType: "
++ "[DEPRECATED] sortOrder: "
++ "[DEPRECATED] sourceDocumentType: "
++ "[DEPRECATED] utType: "
++ "[DeviceState] {\n    deviceClass: "
++ "_Concurrency/TaskGroup.swift"
++ "_OverrideConfigurationHelper.renderedPromptSanitizer(.init(overrides:.withoutDefault(nil),guardrails:.withoutDefault(nil)))"
++ "_OverrideConfigurationHelper.responseSanitizer(.init(overrides:.withoutDefault(nil),guardrails:.withoutDefault(nil)))"
++ "_TtC10OmniSearch14ContextManager"
++ "_TtC10OmniSearch15LocalizedString"
++ "_TtC10OmniSearch17RGOverrideMatcher"
++ "_TtC10OmniSearch20ResultSectionBuilder"
++ "_TtC10OmniSearch23SourceDocumentRetriever"
++ "_TtC10OmniSearch25RequestedPropertiesMapper"
++ "_TtC10OmniSearch25SearchEntityVisualContext"
++ "_TtC10OmniSearch26SearchToolProgressReporter"
++ "_TtC10OmniSearch27DefaultSpotlightQueryParser"
++ "_TtC10OmniSearch27FeatureStoreDonationManager"
++ "_TtC10OmniSearch32PhotosInAppSearchStringGenerator"
++ "_TtC10OmniSearch33AnswerSynthesisAllowedAppsChecker"
++ "_kMDItemBundleID"
++ "administrativeArea"
++ "allowASRGOverride"
++ "allowMultiSources"
++ "allowNewDateFormatting"
++ "allowedTypesConfig"
++ "answerSynthesisCDSchemaOverride"
++ "answerSynthesisModelExecution"
++ "answerSynthesisRequestedPropertiesPerRequest"
++ "answerSynthesisResponseOverride"
++ "answers disambiguationDialog "
++ "appBundleId"
++ "appEntityStatus"
++ "appstoreAttributes"
++ "arrival location: "
++ "asJournalSupport"
++ "asPhoneHistorySupport"
++ "asSafariHistorySupport"
++ "asVoiceMemoSupport"
++ "asVoicemailSupport"
++ "ascending"
++ "assetNamed:"
++ "browser"
++ "buildEventAfterHdyration(for:locale:emailDocument:with:)"
++ "buildEventAfterSMSHydration(for:mobileSMSDocument:locale:)"
++ "bundleId"
++ "calculateTokenCount()"
++ "com.apple.Keynote"
++ "com.apple.Numbers"
++ "com.apple.Spotlight"
++ "com.apple.fm.language.instruct_3b.photos_memories_query_understanding_3b_china"
++ "com.apple.if.planner.overrides"
++ "com.apple.if.planner.response_generation.overrides."
++ "com.apple.iwork.keynote.sffkey"
++ "com.apple.iwork.numbers.sffnumbers"
++ "com.apple.iwork.pages.sffpages"
++ "com.apple.notes.spotlightrecord"
++ "com.apple.omniSearch.SiriXReadingFallbackError"
++ "com.apple.photos.memorycreation"
++ "com.apple.searchtool.media"
++ "com.microsoft.Office.Outlook"
++ "com_apple_mail_messageID==\""
++ "command"
++ "completed"
++ "contactAttributes"
++ "contactHandleType"
++ "contactIdentifiers"
++ "containsType"
++ "context"
++ "convertToDateComponents(_:)"
++ "createAnswerSynthesisRequest(for:requestedProperties:results:onScreenText:context:enableTruncation:)"
++ "currentTime"
++ "customAttributes"
++ "dateComponents"
++ "decodeECRMapping's Spotlight SPQueryResponse ecrGroundedPersons: %{sensitive}s, %{sensitive}s)"
++ "dedupMessageDict(_:basedOn:)"
++ "defaultKeys"
++ "departure location: "
++ "descending"
++ "dialog"
++ "disallowAllModelDialogs"
++ "docs"
++ "document experiences "
++ "domain"
++ "due"
++ "dynamicDocumentTruncation"
++ "ecrGroundedPersons"
++ "ecrResult"
++ "editorialDates"
++ "emails"
++ "environment"
++ "error decoding csItem: %@"
++ "error decoding spotlight features: %@"
++ "eventsWithIdentifiers:"
++ "executeWithTriggerEvent:"
++ "expandedTypes"
++ "extractedCurrenciesValues"
++ "extractedDatesValues"
++ "extractedLocationsValues"
++ "extracted_properties"
++ "featureStoreLogging"
++ "fetchCNContactForHandleWithID:"
++ "fetchCalendarDocument(docId:)"
++ "fetchContactsDocument(docId:)"
++ "fetchEventDocument(docId:)"
++ "fetchEventsAndHydrate(calendarResults:)"
++ "fetchExtractedEventsLLMConsumableDescription(for:locale:)"
++ "fetchFileDocument(docId:bundleId:)"
++ "fetchFullContent(for:locale:)"
++ "fetchFullContentForMessagesResultAndIdentifier(_:messageIdentifier:)"
++ "fetchFullContentForMessagesResults(_:locale:)"
++ "fetchFullContentForNotesResults(_:locale:)"
++ "fetchJournalDocument(docId:)"
++ "fetchMailDocument(docId:)"
++ "fetchMessagesDocument(docId:)"
++ "fetchNoteDocument(docId:)"
++ "fetchPhoneDocument(docId:)"
++ "fetchPhoneHistoryDocument(docId:attributes:)"
++ "fetchPhotosDocument(docId:)"
++ "fetchReminderDocument(docId:)"
++ "fetchSafariHistory(docId:)"
++ "fetchSourceCSSI(for:)"
++ "fetchTextWithProvideDataSPI(from:)"
++ "fetchVoiceMemoDocument(docId:)"
++ "fetchVoicemailDocument(docId:attributes:)"
++ "fetchWalletDocument(docId:)"
++ "fileExistsAtPath:"
++ "filterQueries"
++ "filterType"
++ "flagColor"
++ "fullAttributeSet"
++ "fullName"
++ "generalAttributes"
++ "genericSpotlightItem"
++ "getDirectionsForLocationResolution"
++ "getLastIndexToTruncate()"
++ "group number"
++ "handlePhotosResultsForEval(query:typeIdentifiers:isExpectingAnswer:results:ecrResults:)"
++ "handlerForCommand:environment:"
++ "hasTextContent"
++ "hydrateTextContent(from:)"
++ "hydrateWithEvents(for:locale:)"
++ "hydrateWithSourceDocuments(for:itemFetcher:resultHydrator:locale:)"
++ "hydrateWithSourceEmailDocument(for:mailMessageId:itemFetcher:locale:)"
++ "hydrateWithSourceMessageDocumentFromResultHydrator(for:eventMessageIdentifier:resultHydrator:locale:)"
++ "hydrationContext"
++ "init(query:requestedProperties:documents:onScreenText:context:charLimit:enableTruncation:)"
++ "initWithAttributes:"
++ "initWithContentsOfURL:"
++ "initWithDomain:code:userInfo:"
++ "initWithDouble:"
++ "initWithIntentLabel:tokenArguments:isPQA:"
++ "initWithItemProviderData:typeIdentifier:error:"
++ "initWithKgq:text:mode:includeFeatures:includeInferredNames:"
++ "initWithPhotoLibrary:"
++ "initWithPhotoLibraryURL:"
++ "initWithTagSchemes:"
++ "initWithUnit:"
++ "initWithUnsignedLongLong:"
++ "isHomogenousSources"
++ "isOnScreenReference"
++ "isQuestion"
++ "isSingleStepSearch"
++ "itemAppEntityInstanceId"
++ "kMDItemContentType"
++ "locale"
++ "localizedStringForKey:value:table:"
++ "locations"
++ "matcher"
++ "messageTime"
++ "mode"
++ "n/a"
++ "navigation"
++ "needAnswerMatchWithLocationResolution"
++ "noteFolder"
++ "numberFromString:"
++ "onScreen"
++ "onScreen not supported - select a concrete entityType"
++ "onScreenReferences"
++ "openCommand.data"
++ "options.isOnScreenReference is false, dropping onScreenText"
++ "options.isSingleStepSearch is true, dropping onScreenText"
++ "orderByTime"
++ "people"
++ "performSearch:resultsHandler:"
++ "performSynthesisRequest(for:with:answerSynthesisMetrics:clientId:)"
++ "personalDataSources"
++ "photosSearchEval"
++ "pickOne"
++ "pommesAdjustedL1Score"
++ "preferredType"
++ "prewarmModel(urgency:)"
++ "progressReportingIntent"
++ "property_types_to_extract"
++ "provideDataForBundle:identifier:type:completionHandler:"
++ "providerDataTypeIdentifiers"
++ "rawQuery"
++ "readingFlowFallback"
++ "receiver"
++ "relationLabel"
++ "requestEndedTier1"
++ "requestedPropertyController"
++ "retrieveAssetSet:usages:"
++ "rewrittenQuery"
++ "searchAnswer"
++ "searchAnswerValue"
++ "searchBundleId"
++ "searchByPhoneNumber('"
++ "searchCATContext"
++ "searchCATContextOverride"
++ "searchContext"
++ "searchResultFromItem(_:spotlightRankingItem:eventSourceItemsMap:allowedTypes:locale:)"
++ "searchString"
++ "searchTerms"
++ "searchToolHallucinationDetectionContext"
++ "searchableIndex"
++ "segmentResultsForHydration(_:)"
++ "setAccountIdentifier:"
++ "setAlbum:"
++ "setAppEntityInstanceId:"
++ "setArtist:"
++ "setAuthorAddresses:"
++ "setAuthorNames:"
++ "setCompletedUnitCount:"
++ "setContentCreationDate:"
++ "setContentDescription:"
++ "setContentURL:"
++ "setCurator:"
++ "setDateStyle:"
++ "setDetectedEventTypes:"
++ "setDisplayName:"
++ "setDoesRelativeDateFormatting:"
++ "setDomainIdentifier:"
++ "setDuration:"
++ "setEmailAddresses:"
++ "setEndDate:"
++ "setEpisode:"
++ "setEventCustomerNames:"
++ "setEventDuration:"
++ "setEventFallbackGroupIdentifier:"
++ "setEventGroupIdentifier:"
++ "setEventIsAllDay:"
++ "setEventMegadomeIdentifier:"
++ "setEventMessageIdentifier:"
++ "setEventNumberOfRooms:"
++ "setEventProvider:"
++ "setEventRoomNumbers:"
++ "setEventSourceBundleIdentifier:"
++ "setEventSourceIsForwarded:"
++ "setEventStartLocationAddress:"
++ "setEventStartLocationName:"
++ "setEventStartLocationTelephone:"
++ "setEventStatus:"
++ "setEventSubType:"
++ "setEventTotalCost:"
++ "setEventType:"
++ "setFilename:"
++ "setFlightArrivalAirportAddress:"
++ "setFlightArrivalAirportCode:"
++ "setFlightArrivalAirportCountry:"
++ "setFlightArrivalAirportLocality:"
++ "setFlightArrivalAirportName:"
++ "setFlightArrivalAirportRegion:"
++ "setFlightArrivalGate:"
++ "setFlightArrivalTerminal:"
++ "setFlightArrivalTimeZone:"
++ "setFlightBoardingDateTime:"
++ "setFlightCarrier:"
++ "setFlightCarrierCode:"
++ "setFlightCheckInUrl:"
++ "setFlightConfirmationNumber:"
++ "setFlightDepartureAirportAddress:"
++ "setFlightDepartureAirportCode:"
++ "setFlightDepartureAirportCountry:"
++ "setFlightDepartureAirportLocality:"
++ "setFlightDepartureAirportName:"
++ "setFlightDepartureAirportRegion:"
++ "setFlightDepartureDateTime:"
++ "setFlightDepartureGate:"
++ "setFlightDepartureTerminal:"
++ "setFlightDepartureTimeZone:"
++ "setFlightNumber:"
++ "setFlightPassengerNames:"
++ "setFlightPassengerSeatNumbers:"
++ "setFlightStatus:"
++ "setFormattingContext:"
++ "setHotelCheckinDate:"
++ "setHotelCheckinTime:"
++ "setHotelModifyReservationUrl:"
++ "setHotelReservationForAddress:"
++ "setHotelReservationForName:"
++ "setHotelReservationForTelephone:"
++ "setHotelReservationId:"
++ "setIdentifier:"
++ "setKeywords:"
++ "setKind:"
++ "setLastUsedDate:"
++ "setLinkName:"
++ "setLinkSubType:"
++ "setLinkType:"
++ "setLocalizedDescription:"
++ "setMailMessageID:"
++ "setMailboxIdentifiers:"
++ "setMessageService:"
++ "setMusicalGenre:"
++ "setNamedLocation:"
++ "setOrganizations:"
++ "setParticipants:"
++ "setPhoneNumbers:"
++ "setPhotosBusinessNames:"
++ "setPhotosContentCreationDate:"
++ "setPhotosContentDescription:"
++ "setPhotosScenes:"
++ "setPhotosSeasons:"
++ "setPodcastName:"
++ "setProviderDataTypeIdentifiers:"
++ "setRecordingDate:"
++ "setRestaurantMealType:"
++ "setRestaurantPartySize:"
++ "setRestaurantReservationId:"
++ "setRestaurantStartDate:"
++ "setStartDate:"
++ "setString:"
++ "setTimeIsUnknown:"
++ "setTimeStyle:"
++ "setTitle:"
++ "setTotalUnitCount:"
++ "setUniqueIdentifier:"
++ "setUrlDescription:"
++ "sharedInstance"
++ "sharedManager"
++ "shouldOpen"
++ "simplifiedQuery"
++ "slowFetchAttributes:protectionClass:bundleID:identifiers:completionHandler:"
++ "sourceCATEntities"
++ "sourceType"
++ "spotlightRankingItem"
++ "structuredQuery"
++ "subAdministrativeArea"
++ "synthesize(query:requestedProperties:searchResults:onScreenText:context:clientId:)"
++ "systemPhotoLibraryURL"
++ "tGSukUShUP0Gla7shyFVXFjILhc."
++ "tagName"
++ "temporalReference"
++ "triggersDisambiguation"
++ "truncateLastPersonalDataSources()"
++ "truncatePersonalDataSourcesToTokenLimit()"
++ "typeIdentifiers"
++ "typeName"
++ "uc6m3VcuQ3YUeocq5dnMqOV0e5w."
++ "unspecified location: "
++ "unspecified person: "
++ "urgentPCCPrewarm"
++ "v24@?0@\"NSData\"8@\"NSError\"16"
++ "v40@?0@\"NSArray\"8@\"NSArray\"16@\"NSArray\"24@\"NSError\"32"
++ "verificationModelExecution"
++ "visualIdentifier"
++ "visualIdentifierObjects"
++ "voicemail_transcript"
+- "\", Allowed Types: "
+- "%s CSSearchableIndex bulkFetchCacheFileDescriptor returned results: %s"
+- "%s CSSearchableItem: %s, attributes: %s"
+- "%s Created LNEntityMetadata: %s"
+- "%s Fetching source Email for event: %s"
+- "%s LNConnection.performConfigurableQuery returned LNQueryOutput: %s"
+- "%s LNQueryOutput contained [LNValue]: %s"
+- "%s Message identifiers: %s"
+- "%s No EmailDocument in the mapping for %s"
+- "%s Not able extract 'contents' as AttributedString from properties: %s"
+- "%s Returning dict: %s"
+- "%s Set eventSourceLLMConsumableDescription to %s"
+- "%s Skipping. No mailMessageId for this event: %s"
+- "%s charLimit=%ld, documents.count=%ld charLimitPerDocument=%ld"
+- "%s created appointment: %s"
+- "%s created rentalCarReservation: %s"
+- "%s created ticketedShow: %s"
+- "%s created ticketedTransportation: %s"
+- "%s created trip: %s"
+- "%s created upcomingFlight: %s"
+- "%s created upcomingHotel: %s"
+- "%s created upcomingParty: %s"
+- "%s created upcomingRestaurant: %s"
+- "%s hydratedResults: %s"
+- "%s identifiers: %s"
+- "%s no results return after being filtered"
+- "(AppEntitySearchClient) Result Rank %ld: id:%s, bundle:%s, L2:%s, L1:%s"
+- ", Structured Query: "
+- "/Music|Song|Artist|Album|Playlist|Podcast|Soundtrack/"
+- "/https:\\/\\/(?:music\\.)?youtube\\.com([^\\s.]*)/"
+- "/https:\\/\\/(?:on\\.)soundcloud\\.com([^\\s.]*)/"
+- "/https:\\/\\/(?:open\\.)?spotify\\.com([^\\s.]*)/"
+- "/https:\\/\\/music\\.apple\\.com([^\\s.]*)/"
+- "/https:\\/\\/overcast\\.fm([^\\s.]*)/"
+- "/https:\\/\\/podcasts\\.apple\\.com([^\\s.]*)/"
+- "AS server model version is %s"
+- "AjaxTempQueryUnderstanding30b"
+- "Allowed types is nil or empty. Returning empty [SearchResult]."
+- "Answer Synthesis response not valid, skip calling PQA verification model and returning no answer"
+- "Answer missing source result: %s"
+- "AnswerMetadata missing required fields: %s"
+- "AnswerMetadata: %s"
+- "AppEntitySearchClient.findMatches - Returning early. No sections found!"
+- "AppEntitySearchClient.matches found %ld items"
+- "AppEntitySearchClient: Call to Spotlight failed with error: %@"
+- "AppEntitySearchService.search"
+- "Attempting to create AnswerMetadata without SourceResult"
+- "Attempting to create AnswerMetadata without answer"
+- "Attempting to create AnswerMetadata without id"
+- "Attempting to run groundSeasonsHeuristic on dateString: %s"
+- "Building dialog using templates at %s"
+- "Calendar event found: %s"
+- "Can't construct Array with count < 0"
+- "Cannot make flight from entity %@"
+- "Checking for response override with query %s and response %s"
+- "Construct CAT dialog for PQA use case after disambiguation"
+- "Contact found: %s"
+- "Converting: %s to Date type"
+- "Creating doc for message: %lld"
+- "DKJndVHImIzFkiybjTDAw0XJk9w."
+- "Disambiguating %ld results (limit=%ld)"
+- "Division by zero"
+- "Division results in an overflow"
+- "EEEE, MMM dd, yyyy"
+- "Email found: %s, subject: %s, authors:%s, recipients: %s"
+- "EmailContentManager: failed to convert message to EmailDoc %@"
+- "EmailContentManager: found %ld messages, mail message id keys: %s, values: %s"
+- "EmailContentManager: no contentURL"
+- "EmailContentManager: no mail message from id: %s from messages %s"
+- "Error during ECR match for relationship"
+- "Expected the answer to be a value but found an end of stream"
+- "Expected the dialog to be a value but found an end of stream"
+- "Failed to cast search result to spotlightExtras: %@"
+- "Failed to construct valid entity from result: %s, error: %@"
+- "Failed to encode AnswerMetadata result"
+- "Failed to encode FederateSearch result"
+- "Failed to find flight info with results: %s"
+- "Failed to retrieve mecard from contacts store"
+- "Failed to strip web search punchout button, error: %@"
+- "Failed to synthesize searchable item from result: %@"
+- "Fetched ECR result: %s"
+- "Fetching InstantAnswer source emails for %s, query: %s"
+- "File SearchResult found: %s"
+- "Finished fetching InstantAnswer source emails with %s for %s"
+- "Flight reservation found: %{sensitive}s ; %{sensitive}s"
+- "FlightEntity: Missing departure date information, will provide flight's current status. %s"
+- "Found address: %s"
+- "Found phone number: %s"
+- "Found proper name: %s"
+- "Found result of unhandled category: %s, value: %s"
+- "Found result: %s, uniqueId:%s, domainId: %s"
+- "Found section: %s"
+- "GlobalSearch encountered an error: %@"
+- "Hallucination detection rejected LLM-generated disambiguation dialog, falling back to static"
+- "Hallucination detection rejected LLM-generated result dialog, falling back to CAT"
+- "InstantAnswer Source Email Mapping Keys: %s"
+- "Insufficient space allocated to copy string contents"
+- "Item found with un-handled bundleId: %s"
+- "Journal Entry found: %s"
+- "LLM QU asset version number: %s"
+- "LocalIndexClient: Found instant answer of unknown type: %s"
+- "LocalIndexClient: InstantAnswer has no eventType"
+- "Memory Creation Grouding"
+- "Message found: %s"
+- "Missing TimeZone info for arrival: %s"
+- "Missing TimeZone info for departure: %s"
+- "Missing entityType: "
+- "Missing event type"
+- "Negative value is not representable"
+- "No search result answers"
+- "Not enough bits to represent the passed value"
+- "Note found: %s"
+- "OmniSearchService.personNameAndVisualIdentifiersWithText"
+- "Override found! Returning canned SearchTool entities."
+- "Override output entity missing one or more required keys, or invalid values"
+- "OverrideExperience: Unrecognized experience request %s, only %s are supported. Using GenericExperience"
+- "PQA Verification predicts hallucination, fallback to content search"
+- "PQA verification model is enabled but not initialized"
+- "Passing through AS-generated dialog: \"%s\""
+- "Phone History found: %s"
+- "Photo or Video found: %{sensitive}s"
+- "Pre-Extraction event is discarded. InstantAnswer has no source email: eventType: %s, mailMessageId: %s, eventMessageId: %s, SourceBundle:%s,"
+- "PreExtractedEvents.HotelReservation: created check-in: %s, check-out: %s"
+- "QUPP_ARG_INFERRED_APP_ENTITY_TYPE_CALENDAR_EVENT"
+- "QUPP_ARG_INFERRED_APP_ENTITY_TYPE_CONTACT"
+- "QUPP_ARG_INFERRED_APP_ENTITY_TYPE_CONVERSATION"
+- "QUPP_ARG_INFERRED_APP_ENTITY_TYPE_DOCUMENT"
+- "QUPP_ARG_INFERRED_APP_ENTITY_TYPE_EMAIL"
+- "QUPP_ARG_INFERRED_APP_ENTITY_TYPE_FREEFORM_BOARD"
+- "QUPP_ARG_INFERRED_APP_ENTITY_TYPE_JOURNAL"
+- "QUPP_ARG_INFERRED_APP_ENTITY_TYPE_KEYNOTE"
+- "QUPP_ARG_INFERRED_APP_ENTITY_TYPE_LINK"
+- "QUPP_ARG_INFERRED_APP_ENTITY_TYPE_MEMORY"
+- "QUPP_ARG_INFERRED_APP_ENTITY_TYPE_MESSAGE"
+- "QUPP_ARG_INFERRED_APP_ENTITY_TYPE_NOTE"
+- "QUPP_ARG_INFERRED_APP_ENTITY_TYPE_NOTE_FOLDER"
+- "QUPP_ARG_INFERRED_APP_ENTITY_TYPE_NUMBERS"
+- "QUPP_ARG_INFERRED_APP_ENTITY_TYPE_PAGES"
+- "QUPP_ARG_INFERRED_APP_ENTITY_TYPE_PHONE_CALL"
+- "QUPP_ARG_INFERRED_APP_ENTITY_TYPE_PHOTO"
+- "QUPP_ARG_INFERRED_APP_ENTITY_TYPE_PHOTO_ALBUM"
+- "QUPP_ARG_INFERRED_APP_ENTITY_TYPE_REMINDER"
+- "QUPP_ARG_INFERRED_APP_ENTITY_TYPE_REMINDER_LIST"
+- "QUPP_ARG_INFERRED_APP_ENTITY_TYPE_VIDEO"
+- "QUPP_ARG_INFERRED_APP_ENTITY_TYPE_VOICE_MAIL"
+- "QUPP_ARG_INFERRED_APP_ENTITY_TYPE_VOICE_MEMOS"
+- "QUPP_ARG_INFERRED_APP_ENTITY_TYPE_WALLET_PASS"
+- "QUPP_ARG_PERSON_SELF"
+- "Ran dd on calendar and got fields: %s"
+- "Ran dd on email and got fields: %s"
+- "Ran dd on message and got fields: %s"
+- "ReflectionToken false detected, fallback to content search"
+- "Rejecting resolved flight data - does not match pre-extracted info."
+- "Reminder found: %s"
+- "Resolving flight: \"%s\""
+- "Response override FF is disabled, skipping checks"
+- "Response override with identifier %s matched, ignoring all other dialogs"
+- "Result %ld---%s---Card: %s---%s\n"
+- "Retrieved resolved flight info: %s"
+- "Safari item found: %s"
+- "SearchTool Intent perform() called with\n    rawQuery: %s,\n    rewrittenQuery: %s,\n    structuredQuery: %s,\n    typeIdentifiers: %s,\n    context: %s,\n    matchedEntities: %s,\n    isFirstToolInvocation: %{bool}d"
+- "SearchTool disambiguation %s:\n    isQuestionQuery: %{bool}d\n    isOpenQuery: %{bool}d\n    count: %ld\n    isContentSearch: %{bool}d"
+- "SearchTool unpacking Answer to %ld entity results"
+- "SearchTool.Disambiguation"
+- "Set custom override attribute: %s=%s"
+- "Skip extra logging for eval"
+- "Source Documents"
+- "Start AppEntity search with request: %s"
+- "Starting local search..."
+- "Stripped web search punchout button"
+- "Swift/Array.swift"
+- "Swift/ContiguousArrayBuffer.swift"
+- "Swift/IntegerTypes.swift"
+- "Swift/Integers.swift"
+- "Swift/StringTesting.swift"
+- "Swift/StringUTF8View.swift"
+- "Swift/UnsafeBufferPointer.swift"
+- "Swift/UnsafePointer.swift"
+- "Swift/UnsafeRawPointer.swift"
+- "Unable to get AS model - server version"
+- "Unable to get LLM QU asset version number due to error: %@"
+- "Unexpected fallback type ResponseOverrideDialog"
+- "Unexpectedly found nil while unwrapping an Optional value"
+- "Unhandled event type: %s - dropping"
+- "Unknown event type "
+- "Unknown event type: %s"
+- "UnsafeMutableBufferPointer with negative count"
+- "UnsafeMutablePointer.initialize overlapping range"
+- "UnsafeMutablePointer.initialize with negative count"
+- "UnsafeMutablePointer.moveInitialize with negative count"
+- "UnsafeMutableRawPointer.initializeMemory overlapping range"
+- "UnsafeMutableRawPointer.initializeMemory with negative count"
+- "Using provided type %s for value: %s"
+- "Voice Memo found: %s"
+- "Voicemail Transcript found: %s"
+- "Wallet pass found: %s"
+- "Wallet transaction found: %s"
+- "_TtC10OmniSearch19SearchEntityBuilder"
+- "_TtC10OmniSearch20AppEntityIndexClient"
+- "_TtCC10OmniSearch26AnswerSynthesisModelServerP33_D96EF656C77D80FBBF60C1DE966D1FA611_ClientInfo"
+- "_TtCC10OmniSearch28AnswerSynthesisModelOnDeviceP33_1A1AC706E90088069DC59A42425C0CBB11_ClientInfo"
+- "_TtCC10OmniSearch28PQAVerificationModelOnDeviceP33_9A46336C3C4431BAFF09DC622DE21C0E11_ClientInfo"
+- "_clientInfo"
+- "_ios_meContactWithKeysToFetch:error:"
+- "_model"
+- "allowedTypes is empty. Returning no results."
+- "appName"
+- "bad restaurant item"
+- "bad show ticket item"
+- "bad tranport ticket item"
+- "com_apple_omnisearch_spotlight_metrics"
+- "createAnswerSynthesisRequest(for:with:context:enableTruncation:)"
+- "defaultWorkspace"
+- "extracted addresses labels"
+- "extracted emails labels"
+- "extracted flights labels"
+- "extracted links labels"
+- "extracted phone numbers labels"
+- "extracted tracking numbers labels"
+- "extractedAddresses"
+- "extractedCurrencies"
+- "extractedFlights"
+- "extractedLocations"
+- "extractedPhoneNumbers"
+- "extractedTrackingNumbers"
+- "familyName"
+- "fetchExtractedEventsLLMConsumableDescription(for:)"
+- "fetchFullContent(for:)"
+- "fetchFullContentForMessagesResults(_:)"
+- "fetchFullContentForNotesResults(_:)"
+- "fetchSourceEmailItems(for:)"
+- "found nil encoded CSSI when trying to unwrap Event document"
+- "found nil encoded CSSI when trying to unwrap IDCard document"
+- "givenName"
+- "hydrateWithEvents(for:)"
+- "hydrateWithSourceDocuments(for:itemFetcher:)"
+- "hydrateWithSourceEmailDocument(for:mailMessageId:itemFetcher:)"
+- "ignoreFutureDates"
+- "ignoreSingleYearSuggestion"
+- "init(query:documents:context:charLimit:enableTruncation:)"
+- "initWithActivityType:"
+- "initWithConfiguration:"
+- "initWithContentType:"
+- "initWithIntentLabel:tokenArguments:"
+- "initWithItemContentType:"
+- "invalid Collection: less than 'count' elements in collection"
+- "isMe"
+- "kMDItemContentType = public.email-message"
+- "l3x-n1QCj_u4sL9FLENCG2TuREU."
+- "maxCount"
+- "mediaResolution"
+- "middleName"
+- "openUserActivity:usingApplicationRecord:configuration:completionHandler:"
+- "parentOfOnBehalfOfPid"
+- "postProcessingFilter"
+- "public.email-message"
+- "range"
+- "referenceDocs is expectec to have first item here, skipping answer"
+- "setIncludeDonatedContacts:"
+- "setIncludeLocalContacts:"
+- "setIncludeSuggestedContacts:"
+- "setMaxCount:"
+- "setMaxRankedResultCount:"
+- "setUserInfo:"
+- "sourceDocumentType: "
+- "span"
+- "synthesize(query:searchResults:context:traceId:clientId:)"
+- "text"
+- "trackingConfig"
+- "useCaseIdentifier"
+- "v20@?0B8@\"NSError\"12"
+- "visualIdentifiers"
+- "wallet transactions"
+
+```

@@ -1,0 +1,244 @@
+## libswiftUniformTypeIdentifiers.dylib
+
+> `/usr/lib/swift/libswiftUniformTypeIdentifiers.dylib`
+
+```diff
+
+-830.8.4.0.0
+-  __TEXT.__text: 0x9a18
++841.8.0.0.0
++  __TEXT.__text: 0x9728
+   __TEXT.__auth_stubs: 0x7d0
+   __TEXT.__objc_methlist: 0x2c
+-  __TEXT.__const: 0x8e0
++  __TEXT.__const: 0x954
+   __TEXT.__cstring: 0x214
+   __TEXT.__constg_swiftt: 0x164
+   __TEXT.__swift5_typeref: 0x2b2
+
+   __TEXT.__swift5_types: 0x28
+   __TEXT.__swift5_capture: 0x44
+   __TEXT.__swift5_mpenum: 0x8
+-  __TEXT.__unwind_info: 0x3c0
++  __TEXT.__unwind_info: 0x3a8
+   __TEXT.__eh_frame: 0x310
+   __TEXT.__objc_methname: 0x6c6
+   __DATA_CONST.__got: 0x620
+
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_selrefs: 0x1f8
+   __AUTH_CONST.__auth_got: 0x3e8
+-  __AUTH_CONST.__auth_ptr: 0x1c8
++  __AUTH_CONST.__auth_ptr: 0x1c0
+   __AUTH_CONST.__const: 0x518
+   __AUTH_CONST.__objc_const: 0x60
+-  __DATA.__data: 0x150
+-  __DATA.__bss: 0xe80
++  __DATA.__data: 0x138
++  __DATA.__bss: 0xe00
+   __DATA.__common: 0x1
+   __DATA_DIRTY.__objc_data: 0xb0
+-  __DATA_DIRTY.__data: 0x50
+-  __DATA_DIRTY.__bss: 0x300
++  __DATA_DIRTY.__data: 0x68
++  __DATA_DIRTY.__bss: 0x380
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/Frameworks/UniformTypeIdentifiers.framework/UniformTypeIdentifiers
+
+   - /usr/lib/swift/libswift_time.dylib
+   - /usr/lib/swift/libswiftsys_time.dylib
+   - /usr/lib/swift/libswiftunistd.dylib
+-  Functions: 481
+-  Symbols:   935
++  Functions: 469
++  Symbols:   1114
+   CStrings:  80
+ 
+Symbols:
++ _$s22UniformTypeIdentifiers10UTTagClassV04mimeB0ACvpZMV
++ _$s22UniformTypeIdentifiers10UTTagClassV16_deviceModelCodeACvpZMV
++ _$s22UniformTypeIdentifiers10UTTagClassV17filenameExtensionACvpZMV
++ _$s22UniformTypeIdentifiers15UTHardwareColorO016currentEnclosureE0ACSgvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV05cPlusE6HeaderACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV05cPlusE6SourceACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV10_genericPCACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV10_iOSDeviceACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV10_iPodTouchACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV10_macLaptopACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV10executableACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV10javaScriptACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV10mountPointACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV10mpeg2VideoACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV10mpeg4AudioACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV10mpeg4MovieACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV10perlScriptACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV10resolvableACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV10rubyScriptACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV10sourceCodeACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV10tarArchiveACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV10webArchiveACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV10xpcServiceACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV11_appleWatchACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV11_macBookAirACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV11_macBookProACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV11_passBundleACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV11_passesDataACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV11appleScriptACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV11applicationACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV11m3uPlaylistACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV11realityFileACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV11shellScriptACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV11spreadsheetACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV11swiftSourceACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV12_appleDeviceACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV12appleArchiveACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV12emailMessageACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV12pluginBundleACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV12presentationACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV12propertyListACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV12pythonScriptACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV12symbolicLinkACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV13_blockSpecialACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV13_heifStandardACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV13_iOSSimulatorACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV13calendarEventACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV13delimitedTextACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV13sceneKitSceneACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV13threeDContentACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV13utf8PlainTextACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV14_currentDeviceACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV14quickTimeMovieACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV14unixExecutableACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV14utf16PlainTextACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV15_appleVisionProACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV15osaScriptBundleACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV15urlBookmarkDataACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV15x509CertificateACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV15xmlPropertyListACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV16_namedPipeOrFIFOACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV16compositeContentACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV16internetLocationACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV16internetShortcutACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV16objectiveCSourceACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV16tabSeparatedTextACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV17_characterSpecialACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV17applicationBundleACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV17arReferenceObjectACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV17spotlightImporterACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV18audiovisualContentACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV18binaryPropertyListACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV18commaSeparatedTextACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV18quickLookGeneratorACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV20applicationExtensionACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV20mpeg2TransportStreamACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV20utf8TabSeparatedTextACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV21systemPreferencesPaneACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV22_appleEncryptedArchiveACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV22assemblyLanguageSourceACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV22utf16ExternalPlainTextACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV24appleProtectedMPEG4AudioACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV24appleProtectedMPEG4VideoACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV24linkPresentationMetadataACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV24objectiveCPlusPlusSourceACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV27_namedConstants_UTCoreTypesSayACGvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV31_namedConstants_UTCoreTypesPrivSayACGvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV3aviACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV3bmpACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV3bz2ACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV3cssACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV3dngACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV3exeACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV3exrACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV3gifACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV3icoACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV3logACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV3mp3ACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV3pdfACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV3pngACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV3rtfACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV3svgACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV3urlACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV3usdACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV3wavACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV3xmlACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV3zipACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV4_macACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV4ahapACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV4aiffACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV4dataACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV4epubACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV4fontACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV4gzipACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV4heicACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV4heifACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV4htmlACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV4icnsACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV4itemACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV4jpegACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV4jsonACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV4midiACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV4mpegACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV4rtfdACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV4textACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV4tiffACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV4usdzACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV4webPACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV4yamlACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV5_iMacACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV5_iPadACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV5audioACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV5heicsACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV5imageACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV5movieACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV5vCardACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV5videoACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV6bundleACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV6folderACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV6jpegxlACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV6pkcs12ACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV6scriptACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV6volumeACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV7_deviceACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV7_iPhoneACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV7_macProACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV7_socketACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV7archiveACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV7cHeaderACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV7cSourceACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV7contactACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV7contentACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV7fileURLACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV7geoJSONACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV7messageACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV7packageACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV8_appleTVACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV8_displayACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV8_homePodACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV8_macBookACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV8_macMiniACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV8_speakerACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV8bookmarkACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV8databaseACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV8flatRTFDACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV8makefileACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV8playlistACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV8rawImageACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV8toDoItemACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV9_computerACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV9_passDataACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV9aliasFileACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV9directoryACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV9diskImageACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV9frameworkACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV9livePhotoACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV9osaScriptACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV9phpScriptACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV9plainTextACvpZMV
++ _swift_cvw_assignWithCopy
++ _swift_cvw_assignWithTake
++ _swift_cvw_destroy
++ _swift_cvw_initWithCopy
++ _swift_cvw_initializeBufferWithCopyOfBuffer
+
+```

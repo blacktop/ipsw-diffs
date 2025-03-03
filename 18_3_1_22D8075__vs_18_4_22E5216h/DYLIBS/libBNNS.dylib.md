@@ -1,0 +1,360 @@
+## libBNNS.dylib
+
+> `/System/Library/Frameworks/Accelerate.framework/Frameworks/vecLib.framework/libBNNS.dylib`
+
+```diff
+
+-1361.60.15.0.0
+-  __TEXT.__text: 0x9511e4
+-  __TEXT.__auth_stubs: 0x11f0
+-  __TEXT.__gcc_except_tab: 0x27110
+-  __TEXT.__const: 0x1276f
+-  __TEXT.__cstring: 0x2af4f
++1497.100.139.0.0
++  __TEXT.__text: 0xa12934
++  __TEXT.__auth_stubs: 0x1230
++  __TEXT.__gcc_except_tab: 0x2b440
++  __TEXT.__const: 0x1526f
++  __TEXT.__cstring: 0x2c4b2
+   __TEXT.__oslogstring: 0x303
+-  __TEXT.__unwind_info: 0xa240
+-  __TEXT.__eh_frame: 0x8ac8
+-  __DATA_CONST.__got: 0xf8
+-  __DATA_CONST.__const: 0x38e0
+-  __AUTH_CONST.__auth_got: 0x900
+-  __AUTH_CONST.__auth_ptr: 0x2c8
+-  __AUTH_CONST.__const: 0xe3c0
++  __TEXT.__unwind_info: 0xb868
++  __TEXT.__eh_frame: 0xbc48
++  __DATA_CONST.__got: 0x110
++  __DATA_CONST.__const: 0x3a40
++  __AUTH_CONST.__auth_got: 0x920
++  __AUTH_CONST.__auth_ptr: 0x310
++  __AUTH_CONST.__const: 0xf820
+   __AUTH_CONST.__cfstring: 0x200
+   __DATA.__data: 0x1c
+   __DATA.__bss: 0xc0
+-  __DATA_DIRTY.__data: 0x4e0
++  __DATA_DIRTY.__data: 0x4e8
+   __DATA_DIRTY.__bss: 0x108
+   - /System/Library/Frameworks/Accelerate.framework/Frameworks/vecLib.framework/libBLAS.dylib
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/PrivateFrameworks/MIL.framework/MIL
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+-  Functions: 11019
+-  Symbols:   604
+-  CStrings:  4126
++  Functions: 11547
++  Symbols:   612
++  CStrings:  4299
+ 
+Symbols:
++ _BNNSGraphCompileOptionsGetShapeBounding
++ _BNNSGraphCompileOptionsSetShapeBounding
++ _BNNSGraphContextSetAdvancedWorkspaceReuse
++ _BNNSGraphContextSetStreamingAdvanceCount
++ __ZNSt3__117bad_function_callD1Ev
++ __ZTINSt3__117bad_function_callE
++ __ZTVNSt3__117bad_function_callE
++ ___sme_memcpy
++ ___sme_memset
++ __os_feature_enabled_impl
++ _abort
++ _dispatch_apply_f
+- _BNNSRecommendDataLayoutsContraction
+- _BNNSRecommendDataLayoutsMultiHeadAttention
+- __ZNKSt9exception4whatEv
+- _strncmp
+CStrings:
++ "  - function attr table "
++ "  .shape_workspace_size = %llu\n"
++ "  attributes = {"
++ " [SHAPE PASS]"
++ " ] stripe_width=%u stripe_align=%u\n"
++ " ] stripe_width=%u stripe_align=%u interleave=%u\n"
++ " gemm_intermediate"
++ " matmul bias repack for "
++ " matmul weights repack for "
++ " rot repack for "
++ " sd_available"
++ " shape_workspace_offset=%llu"
++ "%s: exec op %llu of %llu  %s\n"
++ "%s: skipped op %llu of %llu (it was performed during shape pass)\n"
++ ", query="
++ ", transX"
++ ", transY"
++ "2D conv_transpose: bias data type must match output data type"
++ "Attempted to execute unsupported data type for MLA binary arithmetic op."
++ "BNNS Binary Arithmetic received null pointer for either one of the operands or results data."
++ "BNNS GARPH Attention: size not supported"
++ "BNNS GRAPTH ATTENTION: Data Type not supported"
++ "BNNS Graph: layer norm encountered NaN, execution failed."
++ "BNNS Graph: layer norm op values changed, execution failed."
++ "BNNS Graph: wrong parallel size"
++ "BNNS Grpah: Pattern failed"
++ "BNNS IR describes a graph with dynamic sizes, BNNSGraphContextGetWorkspaceSize() must be used instead of BNNSGraphGetWorkspaceSize()."
++ "BNNS MATVEC: attempted to invoke matvec with accumulation type not supported on hardware"
++ "BNNS MATVEC: attempted to invoke matvec with bf16 accumulation type. Please use fp32 accumulation instead"
++ "BNNS: BNNS: Bad Kernel ID."
++ "BNNS: BNNSGraphContextExecute called before streaming advance size has been set through call to BNNSGraphContextSetStreamingAdvanceCount."
++ "BNNS: Your BNNS-IR file contains a bug and must be recompiled with a newer compiler"
++ "BNNS: input/output data type not supported"
++ "BNNS: wrong varaitn chosen"
++ "BNNSGraphCompileOptionsGetShapeBounding"
++ "BNNSGraphCompileOptionsSetShapeBounding"
++ "BNNSGraphContextSetAdvancedWorkspaceReuse"
++ "BNNSGraphContextSetStreamingAdvanceCount"
++ "BNNSGraphContextSetStreamingAdvanceCount may only be used with context created using BNNSGraphContextMakeStreaming"
++ "BNNS_GRAPH: error with workspace"
++ "BNNS_GRAPH: too many offsets"
++ "BNNS_GRAPH: unexpected number of threads"
++ "BasicNeuralNetworkSubroutines-1497.100.139~46"
++ "ConvTranspose Dynamic: Shape deduction received insufficient number of output tensors."
++ "Failed to allocate workspace of size %zu for subgraph %u\n"
++ "KERNEL_ARITHMETIC_BINARY_DYNAMIC_MLA2"
++ "KERNEL_ARITHMETIC_BINARY_DYNAMIC_MLA3"
++ "KERNEL_ARITHMETIC_BINARY_DYNAMIC_SME2"
++ "KERNEL_ARITHMETIC_SVADD_BF16_MLA3"
++ "KERNEL_ARITHMETIC_SVADD_BF16_SME2"
++ "KERNEL_ARITHMETIC_SVADD_FP16_MLA2"
++ "KERNEL_ARITHMETIC_SVADD_FP16_MLA3"
++ "KERNEL_ARITHMETIC_SVADD_FP32_MLA2"
++ "KERNEL_ARITHMETIC_SVADD_FP32_MLA3"
++ "KERNEL_ARITHMETIC_SVADD_FP32_SME2"
++ "KERNEL_ARITHMETIC_SVMUL_BF16_MLA3"
++ "KERNEL_ARITHMETIC_SVMUL_BF16_SME2"
++ "KERNEL_ARITHMETIC_SVMUL_FP16_MLA2"
++ "KERNEL_ARITHMETIC_SVMUL_FP16_MLA3"
++ "KERNEL_ARITHMETIC_SVMUL_FP32_MLA2"
++ "KERNEL_ARITHMETIC_SVMUL_FP32_MLA3"
++ "KERNEL_ARITHMETIC_SVMUL_FP32_SME2"
++ "KERNEL_ARITHMETIC_UPCONVERT_ADD"
++ "KERNEL_ARITHMETIC_VADD_BF16_MLA3"
++ "KERNEL_ARITHMETIC_VADD_BF16_SME2"
++ "KERNEL_ARITHMETIC_VADD_FP16_MLA2"
++ "KERNEL_ARITHMETIC_VADD_FP16_MLA3"
++ "KERNEL_ARITHMETIC_VADD_FP32_MLA2"
++ "KERNEL_ARITHMETIC_VADD_FP32_MLA3"
++ "KERNEL_ARITHMETIC_VADD_FP32_SME2"
++ "KERNEL_ARITHMETIC_VMUL_BF16_MLA3"
++ "KERNEL_ARITHMETIC_VMUL_BF16_SME2"
++ "KERNEL_ARITHMETIC_VMUL_FP16_MLA2"
++ "KERNEL_ARITHMETIC_VMUL_FP16_MLA3"
++ "KERNEL_ARITHMETIC_VMUL_FP32_MLA2"
++ "KERNEL_ARITHMETIC_VMUL_FP32_MLA3"
++ "KERNEL_ARITHMETIC_VMUL_FP32_SME2"
++ "KERNEL_ARITHMETIC_VSADD_BF16_MLA3"
++ "KERNEL_ARITHMETIC_VSADD_BF16_SME2"
++ "KERNEL_ARITHMETIC_VSADD_FP16_MLA2"
++ "KERNEL_ARITHMETIC_VSADD_FP16_MLA3"
++ "KERNEL_ARITHMETIC_VSADD_FP32_MLA2"
++ "KERNEL_ARITHMETIC_VSADD_FP32_MLA3"
++ "KERNEL_ARITHMETIC_VSADD_FP32_SME2"
++ "KERNEL_ARITHMETIC_VSMUL_BF16_MLA3"
++ "KERNEL_ARITHMETIC_VSMUL_BF16_SME2"
++ "KERNEL_ARITHMETIC_VSMUL_FP16_MLA3"
++ "KERNEL_ARITHMETIC_VSMUL_FP32_MLA2"
++ "KERNEL_ARITHMETIC_VSMUL_FP32_MLA3"
++ "KERNEL_ARITHMETIC_VSMUL_FP32_SME2"
++ "KERNEL_ATTENTION"
++ "KERNEL_CAST_SME2_0"
++ "KERNEL_CHANNELNORM_V2_SME2"
++ "KERNEL_CHANNELNORM_V2_ST_SME2"
++ "KERNEL_CONV_3D_SME2_0"
++ "KERNEL_CONV_KERNELPOOL_FACETIME_VOICE_ISOLATION_MLA1_Mx1x32OC_x_Mx1x8IC_FP16_NON_CONTIG_INOUT"
++ "KERNEL_CONV_KERNELPOOL_FACETIME_VOICE_ISOLATION_MLA1_Mx1x64OC_x_Mx1x8IC_FP16_NON_CONTIG_INOUT"
++ "KERNEL_CONV_KERNELPOOL_FACETIME_VOICE_ISOLATION_MLA2_Mx1x32OC_x_Mx1x8IC_FP16_NON_CONTIG_INOUT"
++ "KERNEL_CONV_KERNELPOOL_FACETIME_VOICE_ISOLATION_MLA2_Mx1x64OC_x_Mx1x8IC_FP16_NON_CONTIG_INOUT"
++ "KERNEL_CONV_KERNELPOOL_FACETIME_VOICE_ISOLATION_NEON_32x1x64OC_x_32x1x8IC_FP16_NON_CONTIG_INOUT"
++ "KERNEL_CONV_SME2"
++ "KERNEL_CONV_SME2_DYNAMIC"
++ "KERNEL_CONV_TRANS_1D_FP32_FP32_ACCUM_SME2_0"
++ "KERNEL_CONV_TRANS_2D_FP32_FP32_ACCUM_SME2_0"
++ "KERNEL_CONV_TRANS_3D_INTEL"
++ "KERNEL_CONV_TRANS_3D_SME2_0"
++ "KERNEL_COPY_CONCAT_DYNAMIC_MLA_OR_NEON"
++ "KERNEL_COPY_CONCAT_DYNAMIC_SME2_0_OR_NEON"
++ "KERNEL_COPY_SLICE_UPDATE_ALIAS_DYNAMIC"
++ "KERNEL_COPY_SLICE_UPDATE_SME2_0"
++ "KERNEL_COPY_SME2_0"
++ "KERNEL_EINSUM_STRIDED_MATMUL_SME2_DYNAMIC"
++ "KERNEL_GRU_SME"
++ "KERNEL_LSTM_MERGED_WEIGHTS_SME"
++ "KERNEL_LSTM_SME"
++ "KERNEL_MATMUL_ELEMENTWISE_ACTIVATION_MATMUL"
++ "KERNEL_MATMUL_SME2"
++ "KERNEL_MATMUL_SME2_DYNAMIC"
++ "KERNEL_MATMUL_SOFTMAX_MATMUL"
++ "KERNEL_MATVEC_MLA1"
++ "KERNEL_MATVEC_MLA1_DYNAMIC"
++ "KERNEL_MATVEC_MLA2"
++ "KERNEL_MATVEC_MLA2_DYNAMIC"
++ "KERNEL_MATVEC_MLA3"
++ "KERNEL_MATVEC_MLA3_DYNAMIC"
++ "KERNEL_MATVEC_NEON"
++ "KERNEL_MATVEC_NEON_DYNAMIC"
++ "KERNEL_MATVEC_SME2"
++ "KERNEL_MATVEC_SME2_DYNAMIC"
++ "KERNEL_REDUCE_FP_SUM"
++ "KERNEL_REDUCE_FP_SUM_SME"
++ "KERNEL_REDUCE_MIN_MAX"
++ "KERNEL_REDUCE_MIN_MAX_SME"
++ "KERNEL_RNN_MERGED_WEIGHTS_SME"
++ "KERNEL_RNN_SME"
++ "KERNEL_ROTATION"
++ "KERNEL_SDPA_MLA2"
++ "KERNEL_SDPA_MLA3"
++ "KERNEL_TRANSPOSE2D_MLA1"
++ "KERNEL_TRANSPOSE2D_MLA1_DYNAMIC"
++ "KERNEL_TRANSPOSE2D_MLA2"
++ "KERNEL_TRANSPOSE2D_MLA2_DYNAMIC"
++ "KERNEL_TRANSPOSE2D_MLA3"
++ "KERNEL_TRANSPOSE2D_MLA3_DYNAMIC"
++ "SME 1D conv_transpose did not receive needed scratch space."
++ "SME 1D conv_transpose received insufficient scratch space."
++ "SME 1D conv_transpose: Unsupported data layout for weights tensor."
++ "SME 1D conv_transpose: bias data type must match output data type"
++ "SME 2D conv_transpose did not receive needed scratch space."
++ "SME 2D conv_transpose received insufficient scratch space."
++ "SME 2D conv_transpose: Unsupported data layout for weights tensor."
++ "SME Binary Arithmetic Kernels received invalid data pointers."
++ "StateMode=Streaming cannot determine streaming size and/or axis"
++ "StateMode=Streaming does not support dynamically sized states"
++ "Unsupported binary arithmetic kernel routine."
++ "Unsupported datatype for transpose2d_sme2"
++ "attention params for "
++ "attention_mask"
++ "attn_mask"
++ "attn_wt"
++ "binary_arithmetic"
++ "bnns"
++ "bnns_internal.binary_arithmetic"
++ "bnns_internal.matmul"
++ "bnns_internal.softmax"
++ "combo_attention"
++ "combo_matmul_elementwise_activation_matmul"
++ "combo_matmul_softmax_matmul"
++ "combo_op_matmul_repacked("
++ "combo_rotation"
++ "comobo_rotation"
++ "copy_constant"
++ "currently sdpa does not support bool"
++ "dead_code_elimination"
++ "error while executing dynamic concat."
++ "exec op %llu of %llu  %s\n"
++ "for(op = "
++ "gemm_intermediate"
++ "internal.combo_attention"
++ "internal.combo_matmul_elementwise_activation_matmul"
++ "internal.combo_matmul_softmax_matmul"
++ "internal.combo_rotation"
++ "internal.copy_constant"
++ "internal.read_state"
++ "invalid concurrent access to bnns_graph_context_t"
++ "key"
++ "layout_workspace"
++ "layout_workspace(for: while op_id="
++ "lva(of:"
++ "lva_permute(of:"
++ "lva_reshape(of:"
++ "matmul_0_bias"
++ "matmul_0_weights"
++ "matmul_1_bias"
++ "matmul_1_weights"
++ "matmul_concat_bias("
++ "matvec: model compiled for hardware not available on this device"
++ "number_of_heads"
++ "op%5zu%s %s: {"
++ "operand type not supported by permute"
++ "out_bias"
++ "params"
++ "placeholder"
++ "qkt"
++ "qkv_bias"
++ "qkv_weights"
++ "query"
++ "rms norm"
++ "rms_scale"
++ "rot_cos"
++ "rot_sin"
++ "scaled_dot_product_attention"
++ "scaling_tensor"
++ "scrtach for elementwise activation matmul "
++ "scrtach for matmul softmax matmul "
++ "sdpa got different data types for k,q,v"
++ "sdpa only supports fp16, bf16, and fp32 operands"
++ "sdpa requires input and output types to match"
++ "sdpa(key="
++ "skipped op %llu of %llu (it was performed during shape pass)\n"
++ "sme"
++ "soft_wt"
++ "sqkt"
++ "subgraph planning: failed to execute shape shape pass op for subgraph %u on op %llu\n"
++ "transpose for matmul softmax matmul "
++ "tts nlp mha number of heads("
++ "tts_nlp_transposed("
++ "v32@?0Q8{?=^vQ}16"
++ "{reshape for matmul output}"
++ "{reshape for matmul: "
++ "} param_offset=%llu param_size=%llu\n"
+- " = modified_version_of("
+- "%s: exec op %llu of %llu\n"
+- ", for=matmul_bias)"
+- ",style=filled,color=\".7 .3 1.0\""
+- "BNNS Activation: Error NULL input/output pointer"
+- "BNNS Arithmetic Filter Backward Internal: unsupported arithmetic function"
+- "BNNS BNNSGraphContextMakeExperimentalStateSupport failed to allocate memory"
+- "BNNS BNNSGraphContextMakeExperimentalStateSupport passed graph with unsupported ir_version %u"
+- "BNNS BNNSGraphContextMakeExperimentalStateSupport passed invalid graph"
+- "BNNS Graph: layer norm encountered NaN, execution failed"
+- "BNNS Graph: layer norm op values changed, execution failed"
+- "BNNS MHA: layer_params->key.weights.layout=%u is not compatible with low memory flag."
+- "BNNS MHA: layer_params->query.weights.layout=%u is not compatible with low memory flag."
+- "BNNS MHA: layer_params->value.weights.layout=%u is not compatible with low memory flag."
+- "BNNS Optimizer: unsupported optimizer function"
+- "BNNS Quantize: wrong call"
+- "BNNS SPMPR APPLY: failed to calculate Fully Connected\n"
+- "BNNS: BNNSGraphExecute does not support inout tensors"
+- "BNNS: Bad Kernel ID\n"
+- "BNNS: matvec: repack: couldn't sparsify weights"
+- "BNNSCopy: Cannot perform type conversion as part of opaque repack"
+- "BNNSCopy: Unsupported repack operation from layout=%u to layout=%u"
+- "BNNSCopy: src->size[%zu]=%zu is not equal to dest->size[%zu]=%zu"
+- "BNNSGraphContextMake: does not support graphs with intent inout tensors"
+- "BNNSGraphContextMakeExperimentalStateSupport"
+- "BasicNeuralNetworkSubroutines-1361.60.15~1226"
+- "Encountered invalid data type for begin."
+- "Encountered invalid data type for size."
+- "KERNEL_CONV_CREATE_APPLY"
+- "KERNEL_CONV_CUSTOMIZED_VOICE_ISOLATION_FP32_S1x1_O12x1x16N_I12x1xM_K1x1_P0x0x0x0_GK"
+- "KERNEL_CONV_FC"
+- "KERNEL_CONV_LOW_MEM"
+- "KERNEL_COPY_CONCAT_DYNAMIC"
+- "KERNEL_MATMUL_MLA3_GRP_INT4"
+- "KERNEL_MGLM_MHA_PART0_V1_BF16_FP32_MLA3"
+- "KERNEL_MGLM_MHA_PART1_V1"
+- "KERNEL_MGLM_MHA_PART1_V1_BF16_FP32_1x32x64_MLA3"
+- "NEAREST_NEIGHBOR"
+- "Specified opaque layout is not supported for use with specified contraction operation\n"
+- "StateMode must match on all functions (or be disabled)"
+- "Unsupported repack operation from layout=%u to layout=%u\n"
+- "Unsupported shape deduction for tensor with count of selected boxes."
+- "_train"
+- "add_bias(of:"
+- "contiguous_scratch_size(for:"
+- "exec op %llu of %llu\n"
+- "ijk"
+- "jki"
+- "literal(for:"
+- "mtmul_concat_bias("
+- "mutable_dep"
+- "op%5zu %s: {"
+- "permute only supports fp16, bf16 and fp32 operands"
+- "probs"
+- "temp_desc"
+- "valid"
+- "w"
+- "} param_offset=%llu param_size=%llu"
+
+```

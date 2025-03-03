@@ -1,0 +1,565 @@
+## caraccessoryd
+
+> `/usr/libexec/caraccessoryd`
+
+```diff
+
+-337.17.2.0.0
+-  __TEXT.__text: 0x22804
+-  __TEXT.__auth_stubs: 0xec0
+-  __TEXT.__objc_stubs: 0x1f40
+-  __TEXT.__objc_methlist: 0xc48
+-  __TEXT.__const: 0x318
+-  __TEXT.__cstring: 0xdb3
+-  __TEXT.__gcc_except_tab: 0x120
+-  __TEXT.__objc_methname: 0x32af
+-  __TEXT.__oslogstring: 0x35ab
+-  __TEXT.__objc_classname: 0x309
+-  __TEXT.__objc_methtype: 0x1043
+-  __TEXT.__swift5_typeref: 0x3b2
+-  __TEXT.__swift5_capture: 0x138
+-  __TEXT.__constg_swiftt: 0x378
+-  __TEXT.__swift5_reflstr: 0x183
+-  __TEXT.__swift5_fieldmd: 0x1c8
+-  __TEXT.__swift5_types: 0x18
+-  __TEXT.__unwind_info: 0x6c0
+-  __TEXT.__eh_frame: 0x170
+-  __DATA_CONST.__auth_got: 0x770
+-  __DATA_CONST.__got: 0x3d0
+-  __DATA_CONST.__auth_ptr: 0x88
+-  __DATA_CONST.__const: 0xb70
++347.15.0.0.0
++  __TEXT.__text: 0x278f4
++  __TEXT.__auth_stubs: 0xfa0
++  __TEXT.__objc_stubs: 0x1f80
++  __TEXT.__objc_methlist: 0x14cc
++  __TEXT.__const: 0x362
++  __TEXT.__cstring: 0xd84
++  __TEXT.__gcc_except_tab: 0x174
++  __TEXT.__objc_methname: 0x3487
++  __TEXT.__oslogstring: 0x36de
++  __TEXT.__objc_classname: 0x333
++  __TEXT.__objc_methtype: 0x1073
++  __TEXT.__constg_swiftt: 0x484
++  __TEXT.__swift5_typeref: 0x577
++  __TEXT.__swift5_reflstr: 0x1f8
++  __TEXT.__swift5_fieldmd: 0x24c
++  __TEXT.__swift5_capture: 0x33c
++  __TEXT.__swift5_types: 0x24
++  __TEXT.__swift_as_entry: 0xc
++  __TEXT.__swift_as_ret: 0x10
++  __TEXT.__unwind_info: 0x818
++  __TEXT.__eh_frame: 0x310
++  __DATA_CONST.__auth_got: 0x7e0
++  __DATA_CONST.__got: 0x410
++  __DATA_CONST.__auth_ptr: 0xb0
++  __DATA_CONST.__const: 0x1400
+   __DATA_CONST.__cfstring: 0x380
+-  __DATA_CONST.__objc_classlist: 0x50
++  __DATA_CONST.__objc_classlist: 0x68
+   __DATA_CONST.__objc_catlist: 0x8
+-  __DATA_CONST.__objc_protolist: 0x180
++  __DATA_CONST.__objc_protolist: 0x1a0
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_protorefs: 0xa8
++  __DATA_CONST.__objc_protorefs: 0xb8
+   __DATA_CONST.__objc_superrefs: 0x28
+   __DATA_CONST.__objc_intobj: 0x60
+-  __DATA.__objc_const: 0x3ab0
+-  __DATA.__objc_selrefs: 0xcb0
+-  __DATA.__objc_ivar: 0xb8
+-  __DATA.__objc_data: 0x868
+-  __DATA.__data: 0xe28
++  __DATA.__objc_const: 0x3400
++  __DATA.__objc_selrefs: 0xe40
++  __DATA.__objc_ivar: 0xbc
++  __DATA.__objc_data: 0xad0
++  __DATA.__data: 0x1030
+   __DATA.__common: 0x30
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+
+   - /usr/lib/swift/libswiftDarwin.dylib
+   - /usr/lib/swift/libswiftDataDetection.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+-  - /usr/lib/swift/libswiftFileProvider.dylib
+   - /usr/lib/swift/libswiftMetal.dylib
+   - /usr/lib/swift/libswiftOSLog.dylib
+   - /usr/lib/swift/libswiftObjectiveC.dylib
+
+   - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
++  - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswift_errno.dylib
+   - /usr/lib/swift/libswift_math.dylib
+   - /usr/lib/swift/libswift_signal.dylib
+
+   - /usr/lib/swift/libswiftsimd.dylib
+   - /usr/lib/swift/libswiftsys_time.dylib
+   - /usr/lib/swift/libswiftunistd.dylib
+-  Functions: 681
+-  Symbols:   1944
+-  CStrings:  1064
++  Functions: 845
++  Symbols:   2261
++  CStrings:  1097
+ 
+Symbols:
++ $s13caraccessoryd19CAFDNowPlayingAgentC03nowC7Service_14didUpdateAlbumySo06CAFNowC0C_SStFyyYbcfU_TA.138
++ $s13caraccessoryd19CAFDNowPlayingAgentC03nowC7Service_14didUpdateTitleySo06CAFNowC0C_SStFyyYbcfU_TA.152
++ $s13caraccessoryd19CAFDNowPlayingAgentC03nowC7Service_15didUpdateArtistySo06CAFNowC0C_SStFyyYbcfU_TA.145
++ $s13caraccessoryd19CAFDNowPlayingAgentC03nowC7Service_16didUpdateArtworkySo06CAFNowC0C_10Foundation4DataVtFyyYbcfU_TA.124
++ $s13caraccessoryd19CAFDNowPlayingAgentC03nowC7Service_22didUpdatePlaybackStateySo06CAFNowC0C_So011CAFPlaybackJ0VtFyyYbcfU_TA.117
++ $s13caraccessoryd19CAFDNowPlayingAgentC03nowC7Service_31didUpdateUserVisibleDescriptionySo06CAFNowC0C_SSSgtFyyYbcfU_TA.131
++ $s13caraccessoryd19CAFDNowPlayingAgentC03nowC7Service_37didUpdateCurrentMediaSourceIdentifierySo06CAFNowC0C_SStFyyYbcfU_TA.159
++ $s13caraccessoryd19CAFDNowPlayingAgentC18mediaSourceService_19didUpdateMediaItemsySo08CAFMediaF0C_So0lK0CSgtFyyYbcfU_TA.96
++ $s13caraccessoryd19CAFDNowPlayingAgentC18mediaSourceService_24didUpdateMediaItemImagesySo08CAFMediaF0C_So0mkL0CSgtFyyYbcfU_TA.89
++ $s13caraccessoryd19CAFDNowPlayingAgentC18mediaSourceService_25didUpdateCurrentFrequencyySo08CAFMediaF0C_s6UInt32VtFyyYbcfU_TA.110
++ $s13caraccessoryd19CAFDNowPlayingAgentC18mediaSourceService_35didUpdateCurrentMediaItemIdentifierySo08CAFMediaF0C_SSSgtFyyYbcfU_TA.103
++ -[CAFDStateCaptureManager accessoryConfigForPluginID:instanceID:]
++ -[CAFDStateCaptureManager accessoryConfigs]
++ -[CAFDStateCaptureManager setAccessoryConfigs:]
++ GCC_except_table6
++ OBJC_IVAR_$_CAFDStateCaptureManager._accessoryConfigs
++ _$s10Foundation22_convertErrorToNSErrorySo0E0Cs0C0_pF
++ _$s10Foundation4UUIDV36_unconditionallyBridgeFromObjectiveCyACSo6NSUUIDCSgFZ
++ _$s10Foundation4UUIDVMa
++ _$s13caraccessoryd12CAFDAsyncCar33_63EDB8DF96AF53E23EC725535F297F40LLC010configuredC0So6CAFCarCyYaFyScCyAGs5NeverOGXEfU_
++ _$s13caraccessoryd12CAFDAsyncCar33_63EDB8DF96AF53E23EC725535F297F40LLC010configuredC0So6CAFCarCyYaFyScCyAGs5NeverOGXEfU_TA
++ _$s13caraccessoryd12CAFDAsyncCar33_63EDB8DF96AF53E23EC725535F297F40LLC13automakerAppsSaySo15CAFAutomakerAppCGvg
++ _$s13caraccessoryd12CAFDAsyncCar33_63EDB8DF96AF53E23EC725535F297F40LLC13automakerAppsSaySo15CAFAutomakerAppCGvgTQ1_
++ _$s13caraccessoryd12CAFDAsyncCar33_63EDB8DF96AF53E23EC725535F297F40LLC13automakerAppsSaySo15CAFAutomakerAppCGvgTY0_
++ _$s13caraccessoryd12CAFDAsyncCar33_63EDB8DF96AF53E23EC725535F297F40LLC13automakerAppsSaySo15CAFAutomakerAppCGvgTY2_
++ _$s13caraccessoryd12CAFDAsyncCar33_63EDB8DF96AF53E23EC725535F297F40LLC13automakerAppsSaySo15CAFAutomakerAppCGvgTu
++ _$s13caraccessoryd12CAFDAsyncCar33_63EDB8DF96AF53E23EC725535F297F40LLC15carIsConfiguredyySo6CAFCarCSgF
++ _$s13caraccessoryd12CAFDAsyncCar33_63EDB8DF96AF53E23EC725535F297F40LLC15carIsConfiguredyySo6CAFCarCSgFTo
++ _$s13caraccessoryd12CAFDAsyncCar33_63EDB8DF96AF53E23EC725535F297F40LLC16carHasAllBridgesyySo6CAFCarCSgFTo
++ _$s13caraccessoryd12CAFDAsyncCar33_63EDB8DF96AF53E23EC725535F297F40LLC23carDidUpdateAccessoriesyySo6CAFCarCFTo
++ _$s13caraccessoryd12CAFDAsyncCar33_63EDB8DF96AF53E23EC725535F297F40LLC23configuredContinuationsSayScCySo6CAFCarCs5NeverOGGvpWvd
++ _$s13caraccessoryd12CAFDAsyncCar33_63EDB8DF96AF53E23EC725535F297F40LLC3carSo6CAFCarCvpWvd
++ _$s13caraccessoryd12CAFDAsyncCar33_63EDB8DF96AF53E23EC725535F297F40LLCADycfcTo
++ _$s13caraccessoryd12CAFDAsyncCar33_63EDB8DF96AF53E23EC725535F297F40LLCMF
++ _$s13caraccessoryd12CAFDAsyncCar33_63EDB8DF96AF53E23EC725535F297F40LLCMXX
++ _$s13caraccessoryd12CAFDAsyncCar33_63EDB8DF96AF53E23EC725535F297F40LLCMa
++ _$s13caraccessoryd12CAFDAsyncCar33_63EDB8DF96AF53E23EC725535F297F40LLCMf
++ _$s13caraccessoryd12CAFDAsyncCar33_63EDB8DF96AF53E23EC725535F297F40LLCMn
++ _$s13caraccessoryd12CAFDAsyncCar33_63EDB8DF96AF53E23EC725535F297F40LLCN
++ _$s13caraccessoryd12CAFDAsyncCar33_63EDB8DF96AF53E23EC725535F297F40LLCSgMD
++ _$s13caraccessoryd12CAFDAsyncCar33_63EDB8DF96AF53E23EC725535F297F40LLCfD
++ _$s13caraccessoryd12CAFDAsyncCar33_63EDB8DF96AF53E23EC725535F297F40LLCfETo
++ _$s13caraccessoryd19CAFDAsyncCarManager33_63EDB8DF96AF53E23EC725535F297F40LLC03carD0So06CAFCarD0CvpWvd
++ _$s13caraccessoryd19CAFDAsyncCarManager33_63EDB8DF96AF53E23EC725535F297F40LLC03carD0_016didUpdateCurrentC0ySo06CAFCarD0C_So0P0CSgtF
++ _$s13caraccessoryd19CAFDAsyncCarManager33_63EDB8DF96AF53E23EC725535F297F40LLC03carD0_016didUpdateCurrentC0ySo06CAFCarD0C_So0P0CSgtFTo
++ _$s13caraccessoryd19CAFDAsyncCarManager33_63EDB8DF96AF53E23EC725535F297F40LLC16carContinuationsSayScCyAA0bC0ACLLCSgs5NeverOGGvpWvd
++ _$s13caraccessoryd19CAFDAsyncCarManager33_63EDB8DF96AF53E23EC725535F297F40LLC3carAA0bC0ACLLCSgvgyScCyAHs5NeverOGXEfU_
++ _$s13caraccessoryd19CAFDAsyncCarManager33_63EDB8DF96AF53E23EC725535F297F40LLC3carAA0bC0ACLLCSgvgyScCyAHs5NeverOGXEfU_TA
++ _$s13caraccessoryd19CAFDAsyncCarManager33_63EDB8DF96AF53E23EC725535F297F40LLCADycfcTo
++ _$s13caraccessoryd19CAFDAsyncCarManager33_63EDB8DF96AF53E23EC725535F297F40LLCMF
++ _$s13caraccessoryd19CAFDAsyncCarManager33_63EDB8DF96AF53E23EC725535F297F40LLCMXX
++ _$s13caraccessoryd19CAFDAsyncCarManager33_63EDB8DF96AF53E23EC725535F297F40LLCMa
++ _$s13caraccessoryd19CAFDAsyncCarManager33_63EDB8DF96AF53E23EC725535F297F40LLCMf
++ _$s13caraccessoryd19CAFDAsyncCarManager33_63EDB8DF96AF53E23EC725535F297F40LLCMn
++ _$s13caraccessoryd19CAFDAsyncCarManager33_63EDB8DF96AF53E23EC725535F297F40LLCN
++ _$s13caraccessoryd19CAFDAsyncCarManager33_63EDB8DF96AF53E23EC725535F297F40LLCfD
++ _$s13caraccessoryd19CAFDAsyncCarManager33_63EDB8DF96AF53E23EC725535F297F40LLCfETo
++ _$s13caraccessoryd19CAFDNowPlayingAgentC03nowC5Queue33_FF809742895DEAA2EB5774A1CBC6B439LLSo011NSOperationF0CvpWvd
++ _$s13caraccessoryd19CAFDNowPlayingAgentC03nowC5Queue33_FF809742895DEAA2EB5774A1CBC6B439LLSo011NSOperationF0Cvpfi
++ _$s13caraccessoryd19CAFDNowPlayingAgentC03nowC7Service_14didUpdateAlbumySo06CAFNowC0C_SStFyyYbcfU_TA
++ _$s13caraccessoryd19CAFDNowPlayingAgentC03nowC7Service_14didUpdateTitleySo06CAFNowC0C_SStFTm
++ _$s13caraccessoryd19CAFDNowPlayingAgentC03nowC7Service_14didUpdateTitleySo06CAFNowC0C_SStFToTm
++ _$s13caraccessoryd19CAFDNowPlayingAgentC03nowC7Service_14didUpdateTitleySo06CAFNowC0C_SStFyyYbcfU_TA
++ _$s13caraccessoryd19CAFDNowPlayingAgentC03nowC7Service_15didUpdateArtistySo06CAFNowC0C_SStFyyYbcfU_TA
++ _$s13caraccessoryd19CAFDNowPlayingAgentC03nowC7Service_16didUpdateArtworkySo06CAFNowC0C_10Foundation4DataVtFyyYbcfU_TA
++ _$s13caraccessoryd19CAFDNowPlayingAgentC03nowC7Service_22didUpdatePlaybackStateySo06CAFNowC0C_So011CAFPlaybackJ0VtFyyYbcfU_TA
++ _$s13caraccessoryd19CAFDNowPlayingAgentC03nowC7Service_26didUpdateAudioContentBadgeySo06CAFNowC0C_So08CAFAudiojK0VtF
++ _$s13caraccessoryd19CAFDNowPlayingAgentC03nowC7Service_26didUpdateAudioContentBadgeySo06CAFNowC0C_So08CAFAudiojK0VtFTo
++ _$s13caraccessoryd19CAFDNowPlayingAgentC03nowC7Service_31didUpdateUserVisibleDescriptionySo06CAFNowC0C_SSSgtFTm
++ _$s13caraccessoryd19CAFDNowPlayingAgentC03nowC7Service_31didUpdateUserVisibleDescriptionySo06CAFNowC0C_SSSgtFyyYbcfU_TA
++ _$s13caraccessoryd19CAFDNowPlayingAgentC03nowC7Service_37didUpdateCurrentMediaSourceIdentifierySo06CAFNowC0C_SStFyyYbcfU_
++ _$s13caraccessoryd19CAFDNowPlayingAgentC03nowC7Service_37didUpdateCurrentMediaSourceIdentifierySo06CAFNowC0C_SStFyyYbcfU_TA
++ _$s13caraccessoryd19CAFDNowPlayingAgentC09updateNowC033_FF809742895DEAA2EB5774A1CBC6B439LLyyFyyScMYccfU2_TA
++ _$s13caraccessoryd19CAFDNowPlayingAgentC18mediaSourceService_19didUpdateMediaItemsySo08CAFMediaF0C_So0lK0CSgtFTm
++ _$s13caraccessoryd19CAFDNowPlayingAgentC18mediaSourceService_19didUpdateMediaItemsySo08CAFMediaF0C_So0lK0CSgtFyyYbcfU_TA
++ _$s13caraccessoryd19CAFDNowPlayingAgentC18mediaSourceService_24didUpdateMediaItemImagesySo08CAFMediaF0C_So0mkL0CSgtFyyYbcfU_TA
++ _$s13caraccessoryd19CAFDNowPlayingAgentC18mediaSourceService_25didUpdateCurrentFrequencyySo08CAFMediaF0C_s6UInt32VtFyyYbcfU_TA
++ _$s13caraccessoryd19CAFDNowPlayingAgentC18mediaSourceService_35didUpdateCurrentMediaItemIdentifierySo08CAFMediaF0C_SSSgtFyyYbcfU_TA
++ _$s13caraccessoryd19CAFDNowPlayingAgentC25lastMediaSourceIdentifier33_FF809742895DEAA2EB5774A1CBC6B439LLSSvWyyYbcfU_TA
++ _$s13caraccessoryd22CAFDAssetVariantsAgentC10carManager13sessionStatusACSo06CAFCarF0C_So010CARSessionH0CtcfcTf4ggn_n
++ _$s13caraccessoryd22CAFDAssetVariantsAgentC16_ConnectionProxy33_AD8EB03328B3296C924C05733247A05ALLC10invalidateyyF
++ _$s13caraccessoryd28CAFDAppClipsDeclarationAgentC012supportedAppC026forPairedVehicleIdentifier10completiony10Foundation4UUIDV_ySaySSGSg_s5Error_pSgtctF
++ _$s13caraccessoryd28CAFDAppClipsDeclarationAgentC012supportedAppC026forPairedVehicleIdentifier10completiony10Foundation4UUIDV_ySaySSGSg_s5Error_pSgtctFTo
++ _$s13caraccessoryd28CAFDAppClipsDeclarationAgentC012supportedAppC026forPairedVehicleIdentifier10completiony10Foundation4UUIDV_ySaySSGSg_s5Error_pSgtctFyyYacfU_
++ _$s13caraccessoryd28CAFDAppClipsDeclarationAgentC012supportedAppC026forPairedVehicleIdentifier10completiony10Foundation4UUIDV_ySaySSGSg_s5Error_pSgtctFyyYacfU_TA
++ _$s13caraccessoryd28CAFDAppClipsDeclarationAgentC012supportedAppC026forPairedVehicleIdentifier10completiony10Foundation4UUIDV_ySaySSGSg_s5Error_pSgtctFyyYacfU_TATQ0_
++ _$s13caraccessoryd28CAFDAppClipsDeclarationAgentC012supportedAppC026forPairedVehicleIdentifier10completiony10Foundation4UUIDV_ySaySSGSg_s5Error_pSgtctFyyYacfU_TATu
++ _$s13caraccessoryd28CAFDAppClipsDeclarationAgentC012supportedAppC026forPairedVehicleIdentifier10completiony10Foundation4UUIDV_ySaySSGSg_s5Error_pSgtctFyyYacfU_TQ1_
++ _$s13caraccessoryd28CAFDAppClipsDeclarationAgentC012supportedAppC026forPairedVehicleIdentifier10completiony10Foundation4UUIDV_ySaySSGSg_s5Error_pSgtctFyyYacfU_TQ3_
++ _$s13caraccessoryd28CAFDAppClipsDeclarationAgentC012supportedAppC026forPairedVehicleIdentifier10completiony10Foundation4UUIDV_ySaySSGSg_s5Error_pSgtctFyyYacfU_TY0_
++ _$s13caraccessoryd28CAFDAppClipsDeclarationAgentC012supportedAppC026forPairedVehicleIdentifier10completiony10Foundation4UUIDV_ySaySSGSg_s5Error_pSgtctFyyYacfU_TY2_
++ _$s13caraccessoryd28CAFDAppClipsDeclarationAgentC012supportedAppC026forPairedVehicleIdentifier10completiony10Foundation4UUIDV_ySaySSGSg_s5Error_pSgtctFyyYacfU_TY4_
++ _$s13caraccessoryd28CAFDAppClipsDeclarationAgentC012supportedAppC026forPairedVehicleIdentifier10completiony10Foundation4UUIDV_ySaySSGSg_s5Error_pSgtctFyyYacfU_Tu
++ _$s13caraccessoryd28CAFDAppClipsDeclarationAgentC10carManager33_63EDB8DF96AF53E23EC725535F297F40LLAA012CAFDAsyncCarG0AELLCvpWvd
++ _$s13caraccessoryd28CAFDAppClipsDeclarationAgentC10carManagerACSo06CAFCarG0C_tcfC
++ _$s13caraccessoryd28CAFDAppClipsDeclarationAgentC10carManagerACSo06CAFCarG0C_tcfCTq
++ _$s13caraccessoryd28CAFDAppClipsDeclarationAgentC10carManagerACSo06CAFCarG0C_tcfc
++ _$s13caraccessoryd28CAFDAppClipsDeclarationAgentC10carManagerACSo06CAFCarG0C_tcfcTf4gn_n
++ _$s13caraccessoryd28CAFDAppClipsDeclarationAgentC10carManagerACSo06CAFCarG0C_tcfcTo
++ _$s13caraccessoryd28CAFDAppClipsDeclarationAgentC5agent33_63EDB8DF96AF53E23EC725535F297F40LLSo05CRAppcdE0CvpWvd
++ _$s13caraccessoryd28CAFDAppClipsDeclarationAgentCACycfC
++ _$s13caraccessoryd28CAFDAppClipsDeclarationAgentCACycfc
++ _$s13caraccessoryd28CAFDAppClipsDeclarationAgentCACycfcTo
++ _$s13caraccessoryd28CAFDAppClipsDeclarationAgentCMF
++ _$s13caraccessoryd28CAFDAppClipsDeclarationAgentCMa
++ _$s13caraccessoryd28CAFDAppClipsDeclarationAgentCMf
++ _$s13caraccessoryd28CAFDAppClipsDeclarationAgentCMn
++ _$s13caraccessoryd28CAFDAppClipsDeclarationAgentCN
++ _$s13caraccessoryd28CAFDAppClipsDeclarationAgentCfD
++ _$s13caraccessoryd28CAFDAppClipsDeclarationAgentCfDTm
++ _$s13caraccessoryd28CAFDAppClipsDeclarationAgentCfETo
++ _$s13caraccessoryd9CAFDAgentC20_CAFDConnectionProxyC23fetchNowPlayingSnapshot5replyyySo06CAFNowgH0C_s5Error_pSgtc_tF
++ _$s13caraccessoryd9CAFDAgentC20_CAFDConnectionProxyC23fetchNowPlayingSnapshot5replyyySo06CAFNowgH0C_s5Error_pSgtc_tFyyYbcfU_
++ _$s13caraccessoryd9CAFDAgentC20_CAFDConnectionProxyC23fetchNowPlayingSnapshot5replyyySo06CAFNowgH0C_s5Error_pSgtc_tFyyYbcfU_TA
++ _$s2os6LoggerV13caraccessorydE8appClips33_63EDB8DF96AF53E23EC725535F297F40LLACvpZ
++ _$s2os6LoggerV13caraccessorydE8appClips33_63EDB8DF96AF53E23EC725535F297F40LL_WZ
++ _$s2os6LoggerV13caraccessorydE8appClips33_63EDB8DF96AF53E23EC725535F297F40LL_Wz
++ _$sIeg_IeyB_TR
++ _$sIegh_IeyBh_TRTm
++ _$sSD17dictionaryLiteralSDyxq_Gx_q_td_tcfC13CarAssetUtils15CAUVehicleTraitO_SSTt0g5
++ _$sSS4hash4intoys6HasherVz_tF
++ _$sSa11descriptionSSvg
++ _$sScA15unownedExecutorScevgTj
++ _$sScC6resume9returningyxn_tF
++ _$sScCy13caraccessoryd12CAFDAsyncCar33_63EDB8DF96AF53E23EC725535F297F40LLCSgs5NeverOGMD
++ _$sScCySo6CAFCarCs5NeverOGMD
++ _$sScP8rawValues5UInt8Vvg
++ _$sScPMa
++ _$sScPSgMD
++ _$sScPSgWOh
++ _$sScTss5NeverORs_rlE8priority9operationScTyxABGScPSg_xyYaYAcntcfCyt_Tt1g5
++ _$sSh21_nonEmptyArrayLiteralShyxGSayxG_tcfC13caraccessoryd22CAFDAssetVariantsAgentC16_ConnectionProxy33_AD8EB03328B3296C924C05733247A05ALLC_Tt0g5Tf4g_nTm
++ _$sSh21_nonEmptyArrayLiteralShyxGSayxG_tcfC13caraccessoryd9CAFDAgentC20_CAFDConnectionProxyC_Tt0g5Tf4g_n
++ _$sSh8_VariantV6insertySb8inserted_x17memberAfterInserttxnF13caraccessoryd9CAFDAgentC20_CAFDConnectionProxyC_Tg5
++ _$sSh8_VariantV6insertySb8inserted_x17memberAfterInserttxnFSS_Tg5
++ _$sSh8_VariantV6removeyxSgxF13caraccessoryd9CAFDAgentC20_CAFDConnectionProxyC_Tg5
++ _$sSlsE3mapySayqd__Gqd__7ElementQzqd_0_YKXEqd_0_YKs5ErrorRd_0_r0_lFSaySo15CAFAutomakerAppCG_SSs5NeverOTg5060$s13caraccessoryd28CAFDAppClipsDeclarationAgentC012supportede74C026forPairedVehicleIdentifier10completiony10Foundation4UUIDV_ySaySSGSg_s5c23_pSgtctFyyYacfU_SSSo012D56G0Ccfu_33_12fa5a9c746d8b0f1ef82e5f369ebaadAOSSTf3nnnpk_nTf1cn_n
++ _$sSo13os_log_type_ta0A0E4infoABvgZ
++ _$sSo15CAFAutomakerAppCML
++ _$sSo16BSServiceQualityCML
++ _$sSo17OS_dispatch_queueC8DispatchE4mainABvgZ
++ _$sSo17OS_dispatch_queueCML
++ _$sSo17OS_dispatch_queueCMaTm
++ _$sSo18BSServiceInterfaceCML
++ _$sSo21CAFNowPlayingSnapshotC6titles11artworkData15mediaSourceType0gH10Identifier0E5Token0g9ItemImageK00eI09multicast13playbackStateABSaySSG_10Foundation0F0VSgSo08CAFMediah8SemanticI0VSSS2iSo0ab7ArtworkI0VSiSo011CAFPlaybackP0VtcfC
++ _$sSo21CAFNowPlayingSnapshotCSo7NSErrorCSgIeyByy_ABs5Error_pSgIeggg_TR
++ _$sSo21CAFNowPlayingSnapshotCSo7NSErrorCSgIeyByy_ABs5Error_pSgIeggg_TRTA
++ _$sSo38BSServiceConnectionListenerConfiguring_pIegg_SoAA_pIyBy_TRTm
++ _$sSo6CAFCarCML
++ _$sSo6CAFCarCMaTm
++ _$sSo7NSArrayCSgSo7NSErrorCSgIeyByy_SaySSGSgs5Error_pSgIeggg_TR
++ _$sSo7NSArrayCSgSo7NSErrorCSgIeyByy_SaySSGSgs5Error_pSgIeggg_TRTA
++ _$sSo8NSObjectCSgWOh
++ _$sSo8NSObjectCSgWOhTm
++ _$ss10_NativeSetV13copyAndResize8capacityySi_tFSS_Tg5
++ _$ss10_NativeSetV4copyyyF13caraccessoryd22CAFDAssetVariantsAgentC16_ConnectionProxy33_AD8EB03328B3296C924C05733247A05ALLC_Tg5
++ _$ss10_NativeSetV4copyyyF13caraccessoryd9CAFDAgentC20_CAFDConnectionProxyC_Tg5
++ _$ss10_NativeSetV4copyyyFSS_Tg5
++ _$ss10_NativeSetV6resize8capacityySi_tFSS_Tg5
++ _$ss10_NativeSetV9insertNew_2at8isUniqueyxn_s10_HashTableV6BucketVSbtFSS_Tg5
++ _$ss10_NativeSetV_8capacityAByxGs07__CocoaB0Vn_SitcfC13caraccessoryd22CAFDAssetVariantsAgentC16_ConnectionProxy33_AD8EB03328B3296C924C05733247A05ALLC_Tt1g5
++ _$ss10_NativeSetV_8capacityAByxGs07__CocoaB0Vn_SitcfC13caraccessoryd22CAFDAssetVariantsAgentC16_ConnectionProxy33_AD8EB03328B3296C924C05733247A05ALLC_Tt1g5Tm
++ _$ss10_NativeSetV_8capacityAByxGs07__CocoaB0Vn_SitcfC13caraccessoryd9CAFDAgentC20_CAFDConnectionProxyC_Tt1g5
++ _$ss11_SetStorageCySSGMD
++ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFScCy13caraccessoryd12CAFDAsyncCar33_63EDB8DF96AF53E23EC725535F297F40LLCSgs5NeverOG_Tg5Tm
++ _$ss14_ArrayProtocolPsE6filterySay7ElementQzGSbAEKXEKFSaySSG_Tg566$sSa13caraccessorydSHRzlE18removingDuplicatesSayxGyFSbxXEfU_SS_TG5ShySSGTf1cn_nTf4gn_n
++ _$ss15ContiguousArrayV16_createNewBuffer14bufferIsUnique15minimumCapacity13growForAppendySb_SiSbtFSS_Tg5
++ _$ss22_ContiguousArrayBufferV19_uninitializedCount15minimumCapacityAByxGSi_SitcfCs5UInt8V_Tt1gq5
++ _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSS_Tg5
++ _$ss23_ContiguousArrayStorageCyScCy13caraccessoryd12CAFDAsyncCar33_63EDB8DF96AF53E23EC725535F297F40LLCSgs5NeverOGGMD
++ _$ss23_ContiguousArrayStorageCyScCySo6CAFCarCs5NeverOGGMD
++ _$ss23withCheckedContinuation9isolation8function_xScA_pSgYi_SSyScCyxs5NeverOGXEtYalF
++ _$ss23withCheckedContinuation9isolation8function_xScA_pSgYi_SSyScCyxs5NeverOGXEtYalFTu
++ _$ss5ErrorMp
++ _$ss5NeverOMn
++ _$ss6HasherV5_seedABSi_tcfC
++ _$ss6HasherV9_finalizeSiyF
++ _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5
++ _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA
++ _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TATQ0_
++ _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TATu
++ _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TQ0_
++ _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5Tu
++ _$sytN
++ _OBJC_CLASS_$_BSServiceInterface
++ _OBJC_CLASS_$_CAFAutomakerApp
++ _OBJC_CLASS_$_CAFCar
++ _OBJC_CLASS_$_CRAppClipsDeclarationAgent
++ _OBJC_CLASS_$_NSOperationQueue
++ _OBJC_CLASS_$_OS_dispatch_queue
++ _OBJC_CLASS_$__TtC13caraccessoryd28CAFDAppClipsDeclarationAgent
++ _OBJC_METACLASS_$__TtC13caraccessoryd28CAFDAppClipsDeclarationAgent
++ _OBJC_METACLASS_$__TtC13caraccessorydP33_63EDB8DF96AF53E23EC725535F297F4012CAFDAsyncCar
++ _OBJC_METACLASS_$__TtC13caraccessorydP33_63EDB8DF96AF53E23EC725535F297F4019CAFDAsyncCarManager
++ __DATA__TtC13caraccessoryd28CAFDAppClipsDeclarationAgent
++ __DATA__TtC13caraccessorydP33_63EDB8DF96AF53E23EC725535F297F4012CAFDAsyncCar
++ __DATA__TtC13caraccessorydP33_63EDB8DF96AF53E23EC725535F297F4019CAFDAsyncCarManager
++ __IVARS__TtC13caraccessoryd28CAFDAppClipsDeclarationAgent
++ __IVARS__TtC13caraccessorydP33_63EDB8DF96AF53E23EC725535F297F4012CAFDAsyncCar
++ __IVARS__TtC13caraccessorydP33_63EDB8DF96AF53E23EC725535F297F4019CAFDAsyncCarManager
++ __METACLASS_DATA__TtC13caraccessoryd28CAFDAppClipsDeclarationAgent
++ __METACLASS_DATA__TtC13caraccessorydP33_63EDB8DF96AF53E23EC725535F297F4012CAFDAsyncCar
++ __METACLASS_DATA__TtC13caraccessorydP33_63EDB8DF96AF53E23EC725535F297F4019CAFDAsyncCarManager
++ __OBJC_$_INSTANCE_METHODS__TtC13caraccessoryd28CAFDAppClipsDeclarationAgent(caraccessoryd)
++ __OBJC_$_INSTANCE_METHODS__TtC13caraccessorydP33_63EDB8DF96AF53E23EC725535F297F4012CAFDAsyncCar(caraccessoryd)
++ __OBJC_$_INSTANCE_METHODS__TtC13caraccessorydP33_63EDB8DF96AF53E23EC725535F297F4019CAFDAsyncCarManager(caraccessoryd)
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_CAFCarObserverPrivate
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_CRAppClipsDeclaring
++ __OBJC_$_PROTOCOL_METHOD_TYPES_CAFCarObserverPrivate
++ __OBJC_$_PROTOCOL_METHOD_TYPES_CRAppClipsDeclaring
++ __OBJC_$_PROTOCOL_REFS_CAFCarObserverPrivate
++ __OBJC_$_PROTOCOL_REFS_CRAppClipsDeclaring
++ __OBJC_CLASS_PROTOCOLS_$__TtC13caraccessoryd28CAFDAppClipsDeclarationAgent(caraccessoryd)
++ __OBJC_CLASS_PROTOCOLS_$__TtC13caraccessorydP33_63EDB8DF96AF53E23EC725535F297F4012CAFDAsyncCar(caraccessoryd)
++ __OBJC_CLASS_PROTOCOLS_$__TtC13caraccessorydP33_63EDB8DF96AF53E23EC725535F297F4019CAFDAsyncCarManager(caraccessoryd)
++ __OBJC_LABEL_PROTOCOL_$_CAFCarObserverPrivate
++ __OBJC_LABEL_PROTOCOL_$_CRAppClipsDeclaring
++ __OBJC_PROTOCOL_$_CAFCarObserverPrivate
++ __OBJC_PROTOCOL_$_CRAppClipsDeclaring
++ ___block_descriptor_56_e8_32s40s48w_e5_8?0lw48l8s32l8s40l8
++ ___swift_async_entry_functlets
++ ___swift_async_ret_functlets
++ __os_feature_enabled_impl
++ _objc_msgSend$accessoryConfigForPluginID:instanceID:
++ _objc_msgSend$accessoryConfigs
++ _objectdestroyTm
++ _swift_arrayInitWithTakeBackToFront
++ _swift_arrayInitWithTakeFrontToBack
++ _swift_cvw_assignWithCopy
++ _swift_cvw_assignWithTake
++ _swift_cvw_destroy
++ _swift_cvw_initStructMetadataWithLayoutString
++ _swift_cvw_initWithCopy
++ _swift_cvw_initWithTake
++ _swift_cvw_initializeBufferWithCopyOfBuffer
++ _swift_deletedAsyncMethodErrorTu
++ _swift_task_alloc
++ _swift_task_create
++ _swift_task_dealloc
++ _swift_task_switch
++ _symbolic SaySSG
++ _symbolic SaySSGSg______pSgIeggg_ s5ErrorP
++ _symbolic SayScCySo6CAFCarC_____GG s5NeverO
++ _symbolic SayScCy_____Sg_____GG 13caraccessoryd12CAFDAsyncCar33_63EDB8DF96AF53E23EC725535F297F40LLC s5NeverO
++ _symbolic ScA_pSg
++ _symbolic ScCySo6CAFCarC_____G s5NeverO
++ _symbolic ScCy_____Sg_____G 13caraccessoryd12CAFDAsyncCar33_63EDB8DF96AF53E23EC725535F297F40LLC s5NeverO
++ _symbolic ScPSg
++ _symbolic So13CAFCarManagerC
++ _symbolic So16NSOperationQueueC
++ _symbolic So21CAFNowPlayingSnapshotCSo7NSErrorCSgIeyByy_
++ _symbolic So21CAFNowPlayingSnapshotC______pSgIeggg_ s5ErrorP
++ _symbolic So26CRAppClipsDeclarationAgentC
++ _symbolic So6CAFCarC
++ _symbolic So7NSArrayCSgSo7NSErrorCSgIeyByy_
++ _symbolic _____ 13caraccessoryd12CAFDAsyncCar33_63EDB8DF96AF53E23EC725535F297F40LLC
++ _symbolic _____ 13caraccessoryd19CAFDAsyncCarManager33_63EDB8DF96AF53E23EC725535F297F40LLC
++ _symbolic _____ 13caraccessoryd28CAFDAppClipsDeclarationAgentC
++ _symbolic _____Sg 13caraccessoryd12CAFDAsyncCar33_63EDB8DF96AF53E23EC725535F297F40LLC
++ _symbolic _____SgXw 13caraccessoryd19CAFDAsyncCarManager33_63EDB8DF96AF53E23EC725535F297F40LLC
++ _symbolic _____ySSG s11_SetStorageC
++ _symbolic _____yScCySo6CAFCarC_____GG s23_ContiguousArrayStorageC s5NeverO
++ _symbolic _____yScCy_____Sg_____GG s23_ContiguousArrayStorageC 13caraccessoryd12CAFDAsyncCar33_63EDB8DF96AF53E23EC725535F297F40LLC s5NeverO
++ _symbolic ytIeAgHr_
++ block_copy_helper.10
++ block_copy_helper.104
++ block_copy_helper.111
++ block_copy_helper.118
++ block_copy_helper.125
++ block_copy_helper.132
++ block_copy_helper.139
++ block_copy_helper.146
++ block_copy_helper.153
++ block_copy_helper.16
++ block_copy_helper.160
++ block_copy_helper.169
++ block_copy_helper.181
++ block_copy_helper.190
++ block_copy_helper.22
++ block_copy_helper.28
++ block_copy_helper.34
++ block_copy_helper.4
++ block_copy_helper.44
++ block_copy_helper.50
++ block_copy_helper.52
++ block_copy_helper.57
++ block_copy_helper.58
++ block_copy_helper.63
++ block_copy_helper.90
++ block_copy_helper.97
++ block_descriptor.106
++ block_descriptor.113
++ block_descriptor.12
++ block_descriptor.120
++ block_descriptor.127
++ block_descriptor.134
++ block_descriptor.141
++ block_descriptor.148
++ block_descriptor.155
++ block_descriptor.162
++ block_descriptor.171
++ block_descriptor.18
++ block_descriptor.183
++ block_descriptor.192
++ block_descriptor.24
++ block_descriptor.30
++ block_descriptor.36
++ block_descriptor.46
++ block_descriptor.52
++ block_descriptor.54
++ block_descriptor.59
++ block_descriptor.6
++ block_descriptor.60
++ block_descriptor.65
++ block_descriptor.92
++ block_descriptor.99
++ block_destroy_helper.105
++ block_destroy_helper.11
++ block_destroy_helper.112
++ block_destroy_helper.119
++ block_destroy_helper.126
++ block_destroy_helper.133
++ block_destroy_helper.140
++ block_destroy_helper.147
++ block_destroy_helper.154
++ block_destroy_helper.161
++ block_destroy_helper.17
++ block_destroy_helper.170
++ block_destroy_helper.182
++ block_destroy_helper.191
++ block_destroy_helper.23
++ block_destroy_helper.29
++ block_destroy_helper.35
++ block_destroy_helper.45
++ block_destroy_helper.5
++ block_destroy_helper.51
++ block_destroy_helper.53
++ block_destroy_helper.58
++ block_destroy_helper.59
++ block_destroy_helper.64
++ block_destroy_helper.91
++ block_destroy_helper.98
++ objectdestroy.36Tm
+- _$s10Foundation11MeasurementVySo14NSUnitDurationCGSgWOh
+- _$s13caraccessoryd22CAFDAssetVariantsAgentC16_ConnectionProxy33_AD8EB03328B3296C924C05733247A05ALLC8activateyyF
+- _$s13caraccessoryd22CAFDAssetVariantsAgentC16_ConnectionProxy33_AD8EB03328B3296C924C05733247A05ALLC8activateyyFTm
+- _$s13caraccessoryd9CAFDAgentC13ConfigurationVwCP
+- _$s13caraccessoryd9CAFDAgentC13ConfigurationVwca
+- _$s13caraccessoryd9CAFDAgentC13ConfigurationVwcp
+- _$s13caraccessoryd9CAFDAgentC13ConfigurationVwta
+- _$s13caraccessoryd9CAFDAgentC13ConfigurationVwtk
+- _$s13caraccessoryd9CAFDAgentC13ConfigurationVwxx
+- _$s13caraccessoryd9CAFDAgentC20_CAFDConnectionProxyC23fetchNowPlayingSnapshot5replyyySo06CAFNowgH0C_s5Error_pSgtc_tF06$sSo21jgh25CSo7NSErrorCSgIeyByy_ABs5K12_pSgIeggg_TRAISo0O0CSgIeyByy_Tf1cn_nTf4ng_n
+- _$s13caraccessoryd9CAFDAgentC20_CAFDConnectionProxyCSo8NSObjectCSH10ObjectiveCWl
+- _$sSD17dictionaryLiteralSDyxq_Gx_q_td_tcfC13CarAssetUtils15CAUVehicleTraitO_SSTgm5
+- _$sSa12_endMutationyyFyXl_Ts5
+- _$sSh21_nonEmptyArrayLiteralShyxGSayxG_tcfC13caraccessoryd22CAFDAssetVariantsAgentC16_ConnectionProxy33_AD8EB03328B3296C924C05733247A05ALLC_Tgm5Tf4g_nTm
+- _$sSh21_nonEmptyArrayLiteralShyxGSayxG_tcfC13caraccessoryd9CAFDAgentC20_CAFDConnectionProxyC_Tgm5Tf4g_n
+- _$sSh8_VariantV6removeyxSgxF13caraccessoryd22CAFDAssetVariantsAgentC16_ConnectionProxy33_AD8EB03328B3296C924C05733247A05ALLC_Tg5Tm
+- _$sSo21CAFNowPlayingSnapshotC6titles11artworkData15mediaSourceType0gH10Identifier0E5Token0g9ItemImageK00eI09multicastABSaySSG_10Foundation0F0VSgSo08CAFMediah8SemanticI0VSSS2iSo0ab7ArtworkI0VSitcfC
+- _$sSw10copyMemory4fromySW_tF
+- _$sSwys5UInt8VSicis
+- _$ss10_NativeSetV_8capacityAByxGs07__CocoaB0Vn_SitcfC13caraccessoryd22CAFDAssetVariantsAgentC16_ConnectionProxy33_AD8EB03328B3296C924C05733247A05ALLC_Tgm5Tm
+- _$ss12_ArrayBufferV13_copyContents8subRange12initializingSpyxGSnySiG_AFtFSS_Tg5Tf4nng_n
+- _$ss17_assertionFailure__4file4line5flagss5NeverOs12StaticStringV_A2HSus6UInt32VtF
+- _$ss18_fatalErrorMessage__4file4line5flagss5NeverOs12StaticStringV_A2HSus6UInt32VtF
+- _$ss22_ContiguousArrayBufferV19_uninitializedCount15minimumCapacityAByxGSi_SitcfCs5UInt8V_Tgmq5
+- _$sypSgWOb
+- _$sypSgWOh
+- _OUTLINED_FUNCTION_13
+- ___block_descriptor_40_e8_32s_e5_8?0ls32l8
+- ___block_descriptor_56_e8_32s40s48s_e5_8?0ls32l8s40l8s48l8
+- __swift_FORCE_LOAD_$_swiftFileProvider
+- __swift_FORCE_LOAD_$_swiftFileProvider_$_caraccessoryd
+- _objc_release_x10
+- _objc_retain_x10
+- _swift_initStructMetadata
+- block_copy_helper.49
+- block_copy_helper.55
+- block_copy_helper.62
+- block_descriptor.51
+- block_descriptor.57
+- block_descriptor.64
+- block_destroy_helper.50
+- block_destroy_helper.56
+- block_destroy_helper.63
+- objectdestroy.38Tm
+CStrings:
++ "%"
++ "AppClips"
++ "AppClipsDeclaration"
++ "CAFCar now available"
++ "CAFCar now configured"
++ "CAFCarObserverPrivate"
++ "CRAppClipsDeclaring"
++ "CarPlay"
++ "Error pluginID: %{public}@ transactionID: %{public}@ wrong read response errors type %{public}@"
++ "Error pluginID: %{public}@ transactionID: %{public}@ wrong register response errors type %{public}@"
++ "Error pluginID: %{public}@ transactionID: %{public}@ wrong register response values type %{public}@"
++ "Removed duplicate titles: %{public}s"
++ "StateCaptureManager initialized"
++ "T@\"NSMutableDictionary\",&,N,V_accessoryConfigs"
++ "_TtC13caraccessoryd28CAFDAppClipsDeclarationAgent"
++ "_TtC13caraccessorydP33_63EDB8DF96AF53E23EC725535F297F4012CAFDAsyncCar"
++ "_TtC13caraccessorydP33_63EDB8DF96AF53E23EC725535F297F4019CAFDAsyncCarManager"
++ "_accessoryConfigs"
++ "accessoryConfigForPluginID:instanceID:"
++ "accessoryConfigs"
++ "addOperationWithBlock:"
++ "appClipIdentifier"
++ "automakerApps"
++ "cafd starting app clips"
++ "cancelAllOperations"
++ "carContinuations"
++ "carHasAllBridges:"
++ "carIsConfigured:"
++ "caraccessoryd.CAFDAppClipsDeclarationAgent"
++ "caraccessoryd.CAFDAsyncCar"
++ "caraccessoryd.CAFDAsyncCarManager"
++ "com.apple.caraccessoryd.appClips"
++ "com.apple.caraccessoryd.artwork"
++ "configuredContinuations"
++ "hasPlaybackState"
++ "initWithTitles:artworkData:mediaSourceType:mediaSourceIdentifier:artworkToken:mediaItemImageToken:artworkType:multicast:playbackState:"
++ "initializing app clips server"
++ "nowPlayingQueue"
++ "nowPlayingService:didUpdateAudioContentBadge:"
++ "playbackState"
++ "received supportedAppClips call"
++ "setAccessoryConfigs:"
++ "setAppClipDeclarer:"
++ "setMaxConcurrentOperationCount:"
++ "setQualityOfService:"
++ "supportedAppClipsForPairedVehicleIdentifier:completion:"
++ "v32@0:8@\"NSUUID\"16@?<v@?@\"NSArray\"@\"NSError\">24"
++ "waiting on CAFCar"
++ "waiting on CAFCar configuration"
+- "$"
+- "Error pluginID: %{public}@ transactionID: %{public}@ wrong read repsonse errors type %{public}@"
+- "Error pluginID: %{public}@ transactionID: %{public}@ wrong register repsonse errors type %{public}@"
+- "Error pluginID: %{public}@ transactionID: %{public}@ wrong register repsonse values type %{public}@"
+- "Insufficient space allocated to copy string contents"
+- "Swift/ContiguousArrayBuffer.swift"
+- "Swift/StringTesting.swift"
+- "Swift/StringUTF8View.swift"
+- "Swift/UnsafeBufferPointer.swift"
+- "Swift/UnsafePointer.swift"
+- "Swift/UnsafeRawPointer.swift"
+- "Unexpectedly found nil while unwrapping an Optional value"
+- "UnsafeMutableBufferPointer with negative count"
+- "UnsafeMutablePointer.initialize overlapping range"
+- "UnsafeMutablePointer.initialize with negative count"
+- "UnsafeMutableRawPointer.initializeMemory overlapping range"
+- "initWithTitles:artworkData:mediaSourceType:mediaSourceIdentifier:artworkToken:mediaItemImageToken:artworkType:multicast:"
+- "invalid Collection: less than 'count' elements in collection"
+
+```

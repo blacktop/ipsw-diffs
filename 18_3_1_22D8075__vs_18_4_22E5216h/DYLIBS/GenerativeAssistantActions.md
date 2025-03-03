@@ -1,0 +1,917 @@
+## GenerativeAssistantActions
+
+> `/System/Library/PrivateFrameworks/GenerativeAssistantActions.framework/GenerativeAssistantActions`
+
+```diff
+
+-3403.9.4.0.0
+-  __TEXT.__text: 0xa5518
+-  __TEXT.__auth_stubs: 0x2ce0
+-  __TEXT.__objc_methlist: 0x44
+-  __TEXT.__const: 0x3300
+-  __TEXT.__cstring: 0xb00d
+-  __TEXT.__swift5_typeref: 0x1104
+-  __TEXT.__oslogstring: 0x4074
+-  __TEXT.__constg_swiftt: 0x1208
+-  __TEXT.__swift5_reflstr: 0x1572
+-  __TEXT.__swift5_fieldmd: 0x13d8
+-  __TEXT.__swift5_builtin: 0xdc
+-  __TEXT.__swift5_assocty: 0x148
+-  __TEXT.__swift5_proto: 0x1c0
+-  __TEXT.__swift5_types: 0x15c
+-  __TEXT.__swift5_protos: 0x38
+-  __TEXT.__swift5_capture: 0x330
++3404.46.1.0.0
++  __TEXT.__text: 0x977d8
++  __TEXT.__auth_stubs: 0x2be0
++  __TEXT.__const: 0x2e60
++  __TEXT.__cstring: 0xaa6d
++  __TEXT.__swift5_typeref: 0xef2
++  __TEXT.__oslogstring: 0x3fac
++  __TEXT.__constg_swiftt: 0x1010
++  __TEXT.__swift5_reflstr: 0x17c2
++  __TEXT.__swift5_fieldmd: 0x13ec
++  __TEXT.__swift5_builtin: 0xa0
++  __TEXT.__swift5_assocty: 0x160
++  __TEXT.__swift5_proto: 0x1b0
++  __TEXT.__swift5_types: 0x134
++  __TEXT.__swift5_protos: 0x2c
++  __TEXT.__swift5_capture: 0xda4
++  __TEXT.__swift_as_entry: 0xa0
++  __TEXT.__swift_as_ret: 0x108
+   __TEXT.__swift5_mpenum: 0x18
+-  __TEXT.__unwind_info: 0x1928
+-  __TEXT.__eh_frame: 0x3b50
+-  __TEXT.__objc_classname: 0x4f
+-  __TEXT.__objc_methname: 0xce5
+-  __TEXT.__objc_methtype: 0x217
+-  __DATA_CONST.__got: 0x8a0
+-  __DATA_CONST.__const: 0x208
+-  __DATA_CONST.__objc_classlist: 0x80
+-  __DATA_CONST.__objc_catlist: 0x8
+-  __DATA_CONST.__objc_protolist: 0x30
++  __TEXT.__unwind_info: 0x1590
++  __TEXT.__eh_frame: 0x3378
++  __TEXT.__objc_methname: 0x80d
++  __DATA_CONST.__got: 0x878
++  __DATA_CONST.__const: 0x230
++  __DATA_CONST.__objc_classlist: 0x68
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x430
+-  __DATA_CONST.__objc_protorefs: 0x18
+-  __AUTH_CONST.__auth_got: 0x1670
+-  __AUTH_CONST.__auth_ptr: 0x718
+-  __AUTH_CONST.__const: 0x2ee8
+-  __AUTH_CONST.__objc_const: 0x10a8
+-  __AUTH.__objc_data: 0x250
+-  __AUTH.__data: 0x12e0
+-  __DATA.__data: 0x1530
+-  __DATA.__common: 0x2f8
++  __DATA_CONST.__objc_selrefs: 0x330
++  __AUTH_CONST.__auth_got: 0x15f0
++  __AUTH_CONST.__auth_ptr: 0x6a8
++  __AUTH_CONST.__const: 0x4968
++  __AUTH_CONST.__objc_const: 0xa58
++  __AUTH.__objc_data: 0x190
++  __AUTH.__data: 0x10e0
++  __DATA.__data: 0x1280
++  __DATA.__common: 0x118
+   __DATA.__bss: 0x3020
+   - /System/Library/Frameworks/AppIntents.framework/AppIntents
+   - /System/Library/Frameworks/CFNetwork.framework/CFNetwork
+
+   - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+   - /System/Library/Frameworks/CoreServices.framework/CoreServices
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+-  - /System/Library/Frameworks/Intents.framework/Intents
+   - /System/Library/Frameworks/NaturalLanguage.framework/NaturalLanguage
+   - /System/Library/Frameworks/PDFKit.framework/PDFKit
+-  - /System/Library/Frameworks/Photos.framework/Photos
+   - /System/Library/PrivateFrameworks/Anvil.framework/Anvil
+   - /System/Library/PrivateFrameworks/CarKit.framework/CarKit
+-  - /System/Library/PrivateFrameworks/ContentKit.framework/ContentKit
+   - /System/Library/PrivateFrameworks/FeatureStore.framework/FeatureStore
+   - /System/Library/PrivateFrameworks/FrontBoardServices.framework/FrontBoardServices
+   - /System/Library/PrivateFrameworks/GenerativeAssistantCommon.framework/GenerativeAssistantCommon
+   - /System/Library/PrivateFrameworks/GenerativeAssistantSettings.framework/GenerativeAssistantSettings
+   - /System/Library/PrivateFrameworks/GenerativeAssistantUI.framework/GenerativeAssistantUI
+   - /System/Library/PrivateFrameworks/GenerativeFunctionsFoundation.framework/GenerativeFunctionsFoundation
+-  - /System/Library/PrivateFrameworks/GenerativeModels.framework/GenerativeModels
+   - /System/Library/PrivateFrameworks/GenerativeModelsFoundation.framework/GenerativeModelsFoundation
+   - /System/Library/PrivateFrameworks/IntelligenceFlowContext.framework/IntelligenceFlowContext
+   - /System/Library/PrivateFrameworks/IntelligencePlatform.framework/IntelligencePlatform
++  - /System/Library/PrivateFrameworks/ManagedConfiguration.framework/ManagedConfiguration
+   - /System/Library/PrivateFrameworks/MobileKeyBag.framework/MobileKeyBag
+   - /System/Library/PrivateFrameworks/ModelCatalog.framework/ModelCatalog
+   - /System/Library/PrivateFrameworks/PromptKit.framework/PromptKit
+   - /System/Library/PrivateFrameworks/RunningBoardServices.framework/RunningBoardServices
+-  - /System/Library/PrivateFrameworks/SAObjects.framework/SAObjects
+   - /System/Library/PrivateFrameworks/Sage.framework/Sage
+   - /System/Library/PrivateFrameworks/SiriAnalytics.framework/SiriAnalytics
+   - /System/Library/PrivateFrameworks/SiriDialogEngine.framework/SiriDialogEngine
+   - /System/Library/PrivateFrameworks/SiriInstrumentation.framework/SiriInstrumentation
++  - /System/Library/PrivateFrameworks/SiriKitFlow.framework/SiriKitFlow
+   - /System/Library/PrivateFrameworks/SnippetKit.framework/SnippetKit
+   - /System/Library/PrivateFrameworks/SpringBoardServices.framework/SpringBoardServices
+   - /System/Library/PrivateFrameworks/TokenGeneration.framework/TokenGeneration
+   - /System/Library/PrivateFrameworks/ToolKit.framework/ToolKit
++  - /System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+   - /System/Library/PrivateFrameworks/UIIntelligenceSupport.framework/UIIntelligenceSupport
+   - /System/Library/PrivateFrameworks/UIKitCore.framework/UIKitCore
+-  - /System/Library/PrivateFrameworks/VoiceShortcutClient.framework/VoiceShortcutClient
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+
+   - /usr/lib/swift/libswiftDarwin.dylib
+   - /usr/lib/swift/libswiftDataDetection.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+-  - /usr/lib/swift/libswiftFileProvider.dylib
+   - /usr/lib/swift/libswiftIntents.dylib
+   - /usr/lib/swift/libswiftMLCompute.dylib
+   - /usr/lib/swift/libswiftMapKit.dylib
+
+   - /usr/lib/swift/libswiftsimd.dylib
+   - /usr/lib/swift/libswiftsys_time.dylib
+   - /usr/lib/swift/libswiftunistd.dylib
+-  Functions: 1981
+-  Symbols:   3589
+-  CStrings:  866
++  Functions: 1847
++  Symbols:   3563
++  CStrings:  756
+ 
+Symbols:
++ _$s10Foundation6LocaleVMa
++ _$s10Foundation6LocaleVMn
++ _$s11SiriKitFlow14TemplatingTextV4textSSvg
++ _$s11SiriKitFlow14TemplatingTextVMa
++ _$s11SiriKitFlow16TemplatingResultV8sectionsSayAA0D7SectionVGvg
++ _$s11SiriKitFlow16TemplatingResultVMa
++ _$s11SiriKitFlow16TemplatingResultVMn
++ _$s11SiriKitFlow17TemplatingSectionV7contentAA0D4TextVvg
++ _$s11SiriKitFlow17TemplatingSectionVMa
++ _$s15TokenGeneration20SessionConfigurationV10identifier9useCaseID21preferredModelBundles20handlesSensitiveData11cachePolicy10onBehalfOf06parents2OnrS0ACSS_SSSayAA0J6BundleVGSbAA05CacheP0VSiSgAPtcfC
++ _$s16SiriDialogEngine10CATGlobalsC7BuilderC10siriLocaleAESS_tcfC
++ _$s16SiriDialogEngine10CATGlobalsC7BuilderC5buildACyFTj
++ _$s16SiriDialogEngine10CATGlobalsC7BuilderCMa
++ _$s16SiriDialogEngine11CATExecutorC7execute6bundle5catId10parameters7globals8callback7optionss6ResultOy0A7KitFlow010TemplatingM0Vs5Error_pGSo8NSBundleC_SSSDySSypGAA10CATGlobalsCAA11CatCallable_pSgAA9CATOptionVtFZ
++ _$s16SiriDialogEngine11CATExecutorCMa
++ _$s16SiriDialogEngine11CatCallableMp
++ _$s16SiriDialogEngine9CATOptionV11defaultModeACvgZ
++ _$s16SiriDialogEngine9CATOptionVMa
++ _$s25GenerativeAssistantCommon0aB8ProviderC13authenticator5Anvil28ExternalPartnerAuthenticatorVSgyFTj
++ _$s25GenerativeAssistantCommon0aB8ProviderC6sharedACvgZ
++ _$s25GenerativeAssistantCommon0aB8ProviderCMa
++ _$s26GenerativeAssistantActions12MetricsUtilsC13loggingPrefixSSvpZMV
++ _$s26GenerativeAssistantActions12MetricsUtilsC6sharedACvpZMV
++ _$s26GenerativeAssistantActions12ProgressTextV012textCreationdE0SSvpZMV
++ _$s26GenerativeAssistantActions13FixedResponseO08disabledE0SSvpZMV
++ _$s26GenerativeAssistantActions14ProgressLevelsV11intentStartSfvpZMV
++ _$s26GenerativeAssistantActions14ProgressLevelsV12sendingToGMSSfvpZMV
++ _$s26GenerativeAssistantActions14ProgressLevelsV16receivedResponseSfvpZMV
++ _$s26GenerativeAssistantActions14ProgressLevelsV17executionFinishedSfvpZMV
++ _$s26GenerativeAssistantActions17InvocationContextV08explicitD015interactionMode14interfaceIdiom7useCase9sessionID10siriLocaleACSb_AA014GATInteractionH0OAA012GATInterfaceJ0O0aB6Common0ab3UseL0OSSSg10Foundation0P0VSgtcfC
++ _$s26GenerativeAssistantActions18DialogEngineClientC10executeCat5catId26includeContentProviderName0I12FamilySuffix20additionalParametersSSAA0hJ0O_SbSSSDySSypGtFTj
++ _$s26GenerativeAssistantActions18DialogEngineClientC10executeCat5catId26includeContentProviderName0I12FamilySuffix20additionalParametersSSAA0hJ0O_SbSSSDySSypGtFTq
++ _$s26GenerativeAssistantActions18DialogEngineClientC6localeSSSgvMTj
++ _$s26GenerativeAssistantActions18DialogEngineClientC6localeSSSgvMTq
++ _$s26GenerativeAssistantActions18DialogEngineClientC6localeSSSgvgTj
++ _$s26GenerativeAssistantActions18DialogEngineClientC6localeSSSgvgTq
++ _$s26GenerativeAssistantActions18DialogEngineClientC6localeSSSgvpMV
++ _$s26GenerativeAssistantActions18DialogEngineClientC6localeSSSgvsTj
++ _$s26GenerativeAssistantActions18DialogEngineClientC6localeSSSgvsTq
++ _$s26GenerativeAssistantActions18DialogEngineClientC8instanceACvgZ
++ _$s26GenerativeAssistantActions18DialogEngineClientC8instanceACvpZMV
++ _$s26GenerativeAssistantActions18DialogEngineClientCMa
++ _$s26GenerativeAssistantActions18DialogEngineClientCMm
++ _$s26GenerativeAssistantActions18DialogEngineClientCMn
++ _$s26GenerativeAssistantActions18DialogEngineClientCMo
++ _$s26GenerativeAssistantActions18DialogEngineClientCMu
++ _$s26GenerativeAssistantActions18DialogEngineClientCN
++ _$s26GenerativeAssistantActions18DialogEngineClientCfD
++ _$s26GenerativeAssistantActions18DialogEngineClientCfd
++ _$s26GenerativeAssistantActions20ContentRequestErrorsO02noD10FoundErroryA2CmFWC
++ _$s26GenerativeAssistantActions20ContentRequestErrorsO10Foundation13CustomNSErrorAAMc
++ _$s26GenerativeAssistantActions20ContentRequestErrorsO10Foundation14LocalizedErrorAAMc
++ _$s26GenerativeAssistantActions20ContentRequestErrorsO11errorDomainSSvMZ
++ _$s26GenerativeAssistantActions20ContentRequestErrorsO11errorDomainSSvgZ
++ _$s26GenerativeAssistantActions20ContentRequestErrorsO11errorDomainSSvpZMV
++ _$s26GenerativeAssistantActions20ContentRequestErrorsO11errorDomainSSvsZ
++ _$s26GenerativeAssistantActions20ContentRequestErrorsO13errorUserInfoSDySSypGvg
++ _$s26GenerativeAssistantActions20ContentRequestErrorsO13errorUserInfoSDySSypGvpMV
++ _$s26GenerativeAssistantActions20ContentRequestErrorsO14urlCreateErroryA2CmFWC
++ _$s26GenerativeAssistantActions20ContentRequestErrorsO15fileAccessErroryA2CmFWC
++ _$s26GenerativeAssistantActions20ContentRequestErrorsO15locateFileErroryA2CmFWC
++ _$s26GenerativeAssistantActions20ContentRequestErrorsO15notStartedErroryA2CmFWC
++ _$s26GenerativeAssistantActions20ContentRequestErrorsO17processImageErroryA2CmFWC
++ _$s26GenerativeAssistantActions20ContentRequestErrorsO18compressImageErroryA2CmFWC
++ _$s26GenerativeAssistantActions20ContentRequestErrorsO18createNSImageErroryA2CmFWC
++ _$s26GenerativeAssistantActions20ContentRequestErrorsO18createUIImageErroryA2CmFWC
++ _$s26GenerativeAssistantActions20ContentRequestErrorsO19createJPEGDataErroryA2CmFWC
++ _$s26GenerativeAssistantActions20ContentRequestErrorsO20mediafileAccessErroryA2CmFWC
++ _$s26GenerativeAssistantActions20ContentRequestErrorsO21noScreenshotFileErroryA2CmFWC
++ _$s26GenerativeAssistantActions20ContentRequestErrorsO23nonFunctionalErrorCasesSayACGvgZ
++ _$s26GenerativeAssistantActions20ContentRequestErrorsO23nonFunctionalErrorCasesSayACGvpZMV
++ _$s26GenerativeAssistantActions20ContentRequestErrorsO25screenshotDisallowedErroryA2CmFWC
++ _$s26GenerativeAssistantActions20ContentRequestErrorsO2eeoiySbAC_ACtFZ
++ _$s26GenerativeAssistantActions20ContentRequestErrorsO4hash4intoys6HasherVz_tF
++ _$s26GenerativeAssistantActions20ContentRequestErrorsO8logErrors0H0_pyF
++ _$s26GenerativeAssistantActions20ContentRequestErrorsO9errorCodeSivg
++ _$s26GenerativeAssistantActions20ContentRequestErrorsO9errorCodeSivpMV
++ _$s26GenerativeAssistantActions20ContentRequestErrorsO9hashValueSivg
++ _$s26GenerativeAssistantActions20ContentRequestErrorsO9hashValueSivpMV
++ _$s26GenerativeAssistantActions20ContentRequestErrorsO9mockErroryA2CmFWC
++ _$s26GenerativeAssistantActions20ContentRequestErrorsOMa
++ _$s26GenerativeAssistantActions20ContentRequestErrorsOMn
++ _$s26GenerativeAssistantActions20ContentRequestErrorsON
++ _$s26GenerativeAssistantActions20ContentRequestErrorsOSHAAMc
++ _$s26GenerativeAssistantActions20ContentRequestErrorsOSQAAMc
++ _$s26GenerativeAssistantActions20ContentRequestErrorsOs5ErrorAAMc
++ _$s26GenerativeAssistantActions20DefaultPromptFactoryV8instanceACvpZMV
++ _$s26GenerativeAssistantActions20GATAttachedMediaInfoV11descriptionSSvg
++ _$s26GenerativeAssistantActions20GATAttachedMediaInfoV11descriptionSSvpMV
++ _$s26GenerativeAssistantActions20GATAttachedMediaInfoVs23CustomStringConvertibleAAMc
++ _$s26GenerativeAssistantActions21DummyKnowledgeSourcesV03webF0SayAA11AttributionVGvpZMV
++ _$s26GenerativeAssistantActions28GATPerformanceLatencyMetricsV11descriptionSSvg
++ _$s26GenerativeAssistantActions28GATPerformanceLatencyMetricsV11descriptionSSvpMV
++ _$s26GenerativeAssistantActions28GATPerformanceLatencyMetricsVs23CustomStringConvertibleAAMc
++ _$s26GenerativeAssistantActions5CatIdO10disclaimeryA2CmFWC
++ _$s26GenerativeAssistantActions5CatIdO17contentDisclaimeryA2CmFWC
++ _$s26GenerativeAssistantActions5CatIdO17declineButtonTextyA2CmFWC
++ _$s26GenerativeAssistantActions5CatIdO19unsupportedFileTypeyA2CmFWC
++ _$s26GenerativeAssistantActions5CatIdO20genericErrorResponseyA2CmFWC
++ _$s26GenerativeAssistantActions5CatIdO20timeoutErrorResponseyA2CmFWC
++ _$s26GenerativeAssistantActions5CatIdO20unknownErrorResponseyA2CmFWC
++ _$s26GenerativeAssistantActions5CatIdO21condensedConfirmationyA2CmFWC
++ _$s26GenerativeAssistantActions5CatIdO22modelDisclaimerMessageyA2CmFWC
++ _$s26GenerativeAssistantActions5CatIdO23connectionErrorResponseyA2CmFWC
++ _$s26GenerativeAssistantActions5CatIdO24noImageFoundOnLockscreenyA2CmFWC
++ _$s26GenerativeAssistantActions5CatIdO25disabledResponseConditionyA2CmFWC
++ _$s26GenerativeAssistantActions5CatIdO27enablementDeclineButtonTextyA2CmFWC
++ _$s26GenerativeAssistantActions5CatIdO27enablementMediaTextForPhotoyA2CmFWC
++ _$s26GenerativeAssistantActions5CatIdO27internalServerErrorResponseyA2CmFWC
++ _$s26GenerativeAssistantActions5CatIdO27mediaConfirmationButtonTextyA2CmFWC
++ _$s26GenerativeAssistantActions5CatIdO27modelDisclaimerMessageShortyA2CmFWC
++ _$s26GenerativeAssistantActions5CatIdO30displayForwardSupportingDialogyA2CmFWC
++ _$s26GenerativeAssistantActions5CatIdO30enablementMediaTextForDocumentyA2CmFWC
++ _$s26GenerativeAssistantActions5CatIdO31contentRestrictionErrorResponseyA2CmFWC
++ _$s26GenerativeAssistantActions5CatIdO32enablementConfirmationButtonTextyA2CmFWC
++ _$s26GenerativeAssistantActions5CatIdO32enablementMediaTextForScreenshotyA2CmFWC
++ _$s26GenerativeAssistantActions5CatIdO32explicitImageConfirmationSnippetyA2CmFWC
++ _$s26GenerativeAssistantActions5CatIdO33textCreationFromImageProgressTextyA2CmFWC
++ _$s26GenerativeAssistantActions5CatIdO34textCreationConfirmationButtonTextyA2CmFWC
++ _$s26GenerativeAssistantActions5CatIdO35explicitDocumentConfirmationSnippetyA2CmFWC
++ _$s26GenerativeAssistantActions5CatIdO36textCreationFromDocumentProgressTextyA2CmFWC
++ _$s26GenerativeAssistantActions5CatIdO37explicitScreenshotConfirmationSnippetyA2CmFWC
++ _$s26GenerativeAssistantActions5CatIdO6sentToyA2CmFWC
++ _$s26GenerativeAssistantActions5CatIdO8acmeAsksyA2CmFWC
++ _$s26GenerativeAssistantActions5CatIdO8progressyA2CmFWC
++ _$s26GenerativeAssistantActions8CarUtilsC6sharedACvpZMV
++ _$s26GenerativeAssistantActions8SignpostO04textB12HandoffErrors12StaticStringVvpZMV
++ _$s26GenerativeAssistantActions8SignpostO04textB15HandoffDurations12StaticStringVvpZMV
++ _$s26GenerativeAssistantActions8SignpostO13emptyResponses12StaticStringVvpZMV
++ _$s26GenerativeAssistantActions8SignpostO14gmsResultErrors12StaticStringVvpZMV
++ _$s26GenerativeAssistantActions8SignpostO18imageResizeProcesss12StaticStringVvpZMV
++ _$s26GenerativeAssistantActions8SignpostO19uiRenderingDurations12StaticStringVvpZMV
++ _$s26GenerativeAssistantActions8SignpostO20createSessionProcesss12StaticStringVvpZMV
++ _$s26GenerativeAssistantActions8SignpostO20registerImageProcesss12StaticStringVvpZMV
++ _$s26GenerativeAssistantActions8SignpostO20sessionCreationErrors12StaticStringVvpZMV
++ _$s26GenerativeAssistantActions8SignpostO21registerDocumentErrors12StaticStringVvpZMV
++ _$s26GenerativeAssistantActions8SignpostO22imageContextConversions12StaticStringVvpZMV
++ _$s26GenerativeAssistantActions8SignpostO22loadScreenContentErrors12StaticStringVvpZMV
++ _$s26GenerativeAssistantActions8SignpostO23imageJPEGEncodeDurations12StaticStringVvpZMV
++ _$s26GenerativeAssistantActions8SignpostO23registerDocumentProcesss12StaticStringVvpZMV
++ _$s26GenerativeAssistantActions8SignpostO24loadScreenContentProcesss12StaticStringVvpZMV
++ _$s26GenerativeAssistantActions8SignpostO25documentContextConversions12StaticStringVvpZMV
++ _$s26GenerativeAssistantActions8SignpostO26responseGenerationDurations12StaticStringVvpZMV
++ _$s26GenerativeAssistantActions8SignpostO27imageContextConversionErrors12StaticStringVvpZMV
++ _$s26GenerativeAssistantActions8SignpostO28userCancelDuringConfirmations12StaticStringVvpZMV
++ _$s26GenerativeAssistantActions8SignpostO29contextScreenContentRetrievals12StaticStringVvpZMV
++ _$s26GenerativeAssistantActions8SignpostO30documentContextConversionErrors12StaticStringVvpZMV
++ _$s26GenerativeAssistantActions8SignpostO32registerDocumentNeverFinishErrors12StaticStringVvpZMV
++ _$s26GenerativeAssistantActions8SignpostO33waitUserConfirmToContinueDurations12StaticStringVvpZMV
++ _$s26GenerativeAssistantActions8SignpostO34generateImageIntentPerformDurations12StaticStringVvpZMV
++ _$s26GenerativeAssistantActions8SignpostO36lowConfidenceKnowledgeSearchDurations12StaticStringVvpZMV
++ _$s26GenerativeAssistantActions8SignpostO40generateRichContentIntentPerformDurations12StaticStringVvpZMV
++ _$s26GenerativeAssistantActions8SignpostO43generateRichContentFromMediaPerformDurations12StaticStringVvpZMV
++ _$s26GenerativeAssistantActions8SignpostO46generateKnowledgeResponseIntentPerformDurations12StaticStringVvpZMV
++ _$s26GenerativeAssistantActions8SignpostO7timeOuts12StaticStringVvpZMV
++ _$s26GenerativeAssistantActions9ConstantsV11appBundleIdSSvpZMV
++ _$s26GenerativeAssistantActions9OverridesV18showMockWebSourcesSbSgvpZMV
++ _$s26GenerativeAssistantActions9OverridesV32tamaleAppDebugPromptOverridePathSSSgvpZMV
++ _$s26GenerativeAssistantActions9OverridesV34disableTextCompositionConfirmationSbSgvpZMV
++ _$s26GenerativeAssistantActions9SELFUtilsC13clientTraceID10Foundation4UUIDVvMTj
++ _$s26GenerativeAssistantActions9SELFUtilsC13clientTraceID10Foundation4UUIDVvMTq
++ _$s26GenerativeAssistantActions9SELFUtilsC13clientTraceID10Foundation4UUIDVvgTj
++ _$s26GenerativeAssistantActions9SELFUtilsC13clientTraceID10Foundation4UUIDVvgTq
++ _$s26GenerativeAssistantActions9SELFUtilsC13clientTraceID10Foundation4UUIDVvpMV
++ _$s26GenerativeAssistantActions9SELFUtilsC13clientTraceID10Foundation4UUIDVvsTj
++ _$s26GenerativeAssistantActions9SELFUtilsC13clientTraceID10Foundation4UUIDVvsTq
++ _$s26GenerativeAssistantActions9SELFUtilsC6sharedACvpZMV
++ _$s27GenerativeAssistantSettings0abC11DestinationO11upgradePlanyA2CmFWC
++ _$s27GenerativeAssistantSettings0abC8ProviderC11LLMProviderO8rawValueSSvg
++ _$s27GenerativeAssistantSettings0abC8ProviderC11LLMProviderOMa
++ _$s27GenerativeAssistantSettings0abC8ProviderC11modelBundle15TokenGeneration05ModelF0VyFTj
++ _$s27GenerativeAssistantSettings0abC8ProviderC3llmAC11LLMProviderOyFTj
++ _$s27GenerativeAssistantSettings0abC8ProviderC6sharedACvgZ
++ _$s27GenerativeAssistantSettings0abC8ProviderCMa
++ _$s29GenerativeFunctionsFoundation0A5ErrorV010NetworkingD0VMn
++ _$s29GenerativeFunctionsFoundation0A5ErrorV010UnderlyingD0V20localizedDescriptionSSvg
++ _$s29GenerativeFunctionsFoundation0A5ErrorV010UnderlyingD0V5errors0D0_pSgvg
++ _$s29GenerativeFunctionsFoundation0A5ErrorV010UnderlyingD0VMa
++ _$s29GenerativeFunctionsFoundation0A5ErrorV011InvalidatedD0VMa
++ _$s29GenerativeFunctionsFoundation0A5ErrorV011InvalidatedD0VMn
++ _$s29GenerativeFunctionsFoundation0A5ErrorV011InvalidatedD0VSEAAMc
++ _$s29GenerativeFunctionsFoundation0A5ErrorV012AvailabilityD0VMn
++ _$s29GenerativeFunctionsFoundation0A5ErrorV014AuthenticationD0VMa
++ _$s29GenerativeFunctionsFoundation0A5ErrorV014AuthenticationD0VMn
++ _$s29GenerativeFunctionsFoundation0A5ErrorV014AuthenticationD0VSEAAMc
++ _$s29GenerativeFunctionsFoundation0A5ErrorV017UnknownUnderlyingD0V5errorAC0fD0Vvg
++ _$s29GenerativeFunctionsFoundation0A5ErrorV017UnknownUnderlyingD0VMa
++ _$s29GenerativeFunctionsFoundation0A5ErrorV017UnknownUnderlyingD0VMn
++ _$s29GenerativeFunctionsFoundation0A5ErrorV017UnknownUnderlyingD0VSEAAMc
++ _$s29GenerativeFunctionsFoundation0A5ErrorV04ToolD0V0D7ContextV11descriptionSSvg
++ _$s29GenerativeFunctionsFoundation0A5ErrorV04ToolD0V0D7ContextV4nameSSvg
++ _$s29GenerativeFunctionsFoundation0A5ErrorV04ToolD0V0D7ContextVMa
++ _$s29GenerativeFunctionsFoundation0A5ErrorV04ToolD0V7contextAE0D7ContextVvg
++ _$s29GenerativeFunctionsFoundation0A5ErrorV04ToolD0VMa
++ _$s29GenerativeFunctionsFoundation0A5ErrorV04ToolD0VMn
++ _$s29GenerativeFunctionsFoundation0A5ErrorV04ToolD0VSEAAMc
++ _$s29GenerativeFunctionsFoundation0A5ErrorV06PromptD0V0D4TypeO07invalidE6FormatyA2G07InvalideH4InfoVcAGmFWC
++ _$s29GenerativeFunctionsFoundation0A5ErrorV06PromptD0V0D4TypeO13tooManyTokensyA2G03ToohiD4InfoVcAGmFWC
++ _$s29GenerativeFunctionsFoundation0A5ErrorV06PromptD0V0D4TypeO23scriptValidatorRejectedyA2G06ScripthiD4InfoVcAGmFWC
++ _$s29GenerativeFunctionsFoundation0A5ErrorV06PromptD0V0D4TypeO26languageRecognizerRejectedyA2G08LanguagehiD4InfoVcAGmFWC
++ _$s29GenerativeFunctionsFoundation0A5ErrorV07RuntimeD0VMn
++ _$s29GenerativeFunctionsFoundation0A5ErrorV08CanceledD0VMa
++ _$s29GenerativeFunctionsFoundation0A5ErrorV08CanceledD0VMn
++ _$s29GenerativeFunctionsFoundation0A5ErrorV08CanceledD0VSEAAMc
++ _$s29GenerativeFunctionsFoundation0A5ErrorV08DocumentD0V0D7ContextV11descriptionSSvg
++ _$s29GenerativeFunctionsFoundation0A5ErrorV08DocumentD0V0D7ContextV3url0C03URLVSgvg
++ _$s29GenerativeFunctionsFoundation0A5ErrorV08DocumentD0V0D7ContextVMa
++ _$s29GenerativeFunctionsFoundation0A5ErrorV08DocumentD0V7contextAE0D7ContextVvg
++ _$s29GenerativeFunctionsFoundation0A5ErrorV08DocumentD0VMa
++ _$s29GenerativeFunctionsFoundation0A5ErrorV08DocumentD0VMn
++ _$s29GenerativeFunctionsFoundation0A5ErrorV08DocumentD0VSEAAMc
++ _$s29GenerativeFunctionsFoundation0A5ErrorV0D4TypeO11invalidatedyAeC011InvalidatedD0VcAEmFWC
++ _$s29GenerativeFunctionsFoundation0A5ErrorV0D4TypeO14authenticationyAeC014AuthenticationD0VcAEmFWC
++ _$s29GenerativeFunctionsFoundation0A5ErrorV0D4TypeO4toolyAeC04ToolD0VcAEmFWC
++ _$s29GenerativeFunctionsFoundation0A5ErrorV0D4TypeO7unknownyAeC017UnknownUnderlyingD0VcAEmFWC
++ _$s29GenerativeFunctionsFoundation0A5ErrorV0D4TypeO8canceledyAeC08CanceledD0VcAEmFWC
++ _$s29GenerativeFunctionsFoundation0A5ErrorV0D4TypeO8documentyAeC08DocumentD0VcAEmFWC
++ _$s29GenerativeFunctionsFoundation0A5ErrorVMn
++ _$s2os6LoggerV26GenerativeAssistantActionsE20managedConfigurationACvgZ
++ _$s5Anvil16RateLimitBudgetsV02isB7LimitedSbvg
++ _$s5Anvil16RateLimitBudgetsVMa
++ _$s5Anvil16RateLimitBudgetsVMn
++ _$s5Anvil28ExternalPartnerAuthenticatorV30retrieveLatestRateLimitBudgetsAA0ghI0VyYaKF
++ _$s5Anvil28ExternalPartnerAuthenticatorV30retrieveLatestRateLimitBudgetsAA0ghI0VyYaKFTu
++ _$s5Anvil28ExternalPartnerAuthenticatorVMa
++ _$s5Anvil28ExternalPartnerAuthenticatorVMn
++ _$s7ToolKit0A8ExecutorV14SessionOptionsV7defaultAEvgZ
++ _$s7ToolKit0A8ExecutorV14SessionOptionsVMa
++ _$s7ToolKit0A8ExecutorV5start7optionsQrAC14SessionOptionsV_tYaKFZ
++ _$s7ToolKit0A8ExecutorV5start7optionsQrAC14SessionOptionsV_tYaKFZQOMQ
++ _$s7ToolKit0A8ExecutorV5start7optionsQrAC14SessionOptionsV_tYaKFZTu
++ _$s9PromptKit011ChatMessageA0VAA0c8MessagesA11ConvertibleAAWP
++ _$s9PromptKit4UserV6localeyAA011ChatMessageA0V10Foundation6LocaleVSgF
++ _$sSS26GenerativeAssistantActionsE13numberOfLines10attributes5widthSiSDySo21NSAttributedStringKeyaypG_12CoreGraphics7CGFloatVtF
++ _$sSaMa
++ _$sSfN
++ _$sShMa
++ _$sSo19GATSchemaGATUsecaseV19SiriInstrumentationE11descriptionSSvg
++ _$sSo21GATSchemaGATMediaTypeV19SiriInstrumentationE11descriptionSSvg
++ _$sSo27GATSchemaGATMediaQnAUseCaseV19SiriInstrumentationE11descriptionSSvg
++ _$ss5Int32VMn
++ _OBJC_CLASS_$_MCProfileConnection
++ _OBJC_CLASS_$_NSAttributedString
++ _OBJC_CLASS_$_NSLayoutManager
++ _OBJC_CLASS_$_NSTextContainer
++ _OBJC_CLASS_$_NSTextStorage
++ _swift_cvw_allocateGenericValueMetadataWithLayoutString
++ _swift_cvw_assignWithCopy
++ _swift_cvw_assignWithTake
++ _swift_cvw_destroy
++ _swift_cvw_enumFn_getEnumTag
++ _swift_cvw_initEnumMetadataMultiPayloadWithLayoutString
++ _swift_cvw_initStructMetadataWithLayoutString
++ _swift_cvw_initWithCopy
++ _swift_cvw_initWithTake
++ _swift_cvw_initializeBufferWithCopyOfBuffer
++ _swift_cvw_instantiateLayoutString
++ _swift_cvw_multiPayloadEnumGeneric_destructiveInjectEnumTag
++ _swift_cvw_multiPayloadEnumGeneric_getEnumTag
++ _swift_getExistentialTypeMetadata
++ _swift_initStaticObject
+- _$s10AppIntents0A6IntentPAAE13systemContextAA0c6SystemE0Vvg
+- _$s10AppIntents0A6IntentPAAE19requestConfirmation6result22confirmationActionName10showPromptyqd___AA0ehI0VSbtYaKAA0C6ResultRd__lF
+- _$s10AppIntents0A6IntentPAAE19requestConfirmation6result22confirmationActionName10showPromptyqd___AA0ehI0VSbtYaKAA0C6ResultRd__lFTu
+- _$s10AppIntents19IntentSystemContextV09AssistantE0V15interactionModeAE011InteractionH0OSgvg
+- _$s10AppIntents19IntentSystemContextV09AssistantE0V17sessionIdentifierSSvg
+- _$s10AppIntents19IntentSystemContextV09AssistantE0VMa
+- _$s10AppIntents19IntentSystemContextV09AssistantE0VMn
+- _$s10AppIntents19IntentSystemContextV09assistantE0AC09AssistantE0VSgvg
+- _$s10AppIntents19IntentSystemContextVMa
+- _$s10AppIntents22SnippetPluginContainerVMn
+- _$s10Foundation13__DataStorageC5bytes6length4copy11deallocator6offsetACSvSg_SiSbySv_SitcSgSitcfc
+- _$s10Foundation13__DataStorageCMa
+- _$s10Foundation18_ErrorCodeProtocolPAAE2teoiySbx_s0B0_ptFZ
+- _$s10Foundation3URLV15fileURLWithPath11isDirectoryACSSh_SbtcfC
+- _$s10Foundation3URLV4pathSSvg
+- _$s10Foundation4DataV10contentsOf7optionsAcA3URLVh_So20NSDataReadingOptionsVtKcfC
+- _$s10Foundation4DataV11DeallocatorO12_deallocatoryySv_Sitcvg
+- _$s10Foundation4DataV11DeallocatorO4freeyA2EmFWC
+- _$s10Foundation4DataV11DeallocatorOMa
+- _$s10Foundation4DataV14RangeReferenceCMa
+- _$s10Foundation4DataV16debugDescriptionSSvg
+- _$s10Foundation4DataV5write2to7optionsyAA3URLV_So20NSDataWritingOptionsVtKF
+- _$s10Foundation4DateV36_unconditionallyBridgeFromObjectiveCyACSo6NSDateCSgFZ
+- _$s10Foundation8URLErrorV16fileDoesNotExistAC4CodeVvgZ
+- _$s10Foundation8URLErrorV4CodeVAA06_ErrorC8ProtocolAAMc
+- _$s10Foundation8URLErrorV4CodeVMa
+- _$s12ModelCatalog0B0O8ResourceO3LLMO0A0O7ChatGPTAA8LLMModel_pyFZ
+- _$s15TokenGeneration11ModelBundleV16GenerativeModelsE8resourceAC0C7Catalog0aB8Resource_p_tcfC
+- _$s15TokenGeneration20SessionConfigurationV10identifier9useCaseID21preferredModelBundles20handlesSensitiveData11cachePolicy10onBehalfOfACSS_SSSayAA0J6BundleVGSbAA05CacheP0VSiSgtcfC
+- _$s21GenerativeAssistantUI0A12ResultModelsO0a8RichTextD7SnippetyAcA0afgdH5ModelVcACmFWC
+- _$s21GenerativeAssistantUI0A26RichTextResultSnippetModelV7results19contentProviderName0J10Disclaimer12attributions11punchOutURL19criticalDisclaimers05modelM0ACSayAA0d7ContentF7SegmentOG_S2SSayAA11AttributionVG10Foundation0Q0VSgSaySSGAA0hM0VSgtcfC
+- _$s21GenerativeAssistantUI0A26RichTextResultSnippetModelVMa
+- _$s21GenerativeAssistantUI11AttributionV10displayUrl3urlACSS_SStcfC
+- _$s21GenerativeAssistantUI11AttributionVMa
+- _$s21GenerativeAssistantUI11AttributionVMn
+- _$s21GenerativeAssistantUI15ModelDisclaimerVMn
+- _$s21GenerativeAssistantUI24RichContentResultSegmentO6stringyACSScACmFWC
+- _$s21GenerativeAssistantUI24RichContentResultSegmentOMa
+- _$s21GenerativeAssistantUI24RichContentResultSegmentOMn
+- _$s21UIIntelligenceSupport16IntelligenceFileCSQAAMc
+- _$s21UIIntelligenceSupport28IntelligenceLocalizedStringsO5imageSSvgZ
+- _$s25GenerativeAssistantCommon0aB18FeatureFlagManagerVACycfC
+- _$s25GenerativeAssistantCommon0aB19FeatureFlagManagingP37isLowConfidenceKnowledgeSearchEnabledSbvgTj
+- _$s25GenerativeAssistantCommon0aB19FeatureFlagManagingP41isImageSupportWithContextRetrievalEnabledSbvgTj
+- _$s25GenerativeAssistantCommon0aB19FeatureFlagManagingP42isEntitySupportWithContextRetrievalEnabledSbvgTj
+- _$s25GenerativeAssistantCommon0aB19FeatureFlagManagingP43isLowConfidenceKnowledgeConfirmationEnabledSbvgTj
+- _$s25GenerativeAssistantCommon0aB19FeatureFlagManagingP44isDocumentSupportWithContextRetrievalEnabledSbvgTj
+- _$s25GenerativeAssistantCommon0aB19FeatureFlagManagingP44isSnapshotSupportWithContextRetrievalEnabledSbvgTj
+- _$s26GenerativeAssistantActions26LowConfidenceKnowledgeUtilV6search5query13callingIntent14webResultsData20requestValueCallback027responseGenerationKeepAliveQ09useCaseIDAA0deF8ResponseVSgSS_10AppIntents0zK0_p10Foundation0N0VSgS2SYaKcSgyyc0aB6Common0ab3UseW0OtYaF
+- _$s26GenerativeAssistantActions26LowConfidenceKnowledgeUtilV6search5query13callingIntent14webResultsData20requestValueCallback027responseGenerationKeepAliveQ09useCaseIDAA0deF8ResponseVSgSS_10AppIntents0zK0_p10Foundation0N0VSgS2SYaKcSgyyc0aB6Common0ab3UseW0OtYaFTu
+- _$s26GenerativeAssistantActions26LowConfidenceKnowledgeUtilV6search5query13callingIntent20requestValueCallback027responseGenerationKeepAliveN09useCaseIDAA0deF8ResponseVSgSS_10AppIntents0wK0_pS2SYaKcyyc0aB6Common0ab3UseT0OtYaF
+- _$s26GenerativeAssistantActions26LowConfidenceKnowledgeUtilV6search5query13callingIntent20requestValueCallback027responseGenerationKeepAliveN09useCaseIDAA0deF8ResponseVSgSS_10AppIntents0wK0_pS2SYaKcyyc0aB6Common0ab3UseT0OtYaFTu
+- _$s26GenerativeAssistantActions26LowConfidenceKnowledgeUtilVACycfC
+- _$s26GenerativeAssistantActions26LowConfidenceKnowledgeUtilVMa
+- _$s26GenerativeAssistantActions26LowConfidenceKnowledgeUtilVMn
+- _$s26GenerativeAssistantActions26LowConfidenceKnowledgeUtilVN
+- _$s26GenerativeAssistantActions30LowConfidenceKnowledgeResponseV22snippetPluginContainer10AppIntents07SnippetiJ0Vvg
+- _$s26GenerativeAssistantActions30LowConfidenceKnowledgeResponseV22snippetPluginContainer10AppIntents07SnippetiJ0VvpMV
+- _$s26GenerativeAssistantActions30LowConfidenceKnowledgeResponseV5catIdAA03CatI0Ovg
+- _$s26GenerativeAssistantActions30LowConfidenceKnowledgeResponseV5catIdAA03CatI0OvpMV
+- _$s26GenerativeAssistantActions30LowConfidenceKnowledgeResponseV6dialogSSvg
+- _$s26GenerativeAssistantActions30LowConfidenceKnowledgeResponseV6dialogSSvpMV
+- _$s26GenerativeAssistantActions30LowConfidenceKnowledgeResponseV8responseSSvg
+- _$s26GenerativeAssistantActions30LowConfidenceKnowledgeResponseV8responseSSvpMV
+- _$s26GenerativeAssistantActions30LowConfidenceKnowledgeResponseVMa
+- _$s26GenerativeAssistantActions30LowConfidenceKnowledgeResponseVMn
+- _$s26GenerativeAssistantActions30LowConfidenceKnowledgeResponseVN
+- _$s26GenerativeAssistantActions5CatIdO18unsuportedFileTypeyA2CmFWC
+- _$s27GenerativeAssistantSettings0abC11DestinationO15rateLimitPromptyA2CmFWC
+- _$s29GenerativeFunctionsFoundation0A5ErrorV06PromptD0VSEAAMc
+- _$s5Anvil19OpenAIAuthenticatorV16RateLimitBudgetsV02isD7LimitedSbvg
+- _$s5Anvil19OpenAIAuthenticatorV16RateLimitBudgetsVMa
+- _$s5Anvil19OpenAIAuthenticatorV16RateLimitBudgetsVMn
+- _$s5Anvil19OpenAIAuthenticatorV21checkRateLimitBudgetsAC0efG0VyYaKF
+- _$s5Anvil19OpenAIAuthenticatorV21checkRateLimitBudgetsAC0efG0VyYaKFTu
+- _$s5Anvil19OpenAIAuthenticatorV6sharedACvgZ
+- _$s5Anvil19OpenAIAuthenticatorVMa
+- _$s7ToolKit0A8ExecutorV5startQryYaKFZ
+- _$s7ToolKit0A8ExecutorV5startQryYaKFZQOMQ
+- _$s7ToolKit0A8ExecutorV5startQryYaKFZTu
+- _$s9PromptKit4UserVAA012ChatMessagesA11ConvertibleAAWP
+- _$sBbWV
+- _$sSD10FoundationE36_unconditionallyBridgeFromObjectiveCySDyxq_GSo12NSDictionaryCSgFZ
+- _$sSa12_endMutationyyFyXl_Ts5
+- _$sScC6resume8throwingyq_n_tF
+- _$sScC6resume9returningyxn_tF
+- _$sSf11descriptionSSvg
+- _$sSo21WFOnScreenContentNodeC26GenerativeAssistantActionsE11descriptionSSvg
+- _$sSo7UIImageC25GenerativeAssistantCommonE16getFileExtensionSSSgyF
+- _$sSw10copyMemory4fromySW_tF
+- _$sSwys5UInt8VSicis
+- _$ss11AnyHashableVN
+- _$ss11AnyHashableVSHsWP
+- _$ss15ContiguousArrayV034_makeUniqueAndReserveCapacityIfNotD0yyFyXl_Ts5
+- _$ss15ContiguousArrayV12_endMutationyyFyXl_Ts5
+- _$ss15ContiguousArrayV15reserveCapacityyySiFyXl_Ts5
+- _$ss15ContiguousArrayV36_reserveCapacityAssumingUniqueBuffer8oldCountySi_tFyXl_Ts5
+- _$ss15ContiguousArrayV37_appendElementAssumeUniqueAndCapacity_03newD0ySi_xntFyXl_Ts5
+- _$ss17_assertionFailure__4file4line5flagss5NeverOs12StaticStringV_A2HSus6UInt32VtF
+- _$ss18_fatalErrorMessage__4file4line5flagss5NeverOs12StaticStringV_A2HSus6UInt32VtF
+- _$ss31withCheckedThrowingContinuation9isolation8function_xScA_pSgYi_SSyScCyxs5Error_pGXEtYaKlF
+- _$ss31withCheckedThrowingContinuation9isolation8function_xScA_pSgYi_SSyScCyxs5Error_pGXEtYaKlFTu
+- _APP_SANDBOX_READ
+- _NSTemporaryDirectory
+- _OBJC_CLASS_$_INFile
+- _OBJC_CLASS_$_PHAssetExportRequest
+- _OBJC_CLASS_$_PHAssetExportRequestOptions
+- _OBJC_CLASS_$_PHContentEditingInputRequestOptions
+- _OBJC_CLASS_$_PHImageManager
+- _OBJC_CLASS_$_PHImageRequestOptions
+- _OBJC_CLASS_$_SAUISetUpdateMask
+- _OBJC_CLASS_$_UIDevice
+- _OBJC_CLASS_$_WFContextualActionContext
+- _OBJC_CLASS_$_WFContextualActionFile
+- _OBJC_CLASS_$_WFContextualActionRunnerClient
+- _OBJC_CLASS_$_WFOnScreenContentNode
+- _OBJC_CLASS_$_WFOnScreenContentService
+- _OBJC_CLASS_$_WFOnScreenContentServiceOptions
+- _OBJC_CLASS_$_WFPhotoMediaContentItem
+- _OBJC_CLASS_$_WFTakeScreenshotContextualAction
+- _OBJC_METACLASS_$_NSObject
+- _PHAssetExportRequestLivePhotoBundleURLKey
+- _PHAssetExportRequestPhotoFileURLKey
+- _PHAssetExportRequestVideoFileURLKey
+- _SANDBOX_EXTENSION_DEFAULT
+- _UIGraphicsBeginImageContextWithOptions
+- _UIGraphicsEndImageContext
+- _UIGraphicsGetImageFromCurrentImageContext
+- __CFURLAttachSecurityScopeToFileURL
+- __swift_FORCE_LOAD_$_swiftFileProvider
+- __swift_stdlib_reportUnimplementedInitializer
+- _objc_autoreleaseReturnValue
+- _objc_msgSendSuper2
+- _objc_release_x10
+- _objc_release_x9
+- _sandbox_extension_issue_file
+- _swift_allocateGenericValueMetadata
+- _swift_dynamicCastObjCClass
+- _swift_getDynamicType
+- _swift_initEnumMetadataMultiPayload
+- _swift_initStructMetadata
+- _swift_unownedRelease
+- _swift_unownedRetain
+- _swift_unownedRetainStrong
+CStrings:
++ "%s.%s Received a cancel error %s"
++ "%s.%s Received a document error %s"
++ "%s.%s Received a prompt error: invalid prompt format %s"
++ "%s.%s Received a prompt error: language recognizer rejected %s"
++ "%s.%s Received a prompt error: script validator rejected %s"
++ "%s.%s Received a prompt error: too many tokens %s"
++ "%s.%s Received a tool error %s"
++ "%s.%s Received an authentication error %s"
++ "%s.%s Received an invalidated error %s"
++ "%s.%s Received an unknown error %s"
++ "%s.%s Received an unknown error and rethrow as Error.unknownUnderlyingGMSError because underlying error is nil : %s"
++ "%s.%s Received an unknown error and rethrow as NSError: %s"
++ "%s.%s Received an unknown error and rethrow as is: %s"
++ "%s.%s Received an unknown error not fall into any defined GenerativeError enum: %@"
++ "%s.%s [url = %s; file: %s]"
++ "%s.%s content is a screenshot and screenshots are prohibited, throwing an error"
++ "%s.%s contents obtained: %s"
++ "%s.%s isScreenshotAllowed: %{bool}d"
++ "%s.%s screen is unlocked, adding app window snapshots"
++ "%s.%s screenshots are prohibited, returning content without a screenshot"
++ ",\ngenerativeRequestDuration: "
++ ",\nimageResizingDuration: "
++ ",\nloadScreenContentDuration: "
++ ",\nloadScreenContentRateKBsPerSecond: "
++ ",\nmediaQAUseCase: "
++ ",\noriginalMediaSizeInKBs: "
++ ",\nprocessedMediaSizeInKBs: "
++ ",\nprocessedMediaType: "
++ ",\nregisterMediaRateKBsPerSecond: "
++ ",\nstartSessionDuration: "
++ "Authentication failed"
++ "CAT_FAMILY_NAME"
++ "Document processing failed for '"
++ "GATAttachedMediaInfo:\noriginalMediaType: "
++ "GATPerformanceLatencyMetrics(\nregisterMediaDuration: "
++ "Getting client traceID to joinbility: %s"
++ "ManagedConfigurationProvider"
++ "MetricsUtils - Performance metrics saved: %s"
++ "Prompt Error: invalid Prompt Format"
++ "Prompt Error: language recognizer rejected"
++ "Prompt Error: script validator rejected"
++ "Prompt Error: too many tokens"
++ "Received error %@ for retrieving cat: %s"
++ "Request is no longer valid"
++ "Request was canceled"
++ "SELFUtils - Created GATSchemaGATPnRMetrics with values: %s %s"
++ "SELFUtils Failed to create GATSchemaGATRegisterMediaEventStarted instance."
++ "SELFUtils empty mediaQAUseCase, not recording this field to SELF event"
++ "SELFUtils empty recordGenerativeRequestStarted start.usecase"
++ "SELFUtils recordGenerativeRequestStarted originalMediaSizeInKBs %s"
++ "SELFUtils recordGenerativeRequestStarted originalMediaType %s"
++ "SELFUtils recordGenerativeRequestStarted start.usecase %s"
++ "SELFUtils recordLoadScreenContentEnded() get empty gatMediaInfo"
++ "SELFUtils recordLoadScreenContentEnded() get empty originalMediaSizeInKBs"
++ "SELFUtils recordLoadScreenContentEnded() get empty originalMediaType"
++ "SELFUtils.recordRegisterMediaStarted() with start event: %s"
++ "SELFUtils.shared.gatMediaInfo was set to: %s"
++ "SELFUtils.shared.gatUsecase was set to: GATUSECASE_KNOWLEDGE_FALLBACK should not overwrite it to %s"
++ "SELFUtils.shared.generativeResultCharactersCount was set to: %s"
++ "Setting client traceID to: %s"
++ "Sorry, I don’t understand."
++ "String#setSentToResponse setting response"
++ "Successfully updated GAT MediaQA usecase: GATMEDIAQNAUSECASE_INLINE_IMAGE"
++ "Successfully updated GAT MediaQA usecase: GATMEDIAQNAUSECASE_REGISTER_DOCUMENT"
++ "Successfully updated GAT MediaQA usecase: GATMEDIAQNAUSECASE_REGISTER_IMAGE"
++ "Successfully updated GAT MediaQA usecase: GATMEDIAQNAUSECASE_SCREENSHOT"
++ "Unknown error occurred: "
++ "Waiting for response from "
++ "[Generated image] Generated image response received. Wait for further logs to see if the image data is loaded successfully."
++ "[keep-alive]: keep-alive task canceled, potentially due to receiving response successfully; no longer sending heartbeats"
++ "_TtC26GenerativeAssistantActions18DialogEngineClient"
++ "_clientTraceID"
++ "acmeAsks"
++ "addLayoutManager:"
++ "addTextContainer:"
++ "client traceID does not exist, creating new UUID: %s"
++ "condensedConfirmation"
++ "connectionErrorResponse"
++ "contentDisclaimer"
++ "contentRestrictionErrorResponse"
++ "contentWithScreenshot(for:in:)"
++ "declineButtonText"
++ "disabledResponseCondition"
++ "disclaimer"
++ "displayForwardSupportingDialog"
++ "documentDescription"
++ "enablementConfirmationButtonText"
++ "enablementDeclineButtonText"
++ "enablementMediaTextForDocument"
++ "enablementMediaTextForPhoto"
++ "enablementMediaTextForScreenshot"
++ "explicitDocumentConfirmationSnippet"
++ "explicitImageConfirmationSnippet"
++ "explicitScreenshotConfirmationSnippet"
++ "generateAndPrompt(userQuery:documentURL:imageFile:imageSize:imageSizeInMB:fileSource:fileName:fileMimeType:websiteURL:sessionID:userPromptCallback:uploadProgressCallback:responseGenerationKeepAliveCallback:enableBrowserTool:appBundleID:useCaseID:interactionMode:siriLocale:)"
++ "genericErrorResponse"
++ "glyphRangeForTextContainer:"
++ "init(systemPrompt:tools:useCaseID:enableBrowserTool:sessionID:templateID:siriLocale:)"
++ "initWithAttributedString:"
++ "initWithSize:"
++ "initWithString:attributes:"
++ "internalServerErrorResponse"
++ "invalidateRestrictionCache"
++ "isAllowScreenshotEnabledInProfile"
++ "isScreenShotAllowed"
++ "lineFragmentRectForGlyphAtIndex:effectiveRange:"
++ "locale"
++ "mediaConfirmationButtonText"
++ "modelDisclaimerMessage"
++ "modelDisclaimerMessageShort"
++ "noImageFoundOnLockscreen"
++ "numberOfGlyphs"
++ "progress"
++ "requestImageConfirmation(invocationContext:imageInfo:file:previewImage:fileSizeInMB:webpageURL:userQuery:requestConfirmationCallback:)"
++ "sentTo"
++ "setLineFragmentPadding:"
++ "setMaximumNumberOfLines:"
++ "setOriginalMediaSizeInKBs:"
++ "setOriginalMediaType:"
++ "sharedConnection"
++ "siriLocale"
++ "sizeWithAttributes:"
++ "textCreationConfirmationButtonText"
++ "textCreationFromDocumentProgressText"
++ "textCreationFromImageProgressText"
++ "timeoutErrorResponse"
++ "unknownErrorResponse"
++ "unknowned type Prompt Error"
++ "unsupportedFileType"
+- " Here's a long answer from ChatGPT."
+- " Here's a long answer from ChatGPT. Check important info for mistakes."
+- "#16@0:8"
+- "#SharableMediaAttachmentUtils Failed to retrieve file URL for PHAsset"
+- "#SharableMediaAttachmentUtils asset is available locally"
+- "#SharableMediaAttachmentUtils fetchSharableMediaContent downloaded an asset and local URL is now: %s"
+- "#SharableMediaAttachmentUtils returning false, Error in creating export request for PHAsset: %s"
+- "%s Failed to load media that is sendable"
+- "%s Performance metrics saved."
+- "%s.%s Failed to delete temp file: %@"
+- "%s.%s Feature Flag is enabled for Context Retrieval's Document Support, skipping node"
+- "%s.%s Feature Flag is enabled for Context Retrieval's Image Support, skipping node"
+- "%s.%s Feature Flag is enabled for Context Retrieval's document support, adding file to content types"
+- "%s.%s Feature Flag is enabled for Context Retrieval's entity support, adding appEntities to sources"
+- "%s.%s Feature Flag is enabled for Context Retrieval's entity support, adding entity to content types"
+- "%s.%s Feature Flag is enabled for Context Retrieval's image support or Context Retrieval's document support, adding uiHierarchyContent to sources"
+- "%s.%s Feature Flag is enabled for Context Retrieval's image support or Context Retrieval's snapshot support, adding image to content types"
+- "%s.%s Feature Flag is enabled for Context Retrieval's snapshot support, adding appWindowSnapshots to sources"
+- "%s.%s Image resizing failed."
+- "%s.%s Loading Image from file"
+- "%s.%s Loading as Photos media item"
+- "%s.%s No file or file url found, skipping node"
+- "%s.%s No file type identifier found, skipping node"
+- "%s.%s Received a prompt error %s"
+- "%s.%s Saving the current sessionID %s"
+- "%s.%s [url = %s; shortcuts file: %s, context retrieval file: %s]"
+- "%s.%s child node: %s"
+- "%s.%s contents obtained with %s: %s"
+- "%s.%s document file url: %s, MB: %s"
+- "%s.%s of Size %ld x %ld"
+- "%s.%s on screen content node: %s"
+- "%s.%s screen contents is empty, taking screenshot as fallback"
+- "%s.%s type identifier: %s"
+- ", file creation date: "
+- ", file type identifier: "
+- ". Can I send this content from "
+- ". Can I send this content?"
+- ". Can I send this screenshot?"
+- ". Should I go ahead?"
+- ".cxx_destruct"
+- "@\"NSString\"16@0:8"
+- "@16@0:8"
+- "@24@0:8:16"
+- "@32@0:8:16@24"
+- "@40@0:8:16@24@32"
+- "Access granted: %{bool}d : Loading Image File %s"
+- "Access granted: %{bool}d : Loading Screenshot %s"
+- "B16@0:8"
+- "B24@0:8#16"
+- "B24@0:8:16"
+- "B24@0:8@\"Protocol\"16"
+- "B24@0:8@16"
+- "Check important info for mistakes."
+- "Created GATSchemaGATPnRMetrics with values: %s %s"
+- "Division by zero"
+- "Division results in an overflow"
+- "Do you want me to use ChatGPT to answer that?"
+- "Ended: handleScreenshot"
+- "Error in creating export request for PHAsset: %s"
+- "Error in creating exporting PHAsset: %s"
+- "Error invoking the model: %@"
+- "Failed to create GATSchemaGATRegisterMediaEventStarted instance."
+- "Failed with error: %@"
+- "GenerativeAssistantActions.ScreenshotDelegate"
+- "Here’s an answer from ChatGPT"
+- "Insufficient space allocated to copy string contents"
+- "LowConfidenceKnowledge FF is off"
+- "NSObject"
+- "Negative value is not representable"
+- "Not enough bits to represent the passed value"
+- "Over daily limit. Requests will use "
+- "Presenting confirmation"
+- "Q16@0:8"
+- "Record the SELFUtils.recordLoadScreenContentEnded() with ended event: %s"
+- "Record the SELFUtils.recordRegisterMediaStarted() with start event: %s"
+- "ScreenshotDelegate workflowRunnerClient was invoked, client.isRunning: %{bool}d cancelled: %{bool}d"
+- "Send this content from "
+- "Send this content to ChatGPT?"
+- "Send this photo to ChatGPT?"
+- "Send this screenshot to ChatGPT?"
+- "Send this to ChatGPT?"
+- "Sending your content to ChatGPT…"
+- "Sending your image to ChatGPT…"
+- "String#setSentToiOSResponse setting iPad response"
+- "String#setSentToiOSResponse setting iPhone response"
+- "Success loading screenshot"
+- "Successfully updated GAT MediaInfoContext."
+- "SupportedDocumentHelper"
+- "Swift/ContiguousArrayBuffer.swift"
+- "Swift/IntegerTypes.swift"
+- "Swift/Integers.swift"
+- "Swift/StringTesting.swift"
+- "Swift/StringUTF8View.swift"
+- "Swift/UnsafeBufferPointer.swift"
+- "Swift/UnsafePointer.swift"
+- "Swift/UnsafeRawBufferPointer.swift"
+- "Swift/UnsafeRawPointer.swift"
+- "T#,R"
+- "T@\"NSString\",?,R,C"
+- "T@\"NSString\",N,R"
+- "T@\"NSString\",R,C"
+- "TQ,R"
+- "That was from ChatGPT."
+- "That was from ChatGPT. Check important info for mistakes."
+- "To answer that, I’ll need to send this photo to "
+- "To answer that, I’ll need to use "
+- "Unexpectedly found nil while unwrapping an Optional value"
+- "UnsafeMutableBufferPointer with negative count"
+- "UnsafeMutablePointer.initialize overlapping range"
+- "UnsafeMutablePointer.initialize with negative count"
+- "UnsafeMutablePointer.moveInitialize with negative count"
+- "UnsafeMutableRawBufferPointer.copyMemory source has too many elements"
+- "UnsafeMutableRawPointer.initializeMemory overlapping range"
+- "User accepted confirmation"
+- "User declined confirmation"
+- "Vv16@0:8"
+- "WFContextualActionRunnerClientDelegate"
+- "WFWorkflowRunnerClientDelegate"
+- "Waiting for response from ChatGPT…"
+- "We have a data blob %s"
+- "Windowed dialog support is not yet implemented"
+- "You’ve reached your daily limit for "
+- "[keep-alive]: task canceled"
+- "^{_NSZone=}16@0:8"
+- "_TtC26GenerativeAssistantActions13PreparedImage"
+- "_TtC26GenerativeAssistantActions16ScreenshotLoader"
+- "_TtC26GenerativeAssistantActions17ScreenshotRequest"
+- "_TtC26GenerativeAssistantActions18ScreenshotDelegate"
+- "applicationBundleIdentifier"
+- "asset"
+- "autorelease"
+- "callback"
+- "children"
+- "class"
+- "conformsToProtocol:"
+- "contentItem"
+- "currentDevice"
+- "data"
+- "dealloc"
+- "debugDescription"
+- "disableKnowledgeConfirmation"
+- "displaySizeImage"
+- "dispose"
+- "drawInRect:"
+- "exportRequestForAsset:error:"
+- "exportWithOptions:completionHandler:"
+- "file"
+- "fileCreationDate"
+- "fileExtension"
+- "fileSizeInMB"
+- "fileTypeIdentifier"
+- "fileURL"
+- "filename"
+- "generateAndPrompt(userQuery:documentURL:image:imageFile:imageSize:imageSizeInMB:fileSource:fileName:fileMimeType:websiteURL:sessionID:userPromptCallback:uploadProgressCallback:responseGenerationKeepAliveCallback:enableBrowserTool:appBundleID:useCaseID:interactionMode:)"
+- "getOnScreenContent()"
+- "getOnScreenContentWithOptions:completionHandler:"
+- "hasAdjustments"
+- "hash"
+- "image"
+- "init()"
+- "init(systemPrompt:tools:useCaseID:enableBrowserTool:sessionID:templateID:)"
+- "initWithContextualAction:actionContext:"
+- "initWithIgnoreContextualAssistanceLayersOption:"
+- "initWithSurface:"
+- "invalid Collection: less than 'count' elements in collection"
+- "isEqual:"
+- "isKindOfClass:"
+- "isMemberOfClass:"
+- "isProxy"
+- "isRunning"
+- "isSupportedDocument(typeIdentifier:)"
+- "jpegData"
+- "load(mediaItem:)"
+- "load(mediaItem:_:)"
+- "maxImageSizeLong"
+- "maxImageSizeShort"
+- "performSelector:"
+- "performSelector:withObject:"
+- "performSelector:withObject:withObject:"
+- "pixelHeight"
+- "pixelWidth"
+- "playbackStyle"
+- "preflightExportWithOptions:assetAvailability:isProcessingRequired:fileURLs:info:"
+- "registerImage(image:imageURL:imageSource:imageName:imageMimeType:websiteURL:uploadProgressCallback:)"
+- "release"
+- "removeItemAtURL:error:"
+- "requestContentEditingInputWithOptions:completionHandler:"
+- "requestImageConfirmation(invocationContext:imageInfo:contextRetrievalFile:previewImage:fileSizeInMB:webpageURL:userQuery:requestConfirmationCallback:)"
+- "requestImageDataForAsset:options:resultHandler:"
+- "resizedImage(maxPixelsLong:maxPixelsShort:)"
+- "respondsToSelector:"
+- "retain"
+- "retainCount"
+- "scale"
+- "screenshotDelegate"
+- "searchHelper(query:callingIntent:webResultsData:requestValueCallback:responseGenerationKeepAliveCallback:useCaseID:)"
+- "self"
+- "setDelegate:"
+- "setNetworkAccessAllowed:"
+- "setShouldBundleComplexAssetResources:"
+- "setShouldHideSiri:"
+- "setShouldStripLocation:"
+- "setSkipDisplaySizeImage:"
+- "setSynchronous:"
+- "setTargetSize:"
+- "setTreatLivePhotoAsStill:"
+- "setVariant:"
+- "setVersion:"
+- "sharedService"
+- "shortcutsScreenshotProvider"
+- "size"
+- "start"
+- "superclass"
+- "unsuportedFileType"
+- "userInterfaceIdiom"
+- "v16@0:8"
+- "v24@?0@\"NSDictionary\"8@\"NSError\"16"
+- "v24@?0@\"PHContentEditingInput\"8@\"NSDictionary\"16"
+- "v24@?0@\"WFOnScreenContentNode\"8@\"NSError\"16"
+- "v32@0:8@\"WFWorkflowRunnerClient\"16@\"NSProgress\"24"
+- "v32@0:8@16@24"
+- "v36@0:8@\"WFWorkflowRunnerClient\"16@\"NSError\"24B32"
+- "v36@0:8@16@24B32"
+- "v40@?0@\"NSData\"8@\"NSString\"16q24@\"NSDictionary\"32"
+- "v44@0:8@\"WFContextualActionRunnerClient\"16@\"NSArray\"24@\"NSError\"32B40"
+- "v44@0:8@\"WFWorkflowRunnerClient\"16@\"NSDictionary\"24@\"NSError\"32B40"
+- "v44@0:8@\"WFWorkflowRunnerClient\"16@\"WFContentCollection\"24@\"NSError\"32B40"
+- "v44@0:8@16@24@32B40"
+- "workflowRunnerClient:didFinishRunningWorkflowWithAllResults:error:cancelled:"
+- "workflowRunnerClient:didFinishRunningWorkflowWithError:cancelled:"
+- "workflowRunnerClient:didFinishRunningWorkflowWithOutput:error:cancelled:"
+- "workflowRunnerClient:didFinishRunningWorkflowWithOutputFiles:error:cancelled:"
+- "workflowRunnerClient:didStartRunningWorkflowWithProgress:"
+- "zone"
+- "’s advanced capabilities. Additional requests will use the basic version for up to 24 hours."
+- "’s basic version for up to 24 hours."
+
+```

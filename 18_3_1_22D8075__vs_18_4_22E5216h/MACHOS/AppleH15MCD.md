@@ -1,0 +1,44 @@
+## AppleH15MCD
+
+> `/System/Library/Extensions/AppleH15MCD.kext/AppleH15MCD`
+
+```diff
+
+-113.80.2.0.0
+-  __TEXT.__cstring: 0x8836
+-  __TEXT.__const: 0x140
++119.0.0.0.0
++  __TEXT.__cstring: 0x8893
++  __TEXT.__const: 0x1a0
+   __TEXT.__os_log: 0x111c
+-  __TEXT_EXEC.__text: 0x13ab4
++  __TEXT_EXEC.__text: 0x13ad4
+   __TEXT_EXEC.__auth_stubs: 0x490
+   __DATA.__data: 0x12f68
+   __DATA.__common: 0x108
+
+   __DATA_CONST.__mod_term_func: 0x18
+   __DATA_CONST.__const: 0x6d30
+   __DATA_CONST.__kalloc_type: 0x180
+-  Functions: 413
+-  Symbols:   926
+-  CStrings:  1410
++  Functions: 406
++  Symbols:   928
++  CStrings:  1413
+ 
+Symbols:
++ _ZN26AppleH15MemCacheController15_enablePerfCtrlEPNS_17AMCCCounterConfigEjb.cold.1
++ _ZN28AppleH15PlatformErrorHandler26_d2dAfcGenerateDisableMaskEv.cold.1
++ _ZN28AppleH15PlatformErrorHandler26_d2dAfiGenerateDisableMaskEv.cold.1
++ _ZN28AppleH15PlatformErrorHandler26_d2dAfrGenerateDisableMaskEv.cold.1
+- _ZN28AppleH15PlatformErrorHandler15eccEventHandlerEP8OSObjectP22IOInterruptEventSourcei.cold.1
+- _ZN28AppleH15PlatformErrorHandler30amccNoPlaneDelayedFetchUeflLogEP8OSObjectP22IOInterruptEventSourcei.cold.1
+CStrings:
++ "1211111212221212112121111111111111111111111211111111111111111111111111111111111111111111111111111111111111111111111111212112121112112112112112112112112112112112112112112112112112112221111112222222222222222222222222222222222222222222222222222222222222222212222211222211111121112222"
++ "_d2dAfcGenerateDisableMask"
++ "_d2dAfiGenerateDisableMask"
++ "_d2dAfrGenerateDisableMask"
+- "1211111212221212112121111111111111111111111211111111111111111111111111111111111111111111111111111111111111212112121112112112112112112112112112112112112112112112112112112221111112222222222222222222222222222222222222222222222222222222222222222212222211222211111121112222"
+
+```

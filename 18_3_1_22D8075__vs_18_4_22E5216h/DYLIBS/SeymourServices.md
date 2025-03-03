@@ -1,0 +1,1179 @@
+## SeymourServices
+
+> `/System/Library/PrivateFrameworks/SeymourServices.framework/SeymourServices`
+
+```diff
+
+-1003.40.0.0.0
+-  __TEXT.__text: 0x85240c
+-  __TEXT.__auth_stubs: 0xbf90
+-  __TEXT.__objc_methlist: 0xfd0
+-  __TEXT.__const: 0x1a8d0
+-  __TEXT.__cstring: 0x1964d
+-  __TEXT.__constg_swiftt: 0xcc84
+-  __TEXT.__swift5_typeref: 0x156ea
+-  __TEXT.__swift5_builtin: 0x230
+-  __TEXT.__swift5_reflstr: 0xce7c
+-  __TEXT.__swift5_fieldmd: 0xa0a4
+-  __TEXT.__swift5_assocty: 0x1f28
+-  __TEXT.__swift5_proto: 0x11a0
+-  __TEXT.__swift5_types: 0x9e4
+-  __TEXT.__swift5_capture: 0x18640
+-  __TEXT.__oslogstring: 0x15ed2
+-  __TEXT.__swift5_protos: 0x324
+-  __TEXT.__swift5_mpenum: 0x130
+-  __TEXT.__unwind_info: 0x18328
+-  __TEXT.__eh_frame: 0x4553c
+-  __TEXT.__objc_classname: 0x24a
+-  __TEXT.__objc_methname: 0x6436
+-  __TEXT.__objc_methtype: 0x18fd
+-  __TEXT.__objc_stubs: 0x1c0
+-  __DATA_CONST.__got: 0x5420
+-  __DATA_CONST.__const: 0x1fb8
+-  __DATA_CONST.__objc_classlist: 0xaa0
+-  __DATA_CONST.__objc_protolist: 0x1c0
++1004.33.0.0.0
++  __TEXT.__text: 0x6f5794
++  __TEXT.__auth_stubs: 0xad00
++  __TEXT.__objc_methlist: 0x1834
++  __TEXT.__const: 0x16de4
++  __TEXT.__cstring: 0x1547f
++  __TEXT.__constg_swiftt: 0xa50c
++  __TEXT.__swift5_typeref: 0x1324a
++  __TEXT.__swift5_builtin: 0x1e0
++  __TEXT.__swift5_reflstr: 0xa96c
++  __TEXT.__swift5_fieldmd: 0x7ef8
++  __TEXT.__swift5_assocty: 0x1d90
++  __TEXT.__swift5_proto: 0xf30
++  __TEXT.__swift5_types: 0x814
++  __TEXT.__swift5_capture: 0x1567c
++  __TEXT.__oslogstring: 0x10672
++  __TEXT.__swift5_protos: 0x268
++  __TEXT.__swift_as_entry: 0xc20
++  __TEXT.__swift_as_ret: 0x113c
++  __TEXT.__swift5_mpenum: 0xf0
++  __TEXT.__unwind_info: 0x14f30
++  __TEXT.__eh_frame: 0x3eb60
++  __TEXT.__objc_classname: 0x1b7
++  __TEXT.__objc_methname: 0x5b30
++  __TEXT.__objc_methtype: 0x14ff
++  __TEXT.__objc_stubs: 0x60
++  __DATA_CONST.__got: 0x4b10
++  __DATA_CONST.__const: 0x1e40
++  __DATA_CONST.__objc_classlist: 0x928
++  __DATA_CONST.__objc_protolist: 0x180
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x1f00
+-  __DATA_CONST.__objc_protorefs: 0xf0
+-  __DATA_CONST.__objc_superrefs: 0x8
+-  __AUTH_CONST.__auth_got: 0x5fd0
+-  __AUTH_CONST.__auth_ptr: 0x3c00
+-  __AUTH_CONST.__const: 0x460f8
+-  __AUTH_CONST.__cfstring: 0x320
+-  __AUTH_CONST.__objc_const: 0x179f8
+-  __AUTH_CONST.__objc_intobj: 0x18
+-  __AUTH.__objc_data: 0x2bc8
+-  __AUTH.__data: 0x52d8
+-  __DATA.__objc_ivar: 0x8
+-  __DATA.__data: 0x92d0
++  __DATA_CONST.__objc_selrefs: 0x2058
++  __DATA_CONST.__objc_protorefs: 0xd0
++  __AUTH_CONST.__auth_got: 0x5688
++  __AUTH_CONST.__auth_ptr: 0x32b8
++  __AUTH_CONST.__const: 0x350e8
++  __AUTH_CONST.__objc_const: 0x128e8
++  __AUTH.__objc_data: 0x2978
++  __AUTH.__data: 0x4c30
++  __DATA.__data: 0x7ec0
+   __DATA.__objc_stublist: 0x40
+-  __DATA.__bss: 0x12660
+-  __DATA.__common: 0x261
+-  __DATA_DIRTY.__objc_data: 0x46a0
+-  __DATA_DIRTY.__data: 0x11618
+-  __DATA_DIRTY.__bss: 0x9580
+-  __DATA_DIRTY.__common: 0x7b8
++  __DATA.__bss: 0xf4d0
++  __DATA.__common: 0x1f0
++  __DATA_DIRTY.__objc_data: 0x4378
++  __DATA_DIRTY.__data: 0xe788
++  __DATA_DIRTY.__bss: 0x9180
++  __DATA_DIRTY.__common: 0x6d0
+   - /System/Library/Frameworks/AVFoundation.framework/AVFoundation
+   - /System/Library/Frameworks/Accounts.framework/Accounts
+   - /System/Library/Frameworks/CFNetwork.framework/CFNetwork
+   - /System/Library/Frameworks/CloudKit.framework/CloudKit
+-  - /System/Library/Frameworks/Combine.framework/Combine
+   - /System/Library/Frameworks/CoreData.framework/CoreData
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreMotion.framework/CoreMotion
+-  - /System/Library/Frameworks/CoreServices.framework/CoreServices
+   - /System/Library/Frameworks/CryptoKit.framework/CryptoKit
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+-  - /System/Library/Frameworks/GroupActivities.framework/GroupActivities
+   - /System/Library/Frameworks/HealthKit.framework/HealthKit
+   - /System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
+   - /System/Library/Frameworks/JavaScriptCore.framework/JavaScriptCore
+
+   - /System/Library/PrivateFrameworks/AppleMediaServices.framework/AppleMediaServices
+   - /System/Library/PrivateFrameworks/ApplePushService.framework/ApplePushService
+   - /System/Library/PrivateFrameworks/AuthKit.framework/AuthKit
+-  - /System/Library/PrivateFrameworks/BiomeStreams.framework/BiomeStreams
+   - /System/Library/PrivateFrameworks/CacheDelete.framework/CacheDelete
+   - /System/Library/PrivateFrameworks/CloudKitCode.framework/CloudKitCode
+   - /System/Library/PrivateFrameworks/CoreAnalytics.framework/CoreAnalytics
+
+   - /System/Library/PrivateFrameworks/JetEngine.framework/JetEngine
+   - /System/Library/PrivateFrameworks/ManagedConfiguration.framework/ManagedConfiguration
+   - /System/Library/PrivateFrameworks/MetricsKit.framework/MetricsKit
+-  - /System/Library/PrivateFrameworks/MobileKeyBag.framework/MobileKeyBag
+   - /System/Library/PrivateFrameworks/NanoRegistry.framework/NanoRegistry
+   - /System/Library/PrivateFrameworks/PromotedContentSupport.framework/PromotedContentSupport
+   - /System/Library/PrivateFrameworks/Rapport.framework/Rapport
+-  - /System/Library/PrivateFrameworks/RunningBoardServices.framework/RunningBoardServices
+   - /System/Library/PrivateFrameworks/SetupAssistant.framework/SetupAssistant
+   - /System/Library/PrivateFrameworks/SeymourClient.framework/SeymourClient
+   - /System/Library/PrivateFrameworks/SeymourClientServices.framework/SeymourClientServices
+   - /System/Library/PrivateFrameworks/SeymourCore.framework/SeymourCore
+   - /System/Library/PrivateFrameworks/SeymourServerProtocol.framework/SeymourServerProtocol
+-  - /System/Library/PrivateFrameworks/Sharing.framework/Sharing
+-  - /System/Library/PrivateFrameworks/TelephonyUtilities.framework/TelephonyUtilities
++  - /System/Library/PrivateFrameworks/SeymourServicesCore.framework/SeymourServicesCore
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libsqlite3.dylib
+   - /usr/lib/swift/libswiftAVFoundation.dylib
+-  - /usr/lib/swift/libswiftAccelerate.dylib
+   - /usr/lib/swift/libswiftCompression.dylib
+   - /usr/lib/swift/libswiftCore.dylib
+   - /usr/lib/swift/libswiftCoreAudio.dylib
+
+   - /usr/lib/swift/libswiftCryptoTokenKit.dylib
+   - /usr/lib/swift/libswiftDarwin.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+-  - /usr/lib/swift/libswiftIntents.dylib
+   - /usr/lib/swift/libswiftMetal.dylib
+   - /usr/lib/swift/libswiftOSLog.dylib
+   - /usr/lib/swift/libswiftObjectiveC.dylib
+
+   - /usr/lib/swift/libswiftsimd.dylib
+   - /usr/lib/swift/libswiftsys_time.dylib
+   - /usr/lib/swift/libswiftunistd.dylib
+-  Functions: 30511
+-  Symbols:   1814
+-  CStrings:  5295
++  Functions: 27097
++  Symbols:   1586
++  CStrings:  4439
+ 
+Symbols:
++ _OBJC_CLASS_$_OS_dispatch_group
++ _swift_cvw_allocateGenericValueMetadataWithLayoutString
++ _swift_cvw_assignWithCopy
++ _swift_cvw_assignWithTake
++ _swift_cvw_destroy
++ _swift_cvw_enumFn_getEnumTag
++ _swift_cvw_initEnumMetadataMultiPayloadWithLayoutString
++ _swift_cvw_initEnumMetadataSinglePayloadWithLayoutString
++ _swift_cvw_initStructMetadataWithLayoutString
++ _swift_cvw_initWithCopy
++ _swift_cvw_initWithTake
++ _swift_cvw_initializeBufferWithCopyOfBuffer
++ _swift_cvw_instantiateLayoutString
++ _swift_cvw_multiPayloadEnumGeneric_destructiveInjectEnumTag
++ _swift_cvw_multiPayloadEnumGeneric_getEnumTag
++ _swift_cvw_singlePayloadEnumGeneric_destructiveInjectEnumTag
++ _swift_cvw_singlePayloadEnumGeneric_getEnumTag
++ _swift_getExistentialTypeMetadata
++ _swift_getFunctionTypeMetadata0
++ _swift_getTupleTypeMetadata3
+- _AVPlaybackCoordinatorPlaybackObjectCommandSetRate
+- _AVPlaybackCoordinatorPlaybackObjectCommandSetRateAndTime
+- _AVPlaybackCoordinatorPlaybackObjectCommandSetTime
+- _CFAbsoluteTimeGetCurrent
+- _CFArrayGetCount
+- _CFArrayGetValueAtIndex
+- _CFDataCreate
+- _CFDataGetBytePtr
+- _CFDataGetLength
+- _CFDictionaryAddValue
+- _CFDictionaryContainsKey
+- _CFDictionaryGetValue
+- _CFNumberCreate
+- _CFNumberGetValue
+- _CFRelease
+- _FBSOpenApplicationOptionKeyActivateSuspended
+- _FBSOpenApplicationOptionKeyPayloadURL
+- _MKBDeviceUnlockedSinceBoot
+- _MKBGetDeviceLockState
+- _NDR_record
+- _NSFileProtectionComplete
+- _NSFileProtectionCompleteUnlessOpen
+- _NSFileProtectionCompleteUntilFirstUserAuthentication
+- _NSFileProtectionNone
+- _NSOSStatusErrorDomain
+- _NSUnderlyingErrorKey
+- _OBJC_CLASS_$_BMHealthKitWorkoutEvent
+- _OBJC_CLASS_$_BMHealthKitWorkoutStream
+- _OBJC_CLASS_$_BMMindfulnessSessionEvent
+- _OBJC_CLASS_$_BMMindfulnessSessionStream
+- _OBJC_CLASS_$_FBSOpenApplicationOptions
+- _OBJC_CLASS_$_FBSOpenApplicationService
+- _OBJC_CLASS_$_LSApplicationRecord
+- _OBJC_CLASS_$_NSConstantIntegerNumber
+- _OBJC_CLASS_$_NSData
+- _OBJC_CLASS_$_NSMutableDictionary
+- _OBJC_CLASS_$_NSRunLoop
+- _OBJC_CLASS_$_OS_dispatch_source
+- _OBJC_CLASS_$_RBSProcessHandle
+- _OBJC_CLASS_$_RBSProcessPredicate
+- _OBJC_CLASS_$_RPCompanionLinkDevice
+- _OBJC_CLASS_$_RPIdentity
+- _OBJC_CLASS_$_SFDeviceDiscovery
+- _OBJC_CLASS_$_SFService
+- _OBJC_CLASS_$_SMUFairPlayKeyDelivery
+- _OBJC_CLASS_$_SMUFairPlayRemoteServerPlaybackContext
+- _OBJC_CLASS_$_TUConversation
+- _OBJC_CLASS_$_TUConversationManager
+- _OBJC_METACLASS_$_SMUFairPlayKeyDelivery
+- _OBJC_METACLASS_$_SMUFairPlayRemoteServerPlaybackContext
+- _RPDestinationIdentifierDirectPeer
+- _RPDestinationIdentifierInterestedPeers
+- _RPDestinationIdentifierPairedCompanion
+- _RPErrorDomain
+- _RPOptionBTHighPriority
+- _RPOptionInterest
+- _SFServiceIdentifierCompanionLinkProx
+- _SMUFairPlayKeyDeliveryErrorDomain
+- __HKWorkoutActivityNameForActivityType
+- ___CFConstantStringClassReference
+- __set_user_dir_suffix
+- __swift_FORCE_LOAD_$_swiftAccelerate
+- __swift_FORCE_LOAD_$_swiftIntents
+- _bootstrap_look_up
+- _bootstrap_port
+- _confstr
+- _dlopen
+- _dlsym
+- _mach_msg
+- _mach_msg_destroy
+- _mach_task_self_
+- _malloc_type_malloc
+- _mig_dealloc_reply_port
+- _mig_get_reply_port
+- _mig_put_reply_port
+- _mkdir
+- _notify_set_state
+- _objc_alloc
+- _objc_autorelease
+- _objc_release_x10
+- _objc_retainAutorelease
+- _objc_storeStrong
+- _pthread_once
+- _pthread_rwlock_init
+- _pthread_rwlock_rdlock
+- _pthread_rwlock_unlock
+- _pthread_rwlock_wrlock
+- _signal
+- _strerror
+- _swift_allocateGenericValueMetadata
+- _swift_getTupleTypeLayout2
+- _swift_getTupleTypeLayout3
+- _swift_initEnumMetadataMultiPayload
+- _swift_initEnumMetadataSinglePayload
+- _swift_initStructMetadata
+- _vm_deallocate
+- _voucher_mach_msg_set
+CStrings:
++ "@\"NSDictionary\"32@0:8@\"AMSPushPayload\"16@\"NSString\"24"
++ "Already verifying guest pairing request for handshake %{public}s"
++ "Found %ld supported account devices"
++ "PersistenceStoreDelegate.attemptMigrationCurrentDataProtection"
++ "PersistenceStoreDelegate.loadStoresCurrentDataProtection"
++ "PersistenceStoreDelegate.migrateStore"
++ "Updating phone found state to: %{bool}d"
++ "Updating watch found state to: %{bool}d"
++ "[OptInPrivacy] Privacy acknowledgement disabled via AMSDefaults.acknowledgePrivacyOverride: API will always return optedIn!"
++ "activeVerifications"
++ "cancelAllPairingVerifications()"
++ "handshake connection expirationTimer "
++ "pushPayload:metricsOverlayForType:"
++ "reportHandshake(_:)"
++ "requireActiveVerification(_:)"
++ "updateAccountDevices()"
++ "updateJetPack(force:)"
++ "url dataProtectionClass "
++ "verifyHandshake(_:matching:from:)"
+- "\x11"
+- "%{public}@ is no longer supported as %{public}s..."
+- "%{public}s Compressing %ld byte response payload with %ld to %ld bytes"
+- "%{public}s Destination does not support outgoing requests: %{public}s"
+- "%{public}s Event missing from rapport dictionary: %{public}s"
+- "%{public}s Event was %ld bytes compressed to %ld bytes using %{public}s"
+- "%{public}s Failed to process %{mask.hash}s response: %{public}s"
+- "%{public}s Failed to process response payload: %{public}s"
+- "%{public}s Received notifyd notification name: %{public}s"
+- "%{public}s Request missing from rapport dictionary: %{public}s"
+- "%{public}s Request was %ld bytes compressed to %ld bytes using %{public}s"
+- "%{public}s Response was %ld bytes compressed using %s. Total inflight time of %fs with %fs spent processing %{public}s"
+- "%{public}s Retrying request %{public}s without compression %s because of %{public}s"
+- "%{public}s Unable to send event ID %{public}s: %{public}s"
+- "%{public}s disconnect: %{public}s"
+- "%{public}s: Activating device (%{public}@) connection link successful: %{public}s"
+- "%{public}s: Authentication failed with error: %s"
+- "%{public}s: Authentication success"
+- "%{public}s: Connecting to device (%{public}@), requires authentication=%{bool,public}d"
+- "%{public}s: Error activating device (%{public}@) connection link: %{public}s"
+- "%{public}s: Invalid state for initiating connection"
+- "%{public}s: Password challenge handler fired"
+- "%{public}s: Provided a password while connection was not in progress"
+- "%{public}s: Remote participant discovery (%{public}s expired"
+- "%{public}s: password attempt for link that doesn't require authentication"
+- ", destination = "
+- "/Library/Caches/com.apple.xbs/Sources/FitCore/SeymourServices/Biome/Coordinator/SessionBiomeCoordinator.swift"
+- "/Library/Caches/com.apple.xbs/Sources/FitCore/SeymourServices/Biome/Event Recording/MindfulnessBiomeStreamRecorder.swift"
+- "/Library/Caches/com.apple.xbs/Sources/FitCore/SeymourServices/Biome/Event Recording/WorkoutBiomeStreamRecorder.swift"
+- "/Library/Caches/com.apple.xbs/Sources/FitCore/SeymourServices/Infrastructure/Daemons/SessionDaemon.swift"
+- "/Library/Caches/com.apple.xbs/Sources/FitCore/SeymourServices/Infrastructure/Device Connection/DeviceConnectionBroker.swift"
+- "/Library/Caches/com.apple.xbs/Sources/FitCore/SeymourServices/Infrastructure/Device Connection/UnstableDeviceConnection.swift"
+- "/Library/Caches/com.apple.xbs/Sources/FitCore/SeymourServices/Infrastructure/Signal Handling/SigTermHandler.swift"
+- "/Library/Caches/com.apple.xbs/Sources/FitCore/SeymourServices/Key Delivery/Coordinators/RemoteKeyDeliveryParticipantCoordinator.swift"
+- "/Library/Caches/com.apple.xbs/Sources/FitCore/SeymourServices/Key Delivery/Listeners/RemoteKeyDeliveryListener.swift"
+- "/Library/Caches/com.apple.xbs/Sources/FitCore/SeymourServices/Key Delivery/System/RemoteKeyDeliverySystem.swift"
+- "/Library/Caches/com.apple.xbs/Sources/FitCore/SeymourServices/Multi User/Connection/MultiUserLink.swift"
+- "/Library/Caches/com.apple.xbs/Sources/FitCore/SeymourServices/Multi User/Identity/MultiUserIdentityProvider.swift"
+- "/Library/Caches/com.apple.xbs/Sources/FitCore/SeymourServices/Multi User/System/MultiUserSystem.swift"
+- "/Library/Caches/com.apple.xbs/Sources/FitCore/SeymourServices/Persistence/Data Protection/DataProtectionMonitor.swift"
+- "/Library/Caches/com.apple.xbs/Sources/FitCore/SeymourServices/Remote Participants/Advertising/RemoteParticipantHostAdvertiser.swift"
+- "/Library/Caches/com.apple.xbs/Sources/FitCore/SeymourServices/Remote Participants/Airplay Restriction/AirPlayRestrictionBypasser.swift"
+- "/Library/Caches/com.apple.xbs/Sources/FitCore/SeymourServices/Remote Participants/Connection/RemoteParticipantConnectionBroker.swift"
+- "/Library/Caches/com.apple.xbs/Sources/FitCore/SeymourServices/Remote Participants/Connection/RemoteParticipantConnectionBrokering.swift"
+- "/Library/Caches/com.apple.xbs/Sources/FitCore/SeymourServices/Remote Participants/Discovery/AggressiveBluetoothScanner.swift"
+- "/Library/Caches/com.apple.xbs/Sources/FitCore/SeymourServices/Remote Participants/Discovery/PassiveBluetoothScanner.swift"
+- "/Library/Caches/com.apple.xbs/Sources/FitCore/SeymourServices/Remote Participants/Discovery/RemoteParticipantDiscovery.swift"
+- "/Library/Caches/com.apple.xbs/Sources/FitCore/SeymourServices/Remote Participants/Handshake/RemoteParticipantHandshakeValidating.swift"
+- "/Library/Caches/com.apple.xbs/Sources/FitCore/SeymourServices/Remote Participants/Listeners/RemoteParticipantListener.swift"
+- "/Library/Caches/com.apple.xbs/Sources/FitCore/SeymourServices/Remote Participants/System/RemoteParticipantSystem.swift"
+- "/Library/Caches/com.apple.xbs/Sources/FitCore/SeymourServices/Session/Connection Pool/SessionConnectionPool.swift"
+- "/Library/Caches/com.apple.xbs/Sources/FitCore/SeymourServices/Session/Distributed Sessions/AppRequirementCoordinator.swift"
+- "/Library/Caches/com.apple.xbs/Sources/FitCore/SeymourServices/Session/Distributed Sessions/DistributedSessionCoordinator.swift"
+- "/Library/Caches/com.apple.xbs/Sources/FitCore/SeymourServices/Session/Handshaking/SessionHandshakeCoordinator.swift"
+- "/Library/Caches/com.apple.xbs/Sources/FitCore/SeymourServices/Session/Heartbeating/SessionHeartbeatCoordinator.swift"
+- "/Library/Caches/com.apple.xbs/Sources/FitCore/SeymourServices/Session/Listeners/SessionListener.swift"
+- "/Library/Caches/com.apple.xbs/Sources/FitCore/SeymourServices/Session/Scanning/SessionScanningCoordinator.swift"
+- "/Library/Caches/com.apple.xbs/Sources/FitCore/SeymourServices/Session/System/SessionSystem.swift"
+- "/Library/Caches/com.apple.xbs/Sources/FitCore/SeymourServices/Session/Termination/App Termination Monitor/SessionAppTerminationMonitor.swift"
+- "/Library/Caches/com.apple.xbs/Sources/FitCore/SeymourServices/Session/Termination/Completion Coordination/Coordinator/SessionCompletionCoordinator.swift"
+- "/Library/Caches/com.apple.xbs/Sources/FitCore/SeymourServices/Session/Termination/Idle Monitor/SessionIdleMonitor.swift"
+- "/Library/Caches/com.apple.xbs/Sources/FitCore/SeymourServices/Session/Time Sync/MachTimestampOffsetExchange.swift"
+- "/Library/Caches/com.apple.xbs/Sources/FitCore/SeymourServices/Session/Transactions/SessionTransactionCoordinator.swift"
+- "/Library/Caches/com.apple.xbs/Sources/FitCore/SeymourServices/Session/Workout/CaloriesAccumulator.swift"
+- "<UnstableDeviceConnection: topic = "
+- "@\"NSArray\"16@0:8"
+- "@\"NSData\""
+- "@\"NSData\"16@0:8"
+- "@\"NSData\"36@0:8@\"NSData\"16I24^@28"
+- "@\"OS_dispatch_queue\"16@0:8"
+- "@\"SMUFairPlayRemoteServerPlaybackContext\"32@0:8@\"NSData\"16^@24"
+- "@28@0:8@16I24"
+- "@32@0:8@16^@24"
+- "@36@0:8@16I24^@28"
+- "@?16@0:8"
+- "@?<v@?@\"NSError\">16@0:8"
+- "@?<v@?I>16@0:8"
+- "@?<v@?I@\"NSString\">16@0:8"
+- "@?<v@?Ii>16@0:8"
+- "AAYLwXkf"
+- "Activated session with identifier: %{public}s"
+- "Activating advertising link"
+- "Activating distributed session: %{public}s"
+- "Activating session: %{public}s, details: %{mask.hash}s"
+- "Airplay restriction bypasser active"
+- "Attempting to activate already active idle monitor"
+- "Attempting to obtain OS transaction when one is already active"
+- "Authentication set to use previous pairing, attaching control flag to find PIN pairing record"
+- "Becoming active: %{public}s"
+- "Becoming inactive: %{public}s"
+- "Broadcasting activity received: %{public}s"
+- "Broadcasting multi-user session updated: %{public}s"
+- "Broadcasting server-side catchup request"
+- "Broadcasting session update (update identifier: %{public}s to %ld connection(s) from %{public}s in %s mode"
+- "Brokering key delivery, but no incoming handshake recorded in registry"
+- "Brokering remote key delivery connection..."
+- "CBQGVxY"
+- "Calculated offset: %{public}f with uncertainty: %{public}f"
+- "CaloriesAccumulator - Attempting to deactivate workout for session: %s"
+- "CaloriesAccumulator - Couldn't deactivate workout session: %s"
+- "CaloriesAccumulator - Ending Session: %s"
+- "CaloriesAccumulator - Failed fetching calories: %s"
+- "CaloriesAccumulator - Failed to end session on phone: %s"
+- "CaloriesAccumulator - Failed to start session on phone: %s"
+- "CaloriesAccumulator - Failed to update session on phone: %s"
+- "CaloriesAccumulator - No active session to fake update activity rings."
+- "CaloriesAccumulator - No active session to update activity rings."
+- "CaloriesAccumulator - No active session to update elapsed time."
+- "CaloriesAccumulator - No active session to update workout calories."
+- "CaloriesAccumulator - Skipping update because we don't have activity rings."
+- "CaloriesAccumulator - Updating Rings: %s"
+- "CaloriesAccumulator - Updating activityRings to: %s"
+- "CaloriesAccumulator - Updating rings with %f uncounted calories."
+- "CaloriesAccumulator - Updating workout state to: %s"
+- "CaloriesAccumulator - activated workout"
+- "CaloriesAccumulator - failed to activate workout: %s"
+- "CaloriesAccumulator - failed to make workout session %s"
+- "CaloriesAccumulator - shouldStartSession - %{bool}d"
+- "CaloriesAccumulator - updated calories %s"
+- "Can't construct Array with count < 0"
+- "Cannot cancel device connection, connection not in progress"
+- "Cannot handshake with unknown participant role: %{public}ld"
+- "Capturing first playback context: %{mask.hash}s"
+- "Changed device while inactive: %{public}@"
+- "Cleaning up %{public}s..."
+- "Clobbering existing discovery for identifier: %{public}s"
+- "Cloud pairing keys not found, connecting again looking for pairing record"
+- "ConnectToAnyParticipant (%s, privacy: .public) No handshake required"
+- "Connecting to any participant with role %{public}s, intent identifier: %{public}s"
+- "Connecting to next device for handshake (intent: %{public}s): %{public}@"
+- "Connecting to participant %{public}s, intent identifier: %{public}s"
+- "CurrentSessionBiomeContext"
+- "DD04WvpO"
+- "Data Protection Monitor is active, returning cached data protection"
+- "Data Protection Monitor is inactive, querying mobile key bag"
+- "Deactivating Remote Key Delivery Participant Coordinator for %{public}s"
+- "Deactivating Remote Key Delivery Participant Coordinator for distributed session"
+- "Deactivating advertising link"
+- "Deactivating idle monitor due to Countdown"
+- "Deactivating idle monitor due to Playback state playing"
+- "Deactivating session: %{public}s"
+- "Deregistering eventID %{public}s on %{public}s"
+- "Deregistering for data protection notifications"
+- "Device locked, rejecting remote participant handshake"
+- "DeviceConnection "
+- "DeviceConnection.connect"
+- "DeviceConnection: "
+- "DeviceConnection::sendRequest"
+- "DeviceConnection::sendRequest:Payload"
+- "DeviceConnection::sendRequest;Payload"
+- "DeviceConnectionBroker "
+- "DhpWkh3rnR"
+- "Discovered device while inactive: %{public}@"
+- "Discovered remote participant with unknown role (%{public}s. Ignoring"
+- "Discovered unsupported (not %{public}s) device: %{public}@"
+- "Discovery (%{public}s has a changed device: %{public}s -> %{public}@"
+- "Discovery activation failed, but current state intent no longer matches"
+- "DispatchService requested while unstable connection was not connected"
+- "Distributed session participant request succeeded: %{public}s"
+- "Distributed session participant role request succeeded: %{public}s"
+- "DistributedSessionEventPublisher - Ending %s"
+- "DistributedSessionEventPublisher - Failed to end session on phone: %s"
+- "DistributedSessionEventPublisher - Failed to start session on phone: %s"
+- "DistributedSessionEventPublisher - Failed to update session on phone: %s"
+- "DistributedSessionEventPublisher - shouldStartSession - true"
+- "DistributedSessionEventPublisher - starting %s"
+- "Division by zero"
+- "Division results in an overflow"
+- "Error activating SF aggressive scanner: %{public}s"
+- "Error activating host airplay restriction assertion: %{public}s"
+- "Error activating paired device link: %{public}s"
+- "Error activating passive scanner: %{public}s"
+- "Error activating remote display link: %{public}s"
+- "Error activating remote participant link: %{public}s"
+- "Error brokering remote key delivery participant connection: %{public}s"
+- "Error in establishing a connection to %{public}@ for (%{public}s): %{public}s"
+- "Error registering for data protection notifications, result: %{public}u"
+- "Error retrying connection: %{public}s"
+- "Error: unable to create application proxy for querying application install state: %{public}s"
+- "Existing device matching %{public}s not found: %{public}@"
+- "Existing server playback context doesn't match what we have on file %{mask.hash}s != %{mask.hash}s"
+- "Failed to compress event payload using %{public}s. Falling back to uncompressed: %{public}s"
+- "Failed to create temporary directory for "
+- "Failed to decompress event %ld payload using %{public}s: %{public}s"
+- "Failed to decompress request %ld payload: %{public}s"
+- "Failed to handle local session update %{public}s with error %{public}s"
+- "Failed to initialize temporary directory suffix for "
+- "Failed to publish MultiUserSessionUpdated %s"
+- "Failed to send celebration: no active local session"
+- "Failed to serialize payload for event %{public}ld"
+- "Failed to serialize sync update for forwarding."
+- "Failed to set temporary directory suffix for "
+- "Found an existing server playback context, releasing %{mask.hash}s"
+- "Found existing discovered device (%{public}@) for %{public}s"
+- "Got remote fetchCertificate request"
+- "Got remote fetchKeyContext request"
+- "Got remote releaseContext request"
+- "Got remote renewContext request"
+- "HJN6grNt"
+- "Handling SessionUpdate %s. Leaving activity."
+- "Handling distributed session activation request %{public}s"
+- "Handshake nonce does not match previous outgoing handshake, rejecting"
+- "Heartbeat coordinator creating expectation for %{public}s"
+- "Heartbeat coordinator expectation timer fired for %{public}s, terminating session"
+- "Heartbeat coordinator expectation timer fired for connection no longer active: %{public}s"
+- "Heartbeat coordinator resetting timeout for %{public}s"
+- "Heartbeat coordinator sending heartbeat on connection: %{public}s"
+- "Heartbeat coordinator starting for session %{public}s"
+- "Heartbeat coordinator stopping due to termination on session: %{public}s"
+- "I16@0:8"
+- "Identity: Failed to query contact with error %s"
+- "Identity: Failed to query from participant device. Error: %s. Falling back to: %s"
+- "Identity: Falling back to me card because of error: %s"
+- "Identity: Ignoring %s."
+- "Identity: Invalidating cached identity because contacts providing source was just paired."
+- "Identity: Not caching %s because address is missing."
+- "Identity: Unknown, querying."
+- "Identity: Updating to %s"
+- "Identity: User identity will be queried from remote participant connection."
+- "Identity: received %s. Invalidating cached identity."
+- "Ignoring App Termination for a TV <-> Phone Workout on Phone."
+- "Insufficient space allocated to copy string contents"
+- "Intent %{public}s Failed, processing next device in queue (%{public}s)"
+- "Intent %{public}s Handshake success, completing"
+- "Intent %{public}s Handshaking %{public}s"
+- "Invalidation handler invoked while state was not connected"
+- "LBV3vEsw"
+- "Launching app: %s with url: %{mask.hash}s"
+- "Link: Active participants updated to %s"
+- "Link: Announcement: Failed to get session because link isn't connected."
+- "Link: Announcement: Unknown participant %s, dropping %s"
+- "Link: Announcement: Unknown player command %s"
+- "Link: Attempting to join session %{public}s with %{public}s"
+- "Link: Broadcasting new session created for: %{public}s"
+- "Link: Calling session.join()"
+- "Link: Clearing session subscriptions for invalidated session"
+- "Link: Failed to activate because state was not inactive"
+- "Link: Failed to get current activity because session state isn't joined"
+- "Link: Failed to get session because link isn't connected."
+- "Link: Failed to join session %{public}s because it is already joined"
+- "Link: Failed to join session %{public}s because it was invalidated with error %{public}s"
+- "Link: Failed to join session because link state isn't connected."
+- "Link: Failed to leave because session isn't in joined state. State: %{public}s"
+- "Link: Failed to send data because session state isn't joined"
+- "Link: Failed to send data with error: %{public}s"
+- "Link: Idle -> Received new session %s for %s"
+- "Link: Joined session. Publishing update %s"
+- "Link: Leave - Failed to leave session because link state isn't connected"
+- "Link: Leave - Session activity mismatch. Requested: %s, Session: %s"
+- "Link: Leave: Removing registered %{public}s"
+- "Link: Leaving session for %s"
+- "Link: Local address: %s"
+- "Link: Local source id: %llu, handle: %s"
+- "Link: No receivedMessageHandler. Dropping received message for source: %{public}s"
+- "Link: Not waiting for activity because it was already replaced: %s"
+- "Link: Overwriting session %s with new session %s for %s"
+- "Link: Received message from source id: %s"
+- "Link: Saving overwritten session activity as replaced %s"
+- "Link: Server requested catch-up for %s"
+- "Link: Session state changed to: %{public}s"
+- "Link: Terminating %s"
+- "Link: Terminating - Failed to leave session because link state isn't connected"
+- "Link: Terminating - Removing registered %s"
+- "Link: Terminating - Session activity mismatch. Requested: %s != Session: %s"
+- "Link: Unable to handle activity because link state is not idle or not activityRequested"
+- "Link: Unknown session state"
+- "Link: Waiting for session because connected %s mismatches waiting request %s"
+- "Link: Waiting for session because requested activity matches connected %s but session is invalidated %s"
+- "Link: Waiting for session. Adding %s to session completions."
+- "Link: attempting to send data to non-joined session %{public}s"
+- "Link: can create activity. Link has session not in joined state."
+- "Link: can create activity. State is idle."
+- "Link: can't create new activity due to link state: %s"
+- "Link: queryJoinedActivity found session with state: %s, activity: %s"
+- "Link: queryJoinedActivity session isn't joined, with state: %s"
+- "Link: sending data to session %{public}s"
+- "Link: willBeginActivity - activity already registered."
+- "Link: willBeginActivity condition unmet - can't create activity."
+- "Lost device while inactive: %{public}@"
+- "MindfulMinutesAccumulator - Adding mindful session - Adding mindful session job: %{mask.hash}s"
+- "MindfulMinutesAccumulator - Ending %s"
+- "MindfulMinutesAccumulator - Error adding standalone mindful session job: %{public}s"
+- "MindfulMinutesAccumulator - Failed to end session on phone: %s"
+- "MindfulMinutesAccumulator - Failed to start session on phone: %s"
+- "MindfulMinutesAccumulator - Failed to update session on phone: %s"
+- "MindfulMinutesAccumulator - Updating workout state to: %s"
+- "MindfulMinutesAccumulator - not inserting mindful minutes because duration is too short (%f"
+- "MindfulMinutesAccumulator - shouldStartSession - %{bool}d"
+- "MindfulMinutesAccumulator - starting %s"
+- "MultiUserConnection"
+- "Negative value is not representable"
+- "No active session for update: %{public}s"
+- "No active session to deactivate"
+- "No active session. This is unexpected"
+- "No data protection monitor, assuming we are unlocked"
+- "No devices in handshake queue to process for intent %{public}s"
+- "No existing devices found for %{public}s"
+- "No offset set for update source: %{public}s"
+- "No previous outgoing handshake recorded, rejecting"
+- "No session to activate"
+- "None of the following app bundles are installed: %s"
+- "Not enough bits to represent the passed value"
+- "Not in the right state to release a context: %{mask.hash}s"
+- "Not processing handshake queue, intent identifiers no longer match (%{public}s != %{public}s)"
+- "Not processing handshake queue, state no longer matches"
+- "Not sending celebration because identity is missing required address %s"
+- "Not updating handshake queue, intent identifier changed (%{public}s != %{public}s)"
+- "Not updating handshake queue, state no longer matches for %{public}s"
+- "OS_dispatch_source_signal"
+- "Observed session deactivation %s. Leaving activity."
+- "P5h3ZgzLxs"
+- "Participant connection broker cancelling participant intent %{public}s, discovery expired"
+- "Participant connection broker cancelling role intent %{public}s"
+- "Participant connection broker failed to look up discovered participant device for intent (%{public}s): %{public}s"
+- "Participant connection broker ignoring device discovered after completing"
+- "Participant connection broker ignoring discovered participant while already connecting to %{public}s with identifier %{public}s"
+- "Participant connection broker ignoring discovered participant while idle"
+- "Participant connection broker ignoring expired discovery, already complete"
+- "Participant connection broker ignoring expired discovery, currently idle"
+- "Participant connection broker not allowing connection attempt, state is not idle"
+- "Participant handshake succeeded with response: %{public}s"
+- "Prior Session: %{mask.hash}s"
+- "Proxying from tv event %ld"
+- "RPAuthenticatable"
+- "RPMessageable"
+- "Received %s"
+- "Received MultiUserParticipantUpdate: %s"
+- "Received MultiUserWorkoutUpdate: %{public}s"
+- "Received media synchronization event"
+- "Received notifyd notification when monitor is inactive!"
+- "Reconnect disabled, not scheduling"
+- "Recorded biome for event %{public}s"
+- "Registered for data protection notifications for name: %{public}s"
+- "Registering discovered participant (%{public}s: %{public}s"
+- "Registering for data protection notifications"
+- "Remote %s doesn't match local session %s"
+- "Remote %{public}s doesn't match local session %{public}s"
+- "Remote catchup request session %{public}s doesn't match local session %{public}s"
+- "Remote key delivery handshake succeeded"
+- "Remote mediaPlayerSyncUpdate session %{public}s doesn't match local session %{public}s"
+- "Remote participant advertisement expired"
+- "Remote session update identifier %s != active session %{public}s"
+- "RemoteKeyDeliverySystem::handleFetchCertificateRequest"
+- "RemoteKeyDeliverySystem::handleFetchContextRequest"
+- "RemoteKeyDeliverySystem::handleReleaseContextRequest"
+- "RemoteKeyDeliverySystem::handleRenewContextRequest"
+- "RemoteParticipantConnectionBroker::connect"
+- "RemoteParticipantConnectionBroker::connectToAnyParticipant"
+- "Removing lost participant (%{public}s: %{public}s"
+- "Request incompatible with host version: %{public}ld, minimum required version (%{public}ld"
+- "Requesting key certificate over %{public}s"
+- "Requesting key context over %{public}s"
+- "Requesting key context release over %{public}s"
+- "Requesting key context renewal over %{public}s"
+- "RulIk"
+- "SMUFairPlayKeyDelivering"
+- "SMUFairPlayKeyDelivery"
+- "SMUFairPlayKeyDeliveryErrorDomain"
+- "SMUFairPlayRemoteServerPlaybackContext"
+- "Sandbox bootstrap error: %{public}s"
+- "Scheduling reconnect in %{public}f seconds"
+- "Sending %s"
+- "Sending fetchCertficate request to remote key delivery system"
+- "Sending fetchKeyContext request to remote key delivery system"
+- "Sending releaseContext request to remote key delivery system"
+- "Sending renewContext request to remote key delivery system"
+- "Session %{public}s activated on display host, making reverse connection for Remote Key Delivery"
+- "Session %{public}s activated on participant client, waiting for connection pool to update for Remote Key Delivery"
+- "Session Adapter: Ignoring workout update because its state isn't active or paused %s"
+- "Session Adapter: Sending %s"
+- "Session identifier mismatch, cannot activate"
+- "Session system is active %{public}s, not allowing new session"
+- "Session system is inactive, new sessions are allowed"
+- "Session system received termination with no active session"
+- "Session update (identifier: %{public}s) had no new attributes"
+- "SessionAppForegrounder received session update while inactive, ignoring"
+- "SessionAppTerminationMonitor - Failed to end session: %s"
+- "SessionAppTerminationMonitor - Failed to start session: %s"
+- "SessionAppTerminationMonitor - Failed to update session: %s"
+- "SessionAppTerminationMonitor - ended session so ending monitoring"
+- "SessionAppTerminationMonitor Handling app termination for %{mask.hash}s on session %{public}s"
+- "SessionAppTerminationMonitor: %{mask.hash}s was terminated -> %{public}s"
+- "SessionAppTerminationMonitor: App terminated when SessionAppTerminationMonitor inactive. Ignoring"
+- "SessionAppTerminationMonitor: App termination for session (%s doesn't match current session %s"
+- "SessionAppTerminationMonitor: RBSProcessHandle failed to initialize for %{mask.hash}s"
+- "SessionAppTerminationMonitor: Terminated Bundle identifier (%{mask.hash}s does not match monitored bundle identifier (%{mask.hash}s)"
+- "SessionAppTerminationMonitor: This appears to be a testing handle for %{mask.hash}s"
+- "SessionAppTerminationMonitor: Unknown media type"
+- "SessionAppTerminationMonitor: monitoring %{mask.hash}s for session %{public}s!"
+- "SessionSystem: observed MultiUserSessionIdentitiesUpdated %s"
+- "SessionSystem: observed MultiUserSessionUpdated %s"
+- "SeymourServices/Sandbox.swift"
+- "SigTerm received, exiting clean"
+- "Starting discovery: %{public}s"
+- "Successful retry for connection: %{public}s"
+- "Swift/Array.swift"
+- "Swift/ContiguousArrayBuffer.swift"
+- "Swift/IntegerTypes.swift"
+- "Swift/Integers.swift"
+- "Swift/StringTesting.swift"
+- "Swift/StringUTF8View.swift"
+- "Swift/UnsafeBufferPointer.swift"
+- "Swift/UnsafePointer.swift"
+- "Swift/UnsafeRawPointer.swift"
+- "System: Activated session with identifier: %s"
+- "System: Broadcasting %s"
+- "System: Failed to republish MultiUserSessionIdentitiesUpdated %s"
+- "System: Proxying MultiUserLinkMessage payload"
+- "System: Publishing MultiUserSessionUpdated for session: %s"
+- "System: Republishing MultiUserSessionIdentitiesUpdated: %s"
+- "System: publishing MultiUserSessionUpdated after activation %s"
+- "T@\"NSArray\",&,N"
+- "T@\"NSData\",C,N"
+- "T@\"NSData\",R,C,N,V_blob"
+- "T@\"NSString\",&,N"
+- "T@\"OS_dispatch_queue\",R,N"
+- "T@?,C,N"
+- "TI,N"
+- "TI,R,N,V_identifier"
+- "TV is always assumed to be unlocked"
+- "Termination already on session, skipping completion evaluation"
+- "This method should not be called from a non session-host device"
+- "Ti,N"
+- "Ti,R,N"
+- "Timer fired for inactive idle monitor"
+- "Timestamp - calculate offset - clientOut: %{public}f serverIn: %{public}f serverOut: %{public}f clientIn: %{public}f"
+- "Timestamp - offset: %{public}f, uncertainty: %{public}f"
+- "Transformed remote update from %s with timestamp offset %{public}f. Update: %{mask.hash}s"
+- "Transitioning to equivalent state, nothing to do"
+- "Unable to decode existing session context: %{public}s"
+- "Unable to fetch activity move mode with error: %s"
+- "Unable to fetch fitness mode with error: %s"
+- "Unable to fetch unit preferences with error: %s"
+- "Unable to find a remote display clien for the display host"
+- "Unable to find an existing remote participant connection"
+- "Unable to find device for discovered participant matching intent (%{public}s): %{public}s"
+- "Unable to record stop event for restored state!"
+- "Unable to release existing server playback context %{mask.hash}s on transition to idle: %{public}s"
+- "Unable to update biome context for state %{public}s"
+- "Unexpected connection pool role: %{public}s"
+- "Unexpected reconnection error, not in state reconnecting"
+- "Unexpected request for distributed session from: %{public}s"
+- "Unexpectedly found nil while unwrapping an Optional value"
+- "Unknown Playback State."
+- "Unrecognized media type, failing to activate SessionAppForegrounder"
+- "UnsafeMutableBufferPointer with negative count"
+- "UnsafeMutablePointer.initialize overlapping range"
+- "UnsafeMutablePointer.initialize with negative count"
+- "UnsafeMutablePointer.moveInitialize with negative count"
+- "UnsafeMutableRawPointer.initializeMemory overlapping range"
+- "Unstable link disconnected"
+- "UnstableDeviceConnection does not support forceNewPairing authentication schemes. This will be ignored."
+- "Unsupported multiplex mode for remote key delivery coordinator to transition to connecting: %{public}s"
+- "Unsupported multiplex mode for remote key delivery coordinator: %{public}s"
+- "Updating previously discovered participant: %{public}s"
+- "Updating session connection pool with %{public}s role %{public}s"
+- "Validating handshake request: %{public}s"
+- "WEfR"
+- "Watch"
+- "We are in the wrong multiplex mode %{public}s to be used with the key delivery connection broker"
+- "We are unlocked!!"
+- "We don't have a registered device for %{public}s, broadcasting discovery!"
+- "We have found a device that matches %{public}s. Connecting to device: %{public}@"
+- "Y7bdIsnh7"
+- "[AchievementEnvironmentCacheCoordinator] Statistics queried from the health store for session %s: %s"
+- "[AchievementEvaluatorProvider] Statistics queried from the health store for session %s: %s"
+- "[OptInPrivacy] Privacy acknowledgement disabled via AMSDefaults.acknowledgePrivacyOverride"
+- "[SessionForegrounder] received update: %{public}s, priorSession: %{public}s"
+- "_TtC15SeymourServices13MultiUserLink"
+- "_TtC15SeymourServices13SessionDaemon"
+- "_TtC15SeymourServices13SessionSystem"
+- "_TtC15SeymourServices14SigTermHandler"
+- "_TtC15SeymourServices15MultiUserSystem"
+- "_TtC15SeymourServices15SessionListener"
+- "_TtC15SeymourServices16DeviceConnection"
+- "_TtC15SeymourServices17MultiUserListener"
+- "_TtC15SeymourServices18SessionIdleMonitor"
+- "_TtC15SeymourServices19CaloriesAccumulator"
+- "_TtC15SeymourServices19MultiUserConnection"
+- "_TtC15SeymourServices21DataProtectionMonitor"
+- "_TtC15SeymourServices21SessionConnectionPool"
+- "_TtC15SeymourServices22DeviceConnectionBroker"
+- "_TtC15SeymourServices22SessionAppForegrounder"
+- "_TtC15SeymourServices23MultiUserSessionAdapter"
+- "_TtC15SeymourServices23RemoteKeyDeliverySystem"
+- "_TtC15SeymourServices23RemoteParticipantSystem"
+- "_TtC15SeymourServices23SessionBiomeCoordinator"
+- "_TtC15SeymourServices24BluetoothScannerProvider"
+- "_TtC15SeymourServices24UnstableDeviceConnection"
+- "_TtC15SeymourServices25AppRequirementCoordinator"
+- "_TtC15SeymourServices25MindfulMinutesAccumulator"
+- "_TtC15SeymourServices25MultiUserIdentityProvider"
+- "_TtC15SeymourServices25RemoteKeyDeliveryListener"
+- "_TtC15SeymourServices25RemoteParticipantListener"
+- "_TtC15SeymourServices26AirPlayRestrictionBypasser"
+- "_TtC15SeymourServices26CarouselSessionCoordinator"
+- "_TtC15SeymourServices26RemoteParticipantDiscovery"
+- "_TtC15SeymourServices26SessionScanningCoordinator"
+- "_TtC15SeymourServices27MachTimestampOffsetExchange"
+- "_TtC15SeymourServices27SessionHandshakeCoordinator"
+- "_TtC15SeymourServices27SessionHeartbeatCoordinator"
+- "_TtC15SeymourServices28SessionAppTerminationMonitor"
+- "_TtC15SeymourServices28SessionCompletionCoordinator"
+- "_TtC15SeymourServices29DistributedSessionCoordinator"
+- "_TtC15SeymourServices29SessionTransactionCoordinator"
+- "_TtC15SeymourServices31RemoteParticipantHostAdvertiser"
+- "_TtC15SeymourServices31SessionRemoteDisplayCoordinator"
+- "_TtC15SeymourServices32DistributedSessionEventPublisher"
+- "_TtC15SeymourServices33RemoteParticipantConnectionBroker"
+- "_TtC15SeymourServices34AirPlayRestrictionBypasserProvider"
+- "_TtC15SeymourServices34RemoteParticipantHandshakeRegistry"
+- "_TtC15SeymourServices39RemoteKeyDeliveryParticipantCoordinator"
+- "_TtC15SeymourServices41RemoteParticipantConnectionBrokerProvider"
+- "_appRequirementEnabled"
+- "_blob"
+- "_disableReconnect"
+- "_identifier"
+- "aMII4QYJ"
+- "accountID"
+- "activateDistributedSession(_:)"
+- "activateDistributedSession(identifier:)"
+- "activeBrokers"
+- "activeConversations"
+- "activityRingsUpdated(_:)"
+- "advertiser"
+- "ag9jz"
+- "airPlayRestrictionBypasserProvider"
+- "allowedMACAddresses"
+- "any"
+- "appForegrounder"
+- "appRequirementCoordinator"
+- "appTerminationMonitor"
+- "applicationState"
+- "attachRemoteDisplayDeviceConnection(_:)"
+- "attachRemoteParticipantDeviceConnection(_:)"
+- "authCompletionHandler"
+- "authentication"
+- "beginAdvertising()"
+- "beginAdvertisingParticipantHost()"
+- "beginDataProtectionMonitoring()"
+- "beginDiscoveringParticipantsWithRole(_:)"
+- "beginDiscoveringParticipantsWithRole(_:timeout:)"
+- "beginExchange(timestamp:)"
+- "beginTransaction()"
+- "biomeCoordinator"
+- "biomeEventRecorderProvider"
+- "blob"
+- "bluetooth"
+- "bluetoothScannerProvider"
+- "bundle"
+- "calorieQueryUpdated(_:)"
+- "caloriesAccumulator"
+- "carouselSessionCoordinator"
+- "cleanupExistingSession()"
+- "com.apple.Seymour"
+- "com.apple.SeymourSession"
+- "com.apple.fitcored.session"
+- "com.apple.mobile.keybagd.lock_status"
+- "com.apple.seymour.session"
+- "completionCoordinator"
+- "connect(to:service:authentication:)"
+- "connect(to:topic:service:authentication:)"
+- "connectToAnyParticipant(havingRole:topic:service:handshake:)"
+- "connected - session "
+- "connectionBrokeringFailed"
+- "connectionHandshakeSucceeded"
+- "connectionPool"
+- "controlFlags"
+- "coordinator"
+- "createSession(_:)"
+- "dataForKey:"
+- "dataWithBytes:length:"
+- "dateInterval"
+- "default"
+- "deregisterEventID:"
+- "deregisterRequestID:"
+- "destination"
+- "destinationDevice"
+- "detatchRemoteDisplayDeviceConnection()"
+- "detatchRemoteParticipantDeviceConnection()"
+- "device"
+- "deviceConnectionBroker"
+- "deviceIRKData"
+- "dictionaryWithCapacity:"
+- "dictionaryWithObjects:forKeys:count:"
+- "disconnectHandler"
+- "discovery"
+- "discoveryDuration"
+- "dispatchQueue"
+- "display"
+- "distributedSessionCoordinator"
+- "distributedSessionEventPublisher"
+- "effectiveIdentifier"
+- "emailAddresses"
+- "endAdvertising()"
+- "endAdvertisingParticipantHost()"
+- "endDataProtectionMonitoring()"
+- "endDiscovering()"
+- "endExchange(serverIn:serverOut:)"
+- "endTransaction()"
+- "error"
+- "errorWithDomain:code:userInfo:"
+- "eventSubscription"
+- "fairPlayDelivery"
+- "fetchCertificateContext()"
+- "fetchContext(spc:)"
+- "flags"
+- "forceNewPairing"
+- "gaX8gT7e"
+- "getIdentitiesWithFlags:completion:"
+- "gymKitConnection"
+- "handleAppRequirementCompleted()"
+- "handleAppRequirementFailed()"
+- "handleAppTermination(bundleIdentifier:sessionIdentifier:)"
+- "handleDiscoveredParticipant(_:)"
+- "handleDistributedSessionCancellation()"
+- "handleDistributedSessionCancelled(from:)"
+- "handleForPredicate:error:"
+- "handleHandshakeResult(_:session:role:source:)"
+- "handleHeartbeat(from:)"
+- "handleLockStatusNotification()"
+- "handleMediaPlayerSyncAnnouncement(_:)"
+- "handleReconnectionError(_:)"
+- "handleRemoteDisplayHandshakeRequest(_:)"
+- "handleRemoteKeyDeliveryHandshakeRequest(_:)"
+- "handleRemoteParticipantHandshakeRequest(_:)"
+- "handleRequestForDistributedSession(_:)"
+- "handleSessionActivation(_:)"
+- "handleSessionDeactivation(_:)"
+- "handleSessionUpdate(_:)"
+- "handleTermination(_:)"
+- "handshakeCoordinator"
+- "handshakeRegistry"
+- "handshakeWithParticipant(_:)"
+- "handshakeWithParticipant(havingRole:)"
+- "hasPrefix:"
+- "healthDataClient"
+- "heartbeatCoordinator"
+- "heartbeatExpecations"
+- "hidePasswordHandler"
+- "high"
+- "i"
+- "i16@0:8"
+- "iPhone"
+- "idle - no session"
+- "idleMonitor"
+- "idsDeviceID"
+- "idsDeviceIdentifier"
+- "igoeg"
+- "inactiveTimerProvider"
+- "incomingHandshakeMap"
+- "initWithBlob:identifier:"
+- "initWithBundleIdentifier:allowPlaceholder:error:"
+- "initWithIsFirstPartyDonation:isIndoor:activityType:activityUUID:eventType:isUpdate:"
+- "initWithSessionType:stateType:"
+- "intentIdentifier"
+- "interval"
+- "invalid Collection: less than 'count' elements in collection"
+- "invalidate"
+- "invalidateCachedIdentity()"
+- "isInstalled"
+- "keyDeliveryClient"
+- "lGxB4ky"
+- "lK1"
+- "label"
+- "link"
+- "linkProvider"
+- "localMember"
+- "mDCRHTmtTKJ"
+- "mainRunLoop"
+- "makeExpirationTimer()"
+- "makeRemoteKeyDeliveryCertificate(_:)"
+- "mindfulMinutesAccumulator"
+- "monitorForDeath:"
+- "multiUserConnection"
+- "multiUserIdentityProvider"
+- "multiUserLink"
+- "multiUserListener"
+- "multiUserSession"
+- "multiUserSessionAdapter"
+- "multiUserSystem"
+- "multiUserTraffic"
+- "multiplexMode"
+- "networkInterface"
+- "notifySessionStatus(_:)"
+- "notifyToken"
+- "o9YYYJ64ntzC"
+- "onAdvertisingExpired"
+- "onDiscoveryExpired"
+- "onParticipantDiscovered"
+- "onParticipantLost"
+- "onParticipantUpdated"
+- "onPasswordChallenge"
+- "openApplication:withOptions:completion:"
+- "optionsWithDictionary:"
+- "outgoingHandshakeMap"
+- "pairSetupACL"
+- "pairSetupFlags"
+- "pairVerifyFlags"
+- "pairedCompanionTraffic"
+- "pairingInfo"
+- "participantDeviceState"
+- "password"
+- "passwordType"
+- "passwordTypeActual"
+- "phoneNumbers"
+- "predicateMatchingBundleIdentifier:"
+- "preferredCompression"
+- "processHandshakeQueue(intentIdentifier:)"
+- "promptForPasswordHandler"
+- "publishSessionComplete()"
+- "quantity"
+- "queryActiveSession()"
+- "queryContactDetails(for:)"
+- "queryDataProtectionAvailability()"
+- "queryDiscoveredDevice(for:)"
+- "queryJoinedActivity()"
+- "querySessionIdentities()"
+- "queryUserIdentity()"
+- "rGLU5bt2"
+- "receivedMessageHandler"
+- "recordBiomeEvent(for:)"
+- "registerActiveBroker(_:role:)"
+- "registerEventID:options:handler:"
+- "registerRequestID:options:handler:"
+- "registeredLocalActivities"
+- "releaseContext(spc:)"
+- "remoteDisplayBroadcastConnection"
+- "remoteDisplayConnection"
+- "remoteDisplayCoordinator"
+- "remoteDisplayDeviceConnection"
+- "remoteDisplayLink"
+- "remoteDisplayTraffic"
+- "remoteKeyDeliveryCoordinator"
+- "remoteKeyDeliveryListener"
+- "remoteKeyDeliverySystem"
+- "remoteParticipantConnectionBrokerProvider"
+- "remoteParticipantDeviceConnection"
+- "remoteParticipantHandshakeRegistry"
+- "remoteParticipantLink"
+- "remoteParticipantListener"
+- "remoteParticipantRole"
+- "remoteParticipantSystem"
+- "remoteParticipantTraffic"
+- "remoteServerPlaybackContextForCertificate:error:"
+- "removeActiveBroker(withRole:)"
+- "renewContext(spc:)"
+- "replacedActivitySessionIdentifiers"
+- "reportAppRequirementCompleted()"
+- "reportAppRequirementFailed()"
+- "requestAppActivation(for:)"
+- "requestDistributedSessionActivation(_:handshakeResult:)"
+- "requestDistributedSessionWithParticipant(_:)"
+- "requestDistributedSessionWithParticipant(havingRole:)"
+- "requestPayloadSize"
+- "requireActiveSessionIdentifier(_:)"
+- "requireNewSessionsAllowed()"
+- "resetConnectionPool()"
+- "responsePayloadSize"
+- "responseProcessingTime"
+- "run"
+- "sPJ8AGu5PT"
+- "sendEvent:"
+- "sendEventID:event:destinationID:options:completion:"
+- "sendEventID:event:options:completion:"
+- "sendMediaPlayerSyncUpdate(_:)"
+- "sendParticipantHandshake(to:role:timestampOffsetExchange:)"
+- "sendRemoteKeyDeliveryHandshake(to:nonce:)"
+- "sendRequest(_:payload:)"
+- "sendRequestID:request:destinationID:options:responseHandler:"
+- "sendRequestID:request:options:responseHandler:"
+- "serverPlaybackContextForPlaybackContext:remoteContextIdentifier:error:"
+- "service"
+- "serviceType"
+- "serviceWithDefaultShellEndpoint"
+- "sessionAppTerminationMonitor"
+- "sessionBiomeCoordinator"
+- "sessionCompletion"
+- "sessionCompletionCoordinator"
+- "sessionConnectionCompletions"
+- "sessionConnectionObserver"
+- "sessionCorrelationIdentifier"
+- "sessionHandshakeCoordinator"
+- "sessionHeartbeatCoordinator"
+- "sessionListener"
+- "sessionRemoteDisplayCoordinator"
+- "sessionScanningCoordinator"
+- "sessionSubscriptions"
+- "sessionSystem"
+- "sessionTransactionCoordinator"
+- "setAdvertiseRate:"
+- "setAllowedMACAddresses:"
+- "setAuthCompletionHandler:"
+- "setAwdlGuestDiscoveryTimeout:"
+- "setControlFlags:"
+- "setDestinationDevice:"
+- "setDeviceActionType:"
+- "setDeviceChangedHandler:"
+- "setDeviceFoundHandler:"
+- "setDeviceLostHandler:"
+- "setDisconnectHandler:"
+- "setDiscoveryFlags:"
+- "setFlags:"
+- "setHidePasswordHandler:"
+- "setLabel:"
+- "setLocalDeviceUpdatedHandler:"
+- "setNeedsKeyboard:"
+- "setPairSetupACL:"
+- "setPairSetupDisabled:"
+- "setPairSetupFlags:"
+- "setPairVerifyFlags:"
+- "setPairingInfo:"
+- "setPassword:"
+- "setPasswordType:"
+- "setPromptForPasswordHandler:"
+- "setRssiThreshold:"
+- "setScanRate:"
+- "setServiceType:"
+- "setShowPasswordHandler:"
+- "showPasswordHandler"
+- "startPairingServerWithCompletion:"
+- "statusFlags"
+- "stopPairingServer"
+- "stringWithCString:encoding:"
+- "terminateActivity(_:)"
+- "termination"
+- "timeout"
+- "timestampOffsetCalculator"
+- "timestampOffsetRegistry"
+- "transactionCoordinator"
+- "transitionToConnecting()"
+- "transitionToIdle()"
+- "transportPriority"
+- "transportRequest"
+- "tryPassword:"
+- "unpackPlayerPlaybackContext(_:)"
+- "unsignedIntValue"
+- "unstableDeviceDisconnection"
+- "usePreviousPairing"
+- "v16@?0@\"RPCompanionLinkDevice\"8"
+- "v16@?0I8i12"
+- "v20@0:8I16"
+- "v20@0:8i16"
+- "v20@?0@\"RPCompanionLinkDevice\"8I16"
+- "v24@0:8@\"NSArray\"16"
+- "v24@0:8@\"NSData\"16"
+- "v24@0:8@?<v@?@\"NSData\"@\"NSError\">16"
+- "v24@0:8@?<v@?I>16"
+- "v24@0:8@?<v@?I@\"NSString\">16"
+- "v24@0:8@?<v@?Ii>16"
+- "v24@?0@\"BSProcessHandle\"8@\"NSError\"16"
+- "v24@?0@\"NSArray\"8@\"NSError\"16"
+- "v24@?0@\"NSDictionary\"8@\"NSDictionary\"16"
+- "v24@?0@\"RBSProcessHandle\"8@\"RBSProcessExitContext\"16"
+- "v32@?0@\"NSDictionary\"8@\"NSDictionary\"16@\"NSError\"24"
+- "v32@?0@\"NSDictionary\"8@\"NSDictionary\"16@?<v@?@\"NSDictionary\"@\"NSDictionary\"@\"NSError\">24"
+- "v40@0:8@\"NSString\"16@\"NSDictionary\"24@?<v@?@\"NSDictionary\"@\"NSDictionary\">32"
+- "v40@0:8@\"NSString\"16@\"NSDictionary\"24@?<v@?@\"NSDictionary\"@\"NSDictionary\"@?<v@?@\"NSDictionary\"@\"NSDictionary\"@\"NSError\">>32"
+- "v48@0:8@\"NSString\"16@\"NSDictionary\"24@\"NSDictionary\"32@?<v@?@\"NSDictionary\"@\"NSDictionary\"@\"NSError\">40"
+- "v48@0:8@\"NSString\"16@\"NSDictionary\"24@\"NSDictionary\"32@?<v@?@\"NSError\">40"
+- "v56@0:8@\"NSString\"16@\"NSDictionary\"24@\"NSString\"32@\"NSDictionary\"40@?<v@?@\"NSDictionary\"@\"NSDictionary\"@\"NSError\">48"
+- "v56@0:8@\"NSString\"16@\"NSDictionary\"24@\"NSString\"32@\"NSDictionary\"40@?<v@?@\"NSError\">48"
+- "validDeviceDiscovered"
+- "validateDeviceLock(dataProtectionMonitor:platform:)"
+- "validateHandshake(dataProtectionMonitor:platform:)"
+- "validateIntent(_:)"
+- "watchConnection"
+- "watchConnectionRejection"
+- "wristStateObserver"
+- "xNJu5eepP"
+- "yN1lNULD2GD"
+
+```

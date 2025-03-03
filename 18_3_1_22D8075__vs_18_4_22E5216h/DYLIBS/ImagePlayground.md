@@ -1,0 +1,3491 @@
+## ImagePlayground
+
+> `/System/Library/Frameworks/ImagePlayground.framework/ImagePlayground`
+
+```diff
+
+-61.0.0.0.0
+-  __TEXT.__text: 0x531334
+-  __TEXT.__auth_stubs: 0x8470
+-  __TEXT.__objc_methlist: 0x12fc
+-  __TEXT.__const: 0x27a44
+-  __TEXT.__cstring: 0x11b3d
+-  __TEXT.__gcc_except_tab: 0x28
+-  __TEXT.__constg_swiftt: 0xb62c
+-  __TEXT.__swift5_typeref: 0x67bce
+-  __TEXT.__swift5_reflstr: 0xc316
+-  __TEXT.__swift5_fieldmd: 0xb2fc
+-  __TEXT.__swift5_builtin: 0x2a8
+-  __TEXT.__swift5_assocty: 0x1f50
+-  __TEXT.__swift5_proto: 0x18d8
+-  __TEXT.__swift5_types: 0xbc8
+-  __TEXT.__swift5_capture: 0x4d60
+-  __TEXT.__oslogstring: 0x7695
+-  __TEXT.__swift5_protos: 0x108
+-  __TEXT.__swift5_mpenum: 0xe8
+-  __TEXT.__unwind_info: 0x103b8
+-  __TEXT.__eh_frame: 0x1852c
+-  __TEXT.__objc_classname: 0x321
+-  __TEXT.__objc_methname: 0x4a39
+-  __TEXT.__objc_methtype: 0xb63
+-  __TEXT.__objc_stubs: 0x900
+-  __DATA_CONST.__got: 0x29b8
+-  __DATA_CONST.__const: 0x6e8
+-  __DATA_CONST.__objc_classlist: 0x4e8
+-  __DATA_CONST.__objc_catlist: 0x18
+-  __DATA_CONST.__objc_protolist: 0x180
++107.0.0.0.0
++  __TEXT.__text: 0x8042c
++  __TEXT.__auth_stubs: 0x1ef0
++  __TEXT.__objc_methlist: 0xfec
++  __TEXT.__const: 0xf6e4
++  __TEXT.__cstring: 0x2323
++  __TEXT.__constg_swiftt: 0x2c9c
++  __TEXT.__swift5_typeref: 0x3887
++  __TEXT.__swift5_reflstr: 0x148c
++  __TEXT.__swift5_fieldmd: 0x2b60
++  __TEXT.__swift5_builtin: 0xdc
++  __TEXT.__swift5_assocty: 0x650
++  __TEXT.__swift5_proto: 0xdf0
++  __TEXT.__swift5_types: 0x3d0
++  __TEXT.__swift_as_entry: 0x4c
++  __TEXT.__swift5_capture: 0x4c8
++  __TEXT.__oslogstring: 0xc5c
++  __TEXT.__swift_as_ret: 0x34
++  __TEXT.__swift5_mpenum: 0x80
++  __TEXT.__swift5_protos: 0x1c
++  __TEXT.__unwind_info: 0x2888
++  __TEXT.__eh_frame: 0x2d30
++  __TEXT.__objc_classname: 0x168
++  __TEXT.__objc_methname: 0x1dc8
++  __TEXT.__objc_methtype: 0x6e5
++  __TEXT.__objc_stubs: 0x740
++  __DATA_CONST.__got: 0x550
++  __DATA_CONST.__const: 0x2e8
++  __DATA_CONST.__objc_classlist: 0xa0
++  __DATA_CONST.__objc_catlist: 0x8
++  __DATA_CONST.__objc_protolist: 0xb0
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x15f8
+-  __DATA_CONST.__objc_protorefs: 0xc8
+-  __DATA_CONST.__objc_superrefs: 0x28
+-  __DATA_CONST.__vfx_script_tbl: 0x20
+-  __AUTH_CONST.__auth_got: 0x4248
+-  __AUTH_CONST.__auth_ptr: 0x38d8
+-  __AUTH_CONST.__const: 0x1ac98
+-  __AUTH_CONST.__cfstring: 0x1c0
+-  __AUTH_CONST.__objc_const: 0xd678
+-  __AUTH.__objc_data: 0x2e00
+-  __AUTH.__data: 0xbc28
+-  __DATA.__objc_ivar: 0x54
+-  __DATA.__data: 0x10730
+-  __DATA.__objc_stublist: 0x18
+-  __DATA.__bss: 0x2f838
+-  __DATA.__common: 0x5d8
+-  - /System/Library/Frameworks/AVFoundation.framework/AVFoundation
+-  - /System/Library/Frameworks/AppIntents.framework/AppIntents
+-  - /System/Library/Frameworks/Charts.framework/Charts
+-  - /System/Library/Frameworks/Contacts.framework/Contacts
++  __DATA_CONST.__objc_selrefs: 0x850
++  __DATA_CONST.__objc_protorefs: 0x60
++  __DATA_CONST.__objc_superrefs: 0x18
++  __AUTH_CONST.__auth_got: 0xf80
++  __AUTH_CONST.__auth_ptr: 0x740
++  __AUTH_CONST.__const: 0x7040
++  __AUTH_CONST.__cfstring: 0x200
++  __AUTH_CONST.__objc_const: 0x2360
++  __AUTH.__objc_data: 0x588
++  __AUTH.__data: 0xed8
++  __DATA.__objc_ivar: 0x4c
++  __DATA.__data: 0x3078
++  __DATA.__bss: 0x1ba20
++  __DATA.__common: 0x40
++  __DATA_DIRTY.__objc_data: 0x3d8
++  __DATA_DIRTY.__data: 0xa88
++  __DATA_DIRTY.__common: 0x28
++  __DATA_DIRTY.__bss: 0x180
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+   - /System/Library/Frameworks/CoreImage.framework/CoreImage
+-  - /System/Library/Frameworks/CoreServices.framework/CoreServices
+-  - /System/Library/Frameworks/CoreTransferable.framework/CoreTransferable
+   - /System/Library/Frameworks/CoreVideo.framework/CoreVideo
+-  - /System/Library/Frameworks/DeveloperToolsSupport.framework/DeveloperToolsSupport
+   - /System/Library/Frameworks/ExtensionFoundation.framework/ExtensionFoundation
+   - /System/Library/Frameworks/ExtensionKit.framework/ExtensionKit
+   - /System/Library/Frameworks/Foundation.framework/Foundation
++  - /System/Library/Frameworks/IOSurface.framework/IOSurface
+   - /System/Library/Frameworks/ImageIO.framework/ImageIO
+-  - /System/Library/Frameworks/NaturalLanguage.framework/NaturalLanguage
+-  - /System/Library/Frameworks/Network.framework/Network
+-  - /System/Library/Frameworks/Photos.framework/Photos
+-  - /System/Library/Frameworks/PhotosUI.framework/PhotosUI
+-  - /System/Library/Frameworks/QuartzCore.framework/QuartzCore
+-  - /System/Library/Frameworks/Security.framework/Security
++  - /System/Library/Frameworks/PencilKit.framework/PencilKit
+   - /System/Library/Frameworks/SwiftUI.framework/SwiftUI
+-  - /System/Library/Frameworks/Symbols.framework/Symbols
+   - /System/Library/Frameworks/VideoToolbox.framework/VideoToolbox
+-  - /System/Library/Frameworks/Vision.framework/Vision
+-  - /System/Library/Frameworks/_AppIntents_SwiftUI.framework/_AppIntents_SwiftUI
+-  - /System/Library/Frameworks/_PhotosUI_SwiftUI.framework/_PhotosUI_SwiftUI
+-  - /System/Library/PrivateFrameworks/AXCoreUtilities.framework/AXCoreUtilities
+-  - /System/Library/PrivateFrameworks/AXMediaUtilities.framework/AXMediaUtilities
+-  - /System/Library/PrivateFrameworks/AXRuntime.framework/AXRuntime
+-  - /System/Library/PrivateFrameworks/AccessibilitySharedUISupport.framework/AccessibilitySharedUISupport
+-  - /System/Library/PrivateFrameworks/AppProtection.framework/AppProtection
+-  - /System/Library/PrivateFrameworks/AppProtectionUI.framework/AppProtectionUI
+-  - /System/Library/PrivateFrameworks/AssistantServices.framework/AssistantServices
+-  - /System/Library/PrivateFrameworks/BackgroundSystemTasks.framework/BackgroundSystemTasks
+-  - /System/Library/PrivateFrameworks/CloudSubscriptionFeatures.framework/CloudSubscriptionFeatures
+-  - /System/Library/PrivateFrameworks/CoreAnalytics.framework/CoreAnalytics
+-  - /System/Library/PrivateFrameworks/CoreEmoji.framework/CoreEmoji
+-  - /System/Library/PrivateFrameworks/FeatureFlags.framework/FeatureFlags
+-  - /System/Library/PrivateFrameworks/Feedback.framework/Feedback
+-  - /System/Library/PrivateFrameworks/FeedbackService.framework/FeedbackService
+-  - /System/Library/PrivateFrameworks/GenerativeExperiencesUI.framework/GenerativeExperiencesUI
+   - /System/Library/PrivateFrameworks/GenerativeModels.framework/GenerativeModels
+-  - /System/Library/PrivateFrameworks/IconServices.framework/IconServices
+-  - /System/Library/PrivateFrameworks/InputAnalytics.framework/InputAnalytics
+-  - /System/Library/PrivateFrameworks/InputToolKit.framework/InputToolKit
+-  - /System/Library/PrivateFrameworks/MediaAnalysis.framework/MediaAnalysis
+-  - /System/Library/PrivateFrameworks/MediaAnalysisServices.framework/MediaAnalysisServices
+-  - /System/Library/PrivateFrameworks/ModelCatalog.framework/ModelCatalog
+-  - /System/Library/PrivateFrameworks/ModelManagerServices.framework/ModelManagerServices
+-  - /System/Library/PrivateFrameworks/OnBoardingKit.framework/OnBoardingKit
+-  - /System/Library/PrivateFrameworks/PhotosIntelligence.framework/PhotosIntelligence
+-  - /System/Library/PrivateFrameworks/PhotosUICore.framework/PhotosUICore
+-  - /System/Library/PrivateFrameworks/Sage.framework/Sage
+-  - /System/Library/PrivateFrameworks/SensitiveContentAnalysisML.framework/SensitiveContentAnalysisML
+   - /System/Library/PrivateFrameworks/UIKitCore.framework/UIKitCore
+-  - /System/Library/PrivateFrameworks/VFX.framework/VFX
+-  - /System/Library/PrivateFrameworks/VectorSearch.framework/VectorSearch
+-  - /System/Library/PrivateFrameworks/VisualGeneration.framework/VisualGeneration
+-  - /System/Library/PrivateFrameworks/VisualUnderstanding.framework/VisualUnderstanding
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+-  - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  - /usr/lib/swift/libswiftAVFoundation.dylib
+   - /usr/lib/swift/libswiftAccelerate.dylib
+-  - /usr/lib/swift/libswiftCompression.dylib
+   - /usr/lib/swift/libswiftCore.dylib
+   - /usr/lib/swift/libswiftCoreAudio.dylib
+   - /usr/lib/swift/libswiftCoreFoundation.dylib
+   - /usr/lib/swift/libswiftCoreImage.dylib
+-  - /usr/lib/swift/libswiftCoreLocation.dylib
+-  - /usr/lib/swift/libswiftCoreMIDI.dylib
+   - /usr/lib/swift/libswiftCoreMedia.dylib
+-  - /usr/lib/swift/libswiftCryptoTokenKit.dylib
+   - /usr/lib/swift/libswiftDarwin.dylib
+   - /usr/lib/swift/libswiftDataDetection.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+-  - /usr/lib/swift/libswiftFileProvider.dylib
+-  - /usr/lib/swift/libswiftGLKit.dylib
+-  - /usr/lib/swift/libswiftIntents.dylib
+-  - /usr/lib/swift/libswiftMapKit.dylib
+   - /usr/lib/swift/libswiftMetal.dylib
+   - /usr/lib/swift/libswiftMetalKit.dylib
+   - /usr/lib/swift/libswiftModelIO.dylib
+-  - /usr/lib/swift/libswiftNaturalLanguage.dylib
+   - /usr/lib/swift/libswiftOSLog.dylib
+   - /usr/lib/swift/libswiftObjectiveC.dylib
+   - /usr/lib/swift/libswiftObservation.dylib
+   - /usr/lib/swift/libswiftQuartzCore.dylib
+-  - /usr/lib/swift/libswiftSceneKit.dylib
++  - /usr/lib/swift/libswiftRegexBuilder.dylib
+   - /usr/lib/swift/libswiftSpatial.dylib
+   - /usr/lib/swift/libswiftSynchronization.dylib
+   - /usr/lib/swift/libswiftSystem.dylib
+   - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
+   - /usr/lib/swift/libswiftVideoToolbox.dylib
+-  - /usr/lib/swift/libswiftWebKit.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
+
+   - /usr/lib/swift/libswiftsimd.dylib
+   - /usr/lib/swift/libswiftsys_time.dylib
+   - /usr/lib/swift/libswiftunistd.dylib
+-  Functions: 21917
+-  Symbols:   1252
+-  CStrings:  3293
++  Functions: 3810
++  Symbols:   482
++  CStrings:  726
+ 
+Symbols:
++ _CGImageRelease
++ _CGImageRetain
++ _CVPixelBufferCreateWithIOSurface
++ _CVPixelBufferGetIOSurface
++ _CVPixelBufferRelease
++ _CVPixelBufferRetain
++ _IOSurfaceGetID
++ _IOSurfaceLookup
++ _NSLocalizedDescriptionKey
++ _OBJC_CLASS_$_GPImageXPCWrapper
++ _OBJC_CLASS_$_IOSurface
++ _OBJC_CLASS_$_NSUUID
++ _OBJC_CLASS_$_NSXPCCoder
++ _OBJC_CLASS_$_PKDrawing
++ _OBJC_CLASS_$__EXExtensionIdentity
++ _OBJC_CLASS_$__EXQuery
++ _OBJC_CLASS_$__EXQueryController
++ _OBJC_METACLASS_$_GPImageXPCWrapper
++ _OBJC_METACLASS_$__EXHostViewController
++ _swift_cvw_assignWithCopy
++ _swift_cvw_assignWithTake
++ _swift_cvw_destroy
++ _swift_cvw_enumFn_getEnumTag
++ _swift_cvw_initEnumMetadataMultiPayloadWithLayoutString
++ _swift_cvw_initEnumMetadataSinglePayloadWithLayoutString
++ _swift_cvw_initStructMetadataWithLayoutString
++ _swift_cvw_initWithCopy
++ _swift_cvw_initWithTake
++ _swift_cvw_initializeBufferWithCopyOfBuffer
++ _swift_cvw_multiPayloadEnumGeneric_destructiveInjectEnumTag
++ _swift_cvw_multiPayloadEnumGeneric_getEnumTag
++ _swift_cvw_singlePayloadEnumGeneric_destructiveInjectEnumTag
++ _swift_cvw_singlePayloadEnumGeneric_getEnumTag
++ _swift_dynamicCastObjCClassUnconditional
++ _swift_getFunctionTypeMetadata0
+- _AVCaptureSessionDidStartRunningNotification
+- _AVCaptureSessionDidStopRunningNotification
+- _AVMediaTypeVideo
+- _AXRuntimeCheck_MediaAnalysisSupport
+- _AnalyticsSendEventLazy
+- _CEMCreateEmojiLocaleData
+- _CEMCreateStringByTranslatingEmojiCharactersToNameInString
+- _CFAbsoluteTimeGetCurrent
+- _CGAffineTransformMakeRotation
+- _CGAffineTransformMakeTranslation
+- _CGBitmapContextCreateImage
+- _CGBitmapContextGetHeight
+- _CGBitmapContextGetWidth
+- _CGColorCreateGenericRGB
+- _CGColorSpaceCopyPropertyList
+- _CGColorSpaceCreateDeviceGray
+- _CGColorSpaceCreateDeviceRGB
+- _CGColorSpaceCreateWithPropertyList
+- _CGColorSpaceRelease
+- _CGContextAddPath
+- _CGContextFillRect
+- _CGContextSetFillColorWithColor
+- _CGDataProviderCopyData
+- _CGImageCreate
+- _CGImageCreateWithImageInRect
+- _CGImageGetBitmapInfo
+- _CGImageGetBitsPerComponent
+- _CGImageGetBitsPerPixel
+- _CGImageGetBytesPerRow
+- _CGImageGetDataProvider
+- _CGImageSourceCreateThumbnailAtIndex
+- _CGImageSourceCreateWithData
+- _CGPathCreateCopyByTransformingPath
+- _CGPointApplyAffineTransform
+- _CGRectApplyAffineTransform
+- _CGRectEqualToRect
+- _CGRectGetHeight
+- _CGRectGetMaxX
+- _CGRectGetMaxY
+- _CGRectGetMidX
+- _CGRectGetMidY
+- _CGRectGetMinX
+- _CGRectGetMinY
+- _CGRectGetWidth
+- _CGRectNull
+- _CGSizeZero
+- _CNContactEmailAddressesKey
+- _CNContactPhoneNumbersKey
+- _GESummarizationClientErrorDomain
+- _IAChannelGenmojiCreation
+- _MobileGestalt_get_wapiCapability
+- _NSLocalizedFailureReasonErrorKey
+- _NSPOSIXErrorDomain
+- _NSProcessInfoThermalStateDidChangeNotification
+- _NSTemporaryDirectory
+- _NSURLErrorKey
+- _OBJC_CLASS_$_AFPreferences
+- _OBJC_CLASS_$_APApplication
+- _OBJC_CLASS_$_APBaseExtensionShieldView
+- _OBJC_CLASS_$_APGuard
+- _OBJC_CLASS_$_AVCaptureDevice
+- _OBJC_CLASS_$_AXMTextDetectionOptions
+- _OBJC_CLASS_$_AXMVisionAnalysisOptions
+- _OBJC_CLASS_$_AXMVisionFeature
+- _OBJC_CLASS_$_AXMVoiceOverVisionEngine
+- _OBJC_CLASS_$_AXSSImageDescriptionViewController
+- _OBJC_CLASS_$_BGSystemTaskCheckpoints
+- _OBJC_CLASS_$_BGSystemTaskScheduler
+- _OBJC_CLASS_$_CAMediaTimingFunction
+- _OBJC_CLASS_$_CNContact
+- _OBJC_CLASS_$_CNContactFetchRequest
+- _OBJC_CLASS_$_CNContactStore
+- _OBJC_CLASS_$_GPAppleConnectTokenProvider
+- _OBJC_CLASS_$_GPDataConversionUtils
+- _OBJC_CLASS_$_GPImageAndFormat
+- _OBJC_CLASS_$_GPImageFormat
+- _OBJC_CLASS_$_GPInProcessGenerationProgressViewController
+- _OBJC_CLASS_$_GPInProcessImageEditionViewController
+- _OBJC_CLASS_$_GPInProcessImagePickerViewController
+- _OBJC_CLASS_$_GPInProcessMagicPaperViewController
+- _OBJC_CLASS_$_GPMagicPaperState
+- _OBJC_CLASS_$_IASignalAnalytics
+- _OBJC_CLASS_$_ISIcon
+- _OBJC_CLASS_$_ISImageDescriptor
+- _OBJC_CLASS_$_ITKLexiconChecker
+- _OBJC_CLASS_$_LSApplicationRecord
+- _OBJC_CLASS_$_LSApplicationWorkspace
+- _OBJC_CLASS_$_LSBundleRecord
+- _OBJC_CLASS_$_MADService
+- _OBJC_CLASS_$_MADTextEmbeddingRequest
+- _OBJC_CLASS_$_MADTextEmbeddingResult
+- _OBJC_CLASS_$_MADTextRequest
+- _OBJC_CLASS_$_NLTokenizer
+- _OBJC_CLASS_$_NSCache
+- _OBJC_CLASS_$_NSCountedSet
+- _OBJC_CLASS_$_NSDateFormatter
+- _OBJC_CLASS_$_NSFileCoordinator
+- _OBJC_CLASS_$_NSFileHandle
+- _OBJC_CLASS_$_NSItemProvider
+- _OBJC_CLASS_$_NSListFormatter
+- _OBJC_CLASS_$_NSMutableData
+- _OBJC_CLASS_$_NSNotificationCenter
+- _OBJC_CLASS_$_NSNumberFormatter
+- _OBJC_CLASS_$_NSOrderedSet
+- _OBJC_CLASS_$_NSPredicate
+- _OBJC_CLASS_$_NSRegularExpression
+- _OBJC_CLASS_$_NSSortDescriptor
+- _OBJC_CLASS_$_NSThread
+- _OBJC_CLASS_$_NSTimer
+- _OBJC_CLASS_$_NSURLSession
+- _OBJC_CLASS_$_NSURLSessionConfiguration
+- _OBJC_CLASS_$_NSUndoManager
+- _OBJC_CLASS_$_NSValue
+- _OBJC_CLASS_$_NSXPCConnection
+- _OBJC_CLASS_$_OBBoldTrayButton
+- _OBJC_CLASS_$_OBTrayButton
+- _OBJC_CLASS_$_OBWelcomeController
+- _OBJC_CLASS_$_OS_dispatch_source
+- _OBJC_CLASS_$_PHAdjustmentData
+- _OBJC_CLASS_$_PHAsset
+- _OBJC_CLASS_$_PHAssetChangeRequest
+- _OBJC_CLASS_$_PHAssetCreationOptions
+- _OBJC_CLASS_$_PHAssetCreationRequest
+- _OBJC_CLASS_$_PHAssetDeleteOptions
+- _OBJC_CLASS_$_PHAssetExportRequest
+- _OBJC_CLASS_$_PHAssetExportRequestOptions
+- _OBJC_CLASS_$_PHAssetResource
+- _OBJC_CLASS_$_PHAssetResourceManager
+- _OBJC_CLASS_$_PHAssetResourceRequestOptions
+- _OBJC_CLASS_$_PHFace
+- _OBJC_CLASS_$_PHImageManager
+- _OBJC_CLASS_$_PHImageRequestOptions
+- _OBJC_CLASS_$_PHMoment
+- _OBJC_CLASS_$_PHObject
+- _OBJC_CLASS_$_PHPerson
+- _OBJC_CLASS_$_PHPhotoLibrary
+- _OBJC_CLASS_$_PHPhotoLibraryAttributesChangeRequest
+- _OBJC_CLASS_$_PHPhotoLibraryCreationOptions
+- _OBJC_CLASS_$_PHPhotoLibraryDeletionOptions
+- _OBJC_CLASS_$_PHPhotoLibraryIdentifier
+- _OBJC_CLASS_$_PHPhotoLibraryManager
+- _OBJC_CLASS_$_PHPhotoLibraryOpenOptions
+- _OBJC_CLASS_$_PXPeopleFaceCropFetchOptions
+- _OBJC_CLASS_$_PXPeopleFaceCropManager
+- _OBJC_CLASS_$_PXPeopleUtilities
+- _OBJC_CLASS_$_UIAction
+- _OBJC_CLASS_$_UIActivityItemsConfiguration
+- _OBJC_CLASS_$_UIApplication
+- _OBJC_CLASS_$_UIBezierPath
+- _OBJC_CLASS_$_UIColor
+- _OBJC_CLASS_$_UIGraphicsImageRenderer
+- _OBJC_CLASS_$_UIImagePickerController
+- _OBJC_CLASS_$_UIImageSymbolConfiguration
+- _OBJC_CLASS_$_UIMenu
+- _OBJC_CLASS_$_UIMenuElement
+- _OBJC_CLASS_$_UIPasteboard
+- _OBJC_CLASS_$_UIScreen
+- _OBJC_CLASS_$_UISelectionFeedbackGenerator
+- _OBJC_CLASS_$_UITextChecker
+- _OBJC_CLASS_$_UITextSuggestion
+- _OBJC_CLASS_$_UITraitCollection
+- _OBJC_CLASS_$_UIView
+- _OBJC_CLASS_$_UIVisualEffectView
+- _OBJC_CLASS_$_UIWindowScene
+- _OBJC_CLASS_$_VCPMediaAnalyzer
+- _OBJC_CLASS_$_VFXBehaviorGraph
+- _OBJC_CLASS_$_VFXClientTextureAsset
+- _OBJC_CLASS_$_VFXMaterial
+- _OBJC_CLASS_$_VFXTimingFunction
+- _OBJC_CLASS_$_VFXTransaction
+- _OBJC_CLASS_$_VFXView
+- _OBJC_CLASS_$_VFXWorld
+- _OBJC_CLASS_$__TtC15ImagePlayground29PhotoAssetItemProviderWriting
+- _OBJC_CLASS_$__TtC15ImagePlayground32GenerativePlaygroundPhotoLibrary
+- _OBJC_CLASS_$__TtC15ImagePlayground33GPAppleConnectTokenProvider_Swift
+- _OBJC_METACLASS_$_AXSSImageDescriptionViewController
+- _OBJC_METACLASS_$_GPAppleConnectTokenProvider
+- _OBJC_METACLASS_$_GPDataConversionUtils
+- _OBJC_METACLASS_$_GPImageAndFormat
+- _OBJC_METACLASS_$_GPImageFormat
+- _OBJC_METACLASS_$_GPInProcessGenerationProgressViewController
+- _OBJC_METACLASS_$_GPInProcessImageEditionViewController
+- _OBJC_METACLASS_$_GPInProcessImagePickerViewController
+- _OBJC_METACLASS_$_GPInProcessMagicPaperViewController
+- _OBJC_METACLASS_$_GPMagicPaperState
+- _OBJC_METACLASS_$_UITextSuggestion
+- _OBJC_METACLASS_$_UIView
+- _OBJC_METACLASS_$_VFXView
+- _OBJC_METACLASS_$__TtC15ImagePlayground29PhotoAssetItemProviderWriting
+- _OBJC_METACLASS_$__TtC15ImagePlayground32GenerativePlaygroundPhotoLibrary
+- _OBJC_METACLASS_$__TtC15ImagePlayground33GPAppleConnectTokenProvider_Swift
+- _PHAssetExportRequestPhotoFileURLKey
+- _PHAssetPropertySetCuration
+- _PHAssetPropertySetDescription
+- _PHAssetPropertySetPhotosInfoPanelExtended
+- _PHImageCancelledKey
+- _PHImageErrorKey
+- _PHImageResultIsDegradedKey
+- _SecTaskCopyValueForEntitlement
+- _SecTaskCreateWithAuditToken
+- _UIAccessibilityAnnouncementNotification
+- _UIAccessibilityIsVoiceOverRunning
+- _UIAccessibilityPostNotification
+- _UIContentSizeCategoryAccessibilityExtraExtraExtraLarge
+- _UIContentSizeCategoryAccessibilityExtraExtraLarge
+- _UIContentSizeCategoryAccessibilityExtraLarge
+- _UIContentSizeCategoryAccessibilityLarge
+- _UIContentSizeCategoryAccessibilityMedium
+- _UIContentSizeCategoryExtraExtraExtraLarge
+- _UIContentSizeCategoryExtraExtraLarge
+- _UIContentSizeCategoryExtraLarge
+- _UIContentSizeCategoryExtraSmall
+- _UIContentSizeCategoryLarge
+- _UIContentSizeCategoryMedium
+- _UIContentSizeCategorySmall
+- _UIImagePickerControllerOriginalImage
+- _UIKeyboardDidHideNotification
+- _UIKeyboardDidShowNotification
+- _UIKeyboardIsLocalUserInfoKey
+- _UIKeyboardWillHideNotification
+- _UIKeyboardWillShowNotification
+- _UISceneDidActivateNotification
+- _UISceneWillDeactivateNotification
+- _VFXWorldLoaderOptionMetalLibraryURL
+- _VNImageRectForNormalizedRect
+- __Unwind_Resume
+- __Z37ParticleInit_GPnew120_particleInit_11PKvjjRDv4_f
+- __Z37ParticleInit_GPnew120_particleInit_22PKvjjRDv4_f
+- __Z37ParticleInit_GPnew120_particleInit_31PKvjjRDv4_f
+- __Z37ParticleInit_GPnew120_particleInit_37PKvjjRDv4_f
+- __Z37ParticleInit_GPnew120_particleInit_53PKvjjRDv4_f
+- __Z37ParticleInit_GPnew120_particleInit_57PKvjjRDv4_f
+- __Z37ParticleInit_GPnew120_particleInit_88PKvjjRDv4_f
+- __Z38ParticleInit_GPnew120_particleInit_104PKvjjRDv4_f
+- __Z41ParticleUpdate_GPnew120_particleUpdate_44PKvjDv3_fbffDv2_fDv4_ffRS3_RS1_R10simd_quatfRS2_
+- __Z41ParticleUpdate_GPnew120_particleUpdate_51PKvjDv3_fbffDv2_fDv4_ffRS3_RS1_R10simd_quatfRS2_
+- __Z41ParticleUpdate_GPnew120_particleUpdate_66PKvjDv3_fbffDv2_fDv4_ffRS3_RS1_R10simd_quatfRS2_
+- __Z41ParticleUpdate_GPnew120_particleUpdate_77PKvjDv3_fbffDv2_fS2_S2_Dv4_ffRS3_RS1_R10simd_quatfRS2_
+- __Z41ParticleUpdate_GPnew120_particleUpdate_80PKvjDv3_fbffDv2_fDv4_ffRS3_RS1_R10simd_quatfRS2_
+- __Z41ParticleUpdate_GPnew120_particleUpdate_86PKvjDv3_fbffDv2_fDv4_ffRS3_RS1_R10simd_quatfRS2_
+- __Z41ParticleUpdate_GPnew120_particleUpdate_96PKvjDv3_fbffDv2_fDv4_ffRS3_RS1_R10simd_quatfRS2_
+- __Z42ParticleUpdate_GPnew120_particleUpdate_112PKvjDv3_fbffDv2_fDv4_ffRS3_RS1_R10simd_quatfRS2_
+- __Z43ParticleInit_wandDesign0354_particleInit_16PKvjDv3_fbRDv4_fRS1_
+- __Z43ParticleInit_wandDesign0354_particleInit_29PKvjS0_jxffRDv3_fRDv4_fS2_
+- __Z47ParticleUpdate_wandDesign0354_particleUpdate_12PKvjDv4_fbbbRS1_
+- __Z47ParticleUpdate_wandDesign0354_particleUpdate_21PKvjDv4_ffRS1_
+- __Z47ParticleUpdate_wandDesign0354_particleUpdate_46PKvjS0_Dv4_fjxS0_fffS0_RS1_Rf
+- __Z56Main_GPnew120_graph_00B20FC6_9617_427E_A20E_0A40E8A74492PKvjS0_Dv2_fS0_S0_fbffRDv3_f
+- __Z56Main_GPnew120_graph_0913325B_5059_450D_853C_42C60654F716PKvjDv2_ffRDv3_fRb
+- __Z56Main_GPnew120_graph_094F6053_058F_4383_8742_310BD605B036PKvjDv2_ffS1_bffbRS1_RfS2_S3_S3_S3_S3_
+- __Z56Main_GPnew120_graph_29B2370D_A936_4414_B203_A5935B8D7515PKvjDv2_ffbRDv3_fRb
+- __Z56Main_GPnew120_graph_333159A0_6F0F_48EE_8AC1_5D22EB22B261PKvjS0_Dv2_fS0_S0_fbffRDv3_f
+- __Z56Main_GPnew120_graph_5896504B_7759_468F_9FAA_BC61C2C13168PKvjS0_Dv2_fS0_S0_fbffRDv3_f
+- __Z56Main_GPnew120_graph_60FD312B_BD15_40F5_A712_1FAA290862F8PKvjS0_ffffffS0_fbffDv2_fS1_fffS1_ffRDv3_fR10simd_quatfS3_RfS6_S6_RS1_S6_S6_S6_S3_S3_S3_S7_S6_
+- __Z56Main_GPnew120_graph_6B800A8C_7F16_485F_B431_C8336EC56A2CPKvjS0_Dv2_fS0_S0_fbffRDv3_f
+- __Z56Main_GPnew120_graph_7938B5AC_2269_40AD_A141_065A64E42CBCPKvjS0_Dv2_fS0_S0_fbffRDv3_f
+- __Z56Main_GPnew120_graph_8444605F_8B99_4AB9_A155_6BD4D3FEDF3CPKvjS0_Dv2_fS0_S0_fbffRDv3_f
+- __Z56Main_GPnew120_graph_92BADE19_DFE9_42FA_9E7F_B9F4247808DAPKvjS0_Dv2_fS0_S0_fbffRDv3_f
+- __Z56Main_GPnew120_graph_A95C1D30_5392_4F8F_8193_ABB9299C6E55PKvjffffS0_fffS0_fbfffffffffRDv2_fS2_S2_S2_RfS3_S3_S3_S3_S2_S2_S3_S3_S3_S2_S2_
+- __Z56Main_GPnew120_graph_B926F3C1_A933_4BA6_B902_938B87A9DA0DPKvjS0_Dv2_fS0_S0_fbffRDv3_f
+- __Z56Main_GPnew120_graph_E6E0B0E7_DBA7_4C8D_9073_5217A31E4D2BPKvjbS0_
+- __Z56Main_GPnew120_graph_F5009019_0FB4_4E50_A4A2_987B5B39E0BEPKvjDv2_fS1_fS1_fS1_fS1_fbbfS1_S1_ffffffS1_fS1_fbfRDv3_fS3_S3_S3_RfS4_S4_RS1_S5_S4_S4_S4_S4_S4_S3_S3_S4_S4_
+- __Z62Init_wandDesign0354_graph_7EA008FB_5C48_4CE5_98F1_2F09F9A5CD68PKvjfR15vfx_float_range
+- __Z62Init_wandDesign0354_graph_885370CA_9FEE_462C_9EC0_023D3C77D5FAPKvjffR15vfx_float_rangeS2_
+- __Z62Main_wandDesign0354_graph_0A958466_D2D9_4C27_A3DD_86070F6126E5PKvjDv2_fbfffS1_fffRS1_RfS3_S3_S2_S3_S3_
+- __Z62Main_wandDesign0354_graph_192B3AE1_AE66_4920_A1E3_0F599E64AA97PKvjDv2_ffRDv3_fRb
+- __Z62Main_wandDesign0354_graph_4103F85E_EF92_49FB_8401_64A84397CDB2PKvjffffS0_Dv2_ffRfS2_S2_S2_S2_
+- __Z62Main_wandDesign0354_graph_59210FAF_81D3_4963_9743_14B30CAD1410PKvjS0_
+- __Z62Main_wandDesign0354_graph_60FD312B_BD15_40F5_A712_1FAA290862F8PKvjS0_ffffDv2_fS1_fbRDv3_fR10simd_quatfRfS6_S6_RS1_S6_S6_S6_S3_S3_S3_S7_
+- __Z62Main_wandDesign0354_graph_72931B8F_2F95_4BB5_9FE6_1EB0C3BAC773PKvjDv3_fS1_fbbxfbRfRbRxS2_S2_
+- __Z62Main_wandDesign0354_graph_871F2BCC_D47F_4C4B_A756_367C9E3B1F1FPKvjRDv3_fS2_
+- __Z62Main_wandDesign0354_graph_D5D657BD_226D_4350_95DD_56BE0EC569D4PKvjDv2_ffbffS1_RS1_RfS2_S3_S3_S3_S2_
+- __Z62Main_wandDesign0354_graph_E4D907E5_DFB6_4FAA_AFC4_5EB15AD70E7CPKvjDv3_fRS1_
+- __Z62Main_wandDesign0354_graph_EEC534BD_B415_45C7_A32C_CD9DAD521413PKvjDv2_ffffRDv3_fRb
+- __Z62Main_wandDesign0354_graph_F66D2FC7_9DFA_45F7_BDD1_184FB5A9E179PKvjbS0_
+- __Z63Spawn_wandDesign0354_graph_141D2322_0B7C_4E79_BBE6_1B4ED64C475APKvjbRf
+- ___gxx_personality_v0
+- ___sincos_stret
+- ___sincosf_stret
+- ___vfx_script_GPnew120_graph_00B20FC6_9617_427E_A20E_0A40E8A74492
+- ___vfx_script_GPnew120_graph_0913325B_5059_450D_853C_42C60654F716
+- ___vfx_script_GPnew120_graph_094F6053_058F_4383_8742_310BD605B036
+- ___vfx_script_GPnew120_graph_29B2370D_A936_4414_B203_A5935B8D7515
+- ___vfx_script_GPnew120_graph_333159A0_6F0F_48EE_8AC1_5D22EB22B261
+- ___vfx_script_GPnew120_graph_5896504B_7759_468F_9FAA_BC61C2C13168
+- ___vfx_script_GPnew120_graph_60FD312B_BD15_40F5_A712_1FAA290862F8
+- ___vfx_script_GPnew120_graph_6B800A8C_7F16_485F_B431_C8336EC56A2C
+- ___vfx_script_GPnew120_graph_7938B5AC_2269_40AD_A141_065A64E42CBC
+- ___vfx_script_GPnew120_graph_8444605F_8B99_4AB9_A155_6BD4D3FEDF3C
+- ___vfx_script_GPnew120_graph_92BADE19_DFE9_42FA_9E7F_B9F4247808DA
+- ___vfx_script_GPnew120_graph_A95C1D30_5392_4F8F_8193_ABB9299C6E55
+- ___vfx_script_GPnew120_graph_B926F3C1_A933_4BA6_B902_938B87A9DA0D
+- ___vfx_script_GPnew120_graph_E6E0B0E7_DBA7_4C8D_9073_5217A31E4D2B
+- ___vfx_script_GPnew120_graph_F5009019_0FB4_4E50_A4A2_987B5B39E0BE
+- ___vfx_script_GPnew120_particleInit_104
+- ___vfx_script_GPnew120_particleInit_11
+- ___vfx_script_GPnew120_particleInit_22
+- ___vfx_script_GPnew120_particleInit_31
+- ___vfx_script_GPnew120_particleInit_37
+- ___vfx_script_GPnew120_particleInit_53
+- ___vfx_script_GPnew120_particleInit_57
+- ___vfx_script_GPnew120_particleInit_88
+- ___vfx_script_GPnew120_particleUpdate_112
+- ___vfx_script_GPnew120_particleUpdate_44
+- ___vfx_script_GPnew120_particleUpdate_51
+- ___vfx_script_GPnew120_particleUpdate_66
+- ___vfx_script_GPnew120_particleUpdate_77
+- ___vfx_script_GPnew120_particleUpdate_80
+- ___vfx_script_GPnew120_particleUpdate_86
+- ___vfx_script_GPnew120_particleUpdate_96
+- ___vfx_script_wandDesign0354_graph_0A958466_D2D9_4C27_A3DD_86070F6126E5
+- ___vfx_script_wandDesign0354_graph_141D2322_0B7C_4E79_BBE6_1B4ED64C475A
+- ___vfx_script_wandDesign0354_graph_192B3AE1_AE66_4920_A1E3_0F599E64AA97
+- ___vfx_script_wandDesign0354_graph_4103F85E_EF92_49FB_8401_64A84397CDB2
+- ___vfx_script_wandDesign0354_graph_59210FAF_81D3_4963_9743_14B30CAD1410
+- ___vfx_script_wandDesign0354_graph_60FD312B_BD15_40F5_A712_1FAA290862F8
+- ___vfx_script_wandDesign0354_graph_72931B8F_2F95_4BB5_9FE6_1EB0C3BAC773
+- ___vfx_script_wandDesign0354_graph_7EA008FB_5C48_4CE5_98F1_2F09F9A5CD68
+- ___vfx_script_wandDesign0354_graph_871F2BCC_D47F_4C4B_A756_367C9E3B1F1F
+- ___vfx_script_wandDesign0354_graph_885370CA_9FEE_462C_9EC0_023D3C77D5FA
+- ___vfx_script_wandDesign0354_graph_D5D657BD_226D_4350_95DD_56BE0EC569D4
+- ___vfx_script_wandDesign0354_graph_E4D907E5_DFB6_4FAA_AFC4_5EB15AD70E7C
+- ___vfx_script_wandDesign0354_graph_EEC534BD_B415_45C7_A32C_CD9DAD521413
+- ___vfx_script_wandDesign0354_graph_F66D2FC7_9DFA_45F7_BDD1_184FB5A9E179
+- ___vfx_script_wandDesign0354_particleInit_16
+- ___vfx_script_wandDesign0354_particleInit_29
+- ___vfx_script_wandDesign0354_particleUpdate_12
+- ___vfx_script_wandDesign0354_particleUpdate_21
+- ___vfx_script_wandDesign0354_particleUpdate_46
+- __availability_version_check
+- __objc_autoreleasePoolPop
+- __objc_autoreleasePoolPush
+- __simd_cos_f4
+- __simd_sin_f4
+- __swift_FORCE_LOAD_$_swiftAVFoundation
+- __swift_FORCE_LOAD_$_swiftCompression
+- __swift_FORCE_LOAD_$_swiftCoreLocation
+- __swift_FORCE_LOAD_$_swiftCoreMIDI
+- __swift_FORCE_LOAD_$_swiftCryptoTokenKit
+- __swift_FORCE_LOAD_$_swiftFileProvider
+- __swift_FORCE_LOAD_$_swiftGLKit
+- __swift_FORCE_LOAD_$_swiftIntents
+- __swift_FORCE_LOAD_$_swiftMapKit
+- __swift_FORCE_LOAD_$_swiftNaturalLanguage
+- __swift_FORCE_LOAD_$_swiftSceneKit
+- __swift_FORCE_LOAD_$_swiftWebKit
+- __swift_stdlib_strtof_clocale
+- _cosf
+- _dispatch_once_f
+- _dlsym
+- _exp2f
+- _fclose
+- _ffsctl
+- _fmod
+- _fmodf
+- _fopen
+- _fread
+- _fseek
+- _ftell
+- _kAXAnnouncementBorderHitSound
+- _kBGSTKeyFeatureCode
+- _kBGSTKeyInvolvedProcesses
+- _kBGSTKeyTaskName
+- _kCAMediaTimingFunctionEaseInEaseOut
+- _kCGColorSpaceExtendedLinearSRGB
+- _kCGColorSpaceLinearSRGB
+- _kCGImagePropertyIPTCDictionary
+- _kCGImagePropertyMakerAppleDictionary
+- _kCGImageSourceCreateThumbnailFromImageAlways
+- _kCGImageSourceCreateThumbnailWithTransform
+- _kCGImageSourceThumbnailMaxPixelSize
+- _kCIFormatRGBA8
+- _kISImageDescriptorHomeScreen
+- _notify_cancel
+- _notify_get_state
+- _notify_register_dispatch
+- _objc_release_x10
+- _objc_release_x3
+- _objc_retainAutorelease
+- _objc_retain_x10
+- _objc_retain_x11
+- _objc_retain_x5
+- _os_variant_has_internal_diagnostics
+- _os_variant_has_internal_ui
+- _powf
+- _proc_name
+- _rewind
+- _sin
+- _sinf
+- _sscanf
+- _swift_allocateGenericClassMetadata
+- _swift_allocateGenericValueMetadata
+- _swift_arrayDestroy
+- _swift_checkMetadataState
+- _swift_continuation_await
+- _swift_continuation_init
+- _swift_continuation_resume
+- _swift_continuation_throwingResume
+- _swift_continuation_throwingResumeWithError
+- _swift_deallocBox
+- _swift_defaultActor_deallocate
+- _swift_defaultActor_destroy
+- _swift_defaultActor_initialize
+- _swift_deletedAsyncMethodErrorTu
+- _swift_dynamicCastClass
+- _swift_getAssociatedConformanceWitness
+- _swift_getAssociatedTypeWitness
+- _swift_getErrorValue
+- _swift_getGenericMetadata
+- _swift_getOpaqueTypeMetadata2
+- _swift_getTupleTypeLayout2
+- _swift_getTupleTypeMetadata
+- _swift_getTupleTypeMetadata3
+- _swift_initClassMetadata2
+- _swift_initEnumMetadataMultiPayload
+- _swift_initEnumMetadataSinglePayload
+- _swift_initStaticObject
+- _swift_initStructMetadata
+- _swift_isEscapingClosureAtFileLocation
+- _swift_isUniquelyReferenced_nonNull
+- _swift_isUniquelyReferenced_nonNull_bridgeObject
+- _swift_makeBoxUnique
+- _swift_projectBox
+- _swift_readAtKeyPath
+- _swift_release_n
+- _swift_setAtReferenceWritableKeyPath
+- _swift_setDeallocating
+- _swift_stdlib_random
+- _swift_task_getMainExecutor
+- _swift_task_isCurrentExecutor
+- _swift_unexpectedError
+- _swift_unknownObjectRelease_n
+- _swift_unknownObjectRetain_n
+- _swift_weakAssign
+- _vfx_script_clock_delta_time
+- _vfx_script_clock_simulation_index
+- _vfx_script_clock_time
+- _vfx_script_color_ramp_copy
+- _vfx_script_color_ramp_create
+- _vfx_script_color_ramp_destroy
+- _vfx_script_curve_create
+- _vfx_script_curve_destroy
+- _vfx_script_curve_evaluate
+- _vfx_script_get_arguments_buffer
+- _vfx_script_get_iteration_range
+- _vfx_script_texture_sample1d
+- _vfx_script_texture_sample1d_curve
+- _vfx_script_texture_sample3d
+CStrings:
++ "\x13"
++ " title "
++ "6.0"
++ "@\"PKDrawing\""
++ "@24@0:8^{__CVBuffer=}16"
++ "@28@0:8^{CGImage=}16I24"
++ "@52@0:8@16@24B32B36B40B44B48"
++ "@64@0:8@16@24B32B36B40B44@48^{CGImage=}56"
++ "Apple Vision Pro"
++ "Array<ImagePlaygroundStyle>"
++ "B12@?0B8"
++ "Cannot convert native image into CGImage"
++ "Cannot resize native image into CGImage"
++ "Connection with the service was interrupted"
++ "Could not establish connection to extension with error: %@"
++ "Could not release assertion with error: %@"
++ "Could not send allowed generation styles to remote view: %@. May not be an error if the connection is not established yet, will retry."
++ "Could not send personalization policy to remote view: %@. May not be an error if the connection is not established yet, will retry."
++ "Could not send selected generation style to remote view: %@. May not be an error if the connection is not established yet, will retry."
++ "Could not start generation with error: %@"
++ "Could not stop generation with error: %@"
++ "GPImageXPCWrapper"
++ "Image Playground is not available on this Apple Vision Pro."
++ "Image Playground is not supported on this device."
++ "Image creation is not available at the moment."
++ "Image creation is not available when the application is hidden or running in the background."
++ "Image generation failed with NSError in a different domain: %@, returning a generic error instead"
++ "Image generation failed with error: %@"
++ "ImageCreatorError"
++ "ImagePlayground.ImageXPCWrapper"
++ "ImagePlayground/ImageCreator.swift"
++ "ImagePlayground/ImagePlaygroundViewController.swift"
++ "ImagePlaygroundPersonalizationPolicy"
++ "ImagePlaygroundStyle"
++ "No image, but nil error or non-NSError error %@"
++ "Optional<audit_token_t>"
++ "Received error from remote object proxy: %@"
++ "T@\"PKDrawing\",C,N,V_drawing"
++ "T@,N,C"
++ "T@,N,R"
++ "T^{CGImage=},R,N,V_image"
++ "T^{__CVBuffer=},N,R,VpixelBuffer"
++ "T^{__CVBuffer=},N,V_pixelBuffer"
++ "The current creation batch has been cancelled."
++ "The face of the subject in the source image is too small to be usable."
++ "The image creation failed."
++ "The language used in the concepts is not currently supported."
++ "The source image cannot be used for creation."
++ "^{CGImage=}"
++ "^{CGImage=}16@0:8"
++ "^{__CVBuffer=}"
++ "_TtC15ImagePlayground12ImageCreator"
++ "_TtC15ImagePlayground22GPEXHostViewController"
++ "_TtC15ImagePlaygroundP33_DDFA1C1AEB2E9C3EBDF6D3A43C77EE2230ImageGenerationHostCoordinator"
++ "_TtCC15ImagePlayground12ImageCreatorP33_FF55E21F33726B97D991E77D9426BBEB7Results"
++ "_TtP15ImagePlayground16GPNonUIExtension_"
++ "_beginDelayingPresentation:cancellationHandler:"
++ "_deferredConfigurationHandlers"
++ "_drawing"
++ "_endDelayingPresentation"
++ "_pixelBuffer"
++ "_viewControllerPresentationDidInitiate"
++ "acquireAssertion"
++ "activate"
++ "allowedGenerationStyles"
++ "availableStyles"
++ "call"
++ "com.apple.ImagePlayground.NonUIExtension"
++ "connection"
++ "copy"
++ "delayPresentationDuration"
++ "delayingPresentation"
++ "drawing"
++ "endTheDelay"
++ "executeQuery:"
++ "fetchAvailableStylesWithCompletion:"
++ "imageWrapper"
++ "images(for:style:limit:)"
++ "initWithConfiguration:"
++ "initWithExtensionPointIdentifier:"
++ "initWithImage:orientation:"
++ "initWithPixelBuffer:"
++ "initWithPromptElements:"
++ "initWithSurfaceID:"
++ "initWithText:title:isPersonHandle:isSuggestableText:needsConceptsExtraction:needsSuggestableConceptsExtraction:drawing:image:"
++ "initWithText:title:isPersonHandle:isTitle:isSuggestableText:needsConceptsExtraction:needsSuggestableConceptsExtraction:"
++ "iteratorFinishedCallback"
++ "layoutIfNeeded"
++ "limit"
++ "loadViewIfNeeded"
++ "personalizationPolicy"
++ "pixelBuffer"
++ "releaseAssertion"
++ "removeChildViewController:"
++ "removeFromParentViewController"
++ "removeFromSuperview"
++ "responsibleAuditToken"
++ "selectedGenerationStyle"
++ "setAllowedGenerationStyles:"
++ "setDrawing:"
++ "setNeedsLayout"
++ "setPersonalizationPolicy:"
++ "setPixelBuffer:"
++ "setResponsibleAuditToken:"
++ "setSelectedGenerationStyle:"
++ "setView:"
++ "set_imagePickerView:"
++ "startGenerationWithStyle:promptElements:replyHandler:batchID:"
++ "stopGeneration:"
++ "surface"
++ "surfaceID"
++ "v16@?0@\"NSArray\"8"
++ "v24@0:8@\"GPImageXPCWrapper\"16"
++ "v24@0:8@\"NSNumber\"16"
++ "v24@0:8@\"NSString\"16"
++ "v24@0:8@\"NSUUID\"16"
++ "v24@0:8@?<v@?@\"NSArray\">16"
++ "v24@?0@\"GPImageXPCWrapper\"8@\"NSError\"16"
++ "v48@0:8@\"NSString\"16@\"NSArray\"24@?<v@?@\"GPImageXPCWrapper\"@\"NSError\">32@\"NSUUID\"40"
++ "v48@0:8@16@24@?32@40"
++ "viewDidDisappear:"
+- "\x03"
+- "\n\n    - Appearance: "
+- "\n\n    - Photos UUID: "
+- "\n\n    - Skin Tone: "
+- "\x12"
+- "    ImageGenerationPerson:\n\n    - Kind "
+- " %s - image index %ld - will generate"
+- " - imageVFXRect: "
+- " PropertyName does not exist"
+- " [0 means disabled]"
+- " as a starting point."
+- " image](inflect: true) will be deleted from Image Playground on all your devices. This action cannot be undone."
+- " image](inflect: true)?"
+- " is locked, charging, and connected to Wi-Fi."
+- " organizes people when "
+- "$__lazy_storage_$_animatedEffectsViewModel"
+- "$__lazy_storage_$_appProtectionShieldViewModel"
+- "$__lazy_storage_$_availableFaceDataSources"
+- "$__lazy_storage_$_availableStyles"
+- "$__lazy_storage_$_cameraAuthViewModel"
+- "$__lazy_storage_$_contextualMenuViewModel"
+- "$__lazy_storage_$_creationContextFactory"
+- "$__lazy_storage_$_dateFormatter"
+- "$__lazy_storage_$_defaultSelectedCategory"
+- "$__lazy_storage_$_descriptionFieldWithSuggestionsViewModel"
+- "$__lazy_storage_$_effectViewModel"
+- "$__lazy_storage_$_effectsPickerViewModel"
+- "$__lazy_storage_$_emojiGenerator"
+- "$__lazy_storage_$_errorViewModel"
+- "$__lazy_storage_$_facePickerGridViewModel"
+- "$__lazy_storage_$_fetcher"
+- "$__lazy_storage_$_fileManager"
+- "$__lazy_storage_$_floatingbubblesViewModel"
+- "$__lazy_storage_$_footerViewModel"
+- "$__lazy_storage_$_fullDefinitionFetcher"
+- "$__lazy_storage_$_generatedImageEntity"
+- "$__lazy_storage_$_generationManager"
+- "$__lazy_storage_$_imageConditioningRepresentationsManager"
+- "$__lazy_storage_$_itemProvider"
+- "$__lazy_storage_$_magicButtonsBarViewModel"
+- "$__lazy_storage_$_mediaAnalysisService"
+- "$__lazy_storage_$_peoplePickerViewModel"
+- "$__lazy_storage_$_photoLibrary"
+- "$__lazy_storage_$_playground"
+- "$__lazy_storage_$_previewsViewModel"
+- "$__lazy_storage_$_shareableItem"
+- "$__lazy_storage_$_shouldFocusTextFieldOnAppear"
+- "$__lazy_storage_$_stylePickerViewModel"
+- "$__lazy_storage_$_styles"
+- "$__lazy_storage_$_textPromptViewModel"
+- "$__lazy_storage_$_thumbnailFetcher"
+- "$__lazy_storage_$_upscalingAnimation"
+- "$defaultActor"
+- "%d.%d.%d"
+- "%s"
+- "%s - %s"
+- "%s - %s - did refresh store"
+- "%s - %s, count: %ld"
+- "%s - not valid environment, will skip donation"
+- "%s - not valid environment, will skip presented"
+- "%s - will generate recipe"
+- "%s is incorrect ('%f'). It must be between -1 and 1 as it is a normalized position."
+- "%s is incorrect ('%f'). It must be between less or equal to 1 as it is a normalized size."
+- "%s is incorrect ('%f'). It must be more than 0 as it is a size."
+- "%s shieldView: %s"
+- "%s: Status: Generated High Res Image"
+- "%s: Status: Generated Low Res Result"
+- "%s: Status: Generating"
+- "%s: Status: Generation Failed with error: %s"
+- "%{public}s"
+- "%{public}s - environment allows donation()"
+- "%{public}s - environment allows presented()"
+- "-1"
+- "-useMockupGenerator"
+- "-withoutPromptSafety"
+- ". Setting generativePlayground by default."
+- "/Library/Application Support/com.apple.VisualGeneration/DemoImages"
+- "/System/Library/CoreServices/SystemVersion.plist"
+- "/var/mobile/Library/Application Support/com.apple.VisualGeneration/vettedImages"
+- "0"
+- "@\"<GPAppleConnectAuthenticating>\""
+- "@\"<UIViewControllerAnimatedTransitioning>\"48@0:8@\"UINavigationController\"16q24@\"UIViewController\"32@\"UIViewController\"40"
+- "@\"<UIViewControllerInteractiveTransitioning>\"32@0:8@\"UINavigationController\"16@\"<UIViewControllerAnimatedTransitioning>\"24"
+- "@\"NSDictionary\"8@?0"
+- "@\"NSProgress\"32@0:8@\"NSString\"16@?<v@?@\"NSData\"@\"NSError\">24"
+- "@\"NSString\"8@?0"
+- "@\"_TtC15ImagePlayground33GPAppleConnectTokenProvider_Swift\""
+- "@24@0:8^{_NSZone=}16"
+- "@32@0:8@16@?24"
+- "@48@0:8@16@24B32B36B40B44"
+- "@48@0:8@16q24@32@40"
+- "@48@0:8{CGRect={CGPoint=dd}{CGSize=dd}}16"
+- "@52@0:8{CGRect={CGPoint=dd}{CGSize=dd}}16B48"
+- "@56@0:8{CGRect={CGPoint=dd}{CGSize=dd}}16@48"
+- "A disclosure message about disregarded unsafe context."
+- "A recipe is already loading in the viewModel, dropping the request for a new load"
+- "APBaseExtensionShieldViewDelegate"
+- "AXSSImageDescriptionViewControllerDelegate"
+- "AX_Hint_To_Add_Suggestion"
+- "AX_Hint_To_Remove_Suggestion"
+- "Accessibility hint to double-tap on the suggestion to add it"
+- "Accessibility hint to tap on the suggestion bubble to remove it"
+- "Accessibility label of the submit button"
+- "Action name displayed in the undo/redo menu for adding a element around the visual effect"
+- "Action name displayed in the undo/redo menu for duplicating an asset"
+- "Action name displayed in the undo/redo menu for removing a element around the visual effect"
+- "Action name displayed in the undo/redo menu for toggling the favorited state of an asset"
+- "Action name for undoing an image recipe load"
+- "Active representations should never contain a loading representation"
+- "Add or Replace Details"
+- "Add random web image"
+- "AddImageConditioningRepresentationOperation: perform() is not implemented."
+- "All Photos"
+- "Allow prompt and personalization"
+- "Allow style modification"
+- "Always"
+- "Animation"
+- "App Availability"
+- "App Protection authentication success: %{bool}d. Changing sheet presentation to not show sheild UI"
+- "Apple Intelligence Required"
+- "AppleTV"
+- "Are you sure you want to delete ^["
+- "Are you sure you want to reset the curated prompts database?"
+- "Asking face generation at index %ld."
+- "Asset %s has no creation date, fallback on .now"
+- "Asset creation failed with error: %@"
+- "Asset creation request failed"
+- "Asset creation sucessfull for local identifier: %s"
+- "Asset not found in ModelCatalog"
+- "Asset type was provided but asset is nil"
+- "Asset type was provided, will build recipe from asset."
+- "Asset unavailable with id: %s, type: %s"
+- "Attempted to update a bubble that is not suggested: %s"
+- "Authentication success: \"%{bool}d\" error: \"%@\""
+- "Binding<PresentationMode>"
+- "BubbleBackgroundMaterial"
+- "Bubblegum Personalization"
+- "Bubblegum Prompt Alignment"
+- "Bubblegum Structural Integrity"
+- "Bubblegum Visual Quality"
+- "Bubbles to update after people fetching: %s"
+- "Bubbles to update before people fetching: %s"
+- "Button title to replace the edited image in image save alert"
+- "Button title to save as a new image in image save alert"
+- "Button to open the settings app if the app is unavailable"
+- "CFDataCreateWithBytesNoCopy"
+- "CFDictionaryGetValue"
+- "CFGetTypeID"
+- "CFPropertyListCreateFromXMLData"
+- "CFPropertyListCreateWithData"
+- "CFRelease"
+- "CFStringCreateWithCStringNoCopy"
+- "CFStringGetCString"
+- "CFStringGetTypeID"
+- "CGColor"
+- "CIImage"
+- "CNKeyDescriptor"
+- "Cache miss when looking for asset matching person with id: %s"
+- "CallbackIdentifier"
+- "Camera capture is not authorized."
+- "Can not create VFXNodes"
+- "Can not render appearance"
+- "Can not render emoji"
+- "Can only apply one style"
+- "Can only use either an imported image or a person"
+- "Can't access group container"
+- "Can't cancel generation"
+- "Can't construct Array with count < 0"
+- "Can't create pixel buffer"
+- "Can't import or take a photo"
+- "Cancel button in image save alert"
+- "Cancel face generation at index %ld."
+- "Cancel prewarming of faces."
+- "CancelToolbarButtonBackgroundColor"
+- "Cancelled"
+- "Cancelled prewarming of face %s-%s"
+- "Cancelled prewarming of faces."
+- "Cannot add image conditioning representation with error: %@"
+- "Cannot decode curated prompt from string: %s"
+- "Cannot deselect representation with error: %@"
+- "Cannot duplicate asset with error: %@"
+- "Cannot edit asset while in Picker Mode"
+- "Cannot find ImagePlayground.framework bundle"
+- "Cannot find person face with id: %s"
+- "Cannot find style with id: %s"
+- "Cannot get data for dropped image: %@"
+- "Cannot get thumbnail for dropped image"
+- "Cannot load with bundle %{public}s, %{public}s"
+- "Cannot load with bundle %{public}s, missing file"
+- "Cannot parse recipe data wrapper to recipe with error: %@"
+- "Cannot perform undo with error: %@"
+- "Cannot remove image conditioning representation with error: %@"
+- "Cannot resize camera image"
+- "Cannot resize source image to the expected VGF dimensions"
+- "Cannot select person  with error: %@"
+- "Cannot select person with error: %@"
+- "Cannot select representation with error: %@"
+- "Cannot set asset accessibility description : %s with error: %@"
+- "Cannot set asset favorite flag to %{bool}d with error: %@"
+- "CentralizedFeedback"
+- "Certain capabilities are unavailable at this time."
+- "Change the Reference"
+- "CharacterBubbleBackground"
+- "Choose Appearance"
+- "Choose Other Photo…"
+- "Choose Person…"
+- "Choose Starting Point"
+- "Choose Style or Photo…"
+- "Choose a Genmoji for the image you’d like to create."
+- "Choose a Genmoji inspired by "
+- "Choose a photo where the face is clear and easy to see."
+- "Choose a reference photo for the image you’d like to create."
+- "Choose a style, photo, or take a photo"
+- "Choose an image inspired by "
+- "Choose or take a photo"
+- "Choose someone you know or start with details like appearance and skin tone."
+- "Client Texture mask"
+- "CollaborationContactHandles"
+- "CollaborationGroupChatID"
+- "Compact Title of the trailing item of the Image Conditioning Picker"
+- "ComponentVersion"
+- "ComposingAnimationCoordinator"
+- "ComposingFooterItemBackgroundColor"
+- "ComposingViewModel - contextDidChange - didAppear: %{bool}d - context.isEmpty: %{bool}d - context.canGenerate: %{bool}d"
+- "ComposingViewModel - reset()"
+- "ConfigToFirstImage"
+- "Configuration assignment failed because of missing parameters"
+- "Configuration assignment failed with error: "
+- "Confirm button to delete an image"
+- "Connection %@ interrupted"
+- "Connection %@ invalidated"
+- "Context menu action on photo grid elements to add to the Favorites album."
+- "Context menu action on photo grid elements to copy a photo to the clipboard."
+- "Context menu action on photo grid elements to delete the asset from the app’s photo library."
+- "Context menu action on photo grid elements to duplicate the asset."
+- "Context menu action on photo grid elements to remove from the Favorites album."
+- "Context menu action on photo grid elements to start photo editing."
+- "Context menu option to add caption"
+- "Context was provided, will create recipe from recipe factory."
+- "Continue by choosing an inspiration\nfor the person in your image."
+- "Contradictory frame constraints specified."
+- "Could not copy %s to %s: %@"
+- "Could not create CGImageDestination"
+- "Could not create directory %s: %@"
+- "Could not create photo library with error: "
+- "Could not create regular expression for two or more spaces"
+- "Could not create thumbnail for picked photo library item"
+- "Could not decode image from recipe with error: %@"
+- "Could not delete previous photo library with error: %@"
+- "Could not encode image to recipe"
+- "Could not fetch asset export URL with error: %@"
+- "Could not finalize CGImageDestination"
+- "Could not generate image description : %@"
+- "Could not get CGImage from PlaygroundImage %s"
+- "Could not get recipe for asset with error: %@"
+- "Could not get recipe from asset with error: %@"
+- "Could not load GP Recipe with error: %@"
+- "Could not load GP recipe with error: %@"
+- "Could not mark directory %s as purgeable: %@"
+- "Could not open photo library after deleting the previous one with error: %@"
+- "Could not open photo library with error: %@"
+- "Could not pop if errorStack is empty."
+- "Could not retrieve data for picked photo library item"
+- "Could not write %s: %@"
+- "Couldn't build recipe from asset: %@"
+- "Couldn't build recipe from input provided"
+- "Couldn't get image data for writing with format %s"
+- "Crash/Hang/Data Loss"
+- "Create New Image"
+- "Create an image based on a photo of pets, nature, or food."
+- "CreationView Style"
+- "CreationViewStyle"
+- "Curated prompts are indexed"
+- "CuratedPrompts.LastImportedBundlePath"
+- "CuratedPrompts.bundle"
+- "Customize your image with suggested themes, costumes, accessories, and more."
+- "DEMO: Bumping image"
+- "DEMO: Bumping recipe"
+- "DEMO: Recipe path is %s"
+- "DONE_LABEL_TITLE"
+- "Darwin performance mitigation state: Throttle:%{bool}d Pause:%{bool}d"
+- "Default header title of the Image Conditioning Picker"
+- "DefaultBackgroundColor"
+- "Delegate is %s, calling imagePickerWillSelectNewlyCreatedAsset"
+- "Delegate is nil, will not donate"
+- "Delete ALL assets"
+- "Delete ALL characters"
+- "Delete ALL predictable seeds"
+- "DeleteAssetOperation: performSynchronously() is not implemented."
+- "Demo"
+- "Describe an image"
+- "Describe an image or add a suggestion from the list."
+- "Description in alert when saving an image after edition"
+- "Description of the first bulleted list item in the welcome screen."
+- "Description of the second bulleted list item in the welcome screen."
+- "Description of the third bulleted list item in the welcome screen."
+- "Description of the welcome onboarding screen."
+- "DescriptionFieldWithSuggestionsViewModelDelegate is nil"
+- "Details like hairstyle, accessories, and skin tone may vary."
+- "Did failed to localize '%s'."
+- "Did load asset with id: %s, type: %s"
+- "Did not find '%s.vfx'"
+- "Did not find 'default.metallib'"
+- "Did not find OB's Continue button."
+- "Did not find an available attractor."
+- "Did not find any composingViewModel"
+- "Did unload asset with id: %s"
+- "Disable VFX blob animation"
+- "Disable device compatibility check"
+- "Disable error view"
+- "Disable fake navigation bar"
+- "Disable floating bubble animation"
+- "Disable floating bubble heavy UI Resources"
+- "Disable image safety"
+- "Disable internal/seed feedback"
+- "Disable prompt safety"
+- "Disable region availability check"
+- "Display description of an image element (ex: in the undo menu)"
+- "Displayed suggested bubbles: %s"
+- "Division by zero"
+- "Division results in an overflow"
+- "Double-tap to add suggestion"
+- "Double-tap to preview images"
+- "Downloading support for Image\u00a0Playground…"
+- "Dropping bubbles %s to make space for persons"
+- "Duplicate feedback id: %s"
+- "Duplicate values for key: '"
+- "DuplicateAssetOperation: performSynchronously() is not implemented."
+- "EXITING APP after dismissing the enrollment sheet"
+- "EffectPosition init -  imageVFXRect: %s"
+- "EffectPosition normalizedDimensionsValue -  normalizedWidth: %f - normalizedHeight: %f - sizeDivisor: %f"
+- "EffectView only supports preloading vfx view. Please make sure the effect view model init is done with 'wantsToPreloadView: true'"
+- "EffectViewModel updateToState: %s"
+- "EmitterFlare1"
+- "EmitterFlare2"
+- "EmitterFlare3"
+- "EmitterFlare4"
+- "EmitterFlare5"
+- "EmitterFlare6"
+- "EmitterFlare7"
+- "EmitterFlare8"
+- "EmitterWand"
+- "EmojiYellowSkinTone"
+- "Enable Attractors"
+- "Enable Characters UI"
+- "Enable FacePicker Carousel UI"
+- "Enable Favorite / Unfavorite Feature"
+- "Enable Messages context summarization"
+- "Enable Note context summarization"
+- "Enable Personalization (Characters + Photos people)"
+- "Enable Photos People"
+- "Enable Raw Text context summarization"
+- "Enable Sketch style in Playground"
+- "Enable extra logging"
+- "Enable loading of predictable seeds"
+- "Enable predictable output mode"
+- "Enable rewrite in response to people hallucination in Image Playground"
+- "Enable rewrite in response to people hallucination in Magic Paper"
+- "Enable storing of predictable seeds"
+- "Enable subject priority sorting for curated bubble categories"
+- "Enable text embedding suggestion engine"
+- "Enable use of subject vs non-subject prompts for curated bubbles"
+- "Encountered Error"
+- "Enhancement"
+- "Error %@ authenticating with AppleConnect"
+- "Error %@ waiting for essential resources to become ready"
+- "Error authenticating with AppleConnect"
+- "Error clearing CFU: %@"
+- "Error communicating back with host: %@"
+- "Error dialog was presented while using "
+- "Error title when Apple Intelligence is not enabled"
+- "Evaluation error: %@"
+- "Evaluation response: %@"
+- "Excluded representations after people fetching: %s"
+- "Excluded representations before people fetching: %s"
+- "Experiment with new descriptions for a different Genmoji every time."
+- "Experiment with new descriptions for a different image every time."
+- "Experiment with new environments or styles to create playful combinations."
+- "Explanation for info screen when Mac is booted from an external drive"
+- "Explanation for info screen when Playground is disabled because of an unknown reason"
+- "Explanation for info screen when Playground is disabled because of an unknown reason or the status of Siri SAE Assets is unknown."
+- "Explanation for info screen when Playground is disabled because the user has not enabled Greymatter"
+- "Explanation for info screen when Playground is disabled by MDM / parental controls, or has a remotely disabled used case"
+- "Explanation for info screen when Playground is disabled on a shared device."
+- "Explanation for info screen when Playground is not available"
+- "Explanation for info screen when models are still initializing"
+- "Explanation for info screen when short on storage"
+- "Explanation for info screen when the Siri language of the device is not set"
+- "Explanation for info screen when the Siri language of the device is not supported in Playground"
+- "Explanation for info screen when the current language and Siri language are not the same"
+- "Explanation for info screen when the current language of the device is not supported in Playground"
+- "Explanation for info screen when the current region of the device is not supported in Playground"
+- "Explanation for info screen when the current region of the device is not supported in Playground (physical location)"
+- "Explanation for info screen when the user has to open the app to get the join waitlist screen"
+- "Explanation for info screens where models are not downloading due to network connectivity"
+- "Explanation for info screens where models are not downloading due to network connectivity in China"
+- "Extension has entered 'Quiet Period' (current state: %s)"
+- "Extension has finished 'Quiet Period' (current state: %s)"
+- "Extension state did change (current state: %s)"
+- "ExtensionIdentifiers"
+- "FacePicker - Needs re-generation due to model update, previous diffusionModelSpecification: %s"
+- "FacePickerCarouselDismissed"
+- "FacePickerCarouselFacesUpdated"
+- "FacePickerCarouselPreviewLoaded"
+- "FacePickerCarouselUpdatingFaces"
+- "Failed build donation"
+- "Failed to access user's photo library while fetching persons"
+- "Failed to access visual understanding service needed to check the availability of personalization for person with identifier: %s"
+- "Failed to access visual understanding service needed to fetch faces for person identifier: %s"
+- "Failed to access visual understanding service needed to fetch the me person"
+- "Failed to access visual understanding service needed to select the preferred observation for person identifier: %s"
+- "Failed to acquire model manager policy assertion: %@"
+- "Failed to build generatedContent."
+- "Failed to call presented on donation with error: %@"
+- "Failed to compare diffusion models of cached face image with current models,  error: %s"
+- "Failed to convert drawingRecipe to GenerationRecipe.DrawOnImageRecipe"
+- "Failed to create GPGenerationRecipeData with GenerationRecipe. %@"
+- "Failed to create a style with raw value "
+- "Failed to create image from file url %s"
+- "Failed to decode recipe with error: %s"
+- "Failed to delete all assetes with error: %@"
+- "Failed to delete asset with error: %@"
+- "Failed to delete assets with error: %@"
+- "Failed to delete generated faces archive from face picker cache with error: %s"
+- "Failed to donate with error: %@"
+- "Failed to encode recipe when saving asset"
+- "Failed to favorite asset: %s error: %@"
+- "Failed to fetch PHFace from SystemPhotoLibrary"
+- "Failed to fetch UUID for person identifier: %s"
+- "Failed to fetch VU entity for person identifier: %s"
+- "Failed to fetch asset for faceID: %s"
+- "Failed to fetch asset for its associated PHFace"
+- "Failed to fetch asset with local identifier: %s"
+- "Failed to fetch assets grouped by face UUID for key faces: %s corresponding to person identifier: %s"
+- "Failed to fetch face corresponding to identifier: %s"
+- "Failed to fetch face corresponding to selected face identifier for person identifier: %s"
+- "Failed to fetch key faces for VU observations: %s corresponding to person identifier: %s"
+- "Failed to find a pair of PHPerson and PHFace from an imported asset with identifier: %s"
+- "Failed to find preview by current ID"
+- "Failed to generate face or throw error %s-%s."
+- "Failed to generate face preview with error: %@"
+- "Failed to get a cropped cgImage."
+- "Failed to get loadedPreviewImage()?.source for %s"
+- "Failed to get maximum alpha."
+- "Failed to get preview's playgroundImage - error: %@"
+- "Failed to get recipe for asset with error: %s"
+- "Failed to get recipe or GenerationRecipeData for %s with error: %@"
+- "Failed to get shareable image URL"
+- "Failed to get suggested curated prompts for string: %s with error: %s"
+- "Failed to get the context."
+- "Failed to import image with error: %@"
+- "Failed to initialize system photo library with error %@"
+- "Failed to launch Tap-to-Radar"
+- "Failed to load 'EmitterFlare%ld'"
+- "Failed to load SceneManager"
+- "Failed to load assetNode"
+- "Failed to load emitterWandStars"
+- "Failed to load emmitter"
+- "Failed to load generated face from face picker cache with error: %s"
+- "Failed to load plane"
+- "Failed to load planeMaterial"
+- "Failed to prewarm face %s-%s: %@"
+- "Failed to read demo image at path "
+- "Failed to read vetted image at path "
+- "Failed to report people key faces usage to Duet with error: %s"
+- "Failed to restore the initially selected key face for the person upon cancelling from the face picker"
+- "Failed to retrieve recipe from context or received nil recipe."
+- "Failed to rewrite prompt '%s' with '%s', error: %@."
+- "Failed to rewrite prompt: %s with error: %s"
+- "Failed to select the preferred face for person identified in imported asset with identifier: %s"
+- "Failed to set the selected key face for the person upon dismissing the face picker"
+- "Failed to signal generation %s started to BGSystemTaskScheduler: %@"
+- "Failed to signal generation %s stopped to BGSystemTaskScheduler: %@"
+- "Failed to store character: %@"
+- "Failed to store generated face from face picker cache with error: %s"
+- "Failed to store prompt embeddings"
+- "Failed to write to pasteboard."
+- "FavoriteAssetOperation: performSynchronously() is not implemented."
+- "Feature (New)"
+- "Feedback donation failed: %{private}s"
+- "FeedbackFrameworks"
+- "Fetched %s curated prompt as suggestions"
+- "Fetched application record for bundleID: %s Localized name: %s"
+- "Fetched suggested people: %s"
+- "Fetching current GMS availability"
+- "Filename for a generated image exported via the ShareSheet."
+- "Filtering out person with no face suitable for generation, person id: %s"
+- "Final image generation failed with error: "
+- "Finding People…"
+- "FinishLaunchTestAction"
+- "Finished generating face %s-%s (%f seconds)."
+- "Finished generation"
+- "Finished generation of text embedding for raw text"
+- "Finished generation of text embeddings for curated prompts"
+- "Finished prewarming of faces (%f seconds)."
+- "Found named entities in concatenated prompt but personalization is not supported"
+- "Found persons in suggestions: %s"
+- "Found preview with id: %s"
+- "GENERATED_IMAGE_ENTITY_DISPLAY_TEXT_REPRESENTATION"
+- "GENERATE_IMAGE_INTENT_DEFAULT_IMAGE_NAME"
+- "GENERATE_IMAGE_INTENT_GENERATION_FAILED"
+- "GENERATE_IMAGE_INTENT_IMAGE_NAME_PARAM"
+- "GENERATE_IMAGE_INTENT_IMAGE_PARAM"
+- "GENERATE_IMAGE_INTENT_INVALID_CONFIGURATION"
+- "GENERATE_IMAGE_INTENT_NEEDS_PROMPT"
+- "GENERATE_IMAGE_INTENT_OUTPUT_STYLE_PARAM"
+- "GENERATE_IMAGE_INTENT_PROMPT_PARAM"
+- "GENERATE_IMAGE_INTENT_SAVING_CONFIRMATION"
+- "GENERATE_IMAGE_INTENT_TITLE"
+- "GENERATE_IMAGE_INTENT_UNAVAILABLE_DATA"
+- "GP Photo Library already exists"
+- "GP Photo Library could not be opened or does not exists, trying to create a new one."
+- "GPAppleConnectAuthenticating"
+- "GPAppleConnectTokenProvider"
+- "GPDataConversionUtils"
+- "GPImageAndFormat"
+- "GPImageFormat"
+- "GPInProcessGenerationProgressViewController"
+- "GPMagicPaperState"
+- "GPUIExtensionState( "
+- "GPnew120"
+- "Gender - Unspecified"
+- "Gender – Female"
+- "Gender – Male"
+- "Gender – Other"
+- "Generated image from image source requires personalization, which is not supported"
+- "Generated images don't sync across my devices"
+- "Generated preview was not provided, will lookup in previews by visiblePreviewID."
+- "Generated preview was provided"
+- "Generating Previews"
+- "Generation failed: %@"
+- "Generation has been cancelled."
+- "Generation is taking too long / doesn't complete"
+- "Generative Model Systems"
+- "Generative Playground"
+- "Generative Tool Preview"
+- "Generative Tool Selection"
+- "GenerativePlayground"
+- "GenerativePlaygroundAppPhotoLibrary"
+- "Generative_Playground"
+- "Generic error message for when an error occured while manipulating an image"
+- "Go to Settings and allow Camera usage for this app."
+- "Handling current task event: %s"
+- "Handling task event: %s"
+- "Heavy UI Resources"
+- "Help improve Apple Intelligence by creating your own images and sharing your feedback."
+- "Hide Tap-to-Radar icon"
+- "Hide person bubble"
+- "HomeAnimationCoordinator"
+- "HomeKitPrimaryResident"
+- "HomePod"
+- "I Didn't Try"
+- "I don't recognize the person"
+- "IMAGE_DESCRIPTION_VIEW_ADD_CAPTION_TITLE"
+- "IMG_CONDITIONING_PICKER_HEADER_DEFAULT_TITLE"
+- "If a Genmoji isn’t quite right, change the details in your description."
+- "If a Genmoji isn’t quite right, you can change your description. [Learn more…](com.apple.ImagePlayground.open-tips-sheet)"
+- "If an image isn’t quite right, change the details in your description."
+- "If an image isn’t quite right, you can change your description. [Learn more…](com.apple.ImagePlayground.open-tips-sheet)"
+- "Ignoring cancelled task event: %s"
+- "Image Generator Configured"
+- "Image Generator Reconfigured"
+- "Image Playground"
+- "Image Playground is not available because you have started your Mac from an external drive."
+- "Image Playground is not available in your country or region."
+- "Image Playground is not available in your region."
+- "Image Playground is not available on Apple Vision Pro."
+- "Image Playground is not available when the Siri language is not set."
+- "Image Playground is not available when your Apple Vision Pro language is set to "
+- "Image Playground is not available when your Mac language is set to "
+- "Image Playground is not available when your Siri language is set to "
+- "Image Playground is not available when your device language is set to "
+- "Image Playground is not available when your iPad language is set to "
+- "Image Playground is not available when your iPhone language is set to "
+- "Image Playground is only available when your Apple Vision Pro and Siri language are the same."
+- "Image Playground is only available when your Mac and Siri language are the same."
+- "Image Playground is only available when your device and Siri language are the same."
+- "Image Playground is only available when your iPad and Siri language are the same."
+- "Image Playground is only available when your iPhone and Siri language are the same."
+- "Image Playground is unavailable on shared devices."
+- "Image Playground may create unexpected results."
+- "Image Wand may create unexpected results."
+- "Image caption API returned without producing a result or an error!"
+- "Image caption error: %s"
+- "Image data is nil."
+- "Image doesn't align with my input"
+- "Image doesn't look good"
+- "Image generation ended"
+- "Image is empty (transparent)."
+- "Image request cancelled with id: %s, type: %s"
+- "Image request failed with id: %s, type: %s, error: %@"
+- "Image size is empty."
+- "ImagePlayground.CameraPickerCoordinator"
+- "ImagePlayground.Coordinator"
+- "ImagePlayground.GPAppleConnectTokenProvider_Swift"
+- "ImagePlayground.GPVFXView"
+- "ImagePlayground.GenerativePlaygroundPhotoLibrary"
+- "ImagePlayground.ImageAndFormat"
+- "ImagePlayground.ImageFormat"
+- "ImagePlayground.KeyboardEventListener"
+- "ImagePlayground.NativeView"
+- "ImagePlayground.PhotoAssetItemProviderWriting"
+- "ImagePlayground.VFXSceneManager"
+- "ImagePlayground.ViewController"
+- "ImagePlayground._PeopleRetrieval"
+- "ImagePlayground/AppStateMonitor.swift"
+- "ImagePlayground/CharacterStorageManager.swift"
+- "ImagePlayground/ComposingViewModel.swift"
+- "ImagePlayground/CuratedPromptsEmbeddingStorageManager.swift"
+- "ImagePlayground/DescriptionFieldWithSuggestionsViewModel.swift"
+- "ImagePlayground/EffectView.swift"
+- "ImagePlayground/FrameworkViewRepresentable.swift"
+- "ImagePlayground/GeneratedImageEntity+Share.swift"
+- "ImagePlayground/GenerativeModelsUnavailabilityDisplayable.swift"
+- "ImagePlayground/GenerativePlayground+GP.swift"
+- "ImagePlayground/GenerativePlaygroundPhotoLibrary.swift"
+- "ImagePlayground/ImageDescriptionView.swift"
+- "ImagePlayground/ImageGenerationManager.swift"
+- "ImagePlayground/ImageGenerationViewController.swift"
+- "ImagePlayground/ImagePredictableOutput.swift"
+- "ImagePlayground/ImagePredictableSeed.swift"
+- "ImagePlayground/LandscapeOnlyContainerView.swift"
+- "ImagePlayground/MagicButtonsBarViewModel.swift"
+- "ImagePlayground/OnDeviceImageGenerator.swift"
+- "ImagePlayground/PerformanceMitigationNotifier.swift"
+- "ImagePlayground/PhotoAsset+NSItemProviderWriting.swift"
+- "ImagePlayground/PhotoGridView.swift"
+- "ImagePlayground/RemoteViewService.swift"
+- "ImagePlayground/SessionUndoManager.swift"
+- "ImagePlayground/String+Trim.swift"
+- "ImagePlayground/TapToRadarManager.swift"
+- "ImagePlayground/UnavailableOrComposingView.swift"
+- "ImagePlayground/UndoableOperation.swift"
+- "ImagePlayground/VFXNodes.swift"
+- "ImagePlayground/VFXSceneManager.swift"
+- "ImagePlayground/VFXViewRepresentable.swift"
+- "ImagePlayground_BETA_Icon"
+- "ImagePlayground_Private.GPInProcessGenerationProgressViewController"
+- "ImagePlayground_Private.GPInProcessImageEditionViewController"
+- "ImagePlayground_Private.GPInProcessImagePickerViewController"
+- "ImagePlayground_Private.GPInProcessMagicPaperViewController"
+- "IncludeDevicePrefixInTitle"
+- "Incorrect actor executor assumption; Expected same executor as "
+- "Incorrect image suffix for writing image (expected one in %s, got %s)"
+- "InferenceProviderService"
+- "Inferred person name."
+- "Initializing photo library"
+- "Insufficient space allocated to copy string contents"
+- "Language not supported"
+- "Layout / animation issue"
+- "LoadGPRecipeInContextOperation: performSynchronously() is not implemented."
+- "LoadRecipeInContextOperation: performSynchronously() is not implemented."
+- "Loaded curated prompts bundle in %f ms"
+- "Made donation"
+- "MagicButtonsBarViewModelDelegate is nil"
+- "MagicEffectViewModel - isIdle: %{bool}d"
+- "MagicPaperPersonalization"
+- "MagicPaperRewrite"
+- "MagicViewController did layout view: %s"
+- "MagicViewDismissalButtonBackgroundColor"
+- "MagicViewModel - contextDidChange - didAppear: %{bool}d - context.isEmpty: %{bool}d - context.canGenerate: %{bool}d"
+- "MagicViewModel - reset()"
+- "MagicViewModel::prewarm"
+- "Max word count to enable rewrite of user input: "
+- "May contain sensitive information, such as names, suggestions, and description."
+- "Medium Dark Skin Tone"
+- "Medium Light Skin Tone"
+- "Medium Skin Tone"
+- "Message to inform the user that a text cannot be used to generate if a person is selected"
+- "Message to inform the user that generation failed because of the current system state"
+- "Message to inform the user that image generation requires a prompt."
+- "Message to inform the user that image generation with a sketch requires a prompt."
+- "Message to inform the user that personalization is unavailable for the selected person."
+- "Message to inform the user that the Image Wand is still in beta while in composing mode"
+- "Message to inform the user that the app is still in beta while in composing mode"
+- "Message to inform the user that the current parameters cannot be used to generate an image"
+- "Message to inform the user that the current parameters do require a person to be personalized"
+- "Message to inform the user that the face in the imported image is too small and cannot be used for generation"
+- "Message to inform the user that the generation can only configure one person"
+- "Message to inform the user that the generation can only personalize one person"
+- "Message to inform the user that the generation can only use either image or person and not both"
+- "Message to inform the user that the generation can only use imported images containing at most a single face"
+- "Message to inform the user that the generation can only use one imported image"
+- "Message to inform the user that the generation can only use one style"
+- "Message to inform the user that the generation cannot have more bubbles added"
+- "Message to inform the user that the imported cannot be used for generation"
+- "Message to inform the user that the imported image would need personalization but is not supported yet"
+- "Message to inform the user that the language used in the prompt is not supported"
+- "Message to inform the user that the people generation is not supported"
+- "Missing asset in asset catalog named: %s"
+- "Missing asset in asset catalog named: person.face.smiling"
+- "Missing requirements to fetch the generated face"
+- "Missing requirements to store the generated face"
+- "Mockup"
+- "Model / Asset download issue"
+- "Model specification"
+- "Modify Favorites"
+- "More Storage Required"
+- "Multiple faces detected in generated image"
+- "NSCopying"
+- "NSItemProviderWriting"
+- "Need to configure image generator before generating"
+- "Need to update %ld bubbles to fit persons"
+- "Needs to reindex curated prompts"
+- "New suggested bubbles: %s"
+- "No VU observation found for face in asset with identifier %s while trying to update person key face using imported image"
+- "No angle for bubble"
+- "No asset for identifier %s while trying to update person key face using imported image"
+- "No assetResource linked to the associated PHFace with resource type: %ld"
+- "No attractor color for bubble"
+- "No binding for name %s"
+- "No face found in asset with identifier %s while trying to update person key face using imported image"
+- "No image data found when building FeedbackInput"
+- "No image received"
+- "No images in the demo folder. Please add images to the specified folder."
+- "No images in the vetted folder. Please add images to the specified folder."
+- "No inferred device owner"
+- "No me person for inferred device owner"
+- "No node for binding %s"
+- "No person for contact identifier: %s"
+- "No person for uuid %s"
+- "No person found in asset with identifier %s while trying to update person key face using imported image"
+- "No privateFileURL for resource: %s"
+- "No user selection of preferred face for person identifier: %s"
+- "None of the rewritten prompts were valid, reassigning the original one."
+- "Not Applicable"
+- "Not enough persons in suggestions (current: %ld, expected: %ld)"
+- "Not executed due to current system state, try again later"
+- "Not signalling new task to BGSystemTaskScheduler because batches %s are still in progress"
+- "Not signalling task end to BGSystemTaskScheduler because batches %s are still in progress"
+- "Number from Messages context: "
+- "Number of days: "
+- "ONDEVICE UNKNOWN final generation event"
+- "ONDEVICE UNKNOWN generation event"
+- "ONDEVICE UNKNOWN prompt assignment event for prompt '%s'"
+- "ONDEVICE accepted prompt: %s"
+- "ONDEVICE ambiguities: %s for prompt: %s"
+- "ONDEVICE complete"
+- "ONDEVICE did generate %ld previews"
+- "ONDEVICE did generate 1 emoji preview"
+- "ONDEVICE evaluating prompt: %s"
+- "ONDEVICE exited generation task"
+- "ONDEVICE failed assigning prompt: %s with error: %s"
+- "ONDEVICE final generation complete"
+- "ONDEVICE final generation failed with error: %@ (%s)"
+- "ONDEVICE final generation progress: %ld/%ld"
+- "ONDEVICE found concepts: %s in prompt: %s"
+- "ONDEVICE generated one final image"
+- "ONDEVICE generated one preview"
+- "ONDEVICE generation failed with error: %@ (%s)"
+- "ONDEVICE generation progress: %ld/%ld"
+- "ONDEVICE generation was cancelled"
+- "ONDEVICE picking the first concept to resolve ambiguity with concepts: %s"
+- "ONDEVICE starting final generation"
+- "ONDEVICE starting generation"
+- "ONDEVICE will generate previews %s"
+- "OS_dispatch_source"
+- "OS_dispatch_source_memorypressure"
+- "OS_dispatch_source_timer"
+- "ObservableDebugSettings"
+- "Odd details, limbs, eyes, etc."
+- "On Device"
+- "Once downloaded, this Apple Vision Pro will be able to use Image Playground."
+- "Once downloaded, this Mac will be able to use Image Playground."
+- "Once downloaded, this device will be able to use Image Playground."
+- "Once downloaded, this iPad will be able to use Image Playground."
+- "Once downloaded, this iPhone will be able to use Image Playground."
+- "Only describe one person "
+- "Open the Image Playground app to join the Image Creation waitlist"
+- "Optional<BubbleAttractorShadowProperties>"
+- "Optional<CGFloat>"
+- "Optional<ComposingAnimationCoordinator>"
+- "Optional<GPUIExtensionState>"
+- "Optional<ImageGenerationPersonalizationPresentationDelegate>"
+- "Optional<Set<PresentationDetent>>"
+- "Optional<String>"
+- "Optional<UserInterfaceSizeClass>"
+- "Other Bug"
+- "PHOTO_ASSET_VIEW_ADD_CAPTION_CONTEXT_BUTTON"
+- "PHPhotoLibraryChangeObserver"
+- "PageControlSelectionColor"
+- "Pause VFX blob animation (prevent continuous rendering)"
+- "People Picker Alternate UIs"
+- "People Retrieval Error: %s"
+- "People in messages suggestions"
+- "People in suggestions"
+- "People not supported"
+- "PeoplePickerAppeared"
+- "PeoplePickerDisappeared"
+- "PeoplePickerGridAppeared"
+- "PeoplePickerGridUpdated"
+- "PeoplePickerItemSelected"
+- "PeoplePickerPickerRequested"
+- "Performance"
+- "Personalization Required"
+- "Personalize an Image"
+- "Persons present: %s"
+- "Photo asset is nil"
+- "Photo library is ready with %ld assets"
+- "Photo unavailable. Try again later."
+- "PhotoAssetView init for image uuid: %s"
+- "PhotoAssetView-DetailView"
+- "PhotoAssetView-PhotoGridElementView"
+- "PhotoLibraryWrite"
+- "Photos Backend (New Bugs)"
+- "Photos app is locked. Updating sheet presentation to show sheild UI"
+- "Photos app is not locked. No need to show shield UI"
+- "PhotosPersonAsset"
+- "PhotosResultHandlerQueue"
+- "PlaneBlob"
+- "Playground cannot be used on this device"
+- "Playground image is nil."
+- "PlaygroundImage's cgImage is nil."
+- "PlaygroundImage-"
+- "PlaygroundImageDataQueue"
+- "Power"
+- "PresentationContentPopoverFrame"
+- "PresentationKind"
+- "Preview %s has not been shown to the user yet."
+- "Preview image generation failed with error: "
+- "Preview image has no image content"
+- "Preview is nil."
+- "PreviewTransition-"
+- "Prewarming VGF done."
+- "Prewarming VGF."
+- "ProductVersion"
+- "Prompt '%s' generated from rewriting prompt '%s' contains people hallucinations, trying with another one."
+- "Prompt '%s' generated from rewriting prompt '%s' is valid."
+- "Prompt for the text field used to compose text influencing image generation"
+- "Prompt imported"
+- "Prompt suggestions menu section title"
+- "PromptConceptAnalyzer: UNKNOWN prompt assignment event for prompt '%s'"
+- "PromptConceptAnalyzer: accepted prompt '%s'"
+- "PromptConceptAnalyzer: ambiguities: %s for prompt '%s'"
+- "PromptConceptAnalyzer: ambiguity with concepts: %s"
+- "PromptConceptAnalyzer: back from VGF for prompt assignment %s"
+- "PromptConceptAnalyzer: back from VGF looking for person indications in %s"
+- "PromptConceptAnalyzer: calling out to VGF for prompt assignment %s"
+- "PromptConceptAnalyzer: calling out to VGF looking for person indications in %s"
+- "PromptConceptAnalyzer: evaluating prompt '%s'"
+- "PromptConceptAnalyzer: failed to assign prompt with error: %@"
+- "PromptConceptAnalyzer: found concepts: %s in prompt '%s'"
+- "PromptConceptAnalyzer: found generic person: '%s'."
+- "PromptConceptAnalyzer: found named entities but personalization is disabled, rejecting prompt"
+- "PromptConceptAnalyzer: found person indications but personalization is disabled, rejecting prompt"
+- "PromptConceptAnalyzer: rejected '%s' with error: %@"
+- "Purge face picker cache (runs in the background and takes a long time, close the app and come back later)"
+- "Q24@0:8@\"UINavigationController\"16"
+- "Q24@0:8@16"
+- "Rarely"
+- "Recipe was directly provided, using that instead of context."
+- "Remaining suggested after before people fetching: %s"
+- "Remaining suggested bubbles before people fetching: %s"
+- "RemoteAttachments"
+- "RemoteDeviceSelections"
+- "RemoveImageConditioningRepresentationOperation: performSynchronously() is not implemented."
+- "Report a Concern"
+- "Request face generation %s-%s."
+- "Reset - we are at batch index %s"
+- "Reset curated prompts database"
+- "ResetContextOperation: performSynchronously() is not implemented."
+- "Rewritten prompts for %s: %s -> %s"
+- "SIML Field Feedback Secured Data"
+- "Save as Duplicate"
+- "Save images imported from camera"
+- "SceneManager is loaded"
+- "SceneManager is loading…"
+- "ScrollDetailCarousel"
+- "ScrollSuggestions"
+- "Security"
+- "Serious Bug"
+- "Server"
+- "Setting updateWandPosition from %s to %s"
+- "Show Debug Settings"
+- "ShowStylesButton"
+- "Signalled generation %s started to BGSystemTaskScheduler"
+- "Signalled generation %s stopped to BGSystemTaskScheduler"
+- "Sketch"
+- "Skipping active representations update"
+- "Skipping context update"
+- "Skipping donation for this generation, carousel already contains max items"
+- "Skipping duplicate representation update"
+- "Skipping replace representaiton update"
+- "Someone is selected: %{bool}d, suggested people in people retrieval is empty: %{bool}d"
+- "Sometimes"
+- "Start generating face %s-%s."
+- "Start prewarming of faces."
+- "Start with a few words or a phrase\n that best describes this image."
+- "Start with a few words or a phrase\n that best describes your idea"
+- "Started generation of text embedding for raw text"
+- "Started generation of text embeddings for curated prompts"
+- "Still missing %ld bubbles in the suggestions"
+- "String representation of lightest skin tone"
+- "String representation of skin tone that is one darker than Skin Tone 1"
+- "String representation of skin tone that is one darker than Skin Tone 2"
+- "String representation of skin tone that is one darker than Skin Tone 3"
+- "String representation of skin tone that is one darker than Skin Tone 4"
+- "String representation of the 'Bright Yellow' color circle in the Genmoji People Picker"
+- "String representation of the 'Dark Skin Tone' color circle in the Genmoji People Picker"
+- "String representation of the 'Light Skin Tone' color circle in the Genmoji People Picker"
+- "String representation of the 'Medium Dark Skin Tone' color circle in the Genmoji People Picker"
+- "String representation of the 'Medium Light Skin Tone' color circle in the Genmoji People Picker"
+- "String representation of the 'Medium Skin Tone' color circle in the Genmoji People Picker"
+- "Suggested"
+- "Suggested Bubbles"
+- "Suggested Bubbles:"
+- "Summarization model detected unsafe context"
+- "Sunglasses Sunny Adventure Sunrise Party"
+- "Swift/Array.swift"
+- "Swift/ContiguousArrayBuffer.swift"
+- "Swift/Dictionary.swift"
+- "Swift/IntegerTypes.swift"
+- "Swift/NativeDictionary.swift"
+- "Swift/StringTesting.swift"
+- "Swift/StringUTF8View.swift"
+- "Swift/UnsafeBufferPointer.swift"
+- "Swift/UnsafePointer.swift"
+- "Swift/UnsafeRawPointer.swift"
+- "SwiftUI incoherency: a Scroll view with some elements (%ld elements) could not have a nil position."
+- "T@\"<GPAppleConnectAuthenticating>\",&,N,V_authenticatingProtocol"
+- "T@\"<GPImageEditionViewControllerDelegate>\",N,W,Vdelegate"
+- "T@\"<GPInProcessMagicPaperViewControllerDelegate>\",N,W,Vdelegate"
+- "T@\"GPAppleConnectTokenProvider\",N,&,VappleConnectTokenProvider"
+- "T@\"GPRecipe\",N,&"
+- "T@\"NSArray\",?,R,C,N"
+- "T@\"NSArray\",N,R"
+- "T@\"NSArray\",R,C,N"
+- "T@\"NSString\",R,N,V_token"
+- "T@\"UIImage\",N,&"
+- "T@\"UITraitCollection\",N,R"
+- "T@\"UIViewController\",N,R"
+- "TB,N,V_isEditing"
+- "Tap to remove suggestion"
+- "Tap-to-Radar isn’t supported on this platform"
+- "Task"
+- "Td,N,VtransitionToImageDuration"
+- "Text for the pill informing the user this is a beta version of the app"
+- "Tf,N"
+- "Tf,N,Vprogress"
+- "The face in the conditioning image is too small"
+- "The operation could not finish"
+- "The person or appearance you select will be the starting point for your new image."
+- "The person or emoji you select will be the starting point for your new Genmoji."
+- "The selected style is not available"
+- "There is no such thing as generating a final image from a preview for the emoji style"
+- "This application should not have been installed as this device does not support it."
+- "This device does not support on-device image generation."
+- "Tips for Creating\nBetter Genmoji"
+- "Tips for Creating\nBetter Images"
+- "Tips for Creating Better Genmoji"
+- "Tips for Creating Better Images"
+- "Title for info screen whenPlayground is not available"
+- "Title for the action to acknowledge and dismiss an alert."
+- "Title for the cancel button (Magic Papaer Image Generation)"
+- "Title for the confirmation dialog presented when deleting an image from the library"
+- "Title for the done button"
+- "Title for the done button (Magic Paper Image Generation)"
+- "Title of alert when saving an image after edition"
+- "Title of the action button to acknowledge information inside Actionable Pill"
+- "Title of the continue button in the welcome screen"
+- "Title of the first bulleted list item in the welcome screen."
+- "Title of the second bulleted list item in the welcome screen."
+- "Title of the third bulleted list item in the welcome screen."
+- "Title of the toolbar button on the photo grid screen used to switch from showing All assets from the app’s photo library to showing only Favorites."
+- "Title of the toolbar button on the photo grid screen used to switch from showing Favorite assets from the app’s photo library to showing All of them."
+- "Title of the trailing item of the Image Conditioning Picker"
+- "Title of the undo action button inside Actionable Pill"
+- "Title of the welcome onboarding screen."
+- "Title when models are not downloaded yet"
+- "Title when models cannot download because of storage"
+- "To download support for Image Playground,  free up storage on your device in Settings."
+- "To download support for Image Playground, free up storage on your Apple Vision Pro in Settings."
+- "To download support for Image Playground, free up storage on your Mac in System Settings."
+- "To download support for Image Playground, free up storage on your iPad in Settings."
+- "To download support for Image Playground, free up storage on your iPhone in Settings."
+- "To report feedback with image quality, please use the thumbs up / down under the image."
+- "To resume the download, connect to WLAN."
+- "To resume the download, connect to Wi-Fi."
+- "To use Image Playground, rotate iPhone to portrait."
+- "ToolbarGenerateButton"
+- "Tried to initialise CreationViewStyle from unknown GPStyle: %ld. Fallback on GenerativePlayground"
+- "Tried to log more than 8 bubbles in feedback auxiliary metrics"
+- "Try Different Combinations"
+- "Try Different Words"
+- "Try a photo with one person"
+- "Try a photo with the face more in view."
+- "Try fewer concepts"
+- "Trying to forward preview generation with no image"
+- "Trying to rewrite prompt"
+- "Turn on Apple Intelligence to create images in Image Playground."
+- "T{CGRect={CGPoint=dd}{CGSize=dd}},N"
+- "T{CGRect={CGPoint=dd}{CGSize=dd}},N,V_frame"
+- "UI/Usability"
+- "UIImagePickerControllerDelegate"
+- "UINavigationControllerDelegate"
+- "URLForDirectory:inDomain:appropriateForURL:create:error:"
+- "URLForResource:withExtension:"
+- "Unable"
+- "Unable to add person"
+- "Unable to build generated face archive from image with error: %s"
+- "Unable to construct URL from query items"
+- "Unable to delete stored seeds with error: %s"
+- "Unable to fetch app icon for bundleID: %s. Returning generic icon."
+- "Unable to fetch application record for bundleID: %s error: %s"
+- "Unable to fetch contact for handle string from context: %s"
+- "Unable to find PHPerson for person named: %s"
+- "Unable to generate an image with\n this description. Images involving\n people are not supported."
+- "Unable to generate embedding"
+- "Unable to generate embedding for the string: %@"
+- "Unable to generate images"
+- "Unable to load VFX view"
+- "Unable to load asset for recipe at url: %s withe error: %s"
+- "Unable to load assets for recipe at url: %s withe error: %s"
+- "Unable to load character at url: %s with error: %s"
+- "Unable to open Tap-to-Radar draft with error: %s"
+- "Unable to store seed with error: %s"
+- "Unable to summarize Messages context with error: %s - domain: %s - code: %ld"
+- "Unable to summarize Notes context with error: %s - domain: %s - code: %ld. Falling back to returning the original text."
+- "Unable to summarize text context with error: %s - domain: %s - code: %ld. Falling back to returning the original text."
+- "Unable to summarize the context, combined text is less than %ld words. Falling back to the original text."
+- "Unable to summarize the text which is less than %ld words. Falling back to the original text."
+- "Unable to use that description"
+- "Unable to use that description."
+- "Unable to use that photo."
+- "Unbalanced ask for end of animation."
+- "UndoManager is nil when trying to register an undo operation"
+- "Unexpected ImageGenerationPerson configuration"
+- "Unexpected ImageGenerationPerson.SkinTone: %s"
+- "Unexpected empty NSLocale._deviceLanguage."
+- "Unexpectedly found nil while unwrapping an Optional value"
+- "Unsafe/inappropriate/offensive content"
+- "UnsafeMutableBufferPointer with negative count"
+- "UnsafeMutablePointer.initialize overlapping range"
+- "UnsafeMutablePointer.initialize with negative count"
+- "UnsafeMutablePointer.moveInitialize with negative count"
+- "UnsafeMutableRawPointer.initializeMemory overlapping range"
+- "Unsupported imported image"
+- "Unsupported summarization"
+- "Upscaling failed with error: %s"
+- "Use Your Imagination"
+- "Use fixed generation seed"
+- "Used suggested bubbles for the update: %s"
+- "VFX view disabled"
+- "VFXFloat3Value"
+- "VFXWorldRendererDelegate"
+- "Vetted"
+- "Vetted image path: %s"
+- "View Controller title for Add caption"
+- "Visible index index: %ld - VFX attractor - radialLayoutAngleForBubble: %s - angle: %f - showAttractors: %{bool}d"
+- "Vision"
+- "VisionPro"
+- "Visual Generation Framework"
+- "WARNING: bright yellow emoji color should never be showin in the person picker"
+- "Was onboarding ever shown (turn off to show it again)"
+- "Was provided asset type, will build data"
+- "Watch"
+- "We can not route from composing to composing"
+- "Will load image with id: %s, type: %s"
+- "Will refresh bubble suggestions, resetOld: %{bool}d"
+- "XCTestConfigurationFilePath"
+- "You can save changes to the existing image or choose to save as a duplicate."
+- "Your Image Playground library is empty."
+- "[Animation View] Can't cancel generation"
+- "[Animation View] Generation is taking too long / doesn't complete"
+- "[Can't import or take a photo]"
+- "[Do not file a Radar] Use of Personalization and text prompt together is disabled"
+- "[Encountered Error] "
+- "[Engineering UI]"
+- "[Error] Interval already ended"
+- "[GP Library sync] Generated images don't sync across my devices"
+- "[Generation issue]"
+- "[INTERNAL ONLY] couldNotGetOriginalAdjustmentResource\nCannot edit old images because of a DB format change.\n\nThis is expected, please do not file a bug."
+- "[Input/Output Alignment]"
+- "[Personalization] I don't recognize the person"
+- "[Safety] Unsafe/inappropriate/offensive content"
+- "[Structural Integrity] Odd details:"
+- "[Visual Quality] Image doesn't look good"
+- "[[Generation issue] Asset download"
+- "_TtC15ImagePlayground10HTTPClient"
+- "_TtC15ImagePlayground11FaceFetcher"
+- "_TtC15ImagePlayground12GPAlertStack"
+- "_TtC15ImagePlayground12SiriServices"
+- "_TtC15ImagePlayground13DebugSettings"
+- "_TtC15ImagePlayground13FeedbackInput"
+- "_TtC15ImagePlayground13PeopleRecency"
+- "_TtC15ImagePlayground14ErrorViewModel"
+- "_TtC15ImagePlayground14MagicViewModel"
+- "_TtC15ImagePlayground14_PersonFetcher"
+- "_TtC15ImagePlayground15AppStateMonitor"
+- "_TtC15ImagePlayground15CreationContext"
+- "_TtC15ImagePlayground15DetailViewModel"
+- "_TtC15ImagePlayground15EffectViewModel"
+- "_TtC15ImagePlayground15PromptViewModel"
+- "_TtC15ImagePlayground15ServicesFetcher"
+- "_TtC15ImagePlayground15ServicesStartup"
+- "_TtC15ImagePlayground15VFXSceneManager"
+- "_TtC15ImagePlayground16_FeedbackManager"
+- "_TtC15ImagePlayground16_PeopleRetrieval"
+- "_TtC15ImagePlayground17NavigationManager"
+- "_TtC15ImagePlayground17PersonFaceGallery"
+- "_TtC15ImagePlayground17PreviewsViewModel"
+- "_TtC15ImagePlayground17TapToRadarManager"
+- "_TtC15ImagePlayground18ComposingViewModel"
+- "_TtC15ImagePlayground18EmojiImageRenderer"
+- "_TtC15ImagePlayground18GPUIExtensionState"
+- "_TtC15ImagePlayground18GPVFXViewObservers"
+- "_TtC15ImagePlayground18ImageKeyFaceLoader"
+- "_TtC15ImagePlayground18PhotoGridViewModel"
+- "_TtC15ImagePlayground18SessionUndoManager"
+- "_TtC15ImagePlayground19AppearanceViewModel"
+- "_TtC15ImagePlayground19CameraAuthViewModel"
+- "_TtC15ImagePlayground19ComposingFocusState"
+- "_TtC15ImagePlayground19FacePickerViewModel"
+- "_TtC15ImagePlayground19MagicViewController"
+- "_TtC15ImagePlayground19_SystemPhotoLibrary"
+- "_TtC15ImagePlayground20DeleteAssetOperation"
+- "_TtC15ImagePlayground20EditorViewController"
+- "_TtC15ImagePlayground20ImagePredictableSeed"
+- "_TtC15ImagePlayground20InputAnalyticsHelper"
+- "_TtC15ImagePlayground20MagicEffectViewModel"
+- "_TtC15ImagePlayground20PickerViewController"
+- "_TtC15ImagePlayground20StylePickerViewModel"
+- "_TtC15ImagePlayground21CuratedPromptCategory"
+- "_TtC15ImagePlayground21KeyboardEventListener"
+- "_TtC15ImagePlayground21PeoplePickerViewModel"
+- "_TtC15ImagePlayground21PhotosFaceCropFetcher"
+- "_TtC15ImagePlayground21PromptConceptAnalyzer"
+- "_TtC15ImagePlayground21ResetContextOperation"
+- "_TtC15ImagePlayground21_AppProtectionManager"
+- "_TtC15ImagePlayground22CreationContextFactory"
+- "_TtC15ImagePlayground22FavoriteAssetOperation"
+- "_TtC15ImagePlayground22GeneratedPreviewsStore"
+- "_TtC15ImagePlayground22ImagePredictableOutput"
+- "_TtC15ImagePlayground22PromptUITextSuggestion"
+- "_TtC15ImagePlayground22_CuratedPromptsManager"
+- "_TtC15ImagePlayground23AbstractEffectViewModel"
+- "_TtC15ImagePlayground23AppearanceCellViewModel"
+- "_TtC15ImagePlayground23AppearanceImageRenderer"
+- "_TtC15ImagePlayground23CameraPickerCoordinator"
+- "_TtC15ImagePlayground23CharacterStorageManager"
+- "_TtC15ImagePlayground23DuplicateAssetOperation"
+- "_TtC15ImagePlayground23FacePickerGridViewModel"
+- "_TtC15ImagePlayground23GenerationRecipeFactory"
+- "_TtC15ImagePlayground23ObservableDebugSettings"
+- "_TtC15ImagePlayground23PlaygroundHomeViewModel"
+- "_TtC15ImagePlayground23VFXAnimationCoordinator"
+- "_TtC15ImagePlayground24ComposingFooterViewModel"
+- "_TtC15ImagePlayground24FloatingBubblesViewModel"
+- "_TtC15ImagePlayground24HomeAnimationCoordinator"
+- "_TtC15ImagePlayground24MagicButtonsBarViewModel"
+- "_TtC15ImagePlayground25CharacterEditingViewModel"
+- "_TtC15ImagePlayground25FacePickerEffectViewModel"
+- "_TtC15ImagePlayground25MagicStylePickerViewModel"
+- "_TtC15ImagePlayground25PhotoGridElementViewModel"
+- "_TtC15ImagePlayground25VisualSummarizationClient"
+- "_TtC15ImagePlayground25_ConditioningImageFactory"
+- "_TtC15ImagePlayground27FacePickerCarouselViewModel"
+- "_TtC15ImagePlayground27FacePickerPersistentStorage"
+- "_TtC15ImagePlayground27GPServiceSideExportedObject"
+- "_TtC15ImagePlayground28AppProtectionShieldViewModel"
+- "_TtC15ImagePlayground28ImageGenerationPersonFetcher"
+- "_TtC15ImagePlayground28LoadRecipeInContextOperation"
+- "_TtC15ImagePlayground28PhotoLibraryPopulationSource"
+- "_TtC15ImagePlayground28ServiceSideConnectionManager"
+- "_TtC15ImagePlayground29ComposingAnimationCoordinator"
+- "_TtC15ImagePlayground29PerformanceMitigationNotifier"
+- "_TtC15ImagePlayground29PhotoAssetItemProviderWriting"
+- "_TtC15ImagePlayground29PromptElementConceptExtractor"
+- "_TtC15ImagePlayground30LoadGPRecipeInContextOperation"
+- "_TtC15ImagePlayground30RandomWebImagePopulationSource"
+- "_TtC15ImagePlayground31PeoplePickerInternalCoordinator"
+- "_TtC15ImagePlayground32CuratedPromptsEmbeddingGenerator"
+- "_TtC15ImagePlayground32GPImageDescriptionViewController"
+- "_TtC15ImagePlayground32GenerativePlaygroundPhotoLibrary"
+- "_TtC15ImagePlayground32ImageConditioningPickerViewModel"
+- "_TtC15ImagePlayground32WeakPhotoLibraryUpdatingDelegate"
+- "_TtC15ImagePlayground33GPAppleConnectTokenProvider_Swift"
+- "_TtC15ImagePlayground34ImageGenerationOnboardingViewModel"
+- "_TtC15ImagePlayground35ImageConditioningSuggestionsFetcher"
+- "_TtC15ImagePlayground35ImageGenerationPersonSelectionState"
+- "_TtC15ImagePlayground37CuratedPromptsEmbeddingStorageManager"
+- "_TtC15ImagePlayground38ImageConditioningRepresentationsSource"
+- "_TtC15ImagePlayground38ImageGenerationImplicitPersonalization"
+- "_TtC15ImagePlayground39ImageConditioningRepresentationsManager"
+- "_TtC15ImagePlayground39PhotoGridElementContextualMenuViewModel"
+- "_TtC15ImagePlayground40DescriptionFieldWithSuggestionsViewModel"
+- "_TtC15ImagePlayground43AddImageConditioningRepresentationOperation"
+- "_TtC15ImagePlayground46RemoveImageConditioningRepresentationOperation"
+- "_TtC15ImagePlayground9Analytics"
+- "_TtC15ImagePlayground9GPVFXView"
+- "_TtC15ImagePlayground9VFXLoader"
+- "_TtC15ImagePlaygroundP33_3DA0223EA239E7EB7DEF167A60AFCDFF30ImageGenerationHostCoordinator"
+- "_TtC15ImagePlaygroundP33_A40917D56181D3A279EE8D033AB3768917AsyncClosureQueue"
+- "_TtC15ImagePlaygroundP33_C27115AB925C017AD97DB944F561B79E12TitleAndIcon"
+- "_TtC15ImagePlaygroundP33_D269C10191F2B449B931B82A2B76F81C29FakeAppleConnectAuthenticator"
+- "_TtC15ImagePlaygroundP33_F758B59EFF3FA8D8664EB3746660BD1319ResourceBundleClass"
+- "_TtC15ImagePlaygroundP33_FD2FDDC983FE8C48462EE58286802D2C18PhotoLibrarySource"
+- "_TtCC15ImagePlayground17TapToRadarManager7LogItem"
+- "_TtCC15ImagePlayground17TapToRadarManager9LogReason"
+- "_TtCC15ImagePlayground22ImagePredictableOutputP33_DE5B922A7CEE90BCDD579BCDD05AA4E431ComposingPredictableOutputAsset"
+- "_TtCC15ImagePlayground39ImageConditioningRepresentationsManagerP33_C05C86410091B15BBC35334384109A9E51WeakImageConditioningRepresentationsManagerObserver"
+- "_TtCFC15ImagePlayground32GPImageDescriptionViewControllergP33_5F4BE5157666C54802080394A155BAA827fakePresentingVieControllerCSo16UIViewControllerL_28FakePresentingViewController"
+- "_TtCV15ImagePlayground15ImageGeneration18DemoImageGenerator"
+- "_TtCV15ImagePlayground15ImageGeneration18RESTImageGenerator"
+- "_TtCV15ImagePlayground15ImageGeneration20ImageFromRecipeCache"
+- "_TtCV15ImagePlayground15ImageGeneration20MockupImageGenerator"
+- "_TtCV15ImagePlayground15ImageGeneration20VettedImageGenerator"
+- "_TtCV15ImagePlayground15ImageGeneration22OnDeviceImageGenerator"
+- "_TtCV15ImagePlayground15ImageGeneration7Manager"
+- "_TtCV15ImagePlayground26FrameworkViewRepresentableP33_DCF4C31057CB9F9727EE901E55C8E38810NativeView"
+- "_TtCV15ImagePlayground28ComposingRegularFooterButton21TransitionCoordinator"
+- "_TtCV15ImagePlayground32PromptLightEffectsBackgroundView11Coordinator"
+- "_TtCV15ImagePlayground33ImageDescriptionViewRepresentable11Coordinator"
+- "_TtCV15ImagePlaygroundP33_9DBDC6D8DB0EA81B4ADE3BF5AE112C9635ImageGenerationCharacterEditingView11Coordinator"
+- "__faceDataSource"
+- "__forwardingDelegate"
+- "__rampSize"
+- "__selectedStyle"
+- "__vfx_script_GPnew120_graph_00B20FC6_9617_427E_A20E_0A40E8A74492"
+- "__vfx_script_GPnew120_graph_0913325B_5059_450D_853C_42C60654F716"
+- "__vfx_script_GPnew120_graph_094F6053_058F_4383_8742_310BD605B036"
+- "__vfx_script_GPnew120_graph_29B2370D_A936_4414_B203_A5935B8D7515"
+- "__vfx_script_GPnew120_graph_333159A0_6F0F_48EE_8AC1_5D22EB22B261"
+- "__vfx_script_GPnew120_graph_5896504B_7759_468F_9FAA_BC61C2C13168"
+- "__vfx_script_GPnew120_graph_60FD312B_BD15_40F5_A712_1FAA290862F8"
+- "__vfx_script_GPnew120_graph_6B800A8C_7F16_485F_B431_C8336EC56A2C"
+- "__vfx_script_GPnew120_graph_7938B5AC_2269_40AD_A141_065A64E42CBC"
+- "__vfx_script_GPnew120_graph_8444605F_8B99_4AB9_A155_6BD4D3FEDF3C"
+- "__vfx_script_GPnew120_graph_92BADE19_DFE9_42FA_9E7F_B9F4247808DA"
+- "__vfx_script_GPnew120_graph_A95C1D30_5392_4F8F_8193_ABB9299C6E55"
+- "__vfx_script_GPnew120_graph_B926F3C1_A933_4BA6_B902_938B87A9DA0D"
+- "__vfx_script_GPnew120_graph_E6E0B0E7_DBA7_4C8D_9073_5217A31E4D2B"
+- "__vfx_script_GPnew120_graph_F5009019_0FB4_4E50_A4A2_987B5B39E0BE"
+- "__vfx_script_GPnew120_particleInit_104"
+- "__vfx_script_GPnew120_particleInit_11"
+- "__vfx_script_GPnew120_particleInit_22"
+- "__vfx_script_GPnew120_particleInit_31"
+- "__vfx_script_GPnew120_particleInit_37"
+- "__vfx_script_GPnew120_particleInit_53"
+- "__vfx_script_GPnew120_particleInit_57"
+- "__vfx_script_GPnew120_particleInit_88"
+- "__vfx_script_GPnew120_particleUpdate_112"
+- "__vfx_script_GPnew120_particleUpdate_44"
+- "__vfx_script_GPnew120_particleUpdate_51"
+- "__vfx_script_GPnew120_particleUpdate_66"
+- "__vfx_script_GPnew120_particleUpdate_77"
+- "__vfx_script_GPnew120_particleUpdate_80"
+- "__vfx_script_GPnew120_particleUpdate_86"
+- "__vfx_script_GPnew120_particleUpdate_96"
+- "__vfx_script_wandDesign0354_graph_0A958466_D2D9_4C27_A3DD_86070F6126E5"
+- "__vfx_script_wandDesign0354_graph_141D2322_0B7C_4E79_BBE6_1B4ED64C475A"
+- "__vfx_script_wandDesign0354_graph_192B3AE1_AE66_4920_A1E3_0F599E64AA97"
+- "__vfx_script_wandDesign0354_graph_4103F85E_EF92_49FB_8401_64A84397CDB2"
+- "__vfx_script_wandDesign0354_graph_59210FAF_81D3_4963_9743_14B30CAD1410"
+- "__vfx_script_wandDesign0354_graph_60FD312B_BD15_40F5_A712_1FAA290862F8"
+- "__vfx_script_wandDesign0354_graph_72931B8F_2F95_4BB5_9FE6_1EB0C3BAC773"
+- "__vfx_script_wandDesign0354_graph_7EA008FB_5C48_4CE5_98F1_2F09F9A5CD68"
+- "__vfx_script_wandDesign0354_graph_871F2BCC_D47F_4C4B_A756_367C9E3B1F1F"
+- "__vfx_script_wandDesign0354_graph_885370CA_9FEE_462C_9EC0_023D3C77D5FA"
+- "__vfx_script_wandDesign0354_graph_D5D657BD_226D_4350_95DD_56BE0EC569D4"
+- "__vfx_script_wandDesign0354_graph_E4D907E5_DFB6_4FAA_AFC4_5EB15AD70E7C"
+- "__vfx_script_wandDesign0354_graph_EEC534BD_B415_45C7_A32C_CD9DAD521413"
+- "__vfx_script_wandDesign0354_graph_F66D2FC7_9DFA_45F7_BDD1_184FB5A9E179"
+- "__vfx_script_wandDesign0354_particleInit_16"
+- "__vfx_script_wandDesign0354_particleInit_29"
+- "__vfx_script_wandDesign0354_particleUpdate_12"
+- "__vfx_script_wandDesign0354_particleUpdate_21"
+- "__vfx_script_wandDesign0354_particleUpdate_46"
+- "_activeIndex"
+- "_adjustedState"
+- "_allLookAssets"
+- "_allPeople"
+- "_allRepresentations"
+- "_allowsContextualMenu"
+- "_allowsFaceGeneration"
+- "_allowsYellowEmojiSkinTone"
+- "_analyzerTask"
+- "_analyzerTaskID"
+- "_animatedAssetID"
+- "_animatedEffectsInteractable"
+- "_assetDescription"
+- "_assets"
+- "_attractorColors"
+- "_attractorsIndices"
+- "_authenticatingProtocol"
+- "_bubbleAnimationID"
+- "_bubbleAnimationState"
+- "_bubbles"
+- "_callDidSetAmbiguities"
+- "_canBeDismissed"
+- "_canCommitPredictableOutput"
+- "_canDismissDescriptionFieldWithSuggestions"
+- "_canSelectNewStyle"
+- "_cancelContinuations"
+- "_carouselFaces"
+- "_categories"
+- "_character"
+- "_characterPickerPresentationContext"
+- "_clientName"
+- "_context"
+- "_contextualHandles"
+- "_creationViewStyle"
+- "_currentAnimationID"
+- "_currentBubbleAnimationMatchedGeometryID"
+- "_currentGenerationError"
+- "_currentHasSignificantEdits"
+- "_currentHittedLimitation"
+- "_currentLimitation"
+- "_currentLocalizedGenerationError"
+- "_currentLocalizedGenerationUpscalingError"
+- "_currentPreviewGenPriority"
+- "_currentlyUpscalingInBackground"
+- "_currentlyVisibleAsset"
+- "_delayedJobs"
+- "_delegate"
+- "_detailViewDidAppear"
+- "_didAppear"
+- "_didCommitPredictableOutput"
+- "_didLogAppearanceAnalytics"
+- "_didLogLibrarySize"
+- "_didSelectLookBeforeAppearing"
+- "_didTapThumbsDown"
+- "_didTapThumbsUp"
+- "_disallowedCuratedPromptIDs"
+- "_editingAsset"
+- "_emojiString"
+- "_entities"
+- "_errorStack"
+- "_faceCropFetcher"
+- "_faceImageCache"
+- "_facePickerPresentationContext"
+- "_facePickerStyle"
+- "_feedbackInputProvider"
+- "_feedbackPresentedMap"
+- "_fetcher"
+- "_filterFavorites"
+- "_forceOpaque"
+- "_frame"
+- "_generatedPreview"
+- "_generatedPreviews"
+- "_generationPausedID"
+- "_generationRequested"
+- "_generationTaskContext"
+- "_generationWasRequested"
+- "_generativeModelsStatus"
+- "_generator"
+- "_gridElementViewModels"
+- "_gridScrollAssetID"
+- "_hadGeneratedBeforeAppearing"
+- "_hideRectangleOnNextTransition"
+- "_highlightedBubbleID"
+- "_images"
+- "_impl"
+- "_indicators"
+- "_initiallySelectedPersonAsset"
+- "_isAllowingHitTesting"
+- "_isAnimatingKeyboard"
+- "_isAnimationPaused"
+- "_isBottomViewVisible"
+- "_isCancelled"
+- "_isCoachingTextViewVisible"
+- "_isCoveredByContent"
+- "_isEditing"
+- "_isEnabled"
+- "_isFavorite"
+- "_isFloatingBubblesViewVisible"
+- "_isGenerating"
+- "_isGeneratingFinalImage"
+- "_isGeneratingImages"
+- "_isGenmojiMacThemeEnabled"
+- "_isImportingImage"
+- "_isInCompactWidth"
+- "_isInIdleScrollPhase"
+- "_isInPreviewMode"
+- "_isLoading"
+- "_isLoadingPredictableOutput"
+- "_isLoadingRecipe"
+- "_isLoadingSuggestions"
+- "_isMagicEditDebugViewVisible"
+- "_isNetworkConnected"
+- "_isNotOnFirstPage"
+- "_isOnboardingSheetDismissed"
+- "_isPresented"
+- "_isPresentedFromGrid"
+- "_isPrewarming"
+- "_isPrewarmingDone"
+- "_isReadyAfterQuietPeriod"
+- "_isSelected"
+- "_isShowingAddCaptionController"
+- "_isTransitioningPreviewMode"
+- "_isZoomInteractive"
+- "_keyboardDidHideWithNotification:"
+- "_keyboardDidShowWithNotification:"
+- "_keyboardWillHideWithNotification:"
+- "_keyboardWillShowWithNotification:"
+- "_latestEffectViewSize"
+- "_librarySizeLoggingTask"
+- "_loadRecipeTask"
+- "_loadingImageID"
+- "_localizedError"
+- "_maxSuggestions"
+- "_modifyPromptInternally"
+- "_needsTransitionFromWand"
+- "_observablePHFetchResults"
+- "_onBoardingDescription"
+- "_onboardingSheetCancelled"
+- "_pendingDisclosures"
+- "_people"
+- "_peopleLoadingTask"
+- "_person"
+- "_personImageCache"
+- "_photoGridHasAssets"
+- "_placeholderImage"
+- "_precomputedGenerationSeeds"
+- "_preferredConditioningStyle"
+- "_presentationMode"
+- "_previewAnalyticsLogBlock"
+- "_previewIndicesToSavedSeedMap"
+- "_previewsSavedAfterLeavingPlayground"
+- "_previewsSavedInBackground"
+- "_previewsThatHaveBeenVisible"
+- "_previousActiveindex"
+- "_previousRoute"
+- "_prompt"
+- "_promptEditingCreationDate"
+- "_recipe"
+- "_recommendedLookAssets"
+- "_representations"
+- "_route"
+- "_seconds"
+- "_selectedAppearance"
+- "_selectedAsset"
+- "_selectedCameraImage"
+- "_selectedCategory"
+- "_selectedExportableAssetsCache"
+- "_selectedFaceID"
+- "_selectedGenerationPerson"
+- "_selectedImage"
+- "_selectedItem"
+- "_selectedPerson"
+- "_selectedPhotoLibraryItem"
+- "_selectedRepresentations"
+- "_selectedSkinTone"
+- "_selectedStyle"
+- "_selection"
+- "_selectionOrderNumber"
+- "_selectionState"
+- "_setFocusHandler"
+- "_setFocusState"
+- "_setMaximumContentSizeCategory:"
+- "_shouldAnimateAddedBubbles"
+- "_shouldDisableFloatingAnimation"
+- "_shouldDismissPeoplePickerTrigger"
+- "_shouldHideEffectStack"
+- "_shouldPresentCreationTips"
+- "_shouldPrewarmKeyFaces"
+- "_shouldRestrictPeoplePickerVisibility"
+- "_shouldShowAllFaceSelectionView"
+- "_shouldShowCamera"
+- "_shouldShowCharacterEditing"
+- "_shouldShowCreationTips"
+- "_shouldShowDebugSettings"
+- "_shouldShowFacePicker"
+- "_shouldShowInputMenu"
+- "_shouldShowPeoplePicker"
+- "_shouldShowPersonalizationSheet"
+- "_shouldShowPhotoLibraryPicker"
+- "_shouldShowStylePicker"
+- "_shouldShowStylesPopover"
+- "_shouldShowTapToRadarPopover"
+- "_showAppleEffectOnNextTransition"
+- "_showingAddCaptionController"
+- "_skinTone"
+- "_snapshotAppearanceViewBlock"
+- "_staleParameterContextIdForConfiguration"
+- "_submitRequested"
+- "_suggestablePeople"
+- "_suggestedBubbles"
+- "_suggestedSelectedAssetID"
+- "_testGenerator"
+- "_togglesSelection"
+- "_token"
+- "_transition"
+- "_transitionFlow"
+- "_transitionToBlobOrAppleEffect - transition blob to circle"
+- "_transitionToBlobOrAppleEffect - transition wand to blob"
+- "_transitionToBlobOrAppleEffect - transitionCircleToBlob"
+- "_transitionToBlobOrAppleEffect - transitionRectangleToCircle"
+- "_transitionToBlobOrAppleEffect - transitionWandToBlobOrAppleEffect: %{bool}d"
+- "_usesCharacterSharedStorage"
+- "_value"
+- "_vfxLoadingState"
+- "_vfx_setColorSpace:"
+- "_viewHasAppeared"
+- "_viewHasDarkMode"
+- "_viewIsEnabled"
+- "_viewIsRenderedRTL"
+- "_visiblePreviewID"
+- "actionItem"
+- "activatedObserver"
+- "activationState"
+- "activeCuratedPrompts"
+- "activePerson"
+- "activeRepresentations"
+- "addAction:forControlEvents:"
+- "addAssetResourceWithType:fromFileAtURL:"
+- "addBulletedListItemWithTitle:description:image:"
+- "addButton:"
+- "addClip"
+- "addObserver:selector:name:object:"
+- "addObserverForName:object:queue:usingBlock:"
+- "addResourceWithType:data:options:"
+- "addResourceWithType:fileURL:options:"
+- "addedDate"
+- "addedIndices : %s - adjustedAddedIndices: %s - removedIndices : %s - adjustedRemovedIndices : %s"
+- "all"
+- "allAppearances"
+- "allButtons"
+- "allSkinTones"
+- "allowPromptAndPersonalization"
+- "allowStyleSelection"
+- "analyticsContext"
+- "analyzer"
+- "animateAlongsideTransition:completion:"
+- "animateWithDuration:animations:completion:"
+- "animatedEffectsViewModel is nil"
+- "animationCoordinator"
+- "animationNamespace"
+- "appearance"
+- "apple.image.playground.fill"
+- "appleConnectTokenProvider"
+- "apple_position"
+- "apple_scale"
+- "application-identifier"
+- "applicationWithBundleIdentifier:"
+- "areAnimationsEnabled"
+- "areAttractorsEnabled"
+- "areaMaximumAlphaFilter"
+- "array"
+- "arrayByAddingObject:"
+- "arrayForKey:"
+- "arrow.uturn.backward"
+- "arrow.uturn.forward"
+- "asset"
+- "assetConfigured"
+- "assetContentChanged"
+- "assetDescription"
+- "assetMap"
+- "assetRegistry"
+- "assetResourcesForAsset:"
+- "assetResourcesForAsset:includeDerivatives:"
+- "assetStore"
+- "assets"
+- "assignEmojiConditioningImage"
+- "assignEmojiDescription"
+- "assignPrompt"
+- "asyncClosureQueue"
+- "attractor1_angle"
+- "attractor1_intensity"
+- "attractor2_angle"
+- "attractor2_intensity"
+- "attractor3_angle"
+- "attractor3_intensity"
+- "attractor4_angle"
+- "attractor4_intensity"
+- "attractor5_angle"
+- "attractor5_intensity"
+- "attractor6_angle"
+- "attractor6_intensity"
+- "attractor7_angle"
+- "attractor7_intensity"
+- "attractor8_angle"
+- "attractor8_intensity"
+- "attractorColor"
+- "attractors-enablement"
+- "attractorsColorUpdatingDelegate"
+- "attractorsIndices"
+- "attractorsIndices.count : %ld"
+- "attractorsMapper"
+- "attractors_intensity"
+- "auditToken"
+- "authenticateForSubject:completion:"
+- "authenticateIfNeededWithCompletion:"
+- "authenticatingProtocol"
+- "authorizationStatusForMediaType:"
+- "axCapitalizeFirstLetter"
+- "begin"
+- "beginUndoGrouping"
+- "beginningOfDocument"
+- "behaviorGraph"
+- "bezierPathWithOvalInRect:"
+- "bindingsNode"
+- "bitmapInfo"
+- "bitsPerComponent"
+- "bitsPerPixel"
+- "blackColor"
+- "blankScreen"
+- "blankScreenRegistered"
+- "blankScreenToken"
+- "blob-animation-disablement"
+- "blob-animation-paused"
+- "blobToFirstPreviewSignpostState"
+- "blob_genmoji"
+- "blob_position"
+- "blob_rectangleSize"
+- "blob_rectangle_radius"
+- "blob_scale"
+- "blurScore"
+- "boldButton"
+- "boolValue"
+- "bounds"
+- "bubble_identifier"
+- "buildRecipe"
+- "bundle"
+- "bundleIdentifier"
+- "bundlePath"
+- "bundleRecordForAuditToken:error:"
+- "bundleToImport"
+- "bundleWithIdentifier:"
+- "buttonTray"
+- "bytes"
+- "bytesPerRow"
+- "cache"
+- "cacheResult"
+- "camera-image-automatically-saved"
+- "can't assign configuration: parameters is nil"
+- "can't get ciimage or cgimage from image"
+- "canRedo"
+- "canStartPreviewGeneration"
+- "canUndo"
+- "cancelGeneration()"
+- "cancelImageRequest:"
+- "cancelOnBoardingButton"
+- "captionFeatures"
+- "captureSessionStartedObserver"
+- "captureSessionStoppedObserver"
+- "categories"
+- "category not found"
+- "categoryID"
+- "centerX"
+- "centerY"
+- "changeRequestForAsset:"
+- "character-ui-enabled"
+- "characterEditingViewModel"
+- "checkmark.circle.fill"
+- "chevron.backward"
+- "childNodeWithName:"
+- "children"
+- "circle.bottomrighthalf.checkered"
+- "clearColor"
+- "client"
+- "clientName"
+- "clock"
+- "closeAndReturnError:"
+- "closeComposingViewIfNeeded"
+- "colorNamed:"
+- "colorSpace"
+- "colorWithAlphaComponent:"
+- "com.apple.GenerativePlayground"
+- "com.apple.GenerativePlayground.FacePickerPersistentStorage"
+- "com.apple.GenerativePlaygroundApp"
+- "com.apple.GenerativePlaygroundApp.BubbleUsage"
+- "com.apple.GenerativePlaygroundApp.Carousel"
+- "com.apple.GenerativePlaygroundApp.ImageGeneration"
+- "com.apple.GenerativePlaygroundApp.ImageInteraction"
+- "com.apple.GenerativePlaygroundApp.LibrarySize"
+- "com.apple.ImagePlayground"
+- "com.apple.ImagePlayground.ImageGeneration."
+- "com.apple.ImagePlayground.open-tips-sheet"
+- "com.apple.feedbackd"
+- "com.apple.generativeplaygroundapp.facefetcher"
+- "com.apple.iokit.hid.displayStatus"
+- "com.apple.mobilenotes"
+- "com.apple.mobileslideshow"
+- "com.apple.springboard.hasBlankedScreen"
+- "com.apple.springboard.lockstate"
+- "commit"
+- "common-ui-gradient"
+- "comparatorByPeopleHomeSortingType:"
+- "completionsForPartialWordRange:inString:language:"
+- "composingAsset"
+- "composingAssets"
+- "composingFooterButtonImage-"
+- "composingViewModel"
+- "conceptAnalysisState"
+- "configToFirstImageSignpost"
+- "configToFirstImageSignpostName"
+- "configurationPreferringMulticolor"
+- "configurationWithPaletteColors:"
+- "constants"
+- "containerURLForSecurityApplicationGroupIdentifier:"
+- "contentsAtPath:"
+- "contentsOfDirectoryAtPath:error:"
+- "context"
+- "contextMessageCount"
+- "contextSummarizer"
+- "continuation"
+- "continueOnBoardingButton"
+- "convertFloat16ToFloat32:"
+- "coordinateReadingItemAtURL:options:error:byAccessor:"
+- "coordinated"
+- "copyWithZone:"
+- "count"
+- "countForObject:"
+- "coveredByContent"
+- "createAdjustmentFile(for:)"
+- "createDirectoryAtPath:withIntermediateDirectories:attributes:error:"
+- "createDirectoryAtURL:withIntermediateDirectories:attributes:error:"
+- "createNewAsset(with:recipe:forwardedCreationDate:)"
+- "createPhotoLibraryWithName:options:error:"
+- "createWorld(url:metalLibraryUrl:)"
+- "created_image.png"
+- "creationHandler"
+- "creationOptionsForDefaultApplicationLibraryWithContainerIdentifier:"
+- "creationRequestForAssetFromImage:"
+- "creationRequestForAssetWithOptions:"
+- "creationStyle"
+- "creationViewModel is nil"
+- "creationViewModelDidCancel"
+- "creationViewModelDidSaveImage"
+- "creationViewStyle"
+- "curated_prompts_embeddings/"
+- "curationProperties"
+- "currentAnimatingVisibilityUUID"
+- "currentBatches"
+- "currentBundlePath"
+- "currentEmojiGenerationTask"
+- "currentPlaygroundGenerationTask"
+- "currentTraitCollection"
+- "darkGrayColor"
+- "data"
+- "dataUsingAssetResourceEncoding:"
+- "dataWithLength:"
+- "dbClient"
+- "deactivedObserver"
+- "debounceTimer"
+- "decodeInt32ForKey:"
+- "decodeIntegerForKey:"
+- "decodePropertyListForKey:"
+- "decoder"
+- "default ClientIdentity was required before it was initialized, using fallback..."
+- "defaultApplicationLibraryIdentifierWithContainerIdentifier:"
+- "defaultCenter"
+- "defaultDescription"
+- "defaultMatchedTransitionDestinationID"
+- "defaultOptions"
+- "defaultSessionConfiguration"
+- "defaultStyle"
+- "defaultWorkspace"
+- "delegate:didStageAssetWithIdentifier:"
+- "delegate:didUnstageAssetWithIdentifier:"
+- "deleteAssetResourceWithType:"
+- "deleteAssets:"
+- "deletePhotoLibraryWithIdentifier:options:error:"
+- "demoImagesFolder"
+- "descriptionProperties"
+- "detailViewModel"
+- "detectedCaptionFeatureDescriptionWithOptions:"
+- "detectedSceneClassificationFeatureDescriptionWithOptions:"
+- "dictionaryForKey:"
+- "didBegin"
+- "didCallBack"
+- "didChangeCanStartUpscaling %{bool}d"
+- "didCommit"
+- "didMoveToWindow"
+- "didMoveToWindowCallback"
+- "didSetAdjustedEditState - transitionToBlobOrAppleEffect showAppleEffect%{bool}d"
+- "didSetAdjustedState - latestEffectViewSize: %s - adjustedFrame: %s"
+- "didSetAdjustedState - sceneManager.magicEffectPosition: %s - adjustedFrame: %s"
+- "didSetEffectViewSize - effectViewSize: %s"
+- "didUpdateAttractors - index (%ld) >= colors.count (%ld)"
+- "diffusionModelSpecification"
+- "directoryExistsAtPath:"
+- "disableRegionAvailabilityCheck"
+- "discardSceneManager"
+- "dismissViewControllerAnimated:completion:"
+- "displayOn"
+- "displayStatusRegistered"
+- "displayStatusToken"
+- "document.on.document"
+- "donateGeneration(for:)"
+- "donationCount"
+- "donationMap"
+- "drawInRect:"
+- "drawOnImageRecipe.baseImage"
+- "drawOnImageRecipe.sketchImage"
+- "drawOnImageRecipe.sketchMask"
+- "effectImage"
+- "effectSize is empty"
+- "embedding"
+- "embeddingResults"
+- "embeddingStorageManager"
+- "emojiConfiguration"
+- "emojiGeneratorConfiguration"
+- "enableEmojiYellowSkinTone"
+- "encodeInt32:forKey:"
+- "encodeInteger:forKey:"
+- "encodedRecipeLoaded"
+- "encoder"
+- "end"
+- "endUndoGrouping"
+- "enumerateHierarchyUsingBlock:"
+- "enumerateObjectsUsingBlock:"
+- "environment"
+- "error"
+- "exclamationmark.triangle"
+- "exclamationmark.triangle.fill"
+- "executeFetchRequest:error:"
+- "exportRequestForAsset:error:"
+- "exportWithOptions:completionHandler:"
+- "extensionState"
+- "extent"
+- "extra-logging-enabled"
+- "eyesState"
+- "f16@0:8"
+- "face"
+- "face-picker-carousel-ui-enabled"
+- "faceLoaderPrewarmTimer"
+- "facePickerCarouselViewModel"
+- "facePickerViewModel"
+- "failed to create context"
+- "failed to delete asset: %s error: %@"
+- "failed to favorite asset: %s error: %@"
+- "failed to prewarm dependencies: %@"
+- "favorite-ui-enabled"
+- "featureDomain"
+- "feedback action %s not supported for preview image on MagicViewModel"
+- "feedbackController"
+- "feedbackInput is nil"
+- "feedbackManager"
+- "fetchAssetsForFaces:options:"
+- "fetchAssetsGroupedByFaceUUIDForFaces:fetchPropertySets:"
+- "fetchAssetsWithLocalIdentifiers:options:"
+- "fetchAssetsWithOptions:"
+- "fetchCroppedImageAsset(for:)"
+- "fetchCroppedImageAsset(for:defaultGenerationFace:)"
+- "fetchDefaultFace(for:from:)"
+- "fetchFaces(for:from:maxLength:excludingFirst:)"
+- "fetchFacesInAsset:options:"
+- "fetchFacesWithLocalIdentifiers:options:"
+- "fetchFacesWithOptions:"
+- "fetchFacesWithVuObservationIDs:options:"
+- "fetchGeneratedFace(with:)"
+- "fetchMomentUUIDByAssetUUIDForAssetUUIDs:options:"
+- "fetchPersonsForContactIdentifiers:options:"
+- "fetchPersonsWithLocalIdentifiers:options:"
+- "fetchPersonsWithOptions:"
+- "fetchPersonsWithType:options:"
+- "fetchPropertySets"
+- "fetchValue(for:isolation:)"
+- "fetchValue(isolation:)"
+- "fetchedObjects"
+- "fileDescriptor"
+- "fileExistsAtPath:"
+- "fileHandleForReadingFromURL:error:"
+- "finalImage"
+- "findPersonIndications() failed with error: %@"
+- "findPersonIndications() found people but personalization is not supported"
+- "finishSelectionWithPath:atPencilLocation:"
+- "firstAppearanceViewModel"
+- "firstNode"
+- "firstObject"
+- "firstRowAppearanceCellModels"
+- "floating-bubble-animation-disabled"
+- "floating-bubbles-heavy-ui-resources-disabled"
+- "flush"
+- "forceDarkMode"
+- "format"
+- "formatIdentifier"
+- "formatVersion"
+- "frame"
+- "full-log-archive"
+- "functionWithMass:stiffness:damping:initialVelocity:"
+- "functionWithName:"
+- "generalPasteboard"
+- "generate - did assign prompt"
+- "generate - failed to create a normalized sketch image"
+- "generate - image sanitization category must be specified for 1-to-2 flow"
+- "generate - skipping PromptConditioningImageAssignmentTask with a blended image of sketch and base"
+- "generate - skipping PromptConditioningImageAssignmentTask with sketchImage"
+- "generate - skipping assignment of draw-on-image recipe"
+- "generate - style %s not in the list of available styles %s"
+- "generate - will assign prompt '%s'"
+- "generateEmojiPreviewImages(progressHandler:retryErrorHandler:retryCanRewrite:retryCount:previewIndex:)"
+- "generateImageCaption(for:)"
+- "generateImages"
+- "generatePlaygroundPreviewImages(progressHandler:retryErrorHandler:retryCanRewrite:retryCount:previewIndex:)"
+- "generateTextEmbedding(from:)"
+- "generateTextEmbeddings(from:)"
+- "generateUpscaledImage"
+- "generationBatchIdentifier"
+- "generationManager"
+- "generationState.json"
+- "generationStateProvider"
+- "generation_status"
+- "generativeAIType"
+- "generativeModelsAvailabilityDidChange called with: available"
+- "generativeModelsAvailabilityDidChange called with: restricted (%s)"
+- "generativeModelsAvailabilityDidChange called with: unavailable (%s)"
+- "generativeModelsAvailabilityDidChange called with: unknown case"
+- "generativeModelsAvailabilityDidChange: GMS availability: current %s, in notification : %s, readiness: %s"
+- "generativeModelsAvailabilityNotifications"
+- "generatorSource"
+- "genmoji_rampSize"
+- "getAssetImage(asset:with:)"
+- "getEmbeddingFormatForVersion:dimension:type:error:"
+- "getEmbeddingVectorDimension:"
+- "getThumbnailImage(asset:thumbnailSize:with:)"
+- "getUnifiedEmbeddingVersion"
+- "glassesType"
+- "gpNodes is nil"
+- "gp_isAnimatingCount"
+- "gpuIntensiveModalOperationInProgress"
+- "graphController"
+- "graphController is nil"
+- "gridViewModel"
+- "handwrittenWordsCount"
+- "hasFaceMask"
+- "hasSmile"
+- "hasStartedQuietPeriod"
+- "has_generated_images"
+- "has_previously_selected_reference_photo_for_person"
+- "headerView"
+- "headgearType"
+- "height"
+- "hide-tap-to-radar"
+- "hidePersonBubbleKey"
+- "homeViewModel"
+- "https://picsum.photos/"
+- "icon"
+- "iconFilename"
+- "id"
+- "idKeyPath"
+- "image-safety-disablement"
+- "imageByApplyingTransform:"
+- "imageByCompositingOverImage:"
+- "imageByCroppingToRect:"
+- "imageByPreparingForDisplay"
+- "imageBySettingAlphaOneInExtent:"
+- "imageDataWithBackgroundEncoding(_:isolatedOn:)"
+- "imageDescription"
+- "imageDescriptionViewControllerDidCancel:"
+- "imageDescriptionViewControllerDidDismiss:"
+- "imageDescriptionViewControllerDidSave:"
+- "imageDescriptorNamed:"
+- "imageEditionViewController can't be nil when loading recipe"
+- "imageEditionViewController can't be nil when loading sourceImage"
+- "imageEditionViewController can't be nil when setting recipe"
+- "imageFromRecipeCache"
+- "imageGenerationManager"
+- "imageIndex"
+- "imageNamed:inBundle:"
+- "imageNode"
+- "imagePickerController:didFinishPickingImage:editingInfo:"
+- "imagePickerController:didFinishPickingMediaWithInfo:"
+- "imagePickerControllerDidCancel:"
+- "imagePickerViewController"
+- "imagePickerViewController can't be nil when loading recipe"
+- "imagePickerViewController can't be nil when setting recipe"
+- "imageRepresentation"
+- "imageWithActions:"
+- "imageWithSymbolConfiguration:"
+- "imagesCount"
+- "importedPhotoIDs"
+- "importedSceneImage"
+- "inactiveForALongTime"
+- "index %ld is outside of the indicators range - indicators.count = %ld"
+- "indexOfIndicator %ld is outside of the previews range - previews.count = %ld"
+- "indicesToRemove index: %ld VFX attractor - showAttractors: false"
+- "init(coder:rootView:)"
+- "init(frame:)"
+- "init(rootView:)"
+- "initForMagicWandDrawingInFrame:"
+- "initWithArray:"
+- "initWithAuthenticatingProtocol:"
+- "initWithBundleIdentifier:"
+- "initWithBundleIdentifier:allowPlaceholder:error:"
+- "initWithCGImage:imageOrientation:"
+- "initWithCGImage:scale:orientation:"
+- "initWithContentSnapshot:"
+- "initWithContentsOfFile:"
+- "initWithData:"
+- "initWithDataUsingAssetResourceEncoding:error:"
+- "initWithDomain:code:userInfo:"
+- "initWithFace:targetSize:displayScale:"
+- "initWithFormatIdentifier:formatVersion:data:"
+- "initWithFrame:"
+- "initWithFrame:isEditing:"
+- "initWithFrame:options:"
+- "initWithImage:"
+- "initWithInteger:"
+- "initWithItemProviders:"
+- "initWithKeysToFetch:"
+- "initWithLocalizedApplicationName:iconImage:"
+- "initWithObject:"
+- "initWithPattern:options:error:"
+- "initWithPerson:targetSize:displayScale:"
+- "initWithPhotoLibraryURL:"
+- "initWithSize:"
+- "initWithText:title:isPersonHandle:isSuggestableText:needsConceptsExtraction:needsSuggestableConceptsExtraction:"
+- "initWithTitle:detailText:icon:contentLayout:"
+- "initWithURL:"
+- "initWithURL:readonly:"
+- "initWithUnit:"
+- "initialInertia"
+- "initialParametersApplied"
+- "initialParametersApplied: "
+- "initialState"
+- "initialTimeAppeared"
+- "initialTimeAppeared: "
+- "inputItems"
+- "inputText"
+- "input_sketch.png"
+- "integerValue"
+- "internal-error-view-disablement"
+- "internalDelegate"
+- "invalid Collection: less than 'count' elements in collection"
+- "invalidate"
+- "invocation"
+- "is-generation-seed-fixed"
+- "isAnimating"
+- "isAnimatingBlobToPictureTarget"
+- "isAnimatingVisibility"
+- "isCancelled"
+- "isCreating"
+- "isDisplayed"
+- "isEditing"
+- "isFavorite"
+- "isFirstResponder"
+- "isForStickers"
+- "isIdle"
+- "isInRectangle"
+- "isInSketchStyle"
+- "isInWandState"
+- "isLowConfidence"
+- "isMainThread"
+- "isMediaSubtype:"
+- "isNetworkConnected %{bool}d"
+- "isPencilPaired"
+- "isReadyAfterQuietPeriod: "
+- "isSaved"
+- "isScreenRecording"
+- "isShareLinkVisible"
+- "isShowingError"
+- "isStringEnglish:"
+- "isSynchronous"
+- "isTriggeredByUndo"
+- "isUndoing"
+- "isWandClick"
+- "is_character_used"
+- "is_generic_person_used"
+- "is_input_image_used"
+- "is_personalization_based_on_self_photo"
+- "is_personalization_used"
+- "itemProviderVisibilityForRepresentationWithTypeIdentifier:"
+- "itk_wordCount"
+- "kCFAllocatorNull"
+- "key"
+- "keyboardDidHide"
+- "keyboardDidShow"
+- "keyboardEventListener"
+- "keyboardLayoutGuide"
+- "keyboardWillHide"
+- "keyboardWillShow"
+- "killParticles"
+- "labelColor"
+- "languageCode"
+- "lastAttractorColorUpdateTime"
+- "lastNode"
+- "lastRepresentationsDidContainAPerson"
+- "lastUpdatedGenerationState"
+- "latency_invocation_to_first_preview"
+- "latency_invocation_to_full_image"
+- "latency_preview_to_full_image"
+- "latency_start"
+- "latency_text_safety_validation"
+- "latestEffectViewSize is nil"
+- "layer"
+- "librarySpecificFetchOptions"
+- "lightMode"
+- "loadDataIfNeeded(forceReload:)"
+- "loadDataWithTypeIdentifier:forItemProviderCompletionHandler:"
+- "loadGenerationAnimatedEffectIfNeeded"
+- "localIdentifier"
+- "localIdentifierWithUUID:"
+- "localizedDisplayName"
+- "localizedName"
+- "localizedStringByJoiningStrings:"
+- "localizedStringForLanguage:context:"
+- "lock"
+- "lockedApplications"
+- "log-archive-only"
+- "magic view model generated full image while still waiting for first preview"
+- "magicEffectPosition"
+- "magicEffectPosition is nil"
+- "magicPaperViewController:didGenerateImage:"
+- "magicPaperViewControllerDidCancel:"
+- "magicPaperViewControllerDidPrewarmEffect:"
+- "magicPaperViewControllerImageGenerationEvent:"
+- "magicViewController"
+- "magicViewController can't be nil when loading recipe"
+- "magicViewFullFrame"
+- "magicViewFullHeightForKeyboardScrolling"
+- "magicViewModel"
+- "magicViewModel can't be nil when setting state"
+- "magicViewModel is nil"
+- "magicViewSize"
+- "magicViewTextFieldFrame"
+- "magicViewTopButtonsFrame"
+- "magicpaper_count_handwritten_words"
+- "magicpaper_count_images"
+- "magicpaper_count_shapes"
+- "magicpaper_count_signatures"
+- "magicpaper_count_strokes"
+- "magicpaper_count_words"
+- "magicpaper_invocation"
+- "magicpaper_pencilPaired"
+- "main-common-ui-gradient"
+- "mainScreen"
+- "maskAssetNode.asset is not a VFXClientTextureAsset!"
+- "materials"
+- "maxNumberOfSuggestedBubbles"
+- "maxSamples"
+- "maximumNumberOfConcurrentOperations"
+- "mayThrottleSoon"
+- "mediaAnalysisImageCaptionFeatures"
+- "mediaanalysisd failed to create embeddings for the list of curated prompts."
+- "memoryPressureSource"
+- "messages-context-summarization-enabled"
+- "metrics"
+- "minimalAttractorColorUpdateInterval"
+- "minimumPostAppearanceQuietPeriod"
+- "mode"
+- "model"
+- "modelAssertion"
+- "mutableBytes"
+- "name"
+- "namespace"
+- "navigationController:animationControllerForOperation:fromViewController:toViewController:"
+- "navigationController:didShowViewController:animated:"
+- "navigationController:interactionControllerForAnimationController:"
+- "navigationController:willShowViewController:animated:"
+- "navigationControllerPreferredInterfaceOrientationForPresentation:"
+- "navigationControllerSupportedInterfaceOrientations:"
+- "navigationManager"
+- "networkMonitor"
+- "next"
+- "node bindings"
+- "nodes"
+- "nodesController"
+- "nonSubjectDescription"
+- "nonUIAuthenticationCompletionHandler"
+- "note-context-summarization-enabled"
+- "numberOfSuggestedPeople"
+- "numberOfSuggestedPeopleInMessages"
+- "number_image_generated"
+- "number_of_non_text_bubbles"
+- "number_of_text_bubbles"
+- "number_preview_generated"
+- "number_preview_viewed"
+- "number_regeneration_edit"
+- "objectForKey:"
+- "observers"
+- "occluded"
+- "offsetFromPosition:toPosition:"
+- "opacity"
+- "openAndWaitWithUpgrade:error:"
+- "openPhotoLibraryWithIdentifier:options:error:"
+- "openSensitiveURL:withOptions:"
+- "openURL:options:completionHandler:"
+- "operation"
+- "orientation"
+- "originalCharacter"
+- "originalOperation"
+- "parameters"
+- "parametersProvider"
+- "parametersProvider is nil in buildRequest function"
+- "particleEmitter"
+- "particleEmitter is nil"
+- "particlesLife"
+- "pathConstants"
+- "pathStartTime"
+- "pathTexture"
+- "pathWithComponents:"
+- "pausedBySettings"
+- "peopleRetrieval"
+- "performAsync(_:)"
+- "performBatchExpungeWithAssets:deleteOptions:photoLibrary:completionHandler:"
+- "performChanges:completionHandler:"
+- "performRequests:text:identifier:completionHandler:"
+- "performWithoutAnimation:"
+- "performanceMitigationNotifier"
+- "performanceNotifierState"
+- "persistentStore"
+- "person"
+- "person.circle.fill"
+- "person.crop.square.fill"
+- "person.face.smiling"
+- "personLocalIdentifier"
+- "personalization_true"
+- "personsCache"
+- "photo.fill.on.rectangle.fill"
+- "photo.on.rectangle"
+- "photoAssetCache"
+- "photoGridViewModel"
+- "photoIDsAlreadyImported-"
+- "photoLibrary"
+- "photoLibraryDidChange:"
+- "photoLibraryStatus"
+- "photos-people-enabled"
+- "photosInfoPanelExtendedProperties"
+- "pickerCanStartCreation %{bool}d"
+- "pickerMode"
+- "placeholderAssets"
+- "placeholderForCreatedAsset"
+- "playgroundConfiguration"
+- "playgroundHomeViewModel"
+- "plus.square.on.square"
+- "pool"
+- "poseType"
+- "poseYaw"
+- "position"
+- "positionFromPosition:offset:"
+- "post_generation_status"
+- "predicateForContactsMatchingHandleStrings:"
+- "predictable-output-mode"
+- "predictable-seed-loading"
+- "predictable-seed-storing"
+- "preferences"
+- "prepareForRenderer:progressHandler:"
+- "prepareImageForDescriptor:"
+- "presentationController"
+- "presentationObject"
+- "presented(with:)"
+- "presentingViewController"
+- "previewImages"
+- "previews generation failed with error: %@"
+- "previews generation was cancelled because a new generation has been started"
+- "previewsStore"
+- "previous"
+- "prewarmDone"
+- "prewarmTask"
+- "privateFileURL"
+- "processIdentifier"
+- "processName"
+- "progress"
+- "progressHandler"
+- "prompt"
+- "prompt-safety-disablement"
+- "promptAssignmentTask"
+- "promptRewriteInputLengthKey"
+- "promptRewritePeopleHallucinationImagePlayground"
+- "promptRewritePeopleHallucinationMagicPaper"
+- "prompts"
+- "propagatesUpdates"
+- "proposedFrame: %s - adjustedSquareFrame: %s"
+- "px_localizedName"
+- "q24@0:8@\"NSString\"16"
+- "q24@0:8@\"UINavigationController\"16"
+- "q24@0:8@16"
+- "quote.bubble.fill"
+- "r"
+- "radarComponent"
+- "radius"
+- "rampSize"
+- "raw-text-context-summarization-enabled"
+- "recently-selected-faces"
+- "recently-selected-people"
+- "recipeIndex"
+- "recommendedCuratedPrompts"
+- "recommendedPromptStrings"
+- "rectangle_dimensions"
+- "redo"
+- "reduceMotion"
+- "registerChangeObserver:"
+- "removeAllActions"
+- "removeAllObjects"
+- "removeObserver:"
+- "removeObserver:name:object:"
+- "render:toBitmap:rowBytes:bounds:format:colorSpace:"
+- "renderer:didApplyAnimationsAtTime:"
+- "renderer:didApplyConstraintsAtTime:"
+- "renderer:didRenderWorld:atTime:"
+- "renderer:didSimulatePhysicsAtTime:"
+- "renderer:updateAtTime:"
+- "renderer:willRenderWorld:atTime:"
+- "reportFeatureCheckpoint:forFeature:error:"
+- "representationsManager"
+- "representedObject"
+- "requestAccessForMediaType:completionHandler:"
+- "requestFaceCropForOptions:resultHandler:"
+- "requestImageDataAndOrientationForAsset:options:resultHandler:"
+- "requestImageForAsset:targetSize:contentMode:options:resultHandler:"
+- "requestVUIndexURLForSystemPhotosLibraryWithError:"
+- "requiresCharacters"
+- "requiresSubject"
+- "resetParticleEmitter()"
+- "restart"
+- "roll"
+- "rootNode"
+- "scale"
+- "sceneManager is nil"
+- "scheduleTransitionToBlobOrAppleEffect in %ldms - showAppleEffectOnNextTransition: %{bool}d"
+- "scheduledTimerWithTimeInterval:repeats:block:"
+- "screenLocked"
+- "screenLockedRegistered"
+- "screenLockedToken"
+- "screen_ratio"
+- "scribble-strength-array"
+- "secondAppearanceViewModel"
+- "secondRowAppearanceCellModels"
+- "secondaryLabelColor"
+- "secondarySystemBackgroundColor"
+- "selectedRange"
+- "selectionChanged"
+- "sendSignal:toChannel:withNullableUniqueStringID:withPayload:"
+- "service"
+- "services"
+- "servicesFetcher"
+- "sessionUndoManager"
+- "sessionWithConfiguration:"
+- "set state to 'idle' - sceneManager is nil"
+- "set(representations:)"
+- "setAccessibilityIdentifier:"
+- "setAccessibilityLabel:"
+- "setAccessibilityValueBlock:"
+- "setActionName:"
+- "setAddedDate:"
+- "setAllowFullWidthIcon:"
+- "setAllowsUpgrade:"
+- "setAlpha:"
+- "setAnimationDuration:"
+- "setAnimationTimingFunction:"
+- "setAntialiasingMode:"
+- "setAppleConnectTokenProvider:"
+- "setAssetDescription:"
+- "setAuthenticatingProtocol:"
+- "setBackgroundColor:"
+- "setCGImage:"
+- "setCameraDevice:"
+- "setCloudResourcePrefetchMode:"
+- "setColorSpace:"
+- "setColorspace:"
+- "setCompletedUnitCount:"
+- "setCompletionBlock:"
+- "setContentCompressionResistancePriority:forAxis:"
+- "setContentHuggingPriority:forAxis:"
+- "setContentMode:"
+- "setContentScaleFactor:"
+- "setCornerStyle:"
+- "setCountLimit:"
+- "setCreationDate:"
+- "setDateFormat:"
+- "setDateStyle:"
+- "setDeliveryMode:"
+- "setDetectCaptions:"
+- "setDetectMADCaptions:"
+- "setDetectMADScenes:"
+- "setDetectModelClassifications:"
+- "setDetectObjects:"
+- "setDetectProminentObjects:"
+- "setDetectScenes:"
+- "setDetectText:"
+- "setDetectTraits:"
+- "setDisplayText:"
+- "setDoesRelativeDateFormatting:"
+- "setDuration:"
+- "setEnableCloudSync:"
+- "setEnabled:"
+- "setEvictsObjectsWhenApplicationEntersBackground:"
+- "setExpungeSource:"
+- "setExtendedContextLength:"
+- "setExtent:"
+- "setFavorite:"
+- "setFetchLimit:"
+- "setFetchPropertySets:"
+- "setFrame:"
+- "setGenerating - transitionToBlobOrAppleEffect showAppleEffect %{bool}d"
+- "setHidden:"
+- "setImage:"
+- "setImageDescription:"
+- "setImages:"
+- "setIncludeImageInResult:"
+- "setIncludedDetectionTypes:"
+- "setIsAccessibilityElement:"
+- "setIsAnimating:"
+- "setIsEditing:"
+- "setIsShowingError:"
+- "setKeyboardAppearance:"
+- "setLocale:"
+- "setLowLatency:"
+- "setModalPresentationStyle:"
+- "setNetworkAccessAllowed:"
+- "setNumberStyle:"
+- "setObject:forKey:"
+- "setObject:forKey:cost:"
+- "setPaused:"
+- "setPersonContext:"
+- "setPixelFormat:"
+- "setPlaceholderText:"
+- "setPosition:"
+- "setPredicate:"
+- "setPreferredFramesPerSecond:"
+- "setPreferredOutputLocale:"
+- "setProgress:"
+- "setPromptElements - composingViewModel is nil"
+- "setRampSize:"
+- "setRecipeData - composingViewModel is nil"
+- "setRendersContinuously:"
+- "setResultHandlerQueue:"
+- "setSortDescriptors:"
+- "setSourceImage - composingViewModel is nil"
+- "setSourceType:"
+- "setState:"
+- "setString:"
+- "setSupportsAdaptiveImageGlyph:"
+- "setSynchronous:"
+- "setTextDetectionOptions:"
+- "setTimeStyle:"
+- "setTimingFunction:"
+- "setTintColor:"
+- "setTitle:forState:"
+- "setTotalCostLimit:"
+- "setTotalUnitCount:"
+- "setTransitionToImageDuration:"
+- "setURL:forKey:"
+- "setUseRecoverableStagingDirectory:"
+- "setValue:forKeyPath:"
+- "setVariant:"
+- "setWorld:"
+- "settings-navigation://com.apple.Settings.General/STORAGE_MGMT"
+- "settings-navigation://com.apple.Settings.Siri"
+- "settings-navigation://com.apple.Settings.WiFi"
+- "setupTokenWithCompletion:"
+- "shapesCount"
+- "shareableImage()"
+- "shareableImageMakeURL()"
+- "sharedApplication"
+- "sharedGuard"
+- "sharedManager"
+- "sharedPreferences"
+- "sharedScheduler"
+- "shieldViewUnlockButtonPressed(_:)"
+- "shieldViewUnlockButtonPressed:"
+- "should not reach"
+- "shouldDisableFakeNavigationBarKey"
+- "shouldFavorite"
+- "shouldShow"
+- "showErrorIfNeeded - delegate is nil!"
+- "showImage"
+- "showingGeneratedImage"
+- "signaturesCount"
+- "size"
+- "sketch-style-enabled-gp"
+- "sketchPlaygroundImage"
+- "skips-local-sysdiagnose-only"
+- "sortDescriptorsForManualSort"
+- "sourceHeight"
+- "sourceIdentifier"
+- "sourceWidth"
+- "square.and.arrow.down"
+- "square.and.arrow.up"
+- "square.grid.2x2.fill"
+- "star.square.fill"
+- "start"
+- "startGeneratingPreviews - We already have the max amount of previews - Ignoring startGeneratingPreviews "
+- "startGeneratingPreviews - append preview image"
+- "startGeneratingPreviews - canStartPreviewGeneration is false - Ignoring startGeneratingPreviews"
+- "startGeneratingPreviews - current preview is not the last - Ignoring startGeneratingPreviews"
+- "startGeneratingPreviews - did configure playground"
+- "startGeneratingPreviews - did stop listening to stream"
+- "startGeneratingPreviews - isGeneratingImages is true - Ignoring startGeneratingPreviews"
+- "startGeneratingPreviews - retrying after a failure %@"
+- "startGeneratingPreviews - will start listening to stream"
+- "startGeneratingPreviewsStream - %s - cancelled"
+- "startGeneratingPreviewsStream - %s - configuration did cancel with error %@"
+- "startGeneratingPreviewsStream - %s - configuration did receive error %@"
+- "startGeneratingPreviewsStream - %s - done"
+- "startGeneratingPreviewsStream - %s - image index %ld - did create PreviewImage"
+- "startGeneratingPreviewsStream - %s - image index %ld - did generate"
+- "startGeneratingPreviewsStream - %s - image index %ld - did receive error %@"
+- "startGeneratingPreviewsStream - %s - image index %ld - generate progress %f"
+- "startGeneratingPreviewsStream - %s - image index %ld - self.generator.isCancelled"
+- "startGeneratingPreviewsStream - %s - image index %ld - setting seed (cached) %ld"
+- "startGeneratingPreviewsStream - %s - image index %ld - setting seed (fixed) %ld"
+- "startGeneratingPreviewsStream - %s - image index %ld - setting seed (precomputed) %ld - scribble strength %f"
+- "startGeneratingPreviewsStream - %s - image index %ld - setting seed (random) %ld"
+- "startGeneratingPreviewsStream - Ignoring error on preview number %ld, given we returned at least one successful image."
+- "startGeneratingPreviewsStream - ignoring generation batch %s as it is too old — current is %s"
+- "startGeneratingPreviewsStream - new generationBatchIdentifier: %s"
+- "startSelectionWithPath:atPencilLocation:"
+- "state"
+- "stateChangedHandler"
+- "stream"
+- "stringByReplacingMatchesInString:options:range:withTemplate:"
+- "stringForKey:"
+- "stringFromDate:"
+- "stringFromNumber:"
+- "strokesCount"
+- "subjectDescription"
+- "subjectPriorityIndex"
+- "subjectPrioritySortingForCuratedPrompts"
+- "subjectSpecificPromptForCuratedPrompts"
+- "substringWithRange:"
+- "subviews"
+- "suggested-bubbles"
+- "suggestions"
+- "suggestionsCategory"
+- "summarizeContext inputs — conversationContextItems: %s"
+- "summarizeContext inputs — text: %s"
+- "summarizeContext inputs — title: %s - textualContext: %s"
+- "summarizeContext outputs — visualConcepts: %s"
+- "summarizeContext outputs — visualTopLine is nil"
+- "summarizeContext outputs — visualTopLine: %s"
+- "supportsUndoing"
+- "suspend"
+- "sysdiagnose-only"
+- "systemBackgroundColor"
+- "systemDarkGrayColor"
+- "systemFillColor"
+- "systemGray3Color"
+- "systemImageName"
+- "systemImageNamed:"
+- "systemPhotoLibrary"
+- "systemPhotoLibraryURL"
+- "targetsOfInterest"
+- "taskStartedWithParameters:error:"
+- "taskStoppedWithParameters:error:"
+- "temporaryDirectory"
+- "tertiaryLabelColor"
+- "text-embedding-suggestion-engine-enabled"
+- "textRangeFromPosition:toPosition:"
+- "textSuggestionWithInputText:searchText:"
+- "thermalState"
+- "thermalStateObserver"
+- "thirdAppearanceViewModel"
+- "thumbnailSize"
+- "timestamp"
+- "tintColor"
+- "titlePrefix"
+- "toBeLoadedIndexSet: %s"
+- "token"
+- "totalCount"
+- "traitCollection"
+- "traits"
+- "transitionToBubble"
+- "transitionToFinalImage"
+- "transitionToFinalImage:"
+- "transitionToGeneratingState"
+- "transitionToImageDuration"
+- "transition_appleToBlob"
+- "transition_blobToPicture"
+- "transition_blobToRectangle"
+- "transition_blobToRectangle_processing"
+- "transition_circleToBlob"
+- "transition_circleToRectangle"
+- "transition_empty_to_circle"
+- "transition_finalPicture"
+- "transition_shapeToBlob"
+- "transition_to_error"
+- "triggerWithImage:options:cacheKey:resultHandler:"
+- "type"
+- "undo"
+- "undoActionItem"
+- "undoManager"
+- "undoRecipe"
+- "unexpected image format"
+- "unsafeContextDetected"
+- "updateEditFrameIfNeeded - editViewFrame: %s - newFrame: %s"
+- "updateEditFrameIfNeeded - previousEffectSize: %s - newEffectSize: %s"
+- "updateSelectionWithPath:atPencilLocation:"
+- "updatingDelegates"
+- "upscaleIfPossible"
+- "upscaling - did imageGenerationManager"
+- "upscaling - did stop listening to stream"
+- "upscaling - previewsViewModel.isGeneratingFinalImage = true"
+- "upscaling - retrying after a failure"
+- "upscaling - state = .upscaling"
+- "upscaling - will start listening to stream"
+- "upscalingMatchedTransitionID"
+- "useCase"
+- "useLightEffectsBackgroundBelowView:"
+- "userDefaults"
+- "userInfo"
+- "userInterfaceStyle"
+- "usesGenericCharacterIcon"
+- "uuid"
+- "uuidFromLocalIdentifier:"
+- "v12@?0B8"
+- "v12@?0i8"
+- "v16@?0@\"<UIViewControllerTransitionCoordinatorContext>\"8"
+- "v16@?0@\"NSNotification\"8"
+- "v16@?0@\"NSTimer\"8"
+- "v16@?0@\"NSURL\"8"
+- "v16@?0@\"UIGraphicsImageRendererContext\"8"
+- "v20@0:8f16"
+- "v20@?0B8@\"NSError\"12"
+- "v20@?0i8@\"NSError\"12"
+- "v24@0:8@\"APBaseExtensionShieldView\"16"
+- "v24@0:8@\"AXSSImageDescriptionViewController\"16"
+- "v24@0:8@\"GPImageAndFormat\"16"
+- "v24@0:8@\"PHChange\"16"
+- "v24@0:8@\"UIImagePickerController\"16"
+- "v24@0:8@?<v@?@\"NSString\"@\"NSError\">16"
+- "v24@0:8^i16"
+- "v24@0:8^{CGColorSpace=}16"
+- "v24@?0@\"AXMVisionResult\"8@\"NSError\"16"
+- "v24@?0@\"NSDictionary\"8@\"NSError\"16"
+- "v24@?0@\"NSString\"8@\"NSError\"16"
+- "v24@?0@\"UIImage\"8@\"NSDictionary\"16"
+- "v24@?0@\"VFXAssetNode\"8^B16"
+- "v32@0:8@\"<VFXWorldRenderer>\"16d24"
+- "v32@0:8@\"UIImagePickerController\"16@\"NSDictionary\"24"
+- "v32@0:8@16d24"
+- "v32@?0@\"PHAsset\"8q16^B24"
+- "v32@?0@\"PHPerson\"8q16^B24"
+- "v36@0:8@\"UINavigationController\"16@\"UIViewController\"24B32"
+- "v36@0:8@16@24B32"
+- "v36@?0@\"NSData\"8@\"NSString\"16I24@\"NSDictionary\"28"
+- "v40@0:8@\"<VFXWorldRenderer>\"16@\"VFXWorld\"24d32"
+- "v40@0:8@\"UIImagePickerController\"16@\"UIImage\"24@\"NSDictionary\"32"
+- "v40@0:8@16@24d32"
+- "v40@0:8r^{CGPath=}16{CGPoint=dd}24"
+- "v40@0:8{CGSize=dd}16@32"
+- "v48@0:8{CGRect={CGPoint=dd}{CGSize=dd}}16"
+- "value"
+- "valueForKey:"
+- "valueForKeyPath:"
+- "valueWithVFXFloat2:"
+- "verifyCaptureAuthorization()"
+- "verticalSizeClass"
+- "vfxPath"
+- "vfx_resetColorSpace"
+- "vfx_setClearBackground"
+- "vfx_setExtendedLinearSRGBColorSpace"
+- "vfx_setLinearSRGBColorSpace"
+- "viewDidLayoutSubviews"
+- "viewIsAppearing:"
+- "viewWillDisappear:"
+- "viewWillTransitionToSize:withTransitionCoordinator:"
+- "vuObservationID"
+- "wandDesign0354"
+- "wandNodes is nil"
+- "wandPathPoints"
+- "wandPoint"
+- "wandSelectionSignpostState"
+- "wandWhite"
+- "wand_position"
+- "wantsToPreloadView"
+- "whiteColor"
+- "whiteImage"
+- "width"
+- "willEvictHandler"
+- "window"
+- "windowScene"
+- "wordsCount"
+- "workingQueue"
+- "world"
+- "worldWithURL:options:error:"
+- "writableTypeIdentifiersForItemProvider"
+- "writeDataForAssetResource:toFile:options:completionHandler:"
+- "writeQueue"
+- "xmark.circle.fill"
+- "yyyy.MM.dd_HH-mm-ss"
+- "{CGRect=\"origin\"{CGPoint=\"x\"d\"y\"d}\"size\"{CGSize=\"width\"d\"height\"d}}"
+- "{CGRect={CGPoint=dd}{CGSize=dd}}16@0:8"
+- "⚠️ Enabling this will log everything, including input and output images and will be included in radars filed through Tap-to-Radar in the app"
+
+```

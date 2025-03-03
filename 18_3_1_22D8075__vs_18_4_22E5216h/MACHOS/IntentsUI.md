@@ -1,0 +1,375 @@
+## IntentsUI
+
+> `/Applications/InCallService.app/PlugIns/IntentsUI.appex/IntentsUI`
+
+```diff
+
+-2975.400.141.2.1
+-  __TEXT.__text: 0x5d204
+-  __TEXT.__auth_stubs: 0x1950
+-  __TEXT.__objc_stubs: 0x9020
+-  __TEXT.__objc_methlist: 0x36bc
+-  __TEXT.__cstring: 0x25b4
++2975.500.161.2.1
++  __TEXT.__text: 0x6b4e0
++  __TEXT.__auth_stubs: 0x1a70
++  __TEXT.__objc_stubs: 0x9140
++  __TEXT.__objc_methlist: 0x4c2c
++  __TEXT.__cstring: 0x30a2
+   __TEXT.__objc_classname: 0x57f
+-  __TEXT.__objc_methname: 0xe594
+-  __TEXT.__objc_methtype: 0x2099
+-  __TEXT.__oslogstring: 0x2266
+-  __TEXT.__const: 0xb90
+-  __TEXT.__gcc_except_tab: 0x2b4
+-  __TEXT.__constg_swiftt: 0x768
+-  __TEXT.__swift5_typeref: 0x7bc
++  __TEXT.__objc_methname: 0xeca3
++  __TEXT.__objc_methtype: 0x20f5
++  __TEXT.__oslogstring: 0x23ff
++  __TEXT.__const: 0x14e0
++  __TEXT.__gcc_except_tab: 0x2cc
++  __TEXT.__constg_swiftt: 0xabc
++  __TEXT.__swift5_typeref: 0xdba
++  __TEXT.__swift5_reflstr: 0x64f
++  __TEXT.__swift5_fieldmd: 0x738
+   __TEXT.__swift5_builtin: 0x78
+-  __TEXT.__swift5_capture: 0x7a8
+-  __TEXT.__swift5_reflstr: 0x3e2
+-  __TEXT.__swift5_fieldmd: 0x414
+-  __TEXT.__swift5_assocty: 0x78
+-  __TEXT.__swift5_proto: 0x7c
+-  __TEXT.__swift5_types: 0x5c
++  __TEXT.__swift5_capture: 0xb9c
++  __TEXT.__swift5_assocty: 0xf0
++  __TEXT.__swift5_proto: 0xc4
++  __TEXT.__swift5_types: 0x80
++  __TEXT.__swift_as_entry: 0x128
++  __TEXT.__swift_as_ret: 0xec
+   __TEXT.__swift5_mpenum: 0x1c
+-  __TEXT.__swift5_protos: 0x10
+-  __TEXT.__unwind_info: 0x1940
+-  __TEXT.__eh_frame: 0x2758
+-  __DATA_CONST.__auth_got: 0xcb8
+-  __DATA_CONST.__got: 0x6d0
+-  __DATA_CONST.__auth_ptr: 0x320
+-  __DATA_CONST.__const: 0x1c40
++  __TEXT.__swift5_protos: 0x18
++  __TEXT.__unwind_info: 0x1e38
++  __TEXT.__eh_frame: 0x2ec8
++  __DATA_CONST.__auth_got: 0xd48
++  __DATA_CONST.__got: 0x758
++  __DATA_CONST.__auth_ptr: 0x4f0
++  __DATA_CONST.__const: 0x2708
+   __DATA_CONST.__cfstring: 0xe60
+-  __DATA_CONST.__objc_classlist: 0x140
++  __DATA_CONST.__objc_classlist: 0x170
+   __DATA_CONST.__objc_catlist: 0x58
+-  __DATA_CONST.__objc_protolist: 0x140
++  __DATA_CONST.__objc_protolist: 0x160
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_protorefs: 0x58
++  __DATA_CONST.__objc_protorefs: 0x78
+   __DATA_CONST.__objc_superrefs: 0xb0
+   __DATA_CONST.__objc_intobj: 0x78
+-  __DATA.__objc_const: 0x7f20
+-  __DATA.__objc_selrefs: 0x2d00
+-  __DATA.__objc_ivar: 0x404
+-  __DATA.__objc_data: 0x1548
+-  __DATA.__data: 0x1b38
+-  __DATA.__bss: 0xd80
+-  __DATA.__common: 0x88
++  __DATA.__objc_const: 0x7848
++  __DATA.__objc_selrefs: 0x32d0
++  __DATA.__objc_ivar: 0x40c
++  __DATA.__objc_data: 0x1830
++  __DATA.__data: 0x1d70
++  __DATA.__bss: 0x1600
++  __DATA.__common: 0x110
+   - /System/Library/Frameworks/AVFoundation.framework/AVFoundation
+   - /System/Library/Frameworks/Combine.framework/Combine
+   - /System/Library/Frameworks/Contacts.framework/Contacts
+
+   - /System/Library/PrivateFrameworks/CallHistory.framework/CallHistory
+   - /System/Library/PrivateFrameworks/CollectionsInternal.framework/CollectionsInternal
+   - /System/Library/PrivateFrameworks/CommonUtilities.framework/CommonUtilities
++  - /System/Library/PrivateFrameworks/ConversationKit.framework/ConversationKit
+   - /System/Library/PrivateFrameworks/CoreAnalytics.framework/CoreAnalytics
++  - /System/Library/PrivateFrameworks/CoreEmoji.framework/CoreEmoji
+   - /System/Library/PrivateFrameworks/CorePhoneNumbers.framework/CorePhoneNumbers
+   - /System/Library/PrivateFrameworks/FaceTimeMessageStore.framework/FaceTimeMessageStore
+   - /System/Library/PrivateFrameworks/IDS.framework/IDS
+
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/swift/libswiftAVFoundation.dylib
+   - /usr/lib/swift/libswiftAccelerate.dylib
++  - /usr/lib/swift/libswiftAppleArchive.dylib
+   - /usr/lib/swift/libswiftCallKit.dylib
++  - /usr/lib/swift/libswiftCompression.dylib
+   - /usr/lib/swift/libswiftCore.dylib
+   - /usr/lib/swift/libswiftCoreAudio.dylib
+   - /usr/lib/swift/libswiftCoreFoundation.dylib
+
+   - /usr/lib/swift/libswiftCoreLocation.dylib
+   - /usr/lib/swift/libswiftCoreMIDI.dylib
+   - /usr/lib/swift/libswiftCoreMedia.dylib
++  - /usr/lib/swift/libswiftCryptoTokenKit.dylib
+   - /usr/lib/swift/libswiftDarwin.dylib
+   - /usr/lib/swift/libswiftDataDetection.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+-  - /usr/lib/swift/libswiftFileProvider.dylib
++  - /usr/lib/swift/libswiftGLKit.dylib
+   - /usr/lib/swift/libswiftIntents.dylib
++  - /usr/lib/swift/libswiftMapKit.dylib
+   - /usr/lib/swift/libswiftMetal.dylib
++  - /usr/lib/swift/libswiftMetalKit.dylib
++  - /usr/lib/swift/libswiftModelIO.dylib
++  - /usr/lib/swift/libswiftNaturalLanguage.dylib
+   - /usr/lib/swift/libswiftOSLog.dylib
+   - /usr/lib/swift/libswiftObjectiveC.dylib
+   - /usr/lib/swift/libswiftQuartzCore.dylib
++  - /usr/lib/swift/libswiftSceneKit.dylib
+   - /usr/lib/swift/libswiftSpatial.dylib
++  - /usr/lib/swift/libswiftSpriteKit.dylib
++  - /usr/lib/swift/libswiftSynchronization.dylib
+   - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
++  - /usr/lib/swift/libswiftVideoToolbox.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
+
+   - /usr/lib/swift/libswiftsimd.dylib
+   - /usr/lib/swift/libswiftsys_time.dylib
+   - /usr/lib/swift/libswiftunistd.dylib
+-  Functions: 2032
+-  Symbols:   492
+-  CStrings:  2949
++  Functions: 2506
++  Symbols:   518
++  CStrings:  3111
+ 
+Symbols:
++ _CEMCreateStringByStrippingEmojiCharacters
++ _OBJC_CLASS_$_NSCharacterSet
++ _OBJC_CLASS_$_NSUserDefaults
++ _OBJC_CLASS_$_VMAccount
++ __swift_FORCE_LOAD_$_swiftAppleArchive
++ __swift_FORCE_LOAD_$_swiftCompression
++ __swift_FORCE_LOAD_$_swiftCryptoTokenKit
++ __swift_FORCE_LOAD_$_swiftGLKit
++ __swift_FORCE_LOAD_$_swiftMapKit
++ __swift_FORCE_LOAD_$_swiftMetalKit
++ __swift_FORCE_LOAD_$_swiftModelIO
++ __swift_FORCE_LOAD_$_swiftNaturalLanguage
++ __swift_FORCE_LOAD_$_swiftSceneKit
++ __swift_FORCE_LOAD_$_swiftSpriteKit
++ __swift_FORCE_LOAD_$_swiftVideoToolbox
++ _objc_release_x2
++ _swift_allocateGenericClassMetadata
++ _swift_cvw_assignWithCopy
++ _swift_cvw_assignWithTake
++ _swift_cvw_destroy
++ _swift_cvw_enumFn_getEnumTag
++ _swift_cvw_initEnumMetadataMultiPayloadWithLayoutString
++ _swift_cvw_initStructMetadataWithLayoutString
++ _swift_cvw_initWithCopy
++ _swift_cvw_initWithTake
++ _swift_cvw_initializeBufferWithCopyOfBuffer
++ _swift_cvw_multiPayloadEnumGeneric_destructiveInjectEnumTag
++ _swift_cvw_multiPayloadEnumGeneric_getEnumTag
++ _swift_deallocPartialClassInstance
++ _swift_getGenericMetadata
++ _swift_initClassMetadata2
++ _swift_isaMask
++ _swift_runtimeSupportsNoncopyableTypes
++ _swift_unknownObjectWeakAssign
+- __swift_FORCE_LOAD_$_swiftFileProvider
+- _fmod
+- _object_getClass
+- _swift_initEnumMetadataMultiPayload
+- _swift_initStructMetadata
+- _swift_weakDestroy
+- _swift_weakInit
+- _swift_weakLoadStrong
+CStrings:
++ " accountDescription: "
++ " greetingChangeSupported: "
++ "%s: Setting messages as read %s"
++ "%s: Updating Messages with read: %s"
++ ") isMessageWaiting: ("
++ ") storageUsage: ("
++ ", callVoicemailSupported: "
++ ".estimatedVoicemailCount"
++ "@\"NSArray\"16@0:8"
++ "@\"NSObject<MPVoicemailAccountManagerProtocol>\""
++ "@\"NSProgress\"16@0:8"
++ "@24@0:8@?<v@?@\"MPVoicemailAccountManagerUpdate\"@\"NSUUID\">16"
++ "@36@0:8@16B24B28B32"
++ "@52@0:8@16B24B28B32B36B40@44"
++ "@56@0:8B16B20B24Q28B36@\"NSProgress\"40@\"NSArray\"48"
++ "@56@0:8B16B20B24Q28B36@40@48"
++ "B16@?0@\"MPVoicemailAccount\"8"
++ "B24@0:8@\"NSUUID\"16"
++ "FaceTimeVoiceMailManager failed to retrieve message for query %{public}s because the message store threw an error %@"
++ "Failed to report problem for message with ID(%@ becuase it could not be found."
++ "IntentsUI.CachedVoicemailManager"
++ "IntentsUI.FTMessage"
++ "IntentsUI.VoicemailAccount"
++ "IntentsUI.VoicemailAccountManager"
++ "IntentsUI.VoicemailAccountManagerData"
++ "IntentsUI.VoicemailAccountManagerDecorator"
++ "IntentsUI.VoicemailAccountManagerUpdate"
++ "IntentsUI.VoicemailDelegateDecorator"
++ "MPVoicemailAccount"
++ "MPVoicemailAccountManagerAccounts"
++ "MPVoicemailAccountManagerAllUpdates"
++ "MPVoicemailAccountManagerDataProtocol"
++ "MPVoicemailAccountManagerDecorator"
++ "MPVoicemailAccountManagerDelegate"
++ "MPVoicemailAccountManagerGreeting"
++ "MPVoicemailAccountManagerProtocol"
++ "MPVoicemailAccountManagerStorageUsage"
++ "MPVoicemailAccountManagerSubscribedAccounts"
++ "MPVoicemailAccountManagerSyncInProgress"
++ "MPVoicemailAccountManagerTranscribingStatus"
++ "MPVoicemailAccountManagerUpdate"
++ "MPVoicemailAccountManagerUpdateCapabilities"
++ "MPVoicemailAccountManagerUpdateOnlineStatus"
++ "No Account found for %s in cache."
++ "T@\"MPVoicemailAccountManagerUpdate\",N,R"
++ "T@\"NSArray\",N,R"
++ "T@\"NSObject<MPVoicemailAccountManagerProtocol>\",R,N,V_accountManager"
++ "T@\"NSProgress\",N,R"
++ "T@\"NSProgress\",N,R,VtranscriptionProgress"
++ "TB,N,R,VanyAccountSubscribed"
++ "TB,N,R,VcallVoicemailSupported"
++ "TB,N,R,VgreetingChangeSupported"
++ "TB,N,R,VhasHandle"
++ "TB,N,R,VisMessageWaiting"
++ "TB,N,R,Vonline"
++ "TB,N,R,Vprovisioned"
++ "TB,N,R,Vsubscribed"
++ "TB,N,R,VtranscriptionEnabled"
++ "TB,N,V_hasPendingUpdates"
++ "TB,N,V_hasUpdated"
++ "TQ,N,R,VstorageUsage"
++ "Tq,N,VestimatedCount"
++ "VMD(%s) estimatedAccountCount: %ld"
++ "VMD(%s) isMessageWaiting: %{bool}d"
++ "VMD(%s) isSubscribed: %{bool}d"
++ "VMD(%s) online: %{bool}d"
++ "VMD(%s) storageUsage: %lu"
++ "VoiceMail rating: We failed to rate becuase we do not support it for FTMessages yet."
++ "VoicemailAccount(uuid: "
++ "VoicemailAccountManager.Cache anyAccountSubscribed: ("
++ "_TtC9IntentsUI26VoicemailDelegateDecorator"
++ "_TtC9IntentsUI27VoicemailAccountManagerData"
++ "_TtC9IntentsUIP33_B434561B0979B3D53C321DBA9EFEB12220MessageStoreDelegate"
++ "_TtP9IntentsUI28VoicemailManager_Estimations_"
++ "_cache"
++ "_hasPendingUpdates"
++ "_hasUpdated"
++ "accountDescription"
++ "accountSource"
++ "accountSourceProvider"
++ "anyAccountSubscribed"
++ "cacheDefaults"
++ "callVoicemailSupported"
++ "cancellables"
++ "countOfVoicemailsPassingTest:"
++ "d24@0:8@\"NSUUID\"16"
++ "diskCache"
++ "empty"
++ "estimatedAccountCount"
++ "estimatedCount"
++ "fetchRecentCalls:"
++ "greetingChangeSupported"
++ "greetingForAccountUUID:completion:"
++ "hasHandle"
++ "hasPendingUpdates"
++ "hasUpdated"
++ "initWithAnyAccountSubscribed:online:isMessageWaiting:storageUsage:transcriptionEnabled:transcriptionProgress:accounts:"
++ "initWithUuid:callVoicemailSupported:subscribed:greetingChangeSupported:provisioned:hasHandle:accountDescription:"
++ "initWithVMD:"
++ "initWithVmAccount:callVoicemailSupported:subscribed:greetingChangeSupported:"
++ "integerForKey:"
++ "isAnyAccountSubscribed"
++ "isGreetingChangeSupportedForAccountUUID:"
++ "isMessageWaiting"
++ "isOnline"
++ "isPasscodeChangeSupportedForAccountUUID:"
++ "isProvisioned"
++ "isSubscribed"
++ "lastTask"
++ "listenForChangesWithClosure:"
++ "manager"
++ "maximumGreetingDurationForAccountUUID:"
++ "maximumPasscodeLengthForAccountUUID:"
++ "messageStoreDelegate"
++ "minimumPasscodeLengthForAccountUUID:"
++ "onUpdate"
++ "online"
++ "parsedNamesStrippingEmoji"
++ "provisioned"
++ "q24@0:8@\"NSUUID\"16"
++ "queue"
++ "rawValue"
++ "reportTranscriptionProblemForVoicemail:"
++ "reportTranscriptionRatedAccurate:forVoicemail:"
++ "serviceName"
++ "setEstimatedCount:"
++ "setGreeting:forAccountUUID:completion:"
++ "setHasPendingUpdates:"
++ "setHasUpdated:"
++ "setPasscode:forAccountUUID:completion:"
++ "storageUsage"
++ "stringByTrimmingCharactersInSet:"
++ "subarrayWithRange:"
++ "subscribed"
++ "subscribedAccountsDidChange"
++ "textView:insertInputSuggestion:"
++ "transcriptionEnabled"
++ "transcriptionProgress"
++ "updateCacheTask"
++ "updateRecentCalls:"
++ "updateWithRecentCalls:"
++ "updatesPublisher"
++ "uuid"
++ "v20@?0B8@\"NSError\"12"
++ "v24@0:8@\"MPMessageID\"16"
++ "v24@?0@\"MPVoicemailAccountManagerUpdate\"8@\"NSUUID\"16"
++ "v24@?0@\"VMVoicemailGreeting\"8@\"NSError\"16"
++ "v28@0:8B16@\"MPMessageID\"20"
++ "v32@0:8@\"NSUUID\"16@?<v@?@\"VMVoicemailGreeting\"@\"NSError\">24"
++ "v32@0:8@\"UITextView\"16@\"UIInputSuggestion\"24"
++ "v40@0:8@\"NSString\"16@\"NSUUID\"24@?<v@?B@\"NSError\">32"
++ "v40@0:8@\"VMVoicemailGreeting\"16@\"NSUUID\"24@?<v@?B@\"NSError\">32"
++ "v40@0:8@16@24@?32"
++ "vmd"
++ "whitespaceCharacterSet"
+- "@\"VMVoicemailManager\"16@0:8"
+- "B16@?0@\"VMAccount\"8"
+- "Can't construct Array with count < 0"
+- "FaceTimeVoiceMailManager failed to retrieve message for uuid %{public}s because the message store threw an error %@"
+- "FaceTimeVoicemailManager received the incorrect type %{public}@ when it expected a uuid"
+- "Insufficient space allocated to copy string contents"
+- "Swift/Array.swift"
+- "Swift/ContiguousArrayBuffer.swift"
+- "Swift/StringTesting.swift"
+- "Swift/StringUTF8View.swift"
+- "Swift/UnsafeBufferPointer.swift"
+- "Swift/UnsafePointer.swift"
+- "Swift/UnsafeRawPointer.swift"
+- "T@\"VMVoicemailManager\",N,R"
+- "T@\"VMVoicemailManager\",R,N,V_accountManager"
+- "Unexpectedly found nil while unwrapping an Optional value"
+- "UnsafeMutableBufferPointer with negative count"
+- "UnsafeMutablePointer.initialize overlapping range"
+- "UnsafeMutablePointer.initialize with negative count"
+- "UnsafeMutablePointer.moveInitialize with negative count"
+- "UnsafeMutableRawPointer.initializeMemory overlapping range"
+- "fetchRecentCalls"
+- "invalid Collection: less than 'count' elements in collection"
+- "vmdVoiceMailManager"
+
+```

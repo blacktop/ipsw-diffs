@@ -1,0 +1,34 @@
+## SUSFollowUpExtension
+
+> `/System/Library/PrivateFrameworks/SoftwareUpdateServices.framework/PlugIns/SUSFollowUpExtension.appex/SUSFollowUpExtension`
+
+```diff
+
+-868.80.4.0.0
+-  __TEXT.__text: 0x694
+-  __TEXT.__auth_stubs: 0x90
++905.100.8.0.0
++  __TEXT.__text: 0x6e0
++  __TEXT.__auth_stubs: 0x80
+   __TEXT.__objc_stubs: 0x140
+   __TEXT.__objc_methlist: 0x20
+-  __TEXT.__cstring: 0xbf6
++  __TEXT.__cstring: 0xbf1
+   __TEXT.__objc_classname: 0x25
+   __TEXT.__objc_methname: 0x133
+   __TEXT.__objc_methtype: 0x2e
+   __TEXT.__unwind_info: 0x60
+-  __DATA_CONST.__auth_got: 0x50
+-  __DATA_CONST.__got: 0x38
++  __DATA_CONST.__auth_got: 0x48
++  __DATA_CONST.__got: 0x40
+   __DATA_CONST.__const: 0x378
+   __DATA_CONST.__cfstring: 0xde0
+   __DATA_CONST.__objc_classlist: 0x8
+CStrings:
++ "PallasOverrides"
++ "_DownloadSize"
+- "_Measurement"
+- "_MeasurementAlgorithm"
+
+```

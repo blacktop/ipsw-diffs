@@ -1,0 +1,545 @@
+## CoreRepairKit
+
+> `/System/Library/PrivateFrameworks/CoreRepairKit.framework/CoreRepairKit`
+
+```diff
+
+-645.82.1.0.0
+-  __TEXT.__text: 0xd188
+-  __TEXT.__auth_stubs: 0x6e0
+-  __TEXT.__objc_methlist: 0x684
+-  __TEXT.__const: 0x3f8
+-  __TEXT.__cstring: 0xc14
+-  __TEXT.__oslogstring: 0xed6
+-  __TEXT.__gcc_except_tab: 0x1cc
+-  __TEXT.__unwind_info: 0x2b0
+-  __TEXT.__objc_classname: 0x208
+-  __TEXT.__objc_methname: 0x1131
+-  __TEXT.__objc_methtype: 0x443
+-  __TEXT.__objc_stubs: 0x10a0
+-  __DATA_CONST.__got: 0x178
+-  __DATA_CONST.__const: 0x108
+-  __DATA_CONST.__objc_classlist: 0xd0
+-  __DATA_CONST.__objc_protolist: 0x20
++696.100.57.0.0
++  __TEXT.__text: 0x2574
++  __TEXT.__auth_stubs: 0x360
++  __TEXT.__objc_methlist: 0x29c
++  __TEXT.__const: 0x98
++  __TEXT.__cstring: 0x296
++  __TEXT.__gcc_except_tab: 0x38
++  __TEXT.__oslogstring: 0x43d
++  __TEXT.__unwind_info: 0xe8
++  __TEXT.__objc_classname: 0xa8
++  __TEXT.__objc_methname: 0x811
++  __TEXT.__objc_methtype: 0x235
++  __TEXT.__objc_stubs: 0x660
++  __DATA_CONST.__got: 0xa0
++  __DATA_CONST.__const: 0x50
++  __DATA_CONST.__objc_classlist: 0x30
++  __DATA_CONST.__objc_protolist: 0x18
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x4e8
+-  __DATA_CONST.__objc_protorefs: 0x10
+-  __DATA_CONST.__objc_superrefs: 0x90
+-  __DATA_CONST.__objc_arraydata: 0x48
+-  __AUTH_CONST.__auth_got: 0x380
+-  __AUTH_CONST.__const: 0x20
+-  __AUTH_CONST.__cfstring: 0x1280
+-  __AUTH_CONST.__objc_const: 0x13c8
+-  __AUTH_CONST.__objc_arrayobj: 0x48
+-  __AUTH.__objc_data: 0x2d0
+-  __DATA.__objc_ivar: 0x8
+-  __DATA.__data: 0x180
+-  __DATA.__bss: 0x10
+-  __DATA_DIRTY.__objc_data: 0x550
+-  __DATA_DIRTY.__bss: 0x10
++  __DATA_CONST.__objc_selrefs: 0x298
++  __DATA_CONST.__objc_protorefs: 0x8
++  __AUTH_CONST.__auth_got: 0x1c0
++  __AUTH_CONST.__auth_ptr: 0x8
++  __AUTH_CONST.__cfstring: 0x440
++  __AUTH_CONST.__objc_const: 0x4e8
++  __AUTH.__objc_data: 0x190
++  __DATA.__data: 0x120
++  __DATA_DIRTY.__objc_data: 0x50
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreServices.framework/CoreServices
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+
+   - /usr/lib/libamsupport.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/updaters/libT200Updater.dylib
+-  Functions: 241
+-  Symbols:   192
+-  CStrings:  563
++  Functions: 56
++  Symbols:   92
++  CStrings:  199
+ 
+Symbols:
++ _OBJC_CLASS_$_CRFDRUtils
++ _OBJC_CLASS_$_CRRepairStatusLite
+- _AMFDRCreateTypeWithOptions
+- _AMFDRCreateWithOptions
+- _AMFDRDataCopyManifest
+- _AMFDRDataCopySealingManifestProperty
+- _AMFDRSealingManifestCopyDataClassesInstancesAndProperties
+- _AMFDRSealingManifestCopyInstanceForClass
+- _AMFDRSealingManifestCopyLocalDataForClass
+- _AMFDRSealingManifestCopyMultiInstanceForClass
+- _AMFDRSealingMapCopyDataClassesAndInstancesWithAttribute
+- _AMFDRSealingMapCopyDataClassesWithAttribute
+- _AMFDRSealingMapCopyLocalData
+- _AMFDRSealingMapCopyManifestProperties
+- _AMFDRSealingMapCopyMultiInstanceForClass
+- _AMFDRSealingMapCopyPropertyWithTag
+- _AMFDRSealingMapPopulateSealingManifest
+- _AMFDRSetOption
+- _AMSupportSafeRelease
+- _CFArrayAppendValue
+- _CFArrayCreateMutable
+- _CFBooleanGetValue
+- _CFDictionaryAddValue
+- _CFDictionaryCreateMutable
+- _CFNumberCreate
+- _CFNumberGetValue
+- _CRErrorDomain
+- _IOIteratorNext
+- _IORegistryEntryGetRegistryEntryID
+- _IOServiceGetMatchingServices
+- _MGGetBoolAnswer
+- _NSInternalInconsistencyException
+- _NSLocalizedDescriptionKey
+- _NSStringFromSelector
+- _OBJC_CLASS_$_CRAudioCodecStatus
+- _OBJC_CLASS_$_CRAudioStatus
+- _OBJC_CLASS_$_CRBackGlassStatus
+- _OBJC_CLASS_$_CRBasebandStatus
+- _OBJC_CLASS_$_CRBatteryStatus
+- _OBJC_CLASS_$_CRBluetoothStatus
+- _OBJC_CLASS_$_CRCameraAuth
+- _OBJC_CLASS_$_CRCameraAuthUsingProperty
+- _OBJC_CLASS_$_CRComponentAuth
+- _OBJC_CLASS_$_CRDisplayStatus
+- _OBJC_CLASS_$_CREANController
+- _OBJC_CLASS_$_CREnclosureStatus
+- _OBJC_CLASS_$_CRFaceIDStatus
+- _OBJC_CLASS_$_CRNFCStatus
+- _OBJC_CLASS_$_CRNVRAMController
+- _OBJC_CLASS_$_CRPreflightUtils
+- _OBJC_CLASS_$_CRRCamStatus
+- _OBJC_CLASS_$_CRRepairHistory
+- _OBJC_CLASS_$_CRTouchIDStatus
+- _OBJC_CLASS_$_CRUWBStatus
+- _OBJC_CLASS_$_CRWiFiCredentials
+- _OBJC_CLASS_$_CRWifiStatus
+- _OBJC_CLASS_$_MSUDataAccessor
+- _OBJC_CLASS_$_NSArray
+- _OBJC_CLASS_$_NSConstantArray
+- _OBJC_CLASS_$_NSDictionary
+- _OBJC_CLASS_$_NSError
+- _OBJC_CLASS_$_NSException
+- _OBJC_CLASS_$_NSMutableArray
+- _OBJC_CLASS_$_NSMutableSet
+- _OBJC_CLASS_$_NSPredicate
+- _OBJC_CLASS_$_NSRegularExpression
+- _OBJC_CLASS_$_NSSet
+- _OBJC_CLASS_$_NSString
+- _OBJC_CLASS_$_NSValue
+- __NSConcreteGlobalBlock
+- ___kCFBooleanTrue
+- __dispatch_queue_attr_concurrent
+- __os_feature_enabled_impl
+- _bzero
+- _dispatch_once
+- _dispatch_queue_create
+- _dispatch_semaphore_create
+- _dispatch_semaphore_signal
+- _dispatch_semaphore_wait
+- _dispatch_sync
+- _dispatch_time
+- _getuid
+- _isVeridianUpdateRequired
+- _kAMFDRSealingMapAttributeRequiredToSeal
+- _kCFBooleanFalse
+- _kCFBooleanTrue
+- _kCFTypeArrayCallBacks
+- _kIOMasterPortDefault
+- _objc_alloc_init
+- _objc_autorelease
+- _objc_enumerationMutation
+- _objc_msgSendSuper2
+- _objc_opt_class
+- _objc_opt_isKindOfClass
+- _objc_release_x28
+- _objc_retain
+- _objc_retainAutorelease
+- _objc_retain_x25
+- _objc_retain_x27
+- _objc_retain_x5
+- _objc_setProperty_nonatomic_copy
+- _objc_storeStrong
+- _objc_sync_enter
+- _objc_sync_exit
+CStrings:
+- "\x01"
+- "%@"
+- "%s/active"
+- "([a-zA-Z0-9#]{4})-(.*$)"
+- ".cxx_destruct"
+- "/private/preboot"
+- "/private/preboot/%@"
+- "/var/mobile/Library/Preferences/%@.plist"
+- "1"
+- "8S7ydMJ4DlCUF38/hI/fJA"
+- "@\"NSString\""
+- "@24@0:8Q16"
+- "@32@0:8@16^@24"
+- "@48@0:8{?=**}16Q32@40"
+- "ATE"
+- "AllowIncompleteData"
+- "AppleAuthCP"
+- "AppleH10CamIn"
+- "AppleH13CamIn"
+- "AppleH16CamIn"
+- "AppleH9CamIn"
+- "Audio"
+- "Audio failed with Codec issue."
+- "Audio failed with Speaker issue."
+- "AudioCodec"
+- "AudioHardwareError"
+- "AuthPassed"
+- "B24@0:8^@16"
+- "B28@0:8B16^@20"
+- "B28@0:8i16^@20"
+- "B32@0:8@16^@24"
+- "B40@0:8@16@24^@32"
+- "BackCameraExpected"
+- "BackCameraModuleSerialNumString"
+- "BackDepthCameraExpected"
+- "BackGlass"
+- "BackSuperWideCameraExpected"
+- "BackSuperWideCameraModuleSerialNumString"
+- "BackTeleCameraExpected"
+- "BackTeleCameraModuleSerialNumString"
+- "Baseband"
+- "Battery"
+- "Bluetooth"
+- "CRAudioCodecStatus"
+- "CRAudioStatus"
+- "CRBackGlassStatus"
+- "CRBasebandStatus"
+- "CRBatteryStatus"
+- "CRBluetoothStatus"
+- "CRCameraAuth"
+- "CRCameraAuthUsingProperty"
+- "CRComponentAuth"
+- "CRDisplayStatus"
+- "CREnclosureStatus"
+- "CRFDRUtils"
+- "CRFaceIDStatus"
+- "CRNFCStatus"
+- "CRRCamStatus"
+- "CRRepairStatusLite"
+- "CRTouchIDStatus"
+- "CRUWBStatus"
+- "CRWifiStatus"
+- "Camera"
+- "Camera component passed preflight with no pass SPC"
+- "Cannot copy %@ data from device"
+- "Cannot copy %@ manifest from device"
+- "Cannot copy sealing manifest from device"
+- "Cannot find camera service"
+- "Cannot find matched camera service"
+- "Classes is not an array"
+- "CmClValidationStatus"
+- "Codec"
+- "Component %d is not supported for authorized repair for this device"
+- "ComponentName"
+- "Components: %@"
+- "Connection error: %@"
+- "Copy manifest data failed, error = %@"
+- "CoreRepair"
+- "CoreRepairComponents"
+- "CoreRepairPreflightProtocol"
+- "Data class is nil"
+- "DataInstances and Classes count mismatch"
+- "DataStore"
+- "DeviceProximityCapability"
+- "Display"
+- "Display component passed preflight with no pass SPC"
+- "Enclosure"
+- "FDR Validation status:%@"
+- "FDR-CA\\d{1,4}-ROOT-DC.*"
+- "FDR-SS-DC.*"
+- "FSCl"
+- "FaceID"
+- "FaceID component passed preflight with no pass SPC"
+- "Fail"
+- "Faild to read OS Boot Hash from %@; error: %@"
+- "Failed"
+- "Failed to create amfdr"
+- "Failed to create fdrLocal"
+- "Failed to create property value string"
+- "Failed to decode sealing manifest: %@"
+- "Failed to decode sealing map: %@"
+- "Failed to deserialize data for boot intent dictionary, error %@"
+- "Failed to get 'SrvT' property"
+- "Failed to get DataInstance:%@"
+- "Failed to get boot intent purpose"
+- "Failed to get local manifest properties, error: %@"
+- "Failed to get local sealing manifest"
+- "Failed to get payload; stat: %d"
+- "Failed to obatin FW path:%@"
+- "Failed to parse cert as img4; stat: %d"
+- "Failed to parse cert chain; stat: %d"
+- "Failed to parse cert common name from cert chain"
+- "Failed to parse node in cert chain data = %@"
+- "Failed to read EAN"
+- "Failed to read live instances of %@: %@"
+- "Failed to read live property of %@: %@"
+- "Failed to read live sensor number, error: %@"
+- "Failed to read local %@ data; error: %@"
+- "Failed to read seal data"
+- "Failed to read sealed instances of %@: %@"
+- "Failed to read sealed property of %@: %@"
+- "Failed to verify local %@ data; error: %@"
+- "ForceBackGlassStatus"
+- "ForceBatteryStatus"
+- "ForceCameraStatus"
+- "ForceDisplayStatus"
+- "ForceEnclosureStatus"
+- "ForceFaceIDStatus"
+- "ForceFinishRepair"
+- "ForceTouchIDStatus"
+- "ForceUnknown"
+- "Found failed component: %@"
+- "Found service %@"
+- "Getting local sealing manifest"
+- "HV7WDiidgMf7lwAu++Lk5w"
+- "IOREG Auth Component Not Populated"
+- "IOREG Auth Component Timeout"
+- "IORegistryEntryID"
+- "IPAD COMP DISPLAY"
+- "IPAD FRONT CAMERA"
+- "IPHONE COMP CAMERA"
+- "IPHONE COMP DISPLAY"
+- "IPHONE COMP FACEID"
+- "IPHONE COMP RCAM"
+- "InternalComponent"
+- "Invalid"
+- "Invalid Mesa: %{public}@"
+- "JasperSNUM"
+- "LCfg"
+- "Live classes: %lu. Live instances: %lu"
+- "Live property missing for %@: %@"
+- "Local"
+- "Local Sealing manifest fetch failed"
+- "Local Sealing manifest fetch sucessful"
+- "Local sealing manifest populate failed, error = %@"
+- "MSRk"
+- "Matching service %@"
+- "MesaProvisionState"
+- "MesaSensorIDSensorSN"
+- "Missing live data: %@"
+- "NFC"
+- "No AudioHardwareError Codec IO registry, error: %d"
+- "No AudioHardwareError Speaker IO registry, error: %d"
+- "No EAN support."
+- "Number of data classes and instances mismatches"
+- "Number of live data classes and instances mismatches"
+- "NvMR"
+- "Parsed the following common names from cert in %@: %@"
+- "Parsed the following common names from cert in seal: %@"
+- "Pass"
+- "Please use initWithComponentType"
+- "Property %@ does not exist"
+- "ProvisionedLockedUnknownKey"
+- "ProvisionedLockedWithUID"
+- "ProvisionedUnknownKey"
+- "ProvisionedWithUID"
+- "Q"
+- "Q24@0:8^@16"
+- "Query staged state failed"
+- "QueryPath"
+- "QueryPath_Straight"
+- "RCSn"
+- "RCameraFailed"
+- "Read live data: %d"
+- "Read live data: %d. %@"
+- "Reading system health from defaults"
+- "Reading system health from file"
+- "Retry Count:%d"
+- "SELF MATCHES %@"
+- "SSR boot intent not found"
+- "SealingManifest"
+- "Skip reading unknown Mesa: %d"
+- "SkipRecoverDataClasses"
+- "Speaker"
+- "SrvT"
+- "SrvT: %@"
+- "SystemHealthClient"
+- "T@\"NSString\",C,N,VcomponentName"
+- "TQ,N,VcomponentType"
+- "TouchController"
+- "TouchID"
+- "UTF8String"
+- "UWB"
+- "Unable to fetch Internal Component Auth Status:%d"
+- "Unexpected SSR boot intent format"
+- "Unexpected SSR boot intent purpose format"
+- "Unsealed %@: %@"
+- "Unsealed: %@"
+- "VerifyData"
+- "Wifi"
+- "You must override %@ in a subclass"
+- "^{__AMFDR=}16@0:8"
+- "_checkForComponentFailureInDefaults:"
+- "_createFDRLocal"
+- "_getDataClassesFromSealingManifest"
+- "_getDataClassesFromSealingMap"
+- "_getManifestForDataClass:"
+- "_getObjectForKeyFromDefaults:"
+- "_isLegacyMesaInInvalidState"
+- "addEntriesFromDictionary:"
+- "addObject:"
+- "addObjectsFromArray:"
+- "allObjects"
+- "array"
+- "arrayWithObjects:count:"
+- "authErrorDescription"
+- "boolValue"
+- "bytes"
+- "cachedPreFlightResults"
+- "challengeStrongComponents:withReply:"
+- "com.apple.corerepair.authsyncqueue"
+- "com.apple.corerepair.preflightControl"
+- "com.apple.mobilerepaird.systemhealth"
+- "completeFWPath :%@"
+- "component failed preflight proceeding"
+- "componentName"
+- "componentType"
+- "componentsSeparatedByString:"
+- "containsObject:"
+- "convertIORegDataToStatus:authPass:"
+- "copy"
+- "copyComponentStatus"
+- "copyPathForPersonalizedData:error:"
+- "count"
+- "countByEnumeratingWithState:objects:count:"
+- "dCfg"
+- "decryptWiFiCredDictFromCredentialsData:"
+- "delta components: %@"
+- "deviceSupportsRepairBootIntent"
+- "diagnostic-boot-intent"
+- "dictionary"
+- "dictionaryWithContentsOfFile:"
+- "dictionaryWithObjects:forKeys:count:"
+- "drp#"
+- "errorWithDomain:code:userInfo:"
+- "extractComponentsAndIdentifiers:"
+- "failComponents"
+- "filteredArrayUsingPredicate:"
+- "findUnsealedData"
+- "findUnsealedDataWithError:"
+- "findUnsealedDataWithKey:error:"
+- "firstMatchInString:options:range:"
+- "firstObject"
+- "fixUpPseudoMSRk:mesaWithSCKey:"
+- "flags"
+- "getAuthCPComponentStatus:"
+- "getCmClValidationStatus"
+- "getComponentStatusWithError:"
+- "getData:instance:"
+- "getDataForDataClass:"
+- "getDataPayload:instance:"
+- "getDataPayloadForDataClass:"
+- "getIORegComponentStatus"
+- "getStringFromCert:WithTag:AndOID:"
+- "getValue:"
+- "identifier"
+- "init"
+- "initWithBase64EncodedString:options:"
+- "initWithBytes:length:"
+- "initWithComponentName:"
+- "initWithComponentType:"
+- "initWithData:encoding:"
+- "initWithPattern:options:error:"
+- "isComponentFailed"
+- "isDataClassSupported:"
+- "isDcSignedComponent:error:"
+- "isEANSupported"
+- "isEqualToSet:"
+- "isFDRPropertySupported:"
+- "isFirstAuthComplete"
+- "isTrusted"
+- "isTrustedForUI"
+- "isVeridianUpdateRequired :%@:%d"
+- "issueRepairCert:withReply:"
+- "key"
+- "localManifestProperties"
+- "localizedDescription"
+- "mesa unpaired"
+- "mesa unsealed"
+- "minusSet:"
+- "mutableCopy"
+- "number of ranges:%ld"
+- "numberOfRanges"
+- "objectAtIndex:"
+- "objectForKey:"
+- "pass"
+- "passComponents"
+- "predicateWithFormat:"
+- "purpose"
+- "q16@0:8"
+- "q24@0:8@16"
+- "q32@0:8@16@24"
+- "queryDeviceStagedSealedFromEAN:error:"
+- "queryRepairDelta failed: %d. %@"
+- "queryRepairDelta timeout"
+- "queryRepairDeltaWithReply:"
+- "raise:format:"
+- "rangeAtIndex:"
+- "readFDRDataFromEANWithDataClass:outData:stripPadding:"
+- "readNVRAMValueForKey %@ failed: %@"
+- "readNVRAMValueForKey value: %@"
+- "readNVRAMValueForKey:error:"
+- "remoteObjectProxyWithErrorHandler:"
+- "removeObjectAtIndex:"
+- "seal"
+- "self-service-repair"
+- "set"
+- "setByAddingObject:"
+- "setComponentName:"
+- "setComponentType:"
+- "setObject:forKey:"
+- "setWithArray:"
+- "sharedDataAccessor"
+- "sign:keyBlob:withReply:"
+- "spcResults:"
+- "stringByAppendingString:"
+- "stringWithContentsOfFile:encoding:error:"
+- "stringWithFormat:"
+- "stringWithUTF8String:"
+- "substringWithRange:"
+- "synchronouslycopyAuthStatus"
+- "usr/standalone/firmware"
+- "v16@0:8"
+- "v24@0:8@?16"
+- "v24@0:8@?<v@?B@\"NSArray\"@\"NSError\">16"
+- "v28@0:8@16B24"
+- "v28@?0B8@\"NSArray\"12@\"NSError\"20"
+- "v32@0:8@\"NSDictionary\"16@?<v@?B@\"NSArray\"@\"NSError\">24"
+- "v32@0:8@\"NSDictionary\"16@?<v@?B@\"NSData\"@\"NSArray\"@\"NSError\">24"
+- "v32@0:8@16@?24"
+- "v40@0:8@\"NSData\"16@\"NSData\"24@?<v@?@\"NSData\">32"
+- "v48@0:8@\"NSData\"16@\"NSData\"24@\"NSData\"32@?<v@?B>40"
+- "v48@0:8@16@24@32@?40"
+- "v8@?0"
+- "valueWithBytes:objCType:"
+- "verify:signature:keyBlob:withReply:"
+- "wifi-credentials"
+- "{?=Q{?=*Q}}"
+
+```

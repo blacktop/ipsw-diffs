@@ -1,0 +1,177 @@
+## libswiftFileProvider.dylib
+
+> `/usr/lib/swift/libswiftFileProvider.dylib`
+
+```diff
+
+-2732.80.49.0.0
+-  __TEXT.__text: 0xc5c
+-  __TEXT.__auth_stubs: 0x1f0
+-  __TEXT.__const: 0x29e
+-  __TEXT.__cstring: 0x12
+-  __TEXT.__swift5_typeref: 0xa4
+-  __TEXT.__constg_swiftt: 0x60
+-  __TEXT.__swift5_reflstr: 0x45
+-  __TEXT.__swift5_fieldmd: 0x44
+-  __TEXT.__swift5_builtin: 0x14
+-  __TEXT.__swift5_assocty: 0x60
+-  __TEXT.__swift5_proto: 0x1c
+-  __TEXT.__swift5_types: 0x8
+-  __TEXT.__unwind_info: 0xc8
+-  __TEXT.__eh_frame: 0x98
+-  __TEXT.__objc_methname: 0x8f
+-  __DATA_CONST.__got: 0x30
+-  __DATA_CONST.__const: 0x88
+-  __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x18
+-  __AUTH_CONST.__auth_got: 0xf8
+-  __AUTH_CONST.__auth_ptr: 0x150
+-  __AUTH_CONST.__const: 0xe0
+-  __DATA.__data: 0x48
+-  __DATA.__bss: 0x380
+-  __DATA.__common: 0x1
++2882.100.413.0.0
++  __TEXT.__text: 0x0
+   - /System/Library/Frameworks/FileProvider.framework/FileProvider
+-  - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /usr/lib/libSystem.B.dylib
+-  - /usr/lib/libobjc.A.dylib
+-  - /usr/lib/swift/libswiftCore.dylib
+-  - /usr/lib/swift/libswiftCoreFoundation.dylib
+-  - /usr/lib/swift/libswiftDarwin.dylib
+-  - /usr/lib/swift/libswiftDispatch.dylib
+-  - /usr/lib/swift/libswiftObjectiveC.dylib
+-  - /usr/lib/swift/libswiftXPC.dylib
+-  - /usr/lib/swift/libswift_Builtin_float.dylib
+-  - /usr/lib/swift/libswift_Concurrency.dylib
+-  - /usr/lib/swift/libswift_errno.dylib
+-  - /usr/lib/swift/libswift_math.dylib
+-  - /usr/lib/swift/libswift_signal.dylib
+-  - /usr/lib/swift/libswift_stdio.dylib
+-  - /usr/lib/swift/libswift_time.dylib
+-  - /usr/lib/swift/libswiftsys_time.dylib
+-  - /usr/lib/swift/libswiftunistd.dylib
+-  Functions: 59
+-  Symbols:   161
+-  CStrings:  4
++  Functions: 0
++  Symbols:   0
++  CStrings:  0
+ 
+Symbols:
+- <redacted>
+- _$s10Foundation10NSNotFoundSivg
+- _$s10Foundation22_convertNSErrorToErrorys0E0_pSo0C0CSgF
+- _$s10Foundation3URLV19_bridgeToObjectiveCSo5NSURLCyF
+- _$s19ArrayLiteralElements013ExpressibleByaB0PTl
+- _$s7Elements10SetAlgebraPTl
+- _$s8RawValueSYTl
+- _$sBi64_WV
+- _$sSL1goiySbx_xtFZTq
+- _$sSL1loiySbx_xtFZTq
+- _$sSL2geoiySbx_xtFZTq
+- _$sSL2leoiySbx_xtFZTq
+- _$sSLMp
+- _$sSLSQTb
+- _$sSLsE1goiySbx_xtFZ
+- _$sSLsE2geoiySbx_xtFZ
+- _$sSLsE2leoiySbx_xtFZ
+- _$sSQ2eeoiySbx_xtFZTq
+- _$sSQMp
+- _$sSY8rawValue03RawB0QzvgTq
+- _$sSY8rawValuexSg03RawB0Qz_tcfCTq
+- _$sSYMp
+- _$sSo21NSFileProviderManagerC04FileB0E17EligibilityResultO10ineligibleyAESo0aB23VolumeUnsupportedReasonVcAEmFWC
+- _$sSo21NSFileProviderManagerC04FileB0E17EligibilityResultO2eeoiySbAE_AEtFZ
+- _$sSo21NSFileProviderManagerC04FileB0E17EligibilityResultO8eligibleyA2EmFWC
+- _$sSo21NSFileProviderManagerC04FileB0E17EligibilityResultOMa
+- _$sSo21NSFileProviderManagerC04FileB0E17EligibilityResultOMn
+- _$sSo21NSFileProviderManagerC04FileB0E17EligibilityResultON
+- _$sSo21NSFileProviderManagerC04FileB0E17EligibilityResultOSQACMc
+- _$sSo21NSFileProviderManagerC04FileB0E22requestDownloadForItem14withIdentifier14requestedRange17completionHandlerySo0abhJ0a_So8_NSRangeVSgys5Error_pSgctF
+- _$sSo21NSFileProviderManagerC04FileB0E22requestDownloadForItem14withIdentifier14requestedRangeySo0abhJ0a_So8_NSRangeVSgtYaKF
+- _$sSo21NSFileProviderManagerC04FileB0E22requestDownloadForItem14withIdentifier14requestedRangeySo0abhJ0a_So8_NSRangeVSgtYaKFTu
+- _$sSo21NSFileProviderManagerC04FileB0E31checkDomainsCanBeStoredOnVolume2atAbCE17EligibilityResultO10Foundation3URLV_tKFZ
+- _$sSo27NSFileProviderDomainVersionC04FileB0E1loiySbAB_ABtFZ
+- _$sSo27NSFileProviderDomainVersionCSL04FileB0Mc
+- _$sSo8NSObjectCSQ10ObjectiveCMc
+- _$ss10SetAlgebraMp
+- _$ss10SetAlgebraP10isDisjoint4withSbx_tFTq
+- _$ss10SetAlgebraP10isSuperset2ofSbx_tFTq
+- _$ss10SetAlgebraP11subtractingyxxFTq
+- _$ss10SetAlgebraP12intersectionyxxFTq
+- _$ss10SetAlgebraP16formIntersectionyyxFTq
+- _$ss10SetAlgebraP19symmetricDifferenceyxxnFTq
+- _$ss10SetAlgebraP23formSymmetricDifferenceyyxnFTq
+- _$ss10SetAlgebraP5unionyxxnFTq
+- _$ss10SetAlgebraP6insertySb8inserted_7ElementQz17memberAfterInserttAFnFTq
+- _$ss10SetAlgebraP6removey7ElementQzSgAEFTq
+- _$ss10SetAlgebraP6update4with7ElementQzSgAFn_tFTq
+- _$ss10SetAlgebraP7isEmptySbvgTq
+- _$ss10SetAlgebraP8containsySb7ElementQzFTq
+- _$ss10SetAlgebraP8isSubset2ofSbx_tFTq
+- _$ss10SetAlgebraP8subtractyyxFTq
+- _$ss10SetAlgebraP9formUnionyyxnFTq
+- _$ss10SetAlgebraPSQTb
+- _$ss10SetAlgebraPs25ExpressibleByArrayLiteralTb
+- _$ss10SetAlgebraPsEyxqd__ncSTRd__7ElementQyd__ACRtzlufC
+- _$ss10SetAlgebraPxycfCTq
+- _$ss10SetAlgebraPyxqd__ncSTRd__7ElementQyd__ACRtzlufCTq
+- _$ss25ExpressibleByArrayLiteralMp
+- _$ss25ExpressibleByArrayLiteralP05arrayD0x0cD7ElementQzd_tcfCTq
+- _$ss5ErrorMp
+- _$ss5ErrorWS
+- _$ss9OptionSetMp
+- _$ss9OptionSetP8rawValuex03RawD0Qz_tcfCTq
+- _$ss9OptionSetPSYTb
+- _$ss9OptionSetPs0B7AlgebraTb
+- _OBJC_CLASS_$_NSFileProviderDomainVersion
+- _OBJC_CLASS_$_NSFileProviderManager
+- __Block_copy
+- __Block_release
+- __NSConcreteStackBlock
+- ___stack_chk_fail
+- ___stack_chk_guard
+- __swift_FORCE_LOAD_$_swiftCoreFoundation
+- __swift_FORCE_LOAD_$_swiftDarwin
+- __swift_FORCE_LOAD_$_swiftDispatch
+- __swift_FORCE_LOAD_$_swiftFileProvider
+- __swift_FORCE_LOAD_$_swiftFoundation
+- __swift_FORCE_LOAD_$_swiftObjectiveC
+- __swift_FORCE_LOAD_$_swiftXPC
+- __swift_FORCE_LOAD_$_swift_Builtin_float
+- __swift_FORCE_LOAD_$_swift_errno
+- __swift_FORCE_LOAD_$_swift_math
+- __swift_FORCE_LOAD_$_swift_signal
+- __swift_FORCE_LOAD_$_swift_stdio
+- __swift_FORCE_LOAD_$_swift_time
+- __swift_FORCE_LOAD_$_swiftsys_time
+- __swift_FORCE_LOAD_$_swiftunistd
+- _objc_msgSend
+- _objc_opt_self
+- _objc_release
+- _objc_release_x20
+- _objc_release_x22
+- _objc_retain_x19
+- _objc_retain_x20
+- _swift_allocError
+- _swift_bridgeObjectRelease
+- _swift_continuation_await
+- _swift_continuation_init
+- _swift_continuation_throwingResume
+- _swift_continuation_throwingResumeWithError
+- _swift_getForeignTypeMetadata
+- _swift_getObjCClassMetadata
+- _swift_getTypeByMangledNameInContext2
+- _swift_getWitnessTable
+- _swift_release
+- _swift_retain
+- _swift_task_switch
+- _swift_willThrow
+CStrings:
+- "checkDomainsCanBeStored:onVolumeAtURL:unsupportedReason:error:"
+- "compare:"
+- "requestDownloadForItemWithIdentifier:requestedRange:completionHandler:"
+- "v16@?0@\"NSError\"8"
+
+```
