@@ -77,6 +77,12 @@
 
 ### iOS 18.4 beta
 
+#### iPhone17,5 *(iPhone 16e)*
+
+- [18.3.1 (22D8075) .vs 18.4 beta 2 (22E5216h)](18_3_1_22D8075__vs_18_4_22E5216h/README.md)
+
+#### iPhone17,1 *(iPhone 16 Pro)*
+
 - [18.3.1 (22D72) .vs 18.4 beta 1 (22E5200s)](18_3_1_22D72__vs_18_4_22E5200s/README.md)
 - [18.4 beta 1 (22E5200s) .vs 18.4 beta 2 (22E5216h)](18_4_22E5200s__vs_18_4_22E5216h/README.md)
 
