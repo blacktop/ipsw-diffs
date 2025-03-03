@@ -109,6 +109,31 @@ ipsw diff
 > [!NOTE]
 > DIFFs generated via [`ipsw diff`](https://blacktop.github.io/ipsw/docs/cli/ipsw/diff/#ipsw-diff)
 
+### Query Diffs
+
+> With [mdq](https://github.com/yshavit/mdq)
+
+Get List of NEW MachOs
+
+```bash
+❱ curl -sL https://github.com/blacktop/ipsw-diffs/raw/main/18_4_22E5200s__vs_18_4_22E5216h/README.md | mdq '# Macho | # New'
+### 🆕 NEW (13)
+
+- `/Applications/AuthenticationServicesUI.app/PlugIns/AccountAuthenticationModificationExtensionHelper.appex/AccountAuthenticationModificationExtensionHelper`
+- `/Applications/OTEAutomationTest.app/Frameworks/OTEAutomation.framework/OTEAutomation`
+- `/Applications/OTEAutomationTest.app/OTEAutomationTest`
+- `/System/Library/CoreServices/CoreTypes.bundle/Contents/Library/MobileDevices-0004.bundle/MobileDevices-0004`
+- `/System/Library/ExtensionKit/Extensions/ASRFullPayloadCorrection.appex/ASRFullPayloadCorrection`
+- `/System/Library/ExtensionKit/Extensions/ODDIPoirotMetricsExtension.appex/ODDIPoirotMetricsExtension`
+- `/System/Library/ExtensionKit/Extensions/TetsuoDiagnosticExtension.appex/TetsuoDiagnosticExtension`
+- `/System/Library/PreferenceBundles/TetsuoNotifications.bundle/TetsuoNotifications`
+- `/System/Library/PreferenceBundles/VisionCompanionSettings.bundle/VisionCompanionSettings`
+- `/System/Library/PrivateFrameworks/DiagnosticExtensions.framework/PlugIns/TUDiagnosticExtension.appex/TUDiagnosticExtension`
+- `/private/var/staged_system_apps/AppleVisionProApp.app/AppleVisionProApp`
+- `/usr/libexec/visioncompaniond`
+- `/usr/sbin/skywalkctl`
+```
+
 ## PRs Welcome
 
 Have a diff that you think others would be interested in? Run the above command and create a PR to add it here!
