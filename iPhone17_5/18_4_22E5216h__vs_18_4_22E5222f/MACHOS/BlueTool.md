@@ -1,0 +1,78 @@
+## BlueTool
+
+> `/usr/sbin/BlueTool`
+
+```diff
+
+-184.40.0.0.0
+-  __TEXT.__text: 0x4d2b8
++184.41.0.0.0
++  __TEXT.__text: 0x4e9f8
+   __TEXT.__auth_stubs: 0xb80
+   __TEXT.__objc_stubs: 0x2e0
+-  __TEXT.__init_offsets: 0x560
++  __TEXT.__init_offsets: 0x590
+   __TEXT.__const: 0x47c478
+-  __TEXT.__cstring: 0xe208
++  __TEXT.__cstring: 0xea87
+   __TEXT.__oslogstring: 0x464c
+   __TEXT.__objc_methname: 0x1c0
+-  __TEXT.__unwind_info: 0x11f0
++  __TEXT.__unwind_info: 0x1250
+   __DATA_CONST.__auth_got: 0x5c8
+   __DATA_CONST.__got: 0xd8
+   __DATA_CONST.__auth_ptr: 0x8
+
+   - /usr/lib/libedit.3.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libz.1.dylib
+-  Functions: 2504
++  Functions: 2552
+   Symbols:   217
+-  CStrings:  1884
++  CStrings:  1923
+ 
+CStrings:
++ "0b84d2cd686c3121b6418704011e71a8bbd3f57e3bdd72828b36ba22512ab373"
++ "21:01:37"
++ "24d9f68495977b8850db5c69c7d7a360d832d509"
++ "32ec6f983b5e984241068e698417d5a10c3a96c1"
++ "3758772c7d4262223dcf9c9d536cf24d930b503fbfa8eb749d0239546597f6e8"
++ "3fc73c8ca9a6a4df4612bb78b32c175c88a3b6af"
++ "4e6f1f89574ea818b05b67988ad73cd92b574ec15a45651408c305351f107a49"
++ "632b76b0e66746a2e75cd74be4c00f8943ba4bf0a844cafd7c8b6c598f330b24"
++ "6633cab16dcc3007b1a679f2b59dcbbf133ee4f13c5f5984c55d82feb729d694"
++ "7a63f1b3be6c8e74292f54f3260c85ea3d006623e00bf07f6bf99c1e2944b23d"
++ "BCM4387C2_22.1.573.1291_PCIE_Pitaya_CLPC_MFG_STATS_20230731.bin"
++ "BCM4387C2_22.1.573.1292_PCIE_Pitaya_CLPC_MFG_USI_20230731.bin"
++ "BCM4387C3_*_PCIE_Pitaya_CLPC_OS_STATS_*"
++ "BCM4387C3_*_PCIE_Pitaya_CLPC_OS_USI_*"
++ "BCM4387C3_22.5.105.371_PCIE_Pitaya_CLPC_OS_STATS_20250129.bin"
++ "BCM4387C3_22.5.105.372_PCIE_Pitaya_CLPC_OS_USI_20250129.bin"
++ "BCM4388C2_*_PCIE_CottonwoodA_CLPC_OS_STATS_*"
++ "BCM4388C2_*_PCIE_CottonwoodA_CLPC_OS_USI_*"
++ "BCM4388C2_*_PCIE_CottonwoodB_CLPC_OS_STATS_*"
++ "BCM4388C2_*_PCIE_CottonwoodB_CLPC_OS_USI_*"
++ "BCM4388C2_*_PCIE_SweetgumA_CLPC_OS_STATS_*"
++ "BCM4388C2_*_PCIE_SweetgumA_CLPC_OS_USI_*"
++ "BCM4388C2_*_PCIE_SweetgumB_CLPC_OS_STATS_*"
++ "BCM4388C2_*_PCIE_SweetgumB_CLPC_OS_USI_*"
++ "BCM4388C2_22.5.187.715_PCIE_CottonwoodA_CLPC_OS_STATS_20250214.bin"
++ "BCM4388C2_22.5.187.716_PCIE_CottonwoodA_CLPC_OS_USI_20250214.bin"
++ "BCM4388C2_22.5.187.717_PCIE_CottonwoodB_CLPC_OS_STATS_20250214.bin"
++ "BCM4388C2_22.5.187.718_PCIE_CottonwoodB_CLPC_OS_USI_20250214.bin"
++ "BCM4388C2_22.5.187.719_PCIE_SweetgumA_CLPC_OS_STATS_20250214.bin"
++ "BCM4388C2_22.5.187.720_PCIE_SweetgumA_CLPC_OS_USI_20250214.bin"
++ "BCM4388C2_22.5.187.721_PCIE_SweetgumB_CLPC_OS_STATS_20250214.bin"
++ "BCM4388C2_22.5.187.722_PCIE_SweetgumB_CLPC_OS_USI_20250214.bin"
++ "b02f1bf002ae0c338e184fa780fb32b595693e78"
++ "ba1b48742c7d5b7100b4e49515cbaa8da6cd64e724e40577a01af1cdaab8bfbc"
++ "c3775f46b49f4d50786991bfb511e27c2480745ebc22d46fa96189442472949d"
++ "c644a8832ca86c4debc8e549c790f5491e33eb6cb9c4e328e91d9c1f34962c28"
++ "d84f529852589ea4b7d217ef08ca3bcf4c3ce8b5"
++ "e7550d4824ef1c6040807a7e8a088296b45fdb70b99844a6cdbff6603a96be98"
++ "eeac7d50de9b7135f9f649e4c59257c8980bedf4955fee65c17302a13fd10a14"
++ "fd6d24138a9b80662bc9203f9dd9887557e8ca6adf4cc37e4341a46e99698e58"
+- "21:13:54"
+
+```
