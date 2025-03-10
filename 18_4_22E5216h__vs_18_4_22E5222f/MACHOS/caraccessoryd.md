@@ -1,0 +1,398 @@
+## caraccessoryd
+
+> `/usr/libexec/caraccessoryd`
+
+```diff
+
+-347.15.0.0.0
+-  __TEXT.__text: 0x278f4
+-  __TEXT.__auth_stubs: 0xfa0
++347.17.1.0.0
++  __TEXT.__text: 0x2e964
++  __TEXT.__auth_stubs: 0x1050
+   __TEXT.__objc_stubs: 0x1f80
+-  __TEXT.__objc_methlist: 0x14cc
+-  __TEXT.__const: 0x362
+-  __TEXT.__cstring: 0xd84
++  __TEXT.__objc_methlist: 0x1644
++  __TEXT.__const: 0x452
++  __TEXT.__cstring: 0xfd4
+   __TEXT.__gcc_except_tab: 0x174
+-  __TEXT.__objc_methname: 0x3487
+-  __TEXT.__oslogstring: 0x36de
+-  __TEXT.__objc_classname: 0x333
+-  __TEXT.__objc_methtype: 0x1073
+-  __TEXT.__constg_swiftt: 0x484
+-  __TEXT.__swift5_typeref: 0x577
+-  __TEXT.__swift5_reflstr: 0x1f8
+-  __TEXT.__swift5_fieldmd: 0x24c
+-  __TEXT.__swift5_capture: 0x33c
+-  __TEXT.__swift5_types: 0x24
++  __TEXT.__objc_methname: 0x37b0
++  __TEXT.__oslogstring: 0x396e
++  __TEXT.__objc_classname: 0x370
++  __TEXT.__objc_methtype: 0x111d
++  __TEXT.__constg_swiftt: 0x584
++  __TEXT.__swift5_typeref: 0x683
++  __TEXT.__swift5_reflstr: 0x268
++  __TEXT.__swift5_fieldmd: 0x2c0
++  __TEXT.__swift5_capture: 0x360
++  __TEXT.__swift5_types: 0x2c
++  __TEXT.__swift5_assocty: 0x18
++  __TEXT.__swift5_proto: 0xc
+   __TEXT.__swift_as_entry: 0xc
+   __TEXT.__swift_as_ret: 0x10
+-  __TEXT.__unwind_info: 0x818
++  __TEXT.__unwind_info: 0x8d0
+   __TEXT.__eh_frame: 0x310
+-  __DATA_CONST.__auth_got: 0x7e0
+-  __DATA_CONST.__got: 0x410
+-  __DATA_CONST.__auth_ptr: 0xb0
+-  __DATA_CONST.__const: 0x1400
++  __DATA_CONST.__auth_got: 0x838
++  __DATA_CONST.__got: 0x468
++  __DATA_CONST.__auth_ptr: 0x120
++  __DATA_CONST.__const: 0x1568
+   __DATA_CONST.__cfstring: 0x380
+-  __DATA_CONST.__objc_classlist: 0x68
++  __DATA_CONST.__objc_classlist: 0x70
+   __DATA_CONST.__objc_catlist: 0x8
+-  __DATA_CONST.__objc_protolist: 0x1a0
++  __DATA_CONST.__objc_protolist: 0x1c8
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_protorefs: 0xb8
++  __DATA_CONST.__objc_protorefs: 0xd0
+   __DATA_CONST.__objc_superrefs: 0x28
+   __DATA_CONST.__objc_intobj: 0x60
+-  __DATA.__objc_const: 0x3400
+-  __DATA.__objc_selrefs: 0xe40
++  __DATA.__objc_const: 0x3a88
++  __DATA.__objc_selrefs: 0xef0
+   __DATA.__objc_ivar: 0xbc
+-  __DATA.__objc_data: 0xad0
+-  __DATA.__data: 0x1030
++  __DATA.__objc_data: 0xc60
++  __DATA.__data: 0x1210
+   __DATA.__common: 0x30
++  __DATA.__bss: 0x180
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+   - /System/Library/Frameworks/CoreMedia.framework/CoreMedia
++  - /System/Library/Frameworks/CoreServices.framework/CoreServices
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/Frameworks/ImageIO.framework/ImageIO
+   - /System/Library/PrivateFrameworks/BaseBoard.framework/BaseBoard
+
+   - /usr/lib/swift/libswiftsimd.dylib
+   - /usr/lib/swift/libswiftsys_time.dylib
+   - /usr/lib/swift/libswiftunistd.dylib
+-  Functions: 845
+-  Symbols:   2261
+-  CStrings:  1097
++  Functions: 931
++  Symbols:   2490
++  CStrings:  1156
+ 
+Symbols:
++ _$s10Foundation22_convertNSErrorToErrorys0E0_pSo0C0CSgF
++ _$s10Foundation3URLV19_bridgeToObjectiveCSo5NSURLCyF
++ _$s10Foundation3URLVMa
++ _$s10Foundation3URLVMn
++ _$s10Foundation3URLVSgMD
++ _$s10Foundation4UUIDV10uuidStringSSvg
++ _$s10Foundation4UUIDVACSHAAWL
++ _$s10Foundation4UUIDVACSQAAWL
++ _$s10Foundation4UUIDVMn
++ _$s10Foundation4UUIDVSHAAMc
++ _$s10Foundation4UUIDVSQAAMc
++ _$s10Foundation4UUIDVSgMD
++ _$s13caraccessoryd20CAFDAppLaunchManagerC013removeRequestC0019_D962C00D1B44897126I12BCA0B2DD47A8LL3app3foryAC11ApplicationO_So10CAFServiceCtF
++ _$s13caraccessoryd20CAFDAppLaunchManagerC03carD0019_D962C00D1B44897126H12BCA0B2DD47A8LLSo06CAFCarD0CvpWvd
++ _$s13caraccessoryd20CAFDAppLaunchManagerC03carD0ACSo06CAFCarD0C_tcfC
++ _$s13caraccessoryd20CAFDAppLaunchManagerC03carD0ACSo06CAFCarD0C_tcfCTq
++ _$s13caraccessoryd20CAFDAppLaunchManagerC03carD0ACSo06CAFCarD0C_tcfc
++ _$s13caraccessoryd20CAFDAppLaunchManagerC03carD0ACSo06CAFCarD0C_tcfcTf4gn_n
++ _$s13caraccessoryd20CAFDAppLaunchManagerC03carD0ACSo06CAFCarD0C_tcfcTo
++ _$s13caraccessoryd20CAFDAppLaunchManagerC03carD0_19didUpdateCurrentCarySo06CAFCarD0C_So0J0CSgtF
++ _$s13caraccessoryd20CAFDAppLaunchManagerC03carD0_19didUpdateCurrentCarySo06CAFCarD0C_So0J0CSgtFTf4dnn_n
++ _$s13caraccessoryd20CAFDAppLaunchManagerC03carD0_19didUpdateCurrentCarySo06CAFCarD0C_So0J0CSgtFTo
++ _$s13caraccessoryd20CAFDAppLaunchManagerC07requestC0019_D962C00D1B44897126H12BCA0B2DD47A8LL3app3foryAC11ApplicationO_So10CAFServiceCtF
++ _$s13caraccessoryd20CAFDAppLaunchManagerC10currentCar019_D962C00D1B44897126I12BCA0B2DD47A8LLSo6CAFCarCSgvpWvd
++ _$s13caraccessoryd20CAFDAppLaunchManagerC10currentCar019_D962C00D1B44897126I12BCA0B2DD47A8LLSo6CAFCarCSgvpfi
++ _$s13caraccessoryd20CAFDAppLaunchManagerC10registered019_D962C00D1B44897126H12BCA0B2DD47A8LLShy10Foundation4UUIDVGvpWvd
++ _$s13caraccessoryd20CAFDAppLaunchManagerC10registered019_D962C00D1B44897126H12BCA0B2DD47A8LLShy10Foundation4UUIDVGvpfi
++ _$s13caraccessoryd20CAFDAppLaunchManagerC11ApplicationOAESQAAWL
++ _$s13caraccessoryd20CAFDAppLaunchManagerC11ApplicationOAESQAAWl
++ _$s13caraccessoryd20CAFDAppLaunchManagerC11ApplicationOMF
++ _$s13caraccessoryd20CAFDAppLaunchManagerC11ApplicationOMa
++ _$s13caraccessoryd20CAFDAppLaunchManagerC11ApplicationOMf
++ _$s13caraccessoryd20CAFDAppLaunchManagerC11ApplicationOMn
++ _$s13caraccessoryd20CAFDAppLaunchManagerC11ApplicationON
++ _$s13caraccessoryd20CAFDAppLaunchManagerC11ApplicationOSHAAMc
++ _$s13caraccessoryd20CAFDAppLaunchManagerC11ApplicationOSHAAMcMK
++ _$s13caraccessoryd20CAFDAppLaunchManagerC11ApplicationOSHAASH13_rawHashValue4seedS2i_tFTW
++ _$s13caraccessoryd20CAFDAppLaunchManagerC11ApplicationOSHAASH4hash4intoys6HasherVz_tFTW
++ _$s13caraccessoryd20CAFDAppLaunchManagerC11ApplicationOSHAASH9hashValueSivgTW
++ _$s13caraccessoryd20CAFDAppLaunchManagerC11ApplicationOSHAASQWb
++ _$s13caraccessoryd20CAFDAppLaunchManagerC11ApplicationOSQAAMc
++ _$s13caraccessoryd20CAFDAppLaunchManagerC11ApplicationOSQAAMcMK
++ _$s13caraccessoryd20CAFDAppLaunchManagerC11ApplicationOSQAASQ2eeoiySbx_xtFZTW
++ _$s13caraccessoryd20CAFDAppLaunchManagerC11ApplicationOSYAAMA
++ _$s13caraccessoryd20CAFDAppLaunchManagerC11ApplicationOSYAAMc
++ _$s13caraccessoryd20CAFDAppLaunchManagerC11ApplicationOSYAAMcMK
++ _$s13caraccessoryd20CAFDAppLaunchManagerC11ApplicationOSYAASY8rawValue03RawG0QzvgTW
++ _$s13caraccessoryd20CAFDAppLaunchManagerC11ApplicationOSYAASY8rawValuexSg03RawG0Qz_tcfCTW
++ _$s13caraccessoryd20CAFDAppLaunchManagerC11ApplicationOSYAASY8rawValuexSg03RawG0Qz_tcfCTWTv_r
++ _$s13caraccessoryd20CAFDAppLaunchManagerC11ApplicationOWV
++ _$s13caraccessoryd20CAFDAppLaunchManagerC11ApplicationOwet
++ _$s13caraccessoryd20CAFDAppLaunchManagerC11ApplicationOwst
++ _$s13caraccessoryd20CAFDAppLaunchManagerC11ApplicationOwug
++ _$s13caraccessoryd20CAFDAppLaunchManagerC11ApplicationOwui
++ _$s13caraccessoryd20CAFDAppLaunchManagerC11ApplicationOwup
++ _$s13caraccessoryd20CAFDAppLaunchManagerC11handleDeath019_D962C00D1B44897126I12BCA0B2DD47A8LL2of0E0yAC11ApplicationO_So16RBSProcessHandleCtF
++ _$s13caraccessoryd20CAFDAppLaunchManagerC13stopLaunching019_D962C00D1B44897126I12BCA0B2DD47A8LL3appyAC11ApplicationO_tFTf4dn_n
++ _$s13caraccessoryd20CAFDAppLaunchManagerC14launchRequests019_D962C00D1B44897126I12BCA0B2DD47A8LLSDyAC11ApplicationOShy10Foundation4UUIDVGGvpWvd
++ _$s13caraccessoryd20CAFDAppLaunchManagerC14launchRequests019_D962C00D1B44897126I12BCA0B2DD47A8LLSDyAC11ApplicationOShy10Foundation4UUIDVGGvpfi
++ _$s13caraccessoryd20CAFDAppLaunchManagerC14processHandles019_D962C00D1B44897126I12BCA0B2DD47A8LLSDyAC11ApplicationOSo16RBSProcessHandleCGvpWvd
++ _$s13caraccessoryd20CAFDAppLaunchManagerC14processHandles019_D962C00D1B44897126I12BCA0B2DD47A8LLSDyAC11ApplicationOSo16RBSProcessHandleCGvpfi
++ _$s13caraccessoryd20CAFDAppLaunchManagerC16launchAssertions019_D962C00D1B44897126I12BCA0B2DD47A8LLShySo12RBSAssertionCGvpWvd
++ _$s13caraccessoryd20CAFDAppLaunchManagerC16launchAssertions019_D962C00D1B44897126I12BCA0B2DD47A8LLShySo12RBSAssertionCGvpfi
++ _$s13caraccessoryd20CAFDAppLaunchManagerC16registerServices019_D962C00D1B44897126I12BCA0B2DD47A8LL23automakerRequestContentySo012CAFAutomakerpQ0C_tF
++ _$s13caraccessoryd20CAFDAppLaunchManagerC21requestContentService_09didUpdateF3URLySo010CAFRequestF0C_SStF
++ _$s13caraccessoryd20CAFDAppLaunchManagerC21requestContentService_09didUpdateF3URLySo010CAFRequestF0C_SStFTo
++ _$s13caraccessoryd20CAFDAppLaunchManagerC21requestContentService_11didUpdateOnySo010CAFRequestF0C_SbtF
++ _$s13caraccessoryd20CAFDAppLaunchManagerC21requestContentService_11didUpdateOnySo010CAFRequestF0C_SbtFTo
++ _$s13caraccessoryd20CAFDAppLaunchManagerC21requestContentService_11didUpdateOnySo010CAFRequestF0C_SbtFToTm
++ _$s13caraccessoryd20CAFDAppLaunchManagerC21requestContentService_13didUpdateNameySo010CAFRequestF0C_SStF
++ _$s13caraccessoryd20CAFDAppLaunchManagerC21requestContentService_13didUpdateNameySo010CAFRequestF0C_SStFTo
++ _$s13caraccessoryd20CAFDAppLaunchManagerC21requestContentService_24didUpdateUserDismissibleySo010CAFRequestF0C_SbtF
++ _$s13caraccessoryd20CAFDAppLaunchManagerC21requestContentService_24didUpdateUserDismissibleySo010CAFRequestF0C_SbtFTo
++ _$s13caraccessoryd20CAFDAppLaunchManagerC21requestContentService_30didUpdateDisplayZoneIdentifierySo010CAFRequestF0C_SStF
++ _$s13caraccessoryd20CAFDAppLaunchManagerC21requestContentService_30didUpdateDisplayZoneIdentifierySo010CAFRequestF0C_SStFTo
++ _$s13caraccessoryd20CAFDAppLaunchManagerC21requestContentService_31didUpdateDisplayPanelIdentifierySo010CAFRequestF0C_SStF
++ _$s13caraccessoryd20CAFDAppLaunchManagerC21requestContentService_31didUpdateDisplayPanelIdentifierySo010CAFRequestF0C_SStFTo
++ _$s13caraccessoryd20CAFDAppLaunchManagerC23carDidUpdateAccessoriesyySo6CAFCarCF
++ _$s13caraccessoryd20CAFDAppLaunchManagerC23carDidUpdateAccessoriesyySo6CAFCarCFTo
++ _$s13caraccessoryd20CAFDAppLaunchManagerC30requestTemporaryContentService_09didUpdatefG3URLySo010CAFRequestfG0C_SStF
++ _$s13caraccessoryd20CAFDAppLaunchManagerC30requestTemporaryContentService_09didUpdatefG3URLySo010CAFRequestfG0C_SStFTo
++ _$s13caraccessoryd20CAFDAppLaunchManagerC30requestTemporaryContentService_11didUpdateOnySo010CAFRequestfG0C_SbtF
++ _$s13caraccessoryd20CAFDAppLaunchManagerC30requestTemporaryContentService_11didUpdateOnySo010CAFRequestfG0C_SbtFTo
++ _$s13caraccessoryd20CAFDAppLaunchManagerC30requestTemporaryContentService_13didUpdateNameySo010CAFRequestfG0C_SStF
++ _$s13caraccessoryd20CAFDAppLaunchManagerC30requestTemporaryContentService_13didUpdateNameySo010CAFRequestfG0C_SStFTo
++ _$s13caraccessoryd20CAFDAppLaunchManagerC30requestTemporaryContentService_30didUpdateDisplayZoneIdentifierySo010CAFRequestfG0C_SStF
++ _$s13caraccessoryd20CAFDAppLaunchManagerC30requestTemporaryContentService_30didUpdateDisplayZoneIdentifierySo010CAFRequestfG0C_SStFTo
++ _$s13caraccessoryd20CAFDAppLaunchManagerC30requestTemporaryContentService_31didUpdateDisplayPanelIdentifierySo010CAFRequestfG0C_SStF
++ _$s13caraccessoryd20CAFDAppLaunchManagerC30requestTemporaryContentService_31didUpdateDisplayPanelIdentifierySo010CAFRequestfG0C_SStFTo
++ _$s13caraccessoryd20CAFDAppLaunchManagerC6launch019_D962C00D1B44897126H12BCA0B2DD47A8LL3appyAC11ApplicationO_tF
++ _$s13caraccessoryd20CAFDAppLaunchManagerC6launch019_D962C00D1B44897126H12BCA0B2DD47A8LL3appyAC11ApplicationO_tFySo16RBSProcessHandleC_So0P11ExitContextCtcfU_
++ _$s13caraccessoryd20CAFDAppLaunchManagerC6launch019_D962C00D1B44897126H12BCA0B2DD47A8LL3appyAC11ApplicationO_tFySo16RBSProcessHandleC_So0P11ExitContextCtcfU_TA
++ _$s13caraccessoryd20CAFDAppLaunchManagerC6launch019_D962C00D1B44897126H12BCA0B2DD47A8LL3appyAC11ApplicationO_tFySo16RBSProcessHandleC_So0P11ExitContextCtcfU_yyScMYccfU_
++ _$s13caraccessoryd20CAFDAppLaunchManagerC6launch019_D962C00D1B44897126H12BCA0B2DD47A8LL3appyAC11ApplicationO_tFySo16RBSProcessHandleC_So0P11ExitContextCtcfU_yyScMYccfU_TA
++ _$s13caraccessoryd20CAFDAppLaunchManagerC9assertion_22didInvalidateWithErrorySo12RBSAssertionC_s0I0_pSgtF
++ _$s13caraccessoryd20CAFDAppLaunchManagerC9assertion_22didInvalidateWithErrorySo12RBSAssertionC_s0I0_pSgtFTo
++ _$s13caraccessoryd20CAFDAppLaunchManagerCACycfC
++ _$s13caraccessoryd20CAFDAppLaunchManagerCACycfc
++ _$s13caraccessoryd20CAFDAppLaunchManagerCACycfcTo
++ _$s13caraccessoryd20CAFDAppLaunchManagerCMF
++ _$s13caraccessoryd20CAFDAppLaunchManagerCMa
++ _$s13caraccessoryd20CAFDAppLaunchManagerCMf
++ _$s13caraccessoryd20CAFDAppLaunchManagerCMn
++ _$s13caraccessoryd20CAFDAppLaunchManagerCN
++ _$s13caraccessoryd20CAFDAppLaunchManagerCfD
++ _$s13caraccessoryd20CAFDAppLaunchManagerCfDTo
++ _$s13caraccessoryd20CAFDAppLaunchManagerCfETo
++ _$s2os14OSLogArgumentsV6appendyyxycs17FixedWidthIntegerRzlFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_Si_Tg5
++ _$s2os6LoggerV13caraccessorydE7manager019_D962C00D1B44897126G12BCA0B2DD47A8LLACvpZ
++ _$s2os6LoggerV13caraccessorydE7manager019_D962C00D1B44897126G12BCA0B2DD47A8LL_WZ
++ _$s2os6LoggerV13caraccessorydE7manager019_D962C00D1B44897126G12BCA0B2DD47A8LL_Wz
++ _$s2os9serialize_2atyx_Spys5UInt8VGzts17FixedWidthIntegerRzlFySWXEfU_
++ _$s8RawValueSYTl
++ _$sSDyq_Sgxcis13caraccessoryd20CAFDAppLaunchManagerC11ApplicationO_So16RBSProcessHandleCTg5
++ _$sSH13_rawHashValue4seedS2i_tFTq
++ _$sSH4hash4intoys6HasherVz_tFTq
++ _$sSH9hashValueSivgTq
++ _$sSHMp
++ _$sSHSQTb
++ _$sSQ2eeoiySbx_xtFZTq
++ _$sSQMp
++ _$sSY8rawValue03RawB0QzvgTq
++ _$sSY8rawValuexSg03RawB0Qz_tcfCTq
++ _$sSYMp
++ _$sSh8_VariantV16_migrateToNative_8removingxs10__CocoaSetV_xtFSo12RBSAssertionC_Tg5
++ _$sSh8_VariantV6insertySb8inserted_x17memberAfterInserttxnF10Foundation4UUIDV_Tg5
++ _$sSh8_VariantV6insertySb8inserted_x17memberAfterInserttxnFSo12RBSAssertionC_Tg5
++ _$sSh8_VariantV6removeyxSgxF10Foundation4UUIDV_Tg5
++ _$sSh8_VariantV6removeyxSgxF13caraccessoryd22CAFDAssetVariantsAgentC16_ConnectionProxy33_AD8EB03328B3296C924C05733247A05ALLC_Tg5Tm
++ _$sSh8_VariantV6removeyxSgxFSo12RBSAssertionC_Tg5
++ _$sSh8containsySbxF10Foundation4UUIDV_Tg5
++ _$sSiIegd_SiIegr_TR
++ _$sSo12RBSAssertionCML
++ _$sSo13os_log_type_ta0A0E5debugABvgZ
++ _$sSo13os_log_type_ta0A0E5errorABvgZ
++ _$sSo16RBSProcessHandleCML
++ _$sSo16RBSProcessHandleCSo0A11ExitContextCIeggg_AbDIeyByy_TR
++ _$sSo17CAFRequestContentCML
++ _$sSo26CAFAutomakerRequestContentCML
++ _$sSo26CAFAutomakerRequestContentCMaTm
++ _$sSo26CAFRequestTemporaryContentCML
++ _$ss10_NativeSetV13copyAndResize8capacityySi_tF10Foundation4UUIDV_Tg5
++ _$ss10_NativeSetV4copyyyF10Foundation4UUIDV_Tg5
++ _$ss10_NativeSetV6resize8capacityySi_tF10Foundation4UUIDV_Tg5
++ _$ss10_NativeSetV7_delete2atys10_HashTableV6BucketV_tF10Foundation4UUIDV_Tg5
++ _$ss10_NativeSetV9insertNew_2at8isUniqueyxn_s10_HashTableV6BucketVSbtF10Foundation4UUIDV_Tg5
++ _$ss10_NativeSetV9insertNew_2at8isUniqueyxn_s10_HashTableV6BucketVSbtFSo12RBSAssertionC_Tg5
++ _$ss10_NativeSetV_8capacityAByxGs07__CocoaB0Vn_SitcfCSo12RBSAssertionC_Tt1g5
++ _$ss11_SetStorageCy10Foundation4UUIDVGMD
++ _$ss11_SetStorageCySo12RBSAssertionCGMD
++ _$ss17_NativeDictionaryV20_copyOrMoveAndResize8capacity12moveElementsySi_SbtF13caraccessoryd20CAFDAppLaunchManagerC11ApplicationO_Shy10Foundation4UUIDVGTg5
++ _$ss17_NativeDictionaryV20_copyOrMoveAndResize8capacity12moveElementsySi_SbtF13caraccessoryd20CAFDAppLaunchManagerC11ApplicationO_So16RBSProcessHandleCTg5
++ _$ss17_NativeDictionaryV4copyyyF13caraccessoryd20CAFDAppLaunchManagerC11ApplicationO_Shy10Foundation4UUIDVGTg5
++ _$ss17_NativeDictionaryV4copyyyF13caraccessoryd20CAFDAppLaunchManagerC11ApplicationO_So16RBSProcessHandleCTg5
++ _$ss17_NativeDictionaryV7_delete2atys10_HashTableV6BucketV_tF13caraccessoryd20CAFDAppLaunchManagerC11ApplicationO_So16RBSProcessHandleCTg5
++ _$ss17_NativeDictionaryV8setValue_6forKey8isUniqueyq_n_xSbtF13caraccessoryd20CAFDAppLaunchManagerC11ApplicationO_So16RBSProcessHandleCTg5
++ _$ss18_DictionaryStorageCy13caraccessoryd20CAFDAppLaunchManagerC11ApplicationOShy10Foundation4UUIDVGGMD
++ _$ss18_DictionaryStorageCy13caraccessoryd20CAFDAppLaunchManagerC11ApplicationOSo16RBSProcessHandleCGMD
++ _$ss21_findStringSwitchCase5cases6stringSiSays06StaticB0VG_SStF
++ _$ss22__RawDictionaryStorageC4find_9hashValues10_HashTableV6BucketV6bucket_Sb5foundtx_SitSHRzlF13caraccessoryd20CAFDAppLaunchManagerC11ApplicationO_Tg5Tf4dnn_n
++ _$ss22__RawDictionaryStorageC4findys10_HashTableV6BucketV6bucket_Sb5foundtxSHRzlF13caraccessoryd20CAFDAppLaunchManagerC11ApplicationO_Tg5Tf4dn_n
++ _OBJC_CLASS_$_CAFAutomakerRequestContent
++ _OBJC_CLASS_$_CAFRequestContent
++ _OBJC_CLASS_$_CAFRequestTemporaryContent
++ _OBJC_CLASS_$_LSApplicationIdentity
++ _OBJC_CLASS_$_RBSLaunchContext
++ _OBJC_CLASS_$_RBSLaunchRequest
++ _OBJC_CLASS_$_RBSProcessHandle
++ _OBJC_CLASS_$_RBSProcessIdentity
++ _OBJC_CLASS_$__TtC13caraccessoryd20CAFDAppLaunchManager
++ _OBJC_METACLASS_$__TtC13caraccessoryd20CAFDAppLaunchManager
++ __DATA__TtC13caraccessoryd20CAFDAppLaunchManager
++ __IVARS__TtC13caraccessoryd20CAFDAppLaunchManager
++ __METACLASS_DATA__TtC13caraccessoryd20CAFDAppLaunchManager
++ __OBJC_$_INSTANCE_METHODS__TtC13caraccessoryd20CAFDAppLaunchManager(caraccessoryd|caraccessoryd1|caraccessoryd2|caraccessoryd3|caraccessoryd4)
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_CAFRequestContentObserver
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_CAFRequestTemporaryContentObserver
++ __OBJC_$_PROTOCOL_METHOD_TYPES_CAFRequestContentObserver
++ __OBJC_$_PROTOCOL_METHOD_TYPES_CAFRequestTemporaryContentObserver
++ __OBJC_$_PROTOCOL_REFS_CAFRequestContentObserver
++ __OBJC_$_PROTOCOL_REFS_CAFRequestTemporaryContentObserver
++ __OBJC_CLASS_PROTOCOLS_$__TtC13caraccessoryd20CAFDAppLaunchManager(caraccessoryd|caraccessoryd1|caraccessoryd2|caraccessoryd3|caraccessoryd4)
++ __OBJC_LABEL_PROTOCOL_$_CAFRequestContentObserver
++ __OBJC_LABEL_PROTOCOL_$_CAFRequestTemporaryContentObserver
++ __OBJC_PROTOCOL_$_CAFRequestContentObserver
++ __OBJC_PROTOCOL_$_CAFRequestTemporaryContentObserver
++ ___swift_memcpy0_1
++ ___swift_noop_void_return
++ __swift_stdlib_bridgeErrorToNSError
++ _associated conformance 13caraccessoryd20CAFDAppLaunchManagerC11ApplicationOSHAASQ
++ _swift_errorRelease
++ _swift_errorRetain
++ _swift_willThrow
++ _symbolic $sSY
++ _symbolic SDy_____Shy_____GG 13caraccessoryd20CAFDAppLaunchManagerC11ApplicationO 10Foundation4UUIDV
++ _symbolic SDy_____So16RBSProcessHandleCG 13caraccessoryd20CAFDAppLaunchManagerC11ApplicationO
++ _symbolic ShySo12RBSAssertionCG
++ _symbolic Shy_____G 10Foundation4UUIDV
++ _symbolic So16RBSProcessHandleC
++ _symbolic _____ 13caraccessoryd20CAFDAppLaunchManagerC
++ _symbolic _____ 13caraccessoryd20CAFDAppLaunchManagerC11ApplicationO
++ _symbolic _____Sg 10Foundation3URLV
++ _symbolic _____Sg 10Foundation4UUIDV
++ _symbolic _____SgXw 13caraccessoryd20CAFDAppLaunchManagerC
++ _symbolic _____SgXwz_Xx 13caraccessoryd20CAFDAppLaunchManagerC
++ _symbolic _____ySo12RBSAssertionCG s11_SetStorageC
++ _symbolic _____y_____G s11_SetStorageC 10Foundation4UUIDV
++ _symbolic _____y_____Shy_____GG s18_DictionaryStorageC 13caraccessoryd20CAFDAppLaunchManagerC11ApplicationO 10Foundation4UUIDV
++ _symbolic _____y_____So16RBSProcessHandleCG s18_DictionaryStorageC 13caraccessoryd20CAFDAppLaunchManagerC11ApplicationO
++ block_copy_helper.25
++ block_copy_helper.45
++ block_copy_helper.51
++ block_copy_helper.64
++ block_descriptor.27
++ block_descriptor.47
++ block_descriptor.53
++ block_descriptor.66
++ block_destroy_helper.26
++ block_destroy_helper.46
++ block_destroy_helper.52
++ block_destroy_helper.65
++ objectdestroy.37Tm
+- _$sIegh_IeyBh_TRTm
+- _$ss10_NativeSetV4copyyyF13caraccessoryd22CAFDAssetVariantsAgentC16_ConnectionProxy33_AD8EB03328B3296C924C05733247A05ALLC_Tg5
+- _$ss10_NativeSetV4copyyyF13caraccessoryd9CAFDAgentC20_CAFDConnectionProxyC_Tg5
+- _$ss10_NativeSetV_8capacityAByxGs07__CocoaB0Vn_SitcfC13caraccessoryd22CAFDAssetVariantsAgentC16_ConnectionProxy33_AD8EB03328B3296C924C05733247A05ALLC_Tt1g5
+- _$ss10_NativeSetV_8capacityAByxGs07__CocoaB0Vn_SitcfC13caraccessoryd9CAFDAgentC20_CAFDConnectionProxyC_Tt1g5
+- block_copy_helper.44
+- block_copy_helper.50
+- block_copy_helper.57
+- block_copy_helper.63
+- block_descriptor.46
+- block_descriptor.52
+- block_descriptor.59
+- block_descriptor.65
+- block_destroy_helper.45
+- block_destroy_helper.51
+- block_destroy_helper.58
+- block_destroy_helper.64
+- objectdestroy.36Tm
+CStrings:
++ "%s accessories updated for %@"
++ "%s already registered for automakerRequestContent: %@"
++ "%s already tracking a process for %s"
++ "%s app=%s launchRequest.count=%ld service.uniqueIdentifier=%s"
++ "%s currentCar updated to %@"
++ "%s error requesting launch for %s: %@"
++ "%s monitored process %@ terminated"
++ "%s monitoring %@ for termination"
++ "%s process handle for %@: %@"
++ "%s registering for automakerRequestContent: %@"
++ "%s relaunching %s"
++ "%s requesting launch for %@"
++ "%s unable to look up process identity for app identity %@"
++ "AppLaunchManager deinit"
++ "AppLaunchManager initialized"
++ "CAFRequestContentObserver"
++ "CAFRequestTemporaryContentObserver"
++ "_TtC13caraccessoryd20CAFDAppLaunchManager"
++ "automakerRequestContent"
++ "cafd-AppLaunchManager"
++ "carDidUpdateAccessories(_:)"
++ "carManager(_:didUpdateCurrentCar:)"
++ "caraccessoryd.CAFDAppLaunchManager"
++ "com.apple.AutoSettings"
++ "com.apple.caraccessoryframework"
++ "contextWithIdentity:"
++ "execute:assertion:error:"
++ "handleDeath(of:handle:)"
++ "identityForLSApplicationIdentity:"
++ "initWithBundleIdentifier:URL:personaUniqueString:personaType:"
++ "initWithContext:"
++ "launchAssertions"
++ "launchRequests"
++ "monitorForDeath:"
++ "on"
++ "processHandles"
++ "registerServices(automakerRequestContent:)"
++ "registered"
++ "removeRequestLaunch(app:for:)"
++ "requestContentService:didUpdateContentURL:"
++ "requestContentService:didUpdateDisplayPanelIdentifier:"
++ "requestContentService:didUpdateDisplayZoneIdentifier:"
++ "requestContentService:didUpdateName:"
++ "requestContentService:didUpdateOn:"
++ "requestContentService:didUpdateUserDismissible:"
++ "requestContents"
++ "requestLaunch(app:for:)"
++ "requestTemporaryContentService:didUpdateDisplayPanelIdentifier:"
++ "requestTemporaryContentService:didUpdateDisplayZoneIdentifier:"
++ "requestTemporaryContentService:didUpdateName:"
++ "requestTemporaryContentService:didUpdateOn:"
++ "requestTemporaryContentService:didUpdateTemporaryContentURL:"
++ "requestTemporaryContents"
++ "setAttributes:"
++ "v24@?0@\"RBSProcessHandle\"8@\"RBSProcessExitContext\"16"
++ "v28@0:8@\"CAFRequestContent\"16B24"
++ "v28@0:8@\"CAFRequestTemporaryContent\"16B24"
++ "v32@0:8@\"CAFRequestContent\"16@\"NSString\"24"
++ "v32@0:8@\"CAFRequestTemporaryContent\"16@\"NSString\"24"
+
+```

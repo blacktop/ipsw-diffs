@@ -1,0 +1,30 @@
+## MetalFX
+
+> `/System/Library/Frameworks/MetalFX.framework/MetalFX`
+
+```diff
+
+-29.7.4.0.0
+-  __TEXT.__text: 0x169ac
++29.7.5.0.0
++  __TEXT.__text: 0x16978
+   __TEXT.__auth_stubs: 0x580
+   __TEXT.__objc_methlist: 0x14a4
+-  __TEXT.__gcc_except_tab: 0x24b4
++  __TEXT.__gcc_except_tab: 0x24b8
+   __TEXT.__cstring: 0x1809
+   __TEXT.__const: 0x200
+-  __TEXT.__unwind_info: 0x3b0
++  __TEXT.__unwind_info: 0x3a8
+   __TEXT.__objc_classname: 0x1be
+   __TEXT.__objc_methname: 0x2ba2
+   __TEXT.__objc_methtype: 0x9ac
+Symbols:
++ __ZN15BRNet_v3_Filter10encodePostEPU27objcproto16MTLCommandBuffer11objc_objectPU35objcproto24MTLComputeCommandEncoder11objc_objectPU19objcproto9MTLBuffer11objc_objectPU21objcproto10MTLTexture11objc_objectS7_S7_S7_Dv2_fS8_fffbDv2_th
++ __ZN15BRNet_v3_Filter9encodeMidEPU27objcproto16MTLCommandBuffer11objc_objectPU35objcproto24MTLComputeCommandEncoder11objc_objectPU21objcproto10MTLTexture11objc_objectS5_Dv2_fS6_ffbDv2_tS6_h
++ __ZN15BRNet_v3_Filter9encodePreEPU27objcproto16MTLCommandBuffer11objc_objectPU35objcproto24MTLComputeCommandEncoder11objc_objectPU21objcproto10MTLTexture11objc_objectS5_S5_S5_S5_PU19objcproto9MTLBuffer11objc_objectDv2_fS8_ffbbbfDv2_th
+- __ZN15BRNet_v3_Filter10encodePostEPU27objcproto16MTLCommandBuffer11objc_objectPU35objcproto24MTLComputeCommandEncoder11objc_objectPU19objcproto9MTLBuffer11objc_objectPU21objcproto10MTLTexture11objc_objectS7_S7_S7_Dv2_fS8_fffbDv2_t
+- __ZN15BRNet_v3_Filter9encodeMidEPU27objcproto16MTLCommandBuffer11objc_objectPU35objcproto24MTLComputeCommandEncoder11objc_objectPU21objcproto10MTLTexture11objc_objectS5_Dv2_fS6_ffbDv2_tS6_
+- __ZN15BRNet_v3_Filter9encodePreEPU27objcproto16MTLCommandBuffer11objc_objectPU35objcproto24MTLComputeCommandEncoder11objc_objectPU21objcproto10MTLTexture11objc_objectS5_S5_S5_S5_PU19objcproto9MTLBuffer11objc_objectDv2_fS8_ffbbbfDv2_t
+
+```

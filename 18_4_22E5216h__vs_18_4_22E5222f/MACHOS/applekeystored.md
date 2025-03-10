@@ -1,0 +1,1035 @@
+## applekeystored
+
+> `/usr/libexec/applekeystored`
+
+```diff
+
+-1827.100.152.502.1
+-  __TEXT.__text: 0x4fcfc
+-  __TEXT.__auth_stubs: 0x1780
++1827.100.154.0.2
++  __TEXT.__text: 0x1b20c
++  __TEXT.__auth_stubs: 0x6d0
+   __TEXT.__objc_methlist: 0x104
+-  __TEXT.__const: 0x4a18
+-  __TEXT.__cstring: 0x614c
++  __TEXT.__cstring: 0xe4c
++  __TEXT.__oslogstring: 0x26
+   __TEXT.__swift5_entry: 0x8
+-  __TEXT.__constg_swiftt: 0x2068
+-  __TEXT.__swift5_typeref: 0x1155
+-  __TEXT.__swift5_reflstr: 0x1065
+-  __TEXT.__swift5_fieldmd: 0x18c8
+-  __TEXT.__swift5_builtin: 0x64
+-  __TEXT.__oslogstring: 0xd2b
+-  __TEXT.__swift5_proto: 0x36c
+-  __TEXT.__swift5_types: 0x150
++  __TEXT.__const: 0x3050
++  __TEXT.__constg_swiftt: 0x1c8c
++  __TEXT.__swift5_typeref: 0x89d
++  __TEXT.__swift5_builtin: 0x3c
++  __TEXT.__swift5_reflstr: 0xba5
++  __TEXT.__swift5_fieldmd: 0xfec
++  __TEXT.__swift5_types: 0xe8
+   __TEXT.__objc_classname: 0x39
+-  __TEXT.__objc_methname: 0x286
++  __TEXT.__objc_methname: 0x189
+   __TEXT.__objc_methtype: 0xad
+-  __TEXT.__swift5_assocty: 0x1e0
+-  __TEXT.__swift5_mpenum: 0x20
+-  __TEXT.__swift5_capture: 0x120
++  __TEXT.__swift5_assocty: 0x1b0
++  __TEXT.__swift5_proto: 0x210
+   __TEXT.__swift5_protos: 0x4
+-  __TEXT.__swift_as_entry: 0x4c
+-  __TEXT.__swift_as_ret: 0x64
+-  __TEXT.__unwind_info: 0x1278
+-  __TEXT.__eh_frame: 0x2268
+-  __DATA_CONST.__auth_got: 0xbc0
+-  __DATA_CONST.__got: 0x350
+-  __DATA_CONST.__auth_ptr: 0x760
+-  __DATA_CONST.__const: 0x7a50
++  __TEXT.__unwind_info: 0x930
++  __TEXT.__eh_frame: 0xd78
++  __DATA_CONST.__auth_got: 0x368
++  __DATA_CONST.__got: 0xb8
++  __DATA_CONST.__auth_ptr: 0x490
++  __DATA_CONST.__const: 0xe90
+   __DATA_CONST.__objc_classlist: 0xb8
+   __DATA_CONST.__objc_protolist: 0x30
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_protorefs: 0x18
+   __DATA.__objc_const: 0x20c8
+-  __DATA.__objc_selrefs: 0x108
++  __DATA.__objc_selrefs: 0xc8
+   __DATA.__objc_data: 0x280
+-  __DATA.__data: 0x34d0
+-  __DATA.__common: 0xd8
+-  __DATA.__bss: 0x6e00
++  __DATA.__data: 0x2a98
++  __DATA.__common: 0x60
++  __DATA.__bss: 0x43e0
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+-  - /System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
+   - /System/Library/Frameworks/SwiftData.framework/SwiftData
+-  - /System/Library/PrivateFrameworks/AppleKeyStore.framework/AppleKeyStore
+-  - /System/Library/PrivateFrameworks/ArgumentParserInternal.framework/ArgumentParserInternal
+   - /System/Library/PrivateFrameworks/AtomicsInternal.framework/AtomicsInternal
+-  - /System/Library/PrivateFrameworks/FeatureFlags.framework/FeatureFlags
+-  - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/swift/libswiftCore.dylib
+
+   - /usr/lib/swift/libswiftOSLog.dylib
+   - /usr/lib/swift/libswiftObjectiveC.dylib
+   - /usr/lib/swift/libswiftObservation.dylib
+-  - /usr/lib/swift/libswiftSystem.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
+
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsys_time.dylib
+   - /usr/lib/swift/libswiftunistd.dylib
+-  Functions: 1739
+-  Symbols:   669
+-  CStrings:  712
++  Functions: 992
++  Symbols:   274
++  CStrings:  180
+ 
+Symbols:
+- _$s10Foundation10URLRequestV10httpMethodSSSgvs
+- _$s10Foundation10URLRequestV3url11cachePolicy15timeoutIntervalAcA3URLV_So017NSURLRequestCacheE0VSdtcfC
+- _$s10Foundation10URLRequestV8httpBodyAA4DataVSgvs
+- _$s10Foundation10URLRequestV8setValue_18forHTTPHeaderFieldySSSg_SStF
+- _$s10Foundation10URLRequestVMa
+- _$s10Foundation11JSONDecoderC6decode_4fromxxm_AA4DataVtKSeRzlFTj
+- _$s10Foundation11JSONDecoderCACycfc
+- _$s10Foundation11JSONDecoderCMa
+- _$s10Foundation11JSONEncoderC16OutputFormattingV10sortedKeysAEvgZ
+- _$s10Foundation11JSONEncoderC16OutputFormattingVMa
+- _$s10Foundation11JSONEncoderC16outputFormattingAC06OutputD0VvsTj
+- _$s10Foundation11JSONEncoderC6encodeyAA4DataVxKSERzlFTj
+- _$s10Foundation11JSONEncoderCACycfc
+- _$s10Foundation11JSONEncoderCMa
+- _$s10Foundation13__DataStorageC5bytes6length4copy11deallocator6offsetACSvSg_SiSbySv_SitcSgSitcfc
+- _$s10Foundation13__DataStorageC5bytes6lengthACSVSg_Sitcfc
+- _$s10Foundation13__DataStorageC6_bytesSvSgvg
+- _$s10Foundation13__DataStorageC6lengthACSi_tcfc
+- _$s10Foundation13__DataStorageC7_lengthSivg
+- _$s10Foundation13__DataStorageC7_offsetSivg
+- _$s10Foundation13__DataStorageCMa
+- _$s10Foundation15ContiguousBytesMp
+- _$s10Foundation15ContiguousBytesP010withUnsafeC0yqd__qd__SWKXEKlFTj
+- _$s10Foundation17AsyncLineSequenceV04makeB8IteratorAC0bF0Vyx_GyF
+- _$s10Foundation17AsyncLineSequenceV0B8IteratorVMn
+- _$s10Foundation17AsyncLineSequenceV0B8IteratorVyx_GScIAAMc
+- _$s10Foundation17AsyncLineSequenceVMn
+- _$s10Foundation17URLResourceValuesV20isExcludedFromBackupSbSgvs
+- _$s10Foundation17URLResourceValuesVACycfC
+- _$s10Foundation17URLResourceValuesVMa
+- _$s10Foundation20PredicateExpressionsO11ConjunctionVMn
+- _$s10Foundation20PredicateExpressionsO11ConjunctionVy_xq_GAA08StandardB10ExpressionA2aGRzAaGR_rlMc
+- _$s10Foundation20PredicateExpressionsO11ConjunctionVy_xq_GAA0B10ExpressionAAMc
+- _$s10Foundation20PredicateExpressionsO11build_Equal3lhs3rhsAC0E0Vy_xq_Gx_q_tAA0B10ExpressionRzAaJR_SQ6OutputRpzAKQy_ALRSr0_lFZ
+- _$s10Foundation20PredicateExpressionsO13build_KeyPath4root03keyF0AC0eF0Vy_xq_Gx_sAGCy6OutputQzq_GtAA0B10ExpressionRzr0_lFZ
+- _$s10Foundation20PredicateExpressionsO17build_Conjunction3lhs3rhsAC0E0Vy_xq_Gx_q_tAA0B10ExpressionRzAaJR_Sb6OutputRtzSbAKRt_r0_lFZ
+- _$s10Foundation20PredicateExpressionsO5EqualVMn
+- _$s10Foundation20PredicateExpressionsO5EqualVy_xq_GAA08StandardB10ExpressionA2aGRzAaGR_rlMc
+- _$s10Foundation20PredicateExpressionsO5EqualVy_xq_GAA0B10ExpressionAAMc
+- _$s10Foundation20PredicateExpressionsO5ValueVMn
+- _$s10Foundation20PredicateExpressionsO5ValueVy_xGAA08StandardB10ExpressionAASeRzSERzlMc
+- _$s10Foundation20PredicateExpressionsO5ValueVy_xGAA0B10ExpressionAAMc
+- _$s10Foundation20PredicateExpressionsO7KeyPathVMn
+- _$s10Foundation20PredicateExpressionsO7KeyPathVy_xq_GAA08StandardB10ExpressionA2aGRzrlMc
+- _$s10Foundation20PredicateExpressionsO7KeyPathVy_xq_GAA0B10ExpressionAAMc
+- _$s10Foundation20PredicateExpressionsO8VariableVMn
+- _$s10Foundation20PredicateExpressionsO8VariableVy_xGAA08StandardB10ExpressionAAMc
+- _$s10Foundation20PredicateExpressionsO8VariableVy_xGAA0B10ExpressionAAMc
+- _$s10Foundation20PredicateExpressionsO9build_ArgyAC5ValueVy_xGxlFZ
+- _$s10Foundation20PredicateExpressionsO9build_ArgyxxAA0B10ExpressionRzlFZ
+- _$s10Foundation22_convertNSErrorToErrorys0E0_pSo0C0CSgF
+- _$s10Foundation3URLV10AsyncBytesVMn
+- _$s10Foundation3URLV14absoluteStringSSvg
+- _$s10Foundation3URLV15fileURLWithPathACSSh_tcfC
+- _$s10Foundation3URLV17setResourceValuesyyAA011URLResourceE0VKF
+- _$s10Foundation3URLV19_bridgeToObjectiveCSo5NSURLCyF
+- _$s10Foundation3URLV22appendingPathComponent_11isDirectoryACSS_SbtF
+- _$s10Foundation3URLV22appendingPathComponentyACSSF
+- _$s10Foundation3URLV36_unconditionallyBridgeFromObjectiveCyACSo5NSURLCSgFZ
+- _$s10Foundation3URLV5linesAA17AsyncLineSequenceVyAC0D5BytesVGvg
+- _$s10Foundation3URLV6stringACSgSSh_tcfC
+- _$s10Foundation3URLVMa
+- _$s10Foundation3URLVMn
+- _$s10Foundation4DataV10LargeSliceV21ensureUniqueReferenceyyF
+- _$s10Foundation4DataV13base64Encoded7optionsACSgSSh_So27NSDataBase64DecodingOptionsVtcfC
+- _$s10Foundation4DataV14RangeReferenceCMa
+- _$s10Foundation4DataV15_RepresentationO15replaceSubrange_4with5countySnySiG_SVSgSitF
+- _$s10Foundation4DataV15_RepresentationO15reserveCapacityyySiF
+- _$s10Foundation4DataV15_RepresentationO6append10contentsOfySW_tF
+- _$s10Foundation4DataV15_RepresentationON
+- _$s10Foundation4DataV6appendyyACF
+- _$s10Foundation4DateV20timeIntervalSinceNowACSd_tcfC
+- _$s10Foundation4DateV20timeIntervalSinceNowSdvg
+- _$s10Foundation4DateV21timeIntervalSince1970Sdvg
+- _$s10Foundation4DateVACycfC
+- _$s10Foundation9PredicateVMn
+- _$s10Foundation9PredicateVyACyxxQp_QPGAA08StandardB10Expression_pSb6OutputAA0bD0PRts_XPAA0B11ExpressionsO8VariableVy_xGxQpXEcfC
+- _$s12FeatureFlags02isA7EnabledySbAA0aB3Key_pF
+- _$s12FeatureFlags0aB3KeyMp
+- _$s12FeatureFlags0aB3KeyP6domains12StaticStringVvgTq
+- _$s12FeatureFlags0aB3KeyP7features12StaticStringVvgTq
+- _$s14CoreFoundation9_CFObjectMp
+- _$s14CoreFoundation9_CFObjectPAAE2eeoiySbx_xtFZ
+- _$s14CoreFoundation9_CFObjectPAAE4hash4intoys6HasherVz_tF
+- _$s14CoreFoundation9_CFObjectPAAE9hashValueSivg
+- _$s14CoreFoundation9_CFObjectPSHTb
+- _$s22ArgumentParserInternal0A4HelpVMa
+- _$s22ArgumentParserInternal0A4HelpVMn
+- _$s22ArgumentParserInternal15ParsableCommandMp
+- _$s22ArgumentParserInternal15ParsableCommandP12_commandNameSSvgZTq
+- _$s22ArgumentParserInternal15ParsableCommandP13configurationAA0E13ConfigurationVvgZTq
+- _$s22ArgumentParserInternal15ParsableCommandP3runyyKFTq
+- _$s22ArgumentParserInternal15ParsableCommandPAA0D9ArgumentsTb
+- _$s22ArgumentParserInternal15ParsableCommandPAAE12_commandNameSSvgZ
+- _$s22ArgumentParserInternal15ParsableCommandPAAE13configurationAA0E13ConfigurationVvgZ
+- _$s22ArgumentParserInternal15ParsableCommandPAAE4mainyyFZ
+- _$s22ArgumentParserInternal17NameSpecificationV10customLong_14withSingleDashACSS_SbtFZ
+- _$s22ArgumentParserInternal17NameSpecificationVMa
+- _$s22ArgumentParserInternal17ParsableArgumentsMp
+- _$s22ArgumentParserInternal17ParsableArgumentsP11_errorLabelSSvgZTq
+- _$s22ArgumentParserInternal17ParsableArgumentsP8validateyyKFTq
+- _$s22ArgumentParserInternal17ParsableArgumentsPAAE11_errorLabelSSvgZ
+- _$s22ArgumentParserInternal17ParsableArgumentsPAAE8validateyyKF
+- _$s22ArgumentParserInternal17ParsableArgumentsPSeTb
+- _$s22ArgumentParserInternal17ParsableArgumentsPxycfCTq
+- _$s22ArgumentParserInternal4FlagV12wrappedValuexvg
+- _$s22ArgumentParserInternal4FlagVAASbRszlE12wrappedValue4name4helpACySbGSb_AA17NameSpecificationVAA0A4HelpVSgtcfC
+- _$s22ArgumentParserInternal4FlagVMa
+- _$s22ArgumentParserInternal4FlagVMn
+- _$s22ArgumentParserInternal4FlagVyxGSeAAMc
+- _$s6System8FilePathV10componentsAC13ComponentViewVvM
+- _$s6System8FilePathV10componentsAC13ComponentViewVvg
+- _$s6System8FilePathV13ComponentViewV10startIndexAE0G0Vvg
+- _$s6System8FilePathV13ComponentViewV5IndexVMa
+- _$s6System8FilePathV13ComponentViewV5IndexVMn
+- _$s6System8FilePathV13ComponentViewV5IndexVSLAAMc
+- _$s6System8FilePathV13ComponentViewV5IndexVSQAAMc
+- _$s6System8FilePathV13ComponentViewVMa
+- _$s6System8FilePathV13ComponentViewVMn
+- _$s6System8FilePathV13ComponentViewVSKAAMc
+- _$s6System8FilePathV13ComponentViewVSTAAMc
+- _$s6System8FilePathV13ComponentViewVSlAAMc
+- _$s6System8FilePathV13ComponentViewVSmAAMc
+- _$s6System8FilePathV13lastComponentAC0E0VSgvg
+- _$s6System8FilePathV21removingLastComponentACyF
+- _$s6System8FilePathV6stringSSvg
+- _$s6System8FilePathV9ComponentV6stringSSvg
+- _$s6System8FilePathV9ComponentVMa
+- _$s6System8FilePathV9ComponentVMn
+- _$s6System8FilePathV9ComponentVyAESgSScfC
+- _$s6System8FilePathVMa
+- _$s6System8FilePathVs23CustomStringConvertibleAAMc
+- _$s6System8FilePathVyACSScfC
+- _$s8Dispatch0A13WorkItemFlagsVMa
+- _$s8Dispatch0A13WorkItemFlagsVMn
+- _$s8Dispatch0A13WorkItemFlagsVs10SetAlgebraAAMc
+- _$s8Dispatch0A3QoSV11unspecifiedACvgZ
+- _$s8Dispatch0A3QoSVMa
+- _$s9SwiftData12ModelContextC4saveyyKFTj
+- _$s9SwiftData12ModelContextC5fetchySayxGAA15FetchDescriptorVyxGKAA010PersistentC0RzlFTj
+- _$s9SwiftData12ModelContextC6deleteyyxAA010PersistentC0RzlFTj
+- _$s9SwiftData12ModelContextC6insertyyxAA010PersistentC0RzlFTj
+- _$s9SwiftData12ModelContextCMa
+- _$s9SwiftData12ModelContextCyAcA0C9ContainerCcfc
+- _$s9SwiftData14MigrationStageO11lightweightyAcA15VersionedSchema_pXp_AaE_pXptcACmFWC
+- _$s9SwiftData14MigrationStageOMa
+- _$s9SwiftData14MigrationStageOMn
+- _$s9SwiftData14ModelContainerC3for13migrationPlan14configurationsAcA010PersistentC0_pXpd_AA015SchemaMigrationG0_pXpSgAA0C13ConfigurationVdtKcfC
+- _$s9SwiftData14ModelContainerCMa
+- _$s9SwiftData14ModelContainerCMm
+- _$s9SwiftData14ModelContainerCMo
+- _$s9SwiftData14ModelContainerCN
+- _$s9SwiftData14ModelContainerCSQAAMc
+- _$s9SwiftData15FetchDescriptorV10fetchLimitSiSgvs
+- _$s9SwiftData15FetchDescriptorV9predicate6sortByACyxG10Foundation9PredicateVyx_QPGSg_SayAG04SortD0VyxGGtcfC
+- _$s9SwiftData15FetchDescriptorVMn
+- _$s9SwiftData18ModelConfigurationV16CloudKitDatabaseV9automaticAEvgZ
+- _$s9SwiftData18ModelConfigurationV16CloudKitDatabaseVMa
+- _$s9SwiftData18ModelConfigurationVMa
+- _$s9SwiftData18ModelConfigurationVMn
+- _$s9SwiftData18ModelConfigurationV_6schema3url10allowsSave16cloudKitDatabaseACSSSg_AA6SchemaCSg10Foundation3URLVSbAC05CloudjK0VtcfC
+- _$s9SwiftData19SchemaMigrationPlanMp
+- _$s9SwiftData19SchemaMigrationPlanP6stagesSayAA0D5StageOGvgZTq
+- _$s9SwiftData19SchemaMigrationPlanP7schemasSayAA09VersionedC0_pXpGvgZTq
+- _$sSD10FoundationE34_conditionallyBridgeFromObjectiveC_6resultSbSo12NSDictionaryC_SDyxq_GSgztFZ
+- _$sSK9formIndex6beforey0B0Qzz_tFTj
+- _$sSL2leoiySbx_xtFZTj
+- _$sSQ2eeoiySbx_xtFZTj
+- _$sSS10FoundationE19_bridgeToObjectiveCSo8NSStringCyF
+- _$sSS10FoundationE4data8encodingSSSgAA4DataVh_SSAAE8EncodingVtcfC
+- _$sSS10FoundationE5bytes8encodingSSSgxh_SSAAE8EncodingVtcSTRzs5UInt8V7ElementRtzlufC
+- _$sSS14validatingUTF8SSSgSPys4Int8VG_tcfC
+- _$sSS7cStringSSSPys4Int8VG_tcfC
+- _$sSS8UTF8ViewV13_foreignCountSiyF
+- _$sSS8UTF8ViewV13_foreignIndex5afterSS0D0VAF_tF
+- _$sSS8UTF8ViewV13_foreignIndex_8offsetBySS0D0VAF_SitF
+- _$sSS8UTF8ViewV17_foreignSubscript8positions5UInt8VSS5IndexV_tF
+- _$sSS8UTF8ViewVN
+- _$sSS9UTF16ViewV5index_8offsetBySS5IndexVAF_SitF
+- _$sSSN
+- _$sSSSQsWP
+- _$sSSSTsWP
+- _$sSS_5radix9uppercaseSSx_SiSbtcSzRzlufC
+- _$sSSs25LosslessStringConvertiblesWP
+- _$sSSySSxcs25LosslessStringConvertibleRzSTRzSJ7ElementSTRtzlufC
+- _$sST12makeIterator0B0QzyFTj
+- _$sSayxGSEsSERzlMc
+- _$sSayxGSTsMc
+- _$sSayxGSesSeRzlMc
+- _$sSayxGSlsMc
+- _$sSbN
+- _$sScA15unownedExecutorScevgTj
+- _$sScI4next7ElementQzSgyYaKFTj
+- _$sScI4next7ElementQzSgyYaKFTjTu
+- _$sScP8rawValues5UInt8Vvg
+- _$sScPMa
+- _$sScS12ContinuationV11YieldResultOMn
+- _$sScS12ContinuationV15BufferingPolicyO15bufferingNewestyADyx__GSicAFmlFWC
+- _$sScS12ContinuationV15BufferingPolicyOMn
+- _$sScS12ContinuationV5yieldyAB11YieldResultOyx__GxnF
+- _$sScS12ContinuationVMn
+- _$sScS17makeAsyncIteratorScS0C0Vyx_GyF
+- _$sScS8IteratorV4next9isolationxSgScA_pSgYi_tYaF
+- _$sScS8IteratorV4next9isolationxSgScA_pSgYi_tYaFTu
+- _$sScS8IteratorVMn
+- _$sScS_15bufferingPolicy_ScSyxGxm_ScS12ContinuationV09BufferingB0Oyx__GyADyx_GXEtcfC
+- _$sScTss5NeverORs_rlE5valuexvg
+- _$sScTss5NeverORs_rlE5valuexvgTu
+- _$sSiSQsWP
+- _$sSl10startIndex0B0QzvgTj
+- _$sSl5index5after5IndexQzAD_tFTj
+- _$sSl8endIndex0B0QzvgTj
+- _$sSl9formIndex5aftery0B0Qzz_tFTj
+- _$sSly7ElementQz5IndexQzcirTj
+- _$sSm15replaceSubrange_4withySny5IndexQzG_qd__ntSlRd__7ElementQyd__AFRtzlFTj
+- _$sSo12NSURLSessionC10FoundationE4data3for8delegateAC4DataV_So13NSURLResponseCtAC10URLRequestV_So0A12TaskDelegate_pSgtYaKF
+- _$sSo12NSURLSessionC10FoundationE4data3for8delegateAC4DataV_So13NSURLResponseCtAC10URLRequestV_So0A12TaskDelegate_pSgtYaKFTu
+- _$sSo13os_log_type_ta0A0E4infoABvgZ
+- _$sSo13os_log_type_ta0A0E5debugABvgZ
+- _$sSo13os_log_type_ta0A0E5errorABvgZ
+- _$sSo17OS_dispatch_queueC8DispatchE10AttributesVMa
+- _$sSo17OS_dispatch_queueC8DispatchE10AttributesVMn
+- _$sSo17OS_dispatch_queueC8DispatchE10AttributesVs10SetAlgebraACMc
+- _$sSo17OS_dispatch_queueC8DispatchE20AutoreleaseFrequencyO7inherityA2EmFWC
+- _$sSo17OS_dispatch_queueC8DispatchE20AutoreleaseFrequencyOMa
+- _$sSo17OS_dispatch_queueC8DispatchE4mainABvgZ
+- _$sSo17OS_dispatch_queueC8DispatchE5label3qos10attributes20autoreleaseFrequency6targetABSS_AC0D3QoSVAbCE10AttributesVAbCE011AutoreleaseI0OABSgtcfC
+- _$sSo18OS_dispatch_sourceC8DispatchE21makeMachReceiveSource4port5queueSo0a1_b1_C10_mach_recv_ps6UInt32V_So0a1_b1_J0CSgtFZ
+- _$sSo18OS_dispatch_sourceP8DispatchE15setEventHandler3qos5flags7handleryAC0D3QoSV_AC0D13WorkItemFlagsVyyXBSgtF
+- _$sSo18OS_dispatch_sourceP8DispatchE8activateyyF
+- _$ss10SetAlgebraPyxqd__ncSTRd__7ElementQyd__ACRtzlufCTj
+- _$ss10_HashTableV8nextHole9atOrAfterAB6BucketVAF_tF
+- _$ss11_StringGutsV8copyUTF84intoSiSgSrys5UInt8VG_tF
+- _$ss11_StringGutsVN
+- _$ss12_ArrayBufferV19_getElementSlowPathyyXlSiFyXl_Ts5
+- _$ss13_StringObjectV10sharedUTF8SRys5UInt8VGvg
+- _$ss15ContinuousClockV7InstantVMa
+- _$ss15ContinuousClockV7InstantVs0C8ProtocolsMc
+- _$ss15ContinuousClockVABycfC
+- _$ss15ContinuousClockVMa
+- _$ss15ContinuousClockVs0B0sMc
+- _$ss15InstantProtocolP8advanced2byx8DurationQz_tFTj
+- _$ss16IndexingIteratorVMn
+- _$ss17__CocoaDictionaryV6lookupyyXlSgyXlF
+- _$ss18EnumeratedSequenceV8IteratorVMn
+- _$ss18EnumeratedSequenceVMn
+- _$ss18_CocoaArrayWrapperV8endIndexSivg
+- _$ss18_DictionaryStorageC4copy8originalAByxq_Gs05__RawaB0C_tFZ
+- _$ss18_DictionaryStorageC6resize8original8capacity4moveAByxq_Gs05__RawaB0C_SiSbtFZ
+- _$ss18_DictionaryStorageC8allocate8capacityAByxq_GSi_tFZ
+- _$ss18_DictionaryStorageCMn
+- _$ss22KeyedDecodingContainerV15decodeIfPresent_6forKeySbSgSbm_xtKF
+- _$ss22KeyedDecodingContainerV15decodeIfPresent_6forKeys6UInt64VSgAFm_xtKF
+- _$ss22KeyedDecodingContainerV6decode_6forKeyS2Sm_xtKF
+- _$ss22KeyedDecodingContainerV6decode_6forKeys6UInt32VAFm_xtKF
+- _$ss22KeyedDecodingContainerV6decode_6forKeys6UInt64VAFm_xtKF
+- _$ss22KeyedDecodingContainerVMa
+- _$ss22KeyedEncodingContainerV15encodeIfPresent_6forKeyySbSg_xtKF
+- _$ss22KeyedEncodingContainerV15encodeIfPresent_6forKeyys6UInt64VSg_xtKF
+- _$ss22KeyedEncodingContainerV6encode_6forKeyySS_xtKF
+- _$ss22KeyedEncodingContainerV6encode_6forKeyys6UInt32V_xtKF
+- _$ss22KeyedEncodingContainerV6encode_6forKeyys6UInt64V_xtKF
+- _$ss22KeyedEncodingContainerVMa
+- _$ss30_findStringSwitchCaseWithCache5cases6string5cacheSiSays06StaticB0VG_SSs07_OpaquebcF0VztF
+- _$ss53KEY_TYPE_OF_DICTIONARY_VIOLATES_HASHABLE_REQUIREMENTSys5NeverOypXpF
+- _$ss5ClockP3now7InstantQzvgTj
+- _$ss5ClockP5sleep5until9tolerancey7InstantQz_8DurationQzSgtYaKFTj
+- _$ss5ClockP5sleep5until9tolerancey7InstantQz_8DurationQzSgtYaKFTjTu
+- _$ss5ErrorMp
+- _$ss5ErrorP19_getEmbeddedNSErroryXlSgyFTq
+- _$ss5ErrorP5_codeSivgTq
+- _$ss5ErrorP7_domainSSvgTq
+- _$ss5ErrorP9_userInfoyXlSgvgTq
+- _$ss5ErrorPsE19_getEmbeddedNSErroryXlSgyF
+- _$ss5ErrorPsE5_codeSivg
+- _$ss5ErrorPsE7_domainSSvg
+- _$ss5ErrorPsE9_userInfoyXlSgvg
+- _$ss5ErrorWS
+- _$ss5Int32VN
+- _$ss5Int32VSzsMc
+- _$ss5SliceVMn
+- _$ss5SliceVyxGSTsMc
+- _$ss5UInt8VMn
+- _$ss5print_9separator10terminator2toyypd_S2Sxzts16TextOutputStreamRzlF
+- _$ss6UInt32V10FoundationE10truncatingABSo8NSNumberCh_tcfC
+- _$ss6UInt32VN
+- _$ss6UInt64V10FoundationE10truncatingABSo8NSNumberCh_tcfC
+- _$ss8DurationV10componentss5Int64V7seconds_AE11attosecondstvg
+- _$ss8DurationV1loiySbAB_ABtFZ
+- _$syXlN
+- _$sypN
+- _AKSEventsRegister
+- _IOConnectCallScalarMethod
+- _IOConnectCallStructMethod
+- _IOConnectMapMemory64
+- _IOConnectSetNotificationPort
+- _IODataQueueAllocateNotificationPort
+- _IODataQueueDequeue
+- _IODataQueuePeek
+- _IOServiceGetMatchingService
+- _IOServiceMatching
+- _IOServiceOpen
+- _MGCopyAnswerWithError
+- _OBJC_CLASS_$_NSFileHandle
+- _OBJC_CLASS_$_NSFileManager
+- _OBJC_CLASS_$_NSHTTPURLResponse
+- _OBJC_CLASS_$_NSURLSession
+- _OBJC_CLASS_$_OS_dispatch_queue
+- _OBJC_CLASS_$_OS_dispatch_source
+- __Block_copy
+- __Block_release
+- __NSConcreteStackBlock
+- ___stack_chk_fail
+- ___stack_chk_guard
+- __objc_autoreleasePoolPop
+- __objc_autoreleasePoolPush
+- __swiftEmptyArrayStorage
+- __swiftEmptyDictionarySingleton
+- __swift_stdlib_bridgeErrorToNSError
+- _aks_get_internal_state
+- _aks_get_lock_state
+- _bzero
+- _calloc
+- _clock_gettime_nsec_np
+- _container_get_identifier
+- _container_get_path
+- _container_query_create
+- _container_query_free
+- _container_query_iterate_results_sync
+- _container_query_operation_set_flags
+- _container_query_set_class
+- _container_query_set_include_other_owners
+- _dispatch_sync
+- _exit
+- _kAKSInfoExtendedLockState
+- _kAKSInfoKeybagMoreState
+- _kAKSInfoKeybagState
+- _kAKSInfoLockState
+- _kIOMainPortDefault
+- _mach_error_string
+- _mach_msg
+- _mach_task_self_
+- _malloc_size
+- _memcpy
+- _memmove
+- _objc_release
+- _objc_release_x23
+- _objc_release_x25
+- _objc_release_x26
+- _objc_release_x27
+- _objc_release_x28
+- _objc_retain
+- _objc_retain_x19
+- _objc_retain_x20
+- _objc_retain_x21
+- _objc_retain_x22
+- _objc_retain_x23
+- _objc_retain_x24
+- _objc_retain_x25
+- _objc_retain_x27
+- _objc_retain_x8
+- _swift_arrayDestroy
+- _swift_bridgeObjectRelease_n
+- _swift_bridgeObjectRetain_n
+- _swift_checkMetadataState
+- _swift_cvw_allocateGenericValueMetadataWithLayoutString
+- _swift_cvw_enumFn_getEnumTag
+- _swift_cvw_initStructMetadataWithLayoutString
+- _swift_cvw_initWithTake
+- _swift_deallocObject
+- _swift_deallocPartialClassInstance
+- _swift_defaultActor_initialize
+- _swift_dynamicCast
+- _swift_dynamicCastObjCClass
+- _swift_errorRelease
+- _swift_errorRetain
+- _swift_getEnumTagSinglePayloadGeneric
+- _swift_getGenericMetadata
+- _swift_getObjCClassMetadata
+- _swift_getObjectType
+- _swift_initStackObject
+- _swift_isEscapingClosureAtFileLocation
+- _swift_isUniquelyReferenced_nonNull_native
+- _swift_release_n
+- _swift_retain
+- _swift_retain_n
+- _swift_stdlib_random
+- _swift_storeEnumTagSinglePayloadGeneric
+- _swift_task_alloc
+- _swift_task_create
+- _swift_task_dealloc
+- _swift_task_switch
+- _swift_unknownObjectRetain
+- _swift_willThrowTypedImpl
+- _xpc_set_event_stream_handler
+CStrings:
++ "applekeystored functionality disabled"
+- "/private/var/.fseventsd"
+- "/private/var/Keychains/Analytics"
+- "/private/var/Keychains/keychain-ota-backup.plist"
+- "/private/var/Managed Preferences/mobile/.GlobalPreferences.plist"
+- "/private/var/Managed Preferences/mobile/com.apple.MobileAsset.plist"
+- "/private/var/MobileAsset"
+- "/private/var/MobileSoftwareUpdate"
+- "/private/var/containers"
+- "/private/var/containers/Bundle/Application"
+- "/private/var/containers/Data/System/$systemData(com.apple.adid)"
+- "/private/var/containers/Data/System/$systemData(com.apple.linkd)"
+- "/private/var/containers/Shared/SystemGroup/$systemGroup(systemgroup.com.apple.AssetCacheServices.diskCache)"
+- "/private/var/containers/Shared/SystemGroup/$systemGroup(systemgroup.com.apple.ReportMemoryException)"
+- "/private/var/containers/Shared/SystemGroup/$systemGroup(systemgroup.com.apple.configurationprofiles)"
+- "/private/var/containers/Shared/SystemGroup/$systemGroup(systemgroup.com.apple.icloudMCCKit)"
+- "/private/var/containers/Shared/SystemGroup/$systemGroup(systemgroup.com.apple.lsd.iconscache)"
+- "/private/var/containers/Shared/SystemGroup/$systemGroup(systemgroup.com.apple.mobilegestaltcache)"
+- "/private/var/containers/Shared/SystemGroup/$systemGroup(systemgroup.com.apple.nsurlstoragedresources)"
+- "/private/var/containers/Shared/SystemGroup/$systemGroup(systemgroup.com.apple.osanalytics)"
+- "/private/var/containers/Shared/SystemGroup/$systemGroup(systemgroup.com.apple.powerlog)"
+- "/private/var/containers/Shared/SystemGroup/systemgroup.com.apple.configurationprofiles"
+- "/private/var/containers/Shared/SystemGroup/systemgroup.com.apple.mobilegestaltcache"
+- "/private/var/containers/Shared/SystemGroup/systemgroup.com.apple.nsurlstoragedresources"
+- "/private/var/db/analyticsd"
+- "/private/var/db/biome"
+- "/private/var/db/com.apple.countryd"
+- "/private/var/db/com.apple.networkextension.tracker-info"
+- "/private/var/db/diagnostics"
+- "/private/var/db/dscsym"
+- "/private/var/db/eligibilityd"
+- "/private/var/db/os_eligibility"
+- "/private/var/db/spaceattribution"
+- "/private/var/db/spindump"
+- "/private/var/db/systemstats"
+- "/private/var/db/tailspin_config.plist"
+- "/private/var/db/timed"
+- "/private/var/db/timezone"
+- "/private/var/db/uuidtext"
+- "/private/var/hardware/MobileActivation/dcrt/dcrt.der"
+- "/private/var/installd"
+- "/private/var/keybags/backup"
+- "/private/var/log"
+- "/private/var/logs"
+- "/private/var/mobile/.DocumentRevisions-V100"
+- "/private/var/mobile/.fseventsd"
+- "/private/var/mobile/Containers/Data/Application/$appData(com.apple.AppStore)"
+- "/private/var/mobile/Containers/Data/Application/$appData(com.apple.CoreAuthUI)"
+- "/private/var/mobile/Containers/Data/Application/$appData(com.apple.Fitness)"
+- "/private/var/mobile/Containers/Data/Application/$appData(com.apple.Health)"
+- "/private/var/mobile/Containers/Data/Application/$appData(com.apple.Maps)"
+- "/private/var/mobile/Containers/Data/Application/$appData(com.apple.MediaRemoteUI)"
+- "/private/var/mobile/Containers/Data/Application/$appData(com.apple.Passbook)"
+- "/private/var/mobile/Containers/Data/Application/$appData(com.apple.PosterBoard)"
+- "/private/var/mobile/Containers/Data/Application/$appData(com.apple.calculator)"
+- "/private/var/mobile/Containers/Data/Application/$appData(com.apple.compass)"
+- "/private/var/mobile/Containers/Data/Application/$appData(com.apple.iBooks)"
+- "/private/var/mobile/Containers/Data/Application/$appData(com.apple.ist.AppleConnect)"
+- "/private/var/mobile/Containers/Data/Application/$appData(com.apple.journal)"
+- "/private/var/mobile/Containers/Data/Application/$appData(com.apple.mobilecal)"
+- "/private/var/mobile/Containers/Data/Application/$appData(com.apple.mobilemail)"
+- "/private/var/mobile/Containers/Data/Application/$appData(com.apple.mobilenotes)"
+- "/private/var/mobile/Containers/Data/Application/$appData(com.apple.mobilesafari)"
+- "/private/var/mobile/Containers/Data/Application/$appData(com.apple.mobiletimer)"
+- "/private/var/mobile/Containers/Data/Application/$appData(com.apple.stocks)"
+- "/private/var/mobile/Containers/Data/Application/$appData(com.apple.supportapp)"
+- "/private/var/mobile/Containers/Data/Application/$appData(com.apple.weather)"
+- "/private/var/mobile/Containers/Data/Application/$appData(com.jamfsoftware.selfservice)"
+- "/private/var/mobile/Containers/Data/Application/$appData(com.tinyspeck.chatlyio)"
+- "/private/var/mobile/Containers/Data/InternalDaemon/$daemon(com.apple.appplaceholdersyncd)"
+- "/private/var/mobile/Containers/Data/InternalDaemon/$daemon(com.apple.appprotectiond)"
+- "/private/var/mobile/Containers/Data/InternalDaemon/$daemon(com.apple.installd)"
+- "/private/var/mobile/Containers/Data/InternalDaemon/$daemon(com.apple.kvs)"
+- "/private/var/mobile/Containers/Data/InternalDaemon/$daemon(com.apple.lsd)"
+- "/private/var/mobile/Containers/Data/InternalDaemon/$daemon(com.apple.swcd)"
+- "/private/var/mobile/Containers/Data/PluginKitPlugin/$pluginData(com.apple.AppleMediaDiscovery.AMDEngagementExtension)"
+- "/private/var/mobile/Containers/Data/PluginKitPlugin/$pluginData(com.apple.AppleMediaServicesUI.UtilityExtension)"
+- "/private/var/mobile/Containers/Data/PluginKitPlugin/$pluginData(com.apple.Maps.GeneralMapsWidget)"
+- "/private/var/mobile/Containers/Data/PluginKitPlugin/$pluginData(com.apple.ScreenTimeWidgetApplication.ScreenTimeWidgetExtension)"
+- "/private/var/mobile/Containers/Data/PluginKitPlugin/$pluginData(com.apple.corelocation.CoreLocationTemporaryPreciseAuthPromptPlugin)"
+- "/private/var/mobile/Containers/Data/PluginKitPlugin/$pluginData(com.apple.corelocation.CoreLocationVanillaWhenInUseAuthPromptPlugin)"
+- "/private/var/mobile/Containers/Data/PluginKitPlugin/$pluginData(com.apple.journal.widgets.secure)"
+- "/private/var/mobile/Containers/Data/PluginKitPlugin/$pluginData(com.apple.mobilecal.CalendarWidgetExtension)"
+- "/private/var/mobile/Containers/Data/PluginKitPlugin/$pluginData(com.apple.mobilenotes.SpotlightIndexExtension)"
+- "/private/var/mobile/Containers/Data/PluginKitPlugin/$pluginData(com.apple.mobilenotes.WidgetExtension)"
+- "/private/var/mobile/Containers/Data/PluginKitPlugin/$pluginData(com.apple.mobileslideshow.PhotosReliveWidget)"
+- "/private/var/mobile/Containers/Data/PluginKitPlugin/$pluginData(com.apple.stocks.widget)"
+- "/private/var/mobile/Containers/Data/PluginKitPlugin/$pluginData(com.apple.supportapp.ChatNotificationExtension)"
+- "/private/var/mobile/Containers/Data/PluginKitPlugin/$pluginData(com.apple.weather.widget)"
+- "/private/var/mobile/Containers/Data/PluginKitPlugin/4161BD9D-DAF1-41D5-9F8B-4C7D4437BB8A"
+- "/private/var/mobile/Containers/Shared/AppGroup/$appGroup(group.com.apple.Journal)"
+- "/private/var/mobile/Containers/Shared/AppGroup/$appGroup(group.com.apple.Maps)"
+- "/private/var/mobile/Containers/Shared/AppGroup/$appGroup(group.com.apple.PegasusConfiguration)"
+- "/private/var/mobile/Containers/Shared/AppGroup/$appGroup(group.com.apple.gamecenter)"
+- "/private/var/mobile/Containers/Shared/AppGroup/$appGroup(group.com.apple.iBooks)"
+- "/private/var/mobile/Containers/Shared/AppGroup/$appGroup(group.com.apple.mail)"
+- "/private/var/mobile/Containers/Shared/AppGroup/$appGroup(group.com.apple.moments)"
+- "/private/var/mobile/Containers/Shared/AppGroup/$appGroup(group.com.apple.notes)"
+- "/private/var/mobile/Containers/Shared/AppGroup/$appGroup(group.com.apple.replicatord)"
+- "/private/var/mobile/Containers/Shared/AppGroup/$appGroup(group.com.apple.stocks)"
+- "/private/var/mobile/Containers/Shared/AppGroup/$appGroup(group.com.apple.storekit)"
+- "/private/var/mobile/Containers/Shared/AppGroup/$appGroup(group.com.apple.supportapp.Shared)"
+- "/private/var/mobile/Containers/Shared/AppGroup/$appGroup(group.com.apple.tips)"
+- "/private/var/mobile/Containers/Shared/AppGroup/$appGroup(group.com.apple.tipsnext)"
+- "/private/var/mobile/Containers/Shared/AppGroup/$appGroup(group.com.apple.weather)"
+- "/private/var/mobile/Containers/Shared/AppGroup/$appGroup(group.com.tinyspeck.chatlyio)"
+- "/private/var/mobile/Containers/Staging"
+- "/private/var/mobile/Library/AddressBook"
+- "/private/var/mobile/Library/AppleMediaServices"
+- "/private/var/mobile/Library/Application Support"
+- "/private/var/mobile/Library/Biome"
+- "/private/var/mobile/Library/Caches"
+- "/private/var/mobile/Library/Calendar"
+- "/private/var/mobile/Library/CallDirectory"
+- "/private/var/mobile/Library/CallHistoryDB"
+- "/private/var/mobile/Library/Carrier Bundles"
+- "/private/var/mobile/Library/Cookies"
+- "/private/var/mobile/Library/CoreDuet"
+- "/private/var/mobile/Library/CountryBundles"
+- "/private/var/mobile/Library/DuetActivityScheduler"
+- "/private/var/mobile/Library/DuetExpertCenter"
+- "/private/var/mobile/Library/FairPlay"
+- "/private/var/mobile/Library/FinHealth"
+- "/private/var/mobile/Library/HTTPStorages"
+- "/private/var/mobile/Library/Health"
+- "/private/var/mobile/Library/ISP"
+- "/private/var/mobile/Library/IdentityServices"
+- "/private/var/mobile/Library/IntelligencePlatform"
+- "/private/var/mobile/Library/Intents"
+- "/private/var/mobile/Library/LASD"
+- "/private/var/mobile/Library/Logs"
+- "/private/var/mobile/Library/Mail"
+- "/private/var/mobile/Library/MediaStream"
+- "/private/var/mobile/Library/MedicalID"
+- "/private/var/mobile/Library/Mobile Documents"
+- "/private/var/mobile/Library/News"
+- "/private/var/mobile/Library/Notes"
+- "/private/var/mobile/Library/Passes"
+- "/private/var/mobile/Library/PersonalizationPortrait"
+- "/private/var/mobile/Library/Photos"
+- "/private/var/mobile/Library/Preferences"
+- "/private/var/mobile/Library/Recents"
+- "/private/var/mobile/Library/SMS"
+- "/private/var/mobile/Library/Safari"
+- "/private/var/mobile/Library/Seymour"
+- "/private/var/mobile/Library/SplashBoard"
+- "/private/var/mobile/Library/Spotlight"
+- "/private/var/mobile/Library/StatusKit"
+- "/private/var/mobile/Library/Suggestions"
+- "/private/var/mobile/Library/Trial"
+- "/private/var/mobile/Library/UserConfigurationProfiles"
+- "/private/var/mobile/Library/UserFonts"
+- "/private/var/mobile/Library/UserNotifications"
+- "/private/var/mobile/Library/UserNotificationsUI"
+- "/private/var/mobile/Library/Weather"
+- "/private/var/mobile/Library/WebKit"
+- "/private/var/mobile/Library/com.apple.AMPIDService"
+- "/private/var/mobile/Library/com.apple.AppleMediaServices"
+- "/private/var/mobile/Library/com.apple.DeviceAccess"
+- "/private/var/mobile/Library/com.apple.FamilyControlsAgent"
+- "/private/var/mobile/Library/com.apple.ManagedSettings"
+- "/private/var/mobile/Library/com.apple.VideoSubscriberAccount.DeveloperService"
+- "/private/var/mobile/Library/com.apple.iTunesCloud"
+- "/private/var/mobile/Library/com.apple.icloud.searchpartyd"
+- "/private/var/mobile/Library/com.apple.nsurlsessiond"
+- "/private/var/mobile/Media/Books"
+- "/private/var/mobile/Media/DCIM"
+- "/private/var/mobile/Media/Deferred"
+- "/private/var/mobile/Media/PhotoData"
+- "/private/var/mobile/Media/iTunes_Control"
+- "/private/var/mobile/tmp"
+- "/private/var/networkd/Library/Preferences"
+- "/private/var/preferences"
+- "/private/var/protected/trustd/private"
+- "/private/var/root/AKSAnalyticsTool"
+- "/private/var/root/Library/AKSAnalytics"
+- "/private/var/root/Library/Caches/com.apple.containermanagerd"
+- "/private/var/root/Library/Caches/com.apple.coresymbolicationd"
+- "/private/var/root/Library/Caches/com.apple.mobileassetd"
+- "/private/var/root/Library/Caches/com.apple.pipelined"
+- "/private/var/root/Library/Caches/com.apple.wifid"
+- "/private/var/root/Library/Caches/hangtracerd"
+- "/private/var/root/Library/Caches/locationd"
+- "/private/var/root/Library/Catacomb/prepare"
+- "/private/var/root/Library/Logs/CrashReporter"
+- "/private/var/root/Library/MobileContainerManager/System"
+- "/private/var/root/Library/Preferences"
+- "/private/var/root/Library/USBRestricted/analytics2"
+- "/private/var/root/events2.json"
+- "/private/var/tmp"
+- "/private/var/wireless"
+- "AKSAnalytics"
+- "AKSAnalytics service not found"
+- "B16@?0^v8"
+- "Device was locked for %llu sec"
+- "Event: %s"
+- "Failed to enable analytics"
+- "Failed to get initial internal lock state"
+- "Failed to get initial lock state"
+- "Failed to open AKSAnalytics service"
+- "Failed to register for AKS events"
+- "IOConnectMapMemory64 failed: %d"
+- "IOConnectSetNotificationPort failed: %d"
+- "Initial lock state: %{bool}d, beenUnlocked=%{bool}d"
+- "JSON encoding failed"
+- "JSON utf8 conversion failed"
+- "Lock state event: locking"
+- "Lock state event: other (%u)"
+- "MobileGestalt query failed for key %s: %d"
+- "NUE1MjlCODYtRUFBNi00QzcyLUE2RTktN0I3NzkxRDk2OEZD"
+- "New lock state: locked"
+- "New lock state: unlocked"
+- "OTgyNEJFNDQtQ0JDRC00QkJELTgxQkItRURDMDc0M0YxRUMz"
+- "URLForDirectory:inDomain:appropriateForURL:create:error:"
+- "Unexpected deviceLockTime"
+- "aksanalytics.sqlite"
+- "analytics"
+- "analytics DISABLED"
+- "analytics ENABLED"
+- "analytics collector task terminated unexpectedly"
+- "applekeystored feature flag DISABLED, NOT running applekeystored"
+- "cannot create notification source"
+- "changeProtectionClass"
+- "classA"
+- "classB"
+- "classCWhileLocked"
+- "classCWhileLocked12Hours"
+- "classCWhileLocked1Hour"
+- "classCWhileLocked24Hours"
+- "classCWhileLocked2Hours"
+- "classCWhileLocked4Hours"
+- "classCWhileLocked8Hours"
+- "classCWhileLockedUnder1Hour"
+- "classCWhileUnlocked"
+- "classCXWhileLocked"
+- "classCXWhileUnlocked"
+- "classDAfterFirstUnlock"
+- "classDBeforeFirstUnlock"
+- "classE"
+- "classF"
+- "com.apple.$(PRODUCT_BUNDLE_IDENTIFIER)"
+- "com.apple.ABDatabaseDoctor"
+- "com.apple.AKSAnalytics.kernelEvent"
+- "com.apple.AKSAnalytics.stateEvent"
+- "com.apple.AMPIDService"
+- "com.apple.AccessibilityUIServer"
+- "com.apple.AppStore"
+- "com.apple.AppleCredentialManagerDaemon"
+- "com.apple.AppleMediaDiscovery.AMDEngagementExtension"
+- "com.apple.AppleMediaServicesUI.UtilityExtension"
+- "com.apple.AssetCacheLocatorService"
+- "com.apple.CallHistorySyncHelper"
+- "com.apple.CallKit.CallDirectory"
+- "com.apple.CloudDocs.iCloudDriveFileProvider"
+- "com.apple.CloudTelemetryService.xpc"
+- "com.apple.CoreAuthUI"
+- "com.apple.CoreRoutine.helperservice"
+- "com.apple.CoreSpotlightService"
+- "com.apple.CrashReporter"
+- "com.apple.FamilyControlsAgent"
+- "com.apple.FinHealth.FinHealthXPCServices"
+- "com.apple.Fitness"
+- "com.apple.FontServices.UserFontManager"
+- "com.apple.FontServices.UserFontServices"
+- "com.apple.Health"
+- "com.apple.ImageIOXPCService"
+- "com.apple.MTLAssetUpgraderD"
+- "com.apple.ManagedSettingsAgent"
+- "com.apple.MapKit.SnapshotService"
+- "com.apple.Maps.GeneralMapsWidget"
+- "com.apple.Maps.mapspushd"
+- "com.apple.Maps.mapssyncd"
+- "com.apple.MediaRemoteUI"
+- "com.apple.MobileInstallationHelperService"
+- "com.apple.MomentsUIService"
+- "com.apple.Passbook"
+- "com.apple.PerfPowerServices"
+- "com.apple.PerfPowerTelemetryReaderService"
+- "com.apple.Preferences"
+- "com.apple.ReportMemoryException"
+- "com.apple.ReportSystemMemory"
+- "com.apple.SCHelper"
+- "com.apple.STExtractionService"
+- "com.apple.Safari.SafeBrowsing"
+- "com.apple.SafariBookmarksSyncAgent"
+- "com.apple.ScreenTimeAgent"
+- "com.apple.SetStoreUpdateService"
+- "com.apple.SiriTTSService.TrialProxy"
+- "com.apple.StatusKitAgent"
+- "com.apple.StreamingUnzipService"
+- "com.apple.UsageTrackingAgent"
+- "com.apple.UserEventAgent"
+- "com.apple.VideoSubscriberAccount.DeveloperService"
+- "com.apple.WebKit.GPU"
+- "com.apple.WebKit.Networking"
+- "com.apple.WebKit.WebContent"
+- "com.apple.WirelessRadioManager"
+- "com.apple.abm-helper"
+- "com.apple.accessibility.axassetsd"
+- "com.apple.amsaccountsd"
+- "com.apple.amsengagementd"
+- "com.apple.amstoold"
+- "com.apple.analyticsd"
+- "com.apple.anomalydetectiond"
+- "com.apple.ap.adprivacyd"
+- "com.apple.ap.promotedcontentd"
+- "com.apple.appplaceholdersyncd"
+- "com.apple.appprotectiond"
+- "com.apple.appstorecomponentsd"
+- "com.apple.appstored"
+- "com.apple.assetsd"
+- "com.apple.assistantd"
+- "com.apple.audio.AudioConverterService"
+- "com.apple.audiomxd"
+- "com.apple.backboardd"
+- "com.apple.backupd"
+- "com.apple.biomed"
+- "com.apple.biomesyncd"
+- "com.apple.biometrickitd"
+- "com.apple.bookassetd"
+- "com.apple.bookdatastored"
+- "com.apple.calaccessd"
+- "com.apple.calculator"
+- "com.apple.camera"
+- "com.apple.cameracaptured"
+- "com.apple.cfprefsd"
+- "com.apple.chrono.WidgetRenderer-Default"
+- "com.apple.chronod"
+- "com.apple.cloudd"
+- "com.apple.cloudphotod"
+- "com.apple.commcentermobilehelper"
+- "com.apple.compass"
+- "com.apple.contactsd"
+- "com.apple.containermanagerd"
+- "com.apple.containermanagerd_system"
+- "com.apple.coreduetd"
+- "com.apple.corelocation.CoreLocationTemporaryPreciseAuthPromptPlugin"
+- "com.apple.corelocation.CoreLocationVanillaWhenInUseAuthPromptPlugin"
+- "com.apple.corerecents.recentsd"
+- "com.apple.coresymbolicationd"
+- "com.apple.coretelephony"
+- "com.apple.countryd"
+- "com.apple.dataaccess.dataaccessd"
+- "com.apple.deleted"
+- "com.apple.deviceaccessd"
+- "com.apple.diagnosticd"
+- "com.apple.donotdisturbd"
+- "com.apple.duetexpertd"
+- "com.apple.eligibilityd"
+- "com.apple.email.SearchIndexer"
+- "com.apple.email.maild"
+- "com.apple.exchangesyncd"
+- "com.apple.fairplayd.H2.dev"
+- "com.apple.familycircled"
+- "com.apple.filecoordinationd"
+- "com.apple.fileproviderd"
+- "com.apple.fitcored"
+- "com.apple.fontservicesd"
+- "com.apple.fseventsd"
+- "com.apple.geoanalyticsd"
+- "com.apple.hangreporter"
+- "com.apple.hangtracerd"
+- "com.apple.healthappd"
+- "com.apple.healthd"
+- "com.apple.iBooks"
+- "com.apple.iBooks.engagementExtension"
+- "com.apple.icloud.fmfd"
+- "com.apple.icloud.searchpartyd"
+- "com.apple.icloudmailagent"
+- "com.apple.iconservicesagent"
+- "com.apple.identityservicesd"
+- "com.apple.imtransferservices.IMTransferAgent"
+- "com.apple.installd"
+- "com.apple.intelligenceplatform.IntelligencePlatformComputeService"
+- "com.apple.intelligenceplatformd"
+- "com.apple.intents.intents-helper"
+- "com.apple.iokit.matching"
+- "com.apple.itunescloudd"
+- "com.apple.itunesstored"
+- "com.apple.journal"
+- "com.apple.journal.widgets.secure"
+- "com.apple.keybagd"
+- "com.apple.locationd"
+- "com.apple.logd_helper"
+- "com.apple.managedconfiguration.profiled"
+- "com.apple.maps.destinationd"
+- "com.apple.mediaanalysisd"
+- "com.apple.medialibraryd"
+- "com.apple.mediaplaybackd"
+- "com.apple.mediastream.mstreamd"
+- "com.apple.mobileactivationd"
+- "com.apple.mobileassetd"
+- "com.apple.mobilecal"
+- "com.apple.mobilemail"
+- "com.apple.mobilenotes"
+- "com.apple.mobilenotes.SpotlightIndexExtension"
+- "com.apple.mobilenotes.WidgetExtension"
+- "com.apple.mobileslideshow"
+- "com.apple.mobileslideshow.PhotosReliveWidget"
+- "com.apple.nearbyd"
+- "com.apple.nehelper"
+- "com.apple.nesessionmanager"
+- "com.apple.notifyd.matching"
+- "com.apple.nsurlsessiond"
+- "com.apple.osanalyticshelper"
+- "com.apple.parsec-fbf"
+- "com.apple.parsecd"
+- "com.apple.pasteboard.pasted"
+- "com.apple.photoanalysisd"
+- "com.apple.photos.ImageConversionService"
+- "com.apple.pipelined"
+- "com.apple.quicklook.ThumbnailsAgent"
+- "com.apple.replicatord"
+- "com.apple.revisiond"
+- "com.apple.routined"
+- "com.apple.rtcreportingd"
+- "com.apple.runningboardd"
+- "com.apple.safetyalertsd"
+- "com.apple.sandboxd"
+- "com.apple.searchd"
+- "com.apple.secureelementservice"
+- "com.apple.security.AKSAnalyticsTool"
+- "com.apple.security.cloudkeychainproxy3"
+- "com.apple.sftp-server"
+- "com.apple.siriactionsd"
+- "com.apple.siriknowledged"
+- "com.apple.spaceattributiond"
+- "com.apple.spindump"
+- "com.apple.spotlightknowledged"
+- "com.apple.springboard"
+- "com.apple.stocks"
+- "com.apple.stocks.widget"
+- "com.apple.storekitd"
+- "com.apple.suggestd"
+- "com.apple.supportapp"
+- "com.apple.symptomsd-diag"
+- "com.apple.syncdefaultsd"
+- "com.apple.tailspind"
+- "com.apple.thermalmonitord"
+- "com.apple.triald"
+- "com.apple.trustd"
+- "com.apple.voiced"
+- "com.apple.weather"
+- "com.apple.weather.widget"
+- "com.apple.weatherd"
+- "com.apple.weatherkit.authservice"
+- "com.apple.webbookmarksd"
+- "com.apple.webprivacyd"
+- "com.apple.wifi.ThreeBarsXPCService"
+- "com.apple.wifi.manager"
+- "com.apple.wirelessinsightsd"
+- "com.jamfsoftware.selfservice"
+- "com.tinyspeck.chatlyio"
+- "container class %s directory is %s"
+- "container class %s has multiple base directories"
+- "container classes %s and %s share the same directory"
+- "counter checkpoint failed: %@"
+- "create"
+- "createDirectoryAtURL:withIntermediateDirectories:attributes:error:"
+- "createFileAtPath:contents:attributes:"
+- "defaultManager"
+- "discarding report time from database (too large)"
+- "events: %s"
+- "failed to allocate mach port"
+- "failed to create container query for %s"
+- "failed to encode telemetry"
+- "failed to get kext counters: %s"
+- "failed to init AnalyticsManager: %@"
+- "failed to load policy from %s: %@"
+- "failed to open database: %@"
+- "failed to open event recording file %s"
+- "failed to post telemetry: %@"
+- "failed to post telemetry: %ld"
+- "failed to replace normalize directory name"
+- "fetchFileAnalyticsBatch failed: %@"
+- "fetchProcessAnalyticsBatch failed: %@"
+- "fileHandleForWritingAtPath:"
+- "first report time from database: %ld"
+- "found %ld %s containers"
+- "found container %s at path %s"
+- "https://splunk-hec-qa.apple.com:8088/services/collector"
+- "https://splunk-hec.apple.com:8088/services/collector"
+- "initializing AnalyticsCounters"
+- "initializing PipelineState"
+- "invalid AnalyticsEvent length %ld"
+- "invalid AnalyticsEvent path"
+- "invalid AnalyticsEvent proc"
+- "invalid access category in FileAnalytics record"
+- "invalid access category in ProcessAnalytics record"
+- "invalid access mode in FileAnalytics record"
+- "invalid access mode in ProcessAnalytics record"
+- "invalid event type %u for %s"
+- "invalid protection class %u for %s"
+- "invalid report time from database"
+- "kernel: %s"
+- "loading built-in policy"
+- "loading policy from %s"
+- "mach_msg receive failed: 0x%s %s"
+- "missing kernel counters for splunk report"
+- "next report in %ld seconds"
+- "next report retry in %ld seconds"
+- "no connection for kext counters"
+- "noProtection"
+- "opening AnalyticsStore at %s"
+- "other"
+- "oti"
+- "pipeline state save failed: %@"
+- "preparing analytics report for generation %ld"
+- "read"
+- "received notification for analytics kext"
+- "received notification for lock state change"
+- "recording events to %s"
+- "removeItemAtURL:error:"
+- "removing old database"
+- "report failed: %@"
+- "reporting disabled"
+- "retrying report for generation %ld"
+- "runEarlyBootInit"
+- "secondsSinceLock"
+- "sharedSession"
+- "short AnalyticsEvent message %ld"
+- "splunk event: %s"
+- "starting analytics collection"
+- "starting new generation %ld"
+- "status reporting disabled"
+- "statusCode"
+- "storeEvent save failed: %@"
+- "successfully posted telemetry to %s server"
+- "unknown"
+- "updateProcessAnalytics failed: %@"
+- "v16@?0@\"<OS_xpc_object>\"8"
+- "v20@?0i8r^{__CFDictionary=}12"
+- "v8@?0"
+- "write"
+
+```
