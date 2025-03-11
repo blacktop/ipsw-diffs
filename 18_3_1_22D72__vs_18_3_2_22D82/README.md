@@ -1,5 +1,9 @@
 # 18.3.1 (22D72) .vs 18.3.2 (22D82)
 
+## Security Content
+
+- <https://support.apple.com/en-us/122281>
+
 ## IPSWs
 
 - `iPhone17,1_18.3.1_22D72_Restore.ipsw`
