@@ -4,6 +4,10 @@
 
 - <https://support.apple.com/en-us/122281>
 
+### WebKit Bugzilla: 285858
+
+- <https://github.com/WebKit/WebKit/commit/1b670a0c038d>
+
 ## IPSWs
 
 - `iPhone17,1_18.3.1_22D72_Restore.ipsw`
