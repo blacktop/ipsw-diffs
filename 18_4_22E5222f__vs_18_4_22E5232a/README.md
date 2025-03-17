@@ -528,20 +528,13 @@ CStrings:
 
 </details>
 
+### KDKs
+
+- [KDK DIFF](KDK.md)
+
 ## MachO
 
-### 🆕 NEW (8)
-
-- `/usr/lib/libLogRedirect.dylib`
-- `/usr/lib/libffi-trampolines.dylib`
-- `/usr/lib/libglInterpose.dylib`
-- `/usr/lib/libmobileassetd.dylib`
-- `/usr/lib/libobjc-trampolines.dylib`
-- `/usr/lib/libramrod.dylib`
-- `/usr/lib/libstdc++.6.0.9.dylib`
-- `/usr/libexec/BatteryAlgorithms.framework/BatteryAlgorithms`
-
-### ⬆️ Updated (292)
+### ⬆️ Updated (294)
 
 <details>
   <summary><i>View Updated</i></summary>
@@ -786,6 +779,8 @@ CStrings:
 - [/private/var/staged_system_apps/Weather.app/Weather](MACHOS/Weather.md)
 - [/sbin/launchd](MACHOS/launchd.md)
 - [/usr/lib/dyld](MACHOS/dyld.md)
+- [/usr/lib/libmobileassetd.dylib](MACHOS/libmobileassetd.dylib.md)
+- [/usr/lib/libramrod.dylib](MACHOS/libramrod.dylib.md)
 - [/usr/libexec/BackupAgent2](MACHOS/BackupAgent2.md)
 - [/usr/libexec/PurpleReverseProxy](MACHOS/PurpleReverseProxy.md)
 - [/usr/libexec/SidecarRelay](MACHOS/SidecarRelay.md)
