@@ -89,6 +89,7 @@
 - [18.4 beta 1 (22E5200s) .vs 18.4 beta 2 (22E5216h)](18_4_22E5200s__vs_18_4_22E5216h/README.md)
 - [18.4 beta 2 (22E5216h) .vs 18.4 beta 3 (22E5222f)](18_4_22E5216h__vs_18_4_22E5222f/README.md)
 - [18.4 beta 3 (22E5222f) .vs 18.4 beta 4 (22E5232a)](18_4_22E5222f__vs_18_4_22E5232a/README.md)
+- [18.4 beta 4 (22E5232a) .vs 18.4 RC (22E239)](18_4_22E5232a__vs_18_4_22E239/README.md)
 
 #### A17 vs. A18
 
