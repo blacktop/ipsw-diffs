@@ -1,0 +1,88 @@
+## WebKit
+
+> `/System/Library/Frameworks/WebKit.framework/WebKit`
+
+```diff
+
+-618.7.1.10.1
+-  __TEXT.__text: 0xc59cfc
++618.8.1.10.1
++  __TEXT.__text: 0xc59d30
+   __TEXT.__stubs: 0x106f8
+   __TEXT.__objc_methlist: 0x133fc
+   __TEXT.__const: 0x43f1
+CStrings:
++ "/AppleInternal/Library/BuildRoots/e1010b4c-e212-11ef-9482-c2c15871b32e/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.7.Internal.sdk/System/Cryptexes/OS/System/Library/PrivateFrameworks/WebCore.framework/PrivateHeaders/GCGLSpan.h"
++ "/AppleInternal/Library/BuildRoots/e1010b4c-e212-11ef-9482-c2c15871b32e/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.7.Internal.sdk/System/Cryptexes/OS/System/Library/PrivateFrameworks/WebCore.framework/PrivateHeaders/RealtimeMediaSourceCapabilities.h"
++ "/AppleInternal/Library/BuildRoots/e1010b4c-e212-11ef-9482-c2c15871b32e/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.7.Internal.sdk/System/Cryptexes/OS/System/Library/PrivateFrameworks/WebCore.framework/PrivateHeaders/SecurityOriginData.h"
++ "/AppleInternal/Library/BuildRoots/e1010b4c-e212-11ef-9482-c2c15871b32e/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.7.Internal.sdk/System/Library/PrivateFrameworks/JavaScriptCore.framework/PrivateHeaders/DisallowVMEntry.h"
++ "/AppleInternal/Library/BuildRoots/e1010b4c-e212-11ef-9482-c2c15871b32e/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.7.Internal.sdk/System/Library/PrivateFrameworks/JavaScriptCore.framework/PrivateHeaders/GenericTypedArrayViewInlines.h"
++ "/AppleInternal/Library/BuildRoots/e1010b4c-e212-11ef-9482-c2c15871b32e/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.7.Internal.sdk/System/Library/PrivateFrameworks/JavaScriptCore.framework/PrivateHeaders/JSArrayBufferViewInlines.h"
++ "/AppleInternal/Library/BuildRoots/e1010b4c-e212-11ef-9482-c2c15871b32e/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.7.Internal.sdk/usr/include/c++/v1/__algorithm/clamp.h"
++ "/AppleInternal/Library/BuildRoots/e1010b4c-e212-11ef-9482-c2c15871b32e/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.7.Internal.sdk/usr/include/c++/v1/__algorithm/pop_heap.h"
++ "/AppleInternal/Library/BuildRoots/e1010b4c-e212-11ef-9482-c2c15871b32e/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.7.Internal.sdk/usr/include/c++/v1/__algorithm/sort.h"
++ "/AppleInternal/Library/BuildRoots/e1010b4c-e212-11ef-9482-c2c15871b32e/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.7.Internal.sdk/usr/include/c++/v1/__hash_table"
++ "/AppleInternal/Library/BuildRoots/e1010b4c-e212-11ef-9482-c2c15871b32e/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.7.Internal.sdk/usr/include/c++/v1/__memory/construct_at.h"
++ "/AppleInternal/Library/BuildRoots/e1010b4c-e212-11ef-9482-c2c15871b32e/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.7.Internal.sdk/usr/include/c++/v1/__string/char_traits.h"
++ "/AppleInternal/Library/BuildRoots/e1010b4c-e212-11ef-9482-c2c15871b32e/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.7.Internal.sdk/usr/include/c++/v1/__tree"
++ "/AppleInternal/Library/BuildRoots/e1010b4c-e212-11ef-9482-c2c15871b32e/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.7.Internal.sdk/usr/include/c++/v1/array"
++ "/AppleInternal/Library/BuildRoots/e1010b4c-e212-11ef-9482-c2c15871b32e/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.7.Internal.sdk/usr/include/c++/v1/list"
++ "/AppleInternal/Library/BuildRoots/e1010b4c-e212-11ef-9482-c2c15871b32e/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.7.Internal.sdk/usr/include/c++/v1/optional"
++ "/AppleInternal/Library/BuildRoots/e1010b4c-e212-11ef-9482-c2c15871b32e/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.7.Internal.sdk/usr/include/c++/v1/span"
++ "/AppleInternal/Library/BuildRoots/e1010b4c-e212-11ef-9482-c2c15871b32e/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.7.Internal.sdk/usr/include/c++/v1/string"
++ "/AppleInternal/Library/BuildRoots/e1010b4c-e212-11ef-9482-c2c15871b32e/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.7.Internal.sdk/usr/include/c++/v1/string_view"
++ "/AppleInternal/Library/BuildRoots/e1010b4c-e212-11ef-9482-c2c15871b32e/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.7.Internal.sdk/usr/include/c++/v1/vector"
++ "/AppleInternal/Library/BuildRoots/e1010b4c-e212-11ef-9482-c2c15871b32e/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.7.Internal.sdk/usr/local/include/pal/spi/cocoa/NSAttributedStringSPI.h"
++ "/AppleInternal/Library/BuildRoots/e1010b4c-e212-11ef-9482-c2c15871b32e/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.7.Internal.sdk/usr/local/include/wtf/Algorithms.h"
++ "/AppleInternal/Library/BuildRoots/e1010b4c-e212-11ef-9482-c2c15871b32e/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.7.Internal.sdk/usr/local/include/wtf/CheckedRef.h"
++ "/AppleInternal/Library/BuildRoots/e1010b4c-e212-11ef-9482-c2c15871b32e/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.7.Internal.sdk/usr/local/include/wtf/CompletionHandler.h"
++ "/AppleInternal/Library/BuildRoots/e1010b4c-e212-11ef-9482-c2c15871b32e/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.7.Internal.sdk/usr/local/include/wtf/Deque.h"
++ "/AppleInternal/Library/BuildRoots/e1010b4c-e212-11ef-9482-c2c15871b32e/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.7.Internal.sdk/usr/local/include/wtf/Expected.h"
++ "/AppleInternal/Library/BuildRoots/e1010b4c-e212-11ef-9482-c2c15871b32e/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.7.Internal.sdk/usr/local/include/wtf/JSONValues.h"
++ "/AppleInternal/Library/BuildRoots/e1010b4c-e212-11ef-9482-c2c15871b32e/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.7.Internal.sdk/usr/local/include/wtf/ObjectIdentifier.h"
++ "/AppleInternal/Library/BuildRoots/e1010b4c-e212-11ef-9482-c2c15871b32e/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.7.Internal.sdk/usr/local/include/wtf/Ref.h"
++ "/AppleInternal/Library/BuildRoots/e1010b4c-e212-11ef-9482-c2c15871b32e/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.7.Internal.sdk/usr/local/include/wtf/RefPtr.h"
++ "/AppleInternal/Library/BuildRoots/e1010b4c-e212-11ef-9482-c2c15871b32e/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.7.Internal.sdk/usr/local/include/wtf/StdLibExtras.h"
++ "/AppleInternal/Library/BuildRoots/e1010b4c-e212-11ef-9482-c2c15871b32e/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.7.Internal.sdk/usr/local/include/wtf/ThreadSafeWeakHashSet.h"
++ "/AppleInternal/Library/BuildRoots/e1010b4c-e212-11ef-9482-c2c15871b32e/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.7.Internal.sdk/usr/local/include/wtf/TypeCasts.h"
++ "/AppleInternal/Library/BuildRoots/e1010b4c-e212-11ef-9482-c2c15871b32e/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.7.Internal.sdk/usr/local/include/wtf/text/StringCommon.h"
++ "/AppleInternal/Library/BuildRoots/e1010b4c-e212-11ef-9482-c2c15871b32e/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.7.Internal.sdk/usr/local/include/wtf/text/StringConcatenate.h"
++ "/AppleInternal/Library/BuildRoots/e1010b4c-e212-11ef-9482-c2c15871b32e/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.7.Internal.sdk/usr/local/include/wtf/text/StringView.h"
+- "/AppleInternal/Library/BuildRoots/d1a85b5e-cd9b-11ef-b738-6287b6c369f3/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.7.Internal.sdk/System/Cryptexes/OS/System/Library/PrivateFrameworks/WebCore.framework/PrivateHeaders/GCGLSpan.h"
+- "/AppleInternal/Library/BuildRoots/d1a85b5e-cd9b-11ef-b738-6287b6c369f3/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.7.Internal.sdk/System/Cryptexes/OS/System/Library/PrivateFrameworks/WebCore.framework/PrivateHeaders/RealtimeMediaSourceCapabilities.h"
+- "/AppleInternal/Library/BuildRoots/d1a85b5e-cd9b-11ef-b738-6287b6c369f3/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.7.Internal.sdk/System/Cryptexes/OS/System/Library/PrivateFrameworks/WebCore.framework/PrivateHeaders/SecurityOriginData.h"
+- "/AppleInternal/Library/BuildRoots/d1a85b5e-cd9b-11ef-b738-6287b6c369f3/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.7.Internal.sdk/System/Library/PrivateFrameworks/JavaScriptCore.framework/PrivateHeaders/DisallowVMEntry.h"
+- "/AppleInternal/Library/BuildRoots/d1a85b5e-cd9b-11ef-b738-6287b6c369f3/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.7.Internal.sdk/System/Library/PrivateFrameworks/JavaScriptCore.framework/PrivateHeaders/GenericTypedArrayViewInlines.h"
+- "/AppleInternal/Library/BuildRoots/d1a85b5e-cd9b-11ef-b738-6287b6c369f3/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.7.Internal.sdk/System/Library/PrivateFrameworks/JavaScriptCore.framework/PrivateHeaders/JSArrayBufferViewInlines.h"
+- "/AppleInternal/Library/BuildRoots/d1a85b5e-cd9b-11ef-b738-6287b6c369f3/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.7.Internal.sdk/usr/include/c++/v1/__algorithm/clamp.h"
+- "/AppleInternal/Library/BuildRoots/d1a85b5e-cd9b-11ef-b738-6287b6c369f3/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.7.Internal.sdk/usr/include/c++/v1/__algorithm/pop_heap.h"
+- "/AppleInternal/Library/BuildRoots/d1a85b5e-cd9b-11ef-b738-6287b6c369f3/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.7.Internal.sdk/usr/include/c++/v1/__algorithm/sort.h"
+- "/AppleInternal/Library/BuildRoots/d1a85b5e-cd9b-11ef-b738-6287b6c369f3/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.7.Internal.sdk/usr/include/c++/v1/__hash_table"
+- "/AppleInternal/Library/BuildRoots/d1a85b5e-cd9b-11ef-b738-6287b6c369f3/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.7.Internal.sdk/usr/include/c++/v1/__memory/construct_at.h"
+- "/AppleInternal/Library/BuildRoots/d1a85b5e-cd9b-11ef-b738-6287b6c369f3/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.7.Internal.sdk/usr/include/c++/v1/__string/char_traits.h"
+- "/AppleInternal/Library/BuildRoots/d1a85b5e-cd9b-11ef-b738-6287b6c369f3/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.7.Internal.sdk/usr/include/c++/v1/__tree"
+- "/AppleInternal/Library/BuildRoots/d1a85b5e-cd9b-11ef-b738-6287b6c369f3/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.7.Internal.sdk/usr/include/c++/v1/array"
+- "/AppleInternal/Library/BuildRoots/d1a85b5e-cd9b-11ef-b738-6287b6c369f3/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.7.Internal.sdk/usr/include/c++/v1/list"
+- "/AppleInternal/Library/BuildRoots/d1a85b5e-cd9b-11ef-b738-6287b6c369f3/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.7.Internal.sdk/usr/include/c++/v1/optional"
+- "/AppleInternal/Library/BuildRoots/d1a85b5e-cd9b-11ef-b738-6287b6c369f3/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.7.Internal.sdk/usr/include/c++/v1/span"
+- "/AppleInternal/Library/BuildRoots/d1a85b5e-cd9b-11ef-b738-6287b6c369f3/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.7.Internal.sdk/usr/include/c++/v1/string"
+- "/AppleInternal/Library/BuildRoots/d1a85b5e-cd9b-11ef-b738-6287b6c369f3/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.7.Internal.sdk/usr/include/c++/v1/string_view"
+- "/AppleInternal/Library/BuildRoots/d1a85b5e-cd9b-11ef-b738-6287b6c369f3/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.7.Internal.sdk/usr/include/c++/v1/vector"
+- "/AppleInternal/Library/BuildRoots/d1a85b5e-cd9b-11ef-b738-6287b6c369f3/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.7.Internal.sdk/usr/local/include/pal/spi/cocoa/NSAttributedStringSPI.h"
+- "/AppleInternal/Library/BuildRoots/d1a85b5e-cd9b-11ef-b738-6287b6c369f3/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.7.Internal.sdk/usr/local/include/wtf/Algorithms.h"
+- "/AppleInternal/Library/BuildRoots/d1a85b5e-cd9b-11ef-b738-6287b6c369f3/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.7.Internal.sdk/usr/local/include/wtf/CheckedRef.h"
+- "/AppleInternal/Library/BuildRoots/d1a85b5e-cd9b-11ef-b738-6287b6c369f3/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.7.Internal.sdk/usr/local/include/wtf/CompletionHandler.h"
+- "/AppleInternal/Library/BuildRoots/d1a85b5e-cd9b-11ef-b738-6287b6c369f3/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.7.Internal.sdk/usr/local/include/wtf/Deque.h"
+- "/AppleInternal/Library/BuildRoots/d1a85b5e-cd9b-11ef-b738-6287b6c369f3/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.7.Internal.sdk/usr/local/include/wtf/Expected.h"
+- "/AppleInternal/Library/BuildRoots/d1a85b5e-cd9b-11ef-b738-6287b6c369f3/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.7.Internal.sdk/usr/local/include/wtf/JSONValues.h"
+- "/AppleInternal/Library/BuildRoots/d1a85b5e-cd9b-11ef-b738-6287b6c369f3/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.7.Internal.sdk/usr/local/include/wtf/ObjectIdentifier.h"
+- "/AppleInternal/Library/BuildRoots/d1a85b5e-cd9b-11ef-b738-6287b6c369f3/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.7.Internal.sdk/usr/local/include/wtf/Ref.h"
+- "/AppleInternal/Library/BuildRoots/d1a85b5e-cd9b-11ef-b738-6287b6c369f3/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.7.Internal.sdk/usr/local/include/wtf/RefPtr.h"
+- "/AppleInternal/Library/BuildRoots/d1a85b5e-cd9b-11ef-b738-6287b6c369f3/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.7.Internal.sdk/usr/local/include/wtf/StdLibExtras.h"
+- "/AppleInternal/Library/BuildRoots/d1a85b5e-cd9b-11ef-b738-6287b6c369f3/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.7.Internal.sdk/usr/local/include/wtf/ThreadSafeWeakHashSet.h"
+- "/AppleInternal/Library/BuildRoots/d1a85b5e-cd9b-11ef-b738-6287b6c369f3/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.7.Internal.sdk/usr/local/include/wtf/TypeCasts.h"
+- "/AppleInternal/Library/BuildRoots/d1a85b5e-cd9b-11ef-b738-6287b6c369f3/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.7.Internal.sdk/usr/local/include/wtf/text/StringCommon.h"
+- "/AppleInternal/Library/BuildRoots/d1a85b5e-cd9b-11ef-b738-6287b6c369f3/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.7.Internal.sdk/usr/local/include/wtf/text/StringConcatenate.h"
+- "/AppleInternal/Library/BuildRoots/d1a85b5e-cd9b-11ef-b738-6287b6c369f3/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.7.Internal.sdk/usr/local/include/wtf/text/StringView.h"
+
+```
