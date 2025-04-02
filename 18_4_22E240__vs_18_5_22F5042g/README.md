@@ -7155,473 +7155,16 @@ CStrings:
 
 </details>
 
-### Feature Flags
+## Files
 
-#### 🆕 NEW (1)
+### 🆕 New
 
-<details>
-  <summary><i>View New</i></summary>
-
-#### Diagnostics.plist
-
->  `Domain/Diagnostics.plist`
-
-```xml
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict/>
-</plist>
-
-```
-
-</details>
-
-#### ❌ Removed (1)
-
-- `Domain/ConditionalEngine.plist`
-
-#### ⬆️ Updated (19)
-
-<details>
-  <summary><i>View Updated</i></summary>
-
-#### AVKit.plist
-
->  `Domain/AVKit.plist`
-
-```diff
-
- <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
- <plist version="1.0">
- <dict>
-+	<key>IntegratedTimeline</key>
-+	<dict>
-+		<key>DevelopmentPhase</key>
-+		<string>FeatureComplete</string>
-+	</dict>
- 	<key>animatedSkipButtons</key>
- 	<dict>
- 		<key>DevelopmentPhase</key>
-
-```
-
-#### AppleIDSetup.plist
-
->  `Domain/AppleIDSetup.plist`
-
-```diff
-
- <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
- <plist version="1.0">
- <dict>
-+	<key>AgeAttestationSettings</key>
-+	<dict>
-+		<key>DevelopmentPhase</key>
-+		<string>FeatureComplete</string>
-+	</dict>
- 	<key>ChildSetupSignIn</key>
- 	<dict>
- 		<key>DevelopmentPhase</key>
-
-```
-
-#### AudioSession.plist
-
->  `Domain/AudioSession.plist`
-
-```diff
-
- 		<key>DevelopmentPhase</key>
- 		<string>FeatureComplete</string>
- 	</dict>
-+	<key>EnableSecureSessionOnMacOS</key>
-+	<dict>
-+		<key>DevelopmentPhase</key>
-+		<string>FeatureComplete</string>
-+	</dict>
- 	<key>OffloadActivationOffACQ</key>
- 	<dict>
- 		<key>DevelopmentPhase</key>
-
-```
-
-#### BluetoothFeatures.plist
-
->  `Domain/BluetoothFeatures.plist`
-
-```diff
-
- 		<key>Enabled</key>
- 		<true/>
- 	</dict>
-+	<key>Maestro</key>
-+	<dict>
-+		<key>DevelopmentPhase</key>
-+		<string>FeatureComplete</string>
-+	</dict>
- 	<key>NativeHealth</key>
- 	<dict>
- 		<key>DevelopmentPhase</key>
-
-```
-
-#### CompanionServices.plist
-
->  `Domain/CompanionServices.plist`
-
-```diff
-
- <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
- <plist version="1.0">
- <dict>
--	<key>AdditionalSiriDialogue</key>
--	<dict>
--		<key>DevelopmentPhase</key>
--		<string>FeatureComplete</string>
--	</dict>
- 	<key>AppleMusic</key>
- 	<dict>
- 		<key>DevelopmentPhase</key>
-
-```
-
-#### Home.plist
-
->  `Domain/Home.plist`
-
-```diff
-
- 		<key>DevelopmentPhase</key>
- 		<string>FeatureComplete</string>
- 	</dict>
-+	<key>RapportoverBLE</key>
-+	<dict>
-+		<key>DevelopmentPhase</key>
-+		<string>FeatureComplete</string>
-+	</dict>
- 	<key>ResidentSelection</key>
- 	<dict>
- 		<key>DevelopmentPhase</key>
-
-```
-
-#### MediaExperience.plist
-
->  `Domain/MediaExperience.plist`
-
-```diff
-
- 		<key>DevelopmentPhase</key>
- 		<string>FeatureComplete</string>
- 	</dict>
-+	<key>StravinskyOrchestration</key>
-+	<dict>
-+		<key>DevelopmentPhase</key>
-+		<string>FeatureComplete</string>
-+	</dict>
- 	<key>SystemRemoteDisplay</key>
- 	<dict>
- 		<key>DevelopmentPhase</key>
-
-```
-
-#### MediaRemote.plist
-
->  `Domain/MediaRemote.plist`
-
-```diff
-
- 		<key>Enabled</key>
- 		<true/>
- 	</dict>
--	<key>rapport_remote_control_transport</key>
--	<dict>
--		<key>Enabled</key>
--		<true/>
--	</dict>
- 	<key>session_based_lock_screen_platter</key>
- 	<dict>
- 		<key>Enabled</key>
-
-```
-
-#### MobileAsset.plist
-
->  `Domain/MobileAsset.plist`
-
-```diff
-
- <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
- <plist version="1.0">
- <dict>
-+	<key>LiveStorageExclaveNonce</key>
-+	<dict>
-+		<key>DevelopmentPhase</key>
-+		<string>FeatureComplete</string>
-+	</dict>
- 	<key>com_apple_mobileassetd_conclave</key>
- 	<dict>
- 		<key>DevelopmentPhase</key>
-
-```
-
-#### OmniSearch.plist
-
->  `Domain/OmniSearch.plist`
-
-```diff
-
- 		<key>DevelopmentPhase</key>
- 		<string>FeatureComplete</string>
- 	</dict>
-+	<key>preExtractedIDs</key>
-+	<dict>
-+		<key>DevelopmentPhase</key>
-+		<string>FeatureComplete</string>
-+	</dict>
- 	<key>reflectionToken</key>
- 	<dict>
- 		<key>DevelopmentPhase</key>
- 		<string>FeatureComplete</string>
- 	</dict>
--	<key>urgentPCCPrewarm</key>
-+	<key>searchInAppRows</key>
-+	<dict>
-+		<key>DevelopmentPhase</key>
-+		<string>FeatureComplete</string>
-+	</dict>
-+	<key>shortCircuitMusicSearch</key>
-+	<dict>
-+		<key>DevelopmentPhase</key>
-+		<string>FeatureComplete</string>
-+	</dict>
-+	<key>shortCircuitPhotoSearch</key>
-+	<dict>
-+		<key>DevelopmentPhase</key>
-+		<string>FeatureComplete</string>
-+	</dict>
-+	<key>showInternalErrorInfo</key>
- 	<dict>
- 		<key>DevelopmentPhase</key>
- 		<string>FeatureComplete</string>
-
-```
-
-#### Oneness.plist
-
->  `Domain/Oneness.plist`
-
-```diff
-
- 		<key>DisclosureRequired</key>
- 		<string>8f6f8e85-8d9d-8330-8c15-a603765b90f3</string>
- 	</dict>
-+	<key>RemoteTextInput</key>
-+	<dict>
-+		<key>DevelopmentPhase</key>
-+		<string>FeatureComplete</string>
-+	</dict>
- 	<key>Shell</key>
- 	<dict>
- 		<key>DevelopmentPhase</key>
-
-```
-
-#### PrivateCloudCompute.plist
-
->  `Domain/PrivateCloudCompute.plist`
-
-```diff
-
- <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
- <plist version="1.0">
- <dict>
--	<key>enforceEnvironment</key>
--	<dict>
--		<key>DevelopmentPhase</key>
--		<string>FeatureComplete</string>
--	</dict>
--	<key>productionEnvironmentAvailable</key>
-+	<key>trustedProxyProtocol</key>
- 	<dict>
- 		<key>DevelopmentPhase</key>
- 		<string>FeatureComplete</string>
-
-```
-
-#### ScreenTime.plist
-
->  `Domain/ScreenTime.plist`
-
-```diff
-
- 		<key>DevelopmentPhase</key>
- 		<string>FeatureComplete</string>
- 	</dict>
-+	<key>passcode_activity</key>
-+	<dict>
-+		<key>DevelopmentPhase</key>
-+		<string>FeatureComplete</string>
-+	</dict>
- </dict>
- </plist>
- 
-
-```
-
-#### SiriUI.plist
-
->  `Domain/SiriUI.plist`
-
-```diff
-
- 		<key>Enabled</key>
- 		<true/>
- 	</dict>
-+	<key>response_coordination_wordtiming_fallback</key>
-+	<dict>
-+		<key>DevelopmentPhase</key>
-+		<string>FeatureComplete</string>
-+	</dict>
- 	<key>sae</key>
- 	<dict>
- 		<key>DevelopmentPhase</key>
-
-```
-
-#### Spotlight.plist
-
->  `Domain/Spotlight.plist`
-
-```diff
-
- 		<key>DevelopmentPhase</key>
- 		<string>FeatureComplete</string>
- 	</dict>
--	<key>SearchToolAllBundles</key>
--	<dict>
--		<key>DevelopmentPhase</key>
--		<string>FeatureComplete</string>
--	</dict>
--	<key>SearchToolCleanSlateDenseRetrieval</key>
--	<dict>
--		<key>DevelopmentPhase</key>
--		<string>FeatureComplete</string>
--	</dict>
- 	<key>SearchToolLLMQueryUnderstanding</key>
- 	<dict>
- 		<key>DevelopmentPhase</key>
-
- 		<key>DevelopmentPhase</key>
- 		<string>FeatureComplete</string>
- 	</dict>
--	<key>SearchToolRanking</key>
--	<dict>
--		<key>DevelopmentPhase</key>
--		<string>FeatureComplete</string>
--	</dict>
- 	<key>SearchToolRetrievalSparseScoringV2</key>
- 	<dict>
- 		<key>DevelopmentPhase</key>
-
-```
-
-#### SpringBoard.plist
-
->  `Domain/SpringBoard.plist`
-
-```diff
-
- 		<key>DisclosureRequired</key>
- 		<string>843d7545-f18c-4301-863c-e4e20100acf7</string>
- 	</dict>
-+	<key>HomeScreen2DMovement</key>
-+	<dict>
-+		<key>DevelopmentPhase</key>
-+		<string>FeatureComplete</string>
-+	</dict>
- 	<key>IconStylesOutsideSpringBoard</key>
- 	<dict>
- 		<key>DevelopmentPhase</key>
-
-```
-
-#### Summarization.plist
-
->  `Domain/Summarization.plist`
-
-```diff
-
- <?xml version="1.0" encoding="UTF-8"?>
- <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
- <plist version="1.0">
--<dict/>
-+<dict>
-+	<key>FactualConsistencyClassifier</key>
-+	<dict>
-+		<key>DevelopmentPhase</key>
-+		<string>FeatureComplete</string>
-+	</dict>
-+</dict>
- </plist>
- 
-
-```
-
-#### TelephonyUtilities.plist
-
->  `Domain/TelephonyUtilities.plist`
-
-```diff
-
- 		<key>DevelopmentPhase</key>
- 		<string>FeatureComplete</string>
- 	</dict>
-+	<key>CallEndSpamUIEnhancement</key>
-+	<dict>
-+		<key>DevelopmentPhase</key>
-+		<string>FeatureComplete</string>
-+	</dict>
- 	<key>CallManagerEnabled</key>
- 	<dict>
- 		<key>DevelopmentPhase</key>
-
-```
-
-#### GlobalDisclosures.plist
-
->  `GlobalDisclosures.plist`
-
-```diff
-
- 		<key>Disclosed</key>
- 		<true/>
- 	</dict>
--	<key>1b3196a9-6a20-4559-60fd-bb3743219ab3</key>
--	<dict>
--		<key>Disclosed</key>
--		<true/>
--	</dict>
- 	<key>2298f8e4-f510-4776-b2c1-a85ea314b1f8</key>
- 	<dict>
- 		<key>Disclosed</key>
-
-```
-
-
-</details>
-
-### Files
-
-#### 🆕 New
-
-##### IPSW (2)
+#### IPSW (2)
 
 - `Firmware/Mav24-1.54.01.Release.bbfw`
 - `Firmware/Mav24-1.54.01.Release.plist`
 
-##### filesystem (713)
+#### filesystem (713)
 
 <details>
   <summary><i>View Files</i></summary>
@@ -8342,11 +7885,11 @@ CStrings:
 
 </details>
 
-##### SystemOS (1)
+#### SystemOS (1)
 
 - `/System/Library/PrivateFrameworks/NeighborhoodActivityConduitIntents.framework/NeighborhoodActivityConduitIntents`
 
-##### ExclaveOS (24)
+#### ExclaveOS (24)
 
 <details>
   <summary><i>View Files</i></summary>
@@ -8378,14 +7921,14 @@ CStrings:
 
 </details>
 
-#### ❌ Removed
+### ❌ Removed
 
-##### IPSW (2)
+#### IPSW (2)
 
 - `Firmware/Mav24-1.54.03.Release.bbfw`
 - `Firmware/Mav24-1.54.03.Release.plist`
 
-##### filesystem (974)
+#### filesystem (974)
 
 <details>
   <summary><i>View Files</i></summary>
@@ -9367,7 +8910,7 @@ CStrings:
 
 </details>
 
-##### ExclaveOS (32)
+#### ExclaveOS (32)
 
 <details>
   <summary><i>View Files</i></summary>
@@ -9404,6 +8947,463 @@ CStrings:
 - `/System/ExclaveKit/System/Library/PrivateFrameworks/SecureVoiceTriggerAssets_exclavekit.framework/H17/en-ZA/AssetData/rtblob_aop_1_2.signature`
 - `/System/ExclaveKit/System/Library/PrivateFrameworks/SecureVoiceTriggerAssets_exclavekit.framework/H17/vi-VN/AssetData/megatron_hsjs_8bit_compressed_v1_fp16_mil2bnns.mlmodelc.bnnsir`
 - `/System/ExclaveKit/System/Library/PrivateFrameworks/SecureVoiceTriggerAssets_exclavekit.framework/H17/vi-VN/AssetData/megatron_hsjs_8bit_compressed_v1_fp16_mil2bnns.mlmodelc.weights`
+
+</details>
+
+## Feature Flags
+
+### 🆕 NEW (1)
+
+<details>
+  <summary><i>View New</i></summary>
+
+#### Diagnostics.plist
+
+>  `Domain/Diagnostics.plist`
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict/>
+</plist>
+
+```
+
+</details>
+
+### ❌ Removed (1)
+
+- `Domain/ConditionalEngine.plist`
+
+### ⬆️ Updated (19)
+
+<details>
+  <summary><i>View Updated</i></summary>
+
+#### AVKit.plist
+
+>  `Domain/AVKit.plist`
+
+```diff
+
+ <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+ <plist version="1.0">
+ <dict>
++	<key>IntegratedTimeline</key>
++	<dict>
++		<key>DevelopmentPhase</key>
++		<string>FeatureComplete</string>
++	</dict>
+ 	<key>animatedSkipButtons</key>
+ 	<dict>
+ 		<key>DevelopmentPhase</key>
+
+```
+
+#### AppleIDSetup.plist
+
+>  `Domain/AppleIDSetup.plist`
+
+```diff
+
+ <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+ <plist version="1.0">
+ <dict>
++	<key>AgeAttestationSettings</key>
++	<dict>
++		<key>DevelopmentPhase</key>
++		<string>FeatureComplete</string>
++	</dict>
+ 	<key>ChildSetupSignIn</key>
+ 	<dict>
+ 		<key>DevelopmentPhase</key>
+
+```
+
+#### AudioSession.plist
+
+>  `Domain/AudioSession.plist`
+
+```diff
+
+ 		<key>DevelopmentPhase</key>
+ 		<string>FeatureComplete</string>
+ 	</dict>
++	<key>EnableSecureSessionOnMacOS</key>
++	<dict>
++		<key>DevelopmentPhase</key>
++		<string>FeatureComplete</string>
++	</dict>
+ 	<key>OffloadActivationOffACQ</key>
+ 	<dict>
+ 		<key>DevelopmentPhase</key>
+
+```
+
+#### BluetoothFeatures.plist
+
+>  `Domain/BluetoothFeatures.plist`
+
+```diff
+
+ 		<key>Enabled</key>
+ 		<true/>
+ 	</dict>
++	<key>Maestro</key>
++	<dict>
++		<key>DevelopmentPhase</key>
++		<string>FeatureComplete</string>
++	</dict>
+ 	<key>NativeHealth</key>
+ 	<dict>
+ 		<key>DevelopmentPhase</key>
+
+```
+
+#### CompanionServices.plist
+
+>  `Domain/CompanionServices.plist`
+
+```diff
+
+ <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+ <plist version="1.0">
+ <dict>
+-	<key>AdditionalSiriDialogue</key>
+-	<dict>
+-		<key>DevelopmentPhase</key>
+-		<string>FeatureComplete</string>
+-	</dict>
+ 	<key>AppleMusic</key>
+ 	<dict>
+ 		<key>DevelopmentPhase</key>
+
+```
+
+#### Home.plist
+
+>  `Domain/Home.plist`
+
+```diff
+
+ 		<key>DevelopmentPhase</key>
+ 		<string>FeatureComplete</string>
+ 	</dict>
++	<key>RapportoverBLE</key>
++	<dict>
++		<key>DevelopmentPhase</key>
++		<string>FeatureComplete</string>
++	</dict>
+ 	<key>ResidentSelection</key>
+ 	<dict>
+ 		<key>DevelopmentPhase</key>
+
+```
+
+#### MediaExperience.plist
+
+>  `Domain/MediaExperience.plist`
+
+```diff
+
+ 		<key>DevelopmentPhase</key>
+ 		<string>FeatureComplete</string>
+ 	</dict>
++	<key>StravinskyOrchestration</key>
++	<dict>
++		<key>DevelopmentPhase</key>
++		<string>FeatureComplete</string>
++	</dict>
+ 	<key>SystemRemoteDisplay</key>
+ 	<dict>
+ 		<key>DevelopmentPhase</key>
+
+```
+
+#### MediaRemote.plist
+
+>  `Domain/MediaRemote.plist`
+
+```diff
+
+ 		<key>Enabled</key>
+ 		<true/>
+ 	</dict>
+-	<key>rapport_remote_control_transport</key>
+-	<dict>
+-		<key>Enabled</key>
+-		<true/>
+-	</dict>
+ 	<key>session_based_lock_screen_platter</key>
+ 	<dict>
+ 		<key>Enabled</key>
+
+```
+
+#### MobileAsset.plist
+
+>  `Domain/MobileAsset.plist`
+
+```diff
+
+ <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+ <plist version="1.0">
+ <dict>
++	<key>LiveStorageExclaveNonce</key>
++	<dict>
++		<key>DevelopmentPhase</key>
++		<string>FeatureComplete</string>
++	</dict>
+ 	<key>com_apple_mobileassetd_conclave</key>
+ 	<dict>
+ 		<key>DevelopmentPhase</key>
+
+```
+
+#### OmniSearch.plist
+
+>  `Domain/OmniSearch.plist`
+
+```diff
+
+ 		<key>DevelopmentPhase</key>
+ 		<string>FeatureComplete</string>
+ 	</dict>
++	<key>preExtractedIDs</key>
++	<dict>
++		<key>DevelopmentPhase</key>
++		<string>FeatureComplete</string>
++	</dict>
+ 	<key>reflectionToken</key>
+ 	<dict>
+ 		<key>DevelopmentPhase</key>
+ 		<string>FeatureComplete</string>
+ 	</dict>
+-	<key>urgentPCCPrewarm</key>
++	<key>searchInAppRows</key>
++	<dict>
++		<key>DevelopmentPhase</key>
++		<string>FeatureComplete</string>
++	</dict>
++	<key>shortCircuitMusicSearch</key>
++	<dict>
++		<key>DevelopmentPhase</key>
++		<string>FeatureComplete</string>
++	</dict>
++	<key>shortCircuitPhotoSearch</key>
++	<dict>
++		<key>DevelopmentPhase</key>
++		<string>FeatureComplete</string>
++	</dict>
++	<key>showInternalErrorInfo</key>
+ 	<dict>
+ 		<key>DevelopmentPhase</key>
+ 		<string>FeatureComplete</string>
+
+```
+
+#### Oneness.plist
+
+>  `Domain/Oneness.plist`
+
+```diff
+
+ 		<key>DisclosureRequired</key>
+ 		<string>8f6f8e85-8d9d-8330-8c15-a603765b90f3</string>
+ 	</dict>
++	<key>RemoteTextInput</key>
++	<dict>
++		<key>DevelopmentPhase</key>
++		<string>FeatureComplete</string>
++	</dict>
+ 	<key>Shell</key>
+ 	<dict>
+ 		<key>DevelopmentPhase</key>
+
+```
+
+#### PrivateCloudCompute.plist
+
+>  `Domain/PrivateCloudCompute.plist`
+
+```diff
+
+ <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+ <plist version="1.0">
+ <dict>
+-	<key>enforceEnvironment</key>
+-	<dict>
+-		<key>DevelopmentPhase</key>
+-		<string>FeatureComplete</string>
+-	</dict>
+-	<key>productionEnvironmentAvailable</key>
++	<key>trustedProxyProtocol</key>
+ 	<dict>
+ 		<key>DevelopmentPhase</key>
+ 		<string>FeatureComplete</string>
+
+```
+
+#### ScreenTime.plist
+
+>  `Domain/ScreenTime.plist`
+
+```diff
+
+ 		<key>DevelopmentPhase</key>
+ 		<string>FeatureComplete</string>
+ 	</dict>
++	<key>passcode_activity</key>
++	<dict>
++		<key>DevelopmentPhase</key>
++		<string>FeatureComplete</string>
++	</dict>
+ </dict>
+ </plist>
+ 
+
+```
+
+#### SiriUI.plist
+
+>  `Domain/SiriUI.plist`
+
+```diff
+
+ 		<key>Enabled</key>
+ 		<true/>
+ 	</dict>
++	<key>response_coordination_wordtiming_fallback</key>
++	<dict>
++		<key>DevelopmentPhase</key>
++		<string>FeatureComplete</string>
++	</dict>
+ 	<key>sae</key>
+ 	<dict>
+ 		<key>DevelopmentPhase</key>
+
+```
+
+#### Spotlight.plist
+
+>  `Domain/Spotlight.plist`
+
+```diff
+
+ 		<key>DevelopmentPhase</key>
+ 		<string>FeatureComplete</string>
+ 	</dict>
+-	<key>SearchToolAllBundles</key>
+-	<dict>
+-		<key>DevelopmentPhase</key>
+-		<string>FeatureComplete</string>
+-	</dict>
+-	<key>SearchToolCleanSlateDenseRetrieval</key>
+-	<dict>
+-		<key>DevelopmentPhase</key>
+-		<string>FeatureComplete</string>
+-	</dict>
+ 	<key>SearchToolLLMQueryUnderstanding</key>
+ 	<dict>
+ 		<key>DevelopmentPhase</key>
+
+ 		<key>DevelopmentPhase</key>
+ 		<string>FeatureComplete</string>
+ 	</dict>
+-	<key>SearchToolRanking</key>
+-	<dict>
+-		<key>DevelopmentPhase</key>
+-		<string>FeatureComplete</string>
+-	</dict>
+ 	<key>SearchToolRetrievalSparseScoringV2</key>
+ 	<dict>
+ 		<key>DevelopmentPhase</key>
+
+```
+
+#### SpringBoard.plist
+
+>  `Domain/SpringBoard.plist`
+
+```diff
+
+ 		<key>DisclosureRequired</key>
+ 		<string>843d7545-f18c-4301-863c-e4e20100acf7</string>
+ 	</dict>
++	<key>HomeScreen2DMovement</key>
++	<dict>
++		<key>DevelopmentPhase</key>
++		<string>FeatureComplete</string>
++	</dict>
+ 	<key>IconStylesOutsideSpringBoard</key>
+ 	<dict>
+ 		<key>DevelopmentPhase</key>
+
+```
+
+#### Summarization.plist
+
+>  `Domain/Summarization.plist`
+
+```diff
+
+ <?xml version="1.0" encoding="UTF-8"?>
+ <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+ <plist version="1.0">
+-<dict/>
++<dict>
++	<key>FactualConsistencyClassifier</key>
++	<dict>
++		<key>DevelopmentPhase</key>
++		<string>FeatureComplete</string>
++	</dict>
++</dict>
+ </plist>
+ 
+
+```
+
+#### TelephonyUtilities.plist
+
+>  `Domain/TelephonyUtilities.plist`
+
+```diff
+
+ 		<key>DevelopmentPhase</key>
+ 		<string>FeatureComplete</string>
+ 	</dict>
++	<key>CallEndSpamUIEnhancement</key>
++	<dict>
++		<key>DevelopmentPhase</key>
++		<string>FeatureComplete</string>
++	</dict>
+ 	<key>CallManagerEnabled</key>
+ 	<dict>
+ 		<key>DevelopmentPhase</key>
+
+```
+
+#### GlobalDisclosures.plist
+
+>  `GlobalDisclosures.plist`
+
+```diff
+
+ 		<key>Disclosed</key>
+ 		<true/>
+ 	</dict>
+-	<key>1b3196a9-6a20-4559-60fd-bb3743219ab3</key>
+-	<dict>
+-		<key>Disclosed</key>
+-		<true/>
+-	</dict>
+ 	<key>2298f8e4-f510-4776-b2c1-a85ea314b1f8</key>
+ 	<dict>
+ 		<key>Disclosed</key>
+
+```
+
 
 </details>
 
