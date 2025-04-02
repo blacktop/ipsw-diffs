@@ -116,6 +116,7 @@ ipsw diff
   --launchd
   --feat
   --strs
+  --files
   --block-list "__TEXT.__info_plist"
   'iPhone16,2_17.6_21G5052e_Restore.ipsw'
   'iPhone16,2_17.6_21G5061c_Restore.ipsw'
