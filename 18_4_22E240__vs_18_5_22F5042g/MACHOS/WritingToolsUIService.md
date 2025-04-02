@@ -1,0 +1,137 @@
+## WritingToolsUIService
+
+> `/Applications/WritingToolsUIService.app/WritingToolsUIService`
+
+```diff
+
+-44.321.101.0.0
+-  __TEXT.__text: 0x181590
+-  __TEXT.__auth_stubs: 0x4e10
++44.502.0.0.0
++  __TEXT.__text: 0x182440
++  __TEXT.__auth_stubs: 0x4e40
+   __TEXT.__objc_methlist: 0x1104
+-  __TEXT.__const: 0xe7a4
+-  __TEXT.__cstring: 0x7b45
+-  __TEXT.__swift5_typeref: 0x2765e
++  __TEXT.__const: 0xe7f4
++  __TEXT.__cstring: 0x7fd5
++  __TEXT.__swift5_typeref: 0x27d9e
+   __TEXT.__objc_methname: 0x3e4b
+   __TEXT.__constg_swiftt: 0x591c
+-  __TEXT.__swift5_reflstr: 0x3344
+-  __TEXT.__swift5_fieldmd: 0x32dc
++  __TEXT.__swift5_reflstr: 0x3364
++  __TEXT.__swift5_fieldmd: 0x32f4
+   __TEXT.__swift5_builtin: 0x1cc
+   __TEXT.__swift5_assocty: 0x1110
+   __TEXT.__swift5_proto: 0x634
+   __TEXT.__swift5_types: 0x3b4
+   __TEXT.__objc_classname: 0x20e
+   __TEXT.__objc_methtype: 0x1a2d
+-  __TEXT.__oslogstring: 0x3729
+-  __TEXT.__swift5_capture: 0x15fc
+-  __TEXT.__swift_as_entry: 0x1a0
+-  __TEXT.__swift_as_ret: 0x1c0
++  __TEXT.__oslogstring: 0x36e9
++  __TEXT.__swift5_capture: 0x1618
++  __TEXT.__swift_as_entry: 0x19c
++  __TEXT.__swift_as_ret: 0x1bc
+   __TEXT.__swift5_protos: 0x18
+   __TEXT.__swift5_mpenum: 0x18
+   __TEXT.__swift5_entry: 0x8
+-  __TEXT.__unwind_info: 0x49d0
+-  __TEXT.__eh_frame: 0x65b0
+-  __DATA_CONST.__auth_got: 0x2708
+-  __DATA_CONST.__got: 0x1318
+-  __DATA_CONST.__auth_ptr: 0x1f50
+-  __DATA_CONST.__const: 0x8358
++  __TEXT.__unwind_info: 0x49e0
++  __TEXT.__eh_frame: 0x6510
++  __DATA_CONST.__auth_got: 0x2720
++  __DATA_CONST.__got: 0x1300
++  __DATA_CONST.__auth_ptr: 0x2318
++  __DATA_CONST.__const: 0x8408
+   __DATA_CONST.__objc_classlist: 0x138
+   __DATA_CONST.__objc_protolist: 0x140
+   __DATA_CONST.__objc_imageinfo: 0x8
+
+   __DATA.__objc_const: 0x3630
+   __DATA.__objc_selrefs: 0x1010
+   __DATA.__objc_data: 0x1628
+-  __DATA.__data: 0xc5c8
++  __DATA.__data: 0xc560
+   __DATA.__bss: 0xd0c8
+   __DATA.__common: 0x748
+   - /System/Library/Frameworks/Combine.framework/Combine
+
+   - /System/Library/PrivateFrameworks/WritingTools.framework/WritingTools
+   - /System/Library/PrivateFrameworks/WritingToolsUI.framework/WritingToolsUI
+   - /System/Library/PrivateFrameworks/iWorkImport.framework/iWorkImport
+-  - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/swift/libswiftAVFoundation.dylib
+
+   - /usr/lib/swift/libswiftsimd.dylib
+   - /usr/lib/swift/libswiftsys_time.dylib
+   - /usr/lib/swift/libswiftunistd.dylib
+-  Functions: 6807
+-  Symbols:   2386
+-  CStrings:  1615
++  Functions: 6806
++  Symbols:   2388
++  CStrings:  1621
+ 
+Symbols:
++ _$s16GenerativeModels0aB12AvailabilityV0C0O14RestrictedInfoV0D6ReasonO32regionalSafetyAssetPendingUpdateyA2ImFWC
++ _$s16GenerativeModels0aB12AvailabilityV0C0O14RestrictedInfoV0D6ReasonO6forcedyA2ImFWC
++ _$s18AppIntentsServices0bC0O14InterfaceIdiomO23defaultForCurrentDeviceAESgvgZ
++ _$s18AppIntentsServices0bC0O14InterfaceIdiomOMn
++ _$s18AppIntentsServices0bC0O17DispatcherOptionsV14interfaceIdiom14payloadPrivacyAeC09InterfaceG0OSg_AC07PayloadI0OtcfC
++ _$s29GenerativeFunctionsFoundation0A5ErrorV26userFacingLocalizedMessageSSSgvg
++ _$s4Sage24InferenceEnvironmentInfoV24estimatedInputTokenCountSiSgvg
++ _$s4Sage24InferenceEnvironmentInfoV25estimatedOutputTokenCountSiSgvg
++ _$sSS10FoundationE17LocalizationValueV19StringInterpolationV06appendE0yySSF
++ _$sSS10FoundationE17LocalizationValueV19StringInterpolationV13appendLiteralyySSF
++ _$sSS10FoundationE17LocalizationValueV19StringInterpolationV15literalCapacity18interpolationCountAESi_SitcfC
++ _$sSS10FoundationE17LocalizationValueV19StringInterpolationVMa
++ _$sSS10FoundationE17LocalizationValueV19stringInterpolationA2C06StringE0V_tcfC
+- _$s10Foundation23LocalizedStringResourceV17BundleDescriptionO4mainyA2EmFWC
+- _$s10Foundation23LocalizedStringResourceV17BundleDescriptionOMa
+- _$s10Foundation23LocalizedStringResourceV_5table6locale6bundle7commentACSSAAE17LocalizationValueV_SSSgAA6LocaleVAC17BundleDescriptionOs06StaticC0VSgtcfC
+- _$s15FeedbackService14FBKSEvaluationC6ActionO13reportConcernyA2EmFWC
+- _$s18AppIntentsServices0bC0O17DispatcherOptionsV14payloadPrivacyAeC07PayloadG0O_tcfC
+- _$s7SwiftUI22TitleAndIconLabelStyleVAA0fG0AAMc
+- _$s7SwiftUI22TitleAndIconLabelStyleVACycfC
+- _$s7SwiftUI22TitleAndIconLabelStyleVMa
+- _$s7SwiftUI4TextVyAC10Foundation23LocalizedStringResourceVcfC
+- _IASignalFeedbackServiceLaunchSmartRepliesReportConcern
+- _MGGetBoolAnswer
+CStrings:
++ "Formatting_v2"
++ "Name of file attachment on the Report a Concern form that contains the selected text as either a summary, key points, list, or table."
++ "Name of file attachment on the Report a Concern form when users share feedback with Apple. The Request attachment contains the text of the user's requests to Writing Tools."
++ "Name of file attachment on the Report a Concern form when users share feedback with Apple. The attachment contains an image generated by the current model."
++ "Name of file attachment on the Report a Concern form when users share feedback with Apple. The attachment contains follow-up prompt suggestions generated by the current model."
++ "Name of file attachment on the Report a Concern form where users share feedback with Apple. The Selected Text attachment contains the text selected by the user that is sent to Writing tools."
++ "Name of the file attachment on the Report a Concern form that contains suggestions generated by Smart Reply."
++ "Name of the file attachment on the Report a Concern form that contains the rewritten text from Writing Tools."
++ "Name of the file attachment on the Report a Concern form that contains the text generated by the current model."
++ "Name of the file attachment on the Report a Concern form when users share feedback with Apple. The Attachment attachment contains a text file or image from Writing Tools."
++ "Over daily limit. Requests will use "
++ "This is for handoff to Montara. Only .compose is supported as a navigation destination here."
++ "You’ve reached your daily limit for "
++ "’s advanced capabilities"
++ "’s basic version for up to 24 hours.["
+- "Handoff for proofread not supported. We should never reach here."
+- "Over daily limit. Requests will use ChatGPT’s basic version for up to 24 hours.["
+- "Report a Concern"
+- "Report a Concern button pressed - launching remote eval"
+- "Writing Tools are temporarily restricted."
+- "Writing Tools would like to compose using %@"
+- "WritingToolsUIService/ProofreadingModel.swift"
+- "You’ve reached your daily limit for ChatGPT’s advanced capabilities"
+- "zh_CN: 写作工具暂时被限用。"
+
+```

@@ -1,0 +1,1061 @@
+## LighthouseDataProcessor
+
+> `/System/Library/PrivateFrameworks/LighthouseDataProcessor.framework/LighthouseDataProcessor`
+
+```diff
+
+-1.4.11.0.0
+-  __TEXT.__text: 0x3016e0
+-  __TEXT.__auth_stubs: 0x1a40
+-  __TEXT.__objc_methlist: 0x15f4
+-  __TEXT.__const: 0x34130
+-  __TEXT.__cstring: 0xb465
+-  __TEXT.__constg_swiftt: 0x6a78
+-  __TEXT.__swift5_typeref: 0x786c
++1.5.4.0.0
++  __TEXT.__text: 0x2d0c74
++  __TEXT.__auth_stubs: 0x16d0
++  __TEXT.__objc_methlist: 0x174
++  __TEXT.__const: 0x32fe0
++  __TEXT.__cstring: 0xa045
++  __TEXT.__constg_swiftt: 0x5d0c
++  __TEXT.__swift5_typeref: 0x7144
+   __TEXT.__swift5_builtin: 0xa0
+-  __TEXT.__swift5_reflstr: 0x7b08
+-  __TEXT.__swift5_fieldmd: 0xa208
+-  __TEXT.__swift5_assocty: 0xc58
+-  __TEXT.__swift5_proto: 0x2eb0
+-  __TEXT.__swift5_types: 0x9d8
+-  __TEXT.__oslogstring: 0x1d92
+-  __TEXT.__swift5_protos: 0x44
++  __TEXT.__swift5_reflstr: 0x6098
++  __TEXT.__swift5_fieldmd: 0x9624
++  __TEXT.__swift5_assocty: 0xbe0
++  __TEXT.__swift5_proto: 0x2e60
++  __TEXT.__swift5_types: 0x97c
++  __TEXT.__swift5_protos: 0x20
++  __TEXT.__oslogstring: 0x14d2
+   __TEXT.__swift5_capture: 0x17c
+   __TEXT.__swift_as_entry: 0x60
+   __TEXT.__swift_as_ret: 0x48
+   __TEXT.__swift5_mpenum: 0x64
+-  __TEXT.__unwind_info: 0xce08
+-  __TEXT.__eh_frame: 0x18000
+-  __TEXT.__objc_classname: 0x13b
+-  __TEXT.__objc_methname: 0x5716
+-  __TEXT.__objc_methtype: 0x43a
+-  __TEXT.__objc_stubs: 0x14a0
+-  __DATA_CONST.__got: 0xa08
+-  __DATA_CONST.__const: 0x150
+-  __DATA_CONST.__objc_classlist: 0x100
++  __TEXT.__unwind_info: 0xc8d8
++  __TEXT.__eh_frame: 0x182f8
++  __TEXT.__objc_classname: 0x15
++  __TEXT.__objc_methname: 0x1767
++  __TEXT.__objc_methtype: 0xff
++  __DATA_CONST.__got: 0x828
++  __DATA_CONST.__const: 0x100
++  __DATA_CONST.__objc_classlist: 0x30
+   __DATA_CONST.__objc_protolist: 0x20
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x1590
++  __DATA_CONST.__objc_selrefs: 0x9f8
+   __DATA_CONST.__objc_protorefs: 0x10
+-  __DATA_CONST.__objc_superrefs: 0x40
+-  __AUTH_CONST.__auth_got: 0xd28
+-  __AUTH_CONST.__auth_ptr: 0x1750
+-  __AUTH_CONST.__const: 0x6a68
+-  __AUTH_CONST.__cfstring: 0x8c0
+-  __AUTH_CONST.__objc_const: 0x3860
+-  __AUTH_CONST.__objc_intobj: 0x18
+-  __AUTH.__objc_data: 0x410
+-  __AUTH.__data: 0x5150
+-  __DATA.__objc_ivar: 0x1e0
+-  __DATA.__data: 0xafb8
+-  __DATA.__bss: 0x5b490
+-  __DATA.__common: 0x98
+-  __DATA_DIRTY.__data: 0xdf20
++  __AUTH_CONST.__auth_got: 0xb68
++  __AUTH_CONST.__auth_ptr: 0x1628
++  __AUTH_CONST.__const: 0x5f30
++  __AUTH_CONST.__objc_const: 0x770
++  __AUTH.__objc_data: 0x50
++  __AUTH.__data: 0x3cd0
++  __DATA.__data: 0xaec0
++  __DATA.__bss: 0x5b800
++  __DATA.__common: 0x68
++  __DATA_DIRTY.__data: 0xdf30
+   __DATA_DIRTY.__bss: 0x1000
+   __DATA_DIRTY.__common: 0x20
+   - /System/Library/Frameworks/Combine.framework/Combine
+
+   - /System/Library/PrivateFrameworks/FeedbackLogger.framework/FeedbackLogger
+   - /System/Library/PrivateFrameworks/IntelligencePlatformLibrary.framework/IntelligencePlatformLibrary
+   - /System/Library/PrivateFrameworks/InternalSwiftProtobuf.framework/InternalSwiftProtobuf
+-  - /System/Library/PrivateFrameworks/ProtocolBuffer.framework/ProtocolBuffer
+   - /System/Library/PrivateFrameworks/SiriAnalytics.framework/SiriAnalytics
+   - /System/Library/PrivateFrameworks/SiriInstrumentation.framework/SiriInstrumentation
+   - /System/Library/PrivateFrameworks/ToolKit.framework/ToolKit
+
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsys_time.dylib
+   - /usr/lib/swift/libswiftunistd.dylib
+-  Functions: 20930
+-  Symbols:   1048
+-  CStrings:  2891
++  Functions: 20117
++  Symbols:   453
++  CStrings:  2067
+ 
+Symbols:
++ _OBJC_CLASS_$_IFTSchemaIFTExecutionPreconditionEvaluatorRequest
++ _OBJC_CLASS_$_IFTSchemaIFTExecutionPreconditionEvaluatorRequestActionRequest
++ _OBJC_CLASS_$_IFTSchemaIFTSystemRequirementUserLocationForSystemRequest
+- OBJC_IVAR_$_PBDataReader._bytes
+- OBJC_IVAR_$_PBDataReader._error
+- OBJC_IVAR_$_PBDataReader._length
+- OBJC_IVAR_$_PBDataReader._pos
+- OBJC_IVAR_$_PNRProvisionalMetrics._endTimestamp
+- OBJC_IVAR_$_PNRProvisionalMetrics._endTimestampEventName
+- OBJC_IVAR_$_PNRProvisionalMetrics._has
+- OBJC_IVAR_$_PNRProvisionalMetrics._metricsValue
+- OBJC_IVAR_$_PNRProvisionalMetrics._startTimestamp
+- OBJC_IVAR_$_PNRProvisionalMetrics._startTimestampEventName
+- OBJC_IVAR_$_PNRProvisionalPlannerGrainMetricsDimension._actionResolverRequestToLastResolverEventTime
+- OBJC_IVAR_$_PNRProvisionalPlannerGrainMetricsDimension._failureInfo
+- OBJC_IVAR_$_PNRProvisionalPlannerGrainMetricsDimension._has
+- OBJC_IVAR_$_PNRProvisionalPlannerGrainMetricsDimension._lastQueryDecorationEventToPlanCreatedTime
+- OBJC_IVAR_$_PNRProvisionalPlannerGrainMetricsDimension._lastResolverEventToResponseGeneratedTime
+- OBJC_IVAR_$_PNRProvisionalPlannerGrainMetricsDimension._numActionResolverRequests
+- OBJC_IVAR_$_PNRProvisionalPlannerGrainMetricsDimension._numClientActionCreated
+- OBJC_IVAR_$_PNRProvisionalPlannerGrainMetricsDimension._numCriticalErrors
+- OBJC_IVAR_$_PNRProvisionalPlannerGrainMetricsDimension._numPlansCreated
+- OBJC_IVAR_$_PNRProvisionalPlannerGrainMetricsDimension._numQueriesCreated
+- OBJC_IVAR_$_PNRProvisionalPlannerGrainMetricsDimension._numQueriesExecuted
+- OBJC_IVAR_$_PNRProvisionalPlannerGrainMetricsDimension._numStatementEvaluatedFromPlanner
+- OBJC_IVAR_$_PNRProvisionalPlannerGrainMetricsDimension._numSystemPromptResolved
+- OBJC_IVAR_$_PNRProvisionalPlannerGrainMetricsDimension._planCreatedToActionResolverRequestTime
+- OBJC_IVAR_$_PNRProvisionalPlannerGrainMetricsDimension._planCreatedToLastResolverEventTime
+- OBJC_IVAR_$_PNRProvisionalPlannerGrainMetricsDimension._planCreatedToResolutionTime
+- OBJC_IVAR_$_PNRProvisionalPlannerGrainMetricsDimension._planCreatedToResolverRequestTime
+- OBJC_IVAR_$_PNRProvisionalPlannerGrainMetricsDimension._plannerGrainStage
+- OBJC_IVAR_$_PNRProvisionalPlannerGrainMetricsDimension._plannerResponseTime
+- OBJC_IVAR_$_PNRProvisionalPlannerGrainMetricsDimension._planningStep
+- OBJC_IVAR_$_PNRProvisionalPlannerGrainMetricsDimension._resolutionToResponseGeneratedTime
+- OBJC_IVAR_$_PNRProvisionalPlannerGrainMetricsDimension._resolverFirstSystemPromptToResolutionTime
+- OBJC_IVAR_$_PNRProvisionalPlannerGrainMetricsDimension._resolverRequestToResolutionTime
+- OBJC_IVAR_$_PNRProvisionalPlannerGrainMetricsDimension._resolverTotalClientActionTime
+- OBJC_IVAR_$_PNRProvisionalPlannerGrainMetricsDimension._resolverTotalQueryTime
+- OBJC_IVAR_$_PNRProvisionalPlannerGrainMetricsDimension._startToActionResolverRequestTime
+- OBJC_IVAR_$_PNRProvisionalPlannerGrainMetricsDimension._startToContextRetrievedTime
+- OBJC_IVAR_$_PNRProvisionalPlannerGrainMetricsDimension._startToEntitySpanMatchedTime
+- OBJC_IVAR_$_PNRProvisionalPlannerGrainMetricsDimension._startToLastQueryDecorationEventTime
+- OBJC_IVAR_$_PNRProvisionalPlannerGrainMetricsDimension._startToLastResolverEventTime
+- OBJC_IVAR_$_PNRProvisionalPlannerGrainMetricsDimension._startToPlanCreatedTime
+- OBJC_IVAR_$_PNRProvisionalPlannerGrainMetricsDimension._startToToolsRetrievedTime
+- OBJC_IVAR_$_PNRProvisionalRequestGrainMetricsDimension._bundleIds
+- OBJC_IVAR_$_PNRProvisionalRequestGrainMetricsDimension._executionTime
+- OBJC_IVAR_$_PNRProvisionalRequestGrainMetricsDimension._failureInfo
+- OBJC_IVAR_$_PNRProvisionalRequestGrainMetricsDimension._fullQueryResponseTime
+- OBJC_IVAR_$_PNRProvisionalRequestGrainMetricsDimension._has
+- OBJC_IVAR_$_PNRProvisionalRequestGrainMetricsDimension._numActionResponseGenerated
+- OBJC_IVAR_$_PNRProvisionalRequestGrainMetricsDimension._numActionsCreated
+- OBJC_IVAR_$_PNRProvisionalRequestGrainMetricsDimension._numActionsExecuted
+- OBJC_IVAR_$_PNRProvisionalRequestGrainMetricsDimension._numPlansCreated
+- OBJC_IVAR_$_PNRProvisionalRequestGrainMetricsDimension._numQueries
+- OBJC_IVAR_$_PNRProvisionalRequestGrainMetricsDimension._numQueryPlansCreated
+- OBJC_IVAR_$_PNRProvisionalRequestGrainMetricsDimension._numResponsePlansCreated
+- OBJC_IVAR_$_PNRProvisionalRequestGrainMetricsDimension._planningTime
+- OBJC_IVAR_$_PNRProvisionalRequestGrainMetricsDimension._responsePreparationTime
+- OBJC_IVAR_$_PNRProvisionalRequestGrainMetricsDimension._toolIds
+- OBJC_IVAR_$_PNRProvisionalSageErrorInfo._errorCode
+- OBJC_IVAR_$_PNRProvisionalSageErrorInfo._errorDomain
+- OBJC_IVAR_$_PNRProvisionalSageErrorInfo._has
+- OBJC_IVAR_$_PNRProvisionalSageFailureInfo._error
+- OBJC_IVAR_$_PNRProvisionalSageFailureInfo._failureSubType
+- OBJC_IVAR_$_PNRProvisionalSageFailureInfo._failureType
+- OBJC_IVAR_$_PNRProvisionalSageFailureInfo._underUnderlyingError
+- OBJC_IVAR_$_PNRProvisionalSageFailureInfo._underlyingError
+- OBJC_IVAR_$_PNRProvisionalSagePnREvent._plannerGrainMetricsDimension
+- OBJC_IVAR_$_PNRProvisionalSagePnREvent._requestGrainMetricsDimension
+- OBJC_IVAR_$_PNRProvisionalSagePnREvent._sagePnRMetadata
+- OBJC_IVAR_$_PNRProvisionalSagePnRMetadata._SessionId
+- OBJC_IVAR_$_PNRProvisionalSagePnRMetadata._actionIds
+- OBJC_IVAR_$_PNRProvisionalSagePnRMetadata._clientId
+- OBJC_IVAR_$_PNRProvisionalSagePnRMetadata._clientRequestId
+- OBJC_IVAR_$_PNRProvisionalSagePnRMetadata._clientSessionId
+- OBJC_IVAR_$_PNRProvisionalSagePnRMetadata._planIds
+- OBJC_IVAR_$_PNRProvisionalSagePnRMetadata._rawSessionId
+- OBJC_IVAR_$_PNRProvisionalSagePnRMetadata._requestStatus
+- OBJC_IVAR_$_PNRProvisionalSagePnRWrapper._sagePnR
+- _OBJC_CLASS_$_AssistantSiriAnalytics
+- _OBJC_CLASS_$_NSArray
+- _OBJC_CLASS_$_NSConstantIntegerNumber
+- _OBJC_CLASS_$_NSDictionary
+- _OBJC_CLASS_$_NSJSONSerialization
+- _OBJC_CLASS_$_NSMutableArray
+- _OBJC_CLASS_$_NSMutableDictionary
+- _OBJC_CLASS_$_NSNull
+- _OBJC_CLASS_$_NSString
+- _OBJC_CLASS_$_PNRODSchemaPNRODFailureInfo
+- _OBJC_CLASS_$_PNRProvisionalMetrics
+- _OBJC_CLASS_$_PNRProvisionalPlannerGrainMetricsDimension
+- _OBJC_CLASS_$_PNRProvisionalRequestGrainMetricsDimension
+- _OBJC_CLASS_$_PNRProvisionalSageErrorInfo
+- _OBJC_CLASS_$_PNRProvisionalSageFailureInfo
+- _OBJC_CLASS_$_PNRProvisionalSagePnREvent
+- _OBJC_CLASS_$_PNRProvisionalSagePnRMetadata
+- _OBJC_CLASS_$_PNRProvisionalSagePnRWrapper
+- _OBJC_CLASS_$_SISchemaInstrumentationMessage
+- _OBJC_METACLASS_$_NSObject
+- _OBJC_METACLASS_$_PNRProvisionalMetrics
+- _OBJC_METACLASS_$_PNRProvisionalPlannerGrainMetricsDimension
+- _OBJC_METACLASS_$_PNRProvisionalRequestGrainMetricsDimension
+- _OBJC_METACLASS_$_PNRProvisionalSageErrorInfo
+- _OBJC_METACLASS_$_PNRProvisionalSageFailureInfo
+- _OBJC_METACLASS_$_PNRProvisionalSagePnREvent
+- _OBJC_METACLASS_$_PNRProvisionalSagePnRMetadata
+- _OBJC_METACLASS_$_PNRProvisionalSagePnRWrapper
+- _OBJC_METACLASS_$_SISchemaInstrumentationMessage
+- _OBJC_METACLASS_$_SISchemaTopLevelUnionType
+- _PBDataWriterWriteDoubleField
+- _PBDataWriterWriteInt32Field
+- _PBDataWriterWriteInt64Field
+- _PBDataWriterWriteStringField
+- _PBDataWriterWriteSubmessage
+- _PBReaderPlaceMark
+- _PBReaderReadString
+- _PBReaderRecallMark
+- _PBReaderSkipValueWithTag
+- _PNRProvisionalMetricsReadFrom
+- _PNRProvisionalPlannerGrainMetricsDimensionReadFrom
+- _PNRProvisionalRequestGrainMetricsDimensionReadFrom
+- _PNRProvisionalSageErrorInfoReadFrom
+- _PNRProvisionalSageFailureInfoReadFrom
+- _PNRProvisionalSagePnREventReadFrom
+- _PNRProvisionalSagePnRMetadataReadFrom
+- _PNRProvisionalSagePnRWrapperReadFrom
+- ___CFConstantStringClassReference
+- __os_signpost_emit_with_name_impl
+- __swiftEmptySetSingleton
+- _objc_alloc
+- _objc_alloc_init
+- _objc_claimAutoreleasedReturnValue
+- _objc_enumerationMutation
+- _objc_msgSendSuper2
+- _objc_opt_class
+- _objc_opt_isKindOfClass
+- _objc_release_x1
+- _objc_retainAutoreleaseReturnValue
+- _objc_retain_x2
+- _objc_setProperty_nonatomic_copy
+- _qname_PNRProvisionalSagePnRWrapper_WhichEventtype_None
+- _qname_PNRProvisionalSagePnRWrapper_WhichEventtype_sagePnR
+- _swift_getKeyPath
+- _swift_setAtWritableKeyPath
+- _swift_setDeallocating
+CStrings:
++ ".ExecutionSupportType"
++ "IFTSchemaIFTExecutionPreconditionEvaluatorRequest"
++ "RequestAmendment"
++ "Transcript.RequestAmendment"
++ "directInvocationClient"
++ "enumSymbol"
++ "executionSupportType"
++ "networkError"
++ "originalRequestId"
++ "partner"
++ "preITNSpeechPackage"
++ "requestAmendment"
++ "setExecutionPreconditionEvaluatorRequest:"
++ "setIsPreciseLocationRequired:"
++ "setNetworkError:"
++ "setPreviousAnswerReferenceStatementId:"
++ "setPreviousStatementId:"
++ "setSearchSucceededNoMatchingTool:"
++ "setTimeoutForLocationFetch:"
++ "setUserLocationForSystemRequired:"
++ "supported"
++ "unsupportedListValue"
++ "valueSelectionRequired"
+- "\x01"
+- "\x01.("
+- "\x03"
+- "\x05"
+- "\b"
+- "\nfailureSubSubType: "
+- "\nfailureSubtype: "
+- "!\x11"
+- "%{public, signpost.description=attribute,public}s"
+- ".cxx_destruct"
+- "@\"NSArray\""
+- "@\"NSString\""
+- "@\"PNRProvisionalMetrics\""
+- "@\"PNRProvisionalPlannerGrainMetricsDimension\""
+- "@\"PNRProvisionalRequestGrainMetricsDimension\""
+- "@\"PNRProvisionalSageErrorInfo\""
+- "@\"PNRProvisionalSageFailureInfo\""
+- "@\"PNRProvisionalSagePnREvent\""
+- "@\"PNRProvisionalSagePnRMetadata\""
+- "@24@0:8@16"
+- "@24@0:8Q16"
+- "B"
+- "Converting %s metrics dictionary to json string"
+- "Creating PnR provisional transcript events %s: %s"
+- "Creating PnR provisional transcript events for Planner Grain metrics %s: %s"
+- "ExecutionGrain"
+- "ExecutionGrainLatency Result %ld: %s"
+- "ExecutionGrainLatencyCalculator - building latency record"
+- "ExecutionGrainLatencyCalculator - starting new latency record for event: %s"
+- "Failed to convert %s metrics dictionary to json string"
+- "Failed to parse results as JSON String and emit OSSignposts for PlannerGrain"
+- "Failed to parse results as JSON String and emit OSSignposts for RequestGrain"
+- "Found %ld ExecutionGrainLatency Results"
+- "Found %ld PlannerGrainLatency Results"
+- "Found %ld RequestGrainLatency Results"
+- "Found startTime "
+- "G"
+- "IF Telemetry - Found a Failure in Planner Steps\n    clientRequestId: %s,\n    spanId: %llu\n    Target: %s,\n    state: %s,\n    with suspending timestamp: %llu,\n    %s"
+- "IF Telemetry Event"
+- "IF Telemetry Event -\n    clientRequestId: %s,\n    spanId: %llu\n    Target: %s,\n    state: %s,\n    with suspending timestamp: %llu,"
+- "In updatePlannerFailureSubtype - Found multiple spans with failures, which is unexpected.\n    %s"
+- "InstrumentationAdditions"
+- "IntelligenceFlowRuntime.RuntimeError"
+- "JSONObjectWithData:options:error:"
+- "LatencyIntervalSpec - calculateInterval - begin: %s, end: %s, duration: %s"
+- "LatencyIntervalSpec - calculateInterval - failed to calculate interval for begin: %s, end: %s"
+- "PNRProvisionalMetrics"
+- "PNRProvisionalMetrics init failed!"
+- "PNRProvisionalPlannerGrainMetricsDimension"
+- "PNRProvisionalPlannerGrainMetricsDimension init failed!"
+- "PNRProvisionalRequestGrainMetricsDimension"
+- "PNRProvisionalSageErrorInfo"
+- "PNRProvisionalSageFailureInfo"
+- "PNRProvisionalSagePnREvent"
+- "PNRProvisionalSagePnRMetadata"
+- "PNRProvisionalSagePnRMetadata init failed!"
+- "PNRProvisionalSagePnRWrapper"
+- "PNRProvisionalSagePnRWrapper init failed!"
+- "Planner Grain: PNRProvisionalMetrics init failed!"
+- "PlannerGrain"
+- "PlannerGrainLatency Result %ld: %s"
+- "PlannerGrainLatencyCalculator - building latency record"
+- "PlannerGrainLatencyCalculator - permutation - begin: %s, end: %s, result: %s"
+- "PlannerGrainLatencyCalculator - starting new latency record for event: %s"
+- "Q"
+- "RequestGrain"
+- "RequestGrainLatency Result %ld: %s"
+- "RequestGrainLatencyCalculator - building latency record"
+- "RequestGrainLatencyCalculator - starting new latency record for event: %s"
+- "SessionId"
+- "T@\"NSArray\",C,N,V_actionIds"
+- "T@\"NSArray\",C,N,V_bundleIds"
+- "T@\"NSArray\",C,N,V_planIds"
+- "T@\"NSArray\",C,N,V_toolIds"
+- "T@\"NSData\",R,N"
+- "T@\"NSString\",C,N,V_SessionId"
+- "T@\"NSString\",C,N,V_clientId"
+- "T@\"NSString\",C,N,V_clientRequestId"
+- "T@\"NSString\",C,N,V_clientSessionId"
+- "T@\"NSString\",C,N,V_endTimestampEventName"
+- "T@\"NSString\",C,N,V_errorDomain"
+- "T@\"NSString\",C,N,V_failureSubType"
+- "T@\"NSString\",C,N,V_failureType"
+- "T@\"NSString\",C,N,V_plannerGrainStage"
+- "T@\"NSString\",C,N,V_planningStep"
+- "T@\"NSString\",C,N,V_rawSessionId"
+- "T@\"NSString\",C,N,V_requestStatus"
+- "T@\"NSString\",C,N,V_startTimestampEventName"
+- "T@\"PNRProvisionalMetrics\",&,N,V_actionResolverRequestToLastResolverEventTime"
+- "T@\"PNRProvisionalMetrics\",&,N,V_executionTime"
+- "T@\"PNRProvisionalMetrics\",&,N,V_fullQueryResponseTime"
+- "T@\"PNRProvisionalMetrics\",&,N,V_lastQueryDecorationEventToPlanCreatedTime"
+- "T@\"PNRProvisionalMetrics\",&,N,V_lastResolverEventToResponseGeneratedTime"
+- "T@\"PNRProvisionalMetrics\",&,N,V_planCreatedToActionResolverRequestTime"
+- "T@\"PNRProvisionalMetrics\",&,N,V_planCreatedToLastResolverEventTime"
+- "T@\"PNRProvisionalMetrics\",&,N,V_planCreatedToResolutionTime"
+- "T@\"PNRProvisionalMetrics\",&,N,V_planCreatedToResolverRequestTime"
+- "T@\"PNRProvisionalMetrics\",&,N,V_plannerResponseTime"
+- "T@\"PNRProvisionalMetrics\",&,N,V_planningTime"
+- "T@\"PNRProvisionalMetrics\",&,N,V_resolutionToResponseGeneratedTime"
+- "T@\"PNRProvisionalMetrics\",&,N,V_resolverFirstSystemPromptToResolutionTime"
+- "T@\"PNRProvisionalMetrics\",&,N,V_resolverRequestToResolutionTime"
+- "T@\"PNRProvisionalMetrics\",&,N,V_resolverTotalClientActionTime"
+- "T@\"PNRProvisionalMetrics\",&,N,V_resolverTotalQueryTime"
+- "T@\"PNRProvisionalMetrics\",&,N,V_responsePreparationTime"
+- "T@\"PNRProvisionalMetrics\",&,N,V_startToActionResolverRequestTime"
+- "T@\"PNRProvisionalMetrics\",&,N,V_startToContextRetrievedTime"
+- "T@\"PNRProvisionalMetrics\",&,N,V_startToEntitySpanMatchedTime"
+- "T@\"PNRProvisionalMetrics\",&,N,V_startToLastQueryDecorationEventTime"
+- "T@\"PNRProvisionalMetrics\",&,N,V_startToLastResolverEventTime"
+- "T@\"PNRProvisionalMetrics\",&,N,V_startToPlanCreatedTime"
+- "T@\"PNRProvisionalMetrics\",&,N,V_startToToolsRetrievedTime"
+- "T@\"PNRProvisionalPlannerGrainMetricsDimension\",&,N,V_plannerGrainMetricsDimension"
+- "T@\"PNRProvisionalRequestGrainMetricsDimension\",&,N,V_requestGrainMetricsDimension"
+- "T@\"PNRProvisionalSageErrorInfo\",&,N,V_error"
+- "T@\"PNRProvisionalSageErrorInfo\",&,N,V_underUnderlyingError"
+- "T@\"PNRProvisionalSageErrorInfo\",&,N,V_underlyingError"
+- "T@\"PNRProvisionalSageFailureInfo\",&,N,V_failureInfo"
+- "T@\"PNRProvisionalSagePnREvent\",&,N,V_sagePnR"
+- "T@\"PNRProvisionalSagePnRMetadata\",&,N,V_sagePnRMetadata"
+- "TB,N"
+- "TB,N,V_hasActionResolverRequestToLastResolverEventTime"
+- "TB,N,V_hasClientId"
+- "TB,N,V_hasClientRequestId"
+- "TB,N,V_hasClientSessionId"
+- "TB,N,V_hasEndTimestampEventName"
+- "TB,N,V_hasError"
+- "TB,N,V_hasErrorDomain"
+- "TB,N,V_hasExecutionTime"
+- "TB,N,V_hasFailureInfo"
+- "TB,N,V_hasFailureSubType"
+- "TB,N,V_hasFailureType"
+- "TB,N,V_hasFullQueryResponseTime"
+- "TB,N,V_hasLastQueryDecorationEventToPlanCreatedTime"
+- "TB,N,V_hasLastResolverEventToResponseGeneratedTime"
+- "TB,N,V_hasPlanCreatedToActionResolverRequestTime"
+- "TB,N,V_hasPlanCreatedToLastResolverEventTime"
+- "TB,N,V_hasPlanCreatedToResolutionTime"
+- "TB,N,V_hasPlanCreatedToResolverRequestTime"
+- "TB,N,V_hasPlannerGrainMetricsDimension"
+- "TB,N,V_hasPlannerGrainStage"
+- "TB,N,V_hasPlannerResponseTime"
+- "TB,N,V_hasPlanningStep"
+- "TB,N,V_hasPlanningTime"
+- "TB,N,V_hasRawSessionId"
+- "TB,N,V_hasRequestGrainMetricsDimension"
+- "TB,N,V_hasRequestStatus"
+- "TB,N,V_hasResolutionToResponseGeneratedTime"
+- "TB,N,V_hasResolverFirstSystemPromptToResolutionTime"
+- "TB,N,V_hasResolverRequestToResolutionTime"
+- "TB,N,V_hasResolverTotalClientActionTime"
+- "TB,N,V_hasResolverTotalQueryTime"
+- "TB,N,V_hasResponsePreparationTime"
+- "TB,N,V_hasSagePnR"
+- "TB,N,V_hasSagePnRMetadata"
+- "TB,N,V_hasSessionId"
+- "TB,N,V_hasStartTimestampEventName"
+- "TB,N,V_hasStartToActionResolverRequestTime"
+- "TB,N,V_hasStartToContextRetrievedTime"
+- "TB,N,V_hasStartToEntitySpanMatchedTime"
+- "TB,N,V_hasStartToLastQueryDecorationEventTime"
+- "TB,N,V_hasStartToLastResolverEventTime"
+- "TB,N,V_hasStartToPlanCreatedTime"
+- "TB,N,V_hasStartToToolsRetrievedTime"
+- "TB,N,V_hasUnderUnderlyingError"
+- "TB,N,V_hasUnderlyingError"
+- "TQ,R,N,V_whichEventtype"
+- "Td,N,V_metricsValue"
+- "Ti,N,V_numActionResolverRequests"
+- "Ti,N,V_numActionResponseGenerated"
+- "Ti,N,V_numActionsCreated"
+- "Ti,N,V_numActionsExecuted"
+- "Ti,N,V_numClientActionCreated"
+- "Ti,N,V_numCriticalErrors"
+- "Ti,N,V_numPlansCreated"
+- "Ti,N,V_numQueries"
+- "Ti,N,V_numQueriesCreated"
+- "Ti,N,V_numQueriesExecuted"
+- "Ti,N,V_numQueryPlansCreated"
+- "Ti,N,V_numResponsePlansCreated"
+- "Ti,N,V_numStatementEvaluatedFromPlanner"
+- "Ti,N,V_numSystemPromptResolved"
+- "Tq,N,V_endTimestamp"
+- "Tq,N,V_errorCode"
+- "Tq,N,V_startTimestamp"
+- "Unable to extract PlannerGrain description"
+- "Unable to extract RequestGrain description"
+- "Unexpected IF telemetry event before begin event for %s, span: %llu, stateInfo: %s"
+- "Unexpected IF telemetry event for exisiting interval %s, span: %llu, stateInfo: %s"
+- "Unrecognized error from criticalError: %s"
+- "_SessionId"
+- "_TtC23LighthouseDataProcessor11EventFilter"
+- "_TtC23LighthouseDataProcessor11FailureInfo"
+- "_TtC23LighthouseDataProcessor12SpanEventMap"
+- "_TtC23LighthouseDataProcessor14SELFPnREmitter"
+- "_TtC23LighthouseDataProcessor16PlannerGrainSpec"
+- "_TtC23LighthouseDataProcessor18ExecutionGrainSpec"
+- "_TtC23LighthouseDataProcessor19LatencyIntervalSpec"
+- "_TtC23LighthouseDataProcessor26PlannerGrainDimensionsSpec"
+- "_TtC23LighthouseDataProcessor28ExecutionGrainDimensionsSpec"
+- "_TtC23LighthouseDataProcessor29PlannerGrainLatencyCalculator"
+- "_TtC23LighthouseDataProcessor29RequestGrainLatencyCalculator"
+- "_TtC23LighthouseDataProcessor31ExecutionGrainLatencyCalculator"
+- "_TtC23LighthouseDataProcessor42IntelligenceFlowTelemetryLatencyCalculator"
+- "_TtC23LighthouseDataProcessor4Last"
+- "_TtC23LighthouseDataProcessor4Next"
+- "_TtC23LighthouseDataProcessor8PNRError"
+- "_TtC23LighthouseDataProcessorP33_36D551D13E8D5A9578D82B67A5CF289416RequestGrainSpec"
+- "_TtC23LighthouseDataProcessorP33_36D551D13E8D5A9578D82B67A5CF289426RequestGrainDimensionsSpec"
+- "_actionIds"
+- "_actionResolverRequestToLastResolverEventTime"
+- "_bundleIds"
+- "_clientId"
+- "_clientRequestId"
+- "_clientSessionId"
+- "_endTimestamp"
+- "_endTimestampEventName"
+- "_error"
+- "_errorCode"
+- "_errorDomain"
+- "_executionTime"
+- "_failureInfo"
+- "_failureSubType"
+- "_failureType"
+- "_fullQueryResponseTime"
+- "_has"
+- "_hasActionResolverRequestToLastResolverEventTime"
+- "_hasClientId"
+- "_hasClientRequestId"
+- "_hasClientSessionId"
+- "_hasEndTimestampEventName"
+- "_hasError"
+- "_hasErrorDomain"
+- "_hasExecutionTime"
+- "_hasFailureInfo"
+- "_hasFailureSubType"
+- "_hasFailureType"
+- "_hasFullQueryResponseTime"
+- "_hasLastQueryDecorationEventToPlanCreatedTime"
+- "_hasLastResolverEventToResponseGeneratedTime"
+- "_hasPlanCreatedToActionResolverRequestTime"
+- "_hasPlanCreatedToLastResolverEventTime"
+- "_hasPlanCreatedToResolutionTime"
+- "_hasPlanCreatedToResolverRequestTime"
+- "_hasPlannerGrainMetricsDimension"
+- "_hasPlannerGrainStage"
+- "_hasPlannerResponseTime"
+- "_hasPlanningStep"
+- "_hasPlanningTime"
+- "_hasRawSessionId"
+- "_hasRequestGrainMetricsDimension"
+- "_hasRequestStatus"
+- "_hasResolutionToResponseGeneratedTime"
+- "_hasResolverFirstSystemPromptToResolutionTime"
+- "_hasResolverRequestToResolutionTime"
+- "_hasResolverTotalClientActionTime"
+- "_hasResolverTotalQueryTime"
+- "_hasResponsePreparationTime"
+- "_hasSagePnR"
+- "_hasSagePnRMetadata"
+- "_hasSessionId"
+- "_hasStartTimestampEventName"
+- "_hasStartToActionResolverRequestTime"
+- "_hasStartToContextRetrievedTime"
+- "_hasStartToEntitySpanMatchedTime"
+- "_hasStartToLastQueryDecorationEventTime"
+- "_hasStartToLastResolverEventTime"
+- "_hasStartToPlanCreatedTime"
+- "_hasStartToToolsRetrievedTime"
+- "_hasUnderUnderlyingError"
+- "_hasUnderlyingError"
+- "_lastQueryDecorationEventToPlanCreatedTime"
+- "_lastResolverEventToResponseGeneratedTime"
+- "_metricsValue"
+- "_numActionResolverRequests"
+- "_numActionResponseGenerated"
+- "_numActionsCreated"
+- "_numActionsExecuted"
+- "_numClientActionCreated"
+- "_numCriticalErrors"
+- "_numPlansCreated"
+- "_numQueries"
+- "_numQueriesCreated"
+- "_numQueriesExecuted"
+- "_numQueryPlansCreated"
+- "_numResponsePlansCreated"
+- "_numStatementEvaluatedFromPlanner"
+- "_numSystemPromptResolved"
+- "_planCreatedToActionResolverRequestTime"
+- "_planCreatedToLastResolverEventTime"
+- "_planCreatedToResolutionTime"
+- "_planCreatedToResolverRequestTime"
+- "_planIds"
+- "_plannerGrainMetricsDimension"
+- "_plannerGrainStage"
+- "_plannerResponseTime"
+- "_planningStep"
+- "_planningTime"
+- "_rawSessionId"
+- "_requestGrainMetricsDimension"
+- "_requestStatus"
+- "_resolutionToResponseGeneratedTime"
+- "_resolverFirstSystemPromptToResolutionTime"
+- "_resolverRequestToResolutionTime"
+- "_resolverTotalClientActionTime"
+- "_resolverTotalQueryTime"
+- "_responsePreparationTime"
+- "_sagePnR"
+- "_sagePnRMetadata"
+- "_startTimestamp"
+- "_startTimestampEventName"
+- "_startToActionResolverRequestTime"
+- "_startToContextRetrievedTime"
+- "_startToEntitySpanMatchedTime"
+- "_startToLastQueryDecorationEventTime"
+- "_startToLastResolverEventTime"
+- "_startToPlanCreatedTime"
+- "_startToToolsRetrievedTime"
+- "_toolIds"
+- "_underUnderlyingError"
+- "_underlyingError"
+- "_whichEventtype"
+- "actionExprMap"
+- "actionId"
+- "actionIdAtIndex:"
+- "actionIdCount"
+- "actionIds"
+- "actionResolverRequestToLastResolverEventTime"
+- "actionResponse"
+- "actionResponseTime"
+- "actionWithoutResponse"
+- "addActionId:"
+- "addBundleId:"
+- "addObject:"
+- "addPlanId:"
+- "addToolId:"
+- "appEntityQueryEventId"
+- "appEntityQueryResponseTime"
+- "beginEventFilter"
+- "bundleIdAtIndex:"
+- "bundleIdCount"
+- "bundleIds"
+- "clearActionId"
+- "clearBundleId"
+- "clearPlanId"
+- "clearToolId"
+- "clientId"
+- "com.apple.aiml.pnr.ProvisionalSagePnRWrapper"
+- "com.apple.aiml.pnr.ProvisionalSagePnRWrapper.ProvisionalSagePnREvent"
+- "com.apple.aiml.pnr.SagePnRWrapper"
+- "com.apple.intelligenceflow.ExecutionGrainLatency"
+- "com.apple.intelligenceflow.PlannerGrainLatency"
+- "com.apple.intelligenceflow.RequestGrainLatency"
+- "count"
+- "countByEnumeratingWithState:objects:count:"
+- "d"
+- "d16@0:8"
+- "dataWithJSONObject:options:error:"
+- "debugInfo"
+- "deleteActionId"
+- "deleteActionResolverRequestToLastResolverEventTime"
+- "deleteBundleId"
+- "deleteClientId"
+- "deleteClientRequestId"
+- "deleteClientSessionId"
+- "deleteEndTimestamp"
+- "deleteEndTimestampEventName"
+- "deleteError"
+- "deleteErrorCode"
+- "deleteErrorDomain"
+- "deleteExecutionTime"
+- "deleteFailureInfo"
+- "deleteFailureSubType"
+- "deleteFailureType"
+- "deleteFullQueryResponseTime"
+- "deleteLastQueryDecorationEventToPlanCreatedTime"
+- "deleteLastResolverEventToResponseGeneratedTime"
+- "deleteMetricsValue"
+- "deleteNumActionResolverRequests"
+- "deleteNumActionResponseGenerated"
+- "deleteNumActionsCreated"
+- "deleteNumActionsExecuted"
+- "deleteNumClientActionCreated"
+- "deleteNumCriticalErrors"
+- "deleteNumPlansCreated"
+- "deleteNumQueries"
+- "deleteNumQueriesCreated"
+- "deleteNumQueriesExecuted"
+- "deleteNumQueryPlansCreated"
+- "deleteNumResponsePlansCreated"
+- "deleteNumStatementEvaluatedFromPlanner"
+- "deleteNumSystemPromptResolved"
+- "deletePlanCreatedToActionResolverRequestTime"
+- "deletePlanCreatedToLastResolverEventTime"
+- "deletePlanCreatedToResolutionTime"
+- "deletePlanCreatedToResolverRequestTime"
+- "deletePlanId"
+- "deletePlannerGrainMetricsDimension"
+- "deletePlannerGrainStage"
+- "deletePlannerResponseTime"
+- "deletePlanningStep"
+- "deletePlanningTime"
+- "deleteRawSessionId"
+- "deleteRequestGrainMetricsDimension"
+- "deleteRequestStatus"
+- "deleteResolutionToResponseGeneratedTime"
+- "deleteResolverFirstSystemPromptToResolutionTime"
+- "deleteResolverRequestToResolutionTime"
+- "deleteResolverTotalClientActionTime"
+- "deleteResolverTotalQueryTime"
+- "deleteResponsePreparationTime"
+- "deleteSagePnR"
+- "deleteSagePnRMetadata"
+- "deleteSessionId"
+- "deleteStartTimestamp"
+- "deleteStartTimestampEventName"
+- "deleteStartToActionResolverRequestTime"
+- "deleteStartToContextRetrievedTime"
+- "deleteStartToEntitySpanMatchedTime"
+- "deleteStartToLastQueryDecorationEventTime"
+- "deleteStartToLastResolverEventTime"
+- "deleteStartToPlanCreatedTime"
+- "deleteStartToToolsRetrievedTime"
+- "deleteToolId"
+- "deleteUnderUnderlyingError"
+- "deleteUnderlyingError"
+- "dictionaryRepresentation"
+- "doubleValue"
+- "emitMessage:"
+- "endEventFilter"
+- "endTimestamp"
+- "endTimestampEventName"
+- "errorCode"
+- "errorDomain"
+- "executionGrainDimensions"
+- "executionTime"
+- "executionTime_count"
+- "failureInfo"
+- "failureSubSubType"
+- "failureSubType"
+- "failureType"
+- "formattedJsonBody"
+- "foundEvent"
+- "fullQueryResponseTime"
+- "getAnyEventType"
+- "getTypeId"
+- "getVersion"
+- "hasActionResolverRequestToLastResolverEventTime"
+- "hasClientId"
+- "hasClientRequestId"
+- "hasClientSessionId"
+- "hasEndTimestamp"
+- "hasEndTimestampEventName"
+- "hasError"
+- "hasErrorCode"
+- "hasErrorDomain"
+- "hasExecutionTime"
+- "hasFailureInfo"
+- "hasFailureSubType"
+- "hasFailureType"
+- "hasFullQueryResponseTime"
+- "hasLastQueryDecorationEventToPlanCreatedTime"
+- "hasLastResolverEventToResponseGeneratedTime"
+- "hasMetricsValue"
+- "hasNumActionResolverRequests"
+- "hasNumActionResponseGenerated"
+- "hasNumActionsCreated"
+- "hasNumActionsExecuted"
+- "hasNumClientActionCreated"
+- "hasNumCriticalErrors"
+- "hasNumPlansCreated"
+- "hasNumQueries"
+- "hasNumQueriesCreated"
+- "hasNumQueriesExecuted"
+- "hasNumQueryPlansCreated"
+- "hasNumResponsePlansCreated"
+- "hasNumStatementEvaluatedFromPlanner"
+- "hasNumSystemPromptResolved"
+- "hasPlanCreatedToActionResolverRequestTime"
+- "hasPlanCreatedToLastResolverEventTime"
+- "hasPlanCreatedToResolutionTime"
+- "hasPlanCreatedToResolverRequestTime"
+- "hasPlannerGrainMetricsDimension"
+- "hasPlannerGrainStage"
+- "hasPlannerResponseTime"
+- "hasPlanningStep"
+- "hasPlanningTime"
+- "hasRawSessionId"
+- "hasRequestGrainMetricsDimension"
+- "hasRequestStatus"
+- "hasResolutionToResponseGeneratedTime"
+- "hasResolverFirstSystemPromptToResolutionTime"
+- "hasResolverRequestToResolutionTime"
+- "hasResolverTotalClientActionTime"
+- "hasResolverTotalQueryTime"
+- "hasResponsePreparationTime"
+- "hasSagePnR"
+- "hasSagePnRMetadata"
+- "hasSessionId"
+- "hasStartTimestamp"
+- "hasStartTimestampEventName"
+- "hasStartToActionResolverRequestTime"
+- "hasStartToContextRetrievedTime"
+- "hasStartToEntitySpanMatchedTime"
+- "hasStartToLastQueryDecorationEventTime"
+- "hasStartToLastResolverEventTime"
+- "hasStartToPlanCreatedTime"
+- "hasStartToToolsRetrievedTime"
+- "hasUnderUnderlyingError"
+- "hasUnderlyingError"
+- "i"
+- "i16@0:8"
+- "ifSumExecutorProtocolAcceptActionCancelledTime"
+- "ifSumExecutorProtocolAcceptActionCreatedTime"
+- "ifSumExecutorProtocolAcceptQueriesCreatedTime"
+- "ifSumExecutorProtocolAcceptTypeConversionRequestTime"
+- "ifSumExecutorProtocolAcceptUndoRedoRequestTime"
+- "ifSumFullPlannerServiceGMSCallTime"
+- "ifSumFullPlannerServiceHandleTime"
+- "ifSumFullPlannerServiceSetupTime"
+- "ifSumPlanOverridesServiceHandleTime"
+- "ifSumPlanOverridesServiceSetupTime"
+- "ifSumPlanResolverServiceHandleTime"
+- "ifSumPlanResolverServiceSetupTime"
+- "ifSumQueryDecorationServiceHandleTime"
+- "ifSumQueryDecorationServiceSetupTime"
+- "ifSumResponseGenerationServiceHandleTime"
+- "ifSumResponseGenerationServiceSetupTime"
+- "ifSumStandardPlannerMakePlanTime"
+- "ifSumStandardPlannerRunTime"
+- "ifSumStandardPlannerSetupTime"
+- "initWithDictionary:"
+- "initWithDouble:"
+- "initWithInteger:"
+- "initWithJSON:"
+- "initWithLongLong:"
+- "intValue"
+- "intermediate"
+- "isProvisional"
+- "isValidJSONObject:"
+- "jsonData"
+- "lastQueryDecorationEventToPlanCreatedTime"
+- "lastResolverEventToResponseGeneratedTime"
+- "longLongValue"
+- "map"
+- "metricsValue"
+- "numActionCreated"
+- "numActionResolverRequest"
+- "numActionResolverRequests"
+- "numActionResponseGenerated"
+- "numActionsCreated"
+- "numActionsExecuted"
+- "numClientActionCreated"
+- "numCriticalError"
+- "numCriticalErrors"
+- "numFailed"
+- "numPlanCreated"
+- "numPlanCreatedForResponse"
+- "numPlansCreated"
+- "numQueries"
+- "numQueriesCreated"
+- "numQueriesExecuted"
+- "numQueryPlansCreated"
+- "numRequest"
+- "numResponseGenerationRequest"
+- "numResponsePlansCreated"
+- "numStatementEvaluated"
+- "numStatementEvaluatedFromPlanner"
+- "numStatementEvaulated"
+- "numSystemPromptResolved"
+- "numSystemResponseGenerated"
+- "numberWithDouble:"
+- "numberWithInt:"
+- "numberWithLongLong:"
+- "objectAtIndexedSubscript:"
+- "objectForKeyedSubscript:"
+- "planCreatedToActionResolverRequestTime"
+- "planCreatedToLastResolverEventTime"
+- "planCreatedToResolutionTime"
+- "planCreatedToResolverRequestTime"
+- "planId"
+- "planIdAtIndex:"
+- "planIdCount"
+- "planIds"
+- "plannerGrainDimensions"
+- "plannerGrainMetricsDimension"
+- "plannerGrainStage"
+- "plannerResponseTime"
+- "planningStep"
+- "planningTime"
+- "planningTime_count"
+- "q"
+- "q16@0:8"
+- "qualifiedMessageName"
+- "queryTime"
+- "readFrom:"
+- "removeAllObjects"
+- "requestAction"
+- "requestDisambiguation"
+- "requestGrainDimensions"
+- "requestGrainMetricsDimension"
+- "requestResponseTime"
+- "requestResponseTime_count"
+- "requestStatus"
+- "resolutionToResponseGeneratedTime"
+- "resolverFirstSystemPromptToResolutionTime"
+- "resolverRequestToResolutionTime"
+- "resolverTotalClientActionTime"
+- "resolverTotalQueryTime"
+- "responsePreparationTime"
+- "responsePreparationTime_count"
+- "sagePnR"
+- "sagePnRMetadata"
+- "setActionIds:"
+- "setActionResolverRequestToLastResolverEventTime:"
+- "setBundleIds:"
+- "setClientId:"
+- "setClientRequestId:"
+- "setClientSessionId:"
+- "setEndTimestamp:"
+- "setEndTimestampEventName:"
+- "setErrorCode:"
+- "setErrorDomain:"
+- "setExecutionTime:"
+- "setFailureInfo:"
+- "setFailureSubType:"
+- "setFailureType:"
+- "setFullQueryResponseTime:"
+- "setHasActionResolverRequestToLastResolverEventTime:"
+- "setHasClientId:"
+- "setHasClientRequestId:"
+- "setHasClientSessionId:"
+- "setHasEndTimestamp:"
+- "setHasEndTimestampEventName:"
+- "setHasError:"
+- "setHasErrorCode:"
+- "setHasErrorDomain:"
+- "setHasExecutionTime:"
+- "setHasFailureInfo:"
+- "setHasFailureSubType:"
+- "setHasFailureType:"
+- "setHasFullQueryResponseTime:"
+- "setHasLastQueryDecorationEventToPlanCreatedTime:"
+- "setHasLastResolverEventToResponseGeneratedTime:"
+- "setHasMetricsValue:"
+- "setHasNumActionResolverRequests:"
+- "setHasNumActionResponseGenerated:"
+- "setHasNumActionsCreated:"
+- "setHasNumActionsExecuted:"
+- "setHasNumClientActionCreated:"
+- "setHasNumCriticalErrors:"
+- "setHasNumPlansCreated:"
+- "setHasNumQueries:"
+- "setHasNumQueriesCreated:"
+- "setHasNumQueriesExecuted:"
+- "setHasNumQueryPlansCreated:"
+- "setHasNumResponsePlansCreated:"
+- "setHasNumStatementEvaluatedFromPlanner:"
+- "setHasNumSystemPromptResolved:"
+- "setHasPlanCreatedToActionResolverRequestTime:"
+- "setHasPlanCreatedToLastResolverEventTime:"
+- "setHasPlanCreatedToResolutionTime:"
+- "setHasPlanCreatedToResolverRequestTime:"
+- "setHasPlannerGrainMetricsDimension:"
+- "setHasPlannerGrainStage:"
+- "setHasPlannerResponseTime:"
+- "setHasPlanningStep:"
+- "setHasPlanningTime:"
+- "setHasRawSessionId:"
+- "setHasRequestGrainMetricsDimension:"
+- "setHasRequestStatus:"
+- "setHasResolutionToResponseGeneratedTime:"
+- "setHasResolverFirstSystemPromptToResolutionTime:"
+- "setHasResolverRequestToResolutionTime:"
+- "setHasResolverTotalClientActionTime:"
+- "setHasResolverTotalQueryTime:"
+- "setHasResponsePreparationTime:"
+- "setHasSagePnR:"
+- "setHasSagePnRMetadata:"
+- "setHasSessionId:"
+- "setHasStartTimestamp:"
+- "setHasStartTimestampEventName:"
+- "setHasStartToActionResolverRequestTime:"
+- "setHasStartToContextRetrievedTime:"
+- "setHasStartToEntitySpanMatchedTime:"
+- "setHasStartToLastQueryDecorationEventTime:"
+- "setHasStartToLastResolverEventTime:"
+- "setHasStartToPlanCreatedTime:"
+- "setHasStartToToolsRetrievedTime:"
+- "setHasUnderUnderlyingError:"
+- "setHasUnderlyingError:"
+- "setLastQueryDecorationEventToPlanCreatedTime:"
+- "setLastResolverEventToResponseGeneratedTime:"
+- "setMetricsValue:"
+- "setNumActionResolverRequests:"
+- "setNumActionResponseGenerated:"
+- "setNumActionsCreated:"
+- "setNumActionsExecuted:"
+- "setNumClientActionCreated:"
+- "setNumCriticalErrors:"
+- "setNumPlansCreated:"
+- "setNumQueries:"
+- "setNumQueriesCreated:"
+- "setNumQueriesExecuted:"
+- "setNumQueryPlansCreated:"
+- "setNumResponsePlansCreated:"
+- "setNumStatementEvaluatedFromPlanner:"
+- "setNumSystemPromptResolved:"
+- "setObject:forKeyedSubscript:"
+- "setPlanCreatedToActionResolverRequestTime:"
+- "setPlanCreatedToLastResolverEventTime:"
+- "setPlanCreatedToResolutionTime:"
+- "setPlanCreatedToResolverRequestTime:"
+- "setPlanIds:"
+- "setPlannerGrainMetricsDimension:"
+- "setPlannerGrainStage:"
+- "setPlannerResponseTime:"
+- "setPlanningStep:"
+- "setPlanningTime:"
+- "setRawSessionId:"
+- "setRequestGrainMetricsDimension:"
+- "setRequestStatus:"
+- "setResolutionToResponseGeneratedTime:"
+- "setResolverFirstSystemPromptToResolutionTime:"
+- "setResolverRequestToResolutionTime:"
+- "setResolverTotalClientActionTime:"
+- "setResolverTotalQueryTime:"
+- "setResponsePreparationTime:"
+- "setSagePnR:"
+- "setSagePnRMetadata:"
+- "setSessionId:"
+- "setStartTimestamp:"
+- "setStartTimestampEventName:"
+- "setStartToActionResolverRequestTime:"
+- "setStartToContextRetrievedTime:"
+- "setStartToEntitySpanMatchedTime:"
+- "setStartToLastQueryDecorationEventTime:"
+- "setStartToLastResolverEventTime:"
+- "setStartToPlanCreatedTime:"
+- "setStartToToolsRetrievedTime:"
+- "setUnderUnderlyingError:"
+- "setUnderlyingError:"
+- "sharedStream"
+- "spanIds"
+- "spanIntervals"
+- "spanfailureInfo"
+- "startTimestamp"
+- "startTimestampEventName"
+- "startToActionResolverRequestTime"
+- "startToContextRetrievedTime"
+- "startToEntitySpanMatchedTime"
+- "startToLastQueryDecorationEventTime"
+- "startToLastResolverEventTime"
+- "startToPlanCreatedTime"
+- "startToToolsRetrievedTime"
+- "systemPromptResolvedAction"
+- "targetEventTypes"
+- "targetWithFailure: "
+- "targetsAdded"
+- "toolBundleId"
+- "toolIdAtIndex:"
+- "toolIdCount"
+- "transcriptIFError"
+- "underUnderlyingError"
+- "underlyingError"
+- "uploadProvisionalPnRLatency failed due to createSELFEvent is nil."
+- "v16@0:8"
+- "v20@0:8B16"
+- "v20@0:8i16"
+- "v24@0:8@16"
+- "v24@0:8d16"
+- "v24@0:8q16"
+- "whichEventtype"
+- "willProduceDictionaryRepresentation:"
+- "writeTo:"
+- "{?=\"errorCode\"b1}"
+- "{?=\"metricsValue\"b1\"startTimestamp\"b1\"endTimestamp\"b1}"
+- "{?=\"numQueries\"b1\"numPlansCreated\"b1\"numQueryPlansCreated\"b1\"numResponsePlansCreated\"b1\"numActionsCreated\"b1\"numActionsExecuted\"b1\"numActionResponseGenerated\"b1}"
+- "{?=\"numQueriesCreated\"b1\"numQueriesExecuted\"b1\"numClientActionCreated\"b1\"numSystemPromptResolved\"b1\"numPlansCreated\"b1\"numActionResolverRequests\"b1\"numStatementEvaluatedFromPlanner\"b1\"numCriticalErrors\"b1}"
+
+```

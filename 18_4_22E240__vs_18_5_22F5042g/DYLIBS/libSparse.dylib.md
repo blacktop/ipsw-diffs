@@ -1,0 +1,424 @@
+## libSparse.dylib
+
+> `/System/Library/Frameworks/Accelerate.framework/Frameworks/vecLib.framework/libSparse.dylib`
+
+```diff
+
+-127.0.0.0.0
+-  __TEXT.__text: 0x59690
+-  __TEXT.__auth_stubs: 0x510
+-  __TEXT.__const: 0x308
+-  __TEXT.__cstring: 0x2e14
+-  __TEXT.__oslogstring: 0x1359
+-  __TEXT.__unwind_info: 0x758
+-  __TEXT.__eh_frame: 0x238
+-  __DATA_CONST.__got: 0x20
+-  __DATA_CONST.__const: 0x4a0
+-  __AUTH_CONST.__auth_got: 0x288
+-  __AUTH_CONST.__auth_ptr: 0x28
+-  __AUTH_CONST.__const: 0x30
++127.120.4.0.1
++  __TEXT.__text: 0xefa1c
++  __TEXT.__auth_stubs: 0x9d0
++  __TEXT.__const: 0x548
++  __TEXT.__cstring: 0x33fb
++  __TEXT.__oslogstring: 0x1890
++  __TEXT.__gcc_except_tab: 0xc0c
++  __TEXT.__unwind_info: 0xfa8
++  __TEXT.__eh_frame: 0x868
++  __DATA_CONST.__got: 0x60
++  __DATA_CONST.__const: 0x8c0
++  __AUTH_CONST.__auth_got: 0x4f0
++  __AUTH_CONST.__auth_ptr: 0x48
++  __AUTH_CONST.__const: 0x90
+   __AUTH.__thread_vars: 0x78
+   __AUTH.__thread_data: 0x4
+   __AUTH.__thread_bss: 0x6808
+
+   - /System/Library/Frameworks/Accelerate.framework/Frameworks/vecLib.framework/libLAPACK.dylib
+   - /System/Library/Frameworks/Accelerate.framework/Frameworks/vecLib.framework/libSparseBLAS.dylib
+   - /usr/lib/libSystem.B.dylib
+-  Functions: 696
+-  Symbols:   300
+-  CStrings:  441
++  - /usr/lib/libc++.1.dylib
++  Functions: 1296
++  Symbols:   616
++  CStrings:  488
+ 
+Symbols:
++ _SparseRankTwoInitialSparseFactor
++ _SparseRankTwoUpdateSparseCleanup
++ _SparseRankTwoUpdateSparseFactor
++ _SparseRankTwoUpdateSparseSolve
++ __SparseCGIterate_Complex_Double
++ __SparseCGIterate_Complex_Float
++ __SparseCGSolve_Complex_Double
++ __SparseCGSolve_Complex_Float
++ __SparseConvertFromCoordinate_Complex_Double
++ __SparseConvertFromCoordinate_Complex_Float
++ __SparseConvertFromOpaque_Complex_Double
++ __SparseConvertFromOpaque_Complex_Float
++ __SparseCreatePreconditioner_Complex_Double
++ __SparseCreatePreconditioner_Complex_Float
++ __SparseDestroyOpaqueNumeric_Complex_Double
++ __SparseDestroyOpaqueNumeric_Complex_Float
++ __SparseFactorHermitian_Complex_Double
++ __SparseFactorHermitian_Complex_Float
++ __SparseFactorLU_Complex_Double
++ __SparseFactorLU_Complex_Float
++ __SparseFactorLU_Double
++ __SparseFactorLU_Float
++ __SparseFactorQR_Complex_Double
++ __SparseFactorQR_Complex_Float
++ __SparseFromAttributeComplex
++ __SparseFromKindComplex
++ __SparseFromStructureComplex
++ __SparseGMRESIterate_Complex_Double
++ __SparseGMRESIterate_Complex_Float
++ __SparseGMRESSolve_Complex_Double
++ __SparseGMRESSolve_Complex_Float
++ __SparseGetIterativeStateSize_Complex_Double
++ __SparseGetIterativeStateSize_Complex_Float
++ __SparseGetOptionsFromNumericFactor_Complex_Double
++ __SparseGetOptionsFromNumericFactor_Complex_Float
++ __SparseGetWorkspaceRequired_Complex_Double
++ __SparseGetWorkspaceRequired_Complex_Float
++ __SparseLSMRIterate_Complex_Double
++ __SparseLSMRIterate_Complex_Float
++ __SparseLSMRSolve_Complex_Double
++ __SparseLSMRSolve_Complex_Float
++ __SparseMultiplySubfactor_Complex_Double
++ __SparseMultiplySubfactor_Complex_Float
++ __SparseNumericFactorHermitian_Complex_Double
++ __SparseNumericFactorHermitian_Complex_Float
++ __SparseNumericFactorLU_Complex_Double
++ __SparseNumericFactorLU_Complex_Float
++ __SparseNumericFactorLU_Double
++ __SparseNumericFactorLU_Float
++ __SparseNumericFactorQR_Complex_Double
++ __SparseNumericFactorQR_Complex_Float
++ __SparseRefactorHermitian_Complex_Double
++ __SparseRefactorHermitian_Complex_Float
++ __SparseRefactorLU_Complex_Double
++ __SparseRefactorLU_Complex_Float
++ __SparseRefactorLU_Double
++ __SparseRefactorLU_Float
++ __SparseRefactorQR_Complex_Double
++ __SparseRefactorQR_Complex_Float
++ __SparseReleaseOpaquePreconditioner_Complex_Double
++ __SparseReleaseOpaquePreconditioner_Complex_Float
++ __SparseRetainNumeric_Complex_Double
++ __SparseRetainNumeric_Complex_Float
++ __SparseSolveOpaque_Complex_Double
++ __SparseSolveOpaque_Complex_Float
++ __SparseSolveSubfactor_Complex_Double
++ __SparseSolveSubfactor_Complex_Float
++ __SparseSpMV_Complex_Double
++ __SparseSpMV_Complex_Float
++ __SparseSymbolicFactorLU
++ __SparseToAttributeComplex
++ __SparseToKindComplex
++ __SparseToStructureComplex
++ __SparseUpdatePartialRefactorLU_Complex_Double
++ __SparseUpdatePartialRefactorLU_Complex_Float
++ __SparseUpdatePartialRefactorLU_Double
++ __SparseUpdatePartialRefactorLU_Float
++ __Unwind_Resume
++ __Z11SparseSolve21SparseIterativeMethod26SparseMatrix_Complex_Float25DenseMatrix_Complex_FloatS1_
++ __Z11SparseSolve21SparseIterativeMethod26SparseMatrix_Complex_Float25DenseMatrix_Complex_FloatS1_40SparseOpaquePreconditioner_Complex_Float
++ __Z11SparseSolve21SparseIterativeMethod26SparseMatrix_Complex_Float25DenseMatrix_Complex_FloatS1_i
++ __Z11SparseSolve21SparseIterativeMethod26SparseMatrix_Complex_Float25DenseVector_Complex_FloatS1_
++ __Z11SparseSolve21SparseIterativeMethod26SparseMatrix_Complex_Float25DenseVector_Complex_FloatS1_40SparseOpaquePreconditioner_Complex_Float
++ __Z11SparseSolve21SparseIterativeMethod26SparseMatrix_Complex_Float25DenseVector_Complex_FloatS1_i
++ __Z11SparseSolve21SparseIterativeMethod27SparseMatrix_Complex_Double26DenseMatrix_Complex_DoubleS1_
++ __Z11SparseSolve21SparseIterativeMethod27SparseMatrix_Complex_Double26DenseMatrix_Complex_DoubleS1_41SparseOpaquePreconditioner_Complex_Double
++ __Z11SparseSolve21SparseIterativeMethod27SparseMatrix_Complex_Double26DenseMatrix_Complex_DoubleS1_i
++ __Z11SparseSolve21SparseIterativeMethod27SparseMatrix_Complex_Double26DenseVector_Complex_DoubleS1_
++ __Z11SparseSolve21SparseIterativeMethod27SparseMatrix_Complex_Double26DenseVector_Complex_DoubleS1_41SparseOpaquePreconditioner_Complex_Double
++ __Z11SparseSolve21SparseIterativeMethod27SparseMatrix_Complex_Double26DenseVector_Complex_DoubleS1_i
++ __Z11SparseSolve21SparseIterativeMethodU13block_pointerFvb15CBLAS_TRANSPOSE25DenseMatrix_Complex_FloatS1_ES1_S1_
++ __Z11SparseSolve21SparseIterativeMethodU13block_pointerFvb15CBLAS_TRANSPOSE25DenseMatrix_Complex_FloatS1_ES1_S1_40SparseOpaquePreconditioner_Complex_Float
++ __Z11SparseSolve21SparseIterativeMethodU13block_pointerFvb15CBLAS_TRANSPOSE25DenseVector_Complex_FloatS1_ES1_S1_
++ __Z11SparseSolve21SparseIterativeMethodU13block_pointerFvb15CBLAS_TRANSPOSE25DenseVector_Complex_FloatS1_ES1_S1_40SparseOpaquePreconditioner_Complex_Float
++ __Z11SparseSolve21SparseIterativeMethodU13block_pointerFvb15CBLAS_TRANSPOSE26DenseMatrix_Complex_DoubleS1_ES1_S1_
++ __Z11SparseSolve21SparseIterativeMethodU13block_pointerFvb15CBLAS_TRANSPOSE26DenseMatrix_Complex_DoubleS1_ES1_S1_41SparseOpaquePreconditioner_Complex_Double
++ __Z11SparseSolve21SparseIterativeMethodU13block_pointerFvb15CBLAS_TRANSPOSE26DenseVector_Complex_DoubleS1_ES1_S1_
++ __Z11SparseSolve21SparseIterativeMethodU13block_pointerFvb15CBLAS_TRANSPOSE26DenseVector_Complex_DoubleS1_ES1_S1_41SparseOpaquePreconditioner_Complex_Double
++ __Z11SparseSolve35SparseOpaqueSubfactor_Complex_Float25DenseMatrix_Complex_Float
++ __Z11SparseSolve35SparseOpaqueSubfactor_Complex_Float25DenseMatrix_Complex_FloatPv
++ __Z11SparseSolve35SparseOpaqueSubfactor_Complex_Float25DenseMatrix_Complex_FloatS0_
++ __Z11SparseSolve35SparseOpaqueSubfactor_Complex_Float25DenseMatrix_Complex_FloatS0_Pv
++ __Z11SparseSolve35SparseOpaqueSubfactor_Complex_Float25DenseVector_Complex_Float
++ __Z11SparseSolve35SparseOpaqueSubfactor_Complex_Float25DenseVector_Complex_FloatPv
++ __Z11SparseSolve35SparseOpaqueSubfactor_Complex_Float25DenseVector_Complex_FloatS0_
++ __Z11SparseSolve35SparseOpaqueSubfactor_Complex_Float25DenseVector_Complex_FloatS0_Pv
++ __Z11SparseSolve36SparseOpaqueSubfactor_Complex_Double26DenseMatrix_Complex_Double
++ __Z11SparseSolve36SparseOpaqueSubfactor_Complex_Double26DenseMatrix_Complex_DoublePv
++ __Z11SparseSolve36SparseOpaqueSubfactor_Complex_Double26DenseMatrix_Complex_DoubleS0_
++ __Z11SparseSolve36SparseOpaqueSubfactor_Complex_Double26DenseMatrix_Complex_DoubleS0_Pv
++ __Z11SparseSolve36SparseOpaqueSubfactor_Complex_Double26DenseVector_Complex_Double
++ __Z11SparseSolve36SparseOpaqueSubfactor_Complex_Double26DenseVector_Complex_DoublePv
++ __Z11SparseSolve36SparseOpaqueSubfactor_Complex_Double26DenseVector_Complex_DoubleS0_
++ __Z11SparseSolve36SparseOpaqueSubfactor_Complex_Double26DenseVector_Complex_DoubleS0_Pv
++ __Z11SparseSolve39SparseOpaqueFactorization_Complex_Float25DenseMatrix_Complex_Float
++ __Z11SparseSolve39SparseOpaqueFactorization_Complex_Float25DenseMatrix_Complex_FloatPv
++ __Z11SparseSolve39SparseOpaqueFactorization_Complex_Float25DenseMatrix_Complex_FloatS0_
++ __Z11SparseSolve39SparseOpaqueFactorization_Complex_Float25DenseMatrix_Complex_FloatS0_Pv
++ __Z11SparseSolve39SparseOpaqueFactorization_Complex_Float25DenseVector_Complex_Float
++ __Z11SparseSolve39SparseOpaqueFactorization_Complex_Float25DenseVector_Complex_FloatPv
++ __Z11SparseSolve39SparseOpaqueFactorization_Complex_Float25DenseVector_Complex_FloatS0_
++ __Z11SparseSolve39SparseOpaqueFactorization_Complex_Float25DenseVector_Complex_FloatS0_Pv
++ __Z11SparseSolve40SparseOpaqueFactorization_Complex_Double26DenseMatrix_Complex_Double
++ __Z11SparseSolve40SparseOpaqueFactorization_Complex_Double26DenseMatrix_Complex_DoublePv
++ __Z11SparseSolve40SparseOpaqueFactorization_Complex_Double26DenseMatrix_Complex_DoubleS0_
++ __Z11SparseSolve40SparseOpaqueFactorization_Complex_Double26DenseMatrix_Complex_DoubleS0_Pv
++ __Z11SparseSolve40SparseOpaqueFactorization_Complex_Double26DenseVector_Complex_Double
++ __Z11SparseSolve40SparseOpaqueFactorization_Complex_Double26DenseVector_Complex_DoublePv
++ __Z11SparseSolve40SparseOpaqueFactorization_Complex_Double26DenseVector_Complex_DoubleS0_
++ __Z11SparseSolve40SparseOpaqueFactorization_Complex_Double26DenseVector_Complex_DoubleS0_Pv
++ __Z12SparseFactor33SparseOpaqueSymbolicFactorization26SparseMatrix_Complex_Float
++ __Z12SparseFactor33SparseOpaqueSymbolicFactorization26SparseMatrix_Complex_Float26SparseNumericFactorOptions
++ __Z12SparseFactor33SparseOpaqueSymbolicFactorization26SparseMatrix_Complex_Float26SparseNumericFactorOptionsPvS2_
++ __Z12SparseFactor33SparseOpaqueSymbolicFactorization27SparseMatrix_Complex_Double
++ __Z12SparseFactor33SparseOpaqueSymbolicFactorization27SparseMatrix_Complex_Double26SparseNumericFactorOptions
++ __Z12SparseFactor33SparseOpaqueSymbolicFactorization27SparseMatrix_Complex_Double26SparseNumericFactorOptionsPvS2_
++ __Z12SparseFactorh26SparseMatrix_Complex_Float
++ __Z12SparseFactorh26SparseMatrix_Complex_Float27SparseSymbolicFactorOptions26SparseNumericFactorOptions
++ __Z12SparseFactorh27SparseMatrix_Complex_Double
++ __Z12SparseFactorh27SparseMatrix_Complex_Double27SparseSymbolicFactorOptions26SparseNumericFactorOptions
++ __Z12SparseFactorh28SparseMatrixStructureComplex
++ __Z12SparseFactorh28SparseMatrixStructureComplex27SparseSymbolicFactorOptions
++ __Z12SparseRetain35SparseOpaqueSubfactor_Complex_Float
++ __Z12SparseRetain36SparseOpaqueSubfactor_Complex_Double
++ __Z12SparseRetain39SparseOpaqueFactorization_Complex_Float
++ __Z12SparseRetain40SparseOpaqueFactorization_Complex_Double
++ __Z13SparseCleanup26SparseMatrix_Complex_Float
++ __Z13SparseCleanup27SparseMatrix_Complex_Double
++ __Z13SparseCleanup35SparseOpaqueSubfactor_Complex_Float
++ __Z13SparseCleanup36SparseOpaqueSubfactor_Complex_Double
++ __Z13SparseCleanup39SparseOpaqueFactorization_Complex_Float
++ __Z13SparseCleanup40SparseOpaqueFactorization_Complex_Double
++ __Z13SparseCleanup40SparseOpaquePreconditioner_Complex_Float
++ __Z13SparseCleanup41SparseOpaquePreconditioner_Complex_Double
++ __Z13SparseIterate21SparseIterativeMethodiPKbPvU13block_pointerFvb15CBLAS_TRANSPOSE25DenseMatrix_Complex_FloatS4_ES4_S4_S4_
++ __Z13SparseIterate21SparseIterativeMethodiPKbPvU13block_pointerFvb15CBLAS_TRANSPOSE25DenseMatrix_Complex_FloatS4_ES4_S4_S4_40SparseOpaquePreconditioner_Complex_Float
++ __Z13SparseIterate21SparseIterativeMethodiPKbPvU13block_pointerFvb15CBLAS_TRANSPOSE26DenseMatrix_Complex_DoubleS4_ES4_S4_S4_
++ __Z13SparseIterate21SparseIterativeMethodiPKbPvU13block_pointerFvb15CBLAS_TRANSPOSE26DenseMatrix_Complex_DoubleS4_ES4_S4_S4_41SparseOpaquePreconditioner_Complex_Double
++ __Z14SparseMultiply26SparseMatrix_Complex_Float25DenseMatrix_Complex_FloatS0_
++ __Z14SparseMultiply26SparseMatrix_Complex_Float25DenseVector_Complex_FloatS0_
++ __Z14SparseMultiply27SparseMatrix_Complex_Double26DenseMatrix_Complex_DoubleS0_
++ __Z14SparseMultiply27SparseMatrix_Complex_Double26DenseVector_Complex_DoubleS0_
++ __Z14SparseMultiply35SparseOpaqueSubfactor_Complex_Float25DenseMatrix_Complex_Float
++ __Z14SparseMultiply35SparseOpaqueSubfactor_Complex_Float25DenseMatrix_Complex_FloatPv
++ __Z14SparseMultiply35SparseOpaqueSubfactor_Complex_Float25DenseMatrix_Complex_FloatS0_
++ __Z14SparseMultiply35SparseOpaqueSubfactor_Complex_Float25DenseMatrix_Complex_FloatS0_Pv
++ __Z14SparseMultiply35SparseOpaqueSubfactor_Complex_Float25DenseVector_Complex_Float
++ __Z14SparseMultiply35SparseOpaqueSubfactor_Complex_Float25DenseVector_Complex_FloatPv
++ __Z14SparseMultiply35SparseOpaqueSubfactor_Complex_Float25DenseVector_Complex_FloatS0_
++ __Z14SparseMultiply35SparseOpaqueSubfactor_Complex_Float25DenseVector_Complex_FloatS0_Pv
++ __Z14SparseMultiply36SparseOpaqueSubfactor_Complex_Double26DenseMatrix_Complex_Double
++ __Z14SparseMultiply36SparseOpaqueSubfactor_Complex_Double26DenseMatrix_Complex_DoublePv
++ __Z14SparseMultiply36SparseOpaqueSubfactor_Complex_Double26DenseMatrix_Complex_DoubleS0_
++ __Z14SparseMultiply36SparseOpaqueSubfactor_Complex_Double26DenseMatrix_Complex_DoubleS0_Pv
++ __Z14SparseMultiply36SparseOpaqueSubfactor_Complex_Double26DenseVector_Complex_Double
++ __Z14SparseMultiply36SparseOpaqueSubfactor_Complex_Double26DenseVector_Complex_DoublePv
++ __Z14SparseMultiply36SparseOpaqueSubfactor_Complex_Double26DenseVector_Complex_DoubleS0_
++ __Z14SparseMultiply36SparseOpaqueSubfactor_Complex_Double26DenseVector_Complex_DoubleS0_Pv
++ __Z14SparseMultiplyCd27SparseMatrix_Complex_Double26DenseMatrix_Complex_DoubleS1_
++ __Z14SparseMultiplyCd27SparseMatrix_Complex_Double26DenseVector_Complex_DoubleS1_
++ __Z14SparseMultiplyCf26SparseMatrix_Complex_Float25DenseMatrix_Complex_FloatS1_
++ __Z14SparseMultiplyCf26SparseMatrix_Complex_Float25DenseVector_Complex_FloatS1_
++ __Z14SparseRefactor26SparseMatrix_Complex_FloatP39SparseOpaqueFactorization_Complex_Float
++ __Z14SparseRefactor26SparseMatrix_Complex_FloatP39SparseOpaqueFactorization_Complex_Float26SparseNumericFactorOptions
++ __Z14SparseRefactor26SparseMatrix_Complex_FloatP39SparseOpaqueFactorization_Complex_Float26SparseNumericFactorOptionsPv
++ __Z14SparseRefactor26SparseMatrix_Complex_FloatP39SparseOpaqueFactorization_Complex_FloatPv
++ __Z14SparseRefactor27SparseMatrix_Complex_DoubleP40SparseOpaqueFactorization_Complex_Double
++ __Z14SparseRefactor27SparseMatrix_Complex_DoubleP40SparseOpaqueFactorization_Complex_Double26SparseNumericFactorOptions
++ __Z14SparseRefactor27SparseMatrix_Complex_DoubleP40SparseOpaqueFactorization_Complex_Double26SparseNumericFactorOptionsPv
++ __Z14SparseRefactor27SparseMatrix_Complex_DoubleP40SparseOpaqueFactorization_Complex_DoublePv
++ __Z16SparseGetInertia39SparseOpaqueFactorization_Complex_FloatPiS0_S0_
++ __Z16SparseGetInertia40SparseOpaqueFactorization_Complex_DoublePiS0_S0_
++ __Z17SparseMultiplyAdd26SparseMatrix_Complex_Float25DenseMatrix_Complex_FloatS0_
++ __Z17SparseMultiplyAdd26SparseMatrix_Complex_Float25DenseVector_Complex_FloatS0_
++ __Z17SparseMultiplyAdd27SparseMatrix_Complex_Double26DenseMatrix_Complex_DoubleS0_
++ __Z17SparseMultiplyAdd27SparseMatrix_Complex_Double26DenseVector_Complex_DoubleS0_
++ __Z17SparseMultiplyAddCd27SparseMatrix_Complex_Double26DenseMatrix_Complex_DoubleS1_
++ __Z17SparseMultiplyAddCd27SparseMatrix_Complex_Double26DenseVector_Complex_DoubleS1_
++ __Z17SparseMultiplyAddCf26SparseMatrix_Complex_Float25DenseMatrix_Complex_FloatS1_
++ __Z17SparseMultiplyAddCf26SparseMatrix_Complex_Float25DenseVector_Complex_FloatS1_
++ __Z17SparseWriteMatrixP7__sFILEjPKc26SparseMatrix_Complex_Float
++ __Z17SparseWriteMatrixP7__sFILEjPKc27SparseMatrix_Complex_Double
++ __Z18SparseGetTranspose26SparseMatrix_Complex_Float
++ __Z18SparseGetTranspose27SparseMatrix_Complex_Double
++ __Z18SparseGetTranspose35SparseOpaqueSubfactor_Complex_Float
++ __Z18SparseGetTranspose36SparseOpaqueSubfactor_Complex_Double
++ __Z18SparseGetTranspose39SparseOpaqueFactorization_Complex_Float
++ __Z18SparseGetTranspose40SparseOpaqueFactorization_Complex_Double
++ __Z18SparseUpdateFactorhP31SparseOpaqueFactorization_FloatiPKi18SparseMatrix_Float
++ __Z18SparseUpdateFactorhP32SparseOpaqueFactorization_DoubleiPKi19SparseMatrix_Double
++ __Z18SparseUpdateFactorhP39SparseOpaqueFactorization_Complex_FloatiPKi26SparseMatrix_Complex_Float
++ __Z18SparseUpdateFactorhP40SparseOpaqueFactorization_Complex_DoubleiPKi27SparseMatrix_Complex_Double
++ __Z21SparseCreateSubfactorh39SparseOpaqueFactorization_Complex_Float
++ __Z21SparseCreateSubfactorh40SparseOpaqueFactorization_Complex_Double
++ __Z23SparseConvertFromOpaqueP22sparse_m_float_complex
++ __Z23SparseConvertFromOpaqueP23sparse_m_double_complex
++ __Z26SparseCreatePreconditioneri26SparseMatrix_Complex_Float
++ __Z26SparseCreatePreconditioneri27SparseMatrix_Complex_Double
++ __Z27SparseConvertFromCoordinateiilh18SparseAttributes_tPKiS1_PKCd
++ __Z27SparseConvertFromCoordinateiilh18SparseAttributes_tPKiS1_PKCdPvS5_
++ __Z27SparseConvertFromCoordinateiilh18SparseAttributes_tPKiS1_PKCf
++ __Z27SparseConvertFromCoordinateiilh18SparseAttributes_tPKiS1_PKCfPvS5_
++ __Z27SparseGetConjugateTranspose26SparseMatrix_Complex_Float
++ __Z27SparseGetConjugateTranspose27SparseMatrix_Complex_Double
++ __Z27SparseGetConjugateTranspose35SparseOpaqueSubfactor_Complex_Float
++ __Z27SparseGetConjugateTranspose36SparseOpaqueSubfactor_Complex_Double
++ __Z27SparseGetConjugateTranspose39SparseOpaqueFactorization_Complex_Float
++ __Z27SparseGetConjugateTranspose40SparseOpaqueFactorization_Complex_Double
++ __Z30SparseReadMatrix_Complex_FloatP7__sFILEjmPc
++ __Z31SparseReadMatrix_Complex_DoubleP7__sFILEjmPc
++ __Z32SparseGetStateSize_Complex_Float21SparseIterativeMethodbiii
++ __Z33SparseGetStateSize_Complex_Double21SparseIterativeMethodbiii
++ __ZNSt11logic_errorC2EPKc
++ __ZNSt12length_errorD1Ev
++ __ZNSt20bad_array_new_lengthC1Ev
++ __ZNSt20bad_array_new_lengthD1Ev
++ __ZNSt3__120__libcpp_atomic_waitEPVKvx
++ __ZNSt3__123__cxx_atomic_notify_oneEPVKv
++ __ZNSt3__123__libcpp_atomic_monitorEPVKv
++ __ZNSt3__16__sortIRNS_6__lessIiiEEPiEEvT0_S5_T_
++ __ZNSt3__16chrono12steady_clock3nowEv
++ __ZNSt9bad_allocC1Ev
++ __ZNSt9bad_allocD1Ev
++ __ZSt9terminatev
++ __ZTISt12length_error
++ __ZTISt20bad_array_new_length
++ __ZTISt9bad_alloc
++ __ZTVSt12length_error
++ __ZdlPv
++ __Znwm
++ ___cxa_allocate_exception
++ ___cxa_begin_catch
++ ___cxa_free_exception
++ ___cxa_throw
++ ___gxx_personality_v0
++ ___invert_d2
++ ___muldc3
++ ___mulsc3
++ _cabs
++ _cabsf
++ _cblas_caxpy$NEWLAPACK
++ _cblas_cdotc_sub$NEWLAPACK
++ _cblas_cgemm$NEWLAPACK
++ _cblas_cgemv$NEWLAPACK
++ _cblas_cgeru$NEWLAPACK
++ _cblas_cherk$NEWLAPACK
++ _cblas_crotg$NEWLAPACK
++ _cblas_cscal$NEWLAPACK
++ _cblas_cswap$NEWLAPACK
++ _cblas_ctrmm$NEWLAPACK
++ _cblas_ctrsm$NEWLAPACK
++ _cblas_ctrsv$NEWLAPACK
++ _cblas_dger$NEWLAPACK
++ _cblas_dswap$NEWLAPACK
++ _cblas_dznrm2$NEWLAPACK
++ _cblas_scnrm2$NEWLAPACK
++ _cblas_sger$NEWLAPACK
++ _cblas_sswap$NEWLAPACK
++ _cblas_zaxpy$NEWLAPACK
++ _cblas_zdotc_sub$NEWLAPACK
++ _cblas_zgemm$NEWLAPACK
++ _cblas_zgemv$NEWLAPACK
++ _cblas_zgeru$NEWLAPACK
++ _cblas_zherk$NEWLAPACK
++ _cblas_zrotg$NEWLAPACK
++ _cblas_zscal$NEWLAPACK
++ _cblas_zswap$NEWLAPACK
++ _cblas_ztrmm$NEWLAPACK
++ _cblas_ztrsm$NEWLAPACK
++ _cblas_ztrsv$NEWLAPACK
++ _cgetrf$NEWLAPACK
++ _cgetrs$NEWLAPACK
++ _clarf$NEWLAPACK
++ _clarfb$NEWLAPACK
++ _clarfg$NEWLAPACK
++ _clarft$NEWLAPACK
++ _cpotf2$NEWLAPACK
++ _cunmlq$NEWLAPACK
++ _dgetrf$NEWLAPACK
++ _dgetrs$NEWLAPACK
++ _hypot
++ _hypotf
++ _malloc_type_calloc
++ _matrix_identity_double2x2
++ _memset_pattern4
++ _sched_yield
++ _sgetrf$NEWLAPACK
++ _sgetrs$NEWLAPACK
++ _zgetrf$NEWLAPACK
++ _zgetrs$NEWLAPACK
++ _zlarf$NEWLAPACK
++ _zlarfb$NEWLAPACK
++ _zlarfg$NEWLAPACK
++ _zlarft$NEWLAPACK
++ _zpotf2$NEWLAPACK
++ _zunmlq$NEWLAPACK
+CStrings:
++ " \t\n\r"
++ "%-72s%8s\n"
++ "%27.16e %27.16e"
++ "%6d%17.9e+%17.9ei%17.9e%10.2e%10.2e%10.2e\n"
++ "%6d%17.9e+%17.9ei%17.9e%10.2e%10.2e%10.2e%10.2e%10.2e\n"
++ "%s.attributes.kind=SparseHermitian, but %s.rowCount (%d) != %s.columnCount (%d).\n"
++ "After removing ignored rows and columns, resulting matrix is not square.\n"
++ "Allocation of size %zd failed in SparseFactorLU."
++ "Cannot conjugate transpose factor marked as transposed\n"
++ "Cannot conjugate transpose matrix marked as transposed\n"
++ "Cannot perform Hermitian matrix factorization of non-Hermitian matrix.\n"
++ "Cannot perform symmetric matrix factorization of non-symmetric matrix.\n"
++ "Cannot read complex-valued matrix into real-valued type.\n"
++ "Cannot transpose factor marked as conjugate transposed\n"
++ "Cannot transpose matrix marked as conjugate transposed\n"
++ "Conjugate-Transpose"
++ "Diagonal block inversion failed at (%d, %d)\n"
++ "Factorization->symbolicFactorization"
++ "Failed to allocate additional storage for delayed pivots\n"
++ "Hermitian matrices are not supported with real-valued type (did you mean Symmetric?)\n"
++ "LU factorization only supports matrices of kind SparseOrdinary.\n"
++ "Matrix is structurally singular."
++ "Matrix supposed to be symmetric (Hermitian), but rowCount != columnCount.\n"
++ "MatrixMarket Matrix"
++ "N"
++ "QR factorization can only factor matrix or its conjugate transpose\n"
++ "Requested symmetric factorization of non-symmetric (Hermitian) matrix.\n"
++ "Requested symmetric factorization of non-symmetric matrix.\n"
++ "Sparse LU factorization only supports square matrices, but supplied matrix without any ignored rows and columns has shape %dx%d.\n"
++ "SparseSubfactorQ only valid for QR or LU factorizations.\n"
++ "SparseUpdate is only supported on LU factorizations"
++ "Subfactor Type only valid for LDL^T or LU factorizations.\n"
++ "Symmetric matrices are not supported with complex-valued type (did you mean Hermitian?)\n"
++ "T"
++ "Unable to construct maximal transversal, matrix is structurally singular."
++ "Unsupported matrix type.\n"
++ "Update"
++ "User-supplied ordering does not place an entry on diagonal %d."
++ "complex"
++ "factor size calculation overflowed\n"
++ "options->ignoreRowsAndColumns is not supported for LU factorization with blockSize > 1.\n"
++ "v64@?0B8i12{?=iii{?=b1b1b3b1b9b1}^jd}16{?=iii{?=b1b1b3b1b9b1}^jd}40"
++ "v64@?0B8i12{?=iii{?=b1b1b3b1b9b1}^jf}16{?=iii{?=b1b1b3b1b9b1}^jf}40"
++ "vector"
+- " \t\n"
+- "%-.72s%8s\n"
+- "%6d%17.9e%17.9e%10.2e%10.2e%10.2e\n"
+- "%6d%17.9e%17.9e%10.2e%10.2e%10.2e%10.2e%10.2e\n"
+- "Cannot perform symmetric matrix factorization of non-square matrix.\n"
+- "Error, coordinate truncated mid-line.\n"
+- "Matrix is structurally singular\n"
+- "Matrix purports to be symmetric, but rowCount != columnCount.\n"
+- "Only real matrices are supported.\n"
+- "Requested symmetric factorization of unsymmetric matrix.\n"
+- "SparseSubfactorQ only valid for QR factorizations.\n"
+- "rsa"
+
+```

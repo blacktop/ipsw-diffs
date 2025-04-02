@@ -1,0 +1,238 @@
+## PhoneSnippetUI
+
+> `/System/Library/PrivateFrameworks/PhoneSnippetUI.framework/PhoneSnippetUI`
+
+```diff
+
+-3404.60.1.11.1
+-  __TEXT.__text: 0x7a404
+-  __TEXT.__auth_stubs: 0x2150
+-  __TEXT.__const: 0x5be6
+-  __TEXT.__cstring: 0xf65
+-  __TEXT.__swift5_typeref: 0x5ada
+-  __TEXT.__swift5_capture: 0x690
+-  __TEXT.__swift5_reflstr: 0x161c
+-  __TEXT.__swift5_assocty: 0x438
+-  __TEXT.__constg_swiftt: 0x1aa0
+-  __TEXT.__swift5_fieldmd: 0x1bb0
++3405.17.1.0.0
++  __TEXT.__text: 0x77c90
++  __TEXT.__auth_stubs: 0x20c0
++  __TEXT.__const: 0x5986
++  __TEXT.__cstring: 0xf45
++  __TEXT.__swift5_typeref: 0x5812
++  __TEXT.__swift5_capture: 0x5dc
++  __TEXT.__swift5_reflstr: 0x158c
++  __TEXT.__swift5_assocty: 0x420
++  __TEXT.__constg_swiftt: 0x1a2c
++  __TEXT.__swift5_fieldmd: 0x1ad8
+   __TEXT.__swift5_builtin: 0x28
+-  __TEXT.__oslogstring: 0xdc5
+-  __TEXT.__swift5_proto: 0x514
+-  __TEXT.__swift5_types: 0x1a4
++  __TEXT.__oslogstring: 0x1235
++  __TEXT.__swift5_proto: 0x4ec
++  __TEXT.__swift5_types: 0x198
+   __TEXT.__swift5_protos: 0x18
+   __TEXT.__swift5_mpenum: 0x14
+-  __TEXT.__unwind_info: 0x22e0
+-  __TEXT.__eh_frame: 0xe38
+-  __TEXT.__objc_methname: 0x19f
+-  __DATA_CONST.__got: 0x720
+-  __DATA_CONST.__const: 0x888
++  __TEXT.__unwind_info: 0x2200
++  __TEXT.__eh_frame: 0xde8
++  __TEXT.__objc_methname: 0x1b1
++  __DATA_CONST.__got: 0x710
++  __DATA_CONST.__const: 0x8a8
+   __DATA_CONST.__objc_classlist: 0x8
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0xd0
+-  __AUTH_CONST.__auth_got: 0x10a8
+-  __AUTH_CONST.__auth_ptr: 0xa20
+-  __AUTH_CONST.__const: 0x3600
+-  __AUTH_CONST.__objc_const: 0x350
++  __DATA_CONST.__objc_selrefs: 0xe0
++  __AUTH_CONST.__auth_got: 0x1060
++  __AUTH_CONST.__auth_ptr: 0x9f0
++  __AUTH_CONST.__const: 0x3420
++  __AUTH_CONST.__objc_const: 0x370
+   __AUTH.__objc_data: 0x50
+-  __AUTH.__data: 0x1a68
+-  __DATA.__data: 0x1fb0
+-  __DATA.__bss: 0xa210
+-  __DATA.__common: 0xe8
++  __AUTH.__data: 0x1980
++  __DATA.__data: 0x1eb8
++  __DATA.__bss: 0x9d10
++  __DATA.__common: 0xf0
+   - /System/Library/Frameworks/Combine.framework/Combine
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+
+   - /usr/lib/swift/libswiftsimd.dylib
+   - /usr/lib/swift/libswiftsys_time.dylib
+   - /usr/lib/swift/libswiftunistd.dylib
+-  Functions: 3253
+-  Symbols:   5344
+-  CStrings:  236
++  Functions: 3169
++  Symbols:   5218
++  CStrings:  254
+ 
+Symbols:
++ _$s10SnippetKit21UpdateResponseCommandP05PhoneA2UISeRzSERzrlE02ascE03forSo016SAUIUpdateVisualdA0CAD21ResultViewIDProviding_pXp_tKF
++ _$s14PhoneSnippetUI23EmergencyCountdownModelV22shouldPlayTTSCountdownSbvM
++ _$s14PhoneSnippetUI23EmergencyCountdownModelV22shouldPlayTTSCountdownSbvg
++ _$s14PhoneSnippetUI23EmergencyCountdownModelV22shouldPlayTTSCountdownSbvpMV
++ _$s14PhoneSnippetUI23EmergencyCountdownModelV22shouldPlayTTSCountdownSbvpfP
++ _$s14PhoneSnippetUI23EmergencyCountdownModelV22shouldPlayTTSCountdownSbvs
++ _$s14PhoneSnippetUI23EmergencyCountdownModelV9sashTitle16cancelButtonText09cancelledK004calljK012callingLabel017emergencyServicesO03sos6dialog0M6Action0iT016localeIdentifier22shouldPlayTTSCountdown14isSmartEnabled0Z12SAEAvailableACSS_S7SSo31SAIntentGroupRunSiriKitExecutorCASSSS3btcfC
++ _$s14PhoneSnippetUI27EmergencyCountdownViewModelC07startedE0SbvM
++ _$s14PhoneSnippetUI27EmergencyCountdownViewModelC07startedE0SbvMTq
++ _$s14PhoneSnippetUI27EmergencyCountdownViewModelC07startedE0Sbvg
++ _$s14PhoneSnippetUI27EmergencyCountdownViewModelC07startedE0SbvgTq
++ _$s14PhoneSnippetUI27EmergencyCountdownViewModelC07startedE0SbvpMV
++ _$s14PhoneSnippetUI27EmergencyCountdownViewModelC07startedE0SbvpWvd
++ _$s14PhoneSnippetUI27EmergencyCountdownViewModelC07startedE0Sbvpfi
++ _$s14PhoneSnippetUI27EmergencyCountdownViewModelC07startedE0Sbvs
++ _$s14PhoneSnippetUI27EmergencyCountdownViewModelC07startedE0SbvsTq
++ _$s14PhoneSnippetUI27EmergencyCountdownViewModelC10startTimer13actionHandlery0bC0014StandardActionK0VSg_tF
++ _$s14PhoneSnippetUI27EmergencyCountdownViewModelC10startTimer13actionHandlery0bC0014StandardActionK0VSg_tFTq
++ _$s14PhoneSnippetUI27EmergencyCountdownViewModelC19playTTSCounterValue13actionHandlery0bC0014StandardActionL0VSg_tF
++ _$s14PhoneSnippetUI27EmergencyCountdownViewModelC19playTTSCounterValue13actionHandlery0bC0014StandardActionL0VSg_tFTq
++ _$s14PhoneSnippetUI27EmergencyCountdownViewModelC24countdownCancelledByUserSbvM
++ _$s14PhoneSnippetUI27EmergencyCountdownViewModelC24countdownCancelledByUserSbvMTq
++ _$s14PhoneSnippetUI27EmergencyCountdownViewModelC24countdownCancelledByUserSbvg
++ _$s14PhoneSnippetUI27EmergencyCountdownViewModelC24countdownCancelledByUserSbvgTq
++ _$s14PhoneSnippetUI27EmergencyCountdownViewModelC24countdownCancelledByUserSbvpMV
++ _$s14PhoneSnippetUI27EmergencyCountdownViewModelC24countdownCancelledByUserSbvpfP
++ _$s14PhoneSnippetUI27EmergencyCountdownViewModelC24countdownCancelledByUserSbvs
++ _$s14PhoneSnippetUI27EmergencyCountdownViewModelC24countdownCancelledByUserSbvsTq
++ _$s14PhoneSnippetUI27EmergencyCountdownViewModelC25$countdownCancelledByUser7Combine9PublishedV9PublisherVySb_GvM
++ _$s14PhoneSnippetUI27EmergencyCountdownViewModelC25$countdownCancelledByUser7Combine9PublishedV9PublisherVySb_GvMTq
++ _$s14PhoneSnippetUI27EmergencyCountdownViewModelC25$countdownCancelledByUser7Combine9PublishedV9PublisherVySb_Gvg
++ _$s14PhoneSnippetUI27EmergencyCountdownViewModelC25$countdownCancelledByUser7Combine9PublishedV9PublisherVySb_GvgTq
++ _$s14PhoneSnippetUI27EmergencyCountdownViewModelC25$countdownCancelledByUser7Combine9PublishedV9PublisherVySb_GvpMV
++ _$s14PhoneSnippetUI27EmergencyCountdownViewModelC25$countdownCancelledByUser7Combine9PublishedV9PublisherVySb_Gvs
++ _$s14PhoneSnippetUI27EmergencyCountdownViewModelC25$countdownCancelledByUser7Combine9PublishedV9PublisherVySb_GvsTq
++ _$s14PhoneSnippetUI27EmergencyCountdownViewModelC25_countdownCancelledByUser33_C7669CA20219013364605B6C26FF3F9DLL7Combine9PublishedVySbGvpfi
++ _$s14PhoneSnippetUI37LocalEmergencyCallDisambiguationModelV11appBundleId6prompt5itemsACSS_SSSayAA0g24ItemWithDirectInvocationH0VGtcfC
++ _$sSD11descriptionSSvg
++ _OBJC_CLASS_$_SAUISayIt
+- _$s10SnippetKit12SashStandardV5TitleO27applicationBundleIdentifieryAESScAEmFWC
+- _$s10SnippetKit12SashStandardV5TitleOMa
+- _$s10SnippetKit12SashStandardV5title9thumbnail0E5Color010backgroundG06action13componentName11showOnWatchA2C5TitleO_AA14VisualPropertyVSgAA0G0VSgArA06ActionQ11Convertible_pSgSSSbtcfC
+- _$s10SnippetKit12SashStandardVMa
+- _$s10SnippetKit14VisualPropertyVMa
+- _$s10SnippetKit14VisualPropertyVMn
+- _$s10SnippetKit5ColorVMa
+- _$s10SnippetKit5ColorVMn
+- _$s14PhoneSnippetUI23ContactConfirmationViewV05SwiftC00F0AAMc
+- _$s14PhoneSnippetUI23ContactConfirmationViewV05yesNoE5ModelAA03YesheI0Vvg
+- _$s14PhoneSnippetUI23ContactConfirmationViewV05yesNoE5ModelAA03YesheI0VvpMV
+- _$s14PhoneSnippetUI23ContactConfirmationViewV13contactHeaderAA0adH0VSgvg
+- _$s14PhoneSnippetUI23ContactConfirmationViewV13contactHeaderAA0adH0VSgvpMV
+- _$s14PhoneSnippetUI23ContactConfirmationViewV14_actionHandler33_1EC3717A4F783E6602C967B0B73D4E6CLL0bC006ActionH0Vvpfi
+- _$s14PhoneSnippetUI23ContactConfirmationViewV17confirmationModelAcA0deH0V_tcfC
+- _$s14PhoneSnippetUI23ContactConfirmationViewV4bodyQrvg
+- _$s14PhoneSnippetUI23ContactConfirmationViewV4bodyQrvpMV
+- _$s14PhoneSnippetUI23ContactConfirmationViewV4bodyQrvpQOMQ
+- _$s14PhoneSnippetUI23ContactConfirmationViewV5appIdSSSgvg
+- _$s14PhoneSnippetUI23ContactConfirmationViewV5appIdSSSgvpMV
+- _$s14PhoneSnippetUI23ContactConfirmationViewV5titleSSSgvg
+- _$s14PhoneSnippetUI23ContactConfirmationViewV5titleSSSgvpMV
+- _$s14PhoneSnippetUI23ContactConfirmationViewV8_context33_1EC3717A4F783E6602C967B0B73D4E6CLL05SwiftC017EnvironmentObjectVy0bC07ContextCGvpfi
+- _$s14PhoneSnippetUI23ContactConfirmationViewVMa
+- _$s14PhoneSnippetUI23ContactConfirmationViewVMn
+- _$s14PhoneSnippetUI23ContactConfirmationViewVN
+- _$s14PhoneSnippetUI23EmergencyCountdownModelV9sashTitle16cancelButtonText09cancelledK004calljK012callingLabel017emergencyServicesO03sos6dialog0M6Action0iT016localeIdentifier14isSmartEnabled0W12SAEAvailableACSS_S7SSo31SAIntentGroupRunSiriKitExecutorCARSSS2btcfC
+- _$s14PhoneSnippetUI24ContactConfirmationModelV05phoneD6HeaderAA0adH0VSgvM
+- _$s14PhoneSnippetUI24ContactConfirmationModelV05phoneD6HeaderAA0adH0VSgvg
+- _$s14PhoneSnippetUI24ContactConfirmationModelV05phoneD6HeaderAA0adH0VSgvpMV
+- _$s14PhoneSnippetUI24ContactConfirmationModelV05phoneD6HeaderAA0adH0VSgvpfi
+- _$s14PhoneSnippetUI24ContactConfirmationModelV05phoneD6HeaderAA0adH0VSgvs
+- _$s14PhoneSnippetUI24ContactConfirmationModelV05yesNoeF0AA03YesheF0VvM
+- _$s14PhoneSnippetUI24ContactConfirmationModelV05yesNoeF0AA03YesheF0Vvg
+- _$s14PhoneSnippetUI24ContactConfirmationModelV05yesNoeF0AA03YesheF0VvpMV
+- _$s14PhoneSnippetUI24ContactConfirmationModelV05yesNoeF0AA03YesheF0Vvs
+- _$s14PhoneSnippetUI24ContactConfirmationModelV0B3Kit0bF0AAMc
+- _$s14PhoneSnippetUI24ContactConfirmationModelV14responseViewId03appI005yesNoeF005phoneD6Header5titleACSS_SSSgAA03YesleF0VAA0adN0VSgAItcfC
+- _$s14PhoneSnippetUI24ContactConfirmationModelV14responseViewId03appI005yesNoeF005phoneD6Header5titleACSS_SSSgAA03YesleF0VAA0adN0VSgAItcfcfA_
+- _$s14PhoneSnippetUI24ContactConfirmationModelV14responseViewIdSSvM
+- _$s14PhoneSnippetUI24ContactConfirmationModelV14responseViewIdSSvg
+- _$s14PhoneSnippetUI24ContactConfirmationModelV14responseViewIdSSvpMV
+- _$s14PhoneSnippetUI24ContactConfirmationModelV14responseViewIdSSvpfi
+- _$s14PhoneSnippetUI24ContactConfirmationModelV14responseViewIdSSvs
+- _$s14PhoneSnippetUI24ContactConfirmationModelV4fromACs7Decoder_p_tKcfC
+- _$s14PhoneSnippetUI24ContactConfirmationModelV5appIdSSSgvM
+- _$s14PhoneSnippetUI24ContactConfirmationModelV5appIdSSSgvg
+- _$s14PhoneSnippetUI24ContactConfirmationModelV5appIdSSSgvpMV
+- _$s14PhoneSnippetUI24ContactConfirmationModelV5appIdSSSgvpfi
+- _$s14PhoneSnippetUI24ContactConfirmationModelV5appIdSSSgvs
+- _$s14PhoneSnippetUI24ContactConfirmationModelV5titleSSSgvM
+- _$s14PhoneSnippetUI24ContactConfirmationModelV5titleSSSgvg
+- _$s14PhoneSnippetUI24ContactConfirmationModelV5titleSSSgvpMV
+- _$s14PhoneSnippetUI24ContactConfirmationModelV5titleSSSgvpfi
+- _$s14PhoneSnippetUI24ContactConfirmationModelV5titleSSSgvs
+- _$s14PhoneSnippetUI24ContactConfirmationModelV6encode2toys7Encoder_p_tKF
+- _$s14PhoneSnippetUI24ContactConfirmationModelVAA0abF0AAMc
+- _$s14PhoneSnippetUI24ContactConfirmationModelVAA0abF0AAWP
+- _$s14PhoneSnippetUI24ContactConfirmationModelVMa
+- _$s14PhoneSnippetUI24ContactConfirmationModelVMn
+- _$s14PhoneSnippetUI24ContactConfirmationModelVN
+- _$s14PhoneSnippetUI24ContactConfirmationModelVSEAAMc
+- _$s14PhoneSnippetUI24ContactConfirmationModelVSeAAMc
+- _$s14PhoneSnippetUI27EmergencyCountdownViewModelC20timerCancelledByUserSbvM
+- _$s14PhoneSnippetUI27EmergencyCountdownViewModelC20timerCancelledByUserSbvMTq
+- _$s14PhoneSnippetUI27EmergencyCountdownViewModelC20timerCancelledByUserSbvg
+- _$s14PhoneSnippetUI27EmergencyCountdownViewModelC20timerCancelledByUserSbvgTq
+- _$s14PhoneSnippetUI27EmergencyCountdownViewModelC20timerCancelledByUserSbvpMV
+- _$s14PhoneSnippetUI27EmergencyCountdownViewModelC20timerCancelledByUserSbvpfP
+- _$s14PhoneSnippetUI27EmergencyCountdownViewModelC20timerCancelledByUserSbvs
+- _$s14PhoneSnippetUI27EmergencyCountdownViewModelC20timerCancelledByUserSbvsTq
+- _$s14PhoneSnippetUI27EmergencyCountdownViewModelC21$timerCancelledByUser7Combine9PublishedV9PublisherVySb_GvM
+- _$s14PhoneSnippetUI27EmergencyCountdownViewModelC21$timerCancelledByUser7Combine9PublishedV9PublisherVySb_GvMTq
+- _$s14PhoneSnippetUI27EmergencyCountdownViewModelC21$timerCancelledByUser7Combine9PublishedV9PublisherVySb_Gvg
+- _$s14PhoneSnippetUI27EmergencyCountdownViewModelC21$timerCancelledByUser7Combine9PublishedV9PublisherVySb_GvgTq
+- _$s14PhoneSnippetUI27EmergencyCountdownViewModelC21$timerCancelledByUser7Combine9PublishedV9PublisherVySb_GvpMV
+- _$s14PhoneSnippetUI27EmergencyCountdownViewModelC21$timerCancelledByUser7Combine9PublishedV9PublisherVySb_Gvs
+- _$s14PhoneSnippetUI27EmergencyCountdownViewModelC21$timerCancelledByUser7Combine9PublishedV9PublisherVySb_GvsTq
+- _$s14PhoneSnippetUI27EmergencyCountdownViewModelC21_timerCancelledByUser33_C7669CA20219013364605B6C26FF3F9DLL7Combine9PublishedVySbGvpfi
+- _$s14PhoneSnippetUI37LocalEmergencyCallDisambiguationModelV11appBundleId6prompt5items14isSmartEnabledACSS_SSSayAA0g24ItemWithDirectInvocationH0VGSbtcfC
+- _$s14PhoneSnippetUI37LocalEmergencyCallDisambiguationModelV14isSmartEnabledSbvg
+- _$s14PhoneSnippetUI37LocalEmergencyCallDisambiguationModelV14isSmartEnabledSbvpMV
+- _$s9SnippetUI16SashStandardViewV5modelAC0A3Kit0cD0V_tcfC
+- _$s9SnippetUI19SummaryItemTextViewV5text15text25text35text45text5AcA03AnyF11Convertible_pSg_AaI_pA3JtcfC
+- _$s9SnippetUI19SummaryItemTextViewVMa
+- _$s9SnippetUI19SummaryItemTextViewVMn
+- _$s9SnippetUI22SimpleItemStandardViewV05SwiftB00F0AAMc
+CStrings:
++ "#EmergencyCountdownView Ambient emergency countdown appeared"
++ "#EmergencyCountdownView CarPlay emergency countdown appeared"
++ "#EmergencyCountdownView Sliding emergency countdown appeared"
++ "#EmergencyCountdownView got context update - %s"
++ "#EmergencyCountdownView not speaking countdown. Starting countdown immediately."
++ "#EmergencyCountdownView received action to start timer"
++ "#EmergencyCountdownView received timer, but countdown hasn't started. Ignoring."
++ "#EmergencyCountdownView updating counter"
++ "#EmergencyCountdownViewModel model.shouldPlayTTSCountdown is false"
++ "#EmergencyCountdownViewModel no action handler for playTTSCounterValue"
++ "#EmergencyCountdownViewModel starting countdown"
++ "#EmergencyCountdownViewModel submitting SAUISayIt command to say emergency counter value=%ld with id=%s"
++ "#EmergencyCountdownViewModel timer was cancelled by user. Not playing TTS"
++ "#LocalEmergencyCallDisambiguationView building disambiguationViewContent with SimpleItemRichView"
++ "#LocalEmergencyCallDisambiguationView performing direct invocation to start emergency call to %s"
++ "_countdownCancelledByUser"
++ "aceId"
++ "playTTSCounterValue"
++ "setMessage:"
++ "shouldPlayTTSCountdown"
++ "startTimer"
++ "startedCountdown"
+- "ContactConfirmation"
+- "_timerCancelledByUser"
+- "phoneContactHeader"
+- "yesNoConfirmationModel"
+
+```

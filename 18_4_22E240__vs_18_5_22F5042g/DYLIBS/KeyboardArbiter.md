@@ -1,0 +1,22 @@
+## KeyboardArbiter
+
+> `/System/Library/PrivateFrameworks/KeyboardArbiter.framework/KeyboardArbiter`
+
+```diff
+
+-8444.1.105.0.0
++8502.1.101.0.0
+   __TEXT.__text: 0x18ad0
+   __TEXT.__auth_stubs: 0x660
+   __TEXT.__objc_methlist: 0x11fc
+
+   __TEXT.__oslogstring: 0x19a2
+   __TEXT.__gcc_except_tab: 0x8f8
+   __TEXT.__dlopen_cstrs: 0xa4
+-  __TEXT.__unwind_info: 0x5e8
++  __TEXT.__unwind_info: 0x5d0
+   __TEXT.__objc_classname: 0x2f2
+   __TEXT.__objc_methname: 0x364f
+   __TEXT.__objc_methtype: 0xbec
+
+```
