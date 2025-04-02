@@ -1,0 +1,393 @@
+## RequestDispatcherBridges
+
+> `/System/Library/PrivateFrameworks/RequestDispatcherBridges.framework/Versions/A/RequestDispatcherBridges`
+
+```diff
+
+-3404.70.2.0.0
+-  __TEXT.__text: 0x109f6c
+-  __TEXT.__auth_stubs: 0x4c00
++3405.20.2.4.1
++  __TEXT.__text: 0x122ba8
++  __TEXT.__auth_stubs: 0x4c80
+   __TEXT.__objc_methlist: 0x610
+-  __TEXT.__const: 0x3440
+-  __TEXT.__cstring: 0x38e4
+-  __TEXT.__swift5_typeref: 0x2308
+-  __TEXT.__swift5_fieldmd: 0x1950
+-  __TEXT.__constg_swiftt: 0x2d60
+-  __TEXT.__oslogstring: 0xbd57
++  __TEXT.__const: 0x42f8
++  __TEXT.__cstring: 0x4084
++  __TEXT.__swift5_typeref: 0x265a
++  __TEXT.__swift5_fieldmd: 0x1dd8
++  __TEXT.__constg_swiftt: 0x34d8
++  __TEXT.__oslogstring: 0xbf77
+   __TEXT.__swift5_builtin: 0xb4
+-  __TEXT.__swift5_reflstr: 0x2078
+-  __TEXT.__swift5_assocty: 0x200
+-  __TEXT.__swift5_protos: 0x5c
+-  __TEXT.__swift5_proto: 0x204
+-  __TEXT.__swift5_types: 0x180
++  __TEXT.__swift5_reflstr: 0x2313
++  __TEXT.__swift5_assocty: 0x230
++  __TEXT.__swift5_protos: 0x64
++  __TEXT.__swift5_proto: 0x2b8
++  __TEXT.__swift5_types: 0x1ec
++  __TEXT.__swift_as_entry: 0x35c
++  __TEXT.__swift_as_ret: 0x2b0
+   __TEXT.__swift5_mpenum: 0x34
+-  __TEXT.__swift_as_entry: 0x300
+-  __TEXT.__swift_as_ret: 0x228
+-  __TEXT.__swift5_capture: 0x8e8
+-  __TEXT.__unwind_info: 0x24f0
+-  __TEXT.__eh_frame: 0x62c8
++  __TEXT.__swift5_capture: 0x884
++  __TEXT.__unwind_info: 0x2d00
++  __TEXT.__eh_frame: 0x77b8
+   __TEXT.__objc_classname: 0xf0
+-  __TEXT.__objc_methname: 0x149b
++  __TEXT.__objc_methname: 0x151d
+   __TEXT.__objc_methtype: 0x830
+-  __DATA_CONST.__got: 0xa20
+-  __DATA_CONST.__const: 0x1a8
+-  __DATA_CONST.__objc_classlist: 0x130
++  __DATA_CONST.__got: 0xb40
++  __DATA_CONST.__const: 0x2d8
++  __DATA_CONST.__objc_classlist: 0x138
+   __DATA_CONST.__objc_protolist: 0xe0
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x778
++  __DATA_CONST.__objc_selrefs: 0x7a0
+   __DATA_CONST.__objc_protorefs: 0x78
+   __DATA_CONST.__objc_superrefs: 0x8
+-  __AUTH_CONST.__auth_got: 0x2600
+-  __AUTH_CONST.__auth_ptr: 0xd98
+-  __AUTH_CONST.__const: 0x2da0
+-  __AUTH_CONST.__objc_const: 0x7158
+-  __AUTH.__objc_data: 0x7f8
+-  __AUTH.__data: 0x3a78
+-  __DATA.__data: 0x2120
+-  __DATA.__bss: 0x32d0
+-  __DATA.__common: 0x560
++  __AUTH_CONST.__auth_got: 0x2640
++  __AUTH_CONST.__auth_ptr: 0xdf8
++  __AUTH_CONST.__const: 0x3160
++  __AUTH_CONST.__objc_const: 0x7720
++  __AUTH.__objc_data: 0xa30
++  __AUTH.__data: 0x4290
++  __DATA.__data: 0x25a0
++  __DATA.__bss: 0x49d0
++  __DATA.__common: 0x640
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+   - /System/Library/Frameworks/Intents.framework/Versions/A/Intents
+
+   - /usr/lib/swift/libswiftsimd.dylib
+   - /usr/lib/swift/libswiftsys_time.dylib
+   - /usr/lib/swift/libswiftunistd.dylib
+-  Functions: 2824
+-  Symbols:   1400
+-  CStrings:  1342
++  Functions: 3365
++  Symbols:   1534
++  CStrings:  1394
+ 
+Symbols:
++ _OBJC_CLASS_$_AFMultiUserConnection
++ _OBJC_CLASS_$_NSKeyedArchiver
++ _OBJC_CLASS_$_NSKeyedUnarchiver
++ __DATA__TtC24RequestDispatcherBridges32RemoteIntelligenceSessionMessage
++ __DATA__TtC24RequestDispatcherBridges34RemoteIntelligenceFlowErrorMessage
++ __DATA__TtC24RequestDispatcherBridges35EndRemoteIntelligenceSessionMessage
++ __DATA__TtC24RequestDispatcherBridges37EndedRemoteIntelligenceSessionMessage
++ __DATA__TtC24RequestDispatcherBridges37StartRemoteIntelligenceSessionMessage
++ __DATA__TtC24RequestDispatcherBridges38RemoteIntelligenceSessionClientMessage
++ __DATA__TtC24RequestDispatcherBridges38RemoteIntelligenceSessionServerMessage
++ __DATA__TtC24RequestDispatcherBridges39StartedRemoteIntelligenceSessionMessage
++ __DATA__TtC24RequestDispatcherBridges48IntelligenceFlowSessionControllerDelegateWrapper
++ __DATA__TtC24RequestDispatcherBridges50StartRemoteIntelligenceRequestSessionClientMessage
++ __IVARS__TtC24RequestDispatcherBridges32RemoteIntelligenceSessionMessage
++ __IVARS__TtC24RequestDispatcherBridges34RemoteIntelligenceFlowErrorMessage
++ __IVARS__TtC24RequestDispatcherBridges37EndedRemoteIntelligenceSessionMessage
++ __IVARS__TtC24RequestDispatcherBridges37StartRemoteIntelligenceSessionMessage
++ __IVARS__TtC24RequestDispatcherBridges38RemoteIntelligenceSessionClientMessage
++ __IVARS__TtC24RequestDispatcherBridges38RemoteIntelligenceSessionServerMessage
++ __IVARS__TtC24RequestDispatcherBridges39StartedRemoteIntelligenceSessionMessage
++ __IVARS__TtC24RequestDispatcherBridges48IntelligenceFlowSessionControllerDelegateWrapper
++ __IVARS__TtC24RequestDispatcherBridges50StartRemoteIntelligenceRequestSessionClientMessage
++ __METACLASS_DATA__TtC24RequestDispatcherBridges32RemoteIntelligenceSessionMessage
++ __METACLASS_DATA__TtC24RequestDispatcherBridges34RemoteIntelligenceFlowErrorMessage
++ __METACLASS_DATA__TtC24RequestDispatcherBridges35EndRemoteIntelligenceSessionMessage
++ __METACLASS_DATA__TtC24RequestDispatcherBridges37EndedRemoteIntelligenceSessionMessage
++ __METACLASS_DATA__TtC24RequestDispatcherBridges37StartRemoteIntelligenceSessionMessage
++ __METACLASS_DATA__TtC24RequestDispatcherBridges38RemoteIntelligenceSessionClientMessage
++ __METACLASS_DATA__TtC24RequestDispatcherBridges38RemoteIntelligenceSessionServerMessage
++ __METACLASS_DATA__TtC24RequestDispatcherBridges39StartedRemoteIntelligenceSessionMessage
++ __METACLASS_DATA__TtC24RequestDispatcherBridges48IntelligenceFlowSessionControllerDelegateWrapper
++ __METACLASS_DATA__TtC24RequestDispatcherBridges50StartRemoteIntelligenceRequestSessionClientMessage
++ ___swift_deallocate_boxed_opaque_existential_1
++ ___unnamed_6
++ _associated conformance 24RequestDispatcherBridges023StartRemoteIntelligenceA20SessionClientMessageC10CodingKeys33_69E36D63C5FADB7FD01A12DFD1140DBFLLOSHAASQ
++ _associated conformance 24RequestDispatcherBridges023StartRemoteIntelligenceA20SessionClientMessageC10CodingKeys33_69E36D63C5FADB7FD01A12DFD1140DBFLLOs0J3KeyAAs23CustomStringConvertible
++ _associated conformance 24RequestDispatcherBridges023StartRemoteIntelligenceA20SessionClientMessageC10CodingKeys33_69E36D63C5FADB7FD01A12DFD1140DBFLLOs0J3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 24RequestDispatcherBridges14RemoteIFClientCAA18SessionClientAsyncAA18EventsSubscriptionAaDP_AA0iJ8Protocol
++ _associated conformance 24RequestDispatcherBridges20LocalIFSessionClientVAA07SessionF5AsyncAA18EventsSubscriptionAaDP_AA0iJ8Protocol
++ _associated conformance 24RequestDispatcherBridges32RemoteIntelligenceSessionMessageC10CodingKeys33_217B2828F79C3A1E5772B59C19635B93LLOSHAASQ
++ _associated conformance 24RequestDispatcherBridges32RemoteIntelligenceSessionMessageC10CodingKeys33_217B2828F79C3A1E5772B59C19635B93LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 24RequestDispatcherBridges32RemoteIntelligenceSessionMessageC10CodingKeys33_217B2828F79C3A1E5772B59C19635B93LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 24RequestDispatcherBridges34RemoteIntelligenceFlowErrorMessageC10CodingKeysOSHAASQ
++ _associated conformance 24RequestDispatcherBridges34RemoteIntelligenceFlowErrorMessageC10CodingKeysOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 24RequestDispatcherBridges34RemoteIntelligenceFlowErrorMessageC10CodingKeysOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 24RequestDispatcherBridges37EndedRemoteIntelligenceSessionMessageC10CodingKeys33_D44F78FDA706ABFD7E6EE1DFA057888CLLOSHAASQ
++ _associated conformance 24RequestDispatcherBridges37EndedRemoteIntelligenceSessionMessageC10CodingKeys33_D44F78FDA706ABFD7E6EE1DFA057888CLLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 24RequestDispatcherBridges37EndedRemoteIntelligenceSessionMessageC10CodingKeys33_D44F78FDA706ABFD7E6EE1DFA057888CLLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 24RequestDispatcherBridges37StartRemoteIntelligenceSessionMessageC10CodingKeys33_7153C6EF159CCDB85E810AA73BC6A9CCLLOSHAASQ
++ _associated conformance 24RequestDispatcherBridges37StartRemoteIntelligenceSessionMessageC10CodingKeys33_7153C6EF159CCDB85E810AA73BC6A9CCLLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 24RequestDispatcherBridges37StartRemoteIntelligenceSessionMessageC10CodingKeys33_7153C6EF159CCDB85E810AA73BC6A9CCLLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 24RequestDispatcherBridges38RemoteIntelligenceSessionClientMessageC10CodingKeys33_5FC58CD38B353227902E5C2B219D258CLLOSHAASQ
++ _associated conformance 24RequestDispatcherBridges38RemoteIntelligenceSessionClientMessageC10CodingKeys33_5FC58CD38B353227902E5C2B219D258CLLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 24RequestDispatcherBridges38RemoteIntelligenceSessionClientMessageC10CodingKeys33_5FC58CD38B353227902E5C2B219D258CLLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 24RequestDispatcherBridges38RemoteIntelligenceSessionServerMessageC10CodingKeys33_967C22884CFBD51488AB24187FD299A1LLOSHAASQ
++ _associated conformance 24RequestDispatcherBridges38RemoteIntelligenceSessionServerMessageC10CodingKeys33_967C22884CFBD51488AB24187FD299A1LLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 24RequestDispatcherBridges38RemoteIntelligenceSessionServerMessageC10CodingKeys33_967C22884CFBD51488AB24187FD299A1LLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 24RequestDispatcherBridges39StartedRemoteIntelligenceSessionMessageC10CodingKeys33_2DC377592A5B44EA4FC2E606D5D68ABALLOSHAASQ
++ _associated conformance 24RequestDispatcherBridges39StartedRemoteIntelligenceSessionMessageC10CodingKeys33_2DC377592A5B44EA4FC2E606D5D68ABALLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 24RequestDispatcherBridges39StartedRemoteIntelligenceSessionMessageC10CodingKeys33_2DC377592A5B44EA4FC2E606D5D68ABALLOs0I3KeyAAs28CustomDebugStringConvertible
++ _swift_deallocPartialClassInstance
++ _swift_getMetatypeMetadata
++ _swift_unknownObjectWeakAssign
++ _swift_unknownObjectWeakDestroy
++ _swift_unknownObjectWeakInit
++ _swift_unknownObjectWeakLoadStrong
++ _swift_unownedRelease
++ _swift_unownedRetain
++ _swift_unownedRetainStrong
++ _symbolic $s24RequestDispatcherBridges18SessionClientAsyncP
++ _symbolic $s24RequestDispatcherBridges26EventsSubscriptionProtocolP
++ _symbolic $s24RequestDispatcherBridges28LocalIFSessionClientProtocolP
++ _symbolic $s24RequestDispatcherBridges29RemoteIFSessionClientProtocolP
++ _symbolic $s24RequestDispatcherBridges33IntelligenceFlowSessionControllerC8DelegateP
++ _symbolic 18EventsSubscription_____Qz 24RequestDispatcherBridges18SessionClientAsyncP
++ _symbolic 7ElementSciQz
++ _symbolic 7FailureSciQz
++ _symbolic Say_____G 16IntelligenceFlow20SessionServerMessageV
++ _symbolic Say______pG 24RequestDispatcherBridges36ExternalAgentEventPublisherInterfaceP
++ _symbolic So8NSNumberCSgSo7NSErrorCSgIeyByy_
++ _symbolic So8NSNumberCSg______pSgIeggg_ s5ErrorP
++ _symbolic _____ 16IntelligenceFlow13SessionClientC
++ _symbolic _____ 16IntelligenceFlow18EventsSubscriptionC
++ _symbolic _____ 16SiriMessageTypes11InputOriginO
++ _symbolic _____ 16SiriMessageTypes18RequestContextDataC
++ _symbolic _____ 22IntelligenceFlowShared30VersionedQueryDecorationOutputC
++ _symbolic _____ 24RequestDispatcherBridges023StartRemoteIntelligenceA20SessionClientMessageC
++ _symbolic _____ 24RequestDispatcherBridges023StartRemoteIntelligenceA20SessionClientMessageC10CodingKeys33_69E36D63C5FADB7FD01A12DFD1140DBFLLO
++ _symbolic _____ 24RequestDispatcherBridges023StartRemoteIntelligenceA20SessionClientMessageC7BuilderV
++ _symbolic _____ 24RequestDispatcherBridges20LocalIFSessionClientV
++ _symbolic _____ 24RequestDispatcherBridges23RemoteIntelligenceErrorO
++ _symbolic _____ 24RequestDispatcherBridges32RemoteIntelligenceSessionMessageC
++ _symbolic _____ 24RequestDispatcherBridges32RemoteIntelligenceSessionMessageC10CodingKeys33_217B2828F79C3A1E5772B59C19635B93LLO
++ _symbolic _____ 24RequestDispatcherBridges32RemoteIntelligenceSessionMessageC7BuilderV
++ _symbolic _____ 24RequestDispatcherBridges34RemoteIntelligenceFlowErrorMessageC
++ _symbolic _____ 24RequestDispatcherBridges34RemoteIntelligenceFlowErrorMessageC10CodingKeysO
++ _symbolic _____ 24RequestDispatcherBridges34RemoteIntelligenceFlowErrorMessageC7BuilderV
++ _symbolic _____ 24RequestDispatcherBridges35EndRemoteIntelligenceSessionMessageC
++ _symbolic _____ 24RequestDispatcherBridges37EndedRemoteIntelligenceSessionMessageC
++ _symbolic _____ 24RequestDispatcherBridges37EndedRemoteIntelligenceSessionMessageC10CodingKeys33_D44F78FDA706ABFD7E6EE1DFA057888CLLO
++ _symbolic _____ 24RequestDispatcherBridges37EndedRemoteIntelligenceSessionMessageC7BuilderV
++ _symbolic _____ 24RequestDispatcherBridges37StartRemoteIntelligenceSessionMessageC
++ _symbolic _____ 24RequestDispatcherBridges37StartRemoteIntelligenceSessionMessageC10CodingKeys33_7153C6EF159CCDB85E810AA73BC6A9CCLLO
++ _symbolic _____ 24RequestDispatcherBridges37StartRemoteIntelligenceSessionMessageC7BuilderV
++ _symbolic _____ 24RequestDispatcherBridges38RemoteIntelligenceSessionClientMessageC
++ _symbolic _____ 24RequestDispatcherBridges38RemoteIntelligenceSessionClientMessageC10CodingKeys33_5FC58CD38B353227902E5C2B219D258CLLO
++ _symbolic _____ 24RequestDispatcherBridges38RemoteIntelligenceSessionClientMessageC7BuilderV
++ _symbolic _____ 24RequestDispatcherBridges38RemoteIntelligenceSessionServerMessageC
++ _symbolic _____ 24RequestDispatcherBridges38RemoteIntelligenceSessionServerMessageC10CodingKeys33_967C22884CFBD51488AB24187FD299A1LLO
++ _symbolic _____ 24RequestDispatcherBridges38RemoteIntelligenceSessionServerMessageC7BuilderV
++ _symbolic _____ 24RequestDispatcherBridges39StartedRemoteIntelligenceSessionMessageC
++ _symbolic _____ 24RequestDispatcherBridges39StartedRemoteIntelligenceSessionMessageC10CodingKeys33_2DC377592A5B44EA4FC2E606D5D68ABALLO
++ _symbolic _____ 24RequestDispatcherBridges39StartedRemoteIntelligenceSessionMessageC7BuilderV
++ _symbolic _____ 24RequestDispatcherBridges48IntelligenceFlowSessionControllerDelegateWrapperC
++ _symbolic _____5error_t 24RequestDispatcherBridges23RemoteIntelligenceErrorO
++ _symbolic _____Sg 10Foundation10MorphologyV
++ _symbolic _____Sg 10Foundation10MorphologyV17GrammaticalGenderO
++ _symbolic _____Sg 16IntelligenceFlow14GenderSettingsV
++ _symbolic _____Sg 16SiriMessageTypes16UserSessionStateO
++ _symbolic _____Sg 22IntelligenceFlowShared30VersionedQueryDecorationOutputC
++ _symbolic _____Sg s6UInt32V
++ _symbolic _____SgXo 24RequestDispatcherBridges29IntelligenceFlowSessionBridgeC
++ _symbolic _____SgXw 24RequestDispatcherBridges33IntelligenceFlowSessionControllerC
++ _symbolic _____SgXwz_Xx 24RequestDispatcherBridges33IntelligenceFlowSessionControllerC
++ _symbolic ______p 24RequestDispatcherBridges18SessionClientAsyncP
++ _symbolic ______p 24RequestDispatcherBridges31RemoteIFClientTransportProtocolP
++ _symbolic ______p 24RequestDispatcherBridges33IntelligenceFlowSessionControllerC8DelegateP
++ _symbolic ______p 24RequestDispatcherBridges36ExternalAgentEventPublisherInterfaceP
++ _symbolic ______pSgXw 24RequestDispatcherBridges33IntelligenceFlowSessionControllerC8DelegateP
++ _symbolic _____y_____G 24RequestDispatcherBridges35LocalIntelligenceFlowClientProviderV AA0d9IFSessionG0V
++ _symbolic _____y_____G s22KeyedDecodingContainerV 24RequestDispatcherBridges023StartRemoteIntelligenceD20SessionClientMessageC10CodingKeys33_69E36D63C5FADB7FD01A12DFD1140DBFLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 24RequestDispatcherBridges32RemoteIntelligenceSessionMessageC10CodingKeys33_217B2828F79C3A1E5772B59C19635B93LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 24RequestDispatcherBridges34RemoteIntelligenceFlowErrorMessageC10CodingKeysO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 24RequestDispatcherBridges37EndedRemoteIntelligenceSessionMessageC10CodingKeys33_D44F78FDA706ABFD7E6EE1DFA057888CLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 24RequestDispatcherBridges37StartRemoteIntelligenceSessionMessageC10CodingKeys33_7153C6EF159CCDB85E810AA73BC6A9CCLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 24RequestDispatcherBridges38RemoteIntelligenceSessionClientMessageC10CodingKeys33_5FC58CD38B353227902E5C2B219D258CLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 24RequestDispatcherBridges38RemoteIntelligenceSessionServerMessageC10CodingKeys33_967C22884CFBD51488AB24187FD299A1LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 24RequestDispatcherBridges39StartedRemoteIntelligenceSessionMessageC10CodingKeys33_2DC377592A5B44EA4FC2E606D5D68ABALLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 24RequestDispatcherBridges023StartRemoteIntelligenceD20SessionClientMessageC10CodingKeys33_69E36D63C5FADB7FD01A12DFD1140DBFLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 24RequestDispatcherBridges32RemoteIntelligenceSessionMessageC10CodingKeys33_217B2828F79C3A1E5772B59C19635B93LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 24RequestDispatcherBridges34RemoteIntelligenceFlowErrorMessageC10CodingKeysO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 24RequestDispatcherBridges37EndedRemoteIntelligenceSessionMessageC10CodingKeys33_D44F78FDA706ABFD7E6EE1DFA057888CLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 24RequestDispatcherBridges37StartRemoteIntelligenceSessionMessageC10CodingKeys33_7153C6EF159CCDB85E810AA73BC6A9CCLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 24RequestDispatcherBridges38RemoteIntelligenceSessionClientMessageC10CodingKeys33_5FC58CD38B353227902E5C2B219D258CLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 24RequestDispatcherBridges38RemoteIntelligenceSessionServerMessageC10CodingKeys33_967C22884CFBD51488AB24187FD299A1LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 24RequestDispatcherBridges39StartedRemoteIntelligenceSessionMessageC10CodingKeys33_2DC377592A5B44EA4FC2E606D5D68ABALLO
++ _symbolic _____y______pG s23_ContiguousArrayStorageC 24RequestDispatcherBridges36ExternalAgentEventPublisherInterfaceP
++ block_copy_helper.29
++ block_copy_helper.44
++ block_copy_helper.50
++ block_copy_helper.56
++ block_copy_helper.63
++ block_copy_helper.8
++ block_descriptor.10
++ block_descriptor.31
++ block_descriptor.46
++ block_descriptor.52
++ block_descriptor.58
++ block_descriptor.65
++ block_destroy_helper.30
++ block_destroy_helper.45
++ block_destroy_helper.51
++ block_destroy_helper.57
++ block_destroy_helper.64
++ block_destroy_helper.9
+- ___unnamed_5
+- _symbolic $s24RequestDispatcherBridges30IntelligenceFlowClientProtocolP
+- _symbolic $s24RequestDispatcherBridges34ThrowingEventsSubscriptionProtocolP
+- _symbolic $s24RequestDispatcherBridges35InitializableIntelligenceFlowClientP
+- _symbolic 13AsyncIteratorSciQz
+- _symbolic SDySS______pG 24RequestDispatcherBridges36ExternalAgentEventPublisherInterfaceP
+- _symbolic SS_______pt 24RequestDispatcherBridges36ExternalAgentEventPublisherInterfaceP
+- _symbolic _____ 24RequestDispatcherBridges10RelayErrorO
+- _symbolic _____5error_t 24RequestDispatcherBridges10RelayErrorO
+- _symbolic _____Iegg_ 22IntelligenceFlowShared30VersionedQueryDecorationOutputC
+- _symbolic _____Sg 16SiriMessageTypes023ExecutionSystemSwitchedB0C10SwitchTypeO
+- _symbolic _____SgXw 24RequestDispatcherBridges14RemoteIFClientC
+- _symbolic _____SgXw 24RequestDispatcherBridges23RemoteIFClientTransportC
+- _symbolic _____SgXwz_Xx 24RequestDispatcherBridges14RemoteIFClientC
+- _symbolic _____SgXwz_Xx 24RequestDispatcherBridges23RemoteIFClientTransportC
+- _symbolic ______AAt 16SiriMessageTypes14RequestSummaryV15ExecutionSourceO
+- _symbolic ______p 11SiriNetwork013MessageCenterC8DelegateP
+- _symbolic ______p 24RequestDispatcherBridges30IntelligenceFlowClientProtocolP
+- _symbolic ______pSg 24RequestDispatcherBridges36ExternalAgentEventPublisherInterfaceP
+- _symbolic _____ySS______pG s18_DictionaryStorageC 24RequestDispatcherBridges36ExternalAgentEventPublisherInterfaceP
+- _symbolic _____y_____G 24RequestDispatcherBridges35LocalIntelligenceFlowClientProviderV 0eF007SessionG0C
+- block_copy_helper.33
+- block_copy_helper.47
+- block_copy_helper.53
+- block_copy_helper.59
+- block_copy_helper.66
+- block_copy_helper.7
+- block_descriptor.35
+- block_descriptor.49
+- block_descriptor.55
+- block_descriptor.61
+- block_descriptor.68
+- block_descriptor.9
+- block_destroy_helper.34
+- block_destroy_helper.48
+- block_destroy_helper.54
+- block_destroy_helper.60
+- block_destroy_helper.67
+- block_destroy_helper.8
+- objectdestroy.29Tm
+CStrings:
++ "%{public}s: Message received from IntelligenceFlow with sessionId: %s, eventId: %s and clientRequestId: %s with message: %{private}s"
++ "*** Internal Only ***"
++ "BUG: We should have started an eager child request at this point"
++ "Cannot find userIdHash for user id : %s,  instrumentation will have gaps."
++ "Controller went out of scope while opening session"
++ "Could not build %{public}s: Builder has missing required fields"
++ "Could not deserialize RequestContextData"
++ "Failed to create StartRemoteIntelligenceSessionMessage. Failed to send message"
++ "Failed to create StartRemoteIntelligenceSessionMessage. Failed to set MessageDelegate"
++ "Failed to decode. Error=%@"
++ "Failed to fetch QueryDecoration for message %s"
++ "Failed to send %s"
++ "Failed to send StartRemoteIntelligenceSessionMessage"
++ "Failed to set a delegate on RemoteIFClientTransport. We will not be able to receive messages"
++ "Failed to start message center. Error=%@"
++ "Found more than one child request while attempting to handle dialog engine output at root level, will choose the first child request"
++ "IFSessionServiceClient inserting an IF message into Feature Store with sessionId: %s, eventId: %s and clientRequestId: %s with message: %{private}s"
++ "Incoming error missing session identifier"
++ "Incoming session identifier %s is not equal to local session identifier %s, dropping"
++ "Message center already started"
++ "No ConversationSessionInfo. Ignoring %@"
++ "Not starting Remote gateway"
++ "Postponing publishing external agent outcome"
++ "Publishing external agent outcome failed with error: %@"
++ "RemoteIntelligence"
++ "RequestDispatcherBridges.EndedRemoteIntelligenceSessionMessage"
++ "RequestDispatcherBridges.RemoteIntelligenceFlowErrorMessage"
++ "RequestDispatcherBridges.RemoteIntelligenceSessionClientMessage"
++ "RequestDispatcherBridges.RemoteIntelligenceSessionMessage"
++ "RequestDispatcherBridges.RemoteIntelligenceSessionServerMessage"
++ "RequestDispatcherBridges.StartRemoteIntelligenceRequestSessionClientMessage"
++ "RequestDispatcherBridges.StartRemoteIntelligenceSessionMessage"
++ "RequestDispatcherBridges.StartedRemoteIntelligenceSessionMessage"
++ "SAE is not enabled. Ignoring %@. Not saving conversationSessionInfo."
++ "Starting RemoteIFClientTransport"
++ "Unable to create ORCHSchemaORCHMultiUserScore object for user id : %s, instrumentation will have gaps."
++ "Updating request summary for requestId %s to %{private}s"
++ "_TtC24RequestDispatcherBridges32RemoteIntelligenceSessionMessage"
++ "_TtC24RequestDispatcherBridges34RemoteIntelligenceFlowErrorMessage"
++ "_TtC24RequestDispatcherBridges35EndRemoteIntelligenceSessionMessage"
++ "_TtC24RequestDispatcherBridges37EndedRemoteIntelligenceSessionMessage"
++ "_TtC24RequestDispatcherBridges37StartRemoteIntelligenceSessionMessage"
++ "_TtC24RequestDispatcherBridges38RemoteIntelligenceSessionClientMessage"
++ "_TtC24RequestDispatcherBridges38RemoteIntelligenceSessionServerMessage"
++ "_TtC24RequestDispatcherBridges39StartedRemoteIntelligenceSessionMessage"
++ "_TtC24RequestDispatcherBridges48IntelligenceFlowSessionControllerDelegateWrapper"
++ "_TtC24RequestDispatcherBridges50StartRemoteIntelligenceRequestSessionClientMessage"
++ "archivedDataWithRootObject:requiringSecureCoding:error:"
++ "delegate"
++ "gender"
++ "init()"
++ "init(build:)"
++ "inputOrigin"
++ "isInternalBuild"
++ "messageId"
++ "postponedExternalAgentEventPublishers"
++ "remoteIntelligenceVersion"
++ "remoteSessionId"
++ "remoteTimeInMs"
++ "requestContextData"
++ "sessionBridge"
++ "sessionClientMessage"
++ "sessionControllerDelegate"
++ "sessionServerMessages"
++ "setLoggableUserIdHash:"
++ "setVoiceIdClassification:"
++ "setVoiceIdScores:"
++ "sharedSiriIdentifier"
++ "started"
++ "versionedQueryDecorationOutput"
+- "%{public}s: Message received from IntelligenceFlow: %s"
+- "Could not construct ExecutionSystemSwitchedMessage"
+- "Exception thrown while sending message:%s, exception: %s"
+- "IFSessionServiceClient inserting an IF meassage into Feature Store: %s."
+- "No previous RequestSummary found for userId: %s"
+- "Not posting ExecutionSystemSwitchedMessage because currentRequestSummary is nil"
+- "Not posting ExecutionSystemSwitchedMessage because no previousRequestExecutionSource was found"
+- "Not posting ExecutionSystemSwitchedMessage because of unexpected currentExecutionSource: %s"
+- "Not posting ExecutionSystemSwitchedMessage because previousRequestExecutionSource is the same as current one: %s"
+- "Not posting ExecutionSystemSwitchedMessage because selectedUserId cannot be determined"
+- "Not publishing external agent outcome. Unexpected bridge state: client box is nil"
+- "Not publishing external agent outcome. Unexpected bridge state: failed to fetch ConversationSessionInfo"
+- "Posting ExecutionSystemSwitchedMessage with switchType: %s"
+- "Updated previousRequestExecutionSource to: %s"
+- "Updating request summary for requestId %s to %s"
+- "asyncExecutor"
+- "defaultUser"
+- "previousRequestExecutionSource"
+- "rootRequestInfo"
+
+```

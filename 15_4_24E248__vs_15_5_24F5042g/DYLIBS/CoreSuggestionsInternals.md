@@ -1,0 +1,1219 @@
+## CoreSuggestionsInternals
+
+> `/System/Library/PrivateFrameworks/CoreSuggestionsInternals.framework/Versions/A/CoreSuggestionsInternals`
+
+```diff
+
+-1276.10.4.0.0
+-  __TEXT.__text: 0x29b76c
++1276.14.0.1.0
++  __TEXT.__text: 0x29baec
+   __TEXT.__auth_stubs: 0x23a0
+-  __TEXT.__objc_methlist: 0x157cc
++  __TEXT.__objc_methlist: 0x157dc
+   __TEXT.__const: 0x749a
+   __TEXT.__dlopen_cstrs: 0x2a1
+   __TEXT.__gcc_except_tab: 0xb148
+-  __TEXT.__cstring: 0x30859
+-  __TEXT.__oslogstring: 0x2248f
++  __TEXT.__cstring: 0x3085b
++  __TEXT.__oslogstring: 0x22667
+   __TEXT.__ustring: 0xc4
+   __TEXT.__unwind_info: 0x8168
+   __TEXT.__objc_classname: 0x29fa
+-  __TEXT.__objc_methname: 0x3cf8b
++  __TEXT.__objc_methname: 0x3cfd3
+   __TEXT.__objc_methtype: 0x710f
+   __TEXT.__objc_stubs: 0x2b740
+   __DATA_CONST.__got: 0x2200
+
+   __DATA_CONST.__objc_catlist: 0x120
+   __DATA_CONST.__objc_protolist: 0x1f8
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0xd3e8
++  __DATA_CONST.__objc_selrefs: 0xd3f0
+   __DATA_CONST.__objc_protorefs: 0x40
+   __DATA_CONST.__objc_superrefs: 0x758
+   __DATA_CONST.__objc_arraydata: 0x37c0
+   __AUTH_CONST.__auth_got: 0x11e8
+   __AUTH_CONST.__auth_ptr: 0x8
+   __AUTH_CONST.__const: 0xc568
+-  __AUTH_CONST.__cfstring: 0x257a0
++  __AUTH_CONST.__cfstring: 0x257c0
+   __AUTH_CONST.__objc_const: 0x1f9b0
+   __AUTH_CONST.__objc_intobj: 0x1260
+   __AUTH_CONST.__objc_doubleobj: 0x80
+
+   - /usr/lib/libsqlite3.dylib
+   - /usr/lib/libxml2.2.dylib
+   - /usr/lib/libz.1.dylib
+-  Functions: 10042
+-  Symbols:   24515
+-  CStrings:  18255
++  Functions: 10043
++  Symbols:   24516
++  CStrings:  18263
+ 
+Symbols:
++ +[SGDSuggestManager filterPseudoEvents:keepPastEvents:keepPartialEvents:keepEventsFromOldDocuments:keepUnsupportedEventCategoryStatus:]
++ +[SGDSuggestManager filterPseudoEvents:keepPastEvents:keepPartialEvents:keepEventsFromOldDocuments:keepUnsupportedEventCategoryStatus:keepUnsupportedEventCategoryStatusForTextMessage:]
++ +[SGDSuggestManager filterPseudoEvents:keepPastEvents:keepPartialEvents:keepEventsFromOldDocuments:keepUnsupportedEventCategoryStatus:keepUnsupportedEventCategoryStatusForTextMessage:keepLLMExtractionForRealTime:]
++ -[SGDSuggestManager shortNamesAndRealtimeEventsFromEntity:message:enrichments:store:keepPastEvents:keepPartialEvents:keepEventsFromOldDocuments:keepUnsupportedEventCategoryStatus:keepUnsupportedEventCategoryStatusForTextMessage:keepLLMExtractionForRealtime:]
++ -[SGEventDonationEnablementManager isUnsupportedEventCategoryStatusForEventExtraction:]
++ GCC_except_table10032
++ GCC_except_table10034
++ GCC_except_table9254
++ GCC_except_table9317
++ GCC_except_table9320
++ GCC_except_table9324
++ GCC_except_table9334
++ GCC_except_table9348
++ GCC_except_table9350
++ GCC_except_table9353
++ GCC_except_table9355
++ GCC_except_table9361
++ GCC_except_table9363
++ GCC_except_table9367
++ GCC_except_table9374
++ GCC_except_table9385
++ GCC_except_table9391
++ GCC_except_table9411
++ GCC_except_table9416
++ GCC_except_table9430
++ GCC_except_table9502
++ GCC_except_table9506
++ GCC_except_table9508
++ GCC_except_table9510
++ GCC_except_table9512
++ GCC_except_table9514
++ GCC_except_table9516
++ GCC_except_table9518
++ GCC_except_table9520
++ GCC_except_table9522
++ GCC_except_table9524
++ GCC_except_table9526
++ GCC_except_table9528
++ GCC_except_table9530
++ GCC_except_table9532
++ GCC_except_table9534
++ GCC_except_table9536
++ GCC_except_table9538
++ GCC_except_table9540
++ GCC_except_table9542
++ GCC_except_table9544
++ GCC_except_table9546
++ GCC_except_table9548
++ GCC_except_table9550
++ GCC_except_table9552
++ GCC_except_table9554
++ GCC_except_table9556
++ GCC_except_table9558
++ GCC_except_table9560
++ GCC_except_table9562
++ GCC_except_table9564
++ GCC_except_table9566
++ GCC_except_table9568
++ GCC_except_table9570
++ GCC_except_table9572
++ GCC_except_table9574
++ GCC_except_table9576
++ GCC_except_table9623
++ GCC_except_table9626
++ GCC_except_table9629
++ GCC_except_table9632
++ GCC_except_table9652
++ GCC_except_table9671
++ GCC_except_table9847
++ GCC_except_table9856
++ GCC_except_table9861
++ ProactiveSummarizationLibraryCore.frameworkLibrary.32880
++ _PASValidatedFormat.38077
++ __104-[SGDSuggestManager waitForEventWithIdentifier:toAppearInEventStoreWithLastModificationDate:completion:]_block_invoke.837
++ __107-[SGDSuggestManager namesForDetail:limitTo:prependMaybe:onlySignificant:supportsInfoLookup:withCompletion:]_block_invoke.637
++ __258-[SGDSuggestManager shortNamesAndRealtimeEventsFromEntity:message:enrichments:store:keepPastEvents:keepPartialEvents:keepEventsFromOldDocuments:keepUnsupportedEventCategoryStatus:keepUnsupportedEventCategoryStatusForTextMessage:keepLLMExtractionForRealtime:]_block_invoke.582
++ __40-[SGDSuggestManager bumptTTLForNLEvent:]_block_invoke.570
++ __53-[SGDSuggestManager messagesToRefreshWithCompletion:]_block_invoke.667
++ __53-[SGDSuggestManager updateMessages:state:completion:]_block_invoke.677
++ __57-[SGDSuggestManager addInteractions:bundleId:completion:]_block_invoke.775
++ __61-[SGDSuggestManager reportMessagesFound:lost:withCompletion:]_block_invoke.686
++ __62-[SGDSuggestManager titleSuggestionForMessage:withCompletion:]_block_invoke.937
++ __63-[SGDSuggestManager extractAttributesAndDonate:withCompletion:]_block_invoke.1031
++ __65-[SGDSuggestManager deleteDataDerivedFromContentMatchingRequest:]_block_invoke.1004
++ __65-[SGDSuggestManager deleteDataDerivedFromContentMatchingRequest:]_block_invoke.1012
++ __65-[SGDSuggestManager deleteDataDerivedFromContentMatchingRequest:]_block_invoke.1017
++ __65-[SGDSuggestManager deleteDataDerivedFromContentMatchingRequest:]_block_invoke_2.1005
++ __65-[SGDSuggestManager deleteDataDerivedFromContentMatchingRequest:]_block_invoke_2.1013
++ __65-[SGDSuggestManager deleteDataDerivedFromContentMatchingRequest:]_block_invoke_2.1018
++ __71-[SGDSuggestManager geocodeEnrichmentsInPipelineEntity:withCompletion:]_block_invoke.828
++ __73-[SGDSuggestManager _processReservationInteractions:bundleId:completion:]_block_invoke.798
++ __73-[SGDSuggestManager suggestionsFromURL:title:HTMLPayload:withCompletion:]_block_invoke.822
++ __74-[SGDSuggestManager launchAppForSuggestedEventUsingLaunchInfo:completion:]_block_invoke.720
++ __81-[SGDSuggestManager dissectAttachmentsFromSearchableItem:options:withCompletion:]_block_invoke.957
++ __83-[SGDSuggestManager logEventInteractionForEventWithUniqueKey:interface:actionType:]_block_invoke.888
++ __84-[SGDSuggestManager _harvestReservationsFromInteractions:bundleId:queue:completion:]_block_invoke.789
++ __84-[SGDSuggestManager realtimeContactsFromEntity:enrichments:sourceTextMessage:store:]_block_invoke.621
++ __84-[SGDSuggestManager realtimeContactsFromEntity:enrichments:sourceTextMessage:store:]_block_invoke.630
++ __87-[SGDSuggestManager suggestionsFromEmailContent:headers:source:options:withCompletion:]_block_invoke.949
++ __97-[SGDSuggestManager harvestedSuggestionsFromMessages:bundleIdentifier:options:completionHandler:]_block_invoke.968
++ __97-[SGDSuggestManager harvestedSuggestionsFromMessages:bundleIdentifier:options:completionHandler:]_block_invoke_2.969
++ __Block_byref_object_copy_.10030
++ __Block_byref_object_copy_.10248
++ __Block_byref_object_copy_.11333
++ __Block_byref_object_copy_.11426
++ __Block_byref_object_copy_.12297
++ __Block_byref_object_copy_.13012
++ __Block_byref_object_copy_.13481
++ __Block_byref_object_copy_.14566
++ __Block_byref_object_copy_.15151
++ __Block_byref_object_copy_.15506
++ __Block_byref_object_copy_.15760
++ __Block_byref_object_copy_.16359
++ __Block_byref_object_copy_.16479
++ __Block_byref_object_copy_.17079
++ __Block_byref_object_copy_.17477
++ __Block_byref_object_copy_.18286
++ __Block_byref_object_copy_.18937
++ __Block_byref_object_copy_.21384
++ __Block_byref_object_copy_.21712
++ __Block_byref_object_copy_.21884
++ __Block_byref_object_copy_.22235
++ __Block_byref_object_copy_.22946
++ __Block_byref_object_copy_.23535
++ __Block_byref_object_copy_.23907
++ __Block_byref_object_copy_.23992
++ __Block_byref_object_copy_.24425
++ __Block_byref_object_copy_.24703
++ __Block_byref_object_copy_.26365
++ __Block_byref_object_copy_.26681
++ __Block_byref_object_copy_.26821
++ __Block_byref_object_copy_.27578
++ __Block_byref_object_copy_.29061
++ __Block_byref_object_copy_.29221
++ __Block_byref_object_copy_.29623
++ __Block_byref_object_copy_.30392
++ __Block_byref_object_copy_.31777
++ __Block_byref_object_copy_.32845
++ __Block_byref_object_copy_.32960
++ __Block_byref_object_copy_.33871
++ __Block_byref_object_copy_.33937
++ __Block_byref_object_copy_.34230
++ __Block_byref_object_copy_.34518
++ __Block_byref_object_copy_.35218
++ __Block_byref_object_copy_.35524
++ __Block_byref_object_copy_.35622
++ __Block_byref_object_copy_.36419
++ __Block_byref_object_copy_.36795
++ __Block_byref_object_copy_.37006
++ __Block_byref_object_copy_.37920
++ __Block_byref_object_copy_.38195
++ __Block_byref_object_copy_.38448
++ __Block_byref_object_copy_.38605
++ __Block_byref_object_copy_.40547
++ __Block_byref_object_copy_.4058
++ __Block_byref_object_copy_.40892
++ __Block_byref_object_copy_.41455
++ __Block_byref_object_copy_.42612
++ __Block_byref_object_copy_.5434
++ __Block_byref_object_copy_.6766
++ __Block_byref_object_copy_.7650
++ __Block_byref_object_copy_.8432
++ __Block_byref_object_copy_.9439
++ __Block_byref_object_copy_.9740
++ __Block_byref_object_copy_.9874
++ __Block_byref_object_dispose_.10031
++ __Block_byref_object_dispose_.10249
++ __Block_byref_object_dispose_.11334
++ __Block_byref_object_dispose_.11427
++ __Block_byref_object_dispose_.12298
++ __Block_byref_object_dispose_.13013
++ __Block_byref_object_dispose_.13482
++ __Block_byref_object_dispose_.14567
++ __Block_byref_object_dispose_.15152
++ __Block_byref_object_dispose_.15507
++ __Block_byref_object_dispose_.15761
++ __Block_byref_object_dispose_.16360
++ __Block_byref_object_dispose_.16480
++ __Block_byref_object_dispose_.17080
++ __Block_byref_object_dispose_.17478
++ __Block_byref_object_dispose_.18287
++ __Block_byref_object_dispose_.18938
++ __Block_byref_object_dispose_.21385
++ __Block_byref_object_dispose_.21713
++ __Block_byref_object_dispose_.21885
++ __Block_byref_object_dispose_.22236
++ __Block_byref_object_dispose_.22947
++ __Block_byref_object_dispose_.23536
++ __Block_byref_object_dispose_.23908
++ __Block_byref_object_dispose_.23993
++ __Block_byref_object_dispose_.24426
++ __Block_byref_object_dispose_.24704
++ __Block_byref_object_dispose_.26366
++ __Block_byref_object_dispose_.26682
++ __Block_byref_object_dispose_.26822
++ __Block_byref_object_dispose_.27579
++ __Block_byref_object_dispose_.29062
++ __Block_byref_object_dispose_.29222
++ __Block_byref_object_dispose_.29624
++ __Block_byref_object_dispose_.30393
++ __Block_byref_object_dispose_.31778
++ __Block_byref_object_dispose_.32846
++ __Block_byref_object_dispose_.32961
++ __Block_byref_object_dispose_.33872
++ __Block_byref_object_dispose_.33938
++ __Block_byref_object_dispose_.34231
++ __Block_byref_object_dispose_.34519
++ __Block_byref_object_dispose_.35219
++ __Block_byref_object_dispose_.35525
++ __Block_byref_object_dispose_.35623
++ __Block_byref_object_dispose_.36420
++ __Block_byref_object_dispose_.36796
++ __Block_byref_object_dispose_.37007
++ __Block_byref_object_dispose_.37921
++ __Block_byref_object_dispose_.38196
++ __Block_byref_object_dispose_.38449
++ __Block_byref_object_dispose_.38606
++ __Block_byref_object_dispose_.40548
++ __Block_byref_object_dispose_.4059
++ __Block_byref_object_dispose_.40893
++ __Block_byref_object_dispose_.41456
++ __Block_byref_object_dispose_.42613
++ __Block_byref_object_dispose_.5435
++ __Block_byref_object_dispose_.6767
++ __Block_byref_object_dispose_.7651
++ __Block_byref_object_dispose_.8433
++ __Block_byref_object_dispose_.9440
++ __Block_byref_object_dispose_.9741
++ __Block_byref_object_dispose_.9875
++ __ProactiveSummarizationLibraryCore_block_invoke.32881
++ ___213+[SGDSuggestManager filterPseudoEvents:keepPastEvents:keepPartialEvents:keepEventsFromOldDocuments:keepUnsupportedEventCategoryStatus:keepUnsupportedEventCategoryStatusForTextMessage:keepLLMExtractionForRealTime:]_block_invoke
++ ___258-[SGDSuggestManager shortNamesAndRealtimeEventsFromEntity:message:enrichments:store:keepPastEvents:keepPartialEvents:keepEventsFromOldDocuments:keepUnsupportedEventCategoryStatus:keepUnsupportedEventCategoryStatusForTextMessage:keepLLMExtractionForRealtime:]_block_invoke
++ ___258-[SGDSuggestManager shortNamesAndRealtimeEventsFromEntity:message:enrichments:store:keepPastEvents:keepPartialEvents:keepEventsFromOldDocuments:keepUnsupportedEventCategoryStatus:keepUnsupportedEventCategoryStatusForTextMessage:keepLLMExtractionForRealtime:]_block_invoke_2
++ __block_literal_global.10.37967
++ __block_literal_global.100.14290
++ __block_literal_global.1000
++ __block_literal_global.102.17569
++ __block_literal_global.102.32784
++ __block_literal_global.10205
++ __block_literal_global.1027
++ __block_literal_global.1030
++ __block_literal_global.10640
++ __block_literal_global.10657
++ __block_literal_global.107.22834
++ __block_literal_global.107.35609
++ __block_literal_global.108.13941
++ __block_literal_global.10903
++ __block_literal_global.11146
++ __block_literal_global.11287
++ __block_literal_global.113.32758
++ __block_literal_global.11342
++ __block_literal_global.114.30251
++ __block_literal_global.11466
++ __block_literal_global.11798
++ __block_literal_global.118.26342
++ __block_literal_global.12.24148
++ __block_literal_global.12366
++ __block_literal_global.124.17572
++ __block_literal_global.124.22775
++ __block_literal_global.125.13922
++ __block_literal_global.125.34883
++ __block_literal_global.125.36792
++ __block_literal_global.12706
++ __block_literal_global.12778
++ __block_literal_global.13.34246
++ __block_literal_global.13.37942
++ __block_literal_global.13085
++ __block_literal_global.134.14827
++ __block_literal_global.134.22523
++ __block_literal_global.135.13924
++ __block_literal_global.135.17006
++ __block_literal_global.135.19249
++ __block_literal_global.1351
++ __block_literal_global.13720
++ __block_literal_global.13972
++ __block_literal_global.14.11471
++ __block_literal_global.14.21818
++ __block_literal_global.141.16602
++ __block_literal_global.14148
++ __block_literal_global.143.20970
++ __block_literal_global.143.27150
++ __block_literal_global.14301
++ __block_literal_global.147.17576
++ __block_literal_global.147.20964
++ __block_literal_global.147.31616
++ __block_literal_global.15013
++ __block_literal_global.15035
++ __block_literal_global.15092
++ __block_literal_global.15199
++ __block_literal_global.15342
++ __block_literal_global.15651
++ __block_literal_global.157.8553
++ __block_literal_global.158.27130
++ __block_literal_global.16.37935
++ __block_literal_global.16164
++ __block_literal_global.16229
++ __block_literal_global.16660
++ __block_literal_global.17.33140
++ __block_literal_global.17.40594
++ __block_literal_global.17.41143
++ __block_literal_global.17137
++ __block_literal_global.17565
++ __block_literal_global.176.17582
++ __block_literal_global.17809
++ __block_literal_global.18.35527
++ __block_literal_global.180.32408
++ __block_literal_global.181.14899
++ __block_literal_global.18851
++ __block_literal_global.19355
++ __block_literal_global.19766
++ __block_literal_global.19840
++ __block_literal_global.201.32518
++ __block_literal_global.20332
++ __block_literal_global.208.34786
++ __block_literal_global.210.32409
++ __block_literal_global.21051
++ __block_literal_global.215.37101
++ __block_literal_global.21654
++ __block_literal_global.217.17049
++ __block_literal_global.21788
++ __block_literal_global.22.40600
++ __block_literal_global.22558
++ __block_literal_global.228.13629
++ __block_literal_global.22940
++ __block_literal_global.23.31683
++ __block_literal_global.23.32875
++ __block_literal_global.232.17185
++ __block_literal_global.232.19246
++ __block_literal_global.234.17187
++ __block_literal_global.235.19240
++ __block_literal_global.23583
++ __block_literal_global.23830
++ __block_literal_global.23924
++ __block_literal_global.24071
++ __block_literal_global.241.26435
++ __block_literal_global.24145
++ __block_literal_global.24286
++ __block_literal_global.244.16516
++ __block_literal_global.244.17063
++ __block_literal_global.24410
++ __block_literal_global.247.22858
++ __block_literal_global.250.19079
++ __block_literal_global.252.22856
++ __block_literal_global.25204
++ __block_literal_global.254.22901
++ __block_literal_global.26402
++ __block_literal_global.26685
++ __block_literal_global.268.19608
++ __block_literal_global.27.38239
++ __block_literal_global.27.40588
++ __block_literal_global.27260
++ __block_literal_global.27990
++ __block_literal_global.28.31677
++ __block_literal_global.28213
++ __block_literal_global.28292
++ __block_literal_global.286.13558
++ __block_literal_global.29.38240
++ __block_literal_global.29052
++ __block_literal_global.29197
++ __block_literal_global.293.36652
++ __block_literal_global.29936
++ __block_literal_global.30046
++ __block_literal_global.301.17497
++ __block_literal_global.30361
++ __block_literal_global.306.10805
++ __block_literal_global.306.16467
++ __block_literal_global.30742
++ __block_literal_global.311.13531
++ __block_literal_global.31309
++ __block_literal_global.31692
++ __block_literal_global.31802
++ __block_literal_global.321.27035
++ __block_literal_global.32361
++ __block_literal_global.324.27036
++ __block_literal_global.32873
++ __block_literal_global.33.32877
++ __block_literal_global.33038
++ __block_literal_global.33138
++ __block_literal_global.33504
++ __block_literal_global.33674
++ __block_literal_global.34127
++ __block_literal_global.34244
++ __block_literal_global.34961
++ __block_literal_global.35523
++ __block_literal_global.35573
++ __block_literal_global.35684
++ __block_literal_global.357.36961
++ __block_literal_global.36.11435
++ __block_literal_global.36.33121
++ __block_literal_global.36.6333
++ __block_literal_global.36238
++ __block_literal_global.36284
++ __block_literal_global.36461
++ __block_literal_global.36865
++ __block_literal_global.37176
++ __block_literal_global.37963
++ __block_literal_global.38232
++ __block_literal_global.38380
++ __block_literal_global.38478
++ __block_literal_global.38633
++ __block_literal_global.39.27263
++ __block_literal_global.39.34215
++ __block_literal_global.39.38233
++ __block_literal_global.40582
++ __block_literal_global.41.33123
++ __block_literal_global.41103
++ __block_literal_global.41146
++ __block_literal_global.4129
++ __block_literal_global.41953
++ __block_literal_global.42.41213
++ __block_literal_global.42412
++ __block_literal_global.42572
++ __block_literal_global.42777
++ __block_literal_global.43.34216
++ __block_literal_global.4300
++ __block_literal_global.43241
++ __block_literal_global.45.38234
++ __block_literal_global.45.41214
++ __block_literal_global.4695
++ __block_literal_global.47.36846
++ __block_literal_global.472.32645
++ __block_literal_global.48.38453
++ __block_literal_global.488.34510
++ __block_literal_global.49.34212
++ __block_literal_global.49.38212
++ __block_literal_global.50.10206
++ __block_literal_global.50.24114
++ __block_literal_global.5016
++ __block_literal_global.52.33102
++ __block_literal_global.52.38224
++ __block_literal_global.5327
++ __block_literal_global.5387
++ __block_literal_global.572
++ __block_literal_global.5890
++ __block_literal_global.61.42702
++ __block_literal_global.62.31654
++ __block_literal_global.62.35493
++ __block_literal_global.6362
++ __block_literal_global.64.24293
++ __block_literal_global.64.31651
++ __block_literal_global.6420
++ __block_literal_global.646
++ __block_literal_global.67.38213
++ __block_literal_global.670
++ __block_literal_global.6719
++ __block_literal_global.680.4072
++ __block_literal_global.6867
++ __block_literal_global.688
++ __block_literal_global.690
++ __block_literal_global.6929
++ __block_literal_global.697
++ __block_literal_global.70.38214
++ __block_literal_global.73.38215
++ __block_literal_global.74.20976
++ __block_literal_global.74.29199
++ __block_literal_global.7451
++ __block_literal_global.746
++ __block_literal_global.76.37235
++ __block_literal_global.7629
++ __block_literal_global.772
++ __block_literal_global.78.29201
++ __block_literal_global.792.27801
++ __block_literal_global.794.27802
++ __block_literal_global.7958
++ __block_literal_global.84.22897
++ __block_literal_global.865
++ __block_literal_global.8657
++ __block_literal_global.867
++ __block_literal_global.87.32787
++ __block_literal_global.890
++ __block_literal_global.898
++ __block_literal_global.90.30296
++ __block_literal_global.90.37224
++ __block_literal_global.91.38413
++ __block_literal_global.911
++ __block_literal_global.9118
++ __block_literal_global.9390
++ __block_literal_global.94.34899
++ __block_literal_global.9446
++ __block_literal_global.956
++ __block_literal_global.9571
++ __block_literal_global.964
++ __block_literal_global.97.14820
++ __block_literal_global.97.17568
++ __block_literal_global.97.26356
++ __block_literal_global.97.30825
++ __block_literal_global.9739
++ __block_literal_global.976
++ __patterns_block_invoke.17016
++ __patterns_block_invoke.22870
++ __patterns_block_invoke.23928
++ __patterns_block_invoke.25208
++ __patterns_block_invoke.9575
++ _addEKEventToCalendar:storageEvent:ekStore:commit:._pasOnceToken48
++ _objc_msgSend$filterPseudoEvents:keepPastEvents:keepPartialEvents:keepEventsFromOldDocuments:keepUnsupportedEventCategoryStatus:
++ _objc_msgSend$filterPseudoEvents:keepPastEvents:keepPartialEvents:keepEventsFromOldDocuments:keepUnsupportedEventCategoryStatus:keepUnsupportedEventCategoryStatusForTextMessage:
++ _objc_msgSend$filterPseudoEvents:keepPastEvents:keepPartialEvents:keepEventsFromOldDocuments:keepUnsupportedEventCategoryStatus:keepUnsupportedEventCategoryStatusForTextMessage:keepLLMExtractionForRealTime:
++ _objc_msgSend$isUnsupportedEventCategoryStatusForEventExtraction:
++ _objc_msgSend$shortNamesAndRealtimeEventsFromEntity:message:enrichments:store:keepPastEvents:keepPartialEvents:keepEventsFromOldDocuments:keepUnsupportedEventCategoryStatus:keepUnsupportedEventCategoryStatusForTextMessage:keepLLMExtractionForRealtime:
++ _processReservationInteractions:bundleId:completion:._pasOnceToken161
++ _serialQueueForTitleGeneration._pasOnceToken201
++ addInteractions:bundleId:completion:._pasOnceToken151
++ asDictionary.onceToken.30741
++ asDictionary.sharedKeySet.30744
++ audit_stringProactiveSummarization.32884
++ bumptTTLForNLEvent:._pasOnceToken56
++ charactersSAX.36236
++ consumeInteractionWithContext:._pasOnceToken245
++ isLowercaseAscii.17044
++ kSqlEventFired_block_invoke._pasExprOnceResult.15093
++ logEventInteractionForEventWithExternalIdentifier:interface:actionType:._pasOnceToken188
++ logEventInteractionForEventWithUniqueKey:interface:actionType:._pasOnceToken196
++ patterns.17009
++ patterns.22818
++ patterns.23909
++ patterns.25199
++ patterns.9555
++ patterns.onceToken.17013
++ patterns.onceToken.22867
++ patterns.onceToken.23923
++ patterns.onceToken.24948
++ patterns.onceToken.25203
++ patterns.onceToken.9570
++ patterns.patterns.17014
++ patterns.patterns.22868
++ patterns.patterns.23925
++ patterns.patterns.24949
++ patterns.patterns.25205
++ patterns.patterns.9572
++ sharedInstance.27993
++ sharedInstance._pasExprOnceResult.11799
++ sharedInstance._pasExprOnceResult.12779
++ sharedInstance._pasExprOnceResult.13086
++ sharedInstance._pasExprOnceResult.14149
++ sharedInstance._pasExprOnceResult.15200
++ sharedInstance._pasExprOnceResult.16125
++ sharedInstance._pasExprOnceResult.21655
++ sharedInstance._pasExprOnceResult.24072
++ sharedInstance._pasExprOnceResult.28293
++ sharedInstance._pasExprOnceResult.31803
++ sharedInstance._pasExprOnceResult.33039
++ sharedInstance._pasExprOnceResult.33505
++ sharedInstance._pasExprOnceResult.36368
++ sharedInstance._pasExprOnceResult.36462
++ sharedInstance._pasExprOnceResult.37964
++ sharedInstance._pasExprOnceResult.41104
++ sharedInstance._pasExprOnceResult.4696
++ sharedInstance._pasExprOnceResult.6502
++ sharedInstance._pasExprOnceResult.6868
++ sharedInstance._pasOnceToken2.11797
++ sharedInstance._pasOnceToken2.12777
++ sharedInstance._pasOnceToken2.13084
++ sharedInstance._pasOnceToken2.14147
++ sharedInstance._pasOnceToken2.15198
++ sharedInstance._pasOnceToken2.24070
++ sharedInstance._pasOnceToken2.28291
++ sharedInstance._pasOnceToken2.36367
++ sharedInstance._pasOnceToken2.41102
++ sharedInstance._pasOnceToken2.4694
++ sharedInstance._pasOnceToken2.6501
++ sharedInstance._pasOnceToken2.6866
++ sharedInstance._pasOnceToken3.21653
++ sharedInstance._pasOnceToken3.31801
++ sharedInstance._pasOnceToken3.33037
++ sharedInstance._pasOnceToken3.33503
++ sharedInstance._pasOnceToken3.36460
++ sharedInstance._pasOnceToken9.37962
++ titleSuggestionForMessage:withCompletion:._pasOnceToken203
++ transformerInstanceForLanguage:._pasOnceToken789
+- +[SGDSuggestManager filterPseudoEvents:keepPastEvents:keepPartialEvents:keepEventsFromOldDocuments:keepPendingConfirmationEvents:]
+- +[SGDSuggestManager filterPseudoEvents:keepPastEvents:keepPartialEvents:keepEventsFromOldDocuments:keepPendingConfirmationEvents:keepUnsupportedEventCategoryStatusForTextMessage:]
+- +[SGDSuggestManager filterPseudoEvents:keepPastEvents:keepPartialEvents:keepEventsFromOldDocuments:keepPendingConfirmationEvents:keepUnsupportedEventCategoryStatusForTextMessage:keepLLMExtractionForRealTime:]
+- -[SGDSuggestManager shortNamesAndRealtimeEventsFromEntity:message:enrichments:store:keepPastEvents:keepPartialEvents:keepEventsFromOldDocuments:keepPendingConfirmationEvents:keepUnsupportedEventCategoryStatusForTextMessage:keepLLMExtractionForRealtime:]
+- GCC_except_table10031
+- GCC_except_table10033
+- GCC_except_table9253
+- GCC_except_table9316
+- GCC_except_table9318
+- GCC_except_table9322
+- GCC_except_table9330
+- GCC_except_table9347
+- GCC_except_table9349
+- GCC_except_table9351
+- GCC_except_table9354
+- GCC_except_table9359
+- GCC_except_table9362
+- GCC_except_table9365
+- GCC_except_table9371
+- GCC_except_table9383
+- GCC_except_table9389
+- GCC_except_table9410
+- GCC_except_table9415
+- GCC_except_table9429
+- GCC_except_table9501
+- GCC_except_table9505
+- GCC_except_table9507
+- GCC_except_table9509
+- GCC_except_table9511
+- GCC_except_table9513
+- GCC_except_table9515
+- GCC_except_table9517
+- GCC_except_table9519
+- GCC_except_table9521
+- GCC_except_table9523
+- GCC_except_table9525
+- GCC_except_table9527
+- GCC_except_table9529
+- GCC_except_table9531
+- GCC_except_table9533
+- GCC_except_table9535
+- GCC_except_table9537
+- GCC_except_table9539
+- GCC_except_table9541
+- GCC_except_table9543
+- GCC_except_table9545
+- GCC_except_table9547
+- GCC_except_table9549
+- GCC_except_table9551
+- GCC_except_table9553
+- GCC_except_table9555
+- GCC_except_table9557
+- GCC_except_table9559
+- GCC_except_table9561
+- GCC_except_table9563
+- GCC_except_table9565
+- GCC_except_table9567
+- GCC_except_table9569
+- GCC_except_table9571
+- GCC_except_table9573
+- GCC_except_table9575
+- GCC_except_table9622
+- GCC_except_table9625
+- GCC_except_table9627
+- GCC_except_table9631
+- GCC_except_table9651
+- GCC_except_table9670
+- GCC_except_table9846
+- GCC_except_table9855
+- GCC_except_table9860
+- ProactiveSummarizationLibraryCore.frameworkLibrary.32907
+- _PASValidatedFormat.38112
+- __104-[SGDSuggestManager waitForEventWithIdentifier:toAppearInEventStoreWithLastModificationDate:completion:]_block_invoke.838
+- __107-[SGDSuggestManager namesForDetail:limitTo:prependMaybe:onlySignificant:supportsInfoLookup:withCompletion:]_block_invoke.638
+- __253-[SGDSuggestManager shortNamesAndRealtimeEventsFromEntity:message:enrichments:store:keepPastEvents:keepPartialEvents:keepEventsFromOldDocuments:keepPendingConfirmationEvents:keepUnsupportedEventCategoryStatusForTextMessage:keepLLMExtractionForRealtime:]_block_invoke.583
+- __40-[SGDSuggestManager bumptTTLForNLEvent:]_block_invoke.571
+- __53-[SGDSuggestManager messagesToRefreshWithCompletion:]_block_invoke.668
+- __53-[SGDSuggestManager updateMessages:state:completion:]_block_invoke.678
+- __57-[SGDSuggestManager addInteractions:bundleId:completion:]_block_invoke.776
+- __61-[SGDSuggestManager reportMessagesFound:lost:withCompletion:]_block_invoke.687
+- __62-[SGDSuggestManager titleSuggestionForMessage:withCompletion:]_block_invoke.938
+- __63-[SGDSuggestManager extractAttributesAndDonate:withCompletion:]_block_invoke.1032
+- __65-[SGDSuggestManager deleteDataDerivedFromContentMatchingRequest:]_block_invoke.1005
+- __65-[SGDSuggestManager deleteDataDerivedFromContentMatchingRequest:]_block_invoke.1013
+- __65-[SGDSuggestManager deleteDataDerivedFromContentMatchingRequest:]_block_invoke.1018
+- __65-[SGDSuggestManager deleteDataDerivedFromContentMatchingRequest:]_block_invoke_2.1006
+- __65-[SGDSuggestManager deleteDataDerivedFromContentMatchingRequest:]_block_invoke_2.1014
+- __65-[SGDSuggestManager deleteDataDerivedFromContentMatchingRequest:]_block_invoke_2.1019
+- __71-[SGDSuggestManager geocodeEnrichmentsInPipelineEntity:withCompletion:]_block_invoke.829
+- __73-[SGDSuggestManager _processReservationInteractions:bundleId:completion:]_block_invoke.799
+- __73-[SGDSuggestManager suggestionsFromURL:title:HTMLPayload:withCompletion:]_block_invoke.823
+- __74-[SGDSuggestManager launchAppForSuggestedEventUsingLaunchInfo:completion:]_block_invoke.721
+- __81-[SGDSuggestManager dissectAttachmentsFromSearchableItem:options:withCompletion:]_block_invoke.958
+- __83-[SGDSuggestManager logEventInteractionForEventWithUniqueKey:interface:actionType:]_block_invoke.889
+- __84-[SGDSuggestManager _harvestReservationsFromInteractions:bundleId:queue:completion:]_block_invoke.791
+- __84-[SGDSuggestManager realtimeContactsFromEntity:enrichments:sourceTextMessage:store:]_block_invoke.622
+- __84-[SGDSuggestManager realtimeContactsFromEntity:enrichments:sourceTextMessage:store:]_block_invoke.631
+- __87-[SGDSuggestManager suggestionsFromEmailContent:headers:source:options:withCompletion:]_block_invoke.950
+- __97-[SGDSuggestManager harvestedSuggestionsFromMessages:bundleIdentifier:options:completionHandler:]_block_invoke.969
+- __97-[SGDSuggestManager harvestedSuggestionsFromMessages:bundleIdentifier:options:completionHandler:]_block_invoke_2.970
+- __Block_byref_object_copy_.10036
+- __Block_byref_object_copy_.10254
+- __Block_byref_object_copy_.11354
+- __Block_byref_object_copy_.11447
+- __Block_byref_object_copy_.12318
+- __Block_byref_object_copy_.13033
+- __Block_byref_object_copy_.13502
+- __Block_byref_object_copy_.14588
+- __Block_byref_object_copy_.15176
+- __Block_byref_object_copy_.15531
+- __Block_byref_object_copy_.15785
+- __Block_byref_object_copy_.16384
+- __Block_byref_object_copy_.16504
+- __Block_byref_object_copy_.17104
+- __Block_byref_object_copy_.17502
+- __Block_byref_object_copy_.18311
+- __Block_byref_object_copy_.18962
+- __Block_byref_object_copy_.21409
+- __Block_byref_object_copy_.21737
+- __Block_byref_object_copy_.21909
+- __Block_byref_object_copy_.22260
+- __Block_byref_object_copy_.22971
+- __Block_byref_object_copy_.23560
+- __Block_byref_object_copy_.23932
+- __Block_byref_object_copy_.24017
+- __Block_byref_object_copy_.24450
+- __Block_byref_object_copy_.24728
+- __Block_byref_object_copy_.26390
+- __Block_byref_object_copy_.26706
+- __Block_byref_object_copy_.26853
+- __Block_byref_object_copy_.27614
+- __Block_byref_object_copy_.29088
+- __Block_byref_object_copy_.29248
+- __Block_byref_object_copy_.29650
+- __Block_byref_object_copy_.30419
+- __Block_byref_object_copy_.31804
+- __Block_byref_object_copy_.32872
+- __Block_byref_object_copy_.32987
+- __Block_byref_object_copy_.33898
+- __Block_byref_object_copy_.33964
+- __Block_byref_object_copy_.34257
+- __Block_byref_object_copy_.34545
+- __Block_byref_object_copy_.35245
+- __Block_byref_object_copy_.35551
+- __Block_byref_object_copy_.35649
+- __Block_byref_object_copy_.36446
+- __Block_byref_object_copy_.36822
+- __Block_byref_object_copy_.37033
+- __Block_byref_object_copy_.37955
+- __Block_byref_object_copy_.38230
+- __Block_byref_object_copy_.38483
+- __Block_byref_object_copy_.38640
+- __Block_byref_object_copy_.4056
+- __Block_byref_object_copy_.40576
+- __Block_byref_object_copy_.40921
+- __Block_byref_object_copy_.41484
+- __Block_byref_object_copy_.42641
+- __Block_byref_object_copy_.5435
+- __Block_byref_object_copy_.6772
+- __Block_byref_object_copy_.7656
+- __Block_byref_object_copy_.8438
+- __Block_byref_object_copy_.9445
+- __Block_byref_object_copy_.9746
+- __Block_byref_object_copy_.9880
+- __Block_byref_object_dispose_.10037
+- __Block_byref_object_dispose_.10255
+- __Block_byref_object_dispose_.11355
+- __Block_byref_object_dispose_.11448
+- __Block_byref_object_dispose_.12319
+- __Block_byref_object_dispose_.13034
+- __Block_byref_object_dispose_.13503
+- __Block_byref_object_dispose_.14589
+- __Block_byref_object_dispose_.15177
+- __Block_byref_object_dispose_.15532
+- __Block_byref_object_dispose_.15786
+- __Block_byref_object_dispose_.16385
+- __Block_byref_object_dispose_.16505
+- __Block_byref_object_dispose_.17105
+- __Block_byref_object_dispose_.17503
+- __Block_byref_object_dispose_.18312
+- __Block_byref_object_dispose_.18963
+- __Block_byref_object_dispose_.21410
+- __Block_byref_object_dispose_.21738
+- __Block_byref_object_dispose_.21910
+- __Block_byref_object_dispose_.22261
+- __Block_byref_object_dispose_.22972
+- __Block_byref_object_dispose_.23561
+- __Block_byref_object_dispose_.23933
+- __Block_byref_object_dispose_.24018
+- __Block_byref_object_dispose_.24451
+- __Block_byref_object_dispose_.24729
+- __Block_byref_object_dispose_.26391
+- __Block_byref_object_dispose_.26707
+- __Block_byref_object_dispose_.26854
+- __Block_byref_object_dispose_.27615
+- __Block_byref_object_dispose_.29089
+- __Block_byref_object_dispose_.29249
+- __Block_byref_object_dispose_.29651
+- __Block_byref_object_dispose_.30420
+- __Block_byref_object_dispose_.31805
+- __Block_byref_object_dispose_.32873
+- __Block_byref_object_dispose_.32988
+- __Block_byref_object_dispose_.33899
+- __Block_byref_object_dispose_.33965
+- __Block_byref_object_dispose_.34258
+- __Block_byref_object_dispose_.34546
+- __Block_byref_object_dispose_.35246
+- __Block_byref_object_dispose_.35552
+- __Block_byref_object_dispose_.35650
+- __Block_byref_object_dispose_.36447
+- __Block_byref_object_dispose_.36823
+- __Block_byref_object_dispose_.37034
+- __Block_byref_object_dispose_.37956
+- __Block_byref_object_dispose_.38231
+- __Block_byref_object_dispose_.38484
+- __Block_byref_object_dispose_.38641
+- __Block_byref_object_dispose_.4057
+- __Block_byref_object_dispose_.40577
+- __Block_byref_object_dispose_.40922
+- __Block_byref_object_dispose_.41485
+- __Block_byref_object_dispose_.42642
+- __Block_byref_object_dispose_.5436
+- __Block_byref_object_dispose_.6773
+- __Block_byref_object_dispose_.7657
+- __Block_byref_object_dispose_.8439
+- __Block_byref_object_dispose_.9446
+- __Block_byref_object_dispose_.9747
+- __Block_byref_object_dispose_.9881
+- __ProactiveSummarizationLibraryCore_block_invoke.32908
+- ___208+[SGDSuggestManager filterPseudoEvents:keepPastEvents:keepPartialEvents:keepEventsFromOldDocuments:keepPendingConfirmationEvents:keepUnsupportedEventCategoryStatusForTextMessage:keepLLMExtractionForRealTime:]_block_invoke
+- ___253-[SGDSuggestManager shortNamesAndRealtimeEventsFromEntity:message:enrichments:store:keepPastEvents:keepPartialEvents:keepEventsFromOldDocuments:keepPendingConfirmationEvents:keepUnsupportedEventCategoryStatusForTextMessage:keepLLMExtractionForRealtime:]_block_invoke
+- ___253-[SGDSuggestManager shortNamesAndRealtimeEventsFromEntity:message:enrichments:store:keepPastEvents:keepPartialEvents:keepEventsFromOldDocuments:keepPendingConfirmationEvents:keepUnsupportedEventCategoryStatusForTextMessage:keepLLMExtractionForRealtime:]_block_invoke_2
+- __block_literal_global.10.38002
+- __block_literal_global.100.14312
+- __block_literal_global.1001
+- __block_literal_global.102.17594
+- __block_literal_global.102.32811
+- __block_literal_global.10211
+- __block_literal_global.1028
+- __block_literal_global.1031
+- __block_literal_global.10659
+- __block_literal_global.10676
+- __block_literal_global.107.22859
+- __block_literal_global.107.35636
+- __block_literal_global.108.13963
+- __block_literal_global.10924
+- __block_literal_global.11167
+- __block_literal_global.113.32785
+- __block_literal_global.11308
+- __block_literal_global.11363
+- __block_literal_global.114.30278
+- __block_literal_global.11487
+- __block_literal_global.118.26367
+- __block_literal_global.11819
+- __block_literal_global.12.24173
+- __block_literal_global.12387
+- __block_literal_global.124.17597
+- __block_literal_global.124.22800
+- __block_literal_global.125.13944
+- __block_literal_global.125.34910
+- __block_literal_global.125.36819
+- __block_literal_global.12727
+- __block_literal_global.12799
+- __block_literal_global.13.34273
+- __block_literal_global.13.37977
+- __block_literal_global.13106
+- __block_literal_global.134.14853
+- __block_literal_global.134.22548
+- __block_literal_global.135.13946
+- __block_literal_global.135.17031
+- __block_literal_global.135.19274
+- __block_literal_global.1352
+- __block_literal_global.13741
+- __block_literal_global.13994
+- __block_literal_global.14.11492
+- __block_literal_global.14.21843
+- __block_literal_global.141.16627
+- __block_literal_global.14170
+- __block_literal_global.143.20995
+- __block_literal_global.143.27182
+- __block_literal_global.14323
+- __block_literal_global.147.17601
+- __block_literal_global.147.20989
+- __block_literal_global.147.31643
+- __block_literal_global.15038
+- __block_literal_global.15060
+- __block_literal_global.15117
+- __block_literal_global.15224
+- __block_literal_global.15367
+- __block_literal_global.15676
+- __block_literal_global.157.8559
+- __block_literal_global.158.27162
+- __block_literal_global.16.37970
+- __block_literal_global.16189
+- __block_literal_global.16254
+- __block_literal_global.16685
+- __block_literal_global.17.33167
+- __block_literal_global.17.40623
+- __block_literal_global.17.41172
+- __block_literal_global.17162
+- __block_literal_global.17590
+- __block_literal_global.176.17607
+- __block_literal_global.17834
+- __block_literal_global.18.35554
+- __block_literal_global.180.32435
+- __block_literal_global.181.14924
+- __block_literal_global.18876
+- __block_literal_global.19380
+- __block_literal_global.19791
+- __block_literal_global.19865
+- __block_literal_global.201.32545
+- __block_literal_global.20357
+- __block_literal_global.208.34813
+- __block_literal_global.210.32436
+- __block_literal_global.21076
+- __block_literal_global.215.37128
+- __block_literal_global.21679
+- __block_literal_global.217.17074
+- __block_literal_global.21838
+- __block_literal_global.22.40629
+- __block_literal_global.22583
+- __block_literal_global.228.13650
+- __block_literal_global.22965
+- __block_literal_global.23.31710
+- __block_literal_global.23.32902
+- __block_literal_global.232.17210
+- __block_literal_global.232.19271
+- __block_literal_global.234.17212
+- __block_literal_global.235.19265
+- __block_literal_global.23608
+- __block_literal_global.23855
+- __block_literal_global.23949
+- __block_literal_global.24096
+- __block_literal_global.241.26460
+- __block_literal_global.24170
+- __block_literal_global.24311
+- __block_literal_global.244.16541
+- __block_literal_global.244.17088
+- __block_literal_global.24435
+- __block_literal_global.247.22883
+- __block_literal_global.250.19104
+- __block_literal_global.252.22881
+- __block_literal_global.25229
+- __block_literal_global.254.22926
+- __block_literal_global.26427
+- __block_literal_global.26710
+- __block_literal_global.268.19633
+- __block_literal_global.27.38274
+- __block_literal_global.27.40617
+- __block_literal_global.27299
+- __block_literal_global.28.31704
+- __block_literal_global.28017
+- __block_literal_global.28240
+- __block_literal_global.28319
+- __block_literal_global.286.13579
+- __block_literal_global.29.38275
+- __block_literal_global.29079
+- __block_literal_global.29224
+- __block_literal_global.293.36679
+- __block_literal_global.29963
+- __block_literal_global.30073
+- __block_literal_global.301.17522
+- __block_literal_global.30388
+- __block_literal_global.306.10826
+- __block_literal_global.306.16492
+- __block_literal_global.30769
+- __block_literal_global.311.13552
+- __block_literal_global.31336
+- __block_literal_global.31719
+- __block_literal_global.31829
+- __block_literal_global.321.27067
+- __block_literal_global.32388
+- __block_literal_global.324.27068
+- __block_literal_global.32900
+- __block_literal_global.33.32904
+- __block_literal_global.33065
+- __block_literal_global.33165
+- __block_literal_global.33531
+- __block_literal_global.33701
+- __block_literal_global.34154
+- __block_literal_global.34271
+- __block_literal_global.34988
+- __block_literal_global.35550
+- __block_literal_global.35600
+- __block_literal_global.357.36988
+- __block_literal_global.35711
+- __block_literal_global.36.11456
+- __block_literal_global.36.33148
+- __block_literal_global.36.6339
+- __block_literal_global.36265
+- __block_literal_global.36311
+- __block_literal_global.36488
+- __block_literal_global.36892
+- __block_literal_global.37203
+- __block_literal_global.37998
+- __block_literal_global.38267
+- __block_literal_global.38415
+- __block_literal_global.38513
+- __block_literal_global.38668
+- __block_literal_global.39.27302
+- __block_literal_global.39.34242
+- __block_literal_global.39.38268
+- __block_literal_global.40611
+- __block_literal_global.41.33150
+- __block_literal_global.41132
+- __block_literal_global.41175
+- __block_literal_global.4126
+- __block_literal_global.41982
+- __block_literal_global.42.41242
+- __block_literal_global.42441
+- __block_literal_global.42601
+- __block_literal_global.42806
+- __block_literal_global.4296
+- __block_literal_global.43.34243
+- __block_literal_global.43269
+- __block_literal_global.45.38269
+- __block_literal_global.45.41243
+- __block_literal_global.4691
+- __block_literal_global.47.36873
+- __block_literal_global.472.32672
+- __block_literal_global.48.38488
+- __block_literal_global.488.34537
+- __block_literal_global.49.34239
+- __block_literal_global.49.38247
+- __block_literal_global.50.10212
+- __block_literal_global.50.24139
+- __block_literal_global.5012
+- __block_literal_global.52.33129
+- __block_literal_global.52.38259
+- __block_literal_global.5324
+- __block_literal_global.5384
+- __block_literal_global.573
+- __block_literal_global.5896
+- __block_literal_global.61.42731
+- __block_literal_global.62.31681
+- __block_literal_global.62.35520
+- __block_literal_global.6368
+- __block_literal_global.64.24318
+- __block_literal_global.64.31678
+- __block_literal_global.6426
+- __block_literal_global.647
+- __block_literal_global.67.38248
+- __block_literal_global.671
+- __block_literal_global.6725
+- __block_literal_global.681.37464
+- __block_literal_global.6873
+- __block_literal_global.689
+- __block_literal_global.691
+- __block_literal_global.6935
+- __block_literal_global.698
+- __block_literal_global.70.38249
+- __block_literal_global.73.38250
+- __block_literal_global.74.21001
+- __block_literal_global.74.29226
+- __block_literal_global.7457
+- __block_literal_global.747
+- __block_literal_global.76.37262
+- __block_literal_global.7635
+- __block_literal_global.773
+- __block_literal_global.78.29228
+- __block_literal_global.793
+- __block_literal_global.795
+- __block_literal_global.7964
+- __block_literal_global.84.22922
+- __block_literal_global.866
+- __block_literal_global.8663
+- __block_literal_global.868
+- __block_literal_global.87.32814
+- __block_literal_global.891
+- __block_literal_global.899
+- __block_literal_global.90.30323
+- __block_literal_global.90.37251
+- __block_literal_global.91.38448
+- __block_literal_global.912.27682
+- __block_literal_global.9124
+- __block_literal_global.9396
+- __block_literal_global.94.34926
+- __block_literal_global.9452
+- __block_literal_global.957
+- __block_literal_global.9577
+- __block_literal_global.965
+- __block_literal_global.97.14846
+- __block_literal_global.97.17593
+- __block_literal_global.97.26381
+- __block_literal_global.97.30852
+- __block_literal_global.9745
+- __block_literal_global.977
+- __patterns_block_invoke.17041
+- __patterns_block_invoke.22895
+- __patterns_block_invoke.23953
+- __patterns_block_invoke.25233
+- __patterns_block_invoke.9581
+- _addEKEventToCalendar:storageEvent:ekStore:commit:._pasOnceToken46
+- _objc_msgSend$filterPseudoEvents:keepPastEvents:keepPartialEvents:keepEventsFromOldDocuments:keepPendingConfirmationEvents:
+- _objc_msgSend$filterPseudoEvents:keepPastEvents:keepPartialEvents:keepEventsFromOldDocuments:keepPendingConfirmationEvents:keepUnsupportedEventCategoryStatusForTextMessage:
+- _objc_msgSend$filterPseudoEvents:keepPastEvents:keepPartialEvents:keepEventsFromOldDocuments:keepPendingConfirmationEvents:keepUnsupportedEventCategoryStatusForTextMessage:keepLLMExtractionForRealTime:
+- _objc_msgSend$schemasInEntityTagsBelongsToPendingConfirmationEvent:
+- _objc_msgSend$shortNamesAndRealtimeEventsFromEntity:message:enrichments:store:keepPastEvents:keepPartialEvents:keepEventsFromOldDocuments:keepPendingConfirmationEvents:keepUnsupportedEventCategoryStatusForTextMessage:keepLLMExtractionForRealtime:
+- _processReservationInteractions:bundleId:completion:._pasOnceToken160
+- _serialQueueForTitleGeneration._pasOnceToken200
+- addInteractions:bundleId:completion:._pasOnceToken150
+- asDictionary.onceToken.30768
+- asDictionary.sharedKeySet.30771
+- audit_stringProactiveSummarization.32911
+- bumptTTLForNLEvent:._pasOnceToken55
+- charactersSAX.36263
+- consumeInteractionWithContext:._pasOnceToken244
+- isLowercaseAscii.17069
+- kSqlEventFired_block_invoke._pasExprOnceResult.15118
+- logEventInteractionForEventWithExternalIdentifier:interface:actionType:._pasOnceToken187
+- logEventInteractionForEventWithUniqueKey:interface:actionType:._pasOnceToken195
+- patterns.17034
+- patterns.22843
+- patterns.23934
+- patterns.25224
+- patterns.9561
+- patterns.onceToken.17038
+- patterns.onceToken.22892
+- patterns.onceToken.23948
+- patterns.onceToken.24973
+- patterns.onceToken.25228
+- patterns.onceToken.9576
+- patterns.patterns.17039
+- patterns.patterns.22893
+- patterns.patterns.23950
+- patterns.patterns.24974
+- patterns.patterns.25230
+- patterns.patterns.9578
+- sharedInstance.28020
+- sharedInstance._pasExprOnceResult.11820
+- sharedInstance._pasExprOnceResult.12800
+- sharedInstance._pasExprOnceResult.13107
+- sharedInstance._pasExprOnceResult.14171
+- sharedInstance._pasExprOnceResult.15225
+- sharedInstance._pasExprOnceResult.16150
+- sharedInstance._pasExprOnceResult.21680
+- sharedInstance._pasExprOnceResult.24097
+- sharedInstance._pasExprOnceResult.28320
+- sharedInstance._pasExprOnceResult.31830
+- sharedInstance._pasExprOnceResult.33066
+- sharedInstance._pasExprOnceResult.33532
+- sharedInstance._pasExprOnceResult.36395
+- sharedInstance._pasExprOnceResult.36489
+- sharedInstance._pasExprOnceResult.37999
+- sharedInstance._pasExprOnceResult.41133
+- sharedInstance._pasExprOnceResult.4692
+- sharedInstance._pasExprOnceResult.6508
+- sharedInstance._pasExprOnceResult.6874
+- sharedInstance._pasOnceToken2.11818
+- sharedInstance._pasOnceToken2.12798
+- sharedInstance._pasOnceToken2.13105
+- sharedInstance._pasOnceToken2.14169
+- sharedInstance._pasOnceToken2.15223
+- sharedInstance._pasOnceToken2.24095
+- sharedInstance._pasOnceToken2.28318
+- sharedInstance._pasOnceToken2.36394
+- sharedInstance._pasOnceToken2.41131
+- sharedInstance._pasOnceToken2.4690
+- sharedInstance._pasOnceToken2.6507
+- sharedInstance._pasOnceToken2.6872
+- sharedInstance._pasOnceToken3.21678
+- sharedInstance._pasOnceToken3.31828
+- sharedInstance._pasOnceToken3.33064
+- sharedInstance._pasOnceToken3.33530
+- sharedInstance._pasOnceToken3.36487
+- sharedInstance._pasOnceToken9.37997
+- titleSuggestionForMessage:withCompletion:._pasOnceToken202
+- transformerInstanceForLanguage:._pasOnceToken378
+CStrings:
++ "/AppleInternal/Library/BuildRoots/fa4539c7-059d-11f0-b0c1-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/Suggestions/re2/re2/re2_nfa.cc"
++ "/AppleInternal/Library/BuildRoots/fa4539c7-059d-11f0-b0c1-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/Suggestions/re2/re2/re2_prefilter.h"
++ "/AppleInternal/Library/BuildRoots/fa4539c7-059d-11f0-b0c1-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/Suggestions/re2/re2/re2_regexp.h"
++ "SGAppointmentEventSchemaCreator: startDate exists but missing time component"
++ "SGEkCalendarAdapter addEvent: Skipping donation of event with unsupported category/status."
++ "SGEventDonationEnablementManager: %@ status not supported for event extraction."
++ "SGEventDonationEnablementManager: Category not supported for event extraction."
++ "SGInvitationEventSchemaCreator: startDate exists but missing time component"
++ "Skipping event extraction since the category/status was unsupported."
++ "T"
++ "filterPseudoEvents:keepPastEvents:keepPartialEvents:keepEventsFromOldDocuments:keepUnsupportedEventCategoryStatus:"
++ "filterPseudoEvents:keepPastEvents:keepPartialEvents:keepEventsFromOldDocuments:keepUnsupportedEventCategoryStatus:keepUnsupportedEventCategoryStatusForTextMessage:"
++ "filterPseudoEvents:keepPastEvents:keepPartialEvents:keepEventsFromOldDocuments:keepUnsupportedEventCategoryStatus:keepUnsupportedEventCategoryStatusForTextMessage:keepLLMExtractionForRealTime:"
++ "isUnsupportedEventCategoryStatusForEventExtraction:"
++ "shortNamesAndRealtimeEventsFromEntity:message:enrichments:store:keepPastEvents:keepPartialEvents:keepEventsFromOldDocuments:keepUnsupportedEventCategoryStatus:keepUnsupportedEventCategoryStatusForTextMessage:keepLLMExtractionForRealtime:"
+- "/AppleInternal/Library/BuildRoots/01adf19d-fba1-11ef-a947-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/Suggestions/re2/re2/re2_nfa.cc"
+- "/AppleInternal/Library/BuildRoots/01adf19d-fba1-11ef-a947-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/Suggestions/re2/re2/re2_prefilter.h"
+- "/AppleInternal/Library/BuildRoots/01adf19d-fba1-11ef-a947-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/Suggestions/re2/re2/re2_regexp.h"
+- "filterPseudoEvents:keepPastEvents:keepPartialEvents:keepEventsFromOldDocuments:keepPendingConfirmationEvents:"
+- "filterPseudoEvents:keepPastEvents:keepPartialEvents:keepEventsFromOldDocuments:keepPendingConfirmationEvents:keepUnsupportedEventCategoryStatusForTextMessage:"
+- "filterPseudoEvents:keepPastEvents:keepPartialEvents:keepEventsFromOldDocuments:keepPendingConfirmationEvents:keepUnsupportedEventCategoryStatusForTextMessage:keepLLMExtractionForRealTime:"
+- "shortNamesAndRealtimeEventsFromEntity:message:enrichments:store:keepPastEvents:keepPartialEvents:keepEventsFromOldDocuments:keepPendingConfirmationEvents:keepUnsupportedEventCategoryStatusForTextMessage:keepLLMExtractionForRealtime:"
+
+```

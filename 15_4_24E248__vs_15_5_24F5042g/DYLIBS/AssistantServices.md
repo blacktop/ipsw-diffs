@@ -1,0 +1,1057 @@
+## AssistantServices
+
+> `/System/Library/PrivateFrameworks/AssistantServices.framework/Versions/A/AssistantServices`
+
+```diff
+
+-3404.80.4.0.0
+-  __TEXT.__text: 0x1b9d80
++3405.21.2.0.0
++  __TEXT.__text: 0x1ba330
+   __TEXT.__auth_stubs: 0x1280
+-  __TEXT.__objc_methlist: 0x1d83c
++  __TEXT.__objc_methlist: 0x1d8dc
+   __TEXT.__const: 0x440
+   __TEXT.__dlopen_cstrs: 0x324
+   __TEXT.__gcc_except_tab: 0x284c
+-  __TEXT.__cstring: 0x3a6fc
+-  __TEXT.__oslogstring: 0xff26
++  __TEXT.__cstring: 0x3a8d8
++  __TEXT.__oslogstring: 0xffb9
+   __TEXT.__ustring: 0x2ac
+-  __TEXT.__unwind_info: 0x7788
++  __TEXT.__unwind_info: 0x7790
+   __TEXT.__objc_classname: 0x4e8b
+-  __TEXT.__objc_methname: 0x39f6b
+-  __TEXT.__objc_methtype: 0xa8b9
+-  __TEXT.__objc_stubs: 0x23380
++  __TEXT.__objc_methname: 0x3a1de
++  __TEXT.__objc_methtype: 0xa8df
++  __TEXT.__objc_stubs: 0x23460
+   __DATA_CONST.__got: 0x15e8
+-  __DATA_CONST.__const: 0x3ed8
++  __DATA_CONST.__const: 0x3ee8
+   __DATA_CONST.__objc_classlist: 0xdc8
+   __DATA_CONST.__objc_catlist: 0x290
+   __DATA_CONST.__objc_protolist: 0x548
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0xbe40
++  __DATA_CONST.__objc_selrefs: 0xbe98
+   __DATA_CONST.__objc_protorefs: 0x150
+   __DATA_CONST.__objc_superrefs: 0xde0
+   __DATA_CONST.__objc_arraydata: 0x2080
+   __AUTH_CONST.__auth_got: 0x950
+   __AUTH_CONST.__auth_ptr: 0x8
+   __AUTH_CONST.__const: 0x8140
+-  __AUTH_CONST.__cfstring: 0x265a0
+-  __AUTH_CONST.__objc_const: 0x33188
++  __AUTH_CONST.__cfstring: 0x266a0
++  __AUTH_CONST.__objc_const: 0x332a0
+   __AUTH_CONST.__objc_intobj: 0x2328
+   __AUTH_CONST.__objc_dictobj: 0xb90
+   __AUTH_CONST.__objc_arrayobj: 0x5b8
+   __AUTH_CONST.__objc_doubleobj: 0x30
+   __AUTH.__objc_data: 0x3020
+   __AUTH.__data: 0x80
+-  __DATA.__objc_ivar: 0x2518
++  __DATA.__objc_ivar: 0x2530
+   __DATA.__data: 0x40b0
+-  __DATA.__bss: 0xf50
++  __DATA.__bss: 0xf40
+   __DATA.__common: 0x40
+   __DATA_DIRTY.__objc_data: 0x59b0
+   __DATA_DIRTY.__data: 0xa0
+
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  Functions: 11535
+-  Symbols:   26049
+-  CStrings:  18677
++  Functions: 11549
++  Symbols:   26075
++  CStrings:  18710
+ 
+Symbols:
++ -[AFMultiUserConnection getLoggableIdentiferForUserWithSharedUserID:iCloudAltDSID:sessionID:completion:]
++ -[AFPreferences deviceHasAtvInHome]
++ -[AFPreferences deviceHasHomePodInHome]
++ -[AFSpeechRequestOptions setUserProfileConfidence:]
++ -[AFSpeechRequestOptions setUserProfileHeadphoneConnected:]
++ -[AFSpeechRequestOptions setUserProfilePersonaId:]
++ -[AFSpeechRequestOptions userProfileConfidence]
++ -[AFSpeechRequestOptions userProfileHeadphoneConnected]
++ -[AFSpeechRequestOptions userProfilePersonaId]
++ -[AFSystemAssistantExperienceStatusManager .cxx_destruct]
++ -[AFSystemAssistantExperienceStatusManager updateQueue]
++ -[AFVoiceIdScoreCard hasSufficientAudioProcessed]
++ -[AFVoiceIdScoreCard initWithSpIdAudioProcessedDuration:spIdUnknownUserScore:spIdKnownUserScores:spIdUserScoresVersion:spIdScoreThresholdingType:spIdAssetVersion:userClassified:userIdentityClassification:lowScoreThreshold:highScoreThreshold:confidentScoreThreshold:deltaScoreThreshold:hasSufficientAudioProcessed:]
++ -[_AFVoiceIdScoreCardMutation getHasSufficientAudioProcessed]
++ -[_AFVoiceIdScoreCardMutation setHasSufficientAudioProcessed:]
++ BiomeLibraryLibraryCore.45418
++ BiomeLibraryLibraryCore.frameworkLibrary.26982
++ BiomeLibraryLibraryCore.frameworkLibrary.45421
++ BluetoothManagerLibrary.45518
++ GCC_except_table10005
++ GCC_except_table10196
++ GCC_except_table10257
++ GCC_except_table10261
++ GCC_except_table10263
++ GCC_except_table10266
++ GCC_except_table10272
++ GCC_except_table10279
++ GCC_except_table10516
++ GCC_except_table10682
++ GCC_except_table10695
++ GCC_except_table10874
++ GCC_except_table10992
++ GCC_except_table11005
++ GCC_except_table11040
++ GCC_except_table11295
++ GCC_except_table11446
++ GCC_except_table11465
++ GCC_except_table11468
++ GCC_except_table11470
++ GCC_except_table2759
++ GCC_except_table2765
++ GCC_except_table2771
++ GCC_except_table2775
++ GCC_except_table2779
++ GCC_except_table2784
++ GCC_except_table2793
++ GCC_except_table2797
++ GCC_except_table2809
++ GCC_except_table2812
++ GCC_except_table2844
++ GCC_except_table2887
++ GCC_except_table2912
++ GCC_except_table2967
++ GCC_except_table2997
++ GCC_except_table3270
++ GCC_except_table3326
++ GCC_except_table3448
++ GCC_except_table3461
++ GCC_except_table3462
++ GCC_except_table3474
++ GCC_except_table3481
++ GCC_except_table3482
++ GCC_except_table3485
++ GCC_except_table3491
++ GCC_except_table3581
++ GCC_except_table3598
++ GCC_except_table3604
++ GCC_except_table3646
++ GCC_except_table3658
++ GCC_except_table3728
++ GCC_except_table3831
++ GCC_except_table3838
++ GCC_except_table3853
++ GCC_except_table3892
++ GCC_except_table3980
++ GCC_except_table4034
++ GCC_except_table4439
++ GCC_except_table4726
++ GCC_except_table4794
++ GCC_except_table4859
++ GCC_except_table4869
++ GCC_except_table4880
++ GCC_except_table4894
++ GCC_except_table5015
++ GCC_except_table5372
++ GCC_except_table5375
++ GCC_except_table5465
++ GCC_except_table5471
++ GCC_except_table5477
++ GCC_except_table5573
++ GCC_except_table5577
++ GCC_except_table5693
++ GCC_except_table5792
++ GCC_except_table5813
++ GCC_except_table5815
++ GCC_except_table5879
++ GCC_except_table5881
++ GCC_except_table5883
++ GCC_except_table5885
++ GCC_except_table5899
++ GCC_except_table5905
++ GCC_except_table6026
++ GCC_except_table6033
++ GCC_except_table6388
++ GCC_except_table6403
++ GCC_except_table6428
++ GCC_except_table6534
++ GCC_except_table6572
++ GCC_except_table6604
++ GCC_except_table6671
++ GCC_except_table7186
++ GCC_except_table7191
++ GCC_except_table7194
++ GCC_except_table7197
++ GCC_except_table7200
++ GCC_except_table7203
++ GCC_except_table7410
++ GCC_except_table7413
++ GCC_except_table7415
++ GCC_except_table7427
++ GCC_except_table7651
++ GCC_except_table7759
++ GCC_except_table7791
++ GCC_except_table7977
++ GCC_except_table7982
++ GCC_except_table8046
++ GCC_except_table8152
++ GCC_except_table8573
++ GCC_except_table8624
++ GCC_except_table8668
++ GCC_except_table8765
++ GCC_except_table8770
++ GCC_except_table8771
++ GCC_except_table8775
++ GCC_except_table9018
++ GCC_except_table9090
++ GCC_except_table9096
++ GCC_except_table9133
++ GCC_except_table9136
++ GCC_except_table9214
++ GCC_except_table9242
++ GCC_except_table9314
++ GCC_except_table9317
++ GCC_except_table9321
++ GCC_except_table9429
++ GCC_except_table9433
++ GCC_except_table9437
++ GCC_except_table9470
++ GCC_except_table9517
++ GCC_except_table9952
++ GCC_except_table9955
++ GCC_except_table9964
++ GCC_except_table9990
++ IntentsLibrary.15184
++ IntentsLibraryCore.frameworkLibrary.15194
++ IntentsLibraryCore.frameworkLibrary.30921
++ LSApplicationProxyFunction.34316
++ LSApplicationProxyFunction.46058
++ LaunchServicesLibrary.frameworkLibrary.46054
++ OBJC_IVAR_$_AFSpeechRequestOptions._userProfileConfidence
++ OBJC_IVAR_$_AFSpeechRequestOptions._userProfileHeadphoneConnected
++ OBJC_IVAR_$_AFSpeechRequestOptions._userProfilePersonaId
++ OBJC_IVAR_$_AFSystemAssistantExperienceStatusManager._updateQueue
++ OBJC_IVAR_$_AFVoiceIdScoreCard._hasSufficientAudioProcessed
++ OBJC_IVAR_$__AFVoiceIdScoreCardMutation._hasSufficientAudioProcessed
++ SoftBiomeLibrary.45404
++ _AFSystemAssistantExperienceAvailabilityDidChangeNotificationName
++ __BiomeLibraryLibraryCore_block_invoke.26983
++ __BiomeLibraryLibraryCore_block_invoke.45422
++ __Block_byref_object_copy_.10160
++ __Block_byref_object_copy_.10693
++ __Block_byref_object_copy_.10877
++ __Block_byref_object_copy_.11518
++ __Block_byref_object_copy_.12092
++ __Block_byref_object_copy_.13363
++ __Block_byref_object_copy_.13613
++ __Block_byref_object_copy_.16570
++ __Block_byref_object_copy_.17097
++ __Block_byref_object_copy_.17578
++ __Block_byref_object_copy_.19733
++ __Block_byref_object_copy_.20225
++ __Block_byref_object_copy_.21224
++ __Block_byref_object_copy_.22146
++ __Block_byref_object_copy_.22823
++ __Block_byref_object_copy_.23214
++ __Block_byref_object_copy_.23819
++ __Block_byref_object_copy_.26115
++ __Block_byref_object_copy_.28834
++ __Block_byref_object_copy_.30498
++ __Block_byref_object_copy_.34727
++ __Block_byref_object_copy_.35176
++ __Block_byref_object_copy_.37393
++ __Block_byref_object_copy_.38576
++ __Block_byref_object_copy_.41713
++ __Block_byref_object_copy_.46170
++ __Block_byref_object_copy_.47377
++ __Block_byref_object_copy_.48107
++ __Block_byref_object_copy_.48387
++ __Block_byref_object_dispose_.10161
++ __Block_byref_object_dispose_.10694
++ __Block_byref_object_dispose_.10878
++ __Block_byref_object_dispose_.11519
++ __Block_byref_object_dispose_.12093
++ __Block_byref_object_dispose_.13364
++ __Block_byref_object_dispose_.13614
++ __Block_byref_object_dispose_.16571
++ __Block_byref_object_dispose_.17098
++ __Block_byref_object_dispose_.17579
++ __Block_byref_object_dispose_.19734
++ __Block_byref_object_dispose_.20226
++ __Block_byref_object_dispose_.21225
++ __Block_byref_object_dispose_.22147
++ __Block_byref_object_dispose_.22824
++ __Block_byref_object_dispose_.23215
++ __Block_byref_object_dispose_.23820
++ __Block_byref_object_dispose_.26116
++ __Block_byref_object_dispose_.28835
++ __Block_byref_object_dispose_.30499
++ __Block_byref_object_dispose_.34728
++ __Block_byref_object_dispose_.35177
++ __Block_byref_object_dispose_.37394
++ __Block_byref_object_dispose_.38577
++ __Block_byref_object_dispose_.41714
++ __Block_byref_object_dispose_.46171
++ __Block_byref_object_dispose_.47378
++ __Block_byref_object_dispose_.48108
++ __Block_byref_object_dispose_.48388
++ __IntentsLibraryCore_block_invoke.15195
++ __IntentsLibraryCore_block_invoke.30922
++ ___104-[AFMultiUserConnection getLoggableIdentiferForUserWithSharedUserID:iCloudAltDSID:sessionID:completion:]_block_invoke
++ ___104-[AFMultiUserConnection getLoggableIdentiferForUserWithSharedUserID:iCloudAltDSID:sessionID:completion:]_block_invoke_2
++ ___314-[AFVoiceIdScoreCard initWithSpIdAudioProcessedDuration:spIdUnknownUserScore:spIdKnownUserScores:spIdUserScoresVersion:spIdScoreThresholdingType:spIdAssetVersion:userClassified:userIdentityClassification:lowScoreThreshold:highScoreThreshold:confidentScoreThreshold:deltaScoreThreshold:hasSufficientAudioProcessed:]_block_invoke
++ ___77-[AFSystemAssistantExperienceStatusManager fetchGenerativeModelsAvailability]_block_invoke
++ ___HandleSiriCapabilitiesDidChange_block_invoke
++ ___block_descriptor_136_e8_32s40s48s56s64s72s80s88s96s104s112s_e38_v16?0"<AFVoiceIdScoreCardMutating>"8l
++ __block_literal_global.101.38690
++ __block_literal_global.104.38684
++ __block_literal_global.10487
++ __block_literal_global.10544
++ __block_literal_global.10631
++ __block_literal_global.10698
++ __block_literal_global.108.22280
++ __block_literal_global.11191
++ __block_literal_global.112.22275
++ __block_literal_global.11722
++ __block_literal_global.11801
++ __block_literal_global.11828
++ __block_literal_global.11903
++ __block_literal_global.120.22266
++ __block_literal_global.12115
++ __block_literal_global.12385
++ __block_literal_global.12425
++ __block_literal_global.128.22260
++ __block_literal_global.12934
++ __block_literal_global.130.22257
++ __block_literal_global.136.22249
++ __block_literal_global.13765
++ __block_literal_global.138.45671
++ __block_literal_global.13972
++ __block_literal_global.14129
++ __block_literal_global.144.22241
++ __block_literal_global.14454
++ __block_literal_global.14482
++ __block_literal_global.14592
++ __block_literal_global.15.26970
++ __block_literal_global.15.44210
++ __block_literal_global.150.45740
++ __block_literal_global.160.22230
++ __block_literal_global.160.45749
++ __block_literal_global.16043
++ __block_literal_global.16402
++ __block_literal_global.16607
++ __block_literal_global.16744
++ __block_literal_global.16922
++ __block_literal_global.170.45759
++ __block_literal_global.17140
++ __block_literal_global.17174
++ __block_literal_global.17571
++ __block_literal_global.181.45676
++ __block_literal_global.18592
++ __block_literal_global.186.45775
++ __block_literal_global.18611
++ __block_literal_global.18954
++ __block_literal_global.19109
++ __block_literal_global.19149
++ __block_literal_global.19181
++ __block_literal_global.1945
++ __block_literal_global.19601
++ __block_literal_global.19678
++ __block_literal_global.19735
++ __block_literal_global.198.45777
++ __block_literal_global.20.19100
++ __block_literal_global.2007
++ __block_literal_global.2010
++ __block_literal_global.20263
++ __block_literal_global.20512
++ __block_literal_global.20649
++ __block_literal_global.2066
++ __block_literal_global.20716
++ __block_literal_global.20820
++ __block_literal_global.20945
++ __block_literal_global.20975
++ __block_literal_global.210.45799
++ __block_literal_global.21387
++ __block_literal_global.22.46880
++ __block_literal_global.220.22201
++ __block_literal_global.22340
++ __block_literal_global.23267
++ __block_literal_global.23291
++ __block_literal_global.23374
++ __block_literal_global.23766
++ __block_literal_global.23948
++ __block_literal_global.251
++ __block_literal_global.25317
++ __block_literal_global.26.10706
++ __block_literal_global.261
++ __block_literal_global.26193
++ __block_literal_global.26220
++ __block_literal_global.26486
++ __block_literal_global.26684
++ __block_literal_global.26855
++ __block_literal_global.26990
++ __block_literal_global.27177
++ __block_literal_global.27341
++ __block_literal_global.28176
++ __block_literal_global.28366
++ __block_literal_global.28790
++ __block_literal_global.28872
++ __block_literal_global.28967
++ __block_literal_global.29.45583
++ __block_literal_global.29275
++ __block_literal_global.29338
++ __block_literal_global.29982
++ __block_literal_global.30109
++ __block_literal_global.30211
++ __block_literal_global.30254
++ __block_literal_global.31068
++ __block_literal_global.32716
++ __block_literal_global.33137
++ __block_literal_global.33641
++ __block_literal_global.34309
++ __block_literal_global.34889
++ __block_literal_global.35020
++ __block_literal_global.35192
++ __block_literal_global.35270
++ __block_literal_global.36899
++ __block_literal_global.36919
++ __block_literal_global.37414
++ __block_literal_global.38.22334
++ __block_literal_global.38262
++ __block_literal_global.38291
++ __block_literal_global.38391
++ __block_literal_global.38458
++ __block_literal_global.38699
++ __block_literal_global.38892
++ __block_literal_global.39358
++ __block_literal_global.39409
++ __block_literal_global.40356
++ __block_literal_global.40390
++ __block_literal_global.40665
++ __block_literal_global.40888
++ __block_literal_global.41310
++ __block_literal_global.41525
++ __block_literal_global.41742
++ __block_literal_global.41849
++ __block_literal_global.42.14908
++ __block_literal_global.43.22326
++ __block_literal_global.43081
++ __block_literal_global.43139
++ __block_literal_global.43741
++ __block_literal_global.44014
++ __block_literal_global.44106
++ __block_literal_global.44214
++ __block_literal_global.45437
++ __block_literal_global.45569
++ __block_literal_global.46537
++ __block_literal_global.46563
++ __block_literal_global.46719
++ __block_literal_global.46870
++ __block_literal_global.47.22319
++ __block_literal_global.47399
++ __block_literal_global.48063
++ __block_literal_global.48408
++ __block_literal_global.49.48399
++ __block_literal_global.5.48393
++ __block_literal_global.50
++ __block_literal_global.51.26862
++ __block_literal_global.54.26863
++ __block_literal_global.590.46144
++ __block_literal_global.60.35194
++ __block_literal_global.61.23759
++ __block_literal_global.67.22307
++ __block_literal_global.68.35199
++ __block_literal_global.68.45602
++ __block_literal_global.70.35200
++ __block_literal_global.72.22301
++ __block_literal_global.74.35201
++ __block_literal_global.75.43198
++ __block_literal_global.78.43195
++ __block_literal_global.781
++ __block_literal_global.813
++ __block_literal_global.833
++ __block_literal_global.84.22296
++ __block_literal_global.85.30171
++ __block_literal_global.85.35184
++ __block_literal_global.86.22293
++ __block_literal_global.879
++ __block_literal_global.885
++ __block_literal_global.892
++ __block_literal_global.897
++ __block_literal_global.901
++ __block_literal_global.904
++ __block_literal_global.92.38686
++ __block_literal_global.922
++ __block_literal_global.927
++ __block_literal_global.930
++ __block_literal_global.933
++ __block_literal_global.95.38696
++ __block_literal_global.98.38693
++ __block_literal_global.9910
++ __getBMSiriServiceClass_block_invoke.27003
++ __getBiomeLibrarySymbolLoc_block_invoke.45410
++ __getINSearchForMessagesIntentIdentifierSymbolLoc_block_invoke.15201
++ __getINSendMessageIntentIdentifierSymbolLoc_block_invoke.15183
++ __initLSApplicationProxy_block_invoke.34313
++ __initLSApplicationProxy_block_invoke.46053
++ _checkGMStatusWithUseCaseIdentifiers
++ _objc_msgSend$getHasSufficientAudioProcessed
++ _objc_msgSend$getLoggableIdentiferForUserWithSharedUserID:iCloudAltDSID:sessionID:completion:
++ _objc_msgSend$hasSufficientAudioProcessed
++ _objc_msgSend$initWithSpIdAudioProcessedDuration:spIdUnknownUserScore:spIdKnownUserScores:spIdUserScoresVersion:spIdScoreThresholdingType:spIdAssetVersion:userClassified:userIdentityClassification:lowScoreThreshold:highScoreThreshold:confidentScoreThreshold:deltaScoreThreshold:hasSufficientAudioProcessed:
++ _objc_msgSend$setHasSufficientAudioProcessed:
++ _objc_msgSend$setUserProfileConfidence:
++ _objc_msgSend$setUserProfileHeadphoneConnected:
++ _objc_msgSend$setUserProfilePersonaId:
++ _objc_msgSend$updateQueue
++ audit_stringBiomeLibrary.26985
++ audit_stringBiomeLibrary.45424
++ audit_stringIntents.15198
++ audit_stringIntents.30936
++ classLSApplicationProxy.34310
++ classLSApplicationProxy.46051
++ getBMSiriServiceClass.softClass.27002
++ getBiomeLibrarySymbolLoc.ptr.45409
++ getBluetoothPairedStatusChangedNotification.45522
++ getINSearchForMessagesIntentIdentifier.15181
++ getINSearchForMessagesIntentIdentifierSymbolLoc.ptr.15200
++ getINSendMessageIntentIdentifierSymbolLoc.ptr.15182
++ getLSApplicationProxyClass.34302
++ getLSApplicationProxyClass.46047
++ initLSApplicationProxy.34307
++ initLSApplicationProxy.46049
++ initLSApplicationProxy.sOnce.34308
++ initLSApplicationProxy.sOnce.46050
++ provider.onceToken.15203
++ provider.provider.15204
++ sharedInstance.onceToken.17139
++ sharedInstance.onceToken.22370
++ sharedInstance.onceToken.23266
++ sharedInstance.onceToken.28365
++ sharedInstance.onceToken.36918
++ sharedInstance.onceToken.44232
++ sharedInstance.singleton.44233
++ sharedManager.onceToken.16606
++ sharedManager.onceToken.21869
++ sharedManager.onceToken.32715
++ sharedManager.onceToken.43080
++ sharedManager.result.32717
++ sharedManager.sharedManager.43082
++ sharedMonitor.onceToken.20277
++ sharedObserver.onceToken.31067
++ sharedObserver.onceToken.45525
++ sharedObserver.onceToken.48407
++ sharedObserver.sharedObserver.31069
++ sharedObserver.sharedObserver.48409
+- +[AFFeatureFlags(SWEFeatureFlags) isHintsEnabled]
+- -[AFMultiUserConnection getLoggableIdentiferForUserWithiCloudAltDSID:sharedUserID:sessionID:completion:]
+- -[AFVoiceIdScoreCard initWithSpIdAudioProcessedDuration:spIdUnknownUserScore:spIdKnownUserScores:spIdUserScoresVersion:spIdScoreThresholdingType:spIdAssetVersion:userClassified:userIdentityClassification:lowScoreThreshold:highScoreThreshold:confidentScoreThreshold:deltaScoreThreshold:]
+- AFIsDeviceGreymatterEligible.isDeviceGreymatterEligible
+- AFIsDeviceGreymatterEligible.onceToken
+- BiomeLibraryLibraryCore.45357
+- BiomeLibraryLibraryCore.frameworkLibrary.26957
+- BiomeLibraryLibraryCore.frameworkLibrary.45360
+- BluetoothManagerLibrary.45456
+- GCC_except_table10182
+- GCC_except_table10243
+- GCC_except_table10247
+- GCC_except_table10249
+- GCC_except_table10252
+- GCC_except_table10258
+- GCC_except_table10265
+- GCC_except_table10502
+- GCC_except_table10668
+- GCC_except_table10681
+- GCC_except_table10860
+- GCC_except_table10978
+- GCC_except_table10991
+- GCC_except_table11026
+- GCC_except_table11281
+- GCC_except_table11432
+- GCC_except_table11451
+- GCC_except_table11454
+- GCC_except_table11456
+- GCC_except_table2755
+- GCC_except_table2763
+- GCC_except_table2769
+- GCC_except_table2773
+- GCC_except_table2777
+- GCC_except_table2780
+- GCC_except_table2789
+- GCC_except_table2795
+- GCC_except_table2807
+- GCC_except_table2810
+- GCC_except_table2832
+- GCC_except_table2885
+- GCC_except_table2910
+- GCC_except_table2965
+- GCC_except_table2995
+- GCC_except_table3268
+- GCC_except_table3324
+- GCC_except_table3446
+- GCC_except_table3459
+- GCC_except_table3460
+- GCC_except_table3472
+- GCC_except_table3479
+- GCC_except_table3480
+- GCC_except_table3483
+- GCC_except_table3489
+- GCC_except_table3577
+- GCC_except_table3596
+- GCC_except_table3602
+- GCC_except_table3644
+- GCC_except_table3656
+- GCC_except_table3726
+- GCC_except_table3829
+- GCC_except_table3836
+- GCC_except_table3851
+- GCC_except_table3890
+- GCC_except_table3978
+- GCC_except_table4032
+- GCC_except_table4437
+- GCC_except_table4725
+- GCC_except_table4793
+- GCC_except_table4858
+- GCC_except_table4868
+- GCC_except_table4879
+- GCC_except_table4893
+- GCC_except_table5014
+- GCC_except_table5371
+- GCC_except_table5374
+- GCC_except_table5464
+- GCC_except_table5470
+- GCC_except_table5476
+- GCC_except_table5572
+- GCC_except_table5576
+- GCC_except_table5692
+- GCC_except_table5791
+- GCC_except_table5812
+- GCC_except_table5814
+- GCC_except_table5878
+- GCC_except_table5880
+- GCC_except_table5882
+- GCC_except_table5884
+- GCC_except_table5898
+- GCC_except_table5904
+- GCC_except_table6025
+- GCC_except_table6032
+- GCC_except_table6387
+- GCC_except_table6402
+- GCC_except_table6427
+- GCC_except_table6533
+- GCC_except_table6571
+- GCC_except_table6603
+- GCC_except_table6670
+- GCC_except_table7179
+- GCC_except_table7184
+- GCC_except_table7187
+- GCC_except_table7190
+- GCC_except_table7193
+- GCC_except_table7196
+- GCC_except_table7403
+- GCC_except_table7406
+- GCC_except_table7408
+- GCC_except_table7420
+- GCC_except_table7644
+- GCC_except_table7749
+- GCC_except_table7781
+- GCC_except_table7967
+- GCC_except_table7972
+- GCC_except_table8036
+- GCC_except_table8142
+- GCC_except_table8559
+- GCC_except_table8610
+- GCC_except_table8654
+- GCC_except_table8751
+- GCC_except_table8756
+- GCC_except_table8757
+- GCC_except_table8761
+- GCC_except_table9004
+- GCC_except_table9076
+- GCC_except_table9082
+- GCC_except_table9119
+- GCC_except_table9122
+- GCC_except_table9200
+- GCC_except_table9228
+- GCC_except_table9300
+- GCC_except_table9303
+- GCC_except_table9307
+- GCC_except_table9415
+- GCC_except_table9419
+- GCC_except_table9423
+- GCC_except_table9456
+- GCC_except_table9503
+- GCC_except_table9936
+- GCC_except_table9938
+- GCC_except_table9941
+- GCC_except_table9976
+- GCC_except_table9991
+- IntentsLibrary.15174
+- IntentsLibraryCore.frameworkLibrary.15184
+- IntentsLibraryCore.frameworkLibrary.30881
+- LSApplicationProxyFunction.34261
+- LSApplicationProxyFunction.45959
+- LaunchServicesLibrary.frameworkLibrary.45954
+- SoftBiomeLibrary.45343
+- __BiomeLibraryLibraryCore_block_invoke.26958
+- __BiomeLibraryLibraryCore_block_invoke.45361
+- __Block_byref_object_copy_.10182
+- __Block_byref_object_copy_.10670
+- __Block_byref_object_copy_.10854
+- __Block_byref_object_copy_.11495
+- __Block_byref_object_copy_.12069
+- __Block_byref_object_copy_.13340
+- __Block_byref_object_copy_.13590
+- __Block_byref_object_copy_.16560
+- __Block_byref_object_copy_.17087
+- __Block_byref_object_copy_.17568
+- __Block_byref_object_copy_.19723
+- __Block_byref_object_copy_.20215
+- __Block_byref_object_copy_.21214
+- __Block_byref_object_copy_.22136
+- __Block_byref_object_copy_.22813
+- __Block_byref_object_copy_.23204
+- __Block_byref_object_copy_.23809
+- __Block_byref_object_copy_.26090
+- __Block_byref_object_copy_.28794
+- __Block_byref_object_copy_.30458
+- __Block_byref_object_copy_.34672
+- __Block_byref_object_copy_.35121
+- __Block_byref_object_copy_.37334
+- __Block_byref_object_copy_.38512
+- __Block_byref_object_copy_.41649
+- __Block_byref_object_copy_.46073
+- __Block_byref_object_copy_.47293
+- __Block_byref_object_copy_.48023
+- __Block_byref_object_copy_.48303
+- __Block_byref_object_dispose_.10183
+- __Block_byref_object_dispose_.10671
+- __Block_byref_object_dispose_.10855
+- __Block_byref_object_dispose_.11496
+- __Block_byref_object_dispose_.12070
+- __Block_byref_object_dispose_.13341
+- __Block_byref_object_dispose_.13591
+- __Block_byref_object_dispose_.16561
+- __Block_byref_object_dispose_.17088
+- __Block_byref_object_dispose_.17569
+- __Block_byref_object_dispose_.19724
+- __Block_byref_object_dispose_.20216
+- __Block_byref_object_dispose_.21215
+- __Block_byref_object_dispose_.22137
+- __Block_byref_object_dispose_.22814
+- __Block_byref_object_dispose_.23205
+- __Block_byref_object_dispose_.23810
+- __Block_byref_object_dispose_.26091
+- __Block_byref_object_dispose_.28795
+- __Block_byref_object_dispose_.30459
+- __Block_byref_object_dispose_.34673
+- __Block_byref_object_dispose_.35122
+- __Block_byref_object_dispose_.37335
+- __Block_byref_object_dispose_.38513
+- __Block_byref_object_dispose_.41650
+- __Block_byref_object_dispose_.46074
+- __Block_byref_object_dispose_.47294
+- __Block_byref_object_dispose_.48024
+- __Block_byref_object_dispose_.48304
+- __IntentsLibraryCore_block_invoke.15185
+- __IntentsLibraryCore_block_invoke.30882
+- ___104-[AFMultiUserConnection getLoggableIdentiferForUserWithiCloudAltDSID:sharedUserID:sessionID:completion:]_block_invoke
+- ___104-[AFMultiUserConnection getLoggableIdentiferForUserWithiCloudAltDSID:sharedUserID:sessionID:completion:]_block_invoke_2
+- ___286-[AFVoiceIdScoreCard initWithSpIdAudioProcessedDuration:spIdUnknownUserScore:spIdKnownUserScores:spIdUserScoresVersion:spIdScoreThresholdingType:spIdAssetVersion:userClassified:userIdentityClassification:lowScoreThreshold:highScoreThreshold:confidentScoreThreshold:deltaScoreThreshold:]_block_invoke
+- ___AFIsDeviceGreymatterEligible_block_invoke
+- ___block_descriptor_128_e8_32s40s48s56s64s72s80s88s96s104s112s_e38_v16?0"<AFVoiceIdScoreCardMutating>"8l
+- __block_literal_global.101.38626
+- __block_literal_global.104.38620
+- __block_literal_global.10464
+- __block_literal_global.10521
+- __block_literal_global.10608
+- __block_literal_global.10675
+- __block_literal_global.108.22270
+- __block_literal_global.11168
+- __block_literal_global.112.22265
+- __block_literal_global.11699
+- __block_literal_global.11778
+- __block_literal_global.11805
+- __block_literal_global.11880
+- __block_literal_global.120.22256
+- __block_literal_global.12092
+- __block_literal_global.12362
+- __block_literal_global.12402
+- __block_literal_global.128.22250
+- __block_literal_global.12911
+- __block_literal_global.130.22247
+- __block_literal_global.136.22239
+- __block_literal_global.13741
+- __block_literal_global.138.45612
+- __block_literal_global.13948
+- __block_literal_global.14105
+- __block_literal_global.144.22231
+- __block_literal_global.14430
+- __block_literal_global.14458
+- __block_literal_global.14568
+- __block_literal_global.15.26945
+- __block_literal_global.15.44146
+- __block_literal_global.150.45681
+- __block_literal_global.160.22220
+- __block_literal_global.160.45690
+- __block_literal_global.16033
+- __block_literal_global.16392
+- __block_literal_global.16597
+- __block_literal_global.16734
+- __block_literal_global.16912
+- __block_literal_global.170.45700
+- __block_literal_global.17130
+- __block_literal_global.17164
+- __block_literal_global.17561
+- __block_literal_global.181.45617
+- __block_literal_global.18582
+- __block_literal_global.186.45716
+- __block_literal_global.18601
+- __block_literal_global.18944
+- __block_literal_global.19099
+- __block_literal_global.19139
+- __block_literal_global.19171
+- __block_literal_global.1937
+- __block_literal_global.19591
+- __block_literal_global.19668
+- __block_literal_global.19725
+- __block_literal_global.198.45718
+- __block_literal_global.1999
+- __block_literal_global.20.19090
+- __block_literal_global.2002
+- __block_literal_global.20253
+- __block_literal_global.20502
+- __block_literal_global.2058
+- __block_literal_global.20639
+- __block_literal_global.20706
+- __block_literal_global.20810
+- __block_literal_global.20935
+- __block_literal_global.20965
+- __block_literal_global.210.45740
+- __block_literal_global.21377
+- __block_literal_global.22.46795
+- __block_literal_global.220.22191
+- __block_literal_global.22330
+- __block_literal_global.23257
+- __block_literal_global.23281
+- __block_literal_global.23364
+- __block_literal_global.23756
+- __block_literal_global.23938
+- __block_literal_global.252
+- __block_literal_global.25307
+- __block_literal_global.26.10683
+- __block_literal_global.26168
+- __block_literal_global.26195
+- __block_literal_global.262.22128
+- __block_literal_global.26461
+- __block_literal_global.26659
+- __block_literal_global.26830
+- __block_literal_global.26965
+- __block_literal_global.27152
+- __block_literal_global.27316
+- __block_literal_global.28151
+- __block_literal_global.28341
+- __block_literal_global.28750
+- __block_literal_global.28832
+- __block_literal_global.28927
+- __block_literal_global.29.45524
+- __block_literal_global.29235
+- __block_literal_global.29298
+- __block_literal_global.29942
+- __block_literal_global.30069
+- __block_literal_global.30171
+- __block_literal_global.30214
+- __block_literal_global.31028
+- __block_literal_global.32663
+- __block_literal_global.33082
+- __block_literal_global.33585
+- __block_literal_global.34254
+- __block_literal_global.34834
+- __block_literal_global.34965
+- __block_literal_global.35137
+- __block_literal_global.35215
+- __block_literal_global.36844
+- __block_literal_global.36864
+- __block_literal_global.37355
+- __block_literal_global.38.22324
+- __block_literal_global.38200
+- __block_literal_global.38227
+- __block_literal_global.38327
+- __block_literal_global.38394
+- __block_literal_global.38635
+- __block_literal_global.38828
+- __block_literal_global.39294
+- __block_literal_global.39345
+- __block_literal_global.40292
+- __block_literal_global.40326
+- __block_literal_global.40601
+- __block_literal_global.40824
+- __block_literal_global.41246
+- __block_literal_global.41461
+- __block_literal_global.41678
+- __block_literal_global.41785
+- __block_literal_global.42.14898
+- __block_literal_global.43.22316
+- __block_literal_global.43017
+- __block_literal_global.43075
+- __block_literal_global.43677
+- __block_literal_global.43950
+- __block_literal_global.44042
+- __block_literal_global.44150
+- __block_literal_global.45376
+- __block_literal_global.45510
+- __block_literal_global.46452
+- __block_literal_global.46478
+- __block_literal_global.46634
+- __block_literal_global.46785
+- __block_literal_global.47.22309
+- __block_literal_global.47315
+- __block_literal_global.47979
+- __block_literal_global.48324
+- __block_literal_global.49.48315
+- __block_literal_global.5.48309
+- __block_literal_global.51.26837
+- __block_literal_global.54.26838
+- __block_literal_global.590.46047
+- __block_literal_global.60.35139
+- __block_literal_global.61.23749
+- __block_literal_global.67.22297
+- __block_literal_global.68.35144
+- __block_literal_global.68.45543
+- __block_literal_global.70.35145
+- __block_literal_global.72.22291
+- __block_literal_global.74.35146
+- __block_literal_global.75.43134
+- __block_literal_global.769
+- __block_literal_global.78.43131
+- __block_literal_global.783
+- __block_literal_global.815
+- __block_literal_global.835
+- __block_literal_global.84.22286
+- __block_literal_global.85.30131
+- __block_literal_global.85.35129
+- __block_literal_global.86.22283
+- __block_literal_global.881
+- __block_literal_global.887
+- __block_literal_global.894
+- __block_literal_global.899
+- __block_literal_global.903
+- __block_literal_global.906
+- __block_literal_global.92.38622
+- __block_literal_global.924
+- __block_literal_global.929
+- __block_literal_global.932
+- __block_literal_global.935
+- __block_literal_global.95.38632
+- __block_literal_global.98.38629
+- __block_literal_global.9903
+- __getBMSiriServiceClass_block_invoke.26978
+- __getBiomeLibrarySymbolLoc_block_invoke.45349
+- __getINSearchForMessagesIntentIdentifierSymbolLoc_block_invoke.15191
+- __getINSendMessageIntentIdentifierSymbolLoc_block_invoke.15173
+- __initLSApplicationProxy_block_invoke.34258
+- __initLSApplicationProxy_block_invoke.45953
+- _objc_msgSend$getLoggableIdentiferForUserWithiCloudAltDSID:sharedUserID:sessionID:completion:
+- _objc_msgSend$initWithSpIdAudioProcessedDuration:spIdUnknownUserScore:spIdKnownUserScores:spIdUserScoresVersion:spIdScoreThresholdingType:spIdAssetVersion:userClassified:userIdentityClassification:lowScoreThreshold:highScoreThreshold:confidentScoreThreshold:deltaScoreThreshold:
+- audit_stringBiomeLibrary.26960
+- audit_stringBiomeLibrary.45363
+- audit_stringIntents.15188
+- audit_stringIntents.30896
+- classLSApplicationProxy.34255
+- classLSApplicationProxy.45951
+- getBMSiriServiceClass.softClass.26977
+- getBiomeLibrarySymbolLoc.ptr.45348
+- getBluetoothPairedStatusChangedNotification.45458
+- getINSearchForMessagesIntentIdentifier.15171
+- getINSearchForMessagesIntentIdentifierSymbolLoc.ptr.15190
+- getINSendMessageIntentIdentifierSymbolLoc.ptr.15172
+- getLSApplicationProxyClass.34247
+- getLSApplicationProxyClass.45947
+- initLSApplicationProxy.34252
+- initLSApplicationProxy.45949
+- initLSApplicationProxy.sOnce.34253
+- initLSApplicationProxy.sOnce.45950
+- provider.onceToken.15193
+- provider.provider.15194
+- sharedInstance.onceToken.17129
+- sharedInstance.onceToken.22360
+- sharedInstance.onceToken.23256
+- sharedInstance.onceToken.28340
+- sharedInstance.onceToken.36863
+- sharedInstance.onceToken.44168
+- sharedInstance.singleton.44169
+- sharedManager.onceToken.16596
+- sharedManager.onceToken.21859
+- sharedManager.onceToken.32662
+- sharedManager.onceToken.43016
+- sharedManager.result.32664
+- sharedManager.sharedManager.43018
+- sharedMonitor.onceToken.20267
+- sharedObserver.onceToken.31027
+- sharedObserver.onceToken.45461
+- sharedObserver.onceToken.48323
+- sharedObserver.sharedObserver.31029
+- sharedObserver.sharedObserver.48325
+CStrings:
++ "%@ {spIdAudioProcessedDuration = %@, spIdUnknownUserScore = %@, spIdKnownUserScores = %@, spIdUserScoresVersion = %@, spIdScoreThresholdingType = %@, spIdAssetVersion = %@, userClassified = %@, userIdentityClassification = %@, lowScoreThreshold = %@, highScoreThreshold = %@, confidentScoreThreshold = %@, deltaScoreThreshold = %@, hasSufficientAudioProcessed = %@}"
++ "%s #posting AFSystemAssistantExperienceAvailabilityDidChangeNotificationName"
++ "%s Error in getLoggableIdentiferForUserWithSharedUserID:%@"
++ "%s idle timer speechRecognitionDidFinishWithError called with error %@"
++ "-[AFDictationConnectionServiceDelegate speechRecognitionDidFinishWithError:]"
++ "-[AFMultiUserConnection getLoggableIdentiferForUserWithSharedUserID:iCloudAltDSID:sessionID:completion:]"
++ "-[AFMultiUserConnection getLoggableIdentiferForUserWithSharedUserID:iCloudAltDSID:sessionID:completion:]_block_invoke_2"
++ "-[AFSystemAssistantExperienceStatusManager fetchGenerativeModelsAvailability]_block_invoke"
++ "@120@0:8@16@24@32@40@48@56@64q72@80@88@96@104q112"
++ "AFIsDeviceGreymatterEligible"
++ "AFVoiceIdScoreCard::hasSufficientAudioProcessed"
++ "Has ATV in the home"
++ "Has HomePod(s) in the home"
++ "R\x11a\x19\x15\x11\x12\x14#"
++ "T@\"NSObject<OS_dispatch_queue>\",R,N,V_updateQueue"
++ "T@\"NSString\",C,N,V_userProfilePersonaId"
++ "TB,N,V_userProfileHeadphoneConnected"
++ "Tq,N,V_userProfileConfidence"
++ "Tq,R,N,V_hasSufficientAudioProcessed"
++ "_hasSufficientAudioProcessed"
++ "_updateQueue"
++ "_userProfileConfidence"
++ "_userProfileHeadphoneConnected"
++ "_userProfilePersonaId"
++ "checkGMStatusWithUseCaseIdentifiers"
++ "com.apple.siri.availability.notification"
++ "com.apple.siri.systemAssistantExperienceStatusManagerQueue"
++ "deviceHasAtvInHome"
++ "deviceHasHomePodInHome"
++ "getHasSufficientAudioProcessed"
++ "getLoggableIdentiferForUserWithSharedUserID:iCloudAltDSID:sessionID:completion:"
++ "hasSufficientAudioProcessed"
++ "initWithSpIdAudioProcessedDuration:spIdUnknownUserScore:spIdKnownUserScores:spIdUserScoresVersion:spIdScoreThresholdingType:spIdAssetVersion:userClassified:userIdentityClassification:lowScoreThreshold:highScoreThreshold:confidentScoreThreshold:deltaScoreThreshold:hasSufficientAudioProcessed:"
++ "setHasSufficientAudioProcessed:"
++ "setUserProfileConfidence:"
++ "setUserProfileHeadphoneConnected:"
++ "setUserProfilePersonaId:"
++ "updateQueue"
++ "userProfileConfidence"
++ "userProfileHeadphoneConnected"
++ "userProfilePersonaId"
++ "{_mutationFlags=\"isDirty\"b1\"hasSpIdAudioProcessedDuration\"b1\"hasSpIdUnknownUserScore\"b1\"hasSpIdKnownUserScores\"b1\"hasSpIdUserScoresVersion\"b1\"hasSpIdScoreThresholdingType\"b1\"hasSpIdAssetVersion\"b1\"hasUserClassified\"b1\"hasUserIdentityClassification\"b1\"hasLowScoreThreshold\"b1\"hasHighScoreThreshold\"b1\"hasConfidentScoreThreshold\"b1\"hasDeltaScoreThreshold\"b1\"hasHasSufficientAudioProcessed\"b1}"
+- "%@ {spIdAudioProcessedDuration = %@, spIdUnknownUserScore = %@, spIdKnownUserScores = %@, spIdUserScoresVersion = %@, spIdScoreThresholdingType = %@, spIdAssetVersion = %@, userClassified = %@, userIdentityClassification = %@, lowScoreThreshold = %@, highScoreThreshold = %@, confidentScoreThreshold = %@, deltaScoreThreshold = %@}"
+- "%s Error in getLoggableIdentiferForUserWithiCloudAltDSID:%@"
+- "-[AFMultiUserConnection getLoggableIdentiferForUserWithiCloudAltDSID:sharedUserID:sessionID:completion:]"
+- "-[AFMultiUserConnection getLoggableIdentiferForUserWithiCloudAltDSID:sharedUserID:sessionID:completion:]_block_invoke_2"
+- "@112@0:8@16@24@32@40@48@56@64q72@80@88@96@104"
+- "AFIsDeviceGreymatterEligible_block_invoke"
+- "R\x11a\x19\x15\x11\x12\x14\""
+- "checkGMAvailabilityWithUseCaseIdentifiers"
+- "getLoggableIdentiferForUserWithiCloudAltDSID:sharedUserID:sessionID:completion:"
+- "hints"
+- "initWithSpIdAudioProcessedDuration:spIdUnknownUserScore:spIdKnownUserScores:spIdUserScoresVersion:spIdScoreThresholdingType:spIdAssetVersion:userClassified:userIdentityClassification:lowScoreThreshold:highScoreThreshold:confidentScoreThreshold:deltaScoreThreshold:"
+- "isHintsEnabled"
+- "{_mutationFlags=\"isDirty\"b1\"hasSpIdAudioProcessedDuration\"b1\"hasSpIdUnknownUserScore\"b1\"hasSpIdKnownUserScores\"b1\"hasSpIdUserScoresVersion\"b1\"hasSpIdScoreThresholdingType\"b1\"hasSpIdAssetVersion\"b1\"hasUserClassified\"b1\"hasUserIdentityClassification\"b1\"hasLowScoreThreshold\"b1\"hasHighScoreThreshold\"b1\"hasConfidentScoreThreshold\"b1\"hasDeltaScoreThreshold\"b1}"
+
+```

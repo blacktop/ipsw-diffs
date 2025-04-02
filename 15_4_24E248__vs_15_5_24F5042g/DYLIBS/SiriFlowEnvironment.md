@@ -1,0 +1,224 @@
+## SiriFlowEnvironment
+
+> `/System/Library/PrivateFrameworks/SiriFlowEnvironment.framework/Versions/A/SiriFlowEnvironment`
+
+```diff
+
+-3404.14.2.0.0
+-  __TEXT.__text: 0x28e84
+-  __TEXT.__auth_stubs: 0xc80
++3405.6.1.0.0
++  __TEXT.__text: 0x2aafc
++  __TEXT.__auth_stubs: 0xce0
+   __TEXT.__objc_methlist: 0x5c
+-  __TEXT.__const: 0x1786
++  __TEXT.__const: 0x1946
+   __TEXT.__gcc_except_tab: 0x34
+-  __TEXT.__cstring: 0x9ab
++  __TEXT.__cstring: 0x9db
+   __TEXT.__oslogstring: 0xb01
+-  __TEXT.__swift5_typeref: 0x748
+-  __TEXT.__constg_swiftt: 0x59c
+-  __TEXT.__swift5_reflstr: 0x782
+-  __TEXT.__swift5_fieldmd: 0x5f4
+-  __TEXT.__swift5_types: 0x4c
++  __TEXT.__swift5_typeref: 0x7d2
++  __TEXT.__constg_swiftt: 0x5f0
++  __TEXT.__swift5_reflstr: 0x7e2
++  __TEXT.__swift5_fieldmd: 0x660
++  __TEXT.__swift5_types: 0x58
+   __TEXT.__swift5_protos: 0x14
+-  __TEXT.__swift5_proto: 0x60
++  __TEXT.__swift5_proto: 0x74
+   __TEXT.__swift_as_entry: 0xc
+   __TEXT.__swift_as_ret: 0x8
+-  __TEXT.__swift5_assocty: 0xf0
++  __TEXT.__swift5_assocty: 0x108
++  __TEXT.__swift5_builtin: 0x14
++  __TEXT.__swift5_mpenum: 0x8
+   __TEXT.__swift5_capture: 0x88
+-  __TEXT.__unwind_info: 0xc50
+-  __TEXT.__eh_frame: 0x330
++  __TEXT.__unwind_info: 0xdb0
++  __TEXT.__eh_frame: 0x3d0
+   __TEXT.__objc_classname: 0x22
+   __TEXT.__objc_methname: 0x345
+   __TEXT.__objc_methtype: 0x4d
+   __TEXT.__objc_stubs: 0x260
+   __DATA_CONST.__got: 0x1e8
+-  __DATA_CONST.__const: 0x610
++  __DATA_CONST.__const: 0x630
+   __DATA_CONST.__objc_classlist: 0x38
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_selrefs: 0x120
+-  __AUTH_CONST.__auth_got: 0x650
+-  __AUTH_CONST.__auth_ptr: 0x330
+-  __AUTH_CONST.__const: 0x880
++  __AUTH_CONST.__auth_got: 0x680
++  __AUTH_CONST.__auth_ptr: 0x368
++  __AUTH_CONST.__const: 0x9f8
+   __AUTH_CONST.__cfstring: 0x140
+-  __AUTH_CONST.__objc_const: 0xad8
++  __AUTH_CONST.__objc_const: 0xaf8
+   __AUTH.__objc_data: 0xa0
+-  __AUTH.__data: 0x858
+-  __DATA.__data: 0x458
+-  __DATA.__bss: 0xc90
++  __AUTH.__data: 0x860
++  __DATA.__data: 0x488
++  __DATA.__bss: 0xf20
+   __DATA.__common: 0x10
+   - /System/Library/Frameworks/Combine.framework/Versions/A/Combine
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+
+   - /usr/lib/swift/libswiftsimd.dylib
+   - /usr/lib/swift/libswiftsys_time.dylib
+   - /usr/lib/swift/libswiftunistd.dylib
+-  Functions: 1517
+-  Symbols:   2602
+-  CStrings:  179
++  Functions: 1582
++  Symbols:   2733
++  CStrings:  181
+ 
+Symbols:
++ $s19SiriFlowEnvironment14CurrentRequestC18overridePropertiesSDyAA0dE9OverridesO5FieldOypGSgvM.resume.0
++ $s19SiriFlowEnvironment14CurrentRequestC19$overrideProperties0A9Utilities17MockablePublishedC9PublisherVySDyAA0dE9OverridesO5FieldOypGSg_GvM.resume.0
++ _$s13SiriUtilities11DeviceClassOACSHAAWlTm
++ _$s13SiriUtilities12ResponseModeV2eeoiySbAC_ACtFZ
++ _$s13SiriUtilities17MockablePublishedC9PublisherVySDy0A15FlowEnvironment23CurrentRequestOverridesO5FieldOypGSg_GMD
++ _$s13SiriUtilities17MockablePublishedCySDy0A15FlowEnvironment23CurrentRequestOverridesO5FieldOypGSgGMD
++ _$s19SiriFlowEnvironment14CurrentRequestC12responseMode0A9Utilities08ResponseG0VvsTm
++ _$s19SiriFlowEnvironment14CurrentRequestC18overridePropertiesSDyAA0dE9OverridesO5FieldOypGSgvM
++ _$s19SiriFlowEnvironment14CurrentRequestC18overridePropertiesSDyAA0dE9OverridesO5FieldOypGSgvg
++ _$s19SiriFlowEnvironment14CurrentRequestC18overridePropertiesSDyAA0dE9OverridesO5FieldOypGSgvpACTK
++ _$s19SiriFlowEnvironment14CurrentRequestC18overridePropertiesSDyAA0dE9OverridesO5FieldOypGSgvpACTk
++ _$s19SiriFlowEnvironment14CurrentRequestC18overridePropertiesSDyAA0dE9OverridesO5FieldOypGSgvpMV
++ _$s19SiriFlowEnvironment14CurrentRequestC18overridePropertiesSDyAA0dE9OverridesO5FieldOypGSgvs
++ _$s19SiriFlowEnvironment14CurrentRequestC18overridePropertiesSDyAA0dE9OverridesO5FieldOypGSgvsTm
++ _$s19SiriFlowEnvironment14CurrentRequestC19$overrideProperties0A9Utilities17MockablePublishedC9PublisherVySDyAA0dE9OverridesO5FieldOypGSg_GvM
++ _$s19SiriFlowEnvironment14CurrentRequestC19$overrideProperties0A9Utilities17MockablePublishedC9PublisherVySDyAA0dE9OverridesO5FieldOypGSg_Gvg
++ _$s19SiriFlowEnvironment14CurrentRequestC19$overrideProperties0A9Utilities17MockablePublishedC9PublisherVySDyAA0dE9OverridesO5FieldOypGSg_GvpMV
++ _$s19SiriFlowEnvironment14CurrentRequestC19$overrideProperties0A9Utilities17MockablePublishedC9PublisherVySDyAA0dE9OverridesO5FieldOypGSg_Gvs
++ _$s19SiriFlowEnvironment14CurrentRequestC19_overrideProperties33_1827338550D6E21CFF443BBFE722FD65LL0A9Utilities17MockablePublishedCySDyAA0dE9OverridesO5FieldOypGSgGvpWvd
++ _$s19SiriFlowEnvironment14CurrentRequestCAC0A9Utilities08MockableC8ProviderAAWlTm
++ _$s19SiriFlowEnvironment23CurrentRequestOverridesO03setF02on9overridesyAA0dE0C_SDyAC5FieldOypGtKFZ
++ _$s19SiriFlowEnvironment23CurrentRequestOverridesO05applyF02on9overridesyAA0dE0C_SDyAC5FieldOypGtKFZ
++ _$s19SiriFlowEnvironment23CurrentRequestOverridesO13OverrideErrorO05emptyF0yA2EmFWC
++ _$s19SiriFlowEnvironment23CurrentRequestOverridesO13OverrideErrorO10invalidKeyyAESS_tcAEmFWC
++ _$s19SiriFlowEnvironment23CurrentRequestOverridesO13OverrideErrorO12invalidValueyAESS_yptcAEmFWC
++ _$s19SiriFlowEnvironment23CurrentRequestOverridesO13OverrideErrorO2eeoiySbAE_AEtFZ
++ _$s19SiriFlowEnvironment23CurrentRequestOverridesO13OverrideErrorOAEs0H0AAWL
++ _$s19SiriFlowEnvironment23CurrentRequestOverridesO13OverrideErrorOAEs0H0AAWl
++ _$s19SiriFlowEnvironment23CurrentRequestOverridesO13OverrideErrorOMB
++ _$s19SiriFlowEnvironment23CurrentRequestOverridesO13OverrideErrorOMF
++ _$s19SiriFlowEnvironment23CurrentRequestOverridesO13OverrideErrorOMa
++ _$s19SiriFlowEnvironment23CurrentRequestOverridesO13OverrideErrorOMf
++ _$s19SiriFlowEnvironment23CurrentRequestOverridesO13OverrideErrorOMn
++ _$s19SiriFlowEnvironment23CurrentRequestOverridesO13OverrideErrorON
++ _$s19SiriFlowEnvironment23CurrentRequestOverridesO13OverrideErrorOSQAAMc
++ _$s19SiriFlowEnvironment23CurrentRequestOverridesO13OverrideErrorOSQAAMcMK
++ _$s19SiriFlowEnvironment23CurrentRequestOverridesO13OverrideErrorOSQAASQ2eeoiySbx_xtFZTW
++ _$s19SiriFlowEnvironment23CurrentRequestOverridesO13OverrideErrorOWOc
++ _$s19SiriFlowEnvironment23CurrentRequestOverridesO13OverrideErrorOWOh
++ _$s19SiriFlowEnvironment23CurrentRequestOverridesO13OverrideErrorOWV
++ _$s19SiriFlowEnvironment23CurrentRequestOverridesO13OverrideErrorO_AEtMD
++ _$s19SiriFlowEnvironment23CurrentRequestOverridesO13OverrideErrorO_AEtWOhTm
++ _$s19SiriFlowEnvironment23CurrentRequestOverridesO13OverrideErrorOs0H0AAMc
++ _$s19SiriFlowEnvironment23CurrentRequestOverridesO13OverrideErrorOs0H0AAMcMK
++ _$s19SiriFlowEnvironment23CurrentRequestOverridesO13OverrideErrorOs0H0AAsAFP19_getEmbeddedNSErroryXlSgyFTW
++ _$s19SiriFlowEnvironment23CurrentRequestOverridesO13OverrideErrorOs0H0AAsAFP5_codeSivgTW
++ _$s19SiriFlowEnvironment23CurrentRequestOverridesO13OverrideErrorOs0H0AAsAFP7_domainSSvgTW
++ _$s19SiriFlowEnvironment23CurrentRequestOverridesO13OverrideErrorOs0H0AAsAFP9_userInfoyXlSgvgTW
++ _$s19SiriFlowEnvironment23CurrentRequestOverridesO13OverrideErrorOwCP
++ _$s19SiriFlowEnvironment23CurrentRequestOverridesO13OverrideErrorOwca
++ _$s19SiriFlowEnvironment23CurrentRequestOverridesO13OverrideErrorOwcp
++ _$s19SiriFlowEnvironment23CurrentRequestOverridesO13OverrideErrorOwet
++ _$s19SiriFlowEnvironment23CurrentRequestOverridesO13OverrideErrorOwst
++ _$s19SiriFlowEnvironment23CurrentRequestOverridesO13OverrideErrorOwta
++ _$s19SiriFlowEnvironment23CurrentRequestOverridesO13OverrideErrorOwug
++ _$s19SiriFlowEnvironment23CurrentRequestOverridesO13OverrideErrorOwui
++ _$s19SiriFlowEnvironment23CurrentRequestOverridesO13OverrideErrorOwup
++ _$s19SiriFlowEnvironment23CurrentRequestOverridesO13OverrideErrorOwxx
++ _$s19SiriFlowEnvironment23CurrentRequestOverridesO5FieldO12responseModeyA2EmFWC
++ _$s19SiriFlowEnvironment23CurrentRequestOverridesO5FieldO8rawValueAESgSS_tcfC
++ _$s19SiriFlowEnvironment23CurrentRequestOverridesO5FieldO8rawValueAESgSS_tcfCTv_r
++ _$s19SiriFlowEnvironment23CurrentRequestOverridesO5FieldO8rawValueSSvg
++ _$s19SiriFlowEnvironment23CurrentRequestOverridesO5FieldO8rawValueSSvpMV
++ _$s19SiriFlowEnvironment23CurrentRequestOverridesO5FieldOAESQAAWL
++ _$s19SiriFlowEnvironment23CurrentRequestOverridesO5FieldOAESQAAWl
++ _$s19SiriFlowEnvironment23CurrentRequestOverridesO5FieldOMF
++ _$s19SiriFlowEnvironment23CurrentRequestOverridesO5FieldOMa
++ _$s19SiriFlowEnvironment23CurrentRequestOverridesO5FieldOMf
++ _$s19SiriFlowEnvironment23CurrentRequestOverridesO5FieldOMn
++ _$s19SiriFlowEnvironment23CurrentRequestOverridesO5FieldON
++ _$s19SiriFlowEnvironment23CurrentRequestOverridesO5FieldOSHAAMc
++ _$s19SiriFlowEnvironment23CurrentRequestOverridesO5FieldOSHAAMcMK
++ _$s19SiriFlowEnvironment23CurrentRequestOverridesO5FieldOSHAASH13_rawHashValue4seedS2i_tFTW
++ _$s19SiriFlowEnvironment23CurrentRequestOverridesO5FieldOSHAASH4hash4intoys6HasherVz_tFTW
++ _$s19SiriFlowEnvironment23CurrentRequestOverridesO5FieldOSHAASH9hashValueSivgTW
++ _$s19SiriFlowEnvironment23CurrentRequestOverridesO5FieldOSHAASQWb
++ _$s19SiriFlowEnvironment23CurrentRequestOverridesO5FieldOSQAAMc
++ _$s19SiriFlowEnvironment23CurrentRequestOverridesO5FieldOSQAAMcMK
++ _$s19SiriFlowEnvironment23CurrentRequestOverridesO5FieldOSQAASQ2eeoiySbx_xtFZTW
++ _$s19SiriFlowEnvironment23CurrentRequestOverridesO5FieldOSYAAMA
++ _$s19SiriFlowEnvironment23CurrentRequestOverridesO5FieldOSYAAMc
++ _$s19SiriFlowEnvironment23CurrentRequestOverridesO5FieldOSYAAMcMK
++ _$s19SiriFlowEnvironment23CurrentRequestOverridesO5FieldOSYAASY8rawValue03RawI0QzvgTW
++ _$s19SiriFlowEnvironment23CurrentRequestOverridesO5FieldOSYAASY8rawValuexSg03RawI0Qz_tcfCTW
++ _$s19SiriFlowEnvironment23CurrentRequestOverridesO5FieldOWV
++ _$s19SiriFlowEnvironment23CurrentRequestOverridesO5FieldOwet
++ _$s19SiriFlowEnvironment23CurrentRequestOverridesO5FieldOwst
++ _$s19SiriFlowEnvironment23CurrentRequestOverridesO5FieldOwug
++ _$s19SiriFlowEnvironment23CurrentRequestOverridesO5FieldOwui
++ _$s19SiriFlowEnvironment23CurrentRequestOverridesO5FieldOwup
++ _$s19SiriFlowEnvironment23CurrentRequestOverridesOMF
++ _$s19SiriFlowEnvironment23CurrentRequestOverridesOMa
++ _$s19SiriFlowEnvironment23CurrentRequestOverridesOMf
++ _$s19SiriFlowEnvironment23CurrentRequestOverridesOMn
++ _$s19SiriFlowEnvironment23CurrentRequestOverridesON
++ _$sSYsSHRzSH8RawValueSYRpzrlE04hashB0Sivg19SiriFlowEnvironment23CurrentRequestOverridesO5FieldO_TB5
++ _$sSYsSHRzSH8RawValueSYRpzrlE08_rawHashB04seedS2i_tF19SiriFlowEnvironment23CurrentRequestOverridesO5FieldO_TB5
++ _$sSYsSHRzSH8RawValueSYRpzrlE4hash4intoys6HasherVz_tF19SiriFlowEnvironment23CurrentRequestOverridesO5FieldO_TB5
++ _$ss17_NativeDictionaryVy19SiriFlowEnvironment23CurrentRequestOverridesO5FieldOypGMD
++ _$ss22__RawDictionaryStorageC4find_9hashValues10_HashTableV6BucketV6bucket_Sb5foundtx_SitSHRzlF19SiriFlowEnvironment23CurrentRequestOverridesO5FieldO_TB5
++ _$ss22__RawDictionaryStorageC4findys10_HashTableV6BucketV6bucket_Sb5foundtxSHRzlF19SiriFlowEnvironment23CurrentRequestOverridesO5FieldO_TB5
++ _$ss2eeoiySbx_xtSYRzSQ8RawValueRpzlF19SiriFlowEnvironment23CurrentRequestOverridesO5FieldO_TB5
++ _$ss5ErrorMp
++ _$ss5ErrorP19_getEmbeddedNSErroryXlSgyFTq
++ _$ss5ErrorP5_codeSivgTq
++ _$ss5ErrorP7_domainSSvgTq
++ _$ss5ErrorP9_userInfoyXlSgvgTq
++ _$ss5ErrorPsE19_getEmbeddedNSErroryXlSgyF
++ _$ss5ErrorPsE5_codeSivg
++ _$ss5ErrorPsE7_domainSSvg
++ _$ss5ErrorPsE9_userInfoyXlSgvg
++ _$sypWOb
++ ___swift_allocate_boxed_opaque_existential_0
++ ___swift_memcpy0_1
++ ___swift_memcpy49_8
++ _associated conformance 19SiriFlowEnvironment23CurrentRequestOverridesO5FieldOSHAASQ
++ _swift_allocError
++ _symbolic SDy_____ypGSg 19SiriFlowEnvironment23CurrentRequestOverridesO5FieldO
++ _symbolic SS3key_t
++ _symbolic SS3key_yp5valuet
++ _symbolic _____ 19SiriFlowEnvironment23CurrentRequestOverridesO
++ _symbolic _____ 19SiriFlowEnvironment23CurrentRequestOverridesO13OverrideErrorO
++ _symbolic _____ 19SiriFlowEnvironment23CurrentRequestOverridesO5FieldO
++ _symbolic ______AAt 19SiriFlowEnvironment23CurrentRequestOverridesO13OverrideErrorO
++ _symbolic _____ySDy_____ypGSgG 13SiriUtilities17MockablePublishedC 0A15FlowEnvironment23CurrentRequestOverridesO5FieldO
++ _symbolic _____ySDy_____ypGSg_G 13SiriUtilities17MockablePublishedC9PublisherV 0A15FlowEnvironment23CurrentRequestOverridesO5FieldO
++ _symbolic _____y_____ypG s17_NativeDictionaryV 19SiriFlowEnvironment23CurrentRequestOverridesO5FieldO
+- _$s19SiriFlowEnvironment14CurrentRequestC11inputOrigin0A9Utilities05InputG0OvsTm
+- _$s19SiriFlowEnvironment14CurrentRequestC13speechPackageSo08AFSpeechG0CSgvsTm
+- _$s19SiriFlowEnvironment14CurrentRequestCAC0A9Utilities0aC8ProviderAAWlTm
+- _OUTLINED_FUNCTION_283
+- _OUTLINED_FUNCTION_284
+- _OUTLINED_FUNCTION_285
+CStrings:
++ "/AppleInternal/Library/BuildRoots/1d1afd2a-039a-11f0-91c4-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/SiriFlowEnvironment/SiriFlowEnvironment/SharedContextService.swift"
++ "_overrideProperties"
++ "responseMode"
+- "/AppleInternal/Library/BuildRoots/01adf19d-fba1-11ef-a947-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/SiriFlowEnvironment/SiriFlowEnvironment/SharedContextService.swift"
+
+```

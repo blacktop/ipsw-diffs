@@ -1,0 +1,410 @@
+## Vision
+
+> `/System/Library/Frameworks/Vision.framework/Versions/A/Vision`
+
+```diff
+
+-8.0.76.0.0
+-  __TEXT.__text: 0x446e44
++8.0.78.0.0
++  __TEXT.__text: 0x446d60
+   __TEXT.__auth_stubs: 0x48d0
+   __TEXT.__objc_methlist: 0x18d78
+   __TEXT.__const: 0x40300
+
+   __TEXT.__swift_as_ret: 0x558
+   __TEXT.__swift5_capture: 0x6c0
+   __TEXT.__oslogstring: 0x251
+-  __TEXT.__gcc_except_tab: 0x37650
++  __TEXT.__gcc_except_tab: 0x37638
+   __TEXT.__unwind_info: 0x17d70
+   __TEXT.__eh_frame: 0xbb24
+   __TEXT.__objc_classname: 0x5816
+
+   __TEXT.__objc_methtype: 0x11b9f
+   __TEXT.__objc_stubs: 0x1abe0
+   __DATA_CONST.__got: 0x1988
+-  __DATA_CONST.__const: 0x3bd8
++  __DATA_CONST.__const: 0x3bf8
+   __DATA_CONST.__objc_classlist: 0x1668
+   __DATA_CONST.__objc_catlist: 0xa8
+   __DATA_CONST.__objc_protolist: 0x220
+
+   __DATA_CONST.__objc_superrefs: 0x1190
+   __DATA_CONST.__objc_arraydata: 0xa38
+   __AUTH_CONST.__auth_got: 0x2480
+-  __AUTH_CONST.__auth_ptr: 0x1990
+-  __AUTH_CONST.__const: 0x1bfe0
++  __AUTH_CONST.__auth_ptr: 0x18e0
++  __AUTH_CONST.__const: 0x1bfc0
+   __AUTH_CONST.__cfstring: 0x194a0
+   __AUTH_CONST.__objc_const: 0x303e0
+   __AUTH_CONST.__objc_intobj: 0x1068
+Symbols:
++ _ZL14createFullPathRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_.13781
++ _ZL15_newFaceIDModeliPU15__autoreleasingP7NSError.25065
++ _ZL15getRelativePathRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_.13795
++ _ZL22VideoProcessingLibraryv.17850
++ _ZL22VideoProcessingLibraryv.24223
++ _ZL22VideoProcessingLibraryv.37324
++ _ZL27audit_stringVideoProcessing.17857
++ _ZL27audit_stringVideoProcessing.24229
++ _ZL27audit_stringVideoProcessing.32501
++ _ZL27audit_stringVideoProcessing.37329
++ _ZL29_sequenceKeyComponentForArrayP7NSArray.24858
++ _ZL31_getObjectFromOptionsDictionaryPU15__autoreleasingP11objc_objectP12NSDictionaryPU19objcproto9NSCopying11objc_objectbP10objc_classPU15__autoreleasingP7NSError.22354
++ _ZZL26VideoProcessingLibraryCorePPcE16frameworkLibrary.0.17854
++ _ZZL26VideoProcessingLibraryCorePPcE16frameworkLibrary.0.24226
++ _ZZL26VideoProcessingLibraryCorePPcE16frameworkLibrary.0.32495
++ _ZZL26VideoProcessingLibraryCorePPcE16frameworkLibrary.0.37326
++ _ZZL41getVCPRequestForceCPUPropertyKeySymbolLocvE3ptr.0.37322
++ _ZZL41getVCPRequestRevisionPropertyKeySymbolLocvE3ptr.0.24233
++ _ZZL43getVCPRequestFrameWidthPropertyKeySymbolLocvE3ptr.0.37335
++ _ZZL44getVCPRequestFrameHeightPropertyKeySymbolLocvE3ptr.0.37332
++ _ZZL54_serialNumberToPersonUniqueIdentifierDictionaryClassesvE7classes.35393
++ _ZZL54_serialNumberToPersonUniqueIdentifierDictionaryClassesvE9onceToken.35392
++ __Block_byref_object_copy_.11262
++ __Block_byref_object_copy_.11319
++ __Block_byref_object_copy_.12087
++ __Block_byref_object_copy_.13153
++ __Block_byref_object_copy_.13367
++ __Block_byref_object_copy_.13915
++ __Block_byref_object_copy_.14454
++ __Block_byref_object_copy_.15796
++ __Block_byref_object_copy_.17844
++ __Block_byref_object_copy_.20656
++ __Block_byref_object_copy_.21810
++ __Block_byref_object_copy_.22165
++ __Block_byref_object_copy_.23729
++ __Block_byref_object_copy_.23944
++ __Block_byref_object_copy_.24426
++ __Block_byref_object_copy_.25089
++ __Block_byref_object_copy_.31879
++ __Block_byref_object_copy_.31937
++ __Block_byref_object_copy_.34975
++ __Block_byref_object_copy_.35418
++ __Block_byref_object_copy_.35690
++ __Block_byref_object_copy_.35877
++ __Block_byref_object_copy_.49.31940
++ __Block_byref_object_dispose_.11263
++ __Block_byref_object_dispose_.11320
++ __Block_byref_object_dispose_.12088
++ __Block_byref_object_dispose_.13154
++ __Block_byref_object_dispose_.13368
++ __Block_byref_object_dispose_.13916
++ __Block_byref_object_dispose_.14455
++ __Block_byref_object_dispose_.15797
++ __Block_byref_object_dispose_.17845
++ __Block_byref_object_dispose_.20657
++ __Block_byref_object_dispose_.21811
++ __Block_byref_object_dispose_.22166
++ __Block_byref_object_dispose_.23730
++ __Block_byref_object_dispose_.23945
++ __Block_byref_object_dispose_.24427
++ __Block_byref_object_dispose_.25090
++ __Block_byref_object_dispose_.31880
++ __Block_byref_object_dispose_.31938
++ __Block_byref_object_dispose_.34976
++ __Block_byref_object_dispose_.35419
++ __Block_byref_object_dispose_.35691
++ __Block_byref_object_dispose_.35878
++ __Block_byref_object_dispose_.50.31941
++ ___ZL15_newFaceIDModeliPU15__autoreleasingP7NSError_block_invoke.25081
++ ___ZL26VideoProcessingLibraryCorePPc_block_invoke.17855
++ ___ZL26VideoProcessingLibraryCorePPc_block_invoke.24227
++ ___ZL26VideoProcessingLibraryCorePPc_block_invoke.32496
++ ___ZL26VideoProcessingLibraryCorePPc_block_invoke.37327
++ ___ZL41getVCPRequestForceCPUPropertyKeySymbolLocv_block_invoke.37323
++ ___ZL41getVCPRequestRevisionPropertyKeySymbolLocv_block_invoke.24234
++ ___ZL43getVCPRequestFrameWidthPropertyKeySymbolLocv_block_invoke.37336
++ ___ZL44getVCPRequestFrameHeightPropertyKeySymbolLocv_block_invoke.37333
++ ___ZL54_serialNumberToPersonUniqueIdentifierDictionaryClassesv_block_invoke.35412
++ ___block_descriptor_40_e9_v16?0^v8l
++ __assign_helper_atomic_property_.33701
++ __block_descriptor_tmp.1.20116
++ __block_descriptor_tmp.20114
++ __block_descriptor_tmp.33609
++ __block_literal_global.118.38258
++ __block_literal_global.11849
++ __block_literal_global.11974
++ __block_literal_global.12076
++ __block_literal_global.123.34606
++ __block_literal_global.12442
++ __block_literal_global.12715
++ __block_literal_global.128.38270
++ __block_literal_global.12905
++ __block_literal_global.13081
++ __block_literal_global.133.38276
++ __block_literal_global.13354
++ __block_literal_global.13684
++ __block_literal_global.13957
++ __block_literal_global.14610
++ __block_literal_global.14951
++ __block_literal_global.15429
++ __block_literal_global.15608
++ __block_literal_global.16385
++ __block_literal_global.17054
++ __block_literal_global.17765
++ __block_literal_global.18240
++ __block_literal_global.185.12724
++ __block_literal_global.18650
++ __block_literal_global.18690
++ __block_literal_global.18851
++ __block_literal_global.18942
++ __block_literal_global.18975
++ __block_literal_global.19282
++ __block_literal_global.19507
++ __block_literal_global.19639
++ __block_literal_global.19733
++ __block_literal_global.20054
++ __block_literal_global.20260
++ __block_literal_global.20428
++ __block_literal_global.20688
++ __block_literal_global.21392
++ __block_literal_global.21496
++ __block_literal_global.22045
++ __block_literal_global.23420
++ __block_literal_global.23731
++ __block_literal_global.23816
++ __block_literal_global.23959
++ __block_literal_global.240.34211
++ __block_literal_global.24263
++ __block_literal_global.24384
++ __block_literal_global.24424
++ __block_literal_global.24699
++ __block_literal_global.25096
++ __block_literal_global.25454
++ __block_literal_global.25676
++ __block_literal_global.29.38463
++ __block_literal_global.30.36267
++ __block_literal_global.31740
++ __block_literal_global.31853
++ __block_literal_global.32639
++ __block_literal_global.32719
++ __block_literal_global.33.37067
++ __block_literal_global.33371
++ __block_literal_global.33594
++ __block_literal_global.34129
++ __block_literal_global.34588
++ __block_literal_global.34735
++ __block_literal_global.34750
++ __block_literal_global.34826
++ __block_literal_global.35.36271
++ __block_literal_global.35273
++ __block_literal_global.35423
++ __block_literal_global.35909
++ __block_literal_global.36058
++ __block_literal_global.36154
++ __block_literal_global.36265
++ __block_literal_global.36979
++ __block_literal_global.37.13672
++ __block_literal_global.37.20457
++ __block_literal_global.37066
++ __block_literal_global.37704
++ __block_literal_global.38202
++ __block_literal_global.38465
++ __block_literal_global.38586
++ __block_literal_global.42.20460
++ __block_literal_global.43.36277
++ __block_literal_global.51.13954
++ __block_literal_global.51.36973
++ __block_literal_global.55.13670
++ __block_literal_global.61.13668
++ __block_literal_global.65.13666
++ __block_literal_global.68.15666
++ __block_literal_global.74.24684
++ __copy_helper_atomic_property_.33703
++ availableGroupKeys.groupKeys.23817
++ availableGroupKeys.onceToken.23815
++ pointKeyGroupLabelsMapping.onceToken.23813
++ revisionAvailability.ourRevisionAvailability.24466
++ revisionAvailability.ourRevisionAvailability.32186
++ revisionAvailability.ourRevisionAvailability.37861
++ revisionAvailability.ourRevisionAvailability.38474
+- _ZL14createFullPathRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_.13772
+- _ZL15_newFaceIDModeliPU15__autoreleasingP7NSError.25063
+- _ZL15getRelativePathRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_.13786
+- _ZL22VideoProcessingLibraryv.17846
+- _ZL22VideoProcessingLibraryv.24221
+- _ZL22VideoProcessingLibraryv.37325
+- _ZL27audit_stringVideoProcessing.17853
+- _ZL27audit_stringVideoProcessing.24227
+- _ZL27audit_stringVideoProcessing.32502
+- _ZL27audit_stringVideoProcessing.37330
+- _ZL29_sequenceKeyComponentForArrayP7NSArray.24856
+- _ZL31_getObjectFromOptionsDictionaryPU15__autoreleasingP11objc_objectP12NSDictionaryPU19objcproto9NSCopying11objc_objectbP10objc_classPU15__autoreleasingP7NSError.22350
+- _ZZL26VideoProcessingLibraryCorePPcE16frameworkLibrary.0.17850
+- _ZZL26VideoProcessingLibraryCorePPcE16frameworkLibrary.0.24224
+- _ZZL26VideoProcessingLibraryCorePPcE16frameworkLibrary.0.32496
+- _ZZL26VideoProcessingLibraryCorePPcE16frameworkLibrary.0.37327
+- _ZZL41getVCPRequestForceCPUPropertyKeySymbolLocvE3ptr.0.37323
+- _ZZL41getVCPRequestRevisionPropertyKeySymbolLocvE3ptr.0.24231
+- _ZZL43getVCPRequestFrameWidthPropertyKeySymbolLocvE3ptr.0.37336
+- _ZZL44getVCPRequestFrameHeightPropertyKeySymbolLocvE3ptr.0.37333
+- _ZZL54_serialNumberToPersonUniqueIdentifierDictionaryClassesvE7classes.35394
+- _ZZL54_serialNumberToPersonUniqueIdentifierDictionaryClassesvE9onceToken.35393
+- __Block_byref_object_copy_.11254
+- __Block_byref_object_copy_.11310
+- __Block_byref_object_copy_.12080
+- __Block_byref_object_copy_.13144
+- __Block_byref_object_copy_.13358
+- __Block_byref_object_copy_.13906
+- __Block_byref_object_copy_.14446
+- __Block_byref_object_copy_.15788
+- __Block_byref_object_copy_.17840
+- __Block_byref_object_copy_.20653
+- __Block_byref_object_copy_.21806
+- __Block_byref_object_copy_.22161
+- __Block_byref_object_copy_.23727
+- __Block_byref_object_copy_.23942
+- __Block_byref_object_copy_.24424
+- __Block_byref_object_copy_.25087
+- __Block_byref_object_copy_.31880
+- __Block_byref_object_copy_.31938
+- __Block_byref_object_copy_.34976
+- __Block_byref_object_copy_.35419
+- __Block_byref_object_copy_.35691
+- __Block_byref_object_copy_.35878
+- __Block_byref_object_copy_.49.31941
+- __Block_byref_object_dispose_.11255
+- __Block_byref_object_dispose_.11311
+- __Block_byref_object_dispose_.12081
+- __Block_byref_object_dispose_.13145
+- __Block_byref_object_dispose_.13359
+- __Block_byref_object_dispose_.13907
+- __Block_byref_object_dispose_.14447
+- __Block_byref_object_dispose_.15789
+- __Block_byref_object_dispose_.17841
+- __Block_byref_object_dispose_.20654
+- __Block_byref_object_dispose_.21807
+- __Block_byref_object_dispose_.22162
+- __Block_byref_object_dispose_.23728
+- __Block_byref_object_dispose_.23943
+- __Block_byref_object_dispose_.24425
+- __Block_byref_object_dispose_.25088
+- __Block_byref_object_dispose_.31881
+- __Block_byref_object_dispose_.31939
+- __Block_byref_object_dispose_.34977
+- __Block_byref_object_dispose_.35420
+- __Block_byref_object_dispose_.35692
+- __Block_byref_object_dispose_.35879
+- __Block_byref_object_dispose_.50.31942
+- ___ZL15_newFaceIDModeliPU15__autoreleasingP7NSError_block_invoke.25079
+- ___ZL26VideoProcessingLibraryCorePPc_block_invoke.17851
+- ___ZL26VideoProcessingLibraryCorePPc_block_invoke.24225
+- ___ZL26VideoProcessingLibraryCorePPc_block_invoke.32497
+- ___ZL26VideoProcessingLibraryCorePPc_block_invoke.37328
+- ___ZL41getVCPRequestForceCPUPropertyKeySymbolLocv_block_invoke.37324
+- ___ZL41getVCPRequestRevisionPropertyKeySymbolLocv_block_invoke.24232
+- ___ZL43getVCPRequestFrameWidthPropertyKeySymbolLocv_block_invoke.37337
+- ___ZL44getVCPRequestFrameHeightPropertyKeySymbolLocv_block_invoke.37334
+- ___ZL54_serialNumberToPersonUniqueIdentifierDictionaryClassesv_block_invoke.35413
+- __assign_helper_atomic_property_.33702
+- __block_descriptor_tmp.1.20113
+- __block_descriptor_tmp.20111
+- __block_descriptor_tmp.33610
+- __block_literal_global.11261
+- __block_literal_global.118.38259
+- __block_literal_global.11842
+- __block_literal_global.11967
+- __block_literal_global.12069
+- __block_literal_global.123.34607
+- __block_literal_global.12435
+- __block_literal_global.12707
+- __block_literal_global.128.38271
+- __block_literal_global.12896
+- __block_literal_global.13072
+- __block_literal_global.133.38277
+- __block_literal_global.13345
+- __block_literal_global.13675
+- __block_literal_global.13948
+- __block_literal_global.14602
+- __block_literal_global.14943
+- __block_literal_global.15421
+- __block_literal_global.15600
+- __block_literal_global.16378
+- __block_literal_global.17048
+- __block_literal_global.17761
+- __block_literal_global.18236
+- __block_literal_global.185.12716
+- __block_literal_global.18646
+- __block_literal_global.18686
+- __block_literal_global.18847
+- __block_literal_global.18938
+- __block_literal_global.18971
+- __block_literal_global.19278
+- __block_literal_global.19503
+- __block_literal_global.19636
+- __block_literal_global.19730
+- __block_literal_global.20051
+- __block_literal_global.20257
+- __block_literal_global.20425
+- __block_literal_global.20685
+- __block_literal_global.21388
+- __block_literal_global.21492
+- __block_literal_global.22041
+- __block_literal_global.23418
+- __block_literal_global.23729
+- __block_literal_global.23814
+- __block_literal_global.23957
+- __block_literal_global.240.34212
+- __block_literal_global.24261
+- __block_literal_global.24382
+- __block_literal_global.24422
+- __block_literal_global.24697
+- __block_literal_global.25095
+- __block_literal_global.25455
+- __block_literal_global.25677
+- __block_literal_global.29.38464
+- __block_literal_global.30.36268
+- __block_literal_global.31741
+- __block_literal_global.31854
+- __block_literal_global.32640
+- __block_literal_global.32720
+- __block_literal_global.33.37068
+- __block_literal_global.33372
+- __block_literal_global.33595
+- __block_literal_global.34130
+- __block_literal_global.34589
+- __block_literal_global.34736
+- __block_literal_global.34751
+- __block_literal_global.34827
+- __block_literal_global.35.36272
+- __block_literal_global.35274
+- __block_literal_global.35424
+- __block_literal_global.35910
+- __block_literal_global.36059
+- __block_literal_global.36155
+- __block_literal_global.36266
+- __block_literal_global.36980
+- __block_literal_global.37.13663
+- __block_literal_global.37.20454
+- __block_literal_global.37067
+- __block_literal_global.37705
+- __block_literal_global.38203
+- __block_literal_global.38466
+- __block_literal_global.38587
+- __block_literal_global.42.20457
+- __block_literal_global.43.36278
+- __block_literal_global.51.13945
+- __block_literal_global.51.36974
+- __block_literal_global.55.13661
+- __block_literal_global.61.13659
+- __block_literal_global.65.13657
+- __block_literal_global.68.15658
+- __block_literal_global.74.24682
+- __copy_helper_atomic_property_.33704
+- availableGroupKeys.groupKeys.23815
+- availableGroupKeys.onceToken.23813
+- pointKeyGroupLabelsMapping.onceToken.23811
+- revisionAvailability.ourRevisionAvailability.24464
+- revisionAvailability.ourRevisionAvailability.32187
+- revisionAvailability.ourRevisionAvailability.37862
+- revisionAvailability.ourRevisionAvailability.38475
+CStrings:
++ "/AppleInternal/Library/BuildRoots/1d1afd2a-039a-11f0-91c4-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/Vision/VisionKitFramework/VN/algorithm_util/binserialized_mapped_file_contents.h"
++ "/AppleInternal/Library/BuildRoots/1d1afd2a-039a-11f0-91c4-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/Vision/VisionKitFramework/VN/algorithm_util/mapped_model_file.h"
+- "/AppleInternal/Library/BuildRoots/01adf19d-fba1-11ef-a947-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/Vision/VisionKitFramework/VN/algorithm_util/binserialized_mapped_file_contents.h"
+- "/AppleInternal/Library/BuildRoots/01adf19d-fba1-11ef-a947-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/Vision/VisionKitFramework/VN/algorithm_util/mapped_model_file.h"
+
+```

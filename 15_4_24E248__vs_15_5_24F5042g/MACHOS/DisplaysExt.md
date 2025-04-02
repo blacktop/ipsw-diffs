@@ -1,0 +1,91 @@
+## DisplaysExt
+
+> `/System/Library/ExtensionKit/Extensions/DisplaysExt.appex/Contents/MacOS/DisplaysExt`
+
+```diff
+
+   __TEXT.__eh_frame: 0xc54
+   __DATA_CONST.__auth_got: 0x1d38
+   __DATA_CONST.__got: 0xd90
+-  __DATA_CONST.__auth_ptr: 0x1938
++  __DATA_CONST.__auth_ptr: 0x1960
+   __DATA_CONST.__const: 0x6bf8
+   __DATA_CONST.__cfstring: 0x60
+   __DATA_CONST.__objc_classlist: 0x1a8
+CStrings:
++ "/AppleInternal/Library/BuildRoots/1d1afd2a-039a-11f0-91c4-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/DisplaysPref/Displays/AddDisplayMenuView.swift"
++ "/AppleInternal/Library/BuildRoots/1d1afd2a-039a-11f0-91c4-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/DisplaysPref/Displays/BrightnessManager.swift"
++ "/AppleInternal/Library/BuildRoots/1d1afd2a-039a-11f0-91c4-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/DisplaysPref/Displays/DisplayOptionsView.swift"
++ "/AppleInternal/Library/BuildRoots/1d1afd2a-039a-11f0-91c4-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/DisplaysPref/Displays/DisplaySettings.swift"
++ "/AppleInternal/Library/BuildRoots/1d1afd2a-039a-11f0-91c4-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/DisplaysPref/Displays/DisplaysExtension.swift"
++ "/AppleInternal/Library/BuildRoots/1d1afd2a-039a-11f0-91c4-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/DisplaysPref/Displays/ModuleViews/ColorProfileModuleView.swift"
++ "/AppleInternal/Library/BuildRoots/1d1afd2a-039a-11f0-91c4-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/DisplaysPref/Displays/ModuleViews/DisplayModulesView.swift"
++ "/AppleInternal/Library/BuildRoots/1d1afd2a-039a-11f0-91c4-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/DisplaysPref/Displays/ModuleViews/Presets/PresetsModuleView.swift"
++ "/AppleInternal/Library/BuildRoots/1d1afd2a-039a-11f0-91c4-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/DisplaysPref/Displays/Modules/DisplayModesModule.swift"
++ "/AppleInternal/Library/BuildRoots/1d1afd2a-039a-11f0-91c4-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/DisplaysPref/Displays/Modules/ResolutionModule.swift"
++ "/AppleInternal/Library/BuildRoots/1d1afd2a-039a-11f0-91c4-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/DisplaysPref/Displays/Modules/TVDisplayModesModule.swift"
++ "/AppleInternal/Library/BuildRoots/1d1afd2a-039a-11f0-91c4-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/DisplaysPref/Displays/Support/DesktopSnapshotProvider.swift"
++ "/AppleInternal/Library/BuildRoots/1d1afd2a-039a-11f0-91c4-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/DisplaysPref/Displays/Support/ScreenBorders.swift"
++ "/AppleInternal/Library/BuildRoots/1d1afd2a-039a-11f0-91c4-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/DisplaysPref/DisplaysPref/AddDisplayMenuViewModel.swift"
++ "/AppleInternal/Library/BuildRoots/1d1afd2a-039a-11f0-91c4-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/DisplaysPref/DisplaysPref/ArrangementProxy.swift"
++ "/AppleInternal/Library/BuildRoots/1d1afd2a-039a-11f0-91c4-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/DisplaysPref/DisplaysPref/BrightnessModule.swift"
++ "/AppleInternal/Library/BuildRoots/1d1afd2a-039a-11f0-91c4-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/DisplaysPref/DisplaysPref/ColorProfile.swift"
++ "/AppleInternal/Library/BuildRoots/1d1afd2a-039a-11f0-91c4-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/DisplaysPref/DisplaysPref/ColorProfileModule.swift"
++ "/AppleInternal/Library/BuildRoots/1d1afd2a-039a-11f0-91c4-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/DisplaysPref/DisplaysPref/CustomizePresets.swift"
++ "/AppleInternal/Library/BuildRoots/1d1afd2a-039a-11f0-91c4-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/DisplaysPref/DisplaysPref/DispatchNotification.swift"
++ "/AppleInternal/Library/BuildRoots/1d1afd2a-039a-11f0-91c4-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/DisplaysPref/DisplaysPref/Display.swift"
++ "/AppleInternal/Library/BuildRoots/1d1afd2a-039a-11f0-91c4-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/DisplaysPref/DisplaysPref/DisplayItemProxy.swift"
++ "/AppleInternal/Library/BuildRoots/1d1afd2a-039a-11f0-91c4-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/DisplaysPref/DisplaysPref/DisplayItemView.swift"
++ "/AppleInternal/Library/BuildRoots/1d1afd2a-039a-11f0-91c4-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/DisplaysPref/DisplaysPref/DisplayModePicker.swift"
++ "/AppleInternal/Library/BuildRoots/1d1afd2a-039a-11f0-91c4-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/DisplaysPref/DisplaysPref/DisplayModule.swift"
++ "/AppleInternal/Library/BuildRoots/1d1afd2a-039a-11f0-91c4-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/DisplaysPref/DisplaysPref/DisplayModuleManager.swift"
++ "/AppleInternal/Library/BuildRoots/1d1afd2a-039a-11f0-91c4-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/DisplaysPref/DisplaysPref/DisplaysManager.swift"
++ "/AppleInternal/Library/BuildRoots/1d1afd2a-039a-11f0-91c4-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/DisplaysPref/DisplaysPref/FineTuneCalibration.swift"
++ "/AppleInternal/Library/BuildRoots/1d1afd2a-039a-11f0-91c4-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/DisplaysPref/DisplaysPref/MenuBar.swift"
++ "/AppleInternal/Library/BuildRoots/1d1afd2a-039a-11f0-91c4-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/DisplaysPref/DisplaysPref/NightShiftModule.swift"
++ "/AppleInternal/Library/BuildRoots/1d1afd2a-039a-11f0-91c4-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/DisplaysPref/DisplaysPref/PresetFormatter.swift"
++ "/AppleInternal/Library/BuildRoots/1d1afd2a-039a-11f0-91c4-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/DisplaysPref/DisplaysPref/PresetRecord.swift"
++ "/AppleInternal/Library/BuildRoots/1d1afd2a-039a-11f0-91c4-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/DisplaysPref/DisplaysPref/PresetValidator.swift"
++ "/AppleInternal/Library/BuildRoots/1d1afd2a-039a-11f0-91c4-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/DisplaysPref/DisplaysPref/PresetsModule.swift"
++ "/AppleInternal/Library/BuildRoots/1d1afd2a-039a-11f0-91c4-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/DisplaysPref/DisplaysPref/RotationModule.swift"
++ "/AppleInternal/Library/BuildRoots/1d1afd2a-039a-11f0-91c4-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/DisplaysPref/DisplaysPref/SidecarModule.swift"
++ "/AppleInternal/Library/BuildRoots/1d1afd2a-039a-11f0-91c4-fe9e33ca05fa/Library/Caches/com.apple.xbs/Sources/DisplaysPref/DisplaysPref/TrueToneModule.swift"
+- "/AppleInternal/Library/BuildRoots/01adf19d-fba1-11ef-a947-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/DisplaysPref/Displays/AddDisplayMenuView.swift"
+- "/AppleInternal/Library/BuildRoots/01adf19d-fba1-11ef-a947-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/DisplaysPref/Displays/BrightnessManager.swift"
+- "/AppleInternal/Library/BuildRoots/01adf19d-fba1-11ef-a947-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/DisplaysPref/Displays/DisplayOptionsView.swift"
+- "/AppleInternal/Library/BuildRoots/01adf19d-fba1-11ef-a947-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/DisplaysPref/Displays/DisplaySettings.swift"
+- "/AppleInternal/Library/BuildRoots/01adf19d-fba1-11ef-a947-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/DisplaysPref/Displays/DisplaysExtension.swift"
+- "/AppleInternal/Library/BuildRoots/01adf19d-fba1-11ef-a947-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/DisplaysPref/Displays/ModuleViews/ColorProfileModuleView.swift"
+- "/AppleInternal/Library/BuildRoots/01adf19d-fba1-11ef-a947-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/DisplaysPref/Displays/ModuleViews/DisplayModulesView.swift"
+- "/AppleInternal/Library/BuildRoots/01adf19d-fba1-11ef-a947-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/DisplaysPref/Displays/ModuleViews/Presets/PresetsModuleView.swift"
+- "/AppleInternal/Library/BuildRoots/01adf19d-fba1-11ef-a947-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/DisplaysPref/Displays/Modules/DisplayModesModule.swift"
+- "/AppleInternal/Library/BuildRoots/01adf19d-fba1-11ef-a947-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/DisplaysPref/Displays/Modules/ResolutionModule.swift"
+- "/AppleInternal/Library/BuildRoots/01adf19d-fba1-11ef-a947-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/DisplaysPref/Displays/Modules/TVDisplayModesModule.swift"
+- "/AppleInternal/Library/BuildRoots/01adf19d-fba1-11ef-a947-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/DisplaysPref/Displays/Support/DesktopSnapshotProvider.swift"
+- "/AppleInternal/Library/BuildRoots/01adf19d-fba1-11ef-a947-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/DisplaysPref/Displays/Support/ScreenBorders.swift"
+- "/AppleInternal/Library/BuildRoots/01adf19d-fba1-11ef-a947-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/DisplaysPref/DisplaysPref/AddDisplayMenuViewModel.swift"
+- "/AppleInternal/Library/BuildRoots/01adf19d-fba1-11ef-a947-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/DisplaysPref/DisplaysPref/ArrangementProxy.swift"
+- "/AppleInternal/Library/BuildRoots/01adf19d-fba1-11ef-a947-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/DisplaysPref/DisplaysPref/BrightnessModule.swift"
+- "/AppleInternal/Library/BuildRoots/01adf19d-fba1-11ef-a947-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/DisplaysPref/DisplaysPref/ColorProfile.swift"
+- "/AppleInternal/Library/BuildRoots/01adf19d-fba1-11ef-a947-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/DisplaysPref/DisplaysPref/ColorProfileModule.swift"
+- "/AppleInternal/Library/BuildRoots/01adf19d-fba1-11ef-a947-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/DisplaysPref/DisplaysPref/CustomizePresets.swift"
+- "/AppleInternal/Library/BuildRoots/01adf19d-fba1-11ef-a947-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/DisplaysPref/DisplaysPref/DispatchNotification.swift"
+- "/AppleInternal/Library/BuildRoots/01adf19d-fba1-11ef-a947-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/DisplaysPref/DisplaysPref/Display.swift"
+- "/AppleInternal/Library/BuildRoots/01adf19d-fba1-11ef-a947-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/DisplaysPref/DisplaysPref/DisplayItemProxy.swift"
+- "/AppleInternal/Library/BuildRoots/01adf19d-fba1-11ef-a947-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/DisplaysPref/DisplaysPref/DisplayItemView.swift"
+- "/AppleInternal/Library/BuildRoots/01adf19d-fba1-11ef-a947-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/DisplaysPref/DisplaysPref/DisplayModePicker.swift"
+- "/AppleInternal/Library/BuildRoots/01adf19d-fba1-11ef-a947-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/DisplaysPref/DisplaysPref/DisplayModule.swift"
+- "/AppleInternal/Library/BuildRoots/01adf19d-fba1-11ef-a947-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/DisplaysPref/DisplaysPref/DisplayModuleManager.swift"
+- "/AppleInternal/Library/BuildRoots/01adf19d-fba1-11ef-a947-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/DisplaysPref/DisplaysPref/DisplaysManager.swift"
+- "/AppleInternal/Library/BuildRoots/01adf19d-fba1-11ef-a947-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/DisplaysPref/DisplaysPref/FineTuneCalibration.swift"
+- "/AppleInternal/Library/BuildRoots/01adf19d-fba1-11ef-a947-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/DisplaysPref/DisplaysPref/MenuBar.swift"
+- "/AppleInternal/Library/BuildRoots/01adf19d-fba1-11ef-a947-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/DisplaysPref/DisplaysPref/NightShiftModule.swift"
+- "/AppleInternal/Library/BuildRoots/01adf19d-fba1-11ef-a947-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/DisplaysPref/DisplaysPref/PresetFormatter.swift"
+- "/AppleInternal/Library/BuildRoots/01adf19d-fba1-11ef-a947-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/DisplaysPref/DisplaysPref/PresetRecord.swift"
+- "/AppleInternal/Library/BuildRoots/01adf19d-fba1-11ef-a947-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/DisplaysPref/DisplaysPref/PresetValidator.swift"
+- "/AppleInternal/Library/BuildRoots/01adf19d-fba1-11ef-a947-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/DisplaysPref/DisplaysPref/PresetsModule.swift"
+- "/AppleInternal/Library/BuildRoots/01adf19d-fba1-11ef-a947-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/DisplaysPref/DisplaysPref/RotationModule.swift"
+- "/AppleInternal/Library/BuildRoots/01adf19d-fba1-11ef-a947-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/DisplaysPref/DisplaysPref/SidecarModule.swift"
+- "/AppleInternal/Library/BuildRoots/01adf19d-fba1-11ef-a947-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/DisplaysPref/DisplaysPref/TrueToneModule.swift"
+
+```

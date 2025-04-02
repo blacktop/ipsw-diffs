@@ -1,0 +1,244 @@
+## NetworkExtension
+
+> `/System/Library/Frameworks/NetworkExtension.framework/Versions/A/NetworkExtension`
+
+```diff
+
+-2063.101.3.0.0
+-  __TEXT.__text: 0x1ed9ac
++2063.120.11.0.0
++  __TEXT.__text: 0x1eda94
+   __TEXT.__auth_stubs: 0x3be0
+   __TEXT.__objc_methlist: 0xe61c
+   __TEXT.__const: 0x2478
+
+   __TEXT.__swift_as_ret: 0xc
+   __TEXT.__swift5_protos: 0x4
+   __TEXT.__gcc_except_tab: 0x5570
+-  __TEXT.__oslogstring: 0x216b3
++  __TEXT.__oslogstring: 0x216e5
+   __TEXT.__unwind_info: 0x4480
+   __TEXT.__eh_frame: 0x598
+   __TEXT.__objc_classname: 0x23dc
+
+   - /usr/lib/swift/libswiftunistd.dylib
+   Functions: 6643
+   Symbols:   15768
+-  CStrings:  12257
++  CStrings:  12258
+ 
+Symbols:
++ __Block_byref_object_copy_.12319
++ __Block_byref_object_copy_.14713
++ __Block_byref_object_copy_.17062
++ __Block_byref_object_copy_.21152
++ __Block_byref_object_copy_.22208
++ __Block_byref_object_copy_.23427
++ __Block_byref_object_copy_.24107
++ __Block_byref_object_copy_.26541
++ __Block_byref_object_copy_.27682
++ __Block_byref_object_copy_.9496
++ __Block_byref_object_dispose_.12320
++ __Block_byref_object_dispose_.14714
++ __Block_byref_object_dispose_.17063
++ __Block_byref_object_dispose_.21153
++ __Block_byref_object_dispose_.22209
++ __Block_byref_object_dispose_.23428
++ __Block_byref_object_dispose_.24108
++ __Block_byref_object_dispose_.26542
++ __Block_byref_object_dispose_.27683
++ __Block_byref_object_dispose_.9497
++ __block_descriptor_tmp.19329
++ __block_descriptor_tmp.22909
++ __block_descriptor_tmp.24958
++ __block_descriptor_tmp.25571
++ __block_literal_global.10.15182
++ __block_literal_global.12603
++ __block_literal_global.12978
++ __block_literal_global.13861
++ __block_literal_global.14.21674
++ __block_literal_global.14.25185
++ __block_literal_global.14042
++ __block_literal_global.14715
++ __block_literal_global.15184
++ __block_literal_global.15746
++ __block_literal_global.15988
++ __block_literal_global.16676
++ __block_literal_global.17070
++ __block_literal_global.17505
++ __block_literal_global.17641
++ __block_literal_global.17948
++ __block_literal_global.19.13874
++ __block_literal_global.19.17632
++ __block_literal_global.19255
++ __block_literal_global.19896
++ __block_literal_global.20163
++ __block_literal_global.21243
++ __block_literal_global.21679
++ __block_literal_global.22.13875
++ __block_literal_global.22.17638
++ __block_literal_global.22074
++ __block_literal_global.22825
++ __block_literal_global.22907
++ __block_literal_global.23372
++ __block_literal_global.23512
++ __block_literal_global.23622
++ __block_literal_global.23656
++ __block_literal_global.23849
++ __block_literal_global.24894
++ __block_literal_global.24956
++ __block_literal_global.25189
++ __block_literal_global.25294
++ __block_literal_global.25677
++ __block_literal_global.26077
++ __block_literal_global.26253
++ __block_literal_global.26507
++ __block_literal_global.27061
++ __block_literal_global.27703
++ __block_literal_global.28.26545
++ __block_literal_global.4.13864
++ __block_literal_global.63.19891
++ __block_literal_global.7.24884
++ __block_literal_global.72.25289
++ _extensionAuxiliaryHostProtocol.protocol.19892
++ _extensionAuxiliaryHostProtocol.protocol.23657
++ _extensionAuxiliaryHostProtocol.protocol.25290
++ _extensionAuxiliaryHostProtocol.protocolInit.19890
++ _extensionAuxiliaryHostProtocol.protocolInit.23655
++ _extensionAuxiliaryHostProtocol.protocolInit.25288
++ _extensionAuxiliaryVendorProtocol.protocol.19897
++ _extensionAuxiliaryVendorProtocol.protocol.25295
++ _extensionAuxiliaryVendorProtocol.protocolInit.19895
++ _extensionAuxiliaryVendorProtocol.protocolInit.25293
++ convert_error_to_string.24100
++ driverInterface.driverInterface.16677
++ driverInterface.driverInterface.20160
++ driverInterface.driverInterface.21675
++ driverInterface.onceToken.16675
++ driverInterface.onceToken.20159
++ driverInterface.onceToken.21673
++ g_noAppFilter.27656
++ globalConfigurationManager.gChangeQueue.17636
++ globalConfigurationManager.gConfigurationManager.17633
++ globalConfigurationManager.onceToken.17631
++ initGlobals.onceToken.15987
++ isA_CFArray.25389
++ loadedManagers.loadedManagers.26505
++ loadedManagers.loadedManagers.27659
++ loadedManagers.managers_init.26504
++ loadedManagers.managers_init.27658
++ managerInterface.managerInterface.20164
++ managerInterface.managerInterface.21680
++ managerInterface.onceToken.20162
++ managerInterface.onceToken.21678
++ sharedManager.onceToken.17640
++ sharedManager.onceToken.27702
+- __Block_byref_object_copy_.12318
+- __Block_byref_object_copy_.14712
+- __Block_byref_object_copy_.17061
+- __Block_byref_object_copy_.21151
+- __Block_byref_object_copy_.22207
+- __Block_byref_object_copy_.23426
+- __Block_byref_object_copy_.24106
+- __Block_byref_object_copy_.26540
+- __Block_byref_object_copy_.27681
+- __Block_byref_object_copy_.9495
+- __Block_byref_object_dispose_.12319
+- __Block_byref_object_dispose_.14713
+- __Block_byref_object_dispose_.17062
+- __Block_byref_object_dispose_.21152
+- __Block_byref_object_dispose_.22208
+- __Block_byref_object_dispose_.23427
+- __Block_byref_object_dispose_.24107
+- __Block_byref_object_dispose_.26541
+- __Block_byref_object_dispose_.27682
+- __Block_byref_object_dispose_.9496
+- __block_descriptor_tmp.19328
+- __block_descriptor_tmp.22908
+- __block_descriptor_tmp.24957
+- __block_descriptor_tmp.25570
+- __block_literal_global.10.15181
+- __block_literal_global.12602
+- __block_literal_global.12977
+- __block_literal_global.13860
+- __block_literal_global.14.21673
+- __block_literal_global.14.25184
+- __block_literal_global.14041
+- __block_literal_global.14714
+- __block_literal_global.15183
+- __block_literal_global.15745
+- __block_literal_global.15987
+- __block_literal_global.16675
+- __block_literal_global.17069
+- __block_literal_global.17504
+- __block_literal_global.17640
+- __block_literal_global.17947
+- __block_literal_global.19.13873
+- __block_literal_global.19.17631
+- __block_literal_global.19254
+- __block_literal_global.19895
+- __block_literal_global.20162
+- __block_literal_global.21242
+- __block_literal_global.21678
+- __block_literal_global.22.13874
+- __block_literal_global.22.17637
+- __block_literal_global.22073
+- __block_literal_global.22824
+- __block_literal_global.22906
+- __block_literal_global.23371
+- __block_literal_global.23511
+- __block_literal_global.23621
+- __block_literal_global.23655
+- __block_literal_global.23848
+- __block_literal_global.24893
+- __block_literal_global.24955
+- __block_literal_global.25188
+- __block_literal_global.25293
+- __block_literal_global.25676
+- __block_literal_global.26076
+- __block_literal_global.26252
+- __block_literal_global.26506
+- __block_literal_global.27060
+- __block_literal_global.27702
+- __block_literal_global.28.26544
+- __block_literal_global.4.13863
+- __block_literal_global.63.19890
+- __block_literal_global.7.24883
+- __block_literal_global.72.25288
+- _extensionAuxiliaryHostProtocol.protocol.19891
+- _extensionAuxiliaryHostProtocol.protocol.23656
+- _extensionAuxiliaryHostProtocol.protocol.25289
+- _extensionAuxiliaryHostProtocol.protocolInit.19889
+- _extensionAuxiliaryHostProtocol.protocolInit.23654
+- _extensionAuxiliaryHostProtocol.protocolInit.25287
+- _extensionAuxiliaryVendorProtocol.protocol.19896
+- _extensionAuxiliaryVendorProtocol.protocol.25294
+- _extensionAuxiliaryVendorProtocol.protocolInit.19894
+- _extensionAuxiliaryVendorProtocol.protocolInit.25292
+- convert_error_to_string.24099
+- driverInterface.driverInterface.16676
+- driverInterface.driverInterface.20159
+- driverInterface.driverInterface.21674
+- driverInterface.onceToken.16674
+- driverInterface.onceToken.20158
+- driverInterface.onceToken.21672
+- g_noAppFilter.27655
+- globalConfigurationManager.gChangeQueue.17635
+- globalConfigurationManager.gConfigurationManager.17632
+- globalConfigurationManager.onceToken.17630
+- initGlobals.onceToken.15986
+- isA_CFArray.25388
+- loadedManagers.loadedManagers.26504
+- loadedManagers.loadedManagers.27658
+- loadedManagers.managers_init.26503
+- loadedManagers.managers_init.27657
+- managerInterface.managerInterface.20163
+- managerInterface.managerInterface.21679
+- managerInterface.onceToken.20161
+- managerInterface.onceToken.21677
+- sharedManager.onceToken.17639
+- sharedManager.onceToken.27701
+CStrings:
++ "Failed to validate EAP payload (code %d type %d)\n"
+
+```

@@ -1,0 +1,743 @@
+## TextInputCore
+
+> `/System/Library/PrivateFrameworks/TextInputCore.framework/Versions/A/TextInputCore`
+
+```diff
+
+-3479.319.0.0.0
+-  __TEXT.__text: 0x2175cc
++3479.500.0.0.0
++  __TEXT.__text: 0x2177cc
+   __TEXT.__auth_stubs: 0x3230
+   __TEXT.__init_offsets: 0xbc
+-  __TEXT.__objc_methlist: 0xfb18
++  __TEXT.__objc_methlist: 0xfb48
+   __TEXT.__const: 0x22f1
+-  __TEXT.__cstring: 0x126a7
++  __TEXT.__cstring: 0x126f3
+   __TEXT.__dlopen_cstrs: 0x9d
+   __TEXT.__oslogstring: 0x378b
+   __TEXT.__ustring: 0x3ae
+   __TEXT.__unwind_info: 0x65c8
+   __TEXT.__objc_classname: 0x2118
+-  __TEXT.__objc_methname: 0x2c73c
++  __TEXT.__objc_methname: 0x2c821
+   __TEXT.__objc_methtype: 0x6c4b
+-  __TEXT.__objc_stubs: 0x1e500
++  __TEXT.__objc_stubs: 0x1e580
+   __DATA_CONST.__got: 0x1878
+   __DATA_CONST.__const: 0x1e40
+   __DATA_CONST.__objc_classlist: 0x800
+   __DATA_CONST.__objc_catlist: 0x60
+   __DATA_CONST.__objc_protolist: 0x188
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x90f0
++  __DATA_CONST.__objc_selrefs: 0x9110
+   __DATA_CONST.__objc_superrefs: 0x6b8
+   __DATA_CONST.__objc_arraydata: 0x850
+   __AUTH_CONST.__auth_got: 0x1920
+   __AUTH_CONST.__auth_ptr: 0x8
+   __AUTH_CONST.__const: 0xbd30
+-  __AUTH_CONST.__cfstring: 0xe7e0
+-  __AUTH_CONST.__objc_const: 0x19138
++  __AUTH_CONST.__cfstring: 0xe820
++  __AUTH_CONST.__objc_const: 0x19198
+   __AUTH_CONST.__objc_intobj: 0x5e8
+   __AUTH_CONST.__objc_arrayobj: 0x2b8
+   __AUTH_CONST.__objc_doubleobj: 0x10
+
+   __AUTH.__data: 0x18
+   __AUTH.__thread_vars: 0x30
+   __AUTH.__thread_bss: 0x20
+-  __DATA.__objc_ivar: 0x1188
++  __DATA.__objc_ivar: 0x1190
+   __DATA.__data: 0x3468
+   __DATA.__bss: 0xe48
+   __DATA.__common: 0x1b08
+
+   - /usr/lib/libmecabra.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libsqlite3.dylib
+-  Functions: 10725
+-  Symbols:   21541
+-  CStrings:  10538
++  Functions: 10729
++  Symbols:   21551
++  CStrings:  10548
+ 
+Symbols:
++ -[TIAssetManager cachedMeCardRegions]
++ -[TIAssetManager lastMeCardRegionFetchTime]
++ -[TIAssetManager setCachedMeCardRegions:]
++ -[TIAssetManager setLastMeCardRegionFetchTime:]
++ OBJC_IVAR_$_TIAssetManager._cachedMeCardRegions
++ OBJC_IVAR_$_TIAssetManager._lastMeCardRegionFetchTime
++ _ZL13kTITokenIDUNK.10976
++ _ZL13kTITokenIDUNK.11127
++ _ZL13kTITokenIDUNK.11272
++ _ZL13kTITokenIDUNK.11364
++ _ZL13kTITokenIDUNK.19348
++ _ZL13kTITokenIDUNK.22375
++ _ZL17__testingInstance.14398
++ _ZN2KBL26k_invalid_likelihood_valueE.10012
++ _ZN2KBL26k_invalid_likelihood_valueE.10041
++ _ZN2KBL26k_invalid_likelihood_valueE.10753
++ _ZN2KBL26k_invalid_likelihood_valueE.10953
++ _ZN2KBL26k_invalid_likelihood_valueE.11013
++ _ZN2KBL26k_invalid_likelihood_valueE.11383
++ _ZN2KBL26k_invalid_likelihood_valueE.11605
++ _ZN2KBL26k_invalid_likelihood_valueE.11825
++ _ZN2KBL26k_invalid_likelihood_valueE.1195
++ _ZN2KBL26k_invalid_likelihood_valueE.12226
++ _ZN2KBL26k_invalid_likelihood_valueE.14300
++ _ZN2KBL26k_invalid_likelihood_valueE.14627
++ _ZN2KBL26k_invalid_likelihood_valueE.14723
++ _ZN2KBL26k_invalid_likelihood_valueE.14728
++ _ZN2KBL26k_invalid_likelihood_valueE.16351
++ _ZN2KBL26k_invalid_likelihood_valueE.16594
++ _ZN2KBL26k_invalid_likelihood_valueE.16907
++ _ZN2KBL26k_invalid_likelihood_valueE.16980
++ _ZN2KBL26k_invalid_likelihood_valueE.17045
++ _ZN2KBL26k_invalid_likelihood_valueE.17054
++ _ZN2KBL26k_invalid_likelihood_valueE.17829
++ _ZN2KBL26k_invalid_likelihood_valueE.19349
++ _ZN2KBL26k_invalid_likelihood_valueE.19381
++ _ZN2KBL26k_invalid_likelihood_valueE.2406
++ _ZN2KBL26k_invalid_likelihood_valueE.2845
++ _ZN2KBL26k_invalid_likelihood_valueE.3199
++ _ZN2KBL26k_invalid_likelihood_valueE.3236
++ _ZN2KBL26k_invalid_likelihood_valueE.3453
++ _ZN2KBL26k_invalid_likelihood_valueE.3555
++ _ZN2KBL26k_invalid_likelihood_valueE.4060
++ _ZN2KBL26k_invalid_likelihood_valueE.4156
++ _ZN2KBL26k_invalid_likelihood_valueE.4456
++ _ZN2KBL26k_invalid_likelihood_valueE.4578
++ _ZN2KBL26k_invalid_likelihood_valueE.4582
++ _ZN2KBL26k_invalid_likelihood_valueE.4659
++ _ZN2KBL26k_invalid_likelihood_valueE.4851
++ _ZN2KBL26k_invalid_likelihood_valueE.4954
++ _ZN2KBL26k_invalid_likelihood_valueE.5705
++ _ZN2KBL26k_invalid_likelihood_valueE.6832
++ _ZN2KBL26k_invalid_likelihood_valueE.804
++ _ZN2KBL26k_invalid_likelihood_valueE.9102
++ _ZN2KBL26k_invalid_likelihood_valueE.9179
++ _ZN2KBL26k_invalid_likelihood_valueE.9766
++ __61-[TIAssetManager updateAssetForInputModeIdentifier:callback:]_block_invoke.340
++ __61-[TIAssetManager updateAssetForInputModeIdentifier:callback:]_block_invoke.343
++ __67-[TIAssetManager updatedActiveRegionsWithCompletionWithCompletion:]_block_invoke.291
++ __67-[TIAssetManager updatedActiveRegionsWithCompletionWithCompletion:]_block_invoke.295
++ __72-[TIAssetManager fetchAssetUpdateStatusForInputModeIdentifier:callback:]_block_invoke.322
++ __72-[TIAssetManager fetchAssetUpdateStatusForInputModeIdentifier:callback:]_block_invoke.325
++ __Block_byref_object_copy_.10495
++ __Block_byref_object_copy_.10964
++ __Block_byref_object_copy_.11068
++ __Block_byref_object_copy_.11367
++ __Block_byref_object_copy_.11820
++ __Block_byref_object_copy_.11855
++ __Block_byref_object_copy_.12502
++ __Block_byref_object_copy_.14091
++ __Block_byref_object_copy_.14577
++ __Block_byref_object_copy_.15914
++ __Block_byref_object_copy_.16023
++ __Block_byref_object_copy_.16216
++ __Block_byref_object_copy_.16699
++ __Block_byref_object_copy_.1794
++ __Block_byref_object_copy_.18123
++ __Block_byref_object_copy_.18184
++ __Block_byref_object_copy_.18269
++ __Block_byref_object_copy_.18870
++ __Block_byref_object_copy_.19335
++ __Block_byref_object_copy_.19372
++ __Block_byref_object_copy_.19812
++ __Block_byref_object_copy_.20352
++ __Block_byref_object_copy_.2142
++ __Block_byref_object_copy_.21501
++ __Block_byref_object_copy_.21632
++ __Block_byref_object_copy_.21797
++ __Block_byref_object_copy_.21857
++ __Block_byref_object_copy_.22106
++ __Block_byref_object_copy_.22358
++ __Block_byref_object_copy_.2363
++ __Block_byref_object_copy_.2425
++ __Block_byref_object_copy_.2779
++ __Block_byref_object_copy_.289
++ __Block_byref_object_copy_.3752
++ __Block_byref_object_copy_.449
++ __Block_byref_object_copy_.4829
++ __Block_byref_object_copy_.5280
++ __Block_byref_object_copy_.5807
++ __Block_byref_object_copy_.5965
++ __Block_byref_object_copy_.6435
++ __Block_byref_object_copy_.6790
++ __Block_byref_object_copy_.6939
++ __Block_byref_object_copy_.7382
++ __Block_byref_object_copy_.7678
++ __Block_byref_object_copy_.7829
++ __Block_byref_object_copy_.802
++ __Block_byref_object_copy_.8743
++ __Block_byref_object_copy_.9045
++ __Block_byref_object_copy_.9362
++ __Block_byref_object_copy_.9747
++ __Block_byref_object_copy_.9841
++ __Block_byref_object_dispose_.10496
++ __Block_byref_object_dispose_.10965
++ __Block_byref_object_dispose_.11069
++ __Block_byref_object_dispose_.11368
++ __Block_byref_object_dispose_.11821
++ __Block_byref_object_dispose_.11856
++ __Block_byref_object_dispose_.12503
++ __Block_byref_object_dispose_.14092
++ __Block_byref_object_dispose_.14578
++ __Block_byref_object_dispose_.15915
++ __Block_byref_object_dispose_.16024
++ __Block_byref_object_dispose_.16217
++ __Block_byref_object_dispose_.16700
++ __Block_byref_object_dispose_.1795
++ __Block_byref_object_dispose_.18124
++ __Block_byref_object_dispose_.18185
++ __Block_byref_object_dispose_.18270
++ __Block_byref_object_dispose_.18871
++ __Block_byref_object_dispose_.19336
++ __Block_byref_object_dispose_.19373
++ __Block_byref_object_dispose_.19813
++ __Block_byref_object_dispose_.20353
++ __Block_byref_object_dispose_.2143
++ __Block_byref_object_dispose_.21502
++ __Block_byref_object_dispose_.21633
++ __Block_byref_object_dispose_.21798
++ __Block_byref_object_dispose_.21858
++ __Block_byref_object_dispose_.22107
++ __Block_byref_object_dispose_.22359
++ __Block_byref_object_dispose_.2364
++ __Block_byref_object_dispose_.2426
++ __Block_byref_object_dispose_.2780
++ __Block_byref_object_dispose_.290
++ __Block_byref_object_dispose_.3753
++ __Block_byref_object_dispose_.450
++ __Block_byref_object_dispose_.4830
++ __Block_byref_object_dispose_.5281
++ __Block_byref_object_dispose_.5808
++ __Block_byref_object_dispose_.5966
++ __Block_byref_object_dispose_.6436
++ __Block_byref_object_dispose_.6791
++ __Block_byref_object_dispose_.6940
++ __Block_byref_object_dispose_.7383
++ __Block_byref_object_dispose_.7679
++ __Block_byref_object_dispose_.7830
++ __Block_byref_object_dispose_.803
++ __Block_byref_object_dispose_.8744
++ __Block_byref_object_dispose_.9046
++ __Block_byref_object_dispose_.9363
++ __Block_byref_object_dispose_.9748
++ __Block_byref_object_dispose_.9842
++ __block_descriptor_tmp.10.16395
++ __block_descriptor_tmp.10.18133
++ __block_descriptor_tmp.10.5697
++ __block_descriptor_tmp.10946
++ __block_descriptor_tmp.10966
++ __block_descriptor_tmp.11.11016
++ __block_descriptor_tmp.11.11366
++ __block_descriptor_tmp.11.18137
++ __block_descriptor_tmp.11273
++ __block_descriptor_tmp.11294
++ __block_descriptor_tmp.12038
++ __block_descriptor_tmp.12662
++ __block_descriptor_tmp.13.16390
++ __block_descriptor_tmp.14.16367
++ __block_descriptor_tmp.14093
++ __block_descriptor_tmp.14123
++ __block_descriptor_tmp.14845
++ __block_descriptor_tmp.15940
++ __block_descriptor_tmp.16025
++ __block_descriptor_tmp.16375
++ __block_descriptor_tmp.16971
++ __block_descriptor_tmp.18.11369
++ __block_descriptor_tmp.18129
++ __block_descriptor_tmp.18149
++ __block_descriptor_tmp.19374
++ __block_descriptor_tmp.19814
++ __block_descriptor_tmp.2.14099
++ __block_descriptor_tmp.2.14135
++ __block_descriptor_tmp.2.15916
++ __block_descriptor_tmp.2.16379
++ __block_descriptor_tmp.2.16972
++ __block_descriptor_tmp.2.18125
++ __block_descriptor_tmp.20.11374
++ __block_descriptor_tmp.20.16365
++ __block_descriptor_tmp.22144
++ __block_descriptor_tmp.22360
++ __block_descriptor_tmp.23.16370
++ __block_descriptor_tmp.25.11285
++ __block_descriptor_tmp.3.11373
++ __block_descriptor_tmp.3.9749
++ __block_descriptor_tmp.3209
++ __block_descriptor_tmp.33.11295
++ __block_descriptor_tmp.4.11293
++ __block_descriptor_tmp.4650
++ __block_descriptor_tmp.4831
++ __block_descriptor_tmp.4937
++ __block_descriptor_tmp.5.15919
++ __block_descriptor_tmp.5.16384
++ __block_descriptor_tmp.5.16987
++ __block_descriptor_tmp.5.4649
++ __block_descriptor_tmp.5695
++ __block_descriptor_tmp.6.11002
++ __block_descriptor_tmp.6.3215
++ __block_descriptor_tmp.6.5696
++ __block_descriptor_tmp.7.4624
++ __block_descriptor_tmp.7.9739
++ __block_descriptor_tmp.7375
++ __block_descriptor_tmp.8.11360
++ __block_descriptor_tmp.8.16387
++ __block_descriptor_tmp.9.14097
++ __block_descriptor_tmp.9092
++ __block_descriptor_tmp.9745
++ __block_literal_global.10654
++ __block_literal_global.10975
++ __block_literal_global.11264
++ __block_literal_global.11269
++ __block_literal_global.1133
++ __block_literal_global.11929
++ __block_literal_global.12036
++ __block_literal_global.12219
++ __block_literal_global.12598
++ __block_literal_global.12660
++ __block_literal_global.13.15288
++ __block_literal_global.13624
++ __block_literal_global.13823
++ __block_literal_global.14133
++ __block_literal_global.14308
++ __block_literal_global.14395
++ __block_literal_global.14971
++ __block_literal_global.15125
++ __block_literal_global.15303
++ __block_literal_global.15917
++ __block_literal_global.15962
++ __block_literal_global.15979
++ __block_literal_global.16300
++ __block_literal_global.16373
++ __block_literal_global.16540
++ __block_literal_global.17190
++ __block_literal_global.17266
++ __block_literal_global.17576
++ __block_literal_global.17684
++ __block_literal_global.18.13611
++ __block_literal_global.18.15283
++ __block_literal_global.18147
++ __block_literal_global.18177
++ __block_literal_global.18885
++ __block_literal_global.19184
++ __block_literal_global.1929
++ __block_literal_global.19766
++ __block_literal_global.19932
++ __block_literal_global.20286
++ __block_literal_global.2075
++ __block_literal_global.21662
++ __block_literal_global.218.12555
++ __block_literal_global.21883
++ __block_literal_global.21934
++ __block_literal_global.21991
++ __block_literal_global.22096
++ __block_literal_global.22142
++ __block_literal_global.2249
++ __block_literal_global.2382
++ __block_literal_global.24.11286
++ __block_literal_global.2477
++ __block_literal_global.3.15298
++ __block_literal_global.3.6825
++ __block_literal_global.31.14933
++ __block_literal_global.3191
++ __block_literal_global.323.4164
++ __block_literal_global.3289
++ __block_literal_global.3309
++ __block_literal_global.3534
++ __block_literal_global.3620
++ __block_literal_global.3636
++ __block_literal_global.3782
++ __block_literal_global.3896
++ __block_literal_global.4172
++ __block_literal_global.4572
++ __block_literal_global.46.22005
++ __block_literal_global.48.22008
++ __block_literal_global.4935
++ __block_literal_global.5524
++ __block_literal_global.5655
++ __block_literal_global.5813
++ __block_literal_global.61.22025
++ __block_literal_global.6102
++ __block_literal_global.6537
++ __block_literal_global.6828
++ __block_literal_global.7038
++ __block_literal_global.709
++ __block_literal_global.7176
++ __block_literal_global.7791
++ __block_literal_global.8.15293
++ __block_literal_global.82.22046
++ __block_literal_global.8283
++ __block_literal_global.85.22051
++ __block_literal_global.86.17738
++ __block_literal_global.9049
++ __block_literal_global.9421
++ __testingInstance.19936
++ __testingInstance.21880
++ __testingInstance.3294
++ __testingInstance.6104
++ __testingInstance.6578
++ __testingInstance.7041
++ _objc_msgSend$cachedMeCardRegions
++ _objc_msgSend$lastMeCardRegionFetchTime
++ _objc_msgSend$setCachedMeCardRegions:
++ _objc_msgSend$setLastMeCardRegionFetchTime:
++ sharedInstance.onceToken.11263
++ sharedInstance.onceToken.12597
++ sharedInstance.onceToken.8282
++ singletonInstance.onceToken.13623
++ singletonInstance.onceToken.17575
++ singletonInstance.onceToken.19931
++ singletonInstance.onceToken.21882
++ singletonInstance.onceToken.6101
++ singletonInstance.onceToken.7037
++ singletonInstance.singleton.17577
++ singletonInstance.singletonInstance.13625
++ singletonInstance.singletonInstance.19933
++ singletonInstance.singletonInstance.21884
++ singletonInstance.singletonInstance.7039
+- _ZL13kTITokenIDUNK.10940
+- _ZL13kTITokenIDUNK.11091
+- _ZL13kTITokenIDUNK.11236
+- _ZL13kTITokenIDUNK.11328
+- _ZL13kTITokenIDUNK.19327
+- _ZL13kTITokenIDUNK.22355
+- _ZL17__testingInstance.14366
+- _ZN2KBL26k_invalid_likelihood_valueE.10021
+- _ZN2KBL26k_invalid_likelihood_valueE.10718
+- _ZN2KBL26k_invalid_likelihood_valueE.10917
+- _ZN2KBL26k_invalid_likelihood_valueE.10977
+- _ZN2KBL26k_invalid_likelihood_valueE.11347
+- _ZN2KBL26k_invalid_likelihood_valueE.11569
+- _ZN2KBL26k_invalid_likelihood_valueE.11789
+- _ZN2KBL26k_invalid_likelihood_valueE.1203
+- _ZN2KBL26k_invalid_likelihood_valueE.12189
+- _ZN2KBL26k_invalid_likelihood_valueE.14268
+- _ZN2KBL26k_invalid_likelihood_valueE.14594
+- _ZN2KBL26k_invalid_likelihood_valueE.14690
+- _ZN2KBL26k_invalid_likelihood_valueE.14695
+- _ZN2KBL26k_invalid_likelihood_valueE.16319
+- _ZN2KBL26k_invalid_likelihood_valueE.16562
+- _ZN2KBL26k_invalid_likelihood_valueE.16875
+- _ZN2KBL26k_invalid_likelihood_valueE.16948
+- _ZN2KBL26k_invalid_likelihood_valueE.17013
+- _ZN2KBL26k_invalid_likelihood_valueE.17022
+- _ZN2KBL26k_invalid_likelihood_valueE.17797
+- _ZN2KBL26k_invalid_likelihood_valueE.19328
+- _ZN2KBL26k_invalid_likelihood_valueE.19360
+- _ZN2KBL26k_invalid_likelihood_valueE.2408
+- _ZN2KBL26k_invalid_likelihood_valueE.2846
+- _ZN2KBL26k_invalid_likelihood_valueE.3200
+- _ZN2KBL26k_invalid_likelihood_valueE.3237
+- _ZN2KBL26k_invalid_likelihood_valueE.3454
+- _ZN2KBL26k_invalid_likelihood_valueE.3556
+- _ZN2KBL26k_invalid_likelihood_valueE.4061
+- _ZN2KBL26k_invalid_likelihood_valueE.4158
+- _ZN2KBL26k_invalid_likelihood_valueE.4457
+- _ZN2KBL26k_invalid_likelihood_valueE.4579
+- _ZN2KBL26k_invalid_likelihood_valueE.4583
+- _ZN2KBL26k_invalid_likelihood_valueE.4660
+- _ZN2KBL26k_invalid_likelihood_valueE.4852
+- _ZN2KBL26k_invalid_likelihood_valueE.4955
+- _ZN2KBL26k_invalid_likelihood_valueE.5704
+- _ZN2KBL26k_invalid_likelihood_valueE.6809
+- _ZN2KBL26k_invalid_likelihood_valueE.811
+- _ZN2KBL26k_invalid_likelihood_valueE.9081
+- _ZN2KBL26k_invalid_likelihood_valueE.9158
+- _ZN2KBL26k_invalid_likelihood_valueE.9746
+- _ZN2KBL26k_invalid_likelihood_valueE.9992
+- __61-[TIAssetManager updateAssetForInputModeIdentifier:callback:]_block_invoke.334
+- __61-[TIAssetManager updateAssetForInputModeIdentifier:callback:]_block_invoke.337
+- __67-[TIAssetManager updatedActiveRegionsWithCompletionWithCompletion:]_block_invoke.285
+- __67-[TIAssetManager updatedActiveRegionsWithCompletionWithCompletion:]_block_invoke.289
+- __72-[TIAssetManager fetchAssetUpdateStatusForInputModeIdentifier:callback:]_block_invoke.316
+- __72-[TIAssetManager fetchAssetUpdateStatusForInputModeIdentifier:callback:]_block_invoke.319
+- __Block_byref_object_copy_.10470
+- __Block_byref_object_copy_.10928
+- __Block_byref_object_copy_.11032
+- __Block_byref_object_copy_.11331
+- __Block_byref_object_copy_.11784
+- __Block_byref_object_copy_.11819
+- __Block_byref_object_copy_.12465
+- __Block_byref_object_copy_.14059
+- __Block_byref_object_copy_.14544
+- __Block_byref_object_copy_.15882
+- __Block_byref_object_copy_.15991
+- __Block_byref_object_copy_.16184
+- __Block_byref_object_copy_.16667
+- __Block_byref_object_copy_.1795
+- __Block_byref_object_copy_.18091
+- __Block_byref_object_copy_.18152
+- __Block_byref_object_copy_.18237
+- __Block_byref_object_copy_.18849
+- __Block_byref_object_copy_.19314
+- __Block_byref_object_copy_.19351
+- __Block_byref_object_copy_.19791
+- __Block_byref_object_copy_.20331
+- __Block_byref_object_copy_.2144
+- __Block_byref_object_copy_.21481
+- __Block_byref_object_copy_.21612
+- __Block_byref_object_copy_.21777
+- __Block_byref_object_copy_.21837
+- __Block_byref_object_copy_.22086
+- __Block_byref_object_copy_.22338
+- __Block_byref_object_copy_.2365
+- __Block_byref_object_copy_.2427
+- __Block_byref_object_copy_.2780
+- __Block_byref_object_copy_.283
+- __Block_byref_object_copy_.3753
+- __Block_byref_object_copy_.443
+- __Block_byref_object_copy_.4830
+- __Block_byref_object_copy_.5281
+- __Block_byref_object_copy_.5806
+- __Block_byref_object_copy_.5964
+- __Block_byref_object_copy_.6416
+- __Block_byref_object_copy_.6767
+- __Block_byref_object_copy_.6916
+- __Block_byref_object_copy_.7360
+- __Block_byref_object_copy_.7656
+- __Block_byref_object_copy_.7807
+- __Block_byref_object_copy_.809
+- __Block_byref_object_copy_.8722
+- __Block_byref_object_copy_.9024
+- __Block_byref_object_copy_.9342
+- __Block_byref_object_copy_.9727
+- __Block_byref_object_copy_.9821
+- __Block_byref_object_dispose_.10471
+- __Block_byref_object_dispose_.10929
+- __Block_byref_object_dispose_.11033
+- __Block_byref_object_dispose_.11332
+- __Block_byref_object_dispose_.11785
+- __Block_byref_object_dispose_.11820
+- __Block_byref_object_dispose_.12466
+- __Block_byref_object_dispose_.14060
+- __Block_byref_object_dispose_.14545
+- __Block_byref_object_dispose_.15883
+- __Block_byref_object_dispose_.15992
+- __Block_byref_object_dispose_.16185
+- __Block_byref_object_dispose_.16668
+- __Block_byref_object_dispose_.1796
+- __Block_byref_object_dispose_.18092
+- __Block_byref_object_dispose_.18153
+- __Block_byref_object_dispose_.18238
+- __Block_byref_object_dispose_.18850
+- __Block_byref_object_dispose_.19315
+- __Block_byref_object_dispose_.19352
+- __Block_byref_object_dispose_.19792
+- __Block_byref_object_dispose_.20332
+- __Block_byref_object_dispose_.2145
+- __Block_byref_object_dispose_.21482
+- __Block_byref_object_dispose_.21613
+- __Block_byref_object_dispose_.21778
+- __Block_byref_object_dispose_.21838
+- __Block_byref_object_dispose_.22087
+- __Block_byref_object_dispose_.22339
+- __Block_byref_object_dispose_.2366
+- __Block_byref_object_dispose_.2428
+- __Block_byref_object_dispose_.2781
+- __Block_byref_object_dispose_.284
+- __Block_byref_object_dispose_.3754
+- __Block_byref_object_dispose_.444
+- __Block_byref_object_dispose_.4831
+- __Block_byref_object_dispose_.5282
+- __Block_byref_object_dispose_.5807
+- __Block_byref_object_dispose_.5965
+- __Block_byref_object_dispose_.6417
+- __Block_byref_object_dispose_.6768
+- __Block_byref_object_dispose_.6917
+- __Block_byref_object_dispose_.7361
+- __Block_byref_object_dispose_.7657
+- __Block_byref_object_dispose_.7808
+- __Block_byref_object_dispose_.810
+- __Block_byref_object_dispose_.8723
+- __Block_byref_object_dispose_.9025
+- __Block_byref_object_dispose_.9343
+- __Block_byref_object_dispose_.9728
+- __Block_byref_object_dispose_.9822
+- __block_descriptor_tmp.10.16363
+- __block_descriptor_tmp.10.18101
+- __block_descriptor_tmp.10.5696
+- __block_descriptor_tmp.10910
+- __block_descriptor_tmp.10930
+- __block_descriptor_tmp.11.10980
+- __block_descriptor_tmp.11.11330
+- __block_descriptor_tmp.11.18105
+- __block_descriptor_tmp.11237
+- __block_descriptor_tmp.11258
+- __block_descriptor_tmp.12002
+- __block_descriptor_tmp.12625
+- __block_descriptor_tmp.13.16358
+- __block_descriptor_tmp.14.16335
+- __block_descriptor_tmp.14061
+- __block_descriptor_tmp.14091
+- __block_descriptor_tmp.14812
+- __block_descriptor_tmp.15908
+- __block_descriptor_tmp.15993
+- __block_descriptor_tmp.16343
+- __block_descriptor_tmp.16939
+- __block_descriptor_tmp.18.11333
+- __block_descriptor_tmp.18097
+- __block_descriptor_tmp.18117
+- __block_descriptor_tmp.19353
+- __block_descriptor_tmp.19793
+- __block_descriptor_tmp.2.14067
+- __block_descriptor_tmp.2.14103
+- __block_descriptor_tmp.2.15884
+- __block_descriptor_tmp.2.16347
+- __block_descriptor_tmp.2.16940
+- __block_descriptor_tmp.2.18093
+- __block_descriptor_tmp.20.11338
+- __block_descriptor_tmp.20.16333
+- __block_descriptor_tmp.22124
+- __block_descriptor_tmp.22340
+- __block_descriptor_tmp.23.16338
+- __block_descriptor_tmp.25.11249
+- __block_descriptor_tmp.3.11337
+- __block_descriptor_tmp.3.9729
+- __block_descriptor_tmp.3210
+- __block_descriptor_tmp.33.11259
+- __block_descriptor_tmp.4.11257
+- __block_descriptor_tmp.4651
+- __block_descriptor_tmp.4832
+- __block_descriptor_tmp.4938
+- __block_descriptor_tmp.5.15887
+- __block_descriptor_tmp.5.16352
+- __block_descriptor_tmp.5.16955
+- __block_descriptor_tmp.5.4650
+- __block_descriptor_tmp.5694
+- __block_descriptor_tmp.6.10966
+- __block_descriptor_tmp.6.3216
+- __block_descriptor_tmp.6.5695
+- __block_descriptor_tmp.7.4625
+- __block_descriptor_tmp.7.9719
+- __block_descriptor_tmp.7353
+- __block_descriptor_tmp.8.11324
+- __block_descriptor_tmp.8.16355
+- __block_descriptor_tmp.9.14065
+- __block_descriptor_tmp.9071
+- __block_descriptor_tmp.9725
+- __block_literal_global.10619
+- __block_literal_global.10939
+- __block_literal_global.11228
+- __block_literal_global.11233
+- __block_literal_global.1141
+- __block_literal_global.11893
+- __block_literal_global.12000
+- __block_literal_global.12182
+- __block_literal_global.12561
+- __block_literal_global.12623
+- __block_literal_global.13.15255
+- __block_literal_global.13592
+- __block_literal_global.13791
+- __block_literal_global.14101
+- __block_literal_global.14276
+- __block_literal_global.14363
+- __block_literal_global.14938
+- __block_literal_global.15092
+- __block_literal_global.15270
+- __block_literal_global.15885
+- __block_literal_global.15930
+- __block_literal_global.15947
+- __block_literal_global.16268
+- __block_literal_global.16341
+- __block_literal_global.16508
+- __block_literal_global.17158
+- __block_literal_global.17234
+- __block_literal_global.17544
+- __block_literal_global.17652
+- __block_literal_global.18.13579
+- __block_literal_global.18.15250
+- __block_literal_global.18115
+- __block_literal_global.18145
+- __block_literal_global.18864
+- __block_literal_global.19163
+- __block_literal_global.1931
+- __block_literal_global.19745
+- __block_literal_global.19911
+- __block_literal_global.20265
+- __block_literal_global.2077
+- __block_literal_global.21642
+- __block_literal_global.218.12518
+- __block_literal_global.21863
+- __block_literal_global.21914
+- __block_literal_global.21971
+- __block_literal_global.22076
+- __block_literal_global.22122
+- __block_literal_global.2251
+- __block_literal_global.2384
+- __block_literal_global.24.11250
+- __block_literal_global.2479
+- __block_literal_global.3.15265
+- __block_literal_global.3.6802
+- __block_literal_global.31.14900
+- __block_literal_global.316
+- __block_literal_global.3192
+- __block_literal_global.3290
+- __block_literal_global.3310
+- __block_literal_global.3535
+- __block_literal_global.3621
+- __block_literal_global.3637
+- __block_literal_global.3783
+- __block_literal_global.3897
+- __block_literal_global.4173
+- __block_literal_global.4573
+- __block_literal_global.46.21985
+- __block_literal_global.48.21988
+- __block_literal_global.4936
+- __block_literal_global.5525
+- __block_literal_global.5654
+- __block_literal_global.5812
+- __block_literal_global.61.22005
+- __block_literal_global.6100
+- __block_literal_global.6511
+- __block_literal_global.6805
+- __block_literal_global.7015
+- __block_literal_global.705
+- __block_literal_global.7154
+- __block_literal_global.7769
+- __block_literal_global.8.15260
+- __block_literal_global.82.22026
+- __block_literal_global.8262
+- __block_literal_global.85.22031
+- __block_literal_global.86.17706
+- __block_literal_global.9028
+- __block_literal_global.9401
+- __testingInstance.19915
+- __testingInstance.21860
+- __testingInstance.3295
+- __testingInstance.6102
+- __testingInstance.6553
+- __testingInstance.7018
+- sharedInstance.onceToken.11227
+- sharedInstance.onceToken.12560
+- sharedInstance.onceToken.8261
+- singletonInstance.onceToken.13591
+- singletonInstance.onceToken.17543
+- singletonInstance.onceToken.19910
+- singletonInstance.onceToken.21862
+- singletonInstance.onceToken.6099
+- singletonInstance.onceToken.7014
+- singletonInstance.singleton.17545
+- singletonInstance.singletonInstance.13593
+- singletonInstance.singletonInstance.19912
+- singletonInstance.singletonInstance.21864
+- singletonInstance.singletonInstance.7016
+CStrings:
++ "%s Retrieved meCard regions from cache"
++ "%s Updated the meCard regions cache."
++ "T@\"NSArray\",C,N,V_cachedMeCardRegions"
++ "T@\"NSDate\",C,N,V_lastMeCardRegionFetchTime"
++ "_cachedMeCardRegions"
++ "_lastMeCardRegionFetchTime"
++ "cachedMeCardRegions"
++ "lastMeCardRegionFetchTime"
++ "setCachedMeCardRegions:"
++ "setLastMeCardRegionFetchTime:"
+
+```

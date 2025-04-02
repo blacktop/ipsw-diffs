@@ -1,0 +1,262 @@
+## libSparseBLAS.dylib
+
+> `/System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/libSparseBLAS.dylib`
+
+```diff
+
+-1513.100.9.0.0
+-  __TEXT.__text: 0x11838
+-  __TEXT.__auth_stubs: 0x2a0
+-  __TEXT.__const: 0x40
++1541.0.0.0.0
++  __TEXT.__text: 0x256b0
++  __TEXT.__auth_stubs: 0x4a0
++  __TEXT.__const: 0x70
+   __TEXT.__oslogstring: 0x53
+-  __TEXT.__cstring: 0xf9
+-  __TEXT.__unwind_info: 0x1d8
+-  __DATA_CONST.__got: 0x18
+-  __DATA_CONST.__const: 0x3e0
+-  __AUTH_CONST.__auth_got: 0x150
++  __TEXT.__cstring: 0x201
++  __TEXT.__gcc_except_tab: 0x20
++  __TEXT.__unwind_info: 0x3c0
++  __DATA_CONST.__got: 0x30
++  __DATA_CONST.__const: 0x8a0
++  __AUTH_CONST.__auth_got: 0x258
+   __AUTH_CONST.__auth_ptr: 0x20
+   __AUTH_CONST.__const: 0x20
+   __DATA.__bss: 0x38
+   - /System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/libBLAS.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+-  Functions: 148
+-  Symbols:   229
+-  CStrings:  13
++  Functions: 293
++  Symbols:   450
++  CStrings:  25
+ 
+Symbols:
++ GCC_except_table1
++ GCC_except_table15
++ _CSC_ConjTrans_matrix_vector_product_dense_double_complex
++ _CSC_ConjTrans_matrix_vector_product_dense_float_complex
++ _CSC_Conj_matrix_vector_product_dense_double_complex
++ _CSC_Conj_matrix_vector_product_dense_float_complex
++ _CSC_NoTrans_CSC_matrix_product_ColMajor_dense_double_complex
++ _CSC_NoTrans_CSC_matrix_product_ColMajor_dense_float_complex
++ _CSC_NoTrans_CSC_matrix_product_RowMajor_dense_double_complex
++ _CSC_NoTrans_CSC_matrix_product_RowMajor_dense_float_complex
++ _CSC_NoTrans_CSR_matrix_product_ColMajor_dense_double_complex
++ _CSC_NoTrans_CSR_matrix_product_ColMajor_dense_float_complex
++ _CSC_NoTrans_CSR_matrix_product_RowMajor_dense_double_complex
++ _CSC_NoTrans_CSR_matrix_product_RowMajor_dense_float_complex
++ _CSC_NoTrans_ColMajor_matrix_product_dense_double_complex
++ _CSC_NoTrans_ColMajor_matrix_product_dense_float_complex
++ _CSC_NoTrans_RowMajor_matrix_product_dense_double_complex
++ _CSC_NoTrans_RowMajor_matrix_product_dense_float_complex
++ _CSC_NoTrans_matrix_vector_product_dense_double_complex
++ _CSC_NoTrans_matrix_vector_product_dense_float_complex
++ _CSC_Trans_CSC_matrix_product_ColMajor_dense_double_complex
++ _CSC_Trans_CSC_matrix_product_ColMajor_dense_float_complex
++ _CSC_Trans_CSC_matrix_product_RowMajor_dense_double_complex
++ _CSC_Trans_CSC_matrix_product_RowMajor_dense_float_complex
++ _CSC_Trans_CSR_matrix_product_ColMajor_dense_double_complex
++ _CSC_Trans_CSR_matrix_product_ColMajor_dense_float_complex
++ _CSC_Trans_CSR_matrix_product_RowMajor_dense_double_complex
++ _CSC_Trans_CSR_matrix_product_RowMajor_dense_float_complex
++ _CSC_Trans_ColMajor_matrix_product_dense_double_complex
++ _CSC_Trans_ColMajor_matrix_product_dense_float_complex
++ _CSC_Trans_RowMajor_matrix_product_dense_double_complex
++ _CSC_Trans_RowMajor_matrix_product_dense_float_complex
++ _CSC_Trans_matrix_vector_product_dense_double_complex
++ _CSC_Trans_matrix_vector_product_dense_float_complex
++ _CSC_vector_insert_element_double_complex
++ _CSC_vector_insert_element_float_complex
++ _CSC_vector_merge_double_complex
++ _CSC_vector_merge_float_complex
++ __Unwind_Resume
++ __ZN6lapack8hardware5query11sysctlQueryEPKc
++ __ZN6lapack8hardware5query16coreTypeForLevelEj
++ __ZN6lapack8hardware5query17sysctlQueryStringEPKc
++ __ZNKSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB8ne190102Ev
++ __ZNSt11logic_errorC2EPKc
++ __ZNSt12length_errorC1B8ne190102EPKc
++ __ZNSt12length_errorD1Ev
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B8ne190102ILi0EEEPKc
++ __ZNSt3__120__throw_length_errorB8ne190102EPKc
++ __ZTISt12length_error
++ __ZTVSt12length_error
++ __ZdlPv
++ __Znwm
++ ___cxa_allocate_exception
++ ___cxa_free_exception
++ ___cxa_throw
++ ___divdc3
++ ___divsc3
++ ___gxx_personality_v0
++ ___muldc3
++ ___mulsc3
++ ___sparse_inner_product_dense_double_complex_block_invoke
++ ___sparse_inner_product_dense_float_complex_block_invoke
++ ___sparse_matrix_product_dense_double_complex_block_invoke
++ ___sparse_matrix_product_dense_double_complex_block_invoke_2
++ ___sparse_matrix_product_dense_double_complex_block_invoke_3
++ ___sparse_matrix_product_dense_double_complex_block_invoke_4
++ ___sparse_matrix_product_dense_double_complex_block_invoke_5
++ ___sparse_matrix_product_dense_double_complex_block_invoke_6
++ ___sparse_matrix_product_dense_double_complex_block_invoke_7
++ ___sparse_matrix_product_dense_double_complex_block_invoke_8
++ ___sparse_matrix_product_dense_float_complex_block_invoke
++ ___sparse_matrix_product_dense_float_complex_block_invoke_2
++ ___sparse_matrix_product_dense_float_complex_block_invoke_3
++ ___sparse_matrix_product_dense_float_complex_block_invoke_4
++ ___sparse_matrix_product_dense_float_complex_block_invoke_5
++ ___sparse_matrix_product_dense_float_complex_block_invoke_6
++ ___sparse_matrix_product_dense_float_complex_block_invoke_7
++ ___sparse_matrix_product_dense_float_complex_block_invoke_8
++ ___sparse_matrix_triangular_solve_dense_double_complex_block_invoke
++ ___sparse_matrix_triangular_solve_dense_float_complex_block_invoke
++ ___sparse_matrix_vector_product_dense_double_complex_block_invoke
++ ___sparse_matrix_vector_product_dense_double_complex_block_invoke_2
++ ___sparse_matrix_vector_product_dense_double_complex_block_invoke_3
++ ___sparse_matrix_vector_product_dense_double_complex_block_invoke_4
++ ___sparse_matrix_vector_product_dense_double_complex_block_invoke_5
++ ___sparse_matrix_vector_product_dense_double_complex_block_invoke_6
++ ___sparse_matrix_vector_product_dense_float_complex_block_invoke
++ ___sparse_matrix_vector_product_dense_float_complex_block_invoke_2
++ ___sparse_matrix_vector_product_dense_float_complex_block_invoke_3
++ ___sparse_matrix_vector_product_dense_float_complex_block_invoke_4
++ ___sparse_matrix_vector_product_dense_float_complex_block_invoke_5
++ ___sparse_matrix_vector_product_dense_float_complex_block_invoke_6
++ ___sparse_vector_add_with_scale_dense_double_complex_block_invoke
++ ___sparse_vector_add_with_scale_dense_float_complex_block_invoke
++ __block_descriptor_tmp.18
++ __block_descriptor_tmp.19
++ __block_descriptor_tmp.20
++ __block_descriptor_tmp.21
++ __block_descriptor_tmp.22
++ __block_descriptor_tmp.23
++ __block_descriptor_tmp.24
++ __block_descriptor_tmp.25
++ __block_descriptor_tmp.26
++ __block_descriptor_tmp.27
++ __block_descriptor_tmp.28
++ __block_descriptor_tmp.29
++ __block_descriptor_tmp.30
++ __block_descriptor_tmp.31
++ __block_descriptor_tmp.32
++ __block_descriptor_tmp.33
++ __block_descriptor_tmp.34
++ __block_descriptor_tmp.35
++ _cabs
++ _cabsf
++ _cblas_caxpy
++ _cblas_ccopy
++ _cblas_cgemm
++ _cblas_cgemv
++ _cblas_cscal
++ _cblas_ctrsm
++ _cblas_ctrsv
++ _cblas_dzasum
++ _cblas_dznrm2
++ _cblas_icamax
++ _cblas_izamax
++ _cblas_scasum
++ _cblas_scnrm2
++ _cblas_zaxpy
++ _cblas_zcopy
++ _cblas_zgemm
++ _cblas_zgemv
++ _cblas_zscal
++ _cblas_ztrsm
++ _cblas_ztrsv
++ _comparePair_double
++ _comparePair_double_complex
++ _comparePair_float
++ _comparePair_float_complex
++ _dense_get_nonzero_count_double_complex
++ _dense_get_nonzero_count_float_complex
++ _matrix_triangular_solve_dense_double_complex
++ _matrix_triangular_solve_dense_float_complex
++ _one_double_complex
++ _one_float_complex
++ _sparse_elementwise_norm_double_complex
++ _sparse_elementwise_norm_float_complex
++ _sparse_extract_block_double_complex
++ _sparse_extract_block_float_complex
++ _sparse_extract_sparse_column_double_complex
++ _sparse_extract_sparse_column_float_complex
++ _sparse_extract_sparse_row_double_complex
++ _sparse_extract_sparse_row_float_complex
++ _sparse_get_vector_nonzero_count_double_complex
++ _sparse_get_vector_nonzero_count_float_complex
++ _sparse_inner_product_dense_double_complex
++ _sparse_inner_product_dense_float_complex
++ _sparse_inner_product_sparse_double_complex
++ _sparse_inner_product_sparse_float_complex
++ _sparse_insert_block_double_complex
++ _sparse_insert_block_float_complex
++ _sparse_insert_col_double_complex
++ _sparse_insert_col_float_complex
++ _sparse_insert_entries_double_complex
++ _sparse_insert_entries_float_complex
++ _sparse_insert_entry_double_complex
++ _sparse_insert_entry_float_complex
++ _sparse_insert_row_double_complex
++ _sparse_insert_row_float_complex
++ _sparse_matrix_block_create_double_complex
++ _sparse_matrix_block_create_float_complex
++ _sparse_matrix_create_double_complex
++ _sparse_matrix_create_float_complex
++ _sparse_matrix_product_dense_double_complex
++ _sparse_matrix_product_dense_float_complex
++ _sparse_matrix_product_sparse_double_complex
++ _sparse_matrix_product_sparse_float_complex
++ _sparse_matrix_trace_double_complex
++ _sparse_matrix_trace_float_complex
++ _sparse_matrix_triangular_solve_dense_double_complex
++ _sparse_matrix_triangular_solve_dense_float_complex
++ _sparse_matrix_variable_block_create_double_complex
++ _sparse_matrix_variable_block_create_float_complex
++ _sparse_matrix_vector_product_dense_double_complex
++ _sparse_matrix_vector_product_dense_float_complex
++ _sparse_operator_norm_double_complex
++ _sparse_operator_norm_float_complex
++ _sparse_outer_product_dense_double_complex
++ _sparse_outer_product_dense_float_complex
++ _sparse_pack_vector_double_complex
++ _sparse_pack_vector_float_complex
++ _sparse_permute_cols_double_complex
++ _sparse_permute_cols_float_complex
++ _sparse_permute_rows_double_complex
++ _sparse_permute_rows_float_complex
++ _sparse_storage_convert_double_complex
++ _sparse_storage_convert_float_complex
++ _sparse_unpack_vector_double_complex
++ _sparse_unpack_vector_float_complex
++ _sparse_vector_add_with_scale_dense_double_complex
++ _sparse_vector_add_with_scale_dense_float_complex
++ _sparse_vector_norm_double_complex
++ _sparse_vector_norm_float_complex
++ _sparse_vector_triangular_solve_dense_double_complex
++ _sparse_vector_triangular_solve_dense_float_complex
++ _strlen
+- _comparePairD
+- _comparePairF
+CStrings:
++ "basic_string"
++ "hw.nperflevels"
++ "hw.perflevel0.name"
++ "hw.perflevel1.name"
++ "hw.perflevel2.cpusperl2"
++ "hw.perflevel2.l2cachesize"
++ "hw.perflevel2.name"
++ "hw.perflevel2.physicalcpu_max"
++ "hw.perflevel3.cpusperl2"
++ "hw.perflevel3.l2cachesize"
++ "hw.perflevel3.name"
++ "hw.perflevel3.physicalcpu_max"
+
+```

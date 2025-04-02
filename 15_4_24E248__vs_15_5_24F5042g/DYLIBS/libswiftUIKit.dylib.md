@@ -1,0 +1,16 @@
+## libswiftUIKit.dylib
+
+> `/System/iOSSupport/usr/lib/swift/libswiftUIKit.dylib`
+
+```diff
+
+-8444.1.402.0.0
++8502.0.0.0.0
+   __TEXT.__text: 0x0
+-  __TEXT.__const: 0x38
++  __TEXT.__const: 0x30
+   - /System/iOSSupport/System/Library/Frameworks/UIKit.framework/Versions/A/UIKit
+   - /usr/lib/libSystem.B.dylib
+   Functions: 0
+
+```

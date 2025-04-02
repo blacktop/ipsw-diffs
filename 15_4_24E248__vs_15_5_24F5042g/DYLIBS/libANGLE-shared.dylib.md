@@ -1,0 +1,101 @@
+## libANGLE-shared.dylib
+
+> `/System/iOSSupport/System/Library/PrivateFrameworks/WebCore.framework/Versions/A/Frameworks/libANGLE-shared.dylib`
+
+```diff
+
+-621.1.15.11.10
+-  __TEXT.__text: 0x25c7e0
++621.2.1.11.5
++  __TEXT.__text: 0x25c8dc
+   __TEXT.__auth_stubs: 0xf00
+   __TEXT.__const: 0x8ff18
+   __TEXT.__cstring: 0x38e8e
+Symbols:
++ __ZN2sh12_GLOBAL__N_134RewriteExpressionVisitBinaryHelperEPNS_9TCompilerEPNS_13TIntermBinaryERKNSt3__113unordered_mapIPKNS_10TStructureENS0_13StructureDataENS5_4hashIS9_EENS5_8equal_toIS9_EENS5_9allocatorINS5_4pairIKS9_SA_EEEEEERKNS6_IPKNS_9TVariableESP_NSB_ISP_EENSD_ISP_EENSF_INSG_IKSP_SP_EEEEEERKNS6_INS5_12basic_stringIcNS5_11char_traitsIcEENSF_IcEEEESP_NSB_IS12_EENSD_IS12_EENSF_INSG_IKS12_SP_EEEEEEPPNS_12TIntermTypedE
+- __ZN2sh12_GLOBAL__N_134RewriteExpressionVisitBinaryHelperEPNS_9TCompilerEPNS_13TIntermBinaryERKNSt3__113unordered_mapIPKNS_10TStructureENS0_13StructureDataENS5_4hashIS9_EENS5_8equal_toIS9_EENS5_9allocatorINS5_4pairIKS9_SA_EEEEEERKNS6_IPKNS_9TVariableESP_NSB_ISP_EENSD_ISP_EENSF_INSG_IKSP_SP_EEEEEERKNS6_INS5_12basic_stringIcNS5_11char_traitsIcEENSF_IcEEEESP_NSB_IS12_EENSD_IS12_EENSF_INSG_IKS12_SP_EEEEEE
+CStrings:
++ "/AppleInternal/Library/BuildRoots/4931fbb8-0af0-11f0-9779-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/ANGLE_iosmac/Source/ThirdParty/ANGLE/src/common/android_util.cpp"
++ "/AppleInternal/Library/BuildRoots/4931fbb8-0af0-11f0-9779-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/ANGLE_iosmac/Source/ThirdParty/ANGLE/src/common/apple_platform_utils.mm"
++ "/AppleInternal/Library/BuildRoots/4931fbb8-0af0-11f0-9779-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/ANGLE_iosmac/Source/ThirdParty/ANGLE/src/compiler/translator/IntermNode.cpp"
++ "/AppleInternal/Library/BuildRoots/4931fbb8-0af0-11f0-9779-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/ANGLE_iosmac/Source/ThirdParty/ANGLE/src/image_util/loadimage_astc.cpp"
++ "/AppleInternal/Library/BuildRoots/4931fbb8-0af0-11f0-9779-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/ANGLE_iosmac/Source/ThirdParty/ANGLE/src/libANGLE/BlobCache.cpp"
++ "/AppleInternal/Library/BuildRoots/4931fbb8-0af0-11f0-9779-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/ANGLE_iosmac/Source/ThirdParty/ANGLE/src/libANGLE/Buffer.cpp"
++ "/AppleInternal/Library/BuildRoots/4931fbb8-0af0-11f0-9779-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/ANGLE_iosmac/Source/ThirdParty/ANGLE/src/libANGLE/Context.cpp"
++ "/AppleInternal/Library/BuildRoots/4931fbb8-0af0-11f0-9779-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/ANGLE_iosmac/Source/ThirdParty/ANGLE/src/libANGLE/Debug.cpp"
++ "/AppleInternal/Library/BuildRoots/4931fbb8-0af0-11f0-9779-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/ANGLE_iosmac/Source/ThirdParty/ANGLE/src/libANGLE/Display.cpp"
++ "/AppleInternal/Library/BuildRoots/4931fbb8-0af0-11f0-9779-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/ANGLE_iosmac/Source/ThirdParty/ANGLE/src/libANGLE/GLES1Renderer.cpp"
++ "/AppleInternal/Library/BuildRoots/4931fbb8-0af0-11f0-9779-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/ANGLE_iosmac/Source/ThirdParty/ANGLE/src/libANGLE/HandleAllocator.cpp"
++ "/AppleInternal/Library/BuildRoots/4931fbb8-0af0-11f0-9779-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/ANGLE_iosmac/Source/ThirdParty/ANGLE/src/libANGLE/Platform.cpp"
++ "/AppleInternal/Library/BuildRoots/4931fbb8-0af0-11f0-9779-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/ANGLE_iosmac/Source/ThirdParty/ANGLE/src/libANGLE/Program.cpp"
++ "/AppleInternal/Library/BuildRoots/4931fbb8-0af0-11f0-9779-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/ANGLE_iosmac/Source/ThirdParty/ANGLE/src/libANGLE/Shader.cpp"
++ "/AppleInternal/Library/BuildRoots/4931fbb8-0af0-11f0-9779-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/ANGLE_iosmac/Source/ThirdParty/ANGLE/src/libANGLE/State.cpp"
++ "/AppleInternal/Library/BuildRoots/4931fbb8-0af0-11f0-9779-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/ANGLE_iosmac/Source/ThirdParty/ANGLE/src/libANGLE/Surface.cpp"
++ "/AppleInternal/Library/BuildRoots/4931fbb8-0af0-11f0-9779-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/ANGLE_iosmac/Source/ThirdParty/ANGLE/src/libANGLE/Texture.cpp"
++ "/AppleInternal/Library/BuildRoots/4931fbb8-0af0-11f0-9779-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/ANGLE_iosmac/Source/ThirdParty/ANGLE/src/libANGLE/angletypes.cpp"
++ "/AppleInternal/Library/BuildRoots/4931fbb8-0af0-11f0-9779-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/ANGLE_iosmac/Source/ThirdParty/ANGLE/src/libANGLE/queryconversions.cpp"
++ "/AppleInternal/Library/BuildRoots/4931fbb8-0af0-11f0-9779-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/ANGLE_iosmac/Source/ThirdParty/ANGLE/src/libANGLE/renderer/metal/BufferMtl.mm"
++ "/AppleInternal/Library/BuildRoots/4931fbb8-0af0-11f0-9779-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/ANGLE_iosmac/Source/ThirdParty/ANGLE/src/libANGLE/renderer/metal/ContextMtl.mm"
++ "/AppleInternal/Library/BuildRoots/4931fbb8-0af0-11f0-9779-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/ANGLE_iosmac/Source/ThirdParty/ANGLE/src/libANGLE/renderer/metal/DisplayMtl.mm"
++ "/AppleInternal/Library/BuildRoots/4931fbb8-0af0-11f0-9779-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/ANGLE_iosmac/Source/ThirdParty/ANGLE/src/libANGLE/renderer/metal/FrameBufferMtl.mm"
++ "/AppleInternal/Library/BuildRoots/4931fbb8-0af0-11f0-9779-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/ANGLE_iosmac/Source/ThirdParty/ANGLE/src/libANGLE/renderer/metal/IOSurfaceSurfaceMtl.mm"
++ "/AppleInternal/Library/BuildRoots/4931fbb8-0af0-11f0-9779-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/ANGLE_iosmac/Source/ThirdParty/ANGLE/src/libANGLE/renderer/metal/ProgramExecutableMtl.mm"
++ "/AppleInternal/Library/BuildRoots/4931fbb8-0af0-11f0-9779-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/ANGLE_iosmac/Source/ThirdParty/ANGLE/src/libANGLE/renderer/metal/RenderBufferMtl.mm"
++ "/AppleInternal/Library/BuildRoots/4931fbb8-0af0-11f0-9779-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/ANGLE_iosmac/Source/ThirdParty/ANGLE/src/libANGLE/renderer/metal/SurfaceMtl.mm"
++ "/AppleInternal/Library/BuildRoots/4931fbb8-0af0-11f0-9779-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/ANGLE_iosmac/Source/ThirdParty/ANGLE/src/libANGLE/renderer/metal/TextureMtl.mm"
++ "/AppleInternal/Library/BuildRoots/4931fbb8-0af0-11f0-9779-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/ANGLE_iosmac/Source/ThirdParty/ANGLE/src/libANGLE/renderer/metal/TransformFeedbackMtl.mm"
++ "/AppleInternal/Library/BuildRoots/4931fbb8-0af0-11f0-9779-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/ANGLE_iosmac/Source/ThirdParty/ANGLE/src/libANGLE/renderer/metal/VertexArrayMtl.mm"
++ "/AppleInternal/Library/BuildRoots/4931fbb8-0af0-11f0-9779-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/ANGLE_iosmac/Source/ThirdParty/ANGLE/src/libANGLE/renderer/metal/mtl_command_buffer.mm"
++ "/AppleInternal/Library/BuildRoots/4931fbb8-0af0-11f0-9779-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/ANGLE_iosmac/Source/ThirdParty/ANGLE/src/libANGLE/renderer/metal/mtl_context_device.mm"
++ "/AppleInternal/Library/BuildRoots/4931fbb8-0af0-11f0-9779-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/ANGLE_iosmac/Source/ThirdParty/ANGLE/src/libANGLE/renderer/metal/mtl_library_cache.mm"
++ "/AppleInternal/Library/BuildRoots/4931fbb8-0af0-11f0-9779-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/ANGLE_iosmac/Source/ThirdParty/ANGLE/src/libANGLE/renderer/metal/mtl_pipeline_cache.mm"
++ "/AppleInternal/Library/BuildRoots/4931fbb8-0af0-11f0-9779-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/ANGLE_iosmac/Source/ThirdParty/ANGLE/src/libANGLE/renderer/metal/mtl_render_utils.mm"
++ "/AppleInternal/Library/BuildRoots/4931fbb8-0af0-11f0-9779-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/ANGLE_iosmac/Source/ThirdParty/ANGLE/src/libANGLE/renderer/metal/mtl_resources.mm"
++ "/AppleInternal/Library/BuildRoots/4931fbb8-0af0-11f0-9779-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/ANGLE_iosmac/Source/ThirdParty/ANGLE/src/libANGLE/renderer/metal/mtl_utils.mm"
++ "/AppleInternal/Library/BuildRoots/4931fbb8-0af0-11f0-9779-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/ANGLE_iosmac/Source/ThirdParty/ANGLE/src/libANGLE/renderer/metal/process.cpp"
++ "/AppleInternal/Library/BuildRoots/4931fbb8-0af0-11f0-9779-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/ANGLE_iosmac/Source/ThirdParty/ANGLE/src/libANGLE/renderer/renderer_utils.cpp"
++ "/AppleInternal/Library/BuildRoots/4931fbb8-0af0-11f0-9779-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/ANGLE_iosmac/Source/ThirdParty/ANGLE/src/libANGLE/validationES.cpp"
++ "/AppleInternal/Library/BuildRoots/4931fbb8-0af0-11f0-9779-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/ANGLE_iosmac/Source/ThirdParty/ANGLE/src/libANGLE/validationES2.cpp"
+- "/AppleInternal/Library/BuildRoots/e3e14635-06d1-11f0-88e4-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/ANGLE_iosmac/Source/ThirdParty/ANGLE/src/common/android_util.cpp"
+- "/AppleInternal/Library/BuildRoots/e3e14635-06d1-11f0-88e4-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/ANGLE_iosmac/Source/ThirdParty/ANGLE/src/common/apple_platform_utils.mm"
+- "/AppleInternal/Library/BuildRoots/e3e14635-06d1-11f0-88e4-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/ANGLE_iosmac/Source/ThirdParty/ANGLE/src/compiler/translator/IntermNode.cpp"
+- "/AppleInternal/Library/BuildRoots/e3e14635-06d1-11f0-88e4-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/ANGLE_iosmac/Source/ThirdParty/ANGLE/src/image_util/loadimage_astc.cpp"
+- "/AppleInternal/Library/BuildRoots/e3e14635-06d1-11f0-88e4-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/ANGLE_iosmac/Source/ThirdParty/ANGLE/src/libANGLE/BlobCache.cpp"
+- "/AppleInternal/Library/BuildRoots/e3e14635-06d1-11f0-88e4-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/ANGLE_iosmac/Source/ThirdParty/ANGLE/src/libANGLE/Buffer.cpp"
+- "/AppleInternal/Library/BuildRoots/e3e14635-06d1-11f0-88e4-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/ANGLE_iosmac/Source/ThirdParty/ANGLE/src/libANGLE/Context.cpp"
+- "/AppleInternal/Library/BuildRoots/e3e14635-06d1-11f0-88e4-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/ANGLE_iosmac/Source/ThirdParty/ANGLE/src/libANGLE/Debug.cpp"
+- "/AppleInternal/Library/BuildRoots/e3e14635-06d1-11f0-88e4-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/ANGLE_iosmac/Source/ThirdParty/ANGLE/src/libANGLE/Display.cpp"
+- "/AppleInternal/Library/BuildRoots/e3e14635-06d1-11f0-88e4-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/ANGLE_iosmac/Source/ThirdParty/ANGLE/src/libANGLE/GLES1Renderer.cpp"
+- "/AppleInternal/Library/BuildRoots/e3e14635-06d1-11f0-88e4-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/ANGLE_iosmac/Source/ThirdParty/ANGLE/src/libANGLE/HandleAllocator.cpp"
+- "/AppleInternal/Library/BuildRoots/e3e14635-06d1-11f0-88e4-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/ANGLE_iosmac/Source/ThirdParty/ANGLE/src/libANGLE/Platform.cpp"
+- "/AppleInternal/Library/BuildRoots/e3e14635-06d1-11f0-88e4-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/ANGLE_iosmac/Source/ThirdParty/ANGLE/src/libANGLE/Program.cpp"
+- "/AppleInternal/Library/BuildRoots/e3e14635-06d1-11f0-88e4-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/ANGLE_iosmac/Source/ThirdParty/ANGLE/src/libANGLE/Shader.cpp"
+- "/AppleInternal/Library/BuildRoots/e3e14635-06d1-11f0-88e4-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/ANGLE_iosmac/Source/ThirdParty/ANGLE/src/libANGLE/State.cpp"
+- "/AppleInternal/Library/BuildRoots/e3e14635-06d1-11f0-88e4-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/ANGLE_iosmac/Source/ThirdParty/ANGLE/src/libANGLE/Surface.cpp"
+- "/AppleInternal/Library/BuildRoots/e3e14635-06d1-11f0-88e4-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/ANGLE_iosmac/Source/ThirdParty/ANGLE/src/libANGLE/Texture.cpp"
+- "/AppleInternal/Library/BuildRoots/e3e14635-06d1-11f0-88e4-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/ANGLE_iosmac/Source/ThirdParty/ANGLE/src/libANGLE/angletypes.cpp"
+- "/AppleInternal/Library/BuildRoots/e3e14635-06d1-11f0-88e4-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/ANGLE_iosmac/Source/ThirdParty/ANGLE/src/libANGLE/queryconversions.cpp"
+- "/AppleInternal/Library/BuildRoots/e3e14635-06d1-11f0-88e4-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/ANGLE_iosmac/Source/ThirdParty/ANGLE/src/libANGLE/renderer/metal/BufferMtl.mm"
+- "/AppleInternal/Library/BuildRoots/e3e14635-06d1-11f0-88e4-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/ANGLE_iosmac/Source/ThirdParty/ANGLE/src/libANGLE/renderer/metal/ContextMtl.mm"
+- "/AppleInternal/Library/BuildRoots/e3e14635-06d1-11f0-88e4-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/ANGLE_iosmac/Source/ThirdParty/ANGLE/src/libANGLE/renderer/metal/DisplayMtl.mm"
+- "/AppleInternal/Library/BuildRoots/e3e14635-06d1-11f0-88e4-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/ANGLE_iosmac/Source/ThirdParty/ANGLE/src/libANGLE/renderer/metal/FrameBufferMtl.mm"
+- "/AppleInternal/Library/BuildRoots/e3e14635-06d1-11f0-88e4-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/ANGLE_iosmac/Source/ThirdParty/ANGLE/src/libANGLE/renderer/metal/IOSurfaceSurfaceMtl.mm"
+- "/AppleInternal/Library/BuildRoots/e3e14635-06d1-11f0-88e4-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/ANGLE_iosmac/Source/ThirdParty/ANGLE/src/libANGLE/renderer/metal/ProgramExecutableMtl.mm"
+- "/AppleInternal/Library/BuildRoots/e3e14635-06d1-11f0-88e4-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/ANGLE_iosmac/Source/ThirdParty/ANGLE/src/libANGLE/renderer/metal/RenderBufferMtl.mm"
+- "/AppleInternal/Library/BuildRoots/e3e14635-06d1-11f0-88e4-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/ANGLE_iosmac/Source/ThirdParty/ANGLE/src/libANGLE/renderer/metal/SurfaceMtl.mm"
+- "/AppleInternal/Library/BuildRoots/e3e14635-06d1-11f0-88e4-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/ANGLE_iosmac/Source/ThirdParty/ANGLE/src/libANGLE/renderer/metal/TextureMtl.mm"
+- "/AppleInternal/Library/BuildRoots/e3e14635-06d1-11f0-88e4-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/ANGLE_iosmac/Source/ThirdParty/ANGLE/src/libANGLE/renderer/metal/TransformFeedbackMtl.mm"
+- "/AppleInternal/Library/BuildRoots/e3e14635-06d1-11f0-88e4-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/ANGLE_iosmac/Source/ThirdParty/ANGLE/src/libANGLE/renderer/metal/VertexArrayMtl.mm"
+- "/AppleInternal/Library/BuildRoots/e3e14635-06d1-11f0-88e4-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/ANGLE_iosmac/Source/ThirdParty/ANGLE/src/libANGLE/renderer/metal/mtl_command_buffer.mm"
+- "/AppleInternal/Library/BuildRoots/e3e14635-06d1-11f0-88e4-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/ANGLE_iosmac/Source/ThirdParty/ANGLE/src/libANGLE/renderer/metal/mtl_context_device.mm"
+- "/AppleInternal/Library/BuildRoots/e3e14635-06d1-11f0-88e4-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/ANGLE_iosmac/Source/ThirdParty/ANGLE/src/libANGLE/renderer/metal/mtl_library_cache.mm"
+- "/AppleInternal/Library/BuildRoots/e3e14635-06d1-11f0-88e4-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/ANGLE_iosmac/Source/ThirdParty/ANGLE/src/libANGLE/renderer/metal/mtl_pipeline_cache.mm"
+- "/AppleInternal/Library/BuildRoots/e3e14635-06d1-11f0-88e4-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/ANGLE_iosmac/Source/ThirdParty/ANGLE/src/libANGLE/renderer/metal/mtl_render_utils.mm"
+- "/AppleInternal/Library/BuildRoots/e3e14635-06d1-11f0-88e4-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/ANGLE_iosmac/Source/ThirdParty/ANGLE/src/libANGLE/renderer/metal/mtl_resources.mm"
+- "/AppleInternal/Library/BuildRoots/e3e14635-06d1-11f0-88e4-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/ANGLE_iosmac/Source/ThirdParty/ANGLE/src/libANGLE/renderer/metal/mtl_utils.mm"
+- "/AppleInternal/Library/BuildRoots/e3e14635-06d1-11f0-88e4-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/ANGLE_iosmac/Source/ThirdParty/ANGLE/src/libANGLE/renderer/metal/process.cpp"
+- "/AppleInternal/Library/BuildRoots/e3e14635-06d1-11f0-88e4-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/ANGLE_iosmac/Source/ThirdParty/ANGLE/src/libANGLE/renderer/renderer_utils.cpp"
+- "/AppleInternal/Library/BuildRoots/e3e14635-06d1-11f0-88e4-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/ANGLE_iosmac/Source/ThirdParty/ANGLE/src/libANGLE/validationES.cpp"
+- "/AppleInternal/Library/BuildRoots/e3e14635-06d1-11f0-88e4-f2a857e00a32/Library/Caches/com.apple.xbs/Sources/ANGLE_iosmac/Source/ThirdParty/ANGLE/src/libANGLE/validationES2.cpp"
+
+```

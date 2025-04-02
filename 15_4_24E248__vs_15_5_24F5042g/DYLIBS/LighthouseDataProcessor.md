@@ -1,0 +1,1986 @@
+## LighthouseDataProcessor
+
+> `/System/Library/PrivateFrameworks/LighthouseDataProcessor.framework/Versions/A/LighthouseDataProcessor`
+
+```diff
+
+-1.4.11.0.0
+-  __TEXT.__text: 0x8bbbdc
+-  __TEXT.__auth_stubs: 0x1890
+-  __TEXT.__objc_methlist: 0x15f4
+-  __TEXT.__const: 0x34060
+-  __TEXT.__cstring: 0xb465
+-  __TEXT.__constg_swiftt: 0x6a78
+-  __TEXT.__swift5_typeref: 0x786c
++1.5.4.0.0
++  __TEXT.__text: 0x8cade0
++  __TEXT.__auth_stubs: 0x1550
++  __TEXT.__objc_methlist: 0x174
++  __TEXT.__const: 0x330f0
++  __TEXT.__cstring: 0xa065
++  __TEXT.__constg_swiftt: 0x5d0c
++  __TEXT.__swift5_typeref: 0x7144
+   __TEXT.__swift5_builtin: 0xa0
+-  __TEXT.__swift5_reflstr: 0x7b08
+-  __TEXT.__swift5_fieldmd: 0xa208
+-  __TEXT.__swift5_assocty: 0xc58
+-  __TEXT.__swift5_proto: 0x2eb0
+-  __TEXT.__swift5_types: 0x9d8
+-  __TEXT.__oslogstring: 0x1d92
+-  __TEXT.__swift5_protos: 0x44
++  __TEXT.__swift5_reflstr: 0x6088
++  __TEXT.__swift5_fieldmd: 0x9624
++  __TEXT.__swift5_assocty: 0xbe0
++  __TEXT.__swift5_proto: 0x2e60
++  __TEXT.__swift5_types: 0x97c
++  __TEXT.__swift5_protos: 0x20
++  __TEXT.__oslogstring: 0x14d2
+   __TEXT.__swift5_capture: 0x17c
+   __TEXT.__swift_as_entry: 0x60
+   __TEXT.__swift_as_ret: 0x48
+   __TEXT.__swift5_mpenum: 0x64
+-  __TEXT.__unwind_info: 0xe5e0
+-  __TEXT.__eh_frame: 0x18000
+-  __TEXT.__objc_classname: 0x13b
+-  __TEXT.__objc_methname: 0x5716
+-  __TEXT.__objc_methtype: 0x43a
+-  __TEXT.__objc_stubs: 0x14a0
+-  __DATA_CONST.__got: 0x9e0
+-  __DATA_CONST.__const: 0x160
+-  __DATA_CONST.__objc_classlist: 0x100
++  __TEXT.__unwind_info: 0xe030
++  __TEXT.__eh_frame: 0x182f8
++  __TEXT.__objc_classname: 0x15
++  __TEXT.__objc_methname: 0x1767
++  __TEXT.__objc_methtype: 0xff
++  __DATA_CONST.__got: 0x7f0
++  __DATA_CONST.__const: 0x110
++  __DATA_CONST.__objc_classlist: 0x30
+   __DATA_CONST.__objc_protolist: 0x20
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x1590
++  __DATA_CONST.__objc_selrefs: 0x9f8
+   __DATA_CONST.__objc_protorefs: 0x10
+-  __DATA_CONST.__objc_superrefs: 0x40
+-  __AUTH_CONST.__auth_got: 0xc50
+-  __AUTH_CONST.__auth_ptr: 0x1750
+-  __AUTH_CONST.__const: 0x6be8
+-  __AUTH_CONST.__cfstring: 0x8c0
+-  __AUTH_CONST.__objc_const: 0x3860
+-  __AUTH_CONST.__objc_intobj: 0x18
+-  __AUTH.__objc_data: 0x410
+-  __AUTH.__data: 0x10e38
+-  __DATA.__objc_ivar: 0x1e0
+-  __DATA.__data: 0xccc8
+-  __DATA.__bss: 0x5c490
+-  __DATA.__common: 0xb8
++  __AUTH_CONST.__auth_got: 0xaa8
++  __AUTH_CONST.__auth_ptr: 0x1628
++  __AUTH_CONST.__const: 0x6090
++  __AUTH_CONST.__objc_const: 0x770
++  __AUTH.__objc_data: 0x50
++  __AUTH.__data: 0xf9e8
++  __DATA.__data: 0xcbd0
++  __DATA.__bss: 0x5c800
++  __DATA.__common: 0x88
+   - /System/Library/Frameworks/Combine.framework/Versions/A/Combine
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+
+   - /System/Library/PrivateFrameworks/FeedbackLogger.framework/Versions/A/FeedbackLogger
+   - /System/Library/PrivateFrameworks/IntelligencePlatformLibrary.framework/Versions/A/IntelligencePlatformLibrary
+   - /System/Library/PrivateFrameworks/InternalSwiftProtobuf.framework/Versions/A/InternalSwiftProtobuf
+-  - /System/Library/PrivateFrameworks/ProtocolBuffer.framework/Versions/A/ProtocolBuffer
+   - /System/Library/PrivateFrameworks/SiriAnalytics.framework/Versions/A/SiriAnalytics
+   - /System/Library/PrivateFrameworks/SiriInstrumentation.framework/Versions/A/SiriInstrumentation
+   - /System/Library/PrivateFrameworks/ToolKit.framework/Versions/A/ToolKit
+
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsys_time.dylib
+   - /usr/lib/swift/libswiftunistd.dylib
+-  Functions: 23335
+-  Symbols:   4916
+-  CStrings:  2891
++  Functions: 22511
++  Symbols:   3950
++  CStrings:  2067
+ 
+Symbols:
++ _OBJC_CLASS_$_IFTSchemaIFTExecutionPreconditionEvaluatorRequest
++ _OBJC_CLASS_$_IFTSchemaIFTExecutionPreconditionEvaluatorRequestActionRequest
++ _OBJC_CLASS_$_IFTSchemaIFTSystemRequirementUserLocationForSystemRequest
++ __swift_get_extra_inhabitant_index.146Tm
++ __swift_get_extra_inhabitant_index.150Tm
++ __swift_get_extra_inhabitant_index.156Tm
++ __swift_get_extra_inhabitant_index.166Tm
++ __swift_get_extra_inhabitant_index.169Tm
++ __swift_get_extra_inhabitant_index.172Tm
++ __swift_get_extra_inhabitant_index.187Tm
++ __swift_get_extra_inhabitant_index.193Tm
++ __swift_get_extra_inhabitant_index.209Tm
++ __swift_get_extra_inhabitant_index.218Tm
++ __swift_get_extra_inhabitant_index.221Tm
++ __swift_get_extra_inhabitant_index.227Tm
++ __swift_get_extra_inhabitant_index.241Tm
++ __swift_get_extra_inhabitant_index.247Tm
++ __swift_get_extra_inhabitant_index.265Tm
++ __swift_get_extra_inhabitant_index.308Tm
++ __swift_get_extra_inhabitant_index.358Tm
++ __swift_get_extra_inhabitant_index.434Tm
++ __swift_get_extra_inhabitant_index.849Tm
++ __swift_store_extra_inhabitant_index.147Tm
++ __swift_store_extra_inhabitant_index.151Tm
++ __swift_store_extra_inhabitant_index.157Tm
++ __swift_store_extra_inhabitant_index.167Tm
++ __swift_store_extra_inhabitant_index.170Tm
++ __swift_store_extra_inhabitant_index.173Tm
++ __swift_store_extra_inhabitant_index.188Tm
++ __swift_store_extra_inhabitant_index.194Tm
++ __swift_store_extra_inhabitant_index.210Tm
++ __swift_store_extra_inhabitant_index.219Tm
++ __swift_store_extra_inhabitant_index.222Tm
++ __swift_store_extra_inhabitant_index.228Tm
++ __swift_store_extra_inhabitant_index.242Tm
++ __swift_store_extra_inhabitant_index.248Tm
++ __swift_store_extra_inhabitant_index.266Tm
++ __swift_store_extra_inhabitant_index.309Tm
++ __swift_store_extra_inhabitant_index.359Tm
++ __swift_store_extra_inhabitant_index.435Tm
++ __swift_store_extra_inhabitant_index.850Tm
++ _associated conformance 23LighthouseDataProcessor31TranscriptProtoProgramStatementV0dE24ExecutionSupportTypeEnumOSHAASQ
++ _associated conformance 23LighthouseDataProcessor31TranscriptProtoProgramStatementV20ExecutionSupportTypeV21InternalSwiftProtobuf26_MessageImplementationBaseAASH
++ _associated conformance 23LighthouseDataProcessor31TranscriptProtoProgramStatementV20ExecutionSupportTypeV21InternalSwiftProtobuf26_MessageImplementationBaseAaF0N0
++ _associated conformance 23LighthouseDataProcessor31TranscriptProtoProgramStatementV20ExecutionSupportTypeV21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
++ _associated conformance 23LighthouseDataProcessor31TranscriptProtoProgramStatementV20ExecutionSupportTypeVSHAASQ
++ _associated conformance 23LighthouseDataProcessor31TranscriptProtoRequestAmendmentV21InternalSwiftProtobuf26_MessageImplementationBaseAASH
++ _associated conformance 23LighthouseDataProcessor31TranscriptProtoRequestAmendmentV21InternalSwiftProtobuf26_MessageImplementationBaseAaD0K0
++ _associated conformance 23LighthouseDataProcessor31TranscriptProtoRequestAmendmentV21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
++ _associated conformance 23LighthouseDataProcessor31TranscriptProtoRequestAmendmentVSHAASQ
++ _symbolic _____ 23LighthouseDataProcessor31TranscriptProtoProgramStatementV0dE24ExecutionSupportTypeEnumO
++ _symbolic _____ 23LighthouseDataProcessor31TranscriptProtoProgramStatementV20ExecutionSupportTypeV
++ _symbolic _____ 23LighthouseDataProcessor31TranscriptProtoRequestAmendmentV
++ _symbolic _____Sg 23LighthouseDataProcessor31TranscriptProtoProgramStatementV0dE24ExecutionSupportTypeEnumO
++ _symbolic _____Sg 23LighthouseDataProcessor31TranscriptProtoProgramStatementV20ExecutionSupportTypeV
++ _symbolic _____Sg 23LighthouseDataProcessor31TranscriptProtoRequestAmendmentV
++ _symbolic _____Sg_ABt 23LighthouseDataProcessor31TranscriptProtoProgramStatementV20ExecutionSupportTypeV
+- -[PNRProvisionalMetrics .cxx_destruct]
+- -[PNRProvisionalMetrics deleteEndTimestampEventName]
+- -[PNRProvisionalMetrics deleteEndTimestamp]
+- -[PNRProvisionalMetrics deleteMetricsValue]
+- -[PNRProvisionalMetrics deleteStartTimestampEventName]
+- -[PNRProvisionalMetrics deleteStartTimestamp]
+- -[PNRProvisionalMetrics dictionaryRepresentation]
+- -[PNRProvisionalMetrics endTimestampEventName]
+- -[PNRProvisionalMetrics endTimestamp]
+- -[PNRProvisionalMetrics hasEndTimestampEventName]
+- -[PNRProvisionalMetrics hasEndTimestamp]
+- -[PNRProvisionalMetrics hasMetricsValue]
+- -[PNRProvisionalMetrics hasStartTimestampEventName]
+- -[PNRProvisionalMetrics hasStartTimestamp]
+- -[PNRProvisionalMetrics hash]
+- -[PNRProvisionalMetrics initWithDictionary:]
+- -[PNRProvisionalMetrics initWithJSON:]
+- -[PNRProvisionalMetrics isEqual:]
+- -[PNRProvisionalMetrics jsonData]
+- -[PNRProvisionalMetrics metricsValue]
+- -[PNRProvisionalMetrics readFrom:]
+- -[PNRProvisionalMetrics setEndTimestamp:]
+- -[PNRProvisionalMetrics setEndTimestampEventName:]
+- -[PNRProvisionalMetrics setHasEndTimestamp:]
+- -[PNRProvisionalMetrics setHasEndTimestampEventName:]
+- -[PNRProvisionalMetrics setHasMetricsValue:]
+- -[PNRProvisionalMetrics setHasStartTimestamp:]
+- -[PNRProvisionalMetrics setHasStartTimestampEventName:]
+- -[PNRProvisionalMetrics setMetricsValue:]
+- -[PNRProvisionalMetrics setStartTimestamp:]
+- -[PNRProvisionalMetrics setStartTimestampEventName:]
+- -[PNRProvisionalMetrics startTimestampEventName]
+- -[PNRProvisionalMetrics startTimestamp]
+- -[PNRProvisionalMetrics writeTo:]
+- -[PNRProvisionalPlannerGrainMetricsDimension .cxx_destruct]
+- -[PNRProvisionalPlannerGrainMetricsDimension actionResolverRequestToLastResolverEventTime]
+- -[PNRProvisionalPlannerGrainMetricsDimension deleteActionResolverRequestToLastResolverEventTime]
+- -[PNRProvisionalPlannerGrainMetricsDimension deleteFailureInfo]
+- -[PNRProvisionalPlannerGrainMetricsDimension deleteLastQueryDecorationEventToPlanCreatedTime]
+- -[PNRProvisionalPlannerGrainMetricsDimension deleteLastResolverEventToResponseGeneratedTime]
+- -[PNRProvisionalPlannerGrainMetricsDimension deleteNumActionResolverRequests]
+- -[PNRProvisionalPlannerGrainMetricsDimension deleteNumClientActionCreated]
+- -[PNRProvisionalPlannerGrainMetricsDimension deleteNumCriticalErrors]
+- -[PNRProvisionalPlannerGrainMetricsDimension deleteNumPlansCreated]
+- -[PNRProvisionalPlannerGrainMetricsDimension deleteNumQueriesCreated]
+- -[PNRProvisionalPlannerGrainMetricsDimension deleteNumQueriesExecuted]
+- -[PNRProvisionalPlannerGrainMetricsDimension deleteNumStatementEvaluatedFromPlanner]
+- -[PNRProvisionalPlannerGrainMetricsDimension deleteNumSystemPromptResolved]
+- -[PNRProvisionalPlannerGrainMetricsDimension deletePlanCreatedToActionResolverRequestTime]
+- -[PNRProvisionalPlannerGrainMetricsDimension deletePlanCreatedToLastResolverEventTime]
+- -[PNRProvisionalPlannerGrainMetricsDimension deletePlanCreatedToResolutionTime]
+- -[PNRProvisionalPlannerGrainMetricsDimension deletePlanCreatedToResolverRequestTime]
+- -[PNRProvisionalPlannerGrainMetricsDimension deletePlannerGrainStage]
+- -[PNRProvisionalPlannerGrainMetricsDimension deletePlannerResponseTime]
+- -[PNRProvisionalPlannerGrainMetricsDimension deletePlanningStep]
+- -[PNRProvisionalPlannerGrainMetricsDimension deleteResolutionToResponseGeneratedTime]
+- -[PNRProvisionalPlannerGrainMetricsDimension deleteResolverFirstSystemPromptToResolutionTime]
+- -[PNRProvisionalPlannerGrainMetricsDimension deleteResolverRequestToResolutionTime]
+- -[PNRProvisionalPlannerGrainMetricsDimension deleteResolverTotalClientActionTime]
+- -[PNRProvisionalPlannerGrainMetricsDimension deleteResolverTotalQueryTime]
+- -[PNRProvisionalPlannerGrainMetricsDimension deleteStartToActionResolverRequestTime]
+- -[PNRProvisionalPlannerGrainMetricsDimension deleteStartToContextRetrievedTime]
+- -[PNRProvisionalPlannerGrainMetricsDimension deleteStartToEntitySpanMatchedTime]
+- -[PNRProvisionalPlannerGrainMetricsDimension deleteStartToLastQueryDecorationEventTime]
+- -[PNRProvisionalPlannerGrainMetricsDimension deleteStartToLastResolverEventTime]
+- -[PNRProvisionalPlannerGrainMetricsDimension deleteStartToPlanCreatedTime]
+- -[PNRProvisionalPlannerGrainMetricsDimension deleteStartToToolsRetrievedTime]
+- -[PNRProvisionalPlannerGrainMetricsDimension dictionaryRepresentation]
+- -[PNRProvisionalPlannerGrainMetricsDimension failureInfo]
+- -[PNRProvisionalPlannerGrainMetricsDimension hasActionResolverRequestToLastResolverEventTime]
+- -[PNRProvisionalPlannerGrainMetricsDimension hasFailureInfo]
+- -[PNRProvisionalPlannerGrainMetricsDimension hasLastQueryDecorationEventToPlanCreatedTime]
+- -[PNRProvisionalPlannerGrainMetricsDimension hasLastResolverEventToResponseGeneratedTime]
+- -[PNRProvisionalPlannerGrainMetricsDimension hasNumActionResolverRequests]
+- -[PNRProvisionalPlannerGrainMetricsDimension hasNumClientActionCreated]
+- -[PNRProvisionalPlannerGrainMetricsDimension hasNumCriticalErrors]
+- -[PNRProvisionalPlannerGrainMetricsDimension hasNumPlansCreated]
+- -[PNRProvisionalPlannerGrainMetricsDimension hasNumQueriesCreated]
+- -[PNRProvisionalPlannerGrainMetricsDimension hasNumQueriesExecuted]
+- -[PNRProvisionalPlannerGrainMetricsDimension hasNumStatementEvaluatedFromPlanner]
+- -[PNRProvisionalPlannerGrainMetricsDimension hasNumSystemPromptResolved]
+- -[PNRProvisionalPlannerGrainMetricsDimension hasPlanCreatedToActionResolverRequestTime]
+- -[PNRProvisionalPlannerGrainMetricsDimension hasPlanCreatedToLastResolverEventTime]
+- -[PNRProvisionalPlannerGrainMetricsDimension hasPlanCreatedToResolutionTime]
+- -[PNRProvisionalPlannerGrainMetricsDimension hasPlanCreatedToResolverRequestTime]
+- -[PNRProvisionalPlannerGrainMetricsDimension hasPlannerGrainStage]
+- -[PNRProvisionalPlannerGrainMetricsDimension hasPlannerResponseTime]
+- -[PNRProvisionalPlannerGrainMetricsDimension hasPlanningStep]
+- -[PNRProvisionalPlannerGrainMetricsDimension hasResolutionToResponseGeneratedTime]
+- -[PNRProvisionalPlannerGrainMetricsDimension hasResolverFirstSystemPromptToResolutionTime]
+- -[PNRProvisionalPlannerGrainMetricsDimension hasResolverRequestToResolutionTime]
+- -[PNRProvisionalPlannerGrainMetricsDimension hasResolverTotalClientActionTime]
+- -[PNRProvisionalPlannerGrainMetricsDimension hasResolverTotalQueryTime]
+- -[PNRProvisionalPlannerGrainMetricsDimension hasStartToActionResolverRequestTime]
+- -[PNRProvisionalPlannerGrainMetricsDimension hasStartToContextRetrievedTime]
+- -[PNRProvisionalPlannerGrainMetricsDimension hasStartToEntitySpanMatchedTime]
+- -[PNRProvisionalPlannerGrainMetricsDimension hasStartToLastQueryDecorationEventTime]
+- -[PNRProvisionalPlannerGrainMetricsDimension hasStartToLastResolverEventTime]
+- -[PNRProvisionalPlannerGrainMetricsDimension hasStartToPlanCreatedTime]
+- -[PNRProvisionalPlannerGrainMetricsDimension hasStartToToolsRetrievedTime]
+- -[PNRProvisionalPlannerGrainMetricsDimension hash]
+- -[PNRProvisionalPlannerGrainMetricsDimension initWithDictionary:]
+- -[PNRProvisionalPlannerGrainMetricsDimension initWithJSON:]
+- -[PNRProvisionalPlannerGrainMetricsDimension isEqual:]
+- -[PNRProvisionalPlannerGrainMetricsDimension jsonData]
+- -[PNRProvisionalPlannerGrainMetricsDimension lastQueryDecorationEventToPlanCreatedTime]
+- -[PNRProvisionalPlannerGrainMetricsDimension lastResolverEventToResponseGeneratedTime]
+- -[PNRProvisionalPlannerGrainMetricsDimension numActionResolverRequests]
+- -[PNRProvisionalPlannerGrainMetricsDimension numClientActionCreated]
+- -[PNRProvisionalPlannerGrainMetricsDimension numCriticalErrors]
+- -[PNRProvisionalPlannerGrainMetricsDimension numPlansCreated]
+- -[PNRProvisionalPlannerGrainMetricsDimension numQueriesCreated]
+- -[PNRProvisionalPlannerGrainMetricsDimension numQueriesExecuted]
+- -[PNRProvisionalPlannerGrainMetricsDimension numStatementEvaluatedFromPlanner]
+- -[PNRProvisionalPlannerGrainMetricsDimension numSystemPromptResolved]
+- -[PNRProvisionalPlannerGrainMetricsDimension planCreatedToActionResolverRequestTime]
+- -[PNRProvisionalPlannerGrainMetricsDimension planCreatedToLastResolverEventTime]
+- -[PNRProvisionalPlannerGrainMetricsDimension planCreatedToResolutionTime]
+- -[PNRProvisionalPlannerGrainMetricsDimension planCreatedToResolverRequestTime]
+- -[PNRProvisionalPlannerGrainMetricsDimension plannerGrainStage]
+- -[PNRProvisionalPlannerGrainMetricsDimension plannerResponseTime]
+- -[PNRProvisionalPlannerGrainMetricsDimension planningStep]
+- -[PNRProvisionalPlannerGrainMetricsDimension readFrom:]
+- -[PNRProvisionalPlannerGrainMetricsDimension resolutionToResponseGeneratedTime]
+- -[PNRProvisionalPlannerGrainMetricsDimension resolverFirstSystemPromptToResolutionTime]
+- -[PNRProvisionalPlannerGrainMetricsDimension resolverRequestToResolutionTime]
+- -[PNRProvisionalPlannerGrainMetricsDimension resolverTotalClientActionTime]
+- -[PNRProvisionalPlannerGrainMetricsDimension resolverTotalQueryTime]
+- -[PNRProvisionalPlannerGrainMetricsDimension setActionResolverRequestToLastResolverEventTime:]
+- -[PNRProvisionalPlannerGrainMetricsDimension setFailureInfo:]
+- -[PNRProvisionalPlannerGrainMetricsDimension setHasActionResolverRequestToLastResolverEventTime:]
+- -[PNRProvisionalPlannerGrainMetricsDimension setHasFailureInfo:]
+- -[PNRProvisionalPlannerGrainMetricsDimension setHasLastQueryDecorationEventToPlanCreatedTime:]
+- -[PNRProvisionalPlannerGrainMetricsDimension setHasLastResolverEventToResponseGeneratedTime:]
+- -[PNRProvisionalPlannerGrainMetricsDimension setHasNumActionResolverRequests:]
+- -[PNRProvisionalPlannerGrainMetricsDimension setHasNumClientActionCreated:]
+- -[PNRProvisionalPlannerGrainMetricsDimension setHasNumCriticalErrors:]
+- -[PNRProvisionalPlannerGrainMetricsDimension setHasNumPlansCreated:]
+- -[PNRProvisionalPlannerGrainMetricsDimension setHasNumQueriesCreated:]
+- -[PNRProvisionalPlannerGrainMetricsDimension setHasNumQueriesExecuted:]
+- -[PNRProvisionalPlannerGrainMetricsDimension setHasNumStatementEvaluatedFromPlanner:]
+- -[PNRProvisionalPlannerGrainMetricsDimension setHasNumSystemPromptResolved:]
+- -[PNRProvisionalPlannerGrainMetricsDimension setHasPlanCreatedToActionResolverRequestTime:]
+- -[PNRProvisionalPlannerGrainMetricsDimension setHasPlanCreatedToLastResolverEventTime:]
+- -[PNRProvisionalPlannerGrainMetricsDimension setHasPlanCreatedToResolutionTime:]
+- -[PNRProvisionalPlannerGrainMetricsDimension setHasPlanCreatedToResolverRequestTime:]
+- -[PNRProvisionalPlannerGrainMetricsDimension setHasPlannerGrainStage:]
+- -[PNRProvisionalPlannerGrainMetricsDimension setHasPlannerResponseTime:]
+- -[PNRProvisionalPlannerGrainMetricsDimension setHasPlanningStep:]
+- -[PNRProvisionalPlannerGrainMetricsDimension setHasResolutionToResponseGeneratedTime:]
+- -[PNRProvisionalPlannerGrainMetricsDimension setHasResolverFirstSystemPromptToResolutionTime:]
+- -[PNRProvisionalPlannerGrainMetricsDimension setHasResolverRequestToResolutionTime:]
+- -[PNRProvisionalPlannerGrainMetricsDimension setHasResolverTotalClientActionTime:]
+- -[PNRProvisionalPlannerGrainMetricsDimension setHasResolverTotalQueryTime:]
+- -[PNRProvisionalPlannerGrainMetricsDimension setHasStartToActionResolverRequestTime:]
+- -[PNRProvisionalPlannerGrainMetricsDimension setHasStartToContextRetrievedTime:]
+- -[PNRProvisionalPlannerGrainMetricsDimension setHasStartToEntitySpanMatchedTime:]
+- -[PNRProvisionalPlannerGrainMetricsDimension setHasStartToLastQueryDecorationEventTime:]
+- -[PNRProvisionalPlannerGrainMetricsDimension setHasStartToLastResolverEventTime:]
+- -[PNRProvisionalPlannerGrainMetricsDimension setHasStartToPlanCreatedTime:]
+- -[PNRProvisionalPlannerGrainMetricsDimension setHasStartToToolsRetrievedTime:]
+- -[PNRProvisionalPlannerGrainMetricsDimension setLastQueryDecorationEventToPlanCreatedTime:]
+- -[PNRProvisionalPlannerGrainMetricsDimension setLastResolverEventToResponseGeneratedTime:]
+- -[PNRProvisionalPlannerGrainMetricsDimension setNumActionResolverRequests:]
+- -[PNRProvisionalPlannerGrainMetricsDimension setNumClientActionCreated:]
+- -[PNRProvisionalPlannerGrainMetricsDimension setNumCriticalErrors:]
+- -[PNRProvisionalPlannerGrainMetricsDimension setNumPlansCreated:]
+- -[PNRProvisionalPlannerGrainMetricsDimension setNumQueriesCreated:]
+- -[PNRProvisionalPlannerGrainMetricsDimension setNumQueriesExecuted:]
+- -[PNRProvisionalPlannerGrainMetricsDimension setNumStatementEvaluatedFromPlanner:]
+- -[PNRProvisionalPlannerGrainMetricsDimension setNumSystemPromptResolved:]
+- -[PNRProvisionalPlannerGrainMetricsDimension setPlanCreatedToActionResolverRequestTime:]
+- -[PNRProvisionalPlannerGrainMetricsDimension setPlanCreatedToLastResolverEventTime:]
+- -[PNRProvisionalPlannerGrainMetricsDimension setPlanCreatedToResolutionTime:]
+- -[PNRProvisionalPlannerGrainMetricsDimension setPlanCreatedToResolverRequestTime:]
+- -[PNRProvisionalPlannerGrainMetricsDimension setPlannerGrainStage:]
+- -[PNRProvisionalPlannerGrainMetricsDimension setPlannerResponseTime:]
+- -[PNRProvisionalPlannerGrainMetricsDimension setPlanningStep:]
+- -[PNRProvisionalPlannerGrainMetricsDimension setResolutionToResponseGeneratedTime:]
+- -[PNRProvisionalPlannerGrainMetricsDimension setResolverFirstSystemPromptToResolutionTime:]
+- -[PNRProvisionalPlannerGrainMetricsDimension setResolverRequestToResolutionTime:]
+- -[PNRProvisionalPlannerGrainMetricsDimension setResolverTotalClientActionTime:]
+- -[PNRProvisionalPlannerGrainMetricsDimension setResolverTotalQueryTime:]
+- -[PNRProvisionalPlannerGrainMetricsDimension setStartToActionResolverRequestTime:]
+- -[PNRProvisionalPlannerGrainMetricsDimension setStartToContextRetrievedTime:]
+- -[PNRProvisionalPlannerGrainMetricsDimension setStartToEntitySpanMatchedTime:]
+- -[PNRProvisionalPlannerGrainMetricsDimension setStartToLastQueryDecorationEventTime:]
+- -[PNRProvisionalPlannerGrainMetricsDimension setStartToLastResolverEventTime:]
+- -[PNRProvisionalPlannerGrainMetricsDimension setStartToPlanCreatedTime:]
+- -[PNRProvisionalPlannerGrainMetricsDimension setStartToToolsRetrievedTime:]
+- -[PNRProvisionalPlannerGrainMetricsDimension startToActionResolverRequestTime]
+- -[PNRProvisionalPlannerGrainMetricsDimension startToContextRetrievedTime]
+- -[PNRProvisionalPlannerGrainMetricsDimension startToEntitySpanMatchedTime]
+- -[PNRProvisionalPlannerGrainMetricsDimension startToLastQueryDecorationEventTime]
+- -[PNRProvisionalPlannerGrainMetricsDimension startToLastResolverEventTime]
+- -[PNRProvisionalPlannerGrainMetricsDimension startToPlanCreatedTime]
+- -[PNRProvisionalPlannerGrainMetricsDimension startToToolsRetrievedTime]
+- -[PNRProvisionalPlannerGrainMetricsDimension writeTo:]
+- -[PNRProvisionalRequestGrainMetricsDimension .cxx_destruct]
+- -[PNRProvisionalRequestGrainMetricsDimension addBundleId:]
+- -[PNRProvisionalRequestGrainMetricsDimension addToolId:]
+- -[PNRProvisionalRequestGrainMetricsDimension bundleIdAtIndex:]
+- -[PNRProvisionalRequestGrainMetricsDimension bundleIdCount]
+- -[PNRProvisionalRequestGrainMetricsDimension bundleIds]
+- -[PNRProvisionalRequestGrainMetricsDimension clearBundleId]
+- -[PNRProvisionalRequestGrainMetricsDimension clearToolId]
+- -[PNRProvisionalRequestGrainMetricsDimension deleteBundleId]
+- -[PNRProvisionalRequestGrainMetricsDimension deleteExecutionTime]
+- -[PNRProvisionalRequestGrainMetricsDimension deleteFailureInfo]
+- -[PNRProvisionalRequestGrainMetricsDimension deleteFullQueryResponseTime]
+- -[PNRProvisionalRequestGrainMetricsDimension deleteNumActionResponseGenerated]
+- -[PNRProvisionalRequestGrainMetricsDimension deleteNumActionsCreated]
+- -[PNRProvisionalRequestGrainMetricsDimension deleteNumActionsExecuted]
+- -[PNRProvisionalRequestGrainMetricsDimension deleteNumPlansCreated]
+- -[PNRProvisionalRequestGrainMetricsDimension deleteNumQueries]
+- -[PNRProvisionalRequestGrainMetricsDimension deleteNumQueryPlansCreated]
+- -[PNRProvisionalRequestGrainMetricsDimension deleteNumResponsePlansCreated]
+- -[PNRProvisionalRequestGrainMetricsDimension deletePlanningTime]
+- -[PNRProvisionalRequestGrainMetricsDimension deleteResponsePreparationTime]
+- -[PNRProvisionalRequestGrainMetricsDimension deleteToolId]
+- -[PNRProvisionalRequestGrainMetricsDimension dictionaryRepresentation]
+- -[PNRProvisionalRequestGrainMetricsDimension executionTime]
+- -[PNRProvisionalRequestGrainMetricsDimension failureInfo]
+- -[PNRProvisionalRequestGrainMetricsDimension fullQueryResponseTime]
+- -[PNRProvisionalRequestGrainMetricsDimension hasExecutionTime]
+- -[PNRProvisionalRequestGrainMetricsDimension hasFailureInfo]
+- -[PNRProvisionalRequestGrainMetricsDimension hasFullQueryResponseTime]
+- -[PNRProvisionalRequestGrainMetricsDimension hasNumActionResponseGenerated]
+- -[PNRProvisionalRequestGrainMetricsDimension hasNumActionsCreated]
+- -[PNRProvisionalRequestGrainMetricsDimension hasNumActionsExecuted]
+- -[PNRProvisionalRequestGrainMetricsDimension hasNumPlansCreated]
+- -[PNRProvisionalRequestGrainMetricsDimension hasNumQueries]
+- -[PNRProvisionalRequestGrainMetricsDimension hasNumQueryPlansCreated]
+- -[PNRProvisionalRequestGrainMetricsDimension hasNumResponsePlansCreated]
+- -[PNRProvisionalRequestGrainMetricsDimension hasPlanningTime]
+- -[PNRProvisionalRequestGrainMetricsDimension hasResponsePreparationTime]
+- -[PNRProvisionalRequestGrainMetricsDimension hash]
+- -[PNRProvisionalRequestGrainMetricsDimension initWithDictionary:]
+- -[PNRProvisionalRequestGrainMetricsDimension initWithJSON:]
+- -[PNRProvisionalRequestGrainMetricsDimension isEqual:]
+- -[PNRProvisionalRequestGrainMetricsDimension jsonData]
+- -[PNRProvisionalRequestGrainMetricsDimension numActionResponseGenerated]
+- -[PNRProvisionalRequestGrainMetricsDimension numActionsCreated]
+- -[PNRProvisionalRequestGrainMetricsDimension numActionsExecuted]
+- -[PNRProvisionalRequestGrainMetricsDimension numPlansCreated]
+- -[PNRProvisionalRequestGrainMetricsDimension numQueries]
+- -[PNRProvisionalRequestGrainMetricsDimension numQueryPlansCreated]
+- -[PNRProvisionalRequestGrainMetricsDimension numResponsePlansCreated]
+- -[PNRProvisionalRequestGrainMetricsDimension planningTime]
+- -[PNRProvisionalRequestGrainMetricsDimension readFrom:]
+- -[PNRProvisionalRequestGrainMetricsDimension responsePreparationTime]
+- -[PNRProvisionalRequestGrainMetricsDimension setBundleIds:]
+- -[PNRProvisionalRequestGrainMetricsDimension setExecutionTime:]
+- -[PNRProvisionalRequestGrainMetricsDimension setFailureInfo:]
+- -[PNRProvisionalRequestGrainMetricsDimension setFullQueryResponseTime:]
+- -[PNRProvisionalRequestGrainMetricsDimension setHasExecutionTime:]
+- -[PNRProvisionalRequestGrainMetricsDimension setHasFailureInfo:]
+- -[PNRProvisionalRequestGrainMetricsDimension setHasFullQueryResponseTime:]
+- -[PNRProvisionalRequestGrainMetricsDimension setHasNumActionResponseGenerated:]
+- -[PNRProvisionalRequestGrainMetricsDimension setHasNumActionsCreated:]
+- -[PNRProvisionalRequestGrainMetricsDimension setHasNumActionsExecuted:]
+- -[PNRProvisionalRequestGrainMetricsDimension setHasNumPlansCreated:]
+- -[PNRProvisionalRequestGrainMetricsDimension setHasNumQueries:]
+- -[PNRProvisionalRequestGrainMetricsDimension setHasNumQueryPlansCreated:]
+- -[PNRProvisionalRequestGrainMetricsDimension setHasNumResponsePlansCreated:]
+- -[PNRProvisionalRequestGrainMetricsDimension setHasPlanningTime:]
+- -[PNRProvisionalRequestGrainMetricsDimension setHasResponsePreparationTime:]
+- -[PNRProvisionalRequestGrainMetricsDimension setNumActionResponseGenerated:]
+- -[PNRProvisionalRequestGrainMetricsDimension setNumActionsCreated:]
+- -[PNRProvisionalRequestGrainMetricsDimension setNumActionsExecuted:]
+- -[PNRProvisionalRequestGrainMetricsDimension setNumPlansCreated:]
+- -[PNRProvisionalRequestGrainMetricsDimension setNumQueries:]
+- -[PNRProvisionalRequestGrainMetricsDimension setNumQueryPlansCreated:]
+- -[PNRProvisionalRequestGrainMetricsDimension setNumResponsePlansCreated:]
+- -[PNRProvisionalRequestGrainMetricsDimension setPlanningTime:]
+- -[PNRProvisionalRequestGrainMetricsDimension setResponsePreparationTime:]
+- -[PNRProvisionalRequestGrainMetricsDimension setToolIds:]
+- -[PNRProvisionalRequestGrainMetricsDimension toolIdAtIndex:]
+- -[PNRProvisionalRequestGrainMetricsDimension toolIdCount]
+- -[PNRProvisionalRequestGrainMetricsDimension toolIds]
+- -[PNRProvisionalRequestGrainMetricsDimension writeTo:]
+- -[PNRProvisionalSageErrorInfo .cxx_destruct]
+- -[PNRProvisionalSageErrorInfo deleteErrorCode]
+- -[PNRProvisionalSageErrorInfo deleteErrorDomain]
+- -[PNRProvisionalSageErrorInfo dictionaryRepresentation]
+- -[PNRProvisionalSageErrorInfo errorCode]
+- -[PNRProvisionalSageErrorInfo errorDomain]
+- -[PNRProvisionalSageErrorInfo hasErrorCode]
+- -[PNRProvisionalSageErrorInfo hasErrorDomain]
+- -[PNRProvisionalSageErrorInfo hash]
+- -[PNRProvisionalSageErrorInfo initWithDictionary:]
+- -[PNRProvisionalSageErrorInfo initWithJSON:]
+- -[PNRProvisionalSageErrorInfo isEqual:]
+- -[PNRProvisionalSageErrorInfo jsonData]
+- -[PNRProvisionalSageErrorInfo readFrom:]
+- -[PNRProvisionalSageErrorInfo setErrorCode:]
+- -[PNRProvisionalSageErrorInfo setErrorDomain:]
+- -[PNRProvisionalSageErrorInfo setHasErrorCode:]
+- -[PNRProvisionalSageErrorInfo setHasErrorDomain:]
+- -[PNRProvisionalSageErrorInfo writeTo:]
+- -[PNRProvisionalSageFailureInfo .cxx_destruct]
+- -[PNRProvisionalSageFailureInfo deleteError]
+- -[PNRProvisionalSageFailureInfo deleteFailureSubType]
+- -[PNRProvisionalSageFailureInfo deleteFailureType]
+- -[PNRProvisionalSageFailureInfo deleteUnderUnderlyingError]
+- -[PNRProvisionalSageFailureInfo deleteUnderlyingError]
+- -[PNRProvisionalSageFailureInfo dictionaryRepresentation]
+- -[PNRProvisionalSageFailureInfo error]
+- -[PNRProvisionalSageFailureInfo failureSubType]
+- -[PNRProvisionalSageFailureInfo failureType]
+- -[PNRProvisionalSageFailureInfo hasError]
+- -[PNRProvisionalSageFailureInfo hasFailureSubType]
+- -[PNRProvisionalSageFailureInfo hasFailureType]
+- -[PNRProvisionalSageFailureInfo hasUnderUnderlyingError]
+- -[PNRProvisionalSageFailureInfo hasUnderlyingError]
+- -[PNRProvisionalSageFailureInfo hash]
+- -[PNRProvisionalSageFailureInfo initWithDictionary:]
+- -[PNRProvisionalSageFailureInfo initWithJSON:]
+- -[PNRProvisionalSageFailureInfo isEqual:]
+- -[PNRProvisionalSageFailureInfo jsonData]
+- -[PNRProvisionalSageFailureInfo readFrom:]
+- -[PNRProvisionalSageFailureInfo setError:]
+- -[PNRProvisionalSageFailureInfo setFailureSubType:]
+- -[PNRProvisionalSageFailureInfo setFailureType:]
+- -[PNRProvisionalSageFailureInfo setHasError:]
+- -[PNRProvisionalSageFailureInfo setHasFailureSubType:]
+- -[PNRProvisionalSageFailureInfo setHasFailureType:]
+- -[PNRProvisionalSageFailureInfo setHasUnderUnderlyingError:]
+- -[PNRProvisionalSageFailureInfo setHasUnderlyingError:]
+- -[PNRProvisionalSageFailureInfo setUnderUnderlyingError:]
+- -[PNRProvisionalSageFailureInfo setUnderlyingError:]
+- -[PNRProvisionalSageFailureInfo underUnderlyingError]
+- -[PNRProvisionalSageFailureInfo underlyingError]
+- -[PNRProvisionalSageFailureInfo writeTo:]
+- -[PNRProvisionalSagePnREvent .cxx_destruct]
+- -[PNRProvisionalSagePnREvent deletePlannerGrainMetricsDimension]
+- -[PNRProvisionalSagePnREvent deleteRequestGrainMetricsDimension]
+- -[PNRProvisionalSagePnREvent deleteSagePnRMetadata]
+- -[PNRProvisionalSagePnREvent dictionaryRepresentation]
+- -[PNRProvisionalSagePnREvent hasPlannerGrainMetricsDimension]
+- -[PNRProvisionalSagePnREvent hasRequestGrainMetricsDimension]
+- -[PNRProvisionalSagePnREvent hasSagePnRMetadata]
+- -[PNRProvisionalSagePnREvent hash]
+- -[PNRProvisionalSagePnREvent initWithDictionary:]
+- -[PNRProvisionalSagePnREvent initWithJSON:]
+- -[PNRProvisionalSagePnREvent isEqual:]
+- -[PNRProvisionalSagePnREvent jsonData]
+- -[PNRProvisionalSagePnREvent plannerGrainMetricsDimension]
+- -[PNRProvisionalSagePnREvent readFrom:]
+- -[PNRProvisionalSagePnREvent requestGrainMetricsDimension]
+- -[PNRProvisionalSagePnREvent sagePnRMetadata]
+- -[PNRProvisionalSagePnREvent setHasPlannerGrainMetricsDimension:]
+- -[PNRProvisionalSagePnREvent setHasRequestGrainMetricsDimension:]
+- -[PNRProvisionalSagePnREvent setHasSagePnRMetadata:]
+- -[PNRProvisionalSagePnREvent setPlannerGrainMetricsDimension:]
+- -[PNRProvisionalSagePnREvent setRequestGrainMetricsDimension:]
+- -[PNRProvisionalSagePnREvent setSagePnRMetadata:]
+- -[PNRProvisionalSagePnREvent writeTo:]
+- -[PNRProvisionalSagePnRMetadata .cxx_destruct]
+- -[PNRProvisionalSagePnRMetadata SessionId]
+- -[PNRProvisionalSagePnRMetadata actionIdAtIndex:]
+- -[PNRProvisionalSagePnRMetadata actionIdCount]
+- -[PNRProvisionalSagePnRMetadata actionIds]
+- -[PNRProvisionalSagePnRMetadata addActionId:]
+- -[PNRProvisionalSagePnRMetadata addPlanId:]
+- -[PNRProvisionalSagePnRMetadata clearActionId]
+- -[PNRProvisionalSagePnRMetadata clearPlanId]
+- -[PNRProvisionalSagePnRMetadata clientId]
+- -[PNRProvisionalSagePnRMetadata clientRequestId]
+- -[PNRProvisionalSagePnRMetadata clientSessionId]
+- -[PNRProvisionalSagePnRMetadata deleteActionId]
+- -[PNRProvisionalSagePnRMetadata deleteClientId]
+- -[PNRProvisionalSagePnRMetadata deleteClientRequestId]
+- -[PNRProvisionalSagePnRMetadata deleteClientSessionId]
+- -[PNRProvisionalSagePnRMetadata deletePlanId]
+- -[PNRProvisionalSagePnRMetadata deleteRawSessionId]
+- -[PNRProvisionalSagePnRMetadata deleteRequestStatus]
+- -[PNRProvisionalSagePnRMetadata deleteSessionId]
+- -[PNRProvisionalSagePnRMetadata dictionaryRepresentation]
+- -[PNRProvisionalSagePnRMetadata hasClientId]
+- -[PNRProvisionalSagePnRMetadata hasClientRequestId]
+- -[PNRProvisionalSagePnRMetadata hasClientSessionId]
+- -[PNRProvisionalSagePnRMetadata hasRawSessionId]
+- -[PNRProvisionalSagePnRMetadata hasRequestStatus]
+- -[PNRProvisionalSagePnRMetadata hasSessionId]
+- -[PNRProvisionalSagePnRMetadata hash]
+- -[PNRProvisionalSagePnRMetadata initWithDictionary:]
+- -[PNRProvisionalSagePnRMetadata initWithJSON:]
+- -[PNRProvisionalSagePnRMetadata isEqual:]
+- -[PNRProvisionalSagePnRMetadata jsonData]
+- -[PNRProvisionalSagePnRMetadata planIdAtIndex:]
+- -[PNRProvisionalSagePnRMetadata planIdCount]
+- -[PNRProvisionalSagePnRMetadata planIds]
+- -[PNRProvisionalSagePnRMetadata rawSessionId]
+- -[PNRProvisionalSagePnRMetadata readFrom:]
+- -[PNRProvisionalSagePnRMetadata requestStatus]
+- -[PNRProvisionalSagePnRMetadata setActionIds:]
+- -[PNRProvisionalSagePnRMetadata setClientId:]
+- -[PNRProvisionalSagePnRMetadata setClientRequestId:]
+- -[PNRProvisionalSagePnRMetadata setClientSessionId:]
+- -[PNRProvisionalSagePnRMetadata setHasClientId:]
+- -[PNRProvisionalSagePnRMetadata setHasClientRequestId:]
+- -[PNRProvisionalSagePnRMetadata setHasClientSessionId:]
+- -[PNRProvisionalSagePnRMetadata setHasRawSessionId:]
+- -[PNRProvisionalSagePnRMetadata setHasRequestStatus:]
+- -[PNRProvisionalSagePnRMetadata setHasSessionId:]
+- -[PNRProvisionalSagePnRMetadata setPlanIds:]
+- -[PNRProvisionalSagePnRMetadata setRawSessionId:]
+- -[PNRProvisionalSagePnRMetadata setRequestStatus:]
+- -[PNRProvisionalSagePnRMetadata setSessionId:]
+- -[PNRProvisionalSagePnRMetadata writeTo:]
+- -[PNRProvisionalSagePnRWrapper .cxx_destruct]
+- -[PNRProvisionalSagePnRWrapper deleteSagePnR]
+- -[PNRProvisionalSagePnRWrapper dictionaryRepresentation]
+- -[PNRProvisionalSagePnRWrapper hasSagePnR]
+- -[PNRProvisionalSagePnRWrapper hash]
+- -[PNRProvisionalSagePnRWrapper initWithDictionary:]
+- -[PNRProvisionalSagePnRWrapper initWithJSON:]
+- -[PNRProvisionalSagePnRWrapper isEqual:]
+- -[PNRProvisionalSagePnRWrapper jsonData]
+- -[PNRProvisionalSagePnRWrapper qualifiedMessageName]
+- -[PNRProvisionalSagePnRWrapper readFrom:]
+- -[PNRProvisionalSagePnRWrapper sagePnR]
+- -[PNRProvisionalSagePnRWrapper setHasSagePnR:]
+- -[PNRProvisionalSagePnRWrapper setSagePnR:]
+- -[PNRProvisionalSagePnRWrapper whichEventtype]
+- -[PNRProvisionalSagePnRWrapper writeTo:]
+- -[PNRProvisionalSagePnRWrapper(InstrumentationAdditions) getAnyEventType]
+- -[PNRProvisionalSagePnRWrapper(InstrumentationAdditions) getTypeId]
+- -[PNRProvisionalSagePnRWrapper(InstrumentationAdditions) getVersion]
+- -[PNRProvisionalSagePnRWrapper(InstrumentationAdditions) isProvisional]
+- OBJC_IVAR_$_PBDataReader._bytes
+- OBJC_IVAR_$_PBDataReader._error
+- OBJC_IVAR_$_PBDataReader._length
+- OBJC_IVAR_$_PBDataReader._pos
+- OBJC_IVAR_$_PNRProvisionalMetrics._endTimestamp
+- OBJC_IVAR_$_PNRProvisionalMetrics._endTimestampEventName
+- OBJC_IVAR_$_PNRProvisionalMetrics._has
+- OBJC_IVAR_$_PNRProvisionalMetrics._hasEndTimestampEventName
+- OBJC_IVAR_$_PNRProvisionalMetrics._hasStartTimestampEventName
+- OBJC_IVAR_$_PNRProvisionalMetrics._metricsValue
+- OBJC_IVAR_$_PNRProvisionalMetrics._startTimestamp
+- OBJC_IVAR_$_PNRProvisionalMetrics._startTimestampEventName
+- OBJC_IVAR_$_PNRProvisionalPlannerGrainMetricsDimension._actionResolverRequestToLastResolverEventTime
+- OBJC_IVAR_$_PNRProvisionalPlannerGrainMetricsDimension._failureInfo
+- OBJC_IVAR_$_PNRProvisionalPlannerGrainMetricsDimension._has
+- OBJC_IVAR_$_PNRProvisionalPlannerGrainMetricsDimension._hasActionResolverRequestToLastResolverEventTime
+- OBJC_IVAR_$_PNRProvisionalPlannerGrainMetricsDimension._hasFailureInfo
+- OBJC_IVAR_$_PNRProvisionalPlannerGrainMetricsDimension._hasLastQueryDecorationEventToPlanCreatedTime
+- OBJC_IVAR_$_PNRProvisionalPlannerGrainMetricsDimension._hasLastResolverEventToResponseGeneratedTime
+- OBJC_IVAR_$_PNRProvisionalPlannerGrainMetricsDimension._hasPlanCreatedToActionResolverRequestTime
+- OBJC_IVAR_$_PNRProvisionalPlannerGrainMetricsDimension._hasPlanCreatedToLastResolverEventTime
+- OBJC_IVAR_$_PNRProvisionalPlannerGrainMetricsDimension._hasPlanCreatedToResolutionTime
+- OBJC_IVAR_$_PNRProvisionalPlannerGrainMetricsDimension._hasPlanCreatedToResolverRequestTime
+- OBJC_IVAR_$_PNRProvisionalPlannerGrainMetricsDimension._hasPlannerGrainStage
+- OBJC_IVAR_$_PNRProvisionalPlannerGrainMetricsDimension._hasPlannerResponseTime
+- OBJC_IVAR_$_PNRProvisionalPlannerGrainMetricsDimension._hasPlanningStep
+- OBJC_IVAR_$_PNRProvisionalPlannerGrainMetricsDimension._hasResolutionToResponseGeneratedTime
+- OBJC_IVAR_$_PNRProvisionalPlannerGrainMetricsDimension._hasResolverFirstSystemPromptToResolutionTime
+- OBJC_IVAR_$_PNRProvisionalPlannerGrainMetricsDimension._hasResolverRequestToResolutionTime
+- OBJC_IVAR_$_PNRProvisionalPlannerGrainMetricsDimension._hasResolverTotalClientActionTime
+- OBJC_IVAR_$_PNRProvisionalPlannerGrainMetricsDimension._hasResolverTotalQueryTime
+- OBJC_IVAR_$_PNRProvisionalPlannerGrainMetricsDimension._hasStartToActionResolverRequestTime
+- OBJC_IVAR_$_PNRProvisionalPlannerGrainMetricsDimension._hasStartToContextRetrievedTime
+- OBJC_IVAR_$_PNRProvisionalPlannerGrainMetricsDimension._hasStartToEntitySpanMatchedTime
+- OBJC_IVAR_$_PNRProvisionalPlannerGrainMetricsDimension._hasStartToLastQueryDecorationEventTime
+- OBJC_IVAR_$_PNRProvisionalPlannerGrainMetricsDimension._hasStartToLastResolverEventTime
+- OBJC_IVAR_$_PNRProvisionalPlannerGrainMetricsDimension._hasStartToPlanCreatedTime
+- OBJC_IVAR_$_PNRProvisionalPlannerGrainMetricsDimension._hasStartToToolsRetrievedTime
+- OBJC_IVAR_$_PNRProvisionalPlannerGrainMetricsDimension._lastQueryDecorationEventToPlanCreatedTime
+- OBJC_IVAR_$_PNRProvisionalPlannerGrainMetricsDimension._lastResolverEventToResponseGeneratedTime
+- OBJC_IVAR_$_PNRProvisionalPlannerGrainMetricsDimension._numActionResolverRequests
+- OBJC_IVAR_$_PNRProvisionalPlannerGrainMetricsDimension._numClientActionCreated
+- OBJC_IVAR_$_PNRProvisionalPlannerGrainMetricsDimension._numCriticalErrors
+- OBJC_IVAR_$_PNRProvisionalPlannerGrainMetricsDimension._numPlansCreated
+- OBJC_IVAR_$_PNRProvisionalPlannerGrainMetricsDimension._numQueriesCreated
+- OBJC_IVAR_$_PNRProvisionalPlannerGrainMetricsDimension._numQueriesExecuted
+- OBJC_IVAR_$_PNRProvisionalPlannerGrainMetricsDimension._numStatementEvaluatedFromPlanner
+- OBJC_IVAR_$_PNRProvisionalPlannerGrainMetricsDimension._numSystemPromptResolved
+- OBJC_IVAR_$_PNRProvisionalPlannerGrainMetricsDimension._planCreatedToActionResolverRequestTime
+- OBJC_IVAR_$_PNRProvisionalPlannerGrainMetricsDimension._planCreatedToLastResolverEventTime
+- OBJC_IVAR_$_PNRProvisionalPlannerGrainMetricsDimension._planCreatedToResolutionTime
+- OBJC_IVAR_$_PNRProvisionalPlannerGrainMetricsDimension._planCreatedToResolverRequestTime
+- OBJC_IVAR_$_PNRProvisionalPlannerGrainMetricsDimension._plannerGrainStage
+- OBJC_IVAR_$_PNRProvisionalPlannerGrainMetricsDimension._plannerResponseTime
+- OBJC_IVAR_$_PNRProvisionalPlannerGrainMetricsDimension._planningStep
+- OBJC_IVAR_$_PNRProvisionalPlannerGrainMetricsDimension._resolutionToResponseGeneratedTime
+- OBJC_IVAR_$_PNRProvisionalPlannerGrainMetricsDimension._resolverFirstSystemPromptToResolutionTime
+- OBJC_IVAR_$_PNRProvisionalPlannerGrainMetricsDimension._resolverRequestToResolutionTime
+- OBJC_IVAR_$_PNRProvisionalPlannerGrainMetricsDimension._resolverTotalClientActionTime
+- OBJC_IVAR_$_PNRProvisionalPlannerGrainMetricsDimension._resolverTotalQueryTime
+- OBJC_IVAR_$_PNRProvisionalPlannerGrainMetricsDimension._startToActionResolverRequestTime
+- OBJC_IVAR_$_PNRProvisionalPlannerGrainMetricsDimension._startToContextRetrievedTime
+- OBJC_IVAR_$_PNRProvisionalPlannerGrainMetricsDimension._startToEntitySpanMatchedTime
+- OBJC_IVAR_$_PNRProvisionalPlannerGrainMetricsDimension._startToLastQueryDecorationEventTime
+- OBJC_IVAR_$_PNRProvisionalPlannerGrainMetricsDimension._startToLastResolverEventTime
+- OBJC_IVAR_$_PNRProvisionalPlannerGrainMetricsDimension._startToPlanCreatedTime
+- OBJC_IVAR_$_PNRProvisionalPlannerGrainMetricsDimension._startToToolsRetrievedTime
+- OBJC_IVAR_$_PNRProvisionalRequestGrainMetricsDimension._bundleIds
+- OBJC_IVAR_$_PNRProvisionalRequestGrainMetricsDimension._executionTime
+- OBJC_IVAR_$_PNRProvisionalRequestGrainMetricsDimension._failureInfo
+- OBJC_IVAR_$_PNRProvisionalRequestGrainMetricsDimension._fullQueryResponseTime
+- OBJC_IVAR_$_PNRProvisionalRequestGrainMetricsDimension._has
+- OBJC_IVAR_$_PNRProvisionalRequestGrainMetricsDimension._hasExecutionTime
+- OBJC_IVAR_$_PNRProvisionalRequestGrainMetricsDimension._hasFailureInfo
+- OBJC_IVAR_$_PNRProvisionalRequestGrainMetricsDimension._hasFullQueryResponseTime
+- OBJC_IVAR_$_PNRProvisionalRequestGrainMetricsDimension._hasPlanningTime
+- OBJC_IVAR_$_PNRProvisionalRequestGrainMetricsDimension._hasResponsePreparationTime
+- OBJC_IVAR_$_PNRProvisionalRequestGrainMetricsDimension._numActionResponseGenerated
+- OBJC_IVAR_$_PNRProvisionalRequestGrainMetricsDimension._numActionsCreated
+- OBJC_IVAR_$_PNRProvisionalRequestGrainMetricsDimension._numActionsExecuted
+- OBJC_IVAR_$_PNRProvisionalRequestGrainMetricsDimension._numPlansCreated
+- OBJC_IVAR_$_PNRProvisionalRequestGrainMetricsDimension._numQueries
+- OBJC_IVAR_$_PNRProvisionalRequestGrainMetricsDimension._numQueryPlansCreated
+- OBJC_IVAR_$_PNRProvisionalRequestGrainMetricsDimension._numResponsePlansCreated
+- OBJC_IVAR_$_PNRProvisionalRequestGrainMetricsDimension._planningTime
+- OBJC_IVAR_$_PNRProvisionalRequestGrainMetricsDimension._responsePreparationTime
+- OBJC_IVAR_$_PNRProvisionalRequestGrainMetricsDimension._toolIds
+- OBJC_IVAR_$_PNRProvisionalSageErrorInfo._errorCode
+- OBJC_IVAR_$_PNRProvisionalSageErrorInfo._errorDomain
+- OBJC_IVAR_$_PNRProvisionalSageErrorInfo._has
+- OBJC_IVAR_$_PNRProvisionalSageErrorInfo._hasErrorDomain
+- OBJC_IVAR_$_PNRProvisionalSageFailureInfo._error
+- OBJC_IVAR_$_PNRProvisionalSageFailureInfo._failureSubType
+- OBJC_IVAR_$_PNRProvisionalSageFailureInfo._failureType
+- OBJC_IVAR_$_PNRProvisionalSageFailureInfo._hasError
+- OBJC_IVAR_$_PNRProvisionalSageFailureInfo._hasFailureSubType
+- OBJC_IVAR_$_PNRProvisionalSageFailureInfo._hasFailureType
+- OBJC_IVAR_$_PNRProvisionalSageFailureInfo._hasUnderUnderlyingError
+- OBJC_IVAR_$_PNRProvisionalSageFailureInfo._hasUnderlyingError
+- OBJC_IVAR_$_PNRProvisionalSageFailureInfo._underUnderlyingError
+- OBJC_IVAR_$_PNRProvisionalSageFailureInfo._underlyingError
+- OBJC_IVAR_$_PNRProvisionalSagePnREvent._hasPlannerGrainMetricsDimension
+- OBJC_IVAR_$_PNRProvisionalSagePnREvent._hasRequestGrainMetricsDimension
+- OBJC_IVAR_$_PNRProvisionalSagePnREvent._hasSagePnRMetadata
+- OBJC_IVAR_$_PNRProvisionalSagePnREvent._plannerGrainMetricsDimension
+- OBJC_IVAR_$_PNRProvisionalSagePnREvent._requestGrainMetricsDimension
+- OBJC_IVAR_$_PNRProvisionalSagePnREvent._sagePnRMetadata
+- OBJC_IVAR_$_PNRProvisionalSagePnRMetadata._SessionId
+- OBJC_IVAR_$_PNRProvisionalSagePnRMetadata._actionIds
+- OBJC_IVAR_$_PNRProvisionalSagePnRMetadata._clientId
+- OBJC_IVAR_$_PNRProvisionalSagePnRMetadata._clientRequestId
+- OBJC_IVAR_$_PNRProvisionalSagePnRMetadata._clientSessionId
+- OBJC_IVAR_$_PNRProvisionalSagePnRMetadata._hasClientId
+- OBJC_IVAR_$_PNRProvisionalSagePnRMetadata._hasClientRequestId
+- OBJC_IVAR_$_PNRProvisionalSagePnRMetadata._hasClientSessionId
+- OBJC_IVAR_$_PNRProvisionalSagePnRMetadata._hasRawSessionId
+- OBJC_IVAR_$_PNRProvisionalSagePnRMetadata._hasRequestStatus
+- OBJC_IVAR_$_PNRProvisionalSagePnRMetadata._hasSessionId
+- OBJC_IVAR_$_PNRProvisionalSagePnRMetadata._planIds
+- OBJC_IVAR_$_PNRProvisionalSagePnRMetadata._rawSessionId
+- OBJC_IVAR_$_PNRProvisionalSagePnRMetadata._requestStatus
+- OBJC_IVAR_$_PNRProvisionalSagePnRWrapper._hasSagePnR
+- OBJC_IVAR_$_PNRProvisionalSagePnRWrapper._sagePnR
+- OBJC_IVAR_$_PNRProvisionalSagePnRWrapper._whichEventtype
+- _OBJC_CLASS_$_AssistantSiriAnalytics
+- _OBJC_CLASS_$_NSArray
+- _OBJC_CLASS_$_NSConstantIntegerNumber
+- _OBJC_CLASS_$_NSDictionary
+- _OBJC_CLASS_$_NSJSONSerialization
+- _OBJC_CLASS_$_NSMutableArray
+- _OBJC_CLASS_$_NSMutableDictionary
+- _OBJC_CLASS_$_NSNull
+- _OBJC_CLASS_$_NSString
+- _OBJC_CLASS_$_PNRODSchemaPNRODFailureInfo
+- _OBJC_CLASS_$_PNRProvisionalMetrics
+- _OBJC_CLASS_$_PNRProvisionalPlannerGrainMetricsDimension
+- _OBJC_CLASS_$_PNRProvisionalRequestGrainMetricsDimension
+- _OBJC_CLASS_$_PNRProvisionalSageErrorInfo
+- _OBJC_CLASS_$_PNRProvisionalSageFailureInfo
+- _OBJC_CLASS_$_PNRProvisionalSagePnREvent
+- _OBJC_CLASS_$_PNRProvisionalSagePnRMetadata
+- _OBJC_CLASS_$_PNRProvisionalSagePnRWrapper
+- _OBJC_CLASS_$_SISchemaInstrumentationMessage
+- _OBJC_METACLASS_$_NSObject
+- _OBJC_METACLASS_$_PNRProvisionalMetrics
+- _OBJC_METACLASS_$_PNRProvisionalPlannerGrainMetricsDimension
+- _OBJC_METACLASS_$_PNRProvisionalRequestGrainMetricsDimension
+- _OBJC_METACLASS_$_PNRProvisionalSageErrorInfo
+- _OBJC_METACLASS_$_PNRProvisionalSageFailureInfo
+- _OBJC_METACLASS_$_PNRProvisionalSagePnREvent
+- _OBJC_METACLASS_$_PNRProvisionalSagePnRMetadata
+- _OBJC_METACLASS_$_PNRProvisionalSagePnRWrapper
+- _OBJC_METACLASS_$_SISchemaInstrumentationMessage
+- _OBJC_METACLASS_$_SISchemaTopLevelUnionType
+- _PBDataWriterWriteDoubleField
+- _PBDataWriterWriteInt32Field
+- _PBDataWriterWriteInt64Field
+- _PBDataWriterWriteStringField
+- _PBDataWriterWriteSubmessage
+- _PBReaderPlaceMark
+- _PBReaderReadString
+- _PBReaderRecallMark
+- _PBReaderSkipValueWithTag
+- _PNRProvisionalMetricsReadFrom
+- _PNRProvisionalPlannerGrainMetricsDimensionReadFrom
+- _PNRProvisionalRequestGrainMetricsDimensionReadFrom
+- _PNRProvisionalSageErrorInfoReadFrom
+- _PNRProvisionalSageFailureInfoReadFrom
+- _PNRProvisionalSagePnREventReadFrom
+- _PNRProvisionalSagePnRMetadataReadFrom
+- _PNRProvisionalSagePnRWrapperReadFrom
+- __DATA__TtC23LighthouseDataProcessor11EventFilter
+- __DATA__TtC23LighthouseDataProcessor11FailureInfo
+- __DATA__TtC23LighthouseDataProcessor12SpanEventMap
+- __DATA__TtC23LighthouseDataProcessor14SELFPnREmitter
+- __DATA__TtC23LighthouseDataProcessor16PlannerGrainSpec
+- __DATA__TtC23LighthouseDataProcessor18ExecutionGrainSpec
+- __DATA__TtC23LighthouseDataProcessor19LatencyIntervalSpec
+- __DATA__TtC23LighthouseDataProcessor26PlannerGrainDimensionsSpec
+- __DATA__TtC23LighthouseDataProcessor28ExecutionGrainDimensionsSpec
+- __DATA__TtC23LighthouseDataProcessor29PlannerGrainLatencyCalculator
+- __DATA__TtC23LighthouseDataProcessor29RequestGrainLatencyCalculator
+- __DATA__TtC23LighthouseDataProcessor31ExecutionGrainLatencyCalculator
+- __DATA__TtC23LighthouseDataProcessor42IntelligenceFlowTelemetryLatencyCalculator
+- __DATA__TtC23LighthouseDataProcessor4Last
+- __DATA__TtC23LighthouseDataProcessor4Next
+- __DATA__TtC23LighthouseDataProcessor8PNRError
+- __DATA__TtC23LighthouseDataProcessorP33_36D551D13E8D5A9578D82B67A5CF289416RequestGrainSpec
+- __DATA__TtC23LighthouseDataProcessorP33_36D551D13E8D5A9578D82B67A5CF289426RequestGrainDimensionsSpec
+- __IVARS__TtC23LighthouseDataProcessor11EventFilter
+- __IVARS__TtC23LighthouseDataProcessor11FailureInfo
+- __IVARS__TtC23LighthouseDataProcessor12SpanEventMap
+- __IVARS__TtC23LighthouseDataProcessor16PlannerGrainSpec
+- __IVARS__TtC23LighthouseDataProcessor18ExecutionGrainSpec
+- __IVARS__TtC23LighthouseDataProcessor19LatencyIntervalSpec
+- __IVARS__TtC23LighthouseDataProcessor26PlannerGrainDimensionsSpec
+- __IVARS__TtC23LighthouseDataProcessor28ExecutionGrainDimensionsSpec
+- __IVARS__TtC23LighthouseDataProcessor42IntelligenceFlowTelemetryLatencyCalculator
+- __IVARS__TtC23LighthouseDataProcessor8PNRError
+- __IVARS__TtC23LighthouseDataProcessorP33_36D551D13E8D5A9578D82B67A5CF289416RequestGrainSpec
+- __IVARS__TtC23LighthouseDataProcessorP33_36D551D13E8D5A9578D82B67A5CF289426RequestGrainDimensionsSpec
+- __METACLASS_DATA__TtC23LighthouseDataProcessor11EventFilter
+- __METACLASS_DATA__TtC23LighthouseDataProcessor11FailureInfo
+- __METACLASS_DATA__TtC23LighthouseDataProcessor12SpanEventMap
+- __METACLASS_DATA__TtC23LighthouseDataProcessor14SELFPnREmitter
+- __METACLASS_DATA__TtC23LighthouseDataProcessor16PlannerGrainSpec
+- __METACLASS_DATA__TtC23LighthouseDataProcessor18ExecutionGrainSpec
+- __METACLASS_DATA__TtC23LighthouseDataProcessor19LatencyIntervalSpec
+- __METACLASS_DATA__TtC23LighthouseDataProcessor26PlannerGrainDimensionsSpec
+- __METACLASS_DATA__TtC23LighthouseDataProcessor28ExecutionGrainDimensionsSpec
+- __METACLASS_DATA__TtC23LighthouseDataProcessor29PlannerGrainLatencyCalculator
+- __METACLASS_DATA__TtC23LighthouseDataProcessor29RequestGrainLatencyCalculator
+- __METACLASS_DATA__TtC23LighthouseDataProcessor31ExecutionGrainLatencyCalculator
+- __METACLASS_DATA__TtC23LighthouseDataProcessor42IntelligenceFlowTelemetryLatencyCalculator
+- __METACLASS_DATA__TtC23LighthouseDataProcessor4Last
+- __METACLASS_DATA__TtC23LighthouseDataProcessor4Next
+- __METACLASS_DATA__TtC23LighthouseDataProcessor8PNRError
+- __METACLASS_DATA__TtC23LighthouseDataProcessorP33_36D551D13E8D5A9578D82B67A5CF289416RequestGrainSpec
+- __METACLASS_DATA__TtC23LighthouseDataProcessorP33_36D551D13E8D5A9578D82B67A5CF289426RequestGrainDimensionsSpec
+- __OBJC_$_INSTANCE_METHODS_PNRProvisionalMetrics
+- __OBJC_$_INSTANCE_METHODS_PNRProvisionalPlannerGrainMetricsDimension
+- __OBJC_$_INSTANCE_METHODS_PNRProvisionalRequestGrainMetricsDimension
+- __OBJC_$_INSTANCE_METHODS_PNRProvisionalSageErrorInfo
+- __OBJC_$_INSTANCE_METHODS_PNRProvisionalSageFailureInfo
+- __OBJC_$_INSTANCE_METHODS_PNRProvisionalSagePnREvent
+- __OBJC_$_INSTANCE_METHODS_PNRProvisionalSagePnRMetadata
+- __OBJC_$_INSTANCE_METHODS_PNRProvisionalSagePnRWrapper(InstrumentationAdditions)
+- __OBJC_$_INSTANCE_VARIABLES_PNRProvisionalMetrics
+- __OBJC_$_INSTANCE_VARIABLES_PNRProvisionalPlannerGrainMetricsDimension
+- __OBJC_$_INSTANCE_VARIABLES_PNRProvisionalRequestGrainMetricsDimension
+- __OBJC_$_INSTANCE_VARIABLES_PNRProvisionalSageErrorInfo
+- __OBJC_$_INSTANCE_VARIABLES_PNRProvisionalSageFailureInfo
+- __OBJC_$_INSTANCE_VARIABLES_PNRProvisionalSagePnREvent
+- __OBJC_$_INSTANCE_VARIABLES_PNRProvisionalSagePnRMetadata
+- __OBJC_$_INSTANCE_VARIABLES_PNRProvisionalSagePnRWrapper
+- __OBJC_$_PROP_LIST_PNRProvisionalMetrics
+- __OBJC_$_PROP_LIST_PNRProvisionalPlannerGrainMetricsDimension
+- __OBJC_$_PROP_LIST_PNRProvisionalRequestGrainMetricsDimension
+- __OBJC_$_PROP_LIST_PNRProvisionalSageErrorInfo
+- __OBJC_$_PROP_LIST_PNRProvisionalSageFailureInfo
+- __OBJC_$_PROP_LIST_PNRProvisionalSagePnREvent
+- __OBJC_$_PROP_LIST_PNRProvisionalSagePnRMetadata
+- __OBJC_$_PROP_LIST_PNRProvisionalSagePnRWrapper
+- __OBJC_CLASS_RO_$_PNRProvisionalMetrics
+- __OBJC_CLASS_RO_$_PNRProvisionalPlannerGrainMetricsDimension
+- __OBJC_CLASS_RO_$_PNRProvisionalRequestGrainMetricsDimension
+- __OBJC_CLASS_RO_$_PNRProvisionalSageErrorInfo
+- __OBJC_CLASS_RO_$_PNRProvisionalSageFailureInfo
+- __OBJC_CLASS_RO_$_PNRProvisionalSagePnREvent
+- __OBJC_CLASS_RO_$_PNRProvisionalSagePnRMetadata
+- __OBJC_CLASS_RO_$_PNRProvisionalSagePnRWrapper
+- __OBJC_METACLASS_RO_$_PNRProvisionalMetrics
+- __OBJC_METACLASS_RO_$_PNRProvisionalPlannerGrainMetricsDimension
+- __OBJC_METACLASS_RO_$_PNRProvisionalRequestGrainMetricsDimension
+- __OBJC_METACLASS_RO_$_PNRProvisionalSageErrorInfo
+- __OBJC_METACLASS_RO_$_PNRProvisionalSageFailureInfo
+- __OBJC_METACLASS_RO_$_PNRProvisionalSagePnREvent
+- __OBJC_METACLASS_RO_$_PNRProvisionalSagePnRMetadata
+- __OBJC_METACLASS_RO_$_PNRProvisionalSagePnRWrapper
+- ___CFConstantStringClassReference
+- ___swift_memcpy280_8
+- ___swift_memcpy320_8
+- ___swift_memcpy656_8
+- __os_signpost_emit_with_name_impl
+- __swiftEmptySetSingleton
+- __swift_get_extra_inhabitant_index.144Tm
+- __swift_get_extra_inhabitant_index.148Tm
+- __swift_get_extra_inhabitant_index.154Tm
+- __swift_get_extra_inhabitant_index.170Tm
+- __swift_get_extra_inhabitant_index.173Tm
+- __swift_get_extra_inhabitant_index.176Tm
+- __swift_get_extra_inhabitant_index.185Tm
+- __swift_get_extra_inhabitant_index.191Tm
+- __swift_get_extra_inhabitant_index.216Tm
+- __swift_get_extra_inhabitant_index.219Tm
+- __swift_get_extra_inhabitant_index.239Tm
+- __swift_get_extra_inhabitant_index.245Tm
+- __swift_get_extra_inhabitant_index.263Tm
+- __swift_get_extra_inhabitant_index.306Tm
+- __swift_get_extra_inhabitant_index.335Tm
+- __swift_get_extra_inhabitant_index.504Tm
+- __swift_get_extra_inhabitant_index.840Tm
+- __swift_store_extra_inhabitant_index.145Tm
+- __swift_store_extra_inhabitant_index.149Tm
+- __swift_store_extra_inhabitant_index.155Tm
+- __swift_store_extra_inhabitant_index.171Tm
+- __swift_store_extra_inhabitant_index.174Tm
+- __swift_store_extra_inhabitant_index.177Tm
+- __swift_store_extra_inhabitant_index.186Tm
+- __swift_store_extra_inhabitant_index.192Tm
+- __swift_store_extra_inhabitant_index.217Tm
+- __swift_store_extra_inhabitant_index.220Tm
+- __swift_store_extra_inhabitant_index.240Tm
+- __swift_store_extra_inhabitant_index.246Tm
+- __swift_store_extra_inhabitant_index.264Tm
+- __swift_store_extra_inhabitant_index.307Tm
+- __swift_store_extra_inhabitant_index.336Tm
+- __swift_store_extra_inhabitant_index.505Tm
+- __swift_store_extra_inhabitant_index.841Tm
+- _associated conformance 23LighthouseDataProcessor15FailureTypeEnumOSHAASQ
+- _associated conformance 23LighthouseDataProcessor17PlannerGrainStageOSHAASQ
+- _keypath_get_selector_actionResolverRequestToLastResolverEventTime
+- _keypath_get_selector_executionTime
+- _keypath_get_selector_fullQueryResponseTime
+- _keypath_get_selector_lastQueryDecorationEventToPlanCreatedTime
+- _keypath_get_selector_lastResolverEventToResponseGeneratedTime
+- _keypath_get_selector_planCreatedToActionResolverRequestTime
+- _keypath_get_selector_planCreatedToLastResolverEventTime
+- _keypath_get_selector_plannerResponseTime
+- _keypath_get_selector_planningTime
+- _keypath_get_selector_resolverTotalQueryTime
+- _keypath_get_selector_responsePreparationTime
+- _keypath_get_selector_startToActionResolverRequestTime
+- _keypath_get_selector_startToContextRetrievedTime
+- _keypath_get_selector_startToEntitySpanMatchedTime
+- _keypath_get_selector_startToLastQueryDecorationEventTime
+- _keypath_get_selector_startToLastResolverEventTime
+- _keypath_get_selector_startToPlanCreatedTime
+- _keypath_get_selector_startToToolsRetrievedTime
+- _objc_alloc
+- _objc_alloc_init
+- _objc_enumerationMutation
+- _objc_msgSend$JSONObjectWithData:options:error:
+- _objc_msgSend$SessionId
+- _objc_msgSend$actionIds
+- _objc_msgSend$actionResolverRequestToLastResolverEventTime
+- _objc_msgSend$addActionId:
+- _objc_msgSend$addBundleId:
+- _objc_msgSend$addObject:
+- _objc_msgSend$addPlanId:
+- _objc_msgSend$addToolId:
+- _objc_msgSend$array
+- _objc_msgSend$bundleIds
+- _objc_msgSend$clearActionId
+- _objc_msgSend$clearBundleId
+- _objc_msgSend$clearPlanId
+- _objc_msgSend$clearToolId
+- _objc_msgSend$clientId
+- _objc_msgSend$clientRequestId
+- _objc_msgSend$clientSessionId
+- _objc_msgSend$copy
+- _objc_msgSend$count
+- _objc_msgSend$countByEnumeratingWithState:objects:count:
+- _objc_msgSend$dataWithJSONObject:options:error:
+- _objc_msgSend$dictionary
+- _objc_msgSend$dictionaryRepresentation
+- _objc_msgSend$doubleValue
+- _objc_msgSend$endTimestamp
+- _objc_msgSend$endTimestampEventName
+- _objc_msgSend$error
+- _objc_msgSend$errorCode
+- _objc_msgSend$errorDomain
+- _objc_msgSend$executionTime
+- _objc_msgSend$failureInfo
+- _objc_msgSend$failureSubType
+- _objc_msgSend$failureType
+- _objc_msgSend$fullQueryResponseTime
+- _objc_msgSend$hash
+- _objc_msgSend$initWithDictionary:
+- _objc_msgSend$intValue
+- _objc_msgSend$isEqual:
+- _objc_msgSend$isMemberOfClass:
+- _objc_msgSend$isValidJSONObject:
+- _objc_msgSend$lastQueryDecorationEventToPlanCreatedTime
+- _objc_msgSend$lastResolverEventToResponseGeneratedTime
+- _objc_msgSend$longLongValue
+- _objc_msgSend$metricsValue
+- _objc_msgSend$null
+- _objc_msgSend$numActionResolverRequests
+- _objc_msgSend$numActionResponseGenerated
+- _objc_msgSend$numActionsCreated
+- _objc_msgSend$numActionsExecuted
+- _objc_msgSend$numClientActionCreated
+- _objc_msgSend$numCriticalErrors
+- _objc_msgSend$numPlansCreated
+- _objc_msgSend$numQueries
+- _objc_msgSend$numQueriesCreated
+- _objc_msgSend$numQueriesExecuted
+- _objc_msgSend$numQueryPlansCreated
+- _objc_msgSend$numResponsePlansCreated
+- _objc_msgSend$numStatementEvaluatedFromPlanner
+- _objc_msgSend$numSystemPromptResolved
+- _objc_msgSend$numberWithDouble:
+- _objc_msgSend$numberWithInt:
+- _objc_msgSend$numberWithLongLong:
+- _objc_msgSend$objectAtIndexedSubscript:
+- _objc_msgSend$objectForKeyedSubscript:
+- _objc_msgSend$planCreatedToActionResolverRequestTime
+- _objc_msgSend$planCreatedToLastResolverEventTime
+- _objc_msgSend$planCreatedToResolutionTime
+- _objc_msgSend$planCreatedToResolverRequestTime
+- _objc_msgSend$planIds
+- _objc_msgSend$plannerGrainMetricsDimension
+- _objc_msgSend$plannerGrainStage
+- _objc_msgSend$plannerResponseTime
+- _objc_msgSend$planningStep
+- _objc_msgSend$planningTime
+- _objc_msgSend$rawSessionId
+- _objc_msgSend$removeAllObjects
+- _objc_msgSend$requestGrainMetricsDimension
+- _objc_msgSend$requestStatus
+- _objc_msgSend$resolutionToResponseGeneratedTime
+- _objc_msgSend$resolverFirstSystemPromptToResolutionTime
+- _objc_msgSend$resolverRequestToResolutionTime
+- _objc_msgSend$resolverTotalClientActionTime
+- _objc_msgSend$resolverTotalQueryTime
+- _objc_msgSend$responsePreparationTime
+- _objc_msgSend$sagePnR
+- _objc_msgSend$sagePnRMetadata
+- _objc_msgSend$setActionResolverRequestToLastResolverEventTime:
+- _objc_msgSend$setClientId:
+- _objc_msgSend$setClientRequestId:
+- _objc_msgSend$setClientSessionId:
+- _objc_msgSend$setEndTimestamp:
+- _objc_msgSend$setEndTimestampEventName:
+- _objc_msgSend$setError:
+- _objc_msgSend$setErrorCode:
+- _objc_msgSend$setErrorDomain:
+- _objc_msgSend$setExecutionTime:
+- _objc_msgSend$setFailureInfo:
+- _objc_msgSend$setFailureSubType:
+- _objc_msgSend$setFailureType:
+- _objc_msgSend$setFullQueryResponseTime:
+- _objc_msgSend$setLastQueryDecorationEventToPlanCreatedTime:
+- _objc_msgSend$setLastResolverEventToResponseGeneratedTime:
+- _objc_msgSend$setMetricsValue:
+- _objc_msgSend$setNumActionResolverRequests:
+- _objc_msgSend$setNumActionResponseGenerated:
+- _objc_msgSend$setNumActionsCreated:
+- _objc_msgSend$setNumActionsExecuted:
+- _objc_msgSend$setNumClientActionCreated:
+- _objc_msgSend$setNumCriticalErrors:
+- _objc_msgSend$setNumPlansCreated:
+- _objc_msgSend$setNumQueries:
+- _objc_msgSend$setNumQueriesCreated:
+- _objc_msgSend$setNumQueriesExecuted:
+- _objc_msgSend$setNumQueryPlansCreated:
+- _objc_msgSend$setNumResponsePlansCreated:
+- _objc_msgSend$setNumStatementEvaluatedFromPlanner:
+- _objc_msgSend$setNumSystemPromptResolved:
+- _objc_msgSend$setObject:forKeyedSubscript:
+- _objc_msgSend$setPlanCreatedToActionResolverRequestTime:
+- _objc_msgSend$setPlanCreatedToLastResolverEventTime:
+- _objc_msgSend$setPlanCreatedToResolutionTime:
+- _objc_msgSend$setPlanCreatedToResolverRequestTime:
+- _objc_msgSend$setPlannerGrainMetricsDimension:
+- _objc_msgSend$setPlannerGrainStage:
+- _objc_msgSend$setPlannerResponseTime:
+- _objc_msgSend$setPlanningStep:
+- _objc_msgSend$setPlanningTime:
+- _objc_msgSend$setRawSessionId:
+- _objc_msgSend$setRequestGrainMetricsDimension:
+- _objc_msgSend$setRequestStatus:
+- _objc_msgSend$setResolutionToResponseGeneratedTime:
+- _objc_msgSend$setResolverFirstSystemPromptToResolutionTime:
+- _objc_msgSend$setResolverRequestToResolutionTime:
+- _objc_msgSend$setResolverTotalClientActionTime:
+- _objc_msgSend$setResolverTotalQueryTime:
+- _objc_msgSend$setResponsePreparationTime:
+- _objc_msgSend$setSagePnR:
+- _objc_msgSend$setSagePnRMetadata:
+- _objc_msgSend$setSessionId:
+- _objc_msgSend$setStartTimestamp:
+- _objc_msgSend$setStartTimestampEventName:
+- _objc_msgSend$setStartToActionResolverRequestTime:
+- _objc_msgSend$setStartToContextRetrievedTime:
+- _objc_msgSend$setStartToEntitySpanMatchedTime:
+- _objc_msgSend$setStartToLastQueryDecorationEventTime:
+- _objc_msgSend$setStartToLastResolverEventTime:
+- _objc_msgSend$setStartToPlanCreatedTime:
+- _objc_msgSend$setStartToToolsRetrievedTime:
+- _objc_msgSend$setUnderUnderlyingError:
+- _objc_msgSend$setUnderlyingError:
+- _objc_msgSend$startTimestamp
+- _objc_msgSend$startTimestampEventName
+- _objc_msgSend$startToActionResolverRequestTime
+- _objc_msgSend$startToContextRetrievedTime
+- _objc_msgSend$startToEntitySpanMatchedTime
+- _objc_msgSend$startToLastQueryDecorationEventTime
+- _objc_msgSend$startToLastResolverEventTime
+- _objc_msgSend$startToPlanCreatedTime
+- _objc_msgSend$startToToolsRetrievedTime
+- _objc_msgSend$toolIds
+- _objc_msgSend$underUnderlyingError
+- _objc_msgSend$underlyingError
+- _objc_msgSend$whichEventtype
+- _objc_msgSend$willProduceDictionaryRepresentation:
+- _objc_msgSendSuper2
+- _objc_opt_class
+- _objc_opt_isKindOfClass
+- _objc_retainAutoreleaseReturnValue
+- _objc_setProperty_nonatomic_copy
+- _qname_PNRProvisionalSagePnRWrapper_WhichEventtype_None
+- _qname_PNRProvisionalSagePnRWrapper_WhichEventtype_sagePnR
+- _swift_getKeyPath
+- _swift_setAtWritableKeyPath
+- _swift_setDeallocating
+- _symbolic $s23LighthouseDataProcessor14EventFilteringP
+- _symbolic $s23LighthouseDataProcessor15IELatencyRecordP
+- _symbolic $s23LighthouseDataProcessor16SpecEventHandlerP
+- _symbolic $s23LighthouseDataProcessor18IELatencySELFEventP
+- _symbolic $s23LighthouseDataProcessor19IELatencyCalculatorP
+- _symbolic $s23LighthouseDataProcessor19IELatencyDictionaryP
+- _symbolic $s23LighthouseDataProcessor22IELatencySignpostEventP
+- _symbolic $s23LighthouseDataProcessor23SELFPnREmitterInterfaceP
+- _symbolic $s23LighthouseDataProcessor27IELatencyCoreAnalyticsEventP
+- _symbolic SDySS_____G 23LighthouseDataProcessor20TranscriptProtoEventV
+- _symbolic SDySSypG
+- _symbolic SDy_____SDy__________GG s6UInt64V 27IntelligencePlatformLibrary0B10FlowTargetO 23LighthouseDataProcessor0bE26TelemetryLatencyCalculatorC19IFTelemetryIntervalV
+- _symbolic SDy__________G s6UInt64V 23LighthouseDataProcessor11FailureInfoC
+- _symbolic SDy__________G s6UInt64V 23LighthouseDataProcessor20TranscriptProtoEventV
+- _symbolic SS3key_yp5valuet
+- _symbolic SS_ypt
+- _symbolic Say_____G 23LighthouseDataProcessor26TranscriptProtoPayloadEnumO0F4TypeO
+- _symbolic Shy_____G 27IntelligencePlatformLibrary0A10FlowTargetO
+- _symbolic Shy_____G s6UInt64V
+- _symbolic So21PNRProvisionalMetricsCSg
+- _symbolic So42PNRProvisionalPlannerGrainMetricsDimensionC
+- _symbolic So42PNRProvisionalRequestGrainMetricsDimensionC
+- _symbolic _____ 23LighthouseDataProcessor11EventFilterC
+- _symbolic _____ 23LighthouseDataProcessor11FailureInfoC
+- _symbolic _____ 23LighthouseDataProcessor12SpanEventMapC
+- _symbolic _____ 23LighthouseDataProcessor14SELFPnREmitterC
+- _symbolic _____ 23LighthouseDataProcessor15FailureTypeEnumO
+- _symbolic _____ 23LighthouseDataProcessor16PlannerGrainSpecC
+- _symbolic _____ 23LighthouseDataProcessor16RequestGrainSpec33_36D551D13E8D5A9578D82B67A5CF2894LLC
+- _symbolic _____ 23LighthouseDataProcessor17PlannerGrainStageO
+- _symbolic _____ 23LighthouseDataProcessor18ExecutionGrainSpecC
+- _symbolic _____ 23LighthouseDataProcessor19LatencyIntervalSpecC
+- _symbolic _____ 23LighthouseDataProcessor19PlannerGrainLatencyV
+- _symbolic _____ 23LighthouseDataProcessor19RequestGrainLatencyV
+- _symbolic _____ 23LighthouseDataProcessor21ExecutionGrainLatencyV
+- _symbolic _____ 23LighthouseDataProcessor21IELatencyRecordHelperO
+- _symbolic _____ 23LighthouseDataProcessor22IELatencyConstantValueO
+- _symbolic _____ 23LighthouseDataProcessor26PlannerGrainDimensionsSpecC
+- _symbolic _____ 23LighthouseDataProcessor26RequestGrainDimensionsSpec33_36D551D13E8D5A9578D82B67A5CF2894LLC
+- _symbolic _____ 23LighthouseDataProcessor28ExecutionGrainDimensionsSpecC
+- _symbolic _____ 23LighthouseDataProcessor29PlannerGrainLatencyCalculatorC
+- _symbolic _____ 23LighthouseDataProcessor29RequestGrainLatencyCalculatorC
+- _symbolic _____ 23LighthouseDataProcessor31ExecutionGrainLatencyCalculatorC
+- _symbolic _____ 23LighthouseDataProcessor42IntelligenceFlowTelemetryLatencyCalculatorC
+- _symbolic _____ 23LighthouseDataProcessor42IntelligenceFlowTelemetryLatencyCalculatorC19IFTelemetryIntervalV
+- _symbolic _____ 23LighthouseDataProcessor4LastC
+- _symbolic _____ 23LighthouseDataProcessor4NextC
+- _symbolic _____ 23LighthouseDataProcessor8PNRErrorC
+- _symbolic _____ 27IntelligencePlatformLibrary0A10FlowTargetO
+- _symbolic _____ 27IntelligencePlatformLibrary0a4FlowB3PnRV9StateInfoO
+- _symbolic _____Sg 23LighthouseDataProcessor11FailureInfoC
+- _symbolic _____Sg 23LighthouseDataProcessor15FailureTypeEnumO
+- _symbolic _____Sg 23LighthouseDataProcessor41TranscriptProtoStructuredSearchExpressionV0fG8PropertyV
+- _symbolic _____Sg 23LighthouseDataProcessor42IntelligenceFlowTelemetryLatencyCalculatorC19IFTelemetryIntervalV
+- _symbolic _____Sg 23LighthouseDataProcessor8PNRErrorC
+- _symbolic _____Sg 27IntelligencePlatformLibrary0A10FlowTargetO
+- _symbolic _____Sg 27IntelligencePlatformLibrary0A13FlowTelemetryV9ObjectiveO
+- _symbolic _____Sg 27IntelligencePlatformLibrary0A9FlowErrorV
+- _symbolic _____Sg 27IntelligencePlatformLibrary0a4FlowB3PnRV9StateInfoO
+- _symbolic ___________t 27IntelligencePlatformLibrary0A10FlowTargetO 23LighthouseDataProcessor0aD26TelemetryLatencyCalculatorC19IFTelemetryIntervalV
+- _symbolic ___________t s6UInt64V 23LighthouseDataProcessor11FailureInfoC
+- _symbolic ______p 23LighthouseDataProcessor16SpecEventHandlerP
+- _symbolic ______pSg 23LighthouseDataProcessor14EventFilteringP
+- _symbolic _____m 23LighthouseDataProcessor21IELatencyRecordHelperO
+- _symbolic _____mm 23LighthouseDataProcessor21IELatencyRecordHelperO
+- _symbolic _____ySDySSypGG s23_ContiguousArrayStorageC
+- _symbolic _____ySDy__________GG s23_ContiguousArrayStorageC s6UInt64V 23LighthouseDataProcessor11FailureInfoC
+- _symbolic _____ySS_yptG s23_ContiguousArrayStorageC
+- _symbolic _____ySSypG s18_DictionaryStorageC
+- _symbolic _____ySo42PNRProvisionalPlannerGrainMetricsDimensionCSo0aD0CSgG s15WritableKeyPathC
+- _symbolic _____ySo42PNRProvisionalPlannerGrainMetricsDimensionCSo0aD0CSgG s24ReferenceWritableKeyPathC
+- _symbolic _____ySo42PNRProvisionalRequestGrainMetricsDimensionCSo0aD0CSgG s15WritableKeyPathC
+- _symbolic _____ySo42PNRProvisionalRequestGrainMetricsDimensionCSo0aD0CSgG s24ReferenceWritableKeyPathC
+- _symbolic _____y_____G s11_SetStorageC s6UInt64V
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 23LighthouseDataProcessor19PlannerGrainLatencyV
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 23LighthouseDataProcessor19RequestGrainLatencyV
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 23LighthouseDataProcessor21ExecutionGrainLatencyV
+- _symbolic _____y_____SDy__________GG s18_DictionaryStorageC s6UInt64V 27IntelligencePlatformLibrary0D10FlowTargetO 23LighthouseDataProcessor0dG26TelemetryLatencyCalculatorC19IFTelemetryIntervalV
+- _symbolic _____y__________G s18_DictionaryStorageC 27IntelligencePlatformLibrary0C10FlowTargetO 23LighthouseDataProcessor0cF26TelemetryLatencyCalculatorC19IFTelemetryIntervalV
+- _symbolic _____y__________G s18_DictionaryStorageC s6UInt64V 23LighthouseDataProcessor11FailureInfoC
+- _symbolic _____y___________tG s23_ContiguousArrayStorageC 27IntelligencePlatformLibrary0D10FlowTargetO 23LighthouseDataProcessor0dG26TelemetryLatencyCalculatorC19IFTelemetryIntervalV
+- _symbolic _____y______pG s23_ContiguousArrayStorageC 23LighthouseDataProcessor16SpecEventHandlerP
+- _symbolic _____y_____ySo42PNRProvisionalPlannerGrainMetricsDimensionCSo0aD0CSgGSdG s18_DictionaryStorageC s15WritableKeyPathC
+- _symbolic _____y_____ySo42PNRProvisionalPlannerGrainMetricsDimensionCSo0aD0CSgGSdG s18_DictionaryStorageC s24ReferenceWritableKeyPathC
+- _symbolic _____y_____ySo42PNRProvisionalPlannerGrainMetricsDimensionCSo0aD0CSgG_SdtG s23_ContiguousArrayStorageC s24ReferenceWritableKeyPathC
+- _symbolic _____y_____ySo42PNRProvisionalRequestGrainMetricsDimensionCSo0aD0CSgGSdG s18_DictionaryStorageC s15WritableKeyPathC
+- _symbolic _____y_____ySo42PNRProvisionalRequestGrainMetricsDimensionCSo0aD0CSgGSdG s18_DictionaryStorageC s24ReferenceWritableKeyPathC
+- _symbolic _____y_____ySo42PNRProvisionalRequestGrainMetricsDimensionCSo0aD0CSgG_SdtG s23_ContiguousArrayStorageC s24ReferenceWritableKeyPathC
+CStrings:
++ ".ExecutionSupportType"
++ "IFTSchemaIFTExecutionPreconditionEvaluatorRequest"
++ "RequestAmendment"
++ "Transcript.RequestAmendment"
++ "directInvocationClient"
++ "enumSymbol"
++ "executionSupportType"
++ "networkError"
++ "originalRequestId"
++ "partner"
++ "preITNSpeechPackage"
++ "requestAmendment"
++ "setExecutionPreconditionEvaluatorRequest:"
++ "setIsPreciseLocationRequired:"
++ "setNetworkError:"
++ "setPreviousAnswerReferenceStatementId:"
++ "setPreviousStatementId:"
++ "setSearchSucceededNoMatchingTool:"
++ "setTimeoutForLocationFetch:"
++ "setUserLocationForSystemRequired:"
++ "supported"
++ "unsupportedListValue"
++ "valueSelectionRequired"
+- "\x01"
+- "\x01.("
+- "\x03"
+- "\x05"
+- "\b"
+- "\nfailureSubSubType: "
+- "\nfailureSubtype: "
+- "!\x11"
+- "%{public, signpost.description=attribute,public}s"
+- ".cxx_destruct"
+- "@\"NSArray\""
+- "@\"NSString\""
+- "@\"PNRProvisionalMetrics\""
+- "@\"PNRProvisionalPlannerGrainMetricsDimension\""
+- "@\"PNRProvisionalRequestGrainMetricsDimension\""
+- "@\"PNRProvisionalSageErrorInfo\""
+- "@\"PNRProvisionalSageFailureInfo\""
+- "@\"PNRProvisionalSagePnREvent\""
+- "@\"PNRProvisionalSagePnRMetadata\""
+- "@24@0:8@16"
+- "@24@0:8Q16"
+- "B"
+- "Converting %s metrics dictionary to json string"
+- "Creating PnR provisional transcript events %s: %s"
+- "Creating PnR provisional transcript events for Planner Grain metrics %s: %s"
+- "ExecutionGrain"
+- "ExecutionGrainLatency Result %ld: %s"
+- "ExecutionGrainLatencyCalculator - building latency record"
+- "ExecutionGrainLatencyCalculator - starting new latency record for event: %s"
+- "Failed to convert %s metrics dictionary to json string"
+- "Failed to parse results as JSON String and emit OSSignposts for PlannerGrain"
+- "Failed to parse results as JSON String and emit OSSignposts for RequestGrain"
+- "Found %ld ExecutionGrainLatency Results"
+- "Found %ld PlannerGrainLatency Results"
+- "Found %ld RequestGrainLatency Results"
+- "Found startTime "
+- "G"
+- "IF Telemetry - Found a Failure in Planner Steps\n    clientRequestId: %s,\n    spanId: %llu\n    Target: %s,\n    state: %s,\n    with suspending timestamp: %llu,\n    %s"
+- "IF Telemetry Event"
+- "IF Telemetry Event -\n    clientRequestId: %s,\n    spanId: %llu\n    Target: %s,\n    state: %s,\n    with suspending timestamp: %llu,"
+- "In updatePlannerFailureSubtype - Found multiple spans with failures, which is unexpected.\n    %s"
+- "InstrumentationAdditions"
+- "IntelligenceFlowRuntime.RuntimeError"
+- "JSONObjectWithData:options:error:"
+- "LatencyIntervalSpec - calculateInterval - begin: %s, end: %s, duration: %s"
+- "LatencyIntervalSpec - calculateInterval - failed to calculate interval for begin: %s, end: %s"
+- "PNRProvisionalMetrics"
+- "PNRProvisionalMetrics init failed!"
+- "PNRProvisionalPlannerGrainMetricsDimension"
+- "PNRProvisionalPlannerGrainMetricsDimension init failed!"
+- "PNRProvisionalRequestGrainMetricsDimension"
+- "PNRProvisionalSageErrorInfo"
+- "PNRProvisionalSageFailureInfo"
+- "PNRProvisionalSagePnREvent"
+- "PNRProvisionalSagePnRMetadata"
+- "PNRProvisionalSagePnRMetadata init failed!"
+- "PNRProvisionalSagePnRWrapper"
+- "PNRProvisionalSagePnRWrapper init failed!"
+- "Planner Grain: PNRProvisionalMetrics init failed!"
+- "PlannerGrain"
+- "PlannerGrainLatency Result %ld: %s"
+- "PlannerGrainLatencyCalculator - building latency record"
+- "PlannerGrainLatencyCalculator - permutation - begin: %s, end: %s, result: %s"
+- "PlannerGrainLatencyCalculator - starting new latency record for event: %s"
+- "Q"
+- "RequestGrain"
+- "RequestGrainLatency Result %ld: %s"
+- "RequestGrainLatencyCalculator - building latency record"
+- "RequestGrainLatencyCalculator - starting new latency record for event: %s"
+- "SessionId"
+- "T@\"NSArray\",C,N,V_actionIds"
+- "T@\"NSArray\",C,N,V_bundleIds"
+- "T@\"NSArray\",C,N,V_planIds"
+- "T@\"NSArray\",C,N,V_toolIds"
+- "T@\"NSData\",R,N"
+- "T@\"NSString\",C,N,V_SessionId"
+- "T@\"NSString\",C,N,V_clientId"
+- "T@\"NSString\",C,N,V_clientRequestId"
+- "T@\"NSString\",C,N,V_clientSessionId"
+- "T@\"NSString\",C,N,V_endTimestampEventName"
+- "T@\"NSString\",C,N,V_errorDomain"
+- "T@\"NSString\",C,N,V_failureSubType"
+- "T@\"NSString\",C,N,V_failureType"
+- "T@\"NSString\",C,N,V_plannerGrainStage"
+- "T@\"NSString\",C,N,V_planningStep"
+- "T@\"NSString\",C,N,V_rawSessionId"
+- "T@\"NSString\",C,N,V_requestStatus"
+- "T@\"NSString\",C,N,V_startTimestampEventName"
+- "T@\"PNRProvisionalMetrics\",&,N,V_actionResolverRequestToLastResolverEventTime"
+- "T@\"PNRProvisionalMetrics\",&,N,V_executionTime"
+- "T@\"PNRProvisionalMetrics\",&,N,V_fullQueryResponseTime"
+- "T@\"PNRProvisionalMetrics\",&,N,V_lastQueryDecorationEventToPlanCreatedTime"
+- "T@\"PNRProvisionalMetrics\",&,N,V_lastResolverEventToResponseGeneratedTime"
+- "T@\"PNRProvisionalMetrics\",&,N,V_planCreatedToActionResolverRequestTime"
+- "T@\"PNRProvisionalMetrics\",&,N,V_planCreatedToLastResolverEventTime"
+- "T@\"PNRProvisionalMetrics\",&,N,V_planCreatedToResolutionTime"
+- "T@\"PNRProvisionalMetrics\",&,N,V_planCreatedToResolverRequestTime"
+- "T@\"PNRProvisionalMetrics\",&,N,V_plannerResponseTime"
+- "T@\"PNRProvisionalMetrics\",&,N,V_planningTime"
+- "T@\"PNRProvisionalMetrics\",&,N,V_resolutionToResponseGeneratedTime"
+- "T@\"PNRProvisionalMetrics\",&,N,V_resolverFirstSystemPromptToResolutionTime"
+- "T@\"PNRProvisionalMetrics\",&,N,V_resolverRequestToResolutionTime"
+- "T@\"PNRProvisionalMetrics\",&,N,V_resolverTotalClientActionTime"
+- "T@\"PNRProvisionalMetrics\",&,N,V_resolverTotalQueryTime"
+- "T@\"PNRProvisionalMetrics\",&,N,V_responsePreparationTime"
+- "T@\"PNRProvisionalMetrics\",&,N,V_startToActionResolverRequestTime"
+- "T@\"PNRProvisionalMetrics\",&,N,V_startToContextRetrievedTime"
+- "T@\"PNRProvisionalMetrics\",&,N,V_startToEntitySpanMatchedTime"
+- "T@\"PNRProvisionalMetrics\",&,N,V_startToLastQueryDecorationEventTime"
+- "T@\"PNRProvisionalMetrics\",&,N,V_startToLastResolverEventTime"
+- "T@\"PNRProvisionalMetrics\",&,N,V_startToPlanCreatedTime"
+- "T@\"PNRProvisionalMetrics\",&,N,V_startToToolsRetrievedTime"
+- "T@\"PNRProvisionalPlannerGrainMetricsDimension\",&,N,V_plannerGrainMetricsDimension"
+- "T@\"PNRProvisionalRequestGrainMetricsDimension\",&,N,V_requestGrainMetricsDimension"
+- "T@\"PNRProvisionalSageErrorInfo\",&,N,V_error"
+- "T@\"PNRProvisionalSageErrorInfo\",&,N,V_underUnderlyingError"
+- "T@\"PNRProvisionalSageErrorInfo\",&,N,V_underlyingError"
+- "T@\"PNRProvisionalSageFailureInfo\",&,N,V_failureInfo"
+- "T@\"PNRProvisionalSagePnREvent\",&,N,V_sagePnR"
+- "T@\"PNRProvisionalSagePnRMetadata\",&,N,V_sagePnRMetadata"
+- "TB,N"
+- "TB,N,V_hasActionResolverRequestToLastResolverEventTime"
+- "TB,N,V_hasClientId"
+- "TB,N,V_hasClientRequestId"
+- "TB,N,V_hasClientSessionId"
+- "TB,N,V_hasEndTimestampEventName"
+- "TB,N,V_hasError"
+- "TB,N,V_hasErrorDomain"
+- "TB,N,V_hasExecutionTime"
+- "TB,N,V_hasFailureInfo"
+- "TB,N,V_hasFailureSubType"
+- "TB,N,V_hasFailureType"
+- "TB,N,V_hasFullQueryResponseTime"
+- "TB,N,V_hasLastQueryDecorationEventToPlanCreatedTime"
+- "TB,N,V_hasLastResolverEventToResponseGeneratedTime"
+- "TB,N,V_hasPlanCreatedToActionResolverRequestTime"
+- "TB,N,V_hasPlanCreatedToLastResolverEventTime"
+- "TB,N,V_hasPlanCreatedToResolutionTime"
+- "TB,N,V_hasPlanCreatedToResolverRequestTime"
+- "TB,N,V_hasPlannerGrainMetricsDimension"
+- "TB,N,V_hasPlannerGrainStage"
+- "TB,N,V_hasPlannerResponseTime"
+- "TB,N,V_hasPlanningStep"
+- "TB,N,V_hasPlanningTime"
+- "TB,N,V_hasRawSessionId"
+- "TB,N,V_hasRequestGrainMetricsDimension"
+- "TB,N,V_hasRequestStatus"
+- "TB,N,V_hasResolutionToResponseGeneratedTime"
+- "TB,N,V_hasResolverFirstSystemPromptToResolutionTime"
+- "TB,N,V_hasResolverRequestToResolutionTime"
+- "TB,N,V_hasResolverTotalClientActionTime"
+- "TB,N,V_hasResolverTotalQueryTime"
+- "TB,N,V_hasResponsePreparationTime"
+- "TB,N,V_hasSagePnR"
+- "TB,N,V_hasSagePnRMetadata"
+- "TB,N,V_hasSessionId"
+- "TB,N,V_hasStartTimestampEventName"
+- "TB,N,V_hasStartToActionResolverRequestTime"
+- "TB,N,V_hasStartToContextRetrievedTime"
+- "TB,N,V_hasStartToEntitySpanMatchedTime"
+- "TB,N,V_hasStartToLastQueryDecorationEventTime"
+- "TB,N,V_hasStartToLastResolverEventTime"
+- "TB,N,V_hasStartToPlanCreatedTime"
+- "TB,N,V_hasStartToToolsRetrievedTime"
+- "TB,N,V_hasUnderUnderlyingError"
+- "TB,N,V_hasUnderlyingError"
+- "TQ,R,N,V_whichEventtype"
+- "Td,N,V_metricsValue"
+- "Ti,N,V_numActionResolverRequests"
+- "Ti,N,V_numActionResponseGenerated"
+- "Ti,N,V_numActionsCreated"
+- "Ti,N,V_numActionsExecuted"
+- "Ti,N,V_numClientActionCreated"
+- "Ti,N,V_numCriticalErrors"
+- "Ti,N,V_numPlansCreated"
+- "Ti,N,V_numQueries"
+- "Ti,N,V_numQueriesCreated"
+- "Ti,N,V_numQueriesExecuted"
+- "Ti,N,V_numQueryPlansCreated"
+- "Ti,N,V_numResponsePlansCreated"
+- "Ti,N,V_numStatementEvaluatedFromPlanner"
+- "Ti,N,V_numSystemPromptResolved"
+- "Tq,N,V_endTimestamp"
+- "Tq,N,V_errorCode"
+- "Tq,N,V_startTimestamp"
+- "Unable to extract PlannerGrain description"
+- "Unable to extract RequestGrain description"
+- "Unexpected IF telemetry event before begin event for %s, span: %llu, stateInfo: %s"
+- "Unexpected IF telemetry event for exisiting interval %s, span: %llu, stateInfo: %s"
+- "Unrecognized error from criticalError: %s"
+- "_SessionId"
+- "_TtC23LighthouseDataProcessor11EventFilter"
+- "_TtC23LighthouseDataProcessor11FailureInfo"
+- "_TtC23LighthouseDataProcessor12SpanEventMap"
+- "_TtC23LighthouseDataProcessor14SELFPnREmitter"
+- "_TtC23LighthouseDataProcessor16PlannerGrainSpec"
+- "_TtC23LighthouseDataProcessor18ExecutionGrainSpec"
+- "_TtC23LighthouseDataProcessor19LatencyIntervalSpec"
+- "_TtC23LighthouseDataProcessor26PlannerGrainDimensionsSpec"
+- "_TtC23LighthouseDataProcessor28ExecutionGrainDimensionsSpec"
+- "_TtC23LighthouseDataProcessor29PlannerGrainLatencyCalculator"
+- "_TtC23LighthouseDataProcessor29RequestGrainLatencyCalculator"
+- "_TtC23LighthouseDataProcessor31ExecutionGrainLatencyCalculator"
+- "_TtC23LighthouseDataProcessor42IntelligenceFlowTelemetryLatencyCalculator"
+- "_TtC23LighthouseDataProcessor4Last"
+- "_TtC23LighthouseDataProcessor4Next"
+- "_TtC23LighthouseDataProcessor8PNRError"
+- "_TtC23LighthouseDataProcessorP33_36D551D13E8D5A9578D82B67A5CF289416RequestGrainSpec"
+- "_TtC23LighthouseDataProcessorP33_36D551D13E8D5A9578D82B67A5CF289426RequestGrainDimensionsSpec"
+- "_actionIds"
+- "_actionResolverRequestToLastResolverEventTime"
+- "_bundleIds"
+- "_clientId"
+- "_clientRequestId"
+- "_clientSessionId"
+- "_endTimestamp"
+- "_endTimestampEventName"
+- "_error"
+- "_errorCode"
+- "_errorDomain"
+- "_executionTime"
+- "_failureInfo"
+- "_failureSubType"
+- "_failureType"
+- "_fullQueryResponseTime"
+- "_has"
+- "_hasActionResolverRequestToLastResolverEventTime"
+- "_hasClientId"
+- "_hasClientRequestId"
+- "_hasClientSessionId"
+- "_hasEndTimestampEventName"
+- "_hasError"
+- "_hasErrorDomain"
+- "_hasExecutionTime"
+- "_hasFailureInfo"
+- "_hasFailureSubType"
+- "_hasFailureType"
+- "_hasFullQueryResponseTime"
+- "_hasLastQueryDecorationEventToPlanCreatedTime"
+- "_hasLastResolverEventToResponseGeneratedTime"
+- "_hasPlanCreatedToActionResolverRequestTime"
+- "_hasPlanCreatedToLastResolverEventTime"
+- "_hasPlanCreatedToResolutionTime"
+- "_hasPlanCreatedToResolverRequestTime"
+- "_hasPlannerGrainMetricsDimension"
+- "_hasPlannerGrainStage"
+- "_hasPlannerResponseTime"
+- "_hasPlanningStep"
+- "_hasPlanningTime"
+- "_hasRawSessionId"
+- "_hasRequestGrainMetricsDimension"
+- "_hasRequestStatus"
+- "_hasResolutionToResponseGeneratedTime"
+- "_hasResolverFirstSystemPromptToResolutionTime"
+- "_hasResolverRequestToResolutionTime"
+- "_hasResolverTotalClientActionTime"
+- "_hasResolverTotalQueryTime"
+- "_hasResponsePreparationTime"
+- "_hasSagePnR"
+- "_hasSagePnRMetadata"
+- "_hasSessionId"
+- "_hasStartTimestampEventName"
+- "_hasStartToActionResolverRequestTime"
+- "_hasStartToContextRetrievedTime"
+- "_hasStartToEntitySpanMatchedTime"
+- "_hasStartToLastQueryDecorationEventTime"
+- "_hasStartToLastResolverEventTime"
+- "_hasStartToPlanCreatedTime"
+- "_hasStartToToolsRetrievedTime"
+- "_hasUnderUnderlyingError"
+- "_hasUnderlyingError"
+- "_lastQueryDecorationEventToPlanCreatedTime"
+- "_lastResolverEventToResponseGeneratedTime"
+- "_metricsValue"
+- "_numActionResolverRequests"
+- "_numActionResponseGenerated"
+- "_numActionsCreated"
+- "_numActionsExecuted"
+- "_numClientActionCreated"
+- "_numCriticalErrors"
+- "_numPlansCreated"
+- "_numQueries"
+- "_numQueriesCreated"
+- "_numQueriesExecuted"
+- "_numQueryPlansCreated"
+- "_numResponsePlansCreated"
+- "_numStatementEvaluatedFromPlanner"
+- "_numSystemPromptResolved"
+- "_planCreatedToActionResolverRequestTime"
+- "_planCreatedToLastResolverEventTime"
+- "_planCreatedToResolutionTime"
+- "_planCreatedToResolverRequestTime"
+- "_planIds"
+- "_plannerGrainMetricsDimension"
+- "_plannerGrainStage"
+- "_plannerResponseTime"
+- "_planningStep"
+- "_planningTime"
+- "_rawSessionId"
+- "_requestGrainMetricsDimension"
+- "_requestStatus"
+- "_resolutionToResponseGeneratedTime"
+- "_resolverFirstSystemPromptToResolutionTime"
+- "_resolverRequestToResolutionTime"
+- "_resolverTotalClientActionTime"
+- "_resolverTotalQueryTime"
+- "_responsePreparationTime"
+- "_sagePnR"
+- "_sagePnRMetadata"
+- "_startTimestamp"
+- "_startTimestampEventName"
+- "_startToActionResolverRequestTime"
+- "_startToContextRetrievedTime"
+- "_startToEntitySpanMatchedTime"
+- "_startToLastQueryDecorationEventTime"
+- "_startToLastResolverEventTime"
+- "_startToPlanCreatedTime"
+- "_startToToolsRetrievedTime"
+- "_toolIds"
+- "_underUnderlyingError"
+- "_underlyingError"
+- "_whichEventtype"
+- "actionExprMap"
+- "actionId"
+- "actionIdAtIndex:"
+- "actionIdCount"
+- "actionIds"
+- "actionResolverRequestToLastResolverEventTime"
+- "actionResponse"
+- "actionResponseTime"
+- "actionWithoutResponse"
+- "addActionId:"
+- "addBundleId:"
+- "addObject:"
+- "addPlanId:"
+- "addToolId:"
+- "appEntityQueryEventId"
+- "appEntityQueryResponseTime"
+- "beginEventFilter"
+- "bundleIdAtIndex:"
+- "bundleIdCount"
+- "bundleIds"
+- "clearActionId"
+- "clearBundleId"
+- "clearPlanId"
+- "clearToolId"
+- "clientId"
+- "com.apple.aiml.pnr.ProvisionalSagePnRWrapper"
+- "com.apple.aiml.pnr.ProvisionalSagePnRWrapper.ProvisionalSagePnREvent"
+- "com.apple.aiml.pnr.SagePnRWrapper"
+- "com.apple.intelligenceflow.ExecutionGrainLatency"
+- "com.apple.intelligenceflow.PlannerGrainLatency"
+- "com.apple.intelligenceflow.RequestGrainLatency"
+- "count"
+- "countByEnumeratingWithState:objects:count:"
+- "d"
+- "d16@0:8"
+- "dataWithJSONObject:options:error:"
+- "debugInfo"
+- "deleteActionId"
+- "deleteActionResolverRequestToLastResolverEventTime"
+- "deleteBundleId"
+- "deleteClientId"
+- "deleteClientRequestId"
+- "deleteClientSessionId"
+- "deleteEndTimestamp"
+- "deleteEndTimestampEventName"
+- "deleteError"
+- "deleteErrorCode"
+- "deleteErrorDomain"
+- "deleteExecutionTime"
+- "deleteFailureInfo"
+- "deleteFailureSubType"
+- "deleteFailureType"
+- "deleteFullQueryResponseTime"
+- "deleteLastQueryDecorationEventToPlanCreatedTime"
+- "deleteLastResolverEventToResponseGeneratedTime"
+- "deleteMetricsValue"
+- "deleteNumActionResolverRequests"
+- "deleteNumActionResponseGenerated"
+- "deleteNumActionsCreated"
+- "deleteNumActionsExecuted"
+- "deleteNumClientActionCreated"
+- "deleteNumCriticalErrors"
+- "deleteNumPlansCreated"
+- "deleteNumQueries"
+- "deleteNumQueriesCreated"
+- "deleteNumQueriesExecuted"
+- "deleteNumQueryPlansCreated"
+- "deleteNumResponsePlansCreated"
+- "deleteNumStatementEvaluatedFromPlanner"
+- "deleteNumSystemPromptResolved"
+- "deletePlanCreatedToActionResolverRequestTime"
+- "deletePlanCreatedToLastResolverEventTime"
+- "deletePlanCreatedToResolutionTime"
+- "deletePlanCreatedToResolverRequestTime"
+- "deletePlanId"
+- "deletePlannerGrainMetricsDimension"
+- "deletePlannerGrainStage"
+- "deletePlannerResponseTime"
+- "deletePlanningStep"
+- "deletePlanningTime"
+- "deleteRawSessionId"
+- "deleteRequestGrainMetricsDimension"
+- "deleteRequestStatus"
+- "deleteResolutionToResponseGeneratedTime"
+- "deleteResolverFirstSystemPromptToResolutionTime"
+- "deleteResolverRequestToResolutionTime"
+- "deleteResolverTotalClientActionTime"
+- "deleteResolverTotalQueryTime"
+- "deleteResponsePreparationTime"
+- "deleteSagePnR"
+- "deleteSagePnRMetadata"
+- "deleteSessionId"
+- "deleteStartTimestamp"
+- "deleteStartTimestampEventName"
+- "deleteStartToActionResolverRequestTime"
+- "deleteStartToContextRetrievedTime"
+- "deleteStartToEntitySpanMatchedTime"
+- "deleteStartToLastQueryDecorationEventTime"
+- "deleteStartToLastResolverEventTime"
+- "deleteStartToPlanCreatedTime"
+- "deleteStartToToolsRetrievedTime"
+- "deleteToolId"
+- "deleteUnderUnderlyingError"
+- "deleteUnderlyingError"
+- "dictionaryRepresentation"
+- "doubleValue"
+- "emitMessage:"
+- "endEventFilter"
+- "endTimestamp"
+- "endTimestampEventName"
+- "errorCode"
+- "errorDomain"
+- "executionGrainDimensions"
+- "executionTime"
+- "executionTime_count"
+- "failureInfo"
+- "failureSubSubType"
+- "failureSubType"
+- "failureType"
+- "formattedJsonBody"
+- "foundEvent"
+- "fullQueryResponseTime"
+- "getAnyEventType"
+- "getTypeId"
+- "getVersion"
+- "hasActionResolverRequestToLastResolverEventTime"
+- "hasClientId"
+- "hasClientRequestId"
+- "hasClientSessionId"
+- "hasEndTimestamp"
+- "hasEndTimestampEventName"
+- "hasError"
+- "hasErrorCode"
+- "hasErrorDomain"
+- "hasExecutionTime"
+- "hasFailureInfo"
+- "hasFailureSubType"
+- "hasFailureType"
+- "hasFullQueryResponseTime"
+- "hasLastQueryDecorationEventToPlanCreatedTime"
+- "hasLastResolverEventToResponseGeneratedTime"
+- "hasMetricsValue"
+- "hasNumActionResolverRequests"
+- "hasNumActionResponseGenerated"
+- "hasNumActionsCreated"
+- "hasNumActionsExecuted"
+- "hasNumClientActionCreated"
+- "hasNumCriticalErrors"
+- "hasNumPlansCreated"
+- "hasNumQueries"
+- "hasNumQueriesCreated"
+- "hasNumQueriesExecuted"
+- "hasNumQueryPlansCreated"
+- "hasNumResponsePlansCreated"
+- "hasNumStatementEvaluatedFromPlanner"
+- "hasNumSystemPromptResolved"
+- "hasPlanCreatedToActionResolverRequestTime"
+- "hasPlanCreatedToLastResolverEventTime"
+- "hasPlanCreatedToResolutionTime"
+- "hasPlanCreatedToResolverRequestTime"
+- "hasPlannerGrainMetricsDimension"
+- "hasPlannerGrainStage"
+- "hasPlannerResponseTime"
+- "hasPlanningStep"
+- "hasPlanningTime"
+- "hasRawSessionId"
+- "hasRequestGrainMetricsDimension"
+- "hasRequestStatus"
+- "hasResolutionToResponseGeneratedTime"
+- "hasResolverFirstSystemPromptToResolutionTime"
+- "hasResolverRequestToResolutionTime"
+- "hasResolverTotalClientActionTime"
+- "hasResolverTotalQueryTime"
+- "hasResponsePreparationTime"
+- "hasSagePnR"
+- "hasSagePnRMetadata"
+- "hasSessionId"
+- "hasStartTimestamp"
+- "hasStartTimestampEventName"
+- "hasStartToActionResolverRequestTime"
+- "hasStartToContextRetrievedTime"
+- "hasStartToEntitySpanMatchedTime"
+- "hasStartToLastQueryDecorationEventTime"
+- "hasStartToLastResolverEventTime"
+- "hasStartToPlanCreatedTime"
+- "hasStartToToolsRetrievedTime"
+- "hasUnderUnderlyingError"
+- "hasUnderlyingError"
+- "i"
+- "i16@0:8"
+- "ifSumExecutorProtocolAcceptActionCancelledTime"
+- "ifSumExecutorProtocolAcceptActionCreatedTime"
+- "ifSumExecutorProtocolAcceptQueriesCreatedTime"
+- "ifSumExecutorProtocolAcceptTypeConversionRequestTime"
+- "ifSumExecutorProtocolAcceptUndoRedoRequestTime"
+- "ifSumFullPlannerServiceGMSCallTime"
+- "ifSumFullPlannerServiceHandleTime"
+- "ifSumFullPlannerServiceSetupTime"
+- "ifSumPlanOverridesServiceHandleTime"
+- "ifSumPlanOverridesServiceSetupTime"
+- "ifSumPlanResolverServiceHandleTime"
+- "ifSumPlanResolverServiceSetupTime"
+- "ifSumQueryDecorationServiceHandleTime"
+- "ifSumQueryDecorationServiceSetupTime"
+- "ifSumResponseGenerationServiceHandleTime"
+- "ifSumResponseGenerationServiceSetupTime"
+- "ifSumStandardPlannerMakePlanTime"
+- "ifSumStandardPlannerRunTime"
+- "ifSumStandardPlannerSetupTime"
+- "initWithDictionary:"
+- "initWithDouble:"
+- "initWithInteger:"
+- "initWithJSON:"
+- "initWithLongLong:"
+- "intValue"
+- "intermediate"
+- "isProvisional"
+- "isValidJSONObject:"
+- "jsonData"
+- "lastQueryDecorationEventToPlanCreatedTime"
+- "lastResolverEventToResponseGeneratedTime"
+- "longLongValue"
+- "map"
+- "metricsValue"
+- "numActionCreated"
+- "numActionResolverRequest"
+- "numActionResolverRequests"
+- "numActionResponseGenerated"
+- "numActionsCreated"
+- "numActionsExecuted"
+- "numClientActionCreated"
+- "numCriticalError"
+- "numCriticalErrors"
+- "numFailed"
+- "numPlanCreated"
+- "numPlanCreatedForResponse"
+- "numPlansCreated"
+- "numQueries"
+- "numQueriesCreated"
+- "numQueriesExecuted"
+- "numQueryPlansCreated"
+- "numRequest"
+- "numResponseGenerationRequest"
+- "numResponsePlansCreated"
+- "numStatementEvaluated"
+- "numStatementEvaluatedFromPlanner"
+- "numStatementEvaulated"
+- "numSystemPromptResolved"
+- "numSystemResponseGenerated"
+- "numberWithDouble:"
+- "numberWithInt:"
+- "numberWithLongLong:"
+- "objectAtIndexedSubscript:"
+- "objectForKeyedSubscript:"
+- "planCreatedToActionResolverRequestTime"
+- "planCreatedToLastResolverEventTime"
+- "planCreatedToResolutionTime"
+- "planCreatedToResolverRequestTime"
+- "planId"
+- "planIdAtIndex:"
+- "planIdCount"
+- "planIds"
+- "plannerGrainDimensions"
+- "plannerGrainMetricsDimension"
+- "plannerGrainStage"
+- "plannerResponseTime"
+- "planningStep"
+- "planningTime"
+- "planningTime_count"
+- "q"
+- "q16@0:8"
+- "qualifiedMessageName"
+- "queryTime"
+- "readFrom:"
+- "removeAllObjects"
+- "requestAction"
+- "requestDisambiguation"
+- "requestGrainDimensions"
+- "requestGrainMetricsDimension"
+- "requestResponseTime"
+- "requestResponseTime_count"
+- "requestStatus"
+- "resolutionToResponseGeneratedTime"
+- "resolverFirstSystemPromptToResolutionTime"
+- "resolverRequestToResolutionTime"
+- "resolverTotalClientActionTime"
+- "resolverTotalQueryTime"
+- "responsePreparationTime"
+- "responsePreparationTime_count"
+- "sagePnR"
+- "sagePnRMetadata"
+- "setActionIds:"
+- "setActionResolverRequestToLastResolverEventTime:"
+- "setBundleIds:"
+- "setClientId:"
+- "setClientRequestId:"
+- "setClientSessionId:"
+- "setEndTimestamp:"
+- "setEndTimestampEventName:"
+- "setErrorCode:"
+- "setErrorDomain:"
+- "setExecutionTime:"
+- "setFailureInfo:"
+- "setFailureSubType:"
+- "setFailureType:"
+- "setFullQueryResponseTime:"
+- "setHasActionResolverRequestToLastResolverEventTime:"
+- "setHasClientId:"
+- "setHasClientRequestId:"
+- "setHasClientSessionId:"
+- "setHasEndTimestamp:"
+- "setHasEndTimestampEventName:"
+- "setHasError:"
+- "setHasErrorCode:"
+- "setHasErrorDomain:"
+- "setHasExecutionTime:"
+- "setHasFailureInfo:"
+- "setHasFailureSubType:"
+- "setHasFailureType:"
+- "setHasFullQueryResponseTime:"
+- "setHasLastQueryDecorationEventToPlanCreatedTime:"
+- "setHasLastResolverEventToResponseGeneratedTime:"
+- "setHasMetricsValue:"
+- "setHasNumActionResolverRequests:"
+- "setHasNumActionResponseGenerated:"
+- "setHasNumActionsCreated:"
+- "setHasNumActionsExecuted:"
+- "setHasNumClientActionCreated:"
+- "setHasNumCriticalErrors:"
+- "setHasNumPlansCreated:"
+- "setHasNumQueries:"
+- "setHasNumQueriesCreated:"
+- "setHasNumQueriesExecuted:"
+- "setHasNumQueryPlansCreated:"
+- "setHasNumResponsePlansCreated:"
+- "setHasNumStatementEvaluatedFromPlanner:"
+- "setHasNumSystemPromptResolved:"
+- "setHasPlanCreatedToActionResolverRequestTime:"
+- "setHasPlanCreatedToLastResolverEventTime:"
+- "setHasPlanCreatedToResolutionTime:"
+- "setHasPlanCreatedToResolverRequestTime:"
+- "setHasPlannerGrainMetricsDimension:"
+- "setHasPlannerGrainStage:"
+- "setHasPlannerResponseTime:"
+- "setHasPlanningStep:"
+- "setHasPlanningTime:"
+- "setHasRawSessionId:"
+- "setHasRequestGrainMetricsDimension:"
+- "setHasRequestStatus:"
+- "setHasResolutionToResponseGeneratedTime:"
+- "setHasResolverFirstSystemPromptToResolutionTime:"
+- "setHasResolverRequestToResolutionTime:"
+- "setHasResolverTotalClientActionTime:"
+- "setHasResolverTotalQueryTime:"
+- "setHasResponsePreparationTime:"
+- "setHasSagePnR:"
+- "setHasSagePnRMetadata:"
+- "setHasSessionId:"
+- "setHasStartTimestamp:"
+- "setHasStartTimestampEventName:"
+- "setHasStartToActionResolverRequestTime:"
+- "setHasStartToContextRetrievedTime:"
+- "setHasStartToEntitySpanMatchedTime:"
+- "setHasStartToLastQueryDecorationEventTime:"
+- "setHasStartToLastResolverEventTime:"
+- "setHasStartToPlanCreatedTime:"
+- "setHasStartToToolsRetrievedTime:"
+- "setHasUnderUnderlyingError:"
+- "setHasUnderlyingError:"
+- "setLastQueryDecorationEventToPlanCreatedTime:"
+- "setLastResolverEventToResponseGeneratedTime:"
+- "setMetricsValue:"
+- "setNumActionResolverRequests:"
+- "setNumActionResponseGenerated:"
+- "setNumActionsCreated:"
+- "setNumActionsExecuted:"
+- "setNumClientActionCreated:"
+- "setNumCriticalErrors:"
+- "setNumPlansCreated:"
+- "setNumQueries:"
+- "setNumQueriesCreated:"
+- "setNumQueriesExecuted:"
+- "setNumQueryPlansCreated:"
+- "setNumResponsePlansCreated:"
+- "setNumStatementEvaluatedFromPlanner:"
+- "setNumSystemPromptResolved:"
+- "setObject:forKeyedSubscript:"
+- "setPlanCreatedToActionResolverRequestTime:"
+- "setPlanCreatedToLastResolverEventTime:"
+- "setPlanCreatedToResolutionTime:"
+- "setPlanCreatedToResolverRequestTime:"
+- "setPlanIds:"
+- "setPlannerGrainMetricsDimension:"
+- "setPlannerGrainStage:"
+- "setPlannerResponseTime:"
+- "setPlanningStep:"
+- "setPlanningTime:"
+- "setRawSessionId:"
+- "setRequestGrainMetricsDimension:"
+- "setRequestStatus:"
+- "setResolutionToResponseGeneratedTime:"
+- "setResolverFirstSystemPromptToResolutionTime:"
+- "setResolverRequestToResolutionTime:"
+- "setResolverTotalClientActionTime:"
+- "setResolverTotalQueryTime:"
+- "setResponsePreparationTime:"
+- "setSagePnR:"
+- "setSagePnRMetadata:"
+- "setSessionId:"
+- "setStartTimestamp:"
+- "setStartTimestampEventName:"
+- "setStartToActionResolverRequestTime:"
+- "setStartToContextRetrievedTime:"
+- "setStartToEntitySpanMatchedTime:"
+- "setStartToLastQueryDecorationEventTime:"
+- "setStartToLastResolverEventTime:"
+- "setStartToPlanCreatedTime:"
+- "setStartToToolsRetrievedTime:"
+- "setUnderUnderlyingError:"
+- "setUnderlyingError:"
+- "sharedStream"
+- "spanIds"
+- "spanIntervals"
+- "spanfailureInfo"
+- "startTimestamp"
+- "startTimestampEventName"
+- "startToActionResolverRequestTime"
+- "startToContextRetrievedTime"
+- "startToEntitySpanMatchedTime"
+- "startToLastQueryDecorationEventTime"
+- "startToLastResolverEventTime"
+- "startToPlanCreatedTime"
+- "startToToolsRetrievedTime"
+- "systemPromptResolvedAction"
+- "targetEventTypes"
+- "targetWithFailure: "
+- "targetsAdded"
+- "toolBundleId"
+- "toolIdAtIndex:"
+- "toolIdCount"
+- "transcriptIFError"
+- "underUnderlyingError"
+- "underlyingError"
+- "uploadProvisionalPnRLatency failed due to createSELFEvent is nil."
+- "v16@0:8"
+- "v20@0:8B16"
+- "v20@0:8i16"
+- "v24@0:8@16"
+- "v24@0:8d16"
+- "v24@0:8q16"
+- "whichEventtype"
+- "willProduceDictionaryRepresentation:"
+- "writeTo:"
+- "{?=\"errorCode\"b1}"
+- "{?=\"metricsValue\"b1\"startTimestamp\"b1\"endTimestamp\"b1}"
+- "{?=\"numQueries\"b1\"numPlansCreated\"b1\"numQueryPlansCreated\"b1\"numResponsePlansCreated\"b1\"numActionsCreated\"b1\"numActionsExecuted\"b1\"numActionResponseGenerated\"b1}"
+- "{?=\"numQueriesCreated\"b1\"numQueriesExecuted\"b1\"numClientActionCreated\"b1\"numSystemPromptResolved\"b1\"numPlansCreated\"b1\"numActionResolverRequests\"b1\"numStatementEvaluatedFromPlanner\"b1\"numCriticalErrors\"b1}"
+
+```

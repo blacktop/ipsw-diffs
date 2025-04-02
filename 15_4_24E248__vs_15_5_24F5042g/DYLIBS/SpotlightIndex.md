@@ -1,0 +1,3357 @@
+## SpotlightIndex
+
+> `/System/Library/PrivateFrameworks/SpotlightIndex.framework/Versions/A/SpotlightIndex`
+
+```diff
+
+-2333.22.13.7.0
+-  __TEXT.__text: 0x4541e8
+-  __TEXT.__auth_stubs: 0x37f0
++2333.41.1.3.0
++  __TEXT.__text: 0x45e560
++  __TEXT.__auth_stubs: 0x3800
+   __TEXT.__objc_methlist: 0x20
+-  __TEXT.__const: 0xa2ca
+-  __TEXT.__cstring: 0x2ddb2
+-  __TEXT.__gcc_except_tab: 0x398c
+-  __TEXT.__oslogstring: 0x1fc79
++  __TEXT.__const: 0xa3df
++  __TEXT.__cstring: 0x2f240
++  __TEXT.__gcc_except_tab: 0x3e60
++  __TEXT.__oslogstring: 0x2047d
+   __TEXT.__ustring: 0x1e4
+   __TEXT.__dlopen_cstrs: 0x150
+   __TEXT.__dof_mds: 0x29b
+-  __TEXT.__unwind_info: 0x5850
++  __TEXT.__unwind_info: 0x5a68
+   __TEXT.__eh_frame: 0xf0
+   __TEXT.__objc_classname: 0x28
+-  __TEXT.__objc_methname: 0x640
++  __TEXT.__objc_methname: 0x678
+   __TEXT.__objc_methtype: 0x34
+-  __TEXT.__objc_stubs: 0x9e0
++  __TEXT.__objc_stubs: 0xa40
+   __DATA_CONST.__got: 0x508
+-  __DATA_CONST.__const: 0x6b88
++  __DATA_CONST.__const: 0x6d90
+   __DATA_CONST.__objc_classlist: 0x10
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x288
++  __DATA_CONST.__objc_selrefs: 0x2a0
+   __DATA_CONST.__objc_superrefs: 0x8
+   __DATA_CONST.__objc_arraydata: 0x100
+-  __AUTH_CONST.__auth_got: 0x1c08
++  __AUTH_CONST.__auth_got: 0x1c10
+   __AUTH_CONST.__auth_ptr: 0x28
+-  __AUTH_CONST.__const: 0xb7b8
+-  __AUTH_CONST.__cfstring: 0xe8c0
++  __AUTH_CONST.__const: 0xb8d8
++  __AUTH_CONST.__cfstring: 0xebe0
+   __AUTH_CONST.__objc_const: 0x1c8
+   __AUTH_CONST.__objc_doubleobj: 0xd0
+   __AUTH_CONST.__objc_dictobj: 0x50
+   __AUTH_CONST.__objc_intobj: 0x90
+   __AUTH.__objc_data: 0x50
+-  __AUTH.__data: 0x118
++  __AUTH.__data: 0x150
+   __DATA.__objc_ivar: 0x14
+   __DATA.__data: 0x1170
+-  __DATA.__bss: 0x106d98
++  __DATA.__bss: 0x107038
+   __DATA_DIRTY.__objc_data: 0x50
+   __DATA_DIRTY.__data: 0x16d0
+-  __DATA_DIRTY.__bss: 0x18840
++  __DATA_DIRTY.__bss: 0x18830
+   __DATA_DIRTY.__common: 0x24008
+   - /System/Library/Frameworks/Accelerate.framework/Versions/A/Accelerate
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+
+   - /usr/lib/libicucore.A.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libz.1.dylib
+-  Functions: 7013
+-  Symbols:   11506
+-  CStrings:  9280
++  Functions: 7103
++  Symbols:   11714
++  CStrings:  9507
+ 
+Symbols:
++ FlatStorePageEntryWrite2.4761
++ GCC_except_table1
++ GCC_except_table10
++ GCC_except_table19
++ GCC_except_table219
++ GCC_except_table2267
++ GCC_except_table2268
++ GCC_except_table2269
++ GCC_except_table2270
++ GCC_except_table2271
++ GCC_except_table2272
++ GCC_except_table2273
++ GCC_except_table2275
++ GCC_except_table2280
++ GCC_except_table2281
++ GCC_except_table2282
++ GCC_except_table2283
++ GCC_except_table2284
++ GCC_except_table2285
++ GCC_except_table2286
++ GCC_except_table2289
++ GCC_except_table2290
++ GCC_except_table2291
++ GCC_except_table2295
++ GCC_except_table2296
++ GCC_except_table23
++ GCC_except_table24
++ GCC_except_table3058
++ GCC_except_table3150
++ GCC_except_table3152
++ GCC_except_table3154
++ GCC_except_table3156
++ GCC_except_table3158
++ GCC_except_table3161
++ GCC_except_table3170
++ GCC_except_table3172
++ GCC_except_table3181
++ GCC_except_table3182
++ GCC_except_table3184
++ GCC_except_table3186
++ GCC_except_table3200
++ GCC_except_table3212
++ GCC_except_table3213
++ GCC_except_table3214
++ GCC_except_table3215
++ GCC_except_table3216
++ GCC_except_table3217
++ GCC_except_table3218
++ GCC_except_table3219
++ GCC_except_table3220
++ GCC_except_table3221
++ GCC_except_table3222
++ GCC_except_table3223
++ GCC_except_table3224
++ GCC_except_table3230
++ GCC_except_table3239
++ GCC_except_table3240
++ GCC_except_table3241
++ GCC_except_table3242
++ GCC_except_table3243
++ GCC_except_table3244
++ GCC_except_table3252
++ GCC_except_table3253
++ GCC_except_table3254
++ GCC_except_table3255
++ GCC_except_table3256
++ GCC_except_table3271
++ GCC_except_table3272
++ GCC_except_table3273
++ GCC_except_table3274
++ GCC_except_table3275
++ GCC_except_table3276
++ GCC_except_table3336
++ GCC_except_table3339
++ GCC_except_table3342
++ GCC_except_table3424
++ GCC_except_table3425
++ GCC_except_table3427
++ GCC_except_table3433
++ GCC_except_table3437
++ GCC_except_table3440
++ GCC_except_table3441
++ GCC_except_table3442
++ GCC_except_table3444
++ GCC_except_table3446
++ GCC_except_table3447
++ GCC_except_table3450
++ GCC_except_table3451
++ GCC_except_table3452
++ GCC_except_table3453
++ GCC_except_table3454
++ GCC_except_table3457
++ GCC_except_table3458
++ GCC_except_table3459
++ GCC_except_table3460
++ GCC_except_table3461
++ GCC_except_table3462
++ GCC_except_table3463
++ GCC_except_table3464
++ GCC_except_table3469
++ GCC_except_table3474
++ GCC_except_table3475
++ GCC_except_table3476
++ GCC_except_table3477
++ GCC_except_table3478
++ GCC_except_table3479
++ GCC_except_table3480
++ GCC_except_table3481
++ GCC_except_table3482
++ GCC_except_table3483
++ GCC_except_table3484
++ GCC_except_table3485
++ GCC_except_table3486
++ GCC_except_table3488
++ GCC_except_table3502
++ GCC_except_table3504
++ GCC_except_table3506
++ GCC_except_table3516
++ GCC_except_table3529
++ GCC_except_table3533
++ GCC_except_table3545
++ GCC_except_table3546
++ GCC_except_table36
++ GCC_except_table423
++ GCC_except_table426
++ GCC_except_table438
++ GCC_except_table441
++ GCC_except_table442
++ GCC_except_table443
++ GCC_except_table444
++ GCC_except_table445
++ GCC_except_table447
++ GCC_except_table4549
++ GCC_except_table4553
++ GCC_except_table4559
++ GCC_except_table4564
++ GCC_except_table4565
++ GCC_except_table4580
++ GCC_except_table4581
++ GCC_except_table4583
++ GCC_except_table48
++ GCC_except_table481
++ GCC_except_table483
++ GCC_except_table484
++ GCC_except_table49
++ GCC_except_table490
++ GCC_except_table491
++ GCC_except_table492
++ GCC_except_table50
++ GCC_except_table5067
++ GCC_except_table5070
++ GCC_except_table51
++ GCC_except_table547
++ GCC_except_table549
++ GCC_except_table550
++ GCC_except_table551
++ GCC_except_table552
++ GCC_except_table553
++ GCC_except_table554
++ GCC_except_table555
++ GCC_except_table556
++ GCC_except_table557
++ GCC_except_table558
++ GCC_except_table559
++ GCC_except_table5649
++ GCC_except_table565
++ GCC_except_table5651
++ GCC_except_table576
++ GCC_except_table578
++ GCC_except_table595
++ GCC_except_table598
++ GCC_except_table599
++ GCC_except_table6
++ GCC_except_table604
++ GCC_except_table608
++ GCC_except_table6098
++ GCC_except_table6099
++ GCC_except_table610
++ GCC_except_table6100
++ GCC_except_table611
++ GCC_except_table612
++ GCC_except_table615
++ GCC_except_table620
++ GCC_except_table621
++ GCC_except_table622
++ GCC_except_table6385
++ GCC_except_table6386
++ GCC_except_table6387
++ GCC_except_table6388
++ GCC_except_table6390
++ GCC_except_table6391
++ MurmurHash3_x86_32.10288
++ SI_PersistentIDStore_shadowing_TEMPLATE.17266
++ _PayloadWriteData.5496
++ _QUPP_ARG_APP_CONTAINS_TYPE_DOCUMENT_FOLDER
++ _QUPP_ARG_APP_CONTAINS_TYPE_GENERIC_FOLDER
++ _QUPP_ARG_APP_ENTITY_TYPE_DOCUMENT_FOLDER
++ _QUPP_ARG_APP_ENTITY_TYPE_GENERIC_FOLDER
++ _QUPP_ARG_APP_ENTITY_TYPE_GROUP_TAB
++ _QUPP_ARG_APP_ENTITY_TYPE_TAB
++ _QUPP_ARG_APP_SOURCE_TYPE_DOCUMENT_FOLDER
++ _QUPP_ARG_APP_SOURCE_TYPE_GENERIC_FOLDER
++ _QUPP_ARG_INFERRED_APP_ENTITY_TYPE_DOCUMENT_FOLDER
++ _QUPP_ARG_INFERRED_APP_ENTITY_TYPE_GENERIC_FOLDER
++ _QUPP_ARG_INFERRED_APP_ENTITY_TYPE_GROUP_TAB
++ _QUPP_ARG_INFERRED_APP_ENTITY_TYPE_TAB
++ _ZGVZL12MetadataKeysvE13_metadataKeys.966
++ _ZGVZL17GenericFilterKeysvE18_genericFilterKeys.982
++ _ZGVZL18PhRetrievalAttribsvE17_retrievalAttribs.785
++ _ZGVZL25GenericFilterTopLevelKeysvE26_genericFilterTopLevelKeys.976
++ _ZGVZL26PhExactMatchRankingAttribsvE27_phExactMatchRankingAttribs.865
++ _ZL11MAX_OIDINFO.7737
++ _ZL11defaultList.594
++ _ZL11defaultList.8105
++ _ZL12ZERO_OIDINFO.7736
++ _ZL13PhAttribNodesPKcRKNSt3__113unordered_setINS1_12basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEENS1_4hashIS8_EENS1_8equal_toIS8_EENS6_IS8_EEEEbb.826
++ _ZL13v2_readVInt64PKhPm.3763
++ _ZL13v2_readVInt64RPKhRmRy.5424
++ _ZL14ZERO_FETCHINFO.7708
++ _ZL14defaultNFSList.8081
++ _ZL14v2_writeVInt64Phmy.3756
++ _ZL14v2_writeVInt64RPhy.5423
++ _ZL16__message_assertPKcz.1007
++ _ZL16__message_assertPKcz.13386
++ _ZL16__message_assertPKcz.16568
++ _ZL16__message_assertPKcz.17311
++ _ZL16__message_assertPKcz.3646
++ _ZL16__message_assertPKcz.3734
++ _ZL16__message_assertPKcz.586
++ _ZL16__message_assertPKcz.612
++ _ZL16__message_assertPKcz.7368
++ _ZL16__message_assertPKcz.7427
++ _ZL16__message_assertPKcz.7601
++ _ZL16__message_assertPKcz.8120
++ _ZL17ZERO_RANKING_BITS.8123
++ _ZL18PhRankingBoostTreev.744
++ _ZL18PhRetrievalAttribsv.750
++ _ZL18QueryParserLibraryv.14435
++ _ZL18QueryParserLibraryv.2288
++ _ZL18QueryParserLibraryv.2714
++ _ZL18isGenericFilterKeyRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE.970
++ _ZL20PhRankingTreeFromStrPKcfPi.735
++ _ZL22__si_assert_copy_extraP6fd_obji.1003
++ _ZL22__si_assert_copy_extraP6fd_obji.13382
++ _ZL22__si_assert_copy_extraP6fd_obji.16564
++ _ZL22__si_assert_copy_extraP6fd_obji.3642
++ _ZL22__si_assert_copy_extraP6fd_obji.3729
++ _ZL22__si_assert_copy_extraP6fd_obji.582
++ _ZL22__si_assert_copy_extraP6fd_obji.608
++ _ZL22__si_assert_copy_extraP6fd_obji.7364
++ _ZL22__si_assert_copy_extraP6fd_obji.7423
++ _ZL22__si_assert_copy_extraP6fd_obji.7596
++ _ZL22__si_assert_copy_extraP6fd_obji.8116
++ _ZL22getkQPQUOutputTokenKeyv.14394
++ _ZL23audit_stringQueryParser.14448
++ _ZL23audit_stringQueryParser.2300
++ _ZL23audit_stringQueryParser.2726
++ _ZL23store_stream_read_bytesP14store_stream_tPhm.3764
++ _ZL24store_stream_write_bytesP14store_stream_tPKhm.3755
++ _ZL26PhExactMatchRankingAttribsv.731
++ _ZL26PhImpAttributesRankingNodePKc.743
++ _ZL26getkQPQUOutputTokenInfoKeyv.2751
++ _ZL26isGenericFilterTopLevelKeyRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE.972
++ _ZL27_containsOnlyCharsInCharsetP8NSStringP14NSCharacterSet.738
++ _ZL27getkQPQUOutputTokenRangeKeyv.14391
++ _ZL27getkQPQUOutputTokenRangeKeyv.2730
++ _ZL28getkQPQUOutputTokenArgIdsKeyv.14392
++ _ZL28getkQPQUOutputTokenArgIdsKeyv.2325
++ _ZL28getkQPQUOutputTokenArgIdsKeyv.2731
++ _ZL31getkQPQUOutputTokenArgScoresKeyv.14393
++ _ZL31getkQPQUOutputTokenArgScoresKeyv.2732
++ _ZL32PhImpAttributesPrefixRankingNodePKc.742
++ _ZL6sTotal.10299
++ _ZL6sTotal.10618
++ _ZL6sTotal.13455
++ _ZL6sTotal.308
++ _ZL6sTotal.446
++ _ZL6sTotal.6801
++ _ZL6sTotal.7104
++ _ZL6sTotal.7356
++ _ZL6sTotal.7415
++ _ZL6sTotal.7602
++ _ZL6sTotal.780
++ _ZL6sTotal.8104
++ _ZL6sTotal.8346
++ _ZZL11CurrentYearvE8currYear.849
++ _ZZL11CurrentYearvE9onceToken.848
++ _ZZL12MetadataKeysvE13_metadataKeys.967
++ _ZZL12MetadataKeysvE9onceToken.968
++ _ZZL14PhThreeYearAgovE7oldYear.851
++ _ZZL14PhThreeYearAgovE9onceToken.850
++ _ZZL17GenericFilterKeysvE18_genericFilterKeys.983
++ _ZZL17GenericFilterKeysvE9onceToken.984
++ _ZZL18PhRetrievalAttribsvE17_retrievalAttribs.751
++ _ZZL18PhRetrievalAttribsvE9onceToken.786
++ _ZZL22QueryParserLibraryCorePPcE16frameworkLibrary.0.14444
++ _ZZL22QueryParserLibraryCorePPcE16frameworkLibrary.0.2296
++ _ZZL22QueryParserLibraryCorePPcE16frameworkLibrary.0.2722
++ _ZZL25GenericFilterTopLevelKeysvE26_genericFilterTopLevelKeys.977
++ _ZZL25GenericFilterTopLevelKeysvE9onceToken.978
++ _ZZL26PhExactMatchRankingAttribsvE27_phExactMatchRankingAttribs.732
++ _ZZL26PhExactMatchRankingAttribsvE9onceToken.866
++ _ZZL28NanoSecondsSinceAbsoluteTimeyE13sTimebaseInfo.746
++ _ZZL28NanoSecondsSinceAbsoluteTimeyE9onceToken.745
++ _ZZL31getkQPQUOutputTokenKeySymbolLocvE3ptr.0.14433
++ _ZZL31getkQPQUOutputTokenKeySymbolLocvE3ptr.0.2311
++ _ZZL31getkQPQUOutputTokenKeySymbolLocvE3ptr.0.2733
++ _ZZL35getkQPQUOutputTokenInfoKeySymbolLocvE3ptr.0.2752
++ _ZZL36getkQPParseAttributeDateKeySymbolLocvE3ptr.0.2878
++ _ZZL36getkQPQUOutputTokenRangeKeySymbolLocvE3ptr.0.14458
++ _ZZL36getkQPQUOutputTokenRangeKeySymbolLocvE3ptr.0.2334
++ _ZZL36getkQPQUOutputTokenRangeKeySymbolLocvE3ptr.0.2745
++ _ZZL37getkQPParseAttributeMediaKeySymbolLocvE3ptr.0.2857
++ _ZZL37getkQPQUOutputTokenArgIdsKeySymbolLocvE3ptr.0.14454
++ _ZZL37getkQPQUOutputTokenArgIdsKeySymbolLocvE3ptr.0.2326
++ _ZZL37getkQPQUOutputTokenArgIdsKeySymbolLocvE3ptr.0.2741
++ _ZZL38getkQPParseAttributeSenderKeySymbolLocvE3ptr.0.2865
++ _ZZL38getkQPParseAttributeUnreadKeySymbolLocvE3ptr.0.2845
++ _ZZL39getkQPParseAttributeKindTabKeySymbolLocvE3ptr.0
++ _ZZL40getkQPQUOutputTokenArgScoresKeySymbolLocvE3ptr.0.14450
++ _ZZL40getkQPQUOutputTokenArgScoresKeySymbolLocvE3ptr.0.2737
++ _ZZL41getkQPParseAttributeDueActionKeySymbolLocvE3ptr.0.2784
++ _ZZL41getkQPParseAttributeRecipientKeySymbolLocvE3ptr.0.2861
++ _ZZL42getkQPParseAttributeAttachmentKeySymbolLocvE3ptr.0.2851
++ _ZZL42getkQPParseAttributeJunkActionKeySymbolLocvE3ptr.0.2776
++ _ZZL43getkQPParseAttributeDescriptionKeySymbolLocvE3ptr.0.2772
++ _ZZL43getkQPParseAttributeDraftActionKeySymbolLocvE3ptr.0.2780
++ _ZZL43getkQPParseAttributeHotelActionKeySymbolLocvE3ptr.0.2808
++ _ZZL44getkQPParseAttributeFlightActionKeySymbolLocvE3ptr.0.2821
++ _ZZL44getkQPParseAttributeKindGroupTabKeySymbolLocvE3ptr.0
++ _ZZL44getkQPParseAttributeLatestActionKeySymbolLocvE3ptr.0.2792
++ _ZZL44getkQPParseAttributeTaggedPersonKeySymbolLocvE3ptr.0.2874
++ _ZZL44getkQPQueryParserOptionU2EnabledKeySymbolLocvE3ptr.0
++ _ZZL45getkQPParseAttributeArchiveActionKeySymbolLocvE3ptr.0.2768
++ _ZZL45getkQPParseAttributePrintedActionKeySymbolLocvE3ptr.0.2827
++ _ZZL45getkQPQUOutputTokenIsRelativeTimeKeySymbolLocvE3ptr.0
++ _ZZL46getkQPParseAttributeEarliestActionKeySymbolLocvE3ptr.0.2796
++ _ZZL46getkQPParseAttributeGroundedPersonKeySymbolLocvE3ptr.0.2869
++ _ZZL46getkQPQueryParserOptionUseLLMParseKeySymbolLocvE3ptr.0
++ _ZZL47getkQPParseAttributeCompletedActionKeySymbolLocvE3ptr.0.2788
++ _ZZL48getkQPParseAttributeRestaurantActionKeySymbolLocvE3ptr.0.2802
++ _ZZL49getkQPParseAttributeKindGenericFolderKeySymbolLocvE3ptr.0
++ _ZZL50getkQPParseAttributeKindDocumentFolderKeySymbolLocvE3ptr.0
++ _ZZL53getkQPParseAttributeFlightArrivalLocationKeySymbolLocvE3ptr.0.2812
++ _ZZL55getkQPParseAttributeFlightDepartureLocationKeySymbolLocvE3ptr.0.2816
++ _ZZL55getkQPParseAttributeSourceTypeGenericFolderKeySymbolLocvE3ptr.0
++ _ZZL56getkQPParseAttributeSourceTypeDocumentFolderKeySymbolLocvE3ptr.0
++ _ZZL57getkQPParseAttributeContainsTypeGenericFolderKeySymbolLocvE3ptr.0
++ _ZZL58getkQPParseAttributeContainsTypeDocumentFolderKeySymbolLocvE3ptr.0
++ __Block_byref_object_copy_.13336
++ __Block_byref_object_copy_.2344
++ __Block_byref_object_copy_.2766
++ __Block_byref_object_copy_.6679
++ __Block_byref_object_copy_.7480
++ __Block_byref_object_dispose_.13337
++ __Block_byref_object_dispose_.2345
++ __Block_byref_object_dispose_.2767
++ __Block_byref_object_dispose_.6680
++ __Block_byref_object_dispose_.7481
++ __InnerMerge_block_invoke.987
++ __SICreateNewIndex_block_invoke.391
++ __SIGetMeAliasName
++ __SIInitIndex_block_invoke.1540
++ __SIInitIndex_block_invoke.1554
++ __SIInitIndex_block_invoke.1561
++ __SISetDerivedFromToIsMeAliasAdded
++ __SISetDerivedFromToIsMeAliasUpdated
++ __SISetDerivedFromToIsMeNameAdded
++ __SISetDerivedFromToIsMeNameUpdated
++ __SISetMeNames
++ __Z11joinVectorsRKNSt3__16vectorINS0_INS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEEENS4_IS8_EEEEb
++ __Z12redactStringP8NSStringb
++ __Z18isLLMLocationArgIdi
++ __Z20isOptionalSearchTermiRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEPK9__CFArraylbbb
++ __Z21isLLMPhotosEventArgIdi
++ __Z23getRawTextFromTokenInfoPK14__CFDictionary
++ __Z25isLLMRetrievalFilterArgIdi
++ __Z26groundedNamesRetrievalNodePK14__CFDictionaryxRKNSt3__113unordered_mapINS2_12basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEEfNS2_4hashIS9_EENS2_8equal_toIS9_EENS7_INS2_4pairIKS9_fEEEEEEP8NSStringP9PRContext
++ __Z32generateBundleSpecificFilterNodeP9PRContextiP8NSStringS2_b
++ __Z33getIsRelativeTimeArgFromTokenInfoPK14__CFDictionary
++ __Z42isBundleSpecificFilterAppEntityStatusArgIdi
++ __ZGVZL17llmLocationArgIdsvE15_locationArgIds
++ __ZGVZL20llmPhotosEventArgIdsvE18_photosEventArgIds
++ __ZGVZL23PhCommonPeopleNameAliasvE16_peopleNameAlias
++ __ZGVZL37llmSearchTermCalendarOneOnOneToRemovevE35_searchTermCalendarOneOnOneToRemove
++ __ZGVZL43ImageAndVideoFilesInMacIndexAttributeScoresvE44_imageAndVideoFilesInMacIndexAttributeScores
++ __ZGVZL44llmBundleSpecificFilterAppEntityStatusArgIdsvE42_bundleSpecificFilterAppEntityStatusArgIds
++ __ZGVZL46llmSparseRetrievalBundleSpecificFilterArgIdMapvE38_retrievalBundleSpecificFilterArgIdMap
++ __ZL10tokenStatePK10__CFStringPK16__CFCharacterSetS4_PbS5_
++ __ZL12sEmptyString
++ __ZL15peopleNameAliasRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE
++ __ZL18_rangeIntersection8_NSRangeP7NSArrayIP7NSValueE
++ __ZL22llmSparseRetrievalTreePK14__CFDictionaryP9PRContextP12PRLLMContext
++ __ZL26PhPopulateFiltersFromQueryPK20__CFAttributedStringPP10query_nodeS4_P14NSMutableArrayIP7NSValueES9_bP8NSStringb
++ __ZL30getkQPParseAttributeKindTabKeyv
++ __ZL34isOptionalSearchTermSuffixToRemoveiRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEPK9__CFArraylRKNS_13unordered_setIS5_NS_4hashIS5_EENS_8equal_toIS5_EENS3_IS5_EEEE
++ __ZL35getkQPParseAttributeKindGroupTabKeyv
++ __ZL36extractSynonymUnalignedMatchingFieldP20SISearchCtx_METADATAP14datastore_infoP6db_objPKjS6_S6_S6_S6_S6_P19PartialQueryResultsPP10query_nodelP14__MDPlistBytes
++ __ZL37isQueryNodePhotosSceneTypedIdentifierP10query_node
++ __ZL40getkQPParseAttributeKindGenericFolderKeyv
++ __ZL41getkQPParseAttributeKindDocumentFolderKeyv
++ __ZN14PhLLMTokenInfoD1Ev
++ __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES8_EEPvEENS_22__hash_node_destructorINS6_ISB_EEEEE5resetB8nn190102EPSB_
++ __ZNSt3__112__destroy_atB8nn190102INS_4pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_EELi0EEEvPT_
++ __ZNSt3__112__hash_tableINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_4hashIS6_EENS_8equal_toIS6_EENS4_IS6_EEEC2EOSC_
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_EENS_22__unordered_map_hasherIS7_S8_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_S8_SD_SB_Lb1EEENS5_IS8_EEE8__rehashILb1EEEvm
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIfiEENS_22__unordered_map_hasherIfS2_NS_4hashIfEENS_8equal_toIfEELb1EEENS_21__unordered_map_equalIfS2_S7_S5_Lb1EEENS_9allocatorIS2_EEED2Ev
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIiNS_13unordered_setINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_4hashIS8_EENS_8equal_toIS8_EENS6_IS8_EEEEEENS_22__unordered_map_hasherIiSF_NS9_IiEENSB_IiEELb1EEENS_21__unordered_map_equalIiSF_SI_SH_Lb1EEENS6_ISF_EEE25__emplace_unique_key_argsIiJRKNS_21piecewise_construct_tENS_5tupleIJOiEEENSS_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeISF_PvEEEEbEERKT_DpOT0_
++ __ZNSt3__113unordered_setINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_4hashIS6_EENS_8equal_toIS6_EENS4_IS6_EEEC2ERKSC_
++ __ZNSt3__114__split_bufferINS_6vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS5_IS7_EEEERNS5_IS9_EEED2Ev
++ __ZNSt3__119__allocate_at_leastB8nn190102INS_9allocatorINS_6vectorINS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEENS1_IS7_EEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSD_m
++ __ZNSt3__14pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES6_EC2B8nn190102IRA4_KcRA10_SA_Li0EEEOT_OT0_
++ __ZNSt3__14pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES6_EC2B8nn190102IRA4_KcRA7_SA_Li0EEEOT_OT0_
++ __ZNSt3__14pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES6_EC2B8nn190102IRA4_KcRA9_SA_Li0EEEOT_OT0_
++ __ZNSt3__14pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES6_EC2B8nn190102IRA5_KcRA10_SA_Li0EEEOT_OT0_
++ __ZNSt3__14pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES6_EC2B8nn190102IRA5_KcRA7_SA_Li0EEEOT_OT0_
++ __ZNSt3__14pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES6_EC2B8nn190102IRA5_KcRA8_SA_Li0EEEOT_OT0_
++ __ZNSt3__14pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES6_EC2B8nn190102IRA6_KcRA10_SA_Li0EEEOT_OT0_
++ __ZNSt3__14pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES6_EC2B8nn190102IRA6_KcRA5_SA_Li0EEEOT_OT0_
++ __ZNSt3__14pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES6_EC2B8nn190102IRA6_KcRA7_SA_Li0EEEOT_OT0_
++ __ZNSt3__14pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES6_EC2B8nn190102IRA6_KcRA8_SA_Li0EEEOT_OT0_
++ __ZNSt3__14pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES6_EC2B8nn190102IRA6_KcRA9_SA_Li0EEEOT_OT0_
++ __ZNSt3__14pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES6_EC2B8nn190102IRA6_KcSC_Li0EEEOT_OT0_
++ __ZNSt3__14pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES6_ED1Ev
++ __ZNSt3__16__findB8nn190102INS_21__hash_const_iteratorIPNS_11__hash_nodeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEPvEEEESC_S8_NS_10__identityEEET_SE_T0_RKT1_RT2_
++ __ZNSt3__16vectorI14PhLLMTokenInfoNS_9allocatorIS1_EEE9push_backB8nn190102ERKS1_
++ __ZNSt3__16vectorINS0_INS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEEENS4_IS8_EEE16__destroy_vectorclB8nn190102Ev
++ __ZNSt3__16vectorIiNS_9allocatorIiEEEC2ERKS3_
++ __ZNSt3__19allocatorI14PhLLMTokenInfoE7destroyB8nn190102EPS1_
++ __ZNSt3__19allocatorI14PhLLMTokenInfoE9constructB8nn190102IS1_JRKS1_EEEvPT_DpOT0_
++ __ZNSt3__19allocatorI14PhLLMTokenInfoE9constructB8nn190102IS1_JRS1_EEEvPT_DpOT0_
++ __ZZL17llmLocationArgIdsvE15_locationArgIds
++ __ZZL17llmLocationArgIdsvE9onceToken
++ __ZZL20llmPhotosEventArgIdsvE18_photosEventArgIds
++ __ZZL20llmPhotosEventArgIdsvE9onceToken
++ __ZZL23PhCommonPeopleNameAliasvE16_peopleNameAlias
++ __ZZL23PhCommonPeopleNameAliasvE9onceToken
++ __ZZL37llmSearchTermCalendarOneOnOneToRemovevE35_searchTermCalendarOneOnOneToRemove
++ __ZZL37llmSearchTermCalendarOneOnOneToRemovevE9onceToken
++ __ZZL43ImageAndVideoFilesInMacIndexAttributeScoresvE44_imageAndVideoFilesInMacIndexAttributeScores
++ __ZZL43ImageAndVideoFilesInMacIndexAttributeScoresvE9onceToken
++ __ZZL44llmBundleSpecificFilterAppEntityStatusArgIdsvE42_bundleSpecificFilterAppEntityStatusArgIds
++ __ZZL44llmBundleSpecificFilterAppEntityStatusArgIdsvE9onceToken
++ __ZZL46llmSparseRetrievalBundleSpecificFilterArgIdMapvE38_retrievalBundleSpecificFilterArgIdMap
++ __ZZL46llmSparseRetrievalBundleSpecificFilterArgIdMapvE9onceToken
++ ___SIContinueIssueMerge2_block_invoke.2561
++ ___SIOpenIndexFilesWithState_block_invoke.1206
++ ___SIOpenIndexFilesWithState_block_invoke.1229
++ ___SIOpenIndexFilesWithState_block_invoke.1234
++ ___SIOpenIndexFilesWithState_block_invoke_2.1231
++ ___SIOpenIndexFilesWithState_block_invoke_2.1236
++ ___SIOpenIndex_block_invoke.1111
++ ___SIOpenIndex_block_invoke.1154
++ ___SIOpenIndex_block_invoke.1166
++ ___ZL11CurrentYearv_block_invoke.856
++ ___ZL11emitResultsP20SISearchCtx_METADATAP19PartialQueryResultsb_block_invoke.208
++ ___ZL12MetadataKeysv_block_invoke.991
++ ___ZL12processItemsP14datastore_infommP24si_localized_value_cachePmbU13block_pointerFPv15SI_OBJECT_EVENT15si_event_data_tmS4_ES4_ooPtmPhbjmbP16dispatch_queue_sS4_jP14__MDPlistBytes14ranking_mode_sP16ci_rankingbits_sP17ci_tc_distances_tP21ci_vector_distances_tP19PartialQueryResultsRP20SISearchCtx_METADATAiRbP10ReadData_sPV3$_0P22ci_combobits_wrapped_sP20dispatch_semaphore_s_block_invoke.162
++ ___ZL14PhThreeYearAgov_block_invoke.854
++ ___ZL17GenericFilterKeysv_block_invoke.986
++ ___ZL18PhRetrievalAttribsv_block_invoke.788
++ ___ZL20PhRankingTreeFromStrPKcfPi_block_invoke.864
++ ___ZL22QueryParserLibraryCorePPc_block_invoke.14445
++ ___ZL22QueryParserLibraryCorePPc_block_invoke.2297
++ ___ZL22QueryParserLibraryCorePPc_block_invoke.2723
++ ___ZL25GenericFilterTopLevelKeysv_block_invoke.980
++ ___ZL26PhExactMatchRankingAttribsv_block_invoke.868
++ ___ZL28NanoSecondsSinceAbsoluteTimey_block_invoke.847
++ ___ZL28PhPopulateAllFilterFromParseP18NSAttributedStringP14NSMutableArrayIP8NSStringEPS1_IP7NSValueES9_S9_S9__block_invoke.724
++ ___ZL29PhPopulateDateFilterFromParseP18NSAttributedStringP14NSMutableArrayIP8NSStringEPS1_IP7NSValueE_block_invoke.804
++ ___ZL30PhPopulateSomeFiltersFromParseP18NSAttributedStringP14NSMutableArrayIP8NSStringEPS1_IP7NSValueES5_S9__block_invoke.801
++ ___ZL31getkQPQUOutputTokenKeySymbolLocv_block_invoke.14434
++ ___ZL31getkQPQUOutputTokenKeySymbolLocv_block_invoke.2312
++ ___ZL31getkQPQUOutputTokenKeySymbolLocv_block_invoke.2734
++ ___ZL35extractPersonUnalignedMatchingFieldP20SISearchCtx_METADATAP14datastore_infoP6db_objPKjS6_S6_S6_P19PartialQueryResultsPP10query_nodelP14__MDPlistBytes_block_invoke.183
++ ___ZL35extractPersonUnalignedMatchingFieldP20SISearchCtx_METADATAP14datastore_infoP6db_objPKjS6_S6_S6_P19PartialQueryResultsPP10query_nodelP14__MDPlistBytes_block_invoke.187
++ ___ZL35extractPersonUnalignedMatchingFieldP20SISearchCtx_METADATAP14datastore_infoP6db_objPKjS6_S6_S6_P19PartialQueryResultsPP10query_nodelP14__MDPlistBytes_block_invoke.191
++ ___ZL35getkQPQUOutputTokenInfoKeySymbolLocv_block_invoke.2753
++ ___ZL36extractSynonymUnalignedMatchingFieldP20SISearchCtx_METADATAP14datastore_infoP6db_objPKjS6_S6_S6_S6_S6_P19PartialQueryResultsPP10query_nodelP14__MDPlistBytes_block_invoke.172
++ ___ZL36extractSynonymUnalignedMatchingFieldP20SISearchCtx_METADATAP14datastore_infoP6db_objPKjS6_S6_S6_S6_S6_P19PartialQueryResultsPP10query_nodelP14__MDPlistBytes_block_invoke.176
++ ___ZL36getkQPParseAttributeDateKeySymbolLocv_block_invoke.2879
++ ___ZL36getkQPQUOutputTokenRangeKeySymbolLocv_block_invoke.14459
++ ___ZL36getkQPQUOutputTokenRangeKeySymbolLocv_block_invoke.2335
++ ___ZL36getkQPQUOutputTokenRangeKeySymbolLocv_block_invoke.2746
++ ___ZL37getkQPParseAttributeMediaKeySymbolLocv_block_invoke.2858
++ ___ZL37getkQPQUOutputTokenArgIdsKeySymbolLocv_block_invoke.14455
++ ___ZL37getkQPQUOutputTokenArgIdsKeySymbolLocv_block_invoke.2327
++ ___ZL37getkQPQUOutputTokenArgIdsKeySymbolLocv_block_invoke.2742
++ ___ZL38getkQPParseAttributeSenderKeySymbolLocv_block_invoke.2866
++ ___ZL38getkQPParseAttributeUnreadKeySymbolLocv_block_invoke.2846
++ ___ZL40getkQPQUOutputTokenArgScoresKeySymbolLocv_block_invoke.14451
++ ___ZL40getkQPQUOutputTokenArgScoresKeySymbolLocv_block_invoke.2738
++ ___ZL41getkQPParseAttributeDueActionKeySymbolLocv_block_invoke.2785
++ ___ZL41getkQPParseAttributeRecipientKeySymbolLocv_block_invoke.2862
++ ___ZL42getkQPParseAttributeAttachmentKeySymbolLocv_block_invoke.2852
++ ___ZL42getkQPParseAttributeJunkActionKeySymbolLocv_block_invoke.2777
++ ___ZL43getkQPParseAttributeDescriptionKeySymbolLocv_block_invoke.2773
++ ___ZL43getkQPParseAttributeDraftActionKeySymbolLocv_block_invoke.2781
++ ___ZL43getkQPParseAttributeHotelActionKeySymbolLocv_block_invoke.2809
++ ___ZL44getkQPParseAttributeFlightActionKeySymbolLocv_block_invoke.2822
++ ___ZL44getkQPParseAttributeLatestActionKeySymbolLocv_block_invoke.2793
++ ___ZL44getkQPParseAttributeTaggedPersonKeySymbolLocv_block_invoke.2875
++ ___ZL45getkQPParseAttributeArchiveActionKeySymbolLocv_block_invoke.2769
++ ___ZL45getkQPParseAttributePrintedActionKeySymbolLocv_block_invoke.2828
++ ___ZL46getkQPParseAttributeEarliestActionKeySymbolLocv_block_invoke.2797
++ ___ZL46getkQPParseAttributeGroundedPersonKeySymbolLocv_block_invoke.2870
++ ___ZL47getkQPParseAttributeCompletedActionKeySymbolLocv_block_invoke.2789
++ ___ZL48getkQPParseAttributeRestaurantActionKeySymbolLocv_block_invoke.2803
++ ___ZL53getkQPParseAttributeFlightArrivalLocationKeySymbolLocv_block_invoke.2813
++ ___ZL55getkQPParseAttributeFlightDepartureLocationKeySymbolLocv_block_invoke.2817
++ ____SIOpenIndex_block_invoke_5
++ ____SIOpenIndex_block_invoke_6
++ ____SIOpenIndex_block_invoke_7
++ ____SIOpenIndex_block_invoke_8
++ ____Z19logAttributedStringyPKcP8NSStringP18NSAttributedStringPK9__CFArray_block_invoke
++ ____ZL17llmLocationArgIdsv_block_invoke
++ ____ZL20llmPhotosEventArgIdsv_block_invoke
++ ____ZL23PhCommonPeopleNameAliasv_block_invoke
++ ____ZL26PhPopulateFiltersFromQueryPK20__CFAttributedStringPP10query_nodeS4_P14NSMutableArrayIP7NSValueES9_bP8NSStringb_block_invoke
++ ____ZL26PhPopulateFiltersFromQueryPK20__CFAttributedStringPP10query_nodeS4_P14NSMutableArrayIP7NSValueES9_bP8NSStringb_block_invoke_2
++ ____ZL36extractSynonymUnalignedMatchingFieldP20SISearchCtx_METADATAP14datastore_infoP6db_objPKjS6_S6_S6_S6_S6_P19PartialQueryResultsPP10query_nodelP14__MDPlistBytes_block_invoke
++ ____ZL37llmSearchTermCalendarOneOnOneToRemovev_block_invoke
++ ____ZL39getkQPParseAttributeKindTabKeySymbolLocv_block_invoke
++ ____ZL43ImageAndVideoFilesInMacIndexAttributeScoresv_block_invoke
++ ____ZL44getkQPParseAttributeKindGroupTabKeySymbolLocv_block_invoke
++ ____ZL44getkQPQueryParserOptionU2EnabledKeySymbolLocv_block_invoke
++ ____ZL44llmBundleSpecificFilterAppEntityStatusArgIdsv_block_invoke
++ ____ZL45getkQPQUOutputTokenIsRelativeTimeKeySymbolLocv_block_invoke
++ ____ZL46getkQPQueryParserOptionUseLLMParseKeySymbolLocv_block_invoke
++ ____ZL46llmSparseRetrievalBundleSpecificFilterArgIdMapv_block_invoke
++ ____ZL49getkQPParseAttributeKindGenericFolderKeySymbolLocv_block_invoke
++ ____ZL50getkQPParseAttributeKindDocumentFolderKeySymbolLocv_block_invoke
++ ____ZL55getkQPParseAttributeSourceTypeGenericFolderKeySymbolLocv_block_invoke
++ ____ZL56getkQPParseAttributeSourceTypeDocumentFolderKeySymbolLocv_block_invoke
++ ____ZL57getkQPParseAttributeContainsTypeGenericFolderKeySymbolLocv_block_invoke
++ ____ZL58getkQPParseAttributeContainsTypeDocumentFolderKeySymbolLocv_block_invoke
++ ___analytics_log_large_query_block_invoke
++ ___block_descriptor_68_e8_32o_e41_v40?0"NSDictionary"8{_NSRange=QQ}16^B32l
++ ___copy_helper_block_e8_32o
++ ___derivedAttributesCheck_block_invoke
++ ___destroy_helper_block_e8_32o
++ ___initAttributesToIncludeArray_block_invoke
++ ___initSearchableAttrDict_block_invoke
++ ___initSearchableAttrDict_block_invoke_2
++ ___isSearchToolDebugModeEnabled_block_invoke
++ ___queryGoCracked_block_invoke.784
++ ___queryGoCracked_block_invoke.792
++ ___si_init_localized_terms_block_invoke.1583
++ __block_descriptor_tmp.10.14157
++ __block_descriptor_tmp.10.14505
++ __block_descriptor_tmp.10022
++ __block_descriptor_tmp.101.3008
++ __block_descriptor_tmp.101.9354
++ __block_descriptor_tmp.1017
++ __block_descriptor_tmp.102.14017
++ __block_descriptor_tmp.102.8996
++ __block_descriptor_tmp.1022
++ __block_descriptor_tmp.1024
++ __block_descriptor_tmp.1028
++ __block_descriptor_tmp.10320
++ __block_descriptor_tmp.1033
++ __block_descriptor_tmp.1053
++ __block_descriptor_tmp.1057
++ __block_descriptor_tmp.1058
++ __block_descriptor_tmp.10674
++ __block_descriptor_tmp.1072
++ __block_descriptor_tmp.1073.1432
++ __block_descriptor_tmp.1074
++ __block_descriptor_tmp.1075
++ __block_descriptor_tmp.1089
++ __block_descriptor_tmp.1094
++ __block_descriptor_tmp.1097
++ __block_descriptor_tmp.11.16591
++ __block_descriptor_tmp.11.16651
++ __block_descriptor_tmp.1112.1672
++ __block_descriptor_tmp.1113
++ __block_descriptor_tmp.1114
++ __block_descriptor_tmp.1115
++ __block_descriptor_tmp.1116
++ __block_descriptor_tmp.1117
++ __block_descriptor_tmp.1118
++ __block_descriptor_tmp.1119
++ __block_descriptor_tmp.11210
++ __block_descriptor_tmp.1155
++ __block_descriptor_tmp.11597
++ __block_descriptor_tmp.1167
++ __block_descriptor_tmp.1181
++ __block_descriptor_tmp.12.14370
++ __block_descriptor_tmp.12.15786
++ __block_descriptor_tmp.12.17047
++ __block_descriptor_tmp.12.7523
++ __block_descriptor_tmp.12.7576
++ __block_descriptor_tmp.12.7970
++ __block_descriptor_tmp.120.10899
++ __block_descriptor_tmp.1208
++ __block_descriptor_tmp.1230
++ __block_descriptor_tmp.1232
++ __block_descriptor_tmp.12346
++ __block_descriptor_tmp.1237
++ __block_descriptor_tmp.1238
++ __block_descriptor_tmp.1239
++ __block_descriptor_tmp.12392
++ __block_descriptor_tmp.1242.1691
++ __block_descriptor_tmp.1246
++ __block_descriptor_tmp.12487
++ __block_descriptor_tmp.1249
++ __block_descriptor_tmp.1267
++ __block_descriptor_tmp.13.7310
++ __block_descriptor_tmp.13024
++ __block_descriptor_tmp.13055
++ __block_descriptor_tmp.1313
++ __block_descriptor_tmp.1314
++ __block_descriptor_tmp.1333
++ __block_descriptor_tmp.13343
++ __block_descriptor_tmp.137.15957
++ __block_descriptor_tmp.13801
++ __block_descriptor_tmp.139.15467
++ __block_descriptor_tmp.139.15956
++ __block_descriptor_tmp.14.10330
++ __block_descriptor_tmp.14.15809
++ __block_descriptor_tmp.14.3018
++ __block_descriptor_tmp.14.6215
++ __block_descriptor_tmp.14.623
++ __block_descriptor_tmp.14.7524
++ __block_descriptor_tmp.14144
++ __block_descriptor_tmp.1419
++ __block_descriptor_tmp.142.10918
++ __block_descriptor_tmp.142.15465
++ __block_descriptor_tmp.14369
++ __block_descriptor_tmp.144.10919
++ __block_descriptor_tmp.14464
++ __block_descriptor_tmp.1457
++ __block_descriptor_tmp.1461
++ __block_descriptor_tmp.1463
++ __block_descriptor_tmp.1467.1696
++ __block_descriptor_tmp.1471.1695
++ __block_descriptor_tmp.14746
++ __block_descriptor_tmp.1476
++ __block_descriptor_tmp.1478
++ __block_descriptor_tmp.1479
++ __block_descriptor_tmp.14797
++ __block_descriptor_tmp.1488
++ __block_descriptor_tmp.14887
++ __block_descriptor_tmp.1491
++ __block_descriptor_tmp.1494
++ __block_descriptor_tmp.1498
++ __block_descriptor_tmp.14987
++ __block_descriptor_tmp.1499
++ __block_descriptor_tmp.15.14374
++ __block_descriptor_tmp.15.15815
++ __block_descriptor_tmp.15.1786
++ __block_descriptor_tmp.15.3032
++ __block_descriptor_tmp.15.7571
++ __block_descriptor_tmp.1504.1671
++ __block_descriptor_tmp.1516
++ __block_descriptor_tmp.152.13277
++ __block_descriptor_tmp.1536
++ __block_descriptor_tmp.1558
++ __block_descriptor_tmp.1563
++ __block_descriptor_tmp.1566
++ __block_descriptor_tmp.1572
++ __block_descriptor_tmp.1575
++ __block_descriptor_tmp.15776
++ __block_descriptor_tmp.1579
++ __block_descriptor_tmp.158
++ __block_descriptor_tmp.1584
++ __block_descriptor_tmp.1586
++ __block_descriptor_tmp.1588
++ __block_descriptor_tmp.1589
++ __block_descriptor_tmp.1591
++ __block_descriptor_tmp.1593
++ __block_descriptor_tmp.16.17095
++ __block_descriptor_tmp.16.3033
++ __block_descriptor_tmp.161
++ __block_descriptor_tmp.1624
++ __block_descriptor_tmp.1626
++ __block_descriptor_tmp.1632
++ __block_descriptor_tmp.1638
++ __block_descriptor_tmp.165.7733
++ __block_descriptor_tmp.16549
++ __block_descriptor_tmp.16559
++ __block_descriptor_tmp.16602
++ __block_descriptor_tmp.167.12016
++ __block_descriptor_tmp.16815
++ __block_descriptor_tmp.16851
++ __block_descriptor_tmp.1698.1527
++ __block_descriptor_tmp.16980
++ __block_descriptor_tmp.17.14375
++ __block_descriptor_tmp.17.3046
++ __block_descriptor_tmp.17.8199
++ __block_descriptor_tmp.17017
++ __block_descriptor_tmp.1703
++ __block_descriptor_tmp.171.15532
++ __block_descriptor_tmp.1711
++ __block_descriptor_tmp.1712.1528
++ __block_descriptor_tmp.1713
++ __block_descriptor_tmp.1714
++ __block_descriptor_tmp.1715
++ __block_descriptor_tmp.1718
++ __block_descriptor_tmp.1722.1706
++ __block_descriptor_tmp.1723
++ __block_descriptor_tmp.17267
++ __block_descriptor_tmp.1738
++ __block_descriptor_tmp.1742
++ __block_descriptor_tmp.1748
++ __block_descriptor_tmp.175
++ __block_descriptor_tmp.1765
++ __block_descriptor_tmp.1769
++ __block_descriptor_tmp.179
++ __block_descriptor_tmp.180
++ __block_descriptor_tmp.182
++ __block_descriptor_tmp.186
++ __block_descriptor_tmp.187.15995
++ __block_descriptor_tmp.19.12328
++ __block_descriptor_tmp.19.7393
++ __block_descriptor_tmp.19.8748
++ __block_descriptor_tmp.190
++ __block_descriptor_tmp.194
++ __block_descriptor_tmp.195.12092
++ __block_descriptor_tmp.197.15853
++ __block_descriptor_tmp.2.16599
++ __block_descriptor_tmp.2.5435
++ __block_descriptor_tmp.2.7312
++ __block_descriptor_tmp.2.7381
++ __block_descriptor_tmp.2.7518
++ __block_descriptor_tmp.2.7615
++ __block_descriptor_tmp.20.10344
++ __block_descriptor_tmp.20.17101
++ __block_descriptor_tmp.20.5626
++ __block_descriptor_tmp.20.8197
++ __block_descriptor_tmp.20.8746
++ __block_descriptor_tmp.2001
++ __block_descriptor_tmp.2002
++ __block_descriptor_tmp.2003
++ __block_descriptor_tmp.2024
++ __block_descriptor_tmp.2028
++ __block_descriptor_tmp.204
++ __block_descriptor_tmp.207.12145
++ __block_descriptor_tmp.207.7703
++ __block_descriptor_tmp.2074
++ __block_descriptor_tmp.21.13338
++ __block_descriptor_tmp.21.15855
++ __block_descriptor_tmp.2104
++ __block_descriptor_tmp.212
++ __block_descriptor_tmp.212.12153
++ __block_descriptor_tmp.22.16969
++ __block_descriptor_tmp.22.7632
++ __block_descriptor_tmp.225
++ __block_descriptor_tmp.225.10538
++ __block_descriptor_tmp.225.12180
++ __block_descriptor_tmp.23.10679
++ __block_descriptor_tmp.2324
++ __block_descriptor_tmp.2359
++ __block_descriptor_tmp.2367
++ __block_descriptor_tmp.238.10927
++ __block_descriptor_tmp.24.10341
++ __block_descriptor_tmp.24.13548
++ __block_descriptor_tmp.24.3092
++ __block_descriptor_tmp.24.5647
++ __block_descriptor_tmp.24.7394
++ __block_descriptor_tmp.240.11425
++ __block_descriptor_tmp.2406
++ __block_descriptor_tmp.2418
++ __block_descriptor_tmp.2428
++ __block_descriptor_tmp.244
++ __block_descriptor_tmp.2446
++ __block_descriptor_tmp.246.15692
++ __block_descriptor_tmp.247
++ __block_descriptor_tmp.2471
++ __block_descriptor_tmp.2472
++ __block_descriptor_tmp.2474
++ __block_descriptor_tmp.2479
++ __block_descriptor_tmp.2481
++ __block_descriptor_tmp.2482
++ __block_descriptor_tmp.25.15849
++ __block_descriptor_tmp.25.16821
++ __block_descriptor_tmp.25.3099
++ __block_descriptor_tmp.2503
++ __block_descriptor_tmp.2510
++ __block_descriptor_tmp.2523
++ __block_descriptor_tmp.2524
++ __block_descriptor_tmp.2525
++ __block_descriptor_tmp.2533
++ __block_descriptor_tmp.2534
++ __block_descriptor_tmp.2535
++ __block_descriptor_tmp.2536
++ __block_descriptor_tmp.2541
++ __block_descriptor_tmp.2543
++ __block_descriptor_tmp.2545
++ __block_descriptor_tmp.2546
++ __block_descriptor_tmp.2554
++ __block_descriptor_tmp.2564
++ __block_descriptor_tmp.2567
++ __block_descriptor_tmp.257
++ __block_descriptor_tmp.2570
++ __block_descriptor_tmp.26.13795
++ __block_descriptor_tmp.2649
++ __block_descriptor_tmp.2676
++ __block_descriptor_tmp.2682
++ __block_descriptor_tmp.2683
++ __block_descriptor_tmp.2684
++ __block_descriptor_tmp.2688
++ __block_descriptor_tmp.2689
++ __block_descriptor_tmp.27.13374
++ __block_descriptor_tmp.27.16817
++ __block_descriptor_tmp.2717
++ __block_descriptor_tmp.2728
++ __block_descriptor_tmp.28.12315
++ __block_descriptor_tmp.28.13402
++ __block_descriptor_tmp.28.15885
++ __block_descriptor_tmp.28.3104
++ __block_descriptor_tmp.28.367
++ __block_descriptor_tmp.28.5650
++ __block_descriptor_tmp.29.15890
++ __block_descriptor_tmp.29.5649
++ __block_descriptor_tmp.2956
++ __block_descriptor_tmp.3.5439
++ __block_descriptor_tmp.3.7382
++ __block_descriptor_tmp.30.15891
++ __block_descriptor_tmp.30.16723
++ __block_descriptor_tmp.30.3108
++ __block_descriptor_tmp.30.7674
++ __block_descriptor_tmp.306.15310
++ __block_descriptor_tmp.308
++ __block_descriptor_tmp.31.14096
++ __block_descriptor_tmp.31.14646
++ __block_descriptor_tmp.31.3114
++ __block_descriptor_tmp.310
++ __block_descriptor_tmp.311
++ __block_descriptor_tmp.312
++ __block_descriptor_tmp.313
++ __block_descriptor_tmp.32.8249
++ __block_descriptor_tmp.33.10703
++ __block_descriptor_tmp.33.14097
++ __block_descriptor_tmp.33.5655
++ __block_descriptor_tmp.3391
++ __block_descriptor_tmp.34.14098
++ __block_descriptor_tmp.34.16724
++ __block_descriptor_tmp.34.3039
++ __block_descriptor_tmp.34.5654
++ __block_descriptor_tmp.35.15931
++ __block_descriptor_tmp.358
++ __block_descriptor_tmp.36.15939
++ __block_descriptor_tmp.36.6208
++ __block_descriptor_tmp.36.8240
++ __block_descriptor_tmp.3655
++ __block_descriptor_tmp.37.14102
++ __block_descriptor_tmp.37.3037
++ __block_descriptor_tmp.372
++ __block_descriptor_tmp.373
++ __block_descriptor_tmp.378
++ __block_descriptor_tmp.38.10728
++ __block_descriptor_tmp.38.16609
++ __block_descriptor_tmp.38.8273
++ __block_descriptor_tmp.39.14103
++ __block_descriptor_tmp.39.15937
++ __block_descriptor_tmp.393
++ __block_descriptor_tmp.3944
++ __block_descriptor_tmp.4.3000
++ __block_descriptor_tmp.4.7616
++ __block_descriptor_tmp.40.8755
++ __block_descriptor_tmp.41.8084
++ __block_descriptor_tmp.42.16611
++ __block_descriptor_tmp.4226
++ __block_descriptor_tmp.43.8941
++ __block_descriptor_tmp.45.8095
++ __block_descriptor_tmp.45.8768
++ __block_descriptor_tmp.4521
++ __block_descriptor_tmp.47.13379
++ __block_descriptor_tmp.48.11254
++ __block_descriptor_tmp.48.15948
++ __block_descriptor_tmp.48.3144
++ __block_descriptor_tmp.5.7370
++ __block_descriptor_tmp.5001
++ __block_descriptor_tmp.51.11251
++ __block_descriptor_tmp.51.14114
++ __block_descriptor_tmp.51.3149
++ __block_descriptor_tmp.51.9540
++ __block_descriptor_tmp.516.6586
++ __block_descriptor_tmp.52.15949
++ __block_descriptor_tmp.52.8771
++ __block_descriptor_tmp.53.14115
++ __block_descriptor_tmp.5431
++ __block_descriptor_tmp.55.14100
++ __block_descriptor_tmp.55.2989
++ __block_descriptor_tmp.55.7170
++ __block_descriptor_tmp.5557
++ __block_descriptor_tmp.558
++ __block_descriptor_tmp.5629
++ __block_descriptor_tmp.58.12861
++ __block_descriptor_tmp.58.14984
++ __block_descriptor_tmp.5849
++ __block_descriptor_tmp.59.279
++ __block_descriptor_tmp.59.8773
++ __block_descriptor_tmp.6.5442
++ __block_descriptor_tmp.6.5856
++ __block_descriptor_tmp.6.6142
++ __block_descriptor_tmp.6.7482
++ __block_descriptor_tmp.6.7565
++ __block_descriptor_tmp.6.7621
++ __block_descriptor_tmp.60.7776
++ __block_descriptor_tmp.603
++ __block_descriptor_tmp.61.7777
++ __block_descriptor_tmp.6149
++ __block_descriptor_tmp.6194
++ __block_descriptor_tmp.62.14982
++ __block_descriptor_tmp.63.8643
++ __block_descriptor_tmp.630.15098
++ __block_descriptor_tmp.654
++ __block_descriptor_tmp.658
++ __block_descriptor_tmp.66.14153
++ __block_descriptor_tmp.66.15356
++ __block_descriptor_tmp.66.2972
++ __block_descriptor_tmp.66.8783
++ __block_descriptor_tmp.6611
++ __block_descriptor_tmp.67.12870
++ __block_descriptor_tmp.67.16928
++ __block_descriptor_tmp.67.7779
++ __block_descriptor_tmp.68.5155
++ __block_descriptor_tmp.69.13917
++ __block_descriptor_tmp.7.17042
++ __block_descriptor_tmp.7.3017
++ __block_descriptor_tmp.7.5853
++ __block_descriptor_tmp.7.6144
++ __block_descriptor_tmp.7.7618
++ __block_descriptor_tmp.70.13916
++ __block_descriptor_tmp.70.7778
++ __block_descriptor_tmp.71.15976
++ __block_descriptor_tmp.71.7749
++ __block_descriptor_tmp.71.9085
++ __block_descriptor_tmp.715
++ __block_descriptor_tmp.7164
++ __block_descriptor_tmp.72.6023
++ __block_descriptor_tmp.727
++ __block_descriptor_tmp.7271
++ __block_descriptor_tmp.7285
++ __block_descriptor_tmp.73.13915
++ __block_descriptor_tmp.73.15332
++ __block_descriptor_tmp.73.7752
++ __block_descriptor_tmp.736
++ __block_descriptor_tmp.7369
++ __block_descriptor_tmp.739
++ __block_descriptor_tmp.74.7499
++ __block_descriptor_tmp.74.7758
++ __block_descriptor_tmp.74.9091
++ __block_descriptor_tmp.742
++ __block_descriptor_tmp.7448
++ __block_descriptor_tmp.749
++ __block_descriptor_tmp.750
++ __block_descriptor_tmp.7569
++ __block_descriptor_tmp.76.15330
++ __block_descriptor_tmp.7614
++ __block_descriptor_tmp.763
++ __block_descriptor_tmp.764
++ __block_descriptor_tmp.77.13982
++ __block_descriptor_tmp.77.7753
++ __block_descriptor_tmp.778
++ __block_descriptor_tmp.788
++ __block_descriptor_tmp.79.15329
++ __block_descriptor_tmp.79.16085
++ __block_descriptor_tmp.791
++ __block_descriptor_tmp.7921
++ __block_descriptor_tmp.793
++ __block_descriptor_tmp.797
++ __block_descriptor_tmp.8.1081
++ __block_descriptor_tmp.8.12390
++ __block_descriptor_tmp.8.13014
++ __block_descriptor_tmp.8.2678
++ __block_descriptor_tmp.8.3021
++ __block_descriptor_tmp.8.3647
++ __block_descriptor_tmp.8083
++ __block_descriptor_tmp.8190
++ __block_descriptor_tmp.84.7905
++ __block_descriptor_tmp.844
++ __block_descriptor_tmp.847.11521
++ __block_descriptor_tmp.85.15326
++ __block_descriptor_tmp.853
++ __block_descriptor_tmp.859
++ __block_descriptor_tmp.8599
++ __block_descriptor_tmp.8702
++ __block_descriptor_tmp.8754
++ __block_descriptor_tmp.88.3048
++ __block_descriptor_tmp.8881
++ __block_descriptor_tmp.9.12459
++ __block_descriptor_tmp.9.7316
++ __block_descriptor_tmp.9.7584
++ __block_descriptor_tmp.9.7682
++ __block_descriptor_tmp.915
++ __block_descriptor_tmp.9186
++ __block_descriptor_tmp.92.16107
++ __block_descriptor_tmp.9336
++ __block_descriptor_tmp.9374
++ __block_descriptor_tmp.96.16112
++ __block_descriptor_tmp.983
++ __block_descriptor_tmp.992
++ __block_descriptor_tmp.995
++ __block_descriptor_tmp.996
++ __block_descriptor_tmp.998
++ __block_descriptor_tmp.998.1424
++ __block_literal_global.1019
++ __block_literal_global.10318
++ __block_literal_global.10726
++ __block_literal_global.11.13447
++ __block_literal_global.11189
++ __block_literal_global.113
++ __block_literal_global.1169
++ __block_literal_global.12017
++ __block_literal_global.121.555
++ __block_literal_global.12322
++ __block_literal_global.1241
++ __block_literal_global.1244
++ __block_literal_global.12457
++ __block_literal_global.1248
++ __block_literal_global.12485
++ __block_literal_global.1251
++ __block_literal_global.13.10324
++ __block_literal_global.13.16589
++ __block_literal_global.13.16647
++ __block_literal_global.13022
++ __block_literal_global.1316
++ __block_literal_global.13335
++ __block_literal_global.13444
++ __block_literal_global.13793
++ __block_literal_global.138
++ __block_literal_global.141.15406
++ __block_literal_global.141.15954
++ __block_literal_global.1421
++ __block_literal_global.14462
++ __block_literal_global.1459
++ __block_literal_global.1469
++ __block_literal_global.14744
++ __block_literal_global.14795
++ __block_literal_global.1493
++ __block_literal_global.14979
++ __block_literal_global.15.7296
++ __block_literal_global.1518
++ __block_literal_global.1538
++ __block_literal_global.155
++ __block_literal_global.1568
++ __block_literal_global.1574
++ __block_literal_global.1577
++ __block_literal_global.15807
++ __block_literal_global.16.10328
++ __block_literal_global.1634
++ __block_literal_global.1640
++ __block_literal_global.165.9536
++ __block_literal_global.16547
++ __block_literal_global.16557
++ __block_literal_global.16596
++ __block_literal_global.16849
++ __block_literal_global.16877
++ __block_literal_global.1694
++ __block_literal_global.17.15813
++ __block_literal_global.17.1784
++ __block_literal_global.17015
++ __block_literal_global.171
++ __block_literal_global.1717
++ __block_literal_global.1720
++ __block_literal_global.1740
++ __block_literal_global.1744
++ __block_literal_global.181
++ __block_literal_global.182
++ __block_literal_global.19.6216
++ __block_literal_global.19.8194
++ __block_literal_global.191.453
++ __block_literal_global.193
++ __block_literal_global.195
++ __block_literal_global.197
++ __block_literal_global.199.15851
++ __block_literal_global.2005
++ __block_literal_global.201
++ __block_literal_global.209
++ __block_literal_global.21.47
++ __block_literal_global.2106
++ __block_literal_global.211
++ __block_literal_global.213
++ __block_literal_global.215
++ __block_literal_global.217
++ __block_literal_global.217.12159
++ __block_literal_global.218
++ __block_literal_global.22.10338
++ __block_literal_global.22.17099
++ __block_literal_global.22.8195
++ __block_literal_global.225
++ __block_literal_global.227
++ __block_literal_global.23.15848
++ __block_literal_global.2326
++ __block_literal_global.2346
++ __block_literal_global.2361
++ __block_literal_global.2476
++ __block_literal_global.248.15690
++ __block_literal_global.2556
++ __block_literal_global.26.10339
++ __block_literal_global.26.5645
++ __block_literal_global.269
++ __block_literal_global.274
++ __block_literal_global.28
++ __block_literal_global.29
++ __block_literal_global.30.13400
++ __block_literal_global.30.365
++ __block_literal_global.30.52
++ __block_literal_global.3015
++ __block_literal_global.314
++ __block_literal_global.32
++ __block_literal_global.32.7638
++ __block_literal_global.33.3112
++ __block_literal_global.3389
++ __block_literal_global.34.6205
++ __block_literal_global.35
++ __block_literal_global.352
++ __block_literal_global.36.3036
++ __block_literal_global.36.5652
++ __block_literal_global.3653
++ __block_literal_global.375
++ __block_literal_global.38.15934
++ __block_literal_global.38.42
++ __block_literal_global.38.6206
++ __block_literal_global.3942
++ __block_literal_global.4.16597
++ __block_literal_global.4.7291
++ __block_literal_global.40.16606
++ __block_literal_global.41.10352
++ __block_literal_global.41.1142
++ __block_literal_global.41.15935
++ __block_literal_global.4130
++ __block_literal_global.44.6225
++ __block_literal_global.45
++ __block_literal_global.4519
++ __block_literal_global.47
++ __block_literal_global.49
++ __block_literal_global.50.11237
++ __block_literal_global.51
++ __block_literal_global.5151
++ __block_literal_global.53.11238
++ __block_literal_global.560
++ __block_literal_global.561
++ __block_literal_global.5624
++ __block_literal_global.5850
++ __block_literal_global.6192
++ __block_literal_global.621
++ __block_literal_global.639
++ __block_literal_global.64.14980
++ __block_literal_global.6635
++ __block_literal_global.6787
++ __block_literal_global.68.15313
++ __block_literal_global.69.16895
++ __block_literal_global.7115
++ __block_literal_global.717
++ __block_literal_global.7269
++ __block_literal_global.7283
++ __block_literal_global.729
++ __block_literal_global.738
++ __block_literal_global.741
++ __block_literal_global.744
++ __block_literal_global.75.13913
++ __block_literal_global.75.15318
++ __block_literal_global.7512
++ __block_literal_global.752
++ __block_literal_global.7573
++ __block_literal_global.76.7477
++ __block_literal_global.7617
++ __block_literal_global.766
++ __block_literal_global.780
++ __block_literal_global.7919
++ __block_literal_global.795
++ __block_literal_global.8082
++ __block_literal_global.81.15319
++ __block_literal_global.81.16044
++ __block_literal_global.8188
++ __block_literal_global.846
++ __block_literal_global.849.11496
++ __block_literal_global.855
++ __block_literal_global.8635
++ __block_literal_global.87.15320
++ __block_literal_global.8752
++ __block_literal_global.9.17040
++ __block_literal_global.9.5851
++ __block_literal_global.92
++ __block_literal_global.9334
++ __block_literal_global.9352
++ __block_literal_global.9954
++ __block_literal_global.996
++ __evaluateFuzzyQueryForIndex_block_invoke.226
++ __icu_get_ctx_for_search_match_with_limit
++ __icu_search_match_with_ctx
++ __isAppleInternalInstall_block_invoke.1601
++ __message_assert.10203
++ __message_assert.10256
++ __message_assert.10639
++ __message_assert.11234
++ __message_assert.11486
++ __message_assert.115
++ __message_assert.12515
++ __message_assert.12668
++ __message_assert.13013
++ __message_assert.13042
++ __message_assert.13300
++ __message_assert.13472
++ __message_assert.13523
++ __message_assert.13589
++ __message_assert.13609
++ __message_assert.13622
++ __message_assert.13692
++ __message_assert.13789
++ __message_assert.1381
++ __message_assert.14054
++ __message_assert.14190
++ __message_assert.14331
++ __message_assert.14473
++ __message_assert.14670
++ __message_assert.14772
++ __message_assert.14910
++ __message_assert.15766
++ __message_assert.16122
++ __message_assert.16149
++ __message_assert.16169
++ __message_assert.16623
++ __message_assert.16910
++ __message_assert.17278
++ __message_assert.2965
++ __message_assert.3327
++ __message_assert.3366
++ __message_assert.3401
++ __message_assert.3676
++ __message_assert.3963
++ __message_assert.4258
++ __message_assert.4735
++ __message_assert.4846
++ __message_assert.5478
++ __message_assert.5588
++ __message_assert.5605
++ __message_assert.5619
++ __message_assert.5678
++ __message_assert.5848
++ __message_assert.6064
++ __message_assert.6086
++ __message_assert.6190
++ __message_assert.7927
++ __message_assert.7984
++ __message_assert.8039
++ __message_assert.8154
++ __message_assert.8595
++ __message_assert.8723
++ __message_assert.8889
++ __message_assert.9346
++ __message_assert.9761
++ __message_assert.9965
++ __path_bundle_index_block_invoke.12330
++ __preIterateQueryForIndex_block_invoke.208
++ __preIterateQueryForIndex_block_invoke.210
++ __preIterateQueryForIndex_block_invoke.213
++ __prepareForTransaction_block_invoke.2532
++ __processOneCS_block_invoke.1766
++ __processOneCS_block_invoke.1969
++ __setCSAttributes2_block_invoke.2468
++ __setCSAttributes2_block_invoke.2473
++ __si_assert_copy_extra.10198
++ __si_assert_copy_extra.10252
++ __si_assert_copy_extra.10634
++ __si_assert_copy_extra.11230
++ __si_assert_copy_extra.11481
++ __si_assert_copy_extra.12511
++ __si_assert_copy_extra.12666
++ __si_assert_copy_extra.13009
++ __si_assert_copy_extra.13038
++ __si_assert_copy_extra.13295
++ __si_assert_copy_extra.13467
++ __si_assert_copy_extra.13518
++ __si_assert_copy_extra.13585
++ __si_assert_copy_extra.13605
++ __si_assert_copy_extra.13617
++ __si_assert_copy_extra.13688
++ __si_assert_copy_extra.13784
++ __si_assert_copy_extra.1379
++ __si_assert_copy_extra.14049
++ __si_assert_copy_extra.14185
++ __si_assert_copy_extra.14326
++ __si_assert_copy_extra.14468
++ __si_assert_copy_extra.14665
++ __si_assert_copy_extra.14767
++ __si_assert_copy_extra.14905
++ __si_assert_copy_extra.15762
++ __si_assert_copy_extra.16119
++ __si_assert_copy_extra.16145
++ __si_assert_copy_extra.16165
++ __si_assert_copy_extra.16618
++ __si_assert_copy_extra.16905
++ __si_assert_copy_extra.17274
++ __si_assert_copy_extra.2960
++ __si_assert_copy_extra.3265
++ __si_assert_copy_extra.3362
++ __si_assert_copy_extra.3396
++ __si_assert_copy_extra.3671
++ __si_assert_copy_extra.3958
++ __si_assert_copy_extra.4254
++ __si_assert_copy_extra.4730
++ __si_assert_copy_extra.4841
++ __si_assert_copy_extra.5474
++ __si_assert_copy_extra.5583
++ __si_assert_copy_extra.5601
++ __si_assert_copy_extra.5615
++ __si_assert_copy_extra.5673
++ __si_assert_copy_extra.5843
++ __si_assert_copy_extra.6060
++ __si_assert_copy_extra.6082
++ __si_assert_copy_extra.6185
++ __si_assert_copy_extra.70
++ __si_assert_copy_extra.7923
++ __si_assert_copy_extra.7979
++ __si_assert_copy_extra.8035
++ __si_assert_copy_extra.8149
++ __si_assert_copy_extra.8591
++ __si_assert_copy_extra.8719
++ __si_assert_copy_extra.8884
++ __si_assert_copy_extra.9341
++ __si_assert_copy_extra.9757
++ __si_assert_copy_extra.9960
++ __si_set_scan_count_block_invoke.2540
++ __si_set_scan_count_block_invoke_2.2542
++ __si_set_scan_count_block_invoke_3.2544
++ __si_update_index_for_su_block_invoke.1741
++ _addAttrIfNotPresent
++ _addAttributeValuesToDict
++ _addIfNotPresent
++ _addToRoleAttrDict
++ _analytics_query_client_dict
++ _analytics_query_lock
++ _analytics_query_string_dict
++ _bundleIDTypeMappings
++ _copyCleansedLocalPartFromEmailAddress
++ _doInsertDirectoryUS
++ _gatherAttributesToAdd
++ _getValueForField
++ _initContextMe
++ _insertDirectoryFT
++ _insertDirectoryUS
++ _kMatchContextDictionaryValueCallbacks
++ _mePreprocessEmailAddress
++ _mePreprocessName
++ _mePreprocessNamePart
++ _objc_msgSend$addObjectsFromArray:
++ _objc_msgSend$localizedLowercaseString
++ _objc_msgSend$unionSet:
++ _populateMatcherContext
++ _psid_insert.17155
++ _releaseMatcherContext
++ _retainMatcherContext
++ _sSIAttributesToIncludeArray
++ _sSIAttributesToIncludeArrayCount
++ _sSIAttributesToIncludeInfoLock
++ _sSIMeAliasName
++ _sSIMeAliasNameSearchContextPtr
++ _sSIMeEmailAddressMatchContextDict
++ _sSIMeFamilyName
++ _sSIMeFullName
++ _sSIMeFullNameSearchContextPtr
++ _sSIMeGivenName
++ _sSIMeMiddleName
++ _sSIMeNamePartMatchContextDict
++ _sSIMeNameParts
++ _sSIMeNamesLock
++ _sSIRolesToIncludeArray
++ _sSISearchableAttrDict
++ _sSISearchableAttrDictLock
++ _shortened_client_key
++ _si_routine_photoAnalysis
++ _si_routine_suggestions
++ _stringForPRBundleIDType
++ _xpc_dictionary_get_count
++ bit_vector_create.13267
++ bit_vector_create.9929
++ bit_vector_init.9452
++ bit_vector_internal_touch_for_set.9498
++ bit_vector_set.13246
++ bit_vector_set.1423
++ bit_vector_set.3323
++ bit_vector_set.4050
++ bit_vector_set.5046
++ bit_vector_set.5711
++ bit_vector_set.9667
++ bit_vector_set.9900
++ bit_vector_set_bits.9507
++ checkDirectory.10257
++ checkNearness.14174
++ commonHash.12935
++ commonHash.13210
++ compareOidIndexPair.16926
++ compareOidIndexPair.6120
++ data_entry_store.13069
++ db_dump_pommes_query_node_with_prefix.isSearchToolDebugMode
++ derivedAttributesCheck.once
++ emitTerms.8968
++ findChild.10258
++ getDirectory.10275
++ getSize.memSize.13007
++ getSize.memSize.13799
++ getSize.memSize.9358
++ get_string_and_length_for_id.15582
++ hash64.9383
++ index_comp.13021
++ index_comp.13805
++ index_comp.9363
++ initAttributesToIncludeArray.once
++ initSearchableAttrDict.onceToken
++ isAppleInternalInstall.isInternalInstall.1599
++ isAppleInternalInstall.onceToken.1598
++ isSearchToolDebugModeEnabled.ffStatus
++ isSearchToolDebugModeEnabled.onceToken
++ keycompare.17131
++ localizedFieldTermMatch.14121
++ log_map_access_error.13163
++ log_map_access_error.4820
++ log_map_access_error.9868
++ master_fid_rec.17109
++ master_fid_rec_size.17111
++ oqpush.13829
++ oqpush.4909
++ oqpush.9377
++ packingCount.13988
++ path_bundle_index.sDummyFD.12323
++ pqDisposeApplier.8963
++ preprocessQuery.or_node.1018
++ psid_lookup.17153
++ qsort_cached_allocations.13005
++ qsort_cached_allocations.13797
++ qsort_cached_allocations.9356
++ readCompactPosition.13992
++ remapping_keys.12987
++ restoreVInt32.13491
++ restoreVInt32.5595
++ restoreVInt32.6059
++ sDataMapExceptionCallbacks.13047
++ sDataMapExceptionCallbacks.9766
++ sTotal.11145
++ sTotal.11229
++ sTotal.11414
++ sTotal.13309
++ sTotal.13855
++ sTotal.14048
++ sTotal.14876
++ sTotal.15759
++ sTotal.16816
++ sTotal.5552
++ sTotal.6191
++ sTotal.7941
++ sTotal.8142
++ si_analytics_log.10111
++ si_analytics_log.10689
++ si_analytics_log.13128
++ si_analytics_log.14493
++ si_analytics_log.14688
++ si_analytics_log.15167
++ si_analytics_log.4034
++ si_analytics_log.4738
++ si_analytics_log.5380
++ si_analytics_log.5505
++ si_analytics_log.7990
++ si_analytics_log.8919
++ si_analytics_log.9590
++ si_analytics_log.9829
++ si_rwlock_wrunlock.5310
++ si_shadowing_psid_path_to_oid_path.17271
++ storeVInt64.4954
++ storeVInt64.5695
++ store_stream_read_bytes.10239
++ store_stream_read_bytes.13667
++ store_stream_read_bytes.16536
++ store_stream_read_bytes.5045
++ store_stream_read_bytes.5902
++ store_stream_read_bytes.9740
++ store_stream_read_vint32.10240
++ store_stream_read_vint32.13660
++ store_stream_read_vint32.16526
++ store_stream_read_vint32.5042
++ store_stream_read_vint32.5899
++ store_stream_write_bytes.10235
++ store_stream_write_bytes.13673
++ store_stream_write_bytes.16511
++ store_stream_write_bytes.4881
++ store_stream_write_bytes.5890
++ store_stream_write_bytes.9744
++ store_stream_write_vint32.13670
++ store_stream_write_vint32.16512
++ store_stream_write_vint32.4883
++ store_stream_write_vint32.5891
++ strHash.17485
++ table_extra_bytes.14970
++ takeBuddyPage.5767
++ termPropertyID.14122
++ thread_count.13006
++ thread_count.13798
++ thread_count.9357
++ utf8_byte_length.utf8_len_table.15902
++ utf8_byte_length_noerror.utf8_len_table.15904
++ utf8_to_code_point.utf8_first_char_mask.15903
++ v2_readVInt32.5928
++ v2_readVInt64.13980
++ v2_readVInt64.14169
++ v2_readVInt64.14230
++ v2_readVInt64.4173
++ v2_readVInt64.4798
++ v2_readVInt64.5919
++ v2_readVInt64.7166
++ v2_readVInt64.9050
++ v2_writeVInt64.13676
++ v2_writeVInt64.4762
++ v2_writeVInt64.7123
++ vector_dimension.vec_sizes.16131
++ vector_size.elem_sizes.16130
++ writeVInt64.10234
++ writeVInt64.13672
++ writeVInt64.14199
++ writeVInt64.5507
++ writeVInt64.5892
++ writeVInt64.7987
++ writeVInt64.9450
+- FlatStorePageEntryWrite2.4702
+- GCC_except_table11
+- GCC_except_table21
+- GCC_except_table212
+- GCC_except_table2227
+- GCC_except_table2228
+- GCC_except_table2229
+- GCC_except_table2230
+- GCC_except_table2231
+- GCC_except_table2232
+- GCC_except_table2234
+- GCC_except_table2239
+- GCC_except_table2240
+- GCC_except_table2241
+- GCC_except_table2242
+- GCC_except_table2243
+- GCC_except_table2244
+- GCC_except_table2245
+- GCC_except_table2248
+- GCC_except_table2249
+- GCC_except_table2250
+- GCC_except_table2254
+- GCC_except_table2255
+- GCC_except_table26
+- GCC_except_table3
+- GCC_except_table3077
+- GCC_except_table3079
+- GCC_except_table3081
+- GCC_except_table3083
+- GCC_except_table3087
+- GCC_except_table3090
+- GCC_except_table3093
+- GCC_except_table3095
+- GCC_except_table31
+- GCC_except_table3104
+- GCC_except_table3105
+- GCC_except_table3107
+- GCC_except_table3109
+- GCC_except_table3117
+- GCC_except_table3118
+- GCC_except_table3119
+- GCC_except_table3123
+- GCC_except_table3135
+- GCC_except_table3136
+- GCC_except_table3137
+- GCC_except_table3138
+- GCC_except_table3139
+- GCC_except_table3140
+- GCC_except_table3141
+- GCC_except_table3142
+- GCC_except_table3143
+- GCC_except_table3144
+- GCC_except_table3145
+- GCC_except_table3146
+- GCC_except_table3147
+- GCC_except_table3153
+- GCC_except_table3162
+- GCC_except_table3163
+- GCC_except_table3165
+- GCC_except_table3166
+- GCC_except_table3175
+- GCC_except_table3176
+- GCC_except_table3177
+- GCC_except_table3178
+- GCC_except_table3179
+- GCC_except_table3197
+- GCC_except_table3198
+- GCC_except_table3199
+- GCC_except_table3332
+- GCC_except_table3333
+- GCC_except_table3334
+- GCC_except_table3335
+- GCC_except_table3347
+- GCC_except_table3350
+- GCC_except_table3351
+- GCC_except_table3352
+- GCC_except_table3353
+- GCC_except_table3354
+- GCC_except_table3356
+- GCC_except_table3357
+- GCC_except_table3360
+- GCC_except_table3361
+- GCC_except_table3362
+- GCC_except_table3363
+- GCC_except_table3364
+- GCC_except_table3365
+- GCC_except_table3366
+- GCC_except_table3367
+- GCC_except_table3368
+- GCC_except_table3369
+- GCC_except_table3370
+- GCC_except_table3371
+- GCC_except_table3372
+- GCC_except_table3373
+- GCC_except_table3374
+- GCC_except_table3379
+- GCC_except_table3384
+- GCC_except_table3385
+- GCC_except_table3386
+- GCC_except_table3387
+- GCC_except_table3388
+- GCC_except_table3389
+- GCC_except_table3390
+- GCC_except_table3391
+- GCC_except_table3392
+- GCC_except_table3393
+- GCC_except_table3394
+- GCC_except_table3395
+- GCC_except_table3396
+- GCC_except_table3398
+- GCC_except_table3412
+- GCC_except_table3414
+- GCC_except_table3416
+- GCC_except_table3439
+- GCC_except_table413
+- GCC_except_table415
+- GCC_except_table416
+- GCC_except_table418
+- GCC_except_table431
+- GCC_except_table432
+- GCC_except_table433
+- GCC_except_table434
+- GCC_except_table437
+- GCC_except_table4459
+- GCC_except_table4463
+- GCC_except_table4469
+- GCC_except_table4474
+- GCC_except_table4475
+- GCC_except_table4498
+- GCC_except_table45
+- GCC_except_table459
+- GCC_except_table46
+- GCC_except_table466
+- GCC_except_table467
+- GCC_except_table469
+- GCC_except_table47
+- GCC_except_table472
+- GCC_except_table480
+- GCC_except_table4976
+- GCC_except_table4978
+- GCC_except_table4979
+- GCC_except_table535
+- GCC_except_table545
+- GCC_except_table546
+- GCC_except_table5557
+- GCC_except_table5559
+- GCC_except_table564
+- GCC_except_table568
+- GCC_except_table570
+- GCC_except_table571
+- GCC_except_table572
+- GCC_except_table580
+- GCC_except_table581
+- GCC_except_table6004
+- GCC_except_table6005
+- GCC_except_table6006
+- GCC_except_table6291
+- GCC_except_table6292
+- GCC_except_table6293
+- GCC_except_table6294
+- GCC_except_table6296
+- GCC_except_table6297
+- GCC_except_table7
+- MurmurHash3_x86_32.10197
+- SI_PersistentIDStore_shadowing_TEMPLATE.17039
+- _PayloadWriteData.5425
+- _ZGVZL12MetadataKeysvE13_metadataKeys.827
+- _ZGVZL17GenericFilterKeysvE18_genericFilterKeys.846
+- _ZGVZL18PhRetrievalAttribsvE17_retrievalAttribs.625
+- _ZGVZL25GenericFilterTopLevelKeysvE26_genericFilterTopLevelKeys.838
+- _ZGVZL26PhExactMatchRankingAttribsvE27_phExactMatchRankingAttribs.718
+- _ZL11MAX_OIDINFO.7654
+- _ZL11defaultList.518
+- _ZL11defaultList.8022
+- _ZL12ZERO_OIDINFO.7653
+- _ZL13PhAttribNodesPKcRKNSt3__113unordered_setINS1_12basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEENS1_4hashIS8_EENS1_8equal_toIS8_EENS6_IS8_EEEEbb.666
+- _ZL13v2_readVInt64PKhPm.3700
+- _ZL13v2_readVInt64RPKhRmRy.5354
+- _ZL14ZERO_FETCHINFO.7624
+- _ZL14defaultNFSList.7998
+- _ZL14v2_writeVInt64Phmy.3693
+- _ZL14v2_writeVInt64RPhy.5353
+- _ZL16__message_assertPKcz.13176
+- _ZL16__message_assertPKcz.16350
+- _ZL16__message_assertPKcz.17084
+- _ZL16__message_assertPKcz.3583
+- _ZL16__message_assertPKcz.3671
+- _ZL16__message_assertPKcz.510
+- _ZL16__message_assertPKcz.536
+- _ZL16__message_assertPKcz.7283
+- _ZL16__message_assertPKcz.7342
+- _ZL16__message_assertPKcz.7516
+- _ZL16__message_assertPKcz.8037
+- _ZL16__message_assertPKcz.873
+- _ZL17ZERO_RANKING_BITS.8040
+- _ZL18PhRankingBoostTreev.584
+- _ZL18PhRetrievalAttribsv.590
+- _ZL18QueryParserLibraryv.14226
+- _ZL18QueryParserLibraryv.2257
+- _ZL18QueryParserLibraryv.2663
+- _ZL18isGenericFilterKeyRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE.832
+- _ZL20PhRankingTreeFromStrPKcfPi.576
+- _ZL22__si_assert_copy_extraP6fd_obji.13172
+- _ZL22__si_assert_copy_extraP6fd_obji.16346
+- _ZL22__si_assert_copy_extraP6fd_obji.3579
+- _ZL22__si_assert_copy_extraP6fd_obji.3666
+- _ZL22__si_assert_copy_extraP6fd_obji.506
+- _ZL22__si_assert_copy_extraP6fd_obji.532
+- _ZL22__si_assert_copy_extraP6fd_obji.7279
+- _ZL22__si_assert_copy_extraP6fd_obji.7338
+- _ZL22__si_assert_copy_extraP6fd_obji.7511
+- _ZL22__si_assert_copy_extraP6fd_obji.8033
+- _ZL22__si_assert_copy_extraP6fd_obji.869
+- _ZL22getkQPQUOutputTokenKeyv.14185
+- _ZL23audit_stringQueryParser.14239
+- _ZL23audit_stringQueryParser.2266
+- _ZL23audit_stringQueryParser.2676
+- _ZL23store_stream_read_bytesP14store_stream_tPhm.3701
+- _ZL24store_stream_write_bytesP14store_stream_tPKhm.3692
+- _ZL26PhExactMatchRankingAttribsv.572
+- _ZL26PhImpAttributesRankingNodePKc.583
+- _ZL26getkQPQUOutputTokenInfoKeyv.2692
+- _ZL26isGenericFilterTopLevelKeyRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE.834
+- _ZL27_containsOnlyCharsInCharsetP8NSStringP14NSCharacterSet.578
+- _ZL27getkQPQUOutputTokenRangeKeyv.14182
+- _ZL27getkQPQUOutputTokenRangeKeyv.2658
+- _ZL28getkQPQUOutputTokenArgIdsKeyv.14183
+- _ZL28getkQPQUOutputTokenArgIdsKeyv.2283
+- _ZL28getkQPQUOutputTokenArgIdsKeyv.2659
+- _ZL31getkQPQUOutputTokenArgScoresKeyv.14184
+- _ZL31getkQPQUOutputTokenArgScoresKeyv.2660
+- _ZL32PhImpAttributesPrefixRankingNodePKc.582
+- _ZL6sTotal.10208
+- _ZL6sTotal.10507
+- _ZL6sTotal.13245
+- _ZL6sTotal.254
+- _ZL6sTotal.391
+- _ZL6sTotal.620
+- _ZL6sTotal.6717
+- _ZL6sTotal.7021
+- _ZL6sTotal.7271
+- _ZL6sTotal.7330
+- _ZL6sTotal.7517
+- _ZL6sTotal.8021
+- _ZZL11CurrentYearvE8currYear.699
+- _ZZL11CurrentYearvE9onceToken.697
+- _ZZL12MetadataKeysvE13_metadataKeys.828
+- _ZZL12MetadataKeysvE9onceToken.829
+- _ZZL14PhThreeYearAgovE7oldYear.702
+- _ZZL14PhThreeYearAgovE9onceToken.701
+- _ZZL17GenericFilterKeysvE18_genericFilterKeys.847
+- _ZZL17GenericFilterKeysvE9onceToken.848
+- _ZZL18PhRetrievalAttribsvE17_retrievalAttribs.591
+- _ZZL18PhRetrievalAttribsvE9onceToken.626
+- _ZZL22QueryParserLibraryCorePPcE16frameworkLibrary.0.14235
+- _ZZL22QueryParserLibraryCorePPcE16frameworkLibrary.0.2262
+- _ZZL22QueryParserLibraryCorePPcE16frameworkLibrary.0.2672
+- _ZZL25GenericFilterTopLevelKeysvE26_genericFilterTopLevelKeys.839
+- _ZZL25GenericFilterTopLevelKeysvE9onceToken.840
+- _ZZL26PhExactMatchRankingAttribsvE27_phExactMatchRankingAttribs.573
+- _ZZL26PhExactMatchRankingAttribsvE9onceToken.719
+- _ZZL28NanoSecondsSinceAbsoluteTimeyE13sTimebaseInfo.586
+- _ZZL28NanoSecondsSinceAbsoluteTimeyE9onceToken.585
+- _ZZL31getkQPQUOutputTokenKeySymbolLocvE3ptr.0.14224
+- _ZZL31getkQPQUOutputTokenKeySymbolLocvE3ptr.0.2270
+- _ZZL31getkQPQUOutputTokenKeySymbolLocvE3ptr.0.2661
+- _ZZL35getkQPQUOutputTokenInfoKeySymbolLocvE3ptr.0.2693
+- _ZZL36getkQPParseAttributeDateKeySymbolLocvE3ptr.0.2819
+- _ZZL36getkQPQUOutputTokenRangeKeySymbolLocvE3ptr.0.14249
+- _ZZL36getkQPQUOutputTokenRangeKeySymbolLocvE3ptr.0.2292
+- _ZZL36getkQPQUOutputTokenRangeKeySymbolLocvE3ptr.0.2686
+- _ZZL37getkQPParseAttributeMediaKeySymbolLocvE3ptr.0.2798
+- _ZZL37getkQPQUOutputTokenArgIdsKeySymbolLocvE3ptr.0.14245
+- _ZZL37getkQPQUOutputTokenArgIdsKeySymbolLocvE3ptr.0.2284
+- _ZZL37getkQPQUOutputTokenArgIdsKeySymbolLocvE3ptr.0.2682
+- _ZZL38getkQPParseAttributeSenderKeySymbolLocvE3ptr.0.2806
+- _ZZL38getkQPParseAttributeUnreadKeySymbolLocvE3ptr.0.2786
+- _ZZL40getkQPQUOutputTokenArgScoresKeySymbolLocvE3ptr.0.14241
+- _ZZL40getkQPQUOutputTokenArgScoresKeySymbolLocvE3ptr.0.2678
+- _ZZL41getkQPParseAttributeDueActionKeySymbolLocvE3ptr.0.2725
+- _ZZL41getkQPParseAttributeRecipientKeySymbolLocvE3ptr.0.2802
+- _ZZL42getkQPParseAttributeAttachmentKeySymbolLocvE3ptr.0.2792
+- _ZZL42getkQPParseAttributeJunkActionKeySymbolLocvE3ptr.0.2717
+- _ZZL43getkQPParseAttributeDescriptionKeySymbolLocvE3ptr.0.2713
+- _ZZL43getkQPParseAttributeDraftActionKeySymbolLocvE3ptr.0.2721
+- _ZZL43getkQPParseAttributeHotelActionKeySymbolLocvE3ptr.0.2749
+- _ZZL44getkQPParseAttributeFlightActionKeySymbolLocvE3ptr.0.2762
+- _ZZL44getkQPParseAttributeLatestActionKeySymbolLocvE3ptr.0.2733
+- _ZZL44getkQPParseAttributeTaggedPersonKeySymbolLocvE3ptr.0.2815
+- _ZZL45getkQPParseAttributeArchiveActionKeySymbolLocvE3ptr.0.2709
+- _ZZL45getkQPParseAttributePrintedActionKeySymbolLocvE3ptr.0.2768
+- _ZZL46getkQPParseAttributeEarliestActionKeySymbolLocvE3ptr.0.2737
+- _ZZL46getkQPParseAttributeGroundedPersonKeySymbolLocvE3ptr.0.2810
+- _ZZL47getkQPParseAttributeCompletedActionKeySymbolLocvE3ptr.0.2729
+- _ZZL48getkQPParseAttributeRestaurantActionKeySymbolLocvE3ptr.0.2743
+- _ZZL53getkQPParseAttributeFlightArrivalLocationKeySymbolLocvE3ptr.0.2753
+- _ZZL55getkQPParseAttributeFlightDepartureLocationKeySymbolLocvE3ptr.0.2757
+- __Block_byref_object_copy_.13126
+- __Block_byref_object_copy_.2303
+- __Block_byref_object_copy_.2707
+- __Block_byref_object_copy_.6593
+- __Block_byref_object_copy_.7395
+- __Block_byref_object_dispose_.13127
+- __Block_byref_object_dispose_.2304
+- __Block_byref_object_dispose_.2708
+- __Block_byref_object_dispose_.6594
+- __Block_byref_object_dispose_.7396
+- __InnerMerge_block_invoke.959
+- __SICreateNewIndex_block_invoke.373
+- __SIInitIndex_block_invoke.1508
+- __SIInitIndex_block_invoke.1522
+- __SIInitIndex_block_invoke.1529
+- __Z12redactStringP8NSString
+- __Z14isLLMDateArgIdi
+- __Z16fetchQUDenseNodePK14__CFDictionaryP9PRContext
+- __Z26groundedNamesRetrievalNodePK14__CFDictionaryxRKNSt3__113unordered_mapINS2_12basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEEfNS2_4hashIS9_EENS2_8equal_toIS9_EENS7_INS2_4pairIKS9_fEEEEEEP9PRContext
+- __Z26isOptionalSearchTermSuffixiRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEPK9__CFArraylbb
+- __Z30getLLMEntityBoostingArgIdScorei
+- __ZL16llmQURankingTreePK14__CFDictionaryP9PRContextP12PRLLMContext
+- __ZL18llmQURetrievalTreePK14__CFDictionaryP9PRContextP12PRLLMContext
+- __ZL26PhPopulateFiltersFromQueryPK20__CFAttributedStringPP10query_nodeS4_P14NSMutableArrayIP7NSValueES9_bP8NSString
+- __ZL36extractSynonymUnalignedMatchingFieldP20SISearchCtx_METADATAP14datastore_infoP6db_objPKjS6_S6_S6_S6_P19PartialQueryResultsP10query_nodeP14__MDPlistBytes
+- __ZNSt3__130__uninitialized_allocator_copyB8nn190102INS_9allocatorINS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEEEEPKS6_S9_PS6_EET2_RT_T0_T1_SB_
+- __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE18__assign_with_sizeB8nn190102IPKS6_SB_EEvT_T0_l
+- __ZZ12redactStringP8NSStringE7isDebug
+- __ZZ12redactStringP8NSStringE9onceToken
+- ___SIContinueIssueMerge2_block_invoke.2460
+- ___SIOpenIndexFilesWithState_block_invoke.1174
+- ___SIOpenIndexFilesWithState_block_invoke.1197
+- ___SIOpenIndexFilesWithState_block_invoke.1202
+- ___SIOpenIndexFilesWithState_block_invoke_2.1199
+- ___SIOpenIndexFilesWithState_block_invoke_2.1204
+- ___SIOpenIndex_block_invoke.1083
+- ___SIOpenIndex_block_invoke.1122
+- ___SIOpenIndex_block_invoke.1134
+- ___ZL11CurrentYearv_block_invoke.709
+- ___ZL11emitResultsP20SISearchCtx_METADATAP19PartialQueryResultsb_block_invoke.203
+- ___ZL12MetadataKeysv_block_invoke.857
+- ___ZL12processItemsP14datastore_infommP24si_localized_value_cachePmbU13block_pointerFPv15SI_OBJECT_EVENT15si_event_data_tmS4_ES4_ooPtmPhbjmbP16dispatch_queue_sS4_jP14__MDPlistBytes14ranking_mode_sP16ci_rankingbits_sP17ci_tc_distances_tP21ci_vector_distances_tP19PartialQueryResultsRP20SISearchCtx_METADATAiRbP10ReadData_sPV3$_0P22ci_combobits_wrapped_sP20dispatch_semaphore_s_block_invoke.161
+- ___ZL14PhThreeYearAgov_block_invoke.706
+- ___ZL17GenericFilterKeysv_block_invoke.850
+- ___ZL18PhRetrievalAttribsv_block_invoke.628
+- ___ZL20PhRankingTreeFromStrPKcfPi_block_invoke.717
+- ___ZL22QueryParserLibraryCorePPc_block_invoke.14236
+- ___ZL22QueryParserLibraryCorePPc_block_invoke.2263
+- ___ZL22QueryParserLibraryCorePPc_block_invoke.2673
+- ___ZL25GenericFilterTopLevelKeysv_block_invoke.844
+- ___ZL26PhExactMatchRankingAttribsv_block_invoke.721
+- ___ZL28NanoSecondsSinceAbsoluteTimey_block_invoke.696
+- ___ZL28PhPopulateAllFilterFromParseP18NSAttributedStringP14NSMutableArrayIP8NSStringEPS1_IP7NSValueES9_S9_S9__block_invoke.565
+- ___ZL29PhPopulateDateFilterFromParseP18NSAttributedStringP14NSMutableArrayIP8NSStringEPS1_IP7NSValueE_block_invoke.644
+- ___ZL30PhPopulateSomeFiltersFromParseP18NSAttributedStringP14NSMutableArrayIP8NSStringEPS1_IP7NSValueES5_S9__block_invoke.641
+- ___ZL31getkQPQUOutputTokenKeySymbolLocv_block_invoke.14225
+- ___ZL31getkQPQUOutputTokenKeySymbolLocv_block_invoke.2271
+- ___ZL31getkQPQUOutputTokenKeySymbolLocv_block_invoke.2662
+- ___ZL35extractPersonUnalignedMatchingFieldP20SISearchCtx_METADATAP14datastore_infoP6db_objPKjS6_S6_S6_P19PartialQueryResultsPP10query_nodelP14__MDPlistBytes_block_invoke.178
+- ___ZL35extractPersonUnalignedMatchingFieldP20SISearchCtx_METADATAP14datastore_infoP6db_objPKjS6_S6_S6_P19PartialQueryResultsPP10query_nodelP14__MDPlistBytes_block_invoke.182
+- ___ZL35extractPersonUnalignedMatchingFieldP20SISearchCtx_METADATAP14datastore_infoP6db_objPKjS6_S6_S6_P19PartialQueryResultsPP10query_nodelP14__MDPlistBytes_block_invoke.186
+- ___ZL35getkQPQUOutputTokenInfoKeySymbolLocv_block_invoke.2694
+- ___ZL36extractSynonymUnalignedMatchingFieldP20SISearchCtx_METADATAP14datastore_infoP6db_objPKjS6_S6_S6_S6_P19PartialQueryResultsP10query_nodeP14__MDPlistBytes_block_invoke.171
+- ___ZL36getkQPParseAttributeDateKeySymbolLocv_block_invoke.2820
+- ___ZL36getkQPQUOutputTokenRangeKeySymbolLocv_block_invoke.14250
+- ___ZL36getkQPQUOutputTokenRangeKeySymbolLocv_block_invoke.2293
+- ___ZL36getkQPQUOutputTokenRangeKeySymbolLocv_block_invoke.2687
+- ___ZL37getkQPParseAttributeMediaKeySymbolLocv_block_invoke.2799
+- ___ZL37getkQPQUOutputTokenArgIdsKeySymbolLocv_block_invoke.14246
+- ___ZL37getkQPQUOutputTokenArgIdsKeySymbolLocv_block_invoke.2285
+- ___ZL37getkQPQUOutputTokenArgIdsKeySymbolLocv_block_invoke.2683
+- ___ZL38getkQPParseAttributeSenderKeySymbolLocv_block_invoke.2807
+- ___ZL38getkQPParseAttributeUnreadKeySymbolLocv_block_invoke.2787
+- ___ZL40getkQPQUOutputTokenArgScoresKeySymbolLocv_block_invoke.14242
+- ___ZL40getkQPQUOutputTokenArgScoresKeySymbolLocv_block_invoke.2679
+- ___ZL41getkQPParseAttributeDueActionKeySymbolLocv_block_invoke.2726
+- ___ZL41getkQPParseAttributeRecipientKeySymbolLocv_block_invoke.2803
+- ___ZL42getkQPParseAttributeAttachmentKeySymbolLocv_block_invoke.2793
+- ___ZL42getkQPParseAttributeJunkActionKeySymbolLocv_block_invoke.2718
+- ___ZL43getkQPParseAttributeDescriptionKeySymbolLocv_block_invoke.2714
+- ___ZL43getkQPParseAttributeDraftActionKeySymbolLocv_block_invoke.2722
+- ___ZL43getkQPParseAttributeHotelActionKeySymbolLocv_block_invoke.2750
+- ___ZL44getkQPParseAttributeFlightActionKeySymbolLocv_block_invoke.2763
+- ___ZL44getkQPParseAttributeLatestActionKeySymbolLocv_block_invoke.2734
+- ___ZL44getkQPParseAttributeTaggedPersonKeySymbolLocv_block_invoke.2816
+- ___ZL45getkQPParseAttributeArchiveActionKeySymbolLocv_block_invoke.2710
+- ___ZL45getkQPParseAttributePrintedActionKeySymbolLocv_block_invoke.2769
+- ___ZL46getkQPParseAttributeEarliestActionKeySymbolLocv_block_invoke.2738
+- ___ZL46getkQPParseAttributeGroundedPersonKeySymbolLocv_block_invoke.2811
+- ___ZL47getkQPParseAttributeCompletedActionKeySymbolLocv_block_invoke.2730
+- ___ZL48getkQPParseAttributeRestaurantActionKeySymbolLocv_block_invoke.2744
+- ___ZL53getkQPParseAttributeFlightArrivalLocationKeySymbolLocv_block_invoke.2754
+- ___ZL55getkQPParseAttributeFlightDepartureLocationKeySymbolLocv_block_invoke.2758
+- ____Z12redactStringP8NSString_block_invoke
+- ____Z19logAttributedStringP8NSStringyPKcS0_P18NSAttributedStringPK9__CFArray_block_invoke
+- ____ZL26PhPopulateFiltersFromQueryPK20__CFAttributedStringPP10query_nodeS4_P14NSMutableArrayIP7NSValueES9_bP8NSString_block_invoke
+- ____ZL26PhPopulateFiltersFromQueryPK20__CFAttributedStringPP10query_nodeS4_P14NSMutableArrayIP7NSValueES9_bP8NSString_block_invoke_2
+- ____ZL36extractSynonymUnalignedMatchingFieldP20SISearchCtx_METADATAP14datastore_infoP6db_objPKjS6_S6_S6_S6_P19PartialQueryResultsP10query_nodeP14__MDPlistBytes_block_invoke
+- ___block_descriptor_76_e8_32o40o_e41_v40?0"NSDictionary"8{_NSRange=QQ}16^B32l
+- ___computeHybridScore_block_invoke
+- ___isAppleInternalInstall_block_invoke
+- ___isCleanSlateEnabled_block_invoke
+- ___queryGoCracked_block_invoke.768
+- ___queryGoCracked_block_invoke.776
+- ___si_init_localized_terms_block_invoke.1551
+- __block_descriptor_tmp.10.13946
+- __block_descriptor_tmp.10.14296
+- __block_descriptor_tmp.1000
+- __block_descriptor_tmp.1005
+- __block_descriptor_tmp.1008
+- __block_descriptor_tmp.101.2948
+- __block_descriptor_tmp.101.9262
+- __block_descriptor_tmp.1014
+- __block_descriptor_tmp.102.13807
+- __block_descriptor_tmp.102.8904
+- __block_descriptor_tmp.10227
+- __block_descriptor_tmp.1025
+- __block_descriptor_tmp.1029
+- __block_descriptor_tmp.1044
+- __block_descriptor_tmp.1045.1285
+- __block_descriptor_tmp.1046
+- __block_descriptor_tmp.1047
+- __block_descriptor_tmp.10563
+- __block_descriptor_tmp.1061
+- __block_descriptor_tmp.1066
+- __block_descriptor_tmp.1069
+- __block_descriptor_tmp.1084
+- __block_descriptor_tmp.1085
+- __block_descriptor_tmp.1086
+- __block_descriptor_tmp.1087
+- __block_descriptor_tmp.11.16373
+- __block_descriptor_tmp.11.16433
+- __block_descriptor_tmp.11102
+- __block_descriptor_tmp.1123.1575
+- __block_descriptor_tmp.1135
+- __block_descriptor_tmp.11473
+- __block_descriptor_tmp.1149
+- __block_descriptor_tmp.1175
+- __block_descriptor_tmp.1176
+- __block_descriptor_tmp.1183
+- __block_descriptor_tmp.1198
+- __block_descriptor_tmp.12.14159
+- __block_descriptor_tmp.12.15568
+- __block_descriptor_tmp.12.7438
+- __block_descriptor_tmp.12.7491
+- __block_descriptor_tmp.12.7887
+- __block_descriptor_tmp.120.10787
+- __block_descriptor_tmp.1200
+- __block_descriptor_tmp.1203
+- __block_descriptor_tmp.1205
+- __block_descriptor_tmp.1206
+- __block_descriptor_tmp.1210
+- __block_descriptor_tmp.12136
+- __block_descriptor_tmp.1214
+- __block_descriptor_tmp.1217.1595
+- __block_descriptor_tmp.12182
+- __block_descriptor_tmp.12277
+- __block_descriptor_tmp.1281
+- __block_descriptor_tmp.12814
+- __block_descriptor_tmp.1282
+- __block_descriptor_tmp.12845
+- __block_descriptor_tmp.13.7225
+- __block_descriptor_tmp.13133
+- __block_descriptor_tmp.13591
+- __block_descriptor_tmp.137.15739
+- __block_descriptor_tmp.1387
+- __block_descriptor_tmp.139.15247
+- __block_descriptor_tmp.139.15737
+- __block_descriptor_tmp.13933
+- __block_descriptor_tmp.14.10237
+- __block_descriptor_tmp.14.15591
+- __block_descriptor_tmp.14.2958
+- __block_descriptor_tmp.14.547
+- __block_descriptor_tmp.14.6144
+- __block_descriptor_tmp.14.7439
+- __block_descriptor_tmp.1403
+- __block_descriptor_tmp.14158
+- __block_descriptor_tmp.142.10806
+- __block_descriptor_tmp.142.15245
+- __block_descriptor_tmp.1425
+- __block_descriptor_tmp.14255
+- __block_descriptor_tmp.1429
+- __block_descriptor_tmp.1431
+- __block_descriptor_tmp.1439
+- __block_descriptor_tmp.144.10807
+- __block_descriptor_tmp.1440.1600
+- __block_descriptor_tmp.1444.1601
+- __block_descriptor_tmp.1446
+- __block_descriptor_tmp.1447
+- __block_descriptor_tmp.1452
+- __block_descriptor_tmp.14537
+- __block_descriptor_tmp.1456.1603
+- __block_descriptor_tmp.14588
+- __block_descriptor_tmp.1459
+- __block_descriptor_tmp.1462
+- __block_descriptor_tmp.1466
+- __block_descriptor_tmp.1467.1384
+- __block_descriptor_tmp.14678
+- __block_descriptor_tmp.14778
+- __block_descriptor_tmp.15.14163
+- __block_descriptor_tmp.15.15597
+- __block_descriptor_tmp.15.16864
+- __block_descriptor_tmp.15.1769
+- __block_descriptor_tmp.15.2972
+- __block_descriptor_tmp.15.7486
+- __block_descriptor_tmp.1504.1571
+- __block_descriptor_tmp.1511
+- __block_descriptor_tmp.152.13067
+- __block_descriptor_tmp.1526
+- __block_descriptor_tmp.1530
+- __block_descriptor_tmp.1531
+- __block_descriptor_tmp.1534
+- __block_descriptor_tmp.1540
+- __block_descriptor_tmp.1547.1570
+- __block_descriptor_tmp.1552
+- __block_descriptor_tmp.1554
+- __block_descriptor_tmp.15558
+- __block_descriptor_tmp.1556
+- __block_descriptor_tmp.1557
+- __block_descriptor_tmp.1559
+- __block_descriptor_tmp.1560
+- __block_descriptor_tmp.1561
+- __block_descriptor_tmp.157
+- __block_descriptor_tmp.16.2973
+- __block_descriptor_tmp.160.11805
+- __block_descriptor_tmp.1600
+- __block_descriptor_tmp.1606
+- __block_descriptor_tmp.16331
+- __block_descriptor_tmp.16341
+- __block_descriptor_tmp.16384
+- __block_descriptor_tmp.164
+- __block_descriptor_tmp.16597
+- __block_descriptor_tmp.16633
+- __block_descriptor_tmp.1666
+- __block_descriptor_tmp.167.11817
+- __block_descriptor_tmp.1671
+- __block_descriptor_tmp.1674
+- __block_descriptor_tmp.16764
+- __block_descriptor_tmp.1679.1383
+- __block_descriptor_tmp.1680
+- __block_descriptor_tmp.16801
+- __block_descriptor_tmp.1681
+- __block_descriptor_tmp.1682
+- __block_descriptor_tmp.1683
+- __block_descriptor_tmp.1686
+- __block_descriptor_tmp.1690
+- __block_descriptor_tmp.1691
+- __block_descriptor_tmp.17.14164
+- __block_descriptor_tmp.17.2986
+- __block_descriptor_tmp.17.8116
+- __block_descriptor_tmp.170
+- __block_descriptor_tmp.17040
+- __block_descriptor_tmp.1710
+- __block_descriptor_tmp.1716
+- __block_descriptor_tmp.1733.1504
+- __block_descriptor_tmp.1737
+- __block_descriptor_tmp.174
+- __block_descriptor_tmp.176
+- __block_descriptor_tmp.177.7713
+- __block_descriptor_tmp.181.10567
+- __block_descriptor_tmp.185
+- __block_descriptor_tmp.185.11882
+- __block_descriptor_tmp.189.15777
+- __block_descriptor_tmp.19.12118
+- __block_descriptor_tmp.19.16870
+- __block_descriptor_tmp.19.7308
+- __block_descriptor_tmp.19.8656
+- __block_descriptor_tmp.1938
+- __block_descriptor_tmp.1969
+- __block_descriptor_tmp.197.11938
+- __block_descriptor_tmp.197.15633
+- __block_descriptor_tmp.199.7618
+- __block_descriptor_tmp.1997
+- __block_descriptor_tmp.2.16381
+- __block_descriptor_tmp.2.5365
+- __block_descriptor_tmp.2.7227
+- __block_descriptor_tmp.2.7296
+- __block_descriptor_tmp.2.7433
+- __block_descriptor_tmp.2.7530
+- __block_descriptor_tmp.20.10251
+- __block_descriptor_tmp.20.5555
+- __block_descriptor_tmp.20.8114
+- __block_descriptor_tmp.20.8654
+- __block_descriptor_tmp.200
+- __block_descriptor_tmp.202
+- __block_descriptor_tmp.202.11946
+- __block_descriptor_tmp.203.914
+- __block_descriptor_tmp.207.7619
+- __block_descriptor_tmp.21.13128
+- __block_descriptor_tmp.21.15635
+- __block_descriptor_tmp.210
+- __block_descriptor_tmp.219
+- __block_descriptor_tmp.22.16753
+- __block_descriptor_tmp.22.7547
+- __block_descriptor_tmp.221.10438
+- __block_descriptor_tmp.2223
+- __block_descriptor_tmp.2258
+- __block_descriptor_tmp.2266
+- __block_descriptor_tmp.227
+- __block_descriptor_tmp.23.10569
+- __block_descriptor_tmp.23.16874
+- __block_descriptor_tmp.230
+- __block_descriptor_tmp.2305
+- __block_descriptor_tmp.2317
+- __block_descriptor_tmp.2327
+- __block_descriptor_tmp.2344
+- __block_descriptor_tmp.2345
+- __block_descriptor_tmp.2370
+- __block_descriptor_tmp.2371
+- __block_descriptor_tmp.2373
+- __block_descriptor_tmp.2378
+- __block_descriptor_tmp.238.10815
+- __block_descriptor_tmp.2380
+- __block_descriptor_tmp.2381
+- __block_descriptor_tmp.24.10248
+- __block_descriptor_tmp.24.13338
+- __block_descriptor_tmp.24.3032
+- __block_descriptor_tmp.24.5576
+- __block_descriptor_tmp.24.7309
+- __block_descriptor_tmp.2402
+- __block_descriptor_tmp.2409
+- __block_descriptor_tmp.2422
+- __block_descriptor_tmp.2423
+- __block_descriptor_tmp.2424
+- __block_descriptor_tmp.2432
+- __block_descriptor_tmp.2433
+- __block_descriptor_tmp.2434
+- __block_descriptor_tmp.2435
+- __block_descriptor_tmp.2440
+- __block_descriptor_tmp.2442
+- __block_descriptor_tmp.2444
+- __block_descriptor_tmp.2453
+- __block_descriptor_tmp.246.15473
+- __block_descriptor_tmp.2463
+- __block_descriptor_tmp.2466
+- __block_descriptor_tmp.2469
+- __block_descriptor_tmp.25.15631
+- __block_descriptor_tmp.25.16603
+- __block_descriptor_tmp.25.3039
+- __block_descriptor_tmp.2548
+- __block_descriptor_tmp.256
+- __block_descriptor_tmp.2581
+- __block_descriptor_tmp.2582
+- __block_descriptor_tmp.2583
+- __block_descriptor_tmp.2587
+- __block_descriptor_tmp.2588
+- __block_descriptor_tmp.26.13585
+- __block_descriptor_tmp.2616
+- __block_descriptor_tmp.2618
+- __block_descriptor_tmp.2627
+- __block_descriptor_tmp.27.13164
+- __block_descriptor_tmp.27.16599
+- __block_descriptor_tmp.28.12105
+- __block_descriptor_tmp.28.13192
+- __block_descriptor_tmp.28.15665
+- __block_descriptor_tmp.28.3044
+- __block_descriptor_tmp.28.313
+- __block_descriptor_tmp.28.5579
+- __block_descriptor_tmp.288
+- __block_descriptor_tmp.2897
+- __block_descriptor_tmp.29.15670
+- __block_descriptor_tmp.29.5578
+- __block_descriptor_tmp.292
+- __block_descriptor_tmp.293
+- __block_descriptor_tmp.294
+- __block_descriptor_tmp.295.15525
+- __block_descriptor_tmp.3.5369
+- __block_descriptor_tmp.3.7297
+- __block_descriptor_tmp.30.15671
+- __block_descriptor_tmp.30.16505
+- __block_descriptor_tmp.30.3048
+- __block_descriptor_tmp.30.7589
+- __block_descriptor_tmp.304
+- __block_descriptor_tmp.31.13886
+- __block_descriptor_tmp.31.14437
+- __block_descriptor_tmp.31.3052
+- __block_descriptor_tmp.32.8166
+- __block_descriptor_tmp.33.10593
+- __block_descriptor_tmp.33.13887
+- __block_descriptor_tmp.33.5584
+- __block_descriptor_tmp.3331
+- __block_descriptor_tmp.34
+- __block_descriptor_tmp.34.13888
+- __block_descriptor_tmp.34.16506
+- __block_descriptor_tmp.34.2979
+- __block_descriptor_tmp.34.5583
+- __block_descriptor_tmp.35.10259
+- __block_descriptor_tmp.35.15711
+- __block_descriptor_tmp.354
+- __block_descriptor_tmp.355
+- __block_descriptor_tmp.3592
+- __block_descriptor_tmp.36.15717
+- __block_descriptor_tmp.36.6138
+- __block_descriptor_tmp.36.8157
+- __block_descriptor_tmp.360.15093
+- __block_descriptor_tmp.37.13892
+- __block_descriptor_tmp.375
+- __block_descriptor_tmp.38.10618
+- __block_descriptor_tmp.38.16391
+- __block_descriptor_tmp.38.8190
+- __block_descriptor_tmp.3881
+- __block_descriptor_tmp.39.15715
+- __block_descriptor_tmp.4.2940
+- __block_descriptor_tmp.4.7531
+- __block_descriptor_tmp.40.8211
+- __block_descriptor_tmp.40.8663
+- __block_descriptor_tmp.41.8001
+- __block_descriptor_tmp.4163
+- __block_descriptor_tmp.42.16393
+- __block_descriptor_tmp.43.8849
+- __block_descriptor_tmp.4462
+- __block_descriptor_tmp.45.8012
+- __block_descriptor_tmp.45.8676
+- __block_descriptor_tmp.47.13169
+- __block_descriptor_tmp.48.11144
+- __block_descriptor_tmp.48.15726
+- __block_descriptor_tmp.48.3082
+- __block_descriptor_tmp.4941
+- __block_descriptor_tmp.5.7285
+- __block_descriptor_tmp.51.11141
+- __block_descriptor_tmp.51.13903
+- __block_descriptor_tmp.51.3087
+- __block_descriptor_tmp.51.9446
+- __block_descriptor_tmp.516.6500
+- __block_descriptor_tmp.52.15729
+- __block_descriptor_tmp.52.8679
+- __block_descriptor_tmp.527
+- __block_descriptor_tmp.53.13904
+- __block_descriptor_tmp.5361
+- __block_descriptor_tmp.540
+- __block_descriptor_tmp.5486
+- __block_descriptor_tmp.55.13890
+- __block_descriptor_tmp.55.2929
+- __block_descriptor_tmp.55.7087
+- __block_descriptor_tmp.5558
+- __block_descriptor_tmp.576
+- __block_descriptor_tmp.5778
+- __block_descriptor_tmp.58.12651
+- __block_descriptor_tmp.58.14775
+- __block_descriptor_tmp.59
+- __block_descriptor_tmp.59.8681
+- __block_descriptor_tmp.6.16809
+- __block_descriptor_tmp.6.5372
+- __block_descriptor_tmp.6.5785
+- __block_descriptor_tmp.6.6073
+- __block_descriptor_tmp.6.7397
+- __block_descriptor_tmp.6.7480
+- __block_descriptor_tmp.6.7536
+- __block_descriptor_tmp.60.7693
+- __block_descriptor_tmp.6080
+- __block_descriptor_tmp.61.7694
+- __block_descriptor_tmp.6125
+- __block_descriptor_tmp.62.14773
+- __block_descriptor_tmp.63.8551
+- __block_descriptor_tmp.636
+- __block_descriptor_tmp.640
+- __block_descriptor_tmp.6521
+- __block_descriptor_tmp.66
+- __block_descriptor_tmp.66.13942
+- __block_descriptor_tmp.66.15140
+- __block_descriptor_tmp.66.8691
+- __block_descriptor_tmp.67.12660
+- __block_descriptor_tmp.67.16710
+- __block_descriptor_tmp.67.7696
+- __block_descriptor_tmp.68.5091
+- __block_descriptor_tmp.680
+- __block_descriptor_tmp.683
+- __block_descriptor_tmp.687
+- __block_descriptor_tmp.69.13707
+- __block_descriptor_tmp.7.2957
+- __block_descriptor_tmp.7.5782
+- __block_descriptor_tmp.7.6075
+- __block_descriptor_tmp.7.7533
+- __block_descriptor_tmp.70.13706
+- __block_descriptor_tmp.70.7695
+- __block_descriptor_tmp.7081
+- __block_descriptor_tmp.71.15758
+- __block_descriptor_tmp.71.7666
+- __block_descriptor_tmp.71.8995
+- __block_descriptor_tmp.7188
+- __block_descriptor_tmp.72.5954
+- __block_descriptor_tmp.7202
+- __block_descriptor_tmp.723
+- __block_descriptor_tmp.726
+- __block_descriptor_tmp.7284
+- __block_descriptor_tmp.73.13704
+- __block_descriptor_tmp.73.15117
+- __block_descriptor_tmp.73.7669
+- __block_descriptor_tmp.733
+- __block_descriptor_tmp.734
+- __block_descriptor_tmp.7363
+- __block_descriptor_tmp.74.7414
+- __block_descriptor_tmp.74.7675
+- __block_descriptor_tmp.74.9001
+- __block_descriptor_tmp.747
+- __block_descriptor_tmp.748
+- __block_descriptor_tmp.7484
+- __block_descriptor_tmp.7529
+- __block_descriptor_tmp.76.15115
+- __block_descriptor_tmp.762
+- __block_descriptor_tmp.77.13772
+- __block_descriptor_tmp.77.7670
+- __block_descriptor_tmp.772
+- __block_descriptor_tmp.775
+- __block_descriptor_tmp.777
+- __block_descriptor_tmp.781
+- __block_descriptor_tmp.7838
+- __block_descriptor_tmp.79.15114
+- __block_descriptor_tmp.79.15867
+- __block_descriptor_tmp.8.12180
+- __block_descriptor_tmp.8.12804
+- __block_descriptor_tmp.8.2620
+- __block_descriptor_tmp.8.2961
+- __block_descriptor_tmp.8.3584
+- __block_descriptor_tmp.8.929
+- __block_descriptor_tmp.8000
+- __block_descriptor_tmp.8107
+- __block_descriptor_tmp.828
+- __block_descriptor_tmp.831
+- __block_descriptor_tmp.837
+- __block_descriptor_tmp.84.7822
+- __block_descriptor_tmp.843
+- __block_descriptor_tmp.85.15111
+- __block_descriptor_tmp.8507
+- __block_descriptor_tmp.8610
+- __block_descriptor_tmp.863
+- __block_descriptor_tmp.8662
+- __block_descriptor_tmp.8789
+- __block_descriptor_tmp.88.2988
+- __block_descriptor_tmp.887
+- __block_descriptor_tmp.9.12249
+- __block_descriptor_tmp.9.7231
+- __block_descriptor_tmp.9.7499
+- __block_descriptor_tmp.9.7597
+- __block_descriptor_tmp.9096
+- __block_descriptor_tmp.92.15889
+- __block_descriptor_tmp.9244
+- __block_descriptor_tmp.9282
+- __block_descriptor_tmp.955
+- __block_descriptor_tmp.96.15894
+- __block_descriptor_tmp.961
+- __block_descriptor_tmp.964
+- __block_descriptor_tmp.967
+- __block_descriptor_tmp.968
+- __block_descriptor_tmp.970
+- __block_descriptor_tmp.9928
+- __block_descriptor_tmp.994
+- __block_literal_global.10225
+- __block_literal_global.10616
+- __block_literal_global.11.13237
+- __block_literal_global.11.966
+- __block_literal_global.11081
+- __block_literal_global.11818
+- __block_literal_global.1209
+- __block_literal_global.12112
+- __block_literal_global.1212
+- __block_literal_global.1216
+- __block_literal_global.1219
+- __block_literal_global.12247
+- __block_literal_global.12275
+- __block_literal_global.126
+- __block_literal_global.128
+- __block_literal_global.12812
+- __block_literal_global.1284
+- __block_literal_global.13.10231
+- __block_literal_global.13.16371
+- __block_literal_global.13.16429
+- __block_literal_global.130
+- __block_literal_global.13125
+- __block_literal_global.132.15734
+- __block_literal_global.13234
+- __block_literal_global.134
+- __block_literal_global.13583
+- __block_literal_global.136.698
+- __block_literal_global.138.15190
+- __block_literal_global.1389
+- __block_literal_global.140
+- __block_literal_global.1405
+- __block_literal_global.141.15191
+- __block_literal_global.141.15735
+- __block_literal_global.141.7647
+- __block_literal_global.142
+- __block_literal_global.14253
+- __block_literal_global.1427
+- __block_literal_global.143
+- __block_literal_global.144.15192
+- __block_literal_global.1442
+- __block_literal_global.14535
+- __block_literal_global.14586
+- __block_literal_global.146
+- __block_literal_global.1461
+- __block_literal_global.14770
+- __block_literal_global.1486
+- __block_literal_global.1536
+- __block_literal_global.1542
+- __block_literal_global.1545
+- __block_literal_global.15589
+- __block_literal_global.1599
+- __block_literal_global.16.10235
+- __block_literal_global.1602
+- __block_literal_global.1608
+- __block_literal_global.16329
+- __block_literal_global.16339
+- __block_literal_global.16378
+- __block_literal_global.166
+- __block_literal_global.16631
+- __block_literal_global.16659
+- __block_literal_global.16799
+- __block_literal_global.1685
+- __block_literal_global.1688
+- __block_literal_global.17.15595
+- __block_literal_global.17.16862
+- __block_literal_global.1708
+- __block_literal_global.1712
+- __block_literal_global.19.8111
+- __block_literal_global.1999
+- __block_literal_global.20
+- __block_literal_global.21.16868
+- __block_literal_global.216
+- __block_literal_global.22.10245
+- __block_literal_global.22.8112
+- __block_literal_global.22.967
+- __block_literal_global.2225
+- __block_literal_global.2260
+- __block_literal_global.23.15630
+- __block_literal_global.2305
+- __block_literal_global.2375
+- __block_literal_global.24.16740
+- __block_literal_global.2455
+- __block_literal_global.258
+- __block_literal_global.26
+- __block_literal_global.26.10246
+- __block_literal_global.26.5574
+- __block_literal_global.260
+- __block_literal_global.2955
+- __block_literal_global.298
+- __block_literal_global.30
+- __block_literal_global.30.1004
+- __block_literal_global.30.13190
+- __block_literal_global.30.311
+- __block_literal_global.30.46
+- __block_literal_global.32.485
+- __block_literal_global.32.7553
+- __block_literal_global.32.997
+- __block_literal_global.3329
+- __block_literal_global.357
+- __block_literal_global.3590
+- __block_literal_global.36.2976
+- __block_literal_global.36.5581
+- __block_literal_global.37
+- __block_literal_global.38.15714
+- __block_literal_global.38.40
+- __block_literal_global.38.6136
+- __block_literal_global.38.993
+- __block_literal_global.3879
+- __block_literal_global.39.2977
+- __block_literal_global.4.16379
+- __block_literal_global.4.7208
+- __block_literal_global.40.16388
+- __block_literal_global.4067
+- __block_literal_global.42.8209
+- __block_literal_global.42.841
+- __block_literal_global.42.988
+- __block_literal_global.44.6152
+- __block_literal_global.4460
+- __block_literal_global.46
+- __block_literal_global.46.989
+- __block_literal_global.483
+- __block_literal_global.50.1007
+- __block_literal_global.50.11129
+- __block_literal_global.5087
+- __block_literal_global.54.15727
+- __block_literal_global.542
+- __block_literal_global.545
+- __block_literal_global.5553
+- __block_literal_global.5779
+- __block_literal_global.6123
+- __block_literal_global.64.14771
+- __block_literal_global.6546
+- __block_literal_global.6703
+- __block_literal_global.68
+- __block_literal_global.682
+- __block_literal_global.685
+- __block_literal_global.689
+- __block_literal_global.69.16677
+- __block_literal_global.7032
+- __block_literal_global.7186
+- __block_literal_global.72.13703
+- __block_literal_global.7200
+- __block_literal_global.725
+- __block_literal_global.728
+- __block_literal_global.736
+- __block_literal_global.74.5914
+- __block_literal_global.7427
+- __block_literal_global.7488
+- __block_literal_global.75.15103
+- __block_literal_global.750
+- __block_literal_global.7532
+- __block_literal_global.76.7392
+- __block_literal_global.764
+- __block_literal_global.779
+- __block_literal_global.7836
+- __block_literal_global.7999
+- __block_literal_global.8.16807
+- __block_literal_global.81.15104
+- __block_literal_global.81.15826
+- __block_literal_global.8105
+- __block_literal_global.83
+- __block_literal_global.830
+- __block_literal_global.830.11373
+- __block_literal_global.833
+- __block_literal_global.839
+- __block_literal_global.845
+- __block_literal_global.8543
+- __block_literal_global.8660
+- __block_literal_global.87.15105
+- __block_literal_global.89
+- __block_literal_global.9.5780
+- __block_literal_global.9242
+- __block_literal_global.9260
+- __block_literal_global.984
+- __block_literal_global.9860
+- __block_literal_global.99
+- __block_literal_global.991
+- __evaluateFuzzyQueryForIndex_block_invoke.216
+- __message_assert.10109
+- __message_assert.10163
+- __message_assert.10528
+- __message_assert.11126
+- __message_assert.11364
+- __message_assert.1212
+- __message_assert.12305
+- __message_assert.12458
+- __message_assert.126
+- __message_assert.12803
+- __message_assert.12832
+- __message_assert.13090
+- __message_assert.13262
+- __message_assert.13313
+- __message_assert.13379
+- __message_assert.13399
+- __message_assert.13412
+- __message_assert.13482
+- __message_assert.13579
+- __message_assert.13844
+- __message_assert.13979
+- __message_assert.14120
+- __message_assert.14264
+- __message_assert.14461
+- __message_assert.14563
+- __message_assert.14701
+- __message_assert.15548
+- __message_assert.15904
+- __message_assert.15931
+- __message_assert.15951
+- __message_assert.16405
+- __message_assert.16692
+- __message_assert.17051
+- __message_assert.2906
+- __message_assert.3267
+- __message_assert.3306
+- __message_assert.3341
+- __message_assert.3613
+- __message_assert.3900
+- __message_assert.4195
+- __message_assert.4676
+- __message_assert.4787
+- __message_assert.5408
+- __message_assert.5517
+- __message_assert.5534
+- __message_assert.5548
+- __message_assert.5607
+- __message_assert.5777
+- __message_assert.5995
+- __message_assert.6017
+- __message_assert.6121
+- __message_assert.7844
+- __message_assert.7901
+- __message_assert.7956
+- __message_assert.8071
+- __message_assert.8503
+- __message_assert.8631
+- __message_assert.8797
+- __message_assert.9254
+- __message_assert.9667
+- __message_assert.9871
+- __path_bundle_index_block_invoke.12120
+- __preIterateQueryForIndex_block_invoke.198
+- __preIterateQueryForIndex_block_invoke.200
+- __preIterateQueryForIndex_block_invoke.203
+- __prepareForTransaction_block_invoke.2431
+- __processOneCS_block_invoke.1734
+- __processOneCS_block_invoke.1937
+- __setCSAttributes2_block_invoke.2367
+- __setCSAttributes2_block_invoke.2372
+- __si_assert_copy_extra.10104
+- __si_assert_copy_extra.10159
+- __si_assert_copy_extra.10523
+- __si_assert_copy_extra.11122
+- __si_assert_copy_extra.11360
+- __si_assert_copy_extra.1211
+- __si_assert_copy_extra.12301
+- __si_assert_copy_extra.12456
+- __si_assert_copy_extra.12799
+- __si_assert_copy_extra.12828
+- __si_assert_copy_extra.13085
+- __si_assert_copy_extra.13257
+- __si_assert_copy_extra.13308
+- __si_assert_copy_extra.13375
+- __si_assert_copy_extra.13395
+- __si_assert_copy_extra.13407
+- __si_assert_copy_extra.13478
+- __si_assert_copy_extra.13574
+- __si_assert_copy_extra.13839
+- __si_assert_copy_extra.13974
+- __si_assert_copy_extra.14115
+- __si_assert_copy_extra.14259
+- __si_assert_copy_extra.14456
+- __si_assert_copy_extra.14558
+- __si_assert_copy_extra.14696
+- __si_assert_copy_extra.15544
+- __si_assert_copy_extra.15901
+- __si_assert_copy_extra.15927
+- __si_assert_copy_extra.15947
+- __si_assert_copy_extra.16400
+- __si_assert_copy_extra.16687
+- __si_assert_copy_extra.17047
+- __si_assert_copy_extra.2901
+- __si_assert_copy_extra.3203
+- __si_assert_copy_extra.3302
+- __si_assert_copy_extra.3336
+- __si_assert_copy_extra.3608
+- __si_assert_copy_extra.3895
+- __si_assert_copy_extra.4191
+- __si_assert_copy_extra.4671
+- __si_assert_copy_extra.4782
+- __si_assert_copy_extra.5404
+- __si_assert_copy_extra.5512
+- __si_assert_copy_extra.5530
+- __si_assert_copy_extra.5544
+- __si_assert_copy_extra.5602
+- __si_assert_copy_extra.5772
+- __si_assert_copy_extra.59
+- __si_assert_copy_extra.5991
+- __si_assert_copy_extra.6013
+- __si_assert_copy_extra.6116
+- __si_assert_copy_extra.7840
+- __si_assert_copy_extra.7896
+- __si_assert_copy_extra.7952
+- __si_assert_copy_extra.8066
+- __si_assert_copy_extra.8499
+- __si_assert_copy_extra.8627
+- __si_assert_copy_extra.8792
+- __si_assert_copy_extra.9249
+- __si_assert_copy_extra.9663
+- __si_assert_copy_extra.9866
+- __si_set_scan_count_block_invoke.2439
+- __si_set_scan_count_block_invoke_2.2441
+- __si_set_scan_count_block_invoke_3.2443
+- __si_update_index_for_su_block_invoke.1709
+- _isCleanSlateEnabled
+- _psid_insert.16928
+- bit_vector_create.13057
+- bit_vector_create.9835
+- bit_vector_init.9360
+- bit_vector_internal_touch_for_set.9406
+- bit_vector_set.1271
+- bit_vector_set.13036
+- bit_vector_set.3263
+- bit_vector_set.3987
+- bit_vector_set.4982
+- bit_vector_set.5640
+- bit_vector_set.9573
+- bit_vector_set.9806
+- bit_vector_set_bits.9415
+- checkDirectory.10164
+- checkNearness.13963
+- commonHash.12725
+- commonHash.13000
+- compareOidIndexPair.16708
+- compareOidIndexPair.6051
+- computeHybridScore.isCleanSlateEnabled
+- computeHybridScore.onceToken
+- data_entry_store.12859
+- db_dump_pommes_query_node_with_prefix.enableDebugLogging
+- doInsertDirectory.10187
+- emitTerms.8876
+- findChild.10165
+- getDirectory.10182
+- getSize.memSize.12797
+- getSize.memSize.13589
+- getSize.memSize.9266
+- get_string_and_length_for_id.15363
+- hash64.9291
+- index_comp.12811
+- index_comp.13595
+- index_comp.9271
+- insertDirectory.10111
+- insertDirectory.10184
+- isAppleInternalInstall.isInternalInstall
+- isAppleInternalInstall.onceToken
+- isCleanSlateEnabled.ffStatus
+- isCleanSlateEnabled.onceToken
+- keycompare.16904
+- localizedFieldTermMatch.13910
+- log_map_access_error.12953
+- log_map_access_error.4761
+- log_map_access_error.9774
+- master_fid_rec.16882
+- master_fid_rec_size.16884
+- oqpush.13619
+- oqpush.4850
+- oqpush.9285
+- packingCount.13778
+- path_bundle_index.sDummyFD.12113
+- pqDisposeApplier.8871
+- preprocessQuery.or_node.1002
+- psid_lookup.16926
+- qsort_cached_allocations.12795
+- qsort_cached_allocations.13587
+- qsort_cached_allocations.9264
+- readCompactPosition.13782
+- remapping_keys.12777
+- restoreVInt32.13281
+- restoreVInt32.5524
+- restoreVInt32.5990
+- sDataMapExceptionCallbacks.12837
+- sDataMapExceptionCallbacks.9672
+- sTotal.11037
+- sTotal.11121
+- sTotal.11304
+- sTotal.13099
+- sTotal.13645
+- sTotal.13838
+- sTotal.14667
+- sTotal.15541
+- sTotal.16598
+- sTotal.5481
+- sTotal.6122
+- sTotal.7858
+- sTotal.8059
+- si_analytics_log.10017
+- si_analytics_log.10579
+- si_analytics_log.12918
+- si_analytics_log.14284
+- si_analytics_log.14479
+- si_analytics_log.14948
+- si_analytics_log.3971
+- si_analytics_log.4679
+- si_analytics_log.5312
+- si_analytics_log.5434
+- si_analytics_log.7907
+- si_analytics_log.8827
+- si_analytics_log.9496
+- si_analytics_log.9735
+- si_rwlock_wrunlock.5244
+- si_shadowing_psid_path_to_oid_path.17044
+- storeVInt64.4895
+- storeVInt64.5624
+- store_stream_read_bytes.10146
+- store_stream_read_bytes.13457
+- store_stream_read_bytes.16318
+- store_stream_read_bytes.4981
+- store_stream_read_bytes.5831
+- store_stream_read_bytes.9646
+- store_stream_read_vint32.10147
+- store_stream_read_vint32.13450
+- store_stream_read_vint32.16308
+- store_stream_read_vint32.4978
+- store_stream_read_vint32.5828
+- store_stream_write_bytes.10142
+- store_stream_write_bytes.13463
+- store_stream_write_bytes.16293
+- store_stream_write_bytes.4822
+- store_stream_write_bytes.5819
+- store_stream_write_bytes.9650
+- store_stream_write_vint32.13460
+- store_stream_write_vint32.16294
+- store_stream_write_vint32.4824
+- store_stream_write_vint32.5820
+- strHash.17258
+- table_extra_bytes.14761
+- takeBuddyPage.5696
+- termPropertyID.13911
+- thread_count.12796
+- thread_count.13588
+- thread_count.9265
+- utf8_byte_length.utf8_len_table.15682
+- utf8_byte_length_noerror.utf8_len_table.15684
+- utf8_to_code_point.utf8_first_char_mask.15683
+- v2_readVInt32.5857
+- v2_readVInt64.13770
+- v2_readVInt64.13958
+- v2_readVInt64.14019
+- v2_readVInt64.4110
+- v2_readVInt64.4739
+- v2_readVInt64.5848
+- v2_readVInt64.7083
+- v2_readVInt64.8960
+- v2_writeVInt64.13466
+- v2_writeVInt64.4703
+- v2_writeVInt64.7040
+- vector_dimension.vec_sizes.15913
+- vector_size.elem_sizes.15912
+- writeVInt64.10141
+- writeVInt64.13462
+- writeVInt64.13988
+- writeVInt64.5436
+- writeVInt64.5821
+- writeVInt64.7904
+- writeVInt64.9358
+CStrings:
++ " %@"
++ " chars>"
++ "\", \""
++ "%@ No search terms found, adding event tokens to ranking tree"
++ "%@ No search terms found, adding event tokens to retrieval tree"
++ "%@[%ld][%s]"
++ "%@[%s] Token %lu skipped (Reason: It's an ignored or bundle specific app entity status token)"
++ "%@[%s] {OCR Match} Adding token: %lu, range:%@, alias name: %@"
++ "%@[%s] {Pre-extraction Match} Adding token: %lu, range:%@, alias name: %@"
++ "..."
++ "/AppleInternal/Library/BuildRoots/a28e7a86-096a-11f0-b3a8-a69e7091fce2/Library/Caches/com.apple.xbs/Sources/Spotlight_frameworks/spotlight/core-db/serial-db2/sdb2.c"
++ "/AppleInternal/Library/BuildRoots/a28e7a86-096a-11f0-b3a8-a69e7091fce2/Library/Caches/com.apple.xbs/Sources/Spotlight_frameworks/spotlight/core-db/serial-db2/sdb2_query.c"
++ "/AppleInternal/Library/BuildRoots/a28e7a86-096a-11f0-b3a8-a69e7091fce2/Library/Caches/com.apple.xbs/Sources/Spotlight_frameworks/spotlight/index/SpotlightIndex/SIHFSSupport.c"
++ "/AppleInternal/Library/BuildRoots/a28e7a86-096a-11f0-b3a8-a69e7091fce2/Library/Caches/com.apple.xbs/Sources/Spotlight_frameworks/spotlight/index/SpotlightIndex/SIHybridPSID.c"
++ "/AppleInternal/Library/BuildRoots/a28e7a86-096a-11f0-b3a8-a69e7091fce2/Library/Caches/com.apple.xbs/Sources/Spotlight_frameworks/spotlight/index/SpotlightIndex/SILiveQuerySupport.c"
++ "/AppleInternal/Library/BuildRoots/a28e7a86-096a-11f0-b3a8-a69e7091fce2/Library/Caches/com.apple.xbs/Sources/Spotlight_frameworks/spotlight/index/SpotlightIndex/SIOID64Support.c"
++ "/AppleInternal/Library/BuildRoots/a28e7a86-096a-11f0-b3a8-a69e7091fce2/Library/Caches/com.apple.xbs/Sources/Spotlight_frameworks/spotlight/index/SpotlightIndex/SIPSIDSupport.c"
++ "/AppleInternal/Library/BuildRoots/a28e7a86-096a-11f0-b3a8-a69e7091fce2/Library/Caches/com.apple.xbs/Sources/Spotlight_frameworks/spotlight/index/SpotlightIndex/SIQueryC.c"
++ "/AppleInternal/Library/BuildRoots/a28e7a86-096a-11f0-b3a8-a69e7091fce2/Library/Caches/com.apple.xbs/Sources/Spotlight_frameworks/spotlight/index/SpotlightIndex/SISearchCtx_FSI.cpp"
++ "/AppleInternal/Library/BuildRoots/a28e7a86-096a-11f0-b3a8-a69e7091fce2/Library/Caches/com.apple.xbs/Sources/Spotlight_frameworks/spotlight/index/SpotlightIndex/SISearchCtx_METADATA.cpp"
++ "/AppleInternal/Library/BuildRoots/a28e7a86-096a-11f0-b3a8-a69e7091fce2/Library/Caches/com.apple.xbs/Sources/Spotlight_frameworks/spotlight/index/SpotlightIndex/SIStoring.c"
++ "/AppleInternal/Library/BuildRoots/a28e7a86-096a-11f0-b3a8-a69e7091fce2/Library/Caches/com.apple.xbs/Sources/Spotlight_frameworks/spotlight/index/SpotlightIndex/SpotlightIndex.c"
++ "1 on 1"
++ "1 on 1 appointment"
++ "1 on 1 appointments"
++ "1 on 1 event"
++ "1 on 1 events"
++ "1 on 1 meeting"
++ "1 on 1 meetings"
++ "1 to 1"
++ "1 to 1 appointment"
++ "1 to 1 appointments"
++ "1 to 1 event"
++ "1 to 1 events"
++ "1 to 1 meeting"
++ "1 to 1 meetings"
++ "1-1"
++ "1-1 appointment"
++ "1-1 appointments"
++ "1-1 event"
++ "1-1 events"
++ "1-1 meeting"
++ "1-1 meetings"
++ "1/1"
++ "1/1 appointment"
++ "1/1 appointments"
++ "1/1 event"
++ "1/1 events"
++ "1/1 meeting"
++ "1/1 meetings"
++ "1:1"
++ "1:1 appointment"
++ "1:1 appointments"
++ "1:1 event"
++ "1:1 events"
++ "1:1 meeting"
++ "1:1 meetings"
++ "APP_CONTAINS_TYPE_DOCUMENT_FOLDER"
++ "APP_CONTAINS_TYPE_GENERIC_FOLDER"
++ "APP_ENTITY_TYPE_DOCUMENT_FOLDER"
++ "APP_ENTITY_TYPE_GENERIC_FOLDER"
++ "APP_ENTITY_TYPE_GROUP_TAB"
++ "APP_ENTITY_TYPE_TAB"
++ "APP_SOURCE_TYPE_DOCUMENT_FOLDER"
++ "APP_SOURCE_TYPE_GENERIC_FOLDER"
++ "CFStringRef  _Nullable getkQPParseAttributeContainsTypeDocumentFolderKey()"
++ "CFStringRef  _Nullable getkQPParseAttributeContainsTypeGenericFolderKey()"
++ "CFStringRef  _Nullable getkQPParseAttributeKindDocumentFolderKey()"
++ "CFStringRef  _Nullable getkQPParseAttributeKindGenericFolderKey()"
++ "CFStringRef  _Nullable getkQPParseAttributeKindGroupTabKey()"
++ "CFStringRef  _Nullable getkQPParseAttributeKindTabKey()"
++ "CFStringRef  _Nullable getkQPParseAttributeSourceTypeDocumentFolderKey()"
++ "CFStringRef  _Nullable getkQPParseAttributeSourceTypeGenericFolderKey()"
++ "CFStringRef  _Nullable getkQPQUOutputTokenIsRelativeTimeKey()"
++ "CFStringRef  _Nullable getkQPQueryParserOptionU2EnabledKey()"
++ "CFStringRef  _Nullable getkQPQueryParserOptionUseLLMParseKey()"
++ "Calendar"
++ "Contacts"
++ "EmailAddresses"
++ "Events"
++ "Files"
++ "INFERRED_APP_ENTITY_TYPE_DOCUMENT_FOLDER"
++ "INFERRED_APP_ENTITY_TYPE_GENERIC_FOLDER"
++ "INFERRED_APP_ENTITY_TYPE_GROUP_TAB"
++ "INFERRED_APP_ENTITY_TYPE_TAB"
++ "Notes"
++ "QueryNodes"
++ "Reminders"
++ "Safari"
++ "Settings"
++ "Token ranking description is = %@"
++ "UserQuery"
++ "[DS]"
++ "[SPM]"
++ "[qid=%lld][%s][POMMES] Context: {\n\tBundleIDs=\"%s\",\n\tNonPhotosBundleIDs=\"%s\",\n\tCoreSpotlight=%d,\n\tCommitted=%d,\n\tCtlCli=%d,\n\tMailCli=%d,\n\tPhotosCli=%d,\n\tSettingsCli=%d,\n\tSearchToolCli=%d,\n\tSpotlightUICli=%d,\n\tRewrite=%d,\n\tHasMail=%d,\n\tHasPhotos=%d,\n\tHasSafari=%d,\n\tHasNonPhotos=%d,\n\tUseQU=%d,\n\tUseLLM=%d,\n\taNNSearchParams=%d,\n\ttokenRewrites=%d,\n}"
++ "[qid=%lld][%s][POMMES] Skip adding photos query node to the POMMES tree (useQU: %d) (useLLM: %d)"
++ "[qid=%lld][%s][POMMES][LLM] Adding L1 Ranking V2 node"
++ "[qid=%lld][%s][POMMES][LLM] Adding L1 Ranking V2 node, enabling L1 normalization"
++ "[qid=%lld][%s][POMMES][LLM] Adding dense retrieval node"
++ "[qid=%lld][%s][POMMES][LLM] Adding filter nodes for not searching over image and video files"
++ "[qid=%lld][%s][POMMES][LLM] Adding image and video file search sub-tree to retrieval tree as intent is document search"
++ "[qid=%lld][%s][POMMES][LLM] Adding sparse ranking node"
++ "[qid=%lld][%s][POMMES][LLM] Adding sparse retrieval node"
++ "[qid=%lld][%s][POMMES][LLM] Applying self node matching for contacts bundle for strict contact query"
++ "[qid=%lld][%s][POMMES][LLM] Applying self node matching only for contacts when infer contacts app entity detected"
++ "[qid=%lld][%s][POMMES][LLM] Context:\n\thasAllOptionalArgs=%d,\n\thasAllTemporalArgs=%d,\n\thasSearchTerm=%d,\n\thasNonOptionalSearchTerm=%d,\n\thasOnlyOptionalSearchTerms=%d,\n\thasContactEntityType=%d,\n\thasStrictContactEntityType=%d,\n\trevisedTimeFilter=%d,\n\tskipSelf=%d,\n\tisV2Enabled=%d,\n\thasPersonOrSelfArg=%d,\n\thasEntityTypeDocument=%d,\n\textraDescription=%ld\n\t#eligibleIdx=%ld,"
++ "[qid=%lld][%s][POMMES][LLM] Create only non-photos retrieval and ranking tree as both SourceType and AppEntityType is non-photos"
++ "[qid=%lld][%s][POMMES][LLM] Create only photos retrieval and ranking tree as either SourceType or AppEntityType is photos"
++ "[qid=%lld][%s][POMMES][LLM] Got an empty ranking query tree (using ALWAYS_FALSE_NODE)"
++ "[qid=%lld][%s][POMMES][LLM] Got an empty retrieval query tree (using ALWAYS_FALSE_NODE)"
++ "[qid=%lld][%s][POMMES][LLM] Got no LLM parse (using ALWAYS_FALSE_NODE) with LLMParse:'%@'"
++ "[qid=%lld][%s][POMMES][LLM] No LLM parse is provided (using ALWAYS_FALSE_NODE) with llmParse:'%@'"
++ "[qid=%lld][%s][POMMES][LLM] Received a NULL (LLM)processorContext (using ALWAYS_FALSE_NODE)"
++ "[qid=%lld][%s][POMMES][LLM] Skip adding non-photos LLM tree, Got no LLM parse (using ALWAYS_FALSE_NODE)"
++ "[qid=%lld][%s][POMMES][LLM] Skipping adding sparse nodes to retrieval tree as all tokens are temporal nodes"
++ "[qid=%lld][%s][POMMES][LLM] Skipping image and video file search sub-tree to retrieval tree as it is empty"
++ "[qid=%lld][%s][POMMES][LLM]%@ %@"
++ "[qid=%lld][%s][POMMES][LLM]%@ Add lemma node \"%@\" for token \"%@\""
++ "[qid=%lld][%s][POMMES][LLM]%@ Added %s grounded names match node"
++ "[qid=%lld][%s][POMMES][LLM]%@ Added filter in bundles {\"%s\"}"
++ "[qid=%lld][%s][POMMES][LLM]%@ Adding %ld grounded name(s) match node (maxScore: %f -> %f)"
++ "[qid=%lld][%s][POMMES][LLM]%@ Adding %s grounded names match node"
++ "[qid=%lld][%s][POMMES][LLM]%@ Adding %s grounded names match node (maxScore: %f == %f)"
++ "[qid=%lld][%s][POMMES][LLM]%@ Adding contacts bundle exclusion filter to search terms"
++ "[qid=%lld][%s][POMMES][LLM]%@ Adding entity-boosting query tree {matchScore: %lf} (invalid: %d)"
++ "[qid=%lld][%s][POMMES][LLM]%@ Adding grounded name \"%@\""
++ "[qid=%lld][%s][POMMES][LLM]%@ Adding lemma node \"%@\" for token \"%@\""
++ "[qid=%lld][%s][POMMES][LLM]%@ Adding lemma node \"%@\" for token \"%@\" in ranking"
++ "[qid=%lld][%s][POMMES][LLM]%@ Adding lemma node \"%@\" for token \"%@\" {matchScore: %lf}"
++ "[qid=%lld][%s][POMMES][LLM]%@ Adding parsed query tree (+nonMatch:%d)"
++ "[qid=%lld][%s][POMMES][LLM]%@ Adding parsed query tree (invalid: %d, maxScore: %f -> %f)"
++ "[qid=%lld][%s][POMMES][LLM]%@ Adding parsed query tree (validDenseNode: %d) (isFilterArg: %d)"
++ "[qid=%lld][%s][POMMES][LLM]%@ Adding ranking description query tree (invalid: %d)"
++ "[qid=%lld][%s][POMMES][LLM]%@ Adding ranking node from retrieval description with matchScore=%0.2f based on attribute \"%s\""
++ "[qid=%lld][%s][POMMES][LLM]%@ Adding raw match token node"
++ "[qid=%lld][%s][POMMES][LLM]%@ Adding token match node"
++ "[qid=%lld][%s][POMMES][LLM]%@ Adding unmatch query tree"
++ "[qid=%lld][%s][POMMES][LLM]%@ Attribute Scores: %s"
++ "[qid=%lld][%s][POMMES][LLM]%@ Extending match with \"%s\""
++ "[qid=%lld][%s][POMMES][LLM]%@ Extending match with \"%s\" (maxScore: %f -> %f)"
++ "[qid=%lld][%s][POMMES][LLM]%@ Got an empty inferredAttributeScores map"
++ "[qid=%lld][%s][POMMES][LLM]%@ Got an empty ranking tree"
++ "[qid=%lld][%s][POMMES][LLM]%@ No grounded name available"
++ "[qid=%lld][%s][POMMES][LLM]%@ Not adding parsed query tree because tokenDescription is empty"
++ "[qid=%lld][%s][POMMES][LLM]%@ Not adding parsed query tree because tokenDescription is empty (validDenseNode: %d) (isFilterArg: %d)"
++ "[qid=%lld][%s][POMMES][LLM]%@ Not adding parsed query tree because we add token matching manually"
++ "[qid=%lld][%s][POMMES][LLM]%@ Skip adding token match node (arg is app entity filter)"
++ "[qid=%lld][%s][POMMES][LLM]%@ Skip adding token match node (arg is conversation filter time)"
++ "[qid=%lld][%s][POMMES][LLM]%@ Skip adding token match node (arg is optional and there is at least one non-optional arg Id in the query)"
++ "[qid=%lld][%s][POMMES][LLM]%@ Skip adding token match node (arg is person sender or receiver)"
++ "[qid=%lld][%s][POMMES][LLM]%@ Skip adding token match node (arg is time and it is relative)"
++ "[qid=%lld][%s][POMMES][LLM]%@ Skip adding token match node (it is optional and there is at least one non-optional arg Id in the query)"
++ "[qid=%lld][%s][POMMES][LLM]%@ Skip adding token match node (this is app entity filter or document inferred app entity)"
++ "[qid=%lld][%s][POMMES][LLM]%@ Skip adding token match node (this is conversation filter time)"
++ "[qid=%lld][%s][POMMES][LLM]%@ Skip adding token match node (this is person sender or receiver)"
++ "[qid=%lld][%s][POMMES][LLM]%@ Skip creating raw match token node"
++ "[qid=%lld][%s][POMMES][LLM]%@ Skip creating raw match tokenNode (hasSearchTerm=%d)"
++ "[qid=%lld][%s][POMMES][LLM]%@ Skip creating raw match tokenNode for SELF"
++ "[qid=%lld][%s][POMMES][LLM]%@ Skipped creating filter attribute node (validDenseNode: %d) (isFilterArg: %d)"
++ "[qid=%lld][%s][POMMES][LLM]%@ Skipped entity-boosting scoring (arg is not ranked)"
++ "[qid=%lld][%s][POMMES][LLM]%@ Skipping (arg is a search term and hasStrictContactEntityType=1)"
++ "[qid=%lld][%s][POMMES][LLM]%@ Skipping (arg is an event type hotel and hasNonOptionalSearchTerm=1)"
++ "[qid=%lld][%s][POMMES][LLM]%@ Skipping (arg is for TopK ranking only)"
++ "[qid=%lld][%s][POMMES][LLM]%@ Skipping (arg is ignored app entity status)"
++ "[qid=%lld][%s][POMMES][LLM]%@ Skipping (arg is inferred app entity)"
++ "[qid=%lld][%s][POMMES][LLM]%@ Skipping (arg is optional)"
++ "[qid=%lld][%s][POMMES][LLM]%@ Skipping (arg is person self and hasContact=%d, skipSelf=%d)"
++ "[qid=%lld][%s][POMMES][LLM]%@ Skipping (it is for TopK ranking only)"
++ "[qid=%lld][%s][POMMES][LLM]%@ Skipping (it is ignored or bundle specific filter app entity status)"
++ "[qid=%lld][%s][POMMES][LLM]%@ Skipping (it is person self and hasContact=%d, skipSelf=%d)"
++ "[qid=%lld][%s][POMMES][LLM]%@ Skipping (matched trailing optional search token)"
++ "[qid=%lld][%s][POMMES][LLM]%@ Skipping adding filter in bundles {\"%s\"} because tokenDescription is empty"
++ "[qid=%lld][%s][POMMES][LLM]%@ noMatchScore=%le"
++ "[qid=%lld][%s][POMMES][LLM]%@ noMatchScore=%le (arg is an ignored or bundle specific app entity status)"
++ "[qid=%lld][%s][POMMES][LLM]%@ noMatchScore=%le (arg is an inferred app entity type)"
++ "[qid=%lld][%s][POMMES][LLM]%@ noMatchScore=%le (arg is optional)"
++ "[qid=%lld][%s][POMMES][LLM]%@ noMatchScore=%le (matched trailing optional search token)"
++ "[qid=%lld][%s][POMMES][LLM]%@ retrieve image and video type of files for file search on macOS"
++ "[qid=%lld][%s][POMMES][LLM][%ld][%s][%@] %@ %@"
++ "[qid=%lld][%s][POMMES][LLM][DS] Combined denseNode with the retrieval filter arguments (filterArgs: %d)"
++ "[qid=%lld][%s][POMMES][LLM][DS] Created ANN node (dim: %lu, thresh: %f, maxCount: %u)"
++ "[qid=%lld][%s][POMMES][LLM][DS] Failed to create an ANN node"
++ "[qid=%lld][%s][POMMES][LLM][DS] Got an empty dense retrieval query node (using ALWAYS_FALSE_NODE)"
++ "[qid=%lld][%s][POMMES][LLM][DS] Got an empty query tree (using ALWAYS_FALSE_NODE)"
++ "[qid=%lld][%s][POMMES][LLM][DS] Got no LLM parse (validDenseNode: %d)"
++ "[qid=%lld][%s][POMMES][LLM][DS] Skipping ANN node (ERROR: Text semantic search FF is disabled)"
++ "[qid=%lld][%s][POMMES][LLM][DS] Skipping ANN node (ERROR: decoded query embedding in null)"
++ "[qid=%lld][%s][POMMES][LLM][DS] Skipping ANN node (ERROR: encoded query embedding in null)"
++ "[qid=%lld][%s][POMMES][LLM][DS] Skipping ANN node (ERROR: missing query embedding key)"
++ "[qid=%lld][%s][POMMES][LLM][DS] Text semantic search is %s and denseNode is %s"
++ "[qid=%lld][%s][POMMES][LLM][LLM][DS] Skipping ANN node (ERROR: Failed to get bytes from embedding)"
++ "[qid=%lld][%s][POMMES][LLM][LLM][DS] Skipping ANN node (ERROR: embedding has 0 dimensionality) [length: %lu]"
++ "[qid=%lld][%s][POMMES][LLM][SPM] Got an empty retrieval query tree (using ALWAYS_FALSE_NODE)"
++ "[qid=%lld][%s][POMMES][LLM][SPM] Got no LLM parse (using ALWAYS_FALSE_NODE) with LLMParse:'%@'"
++ "[qid=%lld][%s][POMMES][LLM][SPM] Skipping adding sparse nodes to retrieval tree as all tokens are temporal nodes"
++ "[qid=%lld][%s][POMMES][LLM][V2] Got an empty ranking query tree (using clone of retrieval node with maxScore = 1)"
++ "[qid=%lld][%s][POMMES][LLM][V2] Got no LLM parse (using ALWAYS_FALSE_NODE) with LLMParse:'%@'"
++ "[qid=%lld][%s][POMMES][QU]%@ Skip creating raw match tokenNode with entity-boosting score, it is relative time arg"
++ "[qid=%lld][%s][POMMES][QU]%@ Skip creating raw match tokenNode, it is relative time arg"
++ "[qid=%lld][%s][POMMES][QU][%ld][%s][%@] %@ %@ %lu"
++ "[qid=%llu][%s][POMMES][LLM][Ph]"
++ "_kMDItemDerivedIsFromMe"
++ "_kMDItemDerivedIsMe"
++ "_kMDItemDerivedIsMeTextContentMatch"
++ "_kMDItemDerivedIsToMe"
++ "addObjectsFromArray:"
++ "andrew"
++ "andy"
++ "beth"
++ "bill"
++ "billy"
++ "bob"
++ "bobby"
++ "charles"
++ "charlie"
++ "chris"
++ "christopher"
++ "chuck"
++ "client: Settings"
++ "com.apple.photoanalysisd"
++ "com.apple.searchd.large_query"
++ "com.apple.suggestd"
++ "dan"
++ "daniel"
++ "danny"
++ "derivedFromToIsMeAliasAdded1.created"
++ "derivedFromToIsMeAliasUpdated1.created"
++ "derivedFromToIsMeNameAdded1.created"
++ "derivedFromToIsMeNameUpdated1.created"
++ "drew"
++ "ed"
++ "eddie"
++ "edward"
++ "eliza"
++ "elizabeth"
++ "ellie"
++ "hank"
++ "harry"
++ "henry"
++ "jack"
++ "james"
++ "jamie"
++ "jim"
++ "jimmy"
++ "joe"
++ "joey"
++ "john"
++ "johnny"
++ "joseph"
++ "kMDItemContentType = \"public.jpeg\" ||                                                                       kMDItemContentType = \"public.png\" ||                                                                        kMDItemContentType = \"public.heic\" ||                                                                        kMDItemContentType = \"public.image\" ||                                                                        kMDItemContentType = \"com.apple.quicktime-movie\" ||                                                                        kMDItemContentType = \"com.apple.m4v-video\" ||                                                                        kMDItemContentType = \"public.mpeg-4\" ||                                                                        kMDItemContentType = \"public.movie\" ||                                                                        kMDItemContentTypeTree = \"public.jpeg\" ||                                                                        kMDItemContentTypeTree = \"public.png\" ||                                                                        kMDItemContentTypeTree = \"public.heic\" ||                                                                        kMDItemContentTypeTree = \"public.image\" ||                                                                        kMDItemContentTypeTree = \"com.apple.quicktime-movie\" ||                                                                        kMDItemContentTypeTree = \"com.apple.m4v-video\" ||                                                                       kMDItemContentTypeTree = \"public.mpeg-4\" ||                                                                        kMDItemContentTypeTree = \"public.movie\""
++ "kMDItemPhotosSceneClassificationTypedIdentifiers"
++ "kQPParseAttributeContainsTypeDocumentFolderKey"
++ "kQPParseAttributeContainsTypeGenericFolderKey"
++ "kQPParseAttributeKindDocumentFolderKey"
++ "kQPParseAttributeKindGenericFolderKey"
++ "kQPParseAttributeKindGroupTabKey"
++ "kQPParseAttributeKindTabKey"
++ "kQPParseAttributeSourceTypeDocumentFolderKey"
++ "kQPParseAttributeSourceTypeGenericFolderKey"
++ "kQPQUOutputTokenIsRelativeTimeKey"
++ "kQPQueryParserOptionU2EnabledKey"
++ "kQPQueryParserOptionUseLLMParseKey"
++ "kat"
++ "kate"
++ "katherine"
++ "kathy"
++ "katie"
++ "kim"
++ "kimberly"
++ "liam"
++ "liz"
++ "lizzy"
++ "localizedLowercaseString"
++ "maggie"
++ "margaret"
++ "marge"
++ "mary"
++ "matt"
++ "matthew"
++ "matty"
++ "may"
++ "meg"
++ "michael"
++ "mike"
++ "mikey"
++ "molly"
++ "one on one"
++ "one on one appointment"
++ "one on one appointments"
++ "one on one event"
++ "one on one events"
++ "one on one meeting"
++ "one on one meetings"
++ "one to one"
++ "one to one appointment"
++ "one to one appointments"
++ "one to one event"
++ "one to one events"
++ "one to one meeting"
++ "one to one meetings"
++ "one-on-one"
++ "one-on-one appointment"
++ "one-on-one appointments"
++ "one-on-one event"
++ "one-on-one events"
++ "one-on-one meeting"
++ "one-on-one meetings"
++ "one-to-one"
++ "one-to-one appointment"
++ "one-to-one appointments"
++ "one-to-one event"
++ "one-to-one events"
++ "one-to-one meeting"
++ "one-to-one meetings"
++ "peggy"
++ "polly"
++ "rich"
++ "richard"
++ "rick"
++ "ricky"
++ "rob"
++ "robby"
++ "robert"
++ "sadie"
++ "sally"
++ "sarah"
++ "ted"
++ "teddy"
++ "thomas"
++ "tim"
++ "timothy"
++ "tom"
++ "tommy"
++ "topher"
++ "unionSet:"
++ "v40@?0^{__SI=Q{SIFileOps=^?^?^?}{SIGuardedFd=iQ}isII^{SIWatchDog}^{__CFDictionary}{_opaque_pthread_rwlock_t=q[192c]}{si_missing_oids_s={os_unfair_lock_s=I}^{__RLEOIDArray}^{__RLEOIDArray}}{si_missing_oids_s={os_unfair_lock_s=I}^{__RLEOIDArray}^{__RLEOIDArray}}{os_unfair_lock_s=I}{si_comm_dates_s=^{__CFBag}^{__CFBag}^{__CFBag}^{__CFBag}^{__CFBag}^{__CFBag}^{__CFBag}^{__CFBag}}{si_comm_dates_s=^{__CFBag}^{__CFBag}^{__CFBag}^{__CFBag}^{__CFBag}^{__CFBag}^{__CFBag}^{__CFBag}}{si_comm_dates_s=^{__CFBag}^{__CFBag}^{__CFBag}^{__CFBag}^{__CFBag}^{__CFBag}^{__CFBag}^{__CFBag}}{si_comm_dates_s=^{__CFBag}^{__CFBag}^{__CFBag}^{__CFBag}^{__CFBag}^{__CFBag}^{__CFBag}^{__CFBag}}{si_comm_dates_s=^{__CFBag}^{__CFBag}^{__CFBag}^{__CFBag}^{__CFBag}^{__CFBag}^{__CFBag}^{__CFBag}}^{__CFDictionary}^{_MDPlistContainer}Bi[18^{si_scheduler_token_s}]iI[4^{dispatch_semaphore_s}]{?=[18^{_si_work_scheduler}][20^{_si_workqueue}]^{si_workqueue_list_s}}^{dispatch_queue_s}^{datastore_info}{CIMetaInfo=i^{fd_obj}iQIIIIIIIIqqiiBI}^{DocStore}QQ{_opaque_pthread_mutex_t=q[56c]}^{ContentIndexList}^{ContentIndexList}iII^{_SI_PersistentIDStore}{__SIStoreToken={?=CCCCCCCCCCCCCCCC}^{__CFUUID}}ACAII{os_unfair_lock_s=I}diI^{__CFDictionary}{_opaque_pthread_mutex_t=q[56c]}{_opaque_pthread_mutex_t=q[56c]}{_opaque_pthread_mutex_t=q[56c]}{os_unfair_lock_s=I}^{__CFBag}{_opaque_pthread_mutex_t=q[56c]}^{__CFSet}^{__CFDictionary}Q^{__CFBag}^{__CFDictionary}{_opaque_pthread_mutex_t=q[56c]}{_opaque_pthread_mutex_t=q[56c]}{_opaque_pthread_cond_t=q[40c]}iIIIIIIIIIIIIIIIIIIIBBAq^{__CFDictionary}^{__CFBitVector}^{si_mobile_journal}^{si_mobile_journal}^{si_mobile_journal}AqAqAqd^?^vdd{?=^{fd_obj}IIIq{os_unfair_lock_s=I}BB}III^{FinderDateFields}{_opaque_pthread_mutex_t=q[56c]}^{fd_obj}^{fd_obj}^{fd_obj}iii^{_SIIndexCallbacks}^{__CFArray}^{__CFArray}qqqQIIiiBBBBBBBABB^{si_scheduler_token_s}BBBBBQq[4096c]{os_unfair_lock_s=I}{os_unfair_lock_s=I}b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b2b1^i^{__CFSet}^{__CFDictionary}^{__SIUINT64Set}^{ReverseDirStore_s}^{FileTree_Overlay_s}^{__CFSet}^{TermUpdateSet}{_opaque_pthread_rwlock_t=q[192c]}[16C]Bi^{datastore_info}AIBB[5i]*iI^vB^{fd_obj}iiii{AccumulatedCounts_s={_opaque_pthread_mutex_t=q[56c]}[256q][256I]}}8^{_xpc_activity_s=}16^B24^{dispatch_group_s=}32"
++ "william"
++ "{"
++ "}"
+- "%@[%s] Token %lu skipped (Reason: It's an ignored app entity status token)"
+- "/AppleInternal/Library/BuildRoots/0e5e56ba-061f-11f0-a913-122ba06eff56/Library/Caches/com.apple.xbs/Sources/Spotlight_frameworks/spotlight/core-db/serial-db2/sdb2.c"
+- "/AppleInternal/Library/BuildRoots/0e5e56ba-061f-11f0-a913-122ba06eff56/Library/Caches/com.apple.xbs/Sources/Spotlight_frameworks/spotlight/core-db/serial-db2/sdb2_query.c"
+- "/AppleInternal/Library/BuildRoots/0e5e56ba-061f-11f0-a913-122ba06eff56/Library/Caches/com.apple.xbs/Sources/Spotlight_frameworks/spotlight/index/SpotlightIndex/SIHFSSupport.c"
+- "/AppleInternal/Library/BuildRoots/0e5e56ba-061f-11f0-a913-122ba06eff56/Library/Caches/com.apple.xbs/Sources/Spotlight_frameworks/spotlight/index/SpotlightIndex/SIHybridPSID.c"
+- "/AppleInternal/Library/BuildRoots/0e5e56ba-061f-11f0-a913-122ba06eff56/Library/Caches/com.apple.xbs/Sources/Spotlight_frameworks/spotlight/index/SpotlightIndex/SILiveQuerySupport.c"
+- "/AppleInternal/Library/BuildRoots/0e5e56ba-061f-11f0-a913-122ba06eff56/Library/Caches/com.apple.xbs/Sources/Spotlight_frameworks/spotlight/index/SpotlightIndex/SIOID64Support.c"
+- "/AppleInternal/Library/BuildRoots/0e5e56ba-061f-11f0-a913-122ba06eff56/Library/Caches/com.apple.xbs/Sources/Spotlight_frameworks/spotlight/index/SpotlightIndex/SIPSIDSupport.c"
+- "/AppleInternal/Library/BuildRoots/0e5e56ba-061f-11f0-a913-122ba06eff56/Library/Caches/com.apple.xbs/Sources/Spotlight_frameworks/spotlight/index/SpotlightIndex/SIQueryC.c"
+- "/AppleInternal/Library/BuildRoots/0e5e56ba-061f-11f0-a913-122ba06eff56/Library/Caches/com.apple.xbs/Sources/Spotlight_frameworks/spotlight/index/SpotlightIndex/SISearchCtx_FSI.cpp"
+- "/AppleInternal/Library/BuildRoots/0e5e56ba-061f-11f0-a913-122ba06eff56/Library/Caches/com.apple.xbs/Sources/Spotlight_frameworks/spotlight/index/SpotlightIndex/SISearchCtx_METADATA.cpp"
+- "/AppleInternal/Library/BuildRoots/0e5e56ba-061f-11f0-a913-122ba06eff56/Library/Caches/com.apple.xbs/Sources/Spotlight_frameworks/spotlight/index/SpotlightIndex/SIStoring.c"
+- "/AppleInternal/Library/BuildRoots/0e5e56ba-061f-11f0-a913-122ba06eff56/Library/Caches/com.apple.xbs/Sources/Spotlight_frameworks/spotlight/index/SpotlightIndex/SpotlightIndex.c"
+- "SearchToolCleanSlateDenseRetrieval"
+- "[CS]"
+- "[LLM]"
+- "[LLM]%@[%ld][%s]"
+- "[qid=%lld][%s][POMMES] Skip adding photos QU query node to the POMMES tree (useQU: %d) (useLLM: %d)"
+- "[qid=%lld][%s][POMMES][QU]%@ Add %lu grounded names"
+- "[qid=%lld][%s][POMMES][QU]%@ Add lemma node \"%@\" for token \"%@\""
+- "[qid=%lld][%s][POMMES][QU]%@ Add lemma node \"%@\" for token \"%@\" in ranking"
+- "[qid=%lld][%s][POMMES][QU]%@ Added %lu grounded names"
+- "[qid=%lld][%s][POMMES][QU]%@ Added filter in bundles %s"
+- "[qid=%lld][%s][POMMES][QU]%@ Added ranking node with matchScore=%0.2f based on attribute \"%s\""
+- "[qid=%lld][%s][POMMES][QU]%@ Adding %ld grounded names match node (maxScore: %f == %f)"
+- "[qid=%lld][%s][POMMES][QU]%@ Adding grounded name \"%@\""
+- "[qid=%lld][%s][POMMES][QU]%@ Adding grounded name %ld match node (maxScore: %f -> %f)"
+- "[qid=%lld][%s][POMMES][QU]%@ Adding grounded name match node"
+- "[qid=%lld][%s][POMMES][QU]%@ Adding parsed query tree (+nonMatch:%d)"
+- "[qid=%lld][%s][POMMES][QU]%@ Adding parsed query tree (denseNode: %d) (filterArg: %d)"
+- "[qid=%lld][%s][POMMES][QU]%@ Adding parsed query tree (invalid: %d)"
+- "[qid=%lld][%s][POMMES][QU]%@ Adding parsed query tree (invalid: %d, maxScore: %f -> %f)"
+- "[qid=%lld][%s][POMMES][QU]%@ Adding raw match token node"
+- "[qid=%lld][%s][POMMES][QU]%@ Adding token match node"
+- "[qid=%lld][%s][POMMES][QU]%@ Adding unmatch query tree"
+- "[qid=%lld][%s][POMMES][QU]%@ Extending match with \"%s\""
+- "[qid=%lld][%s][POMMES][QU]%@ Extending match with \"%s\" (maxScore: %f -> %f)"
+- "[qid=%lld][%s][POMMES][QU]%@ Got an empty inferredAttributeScores map"
+- "[qid=%lld][%s][POMMES][QU]%@ Got an empty ranking tree"
+- "[qid=%lld][%s][POMMES][QU]%@ No grounded name available"
+- "[qid=%lld][%s][POMMES][QU]%@ Not adding parsed query tree because tokenDescription is empty"
+- "[qid=%lld][%s][POMMES][QU]%@ Not adding parsed query tree because tokenDescription is empty (denseNode: %d) (filterArg: %d)"
+- "[qid=%lld][%s][POMMES][QU]%@ Not adding parsed query tree because we add token matching manually"
+- "[qid=%lld][%s][POMMES][QU]%@ Not adding parsed query tree in the CS ranking tree"
+- "[qid=%lld][%s][POMMES][QU]%@ Skip adding token match node (it is optional and there is at least one non-optional arg Id in the query)"
+- "[qid=%lld][%s][POMMES][QU]%@ Skip adding token match node (this is app entity filter)"
+- "[qid=%lld][%s][POMMES][QU]%@ Skip adding token match node (this is conversation filter time)"
+- "[qid=%lld][%s][POMMES][QU]%@ Skip adding token match node (this is person sender or receiver)"
+- "[qid=%lld][%s][POMMES][QU]%@ Skip creating raw match token node"
+- "[qid=%lld][%s][POMMES][QU]%@ Skip creating raw match tokenNode"
+- "[qid=%lld][%s][POMMES][QU]%@ Skip creating raw match tokenNode (hasSearchTerm=%d)"
+- "[qid=%lld][%s][POMMES][QU]%@ Skip creating raw match tokenNode for SELF"
+- "[qid=%lld][%s][POMMES][QU]%@ Skipped (it is not ranked)"
+- "[qid=%lld][%s][POMMES][QU]%@ Skipped CleanSlate scoring (it is not ranked)"
+- "[qid=%lld][%s][POMMES][QU]%@ Skipped creating filter attribute node (denseNode: %d) (filterArg: %d)"
+- "[qid=%lld][%s][POMMES][QU]%@ Skipping (it is a search term and hasContact=1)"
+- "[qid=%lld][%s][POMMES][QU]%@ Skipping (it is for TopK ranking only)"
+- "[qid=%lld][%s][POMMES][QU]%@ Skipping (it is ignored app entity status)"
+- "[qid=%lld][%s][POMMES][QU]%@ Skipping (it is inferred app entity)"
+- "[qid=%lld][%s][POMMES][QU]%@ Skipping (it is optional)"
+- "[qid=%lld][%s][POMMES][QU]%@ Skipping (it is person self and hasContact=%d, skipSelf=%d)"
+- "[qid=%lld][%s][POMMES][QU]%@ Skipping (matched trailing optional search token)"
+- "[qid=%lld][%s][POMMES][QU]%@ Skipping adding filter in bundles %s because tokenDescription is empty"
+- "[qid=%lld][%s][POMMES][QU]%@ Token ranking description is = %@"
+- "[qid=%lld][%s][POMMES][QU]%@ matchScore=%lf"
+- "[qid=%lld][%s][POMMES][QU]%@ noMatchScore=%le"
+- "[qid=%lld][%s][POMMES][QU]%@ noMatchScore=%le (it is an ignored app entity status)"
+- "[qid=%lld][%s][POMMES][QU]%@ noMatchScore=%le (it is an inferred app entity type)"
+- "[qid=%lld][%s][POMMES][QU]%@ noMatchScore=%le (it is optional)"
+- "[qid=%lld][%s][POMMES][QU]%@ noMatchScore=%le (matched trailing optional search token)"
+- "[qid=%lld][%s][POMMES][QU]%@[%ld][%s][%@] %@ %@"
+- "[qid=%lld][%s][POMMES][QU]%@[%ld][%s][%@] %@ %@ %lu"
+- "[qid=%lld][%s][POMMES][QU][LLM] Adding dense node to retrieval tree"
+- "[qid=%lld][%s][POMMES][QU][LLM] Context:\n\thasAllOptionalArgs=%d,\n\thasAllTemporalArgs=%d,\n\thasSearchTerm=%d,\n\thasOnlyOptionalSearchTerms=%d,\n\thasContactEntityType=%d,\n\trevisedTimeFilter=%d,\n\tskipSelf=%d,\n\tshouldApplyLocationFilterToDenseNode=%d,\n\tisContactSearch=%d\n\tisV2Enabled=%d,\n\textraDescription=%ld\n\t#eligibleIdx=%ld,"
+- "[qid=%lld][%s][POMMES][QU][LLM] Create only non-photos retrieval and ranking tree as both sourcetype and appentitytype is non-photos"
+- "[qid=%lld][%s][POMMES][QU][LLM] Create only photos retrieval and ranking tree as either sourcetype or appentitytype is photos"
+- "[qid=%lld][%s][POMMES][QU][LLM] Got an empty ranking query tree (using ALWAYS_FALSE_NODE)"
+- "[qid=%lld][%s][POMMES][QU][LLM] Got an empty retrieval query tree (using ALWAYS_FALSE_NODE)"
+- "[qid=%lld][%s][POMMES][QU][LLM] Got no LLM parse (using ALWAYS_FALSE_NODE) with LLMParse:'%@'"
+- "[qid=%lld][%s][POMMES][QU][LLM] No LLM parse is provided (using ALWAYS_FALSE_NODE) with llmParse:'%@'"
+- "[qid=%lld][%s][POMMES][QU][LLM] Received a NULL (LLM)processorContext (using ALWAYS_FALSE_NODE)"
+- "[qid=%lld][%s][POMMES][QU][LLM] Skip adding non-photos LLM tree, Got no LLM parse (using ALWAYS_FALSE_NODE)"
+- "[qid=%lld][%s][POMMES][QU][LLM] Skipping adding sparse nodes to retrieval tree as all tokens are temporal nodes"
+- "[qid=%lld][%s][POMMES][QU][LLM][CS] Adding Clean Slate Dense ranking node"
+- "[qid=%lld][%s][POMMES][QU][LLM][CS] Adding Clean Slate Dense ranking node, disabling L1 normalization"
+- "[qid=%lld][%s][POMMES][QU][LLM][CS] Adding Clean Slate Dense retrieval node"
+- "[qid=%lld][%s][POMMES][QU][LLM][CS] Adding sparse ranking node"
+- "[qid=%lld][%s][POMMES][QU][LLM][CS] Adding sparse retrieval node"
+- "[qid=%lld][%s][POMMES][QU][LLM][CS] Combined denseNode with the retrieval filter arguments (filterArgs: %d)"
+- "[qid=%lld][%s][POMMES][QU][LLM][CS] Created ANN node (dim: %lu, thresh: %f, maxCount: %u)"
+- "[qid=%lld][%s][POMMES][QU][LLM][CS] Failed to create an ANN node"
+- "[qid=%lld][%s][POMMES][QU][LLM][CS] Got an empty Clean Slate dense retrieval query node (using ALWAYS_FALSE_NODE)"
+- "[qid=%lld][%s][POMMES][QU][LLM][CS] Got an empty query tree (using ALWAYS_FALSE_NODE)"
+- "[qid=%lld][%s][POMMES][QU][LLM][CS] Got an empty ranking query tree (using ALWAYS_FALSE_NODE)"
+- "[qid=%lld][%s][POMMES][QU][LLM][CS] Got no LLM parse (denseNode: %d)"
+- "[qid=%lld][%s][POMMES][QU][LLM][CS] Got no LLM parse (using ALWAYS_FALSE_NODE) with LLMParse:'%@'"
+- "[qid=%lld][%s][POMMES][QU][LLM][CS] Skipping ANN node (ERROR: Failed to get bytes from embedding)"
+- "[qid=%lld][%s][POMMES][QU][LLM][CS] Skipping ANN node (ERROR: Text semantic search FF is disabled)"
+- "[qid=%lld][%s][POMMES][QU][LLM][CS] Skipping ANN node (ERROR: decoded query embedding in null)"
+- "[qid=%lld][%s][POMMES][QU][LLM][CS] Skipping ANN node (ERROR: embedding has 0 dimensionality) [length: %lu]"
+- "[qid=%lld][%s][POMMES][QU][LLM][CS] Skipping ANN node (ERROR: encoded query embedding in null)"
+- "[qid=%lld][%s][POMMES][QU][LLM][CS] Skipping ANN node (ERROR: missing query embedding key)"
+- "[qid=%lld][%s][POMMES][QU][LLM][CS] Skipping ANN node (ERROR: missing query understanding dictionary)"
+- "[qid=%lld][%s][POMMES][QU][LLM][CS] Skipping dense node because query intent is \"contacts\" and query inludes a person ARG. (using ALWAYS_FALSE_NODE)"
+- "[qid=%lld][%s][POMMES][QU][LLM][CS] Text semantic search is %s and denseNode is %s"
+- "[qid=%lld][%s][POMMES][QU][LLM][CS][tokenIdx=%lu] add location filter for %s"
+- "[qid=%lld][%s][POMMES][QU][LLM][V2] Adding L1 Ranking V2 node"
+- "[qid=%lld][%s][POMMES][QU][LLM][V2] Adding L1 Ranking V2 node, enabling L1 normalization"
+- "[qid=%lld][%s][POMMES][QU][LLM][V2] Got an empty ranking query tree (using ALWAYS_FALSE_NODE)"
+- "[qid=%lld][%s][POMMES][QU][LLM][V2] Got no LLM parse (using ALWAYS_FALSE_NODE) with LLMParse:'%@'"
+- "[qid=%llu][%s][POMMES][Ph][LLM]"
+- "v40@?0^{__SI=Q{SIFileOps=^?^?^?}{SIGuardedFd=iQ}isII^{SIWatchDog}^{__CFDictionary}{_opaque_pthread_rwlock_t=q[192c]}{si_missing_oids_s={os_unfair_lock_s=I}^{__RLEOIDArray}^{__RLEOIDArray}}{si_missing_oids_s={os_unfair_lock_s=I}^{__RLEOIDArray}^{__RLEOIDArray}}{os_unfair_lock_s=I}{si_comm_dates_s=^{__CFBag}^{__CFBag}^{__CFBag}^{__CFBag}^{__CFBag}^{__CFBag}^{__CFBag}^{__CFBag}}{si_comm_dates_s=^{__CFBag}^{__CFBag}^{__CFBag}^{__CFBag}^{__CFBag}^{__CFBag}^{__CFBag}^{__CFBag}}{si_comm_dates_s=^{__CFBag}^{__CFBag}^{__CFBag}^{__CFBag}^{__CFBag}^{__CFBag}^{__CFBag}^{__CFBag}}{si_comm_dates_s=^{__CFBag}^{__CFBag}^{__CFBag}^{__CFBag}^{__CFBag}^{__CFBag}^{__CFBag}^{__CFBag}}{si_comm_dates_s=^{__CFBag}^{__CFBag}^{__CFBag}^{__CFBag}^{__CFBag}^{__CFBag}^{__CFBag}^{__CFBag}}^{__CFDictionary}^{_MDPlistContainer}Bi[18^{si_scheduler_token_s}]iI[4^{dispatch_semaphore_s}]{?=[18^{_si_work_scheduler}][20^{_si_workqueue}]^{si_workqueue_list_s}}^{dispatch_queue_s}^{datastore_info}{CIMetaInfo=i^{fd_obj}iQIIIIIIIIqqiiBI}^{DocStore}QQ{_opaque_pthread_mutex_t=q[56c]}^{ContentIndexList}^{ContentIndexList}iII^{_SI_PersistentIDStore}{__SIStoreToken={?=CCCCCCCCCCCCCCCC}^{__CFUUID}}ACAII{os_unfair_lock_s=I}diI^{__CFDictionary}{_opaque_pthread_mutex_t=q[56c]}{_opaque_pthread_mutex_t=q[56c]}{_opaque_pthread_mutex_t=q[56c]}{os_unfair_lock_s=I}^{__CFBag}{_opaque_pthread_mutex_t=q[56c]}^{__CFSet}^{__CFDictionary}Q^{__CFBag}^{__CFDictionary}{_opaque_pthread_mutex_t=q[56c]}{_opaque_pthread_mutex_t=q[56c]}{_opaque_pthread_cond_t=q[40c]}iIIIIIIIIIIIIIIIIIIIBBAq^{__CFDictionary}^{__CFBitVector}^{si_mobile_journal}^{si_mobile_journal}^{si_mobile_journal}AqAqAqd^?^vdd{?=^{fd_obj}IIIq{os_unfair_lock_s=I}BB}III^{FinderDateFields}{_opaque_pthread_mutex_t=q[56c]}^{fd_obj}^{fd_obj}^{fd_obj}iii^{_SIIndexCallbacks}^{__CFArray}^{__CFArray}qqqQIIiiBBBBBBBABB^{si_scheduler_token_s}BBBBBQq[4096c]{os_unfair_lock_s=I}{os_unfair_lock_s=I}b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b2b1^i^{__CFSet}^{__CFDictionary}^{__SIUINT64Set}^{ReverseDirStore_s}^{FileTree_Overlay_s}^{__CFSet}^{TermUpdateSet}{_opaque_pthread_rwlock_t=q[192c]}[16C]Bi^{datastore_info}AIBB[5i]*iI^vB^{fd_obj}iiii{AccumulatedCounts_s={_opaque_pthread_mutex_t=q[56c]}[256q][256I]}}8^{_xpc_activity_s=}16^B24^{dispatch_group_s=}32"
+
+```
