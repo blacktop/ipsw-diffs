@@ -5730,6 +5730,92 @@ CStrings:
 
 </details>
 
+### iBoot
+
+| iOS | Version |
+| :-- | :------ |
+| 18.4 *(22E240)* | iBoot-11881.100.993 |
+| 18.5 *(22F5042g)* | iBoot-11881.120.91.0.1 |
+
+#### 🆕 NEW (4)
+
+<details>
+  <summary><i>View NEW</i></summary>
+
+##### `AppleSMCFirmware.bin`
+  - `AppleSMCFirmware_H17-5204.120.45.d93.REL`
+##### `iboot_blob28.bin`
+  - `DAcKBcSBcSHcOIcDLcTRcSAmBDmCFmLFmCHmSMmk`
+  - `~u0LBBCCCFCMCOCPCRCSCTCXCZCADDDEDIDPDRDSDTDWDFEKEMEREBFCFDFIFMFQFRFSFVFWF1G2G3G4GTGFHOH1I2I3I4IBICIDIEIFIHILIMIPIRISITIVIZIEKILMLRLWL0M1M2M3MAMCMDMFMIMOMPMQMVMCNCOVOZOAPBPCPDPLPMPNPPPRPSPTPYPMQVQCRDRFRIRLRMRPRSRVRCSFSMSSSCTFTLTMTPTRTTTVTEUSU1V2V3V4VNVRV3p`
+##### `RTKit.bin`
+  - `RCS %d First Error: Cmd = 0x%x, Timestamp = 0x%x, Status = 0x%x`
+##### `iboot`
+  - `MCE FW E001- built on Fri Mar 21 22:15:45 UTC 2025 by root`
+  - `8o{A"7 nlg`
+  - `root@g5wnr.p1l.plx.sd...2025/03/21@21:24:02`
+  - `:cSmj\g#Q]mUs`
+  - `1L>Hyo4lW2P`
+  - `iBoot-11881.120.91.0.1`
+  - `{46c2vll<;`
+  - `%s Overflow: current_ptr = 0x%llx, region_end = 0x%llx`
+  - `NVf;Gzy6OfMrp`
+  - `.vp%%5GrFke`
+  - `Config Table base address is not 256 Byte Aligned`
+  - `Invalid copy direction:%d`
+  - `ApplePMUFirmware-503.120.2~328.release`
+  - `48d11dabb471e66eede5813dfc056de3`
+  - `b Y~EFL8b=f`
+  - `C'6'#o{Hc4`
+  - `drivers/apple/silicon/tunableh/t8140/tunableh.c`
+  - `Sequence base address is not 32 Byte Aligned`
+  - `NDSz&>!@}^`
+  - `hdmi21_features_enabled=1`
+  - `vg#{zsmo{m`
+  - `JH7JUMB>%_iMj)`
+  - `H+?t048<02`
+  - `&AhN_@wau8`
+  - `":xLU+bHn@B`
+  - `Opcode %d not defined`
+  - `yd@@EPStF8-`
+
+</details>
+
+#### ❌ Removed (4)
+
+<details>
+  <summary><i>View Removed</i></summary>
+
+##### `iboot`
+  - `imei_V)ITCj`
+  - `q;&N4ipDj.`
+  - `f9EuAGb)=b`
+  - `:/I7&!6Muvi`
+  - `5m;T;d0/d&`
+  - `ApplePMUFirmware-503.100.31~856.release`
+  - `iBoot-11881.100.993`
+  - `fosaAW]T}o`
+  - `n&}PKzp89}`
+  - `(((((((((((`
+  - `drivers/apple/silicon/tunableh/tunableh.c`
+  - `vdrprhyb^8`
+  - `root@9vssv.p1l.plx.sd...2025/03/07@21:22:45`
+  - `P\7[In&cUSj/`
+  - `E4S; 9.)m>`
+  - `U<O8]S6$jC`
+  - `"d|ZS8/U)v`
+  - `MCE FW E001- built on Sat Mar  8 03:52:49 UTC 2025 by root`
+  - `71b3387c0cdf53ce50482d5e8fab06eb`
+##### `iboot_blob28.bin`
+  - `Scan Agent Results`
+  - `~u0LBBCCCFCMCOCPCRCSCTCXCZCADDDEDIDPDRDSDTDWDFEKEMEREBFCFDFIFMFQFRFSFVFWF1G2G3G4GTGFHOH1I2I3I4IBICIDIEIFIHILIMIPIRISITIVIZIEKILMLRLWL0M1M2M3MAMCMDMFMIMOMPMQMVMCNCOVOZOAPBPCPDPLPMPNPPPRPSPTPYPMQVQCRDRFRIRLRMRPRSRVRCSFSMSSSCTFTLTMTPTRTTTVTEUSU1V2V3V4VNVRV3l`
+  - `DAcKBcSBcSHcOIcDLcTRcSAmBDmCFmLFmCHmSMmk|:`
+##### `AppleSMCFirmware.bin`
+  - `AppleSMCFirmware_H17-5204.100.558.d93.REL`
+##### `RTKit.bin`
+  - `Timestamp = 0x%x, Status = 0x%x`
+
+</details>
+
 ## DSC
 
 ### WebKit
