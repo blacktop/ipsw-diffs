@@ -1,5 +1,9 @@
 # 18.4 (22E240) .vs 18.4.1 (22E252)
 
+## Security Content
+
+- <https://support.apple.com/en-us/122282>
+
 ## IPSWs
 
 - `iPhone17,1_18.4_22E240_Restore.ipsw`
