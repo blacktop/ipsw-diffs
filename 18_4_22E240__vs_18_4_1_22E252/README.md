@@ -415,11 +415,17 @@ CStrings:
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsqlite3.dylib
 -  Functions: 8263
--  Symbols:   10047
+-  Symbols:   26933
 +  Functions: 8264
-+  Symbols:   10048
++  Symbols:   26936
    CStrings:  10301
  
+Symbols:
++ GCC_except_table128
++ GCC_except_table142
++ GCC_except_table164
++ __ZN14LaunchServices17BindingEvaluation25BindingEligibilityChecker36isDefaultAppCategoryBindingEligibileERKNS0_5StateEPK24LSDefaultAppCategoryInfoRKNS0_15ExtendedBindingE
+- GCC_except_table162
 
 ```
 
@@ -490,12 +496,65 @@ CStrings:
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
 -  Functions: 11758
--  Symbols:   14043
+-  Symbols:   37463
 -  CStrings:  19242
 +  Functions: 11759
-+  Symbols:   14044
++  Symbols:   37468
 +  CStrings:  19245
  
+Symbols:
++ GCC_except_table11507
++ GCC_except_table11652
++ GCC_except_table11671
++ GCC_except_table11674
++ GCC_except_table11676
++ _AFIsLocaleSupportedForSirClassic.once
++ _AFIsLocaleSupportedForSirClassic.supportedSiriClassicLocales
++ ___AFIsLocaleSupportedForSirClassic_block_invoke
++ ___Block_byref_object_copy_.47686
++ ___Block_byref_object_copy_.48414
++ ___Block_byref_object_copy_.48696
++ ___Block_byref_object_dispose_.47687
++ ___Block_byref_object_dispose_.48415
++ ___Block_byref_object_dispose_.48697
++ ___block_literal_global.1089
++ ___block_literal_global.22.47192
++ ___block_literal_global.25.47186
++ ___block_literal_global.46852
++ ___block_literal_global.46878
++ ___block_literal_global.47.48709
++ ___block_literal_global.47032
++ ___block_literal_global.47180
++ ___block_literal_global.47706
++ ___block_literal_global.48370
++ ___block_literal_global.48717
++ ___block_literal_global.5.48702
++ _sharedObserver.onceToken.48716
++ _sharedObserver.sharedObserver.48718
+- GCC_except_table11506
+- GCC_except_table11651
+- GCC_except_table11670
+- GCC_except_table11673
+- GCC_except_table11675
+- ___Block_byref_object_copy_.47681
+- ___Block_byref_object_copy_.48409
+- ___Block_byref_object_copy_.48691
+- ___Block_byref_object_dispose_.47682
+- ___Block_byref_object_dispose_.48410
+- ___Block_byref_object_dispose_.48692
+- ___block_literal_global.22.47187
+- ___block_literal_global.25.47181
+- ___block_literal_global.46847
+- ___block_literal_global.46873
+- ___block_literal_global.47.48704
+- ___block_literal_global.47027
+- ___block_literal_global.47175
+- ___block_literal_global.47701
+- ___block_literal_global.48365
+- ___block_literal_global.48712
+- ___block_literal_global.5.48697
+- _sharedObserver.onceToken.48711
+- _sharedObserver.sharedObserver.48713
 CStrings:
 + "%s AFDeviceSupportsDisablingServerFallbackWhenMissingAsset returns true as locale is nil"
 + "%s AFDeviceSupportsDisablingServerFallbackWhenMissingAsset returns true for unsupported server locale: %@"
@@ -569,6 +628,9 @@ CStrings:
    __AUTH_CONST.__const: 0x5168
    __AUTH_CONST.__cfstring: 0x7d00
    __AUTH_CONST.__objc_const: 0x24738
+Symbols:
++ _objc_msgSend$addAttributes:range:
+- _objc_msgSend$setAttributes:range:
 CStrings:
 + "addAttributes:range:"
 - "setAttributes:range:"
