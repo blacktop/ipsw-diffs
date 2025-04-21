@@ -1,0 +1,257 @@
+## CoreAudio
+
+> `/System/Library/Frameworks/CoreAudio.framework/CoreAudio`
+
+```diff
+
+-328.605.0.0.0
+-  __TEXT.__text: 0x508cd4
++328.605.30.0.0
++  __TEXT.__text: 0x508e04
+   __TEXT.__auth_stubs: 0x2b40
+   __TEXT.__objc_methlist: 0x1384
+   __TEXT.__const: 0x4cf80
+   __TEXT.__gcc_except_tab: 0x57c74
+-  __TEXT.__oslogstring: 0x3c845
++  __TEXT.__oslogstring: 0x3c89b
+   __TEXT.__cstring: 0x2ae4b
+   __TEXT.__unwind_info: 0x17da0
+   __TEXT.__eh_frame: 0x68
+
+   - /usr/lib/libobjc.A.dylib
+   Functions: 17426
+   Symbols:   51162
+-  CStrings:  7220
++  CStrings:  7221
+ 
+Symbols:
++ __ZGVZN4AMCP3DALL10demand_mapEvE5s_map.19597
++ __ZL14signal_handleri.20114
++ __ZN23HALS_IOContextHostedDSP24util_Negotiate_WithFlagsER25HALS_IOContextDescriptionjNS_17DSPStreamInstance12RequestFlagsE
++ __ZN4AMCP2CFL26fetch_bool_from_dictionaryIPK10__CFStringEEbRKN10applesauce2CF13DictionaryRefEOT_b.16221
++ __ZN4AMCP2CFL26fetch_bool_from_dictionaryIPK10__CFStringEEbRKN10applesauce2CF13DictionaryRefEOT_b.16733
++ __ZN4AMCP3DALL10demand_mapEv.19596
++ __ZN4AMCPL18k_class_id_unknownE.19448
++ __ZN4AMCPL19k_object_id_unknownE.16219
++ __ZN4AMCPL19k_object_id_unknownE.16814
++ __ZN4AMCPL19k_object_id_unknownE.19449
++ __ZZN4AMCP3DALL10demand_mapEvE5s_map.19598
++ ___Block_byref_object_copy_.15831
++ ___Block_byref_object_copy_.17720
++ ___Block_byref_object_copy_.18720
++ ___Block_byref_object_copy_.19326
++ ___Block_byref_object_dispose_.15832
++ ___Block_byref_object_dispose_.17721
++ ___Block_byref_object_dispose_.18721
++ ___Block_byref_object_dispose_.19327
++ ____Z28AudioStatisticsLibraryLoaderv_block_invoke.16473
++ ___block_descriptor_tmp.1.19304
++ ___block_descriptor_tmp.10.14947
++ ___block_descriptor_tmp.10.15833
++ ___block_descriptor_tmp.10.17051
++ ___block_descriptor_tmp.115.18776
++ ___block_descriptor_tmp.12.14949
++ ___block_descriptor_tmp.12.15835
++ ___block_descriptor_tmp.12.19316
++ ___block_descriptor_tmp.120.18291
++ ___block_descriptor_tmp.121.18314
++ ___block_descriptor_tmp.124.18311
++ ___block_descriptor_tmp.128.18273
++ ___block_descriptor_tmp.130.18779
++ ___block_descriptor_tmp.131.18204
++ ___block_descriptor_tmp.134.18661
++ ___block_descriptor_tmp.135.18568
++ ___block_descriptor_tmp.14.14951
++ ___block_descriptor_tmp.14.15839
++ ___block_descriptor_tmp.14.17722
++ ___block_descriptor_tmp.14.19328
++ ___block_descriptor_tmp.14497
++ ___block_descriptor_tmp.145.18575
++ ___block_descriptor_tmp.147.18584
++ ___block_descriptor_tmp.14954
++ ___block_descriptor_tmp.151.18588
++ ___block_descriptor_tmp.15114
++ ___block_descriptor_tmp.15550
++ ___block_descriptor_tmp.15818
++ ___block_descriptor_tmp.16.15841
++ ___block_descriptor_tmp.16075
++ ___block_descriptor_tmp.16471
++ ___block_descriptor_tmp.165.18600
++ ___block_descriptor_tmp.169.18604
++ ___block_descriptor_tmp.17071
++ ___block_descriptor_tmp.17137
++ ___block_descriptor_tmp.17192
++ ___block_descriptor_tmp.17444
++ ___block_descriptor_tmp.17694
++ ___block_descriptor_tmp.17984
++ ___block_descriptor_tmp.18.15843
++ ___block_descriptor_tmp.182.18612
++ ___block_descriptor_tmp.18725
++ ___block_descriptor_tmp.19.15851
++ ___block_descriptor_tmp.19.17190
++ ___block_descriptor_tmp.19301
++ ___block_descriptor_tmp.198.18634
++ ___block_descriptor_tmp.19970
++ ___block_descriptor_tmp.2.17994
++ ___block_descriptor_tmp.2.19297
++ ___block_descriptor_tmp.20.15856
++ ___block_descriptor_tmp.20.17747
++ ___block_descriptor_tmp.21.15855
++ ___block_descriptor_tmp.233.18478
++ ___block_descriptor_tmp.235.18479
++ ___block_descriptor_tmp.247.18514
++ ___block_descriptor_tmp.25.15863
++ ___block_descriptor_tmp.254.18529
++ ___block_descriptor_tmp.3.14956
++ ___block_descriptor_tmp.3.15823
++ ___block_descriptor_tmp.3.17998
++ ___block_descriptor_tmp.3.19294
++ ___block_descriptor_tmp.4.18002
++ ___block_descriptor_tmp.4.19290
++ ___block_descriptor_tmp.5.14958
++ ___block_descriptor_tmp.5.19309
++ ___block_descriptor_tmp.55.18389
++ ___block_descriptor_tmp.56.18534
++ ___block_descriptor_tmp.59.18739
++ ___block_descriptor_tmp.6.18013
++ ___block_descriptor_tmp.60.18422
++ ___block_descriptor_tmp.61.18742
++ ___block_descriptor_tmp.62.18541
++ ___block_descriptor_tmp.64.18722
++ ___block_descriptor_tmp.7.14960
++ ___block_descriptor_tmp.7.17451
++ ___block_descriptor_tmp.7.18014
++ ___block_descriptor_tmp.70.18753
++ ___block_descriptor_tmp.71.18416
++ ___block_descriptor_tmp.72.18413
++ ___block_descriptor_tmp.73.18417
++ ___block_descriptor_tmp.74.18372
++ ___block_descriptor_tmp.75.18369
++ ___block_descriptor_tmp.76.18366
++ ___block_descriptor_tmp.77.18363
++ ___block_descriptor_tmp.78.18651
++ ___block_descriptor_tmp.8.14945
++ ___block_descriptor_tmp.8.15829
++ ___block_descriptor_tmp.80.15671
++ ___block_descriptor_tmp.81.15659
++ ___block_literal_global.14756
++ ___block_literal_global.16468
++ ___block_literal_global.20108
++ ___destroy_helper_block_ea8_32.20095
+- __ZGVZN4AMCP3DALL10demand_mapEvE5s_map.19594
+- __ZL14signal_handleri.20111
+- __ZN23HALS_IOContextHostedDSP9NegotiateER25HALS_IOContextDescriptionjR31HALS_MutationChangeSynchronizerb
+- __ZN4AMCP2CFL26fetch_bool_from_dictionaryIPK10__CFStringEEbRKN10applesauce2CF13DictionaryRefEOT_b.16218
+- __ZN4AMCP2CFL26fetch_bool_from_dictionaryIPK10__CFStringEEbRKN10applesauce2CF13DictionaryRefEOT_b.16730
+- __ZN4AMCP3DALL10demand_mapEv.19593
+- __ZN4AMCPL18k_class_id_unknownE.19445
+- __ZN4AMCPL19k_object_id_unknownE.16216
+- __ZN4AMCPL19k_object_id_unknownE.16811
+- __ZN4AMCPL19k_object_id_unknownE.19446
+- __ZZN4AMCP3DALL10demand_mapEvE5s_map.19595
+- ___Block_byref_object_copy_.15828
+- ___Block_byref_object_copy_.17717
+- ___Block_byref_object_copy_.18717
+- ___Block_byref_object_copy_.19323
+- ___Block_byref_object_dispose_.15829
+- ___Block_byref_object_dispose_.17718
+- ___Block_byref_object_dispose_.18718
+- ___Block_byref_object_dispose_.19324
+- ____Z28AudioStatisticsLibraryLoaderv_block_invoke.16470
+- ___block_descriptor_tmp.1.19301
+- ___block_descriptor_tmp.10.14944
+- ___block_descriptor_tmp.10.15830
+- ___block_descriptor_tmp.10.17048
+- ___block_descriptor_tmp.115.18773
+- ___block_descriptor_tmp.12.14946
+- ___block_descriptor_tmp.12.15832
+- ___block_descriptor_tmp.12.19313
+- ___block_descriptor_tmp.120.18288
+- ___block_descriptor_tmp.121.18311
+- ___block_descriptor_tmp.124.18308
+- ___block_descriptor_tmp.128.18270
+- ___block_descriptor_tmp.130.18776
+- ___block_descriptor_tmp.131.18201
+- ___block_descriptor_tmp.134.18658
+- ___block_descriptor_tmp.135.18565
+- ___block_descriptor_tmp.14.14948
+- ___block_descriptor_tmp.14.15836
+- ___block_descriptor_tmp.14.17719
+- ___block_descriptor_tmp.14.19325
+- ___block_descriptor_tmp.14494
+- ___block_descriptor_tmp.145.18572
+- ___block_descriptor_tmp.147.18581
+- ___block_descriptor_tmp.14951
+- ___block_descriptor_tmp.151.18585
+- ___block_descriptor_tmp.15111
+- ___block_descriptor_tmp.15547
+- ___block_descriptor_tmp.15815
+- ___block_descriptor_tmp.16.15838
+- ___block_descriptor_tmp.16072
+- ___block_descriptor_tmp.16468
+- ___block_descriptor_tmp.165.18597
+- ___block_descriptor_tmp.169.18601
+- ___block_descriptor_tmp.17068
+- ___block_descriptor_tmp.17134
+- ___block_descriptor_tmp.17189
+- ___block_descriptor_tmp.17441
+- ___block_descriptor_tmp.17691
+- ___block_descriptor_tmp.17981
+- ___block_descriptor_tmp.18.15840
+- ___block_descriptor_tmp.182.18609
+- ___block_descriptor_tmp.18722
+- ___block_descriptor_tmp.19.15848
+- ___block_descriptor_tmp.19.17187
+- ___block_descriptor_tmp.19298
+- ___block_descriptor_tmp.198.18631
+- ___block_descriptor_tmp.19967
+- ___block_descriptor_tmp.2.17991
+- ___block_descriptor_tmp.2.19294
+- ___block_descriptor_tmp.20.15853
+- ___block_descriptor_tmp.20.17744
+- ___block_descriptor_tmp.21.15852
+- ___block_descriptor_tmp.233.18475
+- ___block_descriptor_tmp.235.18476
+- ___block_descriptor_tmp.247.18511
+- ___block_descriptor_tmp.25.15860
+- ___block_descriptor_tmp.254.18526
+- ___block_descriptor_tmp.3.14953
+- ___block_descriptor_tmp.3.15820
+- ___block_descriptor_tmp.3.17995
+- ___block_descriptor_tmp.3.19291
+- ___block_descriptor_tmp.4.17999
+- ___block_descriptor_tmp.4.19287
+- ___block_descriptor_tmp.5.14955
+- ___block_descriptor_tmp.5.19306
+- ___block_descriptor_tmp.55.18386
+- ___block_descriptor_tmp.56.18531
+- ___block_descriptor_tmp.59.18736
+- ___block_descriptor_tmp.6.18010
+- ___block_descriptor_tmp.60.18419
+- ___block_descriptor_tmp.61.18739
+- ___block_descriptor_tmp.62.18538
+- ___block_descriptor_tmp.64.18719
+- ___block_descriptor_tmp.7.14957
+- ___block_descriptor_tmp.7.17448
+- ___block_descriptor_tmp.7.18011
+- ___block_descriptor_tmp.70.18750
+- ___block_descriptor_tmp.71.18413
+- ___block_descriptor_tmp.72.18410
+- ___block_descriptor_tmp.73.18414
+- ___block_descriptor_tmp.74.18369
+- ___block_descriptor_tmp.75.18366
+- ___block_descriptor_tmp.76.18363
+- ___block_descriptor_tmp.77.18360
+- ___block_descriptor_tmp.78.18648
+- ___block_descriptor_tmp.8.14942
+- ___block_descriptor_tmp.8.15826
+- ___block_descriptor_tmp.80.15668
+- ___block_descriptor_tmp.81.15656
+- ___block_literal_global.14753
+- ___block_literal_global.16465
+- ___block_literal_global.20105
+- ___destroy_helper_block_ea8_32.20092
+CStrings:
++ "%6u %32s:%-5d [hal_dsp] POLICY: Ignoring the negotiate configuration comparison (%s)."
+
+```

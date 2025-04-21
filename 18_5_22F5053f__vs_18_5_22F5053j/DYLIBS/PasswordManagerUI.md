@@ -1,0 +1,132 @@
+## PasswordManagerUI
+
+> `/System/Library/PrivateFrameworks/PasswordManagerUI.framework/PasswordManagerUI`
+
+```diff
+
+-7621.2.3.10.3
+-  __TEXT.__text: 0x3e7b10
+-  __TEXT.__auth_stubs: 0x5fd0
++7621.2.4.10.2
++  __TEXT.__text: 0x3eb6c8
++  __TEXT.__auth_stubs: 0x5ff0
+   __TEXT.__objc_methlist: 0x247c
+-  __TEXT.__cstring: 0x14531
+-  __TEXT.__const: 0x25ca4
++  __TEXT.__cstring: 0x14911
++  __TEXT.__const: 0x25e54
+   __TEXT.__gcc_except_tab: 0x4c
+   __TEXT.__dlopen_cstrs: 0x9a
+   __TEXT.__oslogstring: 0x1d7c
+   __TEXT.__ustring: 0x1ba
+-  __TEXT.__constg_swiftt: 0x9bdc
+-  __TEXT.__swift5_typeref: 0x5b0fe
++  __TEXT.__constg_swiftt: 0x9c5c
++  __TEXT.__swift5_typeref: 0x5b466
+   __TEXT.__swift5_builtin: 0x2e4
+-  __TEXT.__swift5_reflstr: 0xa781
+-  __TEXT.__swift5_fieldmd: 0x823c
+-  __TEXT.__swift5_assocty: 0x2428
+-  __TEXT.__swift5_proto: 0xb9c
+-  __TEXT.__swift5_types: 0x898
++  __TEXT.__swift5_reflstr: 0xa7f1
++  __TEXT.__swift5_fieldmd: 0x8288
++  __TEXT.__swift5_assocty: 0x2440
++  __TEXT.__swift5_proto: 0xba0
++  __TEXT.__swift5_types: 0x89c
+   __TEXT.__swift5_mpenum: 0xbc
+-  __TEXT.__swift5_capture: 0x5110
++  __TEXT.__swift5_capture: 0x5160
+   __TEXT.__swift_as_entry: 0x2dc
+   __TEXT.__swift_as_ret: 0x2b8
+   __TEXT.__swift5_protos: 0x2c
+-  __TEXT.__unwind_info: 0xb988
++  __TEXT.__unwind_info: 0xba10
+   __TEXT.__eh_frame: 0xb404
+   __TEXT.__objc_classname: 0x659
+-  __TEXT.__objc_methname: 0xba1f
++  __TEXT.__objc_methname: 0xba52
+   __TEXT.__objc_methtype: 0x24b3
+   __TEXT.__objc_stubs: 0x2ce0
+   __DATA_CONST.__got: 0x2350
+-  __DATA_CONST.__const: 0x730
++  __DATA_CONST.__const: 0x750
+   __DATA_CONST.__objc_classlist: 0x388
+   __DATA_CONST.__objc_catlist: 0x8
+   __DATA_CONST.__objc_protolist: 0x210
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x2c98
++  __DATA_CONST.__objc_selrefs: 0x2ca0
+   __DATA_CONST.__objc_protorefs: 0x100
+   __DATA_CONST.__objc_superrefs: 0x28
+-  __AUTH_CONST.__auth_got: 0x2ff8
+-  __AUTH_CONST.__auth_ptr: 0x45f0
+-  __AUTH_CONST.__const: 0x15e20
++  __AUTH_CONST.__auth_got: 0x3008
++  __AUTH_CONST.__auth_ptr: 0x3e70
++  __AUTH_CONST.__const: 0x15f10
+   __AUTH_CONST.__cfstring: 0x4a0
+-  __AUTH_CONST.__objc_const: 0x9268
++  __AUTH_CONST.__objc_const: 0x9288
+   __AUTH.__objc_data: 0x3e8
+-  __AUTH.__data: 0x12b8
++  __AUTH.__data: 0x1378
+   __DATA.__objc_ivar: 0x78
+-  __DATA.__data: 0xf430
+-  __DATA.__bss: 0x1ac70
++  __DATA.__data: 0xf4d0
++  __DATA.__bss: 0x1ad40
+   __DATA.__common: 0x380
+   __DATA_DIRTY.__objc_data: 0x2e40
+   __DATA_DIRTY.__data: 0x8880
+
+   - /usr/lib/swift/libswiftsimd.dylib
+   - /usr/lib/swift/libswiftsys_time.dylib
+   - /usr/lib/swift/libswiftunistd.dylib
+-  Functions: 18012
+-  Symbols:   9070
+-  CStrings:  3562
++  Functions: 18076
++  Symbols:   9093
++  CStrings:  3574
+ 
+Symbols:
++ _associated conformance 17PasswordManagerUI33PMWebsiteNameFetchingDebuggerViewV05SwiftC00H0AA4BodyAdEP_AdE
++ _get_witness_table 7SwiftUI15ModifiedContentVyAA5GroupVyAA9TupleViewVyAA0G0PAAE4boldyQrSbFQOyACyAA4TextVAA16_FlexFrameLayoutVG_Qo__ACyAA6HStackVyAGyAiAE8onSubmit2of_QrAA0O8TriggersV_yyctFQOyAA0I5FieldVyALG_Qo__ACyAA6ButtonVyALGAA32_EnvironmentKeyTransformModifierVySbGGtGGAA08_PaddingL0VGAOtGGA9_GAaHHPA12_AaHHPA11_AaHHPyHC_HC_A9_AA0gW0HPyHCHC.2
++ _get_witness_table 7SwiftUI15NavigationStackVyAA0C4PathVAA4ViewPAAE7toolbar7contentQrqd__yXE_tAaFRd__lFQOyAgAE15navigationTitleyQrAA18LocalizedStringKeyVFQOyAA4FormVy015PasswordManagerB023PMDebugSettingsControlsVG_Qo__AA6ButtonVyAA4TextVGQo_GAaFHPyHC.72
++ _get_witness_table 7SwiftUI9TupleViewVyAA0D0PAAE16keyboardShortcut_9modifiersQrAA13KeyEquivalentV_AA14EventModifiersVtFQOyAA6ToggleVyAA4TextVG_Qo__AeAE5sheet11isPresented9onDismiss7contentQrAA7BindingVySbG_yycSgqd__yctAaDRd__lFQOyAA6ButtonVyAOG_015PasswordManagerB0029PMWebsiteNameFetchingDebuggerD0VQo_AA7SectionVyAA05EmptyD0VACyAP_A3PA0_A0_AA6PickerVyAOSo09ASAccountW7TipTypeVSgACyAA15ModifiedContentVyA15_yAoA21_TraitWritingModifierVyAA013TagValueTraitH0VyA13_GGGA17_yA19_yA13_SgGGG_A15_yA15_yAOA17_yA19_yA12_GGGA21_GA30_A30_A30_tGGtGA8_GA6_yA8_ACyA0__A0_tGA8_GA6_yA8_A0_A8_GAeAEArstUQrAX_AYqd__yctAaDRd__lFQOyAeAE11toggleStyleyQrqd__AA0L5StyleRd__lFQOyAP_AA0uL5StyleVQo__A1_017PMPasswordOptionsD0VQo_tGAaDHPyHC.14
++ _symbolic SaySo20NSURLProtectionSpaceCGSg
++ _symbolic _____ 17PasswordManagerUI33PMWebsiteNameFetchingDebuggerViewV
++ _symbolic _____ySSG 7SwiftUI10AppStorageV
++ _symbolic _____y___________y_____y_____y_____G_Qo_______y_____yAEG_____ySbGGtGG 7SwiftUI13_VariadicViewO4TreeV AA13_HStackLayoutV AA05TupleD0V AA0D0PAAE8onSubmit2of_QrAA0J8TriggersV_yyctFQO AA9TextFieldV AA0M0V AA15ModifiedContentV AA6ButtonV AA32_EnvironmentKeyTransformModifierV
++ _symbolic _____y_____y_____G_Qo_ 7SwiftUI4ViewPAAE8onSubmit2of_QrAA0E8TriggersV_yyctFQO AA9TextFieldV AA0H0V
++ _symbolic _____y_____y_____G_Qo_______y_____yABG______Qo______y__________yAC_A3c2F_____yAB_____SgAKy_____yAOyAB_____y_____yANGGGAPyAQyANSgGGG_AOyAOyAbPyAQyAMGGGASGA0_A0_A0_tGGtGAJGAIyAjKyAF_AFtGAJGAIyAjfJG_____y_____yAC______Qo_______Qo_t 7SwiftUI4ViewPAAE16keyboardShortcut_9modifiersQrAA13KeyEquivalentV_AA14EventModifiersVtFQO AA6ToggleV AA4TextV AcAE5sheet11isPresented9onDismiss7contentQrAA7BindingVySbG_yycSgqd__yctAaBRd__lFQO AA6ButtonV 015PasswordManagerB0029PMWebsiteNameFetchingDebuggerC0V AA7SectionV AA05EmptyC0V AA05TupleC0V AA6PickerV So09ASAccountV7TipTypeV AA15ModifiedContentV AA21_TraitWritingModifierV AA013TagValueTraitG0V AcAEAnopQQrAT_AUqd__yctAaBRd__lFQO AcAE11toggleStyleyQrqd__AA0K5StyleRd__lFQO AA0tK5StyleV AX017PMPasswordOptionsC0V
++ _symbolic _____y_____y_____G_Qo_______y_____yABG_____ySbGGt 7SwiftUI4ViewPAAE8onSubmit2of_QrAA0E8TriggersV_yyctFQO AA9TextFieldV AA0H0V AA15ModifiedContentV AA6ButtonV AA32_EnvironmentKeyTransformModifierV
++ _symbolic _____y_____y_____G______Qo_ 7SwiftUI4ViewPAAE5sheet11isPresented9onDismiss7contentQrAA7BindingVySbG_yycSgqd__yctAaBRd__lFQO AA6ButtonV AA4TextV 015PasswordManagerB0029PMWebsiteNameFetchingDebuggerC0V
++ _symbolic _____y_____y__________G_Qo_ 7SwiftUI4ViewPAAE4boldyQrSbFQO AA15ModifiedContentV AA4TextV AA16_FlexFrameLayoutV
++ _symbolic _____y_____y__________G_Qo__AAy_____y_____y_____y_____yABG_Qo__AAy_____yABG_____ySbGGtGG_____GADt 7SwiftUI4ViewPAAE4boldyQrSbFQO AA15ModifiedContentV AA4TextV AA16_FlexFrameLayoutV AA6HStackV AA05TupleC0V AcAE8onSubmit2of_QrAA0N8TriggersV_yyctFQO AA0G5FieldV AA6ButtonV AA32_EnvironmentKeyTransformModifierV AA08_PaddingJ0V
++ _symbolic _____y_____y_____y_____G_Qo_______y_____yACG______Qo______y_____AAyAD_A3d2G_____yAC_____SgAAy_____yAOyAC_____y_____yANGGGAPyAQyANSgGGG_AOyAOyAcPyAQyAMGGGASGA0_A0_A0_tGGtGAKGAJyAkAyAG_AGtGAKGAJyAkgKG_____y_____yAD______Qo_______Qo_tG 7SwiftUI9TupleViewV AA0D0PAAE16keyboardShortcut_9modifiersQrAA13KeyEquivalentV_AA14EventModifiersVtFQO AA6ToggleV AA4TextV AeAE5sheet11isPresented9onDismiss7contentQrAA7BindingVySbG_yycSgqd__yctAaDRd__lFQO AA6ButtonV 015PasswordManagerB0029PMWebsiteNameFetchingDebuggerD0V AA7SectionV AA05EmptyD0V AA6PickerV So09ASAccountW7TipTypeV AA15ModifiedContentV AA21_TraitWritingModifierV AA013TagValueTraitH0V AeAEApqrSQrAV_AWqd__yctAaDRd__lFQO AeAE11toggleStyleyQrqd__AA0L5StyleRd__lFQO AA0uL5StyleV AZ017PMPasswordOptionsD0V
++ _symbolic _____y_____y_____y__________G_Qo__ABy_____yAAy_____y_____yACG_Qo__ABy_____yACG_____ySbGGtGG_____GAEtG 7SwiftUI9TupleViewV AA0D0PAAE4boldyQrSbFQO AA15ModifiedContentV AA4TextV AA16_FlexFrameLayoutV AA6HStackV AeAE8onSubmit2of_QrAA0N8TriggersV_yyctFQO AA0H5FieldV AA6ButtonV AA32_EnvironmentKeyTransformModifierV AA08_PaddingK0V
++ _symbolic _____y_____y_____y_____yAAy__________G_Qo__AAy_____yACy_____y_____yADG_Qo__AAy_____yADG_____ySbGGtGG_____GAFtGGASG 7SwiftUI15ModifiedContentV AA5GroupV AA9TupleViewV AA0G0PAAE4boldyQrSbFQO AA4TextV AA16_FlexFrameLayoutV AA6HStackV AiAE8onSubmit2of_QrAA0O8TriggersV_yyctFQO AA0I5FieldV AA6ButtonV AA32_EnvironmentKeyTransformModifierV AA08_PaddingL0V
++ _symbolic _____y_____y_____y_____y_____G_Qo_______y_____yADG_____ySbGGtGG 7SwiftUI6HStackV AA9TupleViewV AA0E0PAAE8onSubmit2of_QrAA0G8TriggersV_yyctFQO AA9TextFieldV AA0J0V AA15ModifiedContentV AA6ButtonV AA32_EnvironmentKeyTransformModifierV
++ _symbolic _____y_____y_____y_____y__________G_Qo__ACy_____yABy_____y_____yADG_Qo__ACy_____yADG_____ySbGGtGG_____GAFtGG 7SwiftUI5GroupV AA9TupleViewV AA0E0PAAE4boldyQrSbFQO AA15ModifiedContentV AA4TextV AA16_FlexFrameLayoutV AA6HStackV AgAE8onSubmit2of_QrAA0O8TriggersV_yyctFQO AA0I5FieldV AA6ButtonV AA32_EnvironmentKeyTransformModifierV AA08_PaddingL0V
++ _symbolic _____y_____y_____y_____y_____y_____G_Qo__AAy_____yAEG_____ySbGGtGG_____G 7SwiftUI15ModifiedContentV AA6HStackV AA9TupleViewV AA0G0PAAE8onSubmit2of_QrAA0I8TriggersV_yyctFQO AA9TextFieldV AA0L0V AA6ButtonV AA32_EnvironmentKeyTransformModifierV AA14_PaddingLayoutV
+- _get_witness_table 7SwiftUI15NavigationStackVyAA0C4PathVAA4ViewPAAE7toolbar7contentQrqd__yXE_tAaFRd__lFQOyAgAE15navigationTitleyQrAA18LocalizedStringKeyVFQOyAA4FormVy015PasswordManagerB023PMDebugSettingsControlsVG_Qo__AA6ButtonVyAA4TextVGQo_GAaFHPyHC.60
+- _get_witness_table 7SwiftUI9TupleViewVyAA0D0PAAE16keyboardShortcut_9modifiersQrAA13KeyEquivalentV_AA14EventModifiersVtFQOyAA6ToggleVyAA4TextVG_Qo__AA7SectionVyAA05EmptyD0VACyAP_A3pA6ButtonVyAOGAxA6PickerVyAOSo23ASAccountManagerTipTypeVSgACyAA15ModifiedContentVyA3_yAoA21_TraitWritingModifierVyAA08TagValuexH0VyA1_GGGA5_yA7_yA1_SgGGG_A3_yA3_yAOA5_yA7_yA0_GGGA9_GA18_A18_A18_tGGtGAUGASyAuCyAX_AXtGAUGASyAuxUGAeAE5sheet11isPresented9onDismiss7contentQrAA7BindingVySbG_yycSgqd__yctAaDRd__lFQOyAeAE11toggleStyleyQrqd__AA0L5StyleRd__lFQOyAP_AA0pL5StyleVQo__08PasswordsB0017PMPasswordOptionsD0VQo_tGAaDHPyHC.10
+- _symbolic _____y_____y_____G_Qo_______y__________yAC_A3C_____yABGAI_____yAB_____SgAGy_____yAMyAB_____y_____yALGGGANyAOyALSgGGG_AMyAMyAbNyAOyAKGGGAQGA3ZtGGtGAFGAEyAfGyAI_AItGAFGAEyAfiFG_____y_____yAC______Qo_______Qo_t 7SwiftUI4ViewPAAE16keyboardShortcut_9modifiersQrAA13KeyEquivalentV_AA14EventModifiersVtFQO AA6ToggleV AA4TextV AA7SectionV AA05EmptyC0V AA05TupleC0V AA6ButtonV AA6PickerV So23ASAccountManagerTipTypeV AA15ModifiedContentV AA21_TraitWritingModifierV AA08TagValuexG0V AcAE5sheet11isPresented9onDismiss7contentQrAA7BindingVySbG_yycSgqd__yctAaBRd__lFQO AcAE11toggleStyleyQrqd__AA0K5StyleRd__lFQO AA0pK5StyleV 08PasswordsB0017PMPasswordOptionsC0V
+- _symbolic _____y_____y_____y_____G_Qo_______y_____AAyAD_A3D_____yACGAI_____yAC_____SgAAy_____yAMyAC_____y_____yALGGGANyAOyALSgGGG_AMyAMyAcNyAOyAKGGGAQGA3ZtGGtGAGGAFyAgAyAI_AItGAGGAFyAgiGG_____y_____yAD______Qo_______Qo_tG 7SwiftUI9TupleViewV AA0D0PAAE16keyboardShortcut_9modifiersQrAA13KeyEquivalentV_AA14EventModifiersVtFQO AA6ToggleV AA4TextV AA7SectionV AA05EmptyD0V AA6ButtonV AA6PickerV So23ASAccountManagerTipTypeV AA15ModifiedContentV AA21_TraitWritingModifierV AA08TagValuexH0V AeAE5sheet11isPresented9onDismiss7contentQrAA7BindingVySbG_yycSgqd__yctAaDRd__lFQO AeAE11toggleStyleyQrqd__AA0L5StyleRd__lFQO AA0pL5StyleV 08PasswordsB0017PMPasswordOptionsD0V
+CStrings:
++ "PMWebsiteNameFetchingDebuggerView.domain"
++ "The other device will be signed in to “%@” on “%@” with your saved passkey for “%@”."
++ "The other device will be signed in to “%@” on “%@” with your shared passkey for “%@”."
++ "The other device will be signed in to “%@” using a saved account."
++ "The other device will be signed in to “%@” using your “%@” passkey from “%@”. This will allow these websites to share information about you."
++ "The other device will be signed in to “%@” using your “%@” shared passkey from “%@”. This will allow these websites to share information about you."
++ "The other device will be signed in to “%@” with your passkey for “%@”."
++ "The other device will be signed in to “%@” with your shared passkey for “%@”."
++ "Website Name Fetching Debugger"
++ "_isShowingFetchWebsiteNameDebuggerSheet"
++ "debug_fetchWebsiteNameForDomain:completionHandler:"
++ "domain (e.g. apple.com, appleid.apple.com)"
+
+```

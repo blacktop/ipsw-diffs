@@ -1,0 +1,556 @@
+## TextInputCore
+
+> `/System/Library/PrivateFrameworks/TextInputCore.framework/TextInputCore`
+
+```diff
+
+-3479.502.100.0.0
+-  __TEXT.__text: 0x228874
++3479.503.0.0.0
++  __TEXT.__text: 0x228850
+   __TEXT.__auth_stubs: 0x36e0
+   __TEXT.__init_offsets: 0xbc
+-  __TEXT.__objc_methlist: 0x105d0
++  __TEXT.__objc_methlist: 0x105b8
+   __TEXT.__dlopen_cstrs: 0x7d7
+   __TEXT.__const: 0x2341
+   __TEXT.__cstring: 0x199ad
+
+   __TEXT.__ustring: 0x3ca
+   __TEXT.__unwind_info: 0x6bc0
+   __TEXT.__objc_classname: 0x224d
+-  __TEXT.__objc_methname: 0x302f2
++  __TEXT.__objc_methname: 0x3029a
+   __TEXT.__objc_methtype: 0x7082
+   __TEXT.__objc_stubs: 0x21520
+   __DATA_CONST.__got: 0x1c28
+
+   __DATA_CONST.__objc_catlist: 0x60
+   __DATA_CONST.__objc_protolist: 0x198
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x9c48
++  __DATA_CONST.__objc_selrefs: 0x9c38
+   __DATA_CONST.__objc_superrefs: 0x708
+   __DATA_CONST.__objc_arraydata: 0x9c8
+   __AUTH_CONST.__auth_got: 0x1b78
+   __AUTH_CONST.__auth_ptr: 0x8
+   __AUTH_CONST.__const: 0x8980
+   __AUTH_CONST.__cfstring: 0x11c60
+-  __AUTH_CONST.__objc_const: 0x1a280
++  __AUTH_CONST.__objc_const: 0x1a250
+   __AUTH_CONST.__objc_arrayobj: 0x378
+   __AUTH_CONST.__objc_intobj: 0x6a8
+   __AUTH_CONST.__objc_doubleobj: 0x10
+
+   __AUTH.__data: 0x18
+   __AUTH.__thread_vars: 0x30
+   __AUTH.__thread_bss: 0x20
+-  __DATA.__objc_ivar: 0x1288
++  __DATA.__objc_ivar: 0x1284
+   __DATA.__data: 0x34a0
+   __DATA.__bss: 0x940
+   __DATA.__common: 0x1ad8
+
+   - /usr/lib/libmecabra.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libsqlite3.dylib
+-  Functions: 11093
+-  Symbols:   31223
+-  CStrings:  11827
++  Functions: 11091
++  Symbols:   31218
++  CStrings:  11823
+ 
+Symbols:
++ _KeyboardServicesLibrary.14688
++ _KeyboardServicesLibraryCore.frameworkLibrary.14690
++ _ManagedConfigurationLibrary.14677
++ _ManagedConfigurationLibraryCore.frameworkLibrary.14680
++ _SensorKitLibrary.19528
++ _SensorKitLibraryCore.frameworkLibrary.19531
++ _SpringBoardServicesLibraryCore.frameworkLibrary.18773
++ __ZL13kTITokenIDUNK.11903
++ __ZL13kTITokenIDUNK.12058
++ __ZL13kTITokenIDUNK.12283
++ __ZL13kTITokenIDUNK.12375
++ __ZL13kTITokenIDUNK.21045
++ __ZL13kTITokenIDUNK.24275
++ __ZL17__testingInstance.15862
++ __ZN2KBL26k_invalid_likelihood_valueE.10554
++ __ZN2KBL26k_invalid_likelihood_valueE.10802
++ __ZN2KBL26k_invalid_likelihood_valueE.10831
++ __ZN2KBL26k_invalid_likelihood_valueE.11678
++ __ZN2KBL26k_invalid_likelihood_valueE.11882
++ __ZN2KBL26k_invalid_likelihood_valueE.11938
++ __ZN2KBL26k_invalid_likelihood_valueE.12393
++ __ZN2KBL26k_invalid_likelihood_valueE.12616
++ __ZN2KBL26k_invalid_likelihood_valueE.12839
++ __ZN2KBL26k_invalid_likelihood_valueE.13238
++ __ZN2KBL26k_invalid_likelihood_valueE.15440
++ __ZN2KBL26k_invalid_likelihood_valueE.16098
++ __ZN2KBL26k_invalid_likelihood_valueE.16190
++ __ZN2KBL26k_invalid_likelihood_valueE.16195
++ __ZN2KBL26k_invalid_likelihood_valueE.17848
++ __ZN2KBL26k_invalid_likelihood_valueE.18088
++ __ZN2KBL26k_invalid_likelihood_valueE.18495
++ __ZN2KBL26k_invalid_likelihood_valueE.18568
++ __ZN2KBL26k_invalid_likelihood_valueE.18633
++ __ZN2KBL26k_invalid_likelihood_valueE.19483
++ __ZN2KBL26k_invalid_likelihood_valueE.21046
++ __ZN2KBL26k_invalid_likelihood_valueE.21076
++ ___Block_byref_object_copy_.10155
++ ___Block_byref_object_copy_.10537
++ ___Block_byref_object_copy_.10631
++ ___Block_byref_object_copy_.11376
++ ___Block_byref_object_copy_.11893
++ ___Block_byref_object_copy_.11992
++ ___Block_byref_object_copy_.12378
++ ___Block_byref_object_copy_.12834
++ ___Block_byref_object_copy_.12869
++ ___Block_byref_object_copy_.13527
++ ___Block_byref_object_copy_.15231
++ ___Block_byref_object_copy_.16048
++ ___Block_byref_object_copy_.17426
++ ___Block_byref_object_copy_.17533
++ ___Block_byref_object_copy_.17719
++ ___Block_byref_object_copy_.18191
++ ___Block_byref_object_copy_.19204
++ ___Block_byref_object_copy_.19803
++ ___Block_byref_object_copy_.19862
++ ___Block_byref_object_copy_.19945
++ ___Block_byref_object_copy_.20573
++ ___Block_byref_object_copy_.21032
++ ___Block_byref_object_copy_.21069
++ ___Block_byref_object_copy_.21507
++ ___Block_byref_object_copy_.22042
++ ___Block_byref_object_copy_.23199
++ ___Block_byref_object_copy_.23329
++ ___Block_byref_object_copy_.23490
++ ___Block_byref_object_copy_.23662
++ ___Block_byref_object_copy_.24011
++ ___Block_byref_object_copy_.24260
++ ___Block_byref_object_dispose_.10156
++ ___Block_byref_object_dispose_.10538
++ ___Block_byref_object_dispose_.10632
++ ___Block_byref_object_dispose_.11377
++ ___Block_byref_object_dispose_.11894
++ ___Block_byref_object_dispose_.11993
++ ___Block_byref_object_dispose_.12379
++ ___Block_byref_object_dispose_.12835
++ ___Block_byref_object_dispose_.12870
++ ___Block_byref_object_dispose_.13528
++ ___Block_byref_object_dispose_.15232
++ ___Block_byref_object_dispose_.16049
++ ___Block_byref_object_dispose_.17427
++ ___Block_byref_object_dispose_.17534
++ ___Block_byref_object_dispose_.17720
++ ___Block_byref_object_dispose_.18192
++ ___Block_byref_object_dispose_.19205
++ ___Block_byref_object_dispose_.19804
++ ___Block_byref_object_dispose_.19863
++ ___Block_byref_object_dispose_.19946
++ ___Block_byref_object_dispose_.20574
++ ___Block_byref_object_dispose_.21033
++ ___Block_byref_object_dispose_.21070
++ ___Block_byref_object_dispose_.21508
++ ___Block_byref_object_dispose_.22043
++ ___Block_byref_object_dispose_.23200
++ ___Block_byref_object_dispose_.23330
++ ___Block_byref_object_dispose_.23491
++ ___Block_byref_object_dispose_.23663
++ ___Block_byref_object_dispose_.24012
++ ___Block_byref_object_dispose_.24261
++ ___KeyboardServicesLibraryCore_block_invoke.14691
++ ___ManagedConfigurationLibraryCore_block_invoke.14681
++ ___SensorKitLibraryCore_block_invoke.19532
++ ___SpringBoardServicesLibraryCore_block_invoke.18774
++ ___block_descriptor_tmp.10.17864
++ ___block_descriptor_tmp.10535
++ ___block_descriptor_tmp.11.11941
++ ___block_descriptor_tmp.11.12377
++ ___block_descriptor_tmp.11.17863
++ ___block_descriptor_tmp.11875
++ ___block_descriptor_tmp.11895
++ ___block_descriptor_tmp.12284
++ ___block_descriptor_tmp.12306
++ ___block_descriptor_tmp.13.17867
++ ___block_descriptor_tmp.13050
++ ___block_descriptor_tmp.13683
++ ___block_descriptor_tmp.14.17866
++ ___block_descriptor_tmp.15.12380
++ ___block_descriptor_tmp.15.17865
++ ___block_descriptor_tmp.15233
++ ___block_descriptor_tmp.15261
++ ___block_descriptor_tmp.16312
++ ___block_descriptor_tmp.17450
++ ___block_descriptor_tmp.17535
++ ___block_descriptor_tmp.17872
++ ___block_descriptor_tmp.18559
++ ___block_descriptor_tmp.19807
++ ___block_descriptor_tmp.19827
++ ___block_descriptor_tmp.2.15237
++ ___block_descriptor_tmp.2.15273
++ ___block_descriptor_tmp.2.17428
++ ___block_descriptor_tmp.2.17876
++ ___block_descriptor_tmp.2.18560
++ ___block_descriptor_tmp.2.19805
++ ___block_descriptor_tmp.21071
++ ___block_descriptor_tmp.21509
++ ___block_descriptor_tmp.24.12297
++ ___block_descriptor_tmp.24043
++ ___block_descriptor_tmp.24262
++ ___block_descriptor_tmp.27.12295
++ ___block_descriptor_tmp.3.10539
++ ___block_descriptor_tmp.3.12383
++ ___block_descriptor_tmp.3.17879
++ ___block_descriptor_tmp.4.12305
++ ___block_descriptor_tmp.4.17431
++ ___block_descriptor_tmp.4.17882
++ ___block_descriptor_tmp.5.18575
++ ___block_descriptor_tmp.6.11929
++ ___block_descriptor_tmp.6.17889
++ ___block_descriptor_tmp.7.10531
++ ___block_descriptor_tmp.7.12373
++ ___block_descriptor_tmp.7.15235
++ ___block_descriptor_tmp.8.12371
++ ___block_descriptor_tmp.8.17886
++ ___block_descriptor_tmp.8.19811
++ ___block_descriptor_tmp.9.10527
++ ___block_descriptor_tmp.9.17885
++ ___block_descriptor_tmp.9.19815
++ ___block_literal_global.10.16425
++ ___block_literal_global.10212
++ ___block_literal_global.11587
++ ___block_literal_global.11902
++ ___block_literal_global.12044
++ ___block_literal_global.12275
++ ___block_literal_global.12280
++ ___block_literal_global.12941
++ ___block_literal_global.13.16769
++ ___block_literal_global.13048
++ ___block_literal_global.13231
++ ___block_literal_global.13619
++ ___block_literal_global.13681
++ ___block_literal_global.14054
++ ___block_literal_global.14718
++ ___block_literal_global.14920
++ ___block_literal_global.15271
++ ___block_literal_global.15448
++ ___block_literal_global.15676
++ ___block_literal_global.15859
++ ___block_literal_global.16446
++ ___block_literal_global.16601
++ ___block_literal_global.16784
++ ___block_literal_global.17.14057
++ ___block_literal_global.17.14705
++ ___block_literal_global.17.16412
++ ___block_literal_global.17429
++ ___block_literal_global.17472
++ ___block_literal_global.17489
++ ___block_literal_global.17798
++ ___block_literal_global.17870
++ ___block_literal_global.18034
++ ___block_literal_global.18384
++ ___block_literal_global.18787
++ ___block_literal_global.18864
++ ___block_literal_global.19.12382
++ ___block_literal_global.19229
++ ___block_literal_global.19337
++ ___block_literal_global.19825
++ ___block_literal_global.19855
++ ___block_literal_global.20588
++ ___block_literal_global.20882
++ ___block_literal_global.21461
++ ___block_literal_global.21625
++ ___block_literal_global.21980
++ ___block_literal_global.23.16761
++ ___block_literal_global.23359
++ ___block_literal_global.23688
++ ___block_literal_global.23739
++ ___block_literal_global.23885
++ ___block_literal_global.23892
++ ___block_literal_global.24001
++ ___block_literal_global.24041
++ ___block_literal_global.3.16779
++ ___block_literal_global.31.14918
++ ___block_literal_global.346.18866
++ ___block_literal_global.46.23906
++ ___block_literal_global.48.23909
++ ___block_literal_global.61.23926
++ ___block_literal_global.64.23931
++ ___block_literal_global.79.23948
++ ___block_literal_global.8.16774
++ ___block_literal_global.82.23953
++ ___block_literal_global.87.16636
++ ___block_literal_global.87.19391
++ ___block_literal_global.97.16627
++ ___getMCProfileConnectionClass_block_invoke.14674
++ ___testingInstance.21629
++ ___testingInstance.23685
++ _audit_stringKeyboardServices.14693
++ _audit_stringManagedConfiguration.14683
++ _audit_stringSensorKit.19535
++ _audit_stringSpringBoardServices.18776
++ _getMCProfileConnectionClass.softClass.14673
++ _sharedInstance.onceToken.12274
++ _sharedInstance.onceToken.13618
++ _sharedInstance.onceToken.23884
++ _singletonInstance.onceToken.14717
++ _singletonInstance.onceToken.19228
++ _singletonInstance.onceToken.21624
++ _singletonInstance.onceToken.23687
++ _singletonInstance.singleton.19230
++ _singletonInstance.singletonInstance.14719
++ _singletonInstance.singletonInstance.21626
++ _singletonInstance.singletonInstance.23689
+- -[TIWordSearch isInTypeToSiriMode]
+- -[TIWordSearch setIsInTypeToSiriMode:]
+- _KeyboardServicesLibrary.14697
+- _KeyboardServicesLibraryCore.frameworkLibrary.14699
+- _ManagedConfigurationLibrary.14686
+- _ManagedConfigurationLibraryCore.frameworkLibrary.14689
+- _OBJC_IVAR_$_TIWordSearch._isInTypeToSiriMode
+- _SensorKitLibrary.19537
+- _SensorKitLibraryCore.frameworkLibrary.19540
+- _SpringBoardServicesLibraryCore.frameworkLibrary.18782
+- __ZL13kTITokenIDUNK.11912
+- __ZL13kTITokenIDUNK.12067
+- __ZL13kTITokenIDUNK.12292
+- __ZL13kTITokenIDUNK.12384
+- __ZL13kTITokenIDUNK.21052
+- __ZL13kTITokenIDUNK.24283
+- __ZL17__testingInstance.15870
+- __ZN2KBL26k_invalid_likelihood_valueE.10563
+- __ZN2KBL26k_invalid_likelihood_valueE.10811
+- __ZN2KBL26k_invalid_likelihood_valueE.10840
+- __ZN2KBL26k_invalid_likelihood_valueE.11687
+- __ZN2KBL26k_invalid_likelihood_valueE.11891
+- __ZN2KBL26k_invalid_likelihood_valueE.11947
+- __ZN2KBL26k_invalid_likelihood_valueE.12402
+- __ZN2KBL26k_invalid_likelihood_valueE.12625
+- __ZN2KBL26k_invalid_likelihood_valueE.12848
+- __ZN2KBL26k_invalid_likelihood_valueE.13247
+- __ZN2KBL26k_invalid_likelihood_valueE.15449
+- __ZN2KBL26k_invalid_likelihood_valueE.16107
+- __ZN2KBL26k_invalid_likelihood_valueE.16199
+- __ZN2KBL26k_invalid_likelihood_valueE.16204
+- __ZN2KBL26k_invalid_likelihood_valueE.17857
+- __ZN2KBL26k_invalid_likelihood_valueE.18097
+- __ZN2KBL26k_invalid_likelihood_valueE.18504
+- __ZN2KBL26k_invalid_likelihood_valueE.18577
+- __ZN2KBL26k_invalid_likelihood_valueE.18651
+- __ZN2KBL26k_invalid_likelihood_valueE.19492
+- __ZN2KBL26k_invalid_likelihood_valueE.21053
+- __ZN2KBL26k_invalid_likelihood_valueE.21083
+- ___Block_byref_object_copy_.10164
+- ___Block_byref_object_copy_.10546
+- ___Block_byref_object_copy_.10640
+- ___Block_byref_object_copy_.11385
+- ___Block_byref_object_copy_.11902
+- ___Block_byref_object_copy_.12001
+- ___Block_byref_object_copy_.12387
+- ___Block_byref_object_copy_.12843
+- ___Block_byref_object_copy_.12878
+- ___Block_byref_object_copy_.13536
+- ___Block_byref_object_copy_.15240
+- ___Block_byref_object_copy_.16057
+- ___Block_byref_object_copy_.17435
+- ___Block_byref_object_copy_.17542
+- ___Block_byref_object_copy_.17728
+- ___Block_byref_object_copy_.18200
+- ___Block_byref_object_copy_.19213
+- ___Block_byref_object_copy_.19812
+- ___Block_byref_object_copy_.19871
+- ___Block_byref_object_copy_.19954
+- ___Block_byref_object_copy_.20580
+- ___Block_byref_object_copy_.21039
+- ___Block_byref_object_copy_.21076
+- ___Block_byref_object_copy_.21514
+- ___Block_byref_object_copy_.22049
+- ___Block_byref_object_copy_.23207
+- ___Block_byref_object_copy_.23337
+- ___Block_byref_object_copy_.23498
+- ___Block_byref_object_copy_.23670
+- ___Block_byref_object_copy_.24019
+- ___Block_byref_object_copy_.24268
+- ___Block_byref_object_dispose_.10165
+- ___Block_byref_object_dispose_.10547
+- ___Block_byref_object_dispose_.10641
+- ___Block_byref_object_dispose_.11386
+- ___Block_byref_object_dispose_.11903
+- ___Block_byref_object_dispose_.12002
+- ___Block_byref_object_dispose_.12388
+- ___Block_byref_object_dispose_.12844
+- ___Block_byref_object_dispose_.12879
+- ___Block_byref_object_dispose_.13537
+- ___Block_byref_object_dispose_.15241
+- ___Block_byref_object_dispose_.16058
+- ___Block_byref_object_dispose_.17436
+- ___Block_byref_object_dispose_.17543
+- ___Block_byref_object_dispose_.17729
+- ___Block_byref_object_dispose_.18201
+- ___Block_byref_object_dispose_.19214
+- ___Block_byref_object_dispose_.19813
+- ___Block_byref_object_dispose_.19872
+- ___Block_byref_object_dispose_.19955
+- ___Block_byref_object_dispose_.20581
+- ___Block_byref_object_dispose_.21040
+- ___Block_byref_object_dispose_.21077
+- ___Block_byref_object_dispose_.21515
+- ___Block_byref_object_dispose_.22050
+- ___Block_byref_object_dispose_.23208
+- ___Block_byref_object_dispose_.23338
+- ___Block_byref_object_dispose_.23499
+- ___Block_byref_object_dispose_.23671
+- ___Block_byref_object_dispose_.24020
+- ___Block_byref_object_dispose_.24269
+- ___KeyboardServicesLibraryCore_block_invoke.14700
+- ___ManagedConfigurationLibraryCore_block_invoke.14690
+- ___SensorKitLibraryCore_block_invoke.19541
+- ___SpringBoardServicesLibraryCore_block_invoke.18783
+- ___block_descriptor_tmp.10.17873
+- ___block_descriptor_tmp.10544
+- ___block_descriptor_tmp.11.11950
+- ___block_descriptor_tmp.11.12386
+- ___block_descriptor_tmp.11.17872
+- ___block_descriptor_tmp.11884
+- ___block_descriptor_tmp.11904
+- ___block_descriptor_tmp.12293
+- ___block_descriptor_tmp.12315
+- ___block_descriptor_tmp.13.17876
+- ___block_descriptor_tmp.13059
+- ___block_descriptor_tmp.13692
+- ___block_descriptor_tmp.14.17875
+- ___block_descriptor_tmp.15.12389
+- ___block_descriptor_tmp.15.17874
+- ___block_descriptor_tmp.15242
+- ___block_descriptor_tmp.15270
+- ___block_descriptor_tmp.16321
+- ___block_descriptor_tmp.17459
+- ___block_descriptor_tmp.17544
+- ___block_descriptor_tmp.17881
+- ___block_descriptor_tmp.18568
+- ___block_descriptor_tmp.19816
+- ___block_descriptor_tmp.19836
+- ___block_descriptor_tmp.2.15246
+- ___block_descriptor_tmp.2.15282
+- ___block_descriptor_tmp.2.17437
+- ___block_descriptor_tmp.2.17885
+- ___block_descriptor_tmp.2.18569
+- ___block_descriptor_tmp.2.19814
+- ___block_descriptor_tmp.21078
+- ___block_descriptor_tmp.21516
+- ___block_descriptor_tmp.24.12306
+- ___block_descriptor_tmp.24051
+- ___block_descriptor_tmp.24270
+- ___block_descriptor_tmp.27.12304
+- ___block_descriptor_tmp.3.10548
+- ___block_descriptor_tmp.3.12392
+- ___block_descriptor_tmp.3.17888
+- ___block_descriptor_tmp.4.12314
+- ___block_descriptor_tmp.4.17440
+- ___block_descriptor_tmp.4.17891
+- ___block_descriptor_tmp.5.18584
+- ___block_descriptor_tmp.6.11938
+- ___block_descriptor_tmp.6.17898
+- ___block_descriptor_tmp.7.10540
+- ___block_descriptor_tmp.7.12382
+- ___block_descriptor_tmp.7.15244
+- ___block_descriptor_tmp.8.12380
+- ___block_descriptor_tmp.8.17895
+- ___block_descriptor_tmp.8.19820
+- ___block_descriptor_tmp.9.10536
+- ___block_descriptor_tmp.9.17894
+- ___block_descriptor_tmp.9.19824
+- ___block_literal_global.10.16434
+- ___block_literal_global.10221
+- ___block_literal_global.11596
+- ___block_literal_global.11911
+- ___block_literal_global.12053
+- ___block_literal_global.12284
+- ___block_literal_global.12289
+- ___block_literal_global.12950
+- ___block_literal_global.13.16778
+- ___block_literal_global.13057
+- ___block_literal_global.13240
+- ___block_literal_global.13628
+- ___block_literal_global.13690
+- ___block_literal_global.14063
+- ___block_literal_global.14727
+- ___block_literal_global.14929
+- ___block_literal_global.15280
+- ___block_literal_global.15457
+- ___block_literal_global.15684
+- ___block_literal_global.15867
+- ___block_literal_global.16455
+- ___block_literal_global.16610
+- ___block_literal_global.16793
+- ___block_literal_global.17.14066
+- ___block_literal_global.17.14714
+- ___block_literal_global.17.16421
+- ___block_literal_global.17438
+- ___block_literal_global.17481
+- ___block_literal_global.17498
+- ___block_literal_global.17807
+- ___block_literal_global.17879
+- ___block_literal_global.18043
+- ___block_literal_global.18393
+- ___block_literal_global.18796
+- ___block_literal_global.18873
+- ___block_literal_global.19.12391
+- ___block_literal_global.19238
+- ___block_literal_global.19346
+- ___block_literal_global.19834
+- ___block_literal_global.19864
+- ___block_literal_global.20595
+- ___block_literal_global.20889
+- ___block_literal_global.21468
+- ___block_literal_global.21632
+- ___block_literal_global.21987
+- ___block_literal_global.23.16770
+- ___block_literal_global.23367
+- ___block_literal_global.23696
+- ___block_literal_global.23747
+- ___block_literal_global.23893
+- ___block_literal_global.23900
+- ___block_literal_global.24009
+- ___block_literal_global.24049
+- ___block_literal_global.3.16788
+- ___block_literal_global.31.14927
+- ___block_literal_global.346.18875
+- ___block_literal_global.46.23914
+- ___block_literal_global.48.23917
+- ___block_literal_global.61.23934
+- ___block_literal_global.64.23939
+- ___block_literal_global.79.23956
+- ___block_literal_global.8.16783
+- ___block_literal_global.82.23961
+- ___block_literal_global.87.16645
+- ___block_literal_global.87.19400
+- ___block_literal_global.97.16636
+- ___getMCProfileConnectionClass_block_invoke.14683
+- ___testingInstance.21636
+- ___testingInstance.23693
+- _audit_stringKeyboardServices.14702
+- _audit_stringManagedConfiguration.14692
+- _audit_stringSensorKit.19544
+- _audit_stringSpringBoardServices.18785
+- _getMCProfileConnectionClass.softClass.14682
+- _sharedInstance.onceToken.12283
+- _sharedInstance.onceToken.13627
+- _sharedInstance.onceToken.23892
+- _singletonInstance.onceToken.14726
+- _singletonInstance.onceToken.19237
+- _singletonInstance.onceToken.21631
+- _singletonInstance.onceToken.23695
+- _singletonInstance.singleton.19239
+- _singletonInstance.singletonInstance.14728
+- _singletonInstance.singletonInstance.21633
+- _singletonInstance.singletonInstance.23697
+CStrings:
+- "TB,N,V_isInTypeToSiriMode"
+- "_isInTypeToSiriMode"
+- "isInTypeToSiriMode"
+- "setIsInTypeToSiriMode:"
+
+```
