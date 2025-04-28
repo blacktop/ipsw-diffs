@@ -1,0 +1,16 @@
+## SleepHealthUI
+
+> `/System/Library/PrivateFrameworks/SleepHealthUI.framework/SleepHealthUI`
+
+```diff
+
+   __DATA_CONST.__objc_protorefs: 0xd0
+   __DATA_CONST.__objc_superrefs: 0x48
+   __AUTH_CONST.__auth_got: 0x2658
+-  __AUTH_CONST.__auth_ptr: 0x1848
++  __AUTH_CONST.__auth_ptr: 0x17b0
+   __AUTH_CONST.__const: 0xa5e0
+   __AUTH_CONST.__cfstring: 0x400
+   __AUTH_CONST.__objc_const: 0x6d70
+
+```

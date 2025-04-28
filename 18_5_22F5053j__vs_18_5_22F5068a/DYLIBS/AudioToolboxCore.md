@@ -1,0 +1,402 @@
+## AudioToolboxCore
+
+> `/System/Library/PrivateFrameworks/AudioToolboxCore.framework/AudioToolboxCore`
+
+```diff
+
+-1456.605.0.0.0
+-  __TEXT.__text: 0x3084c0
++1456.607.0.0.0
++  __TEXT.__text: 0x3084f8
+   __TEXT.__auth_stubs: 0x38b0
+   __TEXT.__objc_methlist: 0x3604
+   __TEXT.__const: 0x225bd
+   __TEXT.__dlopen_cstrs: 0x50a
+   __TEXT.__gcc_except_tab: 0x25e9c
+-  __TEXT.__cstring: 0x1b791
++  __TEXT.__cstring: 0x1b813
+   __TEXT.__oslogstring: 0x1393a
+   __TEXT.__dof_AudioTool: 0x4f1
+   __TEXT.__dof_AUHosting: 0x23c
+
+   __AUTH.__thread_bss: 0x18
+   __DATA.__objc_ivar: 0x498
+   __DATA.__data: 0xa18
+-  __DATA.__bss: 0x25930
++  __DATA.__bss: 0x25910
+   __DATA_DIRTY.__objc_data: 0x1040
+   __DATA_DIRTY.__data: 0x124
+   __DATA_DIRTY.__bss: 0x2e0
+
+   - /usr/lib/libxml2.2.dylib
+   Functions: 11067
+   Symbols:   29184
+-  CStrings:  8111
++  CStrings:  8113
+ 
+Symbols:
++ __ZGVZN12_GLOBAL__N_13logEvE3log.4047
++ __ZL15AVFAudioLibraryv.4245
++ __ZL15AVFAudioLibraryv.5002
++ __ZL15AVFAudioLibraryv.9245
++ __ZL15sSharedInstance.8476
++ __ZL20audit_stringAVFAudio.4261
++ __ZL20audit_stringAVFAudio.5012
++ __ZL20audit_stringAVFAudio.6683
++ __ZL20audit_stringAVFAudio.9259
++ __ZL20audit_stringAVFAudio.9690
++ __ZL21audit_stringCoreMedia.11262
++ __ZL21getAVAudioFormatClassv.4227
++ __ZL23MediaToolboxLibraryCorePPc.11247
++ __ZL24audit_stringCoreAudioKit.1730
++ __ZL24audit_stringCoreAudioKit.5055
++ __ZL24audit_stringCoreAudioKit.7408
++ __ZL24audit_stringMediaToolbox.11256
++ __ZL28getAVAudioChannelLayoutClassv.4228
++ __ZL28getAVAudioChannelLayoutClassv.9239
++ __ZL28getAVAudioChannelLayoutClassv.9670
++ __ZL29ParameterListPropertyListenerPvP28OpaqueAudioComponentInstancejjj.14433
++ __ZL58getFigCPECryptorCreateCryptorFromSerializedRecipeSymbolLocv.11248
++ __ZL5sOnce.8272
++ __ZN12_GLOBAL__N_13logEv.3945
++ __ZN8DSPGraphL9skipspaceERPKc.9608
++ __ZTI3$_0.14929
++ __ZTI3$_0.15106
++ __ZTI3$_0.5378
++ __ZTI3$_0.7310
++ __ZTS3$_0.14940
++ __ZTS3$_0.15108
++ __ZTS3$_0.5380
++ __ZTS3$_0.7312
++ __ZZL19AVFAudioLibraryCorePPcE16frameworkLibrary.0.4254
++ __ZZL19AVFAudioLibraryCorePPcE16frameworkLibrary.0.5008
++ __ZZL19AVFAudioLibraryCorePPcE16frameworkLibrary.0.6674
++ __ZZL19AVFAudioLibraryCorePPcE16frameworkLibrary.0.9254
++ __ZZL19AVFAudioLibraryCorePPcE16frameworkLibrary.0.9673
++ __ZZL20CoreMediaLibraryCorePPcE16frameworkLibrary.0.11258
++ __ZZL21getAVAudioFormatClassvE9softClass.0.4262
++ __ZZL21getAVAudioFormatClassvE9softClass.0.5035
++ __ZZL21getAVAudioFormatClassvE9softClass.0.9243
++ __ZZL23CoreAudioKitLibraryCorePPcE16frameworkLibrary.0.1726
++ __ZZL23CoreAudioKitLibraryCorePPcE16frameworkLibrary.0.5049
++ __ZZL23CoreAudioKitLibraryCorePPcE16frameworkLibrary.0.7392
++ __ZZL23MediaToolboxLibraryCorePPcE16frameworkLibrary.0.11254
++ __ZZL28getAVAudioChannelLayoutClassvE9softClass.0.4243
++ __ZZL28getAVAudioChannelLayoutClassvE9softClass.0.9260
++ __ZZL28getAVAudioChannelLayoutClassvE9softClass.0.9671
++ __ZZL58getFigCPECryptorCreateCryptorFromSerializedRecipeSymbolLocvE3ptr.0.11250
++ __ZZN12_GLOBAL__N_13logEvE3log.4050
++ ___Block_byref_object_copy_.10468
++ ___Block_byref_object_copy_.14309
++ ___Block_byref_object_copy_.15238
++ ___Block_byref_object_copy_.1690
++ ___Block_byref_object_copy_.2127
++ ___Block_byref_object_copy_.2524
++ ___Block_byref_object_copy_.2693
++ ___Block_byref_object_copy_.6751
++ ___Block_byref_object_copy_.7654
++ ___Block_byref_object_copy_.8572
++ ___Block_byref_object_copy_.9372
++ ___Block_byref_object_dispose_.10469
++ ___Block_byref_object_dispose_.14310
++ ___Block_byref_object_dispose_.15239
++ ___Block_byref_object_dispose_.1691
++ ___Block_byref_object_dispose_.2128
++ ___Block_byref_object_dispose_.2525
++ ___Block_byref_object_dispose_.2694
++ ___Block_byref_object_dispose_.6752
++ ___Block_byref_object_dispose_.7655
++ ___Block_byref_object_dispose_.8573
++ ___Block_byref_object_dispose_.9373
++ ____Z16NewAudioCapturer20AudioCapturerOptionsPKcS1_jPK27AudioStreamBasicDescriptionRS3__block_invoke.6261
++ ____Z16NewAudioCapturer20AudioCapturerOptionsPKcS1_jPK27AudioStreamBasicDescriptionRS3__block_invoke.6467
++ ____ZL19AVFAudioLibraryCorePPc_block_invoke.4255
++ ____ZL19AVFAudioLibraryCorePPc_block_invoke.5009
++ ____ZL19AVFAudioLibraryCorePPc_block_invoke.6675
++ ____ZL19AVFAudioLibraryCorePPc_block_invoke.9255
++ ____ZL19AVFAudioLibraryCorePPc_block_invoke.9674
++ ____ZL20CoreMediaLibraryCorePPc_block_invoke.11259
++ ____ZL21getAVAudioFormatClassv_block_invoke.4263
++ ____ZL21getAVAudioFormatClassv_block_invoke.5036
++ ____ZL21getAVAudioFormatClassv_block_invoke.9244
++ ____ZL23CoreAudioKitLibraryCorePPc_block_invoke.1727
++ ____ZL23CoreAudioKitLibraryCorePPc_block_invoke.5050
++ ____ZL23CoreAudioKitLibraryCorePPc_block_invoke.7393
++ ____ZL23MediaToolboxLibraryCorePPc_block_invoke.11255
++ ____ZL28getAVAudioChannelLayoutClassv_block_invoke.4244
++ ____ZL28getAVAudioChannelLayoutClassv_block_invoke.9261
++ ____ZL28getAVAudioChannelLayoutClassv_block_invoke.9672
++ ____ZL58getFigCPECryptorCreateCryptorFromSerializedRecipeSymbolLocv_block_invoke.11251
++ ____ZN8DSPGraph6getLogEv_block_invoke.10023
++ ____ZN8DSPGraph6getLogEv_block_invoke.10134
++ ____ZN8DSPGraph6getLogEv_block_invoke.10425
++ ____ZN8DSPGraph6getLogEv_block_invoke.10649
++ ____ZN8DSPGraph6getLogEv_block_invoke.11288
++ ____ZN8DSPGraph6getLogEv_block_invoke.11469
++ ____ZN8DSPGraph6getLogEv_block_invoke.15364
++ ____ZN8DSPGraph6getLogEv_block_invoke.8744
++ ____ZN8DSPGraph6getLogEv_block_invoke.9110
++ ____ZN8DSPGraph6getLogEv_block_invoke.9631
++ ___block_descriptor_tmp.10021
++ ___block_descriptor_tmp.10132
++ ___block_descriptor_tmp.10376
++ ___block_descriptor_tmp.10423
++ ___block_descriptor_tmp.10647
++ ___block_descriptor_tmp.10674
++ ___block_descriptor_tmp.1089
++ ___block_descriptor_tmp.11260
++ ___block_descriptor_tmp.11286
++ ___block_descriptor_tmp.11467
++ ___block_descriptor_tmp.12189
++ ___block_descriptor_tmp.13.8397
++ ___block_descriptor_tmp.1382
++ ___block_descriptor_tmp.14.10693
++ ___block_descriptor_tmp.1454
++ ___block_descriptor_tmp.15362
++ ___block_descriptor_tmp.1767
++ ___block_descriptor_tmp.2.1371
++ ___block_descriptor_tmp.2142
++ ___block_descriptor_tmp.2165
++ ___block_descriptor_tmp.2176
++ ___block_descriptor_tmp.2952
++ ___block_descriptor_tmp.3.5182
++ ___block_descriptor_tmp.4.10671
++ ___block_descriptor_tmp.4825
++ ___block_descriptor_tmp.488
++ ___block_descriptor_tmp.5178
++ ___block_descriptor_tmp.5614
++ ___block_descriptor_tmp.6259
++ ___block_descriptor_tmp.6465
++ ___block_descriptor_tmp.7587
++ ___block_descriptor_tmp.7942
++ ___block_descriptor_tmp.8400
++ ___block_descriptor_tmp.8742
++ ___block_descriptor_tmp.890
++ ___block_descriptor_tmp.9108
++ ___block_descriptor_tmp.9629
++ ___block_literal_global.10017
++ ___block_literal_global.10121
++ ___block_literal_global.10374
++ ___block_literal_global.10418
++ ___block_literal_global.10640
++ ___block_literal_global.10735
++ ___block_literal_global.11281
++ ___block_literal_global.11463
++ ___block_literal_global.12187
++ ___block_literal_global.13123
++ ___block_literal_global.1380
++ ___block_literal_global.1412
++ ___block_literal_global.14312
++ ___block_literal_global.14881
++ ___block_literal_global.15348
++ ___block_literal_global.1651
++ ___block_literal_global.1720
++ ___block_literal_global.2151
++ ___block_literal_global.2162
++ ___block_literal_global.25.1712
++ ___block_literal_global.2564
++ ___block_literal_global.2708
++ ___block_literal_global.4131
++ ___block_literal_global.4223
++ ___block_literal_global.4823
++ ___block_literal_global.486
++ ___block_literal_global.4870
++ ___block_literal_global.5067
++ ___block_literal_global.5179
++ ___block_literal_global.5583
++ ___block_literal_global.6255
++ ___block_literal_global.6460
++ ___block_literal_global.6732
++ ___block_literal_global.7115
++ ___block_literal_global.7889
++ ___block_literal_global.8303
++ ___block_literal_global.8574
++ ___block_literal_global.8737
++ ___block_literal_global.884
++ ___block_literal_global.9102
++ ___block_literal_global.9556
+- __ZGVZN12_GLOBAL__N_13logEvE3log.4046
+- __ZL15AVFAudioLibraryv.4244
+- __ZL15AVFAudioLibraryv.5001
+- __ZL15AVFAudioLibraryv.9246
+- __ZL15sSharedInstance.8477
+- __ZL20audit_stringAVFAudio.4260
+- __ZL20audit_stringAVFAudio.5011
+- __ZL20audit_stringAVFAudio.6684
+- __ZL20audit_stringAVFAudio.9260
+- __ZL20audit_stringAVFAudio.9691
+- __ZL21audit_stringCoreMedia.11263
+- __ZL21getAVAudioFormatClassv.4226
+- __ZL23MediaToolboxLibraryCorePPc.11248
+- __ZL24audit_stringCoreAudioKit.1729
+- __ZL24audit_stringCoreAudioKit.5054
+- __ZL24audit_stringCoreAudioKit.7409
+- __ZL24audit_stringMediaToolbox.11257
+- __ZL28getAVAudioChannelLayoutClassv.4227
+- __ZL28getAVAudioChannelLayoutClassv.9240
+- __ZL28getAVAudioChannelLayoutClassv.9671
+- __ZL29ParameterListPropertyListenerPvP28OpaqueAudioComponentInstancejjj.14434
+- __ZL58getFigCPECryptorCreateCryptorFromSerializedRecipeSymbolLocv.11249
+- __ZL5sOnce.8273
+- __ZN12_GLOBAL__N_13logEv.3944
+- __ZN8DSPGraphL9skipspaceERPKc.9609
+- __ZTI3$_0.14930
+- __ZTI3$_0.15107
+- __ZTI3$_0.5377
+- __ZTI3$_0.7311
+- __ZTS3$_0.14941
+- __ZTS3$_0.15109
+- __ZTS3$_0.5379
+- __ZTS3$_0.7313
+- __ZZL19AVFAudioLibraryCorePPcE16frameworkLibrary.0.4253
+- __ZZL19AVFAudioLibraryCorePPcE16frameworkLibrary.0.5007
+- __ZZL19AVFAudioLibraryCorePPcE16frameworkLibrary.0.6673
+- __ZZL19AVFAudioLibraryCorePPcE16frameworkLibrary.0.9255
+- __ZZL19AVFAudioLibraryCorePPcE16frameworkLibrary.0.9674
+- __ZZL20CoreMediaLibraryCorePPcE16frameworkLibrary.0.11259
+- __ZZL21getAVAudioFormatClassvE9softClass.0.4261
+- __ZZL21getAVAudioFormatClassvE9softClass.0.5034
+- __ZZL21getAVAudioFormatClassvE9softClass.0.9244
+- __ZZL23CoreAudioKitLibraryCorePPcE16frameworkLibrary.0.1725
+- __ZZL23CoreAudioKitLibraryCorePPcE16frameworkLibrary.0.5048
+- __ZZL23CoreAudioKitLibraryCorePPcE16frameworkLibrary.0.7393
+- __ZZL23MediaToolboxLibraryCorePPcE16frameworkLibrary.0.11255
+- __ZZL28getAVAudioChannelLayoutClassvE9softClass.0.4242
+- __ZZL28getAVAudioChannelLayoutClassvE9softClass.0.9261
+- __ZZL28getAVAudioChannelLayoutClassvE9softClass.0.9672
+- __ZZL58getFigCPECryptorCreateCryptorFromSerializedRecipeSymbolLocvE3ptr.0.11251
+- __ZZN12_GLOBAL__N_13logEvE3log.4049
+- ___Block_byref_object_copy_.10469
+- ___Block_byref_object_copy_.14310
+- ___Block_byref_object_copy_.15239
+- ___Block_byref_object_copy_.1689
+- ___Block_byref_object_copy_.2128
+- ___Block_byref_object_copy_.2525
+- ___Block_byref_object_copy_.2694
+- ___Block_byref_object_copy_.6752
+- ___Block_byref_object_copy_.7655
+- ___Block_byref_object_copy_.8573
+- ___Block_byref_object_copy_.9373
+- ___Block_byref_object_dispose_.10470
+- ___Block_byref_object_dispose_.14311
+- ___Block_byref_object_dispose_.15240
+- ___Block_byref_object_dispose_.1690
+- ___Block_byref_object_dispose_.2129
+- ___Block_byref_object_dispose_.2526
+- ___Block_byref_object_dispose_.2695
+- ___Block_byref_object_dispose_.6753
+- ___Block_byref_object_dispose_.7656
+- ___Block_byref_object_dispose_.8574
+- ___Block_byref_object_dispose_.9374
+- ____Z16NewAudioCapturer20AudioCapturerOptionsPKcS1_jPK27AudioStreamBasicDescriptionRS3__block_invoke.6260
+- ____Z16NewAudioCapturer20AudioCapturerOptionsPKcS1_jPK27AudioStreamBasicDescriptionRS3__block_invoke.6466
+- ____ZL19AVFAudioLibraryCorePPc_block_invoke.4254
+- ____ZL19AVFAudioLibraryCorePPc_block_invoke.5008
+- ____ZL19AVFAudioLibraryCorePPc_block_invoke.6674
+- ____ZL19AVFAudioLibraryCorePPc_block_invoke.9256
+- ____ZL19AVFAudioLibraryCorePPc_block_invoke.9675
+- ____ZL20CoreMediaLibraryCorePPc_block_invoke.11260
+- ____ZL21getAVAudioFormatClassv_block_invoke.4262
+- ____ZL21getAVAudioFormatClassv_block_invoke.5035
+- ____ZL21getAVAudioFormatClassv_block_invoke.9245
+- ____ZL23CoreAudioKitLibraryCorePPc_block_invoke.1726
+- ____ZL23CoreAudioKitLibraryCorePPc_block_invoke.5049
+- ____ZL23CoreAudioKitLibraryCorePPc_block_invoke.7394
+- ____ZL23MediaToolboxLibraryCorePPc_block_invoke.11256
+- ____ZL28getAVAudioChannelLayoutClassv_block_invoke.4243
+- ____ZL28getAVAudioChannelLayoutClassv_block_invoke.9262
+- ____ZL28getAVAudioChannelLayoutClassv_block_invoke.9673
+- ____ZL58getFigCPECryptorCreateCryptorFromSerializedRecipeSymbolLocv_block_invoke.11252
+- ____ZN8DSPGraph6getLogEv_block_invoke.10024
+- ____ZN8DSPGraph6getLogEv_block_invoke.10135
+- ____ZN8DSPGraph6getLogEv_block_invoke.10426
+- ____ZN8DSPGraph6getLogEv_block_invoke.10650
+- ____ZN8DSPGraph6getLogEv_block_invoke.11289
+- ____ZN8DSPGraph6getLogEv_block_invoke.11470
+- ____ZN8DSPGraph6getLogEv_block_invoke.15365
+- ____ZN8DSPGraph6getLogEv_block_invoke.8745
+- ____ZN8DSPGraph6getLogEv_block_invoke.9111
+- ____ZN8DSPGraph6getLogEv_block_invoke.9632
+- ___block_descriptor_tmp.10022
+- ___block_descriptor_tmp.10133
+- ___block_descriptor_tmp.10377
+- ___block_descriptor_tmp.10424
+- ___block_descriptor_tmp.10648
+- ___block_descriptor_tmp.10675
+- ___block_descriptor_tmp.1088
+- ___block_descriptor_tmp.11261
+- ___block_descriptor_tmp.11287
+- ___block_descriptor_tmp.11468
+- ___block_descriptor_tmp.12191
+- ___block_descriptor_tmp.13.8398
+- ___block_descriptor_tmp.1381
+- ___block_descriptor_tmp.14.10694
+- ___block_descriptor_tmp.1453
+- ___block_descriptor_tmp.15363
+- ___block_descriptor_tmp.1766
+- ___block_descriptor_tmp.2.1370
+- ___block_descriptor_tmp.2143
+- ___block_descriptor_tmp.2166
+- ___block_descriptor_tmp.2177
+- ___block_descriptor_tmp.2953
+- ___block_descriptor_tmp.3.5181
+- ___block_descriptor_tmp.4.10672
+- ___block_descriptor_tmp.4824
+- ___block_descriptor_tmp.487
+- ___block_descriptor_tmp.5177
+- ___block_descriptor_tmp.5613
+- ___block_descriptor_tmp.6258
+- ___block_descriptor_tmp.6464
+- ___block_descriptor_tmp.7588
+- ___block_descriptor_tmp.7943
+- ___block_descriptor_tmp.8401
+- ___block_descriptor_tmp.8743
+- ___block_descriptor_tmp.889
+- ___block_descriptor_tmp.9109
+- ___block_descriptor_tmp.9630
+- ___block_literal_global.10018
+- ___block_literal_global.10122
+- ___block_literal_global.10375
+- ___block_literal_global.10419
+- ___block_literal_global.10641
+- ___block_literal_global.10736
+- ___block_literal_global.11282
+- ___block_literal_global.11464
+- ___block_literal_global.12189
+- ___block_literal_global.13124
+- ___block_literal_global.1379
+- ___block_literal_global.1411
+- ___block_literal_global.14313
+- ___block_literal_global.14882
+- ___block_literal_global.15349
+- ___block_literal_global.1650
+- ___block_literal_global.1719
+- ___block_literal_global.2152
+- ___block_literal_global.2163
+- ___block_literal_global.25.1711
+- ___block_literal_global.2565
+- ___block_literal_global.2709
+- ___block_literal_global.4130
+- ___block_literal_global.4222
+- ___block_literal_global.4822
+- ___block_literal_global.485
+- ___block_literal_global.4869
+- ___block_literal_global.5066
+- ___block_literal_global.5178
+- ___block_literal_global.5582
+- ___block_literal_global.6254
+- ___block_literal_global.6459
+- ___block_literal_global.6733
+- ___block_literal_global.7116
+- ___block_literal_global.7890
+- ___block_literal_global.8304
+- ___block_literal_global.8575
+- ___block_literal_global.8738
+- ___block_literal_global.883
+- ___block_literal_global.9103
+- ___block_literal_global.9557
+CStrings:
++ "error in packing RendererData -- numParams > ParamIndexList size"
++ "error in parsing RendererData -- numParams > ParamIndexList size"
+
+```
