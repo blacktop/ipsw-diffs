@@ -21,7 +21,6 @@
    __DATA_CONST.__const: 0xf8
 -  __AUTH_CONST.__auth_got: 0x2c0
 +  __AUTH_CONST.__auth_got: 0x288
-   __AUTH_CONST.__auth_ptr: 0x10
    __AUTH_CONST.__const: 0x218
    __DATA.__data: 0x2c
    __DATA.__common: 0x8020

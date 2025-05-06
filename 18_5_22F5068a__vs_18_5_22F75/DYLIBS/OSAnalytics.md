@@ -26,8 +26,8 @@
    __DATA_CONST.__objc_catlist: 0x30
    __DATA_CONST.__objc_protolist: 0x10
 
+   __DATA_CONST.__objc_arraydata: 0xc60
    __AUTH_CONST.__auth_got: 0xa38
-   __AUTH_CONST.__auth_ptr: 0x18
    __AUTH_CONST.__const: 0x400
 -  __AUTH_CONST.__cfstring: 0xa520
 +  __AUTH_CONST.__cfstring: 0xa4a0

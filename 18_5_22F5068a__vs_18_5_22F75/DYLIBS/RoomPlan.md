@@ -11,15 +11,6 @@
    __TEXT.__objc_methlist: 0x1ee0
    __TEXT.__const: 0xb0c4
 
-   __DATA_CONST.__objc_protorefs: 0xd8
-   __DATA_CONST.__objc_superrefs: 0x18
-   __AUTH_CONST.__auth_got: 0x1920
--  __AUTH_CONST.__auth_ptr: 0x1058
-+  __AUTH_CONST.__auth_ptr: 0x1080
-   __AUTH_CONST.__const: 0x8d50
-   __AUTH_CONST.__objc_const: 0x1c798
-   __AUTH.__objc_data: 0x2710
-
    - /usr/lib/swift/libswiftsimd.dylib
    - /usr/lib/swift/libswiftsys_time.dylib
    - /usr/lib/swift/libswiftunistd.dylib

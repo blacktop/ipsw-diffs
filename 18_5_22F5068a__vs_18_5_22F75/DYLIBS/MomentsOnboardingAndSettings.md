@@ -13,8 +13,8 @@
    __TEXT.__ustring: 0x244
    __TEXT.__swift5_typeref: 0x334
 
+   __DATA_CONST.__objc_arraydata: 0x80
    __AUTH_CONST.__auth_got: 0x5f0
-   __AUTH_CONST.__auth_ptr: 0x100
    __AUTH_CONST.__const: 0x410
 -  __AUTH_CONST.__cfstring: 0x1140
 +  __AUTH_CONST.__cfstring: 0x11a0

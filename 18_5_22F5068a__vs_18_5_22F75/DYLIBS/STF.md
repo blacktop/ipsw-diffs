@@ -30,9 +30,9 @@
    __DATA_CONST.__objc_superrefs: 0x70
 -  __AUTH_CONST.__auth_got: 0x398
 +  __AUTH_CONST.__auth_got: 0x3a0
-   __AUTH_CONST.__auth_ptr: 0x78
    __AUTH_CONST.__const: 0x388
    __AUTH_CONST.__cfstring: 0x1100
+   __AUTH_CONST.__objc_const: 0x3ba0
 
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib

@@ -23,9 +23,9 @@
    __DATA_CONST.__objc_imageinfo: 0x8
 -  __AUTH_CONST.__auth_got: 0xa08
 +  __AUTH_CONST.__auth_got: 0x9d8
-   __AUTH_CONST.__auth_ptr: 0x20
    __AUTH_CONST.__const: 0x950
    __AUTH_CONST.__cfstring: 0xca0
+   __DATA.__data: 0x3f8
 
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib

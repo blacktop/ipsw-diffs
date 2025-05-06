@@ -23,9 +23,9 @@
    __DATA_CONST.__const: 0xac0
 -  __AUTH_CONST.__auth_got: 0x7c0
 +  __AUTH_CONST.__auth_got: 0x7b8
-   __AUTH_CONST.__auth_ptr: 0x8
    __AUTH_CONST.__const: 0x2670
    __DATA.__bss: 0x8
+   __DATA.__common: 0x10
 
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libmav_ipc_router_dynamic.dylib

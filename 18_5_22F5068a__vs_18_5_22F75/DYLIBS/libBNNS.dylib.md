@@ -25,9 +25,9 @@
 -  __AUTH_CONST.__auth_got: 0x928
 +  __DATA_CONST.__const: 0x3a90
 +  __AUTH_CONST.__auth_got: 0x940
-   __AUTH_CONST.__auth_ptr: 0x310
    __AUTH_CONST.__const: 0xf820
    __AUTH_CONST.__cfstring: 0x200
+   __DATA.__data: 0x1c
 
    - /System/Library/PrivateFrameworks/MIL.framework/MIL
    - /usr/lib/libSystem.B.dylib

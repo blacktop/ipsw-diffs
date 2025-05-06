@@ -27,9 +27,7 @@
    __DATA_CONST.__objc_imageinfo: 0x8
    __DATA_CONST.__objc_selrefs: 0x160
 -  __AUTH_CONST.__auth_got: 0x18c0
--  __AUTH_CONST.__auth_ptr: 0x208
 +  __AUTH_CONST.__auth_got: 0x18c8
-+  __AUTH_CONST.__auth_ptr: 0x210
    __AUTH_CONST.__const: 0x6ac78
    __AUTH_CONST.__cfstring: 0x1520
    __AUTH.__data: 0x98

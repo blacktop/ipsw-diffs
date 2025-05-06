@@ -64,7 +64,6 @@
 +  __DATA_CONST.__objc_selrefs: 0xa90
    __DATA_CONST.__objc_protorefs: 0x40
 -  __AUTH_CONST.__auth_got: 0x2a00
--  __AUTH_CONST.__auth_ptr: 0x2740
 -  __AUTH_CONST.__const: 0xec70
 -  __AUTH_CONST.__objc_const: 0x3790
 -  __AUTH.__objc_data: 0xe10
@@ -74,7 +73,6 @@
 -  __DATA.__common: 0x338
 +  __DATA_CONST.__objc_superrefs: 0x8
 +  __AUTH_CONST.__auth_got: 0x2a50
-+  __AUTH_CONST.__auth_ptr: 0x2788
 +  __AUTH_CONST.__const: 0xf198
 +  __AUTH_CONST.__cfstring: 0x80
 +  __AUTH_CONST.__objc_const: 0x3b10

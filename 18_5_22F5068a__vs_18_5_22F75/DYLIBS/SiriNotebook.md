@@ -20,15 +20,6 @@
    __TEXT.__objc_classname: 0xd9
    __TEXT.__objc_methname: 0x2052
 
-   __DATA_CONST.__objc_selrefs: 0xcb8
-   __DATA_CONST.__objc_protorefs: 0x70
-   __AUTH_CONST.__auth_got: 0x3068
--  __AUTH_CONST.__auth_ptr: 0x2620
-+  __AUTH_CONST.__auth_ptr: 0x27d0
-   __AUTH_CONST.__const: 0x13598
-   __AUTH_CONST.__objc_const: 0x3258
-   __AUTH.__objc_data: 0xd50
-
    - /usr/lib/swift/libswiftsimd.dylib
    - /usr/lib/swift/libswiftsys_time.dylib
    - /usr/lib/swift/libswiftunistd.dylib

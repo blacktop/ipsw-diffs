@@ -11,13 +11,4 @@
    __TEXT.__objc_methlist: 0x308
    __TEXT.__const: 0x442c
 
-   __DATA_CONST.__objc_selrefs: 0x3e0
-   __DATA_CONST.__objc_protorefs: 0x38
-   __AUTH_CONST.__auth_got: 0xcb0
--  __AUTH_CONST.__auth_ptr: 0x638
-+  __AUTH_CONST.__auth_ptr: 0x628
-   __AUTH_CONST.__const: 0x2b98
-   __AUTH_CONST.__objc_const: 0x1840
-   __AUTH.__data: 0xa8
-
 ```

@@ -13,11 +13,8 @@
    __TEXT.__swift5_typeref: 0xcf60
    __TEXT.__swift5_reflstr: 0x2085
 
-   __DATA_CONST.__objc_superrefs: 0x678
    __DATA_CONST.__objc_arraydata: 0x310
    __AUTH_CONST.__auth_got: 0x1ec0
--  __AUTH_CONST.__auth_ptr: 0x12c0
-+  __AUTH_CONST.__auth_ptr: 0x1288
    __AUTH_CONST.__const: 0x6400
 -  __AUTH_CONST.__cfstring: 0xa9a0
 +  __AUTH_CONST.__cfstring: 0xa9c0

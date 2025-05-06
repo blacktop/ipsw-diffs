@@ -26,8 +26,8 @@
    __TEXT.__objc_classname: 0x9e4
    __TEXT.__objc_methname: 0xd174
 
+   __DATA_CONST.__objc_arraydata: 0x180
    __AUTH_CONST.__auth_got: 0x970
-   __AUTH_CONST.__auth_ptr: 0x150
    __AUTH_CONST.__const: 0x980
 -  __AUTH_CONST.__cfstring: 0x7080
 +  __AUTH_CONST.__cfstring: 0x6fe0

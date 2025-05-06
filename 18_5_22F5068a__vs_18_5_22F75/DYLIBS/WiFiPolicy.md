@@ -16,8 +16,8 @@
    __TEXT.__gcc_except_tab: 0x18f0
    __TEXT.__dlopen_cstrs: 0x56
 
+   __DATA_CONST.__objc_arraydata: 0xa58
    __AUTH_CONST.__auth_got: 0xb10
-   __AUTH_CONST.__auth_ptr: 0x20
    __AUTH_CONST.__const: 0x3e0
 -  __AUTH_CONST.__cfstring: 0x187a0
 +  __AUTH_CONST.__cfstring: 0x187c0

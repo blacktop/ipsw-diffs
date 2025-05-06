@@ -17,15 +17,6 @@
    __TEXT.__swift5_typeref: 0x52c3
    __TEXT.__constg_swiftt: 0x4a90
    __TEXT.__swift5_builtin: 0x258
-
-   __DATA_CONST.__objc_superrefs: 0x33f0
-   __DATA_CONST.__objc_arraydata: 0x32c8
-   __AUTH_CONST.__auth_got: 0x2e10
--  __AUTH_CONST.__auth_ptr: 0x11b8
-+  __AUTH_CONST.__auth_ptr: 0x10d0
-   __AUTH_CONST.__const: 0x18888
-   __AUTH_CONST.__cfstring: 0x5b180
-   __AUTH_CONST.__objc_const: 0x110ca8
 Symbols:
 + ___Block_byref_object_copy_.138124
 + ___Block_byref_object_copy_.139099

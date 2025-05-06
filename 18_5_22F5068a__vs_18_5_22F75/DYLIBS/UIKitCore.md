@@ -41,10 +41,8 @@
    __DATA_CONST.__objc_superrefs: 0x6ed8
 -  __DATA_CONST.__objc_arraydata: 0x3fc0
 -  __AUTH_CONST.__auth_got: 0x4e98
--  __AUTH_CONST.__auth_ptr: 0x1b90
 +  __DATA_CONST.__objc_arraydata: 0x3f98
 +  __AUTH_CONST.__auth_got: 0x4e90
-+  __AUTH_CONST.__auth_ptr: 0x1870
    __AUTH_CONST.__const: 0x35570
 -  __AUTH_CONST.__cfstring: 0xa7260
 +  __AUTH_CONST.__cfstring: 0xa7200

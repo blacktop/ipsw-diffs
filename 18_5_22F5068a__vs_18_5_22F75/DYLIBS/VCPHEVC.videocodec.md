@@ -22,10 +22,9 @@
    __DATA_CONST.__got: 0x4f0
 -  __DATA_CONST.__const: 0xd0
 -  __AUTH_CONST.__auth_got: 0x770
+-  __AUTH_CONST.__const: 0x1188
 +  __DATA_CONST.__const: 0x5b8
 +  __AUTH_CONST.__auth_got: 0x7d0
-   __AUTH_CONST.__auth_ptr: 0x8
--  __AUTH_CONST.__const: 0x1188
 +  __AUTH_CONST.__const: 0x11a0
    __AUTH_CONST.__cfstring: 0x9a0
 -  __DATA.__bss: 0x1a0

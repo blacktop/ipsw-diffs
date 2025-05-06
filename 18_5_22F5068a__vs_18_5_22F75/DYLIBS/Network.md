@@ -42,11 +42,7 @@
    __DATA_CONST.__objc_catlist: 0x10
    __DATA_CONST.__objc_protolist: 0x4d8
 
-   __DATA_CONST.__objc_protorefs: 0x118
-   __DATA_CONST.__objc_superrefs: 0x6f0
    __AUTH_CONST.__auth_got: 0x33a0
--  __AUTH_CONST.__auth_ptr: 0x1340
-+  __AUTH_CONST.__auth_ptr: 0x12f0
    __AUTH_CONST.__const: 0xdb30
    __AUTH_CONST.__cfstring: 0x8380
 -  __AUTH_CONST.__objc_const: 0x26ac8

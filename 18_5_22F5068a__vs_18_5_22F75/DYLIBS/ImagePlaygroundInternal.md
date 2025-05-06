@@ -43,9 +43,7 @@
    __DATA_CONST.__objc_superrefs: 0x10
    __DATA_CONST.__vfx_script_tbl: 0x30
    __AUTH_CONST.__auth_got: 0x4668
--  __AUTH_CONST.__auth_ptr: 0x3cc8
 -  __AUTH_CONST.__const: 0x18a40
-+  __AUTH_CONST.__auth_ptr: 0x3618
 +  __AUTH_CONST.__const: 0x18a90
    __AUTH_CONST.__objc_const: 0xbb50
    __AUTH.__objc_data: 0x2370

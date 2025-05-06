@@ -27,9 +27,9 @@
    __DATA_CONST.__objc_selrefs: 0x28
 -  __AUTH_CONST.__auth_got: 0x1130
 +  __AUTH_CONST.__auth_got: 0x1138
-   __AUTH_CONST.__auth_ptr: 0x68
    __AUTH_CONST.__const: 0x204d0
    __AUTH_CONST.__cfstring: 0x320
+   __AUTH.__data: 0x8
 
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib

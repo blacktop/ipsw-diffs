@@ -25,15 +25,6 @@
    __TEXT.__swift_as_ret: 0x4c0
    __TEXT.__swift5_capture: 0x1908
 
-   __DATA_CONST.__objc_superrefs: 0xcf0
-   __DATA_CONST.__objc_arraydata: 0x650
-   __AUTH_CONST.__auth_got: 0x1c88
--  __AUTH_CONST.__auth_ptr: 0x8f8
-+  __AUTH_CONST.__auth_ptr: 0x900
-   __AUTH_CONST.__const: 0x96a8
-   __AUTH_CONST.__cfstring: 0x1b600
-   __AUTH_CONST.__objc_const: 0x32958
-
    - /usr/lib/swift/libswiftunistd.dylib
    Functions: 17821
    Symbols:   4857

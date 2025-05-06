@@ -39,11 +39,6 @@
    __TEXT.__objc_classname: 0xc4
    __TEXT.__objc_methname: 0x5bf
 
-   __DATA_CONST.__objc_selrefs: 0x298
-   __DATA_CONST.__objc_protorefs: 0x68
-   __AUTH_CONST.__auth_got: 0xab0
--  __AUTH_CONST.__auth_ptr: 0x590
-+  __AUTH_CONST.__auth_ptr: 0x570
    __AUTH_CONST.__const: 0x1958
    __AUTH_CONST.__objc_const: 0x2a70
    __AUTH.__objc_data: 0x318

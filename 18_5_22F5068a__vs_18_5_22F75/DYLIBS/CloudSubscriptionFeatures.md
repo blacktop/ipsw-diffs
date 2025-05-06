@@ -13,13 +13,4 @@
    __TEXT.__swift5_assocty: 0x3a8
    __TEXT.__swift5_capture: 0x1410
 
-   __DATA_CONST.__objc_protorefs: 0x40
-   __DATA_CONST.__objc_superrefs: 0x28
-   __AUTH_CONST.__auth_got: 0xf50
--  __AUTH_CONST.__auth_ptr: 0x968
-+  __AUTH_CONST.__auth_ptr: 0xa18
-   __AUTH_CONST.__const: 0x7270
-   __AUTH_CONST.__cfstring: 0x480
-   __AUTH_CONST.__objc_const: 0x3738
-
 ```

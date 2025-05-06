@@ -29,9 +29,9 @@
    __DATA_CONST.__objc_arraydata: 0x2e0
 -  __AUTH_CONST.__auth_got: 0x998
 +  __AUTH_CONST.__auth_got: 0x9a0
-   __AUTH_CONST.__auth_ptr: 0x78
    __AUTH_CONST.__const: 0x650
    __AUTH_CONST.__cfstring: 0x5260
+   __AUTH_CONST.__objc_const: 0x18a38
 
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib

@@ -22,9 +22,9 @@
    __DATA_CONST.__const: 0x788
 -  __AUTH_CONST.__auth_got: 0x7a0
 +  __AUTH_CONST.__auth_got: 0x770
-   __AUTH_CONST.__auth_ptr: 0x18
    __AUTH_CONST.__const: 0xce0
    __AUTH_CONST.__cfstring: 0x780
+   __DATA.__data: 0x3f8
 
    - /usr/lib/libTelephonyCapabilities.dylib
    - /usr/lib/libTelephonyUtilDynamic.dylib

@@ -49,11 +49,10 @@
    __DATA_CONST.__objc_superrefs: 0x1a8
    __DATA_CONST.__objc_arraydata: 0x10
 -  __AUTH_CONST.__auth_got: 0x518
-+  __AUTH_CONST.__auth_got: 0x530
-   __AUTH_CONST.__auth_ptr: 0x100
 -  __AUTH_CONST.__const: 0x1b8
 -  __AUTH_CONST.__cfstring: 0x3840
 -  __AUTH_CONST.__objc_const: 0x2e10
++  __AUTH_CONST.__auth_got: 0x530
 +  __AUTH_CONST.__const: 0x218
 +  __AUTH_CONST.__cfstring: 0x3ac0
 +  __AUTH_CONST.__objc_const: 0x2e30

@@ -39,8 +39,6 @@
 -  __DATA_CONST.__objc_arraydata: 0x270
 +  __DATA_CONST.__objc_arraydata: 0x268
    __AUTH_CONST.__auth_got: 0x26e8
--  __AUTH_CONST.__auth_ptr: 0xcd8
-+  __AUTH_CONST.__auth_ptr: 0xc08
    __AUTH_CONST.__const: 0xdf90
 -  __AUTH_CONST.__cfstring: 0x1b680
 +  __AUTH_CONST.__cfstring: 0x1b660

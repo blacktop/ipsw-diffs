@@ -42,10 +42,8 @@
    __DATA_CONST.__objc_protorefs: 0x10
    __DATA_CONST.__objc_superrefs: 0xb8
 -  __AUTH_CONST.__auth_got: 0x478
--  __AUTH_CONST.__auth_ptr: 0x20
 -  __AUTH_CONST.__const: 0x338
 +  __AUTH_CONST.__auth_got: 0x4f8
-+  __AUTH_CONST.__auth_ptr: 0x28
 +  __AUTH_CONST.__const: 0x400
    __AUTH_CONST.__cfstring: 0x1300
    __AUTH_CONST.__objc_const: 0x4480

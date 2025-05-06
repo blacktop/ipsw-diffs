@@ -16,8 +16,8 @@
    __TEXT.__oslogstring: 0x2762
    __TEXT.__unwind_info: 0x1148
 
+   __DATA_CONST.__objc_arraydata: 0x98
    __AUTH_CONST.__auth_got: 0x718
-   __AUTH_CONST.__auth_ptr: 0x8
    __AUTH_CONST.__const: 0x400
 -  __AUTH_CONST.__cfstring: 0x5cc0
 +  __AUTH_CONST.__cfstring: 0x5d20

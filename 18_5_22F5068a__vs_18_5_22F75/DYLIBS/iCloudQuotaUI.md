@@ -18,8 +18,8 @@
    __TEXT.__dlopen_cstrs: 0x691
    __TEXT.__swift5_typeref: 0x988c
 
+   __DATA_CONST.__objc_arraydata: 0x578
    __AUTH_CONST.__auth_got: 0x2120
-   __AUTH_CONST.__auth_ptr: 0x1050
    __AUTH_CONST.__const: 0x6600
 -  __AUTH_CONST.__cfstring: 0x7600
 +  __AUTH_CONST.__cfstring: 0x7620

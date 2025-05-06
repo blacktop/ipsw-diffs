@@ -40,13 +40,6 @@
    __DATA_CONST.__objc_classlist: 0xb8
    __DATA_CONST.__objc_protolist: 0x50
 
-   __DATA_CONST.__objc_selrefs: 0x580
-   __DATA_CONST.__objc_protorefs: 0x40
-   __AUTH_CONST.__auth_got: 0x1268
--  __AUTH_CONST.__auth_ptr: 0x858
-+  __AUTH_CONST.__auth_ptr: 0x870
-   __AUTH_CONST.__const: 0x38c0
-   __AUTH_CONST.__cfstring: 0x5c0
    __AUTH_CONST.__objc_const: 0x16e8
    __AUTH.__objc_data: 0x4f8
    __AUTH.__data: 0x2360

@@ -34,15 +34,6 @@
    __DATA_CONST.__got: 0x528
    __DATA_CONST.__const: 0xe0
 
-   __DATA_CONST.__objc_imageinfo: 0x8
-   __DATA_CONST.__objc_selrefs: 0x98
-   __AUTH_CONST.__auth_got: 0xf60
--  __AUTH_CONST.__auth_ptr: 0xb88
-+  __AUTH_CONST.__auth_ptr: 0xbe8
-   __AUTH_CONST.__const: 0x95e8
-   __AUTH_CONST.__objc_const: 0xe40
-   __AUTH.__data: 0x1508
-
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsys_time.dylib
    - /usr/lib/swift/libswiftunistd.dylib
