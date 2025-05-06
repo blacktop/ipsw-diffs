@@ -106,6 +106,7 @@
 - [18.5 beta 1 (22F5042g) .vs 18.5 beta 2 (22F5053f)](18_5_22F5042g__vs_18_5_22F5053f/README.md)
 - [18.5 beta 2 (22F5053f) .vs 18.5 beta 3 (22F5053j)](18_5_22F5053f__vs_18_5_22F5053j/README.md)
 - [18.5 beta 3 (22F5053j) .vs 18.5 beta 4 (22F5068a)](18_5_22F5053j__vs_18_5_22F5068a/README.md)
+- [18.5 beta 4 (22F5068a) .vs 18.5 RC (22F75)](18_5_22F5068a__vs_18_5_22F75/README.md)
 
 #### A17 vs. A18
 
