@@ -1,0 +1,345 @@
+## SiriPrivateLearningInference
+
+> `/System/Library/PrivateFrameworks/SiriPrivateLearningInference.framework/SiriPrivateLearningInference`
+
+```diff
+
+-3301.9.2.0.0
+-  __TEXT.__text: 0x16b6b0
+-  __TEXT.__auth_stubs: 0x2900
++3302.16.1.0.0
++  __TEXT.__text: 0x183988
++  __TEXT.__auth_stubs: 0x2990
+   __TEXT.__objc_methlist: 0x1c4
+-  __TEXT.__const: 0xf450
+-  __TEXT.__swift5_typeref: 0x5746
+-  __TEXT.__cstring: 0xbe76
+-  __TEXT.__swift5_reflstr: 0x2db5
+-  __TEXT.__swift5_assocty: 0xa68
+-  __TEXT.__constg_swiftt: 0x6b34
+-  __TEXT.__swift5_fieldmd: 0x3d10
++  __TEXT.__const: 0xfe40
++  __TEXT.__swift5_typeref: 0x5d3a
++  __TEXT.__cstring: 0xc876
++  __TEXT.__swift5_reflstr: 0x3425
++  __TEXT.__swift5_assocty: 0xac8
++  __TEXT.__constg_swiftt: 0x6ef8
++  __TEXT.__swift5_fieldmd: 0x409c
+   __TEXT.__swift5_builtin: 0xf0
+-  __TEXT.__swift5_proto: 0xb44
+-  __TEXT.__swift5_types: 0x628
+-  __TEXT.__swift5_capture: 0x33c
++  __TEXT.__swift5_proto: 0xbb8
++  __TEXT.__swift5_types: 0x670
++  __TEXT.__swift5_capture: 0x368
+   __TEXT.__swift5_mpenum: 0x20
+-  __TEXT.__swift5_protos: 0xd8
+-  __TEXT.__unwind_info: 0x5704
+-  __TEXT.__eh_frame: 0x5190
++  __TEXT.__swift5_protos: 0xe0
++  __TEXT.__unwind_info: 0x690c
++  __TEXT.__eh_frame: 0x5e38
+   __TEXT.__objc_classname: 0x54
+-  __TEXT.__objc_methname: 0x1c26
++  __TEXT.__objc_methname: 0x1d14
+   __TEXT.__objc_methtype: 0x179
+-  __DATA_CONST.__got: 0x550
+-  __DATA_CONST.__const: 0xc80
+-  __DATA_CONST.__objc_classlist: 0x368
++  __DATA_CONST.__got: 0x670
++  __DATA_CONST.__const: 0xcd8
++  __DATA_CONST.__objc_classlist: 0x388
+   __DATA_CONST.__objc_catlist: 0x0
+   __DATA_CONST.__objc_protolist: 0x70
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_const: 0x6478
+-  __DATA_CONST.__objc_selrefs: 0x9f8
+-  __AUTH_CONST.__const: 0xa220
+-  __AUTH_CONST.__auth_ptr: 0x4a8
++  __DATA_CONST.__objc_const: 0x6868
++  __DATA_CONST.__objc_selrefs: 0xa50
++  __AUTH_CONST.__const: 0xac70
++  __AUTH_CONST.__auth_ptr: 0x4b8
+   __AUTH_CONST.__cfstring: 0x760
+   __AUTH_CONST.__objc_const: 0x48
+-  __AUTH_CONST.__auth_got: 0x1480
+-  __AUTH.__data: 0x7758
+-  __AUTH.__objc_data: 0xb68
++  __AUTH_CONST.__auth_got: 0x14c8
++  __AUTH.__data: 0x7b20
++  __AUTH.__objc_data: 0xb18
+   __DATA.__objc_protorefs: 0x38
+-  __DATA.__objc_classrefs: 0x2e8
+-  __DATA.__objc_data: 0xd38
+-  __DATA.__data: 0x48d8
+-  __DATA.__bss: 0x13f00
+-  __DATA.__common: 0x320
++  __DATA.__objc_classrefs: 0x308
++  __DATA.__objc_data: 0xd80
++  __DATA.__data: 0x4d78
++  __DATA.__bss: 0x14a40
++  __DATA.__common: 0x338
+   - /System/Library/Frameworks/Contacts.framework/Contacts
+   - /System/Library/Frameworks/CoreData.framework/CoreData
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/Frameworks/Intents.framework/Intents
+   - /System/Library/Frameworks/MediaPlayer.framework/MediaPlayer
++  - /System/Library/PrivateFrameworks/AppleMediaServices.framework/AppleMediaServices
+   - /System/Library/PrivateFrameworks/AssistantServices.framework/AssistantServices
+   - /System/Library/PrivateFrameworks/BiomePubSub.framework/BiomePubSub
+   - /System/Library/PrivateFrameworks/BiomeStreams.framework/BiomeStreams
+
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/swift/libswiftAVFoundation.dylib
+   - /usr/lib/swift/libswiftAccelerate.dylib
++  - /usr/lib/swift/libswiftCompression.dylib
+   - /usr/lib/swift/libswiftCore.dylib
+   - /usr/lib/swift/libswiftCoreAudio.dylib
+   - /usr/lib/swift/libswiftCoreFoundation.dylib
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 8553
+-  Symbols:   2578
+-  CStrings:  1261
++  Functions: 9000
++  Symbols:   2694
++  CStrings:  1322
+ 
+Symbols:
++ _OBJC_CLASS_$_AMSBag
++ _OBJC_CLASS_$_AMSMediaResult
++ _OBJC_CLASS_$_AMSMediaTask
++ _OBJC_CLASS_$_INPlayMediaIntent
++ __DATA__TtC28SiriPrivateLearningInference17AMPMetadataHelper
++ __DATA__TtC28SiriPrivateLearningInference21AMSSongMetadataClient
++ __DATA__TtC28SiriPrivateLearningInference22CoreAnalyticsLogHelper
++ __DATA__TtC28SiriPrivateLearningInference26MediaGroundTruthSummarizer
++ __DATA__TtC28SiriPrivateLearningInference9AMSClient
++ __DATA__TtC28SiriPrivateLearningInferenceP33_F34D711BA311667891FFF4C6E56BC96911QueuedEvent
++ __DATA__TtC28SiriPrivateLearningInferenceP33_F34D711BA311667891FFF4C6E56BC96942INPlayMediaIntentEventAsyncStreamProcessor
++ __DATA__TtCO28SiriPrivateLearningInference16PlayMediaFeature15NowPlayingEvent
++ __IVARS__TtC28SiriPrivateLearningInference17AMPMetadataHelper
++ __IVARS__TtC28SiriPrivateLearningInference21AMSSongMetadataClient
++ __IVARS__TtC28SiriPrivateLearningInference26MediaGroundTruthSummarizer
++ __IVARS__TtC28SiriPrivateLearningInference9AMSClient
++ __IVARS__TtC28SiriPrivateLearningInferenceP33_F34D711BA311667891FFF4C6E56BC96911QueuedEvent
++ __IVARS__TtC28SiriPrivateLearningInferenceP33_F34D711BA311667891FFF4C6E56BC96942INPlayMediaIntentEventAsyncStreamProcessor
++ __METACLASS_DATA__TtC28SiriPrivateLearningInference17AMPMetadataHelper
++ __METACLASS_DATA__TtC28SiriPrivateLearningInference21AMSSongMetadataClient
++ __METACLASS_DATA__TtC28SiriPrivateLearningInference22CoreAnalyticsLogHelper
++ __METACLASS_DATA__TtC28SiriPrivateLearningInference26MediaGroundTruthSummarizer
++ __METACLASS_DATA__TtC28SiriPrivateLearningInference9AMSClient
++ __METACLASS_DATA__TtC28SiriPrivateLearningInferenceP33_F34D711BA311667891FFF4C6E56BC96911QueuedEvent
++ __METACLASS_DATA__TtC28SiriPrivateLearningInferenceP33_F34D711BA311667891FFF4C6E56BC96942INPlayMediaIntentEventAsyncStreamProcessor
++ __METACLASS_DATA__TtCO28SiriPrivateLearningInference16PlayMediaFeature15NowPlayingEvent
++ ___swift_memcpy17_8
++ ___swift_memcpy64_8
++ __swift_FORCE_LOAD_$_swiftCompression
++ __swift_FORCE_LOAD_$_swiftCompression_$_SiriPrivateLearningInference
++ _associated conformance 28SiriPrivateLearningInference11U2MediaItemVSHAASQ
++ _associated conformance 28SiriPrivateLearningInference20PIMSFatalErrorReasonOSHAASQ
++ _associated conformance 28SiriPrivateLearningInference23MediaGroundTruthSummaryV10CodingKeys33_11523416CB50A6D3260A146D95C89E31LLOSHAASQ
++ _associated conformance 28SiriPrivateLearningInference23MediaGroundTruthSummaryV10CodingKeys33_11523416CB50A6D3260A146D95C89E31LLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 28SiriPrivateLearningInference23MediaGroundTruthSummaryV10CodingKeys33_11523416CB50A6D3260A146D95C89E31LLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 28SiriPrivateLearningInference23PIMSProcessingStateCodeOSHAASQ
++ _associated conformance 28SiriPrivateLearningInference30MediaFeedbackGroundTruthSourceO39ExtendedPlayWithInAppFollowupCodingKeys33_FDA39B96A5682724C2548E0A3A7E3410LLOs0P3KeyAAs23CustomStringConvertible
++ _associated conformance 28SiriPrivateLearningInference30MediaFeedbackGroundTruthSourceO39ExtendedPlayWithInAppFollowupCodingKeys33_FDA39B96A5682724C2548E0A3A7E3410LLOs0P3KeyAAs28CustomDebugStringConvertible
++ _block_copy_helper.19
++ _block_descriptor.21
++ _block_destroy_helper.20
++ _get_witness_table 28SiriPrivateLearningInference28NowPlayingStreamStateMachine33_9D5FDEA6C0F78966509CB6B1160C3BEFLLCAA05AsyncG9ProcessorHPyHC.15
++ _get_witness_table 28SiriPrivateLearningInference42INPlayMediaIntentEventAsyncStreamProcessor33_F34D711BA311667891FFF4C6E56BC969LLCAA0ijK0HPyHC.18
++ _keypath_getTm
++ _objc_retain_x28
++ _symbolic $s28SiriPrivateLearningInference13SuggestionTagP
++ _symbolic $s28SiriPrivateLearningInference18SongMetadataClientP
++ _symbolic 13AsyncIteratorSciQzSgz______y_____G_SciRzlXX 28SiriPrivateLearningAnalytics16AnyAsyncSequenceV 0abC9Inference13CoreDuetEventV
++ _symbolic 13AsyncIteratorSciQzSgz______y_____y_____GAFG_SciRzlXX s24AsyncThrowingMapSequenceV 28SiriPrivateLearningInference0A11EventStreamV AC08CoreDuetI0V
++ _symbolic 13AsyncIteratorSciQzSgz______y_____y_____y_____y_____y_____GSay______pGG_____G_____GG_SciRzlXX s19AsyncFilterSequenceV 28SiriPrivateLearningInference0a16StreamProcessingC0V s0a10CompactMapC0V s0akC0V 0deF9Analytics03AnyaC0V AJ14AppInteractionV AJ12NamedFeatureP AC13CoreDuetEventV AC017INPlayMediaIntenttaH16ProcessorFactoryV
++ _symbolic SDySS_____G 28SiriPrivateLearningInference11QueuedEvent33_F34D711BA311667891FFF4C6E56BC969LLC
++ _symbolic SDy_____Say_____GAASH28SiriPrivateLearningInferenceyHCg_GSg 12SiriOntology26UsoEntity_common_MediaItemC 0A24PrivateLearningInference0F11GroundTruthV
++ _symbolic SDy_____Say_____GAASH28SiriPrivateLearningInferenceyHCg_GSg 12SiriOntology26UsoEntity_common_MediaItemC 0A24PrivateLearningInference0F19FeedbackGroundTruthV
++ _symbolic SDy_____ypG s11AnyHashableV
++ _symbolic SSSg7message_t
++ _symbolic SS_______pt 28SiriPrivateLearningAnalytics04CoreD8LoggableP
++ _symbolic Say_____G 28SiriPrivateLearningInference23MediaGroundTruthSummaryV
++ _symbolic Say_____GSg 28SiriPrivateLearningInference16MediaGroundTruthV
++ _symbolic Say_____GSg 28SiriPrivateLearningInference24MediaFeedbackGroundTruthV
++ _symbolic Say______pG 28SiriPrivateLearningAnalytics30AppInteractionFeatureExtractorP
++ _symbolic ScCySo14AMSMediaResultC______pG s5ErrorP
++ _symbolic So6AMSBagCSg
++ _symbolic _____ 12SiriOntology27UsoEntity_common_PersonNameC
++ _symbolic _____ 28SiriPrivateLearningInference11QueuedEvent33_F34D711BA311667891FFF4C6E56BC969LLC
++ _symbolic _____ 28SiriPrivateLearningInference14PIMSFatalErrorV
++ _symbolic _____ 28SiriPrivateLearningInference15AMPSongMetadataV
++ _symbolic _____ 28SiriPrivateLearningInference15AMPSongMetadataV10AttributesV
++ _symbolic _____ 28SiriPrivateLearningInference16PlayMediaFeatureO15NowPlayingEventC
++ _symbolic _____ 28SiriPrivateLearningInference17AMPMetadataHelperC
++ _symbolic _____ 28SiriPrivateLearningInference19PIMSProcessingStateV
++ _symbolic _____ 28SiriPrivateLearningInference20PIMSFatalErrorReasonO
++ _symbolic _____ 28SiriPrivateLearningInference21AMSSongMetadataClientC
++ _symbolic _____ 28SiriPrivateLearningInference22CoreAnalyticsLogHelperC
++ _symbolic _____ 28SiriPrivateLearningInference23MediaGroundTruthSummaryV
++ _symbolic _____ 28SiriPrivateLearningInference23MediaGroundTruthSummaryV10CodingKeys33_11523416CB50A6D3260A146D95C89E31LLO
++ _symbolic _____ 28SiriPrivateLearningInference23PIMSProcessingStateCodeO
++ _symbolic _____ 28SiriPrivateLearningInference26MediaGroundTruthSummarizerC
++ _symbolic _____ 28SiriPrivateLearningInference30MediaFeedbackGroundTruthSourceO39ExtendedPlayWithInAppFollowupCodingKeys33_FDA39B96A5682724C2548E0A3A7E3410LLO
++ _symbolic _____ 28SiriPrivateLearningInference33INPlayMediaIntentStreamDefinitionV
++ _symbolic _____ 28SiriPrivateLearningInference42INPlayMediaIntentEventAsyncStreamProcessor33_F34D711BA311667891FFF4C6E56BC969LLC
++ _symbolic _____ 28SiriPrivateLearningInference58PlayMediaIntentWithAttachedNowPlayingEventStreamDefinitionV
++ _symbolic _____ 28SiriPrivateLearningInference8AMSErrorO
++ _symbolic _____ 28SiriPrivateLearningInference8SetUtilsO
++ _symbolic _____ 28SiriPrivateLearningInference9AMSClientC
++ _symbolic __________Xj l28SiriPrivateLearningInference21EventStreamDefinition_px7ElementRts_XPXGMq AA08CoreDuetE0V
++ _symbolic ______p 28SiriPrivateLearningAnalytics17InteractionReaderP
++ _symbolic ______p 28SiriPrivateLearningAnalytics24InferredGroundTruthStoreP
++ _symbolic ______p 28SiriPrivateLearningInference18SongMetadataClientP
++ _symbolic _____m 28SiriPrivateLearningInference13CoreDuetEventV
++ _symbolic _____m 28SiriPrivateLearningInference42INPlayMediaIntentEventAsyncStreamProcessor33_F34D711BA311667891FFF4C6E56BC969LLC
++ _symbolic _____ySSSaySSGG s18_DictionaryStorageC
++ _symbolic _____ySS_____G s18_DictionaryStorageC 28SiriPrivateLearningInference11QueuedEvent33_F34D711BA311667891FFF4C6E56BC969LLC
++ _symbolic _____ySS_____G s18_DictionaryStorageC 28SiriPrivateLearningInference15AMPSongMetadataV
++ _symbolic _____ySS_______ptG s23_ContiguousArrayStorageC 28SiriPrivateLearningAnalytics04CoreG8LoggableP
++ _symbolic _____ySS______pG s18_DictionaryStorageC 28SiriPrivateLearningAnalytics04CoreF8LoggableP
++ _symbolic _____y_____G 28SiriPrivateLearningAnalytics16AnyAsyncIteratorV 0abC9Inference13CoreDuetEventV
++ _symbolic _____y_____G 28SiriPrivateLearningAnalytics16AnyAsyncSequenceV 0abC9Inference13CoreDuetEventV
++ _symbolic _____y_____G 28SiriPrivateLearningAnalytics16AnyAsyncSequenceV AA14AppInteractionV
++ _symbolic _____y_____G 28SiriPrivateLearningAnalytics17TypedNamedFeatureC 0abC9Inference13CoreDuetEventV
++ _symbolic _____y_____G 28SiriPrivateLearningAnalytics5QueueC 0abC9Inference11QueuedEvent33_F34D711BA311667891FFF4C6E56BC969LLC
++ _symbolic _____y_____G 28SiriPrivateLearningInference16AsyncEventStreamV AA08CoreDuetF0V
++ _symbolic _____y_____G s22KeyedDecodingContainerV 28SiriPrivateLearningInference23MediaGroundTruthSummaryV10CodingKeys33_11523416CB50A6D3260A146D95C89E31LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 28SiriPrivateLearningInference30MediaFeedbackGroundTruthSourceO39ExtendedPlayWithInAppFollowupCodingKeys33_FDA39B96A5682724C2548E0A3A7E3410LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 28SiriPrivateLearningInference23MediaGroundTruthSummaryV10CodingKeys33_11523416CB50A6D3260A146D95C89E31LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 28SiriPrivateLearningInference30MediaFeedbackGroundTruthSourceO39ExtendedPlayWithInAppFollowupCodingKeys33_FDA39B96A5682724C2548E0A3A7E3410LLO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 28SiriPrivateLearningInference15AMPSongMetadataV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 28SiriPrivateLearningInference23MediaGroundTruthSummaryV
++ _symbolic _____y_____GSg 28SiriPrivateLearningAnalytics16AnyAsyncIteratorV 0abC9Inference13CoreDuetEventV
++ _symbolic _____y_____Say_____GABSH28SiriPrivateLearningInferenceyHCg_G s18_DictionaryStorageC 12SiriOntology26UsoEntity_common_MediaItemC 0C24PrivateLearningInference0H11GroundTruthV
++ _symbolic _____y_____Say_____GABSH28SiriPrivateLearningInferenceyHCg_G s18_DictionaryStorageC 12SiriOntology26UsoEntity_common_MediaItemC 0C24PrivateLearningInference0H19FeedbackGroundTruthV
++ _symbolic _____y_____Say_____GG s18_DictionaryStorageC 28SiriPrivateLearningInference30MediaFeedbackGroundTruthSourceO AC0ghiJ0V
++ _symbolic _____y_____Say_____GG s18_DictionaryStorageC 28SiriPrivateLearningInference32MediaCorrectionGroundTruthSourceO AC0giJ0V
++ _symbolic _____y______G 28SiriPrivateLearningInference16AsyncEventStreamV0E8IteratorV AA08CoreDuetF0V
++ _symbolic _____y___________p_G Scs8IteratorV 28SiriPrivateLearningInference13CoreDuetEventV s5ErrorP
++ _symbolic _____y______pG s23_ContiguousArrayStorageC 28SiriPrivateLearningAnalytics30AppInteractionFeatureExtractorP
++ _symbolic _____y_____y_____GACG s24AsyncThrowingMapSequenceV 28SiriPrivateLearningInference0A11EventStreamV AC08CoreDuetI0V
++ _symbolic _____y_____y_____GAC_G s24AsyncThrowingMapSequenceV8IteratorV 28SiriPrivateLearningInference0A11EventStreamV AE08CoreDuetJ0V
++ _symbolic _____y_____y_____GAC_GSg s24AsyncThrowingMapSequenceV8IteratorV 28SiriPrivateLearningInference0A11EventStreamV AE08CoreDuetJ0V
++ _symbolic _____y_____y_____GSay______pGG s16AsyncMapSequenceV 28SiriPrivateLearningAnalytics03AnyaC0V AC14AppInteractionV AC12NamedFeatureP
++ _symbolic _____y_____y_____y_____GSay______pGG_____G s23AsyncCompactMapSequenceV s0acD0V 28SiriPrivateLearningAnalytics03AnyaD0V AE14AppInteractionV AE12NamedFeatureP 0efG9Inference13CoreDuetEventV
++ _symbolic _____y_____y_____y_____y_____GSay______pGG_____G_____G 28SiriPrivateLearningInference29AsyncStreamProcessingSequenceV s0e10CompactMapH0V s0ejH0V 0abC9Analytics03AnyeH0V AH14AppInteractionV AH12NamedFeatureP AA13CoreDuetEventV AA017INPlayMediaIntentseF16ProcessorFactoryV
++ _symbolic _____y_____y_____y_____y_____y_____GSay______pGG_____G_____GG s19AsyncFilterSequenceV 28SiriPrivateLearningInference0a16StreamProcessingC0V s0a10CompactMapC0V s0akC0V 0deF9Analytics03AnyaC0V AJ14AppInteractionV AJ12NamedFeatureP AC13CoreDuetEventV AC017INPlayMediaIntenttaH16ProcessorFactoryV
++ _symbolic _____y_____y_____y_____y_____y_____GSay______pGG_____G_____G_G s19AsyncFilterSequenceV8IteratorV 28SiriPrivateLearningInference0a16StreamProcessingC0V s0a10CompactMapC0V s0alC0V 0efG9Analytics03AnyaC0V AL14AppInteractionV AL12NamedFeatureP AE13CoreDuetEventV AE017INPlayMediaIntentuaI16ProcessorFactoryV
++ _symbolic _____y_____y_____y_____y_____y_____GSay______pGG_____G_____G_GSg s19AsyncFilterSequenceV8IteratorV 28SiriPrivateLearningInference0a16StreamProcessingC0V s0a10CompactMapC0V s0alC0V 0efG9Analytics03AnyaC0V AL14AppInteractionV AL12NamedFeatureP AE13CoreDuetEventV AE017INPlayMediaIntentuaI16ProcessorFactoryV
+- __DATA__TtC28SiriPrivateLearningInference37INPlayMediaIntentEventStreamProcessor
+- __DATA__TtC28SiriPrivateLearningInferenceP33_F34D711BA311667891FFF4C6E56BC96934INPlayMediaIntentEventStateMachine
+- __DATA__TtCC28SiriPrivateLearningInferenceP33_F34D711BA311667891FFF4C6E56BC96934INPlayMediaIntentEventStateMachine26PlayMediaIntentAccumulator
+- __IVARS__TtC28SiriPrivateLearningInferenceP33_F34D711BA311667891FFF4C6E56BC96934INPlayMediaIntentEventStateMachine
+- __IVARS__TtCC28SiriPrivateLearningInferenceP33_F34D711BA311667891FFF4C6E56BC96934INPlayMediaIntentEventStateMachine26PlayMediaIntentAccumulator
+- __METACLASS_DATA__TtC28SiriPrivateLearningInference37INPlayMediaIntentEventStreamProcessor
+- __METACLASS_DATA__TtC28SiriPrivateLearningInferenceP33_F34D711BA311667891FFF4C6E56BC96934INPlayMediaIntentEventStateMachine
+- __METACLASS_DATA__TtCC28SiriPrivateLearningInferenceP33_F34D711BA311667891FFF4C6E56BC96934INPlayMediaIntentEventStateMachine26PlayMediaIntentAccumulator
+- ___swift_allocate_boxed_opaque_existential_0
+- ___swift_project_boxed_opaque_existential_0
+- _get_witness_table 28SiriPrivateLearningInference28NowPlayingStreamStateMachine33_9D5FDEA6C0F78966509CB6B1160C3BEFLLCAA05AsyncG9ProcessorHPyHC.14
+- _get_witness_table 28SiriPrivateLearningInference34INPlayMediaIntentEventStateMachine33_F34D711BA311667891FFF4C6E56BC969LLCAA20AsyncStreamProcessorHPyHC.27
+- _symbolic Say___________tG 28SiriPrivateLearningInference13CoreDuetEventV 10Foundation4UUIDV
+- _symbolic _____ 28SiriPrivateLearningInference34INPlayMediaIntentEventStateMachine33_F34D711BA311667891FFF4C6E56BC969LLC
+- _symbolic _____ 28SiriPrivateLearningInference34INPlayMediaIntentEventStateMachine33_F34D711BA311667891FFF4C6E56BC969LLC04PlayfG11AccumulatorC
+- _symbolic _____ 28SiriPrivateLearningInference37INPlayMediaIntentEventStreamProcessorC
+- _symbolic _____Sg 28SiriPrivateLearningInference34INPlayMediaIntentEventStateMachine33_F34D711BA311667891FFF4C6E56BC969LLC04PlayfG11AccumulatorC
+- _symbolic _____m 28SiriPrivateLearningInference34INPlayMediaIntentEventStateMachine33_F34D711BA311667891FFF4C6E56BC969LLC
+- _symbolic _____m 28SiriPrivateLearningInference34INPlayMediaIntentEventStateMachine33_F34D711BA311667891FFF4C6E56BC969LLC04PlayfG11AccumulatorC
+- _symbolic _____ySay_____y___________tGGG s12_SequenceBoxC s10ArraySliceV 28SiriPrivateLearningInference13CoreDuetEventV 10Foundation4UUIDV
+- _symbolic _____y____________ptG s23_ContiguousArrayStorageC 28SiriPrivateLearningInference15EventStreamTypeO AC0hI10DefinitionP
+- _symbolic _____y_____y_____ySi5start_Si3endtSiAD_SiAEtSg_SbtG_____y___________tGGG s12_SequenceBoxC s07LazyMapA0V s06UnfoldA0V s10ArraySliceV 28SiriPrivateLearningInference13CoreDuetEventV 10Foundation4UUIDV
+CStrings:
++ "$__lazy_storage_$_allFeedbackGroundTruths"
++ "$__lazy_storage_$_allMediaGroundTruths"
++ "$__lazy_storage_$_bag"
++ "$__lazy_storage_$_feedbackGroundTruths"
++ "$__lazy_storage_$_mediaGroundTruths"
++ "%s Can't classify media play, attached now playing event not found"
++ "%s Could not find associated NowPlayingEvent in time window"
++ "%s Could not resolve playMediaIntentStream"
++ "%s Didn't find any relevant now playing events"
++ "%s Ignoring early now play event with non matching media id"
++ "%s NowPlayingEvent required properties missing: %s"
++ "%s Unexpected event discarded"
++ "%s Unexpected now playing media id after limit"
++ "%s could not find associated now playing event for %s"
++ "%s event without timestamp encountered %s"
++ "%s failed to resolve nowPlayingStream"
++ "%s follow on INPlayMediaIntent suppressed %s"
++ "%s playMediaIntent required fields missing (%s"
++ "%s: Successful evaluateSession run"
++ "AMPMetadata: id: "
++ "AMSMediaResult.responseDataItems is nil"
++ "Dropping Recipient: every name field is nil or empty"
++ "MediaEvaluationFramework.EvaluateSession.NowPlayingEventNotPresent"
++ "MediaEvaluationFramework.EvaluateSession.PlayMediaIntentEventNotPresent"
++ "MediaEvaluationFramework.EvaluateSession.PlayMediaTaskRequestIdNotPresent"
++ "MediaFeatureExtractor.Extract.MPPlaybackContextTier1NotPresent"
++ "MediaFeatureExtractor.Extract.MediaItemSearchResultsNotPresent"
++ "MediaFeatureExtractor.Extract.PrimaryTaskUSONotPresent"
++ "MediaFeatureExtractor.Extract.U2UnderstandingGraphNotPresent"
++ "MediaFeatureExtractor.Extract.U2UnderstandingRedactionsNotPresent"
++ "MediaFeatureExtractor.Extract.U2UnderstandingUnredactionFailed"
++ "MediaGroundTruthSummary: Failed to create PLUSSchemaPLUSMediaGroundTruthSummary"
++ "PIMSGroundTruthGenerationTriggered"
++ "PIMSMediaEventFeaturisationTriggered"
++ "PIMSPluginRunTriggered"
++ "PIMSProcessingState"
++ "PIMSSuggestionEvaluationTriggered"
++ "PIMSSuggestionGenerationTriggered"
++ "SuggestionDonator.DonateSuggestions.RegisterFailure"
++ "SuggestionDonator.DonateSuggestions.StreamFinishFailure"
++ "SuggestionDonator.DonateSuggestions.StreamInitFailure"
++ "_TtC28SiriPrivateLearningInference17AMPMetadataHelper"
++ "_TtC28SiriPrivateLearningInference21AMSSongMetadataClient"
++ "_TtC28SiriPrivateLearningInference22CoreAnalyticsLogHelper"
++ "_TtC28SiriPrivateLearningInference26MediaGroundTruthSummarizer"
++ "_TtC28SiriPrivateLearningInference9AMSClient"
++ "_TtC28SiriPrivateLearningInferenceP33_F34D711BA311667891FFF4C6E56BC96911QueuedEvent"
++ "_TtC28SiriPrivateLearningInferenceP33_F34D711BA311667891FFF4C6E56BC96942INPlayMediaIntentEventAsyncStreamProcessor"
++ "_TtCO28SiriPrivateLearningInference16PlayMediaFeature15NowPlayingEvent"
++ "activeSiriIntentKey"
++ "activeSiriIntents"
++ "addErrorBlock:"
++ "addSuccessBlock:"
++ "amsClient"
++ "bagForProfile:profileVersion:"
++ "bagSubProfile"
++ "bagSubProfileVersion"
++ "com.apple.siri.siripltool"
++ "extendedPlayWithInAppFollowup"
++ "groundTruthCount"
++ "groundTruthStore"
++ "groundTruthSummarizer"
++ "initWithType:clientIdentifier:clientVersion:bag:"
++ "mediaClient"
++ "mediaEntityCount"
++ "outputQueue"
++ "perform"
++ "pimsStore"
++ "responseDataItems"
++ "setGroundTruthSummaries:"
++ "setItemIdentifiers:"
++ "setMediaEntityCount:"
++ "v16@?0@8"
+- "%s Can't classify media play for single event, missing NowPlaying or PlayMediaIntent event"
+- "%s Emitting event %s"
+- "%s Emitting final event %s"
+- "%s Found new event %s"
+- "%s Keeping %s, discarding %s INPlayMediaIntent"
+- "%s Replacing %s with %s INPlayMediaIntent"
+- "_TtC28SiriPrivateLearningInference37INPlayMediaIntentEventStreamProcessor"
+- "_TtC28SiriPrivateLearningInferenceP33_F34D711BA311667891FFF4C6E56BC96934INPlayMediaIntentEventStateMachine"
+- "_TtCC28SiriPrivateLearningInferenceP33_F34D711BA311667891FFF4C6E56BC96934INPlayMediaIntentEventStateMachine26PlayMediaIntentAccumulator"
+- "mediaItem"
+- "siriDonated"
+- "timeStamp"
+
+```

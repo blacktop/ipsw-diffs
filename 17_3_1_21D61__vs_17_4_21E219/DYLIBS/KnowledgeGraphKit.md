@@ -1,0 +1,1010 @@
+## KnowledgeGraphKit
+
+> `/System/Library/PrivateFrameworks/KnowledgeGraphKit.framework/KnowledgeGraphKit`
+
+```diff
+
+-630.0.150.0.0
+-  __TEXT.__text: 0x16dc10
+-  __TEXT.__auth_stubs: 0x2b20
+-  __TEXT.__objc_methlist: 0x6f10
+-  __TEXT.__const: 0x6b88
+-  __TEXT.__swift5_typeref: 0x1c29
+-  __TEXT.__swift5_capture: 0x790
++646.1.102.0.0
++  __TEXT.__text: 0x1724e8
++  __TEXT.__auth_stubs: 0x2b30
++  __TEXT.__objc_methlist: 0x6f30
++  __TEXT.__const: 0x6b98
++  __TEXT.__swift5_typeref: 0x1c17
++  __TEXT.__swift5_capture: 0x778
+   __TEXT.__swift5_reflstr: 0x1023
+   __TEXT.__swift5_assocty: 0x680
+   __TEXT.__swift5_fieldmd: 0x1170
+
+   __TEXT.__swift5_protos: 0x68
+   __TEXT.__swift5_proto: 0x274
+   __TEXT.__swift5_types: 0x17c
+-  __TEXT.__cstring: 0x76fb
++  __TEXT.__cstring: 0x7a2b
+   __TEXT.__swift5_mpenum: 0x8
+-  __TEXT.__gcc_except_tab: 0x59f4
+-  __TEXT.__oslogstring: 0x17ad
+-  __TEXT.__unwind_info: 0x7d1c
+-  __TEXT.__eh_frame: 0x4af0
++  __TEXT.__gcc_except_tab: 0x5a38
++  __TEXT.__oslogstring: 0x17e6
++  __TEXT.__unwind_info: 0x7dc8
++  __TEXT.__eh_frame: 0x4b08
+   __TEXT.__objc_classname: 0xa06
+-  __TEXT.__objc_methname: 0xcc20
++  __TEXT.__objc_methname: 0xcc8e
+   __TEXT.__objc_methtype: 0x2bbe
+-  __TEXT.__objc_stubs: 0x8040
+-  __DATA_CONST.__got: 0x5a0
++  __TEXT.__objc_stubs: 0x8060
++  __DATA_CONST.__got: 0x598
+   __DATA_CONST.__const: 0x2380
+   __DATA_CONST.__objc_classlist: 0x4a0
+   __DATA_CONST.__objc_catlist: 0x40
+   __DATA_CONST.__objc_protolist: 0xd0
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_const: 0x92a0
+-  __DATA_CONST.__objc_selrefs: 0x2c98
++  __DATA_CONST.__objc_const: 0x9300
++  __DATA_CONST.__objc_selrefs: 0x2ca8
++  __DATA_CONST.__objc_protorefs: 0x40
++  __DATA_CONST.__objc_classrefs: 0x450
++  __DATA_CONST.__objc_superrefs: 0x328
+   __DATA_CONST.__objc_arraydata: 0x268
+-  __AUTH_CONST.__const: 0x5c70
+-  __AUTH_CONST.__auth_ptr: 0x110
++  __AUTH_CONST.__const: 0x61a0
++  __AUTH_CONST.__auth_ptr: 0x118
+   __AUTH_CONST.__objc_const: 0x2c78
+   __AUTH_CONST.__cfstring: 0x2180
+   __AUTH_CONST.__objc_intobj: 0xc0
+   __AUTH_CONST.__objc_arrayobj: 0x210
+   __AUTH_CONST.__objc_doubleobj: 0x70
+   __AUTH_CONST.__objc_dictobj: 0x1b8
+-  __AUTH_CONST.__auth_got: 0x15a8
+-  __AUTH.__objc_data: 0xad8
+-  __AUTH.__const_weak: 0x540
+-  __AUTH.__data: 0x2898
++  __AUTH_CONST.__auth_got: 0x15b0
++  __AUTH.__objc_data: 0xa88
++  __AUTH.__data: 0x2888
+   __DATA.__got_weak: 0x110
+-  __DATA.__objc_protorefs: 0x40
+-  __DATA.__objc_classrefs: 0x450
+-  __DATA.__objc_superrefs: 0x328
+-  __DATA.__objc_ivar: 0x424
+-  __DATA.__data: 0x1fa0
+-  __DATA.__bss: 0x3c28
+-  __DATA.__common: 0x8
+-  __DATA_DIRTY.__objc_data: 0x2080
+-  __DATA_DIRTY.__data: 0x320
+-  __DATA_DIRTY.__bss: 0x848
++  __DATA.__objc_ivar: 0x42c
++  __DATA.__data: 0x1f80
++  __DATA.__bss: 0x3b98
++  __DATA_DIRTY.__objc_data: 0x20d0
++  __DATA_DIRTY.__data: 0x2f0
++  __DATA_DIRTY.__bss: 0x8c8
+   - /System/Library/Frameworks/Accelerate.framework/Accelerate
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 8543
+-  Symbols:   12282
+-  CStrings:  3389
++  Functions: 8628
++  Symbols:   12267
++  CStrings:  3412
+ 
+Symbols:
++ -[KGDatabaseNameCache transactionBegin]
++ -[KGDegasGraphStore enableInTransactionCheck]
++ -[KGMemoryGraphStore enableInTransactionCheck]
++ GCC_except_table1003
++ GCC_except_table1610
++ GCC_except_table1621
++ GCC_except_table1624
++ GCC_except_table1782
++ GCC_except_table1797
++ GCC_except_table1922
++ GCC_except_table1927
++ GCC_except_table1937
++ GCC_except_table1941
++ GCC_except_table1962
++ GCC_except_table1966
++ GCC_except_table1967
++ GCC_except_table1978
++ GCC_except_table1982
++ GCC_except_table1983
++ GCC_except_table1991
++ GCC_except_table1992
++ GCC_except_table2004
++ GCC_except_table2008
++ GCC_except_table2009
++ GCC_except_table2020
++ GCC_except_table2021
++ GCC_except_table2079
++ GCC_except_table2111
++ GCC_except_table2112
++ GCC_except_table2127
++ GCC_except_table2128
++ GCC_except_table2195
++ GCC_except_table2203
++ GCC_except_table2231
++ GCC_except_table2242
++ GCC_except_table2255
++ GCC_except_table2264
++ GCC_except_table2265
++ GCC_except_table2285
++ GCC_except_table2286
++ GCC_except_table2290
++ GCC_except_table2291
++ GCC_except_table2298
++ GCC_except_table2299
++ GCC_except_table2302
++ GCC_except_table2316
++ GCC_except_table2317
++ GCC_except_table2351
++ GCC_except_table2352
++ GCC_except_table2362
++ GCC_except_table2365
++ GCC_except_table2381
++ GCC_except_table2426
++ GCC_except_table2600
++ GCC_except_table2627
++ GCC_except_table2658
++ GCC_except_table2660
++ GCC_except_table2688
++ GCC_except_table2690
++ GCC_except_table2709
++ GCC_except_table3111
++ GCC_except_table3152
++ GCC_except_table3197
++ GCC_except_table3199
++ GCC_except_table3209
++ GCC_except_table3211
++ GCC_except_table3218
++ GCC_except_table3236
++ GCC_except_table3240
++ GCC_except_table3246
++ GCC_except_table3252
++ GCC_except_table3302
++ GCC_except_table3304
++ GCC_except_table3306
++ GCC_except_table3308
++ GCC_except_table3310
++ GCC_except_table3312
++ GCC_except_table3314
++ GCC_except_table3316
++ GCC_except_table3318
++ GCC_except_table3320
++ GCC_except_table3322
++ GCC_except_table3324
++ GCC_except_table3326
++ GCC_except_table3328
++ GCC_except_table3330
++ GCC_except_table3332
++ GCC_except_table3334
++ GCC_except_table3336
++ GCC_except_table3338
++ GCC_except_table3340
++ GCC_except_table3342
++ GCC_except_table3344
++ GCC_except_table3403
++ GCC_except_table3411
++ GCC_except_table3413
++ GCC_except_table3415
++ GCC_except_table3417
++ GCC_except_table3419
++ GCC_except_table3421
++ GCC_except_table3423
++ GCC_except_table3425
++ GCC_except_table3427
++ GCC_except_table3429
++ GCC_except_table3431
++ GCC_except_table3433
++ GCC_except_table3435
++ GCC_except_table347
++ GCC_except_table3484
++ GCC_except_table3536
++ GCC_except_table3568
++ GCC_except_table3573
++ GCC_except_table3651
++ GCC_except_table3656
++ GCC_except_table3703
++ GCC_except_table3748
++ GCC_except_table3752
++ GCC_except_table3754
++ GCC_except_table3764
++ GCC_except_table3775
++ GCC_except_table3787
++ GCC_except_table3798
++ GCC_except_table3810
++ GCC_except_table3821
++ GCC_except_table3832
++ GCC_except_table3843
++ GCC_except_table3855
++ GCC_except_table3866
++ GCC_except_table3877
++ GCC_except_table3917
++ GCC_except_table3921
++ GCC_except_table3928
++ GCC_except_table394
++ GCC_except_table3942
++ GCC_except_table3957
++ GCC_except_table3961
++ GCC_except_table3981
++ GCC_except_table3983
++ GCC_except_table3987
++ GCC_except_table4000
++ GCC_except_table4003
++ GCC_except_table4006
++ GCC_except_table4014
++ GCC_except_table4021
++ GCC_except_table4024
++ GCC_except_table4027
++ GCC_except_table4030
++ GCC_except_table4036
++ GCC_except_table4040
++ GCC_except_table4043
++ GCC_except_table4057
++ GCC_except_table4072
++ GCC_except_table4074
++ GCC_except_table4091
++ GCC_except_table4110
++ GCC_except_table4111
++ GCC_except_table4162
++ GCC_except_table4167
++ GCC_except_table4179
++ GCC_except_table4191
++ GCC_except_table4192
++ GCC_except_table4193
++ GCC_except_table4195
++ GCC_except_table421
++ GCC_except_table4211
++ GCC_except_table4282
++ GCC_except_table4283
++ GCC_except_table4286
++ GCC_except_table4290
++ GCC_except_table4292
++ GCC_except_table4294
++ GCC_except_table4296
++ GCC_except_table4298
++ GCC_except_table4300
++ GCC_except_table464
++ GCC_except_table489
++ GCC_except_table492
++ GCC_except_table499
++ GCC_except_table503
++ GCC_except_table550
++ GCC_except_table553
++ GCC_except_table558
++ GCC_except_table561
++ GCC_except_table570
++ GCC_except_table571
++ GCC_except_table574
++ GCC_except_table583
++ GCC_except_table586
++ GCC_except_table663
++ GCC_except_table671
++ GCC_except_table675
++ GCC_except_table719
++ GCC_except_table727
++ GCC_except_table766
++ GCC_except_table817
++ GCC_except_table825
++ GCC_except_table827
++ GCC_except_table829
++ GCC_except_table831
++ GCC_except_table833
++ GCC_except_table853
++ GCC_except_table859
++ GCC_except_table894
++ GCC_except_table897
++ GCC_except_table901
++ GCC_except_table903
++ GCC_except_table925
++ GCC_except_table948
++ GCC_except_table954
++ GCC_except_table962
++ GCC_except_table964
++ GCC_except_table968
++ GCC_except_table974
++ GCC_except_table980
++ GCC_except_table987
++ GCC_except_table991
++ GCC_except_table995
++ _OBJC_IVAR_$_KGDatabaseNameCache._isInTransaction
++ _OBJC_IVAR_$_KGDegasGraphStore._inTransactionCheckIsEnabled
++ __ZN5degasL15_getUnsignedIntEPPKh.6675
++ __ZNKSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB8ue170006Ev
++ __ZNKSt3__114default_deleteIN5degas21CountedPathCollectionEEclB8ue170006EPS2_
++ __ZNKSt3__114default_deleteIN5degas23UncountedPathCollectionEEclB8ue170006EPS2_
++ __ZNKSt3__129_AllocatorDestroyRangeReverseINS_9allocatorINS_10shared_ptrIN5degas9PredicateEEEEENS_16reverse_iteratorIPS5_EEEclB8ue170006Ev
++ __ZNKSt3__14lessINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEclB8ue170006ERKS6_S9_
++ __ZNKSt3__16vectorIN5degas17StepSpecificationENS_9allocatorIS2_EEE20__throw_length_errorB8ue170006Ev
++ __ZNKSt3__16vectorIN5degas19EdgeCreationRequestENS_9allocatorIS2_EEE20__throw_length_errorB8ue170006Ev
++ __ZNKSt3__16vectorIN5degas19NodeCreationRequestENS_9allocatorIS2_EEE20__throw_length_errorB8ue170006Ev
++ __ZNKSt3__16vectorIN5degas9BitsetPtrENS_9allocatorIS2_EEE20__throw_length_errorB8ue170006Ev
++ __ZNKSt3__16vectorINS_10shared_ptrIN5degas10EdgeFilterEEENS_9allocatorIS4_EEE20__throw_length_errorB8ue170006Ev
++ __ZNKSt3__16vectorINS_10shared_ptrIN5degas10NodeFilterEEENS_9allocatorIS4_EEE20__throw_length_errorB8ue170006Ev
++ __ZNKSt3__16vectorINS_10shared_ptrIN5degas9PredicateEEENS_9allocatorIS4_EEE20__throw_length_errorB8ue170006Ev
++ __ZNKSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE20__throw_length_errorB8ue170006Ev
++ __ZNKSt3__16vectorIPKcNS_9allocatorIS2_EEE20__throw_length_errorB8ue170006Ev
++ __ZNKSt3__16vectorIPcNS_9allocatorIS1_EEE20__throw_length_errorB8ue170006Ev
++ __ZNKSt3__16vectorIdNS_9allocatorIdEEE20__throw_length_errorB8ue170006Ev
++ __ZNKSt3__16vectorIxNS_9allocatorIxEEE20__throw_length_errorB8ue170006Ev
++ __ZNKSt3__16vectorIyNS_9allocatorIyEEE20__throw_length_errorB8ue170006Ev
++ __ZNKSt9type_infoeqB8ue170006ERKS_
++ __ZNSt12length_errorC1B8ue170006EPKc
++ __ZNSt3__110__function12__value_funcIFvRN5degas11LabelCursorERNS2_6BitmapEEED2B8ue170006Ev
++ __ZNSt3__110__function12__value_funcIFvyRKN5degas8Database18TransactionChangesEEED2B8ue170006Ev
++ __ZNSt3__110shared_ptrIN5degas10LabelIndexEE5resetB8ue170006INS1_20LabelIndex_ImmediateEvEEvPT_
++ __ZNSt3__110shared_ptrIN5degas10LabelIndexEE5resetB8ue170006INS1_22LabelIndex_TransactionEvEEvPT_
++ __ZNSt3__110shared_ptrIN5degas21CountedPathCollectionEEC2B8ue170006IS2_vEEPT_
++ __ZNSt3__110shared_ptrIN5degas23UncountedPathCollectionEEC2B8ue170006IS2_vEEPT_
++ __ZNSt3__110shared_ptrIN5degas6BitmapEED1B8ue170006Ev
++ __ZNSt3__110shared_ptrIN5degas9PredicateEE5resetB8ue170006INS1_18IntersectPredicateEvEEvPT_
++ __ZNSt3__110shared_ptrIN5degas9PredicateEEC2B8ue170006INS1_11NoPredicateEvEEPT_
++ __ZNSt3__110shared_ptrIN5degas9PredicateEEC2B8ue170006INS1_18IntersectPredicateEvEEPT_
++ __ZNSt3__110shared_ptrIN5degas9PredicateEEC2B8ue170006INS1_22AllLabelsEdgePredicateEvEEPT_
++ __ZNSt3__110shared_ptrIN5degas9PredicateEEC2B8ue170006INS1_22AllLabelsNodePredicateEvEEPT_
++ __ZNSt3__110shared_ptrIN5degas9PredicateEEC2B8ue170006INS1_22AnyLabelsEdgePredicateEvEEPT_
++ __ZNSt3__110shared_ptrIN5degas9PredicateEEC2B8ue170006INS1_22AnyLabelsNodePredicateEvEEPT_
++ __ZNSt3__110shared_ptrIN5degas9PredicateEED1B8ue170006Ev
++ __ZNSt3__110shared_ptrIN5degas9StatementEE5resetB8ue170006IS2_vEEvPT_
++ __ZNSt3__110shared_ptrIN5degas9StatementEEC2B8ue170006IS2_vEEPT_
++ __ZNSt3__110shared_ptrIN5degas9StatementEED1B8ue170006Ev
++ __ZNSt3__110unique_ptrIN5degas6BitmapENS_14default_deleteIS2_EEE5resetB8ue170006EPS2_
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE16__init_with_sizeB8ue170006IPKcS8_EEvT_T0_m
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE25__init_copy_ctor_externalEPKcm
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B8ue170006EPKcm
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B8ue170006Emc
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B8ue170006ILi0EEEPKc
++ __ZNSt3__113__tree_removeB8ue170006IPNS_16__tree_node_baseIPvEEEEvT_S5_
++ __ZNSt3__114__split_bufferINS_10shared_ptrIN5degas9PredicateEEERNS_9allocatorIS4_EEE5clearB8ue170006Ev
++ __ZNSt3__116__pad_and_outputB8ue170006IcNS_11char_traitsIcEEEENS_19ostreambuf_iteratorIT_T0_EES6_PKS4_S8_S8_RNS_8ios_baseES4_
++ __ZNSt3__116allocator_traitsINS_9allocatorINS_11__tree_nodeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEES8_EEPvEEEEE7destroyB8ue170006INS_4pairIKS8_S8_EEvvEEvRSC_PT_
++ __ZNSt3__119__allocate_at_leastB8ue170006INS_9allocatorIN5degas9BitsetPtrEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
++ __ZNSt3__119__allocate_at_leastB8ue170006INS_9allocatorINS_10shared_ptrIN5degas10EdgeFilterEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS9_m
++ __ZNSt3__119__allocate_at_leastB8ue170006INS_9allocatorINS_10shared_ptrIN5degas10NodeFilterEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS9_m
++ __ZNSt3__119__allocate_at_leastB8ue170006INS_9allocatorINS_10shared_ptrIN5degas9PredicateEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS9_m
++ __ZNSt3__119__allocate_at_leastB8ue170006INS_9allocatorINS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSA_m
++ __ZNSt3__119__allocate_at_leastB8ue170006INS_9allocatorIdEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS5_m
++ __ZNSt3__119__allocate_at_leastB8ue170006INS_9allocatorIxEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS5_m
++ __ZNSt3__119__shared_weak_count16__release_sharedB8ue170006Ev
++ __ZNSt3__119basic_ostringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B8ue170006Ev
++ __ZNSt3__120__throw_length_errorB8ue170006EPKc
++ __ZNSt3__122__tree_node_destructorINS_9allocatorINS_11__tree_nodeINS_12__value_typeIyN5degas6BitmapEEEPvEEEEEclB8ue170006EPS8_
++ __ZNSt3__124__put_character_sequenceB8ue170006IcNS_11char_traitsIcEEEERNS_13basic_ostreamIT_T0_EES7_PKS4_m
++ __ZNSt3__125__throw_bad_function_callB8ue170006Ev
++ __ZNSt3__127__tree_balance_after_insertB8ue170006IPNS_16__tree_node_baseIPvEEEEvT_S5_
++ __ZNSt3__128__exception_guard_exceptionsINS_29_AllocatorDestroyRangeReverseINS_9allocatorIN5degas19EdgeCreationRequestEEENS_16reverse_iteratorIPS4_EEEEED2B8ue170006Ev
++ __ZNSt3__128__exception_guard_exceptionsINS_29_AllocatorDestroyRangeReverseINS_9allocatorIN5degas19NodeCreationRequestEEENS_16reverse_iteratorIPS4_EEEEED2B8ue170006Ev
++ __ZNSt3__128__exception_guard_exceptionsINS_29_AllocatorDestroyRangeReverseINS_9allocatorINS_10shared_ptrIN5degas9PredicateEEEEENS_16reverse_iteratorIPS6_EEEEED2B8ue170006Ev
++ __ZNSt3__128__exception_guard_exceptionsINS_29_AllocatorDestroyRangeReverseINS_9allocatorINS_12basic_stringIcNS_11char_traitsIcEENS2_IcEEEEEEPS7_EEED2B8ue170006Ev
++ __ZNSt3__13mapIyiNS_4lessIyEENS_9allocatorINS_4pairIKyiEEEEEC2B8ue170006ERKS8_
++ __ZNSt3__13mapIyiNS_4lessIyEENS_9allocatorINS_4pairIKyiEEEEED1B8ue170006Ev
++ __ZNSt3__142__uninitialized_allocator_move_if_noexceptB8ue170006INS_9allocatorINS_10shared_ptrIN5degas9PredicateEEEEENS_16reverse_iteratorIPS5_EES9_S9_EET2_RT_T0_T1_SA_
++ __ZNSt3__14__fs10filesystem4path6appendB8ue170006INS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEENS_9enable_ifIXsr13__is_pathableIT_EE5valueERS2_E4typeERKSB_
++ __ZNSt3__16__treeINS_12__value_typeIyN5degas6BitmapEEENS_19__map_value_compareIyS4_NS_4lessIyEELb1EEENS_9allocatorIS4_EEE18_DetachedTreeCacheD2B8ue170006Ev
++ __ZNSt3__16vectorIN5degas19EdgeCreationRequestENS_9allocatorIS2_EEE16__destroy_vectorclB8ue170006Ev
++ __ZNSt3__16vectorIN5degas19NodeCreationRequestENS_9allocatorIS2_EEE16__destroy_vectorclB8ue170006Ev
++ __ZNSt3__16vectorIN5degas9BitsetPtrENS_9allocatorIS2_EEE11__vallocateB8ue170006Em
++ __ZNSt3__16vectorIN5degas9BitsetPtrENS_9allocatorIS2_EEE16__destroy_vectorclB8ue170006Ev
++ __ZNSt3__16vectorIN5degas9BitsetPtrENS_9allocatorIS2_EEE16__init_with_sizeB8ue170006IPS2_S7_EEvT_T0_m
++ __ZNSt3__16vectorIN5degas9BitsetPtrENS_9allocatorIS2_EEE18__assign_with_sizeB8ue170006IPS2_S7_EEvT_T0_l
++ __ZNSt3__16vectorIN5degas9BitsetPtrENS_9allocatorIS2_EEE9push_backB8ue170006ERKS2_
++ __ZNSt3__16vectorINS_10shared_ptrIN5degas10EdgeFilterEEENS_9allocatorIS4_EEE16__destroy_vectorclB8ue170006Ev
++ __ZNSt3__16vectorINS_10shared_ptrIN5degas10EdgeFilterEEENS_9allocatorIS4_EEE16__init_with_sizeB8ue170006IPS4_S9_EEvT_T0_m
++ __ZNSt3__16vectorINS_10shared_ptrIN5degas10EdgeFilterEEENS_9allocatorIS4_EEE9push_backB8ue170006ERKS4_
++ __ZNSt3__16vectorINS_10shared_ptrIN5degas10NodeFilterEEENS_9allocatorIS4_EEE16__destroy_vectorclB8ue170006Ev
++ __ZNSt3__16vectorINS_10shared_ptrIN5degas10NodeFilterEEENS_9allocatorIS4_EEE16__init_with_sizeB8ue170006IPS4_S9_EEvT_T0_m
++ __ZNSt3__16vectorINS_10shared_ptrIN5degas10NodeFilterEEENS_9allocatorIS4_EEE9push_backB8ue170006ERKS4_
++ __ZNSt3__16vectorINS_10shared_ptrIN5degas9PredicateEEENS_9allocatorIS4_EEE16__destroy_vectorclB8ue170006Ev
++ __ZNSt3__16vectorINS_10shared_ptrIN5degas9PredicateEEENS_9allocatorIS4_EEE16__init_with_sizeB8ue170006IPS4_S9_EEvT_T0_m
++ __ZNSt3__16vectorINS_10shared_ptrIN5degas9PredicateEEENS_9allocatorIS4_EEE7__clearB8ue170006Ev
++ __ZNSt3__16vectorINS_10shared_ptrIN5degas9PredicateEEENS_9allocatorIS4_EEE9push_backB8ue170006ERKS4_
++ __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE16__destroy_vectorclB8ue170006Ev
++ __ZNSt3__16vectorIdNS_9allocatorIdEEE11__vallocateB8ue170006Em
++ __ZNSt3__16vectorIxNS_9allocatorIxEEE11__vallocateB8ue170006Em
++ __ZNSt3__19allocatorIN5degas17StepSpecificationEE7destroyB8ue170006EPS2_
++ __ZNSt3__1L19piecewise_constructE.4095
++ __ZSt28__throw_bad_array_new_lengthB8ue170006v
++ ___Block_byref_object_copy_.1052
++ ___Block_byref_object_copy_.118
++ ___Block_byref_object_copy_.2312
++ ___Block_byref_object_copy_.2627
++ ___Block_byref_object_copy_.3331
++ ___Block_byref_object_copy_.3415
++ ___Block_byref_object_copy_.4082
++ ___Block_byref_object_copy_.4249
++ ___Block_byref_object_copy_.4555
++ ___Block_byref_object_copy_.5125
++ ___Block_byref_object_copy_.5376
++ ___Block_byref_object_copy_.602
++ ___Block_byref_object_copy_.6144
++ ___Block_byref_object_copy_.6940
++ ___Block_byref_object_copy_.874
++ ___Block_byref_object_copy_.999
++ ___Block_byref_object_dispose_.1000
++ ___Block_byref_object_dispose_.1053
++ ___Block_byref_object_dispose_.119
++ ___Block_byref_object_dispose_.2313
++ ___Block_byref_object_dispose_.2628
++ ___Block_byref_object_dispose_.3332
++ ___Block_byref_object_dispose_.3416
++ ___Block_byref_object_dispose_.4083
++ ___Block_byref_object_dispose_.4250
++ ___Block_byref_object_dispose_.4556
++ ___Block_byref_object_dispose_.5126
++ ___Block_byref_object_dispose_.5377
++ ___Block_byref_object_dispose_.603
++ ___Block_byref_object_dispose_.6145
++ ___Block_byref_object_dispose_.6941
++ ___Block_byref_object_dispose_.875
++ ___block_descriptor_tmp.10.1392
++ ___block_descriptor_tmp.10.2342
++ ___block_descriptor_tmp.10.3432
++ ___block_descriptor_tmp.10.4424
++ ___block_descriptor_tmp.10.5478
++ ___block_descriptor_tmp.10.5611
++ ___block_descriptor_tmp.10.6973
++ ___block_descriptor_tmp.12.3434
++ ___block_descriptor_tmp.12.4427
++ ___block_descriptor_tmp.12.5481
++ ___block_descriptor_tmp.12.6975
++ ___block_descriptor_tmp.1329
++ ___block_descriptor_tmp.1387
++ ___block_descriptor_tmp.14.2345
++ ___block_descriptor_tmp.14.3436
++ ___block_descriptor_tmp.14.4429
++ ___block_descriptor_tmp.14.5483
++ ___block_descriptor_tmp.14.6977
++ ___block_descriptor_tmp.1402
++ ___block_descriptor_tmp.1504
++ ___block_descriptor_tmp.16.2347
++ ___block_descriptor_tmp.16.4431
++ ___block_descriptor_tmp.16.5485
++ ___block_descriptor_tmp.17.5616
++ ___block_descriptor_tmp.18.4433
++ ___block_descriptor_tmp.18.5487
++ ___block_descriptor_tmp.19.5618
++ ___block_descriptor_tmp.20.2350
++ ___block_descriptor_tmp.20.4435
++ ___block_descriptor_tmp.20.5489
++ ___block_descriptor_tmp.22.4437
++ ___block_descriptor_tmp.23.5621
++ ___block_descriptor_tmp.2333
++ ___block_descriptor_tmp.24.2353
++ ___block_descriptor_tmp.25.5623
++ ___block_descriptor_tmp.26.2355
++ ___block_descriptor_tmp.27.5625
++ ___block_descriptor_tmp.28.2357
++ ___block_descriptor_tmp.29.5495
++ ___block_descriptor_tmp.29.5627
++ ___block_descriptor_tmp.31.5629
++ ___block_descriptor_tmp.32.2360
++ ___block_descriptor_tmp.3426
++ ___block_descriptor_tmp.37.5499
++ ___block_descriptor_tmp.39.5503
++ ___block_descriptor_tmp.4.1381
++ ___block_descriptor_tmp.4.1396
++ ___block_descriptor_tmp.4.2336
++ ___block_descriptor_tmp.4.3428
++ ___block_descriptor_tmp.4.5473
++ ___block_descriptor_tmp.4.6969
++ ___block_descriptor_tmp.41.5505
++ ___block_descriptor_tmp.44.5507
++ ___block_descriptor_tmp.4419
++ ___block_descriptor_tmp.4538
++ ___block_descriptor_tmp.46.5510
++ ___block_descriptor_tmp.4687
++ ___block_descriptor_tmp.48.5512
++ ___block_descriptor_tmp.5.4688
++ ___block_descriptor_tmp.5.5608
++ ___block_descriptor_tmp.5469
++ ___block_descriptor_tmp.5605
++ ___block_descriptor_tmp.6.1389
++ ___block_descriptor_tmp.6.1404
++ ___block_descriptor_tmp.6.2338
++ ___block_descriptor_tmp.6.3420
++ ___block_descriptor_tmp.6.6955
++ ___block_descriptor_tmp.6034
++ ___block_descriptor_tmp.6967
++ ___block_descriptor_tmp.7.4422
++ ___block_descriptor_tmp.7.5475
++ ___block_descriptor_tmp.8.1406
++ ___block_descriptor_tmp.8.2340
++ ___block_descriptor_tmp.8.3430
++ ___block_descriptor_tmp.8.5598
++ ___block_descriptor_tmp.8.6971
++ ___block_literal_global.270
++ ___block_literal_global.4536
++ ___block_literal_global.462
++ ___block_literal_global.6032
++ ___block_literal_global.724
++ _block_copy_helper.20
++ _block_descriptor.22
++ _block_destroy_helper.21
++ _objc_msgSend$transactionBegin
++ _objectdestroy.14Tm
++ _symbolic Say_____G 17KnowledgeGraphKit14MADistributionC
+- GCC_except_table1002
+- GCC_except_table1609
+- GCC_except_table1617
+- GCC_except_table1623
+- GCC_except_table1625
+- GCC_except_table1781
+- GCC_except_table1796
+- GCC_except_table1921
+- GCC_except_table1924
+- GCC_except_table1930
+- GCC_except_table1931
+- GCC_except_table1939
+- GCC_except_table1943
+- GCC_except_table1964
+- GCC_except_table1968
+- GCC_except_table1969
+- GCC_except_table1980
+- GCC_except_table1984
+- GCC_except_table1985
+- GCC_except_table2000
+- GCC_except_table2006
+- GCC_except_table2007
+- GCC_except_table2013
+- GCC_except_table2014
+- GCC_except_table2077
+- GCC_except_table2108
+- GCC_except_table2109
+- GCC_except_table2125
+- GCC_except_table2126
+- GCC_except_table2193
+- GCC_except_table2201
+- GCC_except_table2229
+- GCC_except_table2240
+- GCC_except_table2253
+- GCC_except_table2262
+- GCC_except_table2263
+- GCC_except_table2283
+- GCC_except_table2284
+- GCC_except_table2288
+- GCC_except_table2289
+- GCC_except_table2296
+- GCC_except_table2297
+- GCC_except_table2300
+- GCC_except_table2304
+- GCC_except_table2315
+- GCC_except_table2346
+- GCC_except_table2347
+- GCC_except_table2360
+- GCC_except_table2361
+- GCC_except_table2379
+- GCC_except_table2424
+- GCC_except_table2598
+- GCC_except_table2626
+- GCC_except_table2657
+- GCC_except_table2659
+- GCC_except_table2687
+- GCC_except_table2689
+- GCC_except_table2707
+- GCC_except_table3112
+- GCC_except_table3153
+- GCC_except_table3198
+- GCC_except_table3202
+- GCC_except_table3210
+- GCC_except_table3215
+- GCC_except_table3226
+- GCC_except_table3239
+- GCC_except_table3242
+- GCC_except_table3251
+- GCC_except_table3253
+- GCC_except_table3303
+- GCC_except_table3305
+- GCC_except_table3307
+- GCC_except_table3309
+- GCC_except_table3311
+- GCC_except_table3313
+- GCC_except_table3315
+- GCC_except_table3317
+- GCC_except_table3319
+- GCC_except_table3321
+- GCC_except_table3323
+- GCC_except_table3325
+- GCC_except_table3327
+- GCC_except_table3329
+- GCC_except_table3331
+- GCC_except_table3333
+- GCC_except_table3335
+- GCC_except_table3337
+- GCC_except_table3339
+- GCC_except_table3341
+- GCC_except_table3343
+- GCC_except_table3345
+- GCC_except_table338
+- GCC_except_table3405
+- GCC_except_table3412
+- GCC_except_table3414
+- GCC_except_table3416
+- GCC_except_table3418
+- GCC_except_table3420
+- GCC_except_table3422
+- GCC_except_table3424
+- GCC_except_table3426
+- GCC_except_table3428
+- GCC_except_table3430
+- GCC_except_table3432
+- GCC_except_table3434
+- GCC_except_table3437
+- GCC_except_table3485
+- GCC_except_table351
+- GCC_except_table3537
+- GCC_except_table3569
+- GCC_except_table3575
+- GCC_except_table3649
+- GCC_except_table3654
+- GCC_except_table3658
+- GCC_except_table3704
+- GCC_except_table3749
+- GCC_except_table3753
+- GCC_except_table3755
+- GCC_except_table3766
+- GCC_except_table3778
+- GCC_except_table3789
+- GCC_except_table3801
+- GCC_except_table3812
+- GCC_except_table3823
+- GCC_except_table3834
+- GCC_except_table3846
+- GCC_except_table3857
+- GCC_except_table3868
+- GCC_except_table3879
+- GCC_except_table3918
+- GCC_except_table3922
+- GCC_except_table3929
+- GCC_except_table3943
+- GCC_except_table3958
+- GCC_except_table396
+- GCC_except_table3962
+- GCC_except_table3982
+- GCC_except_table3985
+- GCC_except_table3989
+- GCC_except_table4002
+- GCC_except_table4004
+- GCC_except_table4008
+- GCC_except_table4015
+- GCC_except_table4023
+- GCC_except_table4025
+- GCC_except_table4029
+- GCC_except_table4035
+- GCC_except_table4039
+- GCC_except_table4042
+- GCC_except_table4055
+- GCC_except_table4071
+- GCC_except_table4073
+- GCC_except_table4080
+- GCC_except_table4094
+- GCC_except_table4112
+- GCC_except_table4113
+- GCC_except_table4166
+- GCC_except_table4168
+- GCC_except_table4172
+- GCC_except_table4184
+- GCC_except_table4197
+- GCC_except_table4201
+- GCC_except_table4203
+- GCC_except_table4205
+- GCC_except_table4216
+- GCC_except_table423
+- GCC_except_table4287
+- GCC_except_table4288
+- GCC_except_table4291
+- GCC_except_table4295
+- GCC_except_table4297
+- GCC_except_table4299
+- GCC_except_table4301
+- GCC_except_table4303
+- GCC_except_table4305
+- GCC_except_table466
+- GCC_except_table491
+- GCC_except_table496
+- GCC_except_table501
+- GCC_except_table505
+- GCC_except_table552
+- GCC_except_table555
+- GCC_except_table568
+- GCC_except_table569
+- GCC_except_table572
+- GCC_except_table578
+- GCC_except_table581
+- GCC_except_table584
+- GCC_except_table588
+- GCC_except_table664
+- GCC_except_table672
+- GCC_except_table676
+- GCC_except_table718
+- GCC_except_table726
+- GCC_except_table765
+- GCC_except_table815
+- GCC_except_table824
+- GCC_except_table826
+- GCC_except_table828
+- GCC_except_table830
+- GCC_except_table832
+- GCC_except_table852
+- GCC_except_table854
+- GCC_except_table892
+- GCC_except_table896
+- GCC_except_table900
+- GCC_except_table902
+- GCC_except_table919
+- GCC_except_table938
+- GCC_except_table952
+- GCC_except_table961
+- GCC_except_table963
+- GCC_except_table967
+- GCC_except_table972
+- GCC_except_table979
+- GCC_except_table981
+- GCC_except_table990
+- GCC_except_table993
+- __ZN5degasL15_getUnsignedIntEPPKh.6672
+- __ZNKSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB7v160006Ev
+- __ZNKSt3__114default_deleteIN5degas21CountedPathCollectionEEclB7v160006EPS2_
+- __ZNKSt3__114default_deleteIN5degas23UncountedPathCollectionEEclB7v160006EPS2_
+- __ZNKSt3__129_AllocatorDestroyRangeReverseINS_9allocatorINS_10shared_ptrIN5degas9PredicateEEEEENS_16reverse_iteratorIPS5_EEEclB7v160006Ev
+- __ZNKSt3__14lessINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEclB7v160006ERKS6_S9_
+- __ZNKSt3__16vectorIN5degas17StepSpecificationENS_9allocatorIS2_EEE20__throw_length_errorB7v160006Ev
+- __ZNKSt3__16vectorIN5degas19EdgeCreationRequestENS_9allocatorIS2_EEE20__throw_length_errorB7v160006Ev
+- __ZNKSt3__16vectorIN5degas19NodeCreationRequestENS_9allocatorIS2_EEE20__throw_length_errorB7v160006Ev
+- __ZNKSt3__16vectorIN5degas9BitsetPtrENS_9allocatorIS2_EEE20__throw_length_errorB7v160006Ev
+- __ZNKSt3__16vectorINS_10shared_ptrIN5degas10EdgeFilterEEENS_9allocatorIS4_EEE20__throw_length_errorB7v160006Ev
+- __ZNKSt3__16vectorINS_10shared_ptrIN5degas10NodeFilterEEENS_9allocatorIS4_EEE20__throw_length_errorB7v160006Ev
+- __ZNKSt3__16vectorINS_10shared_ptrIN5degas9PredicateEEENS_9allocatorIS4_EEE20__throw_length_errorB7v160006Ev
+- __ZNKSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE20__throw_length_errorB7v160006Ev
+- __ZNKSt3__16vectorIPKcNS_9allocatorIS2_EEE20__throw_length_errorB7v160006Ev
+- __ZNKSt3__16vectorIPcNS_9allocatorIS1_EEE20__throw_length_errorB7v160006Ev
+- __ZNKSt3__16vectorIdNS_9allocatorIdEEE20__throw_length_errorB7v160006Ev
+- __ZNKSt3__16vectorIxNS_9allocatorIxEEE20__throw_length_errorB7v160006Ev
+- __ZNKSt3__16vectorIyNS_9allocatorIyEEE20__throw_length_errorB7v160006Ev
+- __ZNKSt3__18functionIFvyRKN5degas8Database18TransactionChangesEEEclEyS5_
+- __ZNKSt9type_infoeqB7v160006ERKS_
+- __ZNSt12length_errorC1B7v160006EPKc
+- __ZNSt3__110__function12__value_funcIFvRN5degas11LabelCursorERNS2_6BitmapEEED2B7v160006Ev
+- __ZNSt3__110__function12__value_funcIFvyRKN5degas8Database18TransactionChangesEEED2B7v160006Ev
+- __ZNSt3__110shared_ptrIN5degas10LabelIndexEE5resetB7v160006INS1_20LabelIndex_ImmediateEvEEvPT_
+- __ZNSt3__110shared_ptrIN5degas10LabelIndexEE5resetB7v160006INS1_22LabelIndex_TransactionEvEEvPT_
+- __ZNSt3__110shared_ptrIN5degas21CountedPathCollectionEEC2IS2_vEEPT_
+- __ZNSt3__110shared_ptrIN5degas23UncountedPathCollectionEEC2IS2_vEEPT_
+- __ZNSt3__110shared_ptrIN5degas6BitmapEED1B7v160006Ev
+- __ZNSt3__110shared_ptrIN5degas9PredicateEE5resetB7v160006INS1_18IntersectPredicateEvEEvPT_
+- __ZNSt3__110shared_ptrIN5degas9PredicateEEC2INS1_11NoPredicateEvEEPT_
+- __ZNSt3__110shared_ptrIN5degas9PredicateEEC2INS1_18IntersectPredicateEvEEPT_
+- __ZNSt3__110shared_ptrIN5degas9PredicateEEC2INS1_22AllLabelsEdgePredicateEvEEPT_
+- __ZNSt3__110shared_ptrIN5degas9PredicateEEC2INS1_22AllLabelsNodePredicateEvEEPT_
+- __ZNSt3__110shared_ptrIN5degas9PredicateEEC2INS1_22AnyLabelsEdgePredicateEvEEPT_
+- __ZNSt3__110shared_ptrIN5degas9PredicateEEC2INS1_22AnyLabelsNodePredicateEvEEPT_
+- __ZNSt3__110shared_ptrIN5degas9PredicateEED1B7v160006Ev
+- __ZNSt3__110shared_ptrIN5degas9StatementEE5resetB7v160006IS2_vEEvPT_
+- __ZNSt3__110shared_ptrIN5degas9StatementEEC2IS2_vEEPT_
+- __ZNSt3__110shared_ptrIN5degas9StatementEED1B7v160006Ev
+- __ZNSt3__110unique_ptrINS_11__tree_nodeINS_12__value_typeIyN5degas6BitmapEEEPvEENS_22__tree_node_destructorINS_9allocatorIS7_EEEEE5resetB7v160006EPS7_
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC1ERKS5_
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B7v160006EPKcm
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B7v160006Emc
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B7v160006IDnEEPKc
+- __ZNSt3__113__tree_removeB7v160006IPNS_16__tree_node_baseIPvEEEEvT_S5_
+- __ZNSt3__114__split_bufferINS_10shared_ptrIN5degas9PredicateEEERNS_9allocatorIS4_EEE5clearB7v160006Ev
+- __ZNSt3__116__pad_and_outputB7v160006IcNS_11char_traitsIcEEEENS_19ostreambuf_iteratorIT_T0_EES6_PKS4_S8_S8_RNS_8ios_baseES4_
+- __ZNSt3__116allocator_traitsINS_9allocatorINS_11__tree_nodeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEES8_EEPvEEEEE7destroyB7v160006INS_4pairIKS8_S8_EEvvEEvRSC_PT_
+- __ZNSt3__119__allocate_at_leastB7v160006INS_9allocatorIN5degas9BitsetPtrEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
+- __ZNSt3__119__allocate_at_leastB7v160006INS_9allocatorINS_10shared_ptrIN5degas10EdgeFilterEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS9_m
+- __ZNSt3__119__allocate_at_leastB7v160006INS_9allocatorINS_10shared_ptrIN5degas10NodeFilterEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS9_m
+- __ZNSt3__119__allocate_at_leastB7v160006INS_9allocatorINS_10shared_ptrIN5degas9PredicateEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS9_m
+- __ZNSt3__119__allocate_at_leastB7v160006INS_9allocatorINS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSA_m
+- __ZNSt3__119__allocate_at_leastB7v160006INS_9allocatorIdEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS5_m
+- __ZNSt3__119__allocate_at_leastB7v160006INS_9allocatorIxEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS5_m
+- __ZNSt3__119__shared_weak_count16__release_sharedB7v160006Ev
+- __ZNSt3__119basic_ostringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B7v160006Ev
+- __ZNSt3__120__throw_length_errorB7v160006EPKc
+- __ZNSt3__124__put_character_sequenceB7v160006IcNS_11char_traitsIcEEEERNS_13basic_ostreamIT_T0_EES7_PKS4_m
+- __ZNSt3__125__throw_bad_function_callB7v160006Ev
+- __ZNSt3__127__tree_balance_after_insertB7v160006IPNS_16__tree_node_baseIPvEEEEvT_S5_
+- __ZNSt3__128__exception_guard_exceptionsINS_29_AllocatorDestroyRangeReverseINS_9allocatorINS_10shared_ptrIN5degas9PredicateEEEEENS_16reverse_iteratorIPS6_EEEEED2B7v160006Ev
+- __ZNSt3__128__exception_guard_exceptionsINS_29_AllocatorDestroyRangeReverseINS_9allocatorINS_12basic_stringIcNS_11char_traitsIcEENS2_IcEEEEEEPS7_EEED2B7v160006Ev
+- __ZNSt3__128__exception_guard_exceptionsINS_6vectorIN5degas9BitsetPtrENS_9allocatorIS3_EEE16__destroy_vectorEED2B7v160006Ev
+- __ZNSt3__128__exception_guard_exceptionsINS_6vectorINS_10shared_ptrIN5degas9PredicateEEENS_9allocatorIS5_EEE16__destroy_vectorEED2B7v160006Ev
+- __ZNSt3__13mapIyiNS_4lessIyEENS_9allocatorINS_4pairIKyiEEEEEC2B7v160006ERKS8_
+- __ZNSt3__13mapIyiNS_4lessIyEENS_9allocatorINS_4pairIKyiEEEEED1B7v160006Ev
+- __ZNSt3__142__uninitialized_allocator_move_if_noexceptB7v160006INS_9allocatorINS_10shared_ptrIN5degas9PredicateEEEEENS_16reverse_iteratorIPS5_EES9_S9_EET2_RT_T0_T1_SA_
+- __ZNSt3__14__fs10filesystem4path6appendB7v160006INS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEENS_9enable_ifIXsr13__is_pathableIT_EE5valueERS2_E4typeERKSB_
+- __ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrIN5degas20LabelIndex_PersistedEEEEENS_19__map_value_compareIS7_SC_NS_4lessIS7_EELb1EEENS5_ISC_EEE16__insert_node_atEPNS_15__tree_end_nodeIPNS_16__tree_node_baseIPvEEEERSN_SN_
+- __ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEPN5degas8DatabaseEEENS_19__map_value_compareIS7_SB_NS_4lessIS7_EELb1EEENS5_ISB_EEE16__insert_node_atEPNS_15__tree_end_nodeIPNS_16__tree_node_baseIPvEEEERSM_SM_
+- __ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_EENS_19__map_value_compareIS7_S8_NS_4lessIS7_EELb1EEENS5_IS8_EEE16__insert_node_atEPNS_15__tree_end_nodeIPNS_16__tree_node_baseIPvEEEERSJ_SJ_
+- __ZNSt3__16__treeINS_12__value_typeIhyEENS_19__map_value_compareIhS2_NS_4lessIhEELb1EEENS_9allocatorIS2_EEE16__insert_node_atEPNS_15__tree_end_nodeIPNS_16__tree_node_baseIPvEEEERSE_SE_
+- __ZNSt3__16__treeINS_12__value_typeIjN5degas19StatementCacheEntryEEENS_19__map_value_compareIjS4_NS_4lessIjEELb1EEENS_9allocatorIS4_EEE16__insert_node_atEPNS_15__tree_end_nodeIPNS_16__tree_node_baseIPvEEEERSG_SG_
+- __ZNSt3__16__treeINS_12__value_typeIjN5degas19StatementCacheEntryEEENS_19__map_value_compareIjS4_NS_4lessIjEELb1EEENS_9allocatorIS4_EEE5eraseENS_21__tree_const_iteratorIS4_PNS_11__tree_nodeIS4_PvEElEE
+- __ZNSt3__16__treeINS_12__value_typeIyN5degas6BitmapEEENS_19__map_value_compareIyS4_NS_4lessIyEELb1EEENS_9allocatorIS4_EEE18_DetachedTreeCacheD2B7v160006Ev
+- __ZNSt3__16__treeINS_12__value_typeIyNS_10shared_ptrIN5degas6BitmapEEEEENS_19__map_value_compareIyS6_NS_4lessIyEELb1EEENS_9allocatorIS6_EEE16__insert_node_atEPNS_15__tree_end_nodeIPNS_16__tree_node_baseIPvEEEERSI_SI_
+- __ZNSt3__16__treeINS_12__value_typeIyNS_3mapIyiNS_4lessIyEENS_9allocatorINS_4pairIKyiEEEEEEEENS_19__map_value_compareIySB_S4_Lb1EEENS5_ISB_EEE16__insert_node_atEPNS_15__tree_end_nodeIPNS_16__tree_node_baseIPvEEEERSK_SK_
+- __ZNSt3__16vectorIN5degas19EdgeCreationRequestENS_9allocatorIS2_EEED2B7v160006Ev
+- __ZNSt3__16vectorIN5degas19NodeCreationRequestENS_9allocatorIS2_EEED2B7v160006Ev
+- __ZNSt3__16vectorIN5degas9BitsetPtrENS_9allocatorIS2_EEE11__vallocateB7v160006Em
+- __ZNSt3__16vectorIN5degas9BitsetPtrENS_9allocatorIS2_EEE16__destroy_vectorclB7v160006Ev
+- __ZNSt3__16vectorIN5degas9BitsetPtrENS_9allocatorIS2_EEE6assignIPS2_Li0EEEvT_S8_
+- __ZNSt3__16vectorIN5degas9BitsetPtrENS_9allocatorIS2_EEE9push_backB7v160006ERKS2_
+- __ZNSt3__16vectorIN5degas9BitsetPtrENS_9allocatorIS2_EEEC2ERKS5_
+- __ZNSt3__16vectorIN5degas9BitsetPtrENS_9allocatorIS2_EEED2B7v160006Ev
+- __ZNSt3__16vectorINS_10shared_ptrIN5degas10EdgeFilterEEENS_9allocatorIS4_EEE16__destroy_vectorclB7v160006Ev
+- __ZNSt3__16vectorINS_10shared_ptrIN5degas10EdgeFilterEEENS_9allocatorIS4_EEE9push_backB7v160006ERKS4_
+- __ZNSt3__16vectorINS_10shared_ptrIN5degas10EdgeFilterEEENS_9allocatorIS4_EEEC2ERKS7_
+- __ZNSt3__16vectorINS_10shared_ptrIN5degas10NodeFilterEEENS_9allocatorIS4_EEE16__destroy_vectorclB7v160006Ev
+- __ZNSt3__16vectorINS_10shared_ptrIN5degas10NodeFilterEEENS_9allocatorIS4_EEE9push_backB7v160006ERKS4_
+- __ZNSt3__16vectorINS_10shared_ptrIN5degas10NodeFilterEEENS_9allocatorIS4_EEEC2ERKS7_
+- __ZNSt3__16vectorINS_10shared_ptrIN5degas9PredicateEEENS_9allocatorIS4_EEE16__destroy_vectorclB7v160006Ev
+- __ZNSt3__16vectorINS_10shared_ptrIN5degas9PredicateEEENS_9allocatorIS4_EEE7__clearB7v160006Ev
+- __ZNSt3__16vectorINS_10shared_ptrIN5degas9PredicateEEENS_9allocatorIS4_EEE9push_backB7v160006ERKS4_
+- __ZNSt3__16vectorINS_10shared_ptrIN5degas9PredicateEEENS_9allocatorIS4_EEEC2ERKS7_
+- __ZNSt3__16vectorINS_10shared_ptrIN5degas9PredicateEEENS_9allocatorIS4_EEED2B7v160006Ev
+- __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE16__destroy_vectorclB7v160006Ev
+- __ZNSt3__16vectorIdNS_9allocatorIdEEE11__vallocateB7v160006Em
+- __ZNSt3__16vectorIxNS_9allocatorIxEEE11__vallocateB7v160006Em
+- __ZNSt3__19allocatorIN5degas17StepSpecificationEE7destroyB7v160006EPS2_
+- __ZNSt3__1L19piecewise_constructE.4087
+- __ZSt28__throw_bad_array_new_lengthB7v160006v
+- ___Block_byref_object_copy_.1050
+- ___Block_byref_object_copy_.116
+- ___Block_byref_object_copy_.2314
+- ___Block_byref_object_copy_.2623
+- ___Block_byref_object_copy_.3318
+- ___Block_byref_object_copy_.3404
+- ___Block_byref_object_copy_.4074
+- ___Block_byref_object_copy_.4237
+- ___Block_byref_object_copy_.4545
+- ___Block_byref_object_copy_.5118
+- ___Block_byref_object_copy_.5366
+- ___Block_byref_object_copy_.600
+- ___Block_byref_object_copy_.6141
+- ___Block_byref_object_copy_.6937
+- ___Block_byref_object_copy_.872
+- ___Block_byref_object_copy_.997
+- ___Block_byref_object_dispose_.1051
+- ___Block_byref_object_dispose_.117
+- ___Block_byref_object_dispose_.2315
+- ___Block_byref_object_dispose_.2624
+- ___Block_byref_object_dispose_.3319
+- ___Block_byref_object_dispose_.3405
+- ___Block_byref_object_dispose_.4075
+- ___Block_byref_object_dispose_.4238
+- ___Block_byref_object_dispose_.4546
+- ___Block_byref_object_dispose_.5119
+- ___Block_byref_object_dispose_.5367
+- ___Block_byref_object_dispose_.601
+- ___Block_byref_object_dispose_.6142
+- ___Block_byref_object_dispose_.6938
+- ___Block_byref_object_dispose_.873
+- ___Block_byref_object_dispose_.998
+- ___block_descriptor_tmp.10.1390
+- ___block_descriptor_tmp.10.2344
+- ___block_descriptor_tmp.10.3421
+- ___block_descriptor_tmp.10.4414
+- ___block_descriptor_tmp.10.5468
+- ___block_descriptor_tmp.10.5601
+- ___block_descriptor_tmp.10.6970
+- ___block_descriptor_tmp.12.3423
+- ___block_descriptor_tmp.12.4417
+- ___block_descriptor_tmp.12.5471
+- ___block_descriptor_tmp.12.6972
+- ___block_descriptor_tmp.1327
+- ___block_descriptor_tmp.1385
+- ___block_descriptor_tmp.14.2347
+- ___block_descriptor_tmp.14.3425
+- ___block_descriptor_tmp.14.4419
+- ___block_descriptor_tmp.14.5473
+- ___block_descriptor_tmp.14.6974
+- ___block_descriptor_tmp.1400
+- ___block_descriptor_tmp.1503
+- ___block_descriptor_tmp.16.2349
+- ___block_descriptor_tmp.16.4421
+- ___block_descriptor_tmp.16.5475
+- ___block_descriptor_tmp.17.5606
+- ___block_descriptor_tmp.18.4423
+- ___block_descriptor_tmp.18.5477
+- ___block_descriptor_tmp.19.5608
+- ___block_descriptor_tmp.20.2352
+- ___block_descriptor_tmp.20.4425
+- ___block_descriptor_tmp.20.5479
+- ___block_descriptor_tmp.22.4427
+- ___block_descriptor_tmp.23.5611
+- ___block_descriptor_tmp.2335
+- ___block_descriptor_tmp.24.2355
+- ___block_descriptor_tmp.25.5613
+- ___block_descriptor_tmp.26.2357
+- ___block_descriptor_tmp.27.5615
+- ___block_descriptor_tmp.28.2359
+- ___block_descriptor_tmp.29.5485
+- ___block_descriptor_tmp.29.5617
+- ___block_descriptor_tmp.31.5619
+- ___block_descriptor_tmp.32.2362
+- ___block_descriptor_tmp.3415
+- ___block_descriptor_tmp.37.5489
+- ___block_descriptor_tmp.39.5493
+- ___block_descriptor_tmp.4.1379
+- ___block_descriptor_tmp.4.1394
+- ___block_descriptor_tmp.4.2338
+- ___block_descriptor_tmp.4.3417
+- ___block_descriptor_tmp.4.5463
+- ___block_descriptor_tmp.4.6966
+- ___block_descriptor_tmp.41.5495
+- ___block_descriptor_tmp.44.5497
+- ___block_descriptor_tmp.4409
+- ___block_descriptor_tmp.4528
+- ___block_descriptor_tmp.46.5500
+- ___block_descriptor_tmp.4678
+- ___block_descriptor_tmp.48.5502
+- ___block_descriptor_tmp.5.4679
+- ___block_descriptor_tmp.5.5598
+- ___block_descriptor_tmp.5459
+- ___block_descriptor_tmp.5595
+- ___block_descriptor_tmp.6.1387
+- ___block_descriptor_tmp.6.1402
+- ___block_descriptor_tmp.6.2340
+- ___block_descriptor_tmp.6.3409
+- ___block_descriptor_tmp.6.6952
+- ___block_descriptor_tmp.6031
+- ___block_descriptor_tmp.6964
+- ___block_descriptor_tmp.7.4412
+- ___block_descriptor_tmp.7.5465
+- ___block_descriptor_tmp.8.1404
+- ___block_descriptor_tmp.8.2342
+- ___block_descriptor_tmp.8.3419
+- ___block_descriptor_tmp.8.5588
+- ___block_descriptor_tmp.8.6968
+- ___block_literal_global.260
+- ___block_literal_global.4526
+- ___block_literal_global.456
+- ___block_literal_global.6029
+- ___block_literal_global.723
+- _block_copy_helper.21
+- _block_descriptor.23
+- _block_destroy_helper.22
+- _objc_release_x11
+- _objectdestroy.15Tm
+- _symbolic SRySfG
+- _symbolic _____ySdG 17KnowledgeGraphKit6MatrixV
+- _symbolic _____ySdG 17KnowledgeGraphKit6VectorV
+CStrings:
++ "Can't construct Array with count < 0"
++ "Insufficient space allocated to copy string contents"
++ "KGDatabase name cache: transactionBegin is not reentrant"
++ "Negative value is not representable"
++ "Swift/Array.swift"
++ "Swift/ContiguousArrayBuffer.swift"
++ "Swift/StringTesting.swift"
++ "Swift/StringUTF8View.swift"
++ "Swift/UnsafeBufferPointer.swift"
++ "Swift/UnsafePointer.swift"
++ "Swift/UnsafeRawPointer.swift"
++ "T@\"NSString\",?,R,C"
++ "Unexpectedly found nil while unwrapping an Optional value"
++ "UnsafeMutableBufferPointer with negative count"
++ "UnsafeMutablePointer.initialize overlapping range"
++ "UnsafeMutablePointer.initialize with negative count"
++ "UnsafeMutablePointer.moveInitialize with negative count"
++ "UnsafeMutableRawPointer.initializeMemory overlapping range"
++ "_inTransactionCheckIsEnabled"
++ "_isInTransaction"
++ "enableInTransactionCheck"
++ "invalid Collection: less than 'count' elements in collection"
++ "transactionBegin"
+
+```

@@ -1,0 +1,223 @@
+## AXMediaUtilities
+
+> `/System/Library/PrivateFrameworks/AXMediaUtilities.framework/AXMediaUtilities`
+
+```diff
+
+-127.1.3.0.0
+-  __TEXT.__text: 0xc41e4
+-  __TEXT.__auth_stubs: 0x1e80
++127.5.0.0.0
++  __TEXT.__text: 0xc432c
++  __TEXT.__auth_stubs: 0x1e90
+   __TEXT.__objc_methlist: 0xa650
+-  __TEXT.__const: 0x15de
+-  __TEXT.__gcc_except_tab: 0x3fb0
++  __TEXT.__const: 0x159e
++  __TEXT.__gcc_except_tab: 0x3f90
+   __TEXT.__cstring: 0xa48c
+   __TEXT.__oslogstring: 0x50e4
+-  __TEXT.__dlopen_cstrs: 0xc79
++  __TEXT.__dlopen_cstrs: 0xc72
+   __TEXT.__ustring: 0x422
+-  __TEXT.__swift5_typeref: 0x2ee
++  __TEXT.__swift5_typeref: 0x2f8
+   __TEXT.__swift5_reflstr: 0x25d
+   __TEXT.__swift5_assocty: 0xc0
+   __TEXT.__constg_swiftt: 0x3f8
+
+   __TEXT.__swift5_builtin: 0x50
+   __TEXT.__swift5_proto: 0x8c
+   __TEXT.__swift5_types: 0x30
+-  __TEXT.__unwind_info: 0x37d0
+-  __TEXT.__eh_frame: 0x4e8
++  __TEXT.__unwind_info: 0x3770
++  __TEXT.__eh_frame: 0x4b0
+   __TEXT.__objc_classname: 0x13bc
+-  __TEXT.__objc_methname: 0x1b4a3
++  __TEXT.__objc_methname: 0x1b4b7
+   __TEXT.__objc_methtype: 0x3dc8
+   __TEXT.__objc_stubs: 0x12480
+-  __DATA_CONST.__got: 0x618
++  __DATA_CONST.__got: 0x610
+   __DATA_CONST.__const: 0x2690
+   __DATA_CONST.__objc_classlist: 0x600
+   __DATA_CONST.__objc_catlist: 0x30
+
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_const: 0xedd0
+   __DATA_CONST.__objc_selrefs: 0x5cd0
++  __DATA_CONST.__objc_protorefs: 0x10
++  __DATA_CONST.__objc_classrefs: 0x848
++  __DATA_CONST.__objc_superrefs: 0x410
+   __DATA_CONST.__objc_arraydata: 0x6b8
+-  __AUTH_CONST.__cfstring: 0xc980
++  __AUTH_CONST.__cfstring: 0xc9a0
+   __AUTH_CONST.__objc_const: 0x5238
+-  __AUTH_CONST.__const: 0x1d90
++  __AUTH_CONST.__const: 0x1dc8
+   __AUTH_CONST.__objc_intobj: 0xb40
+   __AUTH_CONST.__objc_doubleobj: 0x2c0
+   __AUTH_CONST.__objc_arrayobj: 0x240
+   __AUTH_CONST.__objc_dictobj: 0x78
+   __AUTH_CONST.__auth_ptr: 0x18
+-  __AUTH_CONST.__auth_got: 0xf58
++  __AUTH_CONST.__auth_got: 0xf60
+   __AUTH.__objc_data: 0x3d10
+-  __AUTH.__const_weak: 0x38
+   __AUTH.__data: 0x78
+   __DATA.__got_weak: 0x10
+-  __DATA.__objc_protorefs: 0x10
+-  __DATA.__objc_classrefs: 0x848
+-  __DATA.__objc_superrefs: 0x410
+   __DATA.__objc_ivar: 0xe1c
+-  __DATA.__data: 0xeb0
++  __DATA.__data: 0xf98
+   __DATA.__bss: 0x1cb0
+   __DATA.__common: 0x20
+   __DATA_DIRTY.__objc_data: 0x2d0
+
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 5234
+-  Symbols:   16368
+-  CStrings:  7713
++  Functions: 5221
++  Symbols:   16364
++  CStrings:  7715
+ 
+Symbols:
++ __ZNKSt3__111__copy_loopINS_17_ClassicAlgPolicyEEclB8ue170006IPU8__strongKP8NSStringS7_PU8__strongS5_EENS_4pairIT_T1_EESB_T0_SC_
++ __ZNKSt3__129_AllocatorDestroyRangeReverseINS_9allocatorINS_10shared_ptrI17espresso_buffer_tEEEENS_16reverse_iteratorIPS4_EEEclB8ue170006Ev
++ __ZNKSt3__16vectorINS_10shared_ptrI17espresso_buffer_tEENS_9allocatorIS3_EEE20__throw_length_errorB8ue170006Ev
++ __ZNKSt3__16vectorIU8__strongP8NSStringNS_9allocatorIS3_EEE20__throw_length_errorB8ue170006Ev
++ __ZNKSt3__16vectorIbNS_9allocatorIbEEE20__throw_length_errorB8ue170006Ev
++ __ZNKSt3__16vectorIfNS_9allocatorIfEEE20__throw_length_errorB8ue170006Ev
++ __ZNKSt3__16vectorIiNS_9allocatorIiEEE20__throw_length_errorB8ue170006Ev
++ __ZNKSt9type_infoeqB8ue170006ERKS_
++ __ZNSt12length_errorC1B8ue170006EPKc
++ __ZNSt3__110shared_ptrI7CGImageEC2B8ue170006IS1_PFvPS1_EvEEPT_T0_
++ __ZNSt3__113__fill_n_trueB8ue170006INS_6vectorIbNS_9allocatorIbEEEEEEvNS_14__bit_iteratorIT_Lb0EXLi0EEEENS6_9size_typeE
++ __ZNSt3__114__fill_n_falseB8ue170006INS_6vectorIbNS_9allocatorIbEEEEEEvNS_14__bit_iteratorIT_Lb0EXLi0EEEENS6_9size_typeE
++ __ZNSt3__114__split_bufferINS_10shared_ptrI17espresso_buffer_tEERNS_9allocatorIS3_EEE5clearB8ue170006Ev
++ __ZNSt3__119__allocate_at_leastB8ue170006INS_9allocatorINS_10shared_ptrI17espresso_buffer_tEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS8_m
++ __ZNSt3__119__allocate_at_leastB8ue170006INS_9allocatorIU8__strongP8NSStringEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS8_m
++ __ZNSt3__119__allocate_at_leastB8ue170006INS_9allocatorIfEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS5_m
++ __ZNSt3__119__allocate_at_leastB8ue170006INS_9allocatorIiEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS5_m
++ __ZNSt3__119__allocate_at_leastB8ue170006INS_9allocatorImEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS5_m
++ __ZNSt3__119__shared_weak_count16__release_sharedB8ue170006Ev
++ __ZNSt3__120__throw_length_errorB8ue170006EPKc
++ __ZNSt3__128__exception_guard_exceptionsINS_29_AllocatorDestroyRangeReverseINS_9allocatorINS_10shared_ptrI17espresso_buffer_tEEEENS_16reverse_iteratorIPS5_EEEEED2B8ue170006Ev
++ __ZNSt3__142__uninitialized_allocator_move_if_noexceptB8ue170006INS_9allocatorINS_10shared_ptrI17espresso_buffer_tEEEENS_16reverse_iteratorIPS4_EES8_S8_EET2_RT_T0_T1_S9_
++ __ZNSt3__16vectorINS_10shared_ptrI17espresso_buffer_tEENS_9allocatorIS3_EEE16__destroy_vectorclB8ue170006Ev
++ __ZNSt3__16vectorINS_10shared_ptrI17espresso_buffer_tEENS_9allocatorIS3_EEE7__clearB8ue170006Ev
++ __ZNSt3__16vectorINS_10shared_ptrI17espresso_buffer_tEENS_9allocatorIS3_EEE9push_backB8ue170006ERKS3_
++ __ZNSt3__16vectorIU8__strongP8NSStringNS_9allocatorIS3_EEE11__vallocateB8ue170006Em
++ __ZNSt3__16vectorIU8__strongP8NSStringNS_9allocatorIS3_EEE16__destroy_vectorclB8ue170006Ev
++ __ZNSt3__16vectorIU8__strongP8NSStringNS_9allocatorIS3_EEE18__assign_with_sizeB8ue170006IPU8__strongKS2_S9_EEvT_T0_l
++ __ZNSt3__16vectorIbNS_9allocatorIbEEE11__vallocateB8ue170006Em
++ __ZNSt3__16vectorIfNS_9allocatorIfEEE11__vallocateB8ue170006Em
++ __ZNSt3__16vectorIfNS_9allocatorIfEEE18__assign_with_sizeB8ue170006IPKfS6_EEvT_T0_l
++ __ZNSt3__16vectorIiNS_9allocatorIiEEE11__vallocateB8ue170006Em
++ __ZNSt3__16vectorIiNS_9allocatorIiEEE18__assign_with_sizeB8ue170006IPKiS6_EEvT_T0_l
++ __ZSt28__throw_bad_array_new_lengthB8ue170006v
++ ___132-[AXMLanguageTranslator installOfflineTranslationModelForLocales:fallBackToBaseLanguageIfNeeded:forceReinstall:progress:completion:]_block_invoke.85
++ ___132-[AXMLanguageTranslator installOfflineTranslationModelForLocales:fallBackToBaseLanguageIfNeeded:forceReinstall:progress:completion:]_block_invoke.86
++ ___27-[AXMService xpcConnection]_block_invoke.71
++ ___27-[AXMService xpcConnection]_block_invoke.71.cold.1
++ ___53-[AXMLanguageTranslator availableTranslationLocales:]_block_invoke.63
++ ___58-[AXMMobileAssetEvaluationNode _downloadAssetsIfNecessary]_block_invoke.272
++ ___58-[AXMMobileAssetEvaluationNode _downloadAssetsIfNecessary]_block_invoke.278
++ ___58-[AXMMobileAssetEvaluationNode _downloadAssetsIfNecessary]_block_invoke.280
++ ___58-[AXMMobileAssetEvaluationNode _downloadAssetsIfNecessary]_block_invoke.284
++ ___block_literal_global.116
++ ___block_literal_global.149
++ ___block_literal_global.156
++ ___block_literal_global.159
++ ___block_literal_global.161
++ ___block_literal_global.283
++ ___block_literal_global.286
++ ___block_literal_global.289
++ ___block_literal_global.383
++ ___block_literal_global.385
++ ___block_literal_global.388
++ ___block_literal_global.559
++ ___block_literal_global.561
++ ___block_literal_global.563
++ ___block_literal_global.565
++ ___block_literal_global.567
++ ___block_literal_global.569
++ _swift_initStaticObject
++ _symbolic Say_____G 16AXMediaUtilities13AXBoundingBoxC
+- GCC_except_table49
+- GCC_except_table53
+- __ZNKSt3__111__copy_loopINS_17_ClassicAlgPolicyEEclB7v160006IPU8__strongKP8NSStringS7_PU8__strongS5_EENS_4pairIT_T1_EESB_T0_SC_
+- __ZNKSt3__129_AllocatorDestroyRangeReverseINS_9allocatorINS_10shared_ptrI17espresso_buffer_tEEEENS_16reverse_iteratorIPS4_EEEclB7v160006Ev
+- __ZNKSt3__16vectorINS_10shared_ptrI17espresso_buffer_tEENS_9allocatorIS3_EEE20__throw_length_errorB7v160006Ev
+- __ZNKSt3__16vectorIU8__strongP8NSStringNS_9allocatorIS3_EEE20__throw_length_errorB7v160006Ev
+- __ZNKSt3__16vectorIbNS_9allocatorIbEEE20__throw_length_errorB7v160006Ev
+- __ZNKSt3__16vectorIfNS_9allocatorIfEEE20__throw_length_errorB7v160006Ev
+- __ZNKSt3__16vectorIiNS_9allocatorIiEEE20__throw_length_errorB7v160006Ev
+- __ZNKSt9type_infoeqB7v160006ERKS_
+- __ZNSt12length_errorC1B7v160006EPKc
+- __ZNSt3__110shared_ptrI7CGImageEC2B7v160006IS1_PFvPS1_EvEEPT_T0_
+- __ZNSt3__113__fill_n_trueB7v160006INS_6vectorIbNS_9allocatorIbEEEEEEvNS_14__bit_iteratorIT_Lb0EXLi0EEEENS6_9size_typeE
+- __ZNSt3__114__fill_n_falseB7v160006INS_6vectorIbNS_9allocatorIbEEEEEEvNS_14__bit_iteratorIT_Lb0EXLi0EEEENS6_9size_typeE
+- __ZNSt3__114__split_bufferINS_10shared_ptrI17espresso_buffer_tEERNS_9allocatorIS3_EEE5clearB7v160006Ev
+- __ZNSt3__119__allocate_at_leastB7v160006INS_9allocatorINS_10shared_ptrI17espresso_buffer_tEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS8_m
+- __ZNSt3__119__allocate_at_leastB7v160006INS_9allocatorIU8__strongP8NSStringEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS8_m
+- __ZNSt3__119__allocate_at_leastB7v160006INS_9allocatorIfEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS5_m
+- __ZNSt3__119__allocate_at_leastB7v160006INS_9allocatorIiEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS5_m
+- __ZNSt3__119__allocate_at_leastB7v160006INS_9allocatorImEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS5_m
+- __ZNSt3__119__shared_weak_count16__release_sharedB7v160006Ev
+- __ZNSt3__120__throw_length_errorB7v160006EPKc
+- __ZNSt3__128__exception_guard_exceptionsINS_29_AllocatorDestroyRangeReverseINS_9allocatorINS_10shared_ptrI17espresso_buffer_tEEEENS_16reverse_iteratorIPS5_EEEEED2B7v160006Ev
+- __ZNSt3__142__uninitialized_allocator_move_if_noexceptB7v160006INS_9allocatorINS_10shared_ptrI17espresso_buffer_tEEEENS_16reverse_iteratorIPS4_EES8_S8_EET2_RT_T0_T1_S9_
+- __ZNSt3__16vectorINS_10shared_ptrI17espresso_buffer_tEENS_9allocatorIS3_EEE16__destroy_vectorclB7v160006Ev
+- __ZNSt3__16vectorINS_10shared_ptrI17espresso_buffer_tEENS_9allocatorIS3_EEE7__clearB7v160006Ev
+- __ZNSt3__16vectorINS_10shared_ptrI17espresso_buffer_tEENS_9allocatorIS3_EEE9push_backB7v160006ERKS3_
+- __ZNSt3__16vectorINS_10shared_ptrI17espresso_buffer_tEENS_9allocatorIS3_EEED2B7v160006Ev
+- __ZNSt3__16vectorIU8__strongP8NSStringNS_9allocatorIS3_EEE11__vallocateB7v160006Em
+- __ZNSt3__16vectorIU8__strongP8NSStringNS_9allocatorIS3_EEE16__destroy_vectorclB7v160006Ev
+- __ZNSt3__16vectorIU8__strongP8NSStringNS_9allocatorIS3_EEE6assignIPU8__strongKS2_Li0EEEvT_SA_
+- __ZNSt3__16vectorIU8__strongP8NSStringNS_9allocatorIS3_EEED2B7v160006Ev
+- __ZNSt3__16vectorIbNS_9allocatorIbEEE11__vallocateB7v160006Em
+- __ZNSt3__16vectorIfNS_9allocatorIfEEE11__vallocateB7v160006Em
+- __ZNSt3__16vectorIfNS_9allocatorIfEEE6assignIPKfLi0EEEvT_S7_
+- __ZNSt3__16vectorIiNS_9allocatorIiEEE11__vallocateB7v160006Em
+- __ZNSt3__16vectorIiNS_9allocatorIiEEE6assignIPKiLi0EEEvT_S7_
+- __ZSt28__throw_bad_array_new_lengthB7v160006v
+- ___132-[AXMLanguageTranslator installOfflineTranslationModelForLocales:fallBackToBaseLanguageIfNeeded:forceReinstall:progress:completion:]_block_invoke.82
+- ___132-[AXMLanguageTranslator installOfflineTranslationModelForLocales:fallBackToBaseLanguageIfNeeded:forceReinstall:progress:completion:]_block_invoke.83
+- ___27-[AXMService xpcConnection]_block_invoke.70
+- ___27-[AXMService xpcConnection]_block_invoke.70.cold.1
+- ___53-[AXMLanguageTranslator availableTranslationLocales:]_block_invoke.60
+- ___58-[AXMMobileAssetEvaluationNode _downloadAssetsIfNecessary]_block_invoke.248
+- ___58-[AXMMobileAssetEvaluationNode _downloadAssetsIfNecessary]_block_invoke.254
+- ___58-[AXMMobileAssetEvaluationNode _downloadAssetsIfNecessary]_block_invoke.256
+- ___58-[AXMMobileAssetEvaluationNode _downloadAssetsIfNecessary]_block_invoke.260
+- ___block_literal_global.113
+- ___block_literal_global.145
+- ___block_literal_global.155
+- ___block_literal_global.259
+- ___block_literal_global.262
+- ___block_literal_global.265
+- ___block_literal_global.378
+- ___block_literal_global.380
+- ___block_literal_global.382
+- ___block_literal_global.384
+- ___block_literal_global.387
+- ___block_literal_global.558
+- ___block_literal_global.560
+- ___block_literal_global.562
+- ___block_literal_global.564
+- ___block_literal_global.566
+- ___block_literal_global.568
+CStrings:
++ "T@\"NSString\",?,R,C"
++ "ja_JP"
++ "softlink:r:path:/System/Library/Frameworks/Translation.framework/Translation"
+- "softlink:r:path:/System/Library/PrivateFrameworks/Translation.framework/Translation"
+
+```

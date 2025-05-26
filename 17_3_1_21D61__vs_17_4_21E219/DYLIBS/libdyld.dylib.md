@@ -1,0 +1,158 @@
+## libdyld.dylib
+
+> `/usr/lib/system/libdyld.dylib`
+
+```diff
+
+-1125.5.0.0.0
+-  __TEXT.__text: 0x21464
++1160.6.0.0.0
++  __TEXT.__text: 0x21a58
+   __TEXT.__auth_stubs: 0x610
+   __TEXT.__const: 0x580
+-  __TEXT.__cstring: 0x140f
++  __TEXT.__cstring: 0x1411
+   __TEXT.__unwind_info: 0x48
+   __DATA_CONST.__got: 0x38
+   __DATA_CONST.__const: 0x9a8
+
+   - /usr/lib/system/libsystem_platform.dylib
+   - /usr/lib/system/libsystem_pthread.dylib
+   - /usr/lib/system/libxpc.dylib
+-  Functions: 955
+-  Symbols:   1960
++  Functions: 958
++  Symbols:   1964
+   CStrings:  180
+ 
+Symbols:
++ __ZN15DyldSharedCache11mappingNameEjy
++ __ZN3lsl13MemoryManager17vm_allocate_bytesEy
++ __ZN3lsl13MemoryManager17vm_allocate_bytesEy.cold.1
++ __ZN3lsl18AllocationMetadataC2EPNS_9AllocatorEy
++ __ZN3lsl18EphemeralAllocator15allocate_bufferEyyy
++ __ZN3lsl18EphemeralAllocator15allocate_bufferEyyy.cold.1
++ __ZN3lsl18EphemeralAllocator15allocate_bufferEyyy.cold.2
++ __ZN3lsl18EphemeralAllocatorC2EPvy
++ __ZN3lsl19PersistentAllocator15allocate_bufferEyyy
++ __ZN3lsl19PersistentAllocator17MagazineAllocatorILj256ELj256EE15allocate_bufferEyyy
++ __ZN3lsl19PersistentAllocator17MagazineAllocatorILj256ELj256EE15allocate_bufferEyyy.cold.1
++ __ZN3lsl6VectorIN5dyld45Atlas6Mapper7MappingEE12reserveExactEy
++ __ZN3lsl6VectorIN5dyld45Atlas6Mapper7MappingEE12reserveExactEy.cold.1
++ __ZN3lsl6VectorIN5dyld45Atlas6Mapper7MappingEE6resizeEy
++ __ZN3lsl6VectorIN5dyld45Atlas6Mapper7MappingEE7reserveEy
++ __ZN3lsl6VectorIN5dyld45Atlas6Mapper7MappingEEC2ERKS5_RNS_9AllocatorE
++ __ZN3lsl6VectorINS_13MemoryManager6BufferEE12reserveExactEy
++ __ZN3lsl6VectorINS_13MemoryManager6BufferEE12reserveExactEy.cold.1
++ __ZN3lsl6VectorINS_13MemoryManager6BufferEE6resizeEy
++ __ZN3lsl6VectorINS_13MemoryManager6BufferEE7reserveEy
++ __ZN3lsl6VectorINS_4UUIDEE12reserveExactEy
++ __ZN3lsl6VectorINS_4UUIDEE12reserveExactEy.cold.1
++ __ZN3lsl6VectorINS_4UUIDEE6resizeEy
++ __ZN3lsl6VectorINS_4UUIDEE7reserveEy
++ __ZN3lsl6VectorIPKcE12reserveExactEy
++ __ZN3lsl6VectorIPKcE12reserveExactEy.cold.1
++ __ZN3lsl6VectorIPKcE6resizeEy
++ __ZN3lsl6VectorIPKcE7reserveEy
++ __ZN3lsl6VectorIcE12reserveExactEy
++ __ZN3lsl6VectorIcE12reserveExactEy.cold.1
++ __ZN3lsl6VectorIcE6resizeEy
++ __ZN3lsl6VectorIcE7reserveEy
++ __ZN3lsl6VectorIiE12reserveExactEy
++ __ZN3lsl6VectorIiE12reserveExactEy.cold.1
++ __ZN3lsl6VectorIiE6resizeEy
++ __ZN3lsl6VectorIiE7reserveEy
++ __ZN3lsl6VectorIjE12reserveExactEy
++ __ZN3lsl6VectorIjE12reserveExactEy.cold.1
++ __ZN3lsl6VectorIjE6resizeEy
++ __ZN3lsl6VectorIjE7reserveEy
++ __ZN3lsl9Allocator13aligned_allocEyy
++ __ZN3lsl9Allocator15allocate_bufferEyy
++ __ZN3lsl9Allocator17deallocate_bufferEPvyy
++ __ZN3lsl9Allocator6mallocEy
++ __ZNK3lsl18EphemeralAllocator5ownedEPKvy
++ __ZNK3lsl19PersistentAllocator17MagazineAllocatorILj256ELj256EE5ownedEPKvy
++ __ZNK3lsl19PersistentAllocator5ownedEPKvy
++ __ZNKSt3__111__copy_loopINS_17_ClassicAlgPolicyEEclB8un170006IN3lsl5BTreeINS4_13MemoryManager6BufferENS4_19PersistentAllocator20RegionAddressCompareELb0EE14const_iteratorESB_NS_20back_insert_iteratorINS4_6VectorIS7_EEEEEENS_4pairIT_T1_EESH_T0_SI_
++ __ZNKSt3__111__copy_loopINS_17_ClassicAlgPolicyEEclB8un170006IPhS4_NS_20back_insert_iteratorIN3lsl6VectorIcEEEEEENS_4pairIT_T1_EESB_T0_SC_
++ __ZNSt3__113__lower_boundB8un170006INS_17_ClassicAlgPolicyENS_11__wrap_iterIPPKcEES6_S4_NS_10__identityEN3lsl20ConstCharStarCompareEEET0_SA_T1_RKT2_RT4_RT3_
++ __ZNSt3__113__lower_boundB8un170006INS_17_ClassicAlgPolicyEPN3lsl13MemoryManager6BufferES5_S4_NS_10__identityENS_6__lessIvvEEEET0_S9_T1_RKT2_RT4_RT3_
++ __ZNSt3__121__unwrap_and_dispatchB8un170006INS_10__overloadINS_11__copy_loopINS_17_ClassicAlgPolicyEEENS_14__copy_trivialEEEN3lsl5BTreeINS7_13MemoryManager6BufferENS7_19PersistentAllocator20RegionAddressCompareELb0EE14const_iteratorESE_NS_20back_insert_iteratorINS7_6VectorISA_EEEELi0EEENS_4pairIT0_T2_EESK_T1_SL_
++ __ZNSt3__18optionalIyE4swapB8un170006ERS1_
++ ___block_descriptor_tmp.102
++ ___block_descriptor_tmp.103
++ ___block_descriptor_tmp.48
++ ___block_descriptor_tmp.58
++ ___block_descriptor_tmp.63
++ ___block_descriptor_tmp.84
++ ___block_descriptor_tmp.85
++ ___block_descriptor_tmp.99
+- __ZN3lsl13MemoryManager17vm_allocate_bytesEm
+- __ZN3lsl13MemoryManager17vm_allocate_bytesEm.cold.1
+- __ZN3lsl18AllocationMetadataC2EPNS_9AllocatorEm
+- __ZN3lsl18EphemeralAllocator15allocate_bufferEmmm
+- __ZN3lsl18EphemeralAllocator15allocate_bufferEmmm.cold.1
+- __ZN3lsl18EphemeralAllocator15allocate_bufferEmmm.cold.2
+- __ZN3lsl18EphemeralAllocatorC2EPvm
+- __ZN3lsl19PersistentAllocator15allocate_bufferEmmm
+- __ZN3lsl19PersistentAllocator17MagazineAllocatorILj256ELj256EE15allocate_bufferEmmm
+- __ZN3lsl19PersistentAllocator17MagazineAllocatorILj256ELj256EE15allocate_bufferEmmm.cold.1
+- __ZN3lsl6VectorIN5dyld45Atlas6Mapper7MappingEE12reserveExactEm
+- __ZN3lsl6VectorIN5dyld45Atlas6Mapper7MappingEE12reserveExactEm.cold.1
+- __ZN3lsl6VectorIN5dyld45Atlas6Mapper7MappingEE6resizeEm
+- __ZN3lsl6VectorIN5dyld45Atlas6Mapper7MappingEE7reserveEm
+- __ZN3lsl6VectorINS_13MemoryManager6BufferEE12reserveExactEm
+- __ZN3lsl6VectorINS_13MemoryManager6BufferEE12reserveExactEm.cold.1
+- __ZN3lsl6VectorINS_13MemoryManager6BufferEE6resizeEm
+- __ZN3lsl6VectorINS_13MemoryManager6BufferEE7reserveEm
+- __ZN3lsl6VectorINS_4UUIDEE12reserveExactEm
+- __ZN3lsl6VectorINS_4UUIDEE12reserveExactEm.cold.1
+- __ZN3lsl6VectorINS_4UUIDEE6resizeEm
+- __ZN3lsl6VectorINS_4UUIDEE7reserveEm
+- __ZN3lsl6VectorIPKcE12reserveExactEm
+- __ZN3lsl6VectorIPKcE12reserveExactEm.cold.1
+- __ZN3lsl6VectorIPKcE6resizeEm
+- __ZN3lsl6VectorIPKcE7reserveEm
+- __ZN3lsl6VectorIcE12reserveExactEm
+- __ZN3lsl6VectorIcE12reserveExactEm.cold.1
+- __ZN3lsl6VectorIcE6resizeEm
+- __ZN3lsl6VectorIcE7reserveEm
+- __ZN3lsl6VectorIiE12reserveExactEm
+- __ZN3lsl6VectorIiE12reserveExactEm.cold.1
+- __ZN3lsl6VectorIiE6resizeEm
+- __ZN3lsl6VectorIiE7reserveEm
+- __ZN3lsl6VectorIjE12reserveExactEm
+- __ZN3lsl6VectorIjE12reserveExactEm.cold.1
+- __ZN3lsl6VectorIjE6resizeEm
+- __ZN3lsl6VectorIjE7reserveEm
+- __ZN3lsl9Allocator13aligned_allocEmm
+- __ZN3lsl9Allocator15allocate_bufferEmm
+- __ZN3lsl9Allocator17deallocate_bufferEPvmm
+- __ZN3lsl9Allocator6mallocEm
+- __ZNK3lsl18EphemeralAllocator5ownedEPKvm
+- __ZNK3lsl19PersistentAllocator17MagazineAllocatorILj256ELj256EE5ownedEPKvm
+- __ZNK3lsl19PersistentAllocator5ownedEPKvm
+- __ZNKSt3__111__copy_loopINS_17_ClassicAlgPolicyEEclB7v160006IN3lsl5BTreeINS4_13MemoryManager6BufferENS4_19PersistentAllocator20RegionAddressCompareELb0EE14const_iteratorESB_NS_20back_insert_iteratorINS4_6VectorIS7_EEEEEENS_4pairIT_T1_EESH_T0_SI_
+- __ZNKSt3__111__copy_loopINS_17_ClassicAlgPolicyEEclB7v160006IPhS4_NS_20back_insert_iteratorIN3lsl6VectorIcEEEEEENS_4pairIT_T1_EESB_T0_SC_
+- __ZNSt3__118__lower_bound_implB7v160006INS_17_ClassicAlgPolicyENS_11__wrap_iterIPPKcEES6_S4_NS_10__identityEN3lsl20ConstCharStarCompareEEET0_SA_T1_RKT2_RT4_RT3_
+- __ZNSt3__118__lower_bound_implB7v160006INS_17_ClassicAlgPolicyEPN3lsl13MemoryManager6BufferES5_S4_NS_10__identityENS_6__lessIS4_S4_EEEET0_S9_T1_RKT2_RT4_RT3_
+- __ZNSt3__121__unwrap_and_dispatchB7v160006INS_10__overloadINS_11__copy_loopINS_17_ClassicAlgPolicyEEENS_14__copy_trivialEEEN3lsl5BTreeINS7_13MemoryManager6BufferENS7_19PersistentAllocator20RegionAddressCompareELb0EE14const_iteratorESE_NS_20back_insert_iteratorINS7_6VectorISA_EEEELi0EEENS_4pairIT0_T2_EESK_T1_SL_
+- __ZNSt3__18optionalIyE4swapB7v160006ERS1_
+- ___block_descriptor_tmp.44
+- ___block_descriptor_tmp.59
+- ___block_descriptor_tmp.75
+- ___block_descriptor_tmp.76
+- ___block_descriptor_tmp.91
+- ___block_descriptor_tmp.94
+- ___block_descriptor_tmp.95
+CStrings:
++ "\t%llu @ 0x%llx\n"
++ "\t0x%llx: %llu\n"
++ "(uint64_t)_freeBuffer.address%16 == 0"
++ "(uint64_t)buffer.address > 0"
+- "\t%lu @ 0x%lx\n"
+- "\t0x%lx: %lu\n"
+- "(uintptr_t)_freeBuffer.address%16 == 0"
+- "(uintptr_t)buffer.address > 0"
+
+```

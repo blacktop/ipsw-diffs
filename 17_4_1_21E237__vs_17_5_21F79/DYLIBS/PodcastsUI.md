@@ -1,0 +1,347 @@
+## PodcastsUI
+
+> `/System/Library/PrivateFrameworks/PodcastsUI.framework/PodcastsUI`
+
+```diff
+
+-4023.510.2.0.0
+-  __TEXT.__text: 0x1b0438
+-  __TEXT.__auth_stubs: 0x5c90
+-  __TEXT.__objc_methlist: 0x5188
+-  __TEXT.__const: 0xb1e8
+-  __TEXT.__cstring: 0xa722
++4023.610.1.0.0
++  __TEXT.__text: 0x1cc6f0
++  __TEXT.__auth_stubs: 0x61b0
++  __TEXT.__objc_methlist: 0x5198
++  __TEXT.__const: 0xbe98
++  __TEXT.__cstring: 0xb082
+   __TEXT.__gcc_except_tab: 0xab0
+   __TEXT.__oslogstring: 0x23ed
+   __TEXT.__dlopen_cstrs: 0x8e
+   __TEXT.__ustring: 0x8
+-  __TEXT.__constg_swiftt: 0x4740
+-  __TEXT.__swift5_typeref: 0x8855
+-  __TEXT.__swift5_fieldmd: 0x3ffc
+-  __TEXT.__swift5_builtin: 0x26c
+-  __TEXT.__swift5_reflstr: 0x362c
+-  __TEXT.__swift5_assocty: 0x960
+-  __TEXT.__swift5_capture: 0x18d4
+-  __TEXT.__swift5_proto: 0x7a0
+-  __TEXT.__swift5_types: 0x490
++  __TEXT.__constg_swiftt: 0x4b2c
++  __TEXT.__swift5_typeref: 0x9585
++  __TEXT.__swift5_fieldmd: 0x4368
++  __TEXT.__swift5_builtin: 0x280
++  __TEXT.__swift5_reflstr: 0x3aec
++  __TEXT.__swift5_assocty: 0xa10
++  __TEXT.__swift5_capture: 0x1988
++  __TEXT.__swift5_proto: 0x854
++  __TEXT.__swift5_types: 0x4c0
+   __TEXT.__swift5_protos: 0x70
+   __TEXT.__swift5_mpenum: 0xf8
+-  __TEXT.__unwind_info: 0x7c3c
+-  __TEXT.__eh_frame: 0x6ca4
+-  __TEXT.__objc_classname: 0x753
+-  __TEXT.__objc_methname: 0x11a8a
+-  __TEXT.__objc_methtype: 0x272c
++  __TEXT.__unwind_info: 0x7718
++  __TEXT.__eh_frame: 0x80ac
++  __TEXT.__objc_classname: 0x766
++  __TEXT.__objc_methname: 0x11b28
++  __TEXT.__objc_methtype: 0x2749
+   __TEXT.__objc_stubs: 0xafc0
+-  __DATA_CONST.__got: 0x1660
+-  __DATA_CONST.__const: 0x1a58
+-  __DATA_CONST.__objc_classlist: 0x348
++  __DATA_CONST.__got: 0x1798
++  __DATA_CONST.__const: 0x1a98
++  __DATA_CONST.__objc_classlist: 0x350
+   __DATA_CONST.__objc_catlist: 0xc0
+-  __DATA_CONST.__objc_protolist: 0x1b8
++  __DATA_CONST.__objc_protolist: 0x1c8
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_const: 0xc760
+-  __DATA_CONST.__objc_selrefs: 0x4e38
+-  __DATA_CONST.__objc_protorefs: 0xd0
+-  __DATA_CONST.__objc_classrefs: 0x698
++  __DATA_CONST.__objc_const: 0xc9b8
++  __DATA_CONST.__objc_selrefs: 0x4e78
++  __DATA_CONST.__objc_protorefs: 0xd8
++  __DATA_CONST.__objc_classrefs: 0x6a0
+   __DATA_CONST.__objc_superrefs: 0x110
+   __DATA_CONST.__objc_arraydata: 0xe0
+-  __AUTH_CONST.__const: 0xe5e8
++  __AUTH_CONST.__const: 0xf180
+   __AUTH_CONST.__objc_const: 0x17b8
+   __AUTH_CONST.__cfstring: 0x2de0
+   __AUTH_CONST.__objc_arrayobj: 0xc0
+   __AUTH_CONST.__objc_doubleobj: 0x70
+   __AUTH_CONST.__objc_intobj: 0x30
+-  __AUTH_CONST.__auth_ptr: 0x3b8
+-  __AUTH_CONST.__auth_got: 0x2e60
+-  __AUTH.__objc_data: 0x1a28
+-  __AUTH.__data: 0x1610
++  __AUTH_CONST.__auth_ptr: 0x3e0
++  __AUTH_CONST.__auth_got: 0x30f0
++  __AUTH.__objc_data: 0x19d8
++  __AUTH.__data: 0x1840
+   __DATA.__objc_ivar: 0x470
+   __DATA.__objc_data: 0x470
+-  __DATA.__data: 0x4190
++  __DATA.__data: 0x4c00
+   __DATA.__objc_stublist: 0x8
+-  __DATA.__bss: 0xa770
+-  __DATA.__common: 0x58
+-  __DATA_DIRTY.__const: 0x150
++  __DATA.__bss: 0xb770
++  __DATA.__common: 0x98
++  __DATA_DIRTY.__const: 0x140
+   __DATA_DIRTY.__objc_const: 0x48
+-  __DATA_DIRTY.__objc_data: 0x1a88
+-  __DATA_DIRTY.__data: 0x4128
+-  __DATA_DIRTY.__bss: 0x4330
++  __DATA_DIRTY.__objc_data: 0x1b28
++  __DATA_DIRTY.__data: 0x4268
++  __DATA_DIRTY.__bss: 0x4540
+   __DATA_DIRTY.__common: 0xf0
+   - /System/Library/Frameworks/AVFAudio.framework/AVFAudio
+   - /System/Library/Frameworks/AVFoundation.framework/AVFoundation
+
+   - /System/Library/Frameworks/ImageIO.framework/ImageIO
+   - /System/Library/Frameworks/JavaScriptCore.framework/JavaScriptCore
+   - /System/Library/Frameworks/MediaPlayer.framework/MediaPlayer
++  - /System/Library/Frameworks/MetalKit.framework/MetalKit
+   - /System/Library/Frameworks/QuartzCore.framework/QuartzCore
+   - /System/Library/Frameworks/ShazamKit.framework/ShazamKit
+   - /System/Library/Frameworks/StoreKit.framework/StoreKit
+
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 10890
+-  Symbols:   9681
+-  CStrings:  5118
++  Functions: 11409
++  Symbols:   9776
++  CStrings:  5177
+ 
+Symbols:
++ -[IMPlayerItem updateTranscriptInformation:transcriptSource:]
++ _MTMediaLibraryRestoreTokenProperty
++ _OBJC_CLASS_$_NSProcessInfo
++ __DATA__TtC10PodcastsUI39JSLibraryStorageRecommendationsProvider
++ __IVARS__TtC10PodcastsUI39JSLibraryStorageRecommendationsProvider
++ __METACLASS_DATA__TtC10PodcastsUI39JSLibraryStorageRecommendationsProvider
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_PFAnalyticsChannel
++ __OBJC_$_PROTOCOL_METHOD_TYPES_PFAnalyticsChannel
++ __OBJC_LABEL_PROTOCOL_$_PFAnalyticsChannel
++ __OBJC_PROTOCOL_$_PFAnalyticsChannel
++ ___swift_memcpy81_8
++ ___unnamed_16
++ _associated conformance 10PodcastsUI22EpisodeLimitSuggestionV10CodingKeys33_5C037C71CDD72550DE41EDE80739105ELLOSHAASQ
++ _associated conformance 10PodcastsUI22EpisodeLimitSuggestionV10CodingKeys33_5C037C71CDD72550DE41EDE80739105ELLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 10PodcastsUI22EpisodeLimitSuggestionV10CodingKeys33_5C037C71CDD72550DE41EDE80739105ELLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 10PodcastsUI22EpisodeLimitSuggestionV16DisplayConditionOSHAASQ
++ _associated conformance 10PodcastsUI28DownloadPickerLoadingOverlayV05SwiftB04ViewAA4BodyAdEP_AdE
++ _associated conformance 10PodcastsUI30AsyncSelectionConfirmingPickerVyxq_q0_G05SwiftB04ViewAA4BodyAeFP_AeF
++ _associated conformance 10PodcastsUI37LibraryStorageTipSuggestedLimitIntentV10CodingKeys33_71FEE9C25A6600A03A76B92DD0D70599LLOSHAASQ
++ _associated conformance 10PodcastsUI37LibraryStorageTipSuggestedLimitIntentV10CodingKeys33_71FEE9C25A6600A03A76B92DD0D70599LLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 10PodcastsUI37LibraryStorageTipSuggestedLimitIntentV10CodingKeys33_71FEE9C25A6600A03A76B92DD0D70599LLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 10PodcastsUI37LibraryStorageTipSuggestedLimitIntentV9JetEngine13JSIntentModelAA10ReturnTypeAD0hL0P_AD17ExpressibleByJSON
++ _associated conformance 10PodcastsUI37LibraryStorageTipSuggestedLimitIntentV9JetEngine13JSIntentModelAaD0hL0
++ _associated conformance 10PodcastsUI37LibraryStorageTipSuggestedLimitIntentV9JetEngine13JSIntentModelAaD24CustomJSValueConvertible
++ _associated conformance 10PodcastsUI56DebugLibraryStorageTipSuggestedLimitIntentImplementationV9JetEngine0iJ0AA0I0AdEP_AD0I5Model
++ _associated conformance So18NSNotificationNameaSHSCSQ
++ _associated conformance So18NSNotificationNameas20_SwiftNewtypeWrapperSCSY
++ _associated conformance So18NSNotificationNameas20_SwiftNewtypeWrapperSCs35_HasCustomAnyHashableRepresentation
++ _block_copy_helper.53
++ _block_descriptor.55
++ _block_destroy_helper.54
++ _get_witness_table 10Foundation19AttributedStringKeyRzlAA15AttributeScopesO0A10AttributesV04LinkE0OAaBHPyHC.109
++ _get_witness_table 10PodcastsUI30AsyncSelectionConfirmingPickerVyS2i05SwiftB04ViewPADE18navigationBarTitleyQrqd__SyRd__lFQOyAD7ForEachVySaySo21MTPodcastEpisodeLimitVGSiAD4TextVG_SSQo_GAdEHPyHC.57
++ _get_witness_table 7SwiftUI14GeometryReaderVyAA15ModifiedContentVyAEyAEyAEyAA6HStackVyAEyAEyAEyAA6VStackVyAA9TupleViewVyAEyAA0J0PAAE08progressJ5StyleyQrqd__AA08ProgressjL0Rd__lFQOyAA0mJ0VyAA05EmptyJ0VASG_AA08CircularmjL0VQo_AA14_PaddingLayoutVG_AEyAEyAEyAA4TextVAA30_EnvironmentKeyWritingModifierVyAA0R9AlignmentOGGAA010_FlexFrameQ0VGAYGtGGAYGAA011_BackgroundlV0VyAA5ColorVGGAA11_ClipEffectVyAA16RoundedRectangleVGGGA8_GAA024_SafeAreaRegionsIgnoringQ0VGA18_GAA14_OpacityEffectVGGAaLHPyHC.54
++ _get_witness_table 7SwiftUI14NavigationLinkVy08PodcastsB030AutomaticallyDownloadCellStackVAD04AutoG10PickerViewVGAA0L0HPyHC.58
++ _get_witness_table 7SwiftUI15ModifiedContentVyAA4ViewP8SettingsE22settingsListAppearanceQryFQOyAA0H0Vys5NeverOAA7SectionVyAA4TextVAeAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQOyAeAE11pickerStyleyQrqd__AA06PickerR0Rd__lFQOyAeAE12labelsHiddenQryFQOy08PodcastsB0012AutoDownloadS0V_Qo__AA06InlinesR0VQo__SiQo_ACyACyAoA30_EnvironmentKeyWritingModifierVyAA13OpenURLActionVGGAA31AccessibilityAttachmentModifierVGGG_Qo_AA16_OverlayModifierVyAV0xS14LoadingOverlayVGGAaDHPqd__AaDHD2_A13_HO_A18_AA0E8ModifierHPyHCHC.53
++ _get_witness_table 7SwiftUI19_ConditionalContentVyAA6VStackVy08PodcastsB0025AutomaticallyDownloadCellD0VGAA6HStackVyAHGGAA4ViewHPAiaNHPyHC_AlaNHPyHCHC.112
++ _get_witness_table 7SwiftUI5GroupVyAA9TupleViewVyAA4TextV_AA6SpacerVSgAGSgtGGAA0E0HPAlaNHPyHC_HC.113
++ _get_witness_table SHR_7SwiftUI4ViewR0_r1_lqd0__AaBHD3_AaBPAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQOyAA5GroupVyAA19_ConditionalContentVyAJyAcAE5alert11isPresented7contentQrAA7BindingVySbG_AA5AlertVyXEtFQOyAA6PickerVyAA4TextVq_q0_G_Qo_AWGAJyAcAE11actionSheetAlMQrAP_AA06ActionT0VyXEtFQOyAW_Qo_AWGGG_q_Qo_HO.4
++ _get_witness_table qd0__7SwiftUI4ViewHD3_AaBPAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQOyAA5GroupVyAA19_ConditionalContentVy08PodcastsB030AsyncSelectionConfirmingPickerVyS2iAcAE18navigationBarTitleyQrqd__SyRd__lFQOyAA7ForEachVySaySo21MTPodcastEpisodeLimitVGSiAA4TextVG_SSQo_GAcAE12labelsHiddenQryFQOyAK0mnO0VySiAWG_Qo_GG_SiQo_HO.55
++ _get_witness_table qd__7SwiftUI4ViewHD2_AaBPAAE12labelsHiddenQryFQOy08PodcastsB025SelectionConfirmingPickerVySiAcAE18navigationBarTitleyQrqd__SyRd__lFQOyAA7ForEachVySaySo21MTPodcastEpisodeLimitVGSiAA4TextVG_SSQo_G_Qo_HO.56
++ _kMTLastDismissedStorageTipOSVersion
++ _kMTLastDismissedStorageTipRestoreToken
++ _objectdestroy.5Tm
++ _objectdestroy.85Tm
++ _swift_asyncLet_begin
++ _swift_asyncLet_finish
++ _swift_asyncLet_get
++ _symbolic $s9JetEngine11IntentModelP
++ _symbolic $s9JetEngine20IntentImplementationP
++ _symbolic S3iSgIegHyyd_
++ _symbolic ScSy_____SgG 18PodcastsFoundation26EpisodeLimitRecommendationV
++ _symbolic ScTyyt_____GSg s5NeverO
++ _symbolic ScTyyt______pGSg s5ErrorP
++ _symbolic So14MPMediaLibraryC
++ _symbolic So18PFAnalyticsChannel_p
++ _symbolic _____ 10PodcastsUI22EpisodeLimitSuggestionV
++ _symbolic _____ 10PodcastsUI22EpisodeLimitSuggestionV10CodingKeys33_5C037C71CDD72550DE41EDE80739105ELLO
++ _symbolic _____ 10PodcastsUI22EpisodeLimitSuggestionV16DisplayConditionO
++ _symbolic _____ 10PodcastsUI28DownloadPickerLoadingOverlayV
++ _symbolic _____ 10PodcastsUI30AsyncSelectionConfirmingPickerV
++ _symbolic _____ 10PodcastsUI30AsyncSelectionConfirmingPickerV16ConfirmationTextV
++ _symbolic _____ 10PodcastsUI30AsyncSelectionConfirmingPickerV25ConfirmationConfigurationV
++ _symbolic _____ 10PodcastsUI37LibraryStorageTipSuggestedLimitIntentV
++ _symbolic _____ 10PodcastsUI37LibraryStorageTipSuggestedLimitIntentV10CodingKeys33_71FEE9C25A6600A03A76B92DD0D70599LLO
++ _symbolic _____ 10PodcastsUI39JSLibraryStorageRecommendationsProviderC
++ _symbolic _____ 10PodcastsUI56DebugLibraryStorageTipSuggestedLimitIntentImplementationV
++ _symbolic _____ 18PodcastsFoundation20MediaSpaceCalculatorC
++ _symbolic _____ 7SwiftUI13TextAlignmentO
++ _symbolic _____ So18NSNotificationNamea
++ _symbolic _____ s6UInt64V
++ _symbolic _____Sg 10PodcastsUI22EpisodeLimitSuggestionV
++ _symbolic _____Sg 18PodcastsFoundation20MediaSpaceCalculatorC0cD12DistributionV
++ _symbolic _____Sg 18PodcastsFoundation26EpisodeLimitRecommendationV
++ _symbolic _____Sg s5Int64V
++ _symbolic ___________t 10PodcastsUI22EpisodeLimitSuggestionV 0A10Foundation20MediaSpaceCalculatorC0gH12DistributionV
++ _symbolic ___________tSg 10PodcastsUI22EpisodeLimitSuggestionV 0A10Foundation20MediaSpaceCalculatorC0gH12DistributionV
++ _symbolic ______p 18PodcastsFoundation37LibraryStorageRecommendationsProviderP
++ _symbolic ______pSg 9JetEngine16IntentDispatcherP
++ _symbolic _____yAAyAAyAAy_____yAAyAAyAAy_____y_____yAAy_____y_____y_____AFG______Qo______G_AAyAAyAAy__________y_____GG_____GAJGtGGAJG_____y_____GG_____y_____GGGAQG_____GAYG_____G 7SwiftUI15ModifiedContentV AA6HStackV AA6VStackV AA9TupleViewV AA0H0PAAE08progressH5StyleyQrqd__AA08ProgresshJ0Rd__lFQO AA0kH0V AA05EmptyH0V AA08CircularkhJ0V AA14_PaddingLayoutV AA4TextV AA30_EnvironmentKeyWritingModifierV AA0P9AlignmentO AA010_FlexFrameO0V AA011_BackgroundjT0V AA5ColorV AA11_ClipEffectV AA16RoundedRectangleV AA024_SafeAreaRegionsIgnoringO0V AA14_OpacityEffectV
++ _symbolic _____yAAyAAy_____yAAyAAyAAy_____y_____yAAy_____y_____y_____AFG______Qo______G_AAyAAyAAy__________y_____GG_____GAJGtGGAJG_____y_____GG_____y_____GGGAQG_____GAYG 7SwiftUI15ModifiedContentV AA6HStackV AA6VStackV AA9TupleViewV AA0H0PAAE08progressH5StyleyQrqd__AA08ProgresshJ0Rd__lFQO AA0kH0V AA05EmptyH0V AA08CircularkhJ0V AA14_PaddingLayoutV AA4TextV AA30_EnvironmentKeyWritingModifierV AA0P9AlignmentO AA010_FlexFrameO0V AA011_BackgroundjT0V AA5ColorV AA11_ClipEffectV AA16RoundedRectangleV AA024_SafeAreaRegionsIgnoringO0V
++ _symbolic _____yAAyAAy_____y_____yAAy_____y_____y_____AEG______Qo______G_AAyAAyAAy__________y_____GG_____GAIGtGGAIG_____y_____GG_____y_____GG 7SwiftUI15ModifiedContentV AA6VStackV AA9TupleViewV AA0G0PAAE08progressG5StyleyQrqd__AA08ProgressgI0Rd__lFQO AA0jG0V AA05EmptyG0V AA08CircularjgI0V AA14_PaddingLayoutV AA4TextV AA30_EnvironmentKeyWritingModifierV AA0O9AlignmentO AA010_FlexFrameN0V AA011_BackgroundiS0V AA5ColorV AA11_ClipEffectV AA16RoundedRectangleV
++ _symbolic _____yAAy_____yAAyAAyAAy_____y_____yAAy_____y_____y_____AFG______Qo______G_AAyAAyAAy__________y_____GG_____GAJGtGGAJG_____y_____GG_____y_____GGGAQG_____G 7SwiftUI15ModifiedContentV AA6HStackV AA6VStackV AA9TupleViewV AA0H0PAAE08progressH5StyleyQrqd__AA08ProgresshJ0Rd__lFQO AA0kH0V AA05EmptyH0V AA08CircularkhJ0V AA14_PaddingLayoutV AA4TextV AA30_EnvironmentKeyWritingModifierV AA0P9AlignmentO AA010_FlexFrameO0V AA011_BackgroundjT0V AA5ColorV AA11_ClipEffectV AA16RoundedRectangleV AA024_SafeAreaRegionsIgnoringO0V
++ _symbolic _____yAAy_____y_____yAAy_____y_____y_____AEG______Qo______G_AAyAAyAAy__________y_____GG_____GAIGtGGAIG_____y_____GG 7SwiftUI15ModifiedContentV AA6VStackV AA9TupleViewV AA0G0PAAE08progressG5StyleyQrqd__AA08ProgressgI0Rd__lFQO AA0jG0V AA05EmptyG0V AA08CircularjgI0V AA14_PaddingLayoutV AA4TextV AA30_EnvironmentKeyWritingModifierV AA0O9AlignmentO AA010_FlexFrameN0V AA011_BackgroundiS0V AA5ColorV
++ _symbolic _____yS2i_____y_____ySay_____GSi_____G_SSQo_G 10PodcastsUI30AsyncSelectionConfirmingPickerV 05SwiftB04ViewPADE18navigationBarTitleyQrqd__SyRd__lFQO AD7ForEachV So21MTPodcastEpisodeLimitV AD4TextV
++ _symbolic _____yS2i_____y_____ySay_____GSi_____G_SSQo__GSg 10PodcastsUI30AsyncSelectionConfirmingPickerV25ConfirmationConfigurationV 05SwiftB04ViewPAFE18navigationBarTitleyQrqd__SyRd__lFQO AF7ForEachV So21MTPodcastEpisodeLimitV AF4TextV
++ _symbolic _____ySSSgG 7SwiftUI10AppStorageV
++ _symbolic _____yScTyyt______pGSgG 7SwiftUI5StateV s5ErrorP
++ _symbolic _____ySo8NSNumberCG 9JetEngine13PreferenceKeyV
++ _symbolic _____y_____ABG 7SwiftUI12ProgressViewV AA05EmptyD0V
++ _symbolic _____y_____G 7SwiftUI11_ClipEffectV AA16RoundedRectangleV
++ _symbolic _____y_____G 7SwiftUI16_OverlayModifierV 08PodcastsB0021DownloadPickerLoadingC0V
++ _symbolic _____y_____G s22KeyedDecodingContainerV 10PodcastsUI22EpisodeLimitSuggestionV10CodingKeys33_5C037C71CDD72550DE41EDE80739105ELLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 10PodcastsUI37LibraryStorageTipSuggestedLimitIntentV10CodingKeys33_71FEE9C25A6600A03A76B92DD0D70599LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 10PodcastsUI22EpisodeLimitSuggestionV10CodingKeys33_5C037C71CDD72550DE41EDE80739105ELLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 10PodcastsUI37LibraryStorageTipSuggestedLimitIntentV10CodingKeys33_71FEE9C25A6600A03A76B92DD0D70599LLO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 9JetEngine22NativeIntentDispatcherV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC So18NSNotificationNamea
++ _symbolic _____y_____G s23_ContiguousArrayStorageC s6UInt64V
++ _symbolic _____y_____Sg_G ScS12ContinuationV 18PodcastsFoundation26EpisodeLimitRecommendationV
++ _symbolic _____y_____Sg_GSg ScS12ContinuationV 18PodcastsFoundation26EpisodeLimitRecommendationV
++ _symbolic _____y_____Sg__G ScS12ContinuationV11YieldResultO 18PodcastsFoundation26EpisodeLimitRecommendationV
++ _symbolic _____y_____Sg__G ScS12ContinuationV15BufferingPolicyO 18PodcastsFoundation26EpisodeLimitRecommendationV
++ _symbolic _____y_____Sg_____G 18PodcastsFoundation24RepublishingValueSubjectC AA26EpisodeLimitRecommendationV s5NeverO
++ _symbolic _____y_____Sg_____G 7Combine12AnyPublisherV 18PodcastsFoundation26EpisodeLimitRecommendationV s5NeverO
++ _symbolic _____y___________yACyACy_____y_____yACy_____y_____y_____AGG______Qo______G_ACyACyACy__________y_____GG_____GAKGtGGAKG_____y_____GG_____y_____GGG 7SwiftUI13_VariadicViewO4TreeV AA13_HStackLayoutV AA15ModifiedContentV AA6VStackV AA05TupleD0V AA0D0PAAE08progressD5StyleyQrqd__AA08ProgressdM0Rd__lFQO AA0nD0V AA05EmptyD0V AA08CircularndM0V AA08_PaddingG0V AA4TextV AA30_EnvironmentKeyWritingModifierV AA0R9AlignmentO AA010_FlexFrameG0V AA011_BackgroundmV0V AA5ColorV AA11_ClipEffectV AA16RoundedRectangleV
++ _symbolic _____y___________y_____y_____y_____y_____AFG______Qo______G_ADyADyADy__________y_____GG_____GAJGtGG 7SwiftUI13_VariadicViewO4TreeV AA13_VStackLayoutV AA05TupleD0V AA15ModifiedContentV AA0D0PAAE08progressD5StyleyQrqd__AA08ProgressdL0Rd__lFQO AA0mD0V AA05EmptyD0V AA08CircularmdL0V AA08_PaddingG0V AA4TextV AA30_EnvironmentKeyWritingModifierV AA0Q9AlignmentO AA010_FlexFrameG0V
++ _symbolic _____y______y_____Sg_____GSo17OS_dispatch_queueCG 7Combine10PublishersO9ReceiveOnV 18PodcastsFoundation24RepublishingValueSubjectC AF26EpisodeLimitRecommendationV s5NeverO
++ _symbolic _____y_____yAAyAAyAAy_____y_____yAAy_____y_____y_____AFG______Qo______G_AAyAAyAAy__________y_____GG_____GAJGtGGAJG_____y_____GG_____y_____GGGAQG 7SwiftUI15ModifiedContentV AA6HStackV AA6VStackV AA9TupleViewV AA0H0PAAE08progressH5StyleyQrqd__AA08ProgresshJ0Rd__lFQO AA0kH0V AA05EmptyH0V AA08CircularkhJ0V AA14_PaddingLayoutV AA4TextV AA30_EnvironmentKeyWritingModifierV AA0P9AlignmentO AA010_FlexFrameO0V AA011_BackgroundjT0V AA5ColorV AA11_ClipEffectV AA16RoundedRectangleV
++ _symbolic _____y_____yAByAByABy_____yAByAByABy_____y_____yABy_____y_____y_____AGG______Qo______G_AByAByABy__________y_____GG_____GAKGtGGAKG_____y_____GG_____y_____GGGARG_____GAZG_____GG 7SwiftUI14GeometryReaderV AA15ModifiedContentV AA6HStackV AA6VStackV AA9TupleViewV AA0J0PAAE08progressJ5StyleyQrqd__AA08ProgressjL0Rd__lFQO AA0mJ0V AA05EmptyJ0V AA08CircularmjL0V AA14_PaddingLayoutV AA4TextV AA30_EnvironmentKeyWritingModifierV AA0R9AlignmentO AA010_FlexFrameQ0V AA011_BackgroundlV0V AA5ColorV AA11_ClipEffectV AA16RoundedRectangleV AA024_SafeAreaRegionsIgnoringQ0V AA14_OpacityEffectV
++ _symbolic _____y_____yAByABy_____y_____yABy_____y_____y_____AFG______Qo______G_AByAByABy__________y_____GG_____GAJGtGGAJG_____y_____GG_____y_____GGG 7SwiftUI6HStackV AA15ModifiedContentV AA6VStackV AA9TupleViewV AA0H0PAAE08progressH5StyleyQrqd__AA08ProgresshJ0Rd__lFQO AA0kH0V AA05EmptyH0V AA08CircularkhJ0V AA14_PaddingLayoutV AA4TextV AA30_EnvironmentKeyWritingModifierV AA0P9AlignmentO AA010_FlexFrameO0V AA011_BackgroundjT0V AA5ColorV AA11_ClipEffectV AA16RoundedRectangleV
++ _symbolic _____y_____yS2i_____y_____ySay_____GSi_____G_SSQo_G_____y_____ySiAHG_Qo_G 7SwiftUI19_ConditionalContentV 08PodcastsB030AsyncSelectionConfirmingPickerV AA4ViewPAAE18navigationBarTitleyQrqd__SyRd__lFQO AA7ForEachV So21MTPodcastEpisodeLimitV AA4TextV AhAE12labelsHiddenQryFQO AD0ghI0V
++ _symbolic _____y_____yS2i_____y_____ySay_____GSi_____G_SSQo_G_____y_____ySiAHG_Qo__G 7SwiftUI19_ConditionalContentV7StorageO 08PodcastsB030AsyncSelectionConfirmingPickerV AA4ViewPAAE18navigationBarTitleyQrqd__SyRd__lFQO AA7ForEachV So21MTPodcastEpisodeLimitV AA4TextV AjAE12labelsHiddenQryFQO AF0hiJ0V
++ _symbolic _____y_____y_____ABG______Qo_ 7SwiftUI4ViewPAAE08progressC5StyleyQrqd__AA08ProgresscE0Rd__lFQO AA0fC0V AA05EmptyC0V AA08CircularfcE0V
++ _symbolic _____y_____y_____yAAy_____y_____y_____AEG______Qo______G_AAyAAyAAy__________y_____GG_____GAIGtGGAIG 7SwiftUI15ModifiedContentV AA6VStackV AA9TupleViewV AA0G0PAAE08progressG5StyleyQrqd__AA08ProgressgI0Rd__lFQO AA0jG0V AA05EmptyG0V AA08CircularjgI0V AA14_PaddingLayoutV AA4TextV AA30_EnvironmentKeyWritingModifierV AA0O9AlignmentO AA010_FlexFrameN0V
++ _symbolic _____y_____y_____yABy_____y_____y_____q_q0_G_Qo_AEGABy_____yAE_Qo_AEGGG_q_Qo_ 7SwiftUI4ViewPAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AA5GroupV AA19_ConditionalContentV AcAE5alert11isPresented7contentQrAA7BindingVySbG_AA5AlertVyXEtFQO AA6PickerV AA4TextV AcAE11actionSheetAlMQrAP_AA06ActionT0VyXEtFQO
++ _symbolic _____y_____y_____yS2i_____y_____ySay_____GSi_____G_SSQo_G_____y_____ySiAIG_Qo_GG 7SwiftUI5GroupV AA19_ConditionalContentV 08PodcastsB030AsyncSelectionConfirmingPickerV AA4ViewPAAE18navigationBarTitleyQrqd__SyRd__lFQO AA7ForEachV So21MTPodcastEpisodeLimitV AA4TextV AjAE12labelsHiddenQryFQO AF0hiJ0V
++ _symbolic _____y_____y_____y_____ACG______Qo______G 7SwiftUI15ModifiedContentV AA4ViewPAAE08progressE5StyleyQrqd__AA08ProgresseG0Rd__lFQO AA0hE0V AA05EmptyE0V AA08CircularheG0V AA14_PaddingLayoutV
++ _symbolic _____y_____y_____y_____ACG______Qo______G_AAyAAyAAy__________y_____GG_____GAGGt 7SwiftUI15ModifiedContentV AA4ViewPAAE08progressE5StyleyQrqd__AA08ProgresseG0Rd__lFQO AA0hE0V AA05EmptyE0V AA08CircularheG0V AA14_PaddingLayoutV AA4TextV AA30_EnvironmentKeyWritingModifierV AA0M9AlignmentO AA010_FlexFrameL0V
++ _symbolic _____y_____y_____y__________y__________y_____y_____y______Qo_______Qo__SiQo_AAyAAyAE_____y_____GG_____GGG_Qo______y_____GG 7SwiftUI15ModifiedContentV AA4ViewP8SettingsE22settingsListAppearanceQryFQO AA0H0V s5NeverO AA7SectionV AA4TextV AeAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AeAE11pickerStyleyQrqd__AA06PickerR0Rd__lFQO AeAE12labelsHiddenQryFQO 08PodcastsB0012AutoDownloadS0V AA06InlinesR0V AA30_EnvironmentKeyWritingModifierV AA13OpenURLActionV AA31AccessibilityAttachmentModifierV AA16_OverlayModifierV AV0xS14LoadingOverlayV
++ _symbolic _____y_____y_____y_____yS2i_____y_____ySay_____GSi_____G_SSQo_G_____y_____ySiAIG_Qo_GG_SiQo_ 7SwiftUI4ViewPAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AA5GroupV AA19_ConditionalContentV 08PodcastsB030AsyncSelectionConfirmingPickerV AcAE18navigationBarTitleyQrqd__SyRd__lFQO AA7ForEachV So21MTPodcastEpisodeLimitV AA4TextV AcAE12labelsHiddenQryFQO AK0mnO0V
++ _symbolic _____y_____y_____y_____y_____y_____AEG______Qo______G_ACyACyACy__________y_____GG_____GAIGtGG 7SwiftUI6VStackV AA9TupleViewV AA15ModifiedContentV AA0E0PAAE08progressE5StyleyQrqd__AA08ProgresseI0Rd__lFQO AA0jE0V AA05EmptyE0V AA08CircularjeI0V AA14_PaddingLayoutV AA4TextV AA30_EnvironmentKeyWritingModifierV AA0O9AlignmentO AA010_FlexFrameN0V
++ _symbolic _____y_____yxq_q0__GSgG 7SwiftUI5StateV 08PodcastsB030AsyncSelectionConfirmingPickerV25ConfirmationConfigurationV
++ _symbolic _____yq_G 7SwiftUI5StateV
++ _symbolic _____yq_G 7SwiftUI7BindingV
++ _symbolic _____yxq_q0_G 10PodcastsUI30AsyncSelectionConfirmingPickerV
++ _symbolic _____yxq_q0__G 10PodcastsUI30AsyncSelectionConfirmingPickerV16ConfirmationTextV
++ _symbolic _____yxq_q0__Gxc 10PodcastsUI30AsyncSelectionConfirmingPickerV16ConfirmationTextV
++ _symbolic xSgq__q_tYac
+- _block_copy_helper.52
+- _block_copy_helper.58
+- _block_copy_helper.59
+- _block_copy_helper.64
+- _block_copy_helper.76
+- _block_copy_helper.81
+- _block_descriptor.54
+- _block_descriptor.60
+- _block_descriptor.61
+- _block_descriptor.66
+- _block_descriptor.78
+- _block_descriptor.83
+- _block_destroy_helper.53
+- _block_destroy_helper.59
+- _block_destroy_helper.60
+- _block_destroy_helper.65
+- _block_destroy_helper.77
+- _block_destroy_helper.82
+- _get_witness_table 10Foundation19AttributedStringKeyRzlAA15AttributeScopesO0A10AttributesV04LinkE0OAaBHPyHC.74
+- _get_witness_table 7SwiftUI14NavigationLinkVy08PodcastsB030AutomaticallyDownloadCellStackVAD04AutoG10PickerViewVGAA0L0HPyHC.37
+- _get_witness_table 7SwiftUI19_ConditionalContentVyAA6VStackVy08PodcastsB0025AutomaticallyDownloadCellD0VGAA6HStackVyAHGGAA4ViewHPAiaNHPyHC_AlaNHPyHCHC.77
+- _get_witness_table 7SwiftUI5GroupVyAA9TupleViewVyAA4TextV_AA6SpacerVSgAGSgtGGAA0E0HPAlaNHPyHC_HC.78
+- _get_witness_table qd__7SwiftUI4ViewHD2_AaBP8SettingsE22settingsListAppearanceQryFQOyAA0F0Vys5NeverOAA7SectionVyAA4TextVAcAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQOyAcAE11pickerStyleyQrqd__AA06PickerP0Rd__lFQOyAcAE12labelsHiddenQryFQOy08PodcastsB0012AutoDownloadQ0V_Qo__AA06InlineqP0VQo__SiQo_AA15ModifiedContentVyA1_yAmA30_EnvironmentKeyWritingModifierVyAA13OpenURLActionVGGAA31AccessibilityAttachmentModifierVGGG_Qo_HO.35
+- _get_witness_table qd__7SwiftUI4ViewHD2_AaBP8SettingsE22settingsListAppearanceQryFQOyAA0F0Vys5NeverOAA7SectionVyAA4TextVAcAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQOyAcAE11pickerStyleyQrqd__AA06PickerP0Rd__lFQOyAcAE12labelsHiddenQryFQOy08PodcastsB0012AutoDownloadQ0V_Qo__AA06InlineqP0VQo__SiQo_AA15ModifiedContentVyA1_yAmA30_EnvironmentKeyWritingModifierVyAA13OpenURLActionVGGAA31AccessibilityAttachmentModifierVGGG_Qo_HOTm
+- _get_witness_table qd__7SwiftUI4ViewHD2_AaBPAAE12labelsHiddenQryFQOy08PodcastsB025SelectionConfirmingPickerVySiAcAE18navigationBarTitleyQrqd__SyRd__lFQOyAA7ForEachVySaySo21MTPodcastEpisodeLimitVGSiAA4TextVG_SSQo_G_Qo_HO.36
+- _objectdestroy.34Tm
+- _objectdestroy.50Tm
+CStrings:
++ ",\n    condition: "
++ "Checking for episodes that may be deleted by this change."
++ "Computing episode limit suggestion cancelled"
++ "Computing titles from configuration state. State: %s"
++ "Confirmation state computation complete."
++ "Confirmation task was completed before computation finished, won't show confirmation"
++ "Contradictory frame constraints specified."
++ "Delaying confirmation UI by %lluns..."
++ "Determined confirmation state - yielding for other tasks. State: %s"
++ "Encountered fatal error to computing episode limit suggestion: %s"
++ "EpisodeLimitSuggestion {\n    retentionPolicy: "
++ "EpisodeLimitSuggestion(retentionPolicy: "
++ "Failed to calculate the number of episodes impacted, skipping confirmation."
++ "Issuing retention policy change recommendation: %s"
++ "PFAnalyticsChannel"
++ "Received episode limit suggestion from the JS layer: %s"
++ "Recommending %s episode level"
++ "Recommending hiding tip"
++ "Showing confirmation sheet."
++ "Starting task to compute confirmation state..."
++ "Storage distribution: %s"
++ "Task cancelled, skipping confirmation display"
++ "This change does not require confirmation - applying."
++ "Unable to compute dependent information for determining the storage tip threshold. The tip will not be displayed."
++ "Unexpectedly exited all observer loops without task cancellation: %{bool}d, %{bool}d, %{bool}d"
++ "Updating confirmation UI for titles..."
++ "Updating library in response to defaults key: %s"
++ "Updating tip recommendations in response to foreground"
++ "Updating tip recommendations in response to new storage distribution"
++ "Using UserDefault override value for storage tip level: %lld"
++ "_TtC10PodcastsUI39JSLibraryStorageRecommendationsProvider"
++ "_lastDismissedOSVersion"
++ "_lastDismissedRestoreToken"
++ "always"
++ "debug.ForceAutodownloadSpinner.duration"
++ "debug.tips.EpisodeLimitRecommendation"
++ "debug.tips.EpisodeLimitRecommendationDisplayCondition"
++ "int64ValueSafe"
++ "isRunningOnDesktop"
++ "managedAssetsDirectoryURL"
++ "mediaLibrary"
++ "mediaSpaceCalculator"
++ "never"
++ "objectGraph"
++ "observersTask"
++ "operatingSystemVersionString"
++ "previousIgnoredStorage"
++ "restore"
++ "spaceDistribution"
++ "storageAvailable"
++ "streamContinuation"
++ "suggestedEpisodeLimit"
++ "suggestedEpisodeLimitPublisher"
++ "suggestedEpisodeLimitStream"
++ "suggestedEpisodeSubject"
++ "updateTranscriptInformation:transcriptSource:"
++ "upgrade"
++ "v24@0:8@\"PFAnalyticsEvent\"16"
++ "valueForDatabaseProperty:"
+
+```

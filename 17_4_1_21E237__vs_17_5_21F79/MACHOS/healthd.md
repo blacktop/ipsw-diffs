@@ -1,0 +1,347 @@
+## healthd
+
+> `/System/Library/Frameworks/HealthKit.framework/healthd`
+
+```diff
+
+-4146.4.18.0.0
+-  __TEXT.__text: 0x2d0
+-  __TEXT.__auth_stubs: 0x110
++4146.5.13.0.0
++  __TEXT.__text: 0x5aac
++  __TEXT.__auth_stubs: 0x8b0
+   __TEXT.__objc_stubs: 0x180
+-  __TEXT.__cstring: 0x69
++  __TEXT.__objc_methlist: 0x88
++  __TEXT.__cstring: 0x343
+   __TEXT.__oslogstring: 0x7a
+-  __TEXT.__objc_methname: 0xff
+-  __TEXT.__unwind_info: 0x50
+-  __DATA_CONST.__auth_got: 0x90
+-  __DATA_CONST.__got: 0x10
++  __TEXT.__const: 0x360
++  __TEXT.__objc_methname: 0x3a9
++  __TEXT.__constg_swiftt: 0x12c
++  __TEXT.__swift5_typeref: 0xd1
++  __TEXT.__swift5_reflstr: 0x12b
++  __TEXT.__swift5_fieldmd: 0x1e8
++  __TEXT.__swift5_types: 0x14
++  __TEXT.__objc_classname: 0x2c
++  __TEXT.__objc_methtype: 0x3b
++  __TEXT.__swift5_assocty: 0x18
++  __TEXT.__swift5_proto: 0x30
++  __TEXT.__unwind_info: 0x238
++  __TEXT.__eh_frame: 0x3b0
++  __DATA_CONST.__auth_got: 0x460
++  __DATA_CONST.__got: 0xf0
++  __DATA_CONST.__auth_ptr: 0x18
++  __DATA_CONST.__const: 0x250
+   __DATA_CONST.__cfstring: 0xa0
++  __DATA_CONST.__objc_classlist: 0x18
++  __DATA_CONST.__objc_protolist: 0x20
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_classrefs: 0x28
+-  __DATA.__objc_selrefs: 0x60
++  __DATA_CONST.__objc_protorefs: 0x10
++  __DATA_CONST.__objc_classrefs: 0x68
++  __DATA.__objc_const: 0x560
++  __DATA.__objc_selrefs: 0x110
++  __DATA.__objc_data: 0x2f0
++  __DATA.__data: 0x340
++  __DATA.__common: 0x60
++  __DATA.__bss: 0x600
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/Frameworks/HealthKit.framework/HealthKit
++  - /System/Library/Frameworks/OSLog.framework/OSLog
+   - /System/Library/PrivateFrameworks/HealthDaemon.framework/HealthDaemon
+   - /System/Library/PrivateFrameworks/PowerLog.framework/PowerLog
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libnetwork.dylib
+   - /usr/lib/libobjc.A.dylib
+-  Functions: 2
+-  Symbols:   28
+-  CStrings:  18
++  - /usr/lib/swift/libswiftCore.dylib
++  - /usr/lib/swift/libswiftCoreFoundation.dylib
++  - /usr/lib/swift/libswiftDarwin.dylib
++  - /usr/lib/swift/libswiftDispatch.dylib
++  - /usr/lib/swift/libswiftOSLog.dylib
++  - /usr/lib/swift/libswiftObjectiveC.dylib
++  - /usr/lib/swift/libswiftXPC.dylib
++  - /usr/lib/swift/libswiftos.dylib
++  Functions: 132
++  Symbols:   226
++  CStrings:  95
+ 
+Symbols:
++ _$s10Foundation11JSONEncoderC20DateEncodingStrategyO7iso8601yA2EmFWC
++ _$s10Foundation11JSONEncoderC20DateEncodingStrategyOMa
++ _$s10Foundation11JSONEncoderC20dateEncodingStrategyAC04DatedE0OvsTj
++ _$s10Foundation11JSONEncoderC6encodeyAA4DataVxKSERzlFTj
++ _$s10Foundation11JSONEncoderCACycfc
++ _$s10Foundation11JSONEncoderCMa
++ _$s10Foundation11JSONEncoderCMn
++ _$s10Foundation13__DataStorageC5bytes6length4copy11deallocator6offsetACSvSg_SiSbySv_SitcSgSitcfc
++ _$s10Foundation13__DataStorageC5bytes6lengthACSVSg_Sitcfc
++ _$s10Foundation13__DataStorageC6_bytesSvSgvg
++ _$s10Foundation13__DataStorageC6lengthACSi_tcfc
++ _$s10Foundation13__DataStorageC7_lengthSivg
++ _$s10Foundation13__DataStorageC7_offsetSivg
++ _$s10Foundation13__DataStorageCMa
++ _$s10Foundation15ContiguousBytesMp
++ _$s10Foundation15ContiguousBytesP010withUnsafeC0yqd__qd__SWKXEKlFTj
++ _$s10Foundation22_convertErrorToNSErrorySo0E0Cs0C0_pF
++ _$s10Foundation22_convertNSErrorToErrorys0E0_pSo0C0CSgF
++ _$s10Foundation3URLV19_bridgeToObjectiveCSo5NSURLCyF
++ _$s10Foundation3URLV36_unconditionallyBridgeFromObjectiveCyACSo5NSURLCSgFZ
++ _$s10Foundation3URLV4path14percentEncodedSSSb_tF
++ _$s10Foundation3URLVMa
++ _$s10Foundation3URLVMn
++ _$s10Foundation4DataV10LargeSliceV21ensureUniqueReferenceyyF
++ _$s10Foundation4DataV14RangeReferenceCMa
++ _$s10Foundation4DataV15_RepresentationO15replaceSubrange_4with5countySnySiG_SVSgSitF
++ _$s10Foundation4DataV15_RepresentationO6append10contentsOfySW_tF
++ _$s10Foundation4DataV15_RepresentationON
++ _$s10Foundation4DataVAA0B8ProtocolAAMc
++ _$s10Foundation4DataVN
++ _$s10Foundation4DateV026timeIntervalSinceReferenceB0Sdvg
++ _$s10Foundation4DateV18addingTimeIntervalyACSdF
++ _$s10Foundation4DateV19_bridgeToObjectiveCSo6NSDateCyF
++ _$s10Foundation4DateV1loiySbAC_ACtFZ
++ _$s10Foundation4DateV36_unconditionallyBridgeFromObjectiveCyACSo6NSDateCSgFZ
++ _$s10Foundation4DateVACycfC
++ _$s10Foundation4DateVMa
++ _$s10Foundation4DateVMn
++ _$s10Foundation4DateVSEAAMc
++ _$s10Foundation4DateVSeAAMc
++ _$s8Dispatch0A3QoSV13userInitiatedACvgZ
++ _$s8Dispatch0A3QoSVMa
++ _$s8RawValueSYTl
++ _$sBOWV
++ _$sBi64_WV
++ _$sBoWV
++ _$sSE6encode2toys7Encoder_p_tKFTq
++ _$sSEMp
++ _$sSH13_rawHashValue4seedS2i_tFTq
++ _$sSH4hash4intoys6HasherVz_tFTq
++ _$sSH9hashValueSivgTq
++ _$sSHMp
++ _$sSHSQTb
++ _$sSQ2eeoiySbx_xtFZTq
++ _$sSQMp
++ _$sSS10FoundationE19_bridgeToObjectiveCSo8NSStringCyF
++ _$sSS10FoundationE36_unconditionallyBridgeFromObjectiveCySSSo8NSStringCSgFZ
++ _$sSS4hash4intoys6HasherVz_tF
++ _$sSS5countSivg
++ _$sSS8UTF8ViewV13_foreignCountSiyF
++ _$sSS8UTF8ViewV13_foreignIndex5afterSS0D0VAF_tF
++ _$sSS8UTF8ViewV13_foreignIndex_8offsetBySS0D0VAF_SitF
++ _$sSS8UTF8ViewV17_foreignSubscript8positions5UInt8VSS5IndexV_tF
++ _$sSS8UTF8ViewVN
++ _$sSS9UTF16ViewV5index_8offsetBySS5IndexVAF_SitF
++ _$sSSN
++ _$sSSSysMc
++ _$sSSs7CVarArg10FoundationMc
++ _$sSY8rawValue03RawB0QzvgTq
++ _$sSY8rawValuexSg03RawB0Qz_tcfCTq
++ _$sSYMp
++ _$sSYsSERzSS8RawValueSYRtzrlE6encode2toys7Encoder_p_tKF
++ _$sSYsSeRzSS8RawValueSYRtzrlE4fromxs7Decoder_p_tKcfC
++ _$sSa10FoundationE36_unconditionallyBridgeFromObjectiveCySayxGSo7NSArrayCSgFZ
++ _$sSaMa
++ _$sSayxGSTsMc
++ _$sSe4fromxs7Decoder_p_tKcfCTq
++ _$sSeMp
++ _$sSo10OSLogStoreC0A0E10getEntries4with2at8matchings11AnySequenceVySo0A5EntryCGSo0A17EnumeratorOptionsV_So0A8PositionCSgSo11NSPredicateCSgtKF
++ _$sSo11NSPredicateC10FoundationE6format_ABSSh_s7CVarArg_pdtcfC
++ _$sSo12NSFileHandleC10FoundationE5write10contentsOfyx_tKAC12DataProtocolRzlF
++ _$sSo17OS_dispatch_queueC8DispatchE20AutoreleaseFrequencyO8workItemyA2EmFWC
++ _$sSo17OS_dispatch_queueC8DispatchE20AutoreleaseFrequencyOMa
++ _$sSo17OS_dispatch_queueC8DispatchE4sync7executexxyKXE_tKlF
++ _$sSo24OS_dispatch_queue_serialC8DispatchE10AttributesVMa
++ _$sSo24OS_dispatch_queue_serialC8DispatchE10AttributesVs10SetAlgebraACMc
++ _$sSo24OS_dispatch_queue_serialC8DispatchE5label3qos10attributes20autoreleaseFrequency6targetABSS_AC0E3QoSVAbCE10AttributesVSo0a1_b1_C0CACE011AutoreleaseJ0OANSgtcfC
++ _$sSo8NSObjectCs7CVarArg10ObjectiveCMc
++ _$sSqMa
++ _$sSy10FoundationE20replacingOccurrences2of4with7options5rangeSSqd___qd_0_So22NSStringCompareOptionsVSnySS5IndexVGSgtSyRd__SyRd_0_r0_lF
++ _$sSy10FoundationE8containsySbqd__SyRd__lF
++ _$ss10SetAlgebraPyxqd__ncSTRd__7ElementQyd__ACRtzlufCTj
++ _$ss11_StringGutsV8copyUTF84intoSiSgSrys5UInt8VG_tF
++ _$ss12StaticStringVN
++ _$ss13_StringObjectV10sharedUTF8SRys5UInt8VGvg
++ _$ss15_AnySequenceBoxC13_makeIterators0aE0VyxGyFTj
++ _$ss19_AnyIteratorBoxBaseC4nextxSgyFTj
++ _$ss21_findStringSwitchCase5cases6stringSiSays06StaticB0VG_SStF
++ _$ss22KeyedDecodingContainerV15decodeIfPresent_6forKeyqd__Sgqd__m_xtKSeRd__lF
++ _$ss22KeyedDecodingContainerV6decode_6forKeyS2Sm_xtKF
++ _$ss22KeyedDecodingContainerV6decode_6forKeyS2im_xtKF
++ _$ss22KeyedDecodingContainerV6decode_6forKeyqd__qd__m_xtKSeRd__lF
++ _$ss22KeyedDecodingContainerVMa
++ _$ss22KeyedEncodingContainerV15encodeIfPresent_6forKeyyqd__Sg_xtKSERd__lF
++ _$ss22KeyedEncodingContainerV6encode_6forKeyySS_xtKF
++ _$ss22KeyedEncodingContainerV6encode_6forKeyySi_xtKF
++ _$ss22KeyedEncodingContainerV6encode_6forKeyyqd___xtKSERd__lF
++ _$ss22KeyedEncodingContainerVMa
++ _$ss23CustomStringConvertibleMp
++ _$ss23CustomStringConvertibleP11descriptionSSvgTq
++ _$ss23_ContiguousArrayStorageCMa
++ _$ss27_stringCompareWithSmolCheck__9expectingSbs11_StringGutsV_ADs01_G16ComparisonResultOtF
++ _$ss28CustomDebugStringConvertibleMp
++ _$ss28CustomDebugStringConvertibleP16debugDescriptionSSvgTq
++ _$ss6HasherV5_seedABSi_tcfC
++ _$ss6HasherV8_combineyySuF
++ _$ss6HasherV9_finalizeSiyF
++ _$ss7CVarArgMp
++ _$ss7DecoderP9container7keyedBys22KeyedDecodingContainerVyqd__Gqd__m_tKs9CodingKeyRd__lFTj
++ _$ss7EncoderP9container7keyedBys22KeyedEncodingContainerVyqd__Gqd__m_ts9CodingKeyRd__lFTj
++ _$ss9CodingKeyMp
++ _$ss9CodingKeyP11stringValueSSvgTq
++ _$ss9CodingKeyP11stringValuexSgSS_tcfCTq
++ _$ss9CodingKeyP8intValueSiSgvgTq
++ _$ss9CodingKeyP8intValuexSgSi_tcfCTq
++ _$ss9CodingKeyPs23CustomStringConvertibleTb
++ _$ss9CodingKeyPs28CustomDebugStringConvertibleTb
++ _$ss9CodingKeyPsE11descriptionSSvg
++ _$ss9CodingKeyPsE16debugDescriptionSSvg
++ _$sytN
++ _OBJC_CLASS_$_NSDataDetector
++ _OBJC_CLASS_$_NSDate
++ _OBJC_CLASS_$_NSFileHandle
++ _OBJC_CLASS_$_NSFileManager
++ _OBJC_CLASS_$_NSObject
++ _OBJC_CLASS_$_NSPredicate
++ _OBJC_CLASS_$_OSLogEntryLog
++ _OBJC_CLASS_$_OSLogStore
++ _OBJC_CLASS_$_OS_dispatch_queue_serial
++ _OBJC_METACLASS_$_NSObject
++ __Block_copy
++ __Block_release
++ ___chkstk_darwin
++ __objc_autoreleasePoolPop
++ __objc_autoreleasePoolPush
++ __objc_empty_cache
++ __swiftEmptyArrayStorage
++ __swift_FORCE_LOAD_$_swiftCoreFoundation
++ __swift_FORCE_LOAD_$_swiftDarwin
++ __swift_FORCE_LOAD_$_swiftDispatch
++ __swift_FORCE_LOAD_$_swiftFoundation
++ __swift_FORCE_LOAD_$_swiftOSLog
++ __swift_FORCE_LOAD_$_swiftObjectiveC
++ __swift_FORCE_LOAD_$_swiftXPC
++ __swift_FORCE_LOAD_$_swiftos
++ __swift_stdlib_reportUnimplementedInitializer
++ _memcpy
++ _objc_allocWithZone
++ _objc_autorelease
++ _objc_msgSendSuper2
++ _objc_opt_self
++ _objc_release
++ _objc_release_x24
++ _objc_release_x25
++ _objc_release_x26
++ _objc_release_x27
++ _objc_release_x28
++ _objc_release_x8
++ _objc_release_x9
++ _objc_retainAutoreleasedReturnValue
++ _objc_retain_x20
++ _objc_retain_x23
++ _objc_retain_x24
++ _objc_retain_x28
++ _objc_retain_x8
++ _swift_allocObject
++ _swift_bridgeObjectRelease
++ _swift_bridgeObjectRetain
++ _swift_deallocPartialClassInstance
++ _swift_deletedMethodError
++ _swift_dynamicCast
++ _swift_dynamicCastObjCClass
++ _swift_dynamicCastObjCProtocolConditional
++ _swift_errorRelease
++ _swift_getExistentialTypeMetadata
++ _swift_getObjCClassFromMetadata
++ _swift_getObjCClassMetadata
++ _swift_getObjectType
++ _swift_getSingletonMetadata
++ _swift_getWitnessTable
++ _swift_initStaticObject
++ _swift_isUniquelyReferenced_nonNull_native
++ _swift_isaMask
++ _swift_release
++ _swift_release_n
++ _swift_retain
++ _swift_updateClassMetadata2
++ _swift_willThrow
+CStrings:
++ ".cxx_destruct"
++ "@\"NSArray\"16@0:8"
++ "@\"NSString\"16@0:8"
++ "@16@0:8"
++ "@72@0:8@16@24@32@40@48d56^@64"
++ "@80@0:8@16@24@32@40q48q56@64@72"
++ "B40@0:8@16^@24@?32"
++ "OSLogEntryFromProcess"
++ "OSLogEntryWithPayload"
++ "Q16@0:8"
++ "T@\"NSArray\",R,N"
++ "T@\"NSString\",R,N"
++ "TQ,R,N"
++ "Ti,R,N"
++ "_TtC7healthd14LogEntryWriter"
++ "_TtC7healthd8LogEntry"
++ "activityIdentifier"
++ "archiveStartDate"
++ "category"
++ "closeAndReturnError:"
++ "com.apple.HealthKit"
++ "com.apple.HealthKit.HealthCustomerDiagnosticExtension.writer.queue"
++ "components"
++ "composedMessage"
++ "createFileAtPath:contents:attributes:"
++ "dataDetector"
++ "date"
++ "dealloc"
++ "debug"
++ "default"
++ "defaultManager"
++ "deviceName"
++ "encoder"
++ "error"
++ "fault"
++ "fileHandle"
++ "fileHandleForWritingToURL:error:"
++ "fileURL"
++ "formatString"
++ "healthd.LogArchiveProcessor"
++ "healthd.LogEntry"
++ "healthd.LogEntryWriter"
++ "i16@0:8"
++ "info"
++ "init"
++ "init()"
++ "initWithArchiveStartDate:deviceName:logArchiveURL:outputFileURL:redactedToken:windowSize:error:"
++ "initWithCategory:composedMessage:date:formatString:logLevel:processIdentifier:process:subsystem:"
++ "initWithTypes:error:"
++ "isFirstSample"
++ "level"
++ "logArchiveURL"
++ "logLevel"
++ "logWriter"
++ "osStore"
++ "positionWithDate:"
++ "process"
++ "processIdentifier"
++ "queue"
++ "redactedToken"
++ "sender"
++ "storeWithURL:error:"
++ "stringByReplacingMatchesInString:options:range:withTemplate:"
++ "subsystem"
++ "subsystem == %@ AND date < %@"
++ "threadIdentifier"
++ "v16@0:8"
++ "windowSize"
++ "writeLogsToDiskFrom:error:progressHandler:"
+
+```

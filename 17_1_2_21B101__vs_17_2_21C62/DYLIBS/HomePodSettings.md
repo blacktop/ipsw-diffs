@@ -1,0 +1,518 @@
+## HomePodSettings
+
+> `/System/Library/PrivateFrameworks/HomePodSettings.framework/HomePodSettings`
+
+```diff
+
+-171.10.6.0.0
+-  __TEXT.__text: 0xe5a30
+-  __TEXT.__auth_stubs: 0x23c0
+-  __TEXT.__objc_methlist: 0x1c6c
+-  __TEXT.__const: 0xae8a
+-  __TEXT.__cstring: 0x5ec8
++171.20.7.0.0
++  __TEXT.__text: 0x10e4d8
++  __TEXT.__auth_stubs: 0x25b0
++  __TEXT.__objc_methlist: 0x1d0c
++  __TEXT.__const: 0xbaea
++  __TEXT.__cstring: 0x6a58
+   __TEXT.__oslogstring: 0x525
+   __TEXT.__ustring: 0x4
+   __TEXT.__gcc_except_tab: 0x194
+-  __TEXT.__constg_swiftt: 0x3d40
+-  __TEXT.__swift5_typeref: 0x3aad
+-  __TEXT.__swift5_reflstr: 0x1933
+-  __TEXT.__swift5_fieldmd: 0x29e8
+-  __TEXT.__swift5_builtin: 0xc8
+-  __TEXT.__swift5_proto: 0xa88
+-  __TEXT.__swift5_types: 0x384
+-  __TEXT.__swift5_capture: 0xe64
+-  __TEXT.__swift5_assocty: 0x718
+-  __TEXT.__swift5_protos: 0x7c
+-  __TEXT.__swift5_mpenum: 0x40
+-  __TEXT.__unwind_info: 0x5c74
+-  __TEXT.__eh_frame: 0x8630
++  __TEXT.__constg_swiftt: 0x47dc
++  __TEXT.__swift5_typeref: 0x42a3
++  __TEXT.__swift5_reflstr: 0x1e03
++  __TEXT.__swift5_fieldmd: 0x2da0
++  __TEXT.__swift5_builtin: 0xf0
++  __TEXT.__swift5_proto: 0xb0c
++  __TEXT.__swift5_types: 0x3c8
++  __TEXT.__swift5_capture: 0x117c
++  __TEXT.__swift5_assocty: 0x808
++  __TEXT.__swift5_protos: 0x84
++  __TEXT.__swift5_mpenum: 0x50
++  __TEXT.__unwind_info: 0x6ecc
++  __TEXT.__eh_frame: 0xabe0
+   __TEXT.__objc_classname: 0x495
+-  __TEXT.__objc_methname: 0x2d6c
++  __TEXT.__objc_methname: 0x2e54
+   __TEXT.__objc_methtype: 0xb68
+   __TEXT.__objc_stubs: 0x18a0
+-  __DATA_CONST.__got: 0x4e0
+-  __DATA_CONST.__const: 0xbd0
+-  __DATA_CONST.__objc_classlist: 0x220
++  __DATA_CONST.__got: 0x548
++  __DATA_CONST.__const: 0xbe8
++  __DATA_CONST.__objc_classlist: 0x230
+   __DATA_CONST.__objc_catlist: 0x28
+   __DATA_CONST.__objc_protolist: 0xd8
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_const: 0x6ca0
+-  __DATA_CONST.__objc_selrefs: 0xad0
++  __DATA_CONST.__objc_const: 0x71d8
++  __DATA_CONST.__objc_selrefs: 0xb18
+   __DATA_CONST.__objc_arraydata: 0x88
+-  __AUTH_CONST.__objc_const: 0x1610
++  __AUTH_CONST.__objc_const: 0x16a0
+   __AUTH_CONST.__cfstring: 0x1120
+-  __AUTH_CONST.__const: 0x9958
++  __AUTH_CONST.__const: 0xa790
+   __AUTH_CONST.__objc_intobj: 0x90
+   __AUTH_CONST.__objc_doubleobj: 0x50
+   __AUTH_CONST.__objc_dictobj: 0x50
+   __AUTH_CONST.__objc_arrayobj: 0x18
+-  __AUTH_CONST.__auth_ptr: 0x1a8
+-  __AUTH_CONST.__auth_got: 0x11f0
+-  __AUTH.__objc_data: 0x2748
+-  __AUTH.__data: 0x1b30
++  __AUTH_CONST.__auth_ptr: 0x1e8
++  __AUTH_CONST.__auth_got: 0x12e8
++  __AUTH.__objc_data: 0x2980
++  __AUTH.__data: 0x1e80
+   __DATA.__objc_protorefs: 0x88
+-  __DATA.__objc_classrefs: 0x1c8
++  __DATA.__objc_classrefs: 0x1d8
+   __DATA.__objc_superrefs: 0xa8
+   __DATA.__objc_ivar: 0xc8
+   __DATA.__objc_data: 0x230
+-  __DATA.__data: 0x4358
+-  __DATA.__bss: 0x14300
++  __DATA.__data: 0x4f48
++  __DATA.__bss: 0x15170
+   __DATA.__common: 0xb0
+   - /System/Library/Frameworks/Combine.framework/Combine
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+
+   - /System/Library/Frameworks/HomeKit.framework/HomeKit
+   - /System/Library/Frameworks/Security.framework/Security
+   - /System/Library/PrivateFrameworks/AccessibilityUtilities.framework/AccessibilityUtilities
++  - /System/Library/PrivateFrameworks/BiomePubSub.framework/BiomePubSub
+   - /System/Library/PrivateFrameworks/Coherence.framework/Coherence
+   - /System/Library/PrivateFrameworks/Coordination.framework/Coordination
+   - /System/Library/PrivateFrameworks/CoreUtils.framework/CoreUtils
+   - /System/Library/PrivateFrameworks/MediaGroups.framework/MediaGroups
+   - /System/Library/PrivateFrameworks/MobileTimer.framework/MobileTimer
++  - /System/Library/PrivateFrameworks/Rapport.framework/Rapport
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libacmobileshim.dylib
+   - /usr/lib/libobjc.A.dylib
+
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 9159
+-  Symbols:   6347
+-  CStrings:  1306
++  Functions: 10385
++  Symbols:   7212
++  CStrings:  1387
+ 
+Symbols:
++ _OBJC_CLASS_$_RPCompanionLinkClient
++ _OBJC_CLASS_$_RPCompanionLinkDevice
++ _OBJC_CLASS_$__TtC15HomePodSettings22TransportRequestObject
++ _OBJC_CLASS_$__TtC15HomePodSettings32TransportObservationUpdateObject
++ _OBJC_METACLASS_$__TtC15HomePodSettings22TransportRequestObject
++ _OBJC_METACLASS_$__TtC15HomePodSettings32TransportObservationUpdateObject
++ _OUTLINED_FUNCTION_153
++ _OUTLINED_FUNCTION_154
++ _OUTLINED_FUNCTION_155
++ _OUTLINED_FUNCTION_156
++ _OUTLINED_FUNCTION_157
++ _RPOptionSenderID
++ __CLASS_METHODS__TtC15HomePodSettings15RapportResponse
++ __CLASS_PROPERTIES__TtC15HomePodSettings15RapportResponse
++ __CLASS_PROPERTIES__TtC15HomePodSettings22TransportRequestObject
++ __CLASS_PROPERTIES__TtC15HomePodSettings32TransportObservationUpdateObject
++ __DATA__TtC15HomePodSettings22TransportRequestObject
++ __DATA__TtC15HomePodSettings32TransportObservationUpdateObject
++ __INSTANCE_METHODS__TtC15HomePodSettings15RapportResponse
++ __IVARS__TtC15HomePodSettings14ServicesRouter
++ __IVARS__TtC15HomePodSettings15RapportResponse
++ __IVARS__TtC15HomePodSettings16RapportTransport
++ __IVARS__TtC15HomePodSettings21TargetedObserverStore
++ __IVARS__TtC15HomePodSettings22TransportRequestObject
++ __IVARS__TtC15HomePodSettings23UntargetedObserverStore
++ __IVARS__TtC15HomePodSettings27RoutedRequestHandlerService
++ __IVARS__TtC15HomePodSettings32TransportObservationUpdateObject
++ __METACLASS_DATA__TtC15HomePodSettings22TransportRequestObject
++ __METACLASS_DATA__TtC15HomePodSettings32TransportObservationUpdateObject
++ __OBJC_$_CLASS_METHODS__TtC15HomePodSettings22TransportRequestObject
++ __OBJC_$_CLASS_METHODS__TtC15HomePodSettings32TransportObservationUpdateObject
++ __OBJC_$_INSTANCE_METHODS__TtC15HomePodSettings22TransportRequestObject
++ __OBJC_$_INSTANCE_METHODS__TtC15HomePodSettings32TransportObservationUpdateObject
++ __PROTOCOLS__TtC15HomePodSettings15RapportResponse
++ __PROTOCOLS__TtC15HomePodSettings15RapportResponse.1
++ __PROTOCOLS__TtC15HomePodSettings22TransportRequestObject
++ __PROTOCOLS__TtC15HomePodSettings22TransportRequestObject.2
++ __PROTOCOLS__TtC15HomePodSettings32TransportObservationUpdateObject
++ __PROTOCOLS__TtC15HomePodSettings32TransportObservationUpdateObject.2
++ ___swift_deallocate_boxed_opaque_existential_1
++ ___swift_memcpy80_8
++ ___swift_project_boxed_opaque_existential_0Tm
++ ___unnamed_4
++ _associated conformance 15HomePodSettings0C17ObservationUpdateVAA09TransportdE0AA6TargetAaDP_SE
++ _associated conformance 15HomePodSettings0C17ObservationUpdateVAA09TransportdE0AA6TargetAaDP_SH
++ _associated conformance 15HomePodSettings0C17ObservationUpdateVAA09TransportdE0AA6TargetAaDP_Se
++ _associated conformance 15HomePodSettings16ObserversCounterVyxGAA0D8CountingAA6TargetAaEP_SH
++ _associated conformance 15HomePodSettings16RapportTransportCyxGAA0E0AA6MemberAA0F9DiscoveryP_AA0eF0
++ _associated conformance 15HomePodSettings16RapportTransportCyxGAA15MemberMessagingAA0F0AaEP_s12Identifiable
++ _associated conformance 15HomePodSettings16RapportTransportCyxGAA15MemberObservingAA0F0AaEP_SH
++ _associated conformance 15HomePodSettings16RapportTransportCyxGAA15MemberObservingAA0F0AaEP_s12Identifiable
++ _associated conformance 15HomePodSettings16RapportTransportCyxGAA28ObservationLifeCycleProducerAA6MemberAaEP_AA0eJ0
++ _associated conformance 15HomePodSettings16RapportTransportCyxGAA28ObservationLifeCycleProducerAA6MemberAaEP_SH
++ _associated conformance 15HomePodSettings18RapportRequestType33_A316A8CE925FA02E853C3F1DEAB50352LLOSHAASQ
++ _associated conformance 15HomePodSettings18RapportRequestType33_A316A8CE925FA02E853C3F1DEAB50352LLOs12CaseIterableAA8AllCasessAEP_Sl
++ _associated conformance 15HomePodSettings21CallObservationUpdateVAA09TransporteF0AA6TargetAaDP_SE
++ _associated conformance 15HomePodSettings21CallObservationUpdateVAA09TransporteF0AA6TargetAaDP_SH
++ _associated conformance 15HomePodSettings21CallObservationUpdateVAA09TransporteF0AA6TargetAaDP_Se
++ _associated conformance 15HomePodSettings21TargetedObserverStoreC5Tuple33_BE79EB7B0E8C02E3C8A2962991C7E7CALLVyxq__GSHAASQ
++ _associated conformance 15HomePodSettings21TargetedObserverStoreCyxq_GAA0dE7StoringAA0E0AaEP_SH
++ _associated conformance 15HomePodSettings21TargetedObserverStoreCyxq_GAA0dE7StoringAA15ObservedElementAaEP_SH
++ _associated conformance 15HomePodSettings22ObservationUpdateScopeO10CodingKeys33_34D64FE0ACED90CFDC5548FEF0BC7754LLOyx_GSHAASQ
++ _associated conformance 15HomePodSettings22ObservationUpdateScopeO10CodingKeys33_34D64FE0ACED90CFDC5548FEF0BC7754LLOyx_Gs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 15HomePodSettings22ObservationUpdateScopeO10CodingKeys33_34D64FE0ACED90CFDC5548FEF0BC7754LLOyx_Gs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 15HomePodSettings22ObservationUpdateScopeO18TargetedCodingKeys33_34D64FE0ACED90CFDC5548FEF0BC7754LLOyx_GSHAASQ
++ _associated conformance 15HomePodSettings22ObservationUpdateScopeO18TargetedCodingKeys33_34D64FE0ACED90CFDC5548FEF0BC7754LLOyx_Gs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 15HomePodSettings22ObservationUpdateScopeO18TargetedCodingKeys33_34D64FE0ACED90CFDC5548FEF0BC7754LLOyx_Gs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 15HomePodSettings22ObservationUpdateScopeO20UntargetedCodingKeys33_34D64FE0ACED90CFDC5548FEF0BC7754LLOyx_Gs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 15HomePodSettings22ObservationUpdateScopeO20UntargetedCodingKeys33_34D64FE0ACED90CFDC5548FEF0BC7754LLOyx_Gs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 15HomePodSettings23AlarmsObservationUpdateVAA09TransporteF0AA6TargetAaDP_SE
++ _associated conformance 15HomePodSettings23AlarmsObservationUpdateVAA09TransporteF0AA6TargetAaDP_SH
++ _associated conformance 15HomePodSettings23AlarmsObservationUpdateVAA09TransporteF0AA6TargetAaDP_Se
++ _associated conformance 15HomePodSettings23TimersObservationUpdateVAA09TransporteF0AA6TargetAaDP_SE
++ _associated conformance 15HomePodSettings23TimersObservationUpdateVAA09TransporteF0AA6TargetAaDP_SH
++ _associated conformance 15HomePodSettings23TimersObservationUpdateVAA09TransporteF0AA6TargetAaDP_Se
++ _associated conformance 15HomePodSettings23UntargetedObserverStoreCyxGAA08TargetedE7StoringAA0E0AaEP_SH
++ _associated conformance 15HomePodSettings23UntargetedObserverStoreCyxGAA08TargetedE7StoringAA15ObservedElementAaEP_SH
++ _associated conformance 15HomePodSettings24ObservationRequestActionO10CodingKeys33_D5899725D81D3FD8ACAAE2205535C9EELLOyx_GSHAASQ
++ _associated conformance 15HomePodSettings24ObservationRequestActionO10CodingKeys33_D5899725D81D3FD8ACAAE2205535C9EELLOyx_Gs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 15HomePodSettings24ObservationRequestActionO10CodingKeys33_D5899725D81D3FD8ACAAE2205535C9EELLOyx_Gs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 15HomePodSettings24ObservationRequestActionO23StopObservingCodingKeys33_D5899725D81D3FD8ACAAE2205535C9EELLOyx_GSHAASQ
++ _associated conformance 15HomePodSettings24ObservationRequestActionO23StopObservingCodingKeys33_D5899725D81D3FD8ACAAE2205535C9EELLOyx_Gs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 15HomePodSettings24ObservationRequestActionO23StopObservingCodingKeys33_D5899725D81D3FD8ACAAE2205535C9EELLOyx_Gs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 15HomePodSettings24ObservationRequestActionO25UpdateObservingCodingKeys33_D5899725D81D3FD8ACAAE2205535C9EELLOyx_GSHAASQ
++ _associated conformance 15HomePodSettings24ObservationRequestActionO25UpdateObservingCodingKeys33_D5899725D81D3FD8ACAAE2205535C9EELLOyx_Gs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 15HomePodSettings24ObservationRequestActionO25UpdateObservingCodingKeys33_D5899725D81D3FD8ACAAE2205535C9EELLOyx_Gs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 15HomePodSettings27RoutedRequestHandlerServiceCyxGAA09TransportefG0AA6MemberAaEP_SH
++ _associated conformance 15HomePodSettings27TransportObservationHandlerVyxq_GAA0d6MemberF0AA0G0AaEP_SH
++ _associated conformance 15HomePodSettings27TransportObservationHandlerVyxq_GAA0d7RequestF0AA0G0AaEP_AA0dG0
++ _associated conformance 15HomePodSettings28ObservationLifeCycleResponseV0D6ResultO17UpdatedCodingKeys33_A2AFDC6B2BB6BE642392741DD9268775LLOyx__GSHAASQ
++ _associated conformance 15HomePodSettings28ObservationLifeCycleResponseV0D6ResultO17UpdatedCodingKeys33_A2AFDC6B2BB6BE642392741DD9268775LLOyx__Gs0J3KeyAAs23CustomStringConvertible
++ _associated conformance 15HomePodSettings28ObservationLifeCycleResponseV0D6ResultO17UpdatedCodingKeys33_A2AFDC6B2BB6BE642392741DD9268775LLOyx__Gs0J3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 15HomePodSettings29TransportSingleRequestHandlerVyxq_GAA0d6MemberG0AA0H0AaEP_SH
++ _block_copy_helper.106
++ _block_copy_helper.83
++ _block_copy_helper.92
++ _block_descriptor.108
++ _block_descriptor.20
++ _block_descriptor.85
++ _block_descriptor.86
++ _block_descriptor.94
++ _block_destroy_helper.107
++ _block_destroy_helper.84
++ _block_destroy_helper.93
++ _flat unique 15HomePodSettings11Observation_pq1_7FailureAaBPRts_x13ObservedValueADRtsq0_6TargetADRtsq_06UpdateG0ADRtsXP
++ _flat unique 15HomePodSettings15MemberObserving_px0D0AaBPRts_XP
++ _flat unique 15HomePodSettings22TransportMemberHandler_px0E0AaBPRts_XP
++ _flat unique 15HomePodSettings23TargetedObserverStoring_pq_15ObservedElementAaBPRts_x0E0ADRtsXP
++ _flat unique 15HomePodSettings23TransportRequestHandler_pq_6MemberAA0dgF0PRts_x0E0AaBPRtsXP
++ _flat unique 15HomePodSettings30TransportRequestHandlerService_px6MemberAaBPRts_XP
++ _generic environment 15HomePodSettings28ObservationLifeCycleProducerRzAA09TransportD6UpdateRd__r__l
++ _get_witness_table 15HomePodSettings15TransportMemberRzSHRzlAA07RapportD0CyxGAA0D0HPyHC.1
++ _keypath_get_selector_identifier
++ _keypath_get_selector_member
++ _objectdestroy.33Tm
++ _objectdestroy.65Tm
++ _objectdestroy.90Tm
++ _objectdestroy.99Tm
++ _swift_getExtendedExistentialTypeMetadata
++ _swift_setAtWritableKeyPath
++ _swift_stdlib_isStackAllocationSafe
++ _symbolic $s15HomePodSettings17ObserversCountingP
++ _symbolic $s15HomePodSettings22TransportMemberHandlerP
++ _symbolic $s15HomePodSettings23TargetedObserverStoringP
++ _symbolic 12InitialValue_____Qyd_______y6TargetABQyd__GSgSbIegnnd_ 15HomePodSettings26TransportObservationUpdateP AA0eF5ScopeO
++ _symbolic 12InitialValue_____QzShy6TargetABQzGYaKc 15HomePodSettings26TransportObservationUpdateP
++ _symbolic 12InitialValue_____Qz______pIegHrzo_ 15HomePodSettings26TransportObservationUpdateP s5ErrorP
++ _symbolic 15ObservedElement_____Qyd__ 15HomePodSettings23TargetedObserverStoringP
++ _symbolic 15ObservedElement_____Qz 15HomePodSettings23TargetedObserverStoringP
++ _symbolic 2ID_____Qz s12IdentifiableP
++ _symbolic 6Member_____Qyd__ 15HomePodSettings15MemberObservingP
++ _symbolic 6Member_____Qyd__ 15HomePodSettings22TransportMemberHandlerP
++ _symbolic 6Member_____Qyd__ 15HomePodSettings30TransportRequestHandlerServiceP
++ _symbolic 6Member_____Qz 15HomePodSettings22TransportMemberHandlerP
++ _symbolic 6Target_____Qyd__ 15HomePodSettings11ObservationP
++ _symbolic 6Target_____Qz 15HomePodSettings11ObservationP
++ _symbolic 6Target_____Qz 15HomePodSettings17ObserversCountingP
++ _symbolic 6Target_____Qz 15HomePodSettings26TransportObservationUpdateP
++ _symbolic 6Update______6Target_____QZ 15HomePodSettings11ObservationP AA09TransportD6UpdateP
++ _symbolic 7Request_____Qyd__ 15HomePodSettings23TransportRequestHandlerP
++ _symbolic 8Observer_____Qyd__ 15HomePodSettings23TargetedObserverStoringP
++ _symbolic 8Observer_____Qz 15HomePodSettings23TargetedObserverStoringP
++ _symbolic G0R3_
++ _symbolic SDySS______pG 15HomePodSettings23TransportRequestHandlerP
++ _symbolic SDy_____ypG s11AnyHashableV
++ _symbolic SDy_____ypGSgAC______pSgIegggg_ s11AnyHashableV s5ErrorP
++ _symbolic SDy_____yx_G_____yx_G16observationState_______p14observersCounttG 15HomePodSettings18ObservationManagerC0D3KeyV AC0D5State33_D3672450CD9356AC3C9DB07B4832BF05LLO AA17ObserversCountingP
++ _symbolic SDyq_xG
++ _symbolic SDyxSiG
++ _symbolic SDyxq_G
++ _symbolic SS17requestIdentifier_t
++ _symbolic Say_____G 15HomePodSettings18RapportRequestType33_A316A8CE925FA02E853C3F1DEAB50352LLO
++ _symbolic Say______pXpG 15HomePodSettings16TransportRequestP
++ _symbolic Say_____xXjG l15HomePodSettings22TransportMemberHandler_px0E0Rts_XPXGMq
++ _symbolic Say_____xXjG l15HomePodSettings30TransportRequestHandlerService_px6MemberRts_XPXGMq
++ _symbolic Sb7isFirst_Sb8insertedt
++ _symbolic ScCy_____Sg8response_AB7optionst______pG 15HomePodSettings17RapportDictionaryV s5ErrorP
++ _symbolic Shy6Target_____Qyd__G 15HomePodSettings26TransportObservationUpdateP
++ _symbolic Shy_____yxq__GG 15HomePodSettings21TargetedObserverStoreC5Tuple33_BE79EB7B0E8C02E3C8A2962991C7E7CALLV
++ _symbolic ShyxG_AA9returningt
++ _symbolic Si5count_t
++ _symbolic So12NSDictionaryCSgACSo7NSErrorCSgIeyByyy_
++ _symbolic So21RPCompanionLinkClientC
++ _symbolic So21RPCompanionLinkDeviceC
++ _symbolic _____ 15HomePodSettings14ObserversCountO
++ _symbolic _____ 15HomePodSettings14ServicesRouterC
++ _symbolic _____ 15HomePodSettings14ServicesRouterC5ErrorO
++ _symbolic _____ 15HomePodSettings15RapportResponseC
++ _symbolic _____ 15HomePodSettings16ObservationScopeO
++ _symbolic _____ 15HomePodSettings16ObserversCounterV
++ _symbolic _____ 15HomePodSettings16RapportTransportC
++ _symbolic _____ 15HomePodSettings16RapportTransportC0dE5ErrorO
++ _symbolic _____ 15HomePodSettings17RapportDictionaryV
++ _symbolic _____ 15HomePodSettings18ObservationManagerC0D5State33_D3672450CD9356AC3C9DB07B4832BF05LLO
++ _symbolic _____ 15HomePodSettings18RapportRequestType33_A316A8CE925FA02E853C3F1DEAB50352LLO
++ _symbolic _____ 15HomePodSettings21MemberConnectionCacheV
++ _symbolic _____ 15HomePodSettings21TargetedObserverStoreC
++ _symbolic _____ 15HomePodSettings21TargetedObserverStoreC5Tuple33_BE79EB7B0E8C02E3C8A2962991C7E7CALLV
++ _symbolic _____ 15HomePodSettings22ObservationUpdateScopeO
++ _symbolic _____ 15HomePodSettings22ObservationUpdateScopeO10CodingKeys33_34D64FE0ACED90CFDC5548FEF0BC7754LLO
++ _symbolic _____ 15HomePodSettings22ObservationUpdateScopeO18TargetedCodingKeys33_34D64FE0ACED90CFDC5548FEF0BC7754LLO
++ _symbolic _____ 15HomePodSettings22ObservationUpdateScopeO20UntargetedCodingKeys33_34D64FE0ACED90CFDC5548FEF0BC7754LLO
++ _symbolic _____ 15HomePodSettings22TransportRequestObjectC
++ _symbolic _____ 15HomePodSettings23UntargetedObserverStoreC
++ _symbolic _____ 15HomePodSettings24ObservationRequestActionO25UpdateObservingCodingKeys33_D5899725D81D3FD8ACAAE2205535C9EELLO
++ _symbolic _____ 15HomePodSettings27RoutedRequestHandlerServiceC
++ _symbolic _____ 15HomePodSettings27RoutedRequestHandlerServiceC5ErrorO
++ _symbolic _____ 15HomePodSettings27TransportObservationHandlerV
++ _symbolic _____ 15HomePodSettings28ObservationLifeCycleResponseV0D6ResultO17UpdatedCodingKeys33_A2AFDC6B2BB6BE642392741DD9268775LLO
++ _symbolic _____ 15HomePodSettings32TransportObservationUpdateObjectC
++ _symbolic _____ 15HomePodSettings5TopazO
++ _symbolic _____Sg8response_AB7optionst 15HomePodSettings17RapportDictionaryV
++ _symbolic ______p 15HomePodSettings17ObserversCountingP
++ _symbolic ______p 15HomePodSettings23TransportRequestHandlerP
++ _symbolic ______pSg 15HomePodSettings11ObservationP
++ _symbolic ______pSg 15HomePodSettings23TransportRequestHandlerP
++ _symbolic _____m 15HomePodSettings22TransportRequestObjectC
++ _symbolic _____m 15HomePodSettings32TransportObservationUpdateObjectC
++ _symbolic _____q_6Target_____QzXj r0_l15HomePodSettings23TargetedObserverStoring_pq_15ObservedElementRts_x0E0RtsXPXG AA26TransportObservationUpdateP
++ _symbolic _____q_Xj l15HomePodSettings15MemberObserving_px0D0Rts_XPXGMq
++ _symbolic _____y12InitialValue_____Qz5value______y6TargetACQzGSg5scopet7FailureACQzG 7Combine19CurrentValueSubjectC 15HomePodSettings26TransportObservationUpdateP AD0iJ5ScopeO
++ _symbolic _____y6Target_____Qyd__G 15HomePodSettings16ObservationScopeO AA09TransportD6UpdateP
++ _symbolic _____y6Target_____QzG 15HomePodSettings24ObservationRequestActionO AA09TransportD6UpdateP
++ _symbolic _____ySSG 15HomePodSettings22ObservationUpdateScopeO
++ _symbolic _____ySSG s11_SetStorageC
++ _symbolic _____ySS_____G s18_DictionaryStorageC 15HomePodSettings16HPSResultWrapperV
++ _symbolic _____ySS______pG s17_NativeDictionaryV 15HomePodSettings23TransportRequestHandlerP
++ _symbolic _____y_____G 15HomePodSettings15RapportResponseC AA31ObservationUpdateAcknowlegementV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 15HomePodSettings18RapportRequestType33_A316A8CE925FA02E853C3F1DEAB50352LLO
++ _symbolic _____y______pXpG s23_ContiguousArrayStorageC 15HomePodSettings16TransportRequestP
++ _symbolic _____y______yptG s23_ContiguousArrayStorageC s11AnyHashableV
++ _symbolic _____y_____yxGG 15HomePodSettings18ObservationManagerC AA16RapportTransportC
++ _symbolic _____yxG 15HomePodSettings14ObserversCountO
++ _symbolic _____yxG 15HomePodSettings14ServicesRouterC
++ _symbolic _____yxG 15HomePodSettings16RapportTransportC
++ _symbolic _____yxG 15HomePodSettings27ObservationLifeCycleRequestV
++ _symbolic _____yxGXDXMT 15HomePodSettings16RapportTransportC
++ _symbolic _____yxGXDXMT 15HomePodSettings18ObservationManagerC
++ _symbolic _____yxSo16COMessageSessionCG 15HomePodSettings21MemberConnectionCacheV
++ _symbolic _____yxSo21RPCompanionLinkDeviceCG 15HomePodSettings21MemberConnectionCacheV
++ _symbolic _____yx_G 15HomePodSettings18ObservationManagerC0D5State33_D3672450CD9356AC3C9DB07B4832BF05LLO
++ _symbolic _____yx_G16observationState_______p14observersCountt 15HomePodSettings18ObservationManagerC0D5State33_D3672450CD9356AC3C9DB07B4832BF05LLO AA17ObserversCountingP
++ _symbolic _____yxq__G 15HomePodSettings21TargetedObserverStoreC5Tuple33_BE79EB7B0E8C02E3C8A2962991C7E7CALLV
++ _symbolic q1_
++ _symbolic x6Target_____Qz______pIeghHnnzo_AD_pIegHgzo_ 15HomePodSettings26TransportObservationUpdateP s5ErrorP
++ _symbolic xSo21RPCompanionLinkDeviceCKc
++ _symbolic x______pIeghHnzo_ s5ErrorP
++ _symbolic ySay______pXpGc 15HomePodSettings16TransportRequestP
++ _symbolic yyYac
++ _symbolic yyxYaYbKcYaKc
+- __IVARS__TtC15HomePodSettings13ObserverStore
+- __IVARS__TtC15HomePodSettings20ObserverElementStore
+- _associated conformance 15HomePodSettings20ObserverElementStoreC5Tuple33_C156DD131F03164593A53E75F9300AF4LLVyxq__GSHAASQ
+- _associated conformance 15HomePodSettings24ObservationRequestActionO10CodingKeys33_D5899725D81D3FD8ACAAE2205535C9EELLOSHAASQ
+- _associated conformance 15HomePodSettings24ObservationRequestActionO10CodingKeys33_D5899725D81D3FD8ACAAE2205535C9EELLOs0G3KeyAAs23CustomStringConvertible
+- _associated conformance 15HomePodSettings24ObservationRequestActionO10CodingKeys33_D5899725D81D3FD8ACAAE2205535C9EELLOs0G3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 15HomePodSettings24ObservationRequestActionO23StopObservingCodingKeys33_D5899725D81D3FD8ACAAE2205535C9EELLOs0I3KeyAAs23CustomStringConvertible
+- _associated conformance 15HomePodSettings24ObservationRequestActionO23StopObservingCodingKeys33_D5899725D81D3FD8ACAAE2205535C9EELLOs0I3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 15HomePodSettings24ObservationRequestActionO24StartObservingCodingKeys33_D5899725D81D3FD8ACAAE2205535C9EELLOs0I3KeyAAs23CustomStringConvertible
+- _associated conformance 15HomePodSettings24ObservationRequestActionO24StartObservingCodingKeys33_D5899725D81D3FD8ACAAE2205535C9EELLOs0I3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 15HomePodSettings24ObservationRequestActionOSHAASQ
+- _associated conformance 15HomePodSettings28ObservationLifeCycleResponseV0D6ResultO17StartedCodingKeys33_A2AFDC6B2BB6BE642392741DD9268775LLOyx__GSHAASQ
+- _associated conformance 15HomePodSettings28ObservationLifeCycleResponseV0D6ResultO17StartedCodingKeys33_A2AFDC6B2BB6BE642392741DD9268775LLOyx__Gs0J3KeyAAs23CustomStringConvertible
+- _associated conformance 15HomePodSettings28ObservationLifeCycleResponseV0D6ResultO17StartedCodingKeys33_A2AFDC6B2BB6BE642392741DD9268775LLOyx__Gs0J3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 15HomePodSettings29TransportSingleRequestHandlerVyxq_GAA0dfG0AA6MemberAaEP_SH
+- _associated conformance 15HomePodSettings31HeySiriSettingObservationUpdateV10CodingKeys33_421E399EFE4F03C3E3DC8E7AB112B040LLOSHAASQ
+- _associated conformance 15HomePodSettings31HeySiriSettingObservationUpdateV10CodingKeys33_421E399EFE4F03C3E3DC8E7AB112B040LLOs0I3KeyAAs23CustomStringConvertible
+- _associated conformance 15HomePodSettings31HeySiriSettingObservationUpdateV10CodingKeys33_421E399EFE4F03C3E3DC8E7AB112B040LLOs0I3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 15HomePodSettings31HeySiriSettingObservationUpdateVAA09TransportgH0AA0H5ValueAaDP_SE
+- _associated conformance 15HomePodSettings31HeySiriSettingObservationUpdateVAA09TransportgH0AA0H5ValueAaDP_Se
+- _associated conformance 15HomePodSettings31HeySiriSettingObservationUpdateVAA09TransportgH0AA12InitialValueAaDP_SE
+- _associated conformance 15HomePodSettings31HeySiriSettingObservationUpdateVAA09TransportgH0AA12InitialValueAaDP_SQ
+- _associated conformance 15HomePodSettings31HeySiriSettingObservationUpdateVAA09TransportgH0AA12InitialValueAaDP_Se
+- _associated conformance 15HomePodSettings31HeySiriSettingObservationUpdateVAA09TransportgH0AA7FailureAaDP_SE
+- _associated conformance 15HomePodSettings31HeySiriSettingObservationUpdateVAA09TransportgH0AA7FailureAaDP_Se
+- _associated conformance 15HomePodSettings31HeySiriSettingObservationUpdateVAA09TransportgH0AA7FailureAaDP_s5Error
+- _associated conformance 15HomePodSettings31HeySiriSettingObservationUpdateVAA16TransportRequestAA12ResponseTypeAaDP_AA0I7Message
+- _associated conformance 15HomePodSettings34TransportObservationRequestHandlerVyxq_GAA0dfG0AA0F0AaEP_AA0dF0
+- _associated conformance 15HomePodSettings34TransportObservationRequestHandlerVyxq_GAA0dfG0AA6MemberAaEP_SH
+- _block_descriptor.28
+- _flat unique 15HomePodSettings11Observation_pq0_7FailureAaBPRts_x13ObservedValueADRtsq_06UpdateG0ADRtsXP
+- _objectdestroy.28Tm
+- _symbolic $s15HomePodSettings34TransportObservationHandlerServiceP
+- _symbolic 6Member_____Qz 15HomePodSettings23TransportRequestHandlerP
+- _symbolic SDySo16COMessageSessionCxG
+- _symbolic SDy_____yx_G_____yx_G16observationState_Si14observersCounttG 15HomePodSettings18ObservationManagerC0D3KeyV AC0D5StateO
+- _symbolic SDyxSo16COMessageSessionCG
+- _symbolic Shy_____yxq__GG 15HomePodSettings20ObserverElementStoreC5Tuple33_C156DD131F03164593A53E75F9300AF4LLV
+- _symbolic _____ 15HomePodSettings13ObserverStoreC
+- _symbolic _____ 15HomePodSettings18MemberSessionCacheV
+- _symbolic _____ 15HomePodSettings18ObservationManagerC0D5StateO
+- _symbolic _____ 15HomePodSettings20ObserverElementStoreC
+- _symbolic _____ 15HomePodSettings20ObserverElementStoreC5Tuple33_C156DD131F03164593A53E75F9300AF4LLV
+- _symbolic _____ 15HomePodSettings24ObservationRequestActionO24StartObservingCodingKeys33_D5899725D81D3FD8ACAAE2205535C9EELLO
+- _symbolic _____ 15HomePodSettings28ObservationLifeCycleResponseV0D6ResultO17StartedCodingKeys33_A2AFDC6B2BB6BE642392741DD9268775LLO
+- _symbolic _____ 15HomePodSettings31HeySiriSettingObservationUpdateV
+- _symbolic _____ 15HomePodSettings31HeySiriSettingObservationUpdateV10CodingKeys33_421E399EFE4F03C3E3DC8E7AB112B040LLO
+- _symbolic _____ 15HomePodSettings34TransportObservationRequestHandlerV
+- _symbolic _____m 15HomePodSettings31HeySiriSettingObservationUpdateV
+- _symbolic _____y12InitialValue_____Qy__G______xtYaKc 15HomePodSettings28ObservationLifeCycleResponseV0D6ResultO AA09TransportD6UpdateP AA0D13RequestActionO
+- _symbolic _____y12InitialValue_____Qz7FailureACQzG 7Combine19CurrentValueSubjectC 15HomePodSettings26TransportObservationUpdateP
+- _symbolic _____y_____G s22KeyedDecodingContainerV 15HomePodSettings24ObservationRequestActionO10CodingKeys33_D5899725D81D3FD8ACAAE2205535C9EELLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 15HomePodSettings24ObservationRequestActionO23StopObservingCodingKeys33_D5899725D81D3FD8ACAAE2205535C9EELLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 15HomePodSettings24ObservationRequestActionO24StartObservingCodingKeys33_D5899725D81D3FD8ACAAE2205535C9EELLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 15HomePodSettings31HeySiriSettingObservationUpdateV10CodingKeys33_421E399EFE4F03C3E3DC8E7AB112B040LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 15HomePodSettings24ObservationRequestActionO10CodingKeys33_D5899725D81D3FD8ACAAE2205535C9EELLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 15HomePodSettings24ObservationRequestActionO23StopObservingCodingKeys33_D5899725D81D3FD8ACAAE2205535C9EELLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 15HomePodSettings24ObservationRequestActionO24StartObservingCodingKeys33_D5899725D81D3FD8ACAAE2205535C9EELLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 15HomePodSettings31HeySiriSettingObservationUpdateV10CodingKeys33_421E399EFE4F03C3E3DC8E7AB112B040LLO
+- _symbolic _____yq_G 15HomePodSettings27ObservationLifeCycleRequestV
+- _symbolic _____yxG 15HomePodSettings18MemberSessionCacheV
+- _symbolic _____yxq__G 15HomePodSettings20ObserverElementStoreC5Tuple33_C156DD131F03164593A53E75F9300AF4LLV
+CStrings:
++ " and Counter of "
++ "### Comparing targeted with untargeted scopes for "
++ "### Failed to cancel observation key="
++ "### Failed to decode TransportObservationUpdateObject"
++ "### Failed to decode TransportRequestObject"
++ "### Failed to get member from device. error="
++ "### Failed to update observation. key="
++ "### No cached member for device="
++ "### Requests registered to be handled in multiple services. "
++ "$__lazy_storage_$_observationUpdate"
++ "$__lazy_storage_$_request"
++ "-- Attempting to remove unextistant observation key="
++ "-- No observation for "
++ ". Dropping update."
++ ". Will remove observation record."
++ "Expected observation for key="
++ "Fatal error"
++ "First Observer. Set up Observation."
++ "HomePodSettings.RapportResponse"
++ "HomePodSettings.TransportObservationUpdateObject"
++ "HomePodSettings.TransportRequestObject"
++ "HomePodSettings/ObservationManager.swift"
++ "Last Observer. Tear down Observation."
++ "Member created. member="
++ "No Observers for "
++ "No observers where removed yet. Won't stop any observation"
++ "Observation: type="
++ "Registering allowed requests."
++ "Removed observation with key="
++ "Sending update: "
++ "There's already an existing observation "
++ "Transport activated"
++ "Unexpected Observation type. Expected: "
++ "Untargeted(count: "
++ "Update sent. Response="
++ "Will use service: "
++ "[In Observation broadcast] Got "
++ "_TtC15HomePodSettings22TransportRequestObject"
++ "_TtC15HomePodSettings32TransportObservationUpdateObject"
++ "activateServices()"
++ "addObservationRecord(_:key:)"
++ "com.apple.Opal.RapportTransport"
++ "com.apple.opal.observation.update"
++ "com.apple.opal.request"
++ "companionLinkClient"
++ "decreaseObserversCount(ofType:forKey:targetUpdate:)"
++ "deregisterRequestID:"
++ "deviceFound(_:) device="
++ "deviceLost(_:) device="
++ "devicesCache"
++ "effectiveIdentifier"
++ "handleLostMember(_:)"
++ "handleRequest(_:from:)"
++ "handlersMap"
++ "increaseObserversCount(ofType:forKey:updateTarget:)"
++ "isLast removed "
++ "linkQueue"
++ "memberHandlers"
++ "observation(ofType:forMember:targeting:)"
++ "observation(ofType:forMemberID:targeting:)"
++ "observationUpdateObject"
++ "onObservationStreamCancelled(ofType:withKey:targets:)"
++ "pipeRequest(_:fromMember:)"
++ "rapportDeviceToMember"
++ "register(handler:) requestType="
++ "registerAllowedRequests"
++ "registerObservationUpdateHandler()"
++ "registerRequestHandler()"
++ "registerRequestID:options:handler:"
++ "registeredRequestTypes"
++ "requestNewObservation(ofType:forKey:targeting:initialCounter:)"
++ "requestObject"
++ "sendRequestID(_:request:destinationID:options:)"
++ "sendRequestID:request:destinationID:options:responseHandler:"
++ "services"
++ "servicesRouter"
++ "setControlFlags:"
++ "setDeviceFoundHandler:"
++ "setDeviceLostHandler:"
++ "setDispatchQueue:"
++ "setIdentifier:"
++ "stopObservation(for:targeting:)"
++ "stopObservation(ofType:forMember:targeting:)"
++ "targetedObservation(ofType:forKey:targeting:)"
++ "untargetedObservation(ofType:forKey:)"
++ "updateObservation(ofType:forMember:targeting:targetsForInitialValue:)"
++ "updateObservationRecord(key:by:with:)"
++ "v16@?0@\"RPCompanionLinkDevice\"8"
++ "v32@?0@\"NSDictionary\"8@\"NSDictionary\"16@\"NSError\"24"
++ "v32@?0@\"NSDictionary\"8@\"NSDictionary\"16@?<v@?@\"NSDictionary\"@\"NSDictionary\"@\"NSError\">24"
++ "value scope "
+- "### Failed to cancel observation error="
+- "No observation for "
+- "There's already an Active observation. key="
+- "There's already an observation Loading. key="
+- "decreaseObserversCount(forKey:)"
+- "increaseObserversCount(forKey:)"
+- "observation(ofType:forKey:)"
+- "onObservationStreamCancelled(withKey:)"
+- "startObservation(ofType:forMember:)"
+- "stopObservation(_:forMember:)"
+
+```

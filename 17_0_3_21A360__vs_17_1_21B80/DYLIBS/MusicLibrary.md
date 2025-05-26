@@ -1,0 +1,1823 @@
+## MusicLibrary
+
+> `/System/Library/PrivateFrameworks/MusicLibrary.framework/MusicLibrary`
+
+```diff
+
+-4023.110.4.0.0
+-  __TEXT.__text: 0x253d00
+-  __TEXT.__auth_stubs: 0x1fb0
+-  __TEXT.__objc_methlist: 0xd300
+-  __TEXT.__const: 0x2412c
+-  __TEXT.__gcc_except_tab: 0x10c34
+-  __TEXT.__cstring: 0x6137a
+-  __TEXT.__oslogstring: 0x1891e
++4023.210.4.0.0
++  __TEXT.__text: 0x254e00
++  __TEXT.__auth_stubs: 0x1fd0
++  __TEXT.__objc_methlist: 0xd3e8
++  __TEXT.__const: 0x23fac
++  __TEXT.__gcc_except_tab: 0x10c68
++  __TEXT.__cstring: 0x61de0
++  __TEXT.__oslogstring: 0x18b3c
+   __TEXT.__ustring: 0x20c
+   __TEXT.__dlopen_cstrs: 0x1ac
+-  __TEXT.__unwind_info: 0x6e44
++  __TEXT.__unwind_info: 0x6e54
+   __TEXT.__eh_frame: 0xd8
+-  __TEXT.__objc_classname: 0x18dc
+-  __TEXT.__objc_methname: 0x1cd86
+-  __TEXT.__objc_methtype: 0x5042
+-  __TEXT.__objc_stubs: 0x13d40
++  __TEXT.__objc_classname: 0x18de
++  __TEXT.__objc_methname: 0x1cf80
++  __TEXT.__objc_methtype: 0x507d
++  __TEXT.__objc_stubs: 0x13e60
+   __DATA_CONST.__got: 0x340
+-  __DATA_CONST.__const: 0x9ad8
++  __DATA_CONST.__const: 0x9cf8
+   __DATA_CONST.__objc_classlist: 0x6d8
+   __DATA_CONST.__objc_catlist: 0x50
+   __DATA_CONST.__objc_protolist: 0xa8
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_const: 0xfd20
+-  __DATA_CONST.__objc_selrefs: 0x66f0
+-  __DATA_CONST.__objc_arraydata: 0xec0
+-  __AUTH_CONST.__const: 0x12188
++  __DATA_CONST.__objc_const: 0xfe50
++  __DATA_CONST.__objc_selrefs: 0x6778
++  __DATA_CONST.__objc_arraydata: 0xee0
++  __AUTH_CONST.__const: 0x12030
+   __AUTH_CONST.__objc_const: 0x5560
+   __AUTH_CONST.__auth_ptr: 0x28
+-  __AUTH_CONST.__cfstring: 0x23860
+-  __AUTH_CONST.__objc_arrayobj: 0x1f50
++  __AUTH_CONST.__cfstring: 0x23b40
++  __AUTH_CONST.__objc_arrayobj: 0x1f68
+   __AUTH_CONST.__objc_intobj: 0x1ae8
+   __AUTH_CONST.__objc_dictobj: 0x78
+   __AUTH_CONST.__objc_doubleobj: 0x10
+-  __AUTH_CONST.__auth_got: 0xff0
++  __AUTH_CONST.__auth_got: 0x1000
+   __AUTH.__objc_data: 0x1ea0
+   __AUTH.__data: 0x110
+   __DATA.__objc_protorefs: 0x30
+   __DATA.__objc_classrefs: 0x8a8
+   __DATA.__objc_superrefs: 0x508
+-  __DATA.__objc_ivar: 0xe14
+-  __DATA.__data: 0x1c68
++  __DATA.__objc_ivar: 0xe28
++  __DATA.__data: 0x1c58
+   __DATA.__common: 0xa24
+-  __DATA.__bss: 0x678
++  __DATA.__bss: 0x660
+   __DATA_DIRTY.__objc_data: 0x25d0
+   __DATA_DIRTY.__data: 0x80
+   __DATA_DIRTY.__common: 0x38
+-  __DATA_DIRTY.__bss: 0x1210
++  __DATA_DIRTY.__bss: 0x1218
+   - /System/Library/Frameworks/AVFoundation.framework/AVFoundation
+   - /System/Library/Frameworks/Accounts.framework/Accounts
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libsqlite3.dylib
+   - /usr/lib/libz.1.dylib
+-  Functions: 7863
+-  Symbols:   24288
+-  CStrings:  12008
++  Functions: 7883
++  Symbols:   24342
++  CStrings:  12066
+ 
+Symbols:
++ +[ML3ContainerItemDiffMetadata diffMetadataWithPersistentID:containerPersistentID:itemPersistentID:newPosition:previousPosition:uuid:positionUUD:]
++ -[MIPArtist hasSortOrderSection]
++ -[MIPArtist hasSortOrder]
++ -[MIPArtist setHasSortOrder:]
++ -[MIPArtist setHasSortOrderSection:]
++ -[MIPArtist setSortOrder:]
++ -[MIPArtist setSortOrderSection:]
++ -[MIPArtist sortOrderSection]
++ -[MIPArtist sortOrder]
++ -[MIPMovie genre]
++ -[MIPMovie hasGenre]
++ -[MIPMovie setGenre:]
++ -[ML3Container _setItemPersistentIDs:andEntryProperties:reloadContainedMediaTypes:removedMediaTypes:addedMediaTypes:notify:incrementEntityRevision:usingConnection:]
++ -[ML3Container setItemReactionText:onEntryAtPosition:forUserIdentifier:]
++ -[ML3Container setTracksWithPersistentIDs:andEntryProperties:notify:]
++ -[ML3ContainerItemDiffMetadata .cxx_destruct]
++ -[ML3ContainerItemDiffMetadata positionUUID]
++ -[ML3ContainerItemDiffMetadata setPositionUUID:]
++ -[ML3ContainerItemDiffMetadata setUuid:]
++ -[ML3ContainerItemDiffMetadata uuid]
++ -[ML3MusicLibrary(Saga) clearSagaClientFeaturesVersion]
++ -[ML3MusicLibrary(Saga) sagaClientFeaturesVersion]
++ -[ML3MusicLibrary(Saga) sagaNeedsFullUpdate]
++ -[ML3MusicLibrary(Saga) setSagaClientFeaturesVersion:]
++ -[ML3MusicLibrary(Saga) setSagaNeedsFullUpdate:]
++ GCC_except_table1309
++ GCC_except_table1316
++ GCC_except_table1324
++ GCC_except_table1330
++ GCC_except_table1337
++ GCC_except_table1348
++ GCC_except_table1354
++ GCC_except_table1358
++ GCC_except_table1364
++ GCC_except_table1376
++ GCC_except_table1378
++ GCC_except_table1380
++ GCC_except_table1390
++ GCC_except_table1392
++ GCC_except_table1394
++ GCC_except_table1396
++ GCC_except_table1404
++ GCC_except_table1416
++ GCC_except_table1424
++ GCC_except_table1431
++ GCC_except_table1439
++ GCC_except_table1455
++ GCC_except_table1457
++ GCC_except_table1459
++ GCC_except_table1475
++ GCC_except_table1488
++ GCC_except_table1509
++ GCC_except_table1514
++ GCC_except_table1516
++ GCC_except_table1518
++ GCC_except_table1524
++ GCC_except_table1526
++ GCC_except_table1528
++ GCC_except_table1537
++ GCC_except_table1538
++ GCC_except_table1539
++ GCC_except_table1574
++ GCC_except_table1579
++ GCC_except_table1587
++ GCC_except_table1589
++ GCC_except_table1594
++ GCC_except_table1603
++ GCC_except_table1609
++ GCC_except_table1649
++ GCC_except_table1656
++ GCC_except_table1658
++ GCC_except_table1676
++ GCC_except_table1680
++ GCC_except_table1688
++ GCC_except_table1692
++ GCC_except_table1702
++ GCC_except_table1703
++ GCC_except_table1718
++ GCC_except_table1726
++ GCC_except_table1760
++ GCC_except_table1790
++ GCC_except_table1797
++ GCC_except_table1798
++ GCC_except_table1799
++ GCC_except_table1813
++ GCC_except_table1820
++ GCC_except_table1831
++ GCC_except_table1832
++ GCC_except_table1833
++ GCC_except_table1842
++ GCC_except_table1843
++ GCC_except_table1844
++ GCC_except_table1852
++ GCC_except_table1858
++ GCC_except_table1859
++ GCC_except_table1860
++ GCC_except_table1866
++ GCC_except_table1868
++ GCC_except_table1870
++ GCC_except_table1882
++ GCC_except_table1883
++ GCC_except_table1884
++ GCC_except_table1888
++ GCC_except_table1893
++ GCC_except_table1911
++ GCC_except_table1919
++ GCC_except_table1938
++ GCC_except_table1941
++ GCC_except_table1943
++ GCC_except_table1950
++ GCC_except_table1952
++ GCC_except_table1954
++ GCC_except_table1956
++ GCC_except_table1958
++ GCC_except_table1960
++ GCC_except_table1963
++ GCC_except_table1968
++ GCC_except_table1973
++ GCC_except_table1976
++ GCC_except_table1979
++ GCC_except_table1996
++ GCC_except_table2010
++ GCC_except_table2027
++ GCC_except_table2035
++ GCC_except_table2038
++ GCC_except_table2044
++ GCC_except_table2051
++ GCC_except_table2202
++ GCC_except_table2206
++ GCC_except_table2265
++ GCC_except_table2281
++ GCC_except_table2294
++ GCC_except_table2299
++ GCC_except_table2304
++ GCC_except_table2311
++ GCC_except_table2314
++ GCC_except_table2325
++ GCC_except_table2327
++ GCC_except_table2331
++ GCC_except_table2333
++ GCC_except_table2338
++ GCC_except_table2342
++ GCC_except_table2346
++ GCC_except_table2352
++ GCC_except_table2358
++ GCC_except_table2579
++ GCC_except_table2627
++ GCC_except_table2630
++ GCC_except_table2635
++ GCC_except_table2658
++ GCC_except_table2687
++ GCC_except_table2698
++ GCC_except_table2702
++ GCC_except_table2715
++ GCC_except_table2717
++ GCC_except_table2719
++ GCC_except_table2721
++ GCC_except_table2724
++ GCC_except_table2759
++ GCC_except_table2762
++ GCC_except_table2774
++ GCC_except_table2775
++ GCC_except_table2830
++ GCC_except_table2837
++ GCC_except_table2840
++ GCC_except_table2859
++ GCC_except_table2860
++ GCC_except_table2861
++ GCC_except_table2867
++ GCC_except_table2868
++ GCC_except_table2874
++ GCC_except_table2875
++ GCC_except_table2876
++ GCC_except_table2887
++ GCC_except_table2888
++ GCC_except_table2889
++ GCC_except_table2914
++ GCC_except_table2921
++ GCC_except_table2927
++ GCC_except_table2940
++ GCC_except_table2942
++ GCC_except_table2953
++ GCC_except_table2954
++ GCC_except_table2955
++ GCC_except_table2963
++ GCC_except_table2964
++ GCC_except_table2974
++ GCC_except_table2976
++ GCC_except_table2983
++ GCC_except_table3025
++ GCC_except_table3047
++ GCC_except_table3066
++ GCC_except_table3067
++ GCC_except_table3073
++ GCC_except_table3078
++ GCC_except_table3079
++ GCC_except_table3085
++ GCC_except_table3090
++ GCC_except_table3091
++ GCC_except_table3102
++ GCC_except_table3103
++ GCC_except_table3104
++ GCC_except_table3114
++ GCC_except_table3115
++ GCC_except_table3116
++ GCC_except_table3117
++ GCC_except_table3123
++ GCC_except_table3125
++ GCC_except_table3126
++ GCC_except_table3137
++ GCC_except_table3138
++ GCC_except_table3148
++ GCC_except_table3149
++ GCC_except_table3150
++ GCC_except_table3151
++ GCC_except_table3157
++ GCC_except_table3158
++ GCC_except_table3159
++ GCC_except_table3160
++ GCC_except_table3174
++ GCC_except_table3232
++ GCC_except_table3502
++ GCC_except_table3507
++ GCC_except_table3521
++ GCC_except_table3523
++ GCC_except_table3546
++ GCC_except_table3548
++ GCC_except_table3558
++ GCC_except_table3721
++ GCC_except_table3726
++ GCC_except_table3729
++ GCC_except_table3732
++ GCC_except_table3744
++ GCC_except_table3745
++ GCC_except_table3746
++ GCC_except_table3751
++ GCC_except_table3759
++ GCC_except_table3770
++ GCC_except_table3791
++ GCC_except_table3805
++ GCC_except_table3808
++ GCC_except_table3811
++ GCC_except_table3890
++ GCC_except_table3893
++ GCC_except_table3990
++ GCC_except_table4008
++ GCC_except_table4010
++ GCC_except_table4013
++ GCC_except_table4019
++ GCC_except_table4021
++ GCC_except_table4027
++ GCC_except_table4035
++ GCC_except_table4050
++ GCC_except_table4052
++ GCC_except_table4188
++ GCC_except_table4193
++ GCC_except_table4212
++ GCC_except_table4213
++ GCC_except_table4218
++ GCC_except_table4285
++ GCC_except_table4287
++ GCC_except_table4288
++ GCC_except_table4293
++ GCC_except_table4299
++ GCC_except_table4302
++ GCC_except_table4304
++ GCC_except_table4315
++ GCC_except_table4320
++ GCC_except_table4334
++ GCC_except_table4335
++ GCC_except_table4336
++ GCC_except_table4440
++ GCC_except_table4441
++ GCC_except_table4443
++ GCC_except_table4449
++ GCC_except_table4452
++ GCC_except_table4470
++ GCC_except_table4471
++ GCC_except_table4472
++ GCC_except_table4473
++ GCC_except_table4586
++ GCC_except_table4588
++ GCC_except_table4592
++ GCC_except_table4594
++ GCC_except_table4596
++ GCC_except_table4597
++ GCC_except_table4598
++ GCC_except_table4692
++ GCC_except_table4695
++ GCC_except_table4696
++ GCC_except_table4710
++ GCC_except_table4711
++ GCC_except_table4715
++ GCC_except_table4725
++ GCC_except_table4726
++ GCC_except_table4727
++ GCC_except_table4729
++ GCC_except_table4731
++ GCC_except_table4742
++ GCC_except_table4746
++ GCC_except_table4747
++ GCC_except_table4748
++ GCC_except_table4750
++ GCC_except_table4751
++ GCC_except_table4752
++ GCC_except_table4764
++ GCC_except_table4769
++ GCC_except_table4807
++ GCC_except_table4811
++ GCC_except_table4817
++ GCC_except_table4822
++ GCC_except_table4825
++ GCC_except_table4827
++ GCC_except_table4831
++ GCC_except_table4840
++ GCC_except_table4852
++ GCC_except_table4868
++ GCC_except_table4873
++ GCC_except_table4878
++ GCC_except_table4887
++ GCC_except_table4888
++ GCC_except_table4889
++ GCC_except_table4942
++ GCC_except_table4950
++ GCC_except_table4952
++ GCC_except_table4954
++ GCC_except_table4955
++ GCC_except_table5024
++ GCC_except_table5027
++ GCC_except_table5028
++ GCC_except_table5034
++ GCC_except_table5050
++ GCC_except_table5067
++ GCC_except_table5072
++ GCC_except_table5086
++ GCC_except_table5126
++ GCC_except_table5131
++ GCC_except_table5220
++ GCC_except_table5226
++ GCC_except_table5232
++ GCC_except_table5238
++ GCC_except_table5244
++ GCC_except_table5250
++ GCC_except_table5257
++ GCC_except_table5258
++ GCC_except_table5264
++ GCC_except_table5265
++ GCC_except_table5271
++ GCC_except_table5277
++ GCC_except_table5283
++ GCC_except_table5291
++ GCC_except_table5298
++ GCC_except_table5304
++ GCC_except_table5328
++ GCC_except_table5356
++ GCC_except_table5364
++ GCC_except_table5377
++ GCC_except_table5385
++ GCC_except_table5413
++ GCC_except_table5458
++ GCC_except_table5462
++ GCC_except_table5469
++ GCC_except_table5484
++ GCC_except_table5486
++ GCC_except_table5487
++ GCC_except_table5497
++ GCC_except_table5498
++ GCC_except_table5499
++ GCC_except_table5500
++ GCC_except_table5533
++ GCC_except_table5557
++ GCC_except_table5559
++ GCC_except_table5562
++ GCC_except_table5563
++ GCC_except_table5565
++ GCC_except_table5573
++ GCC_except_table5576
++ GCC_except_table5578
++ GCC_except_table5579
++ GCC_except_table5618
++ GCC_except_table5662
++ GCC_except_table5665
++ GCC_except_table5666
++ GCC_except_table5667
++ GCC_except_table5696
++ GCC_except_table5697
++ GCC_except_table5707
++ GCC_except_table5708
++ GCC_except_table5714
++ GCC_except_table5715
++ GCC_except_table5720
++ GCC_except_table5722
++ GCC_except_table5726
++ GCC_except_table5727
++ GCC_except_table5741
++ GCC_except_table5744
++ GCC_except_table5747
++ GCC_except_table5750
++ GCC_except_table5752
++ GCC_except_table5753
++ GCC_except_table5755
++ GCC_except_table5758
++ GCC_except_table5759
++ GCC_except_table5787
++ GCC_except_table5791
++ GCC_except_table5793
++ GCC_except_table5796
++ GCC_except_table5798
++ GCC_except_table5805
++ GCC_except_table5819
++ GCC_except_table5822
++ GCC_except_table5845
++ GCC_except_table5847
++ GCC_except_table5897
++ GCC_except_table5908
++ GCC_except_table5909
++ GCC_except_table5910
++ GCC_except_table5912
++ GCC_except_table5923
++ GCC_except_table5926
++ GCC_except_table5927
++ GCC_except_table5928
++ GCC_except_table5929
++ GCC_except_table5931
++ GCC_except_table5932
++ GCC_except_table5934
++ GCC_except_table5935
++ GCC_except_table5947
++ GCC_except_table5948
++ GCC_except_table5950
++ GCC_except_table5951
++ GCC_except_table5952
++ GCC_except_table5953
++ GCC_except_table5965
++ GCC_except_table5966
++ GCC_except_table5967
++ GCC_except_table5968
++ GCC_except_table5988
++ GCC_except_table5990
++ GCC_except_table5991
++ GCC_except_table5993
++ GCC_except_table5994
++ GCC_except_table6004
++ GCC_except_table6014
++ GCC_except_table6015
++ GCC_except_table6016
++ GCC_except_table6017
++ GCC_except_table6020
++ GCC_except_table6021
++ GCC_except_table6032
++ GCC_except_table6038
++ GCC_except_table6042
++ GCC_except_table6045
++ GCC_except_table6046
++ GCC_except_table6049
++ GCC_except_table6053
++ GCC_except_table6059
++ GCC_except_table6060
++ GCC_except_table6065
++ GCC_except_table6066
++ GCC_except_table6070
++ GCC_except_table6071
++ GCC_except_table6089
++ GCC_except_table6099
++ GCC_except_table6107
++ GCC_except_table6108
++ GCC_except_table6110
++ GCC_except_table6111
++ GCC_except_table6112
++ GCC_except_table6113
++ GCC_except_table6115
++ GCC_except_table6116
++ GCC_except_table6127
++ GCC_except_table6130
++ GCC_except_table6134
++ GCC_except_table6141
++ GCC_except_table6142
++ GCC_except_table6145
++ GCC_except_table6146
++ GCC_except_table6147
++ GCC_except_table6148
++ GCC_except_table6150
++ GCC_except_table6152
++ GCC_except_table6163
++ GCC_except_table6167
++ GCC_except_table6169
++ GCC_except_table6171
++ GCC_except_table6173
++ GCC_except_table6189
++ GCC_except_table6200
++ GCC_except_table6202
++ GCC_except_table6204
++ GCC_except_table6206
++ GCC_except_table6208
++ GCC_except_table6210
++ GCC_except_table6211
++ GCC_except_table6320
++ GCC_except_table6325
++ GCC_except_table6335
++ GCC_except_table6336
++ GCC_except_table6337
++ GCC_except_table6340
++ GCC_except_table6341
++ GCC_except_table6343
++ GCC_except_table6366
++ GCC_except_table6371
++ GCC_except_table6372
++ GCC_except_table6373
++ GCC_except_table6416
++ GCC_except_table6424
++ GCC_except_table6425
++ GCC_except_table6432
++ GCC_except_table6433
++ GCC_except_table6434
++ GCC_except_table6435
++ GCC_except_table6436
++ GCC_except_table6455
++ GCC_except_table6458
++ GCC_except_table6459
++ GCC_except_table6460
++ GCC_except_table6461
++ GCC_except_table6462
++ GCC_except_table6469
++ GCC_except_table6470
++ GCC_except_table6476
++ GCC_except_table6477
++ GCC_except_table6478
++ GCC_except_table6479
++ GCC_except_table6481
++ GCC_except_table6485
++ GCC_except_table6486
++ GCC_except_table6488
++ GCC_except_table6509
++ GCC_except_table6531
++ GCC_except_table6542
++ GCC_except_table6554
++ GCC_except_table6563
++ GCC_except_table6570
++ GCC_except_table6594
++ GCC_except_table6617
++ GCC_except_table6618
++ GCC_except_table6619
++ GCC_except_table6640
++ GCC_except_table6644
++ GCC_except_table6648
++ GCC_except_table6651
++ GCC_except_table6656
++ GCC_except_table6658
++ GCC_except_table6660
++ GCC_except_table6676
++ GCC_except_table6680
++ GCC_except_table6732
++ GCC_except_table6758
++ GCC_except_table6783
++ GCC_except_table681
++ GCC_except_table6870
++ GCC_except_table6969
++ GCC_except_table7039
++ GCC_except_table7045
++ GCC_except_table7052
++ GCC_except_table7053
++ GCC_except_table7068
++ GCC_except_table7072
++ GCC_except_table7114
++ GCC_except_table7120
++ GCC_except_table7426
++ GCC_except_table7427
++ GCC_except_table7428
++ GCC_except_table7434
++ GCC_except_table7436
++ GCC_except_table7437
++ GCC_except_table7440
++ OBJC_IVAR_$_MIPArtist._sortOrder
++ OBJC_IVAR_$_MIPArtist._sortOrderSection
++ OBJC_IVAR_$_MIPMovie._genre
++ _ML3AlbumArtistPropertySortOrder
++ _ML3AlbumArtistPropertySortOrderSection
++ _ML3MigrationFunction2100130to2100140
++ _ML3MigrationFunction2100140to2100150
++ _ML3MigrationFunction2100150to2110000
++ _ML3PersonPropertyHasLightweightProfile
++ _MSVFastHexStringFromBytes.hexCharacters.26640
++ _OBJC_IVAR_$_ML3ContainerItemDiffMetadata._positionUUID
++ _OBJC_IVAR_$_ML3ContainerItemDiffMetadata._uuid
++ __MSV_XXH_XXH32_update.26632
++ __MSV_XXH_XXH64_digest.26637
++ __MSV_XXH_XXH64_update.26633
++ __ZGVZN16ML3ImportSession21_getDefaultEmptyGenreEvE16__emptyGenreData
++ __ZGVZN16ML3ImportSession24_getDefaultEmptyComposerEvE19__emptyComposerData
++ __ZN16ML3ImportSession21_getDefaultEmptyGenreEv
++ __ZN16ML3ImportSession22_getPersonPersistentIDENSt3__110shared_ptrI13ML3ImportItemEE
++ __ZN16ML3ImportSession24_getDefaultEmptyComposerEv
++ __ZN16ML3ImportSession27_prepareAlbumArtistSortDataENSt3__110shared_ptrI13ML3ImportItemEE
++ __ZNK34ML3ContainerItemReactionImportItem14getStringValueEj
++ __ZNSt3__115allocate_sharedB7v160006I13ML3ArtistDataNS_9allocatorIS1_EEJRxRNS_12basic_stringIcNS_11char_traitsIcEENS2_IcEEEESA_S9_S9_S4_R12ML3NameOrderSC_S4_SA_RbRiS4_EvEENS_10shared_ptrIT_EERKT0_DpOT1_
++ __ZZN16ML3ImportSession21_getDefaultEmptyGenreEvE16__emptyGenreData
++ __ZZN16ML3ImportSession21_getDefaultEmptyGenreEvE9onceToken
++ __ZZN16ML3ImportSession24_getDefaultEmptyComposerEvE19__emptyComposerData
++ __ZZN16ML3ImportSession24_getDefaultEmptyComposerEvE9onceToken
++ ___69-[ML3Container setTracksWithPersistentIDs:andEntryProperties:notify:]_block_invoke
++ ___72-[ML3Container setItemReactionText:onEntryAtPosition:forUserIdentifier:]_block_invoke
++ ___Block_byref_object_copy_.10255
++ ___Block_byref_object_copy_.11042
++ ___Block_byref_object_copy_.11276
++ ___Block_byref_object_copy_.12135
++ ___Block_byref_object_copy_.12287
++ ___Block_byref_object_copy_.12672
++ ___Block_byref_object_copy_.13130
++ ___Block_byref_object_copy_.14087
++ ___Block_byref_object_copy_.16674
++ ___Block_byref_object_copy_.17001
++ ___Block_byref_object_copy_.17532
++ ___Block_byref_object_copy_.18179
++ ___Block_byref_object_copy_.18539
++ ___Block_byref_object_copy_.18776
++ ___Block_byref_object_copy_.19637
++ ___Block_byref_object_copy_.19982
++ ___Block_byref_object_copy_.20954
++ ___Block_byref_object_copy_.21795
++ ___Block_byref_object_copy_.2191
++ ___Block_byref_object_copy_.2280
++ ___Block_byref_object_copy_.23603
++ ___Block_byref_object_copy_.23679
++ ___Block_byref_object_copy_.23781
++ ___Block_byref_object_copy_.23966
++ ___Block_byref_object_copy_.24373
++ ___Block_byref_object_copy_.24709
++ ___Block_byref_object_copy_.26772
++ ___Block_byref_object_copy_.27544
++ ___Block_byref_object_copy_.290
++ ___Block_byref_object_copy_.303
++ ___Block_byref_object_copy_.308
++ ___Block_byref_object_copy_.3416
++ ___Block_byref_object_copy_.369
++ ___Block_byref_object_copy_.396
++ ___Block_byref_object_copy_.415
++ ___Block_byref_object_copy_.4594
++ ___Block_byref_object_copy_.4768
++ ___Block_byref_object_copy_.479
++ ___Block_byref_object_copy_.50
++ ___Block_byref_object_copy_.581
++ ___Block_byref_object_copy_.588
++ ___Block_byref_object_copy_.590
++ ___Block_byref_object_copy_.5906
++ ___Block_byref_object_copy_.595
++ ___Block_byref_object_copy_.7058
++ ___Block_byref_object_copy_.7146
++ ___Block_byref_object_copy_.8347
++ ___Block_byref_object_copy_.8821
++ ___Block_byref_object_copy_.8931
++ ___Block_byref_object_copy_.9009
++ ___Block_byref_object_dispose_.10256
++ ___Block_byref_object_dispose_.11043
++ ___Block_byref_object_dispose_.11277
++ ___Block_byref_object_dispose_.12136
++ ___Block_byref_object_dispose_.12288
++ ___Block_byref_object_dispose_.12673
++ ___Block_byref_object_dispose_.13131
++ ___Block_byref_object_dispose_.14088
++ ___Block_byref_object_dispose_.16675
++ ___Block_byref_object_dispose_.17002
++ ___Block_byref_object_dispose_.17533
++ ___Block_byref_object_dispose_.18180
++ ___Block_byref_object_dispose_.18540
++ ___Block_byref_object_dispose_.18777
++ ___Block_byref_object_dispose_.19638
++ ___Block_byref_object_dispose_.19983
++ ___Block_byref_object_dispose_.20955
++ ___Block_byref_object_dispose_.21796
++ ___Block_byref_object_dispose_.2192
++ ___Block_byref_object_dispose_.2281
++ ___Block_byref_object_dispose_.23604
++ ___Block_byref_object_dispose_.23680
++ ___Block_byref_object_dispose_.23782
++ ___Block_byref_object_dispose_.23967
++ ___Block_byref_object_dispose_.24374
++ ___Block_byref_object_dispose_.24710
++ ___Block_byref_object_dispose_.26773
++ ___Block_byref_object_dispose_.27545
++ ___Block_byref_object_dispose_.291
++ ___Block_byref_object_dispose_.304
++ ___Block_byref_object_dispose_.309
++ ___Block_byref_object_dispose_.3417
++ ___Block_byref_object_dispose_.370
++ ___Block_byref_object_dispose_.397
++ ___Block_byref_object_dispose_.416
++ ___Block_byref_object_dispose_.4595
++ ___Block_byref_object_dispose_.4769
++ ___Block_byref_object_dispose_.480
++ ___Block_byref_object_dispose_.51
++ ___Block_byref_object_dispose_.582
++ ___Block_byref_object_dispose_.589
++ ___Block_byref_object_dispose_.5907
++ ___Block_byref_object_dispose_.591
++ ___Block_byref_object_dispose_.596
++ ___Block_byref_object_dispose_.7059
++ ___Block_byref_object_dispose_.7147
++ ___Block_byref_object_dispose_.8348
++ ___Block_byref_object_dispose_.8822
++ ___Block_byref_object_dispose_.8932
++ ___Block_byref_object_dispose_.9010
++ ____ZN16ML3ImportSession13_finishImportEv_block_invoke.234
++ ____ZN16ML3ImportSession13_finishImportEv_block_invoke.241
++ ____ZN16ML3ImportSession13_finishImportEv_block_invoke.248
++ ____ZN16ML3ImportSession13_finishImportEv_block_invoke.257
++ ____ZN16ML3ImportSession13_finishImportEv_block_invoke_2.255
++ ____ZN16ML3ImportSession13_finishImportEv_block_invoke_2.261
++ ____ZN16ML3ImportSession21_getDefaultEmptyGenreEv_block_invoke
++ ____ZN16ML3ImportSession24_getDefaultEmptyComposerEv_block_invoke
++ ____ZN16ML3ImportSession34_prepareContainerAuthorImportItemsENSt3__110shared_ptrI13ML3ImportItemEE_block_invoke.597
++ ____ZN16ML3ImportSession38_prepareContainerItemPersonImportItemsENSt3__110shared_ptrI13ML3ImportItemEE_block_invoke.587
++ ____ZN16ML3ImportSession5flushEb_block_invoke.143
++ ___block_descriptor_40_ea8_32s_e40_v32?0"ML3DatabaseRow"8"NSError"16^B24ls32l8
++ ___block_descriptor_65_e8_32s40s48s56r_e31_B16?0"ML3DatabaseConnection"8lr56l8s32l8s40l8s48l8
++ ___block_descriptor_72_e8_32s40s48s56r_e31_v16?0"ML3DatabaseConnection"8ls32l8s40l8s48l8r56l8
++ ___block_literal_global.10275
++ ___block_literal_global.10325
++ ___block_literal_global.108.13834
++ ___block_literal_global.11062
++ ___block_literal_global.11621
++ ___block_literal_global.13097
++ ___block_literal_global.13244
++ ___block_literal_global.13974
++ ___block_literal_global.14840
++ ___block_literal_global.15709
++ ___block_literal_global.16022
++ ___block_literal_global.16730
++ ___block_literal_global.17643
++ ___block_literal_global.18538
++ ___block_literal_global.18796
++ ___block_literal_global.18959
++ ___block_literal_global.19077
++ ___block_literal_global.19221
++ ___block_literal_global.19738
++ ___block_literal_global.20310
++ ___block_literal_global.20437
++ ___block_literal_global.20783
++ ___block_literal_global.21587
++ ___block_literal_global.23001
++ ___block_literal_global.23703
++ ___block_literal_global.23833
++ ___block_literal_global.24720
++ ___block_literal_global.25052
++ ___block_literal_global.26004
++ ___block_literal_global.2703
++ ___block_literal_global.3946
++ ___block_literal_global.4109
++ ___block_literal_global.428
++ ___block_literal_global.452
++ ___block_literal_global.4593
++ ___block_literal_global.4754
++ ___block_literal_global.5356
++ ___block_literal_global.5494
++ ___block_literal_global.5869
++ ___block_literal_global.609
++ ___block_literal_global.630
++ ___block_literal_global.6326
++ ___block_literal_global.7035
++ ___block_literal_global.7918
++ ___block_literal_global.792
++ ___block_literal_global.794
++ ___block_literal_global.796
++ ___block_literal_global.798
++ ___block_literal_global.8017
++ ___block_literal_global.83.5554
++ ___block_literal_global.8340
++ ___block_literal_global.8576
++ ___block_literal_global.8799
++ ___block_literal_global.8917
++ ___block_literal_global.9379
++ ___containerItemReactionRules
++ ___containerItemReactionRulesCount
++ ___getICStoreArtworkInfoCropStyleSquareCenterCropSymbolLoc_block_invoke.17306
++ ___getICStoreArtworkInfoImageFormatJPEGSymbolLoc_block_invoke.17289
++ ___getICStorePlatformMetadataKindPlaylistSymbolLoc_block_invoke.17318
++ ___iTunesCloudLibraryCore_block_invoke.17301
++ __unnamed_array_storage.11133
++ __unnamed_array_storage.11297
++ __unnamed_array_storage.13970
++ __unnamed_array_storage.14844
++ __unnamed_array_storage.16029
++ __unnamed_array_storage.179
++ __unnamed_array_storage.21055
++ __unnamed_array_storage.2142
++ __unnamed_array_storage.24189
++ __unnamed_array_storage.25064
++ __unnamed_array_storage.2584
++ __unnamed_array_storage.3402
++ __unnamed_array_storage.359.13701
++ __unnamed_array_storage.3938
++ __unnamed_array_storage.5372
++ __unnamed_array_storage.630
++ __unnamed_array_storage.6715
++ __unnamed_array_storage.7049
++ __unnamed_array_storage.7942
++ __unnamed_array_storage.8812
++ _audit_stringiTunesCloud.17304
++ _getICStoreArtworkInfoCropStyleSquareCenterCropSymbolLoc.ptr.17305
++ _getICStoreArtworkInfoImageFormatJPEGSymbolLoc.ptr.17288
++ _getICStorePlatformMetadataKindPlaylistSymbolLoc.ptr.17317
++ _getxattr
++ _iTunesCloudLibrary.17290
++ _iTunesCloudLibraryCore.frameworkLibrary.17300
++ _objc_msgSend$_setItemPersistentIDs:andEntryProperties:reloadContainedMediaTypes:removedMediaTypes:addedMediaTypes:notify:incrementEntityRevision:usingConnection:
++ _objc_msgSend$diffMetadataWithPersistentID:containerPersistentID:itemPersistentID:newPosition:previousPosition:uuid:positionUUD:
++ _objc_msgSend$hasMovieInfo
++ _objc_msgSend$now
++ _objc_msgSend$positionUUID
++ _objc_msgSend$setPositionUUID:
++ _objc_msgSend$setSortOrder:
++ _objc_msgSend$setSortOrderSection:
++ _objc_msgSend$setTracksWithPersistentIDs:andEntryProperties:notify:
++ _objc_msgSend$setUuid:
++ _objc_msgSend$uuid
++ _propertiesForGroupingKey.onceToken.5355
++ _propertiesForGroupingKey.onceToken.7034
++ _propertiesForGroupingKey.onceToken.8798
++ _propertiesForGroupingKey.onceToken.8916
++ _propertiesForGroupingKey.propertiesForGroupingKey.5357
++ _propertiesForGroupingKey.propertiesForGroupingKey.7036
++ _propertiesForGroupingKey.propertiesForGroupingKey.8800
++ _propertiesForGroupingKey.propertiesForGroupingKey.8918
++ _setxattr
+- +[ML3ContainerItemDiffMetadata diffMetadataWithPersistentID:containerPersistentID:itemPersistentID:newPosition:previousPosition:]
+- -[ML3Container _setItemPersistentIDs:reloadContainedMediaTypes:removedMediaTypes:addedMediaTypes:notify:incrementEntityRevision:usingConnection:]
+- -[ML3ExportSession exportAlbumDeleted:]
+- -[ML3MusicLibrary(Saga) sagaNeedsFullUpdateAfterNextUpdate]
+- -[ML3MusicLibrary(Saga) setSagaNeedsFullUpdateAfterNextUpdate:]
+- -[ML3ProtoSyncExportSession exportAlbumDeleted:]
+- GCC_except_table1306
+- GCC_except_table1313
+- GCC_except_table1321
+- GCC_except_table1327
+- GCC_except_table1334
+- GCC_except_table1345
+- GCC_except_table1351
+- GCC_except_table1355
+- GCC_except_table1361
+- GCC_except_table1373
+- GCC_except_table1375
+- GCC_except_table1377
+- GCC_except_table1387
+- GCC_except_table1389
+- GCC_except_table1391
+- GCC_except_table1393
+- GCC_except_table1398
+- GCC_except_table1413
+- GCC_except_table1418
+- GCC_except_table1425
+- GCC_except_table1436
+- GCC_except_table1452
+- GCC_except_table1454
+- GCC_except_table1456
+- GCC_except_table1472
+- GCC_except_table1476
+- GCC_except_table1506
+- GCC_except_table1508
+- GCC_except_table1513
+- GCC_except_table1515
+- GCC_except_table1521
+- GCC_except_table1523
+- GCC_except_table1525
+- GCC_except_table1532
+- GCC_except_table1534
+- GCC_except_table1536
+- GCC_except_table1571
+- GCC_except_table1576
+- GCC_except_table1584
+- GCC_except_table1586
+- GCC_except_table1591
+- GCC_except_table1600
+- GCC_except_table1606
+- GCC_except_table1646
+- GCC_except_table1653
+- GCC_except_table1655
+- GCC_except_table1673
+- GCC_except_table1677
+- GCC_except_table1685
+- GCC_except_table1689
+- GCC_except_table1699
+- GCC_except_table1700
+- GCC_except_table1715
+- GCC_except_table1723
+- GCC_except_table1757
+- GCC_except_table1787
+- GCC_except_table1793
+- GCC_except_table1794
+- GCC_except_table1795
+- GCC_except_table1810
+- GCC_except_table1817
+- GCC_except_table1821
+- GCC_except_table1822
+- GCC_except_table1823
+- GCC_except_table1839
+- GCC_except_table1840
+- GCC_except_table1841
+- GCC_except_table1847
+- GCC_except_table1849
+- GCC_except_table1854
+- GCC_except_table1855
+- GCC_except_table1863
+- GCC_except_table1864
+- GCC_except_table1865
+- GCC_except_table1873
+- GCC_except_table1874
+- GCC_except_table1875
+- GCC_except_table1885
+- GCC_except_table1886
+- GCC_except_table1890
+- GCC_except_table1897
+- GCC_except_table1916
+- GCC_except_table1929
+- GCC_except_table1939
+- GCC_except_table1942
+- GCC_except_table1947
+- GCC_except_table1951
+- GCC_except_table1953
+- GCC_except_table1955
+- GCC_except_table1957
+- GCC_except_table1959
+- GCC_except_table1961
+- GCC_except_table1967
+- GCC_except_table1970
+- GCC_except_table1974
+- GCC_except_table1978
+- GCC_except_table1990
+- GCC_except_table2007
+- GCC_except_table2013
+- GCC_except_table2028
+- GCC_except_table2036
+- GCC_except_table2043
+- GCC_except_table2046
+- GCC_except_table2053
+- GCC_except_table2203
+- GCC_except_table2207
+- GCC_except_table2266
+- GCC_except_table2282
+- GCC_except_table2295
+- GCC_except_table2300
+- GCC_except_table2305
+- GCC_except_table2312
+- GCC_except_table2315
+- GCC_except_table2326
+- GCC_except_table2328
+- GCC_except_table2332
+- GCC_except_table2334
+- GCC_except_table2339
+- GCC_except_table2343
+- GCC_except_table2347
+- GCC_except_table2353
+- GCC_except_table2361
+- GCC_except_table2580
+- GCC_except_table2628
+- GCC_except_table2631
+- GCC_except_table2636
+- GCC_except_table2659
+- GCC_except_table2688
+- GCC_except_table2699
+- GCC_except_table2714
+- GCC_except_table2716
+- GCC_except_table2718
+- GCC_except_table2720
+- GCC_except_table2722
+- GCC_except_table2757
+- GCC_except_table2760
+- GCC_except_table2770
+- GCC_except_table2773
+- GCC_except_table2828
+- GCC_except_table2835
+- GCC_except_table2838
+- GCC_except_table2855
+- GCC_except_table2856
+- GCC_except_table2864
+- GCC_except_table2870
+- GCC_except_table2871
+- GCC_except_table2880
+- GCC_except_table2881
+- GCC_except_table2882
+- GCC_except_table2890
+- GCC_except_table2891
+- GCC_except_table2892
+- GCC_except_table2917
+- GCC_except_table2924
+- GCC_except_table2939
+- GCC_except_table2943
+- GCC_except_table2945
+- GCC_except_table2956
+- GCC_except_table2958
+- GCC_except_table2960
+- GCC_except_table2966
+- GCC_except_table2967
+- GCC_except_table2977
+- GCC_except_table2982
+- GCC_except_table2986
+- GCC_except_table3028
+- GCC_except_table3050
+- GCC_except_table3064
+- GCC_except_table3065
+- GCC_except_table3071
+- GCC_except_table3074
+- GCC_except_table3075
+- GCC_except_table3080
+- GCC_except_table3081
+- GCC_except_table3082
+- GCC_except_table3087
+- GCC_except_table3089
+- GCC_except_table3094
+- GCC_except_table3095
+- GCC_except_table3106
+- GCC_except_table3107
+- GCC_except_table3108
+- GCC_except_table3119
+- GCC_except_table3121
+- GCC_except_table3122
+- GCC_except_table3130
+- GCC_except_table3133
+- GCC_except_table3139
+- GCC_except_table3142
+- GCC_except_table3144
+- GCC_except_table3145
+- GCC_except_table3152
+- GCC_except_table3153
+- GCC_except_table3154
+- GCC_except_table3155
+- GCC_except_table3170
+- GCC_except_table3228
+- GCC_except_table3498
+- GCC_except_table3503
+- GCC_except_table3517
+- GCC_except_table3519
+- GCC_except_table3542
+- GCC_except_table3544
+- GCC_except_table3554
+- GCC_except_table3713
+- GCC_except_table3722
+- GCC_except_table3725
+- GCC_except_table3728
+- GCC_except_table3737
+- GCC_except_table3740
+- GCC_except_table3742
+- GCC_except_table3747
+- GCC_except_table3755
+- GCC_except_table3766
+- GCC_except_table3787
+- GCC_except_table3793
+- GCC_except_table3804
+- GCC_except_table3807
+- GCC_except_table3886
+- GCC_except_table3889
+- GCC_except_table3986
+- GCC_except_table4000
+- GCC_except_table4002
+- GCC_except_table4005
+- GCC_except_table4015
+- GCC_except_table4017
+- GCC_except_table4023
+- GCC_except_table4031
+- GCC_except_table4046
+- GCC_except_table4048
+- GCC_except_table4181
+- GCC_except_table4186
+- GCC_except_table4190
+- GCC_except_table4205
+- GCC_except_table4206
+- GCC_except_table4278
+- GCC_except_table4279
+- GCC_except_table4280
+- GCC_except_table4281
+- GCC_except_table4292
+- GCC_except_table4295
+- GCC_except_table4297
+- GCC_except_table4308
+- GCC_except_table4313
+- GCC_except_table4327
+- GCC_except_table4328
+- GCC_except_table4329
+- GCC_except_table4433
+- GCC_except_table4434
+- GCC_except_table4435
+- GCC_except_table4436
+- GCC_except_table4438
+- GCC_except_table4463
+- GCC_except_table4464
+- GCC_except_table4465
+- GCC_except_table4466
+- GCC_except_table4579
+- GCC_except_table4581
+- GCC_except_table4585
+- GCC_except_table4587
+- GCC_except_table4589
+- GCC_except_table4590
+- GCC_except_table4591
+- GCC_except_table4678
+- GCC_except_table4681
+- GCC_except_table4689
+- GCC_except_table4703
+- GCC_except_table4704
+- GCC_except_table4708
+- GCC_except_table4712
+- GCC_except_table4714
+- GCC_except_table4717
+- GCC_except_table4718
+- GCC_except_table4720
+- GCC_except_table4722
+- GCC_except_table4730
+- GCC_except_table4733
+- GCC_except_table4738
+- GCC_except_table4739
+- GCC_except_table4741
+- GCC_except_table4743
+- GCC_except_table4757
+- GCC_except_table4762
+- GCC_except_table4800
+- GCC_except_table4804
+- GCC_except_table4806
+- GCC_except_table4808
+- GCC_except_table4810
+- GCC_except_table4818
+- GCC_except_table4824
+- GCC_except_table4826
+- GCC_except_table4838
+- GCC_except_table4861
+- GCC_except_table4866
+- GCC_except_table4871
+- GCC_except_table4880
+- GCC_except_table4881
+- GCC_except_table4882
+- GCC_except_table4935
+- GCC_except_table4938
+- GCC_except_table4940
+- GCC_except_table4941
+- GCC_except_table4943
+- GCC_except_table5015
+- GCC_except_table5018
+- GCC_except_table5019
+- GCC_except_table5025
+- GCC_except_table5041
+- GCC_except_table5058
+- GCC_except_table5063
+- GCC_except_table5077
+- GCC_except_table5108
+- GCC_except_table5122
+- GCC_except_table5211
+- GCC_except_table5217
+- GCC_except_table5223
+- GCC_except_table5229
+- GCC_except_table5235
+- GCC_except_table5241
+- GCC_except_table5247
+- GCC_except_table5248
+- GCC_except_table5249
+- GCC_except_table5255
+- GCC_except_table5262
+- GCC_except_table5268
+- GCC_except_table5273
+- GCC_except_table5274
+- GCC_except_table5289
+- GCC_except_table5295
+- GCC_except_table5319
+- GCC_except_table5347
+- GCC_except_table5355
+- GCC_except_table5368
+- GCC_except_table5376
+- GCC_except_table5404
+- GCC_except_table5449
+- GCC_except_table5453
+- GCC_except_table5460
+- GCC_except_table5466
+- GCC_except_table5477
+- GCC_except_table5478
+- GCC_except_table5488
+- GCC_except_table5489
+- GCC_except_table5490
+- GCC_except_table5491
+- GCC_except_table5524
+- GCC_except_table5547
+- GCC_except_table5548
+- GCC_except_table5550
+- GCC_except_table5551
+- GCC_except_table5552
+- GCC_except_table5553
+- GCC_except_table5554
+- GCC_except_table5555
+- GCC_except_table5558
+- GCC_except_table5609
+- GCC_except_table5653
+- GCC_except_table5656
+- GCC_except_table5657
+- GCC_except_table5658
+- GCC_except_table5684
+- GCC_except_table5685
+- GCC_except_table5687
+- GCC_except_table5688
+- GCC_except_table5691
+- GCC_except_table5698
+- GCC_except_table5699
+- GCC_except_table5704
+- GCC_except_table5705
+- GCC_except_table5706
+- GCC_except_table5710
+- GCC_except_table5716
+- GCC_except_table5717
+- GCC_except_table5723
+- GCC_except_table5724
+- GCC_except_table5730
+- GCC_except_table5732
+- GCC_except_table5737
+- GCC_except_table5777
+- GCC_except_table5778
+- GCC_except_table5781
+- GCC_except_table5783
+- GCC_except_table5785
+- GCC_except_table5786
+- GCC_except_table5809
+- GCC_except_table5812
+- GCC_except_table5835
+- GCC_except_table5837
+- GCC_except_table5887
+- GCC_except_table5889
+- GCC_except_table5891
+- GCC_except_table5892
+- GCC_except_table5898
+- GCC_except_table5900
+- GCC_except_table5903
+- GCC_except_table5914
+- GCC_except_table5916
+- GCC_except_table5917
+- GCC_except_table5918
+- GCC_except_table5919
+- GCC_except_table5922
+- GCC_except_table5925
+- GCC_except_table5930
+- GCC_except_table5937
+- GCC_except_table5938
+- GCC_except_table5939
+- GCC_except_table5941
+- GCC_except_table5942
+- GCC_except_table5943
+- GCC_except_table5956
+- GCC_except_table5957
+- GCC_except_table5958
+- GCC_except_table5974
+- GCC_except_table5975
+- GCC_except_table5976
+- GCC_except_table5977
+- GCC_except_table5978
+- GCC_except_table5979
+- GCC_except_table5980
+- GCC_except_table5982
+- GCC_except_table5997
+- GCC_except_table5998
+- GCC_except_table6000
+- GCC_except_table6009
+- GCC_except_table6010
+- GCC_except_table6011
+- GCC_except_table6012
+- GCC_except_table6022
+- GCC_except_table6023
+- GCC_except_table6024
+- GCC_except_table6025
+- GCC_except_table6035
+- GCC_except_table6036
+- GCC_except_table6041
+- GCC_except_table6051
+- GCC_except_table6056
+- GCC_except_table6057
+- GCC_except_table6061
+- GCC_except_table6062
+- GCC_except_table6078
+- GCC_except_table6082
+- GCC_except_table6083
+- GCC_except_table6090
+- GCC_except_table6095
+- GCC_except_table6101
+- GCC_except_table6102
+- GCC_except_table6103
+- GCC_except_table6104
+- GCC_except_table6105
+- GCC_except_table6106
+- GCC_except_table6117
+- GCC_except_table6120
+- GCC_except_table6122
+- GCC_except_table6123
+- GCC_except_table6131
+- GCC_except_table6135
+- GCC_except_table6136
+- GCC_except_table6138
+- GCC_except_table6139
+- GCC_except_table6140
+- GCC_except_table6157
+- GCC_except_table6159
+- GCC_except_table6161
+- GCC_except_table6176
+- GCC_except_table6177
+- GCC_except_table6178
+- GCC_except_table6180
+- GCC_except_table6182
+- GCC_except_table6184
+- GCC_except_table6186
+- GCC_except_table6199
+- GCC_except_table6312
+- GCC_except_table6322
+- GCC_except_table6323
+- GCC_except_table6324
+- GCC_except_table6327
+- GCC_except_table6328
+- GCC_except_table6330
+- GCC_except_table6345
+- GCC_except_table6346
+- GCC_except_table6347
+- GCC_except_table6353
+- GCC_except_table6396
+- GCC_except_table6397
+- GCC_except_table6403
+- GCC_except_table6405
+- GCC_except_table6406
+- GCC_except_table6407
+- GCC_except_table6408
+- GCC_except_table6411
+- GCC_except_table6412
+- GCC_except_table6429
+- GCC_except_table6430
+- GCC_except_table6445
+- GCC_except_table6446
+- GCC_except_table6447
+- GCC_except_table6448
+- GCC_except_table6449
+- GCC_except_table6450
+- GCC_except_table6451
+- GCC_except_table6465
+- GCC_except_table6466
+- GCC_except_table6468
+- GCC_except_table6472
+- GCC_except_table6473
+- GCC_except_table6475
+- GCC_except_table6496
+- GCC_except_table6518
+- GCC_except_table6529
+- GCC_except_table6541
+- GCC_except_table6550
+- GCC_except_table6557
+- GCC_except_table6581
+- GCC_except_table6604
+- GCC_except_table6605
+- GCC_except_table6606
+- GCC_except_table6627
+- GCC_except_table6631
+- GCC_except_table6635
+- GCC_except_table6638
+- GCC_except_table6643
+- GCC_except_table6645
+- GCC_except_table6647
+- GCC_except_table6650
+- GCC_except_table6667
+- GCC_except_table6719
+- GCC_except_table674
+- GCC_except_table6745
+- GCC_except_table6770
+- GCC_except_table6857
+- GCC_except_table6956
+- GCC_except_table7018
+- GCC_except_table7024
+- GCC_except_table7030
+- GCC_except_table7031
+- GCC_except_table7032
+- GCC_except_table7047
+- GCC_except_table7093
+- GCC_except_table7099
+- GCC_except_table7405
+- GCC_except_table7406
+- GCC_except_table7407
+- GCC_except_table7413
+- GCC_except_table7415
+- GCC_except_table7416
+- GCC_except_table7419
+- _MSVFastHexStringFromBytes.hexCharacters.26522
+- __MSV_XXH_XXH32_update.26514
+- __MSV_XXH_XXH64_digest.26519
+- __MSV_XXH_XXH64_update.26515
+- __ZGVZN16ML3ImportSession24_prepareTrackCollectionsENSt3__110shared_ptrI13ML3ImportItemEEbE16__emptyAlbumData
+- __ZGVZN16ML3ImportSession24_prepareTrackCollectionsENSt3__110shared_ptrI13ML3ImportItemEEbE16__emptyGenreData
+- __ZGVZN16ML3ImportSession24_prepareTrackCollectionsENSt3__110shared_ptrI13ML3ImportItemEEbE17__emptyArtistData
+- __ZGVZN16ML3ImportSession24_prepareTrackCollectionsENSt3__110shared_ptrI13ML3ImportItemEEbE19__emptyComposerData
+- __ZN16ML3ImportSession11removeAlbumENSt3__110shared_ptrI13ML3ImportItemEE
+- __ZN16ML3ImportSession22_prepareArtistSortDataENSt3__110shared_ptrI13ML3ImportItemEE
+- __ZN33ML3ProtoSyncAlbumDeleteImportItemD0Ev
+- __ZN33ML3ProtoSyncAlbumDeleteImportItemD1Ev
+- __ZNK33ML3ProtoSyncAlbumDeleteImportItem14getDescriptionEv
+- __ZNK33ML3ProtoSyncAlbumDeleteImportItem26getDeduplicationPredicatesEv
+- __ZNKSt3__120__shared_ptr_pointerIP33ML3ProtoSyncAlbumDeleteImportItemNS_10shared_ptrI13ML3ImportItemE27__shared_ptr_default_deleteIS4_S1_EENS_9allocatorIS1_EEE13__get_deleterERKSt9type_info
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIx20ML3CollectionInfoSetEENS_22__unordered_map_hasherIxS3_NS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS3_S8_S6_Lb1EEENS_9allocatorIS3_EEE25__emplace_unique_key_argsIxJRKNS_21piecewise_construct_tENS_5tupleIJOxEEENSJ_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeIS3_PvEEEEbEERKT_DpOT0_
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIx20ML3CollectionInfoSetEENS_22__unordered_map_hasherIxS3_NS_4hashIxEENS_8equal_toIxEELb1EEENS_21__unordered_map_equalIxS3_S8_S6_Lb1EEENS_9allocatorIS3_EEE8__rehashILb1EEEvm
+- __ZNSt3__115allocate_sharedB7v160006I13ML3ArtistDataNS_9allocatorIS1_EEJRxRNS_12basic_stringIcNS_11char_traitsIcEENS2_IcEEEESA_S9_S9_S4_R12ML3NameOrderRKSB_S4_SA_RbRiS4_EvEENS_10shared_ptrIT_EERKT0_DpOT1_
+- __ZNSt3__120__shared_ptr_pointerIP33ML3ProtoSyncAlbumDeleteImportItemNS_10shared_ptrI13ML3ImportItemE27__shared_ptr_default_deleteIS4_S1_EENS_9allocatorIS1_EEE16__on_zero_sharedEv
+- __ZNSt3__120__shared_ptr_pointerIP33ML3ProtoSyncAlbumDeleteImportItemNS_10shared_ptrI13ML3ImportItemE27__shared_ptr_default_deleteIS4_S1_EENS_9allocatorIS1_EEE21__on_zero_shared_weakEv
+- __ZNSt3__120__shared_ptr_pointerIP33ML3ProtoSyncAlbumDeleteImportItemNS_10shared_ptrI13ML3ImportItemE27__shared_ptr_default_deleteIS4_S1_EENS_9allocatorIS1_EEED0Ev
+- __ZNSt3__120__shared_ptr_pointerIP33ML3ProtoSyncAlbumDeleteImportItemNS_10shared_ptrI13ML3ImportItemE27__shared_ptr_default_deleteIS4_S1_EENS_9allocatorIS1_EEED1Ev
+- __ZTI33ML3ProtoSyncAlbumDeleteImportItem
+- __ZTINSt3__110shared_ptrI13ML3ImportItemE27__shared_ptr_default_deleteIS1_33ML3ProtoSyncAlbumDeleteImportItemEE
+- __ZTINSt3__114default_deleteI33ML3ProtoSyncAlbumDeleteImportItemEE
+- __ZTINSt3__120__shared_ptr_pointerIP33ML3ProtoSyncAlbumDeleteImportItemNS_10shared_ptrI13ML3ImportItemE27__shared_ptr_default_deleteIS4_S1_EENS_9allocatorIS1_EEEE
+- __ZTS33ML3ProtoSyncAlbumDeleteImportItem
+- __ZTSNSt3__110shared_ptrI13ML3ImportItemE27__shared_ptr_default_deleteIS1_33ML3ProtoSyncAlbumDeleteImportItemEE
+- __ZTSNSt3__114default_deleteI33ML3ProtoSyncAlbumDeleteImportItemEE
+- __ZTSNSt3__120__shared_ptr_pointerIP33ML3ProtoSyncAlbumDeleteImportItemNS_10shared_ptrI13ML3ImportItemE27__shared_ptr_default_deleteIS4_S1_EENS_9allocatorIS1_EEEE
+- __ZTV33ML3ProtoSyncAlbumDeleteImportItem
+- __ZTVNSt3__120__shared_ptr_pointerIP33ML3ProtoSyncAlbumDeleteImportItemNS_10shared_ptrI13ML3ImportItemE27__shared_ptr_default_deleteIS4_S1_EENS_9allocatorIS1_EEEE
+- __ZZN16ML3ImportSession24_prepareTrackCollectionsENSt3__110shared_ptrI13ML3ImportItemEEbE16__emptyAlbumData
+- __ZZN16ML3ImportSession24_prepareTrackCollectionsENSt3__110shared_ptrI13ML3ImportItemEEbE16__emptyGenreData
+- __ZZN16ML3ImportSession24_prepareTrackCollectionsENSt3__110shared_ptrI13ML3ImportItemEEbE17__emptyArtistData
+- __ZZN16ML3ImportSession24_prepareTrackCollectionsENSt3__110shared_ptrI13ML3ImportItemEEbE19__emptyComposerData
+- __ZZN16ML3ImportSession24_prepareTrackCollectionsENSt3__110shared_ptrI13ML3ImportItemEEbE9onceToken
+- ___50-[ML3Container setTracksWithPersistentIDs:notify:]_block_invoke
+- ___Block_byref_object_copy_.10187
+- ___Block_byref_object_copy_.10965
+- ___Block_byref_object_copy_.11199
+- ___Block_byref_object_copy_.12059
+- ___Block_byref_object_copy_.12211
+- ___Block_byref_object_copy_.12596
+- ___Block_byref_object_copy_.13054
+- ___Block_byref_object_copy_.13998
+- ___Block_byref_object_copy_.16583
+- ___Block_byref_object_copy_.16909
+- ___Block_byref_object_copy_.17440
+- ___Block_byref_object_copy_.18085
+- ___Block_byref_object_copy_.18439
+- ___Block_byref_object_copy_.18676
+- ___Block_byref_object_copy_.19537
+- ___Block_byref_object_copy_.19882
+- ___Block_byref_object_copy_.20860
+- ___Block_byref_object_copy_.21721
+- ___Block_byref_object_copy_.2178
+- ___Block_byref_object_copy_.2262
+- ___Block_byref_object_copy_.23530
+- ___Block_byref_object_copy_.23606
+- ___Block_byref_object_copy_.23708
+- ___Block_byref_object_copy_.23893
+- ___Block_byref_object_copy_.24301
+- ___Block_byref_object_copy_.24633
+- ___Block_byref_object_copy_.26655
+- ___Block_byref_object_copy_.27420
+- ___Block_byref_object_copy_.319
+- ___Block_byref_object_copy_.322
+- ___Block_byref_object_copy_.324
+- ___Block_byref_object_copy_.3401
+- ___Block_byref_object_copy_.385
+- ___Block_byref_object_copy_.411
+- ___Block_byref_object_copy_.427
+- ___Block_byref_object_copy_.4577
+- ___Block_byref_object_copy_.4750
+- ___Block_byref_object_copy_.489
+- ___Block_byref_object_copy_.5872
+- ___Block_byref_object_copy_.591
+- ___Block_byref_object_copy_.601
+- ___Block_byref_object_copy_.606
+- ___Block_byref_object_copy_.610
+- ___Block_byref_object_copy_.7023
+- ___Block_byref_object_copy_.7112
+- ___Block_byref_object_copy_.8299
+- ___Block_byref_object_copy_.8773
+- ___Block_byref_object_copy_.8879
+- ___Block_byref_object_copy_.8944
+- ___Block_byref_object_dispose_.10188
+- ___Block_byref_object_dispose_.10966
+- ___Block_byref_object_dispose_.11200
+- ___Block_byref_object_dispose_.12060
+- ___Block_byref_object_dispose_.12212
+- ___Block_byref_object_dispose_.12597
+- ___Block_byref_object_dispose_.13055
+- ___Block_byref_object_dispose_.13999
+- ___Block_byref_object_dispose_.16584
+- ___Block_byref_object_dispose_.16910
+- ___Block_byref_object_dispose_.17441
+- ___Block_byref_object_dispose_.18086
+- ___Block_byref_object_dispose_.18440
+- ___Block_byref_object_dispose_.18677
+- ___Block_byref_object_dispose_.19538
+- ___Block_byref_object_dispose_.19883
+- ___Block_byref_object_dispose_.20861
+- ___Block_byref_object_dispose_.21722
+- ___Block_byref_object_dispose_.2179
+- ___Block_byref_object_dispose_.2263
+- ___Block_byref_object_dispose_.23531
+- ___Block_byref_object_dispose_.23607
+- ___Block_byref_object_dispose_.23709
+- ___Block_byref_object_dispose_.23894
+- ___Block_byref_object_dispose_.24302
+- ___Block_byref_object_dispose_.24634
+- ___Block_byref_object_dispose_.26656
+- ___Block_byref_object_dispose_.27421
+- ___Block_byref_object_dispose_.320
+- ___Block_byref_object_dispose_.323
+- ___Block_byref_object_dispose_.325
+- ___Block_byref_object_dispose_.3402
+- ___Block_byref_object_dispose_.386
+- ___Block_byref_object_dispose_.412
+- ___Block_byref_object_dispose_.428
+- ___Block_byref_object_dispose_.4578
+- ___Block_byref_object_dispose_.4751
+- ___Block_byref_object_dispose_.490
+- ___Block_byref_object_dispose_.5873
+- ___Block_byref_object_dispose_.592
+- ___Block_byref_object_dispose_.602
+- ___Block_byref_object_dispose_.607
+- ___Block_byref_object_dispose_.611
+- ___Block_byref_object_dispose_.7024
+- ___Block_byref_object_dispose_.7113
+- ___Block_byref_object_dispose_.8300
+- ___Block_byref_object_dispose_.8774
+- ___Block_byref_object_dispose_.8880
+- ___Block_byref_object_dispose_.8945
+- ____ZN16ML3ImportSession13_finishImportEv_block_invoke.264
+- ____ZN16ML3ImportSession13_finishImportEv_block_invoke.273
+- ____ZN16ML3ImportSession13_finishImportEv_block_invoke_2.271
+- ____ZN16ML3ImportSession13_finishImportEv_block_invoke_2.277
+- ____ZN16ML3ImportSession24_prepareTrackCollectionsENSt3__110shared_ptrI13ML3ImportItemEEb_block_invoke
+- ____ZN16ML3ImportSession34_prepareContainerAuthorImportItemsENSt3__110shared_ptrI13ML3ImportItemEE_block_invoke.608
+- ____ZN16ML3ImportSession38_prepareContainerItemPersonImportItemsENSt3__110shared_ptrI13ML3ImportItemEE_block_invoke.597
+- ____ZN16ML3ImportSession5flushEb_block_invoke.170
+- ___block_literal_global.10207
+- ___block_literal_global.10258
+- ___block_literal_global.108.13745
+- ___block_literal_global.10985
+- ___block_literal_global.11544
+- ___block_literal_global.13021
+- ___block_literal_global.13168
+- ___block_literal_global.13885
+- ___block_literal_global.14751
+- ___block_literal_global.15619
+- ___block_literal_global.15931
+- ___block_literal_global.16639
+- ___block_literal_global.17551
+- ___block_literal_global.18438
+- ___block_literal_global.18696
+- ___block_literal_global.18859
+- ___block_literal_global.18977
+- ___block_literal_global.19121
+- ___block_literal_global.19638
+- ___block_literal_global.20210
+- ___block_literal_global.20337
+- ___block_literal_global.20680
+- ___block_literal_global.21422
+- ___block_literal_global.22928
+- ___block_literal_global.23630
+- ___block_literal_global.23760
+- ___block_literal_global.24644
+- ___block_literal_global.24974
+- ___block_literal_global.25908
+- ___block_literal_global.2686
+- ___block_literal_global.3930
+- ___block_literal_global.4092
+- ___block_literal_global.440
+- ___block_literal_global.4576
+- ___block_literal_global.4737
+- ___block_literal_global.5337
+- ___block_literal_global.5475
+- ___block_literal_global.5835
+- ___block_literal_global.620
+- ___block_literal_global.6291
+- ___block_literal_global.641
+- ___block_literal_global.7000
+- ___block_literal_global.767
+- ___block_literal_global.769
+- ___block_literal_global.771
+- ___block_literal_global.773
+- ___block_literal_global.7870
+- ___block_literal_global.7969
+- ___block_literal_global.8292
+- ___block_literal_global.83.5535
+- ___block_literal_global.8528
+- ___block_literal_global.8751
+- ___block_literal_global.8864
+- ___block_literal_global.9310
+- ___getICStoreArtworkInfoCropStyleSquareCenterCropSymbolLoc_block_invoke.17214
+- ___getICStoreArtworkInfoImageFormatJPEGSymbolLoc_block_invoke.17197
+- ___getICStorePlatformMetadataKindPlaylistSymbolLoc_block_invoke.17226
+- ___iTunesCloudLibraryCore_block_invoke.17209
+- __unnamed_array_storage.11056
+- __unnamed_array_storage.11220
+- __unnamed_array_storage.13881
+- __unnamed_array_storage.14755
+- __unnamed_array_storage.15938
+- __unnamed_array_storage.177
+- __unnamed_array_storage.20961
+- __unnamed_array_storage.2129
+- __unnamed_array_storage.24116
+- __unnamed_array_storage.24988
+- __unnamed_array_storage.2567
+- __unnamed_array_storage.350.13621
+- __unnamed_array_storage.3922
+- __unnamed_array_storage.5353
+- __unnamed_array_storage.609
+- __unnamed_array_storage.6680
+- __unnamed_array_storage.7014
+- __unnamed_array_storage.7894
+- __unnamed_array_storage.8764
+- _audit_stringiTunesCloud.17212
+- _getICStoreArtworkInfoCropStyleSquareCenterCropSymbolLoc.ptr.17213
+- _getICStoreArtworkInfoImageFormatJPEGSymbolLoc.ptr.17196
+- _getICStorePlatformMetadataKindPlaylistSymbolLoc.ptr.17225
+- _iTunesCloudLibrary.17198
+- _iTunesCloudLibraryCore.frameworkLibrary.17208
+- _objc_msgSend$_setItemPersistentIDs:reloadContainedMediaTypes:removedMediaTypes:addedMediaTypes:notify:incrementEntityRevision:usingConnection:
+- _objc_msgSend$diffMetadataWithPersistentID:containerPersistentID:itemPersistentID:newPosition:previousPosition:
+- _propertiesForGroupingKey.onceToken.5336
+- _propertiesForGroupingKey.onceToken.6999
+- _propertiesForGroupingKey.onceToken.8750
+- _propertiesForGroupingKey.onceToken.8863
+- _propertiesForGroupingKey.propertiesForGroupingKey.5338
+- _propertiesForGroupingKey.propertiesForGroupingKey.7001
+- _propertiesForGroupingKey.propertiesForGroupingKey.8752
+- _propertiesForGroupingKey.propertiesForGroupingKey.8865
+CStrings:
++ "%{public}@ Failed to set can-suspend-locked xattr on file %{public}@. err=%d"
++ "@72@0:8q16q24q32q40q48@56@64"
++ "A$"
++ "ALTER TABLE album_artist ADD COLUMN sort_order INTEGER NOT NULL DEFAULT 0"
++ "ALTER TABLE album_artist ADD COLUMN sort_order_section INTEGER NOT NULL DEFAULT 0"
++ "ALTER TABLE person ADD COLUMN lightweight_profile INTEGER NOT NULL DEFAULT 0"
++ "B40@0:8@16Q24@32"
++ "B68@0:8@16@24B32@36@44B52B56@60"
++ "CREATE INDEX IF NOT EXISTS AlbumArtistLikedState ON album_artist (liked_state ASC)"
++ "CREATE INDEX IF NOT EXISTS AlbumLikedState ON album (liked_state ASC)"
++ "CREATE INDEX IF NOT EXISTS ContainerLikedState ON container (liked_state ASC)"
++ "CREATE INDEX IF NOT EXISTS ItemStatsLikedState ON item_stats (liked_state ASC)"
++ "DELETE FROM container_item_reaction WHERE container_item_reaction_pid = ?"
++ "DELETE FROM person WHERE ROWID"
++ "Failed to patch up orphaned albums with incorrect liked_state. error=%{public}@"
++ "Failed to remove orphaned persons. err=%{public}@"
++ "Failed to remove orphaned reactions. err=%{public}@"
++ "Finished rebuilding the sort_map table. success = %{BOOL}u"
++ "INSERT INTO container_item_reaction (container_item_reaction_pid, container_item_pid, person_pid, reaction, date) VALUES (?, ?, ?, ?, ?)"
++ "INSERT OR REPLACE INTO container_item (container_item_pid, container_pid, item_pid, position, uuid, position_uuid) VALUES (?, ?, ?, ?, ?, ?)"
++ "MLCloudDatabaseClientFeaturesVersion"
++ "Not processing Album Artist UPDATE"
++ "Not processing Album UPDATE"
++ "PRAGMA user_version = 2100140;"
++ "PRAGMA user_version = 2100150;"
++ "PRAGMA user_version = 2110000;"
++ "R"
++ "Rebuilding the sort_map table"
++ "S\x12"
++ "SELECT DISTINCT album_artist, sort_album_artist FROM album_artist WHERE sort_order = 0 AND LENGTH(album_artist)"
++ "SELECT album_artist, sort_album_artist, rowid, store_id, IFNULL(sort_album_artist, ML3SortString(album_artist)), sync_id, cloud_universal_library_id, classical_experience_available, liked_state, liked_state_changed_date, representative_item_pid, grouping_key, sort_order, sort_order_section FROM album_artist WHERE "
++ "SELECT album_artist, sort_album_artist, rowid, store_id, IFNULL(sort_album_artist, ML3SortString(album_artist)), sync_id, cloud_universal_library_id, classical_experience_available, liked_state, liked_state_changed_date, representative_item_pid, sort_order, sort_order_section FROM album_artist "
++ "SELECT album_artist, sort_album_artist, rowid, store_id, IFNULL(sort_album_artist, ML3SortString(album_artist)), sync_id, cloud_universal_library_id, classical_experience_available, liked_state, liked_state_changed_date, sort_order, sort_order_section FROM album_artist "
++ "SELECT container_item_pid FROM container_item WHERE container_pid = ? AND position = ?"
++ "SELECT container_item_pid, item_pid, position, uuid, position_uuid FROM container_item WHERE container_pid = ? ORDER BY position"
++ "SELECT container_item_pid, position, container_item_reaction_pid, cloud_id, date FROM container_item_reaction JOIN container_item USING (container_item_pid) LEFT OUTER JOIN person USING (person_pid) WHERE container_item.container_pid = ?"
++ "SELECT container_item_reaction_pid FROM container_item_reaction WHERE person_pid = ? AND container_item_pid = ?"
++ "SELECT container_item_reaction_pid, container_item_pid, person_pid FROM container_item_reaction WHERE NOT EXISTS (SELECT * FROM container_item WHERE container_item.container_item_pid =container_item_reaction.container_item_pid)"
++ "SELECT person_pid FROM person WHERE cloud_id = ?"
++ "SELECT person_pid, cloud_id, name FROM person WHERE NOT EXISTS (SELECT * FROM container_item_person WHERE container_item_person.person_pid = person.person_pid) AND NOT EXISTS (SELECT * FROM container_author WHERE container_author.person_pid = person.person_pid)"
++ "T@\"NSString\",C,N,V_positionUUID"
++ "T@\"NSString\",C,N,V_uuid"
++ "Tq,N,V_sortOrder"
++ "Tq,N,V_sortOrderSection"
++ "UPDATE album SET liked_state=? WHERE (liked_state=? AND NOT EXISTS (SELECT 1 FROM item WHERE in_my_library AND item.album_pid = album.album_pid))"
++ "UPDATE album SET liked_state=? WHERE NOT EXISTS (SELECT 1 FROM item WHERE in_my_library AND item.album_pid = album.album_pid)"
++ "UPDATE album_artist SET grouping_key = iPhoneGroupingKey(album_artist), sort_order = (SELECT name_order FROM sort_map WHERE name = IFNULL(album_artist.sort_album_artist, ML3SortString(album_artist.album_artist))), sort_order_section = (SELECT name_section FROM sort_map WHERE name = IFNULL(album_artist.sort_album_artist, ML3SortString(album_artist.album_artist)))"
++ "UPDATE album_artist SET sort_order = (SELECT album_artist_order FROM item WHERE item.item_pid=album_artist.representative_item_pid) WHERE album_artist.representative_item_pid != 0"
++ "UPDATE album_artist SET sort_order_section = (SELECT album_artist_order_section FROM item WHERE item.item_pid=album_artist.representative_item_pid) WHERE album_artist.representative_item_pid != 0"
++ "UPDATE container_item_reaction SET reaction = ? WHERE container_item_reaction_pid = ?"
++ "UPDATE item SET composer_order=?, composer_order_section=? WHERE composer_pid=?"
++ "_positionUUID"
++ "_setItemPersistentIDs:andEntryProperties:reloadContainedMediaTypes:removedMediaTypes:addedMediaTypes:notify:incrementEntityRevision:usingConnection:"
++ "_sortOrder"
++ "_sortOrderSection"
++ "_uuid"
++ "clearSagaClientFeaturesVersion"
++ "com.apple.runningboard.can-suspend-locked"
++ "creating new album entry: pid=%lld, name='%{public}s', sortName='%{public}s', likedState=%lld, storeID=%lld, syncID=%lld, cloudLibraryID=%{public}s, isMusicVideo=%{BOOL}u, isCompilation=%{BOOL}u, albumArtistPID=%lld, order.section=%ld, order.sortOrder=%lld"
++ "diffMetadataWithPersistentID:containerPersistentID:itemPersistentID:newPosition:previousPosition:uuid:positionUUD:"
++ "flushing entities as we have pending deleted=%d/updated=%d tracks"
++ "hasSortOrder"
++ "hasSortOrderSection"
++ "lightweight_profile"
++ "now"
++ "positionUUID"
++ "purging orphaned person %{public}@: %{public}@, %{public}@"
++ "purging orphaned reaaction pid %{public}@; container_item_pid=%{public}@, person_pid=%{public}@"
++ "sagaClientFeaturesVersion"
++ "sagaNeedsFullUpdate"
++ "setHasSortOrder:"
++ "setHasSortOrderSection:"
++ "setItemReactionText:onEntryAtPosition:forUserIdentifier:"
++ "setPositionUUID:"
++ "setSagaClientFeaturesVersion:"
++ "setSagaNeedsFullUpdate:"
++ "setSortOrder:"
++ "setSortOrderSection:"
++ "setTracksWithPersistentIDs:andEntryProperties:notify:"
++ "setUuid:"
++ "sortOrder"
++ "sortOrderSection"
++ "sort_order"
++ "sort_order_section"
++ "{?=\"likedStateChangedDate\"b1\"persistentId\"b1\"sortOrder\"b1\"sortOrderSection\"b1\"storeId\"b1\"likedState\"b1}"
+- "3\x12"
+- "<ML3ProtoSyncAlbumDeleteImportItem "
+- "@56@0:8q16q24q32q40q48"
+- "A#"
+- "B60@0:8@16B24@28@36B44B48@52"
+- "Could not find album artist from track data"
+- "INSERT OR REPLACE INTO container_item (container_item_pid, container_pid, item_pid, position) VALUES (?, ?, ?, ?)"
+- "Missing album from track data"
+- "Not processing Album Artist Update"
+- "Not processing Album Update"
+- "OFT-MissingAlbum"
+- "OFT-MissingAlbumArtist"
+- "SELECT DISTINCT album_artist, sort_album_artist FROM album_artist JOIN item USING(album_artist_pid) WHERE album_artist_order = 0 AND LENGTH(album_artist)"
+- "SELECT album_artist, sort_album_artist, rowid, store_id, IFNULL(sort_album_artist, ML3SortString(album_artist)), sync_id, cloud_universal_library_id, classical_experience_available, liked_state, liked_state_changed_date FROM album_artist "
+- "SELECT album_artist, sort_album_artist, rowid, store_id, IFNULL(sort_album_artist, ML3SortString(album_artist)), sync_id, cloud_universal_library_id, classical_experience_available, liked_state, liked_state_changed_date, representative_item_pid FROM album_artist "
+- "SELECT album_artist, sort_album_artist, rowid, store_id, IFNULL(sort_album_artist, ML3SortString(album_artist)), sync_id, cloud_universal_library_id, classical_experience_available, liked_state, liked_state_changed_date, representative_item_pid, grouping_key FROM album_artist WHERE "
+- "SELECT container_item_pid, item_pid, position FROM container_item WHERE container_pid = ? ORDER BY position"
+- "SELECT container_item_pid, position, container_item_reaction_pid, cloud_id, date FROM container_item_reaction JOIN container_item USING (container_item_pid) JOIN person USING (person_pid) WHERE container_item.container_pid = ?"
+- "UPDATE album SET liked_state=? WHERE album.liked_state=? AND NOT EXISTS (SELECT 1 FROM item WHERE in_my_library AND item.album_pid = album.album_pid)"
+- "UPDATE album_artist SET grouping_key = iPhoneGroupingKey(album_artist)"
+- "_setItemPersistentIDs:reloadContainedMediaTypes:removedMediaTypes:addedMediaTypes:notify:incrementEntityRevision:usingConnection:"
+- "albumArtist"
+- "albumArtistCloudID"
+- "could not locate collections for %{public}s"
+- "creating new album entry: pid=%lld, name='%{public}s', sortName='%{public}s', storeID=%lld, syncID=%lld, cloudLibraryID=%{public}s, isMusicVideo=%{BOOL}u, isCompilation=%{BOOL}u, albumArtistPID=%lld, order.section=%ld, order.sortOrder=%lld"
+- "diffMetadataWithPersistentID:containerPersistentID:itemPersistentID:newPosition:previousPosition:"
+- "exportAlbumDeleted:"
+- "sagaNeedsFullUpdateAfterNextUpdate"
+- "setSagaNeedsFullUpdateAfterNextUpdate:"
+- "{?=\"likedStateChangedDate\"b1\"persistentId\"b1\"storeId\"b1\"likedState\"b1}"
+
+```

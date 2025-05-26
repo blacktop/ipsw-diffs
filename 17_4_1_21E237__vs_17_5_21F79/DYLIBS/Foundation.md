@@ -1,0 +1,125 @@
+## Foundation
+
+> `/System/Library/Frameworks/Foundation.framework/Foundation`
+
+```diff
+
+-2420.0.0.0.0
+-  __TEXT.__text: 0x7ffda0
+-  __TEXT.__auth_stubs: 0x97a0
++2503.1.0.0.0
++  __TEXT.__text: 0x7e8fdc
++  __TEXT.__auth_stubs: 0x96b0
+   __TEXT.__objc_methlist: 0x21b78
+   __TEXT.__const: 0x254500
+   __TEXT.__cstring: 0x32748
+
+   __TEXT.__dof_NSXPCConn: 0x26cc
+   __TEXT.__dof_NSXPCList0: 0x865
+   __TEXT.__dof_NSProgres: 0x115b
+-  __TEXT.__unwind_info: 0x1c890
++  __TEXT.__unwind_info: 0x1c950
+   __TEXT.__eh_frame: 0x176c4
+   __TEXT.__objc_classname: 0x4bd7
+   __TEXT.__objc_methname: 0x304b6
+
+   __DATA_CONST.__objc_protorefs: 0x108
+   __DATA_CONST.__objc_classrefs: 0x11d8
+   __DATA_CONST.__objc_superrefs: 0xf10
+-  __DATA_CONST.__got: 0x1e58
++  __DATA_CONST.__got: 0x1e48
+   __DATA_CONST.__objc_arraydata: 0xe370
+   __AUTH_CONST.__const: 0x2c1e0
+-  __AUTH_CONST.__auth_ptr: 0x6d0
++  __AUTH_CONST.__auth_ptr: 0x6d8
+   __AUTH_CONST.__objc_const: 0x10250
+   __AUTH_CONST.__cfstring: 0x267e0
+   __AUTH_CONST.__objc_intobj: 0x1380
+   __AUTH_CONST.__objc_arrayobj: 0x2298
+   __AUTH_CONST.__objc_dictobj: 0x2238
+-  __AUTH_CONST.__auth_got: 0x4be0
+-  __AUTH.__objc_data: 0x6d68
+-  __AUTH.__data: 0x5458
++  __AUTH_CONST.__auth_got: 0x4b68
++  __AUTH.__objc_data: 0x6f98
++  __AUTH.__data: 0x53a0
+   __DATA.__objc_ivar: 0x10b0
+-  __DATA.__data: 0x25490
++  __DATA.__data: 0x26d60
+   __DATA.__crash_info: 0x40
+-  __DATA.__common: 0x8581
+-  __DATA.__bss: 0x59a18
++  __DATA.__common: 0x8571
++  __DATA.__bss: 0x57a90
+   __DATA_DIRTY.__objc_ivar: 0x918
+-  __DATA_DIRTY.__objc_data: 0x5e78
+-  __DATA_DIRTY.__data: 0x1e98
++  __DATA_DIRTY.__objc_data: 0x5c48
++  __DATA_DIRTY.__data: 0x2038
+   __DATA_DIRTY.__common: 0x268
+-  __DATA_DIRTY.__bss: 0x4960
++  __DATA_DIRTY.__bss: 0x4ed8
+   - /System/Library/Frameworks/CFNetwork.framework/CFNetwork
+   - /System/Library/Frameworks/Combine.framework/Combine
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+-  Functions: 46646
+-  Symbols:   124230
++  Functions: 46635
++  Symbols:   124193
+   CStrings:  17352
+ 
+Symbols:
++ _$s10Foundation16AttributedStringV13CharacterViewV15replaceSubrange_4withySnyAC5IndexVG_xtSlRzSJ7ElementRtzlFSS_TB5
++ _$s10Foundation16AttributedStringV13CharacterViewV15replaceSubrange_4withySnyAC5IndexVG_xtSlRzSJ7ElementRtzlFs15CollectionOfOneVySJG_TB5Tm
++ _$s10Foundation16AttributedStringV13CharacterViewV15replaceSubrange_4withySnyAC5IndexVG_xtSlRzSJ7ElementRtzlFs15EmptyCollectionVySJG_TB5
++ _$s10Foundation16AttributedStringV17UnicodeScalarViewV15replaceSubrange_4withySnyAC5IndexVG_xtSlRzs0D0O0E0V7ElementRtzlFs15CollectionOfOneVyANG_TB5
++ _$s10Foundation16AttributedStringV17UnicodeScalarViewV15replaceSubrange_4withySnyAC5IndexVG_xtSlRzs0D0O0E0V7ElementRtzlFs15EmptyCollectionVyANG_TB5
++ _$s10Foundation16AttributedStringV18_InternalRunsSliceV10updateEach4withyyAC17_AttributeStorageVz_SnySiGSbztXE_tF016$s10Foundation16bc15V4GutsC20removej95Value6forKey2inyxm_Sny19CollectionsInternal03BigC0V5IndexVGtAA0bcI0Rzs8Sendable0G0RpzlFyAC01_F7K67Vz_SnySiGSbztXEfU_AA0F6ScopesO0A10AttributesV011ReplacementnF0O_Tg5Tf1cn_nTm
++ _$s19CollectionsInternal12BigSubstringV17UnicodeScalarViewV8distance4from2toSiAA0C6StringV5IndexV_ALtF
++ _$s19CollectionsInternal9BigStringVWOr
++ _$sSS3key_10Foundation16AttributedStringV15_AttributeValueV5valuetWOh
++ _$sSay10Foundation16AttributedStringV22AttributeRunBoundariesOGWOr
++ _$sSmsE11removeFirstyySiF10Foundation16AttributedStringV13CharacterViewV_Tg5Tm
+- _$s10Foundation16AttributedStringV13CharacterViewVSKAASK5index_8offsetBy5IndexQzAI_SitFTWTm
+- _$s10Foundation16AttributedStringV13CharacterViewVSKAASK8distance4from2toSi5IndexQz_AJtFTWTm
+- _$s10Foundation16AttributedStringV17UnicodeScalarViewVSKAASK5index_8offsetBy5IndexQzAI_SitFTWTm
+- _$s10Foundation16AttributedStringV17UnicodeScalarViewVSKAASK8distance4from2toSi5IndexQz_AJtFTWTm
+- _$s10Foundation16AttributedStringV17UnicodeScalarViewVyAeC4GutsCcfC
+- _$s10Foundation16AttributedStringV17_AttributeStorageVy5ValueQzSgxmcAA0bC3KeyRzs8SendableAGRQluigAA0D6ScopesO0A10AttributesV016ReplacementIndexD0O_Tgm5Tf4x_n
+- _$s10Foundation16AttributedStringV17_AttributeStorageVy5ValueQzSgxmcAA0bC3KeyRzs8SendableAGRQluigAA0D6ScopesO0A10AttributesV018LanguageIdentifierD0O_Tgm5Tf4x_n
+- _$s10Foundation16AttributedStringV17_AttributeStorageVy5ValueQzSgxmcAA0bC3KeyRzs8SendableAGRQluigAA0D6ScopesO0A10AttributesV025AssumedFallbackInflectionD0O_Tgm5Tm
+- _$s10Foundation16AttributedStringV17_AttributeStorageVy5ValueQzSgxmcAA0bC3KeyRzs8SendableAGRQluigAA0D6ScopesO0A10AttributesV09ByteCountD0O_Tgm5
+- _$s10Foundation16AttributedStringV18_InternalRunsSliceV10updateEach4withyyAC17_AttributeStorageVz_SnySiGSbztXE_tF016$s10Foundation16bc15V4GutsC20removej95Value6forKey2inyxm_Sny19CollectionsInternal03BigC0V5IndexVGtAA0bcI0Rzs8Sendable0G0RpzlFyAC01_F7K63Vz_SnySiGSbztXEfU_AA0F6ScopesO0A10AttributesV09ByteCountF0O_Tg5Tf1cn_n
+- _$s10Foundation16AttributedStringV18_InternalRunsSliceV10updateEach4withyyAC17_AttributeStorageVz_SnySiGSbztXE_tF016$s10Foundation16bc15V4GutsC20removej95Value6forKey2inyxm_Sny19CollectionsInternal03BigC0V5IndexVGtAA0bcI0Rzs8Sendable0G0RpzlFyAC01_F7K63Vz_SnySiGSbztXEfU_AA0F6ScopesO0A10AttributesV09ByteCountF0O_Tg5Tf1cn_nTm
+- _$s10Foundation16AttributedStringV4GutsC14utf8IndexRange4fromSny19CollectionsInternal03BigC0V0F0VGSnySiG_tF
+- _$s10Foundation16AttributedStringV5IndexV1loiySbAE_AEtFZTm
+- _$s10Foundation16AttributedStringV5IndexVSLAASL1loiySbx_xtFZTWTm
+- _$s10Foundation16AttributedStringVy5ValueQzSgxmcAA0bC3KeyRzluisAA15AttributeScopesO0A10AttributesV09ByteCountF0O_TBm5
+- _$s10Foundation24AttributedStringProtocolPAAE2eeoiySbx_qd__tAaBRd__lFZAA0bC0V_AFTB5Tf4nnd_n
+- _$s19CollectionsInternal12BigSubstringV10_unchecked2inAcA0C6StringV_SnyAG5IndexVGtcfC
+- _$s19CollectionsInternal12BigSubstringV10startIndexAA0C6StringV0F0Vvg
+- _$s19CollectionsInternal12BigSubstringV17UnicodeScalarViewV10_unchecked2inAeA0C6StringV_SnyAI5IndexVGtcfC
+- _$s19CollectionsInternal12BigSubstringV17UnicodeScalarViewV10startIndexAA0C6StringV0I0Vvg
+- _$s19CollectionsInternal12BigSubstringV17UnicodeScalarViewV5countSivg
+- _$s19CollectionsInternal12BigSubstringV17UnicodeScalarViewV8endIndexAA0C6StringV0I0Vvg
+- _$s19CollectionsInternal12BigSubstringV5countSivg
+- _$s19CollectionsInternal12BigSubstringV8UTF8ViewV10startIndexAA0C6StringV0H0Vvg
+- _$s19CollectionsInternal12BigSubstringV8UTF8ViewV8endIndexAA0C6StringV0H0Vvg
+- _$s19CollectionsInternal12BigSubstringV8endIndexAA0C6StringV0F0Vvg
+- _$s19CollectionsInternal9BigStringV5IndexV10utf8OffsetSivg
+- _$s19CollectionsInternal9BigStringV5IndexV1loiySbAE_AEtFZ
+- _$s19CollectionsInternal9BigStringV5IndexV25_isUTF16TrailingSurrogateSbvg
+- _$s19CollectionsInternal9BigStringV5IndexV2eeoiySbAE_AEtFZ
+- _$s19CollectionsInternal9BigStringV8UTF8ViewV8distance4from2toSiAC5IndexV_AJtF
+- _$s19CollectionsInternal9BigStringVWOs
+- _$s19CollectionsInternal9BigStringVyA2C17UnicodeScalarViewVcfC
+- _$sSmsE11removeFirstyySiF10Foundation16AttributedStringV13CharacterViewV_Tg5
+- _$sSmsE15replaceSubrange_4withyqd_0__qd__ntSlRd__SXRd_0_7ElementQyd__ACRtz5BoundQyd_0_5IndexRtzr0_lF10Foundation16AttributedStringV13CharacterViewV_SSSNyAlHVGTB5Tf4ngn_n
+- _$sSmsE9removeAll15keepingCapacityySb_tF10Foundation16AttributedStringV17UnicodeScalarViewV_Tg5
+- _$sSo8_NSRangeV10FoundationE_2inABx_AC16AttributedStringVtcSXRzAF5IndexV5BoundRtzlufCSnyAHG_TBm5
+
+```

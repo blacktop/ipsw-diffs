@@ -1,0 +1,393 @@
+## MLModelSpecification
+
+> `/System/Library/PrivateFrameworks/MLModelSpecification.framework/MLModelSpecification`
+
+```diff
+
+-53.0.0.0.0
+-  __TEXT.__text: 0x3d1748
+-  __TEXT.__auth_stubs: 0xe00
+-  __TEXT.__const: 0x2e554
+-  __TEXT.__swift5_typeref: 0x6a00
+-  __TEXT.__cstring: 0x7d7e
+-  __TEXT.__swift5_reflstr: 0x51b3
+-  __TEXT.__swift5_assocty: 0x1888
+-  __TEXT.__constg_swiftt: 0x7418
+-  __TEXT.__swift5_fieldmd: 0x8a34
+-  __TEXT.__swift5_proto: 0x2e7c
+-  __TEXT.__swift5_types: 0xa60
++62.100.1.0.0
++  __TEXT.__text: 0x40f9e0
++  __TEXT.__auth_stubs: 0xe90
++  __TEXT.__const: 0x2fb14
++  __TEXT.__cstring: 0x766e
++  __TEXT.__swift5_typeref: 0x6efc
++  __TEXT.__swift5_reflstr: 0x53f3
++  __TEXT.__swift5_assocty: 0x1df0
++  __TEXT.__constg_swiftt: 0x7770
++  __TEXT.__swift5_fieldmd: 0x8d20
++  __TEXT.__swift5_proto: 0x2fa0
++  __TEXT.__swift5_types: 0xab8
+   __TEXT.__swift5_protos: 0xc
+-  __TEXT.__swift5_builtin: 0x1e0
+-  __TEXT.__swift5_mpenum: 0xd4
+-  __TEXT.__unwind_info: 0x11238
+-  __TEXT.__eh_frame: 0x14988
++  __TEXT.__swift5_builtin: 0x1f4
++  __TEXT.__swift5_mpenum: 0xdc
++  __TEXT.__unwind_info: 0x121a8
++  __TEXT.__eh_frame: 0x15198
+   __TEXT.__objc_methname: 0xa0
+-  __DATA_CONST.__got: 0x2b8
+-  __DATA_CONST.__const: 0x15f8
++  __DATA_CONST.__got: 0x2f0
++  __DATA_CONST.__const: 0x1930
+   __DATA_CONST.__objc_classlist: 0x90
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_const: 0x16c0
+   __DATA_CONST.__objc_selrefs: 0x28
+-  __AUTH_CONST.__const: 0x9bc0
+-  __AUTH_CONST.__auth_ptr: 0x478
+-  __AUTH_CONST.__auth_got: 0x700
+-  __AUTH.__data: 0x10090
++  __DATA_CONST.__objc_classrefs: 0x10
++  __AUTH_CONST.__const: 0xa7f0
++  __AUTH_CONST.__auth_ptr: 0x4b0
++  __AUTH_CONST.__auth_got: 0x748
++  __AUTH.__data: 0x10c20
+   __AUTH.__objc_data: 0x550
+-  __DATA.__objc_classrefs: 0x10
+-  __DATA.__data: 0x8230
+-  __DATA.__bss: 0x5bc90
+-  __DATA.__common: 0x23c0
++  __DATA.__data: 0x9678
++  __DATA.__bss: 0x5e110
++  __DATA.__common: 0x2650
+   __DATA_DIRTY.__objc_data: 0x50
+-  __DATA_DIRTY.__data: 0x5c80
++  __DATA_DIRTY.__data: 0x5e20
+   __DATA_DIRTY.__bss: 0xd00
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftObjectiveC.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+-  Functions: 30115
+-  Symbols:   10175
+-  CStrings:  1311
++  Functions: 31792
++  Symbols:   10785
++  CStrings:  1280
+ 
+Symbols:
++ ___swift_get_extra_inhabitant_index.34Tm
++ ___swift_get_extra_inhabitant_index.480Tm
++ ___swift_get_extra_inhabitant_index.487Tm
++ ___swift_get_extra_inhabitant_index.490Tm
++ ___swift_get_extra_inhabitant_index.497Tm
++ ___swift_get_extra_inhabitant_index.504Tm
++ ___swift_get_extra_inhabitant_index.514Tm
++ ___swift_get_extra_inhabitant_index.546Tm
++ ___swift_get_extra_inhabitant_index.549Tm
++ ___swift_get_extra_inhabitant_index.54Tm
++ ___swift_get_extra_inhabitant_index.570Tm
++ ___swift_get_extra_inhabitant_index.586Tm
++ ___swift_get_extra_inhabitant_index.596Tm
++ ___swift_get_extra_inhabitant_index.640Tm
++ ___swift_get_extra_inhabitant_index.667Tm
++ ___swift_get_extra_inhabitant_index.703Tm
++ ___swift_get_extra_inhabitant_index.709Tm
++ ___swift_get_extra_inhabitant_index.712Tm
++ ___swift_get_extra_inhabitant_index.90Tm
++ ___swift_get_extra_inhabitant_index.917Tm
++ ___swift_get_extra_inhabitant_index.93Tm
++ ___swift_store_extra_inhabitant_index.35Tm
++ ___swift_store_extra_inhabitant_index.481Tm
++ ___swift_store_extra_inhabitant_index.488Tm
++ ___swift_store_extra_inhabitant_index.491Tm
++ ___swift_store_extra_inhabitant_index.498Tm
++ ___swift_store_extra_inhabitant_index.505Tm
++ ___swift_store_extra_inhabitant_index.515Tm
++ ___swift_store_extra_inhabitant_index.540Tm
++ ___swift_store_extra_inhabitant_index.547Tm
++ ___swift_store_extra_inhabitant_index.550Tm
++ ___swift_store_extra_inhabitant_index.55Tm
++ ___swift_store_extra_inhabitant_index.571Tm
++ ___swift_store_extra_inhabitant_index.587Tm
++ ___swift_store_extra_inhabitant_index.597Tm
++ ___swift_store_extra_inhabitant_index.641Tm
++ ___swift_store_extra_inhabitant_index.668Tm
++ ___swift_store_extra_inhabitant_index.704Tm
++ ___swift_store_extra_inhabitant_index.710Tm
++ ___swift_store_extra_inhabitant_index.713Tm
++ ___swift_store_extra_inhabitant_index.918Tm
++ ___swift_store_extra_inhabitant_index.91Tm
++ ___swift_store_extra_inhabitant_index.94Tm
++ _associated conformance 20MLModelSpecification10ModelErrorO10Foundation09LocalizedD0AAs0D0
++ _associated conformance 20MLModelSpecification10ModelErrorOSHAASQ
++ _associated conformance 20MLModelSpecification18DenseSupportVectorVAA18ProtoRepresentableAA7MessageAaDP_21InternalSwiftProtobufAE
++ _associated conformance 20MLModelSpecification18DenseSupportVectorVSKAA11SubSequenceSl_SK
++ _associated conformance 20MLModelSpecification18DenseSupportVectorVSKAA7IndicesSl_SK
++ _associated conformance 20MLModelSpecification18DenseSupportVectorVSKAASl
++ _associated conformance 20MLModelSpecification18DenseSupportVectorVSMAA11SubSequenceSl_SM
++ _associated conformance 20MLModelSpecification18DenseSupportVectorVSMAASl
++ _associated conformance 20MLModelSpecification18DenseSupportVectorVSTAA8IteratorST_St
++ _associated conformance 20MLModelSpecification18DenseSupportVectorVSkAA11SubSequenceSl_Sk
++ _associated conformance 20MLModelSpecification18DenseSupportVectorVSkAA7IndicesSl_Sk
++ _associated conformance 20MLModelSpecification18DenseSupportVectorVSkAASK
++ _associated conformance 20MLModelSpecification18DenseSupportVectorVSlAA11SubSequenceSl_Sl
++ _associated conformance 20MLModelSpecification18DenseSupportVectorVSlAA5IndexSl_SL
++ _associated conformance 20MLModelSpecification18DenseSupportVectorVSlAA7IndicesSl_Sl
++ _associated conformance 20MLModelSpecification18DenseSupportVectorVSlAAST
++ _associated conformance 20MLModelSpecification19SparseSupportVectorV0C4NodeVAA18ProtoRepresentableAA7MessageAaFP_21InternalSwiftProtobufAG
++ _associated conformance 20MLModelSpecification19SparseSupportVectorVAA18ProtoRepresentableAA7MessageAaDP_21InternalSwiftProtobufAE
++ _associated conformance 20MLModelSpecification19SupportVectorKernelV10PolynomialVAA18ProtoRepresentableAA7MessageAaFP_21InternalSwiftProtobufAG
++ _associated conformance 20MLModelSpecification19SupportVectorKernelV10PolynomialVSHAASQ
++ _associated conformance 20MLModelSpecification19SupportVectorKernelV3RBFVAA18ProtoRepresentableAA7MessageAaFP_21InternalSwiftProtobufAG
++ _associated conformance 20MLModelSpecification19SupportVectorKernelV3RBFVSHAASQ
++ _associated conformance 20MLModelSpecification19SupportVectorKernelV4KindOSHAASQ
++ _associated conformance 20MLModelSpecification19SupportVectorKernelV6LinearVAA18ProtoRepresentableAA7MessageAaFP_21InternalSwiftProtobufAG
++ _associated conformance 20MLModelSpecification19SupportVectorKernelV6LinearVSHAASQ
++ _associated conformance 20MLModelSpecification19SupportVectorKernelV7SigmoidVAA18ProtoRepresentableAA7MessageAaFP_21InternalSwiftProtobufAG
++ _associated conformance 20MLModelSpecification19SupportVectorKernelV7SigmoidVSHAASQ
++ _associated conformance 20MLModelSpecification19SupportVectorKernelVAA18ProtoRepresentableAA7MessageAaDP_21InternalSwiftProtobufAE
++ _associated conformance 20MLModelSpecification25SupportVectorCoefficientsVAA18ProtoRepresentableAA7MessageAaDP_21InternalSwiftProtobufAE
++ _associated conformance 20MLModelSpecification25SupportVectorCoefficientsVSKAA11SubSequenceSl_SK
++ _associated conformance 20MLModelSpecification25SupportVectorCoefficientsVSKAA7IndicesSl_SK
++ _associated conformance 20MLModelSpecification25SupportVectorCoefficientsVSKAASl
++ _associated conformance 20MLModelSpecification25SupportVectorCoefficientsVSMAA11SubSequenceSl_SM
++ _associated conformance 20MLModelSpecification25SupportVectorCoefficientsVSMAASl
++ _associated conformance 20MLModelSpecification25SupportVectorCoefficientsVSTAA8IteratorST_St
++ _associated conformance 20MLModelSpecification25SupportVectorCoefficientsVSkAA11SubSequenceSl_Sk
++ _associated conformance 20MLModelSpecification25SupportVectorCoefficientsVSkAA7IndicesSl_Sk
++ _associated conformance 20MLModelSpecification25SupportVectorCoefficientsVSkAASK
++ _associated conformance 20MLModelSpecification25SupportVectorCoefficientsVSlAA11SubSequenceSl_Sl
++ _associated conformance 20MLModelSpecification25SupportVectorCoefficientsVSlAA5IndexSl_SL
++ _associated conformance 20MLModelSpecification25SupportVectorCoefficientsVSlAA7IndicesSl_Sl
++ _associated conformance 20MLModelSpecification25SupportVectorCoefficientsVSlAAST
++ _associated conformance 20MLModelSpecification28DenseSupportVectorCollectionVAA18ProtoRepresentableAA7MessageAaDP_21InternalSwiftProtobufAE
++ _associated conformance 20MLModelSpecification28DenseSupportVectorCollectionVSKAA11SubSequenceSl_SK
++ _associated conformance 20MLModelSpecification28DenseSupportVectorCollectionVSKAA7IndicesSl_SK
++ _associated conformance 20MLModelSpecification28DenseSupportVectorCollectionVSKAASl
++ _associated conformance 20MLModelSpecification28DenseSupportVectorCollectionVSMAA11SubSequenceSl_SM
++ _associated conformance 20MLModelSpecification28DenseSupportVectorCollectionVSMAASl
++ _associated conformance 20MLModelSpecification28DenseSupportVectorCollectionVSTAA8IteratorST_St
++ _associated conformance 20MLModelSpecification28DenseSupportVectorCollectionVSkAA11SubSequenceSl_Sk
++ _associated conformance 20MLModelSpecification28DenseSupportVectorCollectionVSkAA7IndicesSl_Sk
++ _associated conformance 20MLModelSpecification28DenseSupportVectorCollectionVSkAASK
++ _associated conformance 20MLModelSpecification28DenseSupportVectorCollectionVSlAA11SubSequenceSl_Sl
++ _associated conformance 20MLModelSpecification28DenseSupportVectorCollectionVSlAA5IndexSl_SL
++ _associated conformance 20MLModelSpecification28DenseSupportVectorCollectionVSlAA7IndicesSl_Sl
++ _associated conformance 20MLModelSpecification28DenseSupportVectorCollectionVSlAAST
++ _associated conformance 20MLModelSpecification29SparseSupportVectorCollectionVAA18ProtoRepresentableAA7MessageAaDP_21InternalSwiftProtobufAE
++ _associated conformance 20MLModelSpecification29SparseSupportVectorCollectionVSKAA11SubSequenceSl_SK
++ _associated conformance 20MLModelSpecification29SparseSupportVectorCollectionVSKAA7IndicesSl_SK
++ _associated conformance 20MLModelSpecification29SparseSupportVectorCollectionVSKAASl
++ _associated conformance 20MLModelSpecification29SparseSupportVectorCollectionVSMAA11SubSequenceSl_SM
++ _associated conformance 20MLModelSpecification29SparseSupportVectorCollectionVSMAASl
++ _associated conformance 20MLModelSpecification29SparseSupportVectorCollectionVSTAA8IteratorST_St
++ _associated conformance 20MLModelSpecification29SparseSupportVectorCollectionVSkAA11SubSequenceSl_Sk
++ _associated conformance 20MLModelSpecification29SparseSupportVectorCollectionVSkAA7IndicesSl_Sk
++ _associated conformance 20MLModelSpecification29SparseSupportVectorCollectionVSkAASK
++ _associated conformance 20MLModelSpecification29SparseSupportVectorCollectionVSlAA11SubSequenceSl_Sl
++ _associated conformance 20MLModelSpecification29SparseSupportVectorCollectionVSlAA5IndexSl_SL
++ _associated conformance 20MLModelSpecification29SparseSupportVectorCollectionVSlAA7IndicesSl_Sl
++ _associated conformance 20MLModelSpecification29SparseSupportVectorCollectionVSlAAST
++ _associated conformance 20MLModelSpecification35SupportVectorRegressorConfigurationVAA18ProtoRepresentableAA7MessageAaDP_21InternalSwiftProtobufAE
++ _associated conformance 20MLModelSpecification36BayesianProbitRegressorConfigurationV13FeatureWeightVAA18ProtoRepresentableAA7MessageAaFP_21InternalSwiftProtobufAG
++ _associated conformance 20MLModelSpecification36BayesianProbitRegressorConfigurationV13FeatureWeightVSHAASQ
++ _associated conformance 20MLModelSpecification36BayesianProbitRegressorConfigurationV18FeatureValueWeightVAA18ProtoRepresentableAA7MessageAaFP_21InternalSwiftProtobufAG
++ _associated conformance 20MLModelSpecification36BayesianProbitRegressorConfigurationV18FeatureValueWeightVSHAASQ
++ _associated conformance 20MLModelSpecification36BayesianProbitRegressorConfigurationV8GaussianVAA18ProtoRepresentableAA7MessageAaFP_21InternalSwiftProtobufAG
++ _associated conformance 20MLModelSpecification36BayesianProbitRegressorConfigurationV8GaussianVSHAASQ
++ _associated conformance 20MLModelSpecification36BayesianProbitRegressorConfigurationVAA18ProtoRepresentableAA7MessageAaDP_21InternalSwiftProtobufAE
++ _associated conformance 20MLModelSpecification36SupportVectorClassifierConfigurationVAA18ProtoRepresentableAA7MessageAaDP_21InternalSwiftProtobufAE
++ _objc_release_x27
++ _objc_retain_x20
++ _swift_arrayDestroy
++ _symbolic $sSk
++ _symbolic SS______t 20MLModelSpecification13NeuralNetworkV16TensorDescriptorV
++ _symbolic SS______t 20MLModelSpecification9MLProgramV8FunctionV
++ _symbolic SnySiG
++ _symbolic _____ 20MLModelSpecification10ModelErrorO
++ _symbolic _____ 20MLModelSpecification18DenseSupportVectorV
++ _symbolic _____ 20MLModelSpecification19SparseSupportVectorV
++ _symbolic _____ 20MLModelSpecification19SparseSupportVectorV0C4NodeV
++ _symbolic _____ 20MLModelSpecification19SupportVectorKernelV
++ _symbolic _____ 20MLModelSpecification19SupportVectorKernelV10PolynomialV
++ _symbolic _____ 20MLModelSpecification19SupportVectorKernelV3RBFV
++ _symbolic _____ 20MLModelSpecification19SupportVectorKernelV4KindO
++ _symbolic _____ 20MLModelSpecification19SupportVectorKernelV6LinearV
++ _symbolic _____ 20MLModelSpecification19SupportVectorKernelV7SigmoidV
++ _symbolic _____ 20MLModelSpecification25SupportVectorCoefficientsV
++ _symbolic _____ 20MLModelSpecification28DenseSupportVectorCollectionV
++ _symbolic _____ 20MLModelSpecification29SparseSupportVectorCollectionV
++ _symbolic _____ 20MLModelSpecification35SupportVectorRegressorConfigurationV
++ _symbolic _____ 20MLModelSpecification35SupportVectorRegressorConfigurationV0C7VectorsO
++ _symbolic _____ 20MLModelSpecification36BayesianProbitRegressorConfigurationV
++ _symbolic _____ 20MLModelSpecification36BayesianProbitRegressorConfigurationV13FeatureWeightV
++ _symbolic _____ 20MLModelSpecification36BayesianProbitRegressorConfigurationV18FeatureValueWeightV
++ _symbolic _____ 20MLModelSpecification36BayesianProbitRegressorConfigurationV8GaussianV
++ _symbolic _____ 20MLModelSpecification36SupportVectorClassifierConfigurationV
++ _symbolic _____ 20MLModelSpecification36SupportVectorClassifierConfigurationV0C7VectorsO
++ _symbolic _____ 20MLModelSpecification36SupportVectorClassifierConfigurationV11ClassLabelsO
++ _symbolic _____Sg 20MLModelSpecification18DenseSupportVectorV
++ _symbolic _____Sg 20MLModelSpecification19SparseSupportVectorV
++ _symbolic _____Sg 20MLModelSpecification19SupportVectorKernelV
++ _symbolic _____Sg 20MLModelSpecification19SupportVectorKernelV4KindO
++ _symbolic _____Sg 20MLModelSpecification25SupportVectorCoefficientsV
++ _symbolic _____Sg 20MLModelSpecification35SupportVectorRegressorConfigurationV0C7VectorsO
++ _symbolic _____Sg 20MLModelSpecification36BayesianProbitRegressorConfigurationV8GaussianV
++ _symbolic _____Sg 20MLModelSpecification36SupportVectorClassifierConfigurationV0C7VectorsO
++ _symbolic _____Sg 20MLModelSpecification9MLProgramV5BlockV
++ _symbolic _____Sg 20MLModelSpecification9MLProgramV8FunctionV
++ _symbolic ______AAt 20MLModelSpecification19SupportVectorKernelV4KindO
++ _symbolic ______AAt 20MLModelSpecification35SupportVectorRegressorConfigurationV0C7VectorsO
++ _symbolic ______AAt 20MLModelSpecification36SupportVectorClassifierConfigurationV0C7VectorsO
++ _symbolic _____ySS_____G s17_NativeDictionaryV 20MLModelSpecification9MLProgramV5BlockV
++ _symbolic _____ySS_____G s17_NativeDictionaryV 20MLModelSpecification9MLProgramV8FunctionV
++ _symbolic _____ySS______tG s23_ContiguousArrayStorageC 20MLModelSpecification9MLProgramV8FunctionV
++ _symbolic _____ySdG s23_ContiguousArrayStorageC
++ _symbolic _____y_____G s16IndexingIteratorV 20MLModelSpecification18DenseSupportVectorV
++ _symbolic _____y_____G s16IndexingIteratorV 20MLModelSpecification25SupportVectorCoefficientsV
++ _symbolic _____y_____G s16IndexingIteratorV 20MLModelSpecification28DenseSupportVectorCollectionV
++ _symbolic _____y_____G s16IndexingIteratorV 20MLModelSpecification29SparseSupportVectorCollectionV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 10Foundation3URLV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 20MLModelSpecification16Proto_SparseNodeV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 20MLModelSpecification17Proto_DenseVectorV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 20MLModelSpecification18DenseSupportVectorV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 20MLModelSpecification18Proto_CoefficientsV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 20MLModelSpecification18Proto_SparseVectorV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 20MLModelSpecification19SparseSupportVectorV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 20MLModelSpecification19SparseSupportVectorV0F4NodeV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 20MLModelSpecification25SupportVectorCoefficientsV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 20MLModelSpecification29Proto_BayesianProbitRegressorV13FeatureWeightV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 20MLModelSpecification29Proto_BayesianProbitRegressorV18FeatureValueWeightV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 20MLModelSpecification36BayesianProbitRegressorConfigurationV13FeatureWeightV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 20MLModelSpecification36BayesianProbitRegressorConfigurationV18FeatureValueWeightV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC s5Int32V
++ _symbolic _____y_____G s5SliceV 20MLModelSpecification18DenseSupportVectorV
++ _symbolic _____y_____G s5SliceV 20MLModelSpecification25SupportVectorCoefficientsV
++ _symbolic _____y_____G s5SliceV 20MLModelSpecification28DenseSupportVectorCollectionV
++ _symbolic _____y_____G s5SliceV 20MLModelSpecification29SparseSupportVectorCollectionV
+- _OUTLINED_FUNCTION_538
+- _OUTLINED_FUNCTION_539
+- ___swift_get_extra_inhabitant_index.36Tm
+- ___swift_get_extra_inhabitant_index.493Tm
+- ___swift_get_extra_inhabitant_index.4Tm
+- ___swift_get_extra_inhabitant_index.500Tm
+- ___swift_get_extra_inhabitant_index.503Tm
+- ___swift_get_extra_inhabitant_index.510Tm
+- ___swift_get_extra_inhabitant_index.530Tm
+- ___swift_get_extra_inhabitant_index.540Tm
+- ___swift_get_extra_inhabitant_index.559Tm
+- ___swift_get_extra_inhabitant_index.562Tm
+- ___swift_get_extra_inhabitant_index.56Tm
+- ___swift_get_extra_inhabitant_index.583Tm
+- ___swift_get_extra_inhabitant_index.599Tm
+- ___swift_get_extra_inhabitant_index.609Tm
+- ___swift_get_extra_inhabitant_index.653Tm
+- ___swift_get_extra_inhabitant_index.680Tm
+- ___swift_get_extra_inhabitant_index.716Tm
+- ___swift_get_extra_inhabitant_index.722Tm
+- ___swift_get_extra_inhabitant_index.725Tm
+- ___swift_get_extra_inhabitant_index.7Tm
+- ___swift_get_extra_inhabitant_index.92Tm
+- ___swift_get_extra_inhabitant_index.930Tm
+- ___swift_get_extra_inhabitant_index.95Tm
+- ___swift_store_extra_inhabitant_index.37Tm
+- ___swift_store_extra_inhabitant_index.494Tm
+- ___swift_store_extra_inhabitant_index.501Tm
+- ___swift_store_extra_inhabitant_index.504Tm
+- ___swift_store_extra_inhabitant_index.511Tm
+- ___swift_store_extra_inhabitant_index.531Tm
+- ___swift_store_extra_inhabitant_index.541Tm
+- ___swift_store_extra_inhabitant_index.553Tm
+- ___swift_store_extra_inhabitant_index.560Tm
+- ___swift_store_extra_inhabitant_index.563Tm
+- ___swift_store_extra_inhabitant_index.57Tm
+- ___swift_store_extra_inhabitant_index.584Tm
+- ___swift_store_extra_inhabitant_index.5Tm
+- ___swift_store_extra_inhabitant_index.600Tm
+- ___swift_store_extra_inhabitant_index.610Tm
+- ___swift_store_extra_inhabitant_index.654Tm
+- ___swift_store_extra_inhabitant_index.681Tm
+- ___swift_store_extra_inhabitant_index.717Tm
+- ___swift_store_extra_inhabitant_index.723Tm
+- ___swift_store_extra_inhabitant_index.726Tm
+- ___swift_store_extra_inhabitant_index.8Tm
+- ___swift_store_extra_inhabitant_index.931Tm
+- ___swift_store_extra_inhabitant_index.93Tm
+- ___swift_store_extra_inhabitant_index.96Tm
+- _objc_release_x28
+- _objc_retain_x19
+- _swift_setDeallocating
+CStrings:
++ ".ConstantDimension"
++ ".CustomLayerParamValue"
++ ".CustomModelParamValue"
++ ".EnumeratedImageSizes"
++ ".EnumeratedShapes"
++ ".FeatureValueWeight"
++ ".PaddingConstant"
++ ".PaddingReflection"
++ ".PaddingReplication"
++ ".RepeatedDoubles"
++ ".RepeatedLongInts"
++ ".RepeatedStrings"
++ ".UnknownDimension"
++ ".ValidCompletePadding"
++ "BFLOAT16"
++ "The requested feature is unavailable."
++ "com.apple.CoreML"
+- "Bayesian probit regressor model is not supported yet."
+- "MLModelSpecification/Model.swift"
+- "OBJECTS_VERSION_2"
+- "Proto.ArrayFeatureType.EnumeratedShapes"
+- "Proto.ArrayFeatureType.Shape"
+- "Proto.ArrayFeatureType.ShapeRange"
+- "Proto.BayesianProbitRegressor.FeatureValueWeight"
+- "Proto.BayesianProbitRegressor.FeatureWeight"
+- "Proto.BayesianProbitRegressor.Gaussian"
+- "Proto.BorderAmounts.EdgeSizes"
+- "Proto.CoreMLModels.AudioFeaturePrint.Sound"
+- "Proto.CoreMLModels.SoundAnalysisPreprocessing.Vggish"
+- "Proto.CoreMLModels.VisionFeaturePrint.Objects"
+- "Proto.CoreMLModels.VisionFeaturePrint.Scene"
+- "Proto.CustomLayerParams.CustomLayerParamValue"
+- "Proto.CustomModel.CustomModelParamValue"
+- "Proto.FeatureVectorizer.InputColumn"
+- "Proto.GLMClassifier.DoubleArray"
+- "Proto.GLMRegressor.DoubleArray"
+- "Proto.ImageFeatureType.EnumeratedImageSizes"
+- "Proto.ImageFeatureType.ImageSize"
+- "Proto.ImageFeatureType.ImageSizeRange"
+- "Proto.ItemSimilarityRecommender.ConnectedItem"
+- "Proto.ItemSimilarityRecommender.SimilarItems"
+- "Proto.MILSpec.Argument.Binding"
+- "Proto.MILSpec.DictionaryValue.KeyValuePair"
+- "Proto.MILSpec.Dimension.ConstantDimension"
+- "Proto.MILSpec.Dimension.UnknownDimension"
+- "Proto.MILSpec.TensorValue.RepeatedBools"
+- "Proto.MILSpec.TensorValue.RepeatedBytes"
+- "Proto.MILSpec.TensorValue.RepeatedDoubles"
+- "Proto.MILSpec.TensorValue.RepeatedFloats"
+- "Proto.MILSpec.TensorValue.RepeatedInts"
+- "Proto.MILSpec.TensorValue.RepeatedLongInts"
+- "Proto.MILSpec.TensorValue.RepeatedStrings"
+- "Proto.MILSpec.Value.BlobFileValue"
+- "Proto.MILSpec.Value.ImmediateValue"
+- "Proto.NonMaximumSuppression.PickTop"
+- "Proto.PaddingLayerParams.PaddingConstant"
+- "Proto.PaddingLayerParams.PaddingReflection"
+- "Proto.PaddingLayerParams.PaddingReplication"
+- "Proto.PoolingLayerParams.ValidCompletePadding"
+- "Proto.TreeEnsembleParameters.TreeNode"
+- "Proto.TreeEnsembleParameters.TreeNode.EvaluationInfo"
+- "Support vector classifier model is not supported yet."
+- "Support vector regressor model is not supported yet."
+- "com.apple.CreateML"
+- "k-nearest neighbors classifier model is not supported yet."
+
+```

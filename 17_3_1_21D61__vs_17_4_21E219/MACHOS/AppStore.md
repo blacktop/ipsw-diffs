@@ -1,0 +1,534 @@
+## AppStore
+
+> `/Applications/AppStore.app/AppStore`
+
+```diff
+
+-9.3.6.2.3
+-  __TEXT.__text: 0x71e768
+-  __TEXT.__auth_stubs: 0x12e00
++9.4.34.2.3
++  __TEXT.__text: 0x7417a4
++  __TEXT.__auth_stubs: 0x13420
+   __TEXT.__objc_stubs: 0x32c0
+-  __TEXT.__objc_methlist: 0xb8d4
+-  __TEXT.__const: 0x28664
+-  __TEXT.__objc_methname: 0x120fa
++  __TEXT.__objc_methlist: 0xbc9c
++  __TEXT.__const: 0x29064
++  __TEXT.__objc_methname: 0x12376
+   __TEXT.__objc_classname: 0x9cc
+   __TEXT.__objc_methtype: 0x4c24
+-  __TEXT.__cstring: 0x27167
++  __TEXT.__cstring: 0x27b47
+   __TEXT.__gcc_except_tab: 0xec
+-  __TEXT.__swift5_typeref: 0xcc4c
++  __TEXT.__swift5_typeref: 0xd1c8
+   __TEXT.__swift5_entry: 0x8
+-  __TEXT.__constg_swiftt: 0x17b14
+-  __TEXT.__swift5_builtin: 0x3c0
+-  __TEXT.__swift5_reflstr: 0x143b2
+-  __TEXT.__swift5_fieldmd: 0xfb74
+-  __TEXT.__swift5_assocty: 0x1c90
+-  __TEXT.__swift5_proto: 0x1ba8
+-  __TEXT.__swift5_types: 0xf38
+-  __TEXT.__swift5_capture: 0x75f4
+-  __TEXT.__swift5_protos: 0x1a8
+-  __TEXT.__swift5_mpenum: 0x2c
+-  __TEXT.__unwind_info: 0x14650
+-  __TEXT.__eh_frame: 0x1bf8
+-  __DATA_CONST.__auth_got: 0x9710
+-  __DATA_CONST.__got: 0x3920
+-  __DATA_CONST.__auth_ptr: 0x1b18
+-  __DATA_CONST.__const: 0x36c48
++  __TEXT.__constg_swiftt: 0x1806c
++  __TEXT.__swift5_builtin: 0x3ac
++  __TEXT.__swift5_reflstr: 0x148d2
++  __TEXT.__swift5_fieldmd: 0xff54
++  __TEXT.__swift5_assocty: 0x1c68
++  __TEXT.__swift5_proto: 0x1c0c
++  __TEXT.__swift5_types: 0xf78
++  __TEXT.__swift5_capture: 0x7960
++  __TEXT.__swift5_protos: 0x1b8
++  __TEXT.__swift5_mpenum: 0x24
++  __TEXT.__unwind_info: 0x14f34
++  __TEXT.__eh_frame: 0x1e70
++  __DATA_CONST.__auth_got: 0x9a20
++  __DATA_CONST.__got: 0x3a58
++  __DATA_CONST.__auth_ptr: 0x1ba8
++  __DATA_CONST.__const: 0x37c90
+   __DATA_CONST.__cfstring: 0x1500
+-  __DATA_CONST.__objc_classlist: 0x1260
++  __DATA_CONST.__objc_classlist: 0x12c8
+   __DATA_CONST.__objc_catlist: 0x68
+   __DATA_CONST.__objc_protolist: 0x420
+   __DATA_CONST.__objc_imageinfo: 0x8
++  __DATA_CONST.__objc_protorefs: 0x208
++  __DATA_CONST.__objc_classrefs: 0x970
++  __DATA_CONST.__objc_superrefs: 0xb8
+   __DATA_CONST.__objc_arraydata: 0x230
+   __DATA_CONST.__objc_arrayobj: 0xa8
+-  __DATA.__objc_const: 0x50a98
+-  __DATA.__objc_selrefs: 0x4220
+-  __DATA.__objc_protorefs: 0x208
+-  __DATA.__objc_classrefs: 0x958
+-  __DATA.__objc_superrefs: 0xb8
++  __DATA.__objc_const: 0x51178
++  __DATA.__objc_selrefs: 0x42f0
+   __DATA.__objc_ivar: 0x154
+-  __DATA.__objc_data: 0x26c08
+-  __DATA.__data: 0x2af80
+-  __DATA.__objc_stublist: 0x1b8
+-  __DATA.__bss: 0x2f358
+-  __DATA.__common: 0x6360
++  __DATA.__objc_data: 0x27958
++  __DATA.__data: 0x2c410
++  __DATA.__objc_stublist: 0x1c0
++  __DATA.__bss: 0x2fc58
++  __DATA.__common: 0x5ff8
+   - /System/Library/Frameworks/AVFAudio.framework/AVFAudio
+   - /System/Library/Frameworks/AVFoundation.framework/AVFoundation
+   - /System/Library/Frameworks/AVKit.framework/AVKit
+
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 30844
+-  Symbols:   8007
+-  CStrings:  7311
++  Functions: 31555
++  Symbols:   8156
++  CStrings:  7407
+ 
+Symbols:
++ _$s11AppStoreKit19DynamicTypeTextViewC010attributedf14ShouldOverridefG10AttributesSbvsTj
++ _$s11AppStoreKit19DynamicTypeTextViewC11fontUseCase5JetUI04FontiJ0OSgvsTj
++ _$s11AppStoreKit19DynamicTypeTextViewC13lineBreakModeSo06NSLineiJ0VvsTj
++ _$s11AppStoreKit19DynamicTypeTextViewC13numberOfLinesSivsTj
++ _$s11AppStoreKit19DynamicTypeTextViewC17hyphenationFactorSfvsTj
++ _$s11AppStoreKit19DynamicTypeTextViewC26contentSizeCategoryMappingSo09UIContentiJ0aAFcSgvsTj
++ _$s11AppStoreKit19DynamicTypeTextViewC5JetUI06LayoutfG0AAMc
++ _$s11AppStoreKit19DynamicTypeTextViewCMa
++ _$s11AppStoreKit19DynamicTypeTextViewCMn
++ _$s11AppStoreKit7ArtworkC0abC8InternalE7artworkACSgvg
++ _$s17PromotedContentUI21AppStoreMetricManagerC10interacted_4type10completionySS_AA0dE15InteractionTypeOyycSgtF
++ _$s17PromotedContentUI23AppStoreInteractionTypeO11adButtonGetyA2CmFWC
++ _$s17PromotedContentUI23AppStoreInteractionTypeO12adButtonOpenyA2CmFWC
++ _$s17PromotedContentUI23AppStoreInteractionTypeO13adButtonCloudyA2CmFWC
++ _$s17PromotedContentUI23AppStoreInteractionTypeO14adButtonCancelyA2CmFWC
++ _$s17PromotedContentUI23AppStoreInteractionTypeO14adButtonUpdateyA2CmFWC
++ _$s17PromotedContentUI23AppStoreInteractionTypeO17adButtonGetArcadeyA2CmFWC
++ _$s17PromotedContentUI23AppStoreInteractionTypeO6normalyA2CmFWC
++ _$s17PromotedContentUI23AppStoreInteractionTypeO7unknownyA2CmFWC
++ _$s17PromotedContentUI23AppStoreInteractionTypeO8adMarkeryA2CmFWC
++ _$s17PromotedContentUI23AppStoreInteractionTypeOMa
++ _$s19AppStoreKitInternal015PurchaseHistoryA15StateDataSourceC08purchaseF023additionalFamilyMembers07initialeF7Context0jfO03bagAcA0eF8Protocol_p_Says5Int64VGSgSo011ASDPurchasefO0VAoA14ASKBagContractCSgtcfc
++ _$s19AppStoreKitInternal06LegacyA22StateControllerFactoryP04makeafG05using10urlSession7process15purchaseHistory015initialPurchaseO7Context0noR013familyMembersAA0afG0_pAA14ASKBagContractC_So13AMSURLSessionCSo14AMSProcessInfoCAA0qO8Protocol_pSo011ASDPurchaseoR0VAUSaySo15AMSFamilyMemberCGtFTq
++ _$s19AppStoreKitInternal0A12StateMachineP6adamIdAA04AdamH0VvgTj
++ _$s19AppStoreKitInternal0A5StateO9installedyA2CmFWC
++ _$s19AppStoreKitInternal0A5StateOMn
++ _$s19AppStoreKitInternal10FlowActionC11setPageDatayyypSgF
++ _$s19AppStoreKitInternal11ArcadeStateO10subscribedyACSo8NSNumberCSg_AA0e13TrialEnrolledF0OtcACmFWC
++ _$s19AppStoreKitInternal13BasePresenterCMa
++ _$s19AppStoreKitInternal13BasePresenterCMn
++ _$s19AppStoreKitInternal15SearchFocusPageCMn
++ _$s19AppStoreKitInternal15localizedString_4withS2S_SDyS2SGtF
++ _$s19AppStoreKitInternal17InstallAttributorC30performClickThroughAttributionyyFTj
++ _$s19AppStoreKitInternal17SearchHistoryItemV16debugDescriptionSSvg
++ _$s19AppStoreKitInternal17SearchHistoryItemVMa
++ _$s19AppStoreKitInternal18BulkPurchaseResultV13purchasedAppsShyAA6AdamIdVGvg
++ _$s19AppStoreKitInternal18BulkPurchaseResultV28numberOfPurchasedArcadeGamesSivg
++ _$s19AppStoreKitInternal18PosterLockupLayoutV13contentHeightSdvgZ
++ _$s19AppStoreKitInternal20ChartOrCategoryBrickP15artworkSafeAreaAA0efghjK0VSgvgTj
++ _$s19AppStoreKitInternal21ArcadePackOfferActionC12offerActionsSayAA0gH0CGvg
++ _$s19AppStoreKitInternal21ArcadePackOfferActionCMa
++ _$s19AppStoreKitInternal21ArcadePackOfferActionCMn
++ _$s19AppStoreKitInternal21SponsoredSearchAdvertV10instanceId04adamI016assetInformation6adData6cppIds09serverCppI008selectedrI015appBinaryTraitsACSS_AA04AdamI0VSDys11AnyHashableVypGAPSaySSGSgSSSgAsRtcfC
++ _$s19AppStoreKitInternal21SponsoredSearchAdvertV15appBinaryTraitsSaySSGSgvg
++ _$s19AppStoreKitInternal22ArcadeDownloadPackCardC20numberOfPlaceholdersSiSgvg
++ _$s19AppStoreKitInternal22ArcadeDownloadPackCardC7lockupsSayAA6LockupCGvg
++ _$s19AppStoreKitInternal22ArcadeDownloadPackCardC9JetEngine14ComponentModelAAMc
++ _$s19AppStoreKitInternal22ArcadeDownloadPackCardCMa
++ _$s19AppStoreKitInternal22ArcadeDownloadPackCardCMn
++ _$s19AppStoreKitInternal22SheetEngagementManagerC07requesta6LaunchE0yyF
++ _$s19AppStoreKitInternal22SheetEngagementManagerC18presentationWindowSo8UIWindowCSgvs
++ _$s19AppStoreKitInternal22SheetEngagementManagerC31flowActionViewControllerFactorySo06UIViewK0CSgAA04FlowI0C_So17UITraitCollectionCtcSgvs
++ _$s19AppStoreKitInternal23ProductAnnotationLayoutV7MetricsV14disclosureSize0I13ContentInsets0I6Margin10titleSpace06detailO00pM004linkO006bottomO017horizontalSpacing025shouldDisclosureAlignWithK0AESo6CGSizeV_So06UIEdgeL0V5JetUI12AnyDimension_pAtU_pAtU_pAtU_pAtU_pAtU_pAtU_pSbtcfC
++ _$s19AppStoreKitInternal23ProductAnnotationLayoutV7MetricsV14disclosureSizeSo6CGSizeVvg
++ _$s19AppStoreKitInternal23ProductAnnotationLayoutV7MetricsV14disclosureSizeSo6CGSizeVvs
++ _$s19AppStoreKitInternal23RibbonBarItemCellLayoutC05interG7SpacingSdvgZ
++ _$s19AppStoreKitInternal23RibbonBarItemCellLayoutC10topPaddingSdvgZ
++ _$s19AppStoreKitInternal23RibbonBarItemCellLayoutC13bottomPaddingSdvgZ
++ _$s19AppStoreKitInternal24ArcadeTrialEnrolledStateOMa
++ _$s19AppStoreKitInternal24ArcadeTrialEnrolledStateOMn
++ _$s19AppStoreKitInternal24ClearSearchHistoryActionCMa
++ _$s19AppStoreKitInternal24ClearSearchHistoryActionCMn
++ _$s19AppStoreKitInternal25ArcadeDownloadPackStorageV5clearyyF
++ _$s19AppStoreKitInternal25ArcadeDownloadPackStorageVACycfC
++ _$s19AppStoreKitInternal25ArcadeDownloadPackStorageVMa
++ _$s19AppStoreKitInternal25UnifiedMessagingPlacementO8rawValueSSvg
++ _$s19AppStoreKitInternal25localizedStringForDecimalySSSgSo8NSNumberCSg_SitF
++ _$s19AppStoreKitInternal26ArcadeDownloadPackCategoryC16gradientEndColorSo7UIColorCvg
++ _$s19AppStoreKitInternal26ArcadeDownloadPackCategoryC17impressionMetrics9JetEngine010ImpressionJ0VSgvg
++ _$s19AppStoreKitInternal26ArcadeDownloadPackCategoryC18gradientStartColorSo7UIColorCvg
++ _$s19AppStoreKitInternal26ArcadeDownloadPackCategoryC5titleSSvg
++ _$s19AppStoreKitInternal26ArcadeDownloadPackCategoryC7artwork0abC07ArtworkCvg
++ _$s19AppStoreKitInternal26ArcadeDownloadPackCategoryCMn
++ _$s19AppStoreKitInternal26TodayCardMediaSingleLockupC011condensedAdI18WithIconBackgroundAA09CondensedkilmN0Cvg
++ _$s19AppStoreKitInternal27ChartOrCategoryBrickContextV0H4TypeO6searchyA2EmFWC
++ _$s19AppStoreKitInternal27ChartOrCategoryBrickContextV0H4TypeO8standardyA2EmFWC
++ _$s19AppStoreKitInternal27ChartOrCategoryBrickContextV0H4TypeOMa
++ _$s19AppStoreKitInternal27ChartOrCategoryBrickContextV5model10fontStyles2inAcA0efgH0_p_AA0efgh4FontL0_pAC0H4TypeOcSo17UITraitCollectionCtcfC
++ _$s19AppStoreKitInternal28ArcadeDownloadPackSuggestionC6lockupAA6LockupCvg
++ _$s19AppStoreKitInternal28ChartOrCategoryBrickSafeAreaV10ConstraintO13squareByWidthyA2EmFWC
++ _$s19AppStoreKitInternal28ChartOrCategoryBrickSafeAreaV10ConstraintO14squareByHeightyA2EmFWC
++ _$s19AppStoreKitInternal28ChartOrCategoryBrickSafeAreaV10ConstraintO8freeFormyA2EmFWC
++ _$s19AppStoreKitInternal28ChartOrCategoryBrickSafeAreaV10ConstraintOMa
++ _$s19AppStoreKitInternal28ChartOrCategoryBrickSafeAreaV13asRatioOfSizeSbvg
++ _$s19AppStoreKitInternal28ChartOrCategoryBrickSafeAreaV14constraintTypeAC10ConstraintOvg
++ _$s19AppStoreKitInternal28ChartOrCategoryBrickSafeAreaV5width12CoreGraphics7CGFloatVvg
++ _$s19AppStoreKitInternal28ChartOrCategoryBrickSafeAreaV6height12CoreGraphics7CGFloatVvg
++ _$s19AppStoreKitInternal28ChartOrCategoryBrickSafeAreaV8LocationV08RelativeK0O7midLeftyA2GmFWC
++ _$s19AppStoreKitInternal28ChartOrCategoryBrickSafeAreaV8LocationV08RelativeK0O7topLeftyA2GmFWC
++ _$s19AppStoreKitInternal28ChartOrCategoryBrickSafeAreaV8LocationV08RelativeK0O8topRightyA2GmFWC
++ _$s19AppStoreKitInternal28ChartOrCategoryBrickSafeAreaV8LocationV08RelativeK0OMa
++ _$s19AppStoreKitInternal28ChartOrCategoryBrickSafeAreaV8LocationV08relativeK0AE08RelativeK0Ovg
++ _$s19AppStoreKitInternal28ChartOrCategoryBrickSafeAreaV8LocationV8DistanceO8absoluteyAGSd_tcAGmFWC
++ _$s19AppStoreKitInternal28ChartOrCategoryBrickSafeAreaV8LocationV8DistanceO8relativeyAGSd_tcAGmFWC
++ _$s19AppStoreKitInternal28ChartOrCategoryBrickSafeAreaV8LocationV8DistanceOMa
++ _$s19AppStoreKitInternal28ChartOrCategoryBrickSafeAreaV8LocationV9distanceXAE8DistanceOvg
++ _$s19AppStoreKitInternal28ChartOrCategoryBrickSafeAreaV8LocationVMa
++ _$s19AppStoreKitInternal28ChartOrCategoryBrickSafeAreaV8locationAC8LocationVvg
++ _$s19AppStoreKitInternal28ChartOrCategoryBrickSafeAreaVMa
++ _$s19AppStoreKitInternal28ChartOrCategoryBrickSafeAreaVMn
++ _$s19AppStoreKitInternal28OnDeviceSearchHistoryManagerC12fetchRecents5limitSayAA0gH4ItemVGSi_tF
++ _$s19AppStoreKitInternal28OnDeviceSearchHistoryManagerC9clearDatayyF
++ _$s19AppStoreKitInternal28OnDeviceSearchHistoryManagerCMa
++ _$s19AppStoreKitInternal30TopChartsDiffablePagePresenterC22SegmentPresentersStateO10isCompleteSbvg
++ _$s19AppStoreKitInternal30TopChartsDiffablePagePresenterC22SegmentPresentersStateOMa
++ _$s19AppStoreKitInternal30TopChartsDiffablePagePresenterC22segmentPresentersStateAC07SegmentkL0Ovg
++ _$s19AppStoreKitInternal32ArcadeDownloadPackCategoriesPageC10categoriesSayAA0efG8CategoryCGvg
++ _$s19AppStoreKitInternal32ArcadeDownloadPackCategoriesPageC13dismissActionAA0K0Cvg
++ _$s19AppStoreKitInternal32ArcadeDownloadPackCategoriesPageC13primaryActionAA0K0Cvg
++ _$s19AppStoreKitInternal32ArcadeDownloadPackCategoriesPageC5titleSSvg
++ _$s19AppStoreKitInternal32SearchFocusDiffablePagePresenterC11objectGraph010sidePackedH023supportsFastImpressions30advertLifecycleMetricsReporterAC9JetEngine010BaseObjectK0C_AA0efH0CSbAA06AdvertrsT0_ptcfc
++ _$s19AppStoreKitInternal32SearchFocusDiffablePagePresenterCMa
++ _$s19AppStoreKitInternal32SearchFocusDiffablePagePresenterCMn
++ _$s19AppStoreKitInternal33ArcadeDownloadPackSuggestionsPageC11suggestionsSayAA0efG10SuggestionCGvg
++ _$s19AppStoreKitInternal33ArcadeDownloadPackSuggestionsPageC12getAllActionAA0L0CSgvg
++ _$s19AppStoreKitInternal33ArcadeDownloadPackSuggestionsPageC13primaryActionAA0K0Cvg
++ _$s19AppStoreKitInternal33ArcadeDownloadPackSuggestionsPageC5titleSSvg
++ _$s19AppStoreKitInternal34SearchLandingDiffablePagePresenterC07onFocusH7Fetched9JetEngine9SyncEventCyAA0ekH0CGvg
++ _$s19AppStoreKitInternal35CondensedAdLockupWithIconBackgroundC17backgroundArtwork0abC00L0Cvg
++ _$s19AppStoreKitInternal35CondensedAdLockupWithIconBackgroundC6lockupAA0G0Cvg
++ _$s19AppStoreKitInternal35CondensedAdLockupWithIconBackgroundC9JetEngine14ComponentModelAAMc
++ _$s19AppStoreKitInternal35CondensedAdLockupWithIconBackgroundCMa
++ _$s19AppStoreKitInternal36LinkableTextCollectionViewCellLayoutV5JetUI06CustomJ0AAMc
++ _$s19AppStoreKitInternal36LinkableTextCollectionViewCellLayoutV5JetUI9PlaceableAAMc
++ _$s19AppStoreKitInternal36LinkableTextCollectionViewCellLayoutV6layoutQrvpQOMQ
++ _$s19AppStoreKitInternal36LinkableTextCollectionViewCellLayoutV7MetricsV12textTopSpaceAE5JetUI12AnyDimension_p_tcfC
++ _$s19AppStoreKitInternal36LinkableTextCollectionViewCellLayoutV7MetricsVMa
++ _$s19AppStoreKitInternal36LinkableTextCollectionViewCellLayoutV7metrics9textLabelA2C7MetricsV_5JetUI9Placeable_ptcfC
++ _$s19AppStoreKitInternal36LinkableTextCollectionViewCellLayoutVMa
++ _$s19AppStoreKitInternal39MediumAdLockupWithScreenshotsBackgroundC10riverSpeed12CoreGraphics7CGFloatVSgvg
++ _$s19AppStoreKitInternal39MediumAdLockupWithScreenshotsBackgroundC11screenshotsSayAA0I0CGvg
++ _$s19AppStoreKitInternal39MediumAdLockupWithScreenshotsBackgroundC15backgroundColorSo7UIColorCSgvg
++ _$s19AppStoreKitInternal39MediumAdLockupWithScreenshotsBackgroundC18secondaryTextColorSo7UIColorCSgvg
++ _$s19AppStoreKitInternal39MediumAdLockupWithScreenshotsBackgroundC6lockupAA0G0Cvg
++ _$s19AppStoreKitInternal39MediumAdLockupWithScreenshotsBackgroundC9JetEngine14ComponentModelAAMc
++ _$s19AppStoreKitInternal39MediumAdLockupWithScreenshotsBackgroundCAA27ManagedArtworkModelProtocolAAWP
++ _$s19AppStoreKitInternal39MediumAdLockupWithScreenshotsBackgroundCMa
++ _$s19AppStoreKitInternal41ArcadeDownloadPackCategoriesPagePresenterC11objectGraph18subscriptionStatusAC9JetEngine010BaseObjectL0C_SStcfc
++ _$s19AppStoreKitInternal41ArcadeDownloadPackCategoriesPagePresenterC16didTapSkipButtonyyFTj
++ _$s19AppStoreKitInternal41ArcadeDownloadPackCategoriesPagePresenterC20didTapContinueButtonyyFTj
++ _$s19AppStoreKitInternal41ArcadeDownloadPackCategoriesPagePresenterC4viewAA0efghiJ4View_pSgvsTj
++ _$s19AppStoreKitInternal41ArcadeDownloadPackCategoriesPagePresenterC6toggle8categoryyAA0efG8CategoryC_tFTj
++ _$s19AppStoreKitInternal41ArcadeDownloadPackCategoriesPagePresenterCMa
++ _$s19AppStoreKitInternal41ArcadeDownloadPackCategoriesPagePresenterCMn
++ _$s19AppStoreKitInternal41TodayCardMediaMediumLockupWithScreenshotsC08mediumAdijK10BackgroundAA0hmijkN0Cvg
++ _$s19AppStoreKitInternal42ArcadeDownloadPackSuggestionsPagePresenterC11objectGraph10categories18subscriptionStatusAC9JetEngine010BaseObjectL0C_SayAA0efG8CategoryCGSStcfc
++ _$s19AppStoreKitInternal42ArcadeDownloadPackSuggestionsPagePresenterC16didTapDoneButtonyyFTj
++ _$s19AppStoreKitInternal42ArcadeDownloadPackSuggestionsPagePresenterC4viewAA0efghiJ4View_pSgvsTj
++ _$s19AppStoreKitInternal42ArcadeDownloadPackSuggestionsPagePresenterCMa
++ _$s19AppStoreKitInternal42ArcadeDownloadPackSuggestionsPagePresenterCMn
++ _$s19AppStoreKitInternal45ArcadeDownloadPackCategoriesPagePresenterViewMp
++ _$s19AppStoreKitInternal45ArcadeDownloadPackCategoriesPagePresenterViewP15showSuggestions08selectedH018subscriptionStatusySayAA0efG8CategoryCG_SStFTq
++ _$s19AppStoreKitInternal45ArcadeDownloadPackCategoriesPagePresenterViewP5apply7contentyAA0efghI0C_tFTq
++ _$s19AppStoreKitInternal45ArcadeDownloadPackCategoriesPagePresenterViewP6update5stateyAA0efghijK5StateV_tFTq
++ _$s19AppStoreKitInternal45ArcadeDownloadPackCategoriesPagePresenterViewPAA06ActionjK0Tb
++ _$s19AppStoreKitInternal45ArcadeDownloadPackCategoriesPagePresenterViewPAA09UpdatablejK0Tb
++ _$s19AppStoreKitInternal46ArcadeDownloadPackSuggestionsPagePresenterViewMp
++ _$s19AppStoreKitInternal46ArcadeDownloadPackSuggestionsPagePresenterViewP5apply7contentyAA0efghI0C_tFTq
++ _$s19AppStoreKitInternal46ArcadeDownloadPackSuggestionsPagePresenterViewPAA06ActionjK0Tb
++ _$s19AppStoreKitInternal46ArcadeDownloadPackSuggestionsPagePresenterViewPAA09UpdatablejK0Tb
++ _$s19AppStoreKitInternal50ArcadeDownloadPackCategoriesPagePresenterViewStateV10countTitleSSvg
++ _$s19AppStoreKitInternal50ArcadeDownloadPackCategoriesPagePresenterViewStateV20primaryButtonEnabledSbvg
++ _$s19AppStoreKitInternal50ArcadeDownloadPackCategoriesPagePresenterViewStateV24categorySelectionEnabledSbvg
++ _$s19AppStoreKitInternal5ShelfC11ContentTypeO22arcadeDownloadPackCardyA2EmFWC
++ _$s19AppStoreKitInternal5ShelfC11ContentTypeO35condensedAdLockupWithIconBackgroundyA2EmFWC
++ _$s19AppStoreKitInternal5ShelfC11ContentTypeO39mediumAdLockupWithScreenshotsBackgroundyA2EmFWC
++ _$s19AppStoreKitInternal5ShelfC17PresentationHintsV15isSeeAllContextAEvgZ
++ _$s19AppStoreKitInternal6ActionC11clickSenderypSgvgTj
++ _$s19AppStoreKitInternal6ActionC11clickSenderypSgvsTj
++ _$s19AppStoreKitInternal7FeatureO20arcade_download_packyA2CmFWC
++ _$s19AppStoreKitInternal7FeatureO3iOSO18search_focus_stateyA2EmFWC
++ _$s19AppStoreKitInternal8CommerceC8purchase4with9JetEngine7PromiseCyAA18BulkPurchaseResultVGSayAA0L6IntentVG_tFTj
++ _$s19AppStoreKitInternal8FlowPageO28arcadeDownloadPackCategoriesyA2CmFWC
++ _$s19AppStoreKitInternal9OfferTintO6customyACSo7UIColorC_AFtcACmFWC
++ _$s19AppStoreKitInternal9RiverViewC9flushRowsyyFTj
++ _$s5JetUI13DisjointStackV10PropertiesV17anchorsHugContentSbvs
++ _$s5JetUI16CustomLayoutViewC03didD0yyFTq
++ _$s5JetUI16CustomLayoutViewCMa
++ _$s5JetUI16CustomLayoutViewCMu
++ _$s5UIKit25UIBackgroundConfigurationV26backgroundColorTransformerAA015UIConfigurationeF0VSgvs
++ _$sSayxGSlsMc
++ _$sSf11descriptionSSvg
++ _$sSo25AMSEngagementMessageEventC19AppStoreKitInternalE08appstorebC04withABSaySo0A13PlacementInfoCG_tFZ
++ _$sSo6UIViewC5UIKitE7animate14springDuration6bounce21initialSpringVelocity5delay7options10animations10completionySd_12CoreGraphics7CGFloatVANSdSo0A16AnimationOptionsVyyXEySbcSgtFZ
++ _$sSo7UIColorC5JetUIE11highlightedABvg
++ _$sSo8UIButtonC5UIKitE13ConfigurationV10backgroundAC012UIBackgroundC0Vvg
++ _$sSo8UIButtonC5UIKitE13ConfigurationV10backgroundAC012UIBackgroundC0Vvs
++ _$sSo8UIButtonC5UIKitE13ConfigurationV6filledAEyFZ
++ _$ss11_MergeErrorON
++ _$ss11_MergeErrorOs0B0sWP
++ _$ss17_assertionFailure__4file4line5flagss5NeverOs12StaticStringV_A2HSus6UInt32VtF
++ _$ss18_fatalErrorMessage__4file4line5flagss5NeverOs12StaticStringV_A2HSus6UInt32VtF
++ _OBJC_CLASS_$_AMSEngagementPlacementInfo
++ _OBJC_CLASS_$_AMSOpenURL
++ _OBJC_CLASS_$_NSThread
++ _swift_unexpectedError
++ _swift_unknownObjectWeakCopyAssign
++ _swift_unknownObjectWeakCopyInit
++ _swift_unknownObjectWeakTakeAssign
++ _swift_unknownObjectWeakTakeInit
+- _$s17PromotedContentUI21AppStoreMetricManagerC03getD0_11buttonState10completionySS_So08ADButtonJ0VyycSgtF
+- _$s17PromotedContentUI21AppStoreMetricManagerC10interactedyySSF
+- _$s17PromotedContentUI21AppStoreMetricManagerC18adMarkerInteractedyySSF
+- _$s19AppStoreKitInternal015PurchaseHistoryA15StateDataSourceC08purchaseF023additionalFamilyMembers0jF7Context3bagAcA0eF8Protocol_p_Says5Int64VGSgSo011ASDPurchasefN0VAA14ASKBagContractCSgtcfc
+- _$s19AppStoreKitInternal019TodayCardMediaMixedG5RiverC11screenshotsSayAA11ScreenshotsCGvg
+- _$s19AppStoreKitInternal019TodayCardMediaMixedG5RiverC8trailersSayAA8TrailersCGvg
+- _$s19AppStoreKitInternal019TodayCardMediaMixedG5RiverCMa
+- _$s19AppStoreKitInternal019TodayCardMediaMixedG5RiverCMn
+- _$s19AppStoreKitInternal06LegacyA22StateControllerFactoryP04makeafG05using10urlSession7process15purchaseHistory0nO7Context13familyMembersAA0afG0_pAA14ASKBagContractC_So13AMSURLSessionCSo14AMSProcessInfoCAA08PurchaseO8Protocol_pSo011ASDPurchaseoP0VSaySo15AMSFamilyMemberCGtFTq
+- _$s19AppStoreKitInternal10FlowActionC8pageDataypSgvg
+- _$s19AppStoreKitInternal10FlowActionC8pageDataypSgvs
+- _$s19AppStoreKitInternal11ArcadeStateO10subscribedyACSo8NSNumberCSg_tcACmFWC
+- _$s19AppStoreKitInternal15localizedString6format_S2S_s7CVarArg_pdtF
+- _$s19AppStoreKitInternal17InstallAttributorC29performAttributionIfNecessaryyyFTj
+- _$s19AppStoreKitInternal18LinkableTextLayoutV13placeChildren10relativeTo2in5JetUI0G4RectVSo6CGRectV_So18UITraitEnvironment_ptF
+- _$s19AppStoreKitInternal18LinkableTextLayoutV5JetUI10MeasurableAAMc
+- _$s19AppStoreKitInternal18LinkableTextLayoutV7MetricsV12textTopSpaceAE5JetUI12AnyDimension_p_tcfC
+- _$s19AppStoreKitInternal18LinkableTextLayoutV7MetricsVMa
+- _$s19AppStoreKitInternal18LinkableTextLayoutV7metrics9textLabelA2C7MetricsV_5JetUI0gF4View_ptcfC
+- _$s19AppStoreKitInternal18LinkableTextLayoutVMa
+- _$s19AppStoreKitInternal18SearchAdDisplayingP02isgeF0SbvgTj
+- _$s19AppStoreKitInternal21SponsoredSearchAdvertV10instanceId04adamI016assetInformation6adData6cppIds09serverCppI008selectedrI0ACSS_AA04AdamI0VSDys11AnyHashableVypGAOSaySSGSgSSSgARtcfC
+- _$s19AppStoreKitInternal22SheetEngagementManagerC014requestInitiala5LevelE0yyF
+- _$s19AppStoreKitInternal22SheetEngagementManagerC18presentationWindow8asPartOfACSo8UIWindowC_9JetEngine15BaseObjectGraphCtcfc
+- _$s19AppStoreKitInternal23ProductAnnotationLayoutV7MetricsV14disclosureSize0I13ContentInsets0I6Margin10titleSpace06detailO004linkO006bottomO017horizontalSpacing025shouldDisclosureAlignWithK0AESo6CGSizeV_So06UIEdgeL0V5JetUI12AnyDimension_pAsT_pAsT_pAsT_pAsT_pAsT_pSbtcfC
+- _$s19AppStoreKitInternal26TodayCardMediaSingleLockupC17backgroundArtwork0abC00K0Cvg
+- _$s19AppStoreKitInternal26TodayCardMediaSingleLockupC6lockupAA0I0Cvg
+- _$s19AppStoreKitInternal27ChartOrCategoryBrickContextV5model10fontStyles2inAcA0efgH0_p_AA0efgh4FontL0_pSo17UITraitCollectionCtcfC
+- _$s19AppStoreKitInternal31EmptyShelfSupplementaryProviderCAA0fgH0AAWP
+- _$s19AppStoreKitInternal31EmptyShelfSupplementaryProviderCACycfc
+- _$s19AppStoreKitInternal31EmptyShelfSupplementaryProviderCMa
+- _$s19AppStoreKitInternal37TodayCardMixedMediaRiverLockupOverlayC6lockupAA0J0Cvg
+- _$s19AppStoreKitInternal37TodayCardMixedMediaRiverLockupOverlayCMa
+- _$s19AppStoreKitInternal37TodayCardMixedMediaRiverLockupOverlayCMn
+- _$s19AppStoreKitInternal41TodayCardMediaMediumLockupWithScreenshotsC10riverSpeed12CoreGraphics7CGFloatVSgvg
+- _$s19AppStoreKitInternal41TodayCardMediaMediumLockupWithScreenshotsC11screenshotsSayAA0K0CGvg
+- _$s19AppStoreKitInternal41TodayCardMediaMediumLockupWithScreenshotsC15backgroundColorSo7UIColorCSgvg
+- _$s19AppStoreKitInternal41TodayCardMediaMediumLockupWithScreenshotsC18secondaryTextColorSo7UIColorCSgvg
+- _$s19AppStoreKitInternal41TodayCardMediaMediumLockupWithScreenshotsC6lockupAA0I0Cvg
+- _$s19AppStoreKitInternal8RiverRowC5itemsSDySi4ViewQzGvg
+- _$s19AppStoreKitInternal8RiverRowC5itemsSDySi4ViewQzGvpMV
+- _$s19AppStoreKitInternal8RiverRowCMn
+- _$s19AppStoreKitInternal8TrailersCMn
+- _$s19AppStoreKitInternal9RiverViewC4rowsSayAA0E3RowCyxGGvgTj
+- _$s5UIKit19UITraitDisplayScaleVAA0B10DefinitionAAWP
+- _$s5UIKit19UITraitDisplayScaleVMa
+- _$sSfs7CVarArgsWP
+- _$sSo18NSAttributedStringC19AppStoreKitInternalE4text17hyphenationFactorABSS_SftcfC
+- _$sSo25AMSEngagementMessageEventC19AppStoreKitInternalE08appstorebC03forAbC25UnifiedMessagingPlacementO_tFZ
+- _$ss10ArraySliceVMn
+- _objc_retain_x5
+CStrings:
++ "$__lazy_storage_$__searchBar"
++ "$__lazy_storage_$_topContentConstraint"
++ ", segmentPresentersState: "
++ "AppStore.ArcadeDownloadPackCategoryButton"
++ "AppStore.ArcadeDownloadPackViewController"
++ "AppStore.SearchController"
++ "AppStore/ArcadeDownloadPackCategoriesPageView.swift"
++ "AppStore/ArcadeDownloadPackCategoryButton.swift"
++ "AppStore/ArcadeDownloadPackCategoryListView.swift"
++ "AppStore/ArcadeDownloadPackCollectionViewCell.swift"
++ "AppStore/ArcadeDownloadPackGameLockupPlaceholder.swift"
++ "AppStore/ArcadeDownloadPackGamesCardView.swift"
++ "AppStore/ArcadeDownloadPackSuggestionsPageView.swift"
++ "AppStore/CondensedAdLockupWithIconBackgroundCollectionViewCell.swift"
++ "AppStore/CondensedAdLockupWithIconBackgroundView.swift"
++ "AppStore/MediumAdLockupWithScreenshotsBackgroundCollectionViewCell.swift"
++ "AppStore/MediumAdLockupWithScreenshotsBackgroundView.swift"
++ "Arcade Download Pack - Existing User"
++ "Arcade Download Pack - Fallback"
++ "Arcade Download Pack - New User"
++ "Arcade Download Pack Shelf - Cleanup storage (requires page reload)"
++ "ArcadeDownloadPackCollectionViewCell does not support orthogonal rendering"
++ "Can't construct Array with count < 0"
++ "Division by zero"
++ "Division results in an overflow"
++ "Duplicate values for key: '"
++ "Index out of range"
++ "Missing subscriptionStatus for"
++ "Range requires lowerBound <= upperBound"
++ "Search.ResultsTitle.InArcade"
++ "Search.ResultsTitle.InDevelopers"
++ "Search.ResultsTitle.InStories"
++ "Search.ResultsTitle.InWatch"
++ "Swift/Array.swift"
++ "Swift/Dictionary.swift"
++ "Swift/IntegerTypes.swift"
++ "Swift/NativeDictionary.swift"
++ "Swift/Range.swift"
++ "Swift/UnsafePointer.swift"
++ "T@\"NSString\",?,R,C"
++ "T@\"NSString\",?,R,C,N"
++ "T@\"UIBezierPath\",?,R,N"
++ "T@\"UIFocusEffect\",?,R,C,N"
++ "T@\"UIView\",?,R,W,N"
++ "T@\"UIWindow\",?,&,N"
++ "TB,?,R"
++ "TB,?,R,N"
++ "TQ,?,R,N"
++ "Td,?,N"
++ "Td,?,R,N"
++ "Tq,?,R,N"
++ "UnsafeMutablePointer.initialize overlapping range"
++ "UnsafeMutablePointer.initialize with negative count"
++ "UnsafeMutablePointer.moveInitialize with negative count"
++ "Updates.VersionWithSize"
++ "_TtC8AppStore31ArcadeDownloadPackGamesCardView"
++ "_TtC8AppStore32ArcadeDownloadPackCategoryButton"
++ "_TtC8AppStore32ArcadeDownloadPackViewController"
++ "_TtC8AppStore34ArcadeDownloadPackCategoryListView"
++ "_TtC8AppStore36ArcadeDownloadPackCategoriesPageView"
++ "_TtC8AppStore36ArcadeDownloadPackCollectionViewCell"
++ "_TtC8AppStore37ArcadeDownloadPackSuggestionsPageView"
++ "_TtC8AppStore37SearchFocusDiffablePageViewController"
++ "_TtC8AppStore38PromotedContentInteractionTypeProvider"
++ "_TtC8AppStore39ArcadeDownloadPackGameLockupPlaceholder"
++ "_TtC8AppStore39CondensedAdLockupWithIconBackgroundView"
++ "_TtC8AppStore42ArcadeDownloadPackCategoriesViewController"
++ "_TtC8AppStore43ArcadeDownloadPackSuggestionsViewController"
++ "_TtC8AppStore43MediumAdLockupWithScreenshotsBackgroundView"
++ "_TtC8AppStore51SearchChartsAndCategoriesShelfSupplementaryProvider"
++ "_TtC8AppStore53CondensedAdLockupWithIconBackgroundCollectionViewCell"
++ "_TtC8AppStore57MediumAdLockupWithScreenshotsBackgroundCollectionViewCell"
++ "_TtC8AppStore66CondensedAdLockupWithIconBackgroundViewTodayCardCollectionViewCell"
++ "_TtC8AppStore66MediumAdLockupWithScreenshotsBackgroundTodayCardCollectionViewCell"
++ "_TtCC8AppStore39ArcadeDownloadPackGameLockupPlaceholderP33_7EC85A07D4EE06E56D762B445D3F2D9D22PlaceholderOfferButton"
++ "_headerTopOffset"
++ "appBinaryTraits"
++ "appStateMachines"
++ "arcadeDownloadPackCategoriesPage"
++ "automationElements"
++ "bezierPathWithRect:"
++ "categoriesView"
++ "completionTask"
++ "condensedAdLockupWithIconBackgroundView"
++ "constant"
++ "constraintEqualToAnchor:constant:"
++ "designGridPosterLockup"
++ "didPress:"
++ "didRelease:"
++ "didTapContinueButton"
++ "didTapDoneButton"
++ "didTapDownloadAllButton"
++ "didTapSkipButton"
++ "doneButton"
++ "downloadAllAction"
++ "downloadAllButton"
++ "firstColumn"
++ "gameLockupViews"
++ "gamesView"
++ "includePaddingAboveContentView"
++ "initWithArrangedSubviews:"
++ "initWithPlacement:context:"
++ "interactionType:"
++ "interactionTypeProvider"
++ "invalidateMeasurements"
++ "isArtworkFullWidth"
++ "isMainThread"
++ "itms-apps://arcadeDownloadPack"
++ "itms-apps://arcadeDownloadPack?subscriptionStatus=existing"
++ "itms-apps://arcadeDownloadPack?subscriptionStatus=new"
++ "joeColorGradientOverlayContainer"
++ "lockupArtworkImage"
++ "lockupClickEnabled"
++ "mediumAdLockupWithScreenshotsBackgroundView"
++ "messagesNonLargeTitleAdditionalSafeAreaInsetsTop"
++ "openStandardURL:"
++ "pageGridInsets"
++ "riverAnimatedIconsView"
++ "riverBackgroundGradientView"
++ "riverIconArtworkImage"
++ "searchFocusViewController"
++ "secondColumn"
++ "selectedBackgroundView"
++ "setAppBinaryTraits:"
++ "setAutomationElements:"
++ "setBackButtonDisplayMode:"
++ "setCaptionText:style:"
++ "setConfigurationUpdateHandler:"
++ "setConstant:"
++ "setEditable:"
++ "setExclusionPaths:"
++ "setSelectable:"
++ "setShowsSearchResultsController:"
++ "skipButton"
++ "systemLayoutSizeFittingSize:"
++ "v16@?0@\"UIButton\"8"
+- "App Store has resilient deep links to show, SheetEngagementManager not created. No full or half sheets will be shown during this App Store session"
+- "App Store is running PPTs, SheetEngagementManager not created. No full or half sheets will be shown during this App Store session"
+- "AppStore.MediaContainerView"
+- "AppStore/MixedMediaRiverTodayCardCollectionViewCell.swift"
+- "AppStore/TodayCardMixedMediaRiverLockupOverlayView.swift"
+- "Attempting to create a SheetEngagementManager"
+- "LinkableTextCollectionViewCell does not support orthogonal rendering"
+- "No object graph available, SheetEngagementManager not created. No full or half sheets will be shown during this App Store session"
+- "No presentation window available, SheetEngagementManager not created. No full or half sheets will be shown during this App Store session"
+- "SEARCH_RESULTS_IN_ARCADE"
+- "SEARCH_RESULTS_IN_DEVELOPERS"
+- "SEARCH_RESULTS_IN_STORIES"
+- "SEARCH_RESULTS_IN_WATCH"
+- "SheetEngagementManager"
+- "SheetEngagementManager already exists in the object graph, we only need one. pullPendingSheetAndBeginListeningForPushedSheet was probably called twice"
+- "SheetEngagementManager created and added to object graph"
+- "Something in Apple Arcade"
+- "T@\"UIBezierPath\",R,N"
+- "T@\"UIFocusEffect\",R,C,N"
+- "T@\"UIView\",R,W,N"
+- "T@\"UIWindow\",&,N"
+- "Td,R,N"
+- "UPDATES_VERSION_SIZE"
+- "_TtC8AppStore18MediaContainerView"
+- "_TtC8AppStore29MixedMediaRiverCardDataSource"
+- "_TtC8AppStore39SingleLockupTodayCardCollectionViewCell"
+- "_TtC8AppStore41TodayCardMixedMediaRiverLockupOverlayView"
+- "_TtC8AppStore42MixedMediaRiverTodayCardCollectionViewCell"
+- "_TtC8AppStore54MediumLockupWithScreenshotsTodayCardCollectionViewCell"
+- "_searchBar"
+- "backgroundContainerView"
+- "backgroundRiverView"
+- "displayStyle"
+- "hasAnimatedMedia"
+- "localizedString(format:)"
+- "mirrorVideoViewProvider"
+- "nonLargeTitleCollectionViewMargin"
+- "searchLandingPage"
+- "setAccessibilityElementsHidden:"
+- "setShouldRasterize:"
+- "trailers"
+
+```

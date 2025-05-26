@@ -1,0 +1,170 @@
+## TipsDaemon
+
+> `/System/Library/PrivateFrameworks/TipsDaemon.framework/TipsDaemon`
+
+```diff
+
+-719.0.0.0.0
+-  __TEXT.__text: 0x8685c
++720.1.0.0.0
++  __TEXT.__text: 0x8684c
+   __TEXT.__auth_stubs: 0x1940
+-  __TEXT.__objc_methlist: 0x2ff4
+-  __TEXT.__const: 0x1990
++  __TEXT.__objc_methlist: 0x2fe4
++  __TEXT.__const: 0x19b0
+   __TEXT.__gcc_except_tab: 0x12b8
+   __TEXT.__oslogstring: 0x1f5e
+-  __TEXT.__cstring: 0x3aa2
++  __TEXT.__cstring: 0x3a92
+   __TEXT.__dlopen_cstrs: 0xc37
+   __TEXT.__swift5_typeref: 0xacc
+   __TEXT.__swift5_fieldmd: 0x570
+
+   __TEXT.__swift5_assocty: 0x170
+   __TEXT.__swift5_proto: 0x16c
+   __TEXT.__swift5_mpenum: 0x8
+-  __TEXT.__unwind_info: 0x2e14
++  __TEXT.__unwind_info: 0x2e10
+   __TEXT.__eh_frame: 0x3620
+   __TEXT.__objc_classname: 0xf9c
+-  __TEXT.__objc_methname: 0x95b1
++  __TEXT.__objc_methname: 0x9573
+   __TEXT.__objc_methtype: 0xc64
+   __TEXT.__objc_stubs: 0x7a60
+   __DATA_CONST.__got: 0x3b8
+-  __DATA_CONST.__const: 0x2058
++  __DATA_CONST.__const: 0x2050
+   __DATA_CONST.__objc_classlist: 0x488
+   __DATA_CONST.__objc_catlist: 0x8
+   __DATA_CONST.__objc_protolist: 0x78
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_const: 0x5040
+-  __DATA_CONST.__objc_selrefs: 0x2488
++  __DATA_CONST.__objc_selrefs: 0x2470
+   __DATA_CONST.__objc_arraydata: 0x110
+   __AUTH_CONST.__objc_const: 0x2d40
+-  __AUTH_CONST.__cfstring: 0x2b40
++  __AUTH_CONST.__cfstring: 0x2b20
+   __AUTH_CONST.__const: 0x1bb8
+   __AUTH_CONST.__objc_intobj: 0xd8
+   __AUTH_CONST.__objc_arrayobj: 0x60
+
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+-  Functions: 2875
+-  Symbols:   6200
+-  CStrings:  2552
++  Functions: 2874
++  Symbols:   6197
++  CStrings:  2548
+ 
+Symbols:
++ GCC_except_table120
++ _TPSCommonDefinesCloudDeviceIdentifier
++ ___189-[TPSTipsManager contentFromOrigin:processTipKitContent:contextualEligibility:widgetEligibility:notificationEligibility:preferredNotificationIdentifiers:shouldDeferBlock:completionHandler:]_block_invoke.230
++ ___189-[TPSTipsManager contentFromOrigin:processTipKitContent:contextualEligibility:widgetEligibility:notificationEligibility:preferredNotificationIdentifiers:shouldDeferBlock:completionHandler:]_block_invoke_2.231
++ ___189-[TPSTipsManager contentFromOrigin:processTipKitContent:contextualEligibility:widgetEligibility:notificationEligibility:preferredNotificationIdentifiers:shouldDeferBlock:completionHandler:]_block_invoke_3.235
++ ___189-[TPSTipsManager contentFromOrigin:processTipKitContent:contextualEligibility:widgetEligibility:notificationEligibility:preferredNotificationIdentifiers:shouldDeferBlock:completionHandler:]_block_invoke_4.236
++ ___221-[TPSTipsManager contentWithMetaDictionary:documents:isRemote:processOfflineContent:processTipKitContent:contextualEligibility:widgetEligibility:notificationEligibility:preferredNotificationIdentifiers:completionHandler:]_block_invoke.249
++ ___221-[TPSTipsManager contentWithMetaDictionary:documents:isRemote:processOfflineContent:processTipKitContent:contextualEligibility:widgetEligibility:notificationEligibility:preferredNotificationIdentifiers:completionHandler:]_block_invoke.262
++ ___221-[TPSTipsManager contentWithMetaDictionary:documents:isRemote:processOfflineContent:processTipKitContent:contextualEligibility:widgetEligibility:notificationEligibility:preferredNotificationIdentifiers:completionHandler:]_block_invoke.271
++ ___221-[TPSTipsManager contentWithMetaDictionary:documents:isRemote:processOfflineContent:processTipKitContent:contextualEligibility:widgetEligibility:notificationEligibility:preferredNotificationIdentifiers:completionHandler:]_block_invoke.279
++ ___221-[TPSTipsManager contentWithMetaDictionary:documents:isRemote:processOfflineContent:processTipKitContent:contextualEligibility:widgetEligibility:notificationEligibility:preferredNotificationIdentifiers:completionHandler:]_block_invoke.297
++ ___221-[TPSTipsManager contentWithMetaDictionary:documents:isRemote:processOfflineContent:processTipKitContent:contextualEligibility:widgetEligibility:notificationEligibility:preferredNotificationIdentifiers:completionHandler:]_block_invoke.303
++ ___221-[TPSTipsManager contentWithMetaDictionary:documents:isRemote:processOfflineContent:processTipKitContent:contextualEligibility:widgetEligibility:notificationEligibility:preferredNotificationIdentifiers:completionHandler:]_block_invoke_2.250
++ ___221-[TPSTipsManager contentWithMetaDictionary:documents:isRemote:processOfflineContent:processTipKitContent:contextualEligibility:widgetEligibility:notificationEligibility:preferredNotificationIdentifiers:completionHandler:]_block_invoke_2.266
++ ___221-[TPSTipsManager contentWithMetaDictionary:documents:isRemote:processOfflineContent:processTipKitContent:contextualEligibility:widgetEligibility:notificationEligibility:preferredNotificationIdentifiers:completionHandler:]_block_invoke_2.273
++ ___221-[TPSTipsManager contentWithMetaDictionary:documents:isRemote:processOfflineContent:processTipKitContent:contextualEligibility:widgetEligibility:notificationEligibility:preferredNotificationIdentifiers:completionHandler:]_block_invoke_2.280
++ ___221-[TPSTipsManager contentWithMetaDictionary:documents:isRemote:processOfflineContent:processTipKitContent:contextualEligibility:widgetEligibility:notificationEligibility:preferredNotificationIdentifiers:completionHandler:]_block_invoke_2.299
++ ___221-[TPSTipsManager contentWithMetaDictionary:documents:isRemote:processOfflineContent:processTipKitContent:contextualEligibility:widgetEligibility:notificationEligibility:preferredNotificationIdentifiers:completionHandler:]_block_invoke_2.299.cold.1
++ ___221-[TPSTipsManager contentWithMetaDictionary:documents:isRemote:processOfflineContent:processTipKitContent:contextualEligibility:widgetEligibility:notificationEligibility:preferredNotificationIdentifiers:completionHandler:]_block_invoke_2.306
++ ___221-[TPSTipsManager contentWithMetaDictionary:documents:isRemote:processOfflineContent:processTipKitContent:contextualEligibility:widgetEligibility:notificationEligibility:preferredNotificationIdentifiers:completionHandler:]_block_invoke_3.255
++ ___221-[TPSTipsManager contentWithMetaDictionary:documents:isRemote:processOfflineContent:processTipKitContent:contextualEligibility:widgetEligibility:notificationEligibility:preferredNotificationIdentifiers:completionHandler:]_block_invoke_3.267
++ ___221-[TPSTipsManager contentWithMetaDictionary:documents:isRemote:processOfflineContent:processTipKitContent:contextualEligibility:widgetEligibility:notificationEligibility:preferredNotificationIdentifiers:completionHandler:]_block_invoke_3.286
++ ___221-[TPSTipsManager contentWithMetaDictionary:documents:isRemote:processOfflineContent:processTipKitContent:contextualEligibility:widgetEligibility:notificationEligibility:preferredNotificationIdentifiers:completionHandler:]_block_invoke_4.256
++ ___221-[TPSTipsManager contentWithMetaDictionary:documents:isRemote:processOfflineContent:processTipKitContent:contextualEligibility:widgetEligibility:notificationEligibility:preferredNotificationIdentifiers:completionHandler:]_block_invoke_4.290
++ ___221-[TPSTipsManager contentWithMetaDictionary:documents:isRemote:processOfflineContent:processTipKitContent:contextualEligibility:widgetEligibility:notificationEligibility:preferredNotificationIdentifiers:completionHandler:]_block_invoke_5.292
++ ___221-[TPSTipsManager contentWithMetaDictionary:documents:isRemote:processOfflineContent:processTipKitContent:contextualEligibility:widgetEligibility:notificationEligibility:preferredNotificationIdentifiers:completionHandler:]_block_invoke_5.292.cold.1
++ ___53-[TPSTipsManager updateContentIfOverrideImmediately:]_block_invoke.196
++ ___53-[TPSTipsManager updateContentIfOverrideImmediately:]_block_invoke_2.199
++ ___65-[TPSTipsManager contentForVariantIdentifiers:completionHandler:]_block_invoke.218
++ ___65-[TPSTipsManager reindexAllSearchableItemsWithCompletionHandler:]_block_invoke.351
++ ___65-[TPSTipsManager reindexAllSearchableItemsWithCompletionHandler:]_block_invoke.355
++ ___65-[TPSTipsManager reindexAllSearchableItemsWithCompletionHandler:]_block_invoke.364
++ ___65-[TPSTipsManager reindexAllSearchableItemsWithCompletionHandler:]_block_invoke_2.353
++ ___65-[TPSTipsManager reindexAllSearchableItemsWithCompletionHandler:]_block_invoke_2.353.cold.1
++ ___75-[TPSTipsManager processClientConditions:targetingCache:completionHandler:]_block_invoke.335
++ ___75-[TPSTipsManager processClientConditions:targetingCache:completionHandler:]_block_invoke.335.cold.1
++ ___75-[TPSTipsManager processClientConditions:targetingCache:completionHandler:]_block_invoke.336
++ ___91-[TPSTipsManager processTipsDeliveryInfo:deliveryInfoMap:targetingCache:completionHandler:]_block_invoke.319
++ ___91-[TPSTipsManager processTipsDeliveryInfo:deliveryInfoMap:targetingCache:completionHandler:]_block_invoke.319.cold.1
++ ___91-[TPSTipsManager processTipsDeliveryInfo:deliveryInfoMap:targetingCache:completionHandler:]_block_invoke.320
++ ___91-[TPSTipsManager processTipsDeliveryInfo:deliveryInfoMap:targetingCache:completionHandler:]_block_invoke.320.cold.1
++ ___91-[TPSTipsManager processTipsDeliveryInfo:deliveryInfoMap:targetingCache:completionHandler:]_block_invoke.327
++ ___91-[TPSTipsManager processTipsDeliveryInfo:deliveryInfoMap:targetingCache:completionHandler:]_block_invoke.332
++ ___91-[TPSTipsManager processTipsDeliveryInfo:deliveryInfoMap:targetingCache:completionHandler:]_block_invoke_2.333
++ ___block_literal_global.163
++ ___block_literal_global.305
++ ___block_literal_global.343
++ ___block_literal_global.372
++ __unnamed_array_storage.186
+- +[TPSTipsManager eligibleForHardwareWelcomeNotification]
+- GCC_except_table121
+- _TPSWidgetAssertionCreated
+- ___189-[TPSTipsManager contentFromOrigin:processTipKitContent:contextualEligibility:widgetEligibility:notificationEligibility:preferredNotificationIdentifiers:shouldDeferBlock:completionHandler:]_block_invoke.236
+- ___189-[TPSTipsManager contentFromOrigin:processTipKitContent:contextualEligibility:widgetEligibility:notificationEligibility:preferredNotificationIdentifiers:shouldDeferBlock:completionHandler:]_block_invoke_2.237
+- ___189-[TPSTipsManager contentFromOrigin:processTipKitContent:contextualEligibility:widgetEligibility:notificationEligibility:preferredNotificationIdentifiers:shouldDeferBlock:completionHandler:]_block_invoke_3.238
+- ___189-[TPSTipsManager contentFromOrigin:processTipKitContent:contextualEligibility:widgetEligibility:notificationEligibility:preferredNotificationIdentifiers:shouldDeferBlock:completionHandler:]_block_invoke_4.239
+- ___221-[TPSTipsManager contentWithMetaDictionary:documents:isRemote:processOfflineContent:processTipKitContent:contextualEligibility:widgetEligibility:notificationEligibility:preferredNotificationIdentifiers:completionHandler:]_block_invoke.252
+- ___221-[TPSTipsManager contentWithMetaDictionary:documents:isRemote:processOfflineContent:processTipKitContent:contextualEligibility:widgetEligibility:notificationEligibility:preferredNotificationIdentifiers:completionHandler:]_block_invoke.265
+- ___221-[TPSTipsManager contentWithMetaDictionary:documents:isRemote:processOfflineContent:processTipKitContent:contextualEligibility:widgetEligibility:notificationEligibility:preferredNotificationIdentifiers:completionHandler:]_block_invoke.274
+- ___221-[TPSTipsManager contentWithMetaDictionary:documents:isRemote:processOfflineContent:processTipKitContent:contextualEligibility:widgetEligibility:notificationEligibility:preferredNotificationIdentifiers:completionHandler:]_block_invoke.282
+- ___221-[TPSTipsManager contentWithMetaDictionary:documents:isRemote:processOfflineContent:processTipKitContent:contextualEligibility:widgetEligibility:notificationEligibility:preferredNotificationIdentifiers:completionHandler:]_block_invoke.300
+- ___221-[TPSTipsManager contentWithMetaDictionary:documents:isRemote:processOfflineContent:processTipKitContent:contextualEligibility:widgetEligibility:notificationEligibility:preferredNotificationIdentifiers:completionHandler:]_block_invoke.306
+- ___221-[TPSTipsManager contentWithMetaDictionary:documents:isRemote:processOfflineContent:processTipKitContent:contextualEligibility:widgetEligibility:notificationEligibility:preferredNotificationIdentifiers:completionHandler:]_block_invoke_2.253
+- ___221-[TPSTipsManager contentWithMetaDictionary:documents:isRemote:processOfflineContent:processTipKitContent:contextualEligibility:widgetEligibility:notificationEligibility:preferredNotificationIdentifiers:completionHandler:]_block_invoke_2.269
+- ___221-[TPSTipsManager contentWithMetaDictionary:documents:isRemote:processOfflineContent:processTipKitContent:contextualEligibility:widgetEligibility:notificationEligibility:preferredNotificationIdentifiers:completionHandler:]_block_invoke_2.276
+- ___221-[TPSTipsManager contentWithMetaDictionary:documents:isRemote:processOfflineContent:processTipKitContent:contextualEligibility:widgetEligibility:notificationEligibility:preferredNotificationIdentifiers:completionHandler:]_block_invoke_2.283
+- ___221-[TPSTipsManager contentWithMetaDictionary:documents:isRemote:processOfflineContent:processTipKitContent:contextualEligibility:widgetEligibility:notificationEligibility:preferredNotificationIdentifiers:completionHandler:]_block_invoke_2.302
+- ___221-[TPSTipsManager contentWithMetaDictionary:documents:isRemote:processOfflineContent:processTipKitContent:contextualEligibility:widgetEligibility:notificationEligibility:preferredNotificationIdentifiers:completionHandler:]_block_invoke_2.302.cold.1
+- ___221-[TPSTipsManager contentWithMetaDictionary:documents:isRemote:processOfflineContent:processTipKitContent:contextualEligibility:widgetEligibility:notificationEligibility:preferredNotificationIdentifiers:completionHandler:]_block_invoke_2.309
+- ___221-[TPSTipsManager contentWithMetaDictionary:documents:isRemote:processOfflineContent:processTipKitContent:contextualEligibility:widgetEligibility:notificationEligibility:preferredNotificationIdentifiers:completionHandler:]_block_invoke_3.258
+- ___221-[TPSTipsManager contentWithMetaDictionary:documents:isRemote:processOfflineContent:processTipKitContent:contextualEligibility:widgetEligibility:notificationEligibility:preferredNotificationIdentifiers:completionHandler:]_block_invoke_3.270
+- ___221-[TPSTipsManager contentWithMetaDictionary:documents:isRemote:processOfflineContent:processTipKitContent:contextualEligibility:widgetEligibility:notificationEligibility:preferredNotificationIdentifiers:completionHandler:]_block_invoke_3.289
+- ___221-[TPSTipsManager contentWithMetaDictionary:documents:isRemote:processOfflineContent:processTipKitContent:contextualEligibility:widgetEligibility:notificationEligibility:preferredNotificationIdentifiers:completionHandler:]_block_invoke_4.259
+- ___221-[TPSTipsManager contentWithMetaDictionary:documents:isRemote:processOfflineContent:processTipKitContent:contextualEligibility:widgetEligibility:notificationEligibility:preferredNotificationIdentifiers:completionHandler:]_block_invoke_4.293
+- ___221-[TPSTipsManager contentWithMetaDictionary:documents:isRemote:processOfflineContent:processTipKitContent:contextualEligibility:widgetEligibility:notificationEligibility:preferredNotificationIdentifiers:completionHandler:]_block_invoke_5.295
+- ___221-[TPSTipsManager contentWithMetaDictionary:documents:isRemote:processOfflineContent:processTipKitContent:contextualEligibility:widgetEligibility:notificationEligibility:preferredNotificationIdentifiers:completionHandler:]_block_invoke_5.295.cold.1
+- ___53-[TPSTipsManager updateContentIfOverrideImmediately:]_block_invoke.199
+- ___53-[TPSTipsManager updateContentIfOverrideImmediately:]_block_invoke_2.202
+- ___65-[TPSTipsManager contentForVariantIdentifiers:completionHandler:]_block_invoke.221
+- ___65-[TPSTipsManager reindexAllSearchableItemsWithCompletionHandler:]_block_invoke.354
+- ___65-[TPSTipsManager reindexAllSearchableItemsWithCompletionHandler:]_block_invoke.358
+- ___65-[TPSTipsManager reindexAllSearchableItemsWithCompletionHandler:]_block_invoke.367
+- ___65-[TPSTipsManager reindexAllSearchableItemsWithCompletionHandler:]_block_invoke_2.359
+- ___65-[TPSTipsManager reindexAllSearchableItemsWithCompletionHandler:]_block_invoke_2.359.cold.1
+- ___75-[TPSTipsManager processClientConditions:targetingCache:completionHandler:]_block_invoke.338
+- ___75-[TPSTipsManager processClientConditions:targetingCache:completionHandler:]_block_invoke.338.cold.1
+- ___75-[TPSTipsManager processClientConditions:targetingCache:completionHandler:]_block_invoke.339
+- ___91-[TPSTipsManager processTipsDeliveryInfo:deliveryInfoMap:targetingCache:completionHandler:]_block_invoke.322
+- ___91-[TPSTipsManager processTipsDeliveryInfo:deliveryInfoMap:targetingCache:completionHandler:]_block_invoke.322.cold.1
+- ___91-[TPSTipsManager processTipsDeliveryInfo:deliveryInfoMap:targetingCache:completionHandler:]_block_invoke.323
+- ___91-[TPSTipsManager processTipsDeliveryInfo:deliveryInfoMap:targetingCache:completionHandler:]_block_invoke.323.cold.1
+- ___91-[TPSTipsManager processTipsDeliveryInfo:deliveryInfoMap:targetingCache:completionHandler:]_block_invoke.330
+- ___91-[TPSTipsManager processTipsDeliveryInfo:deliveryInfoMap:targetingCache:completionHandler:]_block_invoke.335
+- ___91-[TPSTipsManager processTipsDeliveryInfo:deliveryInfoMap:targetingCache:completionHandler:]_block_invoke_2.336
+- ___block_literal_global.166
+- ___block_literal_global.308
+- ___block_literal_global.349
+- ___block_literal_global.375
+- __unnamed_array_storage.189
+- _kTPSCommonDefinesCloudDeviceIdentifier
+CStrings:
+- "TPSWidgetAssertionCreated"
+- "deviceClass"
+- "eligibleForHardwareWelcomeNotification"
+- "isVisionUI"
+
+```

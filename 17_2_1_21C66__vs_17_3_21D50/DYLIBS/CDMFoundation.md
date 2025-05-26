@@ -1,0 +1,1160 @@
+## CDMFoundation
+
+> `/System/Library/PrivateFrameworks/CDMFoundation.framework/CDMFoundation`
+
+```diff
+
+-3302.8.1.0.0
+-  __TEXT.__text: 0xf288c
+-  __TEXT.__auth_stubs: 0x3990
++3303.2.2.0.0
++  __TEXT.__text: 0xf1dd8
++  __TEXT.__auth_stubs: 0x3900
+   __TEXT.__init_offsets: 0x68
+-  __TEXT.__objc_methlist: 0x71f8
++  __TEXT.__objc_methlist: 0x7140
+   __TEXT.__const: 0x128f
+-  __TEXT.__cstring: 0x130eb
++  __TEXT.__cstring: 0x12f56
+   __TEXT.__constg_swiftt: 0x9c4
+   __TEXT.__swift5_typeref: 0xc5e
+   __TEXT.__swift5_fieldmd: 0x688
+
+   __TEXT.__swift5_capture: 0x24
+   __TEXT.__swift5_builtin: 0x3c
+   __TEXT.__swift5_assocty: 0x90
+-  __TEXT.__gcc_except_tab: 0x87f0
+-  __TEXT.__oslogstring: 0x159df
++  __TEXT.__gcc_except_tab: 0x87e0
++  __TEXT.__oslogstring: 0x15820
+   __TEXT.__ustring: 0x1a6
+-  __TEXT.__unwind_info: 0x43bc
++  __TEXT.__unwind_info: 0x4384
+   __TEXT.__eh_frame: 0xd38
+-  __TEXT.__objc_classname: 0x14f0
+-  __TEXT.__objc_methname: 0x1459b
+-  __TEXT.__objc_methtype: 0x2997
+-  __TEXT.__objc_stubs: 0xfea0
+-  __DATA_CONST.__got: 0x720
+-  __DATA_CONST.__const: 0x1ae0
+-  __DATA_CONST.__objc_classlist: 0x6f8
++  __TEXT.__objc_classname: 0x14e0
++  __TEXT.__objc_methname: 0x143dd
++  __TEXT.__objc_methtype: 0x2968
++  __TEXT.__objc_stubs: 0xfda0
++  __DATA_CONST.__got: 0x718
++  __DATA_CONST.__const: 0x1a48
++  __DATA_CONST.__objc_classlist: 0x6f0
+   __DATA_CONST.__objc_catlist: 0x50
+   __DATA_CONST.__objc_protolist: 0xb0
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_const: 0xd048
+-  __DATA_CONST.__objc_selrefs: 0x4880
++  __DATA_CONST.__objc_const: 0xcf30
++  __DATA_CONST.__objc_selrefs: 0x4818
+   __DATA_CONST.__objc_arraydata: 0x58
+   __AUTH_CONST.__const: 0x15f0
+-  __AUTH_CONST.__objc_const: 0x5398
++  __AUTH_CONST.__objc_const: 0x5350
+   __AUTH_CONST.__auth_ptr: 0x68
+   __AUTH_CONST.__cfstring: 0x7b00
+   __AUTH_CONST.__objc_arrayobj: 0x30
+
+   __AUTH_CONST.__objc_floatobj: 0x20
+   __AUTH_CONST.__objc_doubleobj: 0x10
+   __AUTH_CONST.__objc_dictobj: 0x28
+-  __AUTH_CONST.__auth_got: 0x1ce0
++  __AUTH_CONST.__auth_got: 0x1c98
+   __AUTH.__objc_data: 0x1638
+   __AUTH.__data: 0x288
+   __DATA.__got_weak: 0x8
+   __DATA.__objc_protorefs: 0x30
+-  __DATA.__objc_classrefs: 0xd60
+-  __DATA.__objc_superrefs: 0x3f8
+-  __DATA.__objc_ivar: 0x71c
++  __DATA.__objc_classrefs: 0xd58
++  __DATA.__objc_superrefs: 0x3f0
++  __DATA.__objc_ivar: 0x70c
+   __DATA.__objc_data: 0xc8
+   __DATA.__data: 0x1288
+   __DATA.__common: 0x60
+-  __DATA.__bss: 0x1840
+-  __DATA_DIRTY.__objc_data: 0x3950
++  __DATA.__bss: 0x1830
++  __DATA_DIRTY.__objc_data: 0x3900
+   __DATA_DIRTY.__data: 0x430
+   __DATA_DIRTY.__common: 0x30
+   __DATA_DIRTY.__bss: 0x880
+
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 4044
+-  Symbols:   12034
+-  CStrings:  6931
++  Functions: 4025
++  Symbols:   11960
++  CStrings:  6890
+ 
+Symbols:
++ GCC_except_table1010
++ GCC_except_table1015
++ GCC_except_table1031
++ GCC_except_table1036
++ GCC_except_table1047
++ GCC_except_table1048
++ GCC_except_table1052
++ GCC_except_table1053
++ GCC_except_table1056
++ GCC_except_table1074
++ GCC_except_table1075
++ GCC_except_table1097
++ GCC_except_table1126
++ GCC_except_table1127
++ GCC_except_table1163
++ GCC_except_table1164
++ GCC_except_table1183
++ GCC_except_table1184
++ GCC_except_table1218
++ GCC_except_table1222
++ GCC_except_table1223
++ GCC_except_table1282
++ GCC_except_table1288
++ GCC_except_table1289
++ GCC_except_table1311
++ GCC_except_table1327
++ GCC_except_table1328
++ GCC_except_table1338
++ GCC_except_table1469
++ GCC_except_table1501
++ GCC_except_table1503
++ GCC_except_table1529
++ GCC_except_table1530
++ GCC_except_table1531
++ GCC_except_table1532
++ GCC_except_table1533
++ GCC_except_table1540
++ GCC_except_table1570
++ GCC_except_table1574
++ GCC_except_table1577
++ GCC_except_table1581
++ GCC_except_table1582
++ GCC_except_table1584
++ GCC_except_table1585
++ GCC_except_table1605
++ GCC_except_table1606
++ GCC_except_table1625
++ GCC_except_table1640
++ GCC_except_table1641
++ GCC_except_table1642
++ GCC_except_table1650
++ GCC_except_table1651
++ GCC_except_table1658
++ GCC_except_table1705
++ GCC_except_table1706
++ GCC_except_table1708
++ GCC_except_table1709
++ GCC_except_table1710
++ GCC_except_table1719
++ GCC_except_table1768
++ GCC_except_table1769
++ GCC_except_table1773
++ GCC_except_table1774
++ GCC_except_table1775
++ GCC_except_table1776
++ GCC_except_table1781
++ GCC_except_table1789
++ GCC_except_table1790
++ GCC_except_table1796
++ GCC_except_table1797
++ GCC_except_table1798
++ GCC_except_table1799
++ GCC_except_table1801
++ GCC_except_table1802
++ GCC_except_table1803
++ GCC_except_table1804
++ GCC_except_table1847
++ GCC_except_table1852
++ GCC_except_table1853
++ GCC_except_table1854
++ GCC_except_table1855
++ GCC_except_table1882
++ GCC_except_table1886
++ GCC_except_table1891
++ GCC_except_table1900
++ GCC_except_table1904
++ GCC_except_table1960
++ GCC_except_table1961
++ GCC_except_table1963
++ GCC_except_table1965
++ GCC_except_table1966
++ GCC_except_table1967
++ GCC_except_table1968
++ GCC_except_table1969
++ GCC_except_table1970
++ GCC_except_table1971
++ GCC_except_table1974
++ GCC_except_table1978
++ GCC_except_table1991
++ GCC_except_table1992
++ GCC_except_table1994
++ GCC_except_table1995
++ GCC_except_table1996
++ GCC_except_table2001
++ GCC_except_table2002
++ GCC_except_table2104
++ GCC_except_table2105
++ GCC_except_table2107
++ GCC_except_table2108
++ GCC_except_table2109
++ GCC_except_table2110
++ GCC_except_table2111
++ GCC_except_table2112
++ GCC_except_table2113
++ GCC_except_table2114
++ GCC_except_table2115
++ GCC_except_table2116
++ GCC_except_table2138
++ GCC_except_table2140
++ GCC_except_table2141
++ GCC_except_table2142
++ GCC_except_table2143
++ GCC_except_table2145
++ GCC_except_table2146
++ GCC_except_table2147
++ GCC_except_table2148
++ GCC_except_table2149
++ GCC_except_table2150
++ GCC_except_table2151
++ GCC_except_table2152
++ GCC_except_table2153
++ GCC_except_table2154
++ GCC_except_table2155
++ GCC_except_table2156
++ GCC_except_table2158
++ GCC_except_table2163
++ GCC_except_table2237
++ GCC_except_table2238
++ GCC_except_table2264
++ GCC_except_table2265
++ GCC_except_table2266
++ GCC_except_table2267
++ GCC_except_table2268
++ GCC_except_table2269
++ GCC_except_table2270
++ GCC_except_table2271
++ GCC_except_table2272
++ GCC_except_table2273
++ GCC_except_table2274
++ GCC_except_table2275
++ GCC_except_table2276
++ GCC_except_table2277
++ GCC_except_table2278
++ GCC_except_table2299
++ GCC_except_table2313
++ GCC_except_table2314
++ GCC_except_table2317
++ GCC_except_table2319
++ GCC_except_table2320
++ GCC_except_table2321
++ GCC_except_table2322
++ GCC_except_table2323
++ GCC_except_table2354
++ GCC_except_table2356
++ GCC_except_table2359
++ GCC_except_table2407
++ GCC_except_table476
++ GCC_except_table517
++ GCC_except_table518
++ GCC_except_table571
++ GCC_except_table574
++ GCC_except_table575
++ GCC_except_table589
++ GCC_except_table590
++ GCC_except_table599
++ GCC_except_table600
++ GCC_except_table608
++ GCC_except_table611
++ GCC_except_table614
++ GCC_except_table618
++ GCC_except_table619
++ GCC_except_table626
++ GCC_except_table635
++ GCC_except_table638
++ GCC_except_table643
++ GCC_except_table647
++ GCC_except_table655
++ GCC_except_table675
++ GCC_except_table676
++ GCC_except_table764
++ GCC_except_table770
++ GCC_except_table771
++ GCC_except_table778
++ GCC_except_table813
++ GCC_except_table821
++ GCC_except_table822
++ GCC_except_table829
++ GCC_except_table833
++ GCC_except_table834
++ GCC_except_table879
++ GCC_except_table880
++ GCC_except_table947
++ GCC_except_table965
++ GCC_except_table968
++ GCC_except_table969
++ GCC_except_table974
++ GCC_except_table975
++ GCC_except_table978
++ GCC_except_table997
++ GCC_except_table998
++ _VCVoiceShortcutDataDidUpdateNotification
++ __OBJC_$_CLASS_PROP_LIST_NSSecureCoding.1547
++ __OBJC_$_CLASS_PROP_LIST_NSSecureCoding.2031
++ __OBJC_$_CLASS_PROP_LIST_NSSecureCoding.2472
++ __OBJC_$_CLASS_PROP_LIST_NSSecureCoding.2597
++ __OBJC_$_CLASS_PROP_LIST_NSSecureCoding.3209
++ __OBJC_$_CLASS_PROP_LIST_NSSecureCoding.4014
++ __OBJC_$_CLASS_PROP_LIST_NSSecureCoding.4897
++ __OBJC_$_CLASS_PROP_LIST_NSSecureCoding.9664
++ __OBJC_$_PROP_LIST_NSObject.1086
++ __OBJC_$_PROP_LIST_NSObject.10988
++ __OBJC_$_PROP_LIST_NSObject.11120
++ __OBJC_$_PROP_LIST_NSObject.1235
++ __OBJC_$_PROP_LIST_NSObject.2598
++ __OBJC_$_PROP_LIST_NSObject.2945
++ __OBJC_$_PROP_LIST_NSObject.4898
++ __OBJC_$_PROP_LIST_NSObject.4998
++ __OBJC_$_PROP_LIST_NSObject.5902
++ __OBJC_$_PROP_LIST_NSObject.6256
++ __OBJC_$_PROP_LIST_NSObject.7743
++ __OBJC_$_PROP_LIST_NSObject.8701
++ __OBJC_$_PROP_LIST_NSObject.9065
++ __OBJC_$_PROP_LIST_NSObject.9665
++ __OBJC_$_PROP_LIST_NSObject.9911
++ __OBJC_$_PROTOCOL_CLASS_METHODS_CDMProtoSpanMatcher.10989
++ __OBJC_$_PROTOCOL_CLASS_METHODS_CDMProtoSpanMatcher.11121
++ __OBJC_$_PROTOCOL_CLASS_METHODS_CDMProtoSpanMatcher.8702
++ __OBJC_$_PROTOCOL_CLASS_METHODS_NSSecureCoding.1548
++ __OBJC_$_PROTOCOL_CLASS_METHODS_NSSecureCoding.2032
++ __OBJC_$_PROTOCOL_CLASS_METHODS_NSSecureCoding.2473
++ __OBJC_$_PROTOCOL_CLASS_METHODS_NSSecureCoding.2599
++ __OBJC_$_PROTOCOL_CLASS_METHODS_NSSecureCoding.3210
++ __OBJC_$_PROTOCOL_CLASS_METHODS_NSSecureCoding.4015
++ __OBJC_$_PROTOCOL_CLASS_METHODS_NSSecureCoding.4899
++ __OBJC_$_PROTOCOL_CLASS_METHODS_NSSecureCoding.9666
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_CDMProtoSpanMatcher.10990
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_CDMProtoSpanMatcher.11122
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_CDMProtoSpanMatcher.8703
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_NLAsset.2600
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_NLAsset.4900
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_NLAsset.9667
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSCoding.1549
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSCoding.2033
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSCoding.2474
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSCoding.2601
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSCoding.3211
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSCoding.4016
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSCoding.4901
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSCoding.9668
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSCopying.2389
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSCopying.2692
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSCopying.3288
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSCopying.7419
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject.1087
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject.10991
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject.11123
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject.1236
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject.2602
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject.2946
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject.4902
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject.4999
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject.5903
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject.6257
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject.7744
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject.8704
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject.9066
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject.9669
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject.9912
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject.1088
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject.10992
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject.11124
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject.1237
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject.2603
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject.2947
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject.4903
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject.5000
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject.5904
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject.6258
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject.7745
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject.8705
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject.9067
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject.9670
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject.9913
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_SSUCacheDirectoryProvider.6259
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_SSUCacheDirectoryProvider.9914
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_SSUInstalledAppProvider.2948
++ __OBJC_$_PROTOCOL_METHOD_TYPES_CDMProtoSpanMatcher.10993
++ __OBJC_$_PROTOCOL_METHOD_TYPES_CDMProtoSpanMatcher.11125
++ __OBJC_$_PROTOCOL_METHOD_TYPES_CDMProtoSpanMatcher.8706
++ __OBJC_$_PROTOCOL_METHOD_TYPES_NLAsset.2604
++ __OBJC_$_PROTOCOL_METHOD_TYPES_NLAsset.4904
++ __OBJC_$_PROTOCOL_METHOD_TYPES_NLAsset.9671
++ __OBJC_$_PROTOCOL_METHOD_TYPES_NSCoding.1550
++ __OBJC_$_PROTOCOL_METHOD_TYPES_NSCoding.2034
++ __OBJC_$_PROTOCOL_METHOD_TYPES_NSCoding.2475
++ __OBJC_$_PROTOCOL_METHOD_TYPES_NSCoding.2605
++ __OBJC_$_PROTOCOL_METHOD_TYPES_NSCoding.3212
++ __OBJC_$_PROTOCOL_METHOD_TYPES_NSCoding.4017
++ __OBJC_$_PROTOCOL_METHOD_TYPES_NSCoding.4905
++ __OBJC_$_PROTOCOL_METHOD_TYPES_NSCoding.9672
++ __OBJC_$_PROTOCOL_METHOD_TYPES_NSCopying.2390
++ __OBJC_$_PROTOCOL_METHOD_TYPES_NSCopying.2693
++ __OBJC_$_PROTOCOL_METHOD_TYPES_NSCopying.3289
++ __OBJC_$_PROTOCOL_METHOD_TYPES_NSCopying.7420
++ __OBJC_$_PROTOCOL_METHOD_TYPES_NSObject.1089
++ __OBJC_$_PROTOCOL_METHOD_TYPES_NSObject.10994
++ __OBJC_$_PROTOCOL_METHOD_TYPES_NSObject.11126
++ __OBJC_$_PROTOCOL_METHOD_TYPES_NSObject.1238
++ __OBJC_$_PROTOCOL_METHOD_TYPES_NSObject.2606
++ __OBJC_$_PROTOCOL_METHOD_TYPES_NSObject.2949
++ __OBJC_$_PROTOCOL_METHOD_TYPES_NSObject.4906
++ __OBJC_$_PROTOCOL_METHOD_TYPES_NSObject.5001
++ __OBJC_$_PROTOCOL_METHOD_TYPES_NSObject.5905
++ __OBJC_$_PROTOCOL_METHOD_TYPES_NSObject.6260
++ __OBJC_$_PROTOCOL_METHOD_TYPES_NSObject.7746
++ __OBJC_$_PROTOCOL_METHOD_TYPES_NSObject.8707
++ __OBJC_$_PROTOCOL_METHOD_TYPES_NSObject.9068
++ __OBJC_$_PROTOCOL_METHOD_TYPES_NSObject.9673
++ __OBJC_$_PROTOCOL_METHOD_TYPES_NSObject.9915
++ __OBJC_$_PROTOCOL_METHOD_TYPES_NSSecureCoding.1551
++ __OBJC_$_PROTOCOL_METHOD_TYPES_NSSecureCoding.2035
++ __OBJC_$_PROTOCOL_METHOD_TYPES_NSSecureCoding.2476
++ __OBJC_$_PROTOCOL_METHOD_TYPES_NSSecureCoding.2607
++ __OBJC_$_PROTOCOL_METHOD_TYPES_NSSecureCoding.3213
++ __OBJC_$_PROTOCOL_METHOD_TYPES_NSSecureCoding.4018
++ __OBJC_$_PROTOCOL_METHOD_TYPES_NSSecureCoding.4907
++ __OBJC_$_PROTOCOL_METHOD_TYPES_NSSecureCoding.9674
++ __OBJC_$_PROTOCOL_METHOD_TYPES_SSUCacheDirectoryProvider.6261
++ __OBJC_$_PROTOCOL_METHOD_TYPES_SSUCacheDirectoryProvider.9916
++ __OBJC_$_PROTOCOL_METHOD_TYPES_SSUInstalledAppProvider.2950
++ __OBJC_$_PROTOCOL_REFS_CDMProtoSpanMatcher.10995
++ __OBJC_$_PROTOCOL_REFS_CDMProtoSpanMatcher.11127
++ __OBJC_$_PROTOCOL_REFS_CDMProtoSpanMatcher.8708
++ __OBJC_$_PROTOCOL_REFS_NLAsset.2608
++ __OBJC_$_PROTOCOL_REFS_NLAsset.4908
++ __OBJC_$_PROTOCOL_REFS_NLAsset.9675
++ __OBJC_$_PROTOCOL_REFS_NSSecureCoding.1552
++ __OBJC_$_PROTOCOL_REFS_NSSecureCoding.2036
++ __OBJC_$_PROTOCOL_REFS_NSSecureCoding.2477
++ __OBJC_$_PROTOCOL_REFS_NSSecureCoding.2609
++ __OBJC_$_PROTOCOL_REFS_NSSecureCoding.3214
++ __OBJC_$_PROTOCOL_REFS_NSSecureCoding.4019
++ __OBJC_$_PROTOCOL_REFS_NSSecureCoding.4909
++ __OBJC_$_PROTOCOL_REFS_NSSecureCoding.9676
++ __OBJC_$_PROTOCOL_REFS_SSUCacheDirectoryProvider.6262
++ __OBJC_$_PROTOCOL_REFS_SSUCacheDirectoryProvider.9917
++ __OBJC_$_PROTOCOL_REFS_SSUInstalledAppProvider.2951
++ __ZN5boost11optional_nsL13in_place_initE.10205
++ __ZN5boost11optional_nsL13in_place_initE.10798
++ __ZN5boost11optional_nsL13in_place_initE.11076
++ __ZN5boost11optional_nsL13in_place_initE.11660
++ __ZN5boost11optional_nsL13in_place_initE.1909
++ __ZN5boost11optional_nsL13in_place_initE.2078
++ __ZN5boost11optional_nsL13in_place_initE.2649
++ __ZN5boost11optional_nsL13in_place_initE.2856
++ __ZN5boost11optional_nsL13in_place_initE.3754
++ __ZN5boost11optional_nsL13in_place_initE.4459
++ __ZN5boost11optional_nsL13in_place_initE.4619
++ __ZN5boost11optional_nsL13in_place_initE.5056
++ __ZN5boost11optional_nsL13in_place_initE.5261
++ __ZN5boost11optional_nsL13in_place_initE.6041
++ __ZN5boost11optional_nsL13in_place_initE.6174
++ __ZN5boost11optional_nsL13in_place_initE.6494
++ __ZN5boost11optional_nsL13in_place_initE.6570
++ __ZN5boost11optional_nsL13in_place_initE.6819
++ __ZN5boost11optional_nsL13in_place_initE.7323
++ __ZN5boost11optional_nsL13in_place_initE.7624
++ __ZN5boost11optional_nsL13in_place_initE.7886
++ __ZN5boost11optional_nsL13in_place_initE.8055
++ __ZN5boost11optional_nsL13in_place_initE.8230
++ __ZN5boost11optional_nsL16in_place_init_ifE.10206
++ __ZN5boost11optional_nsL16in_place_init_ifE.10799
++ __ZN5boost11optional_nsL16in_place_init_ifE.11077
++ __ZN5boost11optional_nsL16in_place_init_ifE.11661
++ __ZN5boost11optional_nsL16in_place_init_ifE.1910
++ __ZN5boost11optional_nsL16in_place_init_ifE.2079
++ __ZN5boost11optional_nsL16in_place_init_ifE.2650
++ __ZN5boost11optional_nsL16in_place_init_ifE.2857
++ __ZN5boost11optional_nsL16in_place_init_ifE.3755
++ __ZN5boost11optional_nsL16in_place_init_ifE.4460
++ __ZN5boost11optional_nsL16in_place_init_ifE.4620
++ __ZN5boost11optional_nsL16in_place_init_ifE.5057
++ __ZN5boost11optional_nsL16in_place_init_ifE.5262
++ __ZN5boost11optional_nsL16in_place_init_ifE.6042
++ __ZN5boost11optional_nsL16in_place_init_ifE.6175
++ __ZN5boost11optional_nsL16in_place_init_ifE.6495
++ __ZN5boost11optional_nsL16in_place_init_ifE.6571
++ __ZN5boost11optional_nsL16in_place_init_ifE.6820
++ __ZN5boost11optional_nsL16in_place_init_ifE.7324
++ __ZN5boost11optional_nsL16in_place_init_ifE.7625
++ __ZN5boost11optional_nsL16in_place_init_ifE.7887
++ __ZN5boost11optional_nsL16in_place_init_ifE.8056
++ __ZN5boost11optional_nsL16in_place_init_ifE.8231
++ __ZN5boost6detailL28make_color_map_from_arg_packE.10207
++ __ZN5boost6detailL28make_color_map_from_arg_packE.10800
++ __ZN5boost6detailL28make_color_map_from_arg_packE.11078
++ __ZN5boost6detailL28make_color_map_from_arg_packE.11662
++ __ZN5boost6detailL28make_color_map_from_arg_packE.1911
++ __ZN5boost6detailL28make_color_map_from_arg_packE.2080
++ __ZN5boost6detailL28make_color_map_from_arg_packE.2651
++ __ZN5boost6detailL28make_color_map_from_arg_packE.2858
++ __ZN5boost6detailL28make_color_map_from_arg_packE.3756
++ __ZN5boost6detailL28make_color_map_from_arg_packE.4461
++ __ZN5boost6detailL28make_color_map_from_arg_packE.4621
++ __ZN5boost6detailL28make_color_map_from_arg_packE.5058
++ __ZN5boost6detailL28make_color_map_from_arg_packE.5263
++ __ZN5boost6detailL28make_color_map_from_arg_packE.6043
++ __ZN5boost6detailL28make_color_map_from_arg_packE.6176
++ __ZN5boost6detailL28make_color_map_from_arg_packE.6496
++ __ZN5boost6detailL28make_color_map_from_arg_packE.6572
++ __ZN5boost6detailL28make_color_map_from_arg_packE.6821
++ __ZN5boost6detailL28make_color_map_from_arg_packE.7325
++ __ZN5boost6detailL28make_color_map_from_arg_packE.7626
++ __ZN5boost6detailL28make_color_map_from_arg_packE.7888
++ __ZN5boost6detailL28make_color_map_from_arg_packE.8057
++ __ZN5boost6detailL28make_color_map_from_arg_packE.8232
++ ___Block_byref_object_copy_.10892
++ ___Block_byref_object_copy_.1850
++ ___Block_byref_object_copy_.1955
++ ___Block_byref_object_copy_.2640
++ ___Block_byref_object_copy_.3232
++ ___Block_byref_object_copy_.3479
++ ___Block_byref_object_copy_.5151
++ ___Block_byref_object_copy_.6587
++ ___Block_byref_object_copy_.7334
++ ___Block_byref_object_copy_.8368
++ ___Block_byref_object_copy_.8925
++ ___Block_byref_object_dispose_.10893
++ ___Block_byref_object_dispose_.1851
++ ___Block_byref_object_dispose_.1956
++ ___Block_byref_object_dispose_.2641
++ ___Block_byref_object_dispose_.3233
++ ___Block_byref_object_dispose_.3480
++ ___Block_byref_object_dispose_.5152
++ ___Block_byref_object_dispose_.6588
++ ___Block_byref_object_dispose_.7335
++ ___Block_byref_object_dispose_.8369
++ ___Block_byref_object_dispose_.8926
++ ___block_literal_global.10172
++ ___block_literal_global.10429
++ ___block_literal_global.10789
++ ___block_literal_global.11181
++ ___block_literal_global.1130
++ ___block_literal_global.11459
++ ___block_literal_global.1878
++ ___block_literal_global.3448
++ ___block_literal_global.4079
++ ___block_literal_global.4239
++ ___block_literal_global.4455
++ ___block_literal_global.5476
++ ___block_literal_global.5739
++ ___block_literal_global.6701
++ ___block_literal_global.7000
++ ___block_literal_global.7319
++ ___block_literal_global.7696
++ ___block_literal_global.77
++ ___block_literal_global.7863
++ ___block_literal_global.79
++ ___block_literal_global.7976
++ ___block_literal_global.8137
++ ___block_literal_global.82
++ ___block_literal_global.8502
++ ___block_literal_global.8542
++ ___block_literal_global.9160
++ ___block_literal_global.980
++ _getNameStringToEnumDict.onceToken.7975
++ _getNameStringToEnumDict.onceToken.8541
+- +[SSUXPCUtils isCoreDataObjectArrayShortcutsChange:]
+- +[SSUXPCUtils isCoreDataObjectShortcutsChange:]
+- +[SSUXPCUtils isShortcutsChange:]
+- -[SSUDebouncer .cxx_destruct]
+- -[SSUDebouncer _delayTimer]
+- -[SSUDebouncer _handler]
+- -[SSUDebouncer _queue]
+- -[SSUDebouncer _timeWindowSeconds]
+- -[SSUDebouncer initWithCoalescingTimeWindow:handler:]
+- -[SSUDebouncer resetDelayTimer]
+- -[SSUDebouncer restartDelayTimer:]
+- -[SSUDebouncer set_delayTimer:]
+- -[SSUDebouncer set_handler:]
+- -[SSUDebouncer signalEventReceived:]
+- GCC_except_table1000
+- GCC_except_table1012
+- GCC_except_table1017
+- GCC_except_table1035
+- GCC_except_table1038
+- GCC_except_table1049
+- GCC_except_table1050
+- GCC_except_table1054
+- GCC_except_table1055
+- GCC_except_table1058
+- GCC_except_table1083
+- GCC_except_table1086
+- GCC_except_table1099
+- GCC_except_table1129
+- GCC_except_table1130
+- GCC_except_table1180
+- GCC_except_table1181
+- GCC_except_table1200
+- GCC_except_table1201
+- GCC_except_table1220
+- GCC_except_table1228
+- GCC_except_table1229
+- GCC_except_table1284
+- GCC_except_table1292
+- GCC_except_table1293
+- GCC_except_table1313
+- GCC_except_table1336
+- GCC_except_table1339
+- GCC_except_table1340
+- GCC_except_table1470
+- GCC_except_table1474
+- GCC_except_table1507
+- GCC_except_table1509
+- GCC_except_table1550
+- GCC_except_table1551
+- GCC_except_table1554
+- GCC_except_table1555
+- GCC_except_table1558
+- GCC_except_table1559
+- GCC_except_table1576
+- GCC_except_table1599
+- GCC_except_table1600
+- GCC_except_table1610
+- GCC_except_table1611
+- GCC_except_table1612
+- GCC_except_table1614
+- GCC_except_table1615
+- GCC_except_table1619
+- GCC_except_table1631
+- GCC_except_table1646
+- GCC_except_table1647
+- GCC_except_table1648
+- GCC_except_table1656
+- GCC_except_table1657
+- GCC_except_table1664
+- GCC_except_table1714
+- GCC_except_table1717
+- GCC_except_table1721
+- GCC_except_table1722
+- GCC_except_table1725
+- GCC_except_table1730
+- GCC_except_table1787
+- GCC_except_table1807
+- GCC_except_table1808
+- GCC_except_table1809
+- GCC_except_table1811
+- GCC_except_table1812
+- GCC_except_table1814
+- GCC_except_table1815
+- GCC_except_table1816
+- GCC_except_table1817
+- GCC_except_table1818
+- GCC_except_table1832
+- GCC_except_table1839
+- GCC_except_table1840
+- GCC_except_table1841
+- GCC_except_table1842
+- GCC_except_table1857
+- GCC_except_table1866
+- GCC_except_table1871
+- GCC_except_table1872
+- GCC_except_table1873
+- GCC_except_table1874
+- GCC_except_table1901
+- GCC_except_table1905
+- GCC_except_table1910
+- GCC_except_table1919
+- GCC_except_table1923
+- GCC_except_table1979
+- GCC_except_table1982
+- GCC_except_table1984
+- GCC_except_table1985
+- GCC_except_table1986
+- GCC_except_table1987
+- GCC_except_table1988
+- GCC_except_table1989
+- GCC_except_table1990
+- GCC_except_table1997
+- GCC_except_table2010
+- GCC_except_table2011
+- GCC_except_table2012
+- GCC_except_table2013
+- GCC_except_table2014
+- GCC_except_table2015
+- GCC_except_table2018
+- GCC_except_table2020
+- GCC_except_table2021
+- GCC_except_table2123
+- GCC_except_table2124
+- GCC_except_table2126
+- GCC_except_table2127
+- GCC_except_table2128
+- GCC_except_table2129
+- GCC_except_table2130
+- GCC_except_table2131
+- GCC_except_table2132
+- GCC_except_table2133
+- GCC_except_table2134
+- GCC_except_table2135
+- GCC_except_table2164
+- GCC_except_table2165
+- GCC_except_table2166
+- GCC_except_table2167
+- GCC_except_table2168
+- GCC_except_table2169
+- GCC_except_table2170
+- GCC_except_table2171
+- GCC_except_table2172
+- GCC_except_table2173
+- GCC_except_table2174
+- GCC_except_table2175
+- GCC_except_table2176
+- GCC_except_table2177
+- GCC_except_table2178
+- GCC_except_table2179
+- GCC_except_table2180
+- GCC_except_table2181
+- GCC_except_table2182
+- GCC_except_table2256
+- GCC_except_table2257
+- GCC_except_table2283
+- GCC_except_table2284
+- GCC_except_table2285
+- GCC_except_table2286
+- GCC_except_table2287
+- GCC_except_table2288
+- GCC_except_table2289
+- GCC_except_table2290
+- GCC_except_table2291
+- GCC_except_table2292
+- GCC_except_table2293
+- GCC_except_table2294
+- GCC_except_table2295
+- GCC_except_table2296
+- GCC_except_table2297
+- GCC_except_table2332
+- GCC_except_table2333
+- GCC_except_table2336
+- GCC_except_table2337
+- GCC_except_table2338
+- GCC_except_table2339
+- GCC_except_table2340
+- GCC_except_table2341
+- GCC_except_table2342
+- GCC_except_table2373
+- GCC_except_table2375
+- GCC_except_table2378
+- GCC_except_table2426
+- GCC_except_table478
+- GCC_except_table522
+- GCC_except_table523
+- GCC_except_table573
+- GCC_except_table580
+- GCC_except_table583
+- GCC_except_table591
+- GCC_except_table592
+- GCC_except_table601
+- GCC_except_table602
+- GCC_except_table610
+- GCC_except_table615
+- GCC_except_table616
+- GCC_except_table624
+- GCC_except_table631
+- GCC_except_table634
+- GCC_except_table641
+- GCC_except_table644
+- GCC_except_table645
+- GCC_except_table649
+- GCC_except_table657
+- GCC_except_table678
+- GCC_except_table679
+- GCC_except_table766
+- GCC_except_table776
+- GCC_except_table783
+- GCC_except_table784
+- GCC_except_table815
+- GCC_except_table827
+- GCC_except_table831
+- GCC_except_table832
+- GCC_except_table835
+- GCC_except_table836
+- GCC_except_table891
+- GCC_except_table892
+- GCC_except_table949
+- GCC_except_table967
+- GCC_except_table972
+- GCC_except_table973
+- GCC_except_table976
+- GCC_except_table977
+- GCC_except_table980
+- GCC_except_table999
+- _OBJC_CLASS_$_SSUDebouncer
+- _OBJC_IVAR_$_SSUDebouncer.__delayTimer
+- _OBJC_IVAR_$_SSUDebouncer.__handler
+- _OBJC_IVAR_$_SSUDebouncer.__queue
+- _OBJC_IVAR_$_SSUDebouncer.__timeWindowSeconds
+- _OBJC_METACLASS_$_SSUDebouncer
+- _WFDatabaseChangedNotification
+- __OBJC_$_CLASS_PROP_LIST_NSSecureCoding.1555
+- __OBJC_$_CLASS_PROP_LIST_NSSecureCoding.2036
+- __OBJC_$_CLASS_PROP_LIST_NSSecureCoding.2477
+- __OBJC_$_CLASS_PROP_LIST_NSSecureCoding.2600
+- __OBJC_$_CLASS_PROP_LIST_NSSecureCoding.3211
+- __OBJC_$_CLASS_PROP_LIST_NSSecureCoding.4011
+- __OBJC_$_CLASS_PROP_LIST_NSSecureCoding.4893
+- __OBJC_$_CLASS_PROP_LIST_NSSecureCoding.9725
+- __OBJC_$_INSTANCE_METHODS_SSUDebouncer
+- __OBJC_$_INSTANCE_VARIABLES_SSUDebouncer
+- __OBJC_$_PROP_LIST_NSObject.1091
+- __OBJC_$_PROP_LIST_NSObject.11052
+- __OBJC_$_PROP_LIST_NSObject.11184
+- __OBJC_$_PROP_LIST_NSObject.1241
+- __OBJC_$_PROP_LIST_NSObject.2601
+- __OBJC_$_PROP_LIST_NSObject.2947
+- __OBJC_$_PROP_LIST_NSObject.4894
+- __OBJC_$_PROP_LIST_NSObject.4994
+- __OBJC_$_PROP_LIST_NSObject.5912
+- __OBJC_$_PROP_LIST_NSObject.6266
+- __OBJC_$_PROP_LIST_NSObject.7799
+- __OBJC_$_PROP_LIST_NSObject.8759
+- __OBJC_$_PROP_LIST_NSObject.9124
+- __OBJC_$_PROP_LIST_NSObject.9726
+- __OBJC_$_PROP_LIST_NSObject.9973
+- __OBJC_$_PROP_LIST_SSUDebouncer
+- __OBJC_$_PROTOCOL_CLASS_METHODS_CDMProtoSpanMatcher.11053
+- __OBJC_$_PROTOCOL_CLASS_METHODS_CDMProtoSpanMatcher.11185
+- __OBJC_$_PROTOCOL_CLASS_METHODS_CDMProtoSpanMatcher.8760
+- __OBJC_$_PROTOCOL_CLASS_METHODS_NSSecureCoding.1556
+- __OBJC_$_PROTOCOL_CLASS_METHODS_NSSecureCoding.2037
+- __OBJC_$_PROTOCOL_CLASS_METHODS_NSSecureCoding.2478
+- __OBJC_$_PROTOCOL_CLASS_METHODS_NSSecureCoding.2602
+- __OBJC_$_PROTOCOL_CLASS_METHODS_NSSecureCoding.3212
+- __OBJC_$_PROTOCOL_CLASS_METHODS_NSSecureCoding.4012
+- __OBJC_$_PROTOCOL_CLASS_METHODS_NSSecureCoding.4895
+- __OBJC_$_PROTOCOL_CLASS_METHODS_NSSecureCoding.9727
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_CDMProtoSpanMatcher.11054
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_CDMProtoSpanMatcher.11186
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_CDMProtoSpanMatcher.8761
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NLAsset.2603
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NLAsset.4896
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NLAsset.9728
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSCoding.1557
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSCoding.2038
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSCoding.2479
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSCoding.2604
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSCoding.3213
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSCoding.4013
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSCoding.4897
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSCoding.9729
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSCopying.2394
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSCopying.2694
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSCopying.3290
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSCopying.7427
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject.1092
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject.11055
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject.11187
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject.1242
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject.2605
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject.2948
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject.4898
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject.4995
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject.5913
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject.6267
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject.7800
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject.8762
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject.9125
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject.9730
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject.9974
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject.1093
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject.11056
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject.11188
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject.1243
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject.2606
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject.2949
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject.4899
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject.4996
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject.5914
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject.6268
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject.7801
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject.8763
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject.9126
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject.9731
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject.9975
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_SSUCacheDirectoryProvider.6269
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_SSUCacheDirectoryProvider.9976
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_SSUInstalledAppProvider.2950
+- __OBJC_$_PROTOCOL_METHOD_TYPES_CDMProtoSpanMatcher.11057
+- __OBJC_$_PROTOCOL_METHOD_TYPES_CDMProtoSpanMatcher.11189
+- __OBJC_$_PROTOCOL_METHOD_TYPES_CDMProtoSpanMatcher.8764
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NLAsset.2607
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NLAsset.4900
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NLAsset.9732
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSCoding.1558
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSCoding.2039
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSCoding.2480
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSCoding.2608
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSCoding.3214
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSCoding.4014
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSCoding.4901
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSCoding.9733
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSCopying.2395
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSCopying.2695
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSCopying.3291
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSCopying.7428
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSObject.1094
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSObject.11058
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSObject.11190
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSObject.1244
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSObject.2609
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSObject.2951
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSObject.4902
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSObject.4997
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSObject.5915
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSObject.6270
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSObject.7802
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSObject.8765
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSObject.9127
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSObject.9734
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSObject.9977
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSSecureCoding.1559
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSSecureCoding.2040
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSSecureCoding.2481
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSSecureCoding.2610
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSSecureCoding.3215
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSSecureCoding.4015
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSSecureCoding.4903
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSSecureCoding.9735
+- __OBJC_$_PROTOCOL_METHOD_TYPES_SSUCacheDirectoryProvider.6271
+- __OBJC_$_PROTOCOL_METHOD_TYPES_SSUCacheDirectoryProvider.9978
+- __OBJC_$_PROTOCOL_METHOD_TYPES_SSUInstalledAppProvider.2952
+- __OBJC_$_PROTOCOL_REFS_CDMProtoSpanMatcher.11059
+- __OBJC_$_PROTOCOL_REFS_CDMProtoSpanMatcher.11191
+- __OBJC_$_PROTOCOL_REFS_CDMProtoSpanMatcher.8766
+- __OBJC_$_PROTOCOL_REFS_NLAsset.2611
+- __OBJC_$_PROTOCOL_REFS_NLAsset.4904
+- __OBJC_$_PROTOCOL_REFS_NLAsset.9736
+- __OBJC_$_PROTOCOL_REFS_NSSecureCoding.1560
+- __OBJC_$_PROTOCOL_REFS_NSSecureCoding.2041
+- __OBJC_$_PROTOCOL_REFS_NSSecureCoding.2482
+- __OBJC_$_PROTOCOL_REFS_NSSecureCoding.2612
+- __OBJC_$_PROTOCOL_REFS_NSSecureCoding.3216
+- __OBJC_$_PROTOCOL_REFS_NSSecureCoding.4016
+- __OBJC_$_PROTOCOL_REFS_NSSecureCoding.4905
+- __OBJC_$_PROTOCOL_REFS_NSSecureCoding.9737
+- __OBJC_$_PROTOCOL_REFS_SSUCacheDirectoryProvider.6272
+- __OBJC_$_PROTOCOL_REFS_SSUCacheDirectoryProvider.9979
+- __OBJC_$_PROTOCOL_REFS_SSUInstalledAppProvider.2953
+- __OBJC_CLASS_RO_$_SSUDebouncer
+- __OBJC_METACLASS_RO_$_SSUDebouncer
+- __ZN5boost11optional_nsL13in_place_initE.10269
+- __ZN5boost11optional_nsL13in_place_initE.10862
+- __ZN5boost11optional_nsL13in_place_initE.11140
+- __ZN5boost11optional_nsL13in_place_initE.11723
+- __ZN5boost11optional_nsL13in_place_initE.1913
+- __ZN5boost11optional_nsL13in_place_initE.2083
+- __ZN5boost11optional_nsL13in_place_initE.2652
+- __ZN5boost11optional_nsL13in_place_initE.2858
+- __ZN5boost11optional_nsL13in_place_initE.3752
+- __ZN5boost11optional_nsL13in_place_initE.4453
+- __ZN5boost11optional_nsL13in_place_initE.4613
+- __ZN5boost11optional_nsL13in_place_initE.5052
+- __ZN5boost11optional_nsL13in_place_initE.5260
+- __ZN5boost11optional_nsL13in_place_initE.6051
+- __ZN5boost11optional_nsL13in_place_initE.6184
+- __ZN5boost11optional_nsL13in_place_initE.6505
+- __ZN5boost11optional_nsL13in_place_initE.6582
+- __ZN5boost11optional_nsL13in_place_initE.6827
+- __ZN5boost11optional_nsL13in_place_initE.7331
+- __ZN5boost11optional_nsL13in_place_initE.7680
+- __ZN5boost11optional_nsL13in_place_initE.7942
+- __ZN5boost11optional_nsL13in_place_initE.8111
+- __ZN5boost11optional_nsL13in_place_initE.8288
+- __ZN5boost11optional_nsL16in_place_init_ifE.10270
+- __ZN5boost11optional_nsL16in_place_init_ifE.10863
+- __ZN5boost11optional_nsL16in_place_init_ifE.11141
+- __ZN5boost11optional_nsL16in_place_init_ifE.11724
+- __ZN5boost11optional_nsL16in_place_init_ifE.1914
+- __ZN5boost11optional_nsL16in_place_init_ifE.2084
+- __ZN5boost11optional_nsL16in_place_init_ifE.2653
+- __ZN5boost11optional_nsL16in_place_init_ifE.2859
+- __ZN5boost11optional_nsL16in_place_init_ifE.3753
+- __ZN5boost11optional_nsL16in_place_init_ifE.4454
+- __ZN5boost11optional_nsL16in_place_init_ifE.4614
+- __ZN5boost11optional_nsL16in_place_init_ifE.5053
+- __ZN5boost11optional_nsL16in_place_init_ifE.5261
+- __ZN5boost11optional_nsL16in_place_init_ifE.6052
+- __ZN5boost11optional_nsL16in_place_init_ifE.6185
+- __ZN5boost11optional_nsL16in_place_init_ifE.6506
+- __ZN5boost11optional_nsL16in_place_init_ifE.6583
+- __ZN5boost11optional_nsL16in_place_init_ifE.6828
+- __ZN5boost11optional_nsL16in_place_init_ifE.7332
+- __ZN5boost11optional_nsL16in_place_init_ifE.7681
+- __ZN5boost11optional_nsL16in_place_init_ifE.7943
+- __ZN5boost11optional_nsL16in_place_init_ifE.8112
+- __ZN5boost11optional_nsL16in_place_init_ifE.8289
+- __ZN5boost6detailL28make_color_map_from_arg_packE.10271
+- __ZN5boost6detailL28make_color_map_from_arg_packE.10864
+- __ZN5boost6detailL28make_color_map_from_arg_packE.11142
+- __ZN5boost6detailL28make_color_map_from_arg_packE.11725
+- __ZN5boost6detailL28make_color_map_from_arg_packE.1915
+- __ZN5boost6detailL28make_color_map_from_arg_packE.2085
+- __ZN5boost6detailL28make_color_map_from_arg_packE.2654
+- __ZN5boost6detailL28make_color_map_from_arg_packE.2860
+- __ZN5boost6detailL28make_color_map_from_arg_packE.3754
+- __ZN5boost6detailL28make_color_map_from_arg_packE.4455
+- __ZN5boost6detailL28make_color_map_from_arg_packE.4615
+- __ZN5boost6detailL28make_color_map_from_arg_packE.5054
+- __ZN5boost6detailL28make_color_map_from_arg_packE.5262
+- __ZN5boost6detailL28make_color_map_from_arg_packE.6053
+- __ZN5boost6detailL28make_color_map_from_arg_packE.6186
+- __ZN5boost6detailL28make_color_map_from_arg_packE.6507
+- __ZN5boost6detailL28make_color_map_from_arg_packE.6584
+- __ZN5boost6detailL28make_color_map_from_arg_packE.6829
+- __ZN5boost6detailL28make_color_map_from_arg_packE.7333
+- __ZN5boost6detailL28make_color_map_from_arg_packE.7682
+- __ZN5boost6detailL28make_color_map_from_arg_packE.7944
+- __ZN5boost6detailL28make_color_map_from_arg_packE.8113
+- __ZN5boost6detailL28make_color_map_from_arg_packE.8290
+- ___34-[SSUDebouncer restartDelayTimer:]_block_invoke
+- ___36-[SSUDebouncer signalEventReceived:]_block_invoke
+- ___52+[SSUXPCUtils isCoreDataObjectArrayShortcutsChange:]_block_invoke
+- ___84+[CDMSSUService(SystemEvent) handleXPCEvent:fromStream:withAssets:withSelfMetadata:]_block_invoke
+- ___84+[CDMSSUService(SystemEvent) handleXPCEvent:fromStream:withAssets:withSelfMetadata:]_block_invoke_2
+- ___Block_byref_object_copy_.10956
+- ___Block_byref_object_copy_.1857
+- ___Block_byref_object_copy_.1960
+- ___Block_byref_object_copy_.2643
+- ___Block_byref_object_copy_.3234
+- ___Block_byref_object_copy_.3481
+- ___Block_byref_object_copy_.5147
+- ___Block_byref_object_copy_.6599
+- ___Block_byref_object_copy_.7342
+- ___Block_byref_object_copy_.8426
+- ___Block_byref_object_copy_.8984
+- ___Block_byref_object_dispose_.10957
+- ___Block_byref_object_dispose_.1858
+- ___Block_byref_object_dispose_.1961
+- ___Block_byref_object_dispose_.2644
+- ___Block_byref_object_dispose_.3235
+- ___Block_byref_object_dispose_.3482
+- ___Block_byref_object_dispose_.5148
+- ___Block_byref_object_dispose_.6600
+- ___Block_byref_object_dispose_.7343
+- ___Block_byref_object_dispose_.8427
+- ___Block_byref_object_dispose_.8985
+- ___block_descriptor_40_e8_v16?08l
+- ___block_descriptor_48_e8_32r_e36_B24?0Q8"NSObject<OS_xpc_object>"16lr32l8
+- ___block_descriptor_48_e8_32s40s_e5_v8?0ls32l8s40l8
+- ___block_descriptor_48_e8_32s40w_e5_v8?0lw40l8s32l8
+- ___block_literal_global.10236
+- ___block_literal_global.10493
+- ___block_literal_global.10853
+- ___block_literal_global.11245
+- ___block_literal_global.1135
+- ___block_literal_global.11522
+- ___block_literal_global.1884
+- ___block_literal_global.3450
+- ___block_literal_global.4076
+- ___block_literal_global.4236
+- ___block_literal_global.4449
+- ___block_literal_global.5475
+- ___block_literal_global.5750
+- ___block_literal_global.6713
+- ___block_literal_global.68
+- ___block_literal_global.70.983
+- ___block_literal_global.7008
+- ___block_literal_global.73
+- ___block_literal_global.7327
+- ___block_literal_global.7752
+- ___block_literal_global.7919
+- ___block_literal_global.8032
+- ___block_literal_global.8193
+- ___block_literal_global.8560
+- ___block_literal_global.8600
+- ___block_literal_global.9219
+- ___block_literal_global.985
+- __dispatch_source_type_timer
+- _dispatch_resume
+- _dispatch_source_cancel
+- _dispatch_source_create
+- _dispatch_source_set_event_handler
+- _dispatch_source_set_timer
+- _getNameStringToEnumDict.onceToken.8031
+- _getNameStringToEnumDict.onceToken.8599
+- _handleXPCEvent:fromStream:withAssets:withSelfMetadata:.once
+- _objc_msgSend$_handler
+- _objc_msgSend$initWithCoalescingTimeWindow:handler:
+- _objc_msgSend$isCoreDataObjectArrayShortcutsChange:
+- _objc_msgSend$isCoreDataObjectShortcutsChange:
+- _objc_msgSend$isShortcutsChange:
+- _objc_msgSend$resetDelayTimer
+- _objc_msgSend$restartDelayTimer:
+- _objc_msgSend$signalEventReceived:
+- _objc_setProperty_nonatomic_copy
+- _syslog
+- _userShortcutDatabaseChangedDebouncer
+- _xpc_array_apply
+- _xpc_dictionary_get_int64
+CStrings:
++ "%s LVC Request for utterance: %s"
++ "%s PSC Request for utterance: %s"
++ "%s SNLC Request for utterance: %s"
++ "com.apple.siri.VoiceShortcuts.DataDidUpdateNotification"
+- "\x02\x11"
+- "%s Handling (debounced) voice shortcuts database changed SSU XPC stream event with locale=%@"
+- "%s Received voice shortcuts database changed SSU XPC stream event with locale=%@ and event %p"
+- "%s The event represents a material change. Signalling the debouncer."
+- "%s The event represents a non-material change. Aborting XPC event handling."
+- "%s [ERR]: Change array contains value of non-dictionary type"
+- "%s [ERR]: Received XPC event missing `deleted` key"
+- "%s [ERR]: Received XPC event missing `inserted` key"
+- "%s [ERR]: Received XPC event missing `updated` key"
+- "+[CDMSSUService(SystemEvent) handleXPCEvent:fromStream:withAssets:withSelfMetadata:]_block_invoke_2"
+- "+[SSUXPCUtils isCoreDataObjectArrayShortcutsChange:]_block_invoke"
+- "+[SSUXPCUtils isShortcutsChange:]"
+- "@\"NSObject<OS_dispatch_source>\""
+- "@32@0:8d16@?24"
+- "B24@?0Q8@\"NSObject<OS_xpc_object>\"16"
+- "LVC Request for utterance: %s"
+- "PSC Request for utterance: %s"
+- "SNLC Request for utterance: %s"
+- "SSUDebouncer"
+- "T@\"NSObject<OS_dispatch_queue>\",R,N,V__queue"
+- "T@\"NSObject<OS_dispatch_source>\",&,N,V__delayTimer"
+- "T@?,C,N,V__handler"
+- "Td,R,N,V__timeWindowSeconds"
+- "__delayTimer"
+- "__handler"
+- "__queue"
+- "__timeWindowSeconds"
+- "_delayTimer"
+- "_handler"
+- "_timeWindowSeconds"
+- "com.apple.shortcuts.WFCoreDataDatabaseContextDidSaveNotification"
+- "com.apple.siri.CDM.SSUDebouncer"
+- "deleted"
+- "initWithCoalescingTimeWindow:handler:"
+- "inserted"
+- "isCoreDataObjectArrayShortcutsChange:"
+- "isCoreDataObjectShortcutsChange:"
+- "isShortcutsChange:"
+- "objectType"
+- "resetDelayTimer"
+- "restartDelayTimer:"
+- "set_delayTimer:"
+- "set_handler:"
+- "signalEventReceived:"
+- "updated"
+
+```

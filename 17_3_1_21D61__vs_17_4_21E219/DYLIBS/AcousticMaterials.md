@@ -1,0 +1,60 @@
+## AcousticMaterials
+
+> `/System/Library/PrivateFrameworks/AcousticMaterials.framework/AcousticMaterials`
+
+```diff
+
+ 22.0.0.0.0
+-  __TEXT.__text: 0x8e38
++  __TEXT.__text: 0x90b0
+   __TEXT.__auth_stubs: 0x410
+   __TEXT.__objc_methlist: 0x348
+   __TEXT.__const: 0x49
+
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_const: 0x748
+   __DATA_CONST.__objc_selrefs: 0x2e8
++  __DATA_CONST.__objc_classrefs: 0x88
++  __DATA_CONST.__objc_superrefs: 0x18
+   __DATA_CONST.__objc_arraydata: 0x120
+   __AUTH_CONST.__cfstring: 0x720
+   __AUTH_CONST.__objc_intobj: 0x90
+
+   __AUTH_CONST.__objc_arrayobj: 0x48
+   __AUTH_CONST.__auth_got: 0x218
+   __AUTH.__objc_data: 0x190
+-  __DATA.__objc_classrefs: 0x88
+-  __DATA.__objc_superrefs: 0x18
+   __DATA.__objc_ivar: 0x78
+   __DATA.__data: 0xc8
+   __DATA.__common: 0x18
+
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libsqlite3.dylib
+-  Functions: 156
++  Functions: 164
+   Symbols:   638
+   CStrings:  218
+ 
+Symbols:
++ __ZNSt3__116allocator_traitsINS_9allocatorINS_11__hash_nodeINS_17__hash_value_typeI13semantic_pair16materialsForPairEEPvEEEEE7destroyB8ue170006INS_4pairIKS4_S5_EEvvEEvRS9_PT_
++ __ZNSt3__122__hash_node_destructorINS_9allocatorINS_11__hash_nodeINS_17__hash_value_typeI13semantic_pair16materialsForPairEEPvEEEEEclB8ue170006EPS8_
++ __ZNSt3__122__hash_node_destructorINS_9allocatorINS_11__hash_nodeINS_17__hash_value_typeIU8__strongP8NSStringxEEPvEEEEEclB8ue170006EPS9_
++ __ZNSt3__122__hash_node_destructorINS_9allocatorINS_11__hash_nodeIU8__strongP12AMAbsorptionPvEEEEEclB8ue170006EPS7_
++ __ZNSt3__122__hash_node_destructorINS_9allocatorINS_11__hash_nodeIU8__strongP12AMScatteringPvEEEEEclB8ue170006EPS7_
++ __ZNSt3__122__hash_node_destructorINS_9allocatorINS_11__hash_nodeIU8__strongP21AMSoundReductionIndexPvEEEEEclB8ue170006EPS7_
++ __ZNSt3__14pairIK13semantic_pair16materialsForPairEC2B8ue170006ERKS4_
++ __ZNSt3__14pairIR13semantic_pairR16materialsForPairEaSB8ue170006IKS1_S3_LPv0EEERS5_RKNS0_IT_T0_EE
++ __ZSt28__throw_bad_array_new_lengthB8ue170006v
+- __ZNSt3__116allocator_traitsINS_9allocatorINS_11__hash_nodeINS_17__hash_value_typeI13semantic_pair16materialsForPairEEPvEEEEE7destroyB7v160006INS_4pairIKS4_S5_EEvvEEvRS9_PT_
+- __ZNSt3__122__hash_node_destructorINS_9allocatorINS_11__hash_nodeINS_17__hash_value_typeI13semantic_pair16materialsForPairEEPvEEEEEclB7v160006EPS8_
+- __ZNSt3__122__hash_node_destructorINS_9allocatorINS_11__hash_nodeINS_17__hash_value_typeIU8__strongP8NSStringxEEPvEEEEEclB7v160006EPS9_
+- __ZNSt3__122__hash_node_destructorINS_9allocatorINS_11__hash_nodeIU8__strongP12AMAbsorptionPvEEEEEclB7v160006EPS7_
+- __ZNSt3__122__hash_node_destructorINS_9allocatorINS_11__hash_nodeIU8__strongP12AMScatteringPvEEEEEclB7v160006EPS7_
+- __ZNSt3__122__hash_node_destructorINS_9allocatorINS_11__hash_nodeIU8__strongP21AMSoundReductionIndexPvEEEEEclB7v160006EPS7_
+- __ZNSt3__14pairIK13semantic_pair16materialsForPairEC2ERKS4_
+- __ZNSt3__14pairIR13semantic_pairR16materialsForPairEaSB7v160006IRKNS0_IKS1_S3_EELPv0EEERS5_OT_
+- __ZSt28__throw_bad_array_new_lengthB7v160006v
+
+```

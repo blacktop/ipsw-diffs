@@ -1,0 +1,535 @@
+## CompanionDockSettings
+
+> `/System/Library/NanoPreferenceBundles/General/CompanionDockSettings.bundle/CompanionDockSettings`
+
+```diff
+
+-1112.0.187.0.0
+-  __TEXT.__text: 0x6b24
+-  __TEXT.__auth_stubs: 0x300
+-  __TEXT.__objc_stubs: 0xc60
+-  __TEXT.__objc_methlist: 0x434
+-  __TEXT.__const: 0x60
+-  __TEXT.__gcc_except_tab: 0x30
+-  __TEXT.__cstring: 0xf12
+-  __TEXT.__objc_methname: 0x142d
+-  __TEXT.__objc_classname: 0x181
+-  __TEXT.__objc_methtype: 0x43d
++1112.1.27.0.0
++  __TEXT.__text: 0x26b4
++  __TEXT.__auth_stubs: 0x210
++  __TEXT.__objc_stubs: 0xa40
++  __TEXT.__objc_methlist: 0x320
++  __TEXT.__const: 0x50
++  __TEXT.__cstring: 0x1b7
++  __TEXT.__objc_methname: 0x11ac
+   __TEXT.__oslogstring: 0x49
+-  __TEXT.__unwind_info: 0x174
+-  __DATA_CONST.__auth_got: 0x190
++  __TEXT.__objc_classname: 0xad
++  __TEXT.__objc_methtype: 0x290
++  __TEXT.__unwind_info: 0xe8
++  __DATA_CONST.__auth_got: 0x110
+   __DATA_CONST.__got: 0x60
+-  __DATA_CONST.__const: 0xf80
+-  __DATA_CONST.__cfstring: 0xe20
+-  __DATA_CONST.__objc_classlist: 0x28
+-  __DATA_CONST.__objc_protolist: 0x40
++  __DATA_CONST.__const: 0xe0
++  __DATA_CONST.__cfstring: 0x220
++  __DATA_CONST.__objc_classlist: 0x8
++  __DATA_CONST.__objc_protolist: 0x28
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_intobj: 0x48
+-  __DATA_CONST.__objc_arraydata: 0x38
+-  __DATA_CONST.__objc_arrayobj: 0x18
+-  __DATA.__objc_const: 0x1438
+-  __DATA.__objc_selrefs: 0x488
+-  __DATA.__objc_classrefs: 0xa0
+-  __DATA.__objc_superrefs: 0x18
+-  __DATA.__objc_ivar: 0x54
+-  __DATA.__objc_data: 0x190
+-  __DATA.__data: 0x310
+-  __DATA.__bss: 0x5c0
++  __DATA.__objc_const: 0x818
++  __DATA.__objc_selrefs: 0x400
++  __DATA.__objc_classrefs: 0x78
++  __DATA.__objc_superrefs: 0x8
++  __DATA.__objc_ivar: 0x34
++  __DATA.__objc_data: 0x50
++  __DATA.__data: 0x1e0
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreServices.framework/CoreServices
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  Functions: 292
+-  Symbols:   278
+-  CStrings:  500
++  Functions: 75
++  Symbols:   71
++  CStrings:  254
+ 
+Symbols:
++ _OBJC_CLASS_$_CSLPRFAppSwitcherEditing
+- _AnalyticsSendEvent
+- _CSLAlertServiceIsApplePay
+- _CSLAlertServiceIsSharingAuth
+- _CSLAlertServiceOverControlCenter
+- _CSLAlertServiceShouldDuckControlCenter
+- _CSLAppSwitcherEditingActionToNSString
+- _CSLAppSwitcherEditingSourceToNSString
+- _CSLAppSwitcherModeDefault
+- _CSLAppSwitcherModeToNSString
+- _CSLAppSwitcherModeValid
+- _MGCopyAnswer
+- _OBJC_CLASS_$_CSLAppSwitcherDefaultApplications
+- _OBJC_CLASS_$_CSLAppSwitcherEditing
+- _OBJC_CLASS_$_CSLPRFTwoWaySyncSetting
+- _OBJC_CLASS_$_NSArray
+- _OBJC_CLASS_$_NSConstantArray
+- _OBJC_CLASS_$_NSConstantIntegerNumber
+- _OBJC_CLASS_$_NSDictionary
+- _OBJC_CLASS_$_NSObject
+- _OBJC_CLASS_$_NSSet
+- _OBJC_METACLASS_$_CSLAppSwitcherDefaultApplications
+- _OBJC_METACLASS_$_CSLAppSwitcherEditing
+- _OBJC_METACLASS_$_CSLAppSwitcherFavoritesSetting
+- _OBJC_METACLASS_$_CSLAppSwitcherModeSetting
+- __Block_object_dispose
+- __Unwind_Resume
+- ___objc_personality_v0
+- _csl_accessibility_log
+- _csl_action_metrics_log
+- _csl_alerts_log
+- _csl_analytics_log
+- _csl_app_event_log
+- _csl_app_sessions_log
+- _csl_app_switcher_log
+- _csl_application_install_log
+- _csl_ariadne_log
+- _csl_background_refresh_log
+- _csl_backlight_log
+- _csl_battery_log
+- _csl_bb_log
+- _csl_bb_pipeline_log
+- _csl_bedtime_log
+- _csl_brightness_log
+- _csl_budget_log
+- _csl_button_log
+- _csl_cache_delete_log
+- _csl_clock_log
+- _csl_connection_status_log
+- _csl_control_center_log
+- _csl_crown_log
+- _csl_data_migration_log
+- _csl_demo_mode_log
+- _csl_depth_mode_log
+- _csl_detents_log
+- _csl_developer_log
+- _csl_diagnostics_log
+- _csl_dnd_log
+- _csl_dock_log
+- _csl_duet_metering_log
+- _csl_eclipse_log
+- _csl_eco_mode_log
+- _csl_flipbook_log
+- _csl_fluidui_log
+- _csl_gesture_log
+- _csl_haptic_log
+- _csl_hid_log
+- _csl_icon_field_log
+- _csl_icon_log
+- _csl_idle_navigation_log
+- _csl_lesson_log
+- _csl_low_power_mode_cellular_log
+- _csl_midnight_timer_log
+- _csl_migration_app_log
+- _csl_notification_alerting_log
+- _csl_notification_center_log
+- _csl_notification_management_log
+- _csl_now_playing_log
+- _csl_owd_log
+- _csl_passcode_log
+- _csl_power_log
+- _csl_preboard_log
+- _csl_prelaunch_log
+- _csl_process_assertions_log
+- _csl_qlll_log
+- _csl_responder_log
+- _csl_scene_alerts_log
+- _csl_scene_presentation_log
+- _csl_schedule_log
+- _csl_school_mode_log
+- _csl_screenshot_log
+- _csl_scroll_center_log
+- _csl_sessions_log
+- _csl_settings_log
+- _csl_shutdown_log
+- _csl_snapshot_log
+- _csl_startup_log
+- _csl_state_capture_log
+- _csl_statusbar_log
+- _csl_sting_log
+- _csl_systemstate_log
+- _csl_testing_log
+- _csl_thermal_log
+- _csl_timer_log
+- _csl_trace_log
+- _csl_transaction_log
+- _csl_transition_log
+- _csl_ui_log
+- _csl_uitrigger_log
+- _csl_usage_metering_log
+- _csl_user_idle_log
+- _csl_view_service_log
+- _csl_wake_gesture_log
+- _csl_watchkit_log
+- _csl_waterlock_log
+- _csl_widget_log
+- _csl_workspace_log
+- _csl_xpc_barrier_log
+- _dispatch_once
+- _kActivityAppBundleIdentifier
+- _kAppStoreBundleIdentifier
+- _kAudiobooksBundleIdentifier
+- _kAuthSharingAlertIdentifier
+- _kCSLAppSwitcherEditingActionKey
+- _kCSLAppSwitcherEditingEvent
+- _kCSLAppSwitcherEditingSourceKey
+- _kCSLAppSwitcherModeKey
+- _kCSLAppSwitcherModeLegacyKey
+- _kCSLDataMigrationMonitiorIdentifier
+- _kCSLLauncherBundleIdentifier
+- _kCSLPreboardBundleIdentifier
+- _kCSLReBoardBundleIdentifier
+- _kCalculatorBundleIdentifier
+- _kCalendarBundleIdentifier
+- _kCameraBundleIdentifier
+- _kCarouselBundleIdentifier
+- _kCarouselSceneIdentifier
+- _kClockBundleIdentifier
+- _kClockFaceBundleIdentifier
+- _kClockSceneIdentifier
+- _kCompassBundleIdentifier
+- _kContactsBundleIdentifier
+- _kCoreSpeechDaemonBundleIdentifier
+- _kDepthBundleIdentifier
+- _kDeskClockAlertIdentifier
+- _kEmergencyAlertIdentifier
+- _kFindMyDevicesBundleIdentifier
+- _kFindMyItemsBundleIdentifier
+- _kFindMyPeopleBundleIdentifier
+- _kHeartAppBundleIdentifier
+- _kHeartRhythmBundleIdentifier
+- _kHomeBundleIdentifier
+- _kHomeScreenSceneIdentifier
+- _kMailBundleIdentifier
+- _kMandrakeBundleIdentifier
+- _kMapsAppBundleIdentifier
+- _kMedicationsBundleIdentifier
+- _kMemojiEditorBundleIdentifier
+- _kMenstrualCyclesBundleIdentifier
+- _kMessagesAppBundleIdentifier
+- _kMindBundleIdentifier
+- _kMusicBundleIdentifier
+- _kNanoAlarmAlertIdentifier
+- _kNanoAlarmBundleIdentifier
+- _kNanoBuddyIdentifier
+- _kNanoCompassAlertIdentifier
+- _kNanoDemoBundleIdentifier
+- _kNanoDiagnosticsBundleIdentifier
+- _kNanoPhoneAlertIdentifier
+- _kNanoPhoneBundleIdentifier
+- _kNanoPhoneNonCellularAlertIdentifier
+- _kNanoPhotosBundleIdentifier
+- _kNanoStopwatchBundleIdentifier
+- _kNanoTimerAlertIdentifier
+- _kNanoTimerBundleIdentifier
+- _kNewsBundleIdentifier
+- _kNoiseBundleIdentifier
+- _kNowPlayingAppBundleIdentifer
+- _kOxygenSaturationBundleIdentifier
+- _kPassbookAlertIdentifier
+- _kPassbookBundleIdentifier
+- _kPassbookExpressAlertIdentifier
+- _kPodcastsBundleIdentifier
+- _kQuickBoardViewServiceBundleIdentifier
+- _kRemindersBundleIdentifier
+- _kRemoteBundleIdentifier
+- _kSchoolTimeAlertBundleIdentifier
+- _kSessionTrackerAppBundleIdentifier
+- _kSettingsBundleIdentifier
+- _kShortcutsBundleIdentifier
+- _kSleepBundleIdentifier
+- _kStocksBundleIdentifier
+- _kTapToRadar
+- _kTinCanBundleIdentifier
+- _kTipsBundleIdentifier
+- _kVictoryBundleIdentifier
+- _kVoiceMemosIdentifier
+- _kWeatherBundleIdentifier
+- _kWorldClockBundleIdentifier
+- _objc_alloc
+- _objc_destroyWeak
+- _objc_loadWeakRetained
+- _objc_opt_isKindOfClass
+- _objc_release_x1
+- _objc_retain
+- _objc_storeWeak
+- _os_log_create
+- _os_unfair_lock_lock
+- _os_unfair_lock_unlock
+CStrings:
++ "bundleIdentifier"
++ "localizedName"
+- "\x11"
+- "\x12"
+- "1"
+- "@\"<CSLAppSwitcherFavoritesSettingDelegate>\""
+- "@\"<CSLAppSwitcherFavoritesSettingDelegate>\"16@0:8"
+- "@\"<CSLAppSwitcherModeSettingDelegate>\""
+- "@\"<CSLAppSwitcherModeSettingDelegate>\"16@0:8"
+- "@\"CSLPRFTwoWaySyncSetting\""
+- "@\"NSArray\"16@0:8"
+- "@16@?0@8"
+- "AppSwitcherMode"
+- "CSLAppSwitcherDefaultApplications"
+- "CSLAppSwitcherEditing"
+- "CSLAppSwitcherFavoritesProviding"
+- "CSLAppSwitcherFavoritesSetting"
+- "CSLAppSwitcherModeChangedNotification"
+- "CSLAppSwitcherModeProviding"
+- "CSLAppSwitcherModeSetting"
+- "CSLDockSettingsChangedNotification"
+- "CSLPRFTwoWaySyncSettingDelegate"
+- "FavoriteApplications"
+- "MRUBasedDockLayout"
+- "MaximumFavoriteApplications"
+- "T@\"<CSLAppSwitcherFavoritesSettingDelegate>\",W,N"
+- "T@\"<CSLAppSwitcherFavoritesSettingDelegate>\",W,N,V_delegate"
+- "T@\"<CSLAppSwitcherModeSettingDelegate>\",W,N"
+- "T@\"<CSLAppSwitcherModeSettingDelegate>\",W,N,V_delegate"
+- "T@\"NSArray\",&,N"
+- "T@\"NSArray\",R,N"
+- "TQ,N"
+- "TQ,R,N"
+- "Tq,N,V_mode"
+- "Tq,R,N"
+- "_delegate"
+- "_lock"
+- "_maximumFavoritesSetting"
+- "_mode"
+- "_setting"
+- "_withLock:"
+- "accessibility"
+- "action"
+- "action_metrics"
+- "add"
+- "alerts"
+- "analytics"
+- "app_event"
+- "app_sessions"
+- "app_switcher"
+- "application_install"
+- "ariadne"
+- "arrayWithObjects:count:"
+- "background_refresh"
+- "backlight"
+- "battery"
+- "bb"
+- "bb_pipeline"
+- "bedtime"
+- "brightness"
+- "budget"
+- "button"
+- "cache_delete"
+- "clock"
+- "com.apple.ActivityMonitorApp"
+- "com.apple.AppStore"
+- "com.apple.Carousel"
+- "com.apple.Carousel.launcher"
+- "com.apple.Carousel.notifications"
+- "com.apple.DataMigrationMonitor"
+- "com.apple.Depth"
+- "com.apple.DeskClock.alert"
+- "com.apple.HeartRate"
+- "com.apple.Mandrake"
+- "com.apple.Mind"
+- "com.apple.MobileSMS"
+- "com.apple.NanoAlarm"
+- "com.apple.NanoAlarm.alert"
+- "com.apple.NanoBooks"
+- "com.apple.NanoCalculator.watchkitapp"
+- "com.apple.NanoCalendar"
+- "com.apple.NanoCamera"
+- "com.apple.NanoCompass.NanoCompassAlertUI"
+- "com.apple.NanoCompass.watchkitapp"
+- "com.apple.NanoContacts"
+- "com.apple.NanoDemo"
+- "com.apple.NanoDiagnostics"
+- "com.apple.NanoHeartRhythm"
+- "com.apple.NanoHome"
+- "com.apple.NanoMail"
+- "com.apple.NanoMaps"
+- "com.apple.NanoMedications"
+- "com.apple.NanoMenstrualCycles"
+- "com.apple.NanoMusic"
+- "com.apple.NanoNowPlaying"
+- "com.apple.NanoOxygenSaturation.watchkitapp"
+- "com.apple.NanoPassbook"
+- "com.apple.NanoPhone"
+- "com.apple.NanoPhotos"
+- "com.apple.NanoReminders"
+- "com.apple.NanoRemote"
+- "com.apple.NanoSettings"
+- "com.apple.NanoSettings.CellularSettingsAlert"
+- "com.apple.NanoSettings.NearbyInteractionAlert"
+- "com.apple.NanoSettings.TextSizeSettingsAlert"
+- "com.apple.NanoSettings.WiFiSettingsAlert"
+- "com.apple.NanoSettings.alert"
+- "com.apple.NanoSleep.watchkitapp"
+- "com.apple.NanoStopwatch"
+- "com.apple.NanoTapToRadar"
+- "com.apple.NanoTimer.alert"
+- "com.apple.NanoTips"
+- "com.apple.NanoWorldClock"
+- "com.apple.Noise"
+- "com.apple.PreBoard"
+- "com.apple.QuickboardViewService"
+- "com.apple.ReBoard"
+- "com.apple.SchoolTime"
+- "com.apple.SessionTrackerApp"
+- "com.apple.VoiceMemos"
+- "com.apple.carousel.clock"
+- "com.apple.carousel.dock.edited"
+- "com.apple.carousel.shutdown"
+- "com.apple.clockface"
+- "com.apple.corespeechd"
+- "com.apple.findmy.finddevices"
+- "com.apple.findmy.finditems"
+- "com.apple.findmy.findpeople"
+- "com.apple.nanobuddy"
+- "com.apple.nanonews"
+- "com.apple.nanopassbook.alert"
+- "com.apple.nanopassbook.transactioncompletealert"
+- "com.apple.nanophone.cellularDeviceAlert"
+- "com.apple.nanophone.emergencyAlert"
+- "com.apple.nanophone.nonCellularDeviceAlert"
+- "com.apple.nanosettings.Flashlight"
+- "com.apple.podcasts"
+- "com.apple.private.NanoTimer"
+- "com.apple.sharing.auth"
+- "com.apple.shortcuts.watch"
+- "com.apple.stocks.watchapp"
+- "com.apple.tincan"
+- "com.apple.watch.homescreen"
+- "com.apple.watchmemojieditor"
+- "com.apple.weather.watchapp"
+- "com.nike.nikeplus-gps.watchkitapp"
+- "companionSettings"
+- "connection_status"
+- "control_center"
+- "crown"
+- "data_migration"
+- "defaultApplicationList"
+- "defaultValue"
+- "delegate"
+- "demo_mode"
+- "depth_mode"
+- "detents"
+- "developer"
+- "diagnostics"
+- "dictionaryWithObjects:forKeys:count:"
+- "dnd"
+- "dock"
+- "duet_metering"
+- "eclipse"
+- "eco_mode"
+- "flipbook"
+- "fluidui"
+- "fuKL2rMywRgQF1wowOA/cg"
+- "gesture"
+- "gizmoSettings"
+- "gizmoSwitcher"
+- "haptic"
+- "hid"
+- "i"
+- "icon"
+- "icon_field"
+- "idle_navigation"
+- "initWithKey:defaultValue:notification:"
+- "intValue"
+- "integerValue"
+- "isEqualToString:"
+- "lesson"
+- "low_power_mode_cellular"
+- "midnight_timer"
+- "migrate:withMapping:"
+- "migration_app"
+- "mru"
+- "name"
+- "notification_alerting"
+- "notification_center"
+- "notification_management"
+- "now_playing"
+- "numberWithInteger:"
+- "numberWithUnsignedInteger:"
+- "owd"
+- "passcode"
+- "power"
+- "preboard"
+- "prelaunch"
+- "process_assertions"
+- "qlll"
+- "remove"
+- "reorder"
+- "responder"
+- "scene_alerts"
+- "scene_presentation"
+- "schedule"
+- "school_mode"
+- "screenshot"
+- "scroll_center"
+- "sessions"
+- "setMaximumFavorites:"
+- "setValue:"
+- "setWithArray:"
+- "settings"
+- "shutdown"
+- "snapshot"
+- "source"
+- "startup"
+- "state_capture"
+- "statusbar"
+- "sting"
+- "systemstate"
+- "testing"
+- "thermal"
+- "timer"
+- "trace"
+- "transaction"
+- "transition"
+- "twoWaySyncSettingDidUpdate:"
+- "ui"
+- "uitrigger"
+- "usage_metering"
+- "user_idle"
+- "v24@0:8@\"<CSLAppSwitcherFavoritesSettingDelegate>\"16"
+- "v24@0:8@\"<CSLAppSwitcherModeSettingDelegate>\"16"
+- "v24@0:8@\"CSLPRFTwoWaySyncSetting\"16"
+- "v24@0:8Q16"
+- "v32@0:8Q16Q24"
+- "value"
+- "view_service"
+- "wake_gesture"
+- "watchkit"
+- "waterlock"
+- "widget"
+- "workspace"
+- "xpc_barrier"
+- "{os_unfair_lock_s=\"_os_unfair_lock_opaque\"I}"
+
+```

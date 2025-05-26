@@ -1,0 +1,22 @@
+## Contacts
+
+> `/private/var/staged_system_apps/Contacts.app/Contacts`
+
+```diff
+
+-1240.6.1.0.0
++1240.10.0.0.0
+   __TEXT.__text: 0xcfa8
+   __TEXT.__auth_stubs: 0x4a0
+   __TEXT.__objc_stubs: 0x3320
+
+   __TEXT.__objc_methtype: 0x1ac2
+   __TEXT.__const: 0x10
+   __TEXT.__gcc_except_tab: 0xdc
+-  __TEXT.__unwind_info: 0x458
++  __TEXT.__unwind_info: 0x44c
+   __DATA_CONST.__auth_got: 0x260
+   __DATA_CONST.__got: 0x90
+   __DATA_CONST.__const: 0x3a0
+
+```

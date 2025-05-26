@@ -1,0 +1,101 @@
+## RuntimeInternal
+
+> `/System/Library/PrivateFrameworks/RuntimeInternal.framework/RuntimeInternal`
+
+```diff
+
+-19.0.0.0.0
+-  __TEXT.__text: 0xf264
++22.0.0.0.0
++  __TEXT.__text: 0xf68c
+   __TEXT.__auth_stubs: 0x480
+   __TEXT.__const: 0x2a60
+   __TEXT.__cstring: 0x232
+
+   __TEXT.__swift5_proto: 0x28c
+   __TEXT.__swift5_types: 0x164
+   __TEXT.__swift5_protos: 0x10
+-  __TEXT.__unwind_info: 0x6c4
++  __TEXT.__unwind_info: 0x6d8
+   __TEXT.__eh_frame: 0x160
+   __DATA_CONST.__got: 0x120
+   __DATA_CONST.__const: 0x28
+
+   __AUTH_CONST.__auth_ptr: 0x28
+   __AUTH_CONST.__auth_got: 0x240
+   __AUTH.__data: 0x70
+-  __DATA.__data: 0x6b8
++  __DATA.__data: 0x6b0
+   __DATA.__bss: 0x3f00
+   __DATA.__common: 0x20
+   __DATA_DIRTY.__const: 0x1b70
+
+   - /usr/lib/swift/libswiftObjectiveC.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswiftos.dylib
+-  Functions: 1678
+-  Symbols:   4232
++  Functions: 1675
++  Symbols:   4224
+   CStrings:  18
+ 
+Symbols:
++ _$s15RuntimeInternal10BufferViewVyxSicir.resume.0Tm
++ _$s15RuntimeInternal16FunctionMetadataV10ConventionV9hashValueSivgTm
++ _$s15RuntimeInternal16FunctionMetadataV10ConventionVSHAASH13_rawHashValue4seedS2i_tFTWTm
++ _$s15RuntimeInternal16FunctionMetadataV10ConventionVSHAASH9hashValueSivgTWTm
++ _$s15RuntimeInternal7PtrAuthO12signArgument_2asS2V_s6UInt64VtFZ
++ _$s15RuntimeInternal7PtrAuthO20SpecialDiscriminatorO27contextDescriptorAsArguments6UInt64VvgZ
++ _$s15RuntimeInternal7PtrAuthO22signDescriptorArgumentyAA04TypeF0VAFFZ
++ _$s15RuntimeInternal8MetadataV12foreignClassAA07ForeigneC0Vvg
++ _$s15RuntimeInternal8MetadataV12foreignClassAA07ForeigneC0VvpMV
++ _$s15RuntimeInternal8MetadataV14AccessFunctionV06callAsE0yA2C7RequestV_SRySVSgGtF
++ _$s15RuntimeInternal8MetadataV14AccessFunctionV06callAsE0yA2C7RequestV_SVSgA2ItF
++ _$s15RuntimeInternal8MetadataV14AccessFunctionV06callAsE0yA2C7RequestV_SVSgAItF
++ _$s15RuntimeInternal8MetadataV14AccessFunctionV06callAsE0yA2C7RequestV_SVSgtF
++ _$s15RuntimeInternal8MetadataV14AccessFunctionV06callAsE0yA2C7RequestV_SaySVSgGtF
++ _$s15RuntimeInternal8MetadataV4KindV15_canonicalValueSivpMV
++ _$sSD17dictionaryLiteralSDyxq_Gx_q_td_tcfC15RuntimeInternal18ProtocolDescriptorV_SayypXpGTgm5
++ _$sSD17dictionaryLiteralSDyxq_Gx_q_td_tcfC15RuntimeInternal9TypeCacheV3KeyV_AC8MetadataVSgTgm5
++ _$sSV15RuntimeInternalE11packPointerSVvpMV
++ _$sSV15RuntimeInternalE15signedAccessFn1yAA8MetadataV8ResponseVAD7RequestV_SVSgtXfvg
++ _$sSV15RuntimeInternalE15signedAccessFn1yAA8MetadataV8ResponseVAD7RequestV_SVSgtXfvpMV
++ _$sSV15RuntimeInternalE15signedAccessFn2yAA8MetadataV8ResponseVAD7RequestV_SVSgAItXfvg
++ _$sSV15RuntimeInternalE15signedAccessFn2yAA8MetadataV8ResponseVAD7RequestV_SVSgAItXfvpMV
++ _$sSV15RuntimeInternalE15signedAccessFn3yAA8MetadataV8ResponseVAD7RequestV_SVSgA2ItXfvg
++ _$sSV15RuntimeInternalE15signedAccessFn3yAA8MetadataV8ResponseVAD7RequestV_SVSgA2ItXfvpMV
++ _$sSV15RuntimeInternalE18signedAccessFnManyyAA8MetadataV8ResponseVAD7RequestV_SPySVSgGtXfvg
++ _$sSV15RuntimeInternalE18signedAccessFnManyyAA8MetadataV8ResponseVAD7RequestV_SPySVSgGtXfvpMV
++ _$ss17FixedWidthIntegerP15RuntimeInternalE10rawPointerSVvpMV
++ _$ss17FixedWidthIntegerP15RuntimeInternalE18optionalRawPointerSVSgvpMV
+- _$s15RuntimeInternal10BufferViewVyxGSKAASK5index6before5IndexQzAH_tFTWTm
+- _$s15RuntimeInternal10BufferViewVyxGSKAASK5index_8offsetBy07limitedG05IndexQzSgAI_SiAItFTWTm
+- _$s15RuntimeInternal10BufferViewVyxGSKAASK9formIndex6beforey0F0Qzz_tFTWTm
+- _$s15RuntimeInternal10BufferViewVyxGSlAASl5index5after5IndexQzAH_tFTWTm
+- _$s15RuntimeInternal10BufferViewVyxGSlAASl9formIndex5aftery0F0Qzz_tFTWTm
+- _$s15RuntimeInternal12conformances_WZ
+- _$s15RuntimeInternal12conformances_Wz
+- _$s15RuntimeInternal8MetadataV14AccessFunctionV06callAsE0yA2C7RequestV_S2VtF
+- _$s15RuntimeInternal8MetadataV14AccessFunctionV06callAsE0yA2C7RequestV_S3VtF
+- _$s15RuntimeInternal8MetadataV14AccessFunctionV06callAsE0yA2C7RequestV_SRySVGtF
+- _$s15RuntimeInternal8MetadataV14AccessFunctionV06callAsE0yA2C7RequestV_SVtF
+- _$s15RuntimeInternal8MetadataV14AccessFunctionV06callAsE0yA2C7RequestV_SaySVGtF
+- _$s15RuntimeInternal8MetadataV14AccessFunctionV06callAsE0yA2C7RequestV_SayypXpGtFTm
+- _$s15RuntimeInternal8MetadataV4KindV9hashValueSivgTm
+- _$s15RuntimeInternal8MetadataV4KindVSHAASH13_rawHashValue4seedS2i_tFTWTm
+- _$s15RuntimeInternal8MetadataV4KindVSHAASH9hashValueSivgTWTm
+- _$s15RuntimeInternal9TypeCacheV11getOrInsert_4fromAA8MetadataVSgAA07MangledC9ReferenceV_AA0cI0VtFAHSDyAC3KeyVAHGzYbXEfU_TATm
+- _$sSD17dictionaryLiteralSDyxq_Gx_q_td_tcfC15RuntimeInternal18ProtocolDescriptorV_SayypXpGTg5Tf4nd_n
+- _$sSD17dictionaryLiteralSDyxq_Gx_q_td_tcfC15RuntimeInternal9TypeCacheV3KeyV_AC8MetadataVSgTg5Tf4nd_n
+- _$sSV15RuntimeInternalE15signedAccessFn1yAA8MetadataV8ResponseVAD7RequestV_SVtXfvg
+- _$sSV15RuntimeInternalE15signedAccessFn1yAA8MetadataV8ResponseVAD7RequestV_SVtXfvpMV
+- _$sSV15RuntimeInternalE15signedAccessFn2yAA8MetadataV8ResponseVAD7RequestV_S2VtXfvg
+- _$sSV15RuntimeInternalE15signedAccessFn2yAA8MetadataV8ResponseVAD7RequestV_S2VtXfvpMV
+- _$sSV15RuntimeInternalE15signedAccessFn3yAA8MetadataV8ResponseVAD7RequestV_S3VtXfvg
+- _$sSV15RuntimeInternalE15signedAccessFn3yAA8MetadataV8ResponseVAD7RequestV_S3VtXfvpMV
+- _$sSV15RuntimeInternalE18signedAccessFnManyyAA8MetadataV8ResponseVAD7RequestV_SPySVGtXfvg
+- _$sSV15RuntimeInternalE18signedAccessFnManyyAA8MetadataV8ResponseVAD7RequestV_SPySVGtXfvpMV
+- _$ss6UInt64V15RuntimeInternalE10rawPointerSVvpMV
+- _$ss6UInt64V15RuntimeInternalE18optionalRawPointerSVSgvpMV
+
+```

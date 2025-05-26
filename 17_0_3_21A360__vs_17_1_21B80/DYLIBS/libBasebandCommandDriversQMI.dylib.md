@@ -1,0 +1,145 @@
+## libBasebandCommandDriversQMI.dylib
+
+> `/usr/lib/libBasebandCommandDriversQMI.dylib`
+
+```diff
+
+-977.0.0.0.0
+-  __TEXT.__text: 0x10d564
++986.0.0.0.0
++  __TEXT.__text: 0x10d930
+   __TEXT.__auth_stubs: 0x1830
+   __TEXT.__init_offsets: 0x8
+   __TEXT.__const: 0x8709
+-  __TEXT.__gcc_except_tab: 0x157f8
+-  __TEXT.__cstring: 0x3df7
++  __TEXT.__gcc_except_tab: 0x1582c
++  __TEXT.__cstring: 0x3e18
+   __TEXT.__oslogstring: 0x26e2
+-  __TEXT.__unwind_info: 0x789c
++  __TEXT.__unwind_info: 0x78c8
+   __TEXT.__eh_frame: 0x38
+   __DATA_CONST.__got: 0x9c8
+-  __DATA_CONST.__const: 0x3a38
++  __DATA_CONST.__const: 0x3a58
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __AUTH_CONST.__const: 0xc658
+   __AUTH_CONST.__cfstring: 0x20
+
+   - /usr/lib/libTelephonyUtilDynamic.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  Functions: 5643
+-  Symbols:   13300
+-  CStrings:  1039
++  Functions: 5652
++  Symbols:   13315
++  CStrings:  1040
+ 
+Symbols:
++ __ZN3dms3tlv3abm10parseFieldEPKhS3_RNS1_19OperatingModeLegacyE
++ __ZN3dms3tlv3abm10writeFieldEPhRKNS1_19OperatingModeLegacyE
++ __ZN3dms3tlv3abm12getFieldSizeERKNS1_19OperatingModeLegacyE
++ __ZN3tlv4sizeIN3dms3tlv3abm19OperatingModeLegacyEEEmRKT_
++ __ZN3tlv6parseVIN3dms3tlv3abm19OperatingModeLegacyEEET_RPKhi
++ __ZN3tlv6writeVIN3dms3tlv3abm19OperatingModeLegacyEEEvRPhRKT_
++ __ZNSt3__110shared_ptrI10SharedDataEC2IS1_vEEPT_
++ __ZNSt3__110unique_ptrI10SharedDataNS_14default_deleteIS1_EEED1B7v160006Ev
++ ___Block_byref_object_copy_.333
++ ___Block_byref_object_copy_.372
++ ___Block_byref_object_dispose_.334
++ ___Block_byref_object_dispose_.373
++ ____ZN5radio20QMICommandDriverBase13getWakeReasonEN8dispatch8callbackIU13block_pointerFvN3ctu2cf11CFSharedRefI9__CFErrorEENS5_IK14__CFDictionaryEEEEE_block_invoke.198
++ ____ZN5radio20QMICommandDriverBase14simTestCommandENSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEEN8dispatch8callbackIU13block_pointerFvN3ctu2cf11CFSharedRefI9__CFErrorEENSC_IK14__CFDictionaryEEEEE_block_invoke.218
++ ____ZN5radio20QMICommandDriverBase16getOperatingModeEN8dispatch8callbackIU13block_pointerFvN3ctu2cf11CFSharedRefI9__CFErrorEENS5_IK14__CFDictionaryEEEEE_block_invoke.80
++ ____ZN5radio20QMICommandDriverBase17getBasebandStatusEN8dispatch8callbackIU13block_pointerFvN3ctu2cf11CFSharedRefI9__CFErrorEENS5_IK14__CFDictionaryEEEEE_block_invoke.125
++ ____ZN5radio20QMICommandDriverBase22getRFCalibrationStatusEN8dispatch8callbackIU13block_pointerFvN3ctu2cf11CFSharedRefI9__CFErrorEENS5_IK14__CFDictionaryEEEEE_block_invoke.162
++ ____ZN5radio20QMICommandDriverBase22getRFCalibrationStatusEN8dispatch8callbackIU13block_pointerFvN3ctu2cf11CFSharedRefI9__CFErrorEENS5_IK14__CFDictionaryEEEEE_block_invoke.167
++ ____ZN5radio20QMICommandDriverBase22getRFCalibrationStatusEN8dispatch8callbackIU13block_pointerFvN3ctu2cf11CFSharedRefI9__CFErrorEENS5_IK14__CFDictionaryEEEEE_block_invoke.172
++ ____ZN5radio20QMICommandDriverBase22getRFCalibrationStatusEN8dispatch8callbackIU13block_pointerFvN3ctu2cf11CFSharedRefI9__CFErrorEENS5_IK14__CFDictionaryEEEEE_block_invoke.177
++ ____ZN5radio20QMICommandDriverBase22getRFCalibrationStatusEN8dispatch8callbackIU13block_pointerFvN3ctu2cf11CFSharedRefI9__CFErrorEENS5_IK14__CFDictionaryEEEEE_block_invoke.182
++ ____ZN5radio20QMICommandDriverBase31setOperatingModeUnconditionallyEyNS_13OperatingModeEN8dispatch8callbackIU13block_pointerFvN3ctu2cf11CFSharedRefI9__CFErrorEEEEE_block_invoke_4
++ ____ZZN5radio20QMICommandDriverBase11getManifestEN8dispatch8callbackIU13block_pointerFvN3xpc6objectES4_EEEENK3$_4clEv_block_invoke.374
++ ____ZZN5radio20QMICommandDriverBase11getManifestEN8dispatch8callbackIU13block_pointerFvN3xpc6objectES4_EEEENK3$_4clEv_block_invoke_2.376
++ ____ZZN5radio20QMICommandDriverBase16getFirmwareNonceEN8dispatch8callbackIU13block_pointerFvN3xpc6objectES4_EEEENK3$_0clEv_block_invoke.335
++ ___block_descriptor_tmp.107
++ ___block_descriptor_tmp.115
++ ___block_descriptor_tmp.124
++ ___block_descriptor_tmp.129
++ ___block_descriptor_tmp.186
++ ___block_descriptor_tmp.192
++ ___block_descriptor_tmp.199
++ ___block_descriptor_tmp.208
++ ___block_descriptor_tmp.214
++ ___block_descriptor_tmp.220
++ ___block_descriptor_tmp.221
++ ___block_descriptor_tmp.296
++ ___block_descriptor_tmp.315
++ ___block_descriptor_tmp.331
++ ___block_descriptor_tmp.332
++ ___block_descriptor_tmp.343
++ ___block_descriptor_tmp.344
++ ___block_descriptor_tmp.349
++ ___block_descriptor_tmp.352
++ ___block_descriptor_tmp.353
++ ___block_descriptor_tmp.357
++ ___block_descriptor_tmp.363
++ ___block_descriptor_tmp.364
++ ___block_descriptor_tmp.367
++ ___block_descriptor_tmp.371
++ ___block_descriptor_tmp.377
++ ___block_descriptor_tmp.380
++ ___block_descriptor_tmp.383
++ ___block_descriptor_tmp.386
++ ___block_descriptor_tmp.389
++ ___block_descriptor_tmp.406
++ ___block_descriptor_tmp.409
++ ___block_descriptor_tmp.410
+- GCC_except_table113
+- GCC_except_table301
+- ___Block_byref_object_copy_.331
+- ___Block_byref_object_copy_.370
+- ___Block_byref_object_dispose_.332
+- ___Block_byref_object_dispose_.371
+- ____ZN5radio20QMICommandDriverBase13getWakeReasonEN8dispatch8callbackIU13block_pointerFvN3ctu2cf11CFSharedRefI9__CFErrorEENS5_IK14__CFDictionaryEEEEE_block_invoke.196
+- ____ZN5radio20QMICommandDriverBase14simTestCommandENSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEEN8dispatch8callbackIU13block_pointerFvN3ctu2cf11CFSharedRefI9__CFErrorEENSC_IK14__CFDictionaryEEEEE_block_invoke.216
+- ____ZN5radio20QMICommandDriverBase16getOperatingModeEN8dispatch8callbackIU13block_pointerFvN3ctu2cf11CFSharedRefI9__CFErrorEENS5_IK14__CFDictionaryEEEEE_block_invoke.78
+- ____ZN5radio20QMICommandDriverBase17getBasebandStatusEN8dispatch8callbackIU13block_pointerFvN3ctu2cf11CFSharedRefI9__CFErrorEENS5_IK14__CFDictionaryEEEEE_block_invoke.123
+- ____ZN5radio20QMICommandDriverBase22getRFCalibrationStatusEN8dispatch8callbackIU13block_pointerFvN3ctu2cf11CFSharedRefI9__CFErrorEENS5_IK14__CFDictionaryEEEEE_block_invoke.160
+- ____ZN5radio20QMICommandDriverBase22getRFCalibrationStatusEN8dispatch8callbackIU13block_pointerFvN3ctu2cf11CFSharedRefI9__CFErrorEENS5_IK14__CFDictionaryEEEEE_block_invoke.165
+- ____ZN5radio20QMICommandDriverBase22getRFCalibrationStatusEN8dispatch8callbackIU13block_pointerFvN3ctu2cf11CFSharedRefI9__CFErrorEENS5_IK14__CFDictionaryEEEEE_block_invoke.170
+- ____ZN5radio20QMICommandDriverBase22getRFCalibrationStatusEN8dispatch8callbackIU13block_pointerFvN3ctu2cf11CFSharedRefI9__CFErrorEENS5_IK14__CFDictionaryEEEEE_block_invoke.175
+- ____ZN5radio20QMICommandDriverBase22getRFCalibrationStatusEN8dispatch8callbackIU13block_pointerFvN3ctu2cf11CFSharedRefI9__CFErrorEENS5_IK14__CFDictionaryEEEEE_block_invoke.180
+- ____ZZN5radio20QMICommandDriverBase11getManifestEN8dispatch8callbackIU13block_pointerFvN3xpc6objectES4_EEEENK3$_4clEv_block_invoke.372
+- ____ZZN5radio20QMICommandDriverBase11getManifestEN8dispatch8callbackIU13block_pointerFvN3xpc6objectES4_EEEENK3$_4clEv_block_invoke_2.374
+- ____ZZN5radio20QMICommandDriverBase16getFirmwareNonceEN8dispatch8callbackIU13block_pointerFvN3xpc6objectES4_EEEENK3$_0clEv_block_invoke.333
+- ___block_descriptor_tmp.113
+- ___block_descriptor_tmp.151
+- ___block_descriptor_tmp.159
+- ___block_descriptor_tmp.195
+- ___block_descriptor_tmp.212
+- ___block_descriptor_tmp.219
+- ___block_descriptor_tmp.308
+- ___block_descriptor_tmp.313
+- ___block_descriptor_tmp.317
+- ___block_descriptor_tmp.334
+- ___block_descriptor_tmp.339
+- ___block_descriptor_tmp.346
+- ___block_descriptor_tmp.347
+- ___block_descriptor_tmp.351
+- ___block_descriptor_tmp.355
+- ___block_descriptor_tmp.356
+- ___block_descriptor_tmp.369
+- ___block_descriptor_tmp.373
+- ___block_descriptor_tmp.379
+- ___block_descriptor_tmp.385
+- ___block_descriptor_tmp.394
+- ___block_descriptor_tmp.395
+- ___block_descriptor_tmp.400
+- ___block_descriptor_tmp.407
+CStrings:
++ "AppleBasebandManager-AppleBasebandServices_Manager-986"
++ "v16@?0r^{OperatingModeLegacy=C}8"
+- "AppleBasebandManager-AppleBasebandServices_Manager-977"
+
+```

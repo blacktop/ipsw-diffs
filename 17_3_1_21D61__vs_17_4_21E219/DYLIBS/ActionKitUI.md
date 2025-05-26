@@ -1,0 +1,220 @@
+## ActionKitUI
+
+> `/System/Library/PrivateFrameworks/ActionKitUI.framework/ActionKitUI`
+
+```diff
+
+-2302.0.5.0.0
+-  __TEXT.__text: 0x65904
++2510.5.1.0.0
++  __TEXT.__text: 0x64dcc
+   __TEXT.__auth_stubs: 0x1b30
+   __TEXT.__objc_methlist: 0x30b8
+   __TEXT.__const: 0x1818
+-  __TEXT.__swift5_typeref: 0x34e8
++  __TEXT.__swift5_typeref: 0x323e
+   __TEXT.__swift5_fieldmd: 0x600
+   __TEXT.__constg_swiftt: 0xa34
+   __TEXT.__swift5_builtin: 0x50
+   __TEXT.__swift5_reflstr: 0x48b
+   __TEXT.__swift5_assocty: 0x278
+-  __TEXT.__swift5_capture: 0x568
++  __TEXT.__swift5_capture: 0x578
+   __TEXT.__swift5_protos: 0x4
+   __TEXT.__swift5_proto: 0xc4
+   __TEXT.__swift5_types: 0x90
+-  __TEXT.__cstring: 0x4058
++  __TEXT.__cstring: 0x40b8
+   __TEXT.__gcc_except_tab: 0x6dc
+   __TEXT.__oslogstring: 0x15e
+   __TEXT.__ustring: 0x1ac
+   __TEXT.__dlopen_cstrs: 0x4b9
+-  __TEXT.__unwind_info: 0x24bc
+-  __TEXT.__eh_frame: 0x960
++  __TEXT.__unwind_info: 0x2488
++  __TEXT.__eh_frame: 0x938
+   __TEXT.__objc_classname: 0x151a
+-  __TEXT.__objc_methname: 0xe12d
++  __TEXT.__objc_methname: 0xe169
+   __TEXT.__objc_methtype: 0x50f2
+   __TEXT.__objc_stubs: 0x8e40
+   __DATA_CONST.__got: 0x618
+
+   __DATA_CONST.__objc_catlist: 0x38
+   __DATA_CONST.__objc_protolist: 0x350
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_const: 0xa2b0
++  __DATA_CONST.__objc_const: 0xa2d0
+   __DATA_CONST.__objc_selrefs: 0x2d38
++  __DATA_CONST.__objc_protorefs: 0x68
++  __DATA_CONST.__objc_classrefs: 0x658
++  __DATA_CONST.__objc_superrefs: 0x238
+   __DATA_CONST.__objc_arraydata: 0x18
+-  __AUTH_CONST.__const: 0x2200
++  __AUTH_CONST.__const: 0x2228
+   __AUTH_CONST.__auth_ptr: 0x50
+   __AUTH_CONST.__objc_const: 0x17b0
+   __AUTH_CONST.__cfstring: 0x2180
+
+   __AUTH_CONST.__auth_got: 0xda8
+   __AUTH.__objc_data: 0x1ef8
+   __AUTH.__data: 0x750
+-  __DATA.__objc_protorefs: 0x68
+-  __DATA.__objc_classrefs: 0x658
+-  __DATA.__objc_superrefs: 0x238
+   __DATA.__objc_ivar: 0x38c
+-  __DATA.__data: 0x3280
++  __DATA.__data: 0x31d8
+   __DATA.__bss: 0x1ae8
+   - /System/Library/Frameworks/AVFAudio.framework/AVFAudio
+   - /System/Library/Frameworks/AVFoundation.framework/AVFoundation
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 2391
+-  Symbols:   6393
+-  CStrings:  3374
++  Functions: 2384
++  Symbols:   6386
++  CStrings:  3379
+ 
+Symbols:
++ _AVFoundationLibrary.2681
++ _AVFoundationLibrary.5838
++ _AVFoundationLibraryCore.frameworkLibrary.2686
++ _AVFoundationLibraryCore.frameworkLibrary.5841
++ _SocialLibraryCore.frameworkLibrary.4876
++ _WebKitLibraryCore.frameworkLibrary.5401
++ ___142-[WFShareActionUIKitUserInterface presentExtensionViewControllerForItems:extensionBundleIdentifier:extensionPointIdentifier:isContentManaged:]_block_invoke.190
++ ___142-[WFShareActionUIKitUserInterface presentExtensionViewControllerForItems:extensionBundleIdentifier:extensionPointIdentifier:isContentManaged:]_block_invoke_2.192
++ ___142-[WFShareActionUIKitUserInterface presentExtensionViewControllerForItems:extensionBundleIdentifier:extensionPointIdentifier:isContentManaged:]_block_invoke_3.193
++ ___143-[WFShareActionUIKitUserInterface showWithArchivedItems:isContentManaged:extensionBundleIdentifier:extensionPointIdentifier:completionHandler:]_block_invoke.206
++ ___AVFoundationLibraryCore_block_invoke.2687
++ ___AVFoundationLibraryCore_block_invoke.5842
++ ___Block_byref_object_copy_.3172
++ ___Block_byref_object_copy_.470
++ ___Block_byref_object_copy_.4730
++ ___Block_byref_object_dispose_.3173
++ ___Block_byref_object_dispose_.471
++ ___Block_byref_object_dispose_.4731
++ ___SocialLibraryCore_block_invoke.4877
++ ___WebKitLibraryCore_block_invoke.5402
++ ___block_literal_global.170
++ ___block_literal_global.1761
++ ___block_literal_global.185
++ ___block_literal_global.187
++ ___block_literal_global.187.4830
++ ___block_literal_global.208
++ ___block_literal_global.219
++ ___block_literal_global.2194
++ ___block_literal_global.2404
++ ___block_literal_global.3025
++ ___block_literal_global.3179
++ ___block_literal_global.3445
++ ___block_literal_global.4833
++ ___block_literal_global.5084
++ ___block_literal_global.550
++ ___block_literal_global.5661
++ ___block_literal_global.5988
++ ___block_literal_global.6127
++ ___block_literal_global.659
++ ___getAVCaptureDeviceInputClass_block_invoke.5861
++ ___getAVCaptureSessionClass_block_invoke.5852
++ ___getAVMediaTypeVideoSymbolLoc_block_invoke.5857
++ ___getAVMetadataObjectTypeQRCodeSymbolLoc_block_invoke.5870
++ ___getSLComposeViewControllerClass_block_invoke.4875
++ ___getWKWebViewClass_block_invoke.5398
++ _audit_stringAVFoundation.2690
++ _audit_stringAVFoundation.5845
++ _audit_stringSocial.4887
++ _audit_stringWebKit.5415
++ _getAVCaptureDeviceInputClass.softClass.5860
++ _getAVCaptureSessionClass.softClass.5851
++ _getAVMediaTypeVideoSymbolLoc.ptr.5856
++ _getAVMetadataObjectTypeQRCodeSymbolLoc.ptr.5869
++ _getSLComposeViewControllerClass.4860
++ _getSLComposeViewControllerClass.softClass.4874
++ _getWKWebViewClass.softClass.5397
++ _get_witness_table 11ActionKitUI22AccountLoginLayoutViewVy05SwiftC00G0PADE5alert4item7contentQrAD7BindingVyqd__SgG_AD5AlertVqd__XEts12IdentifiableRd__lFQOyAA0dE7SectionVyAD05TupleG0VyAfDE18autocapitalizationyQrSo28UITextAutocapitalizationTypeVFQOyAfDE08keyboardT0yQrSo010UIKeyboardT0VFQOyAD15ModifiedContentVyAD9TextFieldVyAD0Y0VGAD30_EnvironmentKeyWritingModifierVySSSgGG_Qo__Qo__A0_yAD06SecureZ0VyA4_GA9_GtGAD4LinkVyA4_GG_So7NSErrorCA23_sAP14WorkflowUICoreyHCg0_Qo_GAdEHPyHC.35
++ _get_witness_table qd0__7SwiftUI4ViewHD3_AaBPAAE010navigationC5StyleyQrqd__AA010NavigationcE0Rd__lFQOyAA0fC0VyAcAE7toolbar7contentQrqd__yXE_tAA14ToolbarContentRd__lFQOyAcAE0D19BarTitleDisplayModeyQrAA0fK4ItemV0lmN0OFQOyAcAE0dL0yQrqd__SyRd__lFQOyAcAE04listE0yQrqd__AA04ListE0Rd__lFQOyAA08ModifiedJ0VyAA0Q0Vys5NeverOAA05TupleC0VyAA7SectionVyAA05EmptyC0VAA012_ConditionalJ0VyAA4TextVATyAA7ForEachVySaySo9WFAccountCGA10_A6_GAA21_TraitWritingModifierVyAA16OnDeleteTraitKeyVGGGA2_G_A0_yA2_AcAE06buttonE0yQrqd__AA015PrimitiveButtonE0Rd__lFQOyAA6ButtonVyATyATyA6_AA01_J13ShapeModifierVyAA9RectangleVGGAA16_FlexFrameLayoutVGG_AA016BorderlessButtonE0VQo_A2_GtGGAA30_EnvironmentKeyWritingModifierVyAA7BindingVyAA04EditN0OGSgGG_AA05InsetqE0VQo__SSQo__Qo__AA0iJ7BuilderV10buildBlockyQrxAaJRzlFZQOy_AA0iO0VyytA24_yA6_GGQo_Qo_G_AA05StackfcE0VQo_HO.46
++ _objectdestroy.20Tm
+- _AVFoundationLibrary.2666
+- _AVFoundationLibrary.5803
+- _AVFoundationLibraryCore.frameworkLibrary.2671
+- _AVFoundationLibraryCore.frameworkLibrary.5811
+- _SocialLibraryCore.frameworkLibrary.4844
+- _WebKitLibraryCore.frameworkLibrary.5365
+- ___142-[WFShareActionUIKitUserInterface presentExtensionViewControllerForItems:extensionBundleIdentifier:extensionPointIdentifier:isContentManaged:]_block_invoke.187
+- ___142-[WFShareActionUIKitUserInterface presentExtensionViewControllerForItems:extensionBundleIdentifier:extensionPointIdentifier:isContentManaged:]_block_invoke_2.189
+- ___142-[WFShareActionUIKitUserInterface presentExtensionViewControllerForItems:extensionBundleIdentifier:extensionPointIdentifier:isContentManaged:]_block_invoke_3.190
+- ___143-[WFShareActionUIKitUserInterface showWithArchivedItems:isContentManaged:extensionBundleIdentifier:extensionPointIdentifier:completionHandler:]_block_invoke.203
+- ___AVFoundationLibraryCore_block_invoke.2672
+- ___AVFoundationLibraryCore_block_invoke.5812
+- ___Block_byref_object_copy_.3154
+- ___Block_byref_object_copy_.466
+- ___Block_byref_object_copy_.4702
+- ___Block_byref_object_dispose_.3155
+- ___Block_byref_object_dispose_.467
+- ___Block_byref_object_dispose_.4703
+- ___SocialLibraryCore_block_invoke.4845
+- ___WebKitLibraryCore_block_invoke.5366
+- ___block_literal_global.167
+- ___block_literal_global.1751
+- ___block_literal_global.182
+- ___block_literal_global.184
+- ___block_literal_global.184.4798
+- ___block_literal_global.205
+- ___block_literal_global.216
+- ___block_literal_global.2183
+- ___block_literal_global.2390
+- ___block_literal_global.3007
+- ___block_literal_global.3161
+- ___block_literal_global.3422
+- ___block_literal_global.4801
+- ___block_literal_global.5050
+- ___block_literal_global.544
+- ___block_literal_global.5623
+- ___block_literal_global.5957
+- ___block_literal_global.6096
+- ___block_literal_global.652
+- ___getAVCaptureDeviceInputClass_block_invoke.5831
+- ___getAVCaptureSessionClass_block_invoke.5821
+- ___getAVMediaTypeVideoSymbolLoc_block_invoke.5827
+- ___getAVMetadataObjectTypeQRCodeSymbolLoc_block_invoke.5840
+- ___getSLComposeViewControllerClass_block_invoke.4843
+- ___getWKWebViewClass_block_invoke.5362
+- _audit_stringAVFoundation.2675
+- _audit_stringAVFoundation.5815
+- _audit_stringSocial.4855
+- _audit_stringWebKit.5379
+- _getAVCaptureDeviceInputClass.softClass.5830
+- _getAVCaptureSessionClass.softClass.5820
+- _getAVMediaTypeVideoSymbolLoc.ptr.5826
+- _getAVMetadataObjectTypeQRCodeSymbolLoc.ptr.5839
+- _getSLComposeViewControllerClass.4828
+- _getSLComposeViewControllerClass.softClass.4842
+- _getWKWebViewClass.softClass.5361
+- _get_witness_table 11ActionKitUI22AccountLoginLayoutViewVy05SwiftC00G0PADE5alert4item7contentQrAD7BindingVyqd__SgG_AD5AlertVqd__XEts12IdentifiableRd__lFQOyAA0dE7SectionVyAD05TupleG0VyAfDE18autocapitalizationyQrSo28UITextAutocapitalizationTypeVFQOyAfDE08keyboardT0yQrSo010UIKeyboardT0VFQOyAD15ModifiedContentVyAD9TextFieldVyAD0Y0VGAD30_EnvironmentKeyWritingModifierVySSSgGG_Qo__Qo__A0_yAD06SecureZ0VyA4_GA9_GtGAD4LinkVyA4_GG_So7NSErrorCA23_sAP14WorkflowUICoreyHCg0_Qo_GAdEHPyHC.36
+- _get_witness_table qd0__7SwiftUI4ViewHD3_AaBPAAE010navigationC5StyleyQrqd__AA010NavigationcE0Rd__lFQOyAA0fC0VyAcAE7toolbar7contentQrqd__yXE_tAA14ToolbarContentRd__lFQOyAcAE0D19BarTitleDisplayModeyQrAA0fK4ItemV0lmN0OFQOyAcAE0dL0yQrqd__SyRd__lFQOyAcAE04listE0yQrqd__AA04ListE0Rd__lFQOyAA08ModifiedJ0VyAA0Q0Vys5NeverOAA05TupleC0VyAA7SectionVyAA05EmptyC0VAA012_ConditionalJ0VyAA4TextVATyAA7ForEachVySaySo9WFAccountCGA10_A6_GAA21_TraitWritingModifierVyAA16OnDeleteTraitKeyVGGGA2_G_A0_yA2_AcAE06buttonE0yQrqd__AA015PrimitiveButtonE0Rd__lFQOyAA6ButtonVyATyATyA6_AA01_J13ShapeModifierVyAA9RectangleVGGAA16_FlexFrameLayoutVGG_AA016BorderlessButtonE0VQo_A2_GtGGAA30_EnvironmentKeyWritingModifierVyAA7BindingVyAA04EditN0OGSgGG_AA05InsetqE0VQo__SSQo__Qo__AA0iJ7BuilderV10buildBlockyQrxAaJRzlFZQOy_AA0iO0VyytA24_yA6_GGQo_Qo_G_AA05StackfcE0VQo_HO.42
+- _swift_retain_n
+- _symbolic _____y_____yABy_____y_____ADG_____G_____G_____G 7SwiftUI19_ConditionalContentV AA08ModifiedD0V AA12ProgressViewV AA05EmptyG0V AA16_FlexFrameLayoutV AA25_AppearanceActionModifierV 0m3KitB003WebG0V
+- _symbolic _____y_____y_____G_Qo_ 7SwiftUI4ViewPAAE18autocapitalizationyQrSo28UITextAutocapitalizationTypeVFQO AA9TextFieldV AA0H0V
+- _symbolic _____y_____y_____So8NSNumberCSg_____ySayADGAD_____y__________y_____yAEGGGGG______Qo_ 7SwiftUI4ViewPAAE11pickerStyleyQrqd__AA06PickerE0Rd__lFQO AA0F0V AA05EmptyC0V AA7ForEachV AA15ModifiedContentV AA4TextV AA21_TraitWritingModifierV AA08TagValueM3KeyV AA09SegmentedfE0V
+- _symbolic _____y_____y_______________ySayACGAC_____GG______Qo_ 7SwiftUI4ViewPAAE11pickerStyleyQrqd__AA06PickerE0Rd__lFQO AA0F0V AA05EmptyC0V 09ActionKitB0016SSHKeyGenerationC0014_B2AC3725FC110L17F2DB68F7D598A9967LLV9KeyFormatV AA7ForEachV AA4TextV AA09SegmentedfE0V
+- _symbolic _____y_____y_____y_____y_____y_____G_____G______yACy_____y_____yAEG_Qo______yAEGGACyABy_____y_____y_____yAK_____ySSSgGG_Qo__Qo__APy_____yAEGASGtGANGGtGG_So7NSErrorCA4______14WorkflowUICoreyHCg0_Qo_ 7SwiftUI4ViewPAAE5alert4item7contentQrAA7BindingVyqd__SgG_AA5AlertVqd__XEts12IdentifiableRd__lFQO AA5GroupV AA05TupleC0V 09ActionKitB019AccountLoginSectionV AA6ToggleV AA4TextV AA05EmptyC0V AA19_ConditionalContentV AcAE18autocapitalizationyQrSo28UITextAutocapitalizationTypeVFQO AA0R5FieldV AA4LinkV AcAEA1_yQrA3_FQO AcAE08keyboardY0yQrSo010UIKeyboardY0VFQO AA08ModifiedU0V AA30_EnvironmentKeyWritingModifierV AA06SecureZ0V sAMP
+- _symbolic _____y_____y_____y_____y_____y_____y_____y_____y_____y_______________ySayAFGAF_____GG______Qo_G_ACy_____yADyAESo8NSNumberCSgAGySayAPGAP_____yAI_____y_____yAQGGGGG_ALQo_GSgACy_____yAIGGtGG______y_____yyt_____y_____yAIG_Qo_G_A8_yyt_____y_____yA2EGA11_GGtGQo__SSQo__Qo__Qo_ 7SwiftUI4ViewPAAE5alert11isPresented7contentQrAA7BindingVySbG_AA5AlertVyXEtFQO AcAE29navigationBarTitleDisplayModeyQrAA010NavigationK4ItemV0lmN0OFQO AcAE0jL0yQrqd__SyRd__lFQO AcAE7toolbarAFQrqd__yXE_tAA14ToolbarContentRd__lFQO AA4FormV AA05TupleC0V 09ActionKitB013SSHKeySection014_B2AC3725FC110Z17F2DB68F7D598A9967LLV AcAE11pickerStyleyQrqd__AA11PickerStyleRd__lFQO AA6PickerV AA05EmptyC0V AX0x10GenerationC0AZLLV9KeyFormatV AA7ForEachV AA4TextV AA20SegmentedPickerStyleV AcAEA0_yQrqd__AAA1_Rd__lFQO AA08ModifiedS0V AA21_TraitWritingModifierV AA16TagValueTraitKeyV AA9TextFieldV AA0urS0V AA0rP0V AcAE16keyboardShortcutyQrAA16KeyboardShortcutVFQO AA6ButtonV AA012_ConditionalS0V AA08ProgressC0V
+CStrings:
++ "Swift/StringTesting.swift"
++ "T@\"NSArray\",?,R,C,N"
++ "T@\"NSString\",?,R,C"
++ "TB,?,R,N"
++ "Tq,?,R,N"
++ "Unexpectedly found nil while unwrapping an Optional value"
++ "applicationWillLaunchInForeground"
++ "progressIsPersistentInSystemAperture"
+- "TB,R,N"
+- "Tq,R,N"
+- "shortcutIsShowingRunningProgressInSystemAperture"
+
+```

@@ -1,0 +1,27 @@
+## libmapper_none.dylib
+
+> `/usr/lib/i18n/libmapper_none.dylib`
+
+```diff
+
+-80.0.0.0.0
+-  __TEXT.__text: 0x5c
++86.0.0.0.0
++  __TEXT.__text: 0x88
++  __TEXT.__auth_stubs: 0x10
+   __TEXT.__const: 0x10
+-  __TEXT.__unwind_info: 0x48
++  __TEXT.__unwind_info: 0x54
++  __AUTH_CONST.__auth_got: 0x8
+   __AUTH.__data: 0x20
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libiconv.2.dylib
+   Functions: 5
+-  Symbols:   10
++  Symbols:   11
+   CStrings:  0
+ 
+Symbols:
++ _memcpy
+
+```

@@ -1,0 +1,47 @@
+## TextInput_th
+
+> `/System/Library/TextInput/TextInput_th.bundle/TextInput_th`
+
+```diff
+
+-3431.206.0.0.0
+-  __TEXT.__text: 0x2ae8
++3431.316.0.0.0
++  __TEXT.__text: 0x2aec
+   __TEXT.__auth_stubs: 0x410
+   __TEXT.__init_offsets: 0x10
+   __TEXT.__objc_methlist: 0x238
+
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_const: 0xb8
+   __DATA_CONST.__objc_selrefs: 0x268
++  __DATA_CONST.__objc_classrefs: 0x30
++  __DATA_CONST.__objc_superrefs: 0x18
+   __AUTH_CONST.__cfstring: 0x40
+   __AUTH_CONST.__const: 0xf8
+   __AUTH_CONST.__objc_const: 0x120
+   __AUTH_CONST.__auth_got: 0x210
+   __AUTH.__objc_data: 0xf0
+   __DATA.__got_weak: 0x8
+-  __DATA.__objc_classrefs: 0x30
+-  __DATA.__objc_superrefs: 0x18
+   __DATA.__objc_ivar: 0x4
+   __DATA.__bss: 0xb0
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+Symbols:
++ __ZNSt3__110unique_ptrINS_11__tree_nodeIN2KB6StringEPvEENS_22__tree_node_destructorINS_9allocatorIS5_EEEEE5resetB8un170006EPS5_
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B8un170006ILi0EEEPKc
++ __ZNSt3__119__shared_weak_count16__release_sharedB8un170006Ev
++ __ZNSt3__121__unwrap_and_dispatchB8un170006INS_10__overloadINS_11__move_loopINS_17_ClassicAlgPolicyEEENS_14__move_trivialEEEPN2KB9CandidateES9_S9_Li0EEENS_4pairIT0_T2_EESB_T1_SC_
++ __ZNSt3__127__tree_balance_after_insertB8un170006IPNS_16__tree_node_baseIPvEEEEvT_S5_
++ __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE7__clearB8un170006Ev
++ __ZNSt3__19remove_ifB8un170006INS_11__wrap_iterIPN2KB9CandidateEEEU13block_pointerFbRKS3_EEET_SA_SA_T0_
+- __ZNSt3__110unique_ptrINS_11__tree_nodeIN2KB6StringEPvEENS_22__tree_node_destructorINS_9allocatorIS5_EEEEE5resetB7v160006EPS5_
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B7v160006IDnEEPKc
+- __ZNSt3__119__shared_weak_count16__release_sharedB7v160006Ev
+- __ZNSt3__121__unwrap_and_dispatchB7v160006INS_10__overloadINS_11__move_loopINS_17_ClassicAlgPolicyEEENS_14__move_trivialEEEPN2KB9CandidateES9_S9_Li0EEENS_4pairIT0_T2_EESB_T1_SC_
+- __ZNSt3__127__tree_balance_after_insertB7v160006IPNS_16__tree_node_baseIPvEEEEvT_S5_
+- __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE7__clearB7v160006Ev
+- __ZNSt3__19remove_ifB7v160006INS_11__wrap_iterIPN2KB9CandidateEEEU13block_pointerFbRKS3_EEET_SA_SA_T0_
+
+```

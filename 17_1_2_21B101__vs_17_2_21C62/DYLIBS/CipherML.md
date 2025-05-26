@@ -1,0 +1,287 @@
+## CipherML
+
+> `/System/Library/PrivateFrameworks/CipherML.framework/CipherML`
+
+```diff
+
+-88.40.2.0.0
+-  __TEXT.__text: 0x193f7c
+-  __TEXT.__auth_stubs: 0x2050
+-  __TEXT.__objc_methlist: 0x804
+-  __TEXT.__const: 0x87f8
+-  __TEXT.__cstring: 0x4c43
++88.60.6.0.0
++  __TEXT.__text: 0x190810
++  __TEXT.__auth_stubs: 0x2090
++  __TEXT.__objc_methlist: 0x834
++  __TEXT.__const: 0x8648
++  __TEXT.__cstring: 0x4c33
+   __TEXT.__gcc_except_tab: 0x624
+   __TEXT.__oslogstring: 0x12ce
+   __TEXT.__dlopen_cstrs: 0x64
+-  __TEXT.__swift5_typeref: 0x1bc2
+-  __TEXT.__constg_swiftt: 0x19b0
+-  __TEXT.__swift5_reflstr: 0x11ab
+-  __TEXT.__swift5_fieldmd: 0x1a90
++  __TEXT.__swift5_typeref: 0x1b8a
++  __TEXT.__constg_swiftt: 0x1988
++  __TEXT.__swift5_reflstr: 0x11bb
++  __TEXT.__swift5_fieldmd: 0x1a68
+   __TEXT.__swift5_builtin: 0x3c
+   __TEXT.__swift5_assocty: 0x1b0
+-  __TEXT.__swift5_proto: 0x7b8
+-  __TEXT.__swift5_types: 0x1f0
++  __TEXT.__swift5_proto: 0x7a0
++  __TEXT.__swift5_types: 0x1ec
+   __TEXT.__swift5_capture: 0x948
+   __TEXT.__swift5_protos: 0x14
+   __TEXT.__swift5_mpenum: 0x18
+-  __TEXT.__unwind_info: 0x5d68
+-  __TEXT.__eh_frame: 0xb6e0
+-  __TEXT.__objc_classname: 0x123
+-  __TEXT.__objc_methname: 0x1ab6
+-  __TEXT.__objc_methtype: 0x7e6
+-  __TEXT.__objc_stubs: 0xb80
++  __TEXT.__unwind_info: 0x6010
++  __TEXT.__eh_frame: 0xb628
++  __TEXT.__objc_classname: 0x125
++  __TEXT.__objc_methname: 0x1b1c
++  __TEXT.__objc_methtype: 0x7f7
++  __TEXT.__objc_stubs: 0xba0
+   __DATA_CONST.__got: 0x450
+-  __DATA_CONST.__const: 0x960
++  __DATA_CONST.__const: 0x940
+   __DATA_CONST.__objc_classlist: 0xe8
+   __DATA_CONST.__objc_protolist: 0x80
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_const: 0x1d40
+-  __DATA_CONST.__objc_selrefs: 0x638
++  __DATA_CONST.__objc_const: 0x1d70
++  __DATA_CONST.__objc_selrefs: 0x650
+   __AUTH_CONST.__objc_const: 0x0
+-  __AUTH_CONST.__cfstring: 0x6c0
++  __AUTH_CONST.__cfstring: 0x6e0
+   __AUTH_CONST.__const: 0x24c0
+   __AUTH_CONST.__auth_ptr: 0x118
+-  __AUTH_CONST.__auth_got: 0x1038
+-  __AUTH.__data: 0xb0
++  __AUTH_CONST.__auth_got: 0x1058
++  __AUTH.__data: 0x28
+   __AUTH.__objc_data: 0xd8
+   __DATA.__objc_protorefs: 0x50
+   __DATA.__objc_classrefs: 0x128
+   __DATA.__objc_superrefs: 0x30
+-  __DATA.__objc_ivar: 0x40
++  __DATA.__objc_ivar: 0x44
+   __DATA.__objc_data: 0x58
+-  __DATA.__data: 0x31f8
+-  __DATA.__bss: 0xf620
+-  __DATA.__common: 0x768
++  __DATA.__data: 0x3198
++  __DATA.__bss: 0xf320
++  __DATA.__common: 0x750
+   __DATA_DIRTY.__const: 0xf38
+   __DATA_DIRTY.__objc_const: 0x6c0
+   __DATA_DIRTY.__objc_data: 0x708
+-  __DATA_DIRTY.__data: 0x37d8
++  __DATA_DIRTY.__data: 0x37c8
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CryptoKit.framework/CryptoKit
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 7843
+-  Symbols:   18152
+-  CStrings:  930
++  Functions: 7782
++  Symbols:   18023
++  CStrings:  937
+ 
+Symbols:
++ +[CMLSimilarityScore scoreWithIdentifier:score:metadata:]
++ -[CMLSimilarityScore .cxx_destruct]
++ -[CMLSimilarityScore initWithIdentifier:score:metadata:]
++ -[CMLSimilarityScore metadata]
++ -[CMLSimilarityScore setMetadata:]
++ GCC_except_table21
++ GCC_except_table39
++ GCC_except_table44
++ _$s21InternalSwiftProtobuf7DecoderP24decodeRepeatedBytesField5valueySay10Foundation4DataVGz_tKFTj
++ _$s21InternalSwiftProtobuf7MessageP13unknownFieldsAA14UnknownStorageVvgTj
++ _$s21InternalSwiftProtobuf7MessageP13unknownFieldsAA14UnknownStorageVvsTj
++ _$s21InternalSwiftProtobuf7MessageP8CipherMLE21equalsIgnoringUnknownySbxF
++ _$s21InternalSwiftProtobuf7MessageP9isEqualTo7messageSbAaB_p_tFTj
++ _$s21InternalSwiftProtobuf7VisitorP23visitRepeatedBytesField5value11fieldNumberySay10Foundation4DataVG_SitKFTj
++ _$s8CipherML13AMDPbPECQueryV5queryAA42AspireSimilaritySerializedCiphertextMatrixVvgTm
++ _$s8CipherML13AMDPbPECQueryV5queryAA42AspireSimilaritySerializedCiphertextMatrixVvpACTKTm
++ _$s8CipherML15AMDPbHEResponseV14OneOf_ResponseOSgMa
++ _$s8CipherML16AMDPbHEKeyStatusVMrTm
++ _$s8CipherML18AMDPbPECShardReplyV14entryMetadatasSay10Foundation4DataVGvM
++ _$s8CipherML18AMDPbPECShardReplyV14entryMetadatasSay10Foundation4DataVGvM.resume.0
++ _$s8CipherML18AMDPbPECShardReplyV14entryMetadatasSay10Foundation4DataVGvg
++ _$s8CipherML18AMDPbPECShardReplyV14entryMetadatasSay10Foundation4DataVGvpMV
++ _$s8CipherML18AMDPbPECShardReplyV14entryMetadatasSay10Foundation4DataVGvs
++ _$s8CipherML22AspireServiceKeyStatusVMrTm
++ _$s8CipherML23AspireServicePECRequestV5queryAA0C36SimilaritySerializedCiphertextMatrixVvpACTKTm
++ _$s8CipherML23AspireServicePECRequestV5queryAA0C36SimilaritySerializedCiphertextMatrixVvsTm
++ _$s8CipherML26AspireSerializedCiphertextVWOcTm
++ _$s8CipherML29AspireServicePECShardResponseV14entryMetadatasSay10Foundation4DataVGvM
++ _$s8CipherML29AspireServicePECShardResponseV14entryMetadatasSay10Foundation4DataVGvM.resume.0
++ _$s8CipherML29AspireServicePECShardResponseV14entryMetadatasSay10Foundation4DataVGvg
++ _$s8CipherML29AspireServicePECShardResponseV14entryMetadatasSay10Foundation4DataVGvpMV
++ _$s8CipherML29AspireServicePECShardResponseV14entryMetadatasSay10Foundation4DataVGvs
++ _$s8CipherML29AspireServicePECShardResponseV5replyAA0C36SimilaritySerializedCiphertextMatrixVvgTm
++ _$sSTsE3mapySayqd__Gqd__7ElementQzKXEKlFs12Zip2SequenceVys010EnumeratedD0VySays6UInt64VGGSay10Foundation4DataVGG_So18CMLSimilarityScoreCTg5056$s8CipherML16SimilarityClientV07decryptC6Scores5shardSays4So18ij64CGGAA29AspireServicePECShardResponseV_tKFAHSiXEfU_AGSi6offset_s6f24V7elementt_10Foundation4H8VtXEfU0_SaySfGS2iTf1cn_n
++ _$sSasSQRzlE2eeoiySbSayxG_ABtFZ10Foundation4DataV_Tg5Tf4nnd_n
++ _OBJC_IVAR_$_CMLSimilarityScore._metadata
++ ___89-[CMLSimilarityClient requestSimilarityScoresForElements:shardIndices:completionHandler:]_block_invoke.59
++ ___89-[CMLSimilarityClient requestSimilarityScoresForElements:shardIndices:completionHandler:]_block_invoke.67
++ _objc_msgSend$initWithIdentifier:score:metadata:
++ _objc_msgSend$metadata
+- -[CMLSimilarityScore initWithIdentifier:score:]
+- GCC_except_table17
+- GCC_except_table35
+- GCC_except_table37
+- GCC_except_table40
+- _$s21InternalSwiftProtobuf7DecoderP25decodeSingularStringField5valueySSSgz_tKFTj
+- _$s8CipherML12AMDPbHEReplyVSgML
+- _$s8CipherML12AMDPbHEReplyVSg_ADtMD
+- _$s8CipherML13AMDPbPECQueryV5queryAA42AspireSimilaritySerializedCiphertextMatrixVvpACTK
+- _$s8CipherML15AMDPbHEResponseV14OneOf_ResponseOSgMaTm
+- _$s8CipherML15AMDPbHEResponseV9hashValueSivgTm
+- _$s8CipherML15AMDPbHEResponseVSHAASH13_rawHashValue4seedS2i_tFTWTm
+- _$s8CipherML15AMDPbHEResponseVSHAASH9hashValueSivgTWTm
+- _$s8CipherML18AMDPbEvaluationKeyV05cleardE0yyFTm
+- _$s8CipherML18AMDPbPECShardReplyV5replyAA42AspireSimilaritySerializedCiphertextMatrixVvpACTK
+- _$s8CipherML23AMDPbHEInternalResponseV10hasHeReplySbvg
+- _$s8CipherML23AMDPbHEInternalResponseV10hasHeReplySbvpMV
+- _$s8CipherML23AMDPbHEInternalResponseV12clearHeReplyyyF
+- _$s8CipherML23AMDPbHEInternalResponseV12errorMessageSSvM
+- _$s8CipherML23AMDPbHEInternalResponseV12errorMessageSSvM.resume.0
+- _$s8CipherML23AMDPbHEInternalResponseV12errorMessageSSvg
+- _$s8CipherML23AMDPbHEInternalResponseV12errorMessageSSvpACTK
+- _$s8CipherML23AMDPbHEInternalResponseV12errorMessageSSvpACTk
+- _$s8CipherML23AMDPbHEInternalResponseV12errorMessageSSvpMV
+- _$s8CipherML23AMDPbHEInternalResponseV12errorMessageSSvs
+- _$s8CipherML23AMDPbHEInternalResponseV13decodeMessage7decoderyxz_tK21InternalSwiftProtobuf7DecoderRzlF
+- _$s8CipherML23AMDPbHEInternalResponseV13decodeMessage7decoderyxz_tK21InternalSwiftProtobuf7DecoderRzlFyyKXEfU_
+- _$s8CipherML23AMDPbHEInternalResponseV13unknownFields21InternalSwiftProtobuf14UnknownStorageVvM
+- _$s8CipherML23AMDPbHEInternalResponseV13unknownFields21InternalSwiftProtobuf14UnknownStorageVvM.resume.0
+- _$s8CipherML23AMDPbHEInternalResponseV13unknownFields21InternalSwiftProtobuf14UnknownStorageVvg
+- _$s8CipherML23AMDPbHEInternalResponseV13unknownFields21InternalSwiftProtobuf14UnknownStorageVvpMV
+- _$s8CipherML23AMDPbHEInternalResponseV13unknownFields21InternalSwiftProtobuf14UnknownStorageVvs
+- _$s8CipherML23AMDPbHEInternalResponseV15hasErrorMessageSbvg
+- _$s8CipherML23AMDPbHEInternalResponseV15hasErrorMessageSbvpMV
+- _$s8CipherML23AMDPbHEInternalResponseV16protoMessageNameSSvau
+- _$s8CipherML23AMDPbHEInternalResponseV16protoMessageNameSSvgZ
+- _$s8CipherML23AMDPbHEInternalResponseV16protoMessageNameSSvpZ
+- _$s8CipherML23AMDPbHEInternalResponseV17_protobuf_nameMap21InternalSwiftProtobuf05_NameH0Vvau
+- _$s8CipherML23AMDPbHEInternalResponseV17_protobuf_nameMap21InternalSwiftProtobuf05_NameH0VvgZ
+- _$s8CipherML23AMDPbHEInternalResponseV17_protobuf_nameMap21InternalSwiftProtobuf05_NameH0VvpZ
+- _$s8CipherML23AMDPbHEInternalResponseV17_protobuf_nameMap_WZ
+- _$s8CipherML23AMDPbHEInternalResponseV17_protobuf_nameMap_Wz
+- _$s8CipherML23AMDPbHEInternalResponseV17clearErrorMessageyyF
+- _$s8CipherML23AMDPbHEInternalResponseV21InternalSwiftProtobuf19_ProtoNameProvidingAAMc
+- _$s8CipherML23AMDPbHEInternalResponseV21InternalSwiftProtobuf19_ProtoNameProvidingAAMcMK
+- _$s8CipherML23AMDPbHEInternalResponseV21InternalSwiftProtobuf19_ProtoNameProvidingAadEP17_protobuf_nameMapAD01_jN0VvgZTW
+- _$s8CipherML23AMDPbHEInternalResponseV21InternalSwiftProtobuf26_MessageImplementationBaseAAMc
+- _$s8CipherML23AMDPbHEInternalResponseV21InternalSwiftProtobuf26_MessageImplementationBaseAAMcMK
+- _$s8CipherML23AMDPbHEInternalResponseV21InternalSwiftProtobuf26_MessageImplementationBaseAASHWb
+- _$s8CipherML23AMDPbHEInternalResponseV21InternalSwiftProtobuf26_MessageImplementationBaseAaD0I0PWb
+- _$s8CipherML23AMDPbHEInternalResponseV21InternalSwiftProtobuf26_MessageImplementationBaseAadEP29_protobuf_generated_isEqualTo5otherSbx_tFTW
+- _$s8CipherML23AMDPbHEInternalResponseV21InternalSwiftProtobuf7MessageAAMc
+- _$s8CipherML23AMDPbHEInternalResponseV21InternalSwiftProtobuf7MessageAAMcMK
+- _$s8CipherML23AMDPbHEInternalResponseV21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertiblePWb
+- _$s8CipherML23AMDPbHEInternalResponseV21InternalSwiftProtobuf7MessageAadEP05protoI4NameSSvgZTW
+- _$s8CipherML23AMDPbHEInternalResponseV21InternalSwiftProtobuf7MessageAadEP06decodeI07decoderyqd__z_tKAD7DecoderRd__lFTW
+- _$s8CipherML23AMDPbHEInternalResponseV21InternalSwiftProtobuf7MessageAadEP13isInitializedSbvgTW
+- _$s8CipherML23AMDPbHEInternalResponseV21InternalSwiftProtobuf7MessageAadEP13unknownFieldsAD14UnknownStorageVvMTW
+- _$s8CipherML23AMDPbHEInternalResponseV21InternalSwiftProtobuf7MessageAadEP13unknownFieldsAD14UnknownStorageVvMTW.resume.0
+- _$s8CipherML23AMDPbHEInternalResponseV21InternalSwiftProtobuf7MessageAadEP13unknownFieldsAD14UnknownStorageVvgTW
+- _$s8CipherML23AMDPbHEInternalResponseV21InternalSwiftProtobuf7MessageAadEP13unknownFieldsAD14UnknownStorageVvsTW
+- _$s8CipherML23AMDPbHEInternalResponseV21InternalSwiftProtobuf7MessageAadEP4hash4intoys6HasherVz_tFTW
+- _$s8CipherML23AMDPbHEInternalResponseV21InternalSwiftProtobuf7MessageAadEP8traverse7visitoryqd__z_tKAD7VisitorRd__lFTW
+- _$s8CipherML23AMDPbHEInternalResponseV21InternalSwiftProtobuf7MessageAadEP9isEqualTo7messageSbAdE_p_tFTW
+- _$s8CipherML23AMDPbHEInternalResponseV21InternalSwiftProtobuf7MessageAadEPxycfCTW
+- _$s8CipherML23AMDPbHEInternalResponseV2eeoiySbAC_ACtFZ
+- _$s8CipherML23AMDPbHEInternalResponseV2eeoiySbAC_ACtFZTf4nnd_n
+- _$s8CipherML23AMDPbHEInternalResponseV6statusAA0C10HEResponseV8PbStatusOvM
+- _$s8CipherML23AMDPbHEInternalResponseV6statusAA0C10HEResponseV8PbStatusOvM.resume.0
+- _$s8CipherML23AMDPbHEInternalResponseV6statusAA0C10HEResponseV8PbStatusOvg
+- _$s8CipherML23AMDPbHEInternalResponseV6statusAA0C10HEResponseV8PbStatusOvpMV
+- _$s8CipherML23AMDPbHEInternalResponseV6statusAA0C10HEResponseV8PbStatusOvs
+- _$s8CipherML23AMDPbHEInternalResponseV7heReplyAA0C7HEReplyVvM
+- _$s8CipherML23AMDPbHEInternalResponseV7heReplyAA0C7HEReplyVvM.resume.0
+- _$s8CipherML23AMDPbHEInternalResponseV7heReplyAA0C7HEReplyVvg
+- _$s8CipherML23AMDPbHEInternalResponseV7heReplyAA0C7HEReplyVvpACTK
+- _$s8CipherML23AMDPbHEInternalResponseV7heReplyAA0C7HEReplyVvpACTk
+- _$s8CipherML23AMDPbHEInternalResponseV7heReplyAA0C7HEReplyVvpMV
+- _$s8CipherML23AMDPbHEInternalResponseV7heReplyAA0C7HEReplyVvs
+- _$s8CipherML23AMDPbHEInternalResponseV8traverse7visitoryxz_tK21InternalSwiftProtobuf7VisitorRzlF
+- _$s8CipherML23AMDPbHEInternalResponseV8traverse7visitoryxz_tK21InternalSwiftProtobuf7VisitorRzlFyyKXEfU0_
+- _$s8CipherML23AMDPbHEInternalResponseV8traverse7visitoryxz_tK21InternalSwiftProtobuf7VisitorRzlFyyKXEfU_
+- _$s8CipherML23AMDPbHEInternalResponseV9hashValueSivg
+- _$s8CipherML23AMDPbHEInternalResponseV9hashValueSivpMV
+- _$s8CipherML23AMDPbHEInternalResponseVAC21InternalSwiftProtobuf26_MessageImplementationBaseAAWL
+- _$s8CipherML23AMDPbHEInternalResponseVAC21InternalSwiftProtobuf7MessageAAWL
+- _$s8CipherML23AMDPbHEInternalResponseVACSHAAWL
+- _$s8CipherML23AMDPbHEInternalResponseVACSQAAWL
+- _$s8CipherML23AMDPbHEInternalResponseVACs28CustomDebugStringConvertibleAAWL
+- _$s8CipherML23AMDPbHEInternalResponseVACycfC
+- _$s8CipherML23AMDPbHEInternalResponseVMF
+- _$s8CipherML23AMDPbHEInternalResponseVMa
+- _$s8CipherML23AMDPbHEInternalResponseVMf
+- _$s8CipherML23AMDPbHEInternalResponseVMl
+- _$s8CipherML23AMDPbHEInternalResponseVMn
+- _$s8CipherML23AMDPbHEInternalResponseVMr
+- _$s8CipherML23AMDPbHEInternalResponseVN
+- _$s8CipherML23AMDPbHEInternalResponseVSHAAMc
+- _$s8CipherML23AMDPbHEInternalResponseVSHAAMcMK
+- _$s8CipherML23AMDPbHEInternalResponseVSHAASH13_rawHashValue4seedS2i_tFTW
+- _$s8CipherML23AMDPbHEInternalResponseVSHAASH4hash4intoys6HasherVz_tFTW
+- _$s8CipherML23AMDPbHEInternalResponseVSHAASH9hashValueSivgTW
+- _$s8CipherML23AMDPbHEInternalResponseVSHAASQWb
+- _$s8CipherML23AMDPbHEInternalResponseVSQAAMc
+- _$s8CipherML23AMDPbHEInternalResponseVSQAAMcMK
+- _$s8CipherML23AMDPbHEInternalResponseVSQAASQ2eeoiySbx_xtFZTW
+- _$s8CipherML23AMDPbHEInternalResponseVWV
+- _$s8CipherML23AMDPbHEInternalResponseVs28CustomDebugStringConvertibleAAMc
+- _$s8CipherML23AMDPbHEInternalResponseVs28CustomDebugStringConvertibleAAMcMK
+- _$s8CipherML23AMDPbHEInternalResponseVs28CustomDebugStringConvertibleAAsADP16debugDescriptionSSvgTW
+- _$s8CipherML23AMDPbHEInternalResponseVwCP
+- _$s8CipherML23AMDPbHEInternalResponseVwca
+- _$s8CipherML23AMDPbHEInternalResponseVwcp
+- _$s8CipherML23AMDPbHEInternalResponseVwet
+- _$s8CipherML23AMDPbHEInternalResponseVwst
+- _$s8CipherML23AMDPbHEInternalResponseVwta
+- _$s8CipherML23AMDPbHEInternalResponseVwtk
+- _$s8CipherML23AMDPbHEInternalResponseVwxx
+- _$s8CipherML23AspireServicePECRequestV5queryAA0C36SimilaritySerializedCiphertextMatrixVvpACTK
+- _$s8CipherML26AspireSerializedCiphertextVWOc
+- _$s8CipherML26AspireServiceEvaluationKeyV05cleareF0yyFTm
+- _$s8CipherML29AspireServicePECShardResponseV5replyAA0C36SimilaritySerializedCiphertextMatrixVvpACTK
+- ___89-[CMLSimilarityClient requestSimilarityScoresForElements:shardIndices:completionHandler:]_block_invoke.43
+- ___89-[CMLSimilarityClient requestSimilarityScoresForElements:shardIndices:completionHandler:]_block_invoke.51
+- _associated conformance 8CipherML23AMDPbHEInternalResponseV21InternalSwiftProtobuf26_MessageImplementationBaseAASH
+- _associated conformance 8CipherML23AMDPbHEInternalResponseV21InternalSwiftProtobuf26_MessageImplementationBaseAaD0I0
+- _associated conformance 8CipherML23AMDPbHEInternalResponseV21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
+- _associated conformance 8CipherML23AMDPbHEInternalResponseVSHAASQ
+- _objc_msgSend$initWithIdentifier:score:
+- _symbolic SSSg
+- _symbolic _____ 8CipherML23AMDPbHEInternalResponseV
+- _symbolic _____Sg_ABt 8CipherML12AMDPbHEReplyV
+CStrings:
++ "!"
++ "@36@0:8Q16f24@28"
++ "T@\"NSData\",&,N,V_metadata"
++ "_metadata"
++ "entry_metadatas"
++ "initWithIdentifier:score:metadata:"
++ "scoreWithIdentifier:score:metadata:"
++ "setMetadata:"
+- "he.service.PbHEInternalResponse"
+- "initWithIdentifier:score:"
+
+```

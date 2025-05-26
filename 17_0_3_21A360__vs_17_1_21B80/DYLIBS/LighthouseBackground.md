@@ -1,0 +1,403 @@
+## LighthouseBackground
+
+> `/System/Library/PrivateFrameworks/LighthouseBackground.framework/LighthouseBackground`
+
+```diff
+
+-1.0.32.0.0
+-  __TEXT.__text: 0x6fdb0
+-  __TEXT.__auth_stubs: 0x1810
++1.1.6.0.0
++  __TEXT.__text: 0x7b124
++  __TEXT.__auth_stubs: 0x18c0
+   __TEXT.__objc_methlist: 0x12c
+-  __TEXT.__const: 0x71f0
+-  __TEXT.__swift5_typeref: 0x1c6a
+-  __TEXT.__cstring: 0x17bb
+-  __TEXT.__swift5_fieldmd: 0x1af0
+-  __TEXT.__constg_swiftt: 0x1b28
+-  __TEXT.__swift5_reflstr: 0xf53
+-  __TEXT.__swift5_protos: 0x24
+-  __TEXT.__swift5_types: 0x20c
+-  __TEXT.__swift5_capture: 0x2c0
+-  __TEXT.__swift5_assocty: 0x4b0
+-  __TEXT.__swift5_proto: 0x750
++  __TEXT.__const: 0x7550
++  __TEXT.__swift5_typeref: 0x1d60
++  __TEXT.__cstring: 0x1ccb
++  __TEXT.__swift5_fieldmd: 0x1c00
++  __TEXT.__constg_swiftt: 0x1bfc
++  __TEXT.__swift5_reflstr: 0x1041
++  __TEXT.__swift5_protos: 0x2c
++  __TEXT.__swift5_types: 0x218
++  __TEXT.__swift5_capture: 0x2e0
++  __TEXT.__swift5_assocty: 0x4e0
++  __TEXT.__swift5_proto: 0x78c
+   __TEXT.__swift5_builtin: 0x28
+-  __TEXT.__unwind_info: 0x2c68
+-  __TEXT.__eh_frame: 0x3518
++  __TEXT.__unwind_info: 0x32d8
++  __TEXT.__eh_frame: 0x3940
+   __TEXT.__objc_classname: 0x3b
+-  __TEXT.__objc_methname: 0x5d1
++  __TEXT.__objc_methname: 0x6bf
+   __TEXT.__objc_methtype: 0x13d
+-  __DATA_CONST.__got: 0x3e8
+-  __DATA_CONST.__const: 0x1b8
+-  __DATA_CONST.__objc_classlist: 0x58
++  __DATA_CONST.__got: 0x428
++  __DATA_CONST.__const: 0x1b0
++  __DATA_CONST.__objc_classlist: 0x50
+   __DATA_CONST.__objc_protolist: 0x58
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_const: 0xfc8
+-  __DATA_CONST.__objc_selrefs: 0x1d0
+-  __AUTH_CONST.__const: 0x4e60
+-  __AUTH_CONST.__auth_ptr: 0xa0
++  __DATA_CONST.__objc_const: 0xf40
++  __DATA_CONST.__objc_selrefs: 0x210
++  __AUTH_CONST.__const: 0x52d0
++  __AUTH_CONST.__auth_ptr: 0xa8
+   __AUTH_CONST.__objc_const: 0xd8
+-  __AUTH_CONST.__auth_got: 0xc08
+-  __AUTH.__data: 0x1030
+-  __AUTH.__objc_data: 0x210
++  __AUTH_CONST.__auth_got: 0xc60
++  __AUTH.__data: 0xf40
++  __AUTH.__objc_data: 0x1c0
+   __DATA.__objc_protorefs: 0x30
+-  __DATA.__objc_classrefs: 0x58
++  __DATA.__objc_classrefs: 0x70
+   __DATA.__objc_data: 0x68
+-  __DATA.__data: 0x20f8
+-  __DATA.__bss: 0xd9b0
+-  __DATA.__common: 0x20
++  __DATA.__data: 0x2260
++  __DATA.__bss: 0xe430
++  __DATA.__common: 0x18
+   __DATA_DIRTY.__objc_data: 0x248
+-  __DATA_DIRTY.__data: 0x6a8
++  __DATA_DIRTY.__data: 0x690
+   __DATA_DIRTY.__common: 0x20
+-  __DATA_DIRTY.__bss: 0x1000
++  __DATA_DIRTY.__bss: 0xd00
+   - /System/Library/Frameworks/ExtensionFoundation.framework/ExtensionFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/Frameworks/Security.framework/Security
+
+   - /System/Library/PrivateFrameworks/BiomeStorage.framework/BiomeStorage
+   - /System/Library/PrivateFrameworks/BiomeStreams.framework/BiomeStreams
+   - /System/Library/PrivateFrameworks/CoreAnalytics.framework/CoreAnalytics
++  - /System/Library/PrivateFrameworks/MobileAsset.framework/MobileAsset
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/swift/libswiftCore.dylib
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+-  Functions: 4006
+-  Symbols:   1193
+-  CStrings:  324
++  Functions: 4205
++  Symbols:   1207
++  CStrings:  359
+ 
+Symbols:
++ _OBJC_CLASS_$_MAAutoAsset
++ _OBJC_CLASS_$_MAAutoAssetSelector
++ _OBJC_CLASS_$_NSError
++ __DATA__TtC20LighthouseBackground11MLHostAsset
++ __IVARS__TtC20LighthouseBackground11MLHostAsset
++ __METACLASS_DATA__TtC20LighthouseBackground11MLHostAsset
++ __PROTOCOLS__TtC20LighthouseBackground12MLHostResult.14
++ __PROTOCOLS__TtCV20LighthouseBackground29_MLHostExtensionConfiguration14ExportedObject.8
++ ___swift_allocate_boxed_opaque_existential_1
++ ___swift_mutable_project_boxed_opaque_existential_1
++ ___unnamed_3
++ ___unnamed_7
++ _associated conformance 20LighthouseBackground13XPCEmptyReplyOAA10XPCMessageAA0D0AaDP_AaD
++ _associated conformance 20LighthouseBackground13XPCMessageKeyOSHAASQ
++ _associated conformance 20LighthouseBackground13XPCMessageKeyOs12CaseIterableAA8AllCasessADP_Sl
++ _associated conformance 20LighthouseBackground14AddTaskRequestVAA10XPCMessageAA5ReplyAaDP_AaD
++ _associated conformance 20LighthouseBackground14GetTaskRequestVAA10XPCMessageAA5ReplyAaDP_AaD
++ _associated conformance 20LighthouseBackground14XPCRemoteErrorO07GenericD10CodingKeys33_E6FB4053A481F0405325A4FC80AF94B1LLOSHAASQ
++ _associated conformance 20LighthouseBackground14XPCRemoteErrorO07GenericD10CodingKeys33_E6FB4053A481F0405325A4FC80AF94B1LLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 20LighthouseBackground14XPCRemoteErrorO07GenericD10CodingKeys33_E6FB4053A481F0405325A4FC80AF94B1LLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 20LighthouseBackground14XPCRemoteErrorO10CodingKeys33_E6FB4053A481F0405325A4FC80AF94B1LLOSHAASQ
++ _associated conformance 20LighthouseBackground14XPCRemoteErrorO10CodingKeys33_E6FB4053A481F0405325A4FC80AF94B1LLOs0E3KeyAAs23CustomStringConvertible
++ _associated conformance 20LighthouseBackground14XPCRemoteErrorO10CodingKeys33_E6FB4053A481F0405325A4FC80AF94B1LLOs0E3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 20LighthouseBackground14XPCRemoteErrorOAA10XPCMessageAA5ReplyAaDP_AaD
++ _associated conformance 20LighthouseBackground15AddTaskResponseVAA10XPCMessageAA5ReplyAaDP_AaD
++ _associated conformance 20LighthouseBackground15GetTaskResponseVAA10XPCMessageAA5ReplyAaDP_AaD
++ _associated conformance 20LighthouseBackground15MLHostAnalyticsV10CodingKeys33_A39BA1BB4ED064711F1A0F3C668AC1BDLLOSHAASQ
++ _associated conformance 20LighthouseBackground15MLHostAnalyticsV10CodingKeys33_A39BA1BB4ED064711F1A0F3C668AC1BDLLOs0E3KeyAAs23CustomStringConvertible
++ _associated conformance 20LighthouseBackground15MLHostAnalyticsV10CodingKeys33_A39BA1BB4ED064711F1A0F3C668AC1BDLLOs0E3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 20LighthouseBackground15XPCParsingErrorOSHAASQ
++ _associated conformance 20LighthouseBackground16ListTasksRequestVAA10XPCMessageAA5ReplyAaDP_AaD
++ _associated conformance 20LighthouseBackground16XPCMessageFormatOSHAASQ
++ _associated conformance 20LighthouseBackground16XPCMessageFormatOs12CaseIterableAA8AllCasessADP_Sl
++ _associated conformance 20LighthouseBackground17CleanTasksRequestVAA10XPCMessageAA5ReplyAaDP_AaD
++ _associated conformance 20LighthouseBackground17ListTasksResponseVAA10XPCMessageAA5ReplyAaDP_AaD
++ _associated conformance 20LighthouseBackground17MLHostCommonErrorOAA0cE0AA8RawValueSY_Sy
++ _associated conformance 20LighthouseBackground17MLHostCommonErrorOSHAASQ
++ _associated conformance 20LighthouseBackground17ResetTasksRequestVAA10XPCMessageAA5ReplyAaDP_AaD
++ _associated conformance 20LighthouseBackground18CleanTasksResponseVAA10XPCMessageAA5ReplyAaDP_AaD
++ _associated conformance 20LighthouseBackground18ResetTasksResponseVAA10XPCMessageAA5ReplyAaDP_AaD
++ _associated conformance 20LighthouseBackground18XPCConnectionErrorOAA10XPCMessageAA5ReplyAaDP_AaD
++ _associated conformance 20LighthouseBackground19CoreAnalyticsEventsOSHAASQ
++ _associated conformance 20LighthouseBackground19CoreAnalyticsEventsOs12CaseIterableAA8AllCasessADP_Sl
++ _associated conformance 20LighthouseBackground19GetExtensionRequestVAA10XPCMessageAA5ReplyAaDP_AaD
++ _associated conformance 20LighthouseBackground20CustomEventAnalyticsV10CodingKeys33_3FA011445F78392FAA74E0CF526A05DFLLOSHAASQ
++ _associated conformance 20LighthouseBackground20CustomEventAnalyticsV10CodingKeys33_3FA011445F78392FAA74E0CF526A05DFLLOs0F3KeyAAs0C17StringConvertible
++ _associated conformance 20LighthouseBackground20CustomEventAnalyticsV10CodingKeys33_3FA011445F78392FAA74E0CF526A05DFLLOs0F3KeyAAs0C22DebugStringConvertible
++ _associated conformance 20LighthouseBackground20GetExtensionResponseVAA10XPCMessageAA5ReplyAaDP_AaD
++ _associated conformance 20LighthouseBackground21ListExtensionsRequestVAA10XPCMessageAA5ReplyAaDP_AaD
++ _associated conformance 20LighthouseBackground21MLHostAssetParametersV10CodingKeys031_D9FD27639E64C5F8EAB02A51C8C7F5P0LLOSHAASQ
++ _associated conformance 20LighthouseBackground21MLHostAssetParametersV10CodingKeys031_D9FD27639E64C5F8EAB02A51C8C7F5P0LLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 20LighthouseBackground21MLHostAssetParametersV10CodingKeys031_D9FD27639E64C5F8EAB02A51C8C7F5P0LLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 20LighthouseBackground21MLHostEmptyParametersV10CodingKeysOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 20LighthouseBackground21MLHostEmptyParametersV10CodingKeysOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 20LighthouseBackground22ListExtensionsResponseVAA10XPCMessageAA5ReplyAaDP_AaD
++ _associated conformance 20LighthouseBackground27GetHostConfigurationRequestVAA10XPCMessageAA5ReplyAaDP_AaD
++ _associated conformance 20LighthouseBackground27SetHostConfigurationRequestVAA10XPCMessageAA5ReplyAaDP_AaD
++ _associated conformance 20LighthouseBackground28GetHostConfigurationResponseVAA10XPCMessageAA5ReplyAaDP_AaD
++ _associated conformance 20LighthouseBackground28SetHostConfigurationResponseVAA10XPCMessageAA5ReplyAaDP_AaD
++ _block_copy_helper.21
++ _block_copy_helper.45
++ _block_copy_helper.9
++ _block_descriptor.11
++ _block_descriptor.23
++ _block_descriptor.47
++ _block_descriptor.48
++ _block_destroy_helper.10
++ _block_destroy_helper.22
++ _block_destroy_helper.46
++ _default assoc type _____ 20LighthouseBackground13XPCEmptyReplyO
++ _default associated conformance5Reply20LighthouseBackground10XPCMessageP_AbC
++ _get_witness_table 20LighthouseBackground15MLHostExtensionRzlAA01_cD13ConfigurationVyxGAA0cdE0HPyHC.9
++ _objc_release_x25
++ _objc_release_x27
++ _objc_retain_x1
++ _swift_continuation_throwingResume
++ _swift_continuation_throwingResumeWithError
++ _swift_makeBoxUnique
++ _symbolic $s20LighthouseBackground10XPCMessageP
++ _symbolic $s20LighthouseBackground15XPCErrorMessageP
++ _symbolic $s20LighthouseBackground17MLHostCustomEventP
++ _symbolic $s20LighthouseBackground21StateMachineAnalyticsP
++ _symbolic 5Reply_____Qz 20LighthouseBackground10XPCMessageP
++ _symbolic Say_____G 20LighthouseBackground13XPCMessageKeyO
++ _symbolic Say_____G 20LighthouseBackground16XPCMessageFormatO
++ _symbolic Say_____G 20LighthouseBackground19CoreAnalyticsEventsO
++ _symbolic ScCy5Reply_____Qz______pG 20LighthouseBackground10XPCMessageP s5ErrorP
++ _symbolic ScCy_____Sg_____G 10Foundation3URLV s5NeverO
++ _symbolic So11MAAutoAssetC
++ _symbolic _____ 10Foundation3URLV
++ _symbolic _____ 20LighthouseBackground11MLHostAssetC
++ _symbolic _____ 20LighthouseBackground13XPCEmptyReplyO
++ _symbolic _____ 20LighthouseBackground13XPCMessageKeyO
++ _symbolic _____ 20LighthouseBackground14XPCRemoteErrorO
++ _symbolic _____ 20LighthouseBackground14XPCRemoteErrorO07GenericD10CodingKeys33_E6FB4053A481F0405325A4FC80AF94B1LLO
++ _symbolic _____ 20LighthouseBackground14XPCRemoteErrorO10CodingKeys33_E6FB4053A481F0405325A4FC80AF94B1LLO
++ _symbolic _____ 20LighthouseBackground15MLHostAnalyticsV
++ _symbolic _____ 20LighthouseBackground15MLHostAnalyticsV10CodingKeys33_A39BA1BB4ED064711F1A0F3C668AC1BDLLO
++ _symbolic _____ 20LighthouseBackground15XPCParsingErrorO
++ _symbolic _____ 20LighthouseBackground16XPCMessageFormatO
++ _symbolic _____ 20LighthouseBackground17MLHostCommonErrorO
++ _symbolic _____ 20LighthouseBackground19CoreAnalyticsEventsO
++ _symbolic _____ 20LighthouseBackground20CustomEventAnalyticsV
++ _symbolic _____ 20LighthouseBackground20CustomEventAnalyticsV10CodingKeys33_3FA011445F78392FAA74E0CF526A05DFLLO
++ _symbolic _____ 20LighthouseBackground21MLHostAssetParametersV
++ _symbolic _____ 20LighthouseBackground21MLHostAssetParametersV10CodingKeys031_D9FD27639E64C5F8EAB02A51C8C7F5P0LLO
++ _symbolic _____ 20LighthouseBackground21MLHostEmptyParametersV
++ _symbolic _____ 20LighthouseBackground21MLHostEmptyParametersV10CodingKeysO
++ _symbolic _____Sg 20LighthouseBackground21MLHostAssetParametersV
++ _symbolic ______p 20LighthouseBackground15XPCErrorMessageP
++ _symbolic _____m 20LighthouseBackground13XPCEmptyReplyO
++ _symbolic _____m 20LighthouseBackground14XPCRemoteErrorO
++ _symbolic _____y_____G 20LighthouseBackground18LedgerStateMachineC AA15MLHostAnalyticsV
++ _symbolic _____y_____G 20LighthouseBackground18LedgerStateMachineC AA20CustomEventAnalyticsV
++ _symbolic _____y_____G s22KeyedDecodingContainerV 20LighthouseBackground14XPCRemoteErrorO07GenericG10CodingKeys33_E6FB4053A481F0405325A4FC80AF94B1LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 20LighthouseBackground14XPCRemoteErrorO10CodingKeys33_E6FB4053A481F0405325A4FC80AF94B1LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 20LighthouseBackground15MLHostAnalyticsV10CodingKeys33_A39BA1BB4ED064711F1A0F3C668AC1BDLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 20LighthouseBackground20CustomEventAnalyticsV10CodingKeys33_3FA011445F78392FAA74E0CF526A05DFLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 20LighthouseBackground21MLHostAssetParametersV10CodingKeys031_D9FD27639E64C5F8EAB02A51C8C7F5S0LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 20LighthouseBackground14XPCRemoteErrorO07GenericG10CodingKeys33_E6FB4053A481F0405325A4FC80AF94B1LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 20LighthouseBackground14XPCRemoteErrorO10CodingKeys33_E6FB4053A481F0405325A4FC80AF94B1LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 20LighthouseBackground15MLHostAnalyticsV10CodingKeys33_A39BA1BB4ED064711F1A0F3C668AC1BDLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 20LighthouseBackground20CustomEventAnalyticsV10CodingKeys33_3FA011445F78392FAA74E0CF526A05DFLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 20LighthouseBackground21MLHostAssetParametersV10CodingKeys031_D9FD27639E64C5F8EAB02A51C8C7F5S0LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 20LighthouseBackground21MLHostEmptyParametersV10CodingKeysO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 20LighthouseBackground13XPCMessageKeyO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 20LighthouseBackground16XPCMessageFormatO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 20LighthouseBackground19CoreAnalyticsEventsO
++ _symbolic x5Reply_____Qz______pIegHnrzo_ 20LighthouseBackground10XPCMessageP s5ErrorP
++ _symbolic x5Reply_____Qz______pIegnrzo_ 20LighthouseBackground10XPCMessageP s5ErrorP
+- __DATA__TtC20LighthouseBackground15MLHostAnalytics
+- __DATA__TtC20LighthouseBackground22LedgerMachineAnalytics
+- __IVARS__TtC20LighthouseBackground22LedgerMachineAnalytics
+- __METACLASS_DATA__TtC20LighthouseBackground15MLHostAnalytics
+- __METACLASS_DATA__TtC20LighthouseBackground22LedgerMachineAnalytics
+- __PROTOCOLS__TtC20LighthouseBackground12MLHostResult.19
+- __PROTOCOLS__TtCV20LighthouseBackground29_MLHostExtensionConfiguration14ExportedObject.4
+- ___swift_destroy_boxed_opaque_existential_0
+- ___unnamed_1
+- ___unnamed_9
+- _associated conformance 20LighthouseBackground12LHEmptyReplyOAA9LHMessageAA0D0AaDP_AaD
+- _associated conformance 20LighthouseBackground12LHMessageKeyOSHAASQ
+- _associated conformance 20LighthouseBackground12LHMessageKeyOs12CaseIterableAA8AllCasessADP_Sl
+- _associated conformance 20LighthouseBackground13LHErrorCommonO10CodingKeys33_95BB2903FCBB2830869FBB5492D459AFLLOSHAASQ
+- _associated conformance 20LighthouseBackground13LHErrorCommonO10CodingKeys33_95BB2903FCBB2830869FBB5492D459AFLLOs0E3KeyAAs23CustomStringConvertible
+- _associated conformance 20LighthouseBackground13LHErrorCommonO10CodingKeys33_95BB2903FCBB2830869FBB5492D459AFLLOs0E3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 20LighthouseBackground13LHErrorCommonO22GenericErrorCodingKeys33_95BB2903FCBB2830869FBB5492D459AFLLOSHAASQ
+- _associated conformance 20LighthouseBackground13LHErrorCommonO22GenericErrorCodingKeys33_95BB2903FCBB2830869FBB5492D459AFLLOs0G3KeyAAs23CustomStringConvertible
+- _associated conformance 20LighthouseBackground13LHErrorCommonO22GenericErrorCodingKeys33_95BB2903FCBB2830869FBB5492D459AFLLOs0G3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 20LighthouseBackground13LHErrorCommonO22TaskNotFoundCodingKeys33_95BB2903FCBB2830869FBB5492D459AFLLOs0H3KeyAAs23CustomStringConvertible
+- _associated conformance 20LighthouseBackground13LHErrorCommonO22TaskNotFoundCodingKeys33_95BB2903FCBB2830869FBB5492D459AFLLOs0H3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 20LighthouseBackground13LHErrorCommonO27ExtensionNotFoundCodingKeys33_95BB2903FCBB2830869FBB5492D459AFLLOs0H3KeyAAs23CustomStringConvertible
+- _associated conformance 20LighthouseBackground13LHErrorCommonO27ExtensionNotFoundCodingKeys33_95BB2903FCBB2830869FBB5492D459AFLLOs0H3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 20LighthouseBackground13LHErrorCommonOAA9LHMessageAA5ReplyAaDP_AaD
+- _associated conformance 20LighthouseBackground14AddTaskRequestVAA9LHMessageAA5ReplyAaDP_AaD
+- _associated conformance 20LighthouseBackground14GetTaskRequestVAA9LHMessageAA5ReplyAaDP_AaD
+- _associated conformance 20LighthouseBackground14LHMessageErrorOSHAASQ
+- _associated conformance 20LighthouseBackground15AddTaskResponseVAA9LHMessageAA5ReplyAaDP_AaD
+- _associated conformance 20LighthouseBackground15GetTaskResponseVAA9LHMessageAA5ReplyAaDP_AaD
+- _associated conformance 20LighthouseBackground15LHMessageFormatOSHAASQ
+- _associated conformance 20LighthouseBackground15LHMessageFormatOs12CaseIterableAA8AllCasessADP_Sl
+- _associated conformance 20LighthouseBackground15MLHostBaseErrorOAA0cE0AA8RawValueSY_Sy
+- _associated conformance 20LighthouseBackground15MLHostBaseErrorOSHAASQ
+- _associated conformance 20LighthouseBackground16ListTasksRequestVAA9LHMessageAA5ReplyAaDP_AaD
+- _associated conformance 20LighthouseBackground17CleanTasksRequestVAA9LHMessageAA5ReplyAaDP_AaD
+- _associated conformance 20LighthouseBackground17ListTasksResponseVAA9LHMessageAA5ReplyAaDP_AaD
+- _associated conformance 20LighthouseBackground17ResetTasksRequestVAA9LHMessageAA5ReplyAaDP_AaD
+- _associated conformance 20LighthouseBackground18CleanTasksResponseVAA9LHMessageAA5ReplyAaDP_AaD
+- _associated conformance 20LighthouseBackground18ResetTasksResponseVAA9LHMessageAA5ReplyAaDP_AaD
+- _associated conformance 20LighthouseBackground18XPCConnectionErrorOAA9LHMessageAA5ReplyAaDP_AaD
+- _associated conformance 20LighthouseBackground19GetExtensionRequestVAA9LHMessageAA5ReplyAaDP_AaD
+- _associated conformance 20LighthouseBackground20GetExtensionResponseVAA9LHMessageAA5ReplyAaDP_AaD
+- _associated conformance 20LighthouseBackground20IgnoreTaskParametersV10CodingKeysOs0F3KeyAAs23CustomStringConvertible
+- _associated conformance 20LighthouseBackground20IgnoreTaskParametersV10CodingKeysOs0F3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 20LighthouseBackground21ListExtensionsRequestVAA9LHMessageAA5ReplyAaDP_AaD
+- _associated conformance 20LighthouseBackground22LedgerMachineAnalyticsC10CodingKeys33_06A6940635D30075BB86654B78954369LLOSHAASQ
+- _associated conformance 20LighthouseBackground22LedgerMachineAnalyticsC10CodingKeys33_06A6940635D30075BB86654B78954369LLOs0F3KeyAAs23CustomStringConvertible
+- _associated conformance 20LighthouseBackground22LedgerMachineAnalyticsC10CodingKeys33_06A6940635D30075BB86654B78954369LLOs0F3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 20LighthouseBackground22ListExtensionsResponseVAA9LHMessageAA5ReplyAaDP_AaD
+- _associated conformance 20LighthouseBackground27GetHostConfigurationRequestVAA9LHMessageAA5ReplyAaDP_AaD
+- _associated conformance 20LighthouseBackground27SetHostConfigurationRequestVAA9LHMessageAA5ReplyAaDP_AaD
+- _associated conformance 20LighthouseBackground28GetHostConfigurationResponseVAA9LHMessageAA5ReplyAaDP_AaD
+- _associated conformance 20LighthouseBackground28SetHostConfigurationResponseVAA9LHMessageAA5ReplyAaDP_AaD
+- _block_copy_helper.15
+- _block_copy_helper.24
+- _block_copy_helper.27
+- _block_copy_helper.30
+- _block_copy_helper.6
+- _block_descriptor.17
+- _block_descriptor.26
+- _block_descriptor.29
+- _block_descriptor.32
+- _block_descriptor.8
+- _block_destroy_helper.16
+- _block_destroy_helper.25
+- _block_destroy_helper.28
+- _block_destroy_helper.31
+- _block_destroy_helper.7
+- _default assoc type _____ 20LighthouseBackground12LHEmptyReplyO
+- _default associated conformance5Reply20LighthouseBackground9LHMessageP_AbC
+- _get_witness_table 20LighthouseBackground15MLHostExtensionRzlAA01_cD13ConfigurationVyxGAA0cdE0HPyHC.5
+- _keypath_get.6Tm
+- _swift_getErrorValue
+- _symbolic $s20LighthouseBackground7LHErrorP
+- _symbolic $s20LighthouseBackground9LHMessageP
+- _symbolic 5Reply_____Qz 20LighthouseBackground9LHMessageP
+- _symbolic Say_____G 20LighthouseBackground12LHMessageKeyO
+- _symbolic Say_____G 20LighthouseBackground15LHMessageFormatO
+- _symbolic ScCy5Reply_____Qz______pG 20LighthouseBackground9LHMessageP s5ErrorP
+- _symbolic _____ 20LighthouseBackground12LHEmptyReplyO
+- _symbolic _____ 20LighthouseBackground12LHMessageKeyO
+- _symbolic _____ 20LighthouseBackground13LHErrorCommonO
+- _symbolic _____ 20LighthouseBackground13LHErrorCommonO10CodingKeys33_95BB2903FCBB2830869FBB5492D459AFLLO
+- _symbolic _____ 20LighthouseBackground13LHErrorCommonO22GenericErrorCodingKeys33_95BB2903FCBB2830869FBB5492D459AFLLO
+- _symbolic _____ 20LighthouseBackground13LHErrorCommonO22TaskNotFoundCodingKeys33_95BB2903FCBB2830869FBB5492D459AFLLO
+- _symbolic _____ 20LighthouseBackground13LHErrorCommonO27ExtensionNotFoundCodingKeys33_95BB2903FCBB2830869FBB5492D459AFLLO
+- _symbolic _____ 20LighthouseBackground14LHMessageErrorO
+- _symbolic _____ 20LighthouseBackground15LHMessageFormatO
+- _symbolic _____ 20LighthouseBackground15MLHostAnalyticsC
+- _symbolic _____ 20LighthouseBackground15MLHostBaseErrorO
+- _symbolic _____ 20LighthouseBackground20IgnoreTaskParametersV
+- _symbolic _____ 20LighthouseBackground20IgnoreTaskParametersV10CodingKeysO
+- _symbolic _____ 20LighthouseBackground22LedgerMachineAnalyticsC
+- _symbolic _____ 20LighthouseBackground22LedgerMachineAnalyticsC10CodingKeys33_06A6940635D30075BB86654B78954369LLO
+- _symbolic ______p 20LighthouseBackground7LHErrorP
+- _symbolic _____m 20LighthouseBackground12LHEmptyReplyO
+- _symbolic _____m 20LighthouseBackground13LHErrorCommonO
+- _symbolic _____y_____G 20LighthouseBackground18LedgerStateMachineC AA15MLHostAnalyticsC
+- _symbolic _____y_____G s22KeyedDecodingContainerV 20LighthouseBackground13LHErrorCommonO10CodingKeys33_95BB2903FCBB2830869FBB5492D459AFLLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 20LighthouseBackground13LHErrorCommonO22GenericErrorCodingKeys33_95BB2903FCBB2830869FBB5492D459AFLLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 20LighthouseBackground13LHErrorCommonO22TaskNotFoundCodingKeys33_95BB2903FCBB2830869FBB5492D459AFLLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 20LighthouseBackground13LHErrorCommonO27ExtensionNotFoundCodingKeys33_95BB2903FCBB2830869FBB5492D459AFLLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 20LighthouseBackground22LedgerMachineAnalyticsC10CodingKeys33_06A6940635D30075BB86654B78954369LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 20LighthouseBackground13LHErrorCommonO10CodingKeys33_95BB2903FCBB2830869FBB5492D459AFLLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 20LighthouseBackground13LHErrorCommonO22GenericErrorCodingKeys33_95BB2903FCBB2830869FBB5492D459AFLLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 20LighthouseBackground13LHErrorCommonO22TaskNotFoundCodingKeys33_95BB2903FCBB2830869FBB5492D459AFLLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 20LighthouseBackground13LHErrorCommonO27ExtensionNotFoundCodingKeys33_95BB2903FCBB2830869FBB5492D459AFLLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 20LighthouseBackground20IgnoreTaskParametersV10CodingKeysO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 20LighthouseBackground22LedgerMachineAnalyticsC10CodingKeys33_06A6940635D30075BB86654B78954369LLO
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 20LighthouseBackground12LHMessageKeyO
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 20LighthouseBackground15LHMessageFormatO
+- _symbolic x5Reply_____Qz______pIegHnrzo_ 20LighthouseBackground9LHMessageP s5ErrorP
+- _symbolic x5Reply_____Qz______pIegnrzo_ 20LighthouseBackground9LHMessageP s5ErrorP
+CStrings:
++ "Decoding invalid error message: %s"
++ "Extension indicated shouldRun() = false."
++ "MAAutoAsset checking availability for assetSpecifier: %s"
++ "MAAutoAsset determineIfAvailable failed: %@"
++ "MAAutoAsset endLockUsage error: %@"
++ "MAAutoAsset endLockUsage: %s"
++ "MAAutoAsset expressing interest for assetSpecifier: %s"
++ "MAAutoAsset failed: %@"
++ "MAAutoAsset interest failed: %@"
++ "MAAutoAsset lockContent failed: %@"
++ "MAAutoAsset lockContent failed: locked false"
++ "MAAutoAsset lockContent failed: url nil"
++ "MAAutoAsset lockContent: %s"
++ "MAAutoAsset status: %s"
++ "MAAutoAsset url: %s"
++ "MLHostClient connection error: %@"
++ "MLHostClient remote error: %@"
++ "MLHostd couldn't handle client request. Please make sure to have the appropriate entitlements."
++ "MobileAsset not available. Rescheduling."
++ "Querying MAAutoAsset for %s: %s"
++ "Unrecognized error message: %s"
++ "XPCConnectionError"
++ "_TtC20LighthouseBackground11MLHostAsset"
++ "assetSelector"
++ "assetSpecifier"
++ "assetType"
++ "autoAsset"
++ "com.apple.LighthouseLedger.DeviceStatusTelemetry"
++ "com.apple.LighthouseLedger.TaskStatusTelemetry"
++ "com.apple.mlhost.extension"
++ "determineIfAvailable:withTimeout:completion:"
++ "endLockUsageSync:"
++ "getAsset(assetType:assetSpecifier:)"
++ "initForAssetType:withAssetSpecifier:"
++ "initForClientName:selectingAsset:error:"
++ "initWithPrivateStreamIdentifier:storeConfig:eventDataClass:"
++ "interestInContent:completion:"
++ "lockContent:withTimeout:completion:"
++ "mobileAssetUnavailable"
++ "url"
++ "v24@?0@\"MAAutoAssetSelector\"8@\"NSError\"16"
++ "v32@?0@\"MAAutoAssetSelector\"8@\"NSDictionary\"16@\"NSError\"24"
++ "v44@?0@\"MAAutoAssetSelector\"8B16@\"NSURL\"20@\"MAAutoAssetStatus\"28@\"NSError\"36"
+- "B16@?0@8"
+- "_TtC20LighthouseBackground15MLHostAnalytics"
+- "_TtC20LighthouseBackground22LedgerMachineAnalytics"
+- "extensionNotFound"
+- "filterWithIsIncluded:"
+- "firstValidState"
+- "initWithPrivateStreamIdentifier:storeConfig:"
+- "stateCountMap"
+
+```

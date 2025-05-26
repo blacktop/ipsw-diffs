@@ -1,0 +1,301 @@
+## PreviewsOSSupportUI
+
+> `/System/Library/PrivateFrameworks/PreviewsOSSupportUI.framework/PreviewsOSSupportUI`
+
+```diff
+
+-21.20.7.0.0
+-  __TEXT.__text: 0x123b4
+-  __TEXT.__auth_stubs: 0xb20
++21.30.32.0.0
++  __TEXT.__text: 0x1e298
++  __TEXT.__auth_stubs: 0xc90
+   __TEXT.__objc_methlist: 0x220
+-  __TEXT.__const: 0xd7e
+-  __TEXT.__cstring: 0xc00
++  __TEXT.__const: 0x1c58
++  __TEXT.__cstring: 0xe70
+   __TEXT.__oslogstring: 0x34
+-  __TEXT.__swift5_typeref: 0x4d1
+-  __TEXT.__constg_swiftt: 0x3c0
+-  __TEXT.__swift5_reflstr: 0x3e3
+-  __TEXT.__swift5_fieldmd: 0x5f4
++  __TEXT.__swift5_typeref: 0x79f
++  __TEXT.__constg_swiftt: 0x5ec
++  __TEXT.__swift5_reflstr: 0x4f8
++  __TEXT.__swift5_fieldmd: 0x828
+   __TEXT.__swift5_builtin: 0x3c
+-  __TEXT.__swift5_assocty: 0x210
+-  __TEXT.__swift5_capture: 0xf8
+-  __TEXT.__swift5_proto: 0xdc
+-  __TEXT.__swift5_types: 0x64
+-  __TEXT.__unwind_info: 0x75c
+-  __TEXT.__eh_frame: 0x488
++  __TEXT.__swift5_assocty: 0x4a0
++  __TEXT.__swift5_capture: 0x130
++  __TEXT.__swift5_proto: 0x1a0
++  __TEXT.__swift5_types: 0xa0
++  __TEXT.__unwind_info: 0x9d4
++  __TEXT.__eh_frame: 0x5f0
+   __TEXT.__objc_classname: 0x121
+-  __TEXT.__objc_methname: 0x921
++  __TEXT.__objc_methname: 0x935
+   __TEXT.__objc_methtype: 0x27d
+   __TEXT.__objc_stubs: 0x280
+-  __DATA_CONST.__got: 0x1b8
+-  __DATA_CONST.__const: 0x88
++  __DATA_CONST.__got: 0x1f0
++  __DATA_CONST.__const: 0xc0
+   __DATA_CONST.__objc_classlist: 0x48
+   __DATA_CONST.__objc_catlist: 0x8
+   __DATA_CONST.__objc_protolist: 0x40
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_const: 0x1098
++  __DATA_CONST.__objc_const: 0x10e0
+   __DATA_CONST.__objc_selrefs: 0x270
++  __DATA_CONST.__objc_protorefs: 0x10
++  __DATA_CONST.__objc_classrefs: 0x98
++  __DATA_CONST.__objc_superrefs: 0x18
+   __AUTH_CONST.__objc_const: 0x1a8
+   __AUTH_CONST.__cfstring: 0x80
+-  __AUTH_CONST.__const: 0xf80
++  __AUTH_CONST.__const: 0x14e0
+   __AUTH_CONST.__auth_ptr: 0x28
+-  __AUTH_CONST.__auth_got: 0x598
+-  __AUTH.__objc_data: 0x4d8
+-  __AUTH.__data: 0x3d8
+-  __DATA.__objc_protorefs: 0x10
+-  __DATA.__objc_classrefs: 0x98
+-  __DATA.__objc_superrefs: 0x18
++  __AUTH_CONST.__auth_got: 0x650
++  __AUTH.__objc_data: 0x4e8
++  __AUTH.__data: 0x518
+   __DATA.__objc_ivar: 0x8
+-  __DATA.__data: 0xab0
+-  __DATA.__bss: 0x1680
++  __DATA.__data: 0x1090
++  __DATA.__bss: 0x3400
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+   - /System/Library/Frameworks/DeveloperToolsSupport.framework/DeveloperToolsSupport
+
+   - /System/Library/Frameworks/QuartzCore.framework/QuartzCore
+   - /System/Library/Frameworks/SwiftUI.framework/SwiftUI
+   - /System/Library/PrivateFrameworks/BaseBoard.framework/BaseBoard
+-  - /System/Library/PrivateFrameworks/PreviewsFoundation.framework/PreviewsFoundation
+-  - /System/Library/PrivateFrameworks/PreviewsMessaging.framework/PreviewsMessaging
++  - /System/Library/PrivateFrameworks/PreviewsFoundationOS.framework/PreviewsFoundationOS
++  - /System/Library/PrivateFrameworks/PreviewsMessagingOS.framework/PreviewsMessagingOS
++  - /System/Library/PrivateFrameworks/PreviewsOSSupport.framework/PreviewsOSSupport
+   - /System/Library/PrivateFrameworks/PreviewsServices.framework/PreviewsServices
+   - /System/Library/PrivateFrameworks/PreviewsServicesUI.framework/PreviewsServicesUI
+   - /System/Library/PrivateFrameworks/UIKitCore.framework/UIKitCore
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
++  - /usr/lib/swift/libswiftAccelerate.dylib
+   - /usr/lib/swift/libswiftCore.dylib
+   - /usr/lib/swift/libswiftCoreFoundation.dylib
+   - /usr/lib/swift/libswiftCoreImage.dylib
+
+   - /usr/lib/swift/libswiftQuartzCore.dylib
+   - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
++  - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 687
+-  Symbols:   501
+-  CStrings:  257
++  Functions: 1047
++  Symbols:   575
++  CStrings:  279
+ 
+Symbols:
++ __IVARS__TtC19PreviewsOSSupportUI20UVAgentSceneRegistry
++ ___swift_memcpy0_1
++ __swift_FORCE_LOAD_$_swiftAccelerate
++ __swift_FORCE_LOAD_$_swiftAccelerate_$_PreviewsOSSupportUI
++ _associated conformance 18PreviewsServicesUI15SceneUpdateSeedV0A12FoundationOS25PropertyListRepresentable0a9OSSupportC00iJ5ValueAdEP_AD0iJ4Type
++ _associated conformance 18PreviewsServicesUI17SceneUpdateTimingO0A12FoundationOS25PropertyListRepresentable0a9OSSupportC00iJ5ValueAdEP_AD0iJ4Type
++ _associated conformance 18PreviewsServicesUI18PreviewPreferencesV0A12FoundationOS25PropertyListRepresentable0a9OSSupportC00hI5ValueAdEP_AD0hI4Type
++ _associated conformance 18PreviewsServicesUI22SuppressedPresentationO0A12FoundationOS25PropertyListRepresentable0a9OSSupportC00hI5ValueAdEP_AD0hI4Type
++ _associated conformance 19PreviewsOSSupportUI11AgentUpdateV0A12FoundationOS25PropertyListRepresentableAA0hI5ValueAdEP_AD0hI4Type
++ _associated conformance 19PreviewsOSSupportUI11AgentUpdateV3Key33_87A9CF739BF9E24109A215F598E25387LLOSHAASQ
++ _associated conformance 19PreviewsOSSupportUI11AgentUpdateV3Key33_87A9CF739BF9E24109A215F598E25387LLOs12CaseIterableAA8AllCasessAGP_Sl
++ _associated conformance 19PreviewsOSSupportUI11AgentUpdateV7ContextV0A12FoundationOS25PropertyListRepresentableAA0iJ5ValueAfGP_AF0iJ4Type
++ _associated conformance 19PreviewsOSSupportUI11AgentUpdateV7ContextV3Key33_87A9CF739BF9E24109A215F598E25387LLOSHAASQ
++ _associated conformance 19PreviewsOSSupportUI11AgentUpdateV7ContextV3Key33_87A9CF739BF9E24109A215F598E25387LLOs12CaseIterableAA8AllCasessAIP_Sl
++ _associated conformance 19PreviewsOSSupportUI14EntryPointTypeO0A12FoundationOS25PropertyListRepresentableAA0iJ5ValueAdEP_AD0ijF0
++ _associated conformance 19PreviewsOSSupportUI14EntryPointTypeO12Discriminant33_87A9CF739BF9E24109A215F598E25387LLO0A12FoundationOS25PropertyListRepresentableAA0qR5ValueAgHP_AG0qrF0
++ _associated conformance 19PreviewsOSSupportUI14EntryPointTypeO12Discriminant33_87A9CF739BF9E24109A215F598E25387LLOSHAASQ
++ _associated conformance 19PreviewsOSSupportUI14EntryPointTypeO3Key33_87A9CF739BF9E24109A215F598E25387LLOSHAASQ
++ _associated conformance 19PreviewsOSSupportUI16PreviewSceneRoleO0A12FoundationOS25PropertyListRepresentableAA0iJ5ValueAdEP_AD0iJ4Type
++ _associated conformance 19PreviewsOSSupportUI18SceneUpdateContextV0A12FoundationOS25PropertyListRepresentableAA0iJ5ValueAdEP_AD0iJ4Type
++ _associated conformance 19PreviewsOSSupportUI18SceneUpdateContextV3Key33_87A9CF739BF9E24109A215F598E25387LLOSHAASQ
++ _associated conformance 19PreviewsOSSupportUI18SceneUpdateContextV3Key33_87A9CF739BF9E24109A215F598E25387LLOs12CaseIterableAA8AllCasessAGP_Sl
++ _associated conformance 19PreviewsOSSupportUI24ShellToPreviewNonUIAgentO0aB00D19ConnectionInterfaceAA0A11MessagingOS09TransportJ0
++ _associated conformance 19PreviewsOSSupportUI24ShellToPreviewNonUIAgentO13TwoWayMessageO0A12FoundationOS25PropertyListRepresentableAA0nO5ValueAfGP_AF0nO4Type
++ _associated conformance 19PreviewsOSSupportUI24ShellToPreviewNonUIAgentO13TwoWayMessageO12Discriminant33_87A9CF739BF9E24109A215F598E25387LLO0A12FoundationOS25PropertyListRepresentableAA0vW5ValueAiJP_AI0vW4Type
++ _associated conformance 19PreviewsOSSupportUI24ShellToPreviewNonUIAgentO13TwoWayMessageO12Discriminant33_87A9CF739BF9E24109A215F598E25387LLOSHAASQ
++ _associated conformance 19PreviewsOSSupportUI24ShellToPreviewNonUIAgentO13TwoWayMessageO3Key33_87A9CF739BF9E24109A215F598E25387LLOSHAASQ
++ _associated conformance 19PreviewsOSSupportUI24ShellToPreviewNonUIAgentO18XPCEndpointContextO0A12FoundationOS25PropertyListRepresentableAA0mN5ValueAfGP_AF0mN4Type
++ _associated conformance 19PreviewsOSSupportUI24ShellToPreviewNonUIAgentO18XPCEndpointContextO12Discriminant33_87A9CF739BF9E24109A215F598E25387LLO0A12FoundationOS25PropertyListRepresentableAA0uV5ValueAiJP_AI0uV4Type
++ _associated conformance 19PreviewsOSSupportUI24ShellToPreviewNonUIAgentO18XPCEndpointContextO12Discriminant33_87A9CF739BF9E24109A215F598E25387LLOSHAASQ
++ _associated conformance 19PreviewsOSSupportUI24ShellToPreviewNonUIAgentO18XPCEndpointContextO3Key33_87A9CF739BF9E24109A215F598E25387LLOSHAASQ
++ _associated conformance 19PreviewsOSSupportUI24ShellToPreviewSceneAgentO0aB00D19ConnectionInterfaceAA0A11MessagingOS09TransportJ0
++ _associated conformance 19PreviewsOSSupportUI24ShellToPreviewSceneAgentO13TwoWayMessageO0A12FoundationOS25PropertyListRepresentableAA0nO5ValueAfGP_AF0nO4Type
++ _associated conformance 19PreviewsOSSupportUI24ShellToPreviewSceneAgentO13TwoWayMessageO12Discriminant33_87A9CF739BF9E24109A215F598E25387LLO0A12FoundationOS25PropertyListRepresentableAA0vW5ValueAiJP_AI0vW4Type
++ _associated conformance 19PreviewsOSSupportUI24ShellToPreviewSceneAgentO13TwoWayMessageO12Discriminant33_87A9CF739BF9E24109A215F598E25387LLOSHAASQ
++ _associated conformance 19PreviewsOSSupportUI24ShellToPreviewSceneAgentO13TwoWayMessageO3Key33_87A9CF739BF9E24109A215F598E25387LLOSHAASQ
++ _associated conformance 19PreviewsOSSupportUI24ShellToPreviewSceneAgentO18XPCEndpointContextO0A12FoundationOS25PropertyListRepresentableAA0mN5ValueAfGP_AF0mN4Type
++ _associated conformance 19PreviewsOSSupportUI24ShellToPreviewSceneAgentO18XPCEndpointContextO12Discriminant33_87A9CF739BF9E24109A215F598E25387LLO0A12FoundationOS25PropertyListRepresentableAA0uV5ValueAiJP_AI0uV4Type
++ _associated conformance 19PreviewsOSSupportUI24ShellToPreviewSceneAgentO18XPCEndpointContextO12Discriminant33_87A9CF739BF9E24109A215F598E25387LLOSHAASQ
++ _associated conformance 19PreviewsOSSupportUI24ShellToPreviewSceneAgentO18XPCEndpointContextO3Key33_87A9CF739BF9E24109A215F598E25387LLOSHAASQ
++ _associated conformance 19PreviewsOSSupportUI27SceneAgentConnectionContextV0A12FoundationOS25PropertyListRepresentableAA0jK5ValueAdEP_AD0jK4Type
++ _associated conformance 19PreviewsOSSupportUI27SceneAgentConnectionContextV3Key33_87A9CF739BF9E24109A215F598E25387LLOSHAASQ
++ _associated conformance 19PreviewsOSSupportUI27SceneAgentConnectionContextV3Key33_87A9CF739BF9E24109A215F598E25387LLOs12CaseIterableAA8AllCasessAGP_Sl
++ _objc_release_x28
++ _objc_retain_x26
++ _swift_initEnumMetadataSingleCase
++ _swift_initEnumMetadataSinglePayload
++ _swift_lookUpClassMethod
++ _swift_task_alloc
++ _swift_task_create
++ _swift_task_dealloc
++ _swift_task_switch
++ _symbolic $s17PreviewsOSSupport24ShellConnectionInterfaceP
++ _symbolic $s19PreviewsMessagingOS18TransportInterfaceP
++ _symbolic $s20PreviewsFoundationOS25PropertyListRepresentableP
++ _symbolic $ss12CaseIterableP
++ _symbolic IeghH_
++ _symbolic SDySSySo13UIWindowSceneCScMYccG
++ _symbolic Say_____G 19PreviewsOSSupportUI11AgentUpdateV3Key33_87A9CF739BF9E24109A215F598E25387LLO
++ _symbolic Say_____G 19PreviewsOSSupportUI11AgentUpdateV7ContextV3Key33_87A9CF739BF9E24109A215F598E25387LLO
++ _symbolic Say_____G 19PreviewsOSSupportUI18SceneUpdateContextV3Key33_87A9CF739BF9E24109A215F598E25387LLO
++ _symbolic Say_____G 19PreviewsOSSupportUI27SceneAgentConnectionContextV3Key33_87A9CF739BF9E24109A215F598E25387LLO
++ _symbolic ScPSg
++ _symbolic So13UIWindowSceneC
++ _symbolic _____ 19PreviewsMessagingOS17ContentIdentifierV
++ _symbolic _____ 19PreviewsMessagingOS18UpdateSetupPayloadV
++ _symbolic _____ 19PreviewsOSSupportUI11AgentUpdateV3Key33_87A9CF739BF9E24109A215F598E25387LLO
++ _symbolic _____ 19PreviewsOSSupportUI11AgentUpdateV7ContextV3Key33_87A9CF739BF9E24109A215F598E25387LLO
++ _symbolic _____ 19PreviewsOSSupportUI14EntryPointTypeO12Discriminant33_87A9CF739BF9E24109A215F598E25387LLO
++ _symbolic _____ 19PreviewsOSSupportUI14EntryPointTypeO3Key33_87A9CF739BF9E24109A215F598E25387LLO
++ _symbolic _____ 19PreviewsOSSupportUI18SceneUpdateContextV3Key33_87A9CF739BF9E24109A215F598E25387LLO
++ _symbolic _____ 19PreviewsOSSupportUI24ShellToPreviewNonUIAgentO
++ _symbolic _____ 19PreviewsOSSupportUI24ShellToPreviewNonUIAgentO13TwoWayMessageO
++ _symbolic _____ 19PreviewsOSSupportUI24ShellToPreviewNonUIAgentO13TwoWayMessageO12Discriminant33_87A9CF739BF9E24109A215F598E25387LLO
++ _symbolic _____ 19PreviewsOSSupportUI24ShellToPreviewNonUIAgentO13TwoWayMessageO3Key33_87A9CF739BF9E24109A215F598E25387LLO
++ _symbolic _____ 19PreviewsOSSupportUI24ShellToPreviewNonUIAgentO18XPCEndpointContextO
++ _symbolic _____ 19PreviewsOSSupportUI24ShellToPreviewNonUIAgentO18XPCEndpointContextO12Discriminant33_87A9CF739BF9E24109A215F598E25387LLO
++ _symbolic _____ 19PreviewsOSSupportUI24ShellToPreviewNonUIAgentO18XPCEndpointContextO3Key33_87A9CF739BF9E24109A215F598E25387LLO
++ _symbolic _____ 19PreviewsOSSupportUI24ShellToPreviewSceneAgentO
++ _symbolic _____ 19PreviewsOSSupportUI24ShellToPreviewSceneAgentO13TwoWayMessageO
++ _symbolic _____ 19PreviewsOSSupportUI24ShellToPreviewSceneAgentO13TwoWayMessageO12Discriminant33_87A9CF739BF9E24109A215F598E25387LLO
++ _symbolic _____ 19PreviewsOSSupportUI24ShellToPreviewSceneAgentO13TwoWayMessageO3Key33_87A9CF739BF9E24109A215F598E25387LLO
++ _symbolic _____ 19PreviewsOSSupportUI24ShellToPreviewSceneAgentO18XPCEndpointContextO
++ _symbolic _____ 19PreviewsOSSupportUI24ShellToPreviewSceneAgentO18XPCEndpointContextO12Discriminant33_87A9CF739BF9E24109A215F598E25387LLO
++ _symbolic _____ 19PreviewsOSSupportUI24ShellToPreviewSceneAgentO18XPCEndpointContextO3Key33_87A9CF739BF9E24109A215F598E25387LLO
++ _symbolic _____ 19PreviewsOSSupportUI27SceneAgentConnectionContextV
++ _symbolic _____ 19PreviewsOSSupportUI27SceneAgentConnectionContextV3Key33_87A9CF739BF9E24109A215F598E25387LLO
++ _symbolic _____ 20PreviewsFoundationOS12PropertyListV
++ _symbolic _____ 20PreviewsFoundationOS13ExecutionLaneV
++ _symbolic _____ s5NeverO
++ _symbolic _____10identifier______15providerContextt 19PreviewsMessagingOS17ContentIdentifierV 0a10FoundationC012PropertyListV
++ _symbolic _____6update______12sceneContextt 19PreviewsOSSupportUI11AgentUpdateV AA05SceneE7ContextV
++ _symbolic _____6update_t 19PreviewsOSSupportUI11AgentUpdateV
++ _symbolic _____Sg 19PreviewsMessagingOS14HostUpdateSeedV
++ _symbolic _____Sg 19PreviewsMessagingOS17ContentIdentifierV
++ _symbolic _____Sg 19PreviewsMessagingOS18UpdateSetupPayloadV
++ _symbolic _____Sg 19PreviewsOSSupportUI11AgentUpdateV
++ _symbolic _____Sg 19PreviewsOSSupportUI11AgentUpdateV7ContextV
++ _symbolic _____Sg 19PreviewsOSSupportUI18SceneUpdateContextV
++ _symbolic _____Sg 20PreviewsFoundationOS12PropertyListV
++ _symbolic _____XMT 19PreviewsOSSupportUI20UVAgentSceneRegistryC
++ _symbolic ___________Sgt 19PreviewsOSSupportUI11AgentUpdateV7ContextV3Key33_87A9CF739BF9E24109A215F598E25387LLO 0A11MessagingOS04HostE4SeedV
++ _symbolic ___________t 19PreviewsOSSupportUI11AgentUpdateV3Key33_87A9CF739BF9E24109A215F598E25387LLO 0A12FoundationOS12PropertyListV
++ _symbolic ___________t 19PreviewsOSSupportUI11AgentUpdateV3Key33_87A9CF739BF9E24109A215F598E25387LLO AC7ContextV
++ _symbolic ___________t 19PreviewsOSSupportUI11AgentUpdateV7ContextV3Key33_87A9CF739BF9E24109A215F598E25387LLO 0A11MessagingOS0E12SetupPayloadV
++ _symbolic ___________t 19PreviewsOSSupportUI11AgentUpdateV7ContextV3Key33_87A9CF739BF9E24109A215F598E25387LLO 0A11MessagingOS17ContentIdentifierV
++ _symbolic ___________t 19PreviewsOSSupportUI18SceneUpdateContextV3Key33_87A9CF739BF9E24109A215F598E25387LLO 0a8ServicesC00dE4SeedV
++ _symbolic ___________t 19PreviewsOSSupportUI18SceneUpdateContextV3Key33_87A9CF739BF9E24109A215F598E25387LLO 0a8ServicesC00dE6TimingO
++ _symbolic _____ySSySo13UIWindowSceneCScMYccG s18_DictionaryStorageC
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 19PreviewsOSSupportUI11AgentUpdateV3Key33_87A9CF739BF9E24109A215F598E25387LLO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 19PreviewsOSSupportUI11AgentUpdateV7ContextV3Key33_87A9CF739BF9E24109A215F598E25387LLO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 19PreviewsOSSupportUI18SceneUpdateContextV3Key33_87A9CF739BF9E24109A215F598E25387LLO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 19PreviewsOSSupportUI27SceneAgentConnectionContextV3Key33_87A9CF739BF9E24109A215F598E25387LLO
++ _symbolic _____yqd__G 20PreviewsFoundationOS7PromiseC
++ _symbolic _____yytG 20PreviewsFoundationOS6FutureC
++ _symbolic ytIeghHr_
+- ___swift_memcpy104_8
+- ___swift_memcpy64_8
+- _associated conformance 18PreviewsServicesUI15SceneUpdateSeedV0A10Foundation25PropertyListRepresentable0a9OSSupportC001_hI4TypeAdEP_AD0hiL0
+- _associated conformance 18PreviewsServicesUI17SceneUpdateTimingO0A10Foundation25PropertyListRepresentable0a9OSSupportC001_hI4TypeAdEP_AD0hiL0
+- _associated conformance 18PreviewsServicesUI18PreviewPreferencesV0A10Foundation25PropertyListRepresentable0a9OSSupportC001_gH4TypeAdEP_AD0ghK0
+- _associated conformance 18PreviewsServicesUI22SuppressedPresentationO0A10Foundation25PropertyListRepresentable0a9OSSupportC001_gH4TypeAdEP_AD0ghK0
+- _associated conformance 19PreviewsOSSupportUI11AgentUpdateV0A10Foundation25PropertyListRepresentableAA01_gH4TypeAdEP_AD0ghJ0
+- _associated conformance 19PreviewsOSSupportUI11AgentUpdateV3Key33_72B95D6B303B00043857827316793611LLOSHAASQ
+- _associated conformance 19PreviewsOSSupportUI11AgentUpdateV7ContextV0A10Foundation25PropertyListRepresentableAA01_hI4TypeAfGP_AF0hiK0
+- _associated conformance 19PreviewsOSSupportUI11AgentUpdateV7ContextV3Key33_72B95D6B303B00043857827316793611LLOSHAASQ
+- _associated conformance 19PreviewsOSSupportUI14EntryPointTypeO0A10Foundation25PropertyListRepresentableAA01_hiF0AdEP_AD0hiF0
+- _associated conformance 19PreviewsOSSupportUI14EntryPointTypeO12Discriminant33_72B95D6B303B00043857827316793611LLO0A10Foundation25PropertyListRepresentableAA01_mnF0AgHP_AG0mnF0
+- _associated conformance 19PreviewsOSSupportUI14EntryPointTypeO12Discriminant33_72B95D6B303B00043857827316793611LLOSHAASQ
+- _associated conformance 19PreviewsOSSupportUI14EntryPointTypeO3Key33_72B95D6B303B00043857827316793611LLOSHAASQ
+- _associated conformance 19PreviewsOSSupportUI16PreviewSceneRoleO0A10Foundation25PropertyListRepresentableAA01_hI4TypeAdEP_AD0hiK0
+- _associated conformance 19PreviewsOSSupportUI18SceneUpdateContextV0A10Foundation25PropertyListRepresentableAA01_hI4TypeAdEP_AD0hiK0
+- _associated conformance 19PreviewsOSSupportUI18SceneUpdateContextV3Key33_72B95D6B303B00043857827316793611LLOSHAASQ
+- _objc_release_x27
+- _objc_retain_x10
+- _objc_retain_x23
+- _symbolic $s18PreviewsFoundation25PropertyListRepresentableP
+- _symbolic SDySSySo13UIWindowSceneCcG
+- _symbolic So13UIWindowSceneCSg
+- _symbolic _____ 17PreviewsMessaging17ContentIdentifierV
+- _symbolic _____ 17PreviewsMessaging18UpdateSetupPayloadV
+- _symbolic _____ 18PreviewsFoundation12PropertyListV
+- _symbolic _____ 18PreviewsFoundation13ExecutionLaneV
+- _symbolic _____ 19PreviewsOSSupportUI11AgentUpdateV3Key33_72B95D6B303B00043857827316793611LLO
+- _symbolic _____ 19PreviewsOSSupportUI11AgentUpdateV7ContextV3Key33_72B95D6B303B00043857827316793611LLO
+- _symbolic _____ 19PreviewsOSSupportUI14EntryPointTypeO12Discriminant33_72B95D6B303B00043857827316793611LLO
+- _symbolic _____ 19PreviewsOSSupportUI14EntryPointTypeO3Key33_72B95D6B303B00043857827316793611LLO
+- _symbolic _____ 19PreviewsOSSupportUI18SceneUpdateContextV3Key33_72B95D6B303B00043857827316793611LLO
+- _symbolic _____ 19PreviewsOSSupportUI20UVAgentSceneRegistryC7Storage33_9DC148809609631C5E92B466F0CFBB95LLV
+- _symbolic _____Sg 17PreviewsMessaging14HostUpdateSeedV
+- _symbolic ___________t 19PreviewsOSSupportUI18SceneUpdateContextV3Key33_72B95D6B303B00043857827316793611LLO 0a8ServicesC00dE4SeedV
+- _symbolic ___________t 19PreviewsOSSupportUI18SceneUpdateContextV3Key33_72B95D6B303B00043857827316793611LLO 0a8ServicesC00dE6TimingO
+- _symbolic _____ySSySo13UIWindowSceneCcG s18_DictionaryStorageC
+- _symbolic _____y_____G 18PreviewsFoundation10ThreadSafeC 0A11OSSupportUI20UVAgentSceneRegistryC7Storage33_9DC148809609631C5E92B466F0CFBB95LLV
+- _symbolic _____yqd__G 18PreviewsFoundation7PromiseC
+- _symbolic _____yytG 18PreviewsFoundation6FutureC
+- _symbolic ySo13UIWindowSceneCcSg
+CStrings:
++ "Insufficient space allocated to copy string contents"
++ "Swift/ContiguousArrayBuffer.swift"
++ "Swift/StringTesting.swift"
++ "Swift/StringUTF8View.swift"
++ "Swift/UnsafeBufferPointer.swift"
++ "Swift/UnsafePointer.swift"
++ "Swift/UnsafeRawPointer.swift"
++ "T@\"NSString\",?,R,C"
++ "Unexpectedly found nil while unwrapping an Optional value"
++ "UnsafeMutableBufferPointer with negative count"
++ "UnsafeMutablePointer.initialize overlapping range"
++ "UnsafeMutablePointer.moveInitialize with negative count"
++ "UnsafeMutableRawPointer.initializeMemory overlapping range"
++ "deliverToEntryPoint"
++ "generateStaticOutput"
++ "invalid Collection: less than 'count' elements in collection"
++ "performUpdate"
++ "providerContext"
++ "registryExecution"
++ "registryPreflight"
++ "sceneContext"
++ "sceneHandlers"
++ "sceneIdentifier"
++ "scenes"
++ "update"
+- "/Library/Caches/com.apple.xbs/Sources/UITestingAgent/OS/PreviewsOSSupportUI/Sources/PreviewsOSSupportUI/Board Agent Services/UVAgentSceneRegistry.swift"
+- "deliverScene(_:forIdentifier:)"
+- "requestScene(for:handler:)"
+
+```

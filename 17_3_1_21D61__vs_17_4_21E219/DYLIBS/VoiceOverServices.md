@@ -1,0 +1,585 @@
+## VoiceOverServices
+
+> `/System/Library/PrivateFrameworks/VoiceOverServices.framework/VoiceOverServices`
+
+```diff
+
+-3093.2.4.4.11
+-  __TEXT.__text: 0x3308c
++3093.23.0.0.0
++  __TEXT.__text: 0x330cc
+   __TEXT.__auth_stubs: 0x9b0
+-  __TEXT.__objc_methlist: 0x2cd8
++  __TEXT.__objc_methlist: 0x2ce0
+   __TEXT.__cstring: 0x731f
+   __TEXT.__const: 0x38
+   __TEXT.__gcc_except_tab: 0x12c
+   __TEXT.__oslogstring: 0x887
+   __TEXT.__dlopen_cstrs: 0xf0
+-  __TEXT.__unwind_info: 0x840
++  __TEXT.__unwind_info: 0x844
+   __TEXT.__objc_classname: 0x350
+-  __TEXT.__objc_methname: 0x6cca
++  __TEXT.__objc_methname: 0x6cfa
+   __TEXT.__objc_methtype: 0xcc6
+-  __TEXT.__objc_stubs: 0x7100
++  __TEXT.__objc_stubs: 0x7120
+   __DATA_CONST.__got: 0xa0
+   __DATA_CONST.__const: 0x738
+   __DATA_CONST.__objc_classlist: 0xe0
+   __DATA_CONST.__objc_protolist: 0x68
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_const: 0x3ec8
+-  __DATA_CONST.__objc_selrefs: 0x1fc0
++  __DATA_CONST.__objc_selrefs: 0x1fc8
++  __DATA_CONST.__objc_classrefs: 0x208
++  __DATA_CONST.__objc_superrefs: 0xb0
+   __DATA_CONST.__objc_arraydata: 0xc8
+   __AUTH_CONST.__cfstring: 0x84a0
+   __AUTH_CONST.__objc_const: 0x0
+-  __AUTH_CONST.__const: 0x20e0
++  __AUTH_CONST.__const: 0x2520
+   __AUTH_CONST.__objc_intobj: 0x120
+   __AUTH_CONST.__objc_arrayobj: 0xc0
+   __AUTH_CONST.__auth_got: 0x4e8
+-  __DATA.__objc_classrefs: 0x208
+-  __DATA.__objc_superrefs: 0xb0
+   __DATA.__objc_ivar: 0x168
+   __DATA.__data: 0xe60
+-  __DATA.__bss: 0x838
+-  __DATA_DIRTY.__const: 0x1020
++  __DATA.__bss: 0x828
++  __DATA_DIRTY.__const: 0xbe0
+   __DATA_DIRTY.__objc_const: 0xd38
+   __DATA_DIRTY.__objc_data: 0x8c0
+   __DATA_DIRTY.__data: 0x60
+-  __DATA_DIRTY.__bss: 0xf58
++  __DATA_DIRTY.__bss: 0xf68
+   - /System/Library/Frameworks/CoreBluetooth.framework/CoreBluetooth
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+
+   - /usr/lib/libAccessibility.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  Functions: 1424
+-  Symbols:   5875
+-  CStrings:  2551
++  Functions: 1425
++  Symbols:   5878
++  CStrings:  2553
+ 
+Symbols:
++ -[VOSSettingsHelper itemIsSupportedForPlatform:]
++ GCC_except_table16
++ GCC_except_table28
++ ___block_literal_global.1000
++ ___block_literal_global.1005
++ ___block_literal_global.1010
++ ___block_literal_global.1015
++ ___block_literal_global.1020
++ ___block_literal_global.1025
++ ___block_literal_global.1030
++ ___block_literal_global.1035
++ ___block_literal_global.1040
++ ___block_literal_global.1045
++ ___block_literal_global.1050
++ ___block_literal_global.1055
++ ___block_literal_global.1060
++ ___block_literal_global.1065
++ ___block_literal_global.1070
++ ___block_literal_global.1075
++ ___block_literal_global.1080
++ ___block_literal_global.1085
++ ___block_literal_global.1090
++ ___block_literal_global.1095
++ ___block_literal_global.1100
++ ___block_literal_global.1105
++ ___block_literal_global.1110
++ ___block_literal_global.1115
++ ___block_literal_global.1120
++ ___block_literal_global.1125
++ ___block_literal_global.1130
++ ___block_literal_global.1135
++ ___block_literal_global.1140
++ ___block_literal_global.1145
++ ___block_literal_global.1150
++ ___block_literal_global.1155
++ ___block_literal_global.1160
++ ___block_literal_global.1165
++ ___block_literal_global.1170
++ ___block_literal_global.1175
++ ___block_literal_global.1180
++ ___block_literal_global.1185
++ ___block_literal_global.1190
++ ___block_literal_global.1195
++ ___block_literal_global.244
++ ___block_literal_global.247
++ ___block_literal_global.249
++ ___block_literal_global.252
++ ___block_literal_global.254
++ ___block_literal_global.257
++ ___block_literal_global.259
++ ___block_literal_global.262
++ ___block_literal_global.264
++ ___block_literal_global.267
++ ___block_literal_global.269
++ ___block_literal_global.272
++ ___block_literal_global.274
++ ___block_literal_global.277
++ ___block_literal_global.279
++ ___block_literal_global.284
++ ___block_literal_global.287
++ ___block_literal_global.289
++ ___block_literal_global.292
++ ___block_literal_global.294
++ ___block_literal_global.297
++ ___block_literal_global.299
++ ___block_literal_global.302
++ ___block_literal_global.304
++ ___block_literal_global.307
++ ___block_literal_global.309
++ ___block_literal_global.312
++ ___block_literal_global.314
++ ___block_literal_global.317
++ ___block_literal_global.319
++ ___block_literal_global.322
++ ___block_literal_global.324
++ ___block_literal_global.327
++ ___block_literal_global.329
++ ___block_literal_global.332
++ ___block_literal_global.334
++ ___block_literal_global.337
++ ___block_literal_global.339
++ ___block_literal_global.342
++ ___block_literal_global.344
++ ___block_literal_global.347
++ ___block_literal_global.349
++ ___block_literal_global.352
++ ___block_literal_global.354
++ ___block_literal_global.357
++ ___block_literal_global.359
++ ___block_literal_global.362
++ ___block_literal_global.364
++ ___block_literal_global.367
++ ___block_literal_global.369
++ ___block_literal_global.372
++ ___block_literal_global.374
++ ___block_literal_global.377
++ ___block_literal_global.379
++ ___block_literal_global.385
++ ___block_literal_global.387
++ ___block_literal_global.389
++ ___block_literal_global.390
++ ___block_literal_global.392
++ ___block_literal_global.394
++ ___block_literal_global.395
++ ___block_literal_global.397
++ ___block_literal_global.399
++ ___block_literal_global.402
++ ___block_literal_global.404
++ ___block_literal_global.405
++ ___block_literal_global.407
++ ___block_literal_global.410
++ ___block_literal_global.412
++ ___block_literal_global.415
++ ___block_literal_global.417
++ ___block_literal_global.420
++ ___block_literal_global.422
++ ___block_literal_global.425
++ ___block_literal_global.427
++ ___block_literal_global.430
++ ___block_literal_global.432
++ ___block_literal_global.435
++ ___block_literal_global.440
++ ___block_literal_global.442
++ ___block_literal_global.445
++ ___block_literal_global.447
++ ___block_literal_global.450
++ ___block_literal_global.452
++ ___block_literal_global.455
++ ___block_literal_global.457
++ ___block_literal_global.460
++ ___block_literal_global.462
++ ___block_literal_global.465
++ ___block_literal_global.467
++ ___block_literal_global.470
++ ___block_literal_global.472
++ ___block_literal_global.475
++ ___block_literal_global.477
++ ___block_literal_global.480
++ ___block_literal_global.482
++ ___block_literal_global.490
++ ___block_literal_global.497
++ ___block_literal_global.503
++ ___block_literal_global.509
++ ___block_literal_global.510
++ ___block_literal_global.513
++ ___block_literal_global.515
++ ___block_literal_global.517
++ ___block_literal_global.518
++ ___block_literal_global.519
++ ___block_literal_global.520
++ ___block_literal_global.524
++ ___block_literal_global.525
++ ___block_literal_global.529
++ ___block_literal_global.530
++ ___block_literal_global.535
++ ___block_literal_global.540
++ ___block_literal_global.545
++ ___block_literal_global.550
++ ___block_literal_global.555
++ ___block_literal_global.560
++ ___block_literal_global.565
++ ___block_literal_global.570
++ ___block_literal_global.575
++ ___block_literal_global.580
++ ___block_literal_global.585
++ ___block_literal_global.590
++ ___block_literal_global.595
++ ___block_literal_global.600
++ ___block_literal_global.605
++ ___block_literal_global.610
++ ___block_literal_global.615
++ ___block_literal_global.620
++ ___block_literal_global.625
++ ___block_literal_global.630
++ ___block_literal_global.635
++ ___block_literal_global.640
++ ___block_literal_global.645
++ ___block_literal_global.650
++ ___block_literal_global.655
++ ___block_literal_global.660
++ ___block_literal_global.665
++ ___block_literal_global.670
++ ___block_literal_global.675
++ ___block_literal_global.680
++ ___block_literal_global.685
++ ___block_literal_global.690
++ ___block_literal_global.695
++ ___block_literal_global.700
++ ___block_literal_global.705
++ ___block_literal_global.710
++ ___block_literal_global.715
++ ___block_literal_global.720
++ ___block_literal_global.725
++ ___block_literal_global.730
++ ___block_literal_global.735
++ ___block_literal_global.740
++ ___block_literal_global.745
++ ___block_literal_global.750
++ ___block_literal_global.755
++ ___block_literal_global.760
++ ___block_literal_global.765
++ ___block_literal_global.770
++ ___block_literal_global.775
++ ___block_literal_global.780
++ ___block_literal_global.785
++ ___block_literal_global.790
++ ___block_literal_global.795
++ ___block_literal_global.800
++ ___block_literal_global.805
++ ___block_literal_global.810
++ ___block_literal_global.815
++ ___block_literal_global.820
++ ___block_literal_global.825
++ ___block_literal_global.830
++ ___block_literal_global.835
++ ___block_literal_global.840
++ ___block_literal_global.845
++ ___block_literal_global.850
++ ___block_literal_global.855
++ ___block_literal_global.860
++ ___block_literal_global.865
++ ___block_literal_global.870
++ ___block_literal_global.875
++ ___block_literal_global.880
++ ___block_literal_global.885
++ ___block_literal_global.890
++ ___block_literal_global.895
++ ___block_literal_global.900
++ ___block_literal_global.905
++ ___block_literal_global.910
++ ___block_literal_global.915
++ ___block_literal_global.920
++ ___block_literal_global.925
++ ___block_literal_global.930
++ ___block_literal_global.935
++ ___block_literal_global.940
++ ___block_literal_global.945
++ ___block_literal_global.950
++ ___block_literal_global.955
++ ___block_literal_global.960
++ ___block_literal_global.965
++ ___block_literal_global.970
++ ___block_literal_global.975
++ ___block_literal_global.980
++ ___block_literal_global.985
++ ___block_literal_global.990
++ ___block_literal_global.995
++ __unnamed_array_storage.370
++ __unnamed_array_storage.377
++ __unnamed_array_storage.380
++ __unnamed_array_storage.383
++ __unnamed_array_storage.386
++ __unnamed_array_storage.389
++ __unnamed_array_storage.393
++ _objc_msgSend$itemIsSupportedForPlatform:
+- GCC_except_table15
+- GCC_except_table27
+- ___block_literal_global.1001
+- ___block_literal_global.1006
+- ___block_literal_global.1011
+- ___block_literal_global.1016
+- ___block_literal_global.1021
+- ___block_literal_global.1026
+- ___block_literal_global.1031
+- ___block_literal_global.1036
+- ___block_literal_global.1041
+- ___block_literal_global.1046
+- ___block_literal_global.1051
+- ___block_literal_global.1056
+- ___block_literal_global.1061
+- ___block_literal_global.1066
+- ___block_literal_global.1071
+- ___block_literal_global.1076
+- ___block_literal_global.1081
+- ___block_literal_global.1086
+- ___block_literal_global.1091
+- ___block_literal_global.1096
+- ___block_literal_global.1101
+- ___block_literal_global.1106
+- ___block_literal_global.1111
+- ___block_literal_global.1116
+- ___block_literal_global.1121
+- ___block_literal_global.1126
+- ___block_literal_global.1131
+- ___block_literal_global.1136
+- ___block_literal_global.1141
+- ___block_literal_global.1146
+- ___block_literal_global.1151
+- ___block_literal_global.1156
+- ___block_literal_global.1161
+- ___block_literal_global.1166
+- ___block_literal_global.1171
+- ___block_literal_global.216
+- ___block_literal_global.220
+- ___block_literal_global.221
+- ___block_literal_global.223
+- ___block_literal_global.225
+- ___block_literal_global.226
+- ___block_literal_global.228
+- ___block_literal_global.230
+- ___block_literal_global.231
+- ___block_literal_global.233
+- ___block_literal_global.234
+- ___block_literal_global.235
+- ___block_literal_global.236
+- ___block_literal_global.238
+- ___block_literal_global.239
+- ___block_literal_global.241
+- ___block_literal_global.243
+- ___block_literal_global.246
+- ___block_literal_global.248
+- ___block_literal_global.251
+- ___block_literal_global.253
+- ___block_literal_global.256
+- ___block_literal_global.261
+- ___block_literal_global.266
+- ___block_literal_global.268
+- ___block_literal_global.271
+- ___block_literal_global.273
+- ___block_literal_global.276
+- ___block_literal_global.278
+- ___block_literal_global.281
+- ___block_literal_global.283
+- ___block_literal_global.286
+- ___block_literal_global.288
+- ___block_literal_global.291
+- ___block_literal_global.293
+- ___block_literal_global.296
+- ___block_literal_global.298
+- ___block_literal_global.301
+- ___block_literal_global.303
+- ___block_literal_global.308
+- ___block_literal_global.311
+- ___block_literal_global.313
+- ___block_literal_global.316
+- ___block_literal_global.318
+- ___block_literal_global.321
+- ___block_literal_global.323
+- ___block_literal_global.326
+- ___block_literal_global.328
+- ___block_literal_global.331
+- ___block_literal_global.333
+- ___block_literal_global.336
+- ___block_literal_global.338
+- ___block_literal_global.341
+- ___block_literal_global.343
+- ___block_literal_global.346
+- ___block_literal_global.348
+- ___block_literal_global.351
+- ___block_literal_global.353
+- ___block_literal_global.356
+- ___block_literal_global.358
+- ___block_literal_global.361
+- ___block_literal_global.363
+- ___block_literal_global.366
+- ___block_literal_global.368
+- ___block_literal_global.371
+- ___block_literal_global.373
+- ___block_literal_global.376
+- ___block_literal_global.378
+- ___block_literal_global.381
+- ___block_literal_global.383
+- ___block_literal_global.386
+- ___block_literal_global.388
+- ___block_literal_global.391
+- ___block_literal_global.393
+- ___block_literal_global.396
+- ___block_literal_global.398
+- ___block_literal_global.401
+- ___block_literal_global.403
+- ___block_literal_global.411
+- ___block_literal_global.413
+- ___block_literal_global.416
+- ___block_literal_global.418
+- ___block_literal_global.421
+- ___block_literal_global.423
+- ___block_literal_global.426
+- ___block_literal_global.428
+- ___block_literal_global.431
+- ___block_literal_global.433
+- ___block_literal_global.436
+- ___block_literal_global.438
+- ___block_literal_global.439
+- ___block_literal_global.441
+- ___block_literal_global.443
+- ___block_literal_global.446
+- ___block_literal_global.451
+- ___block_literal_global.453
+- ___block_literal_global.456
+- ___block_literal_global.458
+- ___block_literal_global.466
+- ___block_literal_global.468
+- ___block_literal_global.471
+- ___block_literal_global.473
+- ___block_literal_global.476
+- ___block_literal_global.478
+- ___block_literal_global.479
+- ___block_literal_global.481
+- ___block_literal_global.486
+- ___block_literal_global.489
+- ___block_literal_global.491
+- ___block_literal_global.493
+- ___block_literal_global.494
+- ___block_literal_global.496
+- ___block_literal_global.501
+- ___block_literal_global.506
+- ___block_literal_global.507
+- ___block_literal_global.521
+- ___block_literal_global.536
+- ___block_literal_global.541
+- ___block_literal_global.546
+- ___block_literal_global.551
+- ___block_literal_global.556
+- ___block_literal_global.561
+- ___block_literal_global.566
+- ___block_literal_global.571
+- ___block_literal_global.576
+- ___block_literal_global.581
+- ___block_literal_global.586
+- ___block_literal_global.591
+- ___block_literal_global.596
+- ___block_literal_global.601
+- ___block_literal_global.606
+- ___block_literal_global.611
+- ___block_literal_global.616
+- ___block_literal_global.621
+- ___block_literal_global.626
+- ___block_literal_global.631
+- ___block_literal_global.636
+- ___block_literal_global.641
+- ___block_literal_global.646
+- ___block_literal_global.651
+- ___block_literal_global.656
+- ___block_literal_global.661
+- ___block_literal_global.666
+- ___block_literal_global.671
+- ___block_literal_global.676
+- ___block_literal_global.681
+- ___block_literal_global.686
+- ___block_literal_global.691
+- ___block_literal_global.696
+- ___block_literal_global.701
+- ___block_literal_global.706
+- ___block_literal_global.711
+- ___block_literal_global.716
+- ___block_literal_global.721
+- ___block_literal_global.726
+- ___block_literal_global.731
+- ___block_literal_global.736
+- ___block_literal_global.741
+- ___block_literal_global.746
+- ___block_literal_global.751
+- ___block_literal_global.756
+- ___block_literal_global.761
+- ___block_literal_global.766
+- ___block_literal_global.771
+- ___block_literal_global.776
+- ___block_literal_global.781
+- ___block_literal_global.786
+- ___block_literal_global.791
+- ___block_literal_global.796
+- ___block_literal_global.801
+- ___block_literal_global.806
+- ___block_literal_global.811
+- ___block_literal_global.816
+- ___block_literal_global.821
+- ___block_literal_global.826
+- ___block_literal_global.831
+- ___block_literal_global.836
+- ___block_literal_global.841
+- ___block_literal_global.846
+- ___block_literal_global.851
+- ___block_literal_global.856
+- ___block_literal_global.861
+- ___block_literal_global.866
+- ___block_literal_global.871
+- ___block_literal_global.876
+- ___block_literal_global.881
+- ___block_literal_global.886
+- ___block_literal_global.891
+- ___block_literal_global.896
+- ___block_literal_global.901
+- ___block_literal_global.906
+- ___block_literal_global.911
+- ___block_literal_global.916
+- ___block_literal_global.921
+- ___block_literal_global.926
+- ___block_literal_global.931
+- ___block_literal_global.936
+- ___block_literal_global.941
+- ___block_literal_global.946
+- ___block_literal_global.951
+- ___block_literal_global.956
+- ___block_literal_global.961
+- ___block_literal_global.966
+- ___block_literal_global.971
+- ___block_literal_global.976
+- ___block_literal_global.981
+- ___block_literal_global.986
+- ___block_literal_global.991
+- ___block_literal_global.996
+- __unnamed_array_storage.346
+- __unnamed_array_storage.353
+- __unnamed_array_storage.356
+- __unnamed_array_storage.359
+- __unnamed_array_storage.362
+- __unnamed_array_storage.365
+- __unnamed_array_storage.369
+CStrings:
++ "T@\"NSString\",?,R,C"
++ "itemIsSupportedForPlatform:"
+
+```

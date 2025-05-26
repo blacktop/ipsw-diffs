@@ -1,0 +1,802 @@
+## QuartzCore
+
+> `/System/Library/Frameworks/QuartzCore.framework/QuartzCore`
+
+```diff
+
+-1049.38.3.6.0
+-  __TEXT.__text: 0x3163dc
++1109.2.0.0.0
++  __TEXT.__text: 0x319014
+   __TEXT.__auth_stubs: 0x4e40
+   __TEXT.__objc_methlist: 0x8ef4
+-  __TEXT.__const: 0x17c00
+-  __TEXT.__gcc_except_tab: 0x5f80
+-  __TEXT.__cstring: 0x28148
+-  __TEXT.__oslogstring: 0xd2c2
++  __TEXT.__const: 0x17c60
++  __TEXT.__gcc_except_tab: 0x5fbc
++  __TEXT.__cstring: 0x28245
++  __TEXT.__oslogstring: 0xd41b
+   __TEXT.__dlopen_cstrs: 0x145
+-  __TEXT.__unwind_info: 0x7a78
++  __TEXT.__unwind_info: 0x7aa8
+   __TEXT.__eh_frame: 0xb0
+   __TEXT.__objc_classname: 0xc1d
+   __TEXT.__objc_methname: 0xe400
+   __TEXT.__objc_methtype: 0x3545
+   __TEXT.__objc_stubs: 0xb800
+   __DATA_CONST.__got: 0x768
+-  __DATA_CONST.__const: 0xd8e8
++  __DATA_CONST.__const: 0xd920
+   __DATA_CONST.__objc_classlist: 0x3a0
+   __DATA_CONST.__objc_catlist: 0x60
+   __DATA_CONST.__objc_protolist: 0xc8
+
+   __DATA_CONST.__objc_const: 0x9320
+   __DATA_CONST.__objc_selrefs: 0x4af8
+   __DATA_CONST.__objc_arraydata: 0x36c0
+-  __AUTH_CONST.__const: 0x12c10
++  __AUTH_CONST.__const: 0x12bf8
+   __AUTH_CONST.__cfstring: 0x143a0
+   __AUTH_CONST.__objc_const: 0x3750
+   __AUTH_CONST.__objc_doubleobj: 0xc0
+
+   __DATA.__objc_superrefs: 0x3f0
+   __DATA.__objc_ivar: 0x4a4
+   __DATA.__objc_const_ax: 0x0
+-  __DATA.__data: 0x36d8
++  __DATA.__data: 0x3710
+   __DATA.__crash_info: 0x40
+   __DATA.__common: 0x6
+-  __DATA.__bss: 0x14d0
++  __DATA.__bss: 0x14f0
+   __DATA_DIRTY.__objc_data: 0x1388
+   __DATA_DIRTY.__data: 0x580
+-  __DATA_DIRTY.__bss: 0x2b88
++  __DATA_DIRTY.__bss: 0x2bc8
+   - /System/Library/Frameworks/Accelerate.framework/Accelerate
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+
+   - /usr/lib/libcompression.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libxml2.2.dylib
+-  Functions: 10968
+-  Symbols:   28487
+-  CStrings:  10977
++  Functions: 10978
++  Symbols:   28512
++  CStrings:  10982
+ 
+Symbols:
++ GCC_except_table10095
++ GCC_except_table10120
++ GCC_except_table10133
++ GCC_except_table10134
++ GCC_except_table10165
++ GCC_except_table10197
++ GCC_except_table10203
++ GCC_except_table10209
++ GCC_except_table10317
++ GCC_except_table10318
++ GCC_except_table10354
++ GCC_except_table10359
++ GCC_except_table10372
++ GCC_except_table10525
++ GCC_except_table10529
++ GCC_except_table10538
++ GCC_except_table1055
++ GCC_except_table10581
++ GCC_except_table10691
++ GCC_except_table10692
++ GCC_except_table10695
++ GCC_except_table1096
++ GCC_except_table1098
++ GCC_except_table1105
++ GCC_except_table1110
++ GCC_except_table1128
++ GCC_except_table1134
++ GCC_except_table1140
++ GCC_except_table1142
++ GCC_except_table1269
++ GCC_except_table1426
++ GCC_except_table1435
++ GCC_except_table1441
++ GCC_except_table1696
++ GCC_except_table1870
++ GCC_except_table1999
++ GCC_except_table2000
++ GCC_except_table2007
++ GCC_except_table2042
++ GCC_except_table2043
++ GCC_except_table2046
++ GCC_except_table2047
++ GCC_except_table2051
++ GCC_except_table2052
++ GCC_except_table2069
++ GCC_except_table2080
++ GCC_except_table2100
++ GCC_except_table2101
++ GCC_except_table2106
++ GCC_except_table2119
++ GCC_except_table2120
++ GCC_except_table2133
++ GCC_except_table2139
++ GCC_except_table2158
++ GCC_except_table2159
++ GCC_except_table2164
++ GCC_except_table2176
++ GCC_except_table2177
++ GCC_except_table2191
++ GCC_except_table2210
++ GCC_except_table2211
++ GCC_except_table2216
++ GCC_except_table2228
++ GCC_except_table2231
++ GCC_except_table2282
++ GCC_except_table2331
++ GCC_except_table2340
++ GCC_except_table2343
++ GCC_except_table2354
++ GCC_except_table2357
++ GCC_except_table2377
++ GCC_except_table2380
++ GCC_except_table2394
++ GCC_except_table2397
++ GCC_except_table2425
++ GCC_except_table2804
++ GCC_except_table2809
++ GCC_except_table3287
++ GCC_except_table3290
++ GCC_except_table3363
++ GCC_except_table3377
++ GCC_except_table3816
++ GCC_except_table3822
++ GCC_except_table3826
++ GCC_except_table3828
++ GCC_except_table3835
++ GCC_except_table3849
++ GCC_except_table3851
++ GCC_except_table3854
++ GCC_except_table6662
++ GCC_except_table8849
++ GCC_except_table8995
++ GCC_except_table8998
++ GCC_except_table8999
++ GCC_except_table9002
++ GCC_except_table9049
++ GCC_except_table9265
++ GCC_except_table9266
++ GCC_except_table9267
++ GCC_except_table9270
++ GCC_except_table9363
++ GCC_except_table9368
++ GCC_except_table9497
++ GCC_except_table9499
++ GCC_except_table9502
++ GCC_except_table9523
++ GCC_except_table9861
++ _IOMobileFramebufferGetBandwidth
++ __Z21scaler_has_capabilityPK10__CFString
++ __ZGVZL23CATailspinGlitchHistoryvE1a
++ __ZL10write_attrjPKv12_CAValueTypePv.18704
++ __ZL11block_ctors.15181
++ __ZL11initialized.16493
++ __ZL12collect_slot.10061
++ __ZL14release_samplejyPv.10062
++ __ZL15copy_dictionaryjPKv12_CAValueTypePv.18726
++ __ZL15lowLatency_atom.10276
++ __ZL21will_suspend_callbackPN2CA6Render6ObjectEPvS3_.6495
++ __ZL24layer_collectable_signalP13_CAImageQueuePv.10088
++ __ZL28presentsWithTransaction_atom.10149
++ __ZL5blackv.18556
++ __ZL8set_attrPKvS0_Pv.18718
++ __ZL9copy_attrjPKv12_CAValueTypePv.18728
++ __ZN12_GLOBAL__N_126check_capture_entitlementsEP13audit_token_tRiRbS3_S3_j
++ __ZN2CA12WindowServer11IOMFBServer27forward_frame_info_callbackEjPK14__CFDictionaryRKNS0_12IOMFBDisplay9FrameInfoE
++ __ZN2CA12WindowServer12IOMFBDisplay22set_detach_return_codeEPNS0_7SurfaceENS_23DisplayDetachReasonCodeE
++ __ZN2CA12WindowServer12IOMFBDisplay30minimum_frame_duration_changedEv
++ __ZN2CA12WindowServer12IOMFBDisplay31exceeds_disp_bandwidth_limits_pEPNS0_7SurfaceEjPKNS_4RectES6_
++ __ZN2CA12WindowServer12IOMFBDisplay31update_display_bandwidth_limitsEv
++ __ZN2CA12WindowServer12IOMFBDisplay33set_aot_power_saving_mode_enabledEb
++ __ZN2CA12WindowServer12IOMFBDisplay40clone_exceeds_display_bandwidth_limits_pEPNS0_7DisplayEPNS0_7SurfaceEjPKNS_4RectES8_
++ __ZN2CA12WindowServer12IOMFBDisplay41detach_exceeds_display_bandwidth_limits_pEPNS0_7SurfaceEjPKNS_4RectES6_
++ __ZN2CA12WindowServer7Display40clone_exceeds_display_bandwidth_limits_pEPS1_PNS0_7SurfaceEjPKNS_4RectES7_
++ __ZN2CA12WindowServerL10null_timerEP16__CFRunLoopTimerPv.15910
++ __ZN2CA3OGL11PathStroker9emit_cubeEPNS_4Vec2IfEEfm
++ __ZN2CA3OGLL14ycbcr_matricesE.8937
++ __ZN2CA6Render23format_opacity_at_valueEjPKhRf
++ __ZN2CA6Render6Update18added_all_contextsEb
++ __ZN2CA6Render7Surface10opacity_atEii
++ __ZN2CA6RenderL18release_deallocateEPKvPv.11521
++ __ZN2CA6RenderL18release_image_dataEPKvPv.21273
++ __ZNK2CA11ColorMatrix11is_diagonalEv
++ __ZNK2CA11ColorMatrix17is_color_multiplyEv
++ __ZNK2CA12WindowServer12IOMFBDisplay16compute_layer_bwEPKNS0_7SurfaceERKNS_4RectES7_
++ __ZNK2CA20HDRProcessorInternal27supports_scaling_transformsEPNS_6Render7SurfaceE
++ __ZNKSt3__116__deque_iteratorINS_4pairIyyEEPS2_RS2_PS3_lLl256EEplB7v160006El
++ __ZNSt3__111__move_loopINS_17_ClassicAlgPolicyEEclB7v160006IPNS_4pairIyyEENS_16__deque_iteratorIS5_S6_RS5_PS6_lLl256EEELi0EEENS4_IT_T0_EESB_SB_SC_
++ __ZNSt3__119__allocate_at_leastB7v160006INS_9allocatorIPNS_4pairIyyEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS8_m
++ __ZNSt3__120__move_backward_loopINS_17_ClassicAlgPolicyEEclB7v160006IPNS_4pairIyyEENS_16__deque_iteratorIS5_S6_RS5_PS6_lLl256EEELi0EEENS4_IT_T0_EESB_SB_SC_
++ __ZNSt3__1L19piecewise_constructE.18939
++ __ZNSt3__1L19piecewise_constructE.2357
++ __ZNSt3__1L19piecewise_constructE.5368
++ __ZNSt3__1L19piecewise_constructE.6914
++ __ZNSt3__1L19piecewise_constructE.7943
++ __ZZ25CADeviceSupportsFilmGrainE14has_capability
++ __ZZ25CADeviceSupportsFilmGrainE4once
++ __ZZ32CADeviceSupportsFilmGrainScalingE27supports_film_grain_scaling
++ __ZZ32CADeviceSupportsFilmGrainScalingE4once
++ __ZZL16defines_propertyjE5atoms.15819
++ __ZZL16defines_propertyjE5atoms.21445
++ __ZZL23CATailspinGlitchHistoryvE1a
++ __ZZNK2CA6Render6Filter26is_color_scale_commutativeEvE5atoms
++ ___Block_byref_object_copy_.12124
++ ___Block_byref_object_copy_.14352
++ ___Block_byref_object_copy_.18917
++ ___Block_byref_object_copy_.7371
++ ___Block_byref_object_dispose_.12125
++ ___Block_byref_object_dispose_.14353
++ ___Block_byref_object_dispose_.18918
++ ___Block_byref_object_dispose_.7372
++ ___CADeviceSupportsFilmGrainScaling_block_invoke
++ ___CADeviceSupportsFilmGrain_block_invoke
++ ___block_descriptor_tmp.1.15689
++ ___block_descriptor_tmp.1.18276
++ ___block_descriptor_tmp.102.15921
++ ___block_descriptor_tmp.1029
++ ___block_descriptor_tmp.10516
++ ___block_descriptor_tmp.108.13487
++ ___block_descriptor_tmp.11001
++ ___block_descriptor_tmp.11174
++ ___block_descriptor_tmp.12.18922
++ ___block_descriptor_tmp.12495
++ ___block_descriptor_tmp.12571
++ ___block_descriptor_tmp.127
++ ___block_descriptor_tmp.12820
++ ___block_descriptor_tmp.13.16710
++ ___block_descriptor_tmp.13440
++ ___block_descriptor_tmp.141.15440
++ ___block_descriptor_tmp.14520
++ ___block_descriptor_tmp.15417
++ ___block_descriptor_tmp.15688
++ ___block_descriptor_tmp.15971
++ ___block_descriptor_tmp.1634
++ ___block_descriptor_tmp.16578
++ ___block_descriptor_tmp.16685
++ ___block_descriptor_tmp.16742
++ ___block_descriptor_tmp.16819
++ ___block_descriptor_tmp.17075
++ ___block_descriptor_tmp.17718
++ ___block_descriptor_tmp.18275
++ ___block_descriptor_tmp.186
++ ___block_descriptor_tmp.187
++ ___block_descriptor_tmp.189.15283
++ ___block_descriptor_tmp.18920
++ ___block_descriptor_tmp.18988
++ ___block_descriptor_tmp.19.20856
++ ___block_descriptor_tmp.192
++ ___block_descriptor_tmp.2.4581
++ ___block_descriptor_tmp.205
++ ___block_descriptor_tmp.20852
++ ___block_descriptor_tmp.21788
++ ___block_descriptor_tmp.220
++ ___block_descriptor_tmp.232
++ ___block_descriptor_tmp.242
++ ___block_descriptor_tmp.248
++ ___block_descriptor_tmp.2598
++ ___block_descriptor_tmp.260
++ ___block_descriptor_tmp.263
++ ___block_descriptor_tmp.273
++ ___block_descriptor_tmp.28.20898
++ ___block_descriptor_tmp.290
++ ___block_descriptor_tmp.3.15974
++ ___block_descriptor_tmp.305
++ ___block_descriptor_tmp.3089
++ ___block_descriptor_tmp.3292
++ ___block_descriptor_tmp.3352
++ ___block_descriptor_tmp.35
++ ___block_descriptor_tmp.3843
++ ___block_descriptor_tmp.39.18339
++ ___block_descriptor_tmp.4.16745
++ ___block_descriptor_tmp.407
++ ___block_descriptor_tmp.416
++ ___block_descriptor_tmp.424
++ ___block_descriptor_tmp.430
++ ___block_descriptor_tmp.44.11219
++ ___block_descriptor_tmp.44.12701
++ ___block_descriptor_tmp.4464
++ ___block_descriptor_tmp.4584
++ ___block_descriptor_tmp.477
++ ___block_descriptor_tmp.4870
++ ___block_descriptor_tmp.5.16696
++ ___block_descriptor_tmp.50.12546
++ ___block_descriptor_tmp.5316
++ ___block_descriptor_tmp.55.11107
++ ___block_descriptor_tmp.5582
++ ___block_descriptor_tmp.57
++ ___block_descriptor_tmp.5939
++ ___block_descriptor_tmp.6098
++ ___block_descriptor_tmp.6911
++ ___block_descriptor_tmp.7096
++ ___block_descriptor_tmp.71.15459
++ ___block_descriptor_tmp.78.11261
++ ___block_descriptor_tmp.7909
++ ___block_descriptor_tmp.8.15420
++ ___block_descriptor_tmp.8.16700
++ ___block_descriptor_tmp.8080
++ ___block_descriptor_tmp.8389
++ ___block_descriptor_tmp.86
++ ___block_descriptor_tmp.8631
++ ___block_descriptor_tmp.88
++ ___block_descriptor_tmp.888
++ ___block_descriptor_tmp.9.1631
++ ___block_descriptor_tmp.9.16707
++ ___block_descriptor_tmp.93.15981
++ ___block_descriptor_tmp.95
++ ___block_descriptor_tmp.95.20282
++ ___block_descriptor_tmp.9522
++ ___block_descriptor_tmp.99
++ ___block_literal_global.10083
++ ___block_literal_global.1027
++ ___block_literal_global.11.1629
++ ___block_literal_global.11085
++ ___block_literal_global.11172
++ ___block_literal_global.12201
++ ___block_literal_global.12493
++ ___block_literal_global.12569
++ ___block_literal_global.134.21596
++ ___block_literal_global.13436
++ ___block_literal_global.14
++ ___block_literal_global.14275
++ ___block_literal_global.143.21518
++ ___block_literal_global.14549
++ ___block_literal_global.15539
++ ___block_literal_global.15969
++ ___block_literal_global.1628
++ ___block_literal_global.16576
++ ___block_literal_global.16663
++ ___block_literal_global.16683
++ ___block_literal_global.16740
++ ___block_literal_global.16817
++ ___block_literal_global.16920
++ ___block_literal_global.17067
++ ___block_literal_global.17290
++ ___block_literal_global.18144
++ ___block_literal_global.182
++ ___block_literal_global.18337
++ ___block_literal_global.188
++ ___block_literal_global.18919
++ ___block_literal_global.18980
++ ___block_literal_global.191.15264
++ ___block_literal_global.194
++ ___block_literal_global.20406
++ ___block_literal_global.207
++ ___block_literal_global.20835
++ ___block_literal_global.20848
++ ___block_literal_global.21.20854
++ ___block_literal_global.21618
++ ___block_literal_global.21724
++ ___block_literal_global.222
++ ___block_literal_global.234
++ ___block_literal_global.244
++ ___block_literal_global.250
++ ___block_literal_global.256.11388
++ ___block_literal_global.2576
++ ___block_literal_global.262
++ ___block_literal_global.265
++ ___block_literal_global.275
++ ___block_literal_global.2910
++ ___block_literal_global.292
++ ___block_literal_global.30
++ ___block_literal_global.307
++ ___block_literal_global.3087
++ ___block_literal_global.3288
++ ___block_literal_global.341
++ ___block_literal_global.37.11209
++ ___block_literal_global.3826
++ ___block_literal_global.409
++ ___block_literal_global.418
++ ___block_literal_global.426
++ ___block_literal_global.428
++ ___block_literal_global.4462
++ ___block_literal_global.4580
++ ___block_literal_global.46.12697
++ ___block_literal_global.4841
++ ___block_literal_global.4868
++ ___block_literal_global.52.11227
++ ___block_literal_global.52.12541
++ ___block_literal_global.5314
++ ___block_literal_global.5580
++ ___block_literal_global.57.11091
++ ___block_literal_global.59
++ ___block_literal_global.5937
++ ___block_literal_global.6114
++ ___block_literal_global.6909
++ ___block_literal_global.7093
++ ___block_literal_global.73
++ ___block_literal_global.76.11248
++ ___block_literal_global.761
++ ___block_literal_global.7724
++ ___block_literal_global.7906
++ ___block_literal_global.80.11259
++ ___block_literal_global.8076
++ ___block_literal_global.8387
++ ___block_literal_global.8629
++ ___block_literal_global.9520
++ ___block_literal_global.9569
++ ___block_literal_global.97
++ __unnamed_array_storage.14280
++ __unnamed_array_storage.14359
++ __unnamed_array_storage.14619
++ _x_list_copy
+- GCC_except_table10085
+- GCC_except_table10110
+- GCC_except_table10123
+- GCC_except_table10124
+- GCC_except_table10155
+- GCC_except_table10183
+- GCC_except_table10187
+- GCC_except_table10199
+- GCC_except_table10307
+- GCC_except_table10308
+- GCC_except_table10344
+- GCC_except_table10349
+- GCC_except_table10362
+- GCC_except_table10509
+- GCC_except_table10515
+- GCC_except_table10528
+- GCC_except_table1056
+- GCC_except_table10571
+- GCC_except_table10681
+- GCC_except_table10682
+- GCC_except_table10685
+- GCC_except_table1097
+- GCC_except_table1099
+- GCC_except_table1106
+- GCC_except_table1111
+- GCC_except_table1129
+- GCC_except_table1136
+- GCC_except_table1141
+- GCC_except_table1144
+- GCC_except_table1270
+- GCC_except_table1427
+- GCC_except_table1436
+- GCC_except_table1442
+- GCC_except_table1698
+- GCC_except_table1872
+- GCC_except_table2002
+- GCC_except_table2005
+- GCC_except_table2009
+- GCC_except_table2044
+- GCC_except_table2045
+- GCC_except_table2049
+- GCC_except_table2050
+- GCC_except_table2055
+- GCC_except_table2058
+- GCC_except_table2071
+- GCC_except_table2082
+- GCC_except_table2102
+- GCC_except_table2103
+- GCC_except_table2108
+- GCC_except_table2122
+- GCC_except_table2125
+- GCC_except_table2135
+- GCC_except_table2141
+- GCC_except_table2160
+- GCC_except_table2161
+- GCC_except_table2166
+- GCC_except_table2179
+- GCC_except_table2182
+- GCC_except_table2193
+- GCC_except_table2212
+- GCC_except_table2213
+- GCC_except_table2218
+- GCC_except_table2230
+- GCC_except_table2233
+- GCC_except_table2284
+- GCC_except_table2333
+- GCC_except_table2342
+- GCC_except_table2345
+- GCC_except_table2356
+- GCC_except_table2359
+- GCC_except_table2379
+- GCC_except_table2382
+- GCC_except_table2396
+- GCC_except_table2403
+- GCC_except_table2427
+- GCC_except_table2806
+- GCC_except_table2811
+- GCC_except_table3289
+- GCC_except_table3291
+- GCC_except_table3362
+- GCC_except_table3375
+- GCC_except_table3814
+- GCC_except_table3819
+- GCC_except_table3825
+- GCC_except_table3827
+- GCC_except_table3834
+- GCC_except_table3848
+- GCC_except_table3850
+- GCC_except_table3853
+- GCC_except_table6664
+- GCC_except_table8993
+- GCC_except_table8996
+- GCC_except_table8997
+- GCC_except_table9000
+- GCC_except_table9047
+- GCC_except_table9259
+- GCC_except_table9260
+- GCC_except_table9261
+- GCC_except_table9264
+- GCC_except_table9357
+- GCC_except_table9362
+- GCC_except_table9491
+- GCC_except_table9493
+- GCC_except_table9496
+- GCC_except_table9517
+- GCC_except_table9855
+- __ZL10write_attrjPKv12_CAValueTypePv.18698
+- __ZL11block_ctors.15175
+- __ZL11initialized.16492
+- __ZL12collect_slot.10086
+- __ZL14release_samplejyPv.10087
+- __ZL15copy_dictionaryjPKv12_CAValueTypePv.18720
+- __ZL15lowLatency_atom.10301
+- __ZL21will_suspend_callbackPN2CA6Render6ObjectEPvS3_.6518
+- __ZL24layer_collectable_signalP13_CAImageQueuePv.10114
+- __ZL28presentsWithTransaction_atom.10176
+- __ZL5blackv.18550
+- __ZL8set_attrPKvS0_Pv.18712
+- __ZL9copy_attrjPKv12_CAValueTypePv.18722
+- __ZN12_GLOBAL__N_126check_capture_entitlementsEP13audit_token_tRiRbS3_j
+- __ZN2CA12WindowServer12IOMFBDisplay18_detach_blocked_idE
+- __ZN2CA12WindowServer12IOMFBDisplay20_detach_requested_idE
+- __ZN2CA12WindowServer12IOMFBDisplay23_detach_blocked_timeoutE
+- __ZN2CA12WindowServerL10null_timerEP16__CFRunLoopTimerPv.15913
+- __ZN2CA3OGL11PathStroker9emit_cubeEPNS_4Vec2IfEEm
+- __ZN2CA3OGLL14ycbcr_matricesE.8963
+- __ZN2CA6Render18fourcc_is_3_packedEj
+- __ZN2CA6Render18fourcc_is_5_packedEj
+- __ZN2CA6Render6Update18added_all_contextsEv
+- __ZN2CA6RenderL18release_deallocateEPKvPv.11529
+- __ZN2CA6RenderL18release_image_dataEPKvPv.21218
+- __ZN2CA7Context16set_display_maskEj
+- __ZNK2CA12WindowServer12IOMFBDisplay19estimate_memory_useEv
+- __ZNK2CA12WindowServer12IOMFBDisplay33speculative_undetached_memory_useEv
+- __ZNK2CA12WindowServer12IOMFBDisplay37validate_local_detached_configurationEv
+- __ZNK2CA12WindowServer12IOMFBDisplay38validate_global_detached_configurationEv
+- __ZNK2CA12WindowServer7Display19estimate_memory_useEv
+- __ZNK2CA12WindowServer7Display33speculative_undetached_memory_useEv
+- __ZNK2CA20HDRProcessorInternal27supports_scaling_transformsEPNS_6Render7SurfaceEPKNS1_17DisplayAttributesE
+- __ZNK2CA2CG15DrawColorMatrix17draw_color_matrixERNS0_8RendererEPNS_3OGL7SurfaceE
+- __ZNK2CA2CG16DrawGaussianBlur18draw_gaussian_blurERNS0_8RendererEPNS_3OGL7SurfaceE
+- __ZNSt3__1L19piecewise_constructE.18931
+- __ZNSt3__1L19piecewise_constructE.2384
+- __ZNSt3__1L19piecewise_constructE.5389
+- __ZNSt3__1L19piecewise_constructE.6937
+- __ZNSt3__1L19piecewise_constructE.7969
+- __ZZ30CADeviceNeedsRTBandwidthChecksE15bandwidth_check
+- __ZZ30CADeviceNeedsRTBandwidthChecksE4once
+- __ZZL16defines_propertyjE5atoms.15820
+- __ZZL16defines_propertyjE5atoms.21390
+- ___Block_byref_object_copy_.12132
+- ___Block_byref_object_copy_.14343
+- ___Block_byref_object_copy_.18909
+- ___Block_byref_object_copy_.7389
+- ___Block_byref_object_dispose_.12133
+- ___Block_byref_object_dispose_.14344
+- ___Block_byref_object_dispose_.18910
+- ___Block_byref_object_dispose_.7390
+- ___CADeviceNeedsRTBandwidthChecks_block_invoke
+- ___block_descriptor_tmp.1.15690
+- ___block_descriptor_tmp.1.18270
+- ___block_descriptor_tmp.102.15904
+- ___block_descriptor_tmp.103
+- ___block_descriptor_tmp.1051
+- ___block_descriptor_tmp.10541
+- ___block_descriptor_tmp.108.13481
+- ___block_descriptor_tmp.11026
+- ___block_descriptor_tmp.11195
+- ___block_descriptor_tmp.12.18914
+- ___block_descriptor_tmp.124
+- ___block_descriptor_tmp.12492
+- ___block_descriptor_tmp.12567
+- ___block_descriptor_tmp.12814
+- ___block_descriptor_tmp.13.16707
+- ___block_descriptor_tmp.13434
+- ___block_descriptor_tmp.141.15441
+- ___block_descriptor_tmp.14511
+- ___block_descriptor_tmp.15418
+- ___block_descriptor_tmp.15689
+- ___block_descriptor_tmp.15973
+- ___block_descriptor_tmp.16575
+- ___block_descriptor_tmp.16682
+- ___block_descriptor_tmp.16739
+- ___block_descriptor_tmp.1676
+- ___block_descriptor_tmp.16816
+- ___block_descriptor_tmp.17069
+- ___block_descriptor_tmp.17712
+- ___block_descriptor_tmp.18269
+- ___block_descriptor_tmp.183
+- ___block_descriptor_tmp.189.15277
+- ___block_descriptor_tmp.18912
+- ___block_descriptor_tmp.18980
+- ___block_descriptor_tmp.196
+- ___block_descriptor_tmp.2.4609
+- ___block_descriptor_tmp.20801
+- ___block_descriptor_tmp.211
+- ___block_descriptor_tmp.21733
+- ___block_descriptor_tmp.223
+- ___block_descriptor_tmp.230
+- ___block_descriptor_tmp.233
+- ___block_descriptor_tmp.24
+- ___block_descriptor_tmp.245
+- ___block_descriptor_tmp.251
+- ___block_descriptor_tmp.2625
+- ___block_descriptor_tmp.264
+- ___block_descriptor_tmp.267
+- ___block_descriptor_tmp.281
+- ___block_descriptor_tmp.296
+- ___block_descriptor_tmp.3.15976
+- ___block_descriptor_tmp.31.11231
+- ___block_descriptor_tmp.3115
+- ___block_descriptor_tmp.3318
+- ___block_descriptor_tmp.3378
+- ___block_descriptor_tmp.3870
+- ___block_descriptor_tmp.39.18333
+- ___block_descriptor_tmp.4.16742
+- ___block_descriptor_tmp.40
+- ___block_descriptor_tmp.404
+- ___block_descriptor_tmp.406
+- ___block_descriptor_tmp.418
+- ___block_descriptor_tmp.423
+- ___block_descriptor_tmp.44.12695
+- ___block_descriptor_tmp.4492
+- ___block_descriptor_tmp.46
+- ___block_descriptor_tmp.4612
+- ___block_descriptor_tmp.476
+- ___block_descriptor_tmp.4895
+- ___block_descriptor_tmp.5.16693
+- ___block_descriptor_tmp.53.11255
+- ___block_descriptor_tmp.5337
+- ___block_descriptor_tmp.55.11132
+- ___block_descriptor_tmp.5605
+- ___block_descriptor_tmp.5962
+- ___block_descriptor_tmp.6121
+- ___block_descriptor_tmp.63.15405
+- ___block_descriptor_tmp.6934
+- ___block_descriptor_tmp.70.15460
+- ___block_descriptor_tmp.7119
+- ___block_descriptor_tmp.7935
+- ___block_descriptor_tmp.8.11205
+- ___block_descriptor_tmp.8.15421
+- ___block_descriptor_tmp.8.16697
+- ___block_descriptor_tmp.8106
+- ___block_descriptor_tmp.8415
+- ___block_descriptor_tmp.8657
+- ___block_descriptor_tmp.87.15900
+- ___block_descriptor_tmp.89
+- ___block_descriptor_tmp.9.16704
+- ___block_descriptor_tmp.9.1673
+- ___block_descriptor_tmp.910
+- ___block_descriptor_tmp.92
+- ___block_descriptor_tmp.94
+- ___block_descriptor_tmp.9548
+- ___block_descriptor_tmp.96.16076
+- ___block_literal_global.10
+- ___block_literal_global.10109
+- ___block_literal_global.1049
+- ___block_literal_global.11.1671
+- ___block_literal_global.11110
+- ___block_literal_global.11193
+- ___block_literal_global.12210
+- ___block_literal_global.12490
+- ___block_literal_global.12565
+- ___block_literal_global.13
+- ___block_literal_global.134.21541
+- ___block_literal_global.13430
+- ___block_literal_global.14266
+- ___block_literal_global.143.21463
+- ___block_literal_global.14540
+- ___block_literal_global.15540
+- ___block_literal_global.15971
+- ___block_literal_global.16573
+- ___block_literal_global.16660
+- ___block_literal_global.16680
+- ___block_literal_global.1670
+- ___block_literal_global.16737
+- ___block_literal_global.16814
+- ___block_literal_global.16914
+- ___block_literal_global.17061
+- ___block_literal_global.17284
+- ___block_literal_global.178
+- ___block_literal_global.18138
+- ___block_literal_global.18331
+- ___block_literal_global.18911
+- ___block_literal_global.18972
+- ___block_literal_global.191.15258
+- ___block_literal_global.198
+- ___block_literal_global.20344
+- ___block_literal_global.20784
+- ___block_literal_global.20797
+- ___block_literal_global.213
+- ___block_literal_global.21563
+- ___block_literal_global.21669
+- ___block_literal_global.225
+- ___block_literal_global.232
+- ___block_literal_global.235
+- ___block_literal_global.245
+- ___block_literal_global.247
+- ___block_literal_global.253
+- ___block_literal_global.26
+- ___block_literal_global.2603
+- ___block_literal_global.266
+- ___block_literal_global.269
+- ___block_literal_global.283
+- ___block_literal_global.2936
+- ___block_literal_global.298
+- ___block_literal_global.3113
+- ___block_literal_global.326
+- ___block_literal_global.33
+- ___block_literal_global.3314
+- ___block_literal_global.3853
+- ___block_literal_global.406
+- ___block_literal_global.408
+- ___block_literal_global.416
+- ___block_literal_global.42
+- ___block_literal_global.425
+- ___block_literal_global.4490
+- ___block_literal_global.4608
+- ___block_literal_global.48
+- ___block_literal_global.4866
+- ___block_literal_global.4893
+- ___block_literal_global.52.12538
+- ___block_literal_global.5335
+- ___block_literal_global.55
+- ___block_literal_global.5603
+- ___block_literal_global.57.11116
+- ___block_literal_global.5960
+- ___block_literal_global.6137
+- ___block_literal_global.65
+- ___block_literal_global.6932
+- ___block_literal_global.7116
+- ___block_literal_global.72
+- ___block_literal_global.76.11276
+- ___block_literal_global.7749
+- ___block_literal_global.783
+- ___block_literal_global.7932
+- ___block_literal_global.8102
+- ___block_literal_global.8413
+- ___block_literal_global.8655
+- ___block_literal_global.9546
+- ___block_literal_global.9595
+- ___block_literal_global.98.16073
+- __unnamed_array_storage.14271
+- __unnamed_array_storage.14350
+- __unnamed_array_storage.14612
+- _objc_retain_x24
+CStrings:
++ "21B75"
++ "CA_DISABLE_BANDWIDTH_CHECK"
++ "CoreAnimation: too many subdivisions in cubic curve (%a, %a) (%a, %a) (%a, %a) (%a, %a). Stack will most likely overflow. bail out."
++ "Diagnostics (tailspin) allowed for %zu glitches with %d ms glitch time."
++ "Display %d BW limits gpBW:%llu gpliteBW:%llu gpSumBW:%llu"
++ "Display %d gpBandwidth Exceeded. Detach disabled. Req BW:%llu gpBW limit:%llu"
++ "IOSurfaceAcceleratorCapabilitiesFilmGrain"
++ "Setting frame rate throttle=%i due to thermal=%i, low_power_mode=%i, ax=%i, debug=%i"
++ "exceeds display bandwidth limit"
++ "gpSumBandwidth Exceeded. Detach disabled UI-BW:%llu, Detach-BW:%llu gplite-BW:%llu"
++ "pos < (size ()) && \"Out of bounds access\""
+- "21A327"
+- "CA_ENABLE_BANDWIDTH_CHECK"
+- "CA_GLOBAL_BANDWIDTH_CHECK_INTENSITY"
+- "CA_PIPE_BANDWIDTH_CHECK_INTENSITY"
+- "CoreAnimation: MSR updating an IOSurface currently on the glass"
+- "CoreAnimation: too many subdivisions in cubic curve (%a, %a) (%a, %a) (%a, %a) (%a, %a). Stack will most likely overflow. Aborting."
+- "Setting frame rate throttle=%i due to thermal=%i, low_power_mode=%i, ax=%i"
+- "Total"
+- "set_throttled %i called"
+
+```

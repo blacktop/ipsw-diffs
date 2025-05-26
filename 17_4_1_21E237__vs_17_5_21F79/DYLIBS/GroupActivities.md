@@ -1,0 +1,425 @@
+## GroupActivities
+
+> `/System/Library/Frameworks/GroupActivities.framework/GroupActivities`
+
+```diff
+
+-118.500.151.2.4
+-  __TEXT.__text: 0x199f68
++118.600.31.0.0
++  __TEXT.__text: 0x198fac
+   __TEXT.__auth_stubs: 0x36d0
+   __TEXT.__objc_methlist: 0x2bc
+-  __TEXT.__const: 0x7abc
+-  __TEXT.__cstring: 0xaa42
++  __TEXT.__const: 0x7a0c
++  __TEXT.__cstring: 0xaab2
+   __TEXT.__oslogstring: 0x24a
+-  __TEXT.__swift5_typeref: 0x4a4b
+-  __TEXT.__swift5_capture: 0x1cac
+-  __TEXT.__swift5_fieldmd: 0x2e68
+-  __TEXT.__constg_swiftt: 0x3e58
+-  __TEXT.__swift5_reflstr: 0x2b16
++  __TEXT.__swift5_typeref: 0x4a3b
++  __TEXT.__swift5_capture: 0x1cbc
++  __TEXT.__swift5_fieldmd: 0x2e5c
++  __TEXT.__constg_swiftt: 0x3e40
++  __TEXT.__swift5_reflstr: 0x2b06
+   __TEXT.__swift5_builtin: 0x168
+   __TEXT.__swift5_assocty: 0x6f0
+   __TEXT.__swift5_protos: 0x84
+   __TEXT.__swift5_proto: 0x5b4
+   __TEXT.__swift5_types: 0x340
+   __TEXT.__swift5_mpenum: 0x44
+-  __TEXT.__unwind_info: 0x68e4
+-  __TEXT.__eh_frame: 0xb58c
++  __TEXT.__unwind_info: 0x68ac
++  __TEXT.__eh_frame: 0xb55c
+   __TEXT.__objc_classname: 0x10f
+   __TEXT.__objc_methname: 0x15bc
+   __TEXT.__objc_methtype: 0x305
+   __TEXT.__objc_stubs: 0x140
+-  __DATA_CONST.__got: 0x910
+-  __DATA_CONST.__const: 0xf08
++  __DATA_CONST.__got: 0x900
++  __DATA_CONST.__const: 0xec0
+   __DATA_CONST.__objc_classlist: 0x158
+   __DATA_CONST.__objc_catlist: 0x18
+   __DATA_CONST.__objc_protolist: 0xd0
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_const: 0x4288
++  __DATA_CONST.__objc_const: 0x4268
+   __DATA_CONST.__objc_selrefs: 0x630
+   __DATA_CONST.__objc_protorefs: 0x70
+   __DATA_CONST.__objc_classrefs: 0x168
+   __DATA_CONST.__objc_catlist2: 0x10
+   __AUTH_CONST.__cfstring: 0x80
+   __AUTH_CONST.__objc_const: 0x0
+-  __AUTH_CONST.__const: 0x6610
++  __AUTH_CONST.__const: 0x6580
+   __AUTH_CONST.__auth_ptr: 0x1f0
+   __AUTH_CONST.__auth_got: 0x1b70
+   __AUTH.__objc_data: 0x0
+   __DATA.__objc_data: 0x58
+-  __DATA.__data: 0x36f0
++  __DATA.__data: 0x36d0
+   __DATA.__objc_stublist: 0x10
+-  __DATA.__bss: 0x9510
++  __DATA.__bss: 0x9400
+   __DATA.__common: 0x4c0
+-  __DATA_DIRTY.__const: 0x45e0
++  __DATA_DIRTY.__const: 0x4630
+   __DATA_DIRTY.__objc_const: 0x260
+-  __DATA_DIRTY.__objc_data: 0xfc0
+-  __DATA_DIRTY.__data: 0x4338
+-  __DATA_DIRTY.__bss: 0x1030
++  __DATA_DIRTY.__objc_data: 0xfb0
++  __DATA_DIRTY.__data: 0x4320
++  __DATA_DIRTY.__bss: 0x1130
+   __DATA_DIRTY.__common: 0x168
+   - /System/Library/Frameworks/AVFAudio.framework/AVFAudio
+   - /System/Library/Frameworks/AVFoundation.framework/AVFoundation
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 9166
+-  Symbols:   21783
+-  CStrings:  1249
++  Functions: 9135
++  Symbols:   21750
++  CStrings:  1250
+ 
+Symbols:
++ _$s14CopresenceCore14CurrentSubjectVySay15GroupActivities11LinkManagerC10AttachmentVGGMD
++ _$s14CopresenceCore14CurrentSubjectVySay15GroupActivities11LinkManagerC10AttachmentVGGML
++ _$s15GroupActivities0A12SessionTableC7Storage33_64E0A582F9EAD21E39070881D97E5C2ALLVSgWOhTm
++ _$s15GroupActivities0A12SessionTableC7Storage33_64E0A582F9EAD21E39070881D97E5C2ALLVWOcTm
++ _$s15GroupActivities0A7SessionC18activeParticipantsShyAA11ParticipantVGvgTm
++ _$s15GroupActivities0A7SessionC18activeParticipantsShyAA11ParticipantVGvsTm
++ _$s15GroupActivities0A7SessionC18logAttachmentEvent6report0gF0y14CopresenceCore0E10DataReportC_SStFyyYbcfU_yAG08ActivityC7XPCHost_pXEfU_TA.457
++ _$s15GroupActivities0A7SessionC19$activeParticipants7Combine9PublishedV9PublisherVyShyAA11ParticipantVG_GvpAA0A8ActivityRzlACyxGTkTm
++ _$s15GroupActivities0A7SessionC20attachmentsPublisher7Combine03AnyE0VySay10Foundation4UUIDVGs5NeverOGvgAKSayAA11LinkManagerC10AttachmentVGcfU_
++ _$s15GroupActivities0A7SessionC20requestEncryptionKey3forySays6UInt64VGSg_tFyyXEfU_AA03AnyA8ActivityV_Tg5TA.402
++ _$s15GroupActivities0A7SessionC20requestEncryptionKey3forySays6UInt64VGSg_tFyyXEfU_yyXEfU_yyXEfU_y14CopresenceCore08ActivityC7XPCHost_pXEfU_TA.480
++ _$s15GroupActivities0A7SessionC2id9groupUUID15initiatorHandle8activity14remoteEndpoint10queueLabel16locallyInitiated018lightweightPrimaryO016localParticipant11isFirstJoin12publishQueue17distributionCount25unreliableMessengerConfig05sceneC10Identifier12topicManager05audioC16AssertionManager10timestampsACyxG10Foundation0F0V_AXSSxSo013NSXPCListenerK0CSSS2bAA0S0VSbSo012OS_dispatch_L0CSgSiSo39TUConversationUnreliableMessengerConfigCSSSgAA12TopicManagerCAA05AudioC16AssertionManager_pAC10TimestampsVyx_GtcfcShyA0_GSDys6UInt64V14CopresenceCore11PubSubTopicCA_VGcfU10_A0_SgA19_XEfU_SbA0_XEfU_TA.481
++ _$s15GroupActivities0A7SessionC2id9groupUUID15initiatorHandle8activity14remoteEndpoint10queueLabel16locallyInitiated018lightweightPrimaryO016localParticipant11isFirstJoin12publishQueue17distributionCount25unreliableMessengerConfig05sceneC10Identifier12topicManager05audioC16AssertionManager10timestampsACyxG10Foundation0F0V_AXSSxSo013NSXPCListenerK0CSSS2bAA0S0VSbSo012OS_dispatch_L0CSgSiSo39TUConversationUnreliableMessengerConfigCSSSgAA12TopicManagerCAA05AudioC16AssertionManager_pAC10TimestampsVyx_GtcfcxSgSo22TUConversationActivityCcfU4_AA03AnyA8ActivityVyKXEfu0_TA.482
++ _$s15GroupActivities11LinkManagerC12$attachments7Combine19CurrentValueSubjectCySayAC10AttachmentVGs5NeverOGvg
++ _$s15GroupActivities11LinkManagerC12$attachments7Combine19CurrentValueSubjectCySayAC10AttachmentVGs5NeverOGvgTj
++ _$s15GroupActivities11LinkManagerC12$attachments7Combine19CurrentValueSubjectCySayAC10AttachmentVGs5NeverOGvgTq
++ _$s15GroupActivities11LinkManagerC12$attachments7Combine19CurrentValueSubjectCySayAC10AttachmentVGs5NeverOGvpMV
++ _$s15GroupActivities11LinkManagerC12_attachments33_48733F7BC0874567A073322F4D1276FELL14CopresenceCore14CurrentSubjectVySayAC10AttachmentVGGvpWvd
++ _$s15GroupActivities11LinkManagerC21attachmentLedgerTopicAA010AttachmentfG0CSgvwySayAC0H0VGcfU0_
++ _$s15GroupActivities11LinkManagerC21attachmentLedgerTopicAA010AttachmentfG0CSgvwySayAC0H0VGcfU0_TA
++ _$s15GroupActivities11LinkManagerC22$attachmentLedgerTopic7Combine19CurrentValueSubjectCyAA010AttachmentfG0CSgs5NeverOGvgTm
++ _$s15GroupActivities11LinkManagerC23fetchAttachmentMetadata12attachmentID10Foundation4DataVAF4UUIDV_tYaKFAC0F0VyKXEfU_
++ _$s15GroupActivities11LinkManagerC4lock33_48733F7BC0874567A073322F4D1276FELLSo15NSRecursiveLockCvpWvd
++ _$s15GroupActivities21ReliableBroadcastLinkC13SenderContextV28PendingRetransmissionRequestVWOcTm
++ _$s7Combine10PublishersO3MapVy_AA19CurrentValueSubjectCySay15GroupActivities11LinkManagerC10AttachmentVGs5NeverOGSay10Foundation4UUIDVGGAEy_xq_GAA9PublisherAAWL
++ _$s7Combine10PublishersO3MapVy_AA19CurrentValueSubjectCySay15GroupActivities11LinkManagerC10AttachmentVGs5NeverOGSay10Foundation4UUIDVGGMD
++ _$s7Combine19CurrentValueSubjectCySay15GroupActivities11LinkManagerC10AttachmentVGs5NeverOGACyxq_GAA9PublisherAAWL
++ _$s7Combine19CurrentValueSubjectCySay15GroupActivities11LinkManagerC10AttachmentVGs5NeverOGACyxq_GAA9PublisherAAWlTm
++ _$s7Combine19CurrentValueSubjectCySay15GroupActivities11LinkManagerC10AttachmentVGs5NeverOGMD
++ _$s7Combine9PublishedVyShy15GroupActivities11ParticipantVGGMa
++ _$sIg_Ieg_TRTA.111
++ _$sIg_Ieg_TRTA.118
++ _$sIg_Ieg_TRTA.142
++ _$sIg_Ieg_TRTA.184
++ _$sIg_Ieg_TRTA.323
++ _$sIg_Ieg_TRTA.372
++ _$sIg_Ieg_TRTA.382
++ _$sIg_Ieg_TRTA.406
++ _$sIg_Ieg_TRTA.419
++ _$sIg_Ieg_TRTA.426
++ _$sIg_Ieg_TRTA.436
++ _$sIg_Ieg_TRTA.443
++ _$sIg_Ieg_TRTA.476
++ _$sIg_Ieg_TRTA.492
++ _$sIg_Ieg_TRTA.98
++ _$sSD8_VariantV11removeValue6forKeyq_Sgx_tF10Foundation4UUIDV_15GroupActivities21SystemCoordinatorHostCTg5
++ _$sSD8_VariantV11removeValue6forKeyq_Sgx_tF10Foundation4UUIDV_15GroupActivities30SystemCoordinatorConfigurationCTg5
++ _$sSp14moveInitialize4from5countySpyxG_SitF10Foundation4UUIDV_Tg5Tm
++ _$ss17_NativeDictionaryV4copyyyF10Foundation4UUIDV_15GroupActivities08PresenceF23SessionProviderObserverCTg5
++ _$ss17_NativeDictionaryV4copyyyF10Foundation4UUIDV_15GroupActivities0F23SessionProviderObserverCTg5
++ _$ss17_NativeDictionaryV4copyyyF10Foundation4UUIDV_15GroupActivities21SystemCoordinatorHostCTg5
++ _$ss17_NativeDictionaryV4copyyyF10Foundation4UUIDV_15GroupActivities30SystemCoordinatorConfigurationCTg5
++ _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF10Foundation4UUIDV_Tg5Tm
++ ___unnamed_57
++ _block_copy_helper.112
++ _block_copy_helper.122
++ _block_copy_helper.143
++ _block_copy_helper.150
++ _block_copy_helper.185
++ _block_copy_helper.324
++ _block_copy_helper.333
++ _block_copy_helper.342
++ _block_copy_helper.345
++ _block_copy_helper.373
++ _block_copy_helper.383
++ _block_copy_helper.386
++ _block_copy_helper.392
++ _block_copy_helper.396
++ _block_copy_helper.407
++ _block_copy_helper.413
++ _block_copy_helper.420
++ _block_copy_helper.437
++ _block_copy_helper.444
++ _block_copy_helper.454
++ _block_copy_helper.467
++ _block_copy_helper.477
++ _block_copy_helper.486
++ _block_copy_helper.493
++ _block_copy_helper.510
++ _block_copy_helper.519
++ _block_copy_helper.89
++ _block_copy_helper.92
++ _block_descriptor.114
++ _block_descriptor.124
++ _block_descriptor.145
++ _block_descriptor.152
++ _block_descriptor.187
++ _block_descriptor.326
++ _block_descriptor.335
++ _block_descriptor.344
++ _block_descriptor.347
++ _block_descriptor.375
++ _block_descriptor.385
++ _block_descriptor.388
++ _block_descriptor.394
++ _block_descriptor.398
++ _block_descriptor.409
++ _block_descriptor.415
++ _block_descriptor.422
++ _block_descriptor.439
++ _block_descriptor.446
++ _block_descriptor.456
++ _block_descriptor.469
++ _block_descriptor.479
++ _block_descriptor.488
++ _block_descriptor.495
++ _block_descriptor.512
++ _block_descriptor.521
++ _block_descriptor.91
++ _block_descriptor.94
++ _block_destroy_helper.113
++ _block_destroy_helper.123
++ _block_destroy_helper.144
++ _block_destroy_helper.151
++ _block_destroy_helper.186
++ _block_destroy_helper.325
++ _block_destroy_helper.334
++ _block_destroy_helper.343
++ _block_destroy_helper.346
++ _block_destroy_helper.374
++ _block_destroy_helper.384
++ _block_destroy_helper.387
++ _block_destroy_helper.393
++ _block_destroy_helper.397
++ _block_destroy_helper.408
++ _block_destroy_helper.414
++ _block_destroy_helper.421
++ _block_destroy_helper.438
++ _block_destroy_helper.445
++ _block_destroy_helper.455
++ _block_destroy_helper.468
++ _block_destroy_helper.478
++ _block_destroy_helper.487
++ _block_destroy_helper.494
++ _block_destroy_helper.511
++ _block_destroy_helper.520
++ _block_destroy_helper.90
++ _block_destroy_helper.93
++ _keypath_set.12Tm
++ _keypath_set.197Tm
++ _keypath_set.237Tm
++ _objectdestroy.103Tm
++ _objectdestroy.179Tm
++ _objectdestroy.411Tm
++ _objectdestroy.84Tm
++ _symbolic _____ySay_____GG 14CopresenceCore14CurrentSubjectV 15GroupActivities11LinkManagerC10AttachmentV
++ _symbolic _____ySay_____G_____G 7Combine19CurrentValueSubjectC 15GroupActivities11LinkManagerC10AttachmentV s5NeverO
++ _symbolic _____y______ySay_____G_____GSay_____GG 7Combine10PublishersO3MapV AA19CurrentValueSubjectC 15GroupActivities11LinkManagerC10AttachmentV s5NeverO 10Foundation4UUIDV
+- _$s15GroupActivities0A12SessionTableC7Storage33_64E0A582F9EAD21E39070881D97E5C2ALLVWObTm
+- _$s15GroupActivities0A7SessionC11attachmentsSay10Foundation4UUIDVGvM
+- _$s15GroupActivities0A7SessionC11attachmentsSay10Foundation4UUIDVGvM.resume.0
+- _$s15GroupActivities0A7SessionC11attachmentsSay10Foundation4UUIDVGvM.resume.0Tm
+- _$s15GroupActivities0A7SessionC11attachmentsSay10Foundation4UUIDVGvg
+- _$s15GroupActivities0A7SessionC11attachmentsSay10Foundation4UUIDVGvgTm
+- _$s15GroupActivities0A7SessionC11attachmentsSay10Foundation4UUIDVGvpMV
+- _$s15GroupActivities0A7SessionC11attachmentsSay10Foundation4UUIDVGvs
+- _$s15GroupActivities0A7SessionC11attachmentsSay10Foundation4UUIDVGvsTm
+- _$s15GroupActivities0A7SessionC12$attachments7Combine9PublishedV9PublisherVySay10Foundation4UUIDVG_GvM
+- _$s15GroupActivities0A7SessionC12$attachments7Combine9PublishedV9PublisherVySay10Foundation4UUIDVG_GvM.resume.0
+- _$s15GroupActivities0A7SessionC12$attachments7Combine9PublishedV9PublisherVySay10Foundation4UUIDVG_GvM.resume.0Tm
+- _$s15GroupActivities0A7SessionC12$attachments7Combine9PublishedV9PublisherVySay10Foundation4UUIDVG_Gvg
+- _$s15GroupActivities0A7SessionC12$attachments7Combine9PublishedV9PublisherVySay10Foundation4UUIDVG_GvpAA0A8ActivityRzlACyxGTkTm
+- _$s15GroupActivities0A7SessionC12$attachments7Combine9PublishedV9PublisherVySay10Foundation4UUIDVG_GvpMV
+- _$s15GroupActivities0A7SessionC12$attachments7Combine9PublishedV9PublisherVySay10Foundation4UUIDVG_Gvs
+- _$s15GroupActivities0A7SessionC12_attachments33_1B7EE277C0D43D9F53608187A34871A4LL7Combine9PublishedVySay10Foundation4UUIDVGGvpWvd
+- _$s15GroupActivities0A7SessionC18logAttachmentEvent6report0gF0y14CopresenceCore0E10DataReportC_SStFyyYbcfU_yAG08ActivityC7XPCHost_pXEfU_TA.471
+- _$s15GroupActivities0A7SessionC20requestEncryptionKey3forySays6UInt64VGSg_tFyyXEfU_AA03AnyA8ActivityV_Tg5TA.416
+- _$s15GroupActivities0A7SessionC20requestEncryptionKey3forySays6UInt64VGSg_tFyyXEfU_yyXEfU_yyXEfU_y14CopresenceCore08ActivityC7XPCHost_pXEfU_TA.494
+- _$s15GroupActivities0A7SessionC29handleNewAttachmentSubscriberyyFSay10Foundation4UUIDVGSayAA11LinkManagerC0F0VGcfU_
+- _$s15GroupActivities0A7SessionC2id9groupUUID15initiatorHandle8activity14remoteEndpoint10queueLabel16locallyInitiated018lightweightPrimaryO016localParticipant11isFirstJoin12publishQueue17distributionCount25unreliableMessengerConfig05sceneC10Identifier12topicManager05audioC16AssertionManager10timestampsACyxG10Foundation0F0V_AXSSxSo013NSXPCListenerK0CSSS2bAA0S0VSbSo012OS_dispatch_L0CSgSiSo39TUConversationUnreliableMessengerConfigCSSSgAA12TopicManagerCAA05AudioC16AssertionManager_pAC10TimestampsVyx_GtcfcShyA0_GSDys6UInt64V14CopresenceCore11PubSubTopicCA_VGcfU10_A0_SgA19_XEfU_SbA0_XEfU_TA.495
+- _$s15GroupActivities0A7SessionC2id9groupUUID15initiatorHandle8activity14remoteEndpoint10queueLabel16locallyInitiated018lightweightPrimaryO016localParticipant11isFirstJoin12publishQueue17distributionCount25unreliableMessengerConfig05sceneC10Identifier12topicManager05audioC16AssertionManager10timestampsACyxG10Foundation0F0V_AXSSxSo013NSXPCListenerK0CSSS2bAA0S0VSbSo012OS_dispatch_L0CSgSiSo39TUConversationUnreliableMessengerConfigCSSSgAA12TopicManagerCAA05AudioC16AssertionManager_pAC10TimestampsVyx_GtcfcxSgSo22TUConversationActivityCcfU4_AA03AnyA8ActivityVyKXEfu0_TA.496
+- _$s15GroupActivities0A7SessionCyxGAA012AnyTransportC0A2aEP11attachmentsSay10Foundation4UUIDVGvgTW
+- _$s15GroupActivities11LinkManagerC10AttachmentVWObTm
+- _$s15GroupActivities11LinkManagerC10AttachmentVWOcTm
+- _$s15GroupActivities11LinkManagerC11attachmentsSayAC10AttachmentVGvpACTK
+- _$s15GroupActivities11LinkManagerC11attachmentsSayAC10AttachmentVGvpACTk
+- _$s15GroupActivities11LinkManagerC12$attachments7Combine9PublishedV9PublisherVySayAC10AttachmentVG_GvM
+- _$s15GroupActivities11LinkManagerC12$attachments7Combine9PublishedV9PublisherVySayAC10AttachmentVG_GvM.resume.0
+- _$s15GroupActivities11LinkManagerC12$attachments7Combine9PublishedV9PublisherVySayAC10AttachmentVG_GvMTj
+- _$s15GroupActivities11LinkManagerC12$attachments7Combine9PublishedV9PublisherVySayAC10AttachmentVG_GvMTq
+- _$s15GroupActivities11LinkManagerC12$attachments7Combine9PublishedV9PublisherVySayAC10AttachmentVG_Gvg
+- _$s15GroupActivities11LinkManagerC12$attachments7Combine9PublishedV9PublisherVySayAC10AttachmentVG_GvgTj
+- _$s15GroupActivities11LinkManagerC12$attachments7Combine9PublishedV9PublisherVySayAC10AttachmentVG_GvgTq
+- _$s15GroupActivities11LinkManagerC12$attachments7Combine9PublishedV9PublisherVySayAC10AttachmentVG_GvpACTk
+- _$s15GroupActivities11LinkManagerC12$attachments7Combine9PublishedV9PublisherVySayAC10AttachmentVG_GvpMV
+- _$s15GroupActivities11LinkManagerC12$attachments7Combine9PublishedV9PublisherVySayAC10AttachmentVG_Gvs
+- _$s15GroupActivities11LinkManagerC12$attachments7Combine9PublishedV9PublisherVySayAC10AttachmentVG_GvsTj
+- _$s15GroupActivities11LinkManagerC12$attachments7Combine9PublishedV9PublisherVySayAC10AttachmentVG_GvsTq
+- _$s15GroupActivities11LinkManagerC12_attachments33_48733F7BC0874567A073322F4D1276FELL7Combine9PublishedVySayAC10AttachmentVGGvpWvd
+- _$s15GroupActivities11LinkManagerC16uploadAttachment2id4file17developerMetadatay10Foundation4UUIDV_AH3URLVAH4DataVSgtYaKFyyXEfU0_
+- _$s15GroupActivities11LinkManagerC16uploadAttachment2id4file17developerMetadatay10Foundation4UUIDV_AH3URLVAH4DataVSgtYaKFyyXEfU0_TA
+- _$s15GroupActivities11LinkManagerC16uploadAttachment2id4file17developerMetadatay10Foundation4UUIDV_AH3URLVAH4DataVSgtYaKFyyXEfU_
+- _$s15GroupActivities11LinkManagerC16uploadAttachment2id4file17developerMetadatay10Foundation4UUIDV_AH3URLVAH4DataVSgtYaKFyyXEfU_TA
+- _$s15GroupActivities11LinkManagerC4lock33_48733F7BC0874567A073322F4D1276FELL14CopresenceCore4LockCvpWvd
+- _$s15GroupActivities11LinkManagerC9isResumedSbvgSbyXEfU_TA
+- _$s15GroupActivities19AnyTransportSessionP11attachmentsSay10Foundation4UUIDVGvgTj
+- _$s15GroupActivities19AnyTransportSessionP11attachmentsSay10Foundation4UUIDVGvgTq
+- _$s15GroupActivities21ReliableBroadcastLinkC13SenderContextV28PendingRetransmissionRequestVSgWOhTm
+- _$s7Combine10PublishersO3MapVy_AA9PublishedV9PublisherVySay15GroupActivities11LinkManagerC10AttachmentVG_GSay10Foundation4UUIDVGGAEy_xq_GAahAWL
+- _$s7Combine10PublishersO3MapVy_AA9PublishedV9PublisherVySay15GroupActivities11LinkManagerC10AttachmentVG_GSay10Foundation4UUIDVGGMD
+- _$s7Combine9PublishedV9PublisherVySay10Foundation4UUIDVG_GAEyx_GAadAWL
+- _$s7Combine9PublishedV9PublisherVySay10Foundation4UUIDVG_GAEyx_GAadAWlTm
+- _$s7Combine9PublishedV9PublisherVySay10Foundation4UUIDVG_GMD
+- _$s7Combine9PublishedV9PublisherVySay15GroupActivities11LinkManagerC10AttachmentVG_GAEyx_GAadAWL
+- _$s7Combine9PublishedV9PublisherVySay15GroupActivities11LinkManagerC10AttachmentVG_GMD
+- _$s7Combine9PublishedVySay10Foundation4UUIDVGGMD
+- _$s7Combine9PublishedVySay10Foundation4UUIDVGGML
+- _$s7Combine9PublishedVySay10Foundation4UUIDVGGMaTm
+- _$s7Combine9PublishedVySay15GroupActivities11LinkManagerC10AttachmentVGGMD
+- _$s7Combine9PublishedVySay15GroupActivities11LinkManagerC10AttachmentVGGML
+- _$sIg_Ieg_TRTA.104
+- _$sIg_Ieg_TRTA.117
+- _$sIg_Ieg_TRTA.124
+- _$sIg_Ieg_TRTA.148
+- _$sIg_Ieg_TRTA.190
+- _$sIg_Ieg_TRTA.337
+- _$sIg_Ieg_TRTA.386
+- _$sIg_Ieg_TRTA.396
+- _$sIg_Ieg_TRTA.420
+- _$sIg_Ieg_TRTA.433
+- _$sIg_Ieg_TRTA.440
+- _$sIg_Ieg_TRTA.457
+- _$sIg_Ieg_TRTA.464
+- _$sIg_Ieg_TRTA.490
+- _$sIg_Ieg_TRTA.520
+- _$sSp14moveInitialize4from5countySpyxG_SitF15GroupActivities11ParticipantV_Tg5Tm
+- _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF15GroupActivities11ParticipantV_Tg5Tm
+- ___unnamed_58
+- _block_copy_helper.118
+- _block_copy_helper.128
+- _block_copy_helper.131
+- _block_copy_helper.149
+- _block_copy_helper.156
+- _block_copy_helper.191
+- _block_copy_helper.338
+- _block_copy_helper.347
+- _block_copy_helper.356
+- _block_copy_helper.359
+- _block_copy_helper.387
+- _block_copy_helper.397
+- _block_copy_helper.400
+- _block_copy_helper.406
+- _block_copy_helper.410
+- _block_copy_helper.421
+- _block_copy_helper.434
+- _block_copy_helper.441
+- _block_copy_helper.458
+- _block_copy_helper.465
+- _block_copy_helper.468
+- _block_copy_helper.481
+- _block_copy_helper.491
+- _block_copy_helper.500
+- _block_copy_helper.521
+- _block_copy_helper.524
+- _block_copy_helper.533
+- _block_copy_helper.95
+- _block_copy_helper.98
+- _block_descriptor.100
+- _block_descriptor.120
+- _block_descriptor.130
+- _block_descriptor.133
+- _block_descriptor.151
+- _block_descriptor.158
+- _block_descriptor.193
+- _block_descriptor.340
+- _block_descriptor.349
+- _block_descriptor.358
+- _block_descriptor.361
+- _block_descriptor.389
+- _block_descriptor.399
+- _block_descriptor.402
+- _block_descriptor.408
+- _block_descriptor.412
+- _block_descriptor.423
+- _block_descriptor.436
+- _block_descriptor.443
+- _block_descriptor.460
+- _block_descriptor.467
+- _block_descriptor.470
+- _block_descriptor.483
+- _block_descriptor.493
+- _block_descriptor.502
+- _block_descriptor.523
+- _block_descriptor.526
+- _block_descriptor.535
+- _block_descriptor.97
+- _block_destroy_helper.119
+- _block_destroy_helper.129
+- _block_destroy_helper.132
+- _block_destroy_helper.150
+- _block_destroy_helper.157
+- _block_destroy_helper.192
+- _block_destroy_helper.339
+- _block_destroy_helper.348
+- _block_destroy_helper.357
+- _block_destroy_helper.360
+- _block_destroy_helper.388
+- _block_destroy_helper.398
+- _block_destroy_helper.401
+- _block_destroy_helper.407
+- _block_destroy_helper.411
+- _block_destroy_helper.422
+- _block_destroy_helper.435
+- _block_destroy_helper.442
+- _block_destroy_helper.459
+- _block_destroy_helper.466
+- _block_destroy_helper.469
+- _block_destroy_helper.482
+- _block_destroy_helper.492
+- _block_destroy_helper.501
+- _block_destroy_helper.522
+- _block_destroy_helper.525
+- _block_destroy_helper.534
+- _block_destroy_helper.96
+- _block_destroy_helper.99
+- _keypath_get.5Tm
+- _keypath_set.203Tm
+- _keypath_set.239Tm
+- _keypath_set.6Tm
+- _objectdestroy.109Tm
+- _objectdestroy.185Tm
+- _objectdestroy.425Tm
+- _objectdestroy.90Tm
+- _symbolic _____ySay_____GG 7Combine9PublishedV 10Foundation4UUIDV
+- _symbolic _____ySay_____GG 7Combine9PublishedV 15GroupActivities11LinkManagerC10AttachmentV
+- _symbolic _____ySay_____G_G 7Combine9PublishedV9PublisherV 10Foundation4UUIDV
+- _symbolic _____ySay_____G_G 7Combine9PublishedV9PublisherV 15GroupActivities11LinkManagerC10AttachmentV
+- _symbolic _____y______ySay_____G_GSay_____GG 7Combine10PublishersO3MapV AA9PublishedV9PublisherV 15GroupActivities11LinkManagerC10AttachmentV 10Foundation4UUIDV
+CStrings:
++ "Learned about new attachments: %s but lost reference to self. Can't indicate an update to clients"
+
+```

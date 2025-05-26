@@ -1,0 +1,97 @@
+## AppleCV3DMOVKit
+
+> `/System/Library/PrivateFrameworks/AppleCV3DMOVKit.framework/AppleCV3DMOVKit`
+
+```diff
+
+-6.31.53.0.0
+-  __TEXT.__text: 0x1e18c
+-  __TEXT.__auth_stubs: 0x690
+-  __TEXT.__objc_methlist: 0x3254
+-  __TEXT.__gcc_except_tab: 0x71c
+-  __TEXT.__cstring: 0x18ab
++6.58.55.0.0
++  __TEXT.__text: 0x1e724
++  __TEXT.__auth_stubs: 0x680
++  __TEXT.__objc_methlist: 0x3274
++  __TEXT.__gcc_except_tab: 0x730
++  __TEXT.__cstring: 0x18cc
+   __TEXT.__const: 0x121
+   __TEXT.__ustring: 0x170
+-  __TEXT.__unwind_info: 0x818
++  __TEXT.__unwind_info: 0x824
+   __TEXT.__eh_frame: 0x38
+   __TEXT.__objc_classname: 0x3dc
+-  __TEXT.__objc_methname: 0x6d84
++  __TEXT.__objc_methname: 0x6dd6
+   __TEXT.__objc_methtype: 0xf4b
+-  __TEXT.__objc_stubs: 0x5300
+-  __DATA_CONST.__got: 0x120
++  __TEXT.__objc_stubs: 0x5360
++  __DATA_CONST.__got: 0x128
+   __DATA_CONST.__const: 0xb0
+   __DATA_CONST.__objc_classlist: 0x140
+   __DATA_CONST.__objc_catlist: 0x8
+   __DATA_CONST.__objc_protolist: 0x38
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_const: 0x4b98
+-  __DATA_CONST.__objc_selrefs: 0x1b30
++  __DATA_CONST.__objc_selrefs: 0x1b40
++  __DATA_CONST.__objc_classrefs: 0x258
++  __DATA_CONST.__objc_superrefs: 0xf8
+   __DATA_CONST.__objc_arraydata: 0x320
+   __AUTH_CONST.__objc_const: 0x1240
+-  __AUTH_CONST.__const: 0x318
+-  __AUTH_CONST.__cfstring: 0x3540
++  __AUTH_CONST.__const: 0x338
++  __AUTH_CONST.__cfstring: 0x3580
+   __AUTH_CONST.__objc_intobj: 0xd8
+   __AUTH_CONST.__objc_doubleobj: 0x10
+   __AUTH_CONST.__objc_dictobj: 0x28
+-  __AUTH_CONST.__auth_got: 0x360
++  __AUTH_CONST.__auth_got: 0x358
+   __AUTH.__objc_data: 0xc80
+-  __DATA.__objc_classrefs: 0x258
+-  __DATA.__objc_superrefs: 0xf8
+   __DATA.__objc_ivar: 0x500
+-  __DATA.__data: 0x470
+-  __DATA.__bss: 0x130
++  __DATA.__data: 0x478
++  __DATA.__bss: 0x140
+   __DATA.__common: 0x8
+   - /System/Library/Frameworks/AVFoundation.framework/AVFoundation
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  Functions: 1068
+-  Symbols:   323
+-  CStrings:  2006
++  Functions: 1072
++  Symbols:   324
++  CStrings:  2010
+ 
+Symbols:
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6appendEmc
++ _kCIFormatL8
++ _kIMUMotionIdentifierValue2_3
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6resizeEmc
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC1ERKS5_
+CStrings:
++ "T@\"NSString\",?,R,C"
++ "TB,N,V_fusedWithVision"
++ "_fusedWithVision"
++ "com.apple.reality.kind.data.devicemotion"
++ "encodeDeviceMotionData:"
++ "fusedWithVision"
++ "fv"
++ "processDeviceMotionData:location:"
++ "setFusedWithVision:"
+- "Production"
+- "TB,N,V_isInitialized"
+- "_isInitialized"
+- "isInitialized"
+- "setIsInitialized:"
+
+```

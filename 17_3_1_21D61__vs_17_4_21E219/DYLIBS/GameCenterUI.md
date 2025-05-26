@@ -1,0 +1,922 @@
+## GameCenterUI
+
+> `/System/Library/PrivateFrameworks/GameCenterUI.framework/GameCenterUI`
+
+```diff
+
+-818.3.4.2.1
+-  __TEXT.__text: 0x4f8958
+-  __TEXT.__auth_stubs: 0x6620
+-  __TEXT.__objc_methlist: 0x1a678
+-  __TEXT.__const: 0x1a834
+-  __TEXT.__cstring: 0x298bc
+-  __TEXT.__gcc_except_tab: 0x177c
+-  __TEXT.__oslogstring: 0xe
+-  __TEXT.__ustring: 0xac
++818.4.37.2.1
++  __TEXT.__text: 0x4ec2b4
++  __TEXT.__auth_stubs: 0x66e0
++  __TEXT.__objc_methlist: 0x1a7d0
++  __TEXT.__const: 0x1ac54
++  __TEXT.__cstring: 0x26dcc
++  __TEXT.__gcc_except_tab: 0x1754
++  __TEXT.__oslogstring: 0x4a0e
++  __TEXT.__ustring: 0x1c
+   __TEXT.__dlopen_cstrs: 0x4e
+-  __TEXT.__swift5_typeref: 0x1a956
+-  __TEXT.__swift5_capture: 0x3f9c
+-  __TEXT.__constg_swiftt: 0xe218
+-  __TEXT.__swift5_reflstr: 0xe0ee
+-  __TEXT.__swift5_fieldmd: 0xc254
+-  __TEXT.__swift5_builtin: 0x528
+-  __TEXT.__swift5_assocty: 0x1e50
+-  __TEXT.__swift5_proto: 0xe94
+-  __TEXT.__swift5_types: 0xc6c
++  __TEXT.__swift5_typeref: 0x1aab6
++  __TEXT.__swift5_capture: 0x3f50
++  __TEXT.__constg_swiftt: 0xe2e8
++  __TEXT.__swift5_reflstr: 0xe1be
++  __TEXT.__swift5_fieldmd: 0xc344
++  __TEXT.__swift5_builtin: 0x53c
++  __TEXT.__swift5_assocty: 0x1ed0
++  __TEXT.__swift5_proto: 0xeb8
++  __TEXT.__swift5_types: 0xc78
+   __TEXT.__swift5_protos: 0xbc
+   __TEXT.__swift5_mpenum: 0xe0
+-  __TEXT.__unwind_info: 0x146b8
+-  __TEXT.__eh_frame: 0x5ac0
+-  __TEXT.__objc_classname: 0x2ba5
+-  __TEXT.__objc_methname: 0x3ee71
+-  __TEXT.__objc_methtype: 0x7e15
+-  __TEXT.__objc_stubs: 0x23540
+-  __DATA_CONST.__got: 0x1bb0
+-  __DATA_CONST.__const: 0x4b18
++  __TEXT.__unwind_info: 0x14998
++  __TEXT.__eh_frame: 0x5cd8
++  __TEXT.__objc_classname: 0x2ba6
++  __TEXT.__objc_methname: 0x3f393
++  __TEXT.__objc_methtype: 0x7e32
++  __TEXT.__objc_stubs: 0x23720
++  __DATA_CONST.__got: 0x1c10
++  __DATA_CONST.__const: 0x4b80
+   __DATA_CONST.__objc_classlist: 0x1178
+   __DATA_CONST.__objc_catlist: 0x158
+   __DATA_CONST.__objc_protolist: 0x500
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_const: 0x4b518
+-  __DATA_CONST.__objc_selrefs: 0xd208
++  __DATA_CONST.__objc_const: 0x4b6c0
++  __DATA_CONST.__objc_selrefs: 0xd2f0
++  __DATA_CONST.__objc_protorefs: 0x210
++  __DATA_CONST.__objc_classrefs: 0x1068
++  __DATA_CONST.__objc_superrefs: 0x6a0
+   __DATA_CONST.__objc_arraydata: 0x408
+   __AUTH_CONST.__objc_const: 0x70d8
+-  __AUTH_CONST.__cfstring: 0xc980
+-  __AUTH_CONST.__const: 0x251f8
++  __AUTH_CONST.__cfstring: 0xa140
++  __AUTH_CONST.__const: 0x25498
+   __AUTH_CONST.__objc_intobj: 0xb58
+   __AUTH_CONST.__objc_doubleobj: 0x70
+   __AUTH_CONST.__objc_arrayobj: 0x120
+   __AUTH_CONST.__objc_dictobj: 0xf0
+-  __AUTH_CONST.__auth_ptr: 0xc90
+-  __AUTH_CONST.__auth_got: 0x3320
+-  __AUTH.__objc_data: 0x15d00
+-  __AUTH.__data: 0xd568
+-  __DATA.__objc_protorefs: 0x210
+-  __DATA.__objc_classrefs: 0x1068
+-  __DATA.__objc_superrefs: 0x6a0
+-  __DATA.__objc_ivar: 0x17ec
++  __AUTH_CONST.__auth_ptr: 0xc78
++  __AUTH_CONST.__auth_got: 0x3380
++  __AUTH.__objc_data: 0x15cd8
++  __AUTH.__data: 0xd5c8
++  __DATA.__objc_ivar: 0x1800
+   __DATA.__objc_data: 0x200
+-  __DATA.__data: 0xeb80
++  __DATA.__data: 0xef98
+   __DATA.__objc_stublist: 0xc0
+-  __DATA.__bss: 0x1b6a0
+-  __DATA.__common: 0x1638
++  __DATA.__bss: 0x1bb50
++  __DATA.__common: 0x1598
+   __DATA_DIRTY.__objc_data: 0x2368
+-  __DATA_DIRTY.__data: 0xdc8
++  __DATA_DIRTY.__data: 0xdd8
+   __DATA_DIRTY.__bss: 0x390
+   __DATA_DIRTY.__common: 0xd8
+   - /System/Library/Frameworks/Accelerate.framework/Accelerate
+
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 35968
+-  Symbols:   42380
+-  CStrings:  15422
++  Functions: 36157
++  Symbols:   42541
++  CStrings:  15569
+ 
+Symbols:
++ +[GKNotificationBanner isWelcomeOrSignInBannerEnqueued]
++ +[GKNotificationBanner setIsWelcomeOrSignInBannerEnqueued:]
++ -[GKAccessPoint decrementHideCount]
++ -[GKAccessPoint incrementHideCount]
++ -[GKCollectionViewController dataSource:performBatchUpdate:complete:].cold.1
++ -[GKDashboardPickerPlayerCell setAccessibilityPrefix:]
++ -[GKLeaderboardScoreViewController releaseStateHeaderText]
++ -[GKLeaderboardScoreViewController releaseStateIcon]
++ -[GKLeaderboardScoreViewController releaseStateInfoBoxContents]
++ -[GKLeaderboardScoreViewController releaseStateInfoBox]
++ -[GKLeaderboardScoreViewController releaseStateInfoText]
++ -[GKLeaderboardScoreViewController setReleaseStateHeaderText:]
++ -[GKLeaderboardScoreViewController setReleaseStateIcon:]
++ -[GKLeaderboardScoreViewController setReleaseStateInfoBox:]
++ -[GKLeaderboardScoreViewController setReleaseStateInfoBoxContents:]
++ -[GKLeaderboardScoreViewController setReleaseStateInfoText:]
++ -[GKLeaderboardScoreViewController setupReleaseStateInfo]
++ -[GKLocalPlayer(AuthenticationExtras) didShowWelcomeBannerInOverlayWithNewUserState:]
++ -[GKLocalPlayer(AuthenticationExtras) isWelcomeOrSignInBannerEnqueued]
++ -[GKLocalPlayer(AuthenticationExtras) setIsWelcomeOrSignInBannerEnqueued:]
++ -[GKMultiplayerP2PViewController conversationManager:stateChangedForConversation:]
++ -[GKMultiplayerP2PViewController firstActiveConversation]
++ -[GKMultiplayerP2PViewController setFirstActiveConversation:]
++ GCC_except_table39
++ GCC_except_table40
++ GCC_except_table57
++ GCC_except_table84
++ GCC_except_table91
++ _GKGameCenterIdentifier
++ _GKOSLoggers
++ _OBJC_CLASS_$_ACAccountStore
++ _OBJC_CLASS_$_AIDAServiceOwnersManager
++ _OBJC_IVAR_$_GKLeaderboardScoreViewController._releaseStateHeaderText
++ _OBJC_IVAR_$_GKLeaderboardScoreViewController._releaseStateIcon
++ _OBJC_IVAR_$_GKLeaderboardScoreViewController._releaseStateInfoBox
++ _OBJC_IVAR_$_GKLeaderboardScoreViewController._releaseStateInfoBoxContents
++ _OBJC_IVAR_$_GKLeaderboardScoreViewController._releaseStateInfoText
++ _OBJC_IVAR_$_GKMultiplayerP2PViewController._firstActiveConversation
++ __OBJC_$_CLASS_METHODS_GKLocalPlayer(GKFaceTimeSupport|Photos|GKSpringboardSupport|AuthenticationExtras|Friends|GameCenterUI)
++ __OBJC_$_INSTANCE_METHODS_GKLocalPlayer(GKFaceTimeSupport|Photos|GKSpringboardSupport|AuthenticationExtras|Friends|GameCenterUI)
++ __PROTOCOLS__TtC12GameCenterUI34FriendRequestComposeViewController.16
++ ___101-[GKMultiplayerP2PViewController conversationManager:activeRemoteParticipantsChangedForConversation:]_block_invoke.262
++ ___105-[GKLeaderboardScoreDataSource processEntries:localPlayerEntry:totalPlayerCount:error:completionHandler:]_block_invoke.78
++ ___105-[GKLeaderboardScoreDataSource processEntries:localPlayerEntry:totalPlayerCount:error:completionHandler:]_block_invoke_2.80
++ ___32-[GKAccessPoint showAccessPoint]_block_invoke.6
++ ___32-[GKAccessPoint showAccessPoint]_block_invoke.cold.1
++ ___32-[GKAccessPoint showAccessPoint]_block_invoke.cold.2
++ ___39-[GKGame(UI) logoImageWithMaximumSize:]_block_invoke.74
++ ___46-[GKDefaultPrivacyViewController nextPressed:]_block_invoke.87
++ ___46-[GKOnboardingViewController showSignOutAlert]_block_invoke.171
++ ___47-[GKMatchmakerViewController setShareInvitees:]_block_invoke
++ ___52-[GKLocalPlayer(Photos) deleteMonogramsWithHandler:]_block_invoke.19
++ ___52-[GKMultiplayerViewController initWithMatchRequest:]_block_invoke
++ ___52-[GKMultiplayerViewController initWithMatchRequest:]_block_invoke.cold.1
++ ___52-[GKMultiplayerViewController initWithMatchRequest:]_block_invoke.cold.2
++ ___52-[GKMultiplayerViewController initWithMatchRequest:]_block_invoke_2
++ ___52-[GKMultiplayerViewController initWithMatchRequest:]_block_invoke_3
++ ___52-[GKMultiplayerViewController initWithMatchRequest:]_block_invoke_4
++ ___55+[GKFriendRequestViewController addFriends:recipients:]_block_invoke.25
++ ___55-[GKLeaderboardScoreViewController challengeWithScore:]_block_invoke.253
++ ___55-[GKPlayer(UI) loadPhotoForSize:withCompletionHandler:]_block_invoke_2
++ ___56-[GKGameCenterViewController _setupRemoteViewController]_block_invoke.27
++ ___56-[GKMatchmakerViewController _setupRemoteViewController]_block_invoke.24
++ ___56-[GKMatchmakerViewController _setupRemoteViewController]_block_invoke.34
++ ___56-[GKMatchmakerViewController _setupRemoteViewController]_block_invoke_3
++ ___57-[GKLeaderboardScoreViewController setupReleaseStateInfo]_block_invoke
++ ___61-[GKHostedViewController requestRemoteViewControllerIfNeeded]_block_invoke.65
++ ___61-[GKHostedViewController requestRemoteViewControllerIfNeeded]_block_invoke.65.cold.1
++ ___62-[GKHostedChallengeIssueController _setupRemoteViewController]_block_invoke.19
++ ___63-[GKPlayer(UIPrivate) _playerAvatarWithSize:completionHandler:]_block_invoke.54
++ ___63-[GKPlayer(UIPrivate) _playerAvatarWithSize:completionHandler:]_block_invoke.58
++ ___63-[GKPlayer(UIPrivate) _playerAvatarWithSize:completionHandler:]_block_invoke.58.cold.1
++ ___63-[GKPlayer(UIPrivate) _playerAvatarWithSize:completionHandler:]_block_invoke.59
++ ___64-[GKDashboardPlayerPhotoView refreshImageWithCompletionHandler:]_block_invoke.18
++ ___64-[GKLocalPlayer(Photos) deleteAvatarAlertControllerWithHandler:]_block_invoke.35
++ ___65-[GKTurnBasedMatchmakerViewController _setupRemoteViewController]_block_invoke.13
++ ___70-[GKMultiplayerViewController inviteContactPlayers:source:completion:]_block_invoke.146
++ ___70-[GKMultiplayerViewController inviteContactPlayers:source:completion:]_block_invoke.149
++ ___70-[GKMultiplayerViewController inviteContactPlayers:source:completion:]_block_invoke.151
++ ___70-[GKMultiplayerViewController inviteContactPlayers:source:completion:]_block_invoke.151.cold.1
++ ___70-[GKMultiplayerViewController inviteContactPlayers:source:completion:]_block_invoke.152
++ ___70-[GKMultiplayerViewController inviteContactPlayers:source:completion:]_block_invoke.155
++ ___70-[GKMultiplayerViewController inviteContactPlayers:source:completion:]_block_invoke.155.cold.1
++ ___70-[GKMultiplayerViewController inviteContactPlayers:source:completion:]_block_invoke.155.cold.2
++ ___70-[GKMultiplayerViewController inviteContactPlayers:source:completion:]_block_invoke.160
++ ___70-[GKMultiplayerViewController inviteContactPlayers:source:completion:]_block_invoke.168
++ ___70-[GKMultiplayerViewController inviteContactPlayers:source:completion:]_block_invoke_2.150
++ ___70-[GKMultiplayerViewController inviteContactPlayers:source:completion:]_block_invoke_2.150.cold.1
++ ___70-[GKMultiplayerViewController inviteContactPlayers:source:completion:]_block_invoke_2.162
++ ___70-[GKMultiplayerViewController inviteContactPlayers:source:completion:]_block_invoke_2.162.cold.1
++ ___70-[GKMultiplayerViewController inviteContactPlayers:source:completion:]_block_invoke_2.162.cold.2
++ ___71-[GKHostedAuthenticateViewController _setupExtensionHostViewController]_block_invoke.13
++ ___71-[GKMatchmakerViewController startMatchingWithRequest:devicePushToken:]_block_invoke.106
++ ___71-[GKMatchmakerViewController startMatchingWithRequest:devicePushToken:]_block_invoke.111
++ ___71-[GKMatchmakerViewController startMatchingWithRequest:devicePushToken:]_block_invoke.117
++ ___71-[GKMatchmakerViewController startMatchingWithRequest:devicePushToken:]_block_invoke_2.112
++ ___71-[GKMatchmakerViewController startMatchingWithRequest:devicePushToken:]_block_invoke_2.118
++ ___71-[GKMatchmakerViewController startMatchingWithRequest:devicePushToken:]_block_invoke_4
++ ___72-[GKDashboardMultiplayerPickerDataSource loadDataWithCompletionHandler:]_block_invoke.107
++ ___72-[GKDashboardMultiplayerPickerDataSource loadDataWithCompletionHandler:]_block_invoke.132
++ ___72-[GKDashboardMultiplayerPickerDataSource loadDataWithCompletionHandler:]_block_invoke.134
++ ___72-[GKDashboardMultiplayerPickerDataSource loadDataWithCompletionHandler:]_block_invoke.140
++ ___72-[GKDashboardMultiplayerPickerDataSource loadDataWithCompletionHandler:]_block_invoke.155
++ ___72-[GKDashboardMultiplayerPickerDataSource loadDataWithCompletionHandler:]_block_invoke_2.109
++ ___72-[GKDashboardMultiplayerPickerDataSource loadDataWithCompletionHandler:]_block_invoke_2.109.cold.1
++ ___72-[GKDashboardMultiplayerPickerDataSource loadDataWithCompletionHandler:]_block_invoke_2.109.cold.2
++ ___72-[GKDashboardMultiplayerPickerDataSource loadDataWithCompletionHandler:]_block_invoke_2.109.cold.3
++ ___72-[GKDashboardMultiplayerPickerDataSource loadDataWithCompletionHandler:]_block_invoke_2.133
++ ___72-[GKDashboardMultiplayerPickerDataSource loadDataWithCompletionHandler:]_block_invoke_2.133.cold.1
++ ___72-[GKDashboardMultiplayerPickerDataSource loadDataWithCompletionHandler:]_block_invoke_2.138
++ ___72-[GKDashboardMultiplayerPickerDataSource loadDataWithCompletionHandler:]_block_invoke_2.138.cold.1
++ ___72-[GKDashboardMultiplayerPickerDataSource loadDataWithCompletionHandler:]_block_invoke_2.141
++ ___72-[GKDashboardMultiplayerPickerDataSource loadDataWithCompletionHandler:]_block_invoke_3.110
++ ___72-[GKDashboardMultiplayerPickerDataSource loadDataWithCompletionHandler:]_block_invoke_3.142
++ ___72-[GKDashboardMultiplayerPickerDataSource loadDataWithCompletionHandler:]_block_invoke_4.147
++ ___72-[GKMultiplayerP2PViewController prepopulateSharePlayActiveParticipants]_block_invoke.180
++ ___73-[GKMultiplayerViewController sendInvitesToPlayersInOriginalMatchRequest]_block_invoke.81
++ ___76-[GKDashboardChallengePlayerPickerDataSource loadDataWithCompletionHandler:]_block_invoke.24
++ ___76-[GKDashboardChallengePlayerPickerDataSource loadDataWithCompletionHandler:]_block_invoke.35
++ ___76-[GKDashboardChallengePlayerPickerDataSource loadDataWithCompletionHandler:]_block_invoke_2.25
++ ___76-[GKDashboardChallengePlayerPickerDataSource loadDataWithCompletionHandler:]_block_invoke_2.37
++ ___76-[GKDashboardChallengePlayerPickerDataSource loadDataWithCompletionHandler:]_block_invoke_3.39
++ ___76-[GKTurnBasedMatchesViewController turnBasedMatchesDataSource:didQuitMatch:]_block_invoke.111
++ ___81+[UICollectionReusableView(GKReusableView) _gkStandardConstraintMetricsForIdiom:]_block_invoke.381
++ ___82-[GKMultiplayerP2PViewController conversationManager:stateChangedForConversation:]_block_invoke
++ ___83-[GKTurnBasedMatchesViewController turnBasedMatchDetailViewControllerDidQuitMatch:]_block_invoke.110
++ ___84-[GKTurnBasedInviteViewController createGameWithPlayersToInvite:forSharing:handler:]_block_invoke.48
++ ___87-[GKLocalPlayer(AuthenticationExtras) showOnboardingUIFromViewController:signInOrigin:]_block_invoke.20
++ ___88-[GKMultiplayerP2PViewController processStatusUpdateMessageFromPlayer:bytes:withLength:]_block_invoke.222
++ ___88-[GKMultiplayerP2PViewController processStatusUpdateMessageFromPlayer:bytes:withLength:]_block_invoke.226
++ ___88-[GKMultiplayerP2PViewController processStatusUpdateMessageFromPlayer:bytes:withLength:]_block_invoke_2.221
++ ___88-[GKMultiplayerP2PViewController processStatusUpdateMessageFromPlayer:bytes:withLength:]_block_invoke_2.223
++ ___88-[GKMultiplayerP2PViewController processStatusUpdateMessageFromPlayer:bytes:withLength:]_block_invoke_3.224
++ ___89-[GKDefaultNicknameViewController photoPicker:didUpdatePhotoForContact:withContactImage:]_block_invoke.115
++ ___91+[GKExtensionRemoteViewController viewControllerForExtension:inputItems:completionHandler:]_block_invoke.20
++ ___95-[GKTurnBasedInviteViewController sendInvitesToContactPlayers:legacyPlayers:source:completion:]_block_invoke.84
++ ___95-[GKTurnBasedInviteViewController sendInvitesToContactPlayers:legacyPlayers:source:completion:]_block_invoke.84.cold.1
++ ___block_descriptor_40_e8_32bs_e27_v24?0"NSURL"8"NSError"16ls32l8
++ ___block_descriptor_40_e8_32w_e21_v24?0"GKPlayer"8q16lw32l8
++ ___block_descriptor_48_e8_32s40w_e25_"NSURL"16?0"NSString"8lw40l8s32l8
++ ___block_literal_global.110
++ ___block_literal_global.126
++ ___block_literal_global.128
++ ___block_literal_global.138
++ ___block_literal_global.14
++ ___block_literal_global.145
++ ___block_literal_global.149
++ ___block_literal_global.15
++ ___block_literal_global.167
++ ___block_literal_global.168
++ ___block_literal_global.173
++ ___block_literal_global.181
++ ___block_literal_global.186
++ ___block_literal_global.21
++ ___block_literal_global.24
++ ___block_literal_global.254
++ ___block_literal_global.3
++ ___block_literal_global.324
++ ___block_literal_global.34
++ ___block_literal_global.383
++ ___block_literal_global.4
++ ___block_literal_global.40
++ ___block_literal_global.47
++ ___block_literal_global.49
++ ___block_literal_global.51
++ ___block_literal_global.55
++ ___block_literal_global.62
++ ___block_literal_global.65
++ ___block_literal_global.68
++ ___block_literal_global.77
++ ___block_literal_global.80
++ ___block_literal_global.87
++ ___block_literal_global.91
++ ___block_literal_global.96
++ ___swift_memcpy416_8
++ __gkStandardConstraintMetricsForIdiom:.onceToken.380
++ __isWelcomeOrSignInBannerEnqueued
++ __swift_stdlib_bridgeErrorToNSError
++ __unnamed_array_storage.139
++ __unnamed_array_storage.378
++ __unnamed_array_storage.379
++ __unnamed_array_storage.395
++ __unnamed_array_storage.396
++ _associated conformance 12GameCenterUI15SignInErrorViewV05SwiftC00G0AA4BodyAdEP_AdE
++ _associated conformance 12GameCenterUI32AuthenticationWithOnboardingViewV05SwiftC00G0AA4BodyAdEP_AdE
++ _associated conformance 12GameCenterUI32AuthenticationWithOnboardingViewV05SwiftC029UIViewControllerRepresentableAaD0G0
++ _associated conformance So15AIDAServiceTypeaSHSCSQ
++ _associated conformance So15AIDAServiceTypeas20_SwiftNewtypeWrapperSCSY
++ _associated conformance So15AIDAServiceTypeas20_SwiftNewtypeWrapperSCs35_HasCustomAnyHashableRepresentation
++ _block_copy_helper.105
++ _block_copy_helper.115
++ _block_copy_helper.2
++ _block_copy_helper.37
++ _block_copy_helper.58
++ _block_copy_helper.62
++ _block_copy_helper.67
++ _block_copy_helper.71
++ _block_copy_helper.73
++ _block_copy_helper.79
++ _block_copy_helper.85
++ _block_copy_helper.91
++ _block_descriptor.107
++ _block_descriptor.117
++ _block_descriptor.39
++ _block_descriptor.4
++ _block_descriptor.60
++ _block_descriptor.64
++ _block_descriptor.69
++ _block_descriptor.73
++ _block_descriptor.75
++ _block_descriptor.87
++ _block_destroy_helper.106
++ _block_destroy_helper.116
++ _block_destroy_helper.3
++ _block_destroy_helper.38
++ _block_destroy_helper.59
++ _block_destroy_helper.63
++ _block_destroy_helper.68
++ _block_destroy_helper.72
++ _block_destroy_helper.74
++ _block_destroy_helper.80
++ _block_destroy_helper.86
++ _block_destroy_helper.92
++ _get_witness_table 7SwiftUI15ModifiedContentVyAA7SectionVyAA9EmptyViewVAA012_ConditionalD0VyACyAA0G0PAAE9focusable_7optionsQrSb_AA16FocusableOptionsVtFQOyAA6ButtonVyAA6HStackVyAA05TupleG0VyAA4TextV_AA6SpacerVACyAA5ImageVAA30_EnvironmentKeyWritingModifierVyAA5ColorVSgGGtGGG_Qo_AA023AccessibilityAttachmentV0VGAkAEAL_AMQrSb_AOtFQOyAA6ZStackVyAUyAA14NavigationLinkVyAgCy010GameCenterB0012AvatarEditorG0VA1_yA18_18GameCenterSettingsCSgGGSgG_AQyASyAUyAW_AYtGGGtGG_Qo_GAGGAA01_st9TransformV0VySbGGAaJHPA35_AaJHPAgaJHPyHC_A34_AaJHPA13_AaJHPqd__AaJHD2_A10_HO_A12_AA0gV0HPyHCHC_qd__AaJHD2_A33_HOHCAgaJHPyHCHC_A38_AAA40_HPyHCHC.47
++ _get_witness_table 7SwiftUI15ModifiedContentVyACyAA5GroupVyAA012_ConditionalD0VyACyAA5ImageVAA12_FrameLayoutVGACyAlA30_EnvironmentKeyWritingModifierVyAA5ColorVSgGGGGAA08_PaddingI0VGAA017_AppearanceActionM0VGAA4ViewHPAxAA0_HPAuAA0_HPAtAA0_HPAlAA0_HPAiAA0_HPyHC_AkA0rM0HPyHCHC_AsAA0_HPAlAA0_HPAiAA0_HPyHC_AkAA1_HPyHCHC_ArAA1_HPyHCHCHC_HC_AwAA1_HPyHCHC_AzAA1_HPyHCHC.122
++ _get_witness_table 7SwiftUI15ModifiedContentVyACyAA7SectionVyAA9EmptyViewVAA012_ConditionalD0VyAA6VStackVyAA05TupleG0VyAA0G0PAAE17hyphenationFactoryQr12CoreGraphics7CGFloatVFQOyAA4TextV_Qo__AoAE12labelsHiddenQryFQOyACyACyAoAE11pickerStyleyQrqd__AA06PickerT0Rd__lFQOyAA0U0VyAIyAgVGSo26GKProfilePrivacyVisibilityVAMyACyAoAEAPyQrASFQOyACyAuA21_TraitWritingModifierVyAA08TagValueY3KeyVyA2_GGG_Qo_AA31AccessibilityAttachmentModifierVGSg_A13_A13_tGG_AA04MenuuT0VQo_A12_GAA32_EnvironmentKeyTransformModifierVySbGG_Qo_tGGA24_GAKyAMyAU_AA6ButtonVyAUGtGGGAA20_ValueActionModifierVyA2_GGAA25_AppearanceActionModifierVGAaNHPA38_AaNHPA34_AaNHPAgaNHPyHC_A28_AaNHPA27_AaNHPyHC_A24_AaNHPA20_AaNHPqd0__AaNHD3_A19_HO_A12_AA0G8ModifierHPyHCHC_A23_AAA42_HPyHCHCHCA33_AaNHPyHCHC_A37_AAA42_HPyHCHC_A40_AAA42_HPyHCHC.28
++ _get_witness_table 7SwiftUI15ModifiedContentVyACyACyAA4ViewPAAE9focusable_7optionsQrSb_AA16FocusableOptionsVtFQOyAA6ToggleVyAA012_ConditionalD0VyAA6VStackVyAA05TupleE0Vy010GameCenterB00N4Icon33_73A05953131E73BCD16CB8E06BB82916LLV_AOyAQyAA4TextV_AWSgtGGtGGAA6HStackVyA_GGG_Qo_AA20_ValueActionModifierVySbGGAA31AccessibilityAttachmentModifierVGAR18SectionHoverEffectVGAaDHPA13_AaDHPA10_AaDHPqd__AaDHD2_A6_HO_A9_AA0E8ModifierHPyHCHC_A12_AAA17_HPyHCHC_A15_AAA17_HPyHCHC.108
++ _get_witness_table 7SwiftUI16SubscriptionViewVySo8NSObjectC10FoundationE26KeyValueObservingPublisherVy_So13GKPreferencesCSbGACy7Combine03AnyJ0VySo13GKDaemonProxyC010GameCenterB0E11RefreshInfoVs5NeverOGAA5GroupVyAA19_ConditionalContentVyAA08ModifiedW0VyAA6ZStackVyAA05TupleD0VyA0_yAQ019DashboardBackgroundD0VAA23_SafeAreaIgnoringLayoutVG_A2_yAA14GeometryReaderVyA4_yAA06ScrollD0VyA0_yAA6VStackVyA4_yA15_yA4_yA0_yA0_yA0_yA0_yA0_yA0_yA0_yA0_yA0_yAZyAA0D0PAAE11toggleStyleyQrqd__AA11ToggleStyleRd__lFQOyAQ0G10PathToggleVyAJG_AA17SwitchToggleStyleVQo_A22_GAA21_TraitWritingModifierVyAA019LayoutPriorityTraitG0VGGAA24_AnchorTransformModifierVySo6CGRectVAQ014FriendRequestsdG0VGGAA25_PreferenceActionModifierVyA38_GGAA012_EnvironmentG15WritingModifierVyAA4FontVSgGGA46_yAA5ColorVSgGGAA16_FixedSizeLayoutVGAA14_PaddingLayoutVGAA24_BackgroundStyleModifierVyA53_GGAA11_ClipEffectVyAA16RoundedRectangleVGG_A0_yAA4TextVA61_GtGG_A0_yA0_yA15_yA4_yA0_yA0_yA75_AA16_FlexFrameLayoutVGA65_G_A0_yAA10LazyVStackVyAZyA0_yA74_AA13_OffsetEffectVGAA7ForEachVySaySi6offset_So16GKPlayerInternalC7elementtGSSA4_yA0_yAA06_ShapeD0VyAA9RectangleVA53_GAA12_FrameLayoutVGSg_A17_AAE11buttonStyleyQrqd__AA20PrimitiveButtonStyleRd__lFQOyAQ017FriendRequestCellD0V_AA16PlainButtonStyleVQo_tGGGGA61_GtGGA65_GA71_GSgA119_tGGA61_GG_A0_yA0_yA15_yA4_yA74__A74_tGGA79_GA55_GSgtGGGtGGA28_yAA015TransitionTraitG0VGGA0_yA11_yA4_yA17_AAE11listPadding3top6bottomQr12CoreGraphics7CGFloatVSg_A144_tFQOyAA4ListVyAUA4_yAA7SectionVyAA05EmptyD0VA0_yA0_yA22_A39_GA43_GA0_yA74_AA31AccessibilityAttachmentModifierVGG_A148_yA155_A88_ySayA91_GSSSgA109_GA150_GSgA148_yA155_AZyA74_A159_GA150_GSgtGG_Qo__A126_SgtGGA136_GGGGGAAA16_HPyHC.83
++ _get_witness_table 7SwiftUI19_ConditionalContentVyACyACyACy010GameCenterB015SignInErrorViewVAD028AuthenticationWithOnboardingJ0VGAD0ef5SplitJ9Dashboard33_37D4266A6C32C24F543FEF9646E16C66LLVGACyAA05EmptyJ0VALGGSgARGAA0J0HPAraTHpAqaTHPAmaTHPAiaTHPAfaTHPyHC_AhaTHPyHCHC_AlaTHPyHCHC_ApaTHPAoaTHPyHC_AlaTHPyHCHCHC_HC_AraTHpAqaTHPAmaTHPAiaTHPAfaTHPyHC_AhaTHPyHCHC_AlaTHPyHCHC_ApaTHPAoaTHPyHC_AlaTHPyHCHCHC_HCHC.22
++ _get_witness_table 7SwiftUI21_ViewModifier_ContentVy010GameCenterB018SectionHoverEffectVGAA0C0HPyHC.82
++ _get_witness_table 7SwiftUI6ZStackVyAA9TupleViewVyAA15ModifiedContentVyAGyAGyAA6VStackVyAEyAA4TextV_AKtGGAA14_PaddingLayoutVGAA06_FrameK0VGAOG_AGyAGyAGyAA6ButtonVyAGyAA5ImageVAA30_EnvironmentKeyWritingModifierVyAA4FontVSgGGGARGAA11_ClipEffectVyAA6CircleVGGAOGSgtGGAA0E0HPyHC.7
++ _get_witness_table 7SwiftUI7SectionVyAA4TextVAA9TupleViewVyAA0F0PAAE15fullScreenCover11isPresented9onDismiss7contentQrAA7BindingVySbG_yycSgqd__yctAaHRd__lFQOyAA6ButtonVyAA15ModifiedContentVyAA6HStackVyAGyAA012_ConditionalR0VyAA6VStackVyAGyAUy010GameCenterB0012PlayerAvatarF033_B06FF1E44074052C140AE6AE05DFB9D4LLVAA12_FrameLayoutVG_A_yAGyAUyAeA31AccessibilityAttachmentModifierVG_A9_SgtGGtGGAGyAUyA6_AA14_PaddingLayoutVG_A12_tGG_AA6SpacerVAUyAA5ImageVAA30_EnvironmentKeyWritingModifierVyAA5ColorVSgGGtGGAA25_AlignmentWritingModifierVGG_AUyA0_0x7ProfileF0A2_LLVAA30_SafeAreaRegionsIgnoringLayoutVGQo__AUyASyAEGAA32_EnvironmentKeyTransformModifierVySbGGtGAEGAaHHPAeaHHPyHC_A48_AaHHPyHCAeaHHPyHCHC.19
++ _get_witness_table qd0__7SwiftUI4ViewHD3_AaBPAAE18navigationBarTitle_11displayModeQrqd___AA010NavigationE4ItemV0f7DisplayH0OtSyRd__lFQOyAA15ModifiedContentVyAcAE11listPaddingyQrAA4EdgeO3SetV_AA0P6InsetsVtFQOyAcAE0N5StyleyQrqd__AA04ListS0Rd__lFQOyAA0T0Vys5NeverOAA05TupleC0VyAA7SectionVyAA05EmptyC0VAcAE20accessibilityElement8childrenQrAA26AccessibilityChildBehaviorV_tFQOyAA07LabeledC0VyAA4TextVAA012_ConditionalM0VyAA08ProgressC0VyA2_A2_GAKyAcAE12labelsHiddenQryFQOyAKyAKyAcAE9focusable_7optionsQrSb_AA16FocusableOptionsVtFQOyAA6ToggleVyA2_G_Qo_AA20_ValueActionModifierVySbGGAA31AccessibilityAttachmentModifierVG_Qo_010GameCenterB00W11HoverEffectVGGG_Qo_A10_G_AZyA0_yA2_A2_A10_G_A0_yA2_A12_yA12_yAA6HStackVyAZyAA6SpacerV_AKyA15_AA01_O6LayoutVGA45_tGGAA7ForEachVySaySo6GKGameCGA54_A33_17GameSettingToggle33_73A05953131E73BCD16CB8E06BB82916LLVSgGGA43_yAZyA45__AKyA10_A47_GA45_tGGGA2_GtGSgtGG_AA012InsetGroupedtS0VQo__Qo_AA25_AppearanceActionModifierVG_SSQo_HO.98
++ _get_witness_table qd0__7SwiftUI4ViewHD5_AaBPAAE5alert_11isPresented7actions7messageQrqd___AA7BindingVySbGqd_0_yXEqd_1_yXEtSyRd__AaBRd_0_AaBRd_1_r1_lFQOyAcAEAD_AefGQrqd___AJqd_0_yXEqd_1_yXEtSyRd__AaBRd_0_AaBRd_1_r1_lFQOyAcAEAD_AefGQrqd___AJqd_0_yXEqd_1_yXEtSyRd__AaBRd_0_AaBRd_1_r1_lFQOyAA7SectionVyAA05EmptyC0VAA15ModifiedContentVyAPyAA5GroupVyAPyAA6ToggleVyAA4TextVG010GameCenterB00J11HoverEffectVGGAA20_ValueActionModifierVySbGGAA023AccessibilityAttachmentW0VGAA6VStackVyAA05TupleC0VyAVSg_AvA6ButtonVyAPyAvA022_EnvironmentKeyWritingW0VyAA4FontVSgGGGtGGG_SSA14_yAVGAVQo__SSA26_AVQo__SSA26_AVQo_HO.15
++ _logOnceGameControllerUsedInGameLayer.onceToken.252
++ _objc_msgSend$LEADERBOARD_PENDING_APPROVAL
++ _objc_msgSend$PRERELEASE_ITEM
++ _objc_msgSend$boldSystemFontOfSize:
++ _objc_msgSend$decrementHideCount
++ _objc_msgSend$didUpdateLocation:
++ _objc_msgSend$firstActiveConversation
++ _objc_msgSend$hideAccessPointInOverlay
++ _objc_msgSend$incrementHideCount
++ _objc_msgSend$isAppUnlistedAndDisallowed:
++ _objc_msgSend$isWelcomeOrSignInBannerEnqueued
++ _objc_msgSend$presentAchievementBannerInOverlayWithIdentifier:title:message:image:
++ _objc_msgSend$presentWelcomeBannerInOverlay
++ _objc_msgSend$releaseStateHeaderText
++ _objc_msgSend$releaseStateIcon
++ _objc_msgSend$releaseStateInfoBox
++ _objc_msgSend$releaseStateInfoText
++ _objc_msgSend$setAccessibilityPrefix:
++ _objc_msgSend$setCanStartGroupActivities:
++ _objc_msgSend$setFirstActiveConversation:
++ _objc_msgSend$setIsWelcomeOrSignInBannerEnqueued:
++ _objc_msgSend$setShareInvitees:forMatch:propagateToDaemon:
++ _objc_msgSend$setStartStagedActivity:
++ _objc_msgSend$setupReleaseStateInfo
++ _objc_msgSend$showAccessPointInOverlay
++ _objc_msgSend$symbolImageNamed:
++ _objc_msgSend$systemGray2Color
++ _objectdestroy.10Tm
++ _objectdestroy.110Tm
++ _objectdestroy.16Tm
++ _objectdestroy.23Tm
++ _objectdestroy.34Tm
++ _objectdestroy.39Tm
++ _objectdestroy.49Tm
++ _objectdestroy.55Tm
++ _os_log_GKCollectionView
++ _os_log_GKContacts
++ _os_log_GKDeveloper
++ _os_log_GKError
++ _os_log_GKGeneral
++ _os_log_GKHosted
++ _os_log_GKMatch
++ _os_log_GKOnboarding
++ _os_log_GKTrace
++ _swift_unknownObjectRetain_n
++ _symbolic SaySo15UIBarButtonItemCG
++ _symbolic SaySo21GKAchievementInternalCG
++ _symbolic SaySo22GKFriendPlayerInternalCG
++ _symbolic So8NSObjectCSg
++ _symbolic _____ 12GameCenterUI15SignInErrorViewV
++ _symbolic _____ 12GameCenterUI32AuthenticationWithOnboardingViewV
++ _symbolic _____ So15AIDAServiceTypea
++ _symbolic _____Sg So31GKGameCenterViewControllerStateV
++ _symbolic _____SgXw 12GameCenterUI29GKExpandedGroupViewControllerC
++ _symbolic _____SgXwz_Xx 12GameCenterUI0A26LayerAchievementsPresenterC
++ _symbolic _____SgXwz_Xx 12GameCenterUI31AchievementDetailViewControllerC
++ _symbolic _____XDXMT 12GameCenterUI11BoopHandlerC
++ _symbolic _____yAAyAAyAAy__________G_____GAAy_____AEGGSgAJG 7SwiftUI19_ConditionalContentV 010GameCenterB015SignInErrorViewV AD028AuthenticationWithOnboardingJ0V AD0ef5SplitJ9Dashboard33_37D4266A6C32C24F543FEF9646E16C66LLV AA05EmptyJ0V
++ _symbolic _____yAAyAAy__________G_____GAAy_____AEGG 7SwiftUI19_ConditionalContentV 010GameCenterB015SignInErrorViewV AD028AuthenticationWithOnboardingJ0V AD0ef5SplitJ9Dashboard33_37D4266A6C32C24F543FEF9646E16C66LLV AA05EmptyJ0V
++ _symbolic _____yAAyAAy__________G_____GAAy_____AEGGSg 7SwiftUI19_ConditionalContentV 010GameCenterB015SignInErrorViewV AD028AuthenticationWithOnboardingJ0V AD0ef5SplitJ9Dashboard33_37D4266A6C32C24F543FEF9646E16C66LLV AA05EmptyJ0V
++ _symbolic _____yAAyAAy_____yAAy__________y_____SgGGG_____G_____y_____GG_____G 7SwiftUI15ModifiedContentV AA6ButtonV AA5ImageV AA30_EnvironmentKeyWritingModifierV AA4FontV AA12_FrameLayoutV AA11_ClipEffectV AA6CircleV AA08_PaddingM0V
++ _symbolic _____yAAyAAy_____yAAy__________y_____SgGGG_____G_____y_____GG_____GSg 7SwiftUI15ModifiedContentV AA6ButtonV AA5ImageV AA30_EnvironmentKeyWritingModifierV AA4FontV AA12_FrameLayoutV AA11_ClipEffectV AA6CircleV AA08_PaddingM0V
++ _symbolic _____yAAyAAy_____y_____y______ADtGG_____G_____GAGG_AAyAAyAAy_____yAAy__________y_____SgGGGAIG_____y_____GGAGGSgt 7SwiftUI15ModifiedContentV AA6VStackV AA9TupleViewV AA4TextV AA14_PaddingLayoutV AA06_FrameJ0V AA6ButtonV AA5ImageV AA30_EnvironmentKeyWritingModifierV AA4FontV AA11_ClipEffectV AA6CircleV
++ _symbolic _____yAAy__________G_____G 7SwiftUI19_ConditionalContentV 010GameCenterB015SignInErrorViewV AD028AuthenticationWithOnboardingJ0V AD0ef5SplitJ9Dashboard33_37D4266A6C32C24F543FEF9646E16C66LLV
++ _symbolic _____yAAy_____yAAy__________y_____SgGGG_____G_____y_____GG 7SwiftUI15ModifiedContentV AA6ButtonV AA5ImageV AA30_EnvironmentKeyWritingModifierV AA4FontV AA12_FrameLayoutV AA11_ClipEffectV AA6CircleV
++ _symbolic _____ySSSgG 7Combine9PublishedV
++ _symbolic _____y__________G 7SwiftUI19_ConditionalContentV 010GameCenterB015SignInErrorViewV AD028AuthenticationWithOnboardingJ0V
++ _symbolic _____y___________y_____yADyADy_____yACy______AFtGG_____G_____GAIG_ADyADyADy_____yADy__________y_____SgGGGAKG_____y_____GGAIGSgtGG 7SwiftUI13_VariadicViewO4TreeV AA13_ZStackLayoutV AA05TupleD0V AA15ModifiedContentV AA6VStackV AA4TextV AA08_PaddingG0V AA06_FrameG0V AA6ButtonV AA5ImageV AA30_EnvironmentKeyWritingModifierV AA4FontV AA11_ClipEffectV AA6CircleV
++ _symbolic _____y_____yAAy__________y_____SgGGG_____G 7SwiftUI15ModifiedContentV AA6ButtonV AA5ImageV AA30_EnvironmentKeyWritingModifierV AA4FontV AA12_FrameLayoutV
++ _symbolic _____y_____y__________y_____SgGGG 7SwiftUI6ButtonV AA15ModifiedContentV AA5ImageV AA30_EnvironmentKeyWritingModifierV AA4FontV
++ _symbolic _____y_____y_____yACyACy_____yABy______AEtGG_____G_____GAHG_ACyACyACy_____yACy__________y_____SgGGGAJG_____y_____GGAHGSgtGG 7SwiftUI6ZStackV AA9TupleViewV AA15ModifiedContentV AA6VStackV AA4TextV AA14_PaddingLayoutV AA06_FrameK0V AA6ButtonV AA5ImageV AA30_EnvironmentKeyWritingModifierV AA4FontV AA11_ClipEffectV AA6CircleV
+- -[GKAccessPoint showAccessPoint].cold.1
+- -[GKDefaultPrivacyViewController setUnderageHintLabel:]
+- -[GKDefaultPrivacyViewController underageHintLabel]
+- -[GKServiceFriendRequestViewController messageComposeViewController:shouldSendMessage:toRecipients:completion:]
+- GCC_except_table16
+- GCC_except_table37
+- GCC_except_table38
+- GCC_except_table82
+- GCC_except_table83
+- GCC_except_table92
+- _GKActiveLogBits
+- _GKFirstStackFrameNotContaining
+- _GKOSLogInit
+- _GKStackFrames
+- _OBJC_CLASS_$_ACAccount
+- _OBJC_CLASS_$_AKAccountManager
+- _OBJC_IVAR_$_GKDefaultPrivacyViewController._underageHintLabel
+- _OUTLINED_FUNCTION_105
+- _OUTLINED_FUNCTION_106
+- _OUTLINED_FUNCTION_107
+- _OUTLINED_FUNCTION_108
+- _OUTLINED_FUNCTION_109
+- _OUTLINED_FUNCTION_110
+- __OBJC_$_CLASS_METHODS_GKLocalPlayer(GKFaceTimeSupport|Photos|GKSpringboardSupport|AuthenticationExtras|Friends)
+- __OBJC_$_INSTANCE_METHODS_GKLocalPlayer(GKFaceTimeSupport|Photos|GKSpringboardSupport|AuthenticationExtras|Friends)
+- __PROTOCOLS__TtC12GameCenterUI34FriendRequestComposeViewController.15
+- ___101-[GKMultiplayerP2PViewController conversationManager:activeRemoteParticipantsChangedForConversation:]_block_invoke.417
+- ___105-[GKLeaderboardScoreDataSource processEntries:localPlayerEntry:totalPlayerCount:error:completionHandler:]_block_invoke.73
+- ___105-[GKLeaderboardScoreDataSource processEntries:localPlayerEntry:totalPlayerCount:error:completionHandler:]_block_invoke_2.75
+- ___35-[GKMultiplayerViewController init]_block_invoke
+- ___35-[GKMultiplayerViewController init]_block_invoke.72
+- ___35-[GKMultiplayerViewController init]_block_invoke.cold.1
+- ___35-[GKMultiplayerViewController init]_block_invoke_2
+- ___35-[GKMultiplayerViewController init]_block_invoke_3
+- ___39-[GKGame(UI) logoImageWithMaximumSize:]_block_invoke.77
+- ___46-[GKDefaultPrivacyViewController nextPressed:]_block_invoke.96
+- ___46-[GKOnboardingViewController showSignOutAlert]_block_invoke.172
+- ___52-[GKLocalPlayer(Photos) deleteMonogramsWithHandler:]_block_invoke.18
+- ___55+[GKFriendRequestViewController addFriends:recipients:]_block_invoke.24
+- ___55-[GKLeaderboardScoreViewController challengeWithScore:]_block_invoke.250
+- ___56-[GKGameCenterViewController _setupRemoteViewController]_block_invoke.36
+- ___56-[GKMatchmakerViewController _setupRemoteViewController]_block_invoke.31
+- ___56-[GKMatchmakerViewController _setupRemoteViewController]_block_invoke.36
+- ___56-[GKMatchmakerViewController _setupRemoteViewController]_block_invoke.43
+- ___60-[GKMatchmakerViewController shareMatchWithRequest:handler:]_block_invoke_2
+- ___61-[GKHostedViewController requestRemoteViewControllerIfNeeded]_block_invoke.86
+- ___61-[GKHostedViewController requestRemoteViewControllerIfNeeded]_block_invoke.86.cold.1
+- ___62-[GKHostedChallengeIssueController _setupRemoteViewController]_block_invoke.21
+- ___63-[GKPlayer(UIPrivate) _playerAvatarWithSize:completionHandler:]_block_invoke.53
+- ___63-[GKPlayer(UIPrivate) _playerAvatarWithSize:completionHandler:]_block_invoke.63
+- ___63-[GKPlayer(UIPrivate) _playerAvatarWithSize:completionHandler:]_block_invoke.63.cold.1
+- ___63-[GKPlayer(UIPrivate) _playerAvatarWithSize:completionHandler:]_block_invoke.67
+- ___64-[GKDashboardPlayerPhotoView refreshImageWithCompletionHandler:]_block_invoke.23
+- ___64-[GKLocalPlayer(Photos) deleteAvatarAlertControllerWithHandler:]_block_invoke.37
+- ___65-[GKTurnBasedMatchmakerViewController _setupRemoteViewController]_block_invoke.20
+- ___70-[GKMultiplayerViewController inviteContactPlayers:source:completion:]_block_invoke.179
+- ___70-[GKMultiplayerViewController inviteContactPlayers:source:completion:]_block_invoke.185
+- ___70-[GKMultiplayerViewController inviteContactPlayers:source:completion:]_block_invoke.193
+- ___70-[GKMultiplayerViewController inviteContactPlayers:source:completion:]_block_invoke.193.cold.1
+- ___70-[GKMultiplayerViewController inviteContactPlayers:source:completion:]_block_invoke.200
+- ___70-[GKMultiplayerViewController inviteContactPlayers:source:completion:]_block_invoke.206
+- ___70-[GKMultiplayerViewController inviteContactPlayers:source:completion:]_block_invoke.206.cold.1
+- ___70-[GKMultiplayerViewController inviteContactPlayers:source:completion:]_block_invoke.206.cold.2
+- ___70-[GKMultiplayerViewController inviteContactPlayers:source:completion:]_block_invoke.217
+- ___70-[GKMultiplayerViewController inviteContactPlayers:source:completion:]_block_invoke.231
+- ___70-[GKMultiplayerViewController inviteContactPlayers:source:completion:]_block_invoke_2.186
+- ___70-[GKMultiplayerViewController inviteContactPlayers:source:completion:]_block_invoke_2.186.cold.1
+- ___70-[GKMultiplayerViewController inviteContactPlayers:source:completion:]_block_invoke_2.219
+- ___70-[GKMultiplayerViewController inviteContactPlayers:source:completion:]_block_invoke_2.219.cold.1
+- ___70-[GKMultiplayerViewController inviteContactPlayers:source:completion:]_block_invoke_2.219.cold.2
+- ___71-[GKHostedAuthenticateViewController _setupExtensionHostViewController]_block_invoke.17
+- ___71-[GKMatchmakerViewController startMatchingWithRequest:devicePushToken:]_block_invoke.169
+- ___71-[GKMatchmakerViewController startMatchingWithRequest:devicePushToken:]_block_invoke.173
+- ___71-[GKMatchmakerViewController startMatchingWithRequest:devicePushToken:]_block_invoke.181
+- ___71-[GKMatchmakerViewController startMatchingWithRequest:devicePushToken:]_block_invoke.196
+- ___71-[GKMatchmakerViewController startMatchingWithRequest:devicePushToken:]_block_invoke_2.182
+- ___71-[GKMatchmakerViewController startMatchingWithRequest:devicePushToken:]_block_invoke_2.197
+- ___72-[GKDashboardMultiplayerPickerDataSource loadDataWithCompletionHandler:]_block_invoke.109
+- ___72-[GKDashboardMultiplayerPickerDataSource loadDataWithCompletionHandler:]_block_invoke.146
+- ___72-[GKDashboardMultiplayerPickerDataSource loadDataWithCompletionHandler:]_block_invoke.151
+- ___72-[GKDashboardMultiplayerPickerDataSource loadDataWithCompletionHandler:]_block_invoke.160
+- ___72-[GKDashboardMultiplayerPickerDataSource loadDataWithCompletionHandler:]_block_invoke.175
+- ___72-[GKDashboardMultiplayerPickerDataSource loadDataWithCompletionHandler:]_block_invoke_2.111
+- ___72-[GKDashboardMultiplayerPickerDataSource loadDataWithCompletionHandler:]_block_invoke_2.111.cold.1
+- ___72-[GKDashboardMultiplayerPickerDataSource loadDataWithCompletionHandler:]_block_invoke_2.111.cold.2
+- ___72-[GKDashboardMultiplayerPickerDataSource loadDataWithCompletionHandler:]_block_invoke_2.111.cold.3
+- ___72-[GKDashboardMultiplayerPickerDataSource loadDataWithCompletionHandler:]_block_invoke_2.147
+- ___72-[GKDashboardMultiplayerPickerDataSource loadDataWithCompletionHandler:]_block_invoke_2.147.cold.1
+- ___72-[GKDashboardMultiplayerPickerDataSource loadDataWithCompletionHandler:]_block_invoke_2.155
+- ___72-[GKDashboardMultiplayerPickerDataSource loadDataWithCompletionHandler:]_block_invoke_2.155.cold.1
+- ___72-[GKDashboardMultiplayerPickerDataSource loadDataWithCompletionHandler:]_block_invoke_2.161
+- ___72-[GKDashboardMultiplayerPickerDataSource loadDataWithCompletionHandler:]_block_invoke_3.112
+- ___72-[GKDashboardMultiplayerPickerDataSource loadDataWithCompletionHandler:]_block_invoke_3.162
+- ___72-[GKDashboardMultiplayerPickerDataSource loadDataWithCompletionHandler:]_block_invoke_4.167
+- ___72-[GKMultiplayerP2PViewController prepopulateSharePlayActiveParticipants]_block_invoke.224
+- ___73-[GKMultiplayerViewController sendInvitesToPlayersInOriginalMatchRequest]_block_invoke.84
+- ___76-[GKDashboardChallengePlayerPickerDataSource loadDataWithCompletionHandler:]_block_invoke.19
+- ___76-[GKDashboardChallengePlayerPickerDataSource loadDataWithCompletionHandler:]_block_invoke.30
+- ___76-[GKDashboardChallengePlayerPickerDataSource loadDataWithCompletionHandler:]_block_invoke_2.20
+- ___76-[GKDashboardChallengePlayerPickerDataSource loadDataWithCompletionHandler:]_block_invoke_2.32
+- ___76-[GKDashboardChallengePlayerPickerDataSource loadDataWithCompletionHandler:]_block_invoke_3.34
+- ___76-[GKTurnBasedMatchesViewController turnBasedMatchesDataSource:didQuitMatch:]_block_invoke.114
+- ___81+[UICollectionReusableView(GKReusableView) _gkStandardConstraintMetricsForIdiom:]_block_invoke.384
+- ___83-[GKTurnBasedMatchesViewController turnBasedMatchDetailViewControllerDidQuitMatch:]_block_invoke.113
+- ___84-[GKTurnBasedInviteViewController createGameWithPlayersToInvite:forSharing:handler:]_block_invoke.55
+- ___87-[GKLocalPlayer(AuthenticationExtras) showOnboardingUIFromViewController:signInOrigin:]_block_invoke.25
+- ___88-[GKMultiplayerP2PViewController processStatusUpdateMessageFromPlayer:bytes:withLength:]_block_invoke.361
+- ___88-[GKMultiplayerP2PViewController processStatusUpdateMessageFromPlayer:bytes:withLength:]_block_invoke.365
+- ___88-[GKMultiplayerP2PViewController processStatusUpdateMessageFromPlayer:bytes:withLength:]_block_invoke.372
+- ___88-[GKMultiplayerP2PViewController processStatusUpdateMessageFromPlayer:bytes:withLength:]_block_invoke_2.366
+- ___88-[GKMultiplayerP2PViewController processStatusUpdateMessageFromPlayer:bytes:withLength:]_block_invoke_3.367
+- ___89-[GKDefaultNicknameViewController photoPicker:didUpdatePhotoForContact:withContactImage:]_block_invoke.114
+- ___91+[GKExtensionRemoteViewController viewControllerForExtension:inputItems:completionHandler:]_block_invoke.25
+- ___95-[GKTurnBasedInviteViewController sendInvitesToContactPlayers:legacyPlayers:source:completion:]_block_invoke.100
+- ___95-[GKTurnBasedInviteViewController sendInvitesToContactPlayers:legacyPlayers:source:completion:]_block_invoke.100.cold.1
+- ___block_descriptor_40_e8_32w_e25_"NSURL"16?0"NSString"8lw32l8
+- ___block_literal_global.10
+- ___block_literal_global.104
+- ___block_literal_global.107
+- ___block_literal_global.11
+- ___block_literal_global.115
+- ___block_literal_global.122
+- ___block_literal_global.147
+- ___block_literal_global.152
+- ___block_literal_global.154
+- ___block_literal_global.16
+- ___block_literal_global.162
+- ___block_literal_global.164
+- ___block_literal_global.169
+- ___block_literal_global.174
+- ___block_literal_global.175
+- ___block_literal_global.176
+- ___block_literal_global.229
+- ___block_literal_global.242
+- ___block_literal_global.255
+- ___block_literal_global.278
+- ___block_literal_global.322
+- ___block_literal_global.37
+- ___block_literal_global.386
+- ___block_literal_global.5
+- ___block_literal_global.52
+- ___block_literal_global.54
+- ___block_literal_global.63
+- ___block_literal_global.70
+- ___block_literal_global.71
+- ___block_literal_global.74
+- ___block_literal_global.81
+- ___block_literal_global.88
+- ___block_literal_global.89
+- ___block_literal_global.93
+- __gkStandardConstraintMetricsForIdiom:.onceToken.383
+- __unnamed_array_storage.133
+- __unnamed_array_storage.381
+- __unnamed_array_storage.382
+- __unnamed_array_storage.398
+- __unnamed_array_storage.399
+- _block_copy_helper.106
+- _block_copy_helper.116
+- _block_copy_helper.15
+- _block_copy_helper.24
+- _block_copy_helper.36
+- _block_copy_helper.48
+- _block_copy_helper.57
+- _block_copy_helper.59
+- _block_copy_helper.65
+- _block_copy_helper.69
+- _block_copy_helper.74
+- _block_copy_helper.81
+- _block_copy_helper.92
+- _block_descriptor.108
+- _block_descriptor.118
+- _block_descriptor.17
+- _block_descriptor.26
+- _block_descriptor.38
+- _block_descriptor.50
+- _block_descriptor.59
+- _block_descriptor.61
+- _block_descriptor.67
+- _block_descriptor.71
+- _block_descriptor.76
+- _block_descriptor.83
+- _block_destroy_helper.107
+- _block_destroy_helper.117
+- _block_destroy_helper.16
+- _block_destroy_helper.25
+- _block_destroy_helper.37
+- _block_destroy_helper.49
+- _block_destroy_helper.58
+- _block_destroy_helper.60
+- _block_destroy_helper.66
+- _block_destroy_helper.70
+- _block_destroy_helper.75
+- _block_destroy_helper.82
+- _block_destroy_helper.93
+- _dladdr
+- _get_witness_table 7SwiftUI15ModifiedContentVyAA7SectionVyAA9EmptyViewVAA012_ConditionalD0VyACyAA0G0PAAE9focusable_7optionsQrSb_AA16FocusableOptionsVtFQOyAA6ButtonVyAA6HStackVyAA05TupleG0VyAA4TextV_AA6SpacerVACyAA5ImageVAA30_EnvironmentKeyWritingModifierVyAA5ColorVSgGGtGGG_Qo_AA023AccessibilityAttachmentV0VGAkAEAL_AMQrSb_AOtFQOyAA6ZStackVyAUyAA14NavigationLinkVyAgCy010GameCenterB0012AvatarEditorG0VA1_yA18_18GameCenterSettingsCSgGGSgG_AQyASyAUyAW_AYtGGGtGG_Qo_GAGGAA01_st9TransformV0VySbGGAaJHPA35_AaJHPAgaJHPyHC_A34_AaJHPA13_AaJHPqd__AaJHD2_A10_HO_A12_AA0gV0HPyHCHC_qd__AaJHD2_A33_HOHCAgaJHPyHCHC_A38_AAA40_HPyHCHC.48
+- _get_witness_table 7SwiftUI15ModifiedContentVyACyAA5GroupVyAA012_ConditionalD0VyACyAA5ImageVAA12_FrameLayoutVGACyAlA30_EnvironmentKeyWritingModifierVyAA5ColorVSgGGGGAA08_PaddingI0VGAA017_AppearanceActionM0VGAA4ViewHPAxAA0_HPAuAA0_HPAtAA0_HPAlAA0_HPAiAA0_HPyHC_AkA0rM0HPyHCHC_AsAA0_HPAlAA0_HPAiAA0_HPyHC_AkAA1_HPyHCHC_ArAA1_HPyHCHCHC_HC_AwAA1_HPyHCHC_AzAA1_HPyHCHC.123
+- _get_witness_table 7SwiftUI15ModifiedContentVyACyAA7SectionVyAA9EmptyViewVAA012_ConditionalD0VyAA6VStackVyAA05TupleG0VyAA0G0PAAE17hyphenationFactoryQr12CoreGraphics7CGFloatVFQOyAA4TextV_Qo__AoAE12labelsHiddenQryFQOyACyACyAoAE11pickerStyleyQrqd__AA06PickerT0Rd__lFQOyAA0U0VyAIyAgVGSo26GKProfilePrivacyVisibilityVAMyACyAoAEAPyQrASFQOyACyAuA21_TraitWritingModifierVyAA08TagValueY3KeyVyA2_GGG_Qo_AA31AccessibilityAttachmentModifierVGSg_A13_A13_tGG_AA04MenuuT0VQo_A12_GAA32_EnvironmentKeyTransformModifierVySbGG_Qo_tGGA24_GAKyAMyAU_AA6ButtonVyAUGtGGGAA20_ValueActionModifierVyA2_GGAA25_AppearanceActionModifierVGAaNHPA38_AaNHPA34_AaNHPAgaNHPyHC_A28_AaNHPA27_AaNHPyHC_A24_AaNHPA20_AaNHPqd0__AaNHD3_A19_HO_A12_AA0G8ModifierHPyHCHC_A23_AAA42_HPyHCHCHCA33_AaNHPyHCHC_A37_AAA42_HPyHCHC_A40_AAA42_HPyHCHC.24
+- _get_witness_table 7SwiftUI15ModifiedContentVyACyACyAA4ViewPAAE9focusable_7optionsQrSb_AA16FocusableOptionsVtFQOyAA6ToggleVyAA012_ConditionalD0VyAA6VStackVyAA05TupleE0Vy010GameCenterB00N4Icon33_73A05953131E73BCD16CB8E06BB82916LLV_AOyAQyAA4TextV_AWSgtGGtGGAA6HStackVyA_GGG_Qo_AA20_ValueActionModifierVySbGGAA31AccessibilityAttachmentModifierVGAR18SectionHoverEffectVGAaDHPA13_AaDHPA10_AaDHPqd__AaDHD2_A6_HO_A9_AA0E8ModifierHPyHCHC_A12_AAA17_HPyHCHC_A15_AAA17_HPyHCHC.109
+- _get_witness_table 7SwiftUI16SubscriptionViewVySo8NSObjectC10FoundationE26KeyValueObservingPublisherVy_So13GKPreferencesCSbGACy7Combine03AnyJ0VySo13GKDaemonProxyC010GameCenterB0E11RefreshInfoVs5NeverOGAA5GroupVyAA19_ConditionalContentVyAA08ModifiedW0VyAA6ZStackVyAA05TupleD0VyA0_yAQ019DashboardBackgroundD0VAA23_SafeAreaIgnoringLayoutVG_A2_yAA14GeometryReaderVyA4_yAA06ScrollD0VyA0_yAA6VStackVyA4_yA15_yA4_yA0_yA0_yA0_yA0_yA0_yA0_yA0_yA0_yA0_yAZyAA0D0PAAE11toggleStyleyQrqd__AA11ToggleStyleRd__lFQOyAQ0G10PathToggleVyAJG_AA17SwitchToggleStyleVQo_A22_GAA21_TraitWritingModifierVyAA019LayoutPriorityTraitG0VGGAA24_AnchorTransformModifierVySo6CGRectVAQ014FriendRequestsdG0VGGAA25_PreferenceActionModifierVyA38_GGAA012_EnvironmentG15WritingModifierVyAA4FontVSgGGA46_yAA5ColorVSgGGAA16_FixedSizeLayoutVGAA14_PaddingLayoutVGAA24_BackgroundStyleModifierVyA53_GGAA11_ClipEffectVyAA16RoundedRectangleVGG_A0_yAA4TextVA61_GtGG_A0_yA0_yA15_yA4_yA0_yA0_yA75_AA16_FlexFrameLayoutVGA65_G_A0_yAA10LazyVStackVyAZyA0_yA74_AA13_OffsetEffectVGAA7ForEachVySaySi6offset_So16GKPlayerInternalC7elementtGSSA4_yA0_yAA06_ShapeD0VyAA9RectangleVA53_GAA12_FrameLayoutVGSg_A17_AAE11buttonStyleyQrqd__AA20PrimitiveButtonStyleRd__lFQOyAQ017FriendRequestCellD0V_AA16PlainButtonStyleVQo_tGGGGA61_GtGGA65_GA71_GSgA119_tGGA61_GG_A0_yA0_yA15_yA4_yA74__A74_tGGA79_GA55_GSgtGGGtGGA28_yAA015TransitionTraitG0VGGA0_yA11_yA4_yA17_AAE11listPadding3top6bottomQr12CoreGraphics7CGFloatVSg_A144_tFQOyAA4ListVyAUA4_yAA7SectionVyAA05EmptyD0VA0_yA0_yA22_A39_GA43_GA0_yA74_AA31AccessibilityAttachmentModifierVGG_A148_yA155_A88_ySayA91_GSSSgA109_GA150_GSgA148_yA155_AZyA74_A159_GA150_GSgtGG_Qo__A126_SgtGGA136_GGGGGAAA16_HPyHC.91
+- _get_witness_table 7SwiftUI19_ConditionalContentVyACy010GameCenterB00eF18SplitViewDashboard33_37D4266A6C32C24F543FEF9646E16C66LLVACyAA05EmptyH0VAGGGSgALGAA0H0HPAlaNHpAkaNHPAgaNHPyHC_AjaNHPAiaNHPyHC_AgaNHPyHCHCHC_HC_AlaNHpAkaNHPAgaNHPyHC_AjaNHPAiaNHPyHC_AgaNHPyHCHCHC_HCHC.16
+- _get_witness_table 7SwiftUI21_ViewModifier_ContentVy010GameCenterB018SectionHoverEffectVGAA0C0HPyHC.84
+- _get_witness_table 7SwiftUI7SectionVyAA4TextVAA9TupleViewVyAA0F0PAAE15fullScreenCover11isPresented9onDismiss7contentQrAA7BindingVySbG_yycSgqd__yctAaHRd__lFQOyAA6ButtonVyAA15ModifiedContentVyAA6HStackVyAGyAA012_ConditionalR0VyAA6VStackVyAGyAUy010GameCenterB0012PlayerAvatarF033_B06FF1E44074052C140AE6AE05DFB9D4LLVAA12_FrameLayoutVG_A_yAGyAUyAeA31AccessibilityAttachmentModifierVG_A9_SgtGGtGGAGyAUyA6_AA14_PaddingLayoutVG_A12_tGG_AA6SpacerVAUyAA5ImageVAA30_EnvironmentKeyWritingModifierVyAA5ColorVSgGGtGGAA25_AlignmentWritingModifierVGG_AUyA0_0x7ProfileF0A2_LLVAA30_SafeAreaRegionsIgnoringLayoutVGQo__AUyASyAEGAA32_EnvironmentKeyTransformModifierVySbGGtGAEGAaHHPAeaHHPyHC_A48_AaHHPyHCAeaHHPyHCHC.15
+- _get_witness_table qd0__7SwiftUI4ViewHD3_AaBPAAE18navigationBarTitle_11displayModeQrqd___AA010NavigationE4ItemV0f7DisplayH0OtSyRd__lFQOyAA15ModifiedContentVyAcAE11listPaddingyQrAA4EdgeO3SetV_AA0P6InsetsVtFQOyAcAE0N5StyleyQrqd__AA04ListS0Rd__lFQOyAA0T0Vys5NeverOAA05TupleC0VyAA7SectionVyAA05EmptyC0VAcAE20accessibilityElement8childrenQrAA26AccessibilityChildBehaviorV_tFQOyAA07LabeledC0VyAA4TextVAA012_ConditionalM0VyAA08ProgressC0VyA2_A2_GAKyAcAE12labelsHiddenQryFQOyAKyAKyAcAE9focusable_7optionsQrSb_AA16FocusableOptionsVtFQOyAA6ToggleVyA2_G_Qo_AA20_ValueActionModifierVySbGGAA31AccessibilityAttachmentModifierVG_Qo_010GameCenterB00W11HoverEffectVGGG_Qo_A10_G_AZyA0_yA2_A2_A10_G_A0_yA2_A12_yA12_yAA6HStackVyAZyAA6SpacerV_AKyA15_AA01_O6LayoutVGA45_tGGAA7ForEachVySaySo6GKGameCGA54_A33_17GameSettingToggle33_73A05953131E73BCD16CB8E06BB82916LLVSgGGA43_yAZyA45__AKyA10_A47_GA45_tGGGA2_GtGSgtGG_AA012InsetGroupedtS0VQo__Qo_AA25_AppearanceActionModifierVG_SSQo_HO.99
+- _get_witness_table qd0__7SwiftUI4ViewHD5_AaBPAAE5alert_11isPresented7actions7messageQrqd___AA7BindingVySbGqd_0_yXEqd_1_yXEtSyRd__AaBRd_0_AaBRd_1_r1_lFQOyAcAEAD_AefGQrqd___AJqd_0_yXEqd_1_yXEtSyRd__AaBRd_0_AaBRd_1_r1_lFQOyAcAEAD_AefGQrqd___AJqd_0_yXEqd_1_yXEtSyRd__AaBRd_0_AaBRd_1_r1_lFQOyAA7SectionVyAA05EmptyC0VAA15ModifiedContentVyAPyAA5GroupVyAPyAA6ToggleVyAA4TextVG010GameCenterB00J11HoverEffectVGGAA20_ValueActionModifierVySbGGAA023AccessibilityAttachmentW0VGAA6VStackVyAA05TupleC0VyAVSg_AvA6ButtonVyAPyAvA022_EnvironmentKeyWritingW0VyAA4FontVSgGGGtGGG_SSA14_yAVGAVQo__SSA26_AVQo__SSA26_AVQo_HO.21
+- _logOnceGameControllerUsedInGameLayer.onceToken.276
+- _objc_msgSend$callStackReturnAddresses
+- _objc_msgSend$dispatchGroup
+- _objc_msgSend$execute:
+- _objc_msgSend$lineHeight
+- _objc_msgSend$minimumLineHeight
+- _objc_msgSend$setMaximumLineHeight:
+- _objc_msgSend$setMinimumLineHeight:
+- _objc_msgSend$setShareInvitees:propogateToDaemon:
+- _objc_msgSend$setURL:
+- _objc_msgSend$underageHintLabel
+- _objc_msgSend$unsignedLongLongValue
+- _objectdestroy.111Tm
+- _objectdestroy.11Tm
+- _objectdestroy.20Tm
+- _objectdestroy.24Tm
+- _objectdestroy.25Tm
+- _objectdestroy.36Tm
+- _objectdestroy.42Tm
+- _objectdestroy.48Tm
+- _objectdestroy.9Tm
+- _os_log_GKLogCollectionView
+- _os_log_GKLogContacts
+- _os_log_GKLogDeveloper
+- _os_log_GKLogError
+- _os_log_GKLogGeneral
+- _os_log_GKLogHosted
+- _os_log_GKLogMatch
+- _os_log_GKLogOnboarding
+- _os_log_GKLogTrace
+- _symbolic SDyS2SGz_Xx
+- _symbolic Say_____GIegg_ 12GameCenterUI42FriendWhoHasEarnedThisAchievementViewModelV
+- _symbolic Say_____Gz_Xx 12GameCenterUI42FriendWhoHasEarnedThisAchievementViewModelV
+- _symbolic So13GKLeaderboardCXMT
+- _symbolic So13GKLocalPlayerCXMT
+- _symbolic So21GKAchievementInternalCXMT
+- _symbolic _____yAAy_____AAy_____ABGGSgAFG 7SwiftUI19_ConditionalContentV 010GameCenterB00eF18SplitViewDashboard33_37D4266A6C32C24F543FEF9646E16C66LLV AA05EmptyH0V
+- _symbolic _____yAAy_____yAAy_____y_____y_____y_____y_____yAByAFyAAyAAyAAy__________y_____GGAIy_____SgGG_____G_AAyAAyAAyAAyAhIySiSgGGAIy_____GGAOGAQGtGGAAyAAyAuKGAQGG______AAyAAyAAy__________G_____GAQGSgtGGSSSgGSgG_____y_____GGG_____G_____y_____GGSg 7SwiftUI15ModifiedContentV AA6VStackV AA5GroupV AA6IDViewV AA6HStackV AA9TupleViewV AA012_ConditionalD0V AA4TextV AA30_EnvironmentKeyWritingModifierV 12CoreGraphics7CGFloatV AA5ColorV AA023AccessibilityAttachmentP0V AQ14TruncationModeO AA6SpacerV 010GameCenterB015_PlatformUXViewV AA12_FrameLayoutV AA14_PaddingLayoutV AA06_TraitoP0V AA015TransitionTraitN0V AA16_FlexFrameLayoutV AA11_MaskEffectV AA14LinearGradientV
+- _symbolic _____y_____AAy_____ABGG 7SwiftUI19_ConditionalContentV 010GameCenterB00eF18SplitViewDashboard33_37D4266A6C32C24F543FEF9646E16C66LLV AA05EmptyH0V
+- _symbolic _____y_____AAy_____ABGGSg 7SwiftUI19_ConditionalContentV 010GameCenterB00eF18SplitViewDashboard33_37D4266A6C32C24F543FEF9646E16C66LLV AA05EmptyH0V
+- _symbolic _____y_____G s23_ContiguousArrayStorageC So7CGPointV
+- _symbolic _____y__________y_____y_____yACyADy______AEy__________GAFtGG_____G_AEy_____AHGtGGG 7SwiftUI19_ConditionalContentV 010GameCenterB032AchievementsDetailsSecondaryViewV AA6VStackV AA05TupleJ0V AA08ModifiedD0V AA6SpacerV AD029AchievementDetailGlobalPlayerJ0V AA14_PaddingLayoutV AA010_FlexFrameT0V AD020ASCPrefetchingLockupJ0V
+- _symbolic _____y_____y_____y_____y_____yACy_____yAFyAFy__________y_____GGAHy_____SgGG_____G_AFyAFyAFyAFyAgHySiSgGGAHy_____GGANGAPGtGGAFyAFyAtJGAPGG______AFyAFyAFy__________G_____GAPGSgtGGSSSgGSg 7SwiftUI6IDViewV AA6HStackV AA9TupleViewV AA19_ConditionalContentV AA6VStackV AA08ModifiedH0V AA4TextV AA30_EnvironmentKeyWritingModifierV 12CoreGraphics7CGFloatV AA5ColorV AA023AccessibilityAttachmentO0V AO14TruncationModeO AA6SpacerV 010GameCenterB015_PlatformUXViewV AA12_FrameLayoutV AA14_PaddingLayoutV
+- _symbolic ySSc
+CStrings:
++ "\x1f\v"
++ "!\x11\x13"
++ "%@.ring-%@"
++ "%@.subtitle-%@"
++ "%@.title-%@"
++ "%s:%d %s"
++ "&/\x048"
++ "****** %@ - GKCVC - c:%p %s"
++ "****** %@ - GKCVC INIT - ds:%p %s"
++ "****** %@ - hideCount++  --> %@"
++ "****** %@ - hideCount--  --> %@"
++ "+[GKAccountRemoteUIController accountRemoteUIControllerForPlayer:mode:url:postBody:completionHandler:]"
++ "+[GKExtensionRemoteViewController viewControllerForExtension:inputItems:completionHandler:]_block_invoke_2"
++ "+[GKFriendRequestViewController addFriends:recipients:]"
++ "+[GKGame(UI) preloadIconsForGames:style:handler:]"
++ "+[GKMessageUtilities linkMetadataWithPlayerRange:shareURL:completionHandler:]"
++ "+[GKNotificationBannerWindow enqueBanner:]_block_invoke_2"
++ "+[UIImage(GKDashboardUtils) _gkMessageGroupImageWithIdentifier:handler:]"
++ "-[GKChallengeComposeController loadView]"
++ "-[GKCollectionMultiDataSource loadDataWithCompletionHandler:]"
++ "-[GKDashboardChallengeDataSource loadDataWithCompletionHandler:]"
++ "-[GKDashboardChallengePlayerPickerDataSource loadDataWithCompletionHandler:]"
++ "-[GKDashboardLeaderboardListDataSource loadDataWithCompletionHandler:]"
++ "-[GKDashboardLeaderboardSetDataSource loadDataWithCompletionHandler:]"
++ "-[GKDashboardMultiplayerPickerDataSource loadDataWithCompletionHandler:]"
++ "-[GKDashboardPlayerPhotoView refreshImageWithCompletionHandler:]"
++ "-[GKDefaultNicknameViewController photoPicker:didUpdatePhotoForContact:withContactImage:]"
++ "-[GKDefaultNicknameViewController presentAvatarPicker]"
++ "-[GKExtensionManager instantiateViewControllerWithHost:handler:]"
++ "-[GKGameCenterViewController checkArcadeStateWithCompletion:]"
++ "-[GKLeaderboard(UI) loadImageWithCompletionHandler:]"
++ "-[GKLeaderboardListDataSource loadDataWithCompletionHandler:]"
++ "-[GKLeaderboardScoreDataSource processEntries:localPlayerEntry:totalPlayerCount:error:completionHandler:]"
++ "-[GKLeaderboardSectionHeaderView updateHighlightsWithGameRecord:leaderboardCount:setCount:]"
++ "-[GKLeaderboardSetDataSource loadDataWithCompletionHandler:]"
++ "-[GKLocalPlayer(Photos) deleteMonogramsWithHandler:]"
++ "-[GKLocalPlayer(Photos) setPhotoFromCNContactImage:pendingContact:withCompletionHandler:]"
++ "-[GKMatchmakerViewController _setupRemoteViewController]_block_invoke"
++ "-[GKMatchmakerViewController cancelPendingInviteToPlayer:]"
++ "-[GKMatchmakerViewController setBrowsingForNearbyPlayers:]"
++ "-[GKMatchmakerViewController startMatchingWithRequest:devicePushToken:]"
++ "-[GKMatchmakerViewController startMatchingWithRequest:devicePushToken:]_block_invoke"
++ "-[GKMultiplayerDataSource setParticipantsWithPlayers:automatchPlayerCount:shouldUpdateAutomatchPlayerCount:andStatuses:complete:]"
++ "-[GKMultiplayerP2PViewController configureDataSourceWithCompletionHandler:]"
++ "-[GKMultiplayerP2PViewController groupActivityJoiningPlayer:devicePushToken:participantServerIdentifier:]"
++ "-[GKMultiplayerP2PViewController playerConnected:]"
++ "-[GKMultiplayerP2PViewController processStatusUpdateMessageFromPlayer:bytes:withLength:]"
++ "-[GKMultiplayerP2PViewController processStatusUpdateMessageFromPlayer:bytes:withLength:]_block_invoke"
++ "-[GKMultiplayerP2PViewController sendInvitesToContactPlayers:legacyPlayers:source:completion:]"
++ "-[GKMultiplayerP2PViewController setConnectingStateForPlayer:]"
++ "-[GKMultiplayerP2PViewController setPlayer:connected:]"
++ "-[GKMultiplayerP2PViewController setPlayer:responded:]"
++ "-[GKMultiplayerP2PViewController setPlayer:responded:]_block_invoke"
++ "-[GKMultiplayerViewController didPickPlayers:messageGroups:source:completion:]"
++ "-[GKMultiplayerViewController initWithMatchRequest:]_block_invoke"
++ "-[GKMultiplayerViewController inviteContactPlayers:source:completion:]"
++ "-[GKPlayer(UI) _loadPhotoForSize:withCompletionHandler:]"
++ "-[GKPlayer(UIPrivate) _playerAvatarWithSize:completionHandler:]"
++ "-[GKPlayer(UIPrivate) loadPlayerContactForAvatarControllerWithImageSize:handler:]"
++ "-[GKPlayer(UIPrivate) monogramImageWithPhotoSize:handler:]"
++ "-[GKPlayer(UIPrivate) renderMonogramImageWithPhotoSize:monogramString:handler:]"
++ "-[GKSignInViewController authenticationController:shouldContinueWithAuthenticationResults:error:forContext:]"
++ "-[GKTurnBasedMatchesViewController loadDataWithCompletionHandlerAndError:]"
++ "-[GKTurnParticipantCell configureOverlappingPlayersView]"
++ "-[GKTurnParticipantCell configureOverlappingPlayersView]_block_invoke"
++ "/Library/Caches/com.apple.xbs/Sources/GameCenter/Frameworks/GameCenterUI/CommonUI/GKLeaderboard+UI.m"
++ "/Library/Caches/com.apple.xbs/Sources/GameCenter/Frameworks/GameCenterUI/CommonUI/GKPlayer+UI.m"
++ "/Library/Caches/com.apple.xbs/Sources/GameCenter/Frameworks/GameCenterUI/iOS/Framework/API/GKGameCenterViewController_iOS.m"
++ "/Library/Caches/com.apple.xbs/Sources/GameCenter/Frameworks/GameCenterUI/iOS/Framework/API/GKMatchmakerViewController_iOS.m"
++ "/Library/Caches/com.apple.xbs/Sources/GameCenter/Frameworks/GameCenterUI/iOS/Framework/API/GKNotificationBanner_iOS.m"
++ "/Library/Caches/com.apple.xbs/Sources/GameCenter/Frameworks/GameCenterUI/iOS/Framework/Extensions/GKExtensionManager.m"
++ "/Library/Caches/com.apple.xbs/Sources/GameCenter/Frameworks/GameCenterUI/iOS/Framework/Extensions/GKExtensionRemoteViewController.m"
++ "/Library/Caches/com.apple.xbs/Sources/GameCenter/Frameworks/GameCenterUI/iOS/Framework/GKLocalPlayer+Photos.m"
++ "/Library/Caches/com.apple.xbs/Sources/GameCenter/Frameworks/GameCenterUI/iOS/Framework/GKMessageUtilities.m"
++ "/Library/Caches/com.apple.xbs/Sources/GameCenter/Frameworks/GameCenterUI/iOS/Framework/GKMultiplayerDataSource.m"
++ "/Library/Caches/com.apple.xbs/Sources/GameCenter/Frameworks/GameCenterUI/iOS/Framework/GKMultiplayerP2PViewController.m"
++ "/Library/Caches/com.apple.xbs/Sources/GameCenter/Frameworks/GameCenterUI/iOS/Framework/GKMultiplayerViewController.m"
++ "/Library/Caches/com.apple.xbs/Sources/GameCenter/Frameworks/GameCenterUI/iOS/Framework/GKSignInViewController.m"
++ "/Library/Caches/com.apple.xbs/Sources/GameCenter/Frameworks/GameCenterUI/iOS/Framework/GKTurnCell.m"
++ "/Library/Caches/com.apple.xbs/Sources/GameCenter/Frameworks/GameCenterUI/iOS/Framework/Hosted UI/GKFriendRequestViewController.m"
++ "/Library/Caches/com.apple.xbs/Sources/GameCenter/Frameworks/GameCenterUI/iOS/Framework/Onboarding UI/GKDefaultNicknameViewController.m"
++ "/Library/Caches/com.apple.xbs/Sources/GameCenter/Frameworks/GameCenterUI/iOS/Framework/RemoteUI/GKAccountRemoteUIController.m"
++ "/Library/Caches/com.apple.xbs/Sources/GameCenter/Frameworks/GameCenterUI/iOS/Framework/SignInView.swift"
++ "/Library/Caches/com.apple.xbs/Sources/GameCenter/Frameworks/GameCenterUI/iOS/GameCenterUIService/GKLeaderboardSectionHeaderView.m"
++ "/Library/Caches/com.apple.xbs/Sources/GameCenter/Frameworks/GameCenterUI/iOS/TVDashboard/GKDashboardChallengePlayerPickerDataSource.m"
++ "/Library/Caches/com.apple.xbs/Sources/GameCenter/Frameworks/GameCenterUI/iOS/TVDashboard/GKDashboardMultiplayerPickerDataSource.m"
++ "/Library/Caches/com.apple.xbs/Sources/GameCenter/Frameworks/GameCenterUI/iOS/TVDashboard/GKDashboardPlayerPhotoView.m"
++ "/Library/Caches/com.apple.xbs/Sources/GameCenter/Frameworks/GameCenterUI/iOS/TVDashboard/GKDashboardUtils.m"
++ "<Warning>: matchmakerDelegate not found for %{public}p"
++ "<Warning>: matchmakerDelegate not found for GKMatchmakerViewController instance: %{public}p"
++ "@\"TUConversation\""
++ "B20@0:8B16"
++ "Can't construct Array with count < 0"
++ "Checking other services for existing accounts"
++ "Contact has already been invited, will not construct a new share URL."
++ "Could not create ContinuePlayingData.GameData because of an error  : "
++ "Division by zero"
++ "Division results in an overflow"
++ "Failed to clear current transaction: "
++ "Failed to construct share URL, clearing transaction"
++ "Failed to send URL: "
++ "Finished clearing current transaction"
++ "Found existing account in service "
++ "Image could not be serialized: %@"
++ "Index out of range"
++ "LEADERBOARD_PENDING_APPROVAL"
++ "No existing accounts found"
++ "Not showing the access point as Game Center is disabled."
++ "PRERELEASE_ITEM"
++ "Range requires lowerBound <= upperBound"
++ "State of conversation(%@) changed to: %@"
++ "Swift/Array.swift"
++ "Swift/IntegerTypes.swift"
++ "Swift/Range.swift"
++ "Swift/UnsafePointer.swift"
++ "T#,?,R,N"
++ "T@\"<UIStateRestoring>\",?,R,N"
++ "T@\"NSString\",?,R,C"
++ "T@\"NSString\",?,R,C,N"
++ "T@\"TUConversation\",&,N,V_firstActiveConversation"
++ "T@\"UIBezierPath\",?,R,N"
++ "T@\"UIImage\",R,&,N"
++ "T@\"UIImageView\",V_releaseStateIcon"
++ "T@\"UILabel\",&,N,V_releaseStateHeaderText"
++ "T@\"UILabel\",&,N,V_releaseStateInfoText"
++ "T@\"UIStackView\",&,N,V_releaseStateInfoBoxContents"
++ "T@\"UIView\",?,R,W,N"
++ "T@\"UIView\",V_releaseStateInfoBox"
++ "TQ,?,R,N"
++ "UnsafeMutablePointer.initialize overlapping range"
++ "UnsafeMutablePointer.initialize with negative count"
++ "UnsafeMutablePointer.moveInitialize with negative count"
++ "Updating account with authToken = “%@”, appleID = “%@”, playerID = “%@”"
++ "WARNING: %{public}s is obsoleted. Game Center doesn't invoke this obsoleted method from iOS/tvOS %{public}@ and macOS %{public}@ onwards"
++ "Will delay clearing current transaction for "
++ "Will not handle nearby interaction because one is already in progress"
++ "Will not observe nearby interactions because we already are"
++ "_firstActiveConversation"
++ "_releaseStateHeaderText"
++ "_releaseStateIcon"
++ "_releaseStateInfoBox"
++ "_releaseStateInfoBoxContents"
++ "_releaseStateInfoText"
++ "accountForService:"
++ "activityItem"
++ "addFriendsWithButtonEmptyStateView"
++ "b0fcc010"
++ "boldSystemFontOfSize:"
++ "clearCurrentTransaction(after:)"
++ "de7bbd8e"
++ "decrementHideCount"
++ "didShowWelcomeBannerInOverlayWithNewUserState:"
++ "didUpdateLocation:"
++ "dismissAccessPointInOverlay"
++ "firstActiveConversation"
++ "gameHint"
++ "gseui"
++ "hideAccessPointInOverlay"
++ "hudScene"
++ "incrementHideCount"
++ "initWithAccountStore:"
++ "isAppUnlistedAndDisallowed:"
++ "isSignedIntoAnotherService()"
++ "isWelcomeOrSignInBannerEnqueued"
++ "loadAchievementsForGameWithProfileFetchOptions:players:includeUnreported:includeHidden:profileFetchOptions:withCompletionHandler:"
++ "notifyClient:playerAuthenticatedFromClient:"
++ "picker.friends"
++ "picker.nearby.expanded"
++ "presentAccessPointInOverlay"
++ "presentAchievementBannerInOverlayWithIdentifier:title:message:image:"
++ "presentAvatarPicker()"
++ "presentWelcomeBannerInOverlay"
++ "presentedExpandedGroupViewController"
++ "processLeaderboardRequest(from:request:gameRecord:)"
++ "releaseStateHeaderText"
++ "releaseStateIcon"
++ "releaseStateInfoBox"
++ "releaseStateInfoBoxContents"
++ "releaseStateInfoText"
++ "setAccessibilityPrefix:"
++ "setFirstActiveConversation:"
++ "setIsWelcomeOrSignInBannerEnqueued:"
++ "setReleaseStateHeaderText:"
++ "setReleaseStateIcon:"
++ "setReleaseStateInfoBox:"
++ "setReleaseStateInfoBoxContents:"
++ "setReleaseStateInfoText:"
++ "setShareInvitees:forMatch:propagateToDaemon:"
++ "setupReleaseStateInfo"
++ "showAccessPointInOverlay"
++ "supportedServices"
++ "symbolImageNamed:"
++ "unable to fetch recently played games for Continue Playing Section because of an error : "
++ "username"
++ "\xf0\xf0\xc1"
+- "\x1f\f"
+- "!\x11\x12"
+- "%s %+ld"
+- "%{public}@"
+- "****** %@ - GKCVC - c:%p %s \n%@ \n%@"
+- "****** %@ - GKCVC INIT - ds:%p %s %@"
+- "****** %@%@ - hideCount++  --> %@"
+- "****** %@%@ - hideCount--  --> %@"
+- "****** - GKCVC - %s \n%@ \n%@"
+- "-[GKMultiplayerDataSource addPlayers:withStatus:replaceAutomatches:complete:]_block_invoke"
+- "-[GKMultiplayerDataSource removePlayers:complete:]_block_invoke"
+- "-[GKMultiplayerDataSource setStatus:forPlayers:complete:]_block_invoke"
+- "/\a8"
+- "<Warning>: matchmakerDelegate not found for %p"
+- "<Warning>: matchmakerDelegate not found for GKMatchmakerViewController instance: %p"
+- "<not available>"
+- "<not available> %@"
+- "<redacted>"
+- "Could not create ContinuePlayingData.GameData beacuse of an error  : "
+- "ForceModernPointsPerMeter"
+- "GKActivity"
+- "SETTINGS_PROFILE_PRIVACY_UNDERAGE_HINT_IOS"
+- "T#,R,N"
+- "T@\"<UIStateRestoring>\",R,N"
+- "T@\"NSString\",R,C,N"
+- "T@\"UIBezierPath\",R,N"
+- "T@\"UILabel\",&,N,V_underageHintLabel"
+- "T@\"UIView\",R,W,N"
+- "WARNING: %s is obsoleted. Game Center doesn't invoke this obsoleted method from iOS/tvOS %@ and macOS %@ onwards"
+- "XRRuntimeSupport"
+- "_underageHintLabel"
+- "allAuthKitAccounts"
+- "callStackReturnAddresses"
+- "detailText"
+- "dispatchGroup"
+- "execute:"
+- "friending_improvements"
+- "game_overlay_ui"
+- "minimumLineHeight"
+- "n/a"
+- "os_activity"
+- "setMaximumLineHeight:"
+- "setMinimumLineHeight:"
+- "setShareInvitees:propogateToDaemon:"
+- "setUnderageHintLabel:"
+- "unable to fetch recently played games for Continue Playing Section beacuse of an error : "
+- "underageHintLabel"
+- "unsignedLongLongValue"
+- "\xf0\xf0q"
+
+```

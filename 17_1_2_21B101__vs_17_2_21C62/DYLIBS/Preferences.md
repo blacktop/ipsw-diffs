@@ -1,0 +1,2063 @@
+## Preferences
+
+> `/System/Library/PrivateFrameworks/Preferences.framework/Preferences`
+
+```diff
+
+-5215.2.3.0.0
+-  __TEXT.__text: 0xeb938
+-  __TEXT.__auth_stubs: 0x18d0
+-  __TEXT.__objc_methlist: 0xb960
+-  __TEXT.__const: 0x244
+-  __TEXT.__gcc_except_tab: 0x1d9c
+-  __TEXT.__cstring: 0xe5ea
++5215.3.9.0.0
++  __TEXT.__text: 0xd9be8
++  __TEXT.__auth_stubs: 0x1770
++  __TEXT.__objc_methlist: 0xa938
++  __TEXT.__const: 0x1fc
++  __TEXT.__gcc_except_tab: 0x1c48
++  __TEXT.__cstring: 0xdcd9
+   __TEXT.__ustring: 0x22
+-  __TEXT.__dlopen_cstrs: 0x1f25
+-  __TEXT.__oslogstring: 0x358a
+-  __TEXT.__unwind_info: 0x3c0c
+-  __TEXT.__objc_classname: 0x204f
+-  __TEXT.__objc_methname: 0x209e2
+-  __TEXT.__objc_methtype: 0x47fa
+-  __TEXT.__objc_stubs: 0x189e0
+-  __DATA_CONST.__got: 0x640
+-  __DATA_CONST.__const: 0x3cd8
+-  __DATA_CONST.__objc_classlist: 0x7d0
++  __TEXT.__dlopen_cstrs: 0x1e82
++  __TEXT.__oslogstring: 0x3379
++  __TEXT.__unwind_info: 0x3794
++  __TEXT.__objc_classname: 0x1d09
++  __TEXT.__objc_methname: 0x1e1d2
++  __TEXT.__objc_methtype: 0x44eb
++  __TEXT.__objc_stubs: 0x16ba0
++  __DATA_CONST.__got: 0x5c8
++  __DATA_CONST.__const: 0x39c0
++  __DATA_CONST.__objc_classlist: 0x6e8
+   __DATA_CONST.__objc_catlist: 0x38
+-  __DATA_CONST.__objc_protolist: 0x1f8
++  __DATA_CONST.__objc_protolist: 0x1e0
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_const: 0x125b8
+-  __DATA_CONST.__objc_selrefs: 0x7ac0
+-  __DATA_CONST.__objc_arraydata: 0x320
+-  __AUTH_CONST.__cfstring: 0xd920
+-  __AUTH_CONST.__objc_const: 0x5ae8
+-  __AUTH_CONST.__const: 0xca0
+-  __AUTH_CONST.__objc_arrayobj: 0xa8
+-  __AUTH_CONST.__objc_intobj: 0x420
+-  __AUTH_CONST.__objc_doubleobj: 0x90
+-  __AUTH_CONST.__objc_dictobj: 0xc8
++  __DATA_CONST.__objc_const: 0x10900
++  __DATA_CONST.__objc_selrefs: 0x7080
++  __DATA_CONST.__objc_arraydata: 0x2c0
++  __AUTH_CONST.__cfstring: 0xcb80
++  __AUTH_CONST.__objc_const: 0x51e8
++  __AUTH_CONST.__const: 0xbe0
++  __AUTH_CONST.__objc_arrayobj: 0x90
++  __AUTH_CONST.__objc_intobj: 0x3f0
++  __AUTH_CONST.__objc_dictobj: 0x50
+   __AUTH_CONST.__auth_ptr: 0x10
+-  __AUTH_CONST.__auth_got: 0xc78
+-  __AUTH.__objc_data: 0x4240
++  __AUTH_CONST.__auth_got: 0xbc8
++  __AUTH.__objc_data: 0x3a20
+   __DATA.__objc_protorefs: 0x48
+-  __DATA.__objc_classrefs: 0x9b0
+-  __DATA.__objc_superrefs: 0x530
+-  __DATA.__objc_ivar: 0xd14
+-  __DATA.__data: 0x1b2a
++  __DATA.__objc_classrefs: 0x8e8
++  __DATA.__objc_superrefs: 0x498
++  __DATA.__objc_ivar: 0xb9c
++  __DATA.__data: 0x19ea
+   __DATA.__crash_info: 0x40
+-  __DATA.__bss: 0xb18
++  __DATA.__bss: 0xa80
+   __DATA.__common: 0x48
+-  __DATA_DIRTY.__objc_data: 0xbe0
++  __DATA_DIRTY.__objc_data: 0xaf0
+   __DATA_DIRTY.__bss: 0x10
+   - /System/Library/Frameworks/AVFAudio.framework/AVFAudio
+   - /System/Library/Frameworks/AVFoundation.framework/AVFoundation
+
+   - /usr/lib/liblockdown.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libutil.dylib
+-  Functions: 5351
+-  Symbols:   18724
+-  CStrings:  8911
++  Functions: 4930
++  Symbols:   17265
++  CStrings:  8260
+ 
+Symbols:
++ -[PSCoreSpotlightIndexer fedStatsStringsFromManifestBundlesAtURLs:withCompletion:]
++ -[PSCoreSpotlightIndexer searchableItemsFromManifest:specifier:bundle:processCapabilities:]
++ -[PSListController _insertContiguousSpecifiers:atIndex:animated:].cold.1
++ -[PSListController _removeContiguousSpecifiers:animated:].cold.1
++ -[ProblemReportingController analyticsSpecifiersIncludingIndependentSpecifiers:includeDependentSpecifiers:].cold.1
++ -[ProblemReportingController improveARLocationAccuracyForSpecifier:]
++ -[ProblemReportingController improveARLocationAccuracyForSpecifier:].cold.1
++ -[ProblemReportingController improveARLocationAccuracySpecifiers]
++ -[ProblemReportingController setImproveARLocationAccuracy:specifier:]
++ -[ProblemReportingController setImproveARLocationAccuracy:specifier:].cold.1
++ -[ProblemReportingController showImproveARLocationAccuracyDataSheet]
++ -[ProblemReportingController showImproveARLocationAccuracyDataSheet].cold.1
++ -[SUIKSearchResultsCollectionViewController queryFoundItems]
++ -[SUIKSearchResultsCollectionViewController searchQueryTextChanged]
++ -[SUIKSearchResultsCollectionViewController setQueryFoundItems:]
++ GCC_except_table105
++ GCC_except_table121
++ GCC_except_table134
++ GCC_except_table135
++ GCC_except_table136
++ GCC_except_table48
++ GCC_except_table50
++ GCC_except_table72
++ GCC_except_table74
++ GCC_except_table77
++ GCC_except_table79
++ GCC_except_table91
++ GCC_except_table98
++ _GeoServicesLibrary
++ _GeoServicesLibraryCore.frameworkLibrary
++ _MomentsOnboardingAndSettingsLibraryCore
++ _NSTemporaryDirectory
++ _OBJC_IVAR_$_ProblemReportingController._improveARLocationAccuracySpecifiers
++ _OBJC_IVAR_$_SUIKSearchResultsCollectionViewController._queryFoundItems
++ _PSGEOVisualLocalizationCrowdsourcingIsAllowed
++ _PSGEOVisualLocalizationCrowdsourcingIsAllowed.cold.1
++ _SafariServicesLibraryCore.frameworkLibrary
++ _SearchSpecifiersFromPlistWithCapabilities
++ _SpecifiersFromPlistWithCapabilities
++ __OBJC_$_INSTANCE_METHODS_PSViewController
++ ___116-[PSCoreSpotlightIndexer reindexSpecifiersIfNeeded:bundle:withURLPrefix:waitForCompletion:setHasIndexed:completion:]_block_invoke.308
++ ___116-[PSCoreSpotlightIndexer reindexSpecifiersIfNeeded:bundle:withURLPrefix:waitForCompletion:setHasIndexed:completion:]_block_invoke.309
++ ___116-[PSCoreSpotlightIndexer reindexSpecifiersIfNeeded:bundle:withURLPrefix:waitForCompletion:setHasIndexed:completion:]_block_invoke.310
++ ___63-[DiagnosticDataController _loadDiagnosticsDataWithCompletion:]_block_invoke.144
++ ___67-[PSCoreSpotlightIndexer indexThirdPartyAppsWithPrefix:completion:]_block_invoke.403
++ ___67-[PSCoreSpotlightIndexer indexThirdPartyAppsWithPrefix:completion:]_block_invoke.404
++ ___68-[PSCoreSpotlightIndexer indexManifestBundlesAtURLs:withCompletion:]_block_invoke.275
++ ___68-[PSCoreSpotlightIndexer indexManifestBundlesAtURLs:withCompletion:]_block_invoke.276
++ ___68-[PSCoreSpotlightIndexer indexManifestBundlesAtURLs:withCompletion:]_block_invoke.288
++ ___70-[ProblemReportingController shouldShowIdentityVerificationSpecifiers]_block_invoke.520
++ ___GeoServicesLibraryCore_block_invoke
++ ___SafariServicesLibraryCore_block_invoke
++ ___block_descriptor_32_e31_q24?0"NSString"8"NSString"16l
++ ___block_literal_global.135
++ ___block_literal_global.138
++ ___block_literal_global.143
++ ___block_literal_global.161
++ ___block_literal_global.215
++ ___block_literal_global.257
++ ___block_literal_global.272
++ ___block_literal_global.61
++ ___block_literal_global.865
++ ___block_literal_global.89
++ ___getGEOVisualLocalizationCrowdsourcingIsAllowedSymbolLoc_block_invoke
++ ___getGEOVisualLocalizationCrowdsourcingIsEnabledSymbolLoc_block_invoke
++ ___getGEOVisualLocalizationCrowdsourcingIsSupportedSymbolLoc_block_invoke
++ ___getGEOVisualLocalizationCrowdsourcingLearnMoreURLSymbolLoc_block_invoke
++ ___getGEOVisualLocalizationCrowdsourcingSetEnabledSymbolLoc_block_invoke
++ ___getMOApprovedApplicationsManagerClass_block_invoke
++ ___getMOApprovedApplicationsManagerClass_block_invoke.cold.1
++ ___getSFSafariViewControllerClass_block_invoke
++ ___getSFSafariViewControllerClass_block_invoke.cold.1
++ __unnamed_array_storage.306
++ _audit_stringGeoServices
++ _audit_stringSafariServices
++ _getGEOVisualLocalizationCrowdsourcingIsAllowedSymbolLoc.ptr
++ _getGEOVisualLocalizationCrowdsourcingIsEnabledSymbolLoc.ptr
++ _getGEOVisualLocalizationCrowdsourcingIsSupportedSymbolLoc.ptr
++ _getGEOVisualLocalizationCrowdsourcingLearnMoreURLSymbolLoc.ptr
++ _getGEOVisualLocalizationCrowdsourcingSetEnabledSymbolLoc.ptr
++ _getMOApprovedApplicationsManagerClass.softClass
++ _getSFSafariViewControllerClass.softClass
++ _objc_msgSend$fedStatsStringsFromManifestBundlesAtURLs:withCompletion:
++ _objc_msgSend$improveARLocationAccuracyForSpecifier:
++ _objc_msgSend$improveARLocationAccuracySpecifiers
++ _objc_msgSend$initWithURL:
++ _objc_msgSend$isJournalingSuggestionsAvailableForBundleIdentifier:
++ _objc_msgSend$queryFoundItems
++ _objc_msgSend$searchableItemsFromManifest:specifier:bundle:processCapabilities:
++ _objc_msgSend$setQueryFoundItems:
++ _objc_msgSend$writeToFile:atomically:encoding:error:
+- +[PSInternationalLanguageController capitalizeLanguageNames]
+- +[PSLanguage languageWithCode:name:localizedName:]
+- +[PSRegion regionWithName:code:]
+- +[PSSimulatedCrash simulateCrashWithFormat:]
+- +[PSSimulatedCrash simulateCrashWithString:]
+- +[PSSimulatedCrash simulateCrashWithString:].cold.1
+- +[PSSoftwareUpdateTitleCell cellStyle]
+- +[PSStackPushAnimationController _animationParametersForPreset:]
+- +[PSStackPushAnimationController _snapshotOfViewController:withNavigationBar:prevViewController:]
+- +[PSStackPushAnimationController controllerWithViewControllerStack:navigationController:]
+- +[PSStackPushAnimationController resetDefaultAnimationParameters]
+- +[PSStackPushAnimationController setDefaultAnimationPreset:]
+- +[PSStorageAppHeaderCell specifierForAppIdentifier:]
+- -[FontSizeSliderCell layoutSubviews]
+- -[FontSizeSliderCell newControl]
+- -[LargeTextExplanationView .cxx_destruct]
+- -[LargeTextExplanationView initWithSpecifier:]
+- -[LargeTextExplanationView layoutForWidth:inTableView:]
+- -[LargeTextExplanationView layoutSubviews]
+- -[LargeTextExplanationView preferredHeightForWidth:inTableView:]
+- -[LargerSizesHelpTextView .cxx_destruct]
+- -[LargerSizesHelpTextView initWithSpecifier:]
+- -[LargerSizesHelpTextView layoutForWidth:inTableView:]
+- -[LargerSizesHelpTextView layoutSubviews]
+- -[LargerSizesHelpTextView preferredHeightForWidth:inTableView:]
+- -[PSCloudSyncButton .cxx_destruct]
+- -[PSCloudSyncButton cloudSyncAction:]
+- -[PSCloudSyncButton controller]
+- -[PSCloudSyncButton delegate]
+- -[PSCloudSyncButton hasMergeConflict]
+- -[PSCloudSyncButton initWithController:options:delegate:]
+- -[PSCloudSyncButton isCloudSyncEnabled]
+- -[PSCloudSyncButton mergeConflictMessage]
+- -[PSCloudSyncButton options]
+- -[PSCloudSyncButton setCloudSyncEnabled:]
+- -[PSCloudSyncButton setDelegate:]
+- -[PSCloudSyncButton setOptions:]
+- -[PSCloudSyncButton setSyncEnabled:]
+- -[PSCloudSyncButton setSyncError:]
+- -[PSCloudSyncButton showRedirectSheet]
+- -[PSCloudSyncButton syncEnabled]
+- -[PSCloudSyncButton syncError]
+- -[PSCloudSyncButton syncMessage]
+- -[PSCloudSyncButton syncTitle]
+- -[PSCloudSyncButton updateIcon]
+- -[PSCloudSyncButton update]
+- -[PSCloudSyncController .cxx_destruct]
+- -[PSCloudSyncController cloudSyncEnabled]
+- -[PSCloudSyncController delegate]
+- -[PSCloudSyncController initWithDelegate:]
+- -[PSCloudSyncController setCloudSyncEnabled:]
+- -[PSCloudSyncController setDelegate:]
+- -[PSCloudSyncController specifiers]
+- -[PSCloudSyncController viewWillAppear:]
+- -[PSCoreSpotlightIndexer searchableItemsFromManifest:specifier:bundle:]
+- -[PSExpandableAppListGroup showAllSpecifier]
+- -[PSExpandableListGroup .cxx_destruct]
+- -[PSExpandableListGroup _groupIndex]
+- -[PSExpandableListGroup addSpecifiers:]
+- -[PSExpandableListGroup initWithListController:groupSpecifier:]
+- -[PSExpandableListGroup initWithListController:groupSpecifierID:collapseAfterCount:]
+- -[PSExpandableListGroup reloadSpecifier:]
+- -[PSExpandableListGroup reloadSpecifiers]
+- -[PSExpandableListGroup removeAllSpecifiers]
+- -[PSExpandableListGroup showAllSpecifier]
+- -[PSExpandableListGroup showAll]
+- -[PSExpandableListGroup specifiers]
+- -[PSExpandableListGroup spinnerSpecifier]
+- -[PSInternationalLanguageController .cxx_destruct]
+- -[PSInternationalLanguageController _mainContentView]
+- -[PSInternationalLanguageController cancelButtonTapped]
+- -[PSInternationalLanguageController checkedLanguage]
+- -[PSInternationalLanguageController dealloc]
+- -[PSInternationalLanguageController deviceLanguages]
+- -[PSInternationalLanguageController doneButtonTapped]
+- -[PSInternationalLanguageController filteredDeviceLanguages]
+- -[PSInternationalLanguageController filteredLanguagesForLanguageList:searchString:]
+- -[PSInternationalLanguageController generateLanguageCells]
+- -[PSInternationalLanguageController languageSelector]
+- -[PSInternationalLanguageController loadData]
+- -[PSInternationalLanguageController loadView]
+- -[PSInternationalLanguageController localeSelector]
+- -[PSInternationalLanguageController numberOfSectionsInTableView:]
+- -[PSInternationalLanguageController reloadDataAndScrollToCheckedLanguageWithAnimation:]
+- -[PSInternationalLanguageController savedSearchTerm]
+- -[PSInternationalLanguageController searchBar:textDidChange:]
+- -[PSInternationalLanguageController searchBarCancelButtonClicked:]
+- -[PSInternationalLanguageController searchBarTextDidBeginEditing:]
+- -[PSInternationalLanguageController searchBarTextDidEndEditing:]
+- -[PSInternationalLanguageController searchIsActive]
+- -[PSInternationalLanguageController setCheckedLanguage:]
+- -[PSInternationalLanguageController setDeviceLanguages:]
+- -[PSInternationalLanguageController setFilteredDeviceLanguages:]
+- -[PSInternationalLanguageController setLanguageSelector:]
+- -[PSInternationalLanguageController setLocaleSelector:]
+- -[PSInternationalLanguageController setSavedSearchTerm:]
+- -[PSInternationalLanguageController setSearchIsActive:]
+- -[PSInternationalLanguageController tableView:cellForRowAtIndexPath:]
+- -[PSInternationalLanguageController tableView:didSelectRowAtIndexPath:]
+- -[PSInternationalLanguageController tableView:numberOfRowsInSection:]
+- -[PSInternationalLanguageController updateNavigationItem]
+- -[PSInternationalLanguageController viewDidAppear:]
+- -[PSInternationalLanguageController viewWillAppear:]
+- -[PSInternationalLanguageSetupController .cxx_destruct]
+- -[PSInternationalLanguageSetupController commit]
+- -[PSInternationalLanguageSetupController languageSelector]
+- -[PSInternationalLanguageSetupController setLanguage:specifier:]
+- -[PSInternationalLanguageSetupController setLanguageSelector:]
+- -[PSInternationalLanguageSetupController setupController]
+- -[PSLanguage .cxx_destruct]
+- -[PSLanguage displayNamesAreEqual]
+- -[PSLanguage languageCode]
+- -[PSLanguage languageName]
+- -[PSLanguage localizedLanguageName]
+- -[PSLanguage setLanguageCode:]
+- -[PSLanguage setLanguageName:]
+- -[PSLanguage setLocalizedLanguageName:]
+- -[PSLanguageSelector deviceLanguageIdentifier]
+- -[PSLanguageSelector preferredLanguages]
+- -[PSLanguageSelector setLanguage:fallback:]
+- -[PSLanguageSelector systemLanguages]
+- -[PSLargeTextController .cxx_destruct]
+- -[PSLargeTextController dealloc]
+- -[PSLargeTextController init]
+- -[PSLargeTextController loadView]
+- -[PSLargeTextController setShowsExtendedRangeSwitch:]
+- -[PSLargeTextController setUsesExtendedRange:forSpecifier:]
+- -[PSLargeTextController showsExtendedRangeSwitch]
+- -[PSLargeTextController sizeCategoryDidChange:]
+- -[PSLargeTextController specifiers]
+- -[PSLargeTextController usesExtendedRangeForSpecifier:]
+- -[PSLargeTextController viewDidLayoutSubviews]
+- -[PSLargeTextSliderListController .cxx_destruct]
+- -[PSLargeTextSliderListController contentSizeCategories]
+- -[PSLargeTextSliderListController getDynamicTypeValueForSpecifier:]
+- -[PSLargeTextSliderListController initUsingExtendedRange:]
+- -[PSLargeTextSliderListController loadView]
+- -[PSLargeTextSliderListController selectedCategoryIndex]
+- -[PSLargeTextSliderListController setContentSizeCategories:]
+- -[PSLargeTextSliderListController setDynamicTypeValue:forSpecifier:]
+- -[PSLargeTextSliderListController setSelectedCategoryIndex:]
+- -[PSLargeTextSliderListController setShowsExtendedRangeSwitch:]
+- -[PSLargeTextSliderListController setShowsLargerSizesHelpText:]
+- -[PSLargeTextSliderListController setUsesExtendedRange:]
+- -[PSLargeTextSliderListController showsExtendedRangeSwitch]
+- -[PSLargeTextSliderListController showsLargerSizesHelpText]
+- -[PSLargeTextSliderListController specifiers]
+- -[PSLargeTextSliderListController usesExtendedRange]
+- -[PSLargeTextSliderListController viewWillAppear:]
+- -[PSLargeTextSliderListController viewWillDisappear:]
+- -[PSLocaleController .cxx_destruct]
+- -[PSLocaleController _mainContentView]
+- -[PSLocaleController currentRegion]
+- -[PSLocaleController dealloc]
+- -[PSLocaleController filteredListContent]
+- -[PSLocaleController filteredRegionsForRegionList:searchString:]
+- -[PSLocaleController loadRegions]
+- -[PSLocaleController loadView]
+- -[PSLocaleController localeSelector]
+- -[PSLocaleController numberOfSectionsInTableView:]
+- -[PSLocaleController regionsList]
+- -[PSLocaleController reloadDataAndScrollToCheckedRegionAnimated:]
+- -[PSLocaleController reloadSections]
+- -[PSLocaleController scrollViewWillBeginDragging:]
+- -[PSLocaleController searchBar:textDidChange:]
+- -[PSLocaleController searchBarTextDidBeginEditing:]
+- -[PSLocaleController searchBarTextDidEndEditing:]
+- -[PSLocaleController sectionIndexTitlesForTableView:]
+- -[PSLocaleController sections]
+- -[PSLocaleController setCurrentRegion:]
+- -[PSLocaleController setFilteredListContent:]
+- -[PSLocaleController setLocaleSelector:]
+- -[PSLocaleController setRegionsList:]
+- -[PSLocaleController setSections:]
+- -[PSLocaleController tableView:cellForRowAtIndexPath:]
+- -[PSLocaleController tableView:didSelectRowAtIndexPath:]
+- -[PSLocaleController tableView:numberOfRowsInSection:]
+- -[PSLocaleController tableView:titleForHeaderInSection:]
+- -[PSLocaleController updateChecked:]
+- -[PSLocaleController viewDidLayoutSubviews]
+- -[PSLocaleController viewDidLoad]
+- -[PSLocaleController viewWillAppear:]
+- -[PSLocaleSelector availableLocaleIdentifiers]
+- -[PSLocaleSelector currentLocale]
+- -[PSLocaleSelector setLocaleFromLanguageIdentifier:]
+- -[PSLocaleSelector setLocaleFromRegionCode:]
+- -[PSRegion .cxx_destruct]
+- -[PSRegion regionCode]
+- -[PSRegion regionName]
+- -[PSRegion setRegionCode:]
+- -[PSRegion setRegionName:]
+- -[PSRootController _setNavigationBarHidden:edge:duration:]
+- -[PSRootController navigationController:animationControllerForOperation:fromViewController:toViewController:]
+- -[PSRootController pushControllersAsStack:]
+- -[PSRootController respondsToSelector:]
+- -[PSSoftwareUpdateAnimatedIcon .cxx_destruct]
+- -[PSSoftwareUpdateAnimatedIcon createConstraints]
+- -[PSSoftwareUpdateAnimatedIcon initWithFrame:]
+- -[PSSoftwareUpdateAnimatedIcon innerGearView]
+- -[PSSoftwareUpdateAnimatedIcon outerGearShadowView]
+- -[PSSoftwareUpdateAnimatedIcon outerGearView]
+- -[PSSoftwareUpdateAnimatedIcon setAnimating:]
+- -[PSSoftwareUpdateLicenseViewController .cxx_destruct]
+- -[PSSoftwareUpdateLicenseViewController _canShowWhileLocked]
+- -[PSSoftwareUpdateLicenseViewController didReceiveMemoryWarning]
+- -[PSSoftwareUpdateLicenseViewController initWithLicense:]
+- -[PSSoftwareUpdateLicenseViewController licenseTextInfo]
+- -[PSSoftwareUpdateLicenseViewController licenseTextView]
+- -[PSSoftwareUpdateLicenseViewController setLicenseText:]
+- -[PSSoftwareUpdateLicenseViewController setLicenseTextInfo:]
+- -[PSSoftwareUpdateLicenseViewController setLicenseTextView:]
+- -[PSSoftwareUpdateLicenseViewController viewDidLoad]
+- -[PSSoftwareUpdateLicenseViewController viewWillLayoutSubviews]
+- -[PSSoftwareUpdateReleaseNotesDetail .cxx_destruct]
+- -[PSSoftwareUpdateReleaseNotesDetail init]
+- -[PSSoftwareUpdateReleaseNotesDetail loadView]
+- -[PSSoftwareUpdateReleaseNotesDetail releaseNotes]
+- -[PSSoftwareUpdateReleaseNotesDetail setReleaseNotes:]
+- -[PSSoftwareUpdateReleaseNotesDetail specifiers]
+- -[PSSoftwareUpdateReleaseNotesDetail webView:shouldStartLoadWithRequest:navigationType:]
+- -[PSSoftwareUpdateTableView .cxx_destruct]
+- -[PSSoftwareUpdateTableView checkingForUpdateSpinner]
+- -[PSSoftwareUpdateTableView checkingStatusLabel]
+- -[PSSoftwareUpdateTableView currentVersion]
+- -[PSSoftwareUpdateTableView initWithFrame:style:]
+- -[PSSoftwareUpdateTableView layoutSubviews]
+- -[PSSoftwareUpdateTableView preferredContentSizeChanged:]
+- -[PSSoftwareUpdateTableView setCheckingForUpdateSpinner:]
+- -[PSSoftwareUpdateTableView setCheckingStatusLabel:]
+- -[PSSoftwareUpdateTableView setCurrentVersion:]
+- -[PSSoftwareUpdateTableView setState:]
+- -[PSSoftwareUpdateTableView setSubtitleLabel:]
+- -[PSSoftwareUpdateTableView setUpdatesDeferred:]
+- -[PSSoftwareUpdateTableView state]
+- -[PSSoftwareUpdateTableView subtitleLabel]
+- -[PSSoftwareUpdateTableView updatesDeferred]
+- -[PSSoftwareUpdateTermsManager .cxx_destruct]
+- -[PSSoftwareUpdateTermsManager _acceptedTermsFromAsset]
+- -[PSSoftwareUpdateTermsManager _acceptedTermsVersion:]
+- -[PSSoftwareUpdateTermsManager _finishTermsWithAcceptance:error:]
+- -[PSSoftwareUpdateTermsManager _handleAgreeFromObjectModel:]
+- -[PSSoftwareUpdateTermsManager _loadRemoteUITermsWithCloudAtURL:]
+- -[PSSoftwareUpdateTermsManager _loadRemoteUITermsWithCloudAtURL:].cold.1
+- -[PSSoftwareUpdateTermsManager _loadTermsFromUpdateAsset]
+- -[PSSoftwareUpdateTermsManager _loadTermsRemoteUIFailureWithError:]
+- -[PSSoftwareUpdateTermsManager _presentModalController:]
+- -[PSSoftwareUpdateTermsManager _termsDisagree]
+- -[PSSoftwareUpdateTermsManager cancelLoadingTerms:]
+- -[PSSoftwareUpdateTermsManager presentTermsIfNecessaryForUpdate:overController:showLoadSpinner:completion:]
+- -[PSSoftwareUpdateTermsManager remoteUIController:didFinishLoadWithError:]
+- -[PSSoftwareUpdateTermsManager remoteUIController:didReceiveObjectModel:actionSignal:]
+- -[PSSoftwareUpdateTermsManager remoteUIController:willPresentObjectModel:modally:]
+- -[PSSoftwareUpdateTermsManager remoteUIControllerDidDismiss:]
+- -[PSSoftwareUpdateTermsManager serverFlowStyle]
+- -[PSSoftwareUpdateTermsManager setServerFlowStyle:]
+- -[PSSoftwareUpdateTermsManager showLoadingSpinnerViewController]
+- -[PSSoftwareUpdateTermsManager versionFromLicenseText:]
+- -[PSSoftwareUpdateTitleCell .cxx_destruct]
+- -[PSSoftwareUpdateTitleCell animationDidStop:finished:]
+- -[PSSoftwareUpdateTitleCell configureAnimatedGearViewFromImageSize:]
+- -[PSSoftwareUpdateTitleCell configureImageView]
+- -[PSSoftwareUpdateTitleCell configureProgressBar:]
+- -[PSSoftwareUpdateTitleCell configurePublisherLabel:]
+- -[PSSoftwareUpdateTitleCell configureReleaseNotesSummaryView:]
+- -[PSSoftwareUpdateTitleCell configureUpdateNameLabel:]
+- -[PSSoftwareUpdateTitleCell configureUpdateStatusLabel:]
+- -[PSSoftwareUpdateTitleCell createGearIconConstraints]
+- -[PSSoftwareUpdateTitleCell gearBackgroundImageView]
+- -[PSSoftwareUpdateTitleCell gearBackgroundImage]
+- -[PSSoftwareUpdateTitleCell initWithStyle:reuseIdentifier:specifier:]
+- -[PSSoftwareUpdateTitleCell layoutSubviews]
+- -[PSSoftwareUpdateTitleCell newGearBackgroundImageView]
+- -[PSSoftwareUpdateTitleCell newProgressBar]
+- -[PSSoftwareUpdateTitleCell newSoftwareUpdateAnimatedIconWithFrame:]
+- -[PSSoftwareUpdateTitleCell newUpdateStatusLabel]
+- -[PSSoftwareUpdateTitleCell preferredHeightWithTable:]
+- -[PSSoftwareUpdateTitleCell progressBar]
+- -[PSSoftwareUpdateTitleCell progressDisplayStyle]
+- -[PSSoftwareUpdateTitleCell releaseNotesSummaryView]
+- -[PSSoftwareUpdateTitleCell setAnimatingGearView:]
+- -[PSSoftwareUpdateTitleCell setGearBackgroundImageView:]
+- -[PSSoftwareUpdateTitleCell setProgress:]
+- -[PSSoftwareUpdateTitleCell setProgressDisplayStyle:]
+- -[PSSoftwareUpdateTitleCell setPublisherText:]
+- -[PSSoftwareUpdateTitleCell setReleaseNotesSummary:]
+- -[PSSoftwareUpdateTitleCell setStatusMessage:]
+- -[PSSoftwareUpdateTitleCell setUpdateName:]
+- -[PSSoftwareUpdateTitleCell setUpdateStatusLabelVerticalConstraint:]
+- -[PSSoftwareUpdateTitleCell setupViews]
+- -[PSSoftwareUpdateTitleCell updateConstraints]
+- -[PSSoftwareUpdateTitleCell updateProgressTintColor]
+- -[PSSoftwareUpdateTitleCell updateStatusLabelVerticalConstraint]
+- -[PSSoftwareUpdateTitleCell updateStatusLabel]
+- -[PSStackPushAnimationController .cxx_destruct]
+- -[PSStackPushAnimationController _actualDuration]
+- -[PSStackPushAnimationController _addAnimation:forViewAtIndex:count:]
+- -[PSStackPushAnimationController _desiredDuration]
+- -[PSStackPushAnimationController _loadDefaultValues]
+- -[PSStackPushAnimationController _shouldSkipFirstPush]
+- -[PSStackPushAnimationController _valueForAnimationParameter:]
+- -[PSStackPushAnimationController animateAlongsideToViewController:]
+- -[PSStackPushAnimationController animateTransition:]
+- -[PSStackPushAnimationController animationEnded:]
+- -[PSStackPushAnimationController animationPreset]
+- -[PSStackPushAnimationController completionBlock]
+- -[PSStackPushAnimationController completionStagger]
+- -[PSStackPushAnimationController init]
+- -[PSStackPushAnimationController navigationController]
+- -[PSStackPushAnimationController pushDuration]
+- -[PSStackPushAnimationController setAnimationPreset:]
+- -[PSStackPushAnimationController setCompletionBlock:]
+- -[PSStackPushAnimationController setCompletionStagger:]
+- -[PSStackPushAnimationController setNavigationController:]
+- -[PSStackPushAnimationController setPushDuration:]
+- -[PSStackPushAnimationController setSpringDamping:]
+- -[PSStackPushAnimationController setStartStagger:]
+- -[PSStackPushAnimationController setViewControllers:]
+- -[PSStackPushAnimationController springDamping]
+- -[PSStackPushAnimationController startStagger]
+- -[PSStackPushAnimationController transitionDuration:]
+- -[PSStackPushAnimationController viewControllers]
+- -[PSViewController(CloudSync) installCloudSyncButton:delegate:]
+- -[_PSSpinnerHandlingNavigationController _removeSpinnerViewControllerIfNeeded]
+- -[_PSSpinnerHandlingNavigationController initWithNibName:bundle:]
+- -[_PSSpinnerHandlingNavigationController navigationController:didShowViewController:animated:]
+- -[_PSSpinnerHandlingNavigationController pushViewController:animated:]
+- -[_PSSpinnerViewController .cxx_destruct]
+- -[_PSSpinnerViewController loadView]
+- -[_PSSpinnerViewController updateViewConstraints]
+- GCC_except_table120
+- GCC_except_table137
+- GCC_except_table150
+- GCC_except_table27
+- GCC_except_table57
+- GCC_except_table78
+- GCC_except_table90
+- OBJC_IVAR_$_PSSoftwareUpdateReleaseNotesDetail._releaseNotes
+- OBJC_IVAR_$_PSSoftwareUpdateTitleCell._animatedGearView
+- OBJC_IVAR_$_PSSoftwareUpdateTitleCell._animatingGearView
+- OBJC_IVAR_$_PSSoftwareUpdateTitleCell._progressStyle
+- _CFRunLoopPerformBlock
+- _CGAffineTransformMakeScale
+- _CGContextTranslateCTM
+- _CPSharedResourcesDirectory
+- _IsRegulatoryImageFromLockdown
+- _LocalizedPolarisExplanation
+- _MGGetSInt32Answer
+- _NSLogv
+- _OBJC_CLASS_$_CABasicAnimation
+- _OBJC_CLASS_$_CAMediaTimingFunction
+- _OBJC_CLASS_$_FontSizeSliderCell
+- _OBJC_CLASS_$_LargeTextExplanationView
+- _OBJC_CLASS_$_LargerSizesHelpTextView
+- _OBJC_CLASS_$_NSConstantDoubleNumber
+- _OBJC_CLASS_$_NSParagraphStyle
+- _OBJC_CLASS_$_PSCloudSyncButton
+- _OBJC_CLASS_$_PSCloudSyncController
+- _OBJC_CLASS_$_PSExpandableAppListGroup
+- _OBJC_CLASS_$_PSExpandableListGroup
+- _OBJC_CLASS_$_PSInternationalController
+- _OBJC_CLASS_$_PSInternationalLanguageController
+- _OBJC_CLASS_$_PSInternationalLanguageSetupController
+- _OBJC_CLASS_$_PSLanguage
+- _OBJC_CLASS_$_PSLanguageSelector
+- _OBJC_CLASS_$_PSLargeTextController
+- _OBJC_CLASS_$_PSLargeTextSliderListController
+- _OBJC_CLASS_$_PSLocaleController
+- _OBJC_CLASS_$_PSLocaleSelector
+- _OBJC_CLASS_$_PSRegion
+- _OBJC_CLASS_$_PSRestrictionsController
+- _OBJC_CLASS_$_PSSimulatedCrash
+- _OBJC_CLASS_$_PSSoftwareUpdateAnimatedIcon
+- _OBJC_CLASS_$_PSSoftwareUpdateLicenseViewController
+- _OBJC_CLASS_$_PSSoftwareUpdateReleaseNotesDetail
+- _OBJC_CLASS_$_PSSoftwareUpdateTableView
+- _OBJC_CLASS_$_PSSoftwareUpdateTermsManager
+- _OBJC_CLASS_$_PSSoftwareUpdateTitleCell
+- _OBJC_CLASS_$_PSStackPushAnimationController
+- _OBJC_CLASS_$_PSStorageAppHeaderCell
+- _OBJC_CLASS_$_SFRestrictionsController
+- _OBJC_CLASS_$_UIFontDescriptor
+- _OBJC_CLASS_$_UILocalizedIndexedCollation
+- _OBJC_CLASS_$_UIProgressView
+- _OBJC_CLASS_$__PSSpinnerHandlingNavigationController
+- _OBJC_CLASS_$__PSSpinnerViewController
+- _OBJC_IVAR_$_LargeTextExplanationView._bodyExampleLabel
+- _OBJC_IVAR_$_LargeTextExplanationView._bodyExampleTextView
+- _OBJC_IVAR_$_LargerSizesHelpTextView._helpLabel
+- _OBJC_IVAR_$_PSCloudSyncButton._controller
+- _OBJC_IVAR_$_PSCloudSyncButton._delegate
+- _OBJC_IVAR_$_PSCloudSyncButton._options
+- _OBJC_IVAR_$_PSCloudSyncButton._syncEnabled
+- _OBJC_IVAR_$_PSCloudSyncButton._syncError
+- _OBJC_IVAR_$_PSCloudSyncController._delegate
+- _OBJC_IVAR_$_PSExpandableListGroup._collaspeAfterCount
+- _OBJC_IVAR_$_PSExpandableListGroup._groupSpecifierID
+- _OBJC_IVAR_$_PSExpandableListGroup._listController
+- _OBJC_IVAR_$_PSExpandableListGroup._showAll
+- _OBJC_IVAR_$_PSExpandableListGroup._showAllSpecifier
+- _OBJC_IVAR_$_PSExpandableListGroup._specifiers
+- _OBJC_IVAR_$_PSExpandableListGroup._spinnerSpecifier
+- _OBJC_IVAR_$_PSInternationalLanguageController._checkedLanguage
+- _OBJC_IVAR_$_PSInternationalLanguageController._contentView
+- _OBJC_IVAR_$_PSInternationalLanguageController._deviceLanguages
+- _OBJC_IVAR_$_PSInternationalLanguageController._filteredDeviceLanguages
+- _OBJC_IVAR_$_PSInternationalLanguageController._languageSelector
+- _OBJC_IVAR_$_PSInternationalLanguageController._localeSelector
+- _OBJC_IVAR_$_PSInternationalLanguageController._savedSearchTerm
+- _OBJC_IVAR_$_PSInternationalLanguageController._searchBar
+- _OBJC_IVAR_$_PSInternationalLanguageController._searchIsActive
+- _OBJC_IVAR_$_PSInternationalLanguageController._tableView
+- _OBJC_IVAR_$_PSInternationalLanguageSetupController._languageSelector
+- _OBJC_IVAR_$_PSLanguage._languageCode
+- _OBJC_IVAR_$_PSLanguage._languageName
+- _OBJC_IVAR_$_PSLanguage._localizedLanguageName
+- _OBJC_IVAR_$_PSLargeTextController._extendedRangeSliderListController
+- _OBJC_IVAR_$_PSLargeTextController._showsExtendedRangeSwitch
+- _OBJC_IVAR_$_PSLargeTextController._sliderListController
+- _OBJC_IVAR_$_PSLargeTextController._usesExtendedRange
+- _OBJC_IVAR_$_PSLargeTextSliderListController._contentSizeCategories
+- _OBJC_IVAR_$_PSLargeTextSliderListController._selectedCategoryIndex
+- _OBJC_IVAR_$_PSLargeTextSliderListController._showsExtendedRangeSwitch
+- _OBJC_IVAR_$_PSLargeTextSliderListController._showsLargerSizesHelpText
+- _OBJC_IVAR_$_PSLargeTextSliderListController._sliderGroupSpecifier
+- _OBJC_IVAR_$_PSLargeTextSliderListController._usesExtendedRange
+- _OBJC_IVAR_$_PSLargeTextSliderListController._viewIsDisappearing
+- _OBJC_IVAR_$_PSLocaleController._contentView
+- _OBJC_IVAR_$_PSLocaleController._currentRegion
+- _OBJC_IVAR_$_PSLocaleController._filteredListContent
+- _OBJC_IVAR_$_PSLocaleController._hideKeyboardInSearchMode
+- _OBJC_IVAR_$_PSLocaleController._localeSelector
+- _OBJC_IVAR_$_PSLocaleController._regionsList
+- _OBJC_IVAR_$_PSLocaleController._searchBar
+- _OBJC_IVAR_$_PSLocaleController._searchMode
+- _OBJC_IVAR_$_PSLocaleController._sections
+- _OBJC_IVAR_$_PSLocaleController._tableView
+- _OBJC_IVAR_$_PSRegion._regionCode
+- _OBJC_IVAR_$_PSRegion._regionName
+- _OBJC_IVAR_$_PSRootController._stackAnimationController
+- _OBJC_IVAR_$_PSSoftwareUpdateAnimatedIcon._animating
+- _OBJC_IVAR_$_PSSoftwareUpdateAnimatedIcon._innerGearView
+- _OBJC_IVAR_$_PSSoftwareUpdateAnimatedIcon._outerGearShadowView
+- _OBJC_IVAR_$_PSSoftwareUpdateAnimatedIcon._outerGearView
+- _OBJC_IVAR_$_PSSoftwareUpdateLicenseViewController._licenseTextInfo
+- _OBJC_IVAR_$_PSSoftwareUpdateLicenseViewController._licenseTextView
+- _OBJC_IVAR_$_PSSoftwareUpdateTableView._checkingForUpdateSpinner
+- _OBJC_IVAR_$_PSSoftwareUpdateTableView._checkingStatusLabel
+- _OBJC_IVAR_$_PSSoftwareUpdateTableView._currentVersion
+- _OBJC_IVAR_$_PSSoftwareUpdateTableView._state
+- _OBJC_IVAR_$_PSSoftwareUpdateTableView._subtitleLabel
+- _OBJC_IVAR_$_PSSoftwareUpdateTableView._updatesDeferred
+- _OBJC_IVAR_$_PSSoftwareUpdateTermsManager._agreeToCombinedTOSInProgress
+- _OBJC_IVAR_$_PSSoftwareUpdateTermsManager._hostController
+- _OBJC_IVAR_$_PSSoftwareUpdateTermsManager._overrideNextRUIAction
+- _OBJC_IVAR_$_PSSoftwareUpdateTermsManager._presentedViewController
+- _OBJC_IVAR_$_PSSoftwareUpdateTermsManager._serverFlowStyle
+- _OBJC_IVAR_$_PSSoftwareUpdateTermsManager._showProgressViewController
+- _OBJC_IVAR_$_PSSoftwareUpdateTermsManager._termsCompletion
+- _OBJC_IVAR_$_PSSoftwareUpdateTermsManager._termsRemoteUI
+- _OBJC_IVAR_$_PSSoftwareUpdateTermsManager._update
+- _OBJC_IVAR_$_PSSoftwareUpdateTitleCell._gearBackgroundImageView
+- _OBJC_IVAR_$_PSSoftwareUpdateTitleCell._progressBar
+- _OBJC_IVAR_$_PSSoftwareUpdateTitleCell._releaseNotesSummaryView
+- _OBJC_IVAR_$_PSSoftwareUpdateTitleCell._updateStatusLabel
+- _OBJC_IVAR_$_PSSoftwareUpdateTitleCell._updateStatusLabelVerticalConstraint
+- _OBJC_IVAR_$_PSStackPushAnimationController._animationPreset
+- _OBJC_IVAR_$_PSStackPushAnimationController._animationsToRunAlongsideToVC
+- _OBJC_IVAR_$_PSStackPushAnimationController._completionBlock
+- _OBJC_IVAR_$_PSStackPushAnimationController._completionStagger
+- _OBJC_IVAR_$_PSStackPushAnimationController._hasStartedAnimation
+- _OBJC_IVAR_$_PSStackPushAnimationController._navigationController
+- _OBJC_IVAR_$_PSStackPushAnimationController._pushDuration
+- _OBJC_IVAR_$_PSStackPushAnimationController._snapshots
+- _OBJC_IVAR_$_PSStackPushAnimationController._springDamping
+- _OBJC_IVAR_$_PSStackPushAnimationController._startStagger
+- _OBJC_IVAR_$_PSStackPushAnimationController._viewControllers
+- _OBJC_IVAR_$__PSSpinnerViewController._spinner
+- _OBJC_METACLASS_$_FontSizeSliderCell
+- _OBJC_METACLASS_$_LargeTextExplanationView
+- _OBJC_METACLASS_$_LargerSizesHelpTextView
+- _OBJC_METACLASS_$_PSCloudSyncButton
+- _OBJC_METACLASS_$_PSCloudSyncController
+- _OBJC_METACLASS_$_PSExpandableAppListGroup
+- _OBJC_METACLASS_$_PSExpandableListGroup
+- _OBJC_METACLASS_$_PSInternationalController
+- _OBJC_METACLASS_$_PSInternationalLanguageController
+- _OBJC_METACLASS_$_PSInternationalLanguageSetupController
+- _OBJC_METACLASS_$_PSLanguage
+- _OBJC_METACLASS_$_PSLanguageSelector
+- _OBJC_METACLASS_$_PSLargeTextController
+- _OBJC_METACLASS_$_PSLargeTextSliderListController
+- _OBJC_METACLASS_$_PSLocaleController
+- _OBJC_METACLASS_$_PSLocaleSelector
+- _OBJC_METACLASS_$_PSRegion
+- _OBJC_METACLASS_$_PSRestrictionsController
+- _OBJC_METACLASS_$_PSSimulatedCrash
+- _OBJC_METACLASS_$_PSSoftwareUpdateAnimatedIcon
+- _OBJC_METACLASS_$_PSSoftwareUpdateLicenseViewController
+- _OBJC_METACLASS_$_PSSoftwareUpdateReleaseNotesDetail
+- _OBJC_METACLASS_$_PSSoftwareUpdateTableView
+- _OBJC_METACLASS_$_PSSoftwareUpdateTermsManager
+- _OBJC_METACLASS_$_PSSoftwareUpdateTitleCell
+- _OBJC_METACLASS_$_PSStackPushAnimationController
+- _OBJC_METACLASS_$_PSStorageAppHeaderCell
+- _OBJC_METACLASS_$_SFRestrictionsController
+- _OBJC_METACLASS_$_UITableView
+- _OBJC_METACLASS_$__PSSpinnerHandlingNavigationController
+- _OBJC_METACLASS_$__PSSpinnerViewController
+- _PSAboutLocationAndPrivacyText
+- _PSAppIconImageNamed
+- _PSAppTintColor
+- _PSApplyBuddyThemeToNavigationBar
+- _PSAudioAccessoryLicenseFilePath
+- _PSAudioAccessoryWarrantyFilePath
+- _PSBundleIdentifierNews
+- _PSBundleIdentifierStocks
+- _PSCloudSyncKeyDisplayName
+- _PSCloudSyncKeyMessage
+- _PSCloudSyncKeyPlatforms
+- _PSCloudSyncKeyRedirectTitle
+- _PSCloudSyncKeyRedirectURL
+- _PSColorCodedSerialNumber
+- _PSConfigString
+- _PSCoreUIArtworkDeviceSubtype
+- _PSCoreUIArtworkDeviceSubtype.deviceSubtype
+- _PSCoreUIArtworkDeviceSubtype.onceToken
+- _PSCreateSecTrustFromCertificateChain
+- _PSCreateSecTrustFromCertificateChain.__eapLibraryPointer
+- _PSCreateSecTrustFromCertificateChain.__eapSecPolicyCopy
+- _PSDeviceSubTypeString
+- _PSDeviceUDID
+- _PSFaceIDPrivacyText
+- _PSIndiaBISNumber
+- _PSIsAppIdSiriKitTCCEnabled
+- _PSIsAudioAccessory
+- _PSIsD33OrN84ScreenSize
+- _PSIsGreenTeaCapable
+- _PSIsLoggingEnabled
+- _PSLicenseFilePath
+- _PSLicensePath
+- _PSMultipickerStringsName
+- _PSMultipickerStringsName._stringsName
+- _PSMultipickerStringsName.onceToken
+- _PSPlantCode
+- _PSPreferredLanguageIsEnglish
+- _PSPurpleBuddyIdentifier
+- _PSRegulatoryImage
+- _PSRoundRectToPixel
+- _PSScreenClassString
+- _PSSelectedTintedImageFromMask
+- _PSSetLoggingEnabled
+- _PSSetupAssistantNeedsToRun
+- _PSSetupAssistantNeedsToRun.cold.1
+- _PSSetupFinishedAllStepsKey
+- _PSShortFormattedTimeString
+- _PSShouldShowIndiaBIS
+- _PSSiriKitTCCEnabledAppIds
+- _PSSpeciferForThirdPartyBundle
+- _PSSpecifierForThirdPartyBundle
+- _PSStorageAndBackupClass
+- _PSTimeZoneArrayForSpecifier
+- _PSTimeZoneArrayForTimeZone
+- _PSTintedIcon
+- _PSTintedImageFromMask
+- _PSWarrantyFilePath
+- _PSWarrantyPath
+- _PSWarrantyPath.__warrantyPath
+- _PSWarrantyPath.onceToken
+- _PSWeekOfManufacture
+- _PSYearOfManufacture
+- _PS_LocalizedStringForPolaris
+- _ProductType
+- _RemoteUILibrary
+- _SFAppTintColor
+- _SFAudioAccessoryLicenseFilePath
+- _SFAudioAccessoryWarrantyFilePath
+- _SFIndiaBISNumber
+- _SFIsRegulatoryImageFromLockdown
+- _SFLicenseFilePath
+- _SFRegulatoryImage
+- _SFSelectedTintedImageFromMask
+- _SFShouldShowBuiltInApps
+- _SFShouldShowIndiaBIS
+- _SFShouldShowRoHSCompliance
+- _SFShouldShowYearOfManufacture
+- _SFWarrantyFilePath
+- _SecCertificateCreateWithData
+- _SecTrustCreateWithCertificates
+- _SetupAssistantLibrary
+- _ShouldShowBuiltInApps
+- _ShouldShowRoHSCompliance
+- _ShouldShowYearOfManufacture
+- _StorageSettingsLibraryCore.frameworkLibrary
+- _UIContentSizeCategoryAccessibilityExtraExtraExtraLarge
+- _UIContentSizeCategoryAccessibilityExtraExtraLarge
+- _UIContentSizeCategoryAccessibilityExtraLarge
+- _UIContentSizeCategoryAccessibilityLarge
+- _UIContentSizeCategoryAccessibilityMedium
+- _UIContentSizeCategoryCompareToCategory
+- _UIContentSizeCategoryExtraLarge
+- _UIContentSizeCategoryExtraSmall
+- _UIContentSizeCategoryLarge
+- _UIContentSizeCategoryMedium
+- _UIContentSizeCategorySmall
+- _UITransitionContextToViewControllerKey
+- __OBJC_$_CLASS_METHODS_PSInternationalLanguageController
+- __OBJC_$_CLASS_METHODS_PSLanguage
+- __OBJC_$_CLASS_METHODS_PSRegion
+- __OBJC_$_CLASS_METHODS_PSSimulatedCrash
+- __OBJC_$_CLASS_METHODS_PSSoftwareUpdateTitleCell
+- __OBJC_$_CLASS_METHODS_PSStackPushAnimationController
+- __OBJC_$_CLASS_METHODS_PSStorageAppHeaderCell
+- __OBJC_$_INSTANCE_METHODS_FontSizeSliderCell
+- __OBJC_$_INSTANCE_METHODS_LargeTextExplanationView
+- __OBJC_$_INSTANCE_METHODS_LargerSizesHelpTextView
+- __OBJC_$_INSTANCE_METHODS_PSCloudSyncButton
+- __OBJC_$_INSTANCE_METHODS_PSCloudSyncController
+- __OBJC_$_INSTANCE_METHODS_PSExpandableAppListGroup
+- __OBJC_$_INSTANCE_METHODS_PSExpandableListGroup
+- __OBJC_$_INSTANCE_METHODS_PSInternationalLanguageController
+- __OBJC_$_INSTANCE_METHODS_PSInternationalLanguageSetupController
+- __OBJC_$_INSTANCE_METHODS_PSLanguage
+- __OBJC_$_INSTANCE_METHODS_PSLanguageSelector
+- __OBJC_$_INSTANCE_METHODS_PSLargeTextController
+- __OBJC_$_INSTANCE_METHODS_PSLargeTextSliderListController
+- __OBJC_$_INSTANCE_METHODS_PSLocaleController
+- __OBJC_$_INSTANCE_METHODS_PSLocaleSelector
+- __OBJC_$_INSTANCE_METHODS_PSRegion
+- __OBJC_$_INSTANCE_METHODS_PSSoftwareUpdateAnimatedIcon
+- __OBJC_$_INSTANCE_METHODS_PSSoftwareUpdateLicenseViewController
+- __OBJC_$_INSTANCE_METHODS_PSSoftwareUpdateReleaseNotesDetail
+- __OBJC_$_INSTANCE_METHODS_PSSoftwareUpdateTableView
+- __OBJC_$_INSTANCE_METHODS_PSSoftwareUpdateTermsManager
+- __OBJC_$_INSTANCE_METHODS_PSSoftwareUpdateTitleCell
+- __OBJC_$_INSTANCE_METHODS_PSStackPushAnimationController
+- __OBJC_$_INSTANCE_METHODS_PSViewController(CloudSync)
+- __OBJC_$_INSTANCE_METHODS__PSSpinnerHandlingNavigationController
+- __OBJC_$_INSTANCE_METHODS__PSSpinnerViewController
+- __OBJC_$_INSTANCE_VARIABLES_LargeTextExplanationView
+- __OBJC_$_INSTANCE_VARIABLES_LargerSizesHelpTextView
+- __OBJC_$_INSTANCE_VARIABLES_PSCloudSyncButton
+- __OBJC_$_INSTANCE_VARIABLES_PSCloudSyncController
+- __OBJC_$_INSTANCE_VARIABLES_PSExpandableListGroup
+- __OBJC_$_INSTANCE_VARIABLES_PSInternationalLanguageController
+- __OBJC_$_INSTANCE_VARIABLES_PSInternationalLanguageSetupController
+- __OBJC_$_INSTANCE_VARIABLES_PSLanguage
+- __OBJC_$_INSTANCE_VARIABLES_PSLargeTextController
+- __OBJC_$_INSTANCE_VARIABLES_PSLargeTextSliderListController
+- __OBJC_$_INSTANCE_VARIABLES_PSLocaleController
+- __OBJC_$_INSTANCE_VARIABLES_PSRegion
+- __OBJC_$_INSTANCE_VARIABLES_PSSoftwareUpdateAnimatedIcon
+- __OBJC_$_INSTANCE_VARIABLES_PSSoftwareUpdateLicenseViewController
+- __OBJC_$_INSTANCE_VARIABLES_PSSoftwareUpdateReleaseNotesDetail
+- __OBJC_$_INSTANCE_VARIABLES_PSSoftwareUpdateTableView
+- __OBJC_$_INSTANCE_VARIABLES_PSSoftwareUpdateTermsManager
+- __OBJC_$_INSTANCE_VARIABLES_PSSoftwareUpdateTitleCell
+- __OBJC_$_INSTANCE_VARIABLES_PSStackPushAnimationController
+- __OBJC_$_INSTANCE_VARIABLES__PSSpinnerViewController
+- __OBJC_$_PROP_LIST_PSCloudSyncButton
+- __OBJC_$_PROP_LIST_PSCloudSyncController
+- __OBJC_$_PROP_LIST_PSCloudSyncPopoverDelegate
+- __OBJC_$_PROP_LIST_PSExpandableListGroup
+- __OBJC_$_PROP_LIST_PSInternationalLanguageController
+- __OBJC_$_PROP_LIST_PSInternationalLanguageSetupController
+- __OBJC_$_PROP_LIST_PSLanguage
+- __OBJC_$_PROP_LIST_PSLargeTextController
+- __OBJC_$_PROP_LIST_PSLargeTextSliderListController
+- __OBJC_$_PROP_LIST_PSLocaleController
+- __OBJC_$_PROP_LIST_PSRegion
+- __OBJC_$_PROP_LIST_PSSoftwareUpdateAnimatedIcon
+- __OBJC_$_PROP_LIST_PSSoftwareUpdateLicenseViewController
+- __OBJC_$_PROP_LIST_PSSoftwareUpdateReleaseNotesDetail
+- __OBJC_$_PROP_LIST_PSSoftwareUpdateTableView
+- __OBJC_$_PROP_LIST_PSSoftwareUpdateTermsManager
+- __OBJC_$_PROP_LIST_PSSoftwareUpdateTitleCell
+- __OBJC_$_PROP_LIST_PSStackPushAnimationController
+- __OBJC_$_PROP_LIST__PSSpinnerHandlingNavigationController
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_UIViewControllerAnimatedTransitioning
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_PSCloudSyncPopoverDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_PSSpecifierGroup
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_UIViewControllerAnimatedTransitioning
+- __OBJC_$_PROTOCOL_METHOD_TYPES_PSCloudSyncPopoverDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_PSSpecifierGroup
+- __OBJC_$_PROTOCOL_METHOD_TYPES_UIViewControllerAnimatedTransitioning
+- __OBJC_$_PROTOCOL_REFS_PSSpecifierGroup
+- __OBJC_$_PROTOCOL_REFS_UIViewControllerAnimatedTransitioning
+- __OBJC_CLASS_PROTOCOLS_$_LargeTextExplanationView
+- __OBJC_CLASS_PROTOCOLS_$_LargerSizesHelpTextView
+- __OBJC_CLASS_PROTOCOLS_$_PSCloudSyncButton
+- __OBJC_CLASS_PROTOCOLS_$_PSExpandableListGroup
+- __OBJC_CLASS_PROTOCOLS_$_PSInternationalLanguageController
+- __OBJC_CLASS_PROTOCOLS_$_PSLocaleController
+- __OBJC_CLASS_PROTOCOLS_$_PSSoftwareUpdateReleaseNotesDetail
+- __OBJC_CLASS_PROTOCOLS_$_PSSoftwareUpdateTermsManager
+- __OBJC_CLASS_PROTOCOLS_$_PSStackPushAnimationController
+- __OBJC_CLASS_PROTOCOLS_$__PSSpinnerHandlingNavigationController
+- __OBJC_CLASS_RO_$_FontSizeSliderCell
+- __OBJC_CLASS_RO_$_LargeTextExplanationView
+- __OBJC_CLASS_RO_$_LargerSizesHelpTextView
+- __OBJC_CLASS_RO_$_PSCloudSyncButton
+- __OBJC_CLASS_RO_$_PSCloudSyncController
+- __OBJC_CLASS_RO_$_PSExpandableAppListGroup
+- __OBJC_CLASS_RO_$_PSExpandableListGroup
+- __OBJC_CLASS_RO_$_PSInternationalController
+- __OBJC_CLASS_RO_$_PSInternationalLanguageController
+- __OBJC_CLASS_RO_$_PSInternationalLanguageSetupController
+- __OBJC_CLASS_RO_$_PSLanguage
+- __OBJC_CLASS_RO_$_PSLanguageSelector
+- __OBJC_CLASS_RO_$_PSLargeTextController
+- __OBJC_CLASS_RO_$_PSLargeTextSliderListController
+- __OBJC_CLASS_RO_$_PSLocaleController
+- __OBJC_CLASS_RO_$_PSLocaleSelector
+- __OBJC_CLASS_RO_$_PSRegion
+- __OBJC_CLASS_RO_$_PSRestrictionsController
+- __OBJC_CLASS_RO_$_PSSimulatedCrash
+- __OBJC_CLASS_RO_$_PSSoftwareUpdateAnimatedIcon
+- __OBJC_CLASS_RO_$_PSSoftwareUpdateLicenseViewController
+- __OBJC_CLASS_RO_$_PSSoftwareUpdateReleaseNotesDetail
+- __OBJC_CLASS_RO_$_PSSoftwareUpdateTableView
+- __OBJC_CLASS_RO_$_PSSoftwareUpdateTermsManager
+- __OBJC_CLASS_RO_$_PSSoftwareUpdateTitleCell
+- __OBJC_CLASS_RO_$_PSStackPushAnimationController
+- __OBJC_CLASS_RO_$_PSStorageAppHeaderCell
+- __OBJC_CLASS_RO_$__PSSpinnerHandlingNavigationController
+- __OBJC_CLASS_RO_$__PSSpinnerViewController
+- __OBJC_LABEL_PROTOCOL_$_PSCloudSyncPopoverDelegate
+- __OBJC_LABEL_PROTOCOL_$_PSSpecifierGroup
+- __OBJC_LABEL_PROTOCOL_$_UIViewControllerAnimatedTransitioning
+- __OBJC_METACLASS_RO_$_FontSizeSliderCell
+- __OBJC_METACLASS_RO_$_LargeTextExplanationView
+- __OBJC_METACLASS_RO_$_LargerSizesHelpTextView
+- __OBJC_METACLASS_RO_$_PSCloudSyncButton
+- __OBJC_METACLASS_RO_$_PSCloudSyncController
+- __OBJC_METACLASS_RO_$_PSExpandableAppListGroup
+- __OBJC_METACLASS_RO_$_PSExpandableListGroup
+- __OBJC_METACLASS_RO_$_PSInternationalController
+- __OBJC_METACLASS_RO_$_PSInternationalLanguageController
+- __OBJC_METACLASS_RO_$_PSInternationalLanguageSetupController
+- __OBJC_METACLASS_RO_$_PSLanguage
+- __OBJC_METACLASS_RO_$_PSLanguageSelector
+- __OBJC_METACLASS_RO_$_PSLargeTextController
+- __OBJC_METACLASS_RO_$_PSLargeTextSliderListController
+- __OBJC_METACLASS_RO_$_PSLocaleController
+- __OBJC_METACLASS_RO_$_PSLocaleSelector
+- __OBJC_METACLASS_RO_$_PSRegion
+- __OBJC_METACLASS_RO_$_PSRestrictionsController
+- __OBJC_METACLASS_RO_$_PSSimulatedCrash
+- __OBJC_METACLASS_RO_$_PSSoftwareUpdateAnimatedIcon
+- __OBJC_METACLASS_RO_$_PSSoftwareUpdateLicenseViewController
+- __OBJC_METACLASS_RO_$_PSSoftwareUpdateReleaseNotesDetail
+- __OBJC_METACLASS_RO_$_PSSoftwareUpdateTableView
+- __OBJC_METACLASS_RO_$_PSSoftwareUpdateTermsManager
+- __OBJC_METACLASS_RO_$_PSSoftwareUpdateTitleCell
+- __OBJC_METACLASS_RO_$_PSStackPushAnimationController
+- __OBJC_METACLASS_RO_$_PSStorageAppHeaderCell
+- __OBJC_METACLASS_RO_$__PSSpinnerHandlingNavigationController
+- __OBJC_METACLASS_RO_$__PSSpinnerViewController
+- __OBJC_PROTOCOL_$_PSCloudSyncPopoverDelegate
+- __OBJC_PROTOCOL_$_PSSpecifierGroup
+- __OBJC_PROTOCOL_$_UIViewControllerAnimatedTransitioning
+- ___107-[PSSoftwareUpdateTermsManager presentTermsIfNecessaryForUpdate:overController:showLoadSpinner:completion:]_block_invoke
+- ___107-[PSSoftwareUpdateTermsManager presentTermsIfNecessaryForUpdate:overController:showLoadSpinner:completion:]_block_invoke.324
+- ___107-[PSSoftwareUpdateTermsManager presentTermsIfNecessaryForUpdate:overController:showLoadSpinner:completion:]_block_invoke_2
+- ___116-[PSCoreSpotlightIndexer reindexSpecifiersIfNeeded:bundle:withURLPrefix:waitForCompletion:setHasIndexed:completion:]_block_invoke.284
+- ___116-[PSCoreSpotlightIndexer reindexSpecifiersIfNeeded:bundle:withURLPrefix:waitForCompletion:setHasIndexed:completion:]_block_invoke.285
+- ___116-[PSCoreSpotlightIndexer reindexSpecifiersIfNeeded:bundle:withURLPrefix:waitForCompletion:setHasIndexed:completion:]_block_invoke.286
+- ___27-[PSCloudSyncButton update]_block_invoke
+- ___37-[PSCloudSyncButton cloudSyncAction:]_block_invoke
+- ___37-[PSCloudSyncButton cloudSyncAction:]_block_invoke_2
+- ___37-[PSCloudSyncButton cloudSyncAction:]_block_invoke_3
+- ___37-[PSCloudSyncButton cloudSyncAction:]_block_invoke_4
+- ___38-[PSSoftwareUpdateTableView setState:]_block_invoke
+- ___38-[PSSoftwareUpdateTableView setState:]_block_invoke_2
+- ___43-[PSRootController pushControllersAsStack:]_block_invoke
+- ___43-[PSRootController pushControllersAsStack:]_block_invoke_2
+- ___43-[PSRootController pushControllersAsStack:]_block_invoke_3
+- ___43-[PSRootController pushControllersAsStack:]_block_invoke_4
+- ___52-[PSStackPushAnimationController animateTransition:]_block_invoke
+- ___52-[PSStackPushAnimationController animateTransition:]_block_invoke_2
+- ___52-[PSStackPushAnimationController animateTransition:]_block_invoke_3
+- ___52-[PSStackPushAnimationController animateTransition:]_block_invoke_4
+- ___53-[PSSoftwareUpdateTitleCell setProgressDisplayStyle:]_block_invoke
+- ___53-[PSSoftwareUpdateTitleCell setProgressDisplayStyle:]_block_invoke_2
+- ___58-[PSInternationalLanguageController generateLanguageCells]_block_invoke
+- ___60+[PSInternationalLanguageController capitalizeLanguageNames]_block_invoke
+- ___60-[PSSoftwareUpdateTermsManager _handleAgreeFromObjectModel:]_block_invoke
+- ___60-[PSSoftwareUpdateTermsManager _handleAgreeFromObjectModel:]_block_invoke.431
+- ___60-[PSSoftwareUpdateTermsManager _handleAgreeFromObjectModel:]_block_invoke_2
+- ___63-[DiagnosticDataController _loadDiagnosticsDataWithCompletion:]_block_invoke.141
+- ___63-[PSViewController(CloudSync) installCloudSyncButton:delegate:]_block_invoke
+- ___64+[PSStackPushAnimationController _animationParametersForPreset:]_block_invoke
+- ___64+[PSStackPushAnimationController _animationParametersForPreset:]_block_invoke_2
+- ___64-[PSLocaleController filteredRegionsForRegionList:searchString:]_block_invoke
+- ___65-[PSSoftwareUpdateTermsManager _finishTermsWithAcceptance:error:]_block_invoke
+- ___65-[PSSoftwareUpdateTermsManager _finishTermsWithAcceptance:error:]_block_invoke_2
+- ___65-[PSSoftwareUpdateTermsManager _finishTermsWithAcceptance:error:]_block_invoke_3
+- ___65-[PSSoftwareUpdateTermsManager _finishTermsWithAcceptance:error:]_block_invoke_4
+- ___65-[PSSoftwareUpdateTermsManager _loadRemoteUITermsWithCloudAtURL:]_block_invoke
+- ___65-[PSSoftwareUpdateTermsManager _loadRemoteUITermsWithCloudAtURL:]_block_invoke_2
+- ___65-[PSSoftwareUpdateTermsManager _loadRemoteUITermsWithCloudAtURL:]_block_invoke_3
+- ___65-[PSSoftwareUpdateTermsManager _loadRemoteUITermsWithCloudAtURL:]_block_invoke_4
+- ___65-[PSSoftwareUpdateTermsManager _loadRemoteUITermsWithCloudAtURL:]_block_invoke_5
+- ___67-[PSCoreSpotlightIndexer indexThirdPartyAppsWithPrefix:completion:]_block_invoke.377
+- ___67-[PSCoreSpotlightIndexer indexThirdPartyAppsWithPrefix:completion:]_block_invoke.378
+- ___68-[PSCoreSpotlightIndexer indexManifestBundlesAtURLs:withCompletion:]_block_invoke.263
+- ___68-[PSCoreSpotlightIndexer indexManifestBundlesAtURLs:withCompletion:]_block_invoke.264
+- ___68-[PSLargeTextSliderListController setDynamicTypeValue:forSpecifier:]_block_invoke
+- ___68-[PSLargeTextSliderListController setDynamicTypeValue:forSpecifier:]_block_invoke_2
+- ___70-[ProblemReportingController shouldShowIdentityVerificationSpecifiers]_block_invoke.517
+- ___83-[PSInternationalLanguageController filteredLanguagesForLanguageList:searchString:]_block_invoke
+- ___83-[PSInternationalLanguageController filteredLanguagesForLanguageList:searchString:]_block_invoke_2
+- ___PSCoreUIArtworkDeviceSubtype_block_invoke
+- ___PSLogEnabled
+- ___PSMultipickerStringsName_block_invoke
+- ___PSWarrantyPath_block_invoke
+- ___StorageSettingsLibraryCore_block_invoke
+- ___block_descriptor_104_e8_32s_e5_v8?0ls32l8
+- ___block_descriptor_32_e32_B32?0"UIBarButtonItem"8Q16^B24l
+- ___block_descriptor_40_e19_"NSDictionary"8?0l
+- ___block_descriptor_40_e8_32s_e18_v16?0"UIAction"8ls32l8
+- ___block_descriptor_40_e8_32s_e28_v32?0"PSSpecifier"8Q16^B24ls32l8
+- ___block_descriptor_40_e8_32s_e40_v16?0"AASetupAssistantConfigResponse"8ls32l8
+- ___block_descriptor_40_e8_32s_e73_v72?0{CGRect={CGPoint=dd}{CGSize=dd}}8{CGRect={CGPoint=dd}{CGSize=dd}}40ls32l8
+- ___block_descriptor_40_e8_32w_e56_v32?0"RUIObjectModel"8"RUIElement"16"NSDictionary"24lw32l8
+- ___block_descriptor_44_e8_32s_e5_v8?0ls32l8
+- ___block_descriptor_44_e8_32s_e8_v12?0B8ls32l8
+- ___block_descriptor_48_e8_32s40r_e47_v32?0"UIViewController<PSController>"8Q16^B24ls32l8r40l8
+- ___block_descriptor_48_e8_32s40s_e46_v32?0"AARequest"8"AAResponse"16"NSError"24ls32l8s40l8
+- ___block_descriptor_49_e8_32s40bs_e5_v8?0ls40l8s32l8
+- ___block_descriptor_56_e8_32s40s48r_e46_v32?0"AARequest"8"AAResponse"16"NSError"24ls32l8s40l8r48l8
+- ___block_descriptor_56_e8_32s_e5_v8?0ls32l8
+- ___block_descriptor_64_e8_32s40s48s56r_e52_v56?0"NSString"8{_NSRange=QQ}16{_NSRange=QQ}32^B48ls32l8s40l8s48l8r56l8
+- ___block_descriptor_64_e8_32s40s48s56w_e5_v8?0ls32l8s40l8s48l8w56l8
+- ___block_descriptor_72_e8_32s40s48s56s_e23_v32?0"UIView"8Q16^B24ls32l8s40l8s48l8s56l8
+- ___block_literal_global.112
+- ___block_literal_global.150
+- ___block_literal_global.159
+- ___block_literal_global.162
+- ___block_literal_global.166
+- ___block_literal_global.185
+- ___block_literal_global.187
+- ___block_literal_global.213
+- ___block_literal_global.242
+- ___block_literal_global.259
+- ___block_literal_global.285
+- ___block_literal_global.336
+- ___block_literal_global.350
+- ___block_literal_global.76
+- ___block_literal_global.872
+- ___defaultAnimationPreset
+- ___getAAGenericTermsUIRequestClass_block_invoke
+- ___getAAGenericTermsUIRequestClass_block_invoke.cold.1
+- ___getAASetupAssistantServiceClass_block_invoke
+- ___getAASetupAssistantServiceClass_block_invoke.cold.1
+- ___getAAiCloudTermsAgreeRequestClass_block_invoke
+- ___getAAiCloudTermsAgreeRequestClass_block_invoke.cold.1
+- ___getBYLicenseAgreementClass_block_invoke
+- ___getBYLicenseAgreementClass_block_invoke.cold.1
+- ___getBYSetupAssistantNeedsToRunSymbolLoc_block_invoke
+- ___getRUIPageClass_block_invoke
+- ___getRUIPageClass_block_invoke.cold.1
+- ___getSTStorageAppHeaderCellClass_block_invoke
+- ___getSTStorageAppHeaderCellClass_block_invoke.cold.1
+- ___getSimulateCrashSymbolLoc_block_invoke
+- ___getkAAProtocolGenericTermsUIBuddyMLKeySymbolLoc_block_invoke
+- __animationParametersForPreset:.cachedParams
+- __animationParametersForPreset:.onceToken
+- __unnamed_array_storage.282
+- __unnamed_array_storage.360
+- __unnamed_array_storage.365
+- __unnamed_array_storage.366
+- __unnamed_array_storage.372
+- __unnamed_array_storage.373
+- __unnamed_array_storage.424
+- _audit_stringStorageSettings
+- _capitalizeLanguageNames.__capitalize
+- _capitalizeLanguageNames.__onceToken
+- _getAAGenericTermsUIRequestClass.softClass
+- _getAASetupAssistantServiceClass.softClass
+- _getAAiCloudTermsAgreeRequestClass.softClass
+- _getBYLicenseAgreementClass
+- _getBYLicenseAgreementClass.softClass
+- _getBYSetupAssistantNeedsToRunSymbolLoc.ptr
+- _getRUIPageClass.softClass
+- _getSTStorageAppHeaderCellClass.softClass
+- _getSimulateCrashSymbolLoc.ptr
+- _getkAAProtocolGenericTermsUIBuddyMLKeySymbolLoc.ptr
+- _getpid
+- _kCAFillModeForwards
+- _kCAMediaTimingFunctionLinear
+- _kCTLanguageAttributeName
+- _kTCCServiceSiri
+- _layoutSubviews.statusMessageTopMargin
+- _objc_msgSend$CGPath
+- _objc_msgSend$ISOCountryCodes
+- _objc_msgSend$_acceptedTermsVersion:
+- _objc_msgSend$_actualDuration
+- _objc_msgSend$_addAnimation:forViewAtIndex:count:
+- _objc_msgSend$_animationParametersForPreset:
+- _objc_msgSend$_bottomPadding
+- _objc_msgSend$_desiredDuration
+- _objc_msgSend$_finishTermsWithAcceptance:error:
+- _objc_msgSend$_groupIndex
+- _objc_msgSend$_handleAgreeFromObjectModel:
+- _objc_msgSend$_legacy_sizeWithFont:constrainedToSize:
+- _objc_msgSend$_loadDefaultValues
+- _objc_msgSend$_loadRemoteUITermsWithCloudAtURL:
+- _objc_msgSend$_loadTermsFromUpdateAsset
+- _objc_msgSend$_loadTermsRemoteUIFailureWithError:
+- _objc_msgSend$_mainContentView
+- _objc_msgSend$_presentModalController:
+- _objc_msgSend$_removeSpinnerViewControllerIfNeeded
+- _objc_msgSend$_setShowsSeparator:
+- _objc_msgSend$_shouldSkipFirstPush
+- _objc_msgSend$_snapshotOfViewController:withNavigationBar:prevViewController:
+- _objc_msgSend$_termsDisagree
+- _objc_msgSend$_valueForAnimationParameter:
+- _objc_msgSend$addAnimation:forKey:
+- _objc_msgSend$addConstraint:
+- _objc_msgSend$animateAlongsideToViewController:
+- _objc_msgSend$animateWithDuration:delay:usingSpringWithDamping:initialSpringVelocity:options:animations:completion:
+- _objc_msgSend$animationWithKeyPath:
+- _objc_msgSend$availableLocaleIdentifiers
+- _objc_msgSend$backItem
+- _objc_msgSend$begin
+- _objc_msgSend$canonicalLanguageIdentifierFromString:
+- _objc_msgSend$capitalizeLanguageNames
+- _objc_msgSend$centerXAnchor
+- _objc_msgSend$checkedLanguage
+- _objc_msgSend$clientInfo
+- _objc_msgSend$commit
+- _objc_msgSend$completeTransition:
+- _objc_msgSend$configureAnimatedGearViewFromImageSize:
+- _objc_msgSend$configureImageView
+- _objc_msgSend$configureProgressBar:
+- _objc_msgSend$configurePublisherLabel:
+- _objc_msgSend$configureReleaseNotesSummaryView:
+- _objc_msgSend$configureUpdateNameLabel:
+- _objc_msgSend$configureUpdateStatusLabel:
+- _objc_msgSend$constraintGreaterThanOrEqualToAnchor:
+- _objc_msgSend$containerView
+- _objc_msgSend$contentSizeCategories
+- _objc_msgSend$controllerWithViewControllerStack:navigationController:
+- _objc_msgSend$createGearIconConstraints
+- _objc_msgSend$currentCollation
+- _objc_msgSend$currentRegion
+- _objc_msgSend$customHeaders
+- _objc_msgSend$defaultPages
+- _objc_msgSend$defaultParagraphStyle
+- _objc_msgSend$deviceLanguageIdentifier
+- _objc_msgSend$deviceLanguages
+- _objc_msgSend$dismiss
+- _objc_msgSend$dismissObjectModelsAnimated:completion:
+- _objc_msgSend$displayNameForLanguage:displayLanguage:context:
+- _objc_msgSend$displayNameForRegion:displayLanguage:capitalization:
+- _objc_msgSend$documentation
+- _objc_msgSend$downloadURLConfiguration:
+- _objc_msgSend$drawViewHierarchyInRect:afterScreenUpdates:
+- _objc_msgSend$entitlements
+- _objc_msgSend$enumerateSubstringsInRange:options:usingBlock:
+- _objc_msgSend$evaluateWithObject:
+- _objc_msgSend$filterLanguageList:forRegion:fromLanguages:
+- _objc_msgSend$filteredDeviceLanguages
+- _objc_msgSend$filteredLanguagesForLanguageList:searchString:
+- _objc_msgSend$filteredListContent
+- _objc_msgSend$filteredRegionsForRegionList:searchString:
+- _objc_msgSend$finalFrameForViewController:
+- _objc_msgSend$firstMatchInString:options:range:
+- _objc_msgSend$functionWithName:
+- _objc_msgSend$gearBackgroundImage
+- _objc_msgSend$generateLanguageCells
+- _objc_msgSend$genericTermsURL
+- _objc_msgSend$hasMergeConflict
+- _objc_msgSend$heightForWidth:
+- _objc_msgSend$initWithAccount:
+- _objc_msgSend$initWithAccount:parameters:
+- _objc_msgSend$initWithBarButtonSystemItem:primaryAction:
+- _objc_msgSend$initWithController:options:delegate:
+- _objc_msgSend$initWithDelegate:
+- _objc_msgSend$initWithLicense:
+- _objc_msgSend$initWithListController:groupSpecifierID:collapseAfterCount:
+- _objc_msgSend$initWithPattern:options:error:
+- _objc_msgSend$initWithProgressViewStyle:
+- _objc_msgSend$initWithURLString:account:
+- _objc_msgSend$innerGearView
+- _objc_msgSend$interfaceOrientation
+- _objc_msgSend$isCloudSyncEnabled
+- _objc_msgSend$isCloudSyncEnabled:
+- _objc_msgSend$languageCode
+- _objc_msgSend$languageName
+- _objc_msgSend$languageSelector
+- _objc_msgSend$languageWithCode:name:localizedName:
+- _objc_msgSend$layoutForWidth:inTableView:
+- _objc_msgSend$licenseAgreement
+- _objc_msgSend$lightGrayColor
+- _objc_msgSend$loadData
+- _objc_msgSend$loadData:baseURL:
+- _objc_msgSend$loadRegions
+- _objc_msgSend$loader
+- _objc_msgSend$localeSelector
+- _objc_msgSend$localizedLanguageName
+- _objc_msgSend$makeObjectsPerformSelector:
+- _objc_msgSend$mergeConflictMessage
+- _objc_msgSend$modelSpecificLocalizedStringKeyForKey:
+- _objc_msgSend$namedPages
+- _objc_msgSend$newGearBackgroundImageView
+- _objc_msgSend$newProgressBar
+- _objc_msgSend$newSoftwareUpdateAnimatedIconWithFrame:
+- _objc_msgSend$newUpdateStatusLabel
+- _objc_msgSend$objectForKey:ofClass:valuesOfClass:
+- _objc_msgSend$openSensitiveURL:withOptions:
+- _objc_msgSend$options
+- _objc_msgSend$outerGearShadowView
+- _objc_msgSend$outerGearView
+- _objc_msgSend$performRequestWithHandler:
+- _objc_msgSend$preferredFontDescriptorWithTextStyle:
+- _objc_msgSend$preferredLanguagesForRegionWithoutFiltering:
+- _objc_msgSend$preferredLocalizations
+- _objc_msgSend$productBuildVersion
+- _objc_msgSend$productVersion
+- _objc_msgSend$pushControllersAsStack:
+- _objc_msgSend$range
+- _objc_msgSend$recordUserAcceptedAgreementVersion:
+- _objc_msgSend$regionCode
+- _objc_msgSend$regionName
+- _objc_msgSend$regionWithName:code:
+- _objc_msgSend$regionsList
+- _objc_msgSend$reloadDataAndScrollToCheckedLanguageWithAnimation:
+- _objc_msgSend$reloadDataAndScrollToCheckedRegionAnimated:
+- _objc_msgSend$reloadSections
+- _objc_msgSend$removeAllAnimations
+- _objc_msgSend$renderInContext:
+- _objc_msgSend$replaceObjectAtIndex:withObject:
+- _objc_msgSend$resolveMergeConflict:
+- _objc_msgSend$responseData
+- _objc_msgSend$restrictedCountryCodes
+- _objc_msgSend$searchBarCancelButtonClicked:
+- _objc_msgSend$searchBarTextDidEndEditing:
+- _objc_msgSend$searchableItemsFromManifest:specifier:bundle:
+- _objc_msgSend$sectionForObject:collationStringSelector:
+- _objc_msgSend$sectionIndexTitles
+- _objc_msgSend$sectionTitles
+- _objc_msgSend$selectedCategoryIndex
+- _objc_msgSend$setAnimating:
+- _objc_msgSend$setAnimatingGearView:
+- _objc_msgSend$setBackgroundImage:forBarMetrics:
+- _objc_msgSend$setBarStyle:
+- _objc_msgSend$setByValue:
+- _objc_msgSend$setCheckedLanguage:
+- _objc_msgSend$setCloudSyncEnabled:
+- _objc_msgSend$setCompletionBlock:
+- _objc_msgSend$setContent:
+- _objc_msgSend$setContentSizeCategories:
+- _objc_msgSend$setCurrentRegion:
+- _objc_msgSend$setCustomHeaders:
+- _objc_msgSend$setDeviceLanguages:
+- _objc_msgSend$setDuration:
+- _objc_msgSend$setDynamicTypeValue:forSpecifier:
+- _objc_msgSend$setFillMode:
+- _objc_msgSend$setFilteredDeviceLanguages:
+- _objc_msgSend$setFilteredListContent:
+- _objc_msgSend$setFirstLineHeadIndent:
+- _objc_msgSend$setHandlerForElementName:handler:
+- _objc_msgSend$setLanguage:specifier:
+- _objc_msgSend$setLanguageCode:
+- _objc_msgSend$setLanguageName:
+- _objc_msgSend$setLineSpacing:
+- _objc_msgSend$setLocaleFromRegionCode:
+- _objc_msgSend$setLocalizedLanguageName:
+- _objc_msgSend$setMasksToBounds:
+- _objc_msgSend$setMaximumTrackTintColor:
+- _objc_msgSend$setMinimumTrackTintColor:
+- _objc_msgSend$setProgress:animated:
+- _objc_msgSend$setProgressTintColor:
+- _objc_msgSend$setRegionCode:
+- _objc_msgSend$setRegionName:
+- _objc_msgSend$setRegionsList:
+- _objc_msgSend$setRemovedOnCompletion:
+- _objc_msgSend$setRepeatDuration:
+- _objc_msgSend$setSections:
+- _objc_msgSend$setSelectedCategoryIndex:
+- _objc_msgSend$setShadowColor:
+- _objc_msgSend$setShadowOffset:
+- _objc_msgSend$setShadowOpacity:
+- _objc_msgSend$setShadowPath:
+- _objc_msgSend$setShowsCancelButton:
+- _objc_msgSend$setShowsExtendedRangeSwitch:
+- _objc_msgSend$setShowsLargerSizesHelpText:
+- _objc_msgSend$setStatusBarShowsProgress:
+- _objc_msgSend$setSyncEnabled:
+- _objc_msgSend$setSyncError:
+- _objc_msgSend$setTimingFunction:
+- _objc_msgSend$setTitleTextAttributes:
+- _objc_msgSend$setToolbarHidden:
+- _objc_msgSend$setToolbarItems:
+- _objc_msgSend$setToolbarItems:animated:
+- _objc_msgSend$setTransform:
+- _objc_msgSend$setTranslucent:
+- _objc_msgSend$setUsesExtendedRange:
+- _objc_msgSend$setViewControllers:animated:
+- _objc_msgSend$setupViews
+- _objc_msgSend$sf_colorCodedSerialNumber
+- _objc_msgSend$sf_configString
+- _objc_msgSend$sf_deviceSubTypeString
+- _objc_msgSend$sf_plantCode
+- _objc_msgSend$sf_screenClassString
+- _objc_msgSend$sf_udidString
+- _objc_msgSend$sf_weekOfManufacture
+- _objc_msgSend$sf_yearOfManufacture
+- _objc_msgSend$sharedIntlUtility
+- _objc_msgSend$showAllSpecifier
+- _objc_msgSend$showLoadingSpinnerViewController
+- _objc_msgSend$showRedirectSheet
+- _objc_msgSend$showsCancelButton
+- _objc_msgSend$showsExtendedRangeSwitch
+- _objc_msgSend$showsLargerSizesHelpText
+- _objc_msgSend$simulateCrashWithString:
+- _objc_msgSend$slaVersion
+- _objc_msgSend$sortedArrayFromArray:collationStringSelector:
+- _objc_msgSend$specifierForAppIdentifier:
+- _objc_msgSend$statusBarHeight
+- _objc_msgSend$substringFromIndex:
+- _objc_msgSend$syncEnabled
+- _objc_msgSend$syncError
+- _objc_msgSend$syncMessage
+- _objc_msgSend$syncTitle
+- _objc_msgSend$systemImageNamed:
+- _objc_msgSend$systemLanguages
+- _objc_msgSend$tableCellGroupedBackgroundColor
+- _objc_msgSend$tintColor
+- _objc_msgSend$topLayoutGuide
+- _objc_msgSend$update
+- _objc_msgSend$updateChecked:
+- _objc_msgSend$updateConstraintsIfNeeded
+- _objc_msgSend$updateIcon
+- _objc_msgSend$updateNavigationItem
+- _objc_msgSend$updateProgressTintColor
+- _objc_msgSend$updatesDeferred
+- _objc_msgSend$uppercaseLetterCharacterSet
+- _objc_msgSend$usesExtendedRange
+- _objc_msgSend$versionFromLicenseText:
+- _objc_msgSend$versionOfAcceptedAgreement
+- _objc_msgSend$verticalSizeClass
+- _objc_msgSend$viewControllerForKey:
+- _refreshPadding
+- _sPSSiriKitTCCEnabledAppIds
+- _statusMessageTopAfterScanningMargin
+CStrings:
++ "\x05\x1f"
++ "%s: fedstats index strings file: %@"
++ "-[PSCoreSpotlightIndexer indexManifestBundlesAtURLs:withCompletion:]_block_invoke_2"
++ "@44@0:8@16@24@32B40"
++ "GEOVisualLocalizationCrowdsourcingIsAllowed"
++ "GEOVisualLocalizationCrowdsourcingIsEnabled"
++ "GEOVisualLocalizationCrowdsourcingIsSupported"
++ "GEOVisualLocalizationCrowdsourcingLearnMoreURL"
++ "GEOVisualLocalizationCrowdsourcingSetEnabled"
++ "IMPROVE_AR_LOCATION_ACCURACY"
++ "IMPROVE_AR_LOCATION_ACCURACY_DATA"
++ "IMPROVE_AR_LOCATION_ACCURACY_FOOTER"
++ "IMPROVE_AR_LOCATION_ACCURACY_GROUP"
++ "IMPROVE_AR_LOCATION_ACCURACY_LINK"
++ "MOApprovedApplicationsManager"
++ "PSCoreSpolightIndexerWriteFedStatsStrings"
++ "SFSafariViewController"
++ "T@\"NSArray\",R,V_improveARLocationAccuracySpecifiers"
++ "TB,N,V_queryFoundItems"
++ "_improveARLocationAccuracySpecifiers"
++ "_queryFoundItems"
++ "fedStatsStringsFromManifestBundlesAtURLs:withCompletion:"
++ "fedstats_index_strings.txt"
++ "improveARLocationAccuracyForSpecifier:"
++ "improveARLocationAccuracySpecifiers"
++ "initWithURL:"
++ "isJournalingSuggestionsAvailableForBundleIdentifier:"
++ "queryFoundItems"
++ "searchQueryTextChanged"
++ "searchableItemsFromManifest:specifier:bundle:processCapabilities:"
++ "setImproveARLocationAccuracy:specifier:"
++ "setQueryFoundItems:"
++ "showImproveARLocationAccuracyDataSheet"
++ "softlink:o:path:/System/Library/PrivateFrameworks/MomentsOnboardingAndSettings.framework/MomentsOnboardingAndSettings"
++ "softlink:r:path:/System/Library/Frameworks/SafariServices.framework/SafariServices"
++ "softlink:r:path:/System/Library/PrivateFrameworks/GeoServices.framework/GeoServices"
++ "writeToFile:atomically:encoding:error:"
+- "\x02\x11\x11"
+- "\x03\x15"
+- "\x03\x16"
+- "\x05\x1e"
+- "\x11\x11\x12"
+- "\x11\x15"
+- "!\x11"
+- "%@ %@ "
+- "%@ Preferences logging"
+- "%llu"
+- "/Library/Preferences/com.apple.UIKit"
+- "/System/Library/PrivateFrameworks/EAP8021X.framework/EAP8021X"
+- "<span style=\"%@\">%@</span>"
+- "@\"<PSCloudSyncDelegate>\""
+- "@\"<PSCloudSyncPopoverDelegate>\""
+- "@\"<UIViewImplicitlyAnimating>\"24@0:8@\"<UIViewControllerContextTransitioning>\"16"
+- "@\"NSArray\"16@0:8"
+- "@\"NSDictionary\"8@?0"
+- "@\"NSError\""
+- "@\"PSLanguage\""
+- "@\"PSLanguageSelector\""
+- "@\"PSLargeTextSliderListController\""
+- "@\"PSLocaleSelector\""
+- "@\"PSRegion\""
+- "@\"PSSoftwareUpdateAnimatedIcon\""
+- "@\"PSStackPushAnimationController\""
+- "@\"PSViewController\""
+- "@\"PSViewController\"16@0:8"
+- "@\"PSWebContainerView\""
+- "@\"RUIStyle\""
+- "@\"SUDescriptor\""
+- "@\"UINavigationController\""
+- "@\"UIProgressView\""
+- "@\"UISearchBar\""
+- "@32@0:8@\"PSListController\"16@\"PSSpecifier\"24"
+- "@40@0:8@16@24q32"
+- "@56@0:8{CGRect={CGPoint=dd}{CGSize=dd}}16q48"
+- "AAGenericTermsUIRequest"
+- "AASetupAssistantService"
+- "AAiCloudTermsAgreeRequest"
+- "ABOUT_PEARL_ID_INFO_TEXT"
+- "ABOUT_POLARIS"
+- "ABOUT_THIS_UPDATE"
+- "ACMRequirement - ACMRequirementDataRatchet"
+- "AGREE"
+- "AGREE_ALERT_1TERMS"
+- "AGREE_ALERT_1TERMS_PRIVACY"
+- "AGREE_ALERT_2TERMS"
+- "AGREE_ALERT_2TERMS_PRIVACY"
+- "AGREE_ALERT_3TERMS"
+- "AGREE_ALERT_3TERMS_PRIVACY"
+- "ApplePreferredContentSizeCategoryChangedNotification"
+- "ArtworkDeviceSubType"
+- "B32@?0@\"UIBarButtonItem\"8Q16^B24"
+- "BYLicenseAgreement"
+- "BYSetupAssistantNeedsToRun"
+- "CGPath"
+- "CHECKING_FOR_UPDATES"
+- "CLOUD_SYNC"
+- "Cell"
+- "CloudSync"
+- "DISAGREE"
+- "DYNAMIC_TYPE_DESCRIPTION"
+- "DYNAMIC_TYPE_DESCRIPTION_IPAD"
+- "DYNAMIC_TYPE_SLIDER_INDICATOR"
+- "DeviceClassNumber"
+- "DidPostContentSizeChanged"
+- "Disabled"
+- "EA"
+- "EA(\\d\\d\\d\\d)"
+- "EAPSecPolicyCopy"
+- "Enabled"
+- "Error loading RemoteUI terms: %@"
+- "Failed to mark terms as agreed in iCloud: %@"
+- "FontSizeSliderCell"
+- "ForceCapitalizationInLanguageLists"
+- "Game Center"
+- "HOUR"
+- "HOURS"
+- "IPAD_MAC_SYNC"
+- "IPAD_SYNC"
+- "IPHONE_IPAD_MAC_SYNC"
+- "IPHONE_IPAD_SYNC"
+- "IPHONE_MAC_SYNC"
+- "IPHONE_SYNC"
+- "ISOCountryCodes"
+- "LARGER_DYNAMIC_TYPE"
+- "LARGER_SIZES_HELP_TEXT"
+- "LOCALE"
+- "LOCATION_PRIVACY_DESCRIPTION"
+- "LOCATION_PRIVACY_HOTSPOT_TYPE_WIFI"
+- "LargeFontsSettings"
+- "LargeTextExplanationView"
+- "LargerSizesHelpTextView"
+- "MAC_SYNC"
+- "MANAGED_DEVICE_DELAY_EXPIRED_UNAVAILABLE"
+- "MANAGED_DEVICE_HIDDEN_WITHIN_DELAY"
+- "MERGE_CONFLICT_APPLY_ICLOUD"
+- "MERGE_CONFLICT_DEFAULT"
+- "MERGE_CONFLICT_MESSAGE"
+- "MERGE_CONFLICT_SYNC_CURRENT"
+- "MINUTE"
+- "MINUTES"
+- "MOInternalEnabled"
+- "Moments"
+- "Multiterms-%@"
+- "Multiterms-en"
+- "NERP"
+- "Not showing terms because accepted version %@ >= asset version: %@"
+- "PSCloudSyncButton"
+- "PSCloudSyncController"
+- "PSCloudSyncKeyDisplayName"
+- "PSCloudSyncKeyMessage"
+- "PSCloudSyncKeyPlatforms"
+- "PSCloudSyncKeyRedirectTitle"
+- "PSCloudSyncKeyRedirectURL"
+- "PSCloudSyncPopoverDelegate"
+- "PSExpandableAppListGroup"
+- "PSExpandableListGroup"
+- "PSInternationalController"
+- "PSInternationalLanguageController"
+- "PSInternationalLanguageSetupController"
+- "PSLanguage"
+- "PSLanguageSelector"
+- "PSLargeTextSliderListController"
+- "PSLocaleController"
+- "PSLocaleSelector"
+- "PSLogEnabled"
+- "PSRegion"
+- "PSRestrictionsController"
+- "PSSearchStackPushAnimationPreset"
+- "PSSearchStackPushDuration"
+- "PSSearchStackPushEndStagger"
+- "PSSearchStackPushSpringDamping"
+- "PSSearchStackPushStartStagger"
+- "PSSimulatedCrash"
+- "PSSoftwareUpdateAnimatedIcon"
+- "PSSoftwareUpdateLicenseViewController"
+- "PSSoftwareUpdateReleaseNotesDetail"
+- "PSSoftwareUpdateTableView"
+- "PSSoftwareUpdateTermsManager"
+- "PSSoftwareUpdateTitleCell"
+- "PSSpecifierGroup"
+- "PSStackPushAnimationController"
+- "PSStorageAppHeaderCell"
+- "PSTimeZoneArrayForTimeZone:\n%@"
+- "Polaris"
+- "PreferencesIconBackground"
+- "PreferencesIconInnerGear"
+- "PreferencesIconOuterGear"
+- "PreferencesIconOuterGearShadow"
+- "ProductType"
+- "REDIRECT"
+- "RELEASE_NOTES_HTML_FONT"
+- "RUIPage"
+- "SEARCH"
+- "SELF beginswith[cld] %@"
+- "SHOW_ALL"
+- "SHOW_ALL_APPS"
+- "SLA version in combined terms: %@"
+- "SLAVersion"
+- "STStorageAppHeaderCell"
+- "SU Terms: Adding headers: %@"
+- "SU Terms: Downloading URL configuration for combined terms"
+- "SU Terms: Loading combined terms from %@"
+- "SU Terms: No terms on update asset"
+- "SU Terms: Update asset license agreement has version: %{public}@, length %llu"
+- "SU Terms: Update asset license agreement text contains version string: %{public}@"
+- "SYNC_SETTING"
+- "SYNC_SETTING_DEFAULT"
+- "SetupFinishedAllSteps"
+- "SimulateCrash"
+- "T@\"<PSCloudSyncDelegate>\",W,N,V_delegate"
+- "T@\"<PSCloudSyncPopoverDelegate>\",W,N,V_delegate"
+- "T@\"NSArray\",&,N,V_deviceLanguages"
+- "T@\"NSArray\",&,N,V_filteredDeviceLanguages"
+- "T@\"NSArray\",&,N,V_filteredListContent"
+- "T@\"NSArray\",&,N,V_regionsList"
+- "T@\"NSArray\",&,N,V_sections"
+- "T@\"NSArray\",&,N,V_viewControllers"
+- "T@\"NSArray\",C,N,V_contentSizeCategories"
+- "T@\"NSDictionary\",&,N,V_options"
+- "T@\"NSError\",&,N,V_syncError"
+- "T@\"NSLayoutConstraint\",&,N,V_updateStatusLabelVerticalConstraint"
+- "T@\"NSString\",&,N,V_currentVersion"
+- "T@\"NSString\",&,N,V_languageCode"
+- "T@\"NSString\",&,N,V_languageName"
+- "T@\"NSString\",&,N,V_licenseTextInfo"
+- "T@\"NSString\",&,N,V_localizedLanguageName"
+- "T@\"NSString\",&,N,V_regionCode"
+- "T@\"NSString\",&,N,V_regionName"
+- "T@\"NSString\",&,N,V_releaseNotes"
+- "T@\"NSString\",&,N,V_savedSearchTerm"
+- "T@\"NSString\",R,N"
+- "T@\"PSLanguage\",&,N,V_checkedLanguage"
+- "T@\"PSLanguageSelector\",&,N,V_languageSelector"
+- "T@\"PSLocaleSelector\",&,N,V_localeSelector"
+- "T@\"PSRegion\",&,N,V_currentRegion"
+- "T@\"PSViewController\",R,W,N"
+- "T@\"PSViewController\",R,W,N,V_controller"
+- "T@\"PSWebContainerView\",R,N,V_releaseNotesSummaryView"
+- "T@\"RUIStyle\",&,N,V_serverFlowStyle"
+- "T@\"UIActivityIndicatorView\",&,N,V_checkingForUpdateSpinner"
+- "T@\"UIImageView\",&,N,V_gearBackgroundImageView"
+- "T@\"UIImageView\",R,N"
+- "T@\"UILabel\",&,N,V_checkingStatusLabel"
+- "T@\"UILabel\",&,N,V_subtitleLabel"
+- "T@\"UILabel\",R,N,V_updateStatusLabel"
+- "T@\"UINavigationController\",W,N,V_navigationController"
+- "T@\"UIProgressView\",R,N,V_progressBar"
+- "T@\"UITextView\",&,N,V_licenseTextView"
+- "T@?,C,N,V_completionBlock"
+- "TB,N,GisCloudSyncEnabled"
+- "TB,N,V_searchIsActive"
+- "TB,N,V_showsExtendedRangeSwitch"
+- "TB,N,V_showsLargerSizesHelpText"
+- "TB,N,V_syncEnabled"
+- "TB,N,V_usesExtendedRange"
+- "TB,V_updatesDeferred"
+- "TERMS_AND_CONDITIONS"
+- "Td,N,V_completionStagger"
+- "Td,N,V_pushDuration"
+- "Td,N,V_springDamping"
+- "Td,N,V_startStagger"
+- "Terms accepted: %@, error: %@"
+- "Terms config response did not contain a terms URL: %@"
+- "Ti,N,V_state"
+- "Tq,N,V_animationPreset"
+- "Tq,N,V_selectedCategoryIndex"
+- "UIPreferredContentSizeCategoryName"
+- "UIViewControllerAnimatedTransitioning"
+- "UP_TO_DATE"
+- "US"
+- "X-Apple-iOS-SLA-Version"
+- "YASE"
+- "_PSSpinnerHandlingNavigationController"
+- "_PSSpinnerViewController"
+- "_acceptedTermsFromAsset"
+- "_acceptedTermsVersion:"
+- "_actualDuration"
+- "_addAnimation:forViewAtIndex:count:"
+- "_agreeToCombinedTOSInProgress"
+- "_animatedGearView"
+- "_animating"
+- "_animatingGearView"
+- "_animationParametersForPreset:"
+- "_animationPreset"
+- "_animationsToRunAlongsideToVC"
+- "_bodyExampleLabel"
+- "_bodyExampleTextView"
+- "_bottomPadding"
+- "_canShowWhileLocked"
+- "_checkedLanguage"
+- "_checkingForUpdateSpinner"
+- "_checkingStatusLabel"
+- "_collaspeAfterCount"
+- "_completionBlock"
+- "_completionStagger"
+- "_contentSizeCategories"
+- "_contentView"
+- "_currentRegion"
+- "_currentVersion"
+- "_desiredDuration"
+- "_deviceLanguages"
+- "_extendedRangeSliderListController"
+- "_filteredDeviceLanguages"
+- "_filteredListContent"
+- "_finishTermsWithAcceptance:error:"
+- "_gearBackgroundImageView"
+- "_groupSpecifierID"
+- "_handleAgreeFromObjectModel:"
+- "_hasStartedAnimation"
+- "_helpLabel"
+- "_hideKeyboardInSearchMode"
+- "_hostController"
+- "_innerGearView"
+- "_languageCode"
+- "_languageName"
+- "_languageSelector"
+- "_legacy_sizeWithFont:constrainedToSize:"
+- "_licenseTextInfo"
+- "_licenseTextView"
+- "_loadDefaultValues"
+- "_loadRemoteUITermsWithCloudAtURL:"
+- "_loadTermsFromUpdateAsset"
+- "_loadTermsRemoteUIFailureWithError:"
+- "_localeSelector"
+- "_localizedLanguageName"
+- "_mainContentView"
+- "_navigationController"
+- "_options"
+- "_outerGearShadowView"
+- "_outerGearView"
+- "_overrideNextRUIAction"
+- "_presentModalController:"
+- "_presentedViewController"
+- "_progressBar"
+- "_progressStyle"
+- "_pushDuration"
+- "_regionCode"
+- "_regionName"
+- "_regionsList"
+- "_releaseNotes"
+- "_releaseNotesSummaryView"
+- "_removeSpinnerViewControllerIfNeeded"
+- "_savedSearchTerm"
+- "_searchBar"
+- "_searchIsActive"
+- "_searchMode"
+- "_sections"
+- "_selectedCategoryIndex"
+- "_serverFlowStyle"
+- "_setNavigationBarHidden:edge:duration:"
+- "_setShowsSeparator:"
+- "_shouldSkipFirstPush"
+- "_showAll"
+- "_showAllSpecifier"
+- "_showProgressViewController"
+- "_showsExtendedRangeSwitch"
+- "_showsLargerSizesHelpText"
+- "_sliderGroupSpecifier"
+- "_sliderListController"
+- "_snapshotOfViewController:withNavigationBar:prevViewController:"
+- "_snapshots"
+- "_springDamping"
+- "_stackAnimationController"
+- "_startStagger"
+- "_subtitleLabel"
+- "_syncEnabled"
+- "_syncError"
+- "_termsCompletion"
+- "_termsDisagree"
+- "_termsRemoteUI"
+- "_update"
+- "_updateStatusLabel"
+- "_updateStatusLabelVerticalConstraint"
+- "_updatesDeferred"
+- "_usesExtendedRange"
+- "_valueForAnimationParameter:"
+- "_viewControllers"
+- "_viewIsDisappearing"
+- "addAnimation:forKey:"
+- "addConstraint:"
+- "addSpecifiers:"
+- "agree"
+- "agreeUrl"
+- "animateAlongsideToViewController:"
+- "animateTransition:"
+- "animateWithDuration:delay:usingSpringWithDamping:initialSpringVelocity:options:animations:completion:"
+- "animationDidStop:finished:"
+- "animationEnded:"
+- "animationPreset"
+- "animationWithKeyPath:"
+- "availableLocaleIdentifiers"
+- "backItem"
+- "begin"
+- "cancelLoadingTerms:"
+- "canonicalLanguageIdentifierFromString:"
+- "capitalizeLanguageNames"
+- "centerXAnchor"
+- "checkedLanguage"
+- "checkingForUpdateSpinner"
+- "checkingStatusLabel"
+- "checkmark.icloud"
+- "clientInfo"
+- "cloudSyncAction:"
+- "cloudSyncEnabled"
+- "cloud_settings"
+- "cloudsettings"
+- "com.apple.developer.moments.allow"
+- "com.apple.purplebuddy"
+- "commit"
+- "completeTransition:"
+- "completionBlock"
+- "completionStagger"
+- "configureAnimatedGearViewFromImageSize:"
+- "configureImageView"
+- "configureProgressBar:"
+- "configurePublisherLabel:"
+- "configureReleaseNotesSummaryView:"
+- "configureUpdateNameLabel:"
+- "configureUpdateStatusLabel:"
+- "constraintGreaterThanOrEqualToAnchor:"
+- "containerView"
+- "contentSizeCategories"
+- "controllerWithViewControllerStack:navigationController:"
+- "controllers"
+- "createGearIconConstraints"
+- "currentCollation"
+- "currentRegion"
+- "currentVersion"
+- "customHeaders"
+- "d24@0:8@\"<UIViewControllerContextTransitioning>\"16"
+- "defaultPages"
+- "defaultParagraphStyle"
+- "deviceLanguageIdentifier"
+- "deviceLanguages"
+- "didReceiveMemoryWarning"
+- "disagree"
+- "dismissObjectModelsAnimated:completion:"
+- "displayNameForLanguage:displayLanguage:context:"
+- "displayNameForRegion:displayLanguage:capitalization:"
+- "displayNamesAreEqual"
+- "documentation"
+- "doneButtonTapped"
+- "downloadURLConfiguration:"
+- "drawViewHierarchyInRect:afterScreenUpdates:"
+- "en-"
+- "entitlements"
+- "enumerateSubstringsInRange:options:usingBlock:"
+- "evaluateWithObject:"
+- "exclamationmark.icloud"
+- "filterLanguageList:forRegion:fromLanguages:"
+- "filteredDeviceLanguages"
+- "filteredLanguagesForLanguageList:searchString:"
+- "filteredListContent"
+- "filteredRegionsForRegionList:searchString:"
+- "finalFrameForViewController:"
+- "firstMatchInString:options:range:"
+- "functionWithName:"
+- "gearBackgroundImage"
+- "gearBackgroundImageView"
+- "generateLanguageCells"
+- "genericTermsURL"
+- "getDynamicTypeValueForSpecifier:"
+- "hasMergeConflict"
+- "iCloud Terms Dismissed via server"
+- "iOS"
+- "icloud"
+- "icloud.slash"
+- "initUsingExtendedRange:"
+- "initWithAccount:"
+- "initWithAccount:parameters:"
+- "initWithBarButtonSystemItem:primaryAction:"
+- "initWithController:options:delegate:"
+- "initWithDelegate:"
+- "initWithImage:style:target:action:"
+- "initWithLicense:"
+- "initWithListController:groupSpecifier:"
+- "initWithListController:groupSpecifierID:collapseAfterCount:"
+- "initWithPattern:options:error:"
+- "initWithProgressViewStyle:"
+- "initWithURLString:account:"
+- "innerGearView"
+- "innerRotation"
+- "installCloudSyncButton:delegate:"
+- "interfaceOrientation"
+- "interruptibleAnimatorForTransition:"
+- "isCloudSyncEnabled"
+- "isCloudSyncEnabled:"
+- "kAAProtocolGenericTermsUIBuddyMLKey"
+- "kCellIdentifier"
+- "languageCode"
+- "languageName"
+- "languageSelector"
+- "languageWithCode:name:localizedName:"
+- "layoutForWidth:inTableView:"
+- "licenseAgreement"
+- "licenseTextInfo"
+- "licenseTextView"
+- "lightGrayColor"
+- "loadData"
+- "loadData:baseURL:"
+- "loadRegions"
+- "loader"
+- "localeSelector"
+- "localizedLanguageName"
+- "makeObjectsPerformSelector:"
+- "mergeConflictMessage"
+- "modelSpecificLocalizedStringKeyForKey:"
+- "namedPages"
+- "newGearBackgroundImageView"
+- "newProgressBar"
+- "newSoftwareUpdateAnimatedIconWithFrame:"
+- "newUpdateStatusLabel"
+- "oPeik/9e8lQWMszEjbPzng"
+- "objectForKey:ofClass:valuesOfClass:"
+- "openSensitiveURL:withOptions:"
+- "options"
+- "outerGearShadowView"
+- "outerGearView"
+- "outerRotation"
+- "performRequestWithHandler:"
+- "preferredContentSizeChanged:"
+- "preferredFontDescriptorWithTextStyle:"
+- "preferredHeightWithTable:"
+- "preferredLanguagesForRegionWithoutFiltering:"
+- "preferredLocalizations"
+- "presentTermsIfNecessaryForUpdate:overController:showLoadSpinner:completion:"
+- "productBuildVersion"
+- "productVersion"
+- "progressBar"
+- "progressDisplayStyle"
+- "pushControllersAsStack:"
+- "pushDuration"
+- "range"
+- "recordUserAcceptedAgreementVersion:"
+- "regionCode"
+- "regionName"
+- "regionWithName:code:"
+- "regionsList"
+- "releaseNotes"
+- "releaseNotesSummaryView"
+- "reloadDataAndScrollToCheckedLanguageWithAnimation:"
+- "reloadDataAndScrollToCheckedRegionAnimated:"
+- "reloadSections"
+- "removeAllAnimations"
+- "removeAllSpecifiers"
+- "renderInContext:"
+- "replaceObjectAtIndex:withObject:"
+- "resetDefaultAnimationParameters"
+- "resolveMergeConflict:"
+- "responseData"
+- "restrictedCountryCodes"
+- "savedSearchTerm"
+- "searchIsActive"
+- "searchableItemsFromManifest:specifier:bundle:"
+- "sectionForObject:collationStringSelector:"
+- "sectionIndexTitles"
+- "sectionTitles"
+- "selectedCategoryIndex"
+- "serverFlowStyle"
+- "setAnimating:"
+- "setAnimatingGearView:"
+- "setAnimationPreset:"
+- "setBackgroundImage:forBarMetrics:"
+- "setBarStyle:"
+- "setByValue:"
+- "setCheckedLanguage:"
+- "setCheckingForUpdateSpinner:"
+- "setCheckingStatusLabel:"
+- "setCloudSyncEnabled:"
+- "setCompletionBlock:"
+- "setCompletionStagger:"
+- "setContentSizeCategories:"
+- "setCurrentRegion:"
+- "setCurrentVersion:"
+- "setCustomHeaders:"
+- "setDefaultAnimationPreset:"
+- "setDeviceLanguages:"
+- "setDuration:"
+- "setDynamicTypeValue:forSpecifier:"
+- "setFillMode:"
+- "setFilteredDeviceLanguages:"
+- "setFilteredListContent:"
+- "setFirstLineHeadIndent:"
+- "setGearBackgroundImageView:"
+- "setHandlerForElementName:handler:"
+- "setLanguage:fallback:"
+- "setLanguage:specifier:"
+- "setLanguageCode:"
+- "setLanguageName:"
+- "setLanguageSelector:"
+- "setLicenseText:"
+- "setLicenseTextInfo:"
+- "setLicenseTextView:"
+- "setLineSpacing:"
+- "setLocaleFromLanguageIdentifier:"
+- "setLocaleFromRegionCode:"
+- "setLocaleSelector:"
+- "setLocalizedLanguageName:"
+- "setMasksToBounds:"
+- "setMaximumTrackTintColor:"
+- "setMinimumTrackTintColor:"
+- "setOptions:"
+- "setProgress:"
+- "setProgress:animated:"
+- "setProgressDisplayStyle:"
+- "setProgressTintColor:"
+- "setPublisherText:"
+- "setPushDuration:"
+- "setRegionCode:"
+- "setRegionName:"
+- "setRegionsList:"
+- "setReleaseNotes:"
+- "setReleaseNotesSummary:"
+- "setRemovedOnCompletion:"
+- "setRepeatDuration:"
+- "setSavedSearchTerm:"
+- "setSearchIsActive:"
+- "setSections:"
+- "setSelectedCategoryIndex:"
+- "setServerFlowStyle:"
+- "setShadowColor:"
+- "setShadowOffset:"
+- "setShadowOpacity:"
+- "setShadowPath:"
+- "setShowsCancelButton:"
+- "setShowsExtendedRangeSwitch:"
+- "setShowsLargerSizesHelpText:"
+- "setSpringDamping:"
+- "setStartStagger:"
+- "setStatusBarShowsProgress:"
+- "setStatusMessage:"
+- "setSubtitleLabel:"
+- "setSyncEnabled:"
+- "setSyncError:"
+- "setTimingFunction:"
+- "setTitleTextAttributes:"
+- "setToolbarHidden:"
+- "setToolbarItems:"
+- "setToolbarItems:animated:"
+- "setTransform:"
+- "setTranslucent:"
+- "setUpdateName:"
+- "setUpdateStatusLabelVerticalConstraint:"
+- "setUpdatesDeferred:"
+- "setUsesExtendedRange:"
+- "setUsesExtendedRange:forSpecifier:"
+- "setupViews"
+- "sf_colorCodedSerialNumber"
+- "sf_configString"
+- "sf_deviceSubTypeString"
+- "sf_plantCode"
+- "sf_screenClassString"
+- "sf_udidString"
+- "sf_weekOfManufacture"
+- "sf_yearOfManufacture"
+- "shadowRotation"
+- "sharedIntlUtility"
+- "showAll"
+- "showAllSpecifier"
+- "showLoadingSpinnerViewController"
+- "showRedirectSheet"
+- "showsCancelButton"
+- "showsExtendedRangeSwitch"
+- "showsLargerSizesHelpText"
+- "simulateCrashWithFormat:"
+- "simulateCrashWithString:"
+- "sizeCategoryDidChange:"
+- "slaVersion"
+- "softlink:r:path:/System/Library/PrivateFrameworks/MomentsOnboardingAndSettings.framework/MomentsOnboardingAndSettings"
+- "softlink:r:path:/System/Library/PrivateFrameworks/StorageSettings.framework/StorageSettings"
+- "sortedArrayFromArray:collationStringSelector:"
+- "specifierForAppIdentifier:"
+- "springDamping"
+- "startStagger"
+- "statusBarHeight"
+- "substringFromIndex:"
+- "subtitleLabel"
+- "suggestions"
+- "syncEnabled"
+- "syncError"
+- "syncMessage"
+- "syncTitle"
+- "systemImageNamed:"
+- "systemLanguages"
+- "tableCellGroupedBackgroundColor"
+- "terms"
+- "tintColor"
+- "topLayoutGuide"
+- "transform.rotation"
+- "transitionDuration:"
+- "update"
+- "updateChecked:"
+- "updateConstraintsIfNeeded"
+- "updateIcon"
+- "updateNavigationItem"
+- "updateProgressTintColor"
+- "updateStatusLabel"
+- "updateStatusLabelVerticalConstraint"
+- "updateViewConstraints"
+- "updatesDeferred"
+- "uppercaseLetterCharacterSet"
+- "usesExtendedRange"
+- "usesExtendedRangeForSpecifier:"
+- "v16@?0@\"AASetupAssistantConfigResponse\"8"
+- "v24@0:8@\"<UIViewControllerContextTransitioning>\"16"
+- "v28@0:8B16@20"
+- "v32@0:8d16@24"
+- "v32@0:8{CGSize=dd}16"
+- "v32@?0@\"AARequest\"8@\"AAResponse\"16@\"NSError\"24"
+- "v32@?0@\"RUIObjectModel\"8@\"RUIElement\"16@\"NSDictionary\"24"
+- "v32@?0@\"UIView\"8Q16^B24"
+- "v32@?0@\"UIViewController<PSController>\"8Q16^B24"
+- "v36@0:8B16Q20d28"
+- "v40@0:8@?16Q24Q32"
+- "v44@0:8@16@24B32@?36"
+- "v56@?0@\"NSString\"8{_NSRange=QQ}16{_NSRange=QQ}32^B48"
+- "v72@?0{CGRect={CGPoint=dd}{CGSize=dd}}8{CGRect={CGPoint=dd}{CGSize=dd}}40"
+- "version"
+- "versionFromLicenseText:"
+- "versionOfAcceptedAgreement"
+- "verticalSizeClass"
+- "viewControllerForKey:"
+- "warranties"
+
+```

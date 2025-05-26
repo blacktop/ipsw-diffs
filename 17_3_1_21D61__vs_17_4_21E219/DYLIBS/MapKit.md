@@ -1,0 +1,485 @@
+## MapKit
+
+> `/System/Library/Frameworks/MapKit.framework/MapKit`
+
+```diff
+
+-2417.33.11.14.2
+-  __TEXT.__text: 0x1ea7dc
++2417.34.10.5.17
++  __TEXT.__text: 0x1ebe7c
+   __TEXT.__auth_stubs: 0x1e10
+-  __TEXT.__objc_methlist: 0x1f310
++  __TEXT.__objc_methlist: 0x1f3b8
+   __TEXT.__const: 0x1980
+-  __TEXT.__cstring: 0x153fe
+-  __TEXT.__gcc_except_tab: 0x500c
+-  __TEXT.__oslogstring: 0x4d0b
++  __TEXT.__cstring: 0x1542e
++  __TEXT.__gcc_except_tab: 0x4fc0
++  __TEXT.__oslogstring: 0x4c90
+   __TEXT.__dlopen_cstrs: 0xbc
+   __TEXT.__ustring: 0x1c6
+-  __TEXT.__unwind_info: 0x81bc
++  __TEXT.__unwind_info: 0x81a4
+   __TEXT.__eh_frame: 0x38
+-  __TEXT.__objc_classname: 0x4b12
+-  __TEXT.__objc_methname: 0x5be05
+-  __TEXT.__objc_methtype: 0x1b1e4
+-  __TEXT.__objc_stubs: 0x3abe0
++  __TEXT.__objc_classname: 0x4b20
++  __TEXT.__objc_methname: 0x5c16f
++  __TEXT.__objc_methtype: 0x1b1ca
++  __TEXT.__objc_stubs: 0x3ac20
+   __DATA_CONST.__got: 0x858
+-  __DATA_CONST.__const: 0x6aa0
+-  __DATA_CONST.__objc_classlist: 0xf28
++  __DATA_CONST.__const: 0x6ac8
++  __DATA_CONST.__objc_classlist: 0xf30
+   __DATA_CONST.__objc_catlist: 0x1f8
+   __DATA_CONST.__objc_protolist: 0x5e8
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_const: 0x38d40
+-  __DATA_CONST.__objc_selrefs: 0x129b8
++  __DATA_CONST.__objc_const: 0x38e30
++  __DATA_CONST.__objc_selrefs: 0x12a08
++  __DATA_CONST.__objc_protorefs: 0xd8
++  __DATA_CONST.__objc_classrefs: 0x16a8
++  __DATA_CONST.__objc_superrefs: 0xc38
+   __DATA_CONST.__objc_arraydata: 0x688
+-  __AUTH_CONST.__const: 0x2600
+-  __AUTH_CONST.__objc_const: 0xbd48
+-  __AUTH_CONST.__cfstring: 0x19500
++  __AUTH_CONST.__const: 0x2620
++  __AUTH_CONST.__objc_const: 0xbdd8
++  __AUTH_CONST.__cfstring: 0x19560
+   __AUTH_CONST.__objc_doubleobj: 0x1f0
+   __AUTH_CONST.__objc_intobj: 0xe28
+   __AUTH_CONST.__objc_dictobj: 0x1b8
+   __AUTH_CONST.__objc_arrayobj: 0x438
+   __AUTH_CONST.__objc_floatobj: 0x70
+   __AUTH_CONST.__auth_got: 0xf20
+-  __AUTH.__objc_data: 0x7b98
+-  __DATA.__objc_protorefs: 0xd8
+-  __DATA.__objc_classrefs: 0x16a0
+-  __DATA.__objc_superrefs: 0xc30
+-  __DATA.__objc_ivar: 0x1784
++  __AUTH.__objc_data: 0x7cb0
++  __DATA.__objc_ivar: 0x1790
+   __DATA.__data: 0x4f50
+   __DATA.__common: 0x20
+   __DATA.__bss: 0x208
+-  __DATA_DIRTY.__objc_ivar: 0x1540
+-  __DATA_DIRTY.__objc_data: 0x1bf8
+-  __DATA_DIRTY.__data: 0x11
++  __DATA_DIRTY.__objc_ivar: 0x1578
++  __DATA_DIRTY.__objc_data: 0x1b30
++  __DATA_DIRTY.__data: 0x18
+   __DATA_DIRTY.__bss: 0x778
+   __DATA_DIRTY.__common: 0x10
+   - /System/Library/Frameworks/Accounts.framework/Accounts
+
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libicucore.A.dylib
+   - /usr/lib/libobjc.A.dylib
+-  Functions: 11921
+-  Symbols:   40352
+-  CStrings:  20504
++  Functions: 11926
++  Symbols:   40371
++  CStrings:  20539
+ 
+Symbols:
++ +[MKIncidentDetailCell lastUpdateDisplayString:]
++ -[MKIncidentDetailContentView .cxx_destruct]
++ -[MKIncidentDetailContentView _didTapActionButton]
++ -[MKIncidentDetailContentView _setConstraints]
++ -[MKIncidentDetailContentView _setupConstraints]
++ -[MKIncidentDetailContentView _setupSubviews]
++ -[MKIncidentDetailContentView _updateAccessoryFooterView:]
++ -[MKIncidentDetailContentView configureWithAdvisoryItem:]
++ -[MKIncidentDetailContentView configureWithTitle:subtitle:body:image:]
++ -[MKIncidentDetailContentView customBodyTextView]
++ -[MKIncidentDetailContentView delegate]
++ -[MKIncidentDetailContentView initWithFrame:]
++ -[MKIncidentDetailContentView setDelegate:]
++ -[MKIncidentDetailContentView textView:shouldInteractWithURL:inRange:interaction:]
++ -[MKIncidentExtendedDetailCell configureWithTitle:subtitle:body:image:]
++ -[MKIncidentsViewController accessoryFooterView]
++ -[MKPolyline _requiresModernMap]
++ -[MKWalletMerchantLookupRequest bankIdentifier]
++ -[MKWalletMerchantLookupRequest bankTransactionDescriptionClean]
++ -[MKWalletMerchantLookupRequest piiRedactionOccurred]
++ -[MKWalletMerchantLookupRequest rotationPeriodsSinceEpoch]
++ -[MKWalletMerchantLookupRequest setBankIdentifier:]
++ -[MKWalletMerchantLookupRequest setBankTransactionDescriptionClean:]
++ -[MKWalletMerchantLookupRequest setPiiRedactionOccurred:]
++ -[MKWalletMerchantLookupRequest setRotationPeriodsSinceEpoch:]
++ -[MUPlaceActionManager _addReportAProblemActionIfNeed:]
++ GCC_except_table91
++ GCC_except_table94
++ _MKErrorDirectionsErrorInfoKey
++ _OBJC_CLASS_$_MKIncidentDetailContentView
++ _OBJC_IVAR_$_MKIncidentExtendedDetailCell._incidentContentView
++ _OBJC_IVAR_$_MKWalletMerchantLookupRequest._bankIdentifier
++ _OBJC_IVAR_$_MKWalletMerchantLookupRequest._bankTransactionDescriptionClean
++ _OBJC_IVAR_$_MKWalletMerchantLookupRequest._piiRedactionOccurred
++ _OBJC_IVAR_$_MKWalletMerchantLookupRequest._rotationPeriodsSinceEpoch
++ _OBJC_METACLASS_$_MKIncidentDetailContentView
++ __OBJC_$_CLASS_METHODS_MKIncidentDetailCell
++ __OBJC_$_INSTANCE_METHODS_MKIncidentDetailContentView
++ __OBJC_$_INSTANCE_VARIABLES_MKIncidentDetailContentView
++ __OBJC_$_PROP_LIST_MKCompassView.144
++ __OBJC_$_PROP_LIST_MKFontManager.136
++ __OBJC_$_PROP_LIST_MKIncidentDetailContentView
++ __OBJC_$_PROP_LIST_MKModernMapRequiring
++ __OBJC_$_PROP_LIST_MKTransitInfoPreload.88
++ __OBJC_$_PROP_LIST_MKTransitItemIncidentView.135
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_MKIncidentDetailDelegate
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_MKModernMapRequiring
++ __OBJC_$_PROTOCOL_METHOD_TYPES_MKIncidentDetailDelegate
++ __OBJC_$_PROTOCOL_METHOD_TYPES_MKModernMapRequiring
++ __OBJC_$_PROTOCOL_REFS_MKIncidentDetailDelegate
++ __OBJC_$_PROTOCOL_REFS_MKModernMapRequiring
++ __OBJC_CLASS_PROTOCOLS_$_MKIncidentDetailContentView
++ __OBJC_CLASS_RO_$_MKIncidentDetailContentView
++ __OBJC_LABEL_PROTOCOL_$_MKIncidentDetailDelegate
++ __OBJC_LABEL_PROTOCOL_$_MKModernMapRequiring
++ __OBJC_METACLASS_RO_$_MKIncidentDetailContentView
++ __OBJC_PROTOCOL_$_MKIncidentDetailDelegate
++ __OBJC_PROTOCOL_$_MKModernMapRequiring
++ __ZNKSt3__16vectorI12RouteSectionNS_9allocatorIS1_EEE20__throw_length_errorB8ue170006Ev
++ __ZNKSt3__16vectorI13GEOPosition2dNS_9allocatorIS1_EEE20__throw_length_errorB8ue170006Ev
++ __ZNKSt3__16vectorI22CLLocationCoordinate2DNS_9allocatorIS1_EEE20__throw_length_errorB8ue170006Ev
++ __ZNKSt3__16vectorIN2gm6MatrixIdLi2ELi1EEENS_9allocatorIS3_EEE20__throw_length_errorB8ue170006Ev
++ __ZNKSt3__16vectorIP16MKAnnotationViewNS_9allocatorIS2_EEE20__throw_length_errorB8ue170006Ev
++ __ZNKSt3__16vectorIU8__strongP11VKRouteInfoNS_9allocatorIS3_EEE20__throw_length_errorB8ue170006Ev
++ __ZNKSt3__16vectorIU8__strongP11objc_objectNS_9allocatorIS3_EEE20__throw_length_errorB8ue170006Ev
++ __ZNKSt3__16vectorIZN3geo9Intersect18isSelfIntersectingIdEEbRKNS0_IN2gm6MatrixIT_Li2ELi1EEENS_9allocatorIS7_EEEEbE9EventInfoNS8_ISD_EEE20__throw_length_errorB8ue170006Ev
++ __ZNSt12length_errorC1B8ue170006EPKc
++ __ZNSt3__111__introsortINS_17_ClassicAlgPolicyER18_MKSpatialHorzCompPP16MKAnnotationViewLb0EEEvT1_S7_T0_NS_15iterator_traitsIS7_E15difference_typeEb
++ __ZNSt3__111__introsortINS_17_ClassicAlgPolicyER18_MKSpatialVertCompPP16MKAnnotationViewLb0EEEvT1_S7_T0_NS_15iterator_traitsIS7_E15difference_typeEb
++ __ZNSt3__111__introsortINS_17_ClassicAlgPolicyERZN3geo9Intersect18isSelfIntersectingIdEEbRKNS_6vectorIN2gm6MatrixIT_Li2ELi1EEENS_9allocatorIS9_EEEEbEUlRKZNS4_IdEEbSE_bE9EventInfoSH_E_PSF_Lb0EEEvT1_SL_T0_NS_15iterator_traitsISL_E15difference_typeEb
++ __ZNSt3__111__sift_downB8ue170006INS_17_ClassicAlgPolicyERZN3geo9Intersect18isSelfIntersectingIdEEbRKNS_6vectorIN2gm6MatrixIT_Li2ELi1EEENS_9allocatorIS9_EEEEbEUlRKZNS4_IdEEbSE_bE9EventInfoSH_E_PSF_EEvT1_OT0_NS_15iterator_traitsISL_E15difference_typeESL_
++ __ZNSt3__113__tree_removeB8ue170006IPNS_16__tree_node_baseIPvEEEEvT_S5_
++ __ZNSt3__116__insertion_sortB8ue170006INS_17_ClassicAlgPolicyERZN3geo9Intersect18isSelfIntersectingIdEEbRKNS_6vectorIN2gm6MatrixIT_Li2ELi1EEENS_9allocatorIS9_EEEEbEUlRKZNS4_IdEEbSE_bE9EventInfoSH_E_PSF_EEvT1_SL_T0_
++ __ZNSt3__117__floyd_sift_downB8ue170006INS_17_ClassicAlgPolicyERZN3geo9Intersect18isSelfIntersectingIdEEbRKNS_6vectorIN2gm6MatrixIT_Li2ELi1EEENS_9allocatorIS9_EEEEbEUlRKZNS4_IdEEbSE_bE9EventInfoSH_E_PSF_EET1_SL_OT0_NS_15iterator_traitsISL_E15difference_typeE
++ __ZNSt3__119__allocate_at_leastB8ue170006INS_9allocatorI13GEOPosition2dEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m
++ __ZNSt3__119__allocate_at_leastB8ue170006INS_9allocatorI22CLLocationCoordinate2DEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m
++ __ZNSt3__119__allocate_at_leastB8ue170006INS_9allocatorIN2gm6MatrixIdLi2ELi1EEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS8_m
++ __ZNSt3__119__allocate_at_leastB8ue170006INS_9allocatorIP16MKAnnotationViewEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
++ __ZNSt3__119__allocate_at_leastB8ue170006INS_9allocatorIZN3geo9Intersect18isSelfIntersectingIdEEbRKNS_6vectorIN2gm6MatrixIT_Li2ELi1EEENS1_IS9_EEEEbE9EventInfoEEEENS_19__allocation_resultINS_16allocator_traitsIS8_E7pointerEEERS8_m
++ __ZNSt3__119__partial_sort_implB8ue170006INS_17_ClassicAlgPolicyERZN3geo9Intersect18isSelfIntersectingIdEEbRKNS_6vectorIN2gm6MatrixIT_Li2ELi1EEENS_9allocatorIS9_EEEEbEUlRKZNS4_IdEEbSE_bE9EventInfoSH_E_PSF_SK_EET1_SL_SL_T2_OT0_
++ __ZNSt3__120__throw_length_errorB8ue170006EPKc
++ __ZNSt3__121__unwrap_and_dispatchB8ue170006INS_10__overloadINS_11__move_loopINS_17_ClassicAlgPolicyEEENS_14__move_trivialEEEPU8__strongP11objc_objectSA_SA_Li0EEENS_4pairIT0_T2_EESC_T1_SD_
++ __ZNSt3__122__hash_node_destructorINS_9allocatorINS_11__hash_nodeINS_17__hash_value_typeIN3geo11_retain_ptrIU8__strongP33_MKPinAnnotationViewImageCacheKeyNS4_16_retain_objc_arcENS4_17_release_objc_arcENS4_10_hash_objcENS4_11_equal_objcEEENS_15__list_iteratorINS4_6detail10_CacheItemISD_U8__strongP12NSDictionaryNSF_20_GEOGenericContainerISD_SJ_NS_4hashISD_EENS_8equal_toISD_EENS4_35GEOGenericContainerWeakReferenceTagELm0ELm0ENS4_29GEOGenericContainerLockingTagENSF_21_default_pointer_typeEE10_value_ptrEEEPvEEEESV_EEEEEclB8ue170006EPSY_
++ __ZNSt3__122__hash_node_destructorINS_9allocatorINS_11__hash_nodeINS_17__hash_value_typeIN3geo11_retain_ptrIU8__strongP33_MKPinAnnotationViewImageCacheKeyNS4_16_retain_objc_arcENS4_17_release_objc_arcENS4_10_hash_objcENS4_11_equal_objcEEENS_15__list_iteratorINS4_6detail10_CacheItemISD_U8__strongP12NSDictionaryNSF_20_GEOGenericContainerISD_SJ_NS_4hashISD_EENS_8equal_toISD_EENS4_37GEOGenericContainerStrongReferenceTagELm64ELm2097152ENS4_29GEOGenericContainerLockingTagENSF_21_default_pointer_typeEE10_value_ptrEEEPvEEEESV_EEEEEclB8ue170006EPSY_
++ __ZNSt3__126__insertion_sort_unguardedB8ue170006INS_17_ClassicAlgPolicyERZN3geo9Intersect18isSelfIntersectingIdEEbRKNS_6vectorIN2gm6MatrixIT_Li2ELi1EEENS_9allocatorIS9_EEEEbEUlRKZNS4_IdEEbSE_bE9EventInfoSH_E_PSF_EEvT1_SL_T0_
++ __ZNSt3__127__insertion_sort_incompleteB8ue170006INS_17_ClassicAlgPolicyER18_MKSpatialHorzCompPP16MKAnnotationViewEEbT1_S7_T0_
++ __ZNSt3__127__insertion_sort_incompleteB8ue170006INS_17_ClassicAlgPolicyER18_MKSpatialVertCompPP16MKAnnotationViewEEbT1_S7_T0_
++ __ZNSt3__127__insertion_sort_incompleteB8ue170006INS_17_ClassicAlgPolicyERZN3geo9Intersect18isSelfIntersectingIdEEbRKNS_6vectorIN2gm6MatrixIT_Li2ELi1EEENS_9allocatorIS9_EEEEbEUlRKZNS4_IdEEbSE_bE9EventInfoSH_E_PSF_EEbT1_SL_T0_
++ __ZNSt3__127__tree_balance_after_insertB8ue170006IPNS_16__tree_node_baseIPvEEEEvT_S5_
++ __ZNSt3__131__partition_with_equals_on_leftB8ue170006INS_17_ClassicAlgPolicyEPZN3geo9Intersect18isSelfIntersectingIdEEbRKNS_6vectorIN2gm6MatrixIT_Li2ELi1EEENS_9allocatorIS9_EEEEbE9EventInfoRZNS4_IdEEbSE_bEUlRKSF_SI_E_EET0_SL_SL_T1_
++ __ZNSt3__132__partition_with_equals_on_rightB8ue170006INS_17_ClassicAlgPolicyEPZN3geo9Intersect18isSelfIntersectingIdEEbRKNS_6vectorIN2gm6MatrixIT_Li2ELi1EEENS_9allocatorIS9_EEEEbE9EventInfoRZNS4_IdEEbSE_bEUlRKSF_SI_E_EENS_4pairIT0_bEESM_SM_T1_
++ __ZNSt3__16vectorIU8__strongP11VKRouteInfoNS_9allocatorIS3_EEE16__destroy_vectorclB8ue170006Ev
++ __ZNSt3__16vectorIU8__strongP11objc_objectNS_9allocatorIS3_EEE16__destroy_vectorclB8ue170006Ev
++ __ZNSt3__17__sort3B8ue170006INS_17_ClassicAlgPolicyER18_MKSpatialHorzCompPP16MKAnnotationViewEEjT1_S7_S7_T0_
++ __ZNSt3__17__sort3B8ue170006INS_17_ClassicAlgPolicyER18_MKSpatialVertCompPP16MKAnnotationViewEEjT1_S7_S7_T0_
++ __ZNSt3__17__sort3B8ue170006INS_17_ClassicAlgPolicyERZN3geo9Intersect18isSelfIntersectingIdEEbRKNS_6vectorIN2gm6MatrixIT_Li2ELi1EEENS_9allocatorIS9_EEEEbEUlRKZNS4_IdEEbSE_bE9EventInfoSH_E_PSF_EEjT1_SL_SL_T0_
++ __ZNSt3__17__sort4B8ue170006INS_17_ClassicAlgPolicyER18_MKSpatialHorzCompPP16MKAnnotationViewEEvT1_S7_S7_S7_T0_
++ __ZNSt3__17__sort4B8ue170006INS_17_ClassicAlgPolicyER18_MKSpatialVertCompPP16MKAnnotationViewEEvT1_S7_S7_S7_T0_
++ __ZNSt3__17__sort4B8ue170006INS_17_ClassicAlgPolicyERZN3geo9Intersect18isSelfIntersectingIdEEbRKNS_6vectorIN2gm6MatrixIT_Li2ELi1EEENS_9allocatorIS9_EEEEbEUlRKZNS4_IdEEbSE_bE9EventInfoSH_E_PSF_EEvT1_SL_SL_SL_T0_
++ __ZNSt3__17__sort5B8ue170006INS_17_ClassicAlgPolicyER18_MKSpatialHorzCompPP16MKAnnotationViewEEvT1_S7_S7_S7_S7_T0_
++ __ZNSt3__17__sort5B8ue170006INS_17_ClassicAlgPolicyER18_MKSpatialVertCompPP16MKAnnotationViewEEvT1_S7_S7_S7_S7_T0_
++ __ZNSt3__17__sort5B8ue170006INS_17_ClassicAlgPolicyERZN3geo9Intersect18isSelfIntersectingIdEEbRKNS_6vectorIN2gm6MatrixIT_Li2ELi1EEENS_9allocatorIS9_EEEEbEUlRKZNS4_IdEEbSE_bE9EventInfoSH_E_PSF_EEvT1_SL_SL_SL_SL_T0_
++ __ZNSt3__19__sift_upB8ue170006INS_17_ClassicAlgPolicyERZN3geo9Intersect18isSelfIntersectingIdEEbRKNS_6vectorIN2gm6MatrixIT_Li2ELi1EEENS_9allocatorIS9_EEEEbEUlRKZNS4_IdEEbSE_bE9EventInfoSH_E_PSF_EEvT1_SL_OT0_NS_15iterator_traitsISL_E15difference_typeE
++ __ZSt28__throw_bad_array_new_lengthB8ue170006v
++ ___48+[MKIncidentDetailCell lastUpdateDisplayString:]_block_invoke
++ ___55-[_MKBalloonCalloutView _showAnimated:completionBlock:]_block_invoke.149
++ ___57-[MKIncidentDetailContentView configureWithAdvisoryItem:]_block_invoke
++ ___57-[MKIncidentDetailContentView configureWithAdvisoryItem:]_block_invoke_2
++ ___57-[MKIncidentDetailContentView configureWithAdvisoryItem:]_block_invoke_3
++ ___Block_byref_object_copy_.600
++ ___Block_byref_object_dispose_.601
++ ___block_descriptor_32_e23_v32?0"UIView"8Q16^B24l
++ ___block_descriptor_56_e8_32s40s48s_e25_v32?0"NSString"8Q16^B24ls32l8s40l8s48l8
++ ___block_descriptor_88_e8_32s40r48r56r64r72r80r_e5_v8?0lr40l8s32l8r48l8r56l8r64l8r72l8r80l8
++ ___block_literal_global.106
++ ___block_literal_global.109
++ ___block_literal_global.180
++ ___block_literal_global.184
++ ___block_literal_global.1857
++ ___block_literal_global.1859
++ ___block_literal_global.1866
++ ___block_literal_global.1871
++ ___block_literal_global.1875
++ ___block_literal_global.191
++ ___block_literal_global.260
++ ___block_literal_global.286
++ ___block_literal_global.457
++ ___block_literal_global.494
++ ___block_literal_global.575
++ ___block_literal_global.66
++ ___block_literal_global.660
++ ___block_literal_global.663
++ ___block_literal_global.71
++ ___block_literal_global.73
++ __unnamed_array_storage.252
++ __unnamed_array_storage.255
++ __unnamed_array_storage.537
++ __unnamed_array_storage.546
++ __unnamed_array_storage.549
++ __unnamed_array_storage.552
++ _objc_msgSend$_addReportAProblemActionIfNeed:
++ _objc_msgSend$_updateAccessoryFooterView:
++ _objc_msgSend$accessoryFooterView
++ _objc_msgSend$bankIdentifier
++ _objc_msgSend$bankTransactionDescriptionClean
++ _objc_msgSend$capitalizedString
++ _objc_msgSend$configureWithTitle:subtitle:body:image:
++ _objc_msgSend$initWithMerchantIndustryCode:mapsIdentifier:merchantName:merchantRawName:merchantIndustryCategory:merchantURL:merchantFormattedAddress:transactionTime:transactionType:transactionLocation:merchantBankTransactionInfo:
++ _objc_msgSend$lastUpdateDisplayString:
++ _objc_msgSend$piiRedactionOccurred
++ _objc_msgSend$rotationPeriodsSinceEpoch
++ _objc_msgSend$tertiarySystemBackgroundColor
++ _objc_msgSend$ticketForMerchantCode:rawMerchantCode:relyingPartyIdentifier:industryCategory:industryCode:paymentNetwork:transactionDate:transactionLocation:terminalId:transactionCurrencyCode:transactionType:transactionId:warsawMerchantDomain:warsawMerchantName:warsawMerchantId:adamId:merchantId:merchantDoingBizAsName:merchantEnhancedName:merchantCity:merchantRawCity:merchantState:merchantRawState:merchantZip:merchantAddress:merchantRawAddress:merchantCountryCode:merchantType:merchantCleanConfidenceLevel:merchantAdditionalData:merchantCanl:fuzzyMatched:coarseLocationUsed:bankTransactionType:bankTransactionStatus:bankAnonymisedUserId:otherBankTransactionLocations:bankTransactionDescription:bankTransactionTimestamp:bankRawMerchantCode:bankIndustryCategory:bankIndustryCode:bankTransactionCurrencyCode:bankMerchantInfo:baaCerts:baaSignature:bankBrandMUIDFallbackEnabled:bankIdentifier:bankTransactionDescriptionClean:bankPIIRedactionIsApplied:bankRotationPeriodsSinceEpoch:traits:
+- -[MKCoreLocationProvider authorizationRequestBlock]
+- -[MKCoreLocationProvider isLocationServicesPreferencesDialogEnabled]
+- -[MKCoreLocationProvider requestWhenInUseAuthorizationWithPrompt]
+- -[MKCoreLocationProvider setAuthorizationRequestBlock:]
+- -[MKCoreLocationProvider setLocationServicesPreferencesDialogEnabled:]
+- -[MKIncidentExtendedDetailCell _didTapActionButton]
+- -[MKIncidentExtendedDetailCell _setConstraints]
+- -[MKIncidentExtendedDetailCell customBodyTextView]
+- -[MKIncidentExtendedDetailCell textView:shouldInteractWithURL:inRange:interaction:]
+- -[MKLocationManager authorizationRequestBlock]
+- -[MKLocationManager isLocationServicesPreferencesDialogEnabled]
+- -[MKLocationManager requestWhenInUseAuthorizationWithPrompt]
+- -[MKLocationManager setAuthorizationRequestBlock:]
+- -[MKLocationManager setLocationServicesPreferencesDialogEnabled:]
+- GCC_except_table101
+- GCC_except_table99
+- _OBJC_IVAR_$_MKCoreLocationProvider._authorizationRequestBlock
+- _OBJC_IVAR_$_MKCoreLocationProvider._locationServicesPreferencesDialogEnabled
+- __OBJC_$_PROP_LIST_MKCompassView.143
+- __OBJC_$_PROP_LIST_MKDirectionsResponsePolyline
+- __OBJC_$_PROP_LIST_MKFontManager.135
+- __OBJC_$_PROP_LIST_MKRouteStepPolyline
+- __OBJC_$_PROP_LIST_MKTransitInfoPreload.87
+- __OBJC_$_PROP_LIST_MKTransitItemIncidentView.134
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_IncidentExtendedDetailCellDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_MKDirectionsResponsePolyline
+- __OBJC_$_PROTOCOL_METHOD_TYPES_IncidentExtendedDetailCellDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_MKDirectionsResponsePolyline
+- __OBJC_$_PROTOCOL_REFS_IncidentExtendedDetailCellDelegate
+- __OBJC_$_PROTOCOL_REFS_MKDirectionsResponsePolyline
+- __OBJC_CLASS_PROTOCOLS_$_MKIncidentExtendedDetailCell
+- __OBJC_CLASS_PROTOCOLS_$_MKRoutePolyline
+- __OBJC_CLASS_PROTOCOLS_$_MKRouteStepPolyline
+- __OBJC_LABEL_PROTOCOL_$_IncidentExtendedDetailCellDelegate
+- __OBJC_LABEL_PROTOCOL_$_MKDirectionsResponsePolyline
+- __OBJC_PROTOCOL_$_IncidentExtendedDetailCellDelegate
+- __OBJC_PROTOCOL_$_MKDirectionsResponsePolyline
+- __ZNKSt3__16vectorI12RouteSectionNS_9allocatorIS1_EEE20__throw_length_errorB7v160006Ev
+- __ZNKSt3__16vectorI13GEOPosition2dNS_9allocatorIS1_EEE20__throw_length_errorB7v160006Ev
+- __ZNKSt3__16vectorI22CLLocationCoordinate2DNS_9allocatorIS1_EEE20__throw_length_errorB7v160006Ev
+- __ZNKSt3__16vectorIN2gm6MatrixIdLi2ELi1EEENS_9allocatorIS3_EEE20__throw_length_errorB7v160006Ev
+- __ZNKSt3__16vectorIP16MKAnnotationViewNS_9allocatorIS2_EEE20__throw_length_errorB7v160006Ev
+- __ZNKSt3__16vectorIU8__strongP11VKRouteInfoNS_9allocatorIS3_EEE20__throw_length_errorB7v160006Ev
+- __ZNKSt3__16vectorIU8__strongP11objc_objectNS_9allocatorIS3_EEE20__throw_length_errorB7v160006Ev
+- __ZNKSt3__16vectorIZN3geo9Intersect18isSelfIntersectingIdEEbRKNS0_IN2gm6MatrixIT_Li2ELi1EEENS_9allocatorIS7_EEEEbE9EventInfoNS8_ISD_EEE20__throw_length_errorB7v160006Ev
+- __ZNSt12length_errorC1B7v160006EPKc
+- __ZNSt3__111__introsortINS_17_ClassicAlgPolicyER18_MKSpatialHorzCompPP16MKAnnotationViewEEvT1_S7_T0_NS_15iterator_traitsIS7_E15difference_typeE
+- __ZNSt3__111__introsortINS_17_ClassicAlgPolicyER18_MKSpatialVertCompPP16MKAnnotationViewEEvT1_S7_T0_NS_15iterator_traitsIS7_E15difference_typeE
+- __ZNSt3__111__introsortINS_17_ClassicAlgPolicyERZN3geo9Intersect18isSelfIntersectingIdEEbRKNS_6vectorIN2gm6MatrixIT_Li2ELi1EEENS_9allocatorIS9_EEEEbEUlRKZNS4_IdEEbSE_bE9EventInfoSH_E_PSF_EEvT1_SL_T0_NS_15iterator_traitsISL_E15difference_typeE
+- __ZNSt3__111__sift_downB7v160006INS_17_ClassicAlgPolicyERZN3geo9Intersect18isSelfIntersectingIdEEbRKNS_6vectorIN2gm6MatrixIT_Li2ELi1EEENS_9allocatorIS9_EEEEbEUlRKZNS4_IdEEbSE_bE9EventInfoSH_E_PSF_EEvT1_OT0_NS_15iterator_traitsISL_E15difference_typeESL_
+- __ZNSt3__113__tree_removeB7v160006IPNS_16__tree_node_baseIPvEEEEvT_S5_
+- __ZNSt3__117__floyd_sift_downB7v160006INS_17_ClassicAlgPolicyERZN3geo9Intersect18isSelfIntersectingIdEEbRKNS_6vectorIN2gm6MatrixIT_Li2ELi1EEENS_9allocatorIS9_EEEEbEUlRKZNS4_IdEEbSE_bE9EventInfoSH_E_PSF_EET1_SL_OT0_NS_15iterator_traitsISL_E15difference_typeE
+- __ZNSt3__118__insertion_sort_3B7v160006INS_17_ClassicAlgPolicyERZN3geo9Intersect18isSelfIntersectingIdEEbRKNS_6vectorIN2gm6MatrixIT_Li2ELi1EEENS_9allocatorIS9_EEEEbEUlRKZNS4_IdEEbSE_bE9EventInfoSH_E_PSF_EEvT1_SL_T0_
+- __ZNSt3__119__allocate_at_leastB7v160006INS_9allocatorI13GEOPosition2dEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m
+- __ZNSt3__119__allocate_at_leastB7v160006INS_9allocatorI22CLLocationCoordinate2DEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m
+- __ZNSt3__119__allocate_at_leastB7v160006INS_9allocatorIN2gm6MatrixIdLi2ELi1EEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS8_m
+- __ZNSt3__119__allocate_at_leastB7v160006INS_9allocatorIP16MKAnnotationViewEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
+- __ZNSt3__119__allocate_at_leastB7v160006INS_9allocatorIZN3geo9Intersect18isSelfIntersectingIdEEbRKNS_6vectorIN2gm6MatrixIT_Li2ELi1EEENS1_IS9_EEEEbE9EventInfoEEEENS_19__allocation_resultINS_16allocator_traitsIS8_E7pointerEEERS8_m
+- __ZNSt3__119__partial_sort_implB7v160006INS_17_ClassicAlgPolicyERZN3geo9Intersect18isSelfIntersectingIdEEbRKNS_6vectorIN2gm6MatrixIT_Li2ELi1EEENS_9allocatorIS9_EEEEbEUlRKZNS4_IdEEbSE_bE9EventInfoSH_E_PSF_SK_EET1_SL_SL_T2_OT0_
+- __ZNSt3__120__throw_length_errorB7v160006EPKc
+- __ZNSt3__121__unwrap_and_dispatchB7v160006INS_10__overloadINS_11__move_loopINS_17_ClassicAlgPolicyEEENS_14__move_trivialEEEPU8__strongP11objc_objectSA_SA_Li0EEENS_4pairIT0_T2_EESC_T1_SD_
+- __ZNSt3__122__hash_node_destructorINS_9allocatorINS_11__hash_nodeINS_17__hash_value_typeIN3geo11_retain_ptrIU8__strongP33_MKPinAnnotationViewImageCacheKeyNS4_16_retain_objc_arcENS4_17_release_objc_arcENS4_10_hash_objcENS4_11_equal_objcEEENS_15__list_iteratorINS4_6detail10_CacheItemISD_U8__strongP12NSDictionaryNSF_20_GEOGenericContainerISD_SJ_NS_4hashISD_EENS_8equal_toISD_EENS4_35GEOGenericContainerWeakReferenceTagELm0ELm0ENS4_29GEOGenericContainerLockingTagENSF_21_default_pointer_typeEE10_value_ptrEEEPvEEEESV_EEEEEclB7v160006EPSY_
+- __ZNSt3__122__hash_node_destructorINS_9allocatorINS_11__hash_nodeINS_17__hash_value_typeIN3geo11_retain_ptrIU8__strongP33_MKPinAnnotationViewImageCacheKeyNS4_16_retain_objc_arcENS4_17_release_objc_arcENS4_10_hash_objcENS4_11_equal_objcEEENS_15__list_iteratorINS4_6detail10_CacheItemISD_U8__strongP12NSDictionaryNSF_20_GEOGenericContainerISD_SJ_NS_4hashISD_EENS_8equal_toISD_EENS4_37GEOGenericContainerStrongReferenceTagELm64ELm2097152ENS4_29GEOGenericContainerLockingTagENSF_21_default_pointer_typeEE10_value_ptrEEEPvEEEESV_EEEEEclB7v160006EPSY_
+- __ZNSt3__127__insertion_sort_incompleteIR18_MKSpatialHorzCompPP16MKAnnotationViewEEbT0_S6_T_
+- __ZNSt3__127__insertion_sort_incompleteIR18_MKSpatialVertCompPP16MKAnnotationViewEEbT0_S6_T_
+- __ZNSt3__127__insertion_sort_incompleteIRZN3geo9Intersect18isSelfIntersectingIdEEbRKNS_6vectorIN2gm6MatrixIT_Li2ELi1EEENS_9allocatorIS8_EEEEbEUlRKZNS3_IdEEbSD_bE9EventInfoSG_E_PSE_EEbT0_SK_S7_
+- __ZNSt3__127__tree_balance_after_insertB7v160006IPNS_16__tree_node_baseIPvEEEEvT_S5_
+- __ZNSt3__16vectorIU8__strongP11VKRouteInfoNS_9allocatorIS3_EEE16__destroy_vectorclB7v160006Ev
+- __ZNSt3__16vectorIU8__strongP11objc_objectNS_9allocatorIS3_EEED2B7v160006Ev
+- __ZNSt3__17__sort3B7v160006INS_17_ClassicAlgPolicyER18_MKSpatialHorzCompPP16MKAnnotationViewEEjT1_S7_S7_T0_
+- __ZNSt3__17__sort3B7v160006INS_17_ClassicAlgPolicyER18_MKSpatialVertCompPP16MKAnnotationViewEEjT1_S7_S7_T0_
+- __ZNSt3__17__sort3B7v160006INS_17_ClassicAlgPolicyERZN3geo9Intersect18isSelfIntersectingIdEEbRKNS_6vectorIN2gm6MatrixIT_Li2ELi1EEENS_9allocatorIS9_EEEEbEUlRKZNS4_IdEEbSE_bE9EventInfoSH_E_PSF_EEjT1_SL_SL_T0_
+- __ZNSt3__17__sort4B7v160006INS_17_ClassicAlgPolicyER18_MKSpatialHorzCompPP16MKAnnotationViewEEjT1_S7_S7_S7_T0_
+- __ZNSt3__17__sort4B7v160006INS_17_ClassicAlgPolicyER18_MKSpatialVertCompPP16MKAnnotationViewEEjT1_S7_S7_S7_T0_
+- __ZNSt3__17__sort4B7v160006INS_17_ClassicAlgPolicyERZN3geo9Intersect18isSelfIntersectingIdEEbRKNS_6vectorIN2gm6MatrixIT_Li2ELi1EEENS_9allocatorIS9_EEEEbEUlRKZNS4_IdEEbSE_bE9EventInfoSH_E_PSF_EEjT1_SL_SL_SL_T0_
+- __ZNSt3__17__sort5IR18_MKSpatialHorzCompPP16MKAnnotationViewEEjT0_S6_S6_S6_S6_T_
+- __ZNSt3__17__sort5IR18_MKSpatialVertCompPP16MKAnnotationViewEEjT0_S6_S6_S6_S6_T_
+- __ZNSt3__17__sort5IRZN3geo9Intersect18isSelfIntersectingIdEEbRKNS_6vectorIN2gm6MatrixIT_Li2ELi1EEENS_9allocatorIS8_EEEEbEUlRKZNS3_IdEEbSD_bE9EventInfoSG_E_PSE_EEjT0_SK_SK_SK_SK_S7_
+- __ZNSt3__19__sift_upB7v160006INS_17_ClassicAlgPolicyERZN3geo9Intersect18isSelfIntersectingIdEEbRKNS_6vectorIN2gm6MatrixIT_Li2ELi1EEENS_9allocatorIS9_EEEEbEUlRKZNS4_IdEEbSE_bE9EventInfoSH_E_PSF_EEvT1_SL_OT0_NS_15iterator_traitsISL_E15difference_typeE
+- __ZSt28__throw_bad_array_new_lengthB7v160006v
+- ___47-[MKCoreLocationProvider startUpdatingLocation]_block_invoke.17
+- ___47-[MKCoreLocationProvider startUpdatingLocation]_block_invoke.18
+- ___47-[MKCoreLocationProvider startUpdatingLocation]_block_invoke.20
+- ___47-[MKIncidentDetailCell _updateLastUpdatedLabel]_block_invoke
+- ___51-[MKCoreLocationProvider authorizationRequestBlock]_block_invoke
+- ___55-[MKCoreLocationProvider setAuthorizationRequestBlock:]_block_invoke
+- ___55-[_MKBalloonCalloutView _showAnimated:completionBlock:]_block_invoke.148
+- ___58-[MKIncidentExtendedDetailCell configureWithAdvisoryItem:]_block_invoke
+- ___58-[MKIncidentExtendedDetailCell configureWithAdvisoryItem:]_block_invoke_2
+- ___65-[MKCoreLocationProvider requestWhenInUseAuthorizationWithPrompt]_block_invoke
+- ___68-[MKCoreLocationProvider isLocationServicesPreferencesDialogEnabled]_block_invoke
+- ___70-[MKCoreLocationProvider setLocationServicesPreferencesDialogEnabled:]_block_invoke
+- ___70-[MKCoreLocationProvider setLocationServicesPreferencesDialogEnabled:]_block_invoke_2
+- ___Block_byref_object_copy_.15
+- ___Block_byref_object_copy_.599
+- ___Block_byref_object_dispose_.16
+- ___Block_byref_object_dispose_.600
+- ___block_descriptor_72_e8_32s40s48s56s64s_e25_v32?0"NSString"8Q16^B24ls32l8s40l8s48l8s56l8s64l8
+- ___block_descriptor_96_e8_32s40r48r56r64r72r80r88r_e5_v8?0lr40l8s32l8r48l8r56l8r64l8r72l8r80l8r88l8
+- ___block_literal_global.105
+- ___block_literal_global.182
+- ___block_literal_global.1856
+- ___block_literal_global.1858
+- ___block_literal_global.1865
+- ___block_literal_global.1870
+- ___block_literal_global.1874
+- ___block_literal_global.190
+- ___block_literal_global.213
+- ___block_literal_global.259
+- ___block_literal_global.285
+- ___block_literal_global.456
+- ___block_literal_global.459
+- ___block_literal_global.502
+- ___block_literal_global.53
+- ___block_literal_global.574
+- ___block_literal_global.65
+- ___block_literal_global.659
+- ___block_literal_global.662
+- ___block_literal_global.70
+- __unnamed_array_storage.251
+- __unnamed_array_storage.253
+- __unnamed_array_storage.536
+- __unnamed_array_storage.545
+- __unnamed_array_storage.548
+- __unnamed_array_storage.551
+- _objc_msgSend$authorizationRequestBlock
+- _objc_msgSend$detailCellInSection:
+- _objc_msgSend$initWithMerchantIndustryCode:mapsIdentifier:merchantName:merchantRawName:merchantIndustryCategory:merchantURL:merchantFormattedAddress:transactionTime:transactionType:transactionLocation:
+- _objc_msgSend$isLocationServicesPreferencesDialogEnabled
+- _objc_msgSend$requestWhenInUseAuthorizationWithPrompt
+- _objc_msgSend$setAuthorizationRequestBlock:
+- _objc_msgSend$setIcon:
+- _objc_msgSend$setIncidentDescription:
+- _objc_msgSend$setLastUpdated:
+- _objc_msgSend$setLocationServicesPreferencesDialogEnabled:
+- _objc_msgSend$ticketForMerchantCode:rawMerchantCode:relyingPartyIdentifier:industryCategory:industryCode:paymentNetwork:transactionDate:transactionLocation:terminalId:transactionCurrencyCode:transactionType:transactionId:warsawMerchantDomain:warsawMerchantName:warsawMerchantId:adamId:merchantId:merchantDoingBizAsName:merchantEnhancedName:merchantCity:merchantRawCity:merchantState:merchantRawState:merchantZip:merchantAddress:merchantRawAddress:merchantCountryCode:merchantType:merchantCleanConfidenceLevel:merchantAdditionalData:merchantCanl:fuzzyMatched:coarseLocationUsed:bankTransactionType:bankTransactionStatus:bankAnonymisedUserId:otherBankTransactionLocations:bankTransactionDescription:bankTransactionTimestamp:bankRawMerchantCode:bankIndustryCategory:bankIndustryCode:bankTransactionCurrencyCode:bankMerchantInfo:baaCerts:baaSignature:bankBrandMUIDFallbackEnabled:traits:
+CStrings:
++ "\x012\""
++ "\n\x1f\b/\x01"
++ "\x0f\x02"
++ "@\"<MKIncidentDetailDelegate>\""
++ "@\"MKIncidentDetailContentView\""
++ "BackgroundView"
++ "KR"
++ "MKErrorDirectionsErrorInfoKey"
++ "MKIncidentDetailContentView"
++ "MKIncidentDetailDelegate"
++ "MKModernMapRequiring"
++ "T@\"<MKIncidentDetailDelegate>\",W,N"
++ "T@\"<MKIncidentDetailDelegate>\",W,N,V_delegate"
++ "T@\"CLLocation\",?,&,N"
++ "T@\"CLLocation\",?,&,N,V_location"
++ "T@\"CLLocation\",?,R,N"
++ "T@\"GEOStyleAttributes\",?,R,N"
++ "T@\"GEOStyleAttributes\",?,R,N,V_styleAttributes"
++ "T@\"NSArray\",?,R,C,N"
++ "T@\"NSNumber\",C,N,V_piiRedactionOccurred"
++ "T@\"NSNumber\",C,N,V_rotationPeriodsSinceEpoch"
++ "T@\"NSString\",?,R,C"
++ "T@\"NSString\",?,R,C,N"
++ "T@\"NSString\",C,N,V_bankIdentifier"
++ "T@\"NSString\",C,N,V_bankTransactionDescriptionClean"
++ "T@\"UIBlurEffect\",?,R,N,G_balloonMaterial"
++ "T@\"UIColor\",?,R,N,G_balloonImageTintColor"
++ "T@\"UIColor\",?,R,N,G_balloonInnerStrokeColor"
++ "T@\"UIView\",?,R,N,G_balloonContentView"
++ "TB,?,R,N,G_balloonCalloutShouldCenterWhenOffscreen"
++ "TB,?,R,N,G_balloonCalloutShouldShowArrow"
++ "TI,?,R,N"
++ "TI,?,R,N,V_cartoID"
++ "TI,?,R,N,V_defaultTransitType"
++ "TI,?,R,N,V_iconAttributeKey"
++ "TI,?,R,N,V_iconAttributeValue"
++ "Td,?,N"
++ "Tq,?,R,N"
++ "_accessoryFooterView"
++ "_addReportAProblemActionIfNeed:"
++ "_attributionView"
++ "_attributionViewEmptyHeightConstraint"
++ "_bankIdentifier"
++ "_bankTransactionDescriptionClean"
++ "_bodyFont"
++ "_bodyTextView"
++ "_childrenStackViews"
++ "_incidentContentView"
++ "_piiRedactionOccurred"
++ "_rotationPeriodsSinceEpoch"
++ "_stackViewBottomConstraint"
++ "_titleView"
++ "_updateAccessoryFooterView:"
++ "accessoryFooterView"
++ "bankIdentifier"
++ "bankTransactionDescriptionClean"
++ "capitalizedString"
++ "configureWithTitle:subtitle:body:image:"
++ "initWithMerchantIndustryCode:mapsIdentifier:merchantName:merchantRawName:merchantIndustryCategory:merchantURL:merchantFormattedAddress:transactionTime:transactionType:transactionLocation:merchantBankTransactionInfo:"
++ "lastUpdateDisplayString:"
++ "piiRedactionOccurred"
++ "rotationPeriodsSinceEpoch"
++ "setBankIdentifier:"
++ "setBankTransactionDescriptionClean:"
++ "setPiiRedactionOccurred:"
++ "setRotationPeriodsSinceEpoch:"
++ "tertiarySystemBackgroundColor"
++ "ticketForMerchantCode:rawMerchantCode:relyingPartyIdentifier:industryCategory:industryCode:paymentNetwork:transactionDate:transactionLocation:terminalId:transactionCurrencyCode:transactionType:transactionId:warsawMerchantDomain:warsawMerchantName:warsawMerchantId:adamId:merchantId:merchantDoingBizAsName:merchantEnhancedName:merchantCity:merchantRawCity:merchantState:merchantRawState:merchantZip:merchantAddress:merchantRawAddress:merchantCountryCode:merchantType:merchantCleanConfidenceLevel:merchantAdditionalData:merchantCanl:fuzzyMatched:coarseLocationUsed:bankTransactionType:bankTransactionStatus:bankAnonymisedUserId:otherBankTransactionLocations:bankTransactionDescription:bankTransactionTimestamp:bankRawMerchantCode:bankIndustryCategory:bankIndustryCode:bankTransactionCurrencyCode:bankMerchantInfo:baaCerts:baaSignature:bankBrandMUIDFallbackEnabled:bankIdentifier:bankTransactionDescriptionClean:bankPIIRedactionIsApplied:bankRotationPeriodsSinceEpoch:traits:"
+- "\x013\""
+- "\n\x1f\b,"
+- "@\"<IncidentExtendedDetailCellDelegate>\""
+- "@?<v@?@?<v@?B>>16@0:8"
+- "IncidentExtendedDetailCellDelegate"
+- "MKDirectionsResponsePolyline"
+- "Requesting Authorization for %p _clLocationManager %@"
+- "Start updating Location after authorization for %p is authorized: %@"
+- "T@\"<IncidentExtendedDetailCellDelegate>\",W,N,V_delegate"
+- "T@\"GEOStyleAttributes\",R,N,V_styleAttributes"
+- "T@\"UIBlurEffect\",R,N,G_balloonMaterial"
+- "T@\"UIColor\",R,N,G_balloonImageTintColor"
+- "T@\"UIColor\",R,N,G_balloonInnerStrokeColor"
+- "T@\"UIView\",R,N,G_balloonContentView"
+- "T@?,C,N"
+- "TB,N,GisLocationServicesPreferencesDialogEnabled"
+- "TB,R,N,G_balloonCalloutShouldCenterWhenOffscreen"
+- "TB,R,N,G_balloonCalloutShouldShowArrow"
+- "TI,R,N,V_cartoID"
+- "TI,R,N,V_defaultTransitType"
+- "TI,R,N,V_iconAttributeKey"
+- "TI,R,N,V_iconAttributeValue"
+- "_authorizationRequestBlock"
+- "_locationServicesPreferencesDialogEnabled"
+- "authorizationRequestBlock"
+- "initWithMerchantIndustryCode:mapsIdentifier:merchantName:merchantRawName:merchantIndustryCategory:merchantURL:merchantFormattedAddress:transactionTime:transactionType:transactionLocation:"
+- "isLocationServicesPreferencesDialogEnabled"
+- "locationServicesPreferencesDialogEnabled"
+- "requestWhenInUseAuthorizationWithPrompt"
+- "setAuthorizationRequestBlock:"
+- "setLocationServicesPreferencesDialogEnabled:"
+- "ticketForMerchantCode:rawMerchantCode:relyingPartyIdentifier:industryCategory:industryCode:paymentNetwork:transactionDate:transactionLocation:terminalId:transactionCurrencyCode:transactionType:transactionId:warsawMerchantDomain:warsawMerchantName:warsawMerchantId:adamId:merchantId:merchantDoingBizAsName:merchantEnhancedName:merchantCity:merchantRawCity:merchantState:merchantRawState:merchantZip:merchantAddress:merchantRawAddress:merchantCountryCode:merchantType:merchantCleanConfidenceLevel:merchantAdditionalData:merchantCanl:fuzzyMatched:coarseLocationUsed:bankTransactionType:bankTransactionStatus:bankAnonymisedUserId:otherBankTransactionLocations:bankTransactionDescription:bankTransactionTimestamp:bankRawMerchantCode:bankIndustryCategory:bankIndustryCode:bankTransactionCurrencyCode:bankMerchantInfo:baaCerts:baaSignature:bankBrandMUIDFallbackEnabled:traits:"
+- "v24@0:8@?<v@?@?<v@?B>>16"
+
+```

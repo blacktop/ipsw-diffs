@@ -1,0 +1,204 @@
+## LighthouseAVPlugin
+
+> `/System/Library/PrivateFrameworks/LighthouseAV.framework/PlugIns/LighthouseAVPlugin.appex/LighthouseAVPlugin`
+
+```diff
+
+-15.0.0.0.0
+-  __TEXT.__text: 0x2b2b0
+-  __TEXT.__auth_stubs: 0x1050
++16.0.0.0.0
++  __TEXT.__text: 0x2cc10
++  __TEXT.__auth_stubs: 0x10b0
+   __TEXT.__objc_methlist: 0x44
+-  __TEXT.__const: 0x1056
+-  __TEXT.__cstring: 0x169c
++  __TEXT.__const: 0x1046
++  __TEXT.__cstring: 0x19dc
+   __TEXT.__swift5_typeref: 0x5c8
+   __TEXT.__swift5_reflstr: 0x91a
+   __TEXT.__swift5_assocty: 0xa8
+
+   __TEXT.__swift5_fieldmd: 0x790
+   __TEXT.__swift5_proto: 0xec
+   __TEXT.__swift5_types: 0x7c
+-  __TEXT.__objc_methname: 0x3b6
++  __TEXT.__objc_methname: 0x3c9
+   __TEXT.__swift5_capture: 0x58
+   __TEXT.__objc_classname: 0x2c
+   __TEXT.__objc_methtype: 0x1c9
+-  __TEXT.__unwind_info: 0x814
++  __TEXT.__unwind_info: 0x800
+   __TEXT.__eh_frame: 0x7b0
+-  __DATA_CONST.__auth_got: 0x828
+-  __DATA_CONST.__got: 0x1d0
++  __DATA_CONST.__auth_got: 0x858
++  __DATA_CONST.__got: 0x1d8
+   __DATA_CONST.__auth_ptr: 0x50
+-  __DATA_CONST.__const: 0x1078
++  __DATA_CONST.__const: 0x1080
+   __DATA_CONST.__objc_classlist: 0x20
+   __DATA_CONST.__objc_protolist: 0x30
+   __DATA_CONST.__objc_imageinfo: 0x8
++  __DATA_CONST.__objc_protorefs: 0x18
++  __DATA_CONST.__objc_classrefs: 0x30
+   __DATA.__objc_const: 0x670
+   __DATA.__objc_selrefs: 0xf8
+-  __DATA.__objc_protorefs: 0x18
+-  __DATA.__objc_classrefs: 0x30
+   __DATA.__objc_data: 0x128
+-  __DATA.__data: 0x1220
+-  __DATA.__bss: 0x1f30
+-  __DATA.__common: 0xd8
++  __DATA.__data: 0x1250
++  __DATA.__bss: 0x1f40
++  __DATA.__common: 0xf8
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/Frameworks/TabularData.framework/TabularData
+
+   - /usr/lib/swift/libswiftOSLog.dylib
+   - /usr/lib/swift/libswiftObjectiveC.dylib
+   - /usr/lib/swift/libswiftQuartzCore.dylib
++  - /usr/lib/swift/libswiftShazamKit.dylib
+   - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
+   - /usr/lib/swift/libswiftVideoToolbox.dylib
+   - /usr/lib/swift/libswiftVision.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 741
+-  Symbols:   5320
+-  CStrings:  249
++  Functions: 764
++  Symbols:   5456
++  CStrings:  269
+ 
+Symbols:
++ _$s11TabularData17CSVReadingOptionsV12hasHeaderRow12nilEncodings04trueI005falseI017floatingPointType17ignoresEmptyLines11usesQuoting0R8Escaping9delimiter15escapeCharacterACSb_ShySSGA2nA7CSVTypeOS3bS2JtcfcfA1_
++ _$s11TabularData17CSVReadingOptionsV12hasHeaderRow12nilEncodings04trueI005falseI017floatingPointType17ignoresEmptyLines11usesQuoting0R8Escaping9delimiter15escapeCharacterACSb_ShySSGA2nA7CSVTypeOS3bS2JtcfcfA2_
++ _$s18LighthouseAVPlugin12AVLogColumnsO10dateValues_WZTv_
++ _$s18LighthouseAVPlugin12AVLogColumnsO12stringValues_WZTv_
++ _$s18LighthouseAVPlugin12AVLogColumnsO8rawValueACSgSS_tcfCTf4nd_n
++ _$s18LighthouseAVPlugin12AVLogColumnsO9allValues_WZTv_
++ _$s18LighthouseAVPlugin12AVLogColumnsO9intValues_WZTv_
++ _$s18LighthouseAVPlugin15FilterFunctionsV18operatorFromString33_1209753D6165824D71F4E051A5EED3FELL_3forSbx_xtcSgSS_xmtSLRzlFZSS_Tgm5
++ _$s18LighthouseAVPlugin15FilterFunctionsV18operatorFromString33_1209753D6165824D71F4E051A5EED3FELL_3forSbx_xtcSgSS_xmtSLRzlFZSbx_xtcfU0_10Foundation4DateV_Tg5Tm
++ _$s18LighthouseAVPlugin15FilterFunctionsV6filter33_1209753D6165824D71F4E051A5EED3FELL7samples2on5value0O4Type9operation11TabularData0S5FrameVAM_SSxxmSbx_xtXEtSLRzlFZ10Foundation4DateV_Tgm5
++ _$s18LighthouseAVPlugin15FilterFunctionsV6filter33_1209753D6165824D71F4E051A5EED3FELL7samples2on5value0O4Type9operation11TabularData0S5FrameVAM_SSxxmSbx_xtXEtSLRzlFZSS_Tgm5
++ _$s18LighthouseAVPlugin15FilterFunctionsV6filter33_1209753D6165824D71F4E051A5EED3FELL7samples2on5value0O4Type9operation11TabularData0S5FrameVAM_SSxxmSbx_xtXEtSLRzlFZSi_Tgm5
++ _$s18LighthouseAVPlugin23ExpectedFilterFunctionsO8rawValueACSgSS_tcfCTf4nd_nTm
++ _$s18LighthouseAVPlugin23ExpectedFilterFunctionsO8rawValueSSvg
++ _$s18LighthouseAVPlugin24EvaluationJobDescriptionVwCPTm
++ _$s18LighthouseAVPlugin28ExpectedAggregationArgumentsO8rawValueACSgSS_tcfCTf4nd_n
++ _$s18LighthouseAVPlugin28ExpectedAggregationFunctionsO8rawValueACSgSS_tcfCTf4nd_n
++ _$s18LighthouseAVPlugin31ExpectedFilterFunctionArgumentsO8rawValueSSvg
++ _$s18LighthouseAVPlugin35ExpectedEventSetGenerationArgumentsO8rawValueACSgSS_tcfCTv_
++ _$s18LighthouseAVPlugin35ExpectedEventSetGenerationArgumentsO8rawValueSSvg
++ _$s18LighthouseAVPlugin35ExpectedEventSetGenerationFunctionsO8rawValueACSgSS_tcfCTv_
++ _$s18LighthouseAVPlugin6PluginC14attachmentsKeySSvpZ
++ _$s18LighthouseAVPlugin6PluginC14attachmentsKey_WZ
++ _$s18LighthouseAVPlugin6PluginC14attachmentsKey_Wz
++ _$s18LighthouseAVPlugin6PluginC9recipeKeySSvpZ
++ _$s18LighthouseAVPlugin6PluginC9recipeKey_WZ
++ _$s18LighthouseAVPlugin6PluginC9recipeKey_Wz
++ _$sSD17dictionaryLiteralSDyxq_Gx_q_td_tcfCSS_11TabularData7CSVTypeOTgmq5
++ _$sSD17dictionaryLiteralSDyxq_Gx_q_td_tcfCSS_So8NSObjectCTgm5
++ _$sSD17dictionaryLiteralSDyxq_Gx_q_td_tcfCSS_ypTgm5
++ _$sSYsSHRzSH8RawValueSYRpzrlE04hashB0Sivg18LighthouseAVPlugin31ExpectedFilterFunctionArgumentsO_Tg5
++ _$sSYsSHRzSH8RawValueSYRpzrlE04hashB0Sivg18LighthouseAVPlugin35ExpectedEventSetGenerationArgumentsO_Tg5
++ _$sSYsSHRzSH8RawValueSYRpzrlE08_rawHashB04seedS2i_tF18LighthouseAVPlugin31ExpectedFilterFunctionArgumentsO_Tg5
++ _$sSYsSHRzSH8RawValueSYRpzrlE08_rawHashB04seedS2i_tF18LighthouseAVPlugin35ExpectedEventSetGenerationArgumentsO_Tg5
++ _$sSYsSHRzSH8RawValueSYRpzrlE4hash4intoys6HasherVz_tF18LighthouseAVPlugin23ExpectedFilterFunctionsO_Tg5
++ _$sSYsSHRzSH8RawValueSYRpzrlE4hash4intoys6HasherVz_tF18LighthouseAVPlugin31ExpectedFilterFunctionArgumentsO_Tg5
++ _$sSYsSHRzSH8RawValueSYRpzrlE4hash4intoys6HasherVz_tF18LighthouseAVPlugin35ExpectedEventSetGenerationArgumentsO_Tg5
++ _$sSh21_nonEmptyArrayLiteralShyxGSayxG_tcfCSS_Tgmq5
++ _$sSo13BPSCompletionCIegg_ABIeyBy_TRTm
++ _$sSp14moveInitialize4from5countySpyxG_SitF10Foundation4DateV_Tg5
++ _$sSp14moveInitialize4from5countySpyxG_SitF18LighthouseAVPlugin18ManualVolumeChangeV_Tg5Tm
++ _$sSp14moveInitialize4from5countySpyxG_SitF18LighthouseAVPlugin6MetricV_Tg5
++ _$sSp14moveInitialize4from5countySpyxG_SitF18LighthouseAVPlugin6MetricV_Tg5Tm
++ _$sSp14moveInitialize4from5countySpyxG_SitFSDys11AnyHashableVypG_Tg5
++ _$sSp14moveInitialize4from5countySpyxG_SitFSS_Tg5
++ _$sSp14moveInitialize4from5countySpyxG_SitFSd_Tg5
++ _$sSp14moveInitialize4from5countySpyxG_SitFSi_Tg5
++ _$sSp14moveInitialize4from5countySpyxG_SitFs5UInt8V_Tgq5
++ _$sSp14moveInitialize4from5countySpyxG_SitFypSg_Tg5
++ _$sSw10copyMemory4fromySW_tF
++ _$ss12_ArrayBufferV13_copyContents8subRange12initializingSpyxGSnySiG_AFtF18LighthouseAVPlugin18ManualVolumeChangeV_Tg5Tf4nng_nTm
++ _$ss12_ArrayBufferV13_copyContents8subRange12initializingSpyxGSnySiG_AFtF18LighthouseAVPlugin6MetricV_Tg5Tf4nng_n
++ _$ss12_ArrayBufferV13_copyContents8subRange12initializingSpyxGSnySiG_AFtF18LighthouseAVPlugin6MetricV_Tg5Tf4nng_nTm
++ _$ss12_ArrayBufferV13_copyContents8subRange12initializingSpyxGSnySiG_AFtFSd_Tg5Tf4nng_n
++ _$ss12_ArrayBufferV13_copyContents8subRange12initializingSpyxGSnySiG_AFtFSi_Tg5Tf4nng_n
++ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF18LighthouseAVPlugin18ManualVolumeChangeV_Tg5Tm
++ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF18LighthouseAVPlugin6MetricV_Tg5Tm
++ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSd_Tg5Tm
++ _$ss17FixedWidthIntegerPsEyxSgSScfCSi_Tgm5
++ _$ss17_NativeDictionaryV20_copyOrMoveAndResize8capacity12moveElementsySi_SbtFSS_18LighthouseAVPlugin8EventSetVTg5Tm
++ _$ss17_NativeDictionaryV4copyyyFSS_18LighthouseAVPlugin8EventSetVTg5Tm
++ _$ss17_assertionFailure__4file4line5flagss5NeverOs12StaticStringV_A2HSus6UInt32VtF
++ _$ss18_fatalErrorMessage__4file4line5flagss5NeverOs12StaticStringV_A2HSus6UInt32VtF
++ _$ss22_ContiguousArrayBufferV19_uninitializedCount15minimumCapacityAByxGSi_SitcfCs5UInt8V_Tgmq5
++ __swift_FORCE_LOAD_$_swiftShazamKit
++ __swift_FORCE_LOAD_$_swiftShazamKit_$_LighthouseAVPlugin
++ _objc_release_x28
++ _objc_retain_x2
++ _objc_retain_x24
++ _objc_retain_x25
+- _$s11TabularData17CSVReadingOptionsV12hasHeaderRow12nilEncodings04trueI005falseI017floatingPointType17ignoresEmptyLines11usesQuoting0R8Escaping9delimiter15escapeCharacterACSb_ShySSGA2nA7CSVTypeOS3bS2JtcfcfA1_Tv_
+- _$s11TabularData17CSVReadingOptionsV12hasHeaderRow12nilEncodings04trueI005falseI017floatingPointType17ignoresEmptyLines11usesQuoting0R8Escaping9delimiter15escapeCharacterACSb_ShySSGA2nA7CSVTypeOS3bS2JtcfcfA2_Tv_
+- _$s18LighthouseAVPlugin12AVLogColumnsO8rawValueACSgSS_tcfCTf4nd_nTf4g_n
+- _$s18LighthouseAVPlugin15FilterFunctionsV18operatorFromString33_1209753D6165824D71F4E051A5EED3FELL_3forSbx_xtcSgSS_xmtSLRzlFZ10Foundation4DateV_Tg5Tf4nnd_n
+- _$s18LighthouseAVPlugin15FilterFunctionsV18operatorFromString33_1209753D6165824D71F4E051A5EED3FELL_3forSbx_xtcSgSS_xmtSLRzlFZSS_Tg5Tf4ndd_n
+- _$s18LighthouseAVPlugin15FilterFunctionsV18operatorFromString33_1209753D6165824D71F4E051A5EED3FELL_3forSbx_xtcSgSS_xmtSLRzlFZSbx_xtcfU_10Foundation4DateV_Tg5
+- _$s18LighthouseAVPlugin15FilterFunctionsV18operatorFromString33_1209753D6165824D71F4E051A5EED3FELL_3forSbx_xtcSgSS_xmtSLRzlFZSbx_xtcfU_10Foundation4DateV_Tg5Tm
+- _$s18LighthouseAVPlugin15FilterFunctionsV6filter33_1209753D6165824D71F4E051A5EED3FELL7samples2on5value0O4Type9operation11TabularData0S5FrameVAM_SSxxmSbx_xtXEtSLRzlFZ10Foundation4DateV_Tg5
+- _$s18LighthouseAVPlugin15FilterFunctionsV6filter33_1209753D6165824D71F4E051A5EED3FELL7samples2on5value0O4Type9operation11TabularData0S5FrameVAM_SSxxmSbx_xtXEtSLRzlFZSS_Tg5
+- _$s18LighthouseAVPlugin15FilterFunctionsV6filter33_1209753D6165824D71F4E051A5EED3FELL7samples2on5value0O4Type9operation11TabularData0S5FrameVAM_SSxxmSbx_xtXEtSLRzlFZSi_Tg5
+- _$s18LighthouseAVPlugin19FunctionDescriptionVwcpTm
+- _$s18LighthouseAVPlugin20AggregationFunctionsV14falsePositives33_F9B5A39060B5021A1AD097563AA88DC9LL17userVolumeChanges06systempQ027maximumSecondsBetweenEventsSd11TabularData0X5FrameV_AKSdtFZyAK3RowVXEfU_TATm
+- _$s18LighthouseAVPlugin23ExpectedFilterFunctionsOSYAASY8rawValuexSg03RawG0Qz_tcfCTWTm
+- _$s18LighthouseAVPlugin28ExpectedAggregationArgumentsO8rawValueACSgSS_tcfCTf4nd_nTf4g_n
+- _$s18LighthouseAVPlugin28ExpectedAggregationFunctionsO8rawValueACSgSS_tcfCTf4nd_nTf4g_n
+- _$s18LighthouseAVPlugin28ExpectedAggregationFunctionsOSYAASY8rawValuexSg03RawG0Qz_tcfCTWTm
+- _$s18LighthouseAVPlugin35ExpectedEventSetGenerationArgumentsOSYAASY8rawValuexSg03RawI0Qz_tcfCTWTv_
+- _$s18LighthouseAVPlugin35ExpectedEventSetGenerationFunctionsOSYAASY8rawValuexSg03RawI0Qz_tcfCTWTv_
+- _$sSD17dictionaryLiteralSDyxq_Gx_q_td_tcfCSS_11TabularData7CSVTypeOTgq5Tf4nd_n
+- _$sSD17dictionaryLiteralSDyxq_Gx_q_td_tcfCSS_So8NSObjectCTg5Tf4nd_n
+- _$sSD17dictionaryLiteralSDyxq_Gx_q_td_tcfCSS_ypTg5Tf4nd_n
+- _$sSh21_nonEmptyArrayLiteralShyxGSayxG_tcfCSS_Tgq5Tf4nd_n
+- _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF10Foundation4DateV_Tg5
+- _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF11TabularData0P5FrameV3RowV_Tg5
+- _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF18LighthouseAVPlugin18ManualVolumeChangeV_Tg5
+- _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSd_Tg5
+- _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSi_Tg5
+- _$ss17FixedWidthIntegerPsEyxSgSScfCSi_Tg5
+- _$ss17_NativeDictionaryV20_copyOrMoveAndResize8capacity12moveElementsySi_SbtFSS_18LighthouseAVPlugin8EventSetVTg5
+- _$ss17_NativeDictionaryV20_copyOrMoveAndResize8capacity12moveElementsySi_SbtFSS_18LighthouseAVPlugin9DataSliceVTg5
+- _$ss17_NativeDictionaryV4copyyyFSS_18LighthouseAVPlugin8EventSetVTg5
+- _$ss17_NativeDictionaryV4copyyyFSS_18LighthouseAVPlugin9DataSliceVTg5
+- _$ss22_ContiguousArrayBufferV19_uninitializedCount15minimumCapacityAByxGSi_SitcfCs5UInt8V_Tgq5Tf4nnd_n
+- _objc_retain_x10
+CStrings:
++ "Didn't find any trialIds"
++ "Division by zero"
++ "Division results in an overflow"
++ "Fatal error"
++ "Insufficient space allocated to copy string contents"
++ "Swift/ContiguousArrayBuffer.swift"
++ "Swift/IntegerTypes.swift"
++ "Swift/StringTesting.swift"
++ "Swift/StringUTF8View.swift"
++ "Swift/UnsafeBufferPointer.swift"
++ "Swift/UnsafePointer.swift"
++ "Swift/UnsafeRawPointer.swift"
++ "T@\"NSString\",?,R,C"
++ "Unexpectedly found nil while unwrapping an Optional value"
++ "UnsafeMutableBufferPointer with negative count"
++ "UnsafeMutablePointer.initialize overlapping range"
++ "UnsafeMutablePointer.initialize with negative count"
++ "UnsafeMutablePointer.moveInitialize with negative count"
++ "UnsafeMutableRawPointer.initializeMemory overlapping range"
++ "invalid Collection: less than 'count' elements in collection"
+
+```

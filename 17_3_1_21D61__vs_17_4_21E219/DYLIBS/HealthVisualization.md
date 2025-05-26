@@ -1,0 +1,206 @@
+## HealthVisualization
+
+> `/System/Library/PrivateFrameworks/HealthVisualization.framework/HealthVisualization`
+
+```diff
+
+-4146.3.2.0.0
+-  __TEXT.__text: 0x1c434c
+-  __TEXT.__auth_stubs: 0x3d60
++4146.4.18.0.0
++  __TEXT.__text: 0x1c65d0
++  __TEXT.__auth_stubs: 0x3da0
+   __TEXT.__objc_methlist: 0x520
+-  __TEXT.__const: 0x16a04
++  __TEXT.__const: 0x16854
+   __TEXT.__gcc_except_tab: 0x38c
+-  __TEXT.__cstring: 0x9f83
+-  __TEXT.__swift5_typeref: 0x3a68
+-  __TEXT.__swift5_capture: 0x778
+-  __TEXT.__constg_swiftt: 0x5390
+-  __TEXT.__swift5_reflstr: 0x4c14
+-  __TEXT.__swift5_fieldmd: 0x58d8
++  __TEXT.__cstring: 0xa303
++  __TEXT.__swift5_typeref: 0x3a08
++  __TEXT.__swift5_capture: 0x798
++  __TEXT.__constg_swiftt: 0x533c
++  __TEXT.__swift5_reflstr: 0x4c04
++  __TEXT.__swift5_fieldmd: 0x5830
+   __TEXT.__swift5_builtin: 0x244
+-  __TEXT.__swift5_assocty: 0x9c8
+-  __TEXT.__swift5_proto: 0xff4
+-  __TEXT.__swift5_types: 0x5c8
++  __TEXT.__swift5_assocty: 0x950
++  __TEXT.__swift5_proto: 0xfc8
++  __TEXT.__swift5_types: 0x5bc
+   __TEXT.__swift5_protos: 0x94
+   __TEXT.__swift5_mpenum: 0x5c
+-  __TEXT.__unwind_info: 0x6f0c
+-  __TEXT.__eh_frame: 0x4734
++  __TEXT.__unwind_info: 0x6ef4
++  __TEXT.__eh_frame: 0x46a4
+   __TEXT.__objc_classname: 0x41
+   __TEXT.__objc_methname: 0x2cfb
+   __TEXT.__objc_methtype: 0xd2
+
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_const: 0x40a0
+   __DATA_CONST.__objc_selrefs: 0xf58
+-  __AUTH_CONST.__const: 0xc878
+-  __AUTH_CONST.__auth_ptr: 0x358
++  __DATA_CONST.__objc_protorefs: 0x20
++  __DATA_CONST.__objc_classrefs: 0x390
++  __AUTH_CONST.__const: 0xc7b8
++  __AUTH_CONST.__auth_ptr: 0x350
+   __AUTH_CONST.__objc_const: 0x140
+-  __AUTH_CONST.__auth_got: 0x1eb8
++  __AUTH_CONST.__auth_got: 0x1ed8
+   __AUTH.__data: 0x11b0
+   __AUTH.__objc_data: 0x698
+   __DATA.__got_weak: 0x20
+-  __DATA.__objc_protorefs: 0x20
+-  __DATA.__objc_classrefs: 0x390
+   __DATA.__objc_data: 0x148
+-  __DATA.__data: 0x2390
++  __DATA.__data: 0x2b00
+   __DATA.__objc_stublist: 0x58
+-  __DATA.__bss: 0xfae0
++  __DATA.__bss: 0xf2e0
+   __DATA.__common: 0xa8
+   __DATA_DIRTY.__objc_data: 0x18b0
+-  __DATA_DIRTY.__data: 0x6ec8
+-  __DATA_DIRTY.__bss: 0xec80
+-  __DATA_DIRTY.__common: 0x3c8
++  __DATA_DIRTY.__data: 0x7c00
++  __DATA_DIRTY.__bss: 0xef00
++  __DATA_DIRTY.__common: 0x3b8
+   - /System/Library/Frameworks/Charts.framework/Charts
+   - /System/Library/Frameworks/Combine.framework/Combine
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 10401
+-  Symbols:   2700
+-  CStrings:  1515
++  Functions: 10427
++  Symbols:   2714
++  CStrings:  1534
+ 
+Symbols:
++ __ZNKSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB8ue170006Ev
++ __ZNSt12length_errorC1B8ue170006EPKc
++ __ZNSt3__111__introsortINS_17_ClassicAlgPolicyERN5boost4math6detail12sort_functorIeEEPiLb0EEEvT1_S9_T0_NS_15iterator_traitsIS9_E15difference_typeEb
++ __ZNSt3__111__sift_downB8ue170006INS_17_ClassicAlgPolicyERN5boost4math6detail12sort_functorIeEEPiEEvT1_OT0_NS_15iterator_traitsIS9_E15difference_typeES9_
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B8ue170006ILi0EEEPKc
++ __ZNSt3__116__insertion_sortB8ue170006INS_17_ClassicAlgPolicyERN5boost4math6detail12sort_functorIeEEPiEEvT1_S9_T0_
++ __ZNSt3__117__floyd_sift_downB8ue170006INS_17_ClassicAlgPolicyERN5boost4math6detail12sort_functorIeEEPiEET1_S9_OT0_NS_15iterator_traitsIS9_E15difference_typeE
++ __ZNSt3__118basic_stringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B8ue170006Ev
++ __ZNSt3__119__partial_sort_implB8ue170006INS_17_ClassicAlgPolicyERN5boost4math6detail12sort_functorIeEEPiS8_EET1_S9_S9_T2_OT0_
++ __ZNSt3__120__throw_length_errorB8ue170006EPKc
++ __ZNSt3__126__insertion_sort_unguardedB8ue170006INS_17_ClassicAlgPolicyERN5boost4math6detail12sort_functorIeEEPiEEvT1_S9_T0_
++ __ZNSt3__127__insertion_sort_incompleteB8ue170006INS_17_ClassicAlgPolicyERN5boost4math6detail12sort_functorIeEEPiEEbT1_S9_T0_
++ __ZNSt3__131__partition_with_equals_on_leftB8ue170006INS_17_ClassicAlgPolicyEPiRN5boost4math6detail12sort_functorIeEEEET0_S9_S9_T1_
++ __ZNSt3__132__partition_with_equals_on_rightB8ue170006INS_17_ClassicAlgPolicyEPiRN5boost4math6detail12sort_functorIeEEEENS_4pairIT0_bEESA_SA_T1_
++ __ZNSt3__17__sort3B8ue170006INS_17_ClassicAlgPolicyERN5boost4math6detail12sort_functorIeEEPiEEjT1_S9_S9_T0_
++ __ZNSt3__17__sort4B8ue170006INS_17_ClassicAlgPolicyERN5boost4math6detail12sort_functorIeEEPiEEvT1_S9_S9_S9_T0_
++ __ZNSt3__17__sort5B8ue170006INS_17_ClassicAlgPolicyERN5boost4math6detail12sort_functorIeEEPiEEvT1_S9_S9_S9_S9_T0_
++ __ZNSt3__19__sift_upB8ue170006INS_17_ClassicAlgPolicyERN5boost4math6detail12sort_functorIeEEPiEEvT1_S9_OT0_NS_15iterator_traitsIS9_E15difference_typeE
++ _block_copy_helper.10
++ _block_copy_helper.16
++ _block_copy_helper.23
++ _block_copy_helper.27
++ _block_copy_helper.34
++ _block_copy_helper.4
++ _block_copy_helper.50
++ _block_copy_helper.59
++ _block_descriptor.12
++ _block_descriptor.18
++ _block_descriptor.25
++ _block_descriptor.29
++ _block_descriptor.36
++ _block_descriptor.52
++ _block_descriptor.6
++ _block_descriptor.61
++ _block_destroy_helper.11
++ _block_destroy_helper.17
++ _block_destroy_helper.24
++ _block_destroy_helper.28
++ _block_destroy_helper.35
++ _block_destroy_helper.5
++ _block_destroy_helper.51
++ _block_destroy_helper.60
++ _get_witness_table 7SwiftUI12ViewThatFitsVyAA19_ConditionalContentVyAA05TupleC0VyAA6HStackVyAGy19HealthVisualization027ActivitySummarySnidgetValueC0V_AGyAA08ModifiedG0VyANyANyANyAA7DividerVAA21_OverlayStyleModifierVyAA5ColorVGGAA12_FrameLayoutVGAA08_PaddingW0VGA_G_ALA1_ALtGSgAA6SpacerVANyAJ0l4Ringa8UICircleC0VAA023AccessibilityAttachmentT0VGtGG_AA6VStackVyAEyAGyAL_A10_tGAGyAIyAGyAL_A1_ALtGG_AIyAGyAL_A5_A10_tGGtGGGtGAGyA12__A22_A14_yAGyAL_ALA19_tGGA14_yAGyAL_A2LA10_tGGtGGGAA0C0HPyHC.26
++ _get_witness_table 7SwiftUI15ModifiedContentVyAA4ViewPAAE20accessibilityElement8childrenQrAA26AccessibilityChildBehaviorV_tFQOyAA6VStackVyAA05TupleE0Vy016HealthExperienceB0020DisclosureCellHeaderE0V_ACyAA6SpacerVAA16_FlexFrameLayoutVGAN019SnidgetCurrentValueE0Vy0N13Visualization08ActivitywxyzE0VGtGG_Qo_ATGAaDHPqd__AaDHD2_A2_HO_AtA0E8ModifierHPyHCHC.25
++ _get_witness_table 7SwiftUI15ModifiedContentVyAA6VStackVyAA9TupleViewVyACyACyACyAA4TextVAA30_EnvironmentKeyWritingModifierVyAA0H9AlignmentOGGAKySiSgGGAA06_TraitkL0VyAA014LayoutPrioritynJ0VGG_ACyAA7DividerVAA08_PaddingO0VGACyAA0G0PAAE20accessibilityElement8childrenQrAA26AccessibilityChildBehaviorV_tFQOyACy19HealthVisualization21CoreChartTrendDiagramVA0_G_Qo_AA0v10AttachmentL0VGSgtGGAA016_BackgroundStyleL0VyAA5ColorVGGAAA2_HPA18_AAA2_HPyHC_A23_AA0gL0HPyHCHC.16
+- __ZNKSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB7v160006Ev
+- __ZNSt12length_errorC1B7v160006EPKc
+- __ZNSt3__111__introsortINS_17_ClassicAlgPolicyERN5boost4math6detail12sort_functorIeEEPiEEvT1_S9_T0_NS_15iterator_traitsIS9_E15difference_typeE
+- __ZNSt3__111__sift_downB7v160006INS_17_ClassicAlgPolicyERN5boost4math6detail12sort_functorIeEEPiEEvT1_OT0_NS_15iterator_traitsIS9_E15difference_typeES9_
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B7v160006IDnEEPKc
+- __ZNSt3__117__floyd_sift_downB7v160006INS_17_ClassicAlgPolicyERN5boost4math6detail12sort_functorIeEEPiEET1_S9_OT0_NS_15iterator_traitsIS9_E15difference_typeE
+- __ZNSt3__118__insertion_sort_3B7v160006INS_17_ClassicAlgPolicyERN5boost4math6detail12sort_functorIeEEPiEEvT1_S9_T0_
+- __ZNSt3__118basic_stringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B7v160006Ev
+- __ZNSt3__119__partial_sort_implB7v160006INS_17_ClassicAlgPolicyERN5boost4math6detail12sort_functorIeEEPiS8_EET1_S9_S9_T2_OT0_
+- __ZNSt3__120__throw_length_errorB7v160006EPKc
+- __ZNSt3__127__insertion_sort_incompleteIRN5boost4math6detail12sort_functorIeEEPiEEbT0_S8_T_
+- __ZNSt3__17__sort3B7v160006INS_17_ClassicAlgPolicyERN5boost4math6detail12sort_functorIeEEPiEEjT1_S9_S9_T0_
+- __ZNSt3__17__sort4B7v160006INS_17_ClassicAlgPolicyERN5boost4math6detail12sort_functorIeEEPiEEjT1_S9_S9_S9_T0_
+- __ZNSt3__17__sort5IRN5boost4math6detail12sort_functorIeEEPiEEjT0_S8_S8_S8_S8_T_
+- __ZNSt3__19__sift_upB7v160006INS_17_ClassicAlgPolicyERN5boost4math6detail12sort_functorIeEEPiEEvT1_S9_OT0_NS_15iterator_traitsIS9_E15difference_typeE
+- _associated conformance 19HealthVisualization24DiagramHeartRateRecoveryC06MinutedE5LabelOSHAASQ
+- _associated conformance 19HealthVisualization24DiagramHeartRateRecoveryC06MinutedE5LabelOs12CaseIterableAA8AllCasessAFP_Sl
+- _associated conformance 19HealthVisualization24DiagramHeartRateRecoveryC11YValueLabelOSHAASQ
+- _associated conformance 19HealthVisualization24DiagramHeartRateRecoveryC11YValueLabelOs12CaseIterableAA8AllCasessAFP_Sl
+- _associated conformance 19HealthVisualization24DiagramHeartRateRecoveryC15MinuteTimeLabelOSHAASQ
+- _associated conformance 19HealthVisualization24DiagramHeartRateRecoveryC15MinuteTimeLabelOs12CaseIterableAA8AllCasessAFP_Sl
+- _block_copy_helper.11
+- _block_copy_helper.13
+- _block_copy_helper.17
+- _block_copy_helper.20
+- _block_copy_helper.51
+- _block_copy_helper.60
+- _block_descriptor.13
+- _block_descriptor.15
+- _block_descriptor.19
+- _block_descriptor.22
+- _block_descriptor.53
+- _block_descriptor.62
+- _block_destroy_helper.12
+- _block_destroy_helper.14
+- _block_destroy_helper.18
+- _block_destroy_helper.21
+- _block_destroy_helper.52
+- _block_destroy_helper.61
+- _get_witness_table 7SwiftUI12ViewThatFitsVyAA19_ConditionalContentVyAA05TupleC0VyAA6HStackVyAGy19HealthVisualization027ActivitySummarySnidgetValueC0V_AGyAA08ModifiedG0VyANyANyANyAA7DividerVAA21_OverlayStyleModifierVyAA5ColorVGGAA12_FrameLayoutVGAA08_PaddingW0VGA_G_ALA1_ALtGSgAA6SpacerVANyAJ0l4Ringa8UICircleC0VAA023AccessibilityAttachmentT0VGtGG_AA6VStackVyAEyAGyAL_A10_tGAGyAIyAGyAL_A1_ALtGG_AIyAGyAL_A5_A10_tGGtGGGtGAGyA12__A22_A14_yAGyAL_ALA19_tGGA14_yAGyAL_A2LA10_tGGtGGGAA0C0HPyHC.30
+- _get_witness_table 7SwiftUI15ModifiedContentVyAA4ViewPAAE20accessibilityElement8childrenQrAA26AccessibilityChildBehaviorV_tFQOyAA6VStackVyAA05TupleE0Vy016HealthExperienceB0020DisclosureCellHeaderE0V_ACyAA6SpacerVAA16_FlexFrameLayoutVGAN019SnidgetCurrentValueE0Vy0N13Visualization08ActivitywxyzE0VGtGG_Qo_ATGAaDHPqd__AaDHD2_A2_HO_AtA0E8ModifierHPyHCHC.29
+- _get_witness_table 7SwiftUI15ModifiedContentVyAA6VStackVyAA9TupleViewVyACyACyACyAA4TextVAA30_EnvironmentKeyWritingModifierVyAA0H9AlignmentOGGAKySiSgGGAA06_TraitkL0VyAA014LayoutPrioritynJ0VGG_ACyAA7DividerVAA08_PaddingO0VGACyAA0G0PAAE20accessibilityElement8childrenQrAA26AccessibilityChildBehaviorV_tFQOyACy19HealthVisualization21CoreChartTrendDiagramVA0_G_Qo_AA0v10AttachmentL0VGSgtGGAA016_BackgroundStyleL0VyAA5ColorVGGAAA2_HPA18_AAA2_HPyHC_A23_AA0gL0HPyHCHC.17
+- _symbolic Say_____G 19HealthVisualization24DiagramHeartRateRecoveryC06MinutedE5LabelO
+- _symbolic Say_____G 19HealthVisualization24DiagramHeartRateRecoveryC11YValueLabelO
+- _symbolic Say_____G 19HealthVisualization24DiagramHeartRateRecoveryC15MinuteTimeLabelO
+- _symbolic _____ 19HealthVisualization24DiagramHeartRateRecoveryC06MinutedE5LabelO
+- _symbolic _____ 19HealthVisualization24DiagramHeartRateRecoveryC11YValueLabelO
+- _symbolic _____ 19HealthVisualization24DiagramHeartRateRecoveryC15MinuteTimeLabelO
+CStrings:
++ "Can't construct Array with count < 0"
++ "Division by zero"
++ "Division results in an overflow"
++ "Insufficient space allocated to copy string contents"
++ "Swift/Array.swift"
++ "Swift/ContiguousArrayBuffer.swift"
++ "Swift/IntegerTypes.swift"
++ "Swift/StringTesting.swift"
++ "Swift/StringUTF8View.swift"
++ "Swift/UnsafeBufferPointer.swift"
++ "Swift/UnsafePointer.swift"
++ "Swift/UnsafeRawPointer.swift"
++ "Unexpectedly found nil while unwrapping an Optional value"
++ "UnsafeMutableBufferPointer with negative count"
++ "UnsafeMutablePointer.initialize overlapping range"
++ "UnsafeMutablePointer.initialize with negative count"
++ "UnsafeMutablePointer.moveInitialize with negative count"
++ "UnsafeMutableRawPointer.initializeMemory overlapping range"
++ "invalid Collection: less than 'count' elements in collection"
+
+```
