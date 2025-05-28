@@ -130,6 +130,7 @@
 ipsw diff
   --output '../ipsw-diffs'
   --markdown
+  --ent
   --fw
   --launchd
   --feat
