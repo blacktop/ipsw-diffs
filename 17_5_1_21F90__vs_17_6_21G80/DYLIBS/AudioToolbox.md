@@ -1,0 +1,431 @@
+## AudioToolbox
+
+> `/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox`
+
+```diff
+
+-1387.6.4.1.0
+-  __TEXT.__text: 0x25608c
++1387.7.4.0.0
++  __TEXT.__text: 0x256590
+   __TEXT.__auth_stubs: 0x3780
+   __TEXT.__objc_methlist: 0x15a0
+   __TEXT.__const: 0x195c
+-  __TEXT.__gcc_except_tab: 0x1c228
+-  __TEXT.__cstring: 0x1d033
+-  __TEXT.__oslogstring: 0x2e4d2
++  __TEXT.__gcc_except_tab: 0x1c260
++  __TEXT.__cstring: 0x1d041
++  __TEXT.__oslogstring: 0x2e5a0
+   __TEXT.__dlopen_cstrs: 0x598
+-  __TEXT.__unwind_info: 0xb178
++  __TEXT.__unwind_info: 0xb184
+   __TEXT.__eh_frame: 0x38
+   __TEXT.__objc_classname: 0x369
+   __TEXT.__objc_methname: 0x52ce
+
+   - /usr/lib/libbsm.0.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  Functions: 8797
+-  Symbols:   23300
+-  CStrings:  7844
++  Functions: 8798
++  Symbols:   23303
++  CStrings:  7849
+ 
+Symbols:
++ GCC_except_table8051
++ GCC_except_table8053
++ GCC_except_table8070
++ GCC_except_table8074
++ GCC_except_table8102
++ GCC_except_table8112
++ GCC_except_table8117
++ GCC_except_table8138
++ GCC_except_table8144
++ GCC_except_table8146
++ GCC_except_table8151
++ GCC_except_table8155
++ GCC_except_table8159
++ GCC_except_table8166
++ GCC_except_table8176
++ GCC_except_table8186
++ GCC_except_table8199
++ GCC_except_table8215
++ GCC_except_table8230
++ GCC_except_table8234
++ GCC_except_table8237
++ GCC_except_table8241
++ GCC_except_table8244
++ GCC_except_table8262
++ GCC_except_table8264
++ GCC_except_table8280
++ GCC_except_table8292
++ GCC_except_table8298
++ GCC_except_table8301
++ GCC_except_table8305
++ GCC_except_table8307
++ GCC_except_table8319
++ GCC_except_table8321
++ GCC_except_table8325
++ GCC_except_table8329
++ GCC_except_table8349
++ GCC_except_table8351
++ GCC_except_table8354
++ GCC_except_table8358
++ GCC_except_table8365
++ GCC_except_table8372
++ GCC_except_table8374
++ GCC_except_table8386
++ GCC_except_table8389
++ GCC_except_table8395
++ GCC_except_table8398
++ GCC_except_table8401
++ GCC_except_table8412
++ GCC_except_table8421
++ GCC_except_table8423
++ GCC_except_table8425
++ GCC_except_table8433
++ GCC_except_table8438
++ GCC_except_table8441
++ GCC_except_table8443
++ GCC_except_table8448
++ GCC_except_table8450
++ GCC_except_table8452
++ GCC_except_table8454
++ GCC_except_table8458
++ GCC_except_table8460
++ GCC_except_table8468
++ GCC_except_table8473
++ GCC_except_table8475
++ GCC_except_table8478
++ GCC_except_table8480
++ GCC_except_table8482
++ GCC_except_table8484
++ GCC_except_table8486
++ GCC_except_table8488
++ GCC_except_table8490
++ GCC_except_table8492
++ GCC_except_table8494
++ GCC_except_table8496
++ GCC_except_table8498
++ GCC_except_table8500
++ GCC_except_table8502
++ GCC_except_table8504
++ GCC_except_table8506
++ GCC_except_table8508
++ GCC_except_table8510
++ GCC_except_table8512
++ GCC_except_table8514
++ GCC_except_table8516
++ GCC_except_table8518
++ GCC_except_table8520
++ GCC_except_table8522
++ GCC_except_table8524
++ GCC_except_table8526
++ GCC_except_table8528
++ GCC_except_table8530
++ GCC_except_table8532
++ GCC_except_table8534
++ GCC_except_table8536
++ GCC_except_table8538
++ GCC_except_table8545
++ GCC_except_table8549
++ GCC_except_table8551
++ GCC_except_table8556
++ GCC_except_table8558
++ GCC_except_table8560
++ GCC_except_table8580
++ GCC_except_table8589
++ GCC_except_table8595
++ GCC_except_table8601
++ GCC_except_table8604
++ GCC_except_table8609
++ GCC_except_table8616
++ GCC_except_table8625
++ GCC_except_table8629
++ GCC_except_table8661
++ GCC_except_table8693
++ __XGetProperty.12212
++ __XSetProperty.12211
++ __ZL30audit_stringAudioSessionServer.6731
++ __ZL7gAQOnce.10613
++ __ZN5boost9typeindex6detailL23ctti_skip_until_runtimeE.7613
++ __ZN9MEUtility36completeChannelLayoutWithCoordinatesERKN2CA13ChannelLayoutE
++ __ZZL21getAVAudioFormatClassvE9softClass.0.10124
++ __ZZL29AudioSessionServerLibraryCorePPcE16frameworkLibrary.0.6718
++ ___Block_byref_object_copy_.12323
++ ___Block_byref_object_dispose_.12324
++ ____Z16NewAudioCapturer20AudioCapturerOptionsPKcS1_jPK27AudioStreamBasicDescriptionRS3__block_invoke.10577
++ ____Z16NewAudioCapturer20AudioCapturerOptionsPKcS1_jPK27AudioStreamBasicDescriptionRS3__block_invoke.10693
++ ____Z16NewAudioCapturer20AudioCapturerOptionsPKcS1_jPK27AudioStreamBasicDescriptionRS3__block_invoke.10924
++ ____Z16NewAudioCapturer20AudioCapturerOptionsPKcS1_jPK27AudioStreamBasicDescriptionRS3__block_invoke.11043
++ ____Z16NewAudioCapturer20AudioCapturerOptionsPKcS1_jPK27AudioStreamBasicDescriptionRS3__block_invoke.6934
++ ____Z16NewAudioCapturer20AudioCapturerOptionsPKcS1_jPK27AudioStreamBasicDescriptionRS3__block_invoke.7550
++ ____Z28AudioStatisticsLibraryLoaderv_block_invoke.7121
++ ____ZL21getAVAudioFormatClassv_block_invoke.10125
++ ____ZL29AudioSessionServerLibraryCorePPc_block_invoke.6719
++ ____ZN2AT13DispatchBlockEP16dispatch_queue_sU13block_pointerFvvEbPKcS5_iyy_block_invoke.6992
++ ____ZN2AT13DispatchBlockEP16dispatch_queue_sU13block_pointerFvvEbPKcS5_iyy_block_invoke.7846
++ ____ZN2AT13DispatchBlockEP16dispatch_queue_sU13block_pointerFvvEbPKcS5_iyy_block_invoke.9026
++ ___block_descriptor_tmp.1.10759
++ ___block_descriptor_tmp.10.11030
++ ___block_descriptor_tmp.10.9037
++ ___block_descriptor_tmp.10.9949
++ ___block_descriptor_tmp.10399
++ ___block_descriptor_tmp.10526
++ ___block_descriptor_tmp.10575
++ ___block_descriptor_tmp.10640
++ ___block_descriptor_tmp.10751
++ ___block_descriptor_tmp.11.7844
++ ___block_descriptor_tmp.11058
++ ___block_descriptor_tmp.11387
++ ___block_descriptor_tmp.12332
++ ___block_descriptor_tmp.13.9951
++ ___block_descriptor_tmp.139.12325
++ ___block_descriptor_tmp.16.9953
++ ___block_descriptor_tmp.17.9939
++ ___block_descriptor_tmp.4.9024
++ ___block_descriptor_tmp.48.11041
++ ___block_descriptor_tmp.5.7268
++ ___block_descriptor_tmp.5.9030
++ ___block_descriptor_tmp.51.9776
++ ___block_descriptor_tmp.6.9032
++ ___block_descriptor_tmp.67.9027
++ ___block_descriptor_tmp.6990
++ ___block_descriptor_tmp.7.7270
++ ___block_descriptor_tmp.7.9033
++ ___block_descriptor_tmp.7.9947
++ ___block_descriptor_tmp.7266
++ ___block_descriptor_tmp.7579
++ ___block_descriptor_tmp.7862
++ ___block_descriptor_tmp.8.11029
++ ___block_descriptor_tmp.8.9034
++ ___block_descriptor_tmp.82.12331
++ ___block_descriptor_tmp.83.12330
++ ___block_descriptor_tmp.84.12329
++ ___block_descriptor_tmp.85.12328
++ ___block_descriptor_tmp.8861
++ ___block_descriptor_tmp.9.9035
++ ___block_descriptor_tmp.9015
++ ___block_descriptor_tmp.9714
++ ___block_literal_global.10246
++ ___block_literal_global.10384
++ ___block_literal_global.10571
++ ___block_literal_global.10609
++ ___block_literal_global.10749
++ ___block_literal_global.10901
++ ___block_literal_global.11054
++ ___block_literal_global.11380
++ ___block_literal_global.3.10757
++ ___block_literal_global.38.7319
++ ___block_literal_global.6928
++ ___block_literal_global.7296
++ ___block_literal_global.7543
++ ___block_literal_global.7903
++ ___block_literal_global.8057
++ ___block_literal_global.8179
++ ___block_literal_global.8857
++ ___block_literal_global.9712
++ __unnamed_array_storage.10170
+- GCC_except_table8052
+- GCC_except_table8054
+- GCC_except_table8071
+- GCC_except_table8075
+- GCC_except_table8103
+- GCC_except_table8116
+- GCC_except_table8118
+- GCC_except_table8143
+- GCC_except_table8145
+- GCC_except_table8150
+- GCC_except_table8153
+- GCC_except_table8157
+- GCC_except_table8165
+- GCC_except_table8172
+- GCC_except_table8177
+- GCC_except_table8198
+- GCC_except_table8213
+- GCC_except_table8229
+- GCC_except_table8231
+- GCC_except_table8236
+- GCC_except_table8240
+- GCC_except_table8242
+- GCC_except_table8260
+- GCC_except_table8263
+- GCC_except_table8279
+- GCC_except_table8289
+- GCC_except_table8297
+- GCC_except_table8299
+- GCC_except_table8304
+- GCC_except_table8306
+- GCC_except_table8318
+- GCC_except_table8320
+- GCC_except_table8322
+- GCC_except_table8326
+- GCC_except_table8348
+- GCC_except_table8350
+- GCC_except_table8353
+- GCC_except_table8356
+- GCC_except_table8360
+- GCC_except_table8367
+- GCC_except_table8373
+- GCC_except_table8382
+- GCC_except_table8387
+- GCC_except_table8390
+- GCC_except_table8396
+- GCC_except_table8399
+- GCC_except_table8402
+- GCC_except_table8413
+- GCC_except_table8422
+- GCC_except_table8424
+- GCC_except_table8432
+- GCC_except_table8437
+- GCC_except_table8440
+- GCC_except_table8442
+- GCC_except_table8444
+- GCC_except_table8449
+- GCC_except_table8451
+- GCC_except_table8453
+- GCC_except_table8455
+- GCC_except_table8459
+- GCC_except_table8461
+- GCC_except_table8472
+- GCC_except_table8474
+- GCC_except_table8476
+- GCC_except_table8479
+- GCC_except_table8481
+- GCC_except_table8483
+- GCC_except_table8485
+- GCC_except_table8487
+- GCC_except_table8489
+- GCC_except_table8491
+- GCC_except_table8493
+- GCC_except_table8495
+- GCC_except_table8497
+- GCC_except_table8499
+- GCC_except_table8501
+- GCC_except_table8503
+- GCC_except_table8505
+- GCC_except_table8507
+- GCC_except_table8509
+- GCC_except_table8511
+- GCC_except_table8513
+- GCC_except_table8515
+- GCC_except_table8517
+- GCC_except_table8519
+- GCC_except_table8521
+- GCC_except_table8523
+- GCC_except_table8525
+- GCC_except_table8527
+- GCC_except_table8529
+- GCC_except_table8531
+- GCC_except_table8533
+- GCC_except_table8535
+- GCC_except_table8537
+- GCC_except_table8542
+- GCC_except_table8548
+- GCC_except_table8550
+- GCC_except_table8555
+- GCC_except_table8557
+- GCC_except_table8559
+- GCC_except_table8579
+- GCC_except_table8588
+- GCC_except_table8591
+- GCC_except_table8600
+- GCC_except_table8603
+- GCC_except_table8608
+- GCC_except_table8614
+- GCC_except_table8624
+- GCC_except_table8628
+- GCC_except_table8659
+- GCC_except_table8690
+- __XGetProperty.12202
+- __XSetProperty.12201
+- __ZL30audit_stringAudioSessionServer.6729
+- __ZL7gAQOnce.10610
+- __ZN5boost9typeindex6detailL23ctti_skip_until_runtimeE.7611
+- __ZZL21getAVAudioFormatClassvE9softClass.0.10122
+- __ZZL29AudioSessionServerLibraryCorePPcE16frameworkLibrary.0.6716
+- ___Block_byref_object_copy_.12313
+- ___Block_byref_object_dispose_.12314
+- ____Z16NewAudioCapturer20AudioCapturerOptionsPKcS1_jPK27AudioStreamBasicDescriptionRS3__block_invoke.10574
+- ____Z16NewAudioCapturer20AudioCapturerOptionsPKcS1_jPK27AudioStreamBasicDescriptionRS3__block_invoke.10690
+- ____Z16NewAudioCapturer20AudioCapturerOptionsPKcS1_jPK27AudioStreamBasicDescriptionRS3__block_invoke.10921
+- ____Z16NewAudioCapturer20AudioCapturerOptionsPKcS1_jPK27AudioStreamBasicDescriptionRS3__block_invoke.11040
+- ____Z16NewAudioCapturer20AudioCapturerOptionsPKcS1_jPK27AudioStreamBasicDescriptionRS3__block_invoke.6932
+- ____Z16NewAudioCapturer20AudioCapturerOptionsPKcS1_jPK27AudioStreamBasicDescriptionRS3__block_invoke.7548
+- ____Z28AudioStatisticsLibraryLoaderv_block_invoke.7119
+- ____ZL21getAVAudioFormatClassv_block_invoke.10123
+- ____ZL29AudioSessionServerLibraryCorePPc_block_invoke.6717
+- ____ZN2AT13DispatchBlockEP16dispatch_queue_sU13block_pointerFvvEbPKcS5_iyy_block_invoke.6990
+- ____ZN2AT13DispatchBlockEP16dispatch_queue_sU13block_pointerFvvEbPKcS5_iyy_block_invoke.7844
+- ____ZN2AT13DispatchBlockEP16dispatch_queue_sU13block_pointerFvvEbPKcS5_iyy_block_invoke.9024
+- ___block_descriptor_tmp.1.10756
+- ___block_descriptor_tmp.10.11027
+- ___block_descriptor_tmp.10.9035
+- ___block_descriptor_tmp.10.9947
+- ___block_descriptor_tmp.10396
+- ___block_descriptor_tmp.10523
+- ___block_descriptor_tmp.10572
+- ___block_descriptor_tmp.10637
+- ___block_descriptor_tmp.10748
+- ___block_descriptor_tmp.11.7842
+- ___block_descriptor_tmp.11055
+- ___block_descriptor_tmp.11377
+- ___block_descriptor_tmp.12322
+- ___block_descriptor_tmp.13.9949
+- ___block_descriptor_tmp.139.12315
+- ___block_descriptor_tmp.16.9951
+- ___block_descriptor_tmp.17.9937
+- ___block_descriptor_tmp.4.9022
+- ___block_descriptor_tmp.48.11038
+- ___block_descriptor_tmp.5.7266
+- ___block_descriptor_tmp.5.9028
+- ___block_descriptor_tmp.51.9774
+- ___block_descriptor_tmp.6.9030
+- ___block_descriptor_tmp.67.9025
+- ___block_descriptor_tmp.6988
+- ___block_descriptor_tmp.7.7268
+- ___block_descriptor_tmp.7.9031
+- ___block_descriptor_tmp.7.9945
+- ___block_descriptor_tmp.7264
+- ___block_descriptor_tmp.7577
+- ___block_descriptor_tmp.7860
+- ___block_descriptor_tmp.8.11026
+- ___block_descriptor_tmp.8.9032
+- ___block_descriptor_tmp.82.12321
+- ___block_descriptor_tmp.83.12320
+- ___block_descriptor_tmp.84.12319
+- ___block_descriptor_tmp.85.12318
+- ___block_descriptor_tmp.8859
+- ___block_descriptor_tmp.9.9033
+- ___block_descriptor_tmp.9013
+- ___block_descriptor_tmp.9712
+- ___block_literal_global.10244
+- ___block_literal_global.10381
+- ___block_literal_global.10568
+- ___block_literal_global.10606
+- ___block_literal_global.10746
+- ___block_literal_global.10898
+- ___block_literal_global.11051
+- ___block_literal_global.11370
+- ___block_literal_global.3.10754
+- ___block_literal_global.38.7317
+- ___block_literal_global.6926
+- ___block_literal_global.7294
+- ___block_literal_global.7541
+- ___block_literal_global.7901
+- ___block_literal_global.8055
+- ___block_literal_global.8177
+- ___block_literal_global.8855
+- ___block_literal_global.9710
+- __unnamed_array_storage.10168
+CStrings:
++ "%25s:%-5d AQMEDevice(%p) set gAQME_VPIOClientSession=0x%x"
++ "%25s:%-5d ERROR from UpdateDevice(): %d"
++ "%25s:%-5d EXCEPTION THROWN from CreateSSSGraph()"
++ "%25s:%-5d Failed to get default coordinates for %u err: %d"
++ "MEUtility.cpp"
+
+```

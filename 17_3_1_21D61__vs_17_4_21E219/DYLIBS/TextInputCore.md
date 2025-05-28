@@ -1,0 +1,3503 @@
+## TextInputCore
+
+> `/System/Library/PrivateFrameworks/TextInputCore.framework/TextInputCore`
+
+```diff
+
+-3431.206.0.0.0
+-  __TEXT.__text: 0x2120f4
+-  __TEXT.__auth_stubs: 0x34c0
++3431.316.0.0.0
++  __TEXT.__text: 0x2179b4
++  __TEXT.__auth_stubs: 0x34e0
+   __TEXT.__init_offsets: 0xb4
+-  __TEXT.__objc_methlist: 0xe9cc
+-  __TEXT.__const: 0x22a0
+-  __TEXT.__cstring: 0x1864c
++  __TEXT.__objc_methlist: 0xeb94
++  __TEXT.__const: 0x2248
++  __TEXT.__cstring: 0x18d84
+   __TEXT.__oslogstring: 0x3fbd
+-  __TEXT.__dlopen_cstrs: 0x82c
++  __TEXT.__dlopen_cstrs: 0x87d
+   __TEXT.__ustring: 0xd6
+-  __TEXT.__unwind_info: 0x6800
+-  __TEXT.__objc_classname: 0x211d
+-  __TEXT.__objc_methname: 0x2d521
+-  __TEXT.__objc_methtype: 0x6c70
+-  __TEXT.__objc_stubs: 0x1f280
+-  __DATA_CONST.__got: 0xda0
+-  __DATA_CONST.__const: 0x5258
+-  __DATA_CONST.__objc_classlist: 0x800
++  __TEXT.__unwind_info: 0x68d0
++  __TEXT.__objc_classname: 0x2193
++  __TEXT.__objc_methname: 0x2ddef
++  __TEXT.__objc_methtype: 0x6cae
++  __TEXT.__objc_stubs: 0x1fb20
++  __DATA_CONST.__got: 0xdd0
++  __DATA_CONST.__const: 0x52b0
++  __DATA_CONST.__objc_classlist: 0x818
+   __DATA_CONST.__objc_catlist: 0x60
+   __DATA_CONST.__objc_protolist: 0x198
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_const: 0x1ce60
+-  __DATA_CONST.__objc_selrefs: 0x9250
+-  __DATA_CONST.__objc_arraydata: 0x5c0
+-  __AUTH_CONST.__const: 0x8038
+-  __AUTH_CONST.__cfstring: 0x106c0
+-  __AUTH_CONST.__objc_const: 0x68d0
+-  __AUTH_CONST.__objc_arrayobj: 0x2e8
+-  __AUTH_CONST.__objc_intobj: 0x6d8
++  __DATA_CONST.__objc_const: 0x1d048
++  __DATA_CONST.__objc_selrefs: 0x94a8
++  __DATA_CONST.__objc_classrefs: 0xcd8
++  __DATA_CONST.__objc_superrefs: 0x6e8
++  __DATA_CONST.__objc_arraydata: 0x5c8
++  __AUTH_CONST.__const: 0x8220
++  __AUTH_CONST.__cfstring: 0x10880
++  __AUTH_CONST.__objc_const: 0x69a8
++  __AUTH_CONST.__objc_arrayobj: 0x2d0
++  __AUTH_CONST.__objc_intobj: 0x6a8
+   __AUTH_CONST.__objc_doubleobj: 0x10
+   __AUTH_CONST.__objc_dictobj: 0x78
+   __AUTH_CONST.__auth_ptr: 0x8
+-  __AUTH_CONST.__auth_got: 0x1a68
+-  __AUTH.__objc_data: 0x2080
+-  __AUTH.__const_weak: 0x2b0
++  __AUTH_CONST.__auth_got: 0x1a78
++  __AUTH.__objc_data: 0x2120
+   __AUTH.__data: 0x18
+-  __DATA.__got_weak: 0x3b0
+-  __DATA.__objc_classrefs: 0xca8
+-  __DATA.__objc_superrefs: 0x6d8
+-  __DATA.__objc_ivar: 0x11cc
+-  __DATA.__data: 0x2da0
++  __DATA.__got_weak: 0x3b8
++  __DATA.__objc_ivar: 0x11d4
++  __DATA.__data: 0x2dd8
+   __DATA.__thread_vars: 0x30
+   __DATA.__thread_bss: 0x19
+-  __DATA.__common: 0x1b08
+-  __DATA.__bss: 0xfc8
++  __DATA.__common: 0x1ae0
++  __DATA.__bss: 0xf40
+   __DATA_DIRTY.__const: 0x8
+-  __DATA_DIRTY.__objc_data: 0x2f80
++  __DATA_DIRTY.__objc_data: 0x2fd0
+   __DATA_DIRTY.__data: 0x88
+-  __DATA_DIRTY.__bss: 0xa90
++  __DATA_DIRTY.__common: 0x28
++  __DATA_DIRTY.__bss: 0xad8
+   - /System/Library/Frameworks/Contacts.framework/Contacts
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+
+   - /System/Library/PrivateFrameworks/DifferentialPrivacy.framework/DifferentialPrivacy
+   - /System/Library/PrivateFrameworks/DistributedEvaluation.framework/DistributedEvaluation
+   - /System/Library/PrivateFrameworks/EmojiFoundation.framework/EmojiFoundation
++  - /System/Library/PrivateFrameworks/FeedbackService.framework/FeedbackService
+   - /System/Library/PrivateFrameworks/InputContext.framework/InputContext
+   - /System/Library/PrivateFrameworks/InputTranscoder.framework/InputTranscoder
+   - /System/Library/PrivateFrameworks/KeyboardServices.framework/KeyboardServices
+
+   - /usr/lib/libmecabra.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libsqlite3.dylib
+-  Functions: 10961
+-  Symbols:   30838
+-  CStrings:  11265
++  Functions: 10988
++  Symbols:   30890
++  CStrings:  11365
+ 
+Symbols:
++ +[TIAutocorrectionFeedbackAnalyzer analyzerForUserModel:revisionRateAnalysisSummary:]
++ +[TIKeyboardInputManagerLogger _writeToFileWithTypologyLog:directoryURL:requireDeviceUnlocked:]
++ -[CoreTelephonyMockObject .cxx_destruct]
++ -[CoreTelephonyMockObject cellularEid]
++ -[CoreTelephonyMockObject cellularImei]
++ -[CoreTelephonyMockObject initWithCellularEid:cellularImei:]
++ -[CoreTelephonyMockObject retrieveDeviceIdentifier:]
++ -[CoreTelephonyMockObject setCellularEid:]
++ -[CoreTelephonyMockObject setCellularImei:]
++ -[TIAppAutofillManager generateCellularCandidatesWithRenderTraits:withKeyboardState:]
++ -[TIAppAutofillManager hasCoreTelephonyEntitlementForConnection:]
++ -[TIAppAutofillManager localizedCellularAutofillStringForKey:defaultValue:]
++ -[TIAppAutofillManager(TestingCellularAutofill) coreTelephonyMockObject]
++ -[TIAppAutofillManager(TestingCellularAutofill) setCoreTelephonyMockObject:]
++ -[TIAutocorrectionFeedbackAnalyzer initWithUserModel:revisionRateAnalysisSummary:]
++ -[TIAutocorrectionFeedbackAnalyzer sendCAEventForStudyStatus:]
++ -[TIAutocorrectionFeedbackAnalyzer sendRequestSurveyEventUsingStudyDataFromFeedbackController:]
++ -[TIAutocorrectionFeedbackAnalyzer sendUpgradeEventUsingStudyDataFromFeedbackController:]
++ -[TICoreAnalyticsEventDispatcher .cxx_destruct]
++ -[TICoreAnalyticsEventDispatcher revisionRateAnalyzer]
++ -[TICoreAnalyticsEventDispatcher setRevisionRateAnalyzer:]
++ -[TIFeedbackController assessAndScheduleRetry]
++ -[TIFeedbackController dispatchAllEventsWithDelegate:]
++ -[TIFeedbackController dispatchScheduledEventsWithDelegate:overrideSchedule:]
++ -[TIFeedbackController handleFeedbackStateCompletionPendingWithDelegate:isEligibleDevice:]
++ -[TIFeedbackController handleFeedbackStateInitiatedWithDelegate:isEligibleDevice:isPreferenceEnabled:]
++ -[TIFeedbackController handleFeedbackStateNoneWithDelegate:isEligibleDevice:]
++ -[TIFeedbackController handleFeedbackStateResponsePendingWithDelegate:isEligibleDevice:]
++ -[TIFeedbackController handleFeedbackStateRetryPendingWithDelegate:isEligibleDevice:]
++ -[TIFeedbackController init]
++ -[TIFeedbackController initiateStudyWithInputModes:initialPreferenceValue:]
++ -[TIFeedbackController isFCSBuild]
++ -[TIFeedbackController retrySurvey]
++ -[TIFeedbackController scheduleRetry]
++ -[TIFeedbackController scheduleSurveyRequestEvent]
++ -[TIFeedbackController setPreferenceValue:]
++ -[TIKBUserModel dispatchFeedbackAnalyzers:aligned:revisionRateAnalysisSummary:]
++ -[TIKeyboardInputManager generateCellularCandidatesWithKeyboardState:]
++ -[TIKeyboardInputManager suggestionBlocklistMatchesStrings:]
++ -[TIKeyboardInputManagerLogger isInternalDeviceWithForcedTypologyLoggingForTesting]
++ -[TIKeyboardInputManager_mul usesRetrocorrection]
++ -[TIResponseKitManager cannedResponsesForString:withLanguageID:withClientID:withRecipientID:withAdditionalPredictions:desiredCandidateCount:shouldDisableAutoCaps:isBlocklisted:]
++ -[TIResponseKitManager generateResponseKitSuggestionsForString:withLanguage:withClientID:withRecipientID:withAdditionalPredictions:desiredCandidateCount:shouldDisableAutoCaps:stringIsBlocklisted:async:completionHandler:]
++ -[TIRevisionRateAnalysisSummary .cxx_destruct]
++ -[TIRevisionRateAnalysisSummary autocorrectedCount]
++ -[TIRevisionRateAnalysisSummary hasCursorMovement]
++ -[TIRevisionRateAnalysisSummary hasEmojiInput]
++ -[TIRevisionRateAnalysisSummary languageRegion]
++ -[TIRevisionRateAnalysisSummary revisedAutocorrectionCount]
++ -[TIRevisionRateAnalysisSummary revisedCount]
++ -[TIRevisionRateAnalysisSummary sessionAlignmentConfidence]
++ -[TIRevisionRateAnalysisSummary setAutocorrectedCount:]
++ -[TIRevisionRateAnalysisSummary setHasCursorMovement:]
++ -[TIRevisionRateAnalysisSummary setHasEmojiInput:]
++ -[TIRevisionRateAnalysisSummary setLanguageRegion:]
++ -[TIRevisionRateAnalysisSummary setRevisedAutocorrectionCount:]
++ -[TIRevisionRateAnalysisSummary setRevisedCount:]
++ -[TIRevisionRateAnalysisSummary setSessionAlignmentConfidence:]
++ -[TIRevisionRateAnalysisSummary setTappedCount:]
++ -[TIRevisionRateAnalysisSummary tappedCount]
++ -[TIRevisionRateAnalyzer getLanguageRegionForSession:]
++ -[TIRevisionRateAnalyzer revisionRateAnalysisSummary]
++ -[TIRevisionRateAnalyzer setRevisionRateAnalysisSummary:]
++ -[TIRevisionRateAnalyzer summarizeWithEventDictionary:languageRegion:]
++ -[TITypologyPreferences isInternalDeviceWithForcedTypologyLoggingForTesting]
++ -[TITypologyPreferencesEnabledForTesting .cxx_destruct]
++ -[TITypologyPreferencesEnabledForTesting initWithOutputPath:]
++ -[TITypologyPreferencesEnabledForTesting isInternalDeviceWithForcedTypologyLoggingForTesting]
++ -[TITypologyPreferencesEnabledForTesting maxBytesPersistedTypologyRecords]
++ -[TITypologyPreferencesEnabledForTesting maxBytesPersistedTypologyTraceLogs]
++ -[TITypologyPreferencesEnabledForTesting outpath]
++ -[TITypologyPreferencesEnabledForTesting setOutpath:]
++ -[TITypologyPreferencesEnabledForTesting typologyDirectoryURL]
++ -[TITypologyPreferencesEnabledForTesting typologyLoggingEnabled]
++ _CoreServicesLibraryCore.frameworkLibrary.8672
++ _CoreTelephonyLibraryCore.frameworkLibrary
++ _IXAFeedbackLogFacility
++ _KeyboardServicesLibrary.13997
++ _KeyboardServicesLibraryCore.frameworkLibrary.13999
++ _ManagedConfigurationLibrary.13986
++ _ManagedConfigurationLibraryCore.frameworkLibrary.13989
++ _MecabraCandidateIsSinglePhraseCandidate
++ _OBJC_CLASS_$_CoreTelephonyMockObject
++ _OBJC_CLASS_$_FBKSDraftLauncher
++ _OBJC_CLASS_$_FBKSFeedbackCount
++ _OBJC_CLASS_$_FBKSForm
++ _OBJC_CLASS_$_FBKSLaunchConfiguration
++ _OBJC_CLASS_$_TIFeedbackUtil
++ _OBJC_CLASS_$_TIRevisionRateAnalysisSummary
++ _OBJC_CLASS_$_TITypologyPreferencesEnabledForTesting
++ _OBJC_IVAR_$_CoreTelephonyMockObject._cellularEid
++ _OBJC_IVAR_$_CoreTelephonyMockObject._cellularImei
++ _OBJC_IVAR_$_TIAppAutofillManager._coreTelephonyMockObject
++ _OBJC_IVAR_$_TIAutocorrectionFeedbackAnalyzer._revisionRateAnalysisSummary
++ _OBJC_IVAR_$_TICoreAnalyticsEventDispatcher._revisionRateAnalyzer
++ _OBJC_IVAR_$_TIFeedbackController._preferenceName
++ _OBJC_IVAR_$_TIFeedbackController._studyID
++ _OBJC_IVAR_$_TIRevisionRateAnalysisSummary._autocorrectedCount
++ _OBJC_IVAR_$_TIRevisionRateAnalysisSummary._hasCursorMovement
++ _OBJC_IVAR_$_TIRevisionRateAnalysisSummary._hasEmojiInput
++ _OBJC_IVAR_$_TIRevisionRateAnalysisSummary._languageRegion
++ _OBJC_IVAR_$_TIRevisionRateAnalysisSummary._revisedAutocorrectionCount
++ _OBJC_IVAR_$_TIRevisionRateAnalysisSummary._revisedCount
++ _OBJC_IVAR_$_TIRevisionRateAnalysisSummary._sessionAlignmentConfidence
++ _OBJC_IVAR_$_TIRevisionRateAnalysisSummary._tappedCount
++ _OBJC_IVAR_$_TIRevisionRateAnalyzer._revisionRateAnalysisSummary
++ _OBJC_IVAR_$_TITypologyPreferencesEnabledForTesting._outpath
++ _OBJC_METACLASS_$_CoreTelephonyMockObject
++ _OBJC_METACLASS_$_TIRevisionRateAnalysisSummary
++ _OBJC_METACLASS_$_TITypologyPreferencesEnabledForTesting
++ _SensorKitLibrary.18372
++ _SensorKitLibraryCore.frameworkLibrary.18375
++ _SpringBoardServicesLibraryCore.frameworkLibrary.17607
++ _StickersLibraryCore.frameworkLibrary.13334
++ _TIAreInlineCompletionForVisionOSEnabled
++ _TIAreTransformerLMForVisionOSEnabled
++ _TIKeyboardOutputInfoTypeCellularEIDStr
++ _TIKeyboardOutputInfoTypeCellularIMEIStr
++ _TIKeyboardSecureCandidateCellularEIDStr
++ _TIKeyboardSecureCandidateCellularIMEIStr
++ _TITextContentTypeCellularEID
++ _TITextContentTypeCellularIMEI
++ __OBJC_$_CLASS_METHODS_TIAppAutofillManager(TestingSupport|TestingCellularAutofill)
++ __OBJC_$_CLASS_PROP_LIST_NSSecureCoding.18623
++ __OBJC_$_CLASS_PROP_LIST_NSSecureCoding.22121
++ __OBJC_$_CLASS_PROP_LIST_NSSecureCoding.4184
++ __OBJC_$_CLASS_PROP_LIST_NSSecureCoding.8009
++ __OBJC_$_INSTANCE_METHODS_CoreTelephonyMockObject
++ __OBJC_$_INSTANCE_METHODS_TIAppAutofillManager(TestingSupport|TestingCellularAutofill)
++ __OBJC_$_INSTANCE_METHODS_TIRevisionRateAnalysisSummary
++ __OBJC_$_INSTANCE_METHODS_TITypologyPreferencesEnabledForTesting
++ __OBJC_$_INSTANCE_VARIABLES_CoreTelephonyMockObject
++ __OBJC_$_INSTANCE_VARIABLES_TICoreAnalyticsEventDispatcher
++ __OBJC_$_INSTANCE_VARIABLES_TIRevisionRateAnalysisSummary
++ __OBJC_$_INSTANCE_VARIABLES_TITypologyPreferencesEnabledForTesting
++ __OBJC_$_PROP_LIST_CoreTelephonyMockObject
++ __OBJC_$_PROP_LIST_NSObject.10367
++ __OBJC_$_PROP_LIST_NSObject.11279
++ __OBJC_$_PROP_LIST_NSObject.1170
++ __OBJC_$_PROP_LIST_NSObject.12161
++ __OBJC_$_PROP_LIST_NSObject.12720
++ __OBJC_$_PROP_LIST_NSObject.12794
++ __OBJC_$_PROP_LIST_NSObject.13188
++ __OBJC_$_PROP_LIST_NSObject.13270
++ __OBJC_$_PROP_LIST_NSObject.138
++ __OBJC_$_PROP_LIST_NSObject.14075
++ __OBJC_$_PROP_LIST_NSObject.15101
++ __OBJC_$_PROP_LIST_NSObject.15653
++ __OBJC_$_PROP_LIST_NSObject.15720
++ __OBJC_$_PROP_LIST_NSObject.16300
++ __OBJC_$_PROP_LIST_NSObject.18113
++ __OBJC_$_PROP_LIST_NSObject.18226
++ __OBJC_$_PROP_LIST_NSObject.18315
++ __OBJC_$_PROP_LIST_NSObject.19372
++ __OBJC_$_PROP_LIST_NSObject.19760
++ __OBJC_$_PROP_LIST_NSObject.20504
++ __OBJC_$_PROP_LIST_NSObject.2054
++ __OBJC_$_PROP_LIST_NSObject.211
++ __OBJC_$_PROP_LIST_NSObject.21208
++ __OBJC_$_PROP_LIST_NSObject.22122
++ __OBJC_$_PROP_LIST_NSObject.22285
++ __OBJC_$_PROP_LIST_NSObject.22578
++ __OBJC_$_PROP_LIST_NSObject.2628
++ __OBJC_$_PROP_LIST_NSObject.3225
++ __OBJC_$_PROP_LIST_NSObject.4033
++ __OBJC_$_PROP_LIST_NSObject.4259
++ __OBJC_$_PROP_LIST_NSObject.5497
++ __OBJC_$_PROP_LIST_NSObject.6348
++ __OBJC_$_PROP_LIST_NSObject.6895
++ __OBJC_$_PROP_LIST_NSObject.7352
++ __OBJC_$_PROP_LIST_NSObject.7540
++ __OBJC_$_PROP_LIST_NSObject.7663
++ __OBJC_$_PROP_LIST_NSObject.800
++ __OBJC_$_PROP_LIST_NSObject.8154
++ __OBJC_$_PROP_LIST_NSObject.8743
++ __OBJC_$_PROP_LIST_NSObject.9173
++ __OBJC_$_PROP_LIST_NSObject.9881
++ __OBJC_$_PROP_LIST_NSObject.9959
++ __OBJC_$_PROP_LIST_TILanguageModelOfflineLearningStrategy.22286
++ __OBJC_$_PROP_LIST_TIRevisionRateAnalysisSummary
++ __OBJC_$_PROP_LIST_TITrialManager.132
++ __OBJC_$_PROP_LIST_TITypologyPreferences.46
++ __OBJC_$_PROP_LIST_TITypologyPreferencesEnabledForTesting
++ __OBJC_$_PROTOCOL_CLASS_METHODS_NSSecureCoding.18624
++ __OBJC_$_PROTOCOL_CLASS_METHODS_NSSecureCoding.22123
++ __OBJC_$_PROTOCOL_CLASS_METHODS_NSSecureCoding.4185
++ __OBJC_$_PROTOCOL_CLASS_METHODS_NSSecureCoding.8010
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_DDSAssetCenterDelegate.19761
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSCoding.18625
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSCoding.22124
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSCoding.4186
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSCoding.8011
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSCopying.10008
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSCopying.1265
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSCopying.15264
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSCopying.21039
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSCopying.2175
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSCopying.632
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSCopying.899
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject.10368
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject.11280
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject.1171
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject.12162
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject.12721
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject.12795
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject.13189
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject.13271
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject.139
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject.14076
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject.15102
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject.15654
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject.15721
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject.16301
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject.18114
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject.18227
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject.18316
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject.19373
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject.19762
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject.20505
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject.2055
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject.212
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject.21209
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject.22125
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject.22287
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject.22579
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject.2629
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject.3226
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject.4034
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject.4260
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject.5498
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject.6349
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject.6896
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject.7353
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject.7541
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject.7664
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject.801
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject.8155
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject.8744
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject.9174
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject.9882
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject.9960
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_DDSAssetCenterDelegate.19763
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject.10369
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject.11281
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject.1172
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject.12163
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject.12722
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject.12796
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject.13190
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject.13272
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject.140
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject.14077
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject.15103
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject.15655
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject.15722
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject.16302
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject.18115
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject.18228
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject.18317
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject.19374
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject.19764
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject.20506
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject.2056
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject.21210
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject.213
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject.22126
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject.22288
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject.22580
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject.2630
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject.3227
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject.4035
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject.4261
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject.5499
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject.6350
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject.6897
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject.7354
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject.7542
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject.7665
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject.802
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject.8156
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject.8745
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject.9175
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject.9883
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject.9961
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_TIDPReportingDelegate.13273
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_TIKeyboardActivityObserving.14078
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_TIKeyboardActivityObserving.18229
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_TIKeyboardActivityObserving.18318
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_TIKeyboardActivityObserving.8746
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_TIKeyboardActivityObserving.9884
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_TIKeyboardInteractionObserver.22127
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_TITypingSessionAggregatedEventObserver.10370
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_TITypingSessionAggregatedEventObserver.12797
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_TITypingSessionAggregatedEventObserver.9176
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_TITypingSessionAggregatedEventObserver.9962
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_TIDPReportingDelegate.13274
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_TIKeyboardActivityObserving.14079
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_TIKeyboardActivityObserving.18230
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_TIKeyboardActivityObserving.18319
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_TIKeyboardActivityObserving.8747
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_TIKeyboardActivityObserving.9885
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_TIKeyboardInteractionObserver.22128
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_TIKeyboardInteractionProtocol.2057
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_TIKeyboardInteractionProtocol.22129
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_TILanguageModelOfflineLearningStrategy.22289
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_TITypingSessionAggregatedEventObserver.10371
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_TITypingSessionAggregatedEventObserver.12798
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_TITypingSessionAggregatedEventObserver.9177
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_TITypingSessionAggregatedEventObserver.9963
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_TITypingSessionAnalyzing.12164
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_TITypingSessionAnalyzing.13191
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_TITypingSessionAnalyzing.16303
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_TITypingSessionAnalyzing.19375
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_TITypingSessionAnalyzing.21211
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_TITypingSessionAnalyzing.3228
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_TITypingSessionAnalyzing.4262
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_TITypingSessionAnalyzing.5500
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_TITypingSessionAnalyzing.7543
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_TITypingSessionAnalyzing.7666
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_TITypingSessionAnalyzing.803
++ __OBJC_$_PROTOCOL_METHOD_TYPES_DDSAssetCenterDelegate.19765
++ __OBJC_$_PROTOCOL_METHOD_TYPES_NSCoding.18626
++ __OBJC_$_PROTOCOL_METHOD_TYPES_NSCoding.22130
++ __OBJC_$_PROTOCOL_METHOD_TYPES_NSCoding.4187
++ __OBJC_$_PROTOCOL_METHOD_TYPES_NSCoding.8012
++ __OBJC_$_PROTOCOL_METHOD_TYPES_NSCopying.10009
++ __OBJC_$_PROTOCOL_METHOD_TYPES_NSCopying.1266
++ __OBJC_$_PROTOCOL_METHOD_TYPES_NSCopying.15265
++ __OBJC_$_PROTOCOL_METHOD_TYPES_NSCopying.21040
++ __OBJC_$_PROTOCOL_METHOD_TYPES_NSCopying.2176
++ __OBJC_$_PROTOCOL_METHOD_TYPES_NSCopying.633
++ __OBJC_$_PROTOCOL_METHOD_TYPES_NSCopying.900
++ __OBJC_$_PROTOCOL_METHOD_TYPES_NSObject.10372
++ __OBJC_$_PROTOCOL_METHOD_TYPES_NSObject.11282
++ __OBJC_$_PROTOCOL_METHOD_TYPES_NSObject.1173
++ __OBJC_$_PROTOCOL_METHOD_TYPES_NSObject.12165
++ __OBJC_$_PROTOCOL_METHOD_TYPES_NSObject.12723
++ __OBJC_$_PROTOCOL_METHOD_TYPES_NSObject.12799
++ __OBJC_$_PROTOCOL_METHOD_TYPES_NSObject.13192
++ __OBJC_$_PROTOCOL_METHOD_TYPES_NSObject.13275
++ __OBJC_$_PROTOCOL_METHOD_TYPES_NSObject.14080
++ __OBJC_$_PROTOCOL_METHOD_TYPES_NSObject.141
++ __OBJC_$_PROTOCOL_METHOD_TYPES_NSObject.15104
++ __OBJC_$_PROTOCOL_METHOD_TYPES_NSObject.15656
++ __OBJC_$_PROTOCOL_METHOD_TYPES_NSObject.15723
++ __OBJC_$_PROTOCOL_METHOD_TYPES_NSObject.16304
++ __OBJC_$_PROTOCOL_METHOD_TYPES_NSObject.18116
++ __OBJC_$_PROTOCOL_METHOD_TYPES_NSObject.18231
++ __OBJC_$_PROTOCOL_METHOD_TYPES_NSObject.18320
++ __OBJC_$_PROTOCOL_METHOD_TYPES_NSObject.19376
++ __OBJC_$_PROTOCOL_METHOD_TYPES_NSObject.19766
++ __OBJC_$_PROTOCOL_METHOD_TYPES_NSObject.20507
++ __OBJC_$_PROTOCOL_METHOD_TYPES_NSObject.2058
++ __OBJC_$_PROTOCOL_METHOD_TYPES_NSObject.21212
++ __OBJC_$_PROTOCOL_METHOD_TYPES_NSObject.214
++ __OBJC_$_PROTOCOL_METHOD_TYPES_NSObject.22131
++ __OBJC_$_PROTOCOL_METHOD_TYPES_NSObject.22290
++ __OBJC_$_PROTOCOL_METHOD_TYPES_NSObject.22581
++ __OBJC_$_PROTOCOL_METHOD_TYPES_NSObject.2631
++ __OBJC_$_PROTOCOL_METHOD_TYPES_NSObject.3229
++ __OBJC_$_PROTOCOL_METHOD_TYPES_NSObject.4036
++ __OBJC_$_PROTOCOL_METHOD_TYPES_NSObject.4263
++ __OBJC_$_PROTOCOL_METHOD_TYPES_NSObject.5501
++ __OBJC_$_PROTOCOL_METHOD_TYPES_NSObject.6351
++ __OBJC_$_PROTOCOL_METHOD_TYPES_NSObject.6898
++ __OBJC_$_PROTOCOL_METHOD_TYPES_NSObject.7355
++ __OBJC_$_PROTOCOL_METHOD_TYPES_NSObject.7544
++ __OBJC_$_PROTOCOL_METHOD_TYPES_NSObject.7667
++ __OBJC_$_PROTOCOL_METHOD_TYPES_NSObject.804
++ __OBJC_$_PROTOCOL_METHOD_TYPES_NSObject.8157
++ __OBJC_$_PROTOCOL_METHOD_TYPES_NSObject.8748
++ __OBJC_$_PROTOCOL_METHOD_TYPES_NSObject.9178
++ __OBJC_$_PROTOCOL_METHOD_TYPES_NSObject.9886
++ __OBJC_$_PROTOCOL_METHOD_TYPES_NSObject.9964
++ __OBJC_$_PROTOCOL_METHOD_TYPES_NSSecureCoding.18627
++ __OBJC_$_PROTOCOL_METHOD_TYPES_NSSecureCoding.22132
++ __OBJC_$_PROTOCOL_METHOD_TYPES_NSSecureCoding.4188
++ __OBJC_$_PROTOCOL_METHOD_TYPES_NSSecureCoding.8013
++ __OBJC_$_PROTOCOL_METHOD_TYPES_TIDPReportingDelegate.13276
++ __OBJC_$_PROTOCOL_METHOD_TYPES_TIKeyboardActivityObserving.14081
++ __OBJC_$_PROTOCOL_METHOD_TYPES_TIKeyboardActivityObserving.18232
++ __OBJC_$_PROTOCOL_METHOD_TYPES_TIKeyboardActivityObserving.18321
++ __OBJC_$_PROTOCOL_METHOD_TYPES_TIKeyboardActivityObserving.8749
++ __OBJC_$_PROTOCOL_METHOD_TYPES_TIKeyboardActivityObserving.9887
++ __OBJC_$_PROTOCOL_METHOD_TYPES_TIKeyboardInteractionObserver.22133
++ __OBJC_$_PROTOCOL_METHOD_TYPES_TIKeyboardInteractionProtocol.2059
++ __OBJC_$_PROTOCOL_METHOD_TYPES_TIKeyboardInteractionProtocol.22134
++ __OBJC_$_PROTOCOL_METHOD_TYPES_TILanguageModelOfflineLearningStrategy.22291
++ __OBJC_$_PROTOCOL_METHOD_TYPES_TITypingSessionAggregatedEventObserver.10373
++ __OBJC_$_PROTOCOL_METHOD_TYPES_TITypingSessionAggregatedEventObserver.12800
++ __OBJC_$_PROTOCOL_METHOD_TYPES_TITypingSessionAggregatedEventObserver.9179
++ __OBJC_$_PROTOCOL_METHOD_TYPES_TITypingSessionAggregatedEventObserver.9965
++ __OBJC_$_PROTOCOL_METHOD_TYPES_TITypingSessionAnalyzing.12166
++ __OBJC_$_PROTOCOL_METHOD_TYPES_TITypingSessionAnalyzing.13193
++ __OBJC_$_PROTOCOL_METHOD_TYPES_TITypingSessionAnalyzing.16305
++ __OBJC_$_PROTOCOL_METHOD_TYPES_TITypingSessionAnalyzing.19377
++ __OBJC_$_PROTOCOL_METHOD_TYPES_TITypingSessionAnalyzing.21213
++ __OBJC_$_PROTOCOL_METHOD_TYPES_TITypingSessionAnalyzing.3230
++ __OBJC_$_PROTOCOL_METHOD_TYPES_TITypingSessionAnalyzing.4264
++ __OBJC_$_PROTOCOL_METHOD_TYPES_TITypingSessionAnalyzing.5502
++ __OBJC_$_PROTOCOL_METHOD_TYPES_TITypingSessionAnalyzing.7545
++ __OBJC_$_PROTOCOL_METHOD_TYPES_TITypingSessionAnalyzing.7668
++ __OBJC_$_PROTOCOL_METHOD_TYPES_TITypingSessionAnalyzing.805
++ __OBJC_$_PROTOCOL_REFS_DDSAssetCenterDelegate.19767
++ __OBJC_$_PROTOCOL_REFS_NSSecureCoding.18628
++ __OBJC_$_PROTOCOL_REFS_NSSecureCoding.22135
++ __OBJC_$_PROTOCOL_REFS_NSSecureCoding.4189
++ __OBJC_$_PROTOCOL_REFS_NSSecureCoding.8014
++ __OBJC_$_PROTOCOL_REFS_TIDPReportingDelegate.13277
++ __OBJC_$_PROTOCOL_REFS_TIKeyboardActivityObserving.14082
++ __OBJC_$_PROTOCOL_REFS_TIKeyboardActivityObserving.18233
++ __OBJC_$_PROTOCOL_REFS_TIKeyboardActivityObserving.18322
++ __OBJC_$_PROTOCOL_REFS_TIKeyboardActivityObserving.8750
++ __OBJC_$_PROTOCOL_REFS_TIKeyboardActivityObserving.9888
++ __OBJC_$_PROTOCOL_REFS_TIKeyboardInteractionObserver.22136
++ __OBJC_$_PROTOCOL_REFS_TIKeyboardInteractionProtocol.2060
++ __OBJC_$_PROTOCOL_REFS_TIKeyboardInteractionProtocol.22137
++ __OBJC_$_PROTOCOL_REFS_TILanguageModelOfflineLearningStrategy.22292
++ __OBJC_$_PROTOCOL_REFS_TITypingSessionAggregatedEventObserver.10374
++ __OBJC_$_PROTOCOL_REFS_TITypingSessionAggregatedEventObserver.12801
++ __OBJC_$_PROTOCOL_REFS_TITypingSessionAggregatedEventObserver.9180
++ __OBJC_$_PROTOCOL_REFS_TITypingSessionAggregatedEventObserver.9966
++ __OBJC_$_PROTOCOL_REFS_TITypingSessionAnalyzing.12167
++ __OBJC_$_PROTOCOL_REFS_TITypingSessionAnalyzing.13194
++ __OBJC_$_PROTOCOL_REFS_TITypingSessionAnalyzing.16306
++ __OBJC_$_PROTOCOL_REFS_TITypingSessionAnalyzing.19378
++ __OBJC_$_PROTOCOL_REFS_TITypingSessionAnalyzing.21214
++ __OBJC_$_PROTOCOL_REFS_TITypingSessionAnalyzing.3231
++ __OBJC_$_PROTOCOL_REFS_TITypingSessionAnalyzing.4265
++ __OBJC_$_PROTOCOL_REFS_TITypingSessionAnalyzing.5503
++ __OBJC_$_PROTOCOL_REFS_TITypingSessionAnalyzing.7546
++ __OBJC_$_PROTOCOL_REFS_TITypingSessionAnalyzing.7669
++ __OBJC_$_PROTOCOL_REFS_TITypingSessionAnalyzing.806
++ __OBJC_CLASS_RO_$_CoreTelephonyMockObject
++ __OBJC_CLASS_RO_$_TIRevisionRateAnalysisSummary
++ __OBJC_CLASS_RO_$_TITypologyPreferencesEnabledForTesting
++ __OBJC_METACLASS_RO_$_CoreTelephonyMockObject
++ __OBJC_METACLASS_RO_$_TIRevisionRateAnalysisSummary
++ __OBJC_METACLASS_RO_$_TITypologyPreferencesEnabledForTesting
++ __ZL13kTITokenIDUNK.11474
++ __ZL13kTITokenIDUNK.11638
++ __ZL13kTITokenIDUNK.11862
++ __ZL13kTITokenIDUNK.11955
++ __ZL13kTITokenIDUNK.19879
++ __ZL13kTITokenIDUNK.23114
++ __ZL17__testingInstance.14851
++ __ZN10applesauce2CF10convert_orINSt3__16vectorINS2_12basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEENS7_IS9_EEEELi0EEEu7__decayIT_EPK9__CFArrayOSC_
++ __ZN10applesauce2CF5at_orINS0_13DictionaryRefEEENSt3__111conditionalIXsr18converts_to_stringIT_EE5valueENS3_12basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEEu7__decayIS5_EE4typeEPK9__CFArraymOS5_
++ __ZN10applesauce2CF5at_orINS0_13DictionaryRefEPK10__CFStringEENSt3__111conditionalIXsr18converts_to_stringIT_EE5valueENS6_12basic_stringIcNS6_11char_traitsIcEENS6_9allocatorIcEEEEu7__decayIS8_EE4typeEPK14__CFDictionaryOT0_OS8_
++ __ZN10applesauce2CF5at_orINS0_13DictionaryRefERKPK10__CFStringEENSt3__111conditionalIXsr18converts_to_stringIT_EE5valueENS8_12basic_stringIcNS8_11char_traitsIcEENS8_9allocatorIcEEEEu7__decayISA_EE4typeEPK14__CFDictionaryOT0_OSA_
++ __ZN10applesauce2CF5at_orINS0_8ArrayRefERKPK10__CFStringEENSt3__111conditionalIXsr18converts_to_stringIT_EE5valueENS8_12basic_stringIcNS8_11char_traitsIcEENS8_9allocatorIcEEEEu7__decayISA_EE4typeEPK14__CFDictionaryOT0_OSA_
++ __ZN10applesauce2CF5at_orINSt3__16vectorINS2_12basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEENS7_IS9_EEEERKPK10__CFStringEENS2_11conditionalIXsr18converts_to_stringIT_EE5valueES9_u7__decayISI_EE4typeEPK14__CFDictionaryOT0_OSI_
++ __ZN10applesauce2CF5at_orIRA1_KcPK10__CFStringEENSt3__111conditionalIXsr18converts_to_stringIT_EE5valueENS8_12basic_stringIcNS8_11char_traitsIcEENS8_9allocatorIcEEEEu7__decayISA_EE4typeEPK14__CFDictionaryOT0_OSA_
++ __ZN10applesauce2CF5at_orIRA1_KcRKPK10__CFStringEENSt3__111conditionalIXsr18converts_to_stringIT_EE5valueENSA_12basic_stringIcNSA_11char_traitsIcEENSA_9allocatorIcEEEEu7__decayISC_EE4typeEPK14__CFDictionaryOT0_OSC_
++ __ZN10applesauce2CF7details17number_convert_asIbEENSt3__18optionalIT_EEPK10__CFNumber
++ __ZN10applesauce2CF7details17number_convert_asIdEENSt3__18optionalIT_EEPK10__CFNumber
++ __ZN10applesauce2CF7details17number_convert_asIfEENSt3__18optionalIT_EEPK10__CFNumber
++ __ZN10applesauce2CF7details17number_convert_asIiEENSt3__18optionalIT_EEPK10__CFNumber
++ __ZN10applesauce2CF7details17number_convert_asImEENSt3__18optionalIT_EEPK10__CFNumber
++ __ZN10applesauce2CF7details28treat_as_bool_for_convert_asIdEENSt3__18optionalIT_EEPK10__CFNumber
++ __ZN10applesauce2CF7details28treat_as_bool_for_convert_asIfEENSt3__18optionalIT_EEPK10__CFNumber
++ __ZN10applesauce2CF7details28treat_as_bool_for_convert_asIiEENSt3__18optionalIT_EEPK10__CFNumber
++ __ZN10applesauce2CF7details28treat_as_bool_for_convert_asImEENSt3__18optionalIT_EEPK10__CFNumber
++ __ZN17language_modeling2v117LinguisticContext12remove_firstEm
++ __ZN2KB23handle_missing_token_idEPK8_LXEntry
++ __ZN2KBL26k_invalid_likelihood_valueE.10173
++ __ZN2KBL26k_invalid_likelihood_valueE.10418
++ __ZN2KBL26k_invalid_likelihood_valueE.10448
++ __ZN2KBL26k_invalid_likelihood_valueE.11242
++ __ZN2KBL26k_invalid_likelihood_valueE.11451
++ __ZN2KBL26k_invalid_likelihood_valueE.11509
++ __ZN2KBL26k_invalid_likelihood_valueE.11973
++ __ZN2KBL26k_invalid_likelihood_valueE.12201
++ __ZN2KBL26k_invalid_likelihood_valueE.12427
++ __ZN2KBL26k_invalid_likelihood_valueE.12639
++ __ZN2KBL26k_invalid_likelihood_valueE.1288
++ __ZN2KBL26k_invalid_likelihood_valueE.14422
++ __ZN2KBL26k_invalid_likelihood_valueE.15059
++ __ZN2KBL26k_invalid_likelihood_valueE.15108
++ __ZN2KBL26k_invalid_likelihood_valueE.16679
++ __ZN2KBL26k_invalid_likelihood_valueE.16922
++ __ZN2KBL26k_invalid_likelihood_valueE.17324
++ __ZN2KBL26k_invalid_likelihood_valueE.17397
++ __ZN2KBL26k_invalid_likelihood_valueE.17463
++ __ZN2KBL26k_invalid_likelihood_valueE.17473
++ __ZN2KBL26k_invalid_likelihood_valueE.1802
++ __ZN2KBL26k_invalid_likelihood_valueE.18325
++ __ZN2KBL26k_invalid_likelihood_valueE.19880
++ __ZN2KBL26k_invalid_likelihood_valueE.19910
++ __ZN2KBL26k_invalid_likelihood_valueE.2504
++ __ZN2KBL26k_invalid_likelihood_valueE.3074
++ __ZN2KBL26k_invalid_likelihood_valueE.3416
++ __ZN2KBL26k_invalid_likelihood_valueE.3456
++ __ZN2KBL26k_invalid_likelihood_valueE.3672
++ __ZN2KBL26k_invalid_likelihood_valueE.3773
++ __ZN2KBL26k_invalid_likelihood_valueE.4269
++ __ZN2KBL26k_invalid_likelihood_valueE.4367
++ __ZN2KBL26k_invalid_likelihood_valueE.4761
++ __ZN2KBL26k_invalid_likelihood_valueE.4840
++ __ZN2KBL26k_invalid_likelihood_valueE.4845
++ __ZN2KBL26k_invalid_likelihood_valueE.4927
++ __ZN2KBL26k_invalid_likelihood_valueE.5119
++ __ZN2KBL26k_invalid_likelihood_valueE.5223
++ __ZN2KBL26k_invalid_likelihood_valueE.5982
++ __ZN2KBL26k_invalid_likelihood_valueE.7081
++ __ZN2KBL26k_invalid_likelihood_valueE.829
++ __ZN2KBL26k_invalid_likelihood_valueE.9522
++ __ZN2KBL26k_invalid_likelihood_valueE.9600
++ __ZNK2KB13LanguageModel16id_for_separatorEj
++ __ZNK2KB13LanguageModel19id_for_dynamic_wordEPK10__CFStringRKN3WTF6RefPtrINS_19DictionaryContainerEEE
++ __ZNK2KB16LanguageModelStr11completionsERKNSt3__16vectorINS_9CandidateENS1_9allocatorIS3_EEEERKNS_20LanguageModelContextENS1_8functionIFbRKNS_13LanguageModel14PredictionInfoERKS3_SB_EEENSC_IFbSI_EEENS_10LookupTypeE
++ __ZNK2KB16LanguageModelStr11predictionsERKNSt3__16vectorINS_9CandidateENS1_9allocatorIS3_EEEERKNS_20LanguageModelContextENS1_8functionIFbRKNS_13LanguageModel14PredictionInfoERKS3_SB_EEEb
++ __ZNK2KB21LanguageModelImplBase11completionsERKNSt3__16vectorINS_9CandidateENS1_9allocatorIS3_EEEERKNS_20LanguageModelContextENS1_8functionIFbRKNS_13LanguageModel14PredictionInfoERKS3_SB_EEENSC_IFbSI_EEENS_10LookupTypeE
++ __ZNK2KB21LanguageModelImplBase11predictionsERKNSt3__16vectorINS_9CandidateENS1_9allocatorIS3_EEEERKNS_20LanguageModelContextENS1_8functionIFbRKNS_13LanguageModel14PredictionInfoERKS3_SB_EEEb
++ __ZNK2KB21LanguageModelImplStub11completionsERKNSt3__16vectorINS_9CandidateENS1_9allocatorIS3_EEEERKNS_20LanguageModelContextENS1_8functionIFbRKNS_13LanguageModel14PredictionInfoERKS3_SB_EEENSC_IFbSI_EEENS_10LookupTypeE
++ __ZNK2KB21LanguageModelImplStub11predictionsERKNSt3__16vectorINS_9CandidateENS1_9allocatorIS3_EEEERKNS_20LanguageModelContextENS1_8functionIFbRKNS_13LanguageModel14PredictionInfoERKS3_SB_EEEb
++ __ZNK2KB22LanguageModelContainer11completionsERKNSt3__16vectorINS_9CandidateENS1_9allocatorIS3_EEEERKNS_20LanguageModelContextENS1_8functionIFbRKNS_13LanguageModel14PredictionInfoERKS3_SB_EEENSC_IFbSI_EEENS_10LookupTypeE
++ __ZNK2KB22LanguageModelContainer11predictionsERKNSt3__16vectorINS_9CandidateENS1_9allocatorIS3_EEEERKNS_20LanguageModelContextENS1_8functionIFbRKNS_13LanguageModel14PredictionInfoERKS3_SB_EEEb
++ __ZNK2KB22LanguageModelContainer19unified_predictionsERKNSt3__16vectorINS_9CandidateENS1_9allocatorIS3_EEEERKNS_20LanguageModelContextENS1_8functionIFbRKNS_13LanguageModel14PredictionInfoERKS3_SB_EEENSC_IFbS8_SB_SK_mEEE
++ __ZNK2KB22NgramCandidateRefinery32completions_for_completion_stemsERKNSt3__16vectorINS_9CandidateENS1_9allocatorIS3_EEEEfRKNS_20LanguageModelContextERNS_19CandidateCollectionENS_10LookupTypeE
++ __ZNK2KB24UnigramCandidateRefinery32completions_for_completion_stemsERKNSt3__16vectorINS_9CandidateENS1_9allocatorIS3_EEEEfRKNS_20LanguageModelContextERNS_19CandidateCollectionENS_10LookupTypeE
++ __ZNKSt3__110__function6__funcIZNK2KB16LanguageModelStr11completionsERKNS_6vectorINS2_9CandidateENS_9allocatorIS5_EEEERKNS2_20LanguageModelContextENS_8functionIFbRKNS2_13LanguageModel14PredictionInfoERKS5_SD_EEENSE_IFbSK_EEENS2_10LookupTypeEE3$_1NS6_ISQ_EESL_E7__cloneEPNS0_6__baseISL_EE
++ __ZNKSt3__110__function6__funcIZNK2KB16LanguageModelStr11completionsERKNS_6vectorINS2_9CandidateENS_9allocatorIS5_EEEERKNS2_20LanguageModelContextENS_8functionIFbRKNS2_13LanguageModel14PredictionInfoERKS5_SD_EEENSE_IFbSK_EEENS2_10LookupTypeEE3$_1NS6_ISQ_EESL_E7__cloneEv
++ __ZNKSt3__110__function6__funcIZNK2KB16LanguageModelStr11predictionsERKNS_6vectorINS2_9CandidateENS_9allocatorIS5_EEEERKNS2_20LanguageModelContextENS_8functionIFbRKNS2_13LanguageModel14PredictionInfoERKS5_SD_EEEbE3$_3NS6_ISN_EEFbRKN17language_modeling2v110PredictionEEE7__cloneEPNS0_6__baseISU_EE
++ __ZNKSt3__110__function6__funcIZNK2KB16LanguageModelStr11predictionsERKNS_6vectorINS2_9CandidateENS_9allocatorIS5_EEEERKNS2_20LanguageModelContextENS_8functionIFbRKNS2_13LanguageModel14PredictionInfoERKS5_SD_EEEbE3$_3NS6_ISN_EEFbRKN17language_modeling2v110PredictionEEE7__cloneEv
++ __ZNKSt3__110__function6__funcIZNK2KB16LanguageModelStr11predictionsERKNS_6vectorINS2_9CandidateENS_9allocatorIS5_EEEERKNS2_20LanguageModelContextENS_8functionIFbRKNS2_13LanguageModel14PredictionInfoERKS5_SD_EEEbE3$_4NS6_ISN_EEFvSI_EE7__cloneEPNS0_6__baseISP_EE
++ __ZNKSt3__110__function6__funcIZNK2KB16LanguageModelStr11predictionsERKNS_6vectorINS2_9CandidateENS_9allocatorIS5_EEEERKNS2_20LanguageModelContextENS_8functionIFbRKNS2_13LanguageModel14PredictionInfoERKS5_SD_EEEbE3$_4NS6_ISN_EEFvSI_EE7__cloneEv
++ __ZNKSt3__110__function6__funcIZNK2KB21LanguageModelImplStub11predictionsERKNS_6vectorINS2_9CandidateENS_9allocatorIS5_EEEERKNS2_20LanguageModelContextENS_8functionIFbRKNS2_13LanguageModel14PredictionInfoERKS5_SD_EEEbE3$_0NS6_ISN_EEFvSI_EE7__cloneEPNS0_6__baseISP_EE
++ __ZNKSt3__110__function6__funcIZNK2KB21LanguageModelImplStub11predictionsERKNS_6vectorINS2_9CandidateENS_9allocatorIS5_EEEERKNS2_20LanguageModelContextENS_8functionIFbRKNS2_13LanguageModel14PredictionInfoERKS5_SD_EEEbE3$_0NS6_ISN_EEFvSI_EE7__cloneEv
++ __ZNKSt3__110__function6__funcIZNK2KB22LanguageModelContainer11completionsERKNS_6vectorINS2_9CandidateENS_9allocatorIS5_EEEERKNS2_20LanguageModelContextENS_8functionIFbRKNS2_13LanguageModel14PredictionInfoERKS5_SD_EEENSE_IFbSK_EEENS2_10LookupTypeEE3$_6NS6_ISQ_EEFbSA_SD_SM_mEE7__cloneEPNS0_6__baseISS_EE
++ __ZNKSt3__110__function6__funcIZNK2KB22LanguageModelContainer11completionsERKNS_6vectorINS2_9CandidateENS_9allocatorIS5_EEEERKNS2_20LanguageModelContextENS_8functionIFbRKNS2_13LanguageModel14PredictionInfoERKS5_SD_EEENSE_IFbSK_EEENS2_10LookupTypeEE3$_6NS6_ISQ_EEFbSA_SD_SM_mEE7__cloneEv
++ __ZNKSt3__110__function6__funcIZNK2KB22LanguageModelContainer11predictionsERKNS_6vectorINS2_9CandidateENS_9allocatorIS5_EEEERKNS2_20LanguageModelContextENS_8functionIFbRKNS2_13LanguageModel14PredictionInfoERKS5_SD_EEEbE3$_5NS6_ISN_EEFbSA_SD_SM_mEE7__cloneEPNS0_6__baseISP_EE
++ __ZNKSt3__110__function6__funcIZNK2KB22LanguageModelContainer11predictionsERKNS_6vectorINS2_9CandidateENS_9allocatorIS5_EEEERKNS2_20LanguageModelContextENS_8functionIFbRKNS2_13LanguageModel14PredictionInfoERKS5_SD_EEEbE3$_5NS6_ISN_EEFbSA_SD_SM_mEE7__cloneEv
++ __ZNKSt3__110__function6__funcIZNK2KB22LanguageModelContainer19unified_predictionsERKNS_6vectorINS2_9CandidateENS_9allocatorIS5_EEEERKNS2_20LanguageModelContextENS_8functionIFbRKNS2_13LanguageModel14PredictionInfoERKS5_SD_EEENSE_IFbSA_SD_SM_mEEEE3$_7NS6_ISP_EESL_E7__cloneEPNS0_6__baseISL_EE
++ __ZNKSt3__110__function6__funcIZNK2KB22LanguageModelContainer19unified_predictionsERKNS_6vectorINS2_9CandidateENS_9allocatorIS5_EEEERKNS2_20LanguageModelContextENS_8functionIFbRKNS2_13LanguageModel14PredictionInfoERKS5_SD_EEENSE_IFbSA_SD_SM_mEEEE3$_7NS6_ISP_EESL_E7__cloneEv
++ __ZNKSt3__110__function6__funcIZNK2KB22NgramCandidateRefinery42completions_from_candidate_string_based_lmERKNS_6vectorINS2_9CandidateENS_9allocatorIS5_EEEERKNS2_20LanguageModelContextERNS2_19CandidateCollectionEfNS2_10LookupTypeEE3$_4NS6_ISH_EEFbRKNS2_13LanguageModel14PredictionInfoERKS5_SD_EE7__cloneEPNS0_6__baseISP_EE
++ __ZNKSt3__110__function6__funcIZNK2KB22NgramCandidateRefinery42completions_from_candidate_string_based_lmERKNS_6vectorINS2_9CandidateENS_9allocatorIS5_EEEERKNS2_20LanguageModelContextERNS2_19CandidateCollectionEfNS2_10LookupTypeEE3$_4NS6_ISH_EEFbRKNS2_13LanguageModel14PredictionInfoERKS5_SD_EE7__cloneEv
++ __ZNKSt3__110__function6__funcIZNK2KB22NgramCandidateRefinery42predictions_from_candidate_string_based_lmERKNS_6vectorINS2_9CandidateENS_9allocatorIS5_EEEERKNS2_20LanguageModelContextERNS2_19CandidateCollectionEE3$_2NS6_ISG_EEFbRKNS2_13LanguageModel14PredictionInfoERKS5_SD_EE7__cloneEPNS0_6__baseISO_EE
++ __ZNKSt3__110__function6__funcIZNK2KB22NgramCandidateRefinery42predictions_from_candidate_string_based_lmERKNS_6vectorINS2_9CandidateENS_9allocatorIS5_EEEERKNS2_20LanguageModelContextERNS2_19CandidateCollectionEE3$_2NS6_ISG_EEFbRKNS2_13LanguageModel14PredictionInfoERKS5_SD_EE7__cloneEv
++ __ZNKSt3__111__copy_loopINS_17_ClassicAlgPolicyEEclB8un170006IPKN2KB4WordES7_PS5_EENS_4pairIT_T1_EESA_T0_SB_
++ __ZNKSt3__111__copy_loopINS_17_ClassicAlgPolicyEEclB8un170006IPKN3WTF6RefPtrIN2TI8Favonius16TypingHypothesisEEESB_PS9_EENS_4pairIT_T1_EESE_T0_SF_
++ __ZNKSt3__111__copy_loopINS_17_ClassicAlgPolicyEEclB8un170006IPKN3WTF6RefPtrIN2TI8Favonius8KeyMatchEEESB_PS9_EENS_4pairIT_T1_EESE_T0_SF_
++ __ZNKSt3__111__copy_loopINS_17_ClassicAlgPolicyEEclB8un170006IPN2KB4WordES6_S6_EENS_4pairIT_T1_EES8_T0_S9_
++ __ZNKSt3__111__move_loopINS_17_ClassicAlgPolicyEEclB8un170006IPN2KB4WordES6_S6_EENS_4pairIT_T1_EES8_T0_S9_
++ __ZNKSt3__111__move_loopINS_17_ClassicAlgPolicyEEclB8un170006IPN3WTF6RefPtrIN2TI8Favonius10SearchNodeEEESA_SA_EENS_4pairIT_T1_EESC_T0_SD_
++ __ZNKSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE11starts_withB8un170006ENS_17basic_string_viewIcS2_EE
++ __ZNKSt3__114default_deleteIN2KB20LanguageModelContextEEclB8un170006EPS2_
++ __ZNKSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEE3strB8un170006IS4_EENS_12basic_stringIcS2_T_EERKS8_
++ __ZNKSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEE4viewB8un170006Ev
++ __ZNKSt3__117basic_string_viewIcNS_11char_traitsIcEEE7compareB8un170006EmmS3_
++ __ZNKSt3__120__move_backward_loopINS_17_ClassicAlgPolicyEEclB8un170006IPN2KB4WordES6_S6_EENS_4pairIT_T1_EES8_T0_S9_
++ __ZNKSt3__121__murmur2_or_cityhashImLm64EEclB8un170006EPKvm
++ __ZNKSt3__18equal_toINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEclB8un170006ERKS6_S9_
++ __ZNKSt3__18functionIFbRKNS_6vectorIN2KB9CandidateENS_9allocatorIS3_EEEERKNS2_20LanguageModelContextENS0_IFbRKNS2_13LanguageModel14PredictionInfoERKS3_SB_EEEmEEclES8_SB_SJ_m
++ __ZNSt3__110__function12__alloc_funcIZN2KB22NgramCandidateRefinery39inline_predictions_for_completion_stemsERKNS_6vectorINS2_9CandidateENS_9allocatorIS5_EEEERKNS2_20LanguageModelContextEbNS_8functionIFvRNS2_19CandidateCollectionERKS5_SD_bEEEE3$_1NS6_ISL_EEFvRKNS4_INS2_13LanguageModel14PredictionInfoENS6_ISO_EEEESI_SD_EE7destroyB8un170006Ev
++ __ZNSt3__110__function12__value_funcIFN2KB10ByteStringERKNS2_6StringEEEC2B8un170006ERKS8_
++ __ZNSt3__110__function12__value_funcIFN2KB10ByteStringERKNS2_6StringEEED2B8un170006Ev
++ __ZNSt3__110__function12__value_funcIFN2KB10ByteStringERKNS2_6StringEEEaSB8un170006EDn
++ __ZNSt3__110__function12__value_funcIFN2KB10ByteStringERKNS2_6StringEEEaSB8un170006EOS8_
++ __ZNSt3__110__function12__value_funcIFNS_10shared_ptrIN2KB15CandidateFilterEEEN10applesauce2CF13DictionaryRefERKNS3_28CandidateFilterConfigurationEEEC2B8un170006ERKSD_
++ __ZNSt3__110__function12__value_funcIFNS_10shared_ptrIN2KB15CandidateFilterEEEN10applesauce2CF13DictionaryRefERKNS3_28CandidateFilterConfigurationEEED2B8un170006Ev
++ __ZNSt3__110__function12__value_funcIFbRKN2KB13LanguageModel14PredictionInfoERKNS2_9CandidateERKNS2_20LanguageModelContextEEEC2B8un170006EOSE_
++ __ZNSt3__110__function12__value_funcIFbRKN2KB13LanguageModel14PredictionInfoERKNS2_9CandidateERKNS2_20LanguageModelContextEEEC2B8un170006ERKSE_
++ __ZNSt3__110__function12__value_funcIFbRKN2KB13LanguageModel14PredictionInfoERKNS2_9CandidateERKNS2_20LanguageModelContextEEED2B8un170006Ev
++ __ZNSt3__110__function12__value_funcIFbRKN2KB9CandidateEEED2B8un170006Ev
++ __ZNSt3__110__function12__value_funcIFbRKN2KB9CandidateEPNS2_6StringEEEC2B8un170006ERKS9_
++ __ZNSt3__110__function12__value_funcIFbRKN2KB9CandidateEPNS2_6StringEEED2B8un170006Ev
++ __ZNSt3__110__function12__value_funcIFbRKNS_6vectorIN2KB9CandidateENS_9allocatorIS4_EEEERKNS3_20LanguageModelContextENS_8functionIFbRKNS3_13LanguageModel14PredictionInfoERKS4_SC_EEEmEED2B8un170006Ev
++ __ZNSt3__110__function12__value_funcIFbRN2KB9CandidateES4_RKNS2_28CandidateFilterLookupContextERKNS2_24CandidateFilterResourcesEEED2B8un170006Ev
++ __ZNSt3__110__function12__value_funcIFbjjEED2B8un170006Ev
++ __ZNSt3__110__function12__value_funcIFdjEED2B8un170006Ev
++ __ZNSt3__110__function12__value_funcIFiRKN2KB6StringES5_EEC2B8un170006ERKS7_
++ __ZNSt3__110__function12__value_funcIFiRKN2KB6StringES5_EED2B8un170006Ev
++ __ZNSt3__110__function12__value_funcIFiRKN2KB6StringES5_EEaSB8un170006EDn
++ __ZNSt3__110__function12__value_funcIFiRKN2KB6StringES5_EEaSB8un170006EOS7_
++ __ZNSt3__110__function12__value_funcIFvRKN2KB13LanguageModel14PredictionInfoEEED2B8un170006Ev
++ __ZNSt3__110__function12__value_funcIFvRKN3WTF6RefPtrIN2TI8Favonius9LayoutKeyEEEEED2B8un170006Ev
++ __ZNSt3__110__function12__value_funcIFvRKNS_6vectorI18TIInlineCompletionNS_9allocatorIS3_EEEERKN2KB20LanguageModelContextEEEC2B8un170006ERKSE_
++ __ZNSt3__110__function12__value_funcIFvRKNS_6vectorI18TIInlineCompletionNS_9allocatorIS3_EEEERKN2KB20LanguageModelContextEEED2B8un170006Ev
++ __ZNSt3__110__function12__value_funcIFvRKNS_6vectorIN2KB13LanguageModel14PredictionInfoENS_9allocatorIS5_EEEERKNS3_9CandidateERKNS3_20LanguageModelContextEEEC2B8un170006ERKSI_
++ __ZNSt3__110__function12__value_funcIFvRKNS_6vectorIN2KB13LanguageModel14PredictionInfoENS_9allocatorIS5_EEEERKNS3_9CandidateERKNS3_20LanguageModelContextEEED2B8un170006Ev
++ __ZNSt3__110__function12__value_funcIFvRN2KB19CandidateCollectionENS2_20CandidateFilterFlagsEbEED2B8un170006Ev
++ __ZNSt3__110__function12__value_funcIFvRN2KB19CandidateCollectionERKNS2_9CandidateERKNS2_20LanguageModelContextEbEEC2B8un170006ERKSC_
++ __ZNSt3__110__function12__value_funcIFvRN2KB19CandidateCollectionERKNS2_9CandidateERKNS2_20LanguageModelContextEbEED2B8un170006Ev
++ __ZNSt3__110__function12__value_funcIFvRN2KB9CandidateEfEED2B8un170006Ev
++ __ZNSt3__110__function12__value_funcIFvmRKdEED2B8un170006Ev
++ __ZNSt3__110__function12__value_funcIFvmmRKdEEC2B8un170006ERKS5_
++ __ZNSt3__110__function12__value_funcIFvmmRKdEED2B8un170006Ev
++ __ZNSt3__110__function6__funcIZNK2KB16LanguageModelStr11completionsERKNS_6vectorINS2_9CandidateENS_9allocatorIS5_EEEERKNS2_20LanguageModelContextENS_8functionIFbRKNS2_13LanguageModel14PredictionInfoERKS5_SD_EEENSE_IFbSK_EEENS2_10LookupTypeEE3$_1NS6_ISQ_EESL_E18destroy_deallocateEv
++ __ZNSt3__110__function6__funcIZNK2KB16LanguageModelStr11completionsERKNS_6vectorINS2_9CandidateENS_9allocatorIS5_EEEERKNS2_20LanguageModelContextENS_8functionIFbRKNS2_13LanguageModel14PredictionInfoERKS5_SD_EEENSE_IFbSK_EEENS2_10LookupTypeEE3$_1NS6_ISQ_EESL_E7destroyEv
++ __ZNSt3__110__function6__funcIZNK2KB16LanguageModelStr11completionsERKNS_6vectorINS2_9CandidateENS_9allocatorIS5_EEEERKNS2_20LanguageModelContextENS_8functionIFbRKNS2_13LanguageModel14PredictionInfoERKS5_SD_EEENSE_IFbSK_EEENS2_10LookupTypeEE3$_1NS6_ISQ_EESL_ED0Ev
++ __ZNSt3__110__function6__funcIZNK2KB16LanguageModelStr11completionsERKNS_6vectorINS2_9CandidateENS_9allocatorIS5_EEEERKNS2_20LanguageModelContextENS_8functionIFbRKNS2_13LanguageModel14PredictionInfoERKS5_SD_EEENSE_IFbSK_EEENS2_10LookupTypeEE3$_1NS6_ISQ_EESL_ED1Ev
++ __ZNSt3__110__function6__funcIZNK2KB16LanguageModelStr11completionsERKNS_6vectorINS2_9CandidateENS_9allocatorIS5_EEEERKNS2_20LanguageModelContextENS_8functionIFbRKNS2_13LanguageModel14PredictionInfoERKS5_SD_EEENSE_IFbSK_EEENS2_10LookupTypeEE3$_1NS6_ISQ_EESL_EclESI_SK_SD_
++ __ZNSt3__110__function6__funcIZNK2KB16LanguageModelStr11predictionsERKNS_6vectorINS2_9CandidateENS_9allocatorIS5_EEEERKNS2_20LanguageModelContextENS_8functionIFbRKNS2_13LanguageModel14PredictionInfoERKS5_SD_EEEbE3$_3NS6_ISN_EEFbRKN17language_modeling2v110PredictionEEE18destroy_deallocateEv
++ __ZNSt3__110__function6__funcIZNK2KB16LanguageModelStr11predictionsERKNS_6vectorINS2_9CandidateENS_9allocatorIS5_EEEERKNS2_20LanguageModelContextENS_8functionIFbRKNS2_13LanguageModel14PredictionInfoERKS5_SD_EEEbE3$_3NS6_ISN_EEFbRKN17language_modeling2v110PredictionEEE7destroyEv
++ __ZNSt3__110__function6__funcIZNK2KB16LanguageModelStr11predictionsERKNS_6vectorINS2_9CandidateENS_9allocatorIS5_EEEERKNS2_20LanguageModelContextENS_8functionIFbRKNS2_13LanguageModel14PredictionInfoERKS5_SD_EEEbE3$_3NS6_ISN_EEFbRKN17language_modeling2v110PredictionEEED0Ev
++ __ZNSt3__110__function6__funcIZNK2KB16LanguageModelStr11predictionsERKNS_6vectorINS2_9CandidateENS_9allocatorIS5_EEEERKNS2_20LanguageModelContextENS_8functionIFbRKNS2_13LanguageModel14PredictionInfoERKS5_SD_EEEbE3$_3NS6_ISN_EEFbRKN17language_modeling2v110PredictionEEED1Ev
++ __ZNSt3__110__function6__funcIZNK2KB16LanguageModelStr11predictionsERKNS_6vectorINS2_9CandidateENS_9allocatorIS5_EEEERKNS2_20LanguageModelContextENS_8functionIFbRKNS2_13LanguageModel14PredictionInfoERKS5_SD_EEEbE3$_3NS6_ISN_EEFbRKN17language_modeling2v110PredictionEEEclEST_
++ __ZNSt3__110__function6__funcIZNK2KB16LanguageModelStr11predictionsERKNS_6vectorINS2_9CandidateENS_9allocatorIS5_EEEERKNS2_20LanguageModelContextENS_8functionIFbRKNS2_13LanguageModel14PredictionInfoERKS5_SD_EEEbE3$_4NS6_ISN_EEFvSI_EE18destroy_deallocateEv
++ __ZNSt3__110__function6__funcIZNK2KB16LanguageModelStr11predictionsERKNS_6vectorINS2_9CandidateENS_9allocatorIS5_EEEERKNS2_20LanguageModelContextENS_8functionIFbRKNS2_13LanguageModel14PredictionInfoERKS5_SD_EEEbE3$_4NS6_ISN_EEFvSI_EE7destroyEv
++ __ZNSt3__110__function6__funcIZNK2KB16LanguageModelStr11predictionsERKNS_6vectorINS2_9CandidateENS_9allocatorIS5_EEEERKNS2_20LanguageModelContextENS_8functionIFbRKNS2_13LanguageModel14PredictionInfoERKS5_SD_EEEbE3$_4NS6_ISN_EEFvSI_EED0Ev
++ __ZNSt3__110__function6__funcIZNK2KB16LanguageModelStr11predictionsERKNS_6vectorINS2_9CandidateENS_9allocatorIS5_EEEERKNS2_20LanguageModelContextENS_8functionIFbRKNS2_13LanguageModel14PredictionInfoERKS5_SD_EEEbE3$_4NS6_ISN_EEFvSI_EED1Ev
++ __ZNSt3__110__function6__funcIZNK2KB16LanguageModelStr11predictionsERKNS_6vectorINS2_9CandidateENS_9allocatorIS5_EEEERKNS2_20LanguageModelContextENS_8functionIFbRKNS2_13LanguageModel14PredictionInfoERKS5_SD_EEEbE3$_4NS6_ISN_EEFvSI_EEclESI_
++ __ZNSt3__110__function6__funcIZNK2KB21LanguageModelImplStub11predictionsERKNS_6vectorINS2_9CandidateENS_9allocatorIS5_EEEERKNS2_20LanguageModelContextENS_8functionIFbRKNS2_13LanguageModel14PredictionInfoERKS5_SD_EEEbE3$_0NS6_ISN_EEFvSI_EE18destroy_deallocateEv
++ __ZNSt3__110__function6__funcIZNK2KB21LanguageModelImplStub11predictionsERKNS_6vectorINS2_9CandidateENS_9allocatorIS5_EEEERKNS2_20LanguageModelContextENS_8functionIFbRKNS2_13LanguageModel14PredictionInfoERKS5_SD_EEEbE3$_0NS6_ISN_EEFvSI_EE7destroyEv
++ __ZNSt3__110__function6__funcIZNK2KB21LanguageModelImplStub11predictionsERKNS_6vectorINS2_9CandidateENS_9allocatorIS5_EEEERKNS2_20LanguageModelContextENS_8functionIFbRKNS2_13LanguageModel14PredictionInfoERKS5_SD_EEEbE3$_0NS6_ISN_EEFvSI_EED0Ev
++ __ZNSt3__110__function6__funcIZNK2KB21LanguageModelImplStub11predictionsERKNS_6vectorINS2_9CandidateENS_9allocatorIS5_EEEERKNS2_20LanguageModelContextENS_8functionIFbRKNS2_13LanguageModel14PredictionInfoERKS5_SD_EEEbE3$_0NS6_ISN_EEFvSI_EED1Ev
++ __ZNSt3__110__function6__funcIZNK2KB21LanguageModelImplStub11predictionsERKNS_6vectorINS2_9CandidateENS_9allocatorIS5_EEEERKNS2_20LanguageModelContextENS_8functionIFbRKNS2_13LanguageModel14PredictionInfoERKS5_SD_EEEbE3$_0NS6_ISN_EEFvSI_EEclESI_
++ __ZNSt3__110__function6__funcIZNK2KB22LanguageModelContainer11completionsERKNS_6vectorINS2_9CandidateENS_9allocatorIS5_EEEERKNS2_20LanguageModelContextENS_8functionIFbRKNS2_13LanguageModel14PredictionInfoERKS5_SD_EEENSE_IFbSK_EEENS2_10LookupTypeEE3$_6NS6_ISQ_EEFbSA_SD_SM_mEE18destroy_deallocateEv
++ __ZNSt3__110__function6__funcIZNK2KB22LanguageModelContainer11completionsERKNS_6vectorINS2_9CandidateENS_9allocatorIS5_EEEERKNS2_20LanguageModelContextENS_8functionIFbRKNS2_13LanguageModel14PredictionInfoERKS5_SD_EEENSE_IFbSK_EEENS2_10LookupTypeEE3$_6NS6_ISQ_EEFbSA_SD_SM_mEE7destroyEv
++ __ZNSt3__110__function6__funcIZNK2KB22LanguageModelContainer11completionsERKNS_6vectorINS2_9CandidateENS_9allocatorIS5_EEEERKNS2_20LanguageModelContextENS_8functionIFbRKNS2_13LanguageModel14PredictionInfoERKS5_SD_EEENSE_IFbSK_EEENS2_10LookupTypeEE3$_6NS6_ISQ_EEFbSA_SD_SM_mEED0Ev
++ __ZNSt3__110__function6__funcIZNK2KB22LanguageModelContainer11completionsERKNS_6vectorINS2_9CandidateENS_9allocatorIS5_EEEERKNS2_20LanguageModelContextENS_8functionIFbRKNS2_13LanguageModel14PredictionInfoERKS5_SD_EEENSE_IFbSK_EEENS2_10LookupTypeEE3$_6NS6_ISQ_EEFbSA_SD_SM_mEED1Ev
++ __ZNSt3__110__function6__funcIZNK2KB22LanguageModelContainer11completionsERKNS_6vectorINS2_9CandidateENS_9allocatorIS5_EEEERKNS2_20LanguageModelContextENS_8functionIFbRKNS2_13LanguageModel14PredictionInfoERKS5_SD_EEENSE_IFbSK_EEENS2_10LookupTypeEE3$_6NS6_ISQ_EEFbSA_SD_SM_mEEclESA_SD_OSM_Om
++ __ZNSt3__110__function6__funcIZNK2KB22LanguageModelContainer11predictionsERKNS_6vectorINS2_9CandidateENS_9allocatorIS5_EEEERKNS2_20LanguageModelContextENS_8functionIFbRKNS2_13LanguageModel14PredictionInfoERKS5_SD_EEEbE3$_5NS6_ISN_EEFbSA_SD_SM_mEE18destroy_deallocateEv
++ __ZNSt3__110__function6__funcIZNK2KB22LanguageModelContainer11predictionsERKNS_6vectorINS2_9CandidateENS_9allocatorIS5_EEEERKNS2_20LanguageModelContextENS_8functionIFbRKNS2_13LanguageModel14PredictionInfoERKS5_SD_EEEbE3$_5NS6_ISN_EEFbSA_SD_SM_mEE7destroyEv
++ __ZNSt3__110__function6__funcIZNK2KB22LanguageModelContainer11predictionsERKNS_6vectorINS2_9CandidateENS_9allocatorIS5_EEEERKNS2_20LanguageModelContextENS_8functionIFbRKNS2_13LanguageModel14PredictionInfoERKS5_SD_EEEbE3$_5NS6_ISN_EEFbSA_SD_SM_mEED0Ev
++ __ZNSt3__110__function6__funcIZNK2KB22LanguageModelContainer11predictionsERKNS_6vectorINS2_9CandidateENS_9allocatorIS5_EEEERKNS2_20LanguageModelContextENS_8functionIFbRKNS2_13LanguageModel14PredictionInfoERKS5_SD_EEEbE3$_5NS6_ISN_EEFbSA_SD_SM_mEED1Ev
++ __ZNSt3__110__function6__funcIZNK2KB22LanguageModelContainer11predictionsERKNS_6vectorINS2_9CandidateENS_9allocatorIS5_EEEERKNS2_20LanguageModelContextENS_8functionIFbRKNS2_13LanguageModel14PredictionInfoERKS5_SD_EEEbE3$_5NS6_ISN_EEFbSA_SD_SM_mEEclESA_SD_OSM_Om
++ __ZNSt3__110__function6__funcIZNK2KB22LanguageModelContainer19unified_predictionsERKNS_6vectorINS2_9CandidateENS_9allocatorIS5_EEEERKNS2_20LanguageModelContextENS_8functionIFbRKNS2_13LanguageModel14PredictionInfoERKS5_SD_EEENSE_IFbSA_SD_SM_mEEEE3$_7NS6_ISP_EESL_E18destroy_deallocateEv
++ __ZNSt3__110__function6__funcIZNK2KB22LanguageModelContainer19unified_predictionsERKNS_6vectorINS2_9CandidateENS_9allocatorIS5_EEEERKNS2_20LanguageModelContextENS_8functionIFbRKNS2_13LanguageModel14PredictionInfoERKS5_SD_EEENSE_IFbSA_SD_SM_mEEEE3$_7NS6_ISP_EESL_E7destroyEv
++ __ZNSt3__110__function6__funcIZNK2KB22LanguageModelContainer19unified_predictionsERKNS_6vectorINS2_9CandidateENS_9allocatorIS5_EEEERKNS2_20LanguageModelContextENS_8functionIFbRKNS2_13LanguageModel14PredictionInfoERKS5_SD_EEENSE_IFbSA_SD_SM_mEEEE3$_7NS6_ISP_EESL_ED0Ev
++ __ZNSt3__110__function6__funcIZNK2KB22LanguageModelContainer19unified_predictionsERKNS_6vectorINS2_9CandidateENS_9allocatorIS5_EEEERKNS2_20LanguageModelContextENS_8functionIFbRKNS2_13LanguageModel14PredictionInfoERKS5_SD_EEENSE_IFbSA_SD_SM_mEEEE3$_7NS6_ISP_EESL_ED1Ev
++ __ZNSt3__110__function6__funcIZNK2KB22LanguageModelContainer19unified_predictionsERKNS_6vectorINS2_9CandidateENS_9allocatorIS5_EEEERKNS2_20LanguageModelContextENS_8functionIFbRKNS2_13LanguageModel14PredictionInfoERKS5_SD_EEENSE_IFbSA_SD_SM_mEEEE3$_7NS6_ISP_EESL_EclESI_SK_SD_
++ __ZNSt3__110__function6__funcIZNK2KB22NgramCandidateRefinery42completions_from_candidate_string_based_lmERKNS_6vectorINS2_9CandidateENS_9allocatorIS5_EEEERKNS2_20LanguageModelContextERNS2_19CandidateCollectionEfNS2_10LookupTypeEE3$_4NS6_ISH_EEFbRKNS2_13LanguageModel14PredictionInfoERKS5_SD_EE18destroy_deallocateEv
++ __ZNSt3__110__function6__funcIZNK2KB22NgramCandidateRefinery42completions_from_candidate_string_based_lmERKNS_6vectorINS2_9CandidateENS_9allocatorIS5_EEEERKNS2_20LanguageModelContextERNS2_19CandidateCollectionEfNS2_10LookupTypeEE3$_4NS6_ISH_EEFbRKNS2_13LanguageModel14PredictionInfoERKS5_SD_EE7destroyEv
++ __ZNSt3__110__function6__funcIZNK2KB22NgramCandidateRefinery42completions_from_candidate_string_based_lmERKNS_6vectorINS2_9CandidateENS_9allocatorIS5_EEEERKNS2_20LanguageModelContextERNS2_19CandidateCollectionEfNS2_10LookupTypeEE3$_4NS6_ISH_EEFbRKNS2_13LanguageModel14PredictionInfoERKS5_SD_EED0Ev
++ __ZNSt3__110__function6__funcIZNK2KB22NgramCandidateRefinery42completions_from_candidate_string_based_lmERKNS_6vectorINS2_9CandidateENS_9allocatorIS5_EEEERKNS2_20LanguageModelContextERNS2_19CandidateCollectionEfNS2_10LookupTypeEE3$_4NS6_ISH_EEFbRKNS2_13LanguageModel14PredictionInfoERKS5_SD_EED1Ev
++ __ZNSt3__110__function6__funcIZNK2KB22NgramCandidateRefinery42completions_from_candidate_string_based_lmERKNS_6vectorINS2_9CandidateENS_9allocatorIS5_EEEERKNS2_20LanguageModelContextERNS2_19CandidateCollectionEfNS2_10LookupTypeEE3$_4NS6_ISH_EEFbRKNS2_13LanguageModel14PredictionInfoERKS5_SD_EEclESM_SO_SD_
++ __ZNSt3__110__function6__funcIZNK2KB22NgramCandidateRefinery42predictions_from_candidate_string_based_lmERKNS_6vectorINS2_9CandidateENS_9allocatorIS5_EEEERKNS2_20LanguageModelContextERNS2_19CandidateCollectionEE3$_2NS6_ISG_EEFbRKNS2_13LanguageModel14PredictionInfoERKS5_SD_EE18destroy_deallocateEv
++ __ZNSt3__110__function6__funcIZNK2KB22NgramCandidateRefinery42predictions_from_candidate_string_based_lmERKNS_6vectorINS2_9CandidateENS_9allocatorIS5_EEEERKNS2_20LanguageModelContextERNS2_19CandidateCollectionEE3$_2NS6_ISG_EEFbRKNS2_13LanguageModel14PredictionInfoERKS5_SD_EE7destroyEv
++ __ZNSt3__110__function6__funcIZNK2KB22NgramCandidateRefinery42predictions_from_candidate_string_based_lmERKNS_6vectorINS2_9CandidateENS_9allocatorIS5_EEEERKNS2_20LanguageModelContextERNS2_19CandidateCollectionEE3$_2NS6_ISG_EEFbRKNS2_13LanguageModel14PredictionInfoERKS5_SD_EED0Ev
++ __ZNSt3__110__function6__funcIZNK2KB22NgramCandidateRefinery42predictions_from_candidate_string_based_lmERKNS_6vectorINS2_9CandidateENS_9allocatorIS5_EEEERKNS2_20LanguageModelContextERNS2_19CandidateCollectionEE3$_2NS6_ISG_EEFbRKNS2_13LanguageModel14PredictionInfoERKS5_SD_EED1Ev
++ __ZNSt3__110__function6__funcIZNK2KB22NgramCandidateRefinery42predictions_from_candidate_string_based_lmERKNS_6vectorINS2_9CandidateENS_9allocatorIS5_EEEERKNS2_20LanguageModelContextERNS2_19CandidateCollectionEE3$_2NS6_ISG_EEFbRKNS2_13LanguageModel14PredictionInfoERKS5_SD_EEclESL_SN_SD_
++ __ZNSt3__110__pop_heapB8un170006INS_17_ClassicAlgPolicyEU13block_pointerFbRKN3WTF6RefPtrIN2TI8Favonius16TypingHypothesisEEES9_EPS7_EEvT1_SD_RT0_NS_15iterator_traitsISD_E15difference_typeE
++ __ZNSt3__110shared_ptrI31TIInlineCompletionGeneratorImplE18__enable_weak_thisB8un170006IS1_S1_vEEvPKNS_23enable_shared_from_thisIT_EEPT0_
++ __ZNSt3__110shared_ptrI33TIInlineCompletionEventDispatcherEC2B8un170006IS1_vEERKNS_8weak_ptrIT_EE
++ __ZNSt3__110shared_ptrI9UCollatorED1B8un170006Ev
++ __ZNSt3__110shared_ptrIN2TI2CP16SearchNodeSourceEEC2B8un170006IS3_vEERKNS_8weak_ptrIT_EE
++ __ZNSt3__110shared_ptrIN2TI2CP18SearchNodeKeyMatchEE18__enable_weak_thisB8un170006INS2_16SearchNodeSourceES3_vEEvPKNS_23enable_shared_from_thisIT_EEPT0_
++ __ZNSt3__110shared_ptrIN2TI2CP33SearchNodeTranspositionExtensionsEE18__enable_weak_thisB8un170006INS2_16SearchNodeSourceES3_vEEvPKNS_23enable_shared_from_thisIT_EEPT0_
++ __ZNSt3__110unique_ptrIN10applesauce2CF13DictionaryRefERNS_12__destruct_nEE5resetB8un170006EPS3_
++ __ZNSt3__110unique_ptrIN17language_modeling2v120LanguageModelSessionENS_14default_deleteIS3_EEE5resetB8un170006EPS3_
++ __ZNSt3__110unique_ptrIN2KB10WeakHolderENS_14default_deleteIS2_EEE5resetB8un170006EPS2_
++ __ZNSt3__110unique_ptrIN2KB16StaticDictionaryENS_14default_deleteIS2_EEE5resetB8un170006EPS2_
++ __ZNSt3__110unique_ptrIN2TI18RejectionsDatabaseENS_14default_deleteIS2_EEE5resetB8un170006EPS2_
++ __ZNSt3__110unique_ptrINS_11__hash_nodeIN2KB6StringEPvEENS_22__hash_node_destructorINS_9allocatorIS5_EEEEE5resetB8un170006EPS5_
++ __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeIN2KB6StringEjEEPvEENS_22__hash_node_destructorINS_9allocatorIS7_EEEEE5resetB8un170006EPS7_
++ __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeIN2TI2CP20TIPathRecognizerTypeEN2KB19CandidateCollectionEEEPvEENS_22__hash_node_destructorINS_9allocatorISA_EEEEE5resetB8un170006EPSA_
++ __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN2TI2CP11ShapeRecordEEEPvEENS_22__hash_node_destructorINS6_ISE_EEEEE5resetB8un170006EPSE_
++ __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrIN2TI11ShortMemoryEEEEEPvEENS_22__hash_node_destructorINS6_ISF_EEEEE5resetB8un170006EPSF_
++ __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_8weak_ptrIN2KB21LanguageModelImplStub13WrapperHandleEEEEEPvEENS_22__hash_node_destructorINS6_ISG_EEEEE5resetB8un170006EPSG_
++ __ZNSt3__110unique_ptrINS_11__tree_nodeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_7variantIJN17language_modeling2v111SessionTypeES8_EEEEEPvEENS_22__tree_node_destructorINS6_ISG_EEEEE5resetB8un170006EPSG_
++ __ZNSt3__110unique_ptrINS_11__tree_nodeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_7variantIJbS8_EEEEEPvEENS_22__tree_node_destructorINS6_ISD_EEEEE5resetB8un170006EPSD_
++ __ZNSt3__110unique_ptrINS_11__tree_nodeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES8_EEPvEENS_22__tree_node_destructorINS6_ISB_EEEEE5resetB8un170006EPSB_
++ __ZNSt3__110unique_ptrINS_13unordered_mapINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_8functionIFNS_10shared_ptrIN2KB15CandidateFilterEEEN10applesauce2CF13DictionaryRefERKNSA_28CandidateFilterConfigurationEEEENS_4hashIS7_EENS_8equal_toIS7_EENS5_INS_4pairIKS7_SK_EEEEEENS_14default_deleteIST_EEE5resetB8un170006EPST_
++ __ZNSt3__110unique_ptrINS_13unordered_mapINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_8functionIFNS_10shared_ptrIN2KB15CandidateFilterEEEN10applesauce2CF13DictionaryRefERKNSA_28CandidateFilterConfigurationEEEENS_4hashIS7_EENS_8equal_toIS7_EENS5_INS_4pairIKS7_SK_EEEEEENS_14default_deleteIST_EEED1B8un170006Ev
++ __ZNSt3__111__find_implB8un170006IPKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES8_S6_NS_10__identityEEET_SA_T0_RKT1_RT2_
++ __ZNSt3__111__introsortINS_17_ClassicAlgPolicyERN2TI8Favonius28SearchNodeLanguageExtensions25LetterExtensionComparatorEPN3WTF6RefPtrINS3_16TypingHypothesisEEELb0EEEvT1_SC_T0_NS_15iterator_traitsISC_E15difference_typeEb
++ __ZNSt3__111__introsortINS_17_ClassicAlgPolicyERN2TI8Favonius40SearchNodeLanguageThenGeometryExtensions25LetterExtensionComparatorEPN3WTF6RefPtrINS3_16TypingHypothesisEEELb0EEEvT1_SC_T0_NS_15iterator_traitsISC_E15difference_typeEb
++ __ZNSt3__111__introsortINS_17_ClassicAlgPolicyERNS_6__lessIvvEEPN2KB9CandidateELb0EEEvT1_S8_T0_NS_15iterator_traitsIS8_E15difference_typeEb
++ __ZNSt3__111__introsortINS_17_ClassicAlgPolicyERNS_7greaterIvEEPN2TI11ShortMemory10WordRecordELb0EEEvT1_S9_T0_NS_15iterator_traitsIS9_E15difference_typeEb
++ __ZNSt3__111__introsortINS_17_ClassicAlgPolicyERU13block_pointerFbRKN2KB9CandidateES5_EPS3_Lb0EEEvT1_SA_T0_NS_15iterator_traitsISA_E15difference_typeEb
++ __ZNSt3__111__introsortINS_17_ClassicAlgPolicyERU13block_pointerFbRKN3WTF6RefPtrIN2TI8Favonius10SearchNodeEEES9_EPS7_Lb0EEEvT1_SE_T0_NS_15iterator_traitsISE_E15difference_typeEb
++ __ZNSt3__111__introsortINS_17_ClassicAlgPolicyERU13block_pointerFbRKN3WTF6RefPtrIN2TI8Favonius16TypingHypothesisEEES9_EPS7_Lb0EEEvT1_SE_T0_NS_15iterator_traitsISE_E15difference_typeEb
++ __ZNSt3__111__introsortINS_17_ClassicAlgPolicyERU13block_pointerFbRKN3WTF6RefPtrIN2TI8Favonius8KeyMatchEEES9_EPS7_Lb0EEEvT1_SE_T0_NS_15iterator_traitsISE_E15difference_typeEb
++ __ZNSt3__111__introsortINS_17_ClassicAlgPolicyERU13block_pointerFbRKN3WTF6RefPtrIN2TI8Favonius9LayoutKeyEEES9_EPS7_Lb0EEEvT1_SE_T0_NS_15iterator_traitsISE_E15difference_typeEb
++ __ZNSt3__111__introsortINS_17_ClassicAlgPolicyERU8__strongU13block_pointerFbRKN3WTF6RefPtrIN2TI8Favonius16TypingHypothesisEEES9_EPS7_Lb0EEEvT1_SF_T0_NS_15iterator_traitsISF_E15difference_typeEb
++ __ZNSt3__111__introsortINS_17_ClassicAlgPolicyERZN2KB19CandidateCollection18sort_by_word_scoreEvE3$_3PNS2_9CandidateELb0EEEvT1_S8_T0_NS_15iterator_traitsIS8_E15difference_typeEb
++ __ZNSt3__111__introsortINS_17_ClassicAlgPolicyERZN2KB19CandidateCollection4sortEvE3$_2PNS2_9CandidateELb0EEEvT1_S8_T0_NS_15iterator_traitsIS8_E15difference_typeEb
++ __ZNSt3__111__introsortINS_17_ClassicAlgPolicyERZN2TI2CP28SearchNodeLanguageExtensions23decrease_bound_on_scoreEvE3$_0PN3WTF6RefPtrINS2_8Favonius16TypingHypothesisEEELb0EEEvT1_SD_T0_NS_15iterator_traitsISD_E15difference_typeEb
++ __ZNSt3__111__introsortINS_17_ClassicAlgPolicyERZN2TI2CP33SearchNodeKeyPredictionExtensions23decrease_bound_on_scoreEvE3$_1PN3WTF6RefPtrINS2_8Favonius16TypingHypothesisEEELb0EEEvT1_SD_T0_NS_15iterator_traitsISD_E15difference_typeEb
++ __ZNSt3__111__introsortINS_17_ClassicAlgPolicyERZNK2KB16LanguageModelStr11completionsERKNS_6vectorINS2_9CandidateENS_9allocatorIS5_EEEERKNS2_20LanguageModelContextENS_8functionIFbRKNS2_13LanguageModel14PredictionInfoERKS5_SD_EEENSE_IFbSK_EEENS2_10LookupTypeEE3$_0PS5_Lb0EEEvT1_ST_T0_NS_15iterator_traitsIST_E15difference_typeEb
++ __ZNSt3__111__introsortINS_17_ClassicAlgPolicyERZNK2KB22LanguageModelContainer11predictionsERKNS2_20LanguageModelContextEmNS_8functionIFvRKNS2_13LanguageModel14PredictionInfoEEEEE3$_4PS9_Lb0EEEvT1_SH_T0_NS_15iterator_traitsISH_E15difference_typeEb
++ __ZNSt3__111__sift_downB8un170006INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPN2KB9CandidateEEEvT1_OT0_NS_15iterator_traitsIS8_E15difference_typeES8_
++ __ZNSt3__111__sift_downB8un170006INS_17_ClassicAlgPolicyERU13block_pointerFbRKN2KB9CandidateES5_EPS3_EEvT1_OT0_NS_15iterator_traitsISA_E15difference_typeESA_
++ __ZNSt3__111__sift_downB8un170006INS_17_ClassicAlgPolicyERU13block_pointerFbRKN3WTF6RefPtrIN2TI8Favonius16TypingHypothesisEEES9_EPS7_EEvT1_OT0_NS_15iterator_traitsISE_E15difference_typeESE_
++ __ZNSt3__111__sift_downB8un170006INS_17_ClassicAlgPolicyERU13block_pointerFbRKN3WTF6RefPtrIN2TI8Favonius8KeyMatchEEES9_EPS7_EEvT1_OT0_NS_15iterator_traitsISE_E15difference_typeESE_
++ __ZNSt3__111__sift_downB8un170006INS_17_ClassicAlgPolicyERZN2KB19CandidateCollection18sort_by_word_scoreEvE3$_3PNS2_9CandidateEEEvT1_OT0_NS_15iterator_traitsIS8_E15difference_typeES8_
++ __ZNSt3__111__sift_downB8un170006INS_17_ClassicAlgPolicyERZN2KB19CandidateCollection4sortEvE3$_2PNS2_9CandidateEEEvT1_OT0_NS_15iterator_traitsIS8_E15difference_typeES8_
++ __ZNSt3__111__sift_downB8un170006INS_17_ClassicAlgPolicyERZNK2KB16LanguageModelStr11completionsERKNS_6vectorINS2_9CandidateENS_9allocatorIS5_EEEERKNS2_20LanguageModelContextENS_8functionIFbRKNS2_13LanguageModel14PredictionInfoERKS5_SD_EEENSE_IFbSK_EEENS2_10LookupTypeEE3$_0PS5_EEvT1_OT0_NS_15iterator_traitsIST_E15difference_typeEST_
++ __ZNSt3__111cmp_greaterB8un170006IjjEEbT_T0_
++ __ZNSt3__112__destroy_atB8un170006I13RecentMessageLi0EEEvPT_
++ __ZNSt3__112__destroy_atB8un170006I18TIInlineCompletionLi0EEEvPT_
++ __ZNSt3__112__destroy_atB8un170006IN2KB11LexiconInfoELi0EEEvPT_
++ __ZNSt3__112__destroy_atB8un170006IN2KB13LanguageModel14PredictionInfoELi0EEEvPT_
++ __ZNSt3__112__destroy_atB8un170006IN2KB17DictionaryCursorsELi0EEEvPT_
++ __ZNSt3__112__destroy_atB8un170006IN2KB20LanguageModelContextELi0EEEvPT_
++ __ZNSt3__112__destroy_atB8un170006IN2TI2CP11ShapeRecordELi0EEEvPT_
++ __ZNSt3__112__destroy_atB8un170006IN2TI31MLTTAutocorrectionCandidateInfoELi0EEEvPT_
++ __ZNSt3__112__destroy_atB8un170006IN2TI8Favonius14CMTouchHistory16TouchCorrelationELi0EEEvPT_
++ __ZNSt3__112__destroy_atB8un170006INS_4pairIKN2KB10ByteStringEN3WTF6RefPtrIN2TI8Favonius9LayoutKeyEEEEELi0EEEvPT_
++ __ZNSt3__112__destroy_atB8un170006INS_4pairIKN2KB10ByteStringENS_6vectorINS2_9CandidateENS_9allocatorIS6_EEEEEELi0EEEvPT_
++ __ZNSt3__112__destroy_atB8un170006INS_4pairIKN2KB6StringENS2_19CandidateCollectionEEELi0EEEvPT_
++ __ZNSt3__112__destroy_atB8un170006INS_4pairIKN2KB6StringENS_10shared_ptrINS2_13AppTrieLoaderEEEEELi0EEEvPT_
++ __ZNSt3__112__destroy_atB8un170006INS_4pairIKN2KB6StringENS_10shared_ptrINS2_21AddressBookTrieLoaderEEEEELi0EEEvPT_
++ __ZNSt3__112__destroy_atB8un170006INS_4pairIKN2KB6StringENS_10unique_ptrINS2_8LRUCacheIS3_NS_10shared_ptrINS2_15CandidateFilterEEEE4NodeENS_14default_deleteISB_EEEEEELi0EEEvPT_
++ __ZNSt3__112__destroy_atB8un170006INS_4pairIKN2KB6StringENS_10unique_ptrINS2_8LRUCacheIS3_NS_6vectorINS2_13LanguageModel14PredictionInfoENS_9allocatorIS9_EEEEE4NodeENS_14default_deleteISE_EEEEEELi0EEEvPT_
++ __ZNSt3__112__destroy_atB8un170006INS_4pairIKN2TI2CP20TIPathRecognizerTypeEN2KB19CandidateCollectionEEELi0EEEvPT_
++ __ZNSt3__112__destroy_atB8un170006INS_4pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN10applesauce2CF13DictionaryRefEEELi0EEEvPT_
++ __ZNSt3__112__destroy_atB8un170006INS_4pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN2TI2CP11ShapeRecordEEELi0EEEvPT_
++ __ZNSt3__112__destroy_atB8un170006INS_4pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrIN2TI11ShortMemoryEEEEELi0EEEvPT_
++ __ZNSt3__112__destroy_atB8un170006INS_4pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10unique_ptrI14UBreakIteratorN2KB16BreakIterDeleterEEEEELi0EEEvPT_
++ __ZNSt3__112__destroy_atB8un170006INS_4pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_13unordered_setIS7_NS_4hashIS7_EENS_8equal_toIS7_EENS5_IS7_EEEEEELi0EEEvPT_
++ __ZNSt3__112__destroy_atB8un170006INS_4pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_7variantIJN17language_modeling2v111SessionTypeES7_EEEEELi0EEEvPT_
++ __ZNSt3__112__destroy_atB8un170006INS_4pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_7variantIJbS7_EEEEELi0EEEvPT_
++ __ZNSt3__112__destroy_atB8un170006INS_4pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_8functionIFNS_10shared_ptrIN2KB15CandidateFilterEEEN10applesauce2CF13DictionaryRefERKNSB_28CandidateFilterConfigurationEEEEEELi0EEEvPT_
++ __ZNSt3__112__destroy_atB8un170006INS_4pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_8weak_ptrIN2KB21LanguageModelImplStub13WrapperHandleEEEEELi0EEEvPT_
++ __ZNSt3__112__destroy_atB8un170006INS_4pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_EELi0EEEvPT_
++ __ZNSt3__112__destroy_atB8un170006INS_4pairIKiN2KB22ContinuousPathDetector13AnnotatedPathEEELi0EEEvPT_
++ __ZNSt3__112__destroy_atB8un170006INS_4pairIN3WTF6RefPtrIN2TI8Favonius12TouchHistoryEEENS3_INS5_8KeyMatchEEEEELi0EEEvPT_
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE16__init_with_sizeB8un170006IPKcS8_EEvT_T0_m
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__init_with_sentinelB8un170006INS_19istreambuf_iteratorIcS2_EES8_EEvT_T0_
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6appendB8un170006IPKcLi0EEERS5_T_SA_
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B8un170006ENS_24__uninitialized_size_tagEmRKS4_
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B8un170006Emc
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B8un170006ILi0EEEPKc
++ __ZNSt3__112construct_atB8un170006I18TIInlineCompletionJRKN17language_modeling2v116InlineCompletionEEPS1_EEPT_S9_DpOT0_
++ __ZNSt3__112construct_atB8un170006I18TIInlineCompletionJRKS1_EPS1_EEPT_S6_DpOT0_
++ __ZNSt3__112construct_atB8un170006I35TIInlineCompletionAnalyticsMetadataJRKS1_EPS1_EEPT_S6_DpOT0_
++ __ZNSt3__112construct_atB8un170006IN2KB11LexiconInfoEJRKS2_EPS2_EEPT_S7_DpOT0_
++ __ZNSt3__112construct_atB8un170006IN2KB11LexiconInfoEJRS2_EPS2_EEPT_S6_DpOT0_
++ __ZNSt3__112construct_atB8un170006IN2KB11LexiconInfoEJS2_EPS2_EEPT_S5_DpOT0_
++ __ZNSt3__112construct_atB8un170006IN2KB13LanguageModel14PredictionInfoEJRKS3_EPS3_EEPT_S8_DpOT0_
++ __ZNSt3__112construct_atB8un170006IN2KB13LanguageModel14PredictionInfoEJS3_EPS3_EEPT_S6_DpOT0_
++ __ZNSt3__112construct_atB8un170006IN2KB21LanguageModelImplStubEJNS1_19LanguageModelConfigEEPS2_EEPT_S6_DpOT0_
++ __ZNSt3__112construct_atB8un170006IN2TI2CP11ShapeRecordEJRKS3_EPS3_EEPT_S8_DpOT0_
++ __ZNSt3__112construct_atB8un170006IN2TI2CP11ShapeRecordEJS3_EPS3_EEPT_S6_DpOT0_
++ __ZNSt3__112construct_atB8un170006IN2TI2CP18SearchNodeKeyMatchEJRPKNS2_6SearchENS_10shared_ptrIKNS2_10SearchNodeEEERjRN3WTF10PassRefPtrINS1_8Favonius9LayoutKeyEEERNSE_INSF_16TypingHypothesisEEEEPS3_EEPT_SO_DpOT0_
++ __ZNSt3__112construct_atB8un170006IN2TI2CP33SearchNodeTranspositionExtensionsEJRPKNS2_6SearchENS_10shared_ptrIKNS2_10SearchNodeEEERjRN3WTF10PassRefPtrINS1_8Favonius9LayoutKeyEEEEPS3_EEPT_SL_DpOT0_
++ __ZNSt3__113__fill_n_trueB8un170006INS_6vectorIbNS_9allocatorIbEEEEEEvNS_14__bit_iteratorIT_Lb0EXLi0EEEENS6_9size_typeE
++ __ZNSt3__113__tree_removeB8un170006IPNS_16__tree_node_baseIPvEEEEvT_S5_
++ __ZNSt3__113cmp_not_equalB8un170006IjjEEbT_T0_
++ __ZNSt3__113unordered_mapINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrIN2TI11ShortMemoryEEENS_4hashIS6_EENS_8equal_toIS6_EENS4_INS_4pairIKS6_SA_EEEEED1B8un170006Ev
++ __ZNSt3__113unordered_mapINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_8weak_ptrIN2KB21LanguageModelImplStub13WrapperHandleEEENS_4hashIS6_EENS_8equal_toIS6_EENS4_INS_4pairIKS6_SB_EEEEED1B8un170006Ev
++ __ZNSt3__113unordered_mapINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES6_NS_4hashIS6_EENS_8equal_toIS6_EENS4_INS_4pairIKS6_S6_EEEEED1B8un170006Ev
++ __ZNSt3__113unordered_mapINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEbNS_4hashIS6_EENS_8equal_toIS6_EENS4_INS_4pairIKS6_bEEEEED1B8un170006Ev
++ __ZNSt3__114__fill_n_falseB8un170006INS_6vectorIbNS_9allocatorIbEEEEEEvNS_14__bit_iteratorIT_Lb0EXLi0EEEENS6_9size_typeE
++ __ZNSt3__114__partial_sortB8un170006INS_17_ClassicAlgPolicyERZN2KB19CandidateCollection18sort_by_word_scoreEvE3$_3PNS2_9CandidateES7_EET1_S8_S8_T2_RT0_
++ __ZNSt3__114__partial_sortB8un170006INS_17_ClassicAlgPolicyERZN2KB19CandidateCollection4sortEvE3$_2PNS2_9CandidateES7_EET1_S8_S8_T2_RT0_
++ __ZNSt3__114__partial_sortB8un170006INS_17_ClassicAlgPolicyERZNK2KB16LanguageModelStr11completionsERKNS_6vectorINS2_9CandidateENS_9allocatorIS5_EEEERKNS2_20LanguageModelContextENS_8functionIFbRKNS2_13LanguageModel14PredictionInfoERKS5_SD_EEENSE_IFbSK_EEENS2_10LookupTypeEE3$_0PS5_SS_EET1_ST_ST_T2_RT0_
++ __ZNSt3__114__split_bufferIN2KB10retain_ptrIPK10_LXLexiconEERNS_9allocatorIS6_EEE17__destruct_at_endB8un170006EPS6_
++ __ZNSt3__114__split_bufferIN2KB14LikelihoodInfoERNS_9allocatorIS2_EEE17__destruct_at_endB8un170006EPS2_
++ __ZNSt3__114__split_bufferIN3WTF6RefPtrIN2TI8Favonius10SearchNodeEEERNS_9allocatorIS6_EEE17__destruct_at_endB8un170006EPS6_
++ __ZNSt3__114__split_bufferIN3WTF6RefPtrIN2TI8Favonius16SearchNodeSourceEEERNS_9allocatorIS6_EEE17__destruct_at_endB8un170006EPS6_
++ __ZNSt3__114__split_bufferIN3WTF6RefPtrIN2TI8Favonius9LayoutKeyEEERNS_9allocatorIS6_EEE5clearB8un170006Ev
++ __ZNSt3__114__split_bufferINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEERNS4_IS6_EEE17__destruct_at_endB8un170006EPS6_
++ __ZNSt3__114__split_bufferINS_6vectorIN2KB14LikelihoodInfoENS_9allocatorIS3_EEEERNS4_IS6_EEE5clearB8un170006Ev
++ __ZNSt3__114cmp_less_equalB8un170006IjjEEbT_T0_
++ __ZNSt3__115allocate_sharedB8un170006IN2KB16LanguageModelStrENS_9allocatorIS2_EEJNS1_19LanguageModelConfigEEvEENS_10shared_ptrIT_EERKT0_DpOT1_
++ __ZNSt3__115allocate_sharedB8un170006IN2KB24UnigramCandidateRefineryENS_9allocatorIS2_EEJRKN3WTF6RefPtrINS1_19DictionaryContainerEEEEvEENS_10shared_ptrIT_EERKT0_DpOT1_
++ __ZNSt3__115allocate_sharedB8un170006IN2TI2CP18SearchNodeKeyMatchENS_9allocatorIS3_EEJRPKNS2_6SearchENS_10shared_ptrIKNS2_10SearchNodeEEERjRN3WTF10PassRefPtrINS1_8Favonius9LayoutKeyEEERNSG_INSH_16TypingHypothesisEEEEvEENSA_IT_EERKT0_DpOT1_
++ __ZNSt3__115allocate_sharedB8un170006IN2TI2CP33SearchNodeKeyPredictionExtensionsENS_9allocatorIS3_EEJRPKNS2_6SearchENS_10shared_ptrIKNS2_10SearchNodeEEERjEvEENSA_IT_EERKT0_DpOT1_
++ __ZNSt3__115allocate_sharedB8un170006IN2TI2CP33SearchNodeTranspositionExtensionsENS_9allocatorIS3_EEJRPKNS2_6SearchENS_10shared_ptrIKNS2_10SearchNodeEEERjRN3WTF10PassRefPtrINS1_8Favonius9LayoutKeyEEEEvEENSA_IT_EERKT0_DpOT1_
++ __ZNSt3__116__insertion_sortB8un170006INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPN2KB9CandidateEEEvT1_S8_T0_
++ __ZNSt3__116__insertion_sortB8un170006INS_17_ClassicAlgPolicyERU13block_pointerFbRKN3WTF6RefPtrIN2TI8Favonius16TypingHypothesisEEES9_EPS7_EEvT1_SE_T0_
++ __ZNSt3__116__insertion_sortB8un170006INS_17_ClassicAlgPolicyERU13block_pointerFbRKN3WTF6RefPtrIN2TI8Favonius8KeyMatchEEES9_EPS7_EEvT1_SE_T0_
++ __ZNSt3__116__insertion_sortB8un170006INS_17_ClassicAlgPolicyERZNK2KB16LanguageModelStr11completionsERKNS_6vectorINS2_9CandidateENS_9allocatorIS5_EEEERKNS2_20LanguageModelContextENS_8functionIFbRKNS2_13LanguageModel14PredictionInfoERKS5_SD_EEENSE_IFbSK_EEENS2_10LookupTypeEE3$_0PS5_EEvT1_ST_T0_
++ __ZNSt3__116__pad_and_outputB8un170006IcNS_11char_traitsIcEEEENS_19ostreambuf_iteratorIT_T0_EES6_PKS4_S8_S8_RNS_8ios_baseES4_
++ __ZNSt3__116__rotate_forwardB8un170006INS_17_ClassicAlgPolicyENS_11__wrap_iterIPN2KB9CandidateEEEEET0_S7_S7_S7_
++ __ZNSt3__116__variant_detail12__assignmentINS0_8__traitsIJbNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEEEE12__assign_altB8un170006ILm1ES8_RPKcEEvRNS0_5__altIXT_ET0_EEOT1_
++ __ZNSt3__116__variant_detail12__assignmentINS0_8__traitsIJbNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEEEE12__assign_altB8un170006ILm1ES8_S8_EEvRNS0_5__altIXT_ET0_EEOT1_
++ __ZNSt3__116__variant_detail12__visitation6__base12__dispatcherIJLm0EEE10__dispatchB8un170006IOZNS0_6__dtorINS0_8__traitsIJN17language_modeling2v111SessionTypeENS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEEELNS0_6_TraitE1EE9__destroyB8un170006EvEUlRT_E_JRNS0_6__baseILSI_1EJSA_SG_EEEEEEDcSK_DpT0_
++ __ZNSt3__116__variant_detail12__visitation6__base12__dispatcherIJLm0EEE10__dispatchB8un170006IOZNS0_6__dtorINS0_8__traitsIJbNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEEELNS0_6_TraitE1EE9__destroyB8un170006EvEUlRT_E_JRNS0_6__baseILSF_1EJbSD_EEEEEEDcSH_DpT0_
++ __ZNSt3__116__variant_detail12__visitation6__base12__dispatcherIJLm0ELm0EEE10__dispatchB8un170006IOZNS0_12__assignmentINS0_8__traitsIJbNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEEEE16__generic_assignB8un170006IRKNS0_17__copy_assignmentISE_LNS0_6_TraitE1EEEEEvOT_EUlRSM_OT0_E_JRNS0_6__baseILSI_1EJbSD_EEERKSU_EEEDcSM_DpT0_
++ __ZNSt3__116__variant_detail12__visitation6__base12__dispatcherIJLm0ELm0EEE10__dispatchB8un170006IOZNS0_6__ctorINS0_8__traitsIJN17language_modeling2v111SessionTypeENS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEEEE19__generic_constructB8un170006IRKNS0_18__copy_constructorISH_LNS0_6_TraitE1EEEEEvRSI_OT_EUlRSQ_OT0_E_JRNS0_6__baseILSL_1EJSA_SG_EEERKSY_EEEDcSQ_DpT0_
++ __ZNSt3__116__variant_detail12__visitation6__base12__dispatcherIJLm0ELm0EEE10__dispatchB8un170006IOZNS0_6__ctorINS0_8__traitsIJbNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEEEE19__generic_constructB8un170006IRKNS0_18__copy_constructorISE_LNS0_6_TraitE1EEEEEvRSF_OT_EUlRSN_OT0_E_JRNS0_6__baseILSI_1EJbSD_EEERKSV_EEEDcSN_DpT0_
++ __ZNSt3__116__variant_detail12__visitation6__base12__dispatcherIJLm1EEE10__dispatchB8un170006IOZNS0_6__dtorINS0_8__traitsIJN17language_modeling2v111SessionTypeENS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEEELNS0_6_TraitE1EE9__destroyB8un170006EvEUlRT_E_JRNS0_6__baseILSI_1EJSA_SG_EEEEEEDcSK_DpT0_
++ __ZNSt3__116__variant_detail12__visitation6__base12__dispatcherIJLm1EEE10__dispatchB8un170006IOZNS0_6__dtorINS0_8__traitsIJbNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEEELNS0_6_TraitE1EE9__destroyB8un170006EvEUlRT_E_JRNS0_6__baseILSF_1EJbSD_EEEEEEDcSH_DpT0_
++ __ZNSt3__116__variant_detail12__visitation6__base12__dispatcherIJLm1ELm1EEE10__dispatchB8un170006IOZNS0_12__assignmentINS0_8__traitsIJbNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEEEE16__generic_assignB8un170006IRKNS0_17__copy_assignmentISE_LNS0_6_TraitE1EEEEEvOT_EUlRSM_OT0_E_JRNS0_6__baseILSI_1EJbSD_EEERKSU_EEEDcSM_DpT0_
++ __ZNSt3__116__variant_detail12__visitation6__base12__dispatcherIJLm1ELm1EEE10__dispatchB8un170006IOZNS0_6__ctorINS0_8__traitsIJN17language_modeling2v111SessionTypeENS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEEEE19__generic_constructB8un170006IRKNS0_18__copy_constructorISH_LNS0_6_TraitE1EEEEEvRSI_OT_EUlRSQ_OT0_E_JRNS0_6__baseILSL_1EJSA_SG_EEERKSY_EEEDcSQ_DpT0_
++ __ZNSt3__116__variant_detail12__visitation6__base12__dispatcherIJLm1ELm1EEE10__dispatchB8un170006IOZNS0_6__ctorINS0_8__traitsIJbNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEEEE19__generic_constructB8un170006IRKNS0_18__copy_constructorISE_LNS0_6_TraitE1EEEEEvRSF_OT_EUlRSN_OT0_E_JRNS0_6__baseILSI_1EJbSD_EEERKSV_EEEDcSN_DpT0_
++ __ZNSt3__117__floyd_sift_downB8un170006INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPN2KB9CandidateEEET1_S8_OT0_NS_15iterator_traitsIS8_E15difference_typeE
++ __ZNSt3__117__floyd_sift_downB8un170006INS_17_ClassicAlgPolicyERU13block_pointerFbRKN3WTF6RefPtrIN2TI8Favonius16TypingHypothesisEEES9_EPS7_EET1_SE_OT0_NS_15iterator_traitsISE_E15difference_typeE
++ __ZNSt3__117__floyd_sift_downB8un170006INS_17_ClassicAlgPolicyERU13block_pointerFbRKN3WTF6RefPtrIN2TI8Favonius8KeyMatchEEES9_EPS7_EET1_SE_OT0_NS_15iterator_traitsISE_E15difference_typeE
++ __ZNSt3__117cmp_greater_equalB8un170006IjjEEbT_T0_
++ __ZNSt3__118basic_stringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B8un170006Ev
++ __ZNSt3__119__allocate_at_leastB8un170006INS_9allocatorI18TIInlineCompletionEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m
++ __ZNSt3__119__allocate_at_leastB8un170006INS_9allocatorI9TITokenIDEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m
++ __ZNSt3__119__allocate_at_leastB8un170006INS_9allocatorIDv4_dEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m
++ __ZNSt3__119__allocate_at_leastB8un170006INS_9allocatorIN10applesauce2CF8ArrayRefEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS8_m
++ __ZNSt3__119__allocate_at_leastB8un170006INS_9allocatorIN17language_modeling2v113TokenMetadataEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS8_m
++ __ZNSt3__119__allocate_at_leastB8un170006INS_9allocatorIN17language_modeling2v114CompletionStemEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS8_m
++ __ZNSt3__119__allocate_at_leastB8un170006INS_9allocatorIN17language_modeling2v15TokenEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS8_m
++ __ZNSt3__119__allocate_at_leastB8un170006INS_9allocatorIN2KB10FilterFlagEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
++ __ZNSt3__119__allocate_at_leastB8un170006INS_9allocatorIN2KB10retain_ptrIPK10_LXLexiconEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSB_m
++ __ZNSt3__119__allocate_at_leastB8un170006INS_9allocatorIN2KB11LexiconInfoEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
++ __ZNSt3__119__allocate_at_leastB8un170006INS_9allocatorIN2KB13LanguageModel14PredictionInfoEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS8_m
++ __ZNSt3__119__allocate_at_leastB8un170006INS_9allocatorIN2KB14LikelihoodInfoEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
++ __ZNSt3__119__allocate_at_leastB8un170006INS_9allocatorIN2KB17DictionaryCursorsEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
++ __ZNSt3__119__allocate_at_leastB8un170006INS_9allocatorIN2KB20LanguageModelContextEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
++ __ZNSt3__119__allocate_at_leastB8un170006INS_9allocatorIN2KB22StaticDictionaryCursorEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
++ __ZNSt3__119__allocate_at_leastB8un170006INS_9allocatorIN2KB4WordEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
++ __ZNSt3__119__allocate_at_leastB8un170006INS_9allocatorIN2KB5InputEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
++ __ZNSt3__119__allocate_at_leastB8un170006INS_9allocatorIN2KB6StringEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
++ __ZNSt3__119__allocate_at_leastB8un170006INS_9allocatorIN2KB9CandidateEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
++ __ZNSt3__119__allocate_at_leastB8un170006INS_9allocatorIN2TI2CP10PathSampleEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS8_m
++ __ZNSt3__119__allocate_at_leastB8un170006INS_9allocatorIN2TI2CP11ShapeRecordEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS8_m
++ __ZNSt3__119__allocate_at_leastB8un170006INS_9allocatorIN2TI2CP14ScoreComponentEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS8_m
++ __ZNSt3__119__allocate_at_leastB8un170006INS_9allocatorIN2TI2CP25ContextualShapeRecognizer22recognition_hypothesisEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS9_m
++ __ZNSt3__119__allocate_at_leastB8un170006INS_9allocatorIN2TI8Favonius14CMTouchHistory16TouchCorrelationEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS9_m
++ __ZNSt3__119__allocate_at_leastB8un170006INS_9allocatorIN3WTF6RefPtrIN2TI8Favonius10SearchNodeEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSB_m
++ __ZNSt3__119__allocate_at_leastB8un170006INS_9allocatorIN3WTF6RefPtrIN2TI8Favonius16SearchNodeSourceEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSB_m
++ __ZNSt3__119__allocate_at_leastB8un170006INS_9allocatorIN3WTF6RefPtrIN2TI8Favonius9LayoutKeyEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSB_m
++ __ZNSt3__119__allocate_at_leastB8un170006INS_9allocatorINS_10shared_ptrIKN2TI2CP10SearchNodeEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSB_m
++ __ZNSt3__119__allocate_at_leastB8un170006INS_9allocatorINS_10shared_ptrIN2KB13LanguageModel20PredictionEnumeratorEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSA_m
++ __ZNSt3__119__allocate_at_leastB8un170006INS_9allocatorINS_10shared_ptrIN2KB13LanguageModelEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS9_m
++ __ZNSt3__119__allocate_at_leastB8un170006INS_9allocatorINS_10shared_ptrIN2TI2CP16SearchNodeSourceEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSA_m
++ __ZNSt3__119__allocate_at_leastB8un170006INS_9allocatorINS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSA_m
++ __ZNSt3__119__allocate_at_leastB8un170006INS_9allocatorINS_4pairIN3WTF6RefPtrIN2TI8Favonius12TouchHistoryEEENS4_INS6_8KeyMatchEEEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSF_m
++ __ZNSt3__119__allocate_at_leastB8un170006INS_9allocatorINS_6vectorIN17language_modeling2v113TokenMetadataENS1_IS5_EEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSB_m
++ __ZNSt3__119__allocate_at_leastB8un170006INS_9allocatorINS_6vectorIN2KB14LikelihoodInfoENS1_IS4_EEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSA_m
++ __ZNSt3__119__allocate_at_leastB8un170006INS_9allocatorINS_6vectorIN3WTF6RefPtrIN2TI8Favonius9LayoutKeyEEENS1_IS8_EEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSE_m
++ __ZNSt3__119__allocate_at_leastB8un170006INS_9allocatorINS_6vectorINS2_IN17language_modeling2v113TokenMetadataENS1_IS5_EEEENS1_IS7_EEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSD_m
++ __ZNSt3__119__allocate_at_leastB8un170006INS_9allocatorINS_6vectorINS_10shared_ptrIKN2TI2CP10SearchNodeEEENS1_IS8_EEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSE_m
++ __ZNSt3__119__allocate_at_leastB8un170006INS_9allocatorIPN2TI8Favonius16SearchNodeSourceEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS9_m
++ __ZNSt3__119__allocate_at_leastB8un170006INS_9allocatorIdEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS5_m
++ __ZNSt3__119__allocate_at_leastB8un170006INS_9allocatorIfEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS5_m
++ __ZNSt3__119__allocate_at_leastB8un170006INS_9allocatorIjEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS5_m
++ __ZNSt3__119__allocate_at_leastB8un170006INS_9allocatorImEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS5_m
++ __ZNSt3__119__allocate_at_leastB8un170006INS_9allocatorItEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS5_m
++ __ZNSt3__119__partial_sort_implB8un170006INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPN2KB9CandidateES7_EET1_S8_S8_T2_OT0_
++ __ZNSt3__119__partial_sort_implB8un170006INS_17_ClassicAlgPolicyERU13block_pointerFbRKN2KB9CandidateES5_EPS3_S9_EET1_SA_SA_T2_OT0_
++ __ZNSt3__119__partial_sort_implB8un170006INS_17_ClassicAlgPolicyERU13block_pointerFbRKN3WTF6RefPtrIN2TI8Favonius16TypingHypothesisEEES9_EPS7_SD_EET1_SE_SE_T2_OT0_
++ __ZNSt3__119__partial_sort_implB8un170006INS_17_ClassicAlgPolicyERU13block_pointerFbRKN3WTF6RefPtrIN2TI8Favonius8KeyMatchEEES9_EPS7_SD_EET1_SE_SE_T2_OT0_
++ __ZNSt3__119__shared_weak_count16__release_sharedB8un170006Ev
++ __ZNSt3__119basic_ostringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B8un170006Ev
++ __ZNSt3__119piecewise_constructE
++ __ZNSt3__120__shared_ptr_emplaceIN2KB21LanguageModelImplStub13WrapperHandleENS_9allocatorIS3_EEEC2B8un170006IJEEES5_DpOT_
++ __ZNSt3__120__throw_bad_weak_ptrB8un170006Ev
++ __ZNSt3__120back_insert_iteratorINS_6vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS5_IS7_EEEEEaSB8un170006EOS7_
++ __ZNSt3__120get_temporary_bufferB8un170006IN2KB9CandidateEEENS_4pairIPT_lEEl
++ __ZNSt3__121__murmur2_or_cityhashImLm64EE18__hash_len_0_to_16B8un170006EPKcm
++ __ZNSt3__121__murmur2_or_cityhashImLm64EE19__hash_len_17_to_32B8un170006EPKcm
++ __ZNSt3__121__murmur2_or_cityhashImLm64EE19__hash_len_33_to_64B8un170006EPKcm
++ __ZNSt3__121__unwrap_and_dispatchB8un170006INS_10__overloadINS_11__copy_loopINS_17_ClassicAlgPolicyEEENS_14__copy_trivialEEENS_11__wrap_iterIPKN2KB9CandidateEEESC_PS9_Li0EEENS_4pairIT0_T2_EESF_T1_SG_
++ __ZNSt3__121__unwrap_and_dispatchB8un170006INS_10__overloadINS_11__copy_loopINS_17_ClassicAlgPolicyEEENS_14__copy_trivialEEEPN2KB5InputES9_S9_Li0EEENS_4pairIT0_T2_EESB_T1_SC_
++ __ZNSt3__121__unwrap_and_dispatchB8un170006INS_10__overloadINS_11__copy_loopINS_17_ClassicAlgPolicyEEENS_14__copy_trivialEEEPN2KB9CandidateES9_S9_Li0EEENS_4pairIT0_T2_EESB_T1_SC_
++ __ZNSt3__121__unwrap_and_dispatchB8un170006INS_10__overloadINS_11__copy_loopINS_17_ClassicAlgPolicyEEENS_14__copy_trivialEEEPNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEESD_SD_Li0EEENS_4pairIT0_T2_EESF_T1_SG_
++ __ZNSt3__121__unwrap_and_dispatchB8un170006INS_10__overloadINS_11__move_loopINS_17_ClassicAlgPolicyEEENS_14__move_trivialEEEPN2KB5InputES9_S9_Li0EEENS_4pairIT0_T2_EESB_T1_SC_
++ __ZNSt3__121__unwrap_and_dispatchB8un170006INS_10__overloadINS_11__move_loopINS_17_ClassicAlgPolicyEEENS_14__move_trivialEEEPN2KB9CandidateES9_NS_11__wrap_iterIS9_EELi0EEENS_4pairIT0_T2_EESD_T1_SE_
++ __ZNSt3__121__unwrap_and_dispatchB8un170006INS_10__overloadINS_11__move_loopINS_17_ClassicAlgPolicyEEENS_14__move_trivialEEEPN2KB9CandidateES9_S9_Li0EEENS_4pairIT0_T2_EESB_T1_SC_
++ __ZNSt3__121__unwrap_and_dispatchB8un170006INS_10__overloadINS_20__move_backward_loopINS_17_ClassicAlgPolicyEEENS_23__move_backward_trivialEEEPN2KB9CandidateES9_S9_Li0EEENS_4pairIT0_T2_EESB_T1_SC_
++ __ZNSt3__123__optional_storage_baseIN2KB4WordELb0EE13__assign_fromB8un170006INS_27__optional_move_assign_baseIS2_Lb0EEEEEvOT_
++ __ZNSt3__124__optional_destruct_baseI18TIInlineCompletionLb0EEC2B8un170006IJRKS1_EEENS_10in_place_tEDpOT_
++ __ZNSt3__124__optional_destruct_baseI18TIInlineCompletionLb0EED2B8un170006Ev
++ __ZNSt3__124__optional_destruct_baseI35TIInlineCompletionAnalyticsMetadataLb0EED2B8un170006Ev
++ __ZNSt3__124__optional_destruct_baseIN2LM15TrialParametersELb0EED2B8un170006Ev
++ __ZNSt3__124__optional_destruct_baseINS_4pairIN2KB6StringES3_EELb0EE5resetB8un170006Ev
++ __ZNSt3__124__optional_destruct_baseINS_5tupleIJN2KB19CandidateCollectionENS2_6StringEEEELb0EED2B8un170006Ev
++ __ZNSt3__124__put_character_sequenceB8un170006IcNS_11char_traitsIcEEEERNS_13basic_ostreamIT_T0_EES7_PKS4_m
++ __ZNSt3__124__sort5_maybe_branchlessB8un170006INS_17_ClassicAlgPolicyERZN2KB19CandidateCollection4sortEvE3$_2PNS2_9CandidateEEENS_9enable_ifIXntsr21__use_branchless_sortIT0_T1_EE5valueEvE4typeESA_SA_SA_SA_SA_S9_
++ __ZNSt3__124__sort5_maybe_branchlessB8un170006INS_17_ClassicAlgPolicyERZN2TI2CP28SearchNodeLanguageExtensions23decrease_bound_on_scoreEvE3$_0PN3WTF6RefPtrINS2_8Favonius16TypingHypothesisEEEEENS_9enable_ifIXntsr21__use_branchless_sortIT0_T1_EE5valueEvE4typeESF_SF_SF_SF_SF_SE_
++ __ZNSt3__124__sort5_maybe_branchlessB8un170006INS_17_ClassicAlgPolicyERZN2TI2CP33SearchNodeKeyPredictionExtensions23decrease_bound_on_scoreEvE3$_1PN3WTF6RefPtrINS2_8Favonius16TypingHypothesisEEEEENS_9enable_ifIXntsr21__use_branchless_sortIT0_T1_EE5valueEvE4typeESF_SF_SF_SF_SF_SE_
++ __ZNSt3__124__sort5_maybe_branchlessB8un170006INS_17_ClassicAlgPolicyERZNK2KB16LanguageModelStr11completionsERKNS_6vectorINS2_9CandidateENS_9allocatorIS5_EEEERKNS2_20LanguageModelContextENS_8functionIFbRKNS2_13LanguageModel14PredictionInfoERKS5_SD_EEENSE_IFbSK_EEENS2_10LookupTypeEE3$_0PS5_EENS_9enable_ifIXntsr21__use_branchless_sortIT0_T1_EE5valueEvE4typeESV_SV_SV_SV_SV_SU_
++ __ZNSt3__125__throw_bad_function_callB8un170006Ev
++ __ZNSt3__126__insertion_sort_unguardedB8un170006INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPN2KB9CandidateEEEvT1_S8_T0_
++ __ZNSt3__126__insertion_sort_unguardedB8un170006INS_17_ClassicAlgPolicyERU13block_pointerFbRKN3WTF6RefPtrIN2TI8Favonius16TypingHypothesisEEES9_EPS7_EEvT1_SE_T0_
++ __ZNSt3__126__insertion_sort_unguardedB8un170006INS_17_ClassicAlgPolicyERU13block_pointerFbRKN3WTF6RefPtrIN2TI8Favonius8KeyMatchEEES9_EPS7_EEvT1_SE_T0_
++ __ZNSt3__126__insertion_sort_unguardedB8un170006INS_17_ClassicAlgPolicyERZNK2KB16LanguageModelStr11completionsERKNS_6vectorINS2_9CandidateENS_9allocatorIS5_EEEERKNS2_20LanguageModelContextENS_8functionIFbRKNS2_13LanguageModel14PredictionInfoERKS5_SD_EEENSE_IFbSK_EEENS2_10LookupTypeEE3$_0PS5_EEvT1_ST_T0_
++ __ZNSt3__127__insertion_sort_incompleteB8un170006INS_17_ClassicAlgPolicyERN2TI8Favonius28SearchNodeLanguageExtensions25LetterExtensionComparatorEPN3WTF6RefPtrINS3_16TypingHypothesisEEEEEbT1_SC_T0_
++ __ZNSt3__127__insertion_sort_incompleteB8un170006INS_17_ClassicAlgPolicyERN2TI8Favonius40SearchNodeLanguageThenGeometryExtensions25LetterExtensionComparatorEPN3WTF6RefPtrINS3_16TypingHypothesisEEEEEbT1_SC_T0_
++ __ZNSt3__127__insertion_sort_incompleteB8un170006INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPN2KB9CandidateEEEbT1_S8_T0_
++ __ZNSt3__127__insertion_sort_incompleteB8un170006INS_17_ClassicAlgPolicyERNS_7greaterIvEEPN2TI11ShortMemory10WordRecordEEEbT1_S9_T0_
++ __ZNSt3__127__insertion_sort_incompleteB8un170006INS_17_ClassicAlgPolicyERU13block_pointerFbRKN2KB9CandidateES5_EPS3_EEbT1_SA_T0_
++ __ZNSt3__127__insertion_sort_incompleteB8un170006INS_17_ClassicAlgPolicyERU13block_pointerFbRKN3WTF6RefPtrIN2TI8Favonius10SearchNodeEEES9_EPS7_EEbT1_SE_T0_
++ __ZNSt3__127__insertion_sort_incompleteB8un170006INS_17_ClassicAlgPolicyERU13block_pointerFbRKN3WTF6RefPtrIN2TI8Favonius16TypingHypothesisEEES9_EPS7_EEbT1_SE_T0_
++ __ZNSt3__127__insertion_sort_incompleteB8un170006INS_17_ClassicAlgPolicyERU13block_pointerFbRKN3WTF6RefPtrIN2TI8Favonius8KeyMatchEEES9_EPS7_EEbT1_SE_T0_
++ __ZNSt3__127__insertion_sort_incompleteB8un170006INS_17_ClassicAlgPolicyERU13block_pointerFbRKN3WTF6RefPtrIN2TI8Favonius9LayoutKeyEEES9_EPS7_EEbT1_SE_T0_
++ __ZNSt3__127__insertion_sort_incompleteB8un170006INS_17_ClassicAlgPolicyERU8__strongU13block_pointerFbRKN3WTF6RefPtrIN2TI8Favonius16TypingHypothesisEEES9_EPS7_EEbT1_SF_T0_
++ __ZNSt3__127__insertion_sort_incompleteB8un170006INS_17_ClassicAlgPolicyERZN2KB19CandidateCollection18sort_by_word_scoreEvE3$_3PNS2_9CandidateEEEbT1_S8_T0_
++ __ZNSt3__127__insertion_sort_incompleteB8un170006INS_17_ClassicAlgPolicyERZN2KB19CandidateCollection4sortEvE3$_2PNS2_9CandidateEEEbT1_S8_T0_
++ __ZNSt3__127__insertion_sort_incompleteB8un170006INS_17_ClassicAlgPolicyERZN2TI2CP28SearchNodeLanguageExtensions23decrease_bound_on_scoreEvE3$_0PN3WTF6RefPtrINS2_8Favonius16TypingHypothesisEEEEEbT1_SD_T0_
++ __ZNSt3__127__insertion_sort_incompleteB8un170006INS_17_ClassicAlgPolicyERZN2TI2CP33SearchNodeKeyPredictionExtensions23decrease_bound_on_scoreEvE3$_1PN3WTF6RefPtrINS2_8Favonius16TypingHypothesisEEEEEbT1_SD_T0_
++ __ZNSt3__127__insertion_sort_incompleteB8un170006INS_17_ClassicAlgPolicyERZNK2KB16LanguageModelStr11completionsERKNS_6vectorINS2_9CandidateENS_9allocatorIS5_EEEERKNS2_20LanguageModelContextENS_8functionIFbRKNS2_13LanguageModel14PredictionInfoERKS5_SD_EEENSE_IFbSK_EEENS2_10LookupTypeEE3$_0PS5_EEbT1_ST_T0_
++ __ZNSt3__127__insertion_sort_incompleteB8un170006INS_17_ClassicAlgPolicyERZNK2KB22LanguageModelContainer11predictionsERKNS2_20LanguageModelContextEmNS_8functionIFvRKNS2_13LanguageModel14PredictionInfoEEEEE3$_4PS9_EEbT1_SH_T0_
++ __ZNSt3__127__throw_bad_optional_accessB8un170006Ev
++ __ZNSt3__127__tree_balance_after_insertB8un170006IPNS_16__tree_node_baseIPvEEEEvT_S5_
++ __ZNSt3__130__uninitialized_allocator_copyB8un170006INS_9allocatorINS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEEEEPKS6_S9_PS6_EET2_RT_T0_T1_SB_
++ __ZNSt3__130__uninitialized_allocator_copyB8un170006INS_9allocatorINS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEEEEPS6_S8_S8_EET2_RT_T0_T1_S9_
++ __ZNSt3__131__partition_with_equals_on_leftB8un170006INS_17_ClassicAlgPolicyEPN2KB9CandidateERNS_6__lessIvvEEEET0_S8_S8_T1_
++ __ZNSt3__131__partition_with_equals_on_leftB8un170006INS_17_ClassicAlgPolicyEPN2KB9CandidateERZNKS2_16LanguageModelStr11completionsERKNS_6vectorIS3_NS_9allocatorIS3_EEEERKNS2_20LanguageModelContextENS_8functionIFbRKNS2_13LanguageModel14PredictionInfoERKS3_SE_EEENSF_IFbSL_EEENS2_10LookupTypeEE3$_0EET0_ST_ST_T1_
++ __ZNSt3__131__partition_with_equals_on_leftB8un170006INS_17_ClassicAlgPolicyEPN3WTF6RefPtrIN2TI8Favonius16TypingHypothesisEEERU13block_pointerFbRKS7_SA_EEET0_SE_SE_T1_
++ __ZNSt3__131__partition_with_equals_on_leftB8un170006INS_17_ClassicAlgPolicyEPN3WTF6RefPtrIN2TI8Favonius8KeyMatchEEERU13block_pointerFbRKS7_SA_EEET0_SE_SE_T1_
++ __ZNSt3__132__partition_with_equals_on_rightB8un170006INS_17_ClassicAlgPolicyEPN2KB9CandidateERNS_6__lessIvvEEEENS_4pairIT0_bEES9_S9_T1_
++ __ZNSt3__132__partition_with_equals_on_rightB8un170006INS_17_ClassicAlgPolicyEPN2KB9CandidateERZNKS2_16LanguageModelStr11completionsERKNS_6vectorIS3_NS_9allocatorIS3_EEEERKNS2_20LanguageModelContextENS_8functionIFbRKNS2_13LanguageModel14PredictionInfoERKS3_SE_EEENSF_IFbSL_EEENS2_10LookupTypeEE3$_0EENS_4pairIT0_bEESU_SU_T1_
++ __ZNSt3__132__partition_with_equals_on_rightB8un170006INS_17_ClassicAlgPolicyEPN3WTF6RefPtrIN2TI8Favonius16TypingHypothesisEEERU13block_pointerFbRKS7_SA_EEENS_4pairIT0_bEESF_SF_T1_
++ __ZNSt3__132__partition_with_equals_on_rightB8un170006INS_17_ClassicAlgPolicyEPN3WTF6RefPtrIN2TI8Favonius8KeyMatchEEERU13block_pointerFbRKS7_SA_EEENS_4pairIT0_bEESF_SF_T1_
++ __ZNSt3__135__uninitialized_allocator_copy_implB8un170006INS_9allocatorIN2KB14LikelihoodInfoEEEPS3_S5_S5_EET2_RT_T0_T1_S6_
++ __ZNSt3__13mapIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10unique_ptrI14UBreakIteratorN2KB16BreakIterDeleterEEENS_4lessIS7_EENS4_INS_4pairIS7_SC_EEEEED1B8un170006Ev
++ __ZNSt3__13mapINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_7variantIJbS6_EEENS_4lessIS6_EENS4_INS_4pairIKS6_S8_EEEEE6insertB8un170006INS_20__map_const_iteratorINS_21__tree_const_iteratorINS_12__value_typeIS6_S8_EEPNS_11__tree_nodeISK_PvEElEEEEEEvT_SR_
++ __ZNSt3__13mapINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES6_NS_4lessIS6_EENS4_INS_4pairIKS6_S6_EEEEE6insertB8un170006INS_20__map_const_iteratorINS_21__tree_const_iteratorINS_12__value_typeIS6_S6_EEPNS_11__tree_nodeISI_PvEElEEEEEEvT_SP_
++ __ZNSt3__13mapINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEfNS_4lessIS6_EENS4_INS_4pairIKS6_fEEEEE6insertB8un170006INS_20__map_const_iteratorINS_21__tree_const_iteratorINS_12__value_typeIS6_fEEPNS_11__tree_nodeISI_PvEElEEEEEEvT_SP_
++ __ZNSt3__13mapImdNS_4lessImEENS_9allocatorINS_4pairIKmdEEEEE6insertB8un170006INS_20__map_const_iteratorINS_21__tree_const_iteratorINS_12__value_typeImdEEPNS_11__tree_nodeISD_PvEElEEEEEEvT_SK_
++ __ZNSt3__14pairI18TIInlineCompletionmEC2B8un170006EOS2_
++ __ZNSt3__14pairI18TIInlineCompletionmEC2B8un170006IRKS1_mLPv0EEEOT_OT0_
++ __ZNSt3__14pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_8weak_ptrIN2KB21LanguageModelImplStub13WrapperHandleEEEEC2B8un170006ERKSD_
++ __ZNSt3__14pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES6_EC2B8un170006ERKS8_
++ __ZNSt3__14pairIN2KB20LanguageModelContextE18TIInlineCompletionEC2B8un170006ERKS4_
++ __ZNSt3__14swapB8un170006IN2KB13LanguageModel14PredictionInfoEEENS_9enable_ifIXaasr21is_move_constructibleIT_EE5valuesr18is_move_assignableIS5_EE5valueEvE4typeERS5_S8_
++ __ZNSt3__16vectorI18TIInlineCompletionNS_9allocatorIS1_EEE16__destroy_vectorclB8un170006Ev
++ __ZNSt3__16vectorI18TIInlineCompletionNS_9allocatorIS1_EEE16__init_with_sizeB8un170006IPS1_S6_EEvT_T0_m
++ __ZNSt3__16vectorI20TIFitAffineMLLMatrixNS_9allocatorIS1_EEE16__destroy_vectorclB8un170006Ev
++ __ZNSt3__16vectorI20TIFitAffineMLLMatrixNS_9allocatorIS1_EEE9push_backB8un170006EOS1_
++ __ZNSt3__16vectorI6CGRectNS_9allocatorIS1_EEE11__vallocateB8un170006Em
++ __ZNSt3__16vectorI6CGRectNS_9allocatorIS1_EEE18__assign_with_sizeB8un170006IPS1_S6_EEvT_T0_l
++ __ZNSt3__16vectorI9TITokenIDNS_9allocatorIS1_EEE11__vallocateB8un170006Em
++ __ZNSt3__16vectorI9TITokenIDNS_9allocatorIS1_EEE18__assign_with_sizeB8un170006IPS1_S6_EEvT_T0_l
++ __ZNSt3__16vectorIDv4_dNS_9allocatorIS1_EEE11__vallocateB8un170006Em
++ __ZNSt3__16vectorIN10applesauce2CF13DictionaryRefENS_9allocatorIS3_EEE16__destroy_vectorclB8un170006Ev
++ __ZNSt3__16vectorIN10applesauce2CF13DictionaryRefENS_9allocatorIS3_EEE9push_backB8un170006ERKS3_
++ __ZNSt3__16vectorIN10applesauce2CF8ArrayRefENS_9allocatorIS3_EEE16__destroy_vectorclB8un170006Ev
++ __ZNSt3__16vectorIN10applesauce2CF8ArrayRefENS_9allocatorIS3_EEE7__clearB8un170006Ev
++ __ZNSt3__16vectorIN10applesauce2CF8ArrayRefENS_9allocatorIS3_EEE9push_backB8un170006ERKS3_
++ __ZNSt3__16vectorIN17language_modeling2v111ProbabilityENS_9allocatorIS3_EEE16__destroy_vectorclB8un170006Ev
++ __ZNSt3__16vectorIN17language_modeling2v113TokenMetadataENS_9allocatorIS3_EEE11__vallocateB8un170006Em
++ __ZNSt3__16vectorIN17language_modeling2v114CompletionStemENS_9allocatorIS3_EEE16__destroy_vectorclB8un170006Ev
++ __ZNSt3__16vectorIN17language_modeling2v114CompletionStemENS_9allocatorIS3_EEE16__init_with_sizeB8un170006IPS3_S8_EEvT_T0_m
++ __ZNSt3__16vectorIN17language_modeling2v15TokenENS_9allocatorIS3_EEE16__destroy_vectorclB8un170006Ev
++ __ZNSt3__16vectorIN17language_modeling2v15TokenENS_9allocatorIS3_EEE16__init_with_sizeB8un170006IPS3_S8_EEvT_T0_m
++ __ZNSt3__16vectorIN2KB10FilterFlagENS_9allocatorIS2_EEE11__vallocateB8un170006Em
++ __ZNSt3__16vectorIN2KB10retain_ptrIP11__CandidateEENS_9allocatorIS5_EEE7__clearB8un170006Ev
++ __ZNSt3__16vectorIN2KB10retain_ptrIPK10_LXLexiconEENS_9allocatorIS6_EEE16__destroy_vectorclB8un170006Ev
++ __ZNSt3__16vectorIN2KB10retain_ptrIPK10_LXLexiconEENS_9allocatorIS6_EEE7__clearB8un170006Ev
++ __ZNSt3__16vectorIN2KB10retain_ptrIPK10__CFStringEENS_9allocatorIS6_EEE16__destroy_vectorclB8un170006Ev
++ __ZNSt3__16vectorIN2KB10retain_ptrIPK8_LXEntryEENS_9allocatorIS6_EEE16__destroy_vectorclB8un170006Ev
++ __ZNSt3__16vectorIN2KB10retain_ptrIPK9_LXCursorEENS_9allocatorIS6_EEE11__vallocateB8un170006Em
++ __ZNSt3__16vectorIN2KB10retain_ptrIPK9_LXCursorEENS_9allocatorIS6_EEE16__destroy_vectorclB8un170006Ev
++ __ZNSt3__16vectorIN2KB11LexiconInfoENS_9allocatorIS2_EEE11__vallocateB8un170006Em
++ __ZNSt3__16vectorIN2KB11LexiconInfoENS_9allocatorIS2_EEE16__destroy_vectorclB8un170006Ev
++ __ZNSt3__16vectorIN2KB11LexiconInfoENS_9allocatorIS2_EEE16__init_with_sizeB8un170006IPS2_S7_EEvT_T0_m
++ __ZNSt3__16vectorIN2KB13LanguageModel14PredictionInfoENS_9allocatorIS3_EEE16__destroy_vectorclB8un170006Ev
++ __ZNSt3__16vectorIN2KB14LikelihoodInfoENS_9allocatorIS2_EEE11__vallocateB8un170006Em
++ __ZNSt3__16vectorIN2KB14LikelihoodInfoENS_9allocatorIS2_EEE16__destroy_vectorclB8un170006Ev
++ __ZNSt3__16vectorIN2KB14LikelihoodInfoENS_9allocatorIS2_EEE16__init_with_sizeB8un170006IPS2_S7_EEvT_T0_m
++ __ZNSt3__16vectorIN2KB14LikelihoodInfoENS_9allocatorIS2_EEE7__clearB8un170006Ev
++ __ZNSt3__16vectorIN2KB20LanguageModelContextENS_9allocatorIS2_EEE11__vallocateB8un170006Em
++ __ZNSt3__16vectorIN2KB20LanguageModelContextENS_9allocatorIS2_EEE16__destroy_vectorclB8un170006Ev
++ __ZNSt3__16vectorIN2KB20LanguageModelContextENS_9allocatorIS2_EEE16__init_with_sizeB8un170006IPS2_S7_EEvT_T0_m
++ __ZNSt3__16vectorIN2KB22StaticDictionaryCursorENS_9allocatorIS2_EEE16__destroy_vectorclB8un170006Ev
++ __ZNSt3__16vectorIN2KB22StaticDictionaryCursorENS_9allocatorIS2_EEE22__base_destruct_at_endB8un170006EPS2_
++ __ZNSt3__16vectorIN2KB4WordENS_9allocatorIS2_EEE16__destroy_vectorclB8un170006Ev
++ __ZNSt3__16vectorIN2KB4WordENS_9allocatorIS2_EEE18__assign_with_sizeB8un170006IPS2_S7_EEvT_T0_l
++ __ZNSt3__16vectorIN2KB4WordENS_9allocatorIS2_EEE18__insert_with_sizeB8un170006INS_11__wrap_iterIPS2_EES9_EES9_NS7_IPKS2_EET_T0_l
++ __ZNSt3__16vectorIN2KB5InputENS_9allocatorIS2_EEE16__destroy_vectorclB8un170006Ev
++ __ZNSt3__16vectorIN2KB6StringENS_9allocatorIS2_EEE11__vallocateB8un170006Em
++ __ZNSt3__16vectorIN2KB6StringENS_9allocatorIS2_EEE16__destroy_vectorclB8un170006Ev
++ __ZNSt3__16vectorIN2KB6StringENS_9allocatorIS2_EEE16__init_with_sizeB8un170006IPS2_S7_EEvT_T0_m
++ __ZNSt3__16vectorIN2KB6StringENS_9allocatorIS2_EEE18__assign_with_sizeB8un170006IPS2_S7_EEvT_T0_l
++ __ZNSt3__16vectorIN2KB9CandidateENS_9allocatorIS2_EEE11__vallocateB8un170006Em
++ __ZNSt3__16vectorIN2KB9CandidateENS_9allocatorIS2_EEE16__destroy_vectorclB8un170006Ev
++ __ZNSt3__16vectorIN2KB9CandidateENS_9allocatorIS2_EEE16__init_with_sizeB8un170006IPS2_S7_EEvT_T0_m
++ __ZNSt3__16vectorIN2KB9CandidateENS_9allocatorIS2_EEE18__assign_with_sizeB8un170006IPS2_S7_EEvT_T0_l
++ __ZNSt3__16vectorIN2KB9CandidateENS_9allocatorIS2_EEE18__insert_with_sizeB8un170006INS_11__wrap_iterIPKS2_EESA_EENS7_IPS2_EESA_T_T0_l
++ __ZNSt3__16vectorIN2KB9CandidateENS_9allocatorIS2_EEE18__insert_with_sizeB8un170006INS_11__wrap_iterIPS2_EES9_EES9_NS7_IPKS2_EET_T0_l
++ __ZNSt3__16vectorIN2KB9CandidateENS_9allocatorIS2_EEE5eraseB8un170006ENS_11__wrap_iterIPKS2_EE
++ __ZNSt3__16vectorIN2TI2CP10PathSampleENS_9allocatorIS3_EEE11__vallocateB8un170006Em
++ __ZNSt3__16vectorIN2TI2CP10PathSampleENS_9allocatorIS3_EEE18__assign_with_sizeB8un170006IPS3_S8_EEvT_T0_l
++ __ZNSt3__16vectorIN2TI2CP11ShapeRecordENS_9allocatorIS3_EEE16__destroy_vectorclB8un170006Ev
++ __ZNSt3__16vectorIN3WTF6RefPtrIN2TI8Favonius10SearchNodeEEENS_9allocatorIS6_EEE16__destroy_vectorclB8un170006Ev
++ __ZNSt3__16vectorIN3WTF6RefPtrIN2TI8Favonius10SearchNodeEEENS_9allocatorIS6_EEE16__init_with_sizeB8un170006IPS6_SB_EEvT_T0_m
++ __ZNSt3__16vectorIN3WTF6RefPtrIN2TI8Favonius10SearchNodeEEENS_9allocatorIS6_EEE22__base_destruct_at_endB8un170006EPS6_
++ __ZNSt3__16vectorIN3WTF6RefPtrIN2TI8Favonius10SearchNodeEEENS_9allocatorIS6_EEE9push_backB8un170006ERKS6_
++ __ZNSt3__16vectorIN3WTF6RefPtrIN2TI8Favonius16SearchNodeSourceEEENS_9allocatorIS6_EEE11__vallocateB8un170006Em
++ __ZNSt3__16vectorIN3WTF6RefPtrIN2TI8Favonius16SearchNodeSourceEEENS_9allocatorIS6_EEE16__destroy_vectorclB8un170006Ev
++ __ZNSt3__16vectorIN3WTF6RefPtrIN2TI8Favonius16SearchNodeSourceEEENS_9allocatorIS6_EEE22__base_destruct_at_endB8un170006EPS6_
++ __ZNSt3__16vectorIN3WTF6RefPtrIN2TI8Favonius9LayoutKeyEEENS_9allocatorIS6_EEE16__destroy_vectorclB8un170006Ev
++ __ZNSt3__16vectorIN3WTF6RefPtrIN2TI8Favonius9LayoutKeyEEENS_9allocatorIS6_EEE7__clearB8un170006Ev
++ __ZNSt3__16vectorIN3WTF6RefPtrIN2TI8Favonius9LayoutKeyEEENS_9allocatorIS6_EEE9push_backB8un170006ERKS6_
++ __ZNSt3__16vectorINS0_IN17language_modeling2v111ProbabilityENS_9allocatorIS3_EEEENS4_IS6_EEE16__destroy_vectorclB8un170006Ev
++ __ZNSt3__16vectorINS0_IN17language_modeling2v113TokenMetadataENS_9allocatorIS3_EEEENS4_IS6_EEE16__destroy_vectorclB8un170006Ev
++ __ZNSt3__16vectorINS0_IN17language_modeling2v113TokenMetadataENS_9allocatorIS3_EEEENS4_IS6_EEE16__init_with_sizeB8un170006IPS6_SA_EEvT_T0_m
++ __ZNSt3__16vectorINS0_IN17language_modeling2v113TokenMetadataENS_9allocatorIS3_EEEENS4_IS6_EEE7__clearB8un170006Ev
++ __ZNSt3__16vectorINS0_IN2KB14LikelihoodInfoENS_9allocatorIS2_EEEENS3_IS5_EEE16__destroy_vectorclB8un170006Ev
++ __ZNSt3__16vectorINS0_INS0_IN17language_modeling2v113TokenMetadataENS_9allocatorIS3_EEEENS4_IS6_EEEENS4_IS8_EEE16__destroy_vectorclB8un170006Ev
++ __ZNSt3__16vectorINS0_INS0_IN17language_modeling2v113TokenMetadataENS_9allocatorIS3_EEEENS4_IS6_EEEENS4_IS8_EEE16__init_with_sizeB8un170006IPS8_SC_EEvT_T0_m
++ __ZNSt3__16vectorINS_10shared_ptrIKN2TI2CP10SearchNodeEEENS_9allocatorIS6_EEE16__destroy_vectorclB8un170006Ev
++ __ZNSt3__16vectorINS_10shared_ptrIKN2TI2CP10SearchNodeEEENS_9allocatorIS6_EEE7__clearB8un170006Ev
++ __ZNSt3__16vectorINS_10shared_ptrIN2KB13LanguageModel20PredictionEnumeratorEEENS_9allocatorIS5_EEE16__destroy_vectorclB8un170006Ev
++ __ZNSt3__16vectorINS_10shared_ptrIN2KB13LanguageModelEEENS_9allocatorIS4_EEE16__destroy_vectorclB8un170006Ev
++ __ZNSt3__16vectorINS_10shared_ptrIN2KB13LanguageModelEEENS_9allocatorIS4_EEE7__clearB8un170006Ev
++ __ZNSt3__16vectorINS_10shared_ptrIN2KB15CandidateFilterEEENS_9allocatorIS4_EEE16__destroy_vectorclB8un170006Ev
++ __ZNSt3__16vectorINS_10shared_ptrIN2KB15CandidateFilterEEENS_9allocatorIS4_EEE7__clearB8un170006Ev
++ __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE11__vallocateB8un170006Em
++ __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE16__destroy_vectorclB8un170006Ev
++ __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE16__init_with_sizeB8un170006IPS6_SA_EEvT_T0_m
++ __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE18__assign_with_sizeB8un170006IPS6_SA_EEvT_T0_l
++ __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE7__clearB8un170006Ev
++ __ZNSt3__16vectorINS_4pairIN3WTF6RefPtrIN2TI8Favonius12TouchHistoryEEENS3_INS5_8KeyMatchEEEEENS_9allocatorISA_EEE16__destroy_vectorclB8un170006Ev
++ __ZNSt3__16vectorIbNS_9allocatorIbEEE11__vallocateB8un170006Em
++ __ZNSt3__16vectorIdNS_9allocatorIdEEE11__vallocateB8un170006Em
++ __ZNSt3__16vectorIfNS_9allocatorIfEEE11__vallocateB8un170006Em
++ __ZNSt3__16vectorIjNS_9allocatorIjEEE11__vallocateB8un170006Em
++ __ZNSt3__16vectorIjNS_9allocatorIjEEE18__assign_with_sizeB8un170006IPjS5_EEvT_T0_l
++ __ZNSt3__16vectorIjNS_9allocatorIjEEE26__swap_out_circular_bufferERNS_14__split_bufferIjRS2_EEPj
++ __ZNSt3__17__sort3B8un170006INS_17_ClassicAlgPolicyERN2TI8Favonius28SearchNodeLanguageExtensions25LetterExtensionComparatorEPN3WTF6RefPtrINS3_16TypingHypothesisEEEEEjT1_SC_SC_T0_
++ __ZNSt3__17__sort3B8un170006INS_17_ClassicAlgPolicyERN2TI8Favonius40SearchNodeLanguageThenGeometryExtensions25LetterExtensionComparatorEPN3WTF6RefPtrINS3_16TypingHypothesisEEEEEjT1_SC_SC_T0_
++ __ZNSt3__17__sort3B8un170006INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPN2KB9CandidateEEEjT1_S8_S8_T0_
++ __ZNSt3__17__sort3B8un170006INS_17_ClassicAlgPolicyERNS_7greaterIvEEPN2TI11ShortMemory10WordRecordEEEjT1_S9_S9_T0_
++ __ZNSt3__17__sort3B8un170006INS_17_ClassicAlgPolicyERU13block_pointerFbRKN2KB9CandidateES5_EPS3_EEjT1_SA_SA_T0_
++ __ZNSt3__17__sort3B8un170006INS_17_ClassicAlgPolicyERU13block_pointerFbRKN3WTF6RefPtrIN2TI8Favonius10SearchNodeEEES9_EPS7_EEjT1_SE_SE_T0_
++ __ZNSt3__17__sort3B8un170006INS_17_ClassicAlgPolicyERU13block_pointerFbRKN3WTF6RefPtrIN2TI8Favonius16TypingHypothesisEEES9_EPS7_EEjT1_SE_SE_T0_
++ __ZNSt3__17__sort3B8un170006INS_17_ClassicAlgPolicyERU13block_pointerFbRKN3WTF6RefPtrIN2TI8Favonius8KeyMatchEEES9_EPS7_EEjT1_SE_SE_T0_
++ __ZNSt3__17__sort3B8un170006INS_17_ClassicAlgPolicyERU13block_pointerFbRKN3WTF6RefPtrIN2TI8Favonius9LayoutKeyEEES9_EPS7_EEjT1_SE_SE_T0_
++ __ZNSt3__17__sort3B8un170006INS_17_ClassicAlgPolicyERU8__strongU13block_pointerFbRKN3WTF6RefPtrIN2TI8Favonius16TypingHypothesisEEES9_EPS7_EEjT1_SF_SF_T0_
++ __ZNSt3__17__sort3B8un170006INS_17_ClassicAlgPolicyERZN2KB19CandidateCollection18sort_by_word_scoreEvE3$_3PNS2_9CandidateEEEjT1_S8_S8_T0_
++ __ZNSt3__17__sort3B8un170006INS_17_ClassicAlgPolicyERZN2KB19CandidateCollection4sortEvE3$_2PNS2_9CandidateEEEjT1_S8_S8_T0_
++ __ZNSt3__17__sort3B8un170006INS_17_ClassicAlgPolicyERZN2TI2CP28SearchNodeLanguageExtensions23decrease_bound_on_scoreEvE3$_0PN3WTF6RefPtrINS2_8Favonius16TypingHypothesisEEEEEjT1_SD_SD_T0_
++ __ZNSt3__17__sort3B8un170006INS_17_ClassicAlgPolicyERZN2TI2CP33SearchNodeKeyPredictionExtensions23decrease_bound_on_scoreEvE3$_1PN3WTF6RefPtrINS2_8Favonius16TypingHypothesisEEEEEjT1_SD_SD_T0_
++ __ZNSt3__17__sort3B8un170006INS_17_ClassicAlgPolicyERZNK2KB16LanguageModelStr11completionsERKNS_6vectorINS2_9CandidateENS_9allocatorIS5_EEEERKNS2_20LanguageModelContextENS_8functionIFbRKNS2_13LanguageModel14PredictionInfoERKS5_SD_EEENSE_IFbSK_EEENS2_10LookupTypeEE3$_0PS5_EEjT1_ST_ST_T0_
++ __ZNSt3__17__sort3B8un170006INS_17_ClassicAlgPolicyERZNK2KB22LanguageModelContainer11predictionsERKNS2_20LanguageModelContextEmNS_8functionIFvRKNS2_13LanguageModel14PredictionInfoEEEEE3$_4PS9_EEjT1_SH_SH_T0_
++ __ZNSt3__17__sort4B8un170006INS_17_ClassicAlgPolicyERN2TI8Favonius28SearchNodeLanguageExtensions25LetterExtensionComparatorEPN3WTF6RefPtrINS3_16TypingHypothesisEEEEEvT1_SC_SC_SC_T0_
++ __ZNSt3__17__sort4B8un170006INS_17_ClassicAlgPolicyERN2TI8Favonius40SearchNodeLanguageThenGeometryExtensions25LetterExtensionComparatorEPN3WTF6RefPtrINS3_16TypingHypothesisEEEEEvT1_SC_SC_SC_T0_
++ __ZNSt3__17__sort4B8un170006INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPN2KB9CandidateEEEvT1_S8_S8_S8_T0_
++ __ZNSt3__17__sort4B8un170006INS_17_ClassicAlgPolicyERNS_7greaterIvEEPN2TI11ShortMemory10WordRecordEEEvT1_S9_S9_S9_T0_
++ __ZNSt3__17__sort4B8un170006INS_17_ClassicAlgPolicyERU13block_pointerFbRKN2KB9CandidateES5_EPS3_EEvT1_SA_SA_SA_T0_
++ __ZNSt3__17__sort4B8un170006INS_17_ClassicAlgPolicyERU13block_pointerFbRKN3WTF6RefPtrIN2TI8Favonius10SearchNodeEEES9_EPS7_EEvT1_SE_SE_SE_T0_
++ __ZNSt3__17__sort4B8un170006INS_17_ClassicAlgPolicyERU13block_pointerFbRKN3WTF6RefPtrIN2TI8Favonius16TypingHypothesisEEES9_EPS7_EEvT1_SE_SE_SE_T0_
++ __ZNSt3__17__sort4B8un170006INS_17_ClassicAlgPolicyERU13block_pointerFbRKN3WTF6RefPtrIN2TI8Favonius8KeyMatchEEES9_EPS7_EEvT1_SE_SE_SE_T0_
++ __ZNSt3__17__sort4B8un170006INS_17_ClassicAlgPolicyERU13block_pointerFbRKN3WTF6RefPtrIN2TI8Favonius9LayoutKeyEEES9_EPS7_EEvT1_SE_SE_SE_T0_
++ __ZNSt3__17__sort4B8un170006INS_17_ClassicAlgPolicyERU8__strongU13block_pointerFbRKN3WTF6RefPtrIN2TI8Favonius16TypingHypothesisEEES9_EPS7_EEvT1_SF_SF_SF_T0_
++ __ZNSt3__17__sort4B8un170006INS_17_ClassicAlgPolicyERZN2KB19CandidateCollection18sort_by_word_scoreEvE3$_3PNS2_9CandidateEEEvT1_S8_S8_S8_T0_
++ __ZNSt3__17__sort4B8un170006INS_17_ClassicAlgPolicyERZN2KB19CandidateCollection4sortEvE3$_2PNS2_9CandidateEEEvT1_S8_S8_S8_T0_
++ __ZNSt3__17__sort4B8un170006INS_17_ClassicAlgPolicyERZN2TI2CP28SearchNodeLanguageExtensions23decrease_bound_on_scoreEvE3$_0PN3WTF6RefPtrINS2_8Favonius16TypingHypothesisEEEEEvT1_SD_SD_SD_T0_
++ __ZNSt3__17__sort4B8un170006INS_17_ClassicAlgPolicyERZN2TI2CP33SearchNodeKeyPredictionExtensions23decrease_bound_on_scoreEvE3$_1PN3WTF6RefPtrINS2_8Favonius16TypingHypothesisEEEEEvT1_SD_SD_SD_T0_
++ __ZNSt3__17__sort4B8un170006INS_17_ClassicAlgPolicyERZNK2KB16LanguageModelStr11completionsERKNS_6vectorINS2_9CandidateENS_9allocatorIS5_EEEERKNS2_20LanguageModelContextENS_8functionIFbRKNS2_13LanguageModel14PredictionInfoERKS5_SD_EEENSE_IFbSK_EEENS2_10LookupTypeEE3$_0PS5_EEvT1_ST_ST_ST_T0_
++ __ZNSt3__17__sort4B8un170006INS_17_ClassicAlgPolicyERZNK2KB22LanguageModelContainer11predictionsERKNS2_20LanguageModelContextEmNS_8functionIFvRKNS2_13LanguageModel14PredictionInfoEEEEE3$_4PS9_EEvT1_SH_SH_SH_T0_
++ __ZNSt3__17__sort5B8un170006INS_17_ClassicAlgPolicyERN2TI8Favonius28SearchNodeLanguageExtensions25LetterExtensionComparatorEPN3WTF6RefPtrINS3_16TypingHypothesisEEEEEvT1_SC_SC_SC_SC_T0_
++ __ZNSt3__17__sort5B8un170006INS_17_ClassicAlgPolicyERN2TI8Favonius40SearchNodeLanguageThenGeometryExtensions25LetterExtensionComparatorEPN3WTF6RefPtrINS3_16TypingHypothesisEEEEEvT1_SC_SC_SC_SC_T0_
++ __ZNSt3__17__sort5B8un170006INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPN2KB9CandidateEEEvT1_S8_S8_S8_S8_T0_
++ __ZNSt3__17__sort5B8un170006INS_17_ClassicAlgPolicyERNS_7greaterIvEEPN2TI11ShortMemory10WordRecordEEEvT1_S9_S9_S9_S9_T0_
++ __ZNSt3__17__sort5B8un170006INS_17_ClassicAlgPolicyERU13block_pointerFbRKN2KB9CandidateES5_EPS3_EEvT1_SA_SA_SA_SA_T0_
++ __ZNSt3__17__sort5B8un170006INS_17_ClassicAlgPolicyERU13block_pointerFbRKN3WTF6RefPtrIN2TI8Favonius10SearchNodeEEES9_EPS7_EEvT1_SE_SE_SE_SE_T0_
++ __ZNSt3__17__sort5B8un170006INS_17_ClassicAlgPolicyERU13block_pointerFbRKN3WTF6RefPtrIN2TI8Favonius16TypingHypothesisEEES9_EPS7_EEvT1_SE_SE_SE_SE_T0_
++ __ZNSt3__17__sort5B8un170006INS_17_ClassicAlgPolicyERU13block_pointerFbRKN3WTF6RefPtrIN2TI8Favonius8KeyMatchEEES9_EPS7_EEvT1_SE_SE_SE_SE_T0_
++ __ZNSt3__17__sort5B8un170006INS_17_ClassicAlgPolicyERU13block_pointerFbRKN3WTF6RefPtrIN2TI8Favonius9LayoutKeyEEES9_EPS7_EEvT1_SE_SE_SE_SE_T0_
++ __ZNSt3__17__sort5B8un170006INS_17_ClassicAlgPolicyERU8__strongU13block_pointerFbRKN3WTF6RefPtrIN2TI8Favonius16TypingHypothesisEEES9_EPS7_EEvT1_SF_SF_SF_SF_T0_
++ __ZNSt3__18_IterOpsINS_17_ClassicAlgPolicyEE9iter_swapB8un170006IRNS_11__wrap_iterIPN2KB9CandidateEEES9_EEvOT_OT0_
++ __ZNSt3__18_IterOpsINS_17_ClassicAlgPolicyEE9iter_swapB8un170006IRPN2KB9CandidateES6_EEvOT_OT0_
++ __ZNSt3__18_IterOpsINS_17_ClassicAlgPolicyEE9iter_swapB8un170006IRPN2KB9CandidateES7_EEvOT_OT0_
++ __ZNSt3__18_IterOpsINS_17_ClassicAlgPolicyEE9iter_swapB8un170006IRPN2TI11ShortMemory10WordRecordES8_EEvOT_OT0_
++ __ZNSt3__18cmp_lessB8un170006IjjEEbT_T0_
++ __ZNSt3__18optionalIN2KB6StringEEaSB8un170006IRKS2_vEERS3_OT_
++ __ZNSt3__18optionalIN2KB6StringEEaSB8un170006IS2_vEERS3_OT_
++ __ZNSt3__18optionalINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEaSB8un170006IPKcvEERS7_OT_
++ __ZNSt3__19__advanceB8un170006IN2KB6String8iteratorEEEvRT_NS_15iterator_traitsIS4_E15difference_typeENS_26bidirectional_iterator_tagE
++ __ZNSt3__19__sift_upB8un170006INS_17_ClassicAlgPolicyERN2TI8Favonius21SearchNodeResultQueue17LessThanWordScoreENS_11__wrap_iterIPN3WTF6RefPtrINS3_10SearchNodeEEEEEEEvT1_SE_OT0_NS_15iterator_traitsISE_E15difference_typeE
++ __ZNSt3__19__sift_upB8un170006INS_17_ClassicAlgPolicyERN2TI8Favonius21SearchNodeSourceQueue15BoundComparatorENS_11__wrap_iterIPPNS3_16SearchNodeSourceEEEEEvT1_SC_OT0_NS_15iterator_traitsISC_E15difference_typeE
++ __ZNSt3__19__sift_upB8un170006INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPN2KB9CandidateEEEvT1_S8_OT0_NS_15iterator_traitsIS8_E15difference_typeE
++ __ZNSt3__19__sift_upB8un170006INS_17_ClassicAlgPolicyERU13block_pointerFbRKN3WTF6RefPtrIN2TI8Favonius16TypingHypothesisEEES9_EPS7_EEvT1_SE_OT0_NS_15iterator_traitsISE_E15difference_typeE
++ __ZNSt3__19__sift_upB8un170006INS_17_ClassicAlgPolicyERU13block_pointerFbRKN3WTF6RefPtrIN2TI8Favonius8KeyMatchEEES9_EPS7_EEvT1_SE_OT0_NS_15iterator_traitsISE_E15difference_typeE
++ __ZNSt3__19__sift_upB8un170006INS_17_ClassicAlgPolicyERZNK2TI8Favonius14KeyboardLayout41enumerate_keys_in_centroid_distance_orderE7CGPointU13block_pointerFvRKN3WTF6RefPtrINS3_9LayoutKeyEEEEE3$_0NS_11__wrap_iterIPS9_EEEEvT1_SJ_OT0_NS_15iterator_traitsISJ_E15difference_typeE
++ __ZNSt3__19cmp_equalB8un170006IjjEEbT_T0_
++ __ZNSt3__19remove_ifB8un170006INS_11__wrap_iterIPN2KB4WordEEEU13block_pointerFbRKS3_EEET_SA_SA_T0_
++ __ZNSt3__19remove_ifB8un170006INS_11__wrap_iterIPN2KB9CandidateEEEU13block_pointerFbRKS3_EEET_SA_SA_T0_
++ __ZNSt3__1ssB8un170006IcNS_11char_traitsIcEEEEDaNS_17basic_string_viewIT_T0_EES7_
++ __ZNSt3__1ssB8un170006IcNS_11char_traitsIcEENS_9allocatorIcEEEEDaRKNS_12basic_stringIT_T0_T1_EESC_
++ __ZSt28__throw_bad_array_new_lengthB8un170006v
++ __ZTVNSt3__110__function6__funcIZNK2KB16LanguageModelStr11completionsERKNS_6vectorINS2_9CandidateENS_9allocatorIS5_EEEERKNS2_20LanguageModelContextENS_8functionIFbRKNS2_13LanguageModel14PredictionInfoERKS5_SD_EEENSE_IFbSK_EEENS2_10LookupTypeEE3$_1NS6_ISQ_EESL_EE
++ __ZTVNSt3__110__function6__funcIZNK2KB16LanguageModelStr11predictionsERKNS_6vectorINS2_9CandidateENS_9allocatorIS5_EEEERKNS2_20LanguageModelContextENS_8functionIFbRKNS2_13LanguageModel14PredictionInfoERKS5_SD_EEEbE3$_3NS6_ISN_EEFbRKN17language_modeling2v110PredictionEEEE
++ __ZTVNSt3__110__function6__funcIZNK2KB16LanguageModelStr11predictionsERKNS_6vectorINS2_9CandidateENS_9allocatorIS5_EEEERKNS2_20LanguageModelContextENS_8functionIFbRKNS2_13LanguageModel14PredictionInfoERKS5_SD_EEEbE3$_4NS6_ISN_EEFvSI_EEE
++ __ZTVNSt3__110__function6__funcIZNK2KB21LanguageModelImplStub11predictionsERKNS_6vectorINS2_9CandidateENS_9allocatorIS5_EEEERKNS2_20LanguageModelContextENS_8functionIFbRKNS2_13LanguageModel14PredictionInfoERKS5_SD_EEEbE3$_0NS6_ISN_EEFvSI_EEE
++ __ZTVNSt3__110__function6__funcIZNK2KB22LanguageModelContainer11completionsERKNS_6vectorINS2_9CandidateENS_9allocatorIS5_EEEERKNS2_20LanguageModelContextENS_8functionIFbRKNS2_13LanguageModel14PredictionInfoERKS5_SD_EEENSE_IFbSK_EEENS2_10LookupTypeEE3$_6NS6_ISQ_EEFbSA_SD_SM_mEEE
++ __ZTVNSt3__110__function6__funcIZNK2KB22LanguageModelContainer11predictionsERKNS_6vectorINS2_9CandidateENS_9allocatorIS5_EEEERKNS2_20LanguageModelContextENS_8functionIFbRKNS2_13LanguageModel14PredictionInfoERKS5_SD_EEEbE3$_5NS6_ISN_EEFbSA_SD_SM_mEEE
++ __ZTVNSt3__110__function6__funcIZNK2KB22LanguageModelContainer19unified_predictionsERKNS_6vectorINS2_9CandidateENS_9allocatorIS5_EEEERKNS2_20LanguageModelContextENS_8functionIFbRKNS2_13LanguageModel14PredictionInfoERKS5_SD_EEENSE_IFbSA_SD_SM_mEEEE3$_7NS6_ISP_EESL_EE
++ __ZTVNSt3__110__function6__funcIZNK2KB22NgramCandidateRefinery42completions_from_candidate_string_based_lmERKNS_6vectorINS2_9CandidateENS_9allocatorIS5_EEEERKNS2_20LanguageModelContextERNS2_19CandidateCollectionEfNS2_10LookupTypeEE3$_4NS6_ISH_EEFbRKNS2_13LanguageModel14PredictionInfoERKS5_SD_EEE
++ __ZTVNSt3__110__function6__funcIZNK2KB22NgramCandidateRefinery42predictions_from_candidate_string_based_lmERKNS_6vectorINS2_9CandidateENS_9allocatorIS5_EEEERKNS2_20LanguageModelContextERNS2_19CandidateCollectionEE3$_2NS6_ISG_EEFbRKNS2_13LanguageModel14PredictionInfoERKS5_SD_EEE
++ __ZZNK2KB16LanguageModelStr11predictionsERKNSt3__16vectorINS_9CandidateENS1_9allocatorIS3_EEEERKNS_20LanguageModelContextENS1_8functionIFbRKNS_13LanguageModel14PredictionInfoERKS3_SB_EEEbENK3$_2clERS9_RS3_
++ __ZZNSt3__116__variant_detail12__assignmentINS0_8__traitsIJbNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEEEE12__assign_altB8un170006ILm1ES8_RPKcEEvRNS0_5__altIXT_ET0_EEOT1_ENKUt_clB8un170006ENS_17integral_constantIbLb0EEE
++ ___100-[TIAppAutofillManager generateAutofillFormCandidatesWithRenderTraits:withKeyboardState:completion:]_block_invoke.190
++ ___100-[TIAppAutofillManager generateAutofillFormCandidatesWithRenderTraits:withKeyboardState:completion:]_block_invoke_2.191
++ ___114-[TIAppAutofillManager generateAutofillFormSuggestedUsernameWithRenderTraits:withKeyboardState:completionHandler:]_block_invoke.278
++ ___129-[TIAppAutofillManager generateHideMyEmailCandidateWithSlotID:applicationBundleId:applicationId:keyboardState:completionHandler:]_block_invoke.292
++ ___129-[TIAppAutofillManager generateHideMyEmailCandidateWithSlotID:applicationBundleId:applicationId:keyboardState:completionHandler:]_block_invoke.297
++ ___129-[TIAppAutofillManager generateHideMyEmailCandidateWithSlotID:applicationBundleId:applicationId:keyboardState:completionHandler:]_block_invoke.302
++ ___129-[TIAppAutofillManager generateHideMyEmailCandidateWithSlotID:applicationBundleId:applicationId:keyboardState:completionHandler:]_block_invoke.324
++ ___129-[TIAppAutofillManager generateHideMyEmailCandidateWithSlotID:applicationBundleId:applicationId:keyboardState:completionHandler:]_block_invoke.328
++ ___129-[TIAppAutofillManager generateHideMyEmailCandidateWithSlotID:applicationBundleId:applicationId:keyboardState:completionHandler:]_block_invoke_2.299
++ ___129-[TIAppAutofillManager generateHideMyEmailCandidateWithSlotID:applicationBundleId:applicationId:keyboardState:completionHandler:]_block_invoke_2.325
++ ___134-[TIStickerCandidateGenerator generateStickerCandidatesForSearchableQueries:withRenderTraits:shouldAppend:language:completionHandler:]_block_invoke.121
++ ___134-[TIStickerCandidateGenerator generateStickerCandidatesForSearchableQueries:withRenderTraits:shouldAppend:language:completionHandler:]_block_invoke.144
++ ___134-[TIStickerCandidateGenerator generateStickerCandidatesForSearchableQueries:withRenderTraits:shouldAppend:language:completionHandler:]_block_invoke_2.140
++ ___220-[TIResponseKitManager generateResponseKitSuggestionsForString:withLanguage:withClientID:withRecipientID:withAdditionalPredictions:desiredCandidateCount:shouldDisableAutoCaps:stringIsBlocklisted:async:completionHandler:]_block_invoke
++ ___220-[TIResponseKitManager generateResponseKitSuggestionsForString:withLanguage:withClientID:withRecipientID:withAdditionalPredictions:desiredCandidateCount:shouldDisableAutoCaps:stringIsBlocklisted:async:completionHandler:]_block_invoke.2
++ ___220-[TIResponseKitManager generateResponseKitSuggestionsForString:withLanguage:withClientID:withRecipientID:withAdditionalPredictions:desiredCandidateCount:shouldDisableAutoCaps:stringIsBlocklisted:async:completionHandler:]_block_invoke_2
++ ___35-[TIFeedbackController retrySurvey]_block_invoke
++ ___35-[TIFeedbackController retrySurvey]_block_invoke.66
++ ___37-[TISKMetricCollector _processEvents]_block_invoke.225
++ ___43-[TIFeedbackController setPreferenceValue:]_block_invoke
++ ___46-[TIAssetManager registerCacheDeleteCallbacks]_block_invoke.302
++ ___46-[TIAssetManager registerCacheDeleteCallbacks]_block_invoke.306
++ ___46-[TIFeedbackController assessAndScheduleRetry]_block_invoke
++ ___60-[TIKeyboardInputManager suggestionBlocklistMatchesStrings:]_block_invoke
++ ___63-[TIAssetManager scheduleAssetsDidChangeNotificationWithDelay:]_block_invoke.217
++ ___63-[TIAssetManager scheduleAssetsDidChangeNotificationWithDelay:]_block_invoke.221
++ ___65-[TIAppAutofillManager hasCoreTelephonyEntitlementForConnection:]_block_invoke
++ ___65-[TIKeyboardInputManager_mul updateLanguageModelForKeyboardState]_block_invoke.50
++ ___67-[TIAssetManager updatedActiveRegionsWithCompletionWithCompletion:]_block_invoke.263
++ ___67-[TIAssetManager updatedActiveRegionsWithCompletionWithCompletion:]_block_invoke.267
++ ___68-[TIAppAutofillManager shouldAcceptAutofill:withPayload:completion:]_block_invoke.365
++ ___68-[TIAppAutofillManager shouldAcceptAutofill:withPayload:completion:]_block_invoke_2.366
++ ___70-[TIAppAutofillManager presentHideMyEmailUI:keyboardState:completion:]_block_invoke.371
++ ___88-[TIFeedbackController handleFeedbackStateResponsePendingWithDelegate:isEligibleDevice:]_block_invoke
++ ___Block_byref_object_copy_.10163
++ ___Block_byref_object_copy_.10249
++ ___Block_byref_object_copy_.10942
++ ___Block_byref_object_copy_.11464
++ ___Block_byref_object_copy_.11582
++ ___Block_byref_object_copy_.11959
++ ___Block_byref_object_copy_.12421
++ ___Block_byref_object_copy_.12459
++ ___Block_byref_object_copy_.12850
++ ___Block_byref_object_copy_.14208
++ ___Block_byref_object_copy_.14967
++ ___Block_byref_object_copy_.1542
++ ___Block_byref_object_copy_.16307
++ ___Block_byref_object_copy_.16544
++ ___Block_byref_object_copy_.17020
++ ___Block_byref_object_copy_.1792
++ ___Block_byref_object_copy_.18048
++ ___Block_byref_object_copy_.18644
++ ___Block_byref_object_copy_.18703
++ ___Block_byref_object_copy_.18786
++ ___Block_byref_object_copy_.19407
++ ___Block_byref_object_copy_.1956
++ ___Block_byref_object_copy_.19866
++ ___Block_byref_object_copy_.19904
++ ___Block_byref_object_copy_.20343
++ ___Block_byref_object_copy_.20877
++ ___Block_byref_object_copy_.22044
++ ___Block_byref_object_copy_.22174
++ ___Block_byref_object_copy_.22338
++ ___Block_byref_object_copy_.22509
++ ___Block_byref_object_copy_.22859
++ ___Block_byref_object_copy_.2302
++ ___Block_byref_object_copy_.23097
++ ___Block_byref_object_copy_.2475
++ ___Block_byref_object_copy_.2551
++ ___Block_byref_object_copy_.261
++ ___Block_byref_object_copy_.3017
++ ___Block_byref_object_copy_.36
++ ___Block_byref_object_copy_.3972
++ ___Block_byref_object_copy_.457
++ ___Block_byref_object_copy_.47
++ ___Block_byref_object_copy_.5098
++ ___Block_byref_object_copy_.5552
++ ___Block_byref_object_copy_.6065
++ ___Block_byref_object_copy_.6168
++ ___Block_byref_object_copy_.63
++ ___Block_byref_object_copy_.6704
++ ___Block_byref_object_copy_.7047
++ ___Block_byref_object_copy_.7210
++ ___Block_byref_object_copy_.7685
++ ___Block_byref_object_copy_.7950
++ ___Block_byref_object_copy_.8095
++ ___Block_byref_object_copy_.823
++ ___Block_byref_object_copy_.9203
++ ___Block_byref_object_copy_.9481
++ ___Block_byref_object_copy_.9789
++ ___Block_byref_object_dispose_.10164
++ ___Block_byref_object_dispose_.10250
++ ___Block_byref_object_dispose_.10943
++ ___Block_byref_object_dispose_.11465
++ ___Block_byref_object_dispose_.11583
++ ___Block_byref_object_dispose_.11960
++ ___Block_byref_object_dispose_.12422
++ ___Block_byref_object_dispose_.12460
++ ___Block_byref_object_dispose_.12851
++ ___Block_byref_object_dispose_.14209
++ ___Block_byref_object_dispose_.14968
++ ___Block_byref_object_dispose_.1543
++ ___Block_byref_object_dispose_.16308
++ ___Block_byref_object_dispose_.16545
++ ___Block_byref_object_dispose_.17021
++ ___Block_byref_object_dispose_.1793
++ ___Block_byref_object_dispose_.18049
++ ___Block_byref_object_dispose_.18645
++ ___Block_byref_object_dispose_.18704
++ ___Block_byref_object_dispose_.18787
++ ___Block_byref_object_dispose_.19408
++ ___Block_byref_object_dispose_.1957
++ ___Block_byref_object_dispose_.19867
++ ___Block_byref_object_dispose_.19905
++ ___Block_byref_object_dispose_.20344
++ ___Block_byref_object_dispose_.20878
++ ___Block_byref_object_dispose_.22045
++ ___Block_byref_object_dispose_.22175
++ ___Block_byref_object_dispose_.22339
++ ___Block_byref_object_dispose_.22510
++ ___Block_byref_object_dispose_.22860
++ ___Block_byref_object_dispose_.2303
++ ___Block_byref_object_dispose_.23098
++ ___Block_byref_object_dispose_.2476
++ ___Block_byref_object_dispose_.2552
++ ___Block_byref_object_dispose_.262
++ ___Block_byref_object_dispose_.3018
++ ___Block_byref_object_dispose_.37
++ ___Block_byref_object_dispose_.3973
++ ___Block_byref_object_dispose_.458
++ ___Block_byref_object_dispose_.48
++ ___Block_byref_object_dispose_.5099
++ ___Block_byref_object_dispose_.5553
++ ___Block_byref_object_dispose_.6066
++ ___Block_byref_object_dispose_.6169
++ ___Block_byref_object_dispose_.64
++ ___Block_byref_object_dispose_.6705
++ ___Block_byref_object_dispose_.7048
++ ___Block_byref_object_dispose_.7211
++ ___Block_byref_object_dispose_.7686
++ ___Block_byref_object_dispose_.7951
++ ___Block_byref_object_dispose_.8096
++ ___Block_byref_object_dispose_.824
++ ___Block_byref_object_dispose_.9204
++ ___Block_byref_object_dispose_.9482
++ ___Block_byref_object_dispose_.9790
++ ___CoreServicesLibraryCore_block_invoke.8673
++ ___CoreTelephonyLibraryCore_block_invoke
++ ___KeyboardServicesLibraryCore_block_invoke.14000
++ ___ManagedConfigurationLibraryCore_block_invoke.13990
++ ___SensorKitLibraryCore_block_invoke.18376
++ ___SpringBoardServicesLibraryCore_block_invoke.17608
++ ___StickersLibraryCore_block_invoke.13335
++ ___block_descriptor_40_8_32r_e25_v32?0"NSString"8Q16^B24lr32l8
++ ___block_descriptor_40_8_32s_e17_v16?0"NSError"8ls32l8
++ ___block_descriptor_40_8_32s_e39_v24?0"FBKSFeedbackCount"8"NSError"16ls32l8
++ ___block_descriptor_48_8_32s40s_e39_v24?0"FBKSFeedbackCount"8"NSError"16ls32l8s40l8
++ ___block_descriptor_64_8_32s40s48bs56w_e38_v16?0"TIKeyboardCandidateResultSet"8lw56l8s48l8s32l8s40l8
++ ___block_descriptor_tmp.10.10153
++ ___block_descriptor_tmp.10.16698
++ ___block_descriptor_tmp.10.5976
++ ___block_descriptor_tmp.10161
++ ___block_descriptor_tmp.11.16697
++ ___block_descriptor_tmp.11445
++ ___block_descriptor_tmp.11466
++ ___block_descriptor_tmp.11863
++ ___block_descriptor_tmp.11887
++ ___block_descriptor_tmp.12.11958
++ ___block_descriptor_tmp.12.16695
++ ___block_descriptor_tmp.12500
++ ___block_descriptor_tmp.13.16700
++ ___block_descriptor_tmp.13040
++ ___block_descriptor_tmp.14210
++ ___block_descriptor_tmp.14237
++ ___block_descriptor_tmp.15.11961
++ ___block_descriptor_tmp.15.16699
++ ___block_descriptor_tmp.15226
++ ___block_descriptor_tmp.16329
++ ___block_descriptor_tmp.16705
++ ___block_descriptor_tmp.17389
++ ___block_descriptor_tmp.18648
++ ___block_descriptor_tmp.18668
++ ___block_descriptor_tmp.19906
++ ___block_descriptor_tmp.2.14214
++ ___block_descriptor_tmp.2.16309
++ ___block_descriptor_tmp.2.16709
++ ___block_descriptor_tmp.2.18646
++ ___block_descriptor_tmp.20345
++ ___block_descriptor_tmp.22891
++ ___block_descriptor_tmp.23099
++ ___block_descriptor_tmp.24.11875
++ ___block_descriptor_tmp.26.16720
++ ___block_descriptor_tmp.3.16712
++ ___block_descriptor_tmp.3.17390
++ ___block_descriptor_tmp.3428
++ ___block_descriptor_tmp.4.10165
++ ___block_descriptor_tmp.4.11886
++ ___block_descriptor_tmp.4.11964
++ ___block_descriptor_tmp.4.16312
++ ___block_descriptor_tmp.4.16715
++ ___block_descriptor_tmp.4837
++ ___block_descriptor_tmp.4919
++ ___block_descriptor_tmp.5.11506
++ ___block_descriptor_tmp.5100
++ ___block_descriptor_tmp.5207
++ ___block_descriptor_tmp.5974
++ ___block_descriptor_tmp.6.16723
++ ___block_descriptor_tmp.6.17406
++ ___block_descriptor_tmp.7.11500
++ ___block_descriptor_tmp.7.14212
++ ___block_descriptor_tmp.7.5975
++ ___block_descriptor_tmp.7676
++ ___block_descriptor_tmp.8.10157
++ ___block_descriptor_tmp.8.11885
++ ___block_descriptor_tmp.8.11953
++ ___block_descriptor_tmp.8.16719
++ ___block_descriptor_tmp.8.18652
++ ___block_descriptor_tmp.8.4889
++ ___block_descriptor_tmp.9.16718
++ ___block_descriptor_tmp.9.18656
++ ___block_descriptor_tmp.9513
++ ___block_literal_global.10.15338
++ ___block_literal_global.11144
++ ___block_literal_global.11473
++ ___block_literal_global.11615
++ ___block_literal_global.11854
++ ___block_literal_global.11859
++ ___block_literal_global.120
++ ___block_literal_global.1228
++ ___block_literal_global.12498
++ ___block_literal_global.125
++ ___block_literal_global.12616
++ ___block_literal_global.129.16613
++ ___block_literal_global.12974
++ ___block_literal_global.13038
++ ___block_literal_global.13410
++ ___block_literal_global.14027
++ ___block_literal_global.14251
++ ___block_literal_global.14431
++ ___block_literal_global.14667
++ ___block_literal_global.14848
++ ___block_literal_global.15359
++ ___block_literal_global.15513
++ ___block_literal_global.16310
++ ___block_literal_global.16351
++ ___block_literal_global.16369
++ ___block_literal_global.16628
++ ___block_literal_global.16703
++ ___block_literal_global.16869
++ ___block_literal_global.17.13413
++ ___block_literal_global.17.14014
++ ___block_literal_global.17.15325
++ ___block_literal_global.17.6934
++ ___block_literal_global.17213
++ ___block_literal_global.1749
++ ___block_literal_global.17622
++ ___block_literal_global.17696
++ ___block_literal_global.18073
++ ___block_literal_global.18182
++ ___block_literal_global.1825
++ ___block_literal_global.18666
++ ___block_literal_global.18696
++ ___block_literal_global.19422
++ ___block_literal_global.19716
++ ___block_literal_global.1974
++ ___block_literal_global.20.11963
++ ___block_literal_global.20297
++ ___block_literal_global.20460
++ ___block_literal_global.2080
++ ___block_literal_global.20815
++ ___block_literal_global.22204
++ ___block_literal_global.2237
++ ___block_literal_global.224
++ ___block_literal_global.22535
++ ___block_literal_global.22586
++ ___block_literal_global.22733
++ ___block_literal_global.22740
++ ___block_literal_global.22849
++ ___block_literal_global.22889
++ ___block_literal_global.23.11878
++ ___block_literal_global.24.7313
++ ___block_literal_global.2406
++ ___block_literal_global.2591
++ ___block_literal_global.274
++ ___block_literal_global.2877
++ ___block_literal_global.306
++ ___block_literal_global.308
++ ___block_literal_global.3408
++ ___block_literal_global.346.17698
++ ___block_literal_global.3506
++ ___block_literal_global.3527
++ ___block_literal_global.3753
++ ___block_literal_global.3841
++ ___block_literal_global.3857
++ ___block_literal_global.3994
++ ___block_literal_global.4.7075
++ ___block_literal_global.406
++ ___block_literal_global.4109
++ ___block_literal_global.4396
++ ___block_literal_global.48.22755
++ ___block_literal_global.4835
++ ___block_literal_global.5205
++ ___block_literal_global.525
++ ___block_literal_global.5800
++ ___block_literal_global.5934
++ ___block_literal_global.6069
++ ___block_literal_global.61.22772
++ ___block_literal_global.6317
++ ___block_literal_global.64.22777
++ ___block_literal_global.6654
++ ___block_literal_global.67.22782
++ ___block_literal_global.7078
++ ___block_literal_global.721
++ ___block_literal_global.73.22790
++ ___block_literal_global.7310
++ ___block_literal_global.7478
++ ___block_literal_global.79.22798
++ ___block_literal_global.8057
++ ___block_literal_global.8378
++ ___block_literal_global.8697
++ ___block_literal_global.87.15546
++ ___block_literal_global.8789
++ ___block_literal_global.88
++ ___block_literal_global.9.18044
++ ___block_literal_global.9487
++ ___block_literal_global.9843
++ ___getCoreTelephonyClientClass_block_invoke
++ ___getLSApplicationProxyClass_block_invoke.8654
++ ___getMCProfileConnectionClass_block_invoke.13983
++ ___testingInstance.20464
++ ___testingInstance.22532
++ ___testingInstance.3511
++ ___testingInstance.6319
++ ___testingInstance.6861
++ ___testingInstance.7315
++ __unnamed_array_storage.11179
++ __unnamed_array_storage.115
++ __unnamed_array_storage.11848
++ __unnamed_array_storage.12606
++ __unnamed_array_storage.12886
++ __unnamed_array_storage.1534
++ __unnamed_array_storage.16270
++ __unnamed_array_storage.1800
++ __unnamed_array_storage.19313
++ __unnamed_array_storage.20841
++ __unnamed_array_storage.21322
++ __unnamed_array_storage.21385
++ __unnamed_array_storage.245
++ __unnamed_array_storage.246
++ __unnamed_array_storage.251
++ __unnamed_array_storage.252
++ __unnamed_array_storage.258
++ __unnamed_array_storage.259
++ __unnamed_array_storage.2876
++ __unnamed_array_storage.376
++ __unnamed_array_storage.529
++ __unnamed_array_storage.732
++ __unnamed_array_storage.8111
++ _audit_stringCoreServices.8676
++ _audit_stringCoreTelephony
++ _audit_stringKeyboardServices.14002
++ _audit_stringManagedConfiguration.13992
++ _audit_stringSensorKit.18379
++ _audit_stringSpringBoardServices.17610
++ _audit_stringStickers.13338
++ _deviceClassString
++ _getCoreTelephonyClientClass.softClass
++ _getLSApplicationProxyClass.softClass.8653
++ _getMCProfileConnectionClass.softClass.13982
++ _kAssetAvailabilityStatus
++ _kAssetAvailabilityStatusFieldName
++ _kDaysCount
++ _kDaysCountFieldName
++ _kFeedbackCounterAutocorrectionEnablementRevisedCorrectedWords
++ _kFeedbackCounterAutocorrectionEnablementRevisedWords
++ _kRevisedCorrectedWordCountFieldName
++ _kRevisedWordAutocorrectionCount
++ _kRevisedWordCount
++ _kRevisedWordCountFieldName
++ _objc_msgSend$_writeToFileWithTypologyLog:directoryURL:requireDeviceUnlocked:
++ _objc_msgSend$analyzerForUserModel:revisionRateAnalysisSummary:
++ _objc_msgSend$assessAndScheduleRetry
++ _objc_msgSend$autocorrectedCount
++ _objc_msgSend$cannedResponsesForString:withLanguageID:withClientID:withRecipientID:withAdditionalPredictions:desiredCandidateCount:shouldDisableAutoCaps:isBlocklisted:
++ _objc_msgSend$clearStudyState
++ _objc_msgSend$collectFeedbackWithLaunchConfiguration:completion:
++ _objc_msgSend$copySortedEmojis:keyword:localeIdentifier:
++ _objc_msgSend$coreAnalyticsEventDispatcher
++ _objc_msgSend$coreTelephonyMockObject
++ _objc_msgSend$currentCampaign
++ _objc_msgSend$declineCount
++ _objc_msgSend$dispatchAllEventsWithDelegate:
++ _objc_msgSend$dispatchFeedbackAnalyzers:aligned:revisionRateAnalysisSummary:
++ _objc_msgSend$dispatchScheduledEventsWithDelegate:overrideSchedule:
++ _objc_msgSend$feedbackFiled
++ _objc_msgSend$fetchCountsForFormWithIdentifier:completion:
++ _objc_msgSend$generateCellularCandidatesWithKeyboardState:
++ _objc_msgSend$generateCellularCandidatesWithRenderTraits:withKeyboardState:
++ _objc_msgSend$generateResponseKitSuggestionsForString:withLanguage:withClientID:withRecipientID:withAdditionalPredictions:desiredCandidateCount:shouldDisableAutoCaps:stringIsBlocklisted:async:completionHandler:
++ _objc_msgSend$getCompletionEventTimestamp
++ _objc_msgSend$getFeedbackState
++ _objc_msgSend$getFinalInputModes
++ _objc_msgSend$getFinalPreferenceValue
++ _objc_msgSend$getFinalTimestamp
++ _objc_msgSend$getFormIdentifier
++ _objc_msgSend$getFormMetadata
++ _objc_msgSend$getInitialInputModes
++ _objc_msgSend$getInitialPreferenceValue
++ _objc_msgSend$getInitialTimestamp
++ _objc_msgSend$getInitiationEventTimestamp
++ _objc_msgSend$getLanguageRegionForSession:
++ _objc_msgSend$getPreferenceKey
++ _objc_msgSend$getRequestSurveyEventTimestamp
++ _objc_msgSend$getRetryTimestamp
++ _objc_msgSend$getStudyID
++ _objc_msgSend$getSupportedFeedbackLanguages
++ _objc_msgSend$getSupportedLangRegion
++ _objc_msgSend$getSurveyOutcome
++ _objc_msgSend$handleFeedbackStateCompletionPendingWithDelegate:isEligibleDevice:
++ _objc_msgSend$handleFeedbackStateInitiatedWithDelegate:isEligibleDevice:isPreferenceEnabled:
++ _objc_msgSend$handleFeedbackStateNoneWithDelegate:isEligibleDevice:
++ _objc_msgSend$handleFeedbackStateResponsePendingWithDelegate:isEligibleDevice:
++ _objc_msgSend$handleFeedbackStateRetryPendingWithDelegate:isEligibleDevice:
++ _objc_msgSend$hasCoreTelephonyEntitlementForConnection:
++ _objc_msgSend$initWithFeedbackForm:
++ _objc_msgSend$initWithQueue:
++ _objc_msgSend$initWithUserModel:revisionRateAnalysisSummary:
++ _objc_msgSend$initiateStudyWithInputModes:initialPreferenceValue:
++ _objc_msgSend$inputManagerLogger
++ _objc_msgSend$isFCSBuild
++ _objc_msgSend$isFeatureEnabledForInternalBuilds
++ _objc_msgSend$isInternalDeviceWithForcedTypologyLoggingForTesting
++ _objc_msgSend$isUsingMultilingual
++ _objc_msgSend$languageRegion
++ _objc_msgSend$localizedCellularAutofillStringForKey:defaultValue:
++ _objc_msgSend$needCellularAutofill
++ _objc_msgSend$outpath
++ _objc_msgSend$prefill:answer:
++ _objc_msgSend$removeCompletionEventTimestamp
++ _objc_msgSend$removeInitiationEventTimestamp
++ _objc_msgSend$removeRequestSurveyEventTimestamp
++ _objc_msgSend$retrieveDeviceIdentifier:
++ _objc_msgSend$retrieveDeviceIdentifier:clientBundleIdentifier:showAlert:error:
++ _objc_msgSend$retrieveDeviceIdentifier:error:
++ _objc_msgSend$retrySurvey
++ _objc_msgSend$revisedAutocorrectionCount
++ _objc_msgSend$revisedCount
++ _objc_msgSend$revisionRateAnalysisSummary
++ _objc_msgSend$revisionRateAnalyzer
++ _objc_msgSend$scheduleRetry
++ _objc_msgSend$scheduleSurveyRequestEvent
++ _objc_msgSend$sendCAEventForStudyStatus:
++ _objc_msgSend$sendRequestSurveyEventUsingStudyDataFromFeedbackController:
++ _objc_msgSend$sendUpgradeEventUsingStudyDataFromFeedbackController:
++ _objc_msgSend$setAuthenticationMethod:
++ _objc_msgSend$setAutocorrectedCount:
++ _objc_msgSend$setCompletionEventTimestamp:
++ _objc_msgSend$setFeedbackState:
++ _objc_msgSend$setFinalInputModes:
++ _objc_msgSend$setFinalPreferenceValue:
++ _objc_msgSend$setFinalTimestamp:
++ _objc_msgSend$setInitialInputModes:
++ _objc_msgSend$setInitialPreferenceValue:
++ _objc_msgSend$setInitialTimestamp:
++ _objc_msgSend$setInitiationEventTimestamp:
++ _objc_msgSend$setLanguageRegion:
++ _objc_msgSend$setLocalizedPromptTitle:
++ _objc_msgSend$setPreferenceValue:
++ _objc_msgSend$setPromptStyle:
++ _objc_msgSend$setRequestSurveyEventTimestamp:
++ _objc_msgSend$setRetryTimestamp:
++ _objc_msgSend$setRevisedAutocorrectionCount:
++ _objc_msgSend$setRevisedCount:
++ _objc_msgSend$setRevisionRateAnalyzer:
++ _objc_msgSend$setShouldForceDoubleLineCandidateForCellularAutofill:
++ _objc_msgSend$setStudyEnrollment
++ _objc_msgSend$setStudyLanguageAndRegion:
++ _objc_msgSend$setTappedCount:
++ _objc_msgSend$shouldForceDoubleLineCandidateForCellularAutofill
++ _objc_msgSend$shouldPublishCAEventsImmediately
++ _objc_msgSend$suggestionBlocklistMatchesStrings:
++ _objc_msgSend$summarizeWithEventDictionary:languageRegion:
++ _objc_msgSend$tappedCount
++ _sharedInstance.instance.8698
++ _sharedInstance.onceToken.11853
++ _sharedInstance.onceToken.22732
++ _sharedInstance.onceToken.2927
++ _sharedInstance.onceToken.8696
++ _singletonInstance.onceToken.14026
++ _singletonInstance.onceToken.18072
++ _singletonInstance.onceToken.20459
++ _singletonInstance.onceToken.22534
++ _singletonInstance.onceToken.6316
++ _singletonInstance.onceToken.7309
++ _singletonInstance.singleton.18074
++ _singletonInstance.singletonInstance.14028
++ _singletonInstance.singletonInstance.20461
++ _singletonInstance.singletonInstance.22536
++ _singletonInstance.singletonInstance.7311
+- +[TIAutocorrectionFeedbackAnalyzer analyzerForUserModel:]
+- +[TIKeyboardInputManagerLogger _writeToFileWithTypologyLog:directoryURL:]
+- -[TIAutocorrectionFeedbackAnalyzer initWithUserModel:]
+- -[TIFeedbackController completionEventTimestampKey]
+- -[TIFeedbackController completionEventTimestamp]
+- -[TIFeedbackController countsRetainedKey]
+- -[TIFeedbackController countsRetained]
+- -[TIFeedbackController currentState]
+- -[TIFeedbackController dispatchScheduledEventsWithDelegate:]
+- -[TIFeedbackController feedbackFeatureEnabledKey]
+- -[TIFeedbackController finalInputModesKey]
+- -[TIFeedbackController finalInputModes]
+- -[TIFeedbackController finalPreferenceValueKey]
+- -[TIFeedbackController finalPreferenceValue]
+- -[TIFeedbackController finalTimestampKey]
+- -[TIFeedbackController finalTimestamp]
+- -[TIFeedbackController initWithPreferenceKey:supportedLanguages:]
+- -[TIFeedbackController initialInputModesKey]
+- -[TIFeedbackController initialInputModes]
+- -[TIFeedbackController initialPreferenceValueKey]
+- -[TIFeedbackController initialPreferenceValue]
+- -[TIFeedbackController initialTimestampKey]
+- -[TIFeedbackController initialTimestamp]
+- -[TIFeedbackController initiationEventTimestampKey]
+- -[TIFeedbackController initiationEventTimestamp]
+- -[TIFeedbackController isEligibleDevice]
+- -[TIFeedbackController preferenceKey]
+- -[TIFeedbackController setCompletionState]
+- -[TIFeedbackController stateKey]
+- -[TIFeedbackController supportedLanguages]
+- -[TIFeedbackController surveyOutcomeKey]
+- -[TIFeedbackController surveyOutcome]
+- -[TIFeedbackController updateStateWithValue:]
+- -[TIKBUserModel dispatchFeedbackAnalyzers:aligned:]
+- -[TIKeyboardInputManager suggestionBlacklistMatchesStrings:]
+- -[TIKeyboardInputManager tokenIDForWordSeparator:]
+- -[TIResponseKitManager cannedResponsesForString:withLanguageID:withClientID:withRecipientID:withAdditionalPredictions:desiredCandidateCount:shouldDisableAutoCaps:isBlacklisted:]
+- -[TIResponseKitManager generateResponseKitSuggestionsForString:withLanguage:withClientID:withRecipientID:withAdditionalPredictions:desiredCandidateCount:shouldDisableAutoCaps:stringIsBlacklisted:async:completionHandler:]
+- _CoreServicesLibraryCore.frameworkLibrary.8552
+- _KeyboardServicesLibrary.13817
+- _KeyboardServicesLibraryCore.frameworkLibrary.13819
+- _ManagedConfigurationLibrary.13806
+- _ManagedConfigurationLibraryCore.frameworkLibrary.13809
+- _OBJC_IVAR_$_TIFeedbackController._completionEventTimestampKey
+- _OBJC_IVAR_$_TIFeedbackController._countsRetainedKey
+- _OBJC_IVAR_$_TIFeedbackController._feedbackFeatureEnabledKey
+- _OBJC_IVAR_$_TIFeedbackController._finalInputModesKey
+- _OBJC_IVAR_$_TIFeedbackController._finalPreferenceValueKey
+- _OBJC_IVAR_$_TIFeedbackController._finalTimestampKey
+- _OBJC_IVAR_$_TIFeedbackController._initialInputModesKey
+- _OBJC_IVAR_$_TIFeedbackController._initialPreferenceValueKey
+- _OBJC_IVAR_$_TIFeedbackController._initialTimestampKey
+- _OBJC_IVAR_$_TIFeedbackController._initiationEventTimestampKey
+- _OBJC_IVAR_$_TIFeedbackController._preferenceKey
+- _OBJC_IVAR_$_TIFeedbackController._stateKey
+- _OBJC_IVAR_$_TIFeedbackController._supportedLanguages
+- _OBJC_IVAR_$_TIFeedbackController._surveyOutcomeKey
+- _OBJC_IVAR_$_TIKeyboardInputManagerWrapper._logger
+- _SensorKitLibrary.18161
+- _SensorKitLibraryCore.frameworkLibrary.18164
+- _SpringBoardServicesLibraryCore.frameworkLibrary.17402
+- _StickersLibraryCore.frameworkLibrary.13139
+- _TIFeedbackCompletionEventTimestampDefaultsKeyPrefix
+- _TIFeedbackCountsRetainedDefaultsKeyPrefix
+- _TIFeedbackFeatureEnabledDefaultsKeyPrefix
+- _TIFeedbackFinalInputModesDefaultsKeyPrefix
+- _TIFeedbackFinalPreferenceValueDefaultsKeyPrefix
+- _TIFeedbackFinalTimestampDefaultsKeyPrefix
+- _TIFeedbackInitialInputModesDefaultsKeyPrefix
+- _TIFeedbackInitialPreferenceValueDefaultsKeyPrefix
+- _TIFeedbackInitialTimestampDefaultsKeyPrefix
+- _TIFeedbackInitiationEventTimestampDefaultsKeyPrefix
+- _TIFeedbackKeyboardDefaultsDomain
+- _TIFeedbackStateDefaultsKeyPrefix
+- _TIFeedbackSurveyOutcomeDefaultsKeyPrefix
+- __OBJC_$_CLASS_METHODS_TIAppAutofillManager(TestingSupport)
+- __OBJC_$_CLASS_PROP_LIST_NSSecureCoding.18415
+- __OBJC_$_CLASS_PROP_LIST_NSSecureCoding.21902
+- __OBJC_$_CLASS_PROP_LIST_NSSecureCoding.4144
+- __OBJC_$_CLASS_PROP_LIST_NSSecureCoding.7889
+- __OBJC_$_INSTANCE_METHODS_TIAppAutofillManager(TestingSupport)
+- __OBJC_$_PROP_LIST_NSObject.10240
+- __OBJC_$_PROP_LIST_NSObject.11108
+- __OBJC_$_PROP_LIST_NSObject.1193
+- __OBJC_$_PROP_LIST_NSObject.11975
+- __OBJC_$_PROP_LIST_NSObject.12537
+- __OBJC_$_PROP_LIST_NSObject.12608
+- __OBJC_$_PROP_LIST_NSObject.12993
+- __OBJC_$_PROP_LIST_NSObject.13074
+- __OBJC_$_PROP_LIST_NSObject.13895
+- __OBJC_$_PROP_LIST_NSObject.14922
+- __OBJC_$_PROP_LIST_NSObject.15472
+- __OBJC_$_PROP_LIST_NSObject.15538
+- __OBJC_$_PROP_LIST_NSObject.16096
+- __OBJC_$_PROP_LIST_NSObject.17902
+- __OBJC_$_PROP_LIST_NSObject.18014
+- __OBJC_$_PROP_LIST_NSObject.18104
+- __OBJC_$_PROP_LIST_NSObject.19147
+- __OBJC_$_PROP_LIST_NSObject.193
+- __OBJC_$_PROP_LIST_NSObject.19533
+- __OBJC_$_PROP_LIST_NSObject.20279
+- __OBJC_$_PROP_LIST_NSObject.2088
+- __OBJC_$_PROP_LIST_NSObject.20981
+- __OBJC_$_PROP_LIST_NSObject.21903
+- __OBJC_$_PROP_LIST_NSObject.22067
+- __OBJC_$_PROP_LIST_NSObject.22419
+- __OBJC_$_PROP_LIST_NSObject.251
+- __OBJC_$_PROP_LIST_NSObject.2667
+- __OBJC_$_PROP_LIST_NSObject.3212
+- __OBJC_$_PROP_LIST_NSObject.3999
+- __OBJC_$_PROP_LIST_NSObject.4216
+- __OBJC_$_PROP_LIST_NSObject.5431
+- __OBJC_$_PROP_LIST_NSObject.6277
+- __OBJC_$_PROP_LIST_NSObject.6820
+- __OBJC_$_PROP_LIST_NSObject.7278
+- __OBJC_$_PROP_LIST_NSObject.7418
+- __OBJC_$_PROP_LIST_NSObject.7541
+- __OBJC_$_PROP_LIST_NSObject.8037
+- __OBJC_$_PROP_LIST_NSObject.826
+- __OBJC_$_PROP_LIST_NSObject.8622
+- __OBJC_$_PROP_LIST_NSObject.9048
+- __OBJC_$_PROP_LIST_NSObject.9758
+- __OBJC_$_PROP_LIST_NSObject.9835
+- __OBJC_$_PROP_LIST_TIAppAutofillManager
+- __OBJC_$_PROP_LIST_TIFeedbackController
+- __OBJC_$_PROP_LIST_TILanguageModelOfflineLearningStrategy.22068
+- __OBJC_$_PROP_LIST_TITrialManager.131
+- __OBJC_$_PROP_LIST_TITypologyPreferences.45
+- __OBJC_$_PROTOCOL_CLASS_METHODS_NSSecureCoding.18416
+- __OBJC_$_PROTOCOL_CLASS_METHODS_NSSecureCoding.21904
+- __OBJC_$_PROTOCOL_CLASS_METHODS_NSSecureCoding.4145
+- __OBJC_$_PROTOCOL_CLASS_METHODS_NSSecureCoding.7890
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_DDSAssetCenterDelegate.19534
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSCoding.18417
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSCoding.21905
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSCoding.4146
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSCoding.7891
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSCopying.1290
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSCopying.15085
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSCopying.20813
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSCopying.2209
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSCopying.657
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSCopying.923
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSCopying.9884
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject.10241
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject.11109
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject.1194
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject.11976
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject.12538
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject.12609
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject.12994
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject.13075
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject.13896
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject.14923
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject.15473
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject.15539
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject.16097
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject.17903
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject.18015
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject.18105
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject.19148
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject.194
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject.19535
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject.20280
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject.2089
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject.20982
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject.21906
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject.22069
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject.22420
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject.252
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject.2668
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject.3213
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject.4000
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject.4217
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject.5432
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject.6278
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject.6821
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject.7279
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject.7419
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject.7542
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject.8038
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject.827
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject.8623
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject.9049
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject.9759
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject.9836
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_DDSAssetCenterDelegate.19536
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject.10242
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject.11110
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject.1195
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject.11977
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject.12539
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject.12610
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject.12995
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject.13076
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject.13897
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject.14924
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject.15474
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject.15540
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject.16098
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject.17904
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject.18016
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject.18106
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject.19149
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject.195
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject.19537
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject.20281
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject.2090
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject.20983
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject.21907
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject.22070
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject.22421
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject.253
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject.2669
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject.3214
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject.4001
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject.4218
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject.5433
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject.6279
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject.6822
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject.7280
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject.7420
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject.7543
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject.8039
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject.828
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject.8624
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject.9050
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject.9760
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject.9837
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_TIDPReportingDelegate.13077
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_TIKeyboardActivityObserving.13898
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_TIKeyboardActivityObserving.18017
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_TIKeyboardActivityObserving.18107
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_TIKeyboardActivityObserving.8625
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_TIKeyboardActivityObserving.9761
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_TIKeyboardInteractionObserver.21908
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_TITypingSessionAggregatedEventObserver.10243
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_TITypingSessionAggregatedEventObserver.12611
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_TITypingSessionAggregatedEventObserver.9051
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_TITypingSessionAggregatedEventObserver.9838
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_TIDPReportingDelegate.13078
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_TIKeyboardActivityObserving.13899
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_TIKeyboardActivityObserving.18018
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_TIKeyboardActivityObserving.18108
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_TIKeyboardActivityObserving.8626
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_TIKeyboardActivityObserving.9762
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_TIKeyboardInteractionObserver.21909
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_TIKeyboardInteractionProtocol.2091
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_TIKeyboardInteractionProtocol.21910
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_TILanguageModelOfflineLearningStrategy.22071
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_TITypingSessionAggregatedEventObserver.10244
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_TITypingSessionAggregatedEventObserver.12612
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_TITypingSessionAggregatedEventObserver.9052
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_TITypingSessionAggregatedEventObserver.9839
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_TITypingSessionAnalyzing.11978
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_TITypingSessionAnalyzing.12996
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_TITypingSessionAnalyzing.16099
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_TITypingSessionAnalyzing.19150
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_TITypingSessionAnalyzing.20984
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_TITypingSessionAnalyzing.3215
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_TITypingSessionAnalyzing.4219
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_TITypingSessionAnalyzing.5434
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_TITypingSessionAnalyzing.7421
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_TITypingSessionAnalyzing.7544
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_TITypingSessionAnalyzing.829
+- __OBJC_$_PROTOCOL_METHOD_TYPES_DDSAssetCenterDelegate.19538
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSCoding.18418
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSCoding.21911
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSCoding.4147
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSCoding.7892
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSCopying.1291
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSCopying.15086
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSCopying.20814
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSCopying.2210
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSCopying.658
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSCopying.924
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSCopying.9885
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSObject.10245
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSObject.11111
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSObject.1196
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSObject.11979
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSObject.12540
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSObject.12613
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSObject.12997
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSObject.13079
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSObject.13900
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSObject.14925
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSObject.15475
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSObject.15541
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSObject.16100
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSObject.17905
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSObject.18019
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSObject.18109
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSObject.19151
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSObject.19539
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSObject.196
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSObject.20282
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSObject.2092
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSObject.20985
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSObject.21912
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSObject.22072
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSObject.22422
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSObject.254
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSObject.2670
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSObject.3216
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSObject.4002
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSObject.4220
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSObject.5435
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSObject.6280
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSObject.6823
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSObject.7281
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSObject.7422
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSObject.7545
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSObject.8040
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSObject.830
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSObject.8627
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSObject.9053
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSObject.9763
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSObject.9840
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSSecureCoding.18419
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSSecureCoding.21913
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSSecureCoding.4148
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSSecureCoding.7893
+- __OBJC_$_PROTOCOL_METHOD_TYPES_TIDPReportingDelegate.13080
+- __OBJC_$_PROTOCOL_METHOD_TYPES_TIKeyboardActivityObserving.13901
+- __OBJC_$_PROTOCOL_METHOD_TYPES_TIKeyboardActivityObserving.18020
+- __OBJC_$_PROTOCOL_METHOD_TYPES_TIKeyboardActivityObserving.18110
+- __OBJC_$_PROTOCOL_METHOD_TYPES_TIKeyboardActivityObserving.8628
+- __OBJC_$_PROTOCOL_METHOD_TYPES_TIKeyboardActivityObserving.9764
+- __OBJC_$_PROTOCOL_METHOD_TYPES_TIKeyboardInteractionObserver.21914
+- __OBJC_$_PROTOCOL_METHOD_TYPES_TIKeyboardInteractionProtocol.2093
+- __OBJC_$_PROTOCOL_METHOD_TYPES_TIKeyboardInteractionProtocol.21915
+- __OBJC_$_PROTOCOL_METHOD_TYPES_TILanguageModelOfflineLearningStrategy.22073
+- __OBJC_$_PROTOCOL_METHOD_TYPES_TITypingSessionAggregatedEventObserver.10246
+- __OBJC_$_PROTOCOL_METHOD_TYPES_TITypingSessionAggregatedEventObserver.12614
+- __OBJC_$_PROTOCOL_METHOD_TYPES_TITypingSessionAggregatedEventObserver.9054
+- __OBJC_$_PROTOCOL_METHOD_TYPES_TITypingSessionAggregatedEventObserver.9841
+- __OBJC_$_PROTOCOL_METHOD_TYPES_TITypingSessionAnalyzing.11980
+- __OBJC_$_PROTOCOL_METHOD_TYPES_TITypingSessionAnalyzing.12998
+- __OBJC_$_PROTOCOL_METHOD_TYPES_TITypingSessionAnalyzing.16101
+- __OBJC_$_PROTOCOL_METHOD_TYPES_TITypingSessionAnalyzing.19152
+- __OBJC_$_PROTOCOL_METHOD_TYPES_TITypingSessionAnalyzing.20986
+- __OBJC_$_PROTOCOL_METHOD_TYPES_TITypingSessionAnalyzing.3217
+- __OBJC_$_PROTOCOL_METHOD_TYPES_TITypingSessionAnalyzing.4221
+- __OBJC_$_PROTOCOL_METHOD_TYPES_TITypingSessionAnalyzing.5436
+- __OBJC_$_PROTOCOL_METHOD_TYPES_TITypingSessionAnalyzing.7423
+- __OBJC_$_PROTOCOL_METHOD_TYPES_TITypingSessionAnalyzing.7546
+- __OBJC_$_PROTOCOL_METHOD_TYPES_TITypingSessionAnalyzing.831
+- __OBJC_$_PROTOCOL_REFS_DDSAssetCenterDelegate.19540
+- __OBJC_$_PROTOCOL_REFS_NSSecureCoding.18420
+- __OBJC_$_PROTOCOL_REFS_NSSecureCoding.21916
+- __OBJC_$_PROTOCOL_REFS_NSSecureCoding.4149
+- __OBJC_$_PROTOCOL_REFS_NSSecureCoding.7894
+- __OBJC_$_PROTOCOL_REFS_TIDPReportingDelegate.13081
+- __OBJC_$_PROTOCOL_REFS_TIKeyboardActivityObserving.13902
+- __OBJC_$_PROTOCOL_REFS_TIKeyboardActivityObserving.18021
+- __OBJC_$_PROTOCOL_REFS_TIKeyboardActivityObserving.18111
+- __OBJC_$_PROTOCOL_REFS_TIKeyboardActivityObserving.8629
+- __OBJC_$_PROTOCOL_REFS_TIKeyboardActivityObserving.9765
+- __OBJC_$_PROTOCOL_REFS_TIKeyboardInteractionObserver.21917
+- __OBJC_$_PROTOCOL_REFS_TIKeyboardInteractionProtocol.2094
+- __OBJC_$_PROTOCOL_REFS_TIKeyboardInteractionProtocol.21918
+- __OBJC_$_PROTOCOL_REFS_TILanguageModelOfflineLearningStrategy.22074
+- __OBJC_$_PROTOCOL_REFS_TITypingSessionAggregatedEventObserver.10247
+- __OBJC_$_PROTOCOL_REFS_TITypingSessionAggregatedEventObserver.12615
+- __OBJC_$_PROTOCOL_REFS_TITypingSessionAggregatedEventObserver.9055
+- __OBJC_$_PROTOCOL_REFS_TITypingSessionAggregatedEventObserver.9842
+- __OBJC_$_PROTOCOL_REFS_TITypingSessionAnalyzing.11981
+- __OBJC_$_PROTOCOL_REFS_TITypingSessionAnalyzing.12999
+- __OBJC_$_PROTOCOL_REFS_TITypingSessionAnalyzing.16102
+- __OBJC_$_PROTOCOL_REFS_TITypingSessionAnalyzing.19153
+- __OBJC_$_PROTOCOL_REFS_TITypingSessionAnalyzing.20987
+- __OBJC_$_PROTOCOL_REFS_TITypingSessionAnalyzing.3218
+- __OBJC_$_PROTOCOL_REFS_TITypingSessionAnalyzing.4222
+- __OBJC_$_PROTOCOL_REFS_TITypingSessionAnalyzing.5437
+- __OBJC_$_PROTOCOL_REFS_TITypingSessionAnalyzing.7424
+- __OBJC_$_PROTOCOL_REFS_TITypingSessionAnalyzing.7547
+- __OBJC_$_PROTOCOL_REFS_TITypingSessionAnalyzing.832
+- __ZGVZN2KB16LanguageModelStr23cache_key_for_candidateERKNS_9CandidateEE5space
+- __ZL13kTITokenIDUNK.11303
+- __ZL13kTITokenIDUNK.11469
+- __ZL13kTITokenIDUNK.11693
+- __ZL13kTITokenIDUNK.11787
+- __ZL13kTITokenIDUNK.19652
+- __ZL13kTITokenIDUNK.22953
+- __ZL17__testingInstance.14668
+- __ZL22vector_contains_stringRKNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEEERKS6_
+- __ZL23kTITokenIDEndOfSentence
+- __ZL23kTITokenIDEndOfSentence.14242
+- __ZL23kTITokenIDEndOfSentence.4695
+- __ZN10applesauce2CF10convert_orINSt3__16vectorINS2_12basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEENS7_IS9_EEEELi0EEENS2_5decayIT_E4typeEPK9__CFArrayOSD_
+- __ZN10applesauce2CF5at_orINS0_13DictionaryRefEEENSt3__111conditionalIXsr18converts_to_stringIT_EE5valueENS3_12basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEENS3_5decayIS5_E4typeEE4typeEPK9__CFArraymOS5_
+- __ZN10applesauce2CF5at_orINS0_13DictionaryRefEPK10__CFStringEENSt3__111conditionalIXsr18converts_to_stringIT_EE5valueENS6_12basic_stringIcNS6_11char_traitsIcEENS6_9allocatorIcEEEENS6_5decayIS8_E4typeEE4typeEPK14__CFDictionaryOT0_OS8_
+- __ZN10applesauce2CF5at_orINS0_13DictionaryRefERKPK10__CFStringEENSt3__111conditionalIXsr18converts_to_stringIT_EE5valueENS8_12basic_stringIcNS8_11char_traitsIcEENS8_9allocatorIcEEEENS8_5decayISA_E4typeEE4typeEPK14__CFDictionaryOT0_OSA_
+- __ZN10applesauce2CF5at_orINS0_8ArrayRefERKPK10__CFStringEENSt3__111conditionalIXsr18converts_to_stringIT_EE5valueENS8_12basic_stringIcNS8_11char_traitsIcEENS8_9allocatorIcEEEENS8_5decayISA_E4typeEE4typeEPK14__CFDictionaryOT0_OSA_
+- __ZN10applesauce2CF5at_orINSt3__16vectorINS2_12basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEENS7_IS9_EEEERKPK10__CFStringEENS2_11conditionalIXsr18converts_to_stringIT_EE5valueES9_NS2_5decayISI_E4typeEE4typeEPK14__CFDictionaryOT0_OSI_
+- __ZN10applesauce2CF5at_orIRA1_KcPK10__CFStringEENSt3__111conditionalIXsr18converts_to_stringIT_EE5valueENS8_12basic_stringIcNS8_11char_traitsIcEENS8_9allocatorIcEEEENS8_5decayISA_E4typeEE4typeEPK14__CFDictionaryOT0_OSA_
+- __ZN10applesauce2CF5at_orIRA1_KcRKPK10__CFStringEENSt3__111conditionalIXsr18converts_to_stringIT_EE5valueENSA_12basic_stringIcNSA_11char_traitsIcEENSA_9allocatorIcEEEENSA_5decayISC_E4typeEE4typeEPK14__CFDictionaryOT0_OSC_
+- __ZN2KBL26k_invalid_likelihood_valueE.10054
+- __ZN2KBL26k_invalid_likelihood_valueE.10291
+- __ZN2KBL26k_invalid_likelihood_valueE.10322
+- __ZN2KBL26k_invalid_likelihood_valueE.11073
+- __ZN2KBL26k_invalid_likelihood_valueE.11280
+- __ZN2KBL26k_invalid_likelihood_valueE.11338
+- __ZN2KBL26k_invalid_likelihood_valueE.11805
+- __ZN2KBL26k_invalid_likelihood_valueE.12016
+- __ZN2KBL26k_invalid_likelihood_valueE.12242
+- __ZN2KBL26k_invalid_likelihood_valueE.12455
+- __ZN2KBL26k_invalid_likelihood_valueE.1313
+- __ZN2KBL26k_invalid_likelihood_valueE.14243
+- __ZN2KBL26k_invalid_likelihood_valueE.14880
+- __ZN2KBL26k_invalid_likelihood_valueE.14929
+- __ZN2KBL26k_invalid_likelihood_valueE.16474
+- __ZN2KBL26k_invalid_likelihood_valueE.16717
+- __ZN2KBL26k_invalid_likelihood_valueE.17119
+- __ZN2KBL26k_invalid_likelihood_valueE.17192
+- __ZN2KBL26k_invalid_likelihood_valueE.17258
+- __ZN2KBL26k_invalid_likelihood_valueE.17268
+- __ZN2KBL26k_invalid_likelihood_valueE.18114
+- __ZN2KBL26k_invalid_likelihood_valueE.1847
+- __ZN2KBL26k_invalid_likelihood_valueE.19653
+- __ZN2KBL26k_invalid_likelihood_valueE.19684
+- __ZN2KBL26k_invalid_likelihood_valueE.2541
+- __ZN2KBL26k_invalid_likelihood_valueE.3061
+- __ZN2KBL26k_invalid_likelihood_valueE.3391
+- __ZN2KBL26k_invalid_likelihood_valueE.3425
+- __ZN2KBL26k_invalid_likelihood_valueE.3640
+- __ZN2KBL26k_invalid_likelihood_valueE.3739
+- __ZN2KBL26k_invalid_likelihood_valueE.4226
+- __ZN2KBL26k_invalid_likelihood_valueE.4322
+- __ZN2KBL26k_invalid_likelihood_valueE.4696
+- __ZN2KBL26k_invalid_likelihood_valueE.4775
+- __ZN2KBL26k_invalid_likelihood_valueE.4780
+- __ZN2KBL26k_invalid_likelihood_valueE.4862
+- __ZN2KBL26k_invalid_likelihood_valueE.5055
+- __ZN2KBL26k_invalid_likelihood_valueE.5158
+- __ZN2KBL26k_invalid_likelihood_valueE.5920
+- __ZN2KBL26k_invalid_likelihood_valueE.7006
+- __ZN2KBL26k_invalid_likelihood_valueE.854
+- __ZN2KBL26k_invalid_likelihood_valueE.9399
+- __ZN2KBL26k_invalid_likelihood_valueE.9477
+- __ZNK2KB16LanguageModelStr11completionsERKNSt3__16vectorINS_9CandidateENS1_9allocatorIS3_EEEERKNS_20LanguageModelContextENS1_8functionIFbRKNS_13LanguageModel14PredictionInfoERKS3_S9_EEENSC_IFbSI_EEENS_10LookupTypeE
+- __ZNK2KB16LanguageModelStr11predictionsERKNSt3__16vectorINS_9CandidateENS1_9allocatorIS3_EEEERKNS_20LanguageModelContextENS1_8functionIFbRKNS_13LanguageModel14PredictionInfoERKS3_S9_EEEb
+- __ZNK2KB16LanguageModelStr16id_for_separatorEj
+- __ZNK2KB16LanguageModelStr16separator_for_idE9TITokenID
+- __ZNK2KB16LanguageModelStr18get_implementationEv
+- __ZNK2KB16LanguageModelStr19dynamic_word_for_idE9TITokenID
+- __ZNK2KB16LanguageModelStr19id_for_dynamic_wordEPK10__CFStringRKN3WTF6RefPtrINS_19DictionaryContainerEEE
+- __ZNK2KB16LanguageModelStr31should_expect_sentence_boundaryERKNS_20LanguageModelContextE
+- __ZNK2KB16LanguageModelStr32is_dynamic_token_with_zero_countE9TITokenID
+- __ZNK2KB21LanguageModelImplBase11completionsERKNSt3__16vectorINS_9CandidateENS1_9allocatorIS3_EEEERKNS_20LanguageModelContextENS1_8functionIFbRKNS_13LanguageModel14PredictionInfoERKS3_S9_EEENSC_IFbSI_EEENS_10LookupTypeE
+- __ZNK2KB21LanguageModelImplBase11predictionsERKNSt3__16vectorINS_9CandidateENS1_9allocatorIS3_EEEERKNS_20LanguageModelContextENS1_8functionIFbRKNS_13LanguageModel14PredictionInfoERKS3_S9_EEEb
+- __ZNK2KB21LanguageModelImplStub11completionsERKNSt3__16vectorINS_9CandidateENS1_9allocatorIS3_EEEERKNS_20LanguageModelContextENS1_8functionIFbRKNS_13LanguageModel14PredictionInfoERKS3_S9_EEENSC_IFbSI_EEENS_10LookupTypeE
+- __ZNK2KB21LanguageModelImplStub11predictionsERKNSt3__16vectorINS_9CandidateENS1_9allocatorIS3_EEEERKNS_20LanguageModelContextENS1_8functionIFbRKNS_13LanguageModel14PredictionInfoERKS3_S9_EEEb
+- __ZNK2KB21LanguageModelImplStub16id_for_separatorEj
+- __ZNK2KB21LanguageModelImplStub16separator_for_idE9TITokenID
+- __ZNK2KB21LanguageModelImplStub18get_implementationEv
+- __ZNK2KB21LanguageModelImplStub19dynamic_word_for_idE9TITokenID
+- __ZNK2KB21LanguageModelImplStub19id_for_dynamic_wordEPK10__CFStringRKN3WTF6RefPtrINS_19DictionaryContainerEEE
+- __ZNK2KB21LanguageModelImplStub31should_expect_sentence_boundaryERKNS_20LanguageModelContextE
+- __ZNK2KB21LanguageModelImplStub32is_dynamic_token_with_zero_countE9TITokenID
+- __ZNK2KB22LanguageModelContainer11completionsERKNSt3__16vectorINS_9CandidateENS1_9allocatorIS3_EEEERKNS_20LanguageModelContextENS1_8functionIFbRKNS_13LanguageModel14PredictionInfoERKS3_S9_EEENSC_IFbSI_EEENS_10LookupTypeE
+- __ZNK2KB22LanguageModelContainer11predictionsERKNSt3__16vectorINS_9CandidateENS1_9allocatorIS3_EEEERKNS_20LanguageModelContextENS1_8functionIFbRKNS_13LanguageModel14PredictionInfoERKS3_S9_EEEb
+- __ZNK2KB22LanguageModelContainer16separator_for_idE9TITokenID
+- __ZNK2KB22LanguageModelContainer18get_implementationEv
+- __ZNK2KB22LanguageModelContainer19dynamic_word_for_idE9TITokenID
+- __ZNK2KB22LanguageModelContainer19id_for_dynamic_wordEPK10__CFStringRKN3WTF6RefPtrINS_19DictionaryContainerEEE
+- __ZNK2KB22LanguageModelContainer19unified_predictionsERKNSt3__16vectorINS_9CandidateENS1_9allocatorIS3_EEEERKNS_20LanguageModelContextENS1_8functionIFbRKNS_13LanguageModel14PredictionInfoERKS3_S9_EEENSC_IFbS8_SB_SK_mEEE
+- __ZNK2KB22LanguageModelContainer31should_expect_sentence_boundaryERKNS_20LanguageModelContextE
+- __ZNK2KB22LanguageModelContainer32is_dynamic_token_with_zero_countE9TITokenID
+- __ZNK2KB22NgramCandidateRefinery12word_with_idE9TITokenID
+- __ZNK2KB22NgramCandidateRefinery32completions_for_completion_stemsERKNSt3__16vectorINS_9CandidateENS1_9allocatorIS3_EEEEfRKNS_20LanguageModelContextERNS_19CandidateCollectionENS1_8functionIFvRS3_fEEENS_10LookupTypeE
+- __ZNK2KB22NgramCandidateRefinery32is_dynamic_token_with_zero_countE9TITokenID
+- __ZNK2KB24UnigramCandidateRefinery32completions_for_completion_stemsERKNSt3__16vectorINS_9CandidateENS1_9allocatorIS3_EEEEfRKNS_20LanguageModelContextERNS_19CandidateCollectionENS1_8functionIFvRS3_fEEENS_10LookupTypeE
+- __ZNKSt3__110__function6__funcIZNK2KB16LanguageModelStr11completionsERKNS_6vectorINS2_9CandidateENS_9allocatorIS5_EEEERKNS2_20LanguageModelContextENS_8functionIFbRKNS2_13LanguageModel14PredictionInfoERKS5_SB_EEENSE_IFbSK_EEENS2_10LookupTypeEE3$_1NS6_ISQ_EESL_E7__cloneEPNS0_6__baseISL_EE
+- __ZNKSt3__110__function6__funcIZNK2KB16LanguageModelStr11completionsERKNS_6vectorINS2_9CandidateENS_9allocatorIS5_EEEERKNS2_20LanguageModelContextENS_8functionIFbRKNS2_13LanguageModel14PredictionInfoERKS5_SB_EEENSE_IFbSK_EEENS2_10LookupTypeEE3$_1NS6_ISQ_EESL_E7__cloneEv
+- __ZNKSt3__110__function6__funcIZNK2KB16LanguageModelStr11predictionsERKNS_6vectorINS2_9CandidateENS_9allocatorIS5_EEEERKNS2_20LanguageModelContextENS_8functionIFbRKNS2_13LanguageModel14PredictionInfoERKS5_SB_EEEbE3$_3NS6_ISN_EEFbRKN17language_modeling2v110PredictionEEE7__cloneEPNS0_6__baseISU_EE
+- __ZNKSt3__110__function6__funcIZNK2KB16LanguageModelStr11predictionsERKNS_6vectorINS2_9CandidateENS_9allocatorIS5_EEEERKNS2_20LanguageModelContextENS_8functionIFbRKNS2_13LanguageModel14PredictionInfoERKS5_SB_EEEbE3$_3NS6_ISN_EEFbRKN17language_modeling2v110PredictionEEE7__cloneEv
+- __ZNKSt3__110__function6__funcIZNK2KB16LanguageModelStr11predictionsERKNS_6vectorINS2_9CandidateENS_9allocatorIS5_EEEERKNS2_20LanguageModelContextENS_8functionIFbRKNS2_13LanguageModel14PredictionInfoERKS5_SB_EEEbE3$_4NS6_ISN_EEFvSI_EE7__cloneEPNS0_6__baseISP_EE
+- __ZNKSt3__110__function6__funcIZNK2KB16LanguageModelStr11predictionsERKNS_6vectorINS2_9CandidateENS_9allocatorIS5_EEEERKNS2_20LanguageModelContextENS_8functionIFbRKNS2_13LanguageModel14PredictionInfoERKS5_SB_EEEbE3$_4NS6_ISN_EEFvSI_EE7__cloneEv
+- __ZNKSt3__110__function6__funcIZNK2KB21LanguageModelImplStub11predictionsERKNS_6vectorINS2_9CandidateENS_9allocatorIS5_EEEERKNS2_20LanguageModelContextENS_8functionIFbRKNS2_13LanguageModel14PredictionInfoERKS5_SB_EEEbE3$_0NS6_ISN_EEFvSI_EE7__cloneEPNS0_6__baseISP_EE
+- __ZNKSt3__110__function6__funcIZNK2KB21LanguageModelImplStub11predictionsERKNS_6vectorINS2_9CandidateENS_9allocatorIS5_EEEERKNS2_20LanguageModelContextENS_8functionIFbRKNS2_13LanguageModel14PredictionInfoERKS5_SB_EEEbE3$_0NS6_ISN_EEFvSI_EE7__cloneEv
+- __ZNKSt3__110__function6__funcIZNK2KB22LanguageModelContainer11completionsERKNS_6vectorINS2_9CandidateENS_9allocatorIS5_EEEERKNS2_20LanguageModelContextENS_8functionIFbRKNS2_13LanguageModel14PredictionInfoERKS5_SB_EEENSE_IFbSK_EEENS2_10LookupTypeEE3$_6NS6_ISQ_EEFbSA_SD_SM_mEE7__cloneEPNS0_6__baseISS_EE
+- __ZNKSt3__110__function6__funcIZNK2KB22LanguageModelContainer11completionsERKNS_6vectorINS2_9CandidateENS_9allocatorIS5_EEEERKNS2_20LanguageModelContextENS_8functionIFbRKNS2_13LanguageModel14PredictionInfoERKS5_SB_EEENSE_IFbSK_EEENS2_10LookupTypeEE3$_6NS6_ISQ_EEFbSA_SD_SM_mEE7__cloneEv
+- __ZNKSt3__110__function6__funcIZNK2KB22LanguageModelContainer11predictionsERKNS_6vectorINS2_9CandidateENS_9allocatorIS5_EEEERKNS2_20LanguageModelContextENS_8functionIFbRKNS2_13LanguageModel14PredictionInfoERKS5_SB_EEEbE3$_5NS6_ISN_EEFbSA_SD_SM_mEE7__cloneEPNS0_6__baseISP_EE
+- __ZNKSt3__110__function6__funcIZNK2KB22LanguageModelContainer11predictionsERKNS_6vectorINS2_9CandidateENS_9allocatorIS5_EEEERKNS2_20LanguageModelContextENS_8functionIFbRKNS2_13LanguageModel14PredictionInfoERKS5_SB_EEEbE3$_5NS6_ISN_EEFbSA_SD_SM_mEE7__cloneEv
+- __ZNKSt3__110__function6__funcIZNK2KB22LanguageModelContainer19unified_predictionsERKNS_6vectorINS2_9CandidateENS_9allocatorIS5_EEEERKNS2_20LanguageModelContextENS_8functionIFbRKNS2_13LanguageModel14PredictionInfoERKS5_SB_EEENSE_IFbSA_SD_SM_mEEEE3$_7NS6_ISP_EESL_E7__cloneEPNS0_6__baseISL_EE
+- __ZNKSt3__110__function6__funcIZNK2KB22LanguageModelContainer19unified_predictionsERKNS_6vectorINS2_9CandidateENS_9allocatorIS5_EEEERKNS2_20LanguageModelContextENS_8functionIFbRKNS2_13LanguageModel14PredictionInfoERKS5_SB_EEENSE_IFbSA_SD_SM_mEEEE3$_7NS6_ISP_EESL_E7__cloneEv
+- __ZNKSt3__110__function6__funcIZNK2KB22NgramCandidateRefinery42completions_from_candidate_string_based_lmERKNS_6vectorINS2_9CandidateENS_9allocatorIS5_EEEERKNS2_20LanguageModelContextERNS2_19CandidateCollectionEfNS2_10LookupTypeEE3$_4NS6_ISH_EEFbRKNS2_13LanguageModel14PredictionInfoERKS5_SB_EE7__cloneEPNS0_6__baseISP_EE
+- __ZNKSt3__110__function6__funcIZNK2KB22NgramCandidateRefinery42completions_from_candidate_string_based_lmERKNS_6vectorINS2_9CandidateENS_9allocatorIS5_EEEERKNS2_20LanguageModelContextERNS2_19CandidateCollectionEfNS2_10LookupTypeEE3$_4NS6_ISH_EEFbRKNS2_13LanguageModel14PredictionInfoERKS5_SB_EE7__cloneEv
+- __ZNKSt3__110__function6__funcIZNK2KB22NgramCandidateRefinery42predictions_from_candidate_string_based_lmERKNS_6vectorINS2_9CandidateENS_9allocatorIS5_EEEERKNS2_20LanguageModelContextERNS2_19CandidateCollectionEE3$_2NS6_ISG_EEFbRKNS2_13LanguageModel14PredictionInfoERKS5_SB_EE7__cloneEPNS0_6__baseISO_EE
+- __ZNKSt3__110__function6__funcIZNK2KB22NgramCandidateRefinery42predictions_from_candidate_string_based_lmERKNS_6vectorINS2_9CandidateENS_9allocatorIS5_EEEERKNS2_20LanguageModelContextERNS2_19CandidateCollectionEE3$_2NS6_ISG_EEFbRKNS2_13LanguageModel14PredictionInfoERKS5_SB_EE7__cloneEv
+- __ZNKSt3__111__copy_loopINS_17_ClassicAlgPolicyEEclB7v160006IPKN2KB4WordES7_PS5_EENS_4pairIT_T1_EESA_T0_SB_
+- __ZNKSt3__111__copy_loopINS_17_ClassicAlgPolicyEEclB7v160006IPKN3WTF6RefPtrIN2TI8Favonius16TypingHypothesisEEESB_PS9_EENS_4pairIT_T1_EESE_T0_SF_
+- __ZNKSt3__111__copy_loopINS_17_ClassicAlgPolicyEEclB7v160006IPKN3WTF6RefPtrIN2TI8Favonius8KeyMatchEEESB_PS9_EENS_4pairIT_T1_EESE_T0_SF_
+- __ZNKSt3__111__copy_loopINS_17_ClassicAlgPolicyEEclB7v160006IPN2KB4WordES6_S6_EENS_4pairIT_T1_EES8_T0_S9_
+- __ZNKSt3__111__move_loopINS_17_ClassicAlgPolicyEEclB7v160006IPN2KB4WordES6_S6_EENS_4pairIT_T1_EES8_T0_S9_
+- __ZNKSt3__111__move_loopINS_17_ClassicAlgPolicyEEclB7v160006IPN3WTF6RefPtrIN2TI8Favonius10SearchNodeEEESA_SA_EENS_4pairIT_T1_EESC_T0_SD_
+- __ZNKSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE11starts_withB7v160006ENS_17basic_string_viewIcS2_EE
+- __ZNKSt3__114default_deleteIN2KB20LanguageModelContextEEclB7v160006EPS2_
+- __ZNKSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEE3strEv
+- __ZNKSt3__117basic_string_viewIcNS_11char_traitsIcEEE7compareB7v160006EmmS3_
+- __ZNKSt3__117basic_string_viewIcNS_11char_traitsIcEEE7compareES3_
+- __ZNKSt3__120__move_backward_loopINS_17_ClassicAlgPolicyEEclB7v160006IPN2KB4WordES6_S6_EENS_4pairIT_T1_EES8_T0_S9_
+- __ZNKSt3__18equal_toINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEclB7v160006ERKS6_S9_
+- __ZNKSt3__18functionIFbRKN2KB9CandidateEPNS1_6StringEEEclES4_S6_
+- __ZNKSt3__18functionIFbRKNS_6vectorIN2KB9CandidateENS_9allocatorIS3_EEEERKNS2_20LanguageModelContextENS0_IFbRKNS2_13LanguageModel14PredictionInfoERKS3_S9_EEEmEEclES8_SB_SJ_m
+- __ZNKSt3__18functionIFbjjEEclEjj
+- __ZNKSt3__18functionIFvPKN2TI8Favonius16TypingHypothesisEEEclES5_
+- __ZNKSt3__18functionIFvmRKdEEclEmS2_
+- __ZNKSt3__18functionIFvmmRKdEEclEmmS2_
+- __ZNSt3__110__function12__alloc_funcIZN2KB22NgramCandidateRefinery39inline_predictions_for_completion_stemsERKNS_6vectorINS2_9CandidateENS_9allocatorIS5_EEEERKNS2_20LanguageModelContextEbNS_8functionIFvRNS2_19CandidateCollectionERKS5_SD_bEEEE3$_1NS6_ISL_EEFvRKNS4_INS2_13LanguageModel14PredictionInfoENS6_ISO_EEEESI_SD_EE7destroyB7v160006Ev
+- __ZNSt3__110__function12__value_funcIFN2KB10ByteStringERKNS2_6StringEEEC2B7v160006ERKS8_
+- __ZNSt3__110__function12__value_funcIFN2KB10ByteStringERKNS2_6StringEEED2B7v160006Ev
+- __ZNSt3__110__function12__value_funcIFN2KB10ByteStringERKNS2_6StringEEEaSB7v160006EDn
+- __ZNSt3__110__function12__value_funcIFN2KB10ByteStringERKNS2_6StringEEEaSB7v160006EOS8_
+- __ZNSt3__110__function12__value_funcIFNS_10shared_ptrIN2KB15CandidateFilterEEEN10applesauce2CF13DictionaryRefERKNS3_28CandidateFilterConfigurationEEEC2B7v160006ERKSD_
+- __ZNSt3__110__function12__value_funcIFNS_10shared_ptrIN2KB15CandidateFilterEEEN10applesauce2CF13DictionaryRefERKNS3_28CandidateFilterConfigurationEEED2B7v160006Ev
+- __ZNSt3__110__function12__value_funcIFbRKN2KB13LanguageModel14PredictionInfoERKNS2_9CandidateENS2_20LanguageModelContextEEEC2B7v160006EOSC_
+- __ZNSt3__110__function12__value_funcIFbRKN2KB13LanguageModel14PredictionInfoERKNS2_9CandidateENS2_20LanguageModelContextEEEC2B7v160006ERKSC_
+- __ZNSt3__110__function12__value_funcIFbRKN2KB13LanguageModel14PredictionInfoERKNS2_9CandidateENS2_20LanguageModelContextEEED2B7v160006Ev
+- __ZNSt3__110__function12__value_funcIFbRKN2KB9CandidateEEED2B7v160006Ev
+- __ZNSt3__110__function12__value_funcIFbRKN2KB9CandidateEPNS2_6StringEEEC2B7v160006ERKS9_
+- __ZNSt3__110__function12__value_funcIFbRKN2KB9CandidateEPNS2_6StringEEED2B7v160006Ev
+- __ZNSt3__110__function12__value_funcIFbRKNS_6vectorIN2KB9CandidateENS_9allocatorIS4_EEEERKNS3_20LanguageModelContextENS_8functionIFbRKNS3_13LanguageModel14PredictionInfoERKS4_SA_EEEmEED2B7v160006Ev
+- __ZNSt3__110__function12__value_funcIFbRN2KB9CandidateES4_RKNS2_28CandidateFilterLookupContextERKNS2_24CandidateFilterResourcesEEED2B7v160006Ev
+- __ZNSt3__110__function12__value_funcIFbjjEED2B7v160006Ev
+- __ZNSt3__110__function12__value_funcIFdjEED2B7v160006Ev
+- __ZNSt3__110__function12__value_funcIFiRKN2KB6StringES5_EEC2B7v160006ERKS7_
+- __ZNSt3__110__function12__value_funcIFiRKN2KB6StringES5_EED2B7v160006Ev
+- __ZNSt3__110__function12__value_funcIFiRKN2KB6StringES5_EEaSB7v160006EDn
+- __ZNSt3__110__function12__value_funcIFiRKN2KB6StringES5_EEaSB7v160006EOS7_
+- __ZNSt3__110__function12__value_funcIFvRKN2KB13LanguageModel14PredictionInfoEEED2B7v160006Ev
+- __ZNSt3__110__function12__value_funcIFvRKN3WTF6RefPtrIN2TI8Favonius9LayoutKeyEEEEED2B7v160006Ev
+- __ZNSt3__110__function12__value_funcIFvRKNS_6vectorI18TIInlineCompletionNS_9allocatorIS3_EEEERKN2KB20LanguageModelContextEEEC2B7v160006ERKSE_
+- __ZNSt3__110__function12__value_funcIFvRKNS_6vectorI18TIInlineCompletionNS_9allocatorIS3_EEEERKN2KB20LanguageModelContextEEED2B7v160006Ev
+- __ZNSt3__110__function12__value_funcIFvRKNS_6vectorIN2KB13LanguageModel14PredictionInfoENS_9allocatorIS5_EEEERKNS3_9CandidateERKNS3_20LanguageModelContextEEEC2B7v160006ERKSI_
+- __ZNSt3__110__function12__value_funcIFvRKNS_6vectorIN2KB13LanguageModel14PredictionInfoENS_9allocatorIS5_EEEERKNS3_9CandidateERKNS3_20LanguageModelContextEEED2B7v160006Ev
+- __ZNSt3__110__function12__value_funcIFvRN2KB19CandidateCollectionENS2_20CandidateFilterFlagsEbEED2B7v160006Ev
+- __ZNSt3__110__function12__value_funcIFvRN2KB19CandidateCollectionERKNS2_9CandidateERKNS2_20LanguageModelContextEbEEC2B7v160006ERKSC_
+- __ZNSt3__110__function12__value_funcIFvRN2KB19CandidateCollectionERKNS2_9CandidateERKNS2_20LanguageModelContextEbEED2B7v160006Ev
+- __ZNSt3__110__function12__value_funcIFvRN2KB9CandidateEfEED2B7v160006Ev
+- __ZNSt3__110__function12__value_funcIFvmRKdEED2B7v160006Ev
+- __ZNSt3__110__function12__value_funcIFvmmRKdEEC2B7v160006ERKS5_
+- __ZNSt3__110__function12__value_funcIFvmmRKdEED2B7v160006Ev
+- __ZNSt3__110__function6__funcIZNK2KB16LanguageModelStr11completionsERKNS_6vectorINS2_9CandidateENS_9allocatorIS5_EEEERKNS2_20LanguageModelContextENS_8functionIFbRKNS2_13LanguageModel14PredictionInfoERKS5_SB_EEENSE_IFbSK_EEENS2_10LookupTypeEE3$_1NS6_ISQ_EESL_E18destroy_deallocateEv
+- __ZNSt3__110__function6__funcIZNK2KB16LanguageModelStr11completionsERKNS_6vectorINS2_9CandidateENS_9allocatorIS5_EEEERKNS2_20LanguageModelContextENS_8functionIFbRKNS2_13LanguageModel14PredictionInfoERKS5_SB_EEENSE_IFbSK_EEENS2_10LookupTypeEE3$_1NS6_ISQ_EESL_E7destroyEv
+- __ZNSt3__110__function6__funcIZNK2KB16LanguageModelStr11completionsERKNS_6vectorINS2_9CandidateENS_9allocatorIS5_EEEERKNS2_20LanguageModelContextENS_8functionIFbRKNS2_13LanguageModel14PredictionInfoERKS5_SB_EEENSE_IFbSK_EEENS2_10LookupTypeEE3$_1NS6_ISQ_EESL_ED0Ev
+- __ZNSt3__110__function6__funcIZNK2KB16LanguageModelStr11completionsERKNS_6vectorINS2_9CandidateENS_9allocatorIS5_EEEERKNS2_20LanguageModelContextENS_8functionIFbRKNS2_13LanguageModel14PredictionInfoERKS5_SB_EEENSE_IFbSK_EEENS2_10LookupTypeEE3$_1NS6_ISQ_EESL_ED1Ev
+- __ZNSt3__110__function6__funcIZNK2KB16LanguageModelStr11completionsERKNS_6vectorINS2_9CandidateENS_9allocatorIS5_EEEERKNS2_20LanguageModelContextENS_8functionIFbRKNS2_13LanguageModel14PredictionInfoERKS5_SB_EEENSE_IFbSK_EEENS2_10LookupTypeEE3$_1NS6_ISQ_EESL_EclESI_SK_OSB_
+- __ZNSt3__110__function6__funcIZNK2KB16LanguageModelStr11predictionsERKNS_6vectorINS2_9CandidateENS_9allocatorIS5_EEEERKNS2_20LanguageModelContextENS_8functionIFbRKNS2_13LanguageModel14PredictionInfoERKS5_SB_EEEbE3$_3NS6_ISN_EEFbRKN17language_modeling2v110PredictionEEE18destroy_deallocateEv
+- __ZNSt3__110__function6__funcIZNK2KB16LanguageModelStr11predictionsERKNS_6vectorINS2_9CandidateENS_9allocatorIS5_EEEERKNS2_20LanguageModelContextENS_8functionIFbRKNS2_13LanguageModel14PredictionInfoERKS5_SB_EEEbE3$_3NS6_ISN_EEFbRKN17language_modeling2v110PredictionEEE7destroyEv
+- __ZNSt3__110__function6__funcIZNK2KB16LanguageModelStr11predictionsERKNS_6vectorINS2_9CandidateENS_9allocatorIS5_EEEERKNS2_20LanguageModelContextENS_8functionIFbRKNS2_13LanguageModel14PredictionInfoERKS5_SB_EEEbE3$_3NS6_ISN_EEFbRKN17language_modeling2v110PredictionEEED0Ev
+- __ZNSt3__110__function6__funcIZNK2KB16LanguageModelStr11predictionsERKNS_6vectorINS2_9CandidateENS_9allocatorIS5_EEEERKNS2_20LanguageModelContextENS_8functionIFbRKNS2_13LanguageModel14PredictionInfoERKS5_SB_EEEbE3$_3NS6_ISN_EEFbRKN17language_modeling2v110PredictionEEED1Ev
+- __ZNSt3__110__function6__funcIZNK2KB16LanguageModelStr11predictionsERKNS_6vectorINS2_9CandidateENS_9allocatorIS5_EEEERKNS2_20LanguageModelContextENS_8functionIFbRKNS2_13LanguageModel14PredictionInfoERKS5_SB_EEEbE3$_3NS6_ISN_EEFbRKN17language_modeling2v110PredictionEEEclEST_
+- __ZNSt3__110__function6__funcIZNK2KB16LanguageModelStr11predictionsERKNS_6vectorINS2_9CandidateENS_9allocatorIS5_EEEERKNS2_20LanguageModelContextENS_8functionIFbRKNS2_13LanguageModel14PredictionInfoERKS5_SB_EEEbE3$_4NS6_ISN_EEFvSI_EE18destroy_deallocateEv
+- __ZNSt3__110__function6__funcIZNK2KB16LanguageModelStr11predictionsERKNS_6vectorINS2_9CandidateENS_9allocatorIS5_EEEERKNS2_20LanguageModelContextENS_8functionIFbRKNS2_13LanguageModel14PredictionInfoERKS5_SB_EEEbE3$_4NS6_ISN_EEFvSI_EE7destroyEv
+- __ZNSt3__110__function6__funcIZNK2KB16LanguageModelStr11predictionsERKNS_6vectorINS2_9CandidateENS_9allocatorIS5_EEEERKNS2_20LanguageModelContextENS_8functionIFbRKNS2_13LanguageModel14PredictionInfoERKS5_SB_EEEbE3$_4NS6_ISN_EEFvSI_EED0Ev
+- __ZNSt3__110__function6__funcIZNK2KB16LanguageModelStr11predictionsERKNS_6vectorINS2_9CandidateENS_9allocatorIS5_EEEERKNS2_20LanguageModelContextENS_8functionIFbRKNS2_13LanguageModel14PredictionInfoERKS5_SB_EEEbE3$_4NS6_ISN_EEFvSI_EED1Ev
+- __ZNSt3__110__function6__funcIZNK2KB16LanguageModelStr11predictionsERKNS_6vectorINS2_9CandidateENS_9allocatorIS5_EEEERKNS2_20LanguageModelContextENS_8functionIFbRKNS2_13LanguageModel14PredictionInfoERKS5_SB_EEEbE3$_4NS6_ISN_EEFvSI_EEclESI_
+- __ZNSt3__110__function6__funcIZNK2KB21LanguageModelImplStub11predictionsERKNS_6vectorINS2_9CandidateENS_9allocatorIS5_EEEERKNS2_20LanguageModelContextENS_8functionIFbRKNS2_13LanguageModel14PredictionInfoERKS5_SB_EEEbE3$_0NS6_ISN_EEFvSI_EE18destroy_deallocateEv
+- __ZNSt3__110__function6__funcIZNK2KB21LanguageModelImplStub11predictionsERKNS_6vectorINS2_9CandidateENS_9allocatorIS5_EEEERKNS2_20LanguageModelContextENS_8functionIFbRKNS2_13LanguageModel14PredictionInfoERKS5_SB_EEEbE3$_0NS6_ISN_EEFvSI_EE7destroyEv
+- __ZNSt3__110__function6__funcIZNK2KB21LanguageModelImplStub11predictionsERKNS_6vectorINS2_9CandidateENS_9allocatorIS5_EEEERKNS2_20LanguageModelContextENS_8functionIFbRKNS2_13LanguageModel14PredictionInfoERKS5_SB_EEEbE3$_0NS6_ISN_EEFvSI_EED0Ev
+- __ZNSt3__110__function6__funcIZNK2KB21LanguageModelImplStub11predictionsERKNS_6vectorINS2_9CandidateENS_9allocatorIS5_EEEERKNS2_20LanguageModelContextENS_8functionIFbRKNS2_13LanguageModel14PredictionInfoERKS5_SB_EEEbE3$_0NS6_ISN_EEFvSI_EED1Ev
+- __ZNSt3__110__function6__funcIZNK2KB21LanguageModelImplStub11predictionsERKNS_6vectorINS2_9CandidateENS_9allocatorIS5_EEEERKNS2_20LanguageModelContextENS_8functionIFbRKNS2_13LanguageModel14PredictionInfoERKS5_SB_EEEbE3$_0NS6_ISN_EEFvSI_EEclESI_
+- __ZNSt3__110__function6__funcIZNK2KB22LanguageModelContainer11completionsERKNS_6vectorINS2_9CandidateENS_9allocatorIS5_EEEERKNS2_20LanguageModelContextENS_8functionIFbRKNS2_13LanguageModel14PredictionInfoERKS5_SB_EEENSE_IFbSK_EEENS2_10LookupTypeEE3$_6NS6_ISQ_EEFbSA_SD_SM_mEE18destroy_deallocateEv
+- __ZNSt3__110__function6__funcIZNK2KB22LanguageModelContainer11completionsERKNS_6vectorINS2_9CandidateENS_9allocatorIS5_EEEERKNS2_20LanguageModelContextENS_8functionIFbRKNS2_13LanguageModel14PredictionInfoERKS5_SB_EEENSE_IFbSK_EEENS2_10LookupTypeEE3$_6NS6_ISQ_EEFbSA_SD_SM_mEE7destroyEv
+- __ZNSt3__110__function6__funcIZNK2KB22LanguageModelContainer11completionsERKNS_6vectorINS2_9CandidateENS_9allocatorIS5_EEEERKNS2_20LanguageModelContextENS_8functionIFbRKNS2_13LanguageModel14PredictionInfoERKS5_SB_EEENSE_IFbSK_EEENS2_10LookupTypeEE3$_6NS6_ISQ_EEFbSA_SD_SM_mEED0Ev
+- __ZNSt3__110__function6__funcIZNK2KB22LanguageModelContainer11completionsERKNS_6vectorINS2_9CandidateENS_9allocatorIS5_EEEERKNS2_20LanguageModelContextENS_8functionIFbRKNS2_13LanguageModel14PredictionInfoERKS5_SB_EEENSE_IFbSK_EEENS2_10LookupTypeEE3$_6NS6_ISQ_EEFbSA_SD_SM_mEED1Ev
+- __ZNSt3__110__function6__funcIZNK2KB22LanguageModelContainer11completionsERKNS_6vectorINS2_9CandidateENS_9allocatorIS5_EEEERKNS2_20LanguageModelContextENS_8functionIFbRKNS2_13LanguageModel14PredictionInfoERKS5_SB_EEENSE_IFbSK_EEENS2_10LookupTypeEE3$_6NS6_ISQ_EEFbSA_SD_SM_mEEclESA_SD_OSM_Om
+- __ZNSt3__110__function6__funcIZNK2KB22LanguageModelContainer11predictionsERKNS_6vectorINS2_9CandidateENS_9allocatorIS5_EEEERKNS2_20LanguageModelContextENS_8functionIFbRKNS2_13LanguageModel14PredictionInfoERKS5_SB_EEEbE3$_5NS6_ISN_EEFbSA_SD_SM_mEE18destroy_deallocateEv
+- __ZNSt3__110__function6__funcIZNK2KB22LanguageModelContainer11predictionsERKNS_6vectorINS2_9CandidateENS_9allocatorIS5_EEEERKNS2_20LanguageModelContextENS_8functionIFbRKNS2_13LanguageModel14PredictionInfoERKS5_SB_EEEbE3$_5NS6_ISN_EEFbSA_SD_SM_mEE7destroyEv
+- __ZNSt3__110__function6__funcIZNK2KB22LanguageModelContainer11predictionsERKNS_6vectorINS2_9CandidateENS_9allocatorIS5_EEEERKNS2_20LanguageModelContextENS_8functionIFbRKNS2_13LanguageModel14PredictionInfoERKS5_SB_EEEbE3$_5NS6_ISN_EEFbSA_SD_SM_mEED0Ev
+- __ZNSt3__110__function6__funcIZNK2KB22LanguageModelContainer11predictionsERKNS_6vectorINS2_9CandidateENS_9allocatorIS5_EEEERKNS2_20LanguageModelContextENS_8functionIFbRKNS2_13LanguageModel14PredictionInfoERKS5_SB_EEEbE3$_5NS6_ISN_EEFbSA_SD_SM_mEED1Ev
+- __ZNSt3__110__function6__funcIZNK2KB22LanguageModelContainer11predictionsERKNS_6vectorINS2_9CandidateENS_9allocatorIS5_EEEERKNS2_20LanguageModelContextENS_8functionIFbRKNS2_13LanguageModel14PredictionInfoERKS5_SB_EEEbE3$_5NS6_ISN_EEFbSA_SD_SM_mEEclESA_SD_OSM_Om
+- __ZNSt3__110__function6__funcIZNK2KB22LanguageModelContainer19unified_predictionsERKNS_6vectorINS2_9CandidateENS_9allocatorIS5_EEEERKNS2_20LanguageModelContextENS_8functionIFbRKNS2_13LanguageModel14PredictionInfoERKS5_SB_EEENSE_IFbSA_SD_SM_mEEEE3$_7NS6_ISP_EESL_E18destroy_deallocateEv
+- __ZNSt3__110__function6__funcIZNK2KB22LanguageModelContainer19unified_predictionsERKNS_6vectorINS2_9CandidateENS_9allocatorIS5_EEEERKNS2_20LanguageModelContextENS_8functionIFbRKNS2_13LanguageModel14PredictionInfoERKS5_SB_EEENSE_IFbSA_SD_SM_mEEEE3$_7NS6_ISP_EESL_E7destroyEv
+- __ZNSt3__110__function6__funcIZNK2KB22LanguageModelContainer19unified_predictionsERKNS_6vectorINS2_9CandidateENS_9allocatorIS5_EEEERKNS2_20LanguageModelContextENS_8functionIFbRKNS2_13LanguageModel14PredictionInfoERKS5_SB_EEENSE_IFbSA_SD_SM_mEEEE3$_7NS6_ISP_EESL_ED0Ev
+- __ZNSt3__110__function6__funcIZNK2KB22LanguageModelContainer19unified_predictionsERKNS_6vectorINS2_9CandidateENS_9allocatorIS5_EEEERKNS2_20LanguageModelContextENS_8functionIFbRKNS2_13LanguageModel14PredictionInfoERKS5_SB_EEENSE_IFbSA_SD_SM_mEEEE3$_7NS6_ISP_EESL_ED1Ev
+- __ZNSt3__110__function6__funcIZNK2KB22LanguageModelContainer19unified_predictionsERKNS_6vectorINS2_9CandidateENS_9allocatorIS5_EEEERKNS2_20LanguageModelContextENS_8functionIFbRKNS2_13LanguageModel14PredictionInfoERKS5_SB_EEENSE_IFbSA_SD_SM_mEEEE3$_7NS6_ISP_EESL_EclESI_SK_OSB_
+- __ZNSt3__110__function6__funcIZNK2KB22NgramCandidateRefinery42completions_from_candidate_string_based_lmERKNS_6vectorINS2_9CandidateENS_9allocatorIS5_EEEERKNS2_20LanguageModelContextERNS2_19CandidateCollectionEfNS2_10LookupTypeEE3$_4NS6_ISH_EEFbRKNS2_13LanguageModel14PredictionInfoERKS5_SB_EE18destroy_deallocateEv
+- __ZNSt3__110__function6__funcIZNK2KB22NgramCandidateRefinery42completions_from_candidate_string_based_lmERKNS_6vectorINS2_9CandidateENS_9allocatorIS5_EEEERKNS2_20LanguageModelContextERNS2_19CandidateCollectionEfNS2_10LookupTypeEE3$_4NS6_ISH_EEFbRKNS2_13LanguageModel14PredictionInfoERKS5_SB_EE7destroyEv
+- __ZNSt3__110__function6__funcIZNK2KB22NgramCandidateRefinery42completions_from_candidate_string_based_lmERKNS_6vectorINS2_9CandidateENS_9allocatorIS5_EEEERKNS2_20LanguageModelContextERNS2_19CandidateCollectionEfNS2_10LookupTypeEE3$_4NS6_ISH_EEFbRKNS2_13LanguageModel14PredictionInfoERKS5_SB_EED0Ev
+- __ZNSt3__110__function6__funcIZNK2KB22NgramCandidateRefinery42completions_from_candidate_string_based_lmERKNS_6vectorINS2_9CandidateENS_9allocatorIS5_EEEERKNS2_20LanguageModelContextERNS2_19CandidateCollectionEfNS2_10LookupTypeEE3$_4NS6_ISH_EEFbRKNS2_13LanguageModel14PredictionInfoERKS5_SB_EED1Ev
+- __ZNSt3__110__function6__funcIZNK2KB22NgramCandidateRefinery42completions_from_candidate_string_based_lmERKNS_6vectorINS2_9CandidateENS_9allocatorIS5_EEEERKNS2_20LanguageModelContextERNS2_19CandidateCollectionEfNS2_10LookupTypeEE3$_4NS6_ISH_EEFbRKNS2_13LanguageModel14PredictionInfoERKS5_SB_EEclESM_SO_OSB_
+- __ZNSt3__110__function6__funcIZNK2KB22NgramCandidateRefinery42predictions_from_candidate_string_based_lmERKNS_6vectorINS2_9CandidateENS_9allocatorIS5_EEEERKNS2_20LanguageModelContextERNS2_19CandidateCollectionEE3$_2NS6_ISG_EEFbRKNS2_13LanguageModel14PredictionInfoERKS5_SB_EE18destroy_deallocateEv
+- __ZNSt3__110__function6__funcIZNK2KB22NgramCandidateRefinery42predictions_from_candidate_string_based_lmERKNS_6vectorINS2_9CandidateENS_9allocatorIS5_EEEERKNS2_20LanguageModelContextERNS2_19CandidateCollectionEE3$_2NS6_ISG_EEFbRKNS2_13LanguageModel14PredictionInfoERKS5_SB_EE7destroyEv
+- __ZNSt3__110__function6__funcIZNK2KB22NgramCandidateRefinery42predictions_from_candidate_string_based_lmERKNS_6vectorINS2_9CandidateENS_9allocatorIS5_EEEERKNS2_20LanguageModelContextERNS2_19CandidateCollectionEE3$_2NS6_ISG_EEFbRKNS2_13LanguageModel14PredictionInfoERKS5_SB_EED0Ev
+- __ZNSt3__110__function6__funcIZNK2KB22NgramCandidateRefinery42predictions_from_candidate_string_based_lmERKNS_6vectorINS2_9CandidateENS_9allocatorIS5_EEEERKNS2_20LanguageModelContextERNS2_19CandidateCollectionEE3$_2NS6_ISG_EEFbRKNS2_13LanguageModel14PredictionInfoERKS5_SB_EED1Ev
+- __ZNSt3__110__function6__funcIZNK2KB22NgramCandidateRefinery42predictions_from_candidate_string_based_lmERKNS_6vectorINS2_9CandidateENS_9allocatorIS5_EEEERKNS2_20LanguageModelContextERNS2_19CandidateCollectionEE3$_2NS6_ISG_EEFbRKNS2_13LanguageModel14PredictionInfoERKS5_SB_EEclESL_SN_OSB_
+- __ZNSt3__110__pop_heapB7v160006INS_17_ClassicAlgPolicyEU13block_pointerFbRKN3WTF6RefPtrIN2TI8Favonius16TypingHypothesisEEES9_EPS7_EEvT1_SD_RT0_NS_15iterator_traitsISD_E15difference_typeE
+- __ZNSt3__110shared_ptrI31TIInlineCompletionGeneratorImplE18__enable_weak_thisB7v160006IS1_S1_vEEvPKNS_23enable_shared_from_thisIT_EEPT0_
+- __ZNSt3__110shared_ptrI33TIInlineCompletionEventDispatcherEC2B7v160006IS1_vEERKNS_8weak_ptrIT_EE
+- __ZNSt3__110shared_ptrI9UCollatorED1B7v160006Ev
+- __ZNSt3__110shared_ptrIN2TI2CP18SearchNodeKeyMatchEE18__enable_weak_thisB7v160006INS2_16SearchNodeSourceES3_vEEvPKNS_23enable_shared_from_thisIT_EEPT0_
+- __ZNSt3__110shared_ptrIN2TI2CP33SearchNodeTranspositionExtensionsEE18__enable_weak_thisB7v160006INS2_16SearchNodeSourceES3_vEEvPKNS_23enable_shared_from_thisIT_EEPT0_
+- __ZNSt3__110unique_ptrIN10applesauce2CF13DictionaryRefERNS_12__destruct_nEE5resetB7v160006EPS3_
+- __ZNSt3__110unique_ptrIN17language_modeling2v120LanguageModelSessionENS_14default_deleteIS3_EEE5resetB7v160006EPS3_
+- __ZNSt3__110unique_ptrIN2KB10WeakHolderENS_14default_deleteIS2_EEE5resetB7v160006EPS2_
+- __ZNSt3__110unique_ptrIN2KB16StaticDictionaryENS_14default_deleteIS2_EEE5resetB7v160006EPS2_
+- __ZNSt3__110unique_ptrIN2TI18RejectionsDatabaseENS_14default_deleteIS2_EEE5resetB7v160006EPS2_
+- __ZNSt3__110unique_ptrINS_11__hash_nodeIN2KB6StringEPvEENS_22__hash_node_destructorINS_9allocatorIS5_EEEEE5resetB7v160006EPS5_
+- __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeIN2KB6StringEjEEPvEENS_22__hash_node_destructorINS_9allocatorIS7_EEEEE5resetB7v160006EPS7_
+- __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeIN2TI2CP20TIPathRecognizerTypeEN2KB19CandidateCollectionEEEPvEENS_22__hash_node_destructorINS_9allocatorISA_EEEEE5resetB7v160006EPSA_
+- __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN2TI2CP11ShapeRecordEEEPvEENS_22__hash_node_destructorINS6_ISE_EEEEE5resetB7v160006EPSE_
+- __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrIN2TI11ShortMemoryEEEEEPvEENS_22__hash_node_destructorINS6_ISF_EEEEE5resetB7v160006EPSF_
+- __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_8weak_ptrIN2KB21LanguageModelImplStub13WrapperHandleEEEEEPvEENS_22__hash_node_destructorINS6_ISG_EEEEE5resetB7v160006EPSG_
+- __ZNSt3__110unique_ptrINS_11__tree_nodeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_7variantIJN17language_modeling2v111SessionTypeES8_EEEEEPvEENS_22__tree_node_destructorINS6_ISG_EEEEE5resetB7v160006EPSG_
+- __ZNSt3__110unique_ptrINS_11__tree_nodeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_7variantIJbS8_EEEEEPvEENS_22__tree_node_destructorINS6_ISD_EEEEE5resetB7v160006EPSD_
+- __ZNSt3__110unique_ptrINS_11__tree_nodeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES8_EEPvEENS_22__tree_node_destructorINS6_ISB_EEEEE5resetB7v160006EPSB_
+- __ZNSt3__110unique_ptrINS_13unordered_mapINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_8functionIFNS_10shared_ptrIN2KB15CandidateFilterEEEN10applesauce2CF13DictionaryRefERKNSA_28CandidateFilterConfigurationEEEENS_4hashIS7_EENS_8equal_toIS7_EENS5_INS_4pairIKS7_SK_EEEEEENS_14default_deleteIST_EEE5resetB7v160006EPST_
+- __ZNSt3__110unique_ptrINS_13unordered_mapINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_8functionIFNS_10shared_ptrIN2KB15CandidateFilterEEEN10applesauce2CF13DictionaryRefERKNSA_28CandidateFilterConfigurationEEEENS_4hashIS7_EENS_8equal_toIS7_EENS5_INS_4pairIKS7_SK_EEEEEENS_14default_deleteIST_EEED1B7v160006Ev
+- __ZNSt3__111__introsortINS_17_ClassicAlgPolicyERN2TI8Favonius28SearchNodeLanguageExtensions25LetterExtensionComparatorEPN3WTF6RefPtrINS3_16TypingHypothesisEEEEEvT1_SC_T0_NS_15iterator_traitsISC_E15difference_typeE
+- __ZNSt3__111__introsortINS_17_ClassicAlgPolicyERN2TI8Favonius40SearchNodeLanguageThenGeometryExtensions25LetterExtensionComparatorEPN3WTF6RefPtrINS3_16TypingHypothesisEEEEEvT1_SC_T0_NS_15iterator_traitsISC_E15difference_typeE
+- __ZNSt3__111__introsortINS_17_ClassicAlgPolicyERNS_6__lessIN2KB9CandidateES4_EEPS4_EEvT1_S8_T0_NS_15iterator_traitsIS8_E15difference_typeE
+- __ZNSt3__111__introsortINS_17_ClassicAlgPolicyERNS_7greaterIvEEPN2TI11ShortMemory10WordRecordEEEvT1_S9_T0_NS_15iterator_traitsIS9_E15difference_typeE
+- __ZNSt3__111__introsortINS_17_ClassicAlgPolicyERU13block_pointerFbRKN2KB9CandidateES5_EPS3_EEvT1_SA_T0_NS_15iterator_traitsISA_E15difference_typeE
+- __ZNSt3__111__introsortINS_17_ClassicAlgPolicyERU13block_pointerFbRKN3WTF6RefPtrIN2TI8Favonius10SearchNodeEEES9_EPS7_EEvT1_SE_T0_NS_15iterator_traitsISE_E15difference_typeE
+- __ZNSt3__111__introsortINS_17_ClassicAlgPolicyERU13block_pointerFbRKN3WTF6RefPtrIN2TI8Favonius16TypingHypothesisEEES9_EPS7_EEvT1_SE_T0_NS_15iterator_traitsISE_E15difference_typeE
+- __ZNSt3__111__introsortINS_17_ClassicAlgPolicyERU13block_pointerFbRKN3WTF6RefPtrIN2TI8Favonius8KeyMatchEEES9_EPS7_EEvT1_SE_T0_NS_15iterator_traitsISE_E15difference_typeE
+- __ZNSt3__111__introsortINS_17_ClassicAlgPolicyERU13block_pointerFbRKN3WTF6RefPtrIN2TI8Favonius9LayoutKeyEEES9_EPS7_EEvT1_SE_T0_NS_15iterator_traitsISE_E15difference_typeE
+- __ZNSt3__111__introsortINS_17_ClassicAlgPolicyERU8__strongU13block_pointerFbRKN3WTF6RefPtrIN2TI8Favonius16TypingHypothesisEEES9_EPS7_EEvT1_SF_T0_NS_15iterator_traitsISF_E15difference_typeE
+- __ZNSt3__111__introsortINS_17_ClassicAlgPolicyERZN2KB19CandidateCollection18sort_by_word_scoreEvE3$_3PNS2_9CandidateEEEvT1_S8_T0_NS_15iterator_traitsIS8_E15difference_typeE
+- __ZNSt3__111__introsortINS_17_ClassicAlgPolicyERZN2KB19CandidateCollection4sortEvE3$_2PNS2_9CandidateEEEvT1_S8_T0_NS_15iterator_traitsIS8_E15difference_typeE
+- __ZNSt3__111__introsortINS_17_ClassicAlgPolicyERZN2TI2CP28SearchNodeLanguageExtensions23decrease_bound_on_scoreEvE3$_0PN3WTF6RefPtrINS2_8Favonius16TypingHypothesisEEEEEvT1_SD_T0_NS_15iterator_traitsISD_E15difference_typeE
+- __ZNSt3__111__introsortINS_17_ClassicAlgPolicyERZN2TI2CP33SearchNodeKeyPredictionExtensions23decrease_bound_on_scoreEvE3$_1PN3WTF6RefPtrINS2_8Favonius16TypingHypothesisEEEEEvT1_SD_T0_NS_15iterator_traitsISD_E15difference_typeE
+- __ZNSt3__111__introsortINS_17_ClassicAlgPolicyERZNK2KB16LanguageModelStr11completionsERKNS_6vectorINS2_9CandidateENS_9allocatorIS5_EEEERKNS2_20LanguageModelContextENS_8functionIFbRKNS2_13LanguageModel14PredictionInfoERKS5_SB_EEENSE_IFbSK_EEENS2_10LookupTypeEE3$_0PS5_EEvT1_ST_T0_NS_15iterator_traitsIST_E15difference_typeE
+- __ZNSt3__111__introsortINS_17_ClassicAlgPolicyERZNK2KB22LanguageModelContainer11predictionsERKNS2_20LanguageModelContextEmNS_8functionIFvRKNS2_13LanguageModel14PredictionInfoEEEEE3$_4PS9_EEvT1_SH_T0_NS_15iterator_traitsISH_E15difference_typeE
+- __ZNSt3__111__sift_downB7v160006INS_17_ClassicAlgPolicyERNS_6__lessIN2KB9CandidateES4_EEPS4_EEvT1_OT0_NS_15iterator_traitsIS8_E15difference_typeES8_
+- __ZNSt3__111__sift_downB7v160006INS_17_ClassicAlgPolicyERU13block_pointerFbRKN2KB9CandidateES5_EPS3_EEvT1_OT0_NS_15iterator_traitsISA_E15difference_typeESA_
+- __ZNSt3__111__sift_downB7v160006INS_17_ClassicAlgPolicyERU13block_pointerFbRKN3WTF6RefPtrIN2TI8Favonius16TypingHypothesisEEES9_EPS7_EEvT1_OT0_NS_15iterator_traitsISE_E15difference_typeESE_
+- __ZNSt3__111__sift_downB7v160006INS_17_ClassicAlgPolicyERU13block_pointerFbRKN3WTF6RefPtrIN2TI8Favonius8KeyMatchEEES9_EPS7_EEvT1_OT0_NS_15iterator_traitsISE_E15difference_typeESE_
+- __ZNSt3__111__sift_downB7v160006INS_17_ClassicAlgPolicyERZN2KB19CandidateCollection18sort_by_word_scoreEvE3$_3PNS2_9CandidateEEEvT1_OT0_NS_15iterator_traitsIS8_E15difference_typeES8_
+- __ZNSt3__111__sift_downB7v160006INS_17_ClassicAlgPolicyERZN2KB19CandidateCollection4sortEvE3$_2PNS2_9CandidateEEEvT1_OT0_NS_15iterator_traitsIS8_E15difference_typeES8_
+- __ZNSt3__111__sift_downB7v160006INS_17_ClassicAlgPolicyERZNK2KB16LanguageModelStr11completionsERKNS_6vectorINS2_9CandidateENS_9allocatorIS5_EEEERKNS2_20LanguageModelContextENS_8functionIFbRKNS2_13LanguageModel14PredictionInfoERKS5_SB_EEENSE_IFbSK_EEENS2_10LookupTypeEE3$_0PS5_EEvT1_OT0_NS_15iterator_traitsIST_E15difference_typeEST_
+- __ZNSt3__111cmp_greaterB7v160006IjjEEbT_T0_
+- __ZNSt3__112__destroy_atB7v160006I13RecentMessageLi0EEEvPT_
+- __ZNSt3__112__destroy_atB7v160006I18TIInlineCompletionLi0EEEvPT_
+- __ZNSt3__112__destroy_atB7v160006IN2KB11LexiconInfoELi0EEEvPT_
+- __ZNSt3__112__destroy_atB7v160006IN2KB13LanguageModel14PredictionInfoELi0EEEvPT_
+- __ZNSt3__112__destroy_atB7v160006IN2KB17DictionaryCursorsELi0EEEvPT_
+- __ZNSt3__112__destroy_atB7v160006IN2KB20LanguageModelContextELi0EEEvPT_
+- __ZNSt3__112__destroy_atB7v160006IN2TI2CP11ShapeRecordELi0EEEvPT_
+- __ZNSt3__112__destroy_atB7v160006IN2TI31MLTTAutocorrectionCandidateInfoELi0EEEvPT_
+- __ZNSt3__112__destroy_atB7v160006IN2TI8Favonius14CMTouchHistory16TouchCorrelationELi0EEEvPT_
+- __ZNSt3__112__destroy_atB7v160006INS_4pairIKN2KB10ByteStringEN3WTF6RefPtrIN2TI8Favonius9LayoutKeyEEEEELi0EEEvPT_
+- __ZNSt3__112__destroy_atB7v160006INS_4pairIKN2KB10ByteStringENS_6vectorINS2_9CandidateENS_9allocatorIS6_EEEEEELi0EEEvPT_
+- __ZNSt3__112__destroy_atB7v160006INS_4pairIKN2KB6StringENS2_19CandidateCollectionEEELi0EEEvPT_
+- __ZNSt3__112__destroy_atB7v160006INS_4pairIKN2KB6StringENS_10shared_ptrINS2_13AppTrieLoaderEEEEELi0EEEvPT_
+- __ZNSt3__112__destroy_atB7v160006INS_4pairIKN2KB6StringENS_10shared_ptrINS2_21AddressBookTrieLoaderEEEEELi0EEEvPT_
+- __ZNSt3__112__destroy_atB7v160006INS_4pairIKN2KB6StringENS_10unique_ptrINS2_8LRUCacheIS3_NS_10shared_ptrINS2_15CandidateFilterEEEE4NodeENS_14default_deleteISB_EEEEEELi0EEEvPT_
+- __ZNSt3__112__destroy_atB7v160006INS_4pairIKN2KB6StringENS_10unique_ptrINS2_8LRUCacheIS3_NS_6vectorINS2_13LanguageModel14PredictionInfoENS_9allocatorIS9_EEEEE4NodeENS_14default_deleteISE_EEEEEELi0EEEvPT_
+- __ZNSt3__112__destroy_atB7v160006INS_4pairIKN2TI2CP20TIPathRecognizerTypeEN2KB19CandidateCollectionEEELi0EEEvPT_
+- __ZNSt3__112__destroy_atB7v160006INS_4pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN10applesauce2CF13DictionaryRefEEELi0EEEvPT_
+- __ZNSt3__112__destroy_atB7v160006INS_4pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN2TI2CP11ShapeRecordEEELi0EEEvPT_
+- __ZNSt3__112__destroy_atB7v160006INS_4pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrIN2TI11ShortMemoryEEEEELi0EEEvPT_
+- __ZNSt3__112__destroy_atB7v160006INS_4pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10unique_ptrI14UBreakIteratorN2KB16BreakIterDeleterEEEEELi0EEEvPT_
+- __ZNSt3__112__destroy_atB7v160006INS_4pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_13unordered_setIS7_NS_4hashIS7_EENS_8equal_toIS7_EENS5_IS7_EEEEEELi0EEEvPT_
+- __ZNSt3__112__destroy_atB7v160006INS_4pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_7variantIJN17language_modeling2v111SessionTypeES7_EEEEELi0EEEvPT_
+- __ZNSt3__112__destroy_atB7v160006INS_4pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_7variantIJbS7_EEEEELi0EEEvPT_
+- __ZNSt3__112__destroy_atB7v160006INS_4pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_8functionIFNS_10shared_ptrIN2KB15CandidateFilterEEEN10applesauce2CF13DictionaryRefERKNSB_28CandidateFilterConfigurationEEEEEELi0EEEvPT_
+- __ZNSt3__112__destroy_atB7v160006INS_4pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_8weak_ptrIN2KB21LanguageModelImplStub13WrapperHandleEEEEELi0EEEvPT_
+- __ZNSt3__112__destroy_atB7v160006INS_4pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_EELi0EEEvPT_
+- __ZNSt3__112__destroy_atB7v160006INS_4pairIKiN2KB22ContinuousPathDetector13AnnotatedPathEEELi0EEEvPT_
+- __ZNSt3__112__destroy_atB7v160006INS_4pairIN3WTF6RefPtrIN2TI8Favonius12TouchHistoryEEENS3_INS5_8KeyMatchEEEEELi0EEEvPT_
+- __ZNSt3__112__hash_tableIN2KB6StringENS_4hashIS2_EENS_8equal_toIS2_EENS_9allocatorIS2_EEE17__deallocate_nodeEPNS_16__hash_node_baseIPNS_11__hash_nodeIS2_PvEEEE
+- __ZNSt3__112__hash_tableINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_4hashIS6_EENS_8equal_toIS6_EENS4_IS6_EEEC2EOSC_
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIN2KB10ByteStringENS_6vectorINS2_9CandidateENS_9allocatorIS5_EEEEEENS_22__unordered_map_hasherIS3_S9_NS_4hashIS3_EENS_8equal_toIS3_EELb1EEENS_21__unordered_map_equalIS3_S9_SE_SC_Lb1EEENS6_IS9_EEE17__deallocate_nodeEPNS_16__hash_node_baseIPNS_11__hash_nodeIS9_PvEEEE
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIN2KB10ByteStringENS_6vectorINS2_9CandidateENS_9allocatorIS5_EEEEEENS_22__unordered_map_hasherIS3_S9_NS_4hashIS3_EENS_8equal_toIS3_EELb1EEENS_21__unordered_map_equalIS3_S9_SE_SC_Lb1EEENS6_IS9_EEED2Ev
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIN2KB6StringENS_10shared_ptrINS2_13AppTrieLoaderEEEEENS_22__unordered_map_hasherIS3_S7_NS_4hashIS3_EENS_8equal_toIS3_EELb1EEENS_21__unordered_map_equalIS3_S7_SC_SA_Lb1EEENS_9allocatorIS7_EEE17__deallocate_nodeEPNS_16__hash_node_baseIPNS_11__hash_nodeIS7_PvEEEE
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIN2KB6StringENS_10shared_ptrINS2_13AppTrieLoaderEEEEENS_22__unordered_map_hasherIS3_S7_NS_4hashIS3_EENS_8equal_toIS3_EELb1EEENS_21__unordered_map_equalIS3_S7_SC_SA_Lb1EEENS_9allocatorIS7_EEED2Ev
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIN2KB6StringENS_10shared_ptrINS2_21AddressBookTrieLoaderEEEEENS_22__unordered_map_hasherIS3_S7_NS_4hashIS3_EENS_8equal_toIS3_EELb1EEENS_21__unordered_map_equalIS3_S7_SC_SA_Lb1EEENS_9allocatorIS7_EEE17__deallocate_nodeEPNS_16__hash_node_baseIPNS_11__hash_nodeIS7_PvEEEE
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIN2KB6StringENS_10shared_ptrINS2_21AddressBookTrieLoaderEEEEENS_22__unordered_map_hasherIS3_S7_NS_4hashIS3_EENS_8equal_toIS3_EELb1EEENS_21__unordered_map_equalIS3_S7_SC_SA_Lb1EEENS_9allocatorIS7_EEED2Ev
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIN2KB6StringENS_13unordered_mapIN2TI2CP20TIPathRecognizerTypeENS_4pairIjfEENS_4hashIiEENS_8equal_toIS7_EENS_9allocatorINS8_IKS7_S9_EEEEEEEENS_22__unordered_map_hasherIS3_SJ_NSA_IS3_EENSC_IS3_EELb1EEENS_21__unordered_map_equalIS3_SJ_SM_SL_Lb1EEENSE_ISJ_EEE17__deallocate_nodeEPNS_16__hash_node_baseIPNS_11__hash_nodeISJ_PvEEEE
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIN2KB6StringENS_13unordered_mapIN2TI2CP20TIPathRecognizerTypeENS_4pairIjfEENS_4hashIiEENS_8equal_toIS7_EENS_9allocatorINS8_IKS7_S9_EEEEEEEENS_22__unordered_map_hasherIS3_SJ_NSA_IS3_EENSC_IS3_EELb1EEENS_21__unordered_map_equalIS3_SJ_SM_SL_Lb1EEENSE_ISJ_EEED2Ev
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIN2KB6StringENS_13unordered_setIS3_NS_4hashIS3_EENS_8equal_toIS3_EENS_9allocatorIS3_EEEEEENS_22__unordered_map_hasherIS3_SC_S6_S8_Lb1EEENS_21__unordered_map_equalIS3_SC_S8_S6_Lb1EEENS9_ISC_EEE13__move_assignERSI_NS_17integral_constantIbLb1EEE
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIN2KB6StringENS_13unordered_setIS3_NS_4hashIS3_EENS_8equal_toIS3_EENS_9allocatorIS3_EEEEEENS_22__unordered_map_hasherIS3_SC_S6_S8_Lb1EEENS_21__unordered_map_equalIS3_SC_S8_S6_Lb1EEENS9_ISC_EEE5clearEv
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIN2KB6StringENS_6vectorIS3_NS_9allocatorIS3_EEEEEENS_22__unordered_map_hasherIS3_S8_NS_4hashIS3_EENS_8equal_toIS3_EELb1EEENS_21__unordered_map_equalIS3_S8_SD_SB_Lb1EEENS5_IS8_EEE17__deallocate_nodeEPNS_16__hash_node_baseIPNS_11__hash_nodeIS8_PvEEEE
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIN2KB6StringENS_6vectorIS3_NS_9allocatorIS3_EEEEEENS_22__unordered_map_hasherIS3_S8_NS_4hashIS3_EENS_8equal_toIS3_EELb1EEENS_21__unordered_map_equalIS3_S8_SD_SB_Lb1EEENS5_IS8_EEED2Ev
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIN2KB6StringEPK10_LXLexiconEENS_22__unordered_map_hasherIS3_S7_NS_4hashIS3_EENS_8equal_toIS3_EELb1EEENS_21__unordered_map_equalIS3_S7_SC_SA_Lb1EEENS_9allocatorIS7_EEE17__deallocate_nodeEPNS_16__hash_node_baseIPNS_11__hash_nodeIS7_PvEEEE
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIN2KB6StringES3_EENS_22__unordered_map_hasherIS3_S4_NS_4hashIS3_EENS_8equal_toIS3_EELb1EEENS_21__unordered_map_equalIS3_S4_S9_S7_Lb1EEENS_9allocatorIS4_EEE17__deallocate_nodeEPNS_16__hash_node_baseIPNS_11__hash_nodeIS4_PvEEEE
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIN2KB6StringES3_EENS_22__unordered_map_hasherIS3_S4_NS_4hashIS3_EENS_8equal_toIS3_EELb1EEENS_21__unordered_map_equalIS3_S4_S9_S7_Lb1EEENS_9allocatorIS4_EEED2Ev
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIN2KB6StringEjEENS_22__unordered_map_hasherIS3_S4_NS_4hashIS3_EENS_8equal_toIS3_EELb1EEENS_21__unordered_map_equalIS3_S4_S9_S7_Lb1EEENS_9allocatorIS4_EEE17__deallocate_nodeEPNS_16__hash_node_baseIPNS_11__hash_nodeIS4_PvEEEE
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIN2KB6StringEjEENS_22__unordered_map_hasherIS3_S4_NS_4hashIS3_EENS_8equal_toIS3_EELb1EEENS_21__unordered_map_equalIS3_S4_S9_S7_Lb1EEENS_9allocatorIS4_EEED2Ev
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIN2KB6StringEmEENS_22__unordered_map_hasherIS3_S4_NS_4hashIS3_EENS_8equal_toIS3_EELb1EEENS_21__unordered_map_equalIS3_S4_S9_S7_Lb1EEENS_9allocatorIS4_EEE5clearEv
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIN2KB6StringEmEENS_22__unordered_map_hasherIS3_S4_NS_4hashIS3_EENS_8equal_toIS3_EELb1EEENS_21__unordered_map_equalIS3_S4_S9_S7_Lb1EEENS_9allocatorIS4_EEED2Ev
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIN2TI2CP20TIPathRecognizerTypeEN2KB19CandidateCollectionEEENS_22__unordered_map_hasherIS4_S7_NS_4hashIiEENS_8equal_toIS4_EELb1EEENS_21__unordered_map_equalIS4_S7_SC_SA_Lb1EEENS_9allocatorIS7_EEE17__deallocate_nodeEPNS_16__hash_node_baseIPNS_11__hash_nodeIS7_PvEEEE
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIN2TI2CP20TIPathRecognizerTypeEN2KB19CandidateCollectionEEENS_22__unordered_map_hasherIS4_S7_NS_4hashIiEENS_8equal_toIS4_EELb1EEENS_21__unordered_map_equalIS4_S7_SC_SA_Lb1EEENS_9allocatorIS7_EEED2Ev
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIN2TI2CP20TIPathRecognizerTypeENS_10shared_ptrINS3_25TIPathRecognizerInterfaceEEEEENS_22__unordered_map_hasherIS4_S8_NS_4hashIiEENS_8equal_toIS4_EELb1EEENS_21__unordered_map_equalIS4_S8_SD_SB_Lb1EEENS_9allocatorIS8_EEE17__deallocate_nodeEPNS_16__hash_node_baseIPNS_11__hash_nodeIS8_PvEEEE
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIN2TI2CP20TIPathRecognizerTypeENS_10shared_ptrINS3_25TIPathRecognizerInterfaceEEEEENS_22__unordered_map_hasherIS4_S8_NS_4hashIiEENS_8equal_toIS4_EELb1EEENS_21__unordered_map_equalIS4_S8_SD_SB_Lb1EEENS_9allocatorIS8_EEED2Ev
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN10applesauce2CF13DictionaryRefEEENS_22__unordered_map_hasherIS7_SB_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SB_SG_SE_Lb1EEENS5_ISB_EEE17__deallocate_nodeEPNS_16__hash_node_baseIPNS_11__hash_nodeISB_PvEEEE
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN2TI2CP11ShapeRecordEEENS_22__unordered_map_hasherIS7_SB_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SB_SG_SE_Lb1EEENS5_ISB_EEE17__deallocate_nodeEPNS_16__hash_node_baseIPNS_11__hash_nodeISB_PvEEEE
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN2TI2CP11ShapeRecordEEENS_22__unordered_map_hasherIS7_SB_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SB_SG_SE_Lb1EEENS5_ISB_EEE6removeENS_21__hash_const_iteratorIPNS_11__hash_nodeISB_PvEEEE
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN2TI2CP11ShapeRecordEEENS_22__unordered_map_hasherIS7_SB_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SB_SG_SE_Lb1EEENS5_ISB_EEED2Ev
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrIN2TI11ShortMemoryEEEEENS_22__unordered_map_hasherIS7_SC_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SC_SH_SF_Lb1EEENS5_ISC_EEE17__deallocate_nodeEPNS_16__hash_node_baseIPNS_11__hash_nodeISC_PvEEEE
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrIN2TI11ShortMemoryEEEEENS_22__unordered_map_hasherIS7_SC_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SC_SH_SF_Lb1EEENS5_ISC_EEE6removeENS_21__hash_const_iteratorIPNS_11__hash_nodeISC_PvEEEE
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrIN2TI11ShortMemoryEEEEENS_22__unordered_map_hasherIS7_SC_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SC_SH_SF_Lb1EEENS5_ISC_EEED2Ev
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_13unordered_setIS7_NS_4hashIS7_EENS_8equal_toIS7_EENS5_IS7_EEEEEENS_22__unordered_map_hasherIS7_SF_SA_SC_Lb1EEENS_21__unordered_map_equalIS7_SF_SC_SA_Lb1EEENS5_ISF_EEE5clearEv
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_8functionIFNS_10shared_ptrIN2KB15CandidateFilterEEEN10applesauce2CF13DictionaryRefERKNSA_28CandidateFilterConfigurationEEEEEENS_22__unordered_map_hasherIS7_SL_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SL_SQ_SO_Lb1EEENS5_ISL_EEE17__deallocate_nodeEPNS_16__hash_node_baseIPNS_11__hash_nodeISL_PvEEEE
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_8weak_ptrIN2KB21LanguageModelImplStub13WrapperHandleEEEEENS_22__unordered_map_hasherIS7_SD_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SD_SI_SG_Lb1EEENS5_ISD_EEE17__deallocate_nodeEPNS_16__hash_node_baseIPNS_11__hash_nodeISD_PvEEEE
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_EENS_22__unordered_map_hasherIS7_S8_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_S8_SD_SB_Lb1EEENS5_IS8_EEE17__deallocate_nodeEPNS_16__hash_node_baseIPNS_11__hash_nodeIS8_PvEEEE
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_EENS_22__unordered_map_hasherIS7_S8_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_S8_SD_SB_Lb1EEENS5_IS8_EEED2Ev
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEbEENS_22__unordered_map_hasherIS7_S8_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_S8_SD_SB_Lb1EEENS5_IS8_EEE17__deallocate_nodeEPNS_16__hash_node_baseIPNS_11__hash_nodeIS8_PvEEEE
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEbEENS_22__unordered_map_hasherIS7_S8_NS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_S8_SD_SB_Lb1EEENS5_IS8_EEED2Ev
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIPN2TI8Favonius10SearchNodeEN3WTF6RefPtrIS4_EEEENS_22__unordered_map_hasherIS5_S9_NS_4hashIS5_EENS_8equal_toIS5_EELb1EEENS_21__unordered_map_equalIS5_S9_SE_SC_Lb1EEENS_9allocatorIS9_EEE17__deallocate_nodeEPNS_16__hash_node_baseIPNS_11__hash_nodeIS9_PvEEEE
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIPN2TI8Favonius10SearchNodeEN3WTF6RefPtrIS4_EEEENS_22__unordered_map_hasherIS5_S9_NS_4hashIS5_EENS_8equal_toIS5_EELb1EEENS_21__unordered_map_equalIS5_S9_SE_SC_Lb1EEENS_9allocatorIS9_EEED2Ev
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIiNS_13unordered_mapIN2KB6StringENS_13unordered_setIS4_NS_4hashIS4_EENS_8equal_toIS4_EENS_9allocatorIS4_EEEES7_S9_NSA_INS_4pairIKS4_SC_EEEEEEEENS_22__unordered_map_hasherIiSI_NS6_IiEENS8_IiEELb1EEENS_21__unordered_map_equalIiSI_SL_SK_Lb1EEENSA_ISI_EEE17__deallocate_nodeEPNS_16__hash_node_baseIPNS_11__hash_nodeISI_PvEEEE
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIiNS_13unordered_mapIN2KB6StringENS_13unordered_setIS4_NS_4hashIS4_EENS_8equal_toIS4_EENS_9allocatorIS4_EEEES7_S9_NSA_INS_4pairIKS4_SC_EEEEEEEENS_22__unordered_map_hasherIiSI_NS6_IiEENS8_IiEELb1EEENS_21__unordered_map_equalIiSI_SL_SK_Lb1EEENSA_ISI_EEED2Ev
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIjN3WTF6RefPtrIN2TI8Favonius3KeyEEEEENS_22__unordered_map_hasherIjS8_NS_4hashIjEENS_8equal_toIjEELb1EEENS_21__unordered_map_equalIjS8_SD_SB_Lb1EEENS_9allocatorIS8_EEE5clearEv
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIjN3WTF6RefPtrIN2TI8Favonius3KeyEEEEENS_22__unordered_map_hasherIjS8_NS_4hashIjEENS_8equal_toIjEELb1EEENS_21__unordered_map_equalIjS8_SD_SB_Lb1EEENS_9allocatorIS8_EEED2Ev
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIjU8__strongPU28objcproto17OS_dispatch_queue8NSObjectEENS_22__unordered_map_hasherIjS6_NS_4hashIjEENS_8equal_toIjEELb1EEENS_21__unordered_map_equalIjS6_SB_S9_Lb1EEENS_9allocatorIS6_EEE17__deallocate_nodeEPNS_16__hash_node_baseIPNS_11__hash_nodeIS6_PvEEEE
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIjU8__strongPU28objcproto17OS_dispatch_queue8NSObjectEENS_22__unordered_map_hasherIjS6_NS_4hashIjEENS_8equal_toIjEELb1EEENS_21__unordered_map_equalIjS6_SB_S9_Lb1EEENS_9allocatorIS6_EEED2Ev
+- __ZNSt3__112__hash_tableImNS_4hashImEENS_8equal_toImEENS_9allocatorImEEED2Ev
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6appendB7v160006IPKcEENS_9enable_ifIXsr27__is_cpp17_forward_iteratorIT_EE5valueERS5_E4typeESA_SA_
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B7v160006ENS_24__uninitialized_size_tagEmRKS4_
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B7v160006Emc
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B7v160006IDnEEPKc
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B7v160006INS_19istreambuf_iteratorIcS2_EEvEET_S9_
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B7v160006IPKcvEET_S9_RKS4_
+- __ZNSt3__112construct_atB7v160006I18TIInlineCompletionJRKN17language_modeling2v116InlineCompletionEEPS1_EEPT_S9_DpOT0_
+- __ZNSt3__112construct_atB7v160006I18TIInlineCompletionJRKS1_EPS1_EEPT_S6_DpOT0_
+- __ZNSt3__112construct_atB7v160006I35TIInlineCompletionAnalyticsMetadataJRKS1_EPS1_EEPT_S6_DpOT0_
+- __ZNSt3__112construct_atB7v160006IN2KB11LexiconInfoEJRKS2_EPS2_EEPT_S7_DpOT0_
+- __ZNSt3__112construct_atB7v160006IN2KB11LexiconInfoEJRS2_EPS2_EEPT_S6_DpOT0_
+- __ZNSt3__112construct_atB7v160006IN2KB11LexiconInfoEJS2_EPS2_EEPT_S5_DpOT0_
+- __ZNSt3__112construct_atB7v160006IN2KB13LanguageModel14PredictionInfoEJRKS3_EPS3_EEPT_S8_DpOT0_
+- __ZNSt3__112construct_atB7v160006IN2KB13LanguageModel14PredictionInfoEJS3_EPS3_EEPT_S6_DpOT0_
+- __ZNSt3__112construct_atB7v160006IN2KB21LanguageModelImplStubEJNS1_19LanguageModelConfigEEPS2_EEPT_S6_DpOT0_
+- __ZNSt3__112construct_atB7v160006IN2TI2CP11ShapeRecordEJRKS3_EPS3_EEPT_S8_DpOT0_
+- __ZNSt3__112construct_atB7v160006IN2TI2CP11ShapeRecordEJS3_EPS3_EEPT_S6_DpOT0_
+- __ZNSt3__112construct_atB7v160006IN2TI2CP18SearchNodeKeyMatchEJRPKNS2_6SearchENS_10shared_ptrIKNS2_10SearchNodeEEERjRN3WTF10PassRefPtrINS1_8Favonius9LayoutKeyEEERNSE_INSF_16TypingHypothesisEEEEPS3_EEPT_SO_DpOT0_
+- __ZNSt3__112construct_atB7v160006IN2TI2CP33SearchNodeTranspositionExtensionsEJRPKNS2_6SearchENS_10shared_ptrIKNS2_10SearchNodeEEERjRN3WTF10PassRefPtrINS1_8Favonius9LayoutKeyEEEEPS3_EEPT_SL_DpOT0_
+- __ZNSt3__113__fill_n_trueB7v160006INS_6vectorIbNS_9allocatorIbEEEEEEvNS_14__bit_iteratorIT_Lb0EXLi0EEEENS6_9size_typeE
+- __ZNSt3__113__tree_removeB7v160006IPNS_16__tree_node_baseIPvEEEEvT_S5_
+- __ZNSt3__113cmp_not_equalB7v160006IjjEEbT_T0_
+- __ZNSt3__113unordered_mapIN2TI2CP20TIPathRecognizerTypeENS_4pairIjfEENS_4hashIiEENS_8equal_toIS3_EENS_9allocatorINS4_IKS3_S5_EEEEEC2ERKSE_
+- __ZNSt3__113unordered_mapINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrIN2TI11ShortMemoryEEENS_4hashIS6_EENS_8equal_toIS6_EENS4_INS_4pairIKS6_SA_EEEEED1B7v160006Ev
+- __ZNSt3__113unordered_mapINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_8functionIFNS_10shared_ptrIN2KB15CandidateFilterEEEN10applesauce2CF13DictionaryRefERKNS9_28CandidateFilterConfigurationEEEENS_4hashIS6_EENS_8equal_toIS6_EENS4_INS_4pairIKS6_SJ_EEEEEC2ERKSS_
+- __ZNSt3__113unordered_mapINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_8weak_ptrIN2KB21LanguageModelImplStub13WrapperHandleEEENS_4hashIS6_EENS_8equal_toIS6_EENS4_INS_4pairIKS6_SB_EEEEEC2ERKSK_
+- __ZNSt3__113unordered_mapINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_8weak_ptrIN2KB21LanguageModelImplStub13WrapperHandleEEENS_4hashIS6_EENS_8equal_toIS6_EENS4_INS_4pairIKS6_SB_EEEEED1B7v160006Ev
+- __ZNSt3__113unordered_mapINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES6_NS_4hashIS6_EENS_8equal_toIS6_EENS4_INS_4pairIKS6_S6_EEEEED1B7v160006Ev
+- __ZNSt3__113unordered_mapINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEbNS_4hashIS6_EENS_8equal_toIS6_EENS4_INS_4pairIKS6_bEEEEED1B7v160006Ev
+- __ZNSt3__113unordered_setINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_4hashIS6_EENS_8equal_toIS6_EENS4_IS6_EEEC2ERKSC_
+- __ZNSt3__114__fill_n_falseB7v160006INS_6vectorIbNS_9allocatorIbEEEEEEvNS_14__bit_iteratorIT_Lb0EXLi0EEEENS6_9size_typeE
+- __ZNSt3__114__partial_sortB7v160006INS_17_ClassicAlgPolicyERZN2KB19CandidateCollection18sort_by_word_scoreEvE3$_3PNS2_9CandidateES7_EET1_S8_S8_T2_RT0_
+- __ZNSt3__114__partial_sortB7v160006INS_17_ClassicAlgPolicyERZN2KB19CandidateCollection4sortEvE3$_2PNS2_9CandidateES7_EET1_S8_S8_T2_RT0_
+- __ZNSt3__114__partial_sortB7v160006INS_17_ClassicAlgPolicyERZNK2KB16LanguageModelStr11completionsERKNS_6vectorINS2_9CandidateENS_9allocatorIS5_EEEERKNS2_20LanguageModelContextENS_8functionIFbRKNS2_13LanguageModel14PredictionInfoERKS5_SB_EEENSE_IFbSK_EEENS2_10LookupTypeEE3$_0PS5_SS_EET1_ST_ST_T2_RT0_
+- __ZNSt3__114__split_bufferIN2KB10retain_ptrIPK10_LXLexiconEERNS_9allocatorIS6_EEE17__destruct_at_endB7v160006EPS6_
+- __ZNSt3__114__split_bufferIN2KB14LikelihoodInfoERNS_9allocatorIS2_EEE17__destruct_at_endB7v160006EPS2_
+- __ZNSt3__114__split_bufferIN3WTF6RefPtrIN2TI8Favonius10SearchNodeEEERNS_9allocatorIS6_EEE17__destruct_at_endB7v160006EPS6_
+- __ZNSt3__114__split_bufferIN3WTF6RefPtrIN2TI8Favonius16SearchNodeSourceEEERNS_9allocatorIS6_EEE17__destruct_at_endB7v160006EPS6_
+- __ZNSt3__114__split_bufferIN3WTF6RefPtrIN2TI8Favonius9LayoutKeyEEERNS_9allocatorIS6_EEE5clearB7v160006Ev
+- __ZNSt3__114__split_bufferINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEERNS4_IS6_EEE17__destruct_at_endB7v160006EPS6_
+- __ZNSt3__114__split_bufferINS_6vectorIN2KB14LikelihoodInfoENS_9allocatorIS3_EEEERNS4_IS6_EEE5clearB7v160006Ev
+- __ZNSt3__114cmp_less_equalB7v160006IjjEEbT_T0_
+- __ZNSt3__115allocate_sharedB7v160006IN2KB16LanguageModelStrENS_9allocatorIS2_EEJNS1_19LanguageModelConfigEEvEENS_10shared_ptrIT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB7v160006IN2KB24UnigramCandidateRefineryENS_9allocatorIS2_EEJRKN3WTF6RefPtrINS1_19DictionaryContainerEEEEvEENS_10shared_ptrIT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB7v160006IN2TI2CP18SearchNodeKeyMatchENS_9allocatorIS3_EEJRPKNS2_6SearchENS_10shared_ptrIKNS2_10SearchNodeEEERjRN3WTF10PassRefPtrINS1_8Favonius9LayoutKeyEEERNSG_INSH_16TypingHypothesisEEEEvEENSA_IT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB7v160006IN2TI2CP33SearchNodeKeyPredictionExtensionsENS_9allocatorIS3_EEJRPKNS2_6SearchENS_10shared_ptrIKNS2_10SearchNodeEEERjEvEENSA_IT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB7v160006IN2TI2CP33SearchNodeTranspositionExtensionsENS_9allocatorIS3_EEJRPKNS2_6SearchENS_10shared_ptrIKNS2_10SearchNodeEEERjRN3WTF10PassRefPtrINS1_8Favonius9LayoutKeyEEEEvEENSA_IT_EERKT0_DpOT1_
+- __ZNSt3__116__pad_and_outputB7v160006IcNS_11char_traitsIcEEEENS_19ostreambuf_iteratorIT_T0_EES6_PKS4_S8_S8_RNS_8ios_baseES4_
+- __ZNSt3__116__rotate_forwardB7v160006INS_17_ClassicAlgPolicyENS_11__wrap_iterIPN2KB9CandidateEEEEET0_S7_S7_S7_
+- __ZNSt3__116__variant_detail12__assignmentINS0_8__traitsIJbNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEEEE12__assign_altB7v160006ILm1ES8_RPKcEEvRNS0_5__altIXT_ET0_EEOT1_
+- __ZNSt3__116__variant_detail12__assignmentINS0_8__traitsIJbNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEEEE12__assign_altB7v160006ILm1ES8_S8_EEvRNS0_5__altIXT_ET0_EEOT1_
+- __ZNSt3__116__variant_detail12__visitation6__base12__dispatcherIJLm0EEE10__dispatchB7v160006IOZNS0_6__dtorINS0_8__traitsIJN17language_modeling2v111SessionTypeENS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEEELNS0_6_TraitE1EE9__destroyB7v160006EvEUlRT_E_JRNS0_6__baseILSI_1EJSA_SG_EEEEEEDcSK_DpT0_
+- __ZNSt3__116__variant_detail12__visitation6__base12__dispatcherIJLm0EEE10__dispatchB7v160006IOZNS0_6__dtorINS0_8__traitsIJbNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEEELNS0_6_TraitE1EE9__destroyB7v160006EvEUlRT_E_JRNS0_6__baseILSF_1EJbSD_EEEEEEDcSH_DpT0_
+- __ZNSt3__116__variant_detail12__visitation6__base12__dispatcherIJLm0ELm0EEE10__dispatchB7v160006IOZNS0_12__assignmentINS0_8__traitsIJbNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEEEE16__generic_assignB7v160006IRKNS0_17__copy_assignmentISE_LNS0_6_TraitE1EEEEEvOT_EUlRSM_OT0_E_JRNS0_6__baseILSI_1EJbSD_EEERKSU_EEEDcSM_DpT0_
+- __ZNSt3__116__variant_detail12__visitation6__base12__dispatcherIJLm0ELm0EEE10__dispatchB7v160006IOZNS0_6__ctorINS0_8__traitsIJN17language_modeling2v111SessionTypeENS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEEEE19__generic_constructB7v160006IRKNS0_18__copy_constructorISH_LNS0_6_TraitE1EEEEEvRSI_OT_EUlRSQ_OT0_E_JRNS0_6__baseILSL_1EJSA_SG_EEERKSY_EEEDcSQ_DpT0_
+- __ZNSt3__116__variant_detail12__visitation6__base12__dispatcherIJLm0ELm0EEE10__dispatchB7v160006IOZNS0_6__ctorINS0_8__traitsIJbNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEEEE19__generic_constructB7v160006IRKNS0_18__copy_constructorISE_LNS0_6_TraitE1EEEEEvRSF_OT_EUlRSN_OT0_E_JRNS0_6__baseILSI_1EJbSD_EEERKSV_EEEDcSN_DpT0_
+- __ZNSt3__116__variant_detail12__visitation6__base12__dispatcherIJLm1EEE10__dispatchB7v160006IOZNS0_6__dtorINS0_8__traitsIJN17language_modeling2v111SessionTypeENS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEEELNS0_6_TraitE1EE9__destroyB7v160006EvEUlRT_E_JRNS0_6__baseILSI_1EJSA_SG_EEEEEEDcSK_DpT0_
+- __ZNSt3__116__variant_detail12__visitation6__base12__dispatcherIJLm1EEE10__dispatchB7v160006IOZNS0_6__dtorINS0_8__traitsIJbNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEEELNS0_6_TraitE1EE9__destroyB7v160006EvEUlRT_E_JRNS0_6__baseILSF_1EJbSD_EEEEEEDcSH_DpT0_
+- __ZNSt3__116__variant_detail12__visitation6__base12__dispatcherIJLm1ELm1EEE10__dispatchB7v160006IOZNS0_12__assignmentINS0_8__traitsIJbNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEEEE16__generic_assignB7v160006IRKNS0_17__copy_assignmentISE_LNS0_6_TraitE1EEEEEvOT_EUlRSM_OT0_E_JRNS0_6__baseILSI_1EJbSD_EEERKSU_EEEDcSM_DpT0_
+- __ZNSt3__116__variant_detail12__visitation6__base12__dispatcherIJLm1ELm1EEE10__dispatchB7v160006IOZNS0_6__ctorINS0_8__traitsIJN17language_modeling2v111SessionTypeENS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEEEE19__generic_constructB7v160006IRKNS0_18__copy_constructorISH_LNS0_6_TraitE1EEEEEvRSI_OT_EUlRSQ_OT0_E_JRNS0_6__baseILSL_1EJSA_SG_EEERKSY_EEEDcSQ_DpT0_
+- __ZNSt3__116__variant_detail12__visitation6__base12__dispatcherIJLm1ELm1EEE10__dispatchB7v160006IOZNS0_6__ctorINS0_8__traitsIJbNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEEEE19__generic_constructB7v160006IRKNS0_18__copy_constructorISE_LNS0_6_TraitE1EEEEEvRSF_OT_EUlRSN_OT0_E_JRNS0_6__baseILSI_1EJbSD_EEERKSV_EEEDcSN_DpT0_
+- __ZNSt3__117__floyd_sift_downB7v160006INS_17_ClassicAlgPolicyERNS_6__lessIN2KB9CandidateES4_EEPS4_EET1_S8_OT0_NS_15iterator_traitsIS8_E15difference_typeE
+- __ZNSt3__117__floyd_sift_downB7v160006INS_17_ClassicAlgPolicyERU13block_pointerFbRKN3WTF6RefPtrIN2TI8Favonius16TypingHypothesisEEES9_EPS7_EET1_SE_OT0_NS_15iterator_traitsISE_E15difference_typeE
+- __ZNSt3__117__floyd_sift_downB7v160006INS_17_ClassicAlgPolicyERU13block_pointerFbRKN3WTF6RefPtrIN2TI8Favonius8KeyMatchEEES9_EPS7_EET1_SE_OT0_NS_15iterator_traitsISE_E15difference_typeE
+- __ZNSt3__117cmp_greater_equalB7v160006IjjEEbT_T0_
+- __ZNSt3__118__insertion_sort_3B7v160006INS_17_ClassicAlgPolicyERNS_6__lessIN2KB9CandidateES4_EEPS4_EEvT1_S8_T0_
+- __ZNSt3__118__insertion_sort_3B7v160006INS_17_ClassicAlgPolicyERU13block_pointerFbRKN3WTF6RefPtrIN2TI8Favonius16TypingHypothesisEEES9_EPS7_EEvT1_SE_T0_
+- __ZNSt3__118__insertion_sort_3B7v160006INS_17_ClassicAlgPolicyERU13block_pointerFbRKN3WTF6RefPtrIN2TI8Favonius8KeyMatchEEES9_EPS7_EEvT1_SE_T0_
+- __ZNSt3__118__insertion_sort_3B7v160006INS_17_ClassicAlgPolicyERZNK2KB16LanguageModelStr11completionsERKNS_6vectorINS2_9CandidateENS_9allocatorIS5_EEEERKNS2_20LanguageModelContextENS_8functionIFbRKNS2_13LanguageModel14PredictionInfoERKS5_SB_EEENSE_IFbSK_EEENS2_10LookupTypeEE3$_0PS5_EEvT1_ST_T0_
+- __ZNSt3__118basic_stringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B7v160006Ev
+- __ZNSt3__119__allocate_at_leastB7v160006INS_9allocatorI18TIInlineCompletionEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m
+- __ZNSt3__119__allocate_at_leastB7v160006INS_9allocatorI9TITokenIDEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m
+- __ZNSt3__119__allocate_at_leastB7v160006INS_9allocatorIDv4_dEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m
+- __ZNSt3__119__allocate_at_leastB7v160006INS_9allocatorIN10applesauce2CF8ArrayRefEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS8_m
+- __ZNSt3__119__allocate_at_leastB7v160006INS_9allocatorIN17language_modeling2v113TokenMetadataEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS8_m
+- __ZNSt3__119__allocate_at_leastB7v160006INS_9allocatorIN17language_modeling2v114CompletionStemEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS8_m
+- __ZNSt3__119__allocate_at_leastB7v160006INS_9allocatorIN17language_modeling2v15TokenEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS8_m
+- __ZNSt3__119__allocate_at_leastB7v160006INS_9allocatorIN2KB10FilterFlagEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
+- __ZNSt3__119__allocate_at_leastB7v160006INS_9allocatorIN2KB10retain_ptrIPK10_LXLexiconEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSB_m
+- __ZNSt3__119__allocate_at_leastB7v160006INS_9allocatorIN2KB11LexiconInfoEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
+- __ZNSt3__119__allocate_at_leastB7v160006INS_9allocatorIN2KB13LanguageModel14PredictionInfoEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS8_m
+- __ZNSt3__119__allocate_at_leastB7v160006INS_9allocatorIN2KB14LikelihoodInfoEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
+- __ZNSt3__119__allocate_at_leastB7v160006INS_9allocatorIN2KB17DictionaryCursorsEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
+- __ZNSt3__119__allocate_at_leastB7v160006INS_9allocatorIN2KB20LanguageModelContextEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
+- __ZNSt3__119__allocate_at_leastB7v160006INS_9allocatorIN2KB22StaticDictionaryCursorEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
+- __ZNSt3__119__allocate_at_leastB7v160006INS_9allocatorIN2KB4WordEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
+- __ZNSt3__119__allocate_at_leastB7v160006INS_9allocatorIN2KB5InputEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
+- __ZNSt3__119__allocate_at_leastB7v160006INS_9allocatorIN2KB6StringEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
+- __ZNSt3__119__allocate_at_leastB7v160006INS_9allocatorIN2KB9CandidateEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
+- __ZNSt3__119__allocate_at_leastB7v160006INS_9allocatorIN2TI2CP10PathSampleEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS8_m
+- __ZNSt3__119__allocate_at_leastB7v160006INS_9allocatorIN2TI2CP11ShapeRecordEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS8_m
+- __ZNSt3__119__allocate_at_leastB7v160006INS_9allocatorIN2TI2CP14ScoreComponentEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS8_m
+- __ZNSt3__119__allocate_at_leastB7v160006INS_9allocatorIN2TI2CP25ContextualShapeRecognizer22recognition_hypothesisEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS9_m
+- __ZNSt3__119__allocate_at_leastB7v160006INS_9allocatorIN2TI8Favonius14CMTouchHistory16TouchCorrelationEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS9_m
+- __ZNSt3__119__allocate_at_leastB7v160006INS_9allocatorIN3WTF6RefPtrIN2TI8Favonius10SearchNodeEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSB_m
+- __ZNSt3__119__allocate_at_leastB7v160006INS_9allocatorIN3WTF6RefPtrIN2TI8Favonius16SearchNodeSourceEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSB_m
+- __ZNSt3__119__allocate_at_leastB7v160006INS_9allocatorIN3WTF6RefPtrIN2TI8Favonius9LayoutKeyEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSB_m
+- __ZNSt3__119__allocate_at_leastB7v160006INS_9allocatorINS_10shared_ptrIKN2TI2CP10SearchNodeEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSB_m
+- __ZNSt3__119__allocate_at_leastB7v160006INS_9allocatorINS_10shared_ptrIN2KB13LanguageModel20PredictionEnumeratorEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSA_m
+- __ZNSt3__119__allocate_at_leastB7v160006INS_9allocatorINS_10shared_ptrIN2KB13LanguageModelEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS9_m
+- __ZNSt3__119__allocate_at_leastB7v160006INS_9allocatorINS_10shared_ptrIN2TI2CP16SearchNodeSourceEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSA_m
+- __ZNSt3__119__allocate_at_leastB7v160006INS_9allocatorINS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSA_m
+- __ZNSt3__119__allocate_at_leastB7v160006INS_9allocatorINS_4pairIN3WTF6RefPtrIN2TI8Favonius12TouchHistoryEEENS4_INS6_8KeyMatchEEEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSF_m
+- __ZNSt3__119__allocate_at_leastB7v160006INS_9allocatorINS_6vectorIN17language_modeling2v113TokenMetadataENS1_IS5_EEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSB_m
+- __ZNSt3__119__allocate_at_leastB7v160006INS_9allocatorINS_6vectorIN2KB14LikelihoodInfoENS1_IS4_EEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSA_m
+- __ZNSt3__119__allocate_at_leastB7v160006INS_9allocatorINS_6vectorIN3WTF6RefPtrIN2TI8Favonius9LayoutKeyEEENS1_IS8_EEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSE_m
+- __ZNSt3__119__allocate_at_leastB7v160006INS_9allocatorINS_6vectorINS2_IN17language_modeling2v113TokenMetadataENS1_IS5_EEEENS1_IS7_EEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSD_m
+- __ZNSt3__119__allocate_at_leastB7v160006INS_9allocatorINS_6vectorINS_10shared_ptrIKN2TI2CP10SearchNodeEEENS1_IS8_EEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSE_m
+- __ZNSt3__119__allocate_at_leastB7v160006INS_9allocatorIPN2TI8Favonius16SearchNodeSourceEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS9_m
+- __ZNSt3__119__allocate_at_leastB7v160006INS_9allocatorIdEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS5_m
+- __ZNSt3__119__allocate_at_leastB7v160006INS_9allocatorIfEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS5_m
+- __ZNSt3__119__allocate_at_leastB7v160006INS_9allocatorIjEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS5_m
+- __ZNSt3__119__allocate_at_leastB7v160006INS_9allocatorImEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS5_m
+- __ZNSt3__119__allocate_at_leastB7v160006INS_9allocatorItEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS5_m
+- __ZNSt3__119__partial_sort_implB7v160006INS_17_ClassicAlgPolicyERNS_6__lessIN2KB9CandidateES4_EEPS4_S7_EET1_S8_S8_T2_OT0_
+- __ZNSt3__119__partial_sort_implB7v160006INS_17_ClassicAlgPolicyERU13block_pointerFbRKN2KB9CandidateES5_EPS3_S9_EET1_SA_SA_T2_OT0_
+- __ZNSt3__119__partial_sort_implB7v160006INS_17_ClassicAlgPolicyERU13block_pointerFbRKN3WTF6RefPtrIN2TI8Favonius16TypingHypothesisEEES9_EPS7_SD_EET1_SE_SE_T2_OT0_
+- __ZNSt3__119__partial_sort_implB7v160006INS_17_ClassicAlgPolicyERU13block_pointerFbRKN3WTF6RefPtrIN2TI8Favonius8KeyMatchEEES9_EPS7_SD_EET1_SE_SE_T2_OT0_
+- __ZNSt3__119__shared_weak_count16__release_sharedB7v160006Ev
+- __ZNSt3__119__sort5_wrap_policyB7v160006INS_17_ClassicAlgPolicyERZN2KB19CandidateCollection18sort_by_word_scoreEvE3$_3PNS2_9CandidateEEEjT1_S8_S8_S8_S8_T0_
+- __ZNSt3__119__sort5_wrap_policyB7v160006INS_17_ClassicAlgPolicyERZN2KB19CandidateCollection4sortEvE3$_2PNS2_9CandidateEEEjT1_S8_S8_S8_S8_T0_
+- __ZNSt3__119__sort5_wrap_policyB7v160006INS_17_ClassicAlgPolicyERZN2TI2CP28SearchNodeLanguageExtensions23decrease_bound_on_scoreEvE3$_0PN3WTF6RefPtrINS2_8Favonius16TypingHypothesisEEEEEjT1_SD_SD_SD_SD_T0_
+- __ZNSt3__119__sort5_wrap_policyB7v160006INS_17_ClassicAlgPolicyERZN2TI2CP33SearchNodeKeyPredictionExtensions23decrease_bound_on_scoreEvE3$_1PN3WTF6RefPtrINS2_8Favonius16TypingHypothesisEEEEEjT1_SD_SD_SD_SD_T0_
+- __ZNSt3__119__sort5_wrap_policyB7v160006INS_17_ClassicAlgPolicyERZNK2KB16LanguageModelStr11completionsERKNS_6vectorINS2_9CandidateENS_9allocatorIS5_EEEERKNS2_20LanguageModelContextENS_8functionIFbRKNS2_13LanguageModel14PredictionInfoERKS5_SB_EEENSE_IFbSK_EEENS2_10LookupTypeEE3$_0PS5_EEjT1_ST_ST_ST_ST_T0_
+- __ZNSt3__119__sort5_wrap_policyB7v160006INS_17_ClassicAlgPolicyERZNK2KB22LanguageModelContainer11predictionsERKNS2_20LanguageModelContextEmNS_8functionIFvRKNS2_13LanguageModel14PredictionInfoEEEEE3$_4PS9_EEjT1_SH_SH_SH_SH_T0_
+- __ZNSt3__119basic_ostringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B7v160006Ev
+- __ZNSt3__120__shared_ptr_emplaceIN2KB21LanguageModelImplStub13WrapperHandleENS_9allocatorIS3_EEEC2B7v160006IJEEES5_DpOT_
+- __ZNSt3__120__throw_bad_weak_ptrB7v160006Ev
+- __ZNSt3__120back_insert_iteratorINS_6vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS5_IS7_EEEEEaSB7v160006EOS7_
+- __ZNSt3__120get_temporary_bufferB7v160006IN2KB9CandidateEEENS_4pairIPT_lEEl
+- __ZNSt3__121__murmur2_or_cityhashImLm64EE18__hash_len_0_to_16EPKcm
+- __ZNSt3__121__murmur2_or_cityhashImLm64EE19__hash_len_17_to_32EPKcm
+- __ZNSt3__121__murmur2_or_cityhashImLm64EE19__hash_len_33_to_64EPKcm
+- __ZNSt3__121__murmur2_or_cityhashImLm64EEclEPKvm
+- __ZNSt3__121__unwrap_and_dispatchB7v160006INS_10__overloadINS_11__copy_loopINS_17_ClassicAlgPolicyEEENS_14__copy_trivialEEENS_11__wrap_iterIPKN2KB9CandidateEEESC_PS9_Li0EEENS_4pairIT0_T2_EESF_T1_SG_
+- __ZNSt3__121__unwrap_and_dispatchB7v160006INS_10__overloadINS_11__copy_loopINS_17_ClassicAlgPolicyEEENS_14__copy_trivialEEEPN2KB5InputES9_S9_Li0EEENS_4pairIT0_T2_EESB_T1_SC_
+- __ZNSt3__121__unwrap_and_dispatchB7v160006INS_10__overloadINS_11__copy_loopINS_17_ClassicAlgPolicyEEENS_14__copy_trivialEEEPN2KB9CandidateES9_S9_Li0EEENS_4pairIT0_T2_EESB_T1_SC_
+- __ZNSt3__121__unwrap_and_dispatchB7v160006INS_10__overloadINS_11__copy_loopINS_17_ClassicAlgPolicyEEENS_14__copy_trivialEEEPNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEESD_SD_Li0EEENS_4pairIT0_T2_EESF_T1_SG_
+- __ZNSt3__121__unwrap_and_dispatchB7v160006INS_10__overloadINS_11__move_loopINS_17_ClassicAlgPolicyEEENS_14__move_trivialEEEPN2KB5InputES9_S9_Li0EEENS_4pairIT0_T2_EESB_T1_SC_
+- __ZNSt3__121__unwrap_and_dispatchB7v160006INS_10__overloadINS_11__move_loopINS_17_ClassicAlgPolicyEEENS_14__move_trivialEEEPN2KB9CandidateES9_NS_11__wrap_iterIS9_EELi0EEENS_4pairIT0_T2_EESD_T1_SE_
+- __ZNSt3__121__unwrap_and_dispatchB7v160006INS_10__overloadINS_11__move_loopINS_17_ClassicAlgPolicyEEENS_14__move_trivialEEEPN2KB9CandidateES9_S9_Li0EEENS_4pairIT0_T2_EESB_T1_SC_
+- __ZNSt3__121__unwrap_and_dispatchB7v160006INS_10__overloadINS_20__move_backward_loopINS_17_ClassicAlgPolicyEEENS_23__move_backward_trivialEEEPN2KB9CandidateES9_S9_Li0EEENS_4pairIT0_T2_EESB_T1_SC_
+- __ZNSt3__123__optional_storage_baseIN2KB4WordELb0EE13__assign_fromB7v160006INS_27__optional_move_assign_baseIS2_Lb0EEEEEvOT_
+- __ZNSt3__124__optional_destruct_baseI18TIInlineCompletionLb0EEC2B7v160006IJRKS1_EEENS_10in_place_tEDpOT_
+- __ZNSt3__124__optional_destruct_baseI18TIInlineCompletionLb0EED2B7v160006Ev
+- __ZNSt3__124__optional_destruct_baseI35TIInlineCompletionAnalyticsMetadataLb0EED2B7v160006Ev
+- __ZNSt3__124__optional_destruct_baseIN2LM15TrialParametersELb0EED2B7v160006Ev
+- __ZNSt3__124__optional_destruct_baseINS_4pairIN2KB6StringES3_EELb0EE5resetB7v160006Ev
+- __ZNSt3__124__optional_destruct_baseINS_5tupleIJN2KB19CandidateCollectionENS2_6StringEEEELb0EED2B7v160006Ev
+- __ZNSt3__124__put_character_sequenceB7v160006IcNS_11char_traitsIcEEEERNS_13basic_ostreamIT_T0_EES7_PKS4_m
+- __ZNSt3__125__throw_bad_function_callB7v160006Ev
+- __ZNSt3__127__insertion_sort_incompleteIRN2TI8Favonius28SearchNodeLanguageExtensions25LetterExtensionComparatorEPN3WTF6RefPtrINS2_16TypingHypothesisEEEEEbT0_SB_T_
+- __ZNSt3__127__insertion_sort_incompleteIRN2TI8Favonius40SearchNodeLanguageThenGeometryExtensions25LetterExtensionComparatorEPN3WTF6RefPtrINS2_16TypingHypothesisEEEEEbT0_SB_T_
+- __ZNSt3__127__insertion_sort_incompleteIRNS_6__lessIN2KB9CandidateES3_EEPS3_EEbT0_S7_T_
+- __ZNSt3__127__insertion_sort_incompleteIRNS_7greaterIvEEPN2TI11ShortMemory10WordRecordEEEbT0_S8_T_
+- __ZNSt3__127__insertion_sort_incompleteIRU13block_pointerFbRKN2KB9CandidateES4_EPS2_EEbT0_S9_T_
+- __ZNSt3__127__insertion_sort_incompleteIRU13block_pointerFbRKN3WTF6RefPtrIN2TI8Favonius10SearchNodeEEES8_EPS6_EEbT0_SD_T_
+- __ZNSt3__127__insertion_sort_incompleteIRU13block_pointerFbRKN3WTF6RefPtrIN2TI8Favonius16TypingHypothesisEEES8_EPS6_EEbT0_SD_T_
+- __ZNSt3__127__insertion_sort_incompleteIRU13block_pointerFbRKN3WTF6RefPtrIN2TI8Favonius8KeyMatchEEES8_EPS6_EEbT0_SD_T_
+- __ZNSt3__127__insertion_sort_incompleteIRU13block_pointerFbRKN3WTF6RefPtrIN2TI8Favonius9LayoutKeyEEES8_EPS6_EEbT0_SD_T_
+- __ZNSt3__127__insertion_sort_incompleteIRU8__strongU13block_pointerFbRKN3WTF6RefPtrIN2TI8Favonius16TypingHypothesisEEES8_EPS6_EEbT0_SE_T_
+- __ZNSt3__127__insertion_sort_incompleteIRZN2KB19CandidateCollection18sort_by_word_scoreEvE3$_3PNS1_9CandidateEEEbT0_S7_T_
+- __ZNSt3__127__insertion_sort_incompleteIRZN2KB19CandidateCollection4sortEvE3$_2PNS1_9CandidateEEEbT0_S7_T_
+- __ZNSt3__127__insertion_sort_incompleteIRZN2TI2CP28SearchNodeLanguageExtensions23decrease_bound_on_scoreEvE3$_0PN3WTF6RefPtrINS1_8Favonius16TypingHypothesisEEEEEbT0_SC_T_
+- __ZNSt3__127__insertion_sort_incompleteIRZN2TI2CP33SearchNodeKeyPredictionExtensions23decrease_bound_on_scoreEvE3$_1PN3WTF6RefPtrINS1_8Favonius16TypingHypothesisEEEEEbT0_SC_T_
+- __ZNSt3__127__insertion_sort_incompleteIRZNK2KB16LanguageModelStr11completionsERKNS_6vectorINS1_9CandidateENS_9allocatorIS4_EEEERKNS1_20LanguageModelContextENS_8functionIFbRKNS1_13LanguageModel14PredictionInfoERKS4_SA_EEENSD_IFbSJ_EEENS1_10LookupTypeEE3$_0PS4_EEbT0_SS_T_
+- __ZNSt3__127__insertion_sort_incompleteIRZNK2KB22LanguageModelContainer11predictionsERKNS1_20LanguageModelContextEmNS_8functionIFvRKNS1_13LanguageModel14PredictionInfoEEEEE3$_4PS8_EEbT0_SG_T_
+- __ZNSt3__127__throw_bad_optional_accessB7v160006Ev
+- __ZNSt3__127__tree_balance_after_insertB7v160006IPNS_16__tree_node_baseIPvEEEEvT_S5_
+- __ZNSt3__130__uninitialized_allocator_copyB7v160006INS_9allocatorIN2KB14LikelihoodInfoEEEPS3_S5_S5_EET2_RT_T0_T1_S6_
+- __ZNSt3__13mapIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10unique_ptrI14UBreakIteratorN2KB16BreakIterDeleterEEENS_4lessIS7_EENS4_INS_4pairIS7_SC_EEEEED1B7v160006Ev
+- __ZNSt3__13mapINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_7variantIJbS6_EEENS_4lessIS6_EENS4_INS_4pairIKS6_S8_EEEEE2atERSC_
+- __ZNSt3__13mapINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_7variantIJbS6_EEENS_4lessIS6_EENS4_INS_4pairIKS6_S8_EEEEE6insertB7v160006INS_20__map_const_iteratorINS_21__tree_const_iteratorINS_12__value_typeIS6_S8_EEPNS_11__tree_nodeISK_PvEElEEEEEEvT_SR_
+- __ZNSt3__13mapINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES6_NS_4lessIS6_EENS4_INS_4pairIKS6_S6_EEEEE6insertB7v160006INS_20__map_const_iteratorINS_21__tree_const_iteratorINS_12__value_typeIS6_S6_EEPNS_11__tree_nodeISI_PvEElEEEEEEvT_SP_
+- __ZNSt3__13mapINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEfNS_4lessIS6_EENS4_INS_4pairIKS6_fEEEEE6insertB7v160006INS_20__map_const_iteratorINS_21__tree_const_iteratorINS_12__value_typeIS6_fEEPNS_11__tree_nodeISI_PvEElEEEEEEvT_SP_
+- __ZNSt3__13mapImdNS_4lessImEENS_9allocatorINS_4pairIKmdEEEEE6insertB7v160006INS_20__map_const_iteratorINS_21__tree_const_iteratorINS_12__value_typeImdEEPNS_11__tree_nodeISD_PvEElEEEEEEvT_SK_
+- __ZNSt3__14pairI18TIInlineCompletionmEC2B7v160006IRKS1_mLPv0EEEOT_OT0_
+- __ZNSt3__14pairI18TIInlineCompletionmEC2EOS2_
+- __ZNSt3__14pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_8weak_ptrIN2KB21LanguageModelImplStub13WrapperHandleEEEEC2ERKSD_
+- __ZNSt3__14pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES6_EC2ERKS8_
+- __ZNSt3__14pairIN2KB20LanguageModelContextE18TIInlineCompletionEC2ERKS4_
+- __ZNSt3__14swapB7v160006IN2KB13LanguageModel14PredictionInfoEEENS_9enable_ifIXaasr21is_move_constructibleIT_EE5valuesr18is_move_assignableIS5_EE5valueEvE4typeERS5_S8_
+- __ZNSt3__16__treeINS_12__value_typeIKN2KB6StringENS_10unique_ptrINS2_8LRUCacheIS3_NS_10shared_ptrINS2_15CandidateFilterEEEE4NodeENS_14default_deleteISB_EEEEEENS_19__map_value_compareIS4_SF_NS_4lessIS4_EELb1EEENS_9allocatorISF_EEE16__insert_node_atEPNS_15__tree_end_nodeIPNS_16__tree_node_baseIPvEEEERSR_SR_
+- __ZNSt3__16__treeINS_12__value_typeIKN2KB6StringENS_10unique_ptrINS2_8LRUCacheIS3_NS_6vectorINS2_13LanguageModel14PredictionInfoENS_9allocatorIS9_EEEEE4NodeENS_14default_deleteISE_EEEEEENS_19__map_value_compareIS4_SI_NS_4lessIS4_EELb1EEENSA_ISI_EEE16__insert_node_atEPNS_15__tree_end_nodeIPNS_16__tree_node_baseIPvEEEERST_ST_
+- __ZNSt3__16__treeINS_12__value_typeIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10unique_ptrI14UBreakIteratorN2KB16BreakIterDeleterEEEEENS_19__map_value_compareIS8_SE_NS_4lessIS8_EELb1EEENS5_ISE_EEE16__insert_node_atEPNS_15__tree_end_nodeIPNS_16__tree_node_baseIPvEEEERSP_SP_
+- __ZNSt3__16__treeINS_12__value_typeIN2KB6StringENS2_19CandidateCollectionEEENS_19__map_value_compareIS3_S5_NS_4lessIS3_EELb1EEENS_9allocatorIS5_EEE16__insert_node_atEPNS_15__tree_end_nodeIPNS_16__tree_node_baseIPvEEEERSH_SH_
+- __ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEP12sqlite3_stmtEENS_19__map_value_compareIS7_SA_NS_4lessIS7_EELb1EEENS5_ISA_EEE16__insert_node_atEPNS_15__tree_end_nodeIPNS_16__tree_node_baseIPvEEEERSL_SL_
+- __ZNSt3__16__treeINS_12__value_typeIfiEENS_19__map_value_compareIfS2_NS_4lessIfEELb1EEENS_9allocatorIS2_EEE16__insert_node_atEPNS_15__tree_end_nodeIPNS_16__tree_node_baseIPvEEEERSE_SE_
+- __ZNSt3__16__treeINS_12__value_typeIiN2KB22ContinuousPathDetector13AnnotatedPathEEENS_19__map_value_compareIiS5_NS_4lessIiEELb1EEENS_9allocatorIS5_EEE16__insert_node_atEPNS_15__tree_end_nodeIPNS_16__tree_node_baseIPvEEEERSH_SH_
+- __ZNSt3__16__treeIjNS_4lessIjEENS_9allocatorIjEEE16__insert_node_atEPNS_15__tree_end_nodeIPNS_16__tree_node_baseIPvEEEERSA_SA_
+- __ZNSt3__16vectorI18TIInlineCompletionNS_9allocatorIS1_EEE16__destroy_vectorclB7v160006Ev
+- __ZNSt3__16vectorI18TIInlineCompletionNS_9allocatorIS1_EEEC2ERKS4_
+- __ZNSt3__16vectorI20TIFitAffineMLLMatrixNS_9allocatorIS1_EEE16__destroy_vectorclB7v160006Ev
+- __ZNSt3__16vectorI20TIFitAffineMLLMatrixNS_9allocatorIS1_EEE9push_backB7v160006EOS1_
+- __ZNSt3__16vectorI6CGRectNS_9allocatorIS1_EEE11__vallocateB7v160006Em
+- __ZNSt3__16vectorI6CGRectNS_9allocatorIS1_EEE6assignIPS1_Li0EEEvT_S7_
+- __ZNSt3__16vectorI9TITokenIDNS_9allocatorIS1_EEE11__vallocateB7v160006Em
+- __ZNSt3__16vectorI9TITokenIDNS_9allocatorIS1_EEE6assignIPS1_Li0EEEvT_S7_
+- __ZNSt3__16vectorIN10applesauce2CF13DictionaryRefENS_9allocatorIS3_EEE16__destroy_vectorclB7v160006Ev
+- __ZNSt3__16vectorIN10applesauce2CF13DictionaryRefENS_9allocatorIS3_EEE9push_backB7v160006ERKS3_
+- __ZNSt3__16vectorIN10applesauce2CF8ArrayRefENS_9allocatorIS3_EEE16__destroy_vectorclB7v160006Ev
+- __ZNSt3__16vectorIN10applesauce2CF8ArrayRefENS_9allocatorIS3_EEE7__clearB7v160006Ev
+- __ZNSt3__16vectorIN10applesauce2CF8ArrayRefENS_9allocatorIS3_EEE9push_backB7v160006ERKS3_
+- __ZNSt3__16vectorIN17language_modeling2v111ProbabilityENS_9allocatorIS3_EEE16__destroy_vectorclB7v160006Ev
+- __ZNSt3__16vectorIN17language_modeling2v113TokenMetadataENS_9allocatorIS3_EEE11__vallocateB7v160006Em
+- __ZNSt3__16vectorIN17language_modeling2v114CompletionStemENS_9allocatorIS3_EEE16__destroy_vectorclB7v160006Ev
+- __ZNSt3__16vectorIN17language_modeling2v114CompletionStemENS_9allocatorIS3_EEEC2ERKS6_
+- __ZNSt3__16vectorIN17language_modeling2v15TokenENS_9allocatorIS3_EEE11__vallocateB7v160006Em
+- __ZNSt3__16vectorIN17language_modeling2v15TokenENS_9allocatorIS3_EEE16__destroy_vectorclB7v160006Ev
+- __ZNSt3__16vectorIN17language_modeling2v15TokenENS_9allocatorIS3_EEE7__clearB7v160006Ev
+- __ZNSt3__16vectorIN17language_modeling2v15TokenENS_9allocatorIS3_EEEC2ERKS6_
+- __ZNSt3__16vectorIN2KB10FilterFlagENS_9allocatorIS2_EEE11__vallocateB7v160006Em
+- __ZNSt3__16vectorIN2KB10retain_ptrIP11__CandidateEENS_9allocatorIS5_EEE7__clearB7v160006Ev
+- __ZNSt3__16vectorIN2KB10retain_ptrIPK10_LXLexiconEENS_9allocatorIS6_EEE16__destroy_vectorclB7v160006Ev
+- __ZNSt3__16vectorIN2KB10retain_ptrIPK10_LXLexiconEENS_9allocatorIS6_EEE7__clearB7v160006Ev
+- __ZNSt3__16vectorIN2KB10retain_ptrIPK10__CFStringEENS_9allocatorIS6_EEE16__destroy_vectorclB7v160006Ev
+- __ZNSt3__16vectorIN2KB10retain_ptrIPK8_LXEntryEENS_9allocatorIS6_EEE16__destroy_vectorclB7v160006Ev
+- __ZNSt3__16vectorIN2KB10retain_ptrIPK9_LXCursorEENS_9allocatorIS6_EEE11__vallocateB7v160006Em
+- __ZNSt3__16vectorIN2KB10retain_ptrIPK9_LXCursorEENS_9allocatorIS6_EEE16__destroy_vectorclB7v160006Ev
+- __ZNSt3__16vectorIN2KB11LexiconInfoENS_9allocatorIS2_EEE11__vallocateB7v160006Em
+- __ZNSt3__16vectorIN2KB11LexiconInfoENS_9allocatorIS2_EEE16__destroy_vectorclB7v160006Ev
+- __ZNSt3__16vectorIN2KB11LexiconInfoENS_9allocatorIS2_EEEC2ERKS5_
+- __ZNSt3__16vectorIN2KB13LanguageModel14PredictionInfoENS_9allocatorIS3_EEE16__destroy_vectorclB7v160006Ev
+- __ZNSt3__16vectorIN2KB14LikelihoodInfoENS_9allocatorIS2_EEE11__vallocateB7v160006Em
+- __ZNSt3__16vectorIN2KB14LikelihoodInfoENS_9allocatorIS2_EEE16__destroy_vectorclB7v160006Ev
+- __ZNSt3__16vectorIN2KB14LikelihoodInfoENS_9allocatorIS2_EEE7__clearB7v160006Ev
+- __ZNSt3__16vectorIN2KB14LikelihoodInfoENS_9allocatorIS2_EEEC2ERKS5_
+- __ZNSt3__16vectorIN2KB20LanguageModelContextENS_9allocatorIS2_EEE11__vallocateB7v160006Em
+- __ZNSt3__16vectorIN2KB20LanguageModelContextENS_9allocatorIS2_EEE16__destroy_vectorclB7v160006Ev
+- __ZNSt3__16vectorIN2KB20LanguageModelContextENS_9allocatorIS2_EEEC2ERKS5_
+- __ZNSt3__16vectorIN2KB22StaticDictionaryCursorENS_9allocatorIS2_EEE16__destroy_vectorclB7v160006Ev
+- __ZNSt3__16vectorIN2KB22StaticDictionaryCursorENS_9allocatorIS2_EEE22__base_destruct_at_endB7v160006EPS2_
+- __ZNSt3__16vectorIN2KB4WordENS_9allocatorIS2_EEE16__destroy_vectorclB7v160006Ev
+- __ZNSt3__16vectorIN2KB4WordENS_9allocatorIS2_EEE6assignIPS2_Li0EEEvT_S8_
+- __ZNSt3__16vectorIN2KB4WordENS_9allocatorIS2_EEE6insertINS_11__wrap_iterIPS2_EELi0EEES9_NS7_IPKS2_EET_SD_
+- __ZNSt3__16vectorIN2KB5InputENS_9allocatorIS2_EEE16__destroy_vectorclB7v160006Ev
+- __ZNSt3__16vectorIN2KB6StringENS_9allocatorIS2_EEE11__vallocateB7v160006Em
+- __ZNSt3__16vectorIN2KB6StringENS_9allocatorIS2_EEE16__destroy_vectorclB7v160006Ev
+- __ZNSt3__16vectorIN2KB6StringENS_9allocatorIS2_EEE6assignIPS2_Li0EEEvT_S8_
+- __ZNSt3__16vectorIN2KB6StringENS_9allocatorIS2_EEEC2ERKS5_
+- __ZNSt3__16vectorIN2KB9CandidateENS_9allocatorIS2_EEE11__vallocateB7v160006Em
+- __ZNSt3__16vectorIN2KB9CandidateENS_9allocatorIS2_EEE16__destroy_vectorclB7v160006Ev
+- __ZNSt3__16vectorIN2KB9CandidateENS_9allocatorIS2_EEE5eraseB7v160006ENS_11__wrap_iterIPKS2_EE
+- __ZNSt3__16vectorIN2KB9CandidateENS_9allocatorIS2_EEE6assignIPS2_Li0EEEvT_S8_
+- __ZNSt3__16vectorIN2KB9CandidateENS_9allocatorIS2_EEE6insertINS_11__wrap_iterIPKS2_EELi0EEENS7_IPS2_EESA_T_SD_
+- __ZNSt3__16vectorIN2KB9CandidateENS_9allocatorIS2_EEE6insertINS_11__wrap_iterIPS2_EELi0EEES9_NS7_IPKS2_EET_SD_
+- __ZNSt3__16vectorIN2KB9CandidateENS_9allocatorIS2_EEEC2ERKS5_
+- __ZNSt3__16vectorIN2TI2CP10PathSampleENS_9allocatorIS3_EEE11__vallocateB7v160006Em
+- __ZNSt3__16vectorIN2TI2CP10PathSampleENS_9allocatorIS3_EEE6assignIPS3_Li0EEEvT_S9_
+- __ZNSt3__16vectorIN2TI2CP11ShapeRecordENS_9allocatorIS3_EEE16__destroy_vectorclB7v160006Ev
+- __ZNSt3__16vectorIN3WTF6RefPtrIN2TI8Favonius10SearchNodeEEENS_9allocatorIS6_EEE16__destroy_vectorclB7v160006Ev
+- __ZNSt3__16vectorIN3WTF6RefPtrIN2TI8Favonius10SearchNodeEEENS_9allocatorIS6_EEE22__base_destruct_at_endB7v160006EPS6_
+- __ZNSt3__16vectorIN3WTF6RefPtrIN2TI8Favonius10SearchNodeEEENS_9allocatorIS6_EEE9push_backB7v160006ERKS6_
+- __ZNSt3__16vectorIN3WTF6RefPtrIN2TI8Favonius10SearchNodeEEENS_9allocatorIS6_EEEC2ERKS9_
+- __ZNSt3__16vectorIN3WTF6RefPtrIN2TI8Favonius16SearchNodeSourceEEENS_9allocatorIS6_EEE11__vallocateB7v160006Em
+- __ZNSt3__16vectorIN3WTF6RefPtrIN2TI8Favonius16SearchNodeSourceEEENS_9allocatorIS6_EEE16__destroy_vectorclB7v160006Ev
+- __ZNSt3__16vectorIN3WTF6RefPtrIN2TI8Favonius16SearchNodeSourceEEENS_9allocatorIS6_EEE22__base_destruct_at_endB7v160006EPS6_
+- __ZNSt3__16vectorIN3WTF6RefPtrIN2TI8Favonius9LayoutKeyEEENS_9allocatorIS6_EEE16__destroy_vectorclB7v160006Ev
+- __ZNSt3__16vectorIN3WTF6RefPtrIN2TI8Favonius9LayoutKeyEEENS_9allocatorIS6_EEE7__clearB7v160006Ev
+- __ZNSt3__16vectorIN3WTF6RefPtrIN2TI8Favonius9LayoutKeyEEENS_9allocatorIS6_EEE9push_backB7v160006ERKS6_
+- __ZNSt3__16vectorINS0_IN17language_modeling2v111ProbabilityENS_9allocatorIS3_EEEENS4_IS6_EEE16__destroy_vectorclB7v160006Ev
+- __ZNSt3__16vectorINS0_IN17language_modeling2v113TokenMetadataENS_9allocatorIS3_EEEENS4_IS6_EEE16__destroy_vectorclB7v160006Ev
+- __ZNSt3__16vectorINS0_IN17language_modeling2v113TokenMetadataENS_9allocatorIS3_EEEENS4_IS6_EEE7__clearB7v160006Ev
+- __ZNSt3__16vectorINS0_IN17language_modeling2v113TokenMetadataENS_9allocatorIS3_EEEENS4_IS6_EEEC2ERKS8_
+- __ZNSt3__16vectorINS0_IN2KB14LikelihoodInfoENS_9allocatorIS2_EEEENS3_IS5_EEE16__destroy_vectorclB7v160006Ev
+- __ZNSt3__16vectorINS0_INS0_IN17language_modeling2v113TokenMetadataENS_9allocatorIS3_EEEENS4_IS6_EEEENS4_IS8_EEE16__destroy_vectorclB7v160006Ev
+- __ZNSt3__16vectorINS0_INS0_IN17language_modeling2v113TokenMetadataENS_9allocatorIS3_EEEENS4_IS6_EEEENS4_IS8_EEEC2ERKSA_
+- __ZNSt3__16vectorINS_10shared_ptrIKN2TI2CP10SearchNodeEEENS_9allocatorIS6_EEE16__destroy_vectorclB7v160006Ev
+- __ZNSt3__16vectorINS_10shared_ptrIKN2TI2CP10SearchNodeEEENS_9allocatorIS6_EEE7__clearB7v160006Ev
+- __ZNSt3__16vectorINS_10shared_ptrIN2KB13LanguageModel20PredictionEnumeratorEEENS_9allocatorIS5_EEE16__destroy_vectorclB7v160006Ev
+- __ZNSt3__16vectorINS_10shared_ptrIN2KB13LanguageModelEEENS_9allocatorIS4_EEE16__destroy_vectorclB7v160006Ev
+- __ZNSt3__16vectorINS_10shared_ptrIN2KB13LanguageModelEEENS_9allocatorIS4_EEE7__clearB7v160006Ev
+- __ZNSt3__16vectorINS_10shared_ptrIN2KB15CandidateFilterEEENS_9allocatorIS4_EEE16__destroy_vectorclB7v160006Ev
+- __ZNSt3__16vectorINS_10shared_ptrIN2KB15CandidateFilterEEENS_9allocatorIS4_EEE7__clearB7v160006Ev
+- __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE11__vallocateB7v160006Em
+- __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE16__destroy_vectorclB7v160006Ev
+- __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE18__construct_at_endIPS6_Li0EEEvT_SB_m
+- __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE6assignIPS6_Li0EEEvT_SB_
+- __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE7__clearB7v160006Ev
+- __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEEC2ERKS8_
+- __ZNSt3__16vectorINS_4pairIN3WTF6RefPtrIN2TI8Favonius12TouchHistoryEEENS3_INS5_8KeyMatchEEEEENS_9allocatorISA_EEE16__destroy_vectorclB7v160006Ev
+- __ZNSt3__16vectorIbNS_9allocatorIbEEE11__vallocateB7v160006Em
+- __ZNSt3__16vectorIdNS_9allocatorIdEEE11__vallocateB7v160006Em
+- __ZNSt3__16vectorIfNS_9allocatorIfEEE11__vallocateB7v160006Em
+- __ZNSt3__16vectorIjNS_9allocatorIjEEE11__vallocateB7v160006Em
+- __ZNSt3__16vectorIjNS_9allocatorIjEEE6assignIPjLi0EEEvT_S6_
+- __ZNSt3__17__sort3B7v160006INS_17_ClassicAlgPolicyERN2TI8Favonius28SearchNodeLanguageExtensions25LetterExtensionComparatorEPN3WTF6RefPtrINS3_16TypingHypothesisEEEEEjT1_SC_SC_T0_
+- __ZNSt3__17__sort3B7v160006INS_17_ClassicAlgPolicyERN2TI8Favonius40SearchNodeLanguageThenGeometryExtensions25LetterExtensionComparatorEPN3WTF6RefPtrINS3_16TypingHypothesisEEEEEjT1_SC_SC_T0_
+- __ZNSt3__17__sort3B7v160006INS_17_ClassicAlgPolicyERNS_6__lessIN2KB9CandidateES4_EEPS4_EEjT1_S8_S8_T0_
+- __ZNSt3__17__sort3B7v160006INS_17_ClassicAlgPolicyERNS_7greaterIvEEPN2TI11ShortMemory10WordRecordEEEjT1_S9_S9_T0_
+- __ZNSt3__17__sort3B7v160006INS_17_ClassicAlgPolicyERU13block_pointerFbRKN2KB9CandidateES5_EPS3_EEjT1_SA_SA_T0_
+- __ZNSt3__17__sort3B7v160006INS_17_ClassicAlgPolicyERU13block_pointerFbRKN3WTF6RefPtrIN2TI8Favonius10SearchNodeEEES9_EPS7_EEjT1_SE_SE_T0_
+- __ZNSt3__17__sort3B7v160006INS_17_ClassicAlgPolicyERU13block_pointerFbRKN3WTF6RefPtrIN2TI8Favonius16TypingHypothesisEEES9_EPS7_EEjT1_SE_SE_T0_
+- __ZNSt3__17__sort3B7v160006INS_17_ClassicAlgPolicyERU13block_pointerFbRKN3WTF6RefPtrIN2TI8Favonius8KeyMatchEEES9_EPS7_EEjT1_SE_SE_T0_
+- __ZNSt3__17__sort3B7v160006INS_17_ClassicAlgPolicyERU13block_pointerFbRKN3WTF6RefPtrIN2TI8Favonius9LayoutKeyEEES9_EPS7_EEjT1_SE_SE_T0_
+- __ZNSt3__17__sort3B7v160006INS_17_ClassicAlgPolicyERU8__strongU13block_pointerFbRKN3WTF6RefPtrIN2TI8Favonius16TypingHypothesisEEES9_EPS7_EEjT1_SF_SF_T0_
+- __ZNSt3__17__sort3B7v160006INS_17_ClassicAlgPolicyERZN2KB19CandidateCollection18sort_by_word_scoreEvE3$_3PNS2_9CandidateEEEjT1_S8_S8_T0_
+- __ZNSt3__17__sort3B7v160006INS_17_ClassicAlgPolicyERZN2KB19CandidateCollection4sortEvE3$_2PNS2_9CandidateEEEjT1_S8_S8_T0_
+- __ZNSt3__17__sort3B7v160006INS_17_ClassicAlgPolicyERZN2TI2CP28SearchNodeLanguageExtensions23decrease_bound_on_scoreEvE3$_0PN3WTF6RefPtrINS2_8Favonius16TypingHypothesisEEEEEjT1_SD_SD_T0_
+- __ZNSt3__17__sort3B7v160006INS_17_ClassicAlgPolicyERZN2TI2CP33SearchNodeKeyPredictionExtensions23decrease_bound_on_scoreEvE3$_1PN3WTF6RefPtrINS2_8Favonius16TypingHypothesisEEEEEjT1_SD_SD_T0_
+- __ZNSt3__17__sort3B7v160006INS_17_ClassicAlgPolicyERZNK2KB16LanguageModelStr11completionsERKNS_6vectorINS2_9CandidateENS_9allocatorIS5_EEEERKNS2_20LanguageModelContextENS_8functionIFbRKNS2_13LanguageModel14PredictionInfoERKS5_SB_EEENSE_IFbSK_EEENS2_10LookupTypeEE3$_0PS5_EEjT1_ST_ST_T0_
+- __ZNSt3__17__sort3B7v160006INS_17_ClassicAlgPolicyERZNK2KB22LanguageModelContainer11predictionsERKNS2_20LanguageModelContextEmNS_8functionIFvRKNS2_13LanguageModel14PredictionInfoEEEEE3$_4PS9_EEjT1_SH_SH_T0_
+- __ZNSt3__17__sort4B7v160006INS_17_ClassicAlgPolicyERN2TI8Favonius28SearchNodeLanguageExtensions25LetterExtensionComparatorEPN3WTF6RefPtrINS3_16TypingHypothesisEEEEEjT1_SC_SC_SC_T0_
+- __ZNSt3__17__sort4B7v160006INS_17_ClassicAlgPolicyERN2TI8Favonius40SearchNodeLanguageThenGeometryExtensions25LetterExtensionComparatorEPN3WTF6RefPtrINS3_16TypingHypothesisEEEEEjT1_SC_SC_SC_T0_
+- __ZNSt3__17__sort4B7v160006INS_17_ClassicAlgPolicyERNS_6__lessIN2KB9CandidateES4_EEPS4_EEjT1_S8_S8_S8_T0_
+- __ZNSt3__17__sort4B7v160006INS_17_ClassicAlgPolicyERNS_7greaterIvEEPN2TI11ShortMemory10WordRecordEEEjT1_S9_S9_S9_T0_
+- __ZNSt3__17__sort4B7v160006INS_17_ClassicAlgPolicyERU13block_pointerFbRKN2KB9CandidateES5_EPS3_EEjT1_SA_SA_SA_T0_
+- __ZNSt3__17__sort4B7v160006INS_17_ClassicAlgPolicyERU13block_pointerFbRKN3WTF6RefPtrIN2TI8Favonius10SearchNodeEEES9_EPS7_EEjT1_SE_SE_SE_T0_
+- __ZNSt3__17__sort4B7v160006INS_17_ClassicAlgPolicyERU13block_pointerFbRKN3WTF6RefPtrIN2TI8Favonius16TypingHypothesisEEES9_EPS7_EEjT1_SE_SE_SE_T0_
+- __ZNSt3__17__sort4B7v160006INS_17_ClassicAlgPolicyERU13block_pointerFbRKN3WTF6RefPtrIN2TI8Favonius8KeyMatchEEES9_EPS7_EEjT1_SE_SE_SE_T0_
+- __ZNSt3__17__sort4B7v160006INS_17_ClassicAlgPolicyERU13block_pointerFbRKN3WTF6RefPtrIN2TI8Favonius9LayoutKeyEEES9_EPS7_EEjT1_SE_SE_SE_T0_
+- __ZNSt3__17__sort4B7v160006INS_17_ClassicAlgPolicyERU8__strongU13block_pointerFbRKN3WTF6RefPtrIN2TI8Favonius16TypingHypothesisEEES9_EPS7_EEjT1_SF_SF_SF_T0_
+- __ZNSt3__17__sort4B7v160006INS_17_ClassicAlgPolicyERZN2KB19CandidateCollection18sort_by_word_scoreEvE3$_3PNS2_9CandidateEEEjT1_S8_S8_S8_T0_
+- __ZNSt3__17__sort4B7v160006INS_17_ClassicAlgPolicyERZN2KB19CandidateCollection4sortEvE3$_2PNS2_9CandidateEEEjT1_S8_S8_S8_T0_
+- __ZNSt3__17__sort4B7v160006INS_17_ClassicAlgPolicyERZN2TI2CP28SearchNodeLanguageExtensions23decrease_bound_on_scoreEvE3$_0PN3WTF6RefPtrINS2_8Favonius16TypingHypothesisEEEEEjT1_SD_SD_SD_T0_
+- __ZNSt3__17__sort4B7v160006INS_17_ClassicAlgPolicyERZN2TI2CP33SearchNodeKeyPredictionExtensions23decrease_bound_on_scoreEvE3$_1PN3WTF6RefPtrINS2_8Favonius16TypingHypothesisEEEEEjT1_SD_SD_SD_T0_
+- __ZNSt3__17__sort4B7v160006INS_17_ClassicAlgPolicyERZNK2KB16LanguageModelStr11completionsERKNS_6vectorINS2_9CandidateENS_9allocatorIS5_EEEERKNS2_20LanguageModelContextENS_8functionIFbRKNS2_13LanguageModel14PredictionInfoERKS5_SB_EEENSE_IFbSK_EEENS2_10LookupTypeEE3$_0PS5_EEjT1_ST_ST_ST_T0_
+- __ZNSt3__17__sort4B7v160006INS_17_ClassicAlgPolicyERZNK2KB22LanguageModelContainer11predictionsERKNS2_20LanguageModelContextEmNS_8functionIFvRKNS2_13LanguageModel14PredictionInfoEEEEE3$_4PS9_EEjT1_SH_SH_SH_T0_
+- __ZNSt3__17__sort5IRN2TI8Favonius28SearchNodeLanguageExtensions25LetterExtensionComparatorEPN3WTF6RefPtrINS2_16TypingHypothesisEEEEEjT0_SB_SB_SB_SB_T_
+- __ZNSt3__17__sort5IRN2TI8Favonius40SearchNodeLanguageThenGeometryExtensions25LetterExtensionComparatorEPN3WTF6RefPtrINS2_16TypingHypothesisEEEEEjT0_SB_SB_SB_SB_T_
+- __ZNSt3__17__sort5IRNS_6__lessIN2KB9CandidateES3_EEPS3_EEjT0_S7_S7_S7_S7_T_
+- __ZNSt3__17__sort5IRNS_7greaterIvEEPN2TI11ShortMemory10WordRecordEEEjT0_S8_S8_S8_S8_T_
+- __ZNSt3__17__sort5IRU13block_pointerFbRKN2KB9CandidateES4_EPS2_EEjT0_S9_S9_S9_S9_T_
+- __ZNSt3__17__sort5IRU13block_pointerFbRKN3WTF6RefPtrIN2TI8Favonius10SearchNodeEEES8_EPS6_EEjT0_SD_SD_SD_SD_T_
+- __ZNSt3__17__sort5IRU13block_pointerFbRKN3WTF6RefPtrIN2TI8Favonius16TypingHypothesisEEES8_EPS6_EEjT0_SD_SD_SD_SD_T_
+- __ZNSt3__17__sort5IRU13block_pointerFbRKN3WTF6RefPtrIN2TI8Favonius8KeyMatchEEES8_EPS6_EEjT0_SD_SD_SD_SD_T_
+- __ZNSt3__17__sort5IRU13block_pointerFbRKN3WTF6RefPtrIN2TI8Favonius9LayoutKeyEEES8_EPS6_EEjT0_SD_SD_SD_SD_T_
+- __ZNSt3__17__sort5IRU8__strongU13block_pointerFbRKN3WTF6RefPtrIN2TI8Favonius16TypingHypothesisEEES8_EPS6_EEjT0_SE_SE_SE_SE_T_
+- __ZNSt3__18_IterOpsINS_17_ClassicAlgPolicyEE9iter_swapB7v160006IRNS_11__wrap_iterIPN2KB9CandidateEEES9_EEvOT_OT0_
+- __ZNSt3__18_IterOpsINS_17_ClassicAlgPolicyEE9iter_swapB7v160006IRPN2KB9CandidateES7_EEvOT_OT0_
+- __ZNSt3__18_IterOpsINS_17_ClassicAlgPolicyEE9iter_swapB7v160006IRPN2TI11ShortMemory10WordRecordES8_EEvOT_OT0_
+- __ZNSt3__18cmp_lessB7v160006IjjEEbT_T0_
+- __ZNSt3__18optionalIN2KB6StringEEaSB7v160006IRKS2_vEERS3_OT_
+- __ZNSt3__18optionalIN2KB6StringEEaSB7v160006IS2_vEERS3_OT_
+- __ZNSt3__18optionalINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEaSB7v160006IPKcvEERS7_OT_
+- __ZNSt3__19__advanceB7v160006IN2KB6String8iteratorEEEvRT_NS_15iterator_traitsIS4_E15difference_typeENS_26bidirectional_iterator_tagE
+- __ZNSt3__19__sift_upB7v160006INS_17_ClassicAlgPolicyERN2TI8Favonius21SearchNodeResultQueue17LessThanWordScoreENS_11__wrap_iterIPN3WTF6RefPtrINS3_10SearchNodeEEEEEEEvT1_SE_OT0_NS_15iterator_traitsISE_E15difference_typeE
+- __ZNSt3__19__sift_upB7v160006INS_17_ClassicAlgPolicyERN2TI8Favonius21SearchNodeSourceQueue15BoundComparatorENS_11__wrap_iterIPPNS3_16SearchNodeSourceEEEEEvT1_SC_OT0_NS_15iterator_traitsISC_E15difference_typeE
+- __ZNSt3__19__sift_upB7v160006INS_17_ClassicAlgPolicyERNS_6__lessIN2KB9CandidateES4_EEPS4_EEvT1_S8_OT0_NS_15iterator_traitsIS8_E15difference_typeE
+- __ZNSt3__19__sift_upB7v160006INS_17_ClassicAlgPolicyERU13block_pointerFbRKN3WTF6RefPtrIN2TI8Favonius16TypingHypothesisEEES9_EPS7_EEvT1_SE_OT0_NS_15iterator_traitsISE_E15difference_typeE
+- __ZNSt3__19__sift_upB7v160006INS_17_ClassicAlgPolicyERU13block_pointerFbRKN3WTF6RefPtrIN2TI8Favonius8KeyMatchEEES9_EPS7_EEvT1_SE_OT0_NS_15iterator_traitsISE_E15difference_typeE
+- __ZNSt3__19__sift_upB7v160006INS_17_ClassicAlgPolicyERZNK2TI8Favonius14KeyboardLayout41enumerate_keys_in_centroid_distance_orderE7CGPointU13block_pointerFvRKN3WTF6RefPtrINS3_9LayoutKeyEEEEE3$_0NS_11__wrap_iterIPS9_EEEEvT1_SJ_OT0_NS_15iterator_traitsISJ_E15difference_typeE
+- __ZNSt3__19cmp_equalB7v160006IjjEEbT_T0_
+- __ZNSt3__19remove_ifB7v160006INS_11__wrap_iterIPN2KB4WordEEEU13block_pointerFbRKS3_EEET_SA_SA_T0_
+- __ZNSt3__19remove_ifB7v160006INS_11__wrap_iterIPN2KB9CandidateEEEU13block_pointerFbRKS3_EEET_SA_SA_T0_
+- __ZNSt3__1L19piecewise_constructE
+- __ZNSt3__1L19piecewise_constructE.10299
+- __ZNSt3__1L19piecewise_constructE.11238
+- __ZNSt3__1L19piecewise_constructE.11352
+- __ZNSt3__1L19piecewise_constructE.11383
+- __ZNSt3__1L19piecewise_constructE.11785
+- __ZNSt3__1L19piecewise_constructE.11988
+- __ZNSt3__1L19piecewise_constructE.12260
+- __ZNSt3__1L19piecewise_constructE.13126
+- __ZNSt3__1L19piecewise_constructE.13970
+- __ZNSt3__1L19piecewise_constructE.14232
+- __ZNSt3__1L19piecewise_constructE.14279
+- __ZNSt3__1L19piecewise_constructE.20128
+- __ZNSt3__1L19piecewise_constructE.2339
+- __ZNSt3__1L19piecewise_constructE.4329
+- __ZNSt3__1L19piecewise_constructE.4699
+- __ZNSt3__1L19piecewise_constructE.5050
+- __ZNSt3__1L19piecewise_constructE.5666
+- __ZNSt3__1L19piecewise_constructE.7674
+- __ZNSt3__1L19piecewise_constructE.9389
+- __ZNSt3__1ssB7v160006IcNS_11char_traitsIcEENS_9allocatorIcEEEEDaRKNS_12basic_stringIT_T0_T1_EESC_
+- __ZSt28__throw_bad_array_new_lengthB7v160006v
+- __ZTVNSt3__110__function6__funcIZNK2KB16LanguageModelStr11completionsERKNS_6vectorINS2_9CandidateENS_9allocatorIS5_EEEERKNS2_20LanguageModelContextENS_8functionIFbRKNS2_13LanguageModel14PredictionInfoERKS5_SB_EEENSE_IFbSK_EEENS2_10LookupTypeEE3$_1NS6_ISQ_EESL_EE
+- __ZTVNSt3__110__function6__funcIZNK2KB16LanguageModelStr11predictionsERKNS_6vectorINS2_9CandidateENS_9allocatorIS5_EEEERKNS2_20LanguageModelContextENS_8functionIFbRKNS2_13LanguageModel14PredictionInfoERKS5_SB_EEEbE3$_3NS6_ISN_EEFbRKN17language_modeling2v110PredictionEEEE
+- __ZTVNSt3__110__function6__funcIZNK2KB16LanguageModelStr11predictionsERKNS_6vectorINS2_9CandidateENS_9allocatorIS5_EEEERKNS2_20LanguageModelContextENS_8functionIFbRKNS2_13LanguageModel14PredictionInfoERKS5_SB_EEEbE3$_4NS6_ISN_EEFvSI_EEE
+- __ZTVNSt3__110__function6__funcIZNK2KB21LanguageModelImplStub11predictionsERKNS_6vectorINS2_9CandidateENS_9allocatorIS5_EEEERKNS2_20LanguageModelContextENS_8functionIFbRKNS2_13LanguageModel14PredictionInfoERKS5_SB_EEEbE3$_0NS6_ISN_EEFvSI_EEE
+- __ZTVNSt3__110__function6__funcIZNK2KB22LanguageModelContainer11completionsERKNS_6vectorINS2_9CandidateENS_9allocatorIS5_EEEERKNS2_20LanguageModelContextENS_8functionIFbRKNS2_13LanguageModel14PredictionInfoERKS5_SB_EEENSE_IFbSK_EEENS2_10LookupTypeEE3$_6NS6_ISQ_EEFbSA_SD_SM_mEEE
+- __ZTVNSt3__110__function6__funcIZNK2KB22LanguageModelContainer11predictionsERKNS_6vectorINS2_9CandidateENS_9allocatorIS5_EEEERKNS2_20LanguageModelContextENS_8functionIFbRKNS2_13LanguageModel14PredictionInfoERKS5_SB_EEEbE3$_5NS6_ISN_EEFbSA_SD_SM_mEEE
+- __ZTVNSt3__110__function6__funcIZNK2KB22LanguageModelContainer19unified_predictionsERKNS_6vectorINS2_9CandidateENS_9allocatorIS5_EEEERKNS2_20LanguageModelContextENS_8functionIFbRKNS2_13LanguageModel14PredictionInfoERKS5_SB_EEENSE_IFbSA_SD_SM_mEEEE3$_7NS6_ISP_EESL_EE
+- __ZTVNSt3__110__function6__funcIZNK2KB22NgramCandidateRefinery42completions_from_candidate_string_based_lmERKNS_6vectorINS2_9CandidateENS_9allocatorIS5_EEEERKNS2_20LanguageModelContextERNS2_19CandidateCollectionEfNS2_10LookupTypeEE3$_4NS6_ISH_EEFbRKNS2_13LanguageModel14PredictionInfoERKS5_SB_EEE
+- __ZTVNSt3__110__function6__funcIZNK2KB22NgramCandidateRefinery42predictions_from_candidate_string_based_lmERKNS_6vectorINS2_9CandidateENS_9allocatorIS5_EEEERKNS2_20LanguageModelContextERNS2_19CandidateCollectionEE3$_2NS6_ISG_EEFbRKNS2_13LanguageModel14PredictionInfoERKS5_SB_EEE
+- __ZZN2KB16LanguageModelStr23cache_key_for_candidateERKNS_9CandidateEE5space
+- __ZZNK2KB16LanguageModelStr11predictionsERKNSt3__16vectorINS_9CandidateENS1_9allocatorIS3_EEEERKNS_20LanguageModelContextENS1_8functionIFbRKNS_13LanguageModel14PredictionInfoERKS3_S9_EEEbENK3$_2clERS9_RS3_
+- __ZZNSt3__116__variant_detail12__assignmentINS0_8__traitsIJbNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEEEE12__assign_altB7v160006ILm1ES8_RPKcEEvRNS0_5__altIXT_ET0_EEOT1_ENKUt_clENS_17integral_constantIbLb0EEE
+- ___100-[TIAppAutofillManager generateAutofillFormCandidatesWithRenderTraits:withKeyboardState:completion:]_block_invoke.157
+- ___100-[TIAppAutofillManager generateAutofillFormCandidatesWithRenderTraits:withKeyboardState:completion:]_block_invoke_2.158
+- ___114-[TIAppAutofillManager generateAutofillFormSuggestedUsernameWithRenderTraits:withKeyboardState:completionHandler:]_block_invoke.220
+- ___129-[TIAppAutofillManager generateHideMyEmailCandidateWithSlotID:applicationBundleId:applicationId:keyboardState:completionHandler:]_block_invoke.234
+- ___129-[TIAppAutofillManager generateHideMyEmailCandidateWithSlotID:applicationBundleId:applicationId:keyboardState:completionHandler:]_block_invoke.239
+- ___129-[TIAppAutofillManager generateHideMyEmailCandidateWithSlotID:applicationBundleId:applicationId:keyboardState:completionHandler:]_block_invoke.244
+- ___129-[TIAppAutofillManager generateHideMyEmailCandidateWithSlotID:applicationBundleId:applicationId:keyboardState:completionHandler:]_block_invoke.266
+- ___129-[TIAppAutofillManager generateHideMyEmailCandidateWithSlotID:applicationBundleId:applicationId:keyboardState:completionHandler:]_block_invoke.270
+- ___129-[TIAppAutofillManager generateHideMyEmailCandidateWithSlotID:applicationBundleId:applicationId:keyboardState:completionHandler:]_block_invoke_2.241
+- ___129-[TIAppAutofillManager generateHideMyEmailCandidateWithSlotID:applicationBundleId:applicationId:keyboardState:completionHandler:]_block_invoke_2.267
+- ___134-[TIStickerCandidateGenerator generateStickerCandidatesForSearchableQueries:withRenderTraits:shouldAppend:language:completionHandler:]_block_invoke.115
+- ___134-[TIStickerCandidateGenerator generateStickerCandidatesForSearchableQueries:withRenderTraits:shouldAppend:language:completionHandler:]_block_invoke.126
+- ___134-[TIStickerCandidateGenerator generateStickerCandidatesForSearchableQueries:withRenderTraits:shouldAppend:language:completionHandler:]_block_invoke_2.128
+- ___220-[TIResponseKitManager generateResponseKitSuggestionsForString:withLanguage:withClientID:withRecipientID:withAdditionalPredictions:desiredCandidateCount:shouldDisableAutoCaps:stringIsBlacklisted:async:completionHandler:]_block_invoke
+- ___220-[TIResponseKitManager generateResponseKitSuggestionsForString:withLanguage:withClientID:withRecipientID:withAdditionalPredictions:desiredCandidateCount:shouldDisableAutoCaps:stringIsBlacklisted:async:completionHandler:]_block_invoke.2
+- ___220-[TIResponseKitManager generateResponseKitSuggestionsForString:withLanguage:withClientID:withRecipientID:withAdditionalPredictions:desiredCandidateCount:shouldDisableAutoCaps:stringIsBlacklisted:async:completionHandler:]_block_invoke_2
+- ___37-[TISKMetricCollector _processEvents]_block_invoke.224
+- ___40-[TIFeedbackController isEligibleDevice]_block_invoke
+- ___40-[TIFeedbackController isEligibleDevice]_block_invoke_2
+- ___42-[TIFeedbackController setInitiationState]_block_invoke
+- ___46-[TIAssetManager registerCacheDeleteCallbacks]_block_invoke.293
+- ___46-[TIAssetManager registerCacheDeleteCallbacks]_block_invoke.297
+- ___60-[TIKeyboardInputManager suggestionBlacklistMatchesStrings:]_block_invoke
+- ___63-[TIAssetManager scheduleAssetsDidChangeNotificationWithDelay:]_block_invoke.208
+- ___63-[TIAssetManager scheduleAssetsDidChangeNotificationWithDelay:]_block_invoke.212
+- ___65-[TIKeyboardInputManager_mul updateLanguageModelForKeyboardState]_block_invoke.48
+- ___67-[TIAssetManager updatedActiveRegionsWithCompletionWithCompletion:]_block_invoke.254
+- ___67-[TIAssetManager updatedActiveRegionsWithCompletionWithCompletion:]_block_invoke.258
+- ___68-[TIAppAutofillManager shouldAcceptAutofill:withPayload:completion:]_block_invoke.310
+- ___68-[TIAppAutofillManager shouldAcceptAutofill:withPayload:completion:]_block_invoke_2.311
+- ___70-[TIAppAutofillManager presentHideMyEmailUI:keyboardState:completion:]_block_invoke.316
+- ___Block_byref_object_copy_.10044
+- ___Block_byref_object_copy_.10131
+- ___Block_byref_object_copy_.106
+- ___Block_byref_object_copy_.10801
+- ___Block_byref_object_copy_.11293
+- ___Block_byref_object_copy_.11413
+- ___Block_byref_object_copy_.11791
+- ___Block_byref_object_copy_.12236
+- ___Block_byref_object_copy_.12275
+- ___Block_byref_object_copy_.12666
+- ___Block_byref_object_copy_.14029
+- ___Block_byref_object_copy_.14786
+- ___Block_byref_object_copy_.1575
+- ___Block_byref_object_copy_.16103
+- ___Block_byref_object_copy_.16340
+- ___Block_byref_object_copy_.16815
+- ___Block_byref_object_copy_.17838
+- ___Block_byref_object_copy_.1833
+- ___Block_byref_object_copy_.18436
+- ___Block_byref_object_copy_.18495
+- ___Block_byref_object_copy_.18578
+- ___Block_byref_object_copy_.19183
+- ___Block_byref_object_copy_.19639
+- ___Block_byref_object_copy_.19678
+- ___Block_byref_object_copy_.1993
+- ___Block_byref_object_copy_.20117
+- ___Block_byref_object_copy_.20651
+- ___Block_byref_object_copy_.21824
+- ___Block_byref_object_copy_.21955
+- ___Block_byref_object_copy_.22208
+- ___Block_byref_object_copy_.22351
+- ___Block_byref_object_copy_.22700
+- ___Block_byref_object_copy_.22934
+- ___Block_byref_object_copy_.2336
+- ___Block_byref_object_copy_.2516
+- ___Block_byref_object_copy_.252
+- ___Block_byref_object_copy_.2590
+- ___Block_byref_object_copy_.3001
+- ___Block_byref_object_copy_.31
+- ___Block_byref_object_copy_.3936
+- ___Block_byref_object_copy_.45
+- ___Block_byref_object_copy_.503
+- ___Block_byref_object_copy_.5033
+- ___Block_byref_object_copy_.5486
+- ___Block_byref_object_copy_.6003
+- ___Block_byref_object_copy_.6105
+- ___Block_byref_object_copy_.6636
+- ___Block_byref_object_copy_.6971
+- ___Block_byref_object_copy_.7136
+- ___Block_byref_object_copy_.7563
+- ___Block_byref_object_copy_.7829
+- ___Block_byref_object_copy_.7974
+- ___Block_byref_object_copy_.848
+- ___Block_byref_object_copy_.9078
+- ___Block_byref_object_copy_.9359
+- ___Block_byref_object_copy_.9665
+- ___Block_byref_object_dispose_.10045
+- ___Block_byref_object_dispose_.10132
+- ___Block_byref_object_dispose_.107
+- ___Block_byref_object_dispose_.10802
+- ___Block_byref_object_dispose_.11294
+- ___Block_byref_object_dispose_.11414
+- ___Block_byref_object_dispose_.11792
+- ___Block_byref_object_dispose_.12237
+- ___Block_byref_object_dispose_.12276
+- ___Block_byref_object_dispose_.12667
+- ___Block_byref_object_dispose_.14030
+- ___Block_byref_object_dispose_.14787
+- ___Block_byref_object_dispose_.1576
+- ___Block_byref_object_dispose_.16104
+- ___Block_byref_object_dispose_.16341
+- ___Block_byref_object_dispose_.16816
+- ___Block_byref_object_dispose_.17839
+- ___Block_byref_object_dispose_.1834
+- ___Block_byref_object_dispose_.18437
+- ___Block_byref_object_dispose_.18496
+- ___Block_byref_object_dispose_.18579
+- ___Block_byref_object_dispose_.19184
+- ___Block_byref_object_dispose_.19640
+- ___Block_byref_object_dispose_.19679
+- ___Block_byref_object_dispose_.1994
+- ___Block_byref_object_dispose_.20118
+- ___Block_byref_object_dispose_.20652
+- ___Block_byref_object_dispose_.21825
+- ___Block_byref_object_dispose_.21956
+- ___Block_byref_object_dispose_.22209
+- ___Block_byref_object_dispose_.22352
+- ___Block_byref_object_dispose_.22701
+- ___Block_byref_object_dispose_.22935
+- ___Block_byref_object_dispose_.2337
+- ___Block_byref_object_dispose_.2517
+- ___Block_byref_object_dispose_.253
+- ___Block_byref_object_dispose_.2591
+- ___Block_byref_object_dispose_.3002
+- ___Block_byref_object_dispose_.32
+- ___Block_byref_object_dispose_.3937
+- ___Block_byref_object_dispose_.46
+- ___Block_byref_object_dispose_.5034
+- ___Block_byref_object_dispose_.504
+- ___Block_byref_object_dispose_.5487
+- ___Block_byref_object_dispose_.6004
+- ___Block_byref_object_dispose_.6106
+- ___Block_byref_object_dispose_.6637
+- ___Block_byref_object_dispose_.6972
+- ___Block_byref_object_dispose_.7137
+- ___Block_byref_object_dispose_.7564
+- ___Block_byref_object_dispose_.7830
+- ___Block_byref_object_dispose_.7975
+- ___Block_byref_object_dispose_.849
+- ___Block_byref_object_dispose_.9079
+- ___Block_byref_object_dispose_.9360
+- ___Block_byref_object_dispose_.9666
+- ___CoreServicesLibraryCore_block_invoke.8553
+- ___KeyboardServicesLibraryCore_block_invoke.13820
+- ___ManagedConfigurationLibraryCore_block_invoke.13810
+- ___SensorKitLibraryCore_block_invoke.18165
+- ___SpringBoardServicesLibraryCore_block_invoke.17403
+- ___StickersLibraryCore_block_invoke.13140
+- ____ZNK2KB22LanguageModelContainer32is_dynamic_token_with_zero_countE9TITokenID_block_invoke
+- ___block_descriptor_40_8_32s_e5_B8?0ls32l8
+- ___block_descriptor_64_8_32s40s48s56bs_e38_v16?0"TIKeyboardCandidateResultSet"8ls56l8s32l8s40l8s48l8
+- ___block_descriptor_tmp.10.10034
+- ___block_descriptor_tmp.10.16493
+- ___block_descriptor_tmp.10.5914
+- ___block_descriptor_tmp.10042
+- ___block_descriptor_tmp.11.16492
+- ___block_descriptor_tmp.11274
+- ___block_descriptor_tmp.11295
+- ___block_descriptor_tmp.11694
+- ___block_descriptor_tmp.11718
+- ___block_descriptor_tmp.12.11790
+- ___block_descriptor_tmp.12.16490
+- ___block_descriptor_tmp.12316
+- ___block_descriptor_tmp.12846
+- ___block_descriptor_tmp.13.16495
+- ___block_descriptor_tmp.14031
+- ___block_descriptor_tmp.14058
+- ___block_descriptor_tmp.15.11793
+- ___block_descriptor_tmp.15.16494
+- ___block_descriptor_tmp.15047
+- ___block_descriptor_tmp.16125
+- ___block_descriptor_tmp.16500
+- ___block_descriptor_tmp.17184
+- ___block_descriptor_tmp.18440
+- ___block_descriptor_tmp.18460
+- ___block_descriptor_tmp.19680
+- ___block_descriptor_tmp.2.14035
+- ___block_descriptor_tmp.2.16105
+- ___block_descriptor_tmp.2.16504
+- ___block_descriptor_tmp.2.18438
+- ___block_descriptor_tmp.20119
+- ___block_descriptor_tmp.22732
+- ___block_descriptor_tmp.22936
+- ___block_descriptor_tmp.24.11706
+- ___block_descriptor_tmp.26.16515
+- ___block_descriptor_tmp.3.16507
+- ___block_descriptor_tmp.3.17185
+- ___block_descriptor_tmp.3403
+- ___block_descriptor_tmp.4.10046
+- ___block_descriptor_tmp.4.11717
+- ___block_descriptor_tmp.4.11796
+- ___block_descriptor_tmp.4.16108
+- ___block_descriptor_tmp.4.16510
+- ___block_descriptor_tmp.4772
+- ___block_descriptor_tmp.4854
+- ___block_descriptor_tmp.5.11335
+- ___block_descriptor_tmp.5035
+- ___block_descriptor_tmp.5142
+- ___block_descriptor_tmp.5912
+- ___block_descriptor_tmp.6.16518
+- ___block_descriptor_tmp.6.17201
+- ___block_descriptor_tmp.7.11329
+- ___block_descriptor_tmp.7.14033
+- ___block_descriptor_tmp.7.5913
+- ___block_descriptor_tmp.7554
+- ___block_descriptor_tmp.8.10038
+- ___block_descriptor_tmp.8.11716
+- ___block_descriptor_tmp.8.11784
+- ___block_descriptor_tmp.8.16514
+- ___block_descriptor_tmp.8.18444
+- ___block_descriptor_tmp.8.4824
+- ___block_descriptor_tmp.9.16513
+- ___block_descriptor_tmp.9.18448
+- ___block_descriptor_tmp.9390
+- ___block_literal_global.10.15159
+- ___block_literal_global.102
+- ___block_literal_global.10973
+- ___block_literal_global.11302
+- ___block_literal_global.11446
+- ___block_literal_global.11685
+- ___block_literal_global.11690
+- ___block_literal_global.12314
+- ___block_literal_global.12432
+- ___block_literal_global.1251
+- ___block_literal_global.12781
+- ___block_literal_global.128
+- ___block_literal_global.12844
+- ___block_literal_global.13215
+- ___block_literal_global.13847
+- ___block_literal_global.14072
+- ___block_literal_global.14252
+- ___block_literal_global.14485
+- ___block_literal_global.14665
+- ___block_literal_global.15180
+- ___block_literal_global.15332
+- ___block_literal_global.16106
+- ___block_literal_global.16147
+- ___block_literal_global.16165
+- ___block_literal_global.16421
+- ___block_literal_global.16498
+- ___block_literal_global.16664
+- ___block_literal_global.17.13218
+- ___block_literal_global.17.13834
+- ___block_literal_global.17.15146
+- ___block_literal_global.17.6859
+- ___block_literal_global.17009
+- ___block_literal_global.172
+- ___block_literal_global.17417
+- ___block_literal_global.17490
+- ___block_literal_global.17862
+- ___block_literal_global.1795
+- ___block_literal_global.17970
+- ___block_literal_global.18458
+- ___block_literal_global.18488
+- ___block_literal_global.1869
+- ___block_literal_global.19198
+- ___block_literal_global.19489
+- ___block_literal_global.20.11795
+- ___block_literal_global.20071
+- ___block_literal_global.2011
+- ___block_literal_global.20235
+- ___block_literal_global.20589
+- ___block_literal_global.2114
+- ___block_literal_global.21985
+- ___block_literal_global.223
+- ___block_literal_global.22376
+- ___block_literal_global.22427
+- ___block_literal_global.22574
+- ___block_literal_global.22581
+- ___block_literal_global.22690
+- ___block_literal_global.2271
+- ___block_literal_global.22730
+- ___block_literal_global.23.11709
+- ___block_literal_global.24.7239
+- ___block_literal_global.2442
+- ___block_literal_global.2631
+- ___block_literal_global.2878
+- ___block_literal_global.299
+- ___block_literal_global.305
+- ___block_literal_global.312
+- ___block_literal_global.3384
+- ___block_literal_global.346.17492
+- ___block_literal_global.3475
+- ___block_literal_global.3498
+- ___block_literal_global.3719
+- ___block_literal_global.3808
+- ___block_literal_global.3824
+- ___block_literal_global.3958
+- ___block_literal_global.4.7000
+- ___block_literal_global.4072
+- ___block_literal_global.4352
+- ___block_literal_global.451
+- ___block_literal_global.4770
+- ___block_literal_global.48.22596
+- ___block_literal_global.5140
+- ___block_literal_global.562
+- ___block_literal_global.5737
+- ___block_literal_global.5872
+- ___block_literal_global.6007
+- ___block_literal_global.61.22613
+- ___block_literal_global.6247
+- ___block_literal_global.64.22618
+- ___block_literal_global.6582
+- ___block_literal_global.67.22623
+- ___block_literal_global.7003
+- ___block_literal_global.7236
+- ___block_literal_global.73.22631
+- ___block_literal_global.7357
+- ___block_literal_global.745
+- ___block_literal_global.79.22639
+- ___block_literal_global.7936
+- ___block_literal_global.8260
+- ___block_literal_global.8577
+- ___block_literal_global.8668
+- ___block_literal_global.87.15365
+- ___block_literal_global.87.18024
+- ___block_literal_global.9.17834
+- ___block_literal_global.9365
+- ___block_literal_global.9719
+- ___getLSApplicationProxyClass_block_invoke.8534
+- ___getMCProfileConnectionClass_block_invoke.13803
+- ___testingInstance.20239
+- ___testingInstance.22373
+- ___testingInstance.3480
+- ___testingInstance.6249
+- ___testingInstance.6788
+- ___testingInstance.7241
+- __unnamed_array_storage.109
+- __unnamed_array_storage.11008
+- __unnamed_array_storage.11679
+- __unnamed_array_storage.11928
+- __unnamed_array_storage.12422
+- __unnamed_array_storage.12700
+- __unnamed_array_storage.1567
+- __unnamed_array_storage.16064
+- __unnamed_array_storage.1845
+- __unnamed_array_storage.19085
+- __unnamed_array_storage.20615
+- __unnamed_array_storage.21096
+- __unnamed_array_storage.21160
+- __unnamed_array_storage.236
+- __unnamed_array_storage.237
+- __unnamed_array_storage.242
+- __unnamed_array_storage.243
+- __unnamed_array_storage.249
+- __unnamed_array_storage.250
+- __unnamed_array_storage.2877
+- __unnamed_array_storage.420
+- __unnamed_array_storage.566
+- __unnamed_array_storage.757
+- __unnamed_array_storage.7993
+- _audit_stringCoreServices.8556
+- _audit_stringKeyboardServices.13822
+- _audit_stringManagedConfiguration.13812
+- _audit_stringSensorKit.18168
+- _audit_stringSpringBoardServices.17405
+- _audit_stringStickers.13143
+- _getLSApplicationProxyClass.softClass.8533
+- _getMCProfileConnectionClass.softClass.13802
+- _kAutocorrectionPreferenceName
+- _kCountsRetainedFieldName
+- _objc_msgSend$_writeToFileWithTypologyLog:directoryURL:
+- _objc_msgSend$analyzerForUserModel:
+- _objc_msgSend$cannedResponsesForString:withLanguageID:withClientID:withRecipientID:withAdditionalPredictions:desiredCandidateCount:shouldDisableAutoCaps:isBlacklisted:
+- _objc_msgSend$completionEventTimestampKey
+- _objc_msgSend$countsRetained
+- _objc_msgSend$countsRetainedKey
+- _objc_msgSend$dispatchFeedbackAnalyzers:aligned:
+- _objc_msgSend$dispatchScheduledEventsWithDelegate:
+- _objc_msgSend$dispatchScheduledInitiationAndCompletionEventsImmediatelyWithDelegate:
+- _objc_msgSend$feedbackFeatureEnabledKey
+- _objc_msgSend$finalInputModes
+- _objc_msgSend$finalInputModesKey
+- _objc_msgSend$finalPreferenceValue
+- _objc_msgSend$finalPreferenceValueKey
+- _objc_msgSend$finalTimestamp
+- _objc_msgSend$finalTimestampKey
+- _objc_msgSend$generateResponseKitSuggestionsForString:withLanguage:withClientID:withRecipientID:withAdditionalPredictions:desiredCandidateCount:shouldDisableAutoCaps:stringIsBlacklisted:async:completionHandler:
+- _objc_msgSend$initWithPreferenceKey:supportedLanguages:
+- _objc_msgSend$initialInputModes
+- _objc_msgSend$initialInputModesKey
+- _objc_msgSend$initialPreferenceValue
+- _objc_msgSend$initialPreferenceValueKey
+- _objc_msgSend$initialTimestamp
+- _objc_msgSend$initialTimestampKey
+- _objc_msgSend$initiationEventTimestampKey
+- _objc_msgSend$preferenceKey
+- _objc_msgSend$setCompletionState
+- _objc_msgSend$setLogger:
+- _objc_msgSend$stateKey
+- _objc_msgSend$stringArrayForKey:
+- _objc_msgSend$suggestionBlacklistMatchesStrings:
+- _objc_msgSend$surveyOutcome
+- _objc_msgSend$surveyOutcomeKey
+- _objc_msgSend$updateStateWithValue:
+- _objc_msgSend$wasSurveySubmitted
+- _sharedInstance.instance.8578
+- _sharedInstance.onceToken.11684
+- _sharedInstance.onceToken.22573
+- _sharedInstance.onceToken.2914
+- _sharedInstance.onceToken.8576
+- _singletonInstance.onceToken.13846
+- _singletonInstance.onceToken.17861
+- _singletonInstance.onceToken.20234
+- _singletonInstance.onceToken.22375
+- _singletonInstance.onceToken.6246
+- _singletonInstance.onceToken.7235
+- _singletonInstance.singleton.17863
+- _singletonInstance.singletonInstance.13848
+- _singletonInstance.singletonInstance.20236
+- _singletonInstance.singletonInstance.22377
+- _singletonInstance.singletonInstance.7237
+CStrings:
++ "\x03\x1a"
++ "\x11A"
++ "%s Cannot obtain core telephony entitlement: %@"
++ "%s CoreTelephony client returned error on retrieveDeviceIdentifier:error: ERROR:%@"
++ "%s Could not link CoreTelephony."
++ "%s Feedback %@: accumulateWordCounts tapped: %ld,  corrected: %ld,  revised: %ld, revised-autocorection: %ld,"
++ "%s Feedback %@: accumulateWordCounts will not count - session has cursor movement"
++ "%s Feedback %@: accumulateWordCounts will not count - unsupported language"
++ "%s Feedback %@: already running a campaign - maybe they cancelled and we can retry"
++ "%s Feedback %@: enabled: %ld, eligible: %ld, state: %ld, preferenceEnabled: %ld"
++ "%s Feedback %@: error getting response from feedback service: %@"
++ "%s Feedback %@: error launching retry survey: %@"
++ "%s Feedback %@: feedback declined!"
++ "%s Feedback %@: feedback not filed for some other reason"
++ "%s Feedback %@: retry is is still pending"
++ "%s Feedback %@: retry survey sucessfully submitted"
++ "%s Feedback %@: retrying survey"
++ "%s Feedback %@: scheduling a retry"
++ "%s Feedback %@: sentCAEvent payload: %@"
++ "%s Feedback %@: survey filed: complete"
++ "%s Feedback %@: survey outcome is %ld, device is ineligble action: terminateIneligible"
++ "%s Feedback %@: survey outcome is connection error, will plan retry"
++ "%s Feedback %@: survey outcome is launch error, will plan retry"
++ "%s Feedback %@: survey outcome is state error, device is ineligble action: terminateInvalid"
++ "%s Feedback %@: survey outcome is submitted, device is eligible, will evaluate for plan retry if necessary"
++ "%s Feedback %@: survey outcome is unexpected as %ld: terminateInvalid"
++ "%s Localized Cellular autofill text is nil"
++ "%s Override the language code from fil to tl for Tagalog"
++ "%s The application does not have the required entitlement."
++ "%s The text field has no text content type."
++ "+[TIKeyboardInputManagerLogger _writeToFileWithTypologyLog:directoryURL:requireDeviceUnlocked:]"
++ "-[TIAppAutofillManager generateCellularCandidatesWithRenderTraits:withKeyboardState:]"
++ "-[TIAppAutofillManager hasCoreTelephonyEntitlementForConnection:]"
++ "-[TIAppAutofillManager localizedCellularAutofillStringForKey:defaultValue:]"
++ "-[TIAutocorrectionFeedbackAnalyzer sendCAEventForStudyStatus:]"
++ "-[TIFeedbackController assessAndScheduleRetry]_block_invoke"
++ "-[TIFeedbackController handleFeedbackStateCompletionPendingWithDelegate:isEligibleDevice:]"
++ "-[TIFeedbackController handleFeedbackStateInitiatedWithDelegate:isEligibleDevice:isPreferenceEnabled:]"
++ "-[TIFeedbackController handleFeedbackStateNoneWithDelegate:isEligibleDevice:]"
++ "-[TIFeedbackController handleFeedbackStateResponsePendingWithDelegate:isEligibleDevice:]_block_invoke"
++ "-[TIFeedbackController initiateStudyWithInputModes:initialPreferenceValue:]"
++ "-[TIFeedbackController retrySurvey]"
++ "-[TIFeedbackController retrySurvey]_block_invoke"
++ "-[TIFeedbackController scheduleRetry]"
++ "-[TIResponseKitManager cannedResponsesForString:withLanguageID:withClientID:withRecipientID:withAdditionalPredictions:desiredCandidateCount:shouldDisableAutoCaps:isBlocklisted:]"
++ "</blocklisted> "
++ "<blocklisted> "
++ "@\"CoreTelephonyMockObject\""
++ "@\"TIRevisionRateAnalysisSummary\""
++ "@\"TIRevisionRateAnalyzer\""
++ "AUTOFILL_CELLULAR_EID_TITLE"
++ "AUTOFILL_CELLULAR_IMEI_TITLE"
++ "CoreTelephonyClient"
++ "CoreTelephonyMockObject"
++ "T@\"<TIKeyboardInputManagerLogging>\",&,N"
++ "T@\"CoreTelephonyMockObject\",&,N"
++ "T@\"NSString\",&,N,V_languageRegion"
++ "T@\"NSString\",&,N,V_outpath"
++ "T@\"NSString\",?,R,C"
++ "T@\"NSString\",C,N,V_cellularEid"
++ "T@\"NSString\",C,N,V_cellularImei"
++ "T@\"TIRevisionRateAnalysisSummary\",&,N,V_revisionRateAnalysisSummary"
++ "T@\"TIRevisionRateAnalyzer\",&,N,V_revisionRateAnalyzer"
++ "TIRevisionRateAnalysisSummary"
++ "TITypologyPreferencesEnabledForTesting"
++ "Tell us why you turned off autocorrection"
++ "TestingCellularAutofill"
++ "Tq,N,V_autocorrectedCount"
++ "Tq,N,V_revisedAutocorrectionCount"
++ "Tq,N,V_revisedCount"
++ "Tq,N,V_tappedCount"
++ "Will you provide more insights on autocorrection"
++ "_autocorrectedCount"
++ "_cellularEid"
++ "_cellularImei"
++ "_coreTelephonyMockObject"
++ "_languageRegion"
++ "_outpath"
++ "_preferenceName"
++ "_revisedAutocorrectionCount"
++ "_revisedCount"
++ "_revisionRateAnalysisSummary"
++ "_revisionRateAnalyzer"
++ "_studyID"
++ "_tappedCount"
++ "_writeToFileWithTypologyLog:directoryURL:requireDeviceUnlocked:"
++ "analyzerForUserModel:revisionRateAnalysisSummary:"
++ "assessAndScheduleRetry"
++ "autocorrectedCount"
++ "cannedResponsesForString:withLanguageID:withClientID:withRecipientID:withAdditionalPredictions:desiredCandidateCount:shouldDisableAutoCaps:isBlocklisted:"
++ "cellularEid"
++ "cellularImei"
++ "clearStudyState"
++ "collectFeedbackWithLaunchConfiguration:completion:"
++ "com.apple.CommCenter.fine-grained"
++ "copySortedEmojis:keyword:localeIdentifier:"
++ "coreTelephonyMockObject"
++ "currentCampaign"
++ "daysCount"
++ "declineCount"
++ "dispatchAllEventsWithDelegate:"
++ "dispatchFeedbackAnalyzers:aligned:revisionRateAnalysisSummary:"
++ "dispatchScheduledEventsWithDelegate:overrideSchedule:"
++ "feedbackCounterAutocorrectionEnablementRevisedAutocorrectedWords"
++ "feedbackCounterAutocorrectionEnablementRevisedWords"
++ "feedbackFiled"
++ "fetchCountsForFormWithIdentifier:completion:"
++ "fil"
++ "generateCellularCandidatesWithKeyboardState:"
++ "generateCellularCandidatesWithRenderTraits:withKeyboardState:"
++ "generateResponseKitSuggestionsForString:withLanguage:withClientID:withRecipientID:withAdditionalPredictions:desiredCandidateCount:shouldDisableAutoCaps:stringIsBlocklisted:async:completionHandler:"
++ "getCompletionEventTimestamp"
++ "getFeedbackState"
++ "getFinalInputModes"
++ "getFinalPreferenceValue"
++ "getFinalTimestamp"
++ "getFormIdentifier"
++ "getFormMetadata"
++ "getInitialInputModes"
++ "getInitialPreferenceValue"
++ "getInitialTimestamp"
++ "getInitiationEventTimestamp"
++ "getLanguageRegionForSession:"
++ "getPreferenceKey"
++ "getRequestSurveyEventTimestamp"
++ "getRetryTimestamp"
++ "getStudyID"
++ "getSupportedFeedbackLanguages"
++ "getSupportedLangRegion"
++ "getSurveyOutcome"
++ "handleFeedbackStateCompletionPendingWithDelegate:isEligibleDevice:"
++ "handleFeedbackStateInitiatedWithDelegate:isEligibleDevice:isPreferenceEnabled:"
++ "handleFeedbackStateNoneWithDelegate:isEligibleDevice:"
++ "handleFeedbackStateResponsePendingWithDelegate:isEligibleDevice:"
++ "handleFeedbackStateRetryPendingWithDelegate:isEligibleDevice:"
++ "hasCoreTelephonyEntitlementForConnection:"
++ "initWithCellularEid:cellularImei:"
++ "initWithFeedbackForm:"
++ "initWithOutputPath:"
++ "initWithQueue:"
++ "initWithUserModel:revisionRateAnalysisSummary:"
++ "initiateStudyWithInputModes:initialPreferenceValue:"
++ "inline_completions_visionos"
++ "isFCSBuild"
++ "isFeatureEnabledForInternalBuilds"
++ "isInternalDeviceWithForcedTypologyLoggingForTesting"
++ "kMDItemLastUsedDate > %f && (kMDItemPhotosSceneClassificationLabels == \"%@\"cwd || kMDItemPhotosSceneClassificationSynonyms == \"%@\"cwd )"
++ "kMDItemPhotosSceneClassificationLabels"
++ "kMDItemPhotosSceneClassificationSynonyms"
++ "languageRegion"
++ "localizedCellularAutofillStringForKey:defaultValue:"
++ "needCellularAutofill"
++ "outpath"
++ "prefill:answer:"
++ "public-cellular-plan"
++ "removeCompletionEventTimestamp"
++ "removeInitiationEventTimestamp"
++ "removeRequestSurveyEventTimestamp"
++ "retrieveDeviceIdentifier:"
++ "retrieveDeviceIdentifier:clientBundleIdentifier:showAlert:error:"
++ "retrieveDeviceIdentifier:error:"
++ "retrySurvey"
++ "revisedAutocorrectionCount"
++ "revisedCount"
++ "revisedWordAutocorrectionCount"
++ "revisedWordCount"
++ "revisionRateAnalysisSummary"
++ "revisionRateAnalyzer"
++ "scheduleRetry"
++ "scheduleSurveyRequestEvent"
++ "sendCAEventForStudyStatus:"
++ "sendRequestSurveyEventUsingStudyDataFromFeedbackController:"
++ "sendUpgradeEventUsingStudyDataFromFeedbackController:"
++ "setAuthenticationMethod:"
++ "setAutocorrectedCount:"
++ "setCellularEid:"
++ "setCellularImei:"
++ "setCompletionEventTimestamp:"
++ "setCoreTelephonyMockObject:"
++ "setFeedbackState:"
++ "setFinalInputModes:"
++ "setFinalPreferenceValue:"
++ "setFinalTimestamp:"
++ "setInitialInputModes:"
++ "setInitialPreferenceValue:"
++ "setInitialTimestamp:"
++ "setInitiationEventTimestamp:"
++ "setLanguageRegion:"
++ "setLocalizedPromptTitle:"
++ "setOutpath:"
++ "setPreferenceValue:"
++ "setPromptStyle:"
++ "setRequestSurveyEventTimestamp:"
++ "setRetryTimestamp:"
++ "setRevisedAutocorrectionCount:"
++ "setRevisedCount:"
++ "setRevisionRateAnalysisSummary:"
++ "setRevisionRateAnalyzer:"
++ "setShouldForceDoubleLineCandidateForCellularAutofill:"
++ "setStudyEnrollment"
++ "setStudyLanguageAndRegion:"
++ "setTappedCount:"
++ "shouldForceDoubleLineCandidateForCellularAutofill"
++ "shouldPublishCAEventsImmediately"
++ "softlink:r:path:/System/Library/Frameworks/CoreTelephony.framework/CoreTelephony"
++ "suggestionBlocklistMatchesStrings:"
++ "summarizeWithEventDictionary:languageRegion:"
++ "tappedCount"
++ "tl"
++ "transformer_lm_visionos"
++ "v24@?0@\"FBKSFeedbackCount\"8@\"NSError\"16"
+- "\x02\x1a"
+- "%s Feedback %@: RC_SEED_BUILD: 0 enabled: %d"
+- "%s Feedback %@: accumulateWordCounts corrected: %d tapped: %d"
+- "%s Feedback %@: action: complete"
+- "%s Feedback %@: action: completeIneligible"
+- "%s Feedback %@: eligible: %d"
+- "%s Feedback %@: preferenceEnabled: %d"
+- "%s Feedback %@: sendCompletionEvent payload: %@"
+- "%s Feedback %@: sendTerminationEvent payload: %@"
+- "%s Feedback %@: set completion state"
+- "%s Feedback %@: state: %ld"
+- "%s Feedback %@: updateState: TIFeedbackStateCompletedOriginal"
+- "%s Feedback %@: updateState: TIFeedbackStateCompletionPendingOriginal"
+- "%s Feedback %@: updateState: TIFeedbackStateInitiatedOriginal"
+- "%s Feedback %@: updateState: TIFeedbackStateTerminatedIneligibleOriginal"
+- "%s Feedback %@: updateState: TIFeedbackStateTerminatedInvalidOriginal"
+- "%s Feedback %@: updated state with value:%ld"
+- "%x "
+- "%x:"
+- "+[TIKeyboardInputManagerLogger _writeToFileWithTypologyLog:directoryURL:]"
+- "-[TIAutocorrectionFeedbackAnalyzer sendCompletionEventUsingStudyDataFromFeedbackController:]"
+- "-[TIAutocorrectionFeedbackAnalyzer sendTerminationEventUsingStudyDataFromFeedbackController:]"
+- "-[TIFeedbackController feedbackFeatureEnabled]"
+- "-[TIFeedbackController setCompletionState]"
+- "-[TIFeedbackController setInitiationState]"
+- "-[TIFeedbackController updateStateWithValue:]"
+- "-[TIResponseKitManager cannedResponsesForString:withLanguageID:withClientID:withRecipientID:withAdditionalPredictions:desiredCandidateCount:shouldDisableAutoCaps:isBlacklisted:]"
+- ".,?!"
+- ":\n\t "
+- "</blacklisted> "
+- "<blacklisted> "
+- "B8@?0"
+- "T@\"<TIKeyboardInputManagerLogging>\",&,N,V_logger"
+- "T@\"NSArray\",R,N,V_supportedLanguages"
+- "T@\"NSString\",R,N,V_completionEventTimestampKey"
+- "T@\"NSString\",R,N,V_countsRetainedKey"
+- "T@\"NSString\",R,N,V_feedbackFeatureEnabledKey"
+- "T@\"NSString\",R,N,V_finalInputModesKey"
+- "T@\"NSString\",R,N,V_finalPreferenceValueKey"
+- "T@\"NSString\",R,N,V_finalTimestampKey"
+- "T@\"NSString\",R,N,V_initialInputModesKey"
+- "T@\"NSString\",R,N,V_initialPreferenceValueKey"
+- "T@\"NSString\",R,N,V_initialTimestampKey"
+- "T@\"NSString\",R,N,V_initiationEventTimestampKey"
+- "T@\"NSString\",R,N,V_preferenceKey"
+- "T@\"NSString\",R,N,V_stateKey"
+- "T@\"NSString\",R,N,V_surveyOutcomeKey"
+- "_completionEventTimestampKey"
+- "_countsRetainedKey"
+- "_feedbackFeatureEnabledKey"
+- "_finalInputModesKey"
+- "_finalPreferenceValueKey"
+- "_finalTimestampKey"
+- "_initialInputModesKey"
+- "_initialPreferenceValueKey"
+- "_initialTimestampKey"
+- "_initiationEventTimestampKey"
+- "_preferenceKey"
+- "_stateKey"
+- "_surveyOutcomeKey"
+- "_writeToFileWithTypologyLog:directoryURL:"
+- "analyzerForUserModel:"
+- "cannedResponsesForString:withLanguageID:withClientID:withRecipientID:withAdditionalPredictions:desiredCandidateCount:shouldDisableAutoCaps:isBlacklisted:"
+- "completionEventTimestamp"
+- "completionEventTimestampKey"
+- "countsRetained"
+- "countsRetainedKey"
+- "dispatchFeedbackAnalyzers:aligned:"
+- "dispatchScheduledEventsWithDelegate:"
+- "feedbackCompletionEventTimestamp_"
+- "feedbackCountsRetained_"
+- "feedbackFeatureEnabledKey"
+- "feedbackFeatureEnabled_"
+- "feedbackFinalInputModes_"
+- "feedbackFinalPreferenceValue_"
+- "feedbackFinalTimestamp_"
+- "feedbackInitialInputModes_"
+- "feedbackInitialPreferenceValue_"
+- "feedbackInitialTimestamp_"
+- "feedbackInitiationEventTimestamp_"
+- "feedbackState_"
+- "feedbackSurveyOutcome_"
+- "finalInputModesKey"
+- "finalPreferenceValueKey"
+- "finalTimestamp"
+- "finalTimestampKey"
+- "generateResponseKitSuggestionsForString:withLanguage:withClientID:withRecipientID:withAdditionalPredictions:desiredCandidateCount:shouldDisableAutoCaps:stringIsBlacklisted:async:completionHandler:"
+- "initWithPreferenceKey:supportedLanguages:"
+- "initialInputModesKey"
+- "initialPreferenceValueKey"
+- "initialTimestamp"
+- "initialTimestampKey"
+- "initiationEventTimestamp"
+- "initiationEventTimestampKey"
+- "kMDItemLastUsedDate > %f"
+- "preferenceKey"
+- "setCompletionState"
+- "stateKey"
+- "stringArrayForKey:"
+- "suggestionBlacklistMatchesStrings:"
+- "surveyOutcomeKey"
+- "tokenIDForWordSeparator:"
+- "updateStateWithValue:"
+- "{TITokenID=II}20@0:8S16"
+
+```

@@ -1,0 +1,825 @@
+## TSCharts
+
+> `/System/Library/PrivateFrameworks/iWorkImport.framework/Frameworks/TSCharts.framework/TSCharts`
+
+```diff
+
+-471.0.0.0.0
+-  __TEXT.__text: 0x35f63c
+-  __TEXT.__auth_stubs: 0x2fa0
++474.3.0.0.0
++  __TEXT.__text: 0x363450
++  __TEXT.__auth_stubs: 0x2fd0
+   __TEXT.__init_offsets: 0x20
+-  __TEXT.__objc_methlist: 0x20a88
+-  __TEXT.__const: 0x262d4
+-  __TEXT.__gcc_except_tab: 0x2dd20
+-  __TEXT.__cstring: 0x3d5f9
++  __TEXT.__objc_methlist: 0x20a80
++  __TEXT.__const: 0x266c4
++  __TEXT.__gcc_except_tab: 0x2def8
++  __TEXT.__cstring: 0x3bf79
+   __TEXT.__ustring: 0x4e8
+   __TEXT.__constg_swiftt: 0x2b4
+-  __TEXT.__swift5_typeref: 0x264
++  __TEXT.__swift5_typeref: 0x27a
+   __TEXT.__swift5_builtin: 0x50
+   __TEXT.__swift5_reflstr: 0x118
+   __TEXT.__swift5_fieldmd: 0x16c
+
+   __TEXT.__swift5_assocty: 0x18
+   __TEXT.__swift5_proto: 0xc
+   __TEXT.__dof_TSCharts: 0x348
+-  __TEXT.__unwind_info: 0x12870
++  __TEXT.__unwind_info: 0x129b4
+   __TEXT.__eh_frame: 0x38
+-  __TEXT.__objc_classname: 0x5c0d
+-  __TEXT.__objc_methname: 0x3a2bf
++  __TEXT.__objc_classname: 0x5c0a
++  __TEXT.__objc_methname: 0x3a24d
+   __TEXT.__objc_methtype: 0xfdd7
+-  __TEXT.__objc_stubs: 0x28ea0
+-  __DATA_CONST.__got: 0x2a0
+-  __DATA_CONST.__const: 0x4ce8
++  __TEXT.__objc_stubs: 0x28ec0
++  __DATA_CONST.__got: 0x2a8
++  __DATA_CONST.__const: 0x4d28
+   __DATA_CONST.__objc_classlist: 0x1670
+   __DATA_CONST.__objc_catlist: 0xb0
+   __DATA_CONST.__objc_protolist: 0x2d0
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_const: 0x20f40
+-  __DATA_CONST.__objc_selrefs: 0xcd08
++  __DATA_CONST.__objc_const: 0x20f10
++  __DATA_CONST.__objc_selrefs: 0xcd00
++  __DATA_CONST.__objc_protorefs: 0xe8
++  __DATA_CONST.__objc_classrefs: 0x1708
++  __DATA_CONST.__objc_superrefs: 0x1098
+   __DATA_CONST.__objc_arraydata: 0x428
+   __AUTH_CONST.__objc_const: 0x129b8
+   __AUTH_CONST.__cfstring: 0x122c0
+   __AUTH_CONST.__auth_ptr: 0x8
+-  __AUTH_CONST.__const: 0xb1c0
++  __AUTH_CONST.__const: 0xb418
+   __AUTH_CONST.__objc_floatobj: 0x10
+   __AUTH_CONST.__objc_intobj: 0x2d00
+   __AUTH_CONST.__objc_arrayobj: 0x360
+   __AUTH_CONST.__objc_doubleobj: 0x110
+-  __AUTH_CONST.__auth_got: 0x17e8
++  __AUTH_CONST.__auth_got: 0x1800
+   __AUTH.__objc_data: 0xe240
+-  __AUTH.__data: 0x1de0
+-  __DATA.__objc_protorefs: 0xe8
+-  __DATA.__objc_classrefs: 0x1708
+-  __DATA.__objc_superrefs: 0x1098
+-  __DATA.__objc_ivar: 0x1954
++  __AUTH.__data: 0x1e58
++  __DATA.__objc_ivar: 0x1950
+   __DATA.__objc_data: 0x98
+-  __DATA.__data: 0x24e8
+-  __DATA.__common: 0x4b08
+-  __DATA.__bss: 0x23a0
++  __DATA.__data: 0x24f8
++  __DATA.__common: 0x4bb8
++  __DATA.__bss: 0x23d0
+   - /System/Library/Frameworks/Accelerate.framework/Accelerate
+   - /System/Library/Frameworks/Accounts.framework/Accounts
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+
+   - /usr/lib/libcompression.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/swift/libswiftAVFoundation.dylib
++  - /usr/lib/swift/libswiftAccelerate.dylib
+   - /usr/lib/swift/libswiftCompression.dylib
+   - /usr/lib/swift/libswiftCore.dylib
+   - /usr/lib/swift/libswiftCoreAudio.dylib
+
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftFileProvider.dylib
+   - /usr/lib/swift/libswiftMetal.dylib
++  - /usr/lib/swift/libswiftOSLog.dylib
+   - /usr/lib/swift/libswiftObjectiveC.dylib
+   - /usr/lib/swift/libswiftQuartzCore.dylib
+   - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 16647
+-  Symbols:   2293
+-  CStrings:  16857
++  Functions: 16758
++  Symbols:   2387
++  CStrings:  16856
+ 
+Symbols:
++ __ZN3TSK19FormatStructArchiveC1ERKS0_
++ __ZN4TSCH42CachedDataFormatterPersistableStyleObjects12InternalSwapEPS0_
++ __ZN4TSCH42CachedDataFormatterPersistableStyleObjects14_InternalParseEPKcPN6google8protobuf8internal12ParseContextE
++ __ZN4TSCH42CachedDataFormatterPersistableStyleObjects16default_instanceEv
++ __ZN4TSCH42CachedDataFormatterPersistableStyleObjects32clear_summary_label_style_objectEv
++ __ZN4TSCH42CachedDataFormatterPersistableStyleObjects47cached_data_formatter_persistable_style_objectsE
++ __ZN4TSCH42CachedDataFormatterPersistableStyleObjects54kCachedDataFormatterPersistableStyleObjectsFieldNumberE
++ __ZN4TSCH42CachedDataFormatterPersistableStyleObjects5ClearEv
++ __ZN4TSCH42CachedDataFormatterPersistableStyleObjects8CopyFromERKN6google8protobuf7MessageE
++ __ZN4TSCH42CachedDataFormatterPersistableStyleObjects8CopyFromERKS0_
++ __ZN4TSCH42CachedDataFormatterPersistableStyleObjects9ArenaDtorEPv
++ __ZN4TSCH42CachedDataFormatterPersistableStyleObjects9MergeFromERKN6google8protobuf7MessageE
++ __ZN4TSCH42CachedDataFormatterPersistableStyleObjects9MergeFromERKS0_
++ __ZN4TSCH42CachedDataFormatterPersistableStyleObjects9_Internal26summary_label_style_objectEPKS0_
++ __ZN4TSCH42CachedDataFormatterPersistableStyleObjectsC1EPN6google8protobuf5ArenaE
++ __ZN4TSCH42CachedDataFormatterPersistableStyleObjectsC1ERKS0_
++ __ZN4TSCH42CachedDataFormatterPersistableStyleObjectsC2EPN6google8protobuf5ArenaE
++ __ZN4TSCH42CachedDataFormatterPersistableStyleObjectsC2ERKS0_
++ __ZN4TSCH42CachedDataFormatterPersistableStyleObjectsD0Ev
++ __ZN4TSCH42CachedDataFormatterPersistableStyleObjectsD1Ev
++ __ZN4TSCH42CachedDataFormatterPersistableStyleObjectsD2Ev
++ __ZN4TSCH45CachedAxisDataFormatterPersistableStyleObject12InternalSwapEPS0_
++ __ZN4TSCH45CachedAxisDataFormatterPersistableStyleObject14_InternalParseEPKcPN6google8protobuf8internal12ParseContextE
++ __ZN4TSCH45CachedAxisDataFormatterPersistableStyleObject16default_instanceEv
++ __ZN4TSCH45CachedAxisDataFormatterPersistableStyleObject18clear_style_objectEv
++ __ZN4TSCH45CachedAxisDataFormatterPersistableStyleObject5ClearEv
++ __ZN4TSCH45CachedAxisDataFormatterPersistableStyleObject8CopyFromERKN6google8protobuf7MessageE
++ __ZN4TSCH45CachedAxisDataFormatterPersistableStyleObject8CopyFromERKS0_
++ __ZN4TSCH45CachedAxisDataFormatterPersistableStyleObject9ArenaDtorEPv
++ __ZN4TSCH45CachedAxisDataFormatterPersistableStyleObject9MergeFromERKN6google8protobuf7MessageE
++ __ZN4TSCH45CachedAxisDataFormatterPersistableStyleObject9MergeFromERKS0_
++ __ZN4TSCH45CachedAxisDataFormatterPersistableStyleObject9_Internal12style_objectEPKS0_
++ __ZN4TSCH45CachedAxisDataFormatterPersistableStyleObject9_Internal7axis_idEPKS0_
++ __ZN4TSCH45CachedAxisDataFormatterPersistableStyleObjectC1EPN6google8protobuf5ArenaE
++ __ZN4TSCH45CachedAxisDataFormatterPersistableStyleObjectC1ERKS0_
++ __ZN4TSCH45CachedAxisDataFormatterPersistableStyleObjectC2EPN6google8protobuf5ArenaE
++ __ZN4TSCH45CachedAxisDataFormatterPersistableStyleObjectC2ERKS0_
++ __ZN4TSCH45CachedAxisDataFormatterPersistableStyleObjectD0Ev
++ __ZN4TSCH45CachedAxisDataFormatterPersistableStyleObjectD1Ev
++ __ZN4TSCH45CachedAxisDataFormatterPersistableStyleObjectD2Ev
++ __ZN4TSCH47CachedSeriesDataFormatterPersistableStyleObject12InternalSwapEPS0_
++ __ZN4TSCH47CachedSeriesDataFormatterPersistableStyleObject14_InternalParseEPKcPN6google8protobuf8internal12ParseContextE
++ __ZN4TSCH47CachedSeriesDataFormatterPersistableStyleObject16default_instanceEv
++ __ZN4TSCH47CachedSeriesDataFormatterPersistableStyleObject18clear_style_objectEv
++ __ZN4TSCH47CachedSeriesDataFormatterPersistableStyleObject5ClearEv
++ __ZN4TSCH47CachedSeriesDataFormatterPersistableStyleObject8CopyFromERKN6google8protobuf7MessageE
++ __ZN4TSCH47CachedSeriesDataFormatterPersistableStyleObject8CopyFromERKS0_
++ __ZN4TSCH47CachedSeriesDataFormatterPersistableStyleObject9ArenaDtorEPv
++ __ZN4TSCH47CachedSeriesDataFormatterPersistableStyleObject9MergeFromERKN6google8protobuf7MessageE
++ __ZN4TSCH47CachedSeriesDataFormatterPersistableStyleObject9MergeFromERKS0_
++ __ZN4TSCH47CachedSeriesDataFormatterPersistableStyleObject9_Internal12style_objectEPKS0_
++ __ZN4TSCH47CachedSeriesDataFormatterPersistableStyleObjectC1EPN6google8protobuf5ArenaE
++ __ZN4TSCH47CachedSeriesDataFormatterPersistableStyleObjectC1ERKS0_
++ __ZN4TSCH47CachedSeriesDataFormatterPersistableStyleObjectC2EPN6google8protobuf5ArenaE
++ __ZN4TSCH47CachedSeriesDataFormatterPersistableStyleObjectC2ERKS0_
++ __ZN4TSCH47CachedSeriesDataFormatterPersistableStyleObjectD0Ev
++ __ZN4TSCH47CachedSeriesDataFormatterPersistableStyleObjectD1Ev
++ __ZN4TSCH47CachedSeriesDataFormatterPersistableStyleObjectD2Ev
++ __ZN4TSCH61_CachedDataFormatterPersistableStyleObjects_default_instance_E
++ __ZN4TSCH64_CachedAxisDataFormatterPersistableStyleObject_default_instance_E
++ __ZN4TSCH66_CachedSeriesDataFormatterPersistableStyleObject_default_instance_E
++ __ZN6google8protobuf5Arena18CreateMaybeMessageIN4TSCH42CachedDataFormatterPersistableStyleObjectsEJEEEPT_PS1_DpOT0_
++ __ZN6google8protobuf5Arena18CreateMaybeMessageIN4TSCH45CachedAxisDataFormatterPersistableStyleObjectEJEEEPT_PS1_DpOT0_
++ __ZN6google8protobuf5Arena18CreateMaybeMessageIN4TSCH47CachedSeriesDataFormatterPersistableStyleObjectEJEEEPT_PS1_DpOT0_
++ __ZNK4TSCH42CachedDataFormatterPersistableStyleObjects11GetMetadataEv
++ __ZNK4TSCH42CachedDataFormatterPersistableStyleObjects12ByteSizeLongEv
++ __ZNK4TSCH42CachedDataFormatterPersistableStyleObjects13IsInitializedEv
++ __ZNK4TSCH42CachedDataFormatterPersistableStyleObjects13SetCachedSizeEi
++ __ZNK4TSCH42CachedDataFormatterPersistableStyleObjects18_InternalSerializeEPhPN6google8protobuf2io19EpsCopyOutputStreamE
++ __ZNK4TSCH45CachedAxisDataFormatterPersistableStyleObject11GetMetadataEv
++ __ZNK4TSCH45CachedAxisDataFormatterPersistableStyleObject12ByteSizeLongEv
++ __ZNK4TSCH45CachedAxisDataFormatterPersistableStyleObject13IsInitializedEv
++ __ZNK4TSCH45CachedAxisDataFormatterPersistableStyleObject13SetCachedSizeEi
++ __ZNK4TSCH45CachedAxisDataFormatterPersistableStyleObject18_InternalSerializeEPhPN6google8protobuf2io19EpsCopyOutputStreamE
++ __ZNK4TSCH47CachedSeriesDataFormatterPersistableStyleObject11GetMetadataEv
++ __ZNK4TSCH47CachedSeriesDataFormatterPersistableStyleObject12ByteSizeLongEv
++ __ZNK4TSCH47CachedSeriesDataFormatterPersistableStyleObject13IsInitializedEv
++ __ZNK4TSCH47CachedSeriesDataFormatterPersistableStyleObject13SetCachedSizeEi
++ __ZNK4TSCH47CachedSeriesDataFormatterPersistableStyleObject18_InternalSerializeEPhPN6google8protobuf2io19EpsCopyOutputStreamE
++ __ZTIN4TSCH42CachedDataFormatterPersistableStyleObjectsE
++ __ZTIN4TSCH45CachedAxisDataFormatterPersistableStyleObjectE
++ __ZTIN4TSCH47CachedSeriesDataFormatterPersistableStyleObjectE
++ __ZTSN4TSCH42CachedDataFormatterPersistableStyleObjectsE
++ __ZTSN4TSCH45CachedAxisDataFormatterPersistableStyleObjectE
++ __ZTSN4TSCH47CachedSeriesDataFormatterPersistableStyleObjectE
++ __ZTVN4TSCH42CachedDataFormatterPersistableStyleObjectsE
++ __ZTVN4TSCH45CachedAxisDataFormatterPersistableStyleObjectE
++ __ZTVN4TSCH47CachedSeriesDataFormatterPersistableStyleObjectE
++ __swift_FORCE_LOAD_$_swiftAccelerate
++ __swift_FORCE_LOAD_$_swiftOSLog
++ _malloc
++ _scc_info_CachedAxisDataFormatterPersistableStyleObject_TSCHArchives_2eproto
++ _scc_info_CachedDataFormatterPersistableStyleObjects_TSCHArchives_2eproto
++ _scc_info_CachedSeriesDataFormatterPersistableStyleObject_TSCHArchives_2eproto
++ _swift_getTypeByMangledNameInContextInMetadataState2
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC1ERKS5_
+CStrings:
++ "\x11\x16!\x12"
++ "+[TSCH3DExportSharegroupToken allocWithZone:]"
++ "+[TSCH3DExportSharegroupToken token]_block_invoke"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/messages/src/TSCH3DArchives.pb.cc"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/messages/src/TSCHArchives.Common.pb.cc"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/messages/src/TSCHArchives.GEN.pb.cc"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/messages/src/TSCHArchives.pb.cc"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/messages/src/TSCHArchives.sos.pb.cc"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/messages/src/TSCHCommandArchives.pb.cc"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/messages/src/TSCHPreUFFArchives.pb.cc"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCH2DChartLayout.m"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCH2DSageGeometryHelper.m"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCH3DAbstractBarResource.mm"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCH3DAbstractLimitingSeriesUpgrader.mm"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCH3DAlphaBlendShaderEffect.mm"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCH3DAreaGeometry.mm"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCH3DAxisEnumerator.mm"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCH3DAxisLabelPositioner.mm"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCH3DBarExtrusionGeometry.mm"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCH3DBarResourceCache.mm"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCH3DCamera.mm"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCH3DChartAbstractBarSceneObject.mm"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCH3DChartAddBoundsSceneObject.mm"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCH3DChartAreaSceneObject.mm"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCH3DChartAxisLabelsSceneObject.mm"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCH3DChartBarElementProperties.mm"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCH3DChartBasicElementProperties.mm"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCH3DChartContinuousElementProperties.mm"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCH3DChartElementProperties.mm"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCH3DChartElementSceneObject.mm"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCH3DChartElementSceneObject_SortElements.h"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCH3DChartGetProjectedBoundsPipeline.mm"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCH3DChartGridlinesSceneObject.mm"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCH3DChartLabelsContainingSceneObject.mm"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCH3DChartLayout.mm"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCH3DChartMeshResources.mm"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCH3DChartModelEnumerator.mm"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCH3DChartPerspectiveShadowsSceneObject.mm"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCH3DChartPieElementProperties.mm"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCH3DChartPieFamilySceneObject.mm"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCH3DChartPlatformSettings.mm"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCH3DChartProjectedBounds.h"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCH3DChartRepAs2D.mm"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCH3DChartResizer.mm"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCH3DChartSceneAreaLayoutItem.mm"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCH3DChartScenePropertyAccessor.mm"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCH3DChartSelectedElementHighlightSceneObject.mm"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCH3DChartSeriesNameLabelsSceneObject.mm"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCH3DChartSeriesSceneObject.mm"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCH3DChartShadowsSceneObject.mm"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCH3DChartStackedColumnSceneObject.mm"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCH3DChartTitleSceneObject.mm"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCH3DChartValueLabelsSceneObject.mm"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCH3DCircularBoundsGenerator.mm"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCH3DCombinationRenderProcessor.mm"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCH3DContextSession.mm"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCH3DDataBuffer.h"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCH3DDataBuffer.mm"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCH3DDataBufferResource.h"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCH3DDataBufferResource.mm"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCH3DDiffuseTextureShaderEffect.mm"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCH3DDirectionalLight.mm"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCH3DEnvironmentPackage.mm"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCH3DExtrusionDoubleBevelGenerator.mm"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCH3DExtrusionGeometry.mm"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCH3DFill.mm"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCH3DFillImportExportAdditions.mm"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCH3DFillSetIdentifier.mm"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCH3DFillSetIdentifierImportExportAdditions.mm"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCH3DFillTextureCoordinates.mm"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCH3DFramebufferCopyPipeline.mm"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCH3DFramebufferGaussianBlurPipeline.mm"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCH3DFramebufferOnepassBlurPipeline.mm"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCH3DFramebufferTransformPipeline.mm"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCH3DGPUMUXGraphics.m"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCH3DGeometry.mm"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCH3DGeometryResource.mm"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCH3DGetBoundsPipeline.mm"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCH3DGetSelectionKnobsPositionsPipeline.mm"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCH3DLabelBitmapContextInfo.mm"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCH3DLabelResource.mm"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCH3DLabelResources.mm"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCH3DLabelsRenderer.mm"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCH3DLabelsRendererTransforms.mm"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCH3DLight.mm"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCH3DLightShaderEffect.mm"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCH3DLightShaderEffectState.mm"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCH3DLightUniformArrayShaderVariables.mm"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCH3DLightingModel.mm"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCH3DLightingPackage.mm"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCH3DLightingPackageImportExportAdditions.mm"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCH3DLightingPackageShaderEffectState.h"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCH3DLineExtrusionGeometry.mm"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCH3DMaterial.mm"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCH3DMaterialShaderEffect.mm"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCH3DMath.h"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCH3DMeshEdgeFinder.h"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCH3DMetalVersion.mm"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCH3DMipmaps.m"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCH3DNSData2DDataBuffer.mm"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCH3DNormalDirectionMapper.mm"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCH3DNormalShaderEffect.mm"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCH3DObjectState.h"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCH3DOrderedDictionary.mm"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCH3DPhongLikeLightingModel.mm"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCH3DPhongMaterialPackage.mm"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCH3DPieWedgeGeometry.mm"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCH3DPixelBuffer.mm"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCH3DPointLight.mm"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCH3DPrefilteredLineRenderer.mm"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCH3DPyramidBlurShadowsRenderer.mm"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCH3DQuadResource.mm"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCH3DRayPickPipeline.mm"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCH3DRenderingLightingModel.mm"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCH3DResource.mm"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCH3DResourceCache.mm"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCH3DResourceLoader.mm"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCH3DResourceUniqueIdentifierAllocator.m"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCH3DSageFillData.mm"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCH3DSageGeometryHelper.mm"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCH3DSageLightingPackageData.mm"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCH3DScene.mm"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCH3DSceneRenderCache.mm"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCH3DSceneRenderCacheObject.mm"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCH3DSceneRenderPipeline.mm"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCH3DSceneRenderSetup.mm"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCH3DSession.mm"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCH3DShaderCache.mm"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCH3DShaderContext.mm"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCH3DShaderEffect.mm"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCH3DShaderEffects.mm"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCH3DShaderEffectsStates.h"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCH3DShaderEffectsStates.mm"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCH3DShaderProgram.mm"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCH3DShaderResource.mm"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCH3DShaderVariable.mm"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCH3DShaderVariableLinkage.h"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCH3DShaderVariableLinkage.mm"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCH3DSharegroup.mm"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCH3DSimpleBlurShadowsRenderer.mm"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCH3DSphericalEnvironmentShaderEffect.mm"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCH3DSplineGenerator.mm"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCH3DSpotLight.mm"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCH3DStateStack.h"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCH3DStringIndexedResources.mm"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCH3DTSPImageData.mm"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCH3DTSPMipmapData.mm"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCH3DTexCoordGenerationCube.mm"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCH3DTexCoordGenerationCylinder.mm"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCH3DTexCoordTilingShaderEffect.h"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCH3DTexCoordTilingShaderEffect.mm"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCH3DTexture.mm"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCH3DTextureAtlas.mm"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCH3DTextureBlendShaderEffect.mm"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCH3DTextureTiling.mm"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCH3DTextureUtilities.h"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCH3DTextureUtilities.mm"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCH3DTransformGeometryRenderProcessor.mm"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCH3DUniformArrayShaderVariables.mm"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCH3DUtilities.h"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCH3DVector.mm"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCH3DVectorDataBuffer.mm"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCH3DVersion.mm"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCH3DVertexShaderEffect.mm"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCHArchiveUtilities.mm"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCHAssetColorMap.m"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCHBarColumnElementBuilder.mm"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCHBarSeriesModelCache.m"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCHBaseStyle.mm"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCHCGContextUtilities.m"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCHChartAreaLayoutItem.m"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCHChartAxis.m"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCHChartAxisAnalyzer.m"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCHChartAxisLabelsLayoutItem.m"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCHChartAxisLayoutItem.m"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCHChartAxisLineLayoutItem.m"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCHChartAxisNonStyle.mm"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCHChartAxisPaddingLayoutItem.m"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCHChartAxisRenderer.m"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCHChartAxisStyle.mm"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCHChartAxisTickMarksLayoutItem.m"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCHChartAxisTitleLayoutItem.m"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCHChartBarElementsRenderer.m"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCHChartBodyLayoutItem.mm"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCHChartCategoryAxis.m"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCHChartCategoryAxisLabelsLayoutItem.m"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCHChartCategoryAxisLayoutItem.m"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCHChartCategoryAxisRenderer.m"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCHChartDonutBodyLayoutItem.m"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCHChartDrawableInfo.m"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCHChartDrawableLayout.m"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCHChartDrawableLayoutLegendResizer.m"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCHChartFeature.mm"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCHChartGrid.m"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCHChartGridRenderer.m"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCHChartGridValue.m"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCHChartInfo.m"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCHChartInfoAdoptStylesheet.m"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCHChartInfoApplyPreset.m"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCHChartInfo_Archiving.mm"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCHChartInfo_PreUFFArchiving.mm"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCHChartInfo_UnityArchiving.mm"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCHChartLayout.m"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCHChartLayoutItem.m"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCHChartLineElementsRenderer.m"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCHChartLogAxis.m"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCHChartMediator_Archiving.mm"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCHChartModel.m"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCHChartNonRep.m"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCHChartNonStyle.mm"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCHChartPieBendedLineLabelPlacement.m"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCHChartPieLabelPlacement.m"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCHChartPieStraightLineLabelPlacement.m"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCHChartPieWedgeElement.m"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCHChartPieWedgeLayoutInfo.m"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCHChartPolarAngleGridlineAxisRenderer.m"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCHChartPolarGridLayoutItem.swift"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCHChartPolarRadiusGridlineAxisRenderer.m"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCHChartRadarAreaLayoutItem.swift"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCHChartRadialAreaLayoutItem.m"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCHChartRadialBodyLayoutItem.m"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCHChartRadialElementsRenderer.m"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCHChartReferenceLineLabelPaddingLayoutItem.m"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCHChartReferenceLineLabelsLayoutItem.m"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCHChartRep.m"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCHChartRootLayoutItem.m"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCHChartSeries.m"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCHChartSeriesNonStyle.mm"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCHChartSeriesPieAdditions.m"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCHChartSeriesStyle.mm"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCHChartSeriesType.mm"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCHChartStackedPercentValueAxis.m"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCHChartStackedValueAxis.m"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCHChartStyle.mm"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCHChartStylePreset.mm"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCHChartStyleState.m"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCHChartTitleRenderer.m"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCHChartType.mm"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCHChartUIState.mm"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCHChartValueAxis.m"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCHChunkManager.m"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCHCompositeRenderer.m"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCHConfiguration.m"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCHDataFormatter.m"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCHDownsampleData.m"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCHDownsampler.m"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCHElementBuilder.m"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCHElementBuilderCoordinateAdapter.m"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCHElementBuilder_ReferenceLines.mm"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCHErrorBarData.m"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCHFillSet.m"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCHGeometry.m"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCHGridPartitioner.m"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCHLegendAreaLayoutItem.m"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCHLegendCellMetrics.m"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCHLegendModel.m"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCHLegendModelCache.m"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCHLegendNonStyle.mm"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCHLegendStyle.mm"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCHLineAreaScatterElementBuilder.mm"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCHLineAreaSeriesModelCache.m"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCHMathUtilities.m"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCHMultiDataBarChartRep.mm"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCHMultiDataBubbleChartRep.mm"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCHMultiDataChartRep.mm"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCHMultiDataChartRepAnimationDictionary.m"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCHMultiDataChartRepElement.m"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCHMultiDataChartRepMultiDataBuildStages.m"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCHMultiDataScatterChartRep.mm"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCHNumberFormat.mm"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCHPieElementBuilder.mm"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCHPieSeriesModelCache.m"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCHPresetImager.m"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCHPropertyMaps.GEN.m"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCHPropertyMutationHelper.mm"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCHPropertyMutationTuple.m"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCHReferenceLine.m"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCHReferenceLineNonStyle.mm"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCHReferenceLineRenderer.m"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCHReferenceLineStyle.mm"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCHRenderUtilities.m"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCHRenderer.m"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCHRendererTrendLines.m"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCHSageGeometryHelper.m"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCHSelection.mm"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCHSelectionPath.mm"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCHSemanticTagAndPropertyPair.m"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCHStyleBootstrapping.m"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCHStyleOwnerPath.mm"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCHStyleOwningImplementation.m"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCHStyleSemanticTag.mm"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCHStyleSwapUndoTuple.mm"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCHStyleUtilities.mm"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCHStyleViewProxy.m"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCHText.mm"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCHTimeBasedFormat.mm"
++ "/Library/Caches/com.apple.xbs/Sources/iWorkImport/shared/charts/Classes/TSCHTrendLineData.m"
++ "4Q"
++ "T@\"NSString\",?,R,C"
++ "TSCH3DExportSharegroupToken"
++ "commonAncestorLayerForLayer:withLayer:"
++ "exportToken"
++ "format type %@ is not supported while archiving."
++ "id<TSCHDataFormatterPersistableStyleObject> TSCHDataFormatLoadFromArchive(const TSK::FormatStructArchive &)"
++ "styleObject"
++ "superlayer"
+- "\x11\x13#\x11\x12"
+- "+[TSCH3DGLExportSharegroupToken allocWithZone:]"
+- "+[TSCH3DGLExportSharegroupToken token]_block_invoke"
+- "-[TSCHChartRep renderers]"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/messages/src/TSCH3DArchives.pb.cc"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/messages/src/TSCHArchives.Common.pb.cc"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/messages/src/TSCHArchives.GEN.pb.cc"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/messages/src/TSCHArchives.pb.cc"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/messages/src/TSCHArchives.sos.pb.cc"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/messages/src/TSCHCommandArchives.pb.cc"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/messages/src/TSCHPreUFFArchives.pb.cc"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCH2DChartLayout.m"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCH2DSageGeometryHelper.m"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCH3DAbstractBarResource.mm"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCH3DAbstractLimitingSeriesUpgrader.mm"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCH3DAlphaBlendShaderEffect.mm"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCH3DAreaGeometry.mm"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCH3DAxisEnumerator.mm"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCH3DAxisLabelPositioner.mm"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCH3DBarExtrusionGeometry.mm"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCH3DBarResourceCache.mm"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCH3DCamera.mm"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCH3DChartAbstractBarSceneObject.mm"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCH3DChartAddBoundsSceneObject.mm"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCH3DChartAreaSceneObject.mm"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCH3DChartAxisLabelsSceneObject.mm"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCH3DChartBarElementProperties.mm"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCH3DChartBasicElementProperties.mm"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCH3DChartContinuousElementProperties.mm"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCH3DChartElementProperties.mm"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCH3DChartElementSceneObject.mm"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCH3DChartElementSceneObject_SortElements.h"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCH3DChartGetProjectedBoundsPipeline.mm"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCH3DChartGridlinesSceneObject.mm"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCH3DChartLabelsContainingSceneObject.mm"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCH3DChartLayout.mm"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCH3DChartMeshResources.mm"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCH3DChartModelEnumerator.mm"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCH3DChartPerspectiveShadowsSceneObject.mm"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCH3DChartPieElementProperties.mm"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCH3DChartPieFamilySceneObject.mm"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCH3DChartPlatformSettings.mm"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCH3DChartProjectedBounds.h"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCH3DChartRepAs2D.mm"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCH3DChartResizer.mm"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCH3DChartSceneAreaLayoutItem.mm"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCH3DChartScenePropertyAccessor.mm"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCH3DChartSelectedElementHighlightSceneObject.mm"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCH3DChartSeriesNameLabelsSceneObject.mm"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCH3DChartSeriesSceneObject.mm"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCH3DChartShadowsSceneObject.mm"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCH3DChartStackedColumnSceneObject.mm"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCH3DChartTitleSceneObject.mm"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCH3DChartValueLabelsSceneObject.mm"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCH3DCircularBoundsGenerator.mm"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCH3DCombinationRenderProcessor.mm"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCH3DContextSession.mm"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCH3DDataBuffer.h"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCH3DDataBuffer.mm"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCH3DDataBufferResource.h"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCH3DDataBufferResource.mm"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCH3DDiffuseTextureShaderEffect.mm"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCH3DDirectionalLight.mm"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCH3DEnvironmentPackage.mm"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCH3DExtrusionDoubleBevelGenerator.mm"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCH3DExtrusionGeometry.mm"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCH3DFill.mm"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCH3DFillImportExportAdditions.mm"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCH3DFillSetIdentifier.mm"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCH3DFillSetIdentifierImportExportAdditions.mm"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCH3DFillTextureCoordinates.mm"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCH3DFramebufferCopyPipeline.mm"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCH3DFramebufferGaussianBlurPipeline.mm"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCH3DFramebufferOnepassBlurPipeline.mm"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCH3DFramebufferTransformPipeline.mm"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCH3DGPUMUXGraphics.m"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCH3DGeometry.mm"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCH3DGeometryResource.mm"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCH3DGetBoundsPipeline.mm"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCH3DGetSelectionKnobsPositionsPipeline.mm"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCH3DLabelBitmapContextInfo.mm"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCH3DLabelResource.mm"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCH3DLabelResources.mm"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCH3DLabelsRenderer.mm"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCH3DLabelsRendererTransforms.mm"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCH3DLight.mm"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCH3DLightShaderEffect.mm"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCH3DLightShaderEffectState.mm"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCH3DLightUniformArrayShaderVariables.mm"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCH3DLightingModel.mm"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCH3DLightingPackage.mm"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCH3DLightingPackageImportExportAdditions.mm"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCH3DLightingPackageShaderEffectState.h"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCH3DLineExtrusionGeometry.mm"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCH3DMaterial.mm"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCH3DMaterialShaderEffect.mm"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCH3DMath.h"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCH3DMeshEdgeFinder.h"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCH3DMetalVersion.mm"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCH3DMipmaps.m"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCH3DNSData2DDataBuffer.mm"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCH3DNormalDirectionMapper.mm"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCH3DNormalShaderEffect.mm"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCH3DObjectState.h"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCH3DOrderedDictionary.mm"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCH3DPhongLikeLightingModel.mm"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCH3DPhongMaterialPackage.mm"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCH3DPieWedgeGeometry.mm"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCH3DPixelBuffer.mm"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCH3DPointLight.mm"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCH3DPrefilteredLineRenderer.mm"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCH3DPyramidBlurShadowsRenderer.mm"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCH3DQuadResource.mm"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCH3DRayPickPipeline.mm"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCH3DRenderingLightingModel.mm"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCH3DResource.mm"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCH3DResourceCache.mm"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCH3DResourceLoader.mm"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCH3DResourceUniqueIdentifierAllocator.m"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCH3DSageFillData.mm"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCH3DSageGeometryHelper.mm"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCH3DSageLightingPackageData.mm"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCH3DScene.mm"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCH3DSceneRenderCache.mm"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCH3DSceneRenderCacheObject.mm"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCH3DSceneRenderPipeline.mm"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCH3DSceneRenderSetup.mm"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCH3DSession.mm"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCH3DShaderCache.mm"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCH3DShaderContext.mm"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCH3DShaderEffect.mm"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCH3DShaderEffects.mm"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCH3DShaderEffectsStates.h"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCH3DShaderEffectsStates.mm"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCH3DShaderProgram.mm"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCH3DShaderResource.mm"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCH3DShaderVariable.mm"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCH3DShaderVariableLinkage.h"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCH3DShaderVariableLinkage.mm"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCH3DSharegroup.mm"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCH3DSimpleBlurShadowsRenderer.mm"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCH3DSphericalEnvironmentShaderEffect.mm"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCH3DSplineGenerator.mm"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCH3DSpotLight.mm"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCH3DStateStack.h"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCH3DStringIndexedResources.mm"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCH3DTSPImageData.mm"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCH3DTSPMipmapData.mm"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCH3DTexCoordGenerationCube.mm"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCH3DTexCoordGenerationCylinder.mm"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCH3DTexCoordTilingShaderEffect.h"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCH3DTexCoordTilingShaderEffect.mm"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCH3DTexture.mm"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCH3DTextureAtlas.mm"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCH3DTextureBlendShaderEffect.mm"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCH3DTextureTiling.mm"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCH3DTextureUtilities.h"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCH3DTextureUtilities.mm"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCH3DTransformGeometryRenderProcessor.mm"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCH3DUniformArrayShaderVariables.mm"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCH3DUtilities.h"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCH3DVector.mm"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCH3DVectorDataBuffer.mm"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCH3DVersion.mm"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCH3DVertexShaderEffect.mm"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCHArchiveUtilities.mm"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCHAssetColorMap.m"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCHBarColumnElementBuilder.mm"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCHBarSeriesModelCache.m"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCHBaseStyle.mm"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCHCGContextUtilities.m"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCHChartAreaLayoutItem.m"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCHChartAxis.m"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCHChartAxisAnalyzer.m"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCHChartAxisLabelsLayoutItem.m"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCHChartAxisLayoutItem.m"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCHChartAxisLineLayoutItem.m"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCHChartAxisNonStyle.mm"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCHChartAxisPaddingLayoutItem.m"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCHChartAxisRenderer.m"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCHChartAxisStyle.mm"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCHChartAxisTickMarksLayoutItem.m"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCHChartAxisTitleLayoutItem.m"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCHChartBarElementsRenderer.m"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCHChartBodyLayoutItem.mm"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCHChartCategoryAxis.m"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCHChartCategoryAxisLabelsLayoutItem.m"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCHChartCategoryAxisLayoutItem.m"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCHChartCategoryAxisRenderer.m"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCHChartDonutBodyLayoutItem.m"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCHChartDrawableInfo.m"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCHChartDrawableLayout.m"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCHChartDrawableLayoutLegendResizer.m"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCHChartFeature.mm"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCHChartGrid.m"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCHChartGridRenderer.m"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCHChartGridValue.m"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCHChartInfo.m"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCHChartInfoAdoptStylesheet.m"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCHChartInfoApplyPreset.m"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCHChartInfo_Archiving.mm"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCHChartInfo_PreUFFArchiving.mm"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCHChartInfo_UnityArchiving.mm"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCHChartLayout.m"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCHChartLayoutItem.m"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCHChartLineElementsRenderer.m"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCHChartLogAxis.m"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCHChartMediator_Archiving.mm"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCHChartModel.m"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCHChartNonRep.m"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCHChartNonStyle.mm"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCHChartPieBendedLineLabelPlacement.m"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCHChartPieLabelPlacement.m"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCHChartPieStraightLineLabelPlacement.m"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCHChartPieWedgeElement.m"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCHChartPieWedgeLayoutInfo.m"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCHChartPolarAngleGridlineAxisRenderer.m"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCHChartPolarGridLayoutItem.swift"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCHChartPolarRadiusGridlineAxisRenderer.m"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCHChartRadarAreaLayoutItem.swift"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCHChartRadialAreaLayoutItem.m"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCHChartRadialBodyLayoutItem.m"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCHChartRadialElementsRenderer.m"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCHChartReferenceLineLabelPaddingLayoutItem.m"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCHChartReferenceLineLabelsLayoutItem.m"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCHChartRep.m"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCHChartRootLayoutItem.m"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCHChartSeries.m"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCHChartSeriesNonStyle.mm"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCHChartSeriesPieAdditions.m"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCHChartSeriesStyle.mm"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCHChartSeriesType.mm"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCHChartStackedPercentValueAxis.m"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCHChartStackedValueAxis.m"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCHChartStyle.mm"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCHChartStylePreset.mm"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCHChartStyleState.m"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCHChartTitleRenderer.m"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCHChartType.mm"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCHChartUIState.mm"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCHChartValueAxis.m"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCHChunkManager.m"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCHCompositeRenderer.m"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCHConfiguration.m"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCHDataFormatter.m"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCHDownsampleData.m"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCHDownsampler.m"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCHElementBuilder.m"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCHElementBuilderCoordinateAdapter.m"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCHElementBuilder_ReferenceLines.mm"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCHErrorBarData.m"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCHFillSet.m"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCHGeometry.m"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCHGridPartitioner.m"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCHLegendAreaLayoutItem.m"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCHLegendCellMetrics.m"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCHLegendModel.m"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCHLegendModelCache.m"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCHLegendNonStyle.mm"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCHLegendStyle.mm"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCHLineAreaScatterElementBuilder.mm"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCHLineAreaSeriesModelCache.m"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCHMathUtilities.m"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCHMultiDataBarChartRep.mm"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCHMultiDataBubbleChartRep.mm"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCHMultiDataChartRep.mm"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCHMultiDataChartRepAnimationDictionary.m"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCHMultiDataChartRepElement.m"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCHMultiDataChartRepMultiDataBuildStages.m"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCHMultiDataScatterChartRep.mm"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCHNumberFormat.mm"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCHPieElementBuilder.mm"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCHPieSeriesModelCache.m"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCHPresetImager.m"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCHPropertyMaps.GEN.m"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCHPropertyMutationHelper.mm"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCHPropertyMutationTuple.m"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCHReferenceLine.m"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCHReferenceLineNonStyle.mm"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCHReferenceLineRenderer.m"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCHReferenceLineStyle.mm"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCHRenderUtilities.m"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCHRenderer.m"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCHRendererTrendLines.m"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCHSageGeometryHelper.m"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCHSelection.mm"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCHSelectionPath.mm"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCHSemanticTagAndPropertyPair.m"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCHStyleBootstrapping.m"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCHStyleOwnerPath.mm"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCHStyleOwningImplementation.m"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCHStyleSemanticTag.mm"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCHStyleSwapUndoTuple.mm"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCHStyleUtilities.mm"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCHStyleViewProxy.m"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCHText.mm"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCHTimeBasedFormat.mm"
+- "/Library/Caches/com.apple.xbs/Sources/iWorkImport/quicklook/iwork/src/shared/charts/Classes/TSCHTrendLineData.m"
+- "5Q"
+- "T@\"NSMutableArray\",&,N,V_renderersWaitingForDownload"
+- "TSCH3DGLExportSharegroupToken"
+- "_renderersWaitingForDownload"
+- "glExport"
+- "p_messageAnimationDidStop:finished:context:"
+- "renderersWaitingForDownload"
+- "setRenderersWaitingForDownload:"
+
+```

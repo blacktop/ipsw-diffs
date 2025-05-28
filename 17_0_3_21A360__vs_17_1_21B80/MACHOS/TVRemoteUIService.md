@@ -1,0 +1,230 @@
+## TVRemoteUIService
+
+> `/Applications/TVRemoteUIService.app/TVRemoteUIService`
+
+```diff
+
+-367.0.9.0.0
+-  __TEXT.__text: 0x4ffa4
++367.10.21.0.0
++  __TEXT.__text: 0x50c6c
+   __TEXT.__auth_stubs: 0x1540
+-  __TEXT.__objc_stubs: 0x16a0
++  __TEXT.__objc_stubs: 0x16c0
+   __TEXT.__objc_methlist: 0xe8c
+   __TEXT.__const: 0x1b44
+-  __TEXT.__oslogstring: 0xaaf
+-  __TEXT.__cstring: 0x42f1
++  __TEXT.__oslogstring: 0xaf8
++  __TEXT.__cstring: 0x43b1
+   __TEXT.__objc_classname: 0x261
+-  __TEXT.__objc_methname: 0x4631
++  __TEXT.__objc_methname: 0x468f
+   __TEXT.__objc_methtype: 0x166c
+   __TEXT.__gcc_except_tab: 0x68
+-  __TEXT.__constg_swiftt: 0x2db8
+-  __TEXT.__swift5_typeref: 0x9e6
++  __TEXT.__constg_swiftt: 0x2e30
++  __TEXT.__swift5_typeref: 0x9ee
+   __TEXT.__swift5_builtin: 0xb4
+-  __TEXT.__swift5_reflstr: 0x2cee
+-  __TEXT.__swift5_fieldmd: 0x1d4c
++  __TEXT.__swift5_reflstr: 0x2d7e
++  __TEXT.__swift5_fieldmd: 0x1d7c
+   __TEXT.__swift5_assocty: 0x150
+   __TEXT.__swift5_proto: 0x120
+   __TEXT.__swift5_types: 0xf8
+-  __TEXT.__swift5_capture: 0x478
++  __TEXT.__swift5_capture: 0x4bc
+   __TEXT.__swift5_mpenum: 0x10
+   __TEXT.__swift5_protos: 0xc
+-  __TEXT.__unwind_info: 0x1a28
++  __TEXT.__unwind_info: 0x1a54
+   __TEXT.__eh_frame: 0x990
+   __DATA_CONST.__auth_got: 0xab0
+   __DATA_CONST.__got: 0x278
+   __DATA_CONST.__auth_ptr: 0x60
+-  __DATA_CONST.__const: 0x2bf8
++  __DATA_CONST.__const: 0x2d10
+   __DATA_CONST.__cfstring: 0x60
+   __DATA_CONST.__objc_classlist: 0x110
+   __DATA_CONST.__objc_catlist: 0x8
+   __DATA_CONST.__objc_protolist: 0xb8
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_intobj: 0x18
+-  __DATA.__objc_const: 0x5848
+-  __DATA.__objc_selrefs: 0x1080
++  __DATA.__objc_const: 0x58c8
++  __DATA.__objc_selrefs: 0x10a8
+   __DATA.__objc_protorefs: 0x38
+   __DATA.__objc_classrefs: 0x280
+   __DATA.__objc_superrefs: 0x10
+   __DATA.__objc_ivar: 0x74
+-  __DATA.__objc_data: 0x4218
+-  __DATA.__data: 0x20f8
++  __DATA.__objc_data: 0x42b0
++  __DATA.__data: 0x2118
+   __DATA.__bss: 0x22c0
+   __DATA.__common: 0x4e0
+   - /System/Library/Frameworks/AVFAudio.framework/AVFAudio
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 1533
+-  Symbols:   12801
+-  CStrings:  1523
++  Functions: 1554
++  Symbols:   12824
++  CStrings:  1535
+ 
+Symbols:
++ _$s17TVRemoteUIService21FindingViewControllerC017setupInstructionsD033_0EBA69AFA8F7851D21A6F99F927F83D8LLyyF
++ _$s17TVRemoteUIService21FindingViewControllerC018updateInstructionsD033_0EBA69AFA8F7851D21A6F99F927F83D8LLyyF
++ _$s17TVRemoteUIService21FindingViewControllerC018updateInstructionsD033_0EBA69AFA8F7851D21A6F99F927F83D8LLyyFyycfU_
++ _$s17TVRemoteUIService21FindingViewControllerC018updateInstructionsD033_0EBA69AFA8F7851D21A6F99F927F83D8LLyyFyycfU_TA
++ _$s17TVRemoteUIService21FindingViewControllerC018updateInstructionsD033_0EBA69AFA8F7851D21A6F99F927F83D8LLyyFyycfU_yycfU_
++ _$s17TVRemoteUIService21FindingViewControllerC018updateInstructionsD033_0EBA69AFA8F7851D21A6F99F927F83D8LLyyFyycfU_yycfU_TA
++ _$s17TVRemoteUIService21FindingViewControllerC023instructionsLabelsStackD033_0EBA69AFA8F7851D21A6F99F927F83D8LLSo07UIStackD0CvpWvd
++ _$s17TVRemoteUIService21FindingViewControllerC07hapticsE033_0EBA69AFA8F7851D21A6F99F927F83D8LLAA011FMR1HapticsE0CvpWvd
++ _$s17TVRemoteUIService21FindingViewControllerC10pulseTimer33_0EBA69AFA8F7851D21A6F99F927F83D8LLSo7NSTimerCSgvpWvd
++ _$s17TVRemoteUIService21FindingViewControllerC10titleLabel33_0EBA69AFA8F7851D21A6F99F927F83D8LLSo7UILabelCvpWvd
++ _$s17TVRemoteUIService21FindingViewControllerC10trendTimer33_0EBA69AFA8F7851D21A6F99F927F83D8LLSo7NSTimerCSgvpWvd
++ _$s17TVRemoteUIService21FindingViewControllerC11closeButton33_0EBA69AFA8F7851D21A6F99F927F83D8LLAA09FMR1GlyphG0CvpWvd
++ _$s17TVRemoteUIService21FindingViewControllerC13distanceLabel33_0EBA69AFA8F7851D21A6F99F927F83D8LLAA012FMBTDistanceD0CvpWvd
++ _$s17TVRemoteUIService21FindingViewControllerC13isFirstAppear33_0EBA69AFA8F7851D21A6F99F927F83D8LLSbvpWvd
++ _$s17TVRemoteUIService21FindingViewControllerC14startNISession33_0EBA69AFA8F7851D21A6F99F927F83D8LLyyF
++ _$s17TVRemoteUIService21FindingViewControllerC16firstMeasurement33_0EBA69AFA8F7851D21A6F99F927F83D8LLSbvpWvd
++ _$s17TVRemoteUIService21FindingViewControllerC16setupConstraints33_0EBA69AFA8F7851D21A6F99F927F83D8LLyyF
++ _$s17TVRemoteUIService21FindingViewControllerC17instructionsLabel33_0EBA69AFA8F7851D21A6F99F927F83D8LLSo7UILabelCvpWvd
++ _$s17TVRemoteUIService21FindingViewControllerC18trendTimerDuration33_0EBA69AFA8F7851D21A6F99F927F83D8LLSdvpWvd
++ _$s17TVRemoteUIService21FindingViewControllerC20analyticsSessionData33_0EBA69AFA8F7851D21A6F99F927F83D8LLSo011TVRCFindinggH0CvpWvd
++ _$s17TVRemoteUIService21FindingViewControllerC20instructionsTopLabel33_0EBA69AFA8F7851D21A6F99F927F83D8LLSo7UILabelCvpWvd
++ _$s17TVRemoteUIService21FindingViewControllerC21showInstructionsLabel33_0EBA69AFA8F7851D21A6F99F927F83D8LL_8animated10completionySb_SbyycSgtF
++ _$s17TVRemoteUIService21FindingViewControllerC21showInstructionsLabel33_0EBA69AFA8F7851D21A6F99F927F83D8LL_8animated10completionySb_SbyycSgtFySbcfU0_TA
++ _$s17TVRemoteUIService21FindingViewControllerC21showInstructionsLabel33_0EBA69AFA8F7851D21A6F99F927F83D8LL_8animated10completionySb_SbyycSgtFyycfU_
++ _$s17TVRemoteUIService21FindingViewControllerC21showInstructionsLabel33_0EBA69AFA8F7851D21A6F99F927F83D8LL_8animated10completionySb_SbyycSgtFyycfU_TA
++ _$s17TVRemoteUIService21FindingViewControllerC22searchingDelayWorkItem33_0EBA69AFA8F7851D21A6F99F927F83D8LL8Dispatch0shI0CSgvpWvd
++ _$s17TVRemoteUIService21FindingViewControllerC27currentProximityMeasurement33_0EBA69AFA8F7851D21A6F99F927F83D8LL12CoreGraphics7CGFloatVvpWvd
++ _$s17TVRemoteUIService21FindingViewControllerC27maxRestartDelayMilliseconds33_0EBA69AFA8F7851D21A6F99F927F83D8LLSivpWvd
++ _$s17TVRemoteUIService21FindingViewControllerC27minRestartDelayMilliseconds33_0EBA69AFA8F7851D21A6F99F927F83D8LLSivpWvd
++ _$s17TVRemoteUIService21FindingViewControllerC29sessionRestartDelayResetTimer33_0EBA69AFA8F7851D21A6F99F927F83D8LLSo7NSTimerCSgvpWvd
++ _$s17TVRemoteUIService21FindingViewControllerC31sessionRestartDelayMilliseconds33_0EBA69AFA8F7851D21A6F99F927F83D8LLSivpWvd
++ _$s17TVRemoteUIService21FindingViewControllerC32requiresAdditionalConnectionTime33_0EBA69AFA8F7851D21A6F99F927F83D8LLSbvpWvd
++ _$s17TVRemoteUIService21FindingViewControllerC35restartBackOffIncrementMilliseconds33_0EBA69AFA8F7851D21A6F99F927F83D8LLSivpWvd
++ _$s17TVRemoteUIService21FindingViewControllerC44sessionRestartDelayResetTimerDurationSeconds33_0EBA69AFA8F7851D21A6F99F927F83D8LLSdvpWvd
++ _$s17TVRemoteUIService21FindingViewControllerC9nameLabel33_0EBA69AFA8F7851D21A6F99F927F83D8LLSo7UILabelCvpWvd
++ _$s17TVRemoteUIService21FindingViewControllerC9niSession33_0EBA69AFA8F7851D21A6F99F927F83D8LLSo9NISessionCSgvpWvd
++ _$s17TVRemoteUIService21FindingViewControllerC9prevState33_0EBA69AFA8F7851D21A6F99F927F83D8LLAA09FMFindingG0OvpWvd
++ _$sIeg_SgWOy
++ _objc_msgSend$isInSecureWindow
++ _symbolic Ieg_Sg
++ block_copy_helper.103
++ block_copy_helper.73
++ block_copy_helper.79
++ block_copy_helper.85
++ block_copy_helper.91
++ block_copy_helper.97
++ block_descriptor.105
++ block_descriptor.75
++ block_descriptor.81
++ block_descriptor.87
++ block_descriptor.93
++ block_descriptor.99
++ block_destroy_helper.104
++ block_destroy_helper.74
++ block_destroy_helper.80
++ block_destroy_helper.86
++ block_destroy_helper.92
++ block_destroy_helper.98
+- _$s17TVRemoteUIService21FindingViewControllerC07hapticsE0AA011FMR1HapticsE0CvpWvd
+- _$s17TVRemoteUIService21FindingViewControllerC10pulseTimerSo7NSTimerCSgvMTq
+- _$s17TVRemoteUIService21FindingViewControllerC10pulseTimerSo7NSTimerCSgvgTq
+- _$s17TVRemoteUIService21FindingViewControllerC10pulseTimerSo7NSTimerCSgvpWvd
+- _$s17TVRemoteUIService21FindingViewControllerC10pulseTimerSo7NSTimerCSgvsTq
+- _$s17TVRemoteUIService21FindingViewControllerC10titleLabelSo7UILabelCvMTq
+- _$s17TVRemoteUIService21FindingViewControllerC10titleLabelSo7UILabelCvgTq
+- _$s17TVRemoteUIService21FindingViewControllerC10titleLabelSo7UILabelCvpWvd
+- _$s17TVRemoteUIService21FindingViewControllerC10titleLabelSo7UILabelCvsTq
+- _$s17TVRemoteUIService21FindingViewControllerC10trendTimerSo7NSTimerCSgvMTq
+- _$s17TVRemoteUIService21FindingViewControllerC10trendTimerSo7NSTimerCSgvgTq
+- _$s17TVRemoteUIService21FindingViewControllerC10trendTimerSo7NSTimerCSgvpWvd
+- _$s17TVRemoteUIService21FindingViewControllerC10trendTimerSo7NSTimerCSgvsTq
+- _$s17TVRemoteUIService21FindingViewControllerC11closeButtonAA09FMR1GlyphG0CvpWvd
+- _$s17TVRemoteUIService21FindingViewControllerC13distanceLabelAA012FMBTDistanceD0CvpWvd
+- _$s17TVRemoteUIService21FindingViewControllerC13isFirstAppearSbvMTq
+- _$s17TVRemoteUIService21FindingViewControllerC13isFirstAppearSbvgTq
+- _$s17TVRemoteUIService21FindingViewControllerC13isFirstAppearSbvpWvd
+- _$s17TVRemoteUIService21FindingViewControllerC13isFirstAppearSbvsTq
+- _$s17TVRemoteUIService21FindingViewControllerC14startNISessionyyF
+- _$s17TVRemoteUIService21FindingViewControllerC14startNISessionyyFTq
+- _$s17TVRemoteUIService21FindingViewControllerC16firstMeasurementSbvMTq
+- _$s17TVRemoteUIService21FindingViewControllerC16firstMeasurementSbvgTq
+- _$s17TVRemoteUIService21FindingViewControllerC16firstMeasurementSbvpWvd
+- _$s17TVRemoteUIService21FindingViewControllerC16firstMeasurementSbvsTq
+- _$s17TVRemoteUIService21FindingViewControllerC16setupConstraintsyyF
+- _$s17TVRemoteUIService21FindingViewControllerC16setupConstraintsyyFTq
+- _$s17TVRemoteUIService21FindingViewControllerC17instructionsLabelSo7UILabelCvMTq
+- _$s17TVRemoteUIService21FindingViewControllerC17instructionsLabelSo7UILabelCvgTq
+- _$s17TVRemoteUIService21FindingViewControllerC17instructionsLabelSo7UILabelCvpWvd
+- _$s17TVRemoteUIService21FindingViewControllerC17instructionsLabelSo7UILabelCvsTq
+- _$s17TVRemoteUIService21FindingViewControllerC18trendTimerDurationSdvpWvd
+- _$s17TVRemoteUIService21FindingViewControllerC19updateDistanceLabel33_0EBA69AFA8F7851D21A6F99F927F83D8LLyyF
+- _$s17TVRemoteUIService21FindingViewControllerC20analyticsSessionDataSo011TVRCFindinggH0CvMTq
+- _$s17TVRemoteUIService21FindingViewControllerC20analyticsSessionDataSo011TVRCFindinggH0CvgTq
+- _$s17TVRemoteUIService21FindingViewControllerC20analyticsSessionDataSo011TVRCFindinggH0CvpWvd
+- _$s17TVRemoteUIService21FindingViewControllerC20analyticsSessionDataSo011TVRCFindinggH0CvsTq
+- _$s17TVRemoteUIService21FindingViewControllerC27currentProximityMeasurement12CoreGraphics7CGFloatVvMTq
+- _$s17TVRemoteUIService21FindingViewControllerC27currentProximityMeasurement12CoreGraphics7CGFloatVvgTq
+- _$s17TVRemoteUIService21FindingViewControllerC27currentProximityMeasurement12CoreGraphics7CGFloatVvpWvd
+- _$s17TVRemoteUIService21FindingViewControllerC27currentProximityMeasurement12CoreGraphics7CGFloatVvsTq
+- _$s17TVRemoteUIService21FindingViewControllerC27maxRestartDelayMillisecondsSivpWvd
+- _$s17TVRemoteUIService21FindingViewControllerC27minRestartDelayMillisecondsSivpWvd
+- _$s17TVRemoteUIService21FindingViewControllerC29sessionRestartDelayResetTimerSo7NSTimerCSgvMTq
+- _$s17TVRemoteUIService21FindingViewControllerC29sessionRestartDelayResetTimerSo7NSTimerCSgvgTq
+- _$s17TVRemoteUIService21FindingViewControllerC29sessionRestartDelayResetTimerSo7NSTimerCSgvpWvd
+- _$s17TVRemoteUIService21FindingViewControllerC29sessionRestartDelayResetTimerSo7NSTimerCSgvsTq
+- _$s17TVRemoteUIService21FindingViewControllerC31sessionRestartDelayMillisecondsSivMTq
+- _$s17TVRemoteUIService21FindingViewControllerC31sessionRestartDelayMillisecondsSivgTq
+- _$s17TVRemoteUIService21FindingViewControllerC31sessionRestartDelayMillisecondsSivpWvd
+- _$s17TVRemoteUIService21FindingViewControllerC31sessionRestartDelayMillisecondsSivsTq
+- _$s17TVRemoteUIService21FindingViewControllerC35restartBackOffIncrementMillisecondsSivpWvd
+- _$s17TVRemoteUIService21FindingViewControllerC44sessionRestartDelayResetTimerDurationSecondsSdvpWvd
+- _$s17TVRemoteUIService21FindingViewControllerC5stateAA14FMFindingStateOvMTq
+- _$s17TVRemoteUIService21FindingViewControllerC5stateAA14FMFindingStateOvsTq
+- _$s17TVRemoteUIService21FindingViewControllerC9nameLabelSo7UILabelCvMTq
+- _$s17TVRemoteUIService21FindingViewControllerC9nameLabelSo7UILabelCvgTq
+- _$s17TVRemoteUIService21FindingViewControllerC9nameLabelSo7UILabelCvpWvd
+- _$s17TVRemoteUIService21FindingViewControllerC9nameLabelSo7UILabelCvsTq
+- _$s17TVRemoteUIService21FindingViewControllerC9niSessionSo9NISessionCSgvMTq
+- _$s17TVRemoteUIService21FindingViewControllerC9niSessionSo9NISessionCSgvgTq
+- _$s17TVRemoteUIService21FindingViewControllerC9niSessionSo9NISessionCSgvpWvd
+- _$s17TVRemoteUIService21FindingViewControllerC9niSessionSo9NISessionCSgvsTq
+- _$s17TVRemoteUIService21FindingViewControllerC9prevStateAA09FMFindingG0OvMTq
+- _$s17TVRemoteUIService21FindingViewControllerC9prevStateAA09FMFindingG0OvgTq
+- _$s17TVRemoteUIService21FindingViewControllerC9prevStateAA09FMFindingG0OvpWvd
+- _$s17TVRemoteUIService21FindingViewControllerC9prevStateAA09FMFindingG0OvsTq
+- _$sSo18NSLayoutConstraintCMaTm
+- block_copy_helper.60
+- block_copy_helper.66
+- block_descriptor.62
+- block_descriptor.68
+- block_destroy_helper.61
+- block_destroy_helper.67
+CStrings:
++ ", composed @ {%01.01f,%01.01f}), %@>"
++ "BT_SEARCHING_ALT"
++ "BT_SEARCHING_TOP"
++ "Not showing the mini tip since the view controller is in a secure window"
++ "alpha"
++ "animateWithDuration:animations:completion:"
++ "connected"
++ "instructionsLabelsStackView"
++ "instructionsTopLabel"
++ "isInSecureWindow"
++ "requiresAdditionalConnectionTime"
++ "searchingDelayWorkItem"
++ "setDistribution:"
+- ", composed @ {%01.01f,%01.01}), %@>"
+
+```

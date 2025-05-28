@@ -1,0 +1,23 @@
+## ClockPoster
+
+> `/System/Library/PrivateFrameworks/ClockPoster.framework/ClockPoster`
+
+```diff
+
+ 35.104.0.0.0
+-  __TEXT.__text: 0xf504c
++  __TEXT.__text: 0xf5044
+   __TEXT.__auth_stubs: 0x2db0
+   __TEXT.__objc_methlist: 0x618
+   __TEXT.__const: 0x8fd4
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 5091
++  Functions: 5089
+   Symbols:   2311
+   CStrings:  875
+ 
+
+```

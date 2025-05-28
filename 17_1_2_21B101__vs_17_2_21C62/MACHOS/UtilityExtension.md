@@ -1,0 +1,400 @@
+## UtilityExtension
+
+> `/System/Library/PrivateFrameworks/AppleMediaServicesUI.framework/Extensions/UtilityExtension.appex/UtilityExtension`
+
+```diff
+
+-5.1.8.2.2
+-  __TEXT.__text: 0x34fe4
+-  __TEXT.__auth_stubs: 0x1700
++5.2.13.2.1
++  __TEXT.__text: 0x3c918
++  __TEXT.__auth_stubs: 0x1760
+   __TEXT.__objc_stubs: 0xe0
+-  __TEXT.__objc_methlist: 0x3f4
+-  __TEXT.__const: 0x1998
+-  __TEXT.__cstring: 0x1ee3
++  __TEXT.__objc_methlist: 0x454
++  __TEXT.__const: 0x1b08
++  __TEXT.__cstring: 0x22e3
+   __TEXT.__oslogstring: 0x4d
+-  __TEXT.__objc_classname: 0x77
+-  __TEXT.__objc_methname: 0x11bb
+-  __TEXT.__objc_methtype: 0x586
+-  __TEXT.__constg_swiftt: 0xe8c
+-  __TEXT.__swift5_typeref: 0xf31
+-  __TEXT.__swift5_builtin: 0x14
+-  __TEXT.__swift5_reflstr: 0x727
+-  __TEXT.__swift5_fieldmd: 0xa50
++  __TEXT.__objc_classname: 0x92
++  __TEXT.__objc_methname: 0x13a6
++  __TEXT.__objc_methtype: 0x5aa
++  __TEXT.__swift5_typeref: 0x10d3
++  __TEXT.__constg_swiftt: 0xfb0
++  __TEXT.__swift5_reflstr: 0x7f7
++  __TEXT.__swift5_fieldmd: 0xb80
++  __TEXT.__swift5_builtin: 0x28
+   __TEXT.__swift5_assocty: 0x60
+-  __TEXT.__swift5_proto: 0x148
+-  __TEXT.__swift5_types: 0xf0
+-  __TEXT.__swift5_capture: 0x438
++  __TEXT.__swift5_proto: 0x150
++  __TEXT.__swift5_types: 0x104
++  __TEXT.__swift5_capture: 0x528
+   __TEXT.__swift5_protos: 0x4
+   __TEXT.__swift5_entry: 0x8
+-  __TEXT.__unwind_info: 0x1d20
+-  __TEXT.__eh_frame: 0xdf0
+-  __DATA_CONST.__auth_got: 0xb88
+-  __DATA_CONST.__got: 0x1c0
+-  __DATA_CONST.__auth_ptr: 0x108
+-  __DATA_CONST.__const: 0x2070
++  __TEXT.__unwind_info: 0x11b8
++  __TEXT.__eh_frame: 0x10b0
++  __DATA_CONST.__auth_got: 0xbb8
++  __DATA_CONST.__got: 0x1d0
++  __DATA_CONST.__auth_ptr: 0x128
++  __DATA_CONST.__const: 0x2370
+   __DATA_CONST.__cfstring: 0x100
+-  __DATA_CONST.__objc_classlist: 0xe8
++  __DATA_CONST.__objc_classlist: 0xf8
+   __DATA_CONST.__objc_catlist: 0x0
+-  __DATA_CONST.__objc_protolist: 0xb8
++  __DATA_CONST.__objc_protolist: 0xd8
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA.__objc_const: 0x24c8
+-  __DATA.__objc_selrefs: 0x560
+-  __DATA.__objc_protorefs: 0x88
+-  __DATA.__objc_classrefs: 0x140
+-  __DATA.__objc_data: 0x1050
+-  __DATA.__data: 0x1cf8
+-  __DATA.__bss: 0x2710
++  __DATA.__objc_const: 0x27e8
++  __DATA.__objc_selrefs: 0x620
++  __DATA.__objc_protorefs: 0xa0
++  __DATA.__objc_classrefs: 0x178
++  __DATA.__objc_data: 0x1280
++  __DATA.__data: 0x1f28
++  __DATA.__bss: 0x2810
+   __DATA.__common: 0x18
+   - /System/Library/Frameworks/Accounts.framework/Accounts
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/ExtensionFoundation.framework/ExtensionFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/Frameworks/JavaScriptCore.framework/JavaScriptCore
++  - /System/Library/PrivateFrameworks/AppStoreDaemon.framework/AppStoreDaemon
+   - /System/Library/PrivateFrameworks/AppleMediaServices.framework/AppleMediaServices
+   - /System/Library/PrivateFrameworks/AppleMediaServicesUI.framework/AppleMediaServicesUI
+   - /System/Library/PrivateFrameworks/JetEngine.framework/JetEngine
+
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 1482
+-  Symbols:   10398
+-  CStrings:  492
++  Functions: 1635
++  Symbols:   11354
++  CStrings:  545
+ 
+Symbols:
++ /Library/Caches/com.apple.xbs/Binaries/AppleMediaServicesUISwift/install/TempContent/Objects/AppleMediaServicesUI.build/UtilityExtension.build/Objects-normal/arm64e/AppQueryRequest.o
++ /Library/Caches/com.apple.xbs/Binaries/AppleMediaServicesUISwift/install/TempContent/Objects/AppleMediaServicesUI.build/UtilityExtension.build/Objects-normal/arm64e/AppQueryResponse.o
++ /Library/Caches/com.apple.xbs/Binaries/AppleMediaServicesUISwift/install/TempContent/Objects/AppleMediaServicesUI.build/UtilityExtension.build/Objects-normal/arm64e/JSAppQueryObject.o
++ /Library/Caches/com.apple.xbs/Binaries/AppleMediaServicesUISwift/install/TempContent/Objects/AppleMediaServicesUI.build/UtilityExtension.build/Objects-normal/arm64e/JSMediaAPIObject.o
++ /Library/Caches/com.apple.xbs/Binaries/AppleMediaServicesUISwift/install/TempContent/Objects/AppleMediaServicesUI.build/UtilityExtension.build/Objects-normal/arm64e/MediaAPIRequest.o
++ /Library/Caches/com.apple.xbs/Binaries/AppleMediaServicesUISwift/install/TempContent/Objects/AppleMediaServicesUI.build/UtilityExtension.build/Objects-normal/arm64e/MediaAPIResponse.o
++ /Library/Caches/com.apple.xbs/Sources/AppleMediaServicesUISwift/Dynamic UI/Service/JavaScript/Objects/App Query/
++ /Library/Caches/com.apple.xbs/Sources/AppleMediaServicesUISwift/Dynamic UI/Service/JavaScript/Objects/Media API/
++ AppQueryRequest.swift
++ AppQueryResponse.swift
++ JSAppQueryObject.swift
++ JSMediaAPIObject.swift
++ MediaAPIRequest.swift
++ MediaAPIResponse.swift
++ _$s10Foundation4UUIDV36_unconditionallyBridgeFromObjectiveCyACSo6NSUUIDCSgFZ
++ _$s10Foundation4UUIDVMn
++ _$s10Foundation4UUIDVSgMD
++ _$s10Foundation4UUIDVSgWOb
++ _$s10Foundation4UUIDVSgWOhTm
++ _$s16UtilityExtension15AppQueryRequestV9JetEngine33ConditionallyExpressibleByJSValueAAMc
++ _$s16UtilityExtension15AppQueryRequestV9JetEngine33ConditionallyExpressibleByJSValueAAMcMK
++ _$s16UtilityExtension15AppQueryRequestV9JetEngine33ConditionallyExpressibleByJSValueAadEPyxSo0K0CKcfCTW
++ _$s16UtilityExtension15AppQueryRequestVMF
++ _$s16UtilityExtension15AppQueryRequestVMa
++ _$s16UtilityExtension15AppQueryRequestVMf
++ _$s16UtilityExtension15AppQueryRequestVMn
++ _$s16UtilityExtension15AppQueryRequestVN
++ _$s16UtilityExtension15AppQueryRequestVWV
++ _$s16UtilityExtension15AppQueryRequestVwCP
++ _$s16UtilityExtension15AppQueryRequestVwca
++ _$s16UtilityExtension15AppQueryRequestVwcp
++ _$s16UtilityExtension15AppQueryRequestVwet
++ _$s16UtilityExtension15AppQueryRequestVwst
++ _$s16UtilityExtension15AppQueryRequestVwta
++ _$s16UtilityExtension15AppQueryRequestVwxx
++ _$s16UtilityExtension15AppQueryRequestVyACSo7JSValueCKcfC
++ _$s16UtilityExtension15MediaAPIRequestV9JetEngine33ConditionallyExpressibleByJSValueAAMc
++ _$s16UtilityExtension15MediaAPIRequestV9JetEngine33ConditionallyExpressibleByJSValueAAMcMK
++ _$s16UtilityExtension15MediaAPIRequestV9JetEngine33ConditionallyExpressibleByJSValueAadEPyxSo0J0CKcfCTW
++ _$s16UtilityExtension15MediaAPIRequestVMF
++ _$s16UtilityExtension15MediaAPIRequestVMa
++ _$s16UtilityExtension15MediaAPIRequestVMf
++ _$s16UtilityExtension15MediaAPIRequestVMl
++ _$s16UtilityExtension15MediaAPIRequestVMn
++ _$s16UtilityExtension15MediaAPIRequestVMr
++ _$s16UtilityExtension15MediaAPIRequestVN
++ _$s16UtilityExtension15MediaAPIRequestVWOb
++ _$s16UtilityExtension15MediaAPIRequestVWOc
++ _$s16UtilityExtension15MediaAPIRequestVWOh
++ _$s16UtilityExtension15MediaAPIRequestVWV
++ _$s16UtilityExtension15MediaAPIRequestVwCP
++ _$s16UtilityExtension15MediaAPIRequestVwca
++ _$s16UtilityExtension15MediaAPIRequestVwcp
++ _$s16UtilityExtension15MediaAPIRequestVwet
++ _$s16UtilityExtension15MediaAPIRequestVwst
++ _$s16UtilityExtension15MediaAPIRequestVwta
++ _$s16UtilityExtension15MediaAPIRequestVwtk
++ _$s16UtilityExtension15MediaAPIRequestVwxx
++ _$s16UtilityExtension15MediaAPIRequestVyACSo7JSValueCKcfC
++ _$s16UtilityExtension16AppQueryResponseV06encodeC033_C3622F2A6562FB4425A5DC68C662D79BLL3appSDySSypGSo6ASDAppC_tF
++ _$s16UtilityExtension16AppQueryResponseV9makeValue2inSo7JSValueCSo9JSContextC_tF
++ _$s16UtilityExtension16AppQueryResponseV9makeValue2inSo7JSValueCSo9JSContextC_tFypSgypcfU_
++ _$s16UtilityExtension16AppQueryResponseV9makeValue2inSo7JSValueCSo9JSContextC_tFypSgypcfU_TA
++ _$s16UtilityExtension16AppQueryResponseVMF
++ _$s16UtilityExtension16AppQueryResponseVMn
++ _$s16UtilityExtension16JSAppQueryObjectC13queryStoreIdsySo7JSValueCAFF
++ _$s16UtilityExtension16JSAppQueryObjectC13queryStoreIdsySo7JSValueCAFFAFSo9JSContextCKXEfU_
++ _$s16UtilityExtension16JSAppQueryObjectC13queryStoreIdsySo7JSValueCAFFAFSo9JSContextCKXEfU_TA
++ _$s16UtilityExtension16JSAppQueryObjectC13queryStoreIdsySo7JSValueCAFFAFSo9JSContextCKXEfU_yAH_9JetEngine10JSCallableVAKtcfU_
++ _$s16UtilityExtension16JSAppQueryObjectC13queryStoreIdsySo7JSValueCAFFAFSo9JSContextCKXEfU_yAH_9JetEngine10JSCallableVAKtcfU_TA
++ _$s16UtilityExtension16JSAppQueryObjectC13queryStoreIdsySo7JSValueCAFFAFSo9JSContextCKXEfU_yAH_9JetEngine10JSCallableVAKtcfU_TATm
++ _$s16UtilityExtension16JSAppQueryObjectC13queryStoreIdsySo7JSValueCAFFAFSo9JSContextCKXEfU_yAH_9JetEngine10JSCallableVAKtcfU_ySaySo6ASDAppCGSg_s5Error_pSgtcfU_TA
++ _$s16UtilityExtension16JSAppQueryObjectC13queryStoreIdsySo7JSValueCAFFAFSo9JSContextCKXEfU_yAH_9JetEngine10JSCallableVAKtcfU_ySaySo6ASDAppCGcfU0_TA
++ _$s16UtilityExtension16JSAppQueryObjectC13queryStoreIdsySo7JSValueCAFFAFSo9JSContextCKXEfU_yAH_9JetEngine10JSCallableVAKtcfU_ySaySo6ASDAppCGcfU0_TATm
++ _$s16UtilityExtension16JSAppQueryObjectC13queryStoreIdsySo7JSValueCAFFAFSo9JSContextCKXEfU_yAH_9JetEngine10JSCallableVAKtcfU_ys5Error_pcfU1_TA
++ _$s16UtilityExtension16JSAppQueryObjectC13queryStoreIdsySo7JSValueCAFFAFSo9JSContextCKXEfU_yAH_9JetEngine10JSCallableVAKtcfU_ys5Error_pcfU1_TATm
++ _$s16UtilityExtension16JSAppQueryObjectC13queryStoreIdsySo7JSValueCAFFTo
++ _$s16UtilityExtension16JSAppQueryObjectC13queryStoreIdsySo7JSValueCAFFTq
++ _$s16UtilityExtension16JSAppQueryObjectC14queryBundleIdsySo7JSValueCAFF
++ _$s16UtilityExtension16JSAppQueryObjectC14queryBundleIdsySo7JSValueCAFFAFSo9JSContextCKXEfU_
++ _$s16UtilityExtension16JSAppQueryObjectC14queryBundleIdsySo7JSValueCAFFAFSo9JSContextCKXEfU_TA
++ _$s16UtilityExtension16JSAppQueryObjectC14queryBundleIdsySo7JSValueCAFFAFSo9JSContextCKXEfU_yAH_9JetEngine10JSCallableVAKtcfU_
++ _$s16UtilityExtension16JSAppQueryObjectC14queryBundleIdsySo7JSValueCAFFAFSo9JSContextCKXEfU_yAH_9JetEngine10JSCallableVAKtcfU_TA
++ _$s16UtilityExtension16JSAppQueryObjectC14queryBundleIdsySo7JSValueCAFFAFSo9JSContextCKXEfU_yAH_9JetEngine10JSCallableVAKtcfU_ySaySo6ASDAppCGSg_s5Error_pSgtcfU_TA
++ _$s16UtilityExtension16JSAppQueryObjectC14queryBundleIdsySo7JSValueCAFFAFSo9JSContextCKXEfU_yAH_9JetEngine10JSCallableVAKtcfU_ySaySo6ASDAppCGSg_s5Error_pSgtcfU_Tm
++ _$s16UtilityExtension16JSAppQueryObjectC14queryBundleIdsySo7JSValueCAFFAFSo9JSContextCKXEfU_yAH_9JetEngine10JSCallableVAKtcfU_ySaySo6ASDAppCGcfU0_TA
++ _$s16UtilityExtension16JSAppQueryObjectC14queryBundleIdsySo7JSValueCAFFAFSo9JSContextCKXEfU_yAH_9JetEngine10JSCallableVAKtcfU_ySaySo6ASDAppCGcfU0_Tm
++ _$s16UtilityExtension16JSAppQueryObjectC14queryBundleIdsySo7JSValueCAFFAFSo9JSContextCKXEfU_yAH_9JetEngine10JSCallableVAKtcfU_ys5Error_pcfU1_TA
++ _$s16UtilityExtension16JSAppQueryObjectC14queryBundleIdsySo7JSValueCAFFAFSo9JSContextCKXEfU_yAH_9JetEngine10JSCallableVAKtcfU_ys5Error_pcfU1_Tm
++ _$s16UtilityExtension16JSAppQueryObjectC14queryBundleIdsySo7JSValueCAFFTm
++ _$s16UtilityExtension16JSAppQueryObjectC14queryBundleIdsySo7JSValueCAFFTo
++ _$s16UtilityExtension16JSAppQueryObjectC14queryBundleIdsySo7JSValueCAFFToTm
++ _$s16UtilityExtension16JSAppQueryObjectC14queryBundleIdsySo7JSValueCAFFTq
++ _$s16UtilityExtension16JSAppQueryObjectCACycfc
++ _$s16UtilityExtension16JSAppQueryObjectCACycfcTo
++ _$s16UtilityExtension16JSAppQueryObjectCMF
++ _$s16UtilityExtension16JSAppQueryObjectCMa
++ _$s16UtilityExtension16JSAppQueryObjectCMf
++ _$s16UtilityExtension16JSAppQueryObjectCMn
++ _$s16UtilityExtension16JSAppQueryObjectCN
++ _$s16UtilityExtension16JSAppQueryObjectCfD
++ _$s16UtilityExtension16JSMediaAPIObjectC10clientInfo33_ED9CE7E96BDD216FDDBDA925951DF8D3LLSo010AMSProcessF0CvpWvd
++ _$s16UtilityExtension16JSMediaAPIObjectC10urlSession33_ED9CE7E96BDD216FDDBDA925951DF8D3LLSo13AMSURLSessionCvpWvd
++ _$s16UtilityExtension16JSMediaAPIObjectC11mediaClient33_ED9CE7E96BDD216FDDBDA925951DF8D3LLAA05MediaF0VvpWvd
++ _$s16UtilityExtension16JSMediaAPIObjectC12accountStore33_ED9CE7E96BDD216FDDBDA925951DF8D3LLAA015DynamicAccountsF0CSgvpWvd
++ _$s16UtilityExtension16JSMediaAPIObjectC12accountStore3bag10clientInfo11mediaClient17urlSessionHandlerAcA015DynamicAccountsF0CSg_9JetEngine3BagVSo010AMSProcessI0CAA05MediaK0VAA010URLSessionN0CtcfCTq
++ _$s16UtilityExtension16JSMediaAPIObjectC12accountStore3bag10clientInfo11mediaClient17urlSessionHandlerAcA015DynamicAccountsF0CSg_9JetEngine3BagVSo010AMSProcessI0CAA05MediaK0VAA010URLSessionN0Ctcfc
++ _$s16UtilityExtension16JSMediaAPIObjectC12tokenService33_ED9CE7E96BDD216FDDBDA925951DF8D3LLSo013AMSMediaTokenF0CvpWvd
++ _$s16UtilityExtension16JSMediaAPIObjectC15runMediaRequest33_ED9CE7E96BDD216FDDBDA925951DF8D3LL4type16clientIdentifier0P7Version12personalized11identifiers25additionalQueryParameters9JetEngine7PromiseCySo14AMSMediaResultCGSo16AMSMediaTaskTypeV_S2SSbSaySSGSDyS2SGSgtF
++ _$s16UtilityExtension16JSMediaAPIObjectC17urlSessionHandler33_ED9CE7E96BDD216FDDBDA925951DF8D3LLAA010URLSessionG0CvpWvd
++ _$s16UtilityExtension16JSMediaAPIObjectC23runAdvancedMediaRequest33_ED9CE7E96BDD216FDDBDA925951DF8D3LL3url16clientIdentifier0Q7Version12personalized9JetEngine7PromiseCySo14AMSMediaResultCG10Foundation3URLV_S2SSbtF
++ _$s16UtilityExtension16JSMediaAPIObjectC23runAdvancedMediaRequest33_ED9CE7E96BDD216FDDBDA925951DF8D3LL3url16clientIdentifier0Q7Version12personalized9JetEngine7PromiseCySo14AMSMediaResultCG10Foundation3URLV_S2SSbtFANSo12AMSURLResultCcfU_
++ _$s16UtilityExtension16JSMediaAPIObjectC3bag33_ED9CE7E96BDD216FDDBDA925951DF8D3LL9JetEngine3BagVvpWvd
++ _$s16UtilityExtension16JSMediaAPIObjectC6lookupySo7JSValueCAFF
++ _$s16UtilityExtension16JSMediaAPIObjectC6lookupySo7JSValueCAFFAFSo9JSContextCKXEfU_
++ _$s16UtilityExtension16JSMediaAPIObjectC6lookupySo7JSValueCAFFAFSo9JSContextCKXEfU_TA
++ _$s16UtilityExtension16JSMediaAPIObjectC6lookupySo7JSValueCAFFAFSo9JSContextCKXEfU_yAH_9JetEngine10JSCallableVAKtcfU_
++ _$s16UtilityExtension16JSMediaAPIObjectC6lookupySo7JSValueCAFFAFSo9JSContextCKXEfU_yAH_9JetEngine10JSCallableVAKtcfU_TA
++ _$s16UtilityExtension16JSMediaAPIObjectC6lookupySo7JSValueCAFFAFSo9JSContextCKXEfU_yAH_9JetEngine10JSCallableVAKtcfU_ySo14AMSMediaResultCcfU_
++ _$s16UtilityExtension16JSMediaAPIObjectC6lookupySo7JSValueCAFFAFSo9JSContextCKXEfU_yAH_9JetEngine10JSCallableVAKtcfU_ySo14AMSMediaResultCcfU_TA
++ _$s16UtilityExtension16JSMediaAPIObjectC6lookupySo7JSValueCAFFAFSo9JSContextCKXEfU_yAH_9JetEngine10JSCallableVAKtcfU_ys5Error_pcfU0_
++ _$s16UtilityExtension16JSMediaAPIObjectC6lookupySo7JSValueCAFFAFSo9JSContextCKXEfU_yAH_9JetEngine10JSCallableVAKtcfU_ys5Error_pcfU0_TA
++ _$s16UtilityExtension16JSMediaAPIObjectC6lookupySo7JSValueCAFFTo
++ _$s16UtilityExtension16JSMediaAPIObjectC6lookupySo7JSValueCAFFTq
++ _$s16UtilityExtension16JSMediaAPIObjectC7encoder33_ED9CE7E96BDD216FDDBDA925951DF8D3LLSo22AMSMediaRequestEncoderCvpWvd
++ _$s16UtilityExtension16JSMediaAPIObjectCACycfc
++ _$s16UtilityExtension16JSMediaAPIObjectCACycfcTo
++ _$s16UtilityExtension16JSMediaAPIObjectCMF
++ _$s16UtilityExtension16JSMediaAPIObjectCMU
++ _$s16UtilityExtension16JSMediaAPIObjectCMa
++ _$s16UtilityExtension16JSMediaAPIObjectCMf
++ _$s16UtilityExtension16JSMediaAPIObjectCMl
++ _$s16UtilityExtension16JSMediaAPIObjectCMn
++ _$s16UtilityExtension16JSMediaAPIObjectCMr
++ _$s16UtilityExtension16JSMediaAPIObjectCN
++ _$s16UtilityExtension16JSMediaAPIObjectCfD
++ _$s16UtilityExtension16JSMediaAPIObjectCfETo
++ _$s16UtilityExtension16MediaAPIResponseV9makeValue2inSo7JSValueCSo9JSContextC_tF
++ _$s16UtilityExtension23JSAppQueryObjectExports33_9E60813EEA6E7D89675DC6858E51CB63LL_pMF
++ _$s16UtilityExtension23JSMediaAPIObjectExports33_ED9CE7E96BDD216FDDBDA925951DF8D3LL_pMF
++ _$s9JetEngine7PromiseCySaySo6ASDAppCGGMD
++ _$s9JetEngine7PromiseCySo14AMSMediaResultCGMD
++ _$sSD8_VariantV11removeValue6forKeyq_Sgx_tFSS_ypTg5
++ _$sSD8_VariantV8setValue_6forKeyyq_n_xtFSS_ypTg5
++ _$sSDyq_SgxcisSS_ypTg5
++ _$sSaySo6ASDAppCGMD
++ _$sSaySo6ASDAppCGSgs5Error_pSgIeggg_So7NSArrayCSgSo7NSErrorCSgIeyByy_TR
++ _$sSayypGMD
++ _$sSbN
++ _$sSo11ASDAppQueryC12forBundleIDsABSaySSG_tcfCTO
++ _$sSo11ASDAppQueryC15forStoreItemIDsABSaySo8NSNumberCG_tcfCTO
++ _$sSo11ASDAppQueryCML
++ _$sSo12AMSMediaTaskC15itemIdentifiersSaySSGSgvsToTembgnn_
++ _$sSo12AMSMediaTaskC4type16clientIdentifier0D7Version3bagABSo0aB4TypeV_S2SSo14AMSBagProtocol_ptcfcTO
++ _$sSo14AMSMediaResultC17responseDataItemsSaySDys11AnyHashableVypGGSgvgToTepb_
++ _$sSo14AMSMediaResultC18responseDictionarySDys11AnyHashableVypGSgvgToTepb_
++ _$sSo14AMSMediaResultCML
++ _$sSo16AMSMediaTaskTypeVMB
++ _$sSo16AMSMediaTaskTypeVML
++ _$sSo16AMSMediaTaskTypeVMa
++ _$sSo16AMSMediaTaskTypeVMf
++ _$sSo16AMSMediaTaskTypeVMn
++ _$sSo18NSFileAttributeKeyaMaTm
++ _$sSo20AMSMediaTokenServiceC16clientIdentifier3bagABSS_So14AMSBagProtocol_ptcfcTO
++ _$sSo6ASDAppC18bundleShortVersionSSSgvgToTepb_Tm
++ _$sSo6ASDAppCML
++ _$sSo6ASDAppCMaTm
++ _$sSo7JSValueC9JetEngineE3intSiSgvg
++ _$sSo8NSNumberCML
++ _$sSo8NSNumberCMa
++ _$ss15ContiguousArrayV16_createNewBuffer14bufferIsUnique15minimumCapacity13growForAppendySb_SiSbtFSS_Tg5
++ _$ss17_NativeDictionaryV12ensureUnique02isD08capacityS2b_SitF
++ _$ss17_NativeDictionaryV7_delete2atys10_HashTableV6BucketV_tF
++ _$ss17_NativeDictionaryV7_insert2at3key5valueys10_HashTableV6BucketV_xnq_ntFSS_ypTg5
++ _$ss17_NativeDictionaryV8setValue_6forKey8isUniqueyq_n_xSbtFSS_ypTg5
++ _$ss17_NativeDictionaryVMn
++ _$ss17_NativeDictionaryVySSypGMD
++ _$ss21_arrayConditionalCastySayq_GSgSayxGr0_lFyp_SDySSypGTg5
++ _$ss21_arrayConditionalCastySayq_GSgSayxGr0_lFyp_SSTg5
++ _$ss21_arrayConditionalCastySayq_GSgSayxGr0_lFyp_So8NSNumberCTg5
++ _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSS_Tg5
++ _$ss23_ContiguousArrayStorageCySSGMD
++ _$ss53KEY_TYPE_OF_DICTIONARY_VIOLATES_HASHABLE_REQUIREMENTSys5NeverOypXpF
++ _$ss5Int64VN
++ _$sypypSgIegnr_yXlyXlSgIeyBya_TR
++ _AMSError
++ _OBJC_CLASS_$_AMSMediaRequestEncoder
++ _OBJC_CLASS_$_AMSMediaResult
++ _OBJC_CLASS_$_AMSMediaTask
++ _OBJC_CLASS_$_AMSMediaTokenService
++ _OBJC_CLASS_$_ASDApp
++ _OBJC_CLASS_$_ASDAppQuery
++ _OBJC_CLASS_$_NSNumber
++ _OBJC_CLASS_$__TtC16UtilityExtension16JSAppQueryObject
++ _OBJC_CLASS_$__TtC16UtilityExtension16JSMediaAPIObject
++ _OBJC_METACLASS_$__TtC16UtilityExtension16JSAppQueryObject
++ _OBJC_METACLASS_$__TtC16UtilityExtension16JSMediaAPIObject
++ _PROTOCOLS__TtC16UtilityExtension16JSAppQueryObject.2
++ _PROTOCOLS__TtC16UtilityExtension16JSMediaAPIObject.2
++ __DATA__TtC16UtilityExtension16JSAppQueryObject
++ __DATA__TtC16UtilityExtension16JSMediaAPIObject
++ __IVARS__TtC16UtilityExtension16JSMediaAPIObject
++ __METACLASS_DATA__TtC16UtilityExtension16JSAppQueryObject
++ __METACLASS_DATA__TtC16UtilityExtension16JSMediaAPIObject
++ __OBJC_$_INSTANCE_METHODS__TtC16UtilityExtension16JSAppQueryObject
++ __OBJC_$_INSTANCE_METHODS__TtC16UtilityExtension16JSMediaAPIObject
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_ASDAppQueryResultsObserver
++ __OBJC_$_PROTOCOL_METHOD_TYPES_ASDAppQueryResultsObserver
++ __OBJC_$_PROTOCOL_REFS_ASDAppQueryResultsObserver
++ __OBJC_LABEL_PROTOCOL_$_ASDAppQueryResultsObserver
++ __OBJC_PROTOCOL_$_ASDAppQueryResultsObserver
++ __PROTOCOLS__TtC16UtilityExtension16JSAppQueryObject
++ __PROTOCOLS__TtC16UtilityExtension16JSMediaAPIObject
++ __PROTOCOL_INSTANCE_METHODS__TtP16UtilityExtensionP33_9E60813EEA6E7D89675DC6858E51CB6323JSAppQueryObjectExports_
++ __PROTOCOL_INSTANCE_METHODS__TtP16UtilityExtensionP33_ED9CE7E96BDD216FDDBDA925951DF8D323JSMediaAPIObjectExports_
++ __PROTOCOL_METHOD_TYPES__TtP16UtilityExtensionP33_9E60813EEA6E7D89675DC6858E51CB6323JSAppQueryObjectExports_
++ __PROTOCOL_METHOD_TYPES__TtP16UtilityExtensionP33_ED9CE7E96BDD216FDDBDA925951DF8D323JSMediaAPIObjectExports_
++ __PROTOCOL_PROTOCOLS__TtP16UtilityExtensionP33_9E60813EEA6E7D89675DC6858E51CB6323JSAppQueryObjectExports_
++ __PROTOCOL_PROTOCOLS__TtP16UtilityExtensionP33_ED9CE7E96BDD216FDDBDA925951DF8D323JSMediaAPIObjectExports_
++ __PROTOCOL__TtP16UtilityExtensionP33_9E60813EEA6E7D89675DC6858E51CB6323JSAppQueryObjectExports_
++ __PROTOCOL__TtP16UtilityExtensionP33_ED9CE7E96BDD216FDDBDA925951DF8D323JSMediaAPIObjectExports_
++ ___swift_allocate_boxed_opaque_existential_1Tm
++ _objectdestroyTm
++ _symbolic $s16UtilityExtension23JSAppQueryObjectExports33_9E60813EEA6E7D89675DC6858E51CB63LLP
++ _symbolic $s16UtilityExtension23JSMediaAPIObjectExports33_ED9CE7E96BDD216FDDBDA925951DF8D3LLP
++ _symbolic SaySSGSg
++ _symbolic SaySo6ASDAppCG
++ _symbolic SaySo8NSNumberCGSg
++ _symbolic SayypG
++ _symbolic So11ASDAppQueryC
++ _symbolic So20AMSMediaTokenServiceC
++ _symbolic So22AMSMediaRequestEncoderC
++ _symbolic _____ 16UtilityExtension15AppQueryRequestV
++ _symbolic _____ 16UtilityExtension15MediaAPIRequestV
++ _symbolic _____ 16UtilityExtension16AppQueryResponseV
++ _symbolic _____ 16UtilityExtension16JSAppQueryObjectC
++ _symbolic _____ 16UtilityExtension16JSMediaAPIObjectC
++ _symbolic _____ So16AMSMediaTaskTypeV
++ _symbolic _____Sg 10Foundation4UUIDV
++ _symbolic _____Sg So16AMSMediaTaskTypeV
++ _symbolic _____ySSG s23_ContiguousArrayStorageC
++ _symbolic _____ySSypG s17_NativeDictionaryV
++ _symbolic _____ySaySo6ASDAppCGG 9JetEngine7PromiseC
++ _symbolic _____ySo14AMSMediaResultCG 9JetEngine7PromiseC
++ block_copy_helper.12
++ block_descriptor.14
++ block_destroy_helper.13
+CStrings:
++ "@16@?0@8"
++ "ASDAppQueryResultsObserver"
++ "Completed ASDAppQuery"
++ "Completed Media API request"
++ "Failed executing app query"
++ "Failed to complete app query. Error:"
++ "Failed to complete fetch Media API request. Error:"
++ "Finished without a result or an error"
++ "Missing bundle ids"
++ "Missing store ids"
++ "Performing app query with bundle ids:"
++ "Performing app query with store ids:"
++ "Performing lookup request:"
++ "URL or type required"
++ "UtilityExtension.JSMediaAPIObject"
++ "_TtC16UtilityExtension16JSAppQueryObject"
++ "_TtC16UtilityExtension16JSMediaAPIObject"
++ "_TtP16UtilityExtensionP33_9E60813EEA6E7D89675DC6858E51CB6323JSAppQueryObjectExports_"
++ "_TtP16UtilityExtensionP33_ED9CE7E96BDD216FDDBDA925951DF8D323JSMediaAPIObjectExports_"
++ "additionalQueryParameters"
++ "ams_mapWithTransformIgnoresNil:"
++ "appQuery:resultsDidChange:"
++ "bundleID"
++ "bundleShortVersion"
++ "bundleVersion"
++ "encoder"
++ "executeQueryWithResultHandler:"
++ "initWithClientIdentifier:bag:"
++ "initWithResult:"
++ "initWithTokenService:bag:"
++ "initWithType:clientIdentifier:clientVersion:bag:"
++ "installError"
++ "installID"
++ "isInstalled"
++ "lookup:"
++ "queryBundleIds:"
++ "queryForBundleIDs:"
++ "queryForStoreItemIDs:"
++ "queryStoreIds:"
++ "requestWithURL:"
++ "responseDataItems"
++ "responseDictionary"
++ "setAdditionalQueryParams:"
++ "setItemIdentifiers:"
++ "storeFront"
++ "storeItemID"
++ "tokenService"
++ "urlSession"
++ "v24@?0@\"NSArray\"8@\"NSError\"16"
++ "v32@0:8@\"ASDAppQuery\"16@\"NSArray\"24"
+
+```

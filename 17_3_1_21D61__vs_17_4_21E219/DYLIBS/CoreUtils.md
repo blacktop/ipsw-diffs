@@ -1,0 +1,968 @@
+## CoreUtils
+
+> `/System/Library/PrivateFrameworks/CoreUtils.framework/CoreUtils`
+
+```diff
+
+-730.8.3.0.0
+-  __TEXT.__text: 0x12256c
+-  __TEXT.__auth_stubs: 0x2f20
+-  __TEXT.__objc_methlist: 0x9128
+-  __TEXT.__const: 0x2250
+-  __TEXT.__gcc_except_tab: 0x1958
+-  __TEXT.__cstring: 0x25f23
++740.14.0.0.0
++  __TEXT.__text: 0x123074
++  __TEXT.__auth_stubs: 0x2f30
++  __TEXT.__objc_methlist: 0x9178
++  __TEXT.__const: 0x2268
++  __TEXT.__gcc_except_tab: 0x19a4
++  __TEXT.__cstring: 0x2602b
+   __TEXT.__oslogstring: 0x1ee
+-  __TEXT.__unwind_info: 0x3cf8
++  __TEXT.__unwind_info: 0x3d48
+   __TEXT.__eh_frame: 0x50
+   __TEXT.__objc_classname: 0xe37
+-  __TEXT.__objc_methname: 0x15fdf
+-  __TEXT.__objc_methtype: 0x49e9
+-  __TEXT.__objc_stubs: 0xa960
++  __TEXT.__objc_methname: 0x1613f
++  __TEXT.__objc_methtype: 0x49b0
++  __TEXT.__objc_stubs: 0xab20
+   __DATA_CONST.__got: 0x410
+-  __DATA_CONST.__const: 0x3018
++  __DATA_CONST.__const: 0x2fa0
+   __DATA_CONST.__objc_classlist: 0x3a0
+   __DATA_CONST.__objc_catlist: 0x48
+   __DATA_CONST.__objc_protolist: 0x180
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_const: 0x15930
+-  __DATA_CONST.__objc_selrefs: 0x4530
+-  __AUTH_CONST.__cfstring: 0x4740
++  __DATA_CONST.__objc_const: 0x15960
++  __DATA_CONST.__objc_selrefs: 0x45c8
++  __DATA_CONST.__objc_protorefs: 0x20
++  __DATA_CONST.__objc_classrefs: 0x330
++  __DATA_CONST.__objc_superrefs: 0x260
++  __AUTH_CONST.__cfstring: 0x4780
+   __AUTH_CONST.__const: 0x1ff8
+   __AUTH_CONST.__objc_const: 0x25f8
+   __AUTH_CONST.__objc_intobj: 0x300
+   __AUTH_CONST.__auth_ptr: 0x20
+-  __AUTH_CONST.__auth_got: 0x17a0
++  __AUTH_CONST.__auth_got: 0x17a8
+   __AUTH.__objc_data: 0x21c0
+-  __AUTH.__data: 0xbb0
+-  __DATA.__objc_protorefs: 0x20
+-  __DATA.__objc_classrefs: 0x330
+-  __DATA.__objc_superrefs: 0x260
+-  __DATA.__objc_ivar: 0x171c
+-  __DATA.__data: 0x3e58
++  __AUTH.__data: 0xbb8
++  __DATA.__objc_ivar: 0x1724
++  __DATA.__data: 0x3e78
+   __DATA.__common: 0x22
+-  __DATA.__bss: 0xe28
++  __DATA.__bss: 0xe10
+   __DATA_DIRTY.__objc_data: 0x280
+   __DATA_DIRTY.__data: 0x178
+   __DATA_DIRTY.__bss: 0x218
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libz.1.dylib
+-  Functions: 6108
+-  Symbols:   17447
+-  CStrings:  10127
++  Functions: 6120
++  Symbols:   17488
++  CStrings:  10159
+ 
+Symbols:
++ -[CUAudioPlayer _applyChannelAssignments:]
++ -[CUAudioPlayer setPortUID:channelName:error:]
++ -[CUNANDataSession peerAddressString]
++ -[CUNANPublisher dataSessions]
++ -[CUNANSubscriber _subscriber:receivedDiscoveryResult:]
++ -[CUNANSubscriber subscriber:receivedDiscoveryResult:]
++ -[CUPairingSession receivedMessageData:]
++ -[CUPairingSession sendMessageDataHandler]
++ -[CUPairingSession setSendMessageDataHandler:]
++ GCC_except_table1056
++ GCC_except_table1407
++ GCC_except_table1441
++ GCC_except_table1446
++ GCC_except_table1447
++ GCC_except_table1450
++ GCC_except_table1497
++ GCC_except_table1498
++ GCC_except_table1529
++ GCC_except_table1532
++ GCC_except_table1538
++ GCC_except_table1543
++ GCC_except_table1546
++ GCC_except_table1622
++ GCC_except_table1623
++ GCC_except_table1660
++ GCC_except_table1690
++ GCC_except_table1715
++ GCC_except_table1719
++ GCC_except_table1733
++ GCC_except_table1745
++ GCC_except_table2158
++ GCC_except_table2179
++ GCC_except_table2207
++ GCC_except_table2604
++ GCC_except_table2605
++ GCC_except_table2620
++ GCC_except_table2656
++ GCC_except_table2723
++ GCC_except_table2744
++ GCC_except_table2778
++ GCC_except_table2782
++ GCC_except_table2959
++ GCC_except_table2961
++ GCC_except_table2978
++ GCC_except_table2985
++ GCC_except_table2987
++ GCC_except_table3054
++ GCC_except_table3393
++ GCC_except_table3394
++ GCC_except_table3482
++ GCC_except_table3504
++ GCC_except_table3576
++ GCC_except_table3579
++ GCC_except_table3580
++ GCC_except_table3582
++ GCC_except_table3863
++ GCC_except_table4273
++ GCC_except_table4519
++ GCC_except_table4527
++ GCC_except_table4677
++ GCC_except_table4681
++ GCC_except_table4683
++ GCC_except_table4685
++ GCC_except_table4708
++ GCC_except_table4787
++ GCC_except_table4789
++ GCC_except_table4791
++ GCC_except_table4793
++ GCC_except_table4795
++ GCC_except_table4797
++ GCC_except_table4801
++ GCC_except_table4803
++ GCC_except_table4828
++ GCC_except_table4829
++ GCC_except_table4831
++ GCC_except_table4832
++ GCC_except_table4833
++ GCC_except_table4836
++ GCC_except_table4859
++ GCC_except_table4863
++ GCC_except_table4865
++ GCC_except_table4866
++ GCC_except_table4867
++ GCC_except_table4869
++ GCC_except_table4870
++ GCC_except_table4871
++ GCC_except_table4873
++ GCC_except_table5516
++ GCC_except_table5535
++ GCC_except_table5543
++ GCC_except_table5884
++ GCC_except_table5885
++ GCC_except_table5898
++ GCC_except_table855
++ GCC_except_table871
++ GCC_except_table874
++ _ACAccountStoreFunction.9865
++ _AKAccountManagerFunction.9854
++ _AVAudioSessionFunction.4865
++ _AVFoundationLibrary.sLib.4787
++ _AVFoundationLibrary.sOnce.4782
++ _AccountsLibrary.sLib.9868
++ _AccountsLibrary.sOnce.9862
++ _AppleAccountLibrary.sLib.9871
++ _AppleAccountLibrary.sOnce.9858
++ _AudioToolboxLibrary.sLib.4848
++ _AudioToolboxLibrary.sLib.851
++ _AudioToolboxLibrary.sOnce.4847
++ _AudioToolboxLibrary.sOnce.850
++ _AuthKitLibrary.sLib.9857
++ _AuthKitLibrary.sOnce.9851
++ _BTServiceSpecificEventToString.2377
++ _CALayerFunction.14835
++ _CATransactionFunction.14852
++ _CBCentralManagerFunction.1733
++ _CBCentralManagerFunction.2478
++ _CBManagerIsPrivilegedDaemonKeyFunction.1714
++ _CBManagerNeedsRestrictedStateOperationFunction.1728
++ _CBPeripheralManagerFunction.1899
++ _CBPeripheralManagerFunction.2470
++ _CDPContextFunction
++ _CUGestaltDeviceClassToString
++ _CUObfuscatedPtr
++ _CoreAnalyticsLibrary.sLib.10290
++ _CoreAnalyticsLibrary.sOnce.10288
++ _CoreAudioLibrary.sLib.834
++ _CoreAudioLibrary.sOnce.832
++ _CoreBluetoothLibrary.sLib.1498
++ _CoreBluetoothLibrary.sLib.1684
++ _CoreBluetoothLibrary.sLib.1904
++ _CoreBluetoothLibrary.sLib.2473
++ _CoreBluetoothLibrary.sLib.2730
++ _CoreBluetoothLibrary.sOnce.1496
++ _CoreBluetoothLibrary.sOnce.1682
++ _CoreBluetoothLibrary.sOnce.1894
++ _CoreBluetoothLibrary.sOnce.2467
++ _CoreBluetoothLibrary.sOnce.2728
++ _CoreGraphicsLibrary.sLib.521
++ _CoreGraphicsLibrary.sOnce.519
++ _CoreHAPLibrary.sLib.7302
++ _CoreHAPLibrary.sOnce.7296
++ _HAPSystemKeychainStoreFunction.7299
++ _IOSurfaceLibrary.sLib.577
++ _IOSurfaceLibrary.sOnce.576
++ _ImageIOLibrary.sLib.555
++ _ImageIOLibrary.sOnce.554
++ _MobileBluetoothLibrary.sLib.2328
++ _MobileBluetoothLibrary.sOnce.2327
++ _MobileCoreServicesLibrary.sLib.1031
++ _MobileCoreServicesLibrary.sLib.15374
++ _MobileCoreServicesLibrary.sOnce.1030
++ _MobileCoreServicesLibrary.sOnce.15372
++ _OBJC_IVAR_$_CUAudioPlayer._channel
++ _OBJC_IVAR_$_CUPairingSession._sendMessageDataHandler
++ _QuartzCoreLibrary.sLib.14800
++ _QuartzCoreLibrary.sOnce.14798
++ _RPCompanionLinkClientFunction.4549
++ _RPCompanionLinkClientFunction.4903
++ _RPOptionTimeoutSecondsFunction.4529
++ _RapportLibrary.sLib.4482
++ _RapportLibrary.sLib.4738
++ _RapportLibrary.sLib.7317
++ _RapportLibrary.sOnce.4480
++ _RapportLibrary.sOnce.4737
++ _VideoToolboxLibrary.sLib.14807
++ _VideoToolboxLibrary.sOnce.14806
++ _WiFiAwareInternetSharingConfigurationFunction.6114
++ _WiFiPeerToPeerLibrary.sLib.6105
++ _WiFiPeerToPeerLibrary.sLib.6366
++ _WiFiPeerToPeerLibrary.sOnce.6100
++ _WiFiPeerToPeerLibrary.sOnce.6359
++ __NetTransportFinalize.13649
++ __NetTransportFinalize.13657
++ __NetTransportInitialize.13650
++ __NetTransportInitialize.13660
++ __NetTransportRead.13646
++ __NetTransportRead.13659
++ __NetTransportWriteV.13645
++ __NetTransportWriteV.13658
++ ___40-[CUPairingSession receivedMessageData:]_block_invoke
++ ___54-[CUNANSubscriber subscriber:receivedDiscoveryResult:]_block_invoke
++ ___AVFoundationLibrary_block_invoke.4785
++ ___AccountsLibrary_block_invoke.9867
++ ___AppleAccountLibrary_block_invoke.9870
++ ___AudioToolboxLibrary_block_invoke.4851
++ ___AudioToolboxLibrary_block_invoke.854
++ ___AuthKitLibrary_block_invoke.9856
++ ___Block_byref_object_copy_.10641
++ ___Block_byref_object_copy_.12057
++ ___Block_byref_object_copy_.12635
++ ___Block_byref_object_copy_.14226
++ ___Block_byref_object_copy_.3111
++ ___Block_byref_object_copy_.4767
++ ___Block_byref_object_copy_.6073
++ ___Block_byref_object_copy_.6388
++ ___Block_byref_object_copy_.7258
++ ___Block_byref_object_copy_.7598
++ ___Block_byref_object_dispose_.10642
++ ___Block_byref_object_dispose_.12058
++ ___Block_byref_object_dispose_.12636
++ ___Block_byref_object_dispose_.14227
++ ___Block_byref_object_dispose_.3112
++ ___Block_byref_object_dispose_.4768
++ ___Block_byref_object_dispose_.6074
++ ___Block_byref_object_dispose_.6389
++ ___Block_byref_object_dispose_.7259
++ ___Block_byref_object_dispose_.7599
++ ___CoreAnalyticsLibrary_block_invoke.10329
++ ___CoreAudioLibrary_block_invoke.839
++ ___CoreBluetoothLibrary_block_invoke.1687
++ ___CoreBluetoothLibrary_block_invoke.1902
++ ___CoreBluetoothLibrary_block_invoke.2472
++ ___CoreBluetoothLibrary_block_invoke.2734
++ ___CoreGraphicsLibrary_block_invoke.527
++ ___CoreHAPLibrary_block_invoke.7301
++ ___IOSurfaceLibrary_block_invoke.580
++ ___ImageIOLibrary_block_invoke.558
++ ___MobileBluetoothLibrary_block_invoke.2332
++ ___MobileCoreServicesLibrary_block_invoke.1034
++ ___MobileCoreServicesLibrary_block_invoke.15378
++ ___QuartzCoreLibrary_block_invoke.14804
++ ___RapportLibrary_block_invoke.4486
++ ___RapportLibrary_block_invoke.4741
++ ___RapportLibrary_block_invoke.7316
++ ___VideoToolboxLibrary_block_invoke.14810
++ ___WiFiPeerToPeerLibrary_block_invoke.6103
++ ___WiFiPeerToPeerLibrary_block_invoke.6364
++ ___block_descriptor_tmp.13354
++ ___block_descriptor_tmp.13400
++ ___block_descriptor_tmp.16366
++ ___block_descriptor_tmp.3.16376
++ ___block_descriptor_tmp.525
++ ___block_descriptor_tmp.7.16371
++ ___block_descriptor_tmp.846
++ ___block_literal_global.10289
++ ___block_literal_global.1071
++ ___block_literal_global.10888
++ ___block_literal_global.109
++ ___block_literal_global.11137
++ ___block_literal_global.112.3885
++ ___block_literal_global.1122
++ ___block_literal_global.1123
++ ___block_literal_global.1129
++ ___block_literal_global.11314
++ ___block_literal_global.1133
++ ___block_literal_global.1137
++ ___block_literal_global.1142
++ ___block_literal_global.1153
++ ___block_literal_global.1161
++ ___block_literal_global.1167
++ ___block_literal_global.1180
++ ___block_literal_global.1184
++ ___block_literal_global.11852
++ ___block_literal_global.1188
++ ___block_literal_global.1192
++ ___block_literal_global.1196
++ ___block_literal_global.1202
++ ___block_literal_global.12092
++ ___block_literal_global.1210
++ ___block_literal_global.122.15373
++ ___block_literal_global.126
++ ___block_literal_global.13192
++ ___block_literal_global.133
++ ___block_literal_global.13341
++ ___block_literal_global.13434
++ ___block_literal_global.1354
++ ___block_literal_global.14799
++ ___block_literal_global.1497
++ ___block_literal_global.15303
++ ___block_literal_global.16185
++ ___block_literal_global.16369
++ ___block_literal_global.1683
++ ___block_literal_global.1895
++ ___block_literal_global.2111
++ ___block_literal_global.228
++ ___block_literal_global.2344
++ ___block_literal_global.238
++ ___block_literal_global.256.12409
++ ___block_literal_global.256.12620
++ ___block_literal_global.2729
++ ___block_literal_global.29.9978
++ ___block_literal_global.311
++ ___block_literal_global.319
++ ___block_literal_global.323
++ ___block_literal_global.3277
++ ___block_literal_global.328
++ ___block_literal_global.33.9979
++ ___block_literal_global.332
++ ___block_literal_global.373
++ ___block_literal_global.3884
++ ___block_literal_global.4090
++ ___block_literal_global.41.9980
++ ___block_literal_global.4481
++ ___block_literal_global.47.9982
++ ___block_literal_global.4871
++ ___block_literal_global.52.9984
++ ___block_literal_global.520
++ ___block_literal_global.5300
++ ___block_literal_global.539
++ ___block_literal_global.58.9985
++ ___block_literal_global.5842
++ ___block_literal_global.6088
++ ___block_literal_global.636
++ ___block_literal_global.6360
++ ___block_literal_global.659
++ ___block_literal_global.679
++ ___block_literal_global.6874
++ ___block_literal_global.739
++ ___block_literal_global.755
++ ___block_literal_global.8072
++ ___block_literal_global.82
++ ___block_literal_global.8217
++ ___block_literal_global.833
++ ___block_literal_global.8628
++ ___block_literal_global.8914
++ ___block_literal_global.9616
++ ___block_literal_global.9977
++ __btServiceEventHandler.2433
++ __btSessionEventCallback.2463
++ _classACAccountStore.9863
++ _classAKAccountManager.9852
++ _classAVAudioSession.4863
++ _classCALayer.14833
++ _classCATransaction.14850
++ _classCBCentralManager.1731
++ _classCBCentralManager.2476
++ _classCBPeripheralManager.1897
++ _classCBPeripheralManager.2468
++ _classCDPContext
++ _classHAPSystemKeychainStore.7297
++ _classRPCompanionLinkClient.4547
++ _classRPCompanionLinkClient.4901
++ _classWiFiAwareInternetSharingConfiguration.6112
++ _constantValCBManagerIsPrivilegedDaemonKey.1712
++ _constantValCBManagerNeedsRestrictedStateOperation.1726
++ _constantValRPOptionTimeoutSeconds.4527
++ _gCFArrayType.14016
++ _gCFBooleanType.14014
++ _gCFDataType.14017
++ _gCFDateType.14018
++ _gCFDictionaryType.14015
++ _gCFNumberType.14013
++ _gCFStringType.14012
++ _getACAccountStoreClass.9859
++ _getAKAccountManagerClass.9844
++ _getAVAudioSessionClass.4856
++ _getCALayerClass.14814
++ _getCATransactionClass.14840
++ _getCBCentralManagerClass.1715
++ _getCBCentralManagerClass.2437
++ _getCBManagerIsPrivilegedDaemonKey.1709
++ _getCBManagerNeedsRestrictedStateOperation.1716
++ _getCBPeripheralManagerClass.1889
++ _getCBPeripheralManagerClass.2439
++ _getCDPContextClass
++ _getHAPSystemKeychainStoreClass.7293
++ _getRPCompanionLinkClientClass.4540
++ _getRPCompanionLinkClientClass.4882
++ _getRPOptionTimeoutSeconds.4514
++ _getWiFiAwareInternetSharingConfigurationClass.6094
++ _initACAccountStore.9861
++ _initAKAccountManager.9850
++ _initAVAudioSession.4861
++ _initAnalyticsSendEvent.10307
++ _initAudioObjectGetPropertyData.831
++ _initAudioUnitGetParameter.857
++ _initAudioUnitSetParameter.849
++ _initBTDeviceFromAddress.2401
++ _initBTDeviceFromIdentifier.2403
++ _initBTDeviceGetAddressString.2375
++ _initBTDeviceGetConnectedServices.2334
++ _initBTServiceAddCallbacks.2460
++ _initBTServiceRemoveCallbacks.2432
++ _initBTSessionAttachWithQueue.2462
++ _initBTSessionDetachWithQueue.2430
++ _initCALayer.14831
++ _initCATransaction.14848
++ _initCBCentralManager.1730
++ _initCBCentralManager.2475
++ _initCBPeripheralManager.1893
++ _initCBPeripheralManager.2466
++ _initCDPContext
++ _initCGColorSpaceCreateDeviceRGB.537
++ _initCGImageDestinationAddImage.561
++ _initCGImageDestinationFinalize.553
++ _initHAPSystemKeychainStore.7295
++ _initIOSurfaceGetBaseAddress.583
++ _initIOSurfaceLock.586
++ _initIOSurfaceUnlock.575
++ _initRPCompanionLinkClient.4545
++ _initRPCompanionLinkClient.4899
++ _initValCBManagerIsPrivilegedDaemonKey.1711
++ _initValCBManagerNeedsRestrictedStateOperation.1725
++ _initValRPOptionTimeoutSeconds.4525
++ _initWiFiAwareInternetSharingConfiguration.6110
++ _kSecKeyAlgorithmECDSASignatureDigestRFC4754
++ _objc_msgSend$UID
++ _objc_msgSend$_applyChannelAssignments:
++ _objc_msgSend$_subscriber:receivedDiscoveryResult:
++ _objc_msgSend$allPairingIdentitiesInRankOrderWithError:
++ _objc_msgSend$channelAssignments
++ _objc_msgSend$channelName
++ _objc_msgSend$channels
++ _objc_msgSend$contextForPrimaryAccount
++ _objc_msgSend$currentRoute
++ _objc_msgSend$initWithAddress:
++ _objc_msgSend$initWithContext:
++ _objc_msgSend$numberOfChannels
++ _objc_msgSend$outputs
++ _objc_msgSend$owningPortUID
++ _objc_msgSend$receivedData:
++ _objc_msgSend$setChannelAssignments:
++ _os_variant_is_recovery
++ _softLinkAnalyticsSendEvent.10305
++ _softLinkAudioObjectGetPropertyData.829
++ _softLinkAudioUnitGetParameter.845
++ _softLinkAudioUnitSetParameter.847
++ _softLinkBTDeviceFromAddress.2398
++ _softLinkBTDeviceFromIdentifier.2395
++ _softLinkBTDeviceGetAddressString.2345
++ _softLinkBTDeviceGetConnectedServices.2317
++ _softLinkBTServiceAddCallbacks.2445
++ _softLinkBTServiceRemoveCallbacks.2425
++ _softLinkBTSessionAttachWithQueue.2442
++ _softLinkBTSessionDetachWithQueue.2427
++ _softLinkCGColorSpaceCreateDeviceRGB.535
++ _softLinkCGImageDestinationAddImage.550
++ _softLinkCGImageDestinationFinalize.551
++ _softLinkIOSurfaceGetBaseAddress.568
++ _softLinkIOSurfaceLock.567
++ _softLinkIOSurfaceUnlock.569
+- -[CUNANSubscriber _subscriber:receivedDiscoveyResult:]
+- -[CUNANSubscriber subscriber:receivedDiscoveyResult:]
+- GCC_except_table1054
+- GCC_except_table1405
+- GCC_except_table1439
+- GCC_except_table1444
+- GCC_except_table1445
+- GCC_except_table1448
+- GCC_except_table1495
+- GCC_except_table1496
+- GCC_except_table1527
+- GCC_except_table1530
+- GCC_except_table1536
+- GCC_except_table1541
+- GCC_except_table1544
+- GCC_except_table1620
+- GCC_except_table1621
+- GCC_except_table1658
+- GCC_except_table1688
+- GCC_except_table1711
+- GCC_except_table1717
+- GCC_except_table1729
+- GCC_except_table1743
+- GCC_except_table2157
+- GCC_except_table2178
+- GCC_except_table2206
+- GCC_except_table2618
+- GCC_except_table2720
+- GCC_except_table2741
+- GCC_except_table2775
+- GCC_except_table2779
+- GCC_except_table2952
+- GCC_except_table2953
+- GCC_except_table2963
+- GCC_except_table2982
+- GCC_except_table2984
+- GCC_except_table3051
+- GCC_except_table3386
+- GCC_except_table3387
+- GCC_except_table3475
+- GCC_except_table3497
+- GCC_except_table3569
+- GCC_except_table3572
+- GCC_except_table3573
+- GCC_except_table3575
+- GCC_except_table3856
+- GCC_except_table4264
+- GCC_except_table4510
+- GCC_except_table4518
+- GCC_except_table4668
+- GCC_except_table4672
+- GCC_except_table4674
+- GCC_except_table4676
+- GCC_except_table4699
+- GCC_except_table4777
+- GCC_except_table4778
+- GCC_except_table4779
+- GCC_except_table4780
+- GCC_except_table4782
+- GCC_except_table4784
+- GCC_except_table4792
+- GCC_except_table4794
+- GCC_except_table4806
+- GCC_except_table4813
+- GCC_except_table4816
+- GCC_except_table4818
+- GCC_except_table4819
+- GCC_except_table4820
+- GCC_except_table4823
+- GCC_except_table4826
+- GCC_except_table4838
+- GCC_except_table4839
+- GCC_except_table4840
+- GCC_except_table4841
+- GCC_except_table4842
+- GCC_except_table4846
+- GCC_except_table4854
+- GCC_except_table5507
+- GCC_except_table5517
+- GCC_except_table5534
+- GCC_except_table5873
+- GCC_except_table5874
+- GCC_except_table5887
+- GCC_except_table853
+- GCC_except_table867
+- GCC_except_table872
+- _ACAccountStoreFunction.9888
+- _AKAccountManagerFunction.9877
+- _AVAudioSessionFunction.4855
+- _AVFoundationLibrary.sLib.4772
+- _AVFoundationLibrary.sOnce.4768
+- _AccountsLibrary.sLib.9891
+- _AccountsLibrary.sOnce.9885
+- _AppleAccountLibrary.sLib.9894
+- _AppleAccountLibrary.sOnce.9881
+- _AudioToolboxLibrary.sLib.4838
+- _AudioToolboxLibrary.sLib.850
+- _AudioToolboxLibrary.sOnce.4837
+- _AudioToolboxLibrary.sOnce.849
+- _AuthKitLibrary.sLib.9880
+- _AuthKitLibrary.sOnce.9874
+- _BTServiceSpecificEventToString.2378
+- _CALayerFunction.14832
+- _CATransactionFunction.14849
+- _CBCentralManagerFunction.1735
+- _CBCentralManagerFunction.2479
+- _CBManagerIsPrivilegedDaemonKeyFunction.1716
+- _CBManagerNeedsRestrictedStateOperationFunction.1730
+- _CBPeripheralManagerFunction.1905
+- _CBPeripheralManagerFunction.2471
+- _CoreAnalyticsLibrary.sLib.10299
+- _CoreAnalyticsLibrary.sOnce.10297
+- _CoreAudioLibrary.sLib.833
+- _CoreAudioLibrary.sOnce.831
+- _CoreBluetoothLibrary.sLib.1497
+- _CoreBluetoothLibrary.sLib.1685
+- _CoreBluetoothLibrary.sLib.1910
+- _CoreBluetoothLibrary.sLib.2474
+- _CoreBluetoothLibrary.sLib.2735
+- _CoreBluetoothLibrary.sOnce.1495
+- _CoreBluetoothLibrary.sOnce.1683
+- _CoreBluetoothLibrary.sOnce.1900
+- _CoreBluetoothLibrary.sOnce.2468
+- _CoreBluetoothLibrary.sOnce.2733
+- _CoreGraphicsLibrary.sLib.520
+- _CoreGraphicsLibrary.sOnce.518
+- _CoreHAPLibrary.sLib.7303
+- _CoreHAPLibrary.sOnce.7297
+- _HAPSystemKeychainStoreFunction.7300
+- _IOSurfaceLibrary.sLib.576
+- _IOSurfaceLibrary.sOnce.575
+- _ImageIOLibrary.sLib.554
+- _ImageIOLibrary.sOnce.553
+- _MobileBluetoothLibrary.sLib.2329
+- _MobileBluetoothLibrary.sOnce.2328
+- _MobileCoreServicesLibrary.sLib.1030
+- _MobileCoreServicesLibrary.sLib.15371
+- _MobileCoreServicesLibrary.sOnce.1029
+- _MobileCoreServicesLibrary.sOnce.15370
+- _QuartzCoreLibrary.sLib.14797
+- _QuartzCoreLibrary.sOnce.14795
+- _RPCompanionLinkClientFunction.4538
+- _RPCompanionLinkClientFunction.4893
+- _RPOptionTimeoutSecondsFunction.4518
+- _RapportLibrary.sLib.4468
+- _RapportLibrary.sLib.4725
+- _RapportLibrary.sLib.7316
+- _RapportLibrary.sOnce.4466
+- _RapportLibrary.sOnce.4724
+- _VideoToolboxLibrary.sLib.14804
+- _VideoToolboxLibrary.sOnce.14803
+- _WiFiAwareInternetSharingConfigurationFunction.6096
+- _WiFiPeerToPeerLibrary.sLib.6087
+- _WiFiPeerToPeerLibrary.sLib.6349
+- _WiFiPeerToPeerLibrary.sOnce.6082
+- _WiFiPeerToPeerLibrary.sOnce.6342
+- __NetTransportFinalize.13656
+- __NetTransportFinalize.13664
+- __NetTransportInitialize.13657
+- __NetTransportInitialize.13667
+- __NetTransportRead.13653
+- __NetTransportRead.13666
+- __NetTransportWriteV.13652
+- __NetTransportWriteV.13665
+- ___53-[CUNANSubscriber subscriber:receivedDiscoveyResult:]_block_invoke
+- ___73-[CUHomeKitManager getHomeKitLocalPairingIdentityWithOptions:completion:]_block_invoke_2
+- ___AVFoundationLibrary_block_invoke.4770
+- ___AccountsLibrary_block_invoke.9890
+- ___AppleAccountLibrary_block_invoke.9893
+- ___AudioToolboxLibrary_block_invoke.4841
+- ___AudioToolboxLibrary_block_invoke.853
+- ___AuthKitLibrary_block_invoke.9879
+- ___Block_byref_object_copy_.10649
+- ___Block_byref_object_copy_.12060
+- ___Block_byref_object_copy_.12650
+- ___Block_byref_object_copy_.14225
+- ___Block_byref_object_copy_.3107
+- ___Block_byref_object_copy_.4754
+- ___Block_byref_object_copy_.6055
+- ___Block_byref_object_copy_.6371
+- ___Block_byref_object_copy_.7259
+- ___Block_byref_object_copy_.7590
+- ___Block_byref_object_dispose_.10650
+- ___Block_byref_object_dispose_.12061
+- ___Block_byref_object_dispose_.12651
+- ___Block_byref_object_dispose_.14226
+- ___Block_byref_object_dispose_.3108
+- ___Block_byref_object_dispose_.4755
+- ___Block_byref_object_dispose_.6056
+- ___Block_byref_object_dispose_.6372
+- ___Block_byref_object_dispose_.7260
+- ___Block_byref_object_dispose_.7591
+- ___CoreAnalyticsLibrary_block_invoke.10337
+- ___CoreAudioLibrary_block_invoke.838
+- ___CoreBluetoothLibrary_block_invoke.1688
+- ___CoreBluetoothLibrary_block_invoke.1908
+- ___CoreBluetoothLibrary_block_invoke.2473
+- ___CoreBluetoothLibrary_block_invoke.2739
+- ___CoreGraphicsLibrary_block_invoke.526
+- ___CoreHAPLibrary_block_invoke.7302
+- ___IOSurfaceLibrary_block_invoke.579
+- ___ImageIOLibrary_block_invoke.557
+- ___MobileBluetoothLibrary_block_invoke.2333
+- ___MobileCoreServicesLibrary_block_invoke.1033
+- ___MobileCoreServicesLibrary_block_invoke.15374
+- ___QuartzCoreLibrary_block_invoke.14801
+- ___RapportLibrary_block_invoke.4472
+- ___RapportLibrary_block_invoke.4728
+- ___RapportLibrary_block_invoke.7315
+- ___VideoToolboxLibrary_block_invoke.14807
+- ___WiFiPeerToPeerLibrary_block_invoke.6085
+- ___WiFiPeerToPeerLibrary_block_invoke.6347
+- ___block_descriptor_56_e8_32s40bs_e29_v24?0"NSArray"8"NSError"16ls32l8s40l8
+- ___block_descriptor_tmp.13359
+- ___block_descriptor_tmp.13405
+- ___block_descriptor_tmp.16334
+- ___block_descriptor_tmp.3.16344
+- ___block_descriptor_tmp.524
+- ___block_descriptor_tmp.7.16339
+- ___block_descriptor_tmp.845
+- ___block_literal_global.10001
+- ___block_literal_global.10298
+- ___block_literal_global.103
+- ___block_literal_global.1070
+- ___block_literal_global.10894
+- ___block_literal_global.111
+- ___block_literal_global.11142
+- ___block_literal_global.1121
+- ___block_literal_global.1127
+- ___block_literal_global.1128
+- ___block_literal_global.11319
+- ___block_literal_global.1132
+- ___block_literal_global.1136
+- ___block_literal_global.1141
+- ___block_literal_global.1152
+- ___block_literal_global.1159
+- ___block_literal_global.1165
+- ___block_literal_global.1178
+- ___block_literal_global.1182
+- ___block_literal_global.11856
+- ___block_literal_global.1186
+- ___block_literal_global.119
+- ___block_literal_global.1190
+- ___block_literal_global.1194
+- ___block_literal_global.1200
+- ___block_literal_global.1208
+- ___block_literal_global.12095
+- ___block_literal_global.125
+- ___block_literal_global.13197
+- ___block_literal_global.132
+- ___block_literal_global.13346
+- ___block_literal_global.13439
+- ___block_literal_global.1352
+- ___block_literal_global.14796
+- ___block_literal_global.1496
+- ___block_literal_global.15300
+- ___block_literal_global.16176
+- ___block_literal_global.16337
+- ___block_literal_global.1684
+- ___block_literal_global.1901
+- ___block_literal_global.2115
+- ___block_literal_global.224.9913
+- ___block_literal_global.2345
+- ___block_literal_global.237.9909
+- ___block_literal_global.256.12428
+- ___block_literal_global.256.12635
+- ___block_literal_global.2734
+- ___block_literal_global.29.10002
+- ___block_literal_global.312
+- ___block_literal_global.320.9834
+- ___block_literal_global.324
+- ___block_literal_global.3273
+- ___block_literal_global.329.9827
+- ___block_literal_global.33.10003
+- ___block_literal_global.333
+- ___block_literal_global.372
+- ___block_literal_global.3873
+- ___block_literal_global.4078
+- ___block_literal_global.41.10004
+- ___block_literal_global.4467
+- ___block_literal_global.47.10006
+- ___block_literal_global.4861
+- ___block_literal_global.519
+- ___block_literal_global.52.10008
+- ___block_literal_global.5293
+- ___block_literal_global.538
+- ___block_literal_global.58.10009
+- ___block_literal_global.5830
+- ___block_literal_global.6070
+- ___block_literal_global.6343
+- ___block_literal_global.635
+- ___block_literal_global.658
+- ___block_literal_global.678
+- ___block_literal_global.6853
+- ___block_literal_global.736
+- ___block_literal_global.752
+- ___block_literal_global.79
+- ___block_literal_global.8053
+- ___block_literal_global.8209
+- ___block_literal_global.832
+- ___block_literal_global.8642
+- ___block_literal_global.8933
+- ___block_literal_global.9635
+- __btServiceEventHandler.2434
+- __btSessionEventCallback.2464
+- _classACAccountStore.9886
+- _classAKAccountManager.9875
+- _classAVAudioSession.4853
+- _classCALayer.14830
+- _classCATransaction.14847
+- _classCBCentralManager.1733
+- _classCBCentralManager.2477
+- _classCBPeripheralManager.1903
+- _classCBPeripheralManager.2469
+- _classHAPSystemKeychainStore.7298
+- _classRPCompanionLinkClient.4536
+- _classRPCompanionLinkClient.4891
+- _classWiFiAwareInternetSharingConfiguration.6094
+- _constantValCBManagerIsPrivilegedDaemonKey.1714
+- _constantValCBManagerNeedsRestrictedStateOperation.1728
+- _constantValRPOptionTimeoutSeconds.4516
+- _gCFArrayType.14023
+- _gCFBooleanType.14021
+- _gCFDataType.14024
+- _gCFDateType.14025
+- _gCFDictionaryType.14022
+- _gCFNumberType.14020
+- _gCFStringType.14019
+- _getACAccountStoreClass.9882
+- _getAKAccountManagerClass.9867
+- _getAVAudioSessionClass.4846
+- _getCALayerClass.14811
+- _getCATransactionClass.14837
+- _getCBCentralManagerClass.1717
+- _getCBCentralManagerClass.2438
+- _getCBManagerIsPrivilegedDaemonKey.1711
+- _getCBManagerNeedsRestrictedStateOperation.1718
+- _getCBPeripheralManagerClass.1895
+- _getCBPeripheralManagerClass.2440
+- _getHAPSystemKeychainStoreClass.7294
+- _getRPCompanionLinkClientClass.4529
+- _getRPCompanionLinkClientClass.4872
+- _getRPOptionTimeoutSeconds.4503
+- _getWiFiAwareInternetSharingConfigurationClass.6076
+- _initACAccountStore.9884
+- _initAKAccountManager.9873
+- _initAVAudioSession.4851
+- _initAnalyticsSendEvent.10315
+- _initAudioObjectGetPropertyData.830
+- _initAudioUnitGetParameter.856
+- _initAudioUnitSetParameter.848
+- _initBTDeviceFromAddress.2402
+- _initBTDeviceFromIdentifier.2404
+- _initBTDeviceGetAddressString.2376
+- _initBTDeviceGetConnectedServices.2335
+- _initBTServiceAddCallbacks.2461
+- _initBTServiceRemoveCallbacks.2433
+- _initBTSessionAttachWithQueue.2463
+- _initBTSessionDetachWithQueue.2431
+- _initCALayer.14828
+- _initCATransaction.14845
+- _initCBCentralManager.1732
+- _initCBCentralManager.2476
+- _initCBPeripheralManager.1899
+- _initCBPeripheralManager.2467
+- _initCGColorSpaceCreateDeviceRGB.536
+- _initCGImageDestinationAddImage.560
+- _initCGImageDestinationFinalize.552
+- _initHAPSystemKeychainStore.7296
+- _initIOSurfaceGetBaseAddress.582
+- _initIOSurfaceLock.585
+- _initIOSurfaceUnlock.574
+- _initRPCompanionLinkClient.4534
+- _initRPCompanionLinkClient.4889
+- _initValCBManagerIsPrivilegedDaemonKey.1713
+- _initValCBManagerNeedsRestrictedStateOperation.1727
+- _initValRPOptionTimeoutSeconds.4514
+- _initWiFiAwareInternetSharingConfiguration.6092
+- _kSecKeyAlgorithmECDSASignatureRFC4754
+- _objc_msgSend$_subscriber:receivedDiscoveyResult:
+- _objc_msgSend$dataWithBytesNoCopy:length:freeWhenDone:
+- _softLinkAnalyticsSendEvent.10313
+- _softLinkAudioObjectGetPropertyData.828
+- _softLinkAudioUnitGetParameter.844
+- _softLinkAudioUnitSetParameter.846
+- _softLinkBTDeviceFromAddress.2399
+- _softLinkBTDeviceFromIdentifier.2396
+- _softLinkBTDeviceGetAddressString.2346
+- _softLinkBTDeviceGetConnectedServices.2318
+- _softLinkBTServiceAddCallbacks.2446
+- _softLinkBTServiceRemoveCallbacks.2426
+- _softLinkBTSessionAttachWithQueue.2443
+- _softLinkBTSessionDetachWithQueue.2428
+- _softLinkCGColorSpaceCreateDeviceRGB.534
+- _softLinkCGImageDestinationAddImage.549
+- _softLinkCGImageDestinationFinalize.550
+- _softLinkIOSurfaceGetBaseAddress.567
+- _softLinkIOSurfaceLock.566
+- _softLinkIOSurfaceUnlock.568
+CStrings:
++ "\x03\x13#"
++ "\x11E\x1f\n"
++ "### AudioSession Smart Routing failed: option=%s, error=%@"
++ "### Encode message failed: %@"
++ "-[CUAudioPlayer _applyChannelAssignments:]"
++ "-[CUNANSubscriber _subscriber:receivedDiscoveryResult:]"
++ "@\"AVAudioSessionChannelDescription\""
++ "Applying channel: nil"
++ "Applying channel: portUID=%@, channelName=%@"
++ "CDPContext"
++ "Decode message failed"
++ "No pairing data"
++ "Not a dictionary"
++ "Port/channel not found"
++ "RemoteScreen"
++ "T@\"NSString\",?,R,C"
++ "T@\"NSString\",R,C,N"
++ "T@?,C,N,V_sendMessageDataHandler"
++ "UID"
++ "_applyChannelAssignments:"
++ "_pd"
++ "_sendMessageDataHandler"
++ "_subscriber:receivedDiscoveryResult:"
++ "allPairingIdentitiesInRankOrderWithError:"
++ "channelAssignments"
++ "channelName"
++ "channels"
++ "com.apple.SetupKit"
++ "contextForPrimaryAccount"
++ "currentRoute"
++ "dataSessions"
++ "home:didUpdateSupportsResidentActionSetStateEvaluation:"
++ "initWithAddress:"
++ "initWithContext:"
++ "numberOfChannels"
++ "outputs"
++ "owningPortUID"
++ "peerAddressString"
++ "receivedMessageData:"
++ "sendMessageDataHandler"
++ "setChannelAssignments:"
++ "setPortUID:channelName:error:"
++ "setSendMessageDataHandler:"
+- "\x02\x13#"
+- "\x11E\x1f\t"
+- "### AudioSession failed to set Smart Route to %s,  %{error}\n"
+- "-[CUNANSubscriber _subscriber:receivedDiscoveyResult:]"
+- "_subscriber:receivedDiscoveyResult:"
+- "accessory:didUpdateBulletinBoardNotificationServiceGroupForService:"
+- "dataWithBytesNoCopy:length:freeWhenDone:"
+- "sessionServiceDidResignActive:"
+- "speechSynthesizer:didStartPlayingPreviewRequest:"
+- "v24@0:8@\"<SVXClientSessionServicing>\"16"
+- "v32@0:8@\"VSSpeechSynthesizer\"16@\"VSPreviewRequest\"24"
+
+```

@@ -1,0 +1,251 @@
+## EmojiPoster
+
+> `/System/Library/PrivateFrameworks/EmojiPoster.framework/EmojiPoster`
+
+```diff
+
+ 52.0.0.0.0
+-  __TEXT.__text: 0x54c5c
+-  __TEXT.__auth_stubs: 0x14f0
++  __TEXT.__text: 0x5561c
++  __TEXT.__auth_stubs: 0x1550
+   __TEXT.__objc_methlist: 0x7e4
+   __TEXT.__const: 0x4464
+-  __TEXT.__gcc_except_tab: 0x88c
+-  __TEXT.__cstring: 0x1dab
++  __TEXT.__gcc_except_tab: 0x92c
++  __TEXT.__cstring: 0x218b
+   __TEXT.__swift5_typeref: 0xfc0
+   __TEXT.__constg_swiftt: 0x22ec
+   __TEXT.__swift5_reflstr: 0x10b4
+
+   __TEXT.__swift5_types: 0x158
+   __TEXT.__swift5_capture: 0x428
+   __TEXT.__swift5_protos: 0x20
+-  __TEXT.__unwind_info: 0x2088
+-  __TEXT.__eh_frame: 0x6dc
++  __TEXT.__unwind_info: 0x2084
++  __TEXT.__eh_frame: 0x6c8
+   __TEXT.__objc_classname: 0xcf
+-  __TEXT.__objc_methname: 0x1776
++  __TEXT.__objc_methname: 0x1788
+   __TEXT.__objc_methtype: 0x336
+   __TEXT.__objc_stubs: 0x3a0
+-  __DATA_CONST.__got: 0x1f8
++  __DATA_CONST.__got: 0x1f0
+   __DATA_CONST.__const: 0x320
+   __DATA_CONST.__objc_classlist: 0x138
+   __DATA_CONST.__objc_catlist: 0x10
+
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_const: 0x3650
+   __DATA_CONST.__objc_selrefs: 0x828
++  __DATA_CONST.__objc_protorefs: 0x20
++  __DATA_CONST.__objc_classrefs: 0x1e8
++  __DATA_CONST.__objc_superrefs: 0x8
+   __AUTH_CONST.__objc_const: 0x1e8
+-  __AUTH_CONST.__const: 0x2b40
++  __AUTH_CONST.__const: 0x2ba0
+   __AUTH_CONST.__cfstring: 0x160
+   __AUTH_CONST.__auth_ptr: 0x38
+-  __AUTH_CONST.__auth_got: 0xa88
++  __AUTH_CONST.__auth_got: 0xab8
+   __AUTH.__objc_data: 0x1900
+-  __AUTH.__const_weak: 0x58
+   __AUTH.__data: 0x5e8
+   __DATA.__got_weak: 0x10
+-  __DATA.__objc_protorefs: 0x20
+-  __DATA.__objc_classrefs: 0x1e8
+-  __DATA.__objc_superrefs: 0x8
+   __DATA.__objc_ivar: 0x8
+-  __DATA.__data: 0x1168
++  __DATA.__data: 0x1440
+   __DATA.__bss: 0x1ba0
+   __DATA.__common: 0x30
+   __DATA_DIRTY.__objc_data: 0xa80
+-  __DATA_DIRTY.__data: 0x1a98
+-  __DATA_DIRTY.__bss: 0x2bc0
++  __DATA_DIRTY.__data: 0x1ab0
++  __DATA_DIRTY.__bss: 0x2bb8
+   __DATA_DIRTY.__common: 0x150
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 2333
+-  Symbols:   1492
+-  CStrings:  605
++  Functions: 2341
++  Symbols:   1508
++  CStrings:  626
+ 
+Symbols:
++ GCC_except_table104
++ GCC_except_table12
++ GCC_except_table16
++ GCC_except_table25
++ GCC_except_table27
++ GCC_except_table33
++ GCC_except_table38
++ GCC_except_table64
++ GCC_except_table97
++ GCC_except_table98
++ GCC_except_table99
++ __ZNKSt3__16vectorI12sortHueEntryNS_9allocatorIS1_EEE20__throw_length_errorB8ue170006Ev
++ __ZNKSt3__16vectorI14sortColorEntryNS_9allocatorIS1_EEE20__throw_length_errorB8ue170006Ev
++ __ZNKSt3__16vectorI7JCColorNS_9allocatorIS1_EEE20__throw_length_errorB8ue170006Ev
++ __ZNKSt9type_infoeqB8ue170006ERKS_
++ __ZNSt12length_errorC1B8ue170006EPKc
++ __ZNSt3__110__function12__value_funcIFv7CGPointR10JCHSVColorjEED2B8ue170006Ev
++ __ZNSt3__110__pop_heapB8ue170006INS_17_ClassicAlgPolicyEPFb14sortColorEntryS2_EPS2_EEvT1_S6_RT0_NS_15iterator_traitsIS6_E15difference_typeE
++ __ZNSt3__111__introsortINS_17_ClassicAlgPolicyERPFb12sortHueEntryS2_EPS2_Lb0EEEvT1_S7_T0_NS_15iterator_traitsIS7_E15difference_typeEb
++ __ZNSt3__111__introsortINS_17_ClassicAlgPolicyERPFb14sortColorEntryS2_EPS2_Lb0EEEvT1_S7_T0_NS_15iterator_traitsIS7_E15difference_typeEb
++ __ZNSt3__111__sift_downB8ue170006INS_17_ClassicAlgPolicyERPFb12sortHueEntryS2_EPS2_EEvT1_OT0_NS_15iterator_traitsIS7_E15difference_typeES7_
++ __ZNSt3__111__sift_downB8ue170006INS_17_ClassicAlgPolicyERPFb14sortColorEntryS2_EPS2_EEvT1_OT0_NS_15iterator_traitsIS7_E15difference_typeES7_
++ __ZNSt3__116__insertion_sortB8ue170006INS_17_ClassicAlgPolicyERPFb12sortHueEntryS2_EPS2_EEvT1_S7_T0_
++ __ZNSt3__116__insertion_sortB8ue170006INS_17_ClassicAlgPolicyERPFb14sortColorEntryS2_EPS2_EEvT1_S7_T0_
++ __ZNSt3__117__floyd_sift_downB8ue170006INS_17_ClassicAlgPolicyERPFb12sortHueEntryS2_EPS2_EET1_S7_OT0_NS_15iterator_traitsIS7_E15difference_typeE
++ __ZNSt3__117__floyd_sift_downB8ue170006INS_17_ClassicAlgPolicyERPFb14sortColorEntryS2_EPS2_EET1_S7_OT0_NS_15iterator_traitsIS7_E15difference_typeE
++ __ZNSt3__119__allocate_at_leastB8ue170006INS_9allocatorI12sortHueEntryEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m
++ __ZNSt3__119__allocate_at_leastB8ue170006INS_9allocatorI14sortColorEntryEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m
++ __ZNSt3__119__allocate_at_leastB8ue170006INS_9allocatorI7JCColorEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m
++ __ZNSt3__119__partial_sort_implB8ue170006INS_17_ClassicAlgPolicyERPFb12sortHueEntryS2_EPS2_S6_EET1_S7_S7_T2_OT0_
++ __ZNSt3__119__partial_sort_implB8ue170006INS_17_ClassicAlgPolicyERPFb14sortColorEntryS2_EPS2_S6_EET1_S7_S7_T2_OT0_
++ __ZNSt3__120__throw_length_errorB8ue170006EPKc
++ __ZNSt3__125__throw_bad_function_callB8ue170006Ev
++ __ZNSt3__126__insertion_sort_unguardedB8ue170006INS_17_ClassicAlgPolicyERPFb12sortHueEntryS2_EPS2_EEvT1_S7_T0_
++ __ZNSt3__126__insertion_sort_unguardedB8ue170006INS_17_ClassicAlgPolicyERPFb14sortColorEntryS2_EPS2_EEvT1_S7_T0_
++ __ZNSt3__127__insertion_sort_incompleteB8ue170006INS_17_ClassicAlgPolicyERPFb12sortHueEntryS2_EPS2_EEbT1_S7_T0_
++ __ZNSt3__127__insertion_sort_incompleteB8ue170006INS_17_ClassicAlgPolicyERPFb14sortColorEntryS2_EPS2_EEbT1_S7_T0_
++ __ZNSt3__131__partition_with_equals_on_leftB8ue170006INS_17_ClassicAlgPolicyEP12sortHueEntryRPFbS2_S2_EEET0_S7_S7_T1_
++ __ZNSt3__131__partition_with_equals_on_leftB8ue170006INS_17_ClassicAlgPolicyEP14sortColorEntryRPFbS2_S2_EEET0_S7_S7_T1_
++ __ZNSt3__132__partition_with_equals_on_rightB8ue170006INS_17_ClassicAlgPolicyEP12sortHueEntryRPFbS2_S2_EEENS_4pairIT0_bEES8_S8_T1_
++ __ZNSt3__132__partition_with_equals_on_rightB8ue170006INS_17_ClassicAlgPolicyEP14sortColorEntryRPFbS2_S2_EEENS_4pairIT0_bEES8_S8_T1_
++ __ZNSt3__142__uninitialized_allocator_move_if_noexceptB8ue170006INS_9allocatorI14sortColorEntryEENS_16reverse_iteratorIPS2_EES6_S6_EET2_RT_T0_T1_S7_
++ __ZNSt3__142__uninitialized_allocator_move_if_noexceptB8ue170006INS_9allocatorI7JCColorEENS_16reverse_iteratorIPS2_EES6_S6_EET2_RT_T0_T1_S7_
++ __ZNSt3__16__bindIM15JCImageAnalyzerFv7CGPointR10JCHSVColorjEJPS1_RKNS_12placeholders4__phILi1EEERKNS9_ILi2EEERKNS9_ILi3EEEEEclB8ue170006IJS2_S4_jEEENS_13__bind_returnIS6_NS_5tupleIJS7_SA_SD_SG_EEENSM_IJDpOT_EEEXsr22__is_valid_bind_returnIS6_SN_SR_EE5valueEE4typeESQ_
++ __ZNSt3__16vectorI14sortColorEntryNS_9allocatorIS1_EEE16__destroy_vectorclB8ue170006Ev
++ __ZNSt3__16vectorI14sortColorEntryNS_9allocatorIS1_EEE9push_backB8ue170006ERKS1_
++ __ZNSt3__16vectorI7JCColorNS_9allocatorIS1_EEE16__destroy_vectorclB8ue170006Ev
++ __ZNSt3__16vectorI7JCColorNS_9allocatorIS1_EEE9push_backB8ue170006ERKS1_
++ __ZNSt3__17__sort3B8ue170006INS_17_ClassicAlgPolicyERPFb12sortHueEntryS2_EPS2_EEjT1_S7_S7_T0_
++ __ZNSt3__17__sort3B8ue170006INS_17_ClassicAlgPolicyERPFb14sortColorEntryS2_EPS2_EEjT1_S7_S7_T0_
++ __ZNSt3__17__sort4B8ue170006INS_17_ClassicAlgPolicyERPFb12sortHueEntryS2_EPS2_EEvT1_S7_S7_S7_T0_
++ __ZNSt3__17__sort4B8ue170006INS_17_ClassicAlgPolicyERPFb14sortColorEntryS2_EPS2_EEvT1_S7_S7_S7_T0_
++ __ZNSt3__17__sort5B8ue170006INS_17_ClassicAlgPolicyERPFb12sortHueEntryS2_EPS2_EEvT1_S7_S7_S7_S7_T0_
++ __ZNSt3__17__sort5B8ue170006INS_17_ClassicAlgPolicyERPFb14sortColorEntryS2_EPS2_EEvT1_S7_S7_S7_S7_T0_
++ __ZNSt3__18_IterOpsINS_17_ClassicAlgPolicyEE9iter_swapB8ue170006IRP14sortColorEntryS5_EEvOT_OT0_
++ __ZNSt3__18_IterOpsINS_17_ClassicAlgPolicyEE9iter_swapB8ue170006IRP14sortColorEntryS6_EEvOT_OT0_
++ __ZNSt3__19__sift_upB8ue170006INS_17_ClassicAlgPolicyERPFb12sortHueEntryS2_EPS2_EEvT1_S7_OT0_NS_15iterator_traitsIS7_E15difference_typeE
++ __ZNSt3__19__sift_upB8ue170006INS_17_ClassicAlgPolicyERPFb14sortColorEntryS2_EPS2_EEvT1_S7_OT0_NS_15iterator_traitsIS7_E15difference_typeE
++ __ZSt28__throw_bad_array_new_lengthB8ue170006v
++ _block_copy_helper.22
++ _block_copy_helper.25
++ _block_copy_helper.31
++ _block_copy_helper.35
++ _block_copy_helper.42
++ _block_descriptor.24
++ _block_descriptor.27
++ _block_descriptor.33
++ _block_descriptor.37
++ _block_descriptor.44
++ _block_destroy_helper.23
++ _block_destroy_helper.26
++ _block_destroy_helper.32
++ _block_destroy_helper.36
++ _block_destroy_helper.43
++ _objc_retain_x28
++ _swift_unknownObjectRetain_n
+- GCC_except_table13
+- GCC_except_table19
+- GCC_except_table26
+- GCC_except_table29
+- GCC_except_table36
+- GCC_except_table45
+- GCC_except_table46
+- GCC_except_table48
+- GCC_except_table67
+- __ZNKSt3__16vectorI12sortHueEntryNS_9allocatorIS1_EEE20__throw_length_errorB7v160006Ev
+- __ZNKSt3__16vectorI14sortColorEntryNS_9allocatorIS1_EEE20__throw_length_errorB7v160006Ev
+- __ZNKSt3__16vectorI7JCColorNS_9allocatorIS1_EEE20__throw_length_errorB7v160006Ev
+- __ZNKSt9type_infoeqB7v160006ERKS_
+- __ZNSt12length_errorC1B7v160006EPKc
+- __ZNSt3__110__function12__value_funcIFv7CGPointR10JCHSVColorjEED2B7v160006Ev
+- __ZNSt3__110__pop_heapB7v160006INS_17_ClassicAlgPolicyEPFb14sortColorEntryS2_EPS2_EEvT1_S6_RT0_NS_15iterator_traitsIS6_E15difference_typeE
+- __ZNSt3__111__introsortINS_17_ClassicAlgPolicyERPFb12sortHueEntryS2_EPS2_EEvT1_S7_T0_NS_15iterator_traitsIS7_E15difference_typeE
+- __ZNSt3__111__introsortINS_17_ClassicAlgPolicyERPFb14sortColorEntryS2_EPS2_EEvT1_S7_T0_NS_15iterator_traitsIS7_E15difference_typeE
+- __ZNSt3__111__sift_downB7v160006INS_17_ClassicAlgPolicyERPFb12sortHueEntryS2_EPS2_EEvT1_OT0_NS_15iterator_traitsIS7_E15difference_typeES7_
+- __ZNSt3__111__sift_downB7v160006INS_17_ClassicAlgPolicyERPFb14sortColorEntryS2_EPS2_EEvT1_OT0_NS_15iterator_traitsIS7_E15difference_typeES7_
+- __ZNSt3__117__floyd_sift_downB7v160006INS_17_ClassicAlgPolicyERPFb12sortHueEntryS2_EPS2_EET1_S7_OT0_NS_15iterator_traitsIS7_E15difference_typeE
+- __ZNSt3__117__floyd_sift_downB7v160006INS_17_ClassicAlgPolicyERPFb14sortColorEntryS2_EPS2_EET1_S7_OT0_NS_15iterator_traitsIS7_E15difference_typeE
+- __ZNSt3__118__insertion_sort_3B7v160006INS_17_ClassicAlgPolicyERPFb12sortHueEntryS2_EPS2_EEvT1_S7_T0_
+- __ZNSt3__118__insertion_sort_3B7v160006INS_17_ClassicAlgPolicyERPFb14sortColorEntryS2_EPS2_EEvT1_S7_T0_
+- __ZNSt3__119__allocate_at_leastB7v160006INS_9allocatorI12sortHueEntryEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m
+- __ZNSt3__119__allocate_at_leastB7v160006INS_9allocatorI14sortColorEntryEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m
+- __ZNSt3__119__allocate_at_leastB7v160006INS_9allocatorI7JCColorEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m
+- __ZNSt3__119__partial_sort_implB7v160006INS_17_ClassicAlgPolicyERPFb12sortHueEntryS2_EPS2_S6_EET1_S7_S7_T2_OT0_
+- __ZNSt3__119__partial_sort_implB7v160006INS_17_ClassicAlgPolicyERPFb14sortColorEntryS2_EPS2_S6_EET1_S7_S7_T2_OT0_
+- __ZNSt3__120__throw_length_errorB7v160006EPKc
+- __ZNSt3__125__throw_bad_function_callB7v160006Ev
+- __ZNSt3__127__insertion_sort_incompleteIRPFb12sortHueEntryS1_EPS1_EEbT0_S6_T_
+- __ZNSt3__127__insertion_sort_incompleteIRPFb14sortColorEntryS1_EPS1_EEbT0_S6_T_
+- __ZNSt3__142__uninitialized_allocator_move_if_noexceptB7v160006INS_9allocatorI14sortColorEntryEENS_16reverse_iteratorIPS2_EES6_S6_EET2_RT_T0_T1_S7_
+- __ZNSt3__142__uninitialized_allocator_move_if_noexceptB7v160006INS_9allocatorI7JCColorEENS_16reverse_iteratorIPS2_EES6_S6_EET2_RT_T0_T1_S7_
+- __ZNSt3__16__bindIM15JCImageAnalyzerFv7CGPointR10JCHSVColorjEJPS1_RKNS_12placeholders4__phILi1EEERKNS9_ILi2EEERKNS9_ILi3EEEEEclB7v160006IJS2_S4_jEEENS_13__bind_returnIS6_NS_5tupleIJS7_SA_SD_SG_EEENSM_IJDpOT_EEEXsr22__is_valid_bind_returnIS6_SN_SR_EE5valueEE4typeESQ_
+- __ZNSt3__16vectorI14sortColorEntryNS_9allocatorIS1_EEE16__destroy_vectorclB7v160006Ev
+- __ZNSt3__16vectorI14sortColorEntryNS_9allocatorIS1_EEE9push_backB7v160006ERKS1_
+- __ZNSt3__16vectorI14sortColorEntryNS_9allocatorIS1_EEED2B7v160006Ev
+- __ZNSt3__16vectorI7JCColorNS_9allocatorIS1_EEE16__destroy_vectorclB7v160006Ev
+- __ZNSt3__16vectorI7JCColorNS_9allocatorIS1_EEE9push_backB7v160006ERKS1_
+- __ZNSt3__16vectorI7JCColorNS_9allocatorIS1_EEED2B7v160006Ev
+- __ZNSt3__17__sort3B7v160006INS_17_ClassicAlgPolicyERPFb12sortHueEntryS2_EPS2_EEjT1_S7_S7_T0_
+- __ZNSt3__17__sort3B7v160006INS_17_ClassicAlgPolicyERPFb14sortColorEntryS2_EPS2_EEjT1_S7_S7_T0_
+- __ZNSt3__17__sort4B7v160006INS_17_ClassicAlgPolicyERPFb12sortHueEntryS2_EPS2_EEjT1_S7_S7_S7_T0_
+- __ZNSt3__17__sort4B7v160006INS_17_ClassicAlgPolicyERPFb14sortColorEntryS2_EPS2_EEjT1_S7_S7_S7_T0_
+- __ZNSt3__17__sort5IRPFb12sortHueEntryS1_EPS1_EEjT0_S6_S6_S6_S6_T_
+- __ZNSt3__17__sort5IRPFb14sortColorEntryS1_EPS1_EEjT0_S6_S6_S6_S6_T_
+- __ZNSt3__18_IterOpsINS_17_ClassicAlgPolicyEE9iter_swapB7v160006IRP14sortColorEntryS6_EEvOT_OT0_
+- __ZNSt3__19__sift_upB7v160006INS_17_ClassicAlgPolicyERPFb12sortHueEntryS2_EPS2_EEvT1_S7_OT0_NS_15iterator_traitsIS7_E15difference_typeE
+- __ZNSt3__19__sift_upB7v160006INS_17_ClassicAlgPolicyERPFb14sortColorEntryS2_EPS2_EEvT1_S7_OT0_NS_15iterator_traitsIS7_E15difference_typeE
+- __ZSt28__throw_bad_array_new_lengthB7v160006v
+- _block_copy_helper.24
+- _block_copy_helper.26
+- _block_copy_helper.32
+- _block_copy_helper.36
+- _block_copy_helper.43
+- _block_descriptor.26
+- _block_descriptor.28
+- _block_descriptor.34
+- _block_descriptor.38
+- _block_descriptor.45
+- _block_destroy_helper.25
+- _block_destroy_helper.27
+- _block_destroy_helper.33
+- _block_destroy_helper.37
+- _block_destroy_helper.44
+CStrings:
++ "Insufficient space allocated to copy string contents"
++ "Must take zero or more splits"
++ "Range requires lowerBound <= upperBound"
++ "Swift/Collection.swift"
++ "Swift/ContiguousArrayBuffer.swift"
++ "Swift/Range.swift"
++ "Swift/StringTesting.swift"
++ "Swift/StringUTF8View.swift"
++ "Swift/UnsafeBufferPointer.swift"
++ "Swift/UnsafePointer.swift"
++ "Swift/UnsafeRawBufferPointer.swift"
++ "Swift/UnsafeRawPointer.swift"
++ "T@\"NSString\",?,R,C"
++ "Unexpectedly found nil while unwrapping an Optional value"
++ "UnsafeMutableBufferPointer with negative count"
++ "UnsafeMutablePointer.initialize overlapping range"
++ "UnsafeMutablePointer.initialize with negative count"
++ "UnsafeMutablePointer.moveInitialize with negative count"
++ "UnsafeMutableRawBufferPointer.copyMemory source has too many elements"
++ "UnsafeMutableRawPointer.initializeMemory overlapping range"
++ "invalid Collection: less than 'count' elements in collection"
+
+```

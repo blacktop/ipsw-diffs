@@ -1,0 +1,1168 @@
+## PreviewsOSSupport
+
+> `/System/Library/PrivateFrameworks/PreviewsOSSupport.framework/PreviewsOSSupport`
+
+```diff
+
+-21.20.7.0.0
+-  __TEXT.__text: 0x13e4c
+-  __TEXT.__auth_stubs: 0xc90
+-  __TEXT.__objc_methlist: 0x524
+-  __TEXT.__const: 0xeb8
+-  __TEXT.__cstring: 0x10d5
+-  __TEXT.__oslogstring: 0x12a
+-  __TEXT.__swift5_typeref: 0x6aa
+-  __TEXT.__swift5_capture: 0x260
+-  __TEXT.__constg_swiftt: 0x50c
+-  __TEXT.__swift5_reflstr: 0x22a
+-  __TEXT.__swift5_fieldmd: 0x35c
+-  __TEXT.__swift5_builtin: 0x14
+-  __TEXT.__swift5_proto: 0xe4
+-  __TEXT.__swift5_types: 0x68
+-  __TEXT.__swift5_assocty: 0xb0
+-  __TEXT.__swift5_protos: 0x4
+-  __TEXT.__unwind_info: 0x7d0
+-  __TEXT.__eh_frame: 0x498
+-  __TEXT.__objc_classname: 0x36b
+-  __TEXT.__objc_methname: 0xcbd
+-  __TEXT.__objc_methtype: 0x61a
+-  __TEXT.__objc_stubs: 0x780
+-  __DATA_CONST.__got: 0x148
+-  __DATA_CONST.__const: 0x138
+-  __DATA_CONST.__objc_classlist: 0xb0
+-  __DATA_CONST.__objc_protolist: 0xa8
++21.30.32.0.0
++  __TEXT.__text: 0x2f89c
++  __TEXT.__auth_stubs: 0x1360
++  __TEXT.__objc_methlist: 0x1c0
++  __TEXT.__const: 0x21ac
++  __TEXT.__cstring: 0x1c01
++  __TEXT.__oslogstring: 0xb
++  __TEXT.__swift5_typeref: 0x1046
++  __TEXT.__constg_swiftt: 0x9d0
++  __TEXT.__swift5_reflstr: 0x84a
++  __TEXT.__swift5_fieldmd: 0x8a4
++  __TEXT.__swift5_capture: 0x46c
++  __TEXT.__swift5_proto: 0x1b8
++  __TEXT.__swift5_types: 0xd0
++  __TEXT.__swift5_assocty: 0x330
++  __TEXT.__swift5_protos: 0xc
++  __TEXT.__unwind_info: 0x1d6c
++  __TEXT.__eh_frame: 0xe28
++  __TEXT.__objc_classname: 0xc9
++  __TEXT.__objc_methname: 0x7e3
++  __TEXT.__objc_methtype: 0x3a3
++  __TEXT.__objc_stubs: 0x140
++  __DATA_CONST.__got: 0x280
++  __DATA_CONST.__const: 0x90
++  __DATA_CONST.__objc_classlist: 0x48
++  __DATA_CONST.__objc_protolist: 0x70
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_const: 0x4698
+-  __DATA_CONST.__objc_selrefs: 0x338
+-  __AUTH_CONST.__cfstring: 0x3c0
+-  __AUTH_CONST.__const: 0x18a0
+-  __AUTH_CONST.__objc_const: 0x6c0
+-  __AUTH_CONST.__auth_ptr: 0x58
+-  __AUTH_CONST.__auth_got: 0x650
+-  __AUTH.__objc_data: 0x810
+-  __AUTH.__data: 0x318
+-  __DATA.__objc_protorefs: 0x60
+-  __DATA.__objc_classrefs: 0xb8
+-  __DATA.__objc_superrefs: 0x18
+-  __DATA.__objc_ivar: 0x28
+-  __DATA.__data: 0xad8
+-  __DATA.__bss: 0x16e0
++  __DATA_CONST.__objc_const: 0x18e8
++  __DATA_CONST.__objc_selrefs: 0x1e8
++  __DATA_CONST.__objc_protorefs: 0x40
++  __DATA_CONST.__objc_classrefs: 0xa8
++  __DATA_CONST.__objc_superrefs: 0x10
++  __AUTH_CONST.__objc_const: 0x120
++  __AUTH_CONST.__cfstring: 0x80
++  __AUTH_CONST.__const: 0x2860
++  __AUTH_CONST.__auth_ptr: 0x78
++  __AUTH_CONST.__auth_got: 0x9b8
++  __AUTH.__objc_data: 0x478
++  __AUTH.__data: 0x530
++  __DATA.__objc_ivar: 0x18
++  __DATA.__data: 0x11c0
++  __DATA.__bss: 0x3700
+   __DATA.__common: 0x10
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreServices.framework/CoreServices
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/PrivateFrameworks/BaseBoard.framework/BaseBoard
+   - /System/Library/PrivateFrameworks/BoardServices.framework/BoardServices
+-  - /System/Library/PrivateFrameworks/PreviewsFoundation.framework/PreviewsFoundation
+-  - /System/Library/PrivateFrameworks/PreviewsMessaging.framework/PreviewsMessaging
++  - /System/Library/PrivateFrameworks/OSAServicesClient.framework/OSAServicesClient
++  - /System/Library/PrivateFrameworks/PreviewsFoundationOS.framework/PreviewsFoundationOS
++  - /System/Library/PrivateFrameworks/PreviewsMessagingOS.framework/PreviewsMessagingOS
+   - /System/Library/PrivateFrameworks/PreviewsServices.framework/PreviewsServices
+   - /System/Library/PrivateFrameworks/RunningBoardServices.framework/RunningBoardServices
+   - /usr/lib/libSystem.B.dylib
+
+   - /usr/lib/swift/libswiftObjectiveC.dylib
+   - /usr/lib/swift/libswiftQuartzCore.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
++  - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 769
+-  Symbols:   1013
+-  CStrings:  364
++  Functions: 1476
++  Symbols:   743
++  CStrings:  329
+ 
+Symbols:
++ -[UVShellConnectionInterfaceTarget .cxx_destruct]
++ -[UVShellConnectionInterfaceTarget _handleNullArgument:replyHandler:]
++ -[UVShellConnectionInterfaceTarget _handleNullArgument:replyHandler:].cold.1
++ -[UVShellConnectionInterfaceTarget initWithMessageHandler:xpcEndpointHandler:bsEndpointHandler:]
++ -[UVShellConnectionInterfaceTarget sendBSEndpoint:context:replyHandler:]
++ -[UVShellConnectionInterfaceTarget sendMessage:]
++ -[UVShellConnectionInterfaceTarget sendMessage:replyHandler:]
++ -[UVShellConnectionInterfaceTarget sendXPCEndpoint:context:replyHandler:]
++ _OBJC_CLASS_$_BSAuditToken
++ _OBJC_CLASS_$_NSXPCListenerEndpoint
++ _OBJC_CLASS_$_OSADiagnosticMonitorClient
++ _OBJC_CLASS_$_UVShellConnectionInterfaceTarget
++ _OBJC_CLASS_$__TtC17PreviewsOSSupport19CrashReportListener
++ _OBJC_CLASS_$__TtCC17PreviewsOSSupport19CrashReportListener13ObserverProxy
++ _OBJC_IVAR_$_UVShellConnectionInterfaceTarget._bsEndpointHandler
++ _OBJC_IVAR_$_UVShellConnectionInterfaceTarget._messageHandler
++ _OBJC_IVAR_$_UVShellConnectionInterfaceTarget._xpcEndpointHandler
++ _OBJC_METACLASS_$_UVShellConnectionInterfaceTarget
++ _OBJC_METACLASS_$__TtC17PreviewsOSSupport19CrashReportListener
++ _OBJC_METACLASS_$__TtCC17PreviewsOSSupport19CrashReportListener13ObserverProxy
++ _UVShellConnectionInterface
++ __DATA__TtC17PreviewsOSSupport19CrashReportListener
++ __DATA__TtCC17PreviewsOSSupport19CrashReportListener13ObserverProxy
++ __IVARS__TtC17PreviewsOSSupport15ShellConnection
++ __IVARS__TtC17PreviewsOSSupport19CrashReportListener
++ __IVARS__TtCC17PreviewsOSSupport19CrashReportListener13ObserverProxy
++ __IVARS__TtCC17PreviewsOSSupport21ServiceHubPipeServiceP33_D60AF27B33A43CA6B4EFE7E9B063B24C19ServiceHubTransport
++ __METACLASS_DATA__TtC17PreviewsOSSupport19CrashReportListener
++ __METACLASS_DATA__TtCC17PreviewsOSSupport19CrashReportListener13ObserverProxy
++ __OBJC_$_INSTANCE_METHODS_UVShellConnectionInterfaceTarget
++ __OBJC_$_INSTANCE_METHODS__TtC17PreviewsOSSupport19CrashReportListener
++ __OBJC_$_INSTANCE_METHODS__TtCC17PreviewsOSSupport19CrashReportListener13ObserverProxy
++ __OBJC_$_INSTANCE_VARIABLES_UVShellConnectionInterfaceTarget
++ __OBJC_$_PROP_LIST_UVShellConnectionInterfaceTarget
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OSADiagnosticObserver
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_UVShellConnectionProtocol
++ __OBJC_$_PROTOCOL_METHOD_TYPES_OSADiagnosticObserver
++ __OBJC_$_PROTOCOL_METHOD_TYPES_UVShellConnectionProtocol
++ __OBJC_$_PROTOCOL_REFS_OSADiagnosticObserver
++ __OBJC_$_PROTOCOL_REFS_UVShellConnectionProtocol
++ __OBJC_CLASS_PROTOCOLS_$_UVShellConnectionInterfaceTarget
++ __OBJC_CLASS_RO_$_UVShellConnectionInterfaceTarget
++ __OBJC_LABEL_PROTOCOL_$_OSADiagnosticObserver
++ __OBJC_LABEL_PROTOCOL_$_UVShellConnectionProtocol
++ __OBJC_METACLASS_RO_$_UVShellConnectionInterfaceTarget
++ __OBJC_PROTOCOL_$_OSADiagnosticObserver
++ __OBJC_PROTOCOL_$_UVShellConnectionProtocol
++ __OBJC_PROTOCOL_REFERENCE_$_UVShellConnectionProtocol
++ __PROTOCOLS__TtCC17PreviewsOSSupport19CrashReportListener13ObserverProxy
++ __PROTOCOLS__TtCC17PreviewsOSSupport19CrashReportListener13ObserverProxy.7
++ ___swift_allocate_value_buffer
++ ___swift_memcpy24_8
++ ___swift_memcpy33_8
++ ___swift_memcpy64_8
++ ___swift_memcpy80_8
++ ___swift_project_value_buffer
++ ___unnamed_4
++ ___unnamed_6
++ ___unnamed_8
++ __swiftEmptySetSingleton
++ _associated conformance 17PreviewsOSSupport014ServiceHubPipeC0C0cD9Transport33_D60AF27B33A43CA6B4EFE7E9B063B24CLLCyx_G0A11MessagingOS0F0AA0a10FoundationR023ConcurrentInvalidatable
++ _associated conformance 17PreviewsOSSupport014ServiceHubPipeC0C0cD9Transport33_D60AF27B33A43CA6B4EFE7E9B063B24CLLCyx_G0A11MessagingOS0F0AAs23CustomStringConvertible
++ _associated conformance 17PreviewsOSSupport014ServiceHubPipeC0C0cD9Transport33_D60AF27B33A43CA6B4EFE7E9B063B24CLLCyx_G0A12FoundationOS23ConcurrentInvalidatableAaH03AnyT0
++ _associated conformance 17PreviewsOSSupport12ShellServiceO6DomainOSHAASQ
++ _associated conformance 17PreviewsOSSupport12ShellServiceO8InstanceOSHAASQ
++ _associated conformance 17PreviewsOSSupport13DaemonToShellO13TwoWayMessageO0A12FoundationOS25PropertyListRepresentableAA0kL5ValueAfGP_AF0kL4Type
++ _associated conformance 17PreviewsOSSupport13DaemonToShellO13TwoWayMessageO12Discriminant33_81730C4850F31FC4E8BE21E8497A74B0LLO0A12FoundationOS25PropertyListRepresentableAA0tU5ValueAiJP_AI0tU4Type
++ _associated conformance 17PreviewsOSSupport13DaemonToShellO13TwoWayMessageO12Discriminant33_81730C4850F31FC4E8BE21E8497A74B0LLOSHAASQ
++ _associated conformance 17PreviewsOSSupport13DaemonToShellO13TwoWayMessageO3Key33_81730C4850F31FC4E8BE21E8497A74B0LLOSHAASQ
++ _associated conformance 17PreviewsOSSupport13JITSetupReplyV0A12FoundationOS25PropertyListRepresentableAA0gH5ValueAdEP_AD0gH4Type
++ _associated conformance 17PreviewsOSSupport13JITSetupReplyV3Key33_2053E375EB9287F24F116F0E0EF3F50ELLOSHAASQ
++ _associated conformance 17PreviewsOSSupport13JITSetupReplyV3Key33_2053E375EB9287F24F116F0E0EF3F50ELLOs12CaseIterableAA8AllCasessAGP_Sl
++ _associated conformance 17PreviewsOSSupport15JITSetupPayloadV0A12FoundationOS25PropertyListRepresentableAA0gH5ValueAdEP_AD0gH4Type
++ _associated conformance 17PreviewsOSSupport15JITSetupPayloadV0A12FoundationOS27StructuredStringConvertibleAAs06CustomhI0
++ _associated conformance 17PreviewsOSSupport15JITSetupPayloadVSHAASQ
++ _associated conformance 17PreviewsOSSupport15ShellConnectionC17RemoteTargetError33_1064A4CE9663CBC3AC63FC01BC8D9BABLLVyx_G0A12FoundationOS013HumanReadableG0AA0P009LocalizedG0
++ _associated conformance 17PreviewsOSSupport15ShellConnectionC17RemoteTargetError33_1064A4CE9663CBC3AC63FC01BC8D9BABLLVyx_G0A12FoundationOS013HumanReadableG0AAs23CustomStringConvertible
++ _associated conformance 17PreviewsOSSupport15ShellConnectionC17RemoteTargetError33_1064A4CE9663CBC3AC63FC01BC8D9BABLLVyx_G10Foundation09LocalizedG0AAs0G0
++ _associated conformance 17PreviewsOSSupport15ShellConnectionCA2A10ClientRoleVRszrlE08EndpointD7Failure33_2BA2BC71AB00273E12FBACF62CE13ECCLLVyx_G0A12FoundationOS18HumanReadableErrorAA0P009LocalizedT0
++ _associated conformance 17PreviewsOSSupport15ShellConnectionCA2A10ClientRoleVRszrlE08EndpointD7Failure33_2BA2BC71AB00273E12FBACF62CE13ECCLLVyx_G0A12FoundationOS18HumanReadableErrorAAs23CustomStringConvertible
++ _associated conformance 17PreviewsOSSupport15ShellConnectionCA2A10ClientRoleVRszrlE08EndpointD7Failure33_2BA2BC71AB00273E12FBACF62CE13ECCLLVyx_G10Foundation14LocalizedErrorAAs0R0
++ _associated conformance 17PreviewsOSSupport15ShellConnectionCA2A10ClientRoleVRszrlE17MachLookupFailure33_2BA2BC71AB00273E12FBACF62CE13ECCLLVyx_G0A12FoundationOS18HumanReadableErrorAA0Q009LocalizedU0
++ _associated conformance 17PreviewsOSSupport15ShellConnectionCA2A10ClientRoleVRszrlE17MachLookupFailure33_2BA2BC71AB00273E12FBACF62CE13ECCLLVyx_G0A12FoundationOS18HumanReadableErrorAAs23CustomStringConvertible
++ _associated conformance 17PreviewsOSSupport15ShellConnectionCA2A10ClientRoleVRszrlE17MachLookupFailure33_2BA2BC71AB00273E12FBACF62CE13ECCLLVyx_G10Foundation14LocalizedErrorAAs0S0
++ _associated conformance 17PreviewsOSSupport15ShellConnectionCyxG0A11MessagingOS9TransportAA0a10FoundationF023ConcurrentInvalidatable
++ _associated conformance 17PreviewsOSSupport15ShellConnectionCyxG0A11MessagingOS9TransportAAs23CustomStringConvertible
++ _associated conformance 17PreviewsOSSupport15ShellConnectionCyxG0A12FoundationOS23ConcurrentInvalidatableAaE03AnyH0
++ _associated conformance 17PreviewsOSSupport16ShellAgentSystemO0A11MessagingOS013MessageStreamE0AA12LeftEndpointAdEP_AD0K8Protocol
++ _associated conformance 17PreviewsOSSupport16ShellAgentSystemO0C8EndpointO0A11MessagingOS0F8ProtocolAA6RemoteAfGP_AfG
++ _associated conformance 17PreviewsOSSupport16ShellAgentSystemO0C8EndpointO0A11MessagingOS0F8ProtocolAA8IdentityAfGP_0a10FoundationH025PropertyListRepresentable
++ _associated conformance 17PreviewsOSSupport16ShellAgentSystemO0C8EndpointO0A11MessagingOS0F8ProtocolAA8IdentityAfGP_SH
++ _associated conformance 17PreviewsOSSupport16ShellAgentSystemO0D8EndpointO0A11MessagingOS0F8ProtocolAA6RemoteAfGP_AfG
++ _associated conformance 17PreviewsOSSupport16ShellAgentSystemO0D8EndpointO0A11MessagingOS0F8ProtocolAA8IdentityAfGP_0a10FoundationH025PropertyListRepresentable
++ _associated conformance 17PreviewsOSSupport16ShellAgentSystemO0D8EndpointO0A11MessagingOS0F8ProtocolAA8IdentityAfGP_SH
++ _associated conformance 17PreviewsOSSupport16ShellAgentSystemO0D8EndpointO8IdentityV0A12FoundationOS25PropertyListRepresentableAA0jK5ValueAhIP_AH0jK4Type
++ _associated conformance 17PreviewsOSSupport19ShellToControlAgentO13TwoWayMessageO0A12FoundationOS25PropertyListRepresentableAA0lM5ValueAfGP_AF0lM4Type
++ _associated conformance 17PreviewsOSSupport19ShellToControlAgentO13TwoWayMessageO12Discriminant33_1AE1FE5EC09B6DF06A16E99B3B024F5CLLO0A12FoundationOS25PropertyListRepresentableAA0wX5ValueAiJP_AI0wX4Type
++ _associated conformance 17PreviewsOSSupport19ShellToControlAgentO13TwoWayMessageO12Discriminant33_1AE1FE5EC09B6DF06A16E99B3B024F5CLLOSHAASQ
++ _associated conformance 17PreviewsOSSupport19ShellToControlAgentO13TwoWayMessageO3Key33_1AE1FE5EC09B6DF06A16E99B3B024F5CLLOSHAASQ
++ _associated conformance 17PreviewsOSSupport19ShellToControlAgentO17BSEndpointContextO0A12FoundationOS25PropertyListRepresentableAA0kL5ValueAfGP_AF0kL4Type
++ _associated conformance 17PreviewsOSSupport19ShellToControlAgentO17BSEndpointContextO12Discriminant33_1AE1FE5EC09B6DF06A16E99B3B024F5CLLO0A12FoundationOS25PropertyListRepresentableAA0vW5ValueAiJP_AI0vW4Type
++ _associated conformance 17PreviewsOSSupport19ShellToControlAgentO17BSEndpointContextO12Discriminant33_1AE1FE5EC09B6DF06A16E99B3B024F5CLLOSHAASQ
++ _associated conformance 17PreviewsOSSupport19ShellToControlAgentO17BSEndpointContextO3Key33_1AE1FE5EC09B6DF06A16E99B3B024F5CLLOSHAASQ
++ _associated conformance 17PreviewsOSSupport21ShellConnectionSenderVyxG0A11MessagingOS09TransportE8ProtocolAA9InterfaceAeFP_AE0hJ0
++ _associated conformance So19UVServiceHubMessageC17PreviewsOSSupportE07ServiceC5Error33_6073CC18FD008102EE8AB0EE2F4D4560LLO0D12FoundationOS013HumanReadableG0AC0O009LocalizedG0
++ _associated conformance So19UVServiceHubMessageC17PreviewsOSSupportE07ServiceC5Error33_6073CC18FD008102EE8AB0EE2F4D4560LLO0D12FoundationOS013HumanReadableG0ACs23CustomStringConvertible
++ _associated conformance So19UVServiceHubMessageC17PreviewsOSSupportE12PayloadErrorV0D12FoundationOS013HumanReadableG0AC0H009LocalizedG0
++ _associated conformance So19UVServiceHubMessageC17PreviewsOSSupportE12PayloadErrorV0D12FoundationOS013HumanReadableG0ACs23CustomStringConvertible
++ _associated conformance So19UVServiceHubMessageC17PreviewsOSSupportE12PayloadErrorV10Foundation09LocalizedG0ACs0G0
++ _associated conformance So19UVServiceHubMessageC17PreviewsOSSupportE13WrappingError33_6073CC18FD008102EE8AB0EE2F4D4560LLV0D12FoundationOS013HumanReadableG0AC0O009LocalizedG0
++ _associated conformance So19UVServiceHubMessageC17PreviewsOSSupportE13WrappingError33_6073CC18FD008102EE8AB0EE2F4D4560LLV0D12FoundationOS013HumanReadableG0ACs23CustomStringConvertible
++ _associated conformance So19UVServiceHubMessageC17PreviewsOSSupportE13WrappingError33_6073CC18FD008102EE8AB0EE2F4D4560LLV10Foundation09LocalizedG0ACs0G0
++ _block_copy_helper.21
++ _block_copy_helper.3
++ _block_copy_helper.36
++ _block_copy_helper.39
++ _block_copy_helper.42
++ _block_copy_helper.6
++ _block_copy_helper.64
++ _block_copy_helper.67
++ _block_copy_helper.70
++ _block_descriptor.23
++ _block_descriptor.38
++ _block_descriptor.41
++ _block_descriptor.44
++ _block_descriptor.5
++ _block_descriptor.66
++ _block_descriptor.69
++ _block_descriptor.72
++ _block_descriptor.8
++ _block_destroy_helper.22
++ _block_destroy_helper.37
++ _block_destroy_helper.4
++ _block_destroy_helper.40
++ _block_destroy_helper.43
++ _block_destroy_helper.65
++ _block_destroy_helper.68
++ _block_destroy_helper.7
++ _block_destroy_helper.71
++ _default assoc type _____ s5NeverO
++ _objc_msgSend$_handleNullArgument:replyHandler:
++ _objc_retain_x10
++ _objectdestroy.10Tm
++ _objectdestroy.22Tm
++ _objectdestroy.4Tm
++ _objectdestroy.50Tm
++ _swift_arrayInitWithTakeBackToFront
++ _swift_arrayInitWithTakeFrontToBack
++ _swift_checkMetadataState
++ _swift_getAssociatedTypeWitness
++ _swift_getEnumCaseMultiPayload
++ _swift_getTupleTypeLayout2
++ _swift_getTupleTypeLayout3
++ _swift_getTupleTypeMetadata2
++ _swift_getTupleTypeMetadata3
++ _swift_initEnumMetadataMultiPayload
++ _swift_isEscapingClosureAtFileLocation
++ _swift_lookUpClassMethod
++ _swift_release_n
++ _swift_retain_n
++ _swift_storeEnumTagMultiPayload
++ _swift_task_alloc
++ _swift_task_create
++ _swift_task_dealloc
++ _swift_task_switch
++ _swift_unknownObjectWeakDestroy
++ _swift_unknownObjectWeakInit
++ _swift_unknownObjectWeakLoadStrong
++ _symbolic $s17PreviewsOSSupport19ShellConnectionRoleP
++ _symbolic $s17PreviewsOSSupport24ShellConnectionInterfaceP
++ _symbolic $s19PreviewsMessagingOS16EndpointProtocolP
++ _symbolic $s19PreviewsMessagingOS18TransportInterfaceP
++ _symbolic $s19PreviewsMessagingOS19MessageStreamSystemP
++ _symbolic $s19PreviewsMessagingOS23TransportSenderProtocolP
++ _symbolic $s20PreviewsFoundationOS25PropertyListRepresentableP
++ _symbolic $ss12CaseIterableP
++ _symbolic 13OneWayMessage_____Qz 19PreviewsMessagingOS18TransportInterfaceP
++ _symbolic 13TwoWayMessage_____Qz______5replyt 19PreviewsMessagingOS18TransportInterfaceP AA0D5ReplyV
++ _symbolic B0
++ _symbolic B1
++ _symbolic G0R0_
++ _symbolic G0R1_
++ _symbolic G0R3_
++ _symbolic SDySS_____G 20PreviewsFoundationOS11CrashReportV
++ _symbolic SDy_____SSG s5Int32V
++ _symbolic SDy_____Shy_____y_____y_____GGGG 19PreviewsMessagingOS17ProcessIdentifierO 0a10FoundationC03RefV AD7PromiseC AD11CrashReportV
++ _symbolic SDy_____ypG s11AnyHashableV
++ _symbolic SS15sceneIdentifier_t
++ _symbolic SSSg
++ _symbolic SaySSG
++ _symbolic Say_____G 17PreviewsOSSupport13JITSetupReplyV3Key33_2053E375EB9287F24F116F0E0EF3F50ELLO
++ _symbolic Sb
++ _symbolic ScPSg
++ _symbolic ScSySo19UVServiceHubMessageCG
++ _symbolic ScSySo19UVServiceHubMessageCG6stream______yAB_G12continuationt ScS12ContinuationV
++ _symbolic ScTySo12BSAuditTokenC______pG4task______yAbC_p_G7promiset s5ErrorP ScT20PreviewsFoundationOSE7PromiseV
++ _symbolic ScTyyt______pG s5ErrorP
++ _symbolic ScTyyt______pG4task______yytAA_p_G7promiset s5ErrorP ScT20PreviewsFoundationOSE7PromiseV
++ _symbolic Sd_____Iegyr_ 20PreviewsFoundationOS12TimeoutErrorO
++ _symbolic Shy_____y_____y_____GGG 20PreviewsFoundationOS3RefV AA7PromiseC AA11CrashReportV
++ _symbolic So12BSAuditTokenC
++ _symbolic So13BSXPCEncoding_pIgg_
++ _symbolic So14NSSecureCoding_So8NSObjectpSg______pSgytIegnnr_ s5ErrorP
++ _symbolic So14UVPropertyListCSg______pSgytIegnnr_ s5ErrorP
++ _symbolic So19BSServiceConnectionC
++ _symbolic So19UVServiceHubMessageCIegg_
++ _symbolic So21NSXPCListenerEndpointC_18XPCEndpointContext_____Qz7context_____5replyt 17PreviewsOSSupport24ShellConnectionInterfaceP 0A11MessagingOS14TransportReplyV
++ _symbolic So21NSXPCListenerEndpointC__________Ieghgnn_ 19PreviewsMessagingOS16LazyPropertyListO AA14TransportReplyV
++ _symbolic So25UVShellConnectionProtocol_p
++ _symbolic So27BSServiceConnectionEndpointC
++ _symbolic So27BSServiceConnectionEndpointC_17BSEndpointContext_____Qz7context_____5replyt 17PreviewsOSSupport24ShellConnectionInterfaceP 0A11MessagingOS14TransportReplyV
++ _symbolic So27BSServiceConnectionEndpointC__________Ieghgnn_ 19PreviewsMessagingOS16LazyPropertyListO AA14TransportReplyV
++ _symbolic So30BSServiceConnectionConfiguring_pIgg_
++ _symbolic So32UVShellConnectionInterfaceTargetC
++ _symbolic _____ 16PreviewsServices0A7ServiceO7VariantO
++ _symbolic _____ 17PreviewsOSSupport014ServiceHubPipeC0C0cD9Transport33_D60AF27B33A43CA6B4EFE7E9B063B24CLLC
++ _symbolic _____ 17PreviewsOSSupport10ClientRoleV
++ _symbolic _____ 17PreviewsOSSupport10ClientRoleV28NoRemoteTokenAfterActivation33_2BA2BC71AB00273E12FBACF62CE13ECCLLV
++ _symbolic _____ 17PreviewsOSSupport10ServerRoleV
++ _symbolic _____ 17PreviewsOSSupport12ShellServiceO
++ _symbolic _____ 17PreviewsOSSupport12ShellServiceO6DomainO
++ _symbolic _____ 17PreviewsOSSupport12ShellServiceO8InstanceO
++ _symbolic _____ 17PreviewsOSSupport13DaemonToShellO
++ _symbolic _____ 17PreviewsOSSupport13DaemonToShellO13TwoWayMessageO
++ _symbolic _____ 17PreviewsOSSupport13DaemonToShellO13TwoWayMessageO12Discriminant33_81730C4850F31FC4E8BE21E8497A74B0LLO
++ _symbolic _____ 17PreviewsOSSupport13DaemonToShellO13TwoWayMessageO3Key33_81730C4850F31FC4E8BE21E8497A74B0LLO
++ _symbolic _____ 17PreviewsOSSupport13JITSetupReplyV
++ _symbolic _____ 17PreviewsOSSupport13JITSetupReplyV3Key33_2053E375EB9287F24F116F0E0EF3F50ELLO
++ _symbolic _____ 17PreviewsOSSupport15JITSetupPayloadV
++ _symbolic _____ 17PreviewsOSSupport15ShellConnectionC
++ _symbolic _____ 17PreviewsOSSupport15ShellConnectionC17RemoteTargetError33_1064A4CE9663CBC3AC63FC01BC8D9BABLLV
++ _symbolic _____ 17PreviewsOSSupport15ShellConnectionCA2A10ClientRoleVRszrlE08EndpointD7Failure33_2BA2BC71AB00273E12FBACF62CE13ECCLLV
++ _symbolic _____ 17PreviewsOSSupport15ShellConnectionCA2A10ClientRoleVRszrlE17MachLookupFailure33_2BA2BC71AB00273E12FBACF62CE13ECCLLV
++ _symbolic _____ 17PreviewsOSSupport17ServiceHubToShellO
++ _symbolic _____ 17PreviewsOSSupport19CrashReportListenerC
++ _symbolic _____ 17PreviewsOSSupport19CrashReportListenerC13ObserverProxyC
++ _symbolic _____ 17PreviewsOSSupport19CrashReportListenerC13ObserverProxyC14DiagnosticsLogV
++ _symbolic _____ 17PreviewsOSSupport19CrashReportListenerC5State33_31BCC42893A18251E716F7380E6C56CDLLV
++ _symbolic _____ 17PreviewsOSSupport19ShellToControlAgentO
++ _symbolic _____ 17PreviewsOSSupport19ShellToControlAgentO13TwoWayMessageO
++ _symbolic _____ 17PreviewsOSSupport19ShellToControlAgentO13TwoWayMessageO12Discriminant33_1AE1FE5EC09B6DF06A16E99B3B024F5CLLO
++ _symbolic _____ 17PreviewsOSSupport19ShellToControlAgentO13TwoWayMessageO3Key33_1AE1FE5EC09B6DF06A16E99B3B024F5CLLO
++ _symbolic _____ 17PreviewsOSSupport19ShellToControlAgentO17BSEndpointContextO
++ _symbolic _____ 17PreviewsOSSupport19ShellToControlAgentO17BSEndpointContextO12Discriminant33_1AE1FE5EC09B6DF06A16E99B3B024F5CLLO
++ _symbolic _____ 17PreviewsOSSupport19ShellToControlAgentO17BSEndpointContextO3Key33_1AE1FE5EC09B6DF06A16E99B3B024F5CLLO
++ _symbolic _____ 17PreviewsOSSupport21ShellConnectionSenderV
++ _symbolic _____ 17PreviewsOSSupport22ShellConnectionMessageO
++ _symbolic _____ 17PreviewsOSSupport23ShellConnectionReceiverV
++ _symbolic _____ 17PreviewsOSSupport33ShellToJITBootstrapAgentInterfaceO
++ _symbolic _____ 19PreviewsMessagingOS14ServiceMessageV
++ _symbolic _____ 19PreviewsMessagingOS14TransportReplyV
++ _symbolic _____ 19PreviewsMessagingOS17ContentIdentifierV
++ _symbolic _____ 19PreviewsMessagingOS17ProcessIdentifierO
++ _symbolic _____ 20PreviewsFoundationOS12PropertyListV
++ _symbolic _____ 20PreviewsFoundationOS18InvalidationHandleC
++ _symbolic _____ 20PreviewsFoundationOS28ConcurrentInvalidationHandleV
++ _symbolic _____ So19UVServiceHubMessageC17PreviewsOSSupportE12PayloadErrorV
++ _symbolic _____ So19UVServiceHubMessageC17PreviewsOSSupportE13WrappingError33_6073CC18FD008102EE8AB0EE2F4D4560LLV
++ _symbolic _____3url_t 19PreviewsMessagingOS24SecurityScopedURLWrapperV
++ _symbolic _____7message_t 19PreviewsMessagingOS14ServiceMessageV
++ _symbolic _____7request_t 19PreviewsMessagingOS14CopyURLRequestV
++ _symbolic _____7request_t 19PreviewsMessagingOS16NextCrashRequestV
++ _symbolic _____7request_t 19PreviewsMessagingOS29GrantExecutePermissionRequestV
++ _symbolic _____8instance_t 17PreviewsOSSupport12ShellServiceO8InstanceO
++ _symbolic _____Sg 19PreviewsMessagingOS14CopyURLRequestV
++ _symbolic _____Sg 19PreviewsMessagingOS14ServiceMessageV
++ _symbolic _____Sg 19PreviewsMessagingOS14TransportReplyV
++ _symbolic _____Sg 19PreviewsMessagingOS16NextCrashRequestV
++ _symbolic _____Sg 19PreviewsMessagingOS24SecurityScopedURLWrapperV
++ _symbolic _____Sg 19PreviewsMessagingOS29GrantExecutePermissionRequestV
++ _symbolic _____Sg 20PreviewsFoundationOS11CrashReportV
++ _symbolic _____Sg 20PreviewsFoundationOS12PropertyListV
++ _symbolic _____SgXw 17PreviewsOSSupport19CrashReportListenerC
++ _symbolic __________SgIeghnn_ 19PreviewsMessagingOS16LazyPropertyListO AA14TransportReplyV
++ _symbolic ___________t 17PreviewsOSSupport12ShellServiceO6DomainO 0A8Services0aD0O7VariantO
++ _symbolic ______p 19PreviewsMessagingOS9TransportP
++ _symbolic ______p s5ErrorP
++ _symbolic _____ySDySS_____GG 20PreviewsFoundationOS10ThreadSafeC 0A9OSSupport18TransactionManagerC0G033_7498658C26710573228F26AE7AF13147LLV
++ _symbolic _____ySSG s23_ContiguousArrayStorageC
++ _symbolic _____ySS_____G s18_DictionaryStorageC 20PreviewsFoundationOS11CrashReportV
++ _symbolic _____ySo12BSAuditTokenC______p_G ScT20PreviewsFoundationOSE7PromiseV s5ErrorP
++ _symbolic _____ySo19UVServiceHubMessageC_G ScS12ContinuationV
++ _symbolic _____ySo19UVServiceHubMessageC_G ScS8IteratorV
++ _symbolic _____ySo19UVServiceHubMessageC__G ScS12ContinuationV11YieldResultO
++ _symbolic _____ySo19UVServiceHubMessageC__G ScS12ContinuationV15BufferingPolicyO
++ _symbolic _____y_____G 17PreviewsOSSupport014ServiceHubPipeC0C 0A11MessagingOS15HostAgentSystemO
++ _symbolic _____y_____G 17PreviewsOSSupport014ServiceHubPipeC0C 0A11MessagingOS15HostShellSystemO
++ _symbolic _____y_____G 17PreviewsOSSupport15ShellConnectionC AA10ClientRoleV
++ _symbolic _____y_____G 17PreviewsOSSupport15ShellConnectionC AA10ServerRoleV
++ _symbolic _____y_____G 17PreviewsOSSupport21ShellConnectionSenderV AA012ServiceHubToC0O
++ _symbolic _____y_____G 19PreviewsMessagingOS11MessagePipeC AA15HostAgentSystemO
++ _symbolic _____y_____G 19PreviewsMessagingOS11MessagePipeC AA15HostShellSystemO
++ _symbolic _____y_____G 20PreviewsFoundationOS10ThreadSafeC 0A9OSSupport19CrashReportListenerC5State33_31BCC42893A18251E716F7380E6C56CDLLV
++ _symbolic _____y_____G 20PreviewsFoundationOS10ThreadSafeC 0A9OSSupport23PreviewAssertionManagerC7Storage33_5CA3FDFC8E253B83EE48BAF559EE2BF2LLV
++ _symbolic _____y_____G 20PreviewsFoundationOS6FutureC AA11CrashReportV
++ _symbolic _____y_____G 20PreviewsFoundationOS7PromiseC AA11CrashReportV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 17PreviewsOSSupport13JITSetupReplyV3Key33_2053E375EB9287F24F116F0E0EF3F50ELLO
++ _symbolic _____y_____G______yABGSgt 20PreviewsFoundationOS6FutureC AA11CrashReportV AA7PromiseC
++ _symbolic _____y_____SSG s18_DictionaryStorageC s5Int32V
++ _symbolic _____y_____Shy_____y_____y_____GGGG s18_DictionaryStorageC 19PreviewsMessagingOS17ProcessIdentifierO 0c10FoundationE03RefV AF7PromiseC AF11CrashReportV
++ _symbolic _____y______G 17PreviewsOSSupport014ServiceHubPipeC0C0cD9Transport33_D60AF27B33A43CA6B4EFE7E9B063B24CLLC 0A11MessagingOS15HostAgentSystemO
++ _symbolic _____y______G 17PreviewsOSSupport014ServiceHubPipeC0C0cD9Transport33_D60AF27B33A43CA6B4EFE7E9B063B24CLLC 0A11MessagingOS15HostShellSystemO
++ _symbolic _____y______G 17PreviewsOSSupport15ShellConnectionC17RemoteTargetError33_1064A4CE9663CBC3AC63FC01BC8D9BABLLV AA10ClientRoleV
++ _symbolic _____y___________pG 20PreviewsFoundationOS12ContinuationV 0a9MessagingC016LazyPropertyListO s5ErrorP
++ _symbolic _____y___________pG s6ResultO 19PreviewsMessagingOS16LazyPropertyListO s5ErrorP
++ _symbolic _____y___________pG s6ResultO 20PreviewsFoundationOS11CrashReportV s5ErrorP
++ _symbolic _____y___________pG s6ResultO 20PreviewsFoundationOS12PropertyListV s5ErrorP
++ _symbolic _____y_____y_____GG 20PreviewsFoundationOS3RefV AA7PromiseC AA11CrashReportV
++ _symbolic _____y_____y_____GGSg 20PreviewsFoundationOS3RefV AA7PromiseC AA11CrashReportV
++ _symbolic _____y_____y_____y_____GGG s11_SetStorageC 20PreviewsFoundationOS3RefV AC7PromiseC AC11CrashReportV
++ _symbolic _____y_____yqd__G_G ScS12ContinuationV 17PreviewsOSSupport22ShellConnectionMessageO
++ _symbolic _____y_____yxG_G ScS12ContinuationV 17PreviewsOSSupport22ShellConnectionMessageO
++ _symbolic _____yqd__G 17PreviewsOSSupport15ShellConnectionC
++ _symbolic _____yxG 17PreviewsOSSupport15ShellConnectionC
++ _symbolic _____yxG 19PreviewsMessagingOS11MessagePipeC
++ _symbolic _____yx_G 17PreviewsOSSupport014ServiceHubPipeC0C0cD9Transport33_D60AF27B33A43CA6B4EFE7E9B063B24CLLC
++ _symbolic _____yyt______p_G ScT20PreviewsFoundationOSE7PromiseV s5ErrorP
++ _symbolic qd__
++ _symbolic xXMT
++ _symbolic ySo21NSXPCListenerEndpointC___________tYbc 19PreviewsMessagingOS16LazyPropertyListO AA14TransportReplyV
++ _symbolic ySo21NSXPCListenerEndpointC___________tYbcSg 19PreviewsMessagingOS16LazyPropertyListO AA14TransportReplyV
++ _symbolic ySo27BSServiceConnectionEndpointC___________tYbc 19PreviewsMessagingOS16LazyPropertyListO AA14TransportReplyV
++ _symbolic ySo27BSServiceConnectionEndpointC___________tYbcSg 19PreviewsMessagingOS16LazyPropertyListO AA14TransportReplyV
++ _symbolic y_____YbcSg 19PreviewsMessagingOS16LazyPropertyListO
++ _symbolic y___________SgtYbc 19PreviewsMessagingOS16LazyPropertyListO AA14TransportReplyV
++ _symbolic y___________tYbcSg 19PreviewsMessagingOS16LazyPropertyListO AA14TransportReplyV
++ _symbolic y_____c 17PreviewsOSSupport19CrashReportListenerC13ObserverProxyC14DiagnosticsLogV
++ _symbolic ytIeghHr_
+- +[UVAgentControlServiceClientConnection createWithEndpoint:error:]
+- +[UVAgentPreviewNonUIServiceClientConnection createWithEndpoint:error:]
+- +[UVAgentPreviewSceneServiceClientConnection createWithEndpoint:forSceneIdentifier:error:]
+- +[UVBSConnection _connectionError:]
+- +[UVBSConnection _machLookupError:]
+- +[UVBSConnection createWithEndpoint:clientContextBuilder:error:]
+- +[UVBSConnection createWithEndpoint:clientContextBuilder:error:].cold.1
+- +[UVBSConnection createWithMachName:service:instance:clientContextBuilder:error:]
+- +[UVBSConnection createWithMachName:service:instance:clientContextBuilder:error:].cold.1
+- +[UVBSEndpoint supportsBSXPCSecureCoding]
+- +[UVBSPipeServiceClientConnection createForSystem:variant:error:]
+- +[UVBSPipeServiceClientConnection createWithEndpoint:error:]
+- +[UVDaemonServiceClientConnection createWithVariant:error:]
+- +[UVXcodeServiceClientConnection createWithVariant:error:]
+- -[UVAgentControlServiceClientConnection activateWithInterfaceTarget:]
+- -[UVAgentControlServiceServerConnection activate]
+- -[UVAgentControlServiceServerConnection connectHostMessagePipeWithEndpoint:]
+- -[UVAgentControlServiceServerConnection connectJITWithEndpoint:setupPayload:replyHandler:]
+- -[UVAgentControlServiceServerConnection connectShellMessagePipeWithEndpoint:]
+- -[UVAgentControlServiceServerConnection copyURLWithURLWrapperData:reply:]
+- -[UVAgentControlServiceServerConnection createPreviewNonUIAgentWithEndpoint:]
+- -[UVAgentControlServiceServerConnection createPreviewSceneAgentWithEndpoint:forSceneIdentifier:]
+- -[UVAgentControlServiceServerConnection grantExecutePermissionWithURLWrapperData:reply:]
+- -[UVAgentPreviewNonUIServiceClientConnection activateWithInterfaceTarget:]
+- -[UVAgentPreviewNonUIServiceServerConnection activate]
+- -[UVAgentPreviewNonUIServiceServerConnection performUpdate:replyHandler:]
+- -[UVAgentPreviewNonUIServiceServerConnection sendEndpoint:context:contentIdentifier:]
+- -[UVAgentPreviewSceneServiceClientConnection activateWithInterfaceTarget:]
+- -[UVAgentPreviewSceneServiceServerConnection .cxx_destruct]
+- -[UVAgentPreviewSceneServiceServerConnection activate]
+- -[UVAgentPreviewSceneServiceServerConnection generateStaticOutput:]
+- -[UVAgentPreviewSceneServiceServerConnection initializeWithClientContext:]
+- -[UVAgentPreviewSceneServiceServerConnection performUpdate:sceneContext:replyHandler:]
+- -[UVAgentPreviewSceneServiceServerConnection sceneIdentifier]
+- -[UVAgentPreviewSceneServiceServerConnection sendEndpoint:context:contentIdentifier:]
+- -[UVBSConnection .cxx_destruct]
+- -[UVBSConnection _didActivate]
+- -[UVBSConnection _didInvalidate]
+- -[UVBSConnection activateWithInterface:serviceQuality:interfaceTarget:]
+- -[UVBSConnection clientPid]
+- -[UVBSConnection dealloc]
+- -[UVBSConnection dealloc].cold.1
+- -[UVBSConnection initWithServiceConnection:]
+- -[UVBSConnection initWithServiceConnection:context:]
+- -[UVBSConnection initializeWithClientContext:]
+- -[UVBSConnection invalidate]
+- -[UVBSConnection onActivation:]
+- -[UVBSConnection onInvalidation:]
+- -[UVBSConnection remoteTarget:]
+- -[UVBSConnection remoteTarget:].cold.1
+- -[UVBSConnection remoteTarget]
+- -[UVBSConnection serverPid]
+- -[UVBSEndpoint .cxx_destruct]
+- -[UVBSEndpoint encodeWithBSXPCCoder:]
+- -[UVBSEndpoint initWithBSXPCCoder:]
+- -[UVBSEndpoint initWithUnderlying:]
+- -[UVBSEndpoint underlying]
+- -[UVBSPipeServiceConnection activateWithInterfaceTarget:]
+- -[UVBSPipeServiceConnection sendEncodedEvent:]
+- -[UVBSPipeServiceConnection sendEncodedEvent:replyHandler:]
+- -[UVDaemonServiceClientConnection activate]
+- -[UVDaemonServiceClientConnection copyURLToAgentDescriptorPayload:usingData:replyHandler:]
+- -[UVDaemonServiceClientConnection grantExecutePermissionToAgentDescriptorPayload:usingData:replyHandler:]
+- -[UVDaemonServiceClientConnection sendPreviewServiceMessage:replyHandler:]
+- -[UVDaemonServiceServerConnection activateWithInterfaceTarget:]
+- -[UVXcodeServiceClientConnection activate]
+- -[UVXcodeServiceClientConnection sendMessage:reply:]
+- -[UVXcodeServiceServerConnection activateWithInterfaceTarget:]
+- _NSInvalidArgumentException
+- _OBJC_CLASS_$_NSException
+- _OBJC_CLASS_$_NSString
+- _OBJC_CLASS_$_NSThread
+- _OBJC_CLASS_$_UVAgentControlServiceClientConnection
+- _OBJC_CLASS_$_UVAgentControlServiceServerConnection
+- _OBJC_CLASS_$_UVAgentPreviewNonUIServiceClientConnection
+- _OBJC_CLASS_$_UVAgentPreviewNonUIServiceServerConnection
+- _OBJC_CLASS_$_UVAgentPreviewSceneServiceClientConnection
+- _OBJC_CLASS_$_UVAgentPreviewSceneServiceServerConnection
+- _OBJC_CLASS_$_UVBSConnection
+- _OBJC_CLASS_$_UVBSEndpoint
+- _OBJC_CLASS_$_UVBSPipeServiceClientConnection
+- _OBJC_CLASS_$_UVBSPipeServiceConnection
+- _OBJC_CLASS_$_UVBSPipeServiceServerConnection
+- _OBJC_CLASS_$_UVDaemonServiceClientConnection
+- _OBJC_CLASS_$_UVDaemonServiceServerConnection
+- _OBJC_CLASS_$_UVObjCSingleFireEvent
+- _OBJC_CLASS_$_UVXcodeServiceClientConnection
+- _OBJC_CLASS_$_UVXcodeServiceServerConnection
+- _OBJC_IVAR_$_UVAgentPreviewSceneServiceServerConnection._sceneIdentifier
+- _OBJC_IVAR_$_UVBSConnection._activationEvent
+- _OBJC_IVAR_$_UVBSConnection._clientPid
+- _OBJC_IVAR_$_UVBSConnection._invalidationEvent
+- _OBJC_IVAR_$_UVBSConnection._serverPid
+- _OBJC_IVAR_$_UVBSConnection._serviceConnection
+- _OBJC_IVAR_$_UVBSEndpoint._underlying
+- _OBJC_METACLASS_$_UVAgentControlServiceClientConnection
+- _OBJC_METACLASS_$_UVAgentControlServiceServerConnection
+- _OBJC_METACLASS_$_UVAgentPreviewNonUIServiceClientConnection
+- _OBJC_METACLASS_$_UVAgentPreviewNonUIServiceServerConnection
+- _OBJC_METACLASS_$_UVAgentPreviewSceneServiceClientConnection
+- _OBJC_METACLASS_$_UVAgentPreviewSceneServiceServerConnection
+- _OBJC_METACLASS_$_UVBSConnection
+- _OBJC_METACLASS_$_UVBSEndpoint
+- _OBJC_METACLASS_$_UVBSPipeServiceClientConnection
+- _OBJC_METACLASS_$_UVBSPipeServiceConnection
+- _OBJC_METACLASS_$_UVBSPipeServiceServerConnection
+- _OBJC_METACLASS_$_UVDaemonServiceClientConnection
+- _OBJC_METACLASS_$_UVDaemonServiceServerConnection
+- _OBJC_METACLASS_$_UVXcodeServiceClientConnection
+- _OBJC_METACLASS_$_UVXcodeServiceServerConnection
+- _OBJC_METACLASS_$__TtCE17PreviewsOSSupportCSo25UVBSPipeServiceConnectionP33_6F6228FEB9D698677456E0B4E0512AD215InterfaceTarget
+- _OUTLINED_FUNCTION_0
+- _UVAgentControlService
+- _UVAgentControlServiceInterface
+- _UVAgentControlServiceInterface.__interface
+- _UVAgentControlServiceInterface.onceToken
+- _UVAgentPreviewNonUIService
+- _UVAgentPreviewNonUIServiceInterface
+- _UVAgentPreviewNonUIServiceInterface.__interface
+- _UVAgentPreviewNonUIServiceInterface.onceToken
+- _UVAgentPreviewSceneService
+- _UVAgentPreviewSceneServiceInterface
+- _UVAgentPreviewSceneServiceInterface.__interface
+- _UVAgentPreviewSceneServiceInterface.onceToken
+- _UVBSPipeService
+- _UVBSPipeServiceInterface
+- _UVBSPipeServiceInterface.__interface
+- _UVBSPipeServiceInterface.onceToken
+- _UVDaemonService
+- _UVDaemonServiceInterface
+- _UVDaemonServiceInterface.__interface
+- _UVDaemonServiceInterface.onceToken
+- _UVPreviewShellPipeDomain
+- _UVPreviewShellPipeMachName
+- _UVPreviewShellPipeServerAgentSideInstance
+- _UVPreviewShellPipeServerHostSideInstance
+- _UVPreviewShellSystemServicesDomain
+- _UVPreviewShellSystemServicesMachName
+- _UVXcodeService
+- _UVXcodeServiceInterface
+- _UVXcodeServiceInterface.__interface
+- _UVXcodeServiceInterface.onceToken
+- __DATA__TtCE17PreviewsOSSupportCSo25UVBSPipeServiceConnectionP33_6F6228FEB9D698677456E0B4E0512AD215InterfaceTarget
+- __IVARS__TtCC17PreviewsOSSupport21ServiceHubPipeServiceP33_D60AF27B33A43CA6B4EFE7E9B063B24C23PipeServiceHubTransport
+- __IVARS__TtCE17PreviewsOSSupportCSo25UVBSPipeServiceConnectionP33_6F6228FEB9D698677456E0B4E0512AD215InterfaceTarget
+- __METACLASS_DATA__TtCE17PreviewsOSSupportCSo25UVBSPipeServiceConnectionP33_6F6228FEB9D698677456E0B4E0512AD215InterfaceTarget
+- __NSConcreteGlobalBlock
+- __OBJC_$_CLASS_METHODS_UVAgentControlServiceClientConnection
+- __OBJC_$_CLASS_METHODS_UVAgentPreviewNonUIServiceClientConnection
+- __OBJC_$_CLASS_METHODS_UVAgentPreviewSceneServiceClientConnection
+- __OBJC_$_CLASS_METHODS_UVBSConnection
+- __OBJC_$_CLASS_METHODS_UVBSEndpoint
+- __OBJC_$_CLASS_METHODS_UVBSPipeServiceClientConnection
+- __OBJC_$_CLASS_METHODS_UVDaemonServiceClientConnection
+- __OBJC_$_CLASS_METHODS_UVXcodeServiceClientConnection
+- __OBJC_$_INSTANCE_METHODS_UVAgentControlServiceClientConnection
+- __OBJC_$_INSTANCE_METHODS_UVAgentControlServiceServerConnection
+- __OBJC_$_INSTANCE_METHODS_UVAgentPreviewNonUIServiceClientConnection
+- __OBJC_$_INSTANCE_METHODS_UVAgentPreviewNonUIServiceServerConnection
+- __OBJC_$_INSTANCE_METHODS_UVAgentPreviewSceneServiceClientConnection
+- __OBJC_$_INSTANCE_METHODS_UVAgentPreviewSceneServiceServerConnection
+- __OBJC_$_INSTANCE_METHODS_UVBSConnection
+- __OBJC_$_INSTANCE_METHODS_UVBSEndpoint
+- __OBJC_$_INSTANCE_METHODS_UVBSPipeServiceConnection
+- __OBJC_$_INSTANCE_METHODS_UVDaemonServiceClientConnection
+- __OBJC_$_INSTANCE_METHODS_UVDaemonServiceServerConnection
+- __OBJC_$_INSTANCE_METHODS_UVXcodeServiceClientConnection
+- __OBJC_$_INSTANCE_METHODS_UVXcodeServiceServerConnection
+- __OBJC_$_INSTANCE_METHODS__TtCE17PreviewsOSSupportCSo25UVBSPipeServiceConnectionP33_6F6228FEB9D698677456E0B4E0512AD215InterfaceTarget
+- __OBJC_$_INSTANCE_VARIABLES_UVAgentPreviewSceneServiceServerConnection
+- __OBJC_$_INSTANCE_VARIABLES_UVBSConnection
+- __OBJC_$_INSTANCE_VARIABLES_UVBSEndpoint
+- __OBJC_$_PROP_LIST_UVAgentControlServiceClientConnection
+- __OBJC_$_PROP_LIST_UVAgentControlServiceServerConnection
+- __OBJC_$_PROP_LIST_UVAgentPreviewNonUIServiceClientConnection
+- __OBJC_$_PROP_LIST_UVAgentPreviewNonUIServiceServerConnection
+- __OBJC_$_PROP_LIST_UVAgentPreviewSceneServiceClientConnection
+- __OBJC_$_PROP_LIST_UVAgentPreviewSceneServiceServerConnection
+- __OBJC_$_PROP_LIST_UVBSConnection
+- __OBJC_$_PROP_LIST_UVBSEndpoint
+- __OBJC_$_PROP_LIST_UVBSPipeServiceClientConnection
+- __OBJC_$_PROP_LIST_UVBSPipeServiceConnection
+- __OBJC_$_PROP_LIST_UVBSPipeServiceServerConnection
+- __OBJC_$_PROP_LIST_UVBSServerConnection
+- __OBJC_$_PROP_LIST_UVDaemonServiceClientConnection
+- __OBJC_$_PROP_LIST_UVDaemonServiceServerConnection
+- __OBJC_$_PROP_LIST_UVXcodeServiceClientConnection
+- __OBJC_$_PROP_LIST_UVXcodeServiceServerConnection
+- __OBJC_$_PROTOCOL_CLASS_METHODS_BSXPCSecureCoding
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_BSXPCSecureCoding
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_UVAgentControlServiceProtocol
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_UVAgentPreviewNonUIServiceProtocol
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_UVAgentPreviewSceneServiceProtocol
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_UVAgentPreviewServiceProtocol
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_UVBSClientConnection
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_UVBSPipeServiceProtocol
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_UVBSServerConnection
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_UVDaemonServiceProtocol
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_UVXcodeServiceProtocol
+- __OBJC_$_PROTOCOL_METHOD_TYPES_BSXPCSecureCoding
+- __OBJC_$_PROTOCOL_METHOD_TYPES_UVAgentControlServiceProtocol
+- __OBJC_$_PROTOCOL_METHOD_TYPES_UVAgentPreviewNonUIServiceProtocol
+- __OBJC_$_PROTOCOL_METHOD_TYPES_UVAgentPreviewSceneServiceProtocol
+- __OBJC_$_PROTOCOL_METHOD_TYPES_UVAgentPreviewServiceProtocol
+- __OBJC_$_PROTOCOL_METHOD_TYPES_UVBSClientConnection
+- __OBJC_$_PROTOCOL_METHOD_TYPES_UVBSPipeServiceProtocol
+- __OBJC_$_PROTOCOL_METHOD_TYPES_UVBSServerConnection
+- __OBJC_$_PROTOCOL_METHOD_TYPES_UVDaemonServiceProtocol
+- __OBJC_$_PROTOCOL_METHOD_TYPES_UVXcodeServiceProtocol
+- __OBJC_$_PROTOCOL_REFS_BSXPCSecureCoding
+- __OBJC_$_PROTOCOL_REFS_UVAgentControlServiceProtocol
+- __OBJC_$_PROTOCOL_REFS_UVAgentPreviewNonUIServiceProtocol
+- __OBJC_$_PROTOCOL_REFS_UVAgentPreviewSceneServiceProtocol
+- __OBJC_$_PROTOCOL_REFS_UVAgentPreviewServiceProtocol
+- __OBJC_$_PROTOCOL_REFS_UVBSClientConnection
+- __OBJC_$_PROTOCOL_REFS_UVBSPipeServiceProtocol
+- __OBJC_$_PROTOCOL_REFS_UVBSServerConnection
+- __OBJC_$_PROTOCOL_REFS_UVDaemonServiceProtocol
+- __OBJC_$_PROTOCOL_REFS_UVXcodeServiceProtocol
+- __OBJC_CLASS_PROTOCOLS_$_UVAgentControlServiceClientConnection
+- __OBJC_CLASS_PROTOCOLS_$_UVAgentControlServiceServerConnection
+- __OBJC_CLASS_PROTOCOLS_$_UVAgentPreviewNonUIServiceClientConnection
+- __OBJC_CLASS_PROTOCOLS_$_UVAgentPreviewNonUIServiceServerConnection
+- __OBJC_CLASS_PROTOCOLS_$_UVAgentPreviewSceneServiceClientConnection
+- __OBJC_CLASS_PROTOCOLS_$_UVAgentPreviewSceneServiceServerConnection
+- __OBJC_CLASS_PROTOCOLS_$_UVBSConnection
+- __OBJC_CLASS_PROTOCOLS_$_UVBSEndpoint
+- __OBJC_CLASS_PROTOCOLS_$_UVBSPipeServiceClientConnection
+- __OBJC_CLASS_PROTOCOLS_$_UVBSPipeServiceConnection
+- __OBJC_CLASS_PROTOCOLS_$_UVBSPipeServiceServerConnection
+- __OBJC_CLASS_PROTOCOLS_$_UVDaemonServiceClientConnection
+- __OBJC_CLASS_PROTOCOLS_$_UVDaemonServiceServerConnection
+- __OBJC_CLASS_PROTOCOLS_$_UVXcodeServiceClientConnection
+- __OBJC_CLASS_PROTOCOLS_$_UVXcodeServiceServerConnection
+- __OBJC_CLASS_RO_$_UVAgentControlServiceClientConnection
+- __OBJC_CLASS_RO_$_UVAgentControlServiceServerConnection
+- __OBJC_CLASS_RO_$_UVAgentPreviewNonUIServiceClientConnection
+- __OBJC_CLASS_RO_$_UVAgentPreviewNonUIServiceServerConnection
+- __OBJC_CLASS_RO_$_UVAgentPreviewSceneServiceClientConnection
+- __OBJC_CLASS_RO_$_UVAgentPreviewSceneServiceServerConnection
+- __OBJC_CLASS_RO_$_UVBSConnection
+- __OBJC_CLASS_RO_$_UVBSEndpoint
+- __OBJC_CLASS_RO_$_UVBSPipeServiceClientConnection
+- __OBJC_CLASS_RO_$_UVBSPipeServiceConnection
+- __OBJC_CLASS_RO_$_UVBSPipeServiceServerConnection
+- __OBJC_CLASS_RO_$_UVDaemonServiceClientConnection
+- __OBJC_CLASS_RO_$_UVDaemonServiceServerConnection
+- __OBJC_CLASS_RO_$_UVXcodeServiceClientConnection
+- __OBJC_CLASS_RO_$_UVXcodeServiceServerConnection
+- __OBJC_LABEL_PROTOCOL_$_BSXPCSecureCoding
+- __OBJC_LABEL_PROTOCOL_$_UVAgentControlServiceProtocol
+- __OBJC_LABEL_PROTOCOL_$_UVAgentPreviewNonUIServiceProtocol
+- __OBJC_LABEL_PROTOCOL_$_UVAgentPreviewSceneServiceProtocol
+- __OBJC_LABEL_PROTOCOL_$_UVAgentPreviewServiceProtocol
+- __OBJC_LABEL_PROTOCOL_$_UVBSClientConnection
+- __OBJC_LABEL_PROTOCOL_$_UVBSPipeServiceProtocol
+- __OBJC_LABEL_PROTOCOL_$_UVBSServerConnection
+- __OBJC_LABEL_PROTOCOL_$_UVDaemonServiceProtocol
+- __OBJC_LABEL_PROTOCOL_$_UVXcodeServiceProtocol
+- __OBJC_METACLASS_RO_$_UVAgentControlServiceClientConnection
+- __OBJC_METACLASS_RO_$_UVAgentControlServiceServerConnection
+- __OBJC_METACLASS_RO_$_UVAgentPreviewNonUIServiceClientConnection
+- __OBJC_METACLASS_RO_$_UVAgentPreviewNonUIServiceServerConnection
+- __OBJC_METACLASS_RO_$_UVAgentPreviewSceneServiceClientConnection
+- __OBJC_METACLASS_RO_$_UVAgentPreviewSceneServiceServerConnection
+- __OBJC_METACLASS_RO_$_UVBSConnection
+- __OBJC_METACLASS_RO_$_UVBSEndpoint
+- __OBJC_METACLASS_RO_$_UVBSPipeServiceClientConnection
+- __OBJC_METACLASS_RO_$_UVBSPipeServiceConnection
+- __OBJC_METACLASS_RO_$_UVBSPipeServiceServerConnection
+- __OBJC_METACLASS_RO_$_UVDaemonServiceClientConnection
+- __OBJC_METACLASS_RO_$_UVDaemonServiceServerConnection
+- __OBJC_METACLASS_RO_$_UVXcodeServiceClientConnection
+- __OBJC_METACLASS_RO_$_UVXcodeServiceServerConnection
+- __OBJC_PROTOCOL_$_BSXPCSecureCoding
+- __OBJC_PROTOCOL_$_UVAgentControlServiceProtocol
+- __OBJC_PROTOCOL_$_UVAgentPreviewNonUIServiceProtocol
+- __OBJC_PROTOCOL_$_UVAgentPreviewSceneServiceProtocol
+- __OBJC_PROTOCOL_$_UVAgentPreviewServiceProtocol
+- __OBJC_PROTOCOL_$_UVBSClientConnection
+- __OBJC_PROTOCOL_$_UVBSPipeServiceProtocol
+- __OBJC_PROTOCOL_$_UVBSServerConnection
+- __OBJC_PROTOCOL_$_UVDaemonServiceProtocol
+- __OBJC_PROTOCOL_$_UVXcodeServiceProtocol
+- __OBJC_PROTOCOL_REFERENCE_$_UVAgentControlServiceProtocol
+- __OBJC_PROTOCOL_REFERENCE_$_UVAgentPreviewNonUIServiceProtocol
+- __OBJC_PROTOCOL_REFERENCE_$_UVAgentPreviewSceneServiceProtocol
+- __OBJC_PROTOCOL_REFERENCE_$_UVBSPipeServiceProtocol
+- __OBJC_PROTOCOL_REFERENCE_$_UVDaemonServiceProtocol
+- __OBJC_PROTOCOL_REFERENCE_$_UVXcodeServiceProtocol
+- __PROTOCOLS__TtCE17PreviewsOSSupportCSo25UVBSPipeServiceConnectionP33_6F6228FEB9D698677456E0B4E0512AD215InterfaceTarget
+- __PROTOCOLS__TtCE17PreviewsOSSupportCSo25UVBSPipeServiceConnectionP33_6F6228FEB9D698677456E0B4E0512AD215InterfaceTarget.2
+- ___71-[UVBSConnection activateWithInterface:serviceQuality:interfaceTarget:]_block_invoke
+- ___71-[UVBSConnection activateWithInterface:serviceQuality:interfaceTarget:]_block_invoke_2
+- ___71-[UVBSConnection activateWithInterface:serviceQuality:interfaceTarget:]_block_invoke_3
+- ___90+[UVAgentPreviewSceneServiceClientConnection createWithEndpoint:forSceneIdentifier:error:]_block_invoke
+- ___UVAgentControlServiceInterface_block_invoke
+- ___UVAgentPreviewNonUIServiceInterface_block_invoke
+- ___UVAgentPreviewSceneServiceInterface_block_invoke
+- ___UVBSPipeServiceInterface_block_invoke
+- ___UVDaemonServiceInterface_block_invoke
+- ___UVXcodeServiceInterface_block_invoke
+- ___block_descriptor_32_e5_v8?0l
+- ___block_descriptor_40_e8_32s_e25_v16?0"<BSXPCEncoding>"8ls32l8
+- ___block_descriptor_40_e8_32s_e57_v16?0"BSServiceConnection<BSServiceConnectionContext>"8ls32l8
+- ___block_descriptor_64_e8_32s40s48s56s_e42_v16?0"<BSServiceConnectionConfiguring>"8ls32l8s40l8s48l8s56l8
+- ___block_literal_global
+- ___block_literal_global.62
+- ___block_literal_global.74
+- ___swift_destroy_boxed_opaque_existential_0
+- ___swift_memcpy40_8
+- __os_log_fault_impl
+- _associated conformance 17PreviewsOSSupport014ServiceHubPipeC0C0ecD9Transport33_D60AF27B33A43CA6B4EFE7E9B063B24CLLC13WrappingErrorVyx__G10Foundation09LocalizedR0AAs0R0
+- _associated conformance 17PreviewsOSSupport017ServiceHubPreviewC0C13WrappingError33_6073CC18FD008102EE8AB0EE2F4D4560LLV10Foundation09LocalizedG0AAs0G0
+- _associated conformance 17PreviewsOSSupport12PayloadError33_3A253D2C338BFBBDEA8B546043947FCELLV10Foundation09LocalizedD0AAs0D0
+- _associated conformance 17PreviewsOSSupport12PayloadError33_3A253D2C338BFBBDEA8B546043947FCELLV9DirectionOSHAASQ
+- _associated conformance 17PreviewsOSSupport16ShellAgentSystemO0A9Messaging013MessageStreamE0AA12LeftEndpointAdEP_AD0J8Protocol
+- _associated conformance 17PreviewsOSSupport16ShellAgentSystemO0C8EndpointO0A9Messaging0F8ProtocolAA6RemoteAfGP_AfG
+- _associated conformance 17PreviewsOSSupport16ShellAgentSystemO0C8EndpointO0A9Messaging0F8ProtocolAA8IdentityAfGP_0A10Foundation25PropertyListRepresentable
+- _associated conformance 17PreviewsOSSupport16ShellAgentSystemO0C8EndpointO0A9Messaging0F8ProtocolAA8IdentityAfGP_SH
+- _associated conformance 17PreviewsOSSupport16ShellAgentSystemO0D8EndpointO0A9Messaging0F8ProtocolAA6RemoteAfGP_AfG
+- _associated conformance 17PreviewsOSSupport16ShellAgentSystemO0D8EndpointO0A9Messaging0F8ProtocolAA8IdentityAfGP_0A10Foundation25PropertyListRepresentable
+- _associated conformance 17PreviewsOSSupport16ShellAgentSystemO0D8EndpointO0A9Messaging0F8ProtocolAA8IdentityAfGP_SH
+- _associated conformance 17PreviewsOSSupport16ShellAgentSystemO0D8EndpointO8IdentityV0A10Foundation25PropertyListRepresentableAA01_iJ4TypeAhIP_AH0ijL0
+- _associated conformance 17PreviewsOSSupport17NullArgumentError33_FBA49675A7E934BBB57A75E97E7B4930LLVyxG10Foundation09LocalizedE0AAs0E0
+- _block_copy_helper.12
+- _block_copy_helper.18
+- _block_copy_helper.24
+- _block_copy_helper.26
+- _block_descriptor.14
+- _block_descriptor.20
+- _block_descriptor.26
+- _block_descriptor.28
+- _block_destroy_helper.13
+- _block_destroy_helper.19
+- _block_destroy_helper.25
+- _block_destroy_helper.27
+- _dispatch_once
+- _objc_alloc
+- _objc_alloc_init
+- _objc_msgSend$_connectionError:
+- _objc_msgSend$_didActivate
+- _objc_msgSend$_didInvalidate
+- _objc_msgSend$_machLookupError:
+- _objc_msgSend$activate
+- _objc_msgSend$activateWithInterface:serviceQuality:interfaceTarget:
+- _objc_msgSend$addObserver:
+- _objc_msgSend$callStackSymbols
+- _objc_msgSend$cancel
+- _objc_msgSend$configureConnection:
+- _objc_msgSend$connectHostMessagePipeWithEndpoint:
+- _objc_msgSend$connectJITWithEndpoint:setupPayload:replyHandler:
+- _objc_msgSend$connectShellMessagePipeWithEndpoint:
+- _objc_msgSend$connectionWithEndpoint:clientContextBuilder:
+- _objc_msgSend$copy
+- _objc_msgSend$copyURLToAgentDescriptorPayload:usingData:replyHandler:
+- _objc_msgSend$copyURLWithURLWrapperData:reply:
+- _objc_msgSend$createPreviewNonUIAgentWithEndpoint:
+- _objc_msgSend$createPreviewSceneAgentWithEndpoint:forSceneIdentifier:
+- _objc_msgSend$createWithEndpoint:clientContextBuilder:error:
+- _objc_msgSend$createWithMachName:service:instance:clientContextBuilder:error:
+- _objc_msgSend$decodeObjectOfClass:forKey:
+- _objc_msgSend$encodeObject:forKey:
+- _objc_msgSend$endpointForMachName:service:instance:
+- _objc_msgSend$fire
+- _objc_msgSend$generateStaticOutput:
+- _objc_msgSend$grantExecutePermissionToAgentDescriptorPayload:usingData:replyHandler:
+- _objc_msgSend$grantExecutePermissionWithURLWrapperData:reply:
+- _objc_msgSend$hasFired
+- _objc_msgSend$initWithServiceConnection:
+- _objc_msgSend$initializeWithClientContext:
+- _objc_msgSend$invalidate
+- _objc_msgSend$performUpdate:replyHandler:
+- _objc_msgSend$performUpdate:sceneContext:replyHandler:
+- _objc_msgSend$pid
+- _objc_msgSend$raise:format:
+- _objc_msgSend$remoteProcess
+- _objc_msgSend$remoteTarget
+- _objc_msgSend$remoteTarget:
+- _objc_msgSend$sendEncodedEvent:
+- _objc_msgSend$sendEncodedEvent:replyHandler:
+- _objc_msgSend$sendEndpoint:context:contentIdentifier:
+- _objc_msgSend$sendMessage:reply:
+- _objc_msgSend$sendPreviewServiceMessage:replyHandler:
+- _objc_msgSend$setActivationHandler:
+- _objc_msgSend$setInterface:
+- _objc_msgSend$setInterfaceTarget:
+- _objc_msgSend$setInvalidationHandler:
+- _objc_msgSend$setServiceQuality:
+- _objc_msgSend$underlying
+- _objc_msgSend$userInteractive
+- _objc_opt_class
+- _objc_retainAutorelease
+- _objc_retainAutoreleaseReturnValue
+- _objc_retain_x1
+- _objc_retain_x27
+- _objc_retain_x4
+- _swift_getForeignTypeMetadata
+- _swift_initStackObject
+- _swift_setDeallocating
+- _symbolic $s17PreviewsMessaging16EndpointProtocolP
+- _symbolic $s17PreviewsMessaging19MessageStreamSystemP
+- _symbolic $s18PreviewsFoundation25PropertyListRepresentableP
+- _symbolic SSSg______pSgIeggg_ s5ErrorP
+- _symbolic So14UVBSConnectionC
+- _symbolic So25UVBSPipeServiceConnectionC
+- _symbolic So30UVXcodeServiceClientConnectionC
+- _symbolic So31UVBSPipeServiceClientConnectionC
+- _symbolic _____ 17PreviewsMessaging17ContentIdentifierV
+- _symbolic _____ 17PreviewsOSSupport014ServiceHubPipeC0C0ecD9Transport33_D60AF27B33A43CA6B4EFE7E9B063B24CLLC
+- _symbolic _____ 17PreviewsOSSupport014ServiceHubPipeC0C0ecD9Transport33_D60AF27B33A43CA6B4EFE7E9B063B24CLLC13WrappingErrorV
+- _symbolic _____ 17PreviewsOSSupport017ServiceHubPreviewC0C13WrappingError33_6073CC18FD008102EE8AB0EE2F4D4560LLV
+- _symbolic _____ 17PreviewsOSSupport10EmptyReply33_0D53B85BC2CB626359A4427C8900ECAELLV
+- _symbolic _____ 17PreviewsOSSupport12PayloadError33_3A253D2C338BFBBDEA8B546043947FCELLV
+- _symbolic _____ 17PreviewsOSSupport12PayloadError33_3A253D2C338BFBBDEA8B546043947FCELLV7ProblemO
+- _symbolic _____ 17PreviewsOSSupport12PayloadError33_3A253D2C338BFBBDEA8B546043947FCELLV9DirectionO
+- _symbolic _____ 17PreviewsOSSupport17NullArgumentError33_FBA49675A7E934BBB57A75E97E7B4930LLV
+- _symbolic _____ 18PreviewsFoundation12PropertyListV
+- _symbolic _____ 18PreviewsFoundation15SingleFireEventC
+- _symbolic _____ 18PreviewsFoundation18InvalidationHandleC
+- _symbolic _____ So21UVPreviewShellVariantV
+- _symbolic _____ So25UVBSPipeServiceConnectionC17PreviewsOSSupportE15InterfaceTarget33_6F6228FEB9D698677456E0B4E0512AD2LLC
+- _symbolic _____Sg______pSgIeggg_ 10Foundation4DataV s5ErrorP
+- _symbolic ______p 18PreviewsFoundation13InvalidatableP
+- _symbolic ______pSgIegg_ s5ErrorP
+- _symbolic _____ySDySS_____GG 18PreviewsFoundation10ThreadSafeC 0A9OSSupport18TransactionManagerC0F033_7498658C26710573228F26AE7AF13147LLV
+- _symbolic _____ySS______pGIegg_ s6ResultO s5ErrorP
+- _symbolic _____ySo14UVPropertyListCG 17PreviewsOSSupport17NullArgumentError33_FBA49675A7E934BBB57A75E97E7B4930LLV
+- _symbolic _____y_____G 17PreviewsMessaging17CenterMessagePipeC AA15HostAgentSystemO
+- _symbolic _____y_____G 17PreviewsMessaging17CenterMessagePipeC AA15HostShellSystemO
+- _symbolic _____y_____G 17PreviewsOSSupport014ServiceHubPipeC0C 0A9Messaging15HostAgentSystemO
+- _symbolic _____y_____G 17PreviewsOSSupport014ServiceHubPipeC0C 0A9Messaging15HostShellSystemO
+- _symbolic _____y_____G 18PreviewsFoundation10ThreadSafeC 0A9OSSupport23PreviewAssertionManagerC7Storage33_5CA3FDFC8E253B83EE48BAF559EE2BF2LLV
+- _symbolic _____y______G 17PreviewsOSSupport014ServiceHubPipeC0C0ecD9Transport33_D60AF27B33A43CA6B4EFE7E9B063B24CLLC 0A9Messaging15HostAgentSystemO
+- _symbolic _____y______G 17PreviewsOSSupport014ServiceHubPipeC0C0ecD9Transport33_D60AF27B33A43CA6B4EFE7E9B063B24CLLC 0A9Messaging15HostShellSystemO
+- _symbolic _____y___________pGIegg_ s6ResultO 10Foundation4DataV s5ErrorP
+- _symbolic _____y___________pGIegg_ s6ResultO 18PreviewsFoundation12PropertyListV s5ErrorP
+- _symbolic _____y______pG 18PreviewsFoundation6FutureC 0A9Messaging9TransportP
+- _symbolic _____y______pG s23_ContiguousArrayStorageC 18PreviewsFoundation13InvalidatableP
+- _symbolic _____yxG 17PreviewsMessaging17CenterMessagePipeC
+- _symbolic _____yx_G 17PreviewsOSSupport014ServiceHubPipeC0C0ecD9Transport33_D60AF27B33A43CA6B4EFE7E9B063B24CLLC
+- _symbolic _____yytG 18PreviewsFoundation17FutureTerminationO
+- _symbolic _____yyt______pGIegg_ s6ResultO s5ErrorP
+- _symbolic xm
+- _symbolic ySo19UVServiceHubMessageCc
+- _symbolic y_____c 17PreviewsMessaging16TransportMessageV
+- _symbolic y_____cSg 17PreviewsMessaging16TransportMessageV
+- _symbolic yp
+CStrings:
++ " context reply "
++ " could not send message -- it may have invalidated or not yet be activated"
++ " reply "
++ "%{public}s sending bs endpoint: %{public}s"
++ "%{public}s sending xpc endpoint: %{public}s"
++ "/Library/Caches/com.apple.xbs/Sources/UITestingAgent/OS/PreviewsOSSupport/Sources/PreviewsOSSupport/CrashReportListener.swift"
++ "/Library/Caches/com.apple.xbs/Sources/UITestingAgent/OS/PreviewsOSSupport/Sources/PreviewsOSSupport/ShellConnection+Interface.swift"
++ "/Library/Caches/com.apple.xbs/Sources/UITestingAgent/OS/PreviewsOSSupport/Sources/PreviewsOSSupport/ShellConnection+Role.swift"
++ "/Library/Caches/com.apple.xbs/Sources/UITestingAgent/OS/PreviewsOSSupport/Sources/PreviewsOSSupport/ShellConnection.swift"
++ "@40@0:8@?16@?24@?32"
++ "Agent JIT bootstrap service"
++ "Agent control service"
++ "Agent nonUI preview service"
++ "Agent scene preview service"
++ "Could not connect by endpoint to shell service "
++ "Could not perform mach lookup for "
++ "Daemon preview service"
++ "Did receive log for pid: %{public}d"
++ "Host-to-agent pipe service, "
++ "Host-to-shell pipe service"
++ "Insufficient space allocated to copy string contents"
++ "Invalid message on ServiceHub channel"
++ "OSADiagnosticObserver"
++ "PreviewsOSSupport.CrashReportListener"
++ "PreviewsOSSupport.ObserverProxy"
++ "Request to start monitoring"
++ "Requested next crash for: %s"
++ "Service hub pipe transport"
++ "ServiceHubTransport"
++ "Shell-to-agent pipe service"
++ "ShellConnection"
++ "Swift/ContiguousArrayBuffer.swift"
++ "Swift/StringTesting.swift"
++ "Swift/StringUTF8View.swift"
++ "Swift/UnsafeBufferPointer.swift"
++ "Swift/UnsafePointer.swift"
++ "Swift/UnsafeRawBufferPointer.swift"
++ "Swift/UnsafeRawPointer.swift"
++ "T@\"NSString\",?,R,C"
++ "UVShellConnectionInterfaceTarget"
++ "UVShellConnectionProtocol"
++ "Unable to parse crash report: %@"
++ "Unexpectedly found nil while unwrapping an Optional value"
++ "UnsafeMutableBufferPointer with negative count"
++ "UnsafeMutablePointer.initialize overlapping range"
++ "UnsafeMutablePointer.moveInitialize with negative count"
++ "UnsafeMutableRawBufferPointer.copyMemory source has too many elements"
++ "UnsafeMutableRawPointer.initializeMemory overlapping range"
++ "Vv40@0:8@\"BSServiceConnectionEndpoint\"16@\"UVPropertyList\"24@?<v@?@\"UVPropertyList\"@\"NSError\">32"
++ "Xcode preview service"
++ "_TtC17PreviewsOSSupport19CrashReportListener"
++ "_TtCC17PreviewsOSSupport19CrashReportListener13ObserverProxy"
++ "_bsEndpointHandler"
++ "_handleNullArgument:replyHandler:"
++ "_messageHandler"
++ "_xpcEndpointHandler"
++ "activate(connectionReceiver:)"
++ "activationPromise"
++ "activationTask"
++ "addObserver:forTypes:"
++ "board services endpoints"
++ "cacheReport(_:)"
++ "client connection on "
++ "com.apple.uv.agent-jit-bootstrap-service"
++ "connectHostToAgentPipe"
++ "connectShellToAgentPipe"
++ "context"
++ "copyURL"
++ "createPreviewNonUIAgent"
++ "createPreviewSceneAgent"
++ "diagnosticsLogHandler"
++ "didWriteDiagnosticLog:logId:logFilePath:logInfo:error:"
++ "discriminant"
++ "endpoint"
++ "fetchCrashReport"
++ "grantExecutePermission"
++ "handleActivation(_:)"
++ "handleInvalidation()"
++ "init(connection:service:role:)"
++ "init(serviceHubMessageHandler:)"
++ "initWithMessageHandler:xpcEndpointHandler:bsEndpointHandler:"
++ "invalid Collection: less than 'count' elements in collection"
++ "makeBsEndpointRelay(for:using:)"
++ "makeXpcEndpointRelay(for:using:)"
++ "nextCrashReport(for:timeout:)"
++ "observerProxy"
++ "previewService"
++ "previewsDylibEntryPointName"
++ "previewsDylibPath"
++ "received"
++ "remoteToken"
++ "request"
++ "role"
++ "send(_:context:reply:)"
++ "send(_:reply:)"
++ "send(endpoint:context:)"
++ "send(endpoint:context:expecting:)"
++ "sendBSEndpoint:context:replyHandler:"
++ "sendMessage:"
++ "sendMessage:replyHandler:"
++ "sendXPCEndpoint:context:replyHandler:"
++ "service"
++ "serviceConnection"
++ "serviceHubReplyHandler"
++ "sharedClient"
++ "shell IPC invocation had a null '%@' parameter"
++ "startListeningIfNeeded()"
++ "state"
++ "task promise "
++ "types"
++ "url"
++ "v24@?0@\"UVPropertyList\"8@?<v@?@\"UVPropertyList\"@\"NSError\">16"
++ "v32@?0@\"BSServiceConnectionEndpoint\"8@\"UVPropertyList\"16@?<v@?@\"UVPropertyList\"@\"NSError\">24"
++ "v32@?0@\"NSXPCListenerEndpoint\"8@\"UVPropertyList\"16@?<v@?@\"UVPropertyList\"@\"NSError\">24"
++ "v40@0:8@\"NSString\"16@\"NSString\"24@\"NSDictionary\"32"
++ "v56@0:8@\"NSString\"16@\"NSString\"24@\"NSString\"32@\"NSDictionary\"40@\"NSError\"48"
++ "v56@0:8@16@24@32@40@48"
++ "willWriteDiagnosticLog:logId:logInfo:"
+- "\x01"
+- " expected nonnull argument of type "
+- "%@ deallocated without being invalidated: %@"
+- "@\"BSServiceConnection\""
+- "@\"BSServiceConnectionEndpoint\""
+- "@\"UVObjCSingleFireEvent\""
+- "@24@0:8@\"<BSXPCDecoding>\"16"
+- "@24@0:8@\"BSServiceConnection\"16"
+- "@32@0:8@\"BSServiceConnection<BSServiceConnectionHost>\"16@\"<BSXPCDecoding>\"24"
+- "@32@0:8@16@24"
+- "@32@0:8@16^@24"
+- "@32@0:8q16^@24"
+- "@40@0:8@16@24^@32"
+- "@40@0:8@16@?24^@32"
+- "@40@0:8q16q24^@32"
+- "@56@0:8@16@24@32@?40^@48"
+- "BSXPCSecureCoding"
+- "Cannot send message on %@: %@"
+- "Could not create connection with endpoint %@"
+- "Could not send pipe event: %{public}@"
+- "Invalid pipe event received through ServiceHub channel"
+- "Invalid preview service message on ServiceHub channel"
+- "Mach lookup of %{public}@ failed. Perhaps a sandbox violation?"
+- "Message send failure on "
+- "PipeServiceHubTransport"
+- "PreviewsOSSupport.InterfaceTarget"
+- "PreviewsOSSupport/UVBSConnectionAdditions.swift"
+- "SceneIdentifierContextKey"
+- "Should never be used"
+- "T@\"BSServiceConnectionEndpoint\",R,N,V_underlying"
+- "T@\"NSString\",R,N,V_sceneIdentifier"
+- "Ti,R"
+- "Ti,R,V_clientPid"
+- "Ti,R,V_serverPid"
+- "UVAgentControlServiceClientConnection"
+- "UVAgentControlServiceProtocol"
+- "UVAgentControlServiceServerConnection"
+- "UVAgentPreviewNonUIServiceClientConnection"
+- "UVAgentPreviewNonUIServiceProtocol"
+- "UVAgentPreviewNonUIServiceServerConnection"
+- "UVAgentPreviewSceneServiceClientConnection"
+- "UVAgentPreviewSceneServiceProtocol"
+- "UVAgentPreviewSceneServiceServerConnection"
+- "UVAgentPreviewServiceProtocol"
+- "UVBSClientConnection"
+- "UVBSConnection"
+- "UVBSEndpoint"
+- "UVBSEndpoint missing underlying endpoint"
+- "UVBSPipeServiceClientConnection"
+- "UVBSPipeServiceConnection"
+- "UVBSPipeServiceProtocol"
+- "UVBSPipeServiceServerConnection"
+- "UVBSServerConnection"
+- "UVDaemonServiceClientConnection"
+- "UVDaemonServiceProtocol"
+- "UVDaemonServiceServerConnection"
+- "UVPreviewShellPipeServerAgentSideInstance"
+- "UVPreviewShellPipeServerHostSideInstance"
+- "UVXcodeServiceClientConnection"
+- "UVXcodeServiceProtocol"
+- "UVXcodeServiceServerConnection"
+- "Vv24@0:8@\"UVBSEndpoint\"16"
+- "Vv24@0:8@?16"
+- "Vv24@0:8@?<v@?@\"UVPropertyList\"@\"NSError\">16"
+- "Vv32@0:8@\"NSData\"16@?<v@?@\"NSError\">24"
+- "Vv32@0:8@\"NSData\"16@?<v@?@\"NSString\"@\"NSError\">24"
+- "Vv32@0:8@\"UVBSEndpoint\"16@\"NSString\"24"
+- "Vv32@0:8@16@24"
+- "Vv40@0:8@\"NSXPCListenerEndpoint\"16@\"UVPropertyList\"24@\"NSString\"32"
+- "Vv40@0:8@\"UVPropertyList\"16@\"NSData\"24@?<v@?@\"NSError\">32"
+- "Vv40@0:8@\"UVPropertyList\"16@\"NSData\"24@?<v@?@\"NSString\"@\"NSError\">32"
+- "Vv40@0:8@\"UVPropertyList\"16@\"UVPropertyList\"24@?<v@?@\"UVPropertyList\"@\"NSError\">32"
+- "Vv40@0:8@16@24@32"
+- "_TtCE17PreviewsOSSupportCSo25UVBSPipeServiceConnectionP33_6F6228FEB9D698677456E0B4E0512AD215InterfaceTarget"
+- "_activationEvent"
+- "_clientPid"
+- "_connectionError:"
+- "_didActivate"
+- "_didInvalidate"
+- "_invalidationEvent"
+- "_machLookupError:"
+- "_sceneIdentifier"
+- "_serverPid"
+- "_serviceConnection"
+- "_underlying"
+- "activate(completion:)"
+- "activateWithInterface:serviceQuality:interfaceTarget:"
+- "activateWithInterfaceTarget:"
+- "activation"
+- "addObserver:"
+- "callStackSymbols"
+- "clientPid"
+- "com.apple.preview-shell.shell-agent-pipe-services"
+- "connectHostMessagePipeWithEndpoint:"
+- "connectJITWithEndpoint:setupPayload:replyHandler:"
+- "connectShellMessagePipeWithEndpoint:"
+- "connection has invalidated"
+- "connection has no remote target for unknown reasons"
+- "connection has not yet activated"
+- "copy"
+- "copyURLToAgentDescriptorPayload:usingData:replyHandler:"
+- "copyURLWithURLWrapperData:reply:"
+- "could not create connection to endpoint %@"
+- "createForSystem:variant:error:"
+- "createPreviewNonUIAgentWithEndpoint:"
+- "createPreviewSceneAgentWithEndpoint:forSceneIdentifier:"
+- "createWithEndpoint:clientContextBuilder:error:"
+- "createWithEndpoint:error:"
+- "createWithEndpoint:forSceneIdentifier:error:"
+- "createWithMachName:service:instance:clientContextBuilder:error:"
+- "createWithVariant:error:"
+- "dictionary"
+- "encodeWithBSXPCCoder:"
+- "fire"
+- "generateStaticOutput:"
+- "grantExecutePermissionToAgentDescriptorPayload:usingData:replyHandler:"
+- "grantExecutePermissionWithURLWrapperData:reply:"
+- "hasFired"
+- "i"
+- "i16@0:8"
+- "init(messageHandler:shellTransport:)"
+- "init(shellConnection:)"
+- "initWithBSXPCCoder:"
+- "initWithDictionary:"
+- "initWithServiceConnection:"
+- "initWithServiceConnection:context:"
+- "initWithUnderlying:"
+- "initializeWithClientContext:"
+- "mach lookup failed: %@"
+- "onActivation:"
+- "onInvalidation:"
+- "performUpdate:replyHandler:"
+- "performUpdate:sceneContext:replyHandler:"
+- "pid"
+- "pipe service client connection create with endpoint"
+- "pipe service connection create from host side for system %d with shell variant %d"
+- "raise:format:"
+- "receiver"
+- "remoteProcess"
+- "remoteTarget:"
+- "reply"
+- "sendEncodedEvent:"
+- "sendEncodedEvent:replyHandler:"
+- "sendEndpoint:context:contentIdentifier:"
+- "sendMessage:reply:"
+- "sendPreviewServiceMessage:replyHandler:"
+- "serverPid"
+- "shellConnection"
+- "supportsBSXPCSecureCoding"
+- "underlying"
+- "v24@0:8@\"<BSXPCEncoding>\"16"
+- "v8@?0"
+
+```

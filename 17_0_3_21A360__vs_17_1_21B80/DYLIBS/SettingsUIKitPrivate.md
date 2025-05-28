@@ -1,0 +1,136 @@
+## SettingsUIKitPrivate
+
+> `/System/Library/PrivateFrameworks/Settings/SettingsUIKitPrivate.framework/SettingsUIKitPrivate`
+
+```diff
+
+-1033.0.0.0.0
+-  __TEXT.__text: 0x15320
+-  __TEXT.__auth_stubs: 0xf20
++1034.0.0.0.0
++  __TEXT.__text: 0x17270
++  __TEXT.__auth_stubs: 0xf30
+   __TEXT.__objc_methlist: 0x8c
+   __TEXT.__const: 0xc02
+   __TEXT.__constg_swiftt: 0x4e0
+-  __TEXT.__swift5_typeref: 0x1dd8
++  __TEXT.__swift5_typeref: 0x1ff0
+   __TEXT.__swift5_reflstr: 0x2fb
+   __TEXT.__swift5_fieldmd: 0x2e8
+   __TEXT.__swift5_assocty: 0x1b8
+
+   __TEXT.__unwind_info: 0x59c
+   __TEXT.__eh_frame: 0xe8
+   __TEXT.__objc_classname: 0x71
+-  __TEXT.__objc_methname: 0x8bf
++  __TEXT.__objc_methname: 0x932
+   __TEXT.__objc_methtype: 0x344
+   __TEXT.__objc_stubs: 0x20
+-  __DATA_CONST.__got: 0x320
++  __DATA_CONST.__got: 0x350
+   __DATA_CONST.__const: 0xe8
+   __DATA_CONST.__objc_classlist: 0x20
+   __DATA_CONST.__objc_catlist: 0x8
+   __DATA_CONST.__objc_protolist: 0x40
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_const: 0x928
+-  __DATA_CONST.__objc_selrefs: 0x248
++  __DATA_CONST.__objc_selrefs: 0x288
+   __AUTH_CONST.__objc_const: 0x150
+-  __AUTH_CONST.__const: 0xf58
++  __AUTH_CONST.__const: 0xf98
+   __AUTH_CONST.__auth_ptr: 0x68
+-  __AUTH_CONST.__auth_got: 0x798
++  __AUTH_CONST.__auth_got: 0x7a0
+   __AUTH.__objc_data: 0x3c8
+   __AUTH.__data: 0x1c8
+   __DATA.__objc_protorefs: 0x20
+-  __DATA.__objc_classrefs: 0x88
+-  __DATA.__data: 0x8f8
++  __DATA.__objc_classrefs: 0xa0
++  __DATA.__data: 0x958
+   __DATA.__objc_stublist: 0x8
+   __DATA.__objc_catlist2: 0x10
+   __DATA.__bss: 0xa70
+-  __DATA.__common: 0x38
++  __DATA.__common: 0x40
+   - /System/Library/Frameworks/Combine.framework/Combine
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/Frameworks/SwiftUI.framework/SwiftUI
+   - /System/Library/Frameworks/UIKit.framework/UIKit
++  - /System/Library/PrivateFrameworks/IconServices.framework/IconServices
+   - /System/Library/PrivateFrameworks/Preferences.framework/Preferences
+   - /System/Library/PrivateFrameworks/Settings.framework/Settings
+   - /System/Library/PrivateFrameworks/UIKitCore.framework/UIKitCore
++  - /System/Library/PrivateFrameworks/_IconServices_SwiftUI.framework/_IconServices_SwiftUI
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/swift/libswiftAccelerate.dylib
+
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 523
+-  Symbols:   474
+-  CStrings:  213
++  Functions: 528
++  Symbols:   489
++  CStrings:  221
+ 
+Symbols:
++ _OBJC_CLASS_$_ISIcon
++ _OBJC_CLASS_$_ISImageDescriptor
++ _OBJC_CLASS_$_UIScreen
++ _PSIconUTTypeIdentifierKey
++ _PSLazyIconAppID
++ _PSLazyIconLoading
++ _get_witness_table 7SwiftUI15ModifiedContentVyAA6HStackVyAA9TupleViewVyAA012_ConditionalD0VyAA5ImageVAIy014_IconServices_aB005AsyncjI0VyAKGAOGSgGSg_20SettingsUIKitPrivate13AdaptiveStackVyAGyACyAA5GroupVyAIyAA4TextVAZSgGGAA30_EnvironmentKeyWritingModifierVyAA5ColorVSgGG_AA6SpacerVSgAXyA_GtGGAGyA10__AA20_DisclosureIndicatorVtGSgtGGAA14_OpacityEffectVGAA0G0HPA20_AAA24_HPyHC_A22_AA0gW0HPyHCHC.9
++ _get_witness_table 7SwiftUI15ModifiedContentVyAA6HStackVyAA9TupleViewVyAA012_ConditionalD0VyAA5ImageVAIy014_IconServices_aB005AsyncjI0VyAKGAOGSgGSg_AA6VStackVyAGyAA4TextVSg_AXtGGAGyAA6SpacerV_AA20_DisclosureIndicatorVtGSgtGGAA14_OpacityEffectVGAA0G0HPA6_AAA10_HPyHC_A8_AA0G8ModifierHPyHCHC.1
++ _get_witness_table 7SwiftUI6ToggleVyAA15ModifiedContentVyAA6HStackVyAA9TupleViewVyAA012_ConditionalE0VyAA5ImageVAKy014_IconServices_aB005AsynckJ0VyAMGAQGSgGSg_AA4TextVSgtGGAA14_OpacityEffectVGGAA0H0HPyHC.1
++ _kISImageDescriptorTableUIName
++ _symbolic _____y_____AAy_____yABGADGSgG 7SwiftUI19_ConditionalContentV AA5ImageV 014_IconServices_aB005AsyncfE0V
++ _symbolic _____y_____AAy_____yABGADGSgGSg 7SwiftUI19_ConditionalContentV AA5ImageV 014_IconServices_aB005AsyncfE0V
++ _symbolic _____y_____AAy_____yABGADGSgGSg______Sgt 7SwiftUI19_ConditionalContentV AA5ImageV 014_IconServices_aB005AsyncfE0V AA4TextV
++ _symbolic _____y_____AAy_____yABGADGSgGSg______y_____y_____Sg_ALtGGAJy___________tGSgt 7SwiftUI19_ConditionalContentV AA5ImageV 014_IconServices_aB005AsyncfE0V AA6VStackV AA9TupleViewV AA4TextV AA6SpacerV AA20_DisclosureIndicatorV
++ _symbolic _____y_____AAy_____yABGADGSgGSg______y_____y_____y_____yAAy_____AMSgGG_____y_____SgGG______SgALyANGtGGAJyAV______tGSgt 7SwiftUI19_ConditionalContentV AA5ImageV 014_IconServices_aB005AsyncfE0V 20SettingsUIKitPrivate13AdaptiveStackV AA9TupleViewV AA08ModifiedD0V AA5GroupV AA4TextV AA30_EnvironmentKeyWritingModifierV AA5ColorV AA6SpacerV AA20_DisclosureIndicatorV
++ _symbolic _____y_____G 21_IconServices_SwiftUI05AsyncA5ImageV 0cD00F0V
++ _symbolic _____y___________y_____y_____ADy_____yAEGAGGSgGSg______SgtGG 7SwiftUI13_VariadicViewO4TreeV AA13_HStackLayoutV AA05TupleD0V AA19_ConditionalContentV AA5ImageV 014_IconServices_aB005AsynclK0V AA4TextV
++ _symbolic _____y___________y_____y_____ADy_____yAEGAGGSgGSg______yACy_____Sg_ANtGGACy___________tGSgtGG 7SwiftUI13_VariadicViewO4TreeV AA13_HStackLayoutV AA05TupleD0V AA19_ConditionalContentV AA5ImageV 014_IconServices_aB005AsynclK0V AA6VStackV AA4TextV AA6SpacerV AA20_DisclosureIndicatorV
++ _symbolic _____y___________y_____y_____ADy_____yAEGAGGSgGSg______yACy_____y_____yADy_____AOSgGG_____y_____SgGG______SgANyAPGtGGACyAX______tGSgtGG 7SwiftUI13_VariadicViewO4TreeV AA13_HStackLayoutV AA05TupleD0V AA19_ConditionalContentV AA5ImageV 014_IconServices_aB005AsynclK0V 20SettingsUIKitPrivate13AdaptiveStackV AA08ModifiedJ0V AA5GroupV AA4TextV AA30_EnvironmentKeyWritingModifierV AA5ColorV AA6SpacerV AA20_DisclosureIndicatorV
++ _symbolic _____y__________y_____yABGAEGSg_G 7SwiftUI19_ConditionalContentV7StorageO AA5ImageV AC 014_IconServices_aB005AsyncgF0V
++ _symbolic _____y_____y_____GADG 7SwiftUI19_ConditionalContentV 014_IconServices_aB005AsyncE5ImageV AA0H0V
++ _symbolic _____y_____y_____GADGSg 7SwiftUI19_ConditionalContentV 014_IconServices_aB005AsyncE5ImageV AA0H0V
++ _symbolic _____y_____y_____GAD_G 7SwiftUI19_ConditionalContentV7StorageO 014_IconServices_aB005AsyncF5ImageV AA0I0V
++ _symbolic _____y_____y_____y_____ACy_____yADGAFGSgGSg______SgtGG 7SwiftUI6HStackV AA9TupleViewV AA19_ConditionalContentV AA5ImageV 014_IconServices_aB005AsynciH0V AA4TextV
++ _symbolic _____y_____y_____y_____ACy_____yADGAFGSgGSg______yABy_____Sg_AMtGGABy___________tGSgtGG 7SwiftUI6HStackV AA9TupleViewV AA19_ConditionalContentV AA5ImageV 014_IconServices_aB005AsynciH0V AA6VStackV AA4TextV AA6SpacerV AA20_DisclosureIndicatorV
++ _symbolic _____y_____y_____y_____ACy_____yADGAFGSgGSg______yABy_____y_____yACy_____ANSgGG_____y_____SgGG______SgAMyAOGtGGAByAW______tGSgtGG 7SwiftUI6HStackV AA9TupleViewV AA19_ConditionalContentV AA5ImageV 014_IconServices_aB005AsynciH0V 20SettingsUIKitPrivate13AdaptiveStackV AA08ModifiedG0V AA5GroupV AA4TextV AA30_EnvironmentKeyWritingModifierV AA5ColorV AA6SpacerV AA20_DisclosureIndicatorV
++ _symbolic _____y_____y_____y_____y_____ADy_____yAEGAGGSgGSg______SgtGG_____G 7SwiftUI15ModifiedContentV AA6HStackV AA9TupleViewV AA012_ConditionalD0V AA5ImageV 014_IconServices_aB005AsyncjI0V AA4TextV AA14_OpacityEffectV
++ _symbolic _____y_____y_____y_____y_____ADy_____yAEGAGGSgGSg______yACyAAy_____yADy_____ANSgGG_____y_____SgGG______SgAMyAOGtGGACyAW______tGSgtGG_____G 7SwiftUI15ModifiedContentV AA6HStackV AA9TupleViewV AA012_ConditionalD0V AA5ImageV 014_IconServices_aB005AsyncjI0V 20SettingsUIKitPrivate13AdaptiveStackV AA5GroupV AA4TextV AA30_EnvironmentKeyWritingModifierV AA5ColorV AA6SpacerV AA20_DisclosureIndicatorV AA14_OpacityEffectV
++ _symbolic _____y_____y_____y_____y_____ADy_____yAEGAGGSgGSg______yACy_____Sg_ANtGGACy___________tGSgtGG_____G 7SwiftUI15ModifiedContentV AA6HStackV AA9TupleViewV AA012_ConditionalD0V AA5ImageV 014_IconServices_aB005AsyncjI0V AA6VStackV AA4TextV AA6SpacerV AA20_DisclosureIndicatorV AA14_OpacityEffectV
++ _symbolic _____y_____y_____y_____y_____y_____AEy_____yAFGAHGSgGSg______SgtGG_____GG 7SwiftUI6ToggleV AA15ModifiedContentV AA6HStackV AA9TupleViewV AA012_ConditionalE0V AA5ImageV 014_IconServices_aB005AsynckJ0V AA4TextV AA14_OpacityEffectV
+- _get_witness_table 7SwiftUI15ModifiedContentVyAA6HStackVyAA9TupleViewVyAA5ImageVSg_20SettingsUIKitPrivate13AdaptiveStackVyAGyACyAA5GroupVyAA012_ConditionalD0VyAA4TextVASSgGGAA30_EnvironmentKeyWritingModifierVyAA5ColorVSgGG_AA6SpacerVSgAOyATGtGGAGyA3__AA20_DisclosureIndicatorVtGSgtGGAA14_OpacityEffectVGAA0G0HPA13_AAA17_HPyHC_A15_AA0gT0HPyHCHC.9
+- _get_witness_table 7SwiftUI15ModifiedContentVyAA6HStackVyAA9TupleViewVyAA5ImageVSg_AA6VStackVyAGyAA4TextVSg_AOtGGAGyAA6SpacerV_AA20_DisclosureIndicatorVtGSgtGGAA14_OpacityEffectVGAA0G0HPAyAA1_HPyHC_A_AA0G8ModifierHPyHCHC.1
+- _get_witness_table 7SwiftUI6ToggleVyAA15ModifiedContentVyAA6HStackVyAA9TupleViewVyAA5ImageVSg_AA4TextVSgtGGAA14_OpacityEffectVGGAA0H0HPyHC.1
+- _swift_retain_n
+- _symbolic _____Sg______y_____y_____Sg_AFtGGADy___________tGSgt 7SwiftUI5ImageV AA6VStackV AA9TupleViewV AA4TextV AA6SpacerV AA20_DisclosureIndicatorV
+- _symbolic _____Sg______y_____y_____y_____y_____y_____AHSgGG_____y_____SgGG______SgAFyAIGtGGADyAQ______tGSgt 7SwiftUI5ImageV 20SettingsUIKitPrivate13AdaptiveStackV AA9TupleViewV AA15ModifiedContentV AA5GroupV AA012_ConditionalL0V AA4TextV AA30_EnvironmentKeyWritingModifierV AA5ColorV AA6SpacerV AA20_DisclosureIndicatorV
+- _symbolic _____y___________y_____Sg______yACy_____Sg_AHtGGACy___________tGSgtGG 7SwiftUI13_VariadicViewO4TreeV AA13_HStackLayoutV AA05TupleD0V AA5ImageV AA6VStackV AA4TextV AA6SpacerV AA20_DisclosureIndicatorV
+- _symbolic _____y___________y_____Sg______yACy_____y_____y_____y_____AJSgGG_____y_____SgGG______SgAHyAKGtGGACyAS______tGSgtGG 7SwiftUI13_VariadicViewO4TreeV AA13_HStackLayoutV AA05TupleD0V AA5ImageV 20SettingsUIKitPrivate13AdaptiveStackV AA15ModifiedContentV AA5GroupV AA012_ConditionalP0V AA4TextV AA30_EnvironmentKeyWritingModifierV AA5ColorV AA6SpacerV AA20_DisclosureIndicatorV
+- _symbolic _____y_____y_____Sg______SgtGG 7SwiftUI6HStackV AA9TupleViewV AA5ImageV AA4TextV
+- _symbolic _____y_____y_____Sg______yABy_____Sg_AGtGGABy___________tGSgtGG 7SwiftUI6HStackV AA9TupleViewV AA5ImageV AA6VStackV AA4TextV AA6SpacerV AA20_DisclosureIndicatorV
+- _symbolic _____y_____y_____Sg______yABy_____y_____y_____y_____AISgGG_____y_____SgGG______SgAGyAJGtGGAByAR______tGSgtGG 7SwiftUI6HStackV AA9TupleViewV AA5ImageV 20SettingsUIKitPrivate13AdaptiveStackV AA15ModifiedContentV AA5GroupV AA012_ConditionalM0V AA4TextV AA30_EnvironmentKeyWritingModifierV AA5ColorV AA6SpacerV AA20_DisclosureIndicatorV
+- _symbolic _____y_____y_____y_____Sg______SgtGG_____G 7SwiftUI15ModifiedContentV AA6HStackV AA9TupleViewV AA5ImageV AA4TextV AA14_OpacityEffectV
+- _symbolic _____y_____y_____y_____Sg______yACyAAy_____y_____y_____AISgGG_____y_____SgGG______SgAGyAJGtGGACyAR______tGSgtGG_____G 7SwiftUI15ModifiedContentV AA6HStackV AA9TupleViewV AA5ImageV 20SettingsUIKitPrivate13AdaptiveStackV AA5GroupV AA012_ConditionalD0V AA4TextV AA30_EnvironmentKeyWritingModifierV AA5ColorV AA6SpacerV AA20_DisclosureIndicatorV AA14_OpacityEffectV
+- _symbolic _____y_____y_____y_____Sg______yACy_____Sg_AHtGGACy___________tGSgtGG_____G 7SwiftUI15ModifiedContentV AA6HStackV AA9TupleViewV AA5ImageV AA6VStackV AA4TextV AA6SpacerV AA20_DisclosureIndicatorV AA14_OpacityEffectV
+- _symbolic _____y_____y_____y_____y_____Sg______SgtGG_____GG 7SwiftUI6ToggleV AA15ModifiedContentV AA6HStackV AA9TupleViewV AA5ImageV AA4TextV AA14_OpacityEffectV
+CStrings:
++ "imageDescriptorNamed:"
++ "initWithBundleIdentifier:"
++ "initWithType:"
++ "mainScreen"
++ "properties"
++ "scale"
++ "setDrawBorder:"
++ "setScale:"
+
+```

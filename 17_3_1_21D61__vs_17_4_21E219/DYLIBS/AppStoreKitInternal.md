@@ -1,0 +1,1287 @@
+## AppStoreKitInternal
+
+> `/System/Library/PrivateFrameworks/AppStoreKitInternal.framework/AppStoreKitInternal`
+
+```diff
+
+-9.3.6.2.3
+-  __TEXT.__text: 0x6b912c
+-  __TEXT.__auth_stubs: 0x7020
++9.4.34.2.3
++  __TEXT.__text: 0x6e894c
++  __TEXT.__auth_stubs: 0x73f0
+   __TEXT.__init_offsets: 0x4
+-  __TEXT.__objc_methlist: 0x21b0
+-  __TEXT.__const: 0x3b0cc
+-  __TEXT.__cstring: 0x2a7ec
++  __TEXT.__objc_methlist: 0x22e8
++  __TEXT.__const: 0x3cb5c
++  __TEXT.__cstring: 0x2c74c
+   __TEXT.__oslogstring: 0x355
+   __TEXT.__gcc_except_tab: 0x1b4
+-  __TEXT.__swift5_typeref: 0x10128
+-  __TEXT.__swift5_reflstr: 0x195d0
+-  __TEXT.__swift5_assocty: 0x2598
+-  __TEXT.__constg_swiftt: 0x19dbc
+-  __TEXT.__swift5_fieldmd: 0x17768
+-  __TEXT.__swift5_builtin: 0x690
+-  __TEXT.__swift5_proto: 0x2518
+-  __TEXT.__swift5_types: 0x1504
+-  __TEXT.__swift5_capture: 0x797c
+-  __TEXT.__swift5_protos: 0x364
+-  __TEXT.__swift5_mpenum: 0x1f4
+-  __TEXT.__unwind_info: 0x1a800
+-  __TEXT.__eh_frame: 0x166a0
+-  __TEXT.__objc_classname: 0x538
+-  __TEXT.__objc_methname: 0x872b
+-  __TEXT.__objc_methtype: 0x1ef3
++  __TEXT.__swift5_typeref: 0x10df8
++  __TEXT.__swift5_reflstr: 0x19fc0
++  __TEXT.__swift5_assocty: 0x25f8
++  __TEXT.__constg_swiftt: 0x1a6c4
++  __TEXT.__swift5_fieldmd: 0x180ec
++  __TEXT.__swift5_builtin: 0x6a4
++  __TEXT.__swift5_proto: 0x2650
++  __TEXT.__swift5_types: 0x1590
++  __TEXT.__swift5_capture: 0x8290
++  __TEXT.__swift5_protos: 0x370
++  __TEXT.__swift5_mpenum: 0x20c
++  __TEXT.__unwind_info: 0x1ac6c
++  __TEXT.__eh_frame: 0x182b8
++  __TEXT.__objc_classname: 0x554
++  __TEXT.__objc_methname: 0x8b95
++  __TEXT.__objc_methtype: 0x2006
+   __TEXT.__objc_stubs: 0x2020
+-  __DATA_CONST.__got: 0x1448
+-  __DATA_CONST.__const: 0x3920
+-  __DATA_CONST.__objc_classlist: 0x10a8
++  __DATA_CONST.__got: 0x14b8
++  __DATA_CONST.__const: 0x3a10
++  __DATA_CONST.__objc_classlist: 0x1118
+   __DATA_CONST.__objc_catlist: 0x28
+-  __DATA_CONST.__objc_protolist: 0x2b8
++  __DATA_CONST.__objc_protolist: 0x2e8
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_const: 0x2f110
+-  __DATA_CONST.__objc_selrefs: 0x2850
++  __DATA_CONST.__objc_const: 0x30300
++  __DATA_CONST.__objc_selrefs: 0x29b0
++  __DATA_CONST.__objc_protorefs: 0x1c0
++  __DATA_CONST.__objc_classrefs: 0x7d8
++  __DATA_CONST.__objc_superrefs: 0x88
+   __DATA_CONST.__objc_arraydata: 0x70
+   __AUTH_CONST.__cfstring: 0xd40
+   __AUTH_CONST.__objc_intobj: 0x30
+   __AUTH_CONST.__objc_const: 0xb60
+-  __AUTH_CONST.__const: 0x3eb28
++  __AUTH_CONST.__const: 0x410a0
+   __AUTH_CONST.__objc_arrayobj: 0x48
+-  __AUTH_CONST.__auth_ptr: 0x15a0
+-  __AUTH_CONST.__auth_got: 0x3820
+-  __AUTH.__objc_data: 0x2bf8
+-  __AUTH.__data: 0xe958
+-  __DATA.__objc_protorefs: 0x198
+-  __DATA.__objc_classrefs: 0x7c8
+-  __DATA.__objc_superrefs: 0x88
++  __AUTH_CONST.__auth_ptr: 0x1638
++  __AUTH_CONST.__auth_got: 0x3a08
++  __AUTH.__objc_data: 0x3260
++  __AUTH.__data: 0x101a0
+   __DATA.__objc_ivar: 0xbc
+-  __DATA.__objc_data: 0xc48
+-  __DATA.__data: 0xdd30
+-  __DATA.__bss: 0x23cb0
+-  __DATA.__common: 0x968
+-  __DATA_DIRTY.__const: 0xe0
+-  __DATA_DIRTY.__objc_data: 0x6f60
+-  __DATA_DIRTY.__data: 0x2a4e8
+-  __DATA_DIRTY.__bss: 0x17d40
+-  __DATA_DIRTY.__common: 0x1c38
++  __DATA.__objc_data: 0xe48
++  __DATA.__data: 0xdd70
++  __DATA.__bss: 0x24d50
++  __DATA.__common: 0x9c8
++  __DATA_DIRTY.__const: 0xd0
++  __DATA_DIRTY.__objc_data: 0x6fd0
++  __DATA_DIRTY.__data: 0x2afc0
++  __DATA_DIRTY.__bss: 0x18b40
++  __DATA_DIRTY.__common: 0x1c48
+   - /System/Library/Frameworks/AVFoundation.framework/AVFoundation
+   - /System/Library/Frameworks/Accounts.framework/Accounts
++  - /System/Library/Frameworks/AdAttributionKit.framework/AdAttributionKit
+   - /System/Library/Frameworks/Combine.framework/Combine
+   - /System/Library/Frameworks/Contacts.framework/Contacts
+   - /System/Library/Frameworks/ContactsUI.framework/ContactsUI
+
+   - /System/Library/Frameworks/CoreSpotlight.framework/CoreSpotlight
+   - /System/Library/Frameworks/CoreTelephony.framework/CoreTelephony
+   - /System/Library/Frameworks/CoreText.framework/CoreText
++  - /System/Library/Frameworks/CryptoKit.framework/CryptoKit
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/Frameworks/Intents.framework/Intents
+   - /System/Library/Frameworks/JavaScriptCore.framework/JavaScriptCore
+
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 43589
+-  Symbols:   11335
+-  CStrings:  6517
++  Functions: 44848
++  Symbols:   11668
++  CStrings:  6737
+ 
+Symbols:
++ _ASDInstallAttributionInteractionTypeClick
++ _ASDInstallAttributionInteractionTypeView
++ _OBJC_CLASS_$_AMSEngagementPlacementInfo
++ _OBJC_CLASS_$_ASDPurchaseResponseItem
++ _OBJC_CLASS_$__TtC19AppStoreKitInternal16JSTimeoutManager
++ _OBJC_CLASS_$__TtC19AppStoreKitInternal21ArcadeDownloadPackApp
++ _OBJC_CLASS_$__TtC19AppStoreKitInternal22ArcadeDownloadPackData
++ _OBJC_CLASS_$__TtC19AppStoreKitInternal28OnDeviceSearchHistoryManager
++ _OBJC_METACLASS_$__TtC19AppStoreKitInternal16JSTimeoutManager
++ _OBJC_METACLASS_$__TtC19AppStoreKitInternal21ArcadeDownloadPackApp
++ _OBJC_METACLASS_$__TtC19AppStoreKitInternal22ArcadeDownloadPackData
++ _OBJC_METACLASS_$__TtC19AppStoreKitInternal28OnDeviceSearchHistoryManager
++ __DATA__TtC19AppStoreKitInternal15SearchFocusPage
++ __DATA__TtC19AppStoreKitInternal16JSTimeoutManager
++ __DATA__TtC19AppStoreKitInternal21ArcadeDownloadPackApp
++ __DATA__TtC19AppStoreKitInternal21ArcadePackOfferAction
++ __DATA__TtC19AppStoreKitInternal22ArcadeDownloadPackCard
++ __DATA__TtC19AppStoreKitInternal22ArcadeDownloadPackData
++ __DATA__TtC19AppStoreKitInternal24ClearSearchHistoryAction
++ __DATA__TtC19AppStoreKitInternal26ArcadeDownloadPackCategory
++ __DATA__TtC19AppStoreKitInternal28ArcadeDownloadPackSuggestion
++ __DATA__TtC19AppStoreKitInternal28OnDeviceSearchHistoryManager
++ __DATA__TtC19AppStoreKitInternal32ArcadeDownloadPackCategoriesPage
++ __DATA__TtC19AppStoreKitInternal32SearchFocusDiffablePagePresenter
++ __DATA__TtC19AppStoreKitInternal33ArcadeDownloadPackSuggestionsPage
++ __DATA__TtC19AppStoreKitInternal35CondensedAdLockupWithIconBackground
++ __DATA__TtC19AppStoreKitInternal39MediumAdLockupWithScreenshotsBackground
++ __DATA__TtC19AppStoreKitInternal39SearchFocusDiffablePageContentPresenter
++ __DATA__TtC19AppStoreKitInternal41ArcadeDownloadPackCategoriesPagePresenter
++ __DATA__TtC19AppStoreKitInternal42ArcadeDownloadPackSuggestionsPagePresenter
++ __INSTANCE_METHODS__TtC19AppStoreKitInternal27ArcadeDiffablePagePresenter
++ __IVARS__TtC19AppStoreKitInternal15SearchFocusPage
++ __IVARS__TtC19AppStoreKitInternal16JSTimeoutManager
++ __IVARS__TtC19AppStoreKitInternal21ArcadeDownloadPackApp
++ __IVARS__TtC19AppStoreKitInternal21ArcadePackOfferAction
++ __IVARS__TtC19AppStoreKitInternal22ArcadeDownloadPackCard
++ __IVARS__TtC19AppStoreKitInternal22ArcadeDownloadPackData
++ __IVARS__TtC19AppStoreKitInternal26ArcadeDownloadPackCategory
++ __IVARS__TtC19AppStoreKitInternal28ArcadeDownloadPackSuggestion
++ __IVARS__TtC19AppStoreKitInternal28OnDeviceSearchHistoryManager
++ __IVARS__TtC19AppStoreKitInternal32ArcadeDownloadPackCategoriesPage
++ __IVARS__TtC19AppStoreKitInternal32SearchFocusDiffablePagePresenter
++ __IVARS__TtC19AppStoreKitInternal33ArcadeDownloadPackSuggestionsPage
++ __IVARS__TtC19AppStoreKitInternal35CondensedAdLockupWithIconBackground
++ __IVARS__TtC19AppStoreKitInternal39MediumAdLockupWithScreenshotsBackground
++ __IVARS__TtC19AppStoreKitInternal41ArcadeDownloadPackCategoriesPagePresenter
++ __IVARS__TtC19AppStoreKitInternal42ArcadeDownloadPackSuggestionsPagePresenter
++ __METACLASS_DATA__TtC19AppStoreKitInternal15SearchFocusPage
++ __METACLASS_DATA__TtC19AppStoreKitInternal16JSTimeoutManager
++ __METACLASS_DATA__TtC19AppStoreKitInternal21ArcadeDownloadPackApp
++ __METACLASS_DATA__TtC19AppStoreKitInternal21ArcadePackOfferAction
++ __METACLASS_DATA__TtC19AppStoreKitInternal22ArcadeDownloadPackCard
++ __METACLASS_DATA__TtC19AppStoreKitInternal22ArcadeDownloadPackData
++ __METACLASS_DATA__TtC19AppStoreKitInternal24ClearSearchHistoryAction
++ __METACLASS_DATA__TtC19AppStoreKitInternal26ArcadeDownloadPackCategory
++ __METACLASS_DATA__TtC19AppStoreKitInternal28ArcadeDownloadPackSuggestion
++ __METACLASS_DATA__TtC19AppStoreKitInternal28OnDeviceSearchHistoryManager
++ __METACLASS_DATA__TtC19AppStoreKitInternal32ArcadeDownloadPackCategoriesPage
++ __METACLASS_DATA__TtC19AppStoreKitInternal32SearchFocusDiffablePagePresenter
++ __METACLASS_DATA__TtC19AppStoreKitInternal33ArcadeDownloadPackSuggestionsPage
++ __METACLASS_DATA__TtC19AppStoreKitInternal35CondensedAdLockupWithIconBackground
++ __METACLASS_DATA__TtC19AppStoreKitInternal39MediumAdLockupWithScreenshotsBackground
++ __METACLASS_DATA__TtC19AppStoreKitInternal39SearchFocusDiffablePageContentPresenter
++ __METACLASS_DATA__TtC19AppStoreKitInternal41ArcadeDownloadPackCategoriesPagePresenter
++ __METACLASS_DATA__TtC19AppStoreKitInternal42ArcadeDownloadPackSuggestionsPagePresenter
++ __OBJC_$_INSTANCE_METHODS__TtC19AppStoreKitInternal16JSTimeoutManager
++ __OBJC_$_INSTANCE_METHODS__TtC19AppStoreKitInternal21ArcadeDownloadPackApp
++ __OBJC_$_INSTANCE_METHODS__TtC19AppStoreKitInternal22ArcadeDownloadPackData
++ __OBJC_$_INSTANCE_METHODS__TtC19AppStoreKitInternal28OnDeviceSearchHistoryManager
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_AMSUIEngagementTaskDelegate
++ __OBJC_$_PROTOCOL_METHOD_TYPES_AMSUIEngagementTaskDelegate
++ __OBJC_$_PROTOCOL_REFS_AMSUIEngagementTaskDelegate
++ __OBJC_LABEL_PROTOCOL_$_AMSUIEngagementTaskDelegate
++ __OBJC_PROTOCOL_$_AMSUIEngagementTaskDelegate
++ __PROPERTIES__TtC19AppStoreKitInternal21ArcadeDownloadPackApp
++ __PROPERTIES__TtC19AppStoreKitInternal22ArcadeDownloadPackData
++ __PROTOCOLS__TtC19AppStoreKitInternal16JSTimeoutManager
++ __PROTOCOLS__TtC19AppStoreKitInternal16JSTimeoutManager.2
++ __PROTOCOLS__TtC19AppStoreKitInternal21ArcadeDownloadPackApp
++ __PROTOCOLS__TtC19AppStoreKitInternal21ArcadeDownloadPackApp.2
++ __PROTOCOLS__TtC19AppStoreKitInternal22ArcadeDownloadPackData
++ __PROTOCOLS__TtC19AppStoreKitInternal22ArcadeDownloadPackData.8
++ __PROTOCOLS__TtC19AppStoreKitInternal22SheetEngagementManager.9
++ __PROTOCOLS__TtC19AppStoreKitInternal25ArcadeSubscriptionManager.61
++ __PROTOCOLS__TtC19AppStoreKitInternal28OnDeviceSearchHistoryManager
++ __PROTOCOLS__TtC19AppStoreKitInternal28OnDeviceSearchHistoryManager.2
++ __PROTOCOL_INSTANCE_METHODS__TtP19AppStoreKitInternalP33_04129F33946FC574909E2D0A90805CD934ArcadeDownloadPackAppObjectExports_
++ __PROTOCOL_INSTANCE_METHODS__TtP19AppStoreKitInternalP33_04129F33946FC574909E2D0A90805CD935ArcadeDownloadPackDataObjectExports_
++ __PROTOCOL_INSTANCE_METHODS__TtP19AppStoreKitInternalP33_54D4A6C9E51C24BA100C3FB910025CCC38JSAppStoreOnDeviceSearchHistoryExports_
++ __PROTOCOL_INSTANCE_METHODS__TtP19AppStoreKitInternalP33_A5CD36ED9CC736634278CF80C2D2E98423JSTimeoutManagerExports_
++ __PROTOCOL_METHOD_TYPES__TtP19AppStoreKitInternalP33_04129F33946FC574909E2D0A90805CD934ArcadeDownloadPackAppObjectExports_
++ __PROTOCOL_METHOD_TYPES__TtP19AppStoreKitInternalP33_04129F33946FC574909E2D0A90805CD935ArcadeDownloadPackDataObjectExports_
++ __PROTOCOL_METHOD_TYPES__TtP19AppStoreKitInternalP33_54D4A6C9E51C24BA100C3FB910025CCC38JSAppStoreOnDeviceSearchHistoryExports_
++ __PROTOCOL_METHOD_TYPES__TtP19AppStoreKitInternalP33_A5CD36ED9CC736634278CF80C2D2E98423JSTimeoutManagerExports_
++ __PROTOCOL_PROPERTIES__TtP19AppStoreKitInternalP33_04129F33946FC574909E2D0A90805CD934ArcadeDownloadPackAppObjectExports_
++ __PROTOCOL_PROPERTIES__TtP19AppStoreKitInternalP33_04129F33946FC574909E2D0A90805CD935ArcadeDownloadPackDataObjectExports_
++ __PROTOCOL_PROTOCOLS__TtP19AppStoreKitInternalP33_04129F33946FC574909E2D0A90805CD934ArcadeDownloadPackAppObjectExports_
++ __PROTOCOL_PROTOCOLS__TtP19AppStoreKitInternalP33_04129F33946FC574909E2D0A90805CD935ArcadeDownloadPackDataObjectExports_
++ __PROTOCOL_PROTOCOLS__TtP19AppStoreKitInternalP33_54D4A6C9E51C24BA100C3FB910025CCC38JSAppStoreOnDeviceSearchHistoryExports_
++ __PROTOCOL_PROTOCOLS__TtP19AppStoreKitInternalP33_A5CD36ED9CC736634278CF80C2D2E98423JSTimeoutManagerExports_
++ __PROTOCOL__TtP19AppStoreKitInternalP33_04129F33946FC574909E2D0A90805CD934ArcadeDownloadPackAppObjectExports_
++ __PROTOCOL__TtP19AppStoreKitInternalP33_04129F33946FC574909E2D0A90805CD935ArcadeDownloadPackDataObjectExports_
++ __PROTOCOL__TtP19AppStoreKitInternalP33_54D4A6C9E51C24BA100C3FB910025CCC38JSAppStoreOnDeviceSearchHistoryExports_
++ __PROTOCOL__TtP19AppStoreKitInternalP33_A5CD36ED9CC736634278CF80C2D2E98423JSTimeoutManagerExports_
++ ___swift_memcpy329_8
++ ___swift_memcpy58_8
++ __objc_autoreleasePoolPop
++ __objc_autoreleasePoolPush
++ _associated conformance 19AppStoreKitInternal018ArcadeDownloadPackA0C10CodingKeys33_04129F33946FC574909E2D0A90805CD9LLOSHAASQ
++ _associated conformance 19AppStoreKitInternal018ArcadeDownloadPackA0C10CodingKeys33_04129F33946FC574909E2D0A90805CD9LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 19AppStoreKitInternal018ArcadeDownloadPackA0C10CodingKeys33_04129F33946FC574909E2D0A90805CD9LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 19AppStoreKitInternal17SearchHistoryItemV10CodingKeys33_CE73D5175E3F73C971432040F10C6503LLOSHAASQ
++ _associated conformance 19AppStoreKitInternal17SearchHistoryItemV10CodingKeys33_CE73D5175E3F73C971432040F10C6503LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 19AppStoreKitInternal17SearchHistoryItemV10CodingKeys33_CE73D5175E3F73C971432040F10C6503LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 19AppStoreKitInternal17SearchHistoryItemVSHAASQ
++ _associated conformance 19AppStoreKitInternal22ArcadeDownloadPackCardC9JetEngine14ComponentModelAaD04ViewL0
++ _associated conformance 19AppStoreKitInternal24ArcadeTrialEnrolledStateOSHAASQ
++ _associated conformance 19AppStoreKitInternal25ArcadeDownloadPackStorageV6Record33_9DE0F033D74E44CCCF42C919FDD68009LLV10CodingKeysOSHAASQ
++ _associated conformance 19AppStoreKitInternal25ArcadeDownloadPackStorageV6Record33_9DE0F033D74E44CCCF42C919FDD68009LLV10CodingKeysOs0Q3KeyAAs23CustomStringConvertible
++ _associated conformance 19AppStoreKitInternal25ArcadeDownloadPackStorageV6Record33_9DE0F033D74E44CCCF42C919FDD68009LLV10CodingKeysOs0Q3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 19AppStoreKitInternal25PurchasesDecorationIntentV9JetEngine13JSIntentModelAA10ReturnTypeAD0gK0P_AD17ExpressibleByJSON
++ _associated conformance 19AppStoreKitInternal25PurchasesDecorationIntentV9JetEngine13JSIntentModelAaD0gK0
++ _associated conformance 19AppStoreKitInternal25PurchasesDecorationIntentV9JetEngine13JSIntentModelAaD24CustomJSValueConvertible
++ _associated conformance 19AppStoreKitInternal28ChartOrCategoryBrickSafeAreaV10ConstraintOSHAASQ
++ _associated conformance 19AppStoreKitInternal28ChartOrCategoryBrickSafeAreaV8LocationV08RelativeK0OSHAASQ
++ _associated conformance 19AppStoreKitInternal35CondensedAdLockupWithIconBackgroundC9JetEngine14ComponentModelAaD04ViewN0
++ _associated conformance 19AppStoreKitInternal35CondensedAdLockupWithIconBackgroundCs12IdentifiableAA2IDsADP_SH
++ _associated conformance 19AppStoreKitInternal36LinkableTextCollectionViewCellLayoutV5JetUI06CustomJ0AA0J0AdEP_AD9Placeable
++ _associated conformance 19AppStoreKitInternal36LinkableTextCollectionViewCellLayoutV5JetUI06CustomJ0AaD09_TestableJ0
++ _associated conformance 19AppStoreKitInternal36LinkableTextCollectionViewCellLayoutV5JetUI06CustomJ0AaD9Placeable
++ _associated conformance 19AppStoreKitInternal38ArcadeDownloadPackCategoriesPageIntentV9JetEngine13JSIntentModelAA10ReturnTypeAD0jN0P_AD17ExpressibleByJSON
++ _associated conformance 19AppStoreKitInternal38ArcadeDownloadPackCategoriesPageIntentV9JetEngine13JSIntentModelAaD0jN0
++ _associated conformance 19AppStoreKitInternal38ArcadeDownloadPackCategoriesPageIntentV9JetEngine13JSIntentModelAaD24CustomJSValueConvertible
++ _associated conformance 19AppStoreKitInternal39ArcadeDownloadPackSuggestionsPageIntentV9JetEngine13JSIntentModelAA10ReturnTypeAD0jN0P_AD17ExpressibleByJSON
++ _associated conformance 19AppStoreKitInternal39ArcadeDownloadPackSuggestionsPageIntentV9JetEngine13JSIntentModelAaD0jN0
++ _associated conformance 19AppStoreKitInternal39ArcadeDownloadPackSuggestionsPageIntentV9JetEngine13JSIntentModelAaD24CustomJSValueConvertible
++ _associated conformance 19AppStoreKitInternal39MediumAdLockupWithScreenshotsBackgroundC9JetEngine14ComponentModelAaD04ViewN0
++ _associated conformance 19AppStoreKitInternal39MediumAdLockupWithScreenshotsBackgroundCs12IdentifiableAA2IDsADP_SH
++ _block_copy_helper.101
++ _block_copy_helper.105
++ _block_copy_helper.109
++ _block_copy_helper.110
++ _block_copy_helper.115
++ _block_copy_helper.124
++ _block_copy_helper.131
++ _block_copy_helper.140
++ _block_copy_helper.142
++ _block_copy_helper.146
++ _block_copy_helper.150
++ _block_copy_helper.164
++ _block_copy_helper.165
++ _block_copy_helper.170
++ _block_copy_helper.180
++ _block_copy_helper.187
++ _block_copy_helper.193
++ _block_copy_helper.196
++ _block_copy_helper.203
++ _block_copy_helper.210
++ _block_copy_helper.216
++ _block_copy_helper.226
++ _block_copy_helper.233
++ _block_copy_helper.238
++ _block_copy_helper.239
++ _block_copy_helper.242
++ _block_copy_helper.247
++ _block_copy_helper.249
++ _block_copy_helper.256
++ _block_copy_helper.262
++ _block_copy_helper.266
++ _block_copy_helper.27
++ _block_copy_helper.279
++ _block_copy_helper.282
++ _block_copy_helper.285
++ _block_copy_helper.295
++ _block_copy_helper.302
++ _block_copy_helper.307
++ _block_copy_helper.308
++ _block_copy_helper.318
++ _block_copy_helper.325
++ _block_copy_helper.331
++ _block_copy_helper.341
++ _block_copy_helper.348
++ _block_copy_helper.354
++ _block_copy_helper.364
++ _block_copy_helper.368
++ _block_copy_helper.371
++ _block_copy_helper.377
++ _block_copy_helper.387
++ _block_copy_helper.394
++ _block_copy_helper.40
++ _block_copy_helper.400
++ _block_copy_helper.410
++ _block_copy_helper.411
++ _block_copy_helper.417
++ _block_copy_helper.423
++ _block_copy_helper.433
++ _block_copy_helper.440
++ _block_copy_helper.446
++ _block_copy_helper.452
++ _block_copy_helper.456
++ _block_copy_helper.463
++ _block_copy_helper.469
++ _block_copy_helper.479
++ _block_copy_helper.486
++ _block_copy_helper.492
++ _block_copy_helper.493
++ _block_copy_helper.502
++ _block_copy_helper.509
++ _block_copy_helper.51
++ _block_copy_helper.515
++ _block_copy_helper.525
++ _block_copy_helper.532
++ _block_copy_helper.538
++ _block_copy_helper.542
++ _block_copy_helper.548
++ _block_copy_helper.555
++ _block_copy_helper.561
++ _block_copy_helper.68
++ _block_copy_helper.72
++ _block_copy_helper.83
++ _block_copy_helper.85
++ _block_copy_helper.88
++ _block_copy_helper.92
++ _block_copy_helper.95
++ _block_descriptor.103
++ _block_descriptor.107
++ _block_descriptor.111
++ _block_descriptor.112
++ _block_descriptor.117
++ _block_descriptor.126
++ _block_descriptor.133
++ _block_descriptor.142
++ _block_descriptor.144
++ _block_descriptor.148
++ _block_descriptor.152
++ _block_descriptor.166
++ _block_descriptor.167
++ _block_descriptor.172
++ _block_descriptor.182
++ _block_descriptor.189
++ _block_descriptor.195
++ _block_descriptor.198
++ _block_descriptor.205
++ _block_descriptor.212
++ _block_descriptor.218
++ _block_descriptor.228
++ _block_descriptor.235
++ _block_descriptor.240
++ _block_descriptor.241
++ _block_descriptor.244
++ _block_descriptor.249
++ _block_descriptor.251
++ _block_descriptor.258
++ _block_descriptor.264
++ _block_descriptor.268
++ _block_descriptor.281
++ _block_descriptor.284
++ _block_descriptor.287
++ _block_descriptor.29
++ _block_descriptor.297
++ _block_descriptor.304
++ _block_descriptor.309
++ _block_descriptor.310
++ _block_descriptor.320
++ _block_descriptor.326
++ _block_descriptor.327
++ _block_descriptor.333
++ _block_descriptor.343
++ _block_descriptor.350
++ _block_descriptor.356
++ _block_descriptor.366
++ _block_descriptor.370
++ _block_descriptor.373
++ _block_descriptor.379
++ _block_descriptor.389
++ _block_descriptor.396
++ _block_descriptor.402
++ _block_descriptor.412
++ _block_descriptor.413
++ _block_descriptor.419
++ _block_descriptor.42
++ _block_descriptor.425
++ _block_descriptor.435
++ _block_descriptor.442
++ _block_descriptor.448
++ _block_descriptor.454
++ _block_descriptor.458
++ _block_descriptor.465
++ _block_descriptor.471
++ _block_descriptor.481
++ _block_descriptor.488
++ _block_descriptor.494
++ _block_descriptor.495
++ _block_descriptor.504
++ _block_descriptor.511
++ _block_descriptor.517
++ _block_descriptor.527
++ _block_descriptor.53
++ _block_descriptor.534
++ _block_descriptor.540
++ _block_descriptor.544
++ _block_descriptor.550
++ _block_descriptor.557
++ _block_descriptor.563
++ _block_descriptor.70
++ _block_descriptor.74
++ _block_descriptor.85
++ _block_descriptor.87
++ _block_descriptor.90
++ _block_descriptor.94
++ _block_descriptor.97
++ _block_destroy_helper.102
++ _block_destroy_helper.106
++ _block_destroy_helper.110
++ _block_destroy_helper.111
++ _block_destroy_helper.116
++ _block_destroy_helper.125
++ _block_destroy_helper.132
++ _block_destroy_helper.141
++ _block_destroy_helper.143
++ _block_destroy_helper.147
++ _block_destroy_helper.151
++ _block_destroy_helper.165
++ _block_destroy_helper.166
++ _block_destroy_helper.171
++ _block_destroy_helper.181
++ _block_destroy_helper.188
++ _block_destroy_helper.194
++ _block_destroy_helper.197
++ _block_destroy_helper.204
++ _block_destroy_helper.211
++ _block_destroy_helper.217
++ _block_destroy_helper.227
++ _block_destroy_helper.234
++ _block_destroy_helper.239
++ _block_destroy_helper.240
++ _block_destroy_helper.243
++ _block_destroy_helper.248
++ _block_destroy_helper.250
++ _block_destroy_helper.257
++ _block_destroy_helper.263
++ _block_destroy_helper.267
++ _block_destroy_helper.28
++ _block_destroy_helper.280
++ _block_destroy_helper.283
++ _block_destroy_helper.286
++ _block_destroy_helper.296
++ _block_destroy_helper.303
++ _block_destroy_helper.308
++ _block_destroy_helper.309
++ _block_destroy_helper.319
++ _block_destroy_helper.326
++ _block_destroy_helper.332
++ _block_destroy_helper.342
++ _block_destroy_helper.349
++ _block_destroy_helper.355
++ _block_destroy_helper.365
++ _block_destroy_helper.369
++ _block_destroy_helper.372
++ _block_destroy_helper.378
++ _block_destroy_helper.388
++ _block_destroy_helper.395
++ _block_destroy_helper.401
++ _block_destroy_helper.41
++ _block_destroy_helper.411
++ _block_destroy_helper.412
++ _block_destroy_helper.418
++ _block_destroy_helper.424
++ _block_destroy_helper.434
++ _block_destroy_helper.441
++ _block_destroy_helper.447
++ _block_destroy_helper.453
++ _block_destroy_helper.457
++ _block_destroy_helper.464
++ _block_destroy_helper.470
++ _block_destroy_helper.480
++ _block_destroy_helper.487
++ _block_destroy_helper.493
++ _block_destroy_helper.494
++ _block_destroy_helper.503
++ _block_destroy_helper.510
++ _block_destroy_helper.516
++ _block_destroy_helper.52
++ _block_destroy_helper.526
++ _block_destroy_helper.533
++ _block_destroy_helper.539
++ _block_destroy_helper.543
++ _block_destroy_helper.549
++ _block_destroy_helper.556
++ _block_destroy_helper.562
++ _block_destroy_helper.69
++ _block_destroy_helper.73
++ _block_destroy_helper.84
++ _block_destroy_helper.86
++ _block_destroy_helper.89
++ _block_destroy_helper.93
++ _block_destroy_helper.96
++ _get_witness_table 5JetUI15HorizontalStackVAA9PlaceableHPyHC.1
++ _memcmp
++ _objectdestroy.106Tm
++ _objectdestroy.117Tm
++ _objectdestroy.128Tm
++ _objectdestroy.149Tm
++ _objectdestroy.180Tm
++ _objectdestroy.200Tm
++ _objectdestroy.210Tm
++ _objectdestroy.278Tm
++ _objectdestroy.32Tm
++ _objectdestroy.354Tm
++ _objectdestroy.38Tm
++ _objectdestroy.40Tm
++ _objectdestroy.49Tm
++ _objectdestroy.53Tm
++ _objectdestroy.54Tm
++ _objectdestroy.62Tm
++ _objectdestroy.69Tm
++ _objectdestroy.84Tm
++ _objectdestroy.96Tm
++ _objectdestroy.9Tm
++ _symbolic $s19AppStoreKitInternal018ArcadeDownloadPackA13ObjectExports33_04129F33946FC574909E2D0A90805CD9LLP
++ _symbolic $s19AppStoreKitInternal05JSAppB28OnDeviceSearchHistoryExports33_54D4A6C9E51C24BA100C3FB910025CCCLLP
++ _symbolic $s19AppStoreKitInternal17PageDataProvidingP
++ _symbolic $s19AppStoreKitInternal23JSTimeoutManagerExports33_A5CD36ED9CC736634278CF80C2D2E984LLP
++ _symbolic $s19AppStoreKitInternal35ArcadeDownloadPackDataObjectExports33_04129F33946FC574909E2D0A90805CD9LLP
++ _symbolic $s19AppStoreKitInternal45ArcadeDownloadPackCategoriesPagePresenterViewP
++ _symbolic $s19AppStoreKitInternal46ArcadeDownloadPackSuggestionsPagePresenterViewP
++ _symbolic SDySSSaySo27AMSEngagementMessageRequestCGG
++ _symbolic SDySS_____ySo7JSValueCGG 9JetEngine7PromiseC
++ _symbolic SDy__________G 19AppStoreKitInternal6AdamIdV AA22PurchaseRepresentationV
++ _symbolic SS7useCase_SS4dsIdSdSg7timeoutt
++ _symbolic SaySo21ASDPurchaseHistoryAppCG
++ _symbolic SaySo26AMSEngagementPlacementInfoCG
++ _symbolic SaySo27AMSEngagementMessageRequestCG
++ _symbolic SaySo32NSCollectionLayoutDecorationItemCG
++ _symbolic SaySo35NSCollectionLayoutSupplementaryItemCG
++ _symbolic SaySo43NSCollectionLayoutBoundarySupplementaryItemCG
++ _symbolic Say_____G 19AppStoreKitInternal018ArcadeDownloadPackA0C
++ _symbolic Say_____G 19AppStoreKitInternal11OfferActionC
++ _symbolic Say_____G 19AppStoreKitInternal13EditorialLinkC
++ _symbolic Say_____G 19AppStoreKitInternal14PurchaseIntentV
++ _symbolic Say_____G 19AppStoreKitInternal22PurchaseRepresentationV
++ _symbolic Say_____G 19AppStoreKitInternal26ArcadeDownloadPackCategoryC
++ _symbolic Say_____G 19AppStoreKitInternal28ArcadeDownloadPackSuggestionC
++ _symbolic Say_____G s5UInt8V
++ _symbolic Say______pG 9JetEngine17ExpressibleByJSONP
++ _symbolic Say______pG 9JetEngine24CustomJSValueConvertibleP
++ _symbolic Sb12isSidePacked_t
++ _symbolic SbIeghHr_
++ _symbolic Sd5ratio_t
++ _symbolic Sd8distance_t
++ _symbolic So16UIViewControllerCSg______So17UITraitCollectionCtcSg 19AppStoreKitInternal10FlowActionC
++ _symbolic So29AMSUIEngagementViewControllerC
++ _symbolic So8NSNumberCSg15activeStoreDSID______13trialEnrolledt 19AppStoreKitInternal24ArcadeTrialEnrolledStateO
++ _symbolic _____ 19AppStoreKitInternal018ArcadeDownloadPackA0C
++ _symbolic _____ 19AppStoreKitInternal018ArcadeDownloadPackA0C10CodingKeys33_04129F33946FC574909E2D0A90805CD9LLO
++ _symbolic _____ 19AppStoreKitInternal15SearchFocusPageC
++ _symbolic _____ 19AppStoreKitInternal16JSTimeoutManagerC
++ _symbolic _____ 19AppStoreKitInternal17SearchHistoryItemV
++ _symbolic _____ 19AppStoreKitInternal17SearchHistoryItemV10CodingKeys33_CE73D5175E3F73C971432040F10C6503LLO
++ _symbolic _____ 19AppStoreKitInternal18BulkPurchaseResultV
++ _symbolic _____ 19AppStoreKitInternal21ArcadePackOfferActionC
++ _symbolic _____ 19AppStoreKitInternal22ArcadeDownloadPackCardC
++ _symbolic _____ 19AppStoreKitInternal22ArcadeDownloadPackDataC
++ _symbolic _____ 19AppStoreKitInternal22SheetEngagementManagerC31DelegateActionPresentationError33_936F192302ABCB6984C5AA821AEEF677LLO
++ _symbolic _____ 19AppStoreKitInternal24ArcadeTrialEnrolledStateO
++ _symbolic _____ 19AppStoreKitInternal24ClearSearchHistoryActionC
++ _symbolic _____ 19AppStoreKitInternal25ArcadeDownloadPackStorageV
++ _symbolic _____ 19AppStoreKitInternal25ArcadeDownloadPackStorageV6Record33_9DE0F033D74E44CCCF42C919FDD68009LLV
++ _symbolic _____ 19AppStoreKitInternal25ArcadeDownloadPackStorageV6Record33_9DE0F033D74E44CCCF42C919FDD68009LLV10CodingKeysO
++ _symbolic _____ 19AppStoreKitInternal25PurchasesDecorationIntentV
++ _symbolic _____ 19AppStoreKitInternal26ArcadeDownloadPackCategoryC
++ _symbolic _____ 19AppStoreKitInternal28ArcadeDownloadPackSuggestionC
++ _symbolic _____ 19AppStoreKitInternal28ChartOrCategoryBrickSafeAreaV
++ _symbolic _____ 19AppStoreKitInternal28ChartOrCategoryBrickSafeAreaV10ConstraintO
++ _symbolic _____ 19AppStoreKitInternal28ChartOrCategoryBrickSafeAreaV8LocationV
++ _symbolic _____ 19AppStoreKitInternal28ChartOrCategoryBrickSafeAreaV8LocationV08RelativeK0O
++ _symbolic _____ 19AppStoreKitInternal28ChartOrCategoryBrickSafeAreaV8LocationV8DistanceO
++ _symbolic _____ 19AppStoreKitInternal28OnDeviceSearchHistoryManagerC
++ _symbolic _____ 19AppStoreKitInternal30TopChartsDiffablePagePresenterC22SegmentPresentersStateO
++ _symbolic _____ 19AppStoreKitInternal32ArcadeDownloadPackCategoriesPageC
++ _symbolic _____ 19AppStoreKitInternal32SearchFocusDiffablePagePresenterC
++ _symbolic _____ 19AppStoreKitInternal33ArcadeDownloadPackSuggestionsPageC
++ _symbolic _____ 19AppStoreKitInternal34ArcadePageShelfRefreshNotificationO
++ _symbolic _____ 19AppStoreKitInternal35CondensedAdLockupWithIconBackgroundC
++ _symbolic _____ 19AppStoreKitInternal36LinkableTextCollectionViewCellLayoutV
++ _symbolic _____ 19AppStoreKitInternal36LinkableTextCollectionViewCellLayoutV7MetricsV
++ _symbolic _____ 19AppStoreKitInternal38ArcadeDownloadPackCategoriesPageIntentV
++ _symbolic _____ 19AppStoreKitInternal39ArcadeDownloadPackSuggestionsPageIntentV
++ _symbolic _____ 19AppStoreKitInternal39MediumAdLockupWithScreenshotsBackgroundC
++ _symbolic _____ 19AppStoreKitInternal39SearchFocusDiffablePageContentPresenterC
++ _symbolic _____ 19AppStoreKitInternal41ArcadeDownloadPackCategoriesPagePresenterC
++ _symbolic _____ 19AppStoreKitInternal42ArcadeDownloadPackSuggestionsPagePresenterC
++ _symbolic _____ 19AppStoreKitInternal50ArcadeDownloadPackCategoriesPagePresenterViewStateV
++ _symbolic _____ 19AppStoreKitInternal9LazyModel33_CDFA9F2BB425CFCB3B8E9AD253FEB97ELLV
++ _symbolic _____ 19AppStoreKitInternal9LazyModel33_CDFA9F2BB425CFCB3B8E9AD253FEB97ELLV6_StateO
++ _symbolic _____4json______7contextt 9JetEngine10JSONObjectV AA11JSONContextV
++ _symbolic _____4json______7contextt 9JetEngine9JSONArrayV AA11JSONContextV
++ _symbolic _____Sg 19AppStoreKitInternal11ArcadeStateO
++ _symbolic _____Sg 19AppStoreKitInternal15SearchFocusPageC
++ _symbolic _____Sg 19AppStoreKitInternal28ChartOrCategoryBrickSafeAreaV
++ _symbolic _____Sg 19AppStoreKitInternal32ArcadeDownloadPackCategoriesPageC
++ _symbolic _____Sg 19AppStoreKitInternal33ArcadeDownloadPackSuggestionsPageC
++ _symbolic _____Sg 9JetEngine7AccountV
++ _symbolic _____SgXw 19AppStoreKitInternal16JSTimeoutManagerC
++ _symbolic _____SgXw 19AppStoreKitInternal32SearchFocusDiffablePagePresenterC
++ _symbolic _____SgXw 19AppStoreKitInternal41ArcadeDownloadPackCategoriesPagePresenterC
++ _symbolic _____SgXw 19AppStoreKitInternal42ArcadeDownloadPackSuggestionsPagePresenterC
++ _symbolic _____SgXw 9JetEngine15BaseObjectGraphC
++ _symbolic _____SgXwz_Xx 19AppStoreKitInternal16JSTimeoutManagerC
++ _symbolic _____SgXwz_Xx 19AppStoreKitInternal34ArcadeDiffablePageContentPresenterC
++ _symbolic _____SgXwz_Xx 19AppStoreKitInternal42ArcadeDownloadPackSuggestionsPagePresenterC
++ _symbolic _____So17UITraitCollectionCSo16UIViewControllerCSgIegggo_ 19AppStoreKitInternal10FlowActionC
++ _symbolic _____So17UITraitCollectionCSo16UIViewControllerCSgIegnnr_ 19AppStoreKitInternal10FlowActionC
++ _symbolic _____XDXMT 19AppStoreKitInternal41ArcadeDownloadPackCategoriesPagePresenterC
++ _symbolic _____XDXMT 19AppStoreKitInternal42ArcadeDownloadPackSuggestionsPagePresenterC
++ _symbolic ______p 10Foundation15ContiguousBytesP
++ _symbolic ______p 9JetEngine24CustomJSValueConvertibleP
++ _symbolic ______pSg 10Foundation15ContiguousBytesP
++ _symbolic ______pSgXw 19AppStoreKitInternal45ArcadeDownloadPackCategoriesPagePresenterViewP
++ _symbolic ______pSgXw 19AppStoreKitInternal46ArcadeDownloadPackSuggestionsPagePresenterViewP
++ _symbolic ______pXp 9JetEngine17ExpressibleByJSONP
++ _symbolic _____ySDySS_____ySo7JSValueCGGG 19AppStoreKitInternal3BoxC 9JetEngine7PromiseC
++ _symbolic _____ySS_____ySo7JSValueCGG s18_DictionaryStorageC 9JetEngine7PromiseC
++ _symbolic _____ySay_____GG 9JetEngine7PromiseC 19AppStoreKitInternal22PurchaseRepresentationV
++ _symbolic _____ySo7JSValueCG 9JetEngine7PromiseC
++ _symbolic _____y_SbG 18AppleMediaServices23AccountCachedServerDataC0E5ValueV
++ _symbolic _____y_____G 19AppStoreKitInternal20AnyGenericPageIntentV AA011SearchFocusG0C
++ _symbolic _____y_____G 19AppStoreKitInternal21DiffablePagePresenterC AA011SearchFocusF0C
++ _symbolic _____y_____G 19AppStoreKitInternal24AnyGenericPageMoreIntentV AA011SearchFocusG0C
++ _symbolic _____y_____G 19AppStoreKitInternal28DiffablePageContentPresenterC AA011SearchFocusF0C
++ _symbolic _____y_____G 2os21OSAllocatedUnfairLockV 19AppStoreKitInternal9LazyModel33_CDFA9F2BB425CFCB3B8E9AD253FEB97ELLV6_StateO
++ _symbolic _____y_____G 9JetEngine7PromiseC 19AppStoreKitInternal15SearchFocusPageC
++ _symbolic _____y_____G 9JetEngine7PromiseC 19AppStoreKitInternal18BulkPurchaseResultV
++ _symbolic _____y_____G 9JetEngine7PromiseC 19AppStoreKitInternal32ArcadeDownloadPackCategoriesPageC
++ _symbolic _____y_____G 9JetEngine9SyncEventC 19AppStoreKitInternal15SearchFocusPageC
++ _symbolic _____y_____G s22KeyedDecodingContainerV 19AppStoreKitInternal018ArcadeDownloadPackD0C10CodingKeys33_04129F33946FC574909E2D0A90805CD9LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 19AppStoreKitInternal17SearchHistoryItemV10CodingKeys33_CE73D5175E3F73C971432040F10C6503LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 19AppStoreKitInternal25ArcadeDownloadPackStorageV6Record33_9DE0F033D74E44CCCF42C919FDD68009LLV10CodingKeysO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 19AppStoreKitInternal018ArcadeDownloadPackD0C10CodingKeys33_04129F33946FC574909E2D0A90805CD9LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 19AppStoreKitInternal17SearchHistoryItemV10CodingKeys33_CE73D5175E3F73C971432040F10C6503LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 19AppStoreKitInternal25ArcadeDownloadPackStorageV6Record33_9DE0F033D74E44CCCF42C919FDD68009LLV10CodingKeysO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 19AppStoreKitInternal17SearchHistoryItemV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 19AppStoreKitInternal22PurchaseRepresentationV
++ _symbolic _____y_____GSgXw 19AppStoreKitInternal21DiffablePagePresenterC AA011SearchFocusF0C
++ _symbolic _____y_____GSgXw 19AppStoreKitInternal28DiffablePageContentPresenterC AA011SearchFocusF0C
++ _symbolic _____y_____GXDXMT 19AppStoreKitInternal28DiffablePageContentPresenterC AA011SearchFocusF0C
++ _symbolic _____y______G 19AppStoreKitInternal28DiffablePageContentPresenterC10FetchErrorO AA011SearchFocusF0C
++ _symbolic _____y__________G s13ManagedBufferC 19AppStoreKitInternal9LazyModel33_CDFA9F2BB425CFCB3B8E9AD253FEB97ELLV6_StateO So16os_unfair_lock_sV
++ _symbolic _____y__________G s18_DictionaryStorageC 19AppStoreKitInternal6AdamIdV AC22PurchaseRepresentationV
++ _symbolic _____y______pG s23_ContiguousArrayStorageC 9JetEngine24CustomJSValueConvertibleP
++ _symbolic _____y_____y_SbG_____G s6ResultO 18AppleMediaServices23AccountCachedServerDataC0F5ValueV AE5ErrorO
++ _symbolic _____y_____y_SbG_____GSg s6ResultO 18AppleMediaServices23AccountCachedServerDataC0F5ValueV AE5ErrorO
++ _symbolic _____y_____y______GG 9JetEngine17EventSubscriptionV 19AppStoreKitInternal28DiffablePageContentPresenterC0J11FetchResultO AD011SearchFocusJ0C
++ _symbolic _____y_____y______GG 9JetEngine17EventSubscriptionV 19AppStoreKitInternal28DiffablePageContentPresenterC26IncompleteShelfFetchResultV AD011SearchFocusJ0C
++ _symbolic _____y_____y______GG 9JetEngine9SyncEventC 19AppStoreKitInternal21DiffablePagePresenterC11UpdatePhaseO AD011SearchFocusJ0C
++ _symbolic _____y_____y______GG 9JetEngine9SyncEventC 19AppStoreKitInternal28DiffablePageContentPresenterC0J11FetchResultO AD011SearchFocusJ0C
++ _symbolic _____y_____y______GG 9JetEngine9SyncEventC 19AppStoreKitInternal28DiffablePageContentPresenterC26IncompleteShelfFetchResultV AD011SearchFocusJ0C
++ _symbolic _____y_____y______GGSg 9JetEngine17EventSubscriptionV 19AppStoreKitInternal28DiffablePageContentPresenterC0J11FetchResultO AD011SearchFocusJ0C
++ _symbolic _____y_____y______GGSg 9JetEngine17EventSubscriptionV 19AppStoreKitInternal28DiffablePageContentPresenterC26IncompleteShelfFetchResultV AD011SearchFocusJ0C
++ _symbolic _____y_____y______GGSgXw 19AppStoreKitInternal25TimedMetricsPagePresenterC AA08DiffablegH0C11UpdatePhaseO AA011SearchFocusG0C
++ _symbolic _____y_____y_____y_SbG_____GG 18AppleMediaServices18AsyncValueSequenceV s6ResultO AA23AccountCachedServerDataC0iE0V AG5ErrorO
++ _symbolic _____y_____y_____y_SbG_____G_G 18AppleMediaServices18AsyncValueSequenceV8IteratorV s6ResultO AA23AccountCachedServerDataC0jE0V AI5ErrorO
++ _symbolic _____yxGSgXwz____________Rz_____Rz_____Rz_____Rz_____RzlXX 19AppStoreKitInternal21DiffablePagePresenterC AA011SearchFocusF0C AA09PaginatedF0P AA011RefreshableF0P AA010ShelfBasedF0P AA05TimedF0P 9JetEngine0F5ModelP
++ _symbolic _____yxGSgXwz____________Rz_____Rz_____Rz_____Rz_____RzlXX 19AppStoreKitInternal21DiffablePagePresenterC AA013SearchLandingF0C AA09PaginatedF0P AA011RefreshableF0P AA010ShelfBasedF0P AA05TimedF0P 9JetEngine0F5ModelP
++ _symbolic _____yxGSgXwz____________Rz_____Rz_____Rz_____Rz_____RzlXX 19AppStoreKitInternal21DiffablePagePresenterC AA013SearchResultsF0C AA09PaginatedF0P AA011RefreshableF0P AA010ShelfBasedF0P AA05TimedF0P 9JetEngine0F5ModelP
++ _symbolic _____yxGSgXwz____________Rz_____Rz_____Rz_____Rz_____RzlXX 19AppStoreKitInternal21DiffablePagePresenterC AA017ArcadeSeeAllGamesF0C AA09PaginatedF0P AA011RefreshableF0P AA010ShelfBasedF0P AA05TimedF0P 9JetEngine0F5ModelP
++ _symbolic _____yxGSgXwz____________Rz_____Rz_____Rz_____Rz_____RzlXX 19AppStoreKitInternal21DiffablePagePresenterC AA017ShelfBasedProductF0C AA09PaginatedF0P AA011RefreshableF0P AA0hiF0P AA05TimedF0P 9JetEngine0F5ModelP
++ _symbolic _____yxGSgXwz____________Rz_____Rz_____Rz_____Rz_____RzlXX 19AppStoreKitInternal21DiffablePagePresenterC AA025SearchChartsAndCategoriesF0C AA09PaginatedF0P AA011RefreshableF0P AA010ShelfBasedF0P AA05TimedF0P 9JetEngine0F5ModelP
++ _symbolic _____yxGSgXwz____________Rz_____Rz_____Rz_____Rz_____RzlXX 19AppStoreKitInternal21DiffablePagePresenterC AA05TodayF0C AA09PaginatedF0P AA011RefreshableF0P AA010ShelfBasedF0P AA05TimedF0P 9JetEngine0F5ModelP
++ _symbolic _____yxGSgXwz____________Rz_____Rz_____Rz_____Rz_____RzlXX 19AppStoreKitInternal21DiffablePagePresenterC AA06ArcadeF0C AA09PaginatedF0P AA011RefreshableF0P AA010ShelfBasedF0P AA05TimedF0P 9JetEngine0F5ModelP
++ _symbolic _____yxGSgXwz____________Rz_____Rz_____Rz_____Rz_____RzlXX 19AppStoreKitInternal21DiffablePagePresenterC AA07ArticleF0C AA09PaginatedF0P AA011RefreshableF0P AA010ShelfBasedF0P AA05TimedF0P 9JetEngine0F5ModelP
++ _symbolic _____yxGSgXwz____________Rz_____Rz_____Rz_____Rz_____RzlXX 19AppStoreKitInternal21DiffablePagePresenterC AA07GenericF0C AA09PaginatedF0P AA011RefreshableF0P AA010ShelfBasedF0P AA05TimedF0P 9JetEngine0F5ModelP
++ _symbolic _____yxGSgXwz____________Rz_____Rz_____Rz_____Rz_____RzlXX 19AppStoreKitInternal21DiffablePagePresenterC AA07ReviewsF0C AA09PaginatedF0P AA011RefreshableF0P AA010ShelfBasedF0P AA05TimedF0P 9JetEngine0F5ModelP
++ _symbolic _____yxGSgXwz____________Rz_____Rz_____Rz_____Rz_____RzlXX 19AppStoreKitInternal21DiffablePagePresenterC AA15TopChartSegmentC AA09PaginatedF0P AA011RefreshableF0P AA010ShelfBasedF0P AA05TimedF0P 9JetEngine0F5ModelP
++ _symbolic _____yxGSgXwz____________Rz_____Rz_____Rz_____RzlXX 19AppStoreKitInternal28DiffablePageContentPresenterC AA011SearchFocusF0C AA09PaginatedF0P AA010ShelfBasedF0P AA05TimedF0P 9JetEngine0F5ModelP
++ _symbolic yXlSgSo7NSErrorCSgIeyByy_
++ _symbolic ypSg______pSgIegng_ s5ErrorP
++ _symbolic ypSg_____y_____GIegno_ 9JetEngine7PromiseC 19AppStoreKitInternal15SearchFocusPageC
+- __DATA__TtC19AppStoreKitInternal26SearchLandingPagePresenter
+- __DATA__TtC19AppStoreKitInternal29TodayCardMediaMixedMediaRiver
+- __DATA__TtC19AppStoreKitInternal37TodayCardMixedMediaRiverLockupOverlay
+- __IVARS__TtC19AppStoreKitInternal26SearchLandingPagePresenter
+- __IVARS__TtC19AppStoreKitInternal29TodayCardMediaMixedMediaRiver
+- __IVARS__TtC19AppStoreKitInternal37TodayCardMixedMediaRiverLockupOverlay
+- __METACLASS_DATA__TtC19AppStoreKitInternal26SearchLandingPagePresenter
+- __METACLASS_DATA__TtC19AppStoreKitInternal29TodayCardMediaMixedMediaRiver
+- __METACLASS_DATA__TtC19AppStoreKitInternal37TodayCardMixedMediaRiverLockupOverlay
+- __PROTOCOLS__TtC19AppStoreKitInternal22SheetEngagementManager.2
+- __PROTOCOLS__TtC19AppStoreKitInternal25ArcadeSubscriptionManager.57
+- ___swift_memcpy289_8
+- ___swift_memcpy465_8
+- _associated conformance 19AppStoreKitInternal13ClientFeatureV9OSVersionVs26ExpressibleByStringLiteralAA0jK4TypesAFP_s01_hi7BuiltinjK0
+- _associated conformance 19AppStoreKitInternal13ClientFeatureV9OSVersionVs26ExpressibleByStringLiteralAAs0hi23ExtendedGraphemeClusterK0
+- _associated conformance 19AppStoreKitInternal13ClientFeatureV9OSVersionVs33ExpressibleByUnicodeScalarLiteralAA0jkL4TypesAFP_s01_hi7BuiltinjkL0
+- _associated conformance 19AppStoreKitInternal13ClientFeatureV9OSVersionVs43ExpressibleByExtendedGraphemeClusterLiteralAA0jklM4TypesAFP_s01_hi7BuiltinjklM0
+- _associated conformance 19AppStoreKitInternal13ClientFeatureV9OSVersionVs43ExpressibleByExtendedGraphemeClusterLiteralAAs0hi13UnicodeScalarM0
+- _associated conformance 19AppStoreKitInternal26SearchLandingPagePresenterC14TestParametersOSHAASQ
+- _associated conformance 19AppStoreKitInternal26SearchLandingPagePresenterC14TestParametersOs12CaseIterableAA8AllCasessAFP_Sl
+- _block_copy_helper.103
+- _block_copy_helper.108
+- _block_copy_helper.112
+- _block_copy_helper.114
+- _block_copy_helper.120
+- _block_copy_helper.126
+- _block_copy_helper.127
+- _block_copy_helper.136
+- _block_copy_helper.137
+- _block_copy_helper.143
+- _block_copy_helper.148
+- _block_copy_helper.149
+- _block_copy_helper.159
+- _block_copy_helper.166
+- _block_copy_helper.172
+- _block_copy_helper.182
+- _block_copy_helper.189
+- _block_copy_helper.195
+- _block_copy_helper.197
+- _block_copy_helper.205
+- _block_copy_helper.212
+- _block_copy_helper.218
+- _block_copy_helper.228
+- _block_copy_helper.235
+- _block_copy_helper.237
+- _block_copy_helper.241
+- _block_copy_helper.245
+- _block_copy_helper.251
+- _block_copy_helper.253
+- _block_copy_helper.258
+- _block_copy_helper.264
+- _block_copy_helper.265
+- _block_copy_helper.274
+- _block_copy_helper.280
+- _block_copy_helper.281
+- _block_copy_helper.287
+- _block_copy_helper.300
+- _block_copy_helper.304
+- _block_copy_helper.310
+- _block_copy_helper.320
+- _block_copy_helper.327
+- _block_copy_helper.333
+- _block_copy_helper.343
+- _block_copy_helper.350
+- _block_copy_helper.356
+- _block_copy_helper.357
+- _block_copy_helper.366
+- _block_copy_helper.373
+- _block_copy_helper.379
+- _block_copy_helper.389
+- _block_copy_helper.396
+- _block_copy_helper.397
+- _block_copy_helper.402
+- _block_copy_helper.412
+- _block_copy_helper.419
+- _block_copy_helper.425
+- _block_copy_helper.435
+- _block_copy_helper.437
+- _block_copy_helper.442
+- _block_copy_helper.448
+- _block_copy_helper.458
+- _block_copy_helper.465
+- _block_copy_helper.471
+- _block_copy_helper.481
+- _block_copy_helper.488
+- _block_copy_helper.49
+- _block_copy_helper.494
+- _block_copy_helper.504
+- _block_copy_helper.511
+- _block_copy_helper.517
+- _block_copy_helper.64
+- _block_copy_helper.67
+- _block_copy_helper.7
+- _block_copy_helper.74
+- _block_copy_helper.81
+- _block_copy_helper.84
+- _block_copy_helper.87
+- _block_copy_helper.96
+- _block_copy_helper.97
+- _block_descriptor.105
+- _block_descriptor.110
+- _block_descriptor.114
+- _block_descriptor.116
+- _block_descriptor.122
+- _block_descriptor.128
+- _block_descriptor.129
+- _block_descriptor.138
+- _block_descriptor.139
+- _block_descriptor.145
+- _block_descriptor.150
+- _block_descriptor.151
+- _block_descriptor.161
+- _block_descriptor.168
+- _block_descriptor.174
+- _block_descriptor.184
+- _block_descriptor.191
+- _block_descriptor.197
+- _block_descriptor.199
+- _block_descriptor.207
+- _block_descriptor.214
+- _block_descriptor.220
+- _block_descriptor.230
+- _block_descriptor.237
+- _block_descriptor.239
+- _block_descriptor.243
+- _block_descriptor.247
+- _block_descriptor.253
+- _block_descriptor.255
+- _block_descriptor.260
+- _block_descriptor.266
+- _block_descriptor.267
+- _block_descriptor.276
+- _block_descriptor.282
+- _block_descriptor.283
+- _block_descriptor.289
+- _block_descriptor.302
+- _block_descriptor.306
+- _block_descriptor.312
+- _block_descriptor.322
+- _block_descriptor.329
+- _block_descriptor.335
+- _block_descriptor.345
+- _block_descriptor.352
+- _block_descriptor.358
+- _block_descriptor.359
+- _block_descriptor.368
+- _block_descriptor.375
+- _block_descriptor.381
+- _block_descriptor.391
+- _block_descriptor.398
+- _block_descriptor.399
+- _block_descriptor.404
+- _block_descriptor.414
+- _block_descriptor.421
+- _block_descriptor.427
+- _block_descriptor.437
+- _block_descriptor.439
+- _block_descriptor.444
+- _block_descriptor.450
+- _block_descriptor.460
+- _block_descriptor.467
+- _block_descriptor.473
+- _block_descriptor.483
+- _block_descriptor.490
+- _block_descriptor.496
+- _block_descriptor.506
+- _block_descriptor.51
+- _block_descriptor.513
+- _block_descriptor.519
+- _block_descriptor.66
+- _block_descriptor.69
+- _block_descriptor.76
+- _block_descriptor.83
+- _block_descriptor.86
+- _block_descriptor.89
+- _block_descriptor.9
+- _block_descriptor.98
+- _block_descriptor.99
+- _block_destroy_helper.104
+- _block_destroy_helper.109
+- _block_destroy_helper.113
+- _block_destroy_helper.115
+- _block_destroy_helper.121
+- _block_destroy_helper.127
+- _block_destroy_helper.128
+- _block_destroy_helper.137
+- _block_destroy_helper.138
+- _block_destroy_helper.144
+- _block_destroy_helper.149
+- _block_destroy_helper.150
+- _block_destroy_helper.160
+- _block_destroy_helper.167
+- _block_destroy_helper.173
+- _block_destroy_helper.183
+- _block_destroy_helper.190
+- _block_destroy_helper.196
+- _block_destroy_helper.198
+- _block_destroy_helper.206
+- _block_destroy_helper.213
+- _block_destroy_helper.219
+- _block_destroy_helper.229
+- _block_destroy_helper.236
+- _block_destroy_helper.238
+- _block_destroy_helper.242
+- _block_destroy_helper.246
+- _block_destroy_helper.252
+- _block_destroy_helper.254
+- _block_destroy_helper.259
+- _block_destroy_helper.265
+- _block_destroy_helper.266
+- _block_destroy_helper.275
+- _block_destroy_helper.281
+- _block_destroy_helper.282
+- _block_destroy_helper.288
+- _block_destroy_helper.301
+- _block_destroy_helper.305
+- _block_destroy_helper.311
+- _block_destroy_helper.321
+- _block_destroy_helper.328
+- _block_destroy_helper.334
+- _block_destroy_helper.344
+- _block_destroy_helper.351
+- _block_destroy_helper.357
+- _block_destroy_helper.358
+- _block_destroy_helper.367
+- _block_destroy_helper.374
+- _block_destroy_helper.380
+- _block_destroy_helper.390
+- _block_destroy_helper.397
+- _block_destroy_helper.398
+- _block_destroy_helper.403
+- _block_destroy_helper.413
+- _block_destroy_helper.420
+- _block_destroy_helper.426
+- _block_destroy_helper.436
+- _block_destroy_helper.438
+- _block_destroy_helper.443
+- _block_destroy_helper.449
+- _block_destroy_helper.459
+- _block_destroy_helper.466
+- _block_destroy_helper.472
+- _block_destroy_helper.482
+- _block_destroy_helper.489
+- _block_destroy_helper.495
+- _block_destroy_helper.50
+- _block_destroy_helper.505
+- _block_destroy_helper.512
+- _block_destroy_helper.518
+- _block_destroy_helper.65
+- _block_destroy_helper.68
+- _block_destroy_helper.75
+- _block_destroy_helper.8
+- _block_destroy_helper.82
+- _block_destroy_helper.85
+- _block_destroy_helper.88
+- _block_destroy_helper.97
+- _block_destroy_helper.98
+- _keypath_set.12Tm
+- _objectdestroy.101Tm
+- _objectdestroy.108Tm
+- _objectdestroy.119Tm
+- _objectdestroy.124Tm
+- _objectdestroy.129Tm
+- _objectdestroy.140Tm
+- _objectdestroy.142Tm
+- _objectdestroy.171Tm
+- _objectdestroy.194Tm
+- _objectdestroy.201Tm
+- _objectdestroy.281Tm
+- _objectdestroy.284Tm
+- _objectdestroy.345Tm
+- _objectdestroy.36Tm
+- _objectdestroy.39Tm
+- _objectdestroy.47Tm
+- _objectdestroy.51Tm
+- _objectdestroy.55Tm
+- _objectdestroy.56Tm
+- _objectdestroy.60Tm
+- _objectdestroy.97Tm
+- _symbolic $ss26ExpressibleByStringLiteralP
+- _symbolic $ss33ExpressibleByUnicodeScalarLiteralP
+- _symbolic $ss43ExpressibleByExtendedGraphemeClusterLiteralP
+- _symbolic SDySSSo27AMSEngagementMessageRequestCG
+- _symbolic Say_____G 19AppStoreKitInternal25UnifiedMessagingPlacementO
+- _symbolic Say_____G 19AppStoreKitInternal26SearchLandingPagePresenterC14TestParametersO
+- _symbolic So8NSNumberCSg15activeStoreDSID_t
+- _symbolic _____ 19AppStoreKitInternal019TodayCardMediaMixedG5RiverC
+- _symbolic _____ 19AppStoreKitInternal13ClientFeatureV9OSVersionV
+- _symbolic _____ 19AppStoreKitInternal18LinkableTextLayoutV
+- _symbolic _____ 19AppStoreKitInternal18LinkableTextLayoutV7MetricsV
+- _symbolic _____ 19AppStoreKitInternal26SearchLandingPagePresenterC
+- _symbolic _____ 19AppStoreKitInternal26SearchLandingPagePresenterC14TestParametersO
+- _symbolic _____ 19AppStoreKitInternal37TodayCardMixedMediaRiverLockupOverlayC
+- _symbolic _____ySS______p_G SD6ValuesV s5ErrorP
+- _symbolic _____y_____8platform_SS3keytG s23_ContiguousArrayStorageC 19AppStoreKitInternal0D8PlatformO
+- _symbolic _____y_____G 19AppStoreKitInternal24BaseGenericPagePresenterC AA013SearchLandingG0C
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 19AppStoreKitInternal26SearchLandingPagePresenterC14TestParametersO
+- _symbolic _____y_____GSgXw 19AppStoreKitInternal24BaseGenericPagePresenterC AA013SearchLandingG0C
+- _symbolic _____y___________G SD4KeysV 19AppStoreKitInternal6AdamIdV AC0B5StateO
+CStrings:
++ " failed to decode with "
++ " previously failed to decode with "
++ " wasn't resolved: "
++ "' id on the page."
++ "' shelf doesn't have refreshUrl, refresh request is ignored."
++ "*** Could not reject timeout promise, reason:"
++ "*** Could not resolve timeout promise, reason:"
++ "*** getMarketingItemWithTimeout() called without an active JS worker thread."
++ "*** getMarketingItemWithTimeout() failed to deserialize parameter marketingItems, reason:"
++ ", but PPTs are running. No full or half sheets will be shown during this session."
++ "@\"JSValue\"32@0:8@\"JSValue\"16@\"NSNumber\"24"
++ "@\"JSValue\"32@0:8@\"JSValue\"16q24"
++ "@\"JSValue\"32@0:8@\"NSString\"16@\"NSNumber\"24"
++ "@\"NSString\"32@0:8@\"NSString\"16@\"NSDictionary\"24"
++ "@\"UIView<AMSUIDynamicContentViewProtocol>\"64@0:8@\"AMSUIEngagementViewController\"16@\"NSDictionary\"24{CGRect={CGPoint=dd}{CGSize=dd}}32"
++ "@\"_TtC19AppStoreKitInternal16JSTimeoutManager\"16@0:8"
++ "@\"_TtC19AppStoreKitInternal22ArcadeDownloadPackData\"24@0:8@\"NSNumber\"16"
++ "@\"_TtC19AppStoreKitInternal28OnDeviceSearchHistoryManager\"16@0:8"
++ "ACCOUNT_PURCHASE_HISTORY"
++ "AMSUIEngagementTaskDelegate"
++ "AMSUIEngagementViewController doesn't have a navigationController to use for flow presentation"
++ "ASDPurchaseManager.processPurchases failed to purchase "
++ "ASDPurchaseManager.processPurchases response returns neither success nor error"
++ "ASDPurchaseManager.processPurchases returns neither response nor error"
++ "AppStoreKitInternal.ArcadeDownloadPackApp"
++ "AppStoreKitInternal.ArcadeDownloadPackCategoriesPagePresenter"
++ "AppStoreKitInternal.ArcadeDownloadPackData"
++ "AppStoreKitInternal.ArcadeDownloadPackSuggestionsPagePresenter"
++ "AppStoreKitInternal.ArcadePackOfferAction"
++ "AppStoreKitInternal.OnDeviceSearchHistoryManager"
++ "AppStoreKitInternal.SearchFocusDiffablePageContentPresenter"
++ "AppStoreKitInternal.SearchFocusDiffablePagePresenter"
++ "AppStoreKitInternal/ArcadeDownloadPackCategoriesPagePresenter.swift"
++ "AppStoreKitInternal/SearchFocusDiffablePageContentPresenter.swift"
++ "AppStoreOnDevicePersonalization: Perfoming AMS Engagement Task: fetchTodayRecommendation"
++ "ArcadeDownloadPackCategoriesPageIntent"
++ "ArcadeDownloadPackSuggestionsPageIntent"
++ "ArcadePackOfferAction"
++ "ArcadePageReloadNotification"
++ "Attempted to pull for engagement sheet: "
++ "B24@0:8@\"UIViewController<AMSUIMessageViewController>\"16"
++ "B40@0:8@\"AMSUIEngagementViewController\"16@\"AMSDelegateAction\"24@?<v@?@@\"NSError\">32"
++ "Cannot handle arcade download pack action as the object graph no longer exists."
++ "Cannot handle sheet request as the object graph no longer exists."
++ "ClearSearchHistoryAction"
++ "Current account doesn't have altDSID. No download pack data will be saved"
++ "Download pack url "
++ "Error fetching current account: "
++ "FAMILY_PURCHASES_ALL_APPS"
++ "FAMILY_PURCHASES_MY_APPS"
++ "FAMILY_PURCHASES_SECTION_TITLE_FAMILY"
++ "Failed read stream of isAskToBuy from AccountCachedServerData:"
++ "Failed to get isAskToBuy value from AccountCachedServerData:"
++ "Failed to refresh shelf "
++ "Flow action view controller factory is not specified"
++ "JSTimeoutManager.promiseQueue"
++ "LazyModel: Object of type "
++ "Link intent must return flow action, got: "
++ "Missing info for AttributionKit impression:"
++ "NO_APPS_TITLE_HIDDEN"
++ "NO_PURCHASES_DESCRIPTION_FAMILY_MEMBER"
++ "No active account."
++ "No active iTunes account"
++ "No view controller found for an action:"
++ "OfferButton.Ax.Title.Buy"
++ "OfferButton.Hint.AdditionalContent"
++ "OfferButton.Hint.AdditionalContent.NoThroughput"
++ "OfferButton.Hint.Downloading"
++ "OfferButton.Hint.Downloading.NoThroughput"
++ "OfferButton.Hint.Installing"
++ "OfferButton.Hint.InstallingSoon"
++ "OfferButton.Hint.Paused"
++ "OfferButton.Hint.PreparingDownload"
++ "PurchasesDecorationIntent"
++ "Search.ResultsTitle"
++ "SheetEngagementManager not proceeding with requestAppLevelSheets. Reason: arcade subscription state has not changed."
++ "SheetEngagementManager not proceeding with requestAppLevelSheets. Reason: no pageContext."
++ "SheetEngagementManager not proceeding with requestAppLevelSheets. Reason: pageContext has not changed."
++ "Shelf batch doesn't contain requested shelf: "
++ "Shelf refresh notification doesn't contain shelf id."
++ "Skipping error handling, already timed out."
++ "Skipping promise handling, already timed out."
++ "Skipping timeout, already resolved."
++ "Subscribed (Trial Enrolled)"
++ "Subscribed: true, trialEnrolled: "
++ "T@\"NSString\",?,R,C"
++ "T@\"UIBezierPath\",?,R,N"
++ "T@\"_TtC19AppStoreKitInternal16JSTimeoutManager\",N,R"
++ "T@\"_TtC19AppStoreKitInternal16JSTimeoutManager\",N,R,VtimeoutManager"
++ "T@\"_TtC19AppStoreKitInternal28OnDeviceSearchHistoryManager\",N,R"
++ "T@\"_TtC19AppStoreKitInternal28OnDeviceSearchHistoryManager\",N,R,VonDeviceSearchHistoryManager"
++ "TQ,?,R,N"
++ "There is no shelf with '"
++ "[AttributionKit] Recording impression"
++ "[AttributionKit] Recording impression failed: "
++ "[SKAdNetwork] Recording impression"
++ "_TtC19AppStoreKitInternal15SearchFocusPage"
++ "_TtC19AppStoreKitInternal16JSTimeoutManager"
++ "_TtC19AppStoreKitInternal21ArcadeDownloadPackApp"
++ "_TtC19AppStoreKitInternal21ArcadePackOfferAction"
++ "_TtC19AppStoreKitInternal22ArcadeDownloadPackCard"
++ "_TtC19AppStoreKitInternal22ArcadeDownloadPackData"
++ "_TtC19AppStoreKitInternal24ClearSearchHistoryAction"
++ "_TtC19AppStoreKitInternal26ArcadeDownloadPackCategory"
++ "_TtC19AppStoreKitInternal28ArcadeDownloadPackSuggestion"
++ "_TtC19AppStoreKitInternal28OnDeviceSearchHistoryManager"
++ "_TtC19AppStoreKitInternal32ArcadeDownloadPackCategoriesPage"
++ "_TtC19AppStoreKitInternal32SearchFocusDiffablePagePresenter"
++ "_TtC19AppStoreKitInternal33ArcadeDownloadPackSuggestionsPage"
++ "_TtC19AppStoreKitInternal35CondensedAdLockupWithIconBackground"
++ "_TtC19AppStoreKitInternal39MediumAdLockupWithScreenshotsBackground"
++ "_TtC19AppStoreKitInternal39SearchFocusDiffablePageContentPresenter"
++ "_TtC19AppStoreKitInternal41ArcadeDownloadPackCategoriesPagePresenter"
++ "_TtC19AppStoreKitInternal42ArcadeDownloadPackSuggestionsPagePresenter"
++ "_TtP19AppStoreKitInternalP33_04129F33946FC574909E2D0A90805CD934ArcadeDownloadPackAppObjectExports_"
++ "_TtP19AppStoreKitInternalP33_04129F33946FC574909E2D0A90805CD935ArcadeDownloadPackDataObjectExports_"
++ "_TtP19AppStoreKitInternalP33_54D4A6C9E51C24BA100C3FB910025CCC38JSAppStoreOnDeviceSearchHistoryExports_"
++ "_TtP19AppStoreKitInternalP33_A5CD36ED9CC736634278CF80C2D2E98423JSTimeoutManagerExports_"
++ "abbreviatedSearchSegmentTitles"
++ "activePromisesBox"
++ "addRecentSearch called without active JS worker thread"
++ "ams_accountID"
++ "ams_altDSID"
++ "appLaunchSheet"
++ "appStore.fetchTodayRecommendation"
++ "arcade-download-packs-metrics-events-enabled"
++ "arcadeDownloadPackCard"
++ "arcadeDownloadPackCategories"
++ "arcadeDownloadPackGames"
++ "arcadeDownloadPackShelf"
++ "arcade_download_pack"
++ "arcade_trial_enrolled_state"
++ "artworkSafeArea"
++ "automationElements"
++ "categoryId"
++ "clearRecents"
++ "condensedAdLockupWithIconBackground"
++ "dataForKey:"
++ "defaults"
++ "deselectActionMetrics"
++ "deviceHasCapabilitiesIncludingCompatibilityCheck"
++ "dismissAction"
++ "eclair_banner"
++ "enable_slp_medium_condensed_ad"
++ "engagementTaskViewController:contentViewWithDictionary:frame:"
++ "engagementTaskViewController:handleDynamicDelegateAction:completionHandler:"
++ "externalVersionId"
++ "fetchAppBinaryTraitsOverride"
++ "fetchRecentsWithLimit:"
++ "fetchTodayRecommendation"
++ "fetchTodayRecommendation: useCase ("
++ "fillColor"
++ "flowActionViewControllerFactory"
++ "freeForm"
++ "getAllAction"
++ "getDownloadPackGames:"
++ "getMarketingItemWithTimeout"
++ "getMarketingItemWithTimeout(_:_:)"
++ "getMarketingItemWithTimeout(_:_:) called without an active JS worker thread."
++ "getMarketingItemWithTimeout::"
++ "inAppPurchasesFixedSize"
++ "initWithBundleID:"
++ "initWithPlacement:context:"
++ "initWithServiceType:placementInfo:"
++ "initialPurchaseHistoryContext"
++ "initiateArcadeDownloadPack"
++ "isTrialPeriod"
++ "itemsHaveRectangularArtwork"
++ "itms-apps://arcadeDownloadPack?subscriptionStatus=new"
++ "jsTimeoutManager"
++ "lazySidepack"
++ "lazy_sidepack"
++ "makePromise(_:_:) called without active JS worker thread"
++ "makePromise::"
++ "maxAllowed"
++ "maxNumberOfCategoriesToChoose"
++ "maxNumberOfCategoriesToChooseTemplate"
++ "mediumAdBackgroundColorFix"
++ "mediumAdLockupWithScreenshotsBackground"
++ "messageViewControllerDidEnqueueImpression:"
++ "midLeft"
++ "navigationController"
++ "numberOfChosenCategoriesTemplate"
++ "numberOfChosenCategoriesTotalTemplate"
++ "numberOfPlaceholders"
++ "offerActions"
++ "onDeviceSearchHistoryManager"
++ "onFocusPageFetched"
++ "onShelfRefreshNotification:"
++ "pendingAfterPageFetchAndAppearClosure"
++ "percent_progress"
++ "performRequest(_:): AMS engagement request did timeout."
++ "personalizedRecommendationsPurchaseHistoryUpleveling"
++ "placementsMap"
++ "previousArcadeSubscriptionState"
++ "previousPageContext"
++ "processPurchases:withResponseHandler:"
++ "productPageHighMotion"
++ "promiseQueue"
++ "promiseWithTimeout:"
++ "pushViewController:animated:"
++ "recents"
++ "relativeLocation"
++ "releaseDate"
++ "saveRecentSearchWithLimit::"
++ "searchFocusPage"
++ "searchHistoryDefaultsKey"
++ "search_focus_state"
++ "segmentPresentersState"
++ "selectActionMetrics"
++ "selectedCategories"
++ "setAppCapabilities:"
++ "setAutomationElements:"
++ "setBackgroundColor:"
++ "setCornerRadius:"
++ "setDownloadProgress:"
++ "setEssentialBackgroundAssetDownloadEstimate:"
++ "setHasPostProcessing:"
++ "setInstallProgress:"
++ "setInteractionType:"
++ "setPostProcessProgress:"
++ "setStoreExternalVersionID:"
++ "setTimeout::"
++ "shelfGradientBackgrounds"
++ "squareByHeight"
++ "squareByWidth"
++ "string:with:"
++ "stringArrayForKey:"
++ "subscriptionStatus"
++ "suggestions"
++ "textSafeArea"
++ "throughput_count"
++ "timeoutManager"
++ "todayTabArcadePersonalization"
++ "topLeft"
++ "topRight"
++ "unsignedLongLongValue"
++ "v24@?0@\"ASDPurchaseResponse\"8@\"NSError\"16"
++ "v24@?0@\"JSValue\"8@\"JSValue\"16"
++ "v32@0:8@\"NSNumber\"16@\"NSString\"24"
++ "valueWithNewPromiseInContext:fromExecutor:"
+- "*** getMarketingItemFromMarketingItems() failed to deserialize parameter marketingItems, reason:"
+- "AppStoreKit.isSearchLandingPage"
+- "AppStoreKitInternal.SearchLandingPagePresenter"
+- "AppStoreKitInternal.TodayCardMediaMixedMediaRiver"
+- "AppStoreKitInternal.TodayCardMixedMediaRiverLockupOverlay"
+- "FAMILY_PURCHASES_MY_PURCHASES"
+- "FAMILY_PURCHASES_PAGE_TITLE"
+- "FAMILY_PURCHASES_SECTION_TITLE"
+- "NO_PURCHASES_TITLE"
+- "NO_PURCHASES_TITLE_HIDDEN"
+- "OFFER_BUTTON_HINT_ADDITIONAL_CONTENT"
+- "OFFER_BUTTON_HINT_ADDITIONAL_CONTENT_NO_THROUGHPUT"
+- "OFFER_BUTTON_HINT_DOWNLOADING"
+- "OFFER_BUTTON_HINT_DOWNLOADING_NO_THROUGHPUT"
+- "OFFER_BUTTON_HINT_INSTALLING"
+- "OFFER_BUTTON_HINT_INSTALLING_SOON"
+- "OFFER_BUTTON_HINT_PAUSED"
+- "OFFER_BUTTON_HINT_PREPARING_DOWNLOAD"
+- "OFFER_BUTTON_TITLE_ACCESSIBILITY_LABEL_BUY"
+- "Received redundant attribution call. Ignoring"
+- "SEARCH_RESULTS_TITLE"
+- "Subscribed: true"
+- "T@\"UIBezierPath\",R,N"
+- "_TtC19AppStoreKitInternal26SearchLandingPagePresenter"
+- "_TtC19AppStoreKitInternal29TodayCardMediaMixedMediaRiver"
+- "_TtC19AppStoreKitInternal37TodayCardMixedMediaRiverLockupOverlay"
+- "createsJobs"
+- "decimal:"
+- "getMarketingItemFromMarketingItems(_:)"
+- "hasMarkedAttribution"
+- "mixedMediaRiverLockup"
+- "performing attribution"
+
+```

@@ -1,0 +1,709 @@
+## previewsd
+
+> `/System/Library/PrivateFrameworks/PreviewsOSSupport.framework/Support/previewsd`
+
+```diff
+
+-21.20.7.0.0
+-  __TEXT.__text: 0x1e558
+-  __TEXT.__auth_stubs: 0x1180
+-  __TEXT.__const: 0xcd8
++21.30.32.0.0
++  __TEXT.__text: 0x2ebf4
++  __TEXT.__auth_stubs: 0x1520
++  __TEXT.__const: 0x9a8
+   __TEXT.__oslogstring: 0x2e
+-  __TEXT.__cstring: 0x1fa6
+-  __TEXT.__swift5_typeref: 0x7a4
++  __TEXT.__cstring: 0x1f20
++  __TEXT.__swift5_typeref: 0x818
+   __TEXT.__swift5_entry: 0x8
+-  __TEXT.__constg_swiftt: 0x684
+-  __TEXT.__swift5_builtin: 0x28
+-  __TEXT.__swift5_reflstr: 0x4d0
+-  __TEXT.__swift5_assocty: 0x18
+-  __TEXT.__swift5_proto: 0x90
+-  __TEXT.__swift5_types: 0x68
+   __TEXT.__objc_classname: 0x36
+-  __TEXT.__objc_methname: 0x607
++  __TEXT.__objc_methname: 0x535
+   __TEXT.__objc_methtype: 0xad
+-  __TEXT.__swift5_fieldmd: 0x4d0
+-  __TEXT.__swift5_capture: 0x328
+-  __TEXT.__swift5_protos: 0xc
++  __TEXT.__constg_swiftt: 0x5f8
++  __TEXT.__swift5_reflstr: 0x3e5
++  __TEXT.__swift5_fieldmd: 0x42c
++  __TEXT.__swift5_capture: 0x4c0
++  __TEXT.__swift5_types: 0x58
++  __TEXT.__swift5_protos: 0x10
++  __TEXT.__swift5_proto: 0x54
++  __TEXT.__swift5_assocty: 0x80
++  __TEXT.__swift5_builtin: 0x14
+   __TEXT.__swift5_mpenum: 0x8
+-  __TEXT.__unwind_info: 0x6f4
+-  __TEXT.__eh_frame: 0x428
+-  __DATA_CONST.__auth_got: 0x8c0
+-  __DATA_CONST.__got: 0x208
+-  __DATA_CONST.__auth_ptr: 0x80
+-  __DATA_CONST.__const: 0x18a8
+-  __DATA_CONST.__objc_classlist: 0x60
++  __TEXT.__unwind_info: 0x1840
++  __TEXT.__eh_frame: 0x1c58
++  __DATA_CONST.__auth_got: 0xa90
++  __DATA_CONST.__got: 0x3b0
++  __DATA_CONST.__auth_ptr: 0x60
++  __DATA_CONST.__const: 0x18b8
++  __DATA_CONST.__objc_classlist: 0x20
+   __DATA_CONST.__objc_protolist: 0x30
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA.__objc_const: 0xf00
+-  __DATA.__objc_selrefs: 0x190
+-  __DATA.__objc_protorefs: 0x18
+-  __DATA.__objc_classrefs: 0xa8
+-  __DATA.__objc_data: 0x50
+-  __DATA.__data: 0xee0
+-  __DATA.__common: 0x28
+-  __DATA.__bss: 0xc10
++  __DATA_CONST.__objc_protorefs: 0x18
++  __DATA_CONST.__objc_classrefs: 0xa8
++  __DATA.__objc_const: 0x7f0
++  __DATA.__objc_selrefs: 0x160
++  __DATA.__data: 0x1130
++  __DATA.__common: 0x30
++  __DATA.__bss: 0x980
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreServices.framework/CoreServices
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/PrivateFrameworks/FrontBoardServices.framework/FrontBoardServices
+   - /System/Library/PrivateFrameworks/InstallCoordination.framework/InstallCoordination
+   - /System/Library/PrivateFrameworks/MobileInstallation.framework/MobileInstallation
+-  - /System/Library/PrivateFrameworks/PreviewsFoundation.framework/PreviewsFoundation
+-  - /System/Library/PrivateFrameworks/PreviewsMessaging.framework/PreviewsMessaging
++  - /System/Library/PrivateFrameworks/PreviewsFoundationOS.framework/PreviewsFoundationOS
++  - /System/Library/PrivateFrameworks/PreviewsMessagingOS.framework/PreviewsMessagingOS
+   - /System/Library/PrivateFrameworks/PreviewsOSSupport.framework/PreviewsOSSupport
+   - /System/Library/PrivateFrameworks/PreviewsServices.framework/PreviewsServices
+   - /System/Library/PrivateFrameworks/RunningBoardServices.framework/RunningBoardServices
+
+   - /usr/lib/swift/libswiftObjectiveC.dylib
+   - /usr/lib/swift/libswiftQuartzCore.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
++  - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 705
+-  Symbols:   453
+-  CStrings:  277
++  Functions: 846
++  Symbols:   565
++  CStrings:  261
+ 
+Symbols:
++ _$s16PreviewsServices0A7ServiceO7VariantOSHAAMc
++ _$s16PreviewsServices0A7ServiceO7VariantOSQAAMc
++ _$s16PreviewsServices0A7ServiceO7VariantOs23CustomStringConvertibleAAMc
++ _$s17PreviewsOSSupport10ClientRoleVMn
++ _$s17PreviewsOSSupport12ShellServiceO013daemonPreviewD0yA2CmFWC
++ _$s17PreviewsOSSupport12ShellServiceO015hostToAgentPipeD0yA2C8InstanceO_tcACmFWC
++ _$s17PreviewsOSSupport12ShellServiceO06hostToc4PipeD0yA2CmFWC
++ _$s17PreviewsOSSupport12ShellServiceO8InstanceO8hostSideyA2EmFWC
++ _$s17PreviewsOSSupport12ShellServiceO8InstanceOMa
++ _$s17PreviewsOSSupport12ShellServiceOMa
++ _$s17PreviewsOSSupport13DaemonToShellO13TwoWayMessageO0A12FoundationOS25PropertyListRepresentableAAMc
++ _$s17PreviewsOSSupport13DaemonToShellO13TwoWayMessageOMa
++ _$s17PreviewsOSSupport13DaemonToShellOAA0E19ConnectionInterfaceAAMc
++ _$s17PreviewsOSSupport13DaemonToShellOMa
++ _$s17PreviewsOSSupport13DaemonToShellOMn
++ _$s17PreviewsOSSupport15ShellConnectionC10makeSender3forAA0cdF0Vyqd__Gqd__m_tYaKAA0cD9InterfaceRd__lF
++ _$s17PreviewsOSSupport15ShellConnectionC10makeSender3forAA0cdF0Vyqd__Gqd__m_tYaKAA0cD9InterfaceRd__lFTu
++ _$s17PreviewsOSSupport15ShellConnectionC8activateyyF
++ _$s17PreviewsOSSupport15ShellConnectionCA2A10ClientRoleVRszrlE18createByMachLookup3for7variant13clientContextACyAEGAA0C7ServiceO_0A8Services0aO0O7VariantO0A12FoundationOS12PropertyListVtKFZ
++ _$s17PreviewsOSSupport15ShellConnectionCMn
++ _$s17PreviewsOSSupport15ShellConnectionCyxG0A11MessagingOS9TransportAAMc
++ _$s17PreviewsOSSupport15ShellConnectionCyxG0A12FoundationOS23ConcurrentInvalidatableAAMc
++ _$s17PreviewsOSSupport18TransactionManagerC04takeC03for0A12FoundationOS17CancellationTokenVSS_tF
++ _$s17PreviewsOSSupport18TransactionManagerC12currentState0A12FoundationOS12PropertyListVvg
++ _$s17PreviewsOSSupport18TransactionManagerC6sharedACvgZ
++ _$s17PreviewsOSSupport18TransactionManagerCMa
++ _$s17PreviewsOSSupport21ShellConnectionSenderVMn
++ _$s17PreviewsOSSupport21ShellConnectionSenderVyxG0A11MessagingOS09TransportE8ProtocolAAMc
++ _$s17PreviewsOSSupport23PreviewAssertionManagerC010takeActivecD03for0A12FoundationOS17CancellationTokenVs5Int32V_tF
++ _$s17PreviewsOSSupport23PreviewAssertionManagerC6sharedACvgZ
++ _$s17PreviewsOSSupport23PreviewAssertionManagerCMa
++ _$s19PreviewsMessagingOS11MessagePipeC16addLeftTransportyyAA0H0_pYaKF
++ _$s19PreviewsMessagingOS11MessagePipeC16addLeftTransportyyAA0H0_pYaKFTu
++ _$s19PreviewsMessagingOS11MessagePipeC18makeRightTransportACyxGAA0H0_pyYaYbKc_tcfC
++ _$s19PreviewsMessagingOS11MessagePipeC8teardown9dsoHandle4file4line6column8functionySV_s12StaticStringVS2uAKtYaF
++ _$s19PreviewsMessagingOS11MessagePipeC8teardown9dsoHandle4file4line6column8functionySV_s12StaticStringVS2uAKtYaFTu
++ _$s19PreviewsMessagingOS11MessagePipeCMn
++ _$s19PreviewsMessagingOS11PreviewTypeO12HostLocationO02nsD0yA2EmFWC
++ _$s19PreviewsMessagingOS11PreviewTypeO12HostLocationO13injectedSceneyAESS_tcAEmFWC
++ _$s19PreviewsMessagingOS11PreviewTypeO12HostLocationO15simDisplaySceneyA2EmFWC
++ _$s19PreviewsMessagingOS11PreviewTypeO12HostLocationO8externalyA2EmFWC
++ _$s19PreviewsMessagingOS11PreviewTypeO12HostLocationO9mainSceneyA2EmFWC
++ _$s19PreviewsMessagingOS11PreviewTypeO12HostLocationOMa
++ _$s19PreviewsMessagingOS11PreviewTypeO6hostedyA2C12HostLocationO_tcACmFWC
++ _$s19PreviewsMessagingOS11PreviewTypeO6staticyA2CmFWC
++ _$s19PreviewsMessagingOS11PreviewTypeOMa
++ _$s19PreviewsMessagingOS14CopyURLRequestVMa
++ _$s19PreviewsMessagingOS14CopyURLRequestVMn
++ _$s19PreviewsMessagingOS14ServiceMessageV7ContentOMa
++ _$s19PreviewsMessagingOS14ServiceMessageV7contentAC7ContentOvg
++ _$s19PreviewsMessagingOS14ServiceMessageVMa
++ _$s19PreviewsMessagingOS14ServiceMessageVs23CustomStringConvertibleAAMc
++ _$s19PreviewsMessagingOS14TransportReplyV13wrappingErroryACs0G0_psAE_pYbcF
++ _$s19PreviewsMessagingOS14TransportReplyV4send5error9dsoHandle4file4line6column8functionys5Error_p_SVs12StaticStringVS2uAMtF
++ _$s19PreviewsMessagingOS14TransportReplyV4send9dsoHandle4file4line6column8functionySV_s12StaticStringVS2uAKtF
++ _$s19PreviewsMessagingOS14TransportReplyVMa
++ _$s19PreviewsMessagingOS14TransportReplyVMn
++ _$s19PreviewsMessagingOS15AgentDescriptorV6BundleV8bundleIDSSvg
++ _$s19PreviewsMessagingOS15AgentDescriptorV6BundleVMa
++ _$s19PreviewsMessagingOS15HostAgentSystemOAA013MessageStreamF0AAMc
++ _$s19PreviewsMessagingOS15HostAgentSystemOMn
++ _$s19PreviewsMessagingOS15HostAgentSystemON
++ _$s19PreviewsMessagingOS15HostShellSystemOAA013MessageStreamF0AAMc
++ _$s19PreviewsMessagingOS15HostShellSystemOMn
++ _$s19PreviewsMessagingOS15HostShellSystemON
++ _$s19PreviewsMessagingOS15ResetAppRequestV21agentDescriptorBundleAA05AgentH0V0I0Vvg
++ _$s19PreviewsMessagingOS15ResetAppRequestVMa
++ _$s19PreviewsMessagingOS15ResetAppRequestVMn
++ _$s19PreviewsMessagingOS15TransportSenderVMa
++ _$s19PreviewsMessagingOS15TransportSenderVMn
++ _$s19PreviewsMessagingOS15TransportSenderVyxGAA0dE8ProtocolAAMc
++ _$s19PreviewsMessagingOS16DaemonConnectionC10connection4role18serviceDescriptionACyxG0A8Services0a7ServiceE0C_xSStcfCTj
++ _$s19PreviewsMessagingOS16DaemonConnectionC18invalidationHandle0a10FoundationC0022ConcurrentInvalidationG0Vvg
++ _$s19PreviewsMessagingOS16DaemonConnectionCMn
++ _$s19PreviewsMessagingOS16DaemonConnectionCyxG0a10FoundationC016AnyInvalidatableAAMc
++ _$s19PreviewsMessagingOS16DaemonConnectionCyxG0a10FoundationC023ConcurrentInvalidatableAAMc
++ _$s19PreviewsMessagingOS16DaemonConnectionCyxGAA9TransportAAMc
++ _$s19PreviewsMessagingOS16DaemonConnectionCyxGs23CustomStringConvertibleAAMc
++ _$s19PreviewsMessagingOS16NextCrashRequestVMa
++ _$s19PreviewsMessagingOS16TransportMessageOAAs5NeverO06OneWayE0RtzrlE4body03TwohE0Qzvg
++ _$s19PreviewsMessagingOS16TransportMessageOAAs5NeverO06OneWayE0RtzrlE5replyAA0D5ReplyVvg
++ _$s19PreviewsMessagingOS16TransportMessageOAAs5NeverO06TwoWayE0RtzrlE4body03OnehE0Qzvg
++ _$s19PreviewsMessagingOS16TransportMessageOMn
++ _$s19PreviewsMessagingOS17InstallAppRequestV13isDevelopmentSbvg
++ _$s19PreviewsMessagingOS17InstallAppRequestV16sourceURLWrapperAA014SecurityScopedH0Vvg
++ _$s19PreviewsMessagingOS17InstallAppRequestVMa
++ _$s19PreviewsMessagingOS18ShellUpdatePayloadV11previewTypeAA07PreviewH0Ovg
++ _$s19PreviewsMessagingOS18ShellUpdatePayloadVMa
++ _$s19PreviewsMessagingOS18TransportInterfaceMp
++ _$s19PreviewsMessagingOS19AppManagerInterfaceO13TwoWayMessageOMa
++ _$s19PreviewsMessagingOS19AppManagerInterfaceOAA09TransportF0AAMc
++ _$s19PreviewsMessagingOS19AppManagerInterfaceOMa
++ _$s19PreviewsMessagingOS19AppManagerInterfaceOMn
++ _$s19PreviewsMessagingOS19MessageStreamSystemMp
++ _$s19PreviewsMessagingOS20DaemonConnectionRoleMp
++ _$s19PreviewsMessagingOS20DaemonConnectionRoleP11descriptionSSvgZTq
++ _$s19PreviewsMessagingOS20DaemonConnectionRoleP18handleInvalidationyyFTq
++ _$s19PreviewsMessagingOS20UninstallAppsRequestV11arePrefixesSbvg
++ _$s19PreviewsMessagingOS20UninstallAppsRequestV9bundleIDsSaySSGSgvg
++ _$s19PreviewsMessagingOS20UninstallAppsRequestVMa
++ _$s19PreviewsMessagingOS22CrashListenerInterfaceO13TwoWayMessageOMa
++ _$s19PreviewsMessagingOS22CrashListenerInterfaceOAA09TransportF0AAMc
++ _$s19PreviewsMessagingOS22CrashListenerInterfaceOMa
++ _$s19PreviewsMessagingOS22CrashListenerInterfaceOMn
++ _$s19PreviewsMessagingOS23PreviewServiceInterfaceOAA09TransportF0AAMc
++ _$s19PreviewsMessagingOS23PreviewServiceInterfaceOMa
++ _$s19PreviewsMessagingOS23PreviewServiceInterfaceOMn
++ _$s19PreviewsMessagingOS23TransportSenderProtocolPAA0a10FoundationC025PropertyListRepresentable9Interface_13OneWayMessageRPzrlE4send03oneM0yAH_tF
++ _$s19PreviewsMessagingOS23TransportSenderProtocolPAA0a10FoundationC025PropertyListRepresentable9Interface_13TwoWayMessageRPzrlE4send7message5replyyAH_AA0D5ReplyVtF
++ _$s19PreviewsMessagingOS24HostToProcessExitServiceOAA18TransportInterfaceAAMc
++ _$s19PreviewsMessagingOS24HostToProcessExitServiceOMa
++ _$s19PreviewsMessagingOS24HostToProcessExitServiceOMn
++ _$s19PreviewsMessagingOS24ProcessExitServiceToHostOAA18TransportInterfaceAAMc
++ _$s19PreviewsMessagingOS24ProcessExitServiceToHostOMa
++ _$s19PreviewsMessagingOS24ProcessExitServiceToHostOMn
++ _$s19PreviewsMessagingOS24SecurityScopedURLWrapperV3url10Foundation3URLVvg
++ _$s19PreviewsMessagingOS24SecurityScopedURLWrapperVMa
++ _$s19PreviewsMessagingOS29GrantExecutePermissionRequestVMa
++ _$s19PreviewsMessagingOS29GrantExecutePermissionRequestVMn
++ _$s19PreviewsMessagingOS9ProcessIDO0a10FoundationC025PropertyListRepresentableAAMc
++ _$s19PreviewsMessagingOS9ProcessIDO3pids5Int32Vvg
++ _$s19PreviewsMessagingOS9ProcessIDON
++ _$s19PreviewsMessagingOS9TransportPAAE10activationytvg
++ _$s19PreviewsMessagingOS9TransportPAAE10activationytvgTu
++ _$s19PreviewsMessagingOS9TransportPAAE15transportSender3forAA0dF0Vyqd__Gqd__m_tYaKAA0D9InterfaceRd__lF
++ _$s19PreviewsMessagingOS9TransportPAAE15transportSender3forAA0dF0Vyqd__Gqd__m_tYaKAA0D9InterfaceRd__lFTu
++ _$s19PreviewsMessagingOS9TransportPAAE8activate20forReceivingMessagesScSyAA0D7MessageOyqd__GGqd__m_tAA0D9InterfaceRd__lF
++ _$s20PreviewsFoundationOS10IdentifierVACycfC
++ _$s20PreviewsFoundationOS10IdentifierVMa
++ _$s20PreviewsFoundationOS10IdentifierVMn
++ _$s20PreviewsFoundationOS10IdentifierVSHAAMc
++ _$s20PreviewsFoundationOS10IdentifierVSQAAMc
++ _$s20PreviewsFoundationOS10ThreadSafeC5valueACyxGx_tcfc
++ _$s20PreviewsFoundationOS10ThreadSafeCMn
++ _$s20PreviewsFoundationOS10ThreadSafeCyxGAA26SynchronousAccessProvidingAAMc
++ _$s20PreviewsFoundationOS11withTimeout_7perform04makeE5ErrorxAA0E0VSg_xyYaYbKcs0H0_pSdYaYbctYaKs8SendableRzlF
++ _$s20PreviewsFoundationOS11withTimeout_7perform04makeE5ErrorxAA0E0VSg_xyYaYbKcs0H0_pSdYaYbctYaKs8SendableRzlFTu
++ _$s20PreviewsFoundationOS12PropertyListV16confidentlyMergeyyACF
++ _$s20PreviewsFoundationOS12PropertyListV22serializableDictionarySDySSypGvg
++ _$s20PreviewsFoundationOS12PropertyListV5emptyACvgZ
++ _$s20PreviewsFoundationOS12PropertyListV7contentACx_q_SgtyXE_tcAA0dE3KeyRzAA0dE13RepresentableR_r0_lufC
++ _$s20PreviewsFoundationOS12PropertyListVAA0dE13RepresentableAAMc
++ _$s20PreviewsFoundationOS12PropertyListVACycfC
++ _$s20PreviewsFoundationOS12PropertyListVMa
++ _$s20PreviewsFoundationOS12PropertyListVMn
++ _$s20PreviewsFoundationOS12TimeoutErrorO8timedOut10waitingForACSdYbcSS_tFZ
++ _$s20PreviewsFoundationOS12TimeoutErrorOMa
++ _$s20PreviewsFoundationOS12TimeoutErrorOs0E0AAMc
++ _$s20PreviewsFoundationOS13ExecutionLaneV3anyACvgZ
++ _$s20PreviewsFoundationOS13ExecutionLaneVMa
++ _$s20PreviewsFoundationOS16AnyInvalidatablePAAE10invalidate9dsoHandle4file4line6column8function5traceySV_s12StaticStringVS2uAlA17InvalidationTraceVtF
++ _$s20PreviewsFoundationOS16CancelationTokenVA2A010ConcurrentE8CallbackVRszrlE6cancel16onInvalidationOfyqd___tAA0F13InvalidatableRd__lF
++ _$s20PreviewsFoundationOS16CancelationTokenVA2A010ConcurrentE8CallbackVRszrlE9dsoHandle4file4line6column8function_ACyAEGSV_s12StaticStringVS2uAMyyYbctcfC
++ _$s20PreviewsFoundationOS16CancelationTokenVMn
++ _$s20PreviewsFoundationOS17CancellationTokenV6cancel9dsoHandle4file4line6column8functionySV_s12StaticStringVS2uAKtF
++ _$s20PreviewsFoundationOS17CancellationTokenVMa
++ _$s20PreviewsFoundationOS17CancellationTokenVMn
++ _$s20PreviewsFoundationOS17FutureSerialQueueC2onAcA13ExecutionLaneV_tcfc
++ _$s20PreviewsFoundationOS17FutureSerialQueueC7enqueue8priority04makeD0AA0D0CyxGAC8PriorityO_yAA7PromiseCyxGctlF
++ _$s20PreviewsFoundationOS17FutureSerialQueueCMa
++ _$s20PreviewsFoundationOS17FutureSerialQueueCMn
++ _$s20PreviewsFoundationOS17FutureTerminationO6results6ResultOyxs5Error_pGvg
++ _$s20PreviewsFoundationOS17FutureTerminationOMn
++ _$s20PreviewsFoundationOS17InvalidationTraceV5emptyACvgZ
++ _$s20PreviewsFoundationOS17InvalidationTraceVMa
++ _$s20PreviewsFoundationOS17assertUnreachable9dsoHandle4file4line6column8functionySV_s12StaticStringVS2uAItF
++ _$s20PreviewsFoundationOS18ConcurrentOnDemandV5valuexvg
++ _$s20PreviewsFoundationOS18ConcurrentOnDemandV5valuexvgTu
++ _$s20PreviewsFoundationOS18ConcurrentOnDemandV6createACyxGxyYaYbKc_tcfC
++ _$s20PreviewsFoundationOS18ConcurrentOnDemandVMa
++ _$s20PreviewsFoundationOS18ConcurrentOnDemandVMn
++ _$s20PreviewsFoundationOS18HumanReadableErrorMp
++ _$s20PreviewsFoundationOS18HumanReadableErrorP08isNativedE0SbvgTq
++ _$s20PreviewsFoundationOS18HumanReadableErrorP0B009LocalizedF0Tb
++ _$s20PreviewsFoundationOS18HumanReadableErrorP11canTryAgainSbvgTq
++ _$s20PreviewsFoundationOS18HumanReadableErrorP13lowValueTitleSSSgvgTq
++ _$s20PreviewsFoundationOS18HumanReadableErrorP14additionalInfoSSSgvgTq
++ _$s20PreviewsFoundationOS18HumanReadableErrorP14highValueTitleSSSgvgTq
++ _$s20PreviewsFoundationOS18HumanReadableErrorP16isPotentialCrashSbvgTq
++ _$s20PreviewsFoundationOS18HumanReadableErrorP18collectDiagnostics4intoyAA0H9CollectorC_tFTq
++ _$s20PreviewsFoundationOS18HumanReadableErrorP19plistRepresentationAA12PropertyListVvgTq
++ _$s20PreviewsFoundationOS18HumanReadableErrorP20errorTypeDescriptionSSvgTq
++ _$s20PreviewsFoundationOS18HumanReadableErrorP21additionalDiagnosticsSSSgvgTq
++ _$s20PreviewsFoundationOS18HumanReadableErrorP21fullDiagnosticsOutputSSvgTj
++ _$s20PreviewsFoundationOS18HumanReadableErrorP21fullDiagnosticsOutputSSvgTq
++ _$s20PreviewsFoundationOS18HumanReadableErrorP7optionsAA0deF7OptionsVSgvgTq
++ _$s20PreviewsFoundationOS18HumanReadableErrorP8severityAA0deF8SeverityOSgvgTq
++ _$s20PreviewsFoundationOS18HumanReadableErrorPAAE08isNativedE0Sbvg
++ _$s20PreviewsFoundationOS18HumanReadableErrorPAAE11canTryAgainSbvg
++ _$s20PreviewsFoundationOS18HumanReadableErrorPAAE11descriptionSSvg
++ _$s20PreviewsFoundationOS18HumanReadableErrorPAAE13lowValueTitleSSSgvg
++ _$s20PreviewsFoundationOS18HumanReadableErrorPAAE14highValueTitleSSSgvg
++ _$s20PreviewsFoundationOS18HumanReadableErrorPAAE14withUnderlyingyAaB_ps0F0_pSgF
++ _$s20PreviewsFoundationOS18HumanReadableErrorPAAE16errorDescriptionSSSgvg
++ _$s20PreviewsFoundationOS18HumanReadableErrorPAAE16isPotentialCrashSbvg
++ _$s20PreviewsFoundationOS18HumanReadableErrorPAAE18collectDiagnostics4intoyAA0H9CollectorC_tF
++ _$s20PreviewsFoundationOS18HumanReadableErrorPAAE19plistRepresentationAA12PropertyListVvg
++ _$s20PreviewsFoundationOS18HumanReadableErrorPAAE20errorTypeDescriptionSSvg
++ _$s20PreviewsFoundationOS18HumanReadableErrorPAAE21fullDiagnosticsOutputSSvg
++ _$s20PreviewsFoundationOS18HumanReadableErrorPAAE7optionsAA0deF7OptionsVSgvg
++ _$s20PreviewsFoundationOS18HumanReadableErrorPAAE8severityAA0deF8SeverityOSgvg
++ _$s20PreviewsFoundationOS18HumanReadableErrorPs23CustomStringConvertibleTb
++ _$s20PreviewsFoundationOS23ConcurrentInvalidatablePAAE14onInvalidationyyyAA0G5TraceVYbcF
++ _$s20PreviewsFoundationOS23ConcurrentTokenCallbackVMn
++ _$s20PreviewsFoundationOS26SynchronousAccessProvidingPAAE8syncRead9dsoHandle4file4line6column8function_qd__SV_s12StaticStringVS2uAKqd__5ValueQzKXEtKlF
++ _$s20PreviewsFoundationOS26SynchronousAccessProvidingPAAE9syncWrite9dsoHandle4file4line6column8function_qd__SV_s12StaticStringVS2uAKqd__5ValueQzzKXEtKlF
++ _$s20PreviewsFoundationOS28ConcurrentInvalidationHandleVAA0D13InvalidatableAAMc
++ _$s20PreviewsFoundationOS28ConcurrentInvalidationHandleVMa
++ _$s20PreviewsFoundationOS28ConcurrentInvalidationHandleVMn
++ _$s20PreviewsFoundationOS6FutureC13ignoringValue9dsoHandle4file4line6column8functionACyytGSV_s12StaticStringVS2uALtF
++ _$s20PreviewsFoundationOS6FutureC13observeFinishyyyAA0D11TerminationOyxGcF
++ _$s20PreviewsFoundationOS6FutureC6create9dsoHandle4file4line6column8functionACyxG6future_AA7PromiseCyxG7promisetSV_s12StaticStringVS2uAQtFZ
++ _$s20PreviewsFoundationOS6FutureC6failed9dsoHandle4file4line6column8function_ACyxGSV_s12StaticStringVS2uALs5Error_ptFZ
++ _$s20PreviewsFoundationOS6FutureCAAs8SendableRzlE5valuexvg
++ _$s20PreviewsFoundationOS6FutureCAAs8SendableRzlE5valuexvgTu
++ _$s20PreviewsFoundationOS6FutureCMn
++ _$s20PreviewsFoundationOS7PromiseC4fail4withys5Error_p_tF
++ _$s20PreviewsFoundationOS7PromiseC7succeed4withyx_tF
++ _$s20PreviewsFoundationOS7PromiseCAAytRszlE7succeedyyF
++ _$s20PreviewsFoundationOS7PromiseCMn
++ _$s20PreviewsFoundationOS7TimeoutV7secondsyACSdFZ
++ _$s20PreviewsFoundationOS7TimeoutVMa
++ _$s20PreviewsFoundationOS7TimeoutVMn
++ _$s2os6LoggerV20PreviewsFoundationOSE2uvACvgZ
++ _$sSH13_rawHashValue4seedS2i_tFTj
++ _$sSQ2eeoiySbx_xtFZTj
++ _$sSS20PreviewsFoundationOS15PropertyListKeyAAWP
++ _$sST20PreviewsFoundationOSE6invert9dsoHandle4file4line6column8function19andAccumulateErrorsAA6FutureCySayqd__GGSV_s12StaticStringVS2uANSbtAJyqd__G7ElementRczlF
++ _$sSayxGSlsMc
++ _$sScA15unownedExecutorScevgTq
++ _$sScAMp
++ _$sScC12continuation8functionScCyxq_GSccyxq_G_SStcfC
++ _$sScC6resume8throwingyq_n_tF
++ _$sScC6resume9returningyxn_tF
++ _$sScP8rawValues5UInt8Vvg
++ _$sScPMa
++ _$sScS17makeAsyncIteratorScS0C0Vyx_GyF
++ _$sScS8IteratorV4nextxSgyYaF
++ _$sScS8IteratorV4nextxSgyYaFTu
++ _$sScS8IteratorVMn
++ _$sScT6cancelyyF
++ _$sSiSzsMc
++ _$sSo14LSBundleRecordC17PreviewsOSSupportE19playgroundsBundleIDSSvgZ
++ _$sSo14LSBundleRecordC17PreviewsOSSupportE27playgroundsManagementDomainSSvgZ
++ _$sSw10copyMemory4fromySW_tF
++ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFyXl_Ts5
++ _$ss15ContinuousClockV7InstantVMa
++ _$ss15ContinuousClockV7InstantVs0C8ProtocolsMc
++ _$ss15ContinuousClockVABycfC
++ _$ss15ContinuousClockVMa
++ _$ss15ContinuousClockVs0B0sMc
++ _$ss15InstantProtocolP8advanced2byx8DurationQz_tFTj
++ _$ss17_assertionFailure__4file4line5flagss5NeverOs12StaticStringV_A2HSus6UInt32VtF
++ _$ss18_fatalErrorMessage__4file4line5flagss5NeverOs12StaticStringV_A2HSus6UInt32VtF
++ _$ss5ClockP3now7InstantQzvgTj
++ _$ss5ClockP5sleep5until9tolerancey7InstantQz_8DurationQzSgtYaKFTj
++ _$ss5ClockP5sleep5until9tolerancey7InstantQz_8DurationQzSgtYaKFTjTu
++ _$ss5ErrorWS
++ _$ss5Int32VN
++ _$ss5NeverO19PreviewsMessagingOS18TransportInterfaceACWP
++ _$ss5NeverOMn
++ _$ss5NeverON
++ _$ss8DurationV7secondsyABxSzRzlFZ
++ _FBSDebugOptionKeyEnvironment
++ _FBSOpenApplicationOptionKeyDebuggingOptions
++ _FBSOpenApplicationOptionKeyPromptUnlockDevice
++ _OBJC_CLASS_$_LSBundleRecord
++ _OBJC_CLASS_$_NSUserDefaults
++ _free
++ _malloc
++ _objc_release_x9
++ _objc_retain_x22
++ _objc_retain_x26
++ _objc_retain_x28
++ _swift_arrayInitWithTakeBackToFront
++ _swift_arrayInitWithTakeFrontToBack
++ _swift_continuation_await
++ _swift_continuation_init
++ _swift_defaultActor_deallocate
++ _swift_defaultActor_destroy
++ _swift_defaultActor_initialize
++ _swift_deletedAsyncMethodErrorTu
++ _swift_getEnumTagSinglePayloadGeneric
++ _swift_initStructMetadata
++ _swift_storeEnumTagMultiPayload
++ _swift_storeEnumTagSinglePayloadGeneric
++ _swift_task_alloc
++ _swift_task_create
++ _swift_task_dealloc
++ _swift_task_switch
+- _$s10Foundation4DataV19_bridgeToObjectiveCSo6NSDataCyF
+- _$s10Foundation4DataVMn
+- _$s16PreviewsServices0A17ServiceConnectionC10invalidateyyF
+- _$s16PreviewsServices0A17ServiceConnectionC19invalidationHandleryycSgvs
+- _$s16PreviewsServices0A17ServiceConnectionC4send7message12replyHandlerySo14UVPropertyListC_yAHSg_s5Error_pSgtctF
+- _$s16PreviewsServices0A17ServiceConnectionC4send7messageySo14UVPropertyListC_tF
+- _$s16PreviewsServices0A17ServiceConnectionC8activate8receiveryAA0aC15MessageReceiver_pSg_tF
+- _$s16PreviewsServices0A22ServiceMessageReceiverMp
+- _$s16PreviewsServices0A22ServiceMessageReceiverP7receive7message12replyHandlerySo14UVPropertyListC_yAHSg_s5Error_pSgtctFTq
+- _$s16PreviewsServices0A22ServiceMessageReceiverP7receive7messageySo14UVPropertyListC_tFTq
+- _$s16PreviewsServices0A7ServiceO7VariantO0A9OSSupportE05shellD0So014UVPreviewShellD0Vvg
+- _$s17PreviewsMessaging11MessagePipePAAE8teardownyyF
+- _$s17PreviewsMessaging11PreviewTypeON
+- _$s17PreviewsMessaging13InterruptibleMp
+- _$s17PreviewsMessaging14CopyURLRequestVMn
+- _$s17PreviewsMessaging14CopyURLRequestVN
+- _$s17PreviewsMessaging14ServiceMessageV17propertyListValue0A10Foundation08PropertyF0Vvg
+- _$s17PreviewsMessaging14ServiceMessageV17propertyListValueAC0A10Foundation08PropertyF0V_tKcfC
+- _$s17PreviewsMessaging14ServiceMessageV7ContentON
+- _$s17PreviewsMessaging14ServiceMessageVMn
+- _$s17PreviewsMessaging15AgentDescriptorV17propertyListValue0A10Foundation08PropertyF0Vvg
+- _$s17PreviewsMessaging15AgentDescriptorVMn
+- _$s17PreviewsMessaging15CopyURLResponseV17propertyListValue0A10Foundation08PropertyF0Vvg
+- _$s17PreviewsMessaging15HostAgentSystemOAA013MessageStreamE0AAMc
+- _$s17PreviewsMessaging15HostAgentSystemOMn
+- _$s17PreviewsMessaging15HostAgentSystemON
+- _$s17PreviewsMessaging15HostShellSystemOAA013MessageStreamE0AAMc
+- _$s17PreviewsMessaging15HostShellSystemOMn
+- _$s17PreviewsMessaging15HostShellSystemON
+- _$s17PreviewsMessaging15ResetAppRequestVMn
+- _$s17PreviewsMessaging15ResetAppRequestVN
+- _$s17PreviewsMessaging16TransportMessageV7payload12replyHandlerAC0A10Foundation12PropertyListV_ys6ResultOyAHs5Error_pGcSgtcfC
+- _$s17PreviewsMessaging16TransportMessageVMn
+- _$s17PreviewsMessaging16TransportMessageVN
+- _$s17PreviewsMessaging17AppManagerRequestO17propertyListValueAC0A10Foundation08PropertyG0V_tKcfC
+- _$s17PreviewsMessaging17AppManagerRequestON
+- _$s17PreviewsMessaging17CenterMessagePipeCMn
+- _$s17PreviewsMessaging17CenterMessagePipeCyxGAA011NonTerminaldE0AAMc
+- _$s17PreviewsMessaging17CenterMessagePipeCyxGAA09NonOrigindE0AAMc
+- _$s17PreviewsMessaging17CenterMessagePipeCyxGAA0dE0AAMc
+- _$s17PreviewsMessaging17InstallAppRequestVN
+- _$s17PreviewsMessaging19MessageStreamSystemMp
+- _$s17PreviewsMessaging20CrashListenerRequestO04NextC8ResponseV11crashReportAE0A10Foundation0cI0V_tcfC
+- _$s17PreviewsMessaging20CrashListenerRequestO04NextC8ResponseV17propertyListValue0A10Foundation08PropertyI0Vvg
+- _$s17PreviewsMessaging20CrashListenerRequestO04NextC8ResponseVMa
+- _$s17PreviewsMessaging20CrashListenerRequestO04NextcE0VMn
+- _$s17PreviewsMessaging20CrashListenerRequestO04NextcE0VN
+- _$s17PreviewsMessaging20CrashListenerRequestO17propertyListValueAC0A10Foundation08PropertyG0V_tKcfC
+- _$s17PreviewsMessaging20NonOriginMessagePipePAAE19attachLeftTransporty0A10Foundation6FutureCyytGAA0I0_pF
+- _$s17PreviewsMessaging20UninstallAppsRequestVN
+- _$s17PreviewsMessaging22NonTerminalMessagePipePAAE6create22rightTransportProviderx0A10Foundation6FutureCyAA0I0_pGyc_tFZ
+- _$s17PreviewsMessaging24SecurityScopedURLWrapperV17propertyListValue10Foundation4DataVvg
+- _$s17PreviewsMessaging24SecurityScopedURLWrapperV3url10Foundation3URLVvg
+- _$s17PreviewsMessaging24SecurityScopedURLWrapperVMn
+- _$s17PreviewsMessaging29GrantExecutePermissionRequestVMn
+- _$s17PreviewsMessaging29GrantExecutePermissionRequestVN
+- _$s17PreviewsMessaging9ProcessIDO17propertyListValue0A10Foundation08PropertyF0Vvg
+- _$s17PreviewsMessaging9ProcessIDO17propertyListValueAC0A10Foundation08PropertyF0V_tKcfC
+- _$s17PreviewsMessaging9ProcessIDO3pids5Int32Vvg
+- _$s17PreviewsMessaging9TransportMp
+- _$s17PreviewsOSSupport18TransactionManagerC04takeC03for0A10Foundation17CancellationTokenCSS_tF
+- _$s17PreviewsOSSupport18TransactionManagerC12currentState0A10Foundation12PropertyListVvg
+- _$s17PreviewsOSSupport18TransactionManagerC6sharedACvau
+- _$s17PreviewsOSSupport18decodeReplyHandleryys6ResultOy0A10Foundation12PropertyListVs5Error_pGcySo010UVPropertyI0CSg_sAH_pSgtcF
+- _$s17PreviewsOSSupport18encodeReplyHandleryySo14UVPropertyListCSg_s5Error_pSgtcys6ResultOy0A10Foundation08PropertyG0VsAF_pGcF
+- _$s17PreviewsOSSupport23PreviewAssertionManagerC010takeActivecD03for0A10Foundation17CancellationTokenCs5Int32V_tF
+- _$s17PreviewsOSSupport23PreviewAssertionManagerC6sharedACvau
+- _$s18PreviewsFoundation10IdentifierVACycfC
+- _$s18PreviewsFoundation10IdentifierVMn
+- _$s18PreviewsFoundation10IdentifierVN
+- _$s18PreviewsFoundation10ThreadSafeC5valueACyxGx_tcfc
+- _$s18PreviewsFoundation10ThreadSafeC8syncRead8callsite_qd__AA8CallsiteV_qd__xKXEtKlF
+- _$s18PreviewsFoundation10ThreadSafeC9syncWrite8callsite_qd__AA8CallsiteV_qd__xzKXEtKlF
+- _$s18PreviewsFoundation10ThreadSafeCMn
+- _$s18PreviewsFoundation10ThreadSafeCyxGAA26SynchronousAccessProvidingAAMc
+- _$s18PreviewsFoundation11CrashReportVMa
+- _$s18PreviewsFoundation11CrashReportVMn
+- _$s18PreviewsFoundation12PropertyListV0A9MessagingE5emptyACvgZ
+- _$s18PreviewsFoundation12PropertyListV0A9OSSupportE7encodedSo010UVPropertyD0Cvg
+- _$s18PreviewsFoundation12PropertyListV16confidentlyMergeyyACF
+- _$s18PreviewsFoundation12PropertyListV7contentACx_q_SgtyXE_tcAA0cD3KeyRzAA0cD13RepresentableR_r0_lufC
+- _$s18PreviewsFoundation12PropertyListVAA0cD13RepresentableAAMc
+- _$s18PreviewsFoundation12PropertyListVACycfC
+- _$s18PreviewsFoundation12PropertyListVMn
+- _$s18PreviewsFoundation12PropertyListVN
+- _$s18PreviewsFoundation12TimeoutErrorO8timedOut10waitingForACSdcSS_tFZ
+- _$s18PreviewsFoundation12TimeoutErrorOMn
+- _$s18PreviewsFoundation12TimeoutErrorON
+- _$s18PreviewsFoundation12TimeoutErrorOs0D0AAMc
+- _$s18PreviewsFoundation13ExecutionLaneV3anyACvau
+- _$s18PreviewsFoundation13InvalidatableMp
+- _$s18PreviewsFoundation13InvalidatablePAAE10invalidate8callsiteyAA8CallsiteV_tF
+- _$s18PreviewsFoundation13InvalidatablePAAE14onInvalidationyyyycF
+- _$s18PreviewsFoundation13InvalidatablePAAE17_bindInvalidation9dsoHandle4file4line6column8function2toySV_s12StaticStringVS2uAlaB_pdtF
+- _$s18PreviewsFoundation13InvalidatablePAAE17trackInvalidation9dsoHandle4file4line6column8function2ofySV_s12StaticStringVS2uAlaB_ptF
+- _$s18PreviewsFoundation15SingleFireEventC11descriptionACSSSg_tcfc
+- _$s18PreviewsFoundation15SingleFireEventC27observeUntilFiredOrCanceledyyyycF
+- _$s18PreviewsFoundation15SingleFireEventC4fireyyF
+- _$s18PreviewsFoundation15SingleFireEventC6cancelyyF
+- _$s18PreviewsFoundation15SingleFireEventCMa
+- _$s18PreviewsFoundation15SingleFireEventCMn
+- _$s18PreviewsFoundation17CancellationTokenC20cancelOnInvalidation2ofyAA13Invalidatable_p_tF
+- _$s18PreviewsFoundation17CancellationTokenC6cancelyyF
+- _$s18PreviewsFoundation17CancellationTokenC9dsoHandle4file4line6column8function_ACSV_s12StaticStringVS2uAJyyctcfC
+- _$s18PreviewsFoundation17CancellationTokenCMa
+- _$s18PreviewsFoundation17CancellationTokenCMn
+- _$s18PreviewsFoundation17FutureSerialQueueC2onAcA13ExecutionLaneV_tcfc
+- _$s18PreviewsFoundation17FutureSerialQueueC7enqueue8priority04makeC0AA0C0CyxGAC8PriorityO_yAA7PromiseCyxGctlF
+- _$s18PreviewsFoundation17FutureSerialQueueCMa
+- _$s18PreviewsFoundation17FutureSerialQueueCMn
+- _$s18PreviewsFoundation17FutureTerminationO6results6ResultOyxs5Error_pGvg
+- _$s18PreviewsFoundation17FutureTerminationOMn
+- _$s18PreviewsFoundation18HumanReadableErrorMp
+- _$s18PreviewsFoundation18HumanReadableErrorPAAE14withUnderlyingyAaB_ps0E0_pSgF
+- _$s18PreviewsFoundation18HumanReadableErrorPAAE19plistRepresentationAA12PropertyListVvg
+- _$s18PreviewsFoundation18HumanReadableErrorPAAE20errorTypeDescriptionSSvg
+- _$s18PreviewsFoundation18HumanReadableErrorPAAE21fullDiagnosticsOutputSSvg
+- _$s18PreviewsFoundation18InvalidationHandleC03dsoD04file4line6column8function4nameACSV_s12StaticStringVS2uAKSSSgtcfc
+- _$s18PreviewsFoundation18InvalidationHandleCMa
+- _$s18PreviewsFoundation18InvalidationHandleCMn
+- _$s18PreviewsFoundation19CrashReportListenerC04nextcD03for7timeoutAA6FutureCyAA0cD0VGAA17ProcessIdentifierO_SdtF
+- _$s18PreviewsFoundation19CrashReportListenerC22startListeningIfNeededyyF
+- _$s18PreviewsFoundation19CrashReportListenerC7defaultACvau
+- _$s18PreviewsFoundation22MinimallyInvalidatableMp
+- _$s18PreviewsFoundation26SynchronousAccessProvidingPAAE12syncSetValue2at2toqd__s15WritableKeyPathCy0H0Qzqd__G_qd__tlF
+- _$s18PreviewsFoundation26SynchronousAccessProvidingPAAE4peek9dsoHandle4file4line6column8function5ValueQzSV_s12StaticStringVS2uAMtF
+- _$s18PreviewsFoundation3RefVMn
+- _$s18PreviewsFoundation6FutureC12uncancelable9dsoHandle4file4line6column8functionACyxGSV_s12StaticStringVS2uALtF
+- _$s18PreviewsFoundation6FutureC13ignoringValue9dsoHandle4file4line6column8functionACyytGSV_s12StaticStringVS2uALtF
+- _$s18PreviewsFoundation6FutureC13observeFinish2on_yAA13ExecutionLaneV_yAA0C11TerminationOyxGctF
+- _$s18PreviewsFoundation6FutureC13tryMapSuccess9dsoHandle4file4line6column8function2on_ACyqd__GSV_s12StaticStringVS2uAmA13ExecutionLaneVqd__xKctlF
+- _$s18PreviewsFoundation6FutureC14observeFailure2on_yAA13ExecutionLaneV_ys5Error_pctF
+- _$s18PreviewsFoundation6FutureC14observeSuccess2on_yAA13ExecutionLaneV_yxctF
+- _$s18PreviewsFoundation6FutureC17observeCompletion2on_yAA13ExecutionLaneV_ys6ResultOyxs5Error_pGctF
+- _$s18PreviewsFoundation6FutureC25observeUnsuccessfulResult2on_yAA13ExecutionLaneV_ys5Error_pctF
+- _$s18PreviewsFoundation6FutureC4then9dsoHandle4file4line6column8function2on9transformACyqd__GSV_s12StaticStringVS2uAnA13ExecutionLaneVALxctlF
+- _$s18PreviewsFoundation6FutureC6create9dsoHandle4file4line6column8functionACyxG6future_AA7PromiseCyxG7promisetSV_s12StaticStringVS2uAQtFZ
+- _$s18PreviewsFoundation6FutureC6failed9dsoHandle4file4line6column8function_ACyxGSV_s12StaticStringVS2uALs5Error_ptFZ
+- _$s18PreviewsFoundation6FutureC7timeout9dsoHandle4file4line6column8function5after0D5ErrorACys6ResultOyxs0L0_pGGSV_s12StaticStringVS2uARSdsAN_pSdctF
+- _$s18PreviewsFoundation6FutureC9dsoHandle4file4line6column8function8callbackACyxGSV_s12StaticStringVS2uALyAA7PromiseCyxGXEtcfC
+- _$s18PreviewsFoundation6FutureC9flattenedACyqd__Gys6ResultOyqd__s5Error_pGRszlF
+- _$s18PreviewsFoundation6FutureCMn
+- _$s18PreviewsFoundation7PromiseC5track6futureyAA6FutureCyxG_tF
+- _$s18PreviewsFoundation7PromiseC7fulfill4withys6ResultOyxs5Error_pG_tF
+- _$s18PreviewsFoundation7PromiseCAAytRszlE7succeedyyF
+- _$s18PreviewsFoundation7PromiseCMn
+- _$s2os6LoggerV18PreviewsFoundationE2uvACvau
+- _$s8RawValueSYTl
+- _$sBi64_WV
+- _$sSS18PreviewsFoundation15PropertyListKeyAAWP
+- _$sST18PreviewsFoundationE6invert9dsoHandle4file4line6column8function19andAccumulateErrorsAA6FutureCySayqd__GGSV_s12StaticStringVS2uANSbtAJyqd__G7ElementRczlF
+- _$sSY8rawValue03RawB0QzvgTq
+- _$sSY8rawValuexSg03RawB0Qz_tcfCTq
+- _$sSYMp
+- _$sSo14LSBundleRecordC17PreviewsOSSupportE19playgroundsBundleIDSSvau
+- _$sSo14LSBundleRecordC17PreviewsOSSupportE27playgroundsManagementDomainSSvau
+- _$sSo14UVPropertyListC17PreviewsOSSupportE7decoded0C10Foundation08PropertyB0Vvg
+- _$sSo21UVPreviewShellVariantV17PreviewsOSSupportE11descriptionSSvg
+- _$sSo25UVBSPipeServiceConnectionC17PreviewsMessaging9Transport0D9OSSupportWP
+- _$sSq18PreviewsFoundationE3logSSvg
+- _$ss11_SetStorageC4copy8originalAByxGs05__RawaB0C_tFZ
+- _$ss11_SetStorageC6resize8original8capacity4moveAByxGs05__RawaB0C_SiSbtFZ
+- _$ss11_SetStorageCMn
+- _$ss17_assertionFailure__4file4line5flagss5NeverOs12StaticStringV_SSAHSus6UInt32VtF
+- _$ss50ELEMENT_TYPE_OF_SET_VIOLATES_HASHABLE_REQUIREMENTSys5NeverOypXpF
+- _$ss6HasherV8_combineyys6UInt64VF
+- _$ss6ResultOMn
+- _FBSOpenApplicationOptionKeyUnlockDevice
+- _OBJC_CLASS_$_UVBSPipeServiceClientConnection
+- _OBJC_CLASS_$_UVDaemonServiceClientConnection
+- __swiftEmptySetSingleton
+- _objc_retain_x1
+- _objc_retain_x10
+- _objc_retain_x2
+- _swift_getForeignTypeMetadata
+- _swift_getKeyPath
+- _swift_setDeallocating
+- _swift_updateClassMetadata2
+CStrings:
++ "$defaultActor"
++ "/Library/Caches/com.apple.xbs/Sources/UITestingAgent/OS/previewsd/Sources/previewsd/AppManagerDaemon+Prewarm.swift"
++ "/Library/Caches/com.apple.xbs/Sources/UITestingAgent/OS/previewsd/Sources/previewsd/CrashListenerService.swift"
++ "/Library/Caches/com.apple.xbs/Sources/UITestingAgent/OS/previewsd/Sources/previewsd/DaemonService.swift"
++ "/Library/Caches/com.apple.xbs/Sources/UITestingAgent/OS/previewsd/Sources/previewsd/PipeListener.swift"
++ "AppManagerDaemon"
++ "Could not activate %s service for connection: %s"
++ "CrashListenerService"
++ "Creating %s service for connection: %s"
++ "Failed to launch & connect to preview shell (%{public}s): %@"
++ "Insufficient space allocated to copy string contents"
++ "Last pipe listener client went away, scheduling teardown..."
++ "Negative value is not representable"
++ "Not enough bits to represent the passed value"
++ "PipeListener<%s> got incoming connection: %s"
++ "ProcessExitService"
++ "ProcessExitService received request to monitor %{public}d"
++ "ShellPreviewService"
++ "ShellPreviewService (%s) init"
++ "Swift/ContiguousArrayBuffer.swift"
++ "Swift/Integers.swift"
++ "Swift/StringTesting.swift"
++ "Swift/StringUTF8View.swift"
++ "Swift/UnsafeBufferPointer.swift"
++ "Swift/UnsafePointer.swift"
++ "Swift/UnsafeRawBufferPointer.swift"
++ "Swift/UnsafeRawPointer.swift"
++ "T@\"NSString\",?,R,C"
++ "Tearing down pipe listener on %s"
++ "UVShellXOJITDebuggerSupport"
++ "Unexpectedly found nil while unwrapping an Optional value"
++ "UnsafeMutableBufferPointer with negative count"
++ "UnsafeMutablePointer.initialize overlapping range"
++ "UnsafeMutablePointer.initialize with negative count"
++ "UnsafeMutablePointer.moveInitialize with negative count"
++ "UnsafeMutableRawBufferPointer.copyMemory source has too many elements"
++ "UnsafeMutableRawPointer.initializeMemory overlapping range"
++ "XOJIT_DEBUGGER_SUPPORT"
++ "appManagerListener"
++ "boolForKey:"
++ "clientState"
++ "crashListener"
++ "handleMessage(_:)"
++ "init(variant:listener:)"
++ "init(wrapping:serviceDescription:)"
++ "installApplication(request:with:)"
++ "invalid Collection: less than 'count' elements in collection"
++ "launchAndConnectToPreviewShell(variant:)"
++ "monitors"
++ "pipe service (HostAgentSystem)"
++ "pipe service (HostShellSystem)"
++ "pipeServiceConnection"
++ "prewarmForCurrentUser(with:)"
++ "processExitConnection"
++ "resetApplication(request:with:)"
++ "send(_:reply:)"
++ "standardUserDefaults"
++ "uninstallApplications(bundleIDs:with:)"
++ "updateClientCount(_:)"
++ "wantsShellForeground"
+- "%s canceled"
+- "%s succeeded"
+- "/Library/Caches/com.apple.xbs/Sources/UITestingAgent/OS/previewsd/Sources/previewsd/AgentPipeListener.swift"
+- "/Library/Caches/com.apple.xbs/Sources/UITestingAgent/OS/previewsd/Sources/previewsd/AppManagerDaemon.swift"
+- "/Library/Caches/com.apple.xbs/Sources/UITestingAgent/OS/previewsd/Sources/previewsd/ProcessExitService.swift"
+- "AgentPipeListener attaching new client to message pipe"
+- "AgentPipeListener client count is zero: tearing down message pipe"
+- "AgentPipeListener got incoming connection: %s"
+- "AppManagerDaemon client count is zero: tearing down shell proxy"
+- "AppManagerDaemon: %@"
+- "ClientConnection activate (for sending and receiving)"
+- "CrashListenerDaemon: %@"
+- "Failed to launch preview shell: %@"
+- "Invalid message payload from ShellPreviewService host connection: %{public}@"
+- "Invalid message received on ProcessExitService: %{public}@"
+- "Next Crash Retrieval Failed"
+- "ProcessExitService init: %s"
+- "ProcessExitService receive: %s"
+- "ShellPreviewService (%s) init: %s"
+- "ShellPreviewService receive message: %s, reply: %s"
+- "Warming up CrashListener if needed"
+- "_TtC9previewsd16AppManagerDaemon"
+- "_TtC9previewsd16ClientConnection"
+- "_TtC9previewsd17PreviewShellProxy"
+- "_TtC9previewsd18ProcessExitService"
+- "_TtC9previewsd19CrashListenerDaemon"
+- "_TtC9previewsd19ShellPreviewService"
+- "_TtCC9previewsd18ProcessExitService8Listener"
+- "_TtCC9previewsd19ShellPreviewService8Listener"
+- "activate"
+- "activate AgentPipeListener"
+- "activate AppManagerDaemon"
+- "activate CrashListenerDaemon"
+- "activation"
+- "agentPipeConnection"
+- "appManager"
+- "clientConnection"
+- "clientCount"
+- "connect()"
+- "connections"
+- "copyURL(to:using:)"
+- "copyURLToAgentDescriptorPayload:usingData:replyHandler:"
+- "crashListenerDaemon"
+- "createForSystem:variant:error:"
+- "createWithVariant:error:"
+- "got incoming connection on shell preview service: %s"
+- "grantExecutePermission(to:using:)"
+- "grantExecutePermissionToAgentDescriptorPayload:usingData:replyHandler:"
+- "init(clientConnection:)"
+- "init(shellVariant:listener:)"
+- "init(variant:)"
+- "init(variant:clientConnection:)"
+- "init(wrapping:)"
+- "installer"
+- "invalidationHandle"
+- "noteClientAdded()"
+- "noteClientRemoved()"
+- "onActivation:"
+- "onInvalidation:"
+- "one-way messages not supported in daemon AppManager"
+- "one-way messages not supported in daemon CrashListener"
+- "preview shell launched for agent message pipe: %{public}d"
+- "previewsd/AppManagerDaemon.swift"
+- "previewsd/CrashListenerDaemon.swift"
+- "primitiveConnect()"
+- "receiver"
+- "removeMonitor(for:)"
+- "resetApplication(request:completion:)"
+- "sendPreviewServiceMessage:replyHandler:"
+- "services"
+- "shellProxy"
+- "underlying"
+- "uninstallApplications(bundleIDs:completion:)"
+- "v16@?0@\"NSError\"8"
+- "v24@?0@\"UVPropertyList\"8@\"NSError\"16"
+- "variant"
+
+```

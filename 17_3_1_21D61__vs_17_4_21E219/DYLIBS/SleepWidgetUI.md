@@ -1,0 +1,95 @@
+## SleepWidgetUI
+
+> `/System/Library/PrivateFrameworks/SleepWidgetUI.framework/SleepWidgetUI`
+
+```diff
+
+-4146.3.2.0.0
+-  __TEXT.__text: 0x82590
+-  __TEXT.__auth_stubs: 0x1ae0
++4146.4.18.0.0
++  __TEXT.__text: 0x83540
++  __TEXT.__auth_stubs: 0x1b10
+   __TEXT.__const: 0x2eb0
+-  __TEXT.__cstring: 0x132d
++  __TEXT.__cstring: 0x163d
+   __TEXT.__constg_swiftt: 0x1108
+   __TEXT.__swift5_typeref: 0x137c
+   __TEXT.__swift5_reflstr: 0x8e5
+
+   __TEXT.__swift5_types: 0x110
+   __TEXT.__swift5_mpenum: 0x8
+   __TEXT.__swift5_protos: 0x10
+-  __TEXT.__unwind_info: 0x16e4
++  __TEXT.__unwind_info: 0x16dc
+   __TEXT.__eh_frame: 0xf8
+   __TEXT.__objc_methname: 0x45f
+-  __DATA_CONST.__got: 0x720
++  __DATA_CONST.__got: 0x718
+   __DATA_CONST.__const: 0x278
+   __DATA_CONST.__objc_classlist: 0x10
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_const: 0x120
+   __DATA_CONST.__objc_selrefs: 0x1d8
++  __DATA_CONST.__objc_classrefs: 0xb0
+   __AUTH_CONST.__const: 0x29c8
+   __AUTH_CONST.__auth_ptr: 0x100
+-  __AUTH_CONST.__auth_got: 0xd70
++  __AUTH_CONST.__auth_got: 0xd88
+   __AUTH.__data: 0x928
+-  __DATA.__objc_classrefs: 0xb0
+-  __DATA.__data: 0xbe8
++  __DATA.__data: 0xd00
+   __DATA.__bss: 0x1b10
+   __DATA.__common: 0x18
+   __DATA_DIRTY.__data: 0x1420
+
+   - /usr/lib/swift/libswiftsimd.dylib
+   Functions: 2139
+   Symbols:   596
+-  CStrings:  155
++  CStrings:  172
+ 
+Symbols:
++ _get_witness_table 7SwiftUI15ModifiedContentVyAA6VStackVyAA9TupleViewVyAA6HStackVyAGy011SleepWidgetB0025ScheduleOccurrenceSectionG0V_AA6SpacerVtGG_ANtGGAA30_EnvironmentKeyWritingModifierVy12CoreGraphics7CGFloatVGGAA0G0HPAraZHPyHC_AxA0gR0HPyHCHC.6
++ _get_witness_table 7SwiftUI19_ConditionalContentVyACyAA4ViewP9WidgetKitE9widgetURLyQr10Foundation0I0VSgFQOyAA03AnyE0V_Qo_ANGAOGAaDHPAoaDHPqd__AaDHD2_ANHO_qd__AaDHD2_ANHOHC_AoaDHPqd__AaDHD2_ANHO_qd__AaDHD2_ANHOHCHC.16
++ _get_witness_table 7SwiftUI19_ConditionalContentVyACyAA4ViewP9WidgetKitE9widgetURLyQr10Foundation0I0VSgFQOyAA03AnyE0V_Qo_ANGAOGAaDHPAoaDHPqd__AaDHD2_ANHO_qd__AaDHD2_ANHOHC_AoaDHPqd__AaDHD2_ANHO_qd__AaDHD2_ANHOHCHC.8
++ _get_witness_table 7SwiftUI6ZStackVy06HealthB025AccessoryCircularTimeViewVGAA0H0HPyHC.2
++ _get_witness_table 8HealthUI29AccessoryRectangularChartViewVy05SwiftB015ModifiedContentVy011SleepWidgetB00jkeF0VAD14_PaddingLayoutVGGAD0F0HPyHC.6
++ _get_witness_table 8HealthUI33AccessoryCircularSymbolDetailViewV05SwiftB00G0HPyHC.2
++ _get_witness_table qd0__7SwiftUI4ViewHD3_AaBPAAE19containerBackground3for9alignment7contentQrAA09ContainerE9PlacementV_AA9AlignmentVqd__yXEtAaBRd__lFQOyAA15ModifiedContentVyAA6VStackVyAA6HStackVyAA05TupleC0VyAA012_ConditionalM0VyAUyAC9WidgetKitE9widgetURLyQr10Foundation0U0VSgFQOyAA03AnyC0V_Qo_A2_GA3_G_AA6SpacerVtGGGAA14_PaddingLayoutVG_AA05EmptyC0VQo_HO.9
++ _get_witness_table qd0__7SwiftUI4ViewHD3_AaBPAAE19containerBackground3for9alignment7contentQrAA09ContainerE9PlacementV_AA9AlignmentVqd__yXEtAaBRd__lFQOyAA15ModifiedContentVyAC9WidgetKitE9widgetURLyQr10Foundation0Q0VSgFQOyAA6VStackVyAA6HStackVyAA05TupleC0Vy05SleepnB00vn7ResultsC0VyAZ0v5StagewC0VG_AA6SpacerVtGGG_Qo_AA14_PaddingLayoutVG_AA05EmptyC0VQo_HO.10
++ _get_witness_table qd__7SwiftUI4ViewHD2_AaBP9WidgetKitE9widgetURLyQr10Foundation0G0VSgFQOy06HealthB0025AccessoryRectangularChartC0VyAA15ModifiedContentVy05SleepdB00o12StageResultsC0VAA14_PaddingLayoutVGG_Qo_HO.12
++ _get_witness_table qd__7SwiftUI4ViewHD2_AaBP9WidgetKitE9widgetURLyQr10Foundation0G0VSgFQOy06HealthB0029AccessoryCircularSymbolDetailC0V_Qo_HO.2
++ _swift_unknownObjectRetain_n
+- _get_witness_table 7SwiftUI15ModifiedContentVyAA6VStackVyAA9TupleViewVyAA6HStackVyAGy011SleepWidgetB0025ScheduleOccurrenceSectionG0V_AA6SpacerVtGG_ANtGGAA30_EnvironmentKeyWritingModifierVy12CoreGraphics7CGFloatVGGAA0G0HPAraZHPyHC_AxA0gR0HPyHCHC.7
+- _get_witness_table 7SwiftUI19_ConditionalContentVyACyAA4ViewP9WidgetKitE9widgetURLyQr10Foundation0I0VSgFQOyAA03AnyE0V_Qo_ANGAOGAaDHPAoaDHPqd__AaDHD2_ANHO_qd__AaDHD2_ANHOHC_AoaDHPqd__AaDHD2_ANHO_qd__AaDHD2_ANHOHCHC.17
+- _get_witness_table 7SwiftUI19_ConditionalContentVyACyAA4ViewP9WidgetKitE9widgetURLyQr10Foundation0I0VSgFQOyAA03AnyE0V_Qo_ANGAOGAaDHPAoaDHPqd__AaDHD2_ANHO_qd__AaDHD2_ANHOHC_AoaDHPqd__AaDHD2_ANHO_qd__AaDHD2_ANHOHCHC.9
+- _get_witness_table 7SwiftUI6ZStackVy06HealthB025AccessoryCircularTimeViewVGAA0H0HPyHC.3
+- _get_witness_table 8HealthUI29AccessoryRectangularChartViewVy05SwiftB015ModifiedContentVy011SleepWidgetB00jkeF0VAD14_PaddingLayoutVGGAD0F0HPyHC.7
+- _get_witness_table 8HealthUI33AccessoryCircularSymbolDetailViewV05SwiftB00G0HPyHC.3
+- _get_witness_table qd0__7SwiftUI4ViewHD3_AaBPAAE19containerBackground3for9alignment7contentQrAA09ContainerE9PlacementV_AA9AlignmentVqd__yXEtAaBRd__lFQOyAA15ModifiedContentVyAA6VStackVyAA6HStackVyAA05TupleC0VyAA012_ConditionalM0VyAUyAC9WidgetKitE9widgetURLyQr10Foundation0U0VSgFQOyAA03AnyC0V_Qo_A2_GA3_G_AA6SpacerVtGGGAA14_PaddingLayoutVG_AA05EmptyC0VQo_HO.10
+- _get_witness_table qd0__7SwiftUI4ViewHD3_AaBPAAE19containerBackground3for9alignment7contentQrAA09ContainerE9PlacementV_AA9AlignmentVqd__yXEtAaBRd__lFQOyAA15ModifiedContentVyAC9WidgetKitE9widgetURLyQr10Foundation0Q0VSgFQOyAA6VStackVyAA6HStackVyAA05TupleC0Vy05SleepnB00vn7ResultsC0VyAZ0v5StagewC0VG_AA6SpacerVtGGG_Qo_AA14_PaddingLayoutVG_AA05EmptyC0VQo_HO.11
+- _get_witness_table qd__7SwiftUI4ViewHD2_AaBP9WidgetKitE9widgetURLyQr10Foundation0G0VSgFQOy06HealthB0025AccessoryRectangularChartC0VyAA15ModifiedContentVy05SleepdB00o12StageResultsC0VAA14_PaddingLayoutVGG_Qo_HO.13
+- _get_witness_table qd__7SwiftUI4ViewHD2_AaBP9WidgetKitE9widgetURLyQr10Foundation0G0VSgFQOy06HealthB0029AccessoryCircularSymbolDetailC0V_Qo_HO.3
+- _swift_setDeallocating
+CStrings:
++ "Division by zero"
++ "Division results in an overflow"
++ "Insufficient space allocated to copy string contents"
++ "Swift/ContiguousArrayBuffer.swift"
++ "Swift/IntegerTypes.swift"
++ "Swift/StringTesting.swift"
++ "Swift/StringUTF8View.swift"
++ "Swift/UnsafeBufferPointer.swift"
++ "Swift/UnsafePointer.swift"
++ "Swift/UnsafeRawPointer.swift"
++ "Unexpectedly found nil while unwrapping an Optional value"
++ "UnsafeMutableBufferPointer with negative count"
++ "UnsafeMutablePointer.initialize overlapping range"
++ "UnsafeMutablePointer.initialize with negative count"
++ "UnsafeMutablePointer.moveInitialize with negative count"
++ "UnsafeMutableRawPointer.initializeMemory overlapping range"
++ "invalid Collection: less than 'count' elements in collection"
+
+```

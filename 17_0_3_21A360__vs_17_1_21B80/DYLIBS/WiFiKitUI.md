@@ -1,0 +1,160 @@
+## WiFiKitUI
+
+> `/System/Library/PrivateFrameworks/WiFiKitUI.framework/WiFiKitUI`
+
+```diff
+
+-876.49.0.0.0
+-  __TEXT.__text: 0x5f394
+-  __TEXT.__auth_stubs: 0xe00
+-  __TEXT.__objc_methlist: 0x5164
+-  __TEXT.__const: 0x394
++878.6.0.0.0
++  __TEXT.__text: 0x5fb40
++  __TEXT.__auth_stubs: 0xdb0
++  __TEXT.__objc_methlist: 0x51cc
++  __TEXT.__const: 0x3f4
+   __TEXT.__oslogstring: 0x2957
+-  __TEXT.__cstring: 0x7178
++  __TEXT.__cstring: 0x71a8
+   __TEXT.__gcc_except_tab: 0xdac
+-  __TEXT.__swift5_typeref: 0x97e
++  __TEXT.__swift5_typeref: 0x90e
+   __TEXT.__swift5_reflstr: 0x71
+   __TEXT.__swift5_assocty: 0x48
+   __TEXT.__constg_swiftt: 0x1a4
+
+   __TEXT.__swift5_builtin: 0x14
+   __TEXT.__swift5_proto: 0xc
+   __TEXT.__swift5_types: 0x18
+-  __TEXT.__unwind_info: 0x1224
+-  __TEXT.__objc_classname: 0x969
+-  __TEXT.__objc_methname: 0xf638
++  __TEXT.__unwind_info: 0x123c
++  __TEXT.__objc_classname: 0x982
++  __TEXT.__objc_methname: 0xf670
+   __TEXT.__objc_methtype: 0x1fdd
+-  __TEXT.__objc_stubs: 0xa160
+-  __DATA_CONST.__got: 0x350
+-  __DATA_CONST.__const: 0xeb0
+-  __DATA_CONST.__objc_classlist: 0x208
++  __TEXT.__objc_stubs: 0xa1e0
++  __DATA_CONST.__got: 0x368
++  __DATA_CONST.__const: 0xec8
++  __DATA_CONST.__objc_classlist: 0x210
+   __DATA_CONST.__objc_catlist: 0x40
+   __DATA_CONST.__objc_protolist: 0xf0
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_const: 0x11270
+-  __DATA_CONST.__objc_selrefs: 0x3540
++  __DATA_CONST.__objc_const: 0x11328
++  __DATA_CONST.__objc_selrefs: 0x3548
+   __DATA_CONST.__objc_arraydata: 0x150
+-  __AUTH_CONST.__cfstring: 0x6520
+-  __AUTH_CONST.__objc_const: 0x1718
+-  __AUTH_CONST.__const: 0x608
++  __AUTH_CONST.__cfstring: 0x6560
++  __AUTH_CONST.__objc_const: 0x1760
++  __AUTH_CONST.__const: 0x610
+   __AUTH_CONST.__objc_intobj: 0x690
+   __AUTH_CONST.__objc_arrayobj: 0x228
+   __AUTH_CONST.__objc_doubleobj: 0x10
+   __AUTH_CONST.__auth_ptr: 0x10
+-  __AUTH_CONST.__auth_got: 0x710
+-  __AUTH.__objc_data: 0x13a0
+-  __AUTH.__data: 0xc0
++  __AUTH_CONST.__auth_got: 0x6e8
++  __AUTH.__objc_data: 0x13f0
++  __AUTH.__data: 0xc8
+   __DATA.__objc_protorefs: 0x30
+-  __DATA.__objc_classrefs: 0x420
+-  __DATA.__objc_superrefs: 0x190
+-  __DATA.__objc_ivar: 0x778
+-  __DATA.__data: 0xca0
+-  __DATA.__bss: 0x1f8
++  __DATA.__objc_classrefs: 0x428
++  __DATA.__objc_superrefs: 0x198
++  __DATA.__objc_ivar: 0x780
++  __DATA.__data: 0xca8
++  __DATA.__bss: 0x208
+   __DATA_DIRTY.__objc_data: 0xf0
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+
+   - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswiftos.dylib
+-  Functions: 2056
+-  Symbols:   6938
+-  CStrings:  4228
++  Functions: 2073
++  Symbols:   6967
++  CStrings:  4233
+ 
+Symbols:
++ -[WFNetworkSettingsViewController tableView:heightForRowAtIndexPath:]
++ -[WFOtherNetworkHeaderView .cxx_destruct]
++ -[WFOtherNetworkHeaderView _configureContents]
++ -[WFOtherNetworkHeaderView initWithReuseIdentifier:]
++ -[WFOtherNetworkHeaderView setTitle:]
++ -[WFOtherNetworkHeaderView setTitleLabel:]
++ -[WFOtherNetworkHeaderView titleLabel]
++ -[WFOtherNetworkHeaderView title]
++ GCC_except_table83
++ _OBJC_CLASS_$_WFOtherNetworkHeaderView
++ _OBJC_IVAR_$_WFOtherNetworkHeaderView._title
++ _OBJC_IVAR_$_WFOtherNetworkHeaderView._titleLabel
++ _OBJC_METACLASS_$_WFOtherNetworkHeaderView
++ _UIFontTextStyleSubheadline
++ __OBJC_$_INSTANCE_METHODS_WFOtherNetworkHeaderView
++ __OBJC_$_INSTANCE_VARIABLES_WFOtherNetworkHeaderView
++ __OBJC_$_PROP_LIST_WFOtherNetworkHeaderView
++ __OBJC_CLASS_RO_$_WFOtherNetworkHeaderView
++ __OBJC_METACLASS_RO_$_WFOtherNetworkHeaderView
++ ___block_literal_global.60
++ __unnamed_array_storage.258
++ __unnamed_array_storage.276
++ __unnamed_array_storage.283
++ _kWFImageCellularBars
++ _objc_msgSend$configure:
++ _objc_msgSend$constraintEqualToConstant:
++ _objc_msgSend$heightAnchor
++ _objc_msgSend$setTitleLabel:
++ _symbolic _____yAAyAAy_____y_____yAAy__________y_____SgGGG______Qo______y_____GG_____y_____GGADy_____GG 7SwiftUI15ModifiedContentV AA4ViewPAAE11buttonStyleyQrqd__AA015PrimitiveButtonG0Rd__lFQO AA0I0V AA5ImageV AA30_EnvironmentKeyWritingModifierV AA5ColorV AA08BorderediG0V AA11_ClipEffectV AA6CircleV AA01_k10BackgroundgN0V AA017HierarchicalShapeG0V AA11ControlSizeO
++ _symbolic _____yAAyAAy_____y_____yAAy__________y_____SgGGG______Qo______y_____GG_____y_____GGADy_____GGSg 7SwiftUI15ModifiedContentV AA4ViewPAAE11buttonStyleyQrqd__AA015PrimitiveButtonG0Rd__lFQO AA0I0V AA5ImageV AA30_EnvironmentKeyWritingModifierV AA5ColorV AA08BorderediG0V AA11_ClipEffectV AA6CircleV AA01_k10BackgroundgN0V AA017HierarchicalShapeG0V AA11ControlSizeO
++ _symbolic _____yAAy__________G_____GSg______y_____y_____y___________tGGAKG_____AAyAAy_____ACG_____y_____GGSgAHyAAyAAyAQ_____G_____y_____SgGGAHyAY_____GSgGAAyAAyAAy_____y_____yAAyAqZy_____SgGGG______Qo______y_____GG_____yATGGAZy_____GGSgt 7SwiftUI15ModifiedContentV 07WiFiKitB020AssociationStateViewV AA16_FixedSizeLayoutV AA06_FrameM0V AA012_ConditionalD0V AA6VStackV AA05TupleJ0V AA4TextV AD015NetworkSubtitleJ0V AA6SpacerV AA5ImageV AA24_ForegroundStyleModifierV AA017HierarchicalShapeX0V AA023AccessibilityAttachmentY0V AA022_EnvironmentKeyWritingY0V AA4FontV AA03AnyJ0V AA0J0PAAE06buttonX0yQrqd__AA015PrimitiveButtonX0Rd__lFQO AA6ButtonV AA5ColorV AA014BorderedButtonX0V AA11_ClipEffectV AA6CircleV AA022_EnvironmentBackgroundxY0V AA07ControlL0O
++ _symbolic _____yAAy__________G_____y_____SgGG 7SwiftUI15ModifiedContentV AA5ImageV AA31AccessibilityAttachmentModifierV AA022_EnvironmentKeyWritingH0V AA4FontV
++ _symbolic _____y___________y_____yADy__________G_____GSg______y_____yACy___________tGGAMG_____ADyADy_____AFG_____y_____GGSgAKyADyADyAS_____G_____y_____SgGGAKyA______GSgGADyADyADy_____y_____yADyASA0_y_____SgGGG______Qo______y_____GG_____yAVGGA0_y_____GGSgtGG 7SwiftUI13_VariadicViewO4TreeV AA13_HStackLayoutV AA05TupleD0V AA15ModifiedContentV 07WiFiKitB0016AssociationStateD0V AA010_FixedSizeG0V AA06_FrameG0V AA012_ConditionalJ0V AA6VStackV AA4TextV AL015NetworkSubtitleD0V AA6SpacerV AA5ImageV AA24_ForegroundStyleModifierV AA22HierarchicalShapeStyleV AA31AccessibilityAttachmentModifierV AA30_EnvironmentKeyWritingModifierV AA4FontV AA03AnyD0V AA0D0PAAE11buttonStyleyQrqd__AA20PrimitiveButtonStyleRd__lFQO AA6ButtonV AA5ColorV AA19BorderedButtonStyleV AA11_ClipEffectV AA6CircleV AA35_EnvironmentBackgroundStyleModifierV AA07ControlQ0O
++ _symbolic _____y_____yABy__________G_____y_____SgGGAAyAE_____GSgG 7SwiftUI19_ConditionalContentV AA08ModifiedD0V AA5ImageV AA31AccessibilityAttachmentModifierV AA022_EnvironmentKeyWritingI0V AA4FontV AA7AnyViewV
++ _symbolic _____y_____yABy__________G_____y_____SgGG_____yAE_____GSg_G 7SwiftUI19_ConditionalContentV7StorageO AA08ModifiedD0V AA5ImageV AA31AccessibilityAttachmentModifierV AA022_EnvironmentKeyWritingJ0V AA4FontV AC AA7AnyViewV
++ _symbolic _____y_____y_____yAAyAAy__________G_____GSg______y_____yACy___________tGGALG_____AAyAAy_____AEG_____y_____GGSgAJyAAyAAyAR_____G_____y_____SgGGAJyAZ_____GSgGAAyAAyAAy_____y_____yAAyARA_y_____SgGGG______Qo______y_____GG_____yAUGGA_y_____GGSgtGG_____G 7SwiftUI15ModifiedContentV AA6HStackV AA9TupleViewV 07WiFiKitB0016AssociationStateG0V AA16_FixedSizeLayoutV AA06_FrameO0V AA012_ConditionalD0V AA6VStackV AA4TextV AH015NetworkSubtitleG0V AA6SpacerV AA5ImageV AA24_ForegroundStyleModifierV AA017HierarchicalShapeY0V AA023AccessibilityAttachmentZ0V AA022_EnvironmentKeyWritingZ0V AA4FontV AA03AnyG0V AA0G0PAAE06buttonY0yQrqd__AA015PrimitiveButtonY0Rd__lFQO AA6ButtonV AA5ColorV AA014BorderedButtonY0V AA11_ClipEffectV AA6CircleV AA022_EnvironmentBackgroundyZ0V AA07ControlN0O AA08_PaddingO0V
++ _symbolic _____y_____y_____yACy__________G_____GSg______y_____yABy___________tGGALG_____ACyACy_____AEG_____y_____GGSgAJyACyACyAR_____G_____y_____SgGGAJyAZ_____GSgGACyACyACy_____y_____yACyARA_y_____SgGGG______Qo______y_____GG_____yAUGGA_y_____GGSgtGG 7SwiftUI6HStackV AA9TupleViewV AA15ModifiedContentV 07WiFiKitB0016AssociationStateE0V AA16_FixedSizeLayoutV AA06_FrameO0V AA012_ConditionalG0V AA6VStackV AA4TextV AH015NetworkSubtitleE0V AA6SpacerV AA5ImageV AA24_ForegroundStyleModifierV AA017HierarchicalShapeY0V AA023AccessibilityAttachmentZ0V AA022_EnvironmentKeyWritingZ0V AA4FontV AA03AnyE0V AA0E0PAAE06buttonY0yQrqd__AA015PrimitiveButtonY0Rd__lFQO AA6ButtonV AA5ColorV AA014BorderedButtonY0V AA11_ClipEffectV AA6CircleV AA022_EnvironmentBackgroundyZ0V AA07ControlN0O
+- GCC_except_table82
+- ___block_literal_global.57
+- __unnamed_array_storage.254
+- __unnamed_array_storage.261
+- __unnamed_array_storage.264
+- __unnamed_array_storage.267
+- __unnamed_array_storage.272
+- __unnamed_array_storage.279
+- _symbolic _____yAAy__________G_____GSg______y_____y_____y___________tGGAKG_____AAyAAy_____ACG_____y_____GGSgAHyAAyAQ_____GAHyAY_____GSgGAJyAAyAAy__________G_____y_____SgGG_AAyAAy_____y_____yAAyAQA8_GG______Qo______y_____GG_____yATGGtGSgt 7SwiftUI15ModifiedContentV 07WiFiKitB020AssociationStateViewV AA16_FixedSizeLayoutV AA06_FrameM0V AA012_ConditionalD0V AA6VStackV AA05TupleJ0V AA4TextV AD015NetworkSubtitleJ0V AA6SpacerV AA5ImageV AA24_ForegroundStyleModifierV AA017HierarchicalShapeX0V AA023AccessibilityAttachmentY0V AA03AnyJ0V AA7DividerV AA08_PaddingM0V AA022_EnvironmentKeyWritingY0V AA5ColorV AA0J0PAAE06buttonX0yQrqd__AA015PrimitiveButtonX0Rd__lFQO AA6ButtonV AA014BorderedButtonX0V AA11_ClipEffectV AA6CircleV AA022_EnvironmentBackgroundxY0V
+- _symbolic _____yAAy__________G_____y_____SgGG 7SwiftUI15ModifiedContentV AA7DividerV AA14_PaddingLayoutV AA30_EnvironmentKeyWritingModifierV AA5ColorV
+- _symbolic _____yAAy__________G_____y_____SgGG_AAyAAy_____y_____yAAy_____AHGG______Qo______y_____GG_____y_____GGt 7SwiftUI15ModifiedContentV AA7DividerV AA14_PaddingLayoutV AA30_EnvironmentKeyWritingModifierV AA5ColorV AA4ViewPAAE11buttonStyleyQrqd__AA015PrimitiveButtonO0Rd__lFQO AA0Q0V AA5ImageV AA08BorderedqO0V AA11_ClipEffectV AA6CircleV AA01_h10BackgroundoK0V AA017HierarchicalShapeO0V
+- _symbolic _____y__________G 7SwiftUI15ModifiedContentV AA7DividerV AA14_PaddingLayoutV
+- _symbolic _____y___________y_____yADy__________G_____GSg______y_____yACy___________tGGAMG_____ADyADy_____AFG_____y_____GGSgAKyADyAS_____GAKyA______GSgGACyADyADy__________G_____y_____SgGG_ADyADy_____y_____yADyASA10_GG______Qo______y_____GG_____yAVGGtGSgtGG 7SwiftUI13_VariadicViewO4TreeV AA13_HStackLayoutV AA05TupleD0V AA15ModifiedContentV 07WiFiKitB0016AssociationStateD0V AA010_FixedSizeG0V AA06_FrameG0V AA012_ConditionalJ0V AA6VStackV AA4TextV AL015NetworkSubtitleD0V AA6SpacerV AA5ImageV AA24_ForegroundStyleModifierV AA22HierarchicalShapeStyleV AA31AccessibilityAttachmentModifierV AA03AnyD0V AA7DividerV AA08_PaddingG0V AA30_EnvironmentKeyWritingModifierV AA5ColorV AA0D0PAAE11buttonStyleyQrqd__AA20PrimitiveButtonStyleRd__lFQO AA6ButtonV AA19BorderedButtonStyleV AA11_ClipEffectV AA6CircleV AA35_EnvironmentBackgroundStyleModifierV
+- _symbolic _____y_____yABy__________G_____y_____SgGG_AByABy_____y_____yABy_____AIGG______Qo______y_____GG_____y_____GGtG 7SwiftUI9TupleViewV AA15ModifiedContentV AA7DividerV AA14_PaddingLayoutV AA30_EnvironmentKeyWritingModifierV AA5ColorV AA0D0PAAE11buttonStyleyQrqd__AA015PrimitiveButtonP0Rd__lFQO AA0R0V AA5ImageV AA08BorderedrP0V AA11_ClipEffectV AA6CircleV AA01_j10BackgroundpM0V AA017HierarchicalShapeP0V
+- _symbolic _____y_____yABy__________G_____y_____SgGG_AByABy_____y_____yABy_____AIGG______Qo______y_____GG_____y_____GGtGSg 7SwiftUI9TupleViewV AA15ModifiedContentV AA7DividerV AA14_PaddingLayoutV AA30_EnvironmentKeyWritingModifierV AA5ColorV AA0D0PAAE11buttonStyleyQrqd__AA015PrimitiveButtonP0Rd__lFQO AA0R0V AA5ImageV AA08BorderedrP0V AA11_ClipEffectV AA6CircleV AA01_j10BackgroundpM0V AA017HierarchicalShapeP0V
+- _symbolic _____y_____y__________GAAyAE_____GSgG 7SwiftUI19_ConditionalContentV AA08ModifiedD0V AA5ImageV AA31AccessibilityAttachmentModifierV AA7AnyViewV
+- _symbolic _____y_____y__________G_____yAE_____GSg_G 7SwiftUI19_ConditionalContentV7StorageO AA08ModifiedD0V AA5ImageV AA31AccessibilityAttachmentModifierV AC AA7AnyViewV
+- _symbolic _____y_____y_____yAAyAAy__________G_____GSg______y_____yACy___________tGGALG_____AAyAAy_____AEG_____y_____GGSgAJyAAyAR_____GAJyAZ_____GSgGACyAAyAAy__________G_____y_____SgGG_AAyAAy_____y_____yAAyARA9_GG______Qo______y_____GG_____yAUGGtGSgtGGA4_G 7SwiftUI15ModifiedContentV AA6HStackV AA9TupleViewV 07WiFiKitB0016AssociationStateG0V AA16_FixedSizeLayoutV AA06_FrameO0V AA012_ConditionalD0V AA6VStackV AA4TextV AH015NetworkSubtitleG0V AA6SpacerV AA5ImageV AA24_ForegroundStyleModifierV AA017HierarchicalShapeY0V AA023AccessibilityAttachmentZ0V AA03AnyG0V AA7DividerV AA08_PaddingO0V AA022_EnvironmentKeyWritingZ0V AA5ColorV AA0G0PAAE06buttonY0yQrqd__AA015PrimitiveButtonY0Rd__lFQO AA6ButtonV AA014BorderedButtonY0V AA11_ClipEffectV AA6CircleV AA022_EnvironmentBackgroundyZ0V
+- _symbolic _____y_____y_____yACy__________G_____GSg______y_____yABy___________tGGALG_____ACyACy_____AEG_____y_____GGSgAJyACyAR_____GAJyAZ_____GSgGAByACyACy__________G_____y_____SgGG_ACyACy_____y_____yACyARA9_GG______Qo______y_____GG_____yAUGGtGSgtGG 7SwiftUI6HStackV AA9TupleViewV AA15ModifiedContentV 07WiFiKitB0016AssociationStateE0V AA16_FixedSizeLayoutV AA06_FrameO0V AA012_ConditionalG0V AA6VStackV AA4TextV AH015NetworkSubtitleE0V AA6SpacerV AA5ImageV AA24_ForegroundStyleModifierV AA017HierarchicalShapeY0V AA023AccessibilityAttachmentZ0V AA03AnyE0V AA7DividerV AA08_PaddingO0V AA022_EnvironmentKeyWritingZ0V AA5ColorV AA0E0PAAE06buttonY0yQrqd__AA015PrimitiveButtonY0Rd__lFQO AA6ButtonV AA014BorderedButtonY0V AA11_ClipEffectV AA6CircleV AA022_EnvironmentBackgroundyZ0V
+CStrings:
++ "T@\"UILabel\",&,N,V_titleLabel"
++ "WFOtherNetworkHeaderView"
++ "cellularbars"
++ "constraintEqualToConstant:"
++ "heightAnchor"
++ "kWFOtherNetworkHeaderIdentifier"
+- "separatorColor"
+
+```

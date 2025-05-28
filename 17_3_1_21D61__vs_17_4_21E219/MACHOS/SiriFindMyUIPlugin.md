@@ -1,0 +1,273 @@
+## SiriFindMyUIPlugin
+
+> `/System/Library/Assistant/UIPlugins/SiriFindMyUIPlugin.siriUIBundle/SiriFindMyUIPlugin`
+
+```diff
+
+-3302.2.1.0.0
+-  __TEXT.__text: 0x15b4
+-  __TEXT.__auth_stubs: 0x410
+-  __TEXT.__objc_methlist: 0x20
+-  __TEXT.__const: 0xc2
+-  __TEXT.__cstring: 0x206
+-  __TEXT.__swift5_typeref: 0x93
+-  __TEXT.__objc_methname: 0x34d
+-  __TEXT.__constg_swiftt: 0xa4
+-  __TEXT.__swift5_reflstr: 0x36
+-  __TEXT.__swift5_fieldmd: 0x44
+-  __TEXT.__swift5_types: 0x8
+-  __TEXT.__objc_classname: 0x2c
+-  __TEXT.__objc_methtype: 0x2ea
+-  __TEXT.__unwind_info: 0xf0
+-  __DATA_CONST.__auth_got: 0x208
+-  __DATA_CONST.__got: 0x38
+-  __DATA_CONST.__auth_ptr: 0x8
+-  __DATA_CONST.__const: 0x1f8
+-  __DATA_CONST.__objc_classlist: 0x8
+-  __DATA_CONST.__objc_protolist: 0x30
+-  __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA.__objc_const: 0x570
+-  __DATA.__objc_selrefs: 0x40
+-  __DATA.__objc_protorefs: 0x18
+-  __DATA.__objc_classrefs: 0x8
+-  __DATA.__objc_data: 0x140
+-  __DATA.__data: 0x220
+-  - /System/Library/Assistant/UIPlugins/SiriFindMyUIPlugin.siriUIBundle/Frameworks/SiriFindMyUI.framework/SiriFindMyUI
+-  - /System/Library/Frameworks/Contacts.framework/Contacts
+-  - /System/Library/Frameworks/ContactsUI.framework/ContactsUI
+-  - /System/Library/Frameworks/CoreLocation.framework/CoreLocation
+-  - /System/Library/Frameworks/Foundation.framework/Foundation
+-  - /System/Library/Frameworks/MapKit.framework/MapKit
+-  - /System/Library/Frameworks/SwiftUI.framework/SwiftUI
+-  - /System/Library/PrivateFrameworks/BiomePubSub.framework/BiomePubSub
+-  - /System/Library/PrivateFrameworks/FrontBoardServices.framework/FrontBoardServices
+-  - /System/Library/PrivateFrameworks/SAObjects.framework/SAObjects
+-  - /System/Library/PrivateFrameworks/SiriFindMy.framework/SiriFindMy
+-  - /System/Library/PrivateFrameworks/SiriUI.framework/SiriUI
+-  - /System/Library/PrivateFrameworks/UIKitCore.framework/UIKitCore
++3304.16.1.0.0
++  __TEXT.__text: 0x0
++  __TEXT.__const: 0x40
+   - /usr/lib/libSystem.B.dylib
+-  - /usr/lib/libobjc.A.dylib
+-  - /usr/lib/swift/libswiftAVFoundation.dylib
+-  - /usr/lib/swift/libswiftAccelerate.dylib
+-  - /usr/lib/swift/libswiftCompression.dylib
+-  - /usr/lib/swift/libswiftCore.dylib
+-  - /usr/lib/swift/libswiftCoreAudio.dylib
+-  - /usr/lib/swift/libswiftCoreFoundation.dylib
+-  - /usr/lib/swift/libswiftCoreImage.dylib
+-  - /usr/lib/swift/libswiftCoreLocation.dylib
+-  - /usr/lib/swift/libswiftCoreMIDI.dylib
+-  - /usr/lib/swift/libswiftCoreML.dylib
+-  - /usr/lib/swift/libswiftCoreMedia.dylib
+-  - /usr/lib/swift/libswiftDarwin.dylib
+-  - /usr/lib/swift/libswiftDataDetection.dylib
+-  - /usr/lib/swift/libswiftDispatch.dylib
+-  - /usr/lib/swift/libswiftFileProvider.dylib
+-  - /usr/lib/swift/libswiftHomeKit.dylib
+-  - /usr/lib/swift/libswiftIntents.dylib
+-  - /usr/lib/swift/libswiftMapKit.dylib
+-  - /usr/lib/swift/libswiftMetal.dylib
+-  - /usr/lib/swift/libswiftNaturalLanguage.dylib
+-  - /usr/lib/swift/libswiftNearbyInteraction.dylib
+-  - /usr/lib/swift/libswiftOSLog.dylib
+-  - /usr/lib/swift/libswiftObjectiveC.dylib
+-  - /usr/lib/swift/libswiftQuartzCore.dylib
+-  - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
+-  - /usr/lib/swift/libswiftVision.dylib
+-  - /usr/lib/swift/libswiftXPC.dylib
+-  - /usr/lib/swift/libswiftos.dylib
+-  - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 43
+-  Symbols:   89
+-  CStrings:  97
++  Functions: 0
++  Symbols:   2
++  CStrings:  0
+ 
+Symbols:
+- _OBJC_CLASS_$_NSObject
+- _OBJC_CLASS_$_SAFmfSnippet
+- _OBJC_CLASS_$__TtC18SiriFindMyUIPlugin24SiriFindMySnippetFactory
+- _OBJC_METACLASS_$_NSObject
+- _OBJC_METACLASS_$__TtC18SiriFindMyUIPlugin24SiriFindMySnippetFactory
+- ___chkstk_darwin
+- ___stack_chk_fail
+- ___stack_chk_guard
+- __objc_empty_cache
+- __os_log_impl
+- __swiftEmptyArrayStorage
+- __swift_FORCE_LOAD_$_swiftAVFoundation
+- __swift_FORCE_LOAD_$_swiftAccelerate
+- __swift_FORCE_LOAD_$_swiftCompression
+- __swift_FORCE_LOAD_$_swiftCoreAudio
+- __swift_FORCE_LOAD_$_swiftCoreFoundation
+- __swift_FORCE_LOAD_$_swiftCoreGraphics
+- __swift_FORCE_LOAD_$_swiftCoreImage
+- __swift_FORCE_LOAD_$_swiftCoreLocation
+- __swift_FORCE_LOAD_$_swiftCoreMIDI
+- __swift_FORCE_LOAD_$_swiftCoreML
+- __swift_FORCE_LOAD_$_swiftCoreMedia
+- __swift_FORCE_LOAD_$_swiftDarwin
+- __swift_FORCE_LOAD_$_swiftDataDetection
+- __swift_FORCE_LOAD_$_swiftDispatch
+- __swift_FORCE_LOAD_$_swiftFileProvider
+- __swift_FORCE_LOAD_$_swiftFoundation
+- __swift_FORCE_LOAD_$_swiftHomeKit
+- __swift_FORCE_LOAD_$_swiftIntents
+- __swift_FORCE_LOAD_$_swiftMapKit
+- __swift_FORCE_LOAD_$_swiftMetal
+- __swift_FORCE_LOAD_$_swiftNaturalLanguage
+- __swift_FORCE_LOAD_$_swiftNearbyInteraction
+- __swift_FORCE_LOAD_$_swiftOSLog
+- __swift_FORCE_LOAD_$_swiftObjectiveC
+- __swift_FORCE_LOAD_$_swiftQuartzCore
+- __swift_FORCE_LOAD_$_swiftUIKit
+- __swift_FORCE_LOAD_$_swiftUniformTypeIdentifiers
+- __swift_FORCE_LOAD_$_swiftVision
+- __swift_FORCE_LOAD_$_swiftXPC
+- __swift_FORCE_LOAD_$_swiftos
+- __swift_FORCE_LOAD_$_swiftsimd
+- __swift_stdlib_reportUnimplementedInitializer
+- _malloc_size
+- _memcpy
+- _memmove
+- _objc_allocWithZone
+- _objc_autoreleaseReturnValue
+- _objc_msgSend
+- _objc_msgSendSuper2
+- _objc_opt_self
+- _objc_release
+- _objc_release_x19
+- _objc_release_x20
+- _objc_release_x21
+- _objc_release_x22
+- _objc_release_x24
+- _objc_retain
+- _objc_retainAutoreleasedReturnValue
+- _objc_retain_x19
+- _objc_retain_x21
+- _objc_retain_x24
+- _os_log_type_enabled
+- _swift_allocObject
+- _swift_allocateGenericClassMetadata
+- _swift_arrayDestroy
+- _swift_bridgeObjectRelease
+- _swift_bridgeObjectRetain
+- _swift_checkMetadataState
+- _swift_dynamicCastObjCClass
+- _swift_errorRelease
+- _swift_errorRetain
+- _swift_getGenericMetadata
+- _swift_getObjectType
+- _swift_getTypeByMangledNameInContext2
+- _swift_getWitnessTable
+- _swift_initClassMetadata2
+- _swift_isUniquelyReferenced_nonNull_native
+- _swift_isaMask
+- _swift_once
+- _swift_release
+- _swift_retain
+- _swift_retain_n
+- _swift_slowAlloc
+- _swift_slowDealloc
+- _swift_unknownObjectRetain
+- radr://5614542
+CStrings:
+- "#16@0:8"
+- ".cxx_destruct"
+- "@\"<AFSpeakableNamespaceProvider>\"24@0:8@\"AceObject\"16"
+- "@\"NSArray\"24@0:8@\"NSArray\"16"
+- "@\"NSString\"16@0:8"
+- "@\"SiriUIBaseSnippetViewController\"24@0:8@\"SAUISnippet\"16"
+- "@\"SiriUIDisambiguationItem\"32@0:8@\"SAUIListItem\"16@\"NSString\"24"
+- "@\"UIViewController<SiriSharedUIViewControlling>\"24@0:8@\"AceObject\"16"
+- "@\"UIViewController<SiriSharedUIViewControlling>\"32@0:8@\"SAUISnippet\"16^@24"
+- "@16@0:8"
+- "@24@0:8:16"
+- "@24@0:8@16"
+- "@32@0:8:16@24"
+- "@32@0:8@16@24"
+- "@32@0:8@16^@24"
+- "@40@0:8:16@24@32"
+- "AFClientPlugin"
+- "B16@0:8"
+- "B24@0:8#16"
+- "B24@0:8:16"
+- "B24@0:8@\"Protocol\"16"
+- "B24@0:8@16"
+- "B32@0:8@\"SAUIListItem\"16@\"SAUIListItem\"24"
+- "B32@0:8@16@24"
+- "Decoded snippet data: %s"
+- "Failed decoding FindFriendSnippetData: %s"
+- "Fatal error"
+- "Ignoring snippet because it is not an SAFmfSnippet: %s"
+- "NSObject"
+- "Q16@0:8"
+- "SiriFindMyUIPlugin.SwiftUISiriSnippet"
+- "SiriFindMyUIPlugin/SwiftUISiriSnippet.swift"
+- "SiriUISnippetPlugin"
+- "T#,R"
+- "T@\"NSString\",R,C"
+- "TQ,R"
+- "Vv16@0:8"
+- "^{_NSZone=}16@0:8"
+- "_TtC18SiriFindMyUIPlugin24SiriFindMySnippetFactory"
+- "addSubview:"
+- "autorelease"
+- "class"
+- "conformsToProtocol:"
+- "d24@0:8d16"
+- "dealloc"
+- "debugDescription"
+- "description"
+- "desiredHeightForWidth:"
+- "disambiguationItemForListItem:disambiguationKey:"
+- "filteredDisambiguationListItems:"
+- "hash"
+- "hostingViewController"
+- "init"
+- "init(coder:) has not been implemented"
+- "init(nibName:bundle:)"
+- "initWithCoder:"
+- "initWithNibName:bundle:"
+- "isEqual:"
+- "isKindOfClass:"
+- "isMemberOfClass:"
+- "isProxy"
+- "listItem:isEqualToListItem:"
+- "listItem:isPreferredOverListItem:"
+- "modelData"
+- "notifyPluginOfResultAppeared:atIndex:"
+- "notifyPluginOfResultDisappeared:atIndex:"
+- "notifyPluginOfSnippet:appearance:"
+- "performSelector:"
+- "performSelector:withObject:"
+- "performSelector:withObject:withObject:"
+- "release"
+- "respondsToSelector:"
+- "retain"
+- "retainCount"
+- "rootView"
+- "self"
+- "setFrame:"
+- "setOrientationDelegate:"
+- "speakableNamespaceProviderForAceObject:"
+- "superclass"
+- "v16@0:8"
+- "v24@0:8@\"<SROrientationDelegate>\"16"
+- "v24@0:8@16"
+- "v28@0:8@\"SAUISnippet\"16B24"
+- "v28@0:8@16B24"
+- "v32@0:8@\"SAUISnippet\"16q24"
+- "v32@0:8@16q24"
+- "view"
+- "viewControllerForAceObject:"
+- "viewControllerForSnippet:"
+- "viewControllerForSnippet:error:"
+- "viewDidLoad"
+- "viewProvider"
+- "zone"
+
+```

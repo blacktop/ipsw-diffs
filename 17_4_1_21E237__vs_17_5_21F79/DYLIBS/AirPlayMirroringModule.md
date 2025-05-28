@@ -1,0 +1,25 @@
+## AirPlayMirroringModule
+
+> `/System/Library/ControlCenter/Bundles/AirPlayMirroringModule.bundle/AirPlayMirroringModule`
+
+```diff
+
+-4023.510.2.0.0
++4023.610.3.0.0
+   __TEXT.__text: 0x13ac
+   __TEXT.__auth_stubs: 0x1d0
+   __TEXT.__objc_methlist: 0x1bc
+
+   __AUTH_CONST.__cfstring: 0xc0
+   __AUTH_CONST.__const: 0x40
+   __AUTH_CONST.__auth_got: 0xf8
+-  __AUTH.__objc_data: 0x50
+   __DATA.__objc_ivar: 0x18
+   __DATA.__data: 0x120
+-  __DATA_DIRTY.__objc_data: 0xa0
++  __DATA_DIRTY.__objc_data: 0xf0
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/Frameworks/UIKit.framework/UIKit
+
+```

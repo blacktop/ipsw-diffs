@@ -1,0 +1,1588 @@
+## PodcastsFoundation
+
+> `/System/Library/PrivateFrameworks/PodcastsFoundation.framework/PodcastsFoundation`
+
+```diff
+
+-4023.410.2.0.0
+-  __TEXT.__text: 0x2f0be0
+-  __TEXT.__auth_stubs: 0x4070
+-  __TEXT.__objc_methlist: 0x8b5c
+-  __TEXT.__const: 0x19b40
+-  __TEXT.__oslogstring: 0x2088
+-  __TEXT.__cstring: 0x1a31e
++4023.510.2.0.0
++  __TEXT.__text: 0x36ac70
++  __TEXT.__auth_stubs: 0x4240
++  __TEXT.__objc_methlist: 0x8f2c
++  __TEXT.__const: 0x1cfa0
++  __TEXT.__oslogstring: 0x245f
++  __TEXT.__cstring: 0x1d64e
+   __TEXT.__gcc_except_tab: 0x9b8
+   __TEXT.__ustring: 0x54
+   __TEXT.__dlopen_cstrs: 0x70
+-  __TEXT.__swift5_typeref: 0xc4c8
+-  __TEXT.__constg_swiftt: 0x9fd0
+-  __TEXT.__swift5_reflstr: 0x7776
+-  __TEXT.__swift5_fieldmd: 0x89b0
+-  __TEXT.__swift5_builtin: 0x3e8
+-  __TEXT.__swift5_assocty: 0xf48
+-  __TEXT.__swift5_proto: 0x1128
+-  __TEXT.__swift5_types: 0x904
+-  __TEXT.__swift5_capture: 0x4978
+-  __TEXT.__swift5_protos: 0xf8
+-  __TEXT.__swift5_mpenum: 0xbc
+-  __TEXT.__unwind_info: 0xbaec
+-  __TEXT.__eh_frame: 0x70a0
+-  __TEXT.__objc_classname: 0xd31
+-  __TEXT.__objc_methname: 0x16f39
+-  __TEXT.__objc_methtype: 0x2909
+-  __TEXT.__objc_stubs: 0xd3c0
+-  __DATA_CONST.__got: 0xb58
+-  __DATA_CONST.__const: 0x34d8
+-  __DATA_CONST.__objc_classlist: 0x858
++  __TEXT.__swift5_typeref: 0xf322
++  __TEXT.__constg_swiftt: 0xacf0
++  __TEXT.__swift5_reflstr: 0x88a0
++  __TEXT.__swift5_fieldmd: 0x9c90
++  __TEXT.__swift5_builtin: 0x424
++  __TEXT.__swift5_assocty: 0x1070
++  __TEXT.__swift5_proto: 0x1470
++  __TEXT.__swift5_types: 0xa08
++  __TEXT.__swift5_capture: 0x522c
++  __TEXT.__swift5_protos: 0x114
++  __TEXT.__swift5_mpenum: 0xe0
++  __TEXT.__unwind_info: 0xdcec
++  __TEXT.__eh_frame: 0x8a78
++  __TEXT.__objc_classname: 0xd33
++  __TEXT.__objc_methname: 0x17865
++  __TEXT.__objc_methtype: 0x293a
++  __TEXT.__objc_stubs: 0xd7a0
++  __DATA_CONST.__got: 0xbd0
++  __DATA_CONST.__const: 0x3588
++  __DATA_CONST.__objc_classlist: 0x880
+   __DATA_CONST.__objc_catlist: 0xf0
+-  __DATA_CONST.__objc_protolist: 0x2e8
++  __DATA_CONST.__objc_protolist: 0x2f0
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_const: 0x1b5c0
+-  __DATA_CONST.__objc_selrefs: 0x5a60
++  __DATA_CONST.__objc_const: 0x1c700
++  __DATA_CONST.__objc_selrefs: 0x5c88
++  __DATA_CONST.__objc_protorefs: 0x198
++  __DATA_CONST.__objc_classrefs: 0x6d8
++  __DATA_CONST.__objc_superrefs: 0x1d0
+   __DATA_CONST.__objc_arraydata: 0x58
+   __AUTH_CONST.__objc_const: 0x35a0
+   __AUTH_CONST.__objc_intobj: 0xa68
+-  __AUTH_CONST.__cfstring: 0x9760
+-  __AUTH_CONST.__const: 0x1d230
++  __AUTH_CONST.__cfstring: 0x9aa0
++  __AUTH_CONST.__const: 0x211a0
+   __AUTH_CONST.__objc_arrayobj: 0x90
+   __AUTH_CONST.__objc_floatobj: 0x10
+   __AUTH_CONST.__objc_doubleobj: 0x50
+-  __AUTH_CONST.__auth_ptr: 0x710
+-  __AUTH_CONST.__auth_got: 0x2048
+-  __AUTH.__objc_data: 0x3d58
+-  __AUTH.__data: 0x2710
+-  __DATA.__objc_protorefs: 0x190
+-  __DATA.__objc_classrefs: 0x698
+-  __DATA.__objc_superrefs: 0x1c8
+-  __DATA.__objc_ivar: 0x46c
+-  __DATA.__objc_data: 0x5e8
+-  __DATA.__data: 0x6110
+-  __DATA.__bss: 0x184f8
+-  __DATA.__common: 0x58
+-  __DATA_DIRTY.__objc_data: 0x4498
+-  __DATA_DIRTY.__data: 0x9028
+-  __DATA_DIRTY.__bss: 0x7d38
+-  __DATA_DIRTY.__common: 0x80
++  __AUTH_CONST.__auth_ptr: 0x7d8
++  __AUTH_CONST.__auth_got: 0x2130
++  __AUTH.__objc_data: 0x3fe0
++  __AUTH.__data: 0x2ca0
++  __DATA.__objc_ivar: 0x498
++  __DATA.__objc_data: 0x650
++  __DATA.__data: 0x7d90
++  __DATA.__bss: 0x1d9d8
++  __DATA.__common: 0x78
++  __DATA_DIRTY.__objc_data: 0x4690
++  __DATA_DIRTY.__data: 0x9940
++  __DATA_DIRTY.__bss: 0x86d8
++  __DATA_DIRTY.__common: 0x90
+   - /System/Library/Frameworks/AVFAudio.framework/AVFAudio
+   - /System/Library/Frameworks/AVFoundation.framework/AVFoundation
+   - /System/Library/Frameworks/Accounts.framework/Accounts
+
+   - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
++  - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 19726
+-  Symbols:   15040
+-  CStrings:  7737
++  Functions: 22105
++  Symbols:   15799
++  CStrings:  8107
+ 
+Symbols:
++ +[MTConstants alignmentAssetURL]
++ +[MTConstants preferredAssetCacheURL]
++ +[MTConstants shazamSignatureAssetURL]
++ +[MTConstants streamedMediaAssetURL]
++ +[MTConstants ttmlAssetURL]
++ +[MTEpisode(NSPredicate) _predicateForPriceType:forPriceTypeKey:excluding:]
++ +[MTEpisode(NSPredicate) predicateForHiddenPodcastForEpisodeUuids:]
++ +[MTEpisode(NSPredicate) predicateForSubscriptionOnly]
++ +[MTPodcast(NSPredicate) predicateForHiddenPodcastUuids:]
++ +[MTPodcast(NSPredicate) predicateForLastUnfollowedDateOlderThanDate:]
++ +[MTPodcast(NSPredicate) predicateForNilLastUnfollowedDate]
++ +[MTPodcast(NSPredicate) predicateForRecentlyUnfollowedOlderThanCutoffDate]
++ +[MTPodcast(NSPredicate) predicateForRecentlyUnfollowed]
++ +[MTPodcast(NSPredicate) recentlyUnfollowedCutoffDate]
++ +[PFClientUtil isRunningOnDesktop]
++ -[IMNetworkObserver beginObserving]
++ -[IMNetworkObserver endObserving]
++ -[IMNetworkObserver isObserving]
++ -[IMPodcastFeedItem entitledTranscriptIdentifier]
++ -[IMPodcastFeedItem entitledTranscriptProvider]
++ -[IMPodcastFeedItem entitledTranscriptSnippet]
++ -[IMPodcastFeedItem freeTranscriptIdentifier]
++ -[IMPodcastFeedItem freeTranscriptProvider]
++ -[IMPodcastFeedItem freeTranscriptSnippet]
++ -[IMPodcastFeedItem setEntitledTranscriptIdentifier:]
++ -[IMPodcastFeedItem setEntitledTranscriptProvider:]
++ -[IMPodcastFeedItem setEntitledTranscriptSnippet:]
++ -[IMPodcastFeedItem setFreeTranscriptIdentifier:]
++ -[IMPodcastFeedItem setFreeTranscriptProvider:]
++ -[IMPodcastFeedItem setFreeTranscriptSnippet:]
++ -[IMURLBag commerceOAuthCancellationUrl]
++ -[IMURLBag transcriptCensorWords]
++ -[MTEpisode(Core) transcriptProvider]
++ -[MTEpisode(Core) transcriptSnippet]
++ -[MTPodcast(Core) darkDownloadCountLimit]
++ -[MTPodcast(Core) darkDownloadTimeInterval]
++ -[MTPodcast(Core) resetGoDarkWithReason:]
++ -[NSDate(MTAdditions) lessVerboseDisplayStringWithoutTime]
++ -[NSString(MTAdditions) pf_localizedStringByFoldingWithOptions:]
++ -[NSString(PFTTMLTypes) intervalFromTimecode]
++ -[PFTTMLParser .cxx_destruct]
++ -[PFTTMLParser abortParsing]
++ -[PFTTMLParser currentElementAttributes]
++ -[PFTTMLParser delegate]
++ -[PFTTMLParser initWithContentsOfURL:delegate:]
++ -[PFTTMLParser initWithData:delegate:]
++ -[PFTTMLParser initWithStream:delegate:]
++ -[PFTTMLParser parse]
++ -[PFTTMLParser parser:didEndElement:namespaceURI:qualifiedName:]
++ -[PFTTMLParser parser:didStartElement:namespaceURI:qualifiedName:attributes:]
++ -[PFTTMLParser parser:foundCharacters:]
++ -[PFTTMLParser parser:parseErrorOccurred:]
++ -[PFTTMLParser parser:validationErrorOccurred:]
++ -[PFTTMLParser parserDidEndDocument:]
++ -[PFTTMLParser parserDidStartDocument:]
++ -[PFTTMLParser parser]
++ -[PFTTMLParser setCurrentElementAttributes:]
++ -[PFTTMLParser setParser:]
++ -[PFTTMLParser stringForElementAttribute:]
++ -[PFTTMLParser timeForElementAttribute:]
++ -[PFTTMLParser unitForCurrentSpan]
++ GCC_except_table135
++ GCC_except_table17
++ _OBJC_CLASS_$_ICMonitoredAccountStore
++ _OBJC_CLASS_$_PFMediaStreamedAssetCache
++ _OBJC_CLASS_$_PFTTMLParser
++ _OBJC_CLASS_$_SHCatalog
++ _OBJC_CLASS_$_SHCustomCatalog
++ _OBJC_CLASS_$_SHCustomCatalogConfiguration
++ _OBJC_CLASS_$_SHMediaItem
++ _OBJC_CLASS_$_SHRange
++ _OBJC_CLASS_$_SHSignature
++ _OBJC_CLASS_$__TtC18PodcastsFoundation16ServerTranscript
++ _OBJC_CLASS_$__TtC18PodcastsFoundation22TranscriptModelBuilder
++ _OBJC_IVAR_$_IMNetworkObserver._lock
++ _OBJC_IVAR_$_IMNetworkObserver._observing
++ _OBJC_IVAR_$_IMPodcastFeedItem._entitledTranscriptIdentifier
++ _OBJC_IVAR_$_IMPodcastFeedItem._entitledTranscriptProvider
++ _OBJC_IVAR_$_IMPodcastFeedItem._entitledTranscriptSnippet
++ _OBJC_IVAR_$_IMPodcastFeedItem._freeTranscriptIdentifier
++ _OBJC_IVAR_$_IMPodcastFeedItem._freeTranscriptProvider
++ _OBJC_IVAR_$_IMPodcastFeedItem._freeTranscriptSnippet
++ _OBJC_IVAR_$_PFTTMLParser._currentElementAttributes
++ _OBJC_IVAR_$_PFTTMLParser._delegate
++ _OBJC_IVAR_$_PFTTMLParser._parser
++ _OBJC_METACLASS_$_PFMediaStreamedAssetCache
++ _OBJC_METACLASS_$_PFTTMLParser
++ _OBJC_METACLASS_$__TtC18PodcastsFoundation16ServerTranscript
++ _OBJC_METACLASS_$__TtC18PodcastsFoundation22TranscriptModelBuilder
++ _PFAnalyticsEventNameCarPlayPlaybackSource
++ _PFAnalyticsEventNameDarkDownloadChange
++ _PFAnalyticsEventNamePlaybackReason
++ _PFTTMLDictionaryKeyForStringAttribute
++ _PFTTMLDictionaryKeyForTimeAttribute
++ _PFTTMLTypeForName
++ __CATEGORY_MTSearchTrie_$_PodcastsFoundation
++ __DATA_PFMediaStreamedAssetCache
++ __DATA__TtC18PodcastsFoundation12OAuthSession
++ __DATA__TtC18PodcastsFoundation16ServerTranscript
++ __DATA__TtC18PodcastsFoundation22TranscriptModelBuilder
++ __DATA__TtC18PodcastsFoundation24OAuthCancellationSession
++ __DATA__TtCC18PodcastsFoundation10SearchTrieP33_4B0CD8136CC5EEB3BCF9BC8BD56C870C4Node
++ __IVARS_PFMediaStreamedAssetCache
++ __IVARS__TtC18PodcastsFoundation12OAuthSession
++ __IVARS__TtC18PodcastsFoundation16ServerTranscript
++ __IVARS__TtC18PodcastsFoundation22TranscriptModelBuilder
++ __IVARS__TtC18PodcastsFoundation24OAuthCancellationSession
++ __IVARS__TtCC18PodcastsFoundation10SearchTrieP33_4B0CD8136CC5EEB3BCF9BC8BD56C870C4Node
++ __METACLASS_DATA_PFMediaStreamedAssetCache
++ __METACLASS_DATA__TtC18PodcastsFoundation12OAuthSession
++ __METACLASS_DATA__TtC18PodcastsFoundation16ServerTranscript
++ __METACLASS_DATA__TtC18PodcastsFoundation22TranscriptModelBuilder
++ __METACLASS_DATA__TtC18PodcastsFoundation24OAuthCancellationSession
++ __METACLASS_DATA__TtCC18PodcastsFoundation10SearchTrieP33_4B0CD8136CC5EEB3BCF9BC8BD56C870C4Node
++ __OBJC_$_CLASS_METHODS_NSString(MTAdditions|IMAdditions|PFTTMLTypes|IMJSONSerializableValueProviding|PodcastsFoundation)
++ __OBJC_$_CLASS_METHODS__TtC18PodcastsFoundation18SyncKeysRepository(PodcastsFoundation|PodcastsFoundation1|PodcastsFoundation2|PodcastsFoundation3)
++ __OBJC_$_INSTANCE_METHODS_MTSearchTrie(PodcastsFoundation)
++ __OBJC_$_INSTANCE_METHODS_NSString(MTAdditions|IMAdditions|PFTTMLTypes|IMJSONSerializableValueProviding|PodcastsFoundation)
++ __OBJC_$_INSTANCE_METHODS_PFMediaStreamedAssetCache
++ __OBJC_$_INSTANCE_METHODS_PFTTMLParser
++ __OBJC_$_INSTANCE_METHODS__TtC18PodcastsFoundation16ServerTranscript
++ __OBJC_$_INSTANCE_METHODS__TtC18PodcastsFoundation18SyncKeysRepository(PodcastsFoundation|PodcastsFoundation1|PodcastsFoundation2|PodcastsFoundation3)
++ __OBJC_$_INSTANCE_METHODS__TtC18PodcastsFoundation22TranscriptModelBuilder
++ __OBJC_$_INSTANCE_VARIABLES_PFTTMLParser
++ __OBJC_$_PROP_LIST_PFTTMLParser
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_PFTTMLParserDelegate
++ __OBJC_$_PROTOCOL_METHOD_TYPES_PFTTMLParserDelegate
++ __OBJC_CLASS_PROTOCOLS_$_PFTTMLParser
++ __OBJC_CLASS_RO_$_PFTTMLParser
++ __OBJC_LABEL_PROTOCOL_$_PFTTMLParserDelegate
++ __OBJC_METACLASS_RO_$_PFTTMLParser
++ __OBJC_PROTOCOL_$_PFTTMLParserDelegate
++ __PROPERTIES_PFMediaStreamedAssetCache
++ __PROPERTIES__TtC18PodcastsFoundation16ServerTranscript
++ __PROTOCOLS_PFMediaStreamedAssetCache
++ __PROTOCOLS_PFMediaStreamedAssetCache.2
++ __PROTOCOLS__TtC18PodcastsFoundation16ServerTranscript
++ __PROTOCOLS__TtC18PodcastsFoundation16ServerTranscript.124
++ __PROTOCOLS__TtC18PodcastsFoundation20ServerPodcastStation.27
++ __PROTOCOLS__TtC18PodcastsFoundation22TranscriptModelBuilder
++ __PROTOCOLS__TtC18PodcastsFoundation22TranscriptModelBuilder.10
++ __PROTOCOL_INSTANCE_METHODS_PFStreamedAssetCache
++ __PROTOCOL_METHOD_TYPES_PFStreamedAssetCache
++ __PROTOCOL_PFStreamedAssetCache
++ __PROTOCOL_PROPERTIES_PFStreamedAssetCache
++ ___block_literal_global.294
++ ___block_literal_global.371
++ ___block_literal_global.425
++ ___block_literal_global.451
++ ___block_literal_global.468
++ ___block_literal_global.630
++ ___block_literal_global.633
++ ___block_literal_global.635
++ ___block_literal_global.638
++ ___block_literal_global.640
++ ___swift_memcpy179_8
++ ___swift_memcpy360_8
++ ___swift_memcpy80_8
++ __unnamed_array_storage.475
++ _associated conformance 18PodcastsFoundation0A12MediaLibraryC0C4ItemV10CodingKeys33_478D2E61B122A97A78263172C355F32ALLOSHAASQ
++ _associated conformance 18PodcastsFoundation0A12MediaLibraryC0C4ItemV10CodingKeys33_478D2E61B122A97A78263172C355F32ALLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 18PodcastsFoundation0A12MediaLibraryC0C4ItemV10CodingKeys33_478D2E61B122A97A78263172C355F32ALLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 18PodcastsFoundation0A12MediaLibraryC20PlaybackQueueContextV11SourceEventOSHAASQ
++ _associated conformance 18PodcastsFoundation11TTMLRequestV10CodingKeysOSHAASQ
++ _associated conformance 18PodcastsFoundation11TTMLRequestV10CodingKeysOs0D3KeyAAs23CustomStringConvertible
++ _associated conformance 18PodcastsFoundation11TTMLRequestV10CodingKeysOs0D3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 18PodcastsFoundation11TTMLRequestVSHAASQ
++ _associated conformance 18PodcastsFoundation12MediaRequestC5FieldOSHAASQ
++ _associated conformance 18PodcastsFoundation13AssetLifetimeOSHAASQ
++ _associated conformance 18PodcastsFoundation13AssetLifetimeOSLAASQ
++ _associated conformance 18PodcastsFoundation14PlaybackIntentV10CodingKeys33_3120B52605701ACB05915E2731DF14ADLLOSHAASQ
++ _associated conformance 18PodcastsFoundation14PlaybackIntentV10CodingKeys33_3120B52605701ACB05915E2731DF14ADLLOs0E3KeyAAs23CustomStringConvertible
++ _associated conformance 18PodcastsFoundation14PlaybackIntentV10CodingKeys33_3120B52605701ACB05915E2731DF14ADLLOs0E3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 18PodcastsFoundation14TranscriptDataO14TimeBombedURLsV10CodingKeys33_C7AE03C8F45C169E83979B768DCD725ELLOSHAASQ
++ _associated conformance 18PodcastsFoundation14TranscriptDataO14TimeBombedURLsV10CodingKeys33_C7AE03C8F45C169E83979B768DCD725ELLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 18PodcastsFoundation14TranscriptDataO14TimeBombedURLsV10CodingKeys33_C7AE03C8F45C169E83979B768DCD725ELLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 18PodcastsFoundation15MediaIdentifierO10CodingKeys33_9DF5CE3F7D2FA805FB6B2516F9101C81LLOSHAASQ
++ _associated conformance 18PodcastsFoundation15MediaIdentifierO10CodingKeys33_9DF5CE3F7D2FA805FB6B2516F9101C81LLOs0E3KeyAAs23CustomStringConvertible
++ _associated conformance 18PodcastsFoundation15MediaIdentifierO10CodingKeys33_9DF5CE3F7D2FA805FB6B2516F9101C81LLOs0E3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 18PodcastsFoundation15MediaIdentifierO17LibraryCodingKeys33_9DF5CE3F7D2FA805FB6B2516F9101C81LLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 18PodcastsFoundation15MediaIdentifierO17LibraryCodingKeys33_9DF5CE3F7D2FA805FB6B2516F9101C81LLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 18PodcastsFoundation15MediaIdentifierO17PodcastCodingKeys33_9DF5CE3F7D2FA805FB6B2516F9101C81LLOSHAASQ
++ _associated conformance 18PodcastsFoundation15MediaIdentifierO17PodcastCodingKeys33_9DF5CE3F7D2FA805FB6B2516F9101C81LLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 18PodcastsFoundation15MediaIdentifierO17PodcastCodingKeys33_9DF5CE3F7D2FA805FB6B2516F9101C81LLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 18PodcastsFoundation15MediaIdentifierO17StationCodingKeys33_9DF5CE3F7D2FA805FB6B2516F9101C81LLOSHAASQ
++ _associated conformance 18PodcastsFoundation15MediaIdentifierO17StationCodingKeys33_9DF5CE3F7D2FA805FB6B2516F9101C81LLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 18PodcastsFoundation15MediaIdentifierO17StationCodingKeys33_9DF5CE3F7D2FA805FB6B2516F9101C81LLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 18PodcastsFoundation15MediaIdentifierO18EpisodesCodingKeys33_9DF5CE3F7D2FA805FB6B2516F9101C81LLOSHAASQ
++ _associated conformance 18PodcastsFoundation15MediaIdentifierO18EpisodesCodingKeys33_9DF5CE3F7D2FA805FB6B2516F9101C81LLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 18PodcastsFoundation15MediaIdentifierO18EpisodesCodingKeys33_9DF5CE3F7D2FA805FB6B2516F9101C81LLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 18PodcastsFoundation15MediaIdentifierO22LocalPodcastCodingKeys33_9DF5CE3F7D2FA805FB6B2516F9101C81LLOSHAASQ
++ _associated conformance 18PodcastsFoundation15MediaIdentifierO22LocalPodcastCodingKeys33_9DF5CE3F7D2FA805FB6B2516F9101C81LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 18PodcastsFoundation15MediaIdentifierO22LocalPodcastCodingKeys33_9DF5CE3F7D2FA805FB6B2516F9101C81LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 18PodcastsFoundation15MediaIdentifierO23LocalEpisodesCodingKeys33_9DF5CE3F7D2FA805FB6B2516F9101C81LLOSHAASQ
++ _associated conformance 18PodcastsFoundation15MediaIdentifierO23LocalEpisodesCodingKeys33_9DF5CE3F7D2FA805FB6B2516F9101C81LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 18PodcastsFoundation15MediaIdentifierO23LocalEpisodesCodingKeys33_9DF5CE3F7D2FA805FB6B2516F9101C81LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 18PodcastsFoundation15TranscriptModelV8SentenceV10SplitStyleOSHAASQ
++ _associated conformance 18PodcastsFoundation16ServerTranscriptC10AttributesV10CodingKeys33_385D3CED687D69BED9E9E39291766844LLOSHAASQ
++ _associated conformance 18PodcastsFoundation16ServerTranscriptC10AttributesV10CodingKeys33_385D3CED687D69BED9E9E39291766844LLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 18PodcastsFoundation16ServerTranscriptC10AttributesV10CodingKeys33_385D3CED687D69BED9E9E39291766844LLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 18PodcastsFoundation16ServerTranscriptC10AttributesV9AssetUrlsV10CodingKeys33_385D3CED687D69BED9E9E39291766844LLOSHAASQ
++ _associated conformance 18PodcastsFoundation16ServerTranscriptC10AttributesV9AssetUrlsV10CodingKeys33_385D3CED687D69BED9E9E39291766844LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 18PodcastsFoundation16ServerTranscriptC10AttributesV9AssetUrlsV10CodingKeys33_385D3CED687D69BED9E9E39291766844LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 18PodcastsFoundation16ServerTranscriptC10CodingKeys33_385D3CED687D69BED9E9E39291766844LLOSHAASQ
++ _associated conformance 18PodcastsFoundation16ServerTranscriptC10CodingKeys33_385D3CED687D69BED9E9E39291766844LLOs0E3KeyAAs23CustomStringConvertible
++ _associated conformance 18PodcastsFoundation16ServerTranscriptC10CodingKeys33_385D3CED687D69BED9E9E39291766844LLOs0E3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 18PodcastsFoundation16TranscriptSourceOSHAASQ
++ _associated conformance 18PodcastsFoundation17EpisodeUserFilterO20SubscriberCodingKeys33_7C566FF9C73A9A54282CCA254E033CF3LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 18PodcastsFoundation17EpisodeUserFilterO20SubscriberCodingKeys33_7C566FF9C73A9A54282CCA254E033CF3LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 18PodcastsFoundation17TranscriptRequestV10CodingKeys33_A33D19197229914DA7B203114C5A8702LLOSHAASQ
++ _associated conformance 18PodcastsFoundation17TranscriptRequestV10CodingKeys33_A33D19197229914DA7B203114C5A8702LLOs0E3KeyAAs23CustomStringConvertible
++ _associated conformance 18PodcastsFoundation17TranscriptRequestV10CodingKeys33_A33D19197229914DA7B203114C5A8702LLOs0E3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 18PodcastsFoundation17TranscriptRequestVSHAASQ
++ _associated conformance 18PodcastsFoundation19TranscriptDataErrorOSHAASQ
++ _associated conformance 18PodcastsFoundation21EpisodeTranscriptDataV10CodingKeys33_F9E46EE044C90C4195D085179B1D1F49LLOSHAASQ
++ _associated conformance 18PodcastsFoundation21EpisodeTranscriptDataV10CodingKeys33_F9E46EE044C90C4195D085179B1D1F49LLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 18PodcastsFoundation21EpisodeTranscriptDataV10CodingKeys33_F9E46EE044C90C4195D085179B1D1F49LLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 18PodcastsFoundation22ShazamSignatureRequestV0D5ErrorOSHAASQ
++ _associated conformance 18PodcastsFoundation22ShazamSignatureRequestV10CodingKeysOSHAASQ
++ _associated conformance 18PodcastsFoundation22ShazamSignatureRequestV10CodingKeysOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 18PodcastsFoundation22ShazamSignatureRequestV10CodingKeysOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 18PodcastsFoundation22ShazamSignatureRequestVSHAASQ
++ _associated conformance 18PodcastsFoundation23MediaStreamedAssetCacheC06StreamF5ErrorOSHAASQ
++ _associated conformance 18PodcastsFoundation23TranscriptProviderErrorOSHAASQ
++ _associated conformance 18PodcastsFoundation26EpisodeTranscriptContainerV10CodingKeys33_F9E46EE044C90C4195D085179B1D1F49LLOSHAASQ
++ _associated conformance 18PodcastsFoundation26EpisodeTranscriptContainerV10CodingKeys33_F9E46EE044C90C4195D085179B1D1F49LLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 18PodcastsFoundation26EpisodeTranscriptContainerV10CodingKeys33_F9E46EE044C90C4195D085179B1D1F49LLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 18PodcastsFoundation31EpisodeTranscriptDataAttributesV10CodingKeys33_F9E46EE044C90C4195D085179B1D1F49LLOSHAASQ
++ _associated conformance 18PodcastsFoundation31EpisodeTranscriptDataAttributesV10CodingKeys33_F9E46EE044C90C4195D085179B1D1F49LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 18PodcastsFoundation31EpisodeTranscriptDataAttributesV10CodingKeys33_F9E46EE044C90C4195D085179B1D1F49LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 18PodcastsFoundation6AdamIDVSHAASQ
++ _associated conformance 18PodcastsFoundation6AdamIDVSLAASQ
++ _associated conformance 18PodcastsFoundation6AdamIDVs27ExpressibleByIntegerLiteralAA0gH4TypesADP_s01_ef7BuiltingH0
++ _associated conformance 18PodcastsFoundation9TTMLErrorOSHAASQ
++ _block_copy_helper.104
++ _block_copy_helper.117
++ _block_copy_helper.126
++ _block_copy_helper.130
++ _block_copy_helper.139
++ _block_copy_helper.145
++ _block_copy_helper.157
++ _block_copy_helper.164
++ _block_copy_helper.182
++ _block_copy_helper.33
++ _block_copy_helper.37
++ _block_copy_helper.40
++ _block_copy_helper.43
++ _block_copy_helper.6
++ _block_copy_helper.76
++ _block_copy_helper.79
++ _block_copy_helper.82
++ _block_copy_helper.85
++ _block_copy_helper.91
++ _block_copy_helper.99
++ _block_descriptor.101
++ _block_descriptor.106
++ _block_descriptor.119
++ _block_descriptor.128
++ _block_descriptor.132
++ _block_descriptor.141
++ _block_descriptor.147
++ _block_descriptor.159
++ _block_descriptor.166
++ _block_descriptor.184
++ _block_descriptor.35
++ _block_descriptor.39
++ _block_descriptor.42
++ _block_descriptor.45
++ _block_descriptor.78
++ _block_descriptor.8
++ _block_descriptor.81
++ _block_descriptor.84
++ _block_descriptor.87
++ _block_descriptor.93
++ _block_destroy_helper.100
++ _block_destroy_helper.105
++ _block_destroy_helper.118
++ _block_destroy_helper.127
++ _block_destroy_helper.131
++ _block_destroy_helper.140
++ _block_destroy_helper.146
++ _block_destroy_helper.158
++ _block_destroy_helper.165
++ _block_destroy_helper.183
++ _block_destroy_helper.34
++ _block_destroy_helper.38
++ _block_destroy_helper.41
++ _block_destroy_helper.44
++ _block_destroy_helper.7
++ _block_destroy_helper.77
++ _block_destroy_helper.80
++ _block_destroy_helper.83
++ _block_destroy_helper.86
++ _block_destroy_helper.92
++ _get_witness_table 18PodcastsFoundation13AssetMetadataRz0C3KeyQy_RszAA0C6SourceR_0C4TypeQy_0C0Rtzr0_l7Combine8DeferredVyAA13EmitLifecycleVy09PublisherG0Qy_GGAJ0L0HPyHC.1
++ _get_witness_table 18PodcastsFoundation13AssetMetadataRzls6ResultO7CombineE9PublisherVy0C0Qzs5Error_p_GAeFHPyHC.1
++ _get_witness_table 18PodcastsFoundation20NetworkAssetLocationRzlAA13EmitLifecycleVy7Combine10PublishersO6TryMapVy_AG04FlatK0Vy_ADyAG12HandleEventsVy_AE8DeferredVyAMy_AE6FutureCy0B04DataVs5Error_pGGGGGAG6OutputVy_AG0H6LatestVy_s6ResultOAEE9PublisherVyAR3URLVsAU_p_GAQySo12NSURLSessionCsAU_pGGGG0D0QzGGAEA5_HPyHC.14
++ _get_witness_table 18PodcastsFoundation22FileBasedAssetLocationRzAA05KeyedeF0Rz8MetadataQy_RszAA0E14ProcessingStepR_AA0E5CacheR0_0E0Qy0_AhA0eH0PRtz0F0Qy0_AERSr1_lAA13EmitLifecycleVy7Combine10PublishersOAAE06CachedE9PublisherVy_0Q4TypeQy_q0_GGAQ0Q0HPyHC.2
++ _get_witness_table 7Combine9PublisherRzlAA10PublishersO5CatchVy_AD3MapVy_xs6ResultOy6OutputQz7FailureQzGGAA4JustVyAOGGAaBHPyHC.4
++ _kBagKeyCommerceOAuthCancellationUrl
++ _kBagKeyTranscriptCensorWords
++ _kCommerceOAuthCancellationUrlDefaultValue
++ _kMTDarkDownloadCountOverride
++ _kMTDarkDownloadDurationOverride
++ _kMTIgnoredAssetsConsumedSpaceKey
++ _kMTImageProviderDeletionHasOccurred
++ _kMTImageProviderMigrationHasOccurred
++ _kMTPreferredPlaylistArtworkSize
++ _kMTWidgetArtworkHeight
++ _kMTWidgetArtworkWidth
++ _keypath_get.51Tm
++ _keypath_get_selector_uuid
++ _keypath_set.44Tm
++ _objc_msgSend$_predicateForPriceType:forPriceTypeKey:excluding:
++ _objc_msgSend$abortParsing
++ _objc_msgSend$channel
++ _objc_msgSend$darkDownloadCountLimit
++ _objc_msgSend$darkDownloadTimeInterval
++ _objc_msgSend$darkDownloadsChangeWithWasDark:isDark:reason:previousExit:
++ _objc_msgSend$endObserving
++ _objc_msgSend$entitledTranscriptProvider
++ _objc_msgSend$entitledTranscriptSnippet
++ _objc_msgSend$freeTranscriptProvider
++ _objc_msgSend$freeTranscriptSnippet
++ _objc_msgSend$getCString:maxLength:encoding:
++ _objc_msgSend$intervalFromTimecode
++ _objc_msgSend$itemDescriptionWithoutHTML
++ _objc_msgSend$latestExitFromDarkDownloads
++ _objc_msgSend$parser
++ _objc_msgSend$parser:didEndElementType:
++ _objc_msgSend$parser:didStartElementType:
++ _objc_msgSend$parser:foundCharacters:
++ _objc_msgSend$parser:parseErrorOccurred:
++ _objc_msgSend$parser:validationErrorOccurred:
++ _objc_msgSend$parserDidEndDocument:
++ _objc_msgSend$parserDidStartDocument:
++ _objc_msgSend$predicateForHiddenPodcasts
++ _objc_msgSend$predicateForLastUnfollowedDateOlderThanDate:
++ _objc_msgSend$predicateForNilLastUnfollowedDate
++ _objc_msgSend$predicateForPodcastUuids:
++ _objc_msgSend$preferredAssetCacheURL
++ _objc_msgSend$recentlyUnfollowedCutoffDate
++ _objc_msgSend$sendEvent:
++ _objc_msgSend$setCurrentElementAttributes:
++ _objc_msgSend$stringByFoldingWithOptions:locale:
++ _objectdestroy.134Tm
++ _objectdestroy.13Tm
++ _objectdestroy.25Tm
++ _objectdestroy.26Tm
++ _objectdestroy.27Tm
++ _objectdestroy.38Tm
++ _objectdestroy.70Tm
++ _objectdestroy.80Tm
++ _objectdestroy.98Tm
++ _os_feature_enabled_home_tab
++ _os_feature_enabled_podcasts_sync_qfa
++ _os_feature_enabled_recently_unfollowed
++ _os_feature_enabled_remove_clean_episode_title
++ _os_feature_enabled_removed_imagestore
++ _os_feature_enabled_rewind_on_interruption
++ _os_feature_enabled_use_episode_description_for_summary
++ _strtod
++ _symbolic $s18PodcastsFoundation14TimeRangeModelP
++ _symbolic $s18PodcastsFoundation18EpisodeListBuilderP
++ _symbolic $s18PodcastsFoundation18StreamedAssetCacheP
++ _symbolic $s18PodcastsFoundation18TranscriptProviderP
++ _symbolic $s18PodcastsFoundation23OAuthEndpointSubscriberP
++ _symbolic $s18PodcastsFoundation31TranscriptTimeBombedURLProviderP
++ _symbolic $s18PodcastsFoundation32WebAuthenticationSessionProtocolP
++ _symbolic $s18PodcastsFoundation40WebAuthenticationSessionProviderProtocolP
++ _symbolic G0R2_
++ _symbolic S2S___________pIegggrzo_ 10Foundation3URLV s5ErrorP
++ _symbolic SDySJ_____G 18PodcastsFoundation10SearchTrieC4Node33_4B0CD8136CC5EEB3BCF9BC8BD56C870CLLC
++ _symbolic SDySS_____G 18PodcastsFoundation15TranscriptModelV7SpeakerV
++ _symbolic SDy__________G 18PodcastsFoundation6AdamIDV AA12PodcastStateO
++ _symbolic SDy__________G 18PodcastsFoundation6AdamIDV AA19PodcastStateMachineC
++ _symbolic SS2id_SS9initialIDt
++ _symbolic SSSg_So9MTEpisodeCt
++ _symbolic SS_SSt
++ _symbolic SS___________pIeggrzo_ 10Foundation3URLV s5ErrorP
++ _symbolic SS_____ySS_SSt______pGIeggr_ 7Combine6FutureC s5ErrorP
++ _symbolic SaySDySSypGGSg
++ _symbolic SaySo16NSSortDescriptorCG
++ _symbolic SaySo17IMPodcastFeedItemCG
++ _symbolic SaySo9MTChannelCGxIeggr_
++ _symbolic SaySo9MTEpisodeCG
++ _symbolic SaySo9MTEpisodeCGxIeggr_
++ _symbolic SaySo9MTPodcastCGxIeggr_
++ _symbolic Say_____G 18PodcastsFoundation12MediaRequestC5FieldO
++ _symbolic Say_____G 18PodcastsFoundation15TranscriptModelV4WordV
++ _symbolic Say_____G 18PodcastsFoundation15TranscriptModelV8SentenceV
++ _symbolic Say_____G 18PodcastsFoundation15TranscriptModelV9ParagraphV
++ _symbolic Say_____G 18PodcastsFoundation21EpisodeTranscriptDataV
++ _symbolic Say_____G 18PodcastsFoundation6AdamIDV
++ _symbolic Say_____G3ids_t 18PodcastsFoundation6AdamIDV
++ _symbolic Sb17isPlayingOrPlayed_t
++ _symbolic SbxYbc
++ _symbolic ScCy_____Sg_____G 18PodcastsFoundation0A12MediaLibraryC0C4ItemV s5NeverO
++ _symbolic Sccy___________pG 18PodcastsFoundation0A12MediaLibraryC20PlaybackQueueContextV s5ErrorP
++ _symbolic Sccy___________pG 18PodcastsFoundation0A12MediaLibraryC8ResponseV s5ErrorP
++ _symbolic SdIegr_
++ _symbolic Shy_____G 18PodcastsFoundation6AdamIDV
++ _symbolic SiSb______pIegydzo_ s5ErrorP
++ _symbolic So11SHSignatureC
++ _symbolic So11SHSignatureCSg
++ _symbolic So11SHSignatureCSo9SHCatalogCSgIeggo_
++ _symbolic So14NSFetchRequestCySo8NSNumberCG
++ _symbolic So15SHCustomCatalogC_____Ieggr_ 18PodcastsFoundation14TranscriptDataO
++ _symbolic So15SHCustomCatalogC__________Ieggnr_ 18PodcastsFoundation15TranscriptModelV AA0C4DataO
++ _symbolic So20NSURLSessionDataTaskCSg
++ _symbolic So20NSURLSessionDataTaskCSgz_Xx
++ _symbolic So22NSManagedObjectContextCSgXw
++ _symbolic So22NSManagedObjectContextCSgXwz_Xx
++ _symbolic So8NSBundleC
++ _symbolic So9MTEpisodeC
++ _symbolic So9SHCatalogC
++ _symbolic So9SHCatalogC9signature______10transcriptt 18PodcastsFoundation15TranscriptModelV
++ _symbolic So9SHCatalogC__________Ieggnr_ 18PodcastsFoundation15TranscriptModelV AA0C4DataO
++ _symbolic _____ 18PodcastsFoundation0A12MediaLibraryC0C4ItemV10CodingKeys33_478D2E61B122A97A78263172C355F32ALLO
++ _symbolic _____ 18PodcastsFoundation0A12MediaLibraryC20PlaybackQueueContextV11SourceEventO
++ _symbolic _____ 18PodcastsFoundation10SearchTrieC4Node33_4B0CD8136CC5EEB3BCF9BC8BD56C870CLLC
++ _symbolic _____ 18PodcastsFoundation11TTMLRequestV
++ _symbolic _____ 18PodcastsFoundation11TTMLRequestV10CodingKeysO
++ _symbolic _____ 18PodcastsFoundation12MediaRequestC5FieldO
++ _symbolic _____ 18PodcastsFoundation12OAuthSessionC
++ _symbolic _____ 18PodcastsFoundation13AnyAssetCacheV
++ _symbolic _____ 18PodcastsFoundation13AssetLifetimeO
++ _symbolic _____ 18PodcastsFoundation14BenchmarkTimerV
++ _symbolic _____ 18PodcastsFoundation14PlaybackIntentV
++ _symbolic _____ 18PodcastsFoundation14PlaybackIntentV10CodingKeys33_3120B52605701ACB05915E2731DF14ADLLO
++ _symbolic _____ 18PodcastsFoundation14PlaybackIntentV15ValidationErrorO
++ _symbolic _____ 18PodcastsFoundation14TranscriptDataO
++ _symbolic _____ 18PodcastsFoundation14TranscriptDataO14TimeBombedURLsV
++ _symbolic _____ 18PodcastsFoundation14TranscriptDataO14TimeBombedURLsV10CodingKeys33_C7AE03C8F45C169E83979B768DCD725ELLO
++ _symbolic _____ 18PodcastsFoundation15MediaIdentifierO
++ _symbolic _____ 18PodcastsFoundation15MediaIdentifierO10CodingKeys33_9DF5CE3F7D2FA805FB6B2516F9101C81LLO
++ _symbolic _____ 18PodcastsFoundation15MediaIdentifierO17LibraryCodingKeys33_9DF5CE3F7D2FA805FB6B2516F9101C81LLO
++ _symbolic _____ 18PodcastsFoundation15MediaIdentifierO17PodcastCodingKeys33_9DF5CE3F7D2FA805FB6B2516F9101C81LLO
++ _symbolic _____ 18PodcastsFoundation15MediaIdentifierO17StationCodingKeys33_9DF5CE3F7D2FA805FB6B2516F9101C81LLO
++ _symbolic _____ 18PodcastsFoundation15MediaIdentifierO18EpisodesCodingKeys33_9DF5CE3F7D2FA805FB6B2516F9101C81LLO
++ _symbolic _____ 18PodcastsFoundation15MediaIdentifierO22LocalPodcastCodingKeys33_9DF5CE3F7D2FA805FB6B2516F9101C81LLO
++ _symbolic _____ 18PodcastsFoundation15MediaIdentifierO23LocalEpisodesCodingKeys33_9DF5CE3F7D2FA805FB6B2516F9101C81LLO
++ _symbolic _____ 18PodcastsFoundation15TTMLParserErrorO
++ _symbolic _____ 18PodcastsFoundation15TranscriptModelV
++ _symbolic _____ 18PodcastsFoundation15TranscriptModelV4WordV
++ _symbolic _____ 18PodcastsFoundation15TranscriptModelV7SpeakerV
++ _symbolic _____ 18PodcastsFoundation15TranscriptModelV8SentenceV
++ _symbolic _____ 18PodcastsFoundation15TranscriptModelV8SentenceV10SplitStyleO
++ _symbolic _____ 18PodcastsFoundation15TranscriptModelV9ParagraphV
++ _symbolic _____ 18PodcastsFoundation16ServerTranscriptC
++ _symbolic _____ 18PodcastsFoundation16ServerTranscriptC10AttributesV
++ _symbolic _____ 18PodcastsFoundation16ServerTranscriptC10AttributesV10CodingKeys33_385D3CED687D69BED9E9E39291766844LLO
++ _symbolic _____ 18PodcastsFoundation16ServerTranscriptC10AttributesV9AssetUrlsV
++ _symbolic _____ 18PodcastsFoundation16ServerTranscriptC10AttributesV9AssetUrlsV10CodingKeys33_385D3CED687D69BED9E9E39291766844LLO
++ _symbolic _____ 18PodcastsFoundation16ServerTranscriptC10CodingKeys33_385D3CED687D69BED9E9E39291766844LLO
++ _symbolic _____ 18PodcastsFoundation16TranscriptParserV
++ _symbolic _____ 18PodcastsFoundation16TranscriptSourceO
++ _symbolic _____ 18PodcastsFoundation17EpisodeUserFilterO20SubscriberCodingKeys33_7C566FF9C73A9A54282CCA254E033CF3LLO
++ _symbolic _____ 18PodcastsFoundation17TranscriptRequestV
++ _symbolic _____ 18PodcastsFoundation17TranscriptRequestV10CodingKeys33_A33D19197229914DA7B203114C5A8702LLO
++ _symbolic _____ 18PodcastsFoundation18DefaultListBuilderV
++ _symbolic _____ 18PodcastsFoundation19TranscriptDataErrorO
++ _symbolic _____ 18PodcastsFoundation21EpisodeTranscriptDataV
++ _symbolic _____ 18PodcastsFoundation21EpisodeTranscriptDataV10CodingKeys33_F9E46EE044C90C4195D085179B1D1F49LLO
++ _symbolic _____ 18PodcastsFoundation21KCUTranscriptProviderV
++ _symbolic _____ 18PodcastsFoundation21KCUTranscriptProviderV19GenericNetworkErrorO
++ _symbolic _____ 18PodcastsFoundation22ShazamSignatureRequestV
++ _symbolic _____ 18PodcastsFoundation22ShazamSignatureRequestV0D5ErrorO
++ _symbolic _____ 18PodcastsFoundation22ShazamSignatureRequestV10CodingKeysO
++ _symbolic _____ 18PodcastsFoundation22TranscriptModelBuilderC
++ _symbolic _____ 18PodcastsFoundation22TranscriptModelBuilderC5PhaseO
++ _symbolic _____ 18PodcastsFoundation23MediaStreamedAssetCacheC
++ _symbolic _____ 18PodcastsFoundation23MediaStreamedAssetCacheC06StreamF5ErrorO
++ _symbolic _____ 18PodcastsFoundation23MediaStreamedAssetCacheC11StreamPhase019_A9E8142232700E2427I12E5B0BCE49410LLO
++ _symbolic _____ 18PodcastsFoundation23TranscriptProviderErrorO
++ _symbolic _____ 18PodcastsFoundation24OAuthCancellationSessionC
++ _symbolic _____ 18PodcastsFoundation24TranscriptEpisodeContextV
++ _symbolic _____ 18PodcastsFoundation24UpNextEpisodeListBuilderV
++ _symbolic _____ 18PodcastsFoundation26AMSOAuthEndpointSubscriberV
++ _symbolic _____ 18PodcastsFoundation26EpisodeTranscriptContainerV
++ _symbolic _____ 18PodcastsFoundation26EpisodeTranscriptContainerV10CodingKeys33_F9E46EE044C90C4195D085179B1D1F49LLO
++ _symbolic _____ 18PodcastsFoundation28TimeBombedTranscriptProviderV
++ _symbolic _____ 18PodcastsFoundation29BundleAssetTranscriptProviderV
++ _symbolic _____ 18PodcastsFoundation29BundleAssetTranscriptProviderV05LocalD5ErrorO
++ _symbolic _____ 18PodcastsFoundation31EpisodeTranscriptDataAttributesV
++ _symbolic _____ 18PodcastsFoundation31EpisodeTranscriptDataAttributesV10CodingKeys33_F9E46EE044C90C4195D085179B1D1F49LLO
++ _symbolic _____ 18PodcastsFoundation35MAPITranscriptTimeBombedURLProviderV
++ _symbolic _____ 18PodcastsFoundation35MAPITranscriptTimeBombedURLProviderV0C5ErrorO
++ _symbolic _____ 18PodcastsFoundation6AdamIDV
++ _symbolic _____ 18PodcastsFoundation6AdamIDV10ParseErrorO
++ _symbolic _____ 18PodcastsFoundation9TTMLErrorO
++ _symbolic _____11ttmlRequest______09signatureB0t 18PodcastsFoundation11TTMLRequestV AA22ShazamSignatureRequestV
++ _symbolic _____2id_t 18PodcastsFoundation6AdamIDV
++ _symbolic _____SS______pIegnozo_ 10Foundation3URLV s5ErrorP
++ _symbolic _____Sg 18PodcastsFoundation11TTMLRequestV
++ _symbolic _____Sg 18PodcastsFoundation12OAuthSessionC
++ _symbolic _____Sg 18PodcastsFoundation14PlaybackIntentV
++ _symbolic _____Sg 18PodcastsFoundation14TranscriptDataO14TimeBombedURLsV
++ _symbolic _____Sg 18PodcastsFoundation15TranscriptModelV
++ _symbolic _____Sg 18PodcastsFoundation15TranscriptModelV4WordV
++ _symbolic _____Sg 18PodcastsFoundation15TranscriptModelV8SentenceV
++ _symbolic _____Sg 18PodcastsFoundation15TranscriptModelV9ParagraphV
++ _symbolic _____Sg 18PodcastsFoundation19EpisodeListSettingsV
++ _symbolic _____Sg 18PodcastsFoundation21MusicSubscriptionInfoV
++ _symbolic _____Sg 18PodcastsFoundation22ShazamSignatureRequestV
++ _symbolic _____Sg 18PodcastsFoundation26EpisodeTranscriptContainerV
++ _symbolic _____Sg 18PodcastsFoundation6AdamIDV
++ _symbolic _____Sg 2os23OSSignpostIntervalStateC
++ _symbolic _____Sg s8DurationV
++ _symbolic _____Sg16signatureRequest______Sg04ttmlB0t 18PodcastsFoundation22ShazamSignatureRequestV AA11TTMLRequestV
++ _symbolic _____Sg8duration_Say_____G10paragraphsSDySS_____G8speakerst s8DurationV 18PodcastsFoundation15TranscriptModelV9ParagraphV AE7SpeakerV
++ _symbolic _____SgIegn_ 18PodcastsFoundation21MusicSubscriptionInfoV
++ _symbolic _____SgXw 18PodcastsFoundation12OAuthSessionC
++ _symbolic _____SgXwz_Xx 18PodcastsFoundation12OAuthSessionC
++ _symbolic _____Sg_ABt 10Foundation3URLV
++ _symbolic _____So12NSURLSessionC_____y_____y______yAEy______y___________pGGGGGIegngr_ 10Foundation3URLV 08PodcastsA013EmitLifecycleV 7Combine10PublishersO12HandleEventsV AG8DeferredV AG6FutureC AA4DataV s5ErrorP
++ _symbolic _____So9SHCatalogC______pIeggozo_ 10Foundation4DataV s5ErrorP
++ _symbolic ______AAt 18PodcastsFoundation35MAPITranscriptTimeBombedURLProviderV0C5ErrorO
++ _symbolic ______Say_____Gt 18PodcastsFoundation17TranscriptRequestV AA06ServerC0C
++ _symbolic ________________pIeggrzo_ 10Foundation4DataV 08PodcastsA015TranscriptModelV s5ErrorP
++ _symbolic ___________t 10Foundation4UUIDV 7Combine14AnyCancellableC
++ _symbolic ___________ySo11SHSignatureC______pGt 18PodcastsFoundation22ShazamSignatureRequestV 7Combine12AnyPublisherV s5ErrorP
++ _symbolic ___________y___________pGt 18PodcastsFoundation11TTMLRequestV 7Combine12AnyPublisherV AA15TranscriptModelV s5ErrorP
++ _symbolic ___________y___________pGt 18PodcastsFoundation17TranscriptRequestV 7Combine12AnyPublisherV AA0C4DataO14TimeBombedURLsV s5ErrorP
++ _symbolic ______p 18PodcastsFoundation23OAuthEndpointSubscriberP
++ _symbolic ______p 18PodcastsFoundation27OAuthHUDViewHandlerProtocolP
++ _symbolic ______p 18PodcastsFoundation31TranscriptTimeBombedURLProviderP
++ _symbolic ______p 18PodcastsFoundation32WebAuthenticationSessionProtocolP
++ _symbolic ______p 18PodcastsFoundation40WebAuthenticationSessionProviderProtocolP
++ _symbolic ______pSg 18PodcastsFoundation27OAuthHUDViewHandlerProtocolP
++ _symbolic ______pSg 18PodcastsFoundation32WebAuthenticationSessionProtocolP
++ _symbolic ______pSg 18PodcastsFoundation40WebAuthenticationSessionProviderProtocolP
++ _symbolic _____y6Output_____Qz7FailureACQzG s6ResultO 7Combine9PublisherP
++ _symbolic _____yAAy_____y______ySo11SHSignatureC______pG_____y_____AEGGGG 18PodcastsFoundation13EmitLifecycleV 7Combine10PublishersOAAE20CachedAssetPublisherV AD03AnyI0V s5ErrorP AA0jH5CacheV AA22ShazamSignatureRequestV
++ _symbolic _____yAAy_____y______y___________pG_____y_____ADGGGG 18PodcastsFoundation13EmitLifecycleV 7Combine10PublishersOAAE20CachedAssetPublisherV AD03AnyI0V AA15TranscriptModelV s5ErrorP AA0jH5CacheV AA11TTMLRequestV
++ _symbolic _____ySDy__________GG 2os21OSAllocatedUnfairLockV 10Foundation4UUIDV 7Combine14AnyCancellableC
++ _symbolic _____ySDy__________G_____G s13ManagedBufferC 10Foundation4UUIDV 7Combine14AnyCancellableC So16os_unfair_lock_sV
++ _symbolic _____ySDy__________ySo11SHSignatureC______pGGG 2os21OSAllocatedUnfairLockV 18PodcastsFoundation22ShazamSignatureRequestV 7Combine12AnyPublisherV s5ErrorP
++ _symbolic _____ySDy__________ySo11SHSignatureC______pGG_____G s13ManagedBufferC 18PodcastsFoundation22ShazamSignatureRequestV 7Combine12AnyPublisherV s5ErrorP So16os_unfair_lock_sV
++ _symbolic _____ySDy__________y___________pGGG 2os21OSAllocatedUnfairLockV 18PodcastsFoundation11TTMLRequestV 7Combine12AnyPublisherV AD15TranscriptModelV s5ErrorP
++ _symbolic _____ySDy__________y___________pGGG 2os21OSAllocatedUnfairLockV 18PodcastsFoundation17TranscriptRequestV 7Combine12AnyPublisherV AD0G4DataO14TimeBombedURLsV s5ErrorP
++ _symbolic _____ySDy__________y___________pGG_____G s13ManagedBufferC 18PodcastsFoundation11TTMLRequestV 7Combine12AnyPublisherV AC15TranscriptModelV s5ErrorP So16os_unfair_lock_sV
++ _symbolic _____ySDy__________y___________pGG_____G s13ManagedBufferC 18PodcastsFoundation17TranscriptRequestV 7Combine12AnyPublisherV AC0E4DataO14TimeBombedURLsV s5ErrorP So16os_unfair_lock_sV
++ _symbolic _____ySJ_____G s18_DictionaryStorageC 18PodcastsFoundation10SearchTrieC4Node33_4B0CD8136CC5EEB3BCF9BC8BD56C870CLLC
++ _symbolic _____ySSSgSo9MTEpisodeCG s18_DictionaryStorageC
++ _symbolic _____ySSSg_So9MTEpisodeCtG s23_ContiguousArrayStorageC
++ _symbolic _____ySS_SSt______pG 7Combine6FutureC s5ErrorP
++ _symbolic _____ySS_SSt______pG s6ResultO s5ErrorP
++ _symbolic _____ySS_SSt______pGIegn_ s6ResultO s5ErrorP
++ _symbolic _____ySS_____G s18_DictionaryStorageC 18PodcastsFoundation15TranscriptModelV7SpeakerV
++ _symbolic _____ySS______pG 7Combine6FutureC s5ErrorP
++ _symbolic _____ySS______pGIegn_ s6ResultO s5ErrorP
++ _symbolic _____ySb______pG 7Combine12AnyPublisherV s5ErrorP
++ _symbolic _____ySdSg_____G 7Combine19CurrentValueSubjectC s5NeverO
++ _symbolic _____ySd_____G 7Combine12AnyPublisherV s5NeverO
++ _symbolic _____ySi_____G 7Combine5EmptyV s5NeverO
++ _symbolic _____ySi______pG 7Combine6FutureC s5ErrorP
++ _symbolic _____ySi______pGIegg_ s6ResultO s5ErrorP
++ _symbolic _____ySi______pGIegn_ s6ResultO s5ErrorP
++ _symbolic _____ySo11SHSignatureCSg______pG 18PodcastsFoundation24RepublishingValueSubjectC s5ErrorP
++ _symbolic _____ySo9MTEpisodeCG s10ArraySliceV
++ _symbolic _____ySsG 17_StringProcessing5RegexV
++ _symbolic _____ySs_G 17_StringProcessing5RegexV5MatchV
++ _symbolic _____ySs_GSg 17_StringProcessing5RegexV5MatchV
++ _symbolic _____y_AAy______y______y__________GSo17OS_dispatch_queueCG_____GSo11SHSignatureCG 7Combine10PublishersO6TryMapV AC9ReceiveOnV AA6FutureC 10Foundation3URLV 08PodcastsH029BundleAssetTranscriptProviderV05LocalL5ErrorO AJ4DataV
++ _symbolic _____y_AAy______y______y__________GSo17OS_dispatch_queueCG_____GSo15SHCustomCatalogCG 7Combine10PublishersO6TryMapV AC9ReceiveOnV AA6FutureC 10Foundation3URLV 08PodcastsH029BundleAssetTranscriptProviderV05LocalL5ErrorO AJ4DataV
++ _symbolic _____y_AAy______y______y__________GSo17OS_dispatch_queueCG_____G_____G 7Combine10PublishersO6TryMapV AC9ReceiveOnV AA6FutureC 10Foundation3URLV 08PodcastsH029BundleAssetTranscriptProviderV05LocalL5ErrorO AJ4DataV AM0M5ModelV
++ _symbolic _____y_AAy______y______y__________GSo17OS_dispatch_queueCG_____G_____G 7Combine10PublishersO6TryMapV AC9ReceiveOnV AA6FutureC 10Foundation3URLV 08PodcastsH029BundleAssetTranscriptProviderV05LocalL5ErrorO AJ4DataV AM0mQ0O
++ _symbolic _____y_AAy______y______y_____y___________pGGSo17OS_dispatch_queueCG_____GALSgG 7Combine10PublishersO3MapV AC9ReceiveOnV AA8DeferredV AA6FutureC 18PodcastsFoundation16ServerTranscriptC s5ErrorP AL0K4DataO14TimeBombedURLsV
++ _symbolic _____y_____11ttmlRequest______09signatureB0t______pG 7Combine6FutureC 18PodcastsFoundation11TTMLRequestV AD22ShazamSignatureRequestV s5ErrorP
++ _symbolic _____y_____11ttmlRequest______09signatureB0t______pG s6ResultO 18PodcastsFoundation11TTMLRequestV AC22ShazamSignatureRequestV s5ErrorP
++ _symbolic _____y_____G 2os21OSAllocatedUnfairLockV 18PodcastsFoundation22TranscriptModelBuilderC5PhaseO
++ _symbolic _____y_____G 2os21OSAllocatedUnfairLockV 18PodcastsFoundation23MediaStreamedAssetCacheC11StreamPhase019_A9E8142232700E2427M12E5B0BCE49410LLO
++ _symbolic _____y_____G 7Combine4JustV 18PodcastsFoundation14TranscriptDataO
++ _symbolic _____y_____G s11_SetStorageC 18PodcastsFoundation6AdamIDV
++ _symbolic _____y_____G s11_SetStorageC 18PodcastsFoundation9PriceTypeO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 18PodcastsFoundation017EpisodeTranscriptC0V10CodingKeys33_F9E46EE044C90C4195D085179B1D1F49LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 18PodcastsFoundation0D12MediaLibraryC0F4ItemV10CodingKeys33_478D2E61B122A97A78263172C355F32ALLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 18PodcastsFoundation11TTMLRequestV10CodingKeysO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 18PodcastsFoundation14PlaybackIntentV10CodingKeys33_3120B52605701ACB05915E2731DF14ADLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 18PodcastsFoundation14TranscriptDataO14TimeBombedURLsV10CodingKeys33_C7AE03C8F45C169E83979B768DCD725ELLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 18PodcastsFoundation15MediaIdentifierO10CodingKeys33_9DF5CE3F7D2FA805FB6B2516F9101C81LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 18PodcastsFoundation15MediaIdentifierO17LibraryCodingKeys33_9DF5CE3F7D2FA805FB6B2516F9101C81LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 18PodcastsFoundation15MediaIdentifierO17PodcastCodingKeys33_9DF5CE3F7D2FA805FB6B2516F9101C81LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 18PodcastsFoundation15MediaIdentifierO17StationCodingKeys33_9DF5CE3F7D2FA805FB6B2516F9101C81LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 18PodcastsFoundation15MediaIdentifierO18EpisodesCodingKeys33_9DF5CE3F7D2FA805FB6B2516F9101C81LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 18PodcastsFoundation15MediaIdentifierO22LocalPodcastCodingKeys33_9DF5CE3F7D2FA805FB6B2516F9101C81LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 18PodcastsFoundation15MediaIdentifierO23LocalEpisodesCodingKeys33_9DF5CE3F7D2FA805FB6B2516F9101C81LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 18PodcastsFoundation16ServerTranscriptC10AttributesV10CodingKeys33_385D3CED687D69BED9E9E39291766844LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 18PodcastsFoundation16ServerTranscriptC10AttributesV9AssetUrlsV10CodingKeys33_385D3CED687D69BED9E9E39291766844LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 18PodcastsFoundation16ServerTranscriptC10CodingKeys33_385D3CED687D69BED9E9E39291766844LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 18PodcastsFoundation17EpisodeUserFilterO20SubscriberCodingKeys33_7C566FF9C73A9A54282CCA254E033CF3LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 18PodcastsFoundation17TranscriptRequestV10CodingKeys33_A33D19197229914DA7B203114C5A8702LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 18PodcastsFoundation21EpisodeTranscriptDataV10CodingKeys33_F9E46EE044C90C4195D085179B1D1F49LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 18PodcastsFoundation22ShazamSignatureRequestV10CodingKeysO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 18PodcastsFoundation31EpisodeTranscriptDataAttributesV10CodingKeys33_F9E46EE044C90C4195D085179B1D1F49LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 18PodcastsFoundation017EpisodeTranscriptC0V10CodingKeys33_F9E46EE044C90C4195D085179B1D1F49LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 18PodcastsFoundation0D12MediaLibraryC0F4ItemV10CodingKeys33_478D2E61B122A97A78263172C355F32ALLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 18PodcastsFoundation11TTMLRequestV10CodingKeysO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 18PodcastsFoundation14PlaybackIntentV10CodingKeys33_3120B52605701ACB05915E2731DF14ADLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 18PodcastsFoundation14TranscriptDataO14TimeBombedURLsV10CodingKeys33_C7AE03C8F45C169E83979B768DCD725ELLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 18PodcastsFoundation15MediaIdentifierO10CodingKeys33_9DF5CE3F7D2FA805FB6B2516F9101C81LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 18PodcastsFoundation15MediaIdentifierO17LibraryCodingKeys33_9DF5CE3F7D2FA805FB6B2516F9101C81LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 18PodcastsFoundation15MediaIdentifierO17PodcastCodingKeys33_9DF5CE3F7D2FA805FB6B2516F9101C81LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 18PodcastsFoundation15MediaIdentifierO17StationCodingKeys33_9DF5CE3F7D2FA805FB6B2516F9101C81LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 18PodcastsFoundation15MediaIdentifierO18EpisodesCodingKeys33_9DF5CE3F7D2FA805FB6B2516F9101C81LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 18PodcastsFoundation15MediaIdentifierO22LocalPodcastCodingKeys33_9DF5CE3F7D2FA805FB6B2516F9101C81LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 18PodcastsFoundation15MediaIdentifierO23LocalEpisodesCodingKeys33_9DF5CE3F7D2FA805FB6B2516F9101C81LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 18PodcastsFoundation16ServerTranscriptC10AttributesV10CodingKeys33_385D3CED687D69BED9E9E39291766844LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 18PodcastsFoundation16ServerTranscriptC10AttributesV9AssetUrlsV10CodingKeys33_385D3CED687D69BED9E9E39291766844LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 18PodcastsFoundation16ServerTranscriptC10CodingKeys33_385D3CED687D69BED9E9E39291766844LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 18PodcastsFoundation17EpisodeUserFilterO20SubscriberCodingKeys33_7C566FF9C73A9A54282CCA254E033CF3LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 18PodcastsFoundation17TranscriptRequestV10CodingKeys33_A33D19197229914DA7B203114C5A8702LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 18PodcastsFoundation21EpisodeTranscriptDataV10CodingKeys33_F9E46EE044C90C4195D085179B1D1F49LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 18PodcastsFoundation22ShazamSignatureRequestV10CodingKeysO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 18PodcastsFoundation31EpisodeTranscriptDataAttributesV10CodingKeys33_F9E46EE044C90C4195D085179B1D1F49LLO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 18PodcastsFoundation12MediaRequestC5FieldO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 18PodcastsFoundation15TranscriptModelV4WordV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 18PodcastsFoundation15TranscriptModelV8SentenceV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 18PodcastsFoundation15TranscriptModelV9ParagraphV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 18PodcastsFoundation6AdamIDV
++ _symbolic _____y_____SSG s18_DictionaryStorageC 18PodcastsFoundation18URLTrackIdentifierV11ArgumentKeyO
++ _symbolic _____y_____SgG 2os21OSAllocatedUnfairLockV 7Combine14AnyCancellableC
++ _symbolic _____y_____Sg_____G s13ManagedBufferC 7Combine14AnyCancellableC So16os_unfair_lock_sV
++ _symbolic _____y_____Sg_____G s6ResultO 18PodcastsFoundation0B12MediaLibraryC0D4ItemV s5NeverO
++ _symbolic _____y_____Sg______pG 18PodcastsFoundation24RepublishingValueSubjectC AA14TranscriptDataO14TimeBombedURLsV s5ErrorP
++ _symbolic _____y_____Sg______pG 18PodcastsFoundation24RepublishingValueSubjectC AA15TranscriptModelV s5ErrorP
++ _symbolic _____y_____So11SHSignatureCG 18PodcastsFoundation13AnyAssetCacheV AA22ShazamSignatureRequestV
++ _symbolic _____y_____So11SHSignatureCG 18PodcastsFoundation14AnyAssetSourceV AA22ShazamSignatureRequestV
++ _symbolic _____y______SSSgtG s23_ContiguousArrayStorageC 18PodcastsFoundation18URLTrackIdentifierV11ArgumentKeyO
++ _symbolic _____y______SStG s23_ContiguousArrayStorageC 18PodcastsFoundation18URLTrackIdentifierV11ArgumentKeyO
++ _symbolic _____y______SStSgG 2os21OSAllocatedUnfairLockV AA23OSSignpostIntervalStateC
++ _symbolic _____y______SStSg_____G s13ManagedBufferC 2os23OSSignpostIntervalStateC So0C14_unfair_lock_sV
++ _symbolic _____y__________G 18PodcastsFoundation13AnyAssetCacheV AA11TTMLRequestV AA15TranscriptModelV
++ _symbolic _____y__________G 18PodcastsFoundation14AnyAssetSourceV AA11TTMLRequestV AA15TranscriptModelV
++ _symbolic _____y__________G 7Combine6FutureC 10Foundation3URLV 08PodcastsC029BundleAssetTranscriptProviderV05LocalG5ErrorO
++ _symbolic _____y__________G s13ManagedBufferC 18PodcastsFoundation22TranscriptModelBuilderC5PhaseO So16os_unfair_lock_sV
++ _symbolic _____y__________G s13ManagedBufferC 18PodcastsFoundation23MediaStreamedAssetCacheC11StreamPhase019_A9E8142232700E2427K12E5B0BCE49410LLO So16os_unfair_lock_sV
++ _symbolic _____y__________G s18_DictionaryStorageC 10Foundation4UUIDV 7Combine14AnyCancellableC
++ _symbolic _____y__________G s18_DictionaryStorageC 18PodcastsFoundation6AdamIDV AC12PodcastStateO
++ _symbolic _____y__________G s18_DictionaryStorageC 18PodcastsFoundation6AdamIDV AC19PodcastStateMachineC
++ _symbolic _____y__________G s6ResultO 10Foundation3URLV 08PodcastsB029BundleAssetTranscriptProviderV05LocalF5ErrorO
++ _symbolic _____y___________G 7Combine10PublishersO6TryMapV So12NSURLSessionC10FoundationE17DataTaskPublisherV AH0G0V
++ _symbolic _____y___________pG 7Combine12AnyPublisherV 10Foundation3URLV s5ErrorP
++ _symbolic _____y___________pG 7Combine12AnyPublisherV 18PodcastsFoundation14TranscriptDataO s5ErrorP
++ _symbolic _____y___________pG 7Combine12AnyPublisherV 18PodcastsFoundation14TranscriptDataO14TimeBombedURLsV s5ErrorP
++ _symbolic _____y___________pG 7Combine6FutureC 18PodcastsFoundation16ServerTranscriptC s5ErrorP
++ _symbolic _____y___________pG s6ResultO 18PodcastsFoundation0B12MediaLibraryC20PlaybackQueueContextV s5ErrorP
++ _symbolic _____y___________pGIegg_ s6ResultO 18PodcastsFoundation16ServerTranscriptC s5ErrorP
++ _symbolic _____y___________pGIegn_ s6ResultO 18PodcastsFoundation16ServerTranscriptC s5ErrorP
++ _symbolic _____y___________p_G s6ResultO7CombineE9PublisherV 18PodcastsFoundation14TranscriptDataO s5ErrorP
++ _symbolic _____y__________yAAyAB_____yAB_____yABSo11SHSignatureCGG_____yAbGGGGAKG 18PodcastsFoundation24CacheAssetProcessingStepV AA22ShazamSignatureRequestV AA14UniquePipelineV AA0d6SourceF0V AA03AnydL0V AA0mdC0V
++ _symbolic _____y__________yAAyAB_____yAB_____yAB_____GG_____yAbFGGGAJG 18PodcastsFoundation24CacheAssetProcessingStepV AA11TTMLRequestV AA14UniquePipelineV AA0d6SourceF0V AA03AnydJ0V AA15TranscriptModelV AA0kdC0V
++ _symbolic _____y__________yABSo11SHSignatureCGG 18PodcastsFoundation15AssetSourceStepV AA22ShazamSignatureRequestV AA03AnycD0V
++ _symbolic _____y__________yAB_____GG 18PodcastsFoundation15AssetSourceStepV AA11TTMLRequestV AA03AnycD0V AA15TranscriptModelV
++ _symbolic _____y__________yAB_____yABSo11SHSignatureCGG_____yAbFGG 18PodcastsFoundation24CacheAssetProcessingStepV AA22ShazamSignatureRequestV AA0d6SourceF0V AA03AnydJ0V AA0kdC0V
++ _symbolic _____y__________yAB_____yAB_____GG_____yAbEGG 18PodcastsFoundation24CacheAssetProcessingStepV AA11TTMLRequestV AA0d6SourceF0V AA03AnydH0V AA15TranscriptModelV AA0idC0V
++ _symbolic _____y__________ySo11SHSignatureC______pGG s18_DictionaryStorageC 18PodcastsFoundation22ShazamSignatureRequestV 7Combine12AnyPublisherV s5ErrorP
++ _symbolic _____y__________y___________pGG s18_DictionaryStorageC 18PodcastsFoundation11TTMLRequestV 7Combine12AnyPublisherV AC15TranscriptModelV s5ErrorP
++ _symbolic _____y__________y___________pGG s18_DictionaryStorageC 18PodcastsFoundation17TranscriptRequestV 7Combine12AnyPublisherV AC0E4DataO14TimeBombedURLsV s5ErrorP
++ _symbolic _____y______pG 7Combine4JustV 18PodcastsFoundation32WebAuthenticationSessionProtocolP
++ _symbolic _____y______yAAy______y_ABy_____y______y_AByADy___________GGSo17OS_dispatch_queueCGSo9SHCatalogCGGAByADy_AL_____GGG_____GGAUG 7Combine10PublishersO3MapV 18PodcastsFoundation13EmitLifecycleV AC0A6LatestV AC03TryC0V AC9ReceiveOnV So12NSURLSessionC0E0E17DataTaskPublisherV AQ0M0V AF15TranscriptModelV AF0pM0O
++ _symbolic _____y______yAAy______y___________pGGGG 7Combine10PublishersO12HandleEventsV AA8DeferredV AA6FutureC 10Foundation4DataV s5ErrorP
++ _symbolic _____y______yABy_____y______ySo11SHSignatureC______pG_____y_____AFGGGG_____y______y_ADy_____AG_pGAJSg16signatureRequest______Sg04ttmlC0tGAJGG 7Combine10PublishersO7FlatMapV 18PodcastsFoundation13EmitLifecycleV AcFE20CachedAssetPublisherV AA03AnyK0V s5ErrorP AF0lJ5CacheV AF22ShazamSignatureRequestV AC07CompactD0V AC0D0V AF14TranscriptDataO14TimeBombedURLsV AF11TTMLRequestV
++ _symbolic _____y______yABy_____y______y___________pG_____y_____AEGGGG_____y______y_ADy_____AF_pG_____Sg16signatureRequest_AISg04ttmlB0tGAIGG 7Combine10PublishersO7FlatMapV 18PodcastsFoundation13EmitLifecycleV AcFE20CachedAssetPublisherV AA03AnyK0V AF15TranscriptModelV s5ErrorP AF0lJ5CacheV AF11TTMLRequestV AC07CompactD0V AC0D0V AF0M4DataO14TimeBombedURLsV AF22ShazamSignatureRequestV
++ _symbolic _____y______ySS_SSt______pG_____y______y______y_AAy______y_____AC_pG_____y_AGy______y______pGSo17OS_dispatch_queueCGAC_pGGAPGGSSGG 7Combine10PublishersO7FlatMapV AA6FutureC s5ErrorP AC03TryD0V AC12HandleEventsV AC9ReceiveOnV AA12AnyPublisherV 10Foundation3URLV AC14SetFailureTypeV AA4JustV 08PodcastsN032WebAuthenticationSessionProtocolP
++ _symbolic _____y______ySS______pG_____G 7Combine10PublishersO6TryMapV AA6FutureC s5ErrorP 10Foundation3URLV
++ _symbolic _____y______ySb______pG_____y_AAy______ySS_SStAC_pGAEy______y______y_AAy_ABy_____AC_pG_____y_AIy______y______pGSo17OS_dispatch_queueCGAC_pGGAQGGSSGGAJGG 7Combine10PublishersO7FlatMapV AA12AnyPublisherV s5ErrorP AC03TryD0V AA6FutureC AC12HandleEventsV AC9ReceiveOnV 10Foundation3URLV AC14SetFailureTypeV AA4JustV 08PodcastsN032WebAuthenticationSessionProtocolP
++ _symbolic _____y______ySi______pGAAy_ABy_____AC_pG_____y_ABySSAC_pG_____GGG 7Combine10PublishersO7FlatMapV AA6FutureC s5ErrorP 10Foundation10URLRequestV AC03TryD0V AJ3URLV
++ _symbolic _____y______ySi______pGABy_____AC_pGG 7Combine10PublishersO7FlatMapV AA6FutureC s5ErrorP 10Foundation10URLRequestV
++ _symbolic _____y______ySo11SHSignatureC______pG_____y_____ADGG 7Combine10PublishersO18PodcastsFoundationE20CachedAssetPublisherV AA03AnyG0V s5ErrorP AD0hF5CacheV AD22ShazamSignatureRequestV
++ _symbolic _____y______y_ABy______y______y__________GSo17OS_dispatch_queueCG_____GSo15SHCustomCatalogCGABy_AL_____GG 7Combine10PublishersO0A6LatestV AC6TryMapV AC9ReceiveOnV AA6FutureC 10Foundation3URLV 08PodcastsI029BundleAssetTranscriptProviderV05LocalM5ErrorO AL4DataV AO0N5ModelV
++ _symbolic _____y______y_ABy______y______y__________GSo17OS_dispatch_queueCG_____G_____GG 7Combine10PublishersO9MergeManyV AC6TryMapV AC9ReceiveOnV AA6FutureC 10Foundation3URLV 08PodcastsJ029BundleAssetTranscriptProviderV05LocalN5ErrorO AL4DataV AO0oS0O
++ _symbolic _____y______y_ABy______y______y_____y___________pGGSo17OS_dispatch_queueCG_____GAMSgG_____yAoG_pGG 7Combine10PublishersO9MulticastC AC3MapV AC9ReceiveOnV AA8DeferredV AA6FutureC 18PodcastsFoundation16ServerTranscriptC s5ErrorP AN0L4DataO14TimeBombedURLsV AN24RepublishingValueSubjectC
++ _symbolic _____y______y_SaySdG_____G_____y______y______So17OS_dispatch_queueCGSdGG 7Combine10PublishersO11ConcatenateV AC8SequenceV s5NeverO AC3MapV AC9ReceiveOnV So20NSNotificationCenterC10FoundationE9PublisherV
++ _symbolic _____y______y_____11ttmlRequest______09signatureB0t______pGSo17OS_dispatch_queueCG 7Combine10PublishersO9ReceiveOnV AA6FutureC 18PodcastsFoundation11TTMLRequestV AH22ShazamSignatureRequestV s5ErrorP
++ _symbolic _____y______y______So17OS_dispatch_queueCGSdG 7Combine10PublishersO3MapV AC9ReceiveOnV So20NSNotificationCenterC10FoundationE9PublisherV
++ _symbolic _____y______y__________GSo17OS_dispatch_queueCG 7Combine10PublishersO9ReceiveOnV AA6FutureC 10Foundation3URLV 08PodcastsF029BundleAssetTranscriptProviderV05LocalJ5ErrorO
++ _symbolic _____y______y___________pGG 7Combine10PublishersO12HandleEventsV AA6FutureC 10Foundation4DataV s5ErrorP
++ _symbolic _____y______y___________pGSo17OS_dispatch_queueCG 7Combine10PublishersO9ReceiveOnV AA12AnyPublisherV 18PodcastsFoundation14TranscriptDataO s5ErrorP
++ _symbolic _____y______y___________pG_____Sg16signatureRequest______Sg04ttmlB0tG 7Combine10PublishersO3MapV AA12AnyPublisherV 18PodcastsFoundation14TranscriptDataO14TimeBombedURLsV s5ErrorP AH22ShazamSignatureRequestV AH11TTMLRequestV
++ _symbolic _____y______y___________pG_____y_ABySSAD_pG_____GG 7Combine10PublishersO7FlatMapV AA6FutureC 10Foundation10URLRequestV s5ErrorP AC03TryD0V AH3URLV
++ _symbolic _____y______y___________pG_____y_____ACGG 7Combine10PublishersO18PodcastsFoundationE20CachedAssetPublisherV AA03AnyG0V AD15TranscriptModelV s5ErrorP AD0hF5CacheV AD11TTMLRequestV
++ _symbolic _____y______y___________pG_____y______y_____11ttmlRequest______09signatureB0tAD_pGSo17OS_dispatch_queueCGG 7Combine10PublishersO7FlatMapV AA12AnyPublisherV 18PodcastsFoundation14TranscriptDataO s5ErrorP AC9ReceiveOnV AA6FutureC AH11TTMLRequestV AH22ShazamSignatureRequestV
++ _symbolic _____y______y___________pG_____y______y______yAHy_____y_ABy_____AD_pG_____y_____AJGGGG_____y_AFy_ABy_____AD_pG_____Sg16signatureRequest_AMSg04ttmlB0tGAMGGACGARy_AGy_AHyAHyAIy_ABySo11SHSignatureCAD_pGALyAUA3_GGGGARy_AzUGGACGG 7Combine10PublishersO6Merge3V AA12AnyPublisherV 18PodcastsFoundation14TranscriptDataO s5ErrorP AC3MapV AC04FlatK0V AH13EmitLifecycleV AcHE011CachedAssetE0V AH0H5ModelV AH0dP5CacheV AH11TTMLRequestV AC07CompactK0V AJ14TimeBombedURLsV AH22ShazamSignatureRequestV
++ _symbolic _____y______y___________pG_____y______y______y______pGSo17OS_dispatch_queueCGAD_pGG 7Combine10PublishersO7FlatMapV AA12AnyPublisherV 10Foundation3URLV s5ErrorP AC14SetFailureTypeV AC9ReceiveOnV AA4JustV 08PodcastsG032WebAuthenticationSessionProtocolP
++ _symbolic _____y______y___________p_G_____y______y______yAHy_____y______ySo11SHSignatureCAD_pG_____y_____ALGGGGAFy______y_AJy_____AD_pGAOSg16signatureRequest______Sg04ttmlC0tGAOGGACGG 7Combine10PublishersO5MergeV s6ResultOAAE9PublisherV 18PodcastsFoundation14TranscriptDataO s5ErrorP AC10CompactMapV AC04FlatL0V AJ13EmitLifecycleV AcJE011CachedAssetE0V AA03AnyE0V AJ0rQ5CacheV AJ22ShazamSignatureRequestV AC0L0V AL14TimeBombedURLsV AJ11TTMLRequestV
++ _symbolic _____y______y___________p_G_____y______y______yAHy_____y______y_____AD_pG_____y_____AKGGGG_____y_AFy_AJy_____AD_pG_____Sg16signatureRequest_ANSg04ttmlB0tGANGGACGG 7Combine10PublishersO5MergeV s6ResultOAAE9PublisherV 18PodcastsFoundation14TranscriptDataO s5ErrorP AC3MapV AC04FlatK0V AJ13EmitLifecycleV AcJE011CachedAssetE0V AA03AnyE0V AJ0H5ModelV AJ0qP5CacheV AJ11TTMLRequestV AC07CompactK0V AL14TimeBombedURLsV AJ22ShazamSignatureRequestV
++ _symbolic _____y______y______pGSo17OS_dispatch_queueCG 7Combine10PublishersO9ReceiveOnV AA4JustV 18PodcastsFoundation32WebAuthenticationSessionProtocolP
++ _symbolic _____y______y______yAAy___________GGSo17OS_dispatch_queueCGSo9SHCatalogCG 7Combine10PublishersO6TryMapV AC9ReceiveOnV 18PodcastsFoundation13EmitLifecycleV So12NSURLSessionC0H0E17DataTaskPublisherV AM0L0V
++ _symbolic _____y______y______yAAy___________GGSo17OS_dispatch_queueCG_____G 7Combine10PublishersO6TryMapV AC9ReceiveOnV 18PodcastsFoundation13EmitLifecycleV So12NSURLSessionC0H0E17DataTaskPublisherV AM0L0V AH15TranscriptModelV
++ _symbolic _____y______y______yACy_____y______ySo11SHSignatureC______pG_____y_____AGGGGGAAy______y_AEy_____AH_pGAKSg16signatureRequest______Sg04ttmlC0tGAKGGSo9SHCatalogCG 7Combine10PublishersO10CompactMapV AC04FlatD0V 18PodcastsFoundation13EmitLifecycleV AcHE20CachedAssetPublisherV AA03AnyL0V s5ErrorP AH0mK5CacheV AH22ShazamSignatureRequestV AC0D0V AH14TranscriptDataO14TimeBombedURLsV AH11TTMLRequestV
++ _symbolic _____y______y______yACy_____y______ySo11SHSignatureC______pG_____y_____AGGGGGAAy______y_AEy_____AH_pGAKSg16signatureRequest______Sg04ttmlC0tGAKGG_____G 7Combine10PublishersO10CompactMapV AC04FlatD0V 18PodcastsFoundation13EmitLifecycleV AcHE20CachedAssetPublisherV AA03AnyL0V s5ErrorP AH0mK5CacheV AH22ShazamSignatureRequestV AC0D0V AH14TranscriptDataO14TimeBombedURLsV AH11TTMLRequestV AX
++ _symbolic _____y______y______yACy_____y______y___________pG_____y_____AFGGGG_____y_AAy_AEy_____AG_pG_____Sg16signatureRequest_AJSg04ttmlB0tGAJGG_____G 7Combine10PublishersO3MapV AC04FlatC0V 18PodcastsFoundation13EmitLifecycleV AcHE20CachedAssetPublisherV AA03AnyK0V AH15TranscriptModelV s5ErrorP AH0lJ5CacheV AH11TTMLRequestV AC07CompactC0V AH0M4DataO14TimeBombedURLsV AH22ShazamSignatureRequestV AZ
++ _symbolic _____y______y______ySS_SSt______pGAAy______y______y_ABy______y_____AD_pG_____y_AGy______y______pGSo17OS_dispatch_queueCGAD_pGGAPGGSSGGAIG 7Combine10PublishersO6TryMapV AC04FlatD0V AA6FutureC s5ErrorP AC12HandleEventsV AC9ReceiveOnV AA12AnyPublisherV 10Foundation3URLV AC14SetFailureTypeV AA4JustV 08PodcastsN032WebAuthenticationSessionProtocolP
++ _symbolic _____y______y______ySi______pGABy_ACy_____AD_pGAAy_ACySSAD_pG_____GGGSbG 7Combine10PublishersO6TryMapV AC04FlatD0V AA6FutureC s5ErrorP 10Foundation10URLRequestV AL3URLV
++ _symbolic _____y______y______ySi______pGACy_____AD_pGGSbG 7Combine10PublishersO6TryMapV AC04FlatD0V AA6FutureC s5ErrorP 10Foundation10URLRequestV
++ _symbolic _____y______y______y_ACy______y______y__________GSo17OS_dispatch_queueCG_____GSo15SHCustomCatalogCGACy_AM_____GG_____G 7Combine10PublishersO3MapV AC0A6LatestV AC03TryC0V AC9ReceiveOnV AA6FutureC 10Foundation3URLV 08PodcastsI029BundleAssetTranscriptProviderV05LocalM5ErrorO AN4DataV AQ0N5ModelV AQ0nR0O
++ _symbolic _____y______y______y_ACy______y______y__________GSo17OS_dispatch_queueCG_____G_____GG_____y______y_ACy_AMSo15SHCustomCatalogCGACy_AM_____GGANGG 7Combine10PublishersO5MergeV AC0C4ManyV AC6TryMapV AC9ReceiveOnV AA6FutureC 10Foundation3URLV 08PodcastsJ029BundleAssetTranscriptProviderV05LocalN5ErrorO AN4DataV AQ0oS0O AC0F0V AC0A6LatestV AQ0O5ModelV
++ _symbolic _____y______y______y_ACy______y______y_____y___________pGGSo17OS_dispatch_queueCG_____GANSgG_____yApH_pGGG 7Combine10PublishersO11AutoconnectC AC9MulticastC AC3MapV AC9ReceiveOnV AA8DeferredV AA6FutureC 18PodcastsFoundation16ServerTranscriptC s5ErrorP AP0M4DataO14TimeBombedURLsV AP24RepublishingValueSubjectC
++ _symbolic _____y______y______y_SaySdG_____G_____y______y______So17OS_dispatch_queueCGSdGGG 7Combine10PublishersO16RemoveDuplicatesV AC11ConcatenateV AC8SequenceV s5NeverO AC3MapV AC9ReceiveOnV So20NSNotificationCenterC10FoundationE9PublisherV
++ _symbolic _____y______y______y__________GSo17OS_dispatch_queueCG_____G 7Combine10PublishersO6TryMapV AC9ReceiveOnV AA6FutureC 10Foundation3URLV 08PodcastsH029BundleAssetTranscriptProviderV05LocalL5ErrorO AJ4DataV
++ _symbolic _____y______y______y___________pGABy_ACy_____AE_pGABy_ACy_____AE_pGAAy______y_ACySdAE_pGSo17OS_dispatch_queueCGytGGGG_____SgG 7Combine10PublishersO6TryMapV AC04FlatD0V AA6FutureC 10Foundation4DataV s5ErrorP AJ10URLRequestV AJ3URLV AC9ReceiveOnV 08PodcastsG021MusicSubscriptionInfoV
++ _symbolic _____y______y______y___________pG_____Sg16signatureRequest______Sg04ttmlB0tGAGG 7Combine10PublishersO10CompactMapV AC0D0V AA12AnyPublisherV 18PodcastsFoundation14TranscriptDataO14TimeBombedURLsV s5ErrorP AJ22ShazamSignatureRequestV AJ11TTMLRequestV
++ _symbolic _____y______y______y___________pG_____Sg16signatureRequest______Sg04ttmlB0tGAJG 7Combine10PublishersO10CompactMapV AC0D0V AA12AnyPublisherV 18PodcastsFoundation14TranscriptDataO14TimeBombedURLsV s5ErrorP AJ22ShazamSignatureRequestV AJ11TTMLRequestV
++ _symbolic _____y______y______y___________pG_____y_AAy______y______pGSo17OS_dispatch_queueCGAE_pGGALG 7Combine10PublishersO9ReceiveOnV AC7FlatMapV AA12AnyPublisherV 10Foundation3URLV s5ErrorP AC14SetFailureTypeV AA4JustV 08PodcastsI032WebAuthenticationSessionProtocolP
++ _symbolic _____y______y______y______yADy_____y______y___________pG_____y_____AGGGGG_____y_AAy_AFy_____AH_pG_____Sg16signatureRequest_AKSg04ttmlB0tGAKGGAPy_ACy_ADyADyAEy_AFySo11SHSignatureCAH_pGAJyASA0_GGGGAPy_AxSGGSo9SHCatalogCGG_____G 7Combine10PublishersO3MapV AC0A6LatestV AC04FlatC0V 18PodcastsFoundation13EmitLifecycleV AcJE20CachedAssetPublisherV AA03AnyL0V AJ15TranscriptModelV s5ErrorP AJ0mK5CacheV AJ11TTMLRequestV AC07CompactC0V AJ0N4DataO14TimeBombedURLsV AJ22ShazamSignatureRequestV A0_
++ _symbolic _____y______y______y______y_ADy______y______y_____y___________pGGSo17OS_dispatch_queueCG_____GAOSgG_____yAqI_pGGGAOG 7Combine10PublishersO10CompactMapV AC11AutoconnectC AC9MulticastC AC0D0V AC9ReceiveOnV AA8DeferredV AA6FutureC 18PodcastsFoundation16ServerTranscriptC s5ErrorP AR0N4DataO14TimeBombedURLsV AR24RepublishingValueSubjectC
++ _symbolic _____y______y______y______y_SaySdG_____GAAy______y______So17OS_dispatch_queueCGSdGGGSdSgG 7Combine10PublishersO3MapV AC16RemoveDuplicatesV AC11ConcatenateV AC8SequenceV s5NeverO AC9ReceiveOnV So20NSNotificationCenterC10FoundationE9PublisherV
++ _symbolic _____y______y______y______y___________pGACy_ADy_____AF_pGACy_ADy_____AF_pGABy_AAy_ADySdAF_pGSo17OS_dispatch_queueCGytGGGG_____SgGANG 7Combine10PublishersO9ReceiveOnV AC6TryMapV AC04FlatF0V AA6FutureC 10Foundation4DataV s5ErrorP AL10URLRequestV AL3URLV 08PodcastsI021MusicSubscriptionInfoV
++ _symbolic _____y______y______y______y___________pG_____y_ABy______y______pGSo17OS_dispatch_queueCGAF_pGGAMGG 7Combine10PublishersO12HandleEventsV AC9ReceiveOnV AC7FlatMapV AA12AnyPublisherV 10Foundation3URLV s5ErrorP AC14SetFailureTypeV AA4JustV 08PodcastsK032WebAuthenticationSessionProtocolP
++ _symbolic _____y______y______y______y______y_AEy______y______y_____y___________pGGSo17OS_dispatch_queueCG_____GAPSgG_____yArJ_pGGGAPGG 7Combine10PublishersO12HandleEventsV AC10CompactMapV AC11AutoconnectC AC9MulticastC AC0F0V AC9ReceiveOnV AA8DeferredV AA6FutureC 18PodcastsFoundation16ServerTranscriptC s5ErrorP AT0P4DataO14TimeBombedURLsV AT24RepublishingValueSubjectC
++ _symbolic _____y______y______y______y______y_SaySdG_____GABy______y______So17OS_dispatch_queueCGSdGGGSdSgG_____yAqGGG 7Combine10PublishersO9MulticastC AC3MapV AC16RemoveDuplicatesV AC11ConcatenateV AC8SequenceV s5NeverO AC9ReceiveOnV So20NSNotificationCenterC10FoundationE9PublisherV AA19CurrentValueSubjectC
++ _symbolic _____y______y______y______y______y___________pG_____y_ACy______y______pGSo17OS_dispatch_queueCGAG_pGGANGGSSG 7Combine10PublishersO6TryMapV AC12HandleEventsV AC9ReceiveOnV AC04FlatD0V AA12AnyPublisherV 10Foundation3URLV s5ErrorP AC14SetFailureTypeV AA4JustV 08PodcastsL032WebAuthenticationSessionProtocolP
++ _symbolic _____y______y______y______y______y______y_SaySdG_____GACy______y______So17OS_dispatch_queueCGSdGGGSdSgG_____yArHGGG 7Combine10PublishersO11AutoconnectC AC9MulticastC AC3MapV AC16RemoveDuplicatesV AC11ConcatenateV AC8SequenceV s5NeverO AC9ReceiveOnV So20NSNotificationCenterC10FoundationE9PublisherV AA19CurrentValueSubjectC
++ _symbolic _____y______y______y______y______y______y______y_SaySdG_____GADy______y______So17OS_dispatch_queueCGSdGGGSdSgG_____yAsIGGGSdG 7Combine10PublishersO10CompactMapV AC11AutoconnectC AC9MulticastC AC0D0V AC16RemoveDuplicatesV AC11ConcatenateV AC8SequenceV s5NeverO AC9ReceiveOnV So20NSNotificationCenterC10FoundationE9PublisherV AA19CurrentValueSubjectC
++ _symbolic _____y______y______y______y______y______y_____y______yAFy_____ySo11SHSignatureC______pGGG_____y_____AKGGGGAKSgG_____yAvL_pGGGAKG 7Combine10PublishersO10CompactMapV AC11AutoconnectC AC9MulticastC AC0D0V AC12HandleEventsV 18PodcastsFoundation13EmitLifecycleV AcNE20CachedAssetPublisherV AA8DeferredV AA03AnyO0V s5ErrorP AN0qN5CacheV AN22ShazamSignatureRequestV AN24RepublishingValueSubjectC
++ _symbolic _____y______y______y______y______y______y_____y______yAFy_____y___________pGGG_____y_____AJGGGGAJSgG_____yAuK_pGGGAJG 7Combine10PublishersO10CompactMapV AC11AutoconnectC AC9MulticastC AC0D0V AC12HandleEventsV 18PodcastsFoundation13EmitLifecycleV AcNE20CachedAssetPublisherV AA8DeferredV AA03AnyO0V AN15TranscriptModelV s5ErrorP AN0qN5CacheV AN11TTMLRequestV AN24RepublishingValueSubjectC
++ _symbolic _____y______y______y______y______y_____y______yAEy_____ySo11SHSignatureC______pGGG_____y_____AJGGGGAJSgG_____yAuK_pGGG 7Combine10PublishersO11AutoconnectC AC9MulticastC AC3MapV AC12HandleEventsV 18PodcastsFoundation13EmitLifecycleV AcLE20CachedAssetPublisherV AA8DeferredV AA03AnyN0V s5ErrorP AL0pM5CacheV AL22ShazamSignatureRequestV AL24RepublishingValueSubjectC
++ _symbolic _____y______y______y______y______y_____y______yAEy_____y___________pGGG_____y_____AIGGGGAISgG_____yAtJ_pGGG 7Combine10PublishersO11AutoconnectC AC9MulticastC AC3MapV AC12HandleEventsV 18PodcastsFoundation13EmitLifecycleV AcLE20CachedAssetPublisherV AA8DeferredV AA03AnyN0V AL15TranscriptModelV s5ErrorP AL0pM5CacheV AL11TTMLRequestV AL24RepublishingValueSubjectC
++ _symbolic _____y______y______y______y_____y______yADy_____ySo11SHSignatureC______pGGG_____y_____AIGGGGAISgG_____yAtJ_pGG 7Combine10PublishersO9MulticastC AC3MapV AC12HandleEventsV 18PodcastsFoundation13EmitLifecycleV AcJE20CachedAssetPublisherV AA8DeferredV AA03AnyM0V s5ErrorP AJ0oL5CacheV AJ22ShazamSignatureRequestV AJ24RepublishingValueSubjectC
++ _symbolic _____y______y______y______y_____y______yADy_____y___________pGGG_____y_____AHGGGGAHSgG_____yAsI_pGG 7Combine10PublishersO9MulticastC AC3MapV AC12HandleEventsV 18PodcastsFoundation13EmitLifecycleV AcJE20CachedAssetPublisherV AA8DeferredV AA03AnyM0V AJ15TranscriptModelV s5ErrorP AJ0oL5CacheV AJ11TTMLRequestV AJ24RepublishingValueSubjectC
++ _symbolic _____y______y______y_____y___________pGGSo17OS_dispatch_queueCG_____G 7Combine10PublishersO3MapV AC9ReceiveOnV AA8DeferredV AA6FutureC 18PodcastsFoundation16ServerTranscriptC s5ErrorP AL0K4DataO14TimeBombedURLsV
++ _symbolic _____y______y______y_____y______yACy_____ySo11SHSignatureC______pGGG_____y_____AHGGGGAHSgG 7Combine10PublishersO3MapV AC12HandleEventsV 18PodcastsFoundation13EmitLifecycleV AcHE20CachedAssetPublisherV AA8DeferredV AA03AnyL0V s5ErrorP AH0nK5CacheV AH22ShazamSignatureRequestV
++ _symbolic _____y______y______y_____y______yACy_____y___________pGGG_____y_____AGGGGGAGSgG 7Combine10PublishersO3MapV AC12HandleEventsV 18PodcastsFoundation13EmitLifecycleV AcHE20CachedAssetPublisherV AA8DeferredV AA03AnyL0V AH15TranscriptModelV s5ErrorP AH0nK5CacheV AH11TTMLRequestV
++ _symbolic _____y______y______y_____y______y_ACyADy___________GGSo17OS_dispatch_queueCGSo9SHCatalogCGGACyADy_AL_____GGG_____G 7Combine10PublishersO3MapV AC0A6LatestV 18PodcastsFoundation13EmitLifecycleV AC03TryC0V AC9ReceiveOnV So12NSURLSessionC0F0E17DataTaskPublisherV AQ0M0V AH15TranscriptModelV AH0pM0O
++ _symbolic _____y______y_____y___________GGSo17OS_dispatch_queueCG 7Combine10PublishersO9ReceiveOnV 18PodcastsFoundation13EmitLifecycleV AC6TryMapV So12NSURLSessionC0F0E17DataTaskPublisherV AM0L0V
++ _symbolic _____y______y_____y___________pGGSo17OS_dispatch_queueCG 7Combine10PublishersO9ReceiveOnV AA8DeferredV AA6FutureC 18PodcastsFoundation16ServerTranscriptC s5ErrorP
++ _symbolic _____y______y_____y______yABy_____ySo11SHSignatureC______pGGG_____y_____AGGGGG 7Combine10PublishersO12HandleEventsV 18PodcastsFoundation13EmitLifecycleV AcFE20CachedAssetPublisherV AA8DeferredV AA03AnyK0V s5ErrorP AF0mJ5CacheV AF22ShazamSignatureRequestV
++ _symbolic _____y______y_____y______yABy_____y___________pGGG_____y_____AFGGGG 7Combine10PublishersO12HandleEventsV 18PodcastsFoundation13EmitLifecycleV AcFE20CachedAssetPublisherV AA8DeferredV AA03AnyK0V AF15TranscriptModelV s5ErrorP AF0mJ5CacheV AF11TTMLRequestV
++ _symbolic _____y______y_____y______yACy______y___________pGGGGG_____y______y______y_____AG_p_GAEySo12NSURLSessionCAG_pGGGG 7Combine10PublishersO7FlatMapV 18PodcastsFoundation13EmitLifecycleV AC12HandleEventsV AA8DeferredV AA6FutureC 0F04DataV s5ErrorP AC6OutputV AC0A6LatestV s6ResultOAAE9PublisherV AO3URLV
++ _symbolic _____y______y_____y______y_AByACy___________GGSo17OS_dispatch_queueCGSo9SHCatalogCGGAByACy_AK_____GGG 7Combine10PublishersO0A6LatestV 18PodcastsFoundation13EmitLifecycleV AC6TryMapV AC9ReceiveOnV So12NSURLSessionC0E0E17DataTaskPublisherV AO0M0V AF15TranscriptModelV
++ _symbolic _____y______y_____y_____ySo11SHSignatureC______pGGG_____y_____AFGG 7Combine10PublishersO18PodcastsFoundationE20CachedAssetPublisherV AA8DeferredV AD13EmitLifecycleV AA03AnyG0V s5ErrorP AD0kF5CacheV AD22ShazamSignatureRequestV
++ _symbolic _____y______y_____y_____y___________pGGG_____y_____AEGG 7Combine10PublishersO18PodcastsFoundationE20CachedAssetPublisherV AA8DeferredV AD13EmitLifecycleV AA03AnyG0V AD15TranscriptModelV s5ErrorP AD0kF5CacheV AD11TTMLRequestV
++ _symbolic _____y______y_x_____y6Output_____Qz7FailureAEQzGG_____yAIGG 7Combine10PublishersO5CatchV AC3MapV s6ResultO AA9PublisherP AA4JustV
++ _symbolic _____y_____yAAyAAyShySSG_____G_____SgGGAFG s15LazyMapSequenceV s0a6FilterC0V 18PodcastsFoundation6AdamIDV s5Int64V
++ _symbolic _____y_____yAAyAAyShySSG_____G_____SgGGSo8NSNumberCGIegr_ s15LazyMapSequenceV s0a6FilterC0V 18PodcastsFoundation6AdamIDV s5Int64V
++ _symbolic _____y_____ySo11SHSignatureC______pGG 18PodcastsFoundation13EmitLifecycleV 7Combine12AnyPublisherV s5ErrorP
++ _symbolic _____y_____y___________GG 18PodcastsFoundation13EmitLifecycleV 7Combine10PublishersO6TryMapV So12NSURLSessionC0B0E17DataTaskPublisherV AK0J0V
++ _symbolic _____y_____y___________pGG 18PodcastsFoundation13EmitLifecycleV 7Combine12AnyPublisherV AA14TranscriptDataO s5ErrorP
++ _symbolic _____y_____y___________pGG 18PodcastsFoundation13EmitLifecycleV 7Combine12AnyPublisherV AA15TranscriptModelV s5ErrorP
++ _symbolic _____y_____y___________pGG 7Combine8DeferredV AA6FutureC 18PodcastsFoundation16ServerTranscriptC s5ErrorP
++ _symbolic _____y_____y___________p_GG 18PodcastsFoundation13EmitLifecycleV s6ResultO7CombineE9PublisherV AA14TranscriptDataO s5ErrorP
++ _symbolic _____y_____y__________yAC_____yACSo11SHSignatureCGG_____yAcGGGG 18PodcastsFoundation14UniquePipelineV AA24CacheAssetProcessingStepV AA22ShazamSignatureRequestV AA0f6SourceH0V AA03AnyfL0V AA0mfE0V
++ _symbolic _____y_____y__________yAC_____yAC_____GG_____yAcFGGG 18PodcastsFoundation14UniquePipelineV AA24CacheAssetProcessingStepV AA11TTMLRequestV AA0f6SourceH0V AA03AnyfJ0V AA15TranscriptModelV AA0kfE0V
++ _symbolic _____y_____y______yAAy_____ySo11SHSignatureC______pGGG_____y_____AFGGG 18PodcastsFoundation13EmitLifecycleV 7Combine10PublishersOAAE20CachedAssetPublisherV AD8DeferredV AD03AnyI0V s5ErrorP AA0kH5CacheV AA22ShazamSignatureRequestV
++ _symbolic _____y_____y______yAAy_____y___________pGGG_____y_____AEGGG 18PodcastsFoundation13EmitLifecycleV 7Combine10PublishersOAAE20CachedAssetPublisherV AD8DeferredV AD03AnyI0V AA15TranscriptModelV s5ErrorP AA0kH5CacheV AA11TTMLRequestV
++ _symbolic _____y_____y______yABy______y___________pGGGGG 18PodcastsFoundation13EmitLifecycleV 7Combine10PublishersO12HandleEventsV AD8DeferredV AD6FutureC 0B04DataV s5ErrorP
++ _symbolic _____y_____y______ySo11SHSignatureC______pG_____y_____AEGGG 18PodcastsFoundation13EmitLifecycleV 7Combine10PublishersOAAE20CachedAssetPublisherV AD03AnyI0V s5ErrorP AA0jH5CacheV AA22ShazamSignatureRequestV
++ _symbolic _____y_____y______y_AAyABy___________GGSo17OS_dispatch_queueCGSo9SHCatalogCGG 18PodcastsFoundation13EmitLifecycleV 7Combine10PublishersO6TryMapV AF9ReceiveOnV So12NSURLSessionC0B0E17DataTaskPublisherV AM0L0V
++ _symbolic _____y_____y______y_AAyABy___________GGSo17OS_dispatch_queueCG_____GG 18PodcastsFoundation13EmitLifecycleV 7Combine10PublishersO6TryMapV AF9ReceiveOnV So12NSURLSessionC0B0E17DataTaskPublisherV AM0L0V AA15TranscriptModelV
++ _symbolic _____y_____y______y_AAy_____y______yADy______y___________pGGGGG_____y______y______y_____AH_p_GAFySo12NSURLSessionCAH_pGGGG5Asset_____QzGG 18PodcastsFoundation13EmitLifecycleV 7Combine10PublishersO6TryMapV AF04FlatH0V AF12HandleEventsV AD8DeferredV AD6FutureC 0B04DataV s5ErrorP AF6OutputV AF0E6LatestV s6ResultOADE9PublisherV AQ3URLV AA22FileBasedAssetLocationP
++ _symbolic _____y_____y______y_AAy_____y______y_AAyADy___________GGSo17OS_dispatch_queueCGSo9SHCatalogCGGAAyADy_AL_____GGG_____GG 18PodcastsFoundation13EmitLifecycleV 7Combine10PublishersO3MapV AF0E6LatestV AF03TryG0V AF9ReceiveOnV So12NSURLSessionC0B0E17DataTaskPublisherV AQ0M0V AA15TranscriptModelV AA0pM0O
++ _symbolic _____y_____y______y___________pGGG 7Combine8DeferredV AA10PublishersO12HandleEventsV AA6FutureC 10Foundation4DataV s5ErrorP
++ _symbolic _____y_____y______y___________pG_____y_____ADGGG 18PodcastsFoundation13EmitLifecycleV 7Combine10PublishersOAAE20CachedAssetPublisherV AD03AnyI0V AA15TranscriptModelV s5ErrorP AA0jH5CacheV AA11TTMLRequestV
++ _symbolic _____y_____y_____ySo11SHSignatureC______pGGG 7Combine8DeferredV 18PodcastsFoundation13EmitLifecycleV AA12AnyPublisherV s5ErrorP
++ _symbolic _____y_____y_____y___________pGGG 7Combine8DeferredV 18PodcastsFoundation13EmitLifecycleV AA12AnyPublisherV AD15TranscriptModelV s5ErrorP
++ _symbolic _____yq_______pGxYbc 7Combine12AnyPublisherV s5ErrorP
++ _symbolic _____z_Xx 10Foundation10URLRequestV
++ _symbolic q_SgxYbc
++ _symbolic yq__xtYbc
++ _symbolic yxYbKc
+- +[NMTTopLevelFetchRequest fetchRequest]
+- -[MTPodcast(Core) resetGoDark]
+- GCC_except_table131
+- _OBJC_CLASS_$_AMSPurchaseTask
+- _OBJC_CLASS_$_NMTTopLevelFetchRequest
+- _OBJC_METACLASS_$_NMTTopLevelFetchRequest
+- __CATEGORY__TtC18PodcastsFoundation17StorePurchaseTask_$_PodcastsFoundation
+- __DATA__TtCC18PodcastsFoundation10SearchTrieP33_4B0CD8136CC5EEB3BCF9BC8BD56C870C8TrieNode
+- __IVARS__TtCC18PodcastsFoundation10SearchTrieP33_4B0CD8136CC5EEB3BCF9BC8BD56C870C8TrieNode
+- __METACLASS_DATA__TtCC18PodcastsFoundation10SearchTrieP33_4B0CD8136CC5EEB3BCF9BC8BD56C870C8TrieNode
+- __OBJC_$_CLASS_METHODS_NMTTopLevelFetchRequest
+- __OBJC_$_CLASS_METHODS_NSString(MTAdditions|IMAdditions|IMJSONSerializableValueProviding|PodcastsFoundation)
+- __OBJC_$_CLASS_METHODS__TtC18PodcastsFoundation18SyncKeysRepository(PodcastsFoundation|PodcastsFoundation1|PodcastsFoundation2)
+- __OBJC_$_INSTANCE_METHODS_NSString(MTAdditions|IMAdditions|IMJSONSerializableValueProviding|PodcastsFoundation)
+- __OBJC_$_INSTANCE_METHODS__TtC18PodcastsFoundation17StorePurchaseTask(PodcastsFoundation)
+- __OBJC_$_INSTANCE_METHODS__TtC18PodcastsFoundation18SyncKeysRepository(PodcastsFoundation|PodcastsFoundation1|PodcastsFoundation2)
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_AMSPurchaseDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_AMSPurchaseDelegate
+- __OBJC_$_PROTOCOL_REFS_AMSPurchaseDelegate
+- __OBJC_CLASS_PROTOCOLS_$__TtC18PodcastsFoundation17StorePurchaseTask(PodcastsFoundation)
+- __OBJC_CLASS_RO_$_NMTTopLevelFetchRequest
+- __OBJC_LABEL_PROTOCOL_$_AMSPurchaseDelegate
+- __OBJC_METACLASS_RO_$_NMTTopLevelFetchRequest
+- __OBJC_PROTOCOL_$_AMSPurchaseDelegate
+- __PROTOCOLS__TtC18PodcastsFoundation20ServerPodcastStation.29
+- ___block_literal_global.273
+- ___block_literal_global.350
+- ___block_literal_global.404
+- ___block_literal_global.430
+- ___block_literal_global.447
+- ___block_literal_global.600
+- ___block_literal_global.603
+- ___block_literal_global.605
+- ___block_literal_global.608
+- ___block_literal_global.610
+- ___swift_memcpy104_8
+- ___swift_memcpy66_8
+- ___swift_memcpy75_8
+- __unnamed_array_storage.457
+- _associated conformance 18PodcastsFoundation25WidgetsSystemFeatureFlags33_E08BA5855EC2B9F3868987DB59B22D2ELLOSHAASQ
+- _associated conformance 18PodcastsFoundation6AdamIdV10CodingKeys33_36060EA60FB7A446F5E26E7FBCA70821LLOSHAASQ
+- _associated conformance 18PodcastsFoundation6AdamIdV10CodingKeys33_36060EA60FB7A446F5E26E7FBCA70821LLOs0E3KeyAAs23CustomStringConvertible
+- _associated conformance 18PodcastsFoundation6AdamIdV10CodingKeys33_36060EA60FB7A446F5E26E7FBCA70821LLOs0E3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 18PodcastsFoundation6AdamIdV5ErrorOSHAASQ
+- _associated conformance 18PodcastsFoundation6AdamIdVSHAASQ
+- _block_copy_helper.100
+- _block_copy_helper.106
+- _block_copy_helper.109
+- _block_copy_helper.134
+- _block_copy_helper.59
+- _block_copy_helper.71
+- _block_copy_helper.74
+- _block_copy_helper.77
+- _block_copy_helper.80
+- _block_copy_helper.81
+- _block_copy_helper.86
+- _block_copy_helper.87
+- _block_copy_helper.9
+- _block_copy_helper.92
+- _block_copy_helper.97
+- _block_descriptor.102
+- _block_descriptor.108
+- _block_descriptor.11
+- _block_descriptor.111
+- _block_descriptor.136
+- _block_descriptor.61
+- _block_descriptor.73
+- _block_descriptor.76
+- _block_descriptor.79
+- _block_descriptor.82
+- _block_descriptor.83
+- _block_descriptor.88
+- _block_descriptor.89
+- _block_descriptor.94
+- _block_descriptor.99
+- _block_destroy_helper.10
+- _block_destroy_helper.101
+- _block_destroy_helper.107
+- _block_destroy_helper.110
+- _block_destroy_helper.135
+- _block_destroy_helper.60
+- _block_destroy_helper.72
+- _block_destroy_helper.75
+- _block_destroy_helper.78
+- _block_destroy_helper.81
+- _block_destroy_helper.82
+- _block_destroy_helper.87
+- _block_destroy_helper.88
+- _block_destroy_helper.93
+- _block_destroy_helper.98
+- _get_witness_table 18PodcastsFoundation13AssetMetadataRz0C3KeyQy_RszAA0C6SourceR_0C4TypeQy_0C0Rtzr0_l7Combine8DeferredVyAA13EmitLifecycleVy09PublisherG0Qy_GGAJ0L0HPyHC.3
+- _get_witness_table 18PodcastsFoundation13AssetMetadataRzls6ResultO7CombineE9PublisherVy0C0Qzs5Error_p_GAeFHPyHC.3
+- _get_witness_table 18PodcastsFoundation20NetworkAssetLocationRzlAA13EmitLifecycleVy7Combine10PublishersO6TryMapVy_AG04FlatK0Vy_ADyAE8DeferredVyAE6FutureCy0B04DataVs5Error_pGGGAG6OutputVy_AG0H6LatestVy_s6ResultOAEE9PublisherVyAP3URLVsAS_p_GAOySo12NSURLSessionCsAS_pGGGG0D0QzGGAEA1_HPyHC.15
+- _get_witness_table 18PodcastsFoundation22FileBasedAssetLocationRzAA05KeyedeF0Rz8MetadataQy_RszAA0E14ProcessingStepR_AA0E5CacheR0_0E0Qy0_AhA0eH0PRtz0F0Qy0_AERSr1_lAA13EmitLifecycleVy7Combine10PublishersOAAE06CachedE9PublisherVy_0Q4TypeQy_q0_GGAQ0Q0HPyHC.4
+- _get_witness_table STRzlSay10Foundation3URLVGSTHPyHC.8
+- _objc_msgSend$feedChangedDate
+- _objectdestroy.28Tm
+- _objectdestroy.43Tm
+- _objectdestroy.63Tm
+- _objectdestroy.65Tm
+- _objectdestroy.71Tm
+- _objectdestroy.73Tm
+- _objectdestroy.81Tm
+- _os_feature_enabled_fetch_expected_feeds_from_notification
+- _os_feature_enabled_maritime
+- _os_feature_enabled_new_episode_count
+- _os_feature_enabled_relative_pub_dates
+- _os_feature_enabled_state_restoration
+- _os_feature_enabled_store_both_free_and_paid_urls
+- _os_feature_enabled_sync_transactions_coalescing
+- _os_feature_enabled_use_first_time_available
+- _swift_initEnumMetadataSingleCase
+- _symbolic 5IndexSlQz
+- _symbolic 7ElementSTQzqd__Iegn_Iegng_
+- _symbolic SDySJ_____G 18PodcastsFoundation10SearchTrieC0D4Node33_4B0CD8136CC5EEB3BCF9BC8BD56C870CLLC
+- _symbolic SDySSypGSg
+- _symbolic SDy__________G 18PodcastsFoundation6AdamIdV AA12PodcastStateO
+- _symbolic SDy__________G 18PodcastsFoundation6AdamIdV AA19PodcastStateMachineC
+- _symbolic SJ
+- _symbolic SaySsG
+- _symbolic Say_____G 10Foundation3URLV
+- _symbolic Say_____G3ids_t 18PodcastsFoundation6AdamIdV
+- _symbolic Sayqd__GIegg_
+- _symbolic Sayqd__Gz_x_qd__SlRzr__lXX
+- _symbolic Sb9isPlaying_t
+- _symbolic Sd13timeRemaining_t
+- _symbolic ShySSG_Say_____Gt 10Foundation3URLV
+- _symbolic Shy_____G 18PodcastsFoundation6AdamIdV
+- _symbolic So15AMSDialogResultCSgSo7NSErrorCSgIeyByy_
+- _symbolic So15AMSDialogResultCSg______pSgIeggg_ s5ErrorP
+- _symbolic So19AMSEngagementResultCSgSo7NSErrorCSgIeyByy_
+- _symbolic So19AMSEngagementResultCSg______pSgIeggg_ s5ErrorP
+- _symbolic So21AMSAuthenticateResultCSgSo7NSErrorCSgIeyByy_
+- _symbolic So21AMSAuthenticateResultCSg______pSgIeggg_ s5ErrorP
+- _symbolic _____ 18PodcastsFoundation0A12MediaLibraryC7RequestV0E4TypeO
+- _symbolic _____ 18PodcastsFoundation10SearchTrieC0D4Node33_4B0CD8136CC5EEB3BCF9BC8BD56C870CLLC
+- _symbolic _____ 18PodcastsFoundation25WidgetsSystemFeatureFlags33_E08BA5855EC2B9F3868987DB59B22D2ELLO
+- _symbolic _____ 18PodcastsFoundation27UnownedImageIssueIdentifierV
+- _symbolic _____ 18PodcastsFoundation6AdamIdV
+- _symbolic _____ 18PodcastsFoundation6AdamIdV10CodingKeys33_36060EA60FB7A446F5E26E7FBCA70821LLO
+- _symbolic _____ 18PodcastsFoundation6AdamIdV5ErrorO
+- _symbolic _____ SS5IndexV
+- _symbolic _____2id_t 18PodcastsFoundation6AdamIdV
+- _symbolic _____9playState_t 18PodcastsFoundation16EpisodePlayStateO
+- _symbolic _____Sg 18PodcastsFoundation6AdamIdV
+- _symbolic _____So12NSURLSessionC_____y_____y_____y___________pGGGIegngr_ 10Foundation3URLV 08PodcastsA013EmitLifecycleV 7Combine8DeferredV AG6FutureC AA4DataV s5ErrorP
+- _symbolic ___________pIegnzo_ 18PodcastsFoundation21MusicSubscriptionInfoV s5ErrorP
+- _symbolic _____ySJ_____G s18_DictionaryStorageC 18PodcastsFoundation10SearchTrieC0F4Node33_4B0CD8136CC5EEB3BCF9BC8BD56C870CLLC
+- _symbolic _____ySay_____GG 7Combine4JustV 10Foundation3URLV
+- _symbolic _____ySay_____G______p_G s6ResultO7CombineE9PublisherV 10Foundation3URLV s5ErrorP
+- _symbolic _____ySsG s23_ContiguousArrayStorageC
+- _symbolic _____y_Say_____G_____G 7Combine10PublishersO8SequenceV 10Foundation3URLV s5NeverO
+- _symbolic _____y_____G s11_SetStorageC 18PodcastsFoundation6AdamIdV
+- _symbolic _____y_____G s22KeyedDecodingContainerV 18PodcastsFoundation6AdamIdV10CodingKeys33_36060EA60FB7A446F5E26E7FBCA70821LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 18PodcastsFoundation6AdamIdV10CodingKeys33_36060EA60FB7A446F5E26E7FBCA70821LLO
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 18PodcastsFoundation6AdamIdV
+- _symbolic _____y_____G s23_ContiguousArrayStorageC So20MTCacheDeleteUrgencyV
+- _symbolic _____y__________G s18_DictionaryStorageC 18PodcastsFoundation6AdamIdV AC12PodcastStateO
+- _symbolic _____y__________G s18_DictionaryStorageC 18PodcastsFoundation6AdamIdV AC19PodcastStateMachineC
+- _symbolic _____y______y______y_AAy______y_ABy______y______y_SaySSG_____G______pG_____y______ySDy_____ypGAJ_pGSo17OS_dispatch_queueCGGGShySSGG_____ySay_____GAJ_p_GG_____y_ALy______yAYGARGAZGGAZG 7Combine10PublishersO3MapV AC04FlatC0V AC3ZipV AC7CollectV AC14SetFailureTypeV AC8SequenceV s5NeverO s5ErrorP AC9ReceiveOnV AA12AnyPublisherV s0O8HashableV s6ResultOAAE0P0V 10Foundation3URLV AC03TryC0V AA4JustV
+- _symbolic _____y______y______y_SaySSG_____G______pG_____y______ySDy_____ypGAG_pGSo17OS_dispatch_queueCGG 7Combine10PublishersO7FlatMapV AC14SetFailureTypeV AC8SequenceV s5NeverO s5ErrorP AC9ReceiveOnV AA12AnyPublisherV s0M8HashableV
+- _symbolic _____y______y______y_Say_____G_____G______pG_____y_AAy______y_AJy______y_AAy_ABy_ACy_SaySSGAFGAH_pG_____y______ySDy_____ypGAH_pGSo17OS_dispatch_queueCGGGShySSGG_____yAeH_p_GG_____y_APy______yADGAVGAEGGAEGG 7Combine10PublishersO7FlatMapV AC14SetFailureTypeV AC8SequenceV 10Foundation3URLV s5NeverO s5ErrorP AC0D0V AC3ZipV AC7CollectV AC9ReceiveOnV AA12AnyPublisherV s0Q8HashableV s6ResultOAAE0R0V AC03TryD0V AA4JustV
+- _symbolic _____y______y______y_____GSo17OS_dispatch_queueCGSayADGG 7Combine10PublishersO6TryMapV AC9ReceiveOnV AA4JustV 10Foundation3URLV
+- _symbolic _____y______y______y___________pGABy_ACy_____AE_pGABy_ACy_____AE_pGAAy______y_ACySdAE_pGSo17OS_dispatch_queueCGytGGGGytG 7Combine10PublishersO6TryMapV AC04FlatD0V AA6FutureC 10Foundation4DataV s5ErrorP AJ10URLRequestV AJ3URLV AC9ReceiveOnV
+- _symbolic _____y______y______y______y_AAy______y______y_SaySSG_____G______pG_____y______ySDy_____ypGAJ_pGSo17OS_dispatch_queueCGGGShySSGG_____ySay_____GAJ_p_GG_____y_ALy______yAYGARGAZGG 7Combine10PublishersO7FlatMapV AC3ZipV AC0D0V AC7CollectV AC14SetFailureTypeV AC8SequenceV s5NeverO s5ErrorP AC9ReceiveOnV AA12AnyPublisherV s0O8HashableV s6ResultOAAE0P0V 10Foundation3URLV AC03TryD0V AA4JustV
+- _symbolic _____y______y______y______y_SaySSG_____G______pG_____y______ySDy_____ypGAH_pGSo17OS_dispatch_queueCGGG 7Combine10PublishersO7CollectV AC7FlatMapV AC14SetFailureTypeV AC8SequenceV s5NeverO s5ErrorP AC9ReceiveOnV AA12AnyPublisherV s0N8HashableV
+- _symbolic _____y______y______y______y_Say_____G_____G______pGAAy_ABy______y_AAy______y_ABy_ACy_ADy_SaySSGAGGAI_pG_____y______ySDy_____ypGAI_pGSo17OS_dispatch_queueCGGGShySSGG_____yAfI_p_GG_____y_APy______yAEGAVGAFGGAFGG_____G 7Combine10PublishersO3MapV AC04FlatC0V AC14SetFailureTypeV AC8SequenceV 10Foundation3URLV s5NeverO s5ErrorP AC3ZipV AC7CollectV AC9ReceiveOnV AA12AnyPublisherV s0Q8HashableV s6ResultOAAE0R0V AC03TryC0V AA4JustV 08PodcastsI019DownloadConsistencyC5IssueO
+- _symbolic _____y______y______y______y___________pGACy_ADy_____AF_pGACy_ADy_____AF_pGABy_AAy_ADySdAF_pGSo17OS_dispatch_queueCGytGGGGytGANG 7Combine10PublishersO9ReceiveOnV AC6TryMapV AC04FlatF0V AA6FutureC 10Foundation4DataV s5ErrorP AL10URLRequestV AL3URLV
+- _symbolic _____y______y______y______y______y_SaySSG_____G______pG_____y______ySDy_____ypGAI_pGSo17OS_dispatch_queueCGGGShySSGG 7Combine10PublishersO3MapV AC7CollectV AC04FlatC0V AC14SetFailureTypeV AC8SequenceV s5NeverO s5ErrorP AC9ReceiveOnV AA12AnyPublisherV s0N8HashableV
+- _symbolic _____y______y______y______y______y______y_SaySSG_____G______pG_____y______ySDy_____ypGAJ_pGSo17OS_dispatch_queueCGGGShySSGG_____ySay_____GAJ_p_GG 7Combine10PublishersO3ZipV AC3MapV AC7CollectV AC04FlatD0V AC14SetFailureTypeV AC8SequenceV s5NeverO s5ErrorP AC9ReceiveOnV AA12AnyPublisherV s0O8HashableV s6ResultOAAE0P0V 10Foundation3URLV
+- _symbolic _____y______y_____y_____y___________pGGG_____y______y______y_____AF_p_GADySo12NSURLSessionCAF_pGGGG 7Combine10PublishersO7FlatMapV 18PodcastsFoundation13EmitLifecycleV AA8DeferredV AA6FutureC 0F04DataV s5ErrorP AC6OutputV AC0A6LatestV s6ResultOAAE9PublisherV AM3URLV
+- _symbolic _____y_____yAAyAAyShySSG_____G_____SgGGAFG s15LazyMapSequenceV s0a6FilterC0V 18PodcastsFoundation6AdamIdV s5Int64V
+- _symbolic _____y_____yAAyAAyShySSG_____G_____SgGGSo8NSNumberCGIegr_ s15LazyMapSequenceV s0a6FilterC0V 18PodcastsFoundation6AdamIdV s5Int64V
+- _symbolic _____y_____y___________pGG 7Combine8DeferredV AA6FutureC 10Foundation4DataV s5ErrorP
+- _symbolic _____y_____y______y_AAy_____y_____y___________pGGG_____y______y______y_____AG_p_GAEySo12NSURLSessionCAG_pGGGG5Asset_____QzGG 18PodcastsFoundation13EmitLifecycleV 7Combine10PublishersO6TryMapV AF04FlatH0V AD8DeferredV AD6FutureC 0B04DataV s5ErrorP AF6OutputV AF0E6LatestV s6ResultOADE9PublisherV AO3URLV AA22FileBasedAssetLocationP
+- _symbolic _____y_____y_____y___________pGGG 18PodcastsFoundation13EmitLifecycleV 7Combine8DeferredV AD6FutureC 0B04DataV s5ErrorP
+- _symbolic _____yq_______pGxc 7Combine12AnyPublisherV s5ErrorP
+CStrings:
++ "\x11\x1d$\x12\x12+"
++ " because it is outside the representable range"
++ " value cannot be converted to "
++ "%{private,mask.hash}s Could not form cancellation endpoint with oauth id."
++ "%{private,mask.hash}s Could not form verification endpoint with oauth id."
++ "%{private,mask.hash}s Could not get commerce OAuth verification endpoint from bag with error: %@"
++ "%{private,mask.hash}s Could not get commerce OAuth verification endpoint from bag."
++ "%{private,mask.hash}s Got commerce cancellation endpoint from the bag and replaced oAuthAdamId: %s"
++ "%{private,mask.hash}s Got commerce verification endpoint from the bag and appended short-lived token: %s"
++ "%{private,mask.hash}s: Acquired OAuth commerce cancellation endpoint from bag: %s."
++ "%{private,mask.hash}s: Acquired OAuth commerce verification endpoint from bag: %s."
++ "%{private,mask.hash}s: Authenticating OAuth from PurchaseController."
++ "%{private,mask.hash}s: Cancellation successful."
++ "%{private,mask.hash}s: Cancelling OAuth subscription from PurchaseController."
++ "%{private,mask.hash}s: Cancelling user's OAuth subscription."
++ "%{private,mask.hash}s: Could not prepare URL Request with error: %@."
++ "%{private,mask.hash}s: Created Web Authentication Session."
++ "%{private,mask.hash}s: Created and prepared request for commerce cancellation endpoint."
++ "%{private,mask.hash}s: Created and prepared request for commerce verification endpoint."
++ "%{private,mask.hash}s: Creating and preparing request for commerce cancellation endpoint."
++ "%{private,mask.hash}s: Creating and preparing request for commerce verification endpoint."
++ "%{private,mask.hash}s: Error - Unable to cancel user's OAuth subscription due to bad client request"
++ "%{private,mask.hash}s: Error - Unable to cancel user's OAuth subscription due to server error."
++ "%{private,mask.hash}s: Error - Unable to determine user's subscription status due to bad client request"
++ "%{private,mask.hash}s: Error - Unable to determine user's subscription status due to server error."
++ "%{private,mask.hash}s: Error - Unable to determine user's subscription status due to unknown error with status code %ld"
++ "%{private,mask.hash}s: Error - Unable to to cancel user's OAuth subscription due to unknown error with status code %ld"
++ "%{private,mask.hash}s: Error - no status code in response from commerce cancellation endpoint."
++ "%{private,mask.hash}s: Error - no status code in response from commerce verification endpoint."
++ "%{private,mask.hash}s: Error performing data task to verification cancellation with error and no status code: %@"
++ "%{private,mask.hash}s: Error performing data task to verification endpoint with error and no status code: %@"
++ "%{private,mask.hash}s: Getting commerce cancellation url from bag."
++ "%{private,mask.hash}s: Getting commerce verification url from bag. Starting UI spinner."
++ "%{private,mask.hash}s: Initializing an OAuth session in PurchaseController"
++ "%{private,mask.hash}s: Missing short-lived token from response."
++ "%{private,mask.hash}s: No request available after attempting to prepare request."
++ "%{private,mask.hash}s: OAuth Authentication failed with error: %@"
++ "%{private,mask.hash}s: Performed data task to commerce cancellation endpoint and received status code: %ld"
++ "%{private,mask.hash}s: Performed data task to commerce verification endpoint and received status code: %ld"
++ "%{private,mask.hash}s: Performing request to commerce cancellation endpoint."
++ "%{private,mask.hash}s: Performing request to commerce verification endpoint."
++ "%{private,mask.hash}s: Redirect URL acquired: %s"
++ "%{private,mask.hash}s: Resume OAuth called but there is no web authentication session to resume in OAuthSession"
++ "%{private,mask.hash}s: Retrieving short lived token from provider."
++ "%{private,mask.hash}s: Starting OAuth flow for oauth adamId: %{private,mask.hash}s"
++ "%{private,mask.hash}s: State UUIDs do not match."
++ "%{private,mask.hash}s: Unable to start OAuth: Missing WebAuthenticationSessionProvider."
++ "%{private,mask.hash}s: Unable to start OAuth: Missing hudViewHandler."
++ "%{private,mask.hash}s: User is not subscribed."
++ "%{private,mask.hash}s: User is subscribed."
++ "%{private,mask.hash}s: Validating redirectUrl parameters: %s."
++ "%{private,mask.hash}s: oAuthAdamId's do not match."
++ "%{private,mask.hash}s: short-lived token acquired: %s."
++ "@\"<PFTTMLParserDelegate>\""
++ "@\"NSURL\"24@0:8^@16"
++ "@\"NSXMLParser\""
++ "@36@0:8@16@24i32"
++ "@36@0:8q16@24B32"
++ "@40@0:8B16B20Q24@32"
++ "Adam ID reprentation must be non-empty"
++ "Adam ID representation must be a whole number: \""
++ "Adam ID representation must be non-zero"
++ "AdamID(rawValue: "
++ "Alignments"
++ "Asset at URL was previously streamed. Overwriting with new data"
++ "Attempting signature unarchiving"
++ "Attempting to start streaming to a cache location that's already actively streaming. Previously streaming to %s"
++ "Began parsing TTML file"
++ "Begin Interval"
++ "Calling complete on a stream that has already completed. This is not an error, but is unexpected."
++ "Calling media collection with request: %s"
++ "Can't construct Array with count < 0"
++ "Canceled existing OAuth session before starting a new one."
++ "Cannot decode contents of cached file for key %s, url: %s, error: %@"
++ "CarPlayStoreShowPage"
++ "Continuous playback disabled. Returning nil settings"
++ "Couldn't fetch episodes for Up Next Intent: %s."
++ "Creating request from context: %s"
++ "Creating update for MTPodcast %s for %{private,mask.hash}s - %{private}s"
++ "Delta Delete Episodes"
++ "Delta Episodes Request"
++ "Delta Finalize Ingestion"
++ "Delta Full Failure"
++ "Delta Ingest Episodes"
++ "Delta Ingest Page"
++ "Delta Initial Sync Request Context Perform"
++ "Delta Parse Episodes"
++ "Delta Parse Episodes Context Perform"
++ "Delta Partial Success"
++ "Delta Partial Success Context Perform"
++ "Delta Post Process Hook"
++ "Delta Pre Process Hook"
++ "Delta Prepare for Initial Sync Request"
++ "Delta Process Episodes"
++ "Delta Show Ingestion"
++ "Delta Show Request"
++ "DisableTapToRadarInTranscripts"
++ "Dismissing the spinner and displaying an error alert."
++ "Division by zero"
++ "Division results in an overflow"
++ "EPISODE_FILTER_EMPTY_SUBSCRIBER"
++ "EPISODE_FILTER_TITLE_SUBSCRIBER"
++ "EpisodeHeroUIKitButtonArea"
++ "EpisodeHeroUIKitTextArea"
++ "Error getting OAuth cancellation URL from bag with error: %@"
++ "Error getting OAuth cancellation URL from bag."
++ "Error parsing TTML: %@"
++ "Error resolving user from home identifier %{public}s - %{public}s"
++ "Error resolving user. UserIDString missing. %{public}s"
++ "Error validating TTML: %@"
++ "FAILURE"
++ "Failed to load signature into catalog: %s"
++ "Failed to purchase because there is no UI delegate, buyParams: %@"
++ "FetchShazamSignature"
++ "FetchTTMLFile"
++ "Fetching initial item %s"
++ "Finished prefetching for %s: %s"
++ "ForegroundNetworkFetch"
++ "Found unplayed episodes for this serial show."
++ "HomeTab"
++ "Index out of range"
++ "Insufficient space allocated to copy string contents"
++ "KCU Result: %s"
++ "KCUFileDownload"
++ "KCUShazamSignatureFile"
++ "KCUTTMLFile"
++ "KCUTranscriptData"
++ "ListenNow"
++ "Local library request duration: %fs"
++ "LocallyFulfillTranscriptRequest"
++ "Missing information to generate a new list settings for intent. Returning nil."
++ "ModernPlayback"
++ "Negative value is not representable"
++ "No Music Subscription Information in memory."
++ "No music subscription information fetched. Not saving in memory."
++ "Not enough bits to represent the passed value"
++ "OAUTH_UNKNOWN_ERROR"
++ "OAUTH_USER_NOT_SUBSCRIBED_DESCRIPTION"
++ "OAUTH_USER_NOT_SUBSCRIBED_TITLE"
++ "OAuth cancellation successful: %{bool}d"
++ "OAuthSession Authentication completed with subscribed: %{bool}d"
++ "OAuthSession Authentication failed with error: %@"
++ "PFMediaStreamedAssetCache"
++ "PFStreamedAssetCache"
++ "PFTTMLParser"
++ "PFTTMLParserDelegate"
++ "PFTTMLTypes"
++ "PML Total request duration: %fs"
++ "ParseKCUSignature"
++ "ParseKCUTTML"
++ "PodcastsFoundation.MediaStreamedAssetCache"
++ "PodcastsFoundation.ServerTranscript"
++ "PodcastsFoundation/LocalLibraryProvider.swift"
++ "PodcastsFoundation/SiriSidepack.swift"
++ "PodcsatsSyncQFA2024"
++ "Preferring keyed archiver object."
++ "Range requires lowerBound <= upperBound"
++ "ReadOnlyModeInDeviceWithRecentlyUnfollows"
++ "Received error when fetching from MAPI: %s"
++ "Received reply from KCU %s"
++ "RecentlySearched"
++ "RedObservatoryMacOS"
++ "RedObservatoryVisionOS"
++ "RemotelyFulfillTranscriptRequest"
++ "RemoveCleanEpisodeTitle"
++ "RemoveMTImageStore"
++ "Resume OAuthSession called but there is no OAuthSession to resume."
++ "RewindOnInterruption"
++ "SUCCESS"
++ "ShazamSignatures"
++ "Show is serial. Generating serial list settings."
++ "SpeakerIDAsName"
++ "Spinner is not active."
++ "Stations, channels, and transcripts are unsupported request types for RecommendationModuleContentRequest"
++ "Stations, channels, and transcripts are unsupported request types for RecommendationModulesRequest"
++ "StorageThresholdTip"
++ "StreamedMedia"
++ "Successfully finished parsing TTML"
++ "Swift/Array.swift"
++ "Swift/ContiguousArrayBuffer.swift"
++ "Swift/IntegerTypes.swift"
++ "Swift/Integers.swift"
++ "Swift/Range.swift"
++ "Swift/StringTesting.swift"
++ "Swift/StringUTF8View.swift"
++ "Swift/UnsafeBufferPointer.swift"
++ "Swift/UnsafePointer.swift"
++ "Swift/UnsafeRawBufferPointer.swift"
++ "Swift/UnsafeRawPointer.swift"
++ "T@\"<PFTTMLParserDelegate>\",R,W,N,V_delegate"
++ "T@\"AMSProcessInfo\",?,R,C,N"
++ "T@\"NSDictionary\",N,V_currentElementAttributes"
++ "T@\"NSString\",&,N,V_entitledTranscriptIdentifier"
++ "T@\"NSString\",&,N,V_entitledTranscriptProvider"
++ "T@\"NSString\",&,N,V_entitledTranscriptSnippet"
++ "T@\"NSString\",&,N,V_freeTranscriptIdentifier"
++ "T@\"NSString\",&,N,V_freeTranscriptProvider"
++ "T@\"NSString\",&,N,V_freeTranscriptSnippet"
++ "T@\"NSString\",?,R,C"
++ "T@\"NSXMLParser\",&,N,V_parser"
++ "TB,N,R,VuserAllowsPersonalization"
++ "TB,N,R,VuserIsManagedAccount"
++ "TB,N,R,VuserUnder13YearsOld"
++ "TB,R,GisObserving"
++ "TTML"
++ "There already exists an OAuthSession. This should never happen. Cancelling existing session."
++ "This is the entire result"
++ "Ti,N,R"
++ "Ti,N,R,Vpurgeability"
++ "UI"
++ "Unable to cancel OAuth subscription with error: %@"
++ "Unable to resolve DSID: %{public}s"
++ "Unable to unwrap self in OAuth promise completion!."
++ "Unable to unwrap self in OAuth promise completion."
++ "Unable to unwrap self in cancelSession completion in OAuthSession."
++ "Unexpectedly found nil while unwrapping an Optional value"
++ "UnsafeMutableBufferPointer with negative count"
++ "UnsafeMutablePointer.initialize overlapping range"
++ "UnsafeMutablePointer.initialize with negative count"
++ "UnsafeMutablePointer.moveInitialize with negative count"
++ "UnsafeMutableRawBufferPointer.copyMemory source has too many elements"
++ "UnsafeMutableRawPointer.initializeMemory overlapping range"
++ "Update %{private,mask.hash}s failed. Bootstrap needed another bootstrap. Failing request to prevent a loop."
++ "UseEpisodeDescriptionForSummary"
++ "User cancelled OAuth login."
++ "User is subscribed to content: %{bool}d"
++ "Using intent"
++ "Using track identifiers"
++ "We already have base settings. Using passed in EpisodeListSettings for intent"
++ "WidgetNowPlayingArtwork"
++ "XMLTTMLParse"
++ "[MTSubscriptionChangeHandler] Entitled state is changed for episode uuid %@ from priceType: %@ to %@"
++ "[MTSubscriptionChangeHandler] Handling subscription change for channel: %lld. Switching to active: %d"
++ "[MTSubscriptionChangeHandler] Set priceType to entitledPriceType %@ for episode: %@ - %lld. subscriptionActive: %d"
++ "[MTSubscriptionChangeHandler] Updated entitlementState for episode: %@ - %lld. newEntitlementState: %lld, newIsEntitled: %d"
++ "[MTSubscriptionChangeHandler] Updating entitled attributes in episode: %@ - %lld. subscriptionActive: %d"
++ "[MTSubscriptionChangeHandler] Updating entitlementState for episode: %@ - %lld. oldEntitlementState: %lld, oldIsEntitled: %d"
++ "[MTSubscriptionChangeHandler] Updating episodes in podcast: %@ - %lld"
++ "[MTSubscriptionChangeHandler] Will not update entitlement state for episode %@ - %lld. oldPriceType: %@, priceType: %@, oldEnclosureUrl: %@, enclosureUrl: %@"
++ "[MTSubscriptionChangeHandler] Will update entitlement state for episode %@ - %lld. oldPriceType: %@, priceType: %@, oldEnclosureUrl: %@, enclosureUrl: %@"
++ "[identifier=%{name=identifier}s] CANCEL"
++ "[identifier=%{name=identifier}s] EMPTY"
++ "[identifier=%{name=identifier}s] FAILURE"
++ "[identifier=%{name=identifier}s] ForegroundNetworkFetch"
++ "[identifier=%{name=identifier}s] SUCCESS"
++ "_TtC18PodcastsFoundation12OAuthSession"
++ "_TtC18PodcastsFoundation16ServerTranscript"
++ "_TtC18PodcastsFoundation22TranscriptModelBuilder"
++ "_TtC18PodcastsFoundation24OAuthCancellationSession"
++ "_TtCC18PodcastsFoundation10SearchTrieP33_4B0CD8136CC5EEB3BCF9BC8BD56C870C4Node"
++ "_currentElementAttributes"
++ "_entitledTranscriptIdentifier"
++ "_entitledTranscriptProvider"
++ "_entitledTranscriptSnippet"
++ "_freeTranscriptIdentifier"
++ "_freeTranscriptProvider"
++ "_freeTranscriptSnippet"
++ "_observing"
++ "_parser"
++ "_predicateForPriceType:forPriceTypeKey:excluding:"
++ "_subscriptionSyncV1Version"
++ "_subscriptionSyncV3Version"
++ "_subscriptionsV1LastSyncTimestamp"
++ "_subscriptionsV3LastSyncTimestamp"
++ "abortParsing"
++ "activeStoreAccountWithError:"
++ "addReferenceSignature:representingMediaItems:error:"
++ "alignmentAssetURL"
++ "apple"
++ "authorizationURL"
++ "begin"
++ "beginObserving"
++ "body"
++ "cacheLocation"
++ "cachedAssetURL"
++ "com.apple.podcasts.AssetReaderQueue"
++ "com.apple.podcasts.ShazamAlignmentQueue"
++ "com.apple.podcasts.carPlayPlaybackSource"
++ "com.apple.podcasts.darkDownloadChange"
++ "com.apple.podcasts.foundation.transcripts.preparation"
++ "com.apple.podcasts.playbackReason"
++ "commerceOAuthCancellationUrl"
++ "completeAndReturnError:"
++ "contentKeySession:didProvideContentKeyRequests:forInitializationData:"
++ "contentKeySession:externalProtectionStatusDidChangeForContentKey:"
++ "currentElementAttributes"
++ "currentParagraph"
++ "currentSentence"
++ "currentSpeakerID"
++ "currentWord"
++ "d24@0:8q16"
++ "darkDownloadCountLimit"
++ "darkDownloadTimeInterval"
++ "darkDownloadsChangeWithWasDark:isDark:reason:previousExit:"
++ "dataRepresentation"
++ "debug.UseFlexibleTranscriptsRequests"
++ "directoryExistsAtPathHandler"
++ "dur"
++ "end"
++ "endObserving"
++ "endpointSubscriber"
++ "externalContentID"
++ "failed secure unarchiving, attempting dataRepresentation decoder..."
++ "fetchInitialItem()"
++ "getCString:maxLength:encoding:"
++ "https://oauth.link.apple.com/api/v1/revoke/subscription/{oauth-adam-id}"
++ "hudViewHandler"
++ "i16@0:8"
++ "initWithBool:"
++ "initWithConfiguration:error:"
++ "initWithContentsOfURL:delegate:"
++ "initWithData:delegate:"
++ "initWithDataRepresentation:error:"
++ "initWithLowerBound:upperBound:"
++ "initWithSourceURL:"
++ "initWithSourceURL:cacheLocation:purgeability:"
++ "initWithStream:delegate:"
++ "initWithUnsignedInteger:"
++ "initWithUnsignedLongLong:"
++ "internalWebAuthenticationSessionProvider"
++ "intervalFromTimecode"
++ "invalid Collection: less than 'count' elements in collection"
++ "isAppleMusicEpisode"
++ "isOlderThanPreviousLatestEpisode"
++ "isParsingSpeakerName"
++ "isRunningOnDesktop"
++ "isSubscriptionActive"
++ "kMTDarkDownloadCountOverride"
++ "kMTDarkDownloadDurationOverride"
++ "kMTIgnoredAssetsConsumedSpaceKey"
++ "kMTImageProviderDeletionHasOccurred"
++ "kMTImageProviderMigrationHasOccurred"
++ "lessVerboseDisplayStringWithoutTime"
++ "loadIfNeededAndReturnError:"
++ "locallyGenerated"
++ "lockedPhase"
++ "musicSubscriptionInformation"
++ "numberOfOpenSpansSinceStartOfSentence"
++ "numberOfOpenSpansSinceStartOfWord"
++ "oAuthAdamId"
++ "oauthCancellationSession"
++ "oauthSession"
++ "observing"
++ "parsedParagraphs"
++ "parser:didEndElementType:"
++ "parser:didStartElementType:"
++ "pf_localizedStringByFoldingWithOptions:"
++ "phase"
++ "podcastEpisodeSortType"
++ "podcastHidesPlayedEpisodes"
++ "podcasts-oauth-revoke-subscription-url"
++ "podcasts:unit"
++ "predicateForHiddenPodcastForEpisodeUuids:"
++ "predicateForHiddenPodcastUuids:"
++ "predicateForLastUnfollowedDateOlderThanDate:"
++ "predicateForNilLastUnfollowedDate"
++ "predicateForRecentlyUnfollowed"
++ "predicateForRecentlyUnfollowedOlderThanCutoffDate"
++ "predicateForSubscriptionOnly"
++ "preferredAssetCacheURL"
++ "previousDarkExit"
++ "purgeability"
++ "recentlyUnfollowed"
++ "recentlyUnfollowedCutoffDate"
++ "resetGoDarkWithReason:"
++ "resetSubscriptionsLastSyncTimestampFor:"
++ "resetSubscriptionsSyncVersionFor:"
++ "responseStatusCode"
++ "rootNode"
++ "sentence"
++ "sessionId"
++ "setCurrentElementAttributes:"
++ "setEntitledTranscriptIdentifier:"
++ "setEntitledTranscriptProvider:"
++ "setEntitledTranscriptSnippet:"
++ "setFreeTranscriptIdentifier:"
++ "setFreeTranscriptProvider:"
++ "setFreeTranscriptSnippet:"
++ "setNumHistogramBuckets:"
++ "setParser:"
++ "setScoreThreshold:"
++ "setSignatureDurationRange:"
++ "setSupportsSignatureTracking:"
++ "setUuid:"
++ "sharedAccountStore"
++ "sharedSession"
++ "shazamSignatureAssetURL"
++ "shazamSignatureURL"
++ "shazamsignature"
++ "showArtworkTemplateURL"
++ "snippet"
++ "sourceURL"
++ "sourceURLMD5"
++ "span"
++ "speakers"
++ "storeAccountForDSID:error:"
++ "storeAccountForHomeUserIdentifier:error:"
++ "streamCacheURLAndReturnError:"
++ "streamedMediaAssetURL"
++ "stringByFoldingWithOptions:locale:"
++ "stringForElementAttribute:"
++ "subscriptionRequired"
++ "subscriptionSyncV1Version"
++ "subscriptionSyncV3Version"
++ "subscriptionsLastSyncTimestampFor:"
++ "subscriptionsSyncVersionFor:"
++ "subscriptionsV1LastSyncTimestamp"
++ "subscriptionsV3LastSyncTimestamp"
++ "syncKeys.SubscriptionSync.v1.lastSyncTimestamp"
++ "syncKeys.SubscriptionSync.v3.lastSyncTimestamp"
++ "syncVersionFlags"
++ "timeForElementAttribute:"
++ "transcript-censor-words"
++ "transcriptCensorWords"
++ "transcriptProvider"
++ "transcriptSnippet"
++ "transcriptSource"
++ "transcripts"
++ "ttm:agent"
++ "ttm:name"
++ "ttml"
++ "ttmlAssetURL"
++ "ttmlAssetUrls"
++ "ttmlToken"
++ "uiQueue"
++ "unitForCurrentSpan"
++ "updateSubscriptionsLastSyncTimestampFor:"
++ "updateSubscriptionsSyncVersionFor:newValue:"
++ "v24@0:8@\"PFTTMLParser\"16"
++ "v32@0:8@\"AVContentKeySession\"16@\"AVContentKey\"24"
++ "v32@0:8@\"PFTTMLParser\"16@\"NSError\"24"
++ "v32@0:8@\"PFTTMLParser\"16@\"NSString\"24"
++ "v32@0:8@\"PFTTMLParser\"16q24"
++ "v32@0:8@16q24"
++ "v32@0:8q16@24"
++ "v40@0:8@\"AVContentKeySession\"16@\"NSArray\"24@\"NSData\"32"
++ "webAuthenticationSession"
++ "webAuthenticationSessionProvider"
++ "word"
++ "xml"
++ "xml:id"
+- "\x11\x1d$\x12\x12%"
+- "AMSPurchaseDelegate"
+- "Cannot build file URL for key %s"
+- "Cannot decode contents of cached file for key %s, url: %s"
+- "ChannelsInLibrary"
+- "ChaptersExpandedByDefaultOnIPad"
+- "Creating update for MTPodcast %s for %{private,mask.hash}s"
+- "EYEBROW_ENTITLEMENT_SUFFIX_SUBSCRIBER"
+- "EYEBROW_ENTITLEMENT_SUFFIX_SUBSCRIPTION"
+- "Entitled state is changed for episode uuid %@ from priceType: %@ to %@"
+- "EpisodeHeroMac"
+- "EpisodeModule"
+- "ExperimentalGridAXScaling"
+- "ExperimentalGridPeek"
+- "Failed authentication request for purchase because there is no UI delegate, buyParams: %@"
+- "FetchExpectedFeedsFromNotification"
+- "Got authentication request for purchase with buyParams: %@"
+- "Grid23"
+- "ImprovedSwipeGestures"
+- "InteractiveWidgets"
+- "Maritime"
+- "ModernArtworkLoading"
+- "ModernCarPlay"
+- "ModernPlayer"
+- "NMTTopLevelFetchRequest"
+- "NewEpisodeCount"
+- "NewSearchResults"
+- "PageRenderMetrics"
+- "RedSun"
+- "RedSunTips"
+- "RelativePubDates"
+- "ShowHero"
+- "ShowHeroPreview"
+- "StateRestoration"
+- "Stations and channels are unsupported request types for RecommendationModuleContentRequest"
+- "Stations and channels are unsupported request types for RecommendationModulesRequest"
+- "StoreBothFreeAndPaidUrls"
+- "SyncTransactionsCoalescing"
+- "T@\"AMSProcessInfo\",R,C,N"
+- "TB,N,VuserAllowsPersonalization"
+- "TB,N,VuserIsManagedAccount"
+- "TB,N,VuserUnder13YearsOld"
+- "UseFirstTimeAvailable"
+- "WidgetInteractivity"
+- "Widgets"
+- "_TtCC18PodcastsFoundation10SearchTrieP33_4B0CD8136CC5EEB3BCF9BC8BD56C870C8TrieNode"
+- "checkForMatchesIn:"
+- "ic_privateListeningEnabledForHomeUsers"
+- "ic_sharedAccountStore"
+- "ic_storeAccountForHomeUserIdentifier:completion:"
+- "ic_storeAccountForStoreAccountID:completion:"
+- "initWithPurchase:bag:"
+- "loadAndReturnError:"
+- "payload"
+- "purchase:handleAuthenticateRequest:completion:"
+- "purchase:handleDialogRequest:completion:"
+- "purchase:handleEngagementRequest:completion:"
+- "resetGoDark"
+- "rootNodes"
+- "setClientId:"
+- "setIsBookmarksDRMSyncDirty:"
+- "setIsBookmarksSyncDirty:"
+- "setIsSubscriptionSyncV1Dirty:"
+- "setIsSubscriptionSyncV3Dirty:"
+- "setUserAllowsPersonalization:"
+- "setUserId:"
+- "setUserIsManagedAccount:"
+- "setUserUnder13YearsOld:"
+- "underlyingAdamID"
+- "usesFirstTimeAvailable"
+- "v24@?0@\"ACAccount\"8@\"NSError\"16"
+- "v40@0:8@\"AMSPurchase\"16@\"AMSAuthenticateRequest\"24@?<v@?@\"AMSAuthenticateResult\"@\"NSError\">32"
+- "v40@0:8@\"AMSPurchase\"16@\"AMSDialogRequest\"24@?<v@?@\"AMSDialogResult\"@\"NSError\">32"
+- "v40@0:8@\"AMSPurchase\"16@\"AMSEngagementRequest\"24@?<v@?@\"AMSEngagementResult\"@\"NSError\">32"
+
+```

@@ -1,0 +1,983 @@
+## LegacyGameKit
+
+> `/System/Library/PrivateFrameworks/LegacyGameKit.framework/LegacyGameKit`
+
+```diff
+
+-818.3.4.2.1
+-  __TEXT.__text: 0x9af8
+-  __TEXT.__auth_stubs: 0x230
+-  __TEXT.__objc_methlist: 0x7fc
+-  __TEXT.__const: 0x48
+-  __TEXT.__cstring: 0xe1c
+-  __TEXT.__ustring: 0x278
+-  __TEXT.__oslogstring: 0xe
+-  __TEXT.__unwind_info: 0x1c4
+-  __TEXT.__objc_classname: 0x88
+-  __TEXT.__objc_methname: 0x1e45
+-  __TEXT.__objc_methtype: 0x279
+-  __TEXT.__objc_stubs: 0x21a0
+-  __DATA_CONST.__got: 0x48
+-  __DATA_CONST.__const: 0x170
+-  __DATA_CONST.__objc_classlist: 0x28
+-  __DATA_CONST.__objc_catlist: 0x0
++818.4.37.2.1
++  __TEXT.__text: 0x394
++  __TEXT.__auth_stubs: 0x70
++  __TEXT.__objc_methlist: 0x3c0
++  __TEXT.__cstring: 0x20
++  __TEXT.__unwind_info: 0x60
++  __TEXT.__objc_classname: 0x5c
++  __TEXT.__objc_methname: 0x83a
++  __TEXT.__objc_methtype: 0x139
++  __TEXT.__objc_stubs: 0x60
++  __DATA_CONST.__const: 0x8
++  __DATA_CONST.__objc_classlist: 0x20
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_const: 0x8e0
+-  __DATA_CONST.__objc_selrefs: 0x9a8
+-  __AUTH_CONST.__cfstring: 0xe60
+-  __AUTH_CONST.__objc_const: 0x1f8
+-  __AUTH_CONST.__const: 0x20
+-  __AUTH_CONST.__auth_got: 0x120
+-  __AUTH.__objc_data: 0x190
+-  __DATA.__objc_classrefs: 0xf8
+-  __DATA.__objc_superrefs: 0x20
+-  __DATA.__objc_ivar: 0x9c
+-  __DATA.__bss: 0x18
++  __DATA_CONST.__objc_const: 0x510
++  __DATA_CONST.__objc_selrefs: 0x240
++  __DATA_CONST.__objc_classrefs: 0x8
++  __DATA_CONST.__objc_superrefs: 0x18
++  __AUTH_CONST.__objc_const: 0x1b0
++  __AUTH_CONST.__cfstring: 0x20
++  __AUTH_CONST.__auth_got: 0x40
++  __AUTH.__objc_data: 0x140
++  __DATA.__objc_ivar: 0x4c
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+
+   - /System/Library/PrivateFrameworks/GameKitServices.framework/GameKitServices
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  Functions: 182
+-  Symbols:   787
+-  CStrings:  554
++  Functions: 75
++  Symbols:   222
++  CStrings:  149
+ 
+Symbols:
++ _OBJC_IVAR_$_GKContentView._activityIndicator
++ _OBJC_IVAR_$_GKContentView._cancelButton
++ _OBJC_IVAR_$_GKContentView._connectionButtons
++ _OBJC_IVAR_$_GKContentView._iconView
++ _OBJC_IVAR_$_GKContentView._messageLabel
++ _OBJC_IVAR_$_GKContentView._otherButton
++ _OBJC_IVAR_$_GKContentView._titleLabel
++ _OBJC_IVAR_$_GKPeerPickerController._connectionTypesMask
++ _OBJC_IVAR_$_GKPeerPickerTableViewCell._topSeparator
++ _OBJC_IVAR_$_GKPeerPickerViewController._btView
++ _OBJC_IVAR_$_GKPeerPickerViewController._connectTypeView
++ _OBJC_IVAR_$_GKPeerPickerViewController._connectionTypesMask
++ _OBJC_IVAR_$_GKPeerPickerViewController._currentView
++ _OBJC_IVAR_$_GKPeerPickerViewController._inviteView
++ _OBJC_IVAR_$_GKPeerPickerViewController._listView
++ _OBJC_IVAR_$_GKPeerPickerViewController._noPeersView
++ _OBJC_IVAR_$_GKPeerPickerViewController._statusView
++ __OBJC_$_INSTANCE_METHODS_GKPeerPickerViewController
+- +[GKPeerPickerController initialize]
+- +[GKPeerPickerTableViewCell initialize]
+- -[GKContentView _createButton:]
+- -[GKContentView _createCancelButtonWithTitle:]
+- -[GKContentView _createConnectionButtonWithType:]
+- -[GKContentView _createMessageLabelIfNeeded]
+- -[GKContentView _createOtherButtonWithTitle:]
+- -[GKContentView _createTitleLabelIfNeeded]
+- -[GKContentView dealloc]
+- -[GKPeerPickerController _createPicker]
+- -[GKPeerPickerController dealloc]
+- -[GKPeerPickerController init]
+- -[GKPeerPickerController peerPickerViewController:didConnectPeer:toSession:]
+- -[GKPeerPickerController peerPickerViewController:didSelectConnectionType:]
+- -[GKPeerPickerController peerPickerViewController:sessionForConnectionType:]
+- -[GKPeerPickerController peerPickerViewControllerDidCancel:]
+- -[GKPeerPickerController pickerViewController]
+- -[GKPeerPickerViewController _acceptInvitation:]
+- -[GKPeerPickerViewController _btPowerStateChanged:]
+- -[GKPeerPickerViewController _cancelButtonPressed:]
+- -[GKPeerPickerViewController _changePanelAnimationDidEnd:]
+- -[GKPeerPickerViewController _createAlertFromGKContentView:]
+- -[GKPeerPickerViewController _createBTViewIfNeeded]
+- -[GKPeerPickerViewController _createBTViewIfNeeded].cold.1
+- -[GKPeerPickerViewController _createConnectTypeViewIfNeeded]
+- -[GKPeerPickerViewController _createInviteViewIfNeeded]
+- -[GKPeerPickerViewController _createListViewIfNeeded]
+- -[GKPeerPickerViewController _createNoPeersViewIfNeeded]
+- -[GKPeerPickerViewController _createStatusViewIfNeeded]
+- -[GKPeerPickerViewController _declineInvitation:]
+- -[GKPeerPickerViewController _determineBluetoothStatus]
+- -[GKPeerPickerViewController _nearbyButtonPressed:]
+- -[GKPeerPickerViewController _onlineButtonPressed:]
+- -[GKPeerPickerViewController _setSessionAvailabilityForState:]
+- -[GKPeerPickerViewController _setupListView]
+- -[GKPeerPickerViewController _shouldShowConnectTypeView]
+- -[GKPeerPickerViewController _showBluetoothErrorView:]
+- -[GKPeerPickerViewController _showConnectTypeView:]
+- -[GKPeerPickerViewController _showInviteViewWithName:animated:]
+- -[GKPeerPickerViewController _showListView:]
+- -[GKPeerPickerViewController _showNoPeersView:]
+- -[GKPeerPickerViewController _showRequestBluetoothView:]
+- -[GKPeerPickerViewController _showRequestBluetoothView:].cold.1
+- -[GKPeerPickerViewController _showStatusView:peerName:animated:]
+- -[GKPeerPickerViewController _showView:animated:]
+- -[GKPeerPickerViewController _sortAndUpdateTable]
+- -[GKPeerPickerViewController _timedOutWaitingForInvitation:]
+- -[GKPeerPickerViewController _timedOutWaitingForInvitation:].cold.1
+- -[GKPeerPickerViewController _turnBluetoothOn:]
+- -[GKPeerPickerViewController _updatePicker:]
+- -[GKPeerPickerViewController _updatePicker:].cold.1
+- -[GKPeerPickerViewController alertCancelled]
+- -[GKPeerPickerViewController alertPresented]
+- -[GKPeerPickerViewController alertView:clickedButtonAtIndex:]
+- -[GKPeerPickerViewController alertView:didDismissWithButtonIndex:]
+- -[GKPeerPickerViewController bluetoothStatus]
+- -[GKPeerPickerViewController contentView:clickedButtonAtIndex:]
+- -[GKPeerPickerViewController currentConnectionTypeKey]
+- -[GKPeerPickerViewController dealloc]
+- -[GKPeerPickerViewController didPresentAlertView:]
+- -[GKPeerPickerViewController didReceiveMemoryWarning]
+- -[GKPeerPickerViewController invitationWaitTimer]
+- -[GKPeerPickerViewController isAnimating]
+- -[GKPeerPickerViewController menuQueue]
+- -[GKPeerPickerViewController peerTableView]
+- -[GKPeerPickerViewController peers]
+- -[GKPeerPickerViewController pendingState]
+- -[GKPeerPickerViewController searchingForServicesString]
+- -[GKPeerPickerViewController session:connectionWithPeerFailed:withError:]
+- -[GKPeerPickerViewController session:didFailWithError:]
+- -[GKPeerPickerViewController session:didFailWithError:].cold.1
+- -[GKPeerPickerViewController session:didReceiveConnectionRequestFromPeer:]
+- -[GKPeerPickerViewController session:peer:didChangeState:]
+- -[GKPeerPickerViewController session:peerDidBecomeBusy:]
+- -[GKPeerPickerViewController sessionMap]
+- -[GKPeerPickerViewController setAlertCancelled:]
+- -[GKPeerPickerViewController setAlertPresented:]
+- -[GKPeerPickerViewController setAnimating:]
+- -[GKPeerPickerViewController setBluetoothStatus:]
+- -[GKPeerPickerViewController setCurrentConnectionTypeKey:]
+- -[GKPeerPickerViewController setInvitationWaitTimer:]
+- -[GKPeerPickerViewController setMenuQueue:]
+- -[GKPeerPickerViewController setPeerTableView:]
+- -[GKPeerPickerViewController setPeers:]
+- -[GKPeerPickerViewController setPendingState:]
+- -[GKPeerPickerViewController setState:]
+- -[GKPeerPickerViewController setUpdating:]
+- -[GKPeerPickerViewController state]
+- -[GKPeerPickerViewController traitCollectionDidChange:]
+- -[GKPeerPickerViewController updating]
+- -[GKPeerPickerViewController(UITableView) numberOfSectionsInTableView:]
+- -[GKPeerPickerViewController(UITableView) tableView:cellForRowAtIndexPath:]
+- -[GKPeerPickerViewController(UITableView) tableView:didSelectRowAtIndexPath:]
+- -[GKPeerPickerViewController(UITableView) tableView:numberOfRowsInSection:]
+- -[GKPeerPickerViewController(UITableView) tableView:willSelectRowAtIndexPath:]
+- OBJC_IVAR_$_GKContentView._activityIndicator
+- OBJC_IVAR_$_GKContentView._cancelButton
+- OBJC_IVAR_$_GKContentView._connectionButtons
+- OBJC_IVAR_$_GKContentView._iconView
+- OBJC_IVAR_$_GKContentView._messageLabel
+- OBJC_IVAR_$_GKContentView._needsLayout
+- OBJC_IVAR_$_GKContentView._otherButton
+- OBJC_IVAR_$_GKContentView._table
+- OBJC_IVAR_$_GKContentView._tableWellView
+- OBJC_IVAR_$_GKContentView._titleLabel
+- OBJC_IVAR_$_GKPeerPickerTableViewCell._topSeparator
+- OBJC_IVAR_$_GKPeerPickerViewController._alertPresented
+- OBJC_IVAR_$_GKPeerPickerViewController._animating
+- OBJC_IVAR_$_GKPeerPickerViewController._bluetoothStatus
+- OBJC_IVAR_$_GKPeerPickerViewController._btView
+- OBJC_IVAR_$_GKPeerPickerViewController._connectTypeView
+- OBJC_IVAR_$_GKPeerPickerViewController._connectionTypesMask
+- OBJC_IVAR_$_GKPeerPickerViewController._currentConnectionTypeKey
+- OBJC_IVAR_$_GKPeerPickerViewController._currentView
+- OBJC_IVAR_$_GKPeerPickerViewController._invitationWaitTimer
+- OBJC_IVAR_$_GKPeerPickerViewController._inviteView
+- OBJC_IVAR_$_GKPeerPickerViewController._listView
+- OBJC_IVAR_$_GKPeerPickerViewController._menuQueue
+- OBJC_IVAR_$_GKPeerPickerViewController._noPeersView
+- OBJC_IVAR_$_GKPeerPickerViewController._peerTableView
+- OBJC_IVAR_$_GKPeerPickerViewController._peers
+- OBJC_IVAR_$_GKPeerPickerViewController._pendingPeer
+- OBJC_IVAR_$_GKPeerPickerViewController._pendingState
+- OBJC_IVAR_$_GKPeerPickerViewController._searchingForServicesString
+- OBJC_IVAR_$_GKPeerPickerViewController._sessionMap
+- OBJC_IVAR_$_GKPeerPickerViewController._state
+- OBJC_IVAR_$_GKPeerPickerViewController._statusView
+- OBJC_IVAR_$_GKPeerPickerViewController._updating
+- _CGRectGetHeight
+- _CGRectGetMaxX
+- _CGRectGetMaxY
+- _CGRectGetWidth
+- _CGRectZero
+- _GKActiveLogBits
+- _GKApplicationLinkedOnOrAfter
+- _GKGetLocalizedStringFromPeerPickerTable
+- _GKOSLogInit
+- _GKPeerPickerFrameworkBundle
+- _GKPeerPickerFrameworkBundle.onceToken
+- _GKPeerPickerFrameworkBundle.sBundle
+- _GKSessionErrorDomain
+- _OBJC_CLASS_$_GKPeerPickerControllerInternal
+- _OBJC_CLASS_$_GKSession
+- _OBJC_CLASS_$_GKViceroyBluetoothSupport
+- _OBJC_CLASS_$_NSBundle
+- _OBJC_CLASS_$_NSCharacterSet
+- _OBJC_CLASS_$_NSException
+- _OBJC_CLASS_$_NSMutableArray
+- _OBJC_CLASS_$_NSMutableDictionary
+- _OBJC_CLASS_$_NSMutableString
+- _OBJC_CLASS_$_NSNotificationCenter
+- _OBJC_CLASS_$_NSNumber
+- _OBJC_CLASS_$_NSString
+- _OBJC_CLASS_$_NSTimer
+- _OBJC_CLASS_$_UIActivityIndicatorView
+- _OBJC_CLASS_$_UIAlertView
+- _OBJC_CLASS_$_UIApplication
+- _OBJC_CLASS_$_UIButton
+- _OBJC_CLASS_$_UIColor
+- _OBJC_CLASS_$_UIDevice
+- _OBJC_CLASS_$_UIImage
+- _OBJC_CLASS_$_UIImageView
+- _OBJC_CLASS_$_UILabel
+- _OBJC_CLASS_$_UIScreen
+- _OBJC_CLASS_$_UITableView
+- _OBJC_IVAR_$_GKPeerPickerControllerInternal._connectionTypesMask
+- _OBJC_IVAR_$_GKPeerPickerControllerInternal._delegate
+- _OBJC_IVAR_$_GKPeerPickerControllerInternal._pickerViewController
+- _OBJC_IVAR_$_GKPeerPickerViewController._alertCancelled
+- _OBJC_METACLASS_$_GKPeerPickerControllerInternal
+- _OUTLINED_FUNCTION_0
+- _OUTLINED_FUNCTION_1
+- _OUTLINED_FUNCTION_2
+- __NSConcreteGlobalBlock
+- __NSConcreteStackBlock
+- __OBJC_$_CLASS_METHODS_GKPeerPickerController
+- __OBJC_$_INSTANCE_METHODS_GKPeerPickerViewController(UITableView)
+- __OBJC_$_INSTANCE_VARIABLES_GKPeerPickerControllerInternal
+- __OBJC_CLASS_RO_$_GKPeerPickerControllerInternal
+- __OBJC_METACLASS_RO_$_GKPeerPickerControllerInternal
+- ___44-[GKPeerPickerViewController _updatePicker:]_block_invoke
+- ___48-[GKPeerPickerViewController _acceptInvitation:]_block_invoke
+- ___GKPeerPickerFrameworkBundle_block_invoke
+- ___block_descriptor_32_e5_v8?0l
+- ___block_descriptor_40_e8_32o_e5_v8?0ls32l8
+- ___block_descriptor_56_e8_32o40o48o_e5_v8?0ls32l8s40l8s48l8
+- ___block_literal_global
+- ___separatorImage
+- ___stack_chk_fail
+- ___stack_chk_guard
+- __dispatch_main_q
+- __localizedCaseInsensitivePeerCompare
+- __os_log_error_impl
+- __os_log_impl
+- _dispatch_after
+- _dispatch_async
+- _dispatch_once
+- _dispatch_time
+- _objc_alloc
+- _objc_alloc_init
+- _objc_autorelease
+- _objc_enumerationMutation
+- _objc_msgSend$CGColor
+- _objc_msgSend$_acceptInvitation:
+- _objc_msgSend$_addButtonWithTitle:
+- _objc_msgSend$_btPowerStateChanged:
+- _objc_msgSend$_cancelButtonPressed:
+- _objc_msgSend$_changePanelAnimationDidEnd:
+- _objc_msgSend$_createAlertFromGKContentView:
+- _objc_msgSend$_createBTViewIfNeeded
+- _objc_msgSend$_createButton:
+- _objc_msgSend$_createCancelButtonWithTitle:
+- _objc_msgSend$_createConnectTypeViewIfNeeded
+- _objc_msgSend$_createConnectionButtonWithType:
+- _objc_msgSend$_createInviteViewIfNeeded
+- _objc_msgSend$_createListViewIfNeeded
+- _objc_msgSend$_createMessageLabelIfNeeded
+- _objc_msgSend$_createNoPeersViewIfNeeded
+- _objc_msgSend$_createOtherButtonWithTitle:
+- _objc_msgSend$_createPicker
+- _objc_msgSend$_createStatusViewIfNeeded
+- _objc_msgSend$_createTitleLabelIfNeeded
+- _objc_msgSend$_declineInvitation:
+- _objc_msgSend$_determineBluetoothStatus
+- _objc_msgSend$_legacy_sizeWithFont:
+- _objc_msgSend$_nearbyButtonPressed:
+- _objc_msgSend$_onlineButtonPressed:
+- _objc_msgSend$_setAccessoryView:
+- _objc_msgSend$_setSessionAvailabilityForState:
+- _objc_msgSend$_setupListView
+- _objc_msgSend$_shouldShowConnectTypeView
+- _objc_msgSend$_showBluetoothErrorView:
+- _objc_msgSend$_showConnectTypeView:
+- _objc_msgSend$_showInviteViewWithName:animated:
+- _objc_msgSend$_showListView:
+- _objc_msgSend$_showNoPeersView:
+- _objc_msgSend$_showRequestBluetoothView:
+- _objc_msgSend$_showStatusView:peerName:animated:
+- _objc_msgSend$_showView:animated:
+- _objc_msgSend$_sortAndUpdateTable
+- _objc_msgSend$_turnBluetoothOn:
+- _objc_msgSend$_updatePicker:
+- _objc_msgSend$acceptConnectionFromPeer:error:
+- _objc_msgSend$activityIndicator
+- _objc_msgSend$addObject:
+- _objc_msgSend$addObjectsFromArray:
+- _objc_msgSend$addSubview:
+- _objc_msgSend$addTarget:action:forControlEvents:
+- _objc_msgSend$alertCancelled
+- _objc_msgSend$alertPresented
+- _objc_msgSend$appendString:
+- _objc_msgSend$beginIgnoringInteractionEvents
+- _objc_msgSend$blackColor
+- _objc_msgSend$bounds
+- _objc_msgSend$btView
+- _objc_msgSend$buttonWithType:
+- _objc_msgSend$cancelButton
+- _objc_msgSend$cancelButtonIndex
+- _objc_msgSend$cancelConnectToPeer:
+- _objc_msgSend$clearColor
+- _objc_msgSend$code
+- _objc_msgSend$connectToPeer:withTimeout:
+- _objc_msgSend$connectTypeView
+- _objc_msgSend$connectionButtons
+- _objc_msgSend$connectionTypesMask
+- _objc_msgSend$containsObject:
+- _objc_msgSend$contentRectForBounds:
+- _objc_msgSend$contentView:clickedButtonAtIndex:
+- _objc_msgSend$context
+- _objc_msgSend$copy
+- _objc_msgSend$count
+- _objc_msgSend$countByEnumeratingWithState:objects:count:
+- _objc_msgSend$currentConnectionTypeKey
+- _objc_msgSend$currentDevice
+- _objc_msgSend$currentSession
+- _objc_msgSend$currentView
+- _objc_msgSend$defaultCenter
+- _objc_msgSend$delegate
+- _objc_msgSend$deleteCharactersInRange:
+- _objc_msgSend$denyConnectionFromPeer:
+- _objc_msgSend$dequeueReusableCellWithIdentifier:
+- _objc_msgSend$deselectRowAtIndexPath:animated:
+- _objc_msgSend$detailTextLabel
+- _objc_msgSend$disableWifi
+- _objc_msgSend$dismiss
+- _objc_msgSend$dismissAnimated:
+- _objc_msgSend$dismissWithClickedButtonIndex:animated:
+- _objc_msgSend$displayNameForPeer:
+- _objc_msgSend$domain
+- _objc_msgSend$drawInRect:
+- _objc_msgSend$endIgnoringInteractionEvents
+- _objc_msgSend$frame
+- _objc_msgSend$image
+- _objc_msgSend$imageNamed:inBundle:
+- _objc_msgSend$indexPathForSelectedRow
+- _objc_msgSend$infoDictionary
+- _objc_msgSend$initWithActivityIndicatorStyle:
+- _objc_msgSend$initWithFrame:
+- _objc_msgSend$initWithFrame:style:
+- _objc_msgSend$initWithImage:
+- _objc_msgSend$initWithNibName:bundle:
+- _objc_msgSend$initWithPath:
+- _objc_msgSend$initWithSessionID:displayName:sessionMode:
+- _objc_msgSend$initWithStyle:reuseIdentifier:
+- _objc_msgSend$initWithTitle:message:delegate:cancelButtonTitle:otherButtonTitles:
+- _objc_msgSend$initWithTitle:message:icon:cancelButtonTitle:otherButtonTitle:
+- _objc_msgSend$intValue
+- _objc_msgSend$invalidate
+- _objc_msgSend$invitationWaitTimer
+- _objc_msgSend$inviteView
+- _objc_msgSend$isAnimating
+- _objc_msgSend$isAvailable
+- _objc_msgSend$isBusy
+- _objc_msgSend$isEqualToString:
+- _objc_msgSend$isOpaque
+- _objc_msgSend$isPeerBusy:
+- _objc_msgSend$isViewLoaded
+- _objc_msgSend$isVisible
+- _objc_msgSend$lastObject
+- _objc_msgSend$layer
+- _objc_msgSend$layout
+- _objc_msgSend$layoutIfNeeded
+- _objc_msgSend$length
+- _objc_msgSend$listView
+- _objc_msgSend$loadInitialView
+- _objc_msgSend$localizedModel
+- _objc_msgSend$localizedStandardCompare:
+- _objc_msgSend$mainBundle
+- _objc_msgSend$mainScreen
+- _objc_msgSend$makeObjectsPerformSelector:
+- _objc_msgSend$maxTextWidth
+- _objc_msgSend$menuQueue
+- _objc_msgSend$message
+- _objc_msgSend$messageFont
+- _objc_msgSend$noPeersView
+- _objc_msgSend$numberWithInt:
+- _objc_msgSend$objectAtIndex:
+- _objc_msgSend$objectForKey:
+- _objc_msgSend$otherButton
+- _objc_msgSend$peerPickerController:didConnectPeer:toSession:
+- _objc_msgSend$peerPickerController:didSelectConnectionType:
+- _objc_msgSend$peerPickerController:sessionForConnectionType:
+- _objc_msgSend$peerPickerControllerDidCancel:
+- _objc_msgSend$peerPickerViewController:didConnectPeer:toSession:
+- _objc_msgSend$peerPickerViewController:didSelectConnectionType:
+- _objc_msgSend$peerPickerViewController:sessionForConnectionType:
+- _objc_msgSend$peerPickerViewControllerDidCancel:
+- _objc_msgSend$peerTableView
+- _objc_msgSend$peers
+- _objc_msgSend$peersWithConnectionState:
+- _objc_msgSend$pendingState
+- _objc_msgSend$pickerViewController
+- _objc_msgSend$preferredSize
+- _objc_msgSend$raise:format:
+- _objc_msgSend$reloadData
+- _objc_msgSend$removeAllObjects
+- _objc_msgSend$removeFromSuperview
+- _objc_msgSend$removeLastObject
+- _objc_msgSend$removeObject:
+- _objc_msgSend$removeObserver:
+- _objc_msgSend$retainCount
+- _objc_msgSend$row
+- _objc_msgSend$scale
+- _objc_msgSend$scheduledTimerWithTimeInterval:target:selector:userInfo:repeats:
+- _objc_msgSend$searchingForServicesString
+- _objc_msgSend$secondaryLabelColor
+- _objc_msgSend$separatorHeight
+- _objc_msgSend$sessionMap
+- _objc_msgSend$sessionMode
+- _objc_msgSend$setAlertCancelled:
+- _objc_msgSend$setAlertPresented:
+- _objc_msgSend$setAnimating:
+- _objc_msgSend$setAutoresizingMask:
+- _objc_msgSend$setAvailable:
+- _objc_msgSend$setBackgroundColor:
+- _objc_msgSend$setBackgroundImage:forState:
+- _objc_msgSend$setBorderColor:
+- _objc_msgSend$setBorderWidth:
+- _objc_msgSend$setBtView:
+- _objc_msgSend$setBusy:
+- _objc_msgSend$setCancelButton:
+- _objc_msgSend$setClipsToBounds:
+- _objc_msgSend$setColor:
+- _objc_msgSend$setConnectTypeView:
+- _objc_msgSend$setConnectionButtonTypes:
+- _objc_msgSend$setConnectionTypesMask:
+- _objc_msgSend$setContext:
+- _objc_msgSend$setCurrentConnectionTypeKey:
+- _objc_msgSend$setDataSource:
+- _objc_msgSend$setDelegate:
+- _objc_msgSend$setEnabled:
+- _objc_msgSend$setFont:
+- _objc_msgSend$setFrame:
+- _objc_msgSend$setIcon:
+- _objc_msgSend$setImage:
+- _objc_msgSend$setInvitationWaitTimer:
+- _objc_msgSend$setInviteView:
+- _objc_msgSend$setLineBreakMode:
+- _objc_msgSend$setListView:
+- _objc_msgSend$setMasksToBounds:
+- _objc_msgSend$setMenuQueue:
+- _objc_msgSend$setMessage:
+- _objc_msgSend$setNeedsDisplay
+- _objc_msgSend$setNeedsDisplayOnBoundsChange:
+- _objc_msgSend$setNoPeersView:
+- _objc_msgSend$setNumberOfLines:
+- _objc_msgSend$setNumberOfTitleLines:
+- _objc_msgSend$setObject:forKey:
+- _objc_msgSend$setOpaque:
+- _objc_msgSend$setOtherButton:
+- _objc_msgSend$setPeerTableView:
+- _objc_msgSend$setPeers:
+- _objc_msgSend$setPendingState:
+- _objc_msgSend$setPrivateDelegate:
+- _objc_msgSend$setReversesTitleShadowWhenHighlighted:
+- _objc_msgSend$setRowHeight:
+- _objc_msgSend$setSearchingForServicesString:
+- _objc_msgSend$setSelectionStyle:
+- _objc_msgSend$setSeparatorInset:
+- _objc_msgSend$setSeparatorStyle:
+- _objc_msgSend$setSessionMap:
+- _objc_msgSend$setShadowColor:
+- _objc_msgSend$setShadowOffset:
+- _objc_msgSend$setSize:
+- _objc_msgSend$setState:
+- _objc_msgSend$setStatusView:
+- _objc_msgSend$setString:
+- _objc_msgSend$setTag:
+- _objc_msgSend$setText:
+- _objc_msgSend$setTextAlignment:
+- _objc_msgSend$setTextColor:
+- _objc_msgSend$setTitle:
+- _objc_msgSend$setTitle:forState:
+- _objc_msgSend$setTitleColor:forState:
+- _objc_msgSend$setTitleShadowColor:forState:
+- _objc_msgSend$setUpdating:
+- _objc_msgSend$setUserInteractionEnabled:
+- _objc_msgSend$setView:
+- _objc_msgSend$sharedApplication
+- _objc_msgSend$show
+- _objc_msgSend$showActivityIndicator:
+- _objc_msgSend$size
+- _objc_msgSend$sortUsingFunction:context:
+- _objc_msgSend$startAnimating
+- _objc_msgSend$state
+- _objc_msgSend$status
+- _objc_msgSend$statusView
+- _objc_msgSend$stopAnimating
+- _objc_msgSend$stretchableImageWithLeftCapWidth:topCapHeight:
+- _objc_msgSend$stringByTrimmingCharactersInSet:
+- _objc_msgSend$stringWithFormat:
+- _objc_msgSend$stringWithString:
+- _objc_msgSend$subviews
+- _objc_msgSend$systemBlueColor
+- _objc_msgSend$tertiaryLabelColor
+- _objc_msgSend$text
+- _objc_msgSend$textLabel
+- _objc_msgSend$textRectForBounds:limitedToNumberOfLines:
+- _objc_msgSend$title
+- _objc_msgSend$titleFont
+- _objc_msgSend$titleLabel
+- _objc_msgSend$turnOnAndObserveWith:selector:
+- _objc_msgSend$updating
+- _objc_msgSend$userInfo
+- _objc_msgSend$view
+- _objc_msgSend$viewWithTag:
+- _objc_msgSend$whiteColor
+- _objc_msgSend$whitespaceCharacterSet
+- _objc_opt_class
+- _objc_opt_respondsToSelector
+- _objc_release
+- _objc_release_x20
+- _objc_release_x8
+- _objc_retain
+- _objc_retain_x19
+- _objc_retain_x20
+- _os_log_GKLogDeveloper
+- _os_log_GKLogError
+- _os_log_GKLogGeneral
+- _os_log_GKLogMatch
+- _os_log_type_enabled
+- _tailTruncateStringToFit
+CStrings:
++ "\x01"
++ "TQ,N,V_connectionTypesMask"
+- "%@"
+- "%C"
+- "%{public}@"
+- "-[GKPeerPickerViewController _createBTViewIfNeeded]"
+- "-[GKPeerPickerViewController _showRequestBluetoothView:]"
+- "/System/Library/PrivateFrameworks/LegacyGameKit.framework"
+- "11.0"
+- "14.0"
+- "@\"GKPeerPickerViewController\""
+- "@\"NSMutableArray\""
+- "@\"NSMutableDictionary\""
+- "@\"NSString\""
+- "@\"NSTimer\""
+- "@\"UITableView\""
+- "@20@0:8B16"
+- "@24@0:8@16"
+- "@24@0:8Q16"
+- "@32@0:8@16Q24"
+- "A GKPeerPickerController must support GKPeerPickerConnectionTypeNearby at a minimum."
+- "A valid GKSession object with a GKSessionModePeer mode must be supplied, or to create a default GKSession object return 'nil' in the implementation of -peerPickerController:sessionForConnectionType:. Supplied object was: %@ with session mode: %d"
+- "Accept"
+- "B20@0:8i16"
+- "Bluetooth Communication Error"
+- "Bluetooth must be on to connect to a nearby iPad, iPhone, or iPod touch."
+- "CFBundleDisplayName"
+- "CGColor"
+- "Cancel"
+- "Choose an iPad, iPhone,\nor iPod touch:"
+- "Connection Lost"
+- "Decline"
+- "GKInvalidArgumentException"
+- "GKPeerBusyTableCellIdentifier"
+- "GKPeerDefaultTableCellIdentifier"
+- "GKPeerPickerControllerInternal"
+- "GKPeerPickerStateBluetoothError"
+- "GKPeerPickerStateCancelled"
+- "GKPeerPickerStateConnectionChooser"
+- "GKPeerPickerStateDeclined"
+- "GKPeerPickerStateDismiss"
+- "GKPeerPickerStateInvited"
+- "GKPeerPickerStateLostConnection"
+- "GKPeerPickerStateNoPeers"
+- "GKPeerPickerStatePeerChooser"
+- "GKPeerPickerStateRequestBluetooth"
+- "GKPeerPickerStateUnknown"
+- "GKPeerPickerStateWaiting"
+- "GKSessionInProgressError -- we had an invitation collision and have or will receive an invite."
+- "Got a session from delegate: %@"
+- "Invalid GKPeerPickerState"
+- "NO"
+- "Nearby"
+- "Not supported on this\n%@"
+- "OFF"
+- "OK"
+- "ON"
+- "Online"
+- "Request declined"
+- "T@\"GKPeerPickerViewController\",R,D,N"
+- "T@\"NSMutableArray\",&,N,V_menuQueue"
+- "T@\"NSMutableArray\",&,N,V_peers"
+- "T@\"NSMutableDictionary\",&,N,V_sessionMap"
+- "T@\"NSString\",C,N,V_searchingForServicesString"
+- "T@\"NSString\",N,V_currentConnectionTypeKey"
+- "T@\"NSTimer\",&,N,V_invitationWaitTimer"
+- "T@\"UITableView\",&,N,V_peerTableView"
+- "TB,N,GisAnimating,V_animating"
+- "TB,N,V_alertCancelled"
+- "TB,N,V_alertPresented"
+- "TB,N,V_updating"
+- "TB,R,D,N,GisVisible"
+- "TQ,N"
+- "This request was canceled"
+- "Ti,N,V_bluetoothStatus"
+- "Ti,N,V_pendingState"
+- "Ti,N,V_state"
+- "Turn On"
+- "UITableView"
+- "WARNING: %s is obsoleted. Game Center doesn't invoke this obsoleted method from iOS/tvOS %@ and macOS %@ onwards"
+- "Would you like to turn on Bluetooth for '%@'"
+- "YES"
+- "_acceptInvitation:"
+- "_addButtonWithTitle:"
+- "_alertCancelled"
+- "_alertPresented"
+- "_animating"
+- "_bluetoothStatus"
+- "_btPowerStateChanged:"
+- "_cancelButtonPressed:"
+- "_changePanelAnimationDidEnd:"
+- "_createAlertFromGKContentView:"
+- "_createBTViewIfNeeded"
+- "_createButton:"
+- "_createCancelButtonWithTitle:"
+- "_createConnectTypeViewIfNeeded"
+- "_createConnectionButtonWithType:"
+- "_createInviteViewIfNeeded"
+- "_createListViewIfNeeded"
+- "_createMessageLabelIfNeeded"
+- "_createNoPeersViewIfNeeded"
+- "_createOtherButtonWithTitle:"
+- "_createPicker"
+- "_createStatusViewIfNeeded"
+- "_createTitleLabelIfNeeded"
+- "_currentConnectionTypeKey"
+- "_declineInvitation:"
+- "_determineBluetoothStatus"
+- "_invitationWaitTimer"
+- "_legacy_sizeWithFont:"
+- "_menuQueue"
+- "_nearbyButtonPressed:"
+- "_needsLayout"
+- "_onlineButtonPressed:"
+- "_peerTableView"
+- "_peers"
+- "_pendingPeer"
+- "_pendingState"
+- "_pickerViewController"
+- "_searchingForServicesString"
+- "_sessionMap"
+- "_setAccessoryView:"
+- "_setSessionAvailabilityForState:"
+- "_setupListView"
+- "_shouldShowConnectTypeView"
+- "_showBluetoothErrorView:"
+- "_showConnectTypeView:"
+- "_showInviteViewWithName:animated:"
+- "_showListView:"
+- "_showNoPeersView:"
+- "_showRequestBluetoothView:"
+- "_showStatusView:peerName:animated:"
+- "_showView:animated:"
+- "_sortAndUpdateTable"
+- "_state"
+- "_table"
+- "_tableWellView"
+- "_timedOutWaitingForInvitation:"
+- "_turnBluetoothOn:"
+- "_updatePicker:"
+- "_updating"
+- "acceptConnectionFromPeer:error:"
+- "addObject:"
+- "addObjectsFromArray:"
+- "addSubview:"
+- "addTarget:action:forControlEvents:"
+- "alertCancelled"
+- "alertPresented"
+- "alertView:clickedButtonAtIndex:"
+- "alertView:didDismissWithButtonIndex:"
+- "animating"
+- "appendString:"
+- "beginIgnoringInteractionEvents"
+- "blackColor"
+- "bluetoothStatus"
+- "bounds"
+- "bt_logo"
+- "button"
+- "buttonWithType:"
+- "button_pressed"
+- "cancelButtonIndex"
+- "cancelConnectToPeer:"
+- "clearColor"
+- "code"
+- "connectToPeer:withTimeout:"
+- "containsObject:"
+- "contentRectForBounds:"
+- "contentView:clickedButtonAtIndex:"
+- "context"
+- "copy"
+- "count"
+- "countByEnumeratingWithState:objects:count:"
+- "currentConnectionTypeKey"
+- "currentDevice"
+- "dealloc"
+- "defaultCenter"
+- "defaultbutton"
+- "deleteCharactersInRange:"
+- "denyConnectionFromPeer:"
+- "dequeueReusableCellWithIdentifier:"
+- "deselectRowAtIndexPath:animated:"
+- "detailTextLabel"
+- "device"
+- "didPresentAlertView:"
+- "didReceiveMemoryWarning"
+- "didn't have a session"
+- "didn't have a valid session so created a default session."
+- "disableWifi"
+- "dismiss picker"
+- "dismissAnimated:"
+- "dismissWithClickedButtonIndex:animated:"
+- "displayNameForPeer:"
+- "domain"
+- "drawInRect:"
+- "endIgnoringInteractionEvents"
+- "finishing. end states: state = %@, pending = %@"
+- "frame"
+- "global state = %@, global pending state = %@, initialLocalPendingState = %@, current localPending State = %@"
+- "i"
+- "i16@0:8"
+- "ignoring GKSessionInProgressError -- assuming we had an invitation collision and we are now the receiver of the invitation."
+- "image"
+- "imageNamed:inBundle:"
+- "indexPathForSelectedRow"
+- "infoDictionary"
+- "initWithActivityIndicatorStyle:"
+- "initWithFrame:"
+- "initWithFrame:style:"
+- "initWithImage:"
+- "initWithPath:"
+- "initWithSessionID:displayName:sessionMode:"
+- "initWithTitle:message:delegate:cancelButtonTitle:otherButtonTitles:"
+- "initialize"
+- "intValue"
+- "invalidate"
+- "invitationWaitTimer"
+- "is not available"
+- "isAnimating"
+- "isAvailable"
+- "isBusy"
+- "isEqualToString:"
+- "isOpaque"
+- "isPeerBusy:"
+- "isViewLoaded"
+- "lastObject"
+- "layer"
+- "length"
+- "list_bg"
+- "list_divider"
+- "localizedModel"
+- "localizedStandardCompare:"
+- "mainBundle"
+- "mainScreen"
+- "makeObjectsPerformSelector:"
+- "menu queue after possible removal: %@"
+- "menu queue before possible removal: %@"
+- "menuQueue"
+- "net"
+- "network_button"
+- "network_button_pressed"
+- "no more menus in the queue. sending to delegate didCancel"
+- "no pending peer, show invite view."
+- "not eligible for update.  updating = %d, animating = %u, presented = %u"
+- "numberOfSectionsInTableView:"
+- "numberWithInt:"
+- "objectAtIndex:"
+- "objectForKey:"
+- "peer available: %@ (%@)"
+- "peer connected: %@ (%@)"
+- "peer connecting: %@ (%@)"
+- "peer disconnected: %@ (%@)"
+- "peer unavailable: %@ (%@)"
+- "peerPickerController:didConnectPeer:toSession:"
+- "peerPickerController:didSelectConnectionType:"
+- "peerPickerController:sessionForConnectionType:"
+- "peerPickerControllerDidCancel:"
+- "peerPickerViewController:didConnectPeer:toSession:"
+- "peerPickerViewController:didSelectConnectionType:"
+- "peerPickerViewController:sessionForConnectionType:"
+- "peerPickerViewControllerDidCancel:"
+- "peerTableView"
+- "peers"
+- "peersWithConnectionState:"
+- "pendingState"
+- "pickerViewController"
+- "q24@0:8@16"
+- "q32@0:8@16q24"
+- "raise:format:"
+- "received GKBluetoothPowerStatusChangedNotification: power = %@"
+- "reloadData"
+- "removeAllObjects"
+- "removeFromSuperview"
+- "removeLastObject"
+- "removeObject:"
+- "removeObserver:"
+- "removing menu state: %@"
+- "retainCount"
+- "row"
+- "scale"
+- "scheduledTimerWithTimeInterval:target:selector:userInfo:repeats:"
+- "searchingForServicesString"
+- "secondaryLabelColor"
+- "session being used: %@"
+- "session busy state is: %d"
+- "session: %@ connectionWithPeerFailed: %@ error: %@"
+- "session: %@ didFailWithError: %@"
+- "session: %@ didReceiveConnectionRequestFromPeer: %@"
+- "session: %@ peer: %@ didChangeState: %d"
+- "session: %@ peerDidBecomeBusy: %@ (%@)"
+- "session:connectionWithPeerFailed:withError:"
+- "session:didFailWithError:"
+- "session:didReceiveConnectionRequestFromPeer:"
+- "session:peer:didChangeState:"
+- "session:peerDidBecomeBusy:"
+- "sessionMap"
+- "sessionMode"
+- "setAlertCancelled:"
+- "setAlertPresented:"
+- "setAnimating:"
+- "setAutoresizingMask:"
+- "setAvailable:"
+- "setBackgroundColor:"
+- "setBackgroundImage:forState:"
+- "setBluetoothStatus:"
+- "setBorderColor:"
+- "setBorderWidth:"
+- "setBusy:"
+- "setClipsToBounds:"
+- "setColor:"
+- "setContext:"
+- "setCurrentConnectionTypeKey:"
+- "setDataSource:"
+- "setEnabled:"
+- "setFont:"
+- "setFrame:"
+- "setImage:"
+- "setInvitationWaitTimer:"
+- "setLineBreakMode:"
+- "setMasksToBounds:"
+- "setMenuQueue:"
+- "setNeedsDisplay"
+- "setNeedsDisplayOnBoundsChange:"
+- "setNumberOfLines:"
+- "setObject:forKey:"
+- "setOpaque:"
+- "setPeerTableView:"
+- "setPeers:"
+- "setPendingState:"
+- "setPrivateDelegate:"
+- "setReversesTitleShadowWhenHighlighted:"
+- "setRowHeight:"
+- "setSelectionStyle:"
+- "setSeparatorInset:"
+- "setSeparatorStyle:"
+- "setShadowColor:"
+- "setShadowOffset:"
+- "setSize:"
+- "setState:"
+- "setString:"
+- "setTag:"
+- "setText:"
+- "setTextAlignment:"
+- "setTextColor:"
+- "setTitle:forState:"
+- "setTitleColor:forState:"
+- "setTitleShadowColor:forState:"
+- "setUpdating:"
+- "setUserInteractionEnabled:"
+- "setView:"
+- "setting for '%@' state"
+- "setting invitation wait timer in case we don't get an invitation."
+- "sharedApplication"
+- "show BT error"
+- "show cancelled invite."
+- "show connection chooser"
+- "show connection lost."
+- "show declined invite."
+- "show invite view"
+- "show peer chooser"
+- "show previous menu (back)"
+- "show request BT"
+- "show waiting for players"
+- "show waiting for response from invite."
+- "showing status view with state: %@"
+- "size"
+- "sortUsingFunction:context:"
+- "startAnimating"
+- "state"
+- "status"
+- "stopAnimating"
+- "stretchableImageWithLeftCapWidth:topCapHeight:"
+- "stringByTrimmingCharactersInSet:"
+- "stringWithFormat:"
+- "stringWithString:"
+- "subviews"
+- "systemBlueColor"
+- "tableView:cellForRowAtIndexPath:"
+- "tableView:didSelectRowAtIndexPath:"
+- "tableView:numberOfRowsInSection:"
+- "tableView:willSelectRowAtIndexPath:"
+- "tertiaryLabelColor"
+- "text"
+- "textLabel"
+- "textRectForBounds:limitedToNumberOfLines:"
+- "timed out waiting for invitation, showing lost connection view."
+- "traitCollectionDidChange:"
+- "turnOnAndObserveWith:selector:"
+- "unhandled pending state: %@"
+- "updating"
+- "updating = %d, animating = %d, requires presented: %@, presented = %d"
+- "updating picker after animation: current state = %@, pending state = %@"
+- "updating to previous menu: %@"
+- "userInfo"
+- "v20@0:8i16"
+- "v28@0:8@16B24"
+- "v32@0:8@16@24"
+- "v32@0:8@16Q24"
+- "v32@0:8@16q24"
+- "v32@0:8i16@20B28"
+- "v36@0:8@16@24i32"
+- "v40@0:8@16@24@32"
+- "v8@?0"
+- "view"
+- "viewWithTag:"
+- "we already have a pending peer, denying connection request."
+- "we got a connection request from a peer we sent an invitation ourselves to. show invite view."
+- "whiteColor"
+- "whitespaceCharacterSet"
+- "\xf0Q"
+
+```

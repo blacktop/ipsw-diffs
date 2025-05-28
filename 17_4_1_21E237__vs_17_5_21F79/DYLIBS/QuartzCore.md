@@ -1,0 +1,1632 @@
+## QuartzCore
+
+> `/System/Library/Frameworks/QuartzCore.framework/QuartzCore`
+
+```diff
+
+-1120.19.0.0.0
+-  __TEXT.__text: 0x2fe41c
+-  __TEXT.__auth_stubs: 0x4e60
+-  __TEXT.__objc_methlist: 0x906c
+-  __TEXT.__const: 0x17c30
+-  __TEXT.__gcc_except_tab: 0x60e0
+-  __TEXT.__cstring: 0x28d11
+-  __TEXT.__oslogstring: 0xd79f
++1120.33.0.0.0
++  __TEXT.__text: 0x302e8c
++  __TEXT.__auth_stubs: 0x4ee0
++  __TEXT.__objc_methlist: 0x913c
++  __TEXT.__const: 0x17cc0
++  __TEXT.__gcc_except_tab: 0x612c
++  __TEXT.__cstring: 0x29560
++  __TEXT.__oslogstring: 0xdb2c
+   __TEXT.__dlopen_cstrs: 0xe0
+-  __TEXT.__unwind_info: 0x7814
++  __TEXT.__unwind_info: 0x7b3c
+   __TEXT.__eh_frame: 0xb0
+-  __TEXT.__objc_classname: 0xc4b
+-  __TEXT.__objc_methname: 0xe724
+-  __TEXT.__objc_methtype: 0x3564
+-  __TEXT.__objc_stubs: 0xbe20
+-  __DATA_CONST.__got: 0x778
+-  __DATA_CONST.__const: 0xdc70
+-  __DATA_CONST.__objc_classlist: 0x3a8
++  __TEXT.__objc_classname: 0xc62
++  __TEXT.__objc_methname: 0xe800
++  __TEXT.__objc_methtype: 0x3568
++  __TEXT.__objc_stubs: 0xbea0
++  __DATA_CONST.__got: 0x790
++  __DATA_CONST.__const: 0xddc8
++  __DATA_CONST.__objc_classlist: 0x3b0
+   __DATA_CONST.__objc_catlist: 0x60
+   __DATA_CONST.__objc_protolist: 0xc8
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_const: 0x9698
+-  __DATA_CONST.__objc_selrefs: 0x4b98
++  __DATA_CONST.__objc_const: 0x9720
++  __DATA_CONST.__objc_selrefs: 0x4be8
+   __DATA_CONST.__objc_protorefs: 0x18
+   __DATA_CONST.__objc_classrefs: 0x528
+-  __DATA_CONST.__objc_superrefs: 0x3f8
++  __DATA_CONST.__objc_superrefs: 0x408
+   __DATA_CONST.__objc_arraydata: 0x36c0
+-  __AUTH_CONST.__const: 0x12c38
+-  __AUTH_CONST.__cfstring: 0x14680
+-  __AUTH_CONST.__objc_const: 0x3798
++  __AUTH_CONST.__const: 0x134b8
++  __AUTH_CONST.__cfstring: 0x14860
++  __AUTH_CONST.__objc_const: 0x3828
+   __AUTH_CONST.__objc_doubleobj: 0xb0
+-  __AUTH_CONST.__objc_intobj: 0x4098
++  __AUTH_CONST.__objc_intobj: 0x40c8
+   __AUTH_CONST.__objc_floatobj: 0x10
+   __AUTH_CONST.__objc_dictobj: 0x2f8
+   __AUTH_CONST.__objc_arrayobj: 0x30
+-  __AUTH_CONST.__auth_ptr: 0x20
+-  __AUTH_CONST.__auth_got: 0x2748
+-  __AUTH.__objc_data: 0x1040
++  __AUTH_CONST.__auth_ptr: 0x70
++  __AUTH_CONST.__auth_got: 0x2788
++  __AUTH.__objc_data: 0x1090
+   __AUTH.__data: 0x38
+-  __DATA.__objc_ivar: 0x4ec
++  __DATA.__objc_ivar: 0x4f0
+   __DATA.__objc_const_ax: 0x0
+-  __DATA.__data: 0x3990
++  __DATA.__data: 0x3988
+   __DATA.__crash_info: 0x40
+-  __DATA.__common: 0x6
+-  __DATA.__bss: 0x16e8
++  __DATA.__common: 0x4
++  __DATA.__bss: 0x1608
+   __DATA_DIRTY.__objc_data: 0x1450
+   __DATA_DIRTY.__data: 0x580
+-  __DATA_DIRTY.__bss: 0x2df0
++  __DATA_DIRTY.__bss: 0x2d48
+   - /System/Library/Frameworks/Accelerate.framework/Accelerate
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+
+   - /System/Library/PrivateFrameworks/PhotosensitivityProcessing.framework/PhotosensitivityProcessing
+   - /System/Library/PrivateFrameworks/PowerLog.framework/PowerLog
+   - /System/Library/PrivateFrameworks/RunningBoardServices.framework/RunningBoardServices
++  - /System/Library/PrivateFrameworks/SILManager.framework/SILManager
+   - /System/Library/PrivateFrameworks/SignpostMetrics.framework/SignpostMetrics
+   - /System/Library/PrivateFrameworks/SoftLinking.framework/SoftLinking
+   - /System/Library/PrivateFrameworks/Symbolication.framework/Symbolication
+
+   - /usr/lib/libcompression.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libxml2.2.dylib
+-  Functions: 10741
+-  Symbols:   28205
+-  CStrings:  11105
++  Functions: 10809
++  Symbols:   28398
++  CStrings:  11205
+ 
+Symbols:
++ +[CASecureIndicatorLayer CA_automaticallyNotifiesObservers:]
++ +[CASecureIndicatorLayer _hasRenderLayerSubclass]
++ +[CASecureIndicatorLayer defaultValueForKey:]
++ -[CADisplayStateControl(Internal) didChangeToState:seed:result:]
++ -[CAMetalLayer(CAMetalLayerPrivate) lowWorkload]
++ -[CAMetalLayer(CAMetalLayerPrivate) setLowWorkload:]
++ -[CASecureIndicatorLayer _copyRenderLayer:layerFlags:commitFlags:]
++ -[CASecureIndicatorLayer _renderLayerDefinesProperty:]
++ -[CASecureIndicatorLayer didChangeValueForKey:]
++ -[CASecureIndicatorLayer frameNumber]
++ -[CASecureIndicatorLayer privacyIndicatorType]
++ -[CASecureIndicatorLayer setFrameNumber:]
++ -[CASecureIndicatorLayer setPrivacyIndicatorType:]
++ -[CAWindowServerDisplay secureIndicatorsEnabled]
++ -[CAWindowServerDisplay setIRDCFlushHint:]
++ -[CAWindowServerDisplay setSecureIndicatorsEnabled:]
++ GCC_except_table10026
++ GCC_except_table10030
++ GCC_except_table10036
++ GCC_except_table10042
++ GCC_except_table10149
++ GCC_except_table10150
++ GCC_except_table10186
++ GCC_except_table10191
++ GCC_except_table10204
++ GCC_except_table10351
++ GCC_except_table10357
++ GCC_except_table10361
++ GCC_except_table10370
++ GCC_except_table10413
++ GCC_except_table1051
++ GCC_except_table10528
++ GCC_except_table10529
++ GCC_except_table10530
++ GCC_except_table10533
++ GCC_except_table1092
++ GCC_except_table1094
++ GCC_except_table1101
++ GCC_except_table1106
++ GCC_except_table1124
++ GCC_except_table1130
++ GCC_except_table1131
++ GCC_except_table1136
++ GCC_except_table1138
++ GCC_except_table1139
++ GCC_except_table1265
++ GCC_except_table1417
++ GCC_except_table1426
++ GCC_except_table1432
++ GCC_except_table1687
++ GCC_except_table1861
++ GCC_except_table1993
++ GCC_except_table1994
++ GCC_except_table1996
++ GCC_except_table1998
++ GCC_except_table2002
++ GCC_except_table2037
++ GCC_except_table2038
++ GCC_except_table2041
++ GCC_except_table2042
++ GCC_except_table2043
++ GCC_except_table2046
++ GCC_except_table2047
++ GCC_except_table2048
++ GCC_except_table2051
++ GCC_except_table2064
++ GCC_except_table2075
++ GCC_except_table2095
++ GCC_except_table2096
++ GCC_except_table2114
++ GCC_except_table2115
++ GCC_except_table2116
++ GCC_except_table2118
++ GCC_except_table2128
++ GCC_except_table2134
++ GCC_except_table2153
++ GCC_except_table2154
++ GCC_except_table2159
++ GCC_except_table216
++ GCC_except_table2172
++ GCC_except_table2173
++ GCC_except_table2175
++ GCC_except_table2186
++ GCC_except_table2205
++ GCC_except_table2206
++ GCC_except_table2223
++ GCC_except_table2226
++ GCC_except_table2277
++ GCC_except_table2326
++ GCC_except_table2335
++ GCC_except_table2338
++ GCC_except_table2349
++ GCC_except_table2352
++ GCC_except_table2372
++ GCC_except_table2375
++ GCC_except_table2389
++ GCC_except_table2392
++ GCC_except_table2394
++ GCC_except_table2396
++ GCC_except_table2420
++ GCC_except_table251
++ GCC_except_table254
++ GCC_except_table257
++ GCC_except_table263
++ GCC_except_table266
++ GCC_except_table269
++ GCC_except_table272
++ GCC_except_table2798
++ GCC_except_table2803
++ GCC_except_table2849
++ GCC_except_table3299
++ GCC_except_table3300
++ GCC_except_table3302
++ GCC_except_table3375
++ GCC_except_table3388
++ GCC_except_table3389
++ GCC_except_table3836
++ GCC_except_table3837
++ GCC_except_table3841
++ GCC_except_table3842
++ GCC_except_table3847
++ GCC_except_table3856
++ GCC_except_table3870
++ GCC_except_table3875
++ GCC_except_table3881
++ GCC_except_table3887
++ GCC_except_table3889
++ GCC_except_table3890
++ GCC_except_table3892
++ GCC_except_table3893
++ GCC_except_table3894
++ GCC_except_table3899
++ GCC_except_table3903
++ GCC_except_table3904
++ GCC_except_table4055
++ GCC_except_table4058
++ GCC_except_table4078
++ GCC_except_table4088
++ GCC_except_table4089
++ GCC_except_table416
++ GCC_except_table421
++ GCC_except_table424
++ GCC_except_table426
++ GCC_except_table432
++ GCC_except_table437
++ GCC_except_table441
++ GCC_except_table447
++ GCC_except_table4471
++ GCC_except_table4473
++ GCC_except_table4477
++ GCC_except_table4494
++ GCC_except_table4497
++ GCC_except_table451
++ GCC_except_table4510
++ GCC_except_table4511
++ GCC_except_table4518
++ GCC_except_table4537
++ GCC_except_table4544
++ GCC_except_table4549
++ GCC_except_table4564
++ GCC_except_table457
++ GCC_except_table4578
++ GCC_except_table4579
++ GCC_except_table4580
++ GCC_except_table4585
++ GCC_except_table4587
++ GCC_except_table4589
++ GCC_except_table4591
++ GCC_except_table4592
++ GCC_except_table461
++ GCC_except_table4642
++ GCC_except_table465
++ GCC_except_table467
++ GCC_except_table4694
++ GCC_except_table4695
++ GCC_except_table4698
++ GCC_except_table4699
++ GCC_except_table4701
++ GCC_except_table4708
++ GCC_except_table472
++ GCC_except_table485
++ GCC_except_table491
++ GCC_except_table497
++ GCC_except_table5008
++ GCC_except_table501
++ GCC_except_table5014
++ GCC_except_table5016
++ GCC_except_table5024
++ GCC_except_table5034
++ GCC_except_table5057
++ GCC_except_table5079
++ GCC_except_table5110
++ GCC_except_table5123
++ GCC_except_table5200
++ GCC_except_table5229
++ GCC_except_table5253
++ GCC_except_table529
++ GCC_except_table5295
++ GCC_except_table5302
++ GCC_except_table5312
++ GCC_except_table5361
++ GCC_except_table5363
++ GCC_except_table5367
++ GCC_except_table5387
++ GCC_except_table5389
++ GCC_except_table5393
++ GCC_except_table5394
++ GCC_except_table5398
++ GCC_except_table5399
++ GCC_except_table544
++ GCC_except_table5618
++ GCC_except_table5978
++ GCC_except_table5986
++ GCC_except_table5987
++ GCC_except_table5988
++ GCC_except_table6000
++ GCC_except_table6001
++ GCC_except_table6006
++ GCC_except_table6008
++ GCC_except_table6009
++ GCC_except_table6029
++ GCC_except_table6036
++ GCC_except_table6037
++ GCC_except_table6039
++ GCC_except_table6041
++ GCC_except_table6044
++ GCC_except_table6048
++ GCC_except_table6049
++ GCC_except_table6051
++ GCC_except_table6060
++ GCC_except_table6062
++ GCC_except_table6082
++ GCC_except_table6083
++ GCC_except_table613
++ GCC_except_table616
++ GCC_except_table621
++ GCC_except_table6274
++ GCC_except_table6276
++ GCC_except_table629
++ GCC_except_table633
++ GCC_except_table637
++ GCC_except_table6398
++ GCC_except_table641
++ GCC_except_table6449
++ GCC_except_table645
++ GCC_except_table6452
++ GCC_except_table6454
++ GCC_except_table649
++ GCC_except_table652
++ GCC_except_table656
++ GCC_except_table6588
++ GCC_except_table6592
++ GCC_except_table6595
++ GCC_except_table6597
++ GCC_except_table6598
++ GCC_except_table6600
++ GCC_except_table6601
++ GCC_except_table6602
++ GCC_except_table6605
++ GCC_except_table6616
++ GCC_except_table662
++ GCC_except_table6624
++ GCC_except_table664
++ GCC_except_table6647
++ GCC_except_table669
++ GCC_except_table672
++ GCC_except_table674
++ GCC_except_table6751
++ GCC_except_table6756
++ GCC_except_table6757
++ GCC_except_table676
++ GCC_except_table6760
++ GCC_except_table6761
++ GCC_except_table6768
++ GCC_except_table6771
++ GCC_except_table6774
++ GCC_except_table6790
++ GCC_except_table6794
++ GCC_except_table6803
++ GCC_except_table6805
++ GCC_except_table6807
++ GCC_except_table6808
++ GCC_except_table6811
++ GCC_except_table6817
++ GCC_except_table6818
++ GCC_except_table6819
++ GCC_except_table6824
++ GCC_except_table6825
++ GCC_except_table6828
++ GCC_except_table6829
++ GCC_except_table6832
++ GCC_except_table6833
++ GCC_except_table6834
++ GCC_except_table6836
++ GCC_except_table6838
++ GCC_except_table6847
++ GCC_except_table6868
++ GCC_except_table687
++ GCC_except_table6878
++ GCC_except_table6890
++ GCC_except_table6898
++ GCC_except_table6900
++ GCC_except_table6903
++ GCC_except_table6905
++ GCC_except_table6912
++ GCC_except_table6914
++ GCC_except_table6916
++ GCC_except_table6924
++ GCC_except_table694
++ GCC_except_table697
++ GCC_except_table7011
++ GCC_except_table7013
++ GCC_except_table7019
++ GCC_except_table7020
++ GCC_except_table7021
++ GCC_except_table7022
++ GCC_except_table7023
++ GCC_except_table7024
++ GCC_except_table7025
++ GCC_except_table703
++ GCC_except_table7039
++ GCC_except_table7043
++ GCC_except_table7045
++ GCC_except_table7046
++ GCC_except_table7055
++ GCC_except_table7057
++ GCC_except_table7147
++ GCC_except_table7148
++ GCC_except_table715
++ GCC_except_table7151
++ GCC_except_table7155
++ GCC_except_table7156
++ GCC_except_table7159
++ GCC_except_table7160
++ GCC_except_table7161
++ GCC_except_table7162
++ GCC_except_table720
++ GCC_except_table743
++ GCC_except_table7442
++ GCC_except_table7445
++ GCC_except_table7447
++ GCC_except_table754
++ GCC_except_table7573
++ GCC_except_table7579
++ GCC_except_table7580
++ GCC_except_table762
++ GCC_except_table7632
++ GCC_except_table766
++ GCC_except_table7663
++ GCC_except_table7664
++ GCC_except_table7665
++ GCC_except_table7666
++ GCC_except_table7670
++ GCC_except_table7671
++ GCC_except_table7672
++ GCC_except_table7673
++ GCC_except_table769
++ GCC_except_table7696
++ GCC_except_table7720
++ GCC_except_table7721
++ GCC_except_table7738
++ GCC_except_table774
++ GCC_except_table7762
++ GCC_except_table7772
++ GCC_except_table7773
++ GCC_except_table7774
++ GCC_except_table7778
++ GCC_except_table7780
++ GCC_except_table7781
++ GCC_except_table7782
++ GCC_except_table7788
++ GCC_except_table7795
++ GCC_except_table7797
++ GCC_except_table7799
++ GCC_except_table780
++ GCC_except_table7801
++ GCC_except_table7807
++ GCC_except_table7809
++ GCC_except_table7810
++ GCC_except_table7812
++ GCC_except_table7813
++ GCC_except_table7814
++ GCC_except_table7829
++ GCC_except_table7871
++ GCC_except_table7881
++ GCC_except_table7882
++ GCC_except_table7886
++ GCC_except_table7887
++ GCC_except_table7956
++ GCC_except_table8067
++ GCC_except_table8088
++ GCC_except_table8230
++ GCC_except_table8269
++ GCC_except_table8416
++ GCC_except_table8567
++ GCC_except_table8610
++ GCC_except_table8646
++ GCC_except_table8788
++ GCC_except_table8791
++ GCC_except_table8792
++ GCC_except_table8795
++ GCC_except_table8846
++ GCC_except_table9066
++ GCC_except_table9067
++ GCC_except_table9068
++ GCC_except_table9071
++ GCC_except_table9172
++ GCC_except_table9177
++ GCC_except_table9306
++ GCC_except_table9308
++ GCC_except_table9311
++ GCC_except_table9332
++ GCC_except_table9668
++ GCC_except_table9896
++ GCC_except_table9929
++ GCC_except_table9954
++ GCC_except_table9967
++ GCC_except_table9968
++ GCC_except_table9998
++ _CADevicePrefers60HzAPT
++ _CARenderServerFlushIRDC
++ _CASupportsFeature
++ _OBJC_CLASS_$_CASecureIndicatorLayer
++ _OBJC_IVAR_$_CADisplayStateControl._seed
++ _OBJC_METACLASS_$_CASecureIndicatorLayer
++ _SILManagerCreate
++ _SILManagerFrameNumberFromBounds
++ _SILManagerIndicatorExtent
++ _SILManagerIndicatorFrameExtent
++ _SILManagerRelease
++ _SILManagerSetDisplaySize
++ _SILManagerSetLogLevel
++ _SILManagerSetPower
++ _SILManagerSwap
++ _SILManagerTurnOffRegions
++ __OBJC_$_CLASS_METHODS_CASecureIndicatorLayer
++ __OBJC_$_INSTANCE_METHODS_CASecureIndicatorLayer
++ __OBJC_$_PROP_LIST_CASecureIndicatorLayer
++ __OBJC_CLASS_RO_$_CASecureIndicatorLayer
++ __OBJC_METACLASS_RO_$_CASecureIndicatorLayer
++ __XFlushIRDC
++ __Z35iomfb_swap_set_indicator_brightnessP21__IOMobileFramebufferbf
++ __ZL10write_attrjPKv12_CAValueTypePv.18989
++ __ZL11block_ctors.15393
++ __ZL11initialized.16741
++ __ZL12collect_slot.10024
++ __ZL14caMachPortHashPKv
++ __ZL14g_sil_mgr_inst
++ __ZL14release_samplejyPv.10025
++ __ZL15caMachPortEqualPKvS0_
++ __ZL15copy_dictionaryjPKv12_CAValueTypePv.19011
++ __ZL15lowLatency_atom.10249
++ __ZL16lowWorkload_atom
++ __ZL21will_suspend_callbackPN2CA6Render6ObjectEPvS3_.6731
++ __ZL24cleanup_stale_indicatorsv
++ __ZL24layer_collectable_signalP13_CAImageQueuePv.10050
++ __ZL28presentsWithTransaction_atom.10110
++ __ZL5blackv.18841
++ __ZL8set_attrPKvS0_Pv.19003
++ __ZL9copy_attrjPKv12_CAValueTypePv.19013
++ __ZN2CA12WindowServer11IOMFBServer10flush_irdcEPNS_6Render6ObjectEPvS5_
++ __ZN2CA12WindowServer11IOMFBServer16immediate_renderEb
++ __ZN2CA12WindowServer11IOMFBServer20update_vbl_thresholdEy
++ __ZN2CA12WindowServer12IOMFBDisplay10flush_irdcEv
++ __ZN2CA12WindowServer12IOMFBDisplay21hide_secure_indicatorEj
++ __ZN2CA12WindowServer12IOMFBDisplay21swap_secure_indicatorEiNS_4Vec2IfEES3_ffPb
++ __ZN2CA12WindowServer12IOMFBDisplay26set_secure_indicator_stateEbb
++ __ZN2CA12WindowServer12IOMFBDisplay29set_secure_indicator_callbackEU13block_pointerFvhjjE
++ __ZN2CA12WindowServer12IOMFBDisplay39set_secure_indicator_animating_deadlineEd
++ __ZN2CA12WindowServer12IOMFBDisplay41reset_secure_indicator_animating_deadlineEv
++ __ZN2CA12WindowServer12IOMFBDisplay41update_server_source_frame_interval_rangeERK20CAFrameIntervalRangebb
++ __ZN2CA12WindowServer6SILMgr15turn_off_regionEh
++ __ZN2CA12WindowServer6SILMgr19swap_region_privateEhNS1_11RegionStateEPb
++ __ZN2CA12WindowServer6SILMgr9set_powerEb
++ __ZN2CA12WindowServer6Server13set_irdc_hintEv
++ __ZN2CA12WindowServer6Server16immediate_renderEb
++ __ZN2CA12WindowServer6Server17set_display_stateENS0_12DisplayStateEhj
++ __ZN2CA12WindowServer6Server20update_vbl_thresholdEy
++ __ZN2CA12WindowServer7Display10flush_irdcEv
++ __ZN2CA12WindowServer7Display20complete_powering_onEv
++ __ZN2CA12WindowServer7Display21hide_secure_indicatorEj
++ __ZN2CA12WindowServer7Display21swap_secure_indicatorEiNS_4Vec2IfEES3_ffPb
++ __ZN2CA12WindowServer7Display26set_secure_indicator_stateEbb
++ __ZN2CA12WindowServer7Display29set_secure_indicator_callbackEU13block_pointerFvhjjE
++ __ZN2CA12WindowServer7Display39set_secure_indicator_animating_deadlineEd
++ __ZN2CA12WindowServer7Display41reset_secure_indicator_animating_deadlineEv
++ __ZN2CA12WindowServer7Display41update_server_source_frame_interval_rangeERK20CAFrameIntervalRangebb
++ __ZN2CA12WindowServerL10null_timerEP16__CFRunLoopTimerPv.16156
++ __ZN2CA3OGLL14ycbcr_matricesE.8891
++ __ZN2CA3OGLL40should_render_secure_indicators_with_gpuERKNS0_8RendererE
++ __ZN2CA6Render10ImageQueue10forward_dmEPNS0_7ContextEPNS0_6UpdateEfibbPb
++ __ZN2CA6Render20SecureIndicatorLayerC1EPNS0_7DecoderE
++ __ZN2CA6Render20SecureIndicatorLayerD0Ev
++ __ZN2CA6Render20SecureIndicatorLayerD1Ev
++ __ZN2CA6Render6Server10timer_portEv
++ __ZN2CA6Render6Server11_timer_portE
++ __ZN2CA6Render7Context10did_commitEbNS0_24UpdateOrSamplingDeadlineEbb
++ __ZN2CA6Render7Context12mark_changedEbbNS0_24UpdateOrSamplingDeadlineE
++ __ZN2CA6RenderL18release_deallocateEPKvPv.11695
++ __ZN2CA6RenderL18release_image_dataEPKvPv.21615
++ __ZN2CA6RenderL29should_invalidate_tonemappingEffff
++ __ZNK2CA12WindowServer12IOMFBDisplay23secure_indicator_activeEv
++ __ZNK2CA12WindowServer12IOMFBDisplay28print_secure_indicator_stateEP15x_stream_struct
++ __ZNK2CA12WindowServer12IOMFBDisplay35secure_indicator_animating_deadlineEv
++ __ZNK2CA12WindowServer7Display23secure_indicator_activeEv
++ __ZNK2CA12WindowServer7Display28print_secure_indicator_stateEP15x_stream_struct
++ __ZNK2CA12WindowServer7Display35secure_indicator_animating_deadlineEv
++ __ZNK2CA6Render20SecureIndicatorLayer14has_backgroundEPKNS0_5LayerERb
++ __ZNK2CA6Render20SecureIndicatorLayer14visit_subclassERKNS0_20LayerSubclassVisitorE
++ __ZNK2CA6Render20SecureIndicatorLayer4copyEv
++ __ZNK2CA6Render20SecureIndicatorLayer4showEjj
++ __ZNK2CA6Render20SecureIndicatorLayer6encodeEPNS0_7EncoderE
++ __ZTVN2CA6Render20SecureIndicatorLayerE
++ __ZThn928_N2CA12WindowServer11AccelServer10test_fenceEm
++ __ZThn928_N2CA12WindowServer11AccelServer12delete_fenceEm
++ __ZThn928_N2CA12WindowServer11AccelServer15supports_fencesEv
++ __ZThn928_N2CA12WindowServer11AccelServer20flush_command_streamEv
++ __ZThn928_N2CA12WindowServer11AccelServer9set_fenceEv
++ __ZZ22CADeviceNeedsIRDCFlushE1b
++ __ZZ22CADeviceNeedsIRDCFlushE4once
++ __ZZ22CADeviceSupportsMedinaE4once
++ __ZZ22CADeviceSupportsMedinaE6medina
++ __ZZ35CADeviceSupportsOddQuantaFrameRatesE4once
++ __ZZ35CADeviceSupportsOddQuantaFrameRatesE7enabled
++ __ZZ36CADeviceSupportsNextSwapAnnouncementE1b
++ __ZZL16defines_propertyjE5atoms.16063
++ __ZZL16defines_propertyjE5atoms.21785
++ __ZZN2CA12WindowServer12IOMFBDisplay21set_preset_propertiesENS0_7Display16PresetPropertiesEE10adaptation
++ __ZZN2CA12WindowServer12IOMFBDisplay21set_preset_propertiesENS0_7Display16PresetPropertiesEE13cone_response
++ __ZZN2CA3OGL15render_subclassERNS0_8RendererEPKNS0_5LayerEENK7visitor14visit_subclassEPKNS_6Render20SecureIndicatorLayerE
++ __ZZN2CA3OGL19prepare_layer_imageERNS0_8RendererEPNS0_5LayerERKNS0_6GstateEENK7visitor14visit_subclassEPKNS_6Render20SecureIndicatorLayerE
++ __ZZNK2CA12WindowServer6SILMgr11print_stateEP15x_stream_structE18indicator_type_str
++ __ZZNK2CA6Render20SecureIndicatorLayer4showEjjE5names
++ ___60-[CAWindowServerDisplay registerForNotifications:withBlock:]_block_invoke_5
++ ___Block_byref_object_copy_.12286
++ ___Block_byref_object_copy_.14558
++ ___Block_byref_object_copy_.19201
++ ___Block_byref_object_dispose_.12287
++ ___Block_byref_object_dispose_.14559
++ ___Block_byref_object_dispose_.19202
++ ___CADeviceNeedsIRDCFlush_block_invoke
++ ___CADeviceSupportsMedina_block_invoke
++ ___CADeviceSupportsOddQuantaFrameRates_block_invoke
++ ____ZL15ensure_displaysv_block_invoke.874
++ ____ZN2CA12WindowServer11IOMFBServer16immediate_renderEb_block_invoke
++ ____ZN2CA12WindowServer11IOMFBServer16immediate_renderEb_block_invoke_2
++ ____ZN2CA12WindowServer12IOMFBDisplay21set_tonemapping_stateEPNS_6Render6UpdateEPKNS0_7SurfaceEjPP12CGColorSpace_block_invoke.65
++ ___block_descriptor_158_e8_32o40b_e5_v8?0ls32l8s40l8
++ ___block_descriptor_40_e8_32o_e14_v20?0C8I12I16ls32l8
++ ___block_descriptor_tmp.1.15934
++ ___block_descriptor_tmp.1.16982
++ ___block_descriptor_tmp.1.18564
++ ___block_descriptor_tmp.101
++ ___block_descriptor_tmp.102.16167
++ ___block_descriptor_tmp.10487
++ ___block_descriptor_tmp.109
++ ___block_descriptor_tmp.10972
++ ___block_descriptor_tmp.11.16994
++ ___block_descriptor_tmp.11312
++ ___block_descriptor_tmp.12.19206
++ ___block_descriptor_tmp.12648
++ ___block_descriptor_tmp.12754
++ ___block_descriptor_tmp.13.16950
++ ___block_descriptor_tmp.13002
++ ___block_descriptor_tmp.13627
++ ___block_descriptor_tmp.138
++ ___block_descriptor_tmp.141.11445
++ ___block_descriptor_tmp.146
++ ___block_descriptor_tmp.14726
++ ___block_descriptor_tmp.15674
++ ___block_descriptor_tmp.15933
++ ___block_descriptor_tmp.16217
++ ___block_descriptor_tmp.16818
++ ___block_descriptor_tmp.16976
++ ___block_descriptor_tmp.17.16996
++ ___block_descriptor_tmp.17069
++ ___block_descriptor_tmp.17323
++ ___block_descriptor_tmp.177
++ ___block_descriptor_tmp.17971
++ ___block_descriptor_tmp.180
++ ___block_descriptor_tmp.18563
++ ___block_descriptor_tmp.19.21208
++ ___block_descriptor_tmp.19204
++ ___block_descriptor_tmp.19271
++ ___block_descriptor_tmp.198
++ ___block_descriptor_tmp.2.4738
++ ___block_descriptor_tmp.206.15589
++ ___block_descriptor_tmp.20709
++ ___block_descriptor_tmp.21204
++ ___block_descriptor_tmp.22122
++ ___block_descriptor_tmp.225
++ ___block_descriptor_tmp.241
++ ___block_descriptor_tmp.251
++ ___block_descriptor_tmp.2651
++ ___block_descriptor_tmp.268
++ ___block_descriptor_tmp.277
++ ___block_descriptor_tmp.28.21248
++ ___block_descriptor_tmp.283
++ ___block_descriptor_tmp.286
++ ___block_descriptor_tmp.292
++ ___block_descriptor_tmp.298
++ ___block_descriptor_tmp.3.16220
++ ___block_descriptor_tmp.304
++ ___block_descriptor_tmp.307
++ ___block_descriptor_tmp.316
++ ___block_descriptor_tmp.3170
++ ___block_descriptor_tmp.326
++ ___block_descriptor_tmp.33
++ ___block_descriptor_tmp.3372
++ ___block_descriptor_tmp.343
++ ___block_descriptor_tmp.358
++ ___block_descriptor_tmp.366
++ ___block_descriptor_tmp.370
++ ___block_descriptor_tmp.377
++ ___block_descriptor_tmp.3977
++ ___block_descriptor_tmp.4.16985
++ ___block_descriptor_tmp.430
++ ___block_descriptor_tmp.44.11357
++ ___block_descriptor_tmp.44.12884
++ ___block_descriptor_tmp.447
++ ___block_descriptor_tmp.453
++ ___block_descriptor_tmp.4608
++ ___block_descriptor_tmp.4741
++ ___block_descriptor_tmp.5.16936
++ ___block_descriptor_tmp.50.12729
++ ___block_descriptor_tmp.5031
++ ___block_descriptor_tmp.516
++ ___block_descriptor_tmp.5517
++ ___block_descriptor_tmp.578
++ ___block_descriptor_tmp.5789
++ ___block_descriptor_tmp.580
++ ___block_descriptor_tmp.583
++ ___block_descriptor_tmp.59.20055
++ ___block_descriptor_tmp.61.20045
++ ___block_descriptor_tmp.6162
++ ___block_descriptor_tmp.6320
++ ___block_descriptor_tmp.64
++ ___block_descriptor_tmp.68
++ ___block_descriptor_tmp.68.20046
++ ___block_descriptor_tmp.7.16978
++ ___block_descriptor_tmp.7162
++ ___block_descriptor_tmp.7352
++ ___block_descriptor_tmp.75
++ ___block_descriptor_tmp.76
++ ___block_descriptor_tmp.77
++ ___block_descriptor_tmp.8.15677
++ ___block_descriptor_tmp.8.16940
++ ___block_descriptor_tmp.81.11395
++ ___block_descriptor_tmp.8175
++ ___block_descriptor_tmp.82.13695
++ ___block_descriptor_tmp.8369
++ ___block_descriptor_tmp.84.16143
++ ___block_descriptor_tmp.8586
++ ___block_descriptor_tmp.9.16947
++ ___block_descriptor_tmp.901
++ ___block_descriptor_tmp.93.16316
++ ___block_descriptor_tmp.9476
++ ___block_literal_global.10045
++ ___block_literal_global.1061
++ ___block_literal_global.11056
++ ___block_literal_global.11310
++ ___block_literal_global.12366
++ ___block_literal_global.12646
++ ___block_literal_global.12752
++ ___block_literal_global.134.21935
++ ___block_literal_global.13623
++ ___block_literal_global.140
++ ___block_literal_global.143.11443
++ ___block_literal_global.14489
++ ___block_literal_global.14755
++ ___block_literal_global.15777
++ ___block_literal_global.16215
++ ___block_literal_global.16816
++ ___block_literal_global.16903
++ ___block_literal_global.16974
++ ___block_literal_global.17067
++ ___block_literal_global.17170
++ ___block_literal_global.17315
++ ___block_literal_global.17539
++ ___block_literal_global.18442
++ ___block_literal_global.18622
++ ___block_literal_global.19203
++ ___block_literal_global.19263
++ ___block_literal_global.200
++ ___block_literal_global.20044
++ ___block_literal_global.208.15466
++ ___block_literal_global.21.21206
++ ___block_literal_global.21185
++ ___block_literal_global.21198
++ ___block_literal_global.21952
++ ___block_literal_global.22058
++ ___block_literal_global.227
++ ___block_literal_global.243
++ ___block_literal_global.253
++ ___block_literal_global.2649
++ ___block_literal_global.270
++ ___block_literal_global.279
++ ___block_literal_global.285
++ ___block_literal_global.288
++ ___block_literal_global.294
++ ___block_literal_global.2985
++ ___block_literal_global.300.11543
++ ___block_literal_global.306.11550
++ ___block_literal_global.309
++ ___block_literal_global.3168
++ ___block_literal_global.318
++ ___block_literal_global.328
++ ___block_literal_global.335
++ ___block_literal_global.3368
++ ___block_literal_global.345
++ ___block_literal_global.35
++ ___block_literal_global.360
++ ___block_literal_global.368
++ ___block_literal_global.37.11347
++ ___block_literal_global.372
++ ___block_literal_global.379
++ ___block_literal_global.3960
++ ___block_literal_global.432
++ ___block_literal_global.449
++ ___block_literal_global.455
++ ___block_literal_global.46.12880
++ ___block_literal_global.4606
++ ___block_literal_global.4737
++ ___block_literal_global.474
++ ___block_literal_global.479
++ ___block_literal_global.483
++ ___block_literal_global.494
++ ___block_literal_global.5002
++ ___block_literal_global.5029
++ ___block_literal_global.52.12724
++ ___block_literal_global.5515
++ ___block_literal_global.5787
++ ___block_literal_global.6160
++ ___block_literal_global.6336
++ ___block_literal_global.7160
++ ___block_literal_global.7341
++ ___block_literal_global.7985
++ ___block_literal_global.8172
++ ___block_literal_global.83.11393
++ ___block_literal_global.8367
++ ___block_literal_global.8584
++ ___block_literal_global.864
++ ___block_literal_global.867
++ ___block_literal_global.871
++ ___block_literal_global.876
++ ___block_literal_global.889
++ ___block_literal_global.892
++ ___block_literal_global.9474
++ ___block_literal_global.95.16313
++ ___block_literal_global.9536
++ __os_feature_enabled_impl
++ __unnamed_array_storage.14494
++ __unnamed_array_storage.14565
++ __unnamed_array_storage.14827
++ _kCABrightnessNotificationSecureIndicatorActiveCount
++ _kCABrightnessNotificationSecureIndicatorOff
++ _kCABrightnessNotificationSecureIndicatorOn
++ _kCABrightnessNotificationSecureIndicatorType
++ _kCAPrivacyIndicatorTypeCamera
++ _kCAPrivacyIndicatorTypeFaceID
++ _kCAPrivacyIndicatorTypeMicrophone
++ _kCAPrivacyIndicatorTypeMicrophoneAccessibility
++ _kSILManagerCreationInfoID
++ _kSILManagerCreationInfoSimulatorFramebuffer
++ _kSILManagerCreationInfoSimulatorLayerID
++ _mach_port_destruct
++ _objc_msgSend$didChangeToState:seed:result:
++ _objc_msgSend$frameNumber
++ _objc_msgSend$lowWorkload
++ _objc_msgSend$privacyIndicatorType
++ _objc_msgSend$valueWithPointer:
++ _x_heap_calloc
++ _x_log_category_secure_indicators
+- -[CADisplayStateControl(Internal) didChangeToState:result:]
+- GCC_except_table10082
+- GCC_except_table10083
+- GCC_except_table10119
+- GCC_except_table10124
+- GCC_except_table10137
+- GCC_except_table10284
+- GCC_except_table10290
+- GCC_except_table10294
+- GCC_except_table10303
+- GCC_except_table10346
+- GCC_except_table1040
+- GCC_except_table10460
+- GCC_except_table10461
+- GCC_except_table10462
+- GCC_except_table10465
+- GCC_except_table1081
+- GCC_except_table1083
+- GCC_except_table1090
+- GCC_except_table1095
+- GCC_except_table1113
+- GCC_except_table1119
+- GCC_except_table1120
+- GCC_except_table1125
+- GCC_except_table1127
+- GCC_except_table1128
+- GCC_except_table1254
+- GCC_except_table1405
+- GCC_except_table1414
+- GCC_except_table1420
+- GCC_except_table1675
+- GCC_except_table1849
+- GCC_except_table1978
+- GCC_except_table1979
+- GCC_except_table1981
+- GCC_except_table1983
+- GCC_except_table1987
+- GCC_except_table2022
+- GCC_except_table2023
+- GCC_except_table2026
+- GCC_except_table2027
+- GCC_except_table2028
+- GCC_except_table2031
+- GCC_except_table2032
+- GCC_except_table2033
+- GCC_except_table2034
+- GCC_except_table2036
+- GCC_except_table2060
+- GCC_except_table2080
+- GCC_except_table2081
+- GCC_except_table2086
+- GCC_except_table2099
+- GCC_except_table2100
+- GCC_except_table2103
+- GCC_except_table2113
+- GCC_except_table2119
+- GCC_except_table2138
+- GCC_except_table2139
+- GCC_except_table2144
+- GCC_except_table215
+- GCC_except_table2156
+- GCC_except_table2157
+- GCC_except_table2158
+- GCC_except_table2160
+- GCC_except_table2190
+- GCC_except_table2191
+- GCC_except_table2196
+- GCC_except_table2208
+- GCC_except_table2262
+- GCC_except_table2311
+- GCC_except_table2320
+- GCC_except_table2323
+- GCC_except_table2334
+- GCC_except_table2337
+- GCC_except_table2357
+- GCC_except_table2360
+- GCC_except_table2374
+- GCC_except_table2377
+- GCC_except_table2379
+- GCC_except_table2381
+- GCC_except_table2405
+- GCC_except_table250
+- GCC_except_table253
+- GCC_except_table256
+- GCC_except_table262
+- GCC_except_table265
+- GCC_except_table268
+- GCC_except_table271
+- GCC_except_table2783
+- GCC_except_table2788
+- GCC_except_table3273
+- GCC_except_table3274
+- GCC_except_table3276
+- GCC_except_table3349
+- GCC_except_table3362
+- GCC_except_table3363
+- GCC_except_table3804
+- GCC_except_table3805
+- GCC_except_table3809
+- GCC_except_table3810
+- GCC_except_table3811
+- GCC_except_table3815
+- GCC_except_table3817
+- GCC_except_table3824
+- GCC_except_table3838
+- GCC_except_table3840
+- GCC_except_table3855
+- GCC_except_table3857
+- GCC_except_table3858
+- GCC_except_table3860
+- GCC_except_table3861
+- GCC_except_table3862
+- GCC_except_table3867
+- GCC_except_table3871
+- GCC_except_table4023
+- GCC_except_table4026
+- GCC_except_table4046
+- GCC_except_table4056
+- GCC_except_table4057
+- GCC_except_table415
+- GCC_except_table420
+- GCC_except_table423
+- GCC_except_table425
+- GCC_except_table431
+- GCC_except_table436
+- GCC_except_table439
+- GCC_except_table4439
+- GCC_except_table4441
+- GCC_except_table4445
+- GCC_except_table445
+- GCC_except_table4462
+- GCC_except_table4465
+- GCC_except_table4478
+- GCC_except_table4479
+- GCC_except_table4486
+- GCC_except_table450
+- GCC_except_table4505
+- GCC_except_table4512
+- GCC_except_table4514
+- GCC_except_table4517
+- GCC_except_table4532
+- GCC_except_table4547
+- GCC_except_table4548
+- GCC_except_table4553
+- GCC_except_table4555
+- GCC_except_table4557
+- GCC_except_table4559
+- GCC_except_table456
+- GCC_except_table4560
+- GCC_except_table459
+- GCC_except_table4610
+- GCC_except_table463
+- GCC_except_table466
+- GCC_except_table4662
+- GCC_except_table4663
+- GCC_except_table4666
+- GCC_except_table4667
+- GCC_except_table4669
+- GCC_except_table4676
+- GCC_except_table471
+- GCC_except_table484
+- GCC_except_table489
+- GCC_except_table496
+- GCC_except_table4974
+- GCC_except_table4980
+- GCC_except_table4982
+- GCC_except_table4990
+- GCC_except_table500
+- GCC_except_table5000
+- GCC_except_table5023
+- GCC_except_table5045
+- GCC_except_table5076
+- GCC_except_table5089
+- GCC_except_table5166
+- GCC_except_table5195
+- GCC_except_table5219
+- GCC_except_table5227
+- GCC_except_table5268
+- GCC_except_table5278
+- GCC_except_table528
+- GCC_except_table5327
+- GCC_except_table5329
+- GCC_except_table5333
+- GCC_except_table5353
+- GCC_except_table5355
+- GCC_except_table5359
+- GCC_except_table5360
+- GCC_except_table5364
+- GCC_except_table5365
+- GCC_except_table542
+- GCC_except_table5584
+- GCC_except_table5944
+- GCC_except_table5952
+- GCC_except_table5953
+- GCC_except_table5954
+- GCC_except_table5966
+- GCC_except_table5967
+- GCC_except_table5972
+- GCC_except_table5974
+- GCC_except_table5975
+- GCC_except_table5995
+- GCC_except_table6002
+- GCC_except_table6003
+- GCC_except_table6005
+- GCC_except_table6007
+- GCC_except_table6010
+- GCC_except_table6013
+- GCC_except_table6014
+- GCC_except_table6015
+- GCC_except_table6017
+- GCC_except_table6026
+- GCC_except_table6028
+- GCC_except_table6046
+- GCC_except_table612
+- GCC_except_table614
+- GCC_except_table619
+- GCC_except_table6238
+- GCC_except_table6240
+- GCC_except_table628
+- GCC_except_table632
+- GCC_except_table636
+- GCC_except_table6362
+- GCC_except_table640
+- GCC_except_table6413
+- GCC_except_table6416
+- GCC_except_table6418
+- GCC_except_table644
+- GCC_except_table648
+- GCC_except_table6507
+- GCC_except_table651
+- GCC_except_table6511
+- GCC_except_table655
+- GCC_except_table6554
+- GCC_except_table6556
+- GCC_except_table6557
+- GCC_except_table6559
+- GCC_except_table6560
+- GCC_except_table6561
+- GCC_except_table6564
+- GCC_except_table6575
+- GCC_except_table6583
+- GCC_except_table6606
+- GCC_except_table661
+- GCC_except_table663
+- GCC_except_table668
+- GCC_except_table671
+- GCC_except_table6710
+- GCC_except_table6715
+- GCC_except_table6716
+- GCC_except_table6719
+- GCC_except_table6720
+- GCC_except_table6725
+- GCC_except_table6727
+- GCC_except_table6729
+- GCC_except_table673
+- GCC_except_table6730
+- GCC_except_table6733
+- GCC_except_table6736
+- GCC_except_table6739
+- GCC_except_table6742
+- GCC_except_table6749
+- GCC_except_table675
+- GCC_except_table6750
+- GCC_except_table6753
+- GCC_except_table6754
+- GCC_except_table6762
+- GCC_except_table6764
+- GCC_except_table6767
+- GCC_except_table6776
+- GCC_except_table6778
+- GCC_except_table6782
+- GCC_except_table6784
+- GCC_except_table6786
+- GCC_except_table6787
+- GCC_except_table6788
+- GCC_except_table6789
+- GCC_except_table6792
+- GCC_except_table6793
+- GCC_except_table6797
+- GCC_except_table6806
+- GCC_except_table6837
+- GCC_except_table6849
+- GCC_except_table685
+- GCC_except_table6857
+- GCC_except_table6859
+- GCC_except_table6873
+- GCC_except_table6875
+- GCC_except_table6883
+- GCC_except_table693
+- GCC_except_table696
+- GCC_except_table6970
+- GCC_except_table6972
+- GCC_except_table6978
+- GCC_except_table6979
+- GCC_except_table6980
+- GCC_except_table6981
+- GCC_except_table6982
+- GCC_except_table6983
+- GCC_except_table6984
+- GCC_except_table6998
+- GCC_except_table7002
+- GCC_except_table7004
+- GCC_except_table7005
+- GCC_except_table7014
+- GCC_except_table7016
+- GCC_except_table702
+- GCC_except_table7106
+- GCC_except_table7107
+- GCC_except_table7110
+- GCC_except_table7114
+- GCC_except_table7115
+- GCC_except_table7118
+- GCC_except_table7119
+- GCC_except_table7120
+- GCC_except_table7121
+- GCC_except_table714
+- GCC_except_table719
+- GCC_except_table7400
+- GCC_except_table7403
+- GCC_except_table7405
+- GCC_except_table741
+- GCC_except_table753
+- GCC_except_table7531
+- GCC_except_table7537
+- GCC_except_table7538
+- GCC_except_table7588
+- GCC_except_table761
+- GCC_except_table7618
+- GCC_except_table7619
+- GCC_except_table7620
+- GCC_except_table7621
+- GCC_except_table7625
+- GCC_except_table7626
+- GCC_except_table7627
+- GCC_except_table7628
+- GCC_except_table765
+- GCC_except_table7651
+- GCC_except_table7674
+- GCC_except_table7675
+- GCC_except_table7676
+- GCC_except_table768
+- GCC_except_table7689
+- GCC_except_table7692
+- GCC_except_table7716
+- GCC_except_table7717
+- GCC_except_table772
+- GCC_except_table7726
+- GCC_except_table7727
+- GCC_except_table7728
+- GCC_except_table7732
+- GCC_except_table7734
+- GCC_except_table7736
+- GCC_except_table7742
+- GCC_except_table7749
+- GCC_except_table7751
+- GCC_except_table7753
+- GCC_except_table7755
+- GCC_except_table776
+- GCC_except_table7761
+- GCC_except_table7764
+- GCC_except_table7766
+- GCC_except_table7767
+- GCC_except_table7783
+- GCC_except_table7825
+- GCC_except_table7835
+- GCC_except_table7836
+- GCC_except_table7840
+- GCC_except_table7841
+- GCC_except_table7910
+- GCC_except_table8021
+- GCC_except_table8042
+- GCC_except_table8184
+- GCC_except_table8223
+- GCC_except_table8370
+- GCC_except_table8520
+- GCC_except_table8562
+- GCC_except_table8597
+- GCC_except_table8739
+- GCC_except_table8742
+- GCC_except_table8743
+- GCC_except_table8746
+- GCC_except_table8796
+- GCC_except_table9016
+- GCC_except_table9017
+- GCC_except_table9018
+- GCC_except_table9021
+- GCC_except_table9114
+- GCC_except_table9119
+- GCC_except_table9248
+- GCC_except_table9250
+- GCC_except_table9253
+- GCC_except_table9274
+- GCC_except_table9610
+- GCC_except_table9862
+- GCC_except_table9887
+- GCC_except_table9900
+- GCC_except_table9901
+- GCC_except_table9931
+- GCC_except_table9959
+- GCC_except_table9963
+- GCC_except_table9969
+- GCC_except_table9975
+- __ZL10write_attrjPKv12_CAValueTypePv.18807
+- __ZL11block_ctors.15267
+- __ZL11initialized.16597
+- __ZL12collect_slot.9911
+- __ZL14release_samplejyPv.9912
+- __ZL15copy_dictionaryjPKv12_CAValueTypePv.18829
+- __ZL15lowLatency_atom.10150
+- __ZL21will_suspend_callbackPN2CA6Render6ObjectEPvS3_.6621
+- __ZL24layer_collectable_signalP13_CAImageQueuePv.9946
+- __ZL28presentsWithTransaction_atom.10008
+- __ZL5blackv.18659
+- __ZL8set_attrPKvS0_Pv.18821
+- __ZL9copy_attrjPKv12_CAValueTypePv.18831
+- __ZN2CA12WindowServer11IOMFBServer16immediate_renderEv
+- __ZN2CA12WindowServer11IOMFBServer20update_vbl_thresholdEyb
+- __ZN2CA12WindowServer12IOMFBDisplay41update_server_source_frame_interval_rangeERK20CAFrameIntervalRangeb
+- __ZN2CA12WindowServer6Server16immediate_renderEv
+- __ZN2CA12WindowServer6Server17set_display_stateENS0_12DisplayStateEj
+- __ZN2CA12WindowServer6Server20update_vbl_thresholdEyb
+- __ZN2CA12WindowServer7Display41update_server_source_frame_interval_rangeERK20CAFrameIntervalRangeb
+- __ZN2CA12WindowServerL10null_timerEP16__CFRunLoopTimerPv.16014
+- __ZN2CA3OGLL14ycbcr_matricesE.8779
+- __ZN2CA6Render10ImageQueue10forward_dmEPNS0_7ContextEPNS0_6UpdateEfibb
+- __ZN2CA6Render7Context10did_commitEbNS0_24UpdateOrSamplingDeadlineEb
+- __ZN2CA6Render7Context12mark_changedEbNS0_24UpdateOrSamplingDeadlineE
+- __ZN2CA6RenderL18release_deallocateEPKvPv.11577
+- __ZN2CA6RenderL18release_image_dataEPKvPv.21373
+- __ZThn920_N2CA12WindowServer11AccelServer10test_fenceEm
+- __ZThn920_N2CA12WindowServer11AccelServer12delete_fenceEm
+- __ZThn920_N2CA12WindowServer11AccelServer15supports_fencesEv
+- __ZThn920_N2CA12WindowServer11AccelServer20flush_command_streamEv
+- __ZThn920_N2CA12WindowServer11AccelServer9set_fenceEv
+- __ZZL16defines_propertyjE5atoms.15922
+- __ZZL16defines_propertyjE5atoms.21543
+- ___Block_byref_object_copy_.12165
+- ___Block_byref_object_copy_.14429
+- ___Block_byref_object_copy_.19019
+- ___Block_byref_object_dispose_.12166
+- ___Block_byref_object_dispose_.14430
+- ___Block_byref_object_dispose_.19020
+- ____ZL15ensure_displaysv_block_invoke.875
+- ____ZN2CA12WindowServer11IOMFBServer16immediate_renderEv_block_invoke
+- ____ZN2CA12WindowServer12IOMFBDisplay21set_tonemapping_stateEPNS_6Render6UpdateEPKNS0_7SurfaceEjPP12CGColorSpace_block_invoke.64
+- ___block_descriptor_157_e8_32o40b_e5_v8?0ls32l8s40l8
+- ___block_descriptor_tmp.1.15793
+- ___block_descriptor_tmp.1.16838
+- ___block_descriptor_tmp.1.18383
+- ___block_descriptor_tmp.10389
+- ___block_descriptor_tmp.108.20395
+- ___block_descriptor_tmp.10874
+- ___block_descriptor_tmp.11.16850
+- ___block_descriptor_tmp.11210
+- ___block_descriptor_tmp.12.19024
+- ___block_descriptor_tmp.12525
+- ___block_descriptor_tmp.12631
+- ___block_descriptor_tmp.12879
+- ___block_descriptor_tmp.13.16806
+- ___block_descriptor_tmp.13504
+- ___block_descriptor_tmp.137
+- ___block_descriptor_tmp.141.11345
+- ___block_descriptor_tmp.141.15478
+- ___block_descriptor_tmp.14597
+- ___block_descriptor_tmp.15537
+- ___block_descriptor_tmp.15792
+- ___block_descriptor_tmp.16074
+- ___block_descriptor_tmp.16674
+- ___block_descriptor_tmp.16781
+- ___block_descriptor_tmp.16832
+- ___block_descriptor_tmp.17.16852
+- ___block_descriptor_tmp.17181
+- ___block_descriptor_tmp.172
+- ___block_descriptor_tmp.175.15659
+- ___block_descriptor_tmp.17831
+- ___block_descriptor_tmp.18382
+- ___block_descriptor_tmp.19.20966
+- ___block_descriptor_tmp.19022
+- ___block_descriptor_tmp.19089
+- ___block_descriptor_tmp.193.15369
+- ___block_descriptor_tmp.2.4673
+- ___block_descriptor_tmp.201
+- ___block_descriptor_tmp.20468
+- ___block_descriptor_tmp.20962
+- ___block_descriptor_tmp.21880
+- ___block_descriptor_tmp.221
+- ___block_descriptor_tmp.233
+- ___block_descriptor_tmp.239
+- ___block_descriptor_tmp.245
+- ___block_descriptor_tmp.252
+- ___block_descriptor_tmp.258
+- ___block_descriptor_tmp.2653
+- ___block_descriptor_tmp.267
+- ___block_descriptor_tmp.273
+- ___block_descriptor_tmp.279
+- ___block_descriptor_tmp.28.21006
+- ___block_descriptor_tmp.282
+- ___block_descriptor_tmp.291
+- ___block_descriptor_tmp.3.16077
+- ___block_descriptor_tmp.308
+- ___block_descriptor_tmp.3172
+- ___block_descriptor_tmp.32
+- ___block_descriptor_tmp.323
+- ___block_descriptor_tmp.331
+- ___block_descriptor_tmp.335
+- ___block_descriptor_tmp.3374
+- ___block_descriptor_tmp.3924
+- ___block_descriptor_tmp.4.16841
+- ___block_descriptor_tmp.429.20585
+- ___block_descriptor_tmp.44.11257
+- ___block_descriptor_tmp.44.12761
+- ___block_descriptor_tmp.446
+- ___block_descriptor_tmp.452
+- ___block_descriptor_tmp.4541
+- ___block_descriptor_tmp.4676
+- ___block_descriptor_tmp.4966
+- ___block_descriptor_tmp.5.16792
+- ___block_descriptor_tmp.50.12606
+- ___block_descriptor_tmp.510
+- ___block_descriptor_tmp.5412
+- ___block_descriptor_tmp.5684
+- ___block_descriptor_tmp.570
+- ___block_descriptor_tmp.572
+- ___block_descriptor_tmp.575
+- ___block_descriptor_tmp.58
+- ___block_descriptor_tmp.60
+- ___block_descriptor_tmp.6055
+- ___block_descriptor_tmp.6213
+- ___block_descriptor_tmp.63
+- ___block_descriptor_tmp.63.19854
+- ___block_descriptor_tmp.67.19855
+- ___block_descriptor_tmp.7.16834
+- ___block_descriptor_tmp.70
+- ___block_descriptor_tmp.7049
+- ___block_descriptor_tmp.71.15563
+- ___block_descriptor_tmp.72
+- ___block_descriptor_tmp.7240
+- ___block_descriptor_tmp.8.15540
+- ___block_descriptor_tmp.8.16796
+- ___block_descriptor_tmp.8063
+- ___block_descriptor_tmp.81.11297
+- ___block_descriptor_tmp.81.7052
+- ___block_descriptor_tmp.8257
+- ___block_descriptor_tmp.84.16002
+- ___block_descriptor_tmp.8474
+- ___block_descriptor_tmp.9.16803
+- ___block_descriptor_tmp.902
+- ___block_descriptor_tmp.93.16173
+- ___block_descriptor_tmp.9364
+- ___block_descriptor_tmp.99
+- ___block_literal_global.1041
+- ___block_literal_global.10958
+- ___block_literal_global.11208
+- ___block_literal_global.12248
+- ___block_literal_global.12523
+- ___block_literal_global.12629
+- ___block_literal_global.134.21693
+- ___block_literal_global.13500
+- ___block_literal_global.139
+- ___block_literal_global.143.11343
+- ___block_literal_global.14354
+- ___block_literal_global.14626
+- ___block_literal_global.15639
+- ___block_literal_global.16072
+- ___block_literal_global.16672
+- ___block_literal_global.16759
+- ___block_literal_global.16779
+- ___block_literal_global.16830
+- ___block_literal_global.17026
+- ___block_literal_global.17173
+- ___block_literal_global.17397
+- ___block_literal_global.18261
+- ___block_literal_global.18441
+- ___block_literal_global.19021
+- ___block_literal_global.19081
+- ___block_literal_global.195.15350
+- ___block_literal_global.19853
+- ___block_literal_global.203
+- ___block_literal_global.20943
+- ___block_literal_global.20956
+- ___block_literal_global.21.20964
+- ___block_literal_global.21710
+- ___block_literal_global.21816
+- ___block_literal_global.223
+- ___block_literal_global.235
+- ___block_literal_global.241
+- ___block_literal_global.247
+- ___block_literal_global.254
+- ___block_literal_global.260.11225
+- ___block_literal_global.2651
+- ___block_literal_global.269
+- ___block_literal_global.275
+- ___block_literal_global.281
+- ___block_literal_global.284.11444
+- ___block_literal_global.293
+- ___block_literal_global.2987
+- ___block_literal_global.310
+- ___block_literal_global.3170
+- ___block_literal_global.325
+- ___block_literal_global.332
+- ___block_literal_global.333
+- ___block_literal_global.337
+- ___block_literal_global.3370
+- ___block_literal_global.34
+- ___block_literal_global.37.11247
+- ___block_literal_global.3907
+- ___block_literal_global.431.20581
+- ___block_literal_global.448
+- ___block_literal_global.4539
+- ___block_literal_global.454
+- ___block_literal_global.46.12757
+- ___block_literal_global.467
+- ___block_literal_global.4672
+- ___block_literal_global.472
+- ___block_literal_global.476
+- ___block_literal_global.487
+- ___block_literal_global.4937
+- ___block_literal_global.4964
+- ___block_literal_global.52.12601
+- ___block_literal_global.5410
+- ___block_literal_global.5682
+- ___block_literal_global.6053
+- ___block_literal_global.6229
+- ___block_literal_global.7047
+- ___block_literal_global.7229
+- ___block_literal_global.7873
+- ___block_literal_global.8060
+- ___block_literal_global.8255
+- ___block_literal_global.83.11295
+- ___block_literal_global.8472
+- ___block_literal_global.865
+- ___block_literal_global.868
+- ___block_literal_global.872
+- ___block_literal_global.877
+- ___block_literal_global.890
+- ___block_literal_global.893
+- ___block_literal_global.9362
+- ___block_literal_global.9424
+- ___block_literal_global.95.16170
+- ___block_literal_global.9941
+- __unnamed_array_storage.14360
+- __unnamed_array_storage.14436
+- __unnamed_array_storage.14696
+- _objc_msgSend$didChangeToState:result:
+- _printf
+- _system
+CStrings:
++ "  Region[%u] : %s %s ([%f %f] opacity %f frame: %u rot %f)\n"
++ "  Region[%u] : inactive\n"
++ "%s %u"
++ "%s not supported on this platform"
++ "%s region: %u indicator %u pos: [%f %f] opacity: %f"
++ "(frame-number %hu)"
++ "(privacy-indicator %s)"
++ "(secure-indicator-layer"
++ "-[CAWindowServerDisplay secureIndicatorsEnabled]"
++ "-[CAWindowServerDisplay setSecureIndicatorsEnabled:]"
++ "21F71"
++ "CADisplayDidChangeToState display_id=%u, state=%s, seed=%u, result=%s"
++ "CADisplayStateControl didChangeToState=%s display_id=%u seed=%u result=%s"
++ "CADisplayStateControl transition display_id=%u seed=%u interrupted"
++ "CADisplayStateControl transitionToDisplayState=%s, display_id=%u, seed=%u, completion=%p"
++ "CAEnableMedina"
++ "CASecureIndicator : No indicator in update, hiding sil"
++ "CASecureIndicatorLayer"
++ "CA_COLOR_INSECURE_INDICATOR"
++ "CA_DISABLE_LOW_WORKLOAD_HINT"
++ "CA_DISABLE_SECURE_INDICATOR"
++ "CA_SIL_MANAGER_LOG_LEVEL"
++ "Camera"
++ "CoreAnimation: Invalid secure indicator type %@"
++ "CoreAnimation: mk_timer_create returned error!\n"
++ "Display %u disabling indicator brightness return: 0x%x"
++ "Display %u uuid set "
++ "Display::complete_powering_on"
++ "FaceID"
++ "Failed to create SIL Manager"
++ "Failed to create SILManager, aborting..."
++ "Failure to query indicator extent for indicator: %u frame: %u"
++ "Hiding region %u"
++ "Indicators"
++ "Microphone"
++ "MicrophoneAccessibility"
++ "Posting display changed notification"
++ "Q8@?0"
++ "Region swapped outside of display bounds [%f %f] outside of [%d %d]"
++ "Secure Indicator State for Display %d\n"
++ "Secure indicator state going from %u to %u"
++ "SecureIndicator"
++ "T@\"NSString\",&"
++ "Turning off region %u"
++ "UIKit"
++ "^{CAWindowServerDisplayImpl={Mutex={_opaque_pthread_mutex_t=q[56c]}}^{Server}{CABrightnessTransaction=ffffffffff{?=[9f]}fBBI}@?@@@@BB}"
++ "_active_regions_count <= kSILManagerRegionCount"
++ "_regions[region].opacity == 0.0f"
++ "_seed"
++ "_visible_regions_count <= _active_regions_count"
++ "_visible_regions_count <= kSILManagerRegionCount && _active_regions_count <= kSILManagerRegionCount"
++ "activeIndicatorCount"
++ "cam"
++ "camera"
++ "chrysaor"
++ "cleanup_stale_indicators"
++ "cumulative_opacity"
++ "didChangeToState:seed:result:"
++ "face id"
++ "face-id"
++ "frameNumber"
++ "g_sil_mgr_inst"
++ "indicatorType"
++ "lowWorkload"
++ "mic"
++ "mic ax"
++ "microphone"
++ "microphone-accessibility"
++ "notificationSecureIndicatorOff"
++ "notificationSecureIndicatorOn"
++ "privacyIndicatorType"
++ "secure-indicator"
++ "secure-indicator-layer"
++ "secureIndicatorsEnabled"
++ "setFrameNumber:"
++ "setIRDCFlushHint:"
++ "setLowWorkload:"
++ "setPrivacyIndicatorType:"
++ "setSecureIndicatorsEnabled:"
++ "set_power"
++ "state.opacity >= 0.0f"
++ "swap_region_private"
++ "turn_off_region"
++ "update_secure_indicators"
++ "v20@?0C8I12I16"
++ "v36@0:8q16C24q28"
++ "valueWithPointer:"
++ "visible regions %u active regions %u. turning off invisible regions"
++ "windowserver-secure-indicators.mm"
+- " command: %s"
+- "21E220"
+- "CA_COLOR_II"
+- "CA_DISABLE_SI"
+- "CA_SM_LOG_LEVEL"
+- "Display %u  uuid set "
+- "SI"
+- "X_LOG_FILE_OPEN"
+- "^{CAWindowServerDisplayImpl={Mutex={_opaque_pthread_mutex_t=q[56c]}}^{Server}{CABrightnessTransaction=ffffffffff{?=[9f]}fBI}@?@@@@BB}"
+- "didChangeToState:result:"
+- "open '%s'"
+- "si"
+- "v32@0:8q16q24"
+
+```

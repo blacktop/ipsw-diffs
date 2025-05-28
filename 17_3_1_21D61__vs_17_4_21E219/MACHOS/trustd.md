@@ -1,0 +1,418 @@
+## trustd
+
+> `/usr/libexec/trustd`
+
+```diff
+
+-61040.82.1.0.0
++61123.100.169.0.0
+   __TEXT.__text: 0x575b4
+   __TEXT.__auth_stubs: 0x2270
+   __TEXT.__objc_stubs: 0x25c0
+   __TEXT.__objc_methlist: 0x798
+   __TEXT.__const: 0x3695
+   __TEXT.__gcc_except_tab: 0x7c8
+-  __TEXT.__cstring: 0x621a
++  __TEXT.__cstring: 0x622a
+   __TEXT.__oslogstring: 0x4d65
+   __TEXT.__dlopen_cstrs: 0x66
+   __TEXT.__objc_classname: 0x16d
+-  __TEXT.__objc_methname: 0x248f
++  __TEXT.__objc_methname: 0x24a3
+   __TEXT.__objc_methtype: 0xa75
+   __TEXT.__unwind_info: 0xf00
+   __DATA_CONST.__auth_got: 0x1148
+   __DATA_CONST.__got: 0x588
+   __DATA_CONST.__auth_ptr: 0x18
+   __DATA_CONST.__const: 0x46a8
+-  __DATA_CONST.__cfstring: 0x5700
++  __DATA_CONST.__cfstring: 0x5720
+   __DATA_CONST.__objc_classlist: 0x60
+   __DATA_CONST.__objc_catlist: 0x18
+   __DATA_CONST.__objc_protolist: 0x28
+   __DATA_CONST.__objc_imageinfo: 0x8
++  __DATA_CONST.__objc_protorefs: 0x8
++  __DATA_CONST.__objc_classrefs: 0x190
++  __DATA_CONST.__objc_superrefs: 0x48
+   __DATA_CONST.__objc_intobj: 0xd8
+   __DATA_CONST.__objc_arraydata: 0x40
+   __DATA_CONST.__objc_arrayobj: 0x48
+   __DATA.__objc_const: 0x14f0
+   __DATA.__objc_selrefs: 0xa20
+-  __DATA.__objc_protorefs: 0x8
+-  __DATA.__objc_classrefs: 0x190
+-  __DATA.__objc_superrefs: 0x48
+   __DATA.__objc_ivar: 0x88
+   __DATA.__objc_data: 0x3c0
+   __DATA.__data: 0x388
+
+   - /usr/lib/libz.1.dylib
+   Functions: 1143
+   Symbols:   3118
+-  CStrings:  1927
++  CStrings:  1929
+ 
+Symbols:
++ TrustdVariantAllowsMobileAsset.onceToken.238
++ __68-[ValidUpdateRequest scheduleUpdateFromServer:forVersion:withQueue:]_block_invoke.175
++ __Block_byref_object_copy_.1038
++ __Block_byref_object_copy_.1171
++ __Block_byref_object_copy_.1316
++ __Block_byref_object_copy_.2170
++ __Block_byref_object_copy_.787
++ __Block_byref_object_dispose_.1039
++ __Block_byref_object_dispose_.1172
++ __Block_byref_object_dispose_.1317
++ __Block_byref_object_dispose_.2171
++ __Block_byref_object_dispose_.788
++ __InitializeOTASecExperimentAsset_block_invoke.481
++ __InitializeOTATrustAsset_block_invoke.387
++ __InitializeOTATrustAsset_block_invoke.391
++ __InitializeOTATrustAsset_block_invoke.395
++ __InitializeOTATrustAsset_block_invoke.399
++ __SecOTAPKICopyCurrentOTAPKIRef_block_invoke.276
++ __TriggerPeriodicOTATrustAssetChecks_block_invoke.487
++ __TrustdVariantAllowsMobileAsset_block_invoke.239
++ __UpdateOTACheckInDate_block_invoke.280
++ __block_descriptor_tmp.1.727
++ __block_descriptor_tmp.1.750
++ __block_descriptor_tmp.10.1180
++ __block_descriptor_tmp.10.2451
++ __block_descriptor_tmp.10.829
++ __block_descriptor_tmp.104.1806
++ __block_descriptor_tmp.11.1188
++ __block_descriptor_tmp.11.1644
++ __block_descriptor_tmp.11.2345
++ __block_descriptor_tmp.11.2555
++ __block_descriptor_tmp.1179
++ __block_descriptor_tmp.118.2707
++ __block_descriptor_tmp.13.1240
++ __block_descriptor_tmp.13.696
++ __block_descriptor_tmp.138.2571
++ __block_descriptor_tmp.14.1604
++ __block_descriptor_tmp.14.762
++ __block_descriptor_tmp.145.2662
++ __block_descriptor_tmp.15.1896
++ __block_descriptor_tmp.15.2543
++ __block_descriptor_tmp.1529
++ __block_descriptor_tmp.16.2542
++ __block_descriptor_tmp.160.1807
++ __block_descriptor_tmp.1641
++ __block_descriptor_tmp.17.1823
++ __block_descriptor_tmp.1875
++ __block_descriptor_tmp.19.2424
++ __block_descriptor_tmp.19.917
++ __block_descriptor_tmp.192.1618
++ __block_descriptor_tmp.196.1635
++ __block_descriptor_tmp.2.772
++ __block_descriptor_tmp.204.1606
++ __block_descriptor_tmp.21.1800
++ __block_descriptor_tmp.21.752
++ __block_descriptor_tmp.21.830
++ __block_descriptor_tmp.230.1693
++ __block_descriptor_tmp.2354
++ __block_descriptor_tmp.2410
++ __block_descriptor_tmp.25.840
++ __block_descriptor_tmp.2586
++ __block_descriptor_tmp.27.2455
++ __block_descriptor_tmp.28.2443
++ __block_descriptor_tmp.3.1204
++ __block_descriptor_tmp.3.2462
++ __block_descriptor_tmp.3.899
++ __block_descriptor_tmp.30.1801
++ __block_descriptor_tmp.30.907
++ __block_descriptor_tmp.31.2442
++ __block_descriptor_tmp.32.2434
++ __block_descriptor_tmp.33.1824
++ __block_descriptor_tmp.33.2438
++ __block_descriptor_tmp.33.901
++ __block_descriptor_tmp.36.2437
++ __block_descriptor_tmp.38.1835
++ __block_descriptor_tmp.4.2395
++ __block_descriptor_tmp.41.2439
++ __block_descriptor_tmp.41.930
++ __block_descriptor_tmp.42.1532
++ __block_descriptor_tmp.42.2440
++ __block_descriptor_tmp.443.1667
++ __block_descriptor_tmp.46.1535
++ __block_descriptor_tmp.47.931
++ __block_descriptor_tmp.48.928
++ __block_descriptor_tmp.49.926
++ __block_descriptor_tmp.5.1870
++ __block_descriptor_tmp.5.2394
++ __block_descriptor_tmp.5.2560
++ __block_descriptor_tmp.5.823
++ __block_descriptor_tmp.5.950
++ __block_descriptor_tmp.53.933
++ __block_descriptor_tmp.57.949
++ __block_descriptor_tmp.6.1260
++ __block_descriptor_tmp.6.2492
++ __block_descriptor_tmp.6.777
++ __block_descriptor_tmp.6.953
++ __block_descriptor_tmp.60.2628
++ __block_descriptor_tmp.60.945
++ __block_descriptor_tmp.61.2639
++ __block_descriptor_tmp.61.943
++ __block_descriptor_tmp.62.2643
++ __block_descriptor_tmp.65.954
++ __block_descriptor_tmp.672
++ __block_descriptor_tmp.69.1620
++ __block_descriptor_tmp.7.2491
++ __block_descriptor_tmp.7.826
++ __block_descriptor_tmp.760
++ __block_descriptor_tmp.8.1265
++ __block_descriptor_tmp.8.2527
++ __block_descriptor_tmp.8.719
++ __block_descriptor_tmp.8.827
++ __block_descriptor_tmp.804
++ __block_descriptor_tmp.852
++ __block_descriptor_tmp.9.2399
++ __block_descriptor_tmp.9.2432
++ __block_descriptor_tmp.9.828
++ __block_descriptor_tmp.9.915
++ __block_literal_global.10.677
++ __block_literal_global.1061
++ __block_literal_global.1076
++ __block_literal_global.11.900
++ __block_literal_global.12.1094
++ __block_literal_global.1231
++ __block_literal_global.1341
++ __block_literal_global.1556
++ __block_literal_global.17.1097
++ __block_literal_global.17.640
++ __block_literal_global.177
++ __block_literal_global.179
++ __block_literal_global.1799
++ __block_literal_global.1989
++ __block_literal_global.21.1139
++ __block_literal_global.225
++ __block_literal_global.23.1101
++ __block_literal_global.233
++ __block_literal_global.2343
++ __block_literal_global.241
++ __block_literal_global.243
++ __block_literal_global.2444
++ __block_literal_global.2548
++ __block_literal_global.257
++ __block_literal_global.272
++ __block_literal_global.278
++ __block_literal_global.3.676
++ __block_literal_global.34.1109
++ __block_literal_global.386
++ __block_literal_global.389
++ __block_literal_global.393
++ __block_literal_global.397
++ __block_literal_global.4.769
++ __block_literal_global.40.1833
++ __block_literal_global.401
++ __block_literal_global.451
++ __block_literal_global.480
++ __block_literal_global.483
++ __block_literal_global.489
++ __block_literal_global.544
++ __block_literal_global.628
++ __block_literal_global.670
++ __block_literal_global.7.2550
++ __block_literal_global.749
++ __block_literal_global.8.773
++ __block_literal_global.802
++ __block_literal_global.890
++ _unnamed_array_storage.2146
++ apply_block_1.1267
++ apply_block_1.1536
++ apply_block_1.1662
++ apply_block_1.1898
++ apply_block_1.2458
++ apply_block_1.2664
++ apply_block_1.757
++ apply_block_1.834
++ apply_block_1.854
++ apply_block_1.978
++ apply_block_2.2456
++ apply_block_2.842
++ apply_block_2.984
++ deleteSQL.2629
+- TrustdVariantAllowsMobileAsset.onceToken.214
+- __68-[ValidUpdateRequest scheduleUpdateFromServer:forVersion:withQueue:]_block_invoke.174
+- __Block_byref_object_copy_.1042
+- __Block_byref_object_copy_.1186
+- __Block_byref_object_copy_.1327
+- __Block_byref_object_copy_.2177
+- __Block_byref_object_copy_.793
+- __Block_byref_object_dispose_.1043
+- __Block_byref_object_dispose_.1187
+- __Block_byref_object_dispose_.1328
+- __Block_byref_object_dispose_.2178
+- __Block_byref_object_dispose_.794
+- __InitializeOTASecExperimentAsset_block_invoke.457
+- __InitializeOTATrustAsset_block_invoke.363
+- __InitializeOTATrustAsset_block_invoke.367
+- __InitializeOTATrustAsset_block_invoke.371
+- __InitializeOTATrustAsset_block_invoke.375
+- __SecOTAPKICopyCurrentOTAPKIRef_block_invoke.252
+- __TriggerPeriodicOTATrustAssetChecks_block_invoke.463
+- __TrustdVariantAllowsMobileAsset_block_invoke.215
+- __UpdateOTACheckInDate_block_invoke.256
+- __block_descriptor_tmp.1.733
+- __block_descriptor_tmp.1.756
+- __block_descriptor_tmp.10.1195
+- __block_descriptor_tmp.10.2458
+- __block_descriptor_tmp.10.835
+- __block_descriptor_tmp.104.1829
+- __block_descriptor_tmp.11.1203
+- __block_descriptor_tmp.11.1658
+- __block_descriptor_tmp.11.2352
+- __block_descriptor_tmp.11.2562
+- __block_descriptor_tmp.118.2714
+- __block_descriptor_tmp.1194
+- __block_descriptor_tmp.13.1255
+- __block_descriptor_tmp.13.702
+- __block_descriptor_tmp.138.2578
+- __block_descriptor_tmp.14.1615
+- __block_descriptor_tmp.14.768
+- __block_descriptor_tmp.145.2669
+- __block_descriptor_tmp.15.1907
+- __block_descriptor_tmp.15.2550
+- __block_descriptor_tmp.1540
+- __block_descriptor_tmp.16.2549
+- __block_descriptor_tmp.160.1830
+- __block_descriptor_tmp.1655
+- __block_descriptor_tmp.17.1845
+- __block_descriptor_tmp.1886
+- __block_descriptor_tmp.19.2431
+- __block_descriptor_tmp.19.923
+- __block_descriptor_tmp.192.1628
+- __block_descriptor_tmp.196.1646
+- __block_descriptor_tmp.2.778
+- __block_descriptor_tmp.204.1618
+- __block_descriptor_tmp.21.1820
+- __block_descriptor_tmp.21.758
+- __block_descriptor_tmp.21.836
+- __block_descriptor_tmp.230.1704
+- __block_descriptor_tmp.2361
+- __block_descriptor_tmp.2417
+- __block_descriptor_tmp.25.846
+- __block_descriptor_tmp.2593
+- __block_descriptor_tmp.27.2462
+- __block_descriptor_tmp.28.2450
+- __block_descriptor_tmp.3.1219
+- __block_descriptor_tmp.3.2469
+- __block_descriptor_tmp.3.905
+- __block_descriptor_tmp.30.1821
+- __block_descriptor_tmp.30.913
+- __block_descriptor_tmp.31.2449
+- __block_descriptor_tmp.32.2441
+- __block_descriptor_tmp.33.1846
+- __block_descriptor_tmp.33.2445
+- __block_descriptor_tmp.33.907
+- __block_descriptor_tmp.36.2444
+- __block_descriptor_tmp.38.1851
+- __block_descriptor_tmp.4.2402
+- __block_descriptor_tmp.41.2446
+- __block_descriptor_tmp.41.936
+- __block_descriptor_tmp.42.1543
+- __block_descriptor_tmp.42.2447
+- __block_descriptor_tmp.443.1679
+- __block_descriptor_tmp.46.1546
+- __block_descriptor_tmp.47.937
+- __block_descriptor_tmp.48.934
+- __block_descriptor_tmp.49.932
+- __block_descriptor_tmp.5.1881
+- __block_descriptor_tmp.5.2401
+- __block_descriptor_tmp.5.2567
+- __block_descriptor_tmp.5.829
+- __block_descriptor_tmp.5.956
+- __block_descriptor_tmp.53.939
+- __block_descriptor_tmp.57.955
+- __block_descriptor_tmp.6.1275
+- __block_descriptor_tmp.6.2499
+- __block_descriptor_tmp.6.783
+- __block_descriptor_tmp.6.959
+- __block_descriptor_tmp.60.2635
+- __block_descriptor_tmp.60.951
+- __block_descriptor_tmp.61.2646
+- __block_descriptor_tmp.61.949
+- __block_descriptor_tmp.62.2650
+- __block_descriptor_tmp.65.960
+- __block_descriptor_tmp.678
+- __block_descriptor_tmp.69.1630
+- __block_descriptor_tmp.7.2498
+- __block_descriptor_tmp.7.832
+- __block_descriptor_tmp.766
+- __block_descriptor_tmp.8.1280
+- __block_descriptor_tmp.8.2534
+- __block_descriptor_tmp.8.725
+- __block_descriptor_tmp.8.833
+- __block_descriptor_tmp.810
+- __block_descriptor_tmp.858
+- __block_descriptor_tmp.9.2406
+- __block_descriptor_tmp.9.2439
+- __block_descriptor_tmp.9.834
+- __block_descriptor_tmp.9.921
+- __block_literal_global.10.683
+- __block_literal_global.1064
+- __block_literal_global.1091
+- __block_literal_global.11.906
+- __block_literal_global.12.1109
+- __block_literal_global.1246
+- __block_literal_global.1352
+- __block_literal_global.1567
+- __block_literal_global.17.1112
+- __block_literal_global.17.646
+- __block_literal_global.176
+- __block_literal_global.178
+- __block_literal_global.1819
+- __block_literal_global.1997
+- __block_literal_global.209
+- __block_literal_global.21.1154
+- __block_literal_global.217
+- __block_literal_global.224.1077
+- __block_literal_global.23.1116
+- __block_literal_global.2350
+- __block_literal_global.242
+- __block_literal_global.2451
+- __block_literal_global.248
+- __block_literal_global.254
+- __block_literal_global.2555
+- __block_literal_global.256
+- __block_literal_global.3.682
+- __block_literal_global.34.1124
+- __block_literal_global.362
+- __block_literal_global.365
+- __block_literal_global.369
+- __block_literal_global.373
+- __block_literal_global.377
+- __block_literal_global.4.775
+- __block_literal_global.40.1849
+- __block_literal_global.427
+- __block_literal_global.456
+- __block_literal_global.459
+- __block_literal_global.465
+- __block_literal_global.553
+- __block_literal_global.634
+- __block_literal_global.676
+- __block_literal_global.7.2557
+- __block_literal_global.755
+- __block_literal_global.8.779
+- __block_literal_global.808
+- __block_literal_global.896
+- _unnamed_array_storage.2154
+- apply_block_1.1282
+- apply_block_1.1547
+- apply_block_1.1675
+- apply_block_1.1909
+- apply_block_1.2465
+- apply_block_1.2671
+- apply_block_1.763
+- apply_block_1.840
+- apply_block_1.860
+- apply_block_1.984
+- apply_block_2.2463
+- apply_block_2.848
+- apply_block_2.990
+- deleteSQL.2636
+CStrings:
++ "PushResetCircle"
++ "T@\"NSString\",?,R,C"
+
+```

@@ -1,0 +1,83 @@
+## libLinearAlgebra.dylib
+
+> `/System/Library/Frameworks/Accelerate.framework/Frameworks/vecLib.framework/libLinearAlgebra.dylib`
+
+```diff
+
+-1447.0.0.0.0
+-  __TEXT.__text: 0x11d18
++1447.100.11.0.0
++  __TEXT.__text: 0x11d70
+   __TEXT.__auth_stubs: 0x510
+   __TEXT.__objc_methlist: 0x38
+   __TEXT.__gcc_except_tab: 0x19c
+
+   __TEXT.__const: 0xbc
+   __TEXT.__unwind_info: 0x2b8
+   __TEXT.__objc_classname: 0x16
+-  __TEXT.__objc_methname: 0x162
++  __TEXT.__objc_methname: 0x174
+   __TEXT.__objc_methtype: 0xb5
+   __TEXT.__objc_stubs: 0x40
+   __DATA_CONST.__got: 0x40
+
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_const: 0x398
+   __DATA_CONST.__objc_selrefs: 0x30
++  __DATA_CONST.__objc_classrefs: 0x8
++  __DATA_CONST.__objc_superrefs: 0x8
+   __AUTH_CONST.__objc_const: 0x0
+   __AUTH_CONST.__auth_got: 0x298
+-  __DATA.__objc_classrefs: 0x8
+-  __DATA.__objc_superrefs: 0x8
+   __DATA.__data: 0xc0
+   __DATA_DIRTY.__const: 0x1f8
+   __DATA_DIRTY.__objc_const: 0x48
+
+   - /usr/lib/libobjc.A.dylib
+   Functions: 174
+   Symbols:   432
+-  CStrings:  180
++  CStrings:  181
+ 
+Symbols:
++ __ZNKSt3__16vectorINS_4pairIi6edge_tEENS_9allocatorIS3_EEE20__throw_length_errorB8ue170006Ev
++ __ZNKSt3__16vectorIP4edgeNS_9allocatorIS2_EEE20__throw_length_errorB8ue170006Ev
++ __ZNKSt3__16vectorIP4nodeNS_9allocatorIS2_EEE20__throw_length_errorB8ue170006Ev
++ __ZNKSt3__16vectorIP8subgraphNS_9allocatorIS2_EEE20__throw_length_errorB8ue170006Ev
++ __ZNKSt3__16vectorIiNS_9allocatorIiEEE20__throw_length_errorB8ue170006Ev
++ __ZNSt12length_errorC1B8ue170006EPKc
++ __ZNSt3__119__allocate_at_leastB8ue170006INS_9allocatorINS_4pairIi6edge_tEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS8_m
++ __ZNSt3__119__allocate_at_leastB8ue170006INS_9allocatorIP4edgeEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
++ __ZNSt3__119__allocate_at_leastB8ue170006INS_9allocatorIP4nodeEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
++ __ZNSt3__119__allocate_at_leastB8ue170006INS_9allocatorIP8subgraphEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
++ __ZNSt3__119__allocate_at_leastB8ue170006INS_9allocatorIiEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS5_m
++ __ZNSt3__120__throw_length_errorB8ue170006EPKc
++ __ZNSt3__16vectorINS_4pairIi6edge_tEENS_9allocatorIS3_EEE11__vallocateB8ue170006Em
++ __ZNSt3__16vectorINS_4pairIi6edge_tEENS_9allocatorIS3_EEE16__init_with_sizeB8ue170006IPS3_S8_EEvT_T0_m
++ __ZNSt3__16vectorINS_4pairIi6edge_tEENS_9allocatorIS3_EEE18__insert_with_sizeB8ue170006INS_11__wrap_iterIPS3_EESA_EESA_NS8_IPKS3_EET_T0_l
++ __ZNSt3__16vectorIiNS_9allocatorIiEEE11__vallocateB8ue170006Em
++ __ZNSt3__16vectorIiNS_9allocatorIiEEE16__init_with_sizeB8ue170006IPiS5_EEvT_T0_m
++ __ZSt28__throw_bad_array_new_lengthB8ue170006v
+- __ZNKSt3__16vectorINS_4pairIi6edge_tEENS_9allocatorIS3_EEE20__throw_length_errorB7v160006Ev
+- __ZNKSt3__16vectorIP4edgeNS_9allocatorIS2_EEE20__throw_length_errorB7v160006Ev
+- __ZNKSt3__16vectorIP4nodeNS_9allocatorIS2_EEE20__throw_length_errorB7v160006Ev
+- __ZNKSt3__16vectorIP8subgraphNS_9allocatorIS2_EEE20__throw_length_errorB7v160006Ev
+- __ZNKSt3__16vectorIiNS_9allocatorIiEEE20__throw_length_errorB7v160006Ev
+- __ZNSt12length_errorC1B7v160006EPKc
+- __ZNSt3__119__allocate_at_leastB7v160006INS_9allocatorINS_4pairIi6edge_tEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS8_m
+- __ZNSt3__119__allocate_at_leastB7v160006INS_9allocatorIP4edgeEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
+- __ZNSt3__119__allocate_at_leastB7v160006INS_9allocatorIP4nodeEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
+- __ZNSt3__119__allocate_at_leastB7v160006INS_9allocatorIP8subgraphEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
+- __ZNSt3__119__allocate_at_leastB7v160006INS_9allocatorIiEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS5_m
+- __ZNSt3__120__throw_length_errorB7v160006EPKc
+- __ZNSt3__16vectorINS_4pairIi6edge_tEENS_9allocatorIS3_EEE11__vallocateB7v160006Em
+- __ZNSt3__16vectorINS_4pairIi6edge_tEENS_9allocatorIS3_EEE6insertINS_11__wrap_iterIPS3_EELi0EEESA_NS8_IPKS3_EET_SE_
+- __ZNSt3__16vectorINS_4pairIi6edge_tEENS_9allocatorIS3_EEEC2ERKS6_
+- __ZNSt3__16vectorIiNS_9allocatorIiEEE11__vallocateB7v160006Em
+- __ZNSt3__16vectorIiNS_9allocatorIiEEEC2ERKS3_
+- __ZSt28__throw_bad_array_new_lengthB7v160006v
+CStrings:
++ "T@\"NSString\",?,R,C"
+
+```

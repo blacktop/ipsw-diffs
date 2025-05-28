@@ -1,0 +1,455 @@
+## Silex
+
+> `/System/Library/PrivateFrameworks/Silex.framework/Silex`
+
+```diff
+
+-5325.6.0.0.0
+-  __TEXT.__text: 0x10e5d8
+-  __TEXT.__auth_stubs: 0xf40
++5345.2.0.0.0
++  __TEXT.__text: 0x10e51c
++  __TEXT.__auth_stubs: 0xf50
+   __TEXT.__objc_methlist: 0x17c18
+   __TEXT.__const: 0x44c
+   __TEXT.__cstring: 0x9692
+
+   __TEXT.__ustring: 0x6c
+   __TEXT.__unwind_info: 0x4c98
+   __TEXT.__objc_classname: 0x7495
+-  __TEXT.__objc_methname: 0x39afb
+-  __TEXT.__objc_methtype: 0xdeae
++  __TEXT.__objc_methname: 0x39c05
++  __TEXT.__objc_methtype: 0xdef5
+   __TEXT.__objc_stubs: 0x22c80
+   __DATA_CONST.__got: 0x3d8
+   __DATA_CONST.__const: 0x3a70
+
+   __DATA_CONST.__objc_catlist: 0xc0
+   __DATA_CONST.__objc_protolist: 0xce0
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_const: 0x474c8
++  __DATA_CONST.__objc_const: 0x474e8
+   __DATA_CONST.__objc_selrefs: 0xa6e0
++  __DATA_CONST.__objc_protorefs: 0x558
++  __DATA_CONST.__objc_classrefs: 0x2070
++  __DATA_CONST.__objc_superrefs: 0xfd0
+   __DATA_CONST.__objc_arraydata: 0x3cc8
+   __AUTH_CONST.__objc_const: 0x11b98
+   __AUTH_CONST.__const: 0x3b40
+
+   __AUTH_CONST.__objc_doubleobj: 0x10
+   __AUTH_CONST.__objc_dictobj: 0x2aa8
+   __AUTH_CONST.__auth_ptr: 0x8
+-  __AUTH_CONST.__auth_got: 0x7b8
+-  __AUTH.__objc_data: 0x3750
+-  __DATA.__objc_protorefs: 0x558
+-  __DATA.__objc_classrefs: 0x2070
+-  __DATA.__objc_superrefs: 0xfd0
++  __AUTH_CONST.__auth_got: 0x7c0
++  __AUTH.__objc_data: 0x35c0
+   __DATA.__objc_ivar: 0x1e88
+   __DATA.__data: 0x9b50
+   __DATA.__bss: 0x40
+-  __DATA_DIRTY.__objc_data: 0xe100
++  __DATA_DIRTY.__objc_data: 0xe290
+   __DATA_DIRTY.__bss: 0x1d8
+   __DATA_DIRTY.__common: 0x50
+   - /System/Library/Frameworks/ARKit.framework/ARKit
+
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+   Functions: 8253
+-  Symbols:   33892
+-  CStrings:  13016
++  Symbols:   33893
++  CStrings:  13030
+ 
+Symbols:
++ __OBJC_$_PROP_LIST_SXActionActivityGroup.73
++ __OBJC_$_PROP_LIST_SXAdvertisementPlacementType.102
++ __OBJC_$_PROP_LIST_SXArticleLinkComponent.101
++ __OBJC_$_PROP_LIST_SXArticleThumbnailComponent.104
++ __OBJC_$_PROP_LIST_SXAutoPlacement.70
++ __OBJC_$_PROP_LIST_SXAutoPlacementLayout.56
++ __OBJC_$_PROP_LIST_SXBlueprintMarker.109
++ __OBJC_$_PROP_LIST_SXButtonComponent.115
++ __OBJC_$_PROP_LIST_SXComponentAnchor.83
++ __OBJC_$_PROP_LIST_SXComponentController.195
++ __OBJC_$_PROP_LIST_SXComponentInsertionLayoutProvider.82
++ __OBJC_$_PROP_LIST_SXComponentInteractionPreviewContext.62
++ __OBJC_$_PROP_LIST_SXComponentStyle.106
++ __OBJC_$_PROP_LIST_SXComponentTypeDescribing.63
++ __OBJC_$_PROP_LIST_SXCondition.178
++ __OBJC_$_PROP_LIST_SXConditionHints.117
++ __OBJC_$_PROP_LIST_SXConditionValidationContext.99
++ __OBJC_$_PROP_LIST_SXConditionalHints.67
++ __OBJC_$_PROP_LIST_SXConditionalResolverModifierInstructions.74
++ __OBJC_$_PROP_LIST_SXContentScaleManager.79
++ __OBJC_$_PROP_LIST_SXDOMModificationContext.61
++ __OBJC_$_PROP_LIST_SXDarkModeConfiguration.74
++ __OBJC_$_PROP_LIST_SXDeviceCapabilities.45
++ __OBJC_$_PROP_LIST_SXDocumentLayout.81
++ __OBJC_$_PROP_LIST_SXDocumentSectionBlueprint.54
++ __OBJC_$_PROP_LIST_SXEmbedResource.60
++ __OBJC_$_PROP_LIST_SXFeatures.51
++ __OBJC_$_PROP_LIST_SXFontAttributes.170
++ __OBJC_$_PROP_LIST_SXFontFace.67
++ __OBJC_$_PROP_LIST_SXFontFamily.74
++ __OBJC_$_PROP_LIST_SXFormatInteractor.158
++ __OBJC_$_PROP_LIST_SXHTMLResource.55
++ __OBJC_$_PROP_LIST_SXHints.57
++ __OBJC_$_PROP_LIST_SXHintsConfigurationOption.47
++ __OBJC_$_PROP_LIST_SXImageResource.66
++ __OBJC_$_PROP_LIST_SXInteractionContextManager.120
++ __OBJC_$_PROP_LIST_SXIssueCoverComponent.106
++ __OBJC_$_PROP_LIST_SXLayoutBlueprintProvider.54
++ __OBJC_$_PROP_LIST_SXLayoutContext.62
++ __OBJC_$_PROP_LIST_SXLayoutCoordinator.141
++ __OBJC_$_PROP_LIST_SXLayoutInvalidationManager.116
++ __OBJC_$_PROP_LIST_SXLayoutPipeline.103
++ __OBJC_$_PROP_LIST_SXLinkAction.68
++ __OBJC_$_PROP_LIST_SXMediaSharingPolicyProvider.45
++ __OBJC_$_PROP_LIST_SXParsedDate.68
++ __OBJC_$_PROP_LIST_SXProxyConfiguration.68
++ __OBJC_$_PROP_LIST_SXQuickLookComponent.114
++ __OBJC_$_PROP_LIST_SXQuickLookInteractor.70
++ __OBJC_$_PROP_LIST_SXRenderingConfigurationOption.51
++ __OBJC_$_PROP_LIST_SXResource.50
++ __OBJC_$_PROP_LIST_SXScrollPositionManager.59
++ __OBJC_$_PROP_LIST_SXSubscribeAction.61
++ __OBJC_$_PROP_LIST_SXSuggestedArticlesPlacementType.98
++ __OBJC_$_PROP_LIST_SXTextSelectionManager.58
++ __OBJC_$_PROP_LIST_SXTextStyleFontAttributes.69
++ __OBJC_$_PROP_LIST_SXWebContentComponent.121
++ __Z34SXJSONObjectRuntimeGetPropertyInfoP25objc_property_attribute_tjPmPbS2_
++ __Z44SXJSONObjectRuntimeGenerateAccessorsForClassP10objc_classPKcP25objc_property_attribute_tjS2_
++ ___block_literal_global.100
++ ___block_literal_global.105
++ ___block_literal_global.114
++ ___block_literal_global.122
++ ___block_literal_global.131
++ ___block_literal_global.134
++ ___block_literal_global.137
++ ___block_literal_global.141
++ ___block_literal_global.144
++ ___block_literal_global.150
++ ___block_literal_global.155
++ ___block_literal_global.160
++ ___block_literal_global.164
++ ___block_literal_global.168
++ ___block_literal_global.174
++ ___block_literal_global.177
++ ___block_literal_global.181
++ ___block_literal_global.184
++ ___block_literal_global.188
++ ___block_literal_global.195
++ ___block_literal_global.199
++ ___block_literal_global.203
++ ___block_literal_global.207
++ ___block_literal_global.210
++ ___block_literal_global.212
++ ___block_literal_global.214
++ ___block_literal_global.217
++ ___block_literal_global.222
++ ___block_literal_global.229
++ ___block_literal_global.232
++ ___block_literal_global.234
++ ___block_literal_global.238
++ ___block_literal_global.243
++ ___block_literal_global.245
++ ___block_literal_global.248
++ ___block_literal_global.251
++ ___block_literal_global.259
++ ___block_literal_global.263
++ ___block_literal_global.266
++ ___block_literal_global.269
++ ___block_literal_global.274
++ ___block_literal_global.277
++ ___block_literal_global.283
++ ___block_literal_global.286
++ ___block_literal_global.289
++ ___block_literal_global.293
++ ___block_literal_global.296
++ ___block_literal_global.300
++ ___block_literal_global.303
++ ___block_literal_global.307
++ ___block_literal_global.310
++ ___block_literal_global.318
++ ___block_literal_global.320
++ ___block_literal_global.324
++ ___block_literal_global.328
++ ___block_literal_global.332
++ ___block_literal_global.336
++ ___block_literal_global.339
++ ___block_literal_global.342
++ ___block_literal_global.344
++ ___block_literal_global.346
++ ___block_literal_global.350
++ ___block_literal_global.357
++ ___block_literal_global.362
++ ___block_literal_global.368
++ ___block_literal_global.375
++ ___block_literal_global.380
++ ___block_literal_global.382
++ ___block_literal_global.384
++ ___block_literal_global.386
++ ___block_literal_global.388
++ ___block_literal_global.390
++ ___block_literal_global.392
++ ___block_literal_global.396
++ ___block_literal_global.418
++ ___block_literal_global.421
++ ___block_literal_global.424
++ ___block_literal_global.427
++ ___block_literal_global.431
++ ___block_literal_global.434
++ ___block_literal_global.437
++ ___block_literal_global.440
++ ___block_literal_global.443
++ ___block_literal_global.446
++ ___block_literal_global.449
++ ___block_literal_global.452
++ ___block_literal_global.455
++ ___block_literal_global.458
++ ___block_literal_global.461
++ ___block_literal_global.464
++ ___block_literal_global.467
++ ___block_literal_global.469
++ ___block_literal_global.471
++ ___block_literal_global.473
++ ___block_literal_global.476
++ ___block_literal_global.478
++ ___block_literal_global.480
++ ___block_literal_global.484
++ ___block_literal_global.489
++ ___block_literal_global.492
++ ___block_literal_global.494
++ ___block_literal_global.497
++ ___block_literal_global.499
++ ___block_literal_global.62
++ ___block_literal_global.66
++ ___block_literal_global.68
++ ___block_literal_global.72
++ ___block_literal_global.76
++ ___block_literal_global.78
++ ___block_literal_global.80
++ ___block_literal_global.84
++ ___block_literal_global.86
++ ___block_literal_global.88
++ ___block_literal_global.91
++ ___block_literal_global.93
++ ___block_literal_global.97
++ __unnamed_array_storage.335
++ __unnamed_array_storage.341
++ __unnamed_array_storage.359
++ __unnamed_array_storage.365
++ __unnamed_array_storage.371
++ _property_copyAttributeList
+- __OBJC_$_PROP_LIST_SXActionActivityGroup.72
+- __OBJC_$_PROP_LIST_SXAdvertisementPlacementType.101
+- __OBJC_$_PROP_LIST_SXArticleLinkComponent.99
+- __OBJC_$_PROP_LIST_SXArticleThumbnailComponent.102
+- __OBJC_$_PROP_LIST_SXAutoPlacement.69
+- __OBJC_$_PROP_LIST_SXAutoPlacementLayout.55
+- __OBJC_$_PROP_LIST_SXBlueprintMarker.108
+- __OBJC_$_PROP_LIST_SXButtonComponent.113
+- __OBJC_$_PROP_LIST_SXComponentAnchor.82
+- __OBJC_$_PROP_LIST_SXComponentController.194
+- __OBJC_$_PROP_LIST_SXComponentInsertionLayoutProvider.81
+- __OBJC_$_PROP_LIST_SXComponentInteractionPreviewContext.61
+- __OBJC_$_PROP_LIST_SXComponentStyle.105
+- __OBJC_$_PROP_LIST_SXComponentTypeDescribing.62
+- __OBJC_$_PROP_LIST_SXCondition.177
+- __OBJC_$_PROP_LIST_SXConditionHints.116
+- __OBJC_$_PROP_LIST_SXConditionValidationContext.98
+- __OBJC_$_PROP_LIST_SXConditionalHints.66
+- __OBJC_$_PROP_LIST_SXConditionalResolverModifierInstructions.73
+- __OBJC_$_PROP_LIST_SXContentScaleManager.78
+- __OBJC_$_PROP_LIST_SXDOMModificationContext.60
+- __OBJC_$_PROP_LIST_SXDarkModeConfiguration.73
+- __OBJC_$_PROP_LIST_SXDeviceCapabilities.44
+- __OBJC_$_PROP_LIST_SXDocumentLayout.80
+- __OBJC_$_PROP_LIST_SXDocumentSectionBlueprint.53
+- __OBJC_$_PROP_LIST_SXEmbedResource.59
+- __OBJC_$_PROP_LIST_SXFeatures.50
+- __OBJC_$_PROP_LIST_SXFontAttributes.169
+- __OBJC_$_PROP_LIST_SXFontFace.66
+- __OBJC_$_PROP_LIST_SXFontFamily.73
+- __OBJC_$_PROP_LIST_SXFormatInteractor.157
+- __OBJC_$_PROP_LIST_SXHTMLResource.54
+- __OBJC_$_PROP_LIST_SXHints.56
+- __OBJC_$_PROP_LIST_SXHintsConfigurationOption.46
+- __OBJC_$_PROP_LIST_SXImageResource.65
+- __OBJC_$_PROP_LIST_SXInteractionContextManager.119
+- __OBJC_$_PROP_LIST_SXIssueCoverComponent.104
+- __OBJC_$_PROP_LIST_SXLayoutBlueprintProvider.53
+- __OBJC_$_PROP_LIST_SXLayoutContext.61
+- __OBJC_$_PROP_LIST_SXLayoutCoordinator.140
+- __OBJC_$_PROP_LIST_SXLayoutInvalidationManager.115
+- __OBJC_$_PROP_LIST_SXLayoutPipeline.102
+- __OBJC_$_PROP_LIST_SXLinkAction.67
+- __OBJC_$_PROP_LIST_SXMediaSharingPolicyProvider.44
+- __OBJC_$_PROP_LIST_SXParsedDate.67
+- __OBJC_$_PROP_LIST_SXProxyConfiguration.67
+- __OBJC_$_PROP_LIST_SXQuickLookComponent.112
+- __OBJC_$_PROP_LIST_SXQuickLookInteractor.69
+- __OBJC_$_PROP_LIST_SXRenderingConfigurationOption.50
+- __OBJC_$_PROP_LIST_SXResource.49
+- __OBJC_$_PROP_LIST_SXScrollPositionManager.58
+- __OBJC_$_PROP_LIST_SXSubscribeAction.60
+- __OBJC_$_PROP_LIST_SXSuggestedArticlesPlacementType.97
+- __OBJC_$_PROP_LIST_SXTextSelectionManager.57
+- __OBJC_$_PROP_LIST_SXTextStyleFontAttributes.68
+- __OBJC_$_PROP_LIST_SXWebContentComponent.119
+- __Z34SXJSONObjectRuntimeGetPropertyInfoPKcP30SXJSONObjectPropertyMemoryTypePbS3_
+- __Z44SXJSONObjectRuntimeGenerateAccessorsForClassP10objc_classPKcS2_
+- ___block_literal_global.102
+- ___block_literal_global.106
+- ___block_literal_global.115
+- ___block_literal_global.123
+- ___block_literal_global.132
+- ___block_literal_global.136
+- ___block_literal_global.138
+- ___block_literal_global.143
+- ___block_literal_global.146
+- ___block_literal_global.151
+- ___block_literal_global.159
+- ___block_literal_global.161
+- ___block_literal_global.167
+- ___block_literal_global.171
+- ___block_literal_global.176
+- ___block_literal_global.179
+- ___block_literal_global.183
+- ___block_literal_global.186
+- ___block_literal_global.194
+- ___block_literal_global.198
+- ___block_literal_global.202
+- ___block_literal_global.204
+- ___block_literal_global.209
+- ___block_literal_global.211
+- ___block_literal_global.213
+- ___block_literal_global.216
+- ___block_literal_global.221
+- ___block_literal_global.227
+- ___block_literal_global.230
+- ___block_literal_global.233
+- ___block_literal_global.236
+- ___block_literal_global.239
+- ___block_literal_global.244
+- ___block_literal_global.246
+- ___block_literal_global.249
+- ___block_literal_global.253
+- ___block_literal_global.260
+- ___block_literal_global.264
+- ___block_literal_global.268
+- ___block_literal_global.270
+- ___block_literal_global.275
+- ___block_literal_global.279
+- ___block_literal_global.284
+- ___block_literal_global.288
+- ___block_literal_global.291
+- ___block_literal_global.294
+- ___block_literal_global.298
+- ___block_literal_global.302
+- ___block_literal_global.306
+- ___block_literal_global.308
+- ___block_literal_global.315
+- ___block_literal_global.319
+- ___block_literal_global.322
+- ___block_literal_global.327
+- ___block_literal_global.331
+- ___block_literal_global.335
+- ___block_literal_global.337
+- ___block_literal_global.341
+- ___block_literal_global.343
+- ___block_literal_global.345
+- ___block_literal_global.349
+- ___block_literal_global.355
+- ___block_literal_global.361
+- ___block_literal_global.367
+- ___block_literal_global.374
+- ___block_literal_global.379
+- ___block_literal_global.381
+- ___block_literal_global.383
+- ___block_literal_global.385
+- ___block_literal_global.387
+- ___block_literal_global.389
+- ___block_literal_global.391
+- ___block_literal_global.395
+- ___block_literal_global.417
+- ___block_literal_global.420
+- ___block_literal_global.423
+- ___block_literal_global.426
+- ___block_literal_global.430
+- ___block_literal_global.433
+- ___block_literal_global.436
+- ___block_literal_global.439
+- ___block_literal_global.442
+- ___block_literal_global.445
+- ___block_literal_global.448
+- ___block_literal_global.451
+- ___block_literal_global.454
+- ___block_literal_global.457
+- ___block_literal_global.460
+- ___block_literal_global.463
+- ___block_literal_global.466
+- ___block_literal_global.468
+- ___block_literal_global.470
+- ___block_literal_global.472
+- ___block_literal_global.475
+- ___block_literal_global.477
+- ___block_literal_global.479
+- ___block_literal_global.483
+- ___block_literal_global.488
+- ___block_literal_global.491
+- ___block_literal_global.493
+- ___block_literal_global.496
+- ___block_literal_global.498
+- ___block_literal_global.64
+- ___block_literal_global.67
+- ___block_literal_global.71
+- ___block_literal_global.75
+- ___block_literal_global.77
+- ___block_literal_global.79
+- ___block_literal_global.82
+- ___block_literal_global.85
+- ___block_literal_global.87
+- ___block_literal_global.89
+- ___block_literal_global.92
+- ___block_literal_global.95
+- ___block_literal_global.98
+- __unnamed_array_storage.334
+- __unnamed_array_storage.352
+- __unnamed_array_storage.358
+- __unnamed_array_storage.364
+- __unnamed_array_storage.370
+CStrings:
++ "1.26"
++ "T@\"NSMutableArray\",?,&,N"
++ "T@\"NSString\",?,R,C"
++ "T@\"NSString\",?,R,N"
++ "T@\"SXJSONArray\",?,R,D,N"
++ "T@\"SXJSONArray\",?,R,N"
++ "T@\"TSDCanvas\",?,R,N"
++ "T@\"TSDLayout\",?,R,N"
++ "T@\"UIButton\",?,R,N"
++ "T@\"UIView\",?,R,N"
++ "TB,?,N"
++ "TB,?,R,N"
++ "TI,?,R,N"
++ "T^{__CFLocale=},?,R,N"
++ "Td,?,R,N"
++ "T{CGRect={CGPoint=dd}{CGSize=dd}},?,R,N"
++ "T{CGSize=dd},?,R,N"
++ "_webView:didPromptForStorageAccess:forSubFrameDomain:forQuirk:"
++ "v44@0:8@\"WKWebView\"16@\"NSString\"24@\"NSString\"32B40"
++ "v44@0:8@16@24@32B40"
+- "1.24"
+- "T@\"NSMutableArray\",&,N"
+- "T@\"TSDCanvas\",R,N"
+- "T@\"TSDLayout\",R,N"
+- "T@\"UIButton\",R,N"
+- "T^{__CFLocale=},R,N"
+
+```

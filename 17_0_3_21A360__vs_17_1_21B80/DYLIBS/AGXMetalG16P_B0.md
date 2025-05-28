@@ -1,0 +1,198 @@
+## AGXMetalG16P_B0
+
+> `/System/Library/Extensions/AGXMetalG16P_B0.bundle/AGXMetalG16P_B0`
+
+```diff
+
+-275.6.3.4.0
+-  __TEXT.__text: 0x78a308
++276.9.1.0.0
++  __TEXT.__text: 0x78a524
+   __TEXT.__auth_stubs: 0x1050
+-  __TEXT.__objc_methlist: 0x3b5c
++  __TEXT.__objc_methlist: 0x3b64
+   __TEXT.__const: 0xac58
+   __TEXT.__gcc_except_tab: 0x6df4
+   __TEXT.__cstring: 0x5500
+
+   __TEXT.__unwind_info: 0x5d8c
+   __TEXT.__eh_frame: 0xcc0
+   __TEXT.__objc_classname: 0xb6a
+-  __TEXT.__objc_methname: 0x11467
++  __TEXT.__objc_methname: 0x11489
+   __TEXT.__objc_methtype: 0x15776
+   __TEXT.__objc_stubs: 0x6be0
+   __DATA_CONST.__got: 0x308
+
+   __DATA_CONST.__objc_catlist: 0x8
+   __DATA_CONST.__objc_protolist: 0x1b8
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_const: 0x12a48
+-  __DATA_CONST.__objc_selrefs: 0x3058
++  __DATA_CONST.__objc_const: 0x12a88
++  __DATA_CONST.__objc_selrefs: 0x3060
+   __DATA_CONST.__objc_arraydata: 0x58
+-  __AUTH_CONST.__const: 0x21e0
++  __AUTH_CONST.__const: 0x21c0
+   __AUTH_CONST.__objc_const: 0x1000
+   __AUTH_CONST.__cfstring: 0x2fa0
+   __AUTH_CONST.__objc_intobj: 0x78
+
+   __DATA.__objc_superrefs: 0x150
+   __DATA.__objc_ivar: 0x200
+   __DATA.__data: 0x1830
+-  __DATA.__bss: 0x1d28
++  __DATA.__bss: 0x1d48
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
+
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libcompression.dylib
+   - /usr/lib/libobjc.A.dylib
+-  Functions: 6298
+-  Symbols:   14456
+-  CStrings:  3908
++  Functions: 6299
++  Symbols:   14457
++  CStrings:  3909
+ 
+Symbols:
++ -[AGXG16PFamilyDevice supportsPartialRenderMemoryBarrier]
++ GCC_except_table5389
++ GCC_except_table5415
++ GCC_except_table5420
++ GCC_except_table5432
++ GCC_except_table5441
++ GCC_except_table5447
++ GCC_except_table5451
++ GCC_except_table5457
++ GCC_except_table5459
++ GCC_except_table5464
++ GCC_except_table5468
++ GCC_except_table5471
++ GCC_except_table5474
++ GCC_except_table5480
++ GCC_except_table5484
++ GCC_except_table5490
++ GCC_except_table5494
++ GCC_except_table5500
++ GCC_except_table5504
++ GCC_except_table5510
++ GCC_except_table5514
++ GCC_except_table5520
++ GCC_except_table5524
++ GCC_except_table5530
++ GCC_except_table5533
++ GCC_except_table5539
++ GCC_except_table5543
++ GCC_except_table5549
++ GCC_except_table5553
++ GCC_except_table5557
++ GCC_except_table5563
++ GCC_except_table5638
++ __ZGVZL28areDriverUberShadersDisabledvE19disableUberVariants.5082
++ __ZL19agxCalcSparseInputsjjjjjjjjjjjjbbjjjjP27AGXSparseTextureConstInputs.4183
++ __ZL19agxCalcSparseInputsjjjjjjjjjjjjbbjjjjP27AGXSparseTextureConstInputs.5226
++ __ZL19agxsTwiddleAddressZI21AGXSConverterPassThruILb0ELm2ELj1EL12TwiddleOrder1EEEvNT_13twid_ptr_typeENS3_12lin_ptr_typeEjjjjjjjjmP21agxsTwiddledBlockInfoP14agxsSparseInfo.5230
++ __ZL19agxsTwiddleAddressZI21AGXSConverterPassThruILb1ELm2ELj1EL12TwiddleOrder1EEEvNT_13twid_ptr_typeENS3_12lin_ptr_typeEjjjjjjjjmP21agxsTwiddledBlockInfoP14agxsSparseInfo.5238
++ __ZL28areDriverUberShadersDisabledv.5081
++ __ZL28get_level_offset_within_tailjjjjjjjb.5227
++ __ZNSt3__1L19piecewise_constructE.3770
++ __ZZL28areDriverUberShadersDisabledvE19disableUberVariants.5083
++ __ZZL37agxaBindNullResourceToHardwareCommandP17IOGPUResourceListjE18null_resource_data.3508
++ __ZZN3AGX20DeviceUSCStateLoaderINS_3G168EncodersENS1_7ClassesENS1_10ObjClassesEE11heapConfigsEP13AtomicVersionE4once
++ ___Block_byref_object_copy_.1687
++ ___Block_byref_object_copy_.1695
++ ___Block_byref_object_copy_.3505
++ ___Block_byref_object_copy_.4958
++ ___Block_byref_object_dispose_.1688
++ ___Block_byref_object_dispose_.1696
++ ___Block_byref_object_dispose_.3506
++ ___Block_byref_object_dispose_.4959
++ ____ZN3AGX17UserShaderFactoryINS_3G168EncodersENS1_7ClassesENS1_10ObjClassesEE33createIntersectionProgramVariantsEP21MTLFunctionDescriptorPU22objcproto11MTLFunction11objc_objectP7NSArrayP19AGXG16PFamilyDeviceP26AGXG16PFamilyBinaryArchivebbbP12NSDictionaryU13block_pointerFvRNS1_30IntersectionFunctionVariantSetEE_block_invoke.1697
++ ____ZN3AGX17UserShaderFactoryINS_3G168EncodersENS1_7ClassesENS1_10ObjClassesEE33createIntersectionProgramVariantsEP21MTLFunctionDescriptorPU22objcproto11MTLFunction11objc_objectP7NSArrayP19AGXG16PFamilyDeviceP26AGXG16PFamilyBinaryArchivebbbP12NSDictionaryU13block_pointerFvRNS1_30IntersectionFunctionVariantSetEE_block_invoke.1705
++ ____ZN3AGX20DeviceUSCStateLoaderINS_3G168EncodersENS1_7ClassesENS1_10ObjClassesEE11heapConfigsEP13AtomicVersion_block_invoke
++ ____ZN3AGX23UserCommonShaderFactoryINS_3G168EncodersENS1_7ClassesENS1_10ObjClassesEE24createMeshRenderPipelineI31MTLMeshRenderPipelineDescriptorEEP27AGXG16PFamilyRenderPipelinePT_P19AGXG16PFamilyDevicemPP27MTLRenderPipelineReflectionPP7NSErrorU13block_pointerFvPU33objcproto22MTLRenderPipelineState11objc_objectSF_SI_E_block_invoke.1682
++ ____ZN3AGX23UserCommonShaderFactoryINS_3G168EncodersENS1_7ClassesENS1_10ObjClassesEE28createFragmentProgramVariantI31MTLMeshRenderPipelineDescriptorEEPNS1_22FragmentProgramVariantEPT_P19AGXG16PFamilyDevicemP26AGXG16PFamilyBinaryArchiveP7NSArrayPNS1_15FragmentProgramEPKNS_21VertexProgramVaryingsEPU27objcproto16OS_dispatch_data8NSObjectbU13block_pointerFvS9_13ReflectionKeyP19NSMutableDictionary16MTLCompilerErrorP8NSStringSP_E_block_invoke.1807
++ ___block_descriptor_tmp.6474
++ ___block_literal_global.1578
++ ___block_literal_global.1607
++ ___block_literal_global.5009
++ ___block_literal_global.5513
++ ___block_literal_global.5656
++ ___block_literal_global.6079
++ ___block_literal_global.6472
++ __unnamed_array_storage.5387
++ __unnamed_array_storage.5700
+- GCC_except_table5388
+- GCC_except_table5414
+- GCC_except_table5419
+- GCC_except_table5429
+- GCC_except_table5436
+- GCC_except_table5446
+- GCC_except_table5449
+- GCC_except_table5453
+- GCC_except_table5458
+- GCC_except_table5463
+- GCC_except_table5466
+- GCC_except_table5470
+- GCC_except_table5472
+- GCC_except_table5479
+- GCC_except_table5482
+- GCC_except_table5489
+- GCC_except_table5492
+- GCC_except_table5499
+- GCC_except_table5502
+- GCC_except_table5509
+- GCC_except_table5512
+- GCC_except_table5519
+- GCC_except_table5522
+- GCC_except_table5529
+- GCC_except_table5532
+- GCC_except_table5538
+- GCC_except_table5541
+- GCC_except_table5548
+- GCC_except_table5551
+- GCC_except_table5555
+- GCC_except_table5562
+- GCC_except_table5636
+- __ZGVZL28areDriverUberShadersDisabledvE19disableUberVariants.5080
+- __ZL19agxCalcSparseInputsjjjjjjjjjjjjbbjjjjP27AGXSparseTextureConstInputs.4181
+- __ZL19agxCalcSparseInputsjjjjjjjjjjjjbbjjjjP27AGXSparseTextureConstInputs.5224
+- __ZL19agxsTwiddleAddressZI21AGXSConverterPassThruILb0ELm2ELj1EL12TwiddleOrder1EEEvNT_13twid_ptr_typeENS3_12lin_ptr_typeEjjjjjjjjmP21agxsTwiddledBlockInfoP14agxsSparseInfo.5228
+- __ZL19agxsTwiddleAddressZI21AGXSConverterPassThruILb1ELm2ELj1EL12TwiddleOrder1EEEvNT_13twid_ptr_typeENS3_12lin_ptr_typeEjjjjjjjjmP21agxsTwiddledBlockInfoP14agxsSparseInfo.5236
+- __ZL28areDriverUberShadersDisabledv.5079
+- __ZL28get_level_offset_within_tailjjjjjjjb.5225
+- __ZNSt3__1L19piecewise_constructE.3768
+- __ZZL28areDriverUberShadersDisabledvE19disableUberVariants.5081
+- __ZZL37agxaBindNullResourceToHardwareCommandP17IOGPUResourceListjE18null_resource_data.3506
+- __ZZN3AGX20DeviceUSCStateLoaderINS_3G168EncodersENS1_7ClassesENS1_10ObjClassesEE11heapConfigsEvE4once
+- ___Block_byref_object_copy_.1685
+- ___Block_byref_object_copy_.1693
+- ___Block_byref_object_copy_.3503
+- ___Block_byref_object_copy_.4956
+- ___Block_byref_object_dispose_.1686
+- ___Block_byref_object_dispose_.1694
+- ___Block_byref_object_dispose_.3504
+- ___Block_byref_object_dispose_.4957
+- ____ZN3AGX17UserShaderFactoryINS_3G168EncodersENS1_7ClassesENS1_10ObjClassesEE33createIntersectionProgramVariantsEP21MTLFunctionDescriptorPU22objcproto11MTLFunction11objc_objectP7NSArrayP19AGXG16PFamilyDeviceP26AGXG16PFamilyBinaryArchivebbbP12NSDictionaryU13block_pointerFvRNS1_30IntersectionFunctionVariantSetEE_block_invoke.1695
+- ____ZN3AGX17UserShaderFactoryINS_3G168EncodersENS1_7ClassesENS1_10ObjClassesEE33createIntersectionProgramVariantsEP21MTLFunctionDescriptorPU22objcproto11MTLFunction11objc_objectP7NSArrayP19AGXG16PFamilyDeviceP26AGXG16PFamilyBinaryArchivebbbP12NSDictionaryU13block_pointerFvRNS1_30IntersectionFunctionVariantSetEE_block_invoke.1703
+- ____ZN3AGX20DeviceUSCStateLoaderINS_3G168EncodersENS1_7ClassesENS1_10ObjClassesEE11heapConfigsEv_block_invoke
+- ____ZN3AGX23UserCommonShaderFactoryINS_3G168EncodersENS1_7ClassesENS1_10ObjClassesEE24createMeshRenderPipelineI31MTLMeshRenderPipelineDescriptorEEP27AGXG16PFamilyRenderPipelinePT_P19AGXG16PFamilyDevicemPP27MTLRenderPipelineReflectionPP7NSErrorU13block_pointerFvPU33objcproto22MTLRenderPipelineState11objc_objectSF_SI_E_block_invoke.1680
+- ____ZN3AGX23UserCommonShaderFactoryINS_3G168EncodersENS1_7ClassesENS1_10ObjClassesEE28createFragmentProgramVariantI31MTLMeshRenderPipelineDescriptorEEPNS1_22FragmentProgramVariantEPT_P19AGXG16PFamilyDevicemP26AGXG16PFamilyBinaryArchiveP7NSArrayPNS1_15FragmentProgramEPKNS_21VertexProgramVaryingsEPU27objcproto16OS_dispatch_data8NSObjectbU13block_pointerFvS9_13ReflectionKeyP19NSMutableDictionary16MTLCompilerErrorP8NSStringSP_E_block_invoke.1805
+- ___block_descriptor_tmp.6472
+- ___block_literal_global.1576
+- ___block_literal_global.1605
+- ___block_literal_global.3
+- ___block_literal_global.5007
+- ___block_literal_global.5511
+- ___block_literal_global.5654
+- ___block_literal_global.6077
+- ___block_literal_global.6470
+- __unnamed_array_storage.5385
+- __unnamed_array_storage.5698
+CStrings:
++ "supportsPartialRenderMemoryBarrier"
+
+```

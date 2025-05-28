@@ -1,0 +1,207 @@
+## MobileStoreUI
+
+> `/System/Library/PrivateFrameworks/MobileStoreUI.framework/MobileStoreUI`
+
+```diff
+
+-1200.3.4.2.3
+-  __TEXT.__text: 0x2d9cb4
++1200.4.13.0.0
++  __TEXT.__text: 0x2d9f48
+   __TEXT.__auth_stubs: 0x1b40
+   __TEXT.__objc_methlist: 0x26624
+   __TEXT.__const: 0x2004
+
+   __TEXT.__unwind_info: 0xcaa8
+   __TEXT.__eh_frame: 0x38
+   __TEXT.__objc_classname: 0x8cab
+-  __TEXT.__objc_methname: 0x5c856
++  __TEXT.__objc_methname: 0x5c8e8
+   __TEXT.__objc_methtype: 0x104ba
+   __TEXT.__objc_stubs: 0x40040
+   __DATA_CONST.__got: 0xbc0
+
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_const: 0xade60
+   __DATA_CONST.__objc_selrefs: 0x12c88
++  __DATA_CONST.__objc_protorefs: 0x118
++  __DATA_CONST.__objc_classrefs: 0x2760
++  __DATA_CONST.__objc_superrefs: 0x1970
+   __DATA_CONST.__objc_arraydata: 0x1a0
+   __AUTH_CONST.__objc_const: 0x15148
+   __AUTH_CONST.__cfstring: 0x156c0
+
+   __AUTH_CONST.__objc_dictobj: 0x50
+   __AUTH_CONST.__auth_got: 0xdb8
+   __AUTH.__objc_data: 0x111f8
+-  __AUTH.__data: 0x170
+-  __DATA.__objc_protorefs: 0x118
+-  __DATA.__objc_classrefs: 0x2760
+-  __DATA.__objc_superrefs: 0x1970
++  __AUTH.__data: 0x168
+   __DATA.__objc_ivar: 0x4930
+   __DATA.__objc_const_ax: 0x0
+   __DATA.__data: 0x68e0
+
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 17846
+-  Symbols:   62632
+-  CStrings:  21346
++  Functions: 17852
++  Symbols:   62644
++  CStrings:  21353
+ 
+Symbols:
++ __OBJC_$_PROP_LIST_SUUIDynamicShelfViewElement.60
++ __OBJC_$_PROP_LIST_SUUIJSITunesStore.435
++ __OBJC_$_PROP_LIST_SUUIJSTabBar.116
++ __OBJC_$_PROP_LIST_SUUIMenuBarViewElement.85
++ __OBJC_$_PROP_LIST_SUUIShelfCollectionViewLayout.74
++ __OBJC_$_PROP_LIST_SUUIShelfPageSection.280
++ __OBJC_$_PROP_LIST_SUUIStorePageCollectionViewLayout.206
++ __ZNKSt3__16vectorI14sortColorEntryNS_9allocatorIS1_EEE20__throw_length_errorB8ue170006Ev
++ __ZNKSt3__16vectorI22sortQuantizeColorEntryNS_9allocatorIS1_EEE20__throw_length_errorB8ue170006Ev
++ __ZNKSt3__16vectorI7ITColorNS_9allocatorIS1_EEE20__throw_length_errorB8ue170006Ev
++ __ZNKSt3__16vectorIdNS_9allocatorIdEEE20__throw_length_errorB8ue170006Ev
++ __ZNSt12length_errorC1B8ue170006EPKc
++ __ZNSt3__111__introsortINS_17_ClassicAlgPolicyERPFb14sortColorEntryS2_EPS2_Lb0EEEvT1_S7_T0_NS_15iterator_traitsIS7_E15difference_typeEb
++ __ZNSt3__111__introsortINS_17_ClassicAlgPolicyERPFb22sortQuantizeColorEntryS2_EPS2_Lb0EEEvT1_S7_T0_NS_15iterator_traitsIS7_E15difference_typeEb
++ __ZNSt3__111__sift_downB8ue170006INS_17_ClassicAlgPolicyERPFb14sortColorEntryS2_EPS2_EEvT1_OT0_NS_15iterator_traitsIS7_E15difference_typeES7_
++ __ZNSt3__111__sift_downB8ue170006INS_17_ClassicAlgPolicyERPFb22sortQuantizeColorEntryS2_EPS2_EEvT1_OT0_NS_15iterator_traitsIS7_E15difference_typeES7_
++ __ZNSt3__116__insertion_sortB8ue170006INS_17_ClassicAlgPolicyERPFb14sortColorEntryS2_EPS2_EEvT1_S7_T0_
++ __ZNSt3__116__insertion_sortB8ue170006INS_17_ClassicAlgPolicyERPFb22sortQuantizeColorEntryS2_EPS2_EEvT1_S7_T0_
++ __ZNSt3__117__floyd_sift_downB8ue170006INS_17_ClassicAlgPolicyERPFb14sortColorEntryS2_EPS2_EET1_S7_OT0_NS_15iterator_traitsIS7_E15difference_typeE
++ __ZNSt3__117__floyd_sift_downB8ue170006INS_17_ClassicAlgPolicyERPFb22sortQuantizeColorEntryS2_EPS2_EET1_S7_OT0_NS_15iterator_traitsIS7_E15difference_typeE
++ __ZNSt3__119__allocate_at_leastB8ue170006INS_9allocatorI14sortColorEntryEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m
++ __ZNSt3__119__allocate_at_leastB8ue170006INS_9allocatorI22sortQuantizeColorEntryEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m
++ __ZNSt3__119__allocate_at_leastB8ue170006INS_9allocatorI7ITColorEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m
++ __ZNSt3__119__allocate_at_leastB8ue170006INS_9allocatorIdEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS5_m
++ __ZNSt3__119__partial_sort_implB8ue170006INS_17_ClassicAlgPolicyERPFb14sortColorEntryS2_EPS2_S6_EET1_S7_S7_T2_OT0_
++ __ZNSt3__119__partial_sort_implB8ue170006INS_17_ClassicAlgPolicyERPFb22sortQuantizeColorEntryS2_EPS2_S6_EET1_S7_S7_T2_OT0_
++ __ZNSt3__120__throw_length_errorB8ue170006EPKc
++ __ZNSt3__126__insertion_sort_unguardedB8ue170006INS_17_ClassicAlgPolicyERPFb14sortColorEntryS2_EPS2_EEvT1_S7_T0_
++ __ZNSt3__126__insertion_sort_unguardedB8ue170006INS_17_ClassicAlgPolicyERPFb22sortQuantizeColorEntryS2_EPS2_EEvT1_S7_T0_
++ __ZNSt3__127__insertion_sort_incompleteB8ue170006INS_17_ClassicAlgPolicyERPFb14sortColorEntryS2_EPS2_EEbT1_S7_T0_
++ __ZNSt3__127__insertion_sort_incompleteB8ue170006INS_17_ClassicAlgPolicyERPFb22sortQuantizeColorEntryS2_EPS2_EEbT1_S7_T0_
++ __ZNSt3__131__partition_with_equals_on_leftB8ue170006INS_17_ClassicAlgPolicyEP14sortColorEntryRPFbS2_S2_EEET0_S7_S7_T1_
++ __ZNSt3__131__partition_with_equals_on_leftB8ue170006INS_17_ClassicAlgPolicyEP22sortQuantizeColorEntryRPFbS2_S2_EEET0_S7_S7_T1_
++ __ZNSt3__132__partition_with_equals_on_rightB8ue170006INS_17_ClassicAlgPolicyEP14sortColorEntryRPFbS2_S2_EEENS_4pairIT0_bEES8_S8_T1_
++ __ZNSt3__132__partition_with_equals_on_rightB8ue170006INS_17_ClassicAlgPolicyEP22sortQuantizeColorEntryRPFbS2_S2_EEENS_4pairIT0_bEES8_S8_T1_
++ __ZNSt3__17__sort3B8ue170006INS_17_ClassicAlgPolicyERPFb14sortColorEntryS2_EPS2_EEjT1_S7_S7_T0_
++ __ZNSt3__17__sort3B8ue170006INS_17_ClassicAlgPolicyERPFb22sortQuantizeColorEntryS2_EPS2_EEjT1_S7_S7_T0_
++ __ZNSt3__17__sort4B8ue170006INS_17_ClassicAlgPolicyERPFb14sortColorEntryS2_EPS2_EEvT1_S7_S7_S7_T0_
++ __ZNSt3__17__sort4B8ue170006INS_17_ClassicAlgPolicyERPFb22sortQuantizeColorEntryS2_EPS2_EEvT1_S7_S7_S7_T0_
++ __ZNSt3__17__sort5B8ue170006INS_17_ClassicAlgPolicyERPFb14sortColorEntryS2_EPS2_EEvT1_S7_S7_S7_S7_T0_
++ __ZNSt3__17__sort5B8ue170006INS_17_ClassicAlgPolicyERPFb22sortQuantizeColorEntryS2_EPS2_EEvT1_S7_S7_S7_S7_T0_
++ __ZNSt3__19__sift_upB8ue170006INS_17_ClassicAlgPolicyERPFb14sortColorEntryS2_EPS2_EEvT1_S7_OT0_NS_15iterator_traitsIS7_E15difference_typeE
++ __ZNSt3__19__sift_upB8ue170006INS_17_ClassicAlgPolicyERPFb22sortQuantizeColorEntryS2_EPS2_EEvT1_S7_OT0_NS_15iterator_traitsIS7_E15difference_typeE
++ __ZSt28__throw_bad_array_new_lengthB8ue170006v
++ ___41-[SUUIJSITunesStore isRemovedSystemApp::]_block_invoke.199
++ ___46-[SUUIJSITunesStore restoreRemovedSystemApp::]_block_invoke.220
++ ___78-[SUUIDocumentContainerViewController _finishLoadOperationWithResponse:error:]_block_invoke.256
++ ___block_literal_global.162
++ ___block_literal_global.180
++ ___block_literal_global.207
++ ___block_literal_global.292
++ ___block_literal_global.304
++ ___block_literal_global.320
++ ___block_literal_global.331
++ ___block_literal_global.376
++ ___block_literal_global.389
++ ___block_literal_global.417
++ ___block_literal_global.507
++ __unnamed_array_storage.258
++ _block_copy_helper.69
++ _block_copy_helper.78
++ _block_copy_helper.89
++ _block_descriptor.71
++ _block_descriptor.80
++ _block_descriptor.91
++ _block_destroy_helper.70
++ _block_destroy_helper.79
++ _block_destroy_helper.90
++ _get_witness_table 10Foundation19AttributedStringKeyRzlAA15AttributeScopesO5UIKitE0G10AttributesV04FontE0OAaBHPyHC.48
++ _objectdestroy.40Tm
+- __OBJC_$_PROP_LIST_SUUIDynamicShelfViewElement.59
+- __OBJC_$_PROP_LIST_SUUIJSITunesStore.434
+- __OBJC_$_PROP_LIST_SUUIJSTabBar.115
+- __OBJC_$_PROP_LIST_SUUIMenuBarViewElement.84
+- __OBJC_$_PROP_LIST_SUUIShelfCollectionViewLayout.73
+- __OBJC_$_PROP_LIST_SUUIShelfPageSection.279
+- __OBJC_$_PROP_LIST_SUUIStorePageCollectionViewLayout.205
+- __ZNKSt3__16vectorI14sortColorEntryNS_9allocatorIS1_EEE20__throw_length_errorB7v160006Ev
+- __ZNKSt3__16vectorI22sortQuantizeColorEntryNS_9allocatorIS1_EEE20__throw_length_errorB7v160006Ev
+- __ZNKSt3__16vectorI7ITColorNS_9allocatorIS1_EEE20__throw_length_errorB7v160006Ev
+- __ZNKSt3__16vectorIdNS_9allocatorIdEEE20__throw_length_errorB7v160006Ev
+- __ZNSt12length_errorC1B7v160006EPKc
+- __ZNSt3__111__introsortINS_17_ClassicAlgPolicyERPFb14sortColorEntryS2_EPS2_EEvT1_S7_T0_NS_15iterator_traitsIS7_E15difference_typeE
+- __ZNSt3__111__introsortINS_17_ClassicAlgPolicyERPFb22sortQuantizeColorEntryS2_EPS2_EEvT1_S7_T0_NS_15iterator_traitsIS7_E15difference_typeE
+- __ZNSt3__111__sift_downB7v160006INS_17_ClassicAlgPolicyERPFb14sortColorEntryS2_EPS2_EEvT1_OT0_NS_15iterator_traitsIS7_E15difference_typeES7_
+- __ZNSt3__111__sift_downB7v160006INS_17_ClassicAlgPolicyERPFb22sortQuantizeColorEntryS2_EPS2_EEvT1_OT0_NS_15iterator_traitsIS7_E15difference_typeES7_
+- __ZNSt3__117__floyd_sift_downB7v160006INS_17_ClassicAlgPolicyERPFb14sortColorEntryS2_EPS2_EET1_S7_OT0_NS_15iterator_traitsIS7_E15difference_typeE
+- __ZNSt3__117__floyd_sift_downB7v160006INS_17_ClassicAlgPolicyERPFb22sortQuantizeColorEntryS2_EPS2_EET1_S7_OT0_NS_15iterator_traitsIS7_E15difference_typeE
+- __ZNSt3__118__insertion_sort_3B7v160006INS_17_ClassicAlgPolicyERPFb14sortColorEntryS2_EPS2_EEvT1_S7_T0_
+- __ZNSt3__118__insertion_sort_3B7v160006INS_17_ClassicAlgPolicyERPFb22sortQuantizeColorEntryS2_EPS2_EEvT1_S7_T0_
+- __ZNSt3__119__allocate_at_leastB7v160006INS_9allocatorI14sortColorEntryEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m
+- __ZNSt3__119__allocate_at_leastB7v160006INS_9allocatorI22sortQuantizeColorEntryEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m
+- __ZNSt3__119__allocate_at_leastB7v160006INS_9allocatorI7ITColorEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m
+- __ZNSt3__119__allocate_at_leastB7v160006INS_9allocatorIdEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS5_m
+- __ZNSt3__119__partial_sort_implB7v160006INS_17_ClassicAlgPolicyERPFb14sortColorEntryS2_EPS2_S6_EET1_S7_S7_T2_OT0_
+- __ZNSt3__119__partial_sort_implB7v160006INS_17_ClassicAlgPolicyERPFb22sortQuantizeColorEntryS2_EPS2_S6_EET1_S7_S7_T2_OT0_
+- __ZNSt3__120__throw_length_errorB7v160006EPKc
+- __ZNSt3__127__insertion_sort_incompleteIRPFb14sortColorEntryS1_EPS1_EEbT0_S6_T_
+- __ZNSt3__127__insertion_sort_incompleteIRPFb22sortQuantizeColorEntryS1_EPS1_EEbT0_S6_T_
+- __ZNSt3__17__sort3B7v160006INS_17_ClassicAlgPolicyERPFb14sortColorEntryS2_EPS2_EEjT1_S7_S7_T0_
+- __ZNSt3__17__sort3B7v160006INS_17_ClassicAlgPolicyERPFb22sortQuantizeColorEntryS2_EPS2_EEjT1_S7_S7_T0_
+- __ZNSt3__17__sort4B7v160006INS_17_ClassicAlgPolicyERPFb14sortColorEntryS2_EPS2_EEjT1_S7_S7_S7_T0_
+- __ZNSt3__17__sort4B7v160006INS_17_ClassicAlgPolicyERPFb22sortQuantizeColorEntryS2_EPS2_EEjT1_S7_S7_S7_T0_
+- __ZNSt3__17__sort5IRPFb14sortColorEntryS1_EPS1_EEjT0_S6_S6_S6_S6_T_
+- __ZNSt3__17__sort5IRPFb22sortQuantizeColorEntryS1_EPS1_EEjT0_S6_S6_S6_S6_T_
+- __ZNSt3__19__sift_upB7v160006INS_17_ClassicAlgPolicyERPFb14sortColorEntryS2_EPS2_EEvT1_S7_OT0_NS_15iterator_traitsIS7_E15difference_typeE
+- __ZNSt3__19__sift_upB7v160006INS_17_ClassicAlgPolicyERPFb22sortQuantizeColorEntryS2_EPS2_EEvT1_S7_OT0_NS_15iterator_traitsIS7_E15difference_typeE
+- __ZSt28__throw_bad_array_new_lengthB7v160006v
+- ___41-[SUUIJSITunesStore isRemovedSystemApp::]_block_invoke.198
+- ___46-[SUUIJSITunesStore restoreRemovedSystemApp::]_block_invoke.219
+- ___78-[SUUIDocumentContainerViewController _finishLoadOperationWithResponse:error:]_block_invoke.255
+- ___block_literal_global.161
+- ___block_literal_global.179
+- ___block_literal_global.291
+- ___block_literal_global.303
+- ___block_literal_global.319
+- ___block_literal_global.330
+- ___block_literal_global.375
+- ___block_literal_global.388
+- ___block_literal_global.416
+- ___block_literal_global.506
+- __unnamed_array_storage.257
+- _block_copy_helper.70
+- _block_copy_helper.79
+- _block_copy_helper.90
+- _block_descriptor.72
+- _block_descriptor.81
+- _block_descriptor.92
+- _block_destroy_helper.71
+- _block_destroy_helper.80
+- _block_destroy_helper.91
+- _get_witness_table 10Foundation19AttributedStringKeyRzlAA15AttributeScopesO5UIKitE0G10AttributesV04FontE0OAaBHPyHC.49
+- _objectdestroy.41Tm
+CStrings:
++ "T@\"NSMutableDictionary\",?,R,N"
++ "T@\"NSString\",?,C,N"
++ "T@\"NSString\",?,R,C"
++ "T@\"UINavigationController\",?,R,N"
++ "T@\"UITextInputPasswordRules\",?,C,N"
++ "T@\"UIViewController\",?,R,N"
++ "TB,?,N"
++ "TB,?,N,GisSecureTextEntry"
++ "TB,?,N,GisSecureTextEntry,V_secureTextEntry"
++ "Tq,?,N"
++ "Tq,?,N,V_keyboardType"
+- "T@\"NSMutableDictionary\",R,N"
+- "T@\"UITextInputPasswordRules\",C,N"
+- "TB,N,GisSecureTextEntry"
+- "TB,N,GisSecureTextEntry,V_secureTextEntry"
+
+```

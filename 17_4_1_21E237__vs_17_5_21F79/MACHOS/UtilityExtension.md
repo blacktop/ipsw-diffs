@@ -1,0 +1,254 @@
+## UtilityExtension
+
+> `/System/Library/PrivateFrameworks/AppleMediaServicesUI.framework/Extensions/UtilityExtension.appex/UtilityExtension`
+
+```diff
+
+-5.4.30.2.6
+-  __TEXT.__text: 0x3c884
+-  __TEXT.__auth_stubs: 0x1780
++5.4.40.2.2
++  __TEXT.__text: 0x3f544
++  __TEXT.__auth_stubs: 0x1770
+   __TEXT.__objc_stubs: 0xe0
+-  __TEXT.__objc_methlist: 0x454
+-  __TEXT.__const: 0x1b08
+-  __TEXT.__cstring: 0x2307
++  __TEXT.__objc_methlist: 0x464
++  __TEXT.__const: 0x1c58
++  __TEXT.__cstring: 0x2477
+   __TEXT.__oslogstring: 0x4d
+   __TEXT.__objc_classname: 0x92
+-  __TEXT.__objc_methname: 0x13bc
++  __TEXT.__objc_methname: 0x14bb
+   __TEXT.__objc_methtype: 0x5aa
+-  __TEXT.__swift5_typeref: 0x10d3
+-  __TEXT.__constg_swiftt: 0xfb0
+-  __TEXT.__swift5_reflstr: 0x7f7
+-  __TEXT.__swift5_fieldmd: 0xb80
++  __TEXT.__swift5_typeref: 0x115b
++  __TEXT.__swift5_fieldmd: 0xc0c
++  __TEXT.__constg_swiftt: 0x10dc
+   __TEXT.__swift5_builtin: 0x28
++  __TEXT.__swift5_reflstr: 0x877
+   __TEXT.__swift5_assocty: 0x60
+-  __TEXT.__swift5_proto: 0x150
+-  __TEXT.__swift5_types: 0x104
+-  __TEXT.__swift5_capture: 0x528
+-  __TEXT.__swift5_protos: 0x4
++  __TEXT.__swift5_protos: 0xc
++  __TEXT.__swift5_proto: 0x160
++  __TEXT.__swift5_types: 0x110
++  __TEXT.__swift5_capture: 0x568
+   __TEXT.__swift5_entry: 0x8
+-  __TEXT.__unwind_info: 0x11a8
+-  __TEXT.__eh_frame: 0x1090
+-  __DATA_CONST.__auth_got: 0xbc8
+-  __DATA_CONST.__got: 0x1d0
+-  __DATA_CONST.__auth_ptr: 0x128
+-  __DATA_CONST.__const: 0x2370
++  __TEXT.__unwind_info: 0x13d0
++  __TEXT.__eh_frame: 0x11c0
++  __DATA_CONST.__auth_got: 0xbc0
++  __DATA_CONST.__got: 0x1f0
++  __DATA_CONST.__auth_ptr: 0x130
++  __DATA_CONST.__const: 0x2600
+   __DATA_CONST.__cfstring: 0x100
+   __DATA_CONST.__objc_classlist: 0xf8
+   __DATA_CONST.__objc_catlist: 0x0
+   __DATA_CONST.__objc_protolist: 0xd8
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_protorefs: 0xa0
+-  __DATA_CONST.__objc_classrefs: 0x178
+-  __DATA.__objc_const: 0x27e8
+-  __DATA.__objc_selrefs: 0x620
+-  __DATA.__objc_data: 0x1280
+-  __DATA.__data: 0x1f28
+-  __DATA.__bss: 0x2810
++  __DATA_CONST.__objc_classrefs: 0x188
++  __DATA.__objc_const: 0x27f8
++  __DATA.__objc_selrefs: 0x668
++  __DATA.__objc_data: 0x12d0
++  __DATA.__data: 0x1f38
++  __DATA.__bss: 0x2910
+   __DATA.__common: 0x18
+   - /System/Library/Frameworks/Accounts.framework/Accounts
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 1627
+-  Symbols:   11316
+-  CStrings:  548
++  Functions: 1723
++  Symbols:   11887
++  CStrings:  567
+ 
+Symbols:
++ /Library/Caches/com.apple.xbs/Binaries/AppleMediaServicesUISwift/install/TempContent/Objects/AppleMediaServicesUI.build/UtilityExtension.build/Objects-normal/arm64e/AccountFinder.o
++ /Library/Caches/com.apple.xbs/Binaries/AppleMediaServicesUISwift/install/TempContent/Objects/AppleMediaServicesUI.build/UtilityExtension.build/Objects-normal/arm64e/AccountRepresenting.o
++ /Library/Caches/com.apple.xbs/Binaries/AppleMediaServicesUISwift/install/TempContent/Objects/AppleMediaServicesUI.build/UtilityExtension.build/Objects-normal/arm64e/JSAccountPrivacyAcknowledgementState.o
++ AccountFinder.swift
++ AccountRepresenting.swift
++ JSAccountPrivacyAcknowledgementState.swift
++ _$s16UtilityExtension13AccountFinderMp
++ _$s16UtilityExtension13AccountFinderPAAE03getC04fromSo9ACAccountCSgSo7JSValueC_tF
++ _$s16UtilityExtension13AccountFinderTL
++ _$s16UtilityExtension13AccountFinder_pMF
++ _$s16UtilityExtension13JSAccountType33_868BF781FB9B0DC6FEB0E3B4A010F811LLO17accountIdentifierSSvg
++ _$s16UtilityExtension15JSAccountObjectC18localiTunesAccountSo9ACAccountCSgvg
++ _$s16UtilityExtension15JSAccountObjectC18localiTunesAccountSo9ACAccountCSgvgTq
++ _$s16UtilityExtension15JSAccountObjectC19activeiTunesAccountSo9ACAccountCSgvg
++ _$s16UtilityExtension15JSAccountObjectC19activeiTunesAccountSo9ACAccountCSgvgTm
++ _$s16UtilityExtension15JSAccountObjectC19activeiTunesAccountSo9ACAccountCSgvgTq
++ _$s16UtilityExtension15JSAccountObjectC27privacyAcknowledgementStateySo7JSValueCAF_AFtF
++ _$s16UtilityExtension15JSAccountObjectC27privacyAcknowledgementStateySo7JSValueCAF_AFtFAFSo9JSContextCKXEfU_
++ _$s16UtilityExtension15JSAccountObjectC27privacyAcknowledgementStateySo7JSValueCAF_AFtFAFSo9JSContextCKXEfU_TA
++ _$s16UtilityExtension15JSAccountObjectC27privacyAcknowledgementStateySo7JSValueCAF_AFtFAFSo9JSContextCKXEfU_yAH_9JetEngine10JSCallableVAKtcfU_
++ _$s16UtilityExtension15JSAccountObjectC27privacyAcknowledgementStateySo7JSValueCAF_AFtFAFSo9JSContextCKXEfU_yAH_9JetEngine10JSCallableVAKtcfU_TA
++ _$s16UtilityExtension15JSAccountObjectC27privacyAcknowledgementStateySo7JSValueCAF_AFtFAFSo9JSContextCKXEfU_yAH_9JetEngine10JSCallableVAKtcfU_yAA0c7PrivacyfG0VcfU_
++ _$s16UtilityExtension15JSAccountObjectC27privacyAcknowledgementStateySo7JSValueCAF_AFtFAFSo9JSContextCKXEfU_yAH_9JetEngine10JSCallableVAKtcfU_yAA0c7PrivacyfG0VcfU_TA
++ _$s16UtilityExtension15JSAccountObjectC27privacyAcknowledgementStateySo7JSValueCAF_AFtFTo
++ _$s16UtilityExtension15JSAccountObjectC27privacyAcknowledgementStateySo7JSValueCAF_AFtFTq
++ _$s16UtilityExtension16JSAppQueryObjectC15queryAlmondAppsSo7JSValueCyF
++ _$s16UtilityExtension16JSAppQueryObjectC15queryAlmondAppsSo7JSValueCyFAFSo9JSContextCKXEfU_
++ _$s16UtilityExtension16JSAppQueryObjectC15queryAlmondAppsSo7JSValueCyFTo
++ _$s16UtilityExtension16JSAppQueryObjectC15queryAlmondAppsSo7JSValueCyFTq
++ _$s16UtilityExtension19AccountObjectHelperV40acknowledgementStateForPrivacyIdentifier_02jsC5Value012activeiTunesC006localinC09evaluator13accountFinderAA09JSAccounti15AcknowledgementG0VSo7JSValueC_AMSo9ACAccountCSgAPSbSS_AOtXEAA0cR0_ptKFZ04$s16a11Extension19cde28V16defaultEvaluatorySbSS_So9V20CtcvpZfiSbSS_AFtcfu_Tf1nnnnncnn_n
++ _$s16UtilityExtension19AccountObjectHelperVMF
++ _$s16UtilityExtension19AccountObjectHelperVMa
++ _$s16UtilityExtension19AccountObjectHelperVMf
++ _$s16UtilityExtension19AccountObjectHelperVMn
++ _$s16UtilityExtension19AccountObjectHelperVN
++ _$s16UtilityExtension19AccountObjectHelperVmMD
++ _$s16UtilityExtension19AccountRepresentingMp
++ _$s16UtilityExtension19AccountRepresentingTL
++ _$s16UtilityExtension19AccountRepresenting_pMF
++ _$s16UtilityExtension19AccountRepresenting_pWOc
++ _$s16UtilityExtension36JSAccountPrivacyAcknowledgementStateV7account17privacyIdentifier21acknowledegmentNeededAcA19AccountRepresenting_p_SSSbtcfC
++ _$s16UtilityExtension36JSAccountPrivacyAcknowledgementStateV9JetEngine24CustomJSValueConvertibleAAMc
++ _$s16UtilityExtension36JSAccountPrivacyAcknowledgementStateV9JetEngine24CustomJSValueConvertibleAAMcMK
++ _$s16UtilityExtension36JSAccountPrivacyAcknowledgementStateV9JetEngine24CustomJSValueConvertibleAadEP16jsRepresentation2inAdE_pSo9JSContextC_tKFTW
++ _$s16UtilityExtension36JSAccountPrivacyAcknowledgementStateV9JetEngine24CustomJSValueConvertibleAadEP8_jsValue2inSo0J0CSo9JSContextC_tKFTW
++ _$s16UtilityExtension36JSAccountPrivacyAcknowledgementStateV9JetEngine24CustomJSValueConvertibleAadEP9makeValue2inSo0J0CSo9JSContextC_tFTW
++ _$s16UtilityExtension36JSAccountPrivacyAcknowledgementStateV9makeValue2inSo7JSValueCSo9JSContextC_tF
++ _$s16UtilityExtension36JSAccountPrivacyAcknowledgementStateVMF
++ _$s16UtilityExtension36JSAccountPrivacyAcknowledgementStateVMa
++ _$s16UtilityExtension36JSAccountPrivacyAcknowledgementStateVMf
++ _$s16UtilityExtension36JSAccountPrivacyAcknowledgementStateVMn
++ _$s16UtilityExtension36JSAccountPrivacyAcknowledgementStateVN
++ _$s16UtilityExtension36JSAccountPrivacyAcknowledgementStateVWOc
++ _$s16UtilityExtension36JSAccountPrivacyAcknowledgementStateVWOh
++ _$s16UtilityExtension36JSAccountPrivacyAcknowledgementStateVWV
++ _$s16UtilityExtension36JSAccountPrivacyAcknowledgementStateVwCP
++ _$s16UtilityExtension36JSAccountPrivacyAcknowledgementStateVwca
++ _$s16UtilityExtension36JSAccountPrivacyAcknowledgementStateVwcp
++ _$s16UtilityExtension36JSAccountPrivacyAcknowledgementStateVwet
++ _$s16UtilityExtension36JSAccountPrivacyAcknowledgementStateVwst
++ _$s16UtilityExtension36JSAccountPrivacyAcknowledgementStateVwta
++ _$s16UtilityExtension36JSAccountPrivacyAcknowledgementStateVwxx
++ _$s16UtilityExtension9JSAccountV9JetEngine24CustomJSValueConvertibleAAMc
++ _$s16UtilityExtension9JSAccountV9JetEngine24CustomJSValueConvertibleAAMcMK
++ _$s16UtilityExtension9JSAccountV9JetEngine24CustomJSValueConvertibleAadEP16jsRepresentation2inAdE_pSo9JSContextC_tKFTW
++ _$s16UtilityExtension9JSAccountV9JetEngine24CustomJSValueConvertibleAadEP8_jsValue2inSo0G0CSo9JSContextC_tKFTW
++ _$s16UtilityExtension9JSAccountV9JetEngine24CustomJSValueConvertibleAadEP9makeValue2inSo0G0CSo9JSContextC_tFTW
++ _$s16UtilityExtension9JSAccountVMF
++ _$s16UtilityExtension9JSAccountVMa
++ _$s16UtilityExtension9JSAccountVMf
++ _$s16UtilityExtension9JSAccountVMn
++ _$s16UtilityExtension9JSAccountVN
++ _$s16UtilityExtension9JSAccountVWOh
++ _$s16UtilityExtension9JSAccountVWV
++ _$s16UtilityExtension9JSAccountVwCP
++ _$s16UtilityExtension9JSAccountVwca
++ _$s16UtilityExtension9JSAccountVwcp
++ _$s16UtilityExtension9JSAccountVwet
++ _$s16UtilityExtension9JSAccountVwst
++ _$s16UtilityExtension9JSAccountVwta
++ _$s16UtilityExtension9JSAccountVwxx
++ _$s9JetEngine7PromiseC16UtilityExtensionE9onSuccess7perform0F0yyxc_AA13TaskScheduler_ptFys5Error_pcfU_
++ _$s9JetEngine7PromiseCy16UtilityExtension36JSAccountPrivacyAcknowledgementStateVGMD
++ _$sSDyq_SgxcigSS_So8NSNumberCTg5
++ _$sSo14ACAccountStoreC16UtilityExtension13AccountFinderA2cDP03getE010identifier4dsid7altDSID8usernameSo0A0CSgSS_So8NSNumberCSgSSSgAQtFTW
++ _$sSo14ACAccountStoreC16UtilityExtension13AccountFinderA2cDP03getE04fromSo0A0CSgSo7JSValueC_tFTW
++ _$sSo14ACAccountStoreC16UtilityExtension13AccountFinderACMc
++ _$sSo14ACAccountStoreC16UtilityExtension13AccountFinderACWP
++ _$sSo14ACAccountStoreC16UtilityExtensionE10getAccount10identifier4dsid7altDSID8usernameSo0A0CSgSS_So8NSNumberCSgSSSgAOtF
++ _$sSo14ACAccountStoreCML
++ _$sSo9ACAccountC16Accounts_PrivateE8isActiveSbvgTO
++ _$sSo9ACAccountC16UtilityExtension19AccountRepresentingA2cDP07isLocalD0SbvgTW
++ _$sSo9ACAccountC16UtilityExtension19AccountRepresentingA2cDP08isiCloudD0SbvgTW
++ _$sSo9ACAccountC16UtilityExtension19AccountRepresentingA2cDP08isiTunesD0SbvgTW
++ _$sSo9ACAccountC16UtilityExtension19AccountRepresentingA2cDP09isSandboxD0SbvgTW
++ _$sSo9ACAccountC16UtilityExtension19AccountRepresentingA2cDP10storefrontSSSgvgTW
++ _$sSo9ACAccountC16UtilityExtension19AccountRepresentingA2cDP13creditsStringSSSgvgTW
++ _$sSo9ACAccountC16UtilityExtension19AccountRepresentingA2cDP13isBundleOwnerSbSgvgTW
++ _$sSo9ACAccountC16UtilityExtension19AccountRepresentingA2cDP13isIDMSAccountSbvgTW
++ _$sSo9ACAccountC16UtilityExtension19AccountRepresentingA2cDP15accountUsernameSSSgvgTW
++ _$sSo9ACAccountC16UtilityExtension19AccountRepresentingA2cDP22privacyAcknowledgmentsSDySSSo8NSNumberCGSgvgTW
++ _$sSo9ACAccountC16UtilityExtension19AccountRepresentingA2cDP4dsidSo8NSNumberCSgvgTW
++ _$sSo9ACAccountC16UtilityExtension19AccountRepresentingA2cDP7altDSIDSSSgvgTW
++ _$sSo9ACAccountC16UtilityExtension19AccountRepresentingA2cDP8isActiveSbvgTW
++ _$sSo9ACAccountC16UtilityExtension19AccountRepresentingA2cDP8lastNameSSSgvgTW
++ _$sSo9ACAccountC16UtilityExtension19AccountRepresentingA2cDP9firstNameSSSgvgTW
++ _$sSo9ACAccountC16UtilityExtension19AccountRepresentingACMc
++ _$sSo9ACAccountC16UtilityExtension19AccountRepresentingACWP
++ _$sSo9ACAccountC16UtilityExtensionE10storefrontSSSgvg
++ _$sSo9ACAccountC16UtilityExtensionE13creditsStringSSSgvg
++ _$sSo9ACAccountC16UtilityExtensionE13isBundleOwnerSbSgvg
++ _$sSo9ACAccountC16UtilityExtensionE13isIDMSAccountSbvg
++ _$sSo9ACAccountC16UtilityExtensionE14isLocalAccountSbvg
++ _$sSo9ACAccountC16UtilityExtensionE15accountUsernameSSSgvg
++ _$sSo9ACAccountC16UtilityExtensionE15isiCloudAccountSbvg
++ _$sSo9ACAccountC16UtilityExtensionE15isiTunesAccountSbvg
++ _$sSo9ACAccountC16UtilityExtensionE16isSandboxAccountSbvg
++ _$sSo9ACAccountC16UtilityExtensionE22privacyAcknowledgmentsSDySSSo8NSNumberCGSgvg
++ _$sSo9ACAccountC16UtilityExtensionE4dsidSo8NSNumberCSgvg
++ _$sSo9ACAccountC16UtilityExtensionE7altDSIDSSSgvg
++ _$sSo9ACAccountC16UtilityExtensionE8lastNameSSSgvg
++ _$sSo9ACAccountC16UtilityExtensionE9firstNameSSSgvg
++ _$sSo9ACAccountC18AppleMediaServicesE26ams_privacyAcknowledgementSDySSSo8NSNumberCGSgvgToTepb_
++ _$sSo9ACAccountC8usernameSSSgvgToTepb_Tm
++ _$sytWV
++ _ACAccountTypeIdentifierAppleAccount
++ _ACAccountTypeIdentifierIDMS
++ _ACAccountTypeIdentifieriTunesStore
++ _ACAccountTypeIdentifieriTunesStoreSandbox
++ _OBJC_CLASS_$_AMSAcknowledgePrivacyTask
++ _OBJC_CLASS_$_NSNumberFormatter
++ ___swift_memcpy40_8
++ ___swift_memcpy66_8
++ _symbolic $s16UtilityExtension13AccountFinderP
++ _symbolic $s16UtilityExtension19AccountRepresentingP
++ _symbolic SiSg
++ _symbolic _____ 16UtilityExtension19AccountObjectHelperV
++ _symbolic _____ 16UtilityExtension36JSAccountPrivacyAcknowledgementStateV
++ _symbolic _____ 16UtilityExtension9JSAccountV
++ _symbolic ______p 16UtilityExtension19AccountRepresentingP
++ _symbolic _____m 16UtilityExtension19AccountObjectHelperV
++ _symbolic _____y_____G 9JetEngine7PromiseC 16UtilityExtension36JSAccountPrivacyAcknowledgementStateV
+- _$sSo9ACAccountC18AppleMediaServicesE11ams_altDSIDSSSgvgToTepb_Tm
+- _$sSo9JSContextCMa
+- _objc_retain_x1
+CStrings:
++ "@\"JSValue\"32@0:8@\"JSValue\"16@\"JSValue\"24"
++ "Completed privacy acknowledgement state lookup"
++ "Could not resolve privacy acknowledgement promise, reason:"
++ "Looking up privacy state for:"
++ "No account found"
++ "No privacy identifier found"
++ "Unsupported platform"
++ "acknowledgementNeeded"
++ "acknowledgementNeededForPrivacyIdentifier:account:"
++ "ams_accountWithAltDSID:DSID:username:accountTypeIdentifier:"
++ "ams_privacyAcknowledgement"
++ "integerValue"
++ "isUndefined"
++ "numberFromString:"
++ "privacyAcknowledgementState::"
++ "privacyIdentifier"
++ "queryAlmondApps"
++ "valueWithDouble:inContext:"
+
+```

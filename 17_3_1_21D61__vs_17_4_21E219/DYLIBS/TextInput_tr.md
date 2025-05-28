@@ -1,0 +1,26 @@
+## TextInput_tr
+
+> `/System/Library/TextInput/TextInput_tr.bundle/TextInput_tr`
+
+```diff
+
+-3431.206.0.0.0
+-  __TEXT.__text: 0xb7c
++3431.316.0.0.0
++  __TEXT.__text: 0xb80
+   __TEXT.__auth_stubs: 0x160
+   __TEXT.__init_offsets: 0x8
+   __TEXT.__objc_methlist: 0x14
+Symbols:
++ __ZNSt3__112__destroy_atB8un170006INS_4pairIKN2KB10ByteStringEN3WTF6RefPtrIN2TI8Favonius9LayoutKeyEEEEELi0EEEvPT_
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B8un170006ILi0EEEPKc
++ __ZNSt3__119__shared_weak_count16__release_sharedB8un170006Ev
++ __ZNSt3__16vectorIN3WTF6RefPtrIN2TI8Favonius9LayoutKeyEEENS_9allocatorIS6_EEE16__destroy_vectorclB8un170006Ev
++ __ZNSt3__16vectorIN3WTF6RefPtrIN2TI8Favonius9LayoutKeyEEENS_9allocatorIS6_EEE7__clearB8un170006Ev
+- __ZNSt3__112__destroy_atB7v160006INS_4pairIKN2KB10ByteStringEN3WTF6RefPtrIN2TI8Favonius9LayoutKeyEEEEELi0EEEvPT_
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B7v160006IDnEEPKc
+- __ZNSt3__119__shared_weak_count16__release_sharedB7v160006Ev
+- __ZNSt3__16vectorIN3WTF6RefPtrIN2TI8Favonius9LayoutKeyEEENS_9allocatorIS6_EEE16__destroy_vectorclB7v160006Ev
+- __ZNSt3__16vectorIN3WTF6RefPtrIN2TI8Favonius9LayoutKeyEEENS_9allocatorIS6_EEE7__clearB7v160006Ev
+
+```

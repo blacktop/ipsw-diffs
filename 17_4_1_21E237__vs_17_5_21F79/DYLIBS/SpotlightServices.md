@@ -1,0 +1,80 @@
+## SpotlightServices
+
+> `/System/Library/PrivateFrameworks/SpotlightServices.framework/SpotlightServices`
+
+```diff
+
+-2274.23.0.3.0
++2274.31.0.0.0
+   __TEXT.__text: 0xe6894
+   __TEXT.__auth_stubs: 0x1400
+   __TEXT.__objc_methlist: 0x9604
+
+   __TEXT.__swift5_typeref: 0x14
+   __TEXT.__swift5_fieldmd: 0x10
+   __TEXT.__swift5_types: 0x4
+-  __TEXT.__unwind_info: 0x22ac
++  __TEXT.__unwind_info: 0x22c4
+   __TEXT.__objc_classname: 0xe06
+-  __TEXT.__objc_methname: 0x1cf52
++  __TEXT.__objc_methname: 0x1cf5c
+   __TEXT.__objc_methtype: 0x26e2
+   __TEXT.__objc_stubs: 0x15220
+   __DATA_CONST.__got: 0xb78
+
+   __AUTH_CONST.__objc_dictobj: 0x140
+   __AUTH_CONST.__auth_ptr: 0x30
+   __AUTH_CONST.__auth_got: 0xa10
+-  __AUTH.__objc_data: 0x610
++  __AUTH.__objc_data: 0x660
+   __AUTH.__data: 0x50
+   __DATA.__objc_ivar: 0xda0
+-  __DATA.__data: 0xd78
++  __DATA.__data: 0xda0
+   __DATA.__thread_ptrs: 0x8
+-  __DATA.__bss: 0x370
++  __DATA.__bss: 0x350
+   __DATA.__common: 0x8
+-  __DATA_DIRTY.__objc_data: 0x23f0
+-  __DATA_DIRTY.__data: 0x2a8
++  __DATA_DIRTY.__objc_data: 0x23a0
++  __DATA_DIRTY.__data: 0x2a0
+   __DATA_DIRTY.__bss: 0x4cf0
+   __DATA_DIRTY.__common: 0x28
+   - /System/Library/Frameworks/CFNetwork.framework/CFNetwork
+Symbols:
++ -[SSBullseyeSuggestionsManager release2022_blendingByPolicyWithQueryContext:filters:entityFilters:contactFilters:userSuggestion:userWebSuggestion:shortcutSuggestionResults:actionSuggestionResults:contactSuggestionResults:serverSuggestionResults:localSuggestionResults:options:]
++ -[SSBullseyeSuggestionsManager release2023_blendingByPolicyWithQueryContext:filters:entityFilters:contactFilters:userSuggestion:userWebSuggestion:actionSuggestionResults:contactSuggestionResults:serverSuggestionResults:localSuggestionResults:options:]
++ -[SSBullseyeSuggestionsManager release2023_blendingWithQueryContext:filters:entityFilters:contactFilters:userSuggestion:userWebSuggestion:shortcutSuggestionResults:actionSuggestionResults:contactSuggestionResults:serverSuggestionResults:localSuggestionResults:options:]
++ _SSUniversalSearch2022Enabled
++ _SSUniversalSearch2022Enabled.onceToken
++ _SSUniversalSearch2022Enabled.universalSearch2022Enabled
++ ___251-[SSBullseyeSuggestionsManager release2023_blendingByPolicyWithQueryContext:filters:entityFilters:contactFilters:userSuggestion:userWebSuggestion:actionSuggestionResults:contactSuggestionResults:serverSuggestionResults:localSuggestionResults:options:]_block_invoke
++ ___251-[SSBullseyeSuggestionsManager release2023_blendingByPolicyWithQueryContext:filters:entityFilters:contactFilters:userSuggestion:userWebSuggestion:actionSuggestionResults:contactSuggestionResults:serverSuggestionResults:localSuggestionResults:options:]_block_invoke_2
++ ___277-[SSBullseyeSuggestionsManager release2022_blendingByPolicyWithQueryContext:filters:entityFilters:contactFilters:userSuggestion:userWebSuggestion:shortcutSuggestionResults:actionSuggestionResults:contactSuggestionResults:serverSuggestionResults:localSuggestionResults:options:]_block_invoke
++ ___SSUniversalSearch2022Enabled_block_invoke
++ _objc_msgSend$release2022_blendingByPolicyWithQueryContext:filters:entityFilters:contactFilters:userSuggestion:userWebSuggestion:shortcutSuggestionResults:actionSuggestionResults:contactSuggestionResults:serverSuggestionResults:localSuggestionResults:options:
++ _objc_msgSend$release2023_blendingByPolicyWithQueryContext:filters:entityFilters:contactFilters:userSuggestion:userWebSuggestion:actionSuggestionResults:contactSuggestionResults:serverSuggestionResults:localSuggestionResults:options:
++ _objc_msgSend$release2023_blendingWithQueryContext:filters:entityFilters:contactFilters:userSuggestion:userWebSuggestion:shortcutSuggestionResults:actionSuggestionResults:contactSuggestionResults:serverSuggestionResults:localSuggestionResults:options:
+- -[SSBullseyeSuggestionsManager dawnburst_blendingByPolicyWithQueryContext:filters:entityFilters:contactFilters:userSuggestion:userWebSuggestion:actionSuggestionResults:contactSuggestionResults:serverSuggestionResults:localSuggestionResults:options:]
+- -[SSBullseyeSuggestionsManager dawnburst_blendingWithQueryContext:filters:entityFilters:contactFilters:userSuggestion:userWebSuggestion:shortcutSuggestionResults:actionSuggestionResults:contactSuggestionResults:serverSuggestionResults:localSuggestionResults:options:]
+- -[SSBullseyeSuggestionsManager sydro_blendingByPolicyWithQueryContext:filters:entityFilters:contactFilters:userSuggestion:userWebSuggestion:shortcutSuggestionResults:actionSuggestionResults:contactSuggestionResults:serverSuggestionResults:localSuggestionResults:options:]
+- _SSUniversalSearchSydroEnabled
+- _SSUniversalSearchSydroEnabled.onceToken
+- _SSUniversalSearchSydroEnabled.universalSearchSydroEnabled
+- ___249-[SSBullseyeSuggestionsManager dawnburst_blendingByPolicyWithQueryContext:filters:entityFilters:contactFilters:userSuggestion:userWebSuggestion:actionSuggestionResults:contactSuggestionResults:serverSuggestionResults:localSuggestionResults:options:]_block_invoke
+- ___249-[SSBullseyeSuggestionsManager dawnburst_blendingByPolicyWithQueryContext:filters:entityFilters:contactFilters:userSuggestion:userWebSuggestion:actionSuggestionResults:contactSuggestionResults:serverSuggestionResults:localSuggestionResults:options:]_block_invoke_2
+- ___271-[SSBullseyeSuggestionsManager sydro_blendingByPolicyWithQueryContext:filters:entityFilters:contactFilters:userSuggestion:userWebSuggestion:shortcutSuggestionResults:actionSuggestionResults:contactSuggestionResults:serverSuggestionResults:localSuggestionResults:options:]_block_invoke
+- ___SSUniversalSearchSydroEnabled_block_invoke
+- _objc_msgSend$dawnburst_blendingByPolicyWithQueryContext:filters:entityFilters:contactFilters:userSuggestion:userWebSuggestion:actionSuggestionResults:contactSuggestionResults:serverSuggestionResults:localSuggestionResults:options:
+- _objc_msgSend$dawnburst_blendingWithQueryContext:filters:entityFilters:contactFilters:userSuggestion:userWebSuggestion:shortcutSuggestionResults:actionSuggestionResults:contactSuggestionResults:serverSuggestionResults:localSuggestionResults:options:
+- _objc_msgSend$sydro_blendingByPolicyWithQueryContext:filters:entityFilters:contactFilters:userSuggestion:userWebSuggestion:shortcutSuggestionResults:actionSuggestionResults:contactSuggestionResults:serverSuggestionResults:localSuggestionResults:options:
+CStrings:
++ "release2022_blendingByPolicyWithQueryContext:filters:entityFilters:contactFilters:userSuggestion:userWebSuggestion:shortcutSuggestionResults:actionSuggestionResults:contactSuggestionResults:serverSuggestionResults:localSuggestionResults:options:"
++ "release2023_blendingByPolicyWithQueryContext:filters:entityFilters:contactFilters:userSuggestion:userWebSuggestion:actionSuggestionResults:contactSuggestionResults:serverSuggestionResults:localSuggestionResults:options:"
++ "release2023_blendingWithQueryContext:filters:entityFilters:contactFilters:userSuggestion:userWebSuggestion:shortcutSuggestionResults:actionSuggestionResults:contactSuggestionResults:serverSuggestionResults:localSuggestionResults:options:"
+- "dawnburst_blendingByPolicyWithQueryContext:filters:entityFilters:contactFilters:userSuggestion:userWebSuggestion:actionSuggestionResults:contactSuggestionResults:serverSuggestionResults:localSuggestionResults:options:"
+- "dawnburst_blendingWithQueryContext:filters:entityFilters:contactFilters:userSuggestion:userWebSuggestion:shortcutSuggestionResults:actionSuggestionResults:contactSuggestionResults:serverSuggestionResults:localSuggestionResults:options:"
+- "sydro_blendingByPolicyWithQueryContext:filters:entityFilters:contactFilters:userSuggestion:userWebSuggestion:shortcutSuggestionResults:actionSuggestionResults:contactSuggestionResults:serverSuggestionResults:localSuggestionResults:options:"
+
+```

@@ -1,0 +1,1156 @@
+## Photos
+
+> `/System/Library/Frameworks/Photos.framework/Photos`
+
+```diff
+
+-612.0.160.0.0
+-  __TEXT.__text: 0x1fb090
++622.0.130.0.0
++  __TEXT.__text: 0x1fb4f8
+   __TEXT.__auth_stubs: 0x2410
+-  __TEXT.__objc_methlist: 0x1a918
++  __TEXT.__objc_methlist: 0x1a928
+   __TEXT.__const: 0xc20
+   __TEXT.__constg_swiftt: 0xac
+   __TEXT.__swift5_typeref: 0x1c3
+
+   __TEXT.__swift5_builtin: 0x14
+   __TEXT.__swift5_proto: 0x2c
+   __TEXT.__swift5_types: 0xc
+-  __TEXT.__cstring: 0x21592
++  __TEXT.__cstring: 0x21611
+   __TEXT.__gcc_except_tab: 0x4b34
+-  __TEXT.__oslogstring: 0x14511
++  __TEXT.__oslogstring: 0x1463e
+   __TEXT.__ustring: 0x4
+   __TEXT.__dlopen_cstrs: 0x47
+-  __TEXT.__unwind_info: 0x6c18
++  __TEXT.__unwind_info: 0x6c1c
+   __TEXT.__eh_frame: 0x98
+   __TEXT.__objc_classname: 0x2a3c
+-  __TEXT.__objc_methname: 0x51ba5
+-  __TEXT.__objc_methtype: 0x5947
+-  __TEXT.__objc_stubs: 0x2c940
++  __TEXT.__objc_methname: 0x51bf1
++  __TEXT.__objc_methtype: 0x594a
++  __TEXT.__objc_stubs: 0x2c980
+   __DATA_CONST.__got: 0xb20
+   __DATA_CONST.__const: 0x6630
+   __DATA_CONST.__objc_classlist: 0xab0
+
+   __DATA_CONST.__objc_protolist: 0x248
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_const: 0x28ad0
+-  __DATA_CONST.__objc_selrefs: 0xe9e0
++  __DATA_CONST.__objc_selrefs: 0xe9f8
+   __DATA_CONST.__objc_arraydata: 0x800
+   __AUTH_CONST.__const: 0x3178
+-  __AUTH_CONST.__cfstring: 0x1e540
++  __AUTH_CONST.__cfstring: 0x1e520
+   __AUTH_CONST.__objc_const: 0x9588
+   __AUTH_CONST.__objc_intobj: 0x1bf0
+   __AUTH_CONST.__objc_arrayobj: 0x5b8
+
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 10576
+-  Symbols:   35329
+-  CStrings:  18422
++  Functions: 10577
++  Symbols:   35333
++  CStrings:  18425
+ 
+Symbols:
++ +[PHAssetCreationRequest _originalResourceTypeFromAdjustedResourceType:sourceAssetIsLoopingVideo:sourceAssetIsVideo:]
++ +[PHPhotoLibrary unsafeShutdownLibraryWithPhotoLibraryURL:]
++ -[PHServerResourceRequestRunner _applyCorrectionsToAssetObjectIDURL:resourceIdentity:errorCodes:clientBundleID:library:reply:]
++ -[PHServerResourceRequestRunner applyAssetScopeCorrectionsWithRequest:errorCodes:clientBundleID:library:reply:]
++ -[PHServerResourceRequestRunner applyResourceScopeCorrectionsWithRequest:errorCodes:clientBundleID:library:reply:]
++ GCC_except_table10094
++ GCC_except_table10165
++ GCC_except_table10190
++ GCC_except_table10224
++ GCC_except_table10234
++ GCC_except_table10252
++ GCC_except_table10267
++ GCC_except_table10306
++ GCC_except_table10308
++ GCC_except_table10310
++ GCC_except_table10329
++ GCC_except_table4647
++ GCC_except_table4649
++ GCC_except_table4660
++ GCC_except_table4698
++ GCC_except_table4769
++ GCC_except_table4774
++ GCC_except_table4892
++ GCC_except_table4895
++ GCC_except_table4908
++ GCC_except_table4927
++ GCC_except_table4940
++ GCC_except_table4970
++ GCC_except_table5004
++ GCC_except_table5006
++ GCC_except_table5310
++ GCC_except_table5323
++ GCC_except_table5336
++ GCC_except_table5351
++ GCC_except_table5377
++ GCC_except_table5380
++ GCC_except_table5382
++ GCC_except_table5384
++ GCC_except_table5386
++ GCC_except_table5417
++ GCC_except_table5450
++ GCC_except_table5452
++ GCC_except_table5486
++ GCC_except_table5675
++ GCC_except_table5832
++ GCC_except_table6025
++ GCC_except_table6094
++ GCC_except_table6116
++ GCC_except_table6120
++ GCC_except_table6126
++ GCC_except_table6177
++ GCC_except_table6282
++ GCC_except_table6284
++ GCC_except_table6329
++ GCC_except_table6365
++ GCC_except_table6369
++ GCC_except_table6371
++ GCC_except_table6373
++ GCC_except_table6385
++ GCC_except_table6390
++ GCC_except_table6426
++ GCC_except_table6449
++ GCC_except_table6536
++ GCC_except_table6539
++ GCC_except_table6557
++ GCC_except_table6594
++ GCC_except_table6614
++ GCC_except_table6617
++ GCC_except_table6635
++ GCC_except_table6695
++ GCC_except_table6772
++ GCC_except_table6901
++ GCC_except_table6906
++ GCC_except_table7191
++ GCC_except_table7201
++ GCC_except_table7232
++ GCC_except_table7295
++ GCC_except_table7322
++ GCC_except_table7370
++ GCC_except_table7372
++ GCC_except_table7456
++ GCC_except_table7530
++ GCC_except_table7548
++ GCC_except_table7633
++ GCC_except_table7647
++ GCC_except_table7656
++ GCC_except_table7686
++ GCC_except_table7695
++ GCC_except_table7766
++ GCC_except_table7846
++ GCC_except_table7859
++ GCC_except_table7878
++ GCC_except_table7899
++ GCC_except_table7903
++ GCC_except_table7932
++ GCC_except_table7961
++ GCC_except_table7965
++ GCC_except_table7984
++ GCC_except_table7989
++ GCC_except_table8056
++ GCC_except_table8146
++ GCC_except_table8211
++ GCC_except_table8249
++ GCC_except_table8326
++ GCC_except_table8345
++ GCC_except_table8918
++ GCC_except_table8937
++ GCC_except_table8939
++ GCC_except_table8941
++ GCC_except_table8943
++ GCC_except_table8973
++ GCC_except_table9032
++ GCC_except_table9132
++ GCC_except_table9144
++ GCC_except_table9183
++ GCC_except_table9185
++ GCC_except_table9198
++ GCC_except_table9233
++ GCC_except_table9237
++ GCC_except_table9275
++ GCC_except_table9279
++ GCC_except_table9289
++ GCC_except_table9296
++ GCC_except_table9333
++ GCC_except_table9340
++ GCC_except_table9442
++ GCC_except_table9448
++ GCC_except_table9450
++ GCC_except_table9496
++ GCC_except_table9512
++ GCC_except_table9522
++ GCC_except_table9604
++ GCC_except_table9692
++ GCC_except_table9696
++ GCC_except_table9700
++ GCC_except_table9728
++ ___126-[PHServerResourceRequestRunner _applyCorrectionsToAssetObjectIDURL:resourceIdentity:errorCodes:clientBundleID:library:reply:]_block_invoke
++ ___126-[PHServerResourceRequestRunner _applyCorrectionsToAssetObjectIDURL:resourceIdentity:errorCodes:clientBundleID:library:reply:]_block_invoke.105
++ ___126-[PHServerResourceRequestRunner _applyCorrectionsToAssetObjectIDURL:resourceIdentity:errorCodes:clientBundleID:library:reply:]_block_invoke_2
++ ___126-[PHServerResourceRequestRunner _applyCorrectionsToAssetObjectIDURL:resourceIdentity:errorCodes:clientBundleID:library:reply:]_block_invoke_2.106
++ ___126-[PHServerResourceRequestRunner _applyCorrectionsToAssetObjectIDURL:resourceIdentity:errorCodes:clientBundleID:library:reply:]_block_invoke_3
++ ___126-[PHServerResourceRequestRunner _applyCorrectionsToAssetObjectIDURL:resourceIdentity:errorCodes:clientBundleID:library:reply:]_block_invoke_3.108
++ ___126-[PHServerResourceRequestRunner _applyCorrectionsToAssetObjectIDURL:resourceIdentity:errorCodes:clientBundleID:library:reply:]_block_invoke_4
++ ___85-[PHServerResourceRequestRunner chooseVideoWithRequest:library:clientBundleID:reply:]_block_invoke.119
++ ___85-[PHServerResourceRequestRunner chooseVideoWithRequest:library:clientBundleID:reply:]_block_invoke.123
++ ___85-[PHServerResourceRequestRunner chooseVideoWithRequest:library:clientBundleID:reply:]_block_invoke.131
++ ___85-[PHServerResourceRequestRunner chooseVideoWithRequest:library:clientBundleID:reply:]_block_invoke.133
++ ___88-[PHAssetExportRequest bundleResourcesIfNeededForAsset:withFileURLs:options:completion:]_block_invoke.415
++ ___Block_byref_object_copy_.10308
++ ___Block_byref_object_copy_.10928
++ ___Block_byref_object_copy_.13061
++ ___Block_byref_object_copy_.14619
++ ___Block_byref_object_copy_.14781
++ ___Block_byref_object_copy_.15076
++ ___Block_byref_object_copy_.15544
++ ___Block_byref_object_copy_.16145
++ ___Block_byref_object_copy_.16303
++ ___Block_byref_object_copy_.1789
++ ___Block_byref_object_copy_.18261
++ ___Block_byref_object_copy_.19403
++ ___Block_byref_object_copy_.19909
++ ___Block_byref_object_copy_.20246
++ ___Block_byref_object_copy_.20514
++ ___Block_byref_object_copy_.2124
++ ___Block_byref_object_copy_.21387
++ ___Block_byref_object_copy_.21699
++ ___Block_byref_object_copy_.22489
++ ___Block_byref_object_copy_.23091
++ ___Block_byref_object_copy_.24494
++ ___Block_byref_object_copy_.25080
++ ___Block_byref_object_copy_.2529
++ ___Block_byref_object_copy_.25890
++ ___Block_byref_object_copy_.26137
++ ___Block_byref_object_copy_.27132
++ ___Block_byref_object_copy_.27582
++ ___Block_byref_object_copy_.28687
++ ___Block_byref_object_copy_.29168
++ ___Block_byref_object_copy_.32559
++ ___Block_byref_object_copy_.32793
++ ___Block_byref_object_copy_.33713
++ ___Block_byref_object_copy_.34096
++ ___Block_byref_object_copy_.34272
++ ___Block_byref_object_copy_.34558
++ ___Block_byref_object_copy_.3513
++ ___Block_byref_object_copy_.35240
++ ___Block_byref_object_copy_.36142
++ ___Block_byref_object_copy_.36251
++ ___Block_byref_object_copy_.38027
++ ___Block_byref_object_copy_.38314
++ ___Block_byref_object_copy_.38833
++ ___Block_byref_object_copy_.4519
++ ___Block_byref_object_copy_.4758
++ ___Block_byref_object_copy_.5881
++ ___Block_byref_object_copy_.6876
++ ___Block_byref_object_copy_.7474
++ ___Block_byref_object_copy_.7680
++ ___Block_byref_object_copy_.7846
++ ___Block_byref_object_copy_.8420
++ ___Block_byref_object_copy_.8661
++ ___Block_byref_object_copy_.9112
++ ___Block_byref_object_copy_.9508
++ ___Block_byref_object_dispose_.10309
++ ___Block_byref_object_dispose_.10929
++ ___Block_byref_object_dispose_.13062
++ ___Block_byref_object_dispose_.14620
++ ___Block_byref_object_dispose_.14782
++ ___Block_byref_object_dispose_.15077
++ ___Block_byref_object_dispose_.15545
++ ___Block_byref_object_dispose_.16146
++ ___Block_byref_object_dispose_.16304
++ ___Block_byref_object_dispose_.1790
++ ___Block_byref_object_dispose_.18262
++ ___Block_byref_object_dispose_.19404
++ ___Block_byref_object_dispose_.19910
++ ___Block_byref_object_dispose_.20247
++ ___Block_byref_object_dispose_.20515
++ ___Block_byref_object_dispose_.2125
++ ___Block_byref_object_dispose_.21388
++ ___Block_byref_object_dispose_.21700
++ ___Block_byref_object_dispose_.22490
++ ___Block_byref_object_dispose_.23092
++ ___Block_byref_object_dispose_.24495
++ ___Block_byref_object_dispose_.25081
++ ___Block_byref_object_dispose_.2530
++ ___Block_byref_object_dispose_.25891
++ ___Block_byref_object_dispose_.26138
++ ___Block_byref_object_dispose_.27133
++ ___Block_byref_object_dispose_.27583
++ ___Block_byref_object_dispose_.28688
++ ___Block_byref_object_dispose_.29169
++ ___Block_byref_object_dispose_.32560
++ ___Block_byref_object_dispose_.32794
++ ___Block_byref_object_dispose_.33714
++ ___Block_byref_object_dispose_.34097
++ ___Block_byref_object_dispose_.34273
++ ___Block_byref_object_dispose_.34559
++ ___Block_byref_object_dispose_.3514
++ ___Block_byref_object_dispose_.35241
++ ___Block_byref_object_dispose_.36143
++ ___Block_byref_object_dispose_.36252
++ ___Block_byref_object_dispose_.38028
++ ___Block_byref_object_dispose_.38315
++ ___Block_byref_object_dispose_.38834
++ ___Block_byref_object_dispose_.4520
++ ___Block_byref_object_dispose_.4759
++ ___Block_byref_object_dispose_.5882
++ ___Block_byref_object_dispose_.6877
++ ___Block_byref_object_dispose_.7475
++ ___Block_byref_object_dispose_.7681
++ ___Block_byref_object_dispose_.7847
++ ___Block_byref_object_dispose_.8421
++ ___Block_byref_object_dispose_.8662
++ ___Block_byref_object_dispose_.9113
++ ___Block_byref_object_dispose_.9509
++ ___block_descriptor_96_e8_32s40s48s56s64s72s80bs88r_e5_v8?0ls32l8s40l8s48l8r88l8s56l8s64l8s72l8s80l8
++ ___block_literal_global.10363
++ ___block_literal_global.1044
++ ___block_literal_global.1053.16031
++ ___block_literal_global.1068
++ ___block_literal_global.1086
++ ___block_literal_global.112.30476
++ ___block_literal_global.12574
++ ___block_literal_global.13094
++ ___block_literal_global.131.28692
++ ___block_literal_global.13148
++ ___block_literal_global.14289
++ ___block_literal_global.14613
++ ___block_literal_global.15032
++ ___block_literal_global.15967
++ ___block_literal_global.16818
++ ___block_literal_global.17574
++ ___block_literal_global.1786
++ ___block_literal_global.18605
++ ___block_literal_global.19092
++ ___block_literal_global.1946
++ ___block_literal_global.19600
++ ___block_literal_global.200.15822
++ ___block_literal_global.20223
++ ___block_literal_global.20812
++ ___block_literal_global.210.9812
++ ___block_literal_global.21012
++ ___block_literal_global.21399
++ ___block_literal_global.21810
++ ___block_literal_global.21981
++ ___block_literal_global.2207
++ ___block_literal_global.22122
++ ___block_literal_global.22224
++ ___block_literal_global.223.14614
++ ___block_literal_global.225.24771
++ ___block_literal_global.22501
++ ___block_literal_global.22689
++ ___block_literal_global.229.24769
++ ___block_literal_global.230.8696
++ ___block_literal_global.23308
++ ___block_literal_global.23437
++ ___block_literal_global.23863
++ ___block_literal_global.24774
++ ___block_literal_global.25028
++ ___block_literal_global.25231
++ ___block_literal_global.25631
++ ___block_literal_global.26142
++ ___block_literal_global.26590
++ ___block_literal_global.27448
++ ___block_literal_global.2752
++ ___block_literal_global.2790
++ ___block_literal_global.28164
++ ___block_literal_global.28436
++ ___block_literal_global.28731
++ ___block_literal_global.28982
++ ___block_literal_global.29280
++ ___block_literal_global.29797
++ ___block_literal_global.3.1784
++ ___block_literal_global.3.7701
++ ___block_literal_global.30174
++ ___block_literal_global.304.27280
++ ___block_literal_global.30482
++ ___block_literal_global.308.8817
++ ___block_literal_global.3164
++ ___block_literal_global.31852
++ ___block_literal_global.3228
++ ___block_literal_global.32811
++ ___block_literal_global.33106
++ ___block_literal_global.33800
++ ___block_literal_global.34125
++ ___block_literal_global.34811
++ ___block_literal_global.34902
++ ___block_literal_global.35327
++ ___block_literal_global.35472
++ ___block_literal_global.36107
++ ___block_literal_global.36253
++ ___block_literal_global.36762
++ ___block_literal_global.37.34895
++ ___block_literal_global.37779
++ ___block_literal_global.38905
++ ___block_literal_global.39388
++ ___block_literal_global.430
++ ___block_literal_global.4588
++ ___block_literal_global.4808
++ ___block_literal_global.51.7536
++ ___block_literal_global.5173
++ ___block_literal_global.5388
++ ___block_literal_global.5533
++ ___block_literal_global.6061
++ ___block_literal_global.683.27184
++ ___block_literal_global.6941
++ ___block_literal_global.741.26993
++ ___block_literal_global.7541
++ ___block_literal_global.7696
++ ___block_literal_global.7939
++ ___block_literal_global.81.39368
++ ___block_literal_global.823.26991
++ ___block_literal_global.8715
++ ___block_literal_global.894.26946
++ ___block_literal_global.896.26944
++ ___block_literal_global.9345
++ ___block_literal_global.9998
++ __currentTimestampString.s_formatter.34896
++ __currentTimestampString.s_onceToken.34894
++ __unnamed_array_storage.10386
++ __unnamed_array_storage.11860
++ __unnamed_array_storage.13233
++ __unnamed_array_storage.14.7884
++ __unnamed_array_storage.15939
++ __unnamed_array_storage.162.35289
++ __unnamed_array_storage.1636
++ __unnamed_array_storage.16507
++ __unnamed_array_storage.18572
++ __unnamed_array_storage.19.7882
++ __unnamed_array_storage.20676
++ __unnamed_array_storage.21422
++ __unnamed_array_storage.246.35194
++ __unnamed_array_storage.26682
++ __unnamed_array_storage.2698
++ __unnamed_array_storage.29310
++ __unnamed_array_storage.29812
++ __unnamed_array_storage.30496
++ __unnamed_array_storage.30589
++ __unnamed_array_storage.31859
++ __unnamed_array_storage.34196
++ __unnamed_array_storage.35341
++ __unnamed_array_storage.38482
++ __unnamed_array_storage.38817
++ __unnamed_array_storage.39362
++ __unnamed_array_storage.5508
++ __unnamed_array_storage.6048
++ __unnamed_array_storage.7872
++ __unnamed_array_storage.8828
++ __unnamed_array_storage.9153
++ _allowedInfoKeys.allowedKeys.13310
++ _allowedInfoKeys.allowedKeys.29979
++ _allowedInfoKeys.onceToken.13309
++ _allowedInfoKeys.onceToken.29978
++ _corePropertiesToFetch.array.16821
++ _corePropertiesToFetch.array.20809
++ _corePropertiesToFetch.array.24775
++ _corePropertiesToFetch.onceToken.16820
++ _corePropertiesToFetch.onceToken.20808
++ _corePropertiesToFetch.onceToken.24773
++ _defaultManager.onceToken.38104
++ _entityKeyMap.pl_once_object_0.23854
++ _entityKeyMap.pl_once_object_0.5393
++ _entityKeyMap.pl_once_object_0.7950
++ _entityKeyMap.pl_once_object_2.20803
++ _entityKeyMap.pl_once_object_2.26580
++ _entityKeyMap.pl_once_object_2.29827
++ _entityKeyMap.pl_once_object_2.32831
++ _entityKeyMap.pl_once_object_2.34116
++ _entityKeyMap.pl_once_object_2.35469
++ _entityKeyMap.pl_once_object_2.7520
++ _entityKeyMap.pl_once_object_2.9337
++ _entityKeyMap.pl_once_object_2.9549
++ _entityKeyMap.pl_once_object_3.24760
++ _entityKeyMap.pl_once_object_3.39376
++ _entityKeyMap.pl_once_token_0.23853
++ _entityKeyMap.pl_once_token_0.5392
++ _entityKeyMap.pl_once_token_0.7949
++ _entityKeyMap.pl_once_token_2.20802
++ _entityKeyMap.pl_once_token_2.26579
++ _entityKeyMap.pl_once_token_2.29826
++ _entityKeyMap.pl_once_token_2.32830
++ _entityKeyMap.pl_once_token_2.34115
++ _entityKeyMap.pl_once_token_2.35468
++ _entityKeyMap.pl_once_token_2.7519
++ _entityKeyMap.pl_once_token_2.9336
++ _entityKeyMap.pl_once_token_2.9548
++ _entityKeyMap.pl_once_token_3.24759
++ _entityKeyMap.pl_once_token_3.39375
++ _identifierPropertiesToFetch.array.25632
++ _identifierPropertiesToFetch.onceToken.25630
++ _objc_msgSend$_applyCorrectionsToAssetObjectIDURL:resourceIdentity:errorCodes:clientBundleID:library:reply:
++ _objc_msgSend$_originalResourceTypeFromAdjustedResourceType:sourceAssetIsLoopingVideo:sourceAssetIsVideo:
++ _objc_msgSend$bundleForLibraryURL:
++ _objc_msgSend$generateAndStoreForAsset:networkAccessAllowed:clientBundleID:progress:completion:
++ _objc_msgSend$shutdownBundle:reason:
++ _propertiesToFetchWithHint:.array.17254
++ _propertiesToFetchWithHint:.array.23864
++ _propertiesToFetchWithHint:.array.26591
++ _propertiesToFetchWithHint:.array.29848
++ _propertiesToFetchWithHint:.array.34126
++ _propertiesToFetchWithHint:.array.35473
++ _propertiesToFetchWithHint:.array.36650
++ _propertiesToFetchWithHint:.array.37319
++ _propertiesToFetchWithHint:.array.5418
++ _propertiesToFetchWithHint:.array.7532
++ _propertiesToFetchWithHint:.array.7957
++ _propertiesToFetchWithHint:.array.9574
++ _propertiesToFetchWithHint:.onceToken.16815
++ _propertiesToFetchWithHint:.onceToken.17253
++ _propertiesToFetchWithHint:.onceToken.20811
++ _propertiesToFetchWithHint:.onceToken.23862
++ _propertiesToFetchWithHint:.onceToken.24765
++ _propertiesToFetchWithHint:.onceToken.26589
++ _propertiesToFetchWithHint:.onceToken.2751
++ _propertiesToFetchWithHint:.onceToken.29847
++ _propertiesToFetchWithHint:.onceToken.34124
++ _propertiesToFetchWithHint:.onceToken.35471
++ _propertiesToFetchWithHint:.onceToken.36649
++ _propertiesToFetchWithHint:.onceToken.37318
++ _propertiesToFetchWithHint:.onceToken.5417
++ _propertiesToFetchWithHint:.onceToken.7531
++ _propertiesToFetchWithHint:.onceToken.7956
++ _propertiesToFetchWithHint:.onceToken.9344
++ _propertiesToFetchWithHint:.onceToken.9573
++ _propertiesToFetchWithHint:.propertiesToFetchByHint.16817
++ _propertiesToFetchWithHint:.propertiesToFetchByHint.20814
++ _propertiesToFetchWithHint:.propertiesToFetchByHint.24767
++ _propertiesToFetchWithHint:.propertiesToFetchByHint.9347
++ _propertiesToFetchWithHint:.propertyQueue.16816
++ _propertiesToFetchWithHint:.propertyQueue.20813
++ _propertiesToFetchWithHint:.propertyQueue.24766
++ _propertiesToFetchWithHint:.propertyQueue.9346
++ _propertiesToPrefetch.onceToken.16318
++ _propertiesToPrefetch.onceToken.20492
++ _propertiesToPrefetch.onceToken.24473
++ _propertiesToPrefetch.propertiesToPrefetch.16319
++ _propertiesToPrefetch.propertiesToPrefetch.20493
++ _propertiesToPrefetch.propertiesToPrefetch.24474
++ _propertySetAccessorsByPropertySet.accessorByPropertySetName.20661
++ _propertySetAccessorsByPropertySet.accessorByPropertySetName.24735
++ _propertySetAccessorsByPropertySet.accessorByPropertySetName.9100
++ _propertySetAccessorsByPropertySet.onceToken.20660
++ _propertySetAccessorsByPropertySet.onceToken.24734
++ _propertySetAccessorsByPropertySet.onceToken.9099
++ _propertySetClassForPropertySet:.onceToken.20668
++ _propertySetClassForPropertySet:.onceToken.24743
++ _propertySetClassForPropertySet:.onceToken.9101
++ _propertySetClassForPropertySet:.propertySetClassByPropertySetName.20669
++ _propertySetClassForPropertySet:.propertySetClassByPropertySetName.24744
++ _propertySetClassForPropertySet:.propertySetClassByPropertySetName.9102
++ _sharedDecoder.s_onceToken.36761
++ _sharedDecoder.s_shared.36763
++ _transformValueExpression:forKeyPath:._passThroughSet.16795
++ _transformValueExpression:forKeyPath:._passThroughSet.20795
++ _transformValueExpression:forKeyPath:._passThroughSet.23845
++ _transformValueExpression:forKeyPath:._passThroughSet.24748
++ _transformValueExpression:forKeyPath:._passThroughSet.26574
++ _transformValueExpression:forKeyPath:._passThroughSet.2740
++ _transformValueExpression:forKeyPath:._passThroughSet.29816
++ _transformValueExpression:forKeyPath:._passThroughSet.32816
++ _transformValueExpression:forKeyPath:._passThroughSet.34107
++ _transformValueExpression:forKeyPath:._passThroughSet.35466
++ _transformValueExpression:forKeyPath:._passThroughSet.39336
++ _transformValueExpression:forKeyPath:._passThroughSet.7493
++ _transformValueExpression:forKeyPath:._passThroughSet.7946
++ _transformValueExpression:forKeyPath:._passThroughSet.9332
++ _transformValueExpression:forKeyPath:._passThroughSet.9533
++ _transformValueExpression:forKeyPath:.onceToken.16794
++ _transformValueExpression:forKeyPath:.onceToken.20794
++ _transformValueExpression:forKeyPath:.onceToken.23844
++ _transformValueExpression:forKeyPath:.onceToken.24747
++ _transformValueExpression:forKeyPath:.onceToken.26573
++ _transformValueExpression:forKeyPath:.onceToken.2739
++ _transformValueExpression:forKeyPath:.onceToken.29815
++ _transformValueExpression:forKeyPath:.onceToken.32815
++ _transformValueExpression:forKeyPath:.onceToken.34106
++ _transformValueExpression:forKeyPath:.onceToken.35465
++ _transformValueExpression:forKeyPath:.onceToken.39335
++ _transformValueExpression:forKeyPath:.onceToken.7492
++ _transformValueExpression:forKeyPath:.onceToken.7945
++ _transformValueExpression:forKeyPath:.onceToken.9331
++ _transformValueExpression:forKeyPath:.onceToken.9532
+- +[PHAssetCreationRequest _originalResourceTypeFromAdjustedResourceType:sourceAssetIsLoopingVideo:]
+- -[PHServerResourceRequestRunner _applyCorrectionsToAssetObjectIDURL:resourceIdentity:errorCodes:library:reply:]
+- -[PHServerResourceRequestRunner applyAssetScopeCorrectionsWithRequest:errorCodes:library:reply:]
+- -[PHServerResourceRequestRunner applyResourceScopeCorrectionsWithRequest:errorCodes:library:reply:]
+- GCC_except_table10093
+- GCC_except_table10164
+- GCC_except_table10189
+- GCC_except_table10223
+- GCC_except_table10233
+- GCC_except_table10251
+- GCC_except_table10266
+- GCC_except_table10305
+- GCC_except_table10307
+- GCC_except_table10309
+- GCC_except_table10328
+- GCC_except_table4646
+- GCC_except_table4648
+- GCC_except_table4659
+- GCC_except_table4697
+- GCC_except_table4768
+- GCC_except_table4773
+- GCC_except_table4891
+- GCC_except_table4894
+- GCC_except_table4907
+- GCC_except_table4926
+- GCC_except_table4939
+- GCC_except_table4969
+- GCC_except_table5003
+- GCC_except_table5005
+- GCC_except_table5309
+- GCC_except_table5322
+- GCC_except_table5335
+- GCC_except_table5350
+- GCC_except_table5376
+- GCC_except_table5379
+- GCC_except_table5381
+- GCC_except_table5383
+- GCC_except_table5385
+- GCC_except_table5416
+- GCC_except_table5449
+- GCC_except_table5451
+- GCC_except_table5485
+- GCC_except_table5674
+- GCC_except_table5831
+- GCC_except_table6024
+- GCC_except_table6093
+- GCC_except_table6115
+- GCC_except_table6119
+- GCC_except_table6125
+- GCC_except_table6176
+- GCC_except_table6281
+- GCC_except_table6283
+- GCC_except_table6328
+- GCC_except_table6364
+- GCC_except_table6368
+- GCC_except_table6370
+- GCC_except_table6372
+- GCC_except_table6384
+- GCC_except_table6389
+- GCC_except_table6425
+- GCC_except_table6448
+- GCC_except_table6535
+- GCC_except_table6538
+- GCC_except_table6556
+- GCC_except_table6593
+- GCC_except_table6613
+- GCC_except_table6616
+- GCC_except_table6634
+- GCC_except_table6694
+- GCC_except_table6771
+- GCC_except_table6900
+- GCC_except_table6905
+- GCC_except_table7190
+- GCC_except_table7200
+- GCC_except_table7231
+- GCC_except_table7294
+- GCC_except_table7321
+- GCC_except_table7369
+- GCC_except_table7371
+- GCC_except_table7455
+- GCC_except_table7529
+- GCC_except_table7547
+- GCC_except_table7632
+- GCC_except_table7646
+- GCC_except_table7655
+- GCC_except_table7675
+- GCC_except_table7687
+- GCC_except_table7696
+- GCC_except_table7845
+- GCC_except_table7854
+- GCC_except_table7877
+- GCC_except_table7896
+- GCC_except_table7902
+- GCC_except_table7924
+- GCC_except_table7960
+- GCC_except_table7964
+- GCC_except_table7983
+- GCC_except_table7988
+- GCC_except_table8055
+- GCC_except_table8145
+- GCC_except_table8210
+- GCC_except_table8248
+- GCC_except_table8325
+- GCC_except_table8344
+- GCC_except_table8917
+- GCC_except_table8936
+- GCC_except_table8938
+- GCC_except_table8940
+- GCC_except_table8942
+- GCC_except_table8972
+- GCC_except_table9031
+- GCC_except_table9131
+- GCC_except_table9143
+- GCC_except_table9182
+- GCC_except_table9184
+- GCC_except_table9197
+- GCC_except_table9232
+- GCC_except_table9236
+- GCC_except_table9274
+- GCC_except_table9278
+- GCC_except_table9287
+- GCC_except_table9295
+- GCC_except_table9332
+- GCC_except_table9339
+- GCC_except_table9441
+- GCC_except_table9447
+- GCC_except_table9449
+- GCC_except_table9495
+- GCC_except_table9511
+- GCC_except_table9521
+- GCC_except_table9603
+- GCC_except_table9691
+- GCC_except_table9695
+- GCC_except_table9699
+- GCC_except_table9727
+- ___111-[PHServerResourceRequestRunner _applyCorrectionsToAssetObjectIDURL:resourceIdentity:errorCodes:library:reply:]_block_invoke
+- ___111-[PHServerResourceRequestRunner _applyCorrectionsToAssetObjectIDURL:resourceIdentity:errorCodes:library:reply:]_block_invoke.108
+- ___111-[PHServerResourceRequestRunner _applyCorrectionsToAssetObjectIDURL:resourceIdentity:errorCodes:library:reply:]_block_invoke_2
+- ___111-[PHServerResourceRequestRunner _applyCorrectionsToAssetObjectIDURL:resourceIdentity:errorCodes:library:reply:]_block_invoke_2.109
+- ___111-[PHServerResourceRequestRunner _applyCorrectionsToAssetObjectIDURL:resourceIdentity:errorCodes:library:reply:]_block_invoke_3
+- ___111-[PHServerResourceRequestRunner _applyCorrectionsToAssetObjectIDURL:resourceIdentity:errorCodes:library:reply:]_block_invoke_3.111
+- ___111-[PHServerResourceRequestRunner _applyCorrectionsToAssetObjectIDURL:resourceIdentity:errorCodes:library:reply:]_block_invoke_4
+- ___85-[PHServerResourceRequestRunner chooseVideoWithRequest:library:clientBundleID:reply:]_block_invoke.122
+- ___85-[PHServerResourceRequestRunner chooseVideoWithRequest:library:clientBundleID:reply:]_block_invoke.126
+- ___85-[PHServerResourceRequestRunner chooseVideoWithRequest:library:clientBundleID:reply:]_block_invoke.136
+- ___85-[PHServerResourceRequestRunner chooseVideoWithRequest:library:clientBundleID:reply:]_block_invoke.137
+- ___88-[PHAssetExportRequest bundleResourcesIfNeededForAsset:withFileURLs:options:completion:]_block_invoke.412
+- ___Block_byref_object_copy_.10325
+- ___Block_byref_object_copy_.10949
+- ___Block_byref_object_copy_.13078
+- ___Block_byref_object_copy_.14636
+- ___Block_byref_object_copy_.14798
+- ___Block_byref_object_copy_.15093
+- ___Block_byref_object_copy_.15550
+- ___Block_byref_object_copy_.16150
+- ___Block_byref_object_copy_.16310
+- ___Block_byref_object_copy_.1792
+- ___Block_byref_object_copy_.18278
+- ___Block_byref_object_copy_.19418
+- ___Block_byref_object_copy_.19926
+- ___Block_byref_object_copy_.20263
+- ___Block_byref_object_copy_.20531
+- ___Block_byref_object_copy_.2127
+- ___Block_byref_object_copy_.21405
+- ___Block_byref_object_copy_.21717
+- ___Block_byref_object_copy_.22507
+- ___Block_byref_object_copy_.23109
+- ___Block_byref_object_copy_.24510
+- ___Block_byref_object_copy_.25097
+- ___Block_byref_object_copy_.2551
+- ___Block_byref_object_copy_.25907
+- ___Block_byref_object_copy_.26154
+- ___Block_byref_object_copy_.27142
+- ___Block_byref_object_copy_.27592
+- ___Block_byref_object_copy_.28697
+- ___Block_byref_object_copy_.29178
+- ___Block_byref_object_copy_.32568
+- ___Block_byref_object_copy_.32802
+- ___Block_byref_object_copy_.33722
+- ___Block_byref_object_copy_.34105
+- ___Block_byref_object_copy_.34282
+- ___Block_byref_object_copy_.34568
+- ___Block_byref_object_copy_.35250
+- ___Block_byref_object_copy_.3538
+- ___Block_byref_object_copy_.36152
+- ___Block_byref_object_copy_.36261
+- ___Block_byref_object_copy_.38036
+- ___Block_byref_object_copy_.38322
+- ___Block_byref_object_copy_.38841
+- ___Block_byref_object_copy_.4538
+- ___Block_byref_object_copy_.4777
+- ___Block_byref_object_copy_.5900
+- ___Block_byref_object_copy_.6894
+- ___Block_byref_object_copy_.7490
+- ___Block_byref_object_copy_.7696
+- ___Block_byref_object_copy_.7862
+- ___Block_byref_object_copy_.8436
+- ___Block_byref_object_copy_.8675
+- ___Block_byref_object_copy_.9127
+- ___Block_byref_object_copy_.9523
+- ___Block_byref_object_dispose_.10326
+- ___Block_byref_object_dispose_.10950
+- ___Block_byref_object_dispose_.13079
+- ___Block_byref_object_dispose_.14637
+- ___Block_byref_object_dispose_.14799
+- ___Block_byref_object_dispose_.15094
+- ___Block_byref_object_dispose_.15551
+- ___Block_byref_object_dispose_.16151
+- ___Block_byref_object_dispose_.16311
+- ___Block_byref_object_dispose_.1793
+- ___Block_byref_object_dispose_.18279
+- ___Block_byref_object_dispose_.19419
+- ___Block_byref_object_dispose_.19927
+- ___Block_byref_object_dispose_.20264
+- ___Block_byref_object_dispose_.20532
+- ___Block_byref_object_dispose_.2128
+- ___Block_byref_object_dispose_.21406
+- ___Block_byref_object_dispose_.21718
+- ___Block_byref_object_dispose_.22508
+- ___Block_byref_object_dispose_.23110
+- ___Block_byref_object_dispose_.24511
+- ___Block_byref_object_dispose_.25098
+- ___Block_byref_object_dispose_.2552
+- ___Block_byref_object_dispose_.25908
+- ___Block_byref_object_dispose_.26155
+- ___Block_byref_object_dispose_.27143
+- ___Block_byref_object_dispose_.27593
+- ___Block_byref_object_dispose_.28698
+- ___Block_byref_object_dispose_.29179
+- ___Block_byref_object_dispose_.32569
+- ___Block_byref_object_dispose_.32803
+- ___Block_byref_object_dispose_.33723
+- ___Block_byref_object_dispose_.34106
+- ___Block_byref_object_dispose_.34283
+- ___Block_byref_object_dispose_.34569
+- ___Block_byref_object_dispose_.35251
+- ___Block_byref_object_dispose_.3539
+- ___Block_byref_object_dispose_.36153
+- ___Block_byref_object_dispose_.36262
+- ___Block_byref_object_dispose_.38037
+- ___Block_byref_object_dispose_.38323
+- ___Block_byref_object_dispose_.38842
+- ___Block_byref_object_dispose_.4539
+- ___Block_byref_object_dispose_.4778
+- ___Block_byref_object_dispose_.5901
+- ___Block_byref_object_dispose_.6895
+- ___Block_byref_object_dispose_.7491
+- ___Block_byref_object_dispose_.7697
+- ___Block_byref_object_dispose_.7863
+- ___Block_byref_object_dispose_.8437
+- ___Block_byref_object_dispose_.8676
+- ___Block_byref_object_dispose_.9128
+- ___Block_byref_object_dispose_.9524
+- ___block_descriptor_88_e8_32s40s48s56s64s72bs80r_e5_v8?0ls32l8s40l8s48l8r80l8s56l8s64l8s72l8
+- ___block_literal_global.10015
+- ___block_literal_global.10380
+- ___block_literal_global.1043
+- ___block_literal_global.1052
+- ___block_literal_global.1067
+- ___block_literal_global.1085
+- ___block_literal_global.112.30486
+- ___block_literal_global.12591
+- ___block_literal_global.131.28702
+- ___block_literal_global.13111
+- ___block_literal_global.13165
+- ___block_literal_global.14306
+- ___block_literal_global.14630
+- ___block_literal_global.15049
+- ___block_literal_global.15974
+- ___block_literal_global.16834
+- ___block_literal_global.17590
+- ___block_literal_global.1789
+- ___block_literal_global.18622
+- ___block_literal_global.19109
+- ___block_literal_global.1949
+- ___block_literal_global.19617
+- ___block_literal_global.200.15829
+- ___block_literal_global.20240
+- ___block_literal_global.20829
+- ___block_literal_global.210.9830
+- ___block_literal_global.21030
+- ___block_literal_global.21417
+- ___block_literal_global.21828
+- ___block_literal_global.21999
+- ___block_literal_global.2210
+- ___block_literal_global.22140
+- ___block_literal_global.22242
+- ___block_literal_global.223.14631
+- ___block_literal_global.225.24787
+- ___block_literal_global.22519
+- ___block_literal_global.22707
+- ___block_literal_global.229.24785
+- ___block_literal_global.230.8710
+- ___block_literal_global.23325
+- ___block_literal_global.23454
+- ___block_literal_global.23882
+- ___block_literal_global.24790
+- ___block_literal_global.25045
+- ___block_literal_global.25248
+- ___block_literal_global.25648
+- ___block_literal_global.26159
+- ___block_literal_global.26607
+- ___block_literal_global.27458
+- ___block_literal_global.2777
+- ___block_literal_global.2815
+- ___block_literal_global.28174
+- ___block_literal_global.28446
+- ___block_literal_global.28741
+- ___block_literal_global.28992
+- ___block_literal_global.29290
+- ___block_literal_global.29807
+- ___block_literal_global.3.1787
+- ___block_literal_global.3.7717
+- ___block_literal_global.30184
+- ___block_literal_global.304.27290
+- ___block_literal_global.30492
+- ___block_literal_global.308.8831
+- ___block_literal_global.31862
+- ___block_literal_global.3189
+- ___block_literal_global.3253
+- ___block_literal_global.32820
+- ___block_literal_global.33115
+- ___block_literal_global.33809
+- ___block_literal_global.34134
+- ___block_literal_global.34821
+- ___block_literal_global.34912
+- ___block_literal_global.35337
+- ___block_literal_global.35482
+- ___block_literal_global.36117
+- ___block_literal_global.36263
+- ___block_literal_global.36772
+- ___block_literal_global.37.34905
+- ___block_literal_global.37789
+- ___block_literal_global.38913
+- ___block_literal_global.39396
+- ___block_literal_global.433
+- ___block_literal_global.4607
+- ___block_literal_global.4827
+- ___block_literal_global.51.7552
+- ___block_literal_global.5192
+- ___block_literal_global.5407
+- ___block_literal_global.5552
+- ___block_literal_global.6080
+- ___block_literal_global.683.27194
+- ___block_literal_global.6960
+- ___block_literal_global.741.27006
+- ___block_literal_global.7557
+- ___block_literal_global.7712
+- ___block_literal_global.7955
+- ___block_literal_global.81.39376
+- ___block_literal_global.823.27004
+- ___block_literal_global.8729
+- ___block_literal_global.894.26959
+- ___block_literal_global.896.26957
+- ___block_literal_global.9359
+- __currentTimestampString.s_formatter.34906
+- __currentTimestampString.s_onceToken.34904
+- __unnamed_array_storage.10403
+- __unnamed_array_storage.11877
+- __unnamed_array_storage.13250
+- __unnamed_array_storage.14.7900
+- __unnamed_array_storage.15946
+- __unnamed_array_storage.162.35299
+- __unnamed_array_storage.1639
+- __unnamed_array_storage.16528
+- __unnamed_array_storage.18589
+- __unnamed_array_storage.19.7898
+- __unnamed_array_storage.20693
+- __unnamed_array_storage.21440
+- __unnamed_array_storage.246.35204
+- __unnamed_array_storage.26698
+- __unnamed_array_storage.2723
+- __unnamed_array_storage.29320
+- __unnamed_array_storage.29822
+- __unnamed_array_storage.30506
+- __unnamed_array_storage.30599
+- __unnamed_array_storage.31869
+- __unnamed_array_storage.34205
+- __unnamed_array_storage.35351
+- __unnamed_array_storage.38490
+- __unnamed_array_storage.38825
+- __unnamed_array_storage.39370
+- __unnamed_array_storage.5527
+- __unnamed_array_storage.6067
+- __unnamed_array_storage.7888
+- __unnamed_array_storage.8842
+- __unnamed_array_storage.9167
+- _allowedInfoKeys.allowedKeys.13327
+- _allowedInfoKeys.allowedKeys.29989
+- _allowedInfoKeys.onceToken.13326
+- _allowedInfoKeys.onceToken.29988
+- _corePropertiesToFetch.array.16837
+- _corePropertiesToFetch.array.20826
+- _corePropertiesToFetch.array.24791
+- _corePropertiesToFetch.onceToken.16836
+- _corePropertiesToFetch.onceToken.20825
+- _corePropertiesToFetch.onceToken.24789
+- _defaultManager.onceToken.38112
+- _entityKeyMap.pl_once_object_0.23873
+- _entityKeyMap.pl_once_object_0.5412
+- _entityKeyMap.pl_once_object_0.7966
+- _entityKeyMap.pl_once_object_2.20820
+- _entityKeyMap.pl_once_object_2.26597
+- _entityKeyMap.pl_once_object_2.29837
+- _entityKeyMap.pl_once_object_2.32840
+- _entityKeyMap.pl_once_object_2.34125
+- _entityKeyMap.pl_once_object_2.35479
+- _entityKeyMap.pl_once_object_2.7536
+- _entityKeyMap.pl_once_object_2.9351
+- _entityKeyMap.pl_once_object_2.9568
+- _entityKeyMap.pl_once_object_3.24776
+- _entityKeyMap.pl_once_object_3.39384
+- _entityKeyMap.pl_once_token_0.23872
+- _entityKeyMap.pl_once_token_0.5411
+- _entityKeyMap.pl_once_token_0.7965
+- _entityKeyMap.pl_once_token_2.20819
+- _entityKeyMap.pl_once_token_2.26596
+- _entityKeyMap.pl_once_token_2.29836
+- _entityKeyMap.pl_once_token_2.32839
+- _entityKeyMap.pl_once_token_2.34124
+- _entityKeyMap.pl_once_token_2.35478
+- _entityKeyMap.pl_once_token_2.7535
+- _entityKeyMap.pl_once_token_2.9350
+- _entityKeyMap.pl_once_token_2.9567
+- _entityKeyMap.pl_once_token_3.24775
+- _entityKeyMap.pl_once_token_3.39383
+- _identifierPropertiesToFetch.array.25649
+- _identifierPropertiesToFetch.onceToken.25647
+- _objc_msgSend$_applyCorrectionsToAssetObjectIDURL:resourceIdentity:errorCodes:library:reply:
+- _objc_msgSend$_originalResourceTypeFromAdjustedResourceType:sourceAssetIsLoopingVideo:
+- _objc_msgSend$generateAndStoreForAsset:version:imageConversionClient:videoConversionClient:conversionServiceOptions:deferredPhotoFinalizer:progress:reason:completion:
+- _propertiesToFetchWithHint:.array.17270
+- _propertiesToFetchWithHint:.array.23883
+- _propertiesToFetchWithHint:.array.26608
+- _propertiesToFetchWithHint:.array.29858
+- _propertiesToFetchWithHint:.array.34135
+- _propertiesToFetchWithHint:.array.35483
+- _propertiesToFetchWithHint:.array.36660
+- _propertiesToFetchWithHint:.array.37329
+- _propertiesToFetchWithHint:.array.5437
+- _propertiesToFetchWithHint:.array.7548
+- _propertiesToFetchWithHint:.array.7973
+- _propertiesToFetchWithHint:.array.9593
+- _propertiesToFetchWithHint:.onceToken.16831
+- _propertiesToFetchWithHint:.onceToken.17269
+- _propertiesToFetchWithHint:.onceToken.20828
+- _propertiesToFetchWithHint:.onceToken.23881
+- _propertiesToFetchWithHint:.onceToken.24781
+- _propertiesToFetchWithHint:.onceToken.26606
+- _propertiesToFetchWithHint:.onceToken.2776
+- _propertiesToFetchWithHint:.onceToken.29857
+- _propertiesToFetchWithHint:.onceToken.34133
+- _propertiesToFetchWithHint:.onceToken.35481
+- _propertiesToFetchWithHint:.onceToken.36659
+- _propertiesToFetchWithHint:.onceToken.37328
+- _propertiesToFetchWithHint:.onceToken.5436
+- _propertiesToFetchWithHint:.onceToken.7547
+- _propertiesToFetchWithHint:.onceToken.7972
+- _propertiesToFetchWithHint:.onceToken.9358
+- _propertiesToFetchWithHint:.onceToken.9592
+- _propertiesToFetchWithHint:.propertiesToFetchByHint.16833
+- _propertiesToFetchWithHint:.propertiesToFetchByHint.20831
+- _propertiesToFetchWithHint:.propertiesToFetchByHint.24783
+- _propertiesToFetchWithHint:.propertiesToFetchByHint.9361
+- _propertiesToFetchWithHint:.propertyQueue.16832
+- _propertiesToFetchWithHint:.propertyQueue.20830
+- _propertiesToFetchWithHint:.propertyQueue.24782
+- _propertiesToFetchWithHint:.propertyQueue.9360
+- _propertiesToPrefetch.onceToken.16325
+- _propertiesToPrefetch.onceToken.20509
+- _propertiesToPrefetch.onceToken.24489
+- _propertiesToPrefetch.propertiesToPrefetch.16326
+- _propertiesToPrefetch.propertiesToPrefetch.20510
+- _propertiesToPrefetch.propertiesToPrefetch.24490
+- _propertySetAccessorsByPropertySet.accessorByPropertySetName.20678
+- _propertySetAccessorsByPropertySet.accessorByPropertySetName.24751
+- _propertySetAccessorsByPropertySet.accessorByPropertySetName.9115
+- _propertySetAccessorsByPropertySet.onceToken.20677
+- _propertySetAccessorsByPropertySet.onceToken.24750
+- _propertySetAccessorsByPropertySet.onceToken.9114
+- _propertySetClassForPropertySet:.onceToken.20685
+- _propertySetClassForPropertySet:.onceToken.24759
+- _propertySetClassForPropertySet:.onceToken.9116
+- _propertySetClassForPropertySet:.propertySetClassByPropertySetName.20686
+- _propertySetClassForPropertySet:.propertySetClassByPropertySetName.24760
+- _propertySetClassForPropertySet:.propertySetClassByPropertySetName.9117
+- _sharedDecoder.s_onceToken.36771
+- _sharedDecoder.s_shared.36773
+- _transformValueExpression:forKeyPath:._passThroughSet.16810
+- _transformValueExpression:forKeyPath:._passThroughSet.20812
+- _transformValueExpression:forKeyPath:._passThroughSet.23864
+- _transformValueExpression:forKeyPath:._passThroughSet.24764
+- _transformValueExpression:forKeyPath:._passThroughSet.26591
+- _transformValueExpression:forKeyPath:._passThroughSet.2765
+- _transformValueExpression:forKeyPath:._passThroughSet.29826
+- _transformValueExpression:forKeyPath:._passThroughSet.32825
+- _transformValueExpression:forKeyPath:._passThroughSet.34116
+- _transformValueExpression:forKeyPath:._passThroughSet.35476
+- _transformValueExpression:forKeyPath:._passThroughSet.39344
+- _transformValueExpression:forKeyPath:._passThroughSet.7509
+- _transformValueExpression:forKeyPath:._passThroughSet.7962
+- _transformValueExpression:forKeyPath:._passThroughSet.9346
+- _transformValueExpression:forKeyPath:._passThroughSet.9549
+- _transformValueExpression:forKeyPath:.onceToken.16809
+- _transformValueExpression:forKeyPath:.onceToken.20811
+- _transformValueExpression:forKeyPath:.onceToken.23863
+- _transformValueExpression:forKeyPath:.onceToken.24763
+- _transformValueExpression:forKeyPath:.onceToken.26590
+- _transformValueExpression:forKeyPath:.onceToken.2764
+- _transformValueExpression:forKeyPath:.onceToken.29825
+- _transformValueExpression:forKeyPath:.onceToken.32824
+- _transformValueExpression:forKeyPath:.onceToken.34115
+- _transformValueExpression:forKeyPath:.onceToken.35475
+- _transformValueExpression:forKeyPath:.onceToken.39343
+- _transformValueExpression:forKeyPath:.onceToken.7508
+- _transformValueExpression:forKeyPath:.onceToken.7961
+- _transformValueExpression:forKeyPath:.onceToken.9345
+- _transformValueExpression:forKeyPath:.onceToken.9548
+CStrings:
++ "<%@: %p, variant: \"%@\", livePhotoAsStill: %d, allowRaw: %d, flattenSlomo: %d, stripLocation: %d, stripCaption: %d, stripAXDescription: %d, assetBundle: %d, disableMetadataCorrections: %d, unmodifiedOriginals: %d>"
++ "[PHAssetExportRequest] Did retrieve asset %{public}@ for export with urls: %@ (extensions: %{public}@)"
++ "[PHAssetExportRequest] Export request processing required for asset %{public}@: %{BOOL}d (metadataOperationLocation=%td, metadataOperationCaption=%td, metadataOperationCaptionAccessibilityDescription=%td, metadataChangeCustomDate=%{private}@, producingNewFilesForExport=%{BOOL}d, options.variant=%td, requiresSloMoFlattening=%{BOOL}d, type = %{public}@)"
++ "[PHAssetExportRequest] Metadata retrieved was nil for asset %{public}@"
++ "[PHAssetExportRequest] Preparation timing: %{public}@"
++ "[PHAssetExportRequest] Requesting conversion of %{public}@ %{public}@ resource"
++ "[PHAssetExportRequest] Retrieving metadata for asset %{public}@"
++ "[PHAssetExportRequest] Setting file creation date %{private}@ for exported files of asset (unmodified originals = %{BOOL}d): %@"
++ "[PHAssetExportRequest] Unable to retrieve original creation date for asset: %{public}@. Falling back to creation date: %{private}@"
++ "[PHInternalAssetExportRequest] Downloading required for resources of asset %{public}@..."
++ "[PHInternalAssetExportRequest] Failed to find resource info for asset %{public}@, error: %@"
++ "[PHInternalAssetExportRequest] Found no variants for asset %@"
++ "[PHInternalAssetExportRequest] Found variants: %{public}@ for asset %@"
++ "[PHInternalAssetExportRequest] Required resources of asset %{public}@ are locally available."
++ "[PHInternalAssetExportRequest] Resources availability for asset %{public}@: %{public}@"
++ "[PHInternalAssetExportRequest] Waiting for deferred processing of resources of asset %{public}@..."
++ "[PHInternalAssetExportRequest] Will export asset: %@ (%{public}@, %{public}@/%{public}@, %{public}@), options: %{public}@"
++ "_applyCorrectionsToAssetObjectIDURL:resourceIdentity:errorCodes:clientBundleID:library:reply:"
++ "_originalResourceTypeFromAdjustedResourceType:sourceAssetIsLoopingVideo:sourceAssetIsVideo:"
++ "applyAssetScopeCorrectionsWithRequest:errorCodes:clientBundleID:library:reply:"
++ "applyResourceScopeCorrectionsWithRequest:errorCodes:clientBundleID:library:reply:"
++ "bundleForLibraryURL:"
++ "generateAndStoreForAsset:networkAccessAllowed:clientBundleID:progress:completion:"
++ "q32@0:8q16B24B28"
++ "shutdownBundle:reason:"
++ "unsafeShutdownLibraryWithPhotoLibraryURL:"
+- "<%@: %p, variant: \"%@\", still: %d, raw: %d, flatten: %d, stripLocation: %d>"
+- "[PHAssetExportRequest] Did retrieve asset for export: %@, urls: %@"
+- "[PHAssetExportRequest] Metadata retrieved was nil for asset: %@"
+- "[PHAssetExportRequest] Preparation timing: %@"
+- "[PHAssetExportRequest] Retrieving metadata for asset: %@"
+- "[PHAssetExportRequest] Setting file creation date %@ for exported files of asset (unmodified originals = %{public}@): %@"
+- "[PHAssetExportRequest] Unable to retrieve original creation date for asset: %@. Falling back to creation date: %@"
+- "[PHAssetExportRequest] export request processing required for asset %{public}@: %d (metadataOperationLocation=%td, metadataOperationCaption=%td, metadataOperationCaptionAccessibilityDescription=%td, metadataChangeCustomDate=%@, producingNewFilesForExport=%d, options.variant=%td, requiresSloMoFlattening=%d, type = %{public}@)"
+- "[PHInternalAssetExportRequest] Downloading required for resources of asset: %@"
+- "[PHInternalAssetExportRequest] Failed to find resource info for asset: %@, error: %@"
+- "[PHInternalAssetExportRequest] Found no variants for asset: %@"
+- "[PHInternalAssetExportRequest] Found variants: %@ for asset: %@"
+- "[PHInternalAssetExportRequest] Required resources of asset are locally available: %@"
+- "[PHInternalAssetExportRequest] Resources availability for asset %@: %@"
+- "[PHInternalAssetExportRequest] Waiting for deferred processing of resources of asset: %@"
+- "[PHInternalAssetExportRequest] Will export asset: %@, options: %@"
+- "_applyCorrectionsToAssetObjectIDURL:resourceIdentity:errorCodes:library:reply:"
+- "_originalResourceTypeFromAdjustedResourceType:sourceAssetIsLoopingVideo:"
+- "applyAssetScopeCorrectionsWithRequest:errorCodes:library:reply:"
+- "applyResourceScopeCorrectionsWithRequest:errorCodes:library:reply:"
+- "generateAndStoreForAsset:version:imageConversionClient:videoConversionClient:conversionServiceOptions:deferredPhotoFinalizer:progress:reason:completion:"
+- "on demand"
+- "q28@0:8q16B24"
+
+```

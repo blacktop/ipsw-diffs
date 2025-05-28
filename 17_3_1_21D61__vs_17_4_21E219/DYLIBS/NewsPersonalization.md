@@ -1,0 +1,805 @@
+## NewsPersonalization
+
+> `/System/Library/PrivateFrameworks/NewsPersonalization.framework/NewsPersonalization`
+
+```diff
+
+-5325.6.0.0.0
+-  __TEXT.__text: 0x286fd8
+-  __TEXT.__auth_stubs: 0x44a0
+-  __TEXT.__objc_methlist: 0x2f4
+-  __TEXT.__const: 0x11bdc
+-  __TEXT.__cstring: 0x11447
+-  __TEXT.__constg_swiftt: 0x3db4
+-  __TEXT.__swift5_typeref: 0x3554
+-  __TEXT.__swift5_fieldmd: 0x4724
+-  __TEXT.__swift5_builtin: 0x1e0
+-  __TEXT.__swift5_reflstr: 0x3ae8
+-  __TEXT.__swift5_assocty: 0x538
+-  __TEXT.__swift5_proto: 0xfd0
+-  __TEXT.__swift5_types: 0x520
+-  __TEXT.__swift5_protos: 0x9c
+-  __TEXT.__swift5_capture: 0x8e8
+-  __TEXT.__swift5_mpenum: 0x144
+-  __TEXT.__unwind_info: 0x8260
+-  __TEXT.__eh_frame: 0xb4f8
+-  __TEXT.__objc_classname: 0x3ea
+-  __TEXT.__objc_methname: 0xb380
+-  __TEXT.__objc_methtype: 0x1971
+-  __DATA_CONST.__got: 0x1508
+-  __DATA_CONST.__const: 0xa20
+-  __DATA_CONST.__objc_classlist: 0x2c8
+-  __DATA_CONST.__objc_catlist: 0x40
+-  __DATA_CONST.__objc_protolist: 0x2d8
++5345.2.0.0.0
++  __TEXT.__text: 0x24eeb0
++  __TEXT.__auth_stubs: 0x4380
++  __TEXT.__objc_methlist: 0x284
++  __TEXT.__const: 0x1108c
++  __TEXT.__cstring: 0xf477
++  __TEXT.__constg_swiftt: 0x3bcc
++  __TEXT.__swift5_typeref: 0x33dc
++  __TEXT.__swift5_fieldmd: 0x41f8
++  __TEXT.__swift5_builtin: 0x168
++  __TEXT.__swift5_reflstr: 0x38b3
++  __TEXT.__swift5_assocty: 0x6e0
++  __TEXT.__swift5_proto: 0xedc
++  __TEXT.__swift5_types: 0x4e0
++  __TEXT.__swift5_protos: 0x8c
++  __TEXT.__swift5_capture: 0x890
++  __TEXT.__swift5_mpenum: 0xfc
++  __TEXT.__unwind_info: 0x8364
++  __TEXT.__eh_frame: 0xaa48
++  __TEXT.__objc_classname: 0x3dd
++  __TEXT.__objc_methname: 0xb4fb
++  __TEXT.__objc_methtype: 0x1966
++  __DATA_CONST.__got: 0x14d0
++  __DATA_CONST.__const: 0xa28
++  __DATA_CONST.__objc_classlist: 0x2a0
++  __DATA_CONST.__objc_catlist: 0x30
++  __DATA_CONST.__objc_protolist: 0x2c8
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_const: 0xed10
+-  __DATA_CONST.__objc_selrefs: 0x1a88
+-  __AUTH_CONST.__const: 0xb7e8
++  __DATA_CONST.__objc_const: 0xe758
++  __DATA_CONST.__objc_selrefs: 0x1a90
++  __DATA_CONST.__objc_protorefs: 0x168
++  __DATA_CONST.__objc_classrefs: 0x1e8
++  __DATA_CONST.__objc_catlist2: 0x8
++  __AUTH_CONST.__const: 0xb730
+   __AUTH_CONST.__cfstring: 0x20
+-  __AUTH_CONST.__auth_ptr: 0x500
+-  __AUTH_CONST.__objc_const: 0x290
+-  __AUTH_CONST.__auth_got: 0x2250
+-  __AUTH.__data: 0x930
+-  __AUTH.__objc_data: 0x3a0
+-  __DATA.__objc_protorefs: 0x170
+-  __DATA.__objc_classrefs: 0x1f0
+-  __DATA.__objc_data: 0x128
+-  __DATA.__data: 0x4cf0
+-  __DATA.__bss: 0x179b0
++  __AUTH_CONST.__auth_ptr: 0x4f8
++  __AUTH_CONST.__objc_const: 0x250
++  __AUTH_CONST.__auth_got: 0x21c0
++  __AUTH.__objc_data: 0x378
++  __AUTH.__data: 0xc68
++  __DATA.__objc_data: 0xe0
++  __DATA.__data: 0x52e8
++  __DATA.__objc_stublist: 0x8
++  __DATA.__bss: 0x175a0
+   __DATA.__common: 0x28
+   __DATA_DIRTY.__objc_const: 0x90
+-  __DATA_DIRTY.__objc_data: 0xa90
+-  __DATA_DIRTY.__data: 0x7d40
+-  __DATA_DIRTY.__bss: 0x5980
+-  __DATA_DIRTY.__common: 0x68
++  __DATA_DIRTY.__objc_data: 0x838
++  __DATA_DIRTY.__data: 0x7478
++  __DATA_DIRTY.__bss: 0x4290
++  __DATA_DIRTY.__common: 0x60
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreLocation.framework/CoreLocation
+   - /System/Library/Frameworks/CoreML.framework/CoreML
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/Frameworks/QuartzCore.framework/QuartzCore
+   - /System/Library/PrivateFrameworks/AppAnalytics.framework/AppAnalytics
+-  - /System/Library/PrivateFrameworks/Gambit.framework/Gambit
+   - /System/Library/PrivateFrameworks/InternalSwiftProtobuf.framework/InternalSwiftProtobuf
+   - /System/Library/PrivateFrameworks/NewsAnalytics.framework/NewsAnalytics
+   - /System/Library/PrivateFrameworks/NewsCore.framework/NewsCore
+   - /System/Library/PrivateFrameworks/NewsFeed.framework/NewsFeed
+   - /System/Library/PrivateFrameworks/NewsFoundation.framework/NewsFoundation
+   - /System/Library/PrivateFrameworks/NewsTransport.framework/NewsTransport
++  - /System/Library/PrivateFrameworks/Tabi.framework/Tabi
+   - /System/Library/PrivateFrameworks/TeaFoundation.framework/TeaFoundation
+   - /System/Library/PrivateFrameworks/TeaSettings.framework/TeaSettings
+   - /System/Library/PrivateFrameworks/TeaUI.framework/TeaUI
+
+   - /usr/lib/swift/libswiftObjectiveC.dylib
+   - /usr/lib/swift/libswiftQuartzCore.dylib
+   - /usr/lib/swift/libswiftRegexBuilder.dylib
++  - /usr/lib/swift/libswiftShazamKit.dylib
+   - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
+   - /usr/lib/swift/libswiftVision.dylib
+   - /usr/lib/swift/libswiftWebKit.dylib
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 11817
+-  Symbols:   2209
+-  CStrings:  3206
++  Functions: 11235
++  Symbols:   2127
++  CStrings:  3058
+ 
+Symbols:
++ _NFInternalBuild
++ _OBJC_METACLASS_$__TtC19NewsPersonalization32TabiScoringContextEventProcessor
++ __CATEGORY_INSTANCE_METHODS__TtC19NewsPersonalization32TabiScoringContextEventProcessor_$_NewsPersonalization
++ __CATEGORY_PROTOCOLS__TtC19NewsPersonalization32TabiScoringContextEventProcessor_$_NewsPersonalization
++ __CATEGORY__TtC19NewsPersonalization32TabiScoringContextEventProcessor_$_NewsPersonalization
++ __DATA__TtC19NewsPersonalization22NewsTabiPackageService
++ __DATA__TtC19NewsPersonalization25TagSuggestionsDataService
++ __DATA__TtC19NewsPersonalization28NewsTabiConfigurationManager
++ __DATA__TtC19NewsPersonalization32TabiScoringContextEventProcessor
++ __INSTANCE_METHODS__TtC19NewsPersonalization32TabiScoringContextEventProcessor
++ __IVARS__TtC19NewsPersonalization21TagSuggestionsService
++ __IVARS__TtC19NewsPersonalization22NewsTabiPackageService
++ __IVARS__TtC19NewsPersonalization25TagSuggestionsDataService
++ __IVARS__TtC19NewsPersonalization28NewsTabiConfigurationManager
++ __IVARS__TtC19NewsPersonalization29NewsAnalyticsTabiDataProvider
++ __IVARS__TtC19NewsPersonalization32TabiScoringContextEventProcessor
++ __METACLASS_DATA__TtC19NewsPersonalization22NewsTabiPackageService
++ __METACLASS_DATA__TtC19NewsPersonalization25TagSuggestionsDataService
++ __METACLASS_DATA__TtC19NewsPersonalization28NewsTabiConfigurationManager
++ __METACLASS_DATA__TtC19NewsPersonalization32TabiScoringContextEventProcessor
++ ___swift_memcpy72_8
++ ___unnamed_1
++ ___unnamed_7
++ __swift_FORCE_LOAD_$_swiftShazamKit
++ __swift_FORCE_LOAD_$_swiftShazamKit_$_NewsPersonalization
++ _associated conformance 19NewsPersonalization0A17TabiConfigurationV0C00D4TypeAA7PackageAdEP_AD0fE0
++ _associated conformance 19NewsPersonalization0A17TabiConfigurationV0C00D4TypeAASE
++ _associated conformance 19NewsPersonalization0A17TabiConfigurationV0C00D4TypeAASe
++ _associated conformance 19NewsPersonalization0A17TabiConfigurationV6ErrorsOSHAASQ
++ _associated conformance 19NewsPersonalization0A18TabiPackageServiceC0C00dE4TypeAA0D0AdEP_AD0dF0
++ _associated conformance 19NewsPersonalization0A18TabiTagScoringWorkV0C00F4TypeAA13ConfigurationAdEP_AD0hG0
++ _associated conformance 19NewsPersonalization0A18TabiTagScoringWorkV0C00F4TypeAA14RequestContextAdEP_AD0fhiG0
++ _associated conformance 19NewsPersonalization0A18TabiTagScoringWorkV0C00F4TypeAA2IDs12IdentifiableP_s23CustomStringConvertible
++ _associated conformance 19NewsPersonalization0A18TabiTagScoringWorkV0C00F4TypeAAs12Identifiable
++ _associated conformance 19NewsPersonalization0A18TabiTagScoringWorkV6ErrorsOSHAASQ
++ _associated conformance 19NewsPersonalization0A18TabiTagScoringWorkVs12IdentifiableAA2IDsADP_SH
++ _associated conformance 19NewsPersonalization0A21TabiChannelPickerWorkV0C00F4TypeAA13ConfigurationAdEP_AD0hG0
++ _associated conformance 19NewsPersonalization0A21TabiChannelPickerWorkV0C00F4TypeAA14RequestContextAdEP_AD0fhiG0
++ _associated conformance 19NewsPersonalization0A21TabiChannelPickerWorkV0C00F4TypeAA2IDs12IdentifiableP_s23CustomStringConvertible
++ _associated conformance 19NewsPersonalization0A21TabiChannelPickerWorkV0C00F4TypeAAs12Identifiable
++ _associated conformance 19NewsPersonalization0A21TabiChannelPickerWorkV6ErrorsOSHAASQ
++ _associated conformance 19NewsPersonalization0A21TabiChannelPickerWorkVs12IdentifiableAA2IDsADP_SH
++ _associated conformance 19NewsPersonalization0A22TabiArticleScoringWorkV0C00F4TypeAA13ConfigurationAdEP_AD0hG0
++ _associated conformance 19NewsPersonalization0A22TabiArticleScoringWorkV0C00F4TypeAA14RequestContextAdEP_AD0fhiG0
++ _associated conformance 19NewsPersonalization0A22TabiArticleScoringWorkV0C00F4TypeAA2IDs12IdentifiableP_s23CustomStringConvertible
++ _associated conformance 19NewsPersonalization0A22TabiArticleScoringWorkV0C00F4TypeAAs12Identifiable
++ _associated conformance 19NewsPersonalization0A22TabiArticleScoringWorkV6ErrorsOSHAASQ
++ _associated conformance 19NewsPersonalization0A22TabiArticleScoringWorkVs12IdentifiableAA2IDsADP_SH
++ _associated conformance 19NewsPersonalization0A22TabiTagSuggestionsWorkV0C00F4TypeAA13ConfigurationAdEP_AD0hG0
++ _associated conformance 19NewsPersonalization0A22TabiTagSuggestionsWorkV0C00F4TypeAA14RequestContextAdEP_AD0fhiG0
++ _associated conformance 19NewsPersonalization0A22TabiTagSuggestionsWorkV0C00F4TypeAA2IDs12IdentifiableP_s23CustomStringConvertible
++ _associated conformance 19NewsPersonalization0A22TabiTagSuggestionsWorkV0C00F4TypeAAs12Identifiable
++ _associated conformance 19NewsPersonalization0A22TabiTagSuggestionsWorkV6ErrorsOSHAASQ
++ _associated conformance 19NewsPersonalization0A22TabiTagSuggestionsWorkVs12IdentifiableAA2IDsADP_SH
++ _associated conformance 19NewsPersonalization0A24TabiConfigurationManagerC0C00dE4TypeAA0D0AdEP_AD0dF0
++ _associated conformance 19NewsPersonalization0A24TabiEventAggregationWorkV0C0012UserFeaturesF4TypeAaD0fI0
++ _associated conformance 19NewsPersonalization0A24TabiEventAggregationWorkV0C00F4TypeAA13ConfigurationAdEP_AD0hG0
++ _associated conformance 19NewsPersonalization0A24TabiEventAggregationWorkV0C00F4TypeAA14RequestContextAdEP_AD0fhiG0
++ _associated conformance 19NewsPersonalization0A24TabiEventAggregationWorkV0C00F4TypeAA2IDs12IdentifiableP_s23CustomStringConvertible
++ _associated conformance 19NewsPersonalization0A24TabiEventAggregationWorkV0C00F4TypeAAs12Identifiable
++ _associated conformance 19NewsPersonalization0A24TabiEventAggregationWorkV6ErrorsOSHAASQ
++ _associated conformance 19NewsPersonalization0A24TabiEventAggregationWorkVs12IdentifiableAA2IDsADP_SH
++ _associated conformance 19NewsPersonalization0A25TabiRecommendedIssuesWorkV0C00F4TypeAA13ConfigurationAdEP_AD0hG0
++ _associated conformance 19NewsPersonalization0A25TabiRecommendedIssuesWorkV0C00F4TypeAA14RequestContextAdEP_AD0fhiG0
++ _associated conformance 19NewsPersonalization0A25TabiRecommendedIssuesWorkV0C00F4TypeAA2IDs12IdentifiableP_s23CustomStringConvertible
++ _associated conformance 19NewsPersonalization0A25TabiRecommendedIssuesWorkV0C00F4TypeAAs12Identifiable
++ _associated conformance 19NewsPersonalization0A25TabiRecommendedIssuesWorkV6ErrorsOSHAASQ
++ _associated conformance 19NewsPersonalization0A25TabiRecommendedIssuesWorkVs12IdentifiableAA2IDsADP_SH
++ _associated conformance 19NewsPersonalization0A28TabiPersonalizedPaywallsWorkV0C00F4TypeAA13ConfigurationAdEP_AD0hG0
++ _associated conformance 19NewsPersonalization0A28TabiPersonalizedPaywallsWorkV0C00F4TypeAA14RequestContextAdEP_AD0fhiG0
++ _associated conformance 19NewsPersonalization0A28TabiPersonalizedPaywallsWorkV0C00F4TypeAA2IDs12IdentifiableP_s23CustomStringConvertible
++ _associated conformance 19NewsPersonalization0A28TabiPersonalizedPaywallsWorkV0C00F4TypeAAs12Identifiable
++ _associated conformance 19NewsPersonalization0A28TabiPersonalizedPaywallsWorkV6ErrorsOSHAASQ
++ _associated conformance 19NewsPersonalization0A28TabiPersonalizedPaywallsWorkVs12IdentifiableAA2IDsADP_SH
++ _associated conformance 19NewsPersonalization24RecommendedIssuesServiceC6ErrorsOyx_GSHAASQ
++ _associated conformance 19NewsPersonalization35TabiUserEventHistoryFeaturesFactoryC0C00dg4WorkH4TypeAA0I0AdEP_AD0dgiJ0
++ _associated conformance So10FCResourceC4Tabi11PackageType19NewsPersonalization2IDs12IdentifiableP_SL
++ _associated conformance So10FCResourceC4Tabi11PackageType19NewsPersonalization2IDs12IdentifiableP_s25LosslessStringConvertible
++ _associated conformance So10FCResourceC4Tabi11PackageType19NewsPersonalizations12Identifiable
++ _associated conformance So10FCResourceCs12Identifiable19NewsPersonalization2IDsACP_SH
++ _block_copy_helper.12
++ _block_copy_helper.7
++ _block_descriptor.14
++ _block_descriptor.9
++ _block_destroy_helper.13
++ _block_destroy_helper.8
++ _objc_categories_stubs
++ _objc_class_stubs
++ _swift_allocateGenericClassMetadata
++ _swift_unknownObjectRetain_n
++ _symbolic $s19NewsPersonalization0A12TabiWorkTypeP
++ _symbolic $s19NewsPersonalization25TagSuggestionsServiceTypeP
++ _symbolic $s19NewsPersonalization29TagSuggestionsDataServiceTypeP
++ _symbolic $s4Tabi17ConfigurationTypeP
++ _symbolic $s4Tabi18PackageServiceTypeP
++ _symbolic $s4Tabi24ConfigurationManagerTypeP
++ _symbolic $s4Tabi27UserFeaturesWorkFactoryTypeP
++ _symbolic $s4Tabi8WorkTypeP
++ _symbolic $ss12IdentifiableP
++ _symbolic 13Configuration_____Qz 4Tabi15WorkServiceTypeP
++ _symbolic 13Configuration_____Qz 4Tabi8WorkTypeP
++ _symbolic B0
++ _symbolic B1
++ _symbolic B2
++ _symbolic G0R1_
++ _symbolic SDySSSdG
++ _symbolic SDySSSdG___________tc 19NewsPersonalization0A18TabiTagScoringWorkV7ContextV 0C08FeaturesC
++ _symbolic SDySSSdG___________tc 19NewsPersonalization0A22TabiArticleScoringWorkV7ContextV 0C08FeaturesC
++ _symbolic SaySSGSaySo14FCTagProviding_pG_____y_____SgG______pIegggozo_ 13TeaFoundation7PromiseC 19NewsPersonalization36PersonalizedPaywallDataServiceResultV s5ErrorP
++ _symbolic SaySSGSg
++ _symbolic SaySSGSg___________tc 19NewsPersonalization0A21TabiChannelPickerWorkV7ContextV 0C08FeaturesC
++ _symbolic SaySSGSg___________tc 19NewsPersonalization0A28TabiPersonalizedPaywallsWorkV7ContextV 0C08FeaturesC
++ _symbolic SaySSG___________tKc 19NewsPersonalization0A25TabiRecommendedIssuesWorkV7ContextV 0C08FeaturesC
++ _symbolic SaySS_SftG
++ _symbolic SaySS_SftG8channels_AA6topicst
++ _symbolic SaySS_SftG8channels_AA6topicstIegn_
++ _symbolic So10FCResourceC
++ _symbolic _____ 19NewsPersonalization0A17TabiConfigurationV
++ _symbolic _____ 19NewsPersonalization0A17TabiConfigurationV6ErrorsO
++ _symbolic _____ 19NewsPersonalization0A18TabiPackageServiceC
++ _symbolic _____ 19NewsPersonalization0A18TabiTagScoringWorkV
++ _symbolic _____ 19NewsPersonalization0A18TabiTagScoringWorkV6ErrorsO
++ _symbolic _____ 19NewsPersonalization0A18TabiTagScoringWorkV7ContextV
++ _symbolic _____ 19NewsPersonalization0A21TabiChannelPickerWorkV
++ _symbolic _____ 19NewsPersonalization0A21TabiChannelPickerWorkV6ErrorsO
++ _symbolic _____ 19NewsPersonalization0A21TabiChannelPickerWorkV7ContextV
++ _symbolic _____ 19NewsPersonalization0A22TabiArticleScoringWorkV
++ _symbolic _____ 19NewsPersonalization0A22TabiArticleScoringWorkV6ErrorsO
++ _symbolic _____ 19NewsPersonalization0A22TabiArticleScoringWorkV7ContextV
++ _symbolic _____ 19NewsPersonalization0A22TabiTagSuggestionsWorkV
++ _symbolic _____ 19NewsPersonalization0A22TabiTagSuggestionsWorkV6ErrorsO
++ _symbolic _____ 19NewsPersonalization0A22TabiTagSuggestionsWorkV7ContextV
++ _symbolic _____ 19NewsPersonalization0A24TabiConfigurationManagerC
++ _symbolic _____ 19NewsPersonalization0A24TabiEventAggregationWorkV
++ _symbolic _____ 19NewsPersonalization0A24TabiEventAggregationWorkV6ErrorsO
++ _symbolic _____ 19NewsPersonalization0A24TabiEventAggregationWorkV7ContextV
++ _symbolic _____ 19NewsPersonalization0A25AnalyticsTabiDataProviderC
++ _symbolic _____ 19NewsPersonalization0A25TabiRecommendedIssuesWorkV
++ _symbolic _____ 19NewsPersonalization0A25TabiRecommendedIssuesWorkV6ErrorsO
++ _symbolic _____ 19NewsPersonalization0A25TabiRecommendedIssuesWorkV7ContextV
++ _symbolic _____ 19NewsPersonalization0A28TabiPersonalizedPaywallsWorkV
++ _symbolic _____ 19NewsPersonalization0A28TabiPersonalizedPaywallsWorkV6ErrorsO
++ _symbolic _____ 19NewsPersonalization0A28TabiPersonalizedPaywallsWorkV7ContextV
++ _symbolic _____ 19NewsPersonalization21TagSuggestionsServiceC
++ _symbolic _____ 19NewsPersonalization25TagSuggestionsDataServiceC
++ _symbolic _____ 19NewsPersonalization31TagSuggestionsDataServiceResultV
++ _symbolic _____ 19NewsPersonalization32TabiScoringContextEventProcessorC
++ _symbolic _____ 4Tabi20UserEmbeddingManagerC
++ _symbolic _____ 4Tabi20UserEmbeddingManagerC41LogisticRegressionClassifierConfigurationV
++ _symbolic _____ 4Tabi7RequestC
++ _symbolic _____ 4Tabi8FeaturesC
++ _symbolic _____ 8Dispatch0A3QoSV0B6SClassO
++ _symbolic _____Iegg_ 19NewsPersonalization0A17TabiConfigurationV
++ _symbolic _____Iegn_ 19NewsPersonalization0A17TabiConfigurationV
++ _symbolic _____So23FCNewsTabiConfigurationCKc 19NewsPersonalization0A18TabiTagScoringWorkV7ContextV
++ _symbolic _____So23FCNewsTabiConfigurationCKc 19NewsPersonalization0A21TabiChannelPickerWorkV7ContextV
++ _symbolic _____So23FCNewsTabiConfigurationCKc 19NewsPersonalization0A22TabiArticleScoringWorkV7ContextV
++ _symbolic _____So23FCNewsTabiConfigurationCKc 19NewsPersonalization0A24TabiEventAggregationWorkV7ContextV
++ _symbolic _____So23FCNewsTabiConfigurationCKc 19NewsPersonalization0A25TabiRecommendedIssuesWorkV7ContextV
++ _symbolic _____So23FCNewsTabiConfigurationCKc 19NewsPersonalization0A28TabiPersonalizedPaywallsWorkV7ContextV
++ _symbolic ___________AAtc 4Tabi8FeaturesC 19NewsPersonalization0cA20EventAggregationWorkV7ContextV
++ _symbolic ______p 19NewsPersonalization42BundleSubscriptionIsSubscribedProviderTypeP
++ _symbolic _____y_____G 4Tabi18WorkEventProcessorC 19NewsPersonalization0ea14ArticleScoringB0V
++ _symbolic _____y_____G 4Tabi20WorkPreparationEventV 19NewsPersonalization0ea14ArticleScoringB0V
++ _symbolic _____y_______________G 4Tabi11WorkServiceC 19NewsPersonalization0dA20ConfigurationManagerC AD0A31UserEventHistoryFeaturesFactoryC AD0da7PackageC0C
++ _symbolic _____yxG 19NewsPersonalization30PersonalizedPaywallDataServiceC
++ _symbolic _____yxGSgXw 19NewsPersonalization24RecommendedIssuesServiceC
++ _symbolic _____yxGSgXwz_x______Rz_____13Configuration_____RtzlXX 19NewsPersonalization24RecommendedIssuesServiceC 4Tabi04WorkE4TypeP AA0aF13ConfigurationV AF
++ _symbolic q0_
++ _symbolic q_
++ _symbolic qd_0_
++ _symbolic qd_0_Iegn_
++ _symbolic qd__
+- _NSFileSize
+- _NSURLCreationDateKey
+- _NSURLFileSizeKey
+- _OBJC_CLASS_$_FCResourceUnarchiver
+- _OBJC_CLASS_$__TtC19NewsPersonalization17NewsTabiJournaler
+- _OBJC_CLASS_$__TtC19NewsPersonalization26NewsTabiGlobalGraphService
+- _OBJC_METACLASS_$__TtC19NewsPersonalization17NewsTabiJournaler
+- _OBJC_METACLASS_$__TtC19NewsPersonalization26NewsTabiGlobalGraphService
+- __CATEGORY__TtC19NewsPersonalization17NewsTabiJournaler_$_NewsPersonalization
+- __CATEGORY__TtC19NewsPersonalization26NewsTabiGlobalGraphService_$_NewsPersonalization
+- __DATA__TtC19NewsPersonalization14ScoringJournal
+- __DATA__TtC19NewsPersonalization15NewsTabiRequest
+- __DATA__TtC19NewsPersonalization17NewsTabiJournaler
+- __DATA__TtC19NewsPersonalization21NewsTabiJournalReader
+- __DATA__TtC19NewsPersonalization24RecommendedIssuesService
+- __DATA__TtC19NewsPersonalization26NewsTabiGlobalGraphService
+- __DATA__TtC19NewsPersonalization30PersonalizedPaywallDataService
+- __DATA__TtC19NewsPersonalization35TabiUserEventHistoryFeaturesStorage
+- __IVARS__TtC19NewsPersonalization14ScoringJournal
+- __IVARS__TtC19NewsPersonalization15NewsTabiRequest
+- __IVARS__TtC19NewsPersonalization17NewsTabiJournaler
+- __IVARS__TtC19NewsPersonalization21NewsTabiJournalReader
+- __IVARS__TtC19NewsPersonalization26NewsTabiGlobalGraphService
+- __IVARS__TtC19NewsPersonalization35TabiUserEventHistoryFeaturesStorage
+- __METACLASS_DATA__TtC19NewsPersonalization14ScoringJournal
+- __METACLASS_DATA__TtC19NewsPersonalization15NewsTabiRequest
+- __METACLASS_DATA__TtC19NewsPersonalization17NewsTabiJournaler
+- __METACLASS_DATA__TtC19NewsPersonalization21NewsTabiJournalReader
+- __METACLASS_DATA__TtC19NewsPersonalization24RecommendedIssuesService
+- __METACLASS_DATA__TtC19NewsPersonalization26NewsTabiGlobalGraphService
+- __METACLASS_DATA__TtC19NewsPersonalization30PersonalizedPaywallDataService
+- __METACLASS_DATA__TtC19NewsPersonalization35TabiUserEventHistoryFeaturesStorage
+- __OBJC_$_INSTANCE_METHODS__TtC19NewsPersonalization17NewsTabiJournaler
+- __OBJC_$_INSTANCE_METHODS__TtC19NewsPersonalization17NewsTabiJournaler(NewsPersonalization)
+- __OBJC_$_INSTANCE_METHODS__TtC19NewsPersonalization26NewsTabiGlobalGraphService
+- __OBJC_$_INSTANCE_METHODS__TtC19NewsPersonalization26NewsTabiGlobalGraphService(NewsPersonalization)
+- __OBJC_$_PROP_LIST_FCPPTContext
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_FCPPTContext
+- __OBJC_$_PROTOCOL_METHOD_TYPES_FCPPTContext
+- __OBJC_$_PROTOCOL_REFS_FCPPTContext
+- __OBJC_CLASS_PROTOCOLS_$__TtC19NewsPersonalization17NewsTabiJournaler(NewsPersonalization)
+- __OBJC_CLASS_PROTOCOLS_$__TtC19NewsPersonalization26NewsTabiGlobalGraphService(NewsPersonalization)
+- __OBJC_LABEL_PROTOCOL_$_FCPPTContext
+- __OBJC_PROTOCOL_$_FCPPTContext
+- ___swift_project_boxed_opaque_existential_1Tm
+- ___unnamed_6
+- __swift_stdlib_strtod_clocale
+- _associated conformance 19NewsPersonalization0A11TabiJournalO12EntryListingV4WorkOSHAASQ
+- _associated conformance 19NewsPersonalization0A11TabiJournalO5EntryV10CodingKeys33_B6C977A9F52EF6CB59AD2213F70C193ELLOSHAASQ
+- _associated conformance 19NewsPersonalization0A11TabiJournalO5EntryV10CodingKeys33_B6C977A9F52EF6CB59AD2213F70C193ELLOs0F3KeyAAs23CustomStringConvertible
+- _associated conformance 19NewsPersonalization0A11TabiJournalO5EntryV10CodingKeys33_B6C977A9F52EF6CB59AD2213F70C193ELLOs0F3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 19NewsPersonalization0A11TabiJournalO5EntryV4KindO10CodingKeysOSHAASQ
+- _associated conformance 19NewsPersonalization0A11TabiJournalO5EntryV4KindO10CodingKeysOs0G3KeyAAs23CustomStringConvertible
+- _associated conformance 19NewsPersonalization0A11TabiJournalO5EntryV4KindO10CodingKeysOs0G3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 19NewsPersonalization0A11TabiJournalO5EntryV4KindO10Identifier33_B6C977A9F52EF6CB59AD2213F70C193ELLO10CodingKeysOSHAASQ
+- _associated conformance 19NewsPersonalization0A11TabiJournalO5EntryV4KindO10Identifier33_B6C977A9F52EF6CB59AD2213F70C193ELLO10CodingKeysOs0Q3KeyAAs23CustomStringConvertible
+- _associated conformance 19NewsPersonalization0A11TabiJournalO5EntryV4KindO10Identifier33_B6C977A9F52EF6CB59AD2213F70C193ELLO10CodingKeysOs0Q3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 19NewsPersonalization0A11TabiJournalO5EntryV4KindO10Identifier33_B6C977A9F52EF6CB59AD2213F70C193ELLO16FailedCodingKeysOs0R3KeyAAs23CustomStringConvertible
+- _associated conformance 19NewsPersonalization0A11TabiJournalO5EntryV4KindO10Identifier33_B6C977A9F52EF6CB59AD2213F70C193ELLO16FailedCodingKeysOs0R3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 19NewsPersonalization0A11TabiJournalO5EntryV4KindO10Identifier33_B6C977A9F52EF6CB59AD2213F70C193ELLO17SuccessCodingKeysOs0R3KeyAAs23CustomStringConvertible
+- _associated conformance 19NewsPersonalization0A11TabiJournalO5EntryV4KindO10Identifier33_B6C977A9F52EF6CB59AD2213F70C193ELLO17SuccessCodingKeysOs0R3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 19NewsPersonalization0A11TabiJournalO5EntryV4KindO10Identifier33_B6C977A9F52EF6CB59AD2213F70C193ELLOSHAASQ
+- _associated conformance 19NewsPersonalization0A11TabiJournalO5EntryV4WorkO10CodingKeysOSHAASQ
+- _associated conformance 19NewsPersonalization0A11TabiJournalO5EntryV4WorkO10CodingKeysOs0G3KeyAAs23CustomStringConvertible
+- _associated conformance 19NewsPersonalization0A11TabiJournalO5EntryV4WorkO10CodingKeysOs0G3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 19NewsPersonalization0A11TabiJournalO5EntryV8WorkKindO04FeedB10CodingKeys33_B6C977A9F52EF6CB59AD2213F70C193ELLOs0I3KeyAAs23CustomStringConvertible
+- _associated conformance 19NewsPersonalization0A11TabiJournalO5EntryV8WorkKindO04FeedB10CodingKeys33_B6C977A9F52EF6CB59AD2213F70C193ELLOs0I3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 19NewsPersonalization0A11TabiJournalO5EntryV8WorkKindO10CodingKeys33_B6C977A9F52EF6CB59AD2213F70C193ELLOSHAASQ
+- _associated conformance 19NewsPersonalization0A11TabiJournalO5EntryV8WorkKindO10CodingKeys33_B6C977A9F52EF6CB59AD2213F70C193ELLOs0H3KeyAAs23CustomStringConvertible
+- _associated conformance 19NewsPersonalization0A11TabiJournalO5EntryV8WorkKindO10CodingKeys33_B6C977A9F52EF6CB59AD2213F70C193ELLOs0H3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 19NewsPersonalization0A11TabiJournalO5EntryV8WorkKindO14LoadCodingKeys33_B6C977A9F52EF6CB59AD2213F70C193ELLOs0I3KeyAAs23CustomStringConvertible
+- _associated conformance 19NewsPersonalization0A11TabiJournalO5EntryV8WorkKindO14LoadCodingKeys33_B6C977A9F52EF6CB59AD2213F70C193ELLOs0I3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 19NewsPersonalization0A11TabiJournalO5EntryV8WorkKindO17RefreshCodingKeys33_B6C977A9F52EF6CB59AD2213F70C193ELLOs0I3KeyAAs23CustomStringConvertible
+- _associated conformance 19NewsPersonalization0A11TabiJournalO5EntryV8WorkKindO17RefreshCodingKeys33_B6C977A9F52EF6CB59AD2213F70C193ELLOs0I3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 19NewsPersonalization0A11TabiJournalO5EntryV8WorkKindO23ChannelPickerCodingKeys33_B6C977A9F52EF6CB59AD2213F70C193ELLOs0J3KeyAAs23CustomStringConvertible
+- _associated conformance 19NewsPersonalization0A11TabiJournalO5EntryV8WorkKindO23ChannelPickerCodingKeys33_B6C977A9F52EF6CB59AD2213F70C193ELLOs0J3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 19NewsPersonalization0A11TabiJournalO5EntryV8WorkKindO26EventAggregationCodingKeys33_B6C977A9F52EF6CB59AD2213F70C193ELLOs0J3KeyAAs23CustomStringConvertible
+- _associated conformance 19NewsPersonalization0A11TabiJournalO5EntryV8WorkKindO26EventAggregationCodingKeys33_B6C977A9F52EF6CB59AD2213F70C193ELLOs0J3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 19NewsPersonalization0A11TabiJournalO5EntryV8WorkKindO27RecommendedIssuesCodingKeys33_B6C977A9F52EF6CB59AD2213F70C193ELLOs0J3KeyAAs23CustomStringConvertible
+- _associated conformance 19NewsPersonalization0A11TabiJournalO5EntryV8WorkKindO27RecommendedIssuesCodingKeys33_B6C977A9F52EF6CB59AD2213F70C193ELLOs0J3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 19NewsPersonalization0A11TabiJournalO5EntryV8WorkKindO29PersonalizedPaywallCodingKeys33_B6C977A9F52EF6CB59AD2213F70C193ELLOs0J3KeyAAs23CustomStringConvertible
+- _associated conformance 19NewsPersonalization0A11TabiJournalO5EntryV8WorkKindO29PersonalizedPaywallCodingKeys33_B6C977A9F52EF6CB59AD2213F70C193ELLOs0J3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 19NewsPersonalization0A11TabiJournalO5EntryV8WorkKindOSHAASQ
+- _associated conformance 19NewsPersonalization0A11TabiJournalO9GraphCallV10CodingKeys33_B6C977A9F52EF6CB59AD2213F70C193ELLOSHAASQ
+- _associated conformance 19NewsPersonalization0A11TabiJournalO9GraphCallV10CodingKeys33_B6C977A9F52EF6CB59AD2213F70C193ELLOs0G3KeyAAs23CustomStringConvertible
+- _associated conformance 19NewsPersonalization0A11TabiJournalO9GraphCallV10CodingKeys33_B6C977A9F52EF6CB59AD2213F70C193ELLOs0G3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 19NewsPersonalization0A11TabiRequestC10CodingKeys33_3413450DE986EC81CD77593CF81DBD32LLOSHAASQ
+- _associated conformance 19NewsPersonalization0A11TabiRequestC10CodingKeys33_3413450DE986EC81CD77593CF81DBD32LLOs0E3KeyAAs23CustomStringConvertible
+- _associated conformance 19NewsPersonalization0A11TabiRequestC10CodingKeys33_3413450DE986EC81CD77593CF81DBD32LLOs0E3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 19NewsPersonalization0A13TabiJournalerC11TeaSettings9UpdatableAaD12Configurable
+- _associated conformance 19NewsPersonalization0A19CoreTabiArticleDataV12_TagMetadataVAA0degH4TypeAA28TopicContentAndRelevanceInfoAaFP_AA0dejklmnI0
+- _associated conformance 19NewsPersonalization0A19CoreTabiArticleDataVAA0deF4TypeAA10CohortListAaDP_AA0dehiG0
+- _associated conformance 19NewsPersonalization0A19CoreTabiArticleDataVAA0deF4TypeAA11TagMetadataAaDP_AA0dehiG0
+- _associated conformance 19NewsPersonalization0A19CoreTabiArticleDataVAA0deF4TypeAA5StatsAaDP_AA0de10ConversionhG0
+- _associated conformance 19NewsPersonalization0A19CoreTabiArticleDataVAA0deF4TypeAA5TopicAaDP_AA0dehG0
+- _associated conformance 19NewsPersonalization14ScoringJournalC11TeaSettings9UpdatableAaD12Configurable
+- _associated conformance 19NewsPersonalization14ScoringJournalC12EntryListingV10CodingKeys33_A0FCC1E77698BF8AC2B45CEE8E3D6079LLOSHAASQ
+- _associated conformance 19NewsPersonalization14ScoringJournalC12EntryListingV10CodingKeys33_A0FCC1E77698BF8AC2B45CEE8E3D6079LLOs0G3KeyAAs23CustomStringConvertible
+- _associated conformance 19NewsPersonalization14ScoringJournalC12EntryListingV10CodingKeys33_A0FCC1E77698BF8AC2B45CEE8E3D6079LLOs0G3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 19NewsPersonalization14ScoringJournalC5EntryV10CodingKeys33_A0FCC1E77698BF8AC2B45CEE8E3D6079LLOSHAASQ
+- _associated conformance 19NewsPersonalization14ScoringJournalC5EntryV10CodingKeys33_A0FCC1E77698BF8AC2B45CEE8E3D6079LLOs0F3KeyAAs23CustomStringConvertible
+- _associated conformance 19NewsPersonalization14ScoringJournalC5EntryV10CodingKeys33_A0FCC1E77698BF8AC2B45CEE8E3D6079LLOs0F3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 19NewsPersonalization24RecommendedIssuesServiceC6ErrorsOSHAASQ
+- _associated conformance 19NewsPersonalization35TabiUserEventHistoryFeaturesStorageC6ErrorsOSHAASQ
+- _block_copy_helper.14
+- _block_copy_helper.17
+- _block_copy_helper.26
+- _block_copy_helper.35
+- _block_copy_helper.37
+- _block_copy_helper.38
+- _block_descriptor.16
+- _block_descriptor.19
+- _block_descriptor.28
+- _block_descriptor.37
+- _block_descriptor.39
+- _block_descriptor.40
+- _block_destroy_helper.15
+- _block_destroy_helper.18
+- _block_destroy_helper.27
+- _block_destroy_helper.36
+- _block_destroy_helper.38
+- _block_destroy_helper.39
+- _dispatch_sync
+- _objc_retain_x10
+- _objc_retain_x4
+- _objc_retain_x5
+- _objectdestroy.30Tm
+- _objectdestroy.9Tm
+- _os_unfair_lock_lock
+- _os_unfair_lock_unlock
+- _swift_deallocPartialClassInstance
+- _swift_getExistentialMetatypeMetadata
+- _symbolic $s19NewsPersonalization0A17TabiJournalerTypeP
+- _symbolic $s19NewsPersonalization0A21TabiJournalReaderTypeP
+- _symbolic $s19NewsPersonalization0A26TabiGlobalGraphServiceTypeP
+- _symbolic $s19NewsPersonalization18ScoringJournalTypeP
+- _symbolic $s19NewsPersonalization26ScoringJournalProviderTypeP
+- _symbolic $s19NewsPersonalization39TabiUserEventHistoryFeaturesFactoryTypeP
+- _symbolic $s19NewsPersonalization39TabiUserEventHistoryFeaturesStorageTypeP
+- _symbolic Ig_
+- _symbolic SDy__________G 10XavierNews18ClassicArticleDataV AA0C0V20HeadlineScoreProfileC
+- _symbolic So12FCPPTContext_p
+- _symbolic So23FCNewsTabiConfigurationCSg
+- _symbolic So39FCNewsTabiEventAggregationConfigurationCSg
+- _symbolic So40FCNewsTabiRecommendedIssuesConfigurationCSg
+- _symbolic So42FCNewsTabiFeedPersonalizationConfigurationCSg
+- _symbolic So43FCNewsTabiPersonalizedPaywallsConfigurationC
+- _symbolic So43FCNewsTabiPersonalizedPaywallsConfigurationCSg
+- _symbolic So44COMAPPLEFELDSPARPROTOCOLLIVERPOOLTagMetadataC
+- _symbolic So47FCNewsTabiChannelPickerSuggestionsConfigurationCSg
+- _symbolic So48COMAPPLEFELDSPARPROTOCOLLIVERPOOLConversionStatsC
+- _symbolic _____ 19NewsPersonalization0A11TabiJournalO
+- _symbolic _____ 19NewsPersonalization0A11TabiJournalO12EntryListingV
+- _symbolic _____ 19NewsPersonalization0A11TabiJournalO12EntryListingV4KindO
+- _symbolic _____ 19NewsPersonalization0A11TabiJournalO12EntryListingV4WorkO
+- _symbolic _____ 19NewsPersonalization0A11TabiJournalO12EntryListingV6ErrorsO
+- _symbolic _____ 19NewsPersonalization0A11TabiJournalO5EntryV
+- _symbolic _____ 19NewsPersonalization0A11TabiJournalO5EntryV10CodingKeys33_B6C977A9F52EF6CB59AD2213F70C193ELLO
+- _symbolic _____ 19NewsPersonalization0A11TabiJournalO5EntryV4KindO
+- _symbolic _____ 19NewsPersonalization0A11TabiJournalO5EntryV4KindO10CodingKeysO
+- _symbolic _____ 19NewsPersonalization0A11TabiJournalO5EntryV4KindO10Identifier33_B6C977A9F52EF6CB59AD2213F70C193ELLO
+- _symbolic _____ 19NewsPersonalization0A11TabiJournalO5EntryV4KindO10Identifier33_B6C977A9F52EF6CB59AD2213F70C193ELLO10CodingKeysO
+- _symbolic _____ 19NewsPersonalization0A11TabiJournalO5EntryV4KindO10Identifier33_B6C977A9F52EF6CB59AD2213F70C193ELLO16FailedCodingKeysO
+- _symbolic _____ 19NewsPersonalization0A11TabiJournalO5EntryV4KindO10Identifier33_B6C977A9F52EF6CB59AD2213F70C193ELLO17SuccessCodingKeysO
+- _symbolic _____ 19NewsPersonalization0A11TabiJournalO5EntryV4KindO6Errors33_B6C977A9F52EF6CB59AD2213F70C193ELLO
+- _symbolic _____ 19NewsPersonalization0A11TabiJournalO5EntryV4WorkO
+- _symbolic _____ 19NewsPersonalization0A11TabiJournalO5EntryV4WorkO10CodingKeysO
+- _symbolic _____ 19NewsPersonalization0A11TabiJournalO5EntryV4WorkO6ErrorsO
+- _symbolic _____ 19NewsPersonalization0A11TabiJournalO5EntryV8WorkKindO
+- _symbolic _____ 19NewsPersonalization0A11TabiJournalO5EntryV8WorkKindO04FeedB10CodingKeys33_B6C977A9F52EF6CB59AD2213F70C193ELLO
+- _symbolic _____ 19NewsPersonalization0A11TabiJournalO5EntryV8WorkKindO10CodingKeys33_B6C977A9F52EF6CB59AD2213F70C193ELLO
+- _symbolic _____ 19NewsPersonalization0A11TabiJournalO5EntryV8WorkKindO14LoadCodingKeys33_B6C977A9F52EF6CB59AD2213F70C193ELLO
+- _symbolic _____ 19NewsPersonalization0A11TabiJournalO5EntryV8WorkKindO17RefreshCodingKeys33_B6C977A9F52EF6CB59AD2213F70C193ELLO
+- _symbolic _____ 19NewsPersonalization0A11TabiJournalO5EntryV8WorkKindO23ChannelPickerCodingKeys33_B6C977A9F52EF6CB59AD2213F70C193ELLO
+- _symbolic _____ 19NewsPersonalization0A11TabiJournalO5EntryV8WorkKindO26EventAggregationCodingKeys33_B6C977A9F52EF6CB59AD2213F70C193ELLO
+- _symbolic _____ 19NewsPersonalization0A11TabiJournalO5EntryV8WorkKindO27RecommendedIssuesCodingKeys33_B6C977A9F52EF6CB59AD2213F70C193ELLO
+- _symbolic _____ 19NewsPersonalization0A11TabiJournalO5EntryV8WorkKindO29PersonalizedPaywallCodingKeys33_B6C977A9F52EF6CB59AD2213F70C193ELLO
+- _symbolic _____ 19NewsPersonalization0A11TabiJournalO9GraphCallV
+- _symbolic _____ 19NewsPersonalization0A11TabiJournalO9GraphCallV10CodingKeys33_B6C977A9F52EF6CB59AD2213F70C193ELLO
+- _symbolic _____ 19NewsPersonalization0A11TabiRequestC
+- _symbolic _____ 19NewsPersonalization0A11TabiRequestC10CodingKeys33_3413450DE986EC81CD77593CF81DBD32LLO
+- _symbolic _____ 19NewsPersonalization0A13TabiJournalerC
+- _symbolic _____ 19NewsPersonalization0A17TabiJournalReaderC
+- _symbolic _____ 19NewsPersonalization0A19CoreTabiArticleDataV12_TagMetadataV
+- _symbolic _____ 19NewsPersonalization0A19TabiGlobalGraphWorkO
+- _symbolic _____ 19NewsPersonalization0A19TabiGlobalGraphWorkO7ProductV
+- _symbolic _____ 19NewsPersonalization0A22TabiGlobalGraphServiceC
+- _symbolic _____ 19NewsPersonalization0A22TabiGlobalGraphServiceC6ErrorsO
+- _symbolic _____ 19NewsPersonalization14ScoringJournalC
+- _symbolic _____ 19NewsPersonalization14ScoringJournalC12EntryListingV
+- _symbolic _____ 19NewsPersonalization14ScoringJournalC12EntryListingV10CodingKeys33_A0FCC1E77698BF8AC2B45CEE8E3D6079LLO
+- _symbolic _____ 19NewsPersonalization14ScoringJournalC5EntryV
+- _symbolic _____ 19NewsPersonalization14ScoringJournalC5EntryV10CodingKeys33_A0FCC1E77698BF8AC2B45CEE8E3D6079LLO
+- _symbolic _____ 19NewsPersonalization35TabiUserEventHistoryFeaturesStorageC
+- _symbolic _____ 19NewsPersonalization35TabiUserEventHistoryFeaturesStorageC6ErrorsO
+- _symbolic _____ 6Gambit20UserEmbeddingManagerC
+- _symbolic _____ 6Gambit20UserEmbeddingManagerC41LogisticRegressionClassifierConfigurationV
+- _symbolic _____ 6Gambit8FeaturesC
+- _symbolic _____ 8Dispatch0A4TimeV
+- _symbolic _____ So16os_unfair_lock_sV
+- _symbolic _____Iegn_ 6Gambit11GlobalGraphV
+- _symbolic _____Sg 6Gambit11GlobalGraphV
+- _symbolic _____Sg 6Gambit8FeaturesC
+- _symbolic _____SgXw 19NewsPersonalization0A22TabiGlobalGraphServiceC
+- _symbolic _____SgXw 19NewsPersonalization24RecommendedIssuesServiceC
+- _symbolic _____SgXwz_Xx 19NewsPersonalization0A22TabiGlobalGraphServiceC
+- _symbolic ___________Sg______pt 19NewsPersonalization0A11TabiJournalO5EntryV8WorkKindO AA0aC7RequestC s5ErrorP
+- _symbolic ______p 13NewsAnalytics20TabiDataProviderTypeP
+- _symbolic ______p 19NewsPersonalization0A26TabiGlobalGraphServiceTypeP
+- _symbolic ______p 19NewsPersonalization39TabiUserEventHistoryFeaturesFactoryTypeP
+- _symbolic ______p 19NewsPersonalization39TabiUserEventHistoryFeaturesStorageTypeP
+- _symbolic ______pSg 19NewsPersonalization0A17TabiJournalerTypeP
+- _symbolic ______pSg 19NewsPersonalization18ScoringJournalTypeP
+- _symbolic _____ySaySSGG 2os21OSAllocatedUnfairLockV
+- _symbolic _____ySaySSGSgG 19NewsPersonalization0A19TabiGlobalGraphWorkO
+- _symbolic _____y_____SgG 2os21OSAllocatedUnfairLockV 13NewsAnalytics8TabiDataV
+- _symbolic _____y_____SgG 2os21OSAllocatedUnfairLockV 6Gambit8FeaturesC
+- _symbolic _____yx_xGSo39FCNewsTabiEventAggregationConfigurationCKc 19NewsPersonalization0A19TabiGlobalGraphWorkO7ProductV
+- _symbolic _____yx_xGSo40FCNewsTabiRecommendedIssuesConfigurationCKc 19NewsPersonalization0A19TabiGlobalGraphWorkO7ProductV
+- _symbolic _____yx_xGSo42FCNewsTabiFeedPersonalizationConfigurationCKc 19NewsPersonalization0A19TabiGlobalGraphWorkO7ProductV
+- _symbolic _____yx_xGSo43FCNewsTabiPersonalizedPaywallsConfigurationCKc 19NewsPersonalization0A19TabiGlobalGraphWorkO7ProductV
+- _symbolic _____yx_xGSo47FCNewsTabiChannelPickerSuggestionsConfigurationCKc 19NewsPersonalization0A19TabiGlobalGraphWorkO7ProductV
+- _symbolic qd_______Kc 6Gambit8FeaturesC
+CStrings:
++ "NewsPersonalization.TabiScoringContextEventProcessor"
++ "T@\"<FCChannelProviding>\",?,R,C,N"
++ "T@\"<FCHeadlineMetadata>\",?,R,C,N"
++ "T@\"<FCHeadlineStocksFields>\",?,R,N"
++ "T@\"<FCNewsAppConfiguration>\",?,R,N"
++ "T@\"<FCNewsAppConfiguration><FCJSONEncodableObjectProviding>\",?,R,N"
++ "T@\"<FCNewsAppConfigurationInternal>\",?,R,N"
++ "T@\"COMAPPLEFELDSPARPROTOCOLLIVERPOOLArticleContentExpiration\",?,R,N"
++ "T@\"FCAppReviewRequestConfig\",?,R,N"
++ "T@\"FCArticleAudioTrack\",?,R,N"
++ "T@\"FCArticleLinkBehaviorConfig\",?,R,N"
++ "T@\"FCArticleModalBrandBarConfig\",?,R,N"
++ "T@\"FCAssetHandle\",?,R,N"
++ "T@\"FCColor\",?,R,N"
++ "T@\"FCEmbedProxyConfiguration\",?,R,N"
++ "T@\"FCHeadlineExperimentalTitleMetadata\",?,R,C,N"
++ "T@\"FCIssue\",?,R,C,N"
++ "T@\"FCLaunchPresentationConfig\",?,R,N"
++ "T@\"FCLocationSharingUpsellConfig\",?,R,N"
++ "T@\"FCNewsPersonalizationConfiguration\",?,R,C,N"
++ "T@\"FCNewsPlusLabelConfigGroup\",?,R,N"
++ "T@\"FCNewsTabiConfiguration\",?,R,C,N"
++ "T@\"FCPaidBundleConfiguration\",?,R,N"
++ "T@\"FCPaidBundleViaOfferConfig\",?,R,N"
++ "T@\"FCPersonalizationPublisherDampeningConfig\",?,R,N"
++ "T@\"FCSmarterMessagingConfig\",?,R,N"
++ "T@\"FCSportsFavoritesSyncModalConfig\",?,R,N"
++ "T@\"FCSportsPrivacyConfiguration\",?,R,N"
++ "T@\"FCSportsUpsellConfig\",?,R,N"
++ "T@\"FCStatelessPersonalizationPublisherFavorability\",?,R,C,N"
++ "T@\"FCTimesOfDayConfiguration\",?,R,C,N"
++ "T@\"NSArray\",?,R,C,N"
++ "T@\"NSArray\",?,R,N"
++ "T@\"NSData\",?,R,N"
++ "T@\"NSDate\",?,R,N"
++ "T@\"NSDictionary\",?,R,C,N"
++ "T@\"NSDictionary\",?,R,N"
++ "T@\"NSString\",?,R,C"
++ "T@\"NSString\",?,R,C,N"
++ "T@\"NSString\",?,R,N"
++ "TB,?,R,N"
++ "TB,?,R,N,GisArticleToolbarCompressionEnabled"
++ "TB,?,R,N,GisBundlePaid"
++ "TB,?,R,N,GisIssueOnly"
++ "TB,?,R,N,GisPrivateDataEncryptionRequired"
++ "TB,?,R,N,GshouldProxyURLBucketFetch"
++ "TQ,?,R,N"
++ "Td,?,R,N"
++ "Tq,?,R,N"
++ "_TtC19NewsPersonalization22NewsTabiPackageService"
++ "_TtC19NewsPersonalization25TagSuggestionsDataService"
++ "_TtC19NewsPersonalization28NewsTabiConfigurationManager"
++ "_TtC19NewsPersonalization32TabiScoringContextEventProcessor"
++ "appAnalyticsAppHeartbeatEndpointUrlForEnvironment:"
++ "audioPlaylistSweepListeningPercentageThreshold"
++ "audioPlaylistSweepRecencyThresholdInDays"
++ "bundleSubscriptionIsSubscribedProvider"
++ "channelScoresOutputName"
++ "channels topics "
++ "com.apple.newspersonalization.tabiScoringContextQueue"
++ "foregroundHeartbeatEventEnabled"
++ "tagSuggestionsConfiguration"
++ "topicIDsOutputName"
++ "topicScoresOutputName"
++ "workService"
++ "workServiceDataProvider"
+- " for request ID "
+- "Asked to prepare user features, but no global graph"
+- "Asked to prepare, but there's no loaded configuration."
+- "Attempting to add entry to journal"
+- "Attempting to add entry with %{public}@ scores to journal"
+- "Attempting to build user features"
+- "Attempting to prepare user features"
+- "Clearing Scoring Journal at %{public}@"
+- "Clearing Tabi Journal at %{public}@"
+- "Created product for ID %{public}@"
+- "Deleting assets at %{public}@"
+- "Encoded entry as %{public}@, attempting to write to %{public}@"
+- "Encoded user features for cache with size %{public}@"
+- "Encoding user features %{public}@"
+- "Error fetching cached user features: %{public}@"
+- "Event Aggregation"
+- "FCPPTContext"
+- "Factory failed to make user features with error %{public}@"
+- "Failed attempting to remove entries. Error=%{public}@"
+- "Failed to cast json object from Data on load work as [AnyHashable: Any]"
+- "Failed to create directory for caching user features: %{public}@"
+- "Failed to create directory for scoring journals at %{public}@ with error=%{public}@"
+- "Failed to create directory for tabi journals at %{public}@ with error=%{public}@"
+- "Failed to decode entry from file at %{public}@. Error=%{public}@"
+- "Failed to decode entry listing from identifier %{public}@. Error=%{public}@"
+- "Failed to delete no longer required tabi asset at %{public}@ with error %{public}@"
+- "Failed to encode user features: %{public}@"
+- "Failed to find loaded tabi configuration at %{public}@. Error=%{public}@"
+- "Failed to get JSON Object from configuration data"
+- "Failed to get creation data for fileURL %{public}@. Error: %{public}@"
+- "Failed to initialize channel picker configuration at launch"
+- "Failed to initialize event aggregation configuration at launch"
+- "Failed to initialize feed personalization configuration at launch"
+- "Failed to initialize global graph %{public}@"
+- "Failed to initialize personalized pay wall configuration at launch"
+- "Failed to initialize recommended issues configuration at launch"
+- "Failed to initialize resource reader %{public}@"
+- "Failed to log entry with error=%{public}@"
+- "Failed to remove no longer required packages. Error=%{public}@"
+- "Failed to run NewsTabiGlobalGraphService.StartupTaskType.run() %{public}@"
+- "Failed to serialize tabi configuration dictionary %{public}@. Error=%{public}@"
+- "Failed to store tabi configuration at %{public}@. Error=%{public}@"
+- "Failed to write user features: %{public}@"
+- "Feed Personalization"
+- "Fetched News Tabi Configuration %{public}@"
+- "Fetched and processed packages without changes in %.0f milliseconds"
+- "Fetched and unzipped tabi packages with changes in %.0f milliseconds"
+- "Fetched configuration matches loaded configuration."
+- "Fetching Tabi Packages"
+- "Fetching package asset ids %{public}@"
+- "Fetching tabi user features"
+- "Finished %{public}@ work for request ID %{public}@ in %.0f milliseconds"
+- "Finished NewsTabiGlobalGraphService.StartupTaskType.run() in %.0f milliseconds"
+- "Finished NewsTabiGlobalGraphService.prepare() in %.0f milliseconds"
+- "Finished fetching and processing tabi packages in %.0f milliseconds"
+- "Finished fetching tabi user features in %.0f milliseconds"
+- "Finished initialization work on graph queue"
+- "Finished preparing user features in %.0f milliseconds"
+- "Found %lu entries, exceeding limit of %lu, evicting %{public}@"
+- "Found %lu entries, not exceeding limit of %lu, nothing to evict"
+- "Found a cached user features of size %{public}@"
+- "Found cached configuration %{public}@"
+- "Found existing tabi packages %{public}@"
+- "Found loaded configuration %{public}@"
+- "Found loaded tabi configuration version %{public}@. Initializing resource reader with baseDirectory=%{public}@ modelsDirectory=%{public}@ computeUnits=%{public}@"
+- "Found new tabi configuration %{public}@, attempting to load."
+- "Found no existing packages to delete"
+- "Found no packages to fetch, installing cached configuration as loaded configuration."
+- "Found non-empty packages to fetch, not installing cached configuration as loaded configuration. packagesToFetch=%{public}@"
+- "Found packages to delete %{public}@"
+- "Generated output for ID %{public}@"
+- "Graph already prepared, skipping preparation."
+- "Initialized with no loaded configuration and got error when checking cached configuration. Error=%{public}@"
+- "Invalid number of keys found, expected one."
+- "Loaded configuration data %{public}@ with size %{public}@"
+- "Loading tabi configuration from %{public}@"
+- "Looking up contents in %{public}@"
+- "Missing loaded configuration, checking for cached configuration"
+- "NewsPersonalization.NewsTabiGlobalGraphService"
+- "NewsPersonalization.NewsTabiJournaler"
+- "Personalized Paywall"
+- "Processing packages %{public}@"
+- "Recommended Issues"
+- "Running %{public}@ work for request ID %{public}@"
+- "Running NewsTabiGlobalGraphService StartupTaskType"
+- "Scheduling work asynchronously for request ID %{public}@"
+- "Scheduling work synchronously for request ID %{public}@"
+- "Serialized configuration %{public}@ with size %{public}@"
+- "Skipping logging %d scores because logging is disabled"
+- "Skipping logging %d scores because we don't log context %{public}@"
+- "Skipping logging failed tabi request %{public}@ because logging is disabled"
+- "Skipping logging for work %{public}@"
+- "Skipping logging tabi load because logging is disabled"
+- "Skipping logging tabi refresh because logging is disabled"
+- "Skipping logging tabi request %{public}@ because logging is disabled"
+- "Startup task attempting to prepare global graph service"
+- "Storing loaded tabi configuration at %{public}@"
+- "Successfully cleared Tabi journal at %{public}@"
+- "Successfully cleared scoring journal at %{public}@"
+- "Successfully logged entry"
+- "Successfully unarchived resources %{public}@"
+- "T@\"<FCHeadlineMetadata>\",R,C,N"
+- "T@\"<FCHeadlineStocksFields>\",R,N"
+- "T@\"<FCNewsAppConfiguration><FCJSONEncodableObjectProviding>\",R,N"
+- "T@\"<FCNewsAppConfigurationInternal>\",R,N"
+- "T@\"COMAPPLEFELDSPARPROTOCOLLIVERPOOLArticleContentExpiration\",R,N"
+- "T@\"FCAppReviewRequestConfig\",R,N"
+- "T@\"FCArticleAudioTrack\",R,N"
+- "T@\"FCArticleLinkBehaviorConfig\",R,N"
+- "T@\"FCArticleModalBrandBarConfig\",R,N"
+- "T@\"FCColor\",R,N"
+- "T@\"FCEmbedProxyConfiguration\",R,N"
+- "T@\"FCHeadlineExperimentalTitleMetadata\",R,C,N"
+- "T@\"FCIssue\",R,C,N"
+- "T@\"FCLaunchPresentationConfig\",R,N"
+- "T@\"FCLocationSharingUpsellConfig\",R,N"
+- "T@\"FCNewsPersonalizationConfiguration\",R,C,N"
+- "T@\"FCNewsPlusLabelConfigGroup\",R,N"
+- "T@\"FCNewsTabiConfiguration\",R,C,N"
+- "T@\"FCPaidBundleConfiguration\",R,N"
+- "T@\"FCPaidBundleViaOfferConfig\",R,N"
+- "T@\"FCPersonalizationPublisherDampeningConfig\",R,N"
+- "T@\"FCSmarterMessagingConfig\",R,N"
+- "T@\"FCSportsFavoritesSyncModalConfig\",R,N"
+- "T@\"FCSportsPrivacyConfiguration\",R,N"
+- "T@\"FCSportsUpsellConfig\",R,N"
+- "T@\"FCStatelessPersonalizationPublisherFavorability\",R,C,N"
+- "T@\"FCTimesOfDayConfiguration\",R,C,N"
+- "T@\"NSString\",&,N"
+- "TB,N,GisPrefetchDisabled"
+- "TB,N,GisRunningPPT"
+- "TB,R,N,GisArticleToolbarCompressionEnabled"
+- "TB,R,N,GisBundlePaid"
+- "TB,R,N,GisIssueOnly"
+- "TB,R,N,GisPrivateDataEncryptionRequired"
+- "TB,R,N,GshouldProxyURLBucketFetch"
+- "TabiUserEventHistoryFeaturesFactory configured with no cache, not attempting to cache user event history features"
+- "TabiUserEventHistoryFeaturesFactory configured with no cache, not attempting to fetch user features"
+- "TabiUserEventHistoryFeaturesFactory with cache, but no cached user feature available. cachedUserFeaturesURL=%{public}@"
+- "There was an error clearing the scoring journal at %{public}@"
+- "There was an error clearing the tabi journal at %{public}@"
+- "Unarchiving resources %{public}@"
+- "Work for request ID %{public}@ is not supported."
+- "Writing user features to %{public}@"
+- "_TtC19NewsPersonalization14ScoringJournal"
+- "_TtC19NewsPersonalization15NewsTabiRequest"
+- "_TtC19NewsPersonalization17NewsTabiJournaler"
+- "_TtC19NewsPersonalization21NewsTabiJournalReader"
+- "_TtC19NewsPersonalization24RecommendedIssuesService"
+- "_TtC19NewsPersonalization26NewsTabiGlobalGraphService"
+- "_TtC19NewsPersonalization30PersonalizedPaywallDataService"
+- "_TtC19NewsPersonalization35TabiUserEventHistoryFeaturesStorage"
+- "cachedUserFeaturesURL"
+- "channelPicker"
+- "channelPickerConfiguration"
+- "com.apple.NewsPersonalization.tabiScoringContextQueue"
+- "com.apple.NewsPersonalization.tabijournaler"
+- "com.apple.news.personalization.tabi.graphPreparation"
+- "cpuAndNeuralEngine"
+- "d_logState"
+- "directory"
+- "encodeUserFeatures"
+- "error"
+- "eventAggregation"
+- "evictionThrottler"
+- "fc_removeContentsOfDirectoryAtURL:"
+- "feedPersonalization"
+- "globalGraph"
+- "globalGraphService"
+- "graphPreparationQueue"
+- "isPrefetchDisabled"
+- "isRunningPPT"
+- "journaler"
+- "lastUserFeatures"
+- "limit"
+- "load"
+- "newsScoringJournalDirectory"
+- "newsTabiJournalDirectory"
+- "outputs"
+- "personalizedPaywall"
+- "prefetchDisabled"
+- "prepared"
+- "preparedUserFeatures"
+- "refresh"
+- "request"
+- "runningPPT"
+- "scoringJournal"
+- "setPrefetchDisabled:"
+- "setRunningPPT:"
+- "setTestName:"
+- "tabiData"
+- "tabiDataProvider"
+- "tabiUserEventHistoryFeaturesFactory"
+- "tabiUserEventHistoryFeaturesStorage"
+- "tabi_user_features"
+- "testName"
+- "unarchiveResources:into:error:"
+- "userFeatures"
+- "userFeaturesKeys"
+- "v16@?0^v8"
+- "v20@0:8B16"
+- "work"
+- "workKind"
+
+```

@@ -1,0 +1,228 @@
+## libswiftShazamKit.dylib
+
+> `/usr/lib/swift/libswiftShazamKit.dylib`
+
+```diff
+
+-236.7.0.0.0
+-  __TEXT.__text: 0x1763c
+-  __TEXT.__auth_stubs: 0xca0
+-  __TEXT.__objc_methlist: 0x7c
+-  __TEXT.__const: 0xb62
+-  __TEXT.__cstring: 0x6ca
+-  __TEXT.__constg_swiftt: 0x3fc
+-  __TEXT.__swift5_typeref: 0x7d6
+-  __TEXT.__swift5_reflstr: 0x2ba
+-  __TEXT.__swift5_fieldmd: 0x300
++236.12.0.0.0
++  __TEXT.__text: 0x1a794
++  __TEXT.__auth_stubs: 0xcc0
++  __TEXT.__objc_methlist: 0xa0
++  __TEXT.__const: 0xbe2
++  __TEXT.__cstring: 0x75a
++  __TEXT.__constg_swiftt: 0x414
++  __TEXT.__swift5_typeref: 0x7f2
++  __TEXT.__swift5_reflstr: 0x329
++  __TEXT.__swift5_fieldmd: 0x348
+   __TEXT.__swift5_builtin: 0x78
+   __TEXT.__swift5_assocty: 0x148
++  __TEXT.__swift5_capture: 0x178
+   __TEXT.__swift5_proto: 0x88
+   __TEXT.__swift5_types: 0x50
+-  __TEXT.__swift5_capture: 0xe4
+   __TEXT.__swift5_mpenum: 0x10
+-  __TEXT.__unwind_info: 0x115c
+-  __TEXT.__eh_frame: 0x9d8
++  __TEXT.__unwind_info: 0x13a4
++  __TEXT.__eh_frame: 0xb58
+   __TEXT.__objc_classname: 0x4f
+-  __TEXT.__objc_methname: 0x4e6
++  __TEXT.__objc_methname: 0x514
+   __TEXT.__objc_methtype: 0x1de
+-  __DATA_CONST.__got: 0x160
++  __DATA_CONST.__got: 0x190
+   __DATA_CONST.__const: 0xa0
+   __DATA_CONST.__objc_classlist: 0x38
+   __DATA_CONST.__objc_catlist: 0x8
+   __DATA_CONST.__objc_protolist: 0x40
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_const: 0x9b0
+-  __DATA_CONST.__objc_selrefs: 0x140
+-  __AUTH_CONST.__const: 0x9a8
++  __DATA_CONST.__objc_const: 0xa30
++  __DATA_CONST.__objc_selrefs: 0x168
++  __AUTH_CONST.__const: 0xac0
+   __AUTH_CONST.__auth_ptr: 0x40
+   __AUTH_CONST.__objc_const: 0x40
+-  __AUTH_CONST.__auth_got: 0x650
+-  __AUTH.__data: 0x5e8
+-  __AUTH.__objc_data: 0x2f8
++  __AUTH_CONST.__auth_got: 0x660
++  __AUTH.__data: 0x608
++  __AUTH.__objc_data: 0x318
+   __DATA.__objc_protorefs: 0x20
+-  __DATA.__objc_classrefs: 0x70
+-  __DATA.__data: 0x730
+-  __DATA.__bss: 0x1130
+-  __DATA.__common: 0x1
++  __DATA.__objc_classrefs: 0x78
++  __DATA.__data: 0x780
++  __DATA.__common: 0x9
++  __DATA.__bss: 0x1140
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/Frameworks/MusicKit.framework/MusicKit
+   - /System/Library/Frameworks/ShazamKit.framework/ShazamKit
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 592
+-  Symbols:   2022
+-  CStrings:  148
++  Functions: 661
++  Symbols:   2159
++  CStrings:  155
+ 
+Symbols:
++ _$s2os21OSAllocatedUnfairLockVAAytRszlE04withD11IfAvailableyqd__Sgqd__yYbKXEKs8SendableRd__lFqd__ytz_tYbKXEfU_yt_Tg5TA.21
++ _$s2os21OSAllocatedUnfairLockVAAytRszlE04withD11IfAvailableyqd__Sgqd__yYbKXEKs8SendableRd__lFqd__ytz_tYbKXEfU_yt_Tg5TA.3
++ _$s2os21OSAllocatedUnfairLockVAAytRszlE04withD11IfAvailableyqd__Sgqd__yYbKXEKs8SendableRd__lFqd__ytz_tYbKXEfU_yt_Tg5TA.35
++ _$s9ShazamKit14SHAsyncLibraryC05mediaD0ACSo08_SHMediaD0C_tcfcyyYaYbKcfU0_
++ _$s9ShazamKit14SHAsyncLibraryC05mediaD0ACSo08_SHMediaD0C_tcfcyyYaYbKcfU0_TA
++ _$s9ShazamKit14SHAsyncLibraryC05mediaD0ACSo08_SHMediaD0C_tcfcyyYaYbKcfU0_TATQ0_
++ _$s9ShazamKit14SHAsyncLibraryC05mediaD0ACSo08_SHMediaD0C_tcfcyyYaYbKcfU0_TATu
++ _$s9ShazamKit14SHAsyncLibraryC05mediaD0ACSo08_SHMediaD0C_tcfcyyYaYbKcfU0_TQ1_
++ _$s9ShazamKit14SHAsyncLibraryC05mediaD0ACSo08_SHMediaD0C_tcfcyyYaYbKcfU0_TQ3_
++ _$s9ShazamKit14SHAsyncLibraryC05mediaD0ACSo08_SHMediaD0C_tcfcyyYaYbKcfU0_TQ5_
++ _$s9ShazamKit14SHAsyncLibraryC05mediaD0ACSo08_SHMediaD0C_tcfcyyYaYbKcfU0_TY0_
++ _$s9ShazamKit14SHAsyncLibraryC05mediaD0ACSo08_SHMediaD0C_tcfcyyYaYbKcfU0_TY2_
++ _$s9ShazamKit14SHAsyncLibraryC05mediaD0ACSo08_SHMediaD0C_tcfcyyYaYbKcfU0_TY4_
++ _$s9ShazamKit14SHAsyncLibraryC05mediaD0ACSo08_SHMediaD0C_tcfcyyYaYbKcfU0_TY6_
++ _$s9ShazamKit14SHAsyncLibraryC05mediaD0ACSo08_SHMediaD0C_tcfcyyYaYbKcfU0_TY7_
++ _$s9ShazamKit14SHAsyncLibraryC05mediaD0ACSo08_SHMediaD0C_tcfcyyYaYbKcfU0_TY8_
++ _$s9ShazamKit14SHAsyncLibraryC05mediaD0ACSo08_SHMediaD0C_tcfcyyYaYbKcfU0_Tu
++ _$s9ShazamKit14SHAsyncLibraryC0cD8DelegateC17_libraryWillBeginyySo07SHMediaD4Sync_pFTf4dn_nTm
++ _$s9ShazamKit14SHAsyncLibraryC0cD8DelegateC17_libraryWillBeginyySo07SHMediaD4Sync_pFTo
++ _$s9ShazamKit14SHAsyncLibraryC0cD8DelegateC17_libraryWillBeginyySo07SHMediaD4Sync_pFToTm
++ _$s9ShazamKit14SHAsyncLibraryC0cD8DelegateC17_libraryWillBeginyySo07SHMediaD4Sync_pFTq
++ _$s9ShazamKit14SHAsyncLibraryC0cD8DelegateC19_libraryDidCompleteyySo07SHMediaD4Sync_pFTo
++ _$s9ShazamKit14SHAsyncLibraryC0cD8DelegateC19_libraryDidCompleteyySo07SHMediaD4Sync_pFTq
++ _$s9ShazamKit14SHAsyncLibraryC0cD8DelegateC8_library_15didProduceError21failedItemIdentifiersySo07SHMediaD4Sync_p_s0I0_pSaySSGtFTf4dndn_n
++ _$s9ShazamKit14SHAsyncLibraryC0cD8DelegateC8_library_15didProduceError21failedItemIdentifiersySo07SHMediaD4Sync_p_s0I0_pSaySSGtFTo
++ _$s9ShazamKit14SHAsyncLibraryC0cD8DelegateC8_library_15didProduceError21failedItemIdentifiersySo07SHMediaD4Sync_p_s0I0_pSaySSGtFTq
++ _$s9ShazamKit14SHAsyncLibraryC17accountChangeTask33_9EAA5663EF89C768BA2E23C663569EE4LLScTyyts5Error_pGSgvpWvd
++ _$s9ShazamKit14SHAsyncLibraryC7UpdatesOWOe
++ _$s9ShazamKit14SHAsyncLibraryC7UpdatesOWOy
++ _$s9ShazamKit14SHAsyncLibraryCfd
++ _$s9ShazamKit16SHManagedSessionC17sendNotificationsSbvWySo02__cD0CzYbXEfU_TA.19
++ _$s9ShazamKit16SHManagedSessionC7catalogACSo9SHCatalogC_tcfcyyScMYccfU_TA
++ _$s9ShazamKit16SHManagedSessionCACycfcyyScMYccfU_TA
++ _$s9ShazamKit16SHManagedSessionCACycfcyyScMYccfU_Tm
++ _$s9ShazamKit28SHManagedSessionStateHandler33_58F89772B279738C9FF3D89D84CAFA63LLC06updateE02toyAA0cD0C0E0O_tFyyYaYbScMYccfU_
++ _$s9ShazamKit28SHManagedSessionStateHandler33_58F89772B279738C9FF3D89D84CAFA63LLC06updateE02toyAA0cD0C0E0O_tFyyYaYbScMYccfU_TA
++ _$s9ShazamKit28SHManagedSessionStateHandler33_58F89772B279738C9FF3D89D84CAFA63LLC06updateE02toyAA0cD0C0E0O_tFyyYaYbScMYccfU_TATQ0_
++ _$s9ShazamKit28SHManagedSessionStateHandler33_58F89772B279738C9FF3D89D84CAFA63LLC06updateE02toyAA0cD0C0E0O_tFyyYaYbScMYccfU_TATu
++ _$s9ShazamKit28SHManagedSessionStateHandler33_58F89772B279738C9FF3D89D84CAFA63LLC06updateE02toyAA0cD0C0E0O_tFyyYaYbScMYccfU_TY0_
++ _$s9ShazamKit28SHManagedSessionStateHandler33_58F89772B279738C9FF3D89D84CAFA63LLC06updateE02toyAA0cD0C0E0O_tFyyYaYbScMYccfU_Tu
++ _$s9ShazamKit28SHManagedSessionStateHandler33_58F89772B279738C9FF3D89D84CAFA63LLC07_updateE02toyAA0cD0C0E0O_tF
++ _$s9ShazamKit28SHManagedSessionStateHandler33_58F89772B279738C9FF3D89D84CAFA63LLC5stateAA0cD0C0E0OvsyyXEfU_TA.51
++ _$s9ShazamKit28SHManagedSessionStateHandler33_58F89772B279738C9FF3D89D84CAFA63LLCAD11Observation10ObservableAAWlTm
++ _$s9ShazamKit31SHManagedSessionWrapperDelegateC015finishedManagedD0yySo0cD0CFTf4dn_n
++ _$s9ShazamKit31SHManagedSessionWrapperDelegateC015finishedManagedD0yySo0cD0CFyyYaYbScMYccfU_
++ _$s9ShazamKit31SHManagedSessionWrapperDelegateC015finishedManagedD0yySo0cD0CFyyYaYbScMYccfU_TA
++ _$s9ShazamKit31SHManagedSessionWrapperDelegateC015finishedManagedD0yySo0cD0CFyyYaYbScMYccfU_TATQ0_
++ _$s9ShazamKit31SHManagedSessionWrapperDelegateC015finishedManagedD0yySo0cD0CFyyYaYbScMYccfU_TATu
++ _$s9ShazamKit31SHManagedSessionWrapperDelegateC015finishedManagedD0yySo0cD0CFyyYaYbScMYccfU_TY0_
++ _$s9ShazamKit31SHManagedSessionWrapperDelegateC015finishedManagedD0yySo0cD0CFyyYaYbScMYccfU_Tu
++ _$s9ShazamKit31SHManagedSessionWrapperDelegateC17cancelledCallbackyyScMYccvpWvd
++ _$s9ShazamKit31SHManagedSessionWrapperDelegateC17cancelledCallbackyyScMYccvpfiyyScMYccfU_
++ _$s9ShazamKit31SHManagedSessionWrapperDelegateC30updateSingleResultContinuationyySccySo9SHSessionCAAE0I0Os5NeverOGSgFyyYbXEfU_TA.34
++ _$s9ShazamKit31SHManagedSessionWrapperDelegateCACycfc
++ _$s9ShazamKit9SHLibraryC10isUpdatingSbvg
++ _$s9ShazamKit9SHLibraryC10isUpdatingSbvpMV
++ _$s9ShazamKit9SHLibraryC11_isUpdating33_6CFCED4D0CADC8C202F2636045375013LLSbvg
++ _$s9ShazamKit9SHLibraryC11_isUpdating33_6CFCED4D0CADC8C202F2636045375013LLSbvpACTK
++ _$s9ShazamKit9SHLibraryC11_isUpdating33_6CFCED4D0CADC8C202F2636045375013LLSbvsyyXEfU_TA
++ _$s9ShazamKit9SHLibraryC11_isUpdating33_6CFCED4D0CADC8C202F2636045375013LLSbvsyyXEfU_TA.44
++ _$s9ShazamKit9SHLibraryC11isEncryptedSbvg
++ _$s9ShazamKit9SHLibraryC11isEncryptedSbvpMV
++ _$s9ShazamKit9SHLibraryC12__isUpdating33_6CFCED4D0CADC8C202F2636045375013LLSbvpWvd
++ _$s9ShazamKit9SHLibraryC12_isEncrypted33_6CFCED4D0CADC8C202F2636045375013LLSbvg
++ _$s9ShazamKit9SHLibraryC12_isEncrypted33_6CFCED4D0CADC8C202F2636045375013LLSbvpACTK
++ _$s9ShazamKit9SHLibraryC12_isEncrypted33_6CFCED4D0CADC8C202F2636045375013LLSbvpACTkTm
++ _$s9ShazamKit9SHLibraryC12_isEncrypted33_6CFCED4D0CADC8C202F2636045375013LLSbvsyyXEfU_TA
++ _$s9ShazamKit9SHLibraryC12_isEncrypted33_6CFCED4D0CADC8C202F2636045375013LLSbvsyyXEfU_TA.39
++ _$s9ShazamKit9SHLibraryC13__isEncrypted33_6CFCED4D0CADC8C202F2636045375013LLSbvpWvd
++ _$s9ShazamKit9SHLibraryC14processUpdates33_6CFCED4D0CADC8C202F2636045375013LLyyAA14SHAsyncLibraryC0E0OF
++ _$s9ShazamKit9SHLibraryC14syncUpdateTask33_6CFCED4D0CADC8C202F2636045375013LLScTyyts5NeverOGSgvsyyXEfU_TA.29
++ _$s9ShazamKit9SHLibraryC20localizedAttribution3forSSSgSo11SHMediaItemC_tFZ
++ _$s9ShazamKit9SHLibraryC7itemSet33_6CFCED4D0CADC8C202F2636045375013LLShySo11SHMediaItemCGvsyyXEfU_TA.40
++ _$s9ShazamKit9SHLibraryC7itemSet33_6CFCED4D0CADC8C202F2636045375013LLShySo11SHMediaItemCGvsyyXEfU_TA.41
++ _$s9ShazamKit9SHLibraryC7itemSet33_6CFCED4D0CADC8C202F2636045375013LLShySo11SHMediaItemCGvsyyXEfU_TA.42
++ _$s9ShazamKit9SHLibraryC7itemSet33_6CFCED4D0CADC8C202F2636045375013LLShySo11SHMediaItemCGvsyyXEfU_TA.43
++ _$s9ShazamKit9SHLibraryC8syncTask33_6CFCED4D0CADC8C202F2636045375013LLScTyyts5Error_pGSgvsyyXEfU_TA.34
++ _$sIeghH_ytIeghHr_TR
++ _$sIeghH_ytIeghHr_TRTA
++ _$sIeghH_ytIeghHr_TRTATQ0_
++ _$sIeghH_ytIeghHr_TRTATu
++ _$sIeghH_ytIeghHr_TRTQ0_
++ _$sIeghH_ytIeghHr_TRTu
++ _$sSbN
++ _$sShyShyxGqd__nc7ElementQyd__RszSTRd__lufCSo11SHMediaItemC_SayAEGTg5Tf4gn_n
++ _$sSo11SHMediaItemCMaTm
++ _$sSo11SHMediaItemCSo8NSObjectCSH10ObjectiveCWl
++ _$sSo7NSErrorCML
++ _$ss27_diagnoseUnexpectedEnumCase4types5NeverOxm_tlF
++ _$syycWV
++ _OBJC_CLASS_$_NSError
++ _SHErrorDeviceToDeviceEncryptionKey
++ _SHMediaLibraryAccountChangeNotification
++ _SHMediaLibrarySyncStartConditionInitialFetch
++ _SHMediaLibrarySyncStartConditionRemotePush
++ _block_copy_helper.24
++ _block_copy_helper.31
++ _block_copy_helper.48
++ _block_descriptor.26
++ _block_descriptor.33
++ _block_descriptor.50
++ _block_destroy_helper.25
++ _block_destroy_helper.32
++ _block_destroy_helper.49
++ _objc_retain_x26
++ _objc_retain_x27
++ _symbolic IeghH_
++ _symbolic _____SgXw 9ShazamKit16SHManagedSessionC
++ _symbolic yyScMYcc
+- _$s2os21OSAllocatedUnfairLockVAAytRszlE04withD11IfAvailableyqd__Sgqd__yYbKXEKs8SendableRd__lFqd__ytz_tYbKXEfU_yt_Tg5TA.19
+- _$s2os21OSAllocatedUnfairLockVAAytRszlE04withD11IfAvailableyqd__Sgqd__yYbKXEKs8SendableRd__lFqd__ytz_tYbKXEfU_yt_Tg5TA.2
+- _$s2os21OSAllocatedUnfairLockVAAytRszlE04withD11IfAvailableyqd__Sgqd__yYbKXEKs8SendableRd__lFqd__ytz_tYbKXEfU_yt_Tg5TA.31
+- _$s9ShazamKit16SHManagedSessionC17sendNotificationsSbvWySo02__cD0CzYbXEfU_TA.18
+- _$s9ShazamKit16SHManagedSessionC7catalogACSo9SHCatalogC_tcfcTf4gn_n
+- _$s9ShazamKit28SHManagedSessionStateHandler33_58F89772B279738C9FF3D89D84CAFA63LLC5stateAA0cD0C0E0OvsyyXEfU_TA.35
+- _$s9ShazamKit28SHManagedSessionStateHandler33_58F89772B279738C9FF3D89D84CAFA63LLCAD11Observation10ObservableAAWl
+- _$s9ShazamKit31SHManagedSessionWrapperDelegateC30updateSingleResultContinuationyySccySo9SHSessionCAAE0I0Os5NeverOGSgFyyYbXEfU_TA.30
+- _$s9ShazamKit9SHLibraryC14syncUpdateTask33_6CFCED4D0CADC8C202F2636045375013LLScTyyts5NeverOGSgvsyyXEfU_TA.21
+- _$s9ShazamKit9SHLibraryC7itemSet33_6CFCED4D0CADC8C202F2636045375013LLShySo11SHMediaItemCGvsyyXEfU_TA.32
+- _$s9ShazamKit9SHLibraryC7itemSet33_6CFCED4D0CADC8C202F2636045375013LLShySo11SHMediaItemCGvsyyXEfU_TA.33
+- _$s9ShazamKit9SHLibraryC7itemSet33_6CFCED4D0CADC8C202F2636045375013LLShySo11SHMediaItemCGvsyyXEfU_TA.34
+- _$s9ShazamKit9SHLibraryC7itemSet33_6CFCED4D0CADC8C202F2636045375013LLShySo11SHMediaItemCGvsyyXEfU_TA.35
+- _$s9ShazamKit9SHLibraryC8syncTask33_6CFCED4D0CADC8C202F2636045375013LLScTyyts5Error_pGSgvsyyXEfU_TA.26
+- _block_copy_helper.21
+- _block_copy_helper.27
+- _block_copy_helper.32
+- _block_descriptor.23
+- _block_descriptor.29
+- _block_descriptor.34
+- _block_destroy_helper.22
+- _block_destroy_helper.28
+- _block_destroy_helper.33
+- _objc_retain_x2
+CStrings:
++ "__isEncrypted"
++ "__isUpdating"
++ "_localizedAttributionForLibraryItem:"
++ "accountChangeTask"
++ "cancelledCallback"
++ "userInfo"
+
+```

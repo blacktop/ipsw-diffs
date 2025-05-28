@@ -1,0 +1,228 @@
+## IntelligencePlatformCompute
+
+> `/System/Library/PrivateFrameworks/IntelligencePlatformCompute.framework/IntelligencePlatformCompute`
+
+```diff
+
+-123.2.8.0.0
+-  __TEXT.__text: 0x31a8
+-  __TEXT.__auth_stubs: 0x610
++123.5.23.1.0
++  __TEXT.__text: 0x3a00
++  __TEXT.__auth_stubs: 0x680
+   __TEXT.__objc_methlist: 0x14c
+-  __TEXT.__const: 0x1c8
++  __TEXT.__const: 0x228
+   __TEXT.__gcc_except_tab: 0xb4
+-  __TEXT.__cstring: 0x49d
++  __TEXT.__cstring: 0x73d
+   __TEXT.__oslogstring: 0x1cc
+-  __TEXT.__constg_swiftt: 0x1a0
+-  __TEXT.__swift5_typeref: 0x93
+-  __TEXT.__swift5_fieldmd: 0xb8
+-  __TEXT.__swift5_reflstr: 0x54
+-  __TEXT.__swift5_proto: 0x4
+-  __TEXT.__swift5_types: 0x1c
+-  __TEXT.__unwind_info: 0x1f4
+-  __TEXT.__eh_frame: 0x208
++  __TEXT.__constg_swiftt: 0x1e8
++  __TEXT.__swift5_typeref: 0x95
++  __TEXT.__swift5_fieldmd: 0xd4
++  __TEXT.__swift5_reflstr: 0x64
++  __TEXT.__swift5_proto: 0x8
++  __TEXT.__swift5_types: 0x20
++  __TEXT.__unwind_info: 0x220
++  __TEXT.__eh_frame: 0x230
+   __TEXT.__objc_classname: 0x6d
+-  __TEXT.__objc_methname: 0x305
+-  __TEXT.__objc_methtype: 0xff
++  __TEXT.__objc_methname: 0x326
++  __TEXT.__objc_methtype: 0x10f
+   __TEXT.__objc_stubs: 0x220
+-  __DATA_CONST.__got: 0x88
++  __DATA_CONST.__got: 0x80
+   __DATA_CONST.__const: 0x1b8
+-  __DATA_CONST.__objc_classlist: 0x48
++  __DATA_CONST.__objc_classlist: 0x50
+   __DATA_CONST.__objc_protolist: 0x18
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_const: 0x578
++  __DATA_CONST.__objc_const: 0x630
+   __DATA_CONST.__objc_selrefs: 0xe0
+-  __AUTH_CONST.__objc_const: 0x168
++  __DATA_CONST.__objc_protorefs: 0x10
++  __DATA_CONST.__objc_classrefs: 0x60
++  __DATA_CONST.__objc_superrefs: 0x8
++  __AUTH_CONST.__objc_const: 0x120
+   __AUTH_CONST.__cfstring: 0x20
+-  __AUTH_CONST.__const: 0x80
++  __AUTH_CONST.__const: 0x90
+   __AUTH_CONST.__auth_ptr: 0x8
+-  __AUTH_CONST.__auth_got: 0x318
+-  __AUTH.__data: 0x210
+-  __AUTH.__objc_data: 0xf8
+-  __DATA.__objc_protorefs: 0x10
+-  __DATA.__objc_classrefs: 0x60
+-  __DATA.__objc_superrefs: 0x8
++  __AUTH_CONST.__auth_got: 0x350
++  __AUTH.__data: 0x2b0
++  __AUTH.__objc_data: 0x148
+   __DATA.__objc_ivar: 0x8
+-  __DATA.__data: 0x118
+-  __DATA.__common: 0x1
++  __DATA.__data: 0x120
++  __DATA.__common: 0x9
++  __DATA.__bss: 0x90
+   __DATA_DIRTY.__objc_data: 0x108
+   __DATA_DIRTY.__data: 0x180
+   __DATA_DIRTY.__bss: 0x90
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 107
+-  Symbols:   546
+-  CStrings:  84
++  Functions: 116
++  Symbols:   584
++  CStrings:  99
+ 
+Symbols:
++ _$s24IntelligencePlatformCore13ConfigurationVMa
++ _$s24IntelligencePlatformCore13ConfigurationVMn
++ _$s24IntelligencePlatformCore23ViewOrchestrationSystemO13sourceUpdater6configAA0D6UpdateO06SourceH0CAA13ConfigurationV_tKFZ
++ _$s24IntelligencePlatformCore23ViewOrchestrationSystemO5start24viewUpdateRunnerProviderAA13ConfigurationVAA0di10GenerationjK0_p_tFZ
++ _$s24IntelligencePlatformCore34ViewUpdateGenerationRunnerProviderMp
++ _$s24IntelligencePlatformCore34ViewUpdateGenerationRunnerProviderP6runner3forAA0defG0_pAA13ConfigurationV_tKFTq
++ _$s27IntelligencePlatformCompute0C13OrchestrationC10ViewRunnerC14computeServiceAESo010GDCComputeH0C_tcfCTq
++ _$s27IntelligencePlatformCompute0C13OrchestrationC10ViewRunnerCAE0aB4Core0e16UpdateGenerationF0AAWlTm
++ _$s27IntelligencePlatformCompute0C13OrchestrationC13EventReporterC12streamPruned0G10Identifier10remoteNameySS_SSSgtKF
++ _$s27IntelligencePlatformCompute0C13OrchestrationC13EventReporterC12streamPruned0G10Identifier10remoteNameySS_SSSgtKFTo
++ _$s27IntelligencePlatformCompute0C13OrchestrationC13EventReporterC13streamUpdated0G10Identifier10remoteNameySS_SSSgtKF
++ _$s27IntelligencePlatformCompute0C13OrchestrationC13EventReporterC13streamUpdated0G10Identifier10remoteNameySS_SSSgtKFTm
++ _$s27IntelligencePlatformCompute0C13OrchestrationC13EventReporterC13streamUpdated0G10Identifier10remoteNameySS_SSSgtKFTo
++ _$s27IntelligencePlatformCompute0C13OrchestrationC13EventReporterC13streamUpdated0G10Identifier10remoteNameySS_SSSgtKFToTm
++ _$s27IntelligencePlatformCompute0C13OrchestrationC13EventReporterC14streamDeletion0G10Identifier10remoteNameySS_SSSgtKF
++ _$s27IntelligencePlatformCompute0C13OrchestrationC13EventReporterC14streamDeletion0G10Identifier10remoteNameySS_SSSgtKFTo
++ _$s27IntelligencePlatformCompute0C13OrchestrationC13EventReporterC25annotatedStreamIdentifier06streamI010remoteNameS2S_SSSgtFTf4nnd_n
++ _$s27IntelligencePlatformCompute0C13OrchestrationC13EventReporterC6config0aB4Core13ConfigurationVvpWvd
++ _$s27IntelligencePlatformCompute0C13OrchestrationC13EventReporterC6configAE0aB4Core13ConfigurationV_tcfCTq
++ _$s27IntelligencePlatformCompute0C13OrchestrationC13EventReporterCMU
++ _$s27IntelligencePlatformCompute0C13OrchestrationC13EventReporterCMl
++ _$s27IntelligencePlatformCompute0C13OrchestrationC13EventReporterCMr
++ _$s27IntelligencePlatformCompute0C13OrchestrationC17NullEventReporterC12streamPruned0H10Identifier10remoteNameySS_SSSgtKF
++ _$s27IntelligencePlatformCompute0C13OrchestrationC17NullEventReporterC12streamPruned0H10Identifier10remoteNameySS_SSSgtKFTo
++ _$s27IntelligencePlatformCompute0C13OrchestrationC17NullEventReporterC13streamUpdated0H10Identifier10remoteNameySS_SSSgtKF
++ _$s27IntelligencePlatformCompute0C13OrchestrationC17NullEventReporterC13streamUpdated0H10Identifier10remoteNameySS_SSSgtKFTf4ndd_nTm
++ _$s27IntelligencePlatformCompute0C13OrchestrationC17NullEventReporterC13streamUpdated0H10Identifier10remoteNameySS_SSSgtKFTo
++ _$s27IntelligencePlatformCompute0C13OrchestrationC17NullEventReporterC13streamUpdated0H10Identifier10remoteNameySS_SSSgtKFToTm
++ _$s27IntelligencePlatformCompute0C13OrchestrationC17NullEventReporterC14streamDeletion0H10Identifier10remoteNameySS_SSSgtKF
++ _$s27IntelligencePlatformCompute0C13OrchestrationC17NullEventReporterC14streamDeletion0H10Identifier10remoteNameySS_SSSgtKFTo
++ _$s27IntelligencePlatformCompute0C13OrchestrationC18ViewRunnerProviderC0aB4Core0e16UpdateGenerationfG0AAMc
++ _$s27IntelligencePlatformCompute0C13OrchestrationC18ViewRunnerProviderC0aB4Core0e16UpdateGenerationfG0AAMcMK
++ _$s27IntelligencePlatformCompute0C13OrchestrationC18ViewRunnerProviderC0aB4Core0e16UpdateGenerationfG0AafGP6runner3forAF0eijF0_pAF13ConfigurationV_tKFTW
++ _$s27IntelligencePlatformCompute0C13OrchestrationC18ViewRunnerProviderC6runner3for0aB4Core0e16UpdateGenerationF0_pAH13ConfigurationV_tF
++ _$s27IntelligencePlatformCompute0C13OrchestrationC18ViewRunnerProviderC7serviceSo17GDCComputeServiceCvpWvd
++ _$s27IntelligencePlatformCompute0C13OrchestrationC18ViewRunnerProviderCAE0aB4Core0e16UpdateGenerationfG0AAWL
++ _$s27IntelligencePlatformCompute0C13OrchestrationC18ViewRunnerProviderCAEycfCTq
++ _$s27IntelligencePlatformCompute0C13OrchestrationC18ViewRunnerProviderCMF
++ _$s27IntelligencePlatformCompute0C13OrchestrationC18ViewRunnerProviderCMa
++ _$s27IntelligencePlatformCompute0C13OrchestrationC18ViewRunnerProviderCMf
++ _$s27IntelligencePlatformCompute0C13OrchestrationC18ViewRunnerProviderCMm
++ _$s27IntelligencePlatformCompute0C13OrchestrationC18ViewRunnerProviderCMn
++ _$s27IntelligencePlatformCompute0C13OrchestrationC18ViewRunnerProviderCMo
++ _$s27IntelligencePlatformCompute0C13OrchestrationC18ViewRunnerProviderCMu
++ _$s27IntelligencePlatformCompute0C13OrchestrationC18ViewRunnerProviderCN
++ _$s27IntelligencePlatformCompute0C13OrchestrationC18ViewRunnerProviderCfD
++ _$s27IntelligencePlatformCompute0C13OrchestrationC18ViewRunnerProviderCfd
++ _$s27IntelligencePlatformCompute0C13OrchestrationC20WrappedEventReporter33_3322AEB0779B497A03F019FA9A09F7BFLLC12streamPruned0P10Identifier10remoteNameySS_SSSgtKFTo
++ _$s27IntelligencePlatformCompute0C13OrchestrationC20WrappedEventReporter33_3322AEB0779B497A03F019FA9A09F7BFLLC13streamUpdated0P10Identifier10remoteNameySS_SSSgtKFTm
++ _$s27IntelligencePlatformCompute0C13OrchestrationC20WrappedEventReporter33_3322AEB0779B497A03F019FA9A09F7BFLLC13streamUpdated0P10Identifier10remoteNameySS_SSSgtKFTo
++ _$s27IntelligencePlatformCompute0C13OrchestrationC20WrappedEventReporter33_3322AEB0779B497A03F019FA9A09F7BFLLC13streamUpdated0P10Identifier10remoteNameySS_SSSgtKFToTm
++ _$s27IntelligencePlatformCompute0C13OrchestrationC20WrappedEventReporter33_3322AEB0779B497A03F019FA9A09F7BFLLC14streamDeletion0P10Identifier10remoteNameySS_SSSgtKFTo
++ _$sSS6appendyySSF
++ _$sSp14moveInitialize4from5countySpyxG_SitFs5UInt8V_Tgq5
++ _$sSw10copyMemory4fromySW_tF
++ _$ss17_assertionFailure__4file4line5flagss5NeverOs12StaticStringV_A2HSus6UInt32VtF
++ _$ss18_fatalErrorMessage__4file4line5flagss5NeverOs12StaticStringV_A2HSus6UInt32VtF
++ _$ss22_ContiguousArrayBufferV19_uninitializedCount15minimumCapacityAByxGSi_SitcfCs5UInt8V_Tgmq5
++ __DATA__TtCC27IntelligencePlatformCompute20ComputeOrchestration18ViewRunnerProvider
++ __IVARS__TtCC27IntelligencePlatformCompute20ComputeOrchestration18ViewRunnerProvider
++ __METACLASS_DATA__TtCC27IntelligencePlatformCompute20ComputeOrchestration18ViewRunnerProvider
++ __PROTOCOLS_GDNullEventReporter.34
++ __PROTOCOLS__TtCC27IntelligencePlatformCompute20ComputeOrchestration13EventReporter.27
++ __PROTOCOLS__TtCC27IntelligencePlatformCompute20ComputeOrchestrationP33_3322AEB0779B497A03F019FA9A09F7BF20WrappedEventReporter.39
++ _objc_retain
++ _objc_retain_x24
++ _swift_getSingletonMetadata
++ _swift_updateClassMetadata2
++ _symbolic _____ 24IntelligencePlatformCore13ConfigurationV
++ _symbolic _____ 27IntelligencePlatformCompute0C13OrchestrationC18ViewRunnerProviderC
+- _$s20IntelligencePlatform5GDLogO4view2os6LoggerVvgZ
+- _$s24IntelligencePlatformCore10ViewUpdateO13SourceUpdaterCMn
+- _$s24IntelligencePlatformCore23ViewOrchestrationSystemO5start16viewUpdateRunnerAA0dI0O13SourceUpdaterCSgAA0di10GenerationJ0_p_tFZ
+- _$s27IntelligencePlatformCompute0C13OrchestrationC10ViewRunnerCAE0aB4Core0e16UpdateGenerationF0AAWl
+- _$s27IntelligencePlatformCompute0C13OrchestrationC10ViewRunnerCAEycfCTq
+- _$s27IntelligencePlatformCompute0C13OrchestrationC13EventReporterC12biomeUpdaterAEs8Sendable_0aB4Core10ViewUpdateO06SourceH0CXc_tcfCTq
+- _$s27IntelligencePlatformCompute0C13OrchestrationC13EventReporterC12biomeUpdaters8Sendable_0aB4Core10ViewUpdateO06SourceH0CXcvpWvd
+- _$s27IntelligencePlatformCompute0C13OrchestrationC13EventReporterC12streamPruned0G10IdentifierySS_tKF
+- _$s27IntelligencePlatformCompute0C13OrchestrationC13EventReporterC12streamPruned0G10IdentifierySS_tKFTo
+- _$s27IntelligencePlatformCompute0C13OrchestrationC13EventReporterC13streamUpdated0G10IdentifierySS_tKF
+- _$s27IntelligencePlatformCompute0C13OrchestrationC13EventReporterC13streamUpdated0G10IdentifierySS_tKFTo
+- _$s27IntelligencePlatformCompute0C13OrchestrationC13EventReporterC13streamUpdated0G10IdentifierySS_tKFToTm
+- _$s27IntelligencePlatformCompute0C13OrchestrationC13EventReporterC14streamDeletion0G10IdentifierySS_tKF
+- _$s27IntelligencePlatformCompute0C13OrchestrationC13EventReporterC14streamDeletion0G10IdentifierySS_tKFTo
+- _$s27IntelligencePlatformCompute0C13OrchestrationC16startDeviceReady33_3322AEB0779B497A03F019FA9A09F7BFLLSo19BMViewEventReporter_pyFZTf4d_n
+- _$s27IntelligencePlatformCompute0C13OrchestrationC17NullEventReporterC12streamPruned0H10IdentifierySS_tKF
+- _$s27IntelligencePlatformCompute0C13OrchestrationC17NullEventReporterC12streamPruned0H10IdentifierySS_tKFTo
+- _$s27IntelligencePlatformCompute0C13OrchestrationC17NullEventReporterC13streamUpdated0H10IdentifierySS_tKF
+- _$s27IntelligencePlatformCompute0C13OrchestrationC17NullEventReporterC13streamUpdated0H10IdentifierySS_tKFTf4nd_nTm
+- _$s27IntelligencePlatformCompute0C13OrchestrationC17NullEventReporterC13streamUpdated0H10IdentifierySS_tKFTo
+- _$s27IntelligencePlatformCompute0C13OrchestrationC17NullEventReporterC13streamUpdated0H10IdentifierySS_tKFToTm
+- _$s27IntelligencePlatformCompute0C13OrchestrationC17NullEventReporterC14streamDeletion0H10IdentifierySS_tKF
+- _$s27IntelligencePlatformCompute0C13OrchestrationC17NullEventReporterC14streamDeletion0H10IdentifierySS_tKFTo
+- _$s27IntelligencePlatformCompute0C13OrchestrationC17NullEventReporterCAEycfCTm
+- _$s27IntelligencePlatformCompute0C13OrchestrationC20WrappedEventReporter33_3322AEB0779B497A03F019FA9A09F7BFLLC12streamPruned0P10IdentifierySS_tKFTo
+- _$s27IntelligencePlatformCompute0C13OrchestrationC20WrappedEventReporter33_3322AEB0779B497A03F019FA9A09F7BFLLC13streamUpdated0P10IdentifierySS_tKFTm
+- _$s27IntelligencePlatformCompute0C13OrchestrationC20WrappedEventReporter33_3322AEB0779B497A03F019FA9A09F7BFLLC13streamUpdated0P10IdentifierySS_tKFTo
+- _$s27IntelligencePlatformCompute0C13OrchestrationC20WrappedEventReporter33_3322AEB0779B497A03F019FA9A09F7BFLLC13streamUpdated0P10IdentifierySS_tKFToTm
+- _$s27IntelligencePlatformCompute0C13OrchestrationC20WrappedEventReporter33_3322AEB0779B497A03F019FA9A09F7BFLLC14streamDeletion0P10IdentifierySS_tKFTo
+- _$sSo13os_log_type_ta0A0E5errorABvgZ
+- _$ss22_ContiguousArrayBufferV19_uninitializedCount15minimumCapacityAByxGSi_SitcfCs5UInt8V_Tgq5Tf4nnd_n
+- __PROTOCOLS_GDNullEventReporter.32
+- __PROTOCOLS__TtCC27IntelligencePlatformCompute20ComputeOrchestration13EventReporter.24
+- __PROTOCOLS__TtCC27IntelligencePlatformCompute20ComputeOrchestrationP33_3322AEB0779B497A03F019FA9A09F7BF20WrappedEventReporter.38
+- _objc_release_x24
+- _symbolic y_____Xc 24IntelligencePlatformCore10ViewUpdateO13SourceUpdaterC
+CStrings:
++ "B40@0:8@\"NSString\"16@\"NSString\"24^@32"
++ "B40@0:8@16@24^@32"
++ "Fatal error"
++ "Insufficient space allocated to copy string contents"
++ "Swift/ContiguousArrayBuffer.swift"
++ "Swift/StringTesting.swift"
++ "Swift/StringUTF8View.swift"
++ "Swift/UnsafeBufferPointer.swift"
++ "Swift/UnsafePointer.swift"
++ "Swift/UnsafeRawPointer.swift"
++ "Unexpectedly found nil while unwrapping an Optional value"
++ "UnsafeMutableBufferPointer with negative count"
++ "UnsafeMutablePointer.initialize overlapping range"
++ "UnsafeMutablePointer.moveInitialize with negative count"
++ "UnsafeMutableRawPointer.initializeMemory overlapping range"
++ "_TtCC27IntelligencePlatformCompute20ComputeOrchestration18ViewRunnerProvider"
++ "config"
++ "invalid Collection: less than 'count' elements in collection"
++ "service"
++ "streamDeletionWithStreamIdentifier:remoteName:error:"
++ "streamPrunedWithStreamIdentifier:remoteName:error:"
++ "streamUpdatedWithStreamIdentifier:remoteName:error:"
+- "B32@0:8@\"NSString\"16^@24"
+- "B32@0:8@16^@24"
+- "ComputeOrchestration: Could not start up IntelligencePlatformCore"
+- "biomeUpdater"
+- "streamDeletionWithStreamIdentifier:error:"
+- "streamPrunedWithStreamIdentifier:error:"
+- "streamUpdatedWithStreamIdentifier:error:"
+
+```

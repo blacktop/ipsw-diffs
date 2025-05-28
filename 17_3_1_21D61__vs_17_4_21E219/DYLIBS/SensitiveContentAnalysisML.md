@@ -1,0 +1,98 @@
+## SensitiveContentAnalysisML
+
+> `/System/Library/PrivateFrameworks/SensitiveContentAnalysisML.framework/SensitiveContentAnalysisML`
+
+```diff
+
+-35.2.1.0.0
+-  __TEXT.__text: 0x12718
++35.2.2.0.0
++  __TEXT.__text: 0x1280c
+   __TEXT.__auth_stubs: 0x970
+   __TEXT.__objc_methlist: 0xdec
+   __TEXT.__const: 0x98
+-  __TEXT.__gcc_except_tab: 0x1b5c
++  __TEXT.__gcc_except_tab: 0x1b4c
+   __TEXT.__cstring: 0xab5
+   __TEXT.__oslogstring: 0x422
+   __TEXT.__dlopen_cstrs: 0x4e
+-  __TEXT.__unwind_info: 0x860
++  __TEXT.__unwind_info: 0x850
+   __TEXT.__eh_frame: 0x38
+   __TEXT.__objc_classname: 0x26e
+   __TEXT.__objc_methname: 0x2879
+
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_const: 0x1710
+   __DATA_CONST.__objc_selrefs: 0xa30
++  __DATA_CONST.__objc_classrefs: 0x168
++  __DATA_CONST.__objc_superrefs: 0xa8
+   __DATA_CONST.__objc_arraydata: 0x1c8
+   __AUTH_CONST.__cfstring: 0xfa0
+   __AUTH_CONST.__objc_arrayobj: 0xd8
+   __AUTH_CONST.__objc_const: 0x0
+   __AUTH_CONST.__objc_intobj: 0x108
+   __AUTH_CONST.__auth_got: 0x4d0
+-  __DATA.__objc_classrefs: 0x168
+-  __DATA.__objc_superrefs: 0xa8
+   __DATA.__objc_ivar: 0x160
+   __DATA.__data: 0x1e8
+-  __DATA.__bss: 0x80
++  __DATA.__bss: 0x78
+   __DATA.__common: 0x30
+   __DATA_DIRTY.__const: 0xe0
+   __DATA_DIRTY.__objc_const: 0x990
+   __DATA_DIRTY.__objc_data: 0x820
+-  __DATA_DIRTY.__bss: 0x50
++  __DATA_DIRTY.__bss: 0x58
+   - /System/Library/Frameworks/AVFoundation.framework/AVFoundation
+   - /System/Library/Frameworks/Accelerate.framework/Accelerate
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libperfcheck.dylib
+-  Functions: 400
+-  Symbols:   1778
++  Functions: 398
++  Symbols:   1773
+   CStrings:  796
+ 
+Symbols:
++ __ZNKSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB8ue170006Ev
++ __ZNKSt3__16vectorIN4SCML7BoxInfoENS_9allocatorIS2_EEE20__throw_length_errorB8ue170006Ev
++ __ZNKSt3__16vectorIfNS_9allocatorIfEEE20__throw_length_errorB8ue170006Ev
++ __ZNSt12length_errorC1B8ue170006EPKc
++ __ZNSt3__111__introsortINS_17_ClassicAlgPolicyERN4SCML12_GLOBAL__N_132BoxDataDescendingScoreComparatorEPNS2_7BoxInfoELb0EEEvT1_S8_T0_NS_15iterator_traitsIS8_E15difference_typeEb
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B8ue170006ILi0EEEPKc
++ __ZNSt3__119__allocate_at_leastB8ue170006INS_9allocatorIN4SCML7BoxInfoEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
++ __ZNSt3__119__allocate_at_leastB8ue170006INS_9allocatorIfEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS5_m
++ __ZNSt3__120__throw_length_errorB8ue170006EPKc
++ __ZNSt3__127__insertion_sort_incompleteB8ue170006INS_17_ClassicAlgPolicyERN4SCML12_GLOBAL__N_132BoxDataDescendingScoreComparatorEPNS2_7BoxInfoEEEbT1_S8_T0_
++ __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE16__destroy_vectorclB8ue170006Ev
++ __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE7__clearB8ue170006Ev
++ __ZNSt3__16vectorIfNS_9allocatorIfEEE11__vallocateB8ue170006Em
++ __ZNSt3__17__sort3B8ue170006INS_17_ClassicAlgPolicyERN4SCML12_GLOBAL__N_132BoxDataDescendingScoreComparatorEPNS2_7BoxInfoEEEjT1_S8_S8_T0_
++ __ZNSt3__17__sort4B8ue170006INS_17_ClassicAlgPolicyERN4SCML12_GLOBAL__N_132BoxDataDescendingScoreComparatorEPNS2_7BoxInfoEEEvT1_S8_S8_S8_T0_
++ __ZSt28__throw_bad_array_new_lengthB8ue170006v
+- GCC_except_table50
+- __ZNKSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB7v160006Ev
+- __ZNKSt3__16vectorIN4SCML7BoxInfoENS_9allocatorIS2_EEE20__throw_length_errorB7v160006Ev
+- __ZNKSt3__16vectorIfNS_9allocatorIfEEE20__throw_length_errorB7v160006Ev
+- __ZNSt12length_errorC1B7v160006EPKc
+- __ZNSt3__111__introsortINS_17_ClassicAlgPolicyERN4SCML12_GLOBAL__N_132BoxDataDescendingScoreComparatorEPNS2_7BoxInfoEEEvT1_S8_T0_NS_15iterator_traitsIS8_E15difference_typeE
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B7v160006IDnEEPKc
+- __ZNSt3__119__allocate_at_leastB7v160006INS_9allocatorIN4SCML7BoxInfoEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
+- __ZNSt3__119__allocate_at_leastB7v160006INS_9allocatorIfEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS5_m
+- __ZNSt3__119__sort5_wrap_policyB7v160006INS_17_ClassicAlgPolicyERN4SCML12_GLOBAL__N_132BoxDataDescendingScoreComparatorEPNS2_7BoxInfoEEEjT1_S8_S8_S8_S8_T0_
+- __ZNSt3__120__throw_length_errorB7v160006EPKc
+- __ZNSt3__127__insertion_sort_incompleteIRN4SCML12_GLOBAL__N_132BoxDataDescendingScoreComparatorEPNS1_7BoxInfoEEEbT0_S7_T_
+- __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE16__destroy_vectorclB7v160006Ev
+- __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE7__clearB7v160006Ev
+- __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEED2B7v160006Ev
+- __ZNSt3__16vectorIfNS_9allocatorIfEEE11__vallocateB7v160006Em
+- __ZNSt3__17__sort3B7v160006INS_17_ClassicAlgPolicyERN4SCML12_GLOBAL__N_132BoxDataDescendingScoreComparatorEPNS2_7BoxInfoEEEjT1_S8_S8_T0_
+- __ZNSt3__17__sort4B7v160006INS_17_ClassicAlgPolicyERN4SCML12_GLOBAL__N_132BoxDataDescendingScoreComparatorEPNS2_7BoxInfoEEEjT1_S8_S8_S8_T0_
+- __ZSt28__throw_bad_array_new_lengthB7v160006v
+
+```

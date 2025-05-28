@@ -1,0 +1,3308 @@
+## managedappdistributiond
+
+> `/System/Library/Frameworks/ManagedAppDistribution.framework/Support/managedappdistributiond`
+
+```diff
+
+-1.2.20.0.0
+-  __TEXT.__text: 0x1fac04
+-  __TEXT.__auth_stubs: 0x2f40
+-  __TEXT.__objc_methlist: 0x2c0
+-  __TEXT.__const: 0x1c4c0
++1.4.81.9.6
++  __TEXT.__text: 0x45f04c
++  __TEXT.__auth_stubs: 0x4d00
++  __TEXT.__objc_stubs: 0x19e0
++  __TEXT.__objc_methlist: 0x14ec
++  __TEXT.__const: 0x36268
+   __TEXT.__swift5_entry: 0x8
+-  __TEXT.__swift5_typeref: 0x1ef2
+-  __TEXT.__cstring: 0x73f4
+-  __TEXT.__objc_methname: 0x2a78
+-  __TEXT.__constg_swiftt: 0x2b78
+-  __TEXT.__swift5_protos: 0x28
+-  __TEXT.__swift5_proto: 0x90c
+-  __TEXT.__swift5_types: 0x398
+-  __TEXT.__objc_classname: 0x1bb
+-  __TEXT.__objc_methtype: 0xc14
+-  __TEXT.__unwind_info: 0x63dc
+-  __TEXT.__eh_frame: 0xeb38
+-  __DATA_CONST.__auth_got: 0x17a0
+-  __DATA_CONST.__got: 0x950
+-  __DATA_CONST.__auth_ptr: 0x220
+-  __DATA_CONST.__const: 0x12a68
+-  __DATA_CONST.__objc_classlist: 0x130
+-  __DATA_CONST.__objc_catlist: 0x8
+-  __DATA_CONST.__objc_protolist: 0x120
++  __TEXT.__swift5_typeref: 0x3e9e
++  __TEXT.__cstring: 0x1304b
++  __TEXT.__objc_methname: 0x58fc
++  __TEXT.__constg_swiftt: 0x52a4
++  __TEXT.__swift5_types: 0x778
++  __TEXT.__swift5_protos: 0x5c
++  __TEXT.__swift5_proto: 0x12c0
++  __TEXT.__objc_classname: 0x403
++  __TEXT.__objc_methtype: 0x145d
++  __TEXT.__swift5_types2: 0x4
++  __TEXT.__gcc_except_tab: 0x438
++  __TEXT.__oslogstring: 0x308
++  __TEXT.__dlopen_cstrs: 0xc8
++  __TEXT.__unwind_info: 0xe6b8
++  __TEXT.__eh_frame: 0x25bc0
++  __DATA_CONST.__auth_got: 0x2690
++  __DATA_CONST.__got: 0xff0
++  __DATA_CONST.__auth_ptr: 0x400
++  __DATA_CONST.__const: 0x249a8
++  __DATA_CONST.__cfstring: 0xac0
++  __DATA_CONST.__objc_classlist: 0x2b0
++  __DATA_CONST.__objc_catlist: 0x10
++  __DATA_CONST.__objc_protolist: 0x160
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA.__objc_const: 0x3798
+-  __DATA.__objc_selrefs: 0xa88
+-  __DATA.__objc_protorefs: 0x98
+-  __DATA.__objc_classrefs: 0x218
+-  __DATA.__objc_data: 0xba8
+-  __DATA.__data: 0x8068
+-  __DATA.__bss: 0x12000
+-  __DATA.__common: 0xa38
++  __DATA_CONST.__objc_protorefs: 0xb8
++  __DATA_CONST.__objc_classrefs: 0x3c0
++  __DATA_CONST.__objc_superrefs: 0x78
++  __DATA_CONST.__objc_intobj: 0x18
++  __DATA.__objc_const: 0x6dd0
++  __DATA.__objc_selrefs: 0x1748
++  __DATA.__objc_ivar: 0xcc
++  __DATA.__objc_data: 0x1ce0
++  __DATA.__data: 0xffd8
++  __DATA.__common: 0xb50
++  __DATA.__bss: 0x252f0
+   - /System/Library/Frameworks/Accounts.framework/Accounts
++  - /System/Library/Frameworks/AdAttributionKit.framework/AdAttributionKit
++  - /System/Library/Frameworks/CFNetwork.framework/CFNetwork
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
++  - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+   - /System/Library/Frameworks/CoreServices.framework/CoreServices
+-  - /System/Library/Frameworks/CoreTelephony.framework/CoreTelephony
++  - /System/Library/Frameworks/CoreText.framework/CoreText
+   - /System/Library/Frameworks/CryptoKit.framework/CryptoKit
++  - /System/Library/Frameworks/ExtensionFoundation.framework/ExtensionFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
+   - /System/Library/Frameworks/ManagedAppDistribution.framework/ManagedAppDistribution
++  - /System/Library/Frameworks/MarketplaceKit.framework/MarketplaceKit
+   - /System/Library/Frameworks/Network.framework/Network
+   - /System/Library/Frameworks/Security.framework/Security
+-  - /System/Library/PrivateFrameworks/AppStoreDaemon.framework/AppStoreDaemon
++  - /System/Library/PrivateFrameworks/AppInstallationMetrics.framework/AppInstallationMetrics
+   - /System/Library/PrivateFrameworks/AppleMediaServices.framework/AppleMediaServices
+   - /System/Library/PrivateFrameworks/AssetCacheServices.framework/AssetCacheServices
++  - /System/Library/PrivateFrameworks/AtomicsInternal.framework/AtomicsInternal
++  - /System/Library/PrivateFrameworks/BackBoardServices.framework/BackBoardServices
++  - /System/Library/PrivateFrameworks/BaseBoard.framework/BaseBoard
+   - /System/Library/PrivateFrameworks/BiomePubSub.framework/BiomePubSub
++  - /System/Library/PrivateFrameworks/CoreALD.framework/CoreALD
++  - /System/Library/PrivateFrameworks/CoreAnalytics.framework/CoreAnalytics
++  - /System/Library/PrivateFrameworks/CoreFollowUp.framework/CoreFollowUp
+   - /System/Library/PrivateFrameworks/DMCApps.framework/DMCApps
++  - /System/Library/PrivateFrameworks/EDPSecurity.framework/EDPSecurity
+   - /System/Library/PrivateFrameworks/FrontBoardServices.framework/FrontBoardServices
+   - /System/Library/PrivateFrameworks/IMSharedUtilities.framework/IMSharedUtilities
+   - /System/Library/PrivateFrameworks/InstallCoordination.framework/InstallCoordination
+   - /System/Library/PrivateFrameworks/InstalledContentLibrary.framework/InstalledContentLibrary
++  - /System/Library/PrivateFrameworks/JetEngine.framework/JetEngine
+   - /System/Library/PrivateFrameworks/ManagedConfiguration.framework/ManagedConfiguration
+   - /System/Library/PrivateFrameworks/MobileInstallation.framework/MobileInstallation
+   - /System/Library/PrivateFrameworks/MobileKeyBag.framework/MobileKeyBag
++  - /System/Library/PrivateFrameworks/SoftLinking.framework/SoftLinking
++  - /System/Library/PrivateFrameworks/SpringBoardServices.framework/SpringBoardServices
+   - /System/Library/PrivateFrameworks/StreamingZip.framework/StreamingZip
+   - /System/Library/PrivateFrameworks/UIKitCore.framework/UIKitCore
+-  - /System/Library/PrivateFrameworks/UserManagement.framework/UserManagement
++  - /System/Library/PrivateFrameworks/UIKitServices.framework/UIKitServices
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libbsm.0.dylib
+   - /usr/lib/libobjc.A.dylib
++  - /usr/lib/libsqlite3.dylib
+   - /usr/lib/swift/libswiftAVFoundation.dylib
+   - /usr/lib/swift/libswiftAccelerate.dylib
+   - /usr/lib/swift/libswiftCompression.dylib
+
+   - /usr/lib/swift/libswiftVision.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
++  - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 6745
+-  Symbols:   1464
+-  CStrings:  1262
++  Functions: 16088
++  Symbols:   2201
++  CStrings:  3023
+ 
+Symbols:
++ _$s10Foundation10URLRequestV10httpMethodSSSgvg
++ _$s10Foundation10URLRequestV16debugDescriptionSSvg
++ _$s10Foundation10URLRequestV19allHTTPHeaderFieldsSDyS2SGSgvg
++ _$s10Foundation10URLRequestV5value18forHTTPHeaderFieldSSSgSS_tF
++ _$s10Foundation10URLRequestV8httpBodyAA4DataVSgvg
++ _$s10Foundation10URLRequestVMn
++ _$s10Foundation11JSONDecoderC19KeyDecodingStrategyO20convertFromSnakeCaseyA2EmFWC
++ _$s10Foundation11JSONDecoderC19KeyDecodingStrategyOMa
++ _$s10Foundation11JSONDecoderC19keyDecodingStrategyAC03KeydE0OvsTj
++ _$s10Foundation12CharacterSetV7lettersACvgZ
++ _$s10Foundation12CharacterSetV8invertedACvg
++ _$s10Foundation12CharacterSetVMa
++ _$s10Foundation12DateIntervalV36_unconditionallyBridgeFromObjectiveCyACSo06NSDateC0CSgFZ
++ _$s10Foundation12DateIntervalV5start3endAcA0B0V_AGtcfC
++ _$s10Foundation12DateIntervalV5startAA0B0Vvg
++ _$s10Foundation12DateIntervalV8durationSdvg
++ _$s10Foundation12DateIntervalVMa
++ _$s10Foundation13URLComponentsV19percentEncodedQuerySSSgvg
++ _$s10Foundation13URLComponentsV19percentEncodedQuerySSSgvs
++ _$s10Foundation13URLComponentsV3url23resolvingAgainstBaseURLACSgAA0G0Vh_SbtcfC
++ _$s10Foundation13URLComponentsV4portSiSgvs
++ _$s10Foundation14LocalizedErrorMp
++ _$s10Foundation14LocalizedErrorP10helpAnchorSSSgvgTq
++ _$s10Foundation14LocalizedErrorP13failureReasonSSSgvgTq
++ _$s10Foundation14LocalizedErrorP16errorDescriptionSSSgvgTq
++ _$s10Foundation14LocalizedErrorP18recoverySuggestionSSSgvgTq
++ _$s10Foundation14LocalizedErrorPAAE10helpAnchorSSSgvg
++ _$s10Foundation14LocalizedErrorPAAE13failureReasonSSSgvg
++ _$s10Foundation14LocalizedErrorPAAE18recoverySuggestionSSSgvg
++ _$s10Foundation14LocalizedErrorPs0C0Tb
++ _$s10Foundation15ContiguousBytesP010withUnsafeC0yqd__qd__SWKXEKlFTj
++ _$s10Foundation17URLResourceValuesV20isExcludedFromBackupSbSgvg
++ _$s10Foundation17URLResourceValuesV20isExcludedFromBackupSbSgvs
++ _$s10Foundation17URLResourceValuesVACycfC
++ _$s10Foundation18IntegerFormatStyleVMn
++ _$s10Foundation18IntegerFormatStyleVyxG17_StringProcessing14RegexComponentAAMc
++ _$s10Foundation21_BridgedStoredNSErrorPAAE_8userInfox4CodeQz_SDySSypGtcfC
++ _$s10Foundation25NSFastEnumerationIteratorV4nextypSgyF
++ _$s10Foundation3URLV11descriptionSSvg
++ _$s10Foundation3URLV13DirectoryHintO02isC0yA2EmFWC
++ _$s10Foundation3URLV14absoluteStringSSvg
++ _$s10Foundation3URLV17lastPathComponentSSvg
++ _$s10Foundation3URLV17setResourceValuesyyAA011URLResourceE0VKF
++ _$s10Foundation3URLV22appendingPathExtensionyACSSF
++ _$s10Foundation3URLV2eeoiySbAC_ACtFZ
++ _$s10Foundation3URLV35fileURLWithFileSystemRepresentation11isDirectory10relativeToACSPys4Int8VG_SbACSghtcfC
++ _$s10Foundation3URLV4host14percentEncodedSSSgSb_tF
++ _$s10Foundation3URLV4path14percentEncodedSSSb_tF
++ _$s10Foundation3URLV4portSiSgvg
++ _$s10Foundation3URLV6schemeSSSgvg
++ _$s10Foundation3URLV6string10relativeToACSgSSh_AFhtcfC
++ _$s10Foundation3URLV8filePath13directoryHint10relativeToACSS_AC09DirectoryF0OACSgtcfC
++ _$s10Foundation3URLVSHAAMc
++ _$s10Foundation4DataV13_copyContents12initializingAC8IteratorV_SitSrys5UInt8VG_tF
++ _$s10Foundation4DataV15_RepresentationON
++ _$s10Foundation4DataV8IteratorVMa
++ _$s10Foundation4DateV026timeIntervalSinceReferenceB0Sdvg
++ _$s10Foundation4DateV13ISO8601FormatySSAC0cD5StyleVF
++ _$s10Foundation4DateV17timeIntervalSinceySdACF
++ _$s10Foundation4DateV18ISO8601FormatStyleV0B13TimeSeparatorO8standardyA2GmFWC
++ _$s10Foundation4DateV18ISO8601FormatStyleV0B13TimeSeparatorOMa
++ _$s10Foundation4DateV18ISO8601FormatStyleV0B9SeparatorO4dashyA2GmFWC
++ _$s10Foundation4DateV18ISO8601FormatStyleV0B9SeparatorOMa
++ _$s10Foundation4DateV18ISO8601FormatStyleV13TimeSeparatorO5colonyA2GmFWC
++ _$s10Foundation4DateV18ISO8601FormatStyleV13TimeSeparatorOMa
++ _$s10Foundation4DateV18ISO8601FormatStyleV13dateSeparator0f4TimeG004timeG00i4ZoneG026includingFractionalSeconds0iJ0A2E0bG0O_AE0bhG0OAE0hG0OAE0hjG0OSbAA0hJ0VtcfC
++ _$s10Foundation4DateV18ISO8601FormatStyleV17TimeZoneSeparatorO7omittedyA2GmFWC
++ _$s10Foundation4DateV18ISO8601FormatStyleV17TimeZoneSeparatorOMa
++ _$s10Foundation4DateV18ISO8601FormatStyleVMa
++ _$s10Foundation4DateV19_bridgeToObjectiveCSo6NSDateCyF
++ _$s10Foundation4DateV1soiyA2C_SdtFZ
++ _$s10Foundation4DateV20timeIntervalSinceNowSdvg
++ _$s10Foundation4DateV21timeIntervalSince1970Sdvg
++ _$s10Foundation4DateV3nowACvgZ
++ _$s10Foundation4DateVACycfC
++ _$s10Foundation6LocaleV10identifierACSS_tcfC
++ _$s10Foundation8CalendarV4date8byAdding5value2to18wrappingComponentsAA4DateVSgAC9ComponentO_SiAJSbtF
++ _$s10Foundation8CalendarV7currentACvgZ
++ _$s10Foundation8CalendarV9ComponentO6minuteyA2EmFWC
++ _$s10Foundation8CalendarV9ComponentO6secondyA2EmFWC
++ _$s10Foundation8CalendarV9ComponentOMa
++ _$s10Foundation8CalendarVMa
++ _$s10Foundation8TimeZoneV14secondsFromGMTACSgSi_tcfC
++ _$s10Foundation8TimeZoneVMa
++ _$s10Foundation8TimeZoneVMn
++ _$s10Foundation8URLErrorV4CodeVAA06_ErrorC8ProtocolAAMc
++ _$s10Foundation8URLErrorV8_nsErrorSo7NSErrorCvg
++ _$s10Foundation8URLErrorV9cancelledAC4CodeVvgZ
++ _$s11EDPSecurity16PackageValidatorC13signatureData12requireTrustAC10Foundation0E0VSg_SbtKcfc
++ _$s11EDPSecurity16PackageValidatorC16validateResource_8withDataySS_10Foundation0G0VtKFTj
++ _$s11EDPSecurity16PackageValidatorCMa
++ _$s12CoreGraphics7CGFloatVMn
++ _$s14MarketplaceKit0aB13ServiceResultOMn
++ _$s14MarketplaceKit0aB13ServiceResultOyxGSEAAMc
++ _$s14MarketplaceKit0aB13ServiceResultOyxGSeAAMc
++ _$s14MarketplaceKit0aB5ErrorO014installationOfA6DeniedyA2CmFWC
++ _$s14MarketplaceKit0aB5ErrorO07networkC0yA2CmFWC
++ _$s14MarketplaceKit0aB5ErrorO10invalidURLyA2CmFWC
++ _$s14MarketplaceKit0aB5ErrorO11descriptionSSvg
++ _$s14MarketplaceKit0aB5ErrorO14invalidLicenseyA2CmFWC
++ _$s14MarketplaceKit0aB5ErrorO15appNotInstalledyA2CmFWC
++ _$s14MarketplaceKit0aB5ErrorO15invalidManifestyA2CmFWC
++ _$s14MarketplaceKit0aB5ErrorO16ratingRestrictedyA2CmFWC
++ _$s14MarketplaceKit0aB5ErrorO18featureUnavailableyA2CmFWC
++ _$s14MarketplaceKit0aB5ErrorO18noSupportedVariantyA2CmFWC
++ _$s14MarketplaceKit0aB5ErrorO19missingCapabilitiesyACSaySSGcACmFWC
++ _$s14MarketplaceKit0aB5ErrorO19unsupportedPlatformyA2CmFWC
++ _$s14MarketplaceKit0aB5ErrorO21mismatchedInstallTypeyA2CmFWC
++ _$s14MarketplaceKit0aB5ErrorO22installationRestrictedyA2CmFWC
++ _$s14MarketplaceKit0aB5ErrorO24insufficientStorageSpaceyAC10Foundation11MeasurementVySo017NSUnitInformationE0CGcACmFWC
++ _$s14MarketplaceKit0aB5ErrorO31missingInstallVerificationTokenyA2CmFWC
++ _$s14MarketplaceKit0aB5ErrorO34minimumPlatformVersionNotSatisfiedyACSScACmFWC
++ _$s14MarketplaceKit0aB5ErrorO40invalidAlternativeDistributionPackageURLyA2CmFWC
++ _$s14MarketplaceKit0aB5ErrorO46invalidAlternativeDistributionPackageSignatureyA2CmFWC
++ _$s14MarketplaceKit0aB5ErrorO7unknownyA2CmFWC
++ _$s14MarketplaceKit0aB5ErrorO9cancelledyA2CmFWC
++ _$s14MarketplaceKit0aB5ErrorOMa
++ _$s14MarketplaceKit0aB5ErrorOMn
++ _$s14MarketplaceKit0aB5ErrorOs0C0AAMc
++ _$s14MarketplaceKit0aB5ErrorOs23CustomStringConvertibleAAMc
++ _$s14MarketplaceKit10AppVersionV11appleItemID0edG0ACs6UInt64V_AGtcfC
++ _$s14MarketplaceKit10AppVersionV11appleItemIDs6UInt64Vvg
++ _$s14MarketplaceKit10AppVersionVMa
++ _$s14MarketplaceKit10AppVersionVMn
++ _$s14MarketplaceKit10AppVersionVSEAAMc
++ _$s14MarketplaceKit10AppVersionVSeAAMc
++ _$s14MarketplaceKit14AppDistributorO20requestAuthorization_7accountySS_SStYaKFZ
++ _$s14MarketplaceKit14AppDistributorO20requestAuthorization_7accountySS_SStYaKFZTu
++ _$s14MarketplaceKit14UpdateMetadataV18shortVersionStringSSvg
++ _$s14MarketplaceKit14UpdateMetadataV6itemIDSSvg
++ _$s14MarketplaceKit14UpdateMetadataV8bundleID0E7Version04itemF005shortG6StringACSS_S3StcfC
++ _$s14MarketplaceKit14UpdateMetadataV8bundleIDSSvg
++ _$s14MarketplaceKit14UpdateMetadataVMa
++ _$s14MarketplaceKit14UpdateMetadataVMn
++ _$s14MarketplaceKit14UpdateMetadataVSeAAMc
++ _$s14MarketplaceKit15AutomaticUpdateV11appleItemIDs6UInt64Vvg
++ _$s14MarketplaceKit15AutomaticUpdateV24installVerificationTokenSSvg
++ _$s14MarketplaceKit15AutomaticUpdateV30alternativeDistributionPackage10Foundation3URLVvg
++ _$s14MarketplaceKit15AutomaticUpdateV7accountSSvg
++ _$s14MarketplaceKit15AutomaticUpdateVMa
++ _$s14MarketplaceKit15AutomaticUpdateVMn
++ _$s14MarketplaceKit15SecureButtonTagC0D14ImagePlacementO3topyA2EmFWC
++ _$s14MarketplaceKit15SecureButtonTagC0D14ImagePlacementO6bottomyA2EmFWC
++ _$s14MarketplaceKit15SecureButtonTagC0D14ImagePlacementO7leadingyA2EmFWC
++ _$s14MarketplaceKit15SecureButtonTagC0D14ImagePlacementO8trailingyA2EmFWC
++ _$s14MarketplaceKit15SecureButtonTagC0D14ImagePlacementOMa
++ _$s14MarketplaceKit15SecureButtonTagC0D14ImagePlacementOSYAAMc
++ _$s14MarketplaceKit15SecureButtonTagC11borderColorSo10CGColorRefavg
++ _$s14MarketplaceKit15SecureButtonTagC11borderWidth12CoreGraphics7CGFloatVvg
++ _$s14MarketplaceKit15SecureButtonTagC12cornerRadius12CoreGraphics7CGFloatVvg
++ _$s14MarketplaceKit15SecureButtonTagC14imagePlacementAC0d5ImageG0Ovg
++ _$s14MarketplaceKit15SecureButtonTagC15backgroundColorSo10CGColorRefavg
++ _$s14MarketplaceKit15SecureButtonTagC15foregroundColorSo10CGColorRefavg
++ _$s14MarketplaceKit15SecureButtonTagC4sizeSo6CGSizeVvg
++ _$s14MarketplaceKit15SecureButtonTagC5labelSSvg
++ _$s14MarketplaceKit15SecureButtonTagC8fontSize12CoreGraphics7CGFloatVvg
++ _$s14MarketplaceKit15SecureButtonTagC9imageNameSSSgvg
++ _$s14MarketplaceKit15SecureButtonTagCMa
++ _$s14MarketplaceKit17AppInstallRequestV02isaD0Sbvg
++ _$s14MarketplaceKit17AppInstallRequestV10oAuthTokenSSSgvg
++ _$s14MarketplaceKit17AppInstallRequestV24installVerificationTokenSSSgvg
++ _$s14MarketplaceKit17AppInstallRequestV2id10Foundation4UUIDVvg
++ _$s14MarketplaceKit17AppInstallRequestV3adp10Foundation3URLVvg
++ _$s14MarketplaceKit17AppInstallRequestV3adp4type10oAuthToken019installVerificationI09accountIDAC10Foundation3URLV_AA0cdE4TypeOSSSgANSStcfC
++ _$s14MarketplaceKit17AppInstallRequestV4typeAA0cdE4TypeOvg
++ _$s14MarketplaceKit17AppInstallRequestV8referrer10Foundation3URLVSgvg
++ _$s14MarketplaceKit17AppInstallRequestV9accountIDSSvg
++ _$s14MarketplaceKit17AppInstallRequestVMa
++ _$s14MarketplaceKit17AppInstallRequestVSeAAMc
++ _$s14MarketplaceKit17ApprovedDeveloperV10identifierSSvg
++ _$s14MarketplaceKit17ApprovedDeveloperV10supportURLSSSgvg
++ _$s14MarketplaceKit17ApprovedDeveloperV4name10identifier10supportURLACSS_S2SSgtcfC
++ _$s14MarketplaceKit17ApprovedDeveloperV4nameSSvg
++ _$s14MarketplaceKit17ApprovedDeveloperVMa
++ _$s14MarketplaceKit17ApprovedDeveloperVMn
++ _$s14MarketplaceKit17ApprovedDeveloperVSEAAMc
++ _$s14MarketplaceKit17ApprovedDeveloperVSeAAMc
++ _$s14MarketplaceKit17FetchDataResponseV8responseA2C0E0O_tcfC
++ _$s14MarketplaceKit17FetchDataResponseVMn
++ _$s14MarketplaceKit18PromoteAppsRequestV06appsToC0SaySSGvg
++ _$s14MarketplaceKit18PromoteAppsRequestVMa
++ _$s14MarketplaceKit18PromoteAppsRequestVSeAAMc
++ _$s14MarketplaceKit19InstallRequirementsV08expectedC4Sizes6UInt64VSgvg
++ _$s14MarketplaceKit19InstallRequirementsV13ageRatingRankSiSgvg
++ _$s14MarketplaceKit19InstallRequirementsV20minimumSystemVersionSSSgvg
++ _$s14MarketplaceKit19InstallRequirementsV26requiredDeviceCapabilitiesShySSGSgvg
++ _$s14MarketplaceKit19InstallRequirementsVMa
++ _$s14MarketplaceKit19InstallRequirementsVSeAAMc
++ _$s14MarketplaceKit19InstallSheetContextV0C4TypeO11marketplaceyA2EmFWC
++ _$s14MarketplaceKit19InstallSheetContextV0C4TypeO3appyA2EmFWC
++ _$s14MarketplaceKit19InstallSheetContextV0C4TypeOMa
++ _$s14MarketplaceKit19InstallSheetContextV6SourceO11distributoryAESS_SStcAEmFWC
++ _$s14MarketplaceKit19InstallSheetContextV6SourceO3webyAESS_SStcAEmFWC
++ _$s14MarketplaceKit19InstallSheetContextV6SourceOMa
++ _$s14MarketplaceKit19InstallSheetContextV6itemID07versionG06source4type6logKey12learnMoreURL014authenticationE4DataACSS_SSSgAC6SourceOAC0C4TypeOS2S10Foundation0Q0VSgtcfC
++ _$s14MarketplaceKit19InstallSheetContextVMa
++ _$s14MarketplaceKit20AppDistributorResultV13distributorID016requestingBundleG0ACSS_SStcfC
++ _$s14MarketplaceKit20AppDistributorResultVMn
++ _$s14MarketplaceKit20PerformActionRequestV11stringValueSSvg
++ _$s14MarketplaceKit20PerformActionRequestVN
++ _$s14MarketplaceKit20PerformActionRequestVSeAAMc
++ _$s14MarketplaceKit20PrioritizeAppRequestV05appToC0SSvg
++ _$s14MarketplaceKit20PrioritizeAppRequestVMa
++ _$s14MarketplaceKit20PrioritizeAppRequestVSeAAMc
++ _$s14MarketplaceKit20PrivateNotificationsO50priorityOrAllowedDevelopersChangedNotificationNameSSvgZ
++ _$s14MarketplaceKit20SetPublicDataRequestV0F0O15searchTerritoryyAESSSgcAEmFWC
++ _$s14MarketplaceKit20SetPublicDataRequestV0F0O20cancelPendingInstallyAE10Foundation4UUIDV_tcAEmFWC
++ _$s14MarketplaceKit20SetPublicDataRequestV0F0O21confirmPendingInstallyAE10Foundation4UUIDV_SSAG0E0VSgtcAEmFWC
++ _$s14MarketplaceKit20SetPublicDataRequestV0F0O25cancelPendingInstallBatchyAE10Foundation4UUIDV_tcAEmFWC
++ _$s14MarketplaceKit20SetPublicDataRequestV0F0O26confirmPendingInstallBatchyAE10Foundation4UUIDV_SDys6UInt64VSSGAG0E0VSgtcAEmFWC
++ _$s14MarketplaceKit20SetPublicDataRequestV0F0OMa
++ _$s14MarketplaceKit20SetPublicDataRequestV7requestAC0F0Ovg
++ _$s14MarketplaceKit20SetPublicDataRequestVMa
++ _$s14MarketplaceKit20SetPublicDataRequestVSeAAMc
++ _$s14MarketplaceKit21AppInstallRequestTypeO08requiresD5SheetSbvg
++ _$s14MarketplaceKit21AppInstallRequestTypeO09automaticD0yA2CmFWC
++ _$s14MarketplaceKit21AppInstallRequestTypeO15automaticUpdateyA2CmFWC
++ _$s14MarketplaceKit21AppInstallRequestTypeO15isUserInitiatedSbvg
++ _$s14MarketplaceKit21AppInstallRequestTypeO3uppyA2CmFWC
++ _$s14MarketplaceKit21AppInstallRequestTypeO6updateyA2CmFWC
++ _$s14MarketplaceKit21AppInstallRequestTypeO7installyA2CmFWC
++ _$s14MarketplaceKit21AppInstallRequestTypeO7restoreyA2CmFWC
++ _$s14MarketplaceKit21AppInstallRequestTypeO7userVPPyA2CmFWC
++ _$s14MarketplaceKit21AppInstallRequestTypeO8isUpdateSbvg
++ _$s14MarketplaceKit21AppInstallRequestTypeO8rawValueSSvg
++ _$s14MarketplaceKit21AppInstallRequestTypeO9deviceVPPyA2CmFWC
++ _$s14MarketplaceKit21AppInstallRequestTypeO9isRestoreSbvg
++ _$s14MarketplaceKit21AppInstallRequestTypeO9promotionyA2CmFWC
++ _$s14MarketplaceKit21AppInstallRequestTypeOMa
++ _$s14MarketplaceKit21AppInstallRequestTypeOMn
++ _$s14MarketplaceKit21AppInstallRequestTypeOSEAAMc
++ _$s14MarketplaceKit21AppInstallRequestTypeOSQAAMc
++ _$s14MarketplaceKit21AppInstallRequestTypeOSYAAMc
++ _$s14MarketplaceKit21AppInstallRequestTypeOSeAAMc
++ _$s14MarketplaceKit21PerformActionResponseV8responseA2C0E0O_tcfC
++ _$s14MarketplaceKit21PerformActionResponseVMn
++ _$s14MarketplaceKit21PollForUpdatesRequestV011shouldStartE0Sbvg
++ _$s14MarketplaceKit21PollForUpdatesRequestV6domainSSSgvg
++ _$s14MarketplaceKit21PollForUpdatesRequestVMa
++ _$s14MarketplaceKit21PollForUpdatesRequestVSeAAMc
++ _$s14MarketplaceKit21SetPrivateDataRequestV11stringValueSSvg
++ _$s14MarketplaceKit21SetPrivateDataRequestVN
++ _$s14MarketplaceKit21SetPrivateDataRequestVSeAAMc
++ _$s14MarketplaceKit21UpdateMetadataRequestVN
++ _$s14MarketplaceKit21UpdateMetadataRequestVSeAAMc
++ _$s14MarketplaceKit22FetchPublicDataRequestVN
++ _$s14MarketplaceKit22FetchPublicDataRequestVSeAAMc
++ _$s14MarketplaceKit23FetchPrivateDataRequestVN
++ _$s14MarketplaceKit23FetchPrivateDataRequestVSeAAMc
++ _$s14MarketplaceKit23LocalizedStringsRequestV0C6StringV17replacementTokensSDyS2SGvg
++ _$s14MarketplaceKit23LocalizedStringsRequestV0C6StringV3keySSvg
++ _$s14MarketplaceKit23LocalizedStringsRequestV0C6StringVMa
++ _$s14MarketplaceKit25ManifestValidationRequestVMa
++ _$s14MarketplaceKit25ManifestValidationRequestVSeAAMc
++ _$s14MarketplaceKit25OAuthAuthorizationContextV6logKey10requestURLACSS_10Foundation0I0VtcfC
++ _$s14MarketplaceKit25OAuthAuthorizationContextVMa
++ _$s14MarketplaceKit25OAuthAuthorizationRequestV3runSDyS2SGyYaKF
++ _$s14MarketplaceKit25OAuthAuthorizationRequestV3runSDyS2SGyYaKFTu
++ _$s14MarketplaceKit25OAuthAuthorizationRequestV7contextAcA0cD7ContextV_tcfC
++ _$s14MarketplaceKit25OAuthAuthorizationRequestVMa
++ _$s14MarketplaceKit25SecureButtonActionRequestV0E0O11stringValueSSvg
++ _$s14MarketplaceKit25SecureButtonActionRequestV0E0O14preflightBatchyAE10Foundation4DataVcAEmFWC
++ _$s14MarketplaceKit25SecureButtonActionRequestV0E0O6deleteyAEs6UInt64VcAEmFWC
++ _$s14MarketplaceKit25SecureButtonActionRequestV0E0O6launchyAEs6UInt64VcAEmFWC
++ _$s14MarketplaceKit25SecureButtonActionRequestV0E0O9preflightyAE10Foundation4DataVcAEmFWC
++ _$s14MarketplaceKit25SecureButtonActionRequestV0E0OMa
++ _$s14MarketplaceKit25SecureButtonActionRequestV21authenticationMessageSo025BKSHIDEventAuthenticationH0Cvg
++ _$s14MarketplaceKit25SecureButtonActionRequestV6actionAC0E0Ovg
++ _$s14MarketplaceKit25SecureButtonActionRequestVMa
++ _$s14MarketplaceKit25SecureButtonActionRequestVSeAAMc
++ _$s14MarketplaceKit26InstallConfirmationRequestV3runSbyYaKF
++ _$s14MarketplaceKit26InstallConfirmationRequestV3runSbyYaKFTu
++ _$s14MarketplaceKit26InstallConfirmationRequestV7contextAcA0C12SheetContextV_tcfC
++ _$s14MarketplaceKit26InstallConfirmationRequestVMa
++ _$s14MarketplaceKit26SecureButtonActionResponseV0F4TypeO14confirmInstallyAE10Foundation4UUIDVcAEmFWC
++ _$s14MarketplaceKit26SecureButtonActionResponseV0F4TypeO19confirmInstallBatchyAE10Foundation4UUIDVcAEmFWC
++ _$s14MarketplaceKit26SecureButtonActionResponseV0F4TypeO4noneyA2EmFWC
++ _$s14MarketplaceKit26SecureButtonActionResponseV0F4TypeOMa
++ _$s14MarketplaceKit26SecureButtonActionResponseV4typeA2C0F4TypeO_tcfC
++ _$s14MarketplaceKit26SecureButtonActionResponseVMa
++ _$s14MarketplaceKit26SecureButtonActionResponseVMn
++ _$s14MarketplaceKit27AvailableAppMetadataRequestVN
++ _$s14MarketplaceKit27AvailableAppMetadataRequestVSeAAMc
++ _$s14MarketplaceKit27PerformPrivateActionRequestV11stringValueSSvg
++ _$s14MarketplaceKit27PerformPrivateActionRequestVN
++ _$s14MarketplaceKit27PerformPrivateActionRequestVSeAAMc
++ _$s14MarketplaceKit28PerformPrivateActionResponseV8responseA2C0F0O_tcfC
++ _$s14MarketplaceKit28PerformPrivateActionResponseVMn
++ _$s14MarketplaceKit29DeveloperApprovalSheetContextV5title4body16firstBulletTitle0iJ4Body06secondjK00mjL005thirdjK00njL015allowButtonText06ignorepQ011developerID0S4Name10supportURL08passcodeK00X6ReasonACSS_S12SSgS2StcfC
++ _$s14MarketplaceKit29DeveloperApprovalSheetContextVMa
++ _$s14MarketplaceKit29DeveloperApprovalSheetContextVSEAAMc
++ _$s15AtomicsInternal13ManagedAtomicCMn
++ _$s16AdAttributionKit12TokenHandoffO15handoffPODToken9tokenData16advertisedItemIDy10Foundation0I0V_s6UInt64VtKFZ
++ _$s17_StringProcessing14RegexComponentP10FoundationAD18IntegerFormatStyleVySiGRszrlE09localizedF06localeAgD6LocaleV_tFZ
++ _$s17_StringProcessing5RegexV5MatchV6outputxvg
++ _$s17_StringProcessing5RegexV5MatchVMn
++ _$s19ExtensionFoundation04_AppA7ProcessV10auditTokenSo0E8_token_tavg
++ _$s19ExtensionFoundation04_AppA7ProcessV13ConfigurationV03appA014onInterruptionAeA01_cA8IdentityV_yyctcfC
++ _$s19ExtensionFoundation04_AppA7ProcessV13ConfigurationVMa
++ _$s19ExtensionFoundation04_AppA7ProcessV13configurationA2C13ConfigurationV_tYaKcfC
++ _$s19ExtensionFoundation04_AppA7ProcessV13configurationA2C13ConfigurationV_tYaKcfCTu
++ _$s19ExtensionFoundation04_AppA7ProcessV17makeXPCConnectionSo15NSXPCConnectionCyKF
++ _$s19ExtensionFoundation04_AppA7ProcessVMa
++ _$s19ExtensionFoundation04_AppA7ProcessVMn
++ _$s19ExtensionFoundation04_AppA8IdentityVMa
++ _$s19ExtensionFoundation04_AppA8IdentityVyACSo012_EXExtensionD0CcfC
++ _$s22AppInstallationMetrics0A11InstallTypeO011userManagedD0yA2CmFWC
++ _$s22AppInstallationMetrics0A11InstallTypeO013deviceManagedD0yA2CmFWC
++ _$s22AppInstallationMetrics0A11InstallTypeO11storeUpdateyA2CmFWC
++ _$s22AppInstallationMetrics0A11InstallTypeO12autoDownloadyA2CmFWC
++ _$s22AppInstallationMetrics0A11InstallTypeO15updateAutomaticyA2CmFWC
++ _$s22AppInstallationMetrics0A11InstallTypeO3buyyA2CmFWC
++ _$s22AppInstallationMetrics0A11InstallTypeO3uppyA2CmFWC
++ _$s22AppInstallationMetrics0A11InstallTypeO7restoreyA2CmFWC
++ _$s22AppInstallationMetrics0A11InstallTypeO9promotionyA2CmFWC
++ _$s22AppInstallationMetrics0A11InstallTypeOMa
++ _$s22AppInstallationMetrics0A11InstallTypeOMn
++ _$s22AppInstallationMetrics0aB11EligibilityV9accountID10storefront8eligibleACs5Int64VSg_SSSbtcfC
++ _$s22AppInstallationMetrics0aB11EligibilityVMa
++ _$s22AppInstallationMetrics0aB5EventV8bundleID11eligibility015externalVersionF011installDate0J4Type6isBeta04itemF002osI08platform6source5token9webDomainACSS_AA0aB11EligibilityVs5Int64V10Foundation0K0VAA0a7InstallL0OSbASSgS4SSgAZtcfC
++ _$s22AppInstallationMetrics0aB5EventVMa
++ _$s22AppInstallationMetrics0abC6ClientC10addInstallyyAA0aB5EventVYaKFZ
++ _$s22AppInstallationMetrics0abC6ClientC10addInstallyyAA0aB5EventVYaKFZTu
++ _$s22AppInstallationMetrics0abC6ClientCMa
++ _$s22ManagedAppDistribution0B21StateUpdateIdentifierO03appD11IdentifiersSayAA05StorebF0OGvg
++ _$s22ManagedAppDistribution0B21StateUpdateIdentifierOMn
++ _$s22ManagedAppDistribution0B21StateUpdateIdentifierOyAcA05StorebF0OcfC
++ _$s22ManagedAppDistribution0B8ProgressV5state10identifierAcA0B5StateO_AA0bG16UpdateIdentifierOtcfC
++ _$s22ManagedAppDistribution0aB11DeclarationV10AttributesV8rawValue10Foundation4DataVvg
++ _$s22ManagedAppDistribution0aB11DeclarationV10AttributesV8rawValueAE10Foundation4DataV_tcfC
++ _$s22ManagedAppDistribution0aB11DeclarationV15InstallBehaviorV11LicenseEnumON
++ _$s22ManagedAppDistribution0aB11DeclarationV15InstallBehaviorV11LicenseEnumOSEAAMc
++ _$s22ManagedAppDistribution0aB11DeclarationV15InstallBehaviorV11LicenseEnumOSQAAMc
++ _$s22ManagedAppDistribution0aB11DeclarationV15InstallBehaviorV11LicenseEnumOSeAAMc
++ _$s22ManagedAppDistribution0aB11DeclarationV15ManagementScopeOSEAAMc
++ _$s22ManagedAppDistribution0aB11DeclarationV15ManagementScopeOSeAAMc
++ _$s22ManagedAppDistribution0aB6StatusV6ReasonO09unmanagedB16AlreadyInstalledyA2EmFWC
++ _$s22ManagedAppDistribution14RestoreRequestVN
++ _$s22ManagedAppDistribution14RestoreRequestVSeAAMc
++ _$s22ManagedAppDistribution16CellularIdentityV7currentACyFZ
++ _$s22ManagedAppDistribution16CellularIdentityV9isRoamingSbvg
++ _$s22ManagedAppDistribution16CellularIdentityVMa
++ _$s22ManagedAppDistribution16CellularSettingsV12cellularDataAC6PromptOvg
++ _$s22ManagedAppDistribution16CellularSettingsV23allowAutomaticDownloadsSbvg
++ _$s22ManagedAppDistribution16CellularSettingsV3forAcA0D8IdentityV_tcfC
++ _$s22ManagedAppDistribution16CellularSettingsVMa
++ _$s22ManagedAppDistribution16XPCClientMessageV07managedB7Catalog4apps5errorACSayAA0aB0VGSg_AA0abC5ErrorOSgtFZ
++ _$s22ManagedAppDistribution16XPCClientMessageV10appCatalogyACSayAA6XPCAppVGFZ
++ _$s22ManagedAppDistribution16XPCClientMessageV11appProgressyAcA0bG0VFZ
++ _$s22ManagedAppDistribution16XPCClientMessageV21connectionEstablishedACvau
++ _$s22ManagedAppDistribution17DiagnosticRequestVN
++ _$s22ManagedAppDistribution17DiagnosticRequestVSeAAMc
++ _$s22ManagedAppDistribution18RestoreRequestTypeO2eeoiySbAC_ACtFZ
++ _$s22ManagedAppDistribution21DiagnosticRequestTypeO2eeoiySbAC_ACtFZ
++ _$s22ManagedAppDistribution21OAuthAuthorizeRequestVMa
++ _$s22ManagedAppDistribution21OAuthAuthorizeRequestVSeAAMc
++ _$s22ManagedAppDistribution6LogKeyC11stringValueSSvg
++ _$s22ManagedAppDistribution6LogKeyC14representationAC14RepresentationOvg
++ _$s22ManagedAppDistribution6LogKeyC6PrefixO8rawValueSSvg
++ _$s22ManagedAppDistribution6LogKeyC6appendyySSF
++ _$s22ManagedAppDistribution6LogKeyC6prefixA2C6PrefixO_tcfC
++ _$s22ManagedAppDistribution6LogKeyC6stringACSS_tcfC
++ _$s22ManagedAppDistribution6LogKeyC7prepend_9separatorySS_SStF
++ _$s22ManagedAppDistribution6LogKeyCMa
++ _$s22ManagedAppDistribution6LogKeyCMn
++ _$s22ManagedAppDistribution6LogKeyCSEAAMc
++ _$s22ManagedAppDistribution6LogKeyCSeAAMc
++ _$s22ManagedAppDistribution6XPCAppV11appleItemID06bundleG017installedMetadata010installingJ0ACs6UInt64V_SSAC0J0VSgALtcfC
++ _$s22ManagedAppDistribution6XPCAppV8MetadataV14appleVersionID7version05shortG07accountAEs6UInt64V_S3SSgtcfC
++ _$s22ManagedAppDistribution6XPCAppVMn
++ _$s22ManagedAppDistribution6XPCAppVN
++ _$s22ManagedAppDistribution8PlatformV11descriptionSSvg
++ _$s2os6LoggerV14MarketplaceKitE3aldACvau
++ _$s2os6LoggerV14MarketplaceKitE7generalACvau
++ _$s2os6LoggerV22ManagedAppDistributionE10appActionsACvau
++ _$s2os6LoggerV22ManagedAppDistributionE11eligibilityACvau
++ _$s2os6LoggerV22ManagedAppDistributionE3sqlACvau
++ _$s2os6LoggerV22ManagedAppDistributionE5oauthACvau
++ _$s2os6LoggerV22ManagedAppDistributionE7metricsACvau
++ _$s2os6LoggerV22ManagedAppDistributionE7restoreACvau
++ _$s2os6LoggerV22ManagedAppDistributionE7storageACvau
++ _$s6Darwin5noErrs5Int32Vvg
++ _$s7Network12NWConnectionC10parametersAA12NWParametersCvg
++ _$s7Network12NWParametersC25sourceApplicationBundleIDSSSgvs
++ _$s7Network13NWPathMonitorC17pathUpdateHandleryAA0B0VcSgvs
++ _$s7Network13NWPathMonitorC5start5queueySo012OS_dispatch_E0C_tF
++ _$s7Network13NWPathMonitorC6cancelyyF
++ _$s8Dispatch0A12TimeIntervalO7secondsyACSicACmFWC
++ _$s8Dispatch0A12TimeIntervalOMa
++ _$s8Dispatch0A13TimeoutResultO2eeoiySbAC_ACtFZ
++ _$s8Dispatch0A3QoSV13userInitiatedACvgZ
++ _$s8Dispatch0A3QoSV7utilityACvgZ
++ _$s8Dispatch0A3QoSV8qosClassAC0B6SClassOvg
++ _$s8Dispatch0A4TimeV3nowACyFZ
++ _$s8Dispatch0A4TimeV8advanced2byAcA0aB8IntervalO_tF
++ _$s8Dispatch0A4TimeVMa
++ _$s9CryptoKit12HashFunctionPxycfCTj
++ _$s9CryptoKit12SHA256DigestV10Foundation15ContiguousBytesAAMc
++ _$s9CryptoKit12SHA256DigestVMa
++ _$s9CryptoKit6SHA256VAA12HashFunctionAAMc
++ _$s9CryptoKit6SHA256VMa
++ _$s9JetEngine08InMemoryA10PackLoaderV13signingPolicy11keyProviderAcA0ae7SigningH0O_AA0ae3KeyJ0_pSgtcfC
++ _$s9JetEngine08InMemoryA10PackLoaderV6bundle4fromAA0cdaE14ResourceBundleVAA0aE12StreamSource_p_tYaKF
++ _$s9JetEngine08InMemoryA10PackLoaderV6bundle4fromAA0cdaE14ResourceBundleVAA0aE12StreamSource_p_tYaKFTu
++ _$s9JetEngine08InMemoryA10PackLoaderVMa
++ _$s9JetEngine08InMemoryA18PackResourceBundleVAA0aefG0AAMc
++ _$s9JetEngine08InMemoryA18PackResourceBundleVMa
++ _$s9JetEngine0A16PackAssetSessionC03jetC03for7fetcherAA0acD0V7RequestQz_xtYaKAA0acD7FetcherRzlF
++ _$s9JetEngine0A16PackAssetSessionC03jetC03for7fetcherAA0acD0V7RequestQz_xtYaKAA0acD7FetcherRzlFTu
++ _$s9JetEngine0A16PackAssetSessionC13ConfigurationV5cacheAeA0acD5Cache_p_tcfC
++ _$s9JetEngine0A16PackAssetSessionC13ConfigurationVMa
++ _$s9JetEngine0A16PackAssetSessionC13configurationA2C13ConfigurationV_tcfc
++ _$s9JetEngine0A16PackAssetSessionCMa
++ _$s9JetEngine0A17PackSigningPolicyO8requiredyA2CmFWC
++ _$s9JetEngine0A17PackSigningPolicyOMa
++ _$s9JetEngine0A18PackAssetDiskCacheCAA0acdF0AAMc
++ _$s9JetEngine0A18PackAssetDiskCacheCACyKcfC
++ _$s9JetEngine0A18PackAssetDiskCacheCMa
++ _$s9JetEngine0A18PackResourceBundlePAAE7versionSSSgvg
++ _$s9JetEngine0A22PackManagedKeyProviderVAA0aceF0AAMc
++ _$s9JetEngine0A22PackManagedKeyProviderVACycfC
++ _$s9JetEngine0A22PackManagedKeyProviderVMa
++ _$s9JetEngine0A28PackAssetRequestSourcePolicyO8standardyA2CmFWC
++ _$s9JetEngine0A28PackAssetRequestSourcePolicyOMa
++ _$s9JetEngine0A8PackPathVMa
++ _$s9JetEngine0A8PackPathVyACSScfC
++ _$s9JetEngine0A9PackAssetV12streamSourceAA0ac6StreamF0_pvg
++ _$s9JetEngine0A9PackAssetVMa
++ _$s9JetEngine15BaseObjectGraphC4name_ACSS_AA10DependencyVdtcfC
++ _$s9JetEngine15BaseObjectGraphCMa
++ _$s9JetEngine17BagLanguageSourceV3bagAcA0C0V_tcfC
++ _$s9JetEngine17BagLanguageSourceVAA0dE0AAMc
++ _$s9JetEngine17BagLanguageSourceVMa
++ _$s9JetEngine22AppleServicesLocalizerC17isLocalizedStringySbSSF
++ _$s9JetEngine22AppleServicesLocalizerC5fetch10contentsOf3for06asPartH0ACXDAA26LocalizedStringsDataSource_p_AA08LanguageO0_pAA15BaseObjectGraphCtYaKFZ
++ _$s9JetEngine22AppleServicesLocalizerC5fetch10contentsOf3for06asPartH0ACXDAA26LocalizedStringsDataSource_p_AA08LanguageO0_pAA15BaseObjectGraphCtYaKFZTu
++ _$s9JetEngine22AppleServicesLocalizerC6string6forKey4with5usingS2S_SDyS2SGSgAA0E14LookupStrategyOtF
++ _$s9JetEngine22AppleServicesLocalizerCMa
++ _$s9JetEngine22LocalizedStringsBundleV08resourceE09indexPathAcA0a12PackResourceE0_p_AA0aiH0VtKcfC
++ _$s9JetEngine22LocalizedStringsBundleVAA0cD10DataSourceAAMc
++ _$s9JetEngine22LocalizedStringsBundleVMa
++ _$s9JetEngine22URLJetPackAssetFetcherV3bag23urlSessionConfiguration14requestEncoderACSo14AMSBagProtocol_p_So012NSURLSessionJ0CSo013AMSURLRequestL0CSgtcfC
++ _$s9JetEngine22URLJetPackAssetFetcherVAA0adeF0AAMc
++ _$s9JetEngine22URLJetPackAssetFetcherVMa
++ _$s9JetEngine22URLJetPackAssetRequestV3url12sourcePolicyAC10Foundation3URLV_AA0adef6SourceI0OtcfC
++ _$s9JetEngine22URLJetPackAssetRequestVMa
++ _$s9JetEngine23LocalizerLookupStrategyO7defaultyA2CmFWC
++ _$s9JetEngine23LocalizerLookupStrategyOMa
++ _$s9JetEngine3BagV4fromACSo14AMSBagProtocol_p_tcfC
++ _$s9JetEngine3BagVMa
++ _$sBi8_WV
++ _$sSJN
++ _$sSK17_StringProcessingSs11SubSequenceRtzrlE10firstMatch2ofAA5RegexV0F0Vyqd___GSgqd_0__t0H6OutputQyd_0_Rsd__AA0H9ComponentRd_0_r0_lF
++ _$sSS10FoundationE17LocalizationValueVMn
++ _$sSS10FoundationE8EncodingV5asciiACvgZ
++ _$sSS10FoundationE9localized5table6bundle6locale7commentS2SAAE17LocalizationValueV_SSSgSo8NSBundleCSgAA6LocaleVs12StaticStringVSgtcfC
++ _$sSS6appendyySJF
++ _$sSS8IteratorV4nextSJSgyF
++ _$sSS9repeating5countS2S_SitcfC
++ _$sSSSKsMc
++ _$sSSySSxcSTRzSJ7ElementRtzlufC
++ _$sSY8rawValue03RawB0QzvgTj
++ _$sSa10FoundationE34_conditionallyBridgeFromObjectiveC_6resultSbSo7NSArrayC_SayxGSgztFZ
++ _$sSayxG10Foundation15ContiguousBytesABs5UInt8VRszlMc
++ _$sSbSEsWP
++ _$sScG17makeAsyncIteratorScG0C0Vyx_GyF
++ _$sScG22awaitAllRemainingTasksyyYaF
++ _$sScG22awaitAllRemainingTasksyyYaFTu
++ _$sScG8IteratorV4nextxSgyYaF
++ _$sScG8IteratorV4nextxSgyYaFTu
++ _$sScG8IteratorVMn
++ _$sScP10backgroundScPvgZ
++ _$sScP4highScPvgZ
++ _$sScT5valuexvg
++ _$sScT5valuexvgTu
++ _$sSd5write2toyxz_ts16TextOutputStreamRzlF
++ _$sSf5write2toyxz_ts16TextOutputStreamRzlF
++ _$sSh10FoundationE36_unconditionallyBridgeFromObjectiveCyShyxGSo5NSSetCSgFZ
++ _$sSh11descriptionSSvg
++ _$sSh8IteratorV6_cocoaAByx_Gs10__CocoaSetVAACn_tcfC
++ _$sSiSEsWP
++ _$sSiSesWP
++ _$sSj7exactlyxSgqd___tcSzRd__lufCTj
++ _$sSlsE3mapySayqd__Gqd__7ElementQzKXEKlF
++ _$sSo12NSURLSessionC10FoundationE4data4from8delegateAC4DataV_So13NSURLResponseCtAC3URLV_So0A12TaskDelegate_pSgtYaKF
++ _$sSo12NSURLSessionC10FoundationE4data4from8delegateAC4DataV_So13NSURLResponseCtAC3URLV_So0A12TaskDelegate_pSgtYaKFTu
++ _$sSo17NSKeyedUnarchiverC10FoundationE16unarchivedObject7ofClass4fromxSgxm_AC4DataVtKSo8NSObjectCRbzSo8NSCodingRzlFZ
++ _$sSo17OS_dispatch_queueC8DispatchE4sync7executexxyKXE_tKlF
++ _$sSo21OS_dispatch_semaphoreC8DispatchE4wait7timeoutAC0D13TimeoutResultOAC0D4TimeV_tF
++ _$sSo9NSScannerC10FoundationE10scanDouble14representationSdSgAbCE20NumberRepresentationO_tF
++ _$sSo9NSScannerC10FoundationE20NumberRepresentationO7decimalyA2EmFWC
++ _$sSo9NSScannerC10FoundationE20NumberRepresentationOMa
++ _$sSs5index5afterSS5IndexVAD_tF
++ _$sSsySJSS5IndexVcig
++ _$sSsySsSnySS5IndexVGcig
++ _$sSuSEsWP
++ _$sSuSesWP
++ _$sSus23CustomStringConvertiblesWP
++ _$sSw10copyMemory4fromySW_tF
++ _$sSy10FoundationE10components11separatedBySaySSGqd___tSyRd__lF
++ _$sSy10FoundationE16rangeOfCharacter4from7options0B0SnySS5IndexVGSgAA0D3SetV_So22NSStringCompareOptionsVAItF
++ _$sSy10FoundationE20replacingOccurrences2of4with7options5rangeSSqd___qd_0_So22NSStringCompareOptionsVSnySS5IndexVGSgtSyRd__SyRd_0_r0_lF
++ _$sSy10FoundationE4data5using20allowLossyConversionAA4DataVSgSSAAE8EncodingV_SbtF
++ _$sSy10FoundationE8containsySbqd__SyRd__lF
++ _$ss10ArraySliceVMn
++ _$ss10ArraySliceVyxGSKsMc
++ _$ss10__CocoaSetV8containsySbyXlF
++ _$ss11AnyIteratorVMn
++ _$ss12_ArrayBufferV18_typeCheckSlowPathyySiF
++ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFyXl_Ts5
++ _$ss12_IteratorBoxCMn
++ _$ss12_SequenceBoxCMn
++ _$ss15CollectionOfOneVMn
++ _$ss15_AnySequenceBoxC13_makeIterators0aE0VyxGyFTj
++ _$ss17FixedWidthIntegerMp
++ _$ss17_assertionFailure__4file4line5flagss5NeverOs12StaticStringV_A2HSus6UInt32VtF
++ _$ss18_CocoaArrayWrapperVys12_SliceBufferVyyXlGSnySiGcig
++ _$ss18_fatalErrorMessage__4file4line5flagss5NeverOs12StaticStringV_A2HSus6UInt32VtF
++ _$ss19_AnyIteratorBoxBaseC4nextxSgyFTj
++ _$ss21_ClosureBasedIteratorVMn
++ _$ss21_ClosureBasedSequenceVMn
++ _$ss22_minimumMergeRunLengthyS2iF
++ _$ss22_stringCompareInternal____9expectingSbs11_StringGutsV_SnySiGAdEs01_E16ComparisonResultOtF
++ _$ss24_getErrorEmbeddedNSErroryyXlSgxs0B0RzlF
++ _$ss27_bridgeAnythingToObjectiveCyyXlxlF
++ _$ss27_diagnoseUnexpectedEnumCase4types5NeverOxm_tlF
++ _$ss28SingleValueDecodingContainerP6decodeyqd__qd__mKSeRd__lFTj
++ _$ss28SingleValueEncodingContainerP6encodeyyqd__KSERd__lFTj
++ _$ss38_bridgeAnythingNonVerbatimToObjectiveCyyXlxnlF
++ _$ss5Int64VMn
++ _$ss5Int64VSEsWP
++ _$ss5Int64VSesWP
++ _$ss5UInt8Vs23CustomStringConvertiblesWP
++ _$ss5UInt8Vs7CVarArgsWP
++ _$ss6HasherV8finalizeSiyF
++ _$ss6HasherVABycfC
++ _$ss6ResultOMn
++ _$ss6UInt64VSzsMc
++ _$sxSgSEsSERzlMc
++ _$sxSgSesSeRzlMc
++ _AnalyticsSendEventLazy
++ _BSVersionedPIDForAuditToken
++ _CCRandomGenerateBytes
++ _CFDictionaryAddValue
++ _CFDictionaryCreateMutable
++ _CFNumberGetType
++ _CFPreferencesAppSynchronize
++ _CFPreferencesCopyAppValue
++ _CFPreferencesGetAppBooleanValue
++ _CFPreferencesSetAppValue
++ _CFRelease
++ _CFStringGetCStringPtr
++ _CFStringGetCharactersPtr
++ _CFStringGetFastestEncoding
++ _CFStringGetLength
++ _CFUUIDCreate
++ _CFUUIDGetUUIDBytes
++ _CGColorCreateGenericRGB
++ _CGContextRestoreGState
++ _CGContextSaveGState
++ _CTFontCreateWithFontDescriptor
++ _CTFontDescriptorCreateWithAttributes
++ _CWeMQvFE
++ _FLUserInfoPropertyDontDisplayDate
++ _FbLnABIk
++ _MobileGestalt_get_accelerometerCapability
++ _MobileGestalt_get_arm64ExecutionCapability
++ _MobileGestalt_get_armV7ExecutionCapability
++ _MobileGestalt_get_autoFocusCameraCapability
++ _MobileGestalt_get_bluetoothLECapability
++ _MobileGestalt_get_cameraCapability
++ _MobileGestalt_get_cameraFlashCapability
++ _MobileGestalt_get_deviceClassNumber
++ _MobileGestalt_get_deviceSupportsARKit
++ _MobileGestalt_get_deviceSupportsNFC
++ _MobileGestalt_get_frontFacingCameraCapability
++ _MobileGestalt_get_gameKitCapability
++ _MobileGestalt_get_gpsCapability
++ _MobileGestalt_get_gyroscopeCapability
++ _MobileGestalt_get_healthKitCapability
++ _MobileGestalt_get_locationServicesCapability
++ _MobileGestalt_get_magnetometerCapability
++ _MobileGestalt_get_metalCapability
++ _MobileGestalt_get_microphoneCapability
++ _MobileGestalt_get_openGLES1Capability
++ _MobileGestalt_get_openGLES2Capability
++ _MobileGestalt_get_openGLES3Capability
++ _MobileGestalt_get_peer2PeerCapability
++ _MobileGestalt_get_smsCapability
++ _MobileGestalt_get_telephonyCapability
++ _MobileGestalt_get_videoCameraCapability
++ _MobileGestalt_get_wifiCapability
++ _NSDebugDescriptionErrorKey
++ _NSFileProtectionComplete
++ _NSFileProtectionCompleteUnlessOpen
++ _NSFileProtectionCompleteUntilFirstUserAuthentication
++ _NSFileProtectionNone
++ _NSGenericException
++ _NSInternalInconsistencyException
++ _NSInvalidArgumentException
++ _NSLocalizedDescriptionKey
++ _NSStringFromClass
++ _OBJC_CLASS_$_ACPersonaManager
++ _OBJC_CLASS_$_AMSProcessInfo
++ _OBJC_CLASS_$_AMSUniversalLinks
++ _OBJC_CLASS_$_BKSHIDEventDeliveryManager
++ _OBJC_CLASS_$_FLFollowUpAction
++ _OBJC_CLASS_$_FLFollowUpController
++ _OBJC_CLASS_$_FLFollowUpItem
++ _OBJC_CLASS_$_IXPromotingAppInstallCoordinator
++ _OBJC_CLASS_$_IXRestoringAppInstallCoordinator
++ _OBJC_CLASS_$_LSApplicationExtensionRecord
++ _OBJC_CLASS_$_LSBundleRecord
++ _OBJC_CLASS_$_LSExtensionPointRecord
++ _OBJC_CLASS_$_MIStoreMetadataDistributor
++ _OBJC_CLASS_$_NSArray
++ _OBJC_CLASS_$_NSConstantIntegerNumber
++ _OBJC_CLASS_$_NSDate
++ _OBJC_CLASS_$_NSDictionary
++ _OBJC_CLASS_$_NSError
++ _OBJC_CLASS_$_NSException
++ _OBJC_CLASS_$_NSJSONSerialization
++ _OBJC_CLASS_$_NSKeyedArchiver
++ _OBJC_CLASS_$_NSKeyedUnarchiver
++ _OBJC_CLASS_$_NSMapTable
++ _OBJC_CLASS_$_NSMutableArray
++ _OBJC_CLASS_$_NSMutableDictionary
++ _OBJC_CLASS_$_NSMutableOrderedSet
++ _OBJC_CLASS_$_NSMutableSet
++ _OBJC_CLASS_$_NSMutableString
++ _OBJC_CLASS_$_NSNull
++ _OBJC_CLASS_$_NSScanner
++ _OBJC_CLASS_$_NSSet
++ _OBJC_CLASS_$_NSString
++ _OBJC_CLASS_$_NSURLSessionTaskTransactionMetrics
++ _OBJC_CLASS_$_NSUUID
++ _OBJC_CLASS_$_NSUserDefaults
++ _OBJC_CLASS_$_UISPathDrawing
++ _OBJC_CLASS_$_UISSlotMachine
++ _OBJC_CLASS_$_UISTextLineDrawing
++ _OBJC_CLASS_$_UISVectorGlyphDrawing
++ _OBJC_CLASS_$__EXExtensionIdentity
++ _OBJC_EHTYPE_$_NSException
++ _OZpDoyky
++ _QSIlMWCo
++ _SBUserNotificationAlternateButtonPresentationStyleKey
++ _SZExtractorHashTypeMD5
++ _SZExtractorHashTypeSHA256
++ _SZExtractorOptionsQuarantineInfo
++ _SecCopyErrorMessageString
++ _SecItemAdd
++ _SecItemCopyMatching
++ _SecItemDelete
++ _SecItemUpdate
++ _TBQFRWlW
++ __Block_object_dispose
++ __CFHostIsDomainTopLevel
++ __NSConcreteGlobalBlock
++ __Unwind_Resume
++ ___CFConstantStringClassReference
++ ___NSArray0__struct
++ ___NSDictionary0__struct
++ ___error
++ ___objc_personality_v0
++ __dispatch_main_q
++ __os_log_error_impl
++ __os_log_fault_impl
++ __set_user_dir_suffix
++ __sl_dlopen
++ __xpc_type_dictionary
++ __xpc_type_int64
++ _abort
++ _abort_report_np
++ _cdHFeFDJ
++ _container_system_group_path_for_identifier
++ _dispatch_async
++ _dispatch_get_global_queue
++ _dispatch_once
++ _dispatch_queue_create
++ _dispatch_sync
++ _dlerror
++ _fyzGzQHg
++ _g4Bksweo
++ _jYWQDEvI
++ _kCTFontAttributeName
++ _kCTFontNameAttribute
++ _kCTForegroundColorAttributeName
++ _kCTUIFontTextStyleShortBody
++ _kMobileKeyBagLockStatusNotifyToken
++ _kSecAttrAccount
++ _kSecAttrLabel
++ _kSecAttrNoLegacy
++ _kSecAttrServer
++ _kSecClass
++ _kSecClassGenericPassword
++ _kSecClassInternetPassword
++ _kSecMatchLimit
++ _kSecMatchLimitOne
++ _kSecReturnAttributes
++ _kSecReturnData
++ _kSecValueData
++ _mach_continuous_time
++ _mach_timebase_info
++ _malloc_type_calloc
++ _malloc_type_malloc
++ _niaOacKH
++ _objc_alloc
++ _objc_alloc_init
++ _objc_autoreleasePoolPop
++ _objc_autoreleasePoolPush
++ _objc_autoreleaseReturnValue
++ _objc_begin_catch
++ _objc_claimAutoreleasedReturnValue
++ _objc_destroyWeak
++ _objc_end_catch
++ _objc_enumerationMutation
++ _objc_exception_rethrow
++ _objc_getClass
++ _objc_getProperty
++ _objc_loadWeakRetained
++ _objc_opt_class
++ _objc_opt_isKindOfClass
++ _objc_opt_new
++ _objc_opt_respondsToSelector
++ _objc_release_x1
++ _objc_release_x10
++ _objc_retainAutorelease
++ _objc_retainAutoreleaseReturnValue
++ _objc_retainBlock
++ _objc_retain_x2
++ _objc_retain_x3
++ _objc_retain_x4
++ _objc_retain_x5
++ _objc_setProperty_nonatomic_copy
++ _objc_storeStrong
++ _objc_storeWeak
++ _objc_terminate
++ _os_activity_get_identifier
++ _os_eligibility_get_domain_answer
++ _os_log_create
++ _qENIaLkr
++ _sqlite3_bind_blob
++ _sqlite3_bind_double
++ _sqlite3_bind_int
++ _sqlite3_bind_int64
++ _sqlite3_bind_null
++ _sqlite3_bind_text
++ _sqlite3_bind_text16
++ _sqlite3_changes
++ _sqlite3_clear_bindings
++ _sqlite3_close
++ _sqlite3_close_v2
++ _sqlite3_column_blob
++ _sqlite3_column_bytes
++ _sqlite3_column_count
++ _sqlite3_column_decltype
++ _sqlite3_column_double
++ _sqlite3_column_int
++ _sqlite3_column_int64
++ _sqlite3_column_name
++ _sqlite3_column_text
++ _sqlite3_column_type
++ _sqlite3_create_function
++ _sqlite3_errstr
++ _sqlite3_exec
++ _sqlite3_extended_result_codes
++ _sqlite3_finalize
++ _sqlite3_key
++ _sqlite3_next_stmt
++ _sqlite3_open_v2
++ _sqlite3_prepare_v2
++ _sqlite3_reset
++ _sqlite3_result_int64
++ _sqlite3_sql
++ _sqlite3_step
++ _sqlite3_stmt_readonly
++ _strcmp
++ _swift_allocateMetadataPack
++ _swift_allocateWitnessTablePack
++ _swift_arrayAssignWithTake
++ _swift_asyncLet_get
++ _swift_dynamicCastObjCClassUnconditional
++ _swift_getAtKeyPath
++ _swift_getExtendedExistentialTypeMetadata_unique
++ _swift_getKeyPath
++ _swift_isUniquelyReferenced_nonNull_bridgeObject
++ _swift_projectBox
++ _swift_unknownObjectWeakAssign
++ _swift_unknownObjectWeakCopyAssign
++ _swift_unknownObjectWeakCopyInit
++ _swift_unknownObjectWeakDestroy
++ _swift_unknownObjectWeakInit
++ _swift_unknownObjectWeakLoadStrong
++ _swift_unknownObjectWeakTakeAssign
++ _swift_unknownObjectWeakTakeInit
++ _usleep
++ _xpc_connection_activate
++ _xpc_connection_create_mach_service
++ _xpc_connection_send_message_with_reply_sync
++ _xpc_connection_set_event_handler
++ _xpc_copy_description
++ _xpc_dictionary_create
++ _xpc_dictionary_get_data
++ _xpc_dictionary_get_value
++ _xpc_dictionary_set_data
++ _xpc_int64_get_value
++ _xpc_release
++ _xrPnDyPw
+- _$s10Foundation23LocalizedStringResourceV17BundleDescriptionO5atURLyAeA0H0VcAEmFWC
+- _$s10Foundation23LocalizedStringResourceV_12defaultValue5table6locale6bundle7commentACs06StaticC0V_SSAAE012LocalizationF0VSSSgAA6LocaleVAC17BundleDescriptionOAJSgtcfC
+- _$s10Foundation3URLV15fileURLWithPathACSSh_tcfC
+- _$s10Foundation4DataV15_RepresentationO5countSivs
+- _$s10Foundation6LocaleV18preferredLanguagesSaySSGvgZ
+- _$s10Foundation8URLErrorV4CodeV9cancelledAEvgZ
+- _$s10Foundation8URLErrorV4CodeVMn
+- _$s10Foundation8URLErrorVMn
+- _$s22ManagedAppDistribution0B8ProgressV5state8bundleID4uuidAcA0B5StateO_SS10Foundation4UUIDVtcfC
+- _$s22ManagedAppDistribution0aB11DeclarationV15InstallBehaviorV0E10TimingEnumO2eeoiySbAG_AGtFZ
+- _$s22ManagedAppDistribution0aB11DeclarationVMn
+- _$s22ManagedAppDistribution0aB11DeclarationVSEAAMc
+- _$s22ManagedAppDistribution0aB11DeclarationVSeAAMc
+- _$s22ManagedAppDistribution0aB6StatusV20InstalledVersionInfoV05appleF2ID06bundleF00j5ShortF0AEs6UInt64VSg_S2StcfC
+- _$s22ManagedAppDistribution16XPCClientMessageV0E4TypeOMa
+- _$s22ManagedAppDistribution16XPCClientMessageV4typeA2C0E4TypeO_tcfC
+- _$s22ManagedAppDistribution6LogKeyV11stringValueSSvg
+- _$s22ManagedAppDistribution6LogKeyV6PrefixO8rawValueSSvg
+- _$s22ManagedAppDistribution6LogKeyV6prefixA2C6PrefixO_tcfC
+- _$s22ManagedAppDistribution6LogKeyVN
+- _$s22ManagedAppDistribution6LogKeyVSEAAMc
+- _$s22ManagedAppDistribution6LogKeyVSeAAMc
+- _$s22ManagedAppDistribution6LogKeyVs23CustomStringConvertibleAAMc
+- _$s2os6LoggerV22ManagedAppDistributionE9appLaunchACvau
+- _$s7Network13NWPathMonitorC11currentPathAA0B0Vvg
+- _$sS2cEycfC
+- _$sSS10FoundationE9localized5table6bundle12localization6locale7commentS2SAAE17LocalizationValueV_SSSgSo8NSBundleCSgAjA6LocaleVs12StaticStringVSgtcfC
+- _$sSSs7CVarArg10FoundationMc
+- _$sScCMa
+- _$sScEMa
+- _$sScEs5ErrorsMc
+- _$sScTss5NeverORs_rlE5valuexvg
+- _$sScTss5NeverORs_rlE5valuexvgTu
+- _$sScTss5NeverORszABRs_rlE17checkCancellationyyKFZ
+- _$sScs10makeStream2of8throwing15bufferingPolicyScsyxs5Error_pG6stream_Scs12ContinuationVyxsAE_p_G12continuationtxm_sAE_pmAI09BufferingF0OyxsAE_p__GtsAE_pRs_rlFZ
+- _$sScs12ContinuationV11TerminationO9cancelledyADyxq___GAFms5ErrorR_r0_lFWC
+- _$sScs12ContinuationV11TerminationOMn
+- _$sScs12ContinuationV11YieldResultOMn
+- _$sScs12ContinuationV13onTerminationyAB0C0Oyxq___GYbcSgvs
+- _$sScs12ContinuationV15BufferingPolicyO9unboundedyADyxq___GAFms5ErrorR_r0_lFWC
+- _$sScs12ContinuationV15BufferingPolicyOMn
+- _$sScs12ContinuationV5yieldyAB11YieldResultOyxq___GxnF
+- _$sScs12ContinuationV6finish8throwingyq_Sgn_tF
+- _$sScs12ContinuationVMa
+- _$sScs12ContinuationVMn
+- _$sScs17makeAsyncIteratorScs0C0Vyxq__GyF
+- _$sScs8IteratorV4nextxSgyYaKF
+- _$sScs8IteratorV4nextxSgyYaKFTu
+- _$sScs8IteratorVMn
+- _$sScsMa
+- _$sxSgSHsSHRzlMc
+- _OBJC_CLASS_$_ASDCellularIdentity
+- _OBJC_CLASS_$_ASDCellularSettings
+- _OBJC_CLASS_$_CoreTelephonyClient
+- _OBJC_CLASS_$_NSPropertyListSerialization
+- _OBJC_CLASS_$_SwiftNativeNSObject
+- _OBJC_CLASS_$_UMUserManager
+- _OBJC_METACLASS_$_SwiftNativeNSObject
+- _arc4random_uniform
+- _bootstrap_look_up
+- _bootstrap_port
+- _kSZArchiverHashTypeMD5
+- _kSZArchiverHashTypeSHA256
+- _memset_pattern16
+- _objc_retain_x13
+- _swift_getTupleTypeLayout2
+- _swift_getTupleTypeLayout3
+- _swift_initEnumMetadataSinglePayload
+- _swift_isaMask
+- _swift_weakAssign
+- _time
+CStrings:
++ "\x01"
++ "\x01\x11"
++ "\x01!\""
++ "\x02"
++ "\n\tCompatible product variants: "
++ "\x11"
++ "\x12"
++ "\x13"
++ " "
++ "    CREATE TABLE IF NOT EXISTS schema_version (\n        schema_name TEXT,\n        schema_version INTEGER DEFAULT 0,\n        PRIMARY KEY(schema_name)\n    );"
++ " ("
++ " (pid INTEGER NOT NULL PRIMARY KEY)"
++ " =  ? LIMIT 1;"
++ " = ?"
++ " = ?;"
++ " AND "
++ " AS "
++ " FROM "
++ " FROM %@"
++ " IN ("
++ " LIKE "
++ " LIMIT ?"
++ " NOT IN ("
++ " OR "
++ " ORDER BY "
++ " SET "
++ " WHERE "
++ " is unsupported at the top level"
++ "!"
++ "!="
++ "#"
++ "#\x11"
++ "%@ %@"
++ "%@ %@ ?"
++ "%@(%@)"
++ "%@.%@"
++ "%@: %lld"
++ "%lu"
++ "%s: No record nor bundle ID, return available"
++ "%{public}s: Setting distributor ID overridable for store signed apps to `%{bool,public}d`"
++ "("
++ ")"
++ ") VALUES (?"
++ ");"
++ "+[%@ databaseTable] not implemented"
++ ", "
++ ", ?"
++ "-"
++ "-last-auto-updates-poll"
++ "-shm"
++ "-wal"
++ "."
++ ".ROWID = ?;"
++ ".com.apple.mobile_container_manager.metadata.plist"
++ "/.well-known/marketplace-kit"
++ "/.well-known/oauth-authorization-server"
++ "/System/Library/Frameworks/ManagedAppDistribution.framework"
++ "0@`"
++ "0`"
++ "1"
++ "128"
++ "1@`"
++ "1`"
++ "2@`"
++ "4"
++ ";"
++ "<"
++ "<%@: %p> %@ %@ '%@'"
++ "<="
++ "="
++ ">"
++ ">="
++ "?"
++ "@"
++ "@\"<ASUSQLiteConnectionDelegate>\""
++ "@\"<UISDrawing>\"36@0:8@\"UISSlotStyle\"16@24B32"
++ "@\"ASUSQLiteConnection\""
++ "@\"ASUSQLiteConnectionOptions\""
++ "@\"ASUSQLitePredicate\""
++ "@\"ASUSQLiteQuery\""
++ "@\"ASUSQLiteQueryDescriptor\""
++ "@\"ASUSQLiteStatement\""
++ "@\"NSArray\""
++ "@\"NSDictionary\""
++ "@\"NSDictionary\"24@0:8@\"NSArray\"16"
++ "@\"NSDictionary\"8@?0"
++ "@\"NSError\""
++ "@\"NSError\"24@0:8^B16"
++ "@\"NSMapTable\""
++ "@\"NSMutableArray\""
++ "@\"NSMutableDictionary\""
++ "@\"NSSet\"16@0:8"
++ "@\"NSString\""
++ "@\"NSString\"24@0:8@\"NSString\"16"
++ "@20@0:8i16"
++ "@24@0:8#16"
++ "@24@0:8@\"NSString\"16"
++ "@24@0:8^B16"
++ "@24@0:8^{_NSZone=}16"
++ "@32@0:8#16#24"
++ "@32@0:8@16^@24"
++ "@32@0:8@16q24"
++ "@32@0:8^{__CFString=}16^{__CFString=}24"
++ "@32@0:8^{sqlite3_stmt=}16@24"
++ "@32@0:8q16@24"
++ "@36@0:8@16@24B32"
++ "@40@0:8@16@24#32"
++ "@40@0:8@16@24@32"
++ "@40@0:8@16@24q32"
++ "@40@0:8q16@24@32"
++ "@48@0:8@16@24@32#40"
++ "@48@0:8@16@24@32@40"
++ "@56@0:8@16@24@32@40#48"
++ "@@appName@@ Not Available"
++ "ADP Installation Request"
++ "ADP URL not found"
++ "ASC"
++ "ASCAdamID"
++ "ASCArtwork"
++ "ASCArtworkCropBoundingBox"
++ "ASCArtworkFormatPNG"
++ "ASCArtworkTemplateKeyCrop"
++ "ASCArtworkTemplateKeyFormat"
++ "ASCArtworkTemplateKeyHeight"
++ "ASCArtworkTemplateKeyWidth"
++ "ASCLockupContextAppDistributionInstall"
++ "ASCLockupKindApp"
++ "ASCLockupRequest"
++ "ASCLockupViewGroup"
++ "ASUDefaultsManager"
++ "ASUSQLiteBinding"
++ "ASUSQLiteComparisonPredicate"
++ "ASUSQLiteCompoundPredicate"
++ "ASUSQLiteConnection"
++ "ASUSQLiteConnectionOptions"
++ "ASUSQLiteContainsPredicate"
++ "ASUSQLiteCursor"
++ "ASUSQLiteDidDeleteEntityNotification"
++ "ASUSQLiteEntity"
++ "ASUSQLiteErrorDomain"
++ "ASUSQLiteKeychainHelper"
++ "ASUSQLiteMemoryEntity"
++ "ASUSQLiteNullPredicate"
++ "ASUSQLitePredicate"
++ "ASUSQLitePreparedStatement"
++ "ASUSQLitePropertyPredicate"
++ "ASUSQLiteQuery"
++ "ASUSQLiteQueryDescriptor"
++ "ASUSQLiteQueryResults"
++ "ASUSQLiteStatement"
++ "ASUSQLiteUserInfoKeyPersistentID"
++ "Activity associated with %{public}s"
++ "Added approved developerID: %{public}s name:  %{public}s"
++ "All automatic updates checks complete"
++ "Allow Marketplace From “@@developerName@@”"
++ "Any installed marketplaces will be managed by the developer and may give them access to your data."
++ "App %{public}s is not installed"
++ "App Already Installed"
++ "App Installation"
++ "App Launch Request"
++ "App Not Available"
++ "App Store User Data Encryption"
++ "App install schema update failed: %{public}@"
++ "App not available with for distributorID: "
++ "AppDistribution-%@-%@"
++ "AppDistributorOverrideCanApplyToStoreSignedApps"
++ "AppInstallEntity for %s does not have an appleItemID"
++ "AppInstallEntity was missing appleItemID or bundleID"
++ "AppLicenseDeliveryUtilities"
++ "Apps can be installed only from the App Store or an app marketplace."
++ "Asked to handle emergency reset"
++ "Asset public ID not found"
++ "AutoUpdatesEnabled"
++ "B"
++ "B24@0:8@\"NSDictionary\"16"
++ "B24@0:8@?16"
++ "B24@?0@\"IXAppInstallCoordinator\"8@\"NSError\"16"
++ "B32@0:8@16@\"NSString\"24"
++ "B36@0:8^{__CFString=}16^{__CFString=}24B32"
++ "B40@0:8@16@24^@32"
++ "B40@0:8@16^@24@?32"
++ "B8@?0"
++ "BEGIN DEFERRED TRANSACTION"
++ "Begin Restoring"
++ "Bundle ID not found for "
++ "Bundle ID: `%{public}s`"
++ "By allowing this developer, you will be able to install their marketplaces on your iPhone."
++ "COMMIT TRANSACTION"
++ "COUNT"
++ "CREATE TABLE IF NOT EXISTS "
++ "CREATE TEMPORARY TABLE "
++ "Can't construct Array with count < 0"
++ "Can't handle secure button action request with no signing identifier"
++ "Can't resume an empty batch: %{public}s"
++ "Canceling updates poll since it's automatic updates are disabled."
++ "Cancellation failed, install \"%s\" not found"
++ "Cancelling installation \"%lld\""
++ "Cancelling untracked owned coordinator: %{public}@"
++ "Cannot Install App"
++ "Cannot Install Marketplace"
++ "Can’t Install “@@name@@”"
++ "Can’t Update “@@name@@”"
++ "Check Device Capability for ADP Installation"
++ "Checking for automatic marketplace updates"
++ "Checking for weekly CA event eligibility"
++ "Cleanup restore metadata on start"
++ "Client failed to determine available automatic updates: %{public}@"
++ "Coalescing installing and installed metadata for %{public}s"
++ "Code verifier was generated incorrectly!"
++ "Connection taken down HARD, please call close before deallocating: %{public}@"
++ "Creating installation \"%{public}lld\" to handle event: %{public}s"
++ "Creating installation \"%{public}lld\" to resume download"
++ "Current network %s allows %s: %s"
++ "DATETIME"
++ "DDM schema update failed: %{public}@"
++ "DELETE FROM %@ WHERE %@ = ?;"
++ "DISTINCT "
++ "Database defaults key generation failed unexpectedly"
++ "Defaults"
++ "Device for variant selection:\n\tPrimary product variant: "
++ "Device not eligible"
++ "Device state: unlocked = %{bool}d, since boot = %{bool}d"
++ "DiagnosticRequest"
++ "Did not find OAuth server metadata"
++ "Discovered updates:\n"
++ "Division by zero"
++ "Division results in an overflow"
++ "Domain not found"
++ "Either URL must be provided, or use alternate method that takes a network path"
++ "Encountered exception while executing query: %{public}@"
++ "Encountered exception while in transaction: %{public}@"
++ "Enqueuing enterprise manifest install '%{public}s"
++ "Enumerating coordinators failed with error: %{public}@"
++ "Error decrypting chunks"
++ "Error ending session"
++ "Error fetching valid manifest: %{public}@"
++ "Error in passbook provisioning: %{public}s"
++ "Error pausing coordinator for %s from %{public}s: %{public}@"
++ "Error resuming coordinator for %s from %{public}s: %{public}@"
++ "Expected to decode Array<Any> but instead found "
++ "Expected to decode Bool but instead found "
++ "Expected to decode Data but instead found "
++ "Expected to decode Dictionary<String, Any> but instead found "
++ "Expected to decode Double but instead found "
++ "Expected to decode Float but instead found "
++ "Expected to decode Int but instead found "
++ "Expected to decode Int16 but instead found "
++ "Expected to decode Int32 but instead found "
++ "Expected to decode Int64 but instead found "
++ "Expected to decode Int8 but instead found "
++ "Expected to decode String but instead found "
++ "Expected to decode UInt but instead found "
++ "Expected to decode UInt16 but instead found "
++ "Expected to decode UInt32 but instead found "
++ "Expected to decode UInt64 but instead found "
++ "Expected to decode UInt8 but instead found "
++ "Expiring license check"
++ "Failed to create a promoting restore: %s"
++ "Failed to create a restore: %s"
++ "Failed to decode response"
++ "Failed to deserialize JSON data for `%{public}@` error: %{public}@"
++ "Failed to distributor list due to error: %{public}@"
++ "Failed to enumerate restoring coordinators: %s"
++ "Failed to load developer list from url: %{private}s error: %{public}@"
++ "Failed to load localization jetpack: %{public}s"
++ "Failed to lookup active restores: %{public}@"
++ "Failed to migrate developers approvals due to error: %{public}@"
++ "Failed to persist HTTP archive: %@"
++ "Failed to remove LKO for %{public}s: %{public}@"
++ "Failed to reset active restores: %{public}@"
++ "Failed to retrieve URL resource values { url: %{public}s, error: %{public}@ }"
++ "Failed to save events without a container url"
++ "Failed to set URL resource values { url: %{public}s, error: %{public}@ }"
++ "Failed while enqueuing automatic updates: %{public}@"
++ "Feature is bag disabled"
++ "Feature not eligible on this device class"
++ "Fetch available app metadata"
++ "Fetch data"
++ "Fetch data for distributor"
++ "Fetching available app metadata from %{public}s for %s"
++ "Fetching bag configuration for distributor: %{public}s atDomain: %s"
++ "FollowupExpirationSeconds"
++ "ForceHTTPForConfigBag"
++ "ForceUpdateMetadata"
++ "Found OAuth server metadata"
++ "Found OAuth server metadata in configuration bag"
++ "Found application record for app %{public}s but with unexpected distributorID; discarding app record"
++ "Found existing enqueued installation for \"%{public}s\": %{public}s"
++ "Found existing requested installation for \"%{public}s\": %{public}s"
++ "Found installation identifier \""
++ "GKScopedIdManager"
++ "Generating new encryption key for identifier: %{public}@"
++ "Get distributor ID"
++ "Getting distributor ID value for %{public}s with potential override %{public}s"
++ "Giving time for native extensions to check for automatic updates"
++ "Got ALD error: %{public}d: %{public}s"
++ "Handle Emergency Reset"
++ "Has active install"
++ "Has active restore"
++ "HasEverHadMultipleMarketplaces"
++ "INSERT OR REPLACE INTO "
++ "IS NOT NULL"
++ "IS NULL"
++ "IXCoordinatorWithUserDataPromise"
++ "Ineligible for weekly CA events"
++ "Installation \"%lld\" cannot be cancelled right now: %s"
++ "Installation \"%lld\" cannot be paused right now: %s"
++ "Installation \"%{public}lld\" could not be found"
++ "Installation cancellation failed, \"%lld\" not found in the database"
++ "Installation not found for \"%{public}s\" for \"%{public}s\""
++ "Installation not found for %llu"
++ "Installation pause failed, \"%lld\" not found in the database"
++ "Installer Cancel"
++ "Installer Resume"
++ "Installer Start"
++ "Installer Task"
++ "Insufficient space allocated to copy string contents"
++ "Insufficient space available. Need "
++ "Invalid install verification token"
++ "Invalid install verification token. Invalid field: "
++ "Invalid search territory provided"
++ "Invalid state, received '%s' but expected '%s'"
++ "Invalid status code: "
++ "Item ID not found"
++ "JSON"
++ "JSONObjectWithData:options:error:"
++ "Keychain failed to return value (error %d)"
++ "Keychain failed to return value (error %d): %@"
++ "LastWeeklyCAEventsPost"
++ "License storage schema update failed: %{public}@"
++ "Loaded resource bundle version %s"
++ "Loading developer list"
++ "Loading developer list from: %{private}s"
++ "Loading distributor preferences"
++ "Loading distributor preferences from: %{private}s"
++ "Loading localization resource bundle from %s"
++ "MAX"
++ "MD5"
++ "MIN"
++ "ManagedAppDistribution"
++ "ManagedAppDistribution.App.Restricted.Message"
++ "ManagedAppDistribution.App.Restricted.Title"
++ "ManagedAppDistribution.AppAlreadyInstalled.AppStore"
++ "ManagedAppDistribution.AppAlreadyInstalled.Message"
++ "ManagedAppDistribution.AppAlreadyInstalled.Title"
++ "ManagedAppDistribution.AppAlreadyInstalledFromWeb.Message"
++ "ManagedAppDistribution.AppFromMarketplace.Restricted.Message"
++ "ManagedAppDistribution.AppNotAvailable.Message"
++ "ManagedAppDistribution.AppNotAvailable.Title"
++ "ManagedAppDistribution.AppNotAvailableFromDistributor.Message"
++ "ManagedAppDistribution.AppNotAvailableFromDistributor.Title"
++ "ManagedAppDistribution.CantInstall.Message"
++ "ManagedAppDistribution.CantInstall.Title"
++ "ManagedAppDistribution.CantUpdate.Message"
++ "ManagedAppDistribution.CantUpdate.Title"
++ "ManagedAppDistribution.Common.Allow"
++ "ManagedAppDistribution.Common.Continue"
++ "ManagedAppDistribution.Common.Ignore"
++ "ManagedAppDistribution.Common.LearnMore"
++ "ManagedAppDistribution.Common.LearnMore.NonBreakingSpace"
++ "ManagedAppDistribution.Common.NotNow"
++ "ManagedAppDistribution.Common.Ok"
++ "ManagedAppDistribution.DeveloperApproval.AppInstallation.Body"
++ "ManagedAppDistribution.DeveloperApproval.AppInstallation.Title"
++ "ManagedAppDistribution.DeveloperApproval.Body"
++ "ManagedAppDistribution.DeveloperApproval.FollowUp.Text"
++ "ManagedAppDistribution.DeveloperApproval.Title"
++ "ManagedAppDistribution.DeveloperApproval.UnavailableFeatures.Body"
++ "ManagedAppDistribution.DeveloperApproval.UnavailableFeatures.Title"
++ "ManagedAppDistribution.DeveloperApproval.YourData.Body"
++ "ManagedAppDistribution.DeveloperApproval.YourData.Title"
++ "ManagedAppDistribution.IncompatibleSource.Message"
++ "ManagedAppDistribution.IncompatibleSource.Title"
++ "ManagedAppDistribution.IneligiblePlatform.Marketplace.Message"
++ "ManagedAppDistribution.Marketplace.NotAllowed.Message"
++ "ManagedAppDistribution.Marketplace.NotAllowed.Title"
++ "ManagedAppDistribution.Marketplace.RequestAuthentication.Message"
++ "ManagedAppDistribution.Marketplace.RequestAuthentication.Open"
++ "ManagedAppDistribution.Marketplace.RequestAuthentication.Remove"
++ "ManagedAppDistribution.Marketplace.Restricted.Message"
++ "ManagedAppDistribution.Marketplace.Restricted.Title"
++ "ManagedAppDistribution.Passcode.Reason.Developer"
++ "ManagedAppDistribution.Passcode.Title"
++ "ManagedAppDistribution.VerificationRequired.Install.App.Message"
++ "ManagedAppDistribution.VerificationRequired.Install.Marketplace.Message"
++ "ManagedAppDistribution.VerificationRequired.Title"
++ "ManagedAppDistribution.VerificationRequired.Update.App.Message"
++ "ManagedAppDistribution.VerificationRequired.Update.Marketplace.Message"
++ "ManagedAppDistributionDaemon.DownloadTask"
++ "ManagedAppDistributionDaemon.InstallConfirmationTask"
++ "ManagedAppDistributionDaemon.Observer"
++ "ManagedAppDistributionDaemon.SecureButton"
++ "ManagedAppDistributionDaemon.SecureTaskDelegate"
++ "ManagedAppDistributionDaemon/AppInstallEngine.swift"
++ "ManagedAppDistributionDaemon/DistributorExtensionBridge.swift"
++ "ManagedAppDistributionDaemon/IPA_PreambleTask.swift"
++ "ManagedAppDistributionDaemon/NetworkPolicy.swift"
++ "ManagedAppDistributionDaemon/OAuthTypes.swift"
++ "ManagedAppDistributionDaemon/SQLite.swift"
++ "ManagedAppDistributionDaemon/SQLiteQuery.swift"
++ "ManagedAppDistributionDaemon/SQLiteSchema.swift"
++ "ManagedAppDistributionDaemon/TaskLocalContext.swift"
++ "ManagedAppDistributionDaemon3"
++ "Manifest is located at URL: %{public}s"
++ "Manifest validation"
++ "Manifest validation requested"
++ "Marketplace Installation"
++ "Marketplace extension not found"
++ "MarketplaceKit/1.0 "
++ "Migrating schema '%{public}s' from %{public}s to %{public}s"
++ "Minimum OS version not satisfied (Minimum: "
++ "Mismatched capabilities: "
++ "Missing expected metadata for %{public}s"
++ "Missing required install verification token"
++ "Must take zero or more splits"
++ "NSCopying"
++ "NSURLSessionTaskDelegatePrivate"
++ "Negative value is not representable"
++ "Network unvailable"
++ "No account ID found"
++ "No app key data found for "
++ "No bundle ID available"
++ "No calling bundle ID found when confirming %{public}s"
++ "No compatible thinned variant found, falling back to the universal variant ("
++ "No decryption session created"
++ "No distributor ID available for app %{public}s"
++ "No distributor found"
++ "No distributorID!"
++ "No eligible variant found"
++ "No license data in response"
++ "No license renewal URL available"
++ "No marketplace updates discovered"
++ "No minimum OS specified for the current platform"
++ "No package available for \"%lld\""
++ "No pending batch install with ID: %{public}s found"
++ "No pending install with ID: %{public}s found"
++ "No registered client for handleAppCatalogChange for distributor %{public}s"
++ "No repair path found"
++ "NoMinimumPollingInterval"
++ "Not bundle ID found"
++ "Not enough bits to represent the passed value"
++ "Not performing automatic updates, setting is disabled"
++ "Not running automatic updates, setting is disabled"
++ "OAuth authorize"
++ "Open @@marketplaceName@@…"
++ "PRAGMA cache_size=%ld"
++ "PRAGMA index_list("
++ "PRAGMA journal_mode=WAL"
++ "PRAGMA table_info("
++ "Parent activity ID: %llu"
++ "Parking \"%lld\" for reason: %{public}s"
++ "Pausing installation \"%lld\""
++ "Perform action"
++ "Perform action request %{public}s called by %{public}s"
++ "Perform private action"
++ "Perform private action request %{public}s called by %{public}s"
++ "Performing purchase lookup for: %{public}s"
++ "Performing purchase with buy params: %{public}@"
++ "Persona{Personal}"
++ "Phase has no corresponding task"
++ "Poll for updates Request"
++ "Posting CA event for %{public}s: %s"
++ "Posting state changes for %s apps: %s"
++ "Posting weekly CA events"
++ "Promote Apps"
++ "RELEASE SAVEPOINT %@"
++ "ROLLBACK TRANSACTION"
++ "ROLLBACK TRANSACTION TO SAVEPOINT %@"
++ "ROWID"
++ "Range requires lowerBound <= upperBound"
++ "Received coordinator event: %s, %s"
++ "Received unexpected coordinator event %s for '%{public}lld'"
++ "Received unexpected download resumption for '%{public}lld'"
++ "Removed restores: [%s]"
++ "Request update"
++ "Request update metadata"
++ "Reservation for identifier  \"%{public}s\" was not found"
++ "Reservation for identifier \"%{public}s\" was not found"
++ "RestoreRequest"
++ "Returning %ld apps installed, %ld apps installing, and %ld apps updating to %{public}s"
++ "Returning %ld installed apps for %{public}s"
++ "Returning %{public}s to %{public}s"
++ "Returning authoritative distributor ID %{public}s for app %{public}s"
++ "Returning overridden distributor ID %{public}s for profile validated app %{public}s"
++ "Returning overridden distributor ID %{public}s for store-signed app %{public}s"
++ "S256"
++ "SAVEPOINT %@"
++ "SELECT "
++ "SELECT 1 FROM "
++ "SELECT 1 FROM %@ WHERE %@ = ? LIMIT 1;"
++ "SELECT name FROM sqlite_master where name = ?"
++ "SELECT schema_version FROM schema_version WHERE schema_name = '"
++ "SP_%@"
++ "SQL"
++ "SQLForEntityClass:"
++ "SQLJoinClausesForEntityClass:"
++ "SQLiteTypeChecking"
++ "STRING"
++ "SUM"
++ "Saving approved events to: %{private}s"
++ "Saving preferences store to: %{private}s"
++ "Schema '%{public}s' already up to date at version %{public}s"
++ "SecItemCopyMatching succeeded with empty results"
++ "Secure storage schema update failed: %{public}@"
++ "Selected variant: "
++ "Set data"
++ "Set data for distributor"
++ "Set distributor ID overridable"
++ "Set private data request %{public}s called by %{public}s"
++ "Shutting down \"%lld\""
++ "SkipMarketplaceOnlyEnforcement"
++ "SoftLinker"
++ "Starting update discovery, automatic updates enabled: %{bool,public}d"
++ "Starting update for "
++ "Starting update for %{public}s"
++ "Statement already finalized"
++ "Statement from a different connection"
++ "StoreKit/receipt"
++ "Swift/Array.swift"
++ "Swift/Collection.swift"
++ "Swift/ContiguousArrayBuffer.swift"
++ "Swift/IntegerTypes.swift"
++ "Swift/Integers.swift"
++ "Swift/Range.swift"
++ "Swift/StringTesting.swift"
++ "Swift/StringUTF8View.swift"
++ "Swift/UnsafeBufferPointer.swift"
++ "Swift/UnsafePointer.swift"
++ "Swift/UnsafeRawPointer.swift"
++ "T#,N,V_entityClass"
++ "T#,N,V_memoryEntityClass"
++ "T@\"<ASUSQLiteConnectionDelegate>\",W,N,V_delegate"
++ "T@\"AMSProcessInfo\",?,R,C,N"
++ "T@\"ASUSQLiteConnection\",R"
++ "T@\"ASUSQLiteConnection\",R,N,V_connection"
++ "T@\"ASUSQLiteConnectionOptions\",R,C,N,V_options"
++ "T@\"ASUSQLitePredicate\",C,N,V_predicate"
++ "T@\"ASUSQLiteQuery\",R,N,V_query"
++ "T@\"ASUSQLiteQueryDescriptor\",R"
++ "T@\"NSArray\",C,N,V_orderingDirections"
++ "T@\"NSArray\",C,N,V_orderingProperties"
++ "T@\"NSArray\",R,N,V_predicates"
++ "T@\"NSArray\",R,N,V_values"
++ "T@\"NSDictionary\",R,C,N"
++ "T@\"NSDictionary\",R,C,N,V_externalPropertyValues"
++ "T@\"NSDictionary\",R,C,N,V_propertyValues"
++ "T@\"NSNumber\",R,C,N"
++ "T@\"NSString\",?,R,C"
++ "T@\"NSString\",C,N,V_encryptionKeyId"
++ "T@\"NSString\",C,N,V_orderingClause"
++ "T@\"NSString\",C,N,V_protectionType"
++ "T@\"NSString\",R,N,V_property"
++ "T@\"NSString\",R,N,V_queryProperty"
++ "T@\"NSString\",R,V_databasePath"
++ "T@,R,N,V_value"
++ "TB,N,GisReadOnly,V_readOnly"
++ "TB,N,V_returnsDistinctEntities"
++ "TB,R,N,GisNegative,V_negative"
++ "TB,R,N,GisReadOnly"
++ "TB,R,N,V_matchesNull"
++ "Tap Continue and sign in to install this app."
++ "Tap Continue and sign in to install this marketplace."
++ "Tap Continue and sign in to update this app."
++ "Tap Continue and sign in to update this marketplace."
++ "TestAppVersionMetadata"
++ "The 'pid' column is created automatically - remove it from the schema"
++ "The URL is invalid"
++ "This app is currently not available."
++ "This app is no longer available on @@distributorName@@."
++ "This marketplace can only be installed on iPhone."
++ "This should be for MarketplaceKitError"
++ "To install “@@appName@@” again, you need to verify your account in “@@marketplaceName@@”."
++ "Tq,N,R"
++ "Tq,N,V_cacheSize"
++ "Tq,N,V_databaseID"
++ "Tq,N,V_limitCount"
++ "Tq,R"
++ "Tq,R,N"
++ "Tq,R,N,V_comparisonType"
++ "Tq,R,N,V_persistentID"
++ "T{CGRect={CGPoint=dd}{CGSize=dd}},?,R,N"
++ "T{CGSize=dd},N,R,VdrawingSize"
++ "T{CGSize=dd},R,N"
++ "UISDrawing"
++ "UISSlotDrawer"
++ "UPDATE "
++ "URL"
++ "URL does not have a valid host."
++ "URLForColumnIndex:"
++ "URLForColumnName:"
++ "URLSession:_taskIsWaitingForConnection:"
++ "URLSession:task:_alternatePathAvailable:"
++ "URLSession:task:_conditionalRequirementsChanged:"
++ "URLSession:task:_didReceiveInformationalResponse:"
++ "URLSession:task:_isWaitingForConnectionWithError:"
++ "URLSession:task:_isWaitingForConnectionWithReason:"
++ "URLSession:task:_schemeUpgraded:completionHandler:"
++ "URLSession:task:_willSendRequestForEstablishedConnection:completionHandler:"
++ "URLWithString:"
++ "URLsForDirectory:inDomains:"
++ "UTF8String"
++ "UUID"
++ "UUIDForColumnIndex:"
++ "UUIDForColumnName:"
++ "UUIDString"
++ "Unable to Install App"
++ "Unable to configure context for static license processing"
++ "Unable to enqueue update "
++ "Unable to fetch the encryption certificate"
++ "Unable to fetch the signing certificate"
++ "Unable to fetch/generate key with identifier: %{public}@ error: %{public}@"
++ "Unable to find class %s"
++ "Unable to generate license request"
++ "Unable to init ALD context"
++ "Unable to initialize ALD context"
++ "Unable to launch app, no signing identifier"
++ "Unable to obtain container path: error %@"
++ "Unable to obtain container path: error %llu"
++ "Unable to process license response"
++ "Unable to provision ALD data for "
++ "Unable to provision FP data for "
++ "Unable to provision: "
++ "Unable to remove %{public}s from distributor list: %{public}s"
++ "Unavailable Features"
++ "Unexpectedly found nil while unwrapping an Optional value"
++ "Unhandled license type: %{public}u"
++ "Uninstalling %{public}s after revoking approval of %{public}s"
++ "Unknown distributor type: %{public}s"
++ "Unknown hard failure from distributorID: "
++ "Unrecoverable error"
++ "UnsafeMutableBufferPointer with negative count"
++ "UnsafeMutablePointer.initialize overlapping range"
++ "UnsafeMutablePointer.initialize with negative count"
++ "UnsafeMutablePointer.moveInitialize with negative count"
++ "UnsafeMutableRawPointer.initializeMemory overlapping range"
++ "Update backup to allow of url: %s"
++ "Update backup to exclude of url: %s"
++ "User cancelled the operation"
++ "Validating manifest from %{public}s..."
++ "Vendor info not provided, receipt will be missing"
++ "Verification Required"
++ "Version ID not found"
++ "Waiting for installation"
++ "Waking for scheduled automatic update activity"
++ "Web updates schema update failed: %{public}@"
++ "You attempted to install “@@appName@@” from “@@domain@@”. Your device settings don't allow marketplaces to be installed by the developer “@@developerName@@” from the web. @@learnMoreLink@@"
++ "Your App Store account, stored payment method, and related features, such as subscription management and refund requests, will not be available."
++ "Your installation settings on this iPhone don’t allow marketplaces by “@@name@@” to be installed from the web. You can change this in Settings."
++ "Your passcode is required to allow this developer."
++ "Your settings on this iPhone don’t allow apps to be installed from this marketplace."
++ "Your settings on this iPhone don’t allow apps to be installed."
++ "Your settings on this iPhone don’t allow marketplaces to be installed."
++ "You’re not eligible to install new apps from “@@name@@”."
++ "You’re not eligible to update apps from “@@name@@”."
++ "[%@ Failed to enumerate coordinators: %s"
++ "[%@)] Package `%{public}lld` has no location set"
++ "[%@] %{public}s %snot on the device"
++ "[%@] %{public}s - %{public}s : %{public}s"
++ "[%@] %{public}s asked us to update %{public}llu but they don't have it installed."
++ "[%@] %{public}s is managed by DDM on the device"
++ "[%@] %{public}s is managed on the device"
++ "[%@] %{public}s is present on the device"
++ "[%@] %{public}s requested license renewal for %{public}s"
++ "[%@] %{public}s requested license repair for %{public}s (%{public}d)"
++ "[%@] %{public}s returned with %{public}ld available updates"
++ "[%@] A version of `%{public}s` already installed, forcing update intent"
++ "[%@] ADP signature validated successfully"
++ "[%@] Adding missing distributor `%{public}s` to priority list "
++ "[%@] Adopting management from MDMv1"
++ "[%@] Allowing distribution from %{public}s for internal build only"
++ "[%@] Allowing marketplace update"
++ "[%@] Allowing update from TestFlight app"
++ "[%@] Already transitioned to '%{public}s'"
++ "[%@] App installation is restricted"
++ "[%@] App is launch prohibited"
++ "[%@] Application `%{public}s` could not be found"
++ "[%@] Approving device security"
++ "[%@] Artwork request completed successfully"
++ "[%@] Asked to %{public}s the install"
++ "[%@] Asked to cancel install with identifier: %{public}s"
++ "[%@] Asked to continue install with identifier: %{public}s"
++ "[%@] Assigning installation identifier: %{public}s"
++ "[%@] Attempting to prioritize from phase '%s'"
++ "[%@] Attempting to resume from phase '%s'"
++ "[%@] Attempting to to get ADPs for batch: %{public}s"
++ "[%@] Attributing extension request to containing app %{public}s"
++ "[%@] Authenticated message status is invalid: %{public}ld"
++ "[%@] Authenticated message vpid mismatch. Got %{public}lld, expected %{public}lld"
++ "[%@] Authenticating message for request %{public}s"
++ "[%@] Automatic updates are disabled"
++ "[%@] Automatic updates for extensions is complete"
++ "[%@] Begin restoring"
++ "[%@] Beginning install verification token validation"
++ "[%@] Beginning installation phase"
++ "[%@] Blocking attempt to confirm install started by another distributor."
++ "[%@] Bootstrapping %{public}s"
++ "[%@] Bundle ID: %{public}s Item ID: %{public}llu Version ID: %{public}llu"
++ "[%@] Can't delete app not installed by the requesting distributor"
++ "[%@] Can't launch app not installed by the requesting distributor"
++ "[%@] Can't launch placeholder"
++ "[%@] Can't reset consumer, coordinator not found"
++ "[%@] Can't reset consumer, promise not found"
++ "[%@] Cannot take over management with data separation"
++ "[%@] Checking for expiring licenses"
++ "[%@] Checking in with the server"
++ "[%@] Cleanup on migration complete"
++ "[%@] Cleanup on migration running"
++ "[%@] Completing device security promise"
++ "[%@] Configuring placeholder promise"
++ "[%@] Containing app %{public}s not authorized"
++ "[%@] Containing bundle record not found"
++ "[%@] Coordinator is missing - checking if application is installed"
++ "[%@] Coordinator: %{public}@"
++ "[%@] Creating coordinator"
++ "[%@] Data task %{public}@ did complete"
++ "[%@] Data task %{public}@ did complete with error: %{public}@"
++ "[%@] Data task %{public}@ was finished"
++ "[%@] Developer not allowed, failing."
++ "[%@] Developer not approved, but install is automatic so we can't show a prompt."
++ "[%@] Discovered %{public}s"
++ "[%@] Discovered ADPs for %{public}s"
++ "[%@] Distributor preference data consistency check complete"
++ "[%@] Distributor preference data consistency check complete with updates"
++ "[%@] Domain `%{public}s` not valid for distribution of `%{public}s`"
++ "[%@] Download failed: %{public}@"
++ "[%@] Download state not running, ignoring received data"
++ "[%@] Downloading package with variant: %{public}s, isDelta: %{bool}d"
++ "[%@] Dropping '%{public}s', failed to fetch metadata: %{public}@"
++ "[%@] Dropping now invalid app: %{public}s"
++ "[%@] Dropping update for none requested app: %s"
++ "[%@] End event hit test info is invalid"
++ "[%@] Enqueuing install"
++ "[%@] Enterprise manifest invalid: No artwork found"
++ "[%@] Enterprise manifest invalid: No compatible asset found"
++ "[%@] Error asking for install confirmation: %{public}s"
++ "[%@] Error deleting app app: %{public}@"
++ "[%@] Error fetching app key data %{public}s"
++ "[%@] Error fetching artwork data"
++ "[%@] Error fetching artwork data: %{public}s"
++ "[%@] Error fetching metadata: %{public}s"
++ "[%@] Error fetching restores: %{public}@"
++ "[%@] Error fetching token for account: %{sensitive}s@%{sensitive}s status: %d"
++ "[%@] Error fetching updates: %{public}s"
++ "[%@] Error granting automatic update runtime: %{public}s"
++ "[%@] Error handing off token: %{public}s"
++ "[%@] Error launching app: %{public}@"
++ "[%@] Error loading configuration bag for %{public}s"
++ "[%@] Error not able to decode token data for account: %{sensitive}s@%{sensitive}s, error: %s"
++ "[%@] Error not able to encode token data for account: %{sensitive}s@%{sensitive}s, error: %s"
++ "[%@] Error not able to read token data for account: %{sensitive}s@%{sensitive}s"
++ "[%@] Error occurred while handling download task completion: %{public}@"
++ "[%@] Error saving app key: : %{public}s"
++ "[%@] Error saving distributor to priority list: %{public}s"
++ "[%@] Error saving license key: : %{public}s"
++ "[%@] Error saving updates to database: %{public}s"
++ "[%@] Error sending back initial managed apps: %{public}@"
++ "[%@] Error storing token for account: %{sensitive}s@%{sensitive}s status: %d"
++ "[%@] Error trying to load OAuth endpoints from: %{public}s: %{public}@"
++ "[%@] Error validating ADP signature: %{public}s"
++ "[%@] Expected application appears to be installed with version: %s, proceeding to postamble"
++ "[%@] Expected application with version: %s not installed. Installed version is: %s"
++ "[%@] Expected installing app isn't present: %{public}s"
++ "[%@] Expected partial content, failing download"
++ "[%@] Expected partial content, truncating consumer"
++ "[%@] Expected record for %{public}s but none was found"
++ "[%@] Expecting package data start at offset: %llu"
++ "[%@] Expiring license check completed"
++ "[%@] Failed to %s: %{public}s"
++ "[%@] Failed to authorize with marketplace name due to error: %@"
++ "[%@] Failed to import purchase, there are missing capabilities: %s"
++ "[%@] Failed to instantiate ALD decoder session: %{public}d"
++ "[%@] Failed to notify Game Center of app install: %{public}@"
++ "[%@] Failed to record install event because we didn't have an installType"
++ "[%@] Failed to renew licenses: %{public}s"
++ "[%@] Failed to set device security promise: %{public}@"
++ "[%@] Failed to update AMS universal links: %{public}@"
++ "[%@] Failed to write receipt, data container URL was nil"
++ "[%@] Failing coordinator \"%s\" with error: %{public}@"
++ "[%@] Failing due to ineligibility"
++ "[%@] Fetched token '%{sensitive}s' for account: %{sensitive}s@%{sensitive}s"
++ "[%@] Fetching dynamic license"
++ "[%@] Fetching license for %s"
++ "[%@] Fetching metadata for: %{public}llu : %{public}llu"
++ "[%@] Fetching static license"
++ "[%@] Following redirect: %s headers: %s"
++ "[%@] Found %{public}ld licenses to renew"
++ "[%@] Found duplicate app declaration status for %{public}s: %{public}s & %{public}s"
++ "[%@] Found duplicate app declarations for app identifier %{public}s: %{public}s & %{public}s"
++ "[%@] Found metadata for %ld %{public}s"
++ "[%@] Generating new client identifier: %{public}s"
++ "[%@] Granting automatic update run time to: %{public}s with %{public}ld installed apps"
++ "[%@] Granting run time for automatic updates for extensions"
++ "[%@] Handling ADP installation request of type: %s from: %{public}s. ADP: %{public}s"
++ "[%@] Handling app delete request of %{public}llu for %{public}s"
++ "[%@] Handling app deletion request of `%{public}llu` for %{public}s"
++ "[%@] Handling app launch request of %{public}llu for %{public}s"
++ "[%@] Handling app launch request of %{public}s for %{public}s"
++ "[%@] Handling app launch request of `%{public}llu` for %{public}s"
++ "[%@] Handling batch installation request from secure button for %{public}s with %{public}ld installs"
++ "[%@] Handling coordinator event '%s'"
++ "[%@] Handling installation request from secure button for %{public}s"
++ "[%@] Handling updates poll request for: %{public}s"
++ "[%@] Hard failing %{public}s on a non-eligible device"
++ "[%@] Ignoring error from updating app with DMC: %@"
++ "[%@] Ignoring server trust for task: %{public}@"
++ "[%@] Ignoring update poll request due to feature ineligibility"
++ "[%@] Ineligible distributor: %{public}s"
++ "[%@] Ineligible extension point: %{public}s"
++ "[%@] Ineligible for distribution from %{public}s"
++ "[%@] Ineligible install type `%{public}s`"
++ "[%@] Install confirmation not required for install of type %{public}s, proceeding."
++ "[%@] Install confirmation task finished with result: %{public}s"
++ "[%@] Install sheet required, but this is an automatic install. Failing."
++ "[%@] Install sheet required, requesting confirmation"
++ "[%@] Installation of %s is restricted"
++ "[%@] Installations from %s are restricted"
++ "[%@] Insufficient space available. Need %{public}llu, available: %{public}ld"
++ "[%@] Invalid distribution source: %{public}s"
++ "[%@] Invalid message timestamp %{public}llu"
++ "[%@] Invalid message timestamp, possible replay"
++ "[%@] Invalid metadata: %s"
++ "[%@] Invalid status code fetching encryption certificate from %{public}s: %{public}ld"
++ "[%@] Invalid status code fetching signing certificate from %{public}s: %{public}ld"
++ "[%@] Invalid status code fetching static license from %{public}s: %{public}ld"
++ "[%@] Invalid status code, failing download"
++ "[%@] Item already exists, updating token '%{sensitive}s' for user: %{sensitive}s@%{sensitive}s"
++ "[%@] License associated with %{public}s expires at %{public}f, will attempt renewal"
++ "[%@] License data consistency check complete"
++ "[%@] License renewal complete"
++ "[%@] License renewal failed for `%{public}s with error: %{public}s"
++ "[%@] License renewal for batch `%{public}s : %{public}s` failed with error: %{public}s"
++ "[%@] License repair request complete"
++ "[%@] License unavailable for %{public}s"
++ "[%@] Licenses ineligible for renewal: %{public}s"
++ "[%@] Local update found %{public}s"
++ "[%@] Managed, but leaving uninstalled"
++ "[%@] Marketplace not eligible for this distributor"
++ "[%@] Message is too old: %{public}f"
++ "[%@] Migrating from '%s' to '%s'"
++ "[%@] Migration not needed for '%s'"
++ "[%@] Minimum OS version not satisfied (Minimum: %{public}s, Actual: %{public}s)"
++ "[%@] Mismatched capabilities: %s"
++ "[%@] Missing expected metadata for %{public}s"
++ "[%@] Missing required install verification token"
++ "[%@] Network changed, will retry immediately"
++ "[%@] Network changed, will retry later"
++ "[%@] Network disconnected during preflight, using implicit defaults"
++ "[%@] Network disconnected, will retry later"
++ "[%@] Network timed out, will retry immediately"
++ "[%@] New license for batch `%{public}s : %{public}llu` failed with error: %{public}s"
++ "[%@] No ADP available, failing"
++ "[%@] No active restores found"
++ "[%@] No app declaration status found for %{public}s"
++ "[%@] No apps to promote"
++ "[%@] No available distribution domain for install"
++ "[%@] No bundle ID available"
++ "[%@] No distributor found"
++ "[%@] No eligible variant found"
++ "[%@] No existing token for account: %{sensitive}s@%{sensitive}s"
++ "[%@] No extension found for %{public}s"
++ "[%@] No hit test info"
++ "[%@] No item ID found"
++ "[%@] No license parsed from response"
++ "[%@] No license provided from response"
++ "[%@] No metadata available"
++ "[%@] No minimum OS specified for the current platform"
++ "[%@] No new promotions discovered"
++ "[%@] No preflight metadata available, failing"
++ "[%@] No restores discovered"
++ "[%@] No signing identifier"
++ "[%@] No signing identifier available"
++ "[%@] No updates discovered"
++ "[%@] Non-fatal error occurred when setting extension placeholder: %s"
++ "[%@] Not eligible for install of type: %{public}s"
++ "[%@] Not eligible for updates"
++ "[%@] Not entitled to perform this action"
++ "[%@] Notifying Game Center of app install"
++ "[%@] Optional and uninstalled"
++ "[%@] Overridden bag found for %{public}s"
++ "[%@] Parking to wait for device approval to be granted"
++ "[%@] Parking with reason: %{public}s"
++ "[%@] Phase '%{public}s' completed with result: %{public}s"
++ "[%@] Phase '%{public}s' failed with error: %{public}@"
++ "[%@] Phase '%{public}s' starting"
++ "[%@] Placeholder promise configured"
++ "[%@] Polling for all updates"
++ "[%@] Polling for updates for %{public}s"
++ "[%@] Preparing for download using: %{public}@"
++ "[%@] Preparing install"
++ "[%@] Preparing install failed, cancelling coordinator: %{public}@"
++ "[%@] Purchase completed, performing compatiblity checks"
++ "[%@] Rating above max allowed rating."
++ "[%@] Ready to install ADP(s) for %{public}ld"
++ "[%@] Received %ld additional headers from %{public}s"
++ "[%@] Received %{public}ld available apps from %{public}s: %s, privacy: .public)"
++ "[%@] Received OAuthToken: %s"
++ "[%@] Received access token: %{public}s"
++ "[%@] Received additional headers from %{public}s: %s"
++ "[%@] Received authorization code: %{public}s"
++ "[%@] Received manifest data"
++ "[%@] Received metadata for %{public}s"
++ "[%@] Received no additional headers from %{public}s"
++ "[%@] Received no available apps from %{public}s"
++ "[%@] Received response: %@"
++ "[%@] Received signature data"
++ "[%@] Recorded app install event with result: %{bool}d"
++ "[%@] Recovery failed, not trying again"
++ "[%@] Recovery performed, retrying one more time"
++ "[%@] Remote update found %{public}s"
++ "[%@] Removed"
++ "[%@] Removing declaration"
++ "[%@] Removing license data for uninstalled app %{public}s"
++ "[%@] Removing non-installed apps from disabled sheet list: %{public}s"
++ "[%@] Removing stale install with logKey: %{public}s bundleID: %{public}s coordinatorID: %s phase: %s"
++ "[%@] Renewing licenses with ids: %{public}s"
++ "[%@] Reply received from: %{public}s"
++ "[%@] Request failed, attempting to recover"
++ "[%@] Request is for %{public}s"
++ "[%@] Request policy not satisfied"
++ "[%@] Requested install of %{public}s"
++ "[%@] Requesting install confirmation"
++ "[%@] Requesting installation for required"
++ "[%@] Requesting marketplace authentication at %{public}s"
++ "[%@] Requesting metadata for %ld declaration(s)"
++ "[%@] Requesting metadata for installation of %{public}s"
++ "[%@] Requesting metadata for updating declaration %{public}s"
++ "[%@] Required referrer not found, failing."
++ "[%@] Reset"
++ "[%@] Resetting data consumer"
++ "[%@] Resuming data task: %{public}@ with request: %{public}s"
++ "[%@] Resuming download at offset %llu"
++ "[%@] Resumption offset expected to be zero after truncation"
++ "[%@] Retrying update after delta package patch failed"
++ "[%@] Sending installed versions:"
++ "[%@] Sending request: %s headers: %s"
++ "[%@] Setting install options"
++ "[%@] Skipping minimum polling interval due to internal default being set"
++ "[%@] Start event hit test info is invalid"
++ "[%@] Starting ADP preflight"
++ "[%@] Starting artwork request"
++ "[%@] Starting data consistency check"
++ "[%@] Starting license data consistency check"
++ "[%@] Starting license repair request"
++ "[%@] Starting migrator"
++ "[%@] Status code: %{public}ld Received %ld bytes: %s"
++ "[%@] Storing token '%{sensitive}s' for user: %{sensitive}s@%{sensitive}s"
++ "[%@] Successfully deleted"
++ "[%@] Successfully enqueued install"
++ "[%@] Successfully fetched %{public}s"
++ "[%@] Successfully fetched metadata"
++ "[%@] Successfully handed off token"
++ "[%@] Successfully launched"
++ "[%@] Successfully prepared the install"
++ "[%@] Successfully updated AMS universal links"
++ "[%@] Successfully validated the verification token"
++ "[%@] The domain is invalid for distribution."
++ "[%@] Transitioning to failed state as error occurred durring download: %{public}@"
++ "[%@] Unable to create a URL for %{public}s"
++ "[%@] Unable to destroy context: %{public}d"
++ "[%@] Unable to determine eligibility for domain %{public}llu: %{public}d"
++ "[%@] Unable to dispose of license response: %{public}d"
++ "[%@] Unable to dispose of provisioning data: %{public}d"
++ "[%@] Unable to enqueue update %{public}s: %{public}s"
++ "[%@] Unable to fetch configuration bag"
++ "[%@] Unable to find an executable name for %{public}s"
++ "[%@] Unable to find app key with id: %{public}llu"
++ "[%@] Unable to find installed app with identifier \"%s\""
++ "[%@] Unable to find license key with id: %{public}llu"
++ "[%@] Unable to find matching restore for itemID: %{public}s"
++ "[%@] Unable to find open service"
++ "[%@] Unable to initialize ALD: %{public}d"
++ "[%@] Unable to obtain XPC connection, client, and audit token"
++ "[%@] Unable to purchase '%{public}s' with missing metadata"
++ "[%@] Unable to read license info for %{public}s: %{public}s"
++ "[%@] Unable to uninstall apps without a bundle identifier"
++ "[%@] Unhandled install type: %{public}s"
++ "[%@] Uninstalling application"
++ "[%@] Unsuccessfully updated AMS universal links"
++ "[%@] Update metadata requested"
++ "[%@] Update requested"
++ "[%@] Updating declaration for managed installed"
++ "[%@] User declined to provide OAuth authentication"
++ "[%@] User did not initiate installation, asking for consent before continuing"
++ "[%@] Using existing client identifier: %{public}s"
++ "[%@] What do we do here?  Do we further batch by domain?"
++ "[%@] Will download package using request: %{public}s"
++ "[%@] Will return %ld %{public}s"
++ "[%@] Writing receipt failed: %@"
++ "[%@] Writing receipt for: %@"
++ "[%@] Writing receipt to: %s"
++ "[%@] bid supplied in token doesn't match the expected app: %{public}s != %{public}s"
++ "[%@] iss supplied in token doesn't match the expected app: %{public}s != %{public}s"
++ "[%@] minimum polling interval not met for %{public}s, skipping check"
++ "[%@] missing required field `appsApple`"
++ "[%@] missing required field `contentRatingsBySystem`"
++ "[%@] missing required field `developerId`"
++ "[%@] missing required field `developerName`"
++ "[%@] missing required field `name`"
++ "[%@] missing required field `title`"
++ "[%@] missing required field `value`"
++ "[%@] validateHostApp succeeded"
++ "[%@]: Asking delegate to reset database after corruption: %{public}@"
++ "[%@]: Asking delegate to reset database after reopen: %{public}@"
++ "[%@]: Deleting database after corruption: %{public}@"
++ "[%@]: Reopening database after IO error: %{public}@"
++ "[%@]Assigning installation identifier: %{public}s"
++ "[%@]Consent was not successfully granted: %{public}@"
++ "[%@]Error attempting to uninstall app %{public}@"
++ "[%@][ %{public}s] Unhandled to create / find coordinator"
++ "[%@][%{public}s] Added candidate with distributorDomain: %s"
++ "[%@][%{public}s] Added candidate with distributorID: %s"
++ "[%@][%{public}s] Already bootstrapping"
++ "[%@][%{public}s] App is not a valid promotable type"
++ "[%@][%{public}s] App is not eligible for promotion on this device"
++ "[%@][%{public}s] Attempting to prompt for authorization with distributorID: %{public}s"
++ "[%@][%{public}s] Attempting to remove bundleID: %{public}s"
++ "[%@][%{public}s] Attempting to to promote"
++ "[%@][%{public}s] Attempting to to restore"
++ "[%@][%{public}s] Begin promotion"
++ "[%@][%{public}s] Bootstrap complete"
++ "[%@][%{public}s] Canceled app asset promise"
++ "[%@][%{public}s] Canceled app coordinator"
++ "[%@][%{public}s] Could not find accountID for app"
++ "[%@][%{public}s] Could not find distributorDomain for app"
++ "[%@][%{public}s] Could not find distributorID for app"
++ "[%@][%{public}s] Could not find marketplace app"
++ "[%@][%{public}s] Creating app asset promise"
++ "[%@][%{public}s] Did not get an adp URL app"
++ "[%@][%{public}s] Failed to create app identity"
++ "[%@][%{public}s] Failed to create error"
++ "[%@][%{public}s] Failed to display hard failure dialog due to non available distributorBundleID"
++ "[%@][%{public}s] Failed to find a distributor domain"
++ "[%@][%{public}s] Failed to find an accountID"
++ "[%@][%{public}s] Failed to find corresponding coordinator for coordinatorID: %s"
++ "[%@][%{public}s] Failed to find corresponding coordinatorID"
++ "[%@][%{public}s] Failed to find corresponding restore"
++ "[%@][%{public}s] Failed to find install type"
++ "[%@][%{public}s] Failed to lookup prompt details error: %@"
++ "[%@][%{public}s] Failed to remove due to error: %@"
++ "[%@][%{public}s] Failed to remove with marketplace app due to error: %@"
++ "[%@][%{public}s] Found marketplace app"
++ "[%@][%{public}s] Going to present hard failure dialog"
++ "[%@][%{public}s] Going to prompt to sign in accountID: %{public}s distributorID: %s"
++ "[%@][%{public}s] Hard failing restore"
++ "[%@][%{public}s] Moved to bootstrapping"
++ "[%@][%{public}s] Prompt complete with message app: %{public}s not available from distributor: %{public}s"
++ "[%@][%{public}s] Ready to install adp %{private}s"
++ "[%@][%{public}s] Remove restore bootstrap metadata"
++ "[%@][%{public}s] Removed bundleID: %{public}s"
++ "[%@][%{public}s] Retrying for latest version"
++ "[%@][%{public}s] Saved new promoting restore"
++ "[%@][%{public}s] Saved new restore"
++ "[%@][%{public}s] Set app asset fake promise"
++ "[%@][%{public}s] Skipping"
++ "[%@][%{public}s] Skipping active bootstrapping restore"
++ "[%@][%{public}s] Skipping active install: %{public}s installID: %{public}s"
++ "[%@][%{public}s] Skipping active promoting restore"
++ "[%@][%{public}s] Unable get asset promise due to error: %@"
++ "[%@][%{public}s] Unable to cancel app asset promise due to error: %@"
++ "[%@][%{public}s] Unable to cancel coordinator due to error: %@"
++ "[%@][%{public}s] Updated restore ADP"
++ "[%@][%{public}s][%{public}s] Failed to create / get coordinator for installType: %s"
++ "[%@][%{public}s]] Failed to send app install metric due to error: %{public}@"
++ "[%@][%{public}s]] Sending app install event"
++ "[%@][%{public}s]] Sent app install event"
++ "[%@][%{public}s]] Skipping app install event due to app not being installed"
++ "[%@][%{public}s]] Skipping because we could not determine the appleItemID"
++ "[%@][%{public}s]] Skipping because we could not determine the storefront as a number"
++ "[%@][%{public}s]] Skipping because we could not determine the storefront for accountID: %s"
++ "[%@][%{public}s]] Skipping unsupported installType: %{public}s)"
++ "[%{public}@] Error: %@"
++ "[%{public}s] Cold Promotion of a placeholder"
++ "[%{public}s] Error fetching bag to prioritize bundleID: %s error: %@"
++ "[%{public}s] Fetching bag to prioritize a placeholder resulted in error: %@"
++ "[%{public}s] Fetching bag to prioritize coordinator resulted in error: %@"
++ "[%{public}s] Not prioritizing restore"
++ "[%{public}s] failed to update distributorPreferencesStore because it was not set"
++ "[%{public}s] handleRestoreOrPromotionEvent event kind: %s"
++ "[INTERNAL ONLY] Missing any of the possible entitlements: %{public}s"
++ "[INTERNAL ONLY] Missing at least one of the required entitlements: %{public}s"
++ "[Migration] Already migrating distributor preferences"
++ "[Migration] Migrated approved developers"
++ "[Migration] Migrated distributor preferences"
++ "[Migration] Migrating approved developers"
++ "[Migration] Migrating distributor list"
++ "[Migration] Migrating distributor preferences with needsMigration: %{bool}d"
++ "[Migration] Migrating should show sheet list"
++ "[Migration] No distributor preference migration needed"
++ "[Migration] Removing DB approved developerID: %{public}s name:  %{public}s"
++ "[[%{public}s]] Cold Promotion"
++ "[[%{public}s]] Not promoting placeholder"
++ "[[%{public}s]] Prioritize restore"
++ "^C"
++ "^{CGImage=}36@0:8@\"UISSlotStyle\"16@\"UISSlotTag\"24B32"
++ "^{CGImage=}36@0:8@16@24B32"
++ "^{sqlite3=}"
++ "^{sqlite3_stmt=}"
++ "_ASCLockupKeyAdamID"
++ "_ASCLockupKeyContentRatingsBySystem"
++ "_ASCLockupKeyDeveloperId"
++ "_ASCLockupKeyDeveloperName"
++ "_ASCLockupKeyIcon"
++ "_ASCLockupKeyShortName"
++ "_ASCLockupKeySubtitle"
++ "_ASCLockupKeySupportUrl"
++ "_ASCLockupKeyTitle"
++ "_ASCLockupKeyWebDistributionDomains"
++ "_SQL"
++ "_TtC28ManagedAppDistributionDaemon10SlotDrawer"
++ "_TtC28ManagedAppDistributionDaemon11DDMDatabase"
++ "_TtC28ManagedAppDistributionDaemon12DownloadTask"
++ "_TtC28ManagedAppDistributionDaemon12SecureButton"
++ "_TtC28ManagedAppDistributionDaemon13DecoratedHTTP"
++ "_TtC28ManagedAppDistributionDaemon14ADPInstallTask"
++ "_TtC28ManagedAppDistributionDaemon14IPA_AppInstall"
++ "_TtC28ManagedAppDistributionDaemon14RestoreManager"
++ "_TtC28ManagedAppDistributionDaemon16AppInstallEngine"
++ "_TtC28ManagedAppDistributionDaemon16SQLiteConnection"
++ "_TtC28ManagedAppDistributionDaemon17AppInstallMetrics"
++ "_TtC28ManagedAppDistributionDaemon18AppInstallDatabase"
++ "_TtC28ManagedAppDistributionDaemon18AppLicenseDelivery"
++ "_TtC28ManagedAppDistributionDaemon18FeatureEligibility"
++ "_TtC28ManagedAppDistributionDaemon18UpdateDependencies"
++ "_TtC28ManagedAppDistributionDaemon19ADPBatchInstallTask"
++ "_TtC28ManagedAppDistributionDaemon19DeviceStateObserver"
++ "_TtC28ManagedAppDistributionDaemon19LicenseRenewalBatch"
++ "_TtC28ManagedAppDistributionDaemon19LocalizationJetPack"
++ "_TtC28ManagedAppDistributionDaemon21DistributorDataSource"
++ "_TtC28ManagedAppDistributionDaemon21SecureStorageDatabase"
++ "_TtC28ManagedAppDistributionDaemon22ApprovedDeveloperStore"
++ "_TtC28ManagedAppDistributionDaemon22LicenseStorageDatabase"
++ "_TtC28ManagedAppDistributionDaemon23ADPInstallConfiguration"
++ "_TtC28ManagedAppDistributionDaemon23InstallConfirmationTask"
++ "_TtC28ManagedAppDistributionDaemon25MarketplaceUpdateDatabase"
++ "_TtC28ManagedAppDistributionDaemon27DistributorPreferencesStore"
++ "_TtC28ManagedAppDistributionDaemonP33_7EC653A4C512B1F4D7EE1900495297C014OAuthDecorator"
++ "_TtC28ManagedAppDistributionDaemonP33_7EC653A4C512B1F4D7EE1900495297C015NativeDecorator"
++ "_TtCC28ManagedAppDistributionDaemon34InstallCoordinationInstallObserverP33_B8C0BD49E46B9356C2E4FA5F73F7501B8Observer"
++ "_TtCV28ManagedAppDistributionDaemon16AppInstallEntity6Entity"
++ "_TtCV28ManagedAppDistributionDaemon16AppPackageEntity6Entity"
++ "_TtCV28ManagedAppDistributionDaemon19SecureStorageEntity6Entity"
++ "_TtCV28ManagedAppDistributionDaemon20DDMDeclarationEntity6Entity"
++ "_TtCV28ManagedAppDistributionDaemon20LicenseStorageEntity6Entity"
++ "_TtCV28ManagedAppDistributionDaemon23MarketplaceUpdateEntity6Entity"
++ "_TtP14MarketplaceKit31MarketplaceExtensionXPCProtocol_"
++ "_afterTransactionBlocks"
++ "_boolForKey:applicationId:ifMissing:"
++ "_cacheSize"
++ "_columnCount"
++ "_columnDeclaredTypes"
++ "_columnIndexByName"
++ "_columnKeySet"
++ "_columnNames"
++ "_combinationOperation"
++ "_comparisonType"
++ "_connection"
++ "_connectionPointer"
++ "_copyNumberForKey:applicationId:"
++ "_currentError"
++ "_database"
++ "_databaseID"
++ "_databasePath"
++ "_delegate"
++ "_descriptor"
++ "_doubleForKey:applicationId:ifMissing:"
++ "_encryptionKeyId"
++ "_entityClass"
++ "_externalPropertyValues"
++ "_isRunningInAppleVirtualMachine"
++ "_limitCount"
++ "_lockupDictionaryForRequest:includingKeys:withCompletionBlock:"
++ "_matchesNull"
++ "_memoryEntityClass"
++ "_negative"
++ "_newSelectSQLWithProperties:columns:"
++ "_options"
++ "_orderingClause"
++ "_orderingDirections"
++ "_orderingProperties"
++ "_overrideCanApplyToStoreSignedApps"
++ "_persistentID"
++ "_predicate"
++ "_predicates"
++ "_preparedStatements"
++ "_property"
++ "_propertyValues"
++ "_protectionType"
++ "_query"
++ "_queryProperty"
++ "_readOnly"
++ "_requestWithID:kind:context:appVersionId:distributorId:"
++ "_returnsDistinctEntities"
++ "_setBool:forKey:applicationId:"
++ "_setDouble:forKey:applicationId:"
++ "_setNullableValue:forKey:"
++ "_statement"
++ "_statementWrapper"
++ "_strongSelf"
++ "_transactionDepth"
++ "_transactionWantsRollback"
++ "_value"
++ "_values"
++ "absoluteString"
++ "accelerometer"
++ "account"
++ "accountID"
++ "account_id"
++ "accounts"
++ "activeDownloadLimit"
++ "activeDownloadRequests"
++ "addEntriesFromDictionary:"
++ "addObject:"
++ "additionalHeaders(_:distributorID:accountID:logKey:)"
++ "additionalHeadersFor:accountID:reply:"
++ "adp"
++ "adp_url"
++ "age_rating"
++ "alignmentRect"
++ "allHeaderFields"
++ "allOnConnection:predicate:"
++ "allocWithZone:"
++ "allowAccountPrompt"
++ "alternateButtonIsDestructive"
++ "alternativeDistributionPackage"
++ "ams_configurationWithProcessInfo:bag:"
++ "ams_isRegulatoryAccount"
++ "anyOnConnection:predicate:"
++ "app-distribution-developer-approval-learn-more"
++ "app-distribution-ineligible-learn-more"
++ "app-distribution-install-sheet-app-learn-more"
++ "app-distribution-install-sheet-marketplace-learn-more"
++ "app-distribution-oauth://"
++ "app-distribution-unapproved-developer-learn-more"
++ "appInstallDeterminants"
++ "appInstallFlow"
++ "appInstallMetrics"
++ "appendFormat:"
++ "appendString:"
++ "appleItemId"
++ "appleVersionId"
++ "apple_item_id"
++ "apple_version_id"
++ "application/x-www-form-urlencoded"
++ "applicationExtensionRecords"
++ "applyBinding:atIndex:"
++ "approved"
++ "approved-devs.plist"
++ "approvedDeveloperStore"
++ "approved_developers"
++ "archivedDataWithRootObject:requiringSecureCoding:error:"
++ "arkit"
++ "arm64"
++ "armv7"
++ "array"
++ "arrayValueForProperty:"
++ "arrayWithCapacity:"
++ "arrayWithObject:"
++ "arrayWithObjects:count:"
++ "artwork_url"
++ "assetGlyphWithName:glyphSize:textStyle:"
++ "assetPath"
++ "asset_public_id"
++ "authenticateMessage:"
++ "authenticationContextData"
++ "authorization_code"
++ "authorization_endpoint"
++ "autoFocusCamera"
++ "automaticUpdatesFor:reply:"
++ "availableAppMetadata(forAppleItemIDs:distributorID:logKey:)"
++ "availableAppsForAppleItemIDs:reply:"
++ "backgroundAssets"
++ "backgroundDrawing"
++ "backup_app_data"
++ "base64EncodedDataWithOptions:"
++ "base64EncodedStringWithOptions:"
++ "bindArray:atPosition:"
++ "bindData:atPosition:"
++ "bindDataCopy:atPosition:"
++ "bindDate:atPosition:"
++ "bindDictionary:atPosition:"
++ "bindDouble:atPosition:"
++ "bindFloat:atPosition:"
++ "bindInt64:atPosition:"
++ "bindInt:atPosition:"
++ "bindNullAtPosition:"
++ "bindNumber:atPosition:"
++ "bindString:atPosition:"
++ "bindStringCopy:atPosition:"
++ "bindURL:atPosition:"
++ "bindUUID:atPosition:"
++ "bluetoothLE"
++ "boolValue"
++ "boolValueForProperty:"
++ "borderDrawing"
++ "bundleRecordWithBundleIdentifier:allowPlaceholder:error:"
++ "bundle_id"
++ "bundle_name"
++ "bundle_version"
++ "bytes_offset"
++ "cacheSize"
++ "cameraFlash"
++ "cancelInstall"
++ "cancelInstall:reply:"
++ "cancelled"
++ "checkDeviceCabilityForADPInstallation:reply:"
++ "cipher_digest"
++ "clearBindings"
++ "clearPendingFollowUpItemsWithUniqueIdentifiers:completion:"
++ "clientID"
++ "client_id"
++ "close"
++ "code_challenge_method"
++ "code_challenge_methods_supported"
++ "columnIndexByName"
++ "com.apple.AppDistribution.ADFollowUpExtension"
++ "com.apple.StoreServices"
++ "com.apple.TestFlight"
++ "com.apple.app-distribution.approval-flow"
++ "com.apple.app-distribution.pending.trust"
++ "com.apple.app-distribution.private"
++ "com.apple.app-store-utilities.encryption"
++ "com.apple.appstored"
++ "com.apple.appstoreutilities"
++ "com.apple.developer.browser.app-installation"
++ "com.apple.developer.marketplace.app-installation"
++ "com.apple.developer.temp.app-distribution"
++ "com.apple.itunesstored"
++ "com.apple.managedappdistribution.marketplace.install.gauge"
++ "com.apple.managedappdistribution.marketplace.status"
++ "com.apple.marketplace.extension"
++ "com.apple.private.appdistribution.distributor-override"
++ "comparisonType"
++ "componentsJoinedByString:"
++ "compressed_size"
++ "configuration"
++ "connectEndDate"
++ "connectStartDate"
++ "connection"
++ "connectionHandle"
++ "connectionNeedsResetForCorruption:"
++ "connectionNeedsResetForReopen:"
++ "containerURL"
++ "containingBundleRecord"
++ "containsObject:"
++ "containsPredicateWithProperty:query:queryProperty:"
++ "containsPredicateWithProperty:values:"
++ "coordinatorID"
++ "coordinatorMap"
++ "coordinator_id"
++ "copy"
++ "copyDefaultsKeyForEncryptionKeyWithIdentifier:"
++ "copyEntityIdentifiers"
++ "copySelectSQLWithProperties:"
++ "copyWithZone:"
++ "count"
++ "countByEnumeratingWithState:objects:count:"
++ "countForProperty:predicate:onConnection:"
++ "countOfEntities"
++ "createDirectoryAtPath:withIntermediateDirectories:attributes:error:"
++ "createTemporaryTableWithName:properties:"
++ "credential"
++ "currentProcess"
++ "customBrowserEngine"
++ "d"
++ "d20@0:8i16"
++ "d24@0:8@16"
++ "d40@0:8^{__CFString=}16^{__CFString=}24d32"
++ "dataContainerURL"
++ "dataForColumnIndex:"
++ "dataForColumnName:"
++ "dataWithBytes:length:"
++ "dataWithJSONObject:options:error:"
++ "data_promise_id"
++ "database"
++ "databaseEntityClass"
++ "databaseID"
++ "databasePath"
++ "databaseTable"
++ "dateForColumnIndex:"
++ "dateForColumnName:"
++ "dateValueForProperty:"
++ "dateWithTimeIntervalSinceReferenceDate:"
++ "declaration_id"
++ "declaration_id_idx"
++ "declaration_identifier"
++ "declaration_identifier_idx"
++ "declaration_key"
++ "decode install verification token"
++ "defaultDistributor"
++ "defaultDistributorInstallSheetEnabled"
++ "defaultProperties"
++ "deleteAllEntities"
++ "deleteFromDatabase"
++ "delta"
++ "deltaDetails"
++ "deltas"
++ "dequeue download"
++ "developerID"
++ "developerName"
++ "developer_id"
++ "deviceState"
++ "dictValueForProperty:"
++ "dictionaryWithCapacity:"
++ "dictionaryWithObjects:forKeys:count:"
++ "dictionaryWithSharedKeySet:"
++ "dictionaryWithValuesForColumnNames:"
++ "dictionaryWithValuesForColumns"
++ "disabled_install_sheet"
++ "disambiguatedSQLForProperty:"
++ "discoverRestores"
++ "discoverRestores:reply:"
++ "disk_location"
++ "dispatchAfterTransaction:"
++ "displayScale"
++ "distributionPackageRevision"
++ "distributor"
++ "distributor-preferences-store.plist"
++ "distributorAccount"
++ "distributorBundleID"
++ "distributorCount"
++ "distributorID"
++ "distributorIDForCaller:reply:"
++ "distributorInfo"
++ "distributorNameForCurrentLocale"
++ "distributorPreferencesStore"
++ "distributor_account_id"
++ "distributor_priority_list"
++ "doNotShowSheetList"
++ "doesNotContainPredicateWithProperty:values:"
++ "doubleForColumnIndex:"
++ "doubleForColumnName:"
++ "downloadAllowance"
++ "downloadRequests"
++ "drawInContext:atPoint:"
++ "drawingPlan"
++ "drawingSize"
++ "drawingWithStyle:tag:forRemote:"
++ "dynamicLicenseURL"
++ "edp"
++ "enable-app-install_metrics"
++ "encryptedChunkDigests"
++ "encryption"
++ "encryptionCertificateURL"
++ "encryptionKeyId"
++ "engine"
++ "enqueue download"
++ "entitlements"
++ "entityClass"
++ "enumerateCoordinatorsUsingBlock:"
++ "enumerateKeysAndObjectsUsingBlock:"
++ "enumerateMemoryEntitiesUsingBlock:"
++ "enumerateMemoryEntitiesWithProperties:usingBlock:"
++ "enumerateObjectsUsingBlock:"
++ "enumeratePersistentIDsAndProperties:usingBlock:"
++ "enumeratePersistentIDsUsingBlock:"
++ "enumerateRowsUsingBlock:"
++ "enumeratorAtPath:"
++ "enumeratorWithExtensionPointRecord:options:"
++ "errorDescription"
++ "errorValueForProperty:"
++ "errorWithDomain:code:userInfo:"
++ "error_description"
++ "essentialDownloadAllowance"
++ "essentialMaxInstallSize"
++ "exactBundleVersion"
++ "executableURL"
++ "executePreparedQuery:withResults:"
++ "executePreparedStatement:error:"
++ "executePreparedStatement:error:bindings:"
++ "executeQuery:withResults:"
++ "executeStatement:error:"
++ "executeStatement:error:bindings:"
++ "existsInDatabase"
++ "expectedPath(connectingFromBundleID:)"
++ "expirationTimeInSeconds"
++ "extensionPointRecord"
++ "externalPropertyValues"
++ "f"
++ "failed"
++ "failure"
++ "failure_error"
++ "fake-bundle-identifier"
++ "featureEligibility"
++ "fetch application record"
++ "fetchAvailableAppMetadata:reply:"
++ "fetchKeyWithIdentifier:error:"
++ "fetchMediaAPIMetadataForItemID:versionID:distributorID:completion:"
++ "fetchPrivateDataRequest:reply:"
++ "fetchPublicDataRequest:reply:"
++ "fileExistsAtPath:"
++ "fileSystemRepresentation"
++ "finalizePreparedStatement:error:"
++ "finalizeStatement"
++ "finished"
++ "firstInt64Value"
++ "firstNumberValue"
++ "fontContentSizeCategory"
++ "foreignDatabaseColumnForProperty:"
++ "foreignDatabaseTableForProperty:"
++ "foreignDatabaseTablesToDelete"
++ "foreignKeyColumnForTable:"
++ "frontFacingCamera"
++ "gamekit"
++ "getRemoteContentForLayerContextWithId:style:tag:reply:"
++ "getValuesForProperties:"
++ "gps"
++ "grant_types_supported"
++ "gyroscope"
++ "handleDiagnostics:reply:"
++ "handleEmergencyResetRequestWithReply:"
++ "handleRestore:reply:"
++ "handleSecureButtonActionRequest"
++ "handleSecureButtonActionRequest:reply:"
++ "hasRows"
++ "hasUserDataPromise"
++ "has_messages_extension"
++ "healthkit"
++ "hitTestInformationFromEndEvent"
++ "hitTestInformationFromStartEvent"
++ "https://apps.mzstatic.com/content/e172e47e6c6349a6a03e21b0e4080e2c/app.jetpack"
++ "https://www.apple.com/"
++ "i"
++ "i16@0:8"
++ "i16@?0^B8"
++ "i20@0:8i16"
++ "i24@0:8@16"
++ "icon"
++ "identity"
++ "imageWithStyle:tag:forRemote:"
++ "implicit"
++ "indexOfObject:"
++ "ineligibleLicenses"
++ "initOnConnection:descriptor:"
++ "initWithApplicationExtensionRecord:"
++ "initWithBase64EncodedData:options:"
++ "initWithBase64EncodedString:options:"
++ "initWithBundleIdentifier:error:"
++ "initWithBundleIdentifier:fetchingPlaceholder:error:"
++ "initWithClientIdentifier:"
++ "initWithDatabaseEntity:properties:"
++ "initWithDatabaseID:propertyValues:externalPropertyValues:"
++ "initWithDatabasePath:"
++ "initWithDomain:code:userInfo:"
++ "initWithEntityClass:memoryEntityClass:"
++ "initWithFormat:"
++ "initWithIdentifier:error:"
++ "initWithName:"
++ "initWithObjectsAndKeys:"
++ "initWithOptions:"
++ "initWithPersistentID:onConnection:"
++ "initWithPropertyValues:"
++ "initWithPropertyValues:onConnection:"
++ "initWithRoundedRectSize:cornerRadii:fillColor:"
++ "initWithSlotDrawer:options:"
++ "initWithStatement:onConnection:"
++ "initWithString:attributes:lineBreakMode:textAlignment:width:scale:"
++ "initWithStringValue:"
++ "initWithSuiteName:"
++ "initWithURL:allowPlaceholder:error:"
++ "initWithUTF8String:"
++ "initWithUUIDString:"
++ "initWithVectorGlyph:tintColor:"
++ "installDatabase"
++ "installHistory"
++ "installID"
++ "installTargets"
++ "installVerificationToken"
++ "install_id"
++ "install_path"
++ "install_timing"
++ "install_type"
++ "install_verification_token"
++ "installers"
++ "int64ForColumnIndex:"
++ "int64ForColumnName:"
++ "intForColumnIndex:"
++ "intForColumnName:"
++ "integerValueForProperty:"
++ "intent"
++ "invalid Collection: less than 'count' elements in collection"
++ "isAppInstallationAllowed"
++ "isAutomaticAppDownloadsAllowed"
++ "isAutomaticAppUpdatesAllowed"
++ "isComplete"
++ "isEqualToDictionary:"
++ "isEqualToString:"
++ "isManagedAppDistributor"
++ "isMarketplaceAllowed:"
++ "isNegative"
++ "isNotNullPredicateWithProperty:"
++ "isNullPredicateWithProperty:"
++ "isReadOnly"
++ "isRemote"
++ "is_account_prompt_allowed"
++ "is_blocked"
++ "is_game_center_enabled"
++ "is_update"
++ "is_user_initiated"
++ "issued_token_type"
++ "item_id"
++ "joinClauseForProperty:"
++ "kAppStoreBundleID"
++ "kern.hv_vmm_present"
++ "lastChangeCount"
++ "lastFailedLoadAttempt"
++ "layoutDirection"
++ "length"
++ "license"
++ "licenseIDs"
++ "licenseInfoForData:"
++ "licenseRenewalURL"
++ "licenseStorage"
++ "license_id"
++ "limitCount"
++ "loadLocalizerIfNeeded()"
++ "local-server-info"
++ "localizedName"
++ "localizedStringForStatusCode:"
++ "localizer"
++ "locateAssetCache"
++ "locate_asset_cache"
++ "locationServices"
++ "lockedInstallType"
++ "lockedInstallVerificationToken"
++ "logKey"
++ "log_key"
++ "magnetometer"
++ "makeURLWithSubstitutions:"
++ "managedappdistribution"
++ "managedappdistribution_"
++ "management_scope"
++ "manifest_url"
++ "marketplaceUpdateDatabase"
++ "marketplace_update"
++ "matchesNull"
++ "maxValueForProperty:predicate:onConnection:"
++ "memoryEntityClass"
++ "memoryEntityForPersistentID:usingConnection:"
++ "memoryEntityForPersistentID:withProperties:usingConnection:"
++ "metal"
++ "metrics"
++ "microphone"
++ "minValueForProperty:predicate:onConnection:"
++ "minimumSystemVersions"
++ "mutableCopy"
++ "negative"
++ "network.cellular.button.download"
++ "network.cellular.button.laterWLAN"
++ "network.cellular.button.laterWiFi"
++ "network.cellular.button.update"
++ "network.cellular.message.disclaimer"
++ "network.cellular.message.initial"
++ "network.cellular.message.remaining"
++ "network.cellular.title.download"
++ "network.cellular.title.download.roaming"
++ "network.cellular.title.download.roamingGeneric"
++ "network.cellular.title.downloadGeneric"
++ "network.cellular.title.update"
++ "network.cellular.title.update.roaming"
++ "network.cellular.title.update.roamingGeneric"
++ "network.cellular.title.updateGeneric"
++ "network.constrained.button.cancel"
++ "network.constrained.button.download"
++ "network.constrained.button.update"
++ "network.constrained.message.download"
++ "network.constrained.message.update"
++ "network.constrained.title"
++ "network_decision"
++ "nextObject"
++ "nfc"
++ "notifyOfGameCenterEnabledAppInstall:withCompletionHandler:"
++ "null"
++ "numberForColumnIndex:"
++ "numberForColumnName:"
++ "numberOfColumns"
++ "numberValueForProperty:"
++ "numberWithBool:"
++ "numberWithDouble:"
++ "numberWithLongLong:"
++ "oAuthToken"
++ "oauthAuthorize:reply:"
++ "objCType"
++ "objectAtIndex:"
++ "objectAtIndexedSubscript:"
++ "objectEnumerator"
++ "objectForKey:"
++ "objectForKey:ofClass:"
++ "objectForKeyedSubscript:"
++ "observers"
++ "open"
++ "openURL:configuration:completionHandler:"
++ "opengles1"
++ "opengles2"
++ "opengles3"
++ "options"
++ "orderingClause"
++ "orderingDirections"
++ "orderingProperties"
++ "originIdentifier"
++ "os"
++ "overridesByAppleItemID"
++ "parent_id"
++ "parker"
++ "parkingLot"
++ "pauseInstall"
++ "pauseInstall:reply:"
++ "paused"
++ "peerToPeer"
++ "pendingFollowUpItems:"
++ "performActionRequest:reply:"
++ "performPrivateActionRequest:reply:"
++ "performSavepoint:"
++ "performTransaction:"
++ "persistenceRootURL"
++ "persistentID"
++ "persona"
++ "personalPersonaUID"
++ "phase"
++ "phasePlan"
++ "placeholder_url"
++ "plain"
++ "platforms"
++ "postFollowUpItem:completion:"
++ "postamble"
++ "preamble"
++ "predicate"
++ "predicateMatchingAllPredicates:"
++ "predicateMatchingAnyPredicates:"
++ "predicateWithProperty:equalToLongLong:"
++ "predicateWithProperty:equalToValue:"
++ "predicateWithProperty:value:comparisonType:"
++ "predicateWithProperty:values:comparisonType:"
++ "predicates"
++ "preferredContentSizeCategory"
++ "preflightMetadata"
++ "preflight_package_url"
++ "prepareStatement:error:"
++ "prioritizeApp"
++ "prioritizeApp:reply:"
++ "productVersion"
++ "promoteApps"
++ "promoteApps:reply:"
++ "proofOfDownloadToken"
++ "property"
++ "propertyListDataWithError:"
++ "propertyValues"
++ "protectionType"
++ "publicId"
++ "purchase_method"
++ "q"
++ "q16@0:8"
++ "q20@0:8i16"
++ "q24@0:8@16"
++ "query"
++ "queryDescriptor"
++ "queryOnConnection:predicate:"
++ "queryOnConnection:predicate:entityClass:"
++ "queryOnConnection:predicate:orderingProperties:"
++ "queryOnConnection:predicate:orderingProperties:entityClass:"
++ "queryOnConnection:predicate:orderingProperties:orderingDirections:"
++ "queryOnConnection:predicate:orderingProperties:orderingDirections:entityClass:"
++ "queryProperty"
++ "r^v"
++ "raise:format:"
++ "readOnly"
++ "receipt"
++ "referrer"
++ "refresh_token"
++ "reloadFromDatabaseEntity:properties:"
++ "remoteObjectProxyWithErrorHandler:"
++ "removeAllObjects"
++ "removeItemAtPath:error:"
++ "removeObjectForKey:"
++ "replacement"
++ "request"
++ "requestAppLaunch:reply:"
++ "requestEDPInstallation:reply:"
++ "requestEndDate"
++ "requestFailed(_:distributorID:logKey:)"
++ "requestFailed:reply:"
++ "requestLatestVersion"
++ "requestStartDate"
++ "requestUpdate:reply:"
++ "requestUpdateMetadata:reply:"
++ "requestUpdatesPoll:reply:"
++ "request_count"
++ "reservations"
++ "reset"
++ "resetWithCompletion:"
++ "responseEndDate"
++ "responseStartDate"
++ "response_types_supported"
++ "restore"
++ "restoreManager"
++ "resumeInstall"
++ "resumeInstall:reply:"
++ "returnsDistinctEntities"
++ "runManifestValidation:reply:"
++ "scopes_supported"
++ "search_territory"
++ "secureStorage"
++ "serialQueue"
++ "set"
++ "setAccountID:"
++ "setActions:"
++ "setBool:forKey:"
++ "setCacheSize:"
++ "setCacheSizeWithNumberOfDatabasePages:"
++ "setCacheSizeWithNumberOfKilobytes:"
++ "setDatabaseID:"
++ "setDeveloperID:"
++ "setDeveloperName:"
++ "setDisplayStyle:"
++ "setDistributorID:"
++ "setDistributorIDOverridableForStoreSignedApps:reply:"
++ "setDistributorInfo:"
++ "setDomain:"
++ "setEncryptionKeyId:"
++ "setEntityClass:"
++ "setExpirationDate:"
++ "setExtensionIdentifier:"
++ "setExternalValuesWithDictionary:"
++ "setFilter:"
++ "setGroupIdentifier:"
++ "setLimitCount:"
++ "setLocalizedDistributorName:"
++ "setMemoryEntityClass:"
++ "setObject:forKey:"
++ "setObject:forKeyedSubscript:"
++ "setOrderingClause:"
++ "setOrderingDirections:"
++ "setOrderingProperties:"
++ "setPredicate:"
++ "setPrivateDataRequest:reply:"
++ "setProtectionType:"
++ "setPublicDataRequest:reply:"
++ "setReadOnly:"
++ "setReturnsDistinctEntities:"
++ "setSinfDataType:"
++ "setSourceApp:"
++ "setSourceURL:"
++ "setSupportPageURL:"
++ "setSystemAppInstall:"
++ "setTitle:"
++ "setTypeIdentifier:"
++ "setUniqueIdentifier:"
++ "setUserDataPromise:error:"
++ "setUserInfo:"
++ "setValue:forExternalProperty:"
++ "setValue:forKey:"
++ "setValue:forProperty:"
++ "setValues:forExternalProperties:count:"
++ "setValues:forProperties:count:"
++ "setValuesWithDictionary:"
++ "setWaitForDeletion:"
++ "setWithArray:"
++ "setWithObject:"
++ "set_overridesBackgroundSessionAutoRedirect:"
++ "sha256"
++ "sharedKeySetForKeys:"
++ "sheetContextData"
++ "short_version_string"
++ "shouldCacheInstallAsPending"
++ "signingCertificateURL"
++ "single_instance_id"
++ "sms"
++ "softlink:r:path:/System/Library/PrivateFrameworks/AppStoreComponents.framework/AppStoreComponents"
++ "softlink:r:path:/System/Library/PrivateFrameworks/GameCenterFoundation.framework/GameCenterFoundation"
++ "source"
++ "sourceApp"
++ "sourceURL"
++ "sourceVariant"
++ "standardUserDefaults"
++ "staticallyLicensedApps"
++ "step"
++ "stillCamera"
++ "storeKey:withIdentifier:error:"
++ "store_metadata"
++ "strategy"
++ "stringByAppendingString:"
++ "stringByDeletingLastPathComponent"
++ "stringByReplacingOccurrencesOfString:withString:"
++ "stringForColumnIndex:"
++ "stringForColumnName:"
++ "stringValueForProperty:"
++ "stringWithFormat:"
++ "stringWithString:"
++ "stringWithUTF8String:"
++ "strongToStrongObjectsMapTable"
++ "style"
++ "subject_token_type"
++ "success"
++ "sumForProperty:predicate:onConnection:"
++ "supports-app-distribution"
++ "sysctlbyname for kern.hv_vmm_present failed with error: %{darwin.errno}d"
++ "systemgroup.com.apple.applicensedelivery"
++ "tableExists:"
++ "tag"
++ "targetVariantAssetPath"
++ "taskInterval"
++ "tasks"
++ "telephony"
++ "temporarily_unavailable"
++ "timeIntervalSinceReferenceDate"
++ "timestamp"
++ "token_endpoint"
++ "transactionMetrics"
++ "unarchivedObjectOfClass:fromData:error:"
++ "unauthorized_client"
++ "uncompressed_size"
++ "unencryptedChunkDigests"
++ "unionSet:"
++ "unsupported_grant_type"
++ "unsupported_response_type"
++ "updateSINFForAppWithIdentity:sinfData:options:error:"
++ "updateStatus"
++ "updateUniversalLinks"
++ "update_version_ceiling"
++ "updateiTunesMetadata:forAppWithIdentity:error:"
++ "urlValueForProperty:"
++ "urn:ietf:params:oauth:grant-type:token-exchange"
++ "urn:ietf:params:oauth:token-type:access_token"
++ "userDataPromiseWithError:"
++ "userDataRestoreShouldBegin:"
++ "userInitiatedOverride"
++ "uuidValueForProperty:"
++ "v12@?0B8"
++ "v16@?0@\"<ASUSQLiteBinding>\"8"
++ "v16@?0@\"NSData\"8"
++ "v20@0:8B16"
++ "v20@0:8i16"
++ "v20@?0B8@\"NSError\"12"
++ "v24@0:8#16"
++ "v24@0:8f16i20"
++ "v24@0:8i16i20"
++ "v24@0:8q16"
++ "v24@?0@\"AMSUniversalLinksUpdateResult\"8@\"NSError\"16"
++ "v24@?0@\"ASUSQLiteQueryResults\"8@\"NSError\"16"
++ "v24@?0@\"NSDictionary\"8@\"NSError\"16"
++ "v24@?0@\"UISSlotRemoteContent\"8@\"NSError\"16"
++ "v28@0:8@\"NSArray\"16i24"
++ "v28@0:8@\"NSData\"16i24"
++ "v28@0:8@\"NSDate\"16i24"
++ "v28@0:8@\"NSDictionary\"16i24"
++ "v28@0:8@\"NSNumber\"16i24"
++ "v28@0:8@\"NSString\"16i24"
++ "v28@0:8@\"NSURL\"16i24"
++ "v28@0:8@\"NSUUID\"16i24"
++ "v28@0:8@16i24"
++ "v28@0:8d16i24"
++ "v28@0:8q16i24"
++ "v28@?0@\"NSNumber\"8B16@\"NSError\"20"
++ "v32@0:8@\"NSArray\"16@?<v@?@\"NSData\">24"
++ "v32@0:8@\"NSHTTPURLResponse\"16@?<v@?B>24"
++ "v32@0:8@16@\"NSString\"24"
++ "v32@0:8@16N^i24"
++ "v32@0:8^v16^{__CFString=}24"
++ "v32@?0@\"ASUSQLiteCursor\"8@\"NSError\"16^B24"
++ "v32@?0@\"ASUSQLiteMemoryEntity\"8Q16^B24"
++ "v32@?0@\"NSString\"8@16^B24"
++ "v32@?0@\"NSString\"8Q16^B24"
++ "v32@?0@8@16^B24"
++ "v32@?0q8Q16^B24"
++ "v36@0:8@\"NSURLSession\"16@\"NSURLSessionTask\"24B32"
++ "v36@0:8@\"NSURLSession\"16@\"NSURLSessionTask\"24i32"
++ "v36@0:8@16@24B32"
++ "v36@0:8@16@24i32"
++ "v36@0:8B16^{__CFString=}20^{__CFString=}28"
++ "v40@0:8@\"NSURLRequest\"16@\"NSString\"24@?<v@?@\"NSDictionary\">32"
++ "v40@0:8@\"NSURLSession\"16@\"NSURLSessionTask\"24@\"NSURLResponse\"32"
++ "v40@0:8@\"NSURLSession\"16@\"NSURLSessionTask\"24q32"
++ "v40@0:8@16@24q32"
++ "v40@0:8^@16r^@24q32"
++ "v40@0:8^{CGContext=}16{CGPoint=dd}24"
++ "v40@0:8d16^{__CFString=}24^{__CFString=}32"
++ "v40@?0q8@\"NSDictionary\"16Q24^B32"
++ "v48@0:8@\"NSURLSession\"16@\"NSURLSessionTask\"24@\"NSURLRequest\"32@?<v@?@\"NSURLRequest\">40"
++ "v48@0:8Q16@\"UISSlotStyle\"24@\"UISSlotTag\"32@?<v@?@\"UISSlotRemoteContent\"@\"NSError\">40"
++ "v48@0:8Q16@24@32@?40"
++ "validate the install verification token"
++ "value"
++ "valueForExternalProperty:"
++ "valueForProperty:"
++ "values"
++ "variant"
++ "variantDetails"
++ "variantID"
++ "variants"
++ "vendor_name"
++ "verifier_state"
++ "verifyEntireFile"
++ "version"
++ "version_id"
++ "versionedPID"
++ "videoCamera"
++ "volumePurchaseProgram"
++ "waitingForMarketPlace"
++ "webDistributionDomains"
++ "wifi"
++ "xyzzy"
++ "{ RestoreBatch: ["
++ "{CGRect={CGPoint=dd}{CGSize=dd}}16@0:8"
++ "{CGSize=dd}16@0:8"
++ "{LicenseInfo_=IiQQQQ}24@0:8@16"
++ "“@@appName@@” has already been installed from @@distributor@@. Delete it to install it from @@newDistributor@@."
++ "“@@appName@@” has already been installed from the web. Delete it to install it from @@newDistributor@@."
+- " but instead found "
+- "%{public}s %{public}s %snot on the device"
+- "%{public}s %{public}s is managed by DDM on the device"
+- "%{public}s %{public}s is managed on the device"
+- "%{public}s %{public}s is present on the device"
+- "%{public}s Adopting management from MDMv1"
+- "%{public}s Ignoring error from updating app with DMC: %@"
+- "%{public}s Managed, but leaving uninstalled"
+- "%{public}s Optional and uninstalled"
+- "%{public}s Removing declaration"
+- "%{public}s Requesting installation for required"
+- "%{public}s Uninstalling application"
+- "%{public}s Updating declaration for managed installed"
+- "/System/Library/PrivateFrameworks/AppStoreDaemon.framework"
+- "A version of `%{public}s` already installed, forcing update intent"
+- "Activity associated with %s"
+- "Adding installed managed app history entry for: %{public}s"
+- "Adding missing declaration status for declaration %{public}s"
+- "An error occurred while canceling data promise '%s': %s"
+- "App is launch prohibited"
+- "App not found"
+- "Artwork request completed successfully"
+- "Assigning installation identifier: %{public}s"
+- "Associating %{public}s with persona: %{public}s"
+- "AsyncBufferedPipe:finish"
+- "AsyncBufferedPipe:flush"
+- "AsyncBufferedPipe:read"
+- "AsyncBufferedPipe:write"
+- "Attempting to fetch size of package at: %s"
+- "CELLULAR_DATA_PROMPT_BODY_DISCLAIMER"
+- "CELLULAR_DATA_PROMPT_BODY_INITIAL_%@"
+- "CELLULAR_DATA_PROMPT_BODY_REMAINING_%@"
+- "CELLULAR_DATA_PROMPT_BUTTON_DOWNLOAD"
+- "CELLULAR_DATA_PROMPT_BUTTON_LATER_WIFI"
+- "CELLULAR_DATA_PROMPT_BUTTON_LATER_WLAN"
+- "CELLULAR_DATA_PROMPT_BUTTON_UPDATE"
+- "CELLULAR_DATA_PROMPT_TITLE_DOWNLOAD_%@"
+- "CELLULAR_DATA_PROMPT_TITLE_DOWNLOAD_GENERIC"
+- "CELLULAR_DATA_PROMPT_TITLE_DOWNLOAD_ROAMING_%@"
+- "CELLULAR_DATA_PROMPT_TITLE_DOWNLOAD_ROAMING_GENERIC"
+- "CELLULAR_DATA_PROMPT_TITLE_UPDATE_%@"
+- "CELLULAR_DATA_PROMPT_TITLE_UPDATE_GENERIC"
+- "CELLULAR_DATA_PROMPT_TITLE_UPDATE_ROAMING_%@"
+- "CELLULAR_DATA_PROMPT_TITLE_UPDATE_ROAMING_GENERIC"
+- "CONSTRAINED_PROMPT_BODY_DOWNLOAD_%@"
+- "CONSTRAINED_PROMPT_BODY_DOWNLOAD_%@_%@"
+- "CONSTRAINED_PROMPT_BODY_UPDATE_%@"
+- "CONSTRAINED_PROMPT_BODY_UPDATE_%@_%@"
+- "CONSTRAINED_PROMPT_BUTTON_CANCEL"
+- "CONSTRAINED_PROMPT_BUTTON_DOWNLOAD"
+- "CONSTRAINED_PROMPT_BUTTON_UPDATE"
+- "CONSTRAINED_PROMPT_TITLE"
+- "Can't launch placeholder"
+- "Cancelling in-progress download so the installation can be cancelled"
+- "Cancelling installation, if installation can be cancelled"
+- "Completing installation '%{public}s' but it's missing, or could not be deleted: %{public}@"
+- "Configuring placeholder promise"
+- "Coordinator: %{public}@"
+- "Created data task: %{public}@ with request: %{public}s"
+- "Creating coordinator"
+- "DDM/DeclarationStore.plist"
+- "DMC didInstallApplication failed: %{public}s"
+- "DMC didInstallApplication: %s"
+- "DMC signalled that the installation should not continue"
+- "DMC willInstallApplication failed: %{public}s"
+- "DMC willInstallApplication: %s"
+- "Data task %{public}@ did complete"
+- "Data task %{public}@ did complete with error: %{public}@"
+- "Data task %{public}@ was finished"
+- "Device unlocked, completing security promise"
+- "Device-licensed VPP: Skipping account lookup"
+- "Do next for install %s"
+- "Download Started"
+- "Download cancelled, cancelling data task %{public}@"
+- "Download failed, and the error is unrecoverable: %{public}@"
+- "Download failed, but the error is recoverable - asking to restart download: %{public}@"
+- "Download state not running, ignoring received data"
+- "Download step failed: %{public}@"
+- "Download task stream ended with result: %{public}s"
+- "Download.Running"
+- "Dropping now invalid app: %{public}s"
+- "Enterprise manifest invalid: No artwork found"
+- "Enterprise manifest invalid: No compatible asset found"
+- "Enumerating recoverable installs failed: %{public}@"
+- "Error associating bundle ID with persona: %s"
+- "Error attempting to uninstall app %{public}@"
+- "Error fetching artwork data"
+- "Error fetching artwork data: %{public}s"
+- "Error launching app: %{public}@"
+- "Error sending back initial managed apps: %{public}@"
+- "Evaluating suspension %s for install %s"
+- "Expected partial content, failing download"
+- "Expected to decode "
+- "Extractor signaled data complete"
+- "Failed to complete: %s"
+- "Failed to restart %{public}s: %{public}@"
+- "Failing download after coordinator failed with reason: %{public}@"
+- "Failing installation after coordinator failed with reason: %{public}@"
+- "Falling back to purchase lookup on error: %{public}@"
+- "Finishing pipe"
+- "Finishing pipe on cancel"
+- "Finishing stream"
+- "Finishing terminated: cancelled"
+- "Finishing terminated: finished"
+- "Found duplicate app declaration status for %{public}s: %{public}s & %{public}s"
+- "Found duplicate app declarations for app identifier %{public}s: %{public}s & %{public}s"
+- "Found duplicate application for '%{public}s': %@"
+- "Ignoring server trust for task: %{public}@"
+- "Install %s entering download"
+- "Install %s entering finalize"
+- "Install %s entering install"
+- "Install %s entering placeholder"
+- "Install %s entering preflight"
+- "Install %s queued"
+- "Install step failed: %{public}@"
+- "Installation '%{public}s' cannot be cancelled: %{public}s"
+- "Installation '%{public}s' cannot be paused: %{public}s"
+- "Installation '%{public}s' cannot be resumed: %{public}s"
+- "Installation completed"
+- "Invalid status code, failing download"
+- "Locating asset cache server"
+- "ManagedAppDistributionDaemon.Download"
+- "ManagedAppDistributionDaemon.ExtractorDelegate"
+- "ManagedAppDistributionDaemon/AppInstallScheduler.swift"
+- "ManagedAppDistributionDaemon/Context.swift"
+- "ManagedAppDistributionDaemon/ManagedAppDeclarationIngester.swift"
+- "ManagedAppDistributionDaemon/MobileAppInstall.swift"
+- "Matching installation failed where declaration identifier = '%{public}s', error: %{public}s"
+- "Missing entitlement %{public}s%{public}s"
+- "Missing expected metadata: %{public}s"
+- "Network changed: %{bool}d -> %{bool}d"
+- "Non-fatal error occurred when setting extension placeholder: %s"
+- "Pausing in-progress download so the installation can be paused"
+- "Pausing installation, if installation can be paused"
+- "Performing purchase"
+- "Performing purchase lookup for %ld item(s)"
+- "Persisting resumption state failed: %{public}s"
+- "Placeholder promise configured"
+- "Posting state changes for %s"
+- "Preflight failed: %{public}@"
+- "Progress stream ended"
+- "Purchase completed, proceeding to enqueue installation"
+- "Queue failed: %{public}@"
+- "Re-queuing download failed: %{public}@"
+- "Received request to remove app %{public}s; it should've existed but it didn't"
+- "Received response: %@"
+- "Recovering installation '%s'"
+- "RecoveringInstalls"
+- "Requested install of %{public}s"
+- "Restoring '%{public}s' as paused"
+- "Resuming coordinator"
+- "Resuming download"
+- "Resuming download at offset %llu"
+- "Resuming installation"
+- "Running installation not found where declaration identifier = '%{public}s'"
+- "Running installation task"
+- "STExtractorDelegate"
+- "SZExtractorDelegate"
+- "Sending request: %s"
+- "Starting artwork request"
+- "Suspending %s with reason %s"
+- "T@\"AMSProcessInfo\",R,C,N"
+- "This device does not meet the requested app's minimum operating system version requirement."
+- "Transitioning to %{public}s"
+- "Transitioning to failed state as error occurred durring download: %{public}@"
+- "Unable to find installed app with identifier \"%s\""
+- "Unable to find open service"
+- "Unable to map declaration identifier to declaration status for %{public}s"
+- "Unable to obtain XPC connection, client, and audit token"
+- "Unable to purchase '%{public}s' with missing metadata"
+- "Unable to read declaration store from disk: %{public}@"
+- "Unable to retrieve asset cache URL: %{public}@"
+- "Unable to uninstall apps without a bundle identifier"
+- "User-licensed VPP: Looking for account matching persona '%{public}s'"
+- "User-licensed VPP: Using account %{public}@ for purchase"
+- "Using existing coordinator, this could be a bug!"
+- "Vendor identifier could not be found/created, receipt will be missing"
+- "[ProgressCache] Can't pause untracked progress for %{public}s"
+- "[ProgressCache] Pausing progress for %{public}s"
+- "_TtC28ManagedAppDistributionDaemon13BlockVerifier"
+- "_TtC28ManagedAppDistributionDaemon15DownloadSession"
+- "_TtC28ManagedAppDistributionDaemon15FairPlayDecoder"
+- "_TtC28ManagedAppDistributionDaemon16MobileAppInstall"
+- "_TtC28ManagedAppDistributionDaemon17AsyncBufferedPipe"
+- "_TtCC28ManagedAppDistributionDaemon18StreamingExtractorP33_EED5CF6FF0D2F7E1736A93870008382517ExtractorDelegate"
+- "_TtCO28ManagedAppDistributionDaemon13ResumableHash3MD5"
+- "_TtCO28ManagedAppDistributionDaemon13ResumableHash6SHA256"
+- "activeBundleIDs"
+- "actorQueue"
+- "additionalRequestHeaders"
+- "algorithm"
+- "allInstalledAppsWithReply:"
+- "allowAutomaticDownloads"
+- "ams_activeiTunesAccount"
+- "ams_altDSID"
+- "blockDigests"
+- "blockSize"
+- "blockVerifier"
+- "buffer"
+- "cachedInstalls"
+- "cachedValuesForKeys:observationToken:updateHandler:"
+- "cachedValuesLock"
+- "cancelIfDuplicate"
+- "cellularDataPrompt"
+- "com.apple.managedappdistributiond.ACS"
+- "com.apple.managedappdistributiond.StreamingExtractor.actor"
+- "completedInstalls"
+- "context"
+- "coordinatorLookup"
+- "coordinators"
+- "currentTask"
+- "dataTask"
+- "dataWithPropertyList:format:options:error:"
+- "ddmDependencies"
+- "declarationLookup"
+- "declarations"
+- "decoder"
+- "dictionaryRepresentation"
+- "downloadSession"
+- "downloadingInstalls"
+- "downloadingLimit"
+- "dpInfo"
+- "extractionCompleteAtArchivePath:"
+- "extractionEnteredPassThroughMode"
+- "extractionEnteredPassthroughMode"
+- "getCurrentDataSubscriptionContextSync:"
+- "hasher"
+- "identityForSubscription:usingClient:error:"
+- "initWithQueue:"
+- "installedAppWithBundleID:reply:"
+- "isDeletableSystemApplication"
+- "isLoopbackConnection()"
+- "isPaused:withError:"
+- "isRoaming"
+- "localizations"
+- "locateCachedURL"
+- "locateCachedURL()"
+- "networkMonitor"
+- "nullIdentity"
+- "observationToken"
+- "partialData"
+- "pipe"
+- "policy"
+- "preferredLocalizationsFromArray:forPreferences:"
+- "preflightWithCompletion:"
+- "progress"
+- "removeObserverWithToken:"
+- "requestedInstalls"
+- "resultContinuation"
+- "session"
+- "sessionWithConfiguration:delegate:delegateQueue:"
+- "sessionsByPolicy"
+- "setAltDSID:"
+- "setAppleID:"
+- "setBundleIdentifier:"
+- "setBundlesIdentifiers:forPersonaWithPersonaUniqueString:completionHandler:"
+- "setDSPersonID:"
+- "setExtractionProgress:"
+- "setExtractorDelegate:"
+- "setLsRequiresPostProcessing:"
+- "settingsForIdentity:"
+- "sharedManager"
+- "singleCoordinator"
+- "storeIdentifiers"
+- "suspendedInstalls"
+- "suspension"
+- "transactions"
+- "transientObserver"
+- "underestimatedLimit"
+- "updatedValueStream"
+- "updateiTunesMetadataForAppWithIdentity:plistData:options:error:"
+- "username"
+- "v24@0:8d16"
+- "waitingForDownloadSlot"
+- "waitingForInstallation"
+
+```
